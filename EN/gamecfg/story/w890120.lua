@@ -1,12 +1,12 @@
 return {
-	id = "W890120",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W890120",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "All devices in your possession will be lost when you enter a Siren Research Facility.",
 			typewriter = {
 				speed = 0.05,

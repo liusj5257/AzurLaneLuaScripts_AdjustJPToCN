@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "鱼雷指令",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 0,
 	id = 60422,
-	picture = "0",
 	castCV = "",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				weapon_id = 481
 			}

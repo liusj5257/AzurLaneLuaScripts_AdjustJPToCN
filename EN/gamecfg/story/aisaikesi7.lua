@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Enterprise Troubles\n\n<size=45>Chapter 7: When We're Together</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Although managing a fleet is quite complicated, many tasks have become much simpler thanks to Essex's assistance.",
 			typewriter = {
 				speed = 0.05,
@@ -104,15 +104,15 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "... Ah, someone's at the door! Come on in, it's unlocked!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,12 +137,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "Pardon me.",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Pardon me.",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -160,8 +160,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Enterprise! Do you need anything?",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "Give me just a moment. Commander, the log should be in that stack by your hand.",
 			typewriter = {
 				speed = 0.05,
@@ -228,12 +228,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "Essex, you seem to have changed. Your synergy with Commander has improved as well.",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Essex, you seem to have changed. Your synergy with Commander has improved as well.",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -266,14 +266,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107090,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I've changed...?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "It's probably because of how much time I've spent with you, Commander. Since becoming secretary, I've learned a lot of things not just about myself, but also about how to deal with others.",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Um, does that include, um...",
 			typewriter = {
@@ -356,8 +356,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Actually, Commander...",
 			typewriter = {
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "Sorry, I actually left something in here...",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sorry, I actually left something in here...",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -393,8 +393,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "...!! (blushes profusely)",
 			typewriter = {
@@ -410,8 +410,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Essex's expression was a strange mix of embarrassment and anger. Enterprise, who was in the process of pushing open the door, awkwardly stopped mid-way.",

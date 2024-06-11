@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162331
 				}
@@ -15,10 +15,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162332
 				}
@@ -28,10 +28,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162333
 				}
@@ -41,10 +41,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162334
 				}
@@ -54,10 +54,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162335
 				}
@@ -67,10 +67,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162336
 				}
@@ -80,10 +80,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162337
 				}
@@ -93,10 +93,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162338
 				}
@@ -106,10 +106,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162339
 				}
@@ -119,10 +119,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 162340
 				}
@@ -132,10 +132,10 @@ return {
 	uiEffect = "",
 	name = "特殊弹幕开火",
 	cd = 0,
+	picture = "1",
+	desc = "",
 	painting = 1,
 	id = 1013270,
-	picture = "1",
 	castCV = "",
-	desc = "",
 	effect_list = {}
 }

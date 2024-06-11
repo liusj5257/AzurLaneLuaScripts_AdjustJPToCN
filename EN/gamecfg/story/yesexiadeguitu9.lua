@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205030,
 			nameColor = "#ffff4d",
 			side = 2,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "Her speed... I really can't deal with these tight turns in night battles...!",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "Ahaha! A direct hit! That's the power of a Vichya knight's torpedoes!",
 			typewriter = {
 				speed = 0.05,
@@ -189,14 +189,14 @@ return {
 			}
 		},
 		{
-			actor = 900236,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900236,
+			nameColor = "#a9f548",
 			say = "F-Finally, I can see the light of Toulon... I'm exhausted...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "We're almost there, but let's stay alert until we've arrived in port.",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "I know, I know! Tartu, why does it feel like you're hyper focused today~",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "Huh? I was just thinking about the best way to dock...",
 			typewriter = {
 				speed = 0.05,
@@ -271,9 +271,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Oh, I guess you're not that focused after all...",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -298,8 +298,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "Hm? Vauquelin? What's the matter?",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "Hehe~ Now that we've arrived, it feels like we can finally take a deep breath~",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = ".......................................",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "After crossing the perilous sea in the darkness, battlecruiser Dunkerque and the ships escorting her safely arrive at Toulon in the Vichya Dominion. But at the same time...",
 			typewriter = {
 				speed = 0.05,
@@ -353,16 +353,16 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff5c5c",
 			say = "In this \"Simulation,\" the Royal Navy will be dismantled after dozens of their ships sink to the hands of battleship Jean Bart...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUOYESHENGDAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUOYESHENGDAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"クリスマスパーティー！\n\n<size=45>三 ホカホカ囲炉裏</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_100",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_100",
 			bgm = "story-1",
 			actor = 302052,
 			nameColor = "#a9f548",
 			say = "ホカホカ～",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "あても～って、サボってないよ！クリスマスプレゼントの梱包をしてるだけだよ！",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "あはは、今のは冗談だよ！たくさん食べたし私も運動しないと",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "たくさん食べたの…？パーティーの前に…？",
 			typewriter = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "若葉、大変だったっすね…",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -159,8 +159,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "シアトル、ユニオンの分のプレゼントは大丈夫だった？",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "ばっちりっすよ！阿賀野と清波もお疲れっす！あれ？清波のこの格好…",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301541,
 			dir = 1,
+			actor = 301541,
 			nameColor = "#a9f548",
 			say = "夕暮ちゃんと一緒に選んだもので、「クリスマスの雰囲気に合ってますよ」って……へ、変じゃありませんよね…？",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 302201,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302201,
+			nameColor = "#a9f548",
 			say = "ええ、全然変じゃありませんよ。ふふ、「狼さんが食べてしまいそうな赤ずきん」の恰好ですわ",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -268,8 +268,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "気持ちはちょっとわかるね。うんうん",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "ジンジャークッキー…？",
 			typewriter = {
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "うん、パーティー用のお菓子作りでちょっと悩んじゃって",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301541,
 			dir = 1,
+			actor = 301541,
 			nameColor = "#a9f548",
 			say = "う、ウサちゃんみたいなクッキー…かわいいと思います…",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "じ、ジンジャークッキーの話題は……",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302201,
 			dir = 1,
+			actor = 302201,
 			nameColor = "#a9f548",
 			say = "「愛情」のほかに、少し「サプライズ」になる隠し味があったほうがよさそうですね",
 			typewriter = {
@@ -411,9 +411,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
 			blackBg = true,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "この話題、ユニオンなら「あの子」に聞いたほうがいいのでは…？",
 			typewriter = {

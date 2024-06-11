@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU31",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level-french1",
+			say = "莫三比克海峽 稍早前",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
-			say = "莫三比克海峽 稍早前",
+			bgm = "level-french1",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -34,8 +34,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "阿爾及利亞、沃克蘭、拉.加利索尼埃，等等，等等我啦！",
 			typewriter = {
@@ -51,8 +51,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ff5c5c",
 			say = "才不要呢，誰會在聽到這種話之後就乖乖停下來啊！",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ff5c5c",
 			say = "糾纏過度可不是騎士應該有的行為哦？",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "很不巧，我現在是自由鳶尾的魔法使。這次就算硬拖也要把妳們拖回去！",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ff5c5c",
 			say = "…嘖，這麼下去真的要被追上了。",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "連這一步也算到了嗎，真是可怕…差不多就是這裡了。",
 			typewriter = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/hit",
+			say = "嗖----------",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
-			say = "嗖----------",
+			soundeffect = "event:/battle/hit",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "咦、咦？！從哪裡出現的攻擊！",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "海面下有…重櫻的潛艇？ ！她們怎麼可能在這裡！大家快準備反潛作戰。",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "哎？！我的也是……！",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,8 +302,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "………我的也壞了。原來當時是故意瞄準這裡打的嗎，沃克蘭！",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ff5c5c",
 			say = "哎？！原來當時妳說的作戰是為現在準備的啊！好厲害，阿爾及利亞！",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -346,8 +346,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "這怎麼可能是我的計劃，我可做不出這種能同時算計伊莉莎白和黎胥留的計劃…",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "……這是鐵血的“那個女人”的計劃。今天發生的一切都在她的預料之中。",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "“那個女人”是…？",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "最後給妳們一句忠告，碧藍航線指揮部並不是妳們想像中的樣子，不要輕易相信妳們的“盟友”。",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "……黎胥留卿就拜託妳們了。",
 			typewriter = {

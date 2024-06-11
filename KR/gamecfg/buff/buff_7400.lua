@@ -1,14 +1,14 @@
 return {
 	{},
 	{},
-	init_effect = "",
-	name = "兵装训练 贝法",
 	time = 0,
+	name = "兵装训练 贝法",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 7400,
-	picture = "",
-	last_effect = "",
 	icon = 7400,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddTag",

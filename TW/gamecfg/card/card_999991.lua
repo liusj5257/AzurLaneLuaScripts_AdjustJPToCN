@@ -5,8 +5,8 @@ return {
 	effect_list = {
 		{
 			{
-				type = "BattleCardPuzzleSkillAddBuff",
 				caster = "Leader",
+				type = "BattleCardPuzzleSkillAddBuff",
 				target_choise = {
 					"TargetFleetIndex"
 				},
@@ -20,8 +20,8 @@ return {
 			{
 				type = "BattleCardPuzzleSkillMoveCard",
 				arg_list = {
-					move_to = 1,
 					shuffle = 1,
+					move_to = 1,
 					move_op = "Add"
 				}
 			}

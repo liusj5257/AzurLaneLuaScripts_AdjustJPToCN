@@ -15,7 +15,7 @@ slot10 = {
 }
 slot11, slot12, slot13 = nil
 
-function slot14()
+slot14 = function()
 	uv0.locale(uv1)
 
 	uv1.a = uv1.alpha
@@ -58,7 +58,7 @@ slot15 = slot5.P(function (slot0, slot1)
 	return slot1
 end)
 
-function slot16(slot0, slot1)
+slot16 = function(slot0, slot1)
 	if not (slot1 and slot1[slot0]) then
 		uv0("undefined name: " .. slot0)
 	end
@@ -66,11 +66,11 @@ function slot16(slot0, slot1)
 	return slot2
 end
 
-function slot17(slot0, slot1)
+slot17 = function(slot0, slot1)
 	uv0(("pattern error near '%s'"):format(#slot0 < slot1 + 20 and slot0:sub(slot1) or slot0:sub(slot1, slot1 + 20) .. "..."), 2)
 end
 
-function slot19(slot0, slot1, slot2)
+slot19 = function(slot0, slot1, slot2)
 	if uv0(slot2) ~= "string" then
 		return nil
 	end

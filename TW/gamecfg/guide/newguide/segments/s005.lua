@@ -13,15 +13,15 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = 147.8,
 				posX = 328.7,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
 				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
 				triggerType = {
 					1
 				},
@@ -37,15 +37,21 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -50,
 				posX = 250,
 				text = slot0[2]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/battle"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/right/combatBtn"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -62,15 +68,15 @@ return {
 		{
 			alpha = 0.276,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = -50,
 				posX = 250,
 				text = slot0[3]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
 				pathIndex = -1,
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/enter_main",
 				triggerType = {
 					1
 				},
@@ -87,16 +93,16 @@ return {
 		{
 			alpha = 0.34,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[4]
 			},
 			ui = {
+				pathIndex = -1,
 				delay = 1.8,
 				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/float/levels/items/Chapter_101/main",
-				pathIndex = -1,
 				triggerType = {
 					1
 				},
@@ -109,15 +115,15 @@ return {
 		{
 			alpha = 0.513,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -410,
 				posX = -446,
 				text = slot0[5]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/LevelStageInfoView(Clone)/panel/start_button",
 				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/LevelStageInfoView(Clone)/panel/start_button",
 				triggerType = {
 					1
 				},
@@ -130,15 +136,15 @@ return {
 		{
 			alpha = 0.435,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -164,
 				posX = 270,
 				text = slot0[6]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/Fixed/start_button",
 				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/Fixed/start_button",
 				triggerType = {
 					1
 				},

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 1: Daybreak of Victory</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Today, many light cruisers from around the port gathered to conduct a ship-class specific exercise...",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			say = "Today, many light cruisers from around the port gathered to conduct a ship-class specific exercise...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 102060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102060,
+			nameColor = "#a9f548",
 			say = "Crap! Damn it, don't tell me I've also been sunk...",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1000,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -78,8 +78,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Another team member is out... at this rate, we won't be able to hold out!",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Even with their combined strength, the light cruisers were still struggling.",
 			typewriter = {
 				speed = 0.05,
@@ -164,11 +164,11 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502020,
+			nameColor = "#a9f548",
 			say = "Focus on dodging! But if this keeps up...",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "Don't panic, everyone!",
 			effects = {
 				{
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Suddenly, the inspiring voice of the protected cruiser, Avrora, rang out across the surface of the ocean.",
 			effects = {
 				{
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "You betcha! All right everyone, we're gonna take out every last one of them!",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502030,
+			nameColor = "#a9f548",
 			say = "Got it!",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Jeez, look at them, charging forward after saying something cool...",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -423,13 +423,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_nepu2",
+			side = 2,
+			dir = 1,
 			say = "After hearing Avrora's rousing words, her colleagues began to charge forward courageously, smashing through the enemy ships.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

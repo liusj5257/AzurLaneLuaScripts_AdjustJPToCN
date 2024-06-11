@@ -1,13 +1,13 @@
 return {
-	id = "JIDIFENGBAO6-1",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO6-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			typewriterTime = 0.05,
+			mode = 1,
 			asideType = 3,
 			sequence = {
 				{
@@ -27,13 +27,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 701030,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "날씨가 더 나빠진 것 같아….",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,10 +57,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "북극에 가까워질수록 날씨가 더 나빠지네.",
 			painting = {
 				alpha = 0.3,
@@ -74,10 +74,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이곳은 분명 거울 해역도 아닌데 말이야. 오미터의 기상 무기가 대체 어떤 원리인지 전혀 모르겠어.",
 			painting = {
 				alpha = 0.3,
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "큰일이에요. 북동쪽에서 오미터가 발견되었어요!",
 			painting = {
 				alpha = 0.3,
@@ -120,10 +120,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "눈보라와 전자파 교란 속에서 벌써 이렇게 가까이 접근했단 말이야!?",
 			painting = {
 				alpha = 0.3,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,10 +147,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "북극 요새는 바로 앞에 있으니 계속 피할 필요도 없어.",
 			painting = {
 				alpha = 0.3,
@@ -164,10 +164,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "화력을 집중해서 제거한다!",
 			painting = {
 				alpha = 0.3,

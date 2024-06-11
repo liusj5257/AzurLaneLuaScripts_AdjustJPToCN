@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE8",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			bgmDelay = 1,
+			mode = 1,
 			bgm = "theme-clemenceau",
 			sequence = {
 				{
@@ -67,13 +67,13 @@ return {
 			}
 		},
 		{
-			bgm = "theme-threat-typeV",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			nameColor = "#A9F548FF",
-			bgmDelay = 2,
 			soundeffect = "event:/ui/alarm",
-			stopbgm = true,
+			bgmDelay = 2,
+			bgm = "theme-threat-typeV",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "在冠冕拋出去的瞬間，少女感覺世界也在嗡鳴中崩塌。",
 			typewriter = {
@@ -82,15 +82,15 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "黑色的迷霧逐漸遮蔽了視線，所見的一切，連帶著搖曳的意識，都墜入了黑暗的潮水中。",
@@ -103,10 +103,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "好吵……",
 			painting = {
 				alpha = 0.3,
@@ -121,10 +121,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "不過……很快就能安靜下來了吧。",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "終於，要安靜下來了……",
 			painting = {
 				alpha = 0.3,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "少女放棄似地閉上了雙眼，任憑意識逐漸遠去。",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "但耳邊，依稀傳來了一個聲音，熟悉又陌生的聲音。",
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聽不真切的聲音",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聽不真切的聲音",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聽不真切的聲音",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			stopbgm = true,
+			hidePaintObj = true,
 			say = "光，出現了。",
 			typewriter = {
 				speed = 0.05,
@@ -229,9 +229,9 @@ return {
 			},
 			effects = {
 				{
-					active = false,
+					center = false,
 					name = "miwu_dark",
-					center = false
+					active = false
 				}
 			},
 			flashout = {
@@ -242,8 +242,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -254,10 +254,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "……光？",
 			painting = {
 				alpha = 0.3,
@@ -269,13 +269,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			mode = 1,
 			side = 2,
-			bgName = "bg_masaiqu_cg2",
-			actorName = "黎胥留",
+			nameColor = "#92fc63",
 			bgmDelay = 2,
 			bgm = "theme-richelieu",
-			mode = 1,
+			bgName = "bg_masaiqu_cg2",
+			actorName = "黎胥留",
 			hidePaintObj = true,
 			say = "「于地狱之中涌现的邪恶。」",
 			flashout = {
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -353,8 +353,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -382,10 +382,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_masaiqu_cg2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_masaiqu_cg2",
 			say = "扭動的夢魘在光芒的焚燒下逐漸變得稀薄。",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "不久後，馬賽曲感受到了溫度的回歸。",
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "少女鼓起精神來，確認著周圍的狀況。",
@@ -430,8 +430,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "馬賽曲",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "馬賽曲",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "馬賽曲",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "馬賽曲",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "馬賽曲",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "突如其來的巨大刺激擊穿了維繫理性的最後一根弦。",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "疲勞如洪水般湧來，少女的意識斷線了。",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -553,27 +553,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_sainthelena2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_sainthelena2",
 			say = "不久後，受傷的馬賽曲被轉移到了安全的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "而那些扭曲的駭人異物，在奪走了冠冕後也消散地無影無蹤。",
@@ -592,8 +592,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "彷彿最初就不曾存在過一樣。",
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "唯有島嶼上燃燒著的廢墟，訴說著這場戰鬥的艱辛與真實。",

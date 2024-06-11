@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAOFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAOFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"急がば回れ！\n\n<size=45>七　一人はみんなのために</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -27,8 +27,8 @@ return {
 			hidePaintObj = true,
 			say = "……以上が、今回の顛末になります！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "先日の演習中での量産艦と戦闘した際の報告を島風にしてもらった。",
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "自分が同行している最中の出来事でも詳細な報告書を用意してくれた島風。",
@@ -86,10 +86,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "いえいえ、少しでも指揮官のお役に立ちたいですから！",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "誇らしく笑う島風の表情は、数日前に出会った時よりずいぶん大人らしく見える。",
@@ -129,10 +129,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "今回の報告書、何点くらいでした？",
 			typewriter = {
 				speed = 0.05,
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あぁーっ、次はもっと上を狙いますよ……！",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "本当は１００点をあげても良かったくらいだが、彼女にはさらに精進をして欲しいと思う。",
@@ -199,10 +199,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "秘書艦の仕事って、とてもやり甲斐がありますね！",
 			typewriter = {
 				speed = 0.05,
@@ -217,10 +217,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "最初の内は、とにかく自分が全力を尽くせれば――くらいに思ってたんですけど……",
 			typewriter = {
 				speed = 0.05,
@@ -235,10 +235,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "島風の頑張りで、他の人ももっと頑張ってくれるなんて、本当に楽しいな……って、生意気ですかね！？",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "照れたり恐縮したりする島風を見て、こちらも嬉しくなる。",
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "島風のおかげで、自分もまた新たな力を発揮できたのではないだろうか。",
@@ -303,10 +303,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………。",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "（あれ？滑ったかな……）",
@@ -336,10 +336,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それでこそ……それでこそ、ですよ！",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "？？",
@@ -379,10 +379,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "もう！みなまで言わせる気ですか？仕方ないですね……！",
 			typewriter = {
 				speed = 0.05,
@@ -397,10 +397,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "強くて、優しくて、頭も良くって！気の利いた冗談も言ってくれる指揮官が……",
 			typewriter = {
 				speed = 0.05,
@@ -415,10 +415,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "島風はもう、ずーっと、大好きになっちゃてるんですから！……わわ！？",
 			typewriter = {
 				speed = 0.05,
@@ -430,8 +430,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "とんでもない発言をよそに（？）、彼女がうっかり落としたコーヒーカップに気を取られてしまう。",
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

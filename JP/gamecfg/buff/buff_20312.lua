@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 20312,
 	picture = "",
 	desc = "进入战斗后，触发全弹发射-猫鲨级II",
 	stack = 1,
-	id = 20312,
+	color = "red",
 	icon = 20300,
 	last_effect = "",
 	effect_list = {
@@ -19,8 +19,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 20312
+				skill_id = 20312,
+				target = "TargetSelf"
 			}
 		}
 	}

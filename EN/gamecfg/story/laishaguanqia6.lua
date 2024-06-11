@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "Mirror Sea - In the past",
-			bgm = "ryza-az-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,10 +39,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I take it you're working on what you call the \"Land of Beginnings,\" yes?",
 			painting = {
 				alpha = 0.3,
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "Whaddya think about the hints on the monument, by the way? Pretty good, right?",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -102,10 +102,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...These are meant to be hints? They read as no more than a lunatic's ravings to me.",
 			painting = {
 				alpha = 0.3,
@@ -119,9 +119,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "bg_zhuiluo_2",
 			actor = 900233,
 			actorName = "Purity",
 			say = "Ravings? I worked real hard on that exercise in wordsmithery!",
@@ -141,8 +141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			actor = 900233,
 			actorName = "Purity",
 			say = "A real tough customer, aren't you... Well, in any case, what are we gonna do with this next area?",
@@ -178,10 +178,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hmm... Up to you.",
 			painting = {
 				alpha = 0.3,
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "I read the database. I saw what happened to your home – how it was ruined and desecrated.",
 			painting = {
@@ -249,10 +249,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I do appreciate the sentiment, but all things created in this place are fakes, are they not?",
 			painting = {
 				alpha = 0.3,
@@ -266,9 +266,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			actor = 900233,
 			actorName = "Purity",
 			say = "They're not fakes! They're highly faithful replicas!",
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,10 +295,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Regardless, it would be no more than a fleeting illusion to me. I was cast into this realm amid a slumber, and I have no desire to enter a dream within a dream.",
 			painting = {
 				alpha = 0.3,
@@ -331,10 +331,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I do not care. If you absolutely must create a forest, then keep what you have now. This has more atmosphere.",
 			painting = {
 				alpha = 0.3,
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "Sounds good to me! Now the question is, what kind of monsters do I plop down? You need at least a LITTLE challenge for it to be a real adventure.",
 			painting = {
@@ -384,10 +384,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In case you didn't know, the Philuscha are repelled by water.",
 			painting = {
 				alpha = 0.3,
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "For crying out loud... Screw it! I'm going for something brand new – mass-produced ships INSPIRED by the Philuscha.",
 			painting = {
@@ -419,10 +419,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Philuscha turning into vessels and overcoming their weakness of water... The thought of such an adversary terrifies me.",
 			painting = {
 				alpha = 0.3,
@@ -434,29 +434,29 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_ryza_1",
-			nameColor = "#A9F548FF",
-			say = "Mirror Sea Ruins - Land of Beginnings",
 			bgmDelay = 2,
 			bgm = "ryza-az-theme",
+			nameColor = "#A9F548FF",
+			say = "Mirror Sea Ruins - Land of Beginnings",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -467,10 +467,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Rigging test, check! Synthesized a whole bunch of ammo, check! Now, it's time for the real show!",
 			painting = {
 				alpha = 0.3,
@@ -482,13 +482,13 @@ return {
 			}
 		},
 		{
-			actor = 10900030,
 			side = 2,
 			bgName = "bg_ryza_1",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Let's get back to the matter at hand. Which island should we check out next?",
 			hidePaintEquip = true,
+			actor = 10900030,
+			nameColor = "#A9F548FF",
+			say = "Let's get back to the matter at hand. Which island should we check out next?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,10 +502,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, why don't we just split up and check all of them?",
 			painting = {
 				alpha = 0.3,
@@ -517,12 +517,12 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not just yet. There are too many unknowns, and it would be risky to scatter our forces.",
 			painting = {
 				alpha = 0.3,
@@ -534,13 +534,13 @@ return {
 			}
 		},
 		{
-			actor = 10900040,
 			side = 2,
 			bgName = "bg_ryza_1",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Suruga is right. When you're investigating unknown ruins, the wisest course of action is to move as one.",
 			hidePaintEquip = true,
+			actor = 10900040,
+			nameColor = "#A9F548FF",
+			say = "Suruga is right. When you're investigating unknown ruins, the wisest course of action is to move as one.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,10 +554,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "However, we do not yet know where this \"Desolate Capital\" lies. I presume the \"Central Foundation\" should wait until we've collected the keys, as well...",
 			painting = {
 				alpha = 0.3,
@@ -569,12 +569,12 @@ return {
 			}
 		},
 		{
-			actor = 207050,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That leaves us with two options: the \"Underworld Grove\" and \"Castle of Strife.\"",
 			painting = {
 				alpha = 0.3,
@@ -589,10 +589,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How about we go for the grove first? If that's the Underworld we know, then it ought to be familiar.",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Familiar? Whoa, are you saying you and your friends have been to the underworld?!",
 			painting = {
 				alpha = 0.3,
@@ -622,12 +622,12 @@ return {
 			}
 		},
 		{
-			actor = 10900010,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yep! It's a long story, but that was kind of like traveling to another dimension as well.",
 			painting = {
 				alpha = 0.3,
@@ -642,10 +642,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's walk and talk! I'm dying to hear all about your adventures!",
 			painting = {
 				alpha = 0.3,
@@ -657,8 +657,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -670,10 +670,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sure, I'd love to share some stories!",
 			painting = {
 				alpha = 0.3,
@@ -688,11 +688,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			actor = 10900020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "Off we go on another adventure, Ryza. I'm just amazed that this is how it starts.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -706,10 +706,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right?! We've got new friends along for the ride, too. But it's more like searching for a way home instead of exploring uncharted lands.",
 			painting = {
 				alpha = 0.3,
@@ -724,10 +724,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101490,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh, ruins are always teeming with secrets. Getting you back home is important, but don't forget the pleasure of adventure!",
 			painting = {
 				alpha = 0.3,
@@ -742,10 +742,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ooh, yeah! You're so right!",
 			painting = {
 				alpha = 0.3,
@@ -760,10 +760,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Everyone, let's set sail for the western island's Underworld Grove! It's the start of an all-new adventure!",
 			painting = {
 				alpha = 0.3,

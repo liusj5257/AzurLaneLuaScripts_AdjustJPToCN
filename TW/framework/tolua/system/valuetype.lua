@@ -13,7 +13,7 @@ slot0 = {
 	[uint64] = 12
 }
 
-function AddValueType(slot0, slot1)
+AddValueType = function(slot0, slot1)
 	uv0[slot0] = slot1
 end
 

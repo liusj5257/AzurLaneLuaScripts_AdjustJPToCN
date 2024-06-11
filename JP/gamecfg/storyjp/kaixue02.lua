@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE02",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE02",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"桜華爛漫新学期\n\n<size=45>その二　運動場の問題児たち</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "勉強も運動もこのZ1様こそ最強！",
 			bgm = "story-1",
+			actor = 401011,
+			nameColor = "#a9f548",
+			say = "勉強も運動もこのZ1様こそ最強！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,13 +66,13 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			say = "ふふん、言いましたね――",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "ふふん、言いましたね――",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "売られたケンカは買わせてもらいます！",
 			typewriter = {
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 101061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101061,
+			nameColor = "#a9f548",
 			say = "はわわ、来ました来ました！",
 			typewriter = {
 				speed = 0.05,
@@ -152,10 +152,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 37.5,
 					dur = 0.15,
-					type = "shake",
-					y = 37.5
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
@@ -208,13 +208,13 @@ return {
 			}
 		},
 		{
-			actor = 307032,
+			say = "ひ～～りゅう～～！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "ひ～～りゅう～～！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401011,
+			nameColor = "#a9f548",
 			say = "別に授業に参加したくないってわけじゃないぞ！だって先生が教えるのがあまりにもつまらないから、この俺様が教えてやるって、つい……",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 15,
 					number = 3
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "そういうことですか！あははははは",
 			typewriter = {
@@ -319,13 +319,13 @@ return {
 			}
 		},
 		{
-			actor = 307032,
+			say = "飛龍も釣られるんじゃないわよ！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "飛龍も釣られるんじゃないわよ！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "えええ！だって向こうが…",
 			typewriter = {
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "そう簡単に挑発に乗るあなたも悪いわよ！あとクレイヴン、この子たちが元気すぎるのは良しとして、あなたが調子に乗せたらダメでしょう！？",
 			typewriter = {
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "とにかくついてきなさい！説教するわよ！",
 			typewriter = {
@@ -407,14 +407,14 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actorName = "{namecode:94}&クレイヴン&Z1",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			actorName = "{namecode:94}&クレイヴン&Z1",
+			actor = 307041,
+			nameColor = "#a9f548",
 			say = "はい……",
 			subActors = {
 				{
@@ -440,10 +440,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -45,
 					dur = 0.8,
-					type = "shake",
-					y = -45
+					number = 1,
+					type = "shake"
 				}
 			}
 		}

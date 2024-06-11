@@ -1,10 +1,10 @@
 slot0 = class("SpWeaponModifyLayer", BaseUI)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SpWeaponModifyUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.equipmentPanel = slot0:findTF("Main/panel/equipment_panel")
 	slot0.materialPanel = slot0:findTF("Main/panel/material_panel")
 	slot0.equipmentIcon = slot0:findTF("Icon", slot0.equipmentPanel)
@@ -27,15 +27,15 @@ function slot0.init(slot0)
 	setText(slot0.materialStartButton:Find("Image"), i18n("spweapon_ui_transform"))
 end
 
-function slot0.SetSpweaponVO(slot0, slot1)
+slot0.SetSpweaponVO = function(slot0, slot1)
 	slot0.spWeaponVO = slot1
 end
 
-function slot0.SetItems(slot0, slot1)
+slot0.SetItems = function(slot0, slot1)
 	slot0.itemVOs = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("BG"), function ()
 		uv0:closeView()
 	end)
@@ -43,11 +43,11 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.ResetMaterialMask(slot0)
+slot0.ResetMaterialMask = function(slot0)
 	slot0.confirmUpgrade = nil
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	setText(slot0.equipmentName, slot0.spWeaponVO:GetName())
 
 	slot1 = slot0.spWeaponVO:GetUpgradeConfig()
@@ -169,7 +169,7 @@ function slot0.UpdateView(slot0)
 	setGray(slot0.materialStartButton, slot6 or table.equal(slot3, slot0.spWeaponVO:GetAttributesRange()))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

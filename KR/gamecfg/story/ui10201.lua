@@ -1,17 +1,17 @@
 return {
-	id = "UI10201",
 	mode = 3,
 	noWaitFade = true,
 	once = true,
+	id = "UI10201",
 	scripts = {
 		{
-			actor = 105040,
+			withoutPainting = true,
 			nameColor = "#92fc63",
 			stopbgm = true,
+			blackBg = true,
+			actor = 105040,
 			mode = 2,
 			say = "언니...",
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,10 +24,10 @@ return {
 		{
 			actor = 105040,
 			nameColor = "#92fc63",
+			withoutPainting = true,
 			mode = 2,
+			blackBg = true,
 			say = "언니... 어디야?",
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,10 +40,10 @@ return {
 		{
 			actor = 105040,
 			nameColor = "#92fc63",
+			withoutPainting = true,
 			mode = 2,
+			blackBg = true,
 			say = "언니... 바다가... 불타고 있어...",
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,10 +56,10 @@ return {
 		{
 			actor = 105040,
 			nameColor = "#92fc63",
-			mode = 2,
-			say = "미안해... 언니... 그들을 지켜주지 못해서...",
-			blackBg = true,
 			withoutPainting = true,
+			mode = 2,
+			blackBg = true,
+			say = "미안해... 언니... 그들을 지켜주지 못해서...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,11 +73,11 @@ return {
 			actor = 105030,
 			side = 0,
 			bgName = "bg_story_4",
-			nameColor = "#92fc63",
 			bgspeed = 2,
 			blackBg = true,
-			say = "\"신이시여, 부디 연옥에 있는 불쌍한 양들을 구원해주소서\"",
 			bgm = "story-5",
+			nameColor = "#92fc63",
+			say = "\"신이시여, 부디 연옥에 있는 불쌍한 양들을 구원해주소서\"",
 			effects = {
 				{
 					active = true,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			sequenceSpd = 2,
 			mode = 1,
+			sequenceSpd = 2,
 			bgFade = true,
 			effects = {
 				{

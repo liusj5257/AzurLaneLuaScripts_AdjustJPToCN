@@ -15,7 +15,7 @@ slot1.PUSH_TYPE_GUILD_MISSION_FORMATION = 10
 slot2 = {}
 slot3 = false
 
-function slot1.Init(slot0)
+slot1.Init = function(slot0)
 	uv0 = {}
 
 	for slot4, slot5 in ipairs(uv1.push_data_template) do
@@ -25,7 +25,7 @@ function slot1.Init(slot0)
 	uv2 = PlayerPrefs.GetInt("setting_ship_name") == 1
 end
 
-function slot1.Reset(slot0)
+slot1.Reset = function(slot0)
 	uv0 = {}
 
 	for slot4, slot5 in ipairs(uv1.push_data_template) do
@@ -39,7 +39,7 @@ function slot1.Reset(slot0)
 	uv2 = false
 end
 
-function slot1.setSwitch(slot0, slot1, slot2)
+slot1.setSwitch = function(slot0, slot1, slot2)
 	if not uv0.push_data_template[slot1] then
 		return
 	end
@@ -49,32 +49,32 @@ function slot1.setSwitch(slot0, slot1, slot2)
 	PlayerPrefs.SetInt("push_setting_" .. slot1, slot2 and 0 or 1)
 end
 
-function slot1.setSwitchShipName(slot0, slot1)
+slot1.setSwitchShipName = function(slot0, slot1)
 	uv0 = slot1
 
 	PlayerPrefs.SetInt("setting_ship_name", slot1 and 1 or 0)
 end
 
-function slot1.isEnabled(slot0, slot1)
+slot1.isEnabled = function(slot0, slot1)
 	return uv0[slot1]
 end
 
-function slot1.isEnableShipName(slot0)
+slot1.isEnableShipName = function(slot0)
 	return uv0
 end
 
-function slot1.Push(slot0, slot1, slot2, slot3)
+slot1.Push = function(slot0, slot1, slot2, slot3)
 	slot5 = os.time() + slot3 - uv0.TimeMgr.GetInstance():GetServerTime()
 
 	NotificationMgr.Inst:ScheduleLocalNotification(slot1, slot2, slot5)
 	slot0:log(slot1, slot2, slot5)
 end
 
-function slot1.cancelAll(slot0)
+slot1.cancelAll = function(slot0)
 	NotificationMgr.Inst:CancelAllLocalNotifications()
 end
 
-function slot1.PushAll(slot0)
+slot1.PushAll = function(slot0)
 	if getProxy(PlayerProxy) and slot1:getInited() then
 		slot0:cancelAll()
 
@@ -116,7 +116,7 @@ function slot1.PushAll(slot0)
 	end
 end
 
-function slot1.PushEvent(slot0)
+slot1.PushEvent = function(slot0)
 	slot2 = uv0.push_data_template[slot0.PUSH_TYPE_EVENT]
 
 	for slot6, slot7 in ipairs(getProxy(EventProxy):getActiveEvents()) do
@@ -124,7 +124,7 @@ function slot1.PushEvent(slot0)
 	end
 end
 
-function slot1.PushGold(slot0)
+slot1.PushGold = function(slot0)
 	slot1 = getProxy(NavalAcademyProxy):GetGoldVO()
 	slot2 = slot1:bindConfigTable()
 	slot3 = slot1:GetLevel()
@@ -140,7 +140,7 @@ function slot1.PushGold(slot0)
 	end
 end
 
-function slot1.PushOil(slot0)
+slot1.PushOil = function(slot0)
 	slot1 = getProxy(NavalAcademyProxy):GetOilVO()
 	slot2 = slot1:bindConfigTable()
 	slot3 = slot1:GetLevel()
@@ -156,7 +156,7 @@ function slot1.PushOil(slot0)
 	end
 end
 
-function slot1.PushBackyard(slot0)
+slot1.PushBackyard = function(slot0)
 	if uv0.TimeMgr.GetInstance():GetServerTime() < getProxy(DormProxy):getRawData():getFoodLeftTime() then
 		slot3 = uv0.push_data_template[slot0.PUSH_TYPE_BACKYARD]
 
@@ -164,7 +164,7 @@ function slot1.PushBackyard(slot0)
 	end
 end
 
-function slot1.PushSchool(slot0)
+slot1.PushSchool = function(slot0)
 	slot2 = uv0.push_data_template[slot0.PUSH_TYPE_SCHOOL]
 	slot4 = getProxy(BayProxy):getData()
 
@@ -178,7 +178,7 @@ function slot1.PushSchool(slot0)
 	end
 end
 
-function slot1.PushTechnlogy(slot0)
+slot1.PushTechnlogy = function(slot0)
 	slot2 = getProxy(TechnologyProxy)
 
 	if uv0.push_data_template[uv1.PUSH_TYPE_TECHNOLOGY] and slot2 and #slot2:getPlanningTechnologys() > 0 and not slot3[#slot3]:isFinish() then
@@ -186,7 +186,7 @@ function slot1.PushTechnlogy(slot0)
 	end
 end
 
-function slot1.PushBluePrint(slot0)
+slot1.PushBluePrint = function(slot0)
 	slot2 = getProxy(TechnologyProxy)
 	slot3 = getProxy(TaskProxy)
 
@@ -203,7 +203,7 @@ function slot1.PushBluePrint(slot0)
 	end
 end
 
-function slot1.PushCommander(slot0)
+slot1.PushCommander = function(slot0)
 	slot2 = getProxy(CommanderProxy)
 
 	if uv0.push_data_template[uv1.PUSH_TYPE_COMMANDER] and slot2 then
@@ -217,7 +217,7 @@ function slot1.PushCommander(slot0)
 	end
 end
 
-function slot1.PushGuildMissionFormation(slot0)
+slot1.PushGuildMissionFormation = function(slot0)
 	if not getProxy(GuildProxy):getRawData() then
 		return
 	end
@@ -239,6 +239,6 @@ function slot1.PushGuildMissionFormation(slot0)
 	slot0:Push(slot6.title, slot6.content, slot4)
 end
 
-function slot1.log(slot0, slot1, slot2, slot3)
+slot1.log = function(slot0, slot1, slot2, slot3)
 	originalPrint(slot1, " - ", slot2, " - ", slot3 - os.time(), "s后推送")
 end

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "왠지 질렸어~ 엔터프라이즈, 좀만 더 있다가 미니애폴리스가 있는 데서 바베큐 할까?",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

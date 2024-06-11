@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Class Z IV\n\n<size=45>Taboo Double Trouble!</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ughhh... This time, I definitely have to succeed...",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "Ughhh... This time, I definitely have to succeed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,13 +66,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "Several minutes later, outside the counselor's office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "Okay, Miss Saratoga is waiting for me inside. I'm ready to head in-",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Okay, Miss Saratoga is waiting for me inside. I'm ready to head in-",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "(Boom!)",
 			typewriter = {
 				speed = 0.05,
@@ -219,12 +219,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "The classic door trap is just a decoy! The real trap is the highly precise carrier-based eraser-bomber! This is Saratoga's specialty, the Taboo Double Trouble! Hehe, scared ya, didn't I?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "The classic door trap is just a decoy! The real trap is the highly precise carrier-based eraser-bomber! This is Saratoga's specialty, the Taboo Double Trouble! Hehe, scared ya, didn't I?",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -303,12 +303,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "Miss Lexington...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Miss Lexington...",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

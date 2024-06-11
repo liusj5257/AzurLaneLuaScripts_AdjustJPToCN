@@ -60,11 +60,11 @@ slot2 = {
 	"minigame"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewShopsUI"
 end
 
-function slot0.SetPlayer(slot0, slot1)
+slot0.SetPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	if slot0.page then
@@ -72,13 +72,13 @@ function slot0.SetPlayer(slot0, slot1)
 	end
 end
 
-function slot0.SetShops(slot0, slot1)
+slot0.SetShops = function(slot0, slot1)
 	slot0.shops = slot1
 
 	slot0:SortActivityShops()
 end
 
-function slot0.SortActivityShops(slot0)
+slot0.SortActivityShops = function(slot0)
 	for slot4, slot5 in pairs(slot0.shops) do
 		if slot4 == uv0.TYPE_ACTIVITY then
 			table.sort(slot5, function (slot0, slot1)
@@ -88,7 +88,7 @@ function slot0.SortActivityShops(slot0)
 	end
 end
 
-function slot0.SetShop(slot0, slot1, slot2)
+slot0.SetShop = function(slot0, slot1, slot2)
 	if not slot0.shops then
 		return
 	end
@@ -104,7 +104,7 @@ function slot0.SetShop(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnUpdateItems(slot0, slot1)
+slot0.OnUpdateItems = function(slot0, slot1)
 	slot0.items = slot1
 
 	if slot0.page then
@@ -112,7 +112,7 @@ function slot0.OnUpdateItems(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateShop(slot0, slot1, slot2)
+slot0.OnUpdateShop = function(slot0, slot1, slot2)
 	slot0:SetShop(slot1, slot2)
 
 	if slot0.page == slot0.pages[slot1] then
@@ -120,7 +120,7 @@ function slot0.OnUpdateShop(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnUpdateCommodity(slot0, slot1, slot2, slot3)
+slot0.OnUpdateCommodity = function(slot0, slot1, slot2, slot3)
 	slot0:SetShop(slot1, slot2)
 
 	if slot0.page == slot0.pages[slot1] then
@@ -128,7 +128,7 @@ function slot0.OnUpdateCommodity(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_button")
 	slot0.frame = slot0:findTF("blur_panel")
 	slot0.pageContainer = slot0:findTF("frame/bg/pages")
@@ -167,7 +167,7 @@ function slot0.init(slot0)
 	slot0.shopUIList = UIItemList.New(slot0:findTF("frame/bg/shops"), slot0:findTF("frame/bg/shops/tpl"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -198,7 +198,7 @@ function slot0.didEnter(slot0)
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, slot0.pageContainer, Vector2.New(-35, -90))
 end
 
-function slot0.InitEntrances(slot0)
+slot0.InitEntrances = function(slot0)
 	slot0:InitCategory()
 	slot0:ActiveDefaultCategory()
 
@@ -206,7 +206,7 @@ function slot0.InitEntrances(slot0)
 	slot0.shopIndex = nil
 end
 
-function slot0.InitCategory(slot0)
+slot0.InitCategory = function(slot0)
 	slot0.categoryTrs = {}
 	slot1 = {
 		uv0.CATEGORY_MONTH,
@@ -229,7 +229,7 @@ function slot0.InitCategory(slot0)
 	slot0.categoryUIList:align(#slot1)
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	slot2 = uv0.CATEGORY2NAME[slot1]
 	slot4 = slot0:Find("label")
 	slot5 = slot0:Find("selected/selected")
@@ -259,25 +259,27 @@ function slot3(slot0, slot1)
 	slot10:SetNativeSize()
 end
 
-function slot0.UpdateCategory(slot0, slot1, slot2, slot3)
+slot0.UpdateCategory = function(slot0, slot1, slot2, slot3)
+	setActive(slot1:Find("lock"), slot3)
+	setActive(slot1:Find("label"), not slot3)
+	setActive(slot1:Find("selected"), false)
 	uv0(slot1, slot2)
 	onToggle(slot0, slot1, function (slot0)
-		uv0(uv1, slot0)
-		uv2:InitShops(uv3)
+		if slot0 then
+			uv0:InitShops(uv1)
 
-		uv2.category = uv3
+			uv0.category = uv1
 
-		uv2:ActiveDefaultShop()
+			uv0:ActiveDefaultShop()
+		end
+
+		setActive(uv2:Find("label"), not uv3 and not slot0)
+		setActive(uv2:Find("selected"), not uv3 and slot0)
 	end, SFX_PANEL)
-	(function (slot0, slot1)
-		setActive(slot0:Find("lock"), uv0)
-		setActive(slot0:Find("label"), not uv0 and not slot1)
-		setActive(slot0:Find("selected"), not uv0 and slot1)
-	end)(slot1, false)
 	setToggleEnabled(slot1, not slot3)
 end
 
-function slot0.InitShops(slot0, slot1)
+slot0.InitShops = function(slot0, slot1)
 	if slot0.category and slot0.category == slot1 then
 		return
 	end
@@ -314,14 +316,14 @@ function slot0.InitShops(slot0, slot1)
 	slot0.shopUIList:align(#slot3)
 end
 
-function slot4(slot0, slot1)
+slot4 = function(slot0, slot1)
 	slot2 = uv0.TYPE2NAME[slot1.type]
 
 	setText(slot0:Find("selected/Text"), slot2)
 	setText(slot0:Find("label"), slot2)
 end
 
-function slot5(slot0, slot1, slot2)
+slot5 = function(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		if uv0.prevBtn == uv1 then
 			return
@@ -343,7 +345,7 @@ function slot5(slot0, slot1, slot2)
 	setActive(slot1:Find("selected"), false)
 end
 
-function slot0.UpdateShop(slot0, slot1, slot2)
+slot0.UpdateShop = function(slot0, slot1, slot2)
 	uv0(slot1, slot2)
 
 	slot3 = slot1:Find("selected")
@@ -377,7 +379,7 @@ function slot0.UpdateShop(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.ActiveDefaultCategory(slot0)
+slot0.ActiveDefaultCategory = function(slot0)
 	if type(slot0.contextData.warp or slot0.contextData.activeShop or uv0.TYPE_ACTIVITY) == "string" then
 		slot1 = defaultValue(table.indexof(uv1, slot1), uv0.TYPE_ACTIVITY)
 	end
@@ -418,7 +420,7 @@ function slot0.ActiveDefaultCategory(slot0)
 	triggerToggle(slot0.categoryTrs[slot3], true)
 end
 
-function slot0.ActiveDefaultShop(slot0)
+slot0.ActiveDefaultShop = function(slot0)
 	slot1, slot2 = nil
 
 	if slot0.recorder[slot0.category] then
@@ -430,7 +432,7 @@ function slot0.ActiveDefaultShop(slot0)
 		slot1 = slot0.shopType
 	end
 
-	function slot3()
+	slot3 = function()
 		slot0 = nil
 
 		for slot4, slot5 in pairs(uv0.displayShops) do
@@ -465,7 +467,7 @@ function slot0.ActiveDefaultShop(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.contextData.singleWindow:GetLoaded() and slot0.contextData.singleWindow:isShowing() then
 		slot0.contextData.singleWindow:Close()
 
@@ -487,7 +489,7 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.BlurView(slot0)
+slot0.BlurView = function(slot0)
 	slot1 = slot0.frameTr:Find("bg/blur")
 
 	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.frameTr, {
@@ -499,11 +501,11 @@ function slot0.BlurView(slot0)
 	slot1:SetAsFirstSibling()
 end
 
-function slot0.UnBlurView(slot0)
+slot0.UnBlurView = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.frameTr, slot0._tf)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.bulinTip then
 		slot0.bulinTip:Destroy()
 

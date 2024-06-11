@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "苍狼之印",
 	init_effect = "",
+	id = 11860,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11860,
+	color = "yellow",
 	icon = 11860,
 	last_effect = "",
 	effect_list = {
@@ -44,8 +44,8 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
-				minTargetNumber = 1,
 				skill_id = 11860,
+				minTargetNumber = 1,
 				ship_type_list = {
 					6,
 					7

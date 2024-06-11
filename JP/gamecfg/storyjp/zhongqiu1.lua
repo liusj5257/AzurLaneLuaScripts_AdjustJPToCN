@@ -1,11 +1,11 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHONGQIU1",
-	once = true,
 	fadeType = 1,
-	fadein = 1.5,
+	once = true,
+	id = "ZHONGQIU1",
 	updateOnBegin = 1,
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 502030,

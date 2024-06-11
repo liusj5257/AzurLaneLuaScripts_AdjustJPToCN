@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGRIDEXUNLUREN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGRIDEXUNLUREN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"겨울날의 길잡이\n\n<size=45>4 최종 결전?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_night",
-			say = "모항 광장, 세트",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "모항 광장, 세트",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 702050,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "역시 아카시네 가게 코인이었네. 딱히 이렇다 할 특이점은 없어.",
 			painting = {
 				alpha = 0.3,
@@ -66,10 +66,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "조금만 더 모으면 요정의 보물을 찾을 수 있겠지. 그러면……",
 			painting = {
 				alpha = 0.3,
@@ -84,10 +84,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "? 이 상자는…?",
 			painting = {
 				alpha = 0.3,
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "쿠이비셰프는 눈 앞에 펼쳐진 통로의 정중앙에 상자가 놓여 있는 것을 깨달았다.",
 			typewriter = {
@@ -112,10 +112,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "아브로라",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라",
 			hidePaintObj = true,
 			say = "아~ 아~ ……흠흠, 요정의 보물은 얻는 존재는 곧 나타나리니….",
 			painting = {
@@ -131,10 +131,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "아브로라",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라",
 			hidePaintObj = true,
 			say = "하지만 아직 기회는 있나니, 그것은 바로 전해져 내려오는 마지막 예언….",
 			painting = {
@@ -150,10 +150,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "아브로라",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라",
 			hidePaintObj = true,
 			say = "이 방송을 듣는 그대, 요정의 말에 귀를 기울여라.",
 			painting = {
@@ -169,10 +169,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "아브로라",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라",
 			hidePaintObj = true,
 			say = "요정의 선물을 가지고, 선택받은 '작은 마녀'와의 전투에 도전하라.",
 			painting = {
@@ -188,10 +188,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "아브로라",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라",
 			hidePaintObj = true,
 			say = "남겨진 마지막 희망으로서, 보물을 손에 넣으라.",
 			painting = {
@@ -207,10 +207,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "아브로라",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라",
 			hidePaintObj = true,
 			say = "이 앞에 펼쳐진 것은 결전의 전장. 진리의 계단을 오를 수 있는 것은 오로지 승자뿐….",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "아브로라",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라",
 			hidePaintObj = true,
 			say = "기적을 믿고, 마법을 믿고, 새벽 빛을 믿으라.",
 			painting = {
@@ -245,10 +245,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "아브로라",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라",
 			hidePaintObj = true,
 			say = "마지막 승리를 향해, 힘껏 전진하라.",
 			painting = {
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 702050,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "요정의 선물…… 이걸 말하는 건가?",
 			painting = {
 				alpha = 0.3,
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "상자 뒤편에 아카시의 코인이 2개, 상자 바닥 쪽에 붙어 있었다.",
 			typewriter = {
@@ -291,10 +291,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방송 내용이 맞다면 이게 마지막이겠지.",
 			painting = {
 				alpha = 0.3,
@@ -309,10 +309,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "솔직히 뭐가 뭔진 모르겠지만, 동료들이 말려든 이상, 내가 나설 수밖에 없어.",
 			painting = {
 				alpha = 0.3,
@@ -327,10 +327,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그리고 '작은 마녀'와의 전투에 도전하라는 건…",
 			painting = {
 				alpha = 0.3,
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 702050,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래, 로열 네이비의 그 테세우스라는 아이가 상대라는 거네.",
 			painting = {
 				alpha = 0.3,
@@ -362,10 +362,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그쪽은 이미 보물이 있는 곳에 도착했겠지. 한시라도 빨리 그 아이를 쓰러트리고 작전을 끝내야겠어.",
 			painting = {
 				alpha = 0.3,
@@ -380,10 +380,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "좋아, 출발하자.",
 			painting = {
 				alpha = 0.3,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "한편, 지휘관측은….",
 			typewriter = {
@@ -404,17 +404,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -422,8 +422,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "조금 억지스러운 부분은 있지만, 새로운 동료인 테세우스와 쿠이비셰프를 마지막 무대에 올리는 데 성공했군.",
 			typewriter = {
@@ -432,12 +432,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_161",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "제 아이디어를 채택해주셔서 감사합니다, 지휘관님.",
 			painting = {
 				alpha = 0.3,
@@ -449,12 +449,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_161",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 상태로 조사를 계속하도록 두면, 테세우스처럼 이곳을 발견해버릴 가능성이 있으니까요.",
 			painting = {
 				alpha = 0.3,
@@ -466,12 +466,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_161",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇게 되면 모두 물거품이 되고 말겠죠.",
 			painting = {
 				alpha = 0.3,
@@ -483,12 +483,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_161",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러니 지금은 일단 원만하게 넘어가고, 다들 지치기 전에….",
 			painting = {
 				alpha = 0.3,
@@ -500,28 +500,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "중앙 광장·진리의 계단",
 			bgmDelay = 1,
 			bgm = "bgm-cccp",
+			nameColor = "#A9F548FF",
+			say = "중앙 광장·진리의 계단",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "아카시가 만든 세트 중앙에 있는 광장에서 만난 운명의 '초대자' 두 사람.",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "한쪽은 노스 유니온 소속의 쿠이비셰프. 그리고 나머지 한쪽은…",
 			typewriter = {
@@ -695,9 +695,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			actor = 206080,
 			actorName = "테세우스",
 			say = "'작은 마녀'거든?! 흥!",
@@ -711,8 +711,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -778,8 +778,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			actor = 702050,
 			actorName = "쿠이비셰프",
 			say = "'페어리 매직'… 요정의 보물에 감춰진 수수께끼를 풀 때가 왔어!",

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA32",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-matsuri",
 			dir = 1,
 			say = "Her firepower wasn't particularly strong, but...",
+			bgm = "holo-matsuri",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "Ma Tsu Ri",
 			say = "Nnnngh... haaah.... Nnnngh... haah...",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "Ma Tsu Ri",
 			say = "Just when I've been reborn into a world filled with cute girls... I refuse to fall here!",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -84,8 +84,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Matsuri, I believe in you!",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = -1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "Fubuki's support just gave both of them a burst of energy?!",
 			effects = {
 				{
@@ -155,8 +155,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "Ma Tsu Ri",
 			say = "Oooohhhhhh!!",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -197,8 +197,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Eh... Huh?",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "Ma Tsu Ri",
 			say = "Fubuki! Fubuki! Fubuki! Fubuki!! Aaahhhnnn!!",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -239,9 +239,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Wait! W-w-wait a sec! Time out!",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,8 +266,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Siren! Even if you're going to make me look bad... there's a time and place for it, as well as a target!",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "There are plenty of people on stream spamming stuff like \"Big Sister Matsuri~\" or \"I love your character, Matsuri,\" so why are you going to such lengths?!",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Ehh?! Laffey, why are you asking me that all of a sudden... Oh, I see! That's the key to this battle!",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Matsuri, I love you~♡",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "Ma Tsu Ri",
 			say = "AHH!!!",
 			dialogShake = {
@@ -394,10 +394,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "With a single decisive blow, Kawakaze struck down the fake Matsuri.",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -413,10 +413,10 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "She turned into light and disappeared...",
 			flashout = {
 				dur = 1,
@@ -446,8 +446,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "Ay am not detecting any other enemies. Is this what it's like to have a radar...?",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Let's continue onward, everyone~ Lead the way, Matsuri. Matsuri?",
 			typewriter = {
 				speed = 0.05,

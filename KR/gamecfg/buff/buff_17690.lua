@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17690,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17690,
+	color = "yellow",
 	icon = 17690,
 	last_effect = "",
 	effect_list = {
@@ -37,8 +37,8 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				maxHPRatio = 0.25,
-				countType = 17690
+				countType = 17690,
+				maxHPRatio = 0.25
 			}
 		},
 		{
@@ -48,8 +48,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 17691,
+				target = "TargetSelf",
 				countType = 17690
 			}
 		},
@@ -59,9 +59,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				skill_id = 17692,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 17692,
 				check_target = {
 					"TargetPlayerFlagShip",
 					"TargetShipType"

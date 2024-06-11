@@ -1,10 +1,10 @@
 slot0 = class("EducateFavorPanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateFavorPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.favorPanelTF = slot0:findTF("favor_panel")
 	slot0.favorPanelAnim = slot0.favorPanelTF:GetComponent(typeof(Animation))
 	slot0.favorPanelAnimEvent = slot0.favorPanelTF:GetComponent(typeof(DftAniEvent))
@@ -28,7 +28,7 @@ function slot0.OnInit(slot0)
 	slot0:Flush()
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.favorPanelTF, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -42,7 +42,7 @@ function slot0.addListener(slot0)
 	end)
 end
 
-function slot0.updateFavorPanel(slot0)
+slot0.updateFavorPanel = function(slot0)
 	slot0.char = getProxy(EducateProxy):GetCharData()
 	slot1 = slot0.char:GetFavor()
 
@@ -55,7 +55,7 @@ function slot0.updateFavorPanel(slot0)
 	slot0.favorUIList:align(slot0.char:getConfig("favor_level") - 1)
 end
 
-function slot0.updateFavorItem(slot0, slot1, slot2)
+slot0.updateFavorItem = function(slot0, slot1, slot2)
 	slot3 = slot1 + 1
 
 	setText(slot0:findTF("lv", slot2), slot3 + 1)
@@ -84,7 +84,7 @@ function slot0.updateFavorItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getStoryTitle(slot0, slot1)
+slot0.getStoryTitle = function(slot0, slot1)
 	for slot5, slot6 in ipairs(pg.memory_template.all) do
 		if pg.memory_template[slot6].story == slot1 then
 			return slot7.title
@@ -94,7 +94,7 @@ function slot0.getStoryTitle(slot0, slot1)
 	return slot1
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -103,11 +103,11 @@ function slot0.Show(slot0)
 	slot0:updateFavorPanel()
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.favorPanelAnim:Play("anim_educate_educateUI_favor_out")
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -115,7 +115,7 @@ function slot0.Flush(slot0)
 	slot0:updateFavorPanel()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.favorPanelAnimEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end

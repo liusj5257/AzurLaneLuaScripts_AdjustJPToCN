@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港の特別宴会\n\n<size=45>六　響け！アマゾンオーケストラ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・パーティー会場",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・パーティー会場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 201011,
+			say = "珍しく陛下がやる気だったからな。それに私たちも最高のパーティーでみんなをもてなしたいから、こんなの苦労のうちにも入らないわよ",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "珍しく陛下がやる気だったからな。それに私たちも最高のパーティーでみんなをもてなしたいから、こんなの苦労のうちにも入らないわよ",
+			actor = 201011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "でもアマゾンはあまり嬉しくなさそう？",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "あと、私たちが練習した曲の出番はいつになるのかな？",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "うげ、そう見えるのか……",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "はあ……",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "それはもちろん、メインゲストのあいつがまだ来ていないからよ。曲も当然あいつが来てからじゃないと出番はないわね",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "まったく、この宴会の半分はあのバカのために用意したっていうのに、いまだに姿を見せないとか……",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "そうよ。……わざとじゃないけど",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "……あのバカ普段はあまり頼りないけど、艦隊をここまで運営できてるんだから、みんな言わなくてもわかってくれてるわ",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "指揮官として努力して公務をこなすだけでなく、私たちと一緒にいる時間も作らなければならない",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "あのバカがいなければ、今日みたいなパーティーを開くなんて無理に決まっているじゃない",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "……ふん！そんなことない。普通に気をかけてやってるだけだ",
 			typewriter = {
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "みんなを集めて、この日ために練習したのもこのため？",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "違う！パーティーに必要だったからだぞ",
 			typewriter = {
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "せめて今晩だけは指揮官をリラックスさせたい、ってことでいいよね？",
 			typewriter = {
@@ -477,8 +477,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "絶対来るって約束したから、サプライズを用意してあげたのに……",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "これ以上来ないようならいっそ……",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -539,8 +539,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "うわっ！なによ吹雪、びっくりしたじゃない！",
 			typewriter = {
@@ -553,8 +553,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "指揮官が見えたよ！大鳳と山城も一緒……",
 			typewriter = {
@@ -601,8 +601,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "はあ？とにかく今こっちに向かってるのは間違いないんだな？",
 			typewriter = {
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "うん！",
 			typewriter = {
@@ -632,8 +632,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -658,11 +658,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "まっかせて！",
 			typewriter = {

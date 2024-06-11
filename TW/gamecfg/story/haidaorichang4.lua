@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海風與夏日的無人島\n\n<size=45>海鳥的贈禮</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "沿著海岸線向島嶼的東方前進，尋找著可以使用的材料。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-soft",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "沿著海岸線向島嶼的東方前進，尋找著可以使用的材料。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "嗯……天空中盤旋著白色的海鳥群。",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "既然有捕魚的海鳥，也許……附近會有魚群。",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "穿越了一片樹林後，眼前豁然開朗。",
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "大片的白色海鳥流連在沙灘上，而在那團白色的海鳥群當中的是——",
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "zzzzz……",
 			painting = {
 				alpha = 0.3,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "zzzzz……zzzzz……",
 			painting = {
 				alpha = 0.3,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "看起來睡得很沉的樣子……",
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "或許是我的到來驚擾了這片區域原本的主人，大片的海鳥開始展翅翱翔起來。",
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "連帶著，躺在它們中間的拉菲也醒了過來——",
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯……睡了好棒的一覺。",
 			painting = {
 				alpha = 0.3,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊，指揮官……指揮官也是來這裡睡覺的嗎？",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "……只是正在這附近尋找材料，偶然來到了這裡。",
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "在這種地方睡覺，要小心著涼才行。",
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沒關係的。這裡陽光很好，曬得沙子都暖洋洋的。",
 			painting = {
 				alpha = 0.3,
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "然後不知不覺……拉菲就睡著了。",
 			painting = {
 				alpha = 0.3,
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "所以拉菲原本是打算來這裡做什麼的？",
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "原本……拉菲想給大家準備晚餐。",
 			painting = {
 				alpha = 0.3,
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "所以想來釣魚……指揮官今晚想吃魚嗎？",
 			painting = {
 				alpha = 0.3,
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "新鮮的魚，作為晚餐來說確實很合適，不過……",
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "環顧四周——並沒有發現魚的蹤跡。",
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不用擔心。指揮官，這裡的魚會從天上掉下來。",
 			painting = {
 				alpha = 0.3,
@@ -338,12 +338,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "你看。",
 			painting = {
 				alpha = 0.3,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "順著拉菲手指向的方向望去，一隻白色的海鳥從遠處飛來。",
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "鳥兒無視了站在拉菲身邊的我，徑直把銜在口中的魚放在了拉菲手邊。",
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "謝謝你，小白。",
 			painting = {
 				alpha = 0.3,
@@ -394,8 +394,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "……小白？",
@@ -405,12 +405,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "因為是白色的，所以叫小白。",
 			painting = {
 				alpha = 0.3,
@@ -422,12 +422,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "拉菲給它起的名字。很可愛吧？",
 			painting = {
 				alpha = 0.3,
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "（難道說，把拉菲當成了需要關愛的幼鳥嗎……？）",
@@ -450,12 +450,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這裡的海鳥完全不怕人呢，指揮官要跟小白打個招呼嗎？",
 			painting = {
 				alpha = 0.3,
@@ -467,8 +467,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "……雖然有點不太理解，但還是按照拉菲的示範和海鳥打了招呼。",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "海鳥抖了抖羽毛，似乎滿意地飛走了。",
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "小白說，這是它給新來島上客人的贈禮，讓我們不用客氣。",
 			painting = {
 				alpha = 0.3,
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "總而言之……",
@@ -517,8 +517,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "和拉菲一起享受了島上明媚的陽光，還得到了晚餐用的魚……",

@@ -1,12 +1,12 @@
 slot0 = class("ChapterCommonAction")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.command = setmetatable({}, ChapterOpCommand)
 
 	slot0.command:initData(slot1.op, slot1.data, slot1.chapter)
 end
 
-function slot0.applyTo(slot0, slot1, slot2)
+slot0.applyTo = function(slot0, slot1, slot2)
 	if slot2 then
 		return true
 	end
@@ -23,7 +23,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 	return true, slot0.command.flag, slot0.command.extraFlag
 end
 
-function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+slot0.PlayAIAction = function(slot0, slot1, slot2, slot3)
 	existCall(slot3)
 end
 

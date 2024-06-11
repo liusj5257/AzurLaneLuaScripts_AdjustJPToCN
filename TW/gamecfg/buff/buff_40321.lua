@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "指挥喵触发特殊弹幕",
 	time = 0,
-	color = "yellow",
+	name = "指挥喵触发特殊弹幕",
+	init_effect = "",
+	id = 40321,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 40321,
+	color = "yellow",
 	icon = 40320,
 	last_effect = "",
 	effect_list = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG14",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"바닷바람과 여름날의 무인도\n\n<size=45>14  아직 긴장을 풀지 못한 사람</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
-			say = "섬에서의 정찰과 개발 작업이 한창인 가운데——",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "level02",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "섬에서의 정찰과 개발 작업이 한창인 가운데——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "해상 무인도·주변 해역",
@@ -99,10 +99,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "서쪽도 마찬가지입니다. 현재 섬에서 멀리 떨어진 곳을 수색하고 있습니다.",
 			painting = {
 				alpha = 0.3,
@@ -117,10 +117,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알겠습니다. 남쪽도 현재 이상 없습니다, 계속 진행해주세요.",
 			painting = {
 				alpha = 0.3,
@@ -135,10 +135,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 902010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아니… 이렇게 많이 확인했으면 이제 안심할 때도 되지 않았어?",
 			painting = {
 				alpha = 0.3,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -163,10 +163,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 903020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이곳은 결국 출처가 불분명한 원시 무인도니까.",
 			painting = {
 				alpha = 0.3,
@@ -257,10 +257,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 808010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "수중 문제는 걱정하지 마, 나와 양산형 잠수함이 전방위적으로 책임지고 있으니까. 현재 모든 것이 정상이야.",
 			painting = {
 				alpha = 0.3,
@@ -274,9 +274,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			paintingNoise = true,
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -291,8 +291,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,10 +304,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "풉… 이곳은 안전한 무인도가 맞는 것 같네요.",
 			painting = {
 				alpha = 0.3,
@@ -322,10 +322,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "자원이 너무 풍부한게 의심스럽긴 하지만…",
 			painting = {
 				alpha = 0.3,
@@ -340,10 +340,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "복권 당첨과 같은 이런 우연한 사건도 가끔은 발생하는 법이니까요?",
 			painting = {
 				alpha = 0.3,
@@ -358,10 +358,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "마지막으로 한번만 더 정찰을 끝내고나면 후속 작업은 양산형에 맡기고 우리도 무인도 개발 작업에 동참하는 걸로 해요~",
 			painting = {
 				alpha = 0.3,
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아이리스 리브레",
+			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

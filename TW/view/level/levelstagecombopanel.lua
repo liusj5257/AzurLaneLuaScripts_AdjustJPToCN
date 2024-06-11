@@ -1,10 +1,10 @@
 slot0 = class("LevelStageComboPanel", import("view.base.BaseSubPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelStageComboPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.tf_combo = slot0:findTF("combo/text")
 	slot0.text_combo = slot0.tf_combo:GetComponent(typeof(Text))
 	slot0.tf_perfect = slot0:findTF("perfect/text")
@@ -16,7 +16,7 @@ function slot0.OnInit(slot0)
 	slot0.anims = {}
 end
 
-function slot0.UpdateView(slot0, slot1)
+slot0.UpdateView = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -30,7 +30,7 @@ function slot0.UpdateView(slot0, slot1)
 	end
 end
 
-function slot0.UpdateViewAnimated(slot0, slot1)
+slot0.UpdateViewAnimated = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -44,7 +44,7 @@ function slot0.UpdateViewAnimated(slot0, slot1)
 	end
 end
 
-function slot0.SetTextAnim(slot0, slot1, slot2, slot3, slot4)
+slot0.SetTextAnim = function(slot0, slot1, slot2, slot3, slot4)
 	if tonumber(slot2.text) == slot3 then
 		return
 	end
@@ -63,7 +63,7 @@ function slot0.SetTextAnim(slot0, slot1, slot2, slot3, slot4)
 	end)).id
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.anims) do
 		LeanTween.cancel(slot5)
 	end

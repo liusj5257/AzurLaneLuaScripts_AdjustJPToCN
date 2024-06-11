@@ -1,7 +1,7 @@
 return {
-	time = 4,
 	name = "2020信浓活动测试者换阶段转场-无特效",
 	init_effect = "",
+	time = 4,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -24,8 +24,8 @@ return {
 			},
 			arg_list = {
 				group = 8692,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

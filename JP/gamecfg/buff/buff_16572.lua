@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 6,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 16572,
 	picture = "",
 	desc = "正面护盾挡10",
 	stack = 1,
-	id = 16572,
+	color = "blue",
 	icon = 16570,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

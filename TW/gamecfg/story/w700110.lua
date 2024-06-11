@@ -1,12 +1,12 @@
 return {
-	id = "W700110",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700110",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "搜索模組同步中：海域中存在特殊賽壬建築干擾，請將其全部破壞。",
 			typewriter = {
 				speed = 0.05,

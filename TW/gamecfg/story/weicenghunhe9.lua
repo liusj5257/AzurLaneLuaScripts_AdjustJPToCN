@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE9",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
-			bgm = "hunhe-story",
-			dir = 1,
 			say = "巴拿馬要塞西側·外海 稍早之前",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "真了不起！不愧是被譽為世界上的工程學奇蹟之一的巴拿馬運河！",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "實際體驗了航道之後，除了“壯麗”之外，沒有其它更合適的詞能用來形容這個“大洋之間的橋樑”了。",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "除了壯麗之外，更重要的是重要哦。",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "現在保護這座重要要塞的職責，一段時間內要落在我們身上了啊~感覺今晚要失眠了！",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "有幹勁是好事，不過其實…巴拿馬要塞已經很久都沒遭到塞壬進攻了哦。",
 			typewriter = {
@@ -165,13 +165,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "全體人員注意，要塞周邊海域發現塞壬襲擊跡象。",
 			bgm = "airRaidAlarm",
+			nameColor = "#a9f548",
+			say = "全體人員注意，要塞周邊海域發現塞壬襲擊跡象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "……………",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "呃…？事情在變好前，總會變得更糟糕，說的就是這種情況嗎…",
 			typewriter = {
@@ -264,10 +264,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_banama_1",
 			side = 0,
+			bgName = "bg_banama_1",
+			hideOther = true,
 			dir = 1,
 			actor = 102260,
 			actorName = "雷諾&卡薩布蘭卡",
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "……唔，不要那樣盯著我看啊，我只是有點不擅長表達很少參與話題而已…",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "呼呼呼，抱歉抱歉~這樣稍微有些反差的性格也很可愛哦~★",
 			typewriter = {
@@ -339,8 +339,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "塞壬艦隊啊……來得正好，這幾天我心裡一直憋了一口氣呢。",
 			typewriter = {

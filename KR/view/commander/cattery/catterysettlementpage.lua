@@ -1,10 +1,10 @@
 slot0 = class("CatterySettlementPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CatterySettlementPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.painting = slot0:findTF("painting")
 	slot0.uilist = UIItemList.New(slot0:findTF("frame/commanders"), slot0:findTF("frame/commanders/tpl"))
 
@@ -18,7 +18,7 @@ function slot0.OnLoaded(slot0)
 	slot0.confirmBtn = slot0:findTF("comfirm")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:Destroy()
 	end, SFX_PANEL)
@@ -33,7 +33,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.home = slot1
@@ -47,19 +47,19 @@ function slot0.Show(slot0, slot1)
 	slot0.UIMgr:BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMgr._normalUIMain)
 end
 
-function slot0.GetCurrentFlagship(slot0)
+slot0.GetCurrentFlagship = function(slot0)
 	return Ship.New({
 		id = 999,
 		configId = 312011
 	})
 end
 
-function slot0.SetPainting(slot0)
+slot0.SetPainting = function(slot0)
 	slot0:ReturnPainting()
 
 	slot2 = slot0:GetCurrentFlagship():getPainting()
@@ -68,7 +68,7 @@ function slot0.SetPainting(slot0)
 	setPaintingPrefabAsync(slot0.painting, slot2, "jiesuan")
 end
 
-function slot0.UpdateCommanders(slot0)
+slot0.UpdateCommanders = function(slot0)
 	slot0.displays = {}
 
 	for slot6, slot7 in pairs(slot0.home:GetCatteries()) do
@@ -81,7 +81,7 @@ function slot0.UpdateCommanders(slot0)
 	slot0.uilist:align(#slot0.displays)
 end
 
-function slot0.UpdateCommander(slot0, slot1, slot2)
+slot0.UpdateCommander = function(slot0, slot1, slot2)
 	if not slot0.cards[slot1] then
 		slot0.cards[slot1] = CatterySettlementCard.New(slot1)
 	end
@@ -91,7 +91,7 @@ function slot0.UpdateCommander(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.UpdateDialogue(slot0)
+slot0.UpdateDialogue = function(slot0)
 	slot3 = 0
 	slot4 = 0
 
@@ -107,7 +107,7 @@ function slot0.UpdateDialogue(slot0)
 	slot0.expTxt.text = slot3
 end
 
-function slot0.ReturnPainting(slot0)
+slot0.ReturnPainting = function(slot0)
 	if slot0.paintingName then
 		retPaintingPrefab(slot0.painting, slot0.paintingName)
 
@@ -115,7 +115,7 @@ function slot0.ReturnPainting(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:ReturnPainting()
 
 	for slot4, slot5 in pairs(slot0.cards) do

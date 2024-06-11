@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "天岩島·天守閣",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-1",
+			say = "天岩島·天守閣",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "妾身不介意哦，原本就有去本島同大和與武藏商談之意，此為順路。",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "問題不在這裡…信濃大人才剛剛從沉睡中醒來，對外部的一切事物都還不熟悉…",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -127,8 +127,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "非也…現世之事也好，重櫻的內部情報亦好，妾身什麼都知道。",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "而且上層部不是派遣了一支艦隊專門來接信濃大人過去嘛，妳擔心過度了。",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "這次艦隊的領艦紀伊，雖然性格上有些豪放吧…不過實力可是一等一的，放心吧。",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "可是……算了，我決定了！這次我要陪信濃大人一起出航。",
 			dialogShake = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "哎？！！",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "…部署上的改變需要重新向上層部進行申請，時間上來說已經來不及了吧？",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "今日的能代稍稍有些強硬啊……",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "唔，如果只是多能代一人的話……妾身許可了。",
 			typewriter = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "多謝信濃大人!",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -318,9 +318,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "（敲門聲）",
 			typewriter = {
 				speed = 0.05,
@@ -380,14 +380,14 @@ return {
 			}
 		},
 		{
-			actor = 305140,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actorName = "{namecode:175}&{namecode:179}",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			nameColor = "#a9f548",
+			actor = 305140,
+			actorName = "{namecode:175}&{namecode:179}",
 			say = "是！\n遵命。",
 			subActors = {
 				{

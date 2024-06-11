@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "――――！！",
 			dir = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "bgm-cccp2",
+			say = "――――！！",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "量産型のセイレーンを倒した、もう進んで大丈夫",
 			typewriter = {
@@ -77,9 +77,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "ソユーズとアヴローラから教えてもらった航路を辿り、仲間たちとともに「秘密領域」へと向かう。",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "北方連合所属、駆逐艦グレミャーシュチ。うん、そんなとこ",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "「近衛艦」に受勲されたカンレキを持っているだけあって、戦力は北方連合の駆逐艦の中でもピカイチだ",
 			typewriter = {
@@ -135,9 +135,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "初めて氷山要塞で北方連合の仲間たちと出会ってから結構時間が経ったな…",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "なにせセイレーンとの戦いが日常的に「続いている」からな。同志指揮官が最前線に何度か顔を出した程度では全員と会えないよ",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,9 +186,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "戦いに参加したおかげで何人かと知り合ってきたが、まだまだ自分の知らない艦船がいるのだ。",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "（じーーー）",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "実は同志指揮官と知り合いになりたいという子は多いぞ。このグレミャーシュチだって今回同志指揮官見たさで護衛を買って出たからな",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "べ、別に……そんなとこ…",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "普段どこで戦っているか聞いてみた。",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "……つまりベラルーシアの独断だ。まあその程度の人員異動で前線が破れることはないだろう",
 			typewriter = {
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "経緯はともかく、自分の護衛役に来てくれたのは――",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "…ありがたいことだが、少し申し訳無さを感じる。今は好意に甘えるが、作戦が終わったらきちんと感謝しないと",
@@ -353,8 +353,8 @@ return {
 			expression = 6,
 			side = 0,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "そんな中でも、率先して偵察と露払いを引き受けてくれたグレミャーシュチにはきちんと礼を言おう",
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "頑張ってくれている彼女の姿をもう一度視界に収めようと――",
@@ -397,9 +397,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			blackBg = true,
-			dir = 1,
 			optionFlag = 1,
+			dir = 1,
+			blackBg = true,
 			actor = 701070,
 			nameColor = "#a9f548",
 			say = "さ、さっきからジロジロ見てきて…指揮官って変質者かなにか？",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
+			blackBg = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			blackBg = true,
+			optionFlag = 2,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

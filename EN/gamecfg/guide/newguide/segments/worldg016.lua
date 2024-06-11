@@ -34,8 +34,8 @@ return {
 			style = {
 				text = "Press and hold to switch to scanning mode.",
 				mode = 2,
-				posY = -320,
 				dir = -1,
+				posY = -320,
 				posX = 9.1
 			},
 			showSign = {
@@ -89,8 +89,8 @@ return {
 			style = {
 				text = "You can use scanning mode to show more information about an enemy's combat capabilities, or check resource nodes..",
 				mode = 2,
-				posY = -200,
 				dir = 1,
+				posY = -200,
 				posX = 357
 			},
 			showSign = {

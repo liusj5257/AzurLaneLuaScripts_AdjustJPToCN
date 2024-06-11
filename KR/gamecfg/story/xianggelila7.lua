@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"기행의 사프란\n\n<size=45>7 전투가 끝난 후</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "다음 날, 집무실.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "다음 날, 집무실.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "결국 그 전투가 끝난 후, 샹그릴라는……",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "……제가 걱정된다고요?",
 			typewriter = {
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "호넷 씨!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "호넷 씨!",
+			actor = 107380,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "잠깐 기다려~! 그 전에, 어젠 고마웠다는 말을 하고 싶어!",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "고마웠다구요?",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "나야말로 기록에만 의지해서는 안 된다고 다시 배우게 되었어요.",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 0,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "샹그릴라는 앨범을 꺼냈다.",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "오옷! 이건 언제 찍은 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "뭐, 잠시 후에는 '컬렉션'에 격납할 거니까 그 전에 모두에게 보여주고 싶었어요.",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "그렇게 말하며 샹그릴라는 사진을 모두에게 나눠줬다.",
 			typewriter = {
@@ -362,11 +362,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "이 사진은……. 어제 모의전이 끝난 다음에 찍은 거구나!",
 			typewriter = {
 				speed = 0.05,
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그곳에는 이 모의전에 관여한 에식스와 샹그릴라, 호넷 그리고 엔터프라이즈와 요크타운, 쇼카쿠와 즈이카쿠의 모습이 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -405,8 +405,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "제목은 '동료'. 뒷면에는 뭐라고 써야 좋을지 상담해주시지 않을래요?",
 			typewriter = {

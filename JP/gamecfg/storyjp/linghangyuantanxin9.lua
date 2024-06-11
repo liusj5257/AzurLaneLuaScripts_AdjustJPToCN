@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
 			bgm = "qe-ova-10",
+			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……{tb}、これを",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "TBがチラシの束を目の前の机に置いた。",
@@ -66,10 +66,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……別にそちらの意見を伺いたいわけではありません。ただ選ぶのに疲れただけです",
 			typewriter = {
@@ -102,14 +102,14 @@ return {
 			}
 		},
 		{
-			actor = 1200,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "……別にありません",
+			bgName = "bg_project_tb_room3",
 			tbActor = true,
+			actor = 1200,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "……別にありません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,10 +119,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……だからこそ、何でもいいという気持ちになって決められないんです",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "結局、気になる部活全部に体験入部してみたら？としか提案できなかった。",

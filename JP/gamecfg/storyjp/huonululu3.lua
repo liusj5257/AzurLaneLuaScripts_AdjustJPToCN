@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"拗ねやすい彼女の小さなお話\n\n<size=45>三　仲良し作戦！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ホノルルやリアンダーと一緒に行きつけの軽食店に来た。\t",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ホノルルやリアンダーと一緒に行きつけの軽食店に来た。\t",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 202010,
+			say = "ううん、こちらこそ来ていただけて光栄ですわ",
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ううん、こちらこそ来ていただけて光栄ですわ",
+			actor = 202010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "……ってなんで指揮官がいるの？",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "ホノルルは不機嫌そう（？）に顔をそらした。",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "三人でアフタヌーンティーを楽しんでいた。",
 			typewriter = {
 				speed = 0.05,
@@ -188,15 +188,15 @@ return {
 			}
 		},
 		{
-			actor = 202010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202010,
+			nameColor = "#a9f548",
 			say = "……そういえば、ホノルルさんは普段ほかの方々とあまりお付き合いをしていないようですね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			say = "き、きれい？私が…？",
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "き、きれい？私が…？",
+			actor = 102120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -355,9 +355,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "めったにベタ褒めされたことがないからなのか、ホノルルは顔から耳元まで真っ赤になって挙動不審になり始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "やはりホノルルを呼んできてよかった。",
 			typewriter = {
 				speed = 0.05,

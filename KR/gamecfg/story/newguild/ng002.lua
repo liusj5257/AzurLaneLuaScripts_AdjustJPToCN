@@ -14,10 +14,10 @@ return {
 				say = {
 					text = "지휘관, 사령부에서 모항에 잠수 작전을 도울 수 있는 함선소녀를 파견했대, 빨리 새로운 동료를 맞이하러 가보자!",
 					style = {
-						alpha = 0.4,
-						mode = 1,
-						dir = 1,
 						posY = -110,
+						mode = 1,
+						alpha = 0.4,
+						dir = 1,
 						posX = 200
 					}
 				}
@@ -83,10 +83,10 @@ return {
 				say = {
 					text = "웰컴! 첫 번째로 착임한 잠수함이네. 지휘관, 우리 새로운 동료를 함대에 편성해주자고!",
 					style = {
-						alpha = 0.4,
-						mode = 1,
-						dir = 1,
 						posY = -110,
+						mode = 1,
+						alpha = 0.4,
+						dir = 1,
 						posX = 200
 					}
 				}
@@ -142,10 +142,10 @@ return {
 				say = {
 					text = "이걸로 우리 첫 잠수함대가 탄생!",
 					style = {
-						alpha = 0.4,
-						mode = 1,
-						dir = 1,
 						posY = -110,
+						mode = 1,
+						alpha = 0.4,
+						dir = 1,
 						posX = 200
 					}
 				}
@@ -156,10 +156,10 @@ return {
 				say = {
 					text = "하지만 적 잠수함의 출현에 대비하기 위해선, 함선소녀들에게 대잠 장비를 준비해줘야겠지?",
 					style = {
-						alpha = 0.4,
-						mode = 1,
-						dir = 1,
 						posY = -110,
+						mode = 1,
+						alpha = 0.4,
+						dir = 1,
 						posX = 200
 					}
 				}
@@ -182,8 +182,8 @@ return {
 		{
 			action = {
 				ui = {
-					path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 					pathIndex = 0,
+					path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 					image = {
 						"content/ship_icon"
 					}
@@ -195,10 +195,10 @@ return {
 				say = {
 					text = "대잠 장비에 관련된 더 자세한 내용은 '도움말' 버튼을 터치하여 알아볼 수 있다구~",
 					style = {
-						alpha = 0.4,
-						mode = 1,
-						dir = 1,
 						posY = -110,
+						mode = 1,
+						alpha = 0.4,
+						dir = 1,
 						posX = 200
 					}
 				}

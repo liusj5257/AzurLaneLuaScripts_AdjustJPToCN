@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U474",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U474",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"やさしくて静かであたたかくて\n\n<size=45>四 大きな声の来訪者</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 408020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "…………",
 			bgm = "story-1",
+			actor = 408020,
+			nameColor = "#a9f548",
+			say = "…………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "すっかり執務室に居座る機会が多くなったU-47。仕事をしている身としては特に問題はないのだが……。",
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ふと、彼女と同じ仲間である他の潜水艦の子たちとの交流はないのか気になってしまった。",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ぼーっと眺めていると、視線に気づいたU-47と目が合った。そろそろ仕事に専念しよう、と思ったその時",
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "しきかーん！！ねぇ、開けて―！！",
 			dialogShake = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そう言って執務室のドアをどんどん叩く音が響いてきた。それまでの静かな空間を奪う大音量。",
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "突然のことに驚きつつもドアを開けてあげると、U-81はすぐさま部屋の中に押し入ってきた。",
@@ -168,14 +168,14 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "なぁなぁ指揮官、U-47を見なかったか？",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47のいたソファーに目を向ける――が、そこに姿はない。さっきまでいたはずなのに……。",
@@ -210,14 +210,14 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "もう、どこにいったんだ？この部屋のほうに向かう姿を見たって子がいたから来たのに！",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-81は悔しそうな顔でどかっとソファーに座った。それを見ながら自分も机に戻って腰をかける――",
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "――と、そこで机の下にU-47が潜んでいるのがわかって思わずその場で硬直してしまった。",
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-81の声にはっとしながら、どうにかU-47の身体を避けるように机の下に足を置いて椅子に座った。",
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "U-47のやつ、全然見つからなくなるときがあって困るよ！",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "でもこのまま逃げきったら、わたしのコケンにかかわる問題だ！絶対に見つけてやるぞU-47！",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,8 +371,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そう言ってU-81はさっさと執務室を出ていってしまった。",
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "しばらく間をおいてからU-47はのそのそと机の下から出てくると、面倒そうに短く溜息をついた。",
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "それよりもどうしてU-81の前に姿を現さなかったのかの方が気になり、そのことについて訊いてみた。",
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そう言って本を手に取ると、先ほどと同じようにまたソファーに座って読書を始める。",
@@ -479,8 +479,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "それを見て、こちらも仕事に戻ろうと思い机に向かった。",
@@ -494,8 +494,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

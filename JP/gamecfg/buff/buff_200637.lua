@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023海盗活动T5 家里冒险号辅助发射器 追踪瞬移",
 	time = 8,
+	name = "2023海盗活动T5 家里冒险号辅助发射器 追踪瞬移",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -25,9 +25,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200637,
 				time = 2.5,
-				target = "TargetSelf",
-				skill_id = 200637
+				target = "TargetSelf"
 			}
 		},
 		{

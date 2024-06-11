@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uncharted Summer\n\n<size=45>Get It While It's Hot</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
-			say = "The island's development is going swimmingly thanks to everyone's hard work.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "The island's development is going swimmingly thanks to everyone's hard work.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "The sun sets in the west, and the night sky begins lighting up with glittering stars.",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "As I arrive back at the camp, a massive steel object erected on the beach catches my eye.",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "It takes me a second to figure out what it is...",
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Look! A barbecue grill!",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I mean... Yeah, by all appearances, it's a barbecue grill...",
 			painting = {
 				alpha = 0.3,
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But look how HUGE it is! Why would you ever need one THIS big?",
 			painting = {
 				alpha = 0.3,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 401990,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Capacity. Not only can you grill way much more food at once, but you also keep that smoky flavor.",
 			painting = {
 				alpha = 0.3,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,10 +171,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That is the purpose of the Grillinator Mk II, designed by none other than Iron Blood's corps of engineers.~",
 			painting = {
 				alpha = 0.3,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 401990,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Needless to say, we're making enough barbecue to feed an army tonight!",
 			painting = {
 				alpha = 0.3,
@@ -206,10 +206,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well... How are we going to get enough ingredients for such a huge grill, though?",
 			painting = {
 				alpha = 0.3,
@@ -224,10 +224,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey, we're back. We caught a lot of good game out there.",
 			painting = {
 				alpha = 0.3,
@@ -239,12 +239,12 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm eating good tonight! Throw some meat on that barbecue!",
 			painting = {
 				alpha = 0.3,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, now, we can also grill fish and vegetables.~",
 			painting = {
 				alpha = 0.3,
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I want some fish and carrots...",
 			painting = {
 				alpha = 0.3,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes. Kombu with scallops is worth trying as well.",
 			painting = {
 				alpha = 0.3,
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's not forget about some fruits! I picked a bunch out in the forest!",
 			painting = {
 				alpha = 0.3,
@@ -334,12 +334,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I even found some coconuts. Can you grill those?",
 			painting = {
 				alpha = 0.3,
@@ -354,10 +354,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Should work, wunnit?",
 			painting = {
 				alpha = 0.3,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Eugen, seeing as everyone has brought so many ingredients, I think we should set up a self-serve area.",
 			painting = {
 				alpha = 0.3,
@@ -399,10 +399,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not a bad idea. Wait right here, I'll fetch some tools.",
 			painting = {
 				alpha = 0.3,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg2",
 			mode = 1,
+			bgName = "bg_summerisland_cg2",
 			sequence = {
 				{
 					"",
@@ -423,17 +423,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Albacore",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Albacore",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Albacore",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Albacore",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:95}",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -511,8 +511,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:95}",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:96}",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:95}",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -552,8 +552,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "Whether due to the giant grill or the scent of barbecue, the beach has attracted a crowd of curious girls from all factions.",
@@ -563,8 +563,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "The lonely island in the middle of the ocean is enveloped in a lively atmosphere, becoming a harbor of warmth.",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:428}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:428}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -598,8 +598,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:428}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -610,8 +610,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:435}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:428}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -634,12 +634,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
-			say = "With a flash from Eugen's phone camera, another happy moment is captured forever.",
 			soundeffect = "event:/ui/kuaimen",
+			say = "With a flash from Eugen's phone camera, another happy moment is captured forever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,8 +668,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Avrora",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -680,8 +680,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Avrora",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -692,8 +692,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Albacore",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -704,8 +704,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Albacore",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Avrora",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -733,8 +733,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Avrora",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "She's right. A toast will cap off this incredible evening.",
@@ -766,13 +766,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Cheers!",
 			soundeffect = "event:/ui/pengbei2",
+			say = "Cheers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

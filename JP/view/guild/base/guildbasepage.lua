@@ -1,6 +1,6 @@
 slot0 = class("GuildBasePage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	slot1, slot2 = slot0:getTargetUI()
 
 	if not getProxy(GuildProxy):getRawData() then
@@ -16,11 +16,11 @@ function slot0.getUIName(slot0)
 	return slot0.uiname
 end
 
-function slot0.getTargetUI(slot0)
+slot0.getTargetUI = function(slot0)
 	assert(false)
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	if slot0._state == uv0.STATES.DESTROY then
 		return
 	end

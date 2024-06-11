@@ -7,7 +7,7 @@ slot4 = class("BattlePointHitWeaponUnit", slot0.Battle.BattleWeaponUnit)
 slot0.Battle.BattlePointHitWeaponUnit = slot4
 slot4.__name = "BattlePointHitWeaponUnit"
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	uv0._strikePoint = nil
@@ -15,18 +15,18 @@ function slot4.Ctor(slot0)
 	uv0._strikeMode = false
 end
 
-function slot4.DispatchBlink(slot0, slot1)
+slot4.DispatchBlink = function(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv1.CHARGE_WEAPON_FINISH, {
 		callbackFunc = slot1,
 		timeScale = uv0.Battle.BattleConfig.FOCUS_MAP_RATE
 	}))
 end
 
-function slot4.RemoveAllLock(slot0)
+slot4.RemoveAllLock = function(slot0)
 	slot0._lockList = {}
 end
 
-function slot4.createMajorEmitter(slot0, slot1, slot2)
+slot4.createMajorEmitter = function(slot0, slot1, slot2)
 	uv1.super.createMajorEmitter(slot0, slot1, slot2, uv1.EMITTER_NORMAL, function (slot0, slot1, slot2, slot3)
 		slot4, slot5 = nil
 		slot6 = uv0._emitBulletIDList[uv1]
@@ -52,11 +52,11 @@ function slot4.createMajorEmitter(slot0, slot1, slot2)
 	end)
 end
 
-function slot4.SetPlayerChargeWeaponVO(slot0, slot1)
+slot4.SetPlayerChargeWeaponVO = function(slot0, slot1)
 	slot0._playerChargeWeaponVo = slot1
 end
 
-function slot4.Charge(slot0)
+slot4.Charge = function(slot0)
 	slot0._currentState = slot0.STATE_PRECAST
 	slot0._lockList = {}
 
@@ -65,7 +65,7 @@ function slot4.Charge(slot0)
 	slot0._strikeMode = true
 end
 
-function slot4.CancelCharge(slot0)
+slot4.CancelCharge = function(slot0)
 	if slot0._currentState ~= slot0.STATE_PRECAST then
 		return
 	end
@@ -79,7 +79,7 @@ function slot4.CancelCharge(slot0)
 	slot0._strikeMode = nil
 end
 
-function slot4.QuickTag(slot0)
+slot4.QuickTag = function(slot0)
 	slot0._currentState = slot0.STATE_PRECAST
 	slot0._lockList = {}
 
@@ -88,16 +88,16 @@ function slot4.QuickTag(slot0)
 	slot0._lockList[#slot0._lockList + 1] = slot0:Tracking()
 end
 
-function slot4.CancelQuickTag(slot0)
+slot4.CancelQuickTag = function(slot0)
 	slot0._currentState = slot0.STATE_READY
 	slot0._lockList = {}
 end
 
-function slot4.Update(slot0, slot1)
+slot4.Update = function(slot0, slot1)
 	slot0:UpdateReload()
 end
 
-function slot4.Fire(slot0, slot1)
+slot4.Fire = function(slot0, slot1)
 	if slot0._currentState ~= slot0.STATE_PRECAST then
 		return
 	end
@@ -112,7 +112,7 @@ function slot4.Fire(slot0, slot1)
 	uv1.super.Fire(slot0)
 end
 
-function slot4.DoAttack(slot0, slot1)
+slot4.DoAttack = function(slot0, slot1)
 	uv0.Battle.PlayBattleSFX(slot0._tmpData.fire_sfx)
 	slot0:DispatchEvent(uv0.Event.New(uv1.CHARGE_WEAPON_FIRE, {
 		weapon = slot0
@@ -134,7 +134,7 @@ function slot4.DoAttack(slot0, slot1)
 	uv0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[uv2.ShakeType.FIRE])
 end
 
-function slot4.TriggerBuffOnReady(slot0)
+slot4.TriggerBuffOnReady = function(slot0)
 	if slot0._tmpData.type == uv0.EquipmentType.MANUAL_MISSILE then
 		slot0._host:TriggerBuff(uv1.Battle.BattleConst.BuffEffectType.ON_MANUAL_MISSILE_READY, {})
 	else
@@ -142,7 +142,7 @@ function slot4.TriggerBuffOnReady(slot0)
 	end
 end
 
-function slot4.Spawn(slot0, slot1, slot2, slot3)
+slot4.Spawn = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	if slot2 == nil then
@@ -170,7 +170,7 @@ function slot4.Spawn(slot0, slot1, slot2, slot3)
 	return slot5
 end
 
-function slot4.SpawnPointBullet(slot0, slot1, slot2)
+slot4.SpawnPointBullet = function(slot0, slot1, slot2)
 	slot3 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, slot2)
 
 	slot0:TriggerBuffWhenSpawn(slot3, uv0.BuffEffectType.ON_MANUAL_BULLET_CREATE)
@@ -182,7 +182,7 @@ function slot4.SpawnPointBullet(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot4.TriggerBuffOnFire(slot0)
+slot4.TriggerBuffOnFire = function(slot0)
 	if slot0._tmpData.type == uv0.EquipmentType.MANUAL_MISSILE then
 		slot0._host:TriggerBuff(uv1.Battle.BattleConst.BuffEffectType.ON_MANUAL_MISSILE_FIRE, {})
 	else
@@ -190,35 +190,35 @@ function slot4.TriggerBuffOnFire(slot0)
 	end
 end
 
-function slot4.InitialCD(slot0)
+slot4.InitialCD = function(slot0)
 	uv0.super.InitialCD(slot0)
-	slot0._playerChargeWeaponVo:Deduct(slot0)
+	slot0._playerChargeWeaponVo:InitialDeduct(slot0)
 	slot0._playerChargeWeaponVo:Charge(slot0)
 end
 
-function slot4.EnterCoolDown(slot0)
+slot4.EnterCoolDown = function(slot0)
 	uv0.super.EnterCoolDown(slot0)
 	slot0._playerChargeWeaponVo:Charge(slot0)
 end
 
-function slot4.OverHeat(slot0)
+slot4.OverHeat = function(slot0)
 	uv0.super.OverHeat(slot0)
 	slot0._playerChargeWeaponVo:Deduct(slot0)
 end
 
-function slot4.GetMinAngle(slot0)
+slot4.GetMinAngle = function(slot0)
 	return slot0:GetAttackAngle()
 end
 
-function slot4.GetLockList(slot0)
+slot4.GetLockList = function(slot0)
 	return slot0._lockList
 end
 
-function slot4.GetFilteredList(slot0)
+slot4.GetFilteredList = function(slot0)
 	return slot0:filterEnemyUnitType(uv0.super.GetFilteredList(slot0))
 end
 
-function slot4.filterEnemyUnitType(slot0, slot1)
+slot4.filterEnemyUnitType = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 	slot4 = -9999
@@ -243,7 +243,7 @@ function slot4.filterEnemyUnitType(slot0, slot1)
 	return slot2
 end
 
-function slot4.handleCoolDown(slot0)
+slot4.handleCoolDown = function(slot0)
 	slot0._currentState = slot0.STATE_READY
 
 	slot0._playerChargeWeaponVo:Plus(slot0)
@@ -254,7 +254,7 @@ function slot4.handleCoolDown(slot0)
 	slot0._reloadBoostList = {}
 end
 
-function slot4.FlushReloadMax(slot0, slot1)
+slot4.FlushReloadMax = function(slot0, slot1)
 	if uv0.super.FlushReloadMax(slot0, slot1) then
 		return true
 	end
@@ -262,7 +262,7 @@ function slot4.FlushReloadMax(slot0, slot1)
 	slot0._playerChargeWeaponVo:RefreshReloadingBar()
 end
 
-function slot4.FlushReloadRequire(slot0)
+slot4.FlushReloadRequire = function(slot0)
 	if uv0.super.FlushReloadRequire(slot0) then
 		return true
 	end
@@ -270,7 +270,7 @@ function slot4.FlushReloadRequire(slot0)
 	slot0._playerChargeWeaponVo:RefreshReloadingBar()
 end
 
-function slot4.QuickCoolDown(slot0)
+slot4.QuickCoolDown = function(slot0)
 	if slot0._currentState == slot0.STATE_OVER_HEAT then
 		slot0._currentState = slot0.STATE_READY
 
@@ -282,7 +282,7 @@ function slot4.QuickCoolDown(slot0)
 	end
 end
 
-function slot4.ReloadBoost(slot0, slot1)
+slot4.ReloadBoost = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0._reloadBoostList) do
@@ -296,12 +296,12 @@ function slot4.ReloadBoost(slot0, slot1)
 	table.insert(slot0._reloadBoostList, fixValue)
 end
 
-function slot4.AppendReloadBoost(slot0, slot1)
+slot4.AppendReloadBoost = function(slot0, slot1)
 	if slot0._currentState == slot0.STATE_OVER_HEAT then
 		slot0._playerChargeWeaponVo:ReloadBoost(slot0, slot1)
 	end
 end
 
-function slot4.IsStrikeMode(slot0)
+slot4.IsStrikeMode = function(slot0)
 	return slot0._strikeMode
 end

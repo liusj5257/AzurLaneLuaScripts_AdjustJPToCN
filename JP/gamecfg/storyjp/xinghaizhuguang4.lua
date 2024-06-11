@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			bgm = "theme-ucnf-image",
 			sequence = {
@@ -40,20 +40,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "擬似空間「NYシティ」-実験エリア",
 			bgm = "theme-aostelab",
+			say = "擬似空間「NYシティ」-実験エリア",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			say = "ホワイトアウトされた視界が元に戻ると、奇妙な光景が一行の前に広がった。",
@@ -84,9 +84,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			bgName = "bg_zhedie_2",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（リアルなSF映画の…リアルなSF映画のセット……）",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（でも、もしここが本当に未来なら…外より進んでいるのは何十年どころじゃないよ…）",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "…ラフィー、強くなった……この艤装は？",
 			painting = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これがもしかして「Ⅱ」型艤装？TBがさっき言ってた艤装テストとはこれのことかしら？",
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ、私が説明するよ",
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「Ⅱ」型艤装の開発はかなりリソースを使うし、時間もかかる",
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "具体的には「ギャラクシーコア」で擬似空間を生成して、中で艤装のデータを「Ⅱ」型艤装に上書きして各種テストする、ってことだよ",
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もちろん艤装が変わるのはこの擬似空間だけだし、上書きされた艤装もデータだからリュウコツには接続しない",
@@ -408,11 +408,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（でもこうして実物の艤装を再現できるなんて…もしかしてラフィーちゃんの「Ⅱ」型艤装のデータってもう完成間近なの？）",
@@ -462,11 +462,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "TB、テストはいつ始める？",
 			painting = {
@@ -499,27 +499,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_zhedie_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_zhedie_2",
 			say = "TBの声が響くとともに、水平線の向こうに「艦隊」が実体化した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -527,8 +527,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			say = "その一隻一隻の見た目も武装も、プリンストンとラフィーがこれまで知るものではない。",
@@ -557,8 +557,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -567,11 +567,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "見た目だけね。この敵も指揮官が回収したデータから再現したものだよ",
@@ -604,11 +604,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どんな素材でできているのかとか、どういう構造かとかは全然わからないし、実物での「再現」はとてもできないよ",
@@ -659,11 +659,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なるほど…",

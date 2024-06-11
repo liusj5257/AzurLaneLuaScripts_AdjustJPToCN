@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
-			nameColor = "#a9f548",
-			actorName = "???",
-			blackBg = true,
 			say = "あなたなの？",
+			nameColor = "#a9f548",
+			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "ティルピッツ…私の妹……",
 			shake = {
 				speed = 1,
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "…ごめんなさい…私のしたことを許して……",
 			shake = {
 				speed = 1,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "ごめんなさい…鉄血のためにこうするしかなかった………どうか分かってほしい……",
 			shake = {
 				speed = 1,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

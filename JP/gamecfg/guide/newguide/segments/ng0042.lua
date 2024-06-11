@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "裏山投票会場を冒険してみよう！",
 				mode = 1,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 0
 			}
 		}

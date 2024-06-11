@@ -1,12 +1,12 @@
 return {
-	id = "W826021",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W826021",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "該區域的海水中充斥著腐蝕性液體，還是不要靠近比較好……",
 			typewriter = {
 				speed = 0.05,

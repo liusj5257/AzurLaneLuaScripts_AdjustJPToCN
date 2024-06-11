@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023伊丽莎白meta 亚空间召唤 lv13",
 	time = 0,
-	color = "yellow",
+	name = "2023伊丽莎白meta 亚空间召唤 lv13",
+	init_effect = "",
+	id = 200377,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200377,
+	color = "yellow",
 	icon = 200377,
 	last_effect = "",
 	effect_list = {

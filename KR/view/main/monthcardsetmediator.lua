@@ -1,7 +1,7 @@
 slot0 = class("MonthCardSetMediator", import("..base.ContextMediator"))
 slot0.ON_SET_RATIO = "MonthCardSetMediator:ON_SET_RATIO"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot2 = getProxy(PlayerProxy):getRawData()
 
 	slot0:bind(uv0.ON_SET_RATIO, function (slot0, slot1)
@@ -15,11 +15,11 @@ function slot0.register(slot0)
 	slot0.viewComponent:setRatio(slot2:getCardById(VipCard.MONTH).data)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
 end

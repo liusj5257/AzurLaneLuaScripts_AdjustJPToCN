@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Somewhere in the Northern Parliament",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-6",
+			say = "Somewhere in the Northern Parliament",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,9 +40,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "Inside a dimly-lit room, Sovetsky Soyuz repeatedly looked over the report from Avrora and Pamiat'.",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "An unexpectedly major find.",
 			typewriter = {
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "A robotic-sounding female voice came out of a communicator that had been planted somewhere without anyone's knowledge.",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Where are they...?",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "I see. It must've been difficult for you to procure this.",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Prolonged loss of our shipping routes. Constant encroachment into our territory.",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -288,8 +288,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Yes. As you know, \"Reenactments\" will only lead to the Iron Blood's ruin.",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "There is no future for that Iron Blood. One built on Bismarck's power––",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -338,8 +338,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Take it as praise. Bismarck was a respectable leader, and the two of us shared the will and vision to create change.",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "After the communication ended, Soyuz remained silent for a few seconds... then dozens of seconds.",
 			typewriter = {
 				speed = 0.05,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "Regret. Defeat. Accomplishment. Hope. And the future –– A number of words coalesced into a storm of chaotic emotions.",
 			typewriter = {
 				speed = 0.05,
@@ -430,9 +430,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "In that silent space, she sifted through the chaos, ordering it with her icy will and rationality, unifying that which had branched.",
 			typewriter = {
 				speed = 0.05,
@@ -444,9 +444,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "...The time had come. Opening up a dedicated line of communication, Soyuz began to send a new message––",
 			typewriter = {
 				speed = 0.05,
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "...Based on the information and physical evidence obtained from the Siren facility, we believe that the Polar Expedition Fleet is likely to be alive.",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "\"Form a rescue team, rescue the Polar expedition fleet, and collect information and materials related to the Sirens.\"",
 			typewriter = {
@@ -511,9 +511,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "\"Let the responsibility for the tasks aforementioned fall upon Sovetsky Soyuz.\"",
 			typewriter = {

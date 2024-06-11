@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "1",
+	desc = "",
 	painting = 1,
 	id = 17573,
-	picture = "1",
 	castCV = "",
-	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerVanguardFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerVanguardFleet",
 			arg_list = {
 				buff_id = 17573
 			}

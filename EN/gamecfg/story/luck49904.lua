@@ -1,8 +1,8 @@
 return {
-	id = "LUCK49904",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK49904",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 499040,
@@ -23,8 +23,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499040,
 			dir = 1,
+			actor = 499040,
 			say = "However, our journey is long, and far from over. We must march onward.",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499040,
 			dir = 1,
+			actor = 499040,
 			say = "Do not be discouraged. I will continue my duties as your assistant.",
 			typewriter = {
 				speed = 0.05,

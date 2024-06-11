@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX123A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX123A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Use the Fleet Deployment command to set up a sub fleet that you will be able to call in later.",
 			typewriter = {
 				speed = 0.05,

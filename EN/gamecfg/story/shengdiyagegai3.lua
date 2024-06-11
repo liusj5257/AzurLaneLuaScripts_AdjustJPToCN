@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDIYAGEGAI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGDIYAGEGAI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Sparkling Battle Star!\n\n<size=45>Chapter 3: When In Doubt, Ask a Friend</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "I feel like I kinda get it, but I don't really...",
 			bgm = "story-1",
+			actor = 102080,
+			nameColor = "#a9f548",
+			say = "I feel like I kinda get it, but I don't really...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "Well, I'm a genius with a 4-digit IQ, so I'll probably understand in due time!",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 101319,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101319,
+			nameColor = "#a9f548",
 			say = "WAAAAGH?! Jeebus, what was that?! An earthquake, an airhorn, or both?!",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "Nope, just me, San Diego!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Nope, just me, San Diego!",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "Hold up, you can get a retrofit just by sleeping?! I need to write this down!",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -274,20 +274,20 @@ return {
 			}
 		},
 		{
-			actor = 101259,
+			say = "No, that's not how it works!",
 			side = 2,
+			actor = 101259,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "No, that's not how it works!",
 			actorPosition = {
 				x = 2250,
 				y = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.2,
 					x = -2250
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "Heyo, Hammann!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			actor = 102080,
 			dir = 1,
-			say = "Heyo, Hammann!",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101259,
+			nameColor = "#a9f548",
 			say = "Let me tell you: to get MY retrofit, I had to work my butt off while everyone stood by and stared at me!",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101259,
+			nameColor = "#a9f548",
 			say = "N-never mind, it doesn't matter! What I'm saying is: you want a retrofit? Then work hard for it! It won't just fall into your lap!",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

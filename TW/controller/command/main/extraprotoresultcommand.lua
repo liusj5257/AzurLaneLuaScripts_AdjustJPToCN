@@ -1,6 +1,6 @@
 slot0 = class("ExtraProtoResultCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if slot1:getBody().result == 9998 then
 		getProxy(WorldProxy).isProtoLock = true
 

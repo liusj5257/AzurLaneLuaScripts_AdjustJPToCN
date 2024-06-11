@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平穏を讃えて\n\n<size=45>六　夕焼けの風景</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "店を一通り回り、みんなの必要なものを全部揃えた。",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "店を一通り回り、みんなの必要なものを全部揃えた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "ニューカッスルの提案に乗り、二人で街角のベンチに腰を下ろした。",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "彼女はどことなく小さな本を取り出し、太ももに広げた",
 			typewriter = {
 				speed = 0.05,
@@ -225,9 +225,9 @@ return {
 			blackBgtrue,
 			actor = 202190,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_105",
 			say = "「あなたにも望みがあるべきよ」と、あの方がそう仰っていました――",
 			typewriter = {
 				speed = 0.05,

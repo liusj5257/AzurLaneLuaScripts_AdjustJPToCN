@@ -13,7 +13,7 @@ slot0.SET_TECHNOLOGY_VERSION = "ShipBluePrintMediator:SET_TECHNOLOGY_VERSION"
 slot0.SIMULATION_BATTLE = "ShipBluePrintMediator:SIMULATION_BATTLE"
 slot0.QUICK_EXCHAGE_BLUEPRINT = "ShipBluePrintMediator:QUICK_EXCHAGE_BLUEPRINT"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	PlayerPrefs.SetString("technology_day_mark", pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d", true))
 
 	slot1 = getProxy(TechnologyProxy)
@@ -133,7 +133,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setTaskVOs(getProxy(TaskProxy):getTasksForBluePrint())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BUILD_SHIP_BLUEPRINT_DONE,
 		TechnologyProxy.BLUEPRINT_UPDATED,
@@ -154,7 +154,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == TechnologyProxy.BLUEPRINT_UPDATED then

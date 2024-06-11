@@ -1,19 +1,19 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI10",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 107040,
-			side = 2,
-			bgm = "story-french2",
-			say = "돈틀리스, 한 번 더 공격해!",
-			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "story-french2",
+			actor = 107040,
+			say = "돈틀리스, 한 번 더 공격해!",
 			flashN = {
 				color = {
 					1,
@@ -58,8 +58,8 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			dir = 1,
 			say = "이제 됐어. 이 아이는 이제 움직이지 못해.",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -80,8 +80,8 @@ return {
 			say = "움직여! …움직여!! 움직이란 말야!!",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 22.5,
 					number = 2
@@ -117,8 +117,8 @@ return {
 			say = "어째서냐! 어째서 날 완성하지 않은 거냐!!",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 22.5,
 					number = 2
@@ -176,15 +176,15 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900055,
+			stopbgm = true,
 			say = "리슐리외 언니, 우리 둘, 서로 다른 도크로 옮긴다고 그러는데, 그거 정말이야!?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -344,15 +344,15 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
-			say = "……내 장비는 처음부터 완성되지 않았다.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-french2",
+			actor = 905010,
+			say = "……내 장비는 처음부터 완성되지 않았다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/noice",
-			say = "(지지직……)"
+			say = "(지지직……)",
+			soundeffect = "event:/ui/noice"
 		},
 		{
 			actor = 107040,
@@ -453,8 +453,8 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			dir = 1,
 			say = "…'메탈 블러드의 기동함대, 고속으로 남하 중. 전원 전투 준비' …지금?",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/noice",
-			say = "(지지직……)"
+			say = "(지지직……)",
+			soundeffect = "event:/ui/noice"
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "'비시아 성좌에 소속된 모든 함대에 전한다. 본부로부터 긴급 연락'",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,8 +513,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "'비시아 성좌에 소속된 모든 군함은 벽람항로에 합류하라. 비시아 성좌, 세력 식별 해제, 재현 종료'",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "'그대들에게 위대한 아버지와 성령의 가호가 있기를.'",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,12 +593,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "큭…! 비시아 성좌 기함 장 바르가 전 함선에 고한다!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -630,8 +630,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "이곳은 함락되었다! 이교도들이 조국으로 진출할 것이다.",
 			typewriter = {
 				speed = 0.05,
@@ -643,8 +643,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "메탈 블러드나 제국 녀석들이 우리를 집어삼키려들 뿐만 아니라, ",
 			typewriter = {
 				speed = 0.05,
@@ -656,8 +656,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "본부까지 우리 비시아 성좌를 부수려 하고 있다!",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "나는 절대로, 용인할 수 없다!",
 			typewriter = {
 				speed = 0.05,
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "케비르 항…… 됭케르크들이 적대하지 않았음에도 불구하고, 벽람항로한테 공격당한 시점에서, 이미 답은 나와 있었다!",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "그런 위선자들에게, 우리는 절대 복종하지 않는다!",
 			typewriter = {
 				speed = 0.05,
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "비시아 성좌는 지금 존망의 위기에 직면해 있다…… 우리 주변에는 적들뿐이다. 그게 어쨌단 거냐!",
 			typewriter = {
 				speed = 0.05,
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "명령을 내린다! 전 함선, 즉시 스스로 침몰하라!",
 			typewriter = {
 				speed = 0.05,
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "……필멸의 존재에게 죽음은 불가피한 것. 그대 슬퍼하지 마오. 이것이야말로 거짓 없는 윤회의 섭리.",
 			typewriter = {
 				speed = 0.05,
@@ -747,8 +747,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "언젠가, 또 다른 자신이 되어 눈뜨겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "그럼에도 신께는 감사드릴 따름이다. 멋진 나라를 주셔서 감사합니다…라고.",
 			typewriter = {
 				speed = 0.05,
@@ -773,8 +773,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "이 목숨을 행복하게 해주셔서 감사합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -786,8 +786,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "그리고 천국의 바다로 이끌어주셔서 감사합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -799,8 +799,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "이 영광이 아이리스를 잇는 모든 자들에게 전해지길 바란다.",
 			typewriter = {
 				speed = 0.05,
@@ -812,8 +812,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "비시아 성좌. 아이리스란 나라의 정의, 격정, 애정을 나타내는 자들에게……",
 			typewriter = {
 				speed = 0.05,
@@ -825,8 +825,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "'위대한 아버지와 성령의 가호가 있기를'",
 			typewriter = {
 				speed = 0.05,
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "비시아…… 아니…… 아이리스 제2기함. 장 바르……",
 			typewriter = {
 				speed = 0.05,
@@ -853,9 +853,9 @@ return {
 		{
 			actor = 105190,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			say = "대체 왜 그런 행동을.",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
 					active = false,
@@ -874,8 +874,8 @@ return {
 		{
 			actor = 905010,
 			side = 1,
-			dir = 1,
 			say = "과거 아이리스와 로열 네이비가 맹약을 체결해서 말야. 아이리스는 결코 메탈 블러드나 제국에 항복하지 않는다…… 우리 비시아 성좌도 아이리스의 일부니까, 도리를 관철할 뿐이다.",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1045,15 +1045,15 @@ return {
 			}
 		},
 		{
-			actor = 900054,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900054,
+			stopbgm = true,
 			say = "그나저나 우리 '이름'의 의미…… 알고 있나요?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

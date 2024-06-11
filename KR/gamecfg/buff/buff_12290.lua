@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "安全第一！",
 	init_effect = "",
+	id = 12290,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12290,
+	color = "red",
 	icon = 12290,
 	last_effect = "",
 	effect_list = {
@@ -45,8 +45,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				target = "TargetSelf",
 				skill_id = 12290,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

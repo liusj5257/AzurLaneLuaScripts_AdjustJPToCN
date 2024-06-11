@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19684,
 	time = 1,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19684,
+	color = "red",
 	icon = 19684,
 	last_effect = "",
 	effect_list = {
@@ -45,9 +45,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 19681,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 19681,
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -63,9 +63,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				skill_id = 19682,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 19682,
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"

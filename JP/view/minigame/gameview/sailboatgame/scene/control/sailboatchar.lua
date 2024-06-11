@@ -2,7 +2,7 @@ slot0 = class("SailBoatChar")
 slot1 = nil
 slot0.fire_cd = 0.1
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._tf = slot1
 	slot0._eventCallback = slot2
@@ -19,13 +19,13 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._playerAnimator = GetComponent(slot0._tf, typeof(Animator))
 end
 
-function slot0.setData(slot0, slot1)
+slot0.setData = function(slot0, slot1)
 	slot0._data = slot1
 	slot0._baseSpeed = slot0:getConfig("speed")
 	slot0._baseHp = slot0:getConfig("hp")
 end
 
-function slot0.setWeapon(slot0, slot1, slot2)
+slot0.setWeapon = function(slot0, slot1, slot2)
 	if slot0._leftWeapons and #slot0._leftWeapons > 0 then
 		for slot6 = 1, #slot0._leftWeapons do
 			slot0._leftWeapons[slot6]:clear()
@@ -43,7 +43,7 @@ function slot0.setWeapon(slot0, slot1, slot2)
 	slot0._weaponMaxDistance = nil
 end
 
-function slot0.setContent(slot0, slot1, slot2)
+slot0.setContent = function(slot0, slot1, slot2)
 	slot0._content = slot1
 
 	SetParent(slot0._tf, slot1)
@@ -51,7 +51,7 @@ function slot0.setContent(slot0, slot1, slot2)
 	slot0._tf.anchoredPosition = slot2
 end
 
-function slot0.changeDirect(slot0, slot1, slot2)
+slot0.changeDirect = function(slot0, slot1, slot2)
 	slot0._directX = slot1
 	slot0._directY = slot2
 
@@ -64,11 +64,11 @@ function slot0.changeDirect(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getWorld(slot0)
+slot0.getWorld = function(slot0)
 	return slot0._tf.position
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0._directX = 0
 	slot0._directY = 0
 
@@ -99,7 +99,7 @@ function slot0.start(slot0)
 	slot0._hpSlider.value = slot0._hp
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	if slot0:getLife() then
 		if math.abs(slot0:getNextPosition(slot0._directX, slot0._directY).x) <= uv0.scene_width / 2 + 50 then
 			if math.abs(slot2.y) <= uv0.scene_height / 2 + 50 then
@@ -166,21 +166,21 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.getHp(slot0)
+slot0.getHp = function(slot0)
 	return slot0._hp
 end
 
-function slot0.getHpPos(slot0)
+slot0.getHpPos = function(slot0)
 	return slot0._hpTf.position
 end
 
-function slot0.useSkill(slot0)
+slot0.useSkill = function(slot0)
 	slot0._skillTime = SailBoatGameVo.skillTime
 
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0.SFX_SOUND_SKILL)
 end
 
-function slot0.getNextPosition(slot0, slot1, slot2)
+slot0.getNextPosition = function(slot0, slot1, slot2)
 	slot3 = 0
 
 	if slot1 ~= 0 then
@@ -205,11 +205,11 @@ function slot0.getNextPosition(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot0.getWeapons(slot0)
+slot0.getWeapons = function(slot0)
 	return slot0._leftWeapons, slot0._rightWeapons
 end
 
-function slot0.getFirePos(slot0)
+slot0.getFirePos = function(slot0)
 	if not slot0._leftFireTf then
 		slot0._leftFireTf = findTF(slot0._tf, "leftFire")
 	end
@@ -221,11 +221,11 @@ function slot0.getFirePos(slot0)
 	return slot0._content:InverseTransformPoint(slot0._leftFireTf.position), slot0._content:InverseTransformPoint(slot0._rightFireTf.position)
 end
 
-function slot0.getFireContent(slot0)
+slot0.getFireContent = function(slot0)
 	return slot0._leftFireTf, slot0._rightFireTf
 end
 
-function slot0.getWeaponMaxDistance(slot0)
+slot0.getWeaponMaxDistance = function(slot0)
 	if not slot0._weaponMaxDistance then
 		slot0._weaponMaxDistance = 0
 
@@ -245,36 +245,36 @@ function slot0.getWeaponMaxDistance(slot0)
 	return slot0._weaponMaxDistance
 end
 
-function slot0.flash(slot0)
+slot0.flash = function(slot0)
 	slot0.colliderDamageCd = uv0.collider_time
 
 	slot0._playerAnimator:SetTrigger("flash")
 end
 
-function slot0.move(slot0, slot1, slot2)
+slot0.move = function(slot0, slot1, slot2)
 	slot3 = slot0._tf.anchoredPosition
 	slot3.x = slot3.x + slot1
 	slot3.y = slot3.y + slot2
 	slot0._tf.anchoredPosition = slot3
 end
 
-function slot0.getMaxHp(slot0)
+slot0.getMaxHp = function(slot0)
 	return slot0._baseHp + slot0:getEquipAttr("hp")
 end
 
-function slot0.getTf(slot0)
+slot0.getTf = function(slot0)
 	return slot0._tf
 end
 
-function slot0.clearEquipData(slot0)
+slot0.clearEquipData = function(slot0)
 	slot0._equipData = {}
 end
 
-function slot0.setEquipData(slot0, slot1)
+slot0.setEquipData = function(slot0, slot1)
 	table.insert(slot0._equipData, slot1)
 end
 
-function slot0.getEquipAttr(slot0, slot1)
+slot0.getEquipAttr = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = 1, #slot0._equipData do
@@ -284,7 +284,7 @@ function slot0.getEquipAttr(slot0, slot1)
 	return slot2
 end
 
-function slot0.getColliderData(slot0)
+slot0.getColliderData = function(slot0)
 	slot1 = slot0._content:InverseTransformPoint(slot0._collider.bounds.min)
 
 	if not slot0._boundData then
@@ -298,7 +298,7 @@ function slot0.getColliderData(slot0)
 	return slot1, slot0._boundData
 end
 
-function slot0.getWorldColliderData(slot0)
+slot0.getWorldColliderData = function(slot0)
 	slot1 = slot0._collider.bounds.min
 
 	if not slot0._worldBoundData then
@@ -312,7 +312,7 @@ function slot0.getWorldColliderData(slot0)
 	return slot1, slot0._worldBoundData
 end
 
-function slot0.addHp(slot0, slot1)
+slot0.addHp = function(slot0, slot1)
 	if slot0:getLife() then
 		slot0._hp = slot0._hp + slot1
 
@@ -322,11 +322,11 @@ function slot0.addHp(slot0, slot1)
 	end
 end
 
-function slot0.getLife(slot0)
+slot0.getLife = function(slot0)
 	return slot0._hp > 0
 end
 
-function slot0.getColliderMinPosition(slot0)
+slot0.getColliderMinPosition = function(slot0)
 	if not slot0._minPosition then
 		slot0._minPosition = slot0._tf:InverseTransformPoint(slot0._collider.bounds.min)
 	end
@@ -334,7 +334,7 @@ function slot0.getColliderMinPosition(slot0)
 	return slot0._minPosition
 end
 
-function slot0.getBoundData(slot0)
+slot0.getBoundData = function(slot0)
 	slot1 = slot0._content:InverseTransformPoint(slot0._collider.bounds.min)
 
 	if not slot0._boundData then
@@ -348,19 +348,19 @@ function slot0.getBoundData(slot0)
 	return slot0._boundData
 end
 
-function slot0.getPosition(slot0)
+slot0.getPosition = function(slot0)
 	return slot0._tf.anchoredPosition
 end
 
-function slot0.getGroup(slot0)
+slot0.getGroup = function(slot0)
 	return slot0:getConfig("group")
 end
 
-function slot0.getHitGroup(slot0)
+slot0.getHitGroup = function(slot0)
 	return slot0:getConfig("hit_group")
 end
 
-function slot0.inFireCd(slot0, slot1)
+slot0.inFireCd = function(slot0, slot1)
 	if slot1 > 0 then
 		return slot0._fireRightCd > 0
 	else
@@ -368,7 +368,7 @@ function slot0.inFireCd(slot0, slot1)
 	end
 end
 
-function slot0.fire(slot0, slot1)
+slot0.fire = function(slot0, slot1)
 	if slot1 > 0 then
 		if slot0._fireRightCd <= 0 then
 			slot0._fireRightCd = uv0.fire_cd
@@ -388,17 +388,17 @@ function slot0.fire(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
-function slot0.stop(slot0)
+slot0.stop = function(slot0)
 end
 
-function slot0.checkColliderDamage(slot0)
+slot0.checkColliderDamage = function(slot0)
 	return slot0.colliderDamageCd <= 0
 end
 
-function slot0.damage(slot0, slot1)
+slot0.damage = function(slot0, slot1)
 	if not slot0:getLife() then
 		return
 	end
@@ -424,7 +424,7 @@ function slot0.damage(slot0, slot1)
 	end
 end
 
-function slot0.setTrigger(slot0, slot1, slot2)
+slot0.setTrigger = function(slot0, slot1, slot2)
 	if slot0:getLife() then
 		slot0._animator:SetTrigger(slot1)
 	elseif slot2 then
@@ -432,19 +432,19 @@ function slot0.setTrigger(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setInteger(slot0, slot1, slot2)
+slot0.setInteger = function(slot0, slot1, slot2)
 	slot0._animator:SetInteger(slot1, slot2)
 end
 
-function slot0.getMinMaxPosition(slot0)
+slot0.getMinMaxPosition = function(slot0)
 	return slot0._collider.bounds.min, slot0._collider.bounds.max
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	return slot0._data[slot1]
 end
 
-function slot0.checkPositionInRange(slot0, slot1)
+slot0.checkPositionInRange = function(slot0, slot1)
 	slot2 = slot0._tf.anchoredPosition
 	slot4 = math.abs(slot2.y - slot1.y)
 
@@ -455,7 +455,7 @@ function slot0.checkPositionInRange(slot0, slot1)
 	return false
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

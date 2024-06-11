@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.15
 				}
@@ -15,10 +15,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.161
 				}
@@ -28,10 +28,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.172
 				}
@@ -41,10 +41,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.183
 				}
@@ -54,10 +54,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.194
 				}
@@ -67,10 +67,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.205
 				}
@@ -80,10 +80,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.216
 				}
@@ -93,10 +93,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.227
 				}
@@ -106,10 +106,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.238
 				}
@@ -119,10 +119,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetSelf",
 				arg_list = {
 					maxHPRatio = 0.25
 				}
@@ -132,11 +132,11 @@ return {
 	uiEffect = "",
 	name = "复仇打击",
 	cd = 0,
+	picture = "1",
+	desc = "轰炸",
 	painting = 1,
 	id = 10190,
-	picture = "1",
 	castCV = "skill",
-	desc = "轰炸",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -147,10 +147,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetSelf",
 			arg_list = {
 				maxHPRatio = 0.15
 			}

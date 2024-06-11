@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "火力干扰",
 	time = 15,
-	color = "yellow",
+	name = "火力干扰",
+	init_effect = "",
+	id = 5002,
 	picture = "",
 	desc = "15%的概率发动",
 	stack = 1,
-	id = 5002,
+	color = "yellow",
 	icon = 5000,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 2500,
-				skill_id = 5001,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 5001
 			}
 		}
 	}

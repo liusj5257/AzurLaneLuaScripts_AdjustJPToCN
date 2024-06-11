@@ -62,12 +62,12 @@ return {
 	desc_get = "耐久低于20%时，恢复15.0%(满级25.0%)耐久，每场战斗只能触发1次",
 	name = "浴火重生",
 	init_effect = "",
+	id = 10010,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "耐久低于20%时，恢复$1耐久，每场战斗只能触发1次",
 	stack = 1,
-	id = 10010,
+	color = "blue",
 	icon = 10010,
 	last_effect = "Health",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.2,
-				target = "TargetSelf",
 				skill_id = 10010,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

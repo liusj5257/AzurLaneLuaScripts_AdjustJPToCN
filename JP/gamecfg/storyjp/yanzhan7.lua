@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YANZHAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ナイト・オブ・ロイヤル\n\n<size=45>七 守るための剣</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "ハッ……！？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 2.15,
 					dur = 0.15,
 					x = 0,
@@ -124,15 +124,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室付近",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "母港・執務室付近",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -221,15 +221,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "……指揮官？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -414,17 +414,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -449,15 +449,15 @@ return {
 			}
 		},
 		{
-			actor = 204010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204010,
+			nameColor = "#a9f548",
 			say = "ほ、本当ですか！？ウォースパイト様が！？",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "本当よ！下僕と一緒に執務室の机にうつ伏せになって寝てたのを見たわ！",
 			typewriter = {
 				speed = 0.05,
@@ -498,8 +498,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "私の付き人なのに！…起きたら絶対質問攻めにするわ！",
 			typewriter = {
 				speed = 0.05,
@@ -540,8 +540,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,

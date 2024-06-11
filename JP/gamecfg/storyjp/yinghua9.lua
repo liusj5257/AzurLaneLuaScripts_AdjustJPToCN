@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINGHUA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"人間に触れてはならぬ。神子の神格を損ねるがゆえに。",
@@ -25,16 +25,16 @@ return {
 			}
 		},
 		{
-			say = "……",
 			blackBg = true,
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「…余も皆と一緒に戦いたい！頑張っている皆にとって、余たちだけが後ろで控えているなんてこと、あまりにも不公平では…！」",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「余は…わたしと陸奥は最大最強の戦艦だったのではないのか！…お願い！絶対に皆の足を引っ張らないから！」",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「ならぬ！」",
 			typewriter = {
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「重桜を守りし者、世界一の最強戦艦に前線で万が一何かがあった時、重桜の民に如何に弁明できようか！」",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「でも……」",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「過ぎた自己は己が躰を滅ぼすぞ」",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「我らの指示通りに動く事こそ重桜への貢献となるのだ。わかっておるか？」",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「いかにも。お主は今まで通り動いていれば良い」",
 			typewriter = {
@@ -113,15 +113,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "陸奥",
 			dir = 1,
 			bgm = "newyear",
+			actor = 305050,
+			say = "陸奥",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

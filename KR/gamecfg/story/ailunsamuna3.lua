@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AILUNSAMUNA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AILUNSAMUNA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"3성 럭셔리 로맨스\n\n<size=45>3. 흥미로운 화제</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 사무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 사무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "……음. 지금은 일하는 중이야… 참자 참자……",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "…… 아니야, 아니야, 지금은 일 중이야! 이런, 깜박 쥬스타그램 봤다가는 보상이 멀어진다고…",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "지휘관이 퇴근할 때까지 2시간 남았어. 힘내자, 알렌!",
 			typewriter = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "알렌은 자기 자신과 투쟁을 벌였다.",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "엇, 휴일이 2주나 지났네… 쇼핑하고 싶다…… 꼭 뭔가를 사지는 않아도 좋으니까……",
 			typewriter = {
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "앗, 저대로 두다가는 알렌은 또 집중이 흐트러질 것이다——",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "아, 미안, 지금 일하는 중이었어!",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "알렌은 다시 집중하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "보상으로 동기가 부여되자, 알렌의 집중력은 전보다 나아졌지만, 아직 좀 모자란 듯하다.",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "한 번 놀고나면 업무 효율이 오를 순 있겠지만... 지휘관을 곤란하게 한다면......",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "그리고 누가 보기라도 하면 또 이상한 소문이 돌지 않을까? ... 헤헤",
 			typewriter = {

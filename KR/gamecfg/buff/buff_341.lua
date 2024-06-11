@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "航母空袭降低隐蔽恢复",
 	time = 12,
+	name = "航母空袭降低隐蔽恢复",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cloakRecovery",
-				number = -3
+				number = -3,
+				attr = "cloakRecovery"
 			}
 		}
 	}

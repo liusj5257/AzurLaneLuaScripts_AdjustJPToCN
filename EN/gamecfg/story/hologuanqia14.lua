@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "That white building is the Holomart. We store all our tools and stuff in there, so it's the best place to start if we wanna get resources.",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,9 +40,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Whoopsie, I never formally introduced myself!",
 			flashout = {
 				dur = 0.5,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "But just because I'm maid doesn't mean I'm good at housekeeping, that's a stereotype! Video games, however, you bet I am!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "We kept water, food, and medicine stockpiled in our hideout back in the Hololive Server, which have all carried over, but for some reason we've also got ammunition that conveniently works with our riggings just lying around!",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "That, and blocks of TNT. They work slightly differently compared to back on the Hololive Server, but they still explode just as well!",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "Back then I figured I'd need them at some point, so I hid stores of them all over the place, although I'm not sure if they're still there...",
 			typewriter = {
 				speed = 0.05,
@@ -196,9 +196,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "And since blocks of TNT are the most powerful item available on the Hololive Server, I suggest you collect as much of it as you can!!!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 		{
 			actor = 301490,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "From what I understand based on Fubuki's explanation, Hololive is a talent agency that recruits and oversees \"Vtubers,\" as she called them.",
 			flashout = {
 				dur = 0.5,
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "\"Talent agency\"... I mean...",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Don't worry about the TNT too much, just think of it as an everyday item! We need it to construct buildings, you see.",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "That's easy peasy~ Let's rev up our engines and do it!",
 			typewriter = {
 				speed = 0.05,

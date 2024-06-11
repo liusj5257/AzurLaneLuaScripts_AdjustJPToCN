@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN9",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "blueocean-image",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "轟————————！",
 			dir = 1,
-			bgm = "blueocean-image",
+			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "英王喬治五世？",
+			side = 1,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "有自信心是好事，海因里希。下次訓練的時候，給“皇家艦隊”再增加三艘光輝級和三艘伊莉莎白女王級好了。",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "我錯了！請當剛才的對話從來沒有發生過！",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "唉…………",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "不，計劃變更。重櫻艦隊和其他訓練內容改到下午，大家直接去休息去準備午飯吧。",
 			typewriter = {
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "哎？好耶~！！！！！那我就先走一步~",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "……妳還在擔心通訊系統故障的事嗎？",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "只是有點擔心而已……我再去檢查一下防禦設施，妳也返回E2浮島休息區吧，我稍後就到。",
 			typewriter = {
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 407030,
+			nameColor = "#a9f548",
 			say = "多謝，保持聯絡。",
 			typewriter = {
 				speed = 0.05,

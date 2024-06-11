@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"榮光的間奏曲\n\n<size=45>七 於她而言的榮光·下</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "於她而言，作為給人們帶去勝利，被大家所依賴的“光榮”是最重要的事。但——",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			bgm = "story-1",
+			say = "於她而言，作為給人們帶去勝利，被大家所依賴的“光榮”是最重要的事。但——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "沒有的事。",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "……啊……",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "拉過她的手，讓她坐到身旁。",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "其實剛才偷偷和正在開會的大家聯繫過，讓她們開完會就過來幫忙。",
 			typewriter = {
 				speed = 0.05,
@@ -211,9 +211,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "光榮的聲音裡有一絲顫抖。",
 			typewriter = {
 				speed = 0.05,
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "她輕輕地反握了一下牽著的手。肩膀上能感受到來自少女的重量。",
 			typewriter = {
 				speed = 0.05,

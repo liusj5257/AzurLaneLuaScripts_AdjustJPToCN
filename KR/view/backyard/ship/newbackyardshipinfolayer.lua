@@ -1,10 +1,10 @@
 slot0 = class("NewBackYardShipInfoLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewBackYardShipInfoUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.descTxt = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
 	slot1 = slot0:findTF("frame/top/value/Text")
 	slot0.counterTxt = slot1:GetComponent(typeof(Text))
@@ -49,7 +49,7 @@ function slot0.init(slot0)
 	setText(slot0:findTF("frame/top/train/Text_un"), i18n("courtyard_label_train"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
@@ -96,7 +96,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.GetCardTypeCnt(slot0, slot1)
+slot0.GetCardTypeCnt = function(slot0, slot1)
 	slot2 = getProxy(DormProxy):getRawData()
 	slot3 = 0
 	slot4 = 0
@@ -119,7 +119,7 @@ function slot0.GetCardTypeCnt(slot0, slot1)
 	}
 end
 
-function slot0.SwitchToPage(slot0, slot1)
+slot0.SwitchToPage = function(slot0, slot1)
 	if slot0.type == slot1 then
 		return
 	end
@@ -135,7 +135,7 @@ function slot0.SwitchToPage(slot0, slot1)
 	end
 end
 
-function slot0.UpdateSlots(slot0)
+slot0.UpdateSlots = function(slot0)
 	slot1 = slot0.type
 	slot4 = getProxy(DormProxy):getRawData():GetStateShips(slot1)
 	slot5 = 0
@@ -151,7 +151,7 @@ function slot0.UpdateSlots(slot0)
 	slot0.counterTxt.text = slot2[1] .. "/" .. slot2[2] + slot2[1]
 end
 
-function slot0.GetTypeCards(slot0, slot1, slot2)
+slot0.GetTypeCards = function(slot0, slot1, slot2)
 	for slot7 = #slot0.cards[slot1], slot2 - 1 do
 		table.insert(slot3, slot3[1]:Clone())
 	end
@@ -173,7 +173,7 @@ function slot0.GetTypeCards(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in ipairs(slot0.cards) do
 		for slot9, slot10 in ipairs(slot5) do
 			slot10:Dispose()

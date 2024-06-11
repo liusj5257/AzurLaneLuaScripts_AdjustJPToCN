@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGHAIJINGLEI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGHAIJINGLEI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"静海遠雷\n\n<size=45>五 スペアボディ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
 			side = 2,
 			bgName = "bg_port_chuanwu2",
+			bgm = "main-arbitrationsystem-theme",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "？？？·？？？",
-			bgm = "main-arbitrationsystem-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			say = "金属の壁に覆われた巨大な「工場施設」の中で、次々と人型のセイレーンユニットが「生産」されていく。",
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "セイレーンの「工房」はこんな感じなのね…普通の量産艦とは全然違うわ",
 			painting = {
 				alpha = 0.3,
@@ -77,10 +77,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかも……人型ユニットではなく、上位ユニットのスペアボディだ……",
 			painting = {
 				alpha = 0.3,
@@ -95,10 +95,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そういえば、このスペアボディはそもそもどうやって作られているの？",
 			painting = {
 				alpha = 0.3,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -125,10 +125,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とんでもない話ね。こいつらを量産艦のように戦力として頼っていいってことかしら？",
 			painting = {
 				alpha = 0.3,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -167,10 +167,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はは、流石にあの上位個体を操れるとは思ってないわよ。説明ありがとう",
 			painting = {
 				alpha = 0.3,
@@ -185,10 +185,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "案内はここらへんにして、そろそろ休まない？今の貴方の顔色は誰が見ても心配しちゃうわよ",
 			painting = {
 				alpha = 0.3,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。テスターにピュリファイアー、コンパイラー、オミッター……「駒」と同じく、本物と同じ見た目をしているわ",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "最後に一つだけ質問させてもらっても？",
 			painting = {
 				alpha = 0.3,
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -271,12 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わっ、さすがね……",
 			painting = {
 				alpha = 0.3,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -339,10 +339,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね……話は分かったわ。一人ぐらい欠けちゃっても…",
 			painting = {
 				alpha = 0.3,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			say = "「工房」の照明装置が放つ光が、今まで暗闇だった場所に――ほかのスペアボディから離れた場所にあるもう一体の「セイレーン」を明るく照らした。",
@@ -392,10 +392,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これは……？",
 			painting = {
 				alpha = 0.3,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
 			actorName = "？？？",
+			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"港區逃離大作戰！\n\n<size=45>五　作戰失敗…？</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 407010,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "也就是說，妳進行的高能熱線照射試驗，偶然誕生出了這些孩子嗎",
 			bgm = "story-1",
+			actor = 407010,
+			nameColor = "#a9f548",
+			say = "也就是說，妳進行的高能熱線照射試驗，偶然誕生出了這些孩子嗎",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "原原來是我搞錯了嗎…我好憎恨…自己的不成熟…！",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "知、知道了喵！對不起喵！",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "和我一樣的“{namecode:71}”……那料理的技巧一定更厲害了吧……",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "不可能…明明是鐵血第一艘航母…結果竟然有“兩個”…嗎？",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -373,15 +373,15 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "這下就算是告一段落了…不知道以後…能不能順利融入港區呢…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -486,17 +486,17 @@ return {
 			}
 		},
 		{
-			actor = 307090,
 			actorName = "？？？",
-			blackBg = true,
 			side = 2,
 			dir = 1,
 			stopngm = true,
+			blackBg = true,
+			actor = 307090,
 			nameColor = "#a9f548",
 			say = "——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 307090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 307090,
+			actorName = "？？？",
 			say = "那是當然，呵呵呵……",
 			typewriter = {
 				speed = 0.05,

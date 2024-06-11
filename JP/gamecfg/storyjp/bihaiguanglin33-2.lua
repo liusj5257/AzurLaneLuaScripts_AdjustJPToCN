@@ -1,8 +1,8 @@
 return {
-	id = "BIHAIGUANGLIN33-2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "もしかして、最初の仕掛けは、さっき島風たちが出会った敵を回復させるもの…？",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "でもこれで時間稼ぎができそう…！島風、よくやったわ！",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "白龍が使っている艦載機は重桜のやつだよね！しかも格好も戦い方も重桜っぽいよね！どう見てもセイレーンじゃないよね！",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "セイレーンじゃなくて重桜ならどうしてうちらと戦うのだー！？",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "お前らこそここから出るために戦っているのに、そんな余計なことなど――",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 4,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "…竜宮仕掛けを起動しやがったか。まぁ、お前ら相手にはいいハンデだ",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 		{
 			actor = 399050,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "その回復を上回る攻撃をくれてやる！",
 			dialogShake = {
 				speed = 0.08,

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 800664,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800664,
+	color = "red",
 	icon = 800664,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 800663,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 800663,
 				label = {
 					"Pearl's-Tears"
 				}

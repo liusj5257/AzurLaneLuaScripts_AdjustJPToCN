@@ -3,7 +3,7 @@ slot0.EXTEND = "NewYearHotSpringShipSelectMediator:EXTEND"
 slot0.OPEN_CHUANWU = "NewYearHotSpringShipSelectMediator:OPEN_CHUANWU"
 slot0.LOOG_PRESS_SHIP = "NewYearHotSpringShipSelectMediator:LOOG_PRESS_SHIP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.EXTEND, function (slot0)
 		uv0:sendNotification(NewYearHotSpringMediator.UNLOCK_SLOT, uv0.contextData.actId)
 	end)
@@ -21,14 +21,14 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetActivity(getProxy(ActivityProxy):getActivityById(slot0.contextData.actId))
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.EXTEND_BACKYARD_DONE,
 		ActivityProxy.ACTIVITY_UPDATED
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.EXTEND_BACKYARD_DONE then
@@ -40,7 +40,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大潮よりお届け♪\n\n<size=45>三　ご縁かご利益か</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それは午前中の仕事が終わり、思いっきり伸びをしようとしたその時だった。",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "大潮が目の前に置いてくれた小箱を開けると、様々な形をした美味しそうな小さいビスケットやケーキがキレイに並べられていた。",
 			typewriter = {
 				speed = 0.05,
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "半分だけ？",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "好奇心で大潮についていくことにした。",
 			typewriter = {
 				speed = 0.05,
@@ -150,15 +150,15 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "はい、指揮官、よく見ないな♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "大潮に連れて行かれた場所は重桜寮のとある部屋だった。",
 			typewriter = {
 				speed = 0.05,
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "うん、指揮官も♪この甘味は誰に贈るつもりかーって気になるようやから連れてきちゃった♪",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うん、指揮官も♪この甘味は誰に贈るつもりかーって気になるようやから連れてきちゃった♪",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -277,9 +277,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "大潮は布団で大の字で寝ている夕立の鼻の元にそっとビスケットを一枚置いた。",
 			typewriter = {
 				speed = 0.05,
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "くんくん……わぅ！？！？お菓子の匂いだ！どこだ！？",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "夕立ちゃん、おはような～お菓子を持ってきちゃった～",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "夕立ちゃん、おはような～お菓子を持ってきちゃった～",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "こ、これは………！？",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "元気いっぱいになった夕立は大潮のお菓子をもぐもぐと貪り始めた",
 			typewriter = {
 				speed = 0.05,
@@ -401,12 +401,12 @@ return {
 			}
 		},
 		{
-			actor = 301150,
+			say = "この子たちは妙に縁があるよね…ま、指揮官は別に気にする必要なんてないわよ？",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "この子たちは妙に縁があるよね…ま、指揮官は別に気にする必要なんてないわよ？",
+			actor = 301150,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -421,12 +421,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "もう時雨ちゃん、そんな誤解されそうな話はやめないな～",
 			typewriter = {
 				speed = 0.05,

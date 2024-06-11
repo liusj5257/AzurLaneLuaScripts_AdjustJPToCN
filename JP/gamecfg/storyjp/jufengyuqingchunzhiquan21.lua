@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "憤りで鉄爪を大きく振り回すギャレーだが、意外にもいきなり猛攻を仕掛けることはなかった。",
 			bgm = "theme-tempest",
+			say = "憤りで鉄爪を大きく振り回すギャレーだが、意外にもいきなり猛攻を仕掛けることはなかった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "お互いが得物を何合か交えると五分の睨み合いとなり、それに伴い「沈寂の地」の雰囲気もどんどん重くなりつつある。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "艦船の戦意を感じ取った水生動物は我先へと海に潜み、どこかへと退散していく。",
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "何回かの試し合いを経て、二人は同時に技を繰り出し――",
@@ -53,10 +53,10 @@ return {
 			}
 		},
 		{
-			actor = 9600020,
+			factiontag = "無敵の桂冠",
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "無敵の桂冠",
+			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……そちらの負けだ",
@@ -65,17 +65,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "サン・マルチーニョは槍の穂先をギャレーの目の前に突き付けた。",
@@ -113,11 +113,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "技あり！勝負あり！ここらへんでお開きよ！",
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "隠居者",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……負けたわ。あんたは強いわね",
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「若返りの泉」を探すんだよ？興味ないの…？",
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "隠居者",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "失われし古の遺産…よく野心家に狙われるやつでしょ？",
@@ -356,11 +356,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "隠居者",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "でもあんたの言っていることが正しいって誰が証明できるの？",
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あはははは！",
@@ -544,8 +544,8 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_jufengv1_1",
 			factiontag = "名誉リーダー",
+			bgName = "bg_jufengv1_1",
 			bgm = "theme-tempest-up",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
@@ -556,17 +556,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "隠居者",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "話は分かったわ",
@@ -592,11 +592,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それで？助けてくれるの？",
@@ -747,11 +747,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "隠居者",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あそこへと続く航路は本物の航路ではなく、「概念」のようなもの",
@@ -784,11 +784,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "隠居者",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "だから「若返りの泉」に行きたければ、新世界の航路で、そこへと繋がる嵐に入ればいい",
@@ -821,11 +821,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あれ？そういえば指揮官も嵐を通ってここにやってきたんじゃなかった？",
@@ -845,11 +845,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうそう！それを持って嵐に遭遇したら気づいたら…",
@@ -901,28 +901,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_jufengv1_1",
+			bgm = "battle-boss-4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "気がづくと、黒雲が「沈寂の地」の海面に集まり、中から異形の「扉」のような空洞が現れた。",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -930,8 +930,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "仲間たちが気を取られる中、扉の「向こう」から招かれざる存在がやってきた。",
@@ -979,11 +979,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "誰？！",
@@ -1036,8 +1036,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "「扉」から城壁の如く壁が押し寄せ、「偉大なるロイヤル・フォーチュン号」を飲み込もうとしてくる。",
@@ -1047,8 +1047,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "帆船とは比べ物にならないほど揺られる旅になりそうだ……",

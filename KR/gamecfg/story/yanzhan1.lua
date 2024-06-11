@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANZHAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나이트 오브 로열 네이비\n\n<size=45>폐하와의 아침</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 로열 네이비 숙소",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 로열 네이비 숙소",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "(이럴 땐 대체 어떻게 해야…)",
 			typewriter = {
 				speed = 0.05,
@@ -172,12 +172,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "폐하, 일어나실 시간입니다. 폐하께서 주관하셔야 할 중요한 회의가 있사오니, 이제 그만 일어……",
 			typewriter = {
 				speed = 0.05,
@@ -189,12 +189,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "쿠울……으음……어? 워스파이트으? 옆에 있었구나……다행이다……어라?",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#92fc63",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "(역시 지금은 강경하게 나갈 수밖에 없겠어…침대 시트를 잡고……폐하, 무례를 용서해주시옵소서.)",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
+			nameColor = "#92fc63",
 			say = "하아아아압!",
 			effects = {
 				{
@@ -264,9 +264,9 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
+			nameColor = "#92fc63",
 			say = "꺄아아아아아아아악!!!",
 			effects = {
 				{
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "워, 워스파이트 뭐 하는 거야!! ……잠깐, 어라?",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "정말이지! 왜 더 일찍 안 깨워준 거야! 회의에 늦게 생겼잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -379,15 +379,15 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "엣헴! 아무튼, 로열 네이비와 이글 유니온의 두 번째 대규모 합동 연습전 훈련을 실시할 예정이야!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "네! 폐하!",
 			typewriter = {
 				speed = 0.05,
@@ -460,8 +460,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,

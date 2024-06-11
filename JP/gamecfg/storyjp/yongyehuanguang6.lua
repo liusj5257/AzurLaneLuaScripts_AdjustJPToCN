@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			actor = 408050,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "いかんいかん、敵は本気だ……また今度ね！",
-			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "最後の魚雷を射出し、ハーマイオニーに回避行動を取らせている隙に、U-73は潜航して戦場から離脱した。",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "ふぅ……「群狼作戦」ではなく、相手が一隻のみで良かったですね……",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "こちらも接近してくる航空機を片付けた",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "ほかの潜水艦は…いませんね。敵を撃退できたってことでしょうか",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "そうだな。輸送船団を襲撃するにしては戦力が少なすぎる",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "もしかして「威力偵察」でしょうか。先程鉄血の主力艦隊も向かっている…と聞きましたから",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "いや、それはあえて相手に教えるものか…？",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "そ、そうですね。いずれにしても、敵の主力艦隊がいるなら、こちらの後詰め艦隊に対応してもらう必要がありますね",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -260,8 +260,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "そうだとしたら、支援艦隊が危ないです…！",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "そう判断するのは早計だ。今の状況では測りかねる",
 			typewriter = {
 				speed = 0.05,

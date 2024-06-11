@@ -10,11 +10,11 @@ slot0.CARD_STATE_NORMAL = 0
 slot0.CARD_STATE_LINKED = 1
 slot0.CARD_STATE_BLANK = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LinkLinkUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("BackBtn")
 	slot0.helpBtn = slot0:findTF("top/help_btn")
 	slot0.resetBtn = slot0:findTF("info/reset_button")
@@ -35,14 +35,14 @@ function slot0.init(slot0)
 	setText(slot0.curTitleText, i18n("LinkLinkGame_CurTime"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
 	slot0:SetState(uv0.GAME_STATE_BEGIN)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:HideResult()
 	LeanTween.cancel(go(slot0.countDown))
 
@@ -57,11 +57,11 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.SetPlayer(slot0, slot1)
+slot0.SetPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.SetActivity(slot0, slot1)
+slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = slot1
 	slot0.activityAchieved = slot1.data1
 	slot0.activityProgress = slot1.data2
@@ -75,7 +75,7 @@ function slot0.SetActivity(slot0, slot1)
 	setText(slot0.bestTxt, slot0:FormatRecordTime(slot0.activityBestRecord))
 end
 
-function slot0.SetState(slot0, slot1)
+slot0.SetState = function(slot0, slot1)
 	if slot0.state ~= slot1 then
 		slot0.state = slot1
 
@@ -89,7 +89,7 @@ function slot0.SetState(slot0, slot1)
 	end
 end
 
-function slot0.GameBegin(slot0)
+slot0.GameBegin = function(slot0)
 	slot0.cards = {}
 	slot1 = {}
 
@@ -194,8 +194,8 @@ function slot0.GameBegin(slot0)
 	end)):setRepeat(4):setLoopType(LeanTweenType.punch):setOnCompleteOnRepeat(true):setEase(LeanTweenType.easeOutSine)
 end
 
-function slot0.GameLoop(slot0)
-	function slot1(slot0)
+slot0.GameLoop = function(slot0)
+	slot1 = function(slot0)
 		slot1 = 0
 		slot2 = 0
 
@@ -241,7 +241,7 @@ function slot0.GameLoop(slot0)
 		end
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		for slot4 = 1, #slot0 - 1 do
 			slot5 = slot0[slot4]
 
@@ -426,7 +426,7 @@ function slot0.GameLoop(slot0)
 	slot0.countTimer.func()
 end
 
-function slot0.GameEnd(slot0)
+slot0.GameEnd = function(slot0)
 	slot0.countTimer:Stop()
 
 	slot0.countTimer = nil
@@ -444,7 +444,7 @@ function slot0.GameEnd(slot0)
 	end
 end
 
-function slot0.DisplayResult(slot0, slot1)
+slot0.DisplayResult = function(slot0, slot1)
 	setActive(slot0.result, true)
 	setActive(slot0.result:Find("bg"):Find("pic_new_record"), slot1.data4 < slot0.activityBestRecord)
 	setActive(slot2:Find("pic_win"), slot0.activityBestRecord <= slot1.data4)
@@ -461,18 +461,18 @@ function slot0.DisplayResult(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.result)
 end
 
-function slot0.HideResult(slot0)
+slot0.HideResult = function(slot0)
 	if isActive(slot0.result) then
 		setActive(slot0.result, false)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.result, slot0._tf)
 	end
 end
 
-function slot0.FormatRecordTime(slot0, slot1)
+slot0.FormatRecordTime = function(slot0, slot1)
 	return (math.floor(slot1 / 60000) >= 10 and slot2 or "0" .. slot2) .. "'" .. (math.floor(slot1 % 60000 / 1000) >= 10 and slot3 or "0" .. slot3) .. "'" .. (math.floor(slot1 % 1000 / 10) >= 10 and slot4 or "0" .. slot4)
 end
 
-function slot0.LinkLink(slot0, slot1, slot2)
+slot0.LinkLink = function(slot0, slot1, slot2)
 	assert(slot1.row ~= slot2.row or slot1.column ~= slot2.column)
 	assert(slot1.id == slot2.id)
 
@@ -525,7 +525,7 @@ function slot0.LinkLink(slot0, slot1, slot2)
 	end
 end
 
-function slot0.IterateByOneSnap(slot0, slot1, slot2, slot3, slot4)
+slot0.IterateByOneSnap = function(slot0, slot1, slot2, slot3, slot4)
 	for slot8 = 1, #slot3 do
 		slot13 = slot4
 
@@ -543,7 +543,7 @@ function slot0.IterateByOneSnap(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3)
+slot0.FindDirectLinkPoint = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	for slot8 = slot2.row - 1, 0, -1 do
@@ -605,7 +605,7 @@ function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.LinkLink1(slot0, slot1, slot2)
+slot0.LinkLink1 = function(slot0, slot1, slot2)
 	assert(slot1.row ~= slot2.row or slot1.column ~= slot2.column)
 	assert(slot1.id == slot2.id)
 

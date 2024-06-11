@@ -7,8 +7,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.1
+					number = 0.1,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.115
+					number = 0.115,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.13
+					number = 0.13,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.145
+					number = 0.145,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.161
+					number = 0.161,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.177
+					number = 0.177,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.194
+					number = 0.194,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.212
+					number = 0.212,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.23
+					number = 0.23,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.25
+					number = 0.25,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -242,12 +242,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 14892,
 	time = 30,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14892,
+	color = "red",
 	icon = 14890,
 	last_effect = "",
 	blink = {
@@ -264,8 +264,8 @@ return {
 				"onTorpedoWeaponBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.1
+				number = 0.1,
+				attr = "cri"
 			}
 		},
 		{
@@ -274,8 +274,8 @@ return {
 				"onTorpedoWeaponBulletCreate"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.1
+				number = 0.1,
+				attr = "criDamage"
 			}
 		}
 	}

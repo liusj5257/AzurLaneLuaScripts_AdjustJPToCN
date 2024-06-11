@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "龙宫机关-水 BUFF判断LV4 步骤1",
 	time = 5,
-	color = "yellow",
+	name = "龙宫机关-水 BUFF判断LV4 步骤1",
+	init_effect = "",
+	id = 9222,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9222,
+	color = "yellow",
 	icon = 9222,
 	last_effect = "",
 	effect_list = {

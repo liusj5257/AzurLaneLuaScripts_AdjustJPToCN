@@ -10,7 +10,7 @@ slot0.CONTINUOUS_OPERATION = "PreCombatMediator:CONTINUOUS_OPERATION"
 slot0.ON_AUTO = "PreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "PreCombatMediator:ON_SUB_AUTO"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bindEvent()
 
 	slot0.ships = getProxy(BayProxy):getRawData()
@@ -35,7 +35,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetTicketItemID(getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetBossConfig():GetTicketID())
 end
 
-function slot0.bindEvent(slot0)
+slot0.bindEvent = function(slot0)
 	slot1 = slot0.contextData.system
 
 	slot0:bind(uv0.ON_ABORT_EDIT, function (slot0)
@@ -104,7 +104,7 @@ function slot0.bindEvent(slot0)
 		})
 	end)
 
-	function slot2()
+	slot2 = function()
 		slot0 = 0
 
 		for slot4, slot5 in ipairs(uv0.contextData.fleets) do
@@ -147,7 +147,7 @@ function slot0.bindEvent(slot0)
 	end)
 end
 
-function slot0.refreshEdit(slot0, slot1)
+slot0.refreshEdit = function(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 	slot3 = slot0.contextData.actId
 
@@ -156,32 +156,32 @@ function slot0.refreshEdit(slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(false)
 end
 
-function slot0.commitEdit(slot0, slot1)
+slot0.commitEdit = function(slot0, slot1)
 	getProxy(FleetProxy):commitActivityFleet(slot0.contextData.actId)
 	slot1()
 end
 
-function slot0.onAutoBtn(slot0, slot1)
+slot0.onAutoBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-function slot0.onAutoSubBtn(slot0, slot1)
+slot0.onAutoSubBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_SUB, {
 		isActiveSub = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-function slot0.removeShipFromFleet(slot0, slot1, slot2)
+slot0.removeShipFromFleet = function(slot0, slot1, slot2)
 	slot1:removeShip(slot2)
 
 	return true
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		PlayerProxy.UPDATED,
@@ -191,7 +191,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在水星紀念和曙光的護送下，米高揚號破冰船安全抵達了北聯軍港。",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgm = "blueocean-image",
+			say = "在水星紀念和曙光的護送下，米高揚號破冰船安全抵達了北聯軍港。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "可以說是印象深刻欸，畢竟那麼宏大的開局最後只迎來了慘淡的收尾……",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "記得那是極地艦隊剛建立沒多久的時候吧，信心滿滿的我們在計劃著向極地中更深的未知探索。",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "……最初極地艦隊的主力，實驗型潛航艦，還有包括這艘米高揚號破冰船在內的所有人員設備，甚至規模龐大的基地本身都消失了。",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "這件事我倒是第一次知道，這麼慌張也太不符合她的性格了。",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "不過……也不是不能理解，我記得那次行動就是她親自送艦隊出發的吧……",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "哎……？是指也許一開始我們的探索基地就建立在一片特殊的鏡面海中嗎？",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "確實有點可能……！這次米高揚號也是在鏡面海域內被找到的。",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "但是這沒法解釋為什麼只有米高揚號在鏡面海域裡被我們發現了。",
 			typewriter = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "……雜波事件？",
 			typewriter = {
@@ -531,8 +531,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "什麼“恰好”啊……這不就是發送通訊的設備至今還在某處工作的意思麼？！",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "這也巧過頭了……簡直就像故意讓我們在這時候發現一樣。",
 			typewriter = {
@@ -597,8 +597,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "我們那位在鐵血的可靠情報提供人還真是神通廣大啊~",
 			typewriter = {
@@ -659,12 +659,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "這恐怕才是蘇維埃聯盟想要的“答案”……",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 4 -  Until We Meet Again</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "ai-fb-inst",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Aaannnnd... done! There we go! We eliminated all the viruses!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "Seems only Kizuna AI can pass through it? Hrmmm... I'm so curious about that other world!",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -178,8 +178,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Yeah! I'll never forget you guys!",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Oh, right! I'd be so glad if you thought of me while redecorating the dormitory!",
 			typewriter = {
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "Boss Lady Kizuna AI, I'll put all the things you taught me to good use. Look out for VTuber San Diego because I'm comin' at ya! You keep at it too, boss!",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "..........",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "I'm definitely going to see you all again so I won't say goodbye. I LOVE YOU ALL!!!",
 			typewriter = {
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 201210,
 			say = "\"I won't say goodbye...\" Yes! You're right! I can't wait to see you again!",
 			flashN = {
 				color = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "--And so, the Intelligent Super AI left a deep impression in the minds of all the denizens of the port.",
 			flashin = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Carrying on with their hearts bound by the ties left by Kizuna AI, they looked forward to the day they would meet again--",
 			typewriter = {

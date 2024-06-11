@@ -13,18 +13,18 @@ slot0.SUBMIT_GAME_SUCCESS = "submit game success"
 slot0.ADD_SCORE = "add score"
 slot0.GAME_OVER = "game over"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return CastleGameVo.game_ui
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initData()
 	slot0:initEvent()
 	slot0:initUI()
 	slot0:initController()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	CastleGameVo.Init(slot0:GetMGData().id, slot0:GetMGHubData().id)
 
 	if CastleGameVo.frameRate > 60 then
@@ -36,7 +36,7 @@ function slot0.initData(slot0)
 	end, 1 / slot1, -1)
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	if not slot0.handle and IsUnityEditor then
 		slot0.handle = UpdateBeat:CreateListener(slot0.Update, slot0)
 
@@ -112,7 +112,7 @@ function slot0.initEvent(slot0)
 	end)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.clickMask = findTF(slot0._tf, "clickMask")
 	slot0.popUI = CastleGamePopUI.New(slot0._tf, slot0)
 
@@ -125,11 +125,11 @@ function slot0.initUI(slot0)
 	slot0.menuUI:show(true)
 end
 
-function slot0.initController(slot0)
+slot0.initController = function(slot0)
 	slot0.gameScene = CastleGameScene.New(slot0._tf, slot0)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0.gameStop or slot0.settlementFlag then
 		return
 	end
@@ -169,7 +169,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	slot0.readyStartFlag = true
 
 	CastleGameVo.Prepare()
@@ -178,7 +178,7 @@ function slot0.readyStart(slot0)
 	slot0.gameUI:show(false)
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	slot0.readyStartFlag = false
 	slot0.gameStartFlag = true
 	slot0.sendSuccessFlag = false
@@ -190,14 +190,14 @@ function slot0.gameStart(slot0)
 	slot0:timerStart()
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0:gameStep()
 end
 
-function slot0.gameStep(slot0)
+slot0.gameStep = function(slot0)
 	slot0:stepRunTimeData()
 	slot0.gameScene:step()
 	slot0.gameUI:step()
@@ -207,13 +207,13 @@ function slot0.gameStep(slot0)
 	end
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerResume(slot0)
+slot0.timerResume = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
@@ -221,7 +221,7 @@ function slot0.timerResume(slot0)
 	slot0.gameScene:resume()
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
@@ -229,7 +229,7 @@ function slot0.timerStop(slot0)
 	slot0.gameScene:stop()
 end
 
-function slot0.stepRunTimeData(slot0)
+slot0.stepRunTimeData = function(slot0)
 	if Time.deltaTime > 0.016 then
 		slot1 = 0.016
 	end
@@ -239,11 +239,11 @@ function slot0.stepRunTimeData(slot0)
 	CastleGameVo.deltaTime = slot1
 end
 
-function slot0.addScore(slot0, slot1)
+slot0.addScore = function(slot0, slot1)
 	CastleGameVo.scoreNum = CastleGameVo.scoreNum + slot1
 end
 
-function slot0.onGameOver(slot0)
+slot0.onGameOver = function(slot0)
 	if slot0.settlementFlag then
 		return
 	end
@@ -264,7 +264,7 @@ function slot0.onGameOver(slot0)
 	end))
 end
 
-function slot0.OnApplicationPaused(slot0)
+slot0.OnApplicationPaused = function(slot0)
 	if not slot0.gameStartFlag then
 		return
 	end
@@ -281,25 +281,25 @@ function slot0.OnApplicationPaused(slot0)
 	slot0.popUI:popPauseUI()
 end
 
-function slot0.clearController(slot0)
+slot0.clearController = function(slot0)
 	slot0.gameScene:clear()
 end
 
-function slot0.pauseGame(slot0)
+slot0.pauseGame = function(slot0)
 	slot0.gameStop = true
 
 	slot0:changeSpeed(0)
 	slot0:timerStop()
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gameStop = false
 
 	slot0:changeSpeed(1)
 	slot0:timerStart()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.readyStartFlag then
 		return
 	end
@@ -315,10 +315,10 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.OnSendMiniGameOPDone(slot0, slot1)
+slot0.OnSendMiniGameOPDone = function(slot0, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "使用大型作战记录仪可以跳过重复调查海域的过程，购买后请到大型作战中打开背包使用它吧。",
 			typewriter = {
 				speed = 0.05,

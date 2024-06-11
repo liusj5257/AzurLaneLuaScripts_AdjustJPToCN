@@ -1,15 +1,15 @@
 return {
-	id = "WORLD504A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "SailAwayJustice-inst",
 			say = "NA海域 核心區域外圍海域",
+			side = 2,
+			dir = 1,
+			bgm = "SailAwayJustice-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "塞壬在中心區域中投入了大量艦隊，並輔以密集的要塞群固守。",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "沒有什麼投機取巧的戰術，艦隊由外至內逐層推進，徹底消滅核心區中的每一個塞壬單位。",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "畢竟這次參與決戰的兵力十分充足嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "因為我們這邊不但有指揮官，還有皇家的伊莉莎白女王陛下嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "八個方向齊頭並進，全方向擊潰一層防線後，再一同向下一層突破。",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "滋————————",
@@ -238,8 +238,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "諸位，本次對於NA海域塞壬反攻作戰，終於迎來了決戰的時刻。",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "曾幾何時，我們在塞壬的入侵下毫無還手之力，戰友在我們面前犧牲，海洋在我們面前淪陷。那是一段令人絕望之時——",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "但亦是醞釀希望之時！面對敵人的步步緊逼，我們沒有屈服，我們選擇了堅持戰鬥。",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "從絕望的泥淖中爬出的我們，拾起一度失去的勇氣與信心，化作砥礪前行的動力。",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "作為從塞壬手中奪回自由與和平的碧藍航線中光榮的一員，我們艱苦奮戰，直至今日。",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "終於，NA海域中的塞壬已經陷入混亂，它們調集僅存的艦隊在這片由風暴保護的核心海域中負隅頑抗。",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "對於我們而言，這是最後的難關。最後的敵人就在那裡，最終的勝利也在那裡。",
 			typewriter = {
 				speed = 0.05,
@@ -350,8 +350,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "勝利的天平正朝我們傾斜，我們的手中亦重握命運之舵輪。",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "所以現在，我們的任務是什麼？",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "進攻，進攻，還有進攻。瓦解敵人最後的抵抗，取得這場戰役壓制性的全勝！",
 			dialogShake = {
 				speed = 0.08,
@@ -403,8 +403,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "接下來就交給你了，指揮官。",
 			typewriter = {
 				speed = 0.05,
@@ -418,11 +418,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指揮官，已到達行動時間，各艦隊都在等待您的進攻命令。",
-			voice = "event:/tb/46/tb-46",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "——————————",
 			typewriter = {
 				speed = 0.05,

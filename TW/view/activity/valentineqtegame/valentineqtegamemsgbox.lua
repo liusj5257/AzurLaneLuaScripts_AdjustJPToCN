@@ -2,7 +2,7 @@ slot0 = class("ValentineQteGameMsgBox")
 slot0.EXIT_TXT = 1
 slot0.PAUSE_TXT = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
@@ -11,7 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:OnRegister()
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.confirmBtn = slot0._tf:Find("frame/btns/confirm_btn")
 	slot1 = slot0._tf
 	slot0.cancelBtn = slot1:Find("frame/btns/cancel_btn")
@@ -21,7 +21,7 @@ function slot0.OnInit(slot0)
 	}
 end
 
-function slot0.OnRegister(slot0)
+slot0.OnRegister = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.settings.onYes then
 			uv0.settings.onYes()
@@ -38,7 +38,7 @@ function slot0.OnRegister(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.settings = slot1
 
 	setActive(slot0._tf, true)
@@ -54,13 +54,13 @@ function slot0.Show(slot0, slot1)
 	setActive(slot0.cancelBtn, not slot1.noNo)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0._tf, false)
 
 	slot0.settings = nil
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Hide()
 end

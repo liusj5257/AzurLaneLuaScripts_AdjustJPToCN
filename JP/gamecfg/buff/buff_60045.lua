@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-随机技能-治疗之泉-治疗光环",
 	time = 0,
+	name = "测试-随机技能-治疗之泉-治疗光环",
+	init_effect = "",
 	picture = "",
 	desc = "治疗光环",
 	stack = 1,
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				group = 104,
-				attr = "isSpirit",
-				number = 1
+				number = 1,
+				attr = "isSpirit"
 			}
 		}
 	}

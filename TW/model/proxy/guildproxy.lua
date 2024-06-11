@@ -22,7 +22,7 @@ slot0.BATTLE_BTN_FLAG_CHANGE = "GuildProxy:BATTLE_BTN_FLAG_CHANGE"
 slot0.ON_EXIST_DELETED_MEMBER = "GuildProxy:ON_EXIST_DELETED_MEMBER"
 slot0.ON_DONATE_LIST_UPDATED = "GuildProxy:ON_DONATE_LIST_UPDATED"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:Init()
 	slot0:on(60000, function (slot0)
 		if Guild.New(slot0.guild).id == 0 then
@@ -236,15 +236,15 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.AddPublicGuild(slot0, slot1)
+slot0.AddPublicGuild = function(slot0, slot1)
 	slot0.publicGuild = slot1
 end
 
-function slot0.GetPublicGuild(slot0)
+slot0.GetPublicGuild = function(slot0)
 	return slot0.publicGuild
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.data = nil
 	slot0.chatMsgs = {}
 	slot0.bossRanks = {}
@@ -267,42 +267,42 @@ function slot0.Init(slot0)
 	}
 end
 
-function slot0.AddNewMsg(slot0, slot1)
+slot0.AddNewMsg = function(slot0, slot1)
 	slot0.newChatMsgCnt = slot0.newChatMsgCnt + 1
 
 	slot0:addMsg(slot1)
 	slot0:sendNotification(uv0.NEW_MSG_ADDED, slot1)
 end
 
-function slot0.ResetRequestCount(slot0)
+slot0.ResetRequestCount = function(slot0)
 	slot0.requestCount = 0
 end
 
-function slot0.UpdatePosCdTime(slot0, slot1, slot2)
+slot0.UpdatePosCdTime = function(slot0, slot1, slot2)
 	slot0.cdTime[slot1] = slot2
 end
 
-function slot0.GetNextCanFormationTime(slot0, slot1)
+slot0.GetNextCanFormationTime = function(slot0, slot1)
 	return (slot0.cdTime[slot1] or 0) + pg.guildset.operation_assault_team_cd.key_value
 end
 
-function slot0.CanFormationPos(slot0, slot1)
+slot0.CanFormationPos = function(slot0, slot1)
 	return slot0:GetNextCanFormationTime(slot1) <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.ClearNewChatMsgCnt(slot0)
+slot0.ClearNewChatMsgCnt = function(slot0)
 	slot0.newChatMsgCnt = 0
 end
 
-function slot0.GetNewChatMsgCnt(slot0)
+slot0.GetNewChatMsgCnt = function(slot0)
 	return slot0.newChatMsgCnt
 end
 
-function slot0.setRequestList(slot0, slot1)
+slot0.setRequestList = function(slot0, slot1)
 	slot0.requests = slot1
 end
 
-function slot0.addGuild(slot0, slot1)
+slot0.addGuild = function(slot0, slot1)
 	assert(isa(slot1, Guild), "guild should instance of Guild")
 
 	slot0.data = slot1
@@ -310,7 +310,7 @@ function slot0.addGuild(slot0, slot1)
 	slot0:sendNotification(uv0.NEW_GUILD_ADDED, Clone(slot1))
 end
 
-function slot0.updateGuild(slot0, slot1)
+slot0.updateGuild = function(slot0, slot1)
 	assert(isa(slot1, Guild), "guild should instance of Guild")
 
 	slot0.data = slot1
@@ -318,18 +318,18 @@ function slot0.updateGuild(slot0, slot1)
 	slot0:sendNotification(uv0.GUILD_UPDATED, Clone(slot1))
 end
 
-function slot0.exitGuild(slot0)
+slot0.exitGuild = function(slot0)
 	slot0:Init()
 	slot0:sendNotification(uv0.EXIT_GUILD)
 	pg.ShipFlagMgr.GetInstance():ClearShipsFlag("inGuildEvent")
 	pg.ShipFlagMgr.GetInstance():ClearShipsFlag("inGuildBossEvent")
 end
 
-function slot0.getRequests(slot0)
+slot0.getRequests = function(slot0)
 	return slot0.requests
 end
 
-function slot0.getSortRequest(slot0)
+slot0.getSortRequest = function(slot0)
 	if not slot0.requests then
 		return nil
 	end
@@ -343,7 +343,7 @@ function slot0.getSortRequest(slot0)
 	return slot1
 end
 
-function slot0.deleteRequest(slot0, slot1)
+slot0.deleteRequest = function(slot0, slot1)
 	if not slot0.requests then
 		return
 	end
@@ -353,7 +353,7 @@ function slot0.deleteRequest(slot0, slot1)
 	slot0:sendNotification(uv0.REQUEST_DELETED, slot1)
 end
 
-function slot0.addMsg(slot0, slot1)
+slot0.addMsg = function(slot0, slot1)
 	table.insert(slot0.chatMsgs, slot1)
 
 	if GuildConst.CHAT_LOG_MAX_COUNT < #slot0.chatMsgs then
@@ -361,17 +361,17 @@ function slot0.addMsg(slot0, slot1)
 	end
 end
 
-function slot0.getChatMsgs(slot0)
+slot0.getChatMsgs = function(slot0)
 	return slot0.chatMsgs
 end
 
-function slot0.GetMessagesByUniqueId(slot0, slot1)
+slot0.GetMessagesByUniqueId = function(slot0, slot1)
 	return _.select(slot0.chatMsgs, function (slot0)
 		return slot0.uniqueId == uv0
 	end)
 end
 
-function slot0.UpdateMsg(slot0, slot1)
+slot0.UpdateMsg = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.chatMsgs) do
 		if slot6:IsSame(slot1.uniqueId) then
 			slot0.data[slot5] = slot1
@@ -379,18 +379,18 @@ function slot0.UpdateMsg(slot0, slot1)
 	end
 end
 
-function slot0.ShouldFetchActivationEvent(slot0)
+slot0.ShouldFetchActivationEvent = function(slot0)
 	return slot0.refreshActivationEventTime < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.AddFetchActivationEventCDTime(slot0)
+slot0.AddFetchActivationEventCDTime = function(slot0)
 	slot0.refreshActivationEventTime = GuildConst.REFRESH_ACTIVATION_EVENT_TIME + pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.AddActivationEventTimer(slot0, slot1)
+slot0.AddActivationEventTimer = function(slot0, slot1)
 end
 
-function slot0.RemoveActivationEventTimer(slot0)
+slot0.RemoveActivationEventTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -398,20 +398,20 @@ function slot0.RemoveActivationEventTimer(slot0)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	slot0:RemoveActivationEventTimer()
 end
 
-function slot0.SetRank(slot0, slot1, slot2)
+slot0.SetRank = function(slot0, slot1, slot2)
 	slot0.ranks[slot1] = slot2
 	slot0["rankTimer" .. slot1] = pg.TimeMgr.GetInstance():GetServerTime() + 1800
 end
 
-function slot0.GetRanks(slot0)
+slot0.GetRanks = function(slot0)
 	return slot0.ranks
 end
 
-function slot0.ShouldRefreshRank(slot0, slot1)
+slot0.ShouldRefreshRank = function(slot0, slot1)
 	if not slot0["rankTimer" .. slot1] or slot0["rankTimer" .. slot1] <= pg.TimeMgr.GetInstance():GetServerTime() then
 		return true
 	end
@@ -419,19 +419,19 @@ function slot0.ShouldRefreshRank(slot0, slot1)
 	return false
 end
 
-function slot0.SetReports(slot0, slot1)
+slot0.SetReports = function(slot0, slot1)
 	slot0.reports = slot1
 end
 
-function slot0.GetReports(slot0)
+slot0.GetReports = function(slot0)
 	return slot0.reports or {}
 end
 
-function slot0.GetReportById(slot0, slot1)
+slot0.GetReportById = function(slot0, slot1)
 	return slot0.reports[slot1]
 end
 
-function slot0.AddReport(slot0, slot1)
+slot0.AddReport = function(slot0, slot1)
 	if not slot0.reports then
 		slot0.reports = {}
 	end
@@ -439,7 +439,7 @@ function slot0.AddReport(slot0, slot1)
 	slot0.reports[slot1.id] = slot1
 end
 
-function slot0.GetMaxReportId(slot0)
+slot0.GetMaxReportId = function(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot0:GetReports()) do
@@ -451,11 +451,11 @@ function slot0.GetMaxReportId(slot0)
 	return slot2
 end
 
-function slot0.AnyRepoerCanGet(slot0)
+slot0.AnyRepoerCanGet = function(slot0)
 	return #slot0:GetCanGetReports() > 0
 end
 
-function slot0.GetCanGetReports(slot0)
+slot0.GetCanGetReports = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in pairs(slot0:GetReports()) do
@@ -467,12 +467,12 @@ function slot0.GetCanGetReports(slot0)
 	return slot1
 end
 
-function slot0.ShouldRequestReport(slot0)
+slot0.ShouldRequestReport = function(slot0)
 	if not slot0.requestReportTime then
 		slot0.requestReportTime = 0
 	end
 
-	function slot1()
+	slot1 = function()
 		if uv0:getRawData():GetActiveEvent() and slot1:GetMissionFinishCnt() > 0 then
 			return true
 		end
@@ -491,7 +491,7 @@ function slot0.ShouldRequestReport(slot0)
 	return false
 end
 
-function slot0.ShouldRequestForamtion(slot0)
+slot0.ShouldRequestForamtion = function(slot0)
 	if not slot0.requestFormationTime then
 		slot0.requestFormationTime = 0
 	end
@@ -505,7 +505,7 @@ function slot0.ShouldRequestForamtion(slot0)
 	return false
 end
 
-function slot0.GetRecommendShipsForMission(slot0, slot1)
+slot0.GetRecommendShipsForMission = function(slot0, slot1)
 	if slot1:IsEliteType() then
 		return slot0:GetRecommendShipsForEliteMission(slot1)
 	else
@@ -543,7 +543,7 @@ function slot0.GetRecommendShipsForMission(slot0, slot1)
 			slot12
 		}
 
-		function slot12(slot0)
+		slot12 = function(slot0)
 			return -slot0.power
 		end
 
@@ -563,7 +563,7 @@ function slot0.GetRecommendShipsForMission(slot0, slot1)
 	end
 end
 
-function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
+slot0.GetRecommendShipsForEliteMission = function(slot0, slot1)
 	assert(slot1:IsEliteType())
 
 	slot2 = {}
@@ -591,7 +591,7 @@ function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
 		end
 	end
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		if slot0 and not table.contains(uv0, slot0.id) and GuildEventMediator.OnCheckMissionShip(uv1.id, uv0, slot0) then
 			table.insert(uv0, slot0.id)
 		end
@@ -653,7 +653,7 @@ function slot0.GetRecommendShipsForEliteMission(slot0, slot1)
 	return slot2
 end
 
-function slot0.ShouldShowApplyTip(slot0)
+slot0.ShouldShowApplyTip = function(slot0)
 	if slot0.data and GuildMember.IsAdministrator(slot0.data:getSelfDuty()) then
 		if not slot0.requests then
 			return slot0.requestCount > 0
@@ -665,10 +665,10 @@ function slot0.ShouldShowApplyTip(slot0)
 	return false
 end
 
-function slot0.ShouldShowBattleTip(slot0)
+slot0.ShouldShowBattleTip = function(slot0)
 	slot2 = false
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		if slot0 and slot0:IsParticipant() then
 			return slot0:GetBossMission() and slot1:IsActive() and slot1:CanEnterBattle()
 		end
@@ -676,7 +676,7 @@ function slot0.ShouldShowBattleTip(slot0)
 		return false
 	end
 
-	function slot4()
+	slot4 = function()
 		for slot3, slot4 in ipairs(pg.guild_operation_template.all) do
 			if pg.guild_operation_template[slot4].unlock_guild_level <= uv0.level and slot5.consume <= uv0:getCapital() then
 				return true
@@ -698,7 +698,7 @@ function slot0.ShouldShowBattleTip(slot0)
 	return slot2
 end
 
-function slot0.SetBattleBtnRecord(slot0)
+slot0.SetBattleBtnRecord = function(slot0)
 	if not slot0:GetBattleBtnRecord() and slot0:getRawData() and slot2:GetActiveEvent() then
 		PlayerPrefs.SetInt("guild_battle_btn_flag" .. getProxy(PlayerProxy):getRawData().id, 1)
 		PlayerPrefs.Save()
@@ -706,11 +706,11 @@ function slot0.SetBattleBtnRecord(slot0)
 	end
 end
 
-function slot0.GetBattleBtnRecord(slot0)
+slot0.GetBattleBtnRecord = function(slot0)
 	return PlayerPrefs.GetInt("guild_battle_btn_flag" .. getProxy(PlayerProxy):getRawData().id, 0) > 0
 end
 
-function slot0.ShouldShowMainTip(slot0)
+slot0.ShouldShowMainTip = function(slot0)
 	return _.any(slot0.reports or {}, function (slot0)
 		return slot0:CanSubmit()
 	end) and not (function ()
@@ -718,7 +718,7 @@ function slot0.ShouldShowMainTip(slot0)
 	end)()
 end
 
-function slot0.ShouldShowTip(slot0)
+slot0.ShouldShowTip = function(slot0)
 	slot1 = {}
 
 	if slot0:getData() then
@@ -738,39 +738,39 @@ function slot0.ShouldShowTip(slot0)
 	end)
 end
 
-function slot0.SetRefreshBossTime(slot0, slot1)
+slot0.SetRefreshBossTime = function(slot0, slot1)
 	slot0.refreshBossTime = slot1 + GuildConst.REFRESH_BOSS_TIME
 end
 
-function slot0.ShouldRefreshBoss(slot0)
+slot0.ShouldRefreshBoss = function(slot0)
 	return slot0:getRawData():GetActiveEvent() and not slot1:IsExpired() and slot0.refreshBossTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.ResetRefreshBossTime(slot0)
+slot0.ResetRefreshBossTime = function(slot0)
 	slot0.refreshBossTime = 0
 end
 
-function slot0.ShouldRefreshBossRank(slot0)
+slot0.ShouldRefreshBossRank = function(slot0)
 	return slot0:getRawData():GetActiveEvent() and GuildConst.REFRESH_MISSION_BOSS_RANK_TIME <= pg.TimeMgr.GetInstance():GetServerTime() - slot0.bossRankUpdateTime
 end
 
-function slot0.UpdateBossRank(slot0, slot1)
+slot0.UpdateBossRank = function(slot0, slot1)
 	slot0.bossRanks = slot1
 end
 
-function slot0.GetBossRank(slot0)
+slot0.GetBossRank = function(slot0)
 	return slot0.bossRanks
 end
 
-function slot0.ResetBossRankTime(slot0)
+slot0.ResetBossRankTime = function(slot0)
 	slot0.rankUpdateTime = 0
 end
 
-function slot0.UpdateBossRankRefreshTime(slot0, slot1)
+slot0.UpdateBossRankRefreshTime = function(slot0, slot1)
 	slot0.rankUpdateTime = slot1
 end
 
-function slot0.GetAdditionGuild(slot0)
+slot0.GetAdditionGuild = function(slot0)
 	if slot0.data == nil then
 		return slot0.publicGuild
 	else
@@ -778,7 +778,7 @@ function slot0.GetAdditionGuild(slot0)
 	end
 end
 
-function slot0.SetReportRankList(slot0, slot1, slot2)
+slot0.SetReportRankList = function(slot0, slot1, slot2)
 	if not slot0.reportRankList then
 		slot0.reportRankList = {}
 	end
@@ -786,7 +786,7 @@ function slot0.SetReportRankList(slot0, slot1, slot2)
 	slot0.reportRankList[slot1] = slot2
 end
 
-function slot0.GetReportRankList(slot0, slot1)
+slot0.GetReportRankList = function(slot0, slot1)
 	if slot0.reportRankList then
 		return slot0.reportRankList[slot1]
 	end

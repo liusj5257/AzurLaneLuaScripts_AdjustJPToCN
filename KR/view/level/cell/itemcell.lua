@@ -1,6 +1,6 @@
 slot0 = class("ItemCell", import("view.level.cell.LevelCellView"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0)
 
 	slot0.go = slot1
@@ -15,7 +15,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:ResetCanvasOrder()
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -23,17 +23,17 @@ function slot0.Init(slot0, slot1)
 	slot0.info = CreateShell(slot1)
 end
 
-function slot0.GetInfo(slot0)
+slot0.GetInfo = function(slot0)
 	return slot0.info
 end
 
-function slot0.GetOriginalInfo(slot0)
+slot0.GetOriginalInfo = function(slot0)
 	slot1 = slot0.info and getmetatable(slot0.info)
 
 	return slot1 and slot1.__index
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot1 = slot0.info
 	slot2 = slot0.loader
 
@@ -50,7 +50,7 @@ function slot0.Update(slot0)
 	end, "ChapterItem" .. slot0.line.row .. "_" .. slot0.line.column)
 end
 
-function slot0.UpdateAsset(slot0, slot1)
+slot0.UpdateAsset = function(slot0, slot1)
 	if not slot0.info or not slot1 or slot1 == rawget(slot0.info, "item") then
 		return
 	end
@@ -60,15 +60,15 @@ function slot0.UpdateAsset(slot0, slot1)
 	slot0:Update()
 end
 
-function slot0.ClearLoader(slot0)
+slot0.ClearLoader = function(slot0)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0.loader:ClearRequest("ChapterItem" .. slot0.line.row .. "_" .. slot0.line.column)
 	uv0.super.Clear(slot0)
 end
 
-function slot0.TransformItemAsset(slot0, slot1)
+slot0.TransformItemAsset = function(slot0, slot1)
 	if type(slot1) ~= "string" then
 		return
 	end

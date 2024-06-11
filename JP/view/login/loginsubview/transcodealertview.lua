@@ -1,17 +1,17 @@
 slot0 = class("TranscodeAlertView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TranscodeAlertView"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.SetShareData(slot0, slot1)
+slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.transcodeAlert = slot0._tf
 	slot0.tcSureBtn = slot0:findTF("transcode_sure", slot0.transcodeAlert)
 	slot0.uidTxt = slot0:findTF("uid_input_txt", slot0.transcodeAlert):GetComponent(typeof(InputField))
@@ -22,7 +22,7 @@ function slot0.OnInit(slot0)
 	slot0:InitEvent()
 end
 
-function slot0.InitEvent(slot0)
+slot0.InitEvent = function(slot0)
 	onButton(slot0, slot0.tcSureBtn, function ()
 		slot1 = uv0.transcodeTxt.text
 
@@ -40,7 +40,7 @@ function slot0.InitEvent(slot0)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

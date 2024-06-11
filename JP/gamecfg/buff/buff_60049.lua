@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-盾墙",
 	time = 0,
+	name = "测试-盾墙",
+	init_effect = "",
 	picture = "",
 	desc = "盾墙",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				do_when_hit = "intercept",
-				count = 10,
 				bulletType = 1,
+				count = 10,
 				cld_list = {
 					{
 						box = {

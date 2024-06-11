@@ -15,7 +15,7 @@ slot0.DEFAULT_MODE = {
 	showType = slot0.TYPE_ALL
 }
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 	pg.DelegateInfo.New(slot0)
 	pg.m02:registerMediator(slot0)
@@ -24,19 +24,19 @@ function slot0.Ctor(slot0)
 	slot0.settingsStack = {}
 end
 
-function slot0.GetPlayer(slot0)
+slot0.GetPlayer = function(slot0)
 	return getProxy(PlayerProxy):getRawData()
 end
 
-function slot0.IsLoaded(slot0)
+slot0.IsLoaded = function(slot0)
 	return uv0 < slot0.state
 end
 
-function slot0.IsEnable(slot0)
+slot0.IsEnable = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	if slot0.state ~= uv0 then
 		return
 	end
@@ -46,7 +46,7 @@ function slot0.Load(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("ResPanel", true, slot1)
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0._go = slot1
 	slot0.oilAddBtn = findTF(slot0._go, "oil")
 	slot0.goldAddBtn = findTF(slot0._go, "gold")
@@ -65,11 +65,10 @@ function slot0.Init(slot0, slot1)
 	slot0.animation = slot2:GetComponent(typeof(Animation))
 	slot0.gemPos = slot0.gemAddBtn.anchoredPosition
 	slot0.oilPos = slot0.oilAddBtn.anchoredPosition
+	slot0.foldableHelper = MainFoldableHelper.New(slot0._go.transform, Vector2(0, 1))
 
 	onButton(slot0, slot0.goldAddBtn, function ()
-		if not pg.goldExchangeMgr then
-			pg.goldExchangeMgr = GoldExchangeView.New()
-		end
+		uv0:ClickGold()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.oilAddBtn, function ()
 		uv0:ClickOil()
@@ -83,7 +82,7 @@ function slot0.Init(slot0, slot1)
 	setActive(slot0._go, true)
 end
 
-function slot0.SetActive(slot0, slot1)
+slot0.SetActive = function(slot0, slot1)
 	if slot1.active then
 		table.insert(slot0.settingsStack, slot1)
 		slot0:Enable(slot1)
@@ -98,7 +97,7 @@ function slot0.SetActive(slot0, slot1)
 	end
 end
 
-function slot0.Enable(slot0, slot1)
+slot0.Enable = function(slot0, slot1)
 	if not slot0:IsLoaded() then
 		slot0:Load(function (slot0)
 			uv0._tf = slot0.transform
@@ -122,7 +121,7 @@ function slot0.Enable(slot0, slot1)
 	end
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	if pg.goldExchangeMgr then
 		pg.goldExchangeMgr:exit()
 
@@ -135,13 +134,15 @@ function slot0.Disable(slot0)
 
 		slot0:Enable(slot1)
 	elseif slot0:IsLoaded() then
-		slot0.state = uv0
+		if slot0:IsLoaded() then
+			setActive(slot0._go, false)
+		end
 
-		setActive(slot0._go, false)
+		slot0.state = uv0
 	end
 end
 
-function slot0.CustomSetting(slot0, slot1)
+slot0.CustomSetting = function(slot0, slot1)
 	setActive(slot0.oilAddBtn, bit.band(slot1.showType, uv0.TYPE_OIL) > 0)
 	setActive(slot0.goldAddBtn, bit.band(slot2, uv0.TYPE_GOLD) > 0)
 	setActive(slot0.gemAddBtn, bit.band(slot2, uv0.TYPE_GEM) > 0)
@@ -168,18 +169,15 @@ function slot0.CustomSetting(slot0, slot1)
 	})
 end
 
-function slot0.DoAnimation(slot0)
-	slot0.posY = slot0.posY or slot0._go.transform.anchoredPosition.y
-
-	LeanTween.value(slot0._go, slot0.posY + 200, slot0.posY, 0.5):setOnUpdate(System.Action_float(function (slot0)
-		uv0._go.transform.anchoredPosition = Vector3(uv0._go.transform.anchoredPosition.x, slot0, 0)
-	end)):setEase(LeanTweenType.easeInOutExpo)
+slot0.DoAnimation = function(slot0)
+	slot0.foldableHelper:Fold(true, 0)
+	slot0.foldableHelper:Fold(false, 0.5)
 end
 
-function slot0.ClickGem(slot0)
+slot0.ClickGem = function(slot0)
 	slot1 = slot0:GetPlayer()
 
-	function slot2()
+	slot2 = function()
 		if not pg.m02:hasMediator(ChargeMediator.__cname) then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 				wrap = ChargeScene.TYPE_DIAMOND
@@ -203,7 +201,13 @@ function slot0.ClickGem(slot0)
 	end
 end
 
-function slot0.ClickOil(slot0)
+slot0.ClickGold = function(slot0)
+	if not pg.goldExchangeMgr then
+		pg.goldExchangeMgr = GoldExchangeView.New()
+	end
+end
+
+slot0.ClickOil = function(slot0)
 	slot2 = pg.shop_template
 
 	if not ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, slot0:GetPlayer().buyOilCount) then
@@ -254,18 +258,20 @@ function slot0.ClickOil(slot0)
 	end
 end
 
-function slot0.Flush(slot0)
-	slot1 = slot0:GetPlayer()
-	slot0.goldMax.text = "MAX: " .. slot1:getLevelMaxGold()
-	slot0.goldValue.text = slot1.gold
-	slot0.oilMax.text = "MAX: " .. slot1:getLevelMaxOil()
-	slot0.oilValue.text = slot1.oil
-	slot0.gemValue.text = slot1:getTotalGem()
-
+slot0.Flush = function(slot0)
+	uv0.StaticFlush(slot0:GetPlayer(), slot0.goldMax, slot0.goldValue, slot0.oilMax, slot0.oilValue, slot0.gemValue)
 	slot0:SetDirty(false)
 end
 
-function slot0.Dispose(slot0)
+slot0.StaticFlush = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot1.text = "MAX: " .. slot0:getLevelMaxGold()
+	slot2.text = slot0.gold
+	slot3.text = "MAX: " .. slot0:getLevelMaxOil()
+	slot4.text = slot0.oil
+	slot5.text = slot0:getTotalGem()
+end
+
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Disable()
 	pg.m02:removeMediator(slot0.__cname)
@@ -274,25 +280,23 @@ function slot0.Dispose(slot0)
 	slot0.state = uv0
 end
 
-function slot0.SetDirty(slot0, slot1)
+slot0.SetDirty = function(slot0, slot1)
 	slot0.dirty = slot1
 end
 
-function slot0.IsDirty(slot0)
+slot0.IsDirty = function(slot0)
 	return slot0.dirty
 end
 
-function slot0.Fold(slot0, slot1, slot2)
+slot0.Fold = function(slot0, slot1, slot2)
 	if not slot0:IsLoaded() then
 		return
 	end
 
-	slot0.lposY = slot0.lposY or slot0._go.transform.localPosition.y
-
-	LeanTween.moveLocalY(slot0._go, slot1 and slot0.lposY + 200 or slot0.lposY, slot2):setEase(LeanTweenType.easeInOutExpo)
+	slot0.foldableHelper:Fold(slot1, slot2)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.GUILD_GET_USER_INFO_DONE,
@@ -303,7 +307,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == PlayerResUI.CHANGE_TOUCH_ABLE then
 		slot3 = slot1:getBody()
 		slot4 = GetComponent(tf(slot0._go), typeof(CanvasGroup))
@@ -316,7 +320,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot0:updateResPanel(slot2)
 end
 
-function slot0.updateResPanel(slot0, slot1)
+slot0.updateResPanel = function(slot0, slot1)
 	if not slot0:IsEnable() then
 		slot0:SetDirty(true)
 
@@ -328,7 +332,7 @@ function slot0.updateResPanel(slot0, slot1)
 	end
 end
 
-function slot0.checkBackPressed(slot0)
+slot0.checkBackPressed = function(slot0)
 	if pg.goldExchangeMgr then
 		pg.goldExchangeMgr:exit()
 

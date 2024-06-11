@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301840,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "태양의 아우라처럼 본섬을 둘러싼 작은 섬… 제대로 온 것 같네. 여기가 바로 천암도야!",
 			bgm = "story-4",
+			actor = 301840,
+			nameColor = "#a9f548",
+			say = "태양의 아우라처럼 본섬을 둘러싼 작은 섬… 제대로 온 것 같네. 여기가 바로 천암도야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "상부의 선전 덕분에 모든 곳에서 이 일로 논의가 한창이야.",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "쿠마노!",
 			dialogShake = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "아, 미안. 말 실수였어……",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -157,8 +157,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "무사시님도 오랜 고민 끝에 우리를 시나노님을 모셔다 드리는 호송 부대로 결정했으니까.",
 			typewriter = {
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "본섬으로 돌아간 이후에 시나노님의 힘이 돌아오면 정말 좋겠는데!",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,8 +264,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "응? 시나노님 옆에 있는 건 노시로인가? 계획대로라면 시나노님 혼자 나와야 하는 것이 맞는데.",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "애초에 시나노님 혼자 움직이게 둔 계획이 문제라고 생각했어… 대장이 움직이는데 옆에 근시 한둘 정도 있는 건 당연한 일이잖아.",
 			typewriter = {
@@ -314,9 +314,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
 			blackBg = true,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "자, 너무 오래 기다리게 하면 안 되니 우리도 서두르자!",
 			typewriter = {

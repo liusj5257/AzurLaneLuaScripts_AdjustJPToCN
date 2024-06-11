@@ -14,7 +14,7 @@ slot0.WITH_BGM = 5
 slot0.WITH_SPINE = 6
 slot0.WITH_SPINE_PLUS = 7
 
-function slot0.Tag2Name(slot0)
+slot0.Tag2Name = function(slot0)
 	if not uv0.Tag2NameTab then
 		uv0.Tag2NameTab = {
 			[uv0.WITH_BG] = "bg",
@@ -30,7 +30,7 @@ function slot0.Tag2Name(slot0)
 	return uv0.Tag2NameTab[slot0]
 end
 
-function slot0.GetShopTypeIdBySkinId(slot0, slot1)
+slot0.GetShopTypeIdBySkinId = function(slot0, slot1)
 	slot2 = pg.ship_skin_template.get_id_list_by_shop_type_id
 
 	if slot1[slot0] then
@@ -50,7 +50,7 @@ end
 
 slot1 = pg.ship_skin_template.get_id_list_by_ship_group
 
-function slot0.GetSkinByType(slot0, slot1)
+slot0.GetSkinByType = function(slot0, slot1)
 	slot2 = uv0[slot0] or {}
 
 	for slot6, slot7 in ipairs(slot2) do
@@ -60,7 +60,7 @@ function slot0.GetSkinByType(slot0, slot1)
 	end
 end
 
-function slot0.GetAllSkinByGroup(slot0)
+slot0.GetAllSkinByGroup = function(slot0)
 	slot1 = {}
 	slot2 = uv0[slot0] or {}
 
@@ -73,8 +73,8 @@ function slot0.GetAllSkinByGroup(slot0)
 	return slot1
 end
 
-function slot0.GetShareSkinsByGroupId(slot0)
-	function slot1(slot0)
+slot0.GetShareSkinsByGroupId = function(slot0)
+	slot1 = function(slot0)
 		return not (slot0:getConfig("skin_type") == uv0.SKIN_TYPE_DEFAULT or slot1 == uv0.SKIN_TYPE_REMAKE or slot1 == uv0.SKIN_TYPE_OLD)
 	end
 
@@ -97,7 +97,7 @@ function slot0.GetShareSkinsByGroupId(slot0)
 	return slot4
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.endTime = slot1.end_time or slot1.time or 0
@@ -106,51 +106,51 @@ function slot0.Ctor(slot0, slot1)
 	slot0.skinName = slot0:getConfig("name")
 end
 
-function slot0.HasNewFlag(slot0)
+slot0.HasNewFlag = function(slot0)
 	return slot0.isNew
 end
 
-function slot0.SetIsNew(slot0, slot1)
+slot0.SetIsNew = function(slot0, slot1)
 	slot0.isNew = slot1
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.ship_skin_template
 end
 
-function slot0.isExpireType(slot0)
+slot0.isExpireType = function(slot0)
 	return slot0.endTime > 0
 end
 
-function slot0.getExpireTime(slot0)
+slot0.getExpireTime = function(slot0)
 	return slot0.endTime
 end
 
-function slot0.isExpired(slot0)
+slot0.isExpired = function(slot0)
 	return slot0.endTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.getRemainTime(slot0)
+slot0.getRemainTime = function(slot0)
 	return slot0:getExpireTime() - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.getIcon(slot0)
+slot0.getIcon = function(slot0)
 	return slot0:getConfig("painting")
 end
 
-function slot0.InShowTime(slot0)
+slot0.InShowTime = function(slot0)
 	return getProxy(ShipSkinProxy):InShowTime(slot0.id)
 end
 
-function slot0.IsDefault(slot0)
+slot0.IsDefault = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_DEFAULT
 end
 
-function slot0.IsType(slot0, slot1)
+slot0.IsType = function(slot0, slot1)
 	return slot0:getConfig("shop_type_id") == slot1
 end
 
-function slot0.IsMatchKey(slot0, slot1)
+slot0.IsMatchKey = function(slot0, slot1)
 	if not slot1 or slot1 == "" then
 		return true
 	end
@@ -158,7 +158,7 @@ function slot0.IsMatchKey(slot0, slot1)
 	return string.find(string.lower(slot0.shipName), string.lower(string.gsub(string.lower(string.gsub(slot1, "%.", "%%.")), "%-", "%%-"))) or string.find(string.lower(slot0.skinName), slot1)
 end
 
-function slot0.ToShip(slot0)
+slot0.ToShip = function(slot0)
 	if ShipGroup.getDefaultShipConfig(slot0:getConfig("ship_group")) then
 		return Ship.New({
 			id = 1,
@@ -171,11 +171,11 @@ function slot0.ToShip(slot0)
 	end
 end
 
-function slot0.GetDefaultShipConfig(slot0)
+slot0.GetDefaultShipConfig = function(slot0)
 	return ShipGroup.getDefaultShipConfig(slot0:getConfig("ship_group"))
 end
 
-function slot0.IsLive2d(slot0)
+slot0.IsLive2d = function(slot0)
 	if not slot0.isLive2dTag then
 		slot0.isLive2dTag = table.contains(slot0:getConfig("tag"), uv0.WITH_LIVE2D)
 	end
@@ -183,7 +183,7 @@ function slot0.IsLive2d(slot0)
 	return slot0.isLive2dTag
 end
 
-function slot0.IsDbg(slot0)
+slot0.IsDbg = function(slot0)
 	if not slot0.isDGBTag then
 		slot0.isDGBTag = table.contains(slot0:getConfig("tag"), uv0.WITH_DYNAMIC_BG)
 	end
@@ -191,7 +191,7 @@ function slot0.IsDbg(slot0)
 	return slot0.isDGBTag
 end
 
-function slot0.IsBG(slot0)
+slot0.IsBG = function(slot0)
 	if not slot0.isBGTag then
 		slot0.isBGTag = table.contains(slot0:getConfig("tag"), uv0.WITH_BG)
 	end
@@ -199,7 +199,7 @@ function slot0.IsBG(slot0)
 	return slot0.isBGTag
 end
 
-function slot0.IsEffect(slot0)
+slot0.IsEffect = function(slot0)
 	if not slot0.isEffectTag then
 		slot0.isEffectTag = table.contains(slot0:getConfig("tag"), uv0.WITH_EFFECT)
 	end
@@ -207,7 +207,7 @@ function slot0.IsEffect(slot0)
 	return slot0.isEffectTag
 end
 
-function slot0.isBgm(slot0)
+slot0.isBgm = function(slot0)
 	if not slot0.isBgmTag then
 		slot0.isBgmTag = table.contains(slot0:getConfig("tag"), uv0.WITH_BGM)
 	end
@@ -215,7 +215,7 @@ function slot0.isBgm(slot0)
 	return slot0.isBgmTag
 end
 
-function slot0.IsSpine(slot0)
+slot0.IsSpine = function(slot0)
 	if not slot0.isSpine then
 		slot0.isSpine = table.contains(slot0:getConfig("tag"), uv0.WITH_SPINE)
 	end
@@ -223,17 +223,17 @@ function slot0.IsSpine(slot0)
 	return slot0.isSpine
 end
 
-function slot0.CantUse(slot0)
+slot0.CantUse = function(slot0)
 	slot3 = slot0:getConfig("ship_group")
 
 	return not getProxy(BayProxy):_ExistGroupShip(slot3, slot0:IsTransSkin(), slot0:IsProposeSkin()) or getProxy(CollectionProxy).shipGroups[slot3] == nil
 end
 
-function slot0.OwnShip(slot0)
+slot0.OwnShip = function(slot0)
 	return getProxy(BayProxy):_ExistGroupShip(slot0:getConfig("ship_group"), slot0:IsTransSkin(), slot0:IsProposeSkin())
 end
 
-function slot0.WithoutUse(slot0)
+slot0.WithoutUse = function(slot0)
 	slot2 = getProxy(BayProxy):findShipsByGroup(slot0:getConfig("ship_group"))
 
 	return #slot2 > 0 and _.all(slot2, function (slot0)
@@ -241,20 +241,20 @@ function slot0.WithoutUse(slot0)
 	end)
 end
 
-function slot0.ExistShip(slot0)
+slot0.ExistShip = function(slot0)
 	return pg.ship_data_statistics[tonumber(slot0:getConfig("ship_group") .. 1)] ~= nil
 end
 
-function slot0.IsTransSkin(slot0)
+slot0.IsTransSkin = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_REMAKE
 end
 
-function slot0.IsProposeSkin(slot0)
+slot0.IsProposeSkin = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_PROPOSE
 end
 
-function slot0.CanShare(slot0)
-	function slot3()
+slot0.CanShare = function(slot0)
+	slot3 = function()
 		slot0 = uv0:getConfig("ship_group")
 
 		for slot5, slot6 in pairs(getProxy(BayProxy):getRawData()) do
@@ -275,13 +275,13 @@ function slot0.CanShare(slot0)
 	end)())
 end
 
-function slot0.IsShareSkin(slot0, slot1)
+slot0.IsShareSkin = function(slot0, slot1)
 	slot3 = pg.ship_data_group
 
 	return table.contains(slot3[slot3.get_id_list_by_group_type[slot0.groupId][1]].share_group_id, pg.ship_skin_template[slot1].ship_group)
 end
 
-function slot0.CanUseShareSkinForShip(slot0, slot1)
+slot0.CanUseShareSkinForShip = function(slot0, slot1)
 	slot2 = uv0.IsShareSkin(slot0, slot1)
 	slot3 = ShipSkin.New({
 		id = slot1
@@ -298,11 +298,11 @@ function slot0.CanUseShareSkinForShip(slot0, slot1)
 	return slot2 and slot4
 end
 
-function slot0.ExistReward(slot0)
+slot0.ExistReward = function(slot0)
 	return pg.ship_skin_reward[slot0.configId] ~= nil and #slot1.reward > 0
 end
 
-function slot0.GetRewardList(slot0)
+slot0.GetRewardList = function(slot0)
 	if not slot0:ExistReward() then
 		return {}
 	end
@@ -320,7 +320,7 @@ function slot0.GetRewardList(slot0)
 	return slot2
 end
 
-function slot0.GetRewardListDesc(slot0)
+slot0.GetRewardListDesc = function(slot0)
 	if #slot0:GetRewardList() <= 0 then
 		return ""
 	end

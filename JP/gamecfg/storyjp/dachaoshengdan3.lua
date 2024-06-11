@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オペレーション・クリスマス！\n\n<size=45>三　クリスマスを覆う影・上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・ユニオン寮",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・ユニオン寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "とにかく！サンタ姿のエンプラ姉に真顔でプレゼントを渡されるのはもう勘弁だよ！いないうちに早く……",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "（トントン）",
 			typewriter = {
 				speed = 0.05,
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "ってまさかエンプラ姉！？",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "直接聞きに行って大丈夫でしょうか…？",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "大丈夫大丈夫！ユニオンは自由で開放的なのが特徴だから！ついてきて！",
 			typewriter = {
 				speed = 0.05,

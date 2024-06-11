@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023 闪乱联动 EX 终结技",
 	time = 3,
+	name = "2023 闪乱联动 EX 终结技",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

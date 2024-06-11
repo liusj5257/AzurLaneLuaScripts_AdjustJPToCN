@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19430,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19430,
+	color = "red",
 	icon = 19430,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			arg_list = {
 				check_target = "TargetHarmNearest",
 				range = 35,
-				skill_id = 19430,
 				maxTargetNumber = 0,
+				skill_id = 19430,
 				index = {
 					1
 				}
@@ -44,8 +44,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				range = 35,
-				skill_id = 19431,
 				check_target = "TargetHarmNearest",
+				skill_id = 19431,
 				index = {
 					1
 				}
@@ -57,9 +57,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 19432,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 19432,
 				index = {
 					1
 				},
@@ -74,9 +74,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 19434,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 19434,
 				index = {
 					1
 				},

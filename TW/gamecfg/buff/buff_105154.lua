@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			},
 			{
@@ -32,8 +32,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.111
+					number = -0.111,
+					type = "airAssist"
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.122
+					number = -0.122,
+					type = "airAssist"
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.133
+					number = -0.133,
+					type = "airAssist"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.144
+					number = -0.144,
+					type = "airAssist"
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.155
+					number = -0.155,
+					type = "airAssist"
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.166
+					number = -0.166,
+					type = "airAssist"
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.177
+					number = -0.177,
+					type = "airAssist"
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.188
+					number = -0.188,
+					type = "airAssist"
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.2
+					number = -0.2,
+					type = "airAssist"
 				}
 			},
 			{
@@ -239,14 +239,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 105154,
+	time = 0,
 	picture = "",
 	desc = "本场首轮装填减少10-20%",
 	stack = 2,
-	id = 105154,
+	color = "blue",
 	icon = 105150,
 	last_effect = "",
 	blink = {
@@ -264,8 +264,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = "airAssist",
-				number = -0.1
+				number = -0.1,
+				type = "airAssist"
 			}
 		},
 		{

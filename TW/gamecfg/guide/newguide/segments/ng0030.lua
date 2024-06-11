@@ -8,7 +8,13 @@ return {
 			},
 			ui = {
 				delay = 1,
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActMapBtn",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/MainActivityBtnMellowAdapt"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActMapBtn"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -18,19 +24,25 @@ return {
 				}
 			},
 			baseui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActMapBtn"
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/MainActivityBtnMellowAdapt"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActMapBtn"
+					end
+				end
 			},
 			style = {
 				text = "現在去活動關卡看看新解鎖的採集地關卡吧",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = -289.7
 			}
 		},
 		{
-			alpha = 0.4,
 			waitScene = "LevelScene",
+			alpha = 0.4,
 			code = {
 				2
 			},
@@ -47,8 +59,8 @@ return {
 			style = {
 				text = "現在已經解鎖了採集地關卡",
 				mode = 1,
-				posY = -211.8,
 				dir = -1,
+				posY = -211.8,
 				posX = -651.63
 			}
 		},
@@ -61,8 +73,8 @@ return {
 			style = {
 				text = "通關採集地關卡可以獲得各種屬性的素材",
 				mode = 1,
-				posY = -74.3,
 				dir = -1,
+				posY = -74.3,
 				posX = -417.9,
 				uiset = {
 					{
@@ -102,8 +114,8 @@ return {
 			style = {
 				text = "現在讓我們回到主介面",
 				mode = 1,
-				posY = 368.1,
 				dir = 1,
+				posY = 368.1,
 				posX = 644.59
 			}
 		}

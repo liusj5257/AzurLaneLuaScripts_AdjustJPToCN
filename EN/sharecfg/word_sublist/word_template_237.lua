@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_237 = {}
 slot1 = slot0.word_template_237
 
-function temp()
+temp = function()
 	uv0["巧"] = {
 		["克"] = {
 			["力"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["俏"] = {
 		["臀"] = {
 			["摄"] = {
@@ -48,7 +48,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["翘"] = {
 		["臀"] = {
 			["嫩"] = {
@@ -65,7 +65,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["翹"] = {
 		["臀"] = {
 			["嫩"] = {
@@ -82,7 +82,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["切"] = {
 		["肤"] = {
 			["之"] = {
@@ -99,7 +99,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["窃"] = {
 		["."] = {
 			["听"] = {
@@ -186,7 +186,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["篋"] = {
 		this = {
 			this = true

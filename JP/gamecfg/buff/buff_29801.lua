@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行10次攻击，触发全弹发射-鞍山级III"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 29801,
 	picture = "",
 	desc = "主炮每进行16次攻击，触发全弹发射-鞍山级III",
 	stack = 1,
-	id = 29801,
+	color = "red",
 	icon = 20000,
 	last_effect = "",
 	effect_list = {
@@ -19,9 +19,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 29800,
-				countTarget = 16,
 				gunnerBonus = true,
+				countTarget = 16,
+				countType = 29800,
 				index = {
 					1
 				}

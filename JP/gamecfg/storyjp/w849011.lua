@@ -1,12 +1,12 @@
 return {
-	id = "W849011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W849011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "どうやらまだ経過していない黄色い区域があるようだ。一度出直そう。",
 			typewriter = {
 				speed = 0.05,

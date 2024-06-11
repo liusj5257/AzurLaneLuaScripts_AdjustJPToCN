@@ -139,9 +139,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 20,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "护盾",
 	stack = 1,

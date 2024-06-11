@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN28",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg13",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "演習海域にて・9ターン目（赤城）",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg13",
 			say = "艦船たちが次々と脱落していく戦局の激しさを反映したか、演習場内の海がますます荒れていく。",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg13",
 			say = "場に残った艦船たちも緊張感に包まれている中、次の采配の時がやってきた。",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "武蔵さんの艦隊の行動が終わりました。私にはわかりません…なぜ急に深雪を攻撃したのですか？",
 			painting = {
@@ -108,8 +108,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "ええ。計画のうちよ。まあここでの戦闘不能は単なる退場だもの",
 			painting = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "それと同時にやってほしいことがあるわ",
 			painting = {
@@ -158,8 +158,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "武蔵がせっかく用意してくれた仕掛け、使わないと損するわ",
 			painting = {
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "えっ、あの塔は確か私たちの攻撃を周囲に反射するんでしたよね…？となると旗風さんは……",
 			painting = {
@@ -208,8 +208,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "それが狙いよ。艦船を攻撃するのでなければ大先輩の「心象」とやらも反映されないわ",
 			painting = {
@@ -273,8 +273,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "頼りにしていますよ。あの攻撃は山城の耐久がないと防げないですからね",
 			painting = {

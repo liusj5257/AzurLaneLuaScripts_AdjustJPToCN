@@ -1,26 +1,26 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "거울 해역, 어느 곳",
 			bgm = "bsm-2",
+			say = "거울 해역, 어느 곳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "사로잡힌 공주 혼자만이 서 있는, 어느 누구도 모르는 땅.",
@@ -30,12 +30,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -50,10 +50,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……대체 얼마나 시간이 흐른 걸까……",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "!! ……언제부터 거기에?!",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "믿어주길… 바라는 건가요?",
 			painting = {
 				alpha = 0.3,
@@ -188,10 +188,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사양하죠. 아주 조금이라도 제 정보를 드리게 되는 건 비위에 좀 거슬려서요.",
 			painting = {
 				alpha = 0.3,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -259,10 +259,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……읏……",
 			painting = {
 				alpha = 0.3,
@@ -361,10 +361,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "기쁘다고요?",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "문? 열쇠? 그렇군요… 내 힘을 이용해서 세상의 경계를 넘게 했다는 거군요……",
 			painting = {
 				alpha = 0.3,
@@ -505,10 +505,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -532,14 +532,14 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "…………",
 			bgm = "sk-az-pv1",
+			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,17 +549,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -570,10 +570,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "역시 내 힘이 이번 사건의 발단이 된 모양이야……",
 			painting = {
 				alpha = 0.3,
@@ -588,10 +588,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "빨리 여기서 탈출해서 아스카 씨 쪽에 합류해야 해… 어서 모두에게 사과해야……",
 			painting = {
 				alpha = 0.3,
@@ -603,12 +603,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇지만 여기서는 술법이 무효화되는 것 같으니… 다른 방법을 찾아내야 해……",
 			painting = {
 				alpha = 0.3,
@@ -623,10 +623,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "무효화…라기보다는 무언가에 흡수되는 기분이 들어. 억지로 돌파하는 건 어려울 것 같아.",
 			painting = {
 				alpha = 0.3,
@@ -641,10 +641,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "내 힘이 사건을 일으킨 발단이라면, 반대로 이번 사태를 해결할 비장의 카드가 될 수도 있다는 뜻이겠지……",
 			painting = {
 				alpha = 0.3,
@@ -659,10 +659,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇다면… 적절한 때를 기다려야 해… 적합한 때를 노려서… 단번에 시도하면……",
 			painting = {
 				alpha = 0.3,
@@ -674,28 +674,28 @@ return {
 			}
 		},
 		{
-			actor = 900232,
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900232,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후훗, 내 계산대로 잘 움직여 줄 것 같네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

@@ -1,17 +1,17 @@
 return {
-	id = "SHENGYONGQU3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "說起來，為什麼要選擇這裡作為目標呢？這裡雖然風景不錯，從戰略角度來說卻沒有太高的價值吧。",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "呵呵，原來如此。妳們的善意我心領了。",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "其實這裡也沒有傳聞中那麼誇張。確實，這次重要的不是奪回某片偏遠的領土，而是奪回這片領土上的某樣“東西”。",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "就像妳們可能已經知道的，這片島嶼上有一座歷史悠久的鳶尾聖堂，奪回聖堂重新置於自由鳶尾的控制之下，就是我們這次的主要目標。",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "維希教廷也是出於同樣的理由，才會做出將艦隊派到偏遠地區駐防這一看似反常的舉動。",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "沒錯，選擇在這片遠離凡世的美麗島嶼上修建聖堂，才能夠更好的淨化人的心靈吧。",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "…皇家的情報工作果然十分出色，直到開戰前才詳細說明聖堂的情況是我的疏忽。",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "接下來的戰鬥還需要我們齊心協力，讓我們共同迎接勝利吧。",
 			typewriter = {
 				speed = 0.05,

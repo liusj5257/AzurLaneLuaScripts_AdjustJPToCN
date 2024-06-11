@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "xinnong-1",
-			side = 2,
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			say = "펑------!",
+			side = 2,
+			bgm = "xinnong-1",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,8 +37,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 		{
 			actor = 307010,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "이렇게 큰 소란이라니. 세이렌이 습격이라도 한 줄 알았네요. 무슨 짓이죠, 오이겐?",
 			paintingFadeOut = {
 				time = 0.5,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,

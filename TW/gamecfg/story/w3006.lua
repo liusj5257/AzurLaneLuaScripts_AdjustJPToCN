@@ -1,12 +1,12 @@
 return {
-	id = "W3006",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W3006",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "解謎完成！海域平靜了下來...現在可以領取獎勵離開地圖了",
 			typewriter = {
 				speed = 0.05,

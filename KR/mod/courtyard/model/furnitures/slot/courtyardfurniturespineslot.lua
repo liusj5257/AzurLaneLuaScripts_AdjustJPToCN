@@ -4,7 +4,7 @@ slot2 = 1
 slot3 = 2
 slot4 = 3
 
-function slot0.OnInit(slot0, slot1)
+slot0.OnInit = function(slot0, slot1)
 	slot0.name = slot1[1][1]
 	slot0.defaultAction = slot1[1][2]
 	slot0.mask = slot1[2] and slot1[2][1]
@@ -45,13 +45,13 @@ function slot0.OnInit(slot0, slot1)
 	end
 end
 
-function slot0.InitUpdateStrategy(slot0, slot1)
+slot0.InitUpdateStrategy = function(slot0, slot1)
 	slot2 = nil
 
 	return (slot1 ~= uv0 or CourtYardFollowInteraction.New(slot0)) and (slot1 ~= uv1 or CourtYardMonglineInteraction.New(slot0)) and (slot1 ~= uv2 or CourtYardVariedInteraction.New(slot0)) and CourtYardInteraction.New(slot0)
 end
 
-function slot0.SetAnimators(slot0, slot1)
+slot0.SetAnimators = function(slot0, slot1)
 	slot3 = slot1[1][slot0.id] or slot2[1] or {}
 	slot4 = type(slot3) == "string" and {
 		slot3
@@ -65,14 +65,14 @@ function slot0.SetAnimators(slot0, slot1)
 	end
 end
 
-function slot0.SetFollower(slot0, slot1)
+slot0.SetFollower = function(slot0, slot1)
 	slot0.follower = {
 		bone = slot1[1],
 		scale = Vector3(slot1[2], 1, 1)
 	}
 end
 
-function slot0.SetSubstitute(slot0, slot1)
+slot0.SetSubstitute = function(slot0, slot1)
 	slot0.substituteActions = _.map(slot1, function (slot0)
 		return {
 			action = slot0[1],
@@ -84,8 +84,8 @@ function slot0.SetSubstitute(slot0, slot1)
 	end)
 end
 
-function slot0.GetSubstituteAction(slot0, slot1, slot2)
-	function slot3(slot0)
+slot0.GetSubstituteAction = function(slot0, slot1, slot2)
+	slot3 = function(slot0)
 		slot1 = uv0:GetUser()
 
 		return table.contains(slot0.match, slot0.math_mode == 1 and slot1:GetSkinID() or slot1:GetGroupID()) and (slot0.replace_mode == 0 or slot0.replace_mode == uv1)
@@ -96,19 +96,19 @@ function slot0.GetSubstituteAction(slot0, slot1, slot2)
 	end) and slot4.replace or slot1
 end
 
-function slot0.GetUserSubstituteAction(slot0, slot1)
+slot0.GetUserSubstituteAction = function(slot0, slot1)
 	return slot0:GetSubstituteAction(slot1, 1)
 end
 
-function slot0.GetOwnerSubstituteAction(slot0, slot1)
+slot0.GetOwnerSubstituteAction = function(slot0, slot1)
 	return slot0:GetSubstituteAction(slot1, 2)
 end
 
-function slot0.IsEmpty(slot0)
+slot0.IsEmpty = function(slot0)
 	return uv0.super.IsEmpty(slot0) and slot0.vaild
 end
 
-function slot0.GetScale(slot0)
+slot0.GetScale = function(slot0)
 	if slot0.follower then
 		return slot0.follower.scale
 	else
@@ -116,7 +116,7 @@ function slot0.GetScale(slot0)
 	end
 end
 
-function slot5(slot0)
+slot5 = function(slot0)
 	slot1 = {}
 	slot2 = {}
 	slot3 = {}
@@ -132,7 +132,7 @@ function slot5(slot0)
 	return slot1, slot2, slot3
 end
 
-function slot6(slot0)
+slot6 = function(slot0)
 	slot1 = {}
 	slot2 = {}
 	slot3 = {}
@@ -148,7 +148,7 @@ function slot6(slot0)
 	return slot1, slot2, slot3
 end
 
-function slot0.GetActions(slot0)
+slot0.GetActions = function(slot0)
 	slot1, slot2 = nil
 
 	if slot0.preheatAction and type(slot0.preheatAction) == "string" then
@@ -169,29 +169,29 @@ function slot0.GetActions(slot0)
 	return slot3, slot4, slot5, slot1, slot2, slot0.tailAction
 end
 
-function slot0.OnAwake(slot0)
+slot0.OnAwake = function(slot0)
 	if #slot0.animators > 0 then
 		slot0.animatorIndex = math.random(1, #slot0.animators)
 	end
 end
 
-function slot0.OnStart(slot0)
+slot0.OnStart = function(slot0)
 	slot0.updateStrategy:Update(slot0.loop)
 end
 
-function slot0.OnContinue(slot0, slot1)
+slot0.OnContinue = function(slot0, slot1)
 	slot0.updateStrategy:StepEnd(slot1)
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0.updateStrategy:Reset()
 end
 
-function slot0.GetSpineDefaultAction(slot0)
+slot0.GetSpineDefaultAction = function(slot0)
 	return slot0.defaultAction
 end
 
-function slot0.GetSpineMaskDefaultAcation(slot0)
+slot0.GetSpineMaskDefaultAcation = function(slot0)
 	return slot0.maskDefaultAction
 end
 

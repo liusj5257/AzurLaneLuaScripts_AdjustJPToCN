@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_503",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "별의 바다 기지 - 연결 통로",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "후후, 지금은 별의 바다 기지의 중앙쯤이에요. 아래쪽 독립 구역인 별의 바다의 심장까지는 아직 거리가 있답니다.",
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이제 걸어서 승강장까지 가야 해요. 이쪽으로 오세요.",
@@ -107,27 +107,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_503",
 			say = "별의 바다 기지 - 핵심 구역 - \"별의 바다의 심장\" - 종합 지역",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "첨단함선연구계획국",
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "우와, 노샘프턴이잖아! 좋은 아침~",
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "첨단함선연구계획국",
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "신입을 데리고 테스트를 하러 온 거야? 그럼 어서 가봐. 별의 바다의 심장이 지금 마침 비어 있으니까~",
@@ -249,9 +249,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -265,17 +265,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네… 보안상의 문제로 별의 바다 외부에 저 둘의 존재를 아는 사람은 거의 없거든요.",
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "시애틀과 키어사지는 조지아와 마찬가지로 우리의 계획함이에요. 삼각형자리-첨단함선연구계획국 소속이죠.",
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이제 레일카를 한 번만 더 타면 목적지인 X 구역에 도찰할 수 있답니다.",
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "....굉장히 오래 걸리네요.",
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "힘내세요. 이제 정말 마지막이에요~!",
@@ -411,28 +411,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_2",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "별의 바다 기지 - 핵심 구역 - \"별의 바다의 심장\" - X 구역",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -535,11 +535,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...라피, II형 의장이 없는데?",
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "별의 바다 호스트",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "첫 번째 단계: 미래 함대와 교전을 진행합니다. 미래 함대의 전투력은 적정 수준으로 조정되었습니다. 핵심 목적: 적응성 테스트",
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "별의 바다 호스트",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "목표: 데빌 격파",
@@ -797,11 +797,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "별의 바다 호스트",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "첫째, 함재기의 비행을 포함한 어떠한 상황에서도 지정된 실험 구역을 벗어날 수 없다. 이를 어길 경우 테스트가 중단된다.",
@@ -834,11 +834,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "별의 바다 호스트",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "셋째, 실험 지역 외부 대상을 향한 공격은 금지되며 이를 어길 경우 테스트가 중단된다.",

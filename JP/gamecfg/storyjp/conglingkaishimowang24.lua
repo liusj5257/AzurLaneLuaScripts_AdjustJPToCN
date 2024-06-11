@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "補給拠点が攻め落とされた後、魔王城への道を阻むものは何もなくなった。",
 			bgm = "story-mmorpg",
+			say = "補給拠点が攻め落とされた後、魔王城への道を阻むものは何もなくなった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "――今この瞬間にも、魔王城の中からゆっくりと立ち上がる防御魔法陣がはっきり見えるほどに。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "魔王との決戦の時が、ついに迫ってきたのだ。",
 			typewriter = {
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あっつー…魔王城に近づくほど、なんだか暑くなってきた…",
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ヌビアン、冷やせるポーションとかってあったりする？",
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そんなの使われたら氷漬けになっちゃうよ！？",
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ユニコーン、ゆーちゃん借りてもいい？",
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "空を飛んで、風に当たると涼しくなるのになぁ…わ！？",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官、空から何かがこっちに近づいてきてるよ！",
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あれは…王国軍の戦闘天使？",
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ダメだよ！聖女はもうパーティーの仲間だ！連れ戻されるのをみすみす見過ごすわけにはいかないもん！",
@@ -291,9 +291,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "戦闘天使",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "光と正義の神による加護があらんことを",
@@ -306,17 +306,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "戦闘天使",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "王さま、及び神聖教会の心配事をお伝えに参りました",
 			painting = {
@@ -413,11 +413,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "戦闘天使",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "それから人類の千年紀における13回目の――最後の1回になるやもしれない大征戦の遂行を決心しました",
 			painting = {
@@ -520,11 +520,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "戦闘天使",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "そこを避けて通れば、魔王討伐で挟み撃ちにされかねません",
 			painting = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "戦闘天使",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "聖女様は――一緒に戻るつもりはありませんね？",
 			painting = {

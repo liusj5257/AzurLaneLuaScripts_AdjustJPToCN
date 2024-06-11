@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_newyork",
-			bgm = "level02",
-			dir = 1,
 			say = "白鷹·紐約司令部 稍早之前 ",
+			dir = 1,
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "放心放心~如果有塞壬趁機來“拜訪”，我一定用主炮好好“招待”它們",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "各位，出航的時間到了，準備完畢之後就動身吧",
 			typewriter = {
@@ -149,14 +149,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_newyork",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "企業，我也該出發和指揮官匯合了",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "白令海的冰雪要塞攻略作戰終於要開始了嗎？",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "一貫冰冷的北方聯合這麼熱情的邀請我們進行聯合作戰，還推薦指揮官前去指揮，總感覺有一絲陰謀的味道呢…",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "這次作戰一定有哪個環節不對勁，我一定要去親自看看",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "預祝妳們作戰順利，順便幫我向指揮官帶個好",
 			typewriter = {
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "收到~",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

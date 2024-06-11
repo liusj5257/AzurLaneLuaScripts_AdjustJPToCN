@@ -1,6 +1,6 @@
 slot0 = class("ClassRoomBuilding", import(".NavalAcademyUpgradableBuilding"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.bubbleImg = slot0.bubble:Find("icon"):GetComponent(typeof(Image))
@@ -8,7 +8,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.isUpdateIcon = false
 end
 
-function slot0.UpdateBubble(slot0)
+slot0.UpdateBubble = function(slot0)
 	slot2 = slot0:GetResField():GetGenResCnt() > 0
 
 	setActive(slot0.bubble, slot2)
@@ -32,19 +32,19 @@ function slot0.UpdateBubble(slot0)
 	end
 end
 
-function slot0.GetGameObjectName(slot0)
+slot0.GetGameObjectName = function(slot0)
 	return "classRoom"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("school_title_dajiangtang")
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot0:emit(NavalAcademyMediator.ON_OPEN_CLASSROOM)
 end
 
-function slot0.GetResField(slot0)
+slot0.GetResField = function(slot0)
 	return slot0.parent.classResField
 end
 

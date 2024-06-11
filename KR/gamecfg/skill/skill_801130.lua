@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50071,
@@ -14,10 +14,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -36,10 +36,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50072,
@@ -48,10 +48,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -70,10 +70,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50073,
@@ -82,10 +82,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -104,10 +104,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50074,
@@ -116,10 +116,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -138,10 +138,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50075,
@@ -150,10 +150,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -172,10 +172,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50076,
@@ -184,10 +184,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -206,10 +206,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50077,
@@ -218,10 +218,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -240,10 +240,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50078,
@@ -252,10 +252,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -274,10 +274,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50079,
@@ -286,10 +286,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -308,10 +308,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50080,
@@ -320,10 +320,10 @@ return {
 						},
 						phase = {
 							{
-								switchType = 1,
+								switchParam = 1,
 								switchTo = 1,
 								index = 0,
-								switchParam = 1,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									486
@@ -355,10 +355,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				spawnData = {
 					monsterTemplateID = 50071,
@@ -367,10 +367,10 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 20006,
 							addWeapon = {
 								486

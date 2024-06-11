@@ -5,15 +5,15 @@ slot2 = class("BattleTorpedoWeaponVO", slot0.Battle.BattlePlayerWeaponVO)
 slot0.Battle.BattleTorpedoWeaponVO = slot2
 slot2.__name = "BattleTorpedoWeaponVO"
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 	uv0.super.Ctor(slot0, uv1.GCD)
 end
 
-function slot2.AppendWeapon(slot0, slot1)
+slot2.AppendWeapon = function(slot0, slot1)
 	uv0.super.AppendWeapon(slot0, slot1)
 	slot1:SetPlayerTorpedoWeaponVO(slot0)
 end
 
-function slot2.GetCurrentWeaponIconIndex(slot0)
+slot2.GetCurrentWeaponIconIndex = function(slot0)
 	return 2
 end

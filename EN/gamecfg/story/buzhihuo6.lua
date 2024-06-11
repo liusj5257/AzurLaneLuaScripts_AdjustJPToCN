@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 6: The Shopkeeper's True Feelings (Pt 1)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Infirmary",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Infirmary",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "At the infirmary, Shiranui is quietly lying on a sickbed.",
 			typewriter = {
 				speed = 0.05,
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			dir = -1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = -1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Sure enough...",
 			typewriter = {
@@ -105,11 +105,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			dir = -1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = -1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "If only I had noticed sooner...",
 			typewriter = {
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "Pipe down, dumb cat.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Pipe down, dumb cat.",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
 					x = 0,
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Patients should just quietly lie there and rest. Shiranui is way too stubborn, Nyaa!",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "The Shiranui that sat up from the sickbed still wore the same expression as ever but, compared to usual, seemed a lot more vulnerable.",
 			typewriter = {
 				speed = 0.05,
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "You're the last one I want to hear that from.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You're the last one I want to hear that from.",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "I was relieved to see that Shiranui was fine, but it was clear that things could not continue like this.",
 			typewriter = {
@@ -343,9 +343,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Eh? Even Akashi is opposed to that idea?",
 			typewriter = {
 				speed = 0.05,
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301180,
+			nameColor = "#a9f548",
 			say = "*sigh* ... This person sure is dense.",
 			typewriter = {
 				speed = 0.05,

@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "1시간 후……",
 			bgm = "theme-seaandsun-image",
+			say = "1시간 후……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "골든 하인드의 설명을 들은 후, '위대한 로열 포춘호'로 새로 이름 붙인 클리퍼로 돌아왔다.",
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그 지도의 주인은 '푸른 늑대단'… 일찍이 '큰 실추'로 잃은 보물을 노리는 트레저 헌터……",
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "세상에 알려지지 않은 수수께끼의 선단이 갑자기 부활했다! 이런 건 너무 이상하잖아.",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "규칙까지 어겨가면서 폴리스를 습격하다니…… 으아… 어떻게 흘러가는 건지 전혀 모르겠어.",
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "로열 포춘의 생각이 미궁 속에 빠진 모양이다.",
@@ -450,11 +450,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "화력, 속도, 방어 모든 균형이 잘 잡혀있는 배야.",
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "…………",
@@ -523,11 +523,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그럴 리가! 좋은 배라면 뭐든 다 좋아해!",
@@ -647,11 +647,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "귀엽고 강한데 덤으로 운까지 좋은 로열 포춘에게 유령선 따위는 아무것도 아니라고!",
@@ -684,11 +684,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐, 지금 배로도 충분히 만족스럽긴 하지만 말이야!",
@@ -702,11 +702,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "만족해줘서 고맙네~",
@@ -739,11 +739,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래서 당신을 '선택'한 거고~",
@@ -795,11 +795,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이 배는 몇 년 전에 건조되긴 했지만, 신항로에서는 여전히 가장 우수한 배거든.",
@@ -870,11 +870,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이 항구에 있는 배는 모두 내 거야.",
@@ -907,11 +907,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "에이, 괜찮아~ 여기에서 강자는 무슨 짓을 해도 용서 받으니까~",
@@ -963,11 +963,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "게다가 나… 이 배보다 더 가치있는 걸 발견해버렸거든♡ (끈적끈적)",
@@ -1000,11 +1000,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "별말씀을~ 보급이 끝나면 위대한 항해를 떠나자구~",
@@ -1018,11 +1018,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "보, 보급 상태 확인하고 올게! 지휘관, 여긴 잘 부탁해!",
@@ -1036,8 +1036,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "로열 포춘은 서둘러 자리를 벗어났다.",
@@ -1047,8 +1047,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "그러고 보니 어느샌가 그녀도 나를 '지휘관'이라고 부르기 시작했다.",
@@ -1058,11 +1058,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "재밌네~",
@@ -1095,11 +1095,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관님, 그거 알아? 폴리스의 교회에는 전해져 오는 이야기가 하나 있어.",
@@ -1125,11 +1125,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "바로 신세계를 탐험하는 모험가의 이야기야~",
@@ -1162,11 +1162,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그곳은 바람이 불지 않는 해역… 돛에 의존하는 배들에게는 죽음의 덫이나 다름없는 곳이었지.",
@@ -1199,11 +1199,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "일단 들어서면 자력으로 탈출할 수 없는 외딴곳에서 모험가는 여신에게 바람이 불도록 열심히 빌었지만 아무 일도 일어나지 않았지.",
@@ -1236,11 +1236,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "폭풍은 배를 신세계 해변까지 밀어냈고, 모험가들은 '바람 없는 바다'를 피할 수 있는 지도를 손에 넣었지.",
@@ -1273,11 +1273,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "로열 포춘의 파트너인 지휘관님은 알고 계시려나?",
@@ -1310,8 +1310,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "…………",
@@ -1327,11 +1327,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……마지막까지 들어줘서 고마워.",
@@ -1364,11 +1364,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관님, 당신에게도 행운의 바람이 따르기를 바라.",
@@ -1382,8 +1382,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "골든 하인드는 뒤쪽 항구로 돌아섰다.",
@@ -1393,8 +1393,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "멀리서 로열 포춘의 흥얼거리는 노랫소리가 들려온다.",
@@ -1404,11 +1404,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "닻을 올려라♪ 돛을 내려라♪",

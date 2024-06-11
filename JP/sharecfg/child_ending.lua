@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.child_ending = {
 	{
-		group = 1,
-		name = "写真モデル",
-		pic = "bg_project_tb_cg26",
 		id = 1,
+		name = "写真モデル",
+		group = 1,
 		polaroid_condition = 201,
+		pic = "bg_project_tb_cg26",
 		level = 1,
 		condition = {
 			{
@@ -33,11 +33,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 2,
-		name = "凄腕アーティスト",
-		pic = "bg_project_tb_cg27",
 		id = 2,
+		name = "凄腕アーティスト",
+		group = 2,
 		polaroid_condition = 201,
+		pic = "bg_project_tb_cg27",
 		level = 1,
 		condition = {
 			{
@@ -70,11 +70,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 3,
-		name = "人気ミュージシャン",
-		pic = "bg_project_tb_cg28",
 		id = 3,
+		name = "人気ミュージシャン",
+		group = 3,
 		polaroid_condition = 201,
+		pic = "bg_project_tb_cg28",
 		level = 1,
 		condition = {
 			{
@@ -97,11 +97,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 4,
-		name = "注目ニュースター",
-		pic = "bg_project_tb_cg29",
 		id = 4,
+		name = "注目ニュースター",
+		group = 4,
 		polaroid_condition = 203,
+		pic = "bg_project_tb_cg29",
 		level = 1,
 		condition = {
 			{
@@ -134,11 +134,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 5,
-		name = "達人コック",
-		pic = "bg_project_tb_cg30",
 		id = 5,
+		name = "達人コック",
+		group = 5,
 		polaroid_condition = 203,
+		pic = "bg_project_tb_cg30",
 		level = 1,
 		condition = {
 			{
@@ -166,11 +166,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 6,
-		name = "有望ライター",
-		pic = "bg_project_tb_cg31",
 		id = 6,
+		name = "有望ライター",
+		group = 6,
 		polaroid_condition = 203,
+		pic = "bg_project_tb_cg31",
 		level = 1,
 		condition = {
 			{
@@ -198,11 +198,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 7,
-		name = "期待アスリート",
-		pic = "bg_project_tb_cg32",
 		id = 7,
+		name = "期待アスリート",
+		group = 7,
 		polaroid_condition = 202,
+		pic = "bg_project_tb_cg32",
 		level = 1,
 		condition = {
 			{
@@ -225,11 +225,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 8,
-		name = "奇才ビジネスウーマン",
-		pic = "bg_project_tb_cg33",
 		id = 8,
+		name = "奇才ビジネスウーマン",
+		group = 8,
 		polaroid_condition = 202,
+		pic = "bg_project_tb_cg33",
 		level = 1,
 		condition = {
 			{
@@ -257,11 +257,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 9,
-		name = "溌剌ファーマー",
-		pic = "bg_project_tb_cg34",
 		id = 9,
+		name = "溌剌ファーマー",
+		group = 9,
 		polaroid_condition = 202,
+		pic = "bg_project_tb_cg34",
 		level = 1,
 		condition = {
 			{
@@ -294,11 +294,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 10,
-		name = "日常は繰り返す",
-		pic = "bg_project_tb_cg35",
 		id = 10,
+		name = "日常は繰り返す",
+		group = 10,
 		polaroid_condition = 0,
+		pic = "bg_project_tb_cg35",
 		level = 1,
 		condition = {
 			{
@@ -327,11 +327,11 @@ pg.child_ending = {
 		}
 	},
 	{
-		group = 11,
-		name = "外に出ることなく",
-		pic = "bg_project_tb_cg36",
 		id = 11,
+		name = "外に出ることなく",
+		group = 11,
 		polaroid_condition = 0,
+		pic = "bg_project_tb_cg36",
 		level = 1,
 		condition = {},
 		performance = {

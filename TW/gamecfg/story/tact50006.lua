@@ -37,8 +37,8 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			nameColor = "#a9f548",
 			say = "……從方向來看，她們兩個也是從南邊趕過來的，恐怕這五個人才是今晚入侵的主力，只是其中兩個分開去對付芝加哥那邊了。",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Port - Concert Venue",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "song08",
+			say = "Port - Concert Venue",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 206035,
 			dir = 1,
+			actor = 206035,
 			nameColor = "#a9f548",
 			say = "I've got to go and support Illustrious! She needs all the help she can get!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 201234,
 			dir = 1,
+			actor = 201234,
 			nameColor = "#a9f548",
 			say = "Are thou, now? Why, that I do wish to see for myself. Go!",
 			typewriter = {
@@ -130,15 +130,15 @@ return {
 			}
 		},
 		{
-			actor = 401463,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401463,
+			nameColor = "#a9f548",
 			say = "So be it; let us see what the fates have in store. My friends, I call upon you once more.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			nameColor = "#a9f548",
 			say = "I just got here, sorry! 23 was giving me an earful back there...",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401463,
 			dir = 1,
+			actor = 401463,
 			nameColor = "#a9f548",
 			say = "Imply you, my friend, that she controls the key to the trammel of the ear?",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			nameColor = "#a9f548",
 			say = "The... The what? Camel of the ear?",
 			typewriter = {
@@ -246,15 +246,15 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 801010,
+			nameColor = "#a9f548",
 			say = "I am forever in your debt, Your Highness and Miss Warspite. This would not be possible without your kind assistance.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 205022,
 			dir = 1,
+			actor = 205022,
 			nameColor = "#a9f548",
 			say = "There's no need to thank us. I must say though, I am quite surprised that Le Malin has the energy to get back on stage already.",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Where she draws her power from is a mystery. In any case, it's delightful to see her back in business.",
 			typewriter = {
@@ -345,15 +345,15 @@ return {
 			}
 		},
 		{
-			actor = 201099,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201099,
+			nameColor = "#a9f548",
 			say = "*sigh*... Look at the fancy stuff everyone's wearing! And we're stuck with this...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 101264,
 			dir = 1,
+			actor = 101264,
 			nameColor = "#a9f548",
 			say = "C-class sisters outfits... also cute.",
 			typewriter = {
@@ -475,15 +475,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_jichang_5",
-			actorName = "Dido μ",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "Dido μ",
 			say = "Wow, uh, there's a big crowd of people gathering...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -508,8 +508,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Albacore μ",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Roon μ",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -540,8 +540,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou μ",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Roon μ",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious μ",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -588,12 +588,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_jichang_5",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Let's do it!",
 			dialogShake = {
 				speed = 0.09,

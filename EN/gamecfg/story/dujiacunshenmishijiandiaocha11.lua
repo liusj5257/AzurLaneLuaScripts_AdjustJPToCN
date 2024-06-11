@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Spiriting-Away Incident?\n\n<size=45>Youkai, Spirits, and...</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "This is a small story from before the Youkai Troupe performed their play...",
+			nameColor = "#A9F548FF",
+			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			bgm = "stopbgm",
+			say = "This is a small story from before the Youkai Troupe performed their play...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "The Sakuran girls had finished tidying up and returned to their rooms to rest for a while.",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "Little did they know that something strange was already in motion.",
@@ -51,28 +51,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "xinnong-3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Onsen Resort - Inn Main Building",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 302215,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Hot Enough to Melt Ice",
 			dir = 1,
+			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It may have something to do with that rumble a moment ago... I'll go see Shinano.",
@@ -157,9 +157,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_517",
 			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
+			bgName = "star_level_bg_517",
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -173,17 +173,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 301041,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Please Adopt Me",
 			dir = 1,
+			actor = 301041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Eek! The rumors about youkai are true! They do exist!",
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "Yura's other Self reached out and grasped something. Somehow, that made the ominous voice disappear.",
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 302231,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Onsen Steamed Buns Are Delish!",
 			dir = 1,
+			actor = 302231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What? Where? Did you catch something? I don't see anything!",
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 302070,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Just Me, Not My Self",
 			dir = 1,
+			actor = 302070,
 			nameColor = "#A9F548FF",
 			say = "Now, what shall we do with you, little one? Something tells me you'll stir up trouble if I let you be...",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Ol' Unreliable",
 			hidePaintObj = true,

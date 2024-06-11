@@ -1,14 +1,14 @@
 slot0 = class("ShipFashionView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipFashionView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:InitFashion()
 end
 
-function slot0.InitFashion(slot0)
+slot0.InitFashion = function(slot0)
 	slot0.mainPanel = slot0._parentTf.parent
 	slot0.stylePanel = slot0._tf
 	slot0.styleScroll = slot0:findTF("style_scroll", slot0.stylePanel)
@@ -43,11 +43,11 @@ function slot0.InitFashion(slot0)
 	end)
 end
 
-function slot0.SetShareData(slot0, slot1)
+slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-function slot0.GetShipVO(slot0)
+slot0.GetShipVO = function(slot0)
 	if slot0.shareData and slot0.shareData.shipVO then
 		return slot0.shareData.shipVO
 	end
@@ -55,16 +55,16 @@ function slot0.GetShipVO(slot0)
 	return nil
 end
 
-function slot0.SetSkinList(slot0, slot1)
+slot0.SetSkinList = function(slot0, slot1)
 	slot0.skinList = slot1
 end
 
-function slot0.UpdateUI(slot0)
+slot0.UpdateUI = function(slot0)
 	triggerToggle(slot0.shareBtn, slot0.isShareSkinFlag)
 	setActive(slot0.shareBtn, #slot0:GetShareSkins(slot0:GetShipVO()) > 0)
 end
 
-function slot0.OnSelected(slot0, slot1)
+slot0.OnSelected = function(slot0, slot1)
 	slot2 = pg.UIMgr.GetInstance()
 
 	if slot1 then
@@ -83,7 +83,7 @@ function slot0.OnSelected(slot0, slot1)
 	slot0.onSelected = slot1
 end
 
-function slot0.GetShareSkins(slot0, slot1)
+slot0.GetShareSkins = function(slot0, slot1)
 	slot2 = getProxy(ShipSkinProxy)
 
 	return _.map(slot2:GetShareSkinsForShip(slot1), function (slot0)
@@ -91,7 +91,7 @@ function slot0.GetShareSkins(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateAllFashion(slot0, slot1)
+slot0.UpdateAllFashion = function(slot0, slot1)
 	slot3 = slot0:GetShipVO().groupId
 	slot0.fashionSkins = slot0.isShareSkinFlag and slot0:GetShareSkins(slot2) or slot0.shareData:GetGroupSkinList(slot3)
 
@@ -144,7 +144,7 @@ function slot0.UpdateAllFashion(slot0, slot1)
 					slot6:updateUsing(uv0:GetShipVO().skinId == slot4.id)
 				end
 
-				slot0 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv2.paintingName .. "_n"))
+				slot0 = checkABExist("painting/" .. uv2.paintingName .. "_n")
 
 				setActive(uv0.hideObjToggle, slot0)
 
@@ -180,7 +180,7 @@ function slot0.UpdateAllFashion(slot0, slot1)
 	triggerButton(slot4)
 end
 
-function slot0.UpdateFashion(slot0, slot1)
+slot0.UpdateFashion = function(slot0, slot1)
 	if ShipViewConst.currentPage ~= ShipViewConst.PAGE.FASHION or not slot0.shareData:HasFashion() then
 		return
 	end
@@ -188,11 +188,11 @@ function slot0.UpdateFashion(slot0, slot1)
 	slot0:UpdateAllFashion(slot1)
 end
 
-function slot0.ResetFashion(slot0)
+slot0.ResetFashion = function(slot0)
 	slot0.fashionSkinId = 0
 end
 
-function slot0.UpdateFashionDetail(slot0, slot1)
+slot0.UpdateFashionDetail = function(slot0, slot1)
 	if not slot0.fashionDetailWrapper then
 		slot2 = {
 			name = findTF(slot0.stylePanel, "style_desc/name_bg/name"),
@@ -306,7 +306,7 @@ function slot0.UpdateFashionDetail(slot0, slot1)
 	end)
 end
 
-function slot0.SilentTriggerToggleFalse(slot0)
+slot0.SilentTriggerToggleFalse = function(slot0)
 	slot0.fashionGroup = false
 	slot0.isShareSkinFlag = false
 
@@ -315,7 +315,7 @@ function slot0.SilentTriggerToggleFalse(slot0)
 	slot0:RegisterShareToggle()
 end
 
-function slot0.RegisterShareToggle(slot0)
+slot0.RegisterShareToggle = function(slot0)
 	onToggle(slot0, slot0.shareBtn, function (slot0)
 		uv0.fashionGroup = false
 		uv0.isShareSkinFlag = slot0
@@ -324,7 +324,7 @@ function slot0.RegisterShareToggle(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.fashionDetailWrapper then
 		slot1 = slot0.fashionDetailWrapper
 

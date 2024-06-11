@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN18",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――ウィダー、コレクションルーム……？",
+			side = 2,
 			bgm = "qe-ova-15",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――ウィダー、コレクションルーム……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -75,9 +75,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はい、どう使いますか？ええ、音で脅しでもかけますか？",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_600",
 			factiontag = "真面目なKP後輩",
-			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しばらくすると、壁の向こうの声が聞こえなくなりました",
@@ -112,17 +112,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -170,11 +170,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
-			nameColor = "#A9F548FF",
-			factiontag = "真面目なKP後輩",
-			blackBg = true,
-			bgm = "stopbgm",
 			actorName = "エセックス",
+			blackBg = true,
+			factiontag = "真面目なKP後輩",
+			bgm = "stopbgm",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "長い階段で、あなたは上り切るのに随分と時間がかかってしまいました",
 			typewriter = {
@@ -182,17 +182,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -202,11 +202,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_156",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "誰にも気づかれず、あなたは無事2階にたどり着きました",
 			typewriter = {
@@ -214,17 +214,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

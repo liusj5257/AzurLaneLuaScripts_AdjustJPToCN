@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"融雪的邀約\n\n<size=45>1 1. 月下的晚風</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "一輪新月高懸夜空。松林之中的溫泉，此刻正蒸騰著水汽。",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "一輪新月高懸夜空。松林之中的溫泉，此刻正蒸騰著水汽。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			say = "但是氤氳在清朗的夜空之中的，或許不只是水汽而已？",
 			typewriter = {
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 603042,
 			nameColor = "#A9F548FF",
 			say = "水溫好熱……指揮官，我先出水吹一下冷風好了。感覺泡久了的話，頭會有點暈。",
 			painting = {
@@ -177,12 +177,12 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 603042,
 			actorName = "特倫托",
 			say = "呵呵~真的是因為溫泉嗎？還是說，因為指揮官也在這裡，所以才……？",
 			painting = {
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 603042,
 			actorName = "特倫托",
 			say = "嗯哼哼~",
 			painting = {
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 603042,
 			nameColor = "#A9F548FF",
 			say = "一直都對指揮官挺嚴厲的，像現在這樣能和對指揮官說些真心話的機會也不太多……",
 			painting = {

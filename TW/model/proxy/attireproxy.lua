@@ -6,7 +6,7 @@ slot1 = pg.item_data_frame
 slot2 = pg.item_data_chat
 slot3 = false
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.data = {}
 	slot0.timers = {}
 	slot0.expiredChaces = {}
@@ -95,7 +95,7 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.getDataAndTrophys(slot0, slot1)
+slot0.getDataAndTrophys = function(slot0, slot1)
 	slot2 = slot0:getData()
 
 	if slot1 then
@@ -107,7 +107,7 @@ function slot0.getDataAndTrophys(slot0, slot1)
 	return slot2
 end
 
-function slot0.clearNew(slot0)
+slot0.clearNew = function(slot0)
 	for slot4, slot5 in pairs(slot0.data.iconFrames) do
 		slot5:clearNew()
 	end
@@ -117,7 +117,7 @@ function slot0.clearNew(slot0)
 	end
 end
 
-function slot0.getExpiredChaces(slot0)
+slot0.getExpiredChaces = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.expiredChaces) do
@@ -129,7 +129,7 @@ function slot0.getExpiredChaces(slot0)
 	return slot1
 end
 
-function slot0.getAttireFrame(slot0, slot1, slot2)
+slot0.getAttireFrame = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot1 == AttireConst.TYPE_ICON_FRAME then
@@ -141,7 +141,7 @@ function slot0.getAttireFrame(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.addAttireFrame(slot0, slot1)
+slot0.addAttireFrame = function(slot0, slot1)
 	slot3 = slot0:getAttireFrame(slot1:getType(), slot1.id)
 
 	if slot1:expiredType() and slot3 and not slot3:isExpired() then
@@ -158,7 +158,7 @@ function slot0.addAttireFrame(slot0, slot1)
 	slot0:sendNotification(uv0.ATTIREFRAME_ADDED, slot1:clone())
 end
 
-function slot0.updateAttireFrame(slot0, slot1)
+slot0.updateAttireFrame = function(slot0, slot1)
 	if slot1:getType() == AttireConst.TYPE_ICON_FRAME then
 		assert(slot0.data.iconFrames[slot1.id])
 
@@ -172,14 +172,14 @@ function slot0.updateAttireFrame(slot0, slot1)
 	slot0:sendNotification(uv0.ATTIREFRAME_UPDATED, slot1:clone())
 end
 
-function slot0.addExpiredTimer(slot0, slot1)
+slot0.addExpiredTimer = function(slot0, slot1)
 	slot0:removeExpiredTimer(slot1)
 
 	if not slot1:expiredType() then
 		return
 	end
 
-	function slot2()
+	slot2 = function()
 		if getProxy(PlayerProxy):getData():getAttireByType(uv0:getType()) == uv0.id then
 			slot1:updateAttireFrame(slot2, 0)
 			slot0:updatePlayer(slot1)
@@ -202,7 +202,7 @@ function slot0.addExpiredTimer(slot0, slot1)
 	end
 end
 
-function slot0.removeExpiredTimer(slot0, slot1)
+slot0.removeExpiredTimer = function(slot0, slot1)
 	if slot0.timers[slot1:getTimerKey()] then
 		slot0.timers[slot2]:Stop()
 
@@ -210,7 +210,7 @@ function slot0.removeExpiredTimer(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end
@@ -218,11 +218,11 @@ function slot0.remove(slot0)
 	slot0.timers = {}
 end
 
-function slot0.needTip(slot0)
+slot0.needTip = function(slot0)
 	slot1 = {}
 	slot2 = slot0:getDataAndTrophys()
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		slot1 = false
 
 		for slot5, slot6 in pairs(slot0) do
@@ -251,7 +251,7 @@ function slot0.needTip(slot0)
 	return slot1
 end
 
-function slot0.IsShowRedDot(slot0)
+slot0.IsShowRedDot = function(slot0)
 	return _.any(slot0:needTip(), function (slot0)
 		return slot0 == true
 	end)

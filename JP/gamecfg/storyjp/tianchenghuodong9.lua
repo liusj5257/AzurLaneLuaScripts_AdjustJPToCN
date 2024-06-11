@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "battle-boss-tiancheng",
 			dir = -1,
 			say = "玉は包むように寄せよ……もう逃げ場はありませんよ",
+			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "いつの間にか包囲されていたとは…お前はやはり戦力を隠していたな",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "「兵は詭道なり」――演習の開始前から用意していた策です",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "くっ…！まさかここまでとは……",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "こうして戦っている間にもかかわらず冷静に戦術を調整し、指揮までこなす……",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "ふふふ…ではこれからは「天城さん」とでも呼んでいただきましょうか？",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,8 +170,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "今日が演習ではなく実戦なら…加賀？あなたはもしかしたら……",
 			typewriter = {
 				speed = 0.05,

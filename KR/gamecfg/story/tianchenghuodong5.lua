@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG5",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 304050,
 			nameColor = "#92fc63",
 			side = 0,
-			bgm = "battle-boss-tiancheng",
 			dir = -1,
 			say = "후후후후……당신이 공격 부대를 이끄는 거군요? 나카. ",
+			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "기운 넘치는 것 같아 다행입니다. 나카는 이런 연습 훈련은 처음인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "후후후, 열심히 하시는 건 좋지만, 여긴 전장이라는 걸 잊으면 안 된답니다.",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 302140,
 			dir = 1,
+			actor = 302140,
 			say = "물론이죠! 아무리 아마기씨라 해도 쉽게 지나가게 놔두진 않을 겁니다!",
 			typewriter = {
 				speed = 0.05,

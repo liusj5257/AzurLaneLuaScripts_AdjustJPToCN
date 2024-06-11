@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"싸워라! 로열 메이드대\n\n<size=45>연습전 종료</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "합동 연습이 무사히 종료되고, 모두 모항에 돌아갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#92fc63",
 			say = "역시 주인님의 함대네요. 저희 로열 메이드단의 패배입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "뭐 어때! 지긴 했지만 로열 메이드대의 실력을 모항의 모두에게 보여줬으니…",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "뭐 어때! 지긴 했지만 로열 메이드대의 실력을 모항의 모두에게 보여줬으니…",
+			actor = 205010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#92fc63",
 			say = "송구스럽습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "뉴캐슬은 몸을 돌려 메이드대쪽으로 향했다.",
 			typewriter = {
 				speed = 0.05,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
+			say = "잘 됐어~",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "잘 됐어~",
+			actor = 202110,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -305,8 +305,8 @@ return {
 			expression = 9,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#92fc63",
 			say = "그치만 이제 농땡이 부리긴 더 어려워지겠네요…우으……",
 			typewriter = {

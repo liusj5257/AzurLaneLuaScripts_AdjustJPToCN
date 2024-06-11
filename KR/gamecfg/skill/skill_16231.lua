@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160401
 				}
@@ -15,10 +15,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160402
 				}
@@ -28,10 +28,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160403
 				}
@@ -41,10 +41,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160404
 				}
@@ -54,10 +54,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160405
 				}
@@ -67,10 +67,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160406
 				}
@@ -80,10 +80,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160407
 				}
@@ -93,10 +93,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160408
 				}
@@ -106,10 +106,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160409
 				}
@@ -119,10 +119,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 160410
 				}
@@ -132,11 +132,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "1",
+	desc = "",
 	painting = 1,
 	id = 16231,
-	picture = "1",
 	castCV = "skill",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -147,10 +147,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				weapon_id = 160401
 			}

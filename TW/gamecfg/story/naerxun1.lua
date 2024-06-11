@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"無法坦率的心意\n\n<size=45>一  對你很期待哦！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·碼頭",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·碼頭",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,13 +98,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……哎？！",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "因為沉浸在永無止境的文書工作中，沒有注意到已經走到身邊的納爾遜。",
 			typewriter = {
 				speed = 0.05,
@@ -205,9 +205,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "感覺她似乎不太愉快…是不是把積壓的工作往後推一推，先聽聽她的匯報比較好…？",
 			typewriter = {
 				speed = 0.05,
@@ -251,9 +251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "就算她這麼說…這工作量怎麼看也不像做到晚上就能完成的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "就這樣，晚上我會再來的。",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "納爾遜砰地一聲關上指揮室的大門離開了。",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 slot0 = class("CatteryAnimCard", import("..CatterySettlementCard"))
 slot1 = 1
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.emptyTF = findTF(slot0._tf, "empty")
 	slot0.commanderTF = findTF(slot0._tf, "commander")
@@ -15,13 +15,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.additionY = slot0.addition.localPosition.y
 end
 
-function slot0.UpdateCommander(slot0)
+slot0.UpdateCommander = function(slot0)
 	uv0.super.UpdateCommander(slot0)
 
 	slot0.additionTxt.text = slot0.exp .. "<size=40>EXP</size>"
 end
 
-function slot0.Action(slot0, slot1)
+slot0.Action = function(slot0, slot1)
 	setActive(slot0.addition, false)
 
 	if not slot0.commander or slot0.exp <= 0 then
@@ -39,7 +39,7 @@ function slot0.Action(slot0, slot1)
 	parallelAsync(slot2, slot1)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	uv0.super.Clear(slot0)
 
 	if LeanTween.isTweening(go(slot0.addition)) then
@@ -47,7 +47,7 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.LoadCommander(slot0, slot1)
+slot0.LoadCommander = function(slot0, slot1)
 	slot0:ReturnCommander()
 
 	slot0.painting = slot1:getPainting()
@@ -55,7 +55,7 @@ function slot0.LoadCommander(slot0, slot1)
 	setCommanderPaintingPrefab(slot0.char, slot0.painting, "result1")
 end
 
-function slot0.AdditionAnim(slot0, slot1, slot2)
+slot0.AdditionAnim = function(slot0, slot1, slot2)
 	setActive(slot0.addition, true)
 
 	slot3 = slot0.additionY
@@ -72,7 +72,7 @@ function slot0.AdditionAnim(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.GetColor(slot0)
+slot0.GetColor = function(slot0)
 	return "#ffffff"
 end
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Light Up My Day\n\n<size=45>6 Sunlit Backstory</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_twilight",
-			say = "Marblehead and I continued our stroll around the port until we noticed the sun had begun to set. We made way to higher ground to watch it.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "Marblehead and I continued our stroll around the port until we noticed the sun had begun to set. We made way to higher ground to watch it.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -86,8 +86,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "...My eyes are up here, y'know. Or are you just curious 'bout this photo?",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "The photograph attached to her uniform by a clip had caught my eye. She took it off and showed it to me.",
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "This is me. Used to be me, anyway. I was a lame, nerdy girl who stuffed her head with useless knowledge, like that pink noise stuff. Kinda just slipped out of me.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Anyway, I'm happy with the way I am now. I don't wanna go back to the old me, not at all.",
 			typewriter = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "I mean, like, old me wouldn't have the courage to go on a date with you! Not in a million years!",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "Then, she flashed a smile at me. The cutest smile I'd ever seen, enhanced by the glow of the setting sun.",
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Listen, Commander, I'd be happy to hang out with you anytime you've got too much work on your plate and need a break.",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "She extended her pinky towards me. I obliged and hooked mine around hers.",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "Today was a boatload of fun! Let's do it again sometime! Now, if you don't mind, I've gotta head off and complete some missions.",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "Looking forward to hanging out with you again soon, Commander! Buh-bye for now!",
 			typewriter = {
 				speed = 0.05,

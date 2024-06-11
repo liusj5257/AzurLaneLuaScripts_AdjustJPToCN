@@ -7,12 +7,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-1",
-			actor = 1007,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			bgm = "qe-ova-1",
+			tbActor = true,
+			actor = 1007,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "犯人はもう分かりました",
 			typewriter = {
@@ -20,17 +20,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "テレビの前に座っているTBは瞬きせずに、自信たっぷりに自分の推理を聞かせてくれた。",
@@ -64,10 +64,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "分析を…犯人には…があり、それで…",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "まだドラマのストーリーに夢中なTBは、自分の見解をぶつぶつと述べている。",
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "確かによくできた分析だが……",
@@ -113,10 +113,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "宿題はエンディングを見届けてからやります。今は肝心な資料分析の最中ですから",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "……宿題をサボるのも成長には必要…か？",

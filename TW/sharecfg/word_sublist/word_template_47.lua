@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_47 = {}
 slot1 = slot0.word_template_47
 
-function temp()
+temp = function()
 	uv0["尖"] = {
 		["阁"] = {
 			["列"] = {
@@ -24,7 +24,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["军"] = {
 		["车"] = {
 			["进"] = {
@@ -155,7 +155,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["出"] = {
 		["卖"] = {
 			["中"] = {
@@ -2150,7 +2150,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["发"] = {
 		["改"] = {
 			["委"] = {

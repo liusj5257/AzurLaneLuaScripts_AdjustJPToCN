@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "BEILIWANSHENGJIE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"搗蛋萬聖夜！\n\n<size=45>二 好奇的魔女</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 101271,
 			nameColor = "#a9f548",
 			say = "要是幽靈小姐找不到家的話，那就太可憐了…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,15 +69,15 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "嗯…話是這麼說，但是幽靈小姐究竟會在哪裡呢？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "而且幽靈是會飛的吧，兔兔星人可不會飛……",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "（倉庫？幽靈？難道說……）",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "兔美，兔吉，我們去這邊！",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -233,14 +233,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 101271,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "不過，“三位善良的魔女”…貝利算一個的話，還有兩個是指誰呢……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "啊！發現新的魔女了～",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -319,16 +319,16 @@ return {
 			}
 		},
 		{
-			side = 0,
 			stopbgm = true,
-			actorName = "???",
-			nameColor = "#a9f548",
+			side = 0,
 			dir = 1,
 			blackBg = true,
+			actorName = "???",
+			nameColor = "#a9f548",
 			say = "扮演幾個人說話還是有點累的呢……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,

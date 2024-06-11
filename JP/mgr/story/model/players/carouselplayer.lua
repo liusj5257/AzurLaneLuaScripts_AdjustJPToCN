@@ -1,15 +1,15 @@
 slot0 = class("CarouselPlayer", import(".StoryPlayer"))
 
-function slot0.OnReset(slot0, slot1, slot2, slot3)
+slot0.OnReset = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.actorPanel, false)
 	slot3()
 end
 
-function slot0.OnEnter(slot0, slot1, slot2, slot3)
+slot0.OnEnter = function(slot0, slot1, slot2, slot3)
 	slot0:StartAnimtion(slot1, slot3)
 end
 
-function slot0.StartAnimtion(slot0, slot1, slot2)
+slot0.StartAnimtion = function(slot0, slot1, slot2)
 	slot3 = slot1:GetBgs()
 
 	assert(slot3)
@@ -29,12 +29,12 @@ function slot0.StartAnimtion(slot0, slot1, slot2)
 	seriesAsync(slot4, slot2)
 end
 
-function slot0.RegisetEvent(slot0, slot1)
+slot0.RegisetEvent = function(slot0, slot1)
 	uv0.super.RegisetEvent(slot0, slot1)
 	triggerButton(slot0._go)
 end
 
-function slot0.ReplaceBg(slot0, slot1, slot2, slot3)
+slot0.ReplaceBg = function(slot0, slot1, slot2, slot3)
 	slot0.bgImage.sprite = slot0:GetBg(slot1)
 
 	slot0:DelayCall(slot2, slot3)

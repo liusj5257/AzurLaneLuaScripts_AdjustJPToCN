@@ -4,16 +4,21 @@ slot0.Packer = singletonClass("Packer")
 slot1 = slot0.Packer
 slot1.ps = nil
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	slot0._protocols = {}
 	uv0.ps = PackStream.New()
+	slot0.defaultBuffSize = 8192
 end
 
-function slot1.Pack(slot0, slot1, slot2, slot3)
-	slot4 = slot3:SerializeToString()
+slot1.Pack = function(slot0, slot1, slot2, slot3)
 	slot5 = ""
+	slot6 = slot0.ps
 
-	if slot0.ps.Length ~= 0 then
+	if #slot3:SerializeToString() > slot0.defaultBuffSize - 7 then
+		slot6 = PackStream.New(#slot4 + 7)
+	end
+
+	if slot6.Length ~= 0 then
 		print("### pack string error !!!!!!!!!!!")
 	end
 
@@ -31,7 +36,7 @@ function slot1.Pack(slot0, slot1, slot2, slot3)
 	return slot6:ToArray()
 end
 
-function slot1.Unpack(slot0, slot1, slot2)
+slot1.Unpack = function(slot0, slot1, slot2)
 	if uv0.GetInstance():GetProtocolWithName("sc_" .. slot1) ~= nil then
 		slot4 = slot3._object[slot3._name]()
 
@@ -41,7 +46,7 @@ function slot1.Unpack(slot0, slot1, slot2)
 	end
 end
 
-function slot1.GetProtocolWithName(slot0, slot1)
+slot1.GetProtocolWithName = function(slot0, slot1)
 	if slot0._protocols[slot1] ~= nil then
 		return slot0._protocols[slot1]
 	end

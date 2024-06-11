@@ -1,7 +1,7 @@
 slot0 = class("SailBoatBullet")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._tf = slot1
 	slot0._eventCall = slot2
@@ -10,11 +10,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._weaponData = nil
 end
 
-function slot0.setData(slot0, slot1)
+slot0.setData = function(slot0, slot1)
 	slot0._data = slot1
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0._removeFlag = false
 
 	slot0:setSprite(uv0.GetBulletSprite(slot0._data.image))
@@ -41,11 +41,11 @@ function slot0.start(slot0)
 	end
 end
 
-function slot0.getWorld(slot0)
+slot0.getWorld = function(slot0)
 	return slot0._tf.position
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot2 = slot0._tf.anchoredPosition
 	slot2.x = slot2.x + slot0._move.x * slot1 * slot0._speed
 	slot2.y = slot2.y + slot0._move.y * slot1 * slot0._speed
@@ -68,22 +68,22 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.getDamage(slot0)
+slot0.getDamage = function(slot0)
 	return {
 		num = slot0._weaponData.damage,
 		position = slot0._tf.position
 	}
 end
 
-function slot0.setMove(slot0, slot1)
+slot0.setMove = function(slot0, slot1)
 	slot0._move = slot1
 end
 
-function slot0.setPosition(slot0, slot1)
+slot0.setPosition = function(slot0, slot1)
 	slot0._tf.anchoredPosition = slot1
 end
 
-function slot0.hit(slot0)
+slot0.hit = function(slot0)
 	if slot0:getConfig("hit_effect") then
 		slot0._eventCall(SailBoatGameEvent.CREATE_EFFECT, {
 			effect = slot0:getConfig("hit_effect"),
@@ -95,11 +95,11 @@ function slot0.hit(slot0)
 	slot0._removeFlag = true
 end
 
-function slot0.setHitGroup(slot0, slot1)
+slot0.setHitGroup = function(slot0, slot1)
 	slot0._hitGroup = slot1
 end
 
-function slot0.getHitGroup(slot0)
+slot0.getHitGroup = function(slot0)
 	if not slot0._hitGroup then
 		slot0._hitGroup = {}
 	end
@@ -107,62 +107,62 @@ function slot0.getHitGroup(slot0)
 	return slot0._hitGroup
 end
 
-function slot0.setSprite(slot0, slot1)
+slot0.setSprite = function(slot0, slot1)
 	slot0._img.sprite = slot1
 
 	slot0._img:SetNativeSize()
 end
 
-function slot0.getSpeed(slot0)
+slot0.getSpeed = function(slot0)
 	return slot0._speed
 end
 
-function slot0.setFireData(slot0, slot1)
+slot0.setFireData = function(slot0, slot1)
 	slot0._fireData = slot1
 end
 
-function slot0.setWeapon(slot0, slot1)
+slot0.setWeapon = function(slot0, slot1)
 	slot0._weaponData = slot1
 	slot0._speed = slot0._weaponData.speed
 	slot0._damage = slot0._weaponData.damage
 	slot0._life = slot0._weaponData.life
 end
 
-function slot0.setContent(slot0, slot1)
+slot0.setContent = function(slot0, slot1)
 	slot0._content = slot1
 
 	SetParent(slot0._tf, slot1)
 end
 
-function slot0.getId(slot0)
+slot0.getId = function(slot0)
 	return slot0._data.id
 end
 
-function slot0.setVisible(slot0, slot1)
+slot0.setVisible = function(slot0, slot1)
 	setActive(slot0._tf, slot1)
 end
 
-function slot0.setPosition(slot0, slot1)
+slot0.setPosition = function(slot0, slot1)
 	slot0._tf.anchoredPosition = slot1
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0:setVisible(false)
 end
 
-function slot0.setRemoveFlag(slot0, slot1)
+slot0.setRemoveFlag = function(slot0, slot1)
 	slot0._removeFlag = slot1
 end
 
-function slot0.getRemoveFlag(slot0)
+slot0.getRemoveFlag = function(slot0)
 	return slot0._removeFlag
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	uv0 = nil
 end
 
-function slot0.getColliderData(slot0)
+slot0.getColliderData = function(slot0)
 	slot1 = slot0._content:InverseTransformPoint(slot0._collider.bounds.min)
 
 	if not slot0._boundData then
@@ -176,7 +176,7 @@ function slot0.getColliderData(slot0)
 	return slot1, slot0._boundData
 end
 
-function slot0.checkPositionInRange(slot0, slot1)
+slot0.checkPositionInRange = function(slot0, slot1)
 	slot2 = slot0._tf.anchoredPosition
 	slot4 = math.abs(slot2.y - slot1.y)
 
@@ -187,15 +187,15 @@ function slot0.checkPositionInRange(slot0, slot1)
 	return false
 end
 
-function slot0.getPosition(slot0)
+slot0.getPosition = function(slot0)
 	return slot0._tf.anchoredPosition
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	return slot0._data[slot1]
 end
 
-function slot0.getWeaponConfig(slot0, slot1)
+slot0.getWeaponConfig = function(slot0, slot1)
 	return slot0._weaponData[slot1]
 end
 

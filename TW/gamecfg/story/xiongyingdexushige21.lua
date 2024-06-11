@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIONGYINGDEXUSHIGE21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIONGYINGDEXUSHIGE21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_roma_7",
-			stopbgm = true,
-			soundeffect = "event:/battle/boom2",
-			bgm = "story-roma-inside",
 			nameColor = "#A9F548FF",
+			bgm = "story-roma-inside",
+			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
 			hidePaintObj = true,
+			bgName = "bg_roma_7",
 			say = "轟————————！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,9 +85,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊真是的——這些敵人怎麼打都打不完！",
 			painting = {
 				alpha = 0.3,
@@ -102,9 +102,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "尤其是天上的那些大鳥真煩！雖然沒有遠程攻擊手段，但我們也沒有艦載機去處理！",
 			painting = {
 				alpha = 0.3,
@@ -119,9 +119,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "戰況不妙……這麼下去不是辦法，立刻尋找撤退路線！",
 			painting = {
 				alpha = 0.3,
@@ -136,9 +136,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "西邊的那個島怎麼樣？周圍沒看到敵人，地表還被密林覆蓋。",
 			painting = {
 				alpha = 0.3,
@@ -153,9 +153,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "只要能逃上去的話，幽靈艦隊和幽靈鳥都拿我們沒辦法了。",
 			painting = {
 				alpha = 0.3,
@@ -170,9 +170,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那個位置……很不錯！不過我們得先突出眼前的重圍才行！",
 			painting = {
 				alpha = 0.3,
@@ -187,9 +187,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "要逃跑的話，拉出足夠的煙霧就行吧？就交給我吧——",
 			painting = {
 				alpha = 0.3,
@@ -204,9 +204,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "接招————！",
 			painting = {
 				alpha = 0.3,
@@ -221,14 +221,14 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "達·文西浮出水面，向前方的水面拋出了某個物體。",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -286,9 +286,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就是現在，大家停止開火，抓緊時間退了！",
 			painting = {
 				alpha = 0.3,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "藉由煙霧的掩護，眾人順利逃入了島上的密林中。",
 			effects = {
 				{
@@ -321,17 +321,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -358,9 +358,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呼……好險。這下總算安全了。",
 			painting = {
 				alpha = 0.3,
@@ -375,9 +375,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "達·文西，妳剛才丟出去的是什麼東西啊？",
 			painting = {
 				alpha = 0.3,
@@ -392,9 +392,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "怎麼突然變成那麼誇張的大機器了！然後呼啦，整片海域就都被煙霧填滿了！",
 			painting = {
 				alpha = 0.3,
@@ -409,9 +409,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "簡直就像什麼魔法道具……",
 			painting = {
 				alpha = 0.3,
@@ -426,9 +426,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這個……我也不清楚。原本我準備的只是一個能發射煙霧的誘餌而已。",
 			painting = {
 				alpha = 0.3,
@@ -443,9 +443,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過…………我好像有了一個想法，如果能驗證的話……",
 			painting = {
 				alpha = 0.3,
@@ -476,9 +476,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳們快站到我的身後來！如果我的猜想是正確的話……",
 			painting = {
 				alpha = 0.3,
@@ -493,10 +493,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "接下來就要有有趣的事發生了————",
 			painting = {
 				alpha = 0.3,

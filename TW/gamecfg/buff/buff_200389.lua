@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023北联SP 剧情战1 取消黑雾",
 	time = 5,
-	color = "blue",
+	name = "2023北联SP 剧情战1 取消黑雾",
+	init_effect = "",
+	id = 200389,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200389,
+	color = "blue",
 	icon = 200389,
 	last_effect = "",
 	effect_list = {

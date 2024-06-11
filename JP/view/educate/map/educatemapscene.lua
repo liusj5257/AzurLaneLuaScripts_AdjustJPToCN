@@ -1,10 +1,10 @@
 slot0 = class("EducateMapScene", import("..base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateMapUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	if getProxy(EducateProxy):NeedRequestOptsData() then
 		pg.m02:sendNotification(GAME.EDUCATE_REQUEST_OPTION, {
 			callback = slot1
@@ -14,18 +14,18 @@ function slot0.preload(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.config = pg.child_site
 	slot0.siteIdList = getProxy(EducateProxy):GetShowSiteIds()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.topTF = slot0:findTF("ui/top")
 	slot0.homeBtn = slot0:findTF("ui/home_btn/home_btn")
 
@@ -73,13 +73,13 @@ function slot0.findUI(slot0)
 	slot0.detailPanel:Load()
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.homeBtn, function ()
 		uv0:emit(EducateBaseUI.EDUCATE_CHANGE_SCENE, SCENE.EDUCATE)
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:OverlayPanel(slot0.topTF, {
@@ -104,7 +104,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.playAnim(slot0)
+slot0.playAnim = function(slot0)
 	slot1 = slot0.siteUIList
 
 	slot1:each(function (slot0, slot1)
@@ -136,7 +136,7 @@ function slot0.playAnim(slot0)
 	end)
 end
 
-function slot0.CheckTips(slot0, slot1)
+slot0.CheckTips = function(slot0, slot1)
 	slot2 = {}
 
 	if #EducateTipHelper.GetSiteUnlockTipIds() > 0 then
@@ -148,7 +148,7 @@ function slot0.CheckTips(slot0, slot1)
 	end
 end
 
-function slot0.updateSiteItem(slot0, slot1, slot2)
+slot0.updateSiteItem = function(slot0, slot1, slot2)
 	slot3 = slot0.config[slot0.siteIdList[slot1 + 1]]
 	slot2.name = slot3.id
 
@@ -170,7 +170,7 @@ function slot0.updateSiteItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.clearNewTip(slot0, slot1)
+slot0.clearNewTip = function(slot0, slot1)
 	eachChild(slot0.mapContent, function (slot0)
 		if tonumber(slot0.name) == uv0 then
 			setActive(uv1:findTF("new", slot0), false)
@@ -178,44 +178,44 @@ function slot0.clearNewTip(slot0, slot1)
 	end)
 end
 
-function slot0.updateRes(slot0)
+slot0.updateRes = function(slot0)
 	slot0.resPanel:Flush()
 end
 
-function slot0.updateAttrs(slot0)
+slot0.updateAttrs = function(slot0)
 	slot0.archivePanel:Flush()
 end
 
-function slot0.updateTime(slot0)
+slot0.updateTime = function(slot0)
 	slot0.siteUIList:align(#slot0.siteIdList)
 	slot0.datePanel:Flush()
 end
 
-function slot0.updateTarget(slot0)
+slot0.updateTarget = function(slot0)
 	slot0.targetPanel:Flush()
 end
 
-function slot0.updateTimeWeekDay(slot0, slot1)
+slot0.updateTimeWeekDay = function(slot0, slot1)
 	slot0.datePanel:UpdateWeekDay(slot1)
 end
 
-function slot0.MoveTargetPanelLeft(slot0)
+slot0.MoveTargetPanelLeft = function(slot0)
 	slot0.targetPanel:SetPosLeft()
 end
 
-function slot0.MoveTargetPanelRight(slot0)
+slot0.MoveTargetPanelRight = function(slot0)
 	slot0.targetPanel:SetPosRight()
 end
 
-function slot0.ShowSpecEvent(slot0, slot1, slot2, slot3, slot4)
+slot0.ShowSpecEvent = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.detailPanel:showSpecEvent(slot1, slot2, slot3, slot4)
 end
 
-function slot0.ShowSitePerform(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.ShowSitePerform = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.detailPanel:showSitePerform(slot1, slot2, slot3, slot4, slot5)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.detailPanel:isShowing() then
 		slot0.detailPanel:onClose()
 	else
@@ -223,7 +223,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topTF, slot0:findTF("ui"))
 	slot0.datePanel:Destroy()
 

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_36 = {}
 slot1 = slot0.word_template_36
 
-function temp()
+temp = function()
 	uv0["裏"] = {
 		["ビ"] = {
 			["デ"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["陵"] = {
 		["辱"] = {
 			this = true
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["露"] = {
 		["出"] = {
 			this = true,
@@ -112,7 +112,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["老"] = {
 		["害"] = {
 			this = true
@@ -550,7 +550,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["六"] = {
 		["合"] = {
 			["彩"] = {
@@ -1565,7 +1565,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["倭"] = {
 		["人"] = {
 			this = true
@@ -1581,7 +1581,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["和"] = {
 		["平"] = {
 			["演"] = {

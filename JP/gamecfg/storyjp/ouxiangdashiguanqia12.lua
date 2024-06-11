@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Appeal",
 			say = "母港・ライブ海域中央ステージ",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Appeal",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -48,8 +48,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			say = "皆の分の「ニセモノ」が出揃っているようだ。どうやら向こうにも「決着」の用意ができているようだな",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			say = "なんだか奇妙な感覚ね……まるで鏡に向かってリハーサルをしているみたいだわ",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700010,
 			dir = 1,
+			actor = 10700010,
 			say = "「ニセモノ」の見た目が私たちとそっくりだからかなぁ……？",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			say = "雰囲気もなんとなーく似てるよね！",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			say = "でも本物じゃないのははっきり分かるよ……よく分かんないこの感じ！",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700030,
 			dir = 1,
+			actor = 10700030,
 			say = "気にしている場合じゃないわ。私たちはステージに集中するわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			say = "伊織ちゃんの言う通りね。私たちは私たちで――",
 			typewriter = {
 				speed = 0.05,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -237,9 +237,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "エネルギー反応が増大しているにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,8 +264,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "嫌な予感…シェフィ、この反応ってもしかして…",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700050,
 			dir = 1,
+			actor = 10700050,
 			say = "つまり私たちがこの世界にやってきた日と同じ状況になりそうってこと？",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			say = "そうとしか言いようがないわね。ジャベリンたち護衛の艦船に、このステージのある艦に集合するように連絡しなさい",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			say = "大丈夫ですか？護衛の方は量産艦を引きつける任務があるのでは…",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 108050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "全力を出すときにはぜーんぶの戦力を出したいからね",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

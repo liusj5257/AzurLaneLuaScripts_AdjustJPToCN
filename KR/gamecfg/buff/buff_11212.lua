@@ -1,12 +1,12 @@
 return {
-	time = 10,
 	name = "歼灭模式",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 11212,
+	time = 10,
 	picture = "",
 	desc = "提高属性",
 	stack = 1,
-	id = 11212,
+	color = "red",
 	icon = 11210,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 20000
+				number = 20000,
+				attr = "loadSpeed"
 			}
 		}
 	}

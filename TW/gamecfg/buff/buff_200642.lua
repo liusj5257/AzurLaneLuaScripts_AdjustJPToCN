@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023海盗活动 EX逃课机制",
 	time = 4,
+	name = "2023海盗活动 EX逃课机制",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -54,8 +54,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 1,
-				skill_id = 200642
+				skill_id = 200642,
+				time = 1
 			}
 		},
 		{
@@ -65,8 +65,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 3.5,
-				skill_id = 200643
+				skill_id = 200643,
+				time = 3.5
 			}
 		}
 	}

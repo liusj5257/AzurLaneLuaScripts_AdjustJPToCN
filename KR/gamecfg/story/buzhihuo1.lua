@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"만능 점원 시라누이\n\n<size=45>냉정한 시라누이</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "시라누이를 비서함으로 임명하고 나서부터, 멘탈이 점점 강해지는 것 같은 느낌이 든다.",
 			typewriter = {
 				speed = 0.05,
@@ -120,13 +120,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "……등등, 그녀의 포커페이스에 휘말려, 정말이지 그녀와 같은 공기를 숨 쉬고 있는 것만으로 죄를 지은 것 같은 기분이 되어버린다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "집무실에서뿐만 아니라, 가게에서도 말이다……",
 			typewriter = {
 				speed = 0.05,
@@ -157,13 +157,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "모항 - 보급 상점",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#92fc63",
 			say = "지휘관님, 열 번 찍어 안 넘어가는 나무는 없는 법이지요. 자, 자신을 믿고 마음껏 꿈을 쫓아주시기를……",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……아니야, 이게 중점이 아니지.",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "아무리 \"손님은 왕이다\" 라는 말이 있지만, 적어도 이 가게엔 그런 게 없는 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "설마 그녀는 표정이 하나밖에 없는 걸까?",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "아니, 그것보다 애초에 왜 시라누이가 가게를 하게 된 거지……?",
 			typewriter = {
 				speed = 0.05,

@@ -1,11 +1,11 @@
 slot0 = class("GuildMissionInfoPage", import(".GuildEventBasePage"))
 slot1 = 10001
 
-function slot0.AttrCnt2Desc(slot0, slot1)
+slot0.AttrCnt2Desc = function(slot0, slot1)
 	return i18n("guild_event_info_desc1", pg.attribute_info_by_type[slot0].condition, slot1.total, slot1.goal <= slot1.value and COLOR_GREEN or COLOR_RED, slot1.value, slot1.goal)
 end
 
-function slot0.AttrAcc2Desc(slot0, slot1)
+slot0.AttrAcc2Desc = function(slot0, slot1)
 	assert(pg.attribute_info_by_type[slot0], slot0)
 
 	slot3 = nil
@@ -21,11 +21,11 @@ function slot0.AttrAcc2Desc(slot0, slot1)
 	return i18n("guild_event_info_desc2", slot2.condition, slot3, slot1.value, slot1.goal)
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildMissionInfoPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("top/close")
 	slot0.sea = slot0:findTF("sea"):GetComponent(typeof(RawImage))
 	slot0.titleTxt = slot0:findTF("top/title/Text"):GetComponent(typeof(Text))
@@ -51,7 +51,7 @@ function slot0.OnLoaded(slot0)
 	slot0.nameTF = slot0:findTF("resources/name")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0.contextData.mission = nil
 
@@ -87,17 +87,17 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnRefreshMission(slot0, slot1)
+slot0.OnRefreshMission = function(slot0, slot1)
 	slot0:Flush(slot1)
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 	slot0:Flush(slot0.extraData.mission)
 	slot0:EnterFormation()
 	slot0:AddOtherShipMoveTimer()
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.mission = slot1
 
 	slot0:InitBattleSea()
@@ -105,13 +105,13 @@ function slot0.Flush(slot0, slot1)
 	slot0:AddRefreshProgressTimer()
 end
 
-function slot0.EnterFormation(slot0)
+slot0.EnterFormation = function(slot0)
 	if slot0.contextData.missionShips then
 		triggerButton(slot0.formationBtn)
 	end
 end
 
-function slot0.InitView(slot0)
+slot0.InitView = function(slot0)
 	slot1 = slot0.mission
 	slot0.titleTxt.text = slot1:GetName()
 	slot0.peopleCnt.text = slot1:GetJoinMemberCnt() .. "/" .. slot0.guild.memberCount .. i18n("guild_word_people")
@@ -129,14 +129,14 @@ function slot0.InitView(slot0)
 	slot0:UpdateFormationBtn()
 end
 
-function slot0.UpdateFormationBtn(slot0)
+slot0.UpdateFormationBtn = function(slot0)
 	slot2 = slot0.mission:CanFormation()
 
 	setActive(slot0.formationBtn, slot2)
 	setActive(slot0.doingBtn, not slot2)
 end
 
-function slot0.GetBattleTarget(slot0)
+slot0.GetBattleTarget = function(slot0)
 	slot2 = slot0:GetAttrAcc()
 	slot3 = {}
 
@@ -151,7 +151,7 @@ function slot0.GetBattleTarget(slot0)
 	return slot3
 end
 
-function slot0.UpdateNodes(slot0)
+slot0.UpdateNodes = function(slot0)
 	slot0.nodes = {}
 	slot1 = slot0.mission
 	slot2 = slot1:GetNodes()
@@ -181,7 +181,7 @@ function slot0.UpdateNodes(slot0)
 	setSlider(slot0.progress, 0, 100, slot3 * 100)
 end
 
-function slot0.InitBattleSea(slot0)
+slot0.InitBattleSea = function(slot0)
 	if slot0.loading then
 		return
 	end
@@ -238,8 +238,8 @@ function slot0.InitBattleSea(slot0)
 	end)
 end
 
-function slot0.AddOtherShipMoveTimer(slot0)
-	function slot1(slot0)
+slot0.AddOtherShipMoveTimer = function(slot0)
+	slot1 = function(slot0)
 		slot1 = {}
 
 		if #uv0.mission:GetOtherShips() == 0 then
@@ -276,8 +276,8 @@ function slot0.AddOtherShipMoveTimer(slot0)
 	end)()
 end
 
-function slot0.CheckNodesState(slot0)
-	function slot1(slot0)
+slot0.CheckNodesState = function(slot0)
+	slot1 = function(slot0)
 		if slot0:IsItemType() then
 			uv0.battleView:PlayItemAnim()
 		elseif slot0:IsBattleType() then
@@ -291,7 +291,7 @@ function slot0.CheckNodesState(slot0)
 	end
 end
 
-function slot0.AddRefreshProgressTimer(slot0)
+slot0.AddRefreshProgressTimer = function(slot0)
 	slot0:RemoveCdTimer()
 	slot0:RemoveRefreshTimer()
 
@@ -329,7 +329,7 @@ function slot0.AddRefreshProgressTimer(slot0)
 	setActive(slot0.timeTxt.gameObject.transform.parent, slot3)
 end
 
-function slot0.RemoveCdTimer(slot0)
+slot0.RemoveCdTimer = function(slot0)
 	if slot0.cdTimer then
 		slot0.cdTimer:Stop()
 
@@ -337,7 +337,7 @@ function slot0.RemoveCdTimer(slot0)
 	end
 end
 
-function slot0.ShowOrHideLogPanel(slot0, slot1, slot2)
+slot0.ShowOrHideLogPanel = function(slot0, slot1, slot2)
 	slot2 = slot2 or 0.3
 
 	if LeanTween.isTweening(slot0.logPanel) then
@@ -364,7 +364,7 @@ function slot0.ShowOrHideLogPanel(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InitLogs(slot0)
+slot0.InitLogs = function(slot0)
 	slot0.logList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2, uv0[slot1 + 1])
@@ -373,7 +373,7 @@ function slot0.InitLogs(slot0)
 	slot0.logList:align(#slot0.mission:GetLogs())
 end
 
-function slot0.RemoveRefreshTimer(slot0)
+slot0.RemoveRefreshTimer = function(slot0)
 	if slot0.refreshTimer then
 		slot0.refreshTimer:Stop()
 
@@ -381,7 +381,7 @@ function slot0.RemoveRefreshTimer(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:ShowOrHideLogPanel(false, 0)
 	uv0.super.Hide(slot0)
 

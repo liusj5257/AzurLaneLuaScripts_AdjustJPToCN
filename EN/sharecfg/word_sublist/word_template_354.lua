@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_354 = {}
 slot1 = slot0.word_template_354
 
-function temp()
+temp = function()
 	uv0["抓"] = {
 		["捕"] = {
 			["访"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["专"] = {
 		["访"] = {
 			["赵"] = {
@@ -609,7 +609,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["砖"] = {
 		["衡"] = {
 			["扒"] = {
@@ -623,7 +623,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["颛"] = {
 		this = {
 			this = true
@@ -633,7 +633,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["顓"] = {
 		this = {
 			this = true
@@ -643,7 +643,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["转"] = {
 		["发"] = {
 			["给"] = {
@@ -745,7 +745,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赚"] = {
 		["钱"] = {
 			["网"] = {

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "시나노와의 대화를 통해서 그녀가 아무것도 모른 채 세이렌의 실험에 말려들었다는 것을 알 수 있었다.",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
+			hidePaintObj = true,
+			say = "시나노와의 대화를 통해서 그녀가 아무것도 모른 채 세이렌의 실험에 말려들었다는 것을 알 수 있었다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -25,9 +25,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -73,10 +73,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "에?! 사쿠라 엠파이어에도 야구가 유행하고 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "멋지다... 기회가 된다면 사쿠라 엠파이어에서 시합을 해보는 것도 좋겠어~!",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그럼 시나노도 야구할 줄 알아?",
 			typewriter = {
 				speed = 0.05,
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "신분이라니... 사쿠라 엠파이어는 이상한 것에 얽매인단 말이야... 스포츠는 신분이나 국경을 초월한다고!",
 			typewriter = {
 				speed = 0.05,
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "정답~! 에? 우리 어디서 만난 적 있었나?",
 			typewriter = {
 				speed = 0.05,
@@ -256,10 +256,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아까부터 느끼는 건데, 너랑 대화하는 거 조금 힘들어...",
 			typewriter = {
 				speed = 0.05,
@@ -293,10 +293,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "......오히려 더 심해졌어?!",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -335,16 +335,16 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_1100",
 			dir = 1,
+			bgName = "star_level_bg_1100",
 			bgm = "xinnong-3",
 			actor = 307040,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			say = "...죄송합니다, 연락이 늦었습니다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -372,10 +372,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "탄환 교체를 미처 끝내기도 전에... 항공 함대가 교체 작업을 하고 있던 중에 이글 유니온의 공습을 받았습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -390,10 +390,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "아카기님, 카가님, 그리고 소류 언니가 다쳤지만 저는 싸울 수 있습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -408,10 +408,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "명령을 내려주십시오. 이 히류 혼자서 이글 유니온 함대에 반격을 하겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -426,10 +426,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "큰일이다... 이렇게 되면 요크타운이...!",
 			typewriter = {
 				speed = 0.05,
@@ -444,10 +444,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "반격은 안 돼, 당장 물러나!",
 			typewriter = {
 				speed = 0.05,
@@ -462,10 +462,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "대체 왜입니까?! 이해할 수 없습니다. 합리적인 이유를 설명해 주십시오.",
 			typewriter = {
 				speed = 0.05,
@@ -480,10 +480,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그, 그러니까... 윽... 지금 물러나야... 만... (지휘관, 도와줘 >_<!)",
 			typewriter = {
 				speed = 0.05,
@@ -528,10 +528,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "...우리의 작전이 실패했다는 것을 인정하고 도망치라는 말입니까?!",
 			typewriter = {
 				speed = 0.05,
@@ -546,10 +546,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "이글 유니온의 함재기도 큰 피해를 입었습니다! 지금 습격하면 분명히 성과를 거둘 수 있습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -579,10 +579,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "지금 상태로 퇴각하는 것이야말로 돌이킬 수 없는 일입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -597,10 +597,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "그렇다면... 사쿠라 엠파이어의 해군은 전 세계의 웃음거리가 됩니다!",
 			typewriter = {
 				speed = 0.05,
@@ -634,10 +634,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "왜?! 이럴 때야말로 과감하게 퇴각해서 힘을 보존하는 것이 최선의 선택이야. 설마 모르는 거야?!",
 			typewriter = {
 				speed = 0.05,
@@ -649,8 +649,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -788,11 +788,11 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
 			bgmDelay = 0.5,
 			bgm = "Beverly_short_inst",
+			mode = 1,
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -846,9 +846,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
+			oldPhoto = true,
+			mode = 1,
 			fontsize = 34,
 			flashout = {
 				dur = 0.5,
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
+			oldPhoto = true,
+			mode = 1,
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -933,15 +933,15 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			hidePaintObj = true,
 			say = "………………",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {

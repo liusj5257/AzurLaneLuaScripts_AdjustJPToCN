@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "red",
+	id = 15201,
+	time = 0,
 	picture = "",
 	desc = "点燃抗性处理",
 	stack = 1,
-	id = 15201,
+	color = "red",
 	icon = 15200,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 1500
+				number = 1500,
+				attr = "igniteReduce"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteShorten",
-				number = 3
+				number = 3,
+				attr = "igniteShorten"
 			}
 		}
 	}

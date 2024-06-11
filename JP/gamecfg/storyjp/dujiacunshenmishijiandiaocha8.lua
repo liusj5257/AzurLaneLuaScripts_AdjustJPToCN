@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			actorName = "劇のナレーション",
-			stopbgm = true,
 			bgm = "cw-story",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			hidePaintObj = true,
 			say = "「炎夏燦々、空は晴れ、金烏高し……」",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,10 +43,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 101490,
 			actorName = "謎の声A",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ナレーション担当が変わった？！",
 			typewriter = {
 				speed = 0.05,
@@ -57,10 +57,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301890,
 			actorName = "謎の声B",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "主役も変わったわ。えへへ、今回の主人公は指揮官っぽいね～。今度は初月たちが見る番",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 501020,
 			actorName = "謎の声C",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃああまり大きな声を出さないほうがいいよね！",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 307080,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「……では、続けよう……」",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「林間の路を進む軍勢。その将たる指揮官は駕籠（かご）の中で英気を養っており……」",
 			typewriter = {
@@ -111,28 +111,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――ここは…駕籠の中？もしかしたら今回の演目はセンゴクもの…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,10 +143,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「正しく…指揮官は今、豪華な駕籠の中…数え切れぬ骨董珍品に囲まれて……」",
 			typewriter = {
@@ -194,10 +194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "足の速い側近",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほ、報告申し上げます！前線の戦いは順調に推移しています！",
 			typewriter = {
 				speed = 0.05,
@@ -234,10 +234,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301900,
 			actorName = "意気揚々とした側近",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "むしろ敵はこれで降参しないどころか抵抗してくるとは――分からせる必要があるのじゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "足の速い側近",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我が軍がここを通ると知って、自ら酒と食料を用意して軍を労いに来たようです！",
 			typewriter = {
 				speed = 0.05,
@@ -288,10 +288,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301900,
 			actorName = "意気揚々とした側近",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "時勢の分かる農民じゃのう。主殿、ここは一度休憩を入れてはどうじゃ？",
 			typewriter = {
 				speed = 0.05,
@@ -302,10 +302,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301820,
 			actorName = "優雅な側近",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうですね…もうだいぶ熱いですし、ここは村人の方々のご厚意に甘えて少し休憩しましょう？",
 			typewriter = {
 				speed = 0.05,
@@ -316,10 +316,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301820,
 			actorName = "優雅な側近",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "場所は…うん。山の麓にある平地でいかがですか？広くはないですが本陣を置くには十分だと思います。",
 			typewriter = {
 				speed = 0.05,
@@ -352,11 +352,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "劇のナレーション",
 			optionFlag = 1,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「大軍は本陣を設置し、村人から送られてきた美酒と美味しい料理を頬張り、気を緩めた……」",
 			typewriter = {
@@ -394,11 +394,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "劇のナレーション",
 			optionFlag = 2,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「大軍は本陣を設置し、村人から送られてきた美酒と美味しい料理を頬張り、気を緩めた……」",
 			typewriter = {
@@ -433,27 +433,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_111",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_111",
 			say = "次の瞬間、舞台は巨大駕籠が巨大陣屋になった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			say = "眼の前には美味しそうな料理の数々。そして周りを見渡すと、刀剣・書物・家宝…ペット？が置かれている。",
@@ -538,10 +538,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 107030,
 			actorName = "魅力的な踊り子",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一理あるね！じゃあ親方様はわたしたちに何をするのかしらね♥…ん？",
 			typewriter = {
 				speed = 0.05,
@@ -552,10 +552,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 107030,
 			actorName = "魅力的な踊り子",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なんでさっきからそっちばかり見てるの！ほら、わたし脚本では「魅力的な踊り子」になっているよ！",
 			typewriter = {
 				speed = 0.05,
@@ -590,13 +590,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
+			soundeffect = "event:/ui/dalei",
 			bgm = "musashi-2",
+			actor = 307080,
 			actorName = "劇のナレーション",
 			paintingNoise = true,
-			soundeffect = "event:/ui/dalei",
-			actor = 307080,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「ふと、和気あいあいとした雰囲気が雷によって中断され……」",
 			typewriter = {
@@ -604,17 +604,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -647,10 +647,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_508",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「しばらくして、本陣は大雨に覆われた……」",
 			typewriter = {
@@ -722,10 +722,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "足の速い側近",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いやあ、さっきまであんなに晴れていたのに、こんなに急な雨に降られてはさすがに不幸ですなー",
 			typewriter = {
 				speed = 0.05,
@@ -796,11 +796,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "劇のナレーション",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「降りしきる雨の中、騎兵の軍勢は山頂で攻撃陣形を整えていた……」",
 			typewriter = {
@@ -808,17 +808,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -928,28 +928,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -970,11 +970,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "劇のナレーション",
 			optionFlag = 1,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「設定とはいえ演出に不備があり…お詫び申す……」",
 			typewriter = {
@@ -986,10 +986,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			actorName = "劇のナレーション",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「そういう説もあると、聞き及んでおる……」",
 			typewriter = {
@@ -1001,10 +1001,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「こほん。急いで準備したせいで、騎兵の装備は不揃い……」",
 			typewriter = {
@@ -1016,10 +1016,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 307080,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「されど主命を果たそうと、尽きぬ闘志を有する猛者ばかり……」",
 			typewriter = {
 				speed = 0.05,
@@ -1030,10 +1030,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛らしい御館様",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ダンナさまが下で待っているよぉ～♪",
 			typewriter = {
 				speed = 0.05,
@@ -1044,10 +1044,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛らしい御館様",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "全軍気をつけー！戦闘じゅんび！",
 			typewriter = {
 				speed = 0.05,
@@ -1058,10 +1058,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛らしい御館様",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "目標は―――ダンナさまただ一人～！！",
 			typewriter = {
 				speed = 0.05,
@@ -1069,11 +1069,11 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――大雨で近くの軍が支援に駆けつけられそうにない……",
 			effects = {
 				{
@@ -1086,17 +1086,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1116,8 +1116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "すでに陣屋の外から掛け声が聞こえている。",
@@ -1127,8 +1127,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "…陣屋の帳が開けられ、敵の主君がドドドっと中に走ってきた！",
@@ -1153,10 +1153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛らしい御館様",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だ・ん・な・さ・まーー！もう逃げられないよーー！",
 			typewriter = {
 				speed = 0.05,
@@ -1167,10 +1167,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛らしい御館様",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ダンナさまああああ！！",
 			typewriter = {
 				speed = 0.05,
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "にゃーっと叫びながら、敵の主君は武器も持たずに飛びかかってきて…？！",
@@ -1191,11 +1191,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actorName = "劇のナレーション",
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			bgm = "cw-story",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「戦が終わり、平和が取り戻された」",
 			typewriter = {
@@ -1203,17 +1203,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1223,11 +1223,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "劇のナレーション",
 			blackBg = true,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「一座の演目、これにて終わり申す――」",
 			typewriter = {
@@ -1255,12 +1255,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "苦労絶えない高飛車",
 			dir = 1,
 			blackBg = true,
+			actor = 102160,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もう終わったのにいつまでべったりくっつけるのよ…",
 			painting = {
@@ -1292,12 +1292,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "苦労絶えない高飛車",
 			dir = 1,
 			blackBg = true,
+			actor = 102160,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "最初からいたわよ！",
 			painting = {

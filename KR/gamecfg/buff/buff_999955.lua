@@ -1,11 +1,11 @@
 return {
-	time = 0,
-	name = "增援1",
 	init_effect = "",
+	name = "增援1",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999955,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {}
 }

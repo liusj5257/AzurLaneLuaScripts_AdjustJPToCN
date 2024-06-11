@@ -1,15 +1,15 @@
 slot0 = class("WorldMediaCollectionRecordLayer", import(".WorldMediaCollectionTemplateLayer"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionRecordUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0._top = slot0:findTF("Top")
 	slot0.memoryMask = slot0:findTF("StoryMask", slot0._top)
 end
 
-function slot0.OnSelected(slot0)
+slot0.OnSelected = function(slot0)
 	uv0.super.OnSelected(slot0)
 
 	if slot0.contextData.recordGroup then
@@ -19,7 +19,7 @@ function slot0.OnSelected(slot0)
 	end
 end
 
-function slot0.Backward(slot0)
+slot0.Backward = function(slot0)
 	if not slot0.contextData.recordGroup then
 		return
 	end
@@ -31,27 +31,27 @@ function slot0.Backward(slot0)
 	return true
 end
 
-function slot0.OnBackward(slot0)
+slot0.OnBackward = function(slot0)
 	return slot0:Backward()
 end
 
-function slot0.OnReselected(slot0)
+slot0.OnReselected = function(slot0)
 	slot0:Backward()
 end
 
-function slot0.OnDeselected(slot0)
+slot0.OnDeselected = function(slot0)
 	slot0.contextData.recordGroup = nil
 
 	uv0.super.OnDeselected(slot0)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:HideDetailLayer()
 	slot0:HideGroupLayer()
 	uv0.super.Hide(slot0)
 end
 
-function slot0.GetDetailLayer(slot0)
+slot0.GetDetailLayer = function(slot0)
 	if not slot0.detailUI then
 		slot0.detailUI = WorldMediaCollectionRecordDetailLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
@@ -62,7 +62,7 @@ function slot0.GetDetailLayer(slot0)
 	return slot0.detailUI
 end
 
-function slot0.ShowRecordGroup(slot0, slot1)
+slot0.ShowRecordGroup = function(slot0, slot1)
 	slot2 = slot0:GetDetailLayer()
 
 	slot2.buffer:Show()
@@ -70,7 +70,7 @@ function slot0.ShowRecordGroup(slot0, slot1)
 	slot0:HideGroupLayer()
 end
 
-function slot0.HideDetailLayer(slot0)
+slot0.HideDetailLayer = function(slot0)
 	if not slot0.detailUI then
 		return
 	end
@@ -78,7 +78,7 @@ function slot0.HideDetailLayer(slot0)
 	slot0.detailUI.buffer:Hide()
 end
 
-function slot0.CloseDetailLayer(slot0)
+slot0.CloseDetailLayer = function(slot0)
 	if slot0.detailUI then
 		slot0.detailUI:Destroy()
 
@@ -86,7 +86,7 @@ function slot0.CloseDetailLayer(slot0)
 	end
 end
 
-function slot0.OpenGroupLayer(slot0)
+slot0.OpenGroupLayer = function(slot0)
 	slot1 = slot0:GetGroupLayer()
 
 	slot1.buffer:Show()
@@ -94,7 +94,7 @@ function slot0.OpenGroupLayer(slot0)
 	slot0:HideDetailLayer()
 end
 
-function slot0.GetGroupLayer(slot0)
+slot0.GetGroupLayer = function(slot0)
 	if not slot0.groupUI then
 		slot0.groupUI = WorldMediaCollectionRecordGroupLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
@@ -104,7 +104,7 @@ function slot0.GetGroupLayer(slot0)
 	return slot0.groupUI
 end
 
-function slot0.HideGroupLayer(slot0)
+slot0.HideGroupLayer = function(slot0)
 	if not slot0.groupUI then
 		return
 	end
@@ -112,7 +112,7 @@ function slot0.HideGroupLayer(slot0)
 	slot0.groupUI.buffer:Hide()
 end
 
-function slot0.CloseGroupLayer(slot0)
+slot0.CloseGroupLayer = function(slot0)
 	if slot0.groupUI then
 		slot0.groupUI:Destroy()
 
@@ -120,7 +120,7 @@ function slot0.CloseGroupLayer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:CloseDetailLayer()
 	slot0:CloseGroupLayer()
 	uv0.super.OnDestroy(slot0)

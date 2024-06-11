@@ -1,6 +1,6 @@
 slot0 = class("ChatRoomBubble", import(".ChatBubble"))
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.nameTF = findTF(slot0.tf, "desc/name"):GetComponent("Text")
 	slot0.circle = findTF(slot0.tf, "shipicon/frame")
 	slot0.face = findTF(slot0.tf, "face/content")

@@ -2,7 +2,7 @@ pg = pg or {}
 slot1 = class("ViewUtils")
 pg.ViewUtils = slot1
 
-function slot1.SetLayer(slot0, slot1)
+slot1.SetLayer = function(slot0, slot1)
 	if IsNil(go(slot0)) then
 		return
 	end
@@ -14,7 +14,7 @@ function slot1.SetLayer(slot0, slot1)
 	end
 end
 
-function slot1.SetSortingOrder(slot0, slot1)
+slot1.SetSortingOrder = function(slot0, slot1)
 	for slot6 = 0, tf(slot0):GetComponents(typeof(Renderer)).Length - 1 do
 		slot2[slot6].sortingOrder = slot1
 	end
@@ -28,7 +28,7 @@ function slot1.SetSortingOrder(slot0, slot1)
 	end
 end
 
-function slot1.AddSortingOrder(slot0, slot1)
+slot1.AddSortingOrder = function(slot0, slot1)
 	for slot6 = 0, tf(slot0):GetComponents(typeof(Renderer)).Length - 1 do
 		slot2[slot6].sortingOrder = slot2[slot6].sortingOrder + slot1
 	end

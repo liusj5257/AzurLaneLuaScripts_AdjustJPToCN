@@ -4,26 +4,26 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "Today is TB's first day of school.",
 			bgm = "qe-ova-10",
+			say = "Today is TB's first day of school.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I'll be good and listen to the teachers.",
 			voice = "event:/educate/tb/educate-tb-story-1-11",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I'll be good and listen to the teachers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -33,17 +33,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "Her use of language has improved considerably compared to what it once was.",
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "However, this fluency makes her distinctive robotic tone stand out all the more.",
@@ -97,32 +97,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hmm?",
 			voice = "event:/educate/tb/educate-tb-story-1-12",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "TB",
-			bgName = "bg_project_tb_cg7",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "What's that sound?",
-			voice = "event:/educate/tb/educate-tb-story-1-13",
+			say = "Hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,8 +115,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			side = 2,
+			bgName = "bg_project_tb_cg7",
+			dir = 1,
+			voice = "event:/educate/tb/educate-tb-story-1-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "What's that sound?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "The school bell begins to toll.",
@@ -156,14 +156,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Bye for now...",
 			voice = "event:/educate/tb/educate-tb-story-1-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Bye for now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "She mimics me and waves goodbye as well.",
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "The spring breeze is warm and scatters petals from the roadside cherry trees through the air. It almost looks like they're swirling around TB.",
@@ -208,27 +208,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_706",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_706",
 			say = "I stay and watch as she walks inside the school building and her first day begins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

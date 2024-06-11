@@ -19,7 +19,7 @@ slot1 = {
 	}
 }
 
-function slot2(slot0, slot1, slot2, slot3, slot4)
+slot2 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.PrioForbidden
 	slot6 = {}
 	slot7 = {
@@ -29,8 +29,8 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 	slot9 = {
 		[slot3.row] = {
 			[slot3.column] = {
-				enemyCount = 0,
 				priority = 0,
+				enemyCount = 0,
 				path = {}
 			}
 		}
@@ -117,7 +117,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 	return slot5, slot6
 end
 
-function slot0.StaticFind(slot0, slot1, slot2, slot3, slot4)
+slot0.StaticFind = function(slot0, slot1, slot2, slot3, slot4)
 	slot3 = {
 		row = slot3.row,
 		column = slot3.column

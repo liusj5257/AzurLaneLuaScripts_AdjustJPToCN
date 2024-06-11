@@ -3,7 +3,7 @@ slot0.GO_TASK = "VoteExchangeMediator:GO_TASK"
 slot0.SKIP_TASK = "VoteExchangeMediator:SKIP_TASK"
 slot0.SUBMIT_TASK = "VoteExchangeMediator:SUBMIT_TASK"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.GO_TASK, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
 			page = TaskScene.PAGE_TYPE_ROUTINE
@@ -19,13 +19,13 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SUBMIT_TASK_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then

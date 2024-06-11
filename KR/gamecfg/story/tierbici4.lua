@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"녹아내리는 얼음\n\n<size=45>제4장 - 출격</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모 해역",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "모 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "오늘의 순찰분대는 티르피츠에게 기함을 맡겼다.",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 401190,
+			say = "집중해! 이럴 때 적이 나타나면 어떡하려 그럽니까!",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "집중해! 이럴 때 적이 나타나면 어떡하려 그럽니까!",
+			actor = 401190,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -140,15 +140,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#92fc63",
 			say = "곧 목적지에 도착한다. 회항할 준비를 해두도록.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,10 +173,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#92fc63",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 401190,
 			actorName = "z19&z20&z21",
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			actor = 401190,
+			say = "레이더에 적 발견! 세이렌의 구축함 부대입니다!",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "레이더에 적 발견! 세이렌의 구축함 부대입니다!",
+			actor = 401190,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			bgName = "bg_story_nepu1",
 			say = "……!",
+			bgName = "bg_story_nepu1",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 401190,
+			say = "티르피츠의 지원 포격에…적 함대, 전멸…",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "티르피츠의 지원 포격에…적 함대, 전멸…",
+			actor = 401190,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -410,16 +410,16 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 405020,
+			nameColor = "#92fc63",
 			say = "(내가 대체 왜 이러는 거지…?)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

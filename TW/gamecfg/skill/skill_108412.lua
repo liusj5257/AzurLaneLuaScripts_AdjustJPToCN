@@ -6,10 +6,10 @@ return {
 	picture = "0",
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 108413
 			}

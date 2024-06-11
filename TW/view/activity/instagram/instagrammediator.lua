@@ -6,7 +6,7 @@ slot0.ON_REPLY_UPDATE = "InstagramMediator:ON_REPLY_UPDATE"
 slot0.ON_READED = "InstagramMediator:ON_READED"
 slot0.ON_COMMENT_LIST_UPDATE = "InstagramMediator:ON_COMMENT_LIST_UPDATE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	getProxy(InstagramProxy):InitLocalConfigs()
 	slot0:bind(uv0.ON_READED, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
@@ -57,16 +57,16 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetProxy(getProxy(InstagramProxy))
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.ACT_INSTAGRAM_OP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	function slot4()
+	slot4 = function()
 		uv0.viewComponent:SetProxy(getProxy(InstagramProxy))
 		uv0.viewComponent:UpdateInstagram(uv1.id)
 		uv0.viewComponent:UpdateSelectedInstagram(uv1.id)

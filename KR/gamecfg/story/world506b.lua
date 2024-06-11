@@ -1,17 +1,17 @@
 return {
-	id = "WORLD506B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD506B",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
 			say = "지휘관님… 그리고 엔터프라이즈 선배! 이런 상황에서 만나게 될 줄은 몰랐네요!",
+			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "다들 열심히 싸우고 있는데 저희 함대가 발목을 잡을 수는 없잖아요~",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "큰 도움이 됐네. 그런데 후방 함대가 왜 이곳에?",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "그렇다고 해도…. 정비함이 이렇게 전선에 접근하는 것은 너무 위험하다.",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이런 상황에서 후방 함대가 있다는 것은 정말 든든하네.",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "함대 조심해서 전진, 해역 중심에서 사라진 세이렌의 주력은 특이점에 숨어있을지도 몰라……",
 			typewriter = {
 				speed = 0.05,

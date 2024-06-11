@@ -1,15 +1,15 @@
 return {
-	id = "W2033",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2033",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Scan complete. A Siren ambush fleet has been spotted. Defeating it will lift the zone blockade.",
 			typewriter = {
 				speed = 0.05,

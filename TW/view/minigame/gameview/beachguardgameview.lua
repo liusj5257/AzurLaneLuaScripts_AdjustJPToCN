@@ -29,11 +29,11 @@ slot4 = 6000
 slot5 = "pvzminigame_help"
 slot6 = Application.targetFrameRate or 60
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BeachGuardGameUI"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initData()
 	slot0:initEvent()
 	slot0:initUI()
@@ -45,7 +45,7 @@ function slot0.didEnter(slot0)
 	slot0:PlayGuider("NG0035")
 end
 
-function slot0.PlayGuider(slot0, slot1)
+slot0.PlayGuider = function(slot0, slot1)
 	if not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
 		pg.NewGuideMgr.GetInstance():Play(slot1)
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
@@ -54,7 +54,7 @@ function slot0.PlayGuider(slot0, slot1)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	if uv0 > 60 then
 		uv0 = 60
 	end
@@ -72,7 +72,7 @@ function slot0.initData(slot0)
 	}
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	if not slot0.handle and IsUnityEditor then
 		slot0.handle = UpdateBeat:CreateListener(slot0.Update, slot0)
 
@@ -195,10 +195,10 @@ function slot0.initEvent(slot0)
 	end)
 end
 
-function slot0.onEventHandle(slot0, slot1)
+slot0.onEventHandle = function(slot0, slot1)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.sceneMask = findTF(slot0._tf, "sceneMask")
 	slot0.sceneContainer = findTF(slot0._tf, "sceneMask/sceneContainer")
 	slot0.clickMask = findTF(slot0._tf, "clickMask")
@@ -208,11 +208,11 @@ function slot0.initUI(slot0)
 	slot0.menuUI = BeachGuardMenuUI.New(slot0._tf, slot0.gameData, slot0)
 end
 
-function slot0.initController(slot0)
+slot0.initController = function(slot0)
 	slot0.sceneMgr = BeachGuardSceneMgr.New(slot0.sceneMask, slot0.gameData, slot0)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0.gameStop or slot0.settlementFlag then
 		return
 	end
@@ -222,7 +222,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	slot0.readyStartFlag = true
 
 	slot0.beachGuardUI:readyStart()
@@ -252,7 +252,7 @@ function slot0.readyStart(slot0)
 	slot0.sceneMgr:setData(slot0.runningData)
 end
 
-function slot0.getChapter(slot0)
+slot0.getChapter = function(slot0)
 	slot1 = nil
 	slot1 = (not slot0:GetMGHubData().usedtime or slot0:GetMGHubData().usedtime == 0) and 1 or slot0:GetMGHubData().count > 0 and slot0:GetMGHubData().usedtime + 1 or slot0:GetMGHubData().usedtime
 
@@ -261,7 +261,7 @@ function slot0.getChapter(slot0)
 	return slot1
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	slot0.readyStartFlag = false
 	slot0.gameStartFlag = true
 	slot0.sendSuccessFlag = false
@@ -275,14 +275,14 @@ function slot0.gameStart(slot0)
 	slot0:timerStart()
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0:gameStep()
 end
 
-function slot0.gameStep(slot0)
+slot0.gameStep = function(slot0)
 	slot0:stepRunTimeData()
 	slot0.sceneMgr:step()
 	slot0.gameUI:update(slot0.runningData)
@@ -292,25 +292,25 @@ function slot0.gameStep(slot0)
 	end
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerResume(slot0)
+slot0.timerResume = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
 end
 
-function slot0.stepRunTimeData(slot0)
+slot0.stepRunTimeData = function(slot0)
 	if Time.deltaTime > 0.016 then
 		slot1 = 0.016
 	end
@@ -320,23 +320,23 @@ function slot0.stepRunTimeData(slot0)
 	slot0.runningData.deltaTime = slot1
 end
 
-function slot0.changeRecycles(slot0, slot1)
+slot0.changeRecycles = function(slot0, slot1)
 	slot0.runningData.recycles = slot1
 
 	slot0.sceneMgr:changeRecycles(slot1)
 	slot0:runningUpdate()
 end
 
-function slot0.addScore(slot0, slot1)
+slot0.addScore = function(slot0, slot1)
 	slot0.runningData.scoreNum = slot0.runningData.scoreNum + slot1
 end
 
-function slot0.pullSceneChar(slot0, slot1)
+slot0.pullSceneChar = function(slot0, slot1)
 	table.insert(slot0.runningData.sceneChars, slot1)
 	slot0:runningUpdate()
 end
 
-function slot0.removeSceneChar(slot0, slot1)
+slot0.removeSceneChar = function(slot0, slot1)
 	for slot5 = #slot0.runningData.sceneChars, 1, -1 do
 		if slot0.runningData.sceneChars[slot5] == slot1 then
 			table.remove(slot0.runningData.sceneChars, slot5)
@@ -344,16 +344,16 @@ function slot0.removeSceneChar(slot0, slot1)
 	end
 end
 
-function slot0.goodsUpdate(slot0, slot1)
+slot0.goodsUpdate = function(slot0, slot1)
 	slot0.runningData.goodsNum = slot0.runningData.goodsNum + slot1
 
 	slot0.gameUI:updateGoods(slot1)
 end
 
-function slot0.runningUpdate(slot0)
+slot0.runningUpdate = function(slot0)
 end
 
-function slot0.onGameOver(slot0)
+slot0.onGameOver = function(slot0)
 	if slot0.settlementFlag then
 		return
 	end
@@ -374,7 +374,7 @@ function slot0.onGameOver(slot0)
 	end))
 end
 
-function slot0.OnApplicationPaused(slot0)
+slot0.OnApplicationPaused = function(slot0)
 	if not slot0.gameStartFlag then
 		return
 	end
@@ -391,25 +391,25 @@ function slot0.OnApplicationPaused(slot0)
 	slot0.beachGuardUI:popPauseUI()
 end
 
-function slot0.clearGame(slot0)
+slot0.clearGame = function(slot0)
 	slot0.sceneMgr:clear()
 end
 
-function slot0.pauseGame(slot0)
+slot0.pauseGame = function(slot0)
 	slot0.gameStop = true
 
 	slot0:changeSpeed(0)
 	slot0:timerStop()
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gameStop = false
 
 	slot0:changeSpeed(1)
 	slot0:timerStart()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.readyStartFlag then
 		return
 	end
@@ -425,10 +425,10 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.OnSendMiniGameOPDone(slot0, slot1)
+slot0.OnSendMiniGameOPDone = function(slot0, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end
@@ -448,7 +448,7 @@ function slot0.willExit(slot0)
 	BeachGuardAsset.clear()
 end
 
-function slot0.destroyController(slot0)
+slot0.destroyController = function(slot0)
 end
 
 return slot0

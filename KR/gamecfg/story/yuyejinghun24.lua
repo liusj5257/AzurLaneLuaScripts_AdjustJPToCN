@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN24",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "하이티엔",
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "하이티엔",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "너무 어두워 다가오는 상대의 정체를 식별하는 것은 불가능했지만…",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -81,9 +81,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아직 기억하지 못한 기술이 있다는 것을 떠올린 당신은 어쩌면 자신이 '은신' 전문가일지도 모른다는 생각이 들기 시작했습니다.",
 			typewriter = {
@@ -96,9 +96,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇지만 아무리 기다려 봐도 예상과는 달리 아무런 일도 일어나지 않았습니다. 네, 당신은 어둠과 하나가 될 수 있는 기술은 가지고 있지 않습니다.",
 			typewriter = {
@@ -242,9 +242,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "하이티엔",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 의기양양하게 총을 손에 들고, 빛을 향해 뛰쳐나갔습니다.",
 			typewriter = {
@@ -257,9 +257,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "위험이 곧 닥칠 것임을 알면서도, 당신은 일단 조용히 상황을 지켜보기로 했습니다.",
 			typewriter = {
@@ -272,9 +272,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만 환하게 비친 램프로 인해 금세 발각되고 말았습니다.",
 			typewriter = {
@@ -285,11 +285,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_156",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "…탐정? 여기서 뭐해?",
 			typewriter = {
@@ -297,17 +297,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "혼자 길을 잃어서 서재에 도착하지 못할까 봐 걱정된다며 작은 아가씨가 날 보냈어.",
@@ -333,9 +333,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "다시 돌아가서 램프를 들고나오느라 시간은 좀 걸렸지만…",
 			typewriter = {
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "대충 보아하니… 아가씨의 예감이 적중한 모양이네. 날 따라와. 서재는 조금만 더 가면 있어.",
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "…갑자기 왜 그렇게 쳐다봐? 내 얼굴에 뭐 이상한 거라도 묻었어?",
@@ -400,9 +400,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "…왠지 상냥해진 거 같다고?",
 			typewriter = {
@@ -415,9 +415,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "으흠… 그건… 사실 아까는 당신도 그냥 입만 산 사기꾼일 거라고 생각했거든.",
 			typewriter = {
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "그렇지만 작은 아가씨가 해준 이야기를 듣고 생각이 좀 바뀌었어.",
@@ -444,9 +444,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "아직 완전히 인정한 건 아니지만… 작은 아가씨가 당신을 믿는다면, 나도 믿어도 되겠지 싶어서.",
 			typewriter = {
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "작은 아가씨는 똑똑하니까 난 믿어! 제발… 이 사건을 해결하고 우리를 구해줘!",
@@ -483,13 +483,13 @@ return {
 			}
 		},
 		{
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "그럼, 잘 부탁해~",
 			typewriter = {
@@ -502,10 +502,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "뭐, 하긴 당신한테 이건 다 업무니까.",
 			typewriter = {
@@ -514,13 +514,13 @@ return {
 			}
 		},
 		{
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
 			optionFlag = 3,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "걱정 마. 처음 부탁한 범위를 벗어나는 업무 외 수당은 빠짐없이 지급할게.",
 			typewriter = {
@@ -561,9 +561,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "이런, 어서 도망쳐야 해. 아마 큰 아가씨 쪽 사람들일 거야. 여기서 마주치면 곤란해!",
 			typewriter = {
@@ -624,13 +624,13 @@ return {
 			}
 		},
 		{
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "잠깐! 아무리 그래도 큰 아가씨에게 총을 겨누면 어떡해!",
 			typewriter = {
@@ -643,9 +643,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "하이티엔",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "간곡한 말투였지만, 당신은 그녀의 어조에서 '살의'를 느꼈습니다.",
 			typewriter = {
@@ -791,11 +791,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "지금이야! 어서 뛰어!",
@@ -819,8 +819,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

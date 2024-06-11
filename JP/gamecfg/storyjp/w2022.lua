@@ -1,12 +1,12 @@
 return {
-	id = "W2022",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2022",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "工作艦に艦船整備をお願いすると、艦船の耐久を上限まで回復してくれるようだ。",
 			typewriter = {
 				speed = 0.05,

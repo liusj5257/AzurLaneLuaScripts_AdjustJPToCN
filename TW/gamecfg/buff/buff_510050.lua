@@ -1,12 +1,12 @@
 return {
-	time = 10,
-	name = "损管小队",
 	init_effect = "",
+	name = "损管小队",
+	time = 10,
+	picture = "",
+	desc = "损管小队",
 	stack = 1,
 	id = 510050,
-	picture = "",
 	last_effect = "",
-	desc = "损管小队",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -25,8 +25,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 510051,
-				time = 1,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 1
 			}
 		}
 	}

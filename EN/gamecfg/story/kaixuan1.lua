@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 1 - Teatime Visitor</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One afternoon at the port...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "One afternoon at the port...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Le Triomphant and I showed up to join the Royal Navy's tea time.",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "As she spoke, Le Triomphant took out a cutely-wrapped present.",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "It seems that Le Triomphant had made a good impression upon Her Majesty.",
 			typewriter = {
 				speed = 0.05,
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "If you wanted to look at it a certain way, they certainly seemed to give off the same vibe.",
 			typewriter = {
 				speed = 0.05,
@@ -202,13 +202,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "The chief maid, Belfast, was pouring tea for everyone.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -251,8 +251,8 @@ return {
 			actor = 202120,
 			side = 0,
 			bgName = "bg_story_school",
-			dir = 1,
 			say = "Yes. This particular batch was freshly picked in the spring. It's Her Majesty's favorite.",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -297,13 +297,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -343,9 +343,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Le Triomphant's eyes seemed to swim with a mix of affection and loneliness.",
 			typewriter = {
 				speed = 0.05,

@@ -5,8 +5,8 @@ return {
 	fadein = 1,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "Continuing deeper through the dark, dank cave, you come across another surprise.",
 			typewriter = {
 				speed = 0.05,
@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ayanami",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "Halt, everyone! I just heard something!",
 			typewriter = {
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "The deafening roar of an animal echoes from further in.",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Javelin",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "I-I think we've angered the cave's resident! Let's get out of here!",
 			typewriter = {

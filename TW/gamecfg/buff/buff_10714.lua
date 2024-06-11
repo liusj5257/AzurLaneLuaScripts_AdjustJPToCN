@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 500
+					number = 500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 500
+					number = 500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -28,8 +28,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.15
+					number = 0.15,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -42,8 +42,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 610
+					number = 610,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -52,8 +52,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 610
+					number = 610,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -63,8 +63,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.161
+					number = 0.161,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 720
+					number = 720,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -87,8 +87,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 720
+					number = 720,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.172
+					number = 0.172,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 830
+					number = 830,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -122,8 +122,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 830
+					number = 830,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.183
+					number = 0.183,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -147,8 +147,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 940
+					number = 940,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -157,8 +157,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 940
+					number = 940,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.194
+					number = 0.194,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -182,8 +182,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1050
+					number = 1050,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -192,8 +192,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1050
+					number = 1050,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -203,8 +203,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.205
+					number = 0.205,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -217,8 +217,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1160
+					number = 1160,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1160
+					number = 1160,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -238,8 +238,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.216
+					number = 0.216,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -252,8 +252,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1270
+					number = 1270,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -262,8 +262,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1270
+					number = 1270,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -273,8 +273,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.227
+					number = 0.227,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -287,8 +287,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1380
+					number = 1380,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -297,8 +297,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1380
+					number = 1380,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -308,8 +308,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.238
+					number = 0.238,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
@@ -322,8 +322,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1500
+					number = 1500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -332,8 +332,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1500
+					number = 1500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -342,15 +342,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_2",
-					number = 0.25
+					number = 0.25,
+					attr = "damageToArmorRateEnhance_2"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "巨兽猎手",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "对中甲伤害提高",
 	stack = 1,
@@ -371,8 +371,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 500
+				number = 500,
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -381,8 +381,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 500
+				number = 500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -392,8 +392,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_2",
-				number = 0.15
+				number = 0.15,
+				attr = "damageToArmorRateEnhance_2"
 			}
 		}
 	}

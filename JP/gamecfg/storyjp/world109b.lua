@@ -1,19 +1,19 @@
 return {
-	id = "WORLD109B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD109B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/31/tb-31",
+			dir = 1,
 			bgm = "level02",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "セイレーン作戦第一段階、終了しました。前哨基地の設営が行われます",
-			voice = "event:/tb/31/tb-31",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "あとはNYシティからの輸送部隊と前哨基地設営隊を待つだけだな",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "前哨基地って一体どんなものだろう…作戦資料にも色々書いてあるけど読んでもよくわからないや",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "なんか楽しみだね",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "この前哨基地が4つの作戦海域に建設されたら、次はNA海域の中心部に攻め入る――という寸法だ。",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "そもそも、ここまで大規模な基地がなければ、セイレーンの中枢基地に攻め入る兵力を集めるのは無理という話だ。",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "さて、仲間たちと…そしてTBと次の海域に向かうとしよう。",
 			typewriter = {
 				speed = 0.05,
@@ -168,11 +168,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/52/tb-52",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "作戦、お疲れ様でした。TBより――感謝…します",
-			voice = "event:/tb/52/tb-52",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "今、TBの声が……？",
 			typewriter = {
 				speed = 0.05,

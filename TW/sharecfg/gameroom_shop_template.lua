@@ -1,17 +1,17 @@
 pg = pg or {}
 pg.gameroom_shop_template = {
 	{
-		price = 7500,
+		goods_icon = "",
 		goods_purchase_limit = 1,
-		month_re = 0,
 		type = 6,
-		goods_rarity = 5,
+		price = 7500,
 		num = 1,
-		drop_type = 7,
+		month_re = 0,
+		goods_rarity = 5,
 		goods_name = "美味的祭典？",
 		goods_type = 1,
 		id = 1,
-		goods_icon = "",
+		drop_type = 7,
 		order = 100,
 		goods = {
 			201221
@@ -44,17 +44,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 7500,
+		goods_icon = "",
 		goods_purchase_limit = 1,
-		month_re = 0,
 		type = 6,
-		goods_rarity = 5,
+		price = 7500,
 		num = 1,
-		drop_type = 7,
+		month_re = 0,
+		goods_rarity = 5,
 		goods_name = "新年的劍鬼",
 		goods_type = 1,
 		id = 2,
-		goods_icon = "",
+		drop_type = 7,
 		order = 100,
 		goods = {
 			302081
@@ -87,17 +87,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱",
 		goods_type = 1,
 		id = 3,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30302
@@ -130,17 +130,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(春節)",
 		goods_type = 1,
 		id = 4,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30304
@@ -173,17 +173,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(開學季)",
 		goods_type = 1,
 		id = 5,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30305
@@ -216,17 +216,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(夏末)",
 		goods_type = 1,
 		id = 6,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30307
@@ -259,17 +259,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(小豬)",
 		goods_type = 1,
 		id = 7,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30310
@@ -302,17 +302,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(皇家)",
 		goods_type = 1,
 		id = 8,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30311
@@ -345,17 +345,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(薩丁)",
 		goods_type = 1,
 		id = 9,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30314
@@ -388,17 +388,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(激奏)",
 		goods_type = 1,
 		id = 10,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30315
@@ -431,17 +431,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(北聯)",
 		goods_type = 1,
 		id = 11,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30317
@@ -474,17 +474,17 @@ pg.gameroom_shop_template = {
 		}
 	},
 	{
-		price = 1200,
+		goods_icon = "",
 		goods_purchase_limit = 10,
-		month_re = 0,
 		type = 2,
-		goods_rarity = 4,
+		price = 1200,
 		num = 1,
-		drop_type = 2,
+		month_re = 0,
+		goods_rarity = 4,
 		goods_name = "外觀裝備箱(白鷹)",
 		goods_type = 1,
 		id = 12,
-		goods_icon = "",
+		drop_type = 2,
 		order = 1000,
 		goods = {
 			30318

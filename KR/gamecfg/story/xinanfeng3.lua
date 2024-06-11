@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINANFENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XINANFENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리베치오, 전속 전진!\n\n<size=45>3. 성장형 비서함</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -27,8 +27,8 @@ return {
 			hidePaintObj = true,
 			say = "지휘관, 오늘의 차 마셔봐!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,10 +56,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이번엔 리베치오가 시간이랑 온도에 잘 주의했어. 분명 문제 없을 거야!",
 			painting = {
 				alpha = 0.3,
@@ -83,10 +83,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어때, 지휘관?",
 			painting = {
 				alpha = 0.3,
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그리고 여기 서류 정리 끝냈어. 이것도 살펴봐줘, 지휘관!",
 			painting = {
 				alpha = 0.3,
@@ -242,10 +242,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "에헤헤헤, 지휘관한테 칭찬받았다~",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하지만 그렇다고 득의양양하게 굴지는 않을 거야!",
 			painting = {
 				alpha = 0.3,
@@ -287,10 +287,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그건…… 듣고 웃으면 안돼!",
 			painting = {
 				alpha = 0.3,
@@ -305,10 +305,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사실…… 그날 이후로, 마에스트라레 언니한테 끌려가서 비서함 능력 특훈을 했거든……",
 			painting = {
 				alpha = 0.3,

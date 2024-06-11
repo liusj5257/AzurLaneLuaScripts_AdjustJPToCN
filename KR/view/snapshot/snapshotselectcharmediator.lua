@@ -1,7 +1,7 @@
 slot0 = class("SnapshotSelectCharMediator", import("..base.ContextMediator"))
 slot0.SELECT_CHAR = "SnapshotSelectCharMediator.SELECT_CHAR"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(CollectionProxy)
 	slot2 = slot0.viewComponent
 

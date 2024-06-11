@@ -1,18 +1,18 @@
 return {
-	id = "SHENGYONGQU30-2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU30-2",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 999010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = ".........",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "That took long enough. How is our vanguard fleet doing?",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "There's no point thinking about it. We can only hope that they will bring Algérie back.",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "Combat operations suspended...",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio Message",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "*beep* *beep*",
@@ -126,8 +126,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "I'm sorry, Richelieu, but we're under attack by submarines!",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "Their torpedoes are so fast that they're hardly even leaving behind a wake...! We won't be able to catch up to Algérie at this rate!",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "I'm sorry... if only I had more power...!",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "You said that the Crimson Axis wouldn't be sending reinforcements. That seems to be a lie.",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Vanguard fleet, please retreat immediately.",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "Understood....",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 5,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "Message for Richelieu, Cardinal of Iris Libre.",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "...an elegant spy?",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "\"Jean Bart has recovered. Algérie and the others will be safely sent home. The rest is up to you, my wise sister.\"",
 			typewriter = {
 				speed = 0.05,
@@ -330,9 +330,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "*sigh*...",
 			dialogShake = {
 				speed = 0.09,
@@ -351,9 +351,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Gascogne, why did you get in our way?",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "Mission priorities. Protecting Algérie was assigned a higher priority than the delivery of this message.",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = ".........",
 			dialogShake = {
 				speed = 0.09,
@@ -460,8 +460,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "No, the situation hasn't changed. If Jean Bart is with the Iron Blood, then Algérie and the others are...!",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -506,9 +506,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Gascogne! Tell me! Jean Bart... When is Jean Bart going to return to the Vichya?!",
 			typewriter = {
 				speed = 0.05,
@@ -520,8 +520,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "As if she couldn't understand the purpose of the question, the expressionless girl tilted her head slightly before darting away from the battlefield.",
 			typewriter = {
 				speed = 0.05,
@@ -561,8 +561,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "I suppose so... Everyone, let's head home.",
 			typewriter = {
 				speed = 0.05,
@@ -622,8 +622,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "I have no idea.",
 			typewriter = {
 				speed = 0.05,
@@ -653,8 +653,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "She calls herself my sister ship, but we don't have enough information right now to ascertain her identity.",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "The only good news from this whole situation is... I know Le Terrible was involved in all of this.",
 			typewriter = {
 				speed = 0.05,
@@ -685,8 +685,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "Indeed. I still need to look into what made Algérie tap into the power of that black wisdom cube.",
 			typewriter = {
 				speed = 0.05,
@@ -716,8 +716,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "A party other than the Vichya or the Iron Blood may have loaded that black cube.",
 			typewriter = {
 				speed = 0.05,
@@ -729,8 +729,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -761,8 +761,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -777,8 +777,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -793,9 +793,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
+			dir = 1,
 			say = "The Basilica in the south was once a symbol of the Iris Orthodoxy's authority.",
 			typewriter = {
 				speed = 0.05,
@@ -807,9 +807,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
+			dir = 1,
 			say = "Now, its ivory walls are little more than blackened rubble, the songs that once regaled the heavens silenced. However, one song can still be heard from its ruins... At night, in the peaceful waters of the southern seas, it quietly tells the story of the Iris's past - and its future.",
 			typewriter = {
 				speed = 0.05,
@@ -821,9 +821,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
+			dir = 1,
 			say = "Was this a symbol of the fate of those who were born to fight, or the footsteps of a new saint about to be born atop its ruins? Perhaps none may know.",
 			typewriter = {
 				speed = 0.05,
@@ -835,8 +835,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -851,17 +851,17 @@ return {
 			}
 		},
 		{
-			actor = 900239,
 			actorName = "？？？",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900239,
 			nameColor = "#ffff4d",
 			say = "Richelieu... My sister...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

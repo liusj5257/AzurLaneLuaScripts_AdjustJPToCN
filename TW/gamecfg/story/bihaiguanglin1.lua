@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "達卡港·重櫻休息區",
 			side = 2,
 			bgName = "bg_port_dakaer",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-IJNdailymeeting",
+			hidePaintObj = true,
+			say = "達卡港·重櫻休息區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "說什麼作為天宇啟戶祭之行的回禮…呵呵呵。",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "禮尚往來倒是沒什麼問題，我對鐵血的實用化浮島基地也很有興趣。",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "問題在於現在這個時間點實在有些不巧。",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "算啦算啦~沒能率先進入核心區雖然有些可惜，不過也只是本次遠征的一個小小挫折而已。",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,8 +218,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "拒絕盟友的盛情邀約也太有失禮數了，自然是同意下來比較好~",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "這次只能換人了吧~反正只是單純的禮節性回訪而已。",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "合適是合適，就是合適的過頭了些……這種小事還不值得勞煩大和親自出馬。",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "這次遠征的諸多瑣事都是武藏在後方負責的，將她調離崗位會影響到我們的後續行動。",
 			typewriter = {
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "我、我有個建議！讓三笠大前輩去怎麼樣？！",
 			typewriter = {
 				speed = 0.05,
@@ -379,8 +379,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "……妳這句話真的動過腦子了嗎，把大前輩攪進來要做什麼？！",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "現在她身處閑職應對起來都這麼麻煩，要是給到正式職位的話……",
 			typewriter = {
@@ -442,8 +442,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "長門也不行！妳這不只是給新生重櫻聯合換個人而已嗎……",
 			typewriter = {
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "哎？！妳是怎麼知道我要推薦長門大人的？！",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,8 +485,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "妳還是暫時不要發言了比較好……",
 			typewriter = {
@@ -534,8 +534,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "信濃啊……她現在確實在本島休息，職務上也很清閒，而且……嗯，就讓信濃去吧~",
 			typewriter = {
@@ -567,8 +567,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "至於我們……呵呵~差不多也該開始下一步行動了。",
 			typewriter = {
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「在山的那邊，海的那邊，有一座龍宮城」</size>",
@@ -607,8 +607,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「……」</size>",
@@ -637,12 +637,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

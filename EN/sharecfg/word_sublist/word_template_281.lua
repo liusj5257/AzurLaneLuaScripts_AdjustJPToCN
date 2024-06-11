@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_281 = {}
 slot1 = slot0.word_template_281
 
-function temp()
+temp = function()
 	uv0["聽"] = {
 		["牌"] = {
 			["器"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["庭"] = {
 		["锋"] = {
 			["不"] = {
@@ -48,7 +48,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["停"] = {
 		["机"] = {
 			["如"] = {
@@ -80,7 +80,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["婷"] = {
 		["婷"] = {
 			["激"] = {
@@ -100,7 +100,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["挺"] = {
 		["起"] = {
 			["古"] = {
@@ -134,7 +134,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["通"] = {
 		["奸"] = {
 			this = true
@@ -350,7 +350,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["同"] = {
 		["城"] = {
 			["一"] = {

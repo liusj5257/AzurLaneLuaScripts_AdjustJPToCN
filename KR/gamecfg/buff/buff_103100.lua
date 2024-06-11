@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "双影无双",
 	init_effect = "",
+	id = 103100,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 103100,
+	color = "red",
 	icon = 103100,
 	last_effect = "",
 	effect_list = {
@@ -45,8 +45,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					-1
 				}

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Near the Siren Facility",
 			side = 2,
 			bgName = "bg_tiexuejingmian",
 			dir = 1,
 			bgm = "story-6",
+			say = "Near the Siren Facility",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Looks like the intel we got was accurate - there's hardly been a peep from the Sirens here! That \"trustworthy informant\" sure is something else!",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Naw, it's just another normal day for me! Though, I guess seeing all this is like a walk through memory lane?",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Mm, well, I guess so. Even back then, the Iron Blood was... how do I put it...",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Back when the Sirens appeared, the Iron Blood was the only one of the four major factions that just charged headlong into the unknown foe.",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "And they sustained heavy losses because of it. After that, the major factions came together and fought under the banner of the Azur Lane.",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "I suppose I don't need to speak too much about them forming the Crimson Axis and turning against us after that––",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Outside of their Reenactments, they'll still work with us to fight against the Sirens––",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "But at the same time, I can't make any sense of their decisions at all. Like, why they attacked Scapa Flow.",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "You get what I'm saying, right?",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Some of the comrades I fought with back then have retired. Others have been sunk, decommissioned, or scrapped. It seems like fewer and fewer of us remember the feeling of fighting together.",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Those who came later... Know only of a world where the Azur Lane has fractured.",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "I sometimes wonder if we're being manipulated. Can we really come together again to defeat the Sirens for good? ...Avrora?",
 			typewriter = {
@@ -390,8 +390,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "...What are you trying to imply?",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Avrora?",
 			typewriter = {
@@ -485,9 +485,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
+			dir = 1,
 			say = "For whatever reason, a huge gantry crane was sticking out of the water in the middle of the area surrounded by Siren ruins.",
 			typewriter = {
 				speed = 0.05,
@@ -502,8 +502,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "It's that ship! What in the world is it doing here?",
 			typewriter = {
@@ -519,8 +519,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "This has to be the ship that disappeared during the Polar expedition a long time ago, right?",
 			typewriter = {
@@ -568,8 +568,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Weird... It doesn't seem to have taken much damage from battle either...",
 			typewriter = {
@@ -585,8 +585,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Oh! Do you think the Sirens got their tentacles on it?",
 			typewriter = {
@@ -602,8 +602,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "That's strange, isn't it? The ship that went missing all that time ago somehow showed up again over here...",
 			typewriter = {
@@ -619,8 +619,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#a9f548",
 			say = "We can't just leave it here. There might be important data stored on its sensors and equipment.",
 			typewriter = {
@@ -636,8 +636,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "So, what's the plan?",
 			typewriter = {
@@ -685,8 +685,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Sounds good to me! We need to find out what happened during that operation!",
 			typewriter = {
@@ -702,9 +702,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
 			blackBg = true,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "All right, Mikoyan, it's time to come home!",
 			typewriter = {

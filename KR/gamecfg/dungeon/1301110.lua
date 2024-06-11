@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -75,8 +75,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13001,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -89,8 +89,8 @@ return {
 						},
 						{
 							monsterTemplateID = 13013,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-15,
 								0,
@@ -99,8 +99,8 @@ return {
 						},
 						{
 							monsterTemplateID = 13006,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -113,8 +113,8 @@ return {
 						},
 						{
 							monsterTemplateID = 13001,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -131,8 +131,8 @@ return {
 							interval = 1,
 							onceNumber = 5,
 							formation = 10006,
-							delay = 0,
 							templateID = 340010,
+							delay = 0,
 							totalNumber = 5,
 							weaponID = {
 								340008
@@ -146,8 +146,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 102,
 					conditionType = 1,
 					preWaves = {
@@ -171,8 +171,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 13002,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -185,8 +185,8 @@ return {
 						},
 						{
 							monsterTemplateID = 13047,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -201,8 +201,8 @@ return {
 						},
 						{
 							monsterTemplateID = 13002,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -219,8 +219,8 @@ return {
 							interval = 1,
 							onceNumber = 5,
 							formation = 10006,
-							delay = 0,
 							templateID = 340010,
+							delay = 0,
 							totalNumber = 5,
 							weaponID = {
 								340008
@@ -278,8 +278,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 13002,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -292,8 +292,8 @@ return {
 						},
 						{
 							monsterTemplateID = 13004,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -306,8 +306,8 @@ return {
 						},
 						{
 							monsterTemplateID = 13004,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -320,8 +320,8 @@ return {
 						},
 						{
 							monsterTemplateID = 13002,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,

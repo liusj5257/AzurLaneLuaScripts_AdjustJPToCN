@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"踊り子天使エミール\n\n<size=45>五 エミールのロマン論·上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港·執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港·執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "エミールと雑談をしている。",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "……細部に気を配ってこそ、日々の美しさを見いだせるわ。小さな美しさでも大切にすることこそ本当のロマンティックではなくて？",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "エミールは目を閉じ、何かを胸に抱きしめるポーズをした。",
 			typewriter = {
 				speed = 0.05,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "今まで知らなかった、この人ならではの美点を見いだすこと――それは凄くロマンティックだと思わない？",
 			typewriter = {
 				speed = 0.05,
@@ -210,9 +210,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ふとエミールが少し気恥ずかしそうに振り向いてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そして――",
 			typewriter = {
 				speed = 0.05,

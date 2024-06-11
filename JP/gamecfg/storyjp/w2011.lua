@@ -1,12 +1,12 @@
 return {
-	id = "W2011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦隊を2つ同時で動かす必要があるようだ。",
 			typewriter = {
 				speed = 0.05,

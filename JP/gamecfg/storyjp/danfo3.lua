@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"デンバーの母港クエスト！\n\n<size=45>三 騎士は助言が必要</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "依頼書の通りに倉庫までやってくると、そこにはオースバーンとスペンスが待っていた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "依頼書の通りに倉庫までやってくると、そこにはオースバーンとスペンスが待っていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "指揮官！それにデンバーも！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "オースバーンが持っていたカギで倉庫を開けると、中はいくつかの部品や資材が入っている袋と箱があった。",
 			typewriter = {
 				speed = 0.05,
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "何個か袋の下に虫食いの痕跡が目に入る。まだ規模は大きくないが放置しないほうが良さそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "言ってるそばから、デンバーが倉庫にある機銃の部品を手に取り、警戒態勢に入った。",
 			typewriter = {
 				speed = 0.05,
@@ -246,9 +246,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ガラリとした音とともに、デンバーが凄まじいスピードで黒光りの害虫を1匹退治した。",
 			typewriter = {
 				speed = 0.05,
@@ -292,9 +292,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "これでは埒が明かない。となれば次の手は……",
 			typewriter = {
 				speed = 0.05,
@@ -306,13 +306,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "倉庫の外に出て、目当ての「花壇」を探した。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "倉庫近くの花壇にある、白い花をデンバーに指し示す。",
 			typewriter = {
 				speed = 0.05,
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "これは…なるほど！この間コロンビアたちが言ってた、殺虫剤の効果を持つ花だ！",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -431,9 +431,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "目をキラキラしながら、デンバーは早速花を摘み、使い捨ての簡易殺虫剤の作成に着手した。",
 			typewriter = {
 				speed = 0.05,

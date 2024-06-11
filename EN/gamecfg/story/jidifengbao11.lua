@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO11",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO11",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -29,13 +29,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
+			nameColor = "#A9F548FF",
 			say = "Not long after the start of the mission, aurora spread out in the sky above the shipgirls.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,10 +56,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's daytime... There shouldn't be an aurora at this time of day, right?",
 			painting = {
 				alpha = 0.3,
@@ -74,10 +74,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Sirens' weather control device really is extraordinary...",
 			painting = {
 				alpha = 0.3,
@@ -92,10 +92,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Making an aurora would be connected to the weather control, jamming device, and magnetic fields...",
 			painting = {
 				alpha = 0.3,
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 799010,
 			dir = 1,
+			actor = 799010,
 			nameColor = "#A9F548FF",
 			say = "In that case...",
 			painting = {
@@ -127,8 +127,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "Chkalov? Do you have any ideas?",
 			painting = {
@@ -144,10 +144,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Tell me, do you know the phrase \"geomagnetic reversal?\"",
 			painting = {
 				alpha = 0.3,
@@ -162,8 +162,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "I only have cursory knowledge of it...",
 			painting = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "That would be when the northern and southern poles of a planet weaken in magnetism and ultimately reverse polarity, correct?",
 			painting = {
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "Is that related to the Sirens... and to this aurora?",
 			painting = {
@@ -213,10 +213,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's more or less right. This planet's magnetic extremity actually isn't at the Polar North. Observation has revealed that it is actually slowly moving towards it by the day.",
 			painting = {
 				alpha = 0.3,
@@ -231,10 +231,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As such, you can calculate where it is moving to an extent, allowing you to predict some things about the protons and electrons... That is, er, the aurora. Namely, you can predict where and when it will appear, along with its strength.",
 			painting = {
 				alpha = 0.3,
@@ -249,10 +249,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The problem is that it's outright impossible for an aurora to appear in this location, unless it is an illusion created by the Sirens.",
 			painting = {
 				alpha = 0.3,
@@ -267,10 +267,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Moreover, if there is a Siren base at the Polar North... Well, that's an issue.",
 			painting = {
 				alpha = 0.3,
@@ -285,10 +285,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Because if this aurora is real, it's likely that the Sirens are controlling the entire planet's magnetic field. That's what I'm getting at.",
 			painting = {
 				alpha = 0.3,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "If you'll allow me to be frank, it all sounds absurd.",
 			painting = {
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "Just checking... You didn't join the operation just to investigate this, did you?",
 			painting = {
@@ -337,10 +337,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hah! Of course not.",
 			painting = {
 				alpha = 0.3,
@@ -355,10 +355,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I don't like taking on problems until I've witnessed them with my own two eyes. It's just that seeing it for myself helped me make a hypothesis.",
 			painting = {
 				alpha = 0.3,
@@ -373,10 +373,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sorry to trouble you, Comrade Belorussiya.",
 			painting = {
 				alpha = 0.3,
@@ -391,8 +391,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "Not a problem. So? What are your thoughts now that you've entered your first official battle?",
 			painting = {
@@ -408,10 +408,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nothing has changed. It's just another battlefield where I work to earn my keep. I'd say they're all the same.",
 			painting = {
 				alpha = 0.3,
@@ -426,10 +426,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Anyway, rest assured. I'm very prepared.",
 			painting = {
 				alpha = 0.3,
@@ -443,11 +443,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_hms_8",
 			actor = 705010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Comrades, the Crown is in sight!",
 			painting = {
 				alpha = 0.3,
@@ -458,17 +458,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "In the distance stood the icy, crown-like singularity.",
 			typewriter = {
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "The countless hunks of ice floating at its tips cast shadows from beyond the clouds, making for an uncanny sight.",
 			typewriter = {
@@ -499,10 +499,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Crown... A singularity opened by Code G of the Ashes...",
 			painting = {
 				alpha = 0.3,
@@ -517,10 +517,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hearing that the Sirens had conquered it was one thing, but now that I can get such a close-up look at it...",
 			painting = {
 				alpha = 0.3,
@@ -535,10 +535,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm so curious to find out what's happened to the inside.",
 			painting = {
 				alpha = 0.3,
@@ -553,10 +553,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Would it be like the NA Ocean the Commander described, or would it connect to a different Mirror Sea like the Tower of Midgard?",
 			painting = {
 				alpha = 0.3,
@@ -571,10 +571,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If I ever get the chance, I'd die to check it out...",
 			painting = {
 				alpha = 0.3,
@@ -589,8 +589,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "Unfortunately, the dying will have to wait, Chkalov.",
 			painting = {
@@ -606,8 +606,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "While investigating the Crown is a long-term priority, our current objective is to attract Omitter's attention.",
 			painting = {
@@ -623,8 +623,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "That will mean taking the brunt of their enormous forces. We don't have the luxury of fantasizing about anything else. Comrades! Do you still believe that you can rise above this challenge?",
 			painting = {
@@ -640,10 +640,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No problems here. No matter how strong the enemy is, I will fight. And I will win.",
 			painting = {
 				alpha = 0.3,
@@ -658,10 +658,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hahahahaha! That's the spirit!",
 			painting = {
 				alpha = 0.3,
@@ -673,8 +673,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -686,10 +686,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I fought here once before the Crown opened! Of course I can win!",
 			painting = {
 				alpha = 0.3,
@@ -704,8 +704,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 799010,
 			dir = 1,
+			actor = 799010,
 			nameColor = "#A9F548FF",
 			say = "It's my first time out on the front lines, but it seems like I'm on the winning side. I'll help out where I can.",
 			painting = {
@@ -721,8 +721,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 799010,
 			dir = 1,
+			actor = 799010,
 			nameColor = "#A9F548FF",
 			say = "By the way, I am a blueprint ship, so I bet I could even throw Omitter for a loop.",
 			painting = {
@@ -738,9 +738,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "Good. Let us charge for the Crown and drag Omitter out of hiding!",
 			painting = {
@@ -753,8 +753,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

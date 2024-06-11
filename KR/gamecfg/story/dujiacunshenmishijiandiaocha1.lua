@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리조트 신비 사건 조사\n\n<size=45>여름, 온천 그리고 괴담</size>",
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "바다 괴물이랑 잊혀진 유적을 찾으러 가는 거야!",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠항함으로는 움직이기가 영 힘들다구… 유령선의 자취를 쫓는 게 더 낫겠어!",
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런 건 모항에서도 할 수 있잖아~ 모처럼 가는 바캉스니까 평소에 안 하는 걸 하고 싶어.",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "해상 기사단의 큰언니",
 			dir = 1,
+			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "바다의 기사단을 조직해서 정의의 순찰대 놀이를 하는 건?",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "하이텐션",
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그거… 바캉스 맞아…?",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "의견이 좀처럼 하나로 모이지 않아, 논의 시간이 계속 이어지고 있다.",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "하츠즈키는 서류 속에서 어떤 전단지를 꺼내 들었다.",
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "독점욕이 강한 작은 악마",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "알았어! 그전에 뭐가 적혀있는지 확인 좀…",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "어느샌가 집무실에는 정적이 감돌았고, 하츠즈키가 든 전단지에 모두의 시선이 쏠려있었다.",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일행",
+			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -466,11 +466,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "요괴를 볼 수 있다고…? 온천 리조트 찬성!",
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "하이텐션",
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "사쿠라 엠파이어의 요괴 전설이라… 재밌을 것 같네!",
@@ -531,8 +531,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -579,11 +579,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "온천이라… 묵은 피로를 씻어낼 수 있어서 좋은 제안인 것 같군….",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "하츠즈키의 이의 제기가 무색하게 모두의 의견은 온천 리조트로 모이고 있었다.",
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "그렇게 바캉스의 행선지는 가장 높은 표를 받은 온천 리조트로 결정되었다.",
@@ -638,9 +638,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

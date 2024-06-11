@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGJIE7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WANSHENGJIE7",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -31,12 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 301171,
+			say = "カボチャランタンの上に乗っていると、遠くまで眺められるんじゃな！",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:19}",
 			dir = 1,
-			say = "カボチャランタンの上に乗っていると、遠くまで眺められるんじゃな！",
+			actor = 301171,
+			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -54,8 +54,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "ううううち落ちないやろな…",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:96}",
 			dir = -1,
+			actorName = "{namecode:96}",
 			say = "大丈夫！私、グレイゴーストと結構練習したんだから！",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			actor = 301051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "翔鶴さん、衣装ありがとです。",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "吾輩からも、感謝じゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:95}",
 			dir = 1,
+			actorName = "{namecode:95}",
 			say = "あらやだ、もう気づかれちゃいました…はい、私と瑞鶴は新参ですから、ハロウィンを参加するなら何かプレゼントみたいのを用意したほうがいいと思って…みんなのおかげさまでハロウィンは盛り上がっていますし、感謝です♪",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "え！この衣装、翔鶴が作ったの？",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "あ、天ぷらも揚げたからどんどん食べて",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "ふっふん、私があんたに勝ったのを、いい加減認めたらどうだ？",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "うっ！……待ってろ、いつか絶対にギャフンと言わせてやるんだから！",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "ムカ！ついさっき賭けに負けたくせに！",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "翔鶴、吾輩の妹たちも呼んでもいいのじゃな？",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:95}",
 			dir = -1,
+			actorName = "{namecode:95}",
 			say = "もちろんです。まだまだ載せられますよ～",
 			typewriter = {
 				speed = 0.05,
@@ -303,15 +303,15 @@ return {
 			}
 		},
 		{
-			actor = 301171,
 			actorName = "{namecode:19}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301171,
+			nameColor = "#a9f548",
 			say = "南瓜の高度をちょっと下げてもらってもいいか？ぬいがそこで一人でなんかを抱えておるように見えたのじゃが……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -339,8 +339,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "南瓜の焼菓子――ぬい！おーい！",
 			typewriter = {
 				speed = 0.05,
@@ -352,12 +352,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "ね、姉ぇ！？なんで浮いていますの！？",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:20}",
 			dir = -1,
-			say = "ね、姉ぇ！？なんで浮いていますの！？",
+			actor = 301180,
+			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -375,8 +375,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "ぬいの馬鹿！浮いているのは吾輩ではなくこの南瓜じゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -391,8 +391,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "って、ぬいが抱えている焼菓子…吾輩が作ったものじゃな？",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "……ち、違います（ボソボソ",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "姉に嘘を言うでない！いち、に…吾輩が焼いたのと同じ数じゃ！なんでぬいが……げぇ！塩と砂糖を間違えたのじゃ！ほ、ほかの妹たちはまだ食べていなければいいのじゃが――ぬいももう食べるでないのじゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -439,8 +439,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "姉ぇが作ったものなら、どんな味でもみんな喜んで食べますよ……",
 			typewriter = {
 				speed = 0.05,
@@ -455,8 +455,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "だからなおさらじゃ！喜んで食べてくれるみんなを失望させられないのじゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -471,8 +471,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "姉ぇの大うつけ……",
 			typewriter = {
 				speed = 0.05,
@@ -487,8 +487,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "ぬいこそ大うつけじゃ！素直に吾輩に言えば作りなお――",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "言いましたら、姉ぇはきっみんなと遊ばずずっとこもってパイを作るでしょうに……",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "ぬいたちにいっちばん美味いのを食べてもらうためなら、たら吾輩は遊ばなくてもいいのじゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -535,8 +535,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "だから姉ぇは不知火たちの気持ちがわかりませんこと……（ボソボソ",
 			typewriter = {
 				speed = 0.05,
@@ -551,8 +551,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "……なんでいきなりに隅っこ引っ込んでおるのじゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -567,8 +567,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "パンプキンパイ、捨てるには……姉ぇだってパイを焼いた時、みなに喜んで召し上がってほしいと思っていましたのに……",
 			typewriter = {
 				speed = 0.05,
@@ -583,8 +583,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "はぁ……もうわかったのじゃ…ぬいの大馬鹿……",
 			typewriter = {
 				speed = 0.05,
@@ -599,8 +599,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:95}",
 			dir = -1,
+			actorName = "{namecode:95}",
 			say = "まあまあ、そういうのは置いといて……せっかくのハロウィンなんですから、みんなで思いっきり楽しみましょう！――南瓜艦隊、出撃しますわ！",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANHEDINGJIER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANHEDINGJIER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港着せ替え特集！その②\n\n<size=45>ハイネス・イン・ホワイト</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			live2d = "mission_complete",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
 			dir = 1,
 			bgm = "story-richang-8",
 			actor = 299033,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "mission_complete",
 			say = "♪～♪～",
 			painting = {
 				alpha = 0.3,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "朝のチェシャー♪雪のチェシャー♪ドキドキのチェシャー♪",
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ダンナさまを待っているチェシャー♪",
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_153",
 			hidePaintObj = true,
 			say = "納涼用に用意された「雪の森」の中で、変な声？を辿リ前へと進んでいく。",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_153",
 			hidePaintObj = true,
 			say = "そして林間の開けた場所で、白きプリンセスの彼女と出会った。",
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "ダンナさまはっけーん！",
@@ -112,11 +112,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "こっちよ～こっち～♪",
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もぉダンナさま歩くのちょっとおっそーい！チェシャーがそっちに行くからね～♪",
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
-			side = 2,
-			bgName = "star_level_bg_153",
 			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_153",
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "え！？お姫様？もうダンナさまったら、また上手いこと言って～",
@@ -171,17 +171,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -189,11 +189,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "えへへ…うん！チェシャーはダンナさまのお姫様だよ？",
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "こういう時は確かこう…",
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "手を差し出せば、ダンナさまがキスをして――",
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "うん！手順が固くてちょっと面倒かも！",
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "やっぱりチェシャーからダンナさまにくっついちゃおう！",
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			live2d = true,
 			withoutActorName = true,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "厚く積もった雪にも豪華なドレスにも阻まれないチェシャーがこちらの胸に飛び込んできた。",
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "ダンナさま～馬に乗ってみたくない？",
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "一緒に馬に乗って朝の森の中でお散歩～すごくすごく楽しいよ♪",
@@ -347,11 +347,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "大丈夫よ！ダンナさま！",
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
 			say = "ダンナさまが前に乗って、チェシャーが後ろからぎゅっと抱きしめれば大丈夫！",
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "鞍がないし地面も滑りやすいから危ない…？うーん言われてみれば…",
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "じゃあどうしよう…？",
@@ -419,11 +419,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "んんん～～～～～～～！",
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			live2d = true,
 			withoutActorName = true,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "いつの間にかチェシャーが後ろに回ってぎゅーーっと抱きついてきた。",
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "決めた！馬に乗らない！",
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "このままダンナさまとお散歩ぉー！",
@@ -487,11 +487,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			live2d = true,
 			withoutActorName = true,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "振り返ると、馬はすでに我関せずと野草を探しにゆっくり離れようとしている。",
@@ -501,11 +501,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			live2d = true,
 			withoutActorName = true,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あとは眩しい笑顔を見せている「お姫様」のチェシャーだが……",
@@ -515,11 +515,11 @@ return {
 			}
 		},
 		{
-			actor = 299033,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			live2d = true,
 			withoutActorName = true,
+			actor = 299033,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "抱きつかれたままで歩きづらいが、まあここは少し付き合うとしよう――",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUOYESHENGDAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUOYESHENGDAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Christmas Party!\n\n<size=45>The Hearth's Warmth</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_100",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_100",
 			bgm = "story-1",
 			actor = 302052,
 			nameColor = "#a9f548",
 			say = "So waaarm~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "Yeah, tell me about... Hey, I'm not slacking off! I was just wrapping the Christmas presents!",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "Ahaha, I was joking just now! I ate a whole lot, so I have to burn off those calories!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "You ate a whole lot... right before the party...?",
 			typewriter = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "I kinda feel bad for you, Wakaba...",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -159,8 +159,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "Seattle, did you already finish up with the presents for the Eagle Union girls?",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "Yup, all done! Agano, Kiyonami, you did a great job! Huh? Kiyonami, that outfit...",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301541,
 			dir = 1,
+			actor = 301541,
 			nameColor = "#a9f548",
 			say = "Yuugure and I picked out this outfit together. She said it \"looked very Christmassy,\" but it doesn't look weird, right?",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 302201,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302201,
+			nameColor = "#a9f548",
 			say = "Nope, it doesn't look weird at all. Hehe, that outfit makes you look like a delectable Little Red Riding Hood that any wolf would love to gobble up!",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -268,8 +268,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "Mhm, I totally get what you mean.",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "Gingerbread cookies? What about them...?",
 			typewriter = {
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "Yeah, I was worried about how to make sweets for the party, so...",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301541,
 			dir = 1,
+			actor = 301541,
 			nameColor = "#a9f548",
 			say = "I think... m-making a cookie that looks like Hoppy... would be cute...",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "I don't want to hear about gingerbread ever again...",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302201,
 			dir = 1,
+			actor = 302201,
 			nameColor = "#a9f548",
 			say = "\"Love\" is fine and all, but what you really need is something to give it a little bit of \"kick.\"",
 			typewriter = {
@@ -411,9 +411,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
 			blackBg = true,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "Right. And isn't there just the girl who would know all about that?",
 			typewriter = {

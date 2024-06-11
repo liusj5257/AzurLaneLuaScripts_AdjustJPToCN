@@ -1,7 +1,7 @@
 slot0 = class("SailBoatGameMenuUI")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	uv0 = SailBoatGameVo
 	slot0._event = slot2
@@ -90,11 +90,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.show(slot0, slot1)
+slot0.show = function(slot0, slot1)
 	setActive(slot0.menuUI, slot1)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.mgHubData = slot1
 	slot2 = slot0:getGameUsedTimes(slot1)
 	slot3 = slot0:getGameTimes(slot1)
@@ -149,7 +149,7 @@ function slot0.update(slot0, slot1)
 	scrollTo(slot0.battleScrollRect, 0, slot5)
 end
 
-function slot0.CheckGet(slot0)
+slot0.CheckGet = function(slot0)
 	setActive(findTF(slot0.menuUI, "got"), false)
 
 	if slot0:getUltimate(slot0.mgHubData) and slot2 ~= 0 then
@@ -170,15 +170,15 @@ function slot0.CheckGet(slot0)
 	end
 end
 
-function slot0.getGameTimes(slot0, slot1)
+slot0.getGameTimes = function(slot0, slot1)
 	return slot1.count
 end
 
-function slot0.getGameUsedTimes(slot0, slot1)
+slot0.getGameUsedTimes = function(slot0, slot1)
 	return slot1.usedtime
 end
 
-function slot0.getUltimate(slot0, slot1)
+slot0.getUltimate = function(slot0, slot1)
 	return slot1.ultimate
 end
 

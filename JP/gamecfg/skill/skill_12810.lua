@@ -2,28 +2,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68981
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69001
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69011
 				}
@@ -33,28 +33,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68982
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69002
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69012
 				}
@@ -64,28 +64,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68983
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69003
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69013
 				}
@@ -95,28 +95,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68984
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69004
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69014
 				}
@@ -126,28 +126,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68985
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69005
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69015
 				}
@@ -157,28 +157,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68986
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69006
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69016
 				}
@@ -188,28 +188,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68987
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69007
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69017
 				}
@@ -219,28 +219,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68988
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69008
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69018
 				}
@@ -250,28 +250,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68989
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69009
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69019
 				}
@@ -281,28 +281,28 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 68990
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69010
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 69020
 				}
@@ -312,11 +312,11 @@ return {
 	uiEffect = "",
 	name = "骏河2-占坑",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 12810,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

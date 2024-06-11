@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"여름 바람의 십자성\n\n<size=45>제7장 - 사건 해결!</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아크 로열 씨, 죄송해유. 지가 멋대로 용의자라 의심해서……",
 			bgm = "story-1",
+			actor = 201080,
+			nameColor = "#92fc63",
+			say = "아크 로열 씨, 죄송해유. 지가 멋대로 용의자라 의심해서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201110,
+			say = "나도 처음엔 그렇게 생각했어…… 미안……",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "나도 처음엔 그렇게 생각했어…… 미안……",
+			actor = 201110,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "아아! 옷도 무사히 찾았으니 결과 올라잇! 이다! 찾느라 꽤나 돌아다닌 듯 하니, 슬슬 밥이라도 먹으러 가지 않겠나? 여기까지 왔으니 내가 한턱 내도록 하지. ",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아아! 옷도 무사히 찾았으니 결과 올라잇! 이다! 찾느라 꽤나 돌아다닌 듯 하니, 슬슬 밥이라도 먹으러 가지 않겠나? 여기까지 왔으니 내가 한턱 내도록 하지. ",
+			actor = 207020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -267,14 +267,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "모두",
 			say = "와아!",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "크헤헤, 구축함 동생들과 함께 밥을 먹을 수 있게 되었군…! (물론이지! 먼저 갈아입고 오도록!)",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "크헤헤, 구축함 동생들과 함께 밥을 먹을 수 있게 되었군…! (물론이지! 먼저 갈아입고 오도록!)",
+			actor = 207020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -321,14 +321,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "모두",
 			say = "찌릿―― (역시 이 사람, 뒤에서 뭔 짓하고 다니는 거 아닐까…)",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

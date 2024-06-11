@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏日裡的“驚喜”\n\n<size=45>七 愛斯基摩的快樂</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "在少女們的歡聲笑語中，不知不覺到太陽落山的時間了。",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "在少女們的歡聲笑語中，不知不覺到太陽落山的時間了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "不得不說，在炎熱的夏日裡創造出短暫的冬季，這個想法真的很厲害。",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "啊，玩得真開心啊~指揮官怎麼樣，玩的開心嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "我還要留在這裡處理一下收尾工作，得把泳池恢復原狀才是嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -140,13 +140,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_twilight",
+			side = 2,
+			dir = 1,
 			say = "收尾工作花費了比預想中更多的時間，愛斯基摩居然一個人就準備好了這些麼。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "喜歡的魚嗎，唔--------------",
 			typewriter = {
 				speed = 0.05,
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "......哎？為什麼突然問起這種事。",
 			typewriter = {
 				speed = 0.05,
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "今後我還打算繼續做更多能讓港區的大家都能感到快樂的事哦！",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

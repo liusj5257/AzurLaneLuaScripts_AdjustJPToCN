@@ -1,14 +1,14 @@
 slot0 = class("EducateEndingLayer", import(".EducateCollectLayerTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateEndingUI"
 end
 
-function slot0.initConfig(slot0)
+slot0.initConfig = function(slot0)
 	slot0.config = pg.child_ending
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setText(slot0:findTF("review_btn/Text", slot0.performTF), i18n("child_btn_review"))
 
 	slot0.endings = getProxy(EducateProxy):GetFinishEndings()
@@ -20,7 +20,7 @@ function slot0.didEnter(slot0)
 	slot0:updatePage()
 end
 
-function slot0.updateItem(slot0, slot1, slot2)
+slot0.updateItem = function(slot0, slot1, slot2)
 	if table.contains(slot0.endings, slot1.id) then
 		LoadImageSpriteAsync("bg/" .. slot1.pic, slot0:findTF("unlock/mask/Image", slot2))
 		setText(slot0:findTF("unlock/name", slot2), slot1.name)
@@ -36,7 +36,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	setActive(slot0:findTF("lock", slot2), not slot3)
 end
 
-function slot0.updateConditions(slot0, slot1, slot2)
+slot0.updateConditions = function(slot0, slot1, slot2)
 	slot3 = 0
 
 	for slot7 = 1, #slot1 do
@@ -57,7 +57,7 @@ function slot0.updateConditions(slot0, slot1, slot2)
 	end
 end
 
-function slot0.showPerformWindow(slot0, slot1)
+slot0.showPerformWindow = function(slot0, slot1)
 	slot2 = slot0:findTF("Image", slot0.performTF)
 
 	LoadImageSpriteAsync("bg/" .. slot1.pic, slot2)
@@ -70,12 +70,12 @@ function slot0.showPerformWindow(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.playAnimChange(slot0)
+slot0.playAnimChange = function(slot0)
 	slot0.anim:Stop()
 	slot0.anim:Play("anim_educate_ending_change")
 end
 
-function slot0.playAnimClose(slot0)
+slot0.playAnimClose = function(slot0)
 	slot0.anim:Play("anim_educate_ending_out")
 end
 

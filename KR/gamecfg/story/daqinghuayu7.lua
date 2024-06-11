@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"서브마린 트랩!\n\n<size=45>굿나잇, 그리고……굿모닝!</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "모항 - 지휘관 침실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "하루 종일 놀아서 피곤했는지, 방으로 돌아오자마자 난 침대에 쓰러졌다.",
 			typewriter = {
@@ -54,19 +54,19 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/boat_drag",
+			say = "(쿡…쿡…)",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "(쿡…쿡…)",
+			soundeffect = "event:/ui/boat_drag",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "볼을 누군가가 찌르는 듯한 느낌이 든다……",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "이 목소리는……알바코어인가.",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 108020,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "진짜 자는 거야? 혹시 자는 척하는 거 아냐?",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "……정말이지, 잠들어버린 거라면 별수 없지……",
 			typewriter = {
 				speed = 0.05,
@@ -139,12 +139,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 108020,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "……(문질문질)",
 			bgm = "story-2",
+			actor = 108020,
+			nameColor = "#92fc63",
+			say = "……(문질문질)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,10 +157,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "있잖아, 지휘관……나, 지휘관한테 하고 싶은 말이 잔뜩 있다구.",
 			typewriter = {
 				speed = 0.05,
@@ -238,10 +238,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "……아무튼 나, 함대의 모두가 너무 좋아.",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "그리고 지휘관, 늘 괴롭히기만 하지만, 사실은……",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "볼에 부드러운 감촉이 전해져왔다.",
 			typewriter = {
@@ -298,10 +298,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "그리고, 내일도 서프라이즈를 잔뜩 준비할 테니까 기대하라고~♪……왜냐면 내가 모처럼 좋은 얘길 해줬는데, 계속 자는 척이나 하고 있으니 말야!  혼좀 나야겠어~! 헤헤헤♪~",
 			typewriter = {
 				speed = 0.05,
@@ -313,15 +313,15 @@ return {
 			}
 		},
 		{
-			say = "다음 날",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1.4,
 			bgm = "story-1",
+			say = "다음 날",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#92fc63",
 			say = "지, 지지진짜로??! 지휘관이 알바코어랑 같은 방에서 하룻밤을 보냈다고?!",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "다, 당했다……",
 			typewriter = {
 				speed = 0.05,
@@ -426,9 +426,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "결국, 모두의 오해를 푸느라 오전 내내 진땀을 흘렸다.",
 			typewriter = {
 				speed = 0.05,

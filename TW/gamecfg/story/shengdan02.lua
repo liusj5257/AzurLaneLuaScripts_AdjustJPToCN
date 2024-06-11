@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN02",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN02",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -201,15 +201,15 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101051,
+			nameColor = "#a9f548",
 			say = "——",
 			flashout = {
-				black = true,
 				dur = 0.3,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -226,9 +226,9 @@ return {
 			},
 			shake = {
 				speed = 10,
-				number = 5,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 5
 			},
 			typewriter = {
 				speed = 0.05,
@@ -240,14 +240,14 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "嗯？音響好像不大對勁…欸？格里德利？怎麼突然趴下了？",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -334,14 +334,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#a9f548",
 			say = "好~拍到了張好照片呢~這張就叫做《聖誕牙哥！》吧~嘻嘻，尋找下一個聖誕目標~",
 			flashout = {
-				black = false,
 				dur = 0.3,
+				black = false,
 				alpha = {
 					0,
 					1

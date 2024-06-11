@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.05
+					number = 0.05,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.061
+					number = 0.061,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.072
+					number = 0.072,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.083
+					number = 0.083,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.094
+					number = 0.094,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.105
+					number = 0.105,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.116
+					number = 0.116,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.127
+					number = 0.127,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.138
+					number = 0.138,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.15
+					number = 0.15,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 110011,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 110011,
+	color = "red",
 	icon = 110010,
 	last_effect = "",
 	blink = {
@@ -175,8 +175,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.05
+				number = 0.05,
+				attr = "criDamage"
 			}
 		}
 	}

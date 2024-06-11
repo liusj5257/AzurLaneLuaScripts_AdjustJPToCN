@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"私の素晴らしい記憶\n\n<size=45>その五 可愛い子豚ちゃん</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "目覚めると、自室のベッドにいた。",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "目覚めると、自室のベッドにいた。",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "頭がだるい。どうやら風邪を引いたようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "エイジャックスがおでこの濡れタオルを交換し、おかゆを入れた茶碗（とスプーン）を持ってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "はい、あーんして？あーん。",
 			typewriter = {
 				speed = 0.05,
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "はい、もう一回、あーんして？",
 			typewriter = {
 				speed = 0.05,
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "早く治ってね。子豚ちゃん♡",
 			typewriter = {
 				speed = 0.05,

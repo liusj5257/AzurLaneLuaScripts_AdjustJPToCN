@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA15",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA15",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "はぁ…はぁ…やっと…倒せた…",
 			typewriter = {
@@ -115,8 +115,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "雷ちゃんは何でも知ってるね～よしよし♪",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "も～かわいいな～うりうり",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "キズナアイ",
 			dir = 1,
+			actorName = "キズナアイ",
 			say = "あっ、そうだった！よーし、みんな見ててね～！",
 			typewriter = {
 				speed = 0.05,
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "キズナアイ",
 			dir = 1,
+			actor = 10400040,
+			actorName = "キズナアイ",
 			say = "じゃじゃーん！バーチャルゲーマーキズナアイ、登場～！",
 			flashN = {
 				color = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "ふっふっふ～、みんな大船に乗ったつもりでいてくれていいよ！",
 			typewriter = {

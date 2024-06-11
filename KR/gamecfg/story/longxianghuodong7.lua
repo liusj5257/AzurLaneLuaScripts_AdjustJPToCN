@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level",
 			say = "한편, 새러토가와 엔터프라이즈는……",
+			side = 2,
+			dir = 1,
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 107030,
 			nameColor = "#92fc63",
 			side = 2,
-			say = "엔터프라이즈!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 107030,
+			say = "엔터프라이즈!",
 			flashN = {
 				color = {
 					1,
@@ -80,8 +80,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,

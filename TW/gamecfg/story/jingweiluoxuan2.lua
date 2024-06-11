@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH港·指揮室",
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "blueocean-image",
+			hidePaintObj = true,
+			say = "PH港·指揮室",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -81,10 +81,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒錯哦，很霸氣吧~！",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這個模型是我以前無聊的時候做的，就當做臨別禮物留給你好了。",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "畢竟現在的我手下可是有一整支正品的量產型艦隊呢~",
 			typewriter = {
 				speed = 0.05,
@@ -159,10 +159,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "當然在啊，直到交接之前這裡還是我的房間呢！",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "咳…真是有段時間沒見了啊，指揮官。",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "要是從並肩作戰的時間來算的話就更久了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,10 +311,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "唉…如果當時MK7完工的話我肯定直接衝到前線好好打一場了！",
 			typewriter = {
 				speed = 0.05,
@@ -329,10 +329,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "算啦~這種事硬要說成並肩作戰確實有點勉強，有機會的話真正合作一次吧~",
 			typewriter = {
 				speed = 0.05,
@@ -362,10 +362,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "比如整個太平洋的塞壬發動全線進攻之類的？",
 			typewriter = {
 				speed = 0.05,
@@ -395,10 +395,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "開玩笑啦~開玩笑！不過心情上是認真的！",
 			typewriter = {
 				speed = 0.05,
@@ -413,10 +413,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…大型作戰的時候也沒叫上我，我也想去NA海域大鬧一場啊！",
 			typewriter = {
 				speed = 0.05,
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "目前還未定，總之我要先返回NY司令部一趟。返回時間就定在今天交接完成之後。",
 			typewriter = {
 				speed = 0.05,
@@ -463,10 +463,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "對了，你剛才見到我一臉驚訝是什麼意思？！",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -503,12 +503,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "桌子下面。",
 			typewriter = {
 				speed = 0.05,
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "找東西…",
 			typewriter = {
 				speed = 0.05,
@@ -591,10 +591,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "交接紀錄本…（小聲）",
 			typewriter = {
 				speed = 0.05,
@@ -624,10 +624,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不用不用不用！就不用您費心了！您就去外面稍等一會兒，等我找到了就叫你！",
 			typewriter = {
 				speed = 0.05,
@@ -639,8 +639,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -682,10 +682,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊啊啊…（怎麼辦怎麼辦…）",
 			typewriter = {
 				speed = 0.05,
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -722,12 +722,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "打擾了。呵呵，雖然有段時間沒見，兩位的關係還是那麼要好呢。",
 			typewriter = {
 				speed = 0.05,
@@ -742,10 +742,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊！提康妳來的正好！我跟妳說——",
 			typewriter = {
 				speed = 0.05,
@@ -772,12 +772,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "原來如此。指揮官，接下來的交接儀式我已經安排在會議室了，請先和我一起過去吧，",
 			typewriter = {
 				speed = 0.05,
@@ -792,10 +792,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "紐澤西還有一些最後的收尾工作要處理，她隨後就到。",
 			typewriter = {
 				speed = 0.05,

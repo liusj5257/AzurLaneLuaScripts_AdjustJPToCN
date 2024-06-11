@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN23",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "하이티엔",
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "하이티엔",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "너무 어두워 다가오는 상대의 정체를 식별하는 것은 불가능했지만…",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -117,9 +117,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 주머니에 있는 서재 열쇠를 기억해 냈습니다. 물론, 이 방이 서재가 아니라는 것은 당신도 잘 알고 있었지요.",
 			typewriter = {
@@ -132,9 +132,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만 혹시 모르죠. 간절히 바라면 이 기묘한 성은 당신의 바람을 이뤄줄지도요.",
 			typewriter = {
@@ -147,9 +147,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇게 당신은 열쇠에 마지막 희망을 걸고 있는 힘껏 열쇠 구멍에 꽂아 넣었습니다.",
 			typewriter = {
@@ -162,9 +162,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "결과는… 아쉽게도 당신의 간절한 바람은 물리 법칙을 이길 수 없었습니다. 서재 열쇠로 다른 방문은 열 수 없었지요.",
 			typewriter = {
@@ -190,9 +190,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "고증 담당 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "셰필드",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 권총을 가지고 있다는 걸 기억해 냈습니다.",
 			typewriter = {
@@ -205,9 +205,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "고증 담당 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "셰필드",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그것도 로즈우드 그립에 모델 넘버가 M1873인… 총신에 정밀한 모양이 조각된 SAA라는 것을 말입니다.",
 			typewriter = {
@@ -220,9 +220,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "고증 담당 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "셰필드",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뛰어난 성능을 자랑하는 이 권총이라면 이런 잠금장치쯤은 손쉽게 부숴버릴 수 있겠지요.",
 			typewriter = {
@@ -235,9 +235,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "고증 담당 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "셰필드",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇지만 권총의 발포 소리가 성에 울려 퍼지면 모든 사람에게 당신의 현재 위치가 알려질 겁니다. 그래도 괜찮으신가요?",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "하이티엔",
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "하이티엔",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "문을 닫고 잠근 후, 당신은 '피난처'가 된 이 방을 찬찬히 관찰하기 시작했습니다.",
 			typewriter = {
@@ -341,17 +341,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -560,9 +560,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#FF9B93",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "D100 판정, 91… 유감입니다. 얼마 남지 않은 의지로 저항해 보려고 했지만, 허무할 정도로 너무나도 쉽게 당신의 정신은 무너지고 말았습니다.",
 			typewriter = {
@@ -575,9 +575,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#FF9B93",
-			optionFlag = 2,
 			actorName = "Z2",
+			optionFlag = 2,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "네, 당신은 흔히 말하는 반대 심리의 작용으로 자신의 의지를 무시하고 공포에 굴복하기로 합니다.",
 			typewriter = {
@@ -677,10 +677,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			nameColor = "#FF9B93",
 			actor = 9600021,
 			actorName = "상 마르티뉴",
-			nameColor = "#FF9B93",
+			hidePaintObj = true,
 			say = "그런데 성주님의 방에서 대체 무슨 짓을 하는 거지? 탐정?",
 			typewriter = {
 				speed = 0.05,
@@ -719,10 +719,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			nameColor = "#FF9B93",
 			actor = 9600021,
 			actorName = "상 마르티뉴",
-			nameColor = "#FF9B93",
+			hidePaintObj = true,
 			say = "예의 없는 손님은 이곳에서 환영받지 못해.",
 			typewriter = {
 				speed = 0.05,
@@ -757,8 +757,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -772,9 +772,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "성실한 마스터 선배",
-			nameColor = "#A9F548FF",
-			bgm = "theme-ijndailymeeting",
 			actorName = "엔터프라이즈",
+			bgm = "theme-ijndailymeeting",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "분명 상 마르티뉴가 침실 같은 사적인 공간에 들어갈 때는 방 주인의 동의를 얻어야 한다고 했을 텐데.",
 			typewriter = {

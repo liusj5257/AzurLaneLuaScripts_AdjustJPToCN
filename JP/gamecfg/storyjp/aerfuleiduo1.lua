@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AERFULEIDUO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AERFULEIDUO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港ジャーナル・THE特別号！\n\n<size=45>一 大活躍！貴方だけのジャーナリスト</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "執務室・いつもの朝",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "執務室・いつもの朝",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "まだ席にすらついていないにもかかわらず、突然最新号の『母港ジャーナル』を手渡された。",
 			typewriter = {
@@ -59,10 +59,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふっふっふー、気だるい朝に必要なのはズバリ、眠気を吹き飛ばすドでかいスクープ！頭カーンとしといたほうが仕事の効率もぐっと上がる！指揮官そう思うよね？",
 			painting = {
 				alpha = 0.3,
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "新聞を押し込んできたのは元気ハツラツなジャーナリストにして、最近秘書艦になったアルフレード・オリアーニだ。",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "普段中々手に入らないネタを手に入れられるようになるからと、秘書艦になりたいとせがんできたので、仕方なく抜擢したが……",
 			typewriter = {
@@ -107,10 +107,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さあ指揮官、早く目を通して！今回は指揮官を特集した特別号だから、絶対気に入ってもらえると思うよ？",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "…どうも嫌な予感がする。",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "「初公開！指揮官の日常動向とスケジュール」",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "「知られざる執務室の物語　真実はいつも舞台裏に？」",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "「母港の業務計画大解体！多くから慕われる我らが指揮官の日常に迫る！」",
 			typewriter = {
@@ -175,10 +175,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どうだ！『母港ジャーナル特別号――指揮官のスガオ』、なかなかいいでしょ！",
 			painting = {
 				alpha = 0.3,
@@ -193,10 +193,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふん、なんとこの特別号は発行部数の新記録を達成したんだよ！",
 			painting = {
 				alpha = 0.3,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "…………",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "頭を抱えながらも、彼女のジャーナリズム？に素直に驚いた。",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "秘書艦業務における瑣末な出来事でしかないのに、よくもまぁこのように目を引く記事にできるものだ…",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "褒めるべきか、説教すべきか…",
 			typewriter = {
@@ -251,10 +251,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ところで指揮官、記事にする上で一番難しいことは何か知ってる？",
 			painting = {
 				alpha = 0.3,
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -423,12 +423,12 @@ return {
 			}
 		},
 		{
-			actor = 601080,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ニュースなんて身近に転がっているよ！ただ、数ある出来事から特ダネを発掘するのが難しいだけで",
 			painting = {
 				alpha = 0.3,
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "身近に転がっているニュース…どうやら彼女の記事に登場するのは避けられそうにない。今のうちに慣れるしかないようだ。",
 			typewriter = {

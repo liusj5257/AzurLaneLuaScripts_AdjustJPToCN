@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Me and the Boise\n\n<size=45>2.The Rookie Secretary</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "G-good morning, Commander... I, I hope we can have a productive relationship...",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(Deep breaths, deep breaths...)",
 			typewriter = {
 				speed = 0.05,
@@ -103,15 +103,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "So these are my responsibilities as a secretary ship...? I understand.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,10 +169,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I've finished sorting through the commission-related paperwork.",
 			typewriter = {
 				speed = 0.05,
@@ -201,15 +201,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander, shouldn't we take our lunch break soon...? Can I get you something to drink...?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "An energy drink...? Um, Commander, I believe something lighter would be better...",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I, I like diving...",
 			typewriter = {
 				speed = 0.05,
@@ -284,12 +284,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But, I'm not a submarine, so I can only dive for a little bit...",
 			typewriter = {
 				speed = 0.05,
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um, how do I put this...",
 			typewriter = {
 				speed = 0.05,
@@ -342,10 +342,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Sometimes, I like the feeling of being able to drown everything out and just be by myself... Do you ever get that way, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Being surrounded by the ocean... makes me feel like time is standing still.",
 			typewriter = {
 				speed = 0.05,
@@ -392,10 +392,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Not to mention, it's also very colorful and beautiful. Coral reefs of all shapes and sizes, sea turtles and other wildlife...",
 			typewriter = {
 				speed = 0.05,
@@ -410,10 +410,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You can swim with schools of fish, or you can just immerse yourself in the beautiful scenery there... It's a really profound feeling...",
 			typewriter = {
 				speed = 0.05,

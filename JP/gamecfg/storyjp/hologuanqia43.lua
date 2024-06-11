@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA43",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA43",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
+			say = "盛り上がっているところ、申し訳ありませんが",
 			actorName = "？？？",
+			side = 2,
+			dir = 1,
 			nameColor = "#ff5c5c",
 			bgm = "holo-control",
-			dir = 1,
-			say = "盛り上がっているところ、申し訳ありませんが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "名探偵フブキ？",
 			dir = -1,
+			actorName = "名探偵フブキ？",
 			say = "ふっふっふっ、軍師であるこの名探偵フブキが、ここで皆様を足止めさせていただきます。",
 			typewriter = {
 				speed = 0.05,
@@ -55,9 +55,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "やっぱりセイレーンがコピーしたのはこのややこしいやつだね！",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "まぁ、大体そんなところですね～",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "私はいくつかアドバイスしただけで、実際にやったのは他の人ですよ",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "まさか～もう江風ちゃん、冗談がお上手～このゲームも終盤なんだから、そろそろ前に出たほうがいいと思う次第でして",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "ゲーム？",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "今までの出来事の全てです。ぼーっとしないで、ほら",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,9 +220,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "え！？これは…",
 			dialogShake = {
 				speed = 0.09,
@@ -242,8 +242,8 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "名探偵フブキ？",
 			dir = -1,
+			actorName = "名探偵フブキ？",
 			say = "艦船たちがプレイしたゲームを研究してきた、この私が作った闇のゲームです！",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "闇のゲーム…？？",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "軍師らしく頭脳勝負ですよ！さあ、あなたのデッキを選ぶのです！ホロライブレジスタンス！",
 			typewriter = {

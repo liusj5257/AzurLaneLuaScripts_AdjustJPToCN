@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.01
+					number = 0.01,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -52,8 +52,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.01
+					number = 0.01,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -63,8 +63,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -74,8 +74,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -84,8 +84,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -99,8 +99,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -110,8 +110,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -121,8 +121,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -132,8 +132,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.02
+					number = 0.02,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.02
+					number = 0.02,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -154,8 +154,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -165,8 +165,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -212,8 +212,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -223,8 +223,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.03
+					number = 0.03,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -234,8 +234,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.03
+					number = 0.03,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -245,8 +245,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -256,8 +256,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -266,8 +266,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -281,8 +281,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -292,8 +292,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -303,8 +303,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -314,8 +314,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -325,8 +325,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -336,8 +336,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -347,8 +347,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -357,8 +357,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -372,8 +372,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -383,8 +383,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -394,8 +394,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -405,8 +405,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -416,8 +416,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -427,8 +427,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -438,8 +438,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -448,8 +448,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -463,8 +463,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -474,8 +474,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -485,8 +485,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -496,8 +496,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -507,8 +507,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -518,8 +518,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -529,8 +529,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -539,8 +539,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -554,8 +554,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -565,8 +565,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -576,8 +576,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -587,8 +587,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -598,8 +598,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -609,8 +609,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -620,8 +620,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -630,8 +630,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -645,8 +645,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -656,8 +656,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -667,8 +667,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -678,8 +678,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -689,8 +689,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -700,8 +700,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -711,8 +711,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -721,8 +721,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -736,8 +736,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -747,8 +747,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -758,8 +758,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -769,8 +769,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.09
+					number = 0.09,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -780,8 +780,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.09
+					number = 0.09,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -791,8 +791,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -802,8 +802,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -812,8 +812,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -827,8 +827,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -838,8 +838,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_4",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_4"
 				}
 			},
 			{
@@ -849,8 +849,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			},
 			{
@@ -860,8 +860,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_6",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_6"
 				}
 			},
 			{
@@ -871,8 +871,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_7",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_7"
 				}
 			},
 			{
@@ -882,8 +882,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_10",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_10"
 				}
 			},
 			{
@@ -893,8 +893,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -903,20 +903,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "佐治亚1",
 	time = 0,
-	color = "yellow",
+	name = "佐治亚1",
+	init_effect = "",
+	id = 18151,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 18151,
+	color = "yellow",
 	icon = 18150,
 	last_effect = "",
 	effect_list = {}

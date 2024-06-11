@@ -1,7 +1,7 @@
 slot0 = class("SummaryPageLoading", import(".SummaryPage"))
 slot1 = 0.05
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.textContainer = findTF(slot0._go, "texts")
 	slot0.textTFs = {}
 
@@ -15,7 +15,7 @@ function slot0.OnInit(slot0)
 	setActive(slot0._go, false)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.inAniming = true
 
 	setActive(slot0._tf, true)
@@ -54,17 +54,17 @@ function slot0.Show(slot0, slot1)
 	end)
 end
 
-function slot0.Hide(slot0, slot1)
+slot0.Hide = function(slot0, slot1)
 	slot0:Clear()
 	setActive(slot0._tf, false)
 	slot1()
 end
 
-function slot0.inAnim(slot0)
+slot0.inAnim = function(slot0)
 	return slot0.inAniming
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end

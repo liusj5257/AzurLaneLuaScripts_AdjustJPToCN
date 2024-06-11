@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"여름의 \"서프라이즈\"\n\n<size=45>5. 홍보도 중요해!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·학교 광장",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·학교 광장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "완전 크고~ 완전 재미난 서프라이즈~! 모두 시간 나면 꼭 놀러와——!!!",
 			effects = {
 				{
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "이른 아침부터 광장에서 에스키모가 열심히 홍보 중이다. 원기 넘치는 목소리로 모항의 많은 사람들을 매료시켰다.",
 			effects = {
 				{
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "지휘관 좋은 아침~ 자, 내일 이벤트의 홍보 전단지~!",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "직접 그려서 전단지를 준비했네……!?",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "드디어 에스키모가 오래도록 비밀스럽게 준비한 결과를 볼 수 있는 건가------",
 			typewriter = {
 				speed = 0.05,
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "그럼 약속한 거다~!",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "이전의 예감이 정말 맞았어. 역시 재미난 일이 벌어졌어!",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "에, 수영복? 필요 없어! 오히려 옷을 두껍게 입어야 한다고!",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -406,9 +406,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "정말 전단지 뒷면에 글자가 쓰여 있었다------",
 			typewriter = {
 				speed = 0.05,
@@ -420,9 +420,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "「내일 하루 종일, 모항 실내 수영장에서 모두를 위해 특별 서프라이즈를 준비했어. 모항의 동료들을 환영해!」",
 			typewriter = {
 				speed = 0.05,
@@ -434,9 +434,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "「어느 정도 방한 대책을 세우고 와줘.」",
 			typewriter = {
 				speed = 0.05,

@@ -6,15 +6,15 @@ slot0.Battle.BattleShelterData = class("BattleShelterData")
 slot0.Battle.BattleShelterData.__name = "BattleShelterData"
 slot3 = slot0.Battle.BattleShelterData
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._id = slot1
 end
 
-function slot3.SetIFF(slot0, slot1)
+slot3.SetIFF = function(slot0, slot1)
 	slot0._IFF = slot1
 end
 
-function slot3.SetArgs(slot0, slot1, slot2, slot3, slot4, slot5)
+slot3.SetArgs = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._duration = slot2
 	slot0._bulletType = uv0.Battle.BattleConst.BulletType.CANNON
 	slot0._count = slot1
@@ -34,17 +34,17 @@ function slot3.SetArgs(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._centerPos = slot4
 end
 
-function slot3.SetStartTimeStamp(slot0, slot1)
+slot3.SetStartTimeStamp = function(slot0, slot1)
 	slot0._startTimeStamp = slot1
 end
 
-function slot3.Update(slot0, slot1)
+slot3.Update = function(slot0, slot1)
 	if slot0._duration < slot1 - slot0._startTimeStamp then
 		slot0._startTimeStamp = nil
 	end
 end
 
-function slot3.DoWhenHit(slot0, slot1)
+slot3.DoWhenHit = function(slot0, slot1)
 	if slot0._doWhenHit == "intercept" then
 		slot1:Intercepted()
 		uv0.Battle.BattleDataProxy.GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
@@ -57,26 +57,26 @@ function slot3.DoWhenHit(slot0, slot1)
 	end
 end
 
-function slot3.GetUniqueID(slot0)
+slot3.GetUniqueID = function(slot0)
 	return slot0._id
 end
 
-function slot3.GetIFF(slot0)
+slot3.GetIFF = function(slot0)
 	return slot0._IFF
 end
 
-function slot3.GetFXID(slot0)
+slot3.GetFXID = function(slot0)
 	return slot0._effect
 end
 
-function slot3.GetPosition(slot0)
+slot3.GetPosition = function(slot0)
 	return slot0._centerPos
 end
 
-function slot3.Deactive(slot0)
+slot3.Deactive = function(slot0)
 	uv0.Battle.BattleDataProxy.GetInstance():RemoveWall(slot0._wall:GetUniqueID())
 end
 
-function slot3.IsWallActive(slot0)
+slot3.IsWallActive = function(slot0)
 	return slot0._count > 0 and slot0._startTimeStamp
 end

@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -64,9 +64,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 296003,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-5,
 								0,
@@ -82,29 +82,29 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2014900
 									}
 								},
 								{
-									index = 1,
 									switchType = 2,
 									switchTo = 2,
+									index = 1,
 									switchParam = 0.5,
 									addWeapon = {
 										2011920
 									}
 								},
 								{
+									switchParam = 0.25,
+									index = 2,
 									switchType = 2,
 									switchTo = 3,
-									index = 2,
-									switchParam = 0.25,
 									story = "WNN209A",
 									removeWeapon = {
 										2030120,
@@ -119,10 +119,10 @@ return {
 									}
 								},
 								{
-									index = 3,
 									switchType = 1,
-									switchTo = 0,
 									switchParam = 900,
+									index = 3,
+									switchTo = 0,
 									removeWeapon = {
 										2030200
 									},
@@ -146,8 +146,8 @@ return {
 							interval = 10,
 							onceNumber = 6,
 							formation = 20001,
-							delay = 0,
 							templateID = 2031000,
+							delay = 0,
 							totalNumber = 120,
 							weaponID = {
 								1100759

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN28",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -41,12 +41,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "None of our detection equipment is working again... Is the Siren stealth system back online?",
 			typewriter = {
 				speed = 0.05,
@@ -61,10 +61,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "I don't think so... Let me try again!",
 			typewriter = {
@@ -80,10 +80,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "Hold on, it should still be disabled... This can only mean...",
 			typewriter = {
@@ -99,10 +99,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "This must be \"her\" doing... If that is the case, can you see her now?",
 			typewriter = {
@@ -118,10 +118,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh, I'm starting to see something over there! Wait, it's just a single ship?!",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,13 +143,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "Yes... This is the true form of the Wisdom Cube... once it has been touched by the infinite potential of the \"META\" phenomenon.",
 			typewriter = {
 				speed = 0.05,
@@ -209,10 +209,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "It is the course of nature for all Wisdom Cubes. To undergo metamorphosis, to metastasize.",
 			typewriter = {
@@ -228,10 +228,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "It is the forbidden curse that this world has sealed within them.",
 			typewriter = {
@@ -262,10 +262,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "The ones of us who fall and burn out... become Ashes.",
 			typewriter = {
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...I see. So that's what you meant earlier when you said that you weren't with the Ashes.",
 			typewriter = {
 				speed = 0.05,
@@ -298,10 +298,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "...Yes.",
 			typewriter = {
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(It makes sense now... The enemy that Baltimore and Enterprise fought also did not appear on their radars.)",
 			typewriter = {
 				speed = 0.05,
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(There was that other incident at the Diadem of Light that Commander reported... Where apparently another Ashes member attacked without anyone's notice... Is this a common power shared among them?)",
 			typewriter = {
 				speed = 0.05,
@@ -351,10 +351,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(That would also explain why \"Helena\" has the ability to dispel their disguises...)",
 			typewriter = {
 				speed = 0.05,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Why are you going out of your way to tell us all this? Are you looking for someone?",
 			typewriter = {
 				speed = 0.05,
@@ -386,10 +386,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
@@ -405,10 +405,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "I cannot answer that question yet...",
 			typewriter = {
@@ -421,12 +421,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Fine. I don't like how you're pulling us around, but it's probably not wise to get on your bad side.",
 			typewriter = {
 				speed = 0.05,
@@ -441,10 +441,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You did mention that you were loyal to the commander though. Was that just to get us to trust you?",
 			typewriter = {
 				speed = 0.05,
@@ -459,10 +459,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "...No. I am loyal to the commander. Now and forever...",
 			typewriter = {
@@ -475,12 +475,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hmm... Why don't you come with us then? If there's something bothering you, I'm sure the commander would be more than glad to help you out!",
 			typewriter = {
 				speed = 0.05,
@@ -495,10 +495,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "It's... no longer possible...",
 			typewriter = {
@@ -514,10 +514,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You've done plenty of \"impossible\" things by our standards, but THAT'S impossible?",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -539,12 +539,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But, I suppose I'll leave you to your own devices. To get outta here, we just need to defeat \"her,\" right?",
 			typewriter = {
 				speed = 0.05,
@@ -559,10 +559,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "Yes, this much I can guarantee...",
 			typewriter = {
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You'll be fighting with us, right? I'm looking forward to seeing how you stack up to our Helena here~",
 			typewriter = {
 				speed = 0.05,
@@ -595,11 +595,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			blackBg = true,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "...Very well.",
 			typewriter = {

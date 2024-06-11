@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUARICHANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUYINGYINGHUARICHANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Blessings and Tidings\n\n<size=45>Chapter 5: Happy New Year!</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_126",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_126",
 			bgm = "newyear2",
 			actor = 306071,
 			nameColor = "#a9f548",
 			say = "I'll leave the Amazake over here. Also, here are some more Hamaya arrows... All right, we're about ready over here!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 306071,
 			side = 2,
 			bgName = "star_level_bg_126",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306071,
+			nameColor = "#a9f548",
 			say = "Ah, the other camps are here. Welcome to the Sakura Empire's shrine.",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,10 +82,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_126",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I see, so this is your shrine... where you pray to the gods for peace and prosperity... A custom often seen in the East.",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "Indeed. We celebrate New Year's on the same day, but our customs are quite different.",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 306071,
 			dir = 1,
+			actor = 306071,
 			nameColor = "#a9f548",
 			say = "Lady Nagato, what brings these people here...?",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "They're simply here to learn. Ryuuhou, your contribution here has been invaluable.",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 306071,
 			dir = 1,
+			actor = 306071,
 			nameColor = "#a9f548",
 			say = "In that case, allow me to show you around. Feel free to warm yourselves by trying this Amazake, our traditional sweet sake.",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 301101,
 			dir = 1,
+			actor = 301101,
 			nameColor = "#a9f548",
 			say = "Hibiki wants some too!",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 302211,
 			dir = 1,
+			actor = 302211,
 			nameColor = "#a9f548",
 			say = "Happy New Year, everyone. Lady Nagato.",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -238,8 +238,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "Indeed. But isn't this a strange combination? Here we have girls from Iron Blood working together with the Eagle Union.",
 			typewriter = {
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 102094,
 			dir = 1,
+			actor = 102094,
 			nameColor = "#a9f548",
 			say = "Ahahaha... I guess you can say a lot has happened...?",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "And so, the Nagara-class girls... ended up helping this child look for someone.",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 206034,
 			dir = 1,
+			actor = 206034,
 			nameColor = "#a9f548",
 			say = "Ah, um... has anyone seen Miss Ark Royal?",
 			typewriter = {
@@ -322,10 +322,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_126",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I've heard of her. She can apparently be found wherever there are lots of destroyers...",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "star_level_bg_126",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 206034,
 			side = 2,
 			bgName = "star_level_bg_126",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206034,
+			nameColor = "#a9f548",
 			say = "Miss Ark Royal!",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,8 +414,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 207023,
 			dir = 1,
+			actor = 207023,
 			nameColor = "#a9f548",
 			say = "My sincerest apologies, Unicorn. I got distracted and lost sight of you.",
 			typewriter = {
@@ -447,10 +447,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_126",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Everything here has been made possible by my child.",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "Indeed. This port has been growing larger and larger by the day.",
 			typewriter = {
@@ -482,8 +482,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "Isn't that great, Nagato? We're all getting along better and better as well.",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_126",
-			actor = 301101,
 			dir = 1,
+			actor = 301101,
 			nameColor = "#a9f548",
 			say = "All right, you know what that means! Let's give it our all this coming year!",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -523,12 +523,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "star_level_bg_126",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Yeeaah!",
 			typewriter = {
 				speed = 0.05,

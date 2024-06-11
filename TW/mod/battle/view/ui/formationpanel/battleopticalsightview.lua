@@ -8,19 +8,19 @@ slot2.SIGHT_A = slot1.ChargeWeaponConfig.SIGHT_A
 slot2.SIGHT_B = slot1.ChargeWeaponConfig.SIGHT_B
 slot2.SIGHT_C = slot1.ChargeWeaponConfig.SIGHT_C
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	slot0._sightTF = slot1:Find("Sight")
 	slot0._rulerTF = slot1:Find("Ruler")
 	slot0._cornerTF = slot1:Find("Corners")
 	slot0._active = false
 end
 
-function slot2.SetAreaBound(slot0, slot1, slot2)
+slot2.SetAreaBound = function(slot0, slot1, slot2)
 	slot0._totalLeftBound = slot1
 	slot0._totalRightBound = slot2
 end
 
-function slot2.SetActive(slot0, slot1)
+slot2.SetActive = function(slot0, slot1)
 	slot0._active = slot1
 
 	SetActive(slot0._sightTF, slot1)
@@ -28,7 +28,7 @@ function slot2.SetActive(slot0, slot1)
 	SetActive(slot0._cornerTF, slot1)
 end
 
-function slot2.Update(slot0)
+slot2.Update = function(slot0)
 	if not slot0._active then
 		return
 	end
@@ -38,11 +38,11 @@ function slot2.Update(slot0)
 	slot0._rulerTF.position = Vector3.New(0, slot2.y)
 end
 
-function slot2.SetFleetVO(slot0, slot1)
+slot2.SetFleetVO = function(slot0, slot1)
 	slot0._fleetVO = slot1
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	slot0._sightTF = nil
 	slot0._rulerTF = nil
 	slot0._cornerTF = nil

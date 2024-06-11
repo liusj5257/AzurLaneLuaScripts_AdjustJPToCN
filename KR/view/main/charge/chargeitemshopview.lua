@@ -1,29 +1,29 @@
 slot0 = class("ChargeItemShopView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChargeItemShopUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:Show()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in ipairs(slot0.cardList) do
 		slot5:Dispose()
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.itemGoodsVOList = {}
 	slot0.player = getProxy(PlayerProxy):getData()
 
 	slot0:updateData()
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.contextTF = slot0:findTF("content")
 	slot0.lScrollRect = GetComponent(slot0.contextTF, "LScrollRect")
 	slot0.cardTable = {}
@@ -33,11 +33,11 @@ function slot0.initUI(slot0)
 	slot0:updateScrollRect()
 end
 
-function slot0.initScrollRect(slot0)
+slot0.initScrollRect = function(slot0)
 	slot0.cardTable = {}
 	slot0.cardList = {}
 
-	function slot0.lScrollRect.onInitItem(slot0)
+	slot0.lScrollRect.onInitItem = function(slot0)
 		slot1 = ChargeGoodsCard.New(slot0)
 
 		table.insert(uv0.cardList, slot1)
@@ -131,7 +131,7 @@ function slot0.initScrollRect(slot0)
 		uv0.cardTable[slot0] = slot1
 	end
 
-	function slot0.lScrollRect.onUpdateItem(slot0, slot1)
+	slot0.lScrollRect.onUpdateItem = function(slot0, slot1)
 		if not uv0.cardTable[slot1] then
 			uv1(slot1)
 
@@ -146,11 +146,11 @@ function slot0.initScrollRect(slot0)
 	end
 end
 
-function slot0.updateScrollRect(slot0)
+slot0.updateScrollRect = function(slot0)
 	slot0.lScrollRect:SetTotalCount(#slot0.itemGoodsVOList, slot0.lScrollRect.value)
 end
 
-function slot0.updateItemGoodsVOList(slot0)
+slot0.updateItemGoodsVOList = function(slot0)
 	slot0.itemGoodsVOList = {}
 
 	for slot5, slot6 in pairs(pg.shop_template.all) do
@@ -192,7 +192,7 @@ function slot0.updateItemGoodsVOList(slot0)
 	end
 end
 
-function slot0.sortItemGoodsVOList(slot0)
+slot0.sortItemGoodsVOList = function(slot0)
 	table.sort(slot0.itemGoodsVOList, function (slot0, slot1)
 		slot2 = slot0:isLevelLimit(uv0.player.level) and 1 or 0
 		slot3 = slot1:isLevelLimit(uv0.player.level) and 1 or 0
@@ -209,28 +209,28 @@ function slot0.sortItemGoodsVOList(slot0)
 	end)
 end
 
-function slot0.updateGoodsData(slot0)
+slot0.updateGoodsData = function(slot0)
 	slot0.firstChargeIds = slot0.contextData.firstChargeIds
 	slot0.chargedList = slot0.contextData.chargedList
 	slot0.normalList = slot0.contextData.normalList
 	slot0.normalGroupList = slot0.contextData.normalGroupList
 end
 
-function slot0.setGoodData(slot0, slot1, slot2, slot3, slot4)
+slot0.setGoodData = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.firstChargeIds = slot1
 	slot0.chargedList = slot2
 	slot0.normalList = slot3
 	slot0.normalGroupList = slot4
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.player = getProxy(PlayerProxy):getData()
 
 	slot0:updateItemGoodsVOList()
 	slot0:sortItemGoodsVOList()
 end
 
-function slot0.reUpdateAll(slot0)
+slot0.reUpdateAll = function(slot0)
 	slot0:updateData()
 	slot0:updateScrollRect()
 end

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA34",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "theme-theloversVI",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "콰쾅!!!!!",
 			dir = 1,
 			bgmDelay = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "theme-theloversVI",
+			say = "콰쾅!!!!!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "론과 마인츠가 동시에 화력을 뿜어냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +86,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "메탈 블러드 함대와 라보스의 거리는 결코 멀지 않았다. 그리고 두 사람의 화력은 순식간에 라보스의 방어를 뚫었고 장갑에 커다란 균열을 만들어냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "라보스는 자신이 상처를 입었다는 사실이 믿기지 않는 듯, 의혹에 가득찬 눈빛을 하고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "하지만 상처가 빠르게 회복되고 있어... 본체가 물러나고 엄청난 수의 익스큐터가 그 자리를 대체 했어!",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = ".... 포탑이 점점 밝아지고 있는데, 혹시 미드가르드 탑을 타격할 생각은 아니겠지..!?",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			nameColor = "#a9f548",
 			say = "그래도 세계와 세계를 잇는 연결점인데, 그렇게 쉽게 파괴되지 않을거야.",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			nameColor = "#a9f548",
 			say = "아마 다음 전투는 고생 꽤나 하겠네. 론, 울리히 일행은 모두 철수한 것 같으니, 우리도 이만 가자.",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "고마워. 그럼 사양 않고 먼저 갈게.",
 			typewriter = {
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "프린츠 아달베르트는 다가오는 탄환들을 화려하게 피한 후, 미드가르드 탑 중심의 홍수 속으로 뛰어들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -293,9 +293,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "그 뒤를 마인츠가 따랐다. 마인츠는 떠나면서도 포탄 사격을 잊지 않았다.",
 			typewriter = {
 				speed = 0.05,
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "마지막은 론이었다. 론은 탄환을 피하기보다는 방패로 막으면서 생기는 충격에 힘입어 미드가르드 탑 중심의 소용돌이 속으로 뛰어들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "곧이어 미드가르드 탑에서 강한 진동이 발생했고 메탈 블러드 함대를 추격하던 익스큐터들은 그 자리에서 바로 박살이 났다. 진동이 어찌나 강했던지 라보스마저 물러나게 할 정도였다.",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "그리고 마치 있지도 않았던 것처럼 미드가르드 탑은 흔적도 없이 사라졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -351,16 +351,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_midgard_2",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_midgard_2",
 			bgm = "bsm-4",
 			actor = 403090,
 			nameColor = "#a9f548",
 			say = "비상 정지 성공!  후... 온몸이 부서질 것 같네.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -388,8 +388,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "아달베르트, 괜찮아? 정신 차려봐.",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "론과 마인츠도 그렇고.. 됐다. 막상 잘 해결됐다 했더니 얘들을 옮겨야 하는 문제가 생겼네.",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "방법이 없었잖아. 상황이 급박했다고!",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "오, 론과 마인츠가 깨어났어!",
 			typewriter = {
@@ -584,8 +584,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "도망가지 마! 감금되는 거면 내가 같이 있어줄게!",
 			typewriter = {
@@ -646,12 +646,12 @@ return {
 			}
 		},
 		{
-			actor = 401460,
+			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
 			withoutActorName = true,
-			dir = 1,
 			actorScale = 0.6,
+			actor = 401460,
 			say = "방금 막 정신을 차린 프린츠 아달베르트가 처음이자 마지막으로 본 광경은 폐허가 된 통제실을 이리저리 질주하는 Z46이었다.",
 			effects = {
 				{
@@ -669,8 +669,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -686,8 +686,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.1,
 					number = 3
@@ -703,8 +703,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					number = 3
@@ -720,8 +720,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.7,
 					dur = 0.1,
 					number = 3
@@ -729,9 +729,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "Z46이 들이받은 탓에 아달베르트는 또다시 의식을 잃었다.",
 			effects = {
 				{
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 하인리히",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -765,8 +765,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 아달베르트",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -781,8 +781,8 @@ return {
 			}
 		},
 		{
-			bgm = "bsm-6",
 			mode = 1,
+			bgm = "bsm-6",
 			sequence = {
 				{
 					"<size=51>「미드가르드 탑 덕분에 세상은 돌이킬 수 없는 변화를 맞게 되었다.」</size>",
@@ -823,8 +823,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

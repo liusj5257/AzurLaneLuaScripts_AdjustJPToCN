@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Fond Memories\n\n<size=45>Chapter 7: Stubbornness and Sincerity - Part 2</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "Around one hour after nursing Ajax.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "Around one hour after nursing Ajax.",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "Uwaaah...",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "It seemed that she was throwing a tantrum in bed.",
 			typewriter = {
 				speed = 0.05,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "Ugh... having this happen to me... There's no other choice... I'll have to step all over you!",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 30,
 					number = 3
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Suddenly, all movement in the bed stopped.",
 			typewriter = {
 				speed = 0.05,
@@ -207,9 +207,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "When I got closer to check on how Ajax was doing, she suddenly pulled me under the sheets.",
 			typewriter = {
 				speed = 0.05,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I felt Ajax's breath close to my face...",
 			typewriter = {
 				speed = 0.05,
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "My beloved little piggy~♡",
 			typewriter = {
 				speed = 0.05,

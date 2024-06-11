@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_372 = {}
 slot1 = slot0.word_template_372
 
-function temp()
+temp = function()
 	uv0["鬍"] = {
 		["主"] = {
 			["編"] = {
@@ -25,7 +25,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["芮"] = {
 		["杏"] = {
 			["文"] = {
@@ -37,7 +37,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["喻"] = {
 		["东"] = {
 			["岳"] = {
@@ -54,7 +54,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["2"] = {
 		["8"] = {
 			["6"] = {
@@ -773,7 +773,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["儸"] = {
 		["富"] = {
 			["譽"] = {
@@ -785,7 +785,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["符"] = {
 		["海"] = {
 			["陸"] = {
@@ -800,7 +800,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["积"] = {
 		["水"] = {
 			["潭"] = {

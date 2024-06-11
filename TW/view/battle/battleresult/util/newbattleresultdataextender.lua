@@ -1,14 +1,14 @@
 slot0 = class("NewBattleResultDataExtender")
 
-function slot0.NeedCloseCamera(slot0)
+slot0.NeedCloseCamera = function(slot0)
 	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS and slot0 ~= SYSTEM_BOSS_SINGLE
 end
 
-function slot0.NeedVibrate(slot0)
+slot0.NeedVibrate = function(slot0)
 	return ys.Battle.BattleState.IsAutoBotActive() and PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0 and not slot0
 end
 
-function slot0.NeedHelpMessage(slot0, slot1)
+slot0.NeedHelpMessage = function(slot0, slot1)
 	if (slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_DUEL) and slot1 <= 0 then
 		return true
 	end
@@ -16,7 +16,7 @@ function slot0.NeedHelpMessage(slot0, slot1)
 	return false
 end
 
-function slot0.GetAutoSkipFlag(slot0, slot1)
+slot0.GetAutoSkipFlag = function(slot0, slot1)
 	if slot1 == SYSTEM_SCENARIO then
 		return getProxy(ChapterProxy):GetChapterAutoFlag(getProxy(ChapterProxy):getActiveChapter().id) == 1
 	elseif slot1 == SYSTEM_WORLD then
@@ -26,7 +26,7 @@ function slot0.GetAutoSkipFlag(slot0, slot1)
 	return slot0.autoSkipFlag or false
 end
 
-function slot0.GetExpBuffs(slot0)
+slot0.GetExpBuffs = function(slot0)
 	slot1 = nil
 
 	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD or slot0 == SYSTEM_BOSS_SINGLE then
@@ -38,7 +38,7 @@ function slot0.GetExpBuffs(slot0)
 	return slot1
 end
 
-function slot0.GetShipBuffs(slot0)
+slot0.GetShipBuffs = function(slot0)
 	slot1 = nil
 
 	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD or slot0 == SYSTEM_BOSS_SINGLE then
@@ -48,7 +48,7 @@ function slot0.GetShipBuffs(slot0)
 	return slot1
 end
 
-function slot1()
+slot1 = function()
 	slot0 = {}
 	slot2 = getProxy(ChapterProxy):getActiveChapter().fleet
 	slot4 = slot2[TeamType.Vanguard]
@@ -72,7 +72,7 @@ function slot1()
 	return slot0
 end
 
-function slot2()
+slot2 = function()
 	slot0 = {}
 	slot3 = nowWorld():GetActiveMap():GetFleet()
 	slot5 = slot3:GetTeamShipVOs(TeamType.Vanguard, true)
@@ -94,11 +94,11 @@ function slot2()
 	return slot0
 end
 
-function slot3(slot0)
+slot3 = function(slot0)
 	return getProxy(BayProxy):getShipsByFleet(nowWorld():GetBossProxy():GetFleet(slot0.bossId))
 end
 
-function slot4(slot0)
+slot4 = function(slot0)
 	slot1 = getProxy(FleetProxy):getActivityFleets()[slot0.actId]
 	slot3 = getProxy(BayProxy):getShipsByFleet(slot1[slot0.mainFleetId])
 
@@ -109,7 +109,7 @@ function slot4(slot0)
 	return slot3
 end
 
-function slot5()
+slot5 = function()
 	slot0 = {}
 
 	for slot8, slot9 in ipairs(getProxy(GuildProxy):getRawData():GetActiveEvent():GetBossMission():GetMainFleet():GetShips()) do
@@ -123,7 +123,7 @@ function slot5()
 	return slot0
 end
 
-function slot6(slot0)
+slot6 = function(slot0)
 	slot3 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
 
 	assert(slot3)
@@ -137,7 +137,7 @@ function slot6(slot0)
 	return getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getActivityFleets()[slot1][slot6])
 end
 
-function slot7(slot0)
+slot7 = function(slot0)
 	slot1 = {}
 
 	table.insertto(slot1, getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(FleetProxy.CHALLENGE_FLEET_ID)))
@@ -146,11 +146,11 @@ function slot7(slot0)
 	return slot1
 end
 
-function slot8(slot0)
+slot8 = function(slot0)
 	return getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.mainFleetId))
 end
 
-function slot0.GetNewMainShips(slot0)
+slot0.GetNewMainShips = function(slot0)
 	slot2 = {}
 
 	if slot0.system == SYSTEM_SCENARIO then

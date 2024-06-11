@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "浮島要塞D11防衛区画-D12防衛区画間",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-6",
+			say = "浮島要塞D11防衛区画-D12防衛区画間",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "そうよ。ただし、以前のままの編成だと流石に手応えがなさすぎるから、少し「駒」を追加したわ",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "来るなら来い！この私が全部片付けてやるわ！",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,8 +151,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "もう一つ、気をつけてほしいことがあるわ",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "よって、D12防衛区画全ては現在進入禁止になっているのよ",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "訓練標的を追撃するときでも入っちゃだめなの？",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "少なくとも通信装置の異常が判明するまではセキュリティーレベルを維持するつもりよ",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "ちょ、ちょっとやりすぎじゃない？もしここに味方艦隊が入ってきたら…",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "当然よ。ここはよそからすればあくまで「セイレーンの鏡面海域」だから、何も抵抗がないとかえって怪しまれるわ",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "そうと決まれば、次の訓練項目に入っていいよね！",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "そんなに焦らなくてもいいと思うわ",
 			typewriter = {
@@ -377,9 +377,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
 			blackBg = true,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "…もう時間だから、ちょっとは焦りなさい",
 			typewriter = {

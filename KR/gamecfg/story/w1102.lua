@@ -1,12 +1,12 @@
 return {
-	id = "W1102",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1102",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이상 해황이 사라졌다. 해수면 상에서 뭔가 새로 발견된 것 같다...",
 			typewriter = {
 				speed = 0.05,

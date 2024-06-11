@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Mysterious Rabbit Alien?!\n\n<size=45>III 「Rabbit Alien Characteristics—— “Effort”!」</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port area, Academy",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port area, Academy",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Sigh, I was delayed with some of my routine tasks and now it’s already night time.",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "This sounds like Bailey and…?",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 303080,
+			say = "Don’t pretend that we’re close by calling me chan, I don’t plan on being your close friend...",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Don’t pretend that we’re close by calling me chan, I don’t plan on being your close friend...",
+			actor = 303080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "But...but...",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "Yea~",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 303080,
+			nameColor = "#a9f548",
 			say = "I, I am merely reviewing, I am already familiar with those lines a long time ago.",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "Hehehe, am not~",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "Terrific!",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1000
+					number = 1000,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1150
+					number = 1150,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1300
+					number = 1300,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1450
+					number = 1450,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1610
+					number = 1610,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1770
+					number = 1770,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1940
+					number = 1940,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 2120
+					number = 2120,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 2300
+					number = 2300,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 2500
+					number = 2500,
+					attr = "dodgeRate"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -155,8 +155,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 1000
+				number = 1000,
+				attr = "dodgeRate"
 			}
 		}
 	}

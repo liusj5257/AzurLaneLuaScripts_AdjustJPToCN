@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"万能店員シラヌイ\n\n<size=45>四　ビジネス会議？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・購買部",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・購買部",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "またまた購買部の様子が見える隣の雑木林に隠れて店の中を観察（？）しに来た。",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "ぬいにゃ！！！",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.7,
 					x = 3000
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ガーン",
 			typewriter = {
 				speed = 0.05,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "ひどいにゃ！なんで明石をスルーしたにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -121,12 +121,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "かまってもいいことはないと思いまして",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "かまってもいいことはないと思いまして",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -141,11 +141,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "お友達じゃなかったのかにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "新しい販促計画についてにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "今回は違うにゃ！きっと大丈夫にゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "明石",
 			say = "ぬいぬいにゃ！助けてにゃ！一生のお願いにゃ！あとでお礼してあげるにゃ！",
 			subActors = {
@@ -325,8 +325,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#a9f548",
 			say = "このウツケ猫、ぺったりくっつくんじゃありません……",
 			subActors = {
 				{
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "明石",
 			say = "ぬいぬいがおっけーしてくれるまで離さないにゃ！",
 			subActors = {
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#a9f548",
 			say = "わ、わかったのでございますよ……",
 			subActors = {
 				{
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "よかったにゃ！計画書はこれにゃ！明石準備してくるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.7,
 					x = 2250
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "不知火は計画書を開き、そして―ー",
 			typewriter = {
@@ -479,9 +479,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "と愚痴を言いながらも赤ペンでコメントとメモを入れ始めた。",
 			typewriter = {
 				speed = 0.05,

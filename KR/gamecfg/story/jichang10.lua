@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG10",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			bgName = "bg_jichang_1",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 1,
+			bgName = "bg_jichang_1",
 			bgm = "idol-WISHNESS-inst",
 			actor = 312010,
 			nameColor = "#a9f548",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "지난 시합의 우승자, 그리고 「μ장비」를 만든 그룹, 「Polaris」다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "내용 이해 불가. 해석 필요.",
 			effects = {
 				{
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 101253,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101253,
+			nameColor = "#a9f548",
 			say = "우, 부끄러워…… 찍지 마, 이 변태!",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -338,8 +338,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "(속닥) 지휘관님, 나를 보고 계시는 걸까……",
 			typewriter = {
@@ -419,10 +419,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103250,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "모두, 응원 부탁해!",
 			typewriter = {
 				speed = 0.05,
@@ -450,12 +450,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "유니콘, 혼자서 괜찮겠나요?",
 			typewriter = {
 				speed = 0.05,
@@ -467,12 +467,12 @@ return {
 			}
 		},
 		{
-			actor = 206035,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206035,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "응, 괜찮아. 일러스트리어스 언니도 힘내?",
 			typewriter = {
 				speed = 0.05,
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네, 함께 힘내요.",
 			typewriter = {
 				speed = 0.05,
@@ -501,12 +501,12 @@ return {
 			}
 		},
 		{
-			actor = 701050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "저 소개, 너무 열정이 과하지 않아?",
 			typewriter = {
 				speed = 0.05,
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			actor = 108050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그래야 재밌지!",
 			typewriter = {
 				speed = 0.05,
@@ -535,12 +535,12 @@ return {
 			}
 		},
 		{
-			actor = 202280,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "모두, 이제 준비해야 해요.",
 			typewriter = {
 				speed = 0.05,
@@ -552,13 +552,13 @@ return {
 			}
 		},
 		{
-			actor = 103250,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아, 그럼 출발하자!",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"混沌的萬聖之夜\n\n<size=45>一 井然有序的準備</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 404020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "需要的物資、食物，以及其他材料的清單我已經核實過了，可以直接向明石下訂單了",
 			bgm = "story-1",
+			actor = 404020,
+			nameColor = "#a9f548",
+			say = "需要的物資、食物，以及其他材料的清單我已經核實過了，可以直接向明石下訂單了",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "不愧是格奈森瑙，幫大忙了，謝啦",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "哎呀，那還真是多謝誇獎了~",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "嗯哼！萬聖節糖果的準備交給愛丁堡大人就行啦！",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "哦、哦！也要感謝愛丁堡才行，糖果的準備，辛苦啦！畢竟港區裡還是有許多喜歡糖果的孩子呢…",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "嘿嘿嘿~怎麼樣！這一身還不錯吧！這可是我親自設計的呢！因為做都做好了，就乾脆先穿起來啦~",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "(雖然實際的製作還是貝法就是了……）",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "嘿~還是挺有品味的嘛~",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "那是~哼，貝法那傢伙，又以女僕隊的工作為理由拒絕了我一起參加萬聖狂歡的邀請…就不能偶爾抽點時間陪陪姐姐嘛！",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "啊哈哈…真是難辦呢",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "就不能偶爾和姐姐一起享受下節日嘛！",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "(貝爾法斯特小姐也辛苦了呢……）",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "欸？格奈森瑙也對這種感興趣嗎？有點意外…",
 			typewriter = {
@@ -372,10 +372,10 @@ return {
 			}
 		},
 		{
-			actor = 202112,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 202112,
 			dir = 1,
 			hideOther = true,
 			actorName = "愛丁堡&曼非斯",
@@ -418,16 +418,16 @@ return {
 			}
 		},
 		{
-			actor = 900202,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900202,
+			nameColor = "#a9f548",
 			say = "嘿嘿…萬聖節的糖果嗎…這下有好玩的事情可以做啦！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

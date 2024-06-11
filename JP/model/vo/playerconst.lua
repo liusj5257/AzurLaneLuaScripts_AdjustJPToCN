@@ -9,15 +9,19 @@ slot0.ResGoldField = 7
 slot0.ResGuildCoin = 8
 slot0.ResBlueprintFragment = 9
 slot0.ResClassField = 10
+slot0.ResStoreGold = 16
+slot0.ResStoreOil = 17
 slot0.ResBattery = 101
 slot0.ResPT = 102
 slot1 = nil
 
-function slot2(slot0)
+slot2 = function(slot0)
 	uv0 = uv0 or {
 		[DROP_TYPE_RESOURCE] = function (slot0)
 			if getProxy(PlayerProxy) then
-				slot1:UpdatePlayerRes(slot0.id, slot0.count)
+				slot1:UpdatePlayerRes({
+					slot0
+				})
 			end
 		end,
 		[DROP_TYPE_ITEM] = function (slot0)
@@ -47,19 +51,19 @@ function slot2(slot0)
 	end, slot0)
 end
 
-function addPlayerOwn(slot0)
+addPlayerOwn = function(slot0)
 	slot0.count = math.max(slot0.count, 0)
 
 	uv0(slot0)
 end
 
-function reducePlayerOwn(slot0)
+reducePlayerOwn = function(slot0)
 	slot0.count = -math.max(slot0.count, 0)
 
 	uv0(slot0)
 end
 
-function slot0.addTranDrop(slot0, slot1)
+slot0.addTranDrop = function(slot0, slot1)
 	slot0 = underscore.map(slot0, function (slot0)
 		return Drop.New({
 			type = slot0.type,
@@ -97,7 +101,7 @@ function slot0.addTranDrop(slot0, slot1)
 	end
 end
 
-function slot0.BonusItemMarker(slot0)
+slot0.BonusItemMarker = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0) do
@@ -112,7 +116,7 @@ end
 
 slot3, slot4 = nil
 
-function slot0.MergePassItemDrop(slot0)
+slot0.MergePassItemDrop = function(slot0)
 	if not uv0 then
 		uv1 = {
 			[DROP_TYPE_SKIN] = 1,
@@ -124,32 +128,32 @@ function slot0.MergePassItemDrop(slot0)
 			[21101.0] = 12,
 			[16502.0] = 6,
 			[50006.0] = 10,
-			[16004.0] = 7,
 			[16024.0] = 7,
+			[16004.0] = 7,
 			[17023.0] = 16,
 			[17024.0] = 11,
-			[30035.0] = 13,
-			[15008.0] = 15,
+			[17034.0] = 11,
+			[30015.0] = 13,
 			[42036.0] = 4,
 			[30025.0] = 13,
 			[21131.0] = 12,
-			[21121.0] = 12,
+			[30035.0] = 13,
 			[17013.0] = 16,
-			[42030.0] = 5,
+			[17003.0] = 16,
 			[20013.0] = 14,
 			[17044.0] = 11,
 			[17004.0] = 11,
-			[17014.0] = 11,
-			[30015.0] = 13,
+			[15008.0] = 15,
+			[21121.0] = 12,
 			[16014.0] = 7,
-			[17003.0] = 16,
+			[42030.0] = 5,
+			[17014.0] = 11,
+			[17033.0] = 16,
 			[21111.0] = 12,
 			[17043.0] = 16,
-			[17034.0] = 11,
-			[54007.0] = 5,
 			[30045.0] = 13,
 			[15001.0] = 17,
-			[17033.0] = 16
+			[54007.0] = 5
 		}
 
 		for slot4, slot5 in pairs({
@@ -198,7 +202,7 @@ function slot0.MergePassItemDrop(slot0)
 	return slot1
 end
 
-function slot0.CheckResForShopping(slot0, slot1)
+slot0.CheckResForShopping = function(slot0, slot1)
 	slot2 = slot0.count * slot1
 	slot3 = 0
 
@@ -213,7 +217,7 @@ function slot0.CheckResForShopping(slot0, slot1)
 	return slot2 <= slot3
 end
 
-function slot0.ConsumeResForShopping(slot0, slot1)
+slot0.ConsumeResForShopping = function(slot0, slot1)
 	slot2 = slot0.count * slot1
 
 	if slot0.type == DROP_TYPE_RESOURCE then
@@ -230,7 +234,7 @@ function slot0.ConsumeResForShopping(slot0, slot1)
 	end
 end
 
-function slot0.GetTranAwards(slot0, slot1)
+slot0.GetTranAwards = function(slot0, slot1)
 	slot3 = PlayerConst.addTranDrop(slot1.award_list)
 
 	for slot7, slot8 in ipairs({}) do
@@ -246,7 +250,7 @@ function slot0.GetTranAwards(slot0, slot1)
 	return slot3
 end
 
-function slot0.MergeTechnologyAward(slot0)
+slot0.MergeTechnologyAward = function(slot0)
 	slot1 = slot0.items
 
 	for slot5, slot6 in ipairs(slot0.commons) do
@@ -270,7 +274,7 @@ function slot0.MergeTechnologyAward(slot0)
 	return slot1
 end
 
-function slot0.CanDropItem(slot0)
+slot0.CanDropItem = function(slot0)
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.UTAWARERU_ACTIVITY_PT_ID) and not slot2:isEnd() then
 		slot3 = slot2:getConfig("config_client").pt_id
 
@@ -297,7 +301,7 @@ end
 
 slot5 = nil
 
-function slot6(slot0)
+slot6 = function(slot0)
 	uv0 = uv0 or {
 		[DROP_TYPE_SHIP] = true,
 		[DROP_TYPE_OPERATION] = true,
@@ -313,7 +317,7 @@ function slot6(slot0)
 	end
 end
 
-function slot0.MergeSameDrops(slot0)
+slot0.MergeSameDrops = function(slot0)
 	slot1 = {}
 	slot2 = {}
 

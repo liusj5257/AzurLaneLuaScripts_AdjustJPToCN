@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"All-Love Assault!\n\n<size=45>4. To Go Beyond the Port</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-2",
 			bgName = "bg_story_task_2",
 			say = "It's a regular, uneventful day...",
-			bgm = "story-richang-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "Today it's back to work. I'm chewing through paperwork when suddenly, Blücher speaks up.",
 			typewriter = {
@@ -55,14 +55,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hmm... Where should we go on a date after work today...",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hmm... Where should we go on a date after work today...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,9 +319,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
 			optionFlag = 4,
+			bgName = "bg_story_task_2",
 			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "Eugen was right about Blücher. She is mind-bogglingly passionate when it comes to dates.",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "Of course, that's just how she expresses her honest – albeit overbearing – affection.",
 			typewriter = {
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "Having known her for a while now, I've more or less gotten used to it.",
 			typewriter = {
@@ -447,8 +447,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"You want to go skiing?\"",
 			typewriter = {
@@ -457,14 +457,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Yeah! I know a great resort! It just takes some time to get there~",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Yeah! I know a great resort! It just takes some time to get there~",
 			painting = {
 				alpha = 0.3,
 				time = 1

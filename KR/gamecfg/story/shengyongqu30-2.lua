@@ -1,18 +1,18 @@
 return {
-	id = "SHENGYONGQU30-2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU30-2",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 999010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "…………",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "혼자서 이렇게 오래 우리와 맞섰는데도 전혀 다치지 않다니…?!",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "적어도 유격 함대가 알제리 일행을 안전한 곳으로 몰아넣을 때까지 막아야 합니다!",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "타임 오버.",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "칙--- 치익-----",
@@ -126,8 +126,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "리슐리외, 들리나요? 추격을 하던 중 갑자기 사쿠라 엠파이어의 잠수함에게 요격당했습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "대잠 장비가 방금 전 전투로 파괴되어서 어뢰를 뚫고 추격을 계속하기 힘든 상황입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "대잠 장비… 아! 제것도 방금 전투에서 손상을 입었습니다! 이게 보클랭이 습격한 목적이었던 모양입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "…시간을 끌 필요는 없을 것 같네요.",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "유격 함대, 즉시 돌아오세요. 추격은 필요 없습니다……",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "네……",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 5,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "리슐리외, 아이리스 교국의 추기경이자 비시아 성좌의 배신자.",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "비시아 성좌의 사령부가 나에게 전보를……?",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "언니, 우리는 죽음을 몰고 다니는 병기일까? 아니면 나라를 지키는 영웅일까?'",
 			typewriter = {
 				speed = 0.05,
@@ -330,9 +330,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "………?!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -351,9 +351,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "대체 어디서 그 말을 들었죠?! 전보는 누가 보낸 것인가요!",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "발신인은 비시아 성좌의 총 기함, 장 바르.",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "………………………………………!",
 			dialogShake = {
 				speed = 0.09,
@@ -460,8 +460,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "……장 바르의 유해를 가져간 것도 모자라서… 메탈 블러드… 대체 무슨 짓을 하려는 거죠!",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -506,9 +506,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "잠, 잠시만요! 가지 마세요. 장 바르에게 무슨 일이 있는 거죠!",
 			typewriter = {
 				speed = 0.05,
@@ -520,8 +520,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "가스코뉴는 리슐리외를 무시하고 포화와 총알 사이로 유유히 사라져갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -561,8 +561,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "……전원, 추격을 멈추도록 하죠.",
 			typewriter = {
 				speed = 0.05,
@@ -622,8 +622,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "……아마 실험이었을 거예요.",
 			typewriter = {
 				speed = 0.05,
@@ -653,8 +653,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "적어도 가스코뉴는… 실험의 기록, 특수한 성정 큐브의 운송, 그리고 후방 감독의 임무를 맡았겠지요.",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "우리의 모든 행동은 상대방의 계산 속에 있었던 거였어요.",
 			typewriter = {
 				speed = 0.05,
@@ -685,8 +685,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "하지만 교황청에 이렇게 대단한 사람이 있었던 기억은 없는데요…",
 			typewriter = {
 				speed = 0.05,
@@ -716,8 +716,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "메탈 블러드와 손잡고 자신의 동포에게 실험을 하다니… 교황청 윗선이 이렇게까지 타락했을 줄은 몰랐습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -729,8 +729,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -761,8 +761,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -777,8 +777,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -793,9 +793,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
+			dir = 1,
 			say = "과거의 영광으로 가득했던 성당은 불바다가 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -807,9 +807,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
+			dir = 1,
 			say = "바다에서 타고 있는 기름과 잔불들은 금속으로 이루어진 가시덤불처럼 성당 주위를 둘러싸고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -821,9 +821,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
+			dir = 1,
 			say = "하지만 아이리스 리브레의 앞날에는 지금보다도 더 험난한 가시밭길이 기다리고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -835,8 +835,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외",
+			side = 2,
 			bgName = "bg_qiongding_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -851,17 +851,17 @@ return {
 			}
 		},
 		{
-			actor = 900239,
 			actorName = "？？？",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900239,
 			nameColor = "#ffff4d",
 			say = "……흥, 설마… 다시 만날 수 있는 기회가 있을 줄은 몰랐네. 언니.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

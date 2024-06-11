@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "标记-SSSSE",
 	stack = 1,

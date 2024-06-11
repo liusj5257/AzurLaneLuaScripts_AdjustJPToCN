@@ -6,17 +6,17 @@ slot0.Battle.RaidOxyState = class("RaidOxyState", slot0.Battle.IOxyState)
 slot0.Battle.RaidOxyState.__name = "RaidOxyState"
 slot3 = slot0.Battle.RaidOxyState
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.GetWeaponUseableList(slot0)
+slot3.GetWeaponUseableList = function(slot0)
 	return {
 		uv0.OXY_STATE.DIVE
 	}
 end
 
-function slot3.UpdateCldData(slot0, slot1, slot2)
+slot3.UpdateCldData = function(slot0, slot1, slot2)
 	slot4 = slot0:GetDiveState()
 	slot1:GetCldData().Surface = slot4
 
@@ -25,26 +25,26 @@ function slot3.UpdateCldData(slot0, slot1, slot2)
 	end
 end
 
-function slot3.GetDiveState(slot0)
+slot3.GetDiveState = function(slot0)
 	return uv0.OXY_STATE.DIVE
 end
 
-function slot3.GetBubbleFlag(slot0)
+slot3.GetBubbleFlag = function(slot0)
 	return true
 end
 
-function slot3.IsVisible(slot0)
+slot3.IsVisible = function(slot0)
 	return false
 end
 
-function slot3.GetBarVisible(slot0)
+slot3.GetBarVisible = function(slot0)
 	return true
 end
 
-function slot3.RunMode(slot0)
+slot3.RunMode = function(slot0)
 	return false
 end
 
-function slot3.DoUpdateOxy(slot0, slot1)
+slot3.DoUpdateOxy = function(slot0, slot1)
 	slot1:OxyConsume()
 end

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "荣光的开拓者",
 	cd = 0,
+	picture = "0",
+	desc = "荣光的开拓者",
 	painting = 1,
 	id = 16522,
-	picture = "0",
 	castCV = "skill",
-	desc = "荣光的开拓者",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

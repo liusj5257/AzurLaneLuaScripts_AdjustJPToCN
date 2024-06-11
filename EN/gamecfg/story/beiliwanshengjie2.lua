@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "BEILIWANSHENGJIE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Trick or Treat, Halloween!\n\n<size=45>II 「A Curious Witch」</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 101271,
 			nameColor = "#a9f548",
 			say = "If Miss Ghost can't find her way home, then that's so pitiful...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,15 +69,15 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "Hmm... Speaking of which, where exactly is Miss Ghost hiding?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Also ghosts can fly, right? But people from Planet Bunny cannot fly...",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "(Warehouse? Ghosts? Could it be...)",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = " \"Pretty\", \"Lucky\", let's head over there!",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -233,14 +233,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 101271,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Although, \"three virtuous witches\"... If one counts Bailey as one of them, then who are the other two...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "Ah! I found a new Witch!",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -319,16 +319,16 @@ return {
 			}
 		},
 		{
-			side = 0,
 			stopbgm = true,
-			actorName = "???",
-			nameColor = "#a9f548",
+			side = 0,
 			dir = 1,
 			blackBg = true,
+			actorName = "???",
+			nameColor = "#a9f548",
 			say = "It's tiresome to impersonate voices of multiple people...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,

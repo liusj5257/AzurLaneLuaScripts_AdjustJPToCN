@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANGAN2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FANGAN2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -37,8 +37,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

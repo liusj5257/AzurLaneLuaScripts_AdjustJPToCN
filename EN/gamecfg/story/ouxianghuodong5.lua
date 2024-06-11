@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "Meanwhile, in the stands...",
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
-			say = "Meanwhile, in the stands...",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Chang Chun, should I grab the signing boards? They're gonna be worth good money after those two get rich and famous, hehe!",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -208,15 +208,15 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "Concluding joint armament and singing testing protocols.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -308,8 +308,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			nameColor = "#a9f548",
 			say = "Tactical victory pose...",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			nameColor = "#a9f548",
 			say = "Look, sis, An Shan and the others came out to see us!",
 			typewriter = {
@@ -342,8 +342,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 502023,
 			dir = 1,
+			actor = 502023,
 			nameColor = "#a9f548",
 			say = "They really did...!",
 			typewriter = {
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
+			dir = 1,
 			say = "Meanwhile, after the first test concert, Akagi stood alone, silently looking at her Muse System.",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "Akagi? Did something happen?",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "\"Ideals\"... Everyone's \"emotions\"...",
 			typewriter = {

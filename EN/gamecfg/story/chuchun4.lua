@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Timid Black Cat\n\n<size=45>Hatsuharu, The Secretary!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "P-p-please, let me be your secretary!",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "... I didn't expect to see this today.",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "I-I want to be someone that people can rely on!",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -144,13 +144,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Wakaba explained the situation.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Now I understand. Hatsuharu wants to cure her social anxiety.",
 			typewriter = {
 				speed = 0.05,
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "You did it! Now just give it all you've got, Hatsuharu! I'll leave now so I won't get in your way! See ya!",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -3750
@@ -236,11 +236,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "Uh, um, okay! I-I promise to give it my all!",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It's good to see that she's enthusiastic, but it remains to be seen how far that will get her.",
 			typewriter = {
 				speed = 0.05,
@@ -276,15 +276,15 @@ return {
 			}
 		},
 		{
-			actor = 103110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103110,
+			nameColor = "#a9f548",
 			say = "You there, Sakura Empire girl, could you tell me what the schedule is for tomorrow's exercises?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "*Eek*?! W-what did you ask?! I-I'm not...",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -351,15 +351,15 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203070,
+			nameColor = "#a9f548",
 			say = "Has the †Area† for the †Exercises† of the morrow been prepared yet?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "*Whimper*... I'm sorry that I can't help!",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -442,13 +442,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "This doesn't appear to be going very well...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -473,11 +473,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "I-I'm sorry! I-I'm just... no good at t-talking to people...",
 			typewriter = {
 				speed = 0.05,
@@ -543,9 +543,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I doubt Hatsuharu realizes she just managed to converse really well.",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 202110,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-royalnavy",
 			dir = 1,
 			say = "通訊器有反應了…是支援艦隊發來的聯絡！",
+			bgm = "bgm-royalnavy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "電告，包括戰列艦鐵必制號、沙恩霍斯特號、格奈森瑙號、德意志號、施佩伯爵號在內的鐵血主力艦隊已經完成集結，現在正在向巴倫支海的方向逼近。",
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "所有艦船立刻掉頭向西方前進，準備迎擊鐵血主力艦隊。",
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "鐵血終於還是對運輸船團動心了嗎…讓我們等的好久啊！",
 			typewriter = {
 				speed = 0.05,

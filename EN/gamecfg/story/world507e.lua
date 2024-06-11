@@ -1,17 +1,17 @@
 return {
-	id = "WORLD507E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507E",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
 			say = "It's all so strange. The wrecks seem to have been floating around for wildly differing times, and there's no apparent explanation for where they came from...",
+			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "I'm willing to believe they're all from Sirens in the NA Ocean, but that they had THIS many here? That just seems impossible.",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Yes, it seems the most plausible to me.",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "If we suppose that's true, then everything adds up. As for who eliminated them, I would speculate it was the Ashes. Though it could've been someone else.",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Looking back at it now, the storm and the lack of a strong Siren presence in the area is essentially what put our all-out offensive into motion.",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "However, there's a hole in your theory. If the Ashes are responsible for the fresh wrecks, then who the hell is responsible for those older ones?",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "If we'd lost that many ships at some point, we would've known about it by now.",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Maybe... The old wrecks are from a battle we fought long ago, and they somehow resurfaced much later...?",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Just look around you. You can send recon planes in any direction and find no end in sight to all these wrecks...",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "The common theory goes that Singularities are dimensionally divergent!",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Ever heard of the observer effect? It's likely the inside of a Singularity is strongly influenced by what its observers see.",
 			typewriter = {
 				speed = 0.05,
@@ -380,8 +380,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Hey! At least let me finish explaining before you try to steal my thunder!",
 			typewriter = {
 				speed = 0.05,
@@ -411,8 +411,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Oh really? What sets their theory apart from the Eagle Union's version of it?",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Pfft...",
 			typewriter = {
 				speed = 0.05,
@@ -473,8 +473,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "All righty then. When the inside of the Singularity is directly observed, it will continue to expand. That's why it seems like there's no end to it.",
 			typewriter = {
 				speed = 0.05,
@@ -504,8 +504,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "The good news is, the Ashes and Sirens seem to be able to come and go as they please! Which means there has to be a way out of the Singularity.",
 			typewriter = {
 				speed = 0.05,
@@ -519,9 +519,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "But to find it, we'll need to stop observing so much. As counterintuitive as it sounds, we should probably put away our planes and radars and rely only on line of sight!",
 			typewriter = {
 				speed = 0.05,

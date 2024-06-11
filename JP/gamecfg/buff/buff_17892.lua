@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 200
+					number = 200,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 200
+					number = 200,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 250
+					number = 250,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 250
+					number = 250,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 300
+					number = 300,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 300
+					number = 300,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 350
+					number = 350,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 350
+					number = 350,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 400
+					number = 400,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 400
+					number = 400,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 450
+					number = 450,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 450
+					number = 450,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 500
+					number = 500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 550
+					number = 550,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 550
+					number = 550,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 600
+					number = 600,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 600
+					number = 600,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 700
+					number = 700,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -253,20 +253,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 700
+					number = 700,
+					attr = "cannonPower"
 				}
 			}
 		}
 	},
-	time = 10,
 	name = "",
 	init_effect = "",
-	color = "yellow",
+	id = 17892,
+	time = 10,
 	picture = "",
 	desc = "炮击、机动提高",
 	stack = 1,
-	id = 17892,
+	color = "yellow",
 	icon = 17890,
 	last_effect = "",
 	blink = {
@@ -284,8 +284,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 200
+				number = 200,
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -295,8 +295,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 200
+				number = 200,
+				attr = "cannonPower"
 			}
 		}
 	}

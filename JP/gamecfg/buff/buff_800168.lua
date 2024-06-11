@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 800168,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800168,
+	color = "red",
 	icon = 800160,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 500
+				number = 500,
+				attr = "airPower"
 			}
 		}
 	}

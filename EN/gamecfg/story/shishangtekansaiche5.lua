@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANSAICHE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANSAICHE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection! Racing Special\n\n<size=45>Ignition Matrician</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			live2d = "main3",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
 			dir = 1,
 			bgm = "story-richang-6",
 			actor = 405032,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main3",
 			say = "...Now then, I hope you all get the placing you're hoping for in the race.",
 			painting = {
 				alpha = 0.3,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As Ulrich finished her speech, the drivers turned towards the race track with ambition in their hearts.",
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ulrich's flag flutters in the wind, dyed in Iron Blood red and black hues, much like the outfit she's wearing. She is stately, almost like a goddess of victory.",
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Thanks. It's an honor.",
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "...Oh, it's you, Commander. I thought you had your hands full. What weird turn of events brought you here?",
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "What can I say? It inspires the racers and ups the odds of my team winning.",
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "Same with this outfit. It's for their sake.",
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Even the people who aren't participating directly get a kick out of a good speech and an outfit they like.",
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Looks like its magic worked on you, too.",
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I know I hit the bullseye. There's no point in looking away now. If you wanna stare, be my guest.",
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "If I didn't want you looking at me, I wouldn't have worn this in public in the first place.",
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Everyone else who's dressed up for the occasion thinks the same.",
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Nobody'll judge you for looking. Give 'em a complement or two and you'll be fine.",
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "There. That's how you do it.",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "But remember – you can give compliments to everyone, but only one team can win.",
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Speaking of, who do you think's gonna win?",
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Every team is gunning for the gold. It's hard to say who's likely to win right now, so I answer her with a shrug.",
@@ -330,11 +330,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "You dunno? So you think there's even a small chance Iron Blood will lose?",
@@ -348,11 +348,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I raise an eyebrow at Ulrich's supreme confidence in her team.",
@@ -362,11 +362,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Me, I'm 100% sure about it. We're going to win.",
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Let me tell you what victory is. It's the natural result of precise calculations after eliminating all factors that worsen your odds.",
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Most people say that, sure.",
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "If you personally knew Iron Blood's might, if you've seen its potential, you'd think differently.",
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Hell, I might as well ask... Do you have two hours to spare?",
@@ -476,11 +476,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "That's at least how much time I'm gonna need to convince you.",
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "True... You'd miss all the action if you sat down to listen to me for two hours instead.",
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Never mind, that was a bad idea. Forget it.",
@@ -542,11 +542,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I've got another, though...",
@@ -560,11 +560,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "If you've got time AFTER the race, then I can enlighten you. Sound good?",
@@ -590,11 +590,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "More than just that. I'll give you a tour of our simulated race track as well.",
@@ -608,11 +608,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Like they say – show, don't tell.",
@@ -626,11 +626,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "There's also our garage, and the equipment we use to keep our vehicles in top shape.",
@@ -644,11 +644,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Because you've gotta be wondering just how we became such good racers.",
@@ -662,11 +662,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Actually... Two hours won't be nearly enough to cover everything.",
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 405032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "All things considered... Think you could spare the whole night?",

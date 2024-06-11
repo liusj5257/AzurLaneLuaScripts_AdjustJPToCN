@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME7",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -185,10 +185,10 @@ return {
 			}
 		},
 		{
-			actor = 301121,
 			actorShadow = true,
-			actorName = "{namecode:13}&{namecode:14}",
 			side = 1,
+			actorName = "{namecode:13}&{namecode:14}",
+			actor = 301121,
 			hideOther = true,
 			nameColor = "#92fc63",
 			say = "……",
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			say = "나, 난 괜찮으니까, 됐어……",
 			side = 1,
 			nameColor = "#92fc63",
-			actorName = "{namecode:13}",
 			dir = -1,
-			say = "나, 난 괜찮으니까, 됐어……",
+			actor = 301111,
+			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -245,14 +245,14 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#92fc63",
 			say = "맞다! 슬슬 구축함 아이들이 의뢰에서 돌아올 시간이군. 미안하네, 난 먼저 실례하겠네!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,12 +277,12 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			say = "사, 사라졌다…… 로열 네이비의 항공모함은 굉장하네……",
 			side = 0,
 			nameColor = "#92fc63",
-			actorName = "{namecode:13}",
 			dir = 1,
-			say = "사, 사라졌다…… 로열 네이비의 항공모함은 굉장하네……",
+			actor = 301111,
+			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0,
 				side = 0
@@ -315,8 +315,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "일러스트리어스 씨도, 굉장한 구석이 있어요……",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "다음 다과회도 기다리겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -422,8 +422,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "다음은 게임 대회 어때? 롱·아일랜드 씨도 불러서…",
 			typewriter = {
 				speed = 0.05,
@@ -438,8 +438,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "\"절대로 안 돼!\"",
 			typewriter = {
 				speed = 0.05,
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			say = "한편, 아카츠키는……",
 			blackBg = true,
+			say = "한편, 아카츠키는……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			say = "【S71°31′34″E24°08′17″】",
 			blackBg = true,
+			say = "【S71°31′34″E24°08′17″】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,12 +492,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "히비키가 없어…… 응? 여기 뭔가 적혀 있어. '아스카', '퀸 모드랜드'……",
 			typewriter = {
 				speed = 0.05,

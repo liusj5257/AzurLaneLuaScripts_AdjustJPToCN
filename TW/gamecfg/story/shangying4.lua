@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春天的賞櫻大會\n\n<size=45>四  宴會開幕</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 306030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "那麼～賞櫻大會～開始囉～",
 			bgm = "story-1",
+			actor = 306030,
+			nameColor = "#a9f548",
+			say = "那麼～賞櫻大會～開始囉～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "眾人",
 			say = "喔！！",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,15 +68,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "{namecode:95}姐～這個天婦羅好好吃～",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,12 +101,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "是是…——",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是…——",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -121,15 +121,15 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "原來如此！大家聚在一起大吃大喝就是所謂的“賞櫻大會”啊！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 301130,
+			say = "我想應該不是這樣的…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我想應該不是這樣的…",
+			actor = 301130,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -254,14 +254,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "眾人",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"눈 녹는 날의 초대\n\n<size=45>1 달 밑의 밤바람</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "초승달이 밤하늘 높이 걸려있다. 소나무 숲속의 온천에서는 한창 김이 모락모락 피어오르고 있다.",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "초승달이 밤하늘 높이 걸려있다. 소나무 숲속의 온천에서는 한창 김이 모락모락 피어오르고 있다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			say = "하지만 맑은 밤하늘 속에 자욱한 게 수증기만은 아닐지도?",
 			typewriter = {
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 603042,
 			nameColor = "#A9F548FF",
 			say = "온도가 너무 뜨거워……. 지휘관, 나가서 찬바람 좀 쐬고 올게. 너무 오래 있었더니 조금 어지럽네.",
 			painting = {
@@ -177,12 +177,12 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 603042,
 			actorName = "트렌토",
 			say = "후후~ 정말 온천 때문이야? 아니면, 지휘관도 여기 있어서.....?",
 			painting = {
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 603042,
 			actorName = "트렌토",
 			say = "우후후~",
 			painting = {
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 603042,
 			nameColor = "#A9F548FF",
 			say = "지휘관에게 쭉 엄격했지. 지금처럼 지휘관과 솔직하게 말할 수 있는 기회도 많지 않고…….",
 			painting = {

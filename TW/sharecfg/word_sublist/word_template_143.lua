@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_143 = {}
 slot1 = slot0.word_template_143
 
-function temp()
+temp = function()
 	uv0["根"] = {
 		["正"] = {
 			["苗"] = {
@@ -20,7 +20,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["睾"] = {
 		["丸"] = {
 			this = true
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["腚"] = {
 		this = {
 			this = true
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["娼"] = {
 		this = {
 			this = true

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIQI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIQI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"어린 애가 아니야!\n\n<size=45>4. 의외!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "항구 부근 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "항구 부근 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "아, 지휘관!",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "셋이 수영 시합 하는 중이야! 지는 쪽이 산소 콜라 사기!",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그러면 꼴찌는 카발라네!",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "응? 잠시만, 이상한데… 카발라는?",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "아냐. 뒤에 아무도 없는데… 설마 아직까지 수영 중인 건 아니겠지?",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "(작은소리) …내가 일부러 결승선 마크를 흐리게 한 탓은 아니겠지…",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "윽… 지, 지휘관! 얼른 가보자!",
 			typewriter = {
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
+			dir = 1,
 			say = "다른 쪽 해역",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -301,13 +301,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "와……!",
 			soundeffect = "event:/battle/plane",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "와……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "푸핫!",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 1000,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 0
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "!!",
 			typewriter = {
 				speed = 0.05,
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -440,8 +440,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "으흥, 내가 일등이다! 둘이 절대로 쫓아올 수 없다고…… 에?… 이상한데?",
 			typewriter = {
@@ -470,13 +470,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "언니는 내가 지킨다! 받아라!",
 			soundeffect = "event:/battle/plane",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "언니는 내가 지킨다! 받아라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,8 +490,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "이 상황… 혹시 돌발상황 연습?",
 			typewriter = {
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "이렇게 나온다면……!",
 			typewriter = {
 				speed = 0.05,
@@ -526,17 +526,17 @@ return {
 			}
 		},
 		{
-			actor = 307050,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "그렇구나…… 힘차게 헤엄치던 작은 물고기가 결승선을 넘어와 버린거네.",
 			bgm = "story-1",
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "그렇구나…… 힘차게 헤엄치던 작은 물고기가 결승선을 넘어와 버린거네.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -564,8 +564,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "내, 내가 이런 실수를 할 거라고는…",
 			typewriter = {
@@ -581,8 +581,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "미, 미안해!",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -621,11 +621,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "미, 미안해… 놀라게 해서.",
 			typewriter = {
 				speed = 0.05,
@@ -637,8 +637,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -663,10 +663,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 108020,
 			actorName = "알바코어&데이스",
@@ -708,8 +708,8 @@ return {
 			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "잠시만, 왜 둘이 늘었어!",
 			effects = {
 				{

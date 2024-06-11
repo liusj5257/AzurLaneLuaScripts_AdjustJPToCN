@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI5",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -39,10 +39,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "잘 됐군, 우리가 직접 찾을 수고를 덜었어.",
 			typewriter = {
 				speed = 0.05,
@@ -54,12 +54,12 @@ return {
 			}
 		},
 		{
-			actor = 602010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "토리첼리, 즉시 주변 함대에게 대피하라고 알리도록. 적은 우리가 해결하도록 하지.",
 			typewriter = {
 				speed = 0.05,
@@ -74,10 +74,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 608010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "라져————",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아, 잠깐. 주변의 모든 선박들에게 사르데냐 엠파이어 해군이 보호한다는 사실을 알리는 것 잊지 마!",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 608010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그래, 그래...",
 			typewriter = {
 				speed = 0.05,

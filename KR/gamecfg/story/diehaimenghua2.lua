@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "천암도·천수각",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-1",
+			say = "천암도·천수각",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "나는 괜찮다. 본섬에서 야마토, 무사시와 상의하는 것이 순리니까.",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "그게 문제가 아니예요… 시나노님은 방금 깨어나셔서 바깥에 아직 익숙하지 않으시니까…",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -127,8 +127,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "그럴 리가… 현세의 일도, 사쿠라 엠파이어의 내부 사정도 전부 다 알고 있어.",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "게다가 상부에서도 시나노님을 모실 함대를 보내준다고 했으니까요. 걱정이 너무 과해요.",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "이번에는 키이가 함대를 맡기로 했어요. 성격은 조금 호탕하지만… 실력은 제일이니 걱정 마세요.",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "하지만…… 됐어요, 결정했습니다! 제가 시나노님을 모시고 함께 가겠어요.",
 			dialogShake = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "엣?!!",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "…배치 변경은 먼저 상부에 신청해야 하는 사안이에요. 시간이 부족할텐데요?",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "지금의 노시로는 고집이 세구나……",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "음, 노시로 하나 정도 늘어나는 것이라면…… 허락하지.",
 			typewriter = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "시나노님, 감사합니다!",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -318,9 +318,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "(노크 소리)",
 			typewriter = {
 				speed = 0.05,
@@ -380,14 +380,14 @@ return {
 			}
 		},
 		{
-			actor = 305140,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actorName = "{namecode:175}&{namecode:179}",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			nameColor = "#a9f548",
+			actor = 305140,
+			actorName = "{namecode:175}&{namecode:179}",
 			say = "알겠어요!\n알겠습니다.",
 			subActors = {
 				{

@@ -1,13 +1,13 @@
 slot0 = class("CourtYardEffectAgent", import(".CourtYardAgent"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.effects = {}
 	slot0.counts = {}
 end
 
-function slot0.EnableEffect(slot0, slot1)
+slot0.EnableEffect = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -43,7 +43,7 @@ function slot0.EnableEffect(slot0, slot1)
 	end)
 end
 
-function slot0.DisableEffect(slot0, slot1)
+slot0.DisableEffect = function(slot0, slot1)
 	if not slot0.effects[slot1] then
 		return
 	end
@@ -57,7 +57,7 @@ function slot0.DisableEffect(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	for slot4, slot5 in pairs(slot0.effects) do
 		PoolMgr.GetInstance():ReturnPrefab("ui/" .. slot4, slot4, slot5)
 	end

@@ -6,7 +6,7 @@ slot0.PVP_FLEET_ID = 101
 slot0.CHALLENGE_FLEET_ID = 102
 slot0.CHALLENGE_SUB_FLEET_ID = 103
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.extraFleets = {}
 	slot0.activityFleetData = {}
 
@@ -78,7 +78,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.CreateFleet(slot0)
+slot0.CreateFleet = function(slot0)
 	CreateShell(slot0).fleetType = FleetType.Normal
 
 	if Fleet.REGULAR_FLEET_ID <= slot0.id and slot1 < Fleet.REGULAR_FLEET_ID + Fleet.REGULAR_FLEET_NUMS then
@@ -98,7 +98,7 @@ function slot0.CreateFleet(slot0)
 	return TypedFleet.New(slot2)
 end
 
-function slot0.addFleet(slot0, slot1)
+slot0.addFleet = function(slot0, slot1)
 	assert(isa(slot1, Fleet), "should be an instance of Fleet")
 	assert(slot0.data[slot1.id] == nil, "fleet already exist, use updateFleet() instead")
 
@@ -110,7 +110,7 @@ function slot0.addFleet(slot0, slot1)
 	slot0.facade:sendNotification(uv0.FLEET_ADDED, slot1:clone())
 end
 
-function slot0.updateFleet(slot0, slot1)
+slot0.updateFleet = function(slot0, slot1)
 	assert(isa(slot1, Fleet), "should be an instance of Fleet")
 
 	if slot0.data[slot1.id] ~= nil then
@@ -131,7 +131,7 @@ function slot0.updateFleet(slot0, slot1)
 	slot0.facade:sendNotification(uv0.FLEET_UPDATED, slot1.id)
 end
 
-function slot0.saveEdittingFleet(slot0)
+slot0.saveEdittingFleet = function(slot0)
 	if slot0.editSrcCache == nil then
 		slot0.editSrcCache = Clone(slot0.data)
 	end
@@ -144,7 +144,7 @@ function slot0.saveEdittingFleet(slot0)
 	end
 end
 
-function slot0.commitEdittingFleet(slot0, slot1)
+slot0.commitEdittingFleet = function(slot0, slot1)
 	slot2 = {}
 
 	if slot0.EdittingFleet ~= nil then
@@ -168,7 +168,7 @@ function slot0.commitEdittingFleet(slot0, slot1)
 	end)
 end
 
-function slot0.abortEditting(slot0)
+slot0.abortEditting = function(slot0)
 	if slot0.editSrcCache then
 		slot0.data = slot0.editSrcCache
 		slot0.editSrcCache = nil
@@ -177,7 +177,7 @@ function slot0.abortEditting(slot0)
 	slot0.EdittingFleet = nil
 end
 
-function slot0.syncFleet(slot0)
+slot0.syncFleet = function(slot0)
 	for slot4, slot5 in ipairs(slot0.data) do
 		slot0.facade:sendNotification(GAME.UPDATE_FLEET, {
 			fleet = slot5
@@ -185,11 +185,11 @@ function slot0.syncFleet(slot0)
 	end
 end
 
-function slot0.getCount(slot0)
+slot0.getCount = function(slot0)
 	return table.getCount(slot0.data)
 end
 
-function slot0.getFleetById(slot0, slot1)
+slot0.getFleetById = function(slot0, slot1)
 	if slot0.data[slot1] ~= nil then
 		return slot0.data[slot1]:clone()
 	end
@@ -201,7 +201,7 @@ function slot0.getFleetById(slot0, slot1)
 	return nil
 end
 
-function slot0.getAllShipIds(slot0, slot1)
+slot0.getAllShipIds = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data) do
@@ -215,7 +215,7 @@ function slot0.getAllShipIds(slot0, slot1)
 	return slot2
 end
 
-function slot0.getFirstFleetShipCount(slot0)
+slot0.getFirstFleetShipCount = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.data[1].ships) do
@@ -225,7 +225,7 @@ function slot0.getFirstFleetShipCount(slot0)
 	return slot1
 end
 
-function slot0.GetRegularFleets(slot0)
+slot0.GetRegularFleets = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
@@ -237,7 +237,7 @@ function slot0.GetRegularFleets(slot0)
 	return slot1
 end
 
-function slot0.inPvPFleet(slot0, slot1)
+slot0.inPvPFleet = function(slot0, slot1)
 	if slot0.data[FleetProxy.PVP_FLEET_ID]:containShip(slot1) then
 		return true
 	end
@@ -245,7 +245,7 @@ function slot0.inPvPFleet(slot0, slot1)
 	return false
 end
 
-function slot0.GetRegularFleetByShip(slot0, slot1)
+slot0.GetRegularFleetByShip = function(slot0, slot1)
 	slot5 = Ship
 
 	assert(isa(slot1, slot5), "should be an instance of Ship")
@@ -259,7 +259,7 @@ function slot0.GetRegularFleetByShip(slot0, slot1)
 	return nil
 end
 
-function slot0.renameFleet(slot0, slot1, slot2)
+slot0.renameFleet = function(slot0, slot1, slot2)
 	assert(slot0:getFleetById(slot1) ~= nil, "fleet should exist")
 
 	slot3.name = slot2
@@ -268,7 +268,7 @@ function slot0.renameFleet(slot0, slot1, slot2)
 	slot0.facade:sendNotification(uv0.FLEET_RENAMED, slot3:clone())
 end
 
-function slot0.getCommandersInFleet(slot0)
+slot0.getCommandersInFleet = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
@@ -282,7 +282,7 @@ function slot0.getCommandersInFleet(slot0)
 	return slot1
 end
 
-function slot0.getCommanders(slot0)
+slot0.getCommanders = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
@@ -300,7 +300,7 @@ function slot0.getCommanders(slot0)
 	return slot1
 end
 
-function slot0.GetExtraCommanders(slot0)
+slot0.GetExtraCommanders = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.extraFleets) do
@@ -316,11 +316,11 @@ function slot0.GetExtraCommanders(slot0)
 	return slot1
 end
 
-function slot0.getActivityFleets(slot0)
+slot0.getActivityFleets = function(slot0)
 	return slot0.activityFleetData
 end
 
-function slot0.addActivityFleet(slot0, slot1, slot2)
+slot0.addActivityFleet = function(slot0, slot1, slot2)
 	if not slot0.activityFleetData[slot1.id] then
 		slot0.activityFleetData[slot3] = {}
 	end
@@ -329,7 +329,7 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 	slot5 = getProxy(BayProxy)
 	slot6, slot7 = nil
 
-	function slot8()
+	slot8 = function()
 		if uv0 then
 			return uv0
 		end
@@ -423,13 +423,13 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inActivity")
 end
 
-function slot0.updateActivityFleet(slot0, slot1, slot2, slot3)
+slot0.updateActivityFleet = function(slot0, slot1, slot2, slot3)
 	slot0.activityFleetData[slot1][slot2] = slot3
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inActivity")
 end
 
-function slot0.commitActivityFleet(slot0, slot1)
+slot0.commitActivityFleet = function(slot0, slot1)
 	slot0.editSrcCache = nil
 	slot0.EdittingFleet = nil
 
@@ -439,7 +439,7 @@ function slot0.commitActivityFleet(slot0, slot1)
 	})
 end
 
-function slot0.checkActivityFleet(slot0, slot1)
+slot0.checkActivityFleet = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot0.activityFleetData[slot1]) do
 		if slot6 < Fleet.SUBMARINE_FLEET_ID and slot7:isLegalToFight() == true then
 			return true
@@ -449,7 +449,7 @@ function slot0.checkActivityFleet(slot0, slot1)
 	return false
 end
 
-function slot0.removeActivityFleetCommander(slot0, slot1)
+slot0.removeActivityFleetCommander = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.activityFleetData) do
 		for slot10, slot11 in pairs(slot6) do
 			slot12 = false
@@ -474,11 +474,11 @@ function slot0.removeActivityFleetCommander(slot0, slot1)
 	end
 end
 
-function slot0.recommendActivityFleet(slot0, slot1, slot2)
+slot0.recommendActivityFleet = function(slot0, slot1, slot2)
 	slot4 = slot0:getActivityFleets()[slot1][slot2]
 	slot5 = getProxy(BayProxy)
 
-	function slot6(slot0, slot1)
+	slot6 = function(slot0, slot1)
 		slot7 = slot1
 		slot8 = uv2
 
@@ -506,7 +506,7 @@ function slot0.recommendActivityFleet(slot0, slot1, slot2)
 	slot0:updateActivityFleet(slot1, slot2, slot4)
 end
 
-function slot0.GetBossRushFleets(slot0, slot1, slot2)
+slot0.GetBossRushFleets = function(slot0, slot1, slot2)
 	slot4 = slot0:getActivityFleets()[slot1]
 
 	table.Foreach(slot2, function (slot0, slot1)

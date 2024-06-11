@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"After the Flowers Bloomed\n\n<size=45>2 Shopping for Sweets</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "Curiosity overtook me, and I asked Fusou what she had planned on doing with the money.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "Curiosity overtook me, and I asked Fusou what she had planned on doing with the money.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,14 +99,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "When we arrived at the shop, we ran into Michishio, who had come at about the same time as us.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301650,
+			nameColor = "#a9f548",
 			say = "Ehh? You're also here for the daifuku?!",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301650,
+			nameColor = "#a9f548",
 			say = "Thanks, Fusou, you're the best! Ahh, I love daifuku~♪",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "Michishio happily bounced out of the store with the purchased daifuku in hand.",
@@ -342,8 +342,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,

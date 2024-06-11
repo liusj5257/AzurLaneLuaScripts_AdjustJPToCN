@@ -2,19 +2,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66181
 				}
@@ -24,19 +24,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66182
 				}
@@ -46,19 +46,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66183
 				}
@@ -68,19 +68,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66184
 				}
@@ -90,19 +90,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66185
 				}
@@ -112,19 +112,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66186
 				}
@@ -134,19 +134,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66187
 				}
@@ -156,19 +156,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66188
 				}
@@ -178,19 +178,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66189
 				}
@@ -200,19 +200,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10661
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 66190
 				}
@@ -222,11 +222,11 @@ return {
 	uiEffect = "",
 	name = "狙击手",
 	cd = 0,
+	picture = "0",
+	desc = "狙击手",
 	painting = 1,
 	id = 10660,
-	picture = "0",
 	castCV = "skill",
-	desc = "狙击手",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -237,19 +237,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 10661
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandom",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandom",
 			arg_list = {
 				weapon_id = 66180
 			}

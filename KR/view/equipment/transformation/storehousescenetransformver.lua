@@ -2,11 +2,11 @@ slot0 = class("StoreHouseSceneTransformVer", import("view.base.BaseUI"))
 slot1 = require("view.equipment.EquipmentSortCfg")
 slot2 = 0
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "StoreHouseUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0.contextData
 	slot0.topItems = slot0:findTF("topItems")
 	slot0.equipmentView = slot0:findTF("equipment_scrollview")
@@ -87,17 +87,17 @@ function slot0.init(slot0)
 	setText(slot0.selectTransformPanel:Find("confirm_button/Image"), i18n("msgbox_text_confirm"))
 end
 
-function slot0.setSources(slot0, slot1)
+slot0.setSources = function(slot0, slot1)
 	slot0.sourceVOs = slot1
 end
 
-function slot0.OnMediatorRegister(slot0)
+slot0.OnMediatorRegister = function(slot0)
 	slot0.warp = slot0.contextData.warp or StoreHouseConst.WARP_TO_WEAPON
 	slot0.mode = slot0.contextData.mode or StoreHouseConst.OVERVIEW
 	slot0.page = uv0
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 
@@ -160,7 +160,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0.sortPanel) then
@@ -172,7 +172,7 @@ function slot0.onBackPressed(slot0)
 	triggerButton(slot0.backBtn)
 end
 
-function slot0.initSort(slot0)
+slot0.initSort = function(slot0)
 	onButton(slot0, slot0.decBtn, function ()
 		uv0.asc = not uv0.asc
 		uv0.contextData.asc = uv0.asc
@@ -181,45 +181,45 @@ function slot0.initSort(slot0)
 	end)
 end
 
-function slot0.initEquipments(slot0)
+slot0.initEquipments = function(slot0)
 	slot0.isInitWeapons = true
 	slot0.equipmentRect = slot0.equipmentView:GetComponent("LScrollRect")
 
-	function slot0.equipmentRect.onInitItem(slot0)
+	slot0.equipmentRect.onInitItem = function(slot0)
 		uv0:initEquipment(slot0)
 	end
 
 	slot0.equipmentRect.decelerationRate = 0.07
 
-	function slot0.equipmentRect.onUpdateItem(slot0, slot1)
+	slot0.equipmentRect.onUpdateItem = function(slot0, slot1)
 		uv0:updateEquipment(slot0, slot1)
 	end
 
-	function slot0.equipmentRect.onStart()
+	slot0.equipmentRect.onStart = function()
 		uv0:updateSelected()
 	end
 
 	slot0.equipmentRect:ScrollTo(0)
 end
 
-function slot0.updateEquipmentCount(slot0, slot1)
+slot0.updateEquipmentCount = function(slot0, slot1)
 	slot0.equipmentRect:SetTotalCount(slot1 or #slot0.loadEquipmentVOs, -1)
 	setActive(slot0.listEmptyTF, (slot1 or #slot0.loadEquipmentVOs) <= 0)
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_storehouseui_equip"))
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.ScrollEquipPos(slot0, slot1)
+slot0.ScrollEquipPos = function(slot0, slot1)
 	slot2 = slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup))
 
 	slot0.equipmentRect:ScrollTo((slot1 - slot0.equipmentView.rect.height * 0.5) / ((slot2.cellSize.y + slot2.spacing.y) * math.ceil(#slot0.loadEquipmentVOs / slot2.constraintCount) - slot2.spacing.y + slot0.equipmentRect.paddingFront + slot0.equipmentRect.paddingEnd - slot0.equipmentView.rect.height > 0 and slot5 or slot4))
 end
 
-function slot0.onUIAnimEnd(slot0, slot1)
+slot0.onUIAnimEnd = function(slot0, slot1)
 	slot0.onAnimDoneCallback = slot1
 end
 
-function slot0.ExecuteAnimDoneCallback(slot0)
+slot0.ExecuteAnimDoneCallback = function(slot0)
 	if slot0.onAnimDoneCallback then
 		slot0.onAnimDoneCallback()
 
@@ -227,7 +227,7 @@ function slot0.ExecuteAnimDoneCallback(slot0)
 	end
 end
 
-function slot0.selectCount(slot0)
+slot0.selectCount = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.selectedIds) do
@@ -237,7 +237,7 @@ function slot0.selectCount(slot0)
 	return slot1
 end
 
-function slot0.SelectTransformEquip(slot0, slot1, slot2)
+slot0.SelectTransformEquip = function(slot0, slot1, slot2)
 	slot3 = false
 
 	if slot0.selectedIds[1] and EquipmentTransformUtil.SameDrop(slot0.selectedIds[1][1], slot1) then
@@ -261,7 +261,7 @@ function slot0.SelectTransformEquip(slot0, slot1, slot2)
 	slot0:updateSelected()
 end
 
-function slot0.initEquipment(slot0, slot1)
+slot0.initEquipment = function(slot0, slot1)
 	slot2 = EquipmentItemTransformVer.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -275,7 +275,7 @@ function slot0.initEquipment(slot0, slot1)
 	slot0.equipmetItems[slot1] = slot2
 end
 
-function slot0.updateEquipment(slot0, slot1, slot2)
+slot0.updateEquipment = function(slot0, slot1, slot2)
 	if not slot0.equipmetItems[slot2] then
 		slot0:initEquipment(slot2)
 
@@ -303,7 +303,7 @@ function slot0.updateEquipment(slot0, slot1, slot2)
 	slot3:updateSelected(slot5, slot6)
 end
 
-function slot0.updateSelected(slot0)
+slot0.updateSelected = function(slot0)
 	for slot4, slot5 in pairs(slot0.equipmetItems) do
 		if slot5.sourceVO then
 			slot6 = false
@@ -323,7 +323,7 @@ function slot0.updateSelected(slot0)
 	end
 end
 
-function slot0.filterEquipment(slot0)
+slot0.filterEquipment = function(slot0)
 	slot1 = slot0.contextData.sortData
 	slot0.loadEquipmentVOs = {}
 
@@ -354,7 +354,7 @@ function slot0.filterEquipment(slot0)
 	setActive(slot0.sortImgDec, not slot0.asc)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topItems, slot0._tf)
 end

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 引导发射器TAG",
 	time = 0,
-	color = "blue",
+	name = "2023英系活动 EX 引导发射器TAG",
+	init_effect = "",
+	id = 200274,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200274,
+	color = "blue",
 	icon = 200274,
 	last_effect = "",
 	effect_list = {

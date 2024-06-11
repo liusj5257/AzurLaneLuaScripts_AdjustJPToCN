@@ -1,10 +1,10 @@
 slot0 = class("NewNavalTacticsSelSkillsPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewNavalTacticsSkillsPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.confrimBtn = slot0:findTF("frame/confirm_btn")
 	slot0.skillTpl = slot0:findTF("frame/skill_container/content/skill")
 	slot0.emptyTpl = slot0:findTF("frame/skill_container/content/empty")
@@ -21,15 +21,15 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/bg/title"), i18n("nav_tactics_sel_skill_title"))
 end
 
-function slot0.SetCancelCallback(slot0, slot1)
+slot0.SetCancelCallback = function(slot0, slot1)
 	slot0.onCancelCallback = slot1
 end
 
-function slot0.SetHideCallback(slot0, slot1)
+slot0.SetHideCallback = function(slot0, slot1)
 	slot0.onHideCallback = slot1
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Cancel()
 		uv0:Hide()
@@ -58,7 +58,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
@@ -72,11 +72,11 @@ function slot0.Show(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Cancel(slot0)
+slot0.Cancel = function(slot0)
 	slot0:emit(NewNavalTacticsMediator.ON_CANCEL_ADD_STUDENT)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 
@@ -87,7 +87,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.UpdateSkillList(slot0, slot1)
+slot0.UpdateSkillList = function(slot0, slot1)
 	slot5 = #getProxy(BayProxy):RawGetShipById(slot1.shipId):getSkillList() >= 3 and slot4 or 3
 
 	for slot9 = 1, slot4 do
@@ -113,7 +113,7 @@ function slot0.UpdateSkillList(slot0, slot1)
 	end
 end
 
-function slot0.TriggerDefault(slot0, slot1)
+slot0.TriggerDefault = function(slot0, slot1)
 	if slot0.skillIndex and slot2 > 0 then
 		triggerToggle(slot0.skillCards[slot2]._tf, true)
 		triggerButton(slot0.confrimBtn)
@@ -122,7 +122,7 @@ function slot0.TriggerDefault(slot0, slot1)
 	slot0.skillIndex = nil
 end
 
-function slot0.UpdateSkill(slot0, slot1, slot2)
+slot0.UpdateSkill = function(slot0, slot1, slot2)
 	if not slot0.skillCards[slot1] then
 		slot0.skillCards[slot1] = NewNavalTacticsSkillCard.New(Object.Instantiate(slot0.skillTpl, slot0.skillTpl.parent))
 	end
@@ -140,13 +140,13 @@ function slot0.UpdateSkill(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.ClearShipCards(slot0, slot1, slot2)
+slot0.ClearShipCards = function(slot0, slot1, slot2)
 	for slot6 = #slot1, slot2 + 1, -1 do
 		slot1[slot6]:Disable()
 	end
 end
 
-function slot0.UpdateEmptySkill(slot0, slot1, slot2)
+slot0.UpdateEmptySkill = function(slot0, slot1, slot2)
 	if not slot0.emptyTpls[slot1] then
 		slot0.emptyTpls[slot1] = Object.Instantiate(slot0.emptyTpl, slot0.emptyTpl.parent)
 	end
@@ -155,13 +155,13 @@ function slot0.UpdateEmptySkill(slot0, slot1, slot2)
 	setActive(slot3, true)
 end
 
-function slot0.ClearEmtptyTpls(slot0, slot1, slot2)
+slot0.ClearEmtptyTpls = function(slot0, slot1, slot2)
 	for slot6 = #slot1, slot2 + 1, -1 do
 		setActive(slot1[slot6], false)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

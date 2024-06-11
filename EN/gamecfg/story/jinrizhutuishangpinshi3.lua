@@ -1,34 +1,34 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINRIZHUTUISHANGPINSHI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINRIZHUTUISHANGPINSHI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Port - Office",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "It's the time of day Akashi usually shows up, yet she's nowhere to be seen.",
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Turning on the TV shows that her livestream isn't on, either. Did our stubborn sales-cat finally give up?",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -92,10 +92,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you wanna see me, come to Seashore Avenue now, nya! I'm waiting for you here, nya~",
 			painting = {
 				alpha = 0.3,
@@ -131,27 +131,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_526",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_526",
 			say = "Port - Seashore Avenue",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My biggest sale of the year officially starts... now, nya!",
 			painting = {
 				alpha = 0.3,
@@ -179,10 +179,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "There's so much to choose from, from tons of limited-time skins making a comeback, to bundle deals with unbelievable savings, nya!",
 			painting = {
 				alpha = 0.3,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The more you buy, the bigger the discount, nya~ Better buy now, nya~",
 			painting = {
 				alpha = 0.3,
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But I'm not done yet, nya! Even if all you do is come and window-shop, you'll get a gift bag ABSOLUTELY FREE, nya!",
 			painting = {
 				alpha = 0.3,
@@ -229,12 +229,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "These prices are so low that you'd need a greatsword to slash them more, nya! Any lower would be illegal, really, nya!",
 			painting = {
 				alpha = 0.3,
@@ -246,27 +246,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_blackfriday_cg",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_blackfriday_cg",
 			say = "The moment I set foot on Seashore Avenue, I spot Akashi with a microphone in hand – or paw, who knows? – working hard to lure in customers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
 			say = "She and three other shipgirls are up on a stage packed with products. They strike eye-catching poses and hype the place up.",
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
 			say = "Next to the sea and the beach, under white clouds and blue skies, the shipgirls holler and hoot on Seashore Avenue.",
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
 			say = "Akashi has finally found the sales strategy that suits her most.",
@@ -307,28 +307,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "First of all, I want to say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -346,13 +346,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I couldn't have done it without you, Commander, nya~",
 			painting = {
 				alpha = 0.3,
@@ -383,13 +383,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hehehehe... And while you're here, why not check out my wares and buy something you like, nya?",
 			painting = {
 				alpha = 0.3,
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -472,13 +472,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 301180,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What? Wait...",
 			painting = {
 				alpha = 0.3,
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			optionFlag = 2,

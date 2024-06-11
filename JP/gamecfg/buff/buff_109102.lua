@@ -8,8 +8,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.05
+					number = 0.05,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.05
+					number = 0.05,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -33,8 +33,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.061
+					number = 0.061,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.061
+					number = 0.061,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -58,8 +58,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.072
+					number = 0.072,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.072
+					number = 0.072,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.083
+					number = 0.083,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.083
+					number = 0.083,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.094
+					number = 0.094,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.094
+					number = 0.094,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.105
+					number = 0.105,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.105
+					number = 0.105,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -158,8 +158,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.116
+					number = 0.116,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.116
+					number = 0.116,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.127
+					number = 0.127,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.127
+					number = 0.127,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -208,8 +208,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.138
+					number = 0.138,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.138
+					number = 0.138,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.15
+					number = 0.15,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			},
 			{
@@ -243,15 +243,15 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_ITEMHIT",
-					number = 0.15
+					number = 0.15,
+					attr = "CRI_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "jinengchufared",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -266,8 +266,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "CRI_TAG_EHC_ITEMHIT",
-				number = 0.05
+				number = 0.05,
+				attr = "CRI_TAG_EHC_ITEMHIT"
 			}
 		},
 		{
@@ -276,8 +276,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "CRI_TAG_EHC_ITEMHIT",
-				number = 0.05
+				number = 0.05,
+				attr = "CRI_TAG_EHC_ITEMHIT"
 			}
 		}
 	}

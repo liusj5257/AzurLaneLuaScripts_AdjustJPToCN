@@ -1,6 +1,6 @@
 slot0 = class("HarvestClassResourceCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if getProxy(NavalAcademyProxy):GetClassVO():GetCanGetResCnt() <= 0 then

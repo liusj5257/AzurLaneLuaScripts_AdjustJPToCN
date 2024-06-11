@@ -2,19 +2,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67721
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67731
 				}
@@ -24,19 +24,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67722
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67732
 				}
@@ -46,19 +46,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67723
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67733
 				}
@@ -68,19 +68,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67724
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67734
 				}
@@ -90,19 +90,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67725
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67735
 				}
@@ -112,19 +112,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67726
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67736
 				}
@@ -134,19 +134,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67727
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67737
 				}
@@ -156,19 +156,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67728
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67738
 				}
@@ -178,19 +178,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67729
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67739
 				}
@@ -200,19 +200,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67730
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 67740
 				}
@@ -222,11 +222,11 @@ return {
 	uiEffect = "",
 	name = "战无不胜",
 	cd = 0,
+	picture = "0",
+	desc = "战无不胜",
 	painting = 1,
 	id = 11811,
-	picture = "0",
 	castCV = "skill",
-	desc = "战无不胜",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

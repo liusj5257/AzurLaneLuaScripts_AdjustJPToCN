@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"神秘的兔兔星人？！\n\n<size=45>六 兔兔星來客？！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·廣場",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·廣場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "根據報告，今晚會有流星雨的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "……諸如此類，看起來，女孩們對於流星十分感興趣的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "在一邊的貝利似乎比往常心情還要好的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "……原來還有這樣的思考方式。",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "不過果然再怎麼說也不太可能是兔兔星的飛船……",
 			typewriter = {
 				speed = 0.05,
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "路過的{namecode:98}給出了科學上的意見。",
 			typewriter = {
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "……啊，不、不過喵！{namecode:98}也沒有看得很仔細喵，有飛船混在裡面也說不定喵！",
 			typewriter = {
 				speed = 0.05,
@@ -263,16 +263,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "而且，兔兔星的話，說不定外星系什麼的有存在喵！",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "雖然明石馬上補救，不過氣氛似乎變得有點尷尬起來",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,

@@ -1,15 +1,15 @@
 return {
-	id = "W2108",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2108",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "スキャンが完了しました。この装置を起動させることができれば、エリアの詳細情報を確認できるようです",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「エネルギー貯蔵装置」を1個消費し、装置を起動しますか？",
 			painting = {
 				alpha = 0.3,

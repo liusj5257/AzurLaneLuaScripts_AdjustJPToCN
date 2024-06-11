@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "队伍伤害提高30%",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "队伍伤害提高30%",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.04
+				number = 0.04,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

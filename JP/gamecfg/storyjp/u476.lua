@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U476",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U476",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"やさしくて静かであたたかくて\n\n<size=45>六 一匹狼として</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "――模擬演習、当日。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "――模擬演習、当日。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "あ！きたきた！U-47こっちだぞー！",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			soundeffect = "event:/ui/alarm",
-			dir = 1,
 			say = "その時、大きなサイレンがU-47たちのいる海域に響き渡った。模擬演習の開始を告げる合図の音である。",
+			dir = 1,
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "U-47は先行で進んでいって敵を待ち伏せして！",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,8 +294,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "U-47は一匹狼として自由に動けるし、それをフォローしながらわたしたちは立ち回るんだ！",
 			typewriter = {
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "U-47はぽつりとそう呟くと、ぐっと拳を握って前を見据えた。",
@@ -387,14 +387,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "――こうして始まった模擬演習の中で、三人の作戦は見事に功を奏したのだった。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,

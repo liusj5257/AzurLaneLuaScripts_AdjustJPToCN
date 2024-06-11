@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD500C",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD500C",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "ユニオン前哨基地　翌日",
 			dir = 1,
 			bgm = "blueocean-image",
+			stopbgm = true,
+			say = "ユニオン前哨基地　翌日",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "中心エリアにセイレーン要塞が出現してから、日に日にセイレーンの来襲頻度が高くなっている。",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "こちらの総攻撃を阻止する魂胆かは分からない。ただの威力偵察かもしれないが……",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "いずれにしても、総攻撃を早く決行しなければ補給線が長くなっているこちらのほうが不利だ",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "執務室で今日こそ上層部を説得する、と決心していると――",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "コンコン",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "はい？",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "エンタープライズか。",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "上層部にセイレーンの脅威を説明し、総攻撃の実施を決断させるためには――",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "そして、手に入れた情報に基づいて上層部に内申する。仮にセイレーンの兵力が想像以上だったとしても、援軍要請や撤退といった後退策も作れる",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "聞けば、サディアで鉄血や重桜――レッドアクシズの艦船たちとの協同について話し合っているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "指揮官、予定通り威力偵察が成功しても、本当に総力戦を決行できるのだろうか。",
 			typewriter = {
@@ -253,9 +253,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "努力はするつもりだが、上層部の性格だと思い通りにいかない可能性もある。",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "指揮官も察しの通り、我々に残された時間はそう多くない。終わりの見えない協議に付き合うより、思い切って行動に出たほうが局面を変えられるかもしれない",
 			typewriter = {
@@ -300,9 +300,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "強引にやれば上層部の作戦始動をはねのけるだけの権限は持っている――そのための威力偵察だ。",
 			typewriter = {
 				speed = 0.05,

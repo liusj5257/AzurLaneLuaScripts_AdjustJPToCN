@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "不破之盾",
 	time = 0,
+	name = "不破之盾",
+	init_effect = "",
 	picture = "",
 	desc = "可抵挡30次子弹的盾buff",
 	stack = 1,
@@ -17,9 +17,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 50,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -53,9 +53,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 50,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -89,9 +89,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 50,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

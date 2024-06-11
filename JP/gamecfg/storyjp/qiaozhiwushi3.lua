@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"もうひとりのカリスマ？\n\n<size=45>三　女王陛下と</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・ロイヤル寮",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・ロイヤル寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "――ロイヤル寮から女王陛下の声がした。",
 			typewriter = {
 				speed = 0.05,
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "ジョージ！何よこれ！",
 			dialogShake = {
 				speed = 0.09,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "どうやら今日の陛下はご立腹の様子。そして怒っている相手は……キングジョージ5世？",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "とりあえず様子を見に行こう。",
 			typewriter = {
 				speed = 0.05,
@@ -109,13 +109,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_107",
+			side = 2,
+			dir = 1,
 			say = "部屋に入ると、汗だくになっているクイーン・エリザベスはとある皿に載った料理とにらめっこしている。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "なによこの料理は！辛くないって言ったから信じたのに全然辛いじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 35,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "ベル！水！早く水持ってきなさい！",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "かしこまりました。",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -40,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "東煌の艦船から教わったこの本場の「マーボードウフ」……",
 			typewriter = {
@@ -251,9 +251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "確かにそのとおりかもしれないが……",
 			typewriter = {
 				speed = 0.05,
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "お水をお持ちしました",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "お水をお持ちしました",
+			actor = 202120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -301,11 +301,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			dir = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "エリザベスはメイド長からもらった水を飲み干すと、また目の前の麻婆豆腐と格闘し始めた。",
 			typewriter = {
@@ -353,8 +353,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "では、ごゆっくり",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "おや、今の見てたのか？",
 			typewriter = {
@@ -393,8 +393,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "なに、ただの嗜み程度のものよ。「腹が減っては戦は出来ぬ」――東洋の陣営では確かそんな諺があったが……",
 			typewriter = {

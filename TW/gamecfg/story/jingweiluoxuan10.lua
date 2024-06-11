@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107140,
-			side = 2,
 			bgName = "bg_luoxuan_1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "艾塞克斯級航空母艦提康德羅加前來參戰，大家久等了~",
 			bgm = "hunhe-battle",
+			actor = 107140,
+			nameColor = "#a9f548",
+			say = "艾塞克斯級航空母艦提康德羅加前來參戰，大家久等了~",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 102290,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
 			say = "得…得救了。",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 101470,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
 			say = "還以為要交代在這裡了…",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 107140,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
 			say = "有這麼誇張嗎？我覺得戰鬥起來很輕鬆哦，妳們也打下來不少吧？",
 			typewriter = {
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 101470,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101470,
+			nameColor = "#a9f548",
 			say = "真的哎…我還有小熊都沒受傷…？！",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 101470,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
 			say = "抱歉，看到滿天的重櫻飛機，心裡不自覺就慌亂起來了……",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 107140,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
 			say = "如果是真正的重櫻航母在操縱的話，這麼大規模的機群確實能帶來極其恐怖的破壞力呢。",
 			typewriter = {
@@ -212,10 +212,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "等等，不要全部消滅敵人。",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 102290,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
 			say = "欸？為什麼…",
 			typewriter = {
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "棋子艦隊的作戰模式單一。妳們看，投彈完畢的艦載機已經準備返航了。",
 			typewriter = {
 				speed = 0.05,
@@ -264,10 +264,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "既然有艦載機的話，那就一定有一支棋子航空艦隊在前方等著我們吧~",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 107140,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
 			say = "原來如此，妳想利用它們鎖定敵方艦隊的位置嗎？",
 			typewriter = {

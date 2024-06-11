@@ -1,10 +1,10 @@
 slot0 = class("QTEGameView", import("..BaseMiniGameView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "QTEGameUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.STATE_BEGIN = 1
 	slot0.STATE_COUNT = 2
 	slot0.STATE_CLICK = 3
@@ -136,10 +136,10 @@ function slot0.init(slot0)
 	slot0.backBtn = slot0:findTF("back_btn", slot0.content)
 	slot0.autoLoader = AutoLoader.New()
 
-	slot0.autoLoader:LoadSprite("ui/minigameui/qtegameuiasync/backgroud", "background", slot0.gameBg, false)
+	slot0.autoLoader:LoadSprite("ui/minigameui/qtegameuiasync_atlas", "background", slot0.gameBg, false)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initGame()
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:setGameState(uv0.STATE_BEGIN)
@@ -185,7 +185,7 @@ function slot0.didEnter(slot0)
 		setActive(uv0.endExitBtn, true)
 	end)
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		if uv0.gameState == uv0.STATE_CLICK and uv0.curShowBlock then
 			uv0.curShowBlock:select(slot0)
 
@@ -212,7 +212,7 @@ function slot0.didEnter(slot0)
 	slot0:checkHelp()
 end
 
-function slot0.initGame(slot0)
+slot0.initGame = function(slot0)
 	slot0.curShowBlock = nil
 	slot0.randomBlockList = nil
 	slot1 = slot0:GetMGData()
@@ -247,7 +247,7 @@ function slot0.initGame(slot0)
 	end)
 end
 
-function slot0.resetGame(slot0)
+slot0.resetGame = function(slot0)
 	slot0:setXgmAction("idle")
 	slot0:setGuinuAction("normal")
 	slot0:setBucketAAction("idle")
@@ -272,14 +272,14 @@ function slot0.resetGame(slot0)
 	slot0:cleanManagedTween()
 end
 
-function slot0.setGameState(slot0, slot1)
+slot0.setGameState = function(slot0, slot1)
 	if slot1 == slot0.gameState then
 		return
 	end
 
 	slot0.gameState = slot1
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		for slot5, slot6 in pairs({
 			uv0.startUI,
 			uv0.content,
@@ -369,7 +369,7 @@ function slot0.setGameState(slot0, slot1)
 	end
 end
 
-function slot0.fireBlocks(slot0)
+slot0.fireBlocks = function(slot0)
 	slot1 = slot0.opIndex
 	slot5 = slot0:getBlock(slot0.arBlockList[slot1].type, slot0.arBlockList[slot1].id)
 	slot6 = slot5.tf
@@ -452,7 +452,7 @@ function slot0.fireBlocks(slot0)
 	end, 0.2, nil)
 end
 
-function slot0.getRandomList(slot0)
+slot0.getRandomList = function(slot0)
 	if not slot0.allList then
 		slot0.allList = {}
 
@@ -499,7 +499,7 @@ function slot0.getRandomList(slot0)
 	return slot2, slot4, slot5
 end
 
-function slot0.hideRandomList(slot0)
+slot0.hideRandomList = function(slot0)
 	slot1 = slot0.firstShowBlock
 
 	while slot1 do
@@ -509,7 +509,7 @@ function slot0.hideRandomList(slot0)
 	end
 end
 
-function slot0.countScore(slot0, slot1)
+slot0.countScore = function(slot0, slot1)
 	if slot1 then
 		slot2 = nil
 
@@ -542,7 +542,7 @@ function slot0.countScore(slot0, slot1)
 	setText(slot0.scoreTxt, slot0.score)
 end
 
-function slot0.getUserResult(slot0)
+slot0.getUserResult = function(slot0)
 	slot1 = {}
 	slot2 = slot0.firstShowBlock
 
@@ -554,7 +554,7 @@ function slot0.getUserResult(slot0)
 	return slot1
 end
 
-function slot0.playArchiveAnim(slot0, slot1, slot2)
+slot0.playArchiveAnim = function(slot0, slot1, slot2)
 	slot0.arBlockList = slot1
 	slot0.opList = slot2
 	slot0.opIndex = 1
@@ -562,19 +562,19 @@ function slot0.playArchiveAnim(slot0, slot1, slot2)
 	slot0:setXgmAction("attack")
 end
 
-function slot0.checkPlayFinished(slot0)
+slot0.checkPlayFinished = function(slot0)
 	if slot0.opIndex >= #slot0.opList and slot0.remainTime > 0 then
 		slot0:setGameState(slot0.STATE_CLICK)
 	end
 end
 
-function slot0.checkEnd(slot0, slot1)
+slot0.checkEnd = function(slot0, slot1)
 	if slot1 >= #slot0.opList and slot0.remainTime <= 0 then
 		slot0:setGameState(slot0.STATE_END)
 	end
 end
 
-function slot0.parabolaMove(slot0, slot1, slot2, slot3, slot4)
+slot0.parabolaMove = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.rotate, nil, slot1, 135, slot2)
 	slot0:managedTween(LeanTween.moveX, nil, slot1, slot3.x, slot2):setEase(LeanTweenType.linear)
 	slot0:managedTween(LeanTween.moveY, function ()
@@ -584,7 +584,7 @@ function slot0.parabolaMove(slot0, slot1, slot2, slot3, slot4)
 	end, slot1, slot3.y, slot2):setEase(LeanTweenType.easeInQuad)
 end
 
-function slot0.parabolaMove_center(slot0, slot1, slot2, slot3, slot4)
+slot0.parabolaMove_center = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.rotate, nil, slot1, 135, slot2)
 	slot0:managedTween(LeanTween.moveX, nil, slot1, slot3.x, slot2):setEase(LeanTweenType.easeOutQuad)
 	slot0:managedTween(LeanTween.moveY, function ()
@@ -594,7 +594,7 @@ function slot0.parabolaMove_center(slot0, slot1, slot2, slot3, slot4)
 	end, slot1, slot3.y, slot2):setEase(LeanTweenType.linear)
 end
 
-function slot0.hitFly(slot0, slot1, slot2, slot3, slot4)
+slot0.hitFly = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.rotate, nil, slot1, 135, slot2)
 	slot0:managedTween(LeanTween.moveX, nil, slot1, slot3.x, slot2):setEase(LeanTweenType.linear)
 	slot0:managedTween(LeanTween.moveY, function ()
@@ -604,13 +604,13 @@ function slot0.hitFly(slot0, slot1, slot2, slot3, slot4)
 	end, slot1, slot3.y, slot2):setEase(LeanTweenType.easeOutQuad)
 end
 
-function slot0.loadXGM(slot0, slot1)
+slot0.loadXGM = function(slot0, slot1)
 	if slot0.xgm then
 		slot1()
 	else
 		slot2 = slot0.autoLoader
 
-		slot2:LoadPrefab("ui/minigameui/qtegameuiasync/xiongguimao", nil, function (slot0)
+		slot2:LoadPrefab("ui/minigameui/qtegameuiasync_atlas", "xiongguimao", function (slot0)
 			uv0.xgm = tf(slot0)
 			uv0.xgmSpine = uv0.xgm:GetComponent("SpineAnimUI")
 			uv0.xgmSklGraphic = uv0.xgm:GetComponent("SkeletonGraphic")
@@ -622,7 +622,7 @@ function slot0.loadXGM(slot0, slot1)
 	end
 end
 
-function slot0.initXGM(slot0)
+slot0.initXGM = function(slot0)
 	slot1 = slot0.xgmSpine
 
 	slot1:SetActionCallBack(function (slot0)
@@ -641,7 +641,7 @@ function slot0.initXGM(slot0)
 	end)
 end
 
-function slot0.loadGuinu(slot0, slot1)
+slot0.loadGuinu = function(slot0, slot1)
 	if slot0.guinu then
 		slot1()
 	else
@@ -659,7 +659,7 @@ function slot0.loadGuinu(slot0, slot1)
 	end
 end
 
-function slot0.initGuinu(slot0)
+slot0.initGuinu = function(slot0)
 	slot0.guinu.localScale = Vector3.one
 
 	slot0:setGuinuAction("normal")
@@ -673,7 +673,7 @@ function slot0.initGuinu(slot0)
 	end)
 end
 
-function slot0.setXgmAction(slot0, slot1)
+slot0.setXgmAction = function(slot0, slot1)
 	if not slot0.xgm then
 		return
 	end
@@ -683,7 +683,7 @@ function slot0.setXgmAction(slot0, slot1)
 	slot0.xgmSpine:SetAction(slot1, 0)
 end
 
-function slot0.setGuinuAction(slot0, slot1)
+slot0.setGuinuAction = function(slot0, slot1)
 	if not slot0.guinu then
 		return
 	end
@@ -693,23 +693,23 @@ function slot0.setGuinuAction(slot0, slot1)
 	slot0.guinuSpine:SetAction(slot1, 0)
 end
 
-function slot0.setBucketAAction(slot0, slot1)
+slot0.setBucketAAction = function(slot0, slot1)
 	slot0.bucketAGraphic.timeScale = slot0.bucketAAnimLength[slot1] / slot0.bucketAAnimTargetLength[slot1]
 
 	slot0.bucketASpine:SetAction(slot1, 0)
 end
 
-function slot0.setBucketBAction(slot0, slot1)
+slot0.setBucketBAction = function(slot0, slot1)
 	slot0.bucketBGraphic.timeScale = slot0.bucketBAnimLength[slot1] / slot0.bucketBAnimTargetLength[slot1]
 
 	slot0.bucketBSpine:SetAction(slot1, 0)
 end
 
-function slot0.showBucketAEffect(slot0)
+slot0.showBucketAEffect = function(slot0)
 	slot0.aEffectList = slot0.aEffectList or {}
 	slot0.aEffectUsingList = slot0.aEffectUsingList or {}
 
-	function slot1()
+	slot1 = function()
 		slot0 = table.remove(uv0.aEffectList, #uv0.aEffectList)
 		uv0.aEffectUsingList[#uv0.aEffectUsingList + 1] = slot0
 
@@ -736,7 +736,7 @@ function slot0.showBucketAEffect(slot0)
 	end
 end
 
-function slot0.recycleBucketAEffect(slot0, slot1)
+slot0.recycleBucketAEffect = function(slot0, slot1)
 	for slot5 = #slot0.aEffectUsingList, 1, -1 do
 		if slot0.aEffectUsingList[slot5] == slot1 then
 			setActive(slot1, false)
@@ -746,7 +746,7 @@ function slot0.recycleBucketAEffect(slot0, slot1)
 	end
 end
 
-function slot0.getBlock(slot0, slot1, slot2)
+slot0.getBlock = function(slot0, slot1, slot2)
 	slot3 = slot1 .. "-" .. slot2
 
 	if not slot0.blockPool then
@@ -784,7 +784,7 @@ function slot0.getBlock(slot0, slot1, slot2)
 	}
 end
 
-function slot0.recycleBlock(slot0, slot1)
+slot0.recycleBlock = function(slot0, slot1)
 	slot2 = slot1.tf
 	slot3 = slot0.blockPool[slot1.key]
 	slot3[#slot3 + 1] = slot2
@@ -793,24 +793,24 @@ function slot0.recycleBlock(slot0, slot1)
 	setActive(slot2, false)
 end
 
-function slot0.msHoldBlock(slot0, slot1)
+slot0.msHoldBlock = function(slot0, slot1)
 	setParent(slot1.tf, slot0.msHandSlot, false)
 
 	slot1.tf.localPosition = Vector2.zero
 	slot0.msBlockList[#slot0.msBlockList + 1] = slot1
 end
 
-function slot0.msClearHold(slot0)
+slot0.msClearHold = function(slot0)
 	for slot4 = #slot0.msBlockList, 1, -1 do
 		slot0:removeUsingBlock(table.remove(slot0.msBlockList, slot4))
 	end
 end
 
-function slot0.addUsingBlock(slot0, slot1)
+slot0.addUsingBlock = function(slot0, slot1)
 	slot0.usingBlockList[#slot0.usingBlockList + 1] = slot1
 end
 
-function slot0.removeUsingBlock(slot0, slot1)
+slot0.removeUsingBlock = function(slot0, slot1)
 	for slot5 = #slot0.usingBlockList, 1, -1 do
 		if slot0.usingBlockList[slot5].uid == slot1.uid then
 			slot0:recycleBlock(slot0.usingBlockList[slot5])
@@ -819,14 +819,14 @@ function slot0.removeUsingBlock(slot0, slot1)
 	end
 end
 
-function slot0.clearUsingBlock(slot0)
+slot0.clearUsingBlock = function(slot0)
 	for slot4 = #slot0.usingBlockList, 1, -1 do
 		slot0:recycleBlock(slot0.usingBlockList[slot4])
 		table.remove(slot0.usingBlockList, slot4)
 	end
 end
 
-function slot0.getShowBlock(slot0, slot1, slot2)
+slot0.getShowBlock = function(slot0, slot1, slot2)
 	slot4 = "item" .. (slot1 .. "-" .. slot2)
 	slot0.showBlockDic = slot0.showBlockDic or {}
 	slot5 = nil
@@ -845,7 +845,7 @@ function slot0.getShowBlock(slot0, slot1, slot2)
 		slot5.nextBlock = nil
 		slot5.userChoose = nil
 
-		function slot5.init(slot0)
+		slot5.init = function(slot0)
 			setActive(slot0.wrongTag, false)
 			setActive(slot0.rightTag, false)
 
@@ -854,18 +854,18 @@ function slot0.getShowBlock(slot0, slot1, slot2)
 			slot0.tf:SetAsLastSibling()
 		end
 
-		function slot5.select(slot0, slot1)
+		slot5.select = function(slot0, slot1)
 			slot0.userChoose = slot1
 
 			setActive(slot0.wrongTag, not slot0:isRight())
 			setActive(slot0.rightTag, slot0:isRight())
 		end
 
-		function slot5.showOrHide(slot0, slot1)
+		slot5.showOrHide = function(slot0, slot1)
 			setActive(slot0.tf, slot1)
 		end
 
-		function slot5.isRight(slot0)
+		slot5.isRight = function(slot0)
 			return slot0.userChoose == slot0.type
 		end
 	end
@@ -875,13 +875,13 @@ function slot0.getShowBlock(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot0.startGameTimer(slot0)
+slot0.startGameTimer = function(slot0)
 	slot1 = slot0:GetMGData()
 	slot0.remainTime = slot1:GetSimpleValue("gameTime")
 
 	setText(slot0.remainTxt, slot0.remainTime .. "S")
 
-	function slot1()
+	slot1 = function()
 		uv0.remainTime = uv0.remainTime - 1
 
 		setText(uv0.remainTxt, uv0.remainTime .. "S")
@@ -900,13 +900,13 @@ function slot0.startGameTimer(slot0)
 	slot0.remainTimer:Start()
 end
 
-function slot0.startRoundTimer(slot0)
+slot0.startRoundTimer = function(slot0)
 	slot1 = slot0:GetMGData()
 	slot0.roundTime = slot1:GetSimpleValue("roundTime")
 
 	setText(slot0.roundTxt, slot0.roundTime)
 
-	function slot1()
+	slot1 = function()
 		uv0.roundTime = uv0.roundTime - 1
 
 		setText(uv0.roundTxt, uv0.roundTime)
@@ -929,7 +929,7 @@ function slot0.startRoundTimer(slot0)
 	slot0.roundTimer:Start()
 end
 
-function slot0.clearTimer(slot0)
+slot0.clearTimer = function(slot0)
 	if slot0.remainTimer then
 		slot0.remainTimer:Stop()
 
@@ -943,7 +943,7 @@ function slot0.clearTimer(slot0)
 	end
 end
 
-function slot0.OnSendMiniGameOPDone(slot0, slot1)
+slot0.OnSendMiniGameOPDone = function(slot0, slot1)
 	slot2 = slot1.argList
 
 	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE and slot2[1] == 0 then
@@ -954,7 +954,7 @@ function slot0.OnSendMiniGameOPDone(slot0, slot1)
 	end
 end
 
-function slot0.checkHelp(slot0)
+slot0.checkHelp = function(slot0)
 	if PlayerPrefs.GetInt("QTEGameGuide", 0) == 0 then
 		triggerButton(slot0.ruleBtn)
 		PlayerPrefs.SetInt("QTEGameGuide", 1)
@@ -962,7 +962,7 @@ function slot0.checkHelp(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearTimer()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.endUI, slot0._tf)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.keyBar, slot0.content)

@@ -6,12 +6,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "上位個体「オミッター」の撃破を確認！ウラー！",
 			soundeffect = "event:/battle/boom2",
+			actor = 701030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "上位個体「オミッター」の撃破を確認！ウラー！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,10 +69,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "戦闘力が上位個体とは思えなかったわね。これが例のスペアボディなのかしら",
 			painting = {
 				alpha = 0.3,
@@ -86,10 +86,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それよりも今の量産型のセイレーン…これまで出会ったことのないタイプだったわね。ロシアは知ってる？",
 			painting = {
 				alpha = 0.3,
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いや……だが今まで戦ってきた量産機よりもだいぶ強いもののようだ",
 			painting = {
 				alpha = 0.3,
@@ -120,10 +120,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "人型の個体を倒しても制御が乱れていないことを考えると、指揮ユニットは――",
 			painting = {
 				alpha = 0.3,
@@ -137,10 +137,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オミッターがもう一人出てきました！今回も本体じゃなさそうです…！",
 			painting = {
 				alpha = 0.3,
@@ -154,10 +154,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロシア、こっちの量産艦の被害は予想以上よ。一度出直す？",
 			painting = {
 				alpha = 0.3,
@@ -171,10 +171,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まだだ。もう少し要塞に接近する！オミッターの本体もできればこっちに向かわせる！",
 			painting = {
 				alpha = 0.3,
@@ -188,10 +188,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "撤退するにしても、向こうの量産艦の特徴をちゃんと掴んでからだ！もう少し辛抱してくれ！",
 			painting = {
 				alpha = 0.3,

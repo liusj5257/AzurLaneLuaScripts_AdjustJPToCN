@@ -1,6 +1,6 @@
 slot0 = class("PublicGuildTechnologyCard", import("..cards.GuildTechnologyCard"))
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot3 = slot1.group
 	slot0.titleImg.text = slot1:getConfig("name")
 	slot0.iconImag.sprite = GetSpriteFromAtlas("GuildTechnology", slot1.group.id)

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA39",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA39",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,10 +35,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_mirror",
 			side = 0,
+			bgName = "bg_mirror",
+			hideOther = true,
 			dir = 1,
 			actor = 301840,
 			actorName = "涼月&花月",
@@ -64,8 +64,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "千歳、千代田、艦載機での制空、お願い申す――",
 			typewriter = {
@@ -78,10 +78,10 @@ return {
 			}
 		},
 		{
-			actor = 306080,
 			nameColor = "#a9f548",
-			bgName = "bg_mirror",
 			side = 0,
+			bgName = "bg_mirror",
+			actor = 306080,
 			dir = 1,
 			hideOther = true,
 			actorName = "千歳&千代田",
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "余人は、待機を――",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "よっしゃ！…って待機？？",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "テスターの反転を待ち、一挙に猛襲し、それを撃破す……！",
 			typewriter = {
@@ -184,9 +184,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "皆、妾にもう一度ご助力を……！",
 			typewriter = {

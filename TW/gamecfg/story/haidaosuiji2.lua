@@ -7,11 +7,11 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#A9F548FF",
-			actor = 406030,
 			dir = 1,
+			bgm = "main-SeaAndSun",
+			actor = 406030,
 			stopbgm = true,
 			say = "阿爾文斯，雖然能理解妳想要快點找到島上可能存在“寶藏”的心情——",
-			bgm = "main-SeaAndSun",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			say = "但我還是建議妳小心森林中可能存在的危險哦？就像之前給妳講過的那個故事一樣。",
 			painting = {
 				alpha = 0.3,
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 401990,
 			dir = 1,
+			actor = 401990,
 			say = "一眼看上去就像是廉價的童話故事……怎麼可能真的有會動的藤蔓——",
 			painting = {
 				alpha = 0.3,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "話音未落，阿爾文斯就踩到了什麼奇怪的東西。",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 401990,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "欸欸欸欸欸欸——！！！",
 			painting = {
 				alpha = 0.3,
@@ -109,8 +109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			say = "——然後整個人被糾纏的藤蔓給拉到了空中。",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			say = "嗯……果然是會主動出擊的藤蔓，看起來其他人的報告很準確呢。",
 			painting = {
 				alpha = 0.3,
@@ -159,8 +159,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			say = "生長的方式也很獨特，看起來值得拿回去好好研究研究呢。",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#A9F548FF",
-			actor = 401991,
 			dir = 1,
+			actor = 401991,
 			actorName = "奧托·馮·阿爾文斯萊本",
 			say = "喂——！！所以說妳早就知道這裡有這種東西的嗎？",
 			painting = {
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			expression = 6,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			say = "嗯哼。",
 			painting = {
 				alpha = 0.3,
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 401991,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actorName = "奧托·馮·阿爾文斯萊本",
 			dir = 1,
+			actor = 401991,
+			actorName = "奧托·馮·阿爾文斯萊本",
 			say = "那妳怎麼不早說——！！！",
 			painting = {
 				alpha = 0.3,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,9 +249,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 406030,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "妳也沒問我嘛。而且總要有一個人把它們給引出來，看妳跑得那麼快，就——",
 			painting = {
 				alpha = 0.3,
@@ -272,8 +272,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
-			actor = 401991,
 			dir = 1,
+			actor = 401991,
 			actorName = "奧托·馮·阿爾文斯萊本",
 			say = "嘖……纏得更緊了——不要一本正經地在旁邊觀察，先過來把我放下來再說！！！！",
 			painting = {
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,8 +1,8 @@
 return {
-	id = "BSMXU4",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "BSMXU4",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900180,

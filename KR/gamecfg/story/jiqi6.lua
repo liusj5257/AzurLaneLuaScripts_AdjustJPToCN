@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIQI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIQI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"어린 애가 아니야!\n\n<size=45>6. 성숙!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "항구-지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "항구-지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오늘도 평소와 같이……",
 			typewriter = {
 				speed = 0.05,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…?",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +86,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(잠, 잠시만. 대체 이게 무슨?)",
 			dialogShake = {
 				speed = 0.09,
@@ -108,8 +108,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "지휘관, 이해 못 했어? 나랑 데이트 하자!",
 			typewriter = {
@@ -122,9 +122,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(잠시 진정하고 이게 대체 무슨 상황인지 생각해 보자…)",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "“데이트하면 지휘관도 나를 다시 보게 될 거야. 더 이상 어린 애로 대하지 않겠지!” 이렇게 말 했다구!",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "하지만 이것 역시 지휘관이 나를 어린 애로 보고 있어서 그런거 아닐까… 돌봐줘야 한다고 생각해서 나에게 그렇게…",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "어린 애로 보여지고 싶지 않아.",
 			typewriter = {
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "그러니까 지휘관, 나랑 데이트 하자! 그러면 지휘관도 조금 다른 나를 보게 될거야!",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,8 +254,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "부탁해!",
 			typewriter = {
@@ -281,9 +281,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "제발!",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "됐다!",
 			typewriter = {

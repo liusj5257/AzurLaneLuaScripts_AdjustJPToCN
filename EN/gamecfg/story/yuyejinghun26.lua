@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN26",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_515",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The maid steels herself and runs out of the study. You hear the commotion outside the door intensify. You know for certain that she won't hold them back for long.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -67,9 +67,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Essex",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There's no time to waste. You put your hand on the doorknob, determined to bail right now, but then your brain sets off a warning alarm.",
 			typewriter = {
@@ -82,9 +82,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Essex",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It goes without saying that leaving through the door isn't the wisest choice. You should think of another way to get out.",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Essex",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The only way out is through the door... but, they will surely catch you if you try to leave that way.",
 			typewriter = {
@@ -264,28 +264,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_521",
+			bgm = "theme-shallowoftheworld",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sometime later...",
-			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -675,11 +675,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_506",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "story-oldcastle-carnival",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "After you drove off the avatar of the ancient god, you swiftly left the castle grounds.",
 			typewriter = {
@@ -687,17 +687,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -873,8 +873,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -884,8 +884,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			effects = {
 				{
 					active = true,

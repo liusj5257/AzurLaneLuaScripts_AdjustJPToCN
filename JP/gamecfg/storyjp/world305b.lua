@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD305B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD305B",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "NA海域南西・前哨基地建設地",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
-			say = "NA海域南西・前哨基地建設地",
+			bgm = "level02",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -50,8 +50,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そうでもあり、セイレーン作戦前線兵站支援部隊でもあるの！このサラトガちゃんがその護衛艦隊のメンバーなんだよ！",
 			typewriter = {
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "というわけで、出来たてのアイスクリームよ！",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "あわわ…ありがとうございます！",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "いるけど、自分でやるわ。サラトガさんに任せたら変ないたずらされちゃいそう",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "はい、一杯ください",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そうそう、コーヒーでも飲んで今日は臨時寮舎でゆっくり休もうね！",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "前哨基地はセイレーン作戦が次の段階に進むときに機能が更に強化されるから、楽しみにしておくといいわ！",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "とにかく、サラトガちゃんと指揮官を信じてってことよ！",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "Looking forward！楽しみにしてるよ！",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "イントレピッドちゃん、素直でよろしい！セイレーンと戦うのが大変でも余裕を忘れないようにね！",
 			typewriter = {
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "次の命令が来るまで、まずは休憩して英気を養ってね！",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

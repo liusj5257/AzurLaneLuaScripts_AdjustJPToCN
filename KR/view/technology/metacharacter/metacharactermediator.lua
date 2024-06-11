@@ -8,7 +8,7 @@ slot0.ON_TACTICS = "MetaCharacterMediator:ON_TACTICS"
 slot0.ON_SYN = "MetaCharacterMediator:ON_SYN"
 slot0.ON_UNLOCK = "MetaCharacterMediator:ON_UNLOCK"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OPEN_PT_PREVIEW_LAYER, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			viewComponent = MetaPTAwardPreviewLayer,
@@ -123,7 +123,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.enbalePage(slot0, slot1, slot2)
+slot0.enbalePage = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0:addSubLayers(slot1)
 	elseif getProxy(ContextProxy):getContextByMediator(slot1.mediator) then
@@ -133,7 +133,7 @@ function slot0.enbalePage(slot0, slot1, slot2)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.ACT_NEW_PT_DONE,
 		BayProxy.SHIP_ADDED,
@@ -141,7 +141,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BayProxy.SHIP_ADDED then

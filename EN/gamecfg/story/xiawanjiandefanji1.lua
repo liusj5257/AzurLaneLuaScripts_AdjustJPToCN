@@ -1,18 +1,18 @@
 return {
-	id = "XIAWANJIANDEFANJI1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401020,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "What a pain. Those Royal Navy reinforcements may be a bit of a handful.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			actor = 401020,
+			nameColor = "#ff5c5c",
+			say = "What a pain. Those Royal Navy reinforcements may be a bit of a handful.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -80,8 +80,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Even Z18 can't smile at a time like this.",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Right.",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Just let me do this.",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "If only Z1 were here, she'd give everyone a morale boost. Too bad I don't have her sunny disposition. This is the best I can do.",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Oh, okay...",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "I underestimated you...",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Okay, I'll psych myself up too.",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Everyone, prepare to retreat.",
 			typewriter = {
 				speed = 0.05,

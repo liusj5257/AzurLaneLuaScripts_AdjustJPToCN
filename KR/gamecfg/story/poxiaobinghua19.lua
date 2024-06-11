@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 701080,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "deepblue-image",
 			dir = 1,
 			say = "이곳의 느낌은 이전과는 완전히 달라……",
+			bgm = "deepblue-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			say = "해상에서의 위치는 비슷하지만 장식이나 배치, 심지어 내부 공간구조 완전히 다르니, 이전의 그곳이 아닌 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			say = "그런 느낌도 들지만, 처마 끝에 걸려있는 조직의 표식은 전혀 본 적이 없는데.",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "나도 본 적이 없어…… 흠, 이곳은 갈수록 재미있군.",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			say = "게다가 우린 지금 한가하니까……",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "현 상황을 빨리 파악하기 위해 돌아가는 길이라 하더라도 이곳을 탐색하는 것은 필요하다.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "근데 확실히…… 방이 너무 많아서 한 번씩 다 둘러보는 데 시간이 오래 걸릴 것 같군.",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "회의실이나 문서실 같은 곳을 집중적으로 찾아보는 건 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -222,13 +222,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_cccpv2_8",
+			side = 2,
+			dir = 1,
 			say = "방에 들어서니, 벽의 절반을 차지하고 있는 거대한 스크린이 먼저 눈에 들어온다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "탈린",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "키로프",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "키로프",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "키로프",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "무르만스크",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "무르만스크",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "무르만스크",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "무르만스크",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "무르만스크",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "무르만스크",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "무르만스크",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "키로프",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "무르만스크",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "무르만스크",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그리먀시",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그리먀시",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그롬키",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -557,8 +557,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "무르만스크",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -573,9 +573,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_8",
+			dir = 1,
 			say = "사실 방에 들어온 후, 줄곧 나도 이 방에서 타인의 수상한 느낌이 느껴졌어……",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "무르만스크",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "무르만스크",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -619,8 +619,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "무르만스크",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "키로프",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -651,8 +651,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "키로프",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -667,12 +667,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_8",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "아직 돌아가는 길은 정확히 파악되지 않고 있으니 이 그림을 기록한 후 계속 앞으로 탐색해 보자.",
 			typewriter = {
 				speed = 0.05,

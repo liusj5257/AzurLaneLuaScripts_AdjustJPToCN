@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE05",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE05",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"櫻花爛漫開學祭\n\n<size=45>五　空教室的不可思議</size>",
@@ -17,24 +17,24 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "放學後，學院走廊",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "放學後，學院走廊",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "（收到了放學後的空教室有奇怪動靜的報告…）",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,9 +45,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "滋滋…",
 			typewriter = {
 				speed = 0.05,
@@ -55,13 +55,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "喵喵…不可以搗亂……",
 			withoutPainting = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "喵喵…不可以搗亂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,13 +72,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 101262,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101262,
+			nameColor = "#a9f548",
 			say = "嗯…？指揮…官？",
 			flashout = {
 				dur = 1,
@@ -126,13 +126,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,13 +191,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,13 +230,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,13 +301,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

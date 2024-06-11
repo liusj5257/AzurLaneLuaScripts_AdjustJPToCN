@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEIFA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEIFA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"귀여운 꼬마 메이드\n\n<size=45>제1장 - 조그만 방문자?</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "어느날 - 모항",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "어느날 - 모항",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "？？？",
 			say = "응…여기는 '모항' 인가요?",
 			typewriter = {
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "？？？",
 			say = "생각보다 훨씬 넓네요~",
 			typewriter = {
@@ -62,19 +62,19 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202180,
 			actorName = "？？？",
 			say = "좋아! 아카시 씨가 말한 '지휘관' 에게 보고하러 가볼까요!",
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			},
 			typewriter = {
@@ -87,15 +87,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "폐하, 지휘관에게 건넬 자료는 이상이십니까?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "물론! 이 내가 틀릴 리 없잖아!",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "물론! 이 내가 틀릴 리 없잖아!",
+			actor = 205010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "？？？",
 			say = "앗…",
 			typewriter = {
@@ -173,10 +173,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "워스파이트 & 퀸 엘리자베스",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
+			hideOther = true,
 			dir = 1,
 			actor = 205020,
 			nameColor = "#92fc63",
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "벨파스트?",
 			say = "처음 뵙겠습니다. 메이드인 벨파스트라고 합니다. '지휘관' 은 어디에 계시는지 아시나요?",
 			typewriter = {
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "베, 벨파가 작아졌어어어어어어!!!",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "베, 벨파가 작아졌어어어어어어!!!",
+			actor = 205010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "냥! 여기 있었구냥! 정말, 멋대로 뛰쳐나가면 안 된다냥…!",
 			typewriter = {
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
+			say = "아, 아카시 씨……",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아, 아카시 씨……",
+			actor = 202180,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 1,
+			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "우냥?! 시, 실은……",
 			typewriter = {

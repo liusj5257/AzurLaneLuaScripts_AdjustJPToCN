@@ -9,8 +9,8 @@ return {
 				},
 				arg_list = {
 					rant = 4000,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -28,8 +28,8 @@ return {
 				},
 				arg_list = {
 					rant = 4300,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -47,8 +47,8 @@ return {
 				},
 				arg_list = {
 					rant = 4600,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -66,8 +66,8 @@ return {
 				},
 				arg_list = {
 					rant = 4900,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -85,8 +85,8 @@ return {
 				},
 				arg_list = {
 					rant = 5200,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -104,8 +104,8 @@ return {
 				},
 				arg_list = {
 					rant = 5500,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -123,8 +123,8 @@ return {
 				},
 				arg_list = {
 					rant = 5800,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -142,8 +142,8 @@ return {
 				},
 				arg_list = {
 					rant = 6200,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -161,8 +161,8 @@ return {
 				},
 				arg_list = {
 					rant = 6600,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -180,8 +180,8 @@ return {
 				},
 				arg_list = {
 					rant = 7000,
-					target = "TargetSelf",
-					skill_id = 10200
+					skill_id = 10200,
+					target = "TargetSelf"
 				}
 			}
 		},
@@ -192,12 +192,12 @@ return {
 	desc_get = "空中支援时，有40%(满级70%)概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
 	name = "LuckyE",
 	init_effect = "",
+	id = 10200,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "空中支援时，有$1概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
 	stack = 1,
-	id = 10200,
+	color = "red",
 	icon = 10200,
 	last_effect = "",
 	effect_list = {
@@ -208,8 +208,8 @@ return {
 			},
 			arg_list = {
 				rant = 4000,
-				target = "TargetSelf",
-				skill_id = 10200
+				skill_id = 10200,
+				target = "TargetSelf"
 			}
 		}
 	}

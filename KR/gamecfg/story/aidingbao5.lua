@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"나\"만의 가치\n\n<size=45>5. 예상치 못한 초대</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "며칠 후——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "며칠 후——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "에든버러의 비서함 근무는 이미 그럴듯해 보였다.",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(똑똑 노크 소리)",
 			typewriter = {
 				speed = 0.05,
@@ -190,9 +190,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……무도회랑 파트너라니?",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201290,
 			dir = 1,
+			actor = 201290,
 			nameColor = "#a9f548",
 			say = "원래 에든버러씨가 무대에 서기로 했어요♪ 춤 정말 끝내줘요!",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "에코!? 너, 너무 과장이에요!",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201290,
 			dir = 1,
+			actor = 201290,
 			nameColor = "#a9f548",
 			say = "지휘관씨와 에든버러씨가 같이 춤을 춘다고요!? 좋은 생각이에요!",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -338,11 +338,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "에…… 에에에에에!!!",
 			dialogShake = {
 				speed = 0.08,
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………에밀이 건넨 초대장을 받게 되었다. 이미 준비된 거였나!?",
 			typewriter = {
 				speed = 0.05,
@@ -389,12 +389,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "왜, 왜 이렇게 되버린 거죠……!?",
 			typewriter = {
 				speed = 0.05,

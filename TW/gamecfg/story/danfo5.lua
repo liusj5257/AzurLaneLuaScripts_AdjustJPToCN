@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"丹佛的港區委託！\n\n<size=45>五 來自對手的委託</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "站在佈告欄前的，是騎士們宿命中的對手。",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "站在佈告欄前的，是騎士們宿命中的對手。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "重櫻輕巡洋艦{namecode:38}的手中，正拿著一張紙。",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "{namecode:38}把任務書攤開，臉上露出了微笑。",
 			typewriter = {
 				speed = 0.05,
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "哈哈~既然妳都這麼說了，我就不能不接受這個挑戰了啊！",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "瀰漫在兩人之間的並非劍拔弩張的肅殺，而是同港區的同伴之間對於即將到來的“戰鬥”的緊張與興奮。",
 			typewriter = {
 				speed = 0.05,
@@ -278,11 +278,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "這也是對我身為海上騎士的考驗啊~沒問題，{namecode:38}，我正式接受妳的挑戰了！",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

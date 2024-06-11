@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA33",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA33",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgmDelay = 2,
-			actor = 900011,
+			side = 2,
 			actorName = "Tester?",
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
+			nameColor = "#ff5c5c",
 			say = "Advisor, it seems that the Resistance has traversed the barrier using a different route.",
 			flashin = {
 				delay = 1,
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "Oh, and you don't need to bother teleporting these pawns back all the time. I'm the ruler of time and space; as long as I have direct control over the Mirror Sea, I don't need an army...",
 			typewriter = {
 				speed = 0.05,
@@ -54,9 +54,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			actorName = "Advisor?",
 			say = "My apologies. I shall ready the next line of defense.",
 			typewriter = {
@@ -72,9 +72,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			actorName = "Advisor?",
 			say = "Even with the ability to teleport, I fear that we are only feeding them experience, allowing them to become even more powerful.",
 			typewriter = {
@@ -90,9 +90,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			actorName = "Advisor?",
 			say = "Moreover, with the current level of authorization, it is difficult to create something significantly stronger than they are.",
 			typewriter = {
@@ -105,12 +105,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "This whole authorization thing is such a pain...",
 			typewriter = {
 				speed = 0.05,
@@ -122,14 +122,14 @@ return {
 			}
 		},
 		{
-			say = "Returning to the barrier...",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-sora",
+			say = "Returning to the barrier...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -157,8 +157,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "All right! We've gotten through the barrier!",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "... Huh? By the way, Javelin and Aqua are headed straight for that room.",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Uh-",
 			dialogShake = {
 				speed = 0.09,
@@ -224,8 +224,8 @@ return {
 		{
 			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Wh-wh-wh-whaaaaat is thaaaaaaat?!?!",
 			flashout = {
 				dur = 1,
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 2,
 					dur = 0.15,
 					x = 0,
@@ -272,8 +272,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "My name's written on this sign. And inside the room, there's... my head?",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "Nooooo...! Shion doesn't want to be trapped inside anymore...",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "AAAAAAAAAAAAAAHHHHH!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -344,9 +344,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I'm so sorry! I never expected that the Hololive horror room would be reproduced to this degreeeeee!",
 			flashout = {
 				dur = 1,
@@ -382,9 +382,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "And uh... especially, the door traps... Um, watch your heads...",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -423,9 +423,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10500070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "It's too much for me to take... My stomach... Blaaarghh...",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -50,
+					type = "move",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -449,9 +449,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Ughh... You're a jerk, Matsuri...!!",
 			typewriter = {
 				speed = 0.05,
@@ -463,8 +463,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -476,8 +476,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "I feel like the past Aquas are looking down on me from the skies, watching me waving my arms...",
 			typewriter = {
 				speed = 0.05,
@@ -506,9 +506,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I'm sorry! Deeply sorry!",
 			typewriter = {
 				speed = 0.05,
@@ -520,8 +520,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -150,
+					type = "move",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,

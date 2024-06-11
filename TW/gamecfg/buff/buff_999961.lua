@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "",
 	init_effect = "",
+	name = "",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999961,
-	picture = "",
 	last_effect = "DEF",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.4
+				number = -0.4,
+				attr = "injureRatio"
 			}
 		}
 	}

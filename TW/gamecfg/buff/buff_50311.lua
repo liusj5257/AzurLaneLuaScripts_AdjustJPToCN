@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "敌方指挥舰指挥技能——减伤",
 	time = 0,
+	name = "敌方指挥舰指挥技能——减伤",
+	init_effect = "",
 	picture = "",
 	desc = "指挥技能——减伤",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -1
+				number = -1,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.4
+					number = -0.4,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.6
+					number = -0.6,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.8
+					number = -0.8,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -51,9 +51,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -68,8 +68,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.8
+				number = -0.8,
+				attr = "injureRatio"
 			}
 		}
 	}

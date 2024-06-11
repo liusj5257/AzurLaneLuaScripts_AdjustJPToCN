@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX BOSS标记",
 	time = 0,
-	color = "blue",
+	name = "2023英系活动 EX BOSS标记",
+	init_effect = "",
+	id = 200280,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200280,
+	color = "blue",
 	icon = 200280,
 	last_effect = "",
 	effect_list = {

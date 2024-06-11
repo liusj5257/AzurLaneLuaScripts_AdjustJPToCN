@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "With the sun setting behind them, the fleet departed for their target.",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-french1",
+			say = "With the sun setting behind them, the fleet departed for their target.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "I do wonder how Sardegna will respond... If we're lucky, they won't even get the chance to.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Mhm. Fingers crossed they don't catch on to us, or we'll lose the element of surprise.",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Of course, that won't be possible unless we get there unnoticed.",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

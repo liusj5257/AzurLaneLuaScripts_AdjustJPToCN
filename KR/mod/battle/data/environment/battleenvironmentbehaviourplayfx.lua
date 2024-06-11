@@ -6,18 +6,18 @@ slot3 = class("BattleEnvironmentBehaviourPlayFX", slot0.Battle.BattleEnvironment
 slot0.Battle.BattleEnvironmentBehaviourPlayFX = slot3
 slot3.__name = "BattleEnvironmentBehaviourPlayFX"
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.SetTemplate(slot0, slot1)
+slot3.SetTemplate = function(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._FXID = slot0._tmpData.FX_ID
 	slot0._offset = slot0._tmpData.offset and Vector3(unpack(slot0._tmpData.offset)) or Vector3.zero
 end
 
-function slot3.doBehaviour(slot0)
+slot3.doBehaviour = function(slot0)
 	slot1 = 1
 
 	if slot0._tmpData.scaleRate then

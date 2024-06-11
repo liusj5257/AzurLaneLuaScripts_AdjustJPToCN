@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_95 = {}
 slot1 = slot0.word_template_95
 
-function temp()
+temp = function()
 	uv0["流"] = {
 		["淫"] = {
 			this = true
@@ -28,7 +28,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["销"] = {
 		["魂"] = {
 			["洞"] = {
@@ -547,7 +547,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["姦"] = {
 		["淫"] = {
 			this = true,
@@ -575,7 +575,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["给"] = {
 		["你"] = {
 			["爽"] = {

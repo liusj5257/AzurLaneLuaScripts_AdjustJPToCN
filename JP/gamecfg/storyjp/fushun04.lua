@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUSHUN04",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"四天王の大冒険・撫順編\n\n<size=45>その四　そして世界が平和に…</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そこそこ！攻撃よ！",
 			bgm = "story-china",
+			actor = 501030,
+			nameColor = "#a9f548",
+			say = "そこそこ！攻撃よ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "分かるわ！これでもくらえー！",
+			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "撫順&長春",
-			side = 0,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "おおお！",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "こら撫順！またトラブルを起こしたのね！",
 			shake = {
 				speed = 1,
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "うわあああああ！鞍山姉さん！？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うわあああああ！鞍山姉さん！？",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -236,17 +236,17 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "やば、にげ――",
 			shake = {
 				speed = 8,
-				number = 3,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -274,17 +274,17 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 501030,
+			nameColor = "#a9f548",
 			say = "げっ",
 			shake = {
 				speed = 8,
-				number = 3,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "撫順&長春",
-			side = 0,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "ええええ――",
@@ -482,15 +482,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "懐かしいな…まさか本当に見つかるなんて…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -531,12 +531,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "やっぱりあのゲーム機は鞍山姉さんのものだったね。",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "やっぱりあのゲーム機は鞍山姉さんのものだったね。",
+			actor = 501030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "きゃわ！？ちょ、長春！？",
 			shake = {
 				speed = 5,
@@ -700,11 +700,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "勝手に締めないでよ！",
 			shake = {
 				speed = 8,
@@ -720,12 +720,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
 			actorName = "太原&撫順&長春",
 			side = 0,
+			actor = 501040,
+			blackBg = true,
 			hideOther = true,
 			nameColor = "#a9f548",
-			blackBg = true,
 			say = "ははははは……",
 			subActors = {
 				{

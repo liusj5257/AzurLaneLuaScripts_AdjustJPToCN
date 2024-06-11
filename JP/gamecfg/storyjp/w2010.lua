@@ -1,12 +1,12 @@
 return {
-	id = "W2010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "これ以上進めないようだ。",
 			typewriter = {
 				speed = 0.05,

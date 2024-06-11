@@ -1,6 +1,6 @@
 slot0 = class("MainCompatibleDataSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			getProxy(IslandProxy):CheckAndRequest(slot0)
@@ -11,7 +11,7 @@ function slot0.Execute(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.CheckSpecialDayForEducateChar(slot0, slot1)
+slot0.CheckSpecialDayForEducateChar = function(slot0, slot1)
 	if LOCK_EDUCATE_SYSTEM then
 		slot1()
 

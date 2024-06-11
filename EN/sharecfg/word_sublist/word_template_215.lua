@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_215 = {}
 slot1 = slot0.word_template_215
 
-function temp()
+temp = function()
 	uv0["妳"] = {
 		["家"] = {
 			["老"] = {
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["年"] = {
 		["老"] = {
 			["年"] = {
@@ -83,7 +83,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["廿"] = {
 		["周"] = {
 			["年"] = {
@@ -95,7 +95,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["娘"] = {
 		["的"] = {
 			this = true
@@ -117,7 +117,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嬢"] = {
 		["覚"] = {
 			["醒"] = {
@@ -129,7 +129,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鸟"] = {
 		G = {
 			M = {
@@ -154,7 +154,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鳥"] = {
 		["越"] = {
 			["乃"] = {

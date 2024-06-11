@@ -3,7 +3,7 @@ slot1 = 0.5
 slot2 = 0
 slot3 = 1
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.state = uv0
 	slot3 = slot1._tf:Find(slot0:GetUIName())
 	slot0._go = slot3.gameObject
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:Attach(slot1)
 end
 
-function slot0.Attach(slot0, slot1)
+slot0.Attach = function(slot0, slot1)
 	uv0.super.attach(slot0, slot1)
 	slot0:init()
 	slot0:Active()
@@ -21,7 +21,7 @@ function slot0.Attach(slot0, slot1)
 	slot0.state = uv1
 end
 
-function slot0.Active(slot0)
+slot0.Active = function(slot0)
 	if slot0:IsVisit() then
 		slot0:OnVisitRegister()
 	else
@@ -29,7 +29,7 @@ function slot0.Active(slot0)
 	end
 end
 
-function slot0.Detach(slot0)
+slot0.Detach = function(slot0)
 	if slot0.state == uv0 then
 		slot0.state = uv1
 
@@ -39,7 +39,7 @@ function slot0.Detach(slot0)
 	slot0:OnDispose()
 end
 
-function slot0.Fold(slot0, slot1)
+slot0.Fold = function(slot0, slot1)
 	slot2 = slot0:GetMoveX()
 
 	if _.any(slot0:GetMoveY(), function (slot0)
@@ -70,7 +70,7 @@ function slot0.Fold(slot0, slot1)
 	end)
 end
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	if slot0.state == uv0 then
 		slot0.dorm = slot1
 
@@ -82,15 +82,15 @@ function slot0.Flush(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetMoveX(slot0)
+slot0.GetMoveX = function(slot0)
 	return {}
 end
 
-function slot0.GetMoveY(slot0)
+slot0.GetMoveY = function(slot0)
 	return {}
 end
 
-function slot0.Tween(slot0, slot1, slot2, slot3, slot4)
+slot0.Tween = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = LeanTween[slot1](slot3, slot4, uv0)
 	slot5 = slot5:setOnComplete(System.Action(function ()
 		if uv0 then
@@ -105,11 +105,11 @@ function slot0.Tween(slot0, slot1, slot2, slot3, slot4)
 	end))
 end
 
-function slot0.IsInner(slot0)
+slot0.IsInner = function(slot0)
 	return slot0.contextData.floor == 1 or slot1 == 2
 end
 
-function slot0.OnEnterOrExitEdit(slot0, slot1)
+slot0.OnEnterOrExitEdit = function(slot0, slot1)
 	if slot1 then
 		slot0:OnEnterEditMode()
 	else
@@ -117,48 +117,48 @@ function slot0.OnEnterOrExitEdit(slot0, slot1)
 	end
 end
 
-function slot0.IsVisit(slot0)
+slot0.IsVisit = function(slot0)
 	return slot0.contextData.mode == CourtYardConst.SYSTEM_VISIT
 end
 
-function slot0.OnEnterEditMode(slot0)
+slot0.OnEnterEditMode = function(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.OnExitEditMode(slot0)
+slot0.OnExitEditMode = function(slot0)
 	setActive(slot0._tf, true)
 end
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	assert(false)
 end
 
-function slot0.OnRegister(slot0)
+slot0.OnRegister = function(slot0)
 end
 
-function slot0.OnVisitRegister(slot0)
+slot0.OnVisitRegister = function(slot0)
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 end
 
-function slot0.OnVisitFlush(slot0)
+slot0.OnVisitFlush = function(slot0)
 end
 
-function slot0.OnFlush(slot0, slot1)
+slot0.OnFlush = function(slot0, slot1)
 end
 
-function slot0.OnRemoveLayer(slot0, slot1)
+slot0.OnRemoveLayer = function(slot0, slot1)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	return false
 end
 
-function slot0.UpdateFloor(slot0)
+slot0.UpdateFloor = function(slot0)
 end
 
-function slot0.SetActive(slot0, slot1, slot2)
+slot0.SetActive = function(slot0, slot1, slot2)
 	setActiveViaCG(slot1, slot2)
 end
 

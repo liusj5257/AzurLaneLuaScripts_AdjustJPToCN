@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN12",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？·？？？",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgm = "xinnong-3",
+			hidePaintObj = true,
+			say = "？？？·？？？",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -24,9 +24,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -57,10 +57,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander, I've tried sending a message from the communicator, but it doesn't seem to be working.",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What should we do now?",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yo, Archerfish, why are you wiggling your butt around over there?",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Shush! I'm trying to hear if there are any engine noises coming from this ship~",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I see, submarines do have a better sense of hearing after all~",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,10 +156,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Unfortunately... I don't hear a peep.",
 			typewriter = {
 				speed = 0.05,
@@ -174,10 +174,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Huh. If I didn't know better, I'd say we're anchored somewhere.",
 			typewriter = {
 				speed = 0.05,
@@ -192,10 +192,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "How long have we been stuck here? I'm bored out of my mind.",
 			typewriter = {
 				speed = 0.05,
@@ -210,10 +210,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Another message just showed up on the communicator!",
 			typewriter = {
 				speed = 0.05,
@@ -228,10 +228,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Lemme see...!",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -256,10 +256,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"Hiryuu, reporting in. The first bombing attack on AF was a success.\"",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"Operation objectives have not yet been accomplished. A second wave of attacks is required.\"",
 			typewriter = {
 				speed = 0.05,
@@ -292,10 +292,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It seems to be an update from the first series of messages...",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Another attack on the AF base? That doesn't seem to match up with what Allen told us...",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -368,10 +368,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Are these creepy recordings also a part of the Sirens' Reenactment?",
 			typewriter = {
 				speed = 0.05,
@@ -386,10 +386,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yeah, that tells us nothing about why they trapped us here.",
 			typewriter = {
 				speed = 0.05,
@@ -401,12 +401,12 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Do you think this is their way of tauntin' us? Giving us first-class seats to watch them carry out their Reenactment?",
 			typewriter = {
 				speed = 0.05,
@@ -421,10 +421,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We don't need that kind of charity from the Sirens though. Ain't that right, Puddin'?",
 			typewriter = {
 				speed = 0.05,
@@ -454,10 +454,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You have a point, but... why are the Sirens able to mimic the Sakura Empire's communications so convincingly?",
 			typewriter = {
 				speed = 0.05,
@@ -543,12 +543,12 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hmm, I suppose that's a good way for the Sirens to kill two birds with one stone. We'd sustain damage from the attack, while the fallout would further deteriorate the relationships we have with the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
@@ -563,10 +563,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, there's no way they'd fool us with something that blatant.",
 			typewriter = {
 				speed = 0.05,
@@ -581,10 +581,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You know what they say about the enemy of my enemy, though. It's hard to tell what kind of relationship the Sakura Empire has with the Sirens if they're considered this disposable.",
 			typewriter = {
 				speed = 0.05,
@@ -611,12 +611,12 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I don't like complicated stuff like this... Hold me, Puddin'~!",
 			typewriter = {
 				speed = 0.05,
@@ -661,16 +661,16 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wait, hold on, Puddin'!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				},
 				{
 					active = true,
@@ -687,8 +687,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -700,16 +700,16 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Everything we've just talked about assumes that the Sirens intended for us to receive these messages, right? After all, we're still stuck on the bridge of some Sakura Empire ship!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				},
 				{
 					active = false,
@@ -729,10 +729,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It's pissing me off that I have no idea what to believe at this point!",
 			typewriter = {
 				speed = 0.05,
@@ -744,8 +744,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -757,10 +757,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander, the communicator seems to also be able to relay information between Pawns...",
 			typewriter = {
 				speed = 0.05,
@@ -775,10 +775,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wait, seriously? Since we're stuck in here anyway, why not try to mess around with their little game?",
 			typewriter = {
 				speed = 0.05,
@@ -790,13 +790,13 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(The more I think about it though... What if we're meant to be key players in the Sirens' game, rather than mere pawns?)",
 			typewriter = {
 				speed = 0.05,

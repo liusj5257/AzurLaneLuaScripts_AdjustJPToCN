@@ -1,10 +1,10 @@
 slot0 = class("BattleAirFightResultLayer", import(".BattleResultLayer"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BattleAirFightResultUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._grade = slot0:findTF("grade")
 	slot0._levelText = slot0:findTF("chapterName/Text22", slot0._grade)
 	slot0._main = slot0:findTF("main")
@@ -32,10 +32,10 @@ function slot0.init(slot0)
 	slot0._delayLeanList = {}
 end
 
-function slot0.setPlayer(slot0)
+slot0.setPlayer = function(slot0)
 end
 
-function slot0.setGradeLabel(slot0)
+slot0.setGradeLabel = function(slot0)
 	slot4, slot5, slot6 = nil
 	slot8 = ys.Battle.BattleConst.BattleScore.C < slot0.contextData.score
 
@@ -54,7 +54,7 @@ function slot0.setGradeLabel(slot0)
 	LoadImageSpriteAsync("battlescore/battle_score_" .. slot6 .. "/label_" .. slot6, slot0:findTF("grade/Xyz/bg14"), false)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:setStageName()
 
 	slot1 = rtf(slot0._grade)
@@ -81,7 +81,7 @@ function slot0.didEnter(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.rankAnimaFinish(slot0)
+slot0.rankAnimaFinish = function(slot0)
 	SetActive(slot0:findTF("main/conditions"), true)
 
 	slot2 = slot0.contextData.statistics._airFightStatistics
@@ -98,7 +98,7 @@ function slot0.rankAnimaFinish(slot0)
 	slot0._stateFlag = uv0.STATE_REPORT
 end
 
-function slot0.setCondition(slot0, slot1, slot2, slot3)
+slot0.setCondition = function(slot0, slot1, slot2, slot3)
 	slot4 = cloneTplTo(slot0._conditionContributeTpl, slot0._conditionContainer)
 
 	setActive(slot4, false)
@@ -116,7 +116,7 @@ function slot0.setCondition(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.displayBG(slot0)
+slot0.displayBG = function(slot0)
 	LeanTween.moveX(rtf(slot0._conditions), 1300, uv0.DURATION_MOVE)
 	LeanTween.scale(slot0._grade, Vector3(0.6, 0.6, 0), uv0.DURATION_MOVE)
 	LeanTween.moveLocal(go(rtf(slot0._grade)), slot0._gradeUpperLeftPos, uv0.DURATION_MOVE):setOnComplete(System.Action(function ()
@@ -129,7 +129,7 @@ function slot0.displayBG(slot0)
 	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
 end
 
-function slot0.showPainting(slot0)
+slot0.showPainting = function(slot0)
 	SetActive(slot0._painting, true)
 
 	slot0.paintingName = "yanzhan"
@@ -160,13 +160,13 @@ function slot0.showPainting(slot0)
 	end))
 end
 
-function slot0.skip(slot0)
+slot0.skip = function(slot0)
 	if slot0._stateFlag == BattleResultLayer.STATE_REPORTED then
 		slot0:emit(BattleResultMediator.ON_BACK_TO_LEVEL_SCENE)
 	end
 end
 
-function slot0.showRightBottomPanel(slot0)
+slot0.showRightBottomPanel = function(slot0)
 	SetActive(slot0._skipBtn, false)
 	SetActive(slot0._rightBottomPanel, true)
 	SetActive(slot0._subToggle, false)
@@ -177,11 +177,11 @@ function slot0.showRightBottomPanel(slot0)
 	slot0._stateFlag = nil
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0._skipBtn)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0._tf))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

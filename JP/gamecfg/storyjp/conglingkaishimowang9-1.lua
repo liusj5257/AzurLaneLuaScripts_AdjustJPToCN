@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "王都の西、鏡の湖の中心にある銀浜の島。",
 			bgm = "story-mmorpg",
+			say = "王都の西、鏡の湖の中心にある銀浜の島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "艱難辛苦を経て万能ポーションの材料を99個かき集めてヌビアンに渡し、勇者パーティーはようやく薬師と一緒に島へと旅出たが…",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "全員を乗せた小舟はやっと停泊し、島に足を踏み入れた。",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "見渡す限り、この島にはうっそうとした森とゴツゴツした岩のほか、何もないようだ。",
 			typewriter = {
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えっと…その北の塔ってのは、本当にここにある？この青々とした島、どう見ても銀浜じゃないけど…",
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "違う場所に来ちゃったわけじゃないよね…？",
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それと島の名前だけど…今は確かに青々としてるけど、先生曰く大昔は広い氷原だったそうよ。だから銀浜の島なんじゃない？",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "ドヤ顔のヌビアンは空き地に立ち、そこにある枯れ木にお辞儀をし咳払いした。",
 			typewriter = {
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
+			side = 2,
 			say = "すると、遠くの空がみるみるうちにゆらゆら揺らぎはじめ——",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "黒い金属でできた高い塔がどこからともなく現れた。",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "赤い光を放つ黒い塔…ど、どう見ても魔王の拠点じゃ…",
@@ -309,27 +309,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
-			say = "高い塔の最上階。伝説のロイヤルキャスターはマジックサークルのど真ん中の椅子に座っていた。",
 			bgm = "theme-ijndailymeeting",
+			say = "高い塔の最上階。伝説のロイヤルキャスターはマジックサークルのど真ん中の椅子に座っていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "来た目的は知ってるわ…お引取りを",
 			painting = {
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "え！まだ何も言ってないのに！？",
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "でも先生、なぜ助けないの？千年前に魔王を倒した、呪われている大魔法使いだよ？",
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "その「指揮官」をここに残して私に弟子入りさせるなら、呪いを解く方法を教えてやるわ",
 			painting = {
@@ -559,8 +559,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -600,11 +600,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あははは…さすがに大げさすぎない？冗談だよね？",
@@ -618,11 +618,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "冗談じゃないわよ！知恵の魔女の弟子だから修行が百年単位なのも当然でしょ？",
 			painting = {
@@ -654,11 +654,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうだ！指揮官は私と一緒に魔王討伐に行くから！",
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "私の試練を乗り越えたら、呪いを解く方法を教える",
 			painting = {
@@ -726,11 +726,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "普通ならそうね",
 			painting = {
@@ -761,11 +761,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "だから、今回は定番の戦闘試練にしたわ",
 			painting = {

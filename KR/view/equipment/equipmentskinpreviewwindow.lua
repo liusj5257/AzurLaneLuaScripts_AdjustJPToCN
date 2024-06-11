@@ -1,10 +1,10 @@
 slot0 = class("EquipmentSkinPreviewWindow", import("view.ship.ShipPreviewLayer"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EquipSkinPreviewUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.buttonList = slot0._tf:Find("left_panel/Buttons")
 	slot0.hitToggle = slot0.buttonList:Find("HitEffect")
 	slot0.spawnToggle = slot0.buttonList:Find("SpawnEffect")
@@ -14,7 +14,7 @@ function slot0.init(slot0)
 	setText(slot0.spawnToggle:Find("Text"), i18n("shoot_preview"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot3 = {
 		EquipType.CannonQuZhu,
 		EquipType.CannonQingXun,
@@ -61,7 +61,7 @@ function slot0.didEnter(slot0)
 	uv0.super.didEnter(slot0)
 end
 
-function slot0.RefreshFXMode(slot0)
+slot0.RefreshFXMode = function(slot0)
 	if not slot0.previewer then
 		return
 	end
@@ -70,17 +70,17 @@ function slot0.RefreshFXMode(slot0)
 	slot0.previewer:onWeaponUpdate()
 end
 
-function slot0.showBarrage(slot0)
+slot0.showBarrage = function(slot0)
 	uv0.super.showBarrage(slot0)
 	slot0.previewer:SetFXMode(slot0.contextData.spawnEffect, slot0.contextData.hitEffect)
 end
 
-function slot0.playLoadingAni(slot0)
+slot0.playLoadingAni = function(slot0)
 	uv0.super.playLoadingAni(slot0)
 	setActive(slot0.buttonList, false)
 end
 
-function slot0.stopLoadingAni(slot0)
+slot0.stopLoadingAni = function(slot0)
 	uv0.super.stopLoadingAni(slot0)
 	setActive(slot0.buttonList, true)
 end

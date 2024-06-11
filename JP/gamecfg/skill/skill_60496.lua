@@ -15,10 +15,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetFleetIndex",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetFleetIndex",
 			arg_list = {
 				fleetPos = "Leader",
 				buff_id = 60493

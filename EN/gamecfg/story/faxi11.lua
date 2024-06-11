@@ -1,17 +1,17 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI11",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "level-french2",
 			say = "The tragedy of Casablanca and Touraine has passed... In order to carry out their beliefs, the Templar Knights chose to sacrifice themselves.",
+			dir = 1,
+			bgm = "level-french2",
 			effects = {
 				{
 					active = true,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Great were their sacrifices, and great was their freedom.",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In the face of an overwhelming Goliath, they said this: \"You may come at us with spears and swords,\"",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"But we are armed with the protection of the Lord.\"",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In a new era, the power of liberty has awakened.",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The just shall once again gather underneath a holy banner.",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The time to reclaim our glory has come once again.",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Upon this name that was bestowed upon me by the Cardinal, and upon this mantle that I now wear, I swear to protect the freedom in this world.",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In the name of the Heavenly Father, Son, and Holy Spirit",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Let us honor our comrades who sacrificed themselves so that we may be free.",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -185,8 +185,8 @@ return {
 		{
 			actor = 801010,
 			side = 0,
-			dir = 1,
 			say = "This kind of work is perfect for us Le Fantasque-class destroyers. Just give me the order!",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

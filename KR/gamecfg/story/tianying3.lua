@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANYING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANYING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"레이디의 학습 일지\n\n<size=45>3. 협력 수업</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항・자료실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항・자료실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "아퀼라를 도와 그녀가 \"부족\"하다고 느끼는 부분을 찾기 위해 자료실로 왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -67,10 +67,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "——이곳의 동료들과 함께 일을 하라는 뜻인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "넵! 비서함 아퀼라 씨가 도와주신다면, 힘을 반만 들여도 업무를 완성할 수 있을 거예요!",
 			typewriter = {
 				speed = 0.05,
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "게다가 일찍 일을 마무리하면 퇴근하고 놀러갈 수도 있겠다~ 그치, 마에스트라레?",
 			typewriter = {
 				speed = 0.05,
@@ -119,10 +119,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "응…… 고, 고맙습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이렇게 다같이 업무를 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -148,16 +148,16 @@ return {
 			}
 		},
 		{
-			actor = 601050,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "♪～♪～♪～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "♪～♪～♪～",
 			typewriter = {
 				speed = 0.05,
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "진지한 성격의 카라비니에레와 마에스트라레는 서류를 깔끔하게 추려냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -230,9 +230,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그리고, 마에스트라레는 복사기 옆에서 콧노래를 흥얼거리던 리베치오를 따라갔다. 아퀼라와 그녀가 정리한 서류들은————",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…… 정리하기 전의 문서 더미 속에 섞여 들어가 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -261,10 +261,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "앗? 지휘관님, 이쪽에 무슨 문제가 있나요?",
 			typewriter = {
 				speed = 0.05,
@@ -276,12 +276,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "에헤헤, 리베치오를 칭찬하러 온 거지? 나도 진지하게 하면 잘 할 수 있다고!",
 			typewriter = {
 				speed = 0.05,
@@ -293,9 +293,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…… 칭찬보다, 방법이 틀렸다고 알려주고 싶었다……",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아퀼라 씨, 정리해 놓은 서류들을 다 돌려놓으시면……",
 			typewriter = {
 				speed = 0.05,
@@ -328,10 +328,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "엇…… 이게 아닌가요? 저는 리베치오가 이렇게 하는 거라고 해서……",
 			typewriter = {
 				speed = 0.05,
@@ -346,10 +346,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "리베치오, 뭐하는 거야…! 진짜, 왜, 왜 아퀼라 씨한테까지……",
 			typewriter = {
 				speed = 0.05,
@@ -361,12 +361,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "미안해 ＞＜~~~~！",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "마침내, 업무가 정상 궤도로 돌아왔다. 그리고 얼마되지 않아 잘 마무리 되었다……",
 			typewriter = {
 				speed = 0.05,
@@ -395,10 +395,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "가, 감사합니다……",
 			typewriter = {
 				speed = 0.05,
@@ -410,12 +410,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "에헤헤, 마에스트라레는 \"정말 고맙다\"는 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -430,10 +430,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "시작했을 때쯤에 사소한 일이 있었긴 하지만요…… 하하하.",
 			typewriter = {
 				speed = 0.05,
@@ -448,10 +448,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네…… 하지만 결과를 본다면, 원만하게 성공했다고 볼 수 있네요~",
 			typewriter = {
 				speed = 0.05,

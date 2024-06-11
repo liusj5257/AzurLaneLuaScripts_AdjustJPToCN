@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN16",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "？？？·米德加尔特之塔-一号塔台",
 			bgm = "deepblue-image",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "？？？·米德加爾特之塔-一號塔台",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,60 +29,60 @@ return {
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哇哦……这里就是整个米德加尔特之塔的最高点！",
+			say = "哇喔……這裡就是整個米德加爾特之塔的最高點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我还从来没来过这里呢！风景真好啊~",
+			say = "我還從來沒來過這裡呢！風景真好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟米德加尔特之塔不是观光景点。",
+			say = "畢竟米德加爾特之塔不是觀光景點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "除了战时从这里调度飞行器之外，也就维护的时候会有人来这里看一下了。",
+			say = "除了戰時從這裡調度飛行器之外，也就維護的時候會有人來這裡看一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……现在也算是用到战时侦察上了嘛！",
+			say = "咳……現在也算是用到戰時偵察上了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,32 +94,32 @@ return {
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "从这里更能直观感受到都市的压迫感了，感觉每条街道都看得清清楚楚的……",
+			say = "從這裡更能直覺感受到都市的壓迫感了，感覺每條街道都看得清清楚楚的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "刚才你说有在意的点，现在能确认了么？",
+			say = "剛才你說有在意的點，現在能確認了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -130,48 +130,48 @@ return {
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "建筑群本身我依然没有印象，不过与塞壬常见的建筑风格不同。",
+			say = "建築群本身我還是沒有印象，不過與塞壬常見的建築風格不同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "确实，反而更像是我们的风格呢……",
+			say = "確實，反而更像是我們的風格呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是，中间的高塔看着眼熟么？",
+			say = "但是，中間的高塔看著很眼熟呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "中间的高塔……啊，只有它跟周围建筑的风格不一样！",
+			say = "中間的高塔……啊，只有它跟周圍建築的風格不一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,252 +183,252 @@ return {
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看上去简直就像……",
+			say = "看起來簡直就像……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们在消灭构建者的过程中，在其主机空间里见到的那个塔。",
+			say = "我們在消滅建造者的過程中，在其主機空間裡見到的那座塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错没错！难道说这里也是某个塞壬的主机空间么！？",
+			say = "沒錯沒錯！難道說這裡也是某個塞壬的主機空間嗎！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也许。",
+			say = "也許。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过这里和构建者的主机空间差别好大……",
+			say = "不過這裡跟建構者的主機空間差異好大……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "瑞鶴",
 			side = 1,
-			actorName = "{namecode:96}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "该不会是赫米忒的主机……？啊哈哈哈……",
+			say = "該不會是赫米忒的主機……？啊哈哈哈……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "无法判断，毕竟我们中没人亲眼见过仲裁机关主机的样子。",
+			say = "無法判斷，畢竟我們中沒人親眼見過仲裁機關主機的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且……不符合逻辑。",
+			say = "而且……不符合邏輯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "作为塞壬能够死而复生的根源，其主机应该是被严密保护和隐藏起来的。",
+			say = "作為塞壬能夠死而復生的根源，其主機應該是被嚴密保護和隱藏起來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "用自己的主机作为陷阱，太奇怪了。",
+			say = "用自己的主機當陷阱，太奇怪了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "格奈森瑙·META",
 			side = 2,
-			actorName = "{namecode:477}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "但是，塞壬主机同时也是塞壬防御最强的地方。",
+			say = "但是，塞壬主機同時也是塞壬防禦最強的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "故意用破绽诱敌深入，然后以绝对的力量将其消灭么。",
+			say = "故意用破綻誘敵深入，然後以絕對的力量將其消滅嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "确实有这种战术，但是……我看不出我们有让仲裁机关用主机作诱饵设圈套的价值。",
+			say = "確實有這種戰術，但是……我看不出我們有讓仲裁機關用主機作誘餌設圈套的價值。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "格奈森瑙·META",
 			side = 2,
-			actorName = "{namecode:477}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "但如果真的是仲裁机关主机的话，我们的麻烦就大了。",
+			say = "但如果真的是仲裁機關主機的話，我們的麻煩就大了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "格奈森瑙·META",
 			side = 2,
-			actorName = "{namecode:477}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "每次使用米德加尔特之塔，空间内部都在发生改变。",
+			say = "每次使用米德加爾特之塔，空間內部都在改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "格奈森瑙·META",
 			side = 2,
-			actorName = "{namecode:477}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "海域中的“红区”逐渐增多，“蓝区”逐渐减少。",
+			say = "海域中的「紅區」逐漸增多，「藍區」逐漸減少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "格奈森瑙·META",
 			side = 2,
-			actorName = "{namecode:477}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "现在“蓝区”所剩无几，然后空中出现了这座倒悬的都市。",
+			say = "現在「藍區」所剩無幾，然後空中出現了這座倒懸的都市。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "格奈森瑙·META",
 			side = 2,
-			actorName = "{namecode:477}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
-			say = "那下一次呢？会不会是蓝区彻底消失，而我们进入了都市之中。",
+			say = "那下一次呢？會不會是藍區徹底消失，而我們進入了都市之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………如果是这样就不太妙了。",
+			say = "…………如果是這樣就不太妙了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们的舰队规模尚不及消灭构建者时联合舰队的一成，更不要说对手是更高阶的塞壬仲裁者。",
+			say = "我們的艦隊規模尚不及消滅建造者時聯合艦隊的一成，更不要說對手是更高階的塞壬仲裁者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "侦察结束，我们回去跟{namecode:435}阁下商量一下。",
+			say = "偵察結束，我們回去跟俾斯麥閣下商量一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

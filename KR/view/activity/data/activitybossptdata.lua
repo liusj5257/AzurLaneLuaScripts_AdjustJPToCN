@@ -1,6 +1,6 @@
 slot0 = class("ActivityBossPtData", import(".ActivityPtData"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot2 = slot1:getDataConfig("link_id")
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.progress_target = slot5.reward_pt
 end
 
-function slot0.GetBossProgress(slot0)
+slot0.GetBossProgress = function(slot0)
 	slot1 = slot0:getTargetLevel()
 	slot3 = 0
 
@@ -24,7 +24,7 @@ function slot0.GetBossProgress(slot0)
 	return slot3, slot0.progress_target[slot1]
 end
 
-function slot0.CanGetAward(slot0)
+slot0.CanGetAward = function(slot0)
 	slot2, slot3 = slot0:GetBossProgress()
 
 	return slot0:CanGetNextAward() and (function ()

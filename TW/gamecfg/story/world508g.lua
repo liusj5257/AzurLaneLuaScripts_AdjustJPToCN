@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508G",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508G",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900287,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-arbitrator-type1",
 			dir = 1,
 			say = "XIV立刻壓制實驗品的後勤艦隊。 VIII陣型變換。不要給餘燼喘息的機會。",
+			bgm = "battle-arbitrator-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

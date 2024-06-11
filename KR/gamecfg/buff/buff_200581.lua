@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2023黑神通 战斗较长时间后开始变得脆弱",
 	init_effect = "",
+	name = "2023黑神通 战斗较长时间后开始变得脆弱",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 99,
 	id = 200581,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.1
+				number = 0.1,
+				attr = "injureRatio"
 			}
 		}
 	}

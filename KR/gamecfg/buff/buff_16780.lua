@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16780,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16780,
+	color = "red",
 	icon = 16780,
 	last_effect = "",
 	effect_list = {
@@ -38,9 +38,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 16782,
 				target = "TargetSelf",
 				nationality = 4,
+				skill_id = 16782,
 				check_target = {
 					"TargetSelf",
 					"TargetNationality"

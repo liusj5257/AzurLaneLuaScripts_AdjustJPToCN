@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>3 Set Sail! An Inspiration-Seeking Journey!</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "I brought all our freshly-purchased wares back to the office and spread them out on the floor to organize them–",
 			bgm = "story-richang-6",
+			say = "I brought all our freshly-purchased wares back to the office and spread them out on the floor to organize them–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Um, well, just in case we need firewood or encounter a ferocious beast... It's better to come prepared, right?",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Y-yes, you're right...! We can leave the axe behind, and the crowbar as well...",
 			painting = {
 				alpha = 0.3,
@@ -95,27 +95,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "After returning a whole bunch of items we didn't plan on using such as walkie-talkies, a folding clothesrack, and a chainsaw...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Hai Tien and I finally set out on our camping trip in search of inspiration.",
@@ -134,28 +134,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
+			bgm = "story-richang-5",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "A bit later, in the woods behind the port...",
-			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -166,10 +166,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Phew... The air here is so crisp and refreshing. My mind already feels totally refreshed.",
 			painting = {
 				alpha = 0.3,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I haven't had any flashes of inspiration yet, but at least my body feels lighter than before.",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "Hai Tien has a smile on her face as she speaks. A squirrel hops down from the tree trunk, circles around her, and then darts off deeper into the woods.",
@@ -224,10 +224,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That sounds like an excellent idea! Thank you!",
 			painting = {
 				alpha = 0.3,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "The two of us head deeper into the woods as well, following the direction of the squirrel.",
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "It seems that we happened to go on our camping trip during the flowering season. A kaleidoscope of flowers are in full bloom everywhere we look, and I inadvertently slow down to admire them.",
@@ -264,10 +264,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Have these flowers piqued your interest, Commander? I happen to know a thing or two about them, if you'd like to learn more about them.",
 			painting = {
 				alpha = 0.3,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "Hai Tien's eyes are shimmering with anticipation. She clearly wants to demonstrate her knowledge to me.",
@@ -361,10 +361,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*cough*, *cough*... Geez, Commander, please don't tease me like that...",
 			painting = {
 				alpha = 0.3,
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "But, she is unable to hide the faint blush on her cheeks.",
@@ -390,10 +390,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now that I think about it, you didn't come here just to hear me yap about flowers...",
 			painting = {
 				alpha = 0.3,
@@ -408,10 +408,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, right! Commander, have you ever heard of the Flying Flower Game? It's a game where we take turns reciting poetry verses around a particular word or theme, and the loser has to play a punishment round.",
 			painting = {
 				alpha = 0.3,
@@ -450,10 +450,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee. Allow me to begin, then: \"Before the Calyx Tower, spring is in full bloom.\"",
 			painting = {
 				alpha = 0.3,
@@ -506,13 +506,13 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I shall continue then.",
 			painting = {
 				alpha = 0.3,
@@ -556,13 +556,13 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hrmm... Really now? Well, it matters not. I shall continue then.",
 			painting = {
 				alpha = 0.3,
@@ -589,10 +589,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"As moon waxes, floral shadows fall before the window.\"",
 			painting = {
 				alpha = 0.3,
@@ -619,10 +619,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"Clothes like dancing clouds, cheeks like a rosy blossom.\"",
 			painting = {
 				alpha = 0.3,
@@ -729,11 +729,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"As song comes from boats, flowers line the shore.'",
 			painting = {
 				alpha = 0.3,
@@ -744,17 +744,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -777,10 +777,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee. It appears that I'm the victor. Now then... 'A flower must be harvested when the time is right. Wait not until the branches are empty.\"",
 			painting = {
 				alpha = 0.3,
@@ -795,10 +795,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, would you mind making me a flower crown?",
 			painting = {
 				alpha = 0.3,
@@ -822,8 +822,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "I nod my head and agree to go along with Hai Tien's request.",
@@ -833,8 +833,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "Just as I am hard at work scavenging for flowers and branches, weaving them together into a circlet large enough to rest atop her head...",
@@ -844,8 +844,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "I feel a slender, soft hand slide into my own, gently dropping a carefully-crafted ring of grass into my palm.",
@@ -855,8 +855,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "My eyes turn towards the hand's owner. It is not just her cheeks that are bright red this time – even the tips of her ears are dyed an adorable pink.",
@@ -869,10 +869,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is... my way of thanking you for the flower crown.",
 			painting = {
 				alpha = 0.3,
@@ -884,8 +884,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "Her voice sounds tender, almost wavering.",

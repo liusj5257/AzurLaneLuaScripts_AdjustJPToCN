@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508I",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508I",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900285,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-executor-type1",
 			dir = 1,
 			say = "打擊有效，但是毫無意義。維修模組，啟動————",
+			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "什麼……好不容易對塞壬造成的損傷正在高速修復！",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "不行，已經差不多到艦隊的極限了……",
 			typewriter = {
 				speed = 0.05,
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "餘燼的飛龍，妳們有撤退方案嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "這個啊，當然是沒有的。",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "我們的任務是堅守此處，排除奇異點內的敵人。沒有完成任務之前我們絕不撤退。",
 			typewriter = {
 				speed = 0.05,
@@ -168,9 +168,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "啊，果然這個奇異點是妳們開的！",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,8 +210,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "之前只是猜想，沒想到能得到犯罪者本人的當面陳訴！",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "隨便開個奇異點就把整個NA海域攪個天翻地覆……妳們還真是。",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "與你們無關————雖然我想這麼說。",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "大概還算和你們有些關係吧……",
 			typewriter = {
 				speed = 0.05,
@@ -288,9 +288,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "飛龍！",
 			dialogShake = {
 				speed = 0.08,
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "我明白，我不會再說更多了。",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "喂！那邊的指揮官，我有個提案給你。",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			expression = 7,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "仲裁機關的目標是我們，要堅守此處的也是我們。至於你們————",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "你們還有拋下我們獨自撤退的選擇。",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "怎麼樣？如果你要走的話，我不會從背後偷襲哦？",
 			typewriter = {
 				speed = 0.05,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 1,
 			say = "<color=#ff5c5c>警告：此選項為影響結局走向的關鍵選項，確定要這樣做嗎？</color>",
 			painting = {

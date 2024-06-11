@@ -1,10 +1,10 @@
 slot0 = class("ShipChangeNameView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipChangeNameView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0._renamePanel = slot0._tf
 	slot1 = slot0._renamePanel
 	slot0._renameConfirmBtn = slot1:Find("frame/queren")
@@ -30,11 +30,11 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.SetShareData(slot0, slot1)
+slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-function slot0.GetShipVO(slot0)
+slot0.GetShipVO = function(slot0)
 	if slot0.shareData and slot0.shareData.shipVO then
 		return slot0.shareData.shipVO
 	end
@@ -42,7 +42,7 @@ function slot0.GetShipVO(slot0)
 	return nil
 end
 
-function slot0.DisplayRenamePanel(slot0, slot1)
+slot0.DisplayRenamePanel = function(slot0, slot1)
 	slot0.isOpenRenamePanel = slot1
 
 	SetActive(slot0._renamePanel, slot1)
@@ -55,7 +55,7 @@ function slot0.DisplayRenamePanel(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.shareData = nil
 end
 

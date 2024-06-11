@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLORICHANG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "holo-sss-inst",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "リーダー、この装置です！使い方はご存知のはずですよね。",
-			bgm = "holo-sss-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "はぁはははー！はぁはははー！幾多の困難を乗り越え、この地にたどり着いた指揮官よ！ここまで来れた事には、お前も反逆の心持つ者と認めよぉ！",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "見よー！この見渡す限りのTNTの海！どうだ、わたしと組めば、ホロライブ本社はおろか、執務室ですら…",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "ティー·エヌ·ティー？執務室？何の話？",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "すぃぃぃぃぃぃ！そ、そらちゃんぃぃぃ！えっと、えぇぇぇぇっと、これはぁぁ…そのぉぉぉ……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 40,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "何やら「火」など物騒な話をしていたような気が……",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "もう一回するの！？",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "まぁまぁ～全員そろったし、そろそろ出発しよう！次の冒険が待ってるよ～フブキ、行こう？",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "はいはい～と、いうわけで、アズールレーンもホロライブも、これからもよろしくお願いします！指揮官さん～",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgm = "holo-fbk",
 			sequence = {
 				{
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=60>【Special Thanks】</size>",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=60>【Special Thanks】</size>",

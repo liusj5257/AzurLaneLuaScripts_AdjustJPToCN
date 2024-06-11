@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"혼돈의 핼러윈 나이트\n\n<size=45>위치 딜리버리, 성왕리에 개장 중</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 101110,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "정의의 동료, 리틀 비버스, 찰스 오스본 등장! 오늘은 또 어떤 불의의 일이 우리를 기다리고 있을까~",
 			bgm = "story-1",
+			actor = 101110,
+			nameColor = "#a9f548",
+			say = "정의의 동료, 리틀 비버스, 찰스 오스본 등장! 오늘은 또 어떤 불의의 일이 우리를 기다리고 있을까~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 101421,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101421,
+			nameColor = "#a9f548",
 			say = "읏차... 읏차...",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 0,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 101090,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101090,
+			nameColor = "#a9f548",
 			say = "엥? 위치? 딜리버리?",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,13 +184,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "핼러윈을 기대하는 아이들에게 희망을 가져다줄 수 있겠구나! 정말 정의롭다! 그렇다면 우리도 도와줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 101421,
 			dir = 1,
+			actor = 101421,
 			nameColor = "#a9f548",
 			say = "아... 너희도 함께 위치 딜리버리에 합류하는 거야?",
 			typewriter = {
@@ -322,10 +322,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
+			hideOther = true,
 			dir = 1,
 			actor = 101421,
 			actorName = "모두",
@@ -363,8 +363,8 @@ return {
 			hideOther = true,
 			side = 2,
 			bgName = "bg_night",
-			actor = 101421,
 			dir = 1,
+			actor = 101421,
 			nameColor = "#a9f548",
 			say = "응!... 응? 저건... 호박?",
 			effects = {

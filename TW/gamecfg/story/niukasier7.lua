@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"謳歌平穩的日常\n\n<size=45>七　願望</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_105",
+			side = 2,
+			dir = 1,
 			say = "伊莉莎白說，紐卡斯爾應該有自己的願望。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,9 +44,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "但是對她來說，現在的日常就是足以令她滿足的“安穩”",
 			typewriter = {
 				speed = 0.05,
@@ -54,14 +54,14 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 0.2,
-			say = "至於我自己的願望如何，都不過是一點小事而已",
 			bgm = "story-2",
+			actor = 202190,
+			nameColor = "#a9f548",
+			say = "至於我自己的願望如何，都不過是一點小事而已",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "既然如此——",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "紐卡斯爾對夥伴十分重視，正如夥伴們重視她一樣",
 			typewriter = {
 				speed = 0.05,
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202190,
 			say = "所以，若她珍愛著自己的“平穩”的話，想必對於守護同伴們的“平穩”也是不會拒絕的吧",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "紐卡斯爾靜靜的合上書本。",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "與平常不同，紐卡斯爾的聲音因為緊張而微微顫抖著",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "她將身體倚靠過來，向這邊投來專注的目光",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "靜靜地，說出了心中的願望——",
 			typewriter = {
 				speed = 0.05,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "指揮官能...好好的守護我...一直陪在我的身邊嗎？",
 			typewriter = {
 				speed = 0.05,

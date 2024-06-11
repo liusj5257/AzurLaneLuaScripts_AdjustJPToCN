@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "额外的任务？",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "那么就这么决定了。",
 			typewriter = {
 				speed = 0.05,

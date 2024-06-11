@@ -2,11 +2,11 @@ slot0 = class("WorldInPictureScene", import("...base.BaseUI"))
 slot1 = 0
 slot2 = 1
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldInPictureUI"
 end
 
-function slot0.emit(slot0, ...)
+slot0.emit = function(slot0, ...)
 	if slot0.inAniming then
 		return
 	end
@@ -14,7 +14,7 @@ function slot0.emit(slot0, ...)
 	uv0.super.emit(slot0, ...)
 end
 
-function slot0.OnOpenCellErro(slot0, slot1)
+slot0.OnOpenCellErro = function(slot0, slot1)
 	if slot1 then
 		slot0.onkeyTravelProcess = false
 
@@ -22,7 +22,7 @@ function slot0.OnOpenCellErro(slot0, slot1)
 	end
 end
 
-function slot0.OnOpenCell(slot0, slot1, slot2, slot3)
+slot0.OnOpenCell = function(slot0, slot1, slot2, slot3)
 	slot0:CloseSelector(slot1, slot2)
 	slot0:HideBox(slot1, slot2)
 
@@ -58,7 +58,7 @@ function slot0.OnOpenCell(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.CloseSelector(slot0, slot1, slot2)
+slot0.CloseSelector = function(slot0, slot1, slot2)
 	if slot0.data:IsFirstTravel() then
 		for slot6, slot7 in ipairs(slot0.selectors) do
 			for slot11, slot12 in ipairs(slot7) do
@@ -70,7 +70,7 @@ function slot0.CloseSelector(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HightLightOpenArea(slot0, slot1, slot2)
+slot0.HightLightOpenArea = function(slot0, slot1, slot2)
 	_.each({
 		Vector2(slot1 + 1, slot2),
 		Vector2(slot1, slot2 + 1),
@@ -89,7 +89,7 @@ function slot0.HightLightOpenArea(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.RpAnim(slot0, slot1, slot2)
+slot0.RpAnim = function(slot0, slot1, slot2)
 	slot3 = slot0:GetRedPacket()
 	slot3.anchoredPosition = slot0.cells[slot1][slot2].gameObject.transform.anchoredPosition + Vector2(48, 48)
 	slot5 = LeanTween.value(slot3.gameObject, slot3.anchoredPosition.y, slot3.anchoredPosition.y + 35, 0.75)
@@ -107,7 +107,7 @@ function slot0.RpAnim(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.HideBox(slot0, slot1, slot2)
+slot0.HideBox = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot0.boxes[slot1] then
@@ -119,7 +119,7 @@ function slot0.HideBox(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnDrawAreaErro(slot0, slot1)
+slot0.OnDrawAreaErro = function(slot0, slot1)
 	if slot1 then
 		slot0.onkeyDrawPorcess = false
 
@@ -127,7 +127,7 @@ function slot0.OnDrawAreaErro(slot0, slot1)
 	end
 end
 
-function slot0.OnDrawArea(slot0, slot1, slot2, slot3)
+slot0.OnDrawArea = function(slot0, slot1, slot2, slot3)
 	slot0:HideDrawarea(slot1, slot2)
 
 	slot0.inAniming = true
@@ -165,7 +165,7 @@ function slot0.OnDrawArea(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.HideDrawarea(slot0, slot1, slot2)
+slot0.HideDrawarea = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot0.drawableAare[slot1] then
@@ -177,11 +177,11 @@ function slot0.HideDrawarea(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SetData(slot0, slot1)
+slot0.SetData = function(slot0, slot1)
 	slot0.data = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	Input.multiTouchEnabled = false
 	slot0.redpacket = slot0:findTF("redpackets/redpacket")
 	slot0.lineHrzTpl = slot0:findTF("lines/line_hrz")
@@ -226,7 +226,7 @@ function slot0.init(slot0)
 	}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.opType == uv1 and uv0.onkeyTravelProcess then
 			uv0.onkeyTravelProcess = false
@@ -372,26 +372,26 @@ function slot0.didEnter(slot0)
 	slot0:InitView()
 end
 
-function slot0.UpdateDrawBtnState(slot0)
+slot0.UpdateDrawBtnState = function(slot0)
 	setActive(slot0.onekeyDrawingBtn, slot0.onkeyDrawPorcess)
 end
 
-function slot0.UpdateTravelBtnState(slot0)
+slot0.UpdateTravelBtnState = function(slot0)
 	setActive(slot0.onekeyTravelingBtn, slot0.onkeyTravelProcess)
 end
 
-function slot0.GetRecordCharPos(slot0)
+slot0.GetRecordCharPos = function(slot0)
 	slot3 = string.split(PlayerPrefs.GetString("WorldInPictureScene_1" .. getProxy(PlayerProxy):getRawData().id, "0#0"), "#")
 
 	return Vector2(tonumber(slot3[1]), tonumber(slot3[2]))
 end
 
-function slot0.SaveCharPosition(slot0, slot1, slot2)
+slot0.SaveCharPosition = function(slot0, slot1, slot2)
 	PlayerPrefs.SetString("WorldInPictureScene_1" .. getProxy(PlayerProxy):getRawData().id, slot1 .. "#" .. slot2)
 	PlayerPrefs.Save()
 end
 
-function slot0.moveChar(slot0, slot1, slot2, slot3)
+slot0.moveChar = function(slot0, slot1, slot2, slot3)
 	if LeanTween.isTweening(go(slot0.char)) then
 		LeanTween.cancel(go(slot0.char))
 	end
@@ -405,7 +405,7 @@ function slot0.moveChar(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.showChar(slot0, slot1, slot2, slot3)
+slot0.showChar = function(slot0, slot1, slot2, slot3)
 	slot0.char.transform.localPosition = Vector3(slot1, slot2 + 50)
 
 	setActive(slot0.char, true)
@@ -425,7 +425,7 @@ function slot0.showChar(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.hideChar(slot0, slot1)
+slot0.hideChar = function(slot0, slot1)
 	slot2 = LeanTween.value(go(slot0.char), 1, 0, 0.2)
 
 	slot2:setOnUpdate(System.Action_float(function (slot0)
@@ -444,7 +444,7 @@ function slot0.hideChar(slot0, slot1)
 	end))
 end
 
-function slot0.UpdateChar(slot0, slot1, slot2)
+slot0.UpdateChar = function(slot0, slot1, slot2)
 	if slot1 == Vector2.zero then
 		setActive(slot0.char, false)
 
@@ -472,7 +472,7 @@ function slot0.UpdateChar(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateSwitcherState(slot0)
+slot0.UpdateSwitcherState = function(slot0)
 	slot1 = slot0.opType == uv0
 	slot2 = slot0.data:AnyAreaCanDraw()
 
@@ -491,7 +491,7 @@ function slot0.UpdateSwitcherState(slot0)
 	end
 end
 
-function slot0.InitView(slot0)
+slot0.InitView = function(slot0)
 	slot1, slot2 = slot0.data:GetMapRowAndColumn()
 	slot3 = {}
 
@@ -512,7 +512,7 @@ function slot0.InitView(slot0)
 	slot0:UpdatePoints()
 end
 
-function slot0.InitLines(slot0)
+slot0.InitLines = function(slot0)
 	slot1, slot2 = slot0.data:GetMapRowAndColumn()
 	slot3 = slot0.tpl.sizeDelta.y * slot1 + 10
 
@@ -533,7 +533,7 @@ function slot0.InitLines(slot0)
 	end
 end
 
-function slot0.CreateCell(slot0, slot1, slot2, slot3)
+slot0.CreateCell = function(slot0, slot1, slot2, slot3)
 	if slot0.exited then
 		return
 	end
@@ -619,7 +619,7 @@ function slot0.CreateCell(slot0, slot1, slot2, slot3)
 	slot0.cells[slot1][slot2] = slot7
 end
 
-function slot0.CreateSelector(slot0, slot1, slot2)
+slot0.CreateSelector = function(slot0, slot1, slot2)
 	if not slot0.data:CanSelect(slot1, slot2) then
 		return
 	end
@@ -635,7 +635,7 @@ function slot0.CreateSelector(slot0, slot1, slot2)
 	slot0.selectors[slot1][slot2] = slot6
 end
 
-function slot0.CreateBox(slot0, slot1, slot2)
+slot0.CreateBox = function(slot0, slot1, slot2)
 	if not slot0.data:ExistBox(slot1, slot2) or slot0.data:IsOpened(slot1, slot2) then
 		return
 	end
@@ -651,7 +651,7 @@ function slot0.CreateBox(slot0, slot1, slot2)
 	slot0.boxes[slot1][slot2] = slot5
 end
 
-function slot0.CreateDrawableArea(slot0, slot1, slot2)
+slot0.CreateDrawableArea = function(slot0, slot1, slot2)
 	if not slot0.data:GetDrawableArea(slot1, slot2) or slot0.data:IsDrawed(slot1, slot2) then
 		return
 	end
@@ -669,7 +669,7 @@ function slot0.CreateDrawableArea(slot0, slot1, slot2)
 	slot0.drawableAare[slot1][slot2] = slot8
 end
 
-function slot0.UpdateDrawableAreas(slot0)
+slot0.UpdateDrawableAreas = function(slot0)
 	for slot5, slot6 in ipairs(slot0.data:GetDrawableAreasState()) do
 		if slot0.drawableAare[slot6.position.x] and slot0.drawableAare[slot7.x][slot7.y] then
 			slot0.drawableAare[slot7.x][slot7.y].alpha = slot6.open and 1 or 0
@@ -677,7 +677,7 @@ function slot0.UpdateDrawableAreas(slot0)
 	end
 end
 
-function slot0.CreateAnimal(slot0, slot1, slot2, slot3, slot4)
+slot0.CreateAnimal = function(slot0, slot1, slot2, slot3, slot4)
 	if not slot0.data:GetDrawableArea(slot1, slot2) or not slot0.data:IsDrawed(slot1, slot2) then
 		return
 	end
@@ -714,25 +714,25 @@ function slot0.CreateAnimal(slot0, slot1, slot2, slot3, slot4)
 	slot0.animals[slot1][slot2] = slot9
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	return "<color=#DAC6B3>" .. slot0 .. "</color><color=#A38052>/" .. slot1 .. "</color>"
 end
 
-function slot0.UpdatePoints(slot0)
+slot0.UpdatePoints = function(slot0)
 	slot0.travelPointTxt.text = slot0.data:GetTravelPoint()
 	slot0.drawPointTxt.text = slot0.data:GetDrawPoint()
 	slot0.travelProgressTxt.text = uv0(slot0.data:GetTravelProgress(), slot0.data:GetMaxTravelCnt())
 	slot0.drawProgressTxt.text = uv0(slot0.data:GetDrawProgress(), slot0.data:GetMaxDrawCnt())
 end
 
-function slot0.DoAnimtion(slot0, slot1, slot2, slot3)
+slot0.DoAnimtion = function(slot0, slot1, slot2, slot3)
 	if slot0.timer then
 		slot0.timer:Stop()
 
 		slot0.timer = nil
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		uv0[uv1] = slot0
 		slot0.anchoredPosition = uv2
 
@@ -757,7 +757,7 @@ function slot0.DoAnimtion(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetRedPacket(slot0)
+slot0.GetRedPacket = function(slot0)
 	if #slot0.redpackets <= 0 then
 		table.insert(slot0.redpackets, Object.Instantiate(slot0.redpacket, slot0.redpacket.parent).transform)
 	end
@@ -769,7 +769,7 @@ function slot0.GetRedPacket(slot0)
 	return slot1
 end
 
-function slot0.LoadEffect(slot0, slot1, slot2)
+slot0.LoadEffect = function(slot0, slot1, slot2)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("UI/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -781,7 +781,7 @@ function slot0.LoadEffect(slot0, slot1, slot2)
 	end), true, true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in ipairs(slot0.redpackets) do
 		if LeanTween.isTweening(slot5.gameObject) then
 			LeanTween.cancel(slot5)

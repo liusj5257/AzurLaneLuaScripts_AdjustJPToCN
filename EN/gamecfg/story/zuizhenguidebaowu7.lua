@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "U-110! Are you okay?",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "That's still pretty dangerous, you know?! Don't go off and get captured while I'm not looking...",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "*Ahem*! Anyway, what's done is done! Our first order of business right now is to stun them with a counterattack before we run away!",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "I, Parzival of the Seas, will...",
 			typewriter = {
 				speed = 0.05,
@@ -103,11 +103,11 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Uwoooah?!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -147,8 +147,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -183,8 +183,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "That's so unfair! I haven't even finished introducing myself yet!",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "You're fine, you don't need to introduce yourself! Go on, get out of here!",
 			typewriter = {
 				speed = 0.05,
@@ -259,11 +259,11 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hey, what the heck?!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 30,
@@ -338,14 +338,14 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Uh, I STILL haven't gotten to introduce myself!",
 			action = {
 				{
-					type = "shake",
 					y = 50,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,8 +399,8 @@ return {
 			say = "Be quiet already, U-110!",
 			action = {
 				{
-					type = "shake",
 					y = 50,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

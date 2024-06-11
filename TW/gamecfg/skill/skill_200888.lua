@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2024异世界冒险 英灵效果 观察者",
 	cd = 0,
-	painting = "unknown2",
-	id = 200888,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "unknown2",
+	id = 200888,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -28,10 +28,10 @@ return {
 							switchParam = 300
 						},
 						{
-							switchParam = 300,
+							switchType = 1,
 							switchTo = 0,
 							index = 999,
-							switchType = 1,
+							switchParam = 300,
 							setAI = 80000
 						}
 					}

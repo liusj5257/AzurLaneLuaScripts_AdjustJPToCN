@@ -1,6 +1,6 @@
 slot0 = class("StarSeaFramePage", import(".TemplatePage.NewFrameTemplatePage"))
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	for slot4, slot5 in ipairs(slot0.phases) do
 		setActive(slot5, true)
 
@@ -12,7 +12,7 @@ function slot0.OnFirstFlush(slot0)
 	GetComponent(slot0:findTF("AD/switcher/phase1/Image"), typeof(Image)):SetNativeSize()
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 
 	setToggleEnabled(slot0.switchBtn, false)

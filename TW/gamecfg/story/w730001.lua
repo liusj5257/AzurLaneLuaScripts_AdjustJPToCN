@@ -1,12 +1,12 @@
 return {
-	id = "W730001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W730001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "需要派遣一隊進入海域中央完成解謎。",
 			typewriter = {
 				speed = 0.05,

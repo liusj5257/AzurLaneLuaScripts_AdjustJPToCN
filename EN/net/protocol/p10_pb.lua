@@ -7,6 +7,8 @@ slot1 = {
 	CS_10001_PASSWORD_FIELD = slot0.FieldDescriptor(),
 	CS_10001_MAIL_BOX_FIELD = slot0.FieldDescriptor(),
 	SC_10002_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_10018_ARG_FIELD = slot0.FieldDescriptor(),
+	SC_10019_SERVERLIST_FIELD = slot0.FieldDescriptor(),
 	CS_10020_LOGIN_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_10020_ARG1_FIELD = slot0.FieldDescriptor(),
 	CS_10020_ARG2_FIELD = slot0.FieldDescriptor(),
@@ -88,6 +90,7 @@ slot1 = {
 	SC_10801_IS_TS_FIELD = slot0.FieldDescriptor(),
 	SC_10801_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
 	SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD = slot0.FieldDescriptor(),
+	SC_10801_CDN_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_10802_STATE_FIELD = slot0.FieldDescriptor(),
 	CS_10802_PLATFORM_FIELD = slot0.FieldDescriptor(),
 	SC_10803_GATEWAY_IP_FIELD = slot0.FieldDescriptor(),
@@ -97,6 +100,8 @@ slot1 = {
 }
 CS_10001 = slot0.Descriptor()
 SC_10002 = slot0.Descriptor()
+CS_10018 = slot0.Descriptor()
+SC_10019 = slot0.Descriptor()
 CS_10020 = slot0.Descriptor()
 SC_10021 = slot0.Descriptor()
 SERVERINFO = slot0.Descriptor()
@@ -177,6 +182,43 @@ SC_10002.fields = {
 }
 SC_10002.is_extendable = false
 SC_10002.extensions = {}
+slot1.CS_10018_ARG_FIELD.name = "arg"
+slot1.CS_10018_ARG_FIELD.full_name = "p10.cs_10018.arg"
+slot1.CS_10018_ARG_FIELD.number = 1
+slot1.CS_10018_ARG_FIELD.index = 0
+slot1.CS_10018_ARG_FIELD.label = 2
+slot1.CS_10018_ARG_FIELD.has_default_value = false
+slot1.CS_10018_ARG_FIELD.default_value = 0
+slot1.CS_10018_ARG_FIELD.type = 13
+slot1.CS_10018_ARG_FIELD.cpp_type = 3
+CS_10018.name = "cs_10018"
+CS_10018.full_name = "p10.cs_10018"
+CS_10018.nested_types = {}
+CS_10018.enum_types = {}
+CS_10018.fields = {
+	slot1.CS_10018_ARG_FIELD
+}
+CS_10018.is_extendable = false
+CS_10018.extensions = {}
+slot1.SC_10019_SERVERLIST_FIELD.name = "serverlist"
+slot1.SC_10019_SERVERLIST_FIELD.full_name = "p10.sc_10019.serverlist"
+slot1.SC_10019_SERVERLIST_FIELD.number = 1
+slot1.SC_10019_SERVERLIST_FIELD.index = 0
+slot1.SC_10019_SERVERLIST_FIELD.label = 3
+slot1.SC_10019_SERVERLIST_FIELD.has_default_value = false
+slot1.SC_10019_SERVERLIST_FIELD.default_value = {}
+slot1.SC_10019_SERVERLIST_FIELD.message_type = SERVERINFO
+slot1.SC_10019_SERVERLIST_FIELD.type = 11
+slot1.SC_10019_SERVERLIST_FIELD.cpp_type = 10
+SC_10019.name = "sc_10019"
+SC_10019.full_name = "p10.sc_10019"
+SC_10019.nested_types = {}
+SC_10019.enum_types = {}
+SC_10019.fields = {
+	slot1.SC_10019_SERVERLIST_FIELD
+}
+SC_10019.is_extendable = false
+SC_10019.extensions = {}
 slot1.CS_10020_LOGIN_TYPE_FIELD.name = "login_type"
 slot1.CS_10020_LOGIN_TYPE_FIELD.full_name = "p10.cs_10020.login_type"
 slot1.CS_10020_LOGIN_TYPE_FIELD.number = 1
@@ -1148,6 +1190,15 @@ slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.has_default_value = false
 slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.default_value = 0
 slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.type = 13
 slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD.cpp_type = 3
+slot1.SC_10801_CDN_LIST_FIELD.name = "cdn_list"
+slot1.SC_10801_CDN_LIST_FIELD.full_name = "p10.sc_10801.cdn_list"
+slot1.SC_10801_CDN_LIST_FIELD.number = 10
+slot1.SC_10801_CDN_LIST_FIELD.index = 9
+slot1.SC_10801_CDN_LIST_FIELD.label = 3
+slot1.SC_10801_CDN_LIST_FIELD.has_default_value = false
+slot1.SC_10801_CDN_LIST_FIELD.default_value = {}
+slot1.SC_10801_CDN_LIST_FIELD.type = 9
+slot1.SC_10801_CDN_LIST_FIELD.cpp_type = 9
 SC_10801.name = "sc_10801"
 SC_10801.full_name = "p10.sc_10801"
 SC_10801.nested_types = {}
@@ -1161,11 +1212,13 @@ SC_10801.fields = {
 	slot1.SC_10801_PROXY_PORT_FIELD,
 	slot1.SC_10801_IS_TS_FIELD,
 	slot1.SC_10801_TIMESTAMP_FIELD,
-	slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD
+	slot1.SC_10801_MONDAY_0OCLOCK_TIMESTAMP_FIELD,
+	slot1.SC_10801_CDN_LIST_FIELD
 }
 SC_10801.is_extendable = false
 SC_10801.extensions = {}
 cs_10001 = slot0.Message(CS_10001)
+cs_10018 = slot0.Message(CS_10018)
 cs_10020 = slot0.Message(CS_10020)
 cs_10022 = slot0.Message(CS_10022)
 cs_10024 = slot0.Message(CS_10024)
@@ -1178,6 +1231,7 @@ cs_10994 = slot0.Message(CS_10994)
 cs_10996 = slot0.Message(CS_10996)
 noticeinfo = slot0.Message(NOTICEINFO)
 sc_10002 = slot0.Message(SC_10002)
+sc_10019 = slot0.Message(SC_10019)
 sc_10021 = slot0.Message(SC_10021)
 sc_10023 = slot0.Message(SC_10023)
 sc_10025 = slot0.Message(SC_10025)

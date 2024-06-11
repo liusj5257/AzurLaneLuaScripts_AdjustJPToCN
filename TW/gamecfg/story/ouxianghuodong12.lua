@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG12",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "啊哈哈哈哈哈！上吧我的妹妹！讓全世界都知道妳的魅力！",
 			dir = 1,
 			bgm = "azumaster-ins",
+			actor = 403040,
+			nameColor = "#a9f548",
+			say = "啊哈哈哈哈哈！上吧我的妹妹！讓全世界都知道妳的魅力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -36,8 +36,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			say = "姐……",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			say = "太羞恥了這個偶像名就不要提啦。而且這個也不是對戰而是兵裝實驗",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "妳姐那邊確實麻煩啊…",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			say = "德意志姐姐跟我說希望我參加的…希佩爾那邊不是嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			say = "啊哈哈哈…但是這個活動參加了感覺挺有意思的。希佩爾之前不也笑的很開心嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			say = "還是有點傲嬌啊……我是妳們下一個對手，做好心理準備哦？",
 			typewriter = {
 				speed = 0.05,

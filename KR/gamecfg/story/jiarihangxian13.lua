@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "JIARIHANGXIAN13",
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "격동적인 대결을 끝내고, 드디어! 드디어 마지막 전투의 시간이 됐다냥!",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,10 +62,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 312010,
 			say = "빨간 팀! 전설 속의 대요괴, 검은 다이텐구 · 뇨텐구냥!",
 			effects = {
 				{
@@ -85,9 +85,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10600060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "후후, 오늘의 전투가 매우 기대된다~",
 			effects = {
 				{
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -163,8 +163,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "허어~ 원기왕성하구나. 내 기대를 저버리지 않을 듯하다~",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
+			actor = 307060,
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:96}&{namecode:95}",
@@ -267,10 +267,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 312010,
 			say = "냐냐냥 전…전투 시작냥!",
 			effects = {
 				{

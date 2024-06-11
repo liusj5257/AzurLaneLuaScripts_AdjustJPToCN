@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 2,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108410,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 108410,
+	color = "red",
 	icon = 108410,
 	last_effect = "gulite_warning",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 108411
+				skill_id = 108411,
+				target = "TargetSelf"
 			}
 		}
 	}

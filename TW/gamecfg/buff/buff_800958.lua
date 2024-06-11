@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 800958,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
-	id = 800958,
+	color = "blue",
 	icon = 800956,
 	last_effect = "",
 	effect_list = {
@@ -17,9 +17,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
+				number = -0.08,
 				target = "TargetSelf",
-				number = -0.08
+				attr = "injureRatio"
 			}
 		}
 	}

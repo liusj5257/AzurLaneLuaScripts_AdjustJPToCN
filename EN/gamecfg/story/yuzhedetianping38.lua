@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING38",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING38",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "???",
 			bgm = "theme-dailyfuture",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "???",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "I open my eyes and look around.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "I see a dimly-lit basement, filled with equipment and furniture that seem oddly familiar to me.",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "The Hierophant is right next to me, her wand raised above me – though in a completely unmenacing way.",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "But, when we hear two sets of footsteps coming down the corridor, she freezes in place, as if having turned into a statue.",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "I see. The doctors must be here.",
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "As if reading my mind, the Hierophant cocks her head dubiously and lowers her wand.",
@@ -127,29 +127,29 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "...Due to the stalemate, I've been ordered to further accelerate my research.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
+			say = "The... first?",
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
+			actor = 900308,
 			nameColor = "#ffff4d",
-			say = "The... first?",
+			hidePaintObj = true,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -769,8 +769,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "(Why is she asking me?!)",
@@ -785,8 +785,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "(What am I seeing? Is this an illusion, or is it a memory played by that Recorder AI?)",
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "The Hierophant also looks to me curiously, as if waiting for my answer.",
@@ -819,8 +819,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "............",
@@ -840,8 +840,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -852,29 +852,29 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Exactly! You're not just the Commander because of your aptitude and abilities. Those girls only see you as their Commander because you've earned their trust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -882,8 +882,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -932,8 +932,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -944,29 +944,29 @@ return {
 			}
 		},
 		{
-			actor = 900333,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			actor = 900333,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A very rational perspective. Clearly defining the concept of \"the enemy\" will bring the right path into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1000,8 +1000,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -1025,8 +1025,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -1037,8 +1037,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "White light filled my vision, erasing Anzeel, Aoste, the Hierophant, and the entire space we were in.",
@@ -1047,17 +1047,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1065,8 +1065,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "A door sppears in the distance.",
@@ -1076,8 +1076,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "A familiar door, standing alone in the pure-white chamber.",
@@ -1087,8 +1087,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "Looks like it's time for me to go home.",
@@ -1098,13 +1098,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "The scenery changes for a third time. Now, I see the buildings of the World Expo venue.",
 			bgm = "story-expo-lastday",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "The scenery changes for a third time. Now, I see the buildings of the World Expo venue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1126,8 +1126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "...More precisely, the remnants of the venue, bathed in moonlight.",
@@ -1137,8 +1137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "The sky, land, and sea are back to normal. The mysterious Divine Vestige is gone, along with the false God.",
@@ -1148,8 +1148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "The only sound in the night is the crashing of waves, as if nothing had happened.",
@@ -1159,8 +1159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "But the weight in my hands tells me that the entire Arbiter catastrophe was reality.",
@@ -1170,8 +1170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "My fingers are lightly curled around the symbol of the Iris Orthodoxy's legitimacy, the Crown of the Holy See.",
@@ -1181,8 +1181,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "I can't help but to think to myself, what if the Crown was controlling the concepts within the domain the entire time, rather than the Hierophant?",
@@ -1192,8 +1192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "I receive no answer. Only the cold weight of the Crown, inanimate and lifeless in my hands.",
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "My thoughts are suddenly cut short by countless voices coming in through the communicator all at once.",
@@ -1214,8 +1214,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "Judging from what words I could pick out, it seems that I had disappeared along with the Hierophant for a period of time.",
@@ -1225,8 +1225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "I suppose... I should let everyone know that I'm alive and well.",
@@ -1236,9 +1236,9 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			bgName = "star_level_bg_1104",
+			stopbgm = true,
 			effects = {
 				{
 					active = true,

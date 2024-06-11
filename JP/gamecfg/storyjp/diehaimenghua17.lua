@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 303180,
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "ここまでの間、敵はそんなにいなかったわね",
 			bgm = "bsm-3",
+			actor = 303180,
+			nameColor = "#a9f548",
+			say = "ここまでの間、敵はそんなにいなかったわね",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "……うん！ちょっと緊張してるけどきっと大丈夫！",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -112,8 +112,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "そうそう、慢心してはダメだけど、重い雰囲気に押しつぶされないことも重要よ！",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "よければハーブティーでもいかがでしょうか？…すみません、選べるほど種類は残っていませんが……",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「……ええ、いただきましょう…」",
 			typewriter = {
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "雑談の声があっちこっちから聞こえる。決戦の緊迫感をかき消そうとしているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "敵の前衛艦隊が近づいてきているな",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "…先ほどユニオンの数個艦隊との連絡が途絶した。今状況を調べている",
 			typewriter = {
@@ -227,9 +227,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "気を引き締めて、警戒して進もう",
 			typewriter = {

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "穿透",
 	init_effect = "",
-	color = "red",
+	id = 74203,
+	time = 0,
 	picture = "",
 	desc = "战斗对象对我方舰队造成X次伤害后，下一次伤害倍率提高至Y倍",
 	stack = 1,
-	id = 74203,
+	color = "red",
 	icon = 74200,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 3
+				number = 3,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -35,8 +35,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 9999
+				number = 9999,
+				attr = "attackRating"
 			}
 		},
 		{

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207060,
 			nameColor = "#a9f548",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "（看起來不能遵守和皇家方舟的約定了……）",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		flashout = {
-			black = true,
 			dur = 0.75,
+			black = true,
 			alpha = {
 				0,
 				1

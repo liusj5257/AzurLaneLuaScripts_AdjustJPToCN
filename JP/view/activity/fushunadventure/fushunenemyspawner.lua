@@ -2,7 +2,7 @@ slot0 = class("FuShunEnemySpawner")
 slot1 = 1
 slot2 = 2
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.parent = slot1
 	slot0.index = 0
 	slot0.score = 0
@@ -15,7 +15,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.fushunLoader = slot3
 end
 
-function slot0.Start(slot0, slot1, slot2, slot3)
+slot0.Start = function(slot0, slot1, slot2, slot3)
 	slot0.delta = 0
 	slot0.changeTime = -1
 
@@ -30,7 +30,7 @@ function slot0.Start(slot0, slot1, slot2, slot3)
 	FushunAdventureGame.LOG(" spawner time  :", slot2)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if not slot0.starting then
 		return
 	end
@@ -48,15 +48,15 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.NormalMode(slot0)
+slot0.NormalMode = function(slot0)
 	slot0:Start(uv0, slot0:CalcTime(slot0.score), true)
 end
 
-function slot0.CarzyMode(slot0)
+slot0.CarzyMode = function(slot0)
 	slot0:Start(uv0, FushunAdventureGameConst.EX_ENEMY_SPAWN_TIME, true)
 end
 
-function slot0.Spawn(slot0)
+slot0.Spawn = function(slot0)
 	slot1 = slot0.mode
 	slot0.index = slot0.index + 1
 	slot2 = slot0.index
@@ -80,7 +80,7 @@ function slot0.Spawn(slot0)
 	end, slot3.name)
 end
 
-function slot0.GetConfigByScore(slot0, slot1)
+slot0.GetConfigByScore = function(slot0, slot1)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(FushunAdventureGameConst.PROPABILITES) do
@@ -110,7 +110,7 @@ function slot0.GetConfigByScore(slot0, slot1)
 	return FushunAdventureGameConst.ENEMYS[slot8]
 end
 
-function slot0.UpdateScore(slot0, slot1)
+slot0.UpdateScore = function(slot0, slot1)
 	slot0.score = slot1
 
 	if slot0.mode == uv0 then
@@ -122,7 +122,7 @@ function slot0.UpdateScore(slot0, slot1)
 	end
 end
 
-function slot0.CalcTime(slot0, slot1)
+slot0.CalcTime = function(slot0, slot1)
 	slot3 = nil
 
 	for slot7, slot8 in ipairs(FushunAdventureGameConst.ENEMY_SPAWN_TIME_ADDITION) do
@@ -140,11 +140,11 @@ function slot0.CalcTime(slot0, slot1)
 	return math.random(slot4[1], slot4[2])
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	slot0.starting = false
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Stop()
 end
 

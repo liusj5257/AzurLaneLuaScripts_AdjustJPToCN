@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN1-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN1-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			factiontag = "The Rising Star",
 			dir = 1,
 			bgm = "story-temepest-1",
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			hidePaintObj = true,
 			say = "Fire! Fire!",
 			painting = {
@@ -28,9 +28,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 9600010,
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's the early bird who gets the New World booty!",
@@ -44,20 +44,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "KABOOOM!",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "Amid thundering cannon fire, the warship's opponent turned tail and fled.",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "Amid thundering cannon fire, the warship's opponent turned tail and fled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 9600010,
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hahaha! I won!",
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Another glorious victory to my name, another heap of–",
 			painting = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "CRACK! BOOOOOM!",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/dalei",
+			hidePaintObj = true,
+			say = "CRACK! BOOOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,9 +112,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9600010,
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Whoa!",
@@ -127,17 +127,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -147,9 +147,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 9600010,
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What was that?! A storm out of the blue?!",
@@ -165,9 +165,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 9600010,
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I need to lower my sails, right now!",
@@ -183,9 +183,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9600010,
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Dammit! I won't make it in time!",
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,9 +211,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 9600010,
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "This is NOT the kind of high-octane adventure I signed up fooooor!",
@@ -227,18 +227,18 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "The warship, with all her sails hoisted, hurtled headfirst into the storm.",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "The warship, with all her sails hoisted, hurtled headfirst into the storm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "...",
@@ -247,17 +247,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "......",
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

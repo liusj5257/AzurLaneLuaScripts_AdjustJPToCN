@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING24",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……ヴィシアパビリオンの窓から外を眺める。",
 			bgm = "theme-thehierophantV",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……ヴィシアパビリオンの窓から外を眺める。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "「マルコ・ポーロ」の玉座が海に落ちるとともに、世界の景色が一変した。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "空は瞬く間に暗くなっていき、まるで紫色の帳に覆われたような――奇妙な光景が広がった。",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "仲間からの連絡を聞いている限り、あまり安心できる状況ではないようだ。",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、ええと、クレマンソーからの通信を繋げたわ",
 			painting = {
 				alpha = 0.3,
@@ -178,10 +178,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今日二度目の連絡だけど改めて挨拶を",
 			painting = {
 				alpha = 0.3,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "白々しいね……あんたはマルコ・ポーロと仲間じゃなかったの？",
 			painting = {
 				alpha = 0.3,
@@ -210,12 +210,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "確かにあんたが操っている巨大兵器がマルコ・ポーロの玉座を破壊したけど",
 			painting = {
 				alpha = 0.3,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "量産艦とドロイドを脅しに使ったのもあんたなんでしょう？",
 			painting = {
 				alpha = 0.3,
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まさか「実は全部演技でしたー」とか言うわけじゃないわよね？",
 			painting = {
 				alpha = 0.3,
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "パーミャチさんの言う通りです！まずは今までの行動を説明してください",
 			painting = {
 				alpha = 0.3,
@@ -300,10 +300,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いい名前ね。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -361,10 +361,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヴィシアの子たちを撤収させたのは、あの「マルコ・ポーロ」の信頼を勝ち取るためよ",
 			painting = {
 				alpha = 0.3,
@@ -398,10 +398,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "審判廷の量産艦も同じよ。すべては私があの子の味方であると見せかけるためであって",
 			painting = {
 				alpha = 0.3,
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "つまり、あなたはマルコ・ポーロの計画を最初から知っていて、ずっと協力的だと見せかけて演技していた",
 			painting = {
 				alpha = 0.3,
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すべては最後に彼女を阻止するため…？",
 			painting = {
 				alpha = 0.3,
@@ -488,10 +488,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうよ。あの子の計画がクライマックスになるまで、ずっと仲間のように装っていたわ",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "玉座を破壊したあの一撃、かっこよかったでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -524,10 +524,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれは一体何だったんですか…？",
 			painting = {
 				alpha = 0.3,
@@ -542,10 +542,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかしてドロイド、「神の機械」と関係があるのですか？",
 			painting = {
 				alpha = 0.3,
@@ -560,10 +560,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いいえ、あれは審判廷が製造した概念兵装、「黙示録の騎士」と呼ばれるものよ",
 			painting = {
 				alpha = 0.3,
@@ -578,10 +578,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大本を辿ればもしかしたら同じところにたどり着くかもしれないけど、今はこちらの制御下にあるわ",
 			painting = {
 				alpha = 0.3,
@@ -663,10 +663,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「マルコ・ポーロ」の計画を知っていたとしても、あれだけの力を持った彼女を止められると思う？",
 			painting = {
 				alpha = 0.3,
@@ -681,10 +681,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "外に少しでも情報が漏れてたら、真っ先に情報工作を得意とする私たち審判廷を排除していたはずよ？",
 			painting = {
 				alpha = 0.3,
@@ -718,10 +718,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あの子の回収は部下たちに任せて、一度直接会わない？",
 			painting = {
 				alpha = 0.3,
@@ -736,10 +736,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…と、言いながらもうヴィシアパビリオンに向かっている途中だけど",
 			painting = {
 				alpha = 0.3,
@@ -757,8 +757,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "先ほど、ジャン・バールたちが敵の猛攻で苦戦に陥っていることが分かった。",
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "ロイヤル艦隊は海域の敵を掃討しつつ前進しているせいで速力が落ちるし、あの「隠し通路」がどこまで機能するかは不明だ。",
@@ -779,8 +779,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "クレマンソーたち審判廷の機動戦力をもし動かせるなら、トゥーロン周辺の敵増援を阻止してほしい。",
@@ -812,10 +812,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "トゥーロンはアイリスの領域、ジャン・バールは私の姉妹艦よ。すでに手を打ってあるわ",
 			painting = {
 				alpha = 0.3,
@@ -849,10 +849,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とにかく、ヴィシア審判廷艦隊とロイヤル増援艦隊の配置は会ってから話しましょう？",
 			painting = {
 				alpha = 0.3,
@@ -883,8 +883,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -898,10 +898,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "回線を切ったみたい。噂通りマイペースなようね",
 			painting = {
 				alpha = 0.3,
@@ -913,12 +913,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ある意味プリンツ・オイゲンに近い、ううん、それ以上かもしれませんね",
 			painting = {
 				alpha = 0.3,
@@ -930,8 +930,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -942,12 +942,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら、また通信ね。これは…リシュリュー枢機卿？",
 			painting = {
 				alpha = 0.3,
@@ -959,12 +959,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "このタイミング、さっき指揮官が言っていた「隠し通路」と関係がありそうですね",
 			painting = {
 				alpha = 0.3,
@@ -985,10 +985,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こちらアイリス所属・戦艦リシュリュー",
 			painting = {
 				alpha = 0.3,
@@ -1022,10 +1022,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アイリス艦隊はすでにトゥーロンに到着し、ジャン・バールたちを無事保護しました",
 			painting = {
 				alpha = 0.3,
@@ -1056,8 +1056,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "どうやらリシュリューたちは無事に「隠し通路」でトゥーロンにたどり着いたようだ。",
@@ -1080,10 +1080,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "元々私たちは、「聖座の冠」の確保とマルセイエーズの救援のためにセントヘレナ島に行きました",
 			painting = {
 				alpha = 0.3,
@@ -1117,10 +1117,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「隠し通路」とは――セイレーンが作った「海霧」を使った転送装置であり",
 			painting = {
 				alpha = 0.3,
@@ -1154,10 +1154,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "普段はただの霧ですが、一度起動すれば海霧を構成する微粒子は転送装置になり、物体を離れた場所に移動できるわけです",
 			painting = {
 				alpha = 0.3,
@@ -1210,10 +1210,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……言い換えれば、「網辻」こそがセイレーンが神出鬼没に行動できる理由の一つです",
 			painting = {
 				alpha = 0.3,
@@ -1247,10 +1247,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "元々の管理者である「コンパイラー」が指揮官に撃破されたためか、なぜか私たちでもアクセスできるようになりました",
 			painting = {
 				alpha = 0.3,
@@ -1284,10 +1284,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正直、この技術を使った作戦は大きな賭けでした",
 			painting = {
 				alpha = 0.3,
@@ -1318,8 +1318,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "話によれば、クレマンソーが審判廷に指示し、「聖座の冠」の位置をリシュリューに伝えたそうだ。",
@@ -1329,8 +1329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "「冠」は結局「マルコ・ポーロ」の手に渡ったが、これだけでもクレマンソーが敵ではない証左になるだろう。",
@@ -1340,8 +1340,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "クレマンソーについてだが…",
@@ -1351,8 +1351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "リシュリューも全容を把握していないと思うが、それでもクレマンソーと対面するまでに情報を収集しておいた方がいい。",
@@ -1384,10 +1384,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わかりました。私が知っている情報を提供しましょう",
 			painting = {
 				alpha = 0.3,
@@ -1402,10 +1402,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "出撃前に、クレマンソーは計画の一部を教えてくれました",
 			painting = {
 				alpha = 0.3,
@@ -1439,10 +1439,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……そして、彼女自身が「悪」になることで、ジャン・バールを守ることも",
 			painting = {
 				alpha = 0.3,
@@ -1466,12 +1466,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……………",
 			painting = {
 				alpha = 0.3,
@@ -1483,12 +1483,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここに集まった艦船のみなさん",
 			painting = {
 				alpha = 0.3,
@@ -1500,12 +1500,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "確かにクレマンソーの行動にまだ不審な点はありますが、私は指揮官とリシュリューのことを信じるべきだと思います",
 			painting = {
 				alpha = 0.3,
@@ -1517,12 +1517,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "地中海、いいえ、今の世界の状況からすれば、審判廷の持つ戦力と知識はとても貴重です",
 			painting = {
 				alpha = 0.3,
@@ -1534,12 +1534,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「再現」で2つに分かたれたといえど、彼女たちは元々アイリスの艦船です",
 			painting = {
 				alpha = 0.3,
@@ -1551,12 +1551,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘘や裏切りへの不安を一度置いておいて、今は目の前の危機に集中しましょう",
 			painting = {
 				alpha = 0.3,
@@ -1568,8 +1568,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "フォローをありがとう、アヴローラ。",
@@ -1607,10 +1607,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………敵の増援が来たようです",
 			painting = {
 				alpha = 0.3,
@@ -1644,10 +1644,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "クレマンソーの今までの言動を考えると、みなさんが簡単に信用できないのは理解できます",
 			painting = {
 				alpha = 0.3,
@@ -1662,10 +1662,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも…それでも…指揮官、彼女のことをお願いします――",
 			painting = {
 				alpha = 0.3,

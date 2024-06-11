@@ -5,7 +5,7 @@ slot0.ON_TRIGGER = "TrainingCampMediator:ON_TRIGGER"
 slot0.ON_SELECTABLE_GET = "TrainingCampMediator:ON_SELECTABLE_GET"
 slot0.ON_UPDATE = "TrainingCampMediator:ON_UPDATE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_UPDATE, function (slot0, slot1)
 		uv0:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
 			taskId = slot1.id
@@ -42,7 +42,7 @@ slot0.TASK_ADDED = "task added"
 slot0.TASK_UPDATED = "task updated"
 slot0.TASK_REMOVED = "task removed"
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		TaskProxy.TASK_UPDATED,
 		TaskProxy.TASK_REMOVED,
@@ -51,7 +51,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == TaskProxy.TASK_UPDATED or slot2 == TaskProxy.TASK_REMOVED then

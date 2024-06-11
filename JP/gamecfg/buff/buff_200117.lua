@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 BOSS技能 侵蚀之手",
 	time = 1,
-	color = "red",
+	name = "2022莱莎联动 BOSS技能 侵蚀之手",
+	init_effect = "",
+	id = 200117,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200117,
+	color = "red",
 	icon = 200117,
 	last_effect = "",
 	effect_list = {

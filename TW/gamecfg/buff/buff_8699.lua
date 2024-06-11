@@ -1,7 +1,7 @@
 return {
-	time = 2,
 	name = "中飞联动阶段转场",
 	init_effect = "Bossbomb",
+	time = 2,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -24,8 +24,8 @@ return {
 			},
 			arg_list = {
 				group = 8699,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

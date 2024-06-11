@@ -1,18 +1,18 @@
 return {
-	id = "JIARIHANGXIAN11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN11",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "doa_boss",
 			actor = 10600010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "호노카, 어서 피해!",
-			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,9 +25,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10600020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "으, 응! (휘청)",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,9 +81,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10600020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……흣! (휘청)",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "기회가 왔어! 호노카, 함께 공격하자!",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "정말, 여러 가지 의미로, 정말 대단히 절정의 대결이야……",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "아카시 씨?!",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "후… 역시 로열 메이드를 상대로 우세한 상황을 만드는 건 어렵네요~",
 			typewriter = {
 				speed = 0.05,

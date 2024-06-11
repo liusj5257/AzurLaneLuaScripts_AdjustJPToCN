@@ -1,18 +1,18 @@
 return {
-	id = "FUXIANGXIANZUOZHAN28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-seiren-theme",
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "바퀴벌레 발견! 네가 오늘 하루 종일 우리를 귀찮게 한 놈이구나!",
-			bgm = "battle-seiren-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,9 +40,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "컴파일러...? 아무리 봐도 바퀴벌레인데?",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,8 +82,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "이름 완전 길어... 대왕... 구족... 충.... 아!",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 			}
 		},
 		{
+			say = "펑————————!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			say = "................",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

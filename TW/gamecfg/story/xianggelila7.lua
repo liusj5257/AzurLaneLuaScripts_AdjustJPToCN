@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"紀行的藏紅花\n\n<size=45>七　最後的戰鬥總結</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "次日·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "次日·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "昨天的模擬戰之後，香格里拉她——",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "……在意我的事？",
 			typewriter = {
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "早安，大黃蜂。既然人到齊了，就讓我們開始吧",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "早安，大黃蜂。既然人到齊了，就讓我們開始吧",
+			actor = 107380,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "等下——！先讓我說下謝謝！",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "？？",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "我這邊才是，不應該完全依賴過去的紀錄呢",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 0,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "說著香格里拉掏出了一大疊照片",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "哇？！這些照片是什麼時候拍的？",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "之後肯定是要收藏起來的，在之前我想給大家看一下",
 			typewriter = {
@@ -329,9 +329,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "一邊說著，香格里拉把相片給大家傳閱。",
 			typewriter = {
 				speed = 0.05,
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "啊！這張照片！是昨天結束之後大家一起拍的那張啊",
 			typewriter = {
 				speed = 0.05,
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -385,9 +385,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "照片中的是有些倦意的大黃蜂和香格里拉，站在企業旁邊顯得有些緊張的艾塞克斯和{namecode:96}，以及露出溫和微笑的約克鎮……",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "名字叫做“夥伴”。反面要寫上些什麼可以和大家商量下嗎……？",
 			typewriter = {

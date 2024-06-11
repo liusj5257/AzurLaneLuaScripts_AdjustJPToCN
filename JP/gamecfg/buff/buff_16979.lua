@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "克莱蒙梭debuff",
 	time = 5,
+	name = "克莱蒙梭debuff",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -500
+				number = -500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -500
+				number = -500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = -500
+				number = -500,
+				attr = "airPower"
 			}
 		}
 	}

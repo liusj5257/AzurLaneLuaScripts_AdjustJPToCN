@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG13",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -36,12 +36,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "え、ええ……",
 			typewriter = {
 				speed = 0.05,
@@ -56,10 +56,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202280,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "お疲れ様です。イラストリアス様、皆さん！",
 			typewriter = {
 				speed = 0.05,
@@ -74,10 +74,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ど、どうにか勝ちましたね…いくらなんでも普段と違いすぎだよぉ～",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まさか「μ兵装」の出力があそこまで引き上げられるなんて…",
 			typewriter = {
 				speed = 0.05,
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 202280,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あの言動と振る舞いも、まるで別の方になっていたみたいな…",
 			typewriter = {
 				speed = 0.05,
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ううん、あれは二重人格などではありませんわ。ル・マランちゃんは全力で、一生懸命頑張って、そしてその想いが「μ兵装」に反映されていましたわ",
 			typewriter = {
 				speed = 0.05,
@@ -144,10 +144,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103250,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "実力に「想いが反映される」なら、こっちの「想い」は押し負けそうになった、ということだな",
 			typewriter = {
 				speed = 0.05,
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 701050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -179,10 +179,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 701050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（もしかして、タシュケントが「頑張って」やるだけを考えていたから、「想い」が足りなかったの？）",
 			typewriter = {
 				speed = 0.05,
@@ -197,10 +197,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 701050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（ほかの子は皆、同志ちゃんのことを考えていたり、何か目標を持っていたりするけど、タシュケントは……）",
 			typewriter = {
 				speed = 0.05,
@@ -215,10 +215,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "もしくは、今回参加者の兵装自体に何か性能の違いがあるとか……",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,10 +265,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103250,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あなたたちは――",
 			typewriter = {
 				speed = 0.05,
@@ -282,14 +282,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 307110,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307110,
+			nameColor = "#a9f548",
 			say = "（「μ兵装」とは想いを歌に乗せて、それを力とするもの）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -332,10 +332,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 307110,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307110,
+			nameColor = "#a9f548",
 			say = "（フフフ……指揮官様、大鳳の最高のステージを待っていてくださいませ♡）",
 			typewriter = {
 				speed = 0.05,

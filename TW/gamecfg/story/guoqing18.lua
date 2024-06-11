@@ -27,12 +27,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
-			dir = -1,
 			say = "如妳所見，這裡是神明賜予我們的“聖域”，在這裡，我們可以獲得無盡的力量",
+			actorName = "{namecode:91}",
+			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "只要繼續獻上更多優質的靈魂...“那位大人”就......",
 			shake = {
 				speed = 1,
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "閉嘴！！！不許在我面前提到那個傢伙！！",
 			shake = {
 				speed = 1,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "妳們總是把那個傢伙幽靈、幽靈的掛在嘴邊！！我，怎麼可能會被那種傢伙給……啊啊啊啊啊！",
 			shake = {
 				speed = 1,

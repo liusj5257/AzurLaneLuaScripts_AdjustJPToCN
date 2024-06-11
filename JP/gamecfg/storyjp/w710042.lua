@@ -1,12 +1,12 @@
 return {
-	id = "W710042",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710042",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "沿着洋流，前往黑方舟意识的中枢吧",
 			typewriter = {
 				speed = 0.05,

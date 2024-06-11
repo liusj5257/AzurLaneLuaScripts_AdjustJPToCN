@@ -7,28 +7,28 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "votefes-start",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Port - Office",
-			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,10 +39,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hello, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -57,10 +57,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "H-hi.",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've compiled a report on this Muse System test from the perspective of Alizarin.",
 			painting = {
 				alpha = 0.3,
@@ -93,10 +93,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And I've got one from Cyanidin's perspective.",
 			painting = {
 				alpha = 0.3,
@@ -123,10 +123,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Don't mention it. I-it's part of our official duties anyway. Huff...",
 			painting = {
 				alpha = 0.3,
@@ -141,10 +141,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, it's just what's expected of us.",
 			painting = {
 				alpha = 0.3,
@@ -171,10 +171,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not all of them. Illustrious said she'll give Formidable a stern lecture on manners, and Eugen is looking into the resonance phenomenon.",
 			painting = {
 				alpha = 0.3,
@@ -189,10 +189,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It really fr-freaked me out when that happened...",
 			painting = {
 				alpha = 0.3,
@@ -231,10 +231,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Also, why are you still working, Commander? I think you have more pressing things to do.",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If memory serves me right, you're supposed to grant Akagi's and Taihou's wishes today.",
 			painting = {
 				alpha = 0.3,
@@ -279,10 +279,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then Eugen's after that, then Roon, followed by Unicorn and Hammann.",
 			painting = {
 				alpha = 0.3,
@@ -297,10 +297,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And then Illustrious, then me.",
 			painting = {
 				alpha = 0.3,
@@ -312,12 +312,12 @@ return {
 			}
 		},
 		{
-			actor = 302240,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302240,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "D-don't forget about Boise. And I think Téméraire and Kongou have their turn later tonight.",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,28 +388,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So... I have to make EVERYONE'S wishes come true?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -431,10 +431,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's right. It's not as bad as it sounds – the organizing committee can handle some of the legwork for you.",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Mhm. Although, if all their wishes personally involve you, then you're out of luck. Heehee.",
 			painting = {
 				alpha = 0.3,
@@ -476,28 +476,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(EVERYONE'S wishes involved me in one way or another...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -526,10 +526,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee... Commander, I'm here to pick you up!",
 			painting = {
 				alpha = 0.3,
@@ -541,12 +541,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Surely you haven't forgotten about our date!",
 			painting = {
 				alpha = 0.3,
@@ -561,10 +561,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not so fast! It hasn't been decided which of us is going first!",
 			painting = {
 				alpha = 0.3,
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -589,10 +589,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It has now. I got here first.",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So what? Do you think I'll just happily accept that? The Commander is MINE!",
 			painting = {
 				alpha = 0.3,
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "A bitter argument breaks out in my office as both of the red-dressed ladies fight over who gets me first.",
@@ -648,11 +648,11 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task_2",
-			actor = 307010,
-			dir = 1,
-			actorName = "Akagi & Taihou",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 307010,
+			actorName = "Akagi & Taihou",
 			hidePaintObj = true,
 			say = "Commander! My Commander!",
 			subActors = {
@@ -674,8 +674,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -687,11 +687,11 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_task_2",
-			actor = 307010,
-			dir = 1,
-			actorName = "Akagi & Taihou",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 307010,
+			actorName = "Akagi & Taihou",
 			hidePaintObj = true,
 			say = "I've got it! Let's just all go on a date together!",
 			subActors = {

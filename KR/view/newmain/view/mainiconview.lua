@@ -2,7 +2,7 @@ slot0 = class("MainIconView")
 slot1 = 1
 slot2 = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
 	slot0.iconList = {
@@ -11,7 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	}
 end
 
-function slot0.GetIconType(slot0, slot1)
+slot0.GetIconType = function(slot0, slot1)
 	if isa(slot1, VirtualEducateCharShip) then
 		return uv0
 	else
@@ -19,7 +19,7 @@ function slot0.GetIconType(slot0, slot1)
 	end
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.ship = slot1
 	slot2 = slot0:GetIconType(slot1)
 
@@ -34,7 +34,7 @@ function slot0.Init(slot0, slot1)
 	slot0.iconInstance:Load(slot1:getPrefab())
 end
 
-function slot0.Refresh(slot0, slot1)
+slot0.Refresh = function(slot0, slot1)
 	slot2 = slot1:getPrefab()
 
 	if slot0.iconList[slot0:GetIconType(slot1)] ~= slot0.iconInstance or slot0.name ~= slot2 then
@@ -46,7 +46,7 @@ function slot0.Refresh(slot0, slot1)
 	slot0.ship = slot1
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	if slot0.iconInstance then
 		slot0.iconInstance:Pause()
 	end
@@ -54,7 +54,7 @@ function slot0.Disable(slot0)
 	slot0.lpos = nil
 end
 
-function slot0.IsLoading(slot0)
+slot0.IsLoading = function(slot0)
 	if slot0.iconInstance then
 		return slot0.iconInstance:IsLoading()
 	end
@@ -62,7 +62,7 @@ function slot0.IsLoading(slot0)
 	return false
 end
 
-function slot0.Fold(slot0, slot1, slot2)
+slot0.Fold = function(slot0, slot1, slot2)
 	slot0.lpos = slot0.lpos or slot0._tf.localPosition
 	slot3 = slot1 and slot0.lpos.y + 200 or slot0.lpos.y
 
@@ -73,7 +73,7 @@ function slot0.Fold(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	for slot4, slot5 in ipairs(slot0.iconList) do
 		slot5:Dispose()
 	end

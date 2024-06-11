@@ -9,7 +9,7 @@ slot4 = slot0.Battle.BattlePopNumBundle
 slot4.PRO = 0
 slot4.SLIM = 1
 
-function slot4.Ctor(slot0, slot1, slot2)
+slot4.Ctor = function(slot0, slot1, slot2)
 	slot0.pool = slot1
 	slot0._container = cloneTplTo(slot2.containerTpl, slot2.containerTpl.parent)
 	slot0._bundleType = slot2.type
@@ -18,15 +18,15 @@ function slot4.Ctor(slot0, slot1, slot2)
 	slot0:init()
 end
 
-function slot4.InitPopScore(slot0, slot1)
+slot4.InitPopScore = function(slot0, slot1)
 	slot0._allPool[uv0.POP_SCORE] = slot0:generateTempPool(uv0.POP_SCORE, slot0._container, slot1, 1)
 end
 
-function slot4.GetContainer(slot0)
+slot4.GetContainer = function(slot0)
 	return slot0._container
 end
 
-function slot4.init(slot0)
+slot4.init = function(slot0)
 	slot0._allPool = {}
 	slot1 = uv0.GetInstance():GetPopSkin()
 
@@ -49,11 +49,11 @@ function slot4.init(slot0)
 	end
 end
 
-function slot4.Clear(slot0)
+slot4.Clear = function(slot0)
 	slot0.pool:Recycle(slot0)
 end
 
-function slot4.GetPop(slot0, slot1, slot2, slot3, slot4, slot5)
+slot4.GetPop = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6, slot7 = uv0.getType(slot1, slot2, slot3, slot5)
 	slot9 = slot0._allPool[slot6]:GetObject()
 
@@ -66,7 +66,7 @@ function slot4.GetPop(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot9
 end
 
-function slot4.GetScorePop(slot0, slot1)
+slot4.GetScorePop = function(slot0, slot1)
 	slot3 = slot0._allPool[uv0.POP_SCORE]:GetObject()
 
 	slot3:SetText(slot1)
@@ -74,7 +74,7 @@ function slot4.GetScorePop(slot0, slot1)
 	return slot3
 end
 
-function slot4.generateTempPool(slot0, slot1, slot2, slot3, slot4)
+slot4.generateTempPool = function(slot0, slot1, slot2, slot3, slot4)
 	return pg.LuaObPool.New(uv0.Battle.BattlePopNum, {
 		template = slot3.transform:Find(slot1).gameObject,
 		parentTF = slot2,
@@ -82,17 +82,17 @@ function slot4.generateTempPool(slot0, slot1, slot2, slot3, slot4)
 	}, slot4)
 end
 
-function slot4.Init(slot0)
+slot4.Init = function(slot0)
 end
 
-function slot4.Recycle(slot0)
+slot4.Recycle = function(slot0)
 end
 
-function slot4.IsScorePop(slot0)
+slot4.IsScorePop = function(slot0)
 	return slot0._score
 end
 
-function slot4.Dispose(slot0)
+slot4.Dispose = function(slot0)
 	for slot4, slot5 in pairs(slot0._allPool) do
 		slot5:Dispose()
 	end

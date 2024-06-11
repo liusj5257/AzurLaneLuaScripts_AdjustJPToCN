@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA36",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH港·指揮室",
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-richang",
+			say = "PH港·指揮室",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,10 +35,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這份、這份、還有這份……",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "通訊中的薩拉托加正一邊抱怨著，一邊在文件堆中翻找著。",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "堆成小山一樣的文件一副搖搖欲墜的樣子，似乎隨時都能把連續加班了幾個晝夜的薩拉托加埋在下面。",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "不過我這邊的情況也好不了太多就是了。",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "鐵血艦隊在近期的神秘動作與南太平洋中突然出現的短暫異常氣象……二者之間肯定有所關聯。",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "不過就算分析了手頭獲取的一切情報，整個事件還是充滿謎團。",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "和南極科研站的通訊恢復了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -299,10 +299,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "稍等哦指揮官，有指揮部發來的緊急聯絡——————",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,10 +419,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "從聯絡的內容上來看……指揮官，近期NY司令部可能需要你回來開個會了……",
 			typewriter = {
 				speed = 0.05,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			bgm = "bgm-cccp3",
 			mode = 1,
+			bgm = "bgm-cccp3",
 			sequence = {
 				{
 					"<size=51>「你好，同志。」</size> ",

@@ -1,15 +1,15 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	fadeType = 1,
-	once = true,
 	id = "TACT30006",
+	once = true,
+	fadeType = 1,
 	scripts = {
 		{
 			actor = 404010,
 			side = 2,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "咕，干得漂亮，但我是不会逃的！",
 			shake = {
 				speed = 1,
@@ -48,8 +48,8 @@ return {
 		{
 			actor = 404020,
 			side = 1,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "姐姐，我建议你不要老是把逃跑挂在嘴边，这样会显得很欲盖弥彰的……",
 			shake = {
 				speed = 1,
@@ -67,8 +67,8 @@ return {
 		{
 			actor = 404010,
 			side = 1,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "可是我真的不想跑啊，明明是上面的人不懂战斗，打仗就是靠一口气，却怪我……",
 			shake = {
 				speed = 1,
@@ -86,8 +86,8 @@ return {
 		{
 			actor = 404020,
 			side = 1,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "好了姐姐，不要老是在意这种事，不是还有我理解你吗？",
 			shake = {
 				speed = 1,
@@ -105,8 +105,8 @@ return {
 		{
 			actor = 404010,
 			side = 1,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "格、格奈……",
 			shake = {
 				speed = 1,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			actor = 213011,
 			side = 0,
+			actor = 213011,
 			say = "……好像没有我插入的余地了……趁现在……悄悄地……悄悄地……",
 			shake = {
 				speed = 1,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequenceSpd = 2,
 			BgFade = true,
 			sequence = {
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequenceSpd = 2,
 			BgFade = true,
 			sequence = {
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 306031,
 			side = 2,
 			nameColor = "#D6341D",
-			actorName = "{namecode:89}？？",
 			blackBg = true,
+			actor = 306031,
+			actorName = "{namecode:89}？？",
 			say = "呵呵呵，稍微加点引导和刺激，就收集到了不错的数据呢……",
 			shake = {
 				speed = 1,
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 1,
-			actorName = "测试者β型",
-			nameColor = "#D6341D",
-			blackBg = true,
 			say = "真是恶趣味呢，观察者……",
+			actorName = "测试者β型",
+			blackBg = true,
+			actor = 900011,
+			nameColor = "#D6341D",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -387,12 +387,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 0,
 			nameColor = "#D6341D",
-			actorName = "观察者？？",
 			dir = -1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "观察者？？",
 			say = "哼哼，由心智魔方诞生的“兵器”……受到“人类”影响而产生的“感情”……高涨的“情感”对战斗能力的影响……实在是让人很感兴趣啊～",
 			shake = {
 				speed = 1,
@@ -408,11 +408,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 1,
 			nameColor = "#D6341D",
-			actorName = "测试者β型",
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试者β型",
 			say = "毕竟这是“主人们”最终也没能彻底探明的“黑箱”啊……",
 			shake = {
 				speed = 1,
@@ -428,12 +428,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 0,
 			nameColor = "#D6341D",
-			actorName = "观察者？？",
 			dir = -1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "观察者？？",
 			say = "主人……如果您看到这些，看到您的“女儿们”如今的模样，您会怎么想呢……？是会露出欣慰的笑容，还是意料之中的神情呢？主人……",
 			shake = {
 				speed = 1,

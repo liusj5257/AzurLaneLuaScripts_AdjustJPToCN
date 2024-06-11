@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-1",
+			say = "數日後·天岩島",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 1,
-			say = "數日後·天岩島",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "庭院中央，{namecode:96}、{namecode:158}、{namecode:50}、{namecode:181}正在互相交流劍法",
 			typewriter = {
 				speed = 0.05,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/minigame_sword",
+			say = "竹劍之間不斷地發出碰撞的打擊聲",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "竹劍之間不斷地發出碰撞的打擊聲",
+			soundeffect = "event:/ui/minigame_sword",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -59,8 +59,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "{namecode:82}大人，早！又在看著她們修行啊~",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "是啊，這次事件雖然對我們來說損失慘重，甚至還讓那個神秘人給逃脫了...",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊，這次事件雖然對我們來說損失慘重，甚至還讓那個神秘人給逃脫了...",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,8 +121,8 @@ return {
 		{
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/minigame_sword",
+			say = "哐—— 哐——",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "哐—— 哐——",
+			soundeffect = "event:/ui/minigame_sword",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "承讓了，不過那什麼重櫻第一高手的稱號還是算了吧，在面對神秘人的時候我這劍法根本扛不下幾招",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "承讓了，不過那什麼重櫻第一高手的稱號還是算了吧，在面對神秘人的時候我這劍法根本扛不下幾招",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "除此之外，海對面還有灰色幽靈、藍色幽靈之類的傢伙存在…這個世界，真是太太太有趣了！",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -216,15 +216,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "大家修行辛苦了，來吃點點心吧~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "{namecode:95}提著一籃海軍饅頭從裡屋走了出來，剛才還在修行的人們一下子就圍了上去——",
 			typewriter = {
 				speed = 0.05,
@@ -279,13 +279,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "{namecode:96}向{namecode:95}擺出深深的鞠躬道歉狀",
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
-			say = "{namecode:96}向{namecode:95}擺出深深的鞠躬道歉狀",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "啊啦啦，這不怪{namecode:96}哦，畢竟是對手太強了嘛，妳倒是應該要感謝對方沒有對我們下死手哦",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "而且，受傷什麼的~人家早就習慣了嘛呵呵呵~",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "{namecode:95}姐，不要立這種Flag啊！！",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -436,15 +436,15 @@ return {
 			}
 		},
 		{
-			say = "{namecode:158}看了一眼坐在玄關邊上喝著麥茶的{namecode:74}",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "{namecode:158}看了一眼坐在玄關邊上喝著麥茶的{namecode:74}",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -501,11 +501,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "在下自知將來無法勝任侍衛這一職責，希望請辭，望{namecode:74}大人——",
 			typewriter = {
 				speed = 0.05,
@@ -517,18 +517,18 @@ return {
 			},
 			action = {
 				{
+					y = -2500,
+					type = "move",
 					delay = 1.5,
 					dur = 1,
-					type = "move",
-					y = -2500,
 					x = -0
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "{namecode:158}向{namecode:74}行了跪禮，用盡力氣說道",
 			typewriter = {
 				speed = 0.05,
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "駁回妳的請辭！",
 			typewriter = {
 				speed = 0.05,
@@ -636,8 +636,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,9 +662,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "{namecode:158}默默低下頭，擦了下眼角的淚水，不想讓人看見",
 			typewriter = {
 				speed = 0.05,
@@ -676,11 +676,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "在下…在下定會精進武藝，不辜負{namecode:74}大人的期待的！",
 			typewriter = {
 				speed = 0.05,
@@ -692,8 +692,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -702,13 +702,13 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			say = "{namecode:74}笑著摸了摸{namecode:158}的頭頂~",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
-			say = "{namecode:74}笑著摸了摸{namecode:158}的頭頂~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -723,8 +723,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -735,14 +735,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			bgName = "bg_xinnong_cg1",
 			actor = 306070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "哇…這樣的氣氛…一下子變得好厲害啊",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -767,11 +767,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "啊哈哈哈，這就是青春的氣息啊~真好啊真好",
 			typewriter = {
 				speed = 0.05,
@@ -783,8 +783,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -828,8 +828,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "神秘人的事暫且不說，在神石找回來之前，天宇啟戶祭看來暫時是得停辦了",
 			typewriter = {
@@ -845,8 +845,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "有一點我一直想不明白，神石究竟是在什麼時候被調包了",
 			typewriter = {
@@ -910,8 +910,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "！！{namecode:91}大人？可是…為什麼不在現場揭穿她？",
 			typewriter = {
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -953,8 +953,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "{namecode:82}大人居然想到了這個份上…真是令在下敬佩",
 			typewriter = {
@@ -967,8 +967,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -980,8 +980,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "原來如此，怪不得神秘人一走，{namecode:91}她們就立刻急著離開",
 			typewriter = {
@@ -1013,8 +1013,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "啊啊啊！！",
 			dialogShake = {
@@ -1032,8 +1032,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1045,8 +1045,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "{namecode:180}..怎麼了？突然從樓梯上大驚小叫地跑下來？",
 			typewriter = {
@@ -1059,8 +1059,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1072,8 +1072,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "{namecode:182}...{namecode:182}..{namecode:182}大人…",
 			typewriter = {
@@ -1086,8 +1086,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1099,8 +1099,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "醒來了！！",
 			effects = {
@@ -1119,8 +1119,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			effects = {
 				{
 					active = false,
@@ -1147,8 +1147,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

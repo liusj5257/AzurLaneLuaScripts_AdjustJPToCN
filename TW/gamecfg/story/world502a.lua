@@ -1,18 +1,18 @@
 return {
-	id = "WORLD502A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD502A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 107060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "餘燼飛龍一直保持在我方炮擊範圍邊緣移動，既沒有猛攻進攻，也沒有完全停火。",
-			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "指揮官，她正在通過這種方式改變著我們的航線，艦隊距離中心區域越來越近了。",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "這麼做究竟有什麼意義呢……",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "太過接近的話塞壬也會對她發動攻擊，她自己不也要兩面作戰。",
 			typewriter = {
 				speed = 0.05,
@@ -101,10 +101,10 @@ return {
 			}
 		},
 		{
+			say = "轟————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "遠方突然傳來幾聲如轟雷一般的巨響。",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "然後塞壬也立刻進行了回應。風暴之中，無數的防禦設施對餘燼飛龍發起了猛烈反擊。",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "這才是正常塞壬守備核心區應該有的樣子吧……",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "以前就有點感覺，塞壬還真擅長在惡劣氣候中作戰呢。",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "正常來說沒有人會想讓艦隊穿越猛烈的風暴吧，更不用說佈置防禦設施了……",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "可是塞壬卻反過來利用這一點，將風暴本身都變為了防禦體系的一部分。",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			expression = 3,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "喲，原本你們是打算來執行偵察任務的吧，剛剛那幾下就當做附贈~",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			expression = 3,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "怎麼樣，挺壯觀吧？",
 			typewriter = {
@@ -335,9 +335,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "………………完全是在添亂！我們哪有餘力一邊和你作戰一邊應付塞壬！",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -362,8 +362,8 @@ return {
 			expression = 1,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "沒有嗎……就算有些熟悉的感覺，終究也是幻影一逝。",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 2,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "不好不好……無意中竟有些沉浸了。",
 			typewriter = {
@@ -395,9 +395,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "謎語人行為禁止！",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -422,8 +422,8 @@ return {
 			expression = 7,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "…………厭煩了，今天就到此為止吧，再見。",
 			typewriter = {
@@ -451,8 +451,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -464,8 +464,8 @@ return {
 			expression = 2,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "哼！如果想繼續和餘燼打交道的話，還是儘早習慣這種感覺比較好。",
 			typewriter = {
@@ -511,8 +511,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "如果是朋友的話，等到機會合適時抱怨一下也無妨。如果是敵人的話，過度輕視我們就將是她們失敗的原因。",
 			typewriter = {
 				speed = 0.05,
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "偵察到這種程度已經差不多了。",
 			typewriter = {
 				speed = 0.05,
@@ -570,8 +570,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "相信這些新情報足夠讓指揮部產生緊迫感了。",
 			typewriter = {
 				speed = 0.05,
@@ -586,8 +586,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "現在根本不是所謂的勝利已定……一但塞壬發動反擊，戰線鋪開的我們才是最被動的一方。",
 			typewriter = {
 				speed = 0.05,
@@ -599,8 +599,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "領航員小姐，立刻聯繫最近的前哨站進行接應，我們撤退吧。",
 			typewriter = {
 				speed = 0.05,

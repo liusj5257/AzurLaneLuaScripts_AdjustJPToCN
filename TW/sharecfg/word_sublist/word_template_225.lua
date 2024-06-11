@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_225 = {}
 slot1 = slot0.word_template_225
 
-function temp()
+temp = function()
 	uv0.V = {
 		O = {
 			A = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Y = {
 		U = {
 			M = {
@@ -48,7 +48,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Z = {
 		H = {
 			E = {
@@ -113,7 +113,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["碡"] = {
 		this = {
 			this = true

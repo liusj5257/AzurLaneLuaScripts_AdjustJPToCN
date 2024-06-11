@@ -1,19 +1,19 @@
 slot0 = class("RacingMiniGameController")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.binder = slot1
 
 	slot0:InitTimer()
 	slot0:InitGameUI(slot2)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	for slot6 = 0, slot0:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
 		slot2[slot6].speed = slot1
 	end
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	for slot6 = 0, slot0:GetComponentsInChildren(typeof(SpineAnimUI), true).Length - 1 do
 		if IsNil(slot2[slot6]) then
 			-- Nothing
@@ -25,7 +25,7 @@ function slot2(slot0, slot1)
 	end
 end
 
-function slot0.InitTimer(slot0)
+slot0.InitTimer = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:OnTimer(RacingMiniGameConfig.TIME_INTERVAL)
 	end, RacingMiniGameConfig.TIME_INTERVAL, -1)
@@ -61,7 +61,7 @@ function slot0.InitTimer(slot0)
 	end
 end
 
-function slot0.InitGameUI(slot0, slot1)
+slot0.InitGameUI = function(slot0, slot1)
 	slot0.rtViewport = slot1:Find("Viewport")
 	slot0.bgSingleSize = slot0.rtViewport.rect.width
 	slot0.rtBgContent = slot0.rtViewport:Find("BgContent")
@@ -119,7 +119,7 @@ function slot0.InitGameUI(slot0, slot1)
 	slot0.queue = {}
 end
 
-function slot0.ResetGame(slot0)
+slot0.ResetGame = function(slot0)
 	slot0.timeCount = 0
 	slot0.timeAll = RacingMiniGameConfig.ALL_TIME
 
@@ -140,7 +140,7 @@ function slot0.ResetGame(slot0)
 	slot0.itemCountDic = {}
 end
 
-function slot0.ReadyGame(slot0, slot1)
+slot0.ReadyGame = function(slot0, slot1)
 	slot2 = getProxy(PlayerProxy)
 	slot2 = slot2:getRawData()
 	slot0.rankData = underscore.filter(slot1, function (slot0)
@@ -166,13 +166,13 @@ function slot0.ReadyGame(slot0, slot1)
 	end)
 end
 
-function slot0.StartGame(slot0)
+slot0.StartGame = function(slot0)
 	slot0.isStart = true
 
 	slot0:ResumeGame()
 end
 
-function slot0.EndGame(slot0, slot1)
+slot0.EndGame = function(slot0, slot1)
 	slot0.isStart = false
 
 	slot0:PauseGame()
@@ -184,7 +184,7 @@ function slot0.EndGame(slot0, slot1)
 	slot0.binder:openUI("result")
 end
 
-function slot0.ResumeGame(slot0)
+slot0.ResumeGame = function(slot0)
 	slot0.isPause = false
 
 	slot0.timer:Start()
@@ -192,7 +192,7 @@ function slot0.ResumeGame(slot0)
 	uv1(slot0.rtViewport, false)
 end
 
-function slot0.PauseGame(slot0)
+slot0.PauseGame = function(slot0)
 	slot0.isPause = true
 
 	slot0.timer:Stop()
@@ -200,7 +200,7 @@ function slot0.PauseGame(slot0)
 	uv1(slot0.rtViewport, true)
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	slot2 = slot1.pos - slot0.pos
 	slot3 = {}
 
@@ -214,7 +214,7 @@ function slot3(slot0, slot1)
 	return slot3[1][1] < slot2.x and slot2.x < slot3[1][2] and slot3[2][1] < slot2.y and slot2.y < slot3[2][2]
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	slot0.timeCount = slot0.timeCount + slot1
 
 	if slot0.timeAll < slot0.timeCount then
@@ -289,7 +289,7 @@ function slot0.OnTimer(slot0, slot1)
 	slot0:UpdateDisplay()
 end
 
-function slot0.UpdateDisplay(slot0)
+slot0.UpdateDisplay = function(slot0)
 	slot1 = slot0.timeAll - slot0.timeCount
 	slot9 = slot1
 
@@ -364,15 +364,15 @@ end
 
 slot4 = {
 	TrafficCone = "roadblocks",
-	Mire = "mire",
+	Bomb = "roadblocks",
 	Roadblock = "roadblocks",
 	SpeedBumps = "speed_bumps",
-	Bomb = "roadblocks",
+	Mire = "mire",
 	MoreTime = "more_time",
 	Invincibility = "invincibility"
 }
 
-function slot0.CreateNewObject(slot0)
+slot0.CreateNewObject = function(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in ipairs(RacingMiniGameConfig.FIELD_CONFIG) do
@@ -447,7 +447,7 @@ function slot0.CreateNewObject(slot0)
 	slot0.chargeDis = slot0.chargeDis + slot1.recharge_dis
 end
 
-function slot0.GetSpeed(slot0, slot1)
+slot0.GetSpeed = function(slot0, slot1)
 	slot2 = nil
 	slot4 = RacingMiniGameConfig.S_LIST
 
@@ -464,17 +464,17 @@ function slot0.GetSpeed(slot0, slot1)
 	return (slot2 or slot4[#slot4]) * 10
 end
 
-function slot0.AddTime(slot0, slot1)
+slot0.AddTime = function(slot0, slot1)
 	slot0.timeAll = slot0.timeAll + slot1
 
 	setActive(slot0.rtTime:Find("Text/plus"), true)
 end
 
-function slot0.SetEnginePower(slot0, slot1)
+slot0.SetEnginePower = function(slot0, slot1)
 	slot0.enginePower = math.min(slot0.enginePower, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

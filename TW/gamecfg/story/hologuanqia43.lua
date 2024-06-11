@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA43",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA43",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
+			say = "在妳们聊得火热的时候，冒昧打扰一下",
 			actorName = "？？？",
+			side = 2,
+			dir = 1,
 			nameColor = "#ff5c5c",
 			bgm = "holo-control",
-			dir = 1,
-			say = "在妳们聊得火热的时候，冒昧打扰一下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "名侦探吹雪",
 			dir = -1,
+			actorName = "名侦探吹雪",
 			say = "呼呼呼，我就是塞壬的军师哦。诸位可以称呼我为名侦探吹雪，是将在这里彻底阻止妳们的人",
 			typewriter = {
 				speed = 0.05,
@@ -55,9 +55,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "果然塞壬复制出的是这个麻烦的个性啊！！",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名侦探吹雪",
 			say = "差不多就是这回事吧~",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名侦探吹雪",
 			say = "差不多是这样吧，虽然有些我只是提供了建议而已。",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名侦探吹雪",
 			say = "怎么可能，{namecode:158}酱说笑了。谜局已经到了最后关头，我也忍不住想来前线观察一下了而已",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "谜局？",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名侦探吹雪",
 			say = "就是指迄今为止的局势哦。别发呆了，接住",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,9 +220,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哎？！这个是…",
 			dialogShake = {
 				speed = 0.09,
@@ -242,8 +242,8 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "名侦探吹雪",
 			dir = -1,
+			actorName = "名侦探吹雪",
 			say = "这是经过我研究改造，创造出的名侦探特制黑暗游戏！",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "黑暗游戏……？",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "名侦探吹雪",
 			say = "像军师一样运用头脑的力量，来用游戏一决胜负吧，白上吹雪！",
 			typewriter = {

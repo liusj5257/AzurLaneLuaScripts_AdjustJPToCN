@@ -2,20 +2,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163881,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -25,20 +25,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163882,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -48,20 +48,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163883,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -71,20 +71,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163884,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -94,20 +94,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163885,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -117,20 +117,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163886,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -140,20 +140,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163887,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -163,20 +163,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163888,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -186,20 +186,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163889,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -209,20 +209,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 163890,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillSonar",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSonar",
+				target_choise = "TargetSelf",
 				arg_list = {
 					duration = 5
 				}
@@ -232,11 +232,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 17391,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -247,20 +247,20 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 163881,
 				emitter = "BattleBulletEmitter"
 			}
 		},
 		{
-			type = "BattleSkillSonar",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSonar",
+			target_choise = "TargetSelf",
 			arg_list = {
 				duration = 5
 			}

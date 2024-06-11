@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fight On, Royal Maids!\n\n<size=45>Her Reward</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "The joint exercise with the Maid Team drew to a close.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "The joint exercise with the Maid Team drew to a close.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "More important than winning or losing was the ability for the members of each fleet to work with each other and communicate properly.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Or, as Her Majesty Queen Elizabeth said, for the Maid Team to \"display the glory of the Royal Navy.\"",
 			typewriter = {
 				speed = 0.05,
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Even though the exercise was not perfect, both sides achieved the results that they had hoped for.",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "And now, we arrive at the present...",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Master, I've finished passing out the results of the joint exercise. I've already archived the data within the intelligence room, as well as with the registries of the individual factions.",
 			typewriter = {
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "While my secretary was gone, this maid somehow made herself comfortable sitting in my office.",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Thinking back about that training exercise, everyone did an outstanding job, but the way she fought all-out until she was the last one standing left a deep impression within me...",
 			typewriter = {
 				speed = 0.05,
@@ -151,9 +151,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "For going above and beyond the line of duty, perhaps she deserves a little bonus...",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Hawawawa...",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,9 +210,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Haah... Ahh... Um...",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,9 +253,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "High... five...? Oh right, wasn't this some kind of Eagle Union exercise?",
 			typewriter = {
@@ -271,9 +271,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "This lowly maid has no right to touch the Master's hand! At least...",
 			typewriter = {
@@ -289,9 +289,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Um, let this one...",
 			typewriter = {
@@ -322,9 +322,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Master...? Are you busy right now...?",
 			typewriter = {
@@ -340,9 +340,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Umm, is there something that I can do to help...?",
 			typewriter = {
@@ -358,9 +358,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
@@ -376,11 +376,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			stopbgm = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
 			actor = 202040,
-			nameColor = "#a9f548",
+			stopbgm = true,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -395,9 +395,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
@@ -413,9 +413,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
@@ -431,9 +431,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Aww... I knew it... Master intended to cast me aside after all...",
 			typewriter = {
@@ -449,9 +449,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Waaah... Master! Please don't throw me away... Please let me stay by your side...! ！ ！ ！",
 			typewriter = {
@@ -464,8 +464,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,9 +477,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "I can't live without you, Master! I'll seriously die! Please! Master! Please! ！",
 			typewriter = {
@@ -492,8 +492,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -505,9 +505,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Oh... you didn't notice I was here...? I'm so relieved, Master...",
 			typewriter = {
@@ -520,12 +520,12 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "I calmed Dido down and consoled her.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 3,
-			say = "I calmed Dido down and consoled her.",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,14 +536,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "As such, we welcomed some new friends to the port...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -571,8 +571,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Is there any work that I can help you with? Just ask, and I'll do it for you! I'll handle anything for you, no matter the request!",
 			typewriter = {
@@ -588,9 +588,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "That's because I... I'm your maid after all, Master!",
 			typewriter = {
@@ -603,8 +603,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

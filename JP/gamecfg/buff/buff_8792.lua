@@ -1,14 +1,14 @@
 return {
-	init_effect = "",
-	name = "2020德系活动D3 构建者护盾",
 	time = 15,
-	last_effect = "ATdun_full",
+	name = "2020德系活动D3 构建者护盾",
+	init_effect = "",
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "AT·FIELD",
 	stack = 1,
 	id = 8792,
 	icon = 8792,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun_full",
 	effect_list = {
 		{
 			type = "BattleBuffBarrier",

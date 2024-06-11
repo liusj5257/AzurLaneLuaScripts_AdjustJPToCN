@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 1090150,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1090150,
+	color = "blue",
 	icon = 3520,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 1090151
+				skill_id = 1090151,
+				target = "TargetSelf"
 			}
 		},
 		{

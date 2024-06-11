@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Hidden Charm\n\n<size=45>6 The Weakness Kept Inside</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Evening",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Evening",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "Shimakaze, being one of Suruga's friends, likely had an explanation for her transformation. I decided to ask her about it.",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
 			say = "Suruga maintains a constant tough girl act, you see. She goes out of her way not to seem cute or delicate.",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "And here I'd come to adore that cool side of her...",
 			typewriter = {
 				speed = 0.05,
@@ -113,14 +113,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_1100",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
+			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			say = "Look at these horns, Shimakaze. What do you think?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
 			say = "Wooow! I'm simply stunned!",
 			effects = {
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,8 +187,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
 			say = "As in, stunned that you've managed to disguise your real ears beneath them. They look so... so different!",
 			effects = {
@@ -210,8 +210,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "\"I'm simply stunned\" would've been plenty for an answer, you know!",
 			effects = {
@@ -233,8 +233,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
 			say = "Sorry. At any rate, rest assured, I think you look awesome with a capital A!",
 			effects = {
@@ -256,8 +256,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Heheheh... I sure do! This new look will finally give me the confidence needed to truly excel!",
 			effects = {
@@ -276,8 +276,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -288,14 +288,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_main_twilight",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
+			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			say = "...And that's the story behind them. Sadly, they still weren't enough to take her to the absolute top.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "As a result, Suruga set her expectations lower and lower. She'd settle for 2nd place, then 3rd, and it only got worse.",
 			typewriter = {
 				speed = 0.05,
@@ -359,8 +359,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
 			say = "She doesn't know Suruga in and out. The only reason she associates with her is for her looks...",
 			typewriter = {
@@ -373,9 +373,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "\"Now I see the greater picture... There's only one thing I can do.\"",
 			typewriter = {
 				speed = 0.05,
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301290,
+			nameColor = "#a9f548",
 			say = "You're going to try to console her?",
 			typewriter = {
 				speed = 0.05,
@@ -413,9 +413,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "There was Suruga, my secretary, and then there was Suruga, the Kii-class battleship.",
 			typewriter = {
 				speed = 0.05,
@@ -427,9 +427,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "There was Suruga, brimming with valor in the exercise area... and Suruga, vulnerable and exposed.",
 			typewriter = {
 				speed = 0.05,
@@ -441,9 +441,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "I learned something important that day. Suruga had two sides to her.",
 			typewriter = {
 				speed = 0.05,
@@ -455,13 +455,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "When I returned to my office, Suruga had not only stopped sobbing, she'd seated herself at her desk and started working again.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -502,9 +502,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She spoke casually and straight to the point, like nothing had happened before I left. It was a sly tactic, and seemed... a little like what a raccoon might do.",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "If you have any work lying around, just let me at it. I could use something to clear my mind.",
 			typewriter = {
@@ -533,9 +533,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Her eyes were still faintly red after weeping for so long. Instead of assigning her work, I decided to tell her something to raise her spirits.",
 			typewriter = {
 				speed = 0.05,
@@ -556,8 +556,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "The sea?! But that's not on tomorrow's schedule?",
 			typewriter = {
@@ -570,8 +570,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -580,12 +580,12 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "Unless... you mean in the after-hours, then I suppose that could be arranged...",
 			typewriter = {
 				speed = 0.05,

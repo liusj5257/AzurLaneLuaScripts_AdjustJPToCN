@@ -1,12 +1,12 @@
 return {
-	id = "W742001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W742001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "其他舰队暂时无法移动，请指挥官谨慎探索。",
 			typewriter = {
 				speed = 0.05,

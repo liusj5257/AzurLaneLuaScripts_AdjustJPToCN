@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN24",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "終於來了嗎………………",
 			bgm = "xinnong-2",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "終於來了嗎………………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,9 +42,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			say = "伴隨著轟鳴聲，遮天蔽日的機群從遠方出現了。在機群之中，除了鐵血飛機之外，更多的是散發著詭異光芒的塞壬飛機。",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			say = "不過，機群之內正在發生連續不斷的爆炸。雖然一分一秒的逼近著目標區域，但是爆炸聲也變得愈發密集。",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "這裡是…鐵血的主場！如果是這樣的話妳要怎麼辦！",
 			effects = {
 				{
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "U-37，妳還在指定位置吧！",
 			dialogShake = {
 				speed = 0.09,
@@ -196,8 +196,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "這裡是U-37~目前仍然在指定位置待機中，要重啟控制設備嗎？",
 			effects = {
@@ -219,8 +219,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "入侵塞壬是電子戰特化型，應該已經對於中央控制設備採取對策了。計劃變更，妳立刻把面前的控制設備給炸了！",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "哎、哎？！！炸……炸了？！！！要是炸了以後怎麼辦啊！",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "情況緊急，炸了再說。",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "是！我明白了！現在開始進行攻擊準備，U-37通訊結束！",
 			typewriter = {
@@ -345,9 +345,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "就當是遲來多時的回應，至少讓我為這邊的事情畫上句號吧……",
 			typewriter = {

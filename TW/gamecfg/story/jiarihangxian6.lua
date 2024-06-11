@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "不愧是歷戰的“艦船”…不過，我也不會輕易示弱！就是現在！看我的！",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "兩人進行了一段堪稱絕妙的攻防，讓人忍不住為之拍手叫好。",
 			flashin = {
 				delay = 0.2,
@@ -81,8 +81,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600030,
 			dir = 1,
+			actor = 10600030,
 			say = "呵呵~{namecode:66}小姐才是，雖然穿著這麼可愛的泳裝，攻勢卻相當凌厲呢~",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "呵呵~感覺{namecode:66}小姐應該也很適合參加原本的“維納斯挑戰賽”呢~",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "下次讓我們不以戰鬥，而是以其他的方式“一決勝負”吧~比如沙灘排球什麼的~？",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

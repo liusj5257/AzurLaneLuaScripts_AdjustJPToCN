@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANZHAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Royal Knight\n\n<size=45>Chapter 5: The Small Things</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Right then, let's get the work done as quickly as possible. I'll just head into the office and-",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "Right then, let's get the work done as quickly as possible. I'll just head into the office and-",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "Oh, if it isn't Lady Warspite. Good morning to you.",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.6,
 					x = -2250
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "Y-yes. Good morning.",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Y-yes. Good morning.",
+			actor = 205020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205020,
 			nameColor = "#a9f548",
 			say = "(bounce)",
 			typewriter = {
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "(boing)",
 			typewriter = {
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			say = "Lady Warspite, you seem unwell... Have you any trouble sleeping?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Lady Warspite, you seem unwell... Have you any trouble sleeping?",
+			actor = 207030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "M-maybe a touch... But you need not worry. A little fatigue never killed anyone.",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -309,15 +309,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "It's a commission report...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			actor = 205030,
+			withoutActorName = true,
 			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
-			withoutActorName = true,
 			blackBg = true,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "......",
 			effects = {
 				{
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			withoutActorName = true,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "And I... may have... to join you...",
 			typewriter = {
 				speed = 0.05,
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			dir = 1,
 			side = 2,
 			withoutActorName = true,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -415,11 +415,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "(Now how am I supposed to keep up...?)",
 			effects = {
 				{
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "Oh?",
 			typewriter = {
 				speed = 0.05,
@@ -453,8 +453,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,

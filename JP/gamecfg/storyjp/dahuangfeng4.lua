@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"サンシャイン・デュエル！\n\n<size=45>四　ライバル登場？</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 107070,
 			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			say = "指揮官、大変！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "————！？",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "秘書艦ホーネットが慌てて執務室に飛び込んできた。",
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "はあ、はあ…実は——",
 			typewriter = {
@@ -123,14 +123,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_103",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
+			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			say = "指揮官も秘書艦も長期休暇だし、演習の予定も入ってない！ふふん、ぱーっと遊ばなくちゃ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "そこのユニオン艦！たしかあのエンタープライズの妹、ヨークタウン級の…ホーネットだよね！",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "そうだけど？あなたは…重桜の瑞鶴？",
 			typewriter = {
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "ちょうどいいところに！あの「グレイゴースト」…ああつまりあなたの姉のエンタープライズを探してるんだけど、今どこにいるか知ってる？",
 			effects = {
 				{
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "あーエンプラ姉なら緊急委託で出かけてるから、明日の夜までは帰ってこないよ",
 			effects = {
@@ -293,14 +293,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			say = "って勢いの出まかせだったのに…まさか瑞鶴は本気にするなんて",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "なぜか急に対抗演習になったらしい。つまり、ホーネットは演習エリアに空きがあるか確認しに来たと？",
@@ -359,8 +359,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "それもあるけど！それより大事なのは…",
 			typewriter = {
@@ -373,8 +373,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -383,8 +383,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "もしかして…負けるかもと心配になった？",
@@ -401,8 +401,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "違うよ！演習って別に負けても損はしないし、そもそも対抗演習で勝ち負けをいちいち気にするホーネット様じゃないし……",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,8 +428,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "それに私だってあの重桜の瑞鶴とは前々から勝負してみたかったし…",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "とはいっても！今回はエンプラ姉の代わりに出るって流れでしょ？",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "もし万が一負けてしまったら、その…よくないというか……",
 			typewriter = {
@@ -476,11 +476,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "だから指揮官、勝つためにアドバイスをお願い！",
 			typewriter = {
 				speed = 0.05,
@@ -492,8 +492,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -515,9 +515,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "えへへ、きっと助けてくれるって信じてた！",
 			typewriter = {
@@ -530,12 +530,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
+			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			blackBg = true,
 			dir = 1,
-			optionFlag = 2,
+			blackBg = true,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "まあそこは秘書艦のほうが距離的に近いから、先に指揮官と話せたってことで！お願い！指揮官！",
 			typewriter = {

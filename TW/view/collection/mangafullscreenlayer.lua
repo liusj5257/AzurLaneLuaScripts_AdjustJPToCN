@@ -1,23 +1,23 @@
 slot0 = class("MangaFullScreenLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MangaViewUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:findUI()
 	slot0:initData()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:readManga()
 	slot0:updatePicImg()
 	slot0:updateLikeBtn()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.resLoader:Clear()
 
@@ -26,13 +26,13 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.isShowing then
 		slot0:closeView()
 	end
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.picImg = slot0:findTF("Manga/Pic")
 	slot0.indexText = slot0:findTF("Manga/Index")
@@ -45,13 +45,13 @@ function slot0.findUI(slot0)
 	setText(slot0.tipText, i18n("world_collection_back"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.resLoader = AutoLoader.New()
 	slot0.curMangaIndex = slot0.contextData.mangaIndex
 	slot0.mangaIDLIst = slot0.contextData.mangaIDLIst
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		if not uv0.isShowing then
 			uv0:closeView()
@@ -99,7 +99,7 @@ function slot0.addListener(slot0)
 	end)
 end
 
-function slot0.updatePicImg(slot0)
+slot0.updatePicImg = function(slot0)
 	slot2 = pg.cartoon[slot0.mangaIDLIst[slot0.curMangaIndex]].resource
 
 	slot0.resLoader:LoadSprite(MangaConst.MANGA_PATH_PREFIX .. slot2, slot2, slot0.picImg, false)
@@ -121,14 +121,14 @@ function slot0.updatePicImg(slot0)
 	setActive(slot0.rightBtn, slot0.curMangaIndex < #slot0.mangaIDLIst)
 end
 
-function slot0.updateLikeBtn(slot0)
+slot0.updateLikeBtn = function(slot0)
 	slot2 = MangaConst.isMangaLikeByID(slot0.mangaIDLIst[slot0.curMangaIndex])
 
 	setActive(slot0.likeOnBtn, slot2)
 	setActive(slot0.likeOffBtn, not slot2)
 end
 
-function slot0.readManga(slot0)
+slot0.readManga = function(slot0)
 	if not MangaConst.isMangaEverReadByID(slot0.mangaIDLIst[slot0.curMangaIndex]) then
 		pg.m02:sendNotification(GAME.APPRECIATE_MANGA_READ, {
 			mangaID = slot1

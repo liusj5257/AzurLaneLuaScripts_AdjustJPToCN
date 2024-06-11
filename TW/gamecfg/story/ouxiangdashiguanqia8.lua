@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA8",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港區·演出海域",
 			side = 2,
 			bgName = "bg_map_idom",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "港區·演出海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "我回來了！Z23、大家，都沒事吧？！",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -67,13 +67,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_map_idom",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
-			side = 2,
-			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "非常感謝，大家都沒事。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_map_idom",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700010,
-			side = 2,
-			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "雖然有點被嚇到…不過，多虧各位及時營救所以沒什麼事……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700060,
+			nameColor = "#a9f548",
 			say = "嗯哼哼！說明亞美們的支援時機非常完美！",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "嗯嗯！也剛好展示了真美們的μ兵裝！",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 301057,
 			dir = 1,
+			actor = 301057,
 			nameColor = "#a9f548",
 			say = "必敗事件之後馳援而來的新夥伴，是神演出的說。",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			nameColor = "#a9f548",
 			say = "真是的，剛才狀況還是挺危險的呢……",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
 			say = "所以才能在狀況變危險之前趕來支援。",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "沒錯！這個μ兵裝是潛艇型！也就是說…",
 			typewriter = {
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700070,
+			nameColor = "#a9f548",
 			say = "在春香她們不知道的情況下，我們一直跟在艦隊後面哦！",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,13 +254,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "真的能夠潛水嗎…？！真是超乎想像的技術力…",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "真的能夠潛水嗎…？！真是超乎想像的技術力…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,8 +306,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "律子的也很讓人期待呢~♪",
 			typewriter = {
@@ -323,11 +323,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "哎呀…這究竟是…？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,8 +357,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700030,
 			dir = 1,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "按{namecode:98}所說，那個似乎是“跟這邊的艦船們裝備的『μ兵裝』相似”的東西呢。",
 			typewriter = {
@@ -387,13 +387,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "本來只是順口問問，沒想到居然真的幫我們做出來了……",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "本來只是順口問問，沒想到居然真的幫我們做出來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,8 +407,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "我們也能“戰鬥”啦！這樣不是很好嘛？",
 			typewriter = {
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700060,
+			nameColor = "#a9f548",
 			say = "沒錯！接下來亞美們會打倒很多敵人的！",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -450,11 +450,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "原來如此~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,8 +484,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
 			say = "剛才看到{namecode:6}、亞美和真美一起衝出去支援的時候，真是嚇了一跳啊。別忘了是大家要“互相幫助”的哦？",
 			typewriter = {
@@ -501,14 +501,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 301057,
 			dir = 1,
+			actor = 301057,
 			nameColor = "#a9f548",
 			say = "非常抱歉…的說。",
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -544,8 +544,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 108050,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
 			say = "就算發生了緊急事態，還有大青花魚在呢！嘻嘻~",
 			typewriter = {
@@ -558,12 +558,12 @@ return {
 			}
 		},
 		{
-			actor = 103250,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 103250,
+			nameColor = "#a9f548",
 			say = "那就先繼續前進，看看舞台的狀況再回去吧！",
 			typewriter = {
 				speed = 0.05,

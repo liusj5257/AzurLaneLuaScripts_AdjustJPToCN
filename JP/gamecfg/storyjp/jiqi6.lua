@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIQI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIQI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"コドモじゃないもん！\n\n<size=45>六 オトナ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今日はいつもと同じく――",
 			typewriter = {
 				speed = 0.05,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……？",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +86,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（ど、どういう状況だ？？？）",
 			dialogShake = {
 				speed = 0.09,
@@ -108,8 +108,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "指揮官、よく聞こえなかったの？カヴァラとデート、して！",
 			typewriter = {
@@ -122,9 +122,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（落ち着け、まずは素数でも数えて……）",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "「デートすれば、指揮官は子供扱いしなくなる」って！",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "指揮官はいつもあたしが子供だから、あたしを大事に大事にしてるでしょ？",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "そんなのもう嫌！",
 			typewriter = {
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "だからカヴァラとデートして！そしたらいままでとは違うあたしを見せてやる！",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,8 +254,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "お願い！",
 			typewriter = {
@@ -281,9 +281,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "指揮官がはいというまでここから離れないよ！",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "よかった！",
 			typewriter = {

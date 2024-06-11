@@ -8,8 +8,8 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"分かり合う心\n\n<size=45>一 信頼の始まり</size>",
@@ -20,14 +20,14 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			bgName = "bg_project_tb_room1",
-			tbActor = true,
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-angry",
+			bgName = "bg_project_tb_room1",
 			bgm = "qe-ova-10",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			voice = "event:/educate/tb/educate-tb-1-angry",
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "……TBがこの姿でバーチャルタウンにやってきてから、しばらく経ったけど……",
@@ -73,9 +73,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-doubt2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -117,9 +117,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-shock1",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "「ぬいぐるみ」の概念がまだ理解できないみたいだ。言い方を変えよう。",
@@ -160,9 +160,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-talking1",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "——当てが外れた返答が来た！",
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer16",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer16",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -234,9 +234,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer4",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "そう言いながら、TBは人形の「耳」をこちらの手に押し込んできた。",
@@ -265,9 +265,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-laugh2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TBは何かのエネルギーに影響されたかのようで、すぐにあくびをし始めた…",
@@ -296,9 +296,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer15",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

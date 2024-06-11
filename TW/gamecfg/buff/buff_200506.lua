@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2023古立特联动复刻 TSS4 公主 一阶段",
 	init_effect = "",
+	name = "2023古立特联动复刻 TSS4 公主 一阶段",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 99,
 	id = 200506,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -35,8 +35,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 200504,
+				target = "TargetSelf",
 				countType = 200504
 			}
 		},
@@ -57,8 +57,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 200505,
+				target = "TargetSelf",
 				countType = 200505
 			}
 		},
@@ -79,8 +79,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 200506,
+				target = "TargetSelf",
 				countType = 200506
 			}
 		},
@@ -101,8 +101,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 200507,
+				target = "TargetSelf",
 				countType = 200507
 			}
 		},

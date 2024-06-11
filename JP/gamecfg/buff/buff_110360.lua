@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 110360,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110360,
+	color = "red",
 	icon = 110360,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "luck",
+				number = -6,
 				target = "TargetSelf",
-				number = -6
+				attr = "luck"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 500
+				number = 500,
+				attr = "airPower"
 			}
 		},
 		{
@@ -37,8 +37,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 1000
+				number = 1000,
+				attr = "dodgeRate"
 			}
 		}
 	}

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "古立特联动 宝多六花支援弹幕LV3",
 	cd = 0,
-	painting = "baoduoliuhua",
-	id = 9410,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "baoduoliuhua",
+	id = 9410,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -15,8 +15,8 @@ return {
 				emitter = "BattleBulletEmitter",
 				weapon_id = 840003,
 				attack_attribute_convert = {
-					attr_type = "fleetGS",
 					A = 80,
+					attr_type = "fleetGS",
 					B = 400
 				}
 			}

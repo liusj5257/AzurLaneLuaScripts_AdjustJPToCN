@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"맛있는 티라미수\n\n<size=45>2. 신임 비서함 보이시</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "모항·지휘실",
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "모항·지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관, 반가워... 새로운 비서함 보이시야.",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(심호흡, 심호흡...)",
 			typewriter = {
 				speed = 0.05,
@@ -103,15 +103,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "——비서함의 일은 여기서부터 시작인가... 알겠어.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,10 +169,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "의뢰 관련 서류... 정리해 두었어.",
 			typewriter = {
 				speed = 0.05,
@@ -201,15 +201,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관, 곧 오후 휴식 시간인데... 어떤 음료를 준비할까?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "에너지 드링크? ... 지휘관, 조금 더 달달한 것을 마시고 쉬는 편이 낫지 않겠어...?",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "잠수? 내 작은 취미라고 할까...",
 			typewriter = {
 				speed = 0.05,
@@ -284,12 +284,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "하지만 나는 잠수함이 아니니까... 잠수 장비를 사용해서 잠깐 물 속에 들어갔다 나오는 것뿐이야.",
 			typewriter = {
 				speed = 0.05,
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "잠수를 좋아하는 이유라...",
 			typewriter = {
 				speed = 0.05,
@@ -342,10 +342,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "가끔 세상과 단절되어서 혼자만 조용히 있고 싶을 때가 있어... 지휘관도 이런 생각을 해 본 적이 있지 않아?",
 			typewriter = {
 				speed = 0.05,
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "잠수를 하면 그렇게 조용한 느낌을 받을 수 있어...",
 			typewriter = {
 				speed = 0.05,
@@ -392,10 +392,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "바닷속 세계는 정말 예뻐... 각양각색의 산호도 있고, 바다거북도 볼 수 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -410,10 +410,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "물고기 떼를 만나면 그 가운데에서 춤을 출 수도 있는데, 그때의 기분은 정말 대단하지.",
 			typewriter = {
 				speed = 0.05,

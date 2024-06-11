@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "塔什干ICELF子弹减速",
 	time = 4,
+	name = "塔什干ICELF子弹减速",
+	init_effect = "",
 	picture = "",
 	desc = "4s减速",
 	stack = 10,

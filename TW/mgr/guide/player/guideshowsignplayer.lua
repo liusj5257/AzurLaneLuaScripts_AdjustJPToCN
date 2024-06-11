@@ -1,12 +1,12 @@
 slot0 = class("GuideShowSignPlayer", import(".GuidePlayer"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.signTrs = {}
 end
 
-function slot0.OnExecution(slot0, slot1, slot2)
+slot0.OnExecution = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			uv0:loadSigns(uv1, slot0)
@@ -17,7 +17,7 @@ function slot0.OnExecution(slot0, slot1, slot2)
 	}, slot2)
 end
 
-function slot0.loadSigns(slot0, slot1, slot2)
+slot0.loadSigns = function(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot1:GetSignList()) do
@@ -34,7 +34,7 @@ function slot0.loadSigns(slot0, slot1, slot2)
 	parallelAsync(slot4, slot2)
 end
 
-function slot0.LoadSignRes(slot0, slot1, slot2)
+slot0.LoadSignRes = function(slot0, slot1, slot2)
 	slot3 = slot0.uiLoader
 
 	slot3:Load(slot1.signName, function (slot0)
@@ -54,7 +54,7 @@ function slot0.LoadSignRes(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.InitSign(slot0, slot1, slot2)
+slot0.InitSign = function(slot0, slot1, slot2)
 	if slot1:GetSignType() == GuideShowSignStep.SIGN_TYPE_2 then
 		slot0:UpdateSign2(slot1, slot2)
 	elseif slot3 == GuideShowSignStep.SIGN_TYPE_3 then
@@ -64,7 +64,7 @@ function slot0.InitSign(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateSign2(slot0, slot1, slot2)
+slot0.UpdateSign2 = function(slot0, slot1, slot2)
 	slot4 = findTF(slot0.signTrs[1], "btn")
 
 	if slot1:ShouldClick() then
@@ -97,13 +97,13 @@ function slot0.UpdateSign2(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateSign3(slot0, slot1, slot2)
+slot0.UpdateSign3 = function(slot0, slot1, slot2)
 	slot0.signTrs[1].sizeDelta = slot1:GetClickArea()
 
 	slot2()
 end
 
-function slot0.UpdateCommonSign(slot0, slot1, slot2)
+slot0.UpdateCommonSign = function(slot0, slot1, slot2)
 	if slot1:GetExitDelay() <= 0 then
 		slot2()
 	else
@@ -111,7 +111,7 @@ function slot0.UpdateCommonSign(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnClear(slot0)
+slot0.OnClear = function(slot0)
 	slot0.signTrs = {}
 end
 

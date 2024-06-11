@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BAILINGYUMEIMENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BAILINGYUMEIMENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オフィス・ドリーム\n\n<size=45>アイドリング・ラブ</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>どうやらこれは、夢の中の出来事のようだ。</size>",
@@ -35,24 +35,24 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "有限会社「アズールレーンテック」・本社ビルのオフィスにて",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			bgm = "theme-schoolfuture",
+			side = 2,
 			bgmDelay = 1,
-			say = "有限会社「アズールレーンテック」・本社ビルのオフィスにて",
+			bgm = "theme-schoolfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "んんん……！このストッキング履きづら……",
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "このハイヒールも…いつものよりかかとが痛いわね…",
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = "home",
 			say = "もうヤケだわ。たかがストッキングを履くぐらい―――",
@@ -102,14 +102,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			live2d = true,
-			withoutActorName = true,
+			hidePaintObj = true,
+			dir = 1,
 			actor = 603061,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "パチッ",
 			painting = {
 				alpha = 0.3,
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "さ、裂けた…？どういうこと……",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "うぅ…！履けなくなったじゃないの…！",
@@ -167,11 +167,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "こんなことになるくらいならサイズをもう少し大きいのにすればよかった…",
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "……ううん、違うわ。これは指揮官さまの気を惹けるかどうか試す試練よ…！",
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官さまを振り向かせるためなら…諦めない！絶対に乗り切ってみせる！",
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "……し、指揮官さま？！",
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "いつからいたの？っていうか今の聞いてた？！",
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "つ、ついさっき着いたばかり……？まだ始業時間より1時間も前じゃない！",
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "（くっ…！指揮官さまにサプライズをしたかったのに……）",
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（もうこんなの全然雰囲気がないじゃない…！なんでこんなに早く出社するのよ……）",
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "（ち、違うわ！この流れに乗って指揮官さまに助けてもらって、履かせてくれるように頼めば……）",
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（指揮官さまとの距離を縮める最高のチャンスじゃない！？）",
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（ゴリツィア、落ち着いて！自然に！あなたならできるわ！）",
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "コホン！あ、あの、指揮官さま、その……",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "このストッキングと靴……履かせてもらえないかしら…？",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "気をつけてね！破かないでよ……！",
@@ -464,11 +464,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（指揮官さまとオフィスで二人っきりになっただけでなく、靴も履かせてもらえた……）",
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "（こ、これはまさしく夢見てきたロマンス……！）",
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "えへへ……♥",

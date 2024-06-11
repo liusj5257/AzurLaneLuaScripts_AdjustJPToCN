@@ -2,12 +2,12 @@ return {
 	desc_get = "空中支援时，有40%(满级70%)概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
 	name = "LuckyE-LV9",
 	init_effect = "",
+	id = 9050,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "空中支援时，有$1概率造成2倍伤害，并使自己进入隐身状态，回避所有伤害，持续8秒",
 	stack = 1,
-	id = 9050,
+	color = "red",
 	icon = 9050,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				rant = 6600,
-				target = "TargetSelf",
-				skill_id = 9050
+				skill_id = 9050,
+				target = "TargetSelf"
 			}
 		}
 	}

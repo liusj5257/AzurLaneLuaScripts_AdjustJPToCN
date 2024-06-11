@@ -8,7 +8,7 @@ slot4 = slot0.Battle.BattleDataFunction
 slot5 = slot1.UnitDir.LEFT
 slot6 = slot1.UnitDir.RIGHT
 
-function slot4.CreateBattleBulletData(slot0, slot1, slot2, slot3, slot4)
+slot4.CreateBattleBulletData = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.GetBulletTmpDataFromID(slot1)
 	slot7, slot8 = uv0.generateBulletFuncs[slot5.type](slot0, slot5, slot2, slot3, slot4)
 
@@ -32,19 +32,19 @@ function slot4.CreateBattleBulletData(slot0, slot1, slot2, slot3, slot4)
 	return slot7, slot8
 end
 
-function slot4.GetBulletTmpDataFromID(slot0)
+slot4.GetBulletTmpDataFromID = function(slot0)
 	assert(uv0[slot0] ~= nil, "找不到子弹配置：id = " .. slot0)
 
 	return uv0[slot0]
 end
 
-function slot4.GetBarrageTmpDataFromID(slot0)
+slot4.GetBarrageTmpDataFromID = function(slot0)
 	assert(uv0[slot0] ~= nil, "找不到弹幕配置：id = " .. slot0)
 
 	return uv0[slot0]
 end
 
-function slot4.GetConvertedBarrageTableFromID(slot0, slot1)
+slot4.GetConvertedBarrageTableFromID = function(slot0, slot1)
 	assert(uv0[slot0] ~= nil, "获取转换弹幕数据失败，找不到弹幕原型配置：id = " .. slot0)
 
 	if uv1.ConvertedBarrageTableList[slot0] == nil or uv1.ConvertedBarrageTableList[slot0][slot1] == nil then
@@ -54,7 +54,7 @@ function slot4.GetConvertedBarrageTableFromID(slot0, slot1)
 	return uv1.ConvertedBarrageTableList[slot0]
 end
 
-function slot4.GenerateTransBarrage(slot0, slot1, slot2)
+slot4.GenerateTransBarrage = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = uv0.GetBarrageTmpDataFromID(slot0)
 
@@ -81,7 +81,7 @@ function slot4.GenerateTransBarrage(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot4._createCannonBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createCannonBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleCannonBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(true)
@@ -89,7 +89,7 @@ function slot4._createCannonBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
-function slot4._createBombBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createBombBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleBombBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetAttr(slot2._attr)
@@ -112,7 +112,7 @@ function slot4._createBombBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, false
 end
 
-function slot4._createStrayBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createStrayBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleStrayBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(true)
@@ -120,7 +120,7 @@ function slot4._createStrayBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
-function slot4._createTorpedoBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createTorpedoBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleTorpedoBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetExplodePosition(slot4)
@@ -129,7 +129,7 @@ function slot4._createTorpedoBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
-function slot4._createDirectBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createDirectBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleAntiAirBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(false)
@@ -137,7 +137,7 @@ function slot4._createDirectBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, false
 end
 
-function slot4._createAntiAirBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createAntiAirBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleAntiAirBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(false)
@@ -145,7 +145,7 @@ function slot4._createAntiAirBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, false
 end
 
-function slot4._createAntiSeaBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createAntiSeaBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleAntiSeaBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(false)
@@ -153,7 +153,7 @@ function slot4._createAntiSeaBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, false
 end
 
-function slot4._createSharpnelBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createSharpnelBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleShrapnelBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetExplodePosition(slot4)
@@ -163,7 +163,7 @@ function slot4._createSharpnelBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
-function slot4._createEffectBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createEffectBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleEffectBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetTemplateData(slot1)
@@ -177,7 +177,7 @@ function slot4._createEffectBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, false
 end
 
-function slot4._createBeamBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createBeamBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleAntiAirBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(false)
@@ -185,7 +185,7 @@ function slot4._createBeamBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, false
 end
 
-function slot4._createGravitationBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createGravitationBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleGravitationBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetExplodePosition(slot4)
@@ -195,7 +195,7 @@ function slot4._createGravitationBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
-function slot4._createMissile(slot0, slot1, slot2, slot3, slot4)
+slot4._createMissile = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleMissileUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetAttr(slot2._attr)
@@ -206,7 +206,7 @@ function slot4._createMissile(slot0, slot1, slot2, slot3, slot4)
 	return slot5, false
 end
 
-function slot4._createSpaceLaser(slot0, slot1, slot2, slot3, slot4)
+slot4._createSpaceLaser = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleSpaceLaserUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(true)
@@ -215,7 +215,7 @@ function slot4._createSpaceLaser(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
-function slot4._createScaleBullet(slot0, slot1, slot2, slot3, slot4)
+slot4._createScaleBullet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleScaleBulletUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(true)
@@ -223,7 +223,7 @@ function slot4._createScaleBullet(slot0, slot1, slot2, slot3, slot4)
 	return slot5, true
 end
 
-function slot4._createAAMissile(slot0, slot1, slot2, slot3, slot4)
+slot4._createAAMissile = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.Battle.BattleTrackingAAMissileUnit.New(slot0, slot2:GetIFF())
 
 	slot5:SetIsCld(true)
@@ -251,17 +251,17 @@ slot4.generateBulletFuncs = {
 	[slot1.BulletType.AAMissile] = slot4._createAAMissile
 }
 
-function slot4.ConvertSpecificBarrage(slot0, slot1)
+slot4.ConvertSpecificBarrage = function(slot0, slot1)
 	slot3 = uv0.ConvertedBarrageTableList[slot0] or {}
 	slot3[slot1] = uv0.barrageInteration(pg.barrage_template[slot0], slot1)
 	uv0.ConvertedBarrageTableList[slot0] = slot3
 end
 
-function slot4.ClearConvertedBarrage()
+slot4.ClearConvertedBarrage = function()
 	uv0.ConvertedBarrageTableList = {}
 end
 
-function slot4.barrageInteration(slot0, slot1)
+slot4.barrageInteration = function(slot0, slot1)
 	slot2 = 1
 	slot4 = {}
 	slot5 = slot0.offset_x

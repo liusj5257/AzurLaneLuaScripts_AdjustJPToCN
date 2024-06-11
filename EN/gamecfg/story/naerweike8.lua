@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401210,
 			side = 1,
-			nameColor = "#ff5c5c",
-			say = "Gah. Just you wait. Z2 and the girls will come get me!",
 			dir = 1,
 			bgm = "battle-boss-1",
+			actor = 401210,
+			nameColor = "#ff5c5c",
+			say = "Gah. Just you wait. Z2 and the girls will come get me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1500,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 0
@@ -35,8 +35,8 @@ return {
 			hideOther = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "She fainted...",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "A little tricker than the other two.",
 			typewriter = {
 				speed = 0.05,
@@ -66,10 +66,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "But still nothing compared to the unified strength of the H-class.",
+			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = -1,
-			say = "But still nothing compared to the unified strength of the H-class.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -132,8 +132,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "And considering we've already alerted the enemy, reinforcements are certainly inbound.",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "And we'll have to make some trouble for the Iron Bloods. Those cargo ships over there should do the trick.",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "But... that's risky.",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "I know. So you all head back. I can take care of it.",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Dunce.",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "Ouch. Don't suddenly whop me with a torpedo!",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -268,8 +268,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "We're a team... And five guns are better than one.",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "Very well. Thank you.",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "Now then, let's cause as much destruction as possible!",
 			typewriter = {
 				speed = 0.05,

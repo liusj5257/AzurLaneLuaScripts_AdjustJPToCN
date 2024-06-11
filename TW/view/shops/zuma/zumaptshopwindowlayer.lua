@@ -1,31 +1,31 @@
 slot0 = class("ZumaPTShopWindowLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ZumaPTShopWindowUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateGoodInfoPanel()
 	slot0:updateBuyPanelWithNum(1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.pageUtil:Dispose()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:closeView()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.actShopVO = slot0.contextData.actShopVO
 	slot0.goodVO = slot0.contextData.goodVO
 	slot0.perCost = slot0.goodVO:getConfig("resource_num")
@@ -45,7 +45,7 @@ function slot0.initData(slot0)
 	})
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot1 = slot0:findTF("Panel")
 	slot2 = slot0:findTF("Info", slot1)
@@ -69,8 +69,8 @@ function slot0.findUI(slot0)
 	slot0.cancelBtn = slot0:findTF("CancelBtn", slot1)
 end
 
-function slot0.addListener(slot0)
-	function slot1()
+slot0.addListener = function(slot0)
+	slot1 = function()
 		uv0:closeView()
 	end
 
@@ -100,7 +100,7 @@ function slot0.addListener(slot0)
 	slot0.pageUtil:setDefaultNum(1)
 end
 
-function slot0.updateGoodInfoPanel(slot0)
+slot0.updateGoodInfoPanel = function(slot0)
 	slot1 = slot0.goodVO
 	slot2 = Drop.New({
 		type = slot1:getConfig("commodity_type"),
@@ -122,7 +122,7 @@ function slot0.updateGoodInfoPanel(slot0)
 	setText(slot0.descText, string.gsub(slot2.desc or slot2:getConfig("desc"), "<[^>]+>", ""))
 end
 
-function slot0.updateBuyPanelWithNum(slot0, slot1)
+slot0.updateBuyPanelWithNum = function(slot0, slot1)
 	slot0.curBuyCount = slot1 or 0
 
 	setText(slot0.buyNumText, slot0.curBuyCount)

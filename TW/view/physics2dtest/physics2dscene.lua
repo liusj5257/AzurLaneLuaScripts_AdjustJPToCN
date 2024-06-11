@@ -1,10 +1,10 @@
 slot0 = class("Physics2dScene", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PhysicsTest"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._backBtn = slot0:findTF("back_btn")
 	slot0._box = slot0:findTF("box")
 	slot0._boxRig = GetComponent(slot0._box, "Rigidbody2D")
@@ -15,7 +15,7 @@ function slot0.init(slot0)
 	slot0._gizmos = slot0:findTF("res/gizmos")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
@@ -43,12 +43,12 @@ function slot0.didEnter(slot0)
 	end, 3)
 end
 
-function slot0.jump(slot0)
+slot0.jump = function(slot0)
 	slot0._boxRig.position = slot0._tf:TransformPoint(Vector3(-578, -390))
 	slot0._boxRig.velocity = Vector2(10, 10)
 end
 
-function slot0.simulateDrawPath(slot0)
+slot0.simulateDrawPath = function(slot0)
 	slot1 = Physics2DMgr.Inst
 
 	slot1:DoPrediction(0.1, 50, function ()
@@ -61,7 +61,7 @@ function slot0.simulateDrawPath(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	Physics2DMgr.Inst:RemoveSimulateItem(slot0._boxPhyItem)
 	slot0._boxPhyItem.CollisionEnter:RemoveAllListeners()
 end

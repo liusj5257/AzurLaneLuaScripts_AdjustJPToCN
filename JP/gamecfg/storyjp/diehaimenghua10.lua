@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "目に映っているのは見慣れた風景――祭儀の島の施設だ。",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			say = "目に映っているのは見慣れた風景――祭儀の島の施設だ。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（嗚呼……夢のカケラが、また一つ……）",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "信濃さん…起きてる…！！",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（妾が…目覚めた直後の夢……？）",
 			typewriter = {
@@ -96,8 +96,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「霞、日時は…？」",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "あ、はい…今祭儀が執り行われている最中で、そろそろ【ワタツミ】が祭儀の会場に運ばれるよ",
 			typewriter = {
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "？長門様はこちらに来ていないよ。ってふわりん、霞にそう言った",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……いささか、違う………？）",
 			typewriter = {
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			say = "―――――！！",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "―――――！！",
 			flashN = {
 				color = {
 					1,
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "信濃さん…！",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……外からの砲撃……？）",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "ごめんなさい、霞、信濃さんが目覚めたのを見て、大事なことを忘れてた",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "さっきセイレーンが攻めてきて、祭儀の島を鏡面海域にまるごと取り込んで、みんなバタバタしていたの",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "敵は赤城さんと三笠大先輩たちに倒されたはずなのに、今のは一体どこから……",
 			typewriter = {
@@ -327,9 +327,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 301810,
 			dir = 1,
 			blackBg = true,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "外が危ないから、ここにいたほうがいいってふわりん、霞にそう言った…信濃さん？",
 			typewriter = {
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,

@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "一楼有新的可以访问的区域，让我们去看看吧",
 				mode = 1,
-				posY = -80,
 				dir = -1,
+				posY = -80,
 				posX = -561.6
 			},
 			ui = {

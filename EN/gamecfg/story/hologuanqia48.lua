@@ -1,20 +1,20 @@
 return {
-	id = "HOLOGUANQIA48",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA48",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgm = "holo-fff",
-			nameColor = "#ff5c5c",
-			dir = -1,
-			actorScale = 2,
 			soundeffect = "event:/battle/boom2",
-			actor = 10500010,
+			dir = -1,
 			actorName = "DARK FOX BIZZARD",
+			bgm = "holo-fff",
+			actor = 10500010,
+			nameColor = "#ff5c5c",
+			actorScale = 2,
 			say = "A-Are you saying that I was mistaken...",
 			flashN = {
 				color = {
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Giant Fubuki turned into light and disappeared to the Hololive headquarters building...!",
 			flashout = {
 				dur = 1,
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "We've defeated the last enemy, and all that's left is do something about the Hololive headquarters building in order to make the Mirror Sea disappear right?",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "But what should we do about the headquarters building? If what Fauxbuki said wasn't wrong, it should be quite reinforced with Siren technology, you know?",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "The solution is... There's only one thing left to do.",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Hehehe, everyone, for what reason do you think we've collected all the TNT blocks so far~?",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "... Wait, is she perhaps!",
 			dialogShake = {
 				speed = 0.09,
@@ -229,8 +229,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "Hehehe, it seems like the time to show off this great Shion's magic has come.",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "Umm, take care to make sure that you don't cause too much destruction, okay? It wouldn't be good to hurt our Azur Lane friends, right?",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "...... Thinking about it, I was a little taken aback.",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "That Fauxbuki. Starting halfway through the fight, I wonder why she didn't make her \"pieces\" fight even until the end...",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "I wonder if I'm really just thinking too deep into it...",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Besides, everyone else gets it too. That nothing will change even if we're impatient about it!",
 			typewriter = {
 				speed = 0.05,
@@ -430,8 +430,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Hmm~ you guys are going to blow it up after all. Is that really okay? Doesn't the Sakura Empire want Siren technology for themselves?",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Hm~ Well that's fine. Aight, I'll help out a bit as well!",
 			typewriter = {
 				speed = 0.05,

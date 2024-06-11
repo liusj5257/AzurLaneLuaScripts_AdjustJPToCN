@@ -5,10 +5,10 @@ slot0.MODE_STORY = 1
 slot0.MODE_BATTLE = 2
 slot0.NAME2INDEX = {
 	xifangjudian = 1,
-	mowangcheng = 4,
+	dongfangjudian = 3,
 	julongchaoxue = 5,
 	zhongbujudian = 2,
-	dongfangjudian = 3
+	mowangcheng = 4
 }
 slot0.TYPE2NAME = {
 	[BossSingleEnemyData.TYPE.EAST] = "xifangjudian",
@@ -29,15 +29,15 @@ slot0.TERMINAL_DELAY_TIME = 0.5
 slot0.MAP_ANIM_TIME = 0.8
 slot0.DEFAULT_SCROLL_VALUE = 0.36
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "OtherworldMapUI"
 end
 
-function slot0.SetEventAct(slot0, slot1)
+slot0.SetEventAct = function(slot0, slot1)
 	slot0.eventAct = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.mapTF = slot0:findTF("map")
@@ -78,7 +78,7 @@ function slot0.init(slot0)
 	setActive(slot0.clickMask, false)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 	slot0:SetNativeSizes()
 	onButton(slot0, slot0:findTF("return_btn", slot0.topUI), function ()
@@ -210,7 +210,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.SetNativeSizes(slot0)
+slot0.SetNativeSizes = function(slot0)
 	eachChild(slot0.bgTF, function (slot0)
 		eachChild(slot0, function (slot0)
 			if slot0:GetComponent(typeof(Image)) then
@@ -236,13 +236,13 @@ function slot0.SetNativeSizes(slot0)
 	end)
 end
 
-function slot0.BindStronghold(slot0, slot1, slot2)
+slot0.BindStronghold = function(slot0, slot1, slot2)
 	onButton(slot0, slot0:findTF(slot1 .. "/icon", slot0.strongholdsTF), slot2, SFX_PANEL)
 	onButton(slot0, slot0:findTF(slot1 .. "/name", slot0.strongholdsTF), slot2, SFX_PANEL)
 end
 
-function slot0.InitStrongholds(slot0, slot1, slot2)
-	function slot6()
+slot0.InitStrongholds = function(slot0, slot1, slot2)
+	slot6 = function()
 		pg.SceneAnimMgr.GetInstance():OtherWorldCoverGoScene(SCENE.OTHERWORLD_BACKHILL)
 	end
 
@@ -261,7 +261,7 @@ function slot0.InitStrongholds(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InitStoryNodes(slot0)
+slot0.InitStoryNodes = function(slot0)
 	slot0.eventIds = {}
 	slot0.nodeItemList = UIItemList.New(slot0.storiesTF, slot0.storyTpl)
 	slot1 = slot0.nodeItemList
@@ -315,7 +315,7 @@ function slot0.InitStoryNodes(slot0)
 	end)
 end
 
-function slot0.onDragFunction(slot0)
+slot0.onDragFunction = function(slot0)
 	if not uv0.screenPoints then
 		uv0.screenPoints = {
 			Vector2(-slot0.delta.x, slot0.delta.y),
@@ -416,7 +416,7 @@ function slot0.onDragFunction(slot0)
 	end
 end
 
-function slot0.FocusNode(slot0, slot1, slot2)
+slot0.FocusNode = function(slot0, slot1, slot2)
 	slot4 = slot0.nodeItemList.container:Find(slot1).anchoredPosition * -1
 	slot4.x = math.clamp(slot4.x, -slot0.extendLimit.x, slot0.extendLimit.x)
 	slot4.y = math.clamp(slot4.y, -slot0.extendLimit.y, slot0.extendLimit.y)
@@ -445,7 +445,7 @@ function slot0.FocusNode(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.FocusPoint(slot0, slot1, slot2)
+slot0.FocusPoint = function(slot0, slot1, slot2)
 	slot1.x = math.clamp(slot1.x, -slot0.extendLimit.x, slot0.extendLimit.x)
 	slot1.y = math.clamp(slot1.y, -slot0.extendLimit.y, slot0.extendLimit.y)
 
@@ -473,7 +473,7 @@ function slot0.FocusPoint(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.TriggerEvent(slot0, slot1, slot2)
+slot0.TriggerEvent = function(slot0, slot1, slot2)
 	slot3 = slot0.eventAct
 	slot3 = slot3:GetEventById(slot1)
 
@@ -510,7 +510,7 @@ function slot0.TriggerEvent(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.UpdateToggleTip(slot0)
+slot0.UpdateToggleTip = function(slot0)
 	if not slot0.eventAct then
 		setActive(slot0:findTF("new", slot0.storyBtn), false)
 		setActive(slot0:findTF("new", slot0.battleBtn), false)
@@ -529,7 +529,7 @@ function slot0.UpdateToggleTip(slot0)
 	end))
 end
 
-function slot0.UpdateMapArea(slot0)
+slot0.UpdateMapArea = function(slot0)
 	if not slot0.eventAct then
 		return
 	end
@@ -545,7 +545,7 @@ function slot0.UpdateMapArea(slot0)
 	end
 end
 
-function slot0.PlayMapAnim(slot0, slot1, slot2)
+slot0.PlayMapAnim = function(slot0, slot1, slot2)
 	slot3 = slot0.eventAct:GetEventById(slot1):GetMapOptions()
 	slot5 = slot0:findTF(slot3, slot0.locationsTF)
 
@@ -576,14 +576,14 @@ function slot0.PlayMapAnim(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateWangduBtn(slot0)
+slot0.UpdateWangduBtn = function(slot0)
 	slot0.isShowWangduTip = OtherworldBackHillScene.IsShowTip()
 
 	setActive(slot0:findTF("wangdu/name/tip", slot0.strongholdsTF), slot0.isShowWangduTip)
 	setActive(slot0:findTF("tip", slot0.leftArrow), slot0.isShowWangduTip and slot0.contextData.mode == uv0.MODE_BATTLE)
 end
 
-function slot0.UpdateEntrances(slot0)
+slot0.UpdateEntrances = function(slot0)
 	for slot5, slot6 in pairs(slot0.contextData.bossActivity:GetEnemyDatas()) do
 		slot7 = slot1:IsUnlockByEnemyId(slot6.id)
 
@@ -606,7 +606,7 @@ function slot0.UpdateEntrances(slot0)
 	end
 end
 
-function slot0.OpenTerminal(slot0, slot1)
+slot0.OpenTerminal = function(slot0, slot1)
 	slot0:emit(OtherworldMapMediator.GO_SUBLAYER, Context.New({
 		mediator = OtherworldTerminalMediator,
 		viewComponent = OtherworldTerminalLayer,
@@ -614,7 +614,7 @@ function slot0.OpenTerminal(slot0, slot1)
 	}))
 end
 
-function slot0.UpdateEvents(slot0, slot1)
+slot0.UpdateEvents = function(slot0, slot1)
 	if not slot0.eventAct then
 		return
 	end
@@ -725,15 +725,15 @@ function slot0.UpdateEvents(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	setText(slot0.ptValueTF, getProxy(PlayerProxy):getData():getResource(slot0.contextData.resId))
 end
 
-function slot0.UpdateTerminalTip(slot0)
+slot0.UpdateTerminalTip = function(slot0)
 	setActive(slot0:findTF("terminal_btn/tip", slot0.leftUI), TerminalAdventurePage.IsTip())
 end
 
-function slot0.ShowBattleMode(slot0)
+slot0.ShowBattleMode = function(slot0)
 	slot0.contextData.mode = uv0.MODE_BATTLE
 
 	setActive(slot0.battleBtn, false)
@@ -762,7 +762,7 @@ function slot0.ShowBattleMode(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.ShowStoryMode(slot0)
+slot0.ShowStoryMode = function(slot0)
 	slot0.contextData.mode = uv0.MODE_STORY
 
 	setActive(slot0.battleBtn, true)
@@ -781,7 +781,7 @@ function slot0.ShowStoryMode(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.PlaySwithAnim(slot0, slot1)
+slot0.PlaySwithAnim = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			if not uv0.swithAnimTF then
@@ -816,7 +816,7 @@ function slot0.PlaySwithAnim(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0:UpdateWangduBtn()
 	slot0:UpdateRes()
 	slot0:UpdateEntrances()
@@ -826,14 +826,14 @@ function slot0.UpdateView(slot0)
 	slot0:UpdateToggleTip()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	uv0.super.willExit(slot0)
 	slot0:cleanManagedTween()
 	PlayerPrefs.SetFloat(uv1 .. slot0.playerId, slot0.scrollValueX or 0)
 	PlayerPrefs.Save()
 end
 
-function slot0.IsShowTip()
+slot0.IsShowTip = function()
 	return TerminalAdventurePage.IsTip() or (function ()
 		if not getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID) or slot0:isEnd() then
 			return false

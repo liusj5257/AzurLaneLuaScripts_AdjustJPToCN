@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 审判机甲-战争 剧情战 召唤小怪",
 	time = 30,
-	color = "yellow",
+	name = "2023英系活动 审判机甲-战争 剧情战 召唤小怪",
+	init_effect = "",
+	id = 200355,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200355,
+	color = "yellow",
 	icon = 200355,
 	last_effect = "",
 	effect_list = {

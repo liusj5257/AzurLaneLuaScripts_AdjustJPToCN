@@ -1,8 +1,8 @@
-function slot1(slot0)
+slot1 = function(slot0)
 	return ReflectionHelp.RefGetField(typeof("UnityEngine.UILineInfo"), "startCharIdx", slot0)
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	slot1 = {}
 
 	for slot5 = 0, #slot0 - 1 do
@@ -92,7 +92,7 @@ function slot2(slot0)
 	return slot3
 end
 
-function slot3(slot0, slot1, slot2, slot3)
+slot3 = function(slot0, slot1, slot2, slot3)
 	if slot3 < slot2 then
 		if slot0[slot3] == 0 then
 			return slot1[slot3]

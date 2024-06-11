@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "炮击易伤",
 	time = 0,
-	color = "blue",
+	name = "炮击易伤",
+	init_effect = "",
+	id = 71050,
 	picture = "",
 	desc = "易伤类型用例,受到炮击伤害提高50%",
 	stack = 1,
-	id = 71050,
+	color = "blue",
 	icon = 71050,
 	last_effect = "Darkness",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageGetRatioByCannon",
-				number = 0.5
+				number = 0.5,
+				attr = "damageGetRatioByCannon"
 			}
 		}
 	}

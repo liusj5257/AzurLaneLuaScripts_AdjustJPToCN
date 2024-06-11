@@ -1,6 +1,6 @@
 slot0 = class("SixthAnniversaryJPHotSpringMediator", import("view.activity.BackHills.NewYearFestival.NewYearHotSpringMediator"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.UNLOCK_SLOT, function (slot0, slot1)
 		slot2 = uv0.activity
 		slot2, slot3 = slot2:GetUpgradeCost()
@@ -10,8 +10,8 @@ function slot0.register(slot0)
 			content = i18n("jp6th_spring_tip1", slot3),
 			contextSprites = {
 				{
-					name = "wenquanshoupai",
-					path = "props/wenquanshoupai"
+					path = "props/wenquanshoupai",
+					name = "wenquanshoupai"
 				}
 			},
 			onYes = function ()

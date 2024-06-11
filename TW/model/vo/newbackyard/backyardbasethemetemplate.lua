@@ -1,10 +1,10 @@
 slot0 = class("BackYardBaseThemeTemplate", import("..BaseVO"))
 
-function slot0.BuildId(slot0)
+slot0.BuildId = function(slot0)
 	return getProxy(PlayerProxy):getRawData().id .. slot0
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.name = slot1.name or ""
@@ -24,7 +24,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.order = 0
 end
 
-function slot0.GetSameFurnitureCnt(slot0, slot1)
+slot0.GetSameFurnitureCnt = function(slot0, slot1)
 	slot2 = 0
 
 	for slot7, slot8 in pairs(slot0:GetAllFurniture()) do
@@ -36,15 +36,15 @@ function slot0.GetSameFurnitureCnt(slot0, slot1)
 	return slot2
 end
 
-function slot0.InitFurnitures(slot0, slot1)
+slot0.InitFurnitures = function(slot0, slot1)
 	return RawData2ThemeConvertor.New():GenFurnitures(slot1)
 end
 
-function slot0.GetMapSize(slot0)
+slot0.GetMapSize = function(slot0)
 	return getProxy(DormProxy):getRawData():GetMapSize()
 end
 
-function slot0.WarpPutInfo2BackYardFurnitrue(slot0, slot1, slot2)
+slot0.WarpPutInfo2BackYardFurnitrue = function(slot0, slot1, slot2)
 	slot3 = ipairs
 	slot4 = slot2 or {}
 
@@ -73,31 +73,31 @@ function slot0.WarpPutInfo2BackYardFurnitrue(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SetSortIndex(slot0, slot1)
+slot0.SetSortIndex = function(slot0, slot1)
 	slot0.sortIndex = slot1
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	assert(false)
 end
 
-function slot0.IsSelfUsage(slot0)
+slot0.IsSelfUsage = function(slot0)
 	return slot0:GetType() == BackYardConst.THEME_TEMPLATE_USAGE_TYPE_SELF
 end
 
-function slot0.GetUserId(slot0)
+slot0.GetUserId = function(slot0)
 	return slot0.userId
 end
 
-function slot0.SetPlayerInfo(slot0, slot1)
+slot0.SetPlayerInfo = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.ExistPlayerInfo(slot0)
+slot0.ExistPlayerInfo = function(slot0)
 	return slot0.player ~= nil
 end
 
-function slot0.GetUploadTime(slot0)
+slot0.GetUploadTime = function(slot0)
 	if slot0.time > 0 then
 		return pg.TimeMgr.GetInstance():STimeDescC(slot0.time, "%Y/%m/%d")
 	else
@@ -105,11 +105,11 @@ function slot0.GetUploadTime(slot0)
 	end
 end
 
-function slot0.IsPushed(slot0)
+slot0.IsPushed = function(slot0)
 	return slot0.time > 0
 end
 
-function slot0.GetLikeCnt(slot0)
+slot0.GetLikeCnt = function(slot0)
 	if slot0.likeCnt > 99999 then
 		return "99999+"
 	else
@@ -117,7 +117,7 @@ function slot0.GetLikeCnt(slot0)
 	end
 end
 
-function slot0.GetCollectionCnt(slot0)
+slot0.GetCollectionCnt = function(slot0)
 	if slot0.collectionCnt > 99999 then
 		return "99999+"
 	else
@@ -125,36 +125,36 @@ function slot0.GetCollectionCnt(slot0)
 	end
 end
 
-function slot0.IsLiked(slot0)
+slot0.IsLiked = function(slot0)
 	return slot0.isLike == 1
 end
 
-function slot0.IsCollected(slot0)
+slot0.IsCollected = function(slot0)
 	return slot0.isCollection == 1
 end
 
-function slot0.CancelCollection(slot0)
+slot0.CancelCollection = function(slot0)
 	if slot0:IsCollected() then
 		slot0.isCollection = 0
 		slot0.collectionCnt = slot0.collectionCnt - 1
 	end
 end
 
-function slot0.AddCollection(slot0)
+slot0.AddCollection = function(slot0)
 	if not slot0:IsCollected() then
 		slot0.isCollection = 1
 		slot0.collectionCnt = slot0.collectionCnt + 1
 	end
 end
 
-function slot0.AddLike(slot0)
+slot0.AddLike = function(slot0)
 	if not slot0:IsLiked() then
 		slot0.isLike = 1
 		slot0.likeCnt = slot0.likeCnt + 1
 	end
 end
 
-function slot0.ExistLocalImage(slot0)
+slot0.ExistLocalImage = function(slot0)
 	return BackYardThemeTempalteUtil.FileExists(slot0.id) and (function ()
 		slot0 = BackYardBaseThemeTemplate.BuildId(uv0.pos)
 
@@ -162,59 +162,59 @@ function slot0.ExistLocalImage(slot0)
 	end)()
 end
 
-function slot0.GetRawPutList(slot0)
+slot0.GetRawPutList = function(slot0)
 	return slot0.rawPutList
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.name
 end
 
-function slot0.GetDesc(slot0)
+slot0.GetDesc = function(slot0)
 	return slot0.desc
 end
 
-function slot0.GetTextureName(slot0)
+slot0.GetTextureName = function(slot0)
 	return slot0.id
 end
 
-function slot0.GetTextureIconName(slot0)
+slot0.GetTextureIconName = function(slot0)
 	return slot0.id .. "_icon"
 end
 
-function slot0.GetPos(slot0)
+slot0.GetPos = function(slot0)
 	return slot0.pos
 end
 
-function slot0.ShouldFetch(slot0)
+slot0.ShouldFetch = function(slot0)
 	return false
 end
 
-function slot0.ShouldFetch(slot0)
+slot0.ShouldFetch = function(slot0)
 	return false
 end
 
-function slot0.IsPurchased(slot0)
+slot0.IsPurchased = function(slot0)
 	return true
 end
 
-function slot0.GetImageMd5(slot0)
+slot0.GetImageMd5 = function(slot0)
 	return slot0.imageMd5
 end
 
-function slot0.GetIconMd5(slot0)
+slot0.GetIconMd5 = function(slot0)
 	return slot0.iconImageMd5
 end
 
-function slot0.UpdateIconMd5(slot0, slot1)
+slot0.UpdateIconMd5 = function(slot0, slot1)
 	slot0.iconImageMd5 = slot1
 end
 
-function slot0.GetAllFurniture(slot0)
+slot0.GetAllFurniture = function(slot0)
 	assert(false, "请重写我")
 end
 
-function slot0.GetWarpFurnitures(slot0)
+slot0.GetWarpFurnitures = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in pairs(slot0:GetAllFurniture()) do
@@ -224,11 +224,11 @@ function slot0.GetWarpFurnitures(slot0)
 	return slot1
 end
 
-function slot0.GetFurnitureCnt(slot0)
+slot0.GetFurnitureCnt = function(slot0)
 	assert(false, "请重写我")
 end
 
-function slot0.IsOccupyed(slot0, slot1, slot2)
+slot0.IsOccupyed = function(slot0, slot1, slot2)
 	for slot7, slot8 in pairs(slot0:GetAllFurniture()) do
 		if slot1[slot8.id] and slot9.floor ~= 0 and slot9.floor ~= slot2 then
 			return true
@@ -238,7 +238,7 @@ function slot0.IsOccupyed(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.GetUsableFurnituresForFloor(slot0, slot1, slot2)
+slot0.GetUsableFurnituresForFloor = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
@@ -280,10 +280,10 @@ function slot0.GetUsableFurnituresForFloor(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.OwnThemeTemplateFurniture(slot0)
+slot0.OwnThemeTemplateFurniture = function(slot0)
 	slot2 = getProxy(DormProxy):getRawData():GetPurchasedFurnitures()
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		return uv0[slot0] and slot1 <= slot2.count
 	end
 
@@ -296,7 +296,7 @@ function slot0.OwnThemeTemplateFurniture(slot0)
 	return true
 end
 
-function slot0.MatchSearchKey(slot0, slot1)
+slot0.MatchSearchKey = function(slot0, slot1)
 	if not slot1 or slot1 == "" then
 		return true
 	else

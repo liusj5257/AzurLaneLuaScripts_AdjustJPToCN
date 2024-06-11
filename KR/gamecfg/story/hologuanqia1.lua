@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "오오카미 미오",
+			side = 2,
 			stopbgm = true,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
 			say = "주변은 너무나도 익숙한 벽과 천장이었다.",
 			flashin = {
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오오카미 미오",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오오카미 미오",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오오카미 미오",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오오카미 미오",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오오카미 미오",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "holo-fff-inst",
 			side = 2,
-			say = "펑----!",
 			dir = 1,
 			blackBg = true,
-			bgm = "holo-fff-inst",
+			soundeffect = "event:/battle/boom2",
+			say = "펑----!",
 			flashN = {
 				color = {
 					1,
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "무리이이이이! 이런 상황에서 어떻게 냉정해질 수 있냐고!!!",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -197,10 +197,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "미오! 거기 안에 있는 거 미오 맞지?!",
+			dir = -1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -218,8 +218,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "후부키? 다행이다. 무사했구나!",
 			typewriter = {
@@ -235,11 +235,11 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "여기서 바로 떠나야 해. 세이렌의 양산형 함대가 바로 근처에 있어!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -290,8 +290,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "세…세이렌?",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,8 +333,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "후부키… 의외로 냉정하네… 이게 대체 무슨 상황이야! 함대는 또 무슨 얘기고!!",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "미오쨩, 진정해. 바깥이 바닷물에 잠기고 수면 위에는 세이렌 함대가 순찰 중이야…",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "아마도 우리는 모종의 원인으로 holo서버와 함께 벽람항로의 세계에 와버린 것 같아. 그것도 전투의 한가운데에.",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "세이렌 함대… 벽람항로 세계의 바다를 침범하는, 게임 속 가장 큰 적인 그 세이렌 말하는 거야?!",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "우리가 다른 세계로 넘어왔다고?! 엄청나게 큰 일이잖아!!",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,11 +428,11 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "젠장… 만약 내 시라카미 함대가 있었다면 이런 세이렌들 따위는 일격에——",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -483,9 +483,9 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "카와카제쨩, 즈이카쿠쨩… 나도 분명 지휘관인데…",
 			typewriter = {

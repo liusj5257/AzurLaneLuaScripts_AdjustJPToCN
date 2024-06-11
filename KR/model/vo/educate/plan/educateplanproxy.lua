@@ -14,7 +14,7 @@ slot0.INDEX2BG = {
 	}
 }
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.allPlans = {}
 
 	for slot5, slot6 in ipairs(pg.child_plan.all) do
@@ -24,11 +24,11 @@ function slot0.Ctor(slot0)
 	slot0.gridColorCfg = pg.child_data[1].plan_color
 end
 
-function slot0.GetCfgPlans(slot0)
+slot0.GetCfgPlans = function(slot0)
 	return slot0.allPlans
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0:initHistory(slot1.history or {})
 
 	slot0.selectedPlans = slot1.selectedPlans or {}
@@ -42,7 +42,7 @@ function slot0.SetUp(slot0, slot1)
 	slot0.playerId = getProxy(PlayerProxy):getRawData().id
 end
 
-function slot0.GetGridBgName(slot0, slot1, slot2)
+slot0.GetGridBgName = function(slot0, slot1, slot2)
 	underscore.each(slot0.gridColorCfg, function (slot0)
 		underscore.each(slot0[1], function (slot0)
 			if slot0[1] == uv0 and slot0[2] == uv1 then
@@ -56,7 +56,7 @@ function slot0.GetGridBgName(slot0, slot1, slot2)
 	return uv0.INDEX2BG[1]
 end
 
-function slot0.initHistory(slot0, slot1)
+slot0.initHistory = function(slot0, slot1)
 	slot0.history = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -64,7 +64,7 @@ function slot0.initHistory(slot0, slot1)
 	end
 end
 
-function slot0.UpdateHistory(slot0, slot1)
+slot0.UpdateHistory = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.gridData) do
 		for slot10, slot11 in pairs(slot6) do
 			if slot11:IsPlan() then
@@ -78,11 +78,11 @@ function slot0.UpdateHistory(slot0, slot1)
 	end
 end
 
-function slot0.GetHistoryCntById(slot0, slot1)
+slot0.GetHistoryCntById = function(slot0, slot1)
 	return slot0.history[slot1] or 0
 end
 
-function slot0.initGridData(slot0)
+slot0.initGridData = function(slot0)
 	slot0.gridData = {}
 
 	for slot4, slot5 in ipairs(slot0.selectedPlans) do
@@ -110,17 +110,17 @@ function slot0.initGridData(slot0)
 	end
 end
 
-function slot0.SetGridData(slot0, slot1)
+slot0.SetGridData = function(slot0, slot1)
 	slot0.selectedPlans = slot1
 
 	slot0:initGridData()
 end
 
-function slot0.GetGridData(slot0)
+slot0.GetGridData = function(slot0)
 	return slot0.gridData
 end
 
-function slot0.GetCost(slot0)
+slot0.GetCost = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -137,17 +137,17 @@ function slot0.GetCost(slot0)
 	return slot1, slot2
 end
 
-function slot0.CheckExcute(slot0)
+slot0.CheckExcute = function(slot0)
 	return #slot0.selectedPlans > 0
 end
 
-function slot0.GetShowPlans(slot0, slot1, slot2, slot3)
+slot0.GetShowPlans = function(slot0, slot1, slot2, slot3)
 	return underscore.select(slot0.allPlans, function (slot0)
 		return slot0:IsShow(uv0, uv1, uv2) and slot0:IsMatchPre(uv3:GetHistoryCntById(slot0:getConfig("pre")[1]))
 	end)
 end
 
-function slot0.ClearLocalPlansData(slot0)
+slot0.ClearLocalPlansData = function(slot0)
 	slot1 = getProxy(EducateProxy):GetCharData():GetNextWeekPlanCnt()
 
 	for slot5 = 1, 6 do
@@ -157,7 +157,7 @@ function slot0.ClearLocalPlansData(slot0)
 	end
 end
 
-function slot0.GetRecommendPlan(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+slot0.GetRecommendPlan = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot8 = slot0:GetShowPlans(slot3:GetNextWeekStage(), slot1, slot2)
 	slot9 = slot3.money - slot4
 	slot10 = slot3.mood - slot5
@@ -170,7 +170,7 @@ function slot0.GetRecommendPlan(slot0, slot1, slot2, slot3, slot4, slot5, slot6,
 			slot20
 		}
 
-		function slot20(slot0)
+		slot20 = function(slot0)
 			return slot0.id
 		end
 
@@ -188,14 +188,14 @@ function slot0.GetRecommendPlan(slot0, slot1, slot2, slot3, slot4, slot5, slot6,
 	return nil
 end
 
-function slot0.OnExecutePlanDone(slot0)
+slot0.OnExecutePlanDone = function(slot0)
 	slot0.selectedPlans = {}
 end
 
-function slot0.OnNewWeek(slot0)
+slot0.OnNewWeek = function(slot0)
 end
 
-function slot0.GridData2ProtData(slot0)
+slot0.GridData2ProtData = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0) do

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Port - Wharf",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "Port - Wharf",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,11 +43,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "Oh, please leave that box in the temporary office instead of on the deck. Also, be careful, because it's fragile.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,13 +58,13 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Roger that!",
 			hidePaintEquip = true,
+			actor = 10700070,
+			nameColor = "#a9f548",
+			say = "Roger that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -85,13 +85,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yes, ma'am!",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "Yes, ma'am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,13 +128,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "It's all thanks to you, Z23! Your diligent planning has been keeping everyone on track!",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "It's all thanks to you, Z23! Your diligent planning has been keeping everyone on track!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,11 +164,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "Woaaaahh! I can't see in front of me!! Help me, Mami... Eek!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -188,13 +188,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahaha... Looks like we're going to have to help each other out a whole lot.",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "Ahaha... Looks like we're going to have to help each other out a whole lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,15 +205,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Azusa, do you prefer sweet or spicy?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,13 +238,13 @@ return {
 			}
 		},
 		{
-			actor = 10700040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm, let's see... To be honest, I'm not too good with spicy food, but I'm sure there are plenty of people who are fine with it...",
 			hidePaintEquip = true,
+			actor = 10700040,
+			nameColor = "#a9f548",
+			say = "Hmm, let's see... To be honest, I'm not too good with spicy food, but I'm sure there are plenty of people who are fine with it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,11 +274,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "By the way, Akagi, do you cook often?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Not particularly. However, I must say that it's more enjoyable cooking for others.",
 			typewriter = {
@@ -309,11 +309,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "My, my~ I'm sure you'll make a wonderful bride, Akagi~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Hwuh...?!",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -351,16 +351,16 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "Hum hum~♪",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "Hum hum~♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -404,11 +404,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "A what? Tea party...?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,11 +438,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "I see. Um, is it really fine for me to show up in an outfit like this?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,11 +472,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "What's the matter...?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,11 +522,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "It's not a big deal, really... If anything, thank you for inviting me. Spending time with friends is just as important to me.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,15 +537,15 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "I must say, I did not expect to find fellow enjoyers of Royal Navy tea from another world.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -573,11 +573,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "Well, I suppose I am a rather well-traveled idol.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,13 +604,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Servant?",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "Servant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,8 +621,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -650,11 +650,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "Uh, I see. F-forget I asked...",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,15 +665,15 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Harukaaaa! Let's go down to the festival tonight!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -698,8 +698,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -708,13 +708,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Huh? Festival?",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "Huh? Festival?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,11 +760,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 10700010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "Woah... Summer festivals are a thing in this world too? Sounds awesome~♪ Can I let the others know as well so we can all go?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,8 +775,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -785,12 +785,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "Of course! We'd love to have all of you!",
 			typewriter = {
 				speed = 0.05,

@@ -11,9 +11,9 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_1",
 			side = 0,
-			bgm = "story-5",
 			bgSpeed = 1.5,
 			say = "Hood!!!",
+			bgm = "story-5",
 			effects = {
 				{
 					active = true,
@@ -25,8 +25,8 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "Ah... This power... extraordinary... Incredible that you've found this strength…",
 			subBgName = "bg_story_1_sub",
+			say = "Ah... This power... extraordinary... Incredible that you've found this strength…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,10 +87,10 @@ return {
 			actor = 900010,
 			nameColor = "#ff0000",
 			bgName = "bg_story_3",
-			side = 1,
-			bgFade = true,
-			blackBg = true,
 			say = "Honor and loyalty... Only with great power can we truly save humanity. We've... we've just chosen a different path.",
+			side = 1,
+			blackBg = true,
+			bgFade = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			dir = -1,
 			blackBg = true,
+			actor = 900011,
+			mode = 2,
 			say = "... Humanity is such an interesting lifeform... The power we gave them was just the beginning... History has already begun to be rewritten...",
 			shake = {
 				speed = 1,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			blackBg = true,
+			actor = 900012,
+			mode = 2,
 			say = "Let's continue our observations for some time... I have great expectations for their future developments...",
 			shake = {
 				speed = 1,
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			blackBg = true,
+			actor = 900012,
+			mode = 2,
 			say = "If we didn't take these steps, coming back to this era would have been meaningless, no? Ahaha...",
 			shake = {
 				speed = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

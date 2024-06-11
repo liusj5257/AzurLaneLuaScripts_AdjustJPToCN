@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「仮想繋げし共時性」-日常編\n\n<size=45>二 人工知能は電脳海豚の夢を見るか？</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "？？？・荒廃した都市",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,13 +48,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "えー荒廃した建物が見えるです。それにかなり暗いです。",
 			dir = -1,
 			blackBg = true,
 			bgm = "story-1",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "えー荒廃した建物が見えるです。それにかなり暗いです。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "ふぇ～…本物の幽霊さんが出ちゃいそうな雰囲気なの～",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "ふぇ～…本物の幽霊さんが出ちゃいそうな雰囲気なの～",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "キズナアイ",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			actorName = "キズナアイ",
 			say = "ここはどこなんだろう……ていうか衣装もいつの間にか変わってる！？",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（オ゛オ゛ォ゛ーーー！お゛お゛ぉ゛ーーー！）",
 			typewriter = {
@@ -119,9 +119,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "あ゛ぁ゛ぁ゛ぁ゛ぁ゛！！！！！",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "うわああああああぁぁぁ！！！なんか怖い人が出たのーーーー！！！",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "みんな落ち着くのです。そこにある武器を拾うです。これを使って生き残るです…！",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "みんな落ち着くのです。そこにある武器を拾うです。これを使って生き残るです…！",
+			actor = 301050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -209,9 +209,9 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "こんな状況なのに全然動じてない！？と、とにかく了解！",
 			typewriter = {
@@ -224,16 +224,16 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			actorName = "キズナアイ",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			nameColor = "#a9f548",
 			say = "おらおらー！かかってこいやーーーー！！！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（バンッ！バンッ！ズドドドドドドッ！）",
 			typewriter = {
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "へへへ～幽霊さんは無敵なの～！でもちょっと疲れたからそこの研究施設っぽい建物の中で休憩するの～",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "へへへ～幽霊さんは無敵なの～！でもちょっと疲れたからそこの研究施設っぽい建物の中で休憩するの～",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（オ゛オ゛オ゛オ゛オ゛ーーーーーーーーウ゛ッ！！！）",
 			typewriter = {
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "きゃあああああぁぁぁ！！！今度は何なの！？",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,9 +399,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "なんだ～ただの「らすぼす」か～あはははは～",
 			typewriter = {
@@ -438,11 +438,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "攻撃がきっついの～、めちゃくちゃ大きいし並大抵の攻撃じゃ倒せそうにないの～！",
 			effects = {
 				{
@@ -463,9 +463,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "あっ！こんなところにロケットランチャーが！！！",
 			typewriter = {
@@ -481,9 +481,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "って、重すぎー！？",
 			typewriter = {
@@ -512,12 +512,12 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "キズナアイ",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			actorName = "キズナアイ",
 			say = "任せて！いっけーーー！うおりゃあああぁぁぁーーーーーー！！！",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（どっかーーーーーーん！！！）",
 			dialogShake = {
@@ -548,15 +548,15 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "………「やったか！？」、です",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -584,9 +584,9 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "あ、綾波ちゃん！？そんなこと言っちゃうと――",
 			typewriter = {
@@ -634,9 +634,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "ア゛ア゛ア゛ア゛ァ゛ァ゛ァ゛ーーーー！やっぱりフラグーーーーー！！！",
 			typewriter = {
@@ -649,8 +649,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -659,8 +659,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（ウ゛オ゛オ゛オ゛オ゛オ゛ーーーーーーーーッ！！！）",
 			typewriter = {
@@ -692,9 +692,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "そ、そんな…みんないなくなっちゃったよぉぉ……",
 			typewriter = {
@@ -709,15 +709,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actorName = "キズナアイ",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actorName = "キズナアイ",
+			actor = 10400040,
 			nameColor = "#a9f548",
 			say = "うぅ…みんな、ごめんね……私のせいで…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -745,9 +745,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "キズナアイ",
 			say = "―――ん？",
 			typewriter = {
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "システムメッセージ",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "コンティニューしますか？",
 			typewriter = {
 				speed = 0.05,

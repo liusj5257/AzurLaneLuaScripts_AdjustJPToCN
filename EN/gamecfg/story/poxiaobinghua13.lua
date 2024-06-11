@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp3",
+			say = "So, the reason you need me is because you haven’t been able to open the Gate.",
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
-			say = "So, the reason you need me is because you haven’t been able to open the Gate.",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "We’ve scoured the entire Mirror Sea, but have not found any device that can control the facilities here. We can’t even control the Mirror Sea or access its maintenance device.",
 			typewriter = {
@@ -58,8 +58,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "The most suspicious thing is this console up in front.",
 			typewriter = {
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "Ahead of us in the middle of the great hall is a metallic console that looks like some kind of control device.",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "Hmm, seems like it... It does look like some special device that requires a Wisdom Cube to activate.",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "However, all the Siren devices and facilities we’ve encountered so far have been powered by a special energy storage device. Why would this thing here require a Wisdom Cube to activate?",
 			typewriter = {
 				speed = 0.05,
@@ -146,9 +146,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "An infinite loop, huh...",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "We’ve conducted a series of experiments to try to activate the console, but everything we’ve tried has resulted in failure. It won’t respond at all.",
 			typewriter = {
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "So you believe that this device will only respond to special individuals?",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "Mhm. Comrade, the tests you took when you first became a commander showed that you have the highest attunement with Wisdom Cubes that this world has ever seen.",
 			typewriter = {
@@ -224,9 +224,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "Mhm. I’ve always wanted to know... Why me?",
 			typewriter = {
 				speed = 0.05,
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "But where is this “Gate” that you keep talking about? We’ve reached the end of the great hall, but I don’t see any doors here...",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Ah... Sorry, sorry. I forgot to tell you one little detail about the Gate~",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "The wall of ice in front of you, right at the end of this hall, is what we call the “Gate.” We’re confident that if you’re able to activate this console, this will open up into another passage.",
 			typewriter = {
@@ -296,9 +296,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "Just from its size and texture, there’s no way something like this could have formed naturally. But I can’t see any kinds of mechanisms inside... It seems like just a sheet of ice.",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "And that’s where you’d be wrong, Comrade. There’s much, much more to it than that.",
 			typewriter = {
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Gromky, let’s do a little demonstration for the commander. Shoot at that corner over there.",
 			typewriter = {
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOM————————!!",
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOM————————!!",
 			flashN = {
 				color = {
 					1,
@@ -412,9 +412,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "The shell discharged from Gromky’s gun slammed into the wall of ice and erupted in a cloud of smoke and steam... But when it cleared, there wasn’t a scratch on the wall...",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "As you can see, we can’t damage the wall even with this amount of force.",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Of course, we’ve tried many other methods. Using larger-caliber guns, having the entire fleet fire salvos, using explosives, using heavier explosives...",
 			typewriter = {
@@ -463,8 +463,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "But nothing has worked so far. All the firepower we’ve been able to muster to date, and still not a scratch on this wall.",
 			typewriter = {
@@ -477,9 +477,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "I guess you really do have to work from the console... Hm? Wait, this insignia here... it’s not what the Sirens use to represent themselves... I’ve never seen this before.",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Huh? That’s weird... I don’t think we would’ve glossed over something like that...",
 			typewriter = {
@@ -511,8 +511,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "What...?! Impossible! I’m certain that symbol was never there before.",
 			typewriter = {
@@ -525,8 +525,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -538,8 +538,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "In other words, the console changed in a way we’ve never seen before?",
 			typewriter = {
@@ -584,9 +584,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "There’s nothing else on the console that can be operated. Might as well start with the Wisdom Cube first——",
 			typewriter = {
 				speed = 0.05,
@@ -620,8 +620,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "...Woah, the console’s actually reacting!",
 			typewriter = {
@@ -634,8 +634,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -647,8 +647,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "Woaahhhh... It’s glowing!",
 			typewriter = {
@@ -661,9 +661,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_4",
+			dir = 1,
 			say = "As soon as I pressed the Wisdom Cube into the groove, the device began to vibrate and hum. The Wisdom Cube seemed to dissolve, replaced by a ball of light that expanded above the console.",
 			typewriter = {
 				speed = 0.05,
@@ -678,8 +678,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "The structure of the Wisdom Cube is reflected in the motes of light... as if they’re trying to deconstruct the cube...",
 			typewriter = {
@@ -708,12 +708,12 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "Yes! The Gate has also began to change shape! Now, show me what lies behind this wall of ice!",
 			typewriter = {
 				speed = 0.05,

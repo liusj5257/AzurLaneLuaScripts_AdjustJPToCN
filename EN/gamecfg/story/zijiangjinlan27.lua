@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN27",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg13",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "Exercise Area - Turn 8 (Musashi's Action)",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Looks like everyone's scrambling to snag up the rest of the bases before fighting over the central tower~",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "I, I can't believe Chiyoda is gone just like that... Are we going to be alright?",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "I just saw Nagato moving her forces north of us! She's going to try to cross into our territory and capture the bases we left behind!",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "But even if we defend those bases, I don't think we can win anymore... Do you think Musashi is going to come help us?",
 			painting = {
@@ -139,8 +139,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Nagato, who descended with the dignity of cherry blossoms dancing in the wind, and Akagi, who rained down like fire from the skies!",
 			painting = {
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Mikasa wasn't as flashy, but she did prevent us from moving for a while... I'm sure Musashi's going to turn the tides of battle with a bang!",
 			painting = {
@@ -221,8 +221,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "My orders... don't make any sense at all! Why?!",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Um... Miyuki?",
 			painting = {
@@ -271,8 +271,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "I'm really sorry about this.",
 			painting = {
@@ -288,8 +288,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "Wait... What are you doing?",
 			painting = {
@@ -305,8 +305,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Musashi ordered... for me and Chitose to take you out.",
 			painting = {
@@ -322,8 +322,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "Huh...? Why? I thought, I thought Musashi and Akagi were working together... I thought we're on the same side...",
 			painting = {
@@ -355,8 +355,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "I won't try to dodge if you fight back, so... Please don't hold it against me when we see each other later! Okay?",
 			painting = {
@@ -372,8 +372,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "I, I'm still one of Akagi's retainers... so I'm still going to do my best...!",
 			painting = {
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg13",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			say = "KABOOM––!!",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg13",
 			say = "Shortly afterwards, in Mikasa's territory...",
 			typewriter = {
@@ -449,8 +449,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "What?! Musashi launched an attack on Akagi??",
 			painting = {
@@ -466,8 +466,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Aren't those two supposed to be working together? What the hell is going on?",
 			painting = {
@@ -483,8 +483,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "I don't have a clue either. What do you think, Mikasa?",
 			painting = {
@@ -500,8 +500,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "Sorry to disappoint, but I'm just as confused as the rest of you.",
 			painting = {
@@ -517,8 +517,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "(Are those two on bad terms now? No, that doesn't make any sense... Akagi left the room even before I did...)",
 			painting = {
@@ -534,8 +534,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "(And why wait until now? If this is another way of testing Nagato...?)",
 			painting = {
@@ -551,8 +551,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "(If those two have been working together since the very beginning, there's a possibility this was planned.)",
 			painting = {
@@ -568,8 +568,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "(Now, Miyuki's been removed from the battle, and Sakawa is heavily damaged as well... Think, is there any benefit to purposefully thinning out your own forces?)",
 			painting = {
@@ -585,8 +585,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "(Akagi mentioned something about the Sirens being increasingly vigilant since the Iron Blood rebellion... Does that have something to do with it?)",
 			painting = {
@@ -602,8 +602,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "There has to be something we're overlooking here...",
 			painting = {
@@ -619,8 +619,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "What do you mean? What reason could Musashi possibly have for attacking Miyuki?",
 			painting = {
@@ -636,8 +636,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "I can't exactly put my finger on it, but I have a bad feeling this feeds into Akagi's goal...",
 			painting = {
@@ -653,8 +653,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "If you're suggesting that Akagi WANTED to thin out everyone's ranks from the very beginning, then drawing us in to that earlier \"attack\" on the tower makes sense now.",
 			painting = {
@@ -702,8 +702,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "Musashi said at the very beginning that this game would be a battle of wills and ideals. By extension, this means...",
 			painting = {
@@ -719,8 +719,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "That she would readily sacrifice her friends to accomplish her goals...",
 			painting = {
@@ -752,8 +752,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "So that's why she's sending Wakatsuki to defend against Nagato alone. It's a win for her if she either gets Nagato to abandon her ideals, or if she can prevent Nagato from taking any more bases.",
 			painting = {
@@ -801,8 +801,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "(It's too late now, but I fear that none of us should've ever agreed to this \"exercise.\")",
 			painting = {
@@ -818,8 +818,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "(Had I become aware of the Sanctuary earlier, I might've been able to... No, because of this, Nagato has found her own vision for our future, and I've resolved myself to fight for her ideals.)",
 			painting = {
@@ -835,8 +835,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "(I see... I shouldn't have any doubts at this point. As long as Nagato can win, nothing else matters!)",
 			painting = {

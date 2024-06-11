@@ -9,8 +9,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -25,8 +25,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.072
+					number = 0.072,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -41,8 +41,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.094
+					number = 0.094,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -57,8 +57,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.116
+					number = 0.116,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -73,8 +73,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.138
+					number = 0.138,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -89,8 +89,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.16
+					number = 0.16,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.182
+					number = 0.182,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -121,8 +121,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.204
+					number = 0.204,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -137,8 +137,8 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.226
+					number = 0.226,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
@@ -153,15 +153,15 @@ return {
 				},
 				arg_list = {
 					group = 10501,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.25
+					number = 0.25,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "抗击重樱",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "对重樱伤害提高",
 	stack = 1,
@@ -183,8 +183,8 @@ return {
 			},
 			arg_list = {
 				group = 10501,
-				attr = "DMG_TAG_EHC_N_3",
-				number = 0.05
+				number = 0.05,
+				attr = "DMG_TAG_EHC_N_3"
 			}
 		}
 	}

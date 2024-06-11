@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔30秒，降低敌方造成的伤害5.0%(满级15.0%)，持续8秒",
 	name = "威压",
 	init_effect = "",
+	id = 10150,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "每隔30秒，降低敌方造成的伤害$1，持续8秒",
 	stack = 1,
-	id = 10150,
+	color = "yellow",
 	icon = 10150,
 	last_effect = "",
 	effect_list = {
@@ -77,9 +77,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 10150,
 				time = 30,
-				target = "TargetSelf",
-				skill_id = 10150
+				target = "TargetSelf"
 			}
 		}
 	}

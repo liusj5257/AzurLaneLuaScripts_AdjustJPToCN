@@ -1,6 +1,6 @@
 slot0 = class("EnemyScavenger", import("view.miniGame.gameView.RyzaMiniGame.character.MoveEnemy"))
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	uv0.super.InitUI(slot0, slot1)
 
 	slot0.hp = slot1.hp or 1
@@ -11,11 +11,11 @@ function slot0.InitUI(slot0, slot1)
 	slot0.rate = slot1.rate or 1.1
 end
 
-function slot0.GetSpeedDis(slot0)
+slot0.GetSpeedDis = function(slot0)
 	return uv0.super.GetSpeedDis(slot0) * (slot0.skillTime > 0 and slot0.rate or 1)
 end
 
-function slot0.PlayMove(slot0, slot1)
+slot0.PlayMove = function(slot0, slot1)
 	if slot0.skillTime > 0 then
 		slot0:PlayAnim("Move2_" .. slot1)
 	else
@@ -24,12 +24,12 @@ function slot0.PlayMove(slot0, slot1)
 end
 
 slot0.loopDic = {
-	Wait = true,
+	Move = true,
 	Move2 = true,
-	Move = true
+	Wait = true
 }
 
-function slot0.TimeTrigger(slot0, slot1)
+slot0.TimeTrigger = function(slot0, slot1)
 	uv0.super.TimeTrigger(slot0, slot1)
 
 	slot0.skillCD = slot0.skillCD - slot1

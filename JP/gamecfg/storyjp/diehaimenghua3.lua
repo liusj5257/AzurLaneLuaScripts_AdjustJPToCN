@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301840,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "時間は正午、天候は快晴、離島へと航行して幾百里、我、祭儀の島についに到着せん！",
 			bgm = "story-4",
+			actor = 301840,
+			nameColor = "#a9f548",
+			say = "時間は正午、天候は快晴、離島へと航行して幾百里、我、祭儀の島についに到着せん！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "と、作戦命令書に書いてあるけど。マジで意味分かんないわね～",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "それ、一般人のイメージ？",
 			dialogShake = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "どーだろー",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -157,8 +157,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "長門様が単独でやってきてセイレーンに襲われたってのも、相当効いたからね",
 			typewriter = {
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "それな！あと、ワンチャン信濃の力をもう一回本島で使いたいってわけ",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,8 +264,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "と…隣にいる子はたしか能代って言ったっけ？ん？作戦命令書では確か「単独航行する信濃を出迎える」って書いてなかった？",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "さあ？偉い人には側近がつくもの、一人二人いても別におかしくないと思うよ",
 			typewriter = {
@@ -314,9 +314,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
 			blackBg = true,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "みんな、信濃さんたちと合流するわよ！",
 			typewriter = {

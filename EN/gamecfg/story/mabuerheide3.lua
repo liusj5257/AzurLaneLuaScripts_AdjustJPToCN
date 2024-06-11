@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Light Up My Day\n\n<size=45>3 Girl Talk</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "Later - Port Canteen",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "Later - Port Canteen",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -102,8 +102,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Puh-lease. You take me for a girl who forces herself onto the commander? If it's not solicited, I'm not doing it.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Deadass? Memphis, you reckon I'm being too passive?",
 			typewriter = {
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "Wait, what?! Legit surprised right now. Here I thought I'd just gotten in the commander's way!",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Hmm... Maybe this all means the commander likes girls who take the lead. I'm gonna need to do some asking around.",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "This is probably my inner shy girl speaking, but that's like, way outta my comfort zone. The arm-wrapping thing, I mean.",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Good luck with that. I'll be rooting for you, I guess. From the sidelines.",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Still, I'll take all the positive energy I can get. Here's hoping I'll get the chance to take the commander along again sometime soon.",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,

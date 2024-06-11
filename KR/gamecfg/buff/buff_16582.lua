@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "雪之都的孤狼",
 	init_effect = "",
+	id = 16580,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16580,
+	color = "red",
 	icon = 16580,
 	last_effect = "",
 	effect_list = {
@@ -47,9 +47,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				skill_id = 16580,
 				time = 1,
-				target = "TargetSelf",
-				skill_id = 16580
+				target = "TargetSelf"
 			}
 		}
 	}

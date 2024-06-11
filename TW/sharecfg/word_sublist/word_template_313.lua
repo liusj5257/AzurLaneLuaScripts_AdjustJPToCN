@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_313 = {}
 slot1 = slot0.word_template_313
 
-function temp()
+temp = function()
 	uv0["四"] = {
 		["川"] = {
 			["獨"] = {
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["㈣"] = {
 		this = {
 			this = true
@@ -41,7 +41,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["藪"] = {
 		this = {
 			this = true
@@ -51,7 +51,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蘇"] = {
 		["菲"] = {
 			["爾"] = {

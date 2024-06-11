@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "遠處的喧囂聲…是在修行嗎…？",
 			bgm = "story-1",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "遠處的喧囂聲…是在修行嗎…？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,14 +36,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 305120,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "劈————————————！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "這就是重櫻的野太刀啊…令人印象深刻的長度。",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "我對皇家騎士團的劍術也仰慕已久，兩位能不能藉著今天的機會向我們展示一下呢？",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "但是，實戰用的劍術若沒有對手，則難以演示出效果啊…",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "哈哈哈，這個好辦！就當是為之後的演習熱身，讓我來當妳的對手吧。",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "很好，有合適的對手才有施展劍術的價值，拔劍吧！",
 			typewriter = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "喵~稍微等一下喵！如果在這裡比的話就太可惜了喵，優秀的劍術應該向更多人展現喵~！",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -227,15 +227,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "呼喵~大家走過路過不要錯過，重櫻和皇家的劍術切磋比賽即將開始，門票是不會收的，不過零食和小吃請付費自取哦~！",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -260,8 +260,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "剛剛還是切磋……現在又變成比賽大會了嗎…",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（連重櫻的人也直呼妾身為信濃…？這種情況還真是少見啊…）",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "紀伊，信濃現在應該還有事要做，不應該在這裡耽誤時間哦。",
 			typewriter = {
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
+			nameColor = "#a9f548",
 			say = "抱歉，妾身確實還有事要做，先告辭了。汝等玩的開心……",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.6,
 					x = -3500

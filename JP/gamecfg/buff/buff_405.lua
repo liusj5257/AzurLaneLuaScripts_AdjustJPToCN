@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "ShadowClaw",
 	time = 6,
+	name = "ShadowClaw",
+	init_effect = "",
 	picture = "",
 	desc = "标记",
 	stack = 1,
@@ -26,8 +26,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.1
+				number = 0.1,
+				attr = "injureRatio"
 			}
 		},
 		{

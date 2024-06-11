@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "強大な力がぶつかり、爆発の光が襲撃者と守護者を飲み込んだ。そして――",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-4",
+			say = "強大な力がぶつかり、爆発の光が襲撃者と守護者を飲み込んだ。そして――",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "驚異的な力を見せた襲撃者はついに膝をつき、戦いの勝敗が決した。",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "振り返る赤城。その手の上に妖しき光を放つ「黒箱」が浮かんでいた。",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "赤城……姉さま？",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -255,9 +255,9 @@ return {
 			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "私の愛は――誰にも邪魔させませんわ！！",
 			effects = {
 				{

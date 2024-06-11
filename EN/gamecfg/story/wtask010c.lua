@@ -1,12 +1,12 @@
 return {
-	id = "WTask010C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask010C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You’ve successfully completed the Energy Matrix experiment. Mission complete!",
 			typewriter = {
 				speed = 0.05,

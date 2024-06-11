@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 14050,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14050,
+	color = "red",
 	icon = 14050,
 	last_effect = "",
 	effect_list = {
@@ -28,9 +28,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				target = "TargetSelf",
 				skill_id = 14051,
 				nationality = 6,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -43,10 +43,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				maxTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 14052,
 				nationality = 6,
+				maxTargetNumber = 1,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"

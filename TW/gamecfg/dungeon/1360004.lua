@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -87,9 +87,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13400005,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -102,18 +102,18 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 1.5,
 									switchTo = 1,
 									index = 0,
-									switchParam = 1.5,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									index = 1,
 									switchParam = 6,
 									switchTo = 2,
+									index = 1,
 									switchType = 1,
 									addWeapon = {
 										630201
@@ -121,10 +121,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 5,
 									switchTo = 3,
 									index = 2,
-									switchParam = 5,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										630202,
@@ -135,10 +135,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 2,
 									switchTo = 4,
 									index = 3,
-									switchParam = 2,
+									switchType = 1,
 									setAI = 70093,
 									addWeapon = {},
 									removeWeapon = {
@@ -148,10 +148,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 15.5,
 									switchTo = 5,
 									index = 4,
-									switchParam = 15.5,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										630210,
@@ -161,10 +161,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 1.5,
 									switchTo = 1,
 									index = 5,
-									switchParam = 1.5,
+									switchType = 1,
 									setAI = 70093,
 									addWeapon = {},
 									removeWeapon = {
@@ -186,14 +186,14 @@ return {
 					triggerParams = {
 						vanguard_unitList = {
 							{
-								exp = 10,
-								configId = 900377,
-								tmpID = 900377,
-								skinId = 100020,
 								oil_at_end = 55,
+								configId = 900377,
+								energy = 10,
+								skinId = 100020,
+								exp = 10,
+								tmpID = 900377,
 								id = 1,
 								level = 130,
-								energy = 10,
 								equipment = {
 									630061,
 									630062,
@@ -201,15 +201,15 @@ return {
 								},
 								properties = {
 									cannon = 1000,
-									air = 0,
-									antiaircraft = 200,
+									reload = 900,
+									luck = 100,
 									torpedo = 400,
 									durability = 77777,
-									reload = 900,
-									armor = 0,
+									air = 0,
 									dodge = 300,
+									antiaircraft = 200,
 									speed = 35,
-									luck = 100,
+									armor = 0,
 									hit = 140
 								},
 								skills = {}
@@ -243,14 +243,14 @@ return {
 	fleet_prefab = {
 		vanguard_unitList = {
 			{
-				exp = 10,
-				configId = 900375,
-				tmpID = 900375,
-				skinId = 100000,
 				oil_at_end = 55,
+				configId = 900375,
+				energy = 10,
+				skinId = 100000,
+				exp = 10,
+				tmpID = 900375,
 				id = 1,
 				level = 120,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -258,28 +258,28 @@ return {
 				},
 				properties = {
 					cannon = 20,
-					air = 0,
-					antiaircraft = 200,
+					reload = 900,
+					luck = 100,
 					torpedo = 250,
 					durability = 77777,
-					reload = 900,
-					armor = 0,
+					air = 0,
 					dodge = 300,
+					antiaircraft = 200,
 					speed = 35,
-					luck = 100,
+					armor = 0,
 					hit = 140
 				},
 				skills = {}
 			},
 			{
-				exp = 10,
-				configId = 900376,
-				tmpID = 900376,
-				skinId = 100010,
 				oil_at_end = 55,
+				configId = 900376,
+				energy = 10,
+				skinId = 100010,
+				exp = 10,
+				tmpID = 900376,
 				id = 2,
 				level = 120,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -287,15 +287,15 @@ return {
 				},
 				properties = {
 					cannon = 20,
-					air = 0,
-					antiaircraft = 200,
+					reload = 900,
+					luck = 100,
 					torpedo = 250,
 					durability = 77777,
-					reload = 900,
-					armor = 0,
+					air = 0,
 					dodge = 300,
+					antiaircraft = 200,
 					speed = 35,
-					luck = 100,
+					armor = 0,
 					hit = 140
 				},
 				skills = {}

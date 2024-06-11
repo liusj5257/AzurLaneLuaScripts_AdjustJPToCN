@@ -1,11 +1,13 @@
 slot0 = class("ExchangeShipCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().count
 	slot5 = getProxy(BagProxy):getItemById(ITEM_ID_SILVER_HOOK)
 	slot6 = getProxy(BuildShipProxy):getSupportShipCost() * slot3
+	slot7 = getProxy(BayProxy)
+	slot8 = slot7:getShips()
 
-	if getProxy(PlayerProxy):getData():getMaxShipBag() < #getProxy(BayProxy):getShips() + slot3 then
+	if getProxy(PlayerProxy):getData():getMaxShipBag() < slot7:getShipCount() + slot3 then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
 		return

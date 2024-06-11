@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA20",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "nagato-boss",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			bgName = "bg_story_bsmlevel",
-			mode = 1,
 			dir = 1,
 			bgmDelay = 1,
+			bgm = "nagato-boss",
+			bgName = "bg_story_bsmlevel",
+			mode = 1,
 			say = "펑-----------------!",
-			soundeffect = "event:/battle/boom2",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -71,9 +71,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "공기의 마찰 속에서 포탄이 죽음의 소리를 내며 모습을 알 수 없는 적 사이로 돌파구를 만들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "…지금까지의 꿈에서는 이렇게 충만한 힘을 느끼지 못했어… 만약 이런 힘이라면…… 이길 수 있어!",
 			typewriter = {
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "괴물이 하나라면, 아마 그랬을 것이다. 하지만 둘, 셋, 연달아서 더 많은 그림자의 위협이 다가오고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "「——————헛수고야.」",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "꿈이라도… 끝이 아니라면, 적이 아직 남아있다면, 나는 계속 싸울 것이다!",
 			typewriter = {
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "주변에서 저항하는 소리가 점점 작아지기 시작했다. 언제부터인가 수면 위에는 시나노 혼자만이 남아 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "「——————헛수고야.」",
 			typewriter = {
 				speed = 0.05,
@@ -207,13 +207,13 @@ return {
 			}
 		},
 		{
-			actorName = "█ █ █ █",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █",
 			dir = 1,
-			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊ ▊▇ ▊▇ ▊▇",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#BDBDBD",
+			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊ ▊▇ ▊▇ ▊▇",
 			flashN = {
 				color = {
 					1,
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "bg_white",
-			actorName = "{namecode:182}",
+			side = 2,
 			dir = 1,
+			actorName = "{namecode:182}",
+			bgName = "bg_white",
 			nameColor = "#a9f548",
 			say = "한 때 쿄카에 속했던 나도, 이런 모습으로 최후를 맞는가…",
 			flashout = {
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 1,
 			bgName = "bg_white",
+			mode = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {
 				dur = 0.5,

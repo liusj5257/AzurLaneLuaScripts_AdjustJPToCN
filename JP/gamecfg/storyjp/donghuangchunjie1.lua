@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ワイワイ旧正月！\n\n<size=45>一 新しい冒険の始まり！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・東煌寮",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "母港・東煌寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "どう、姉さん？新年の挨拶ちゃんとできたでしょ？",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
+			say = "もう、「えっへん」とか言わない！挨拶くらいまじめにやりなさいよ！",
 			side = 1,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "もう、「えっへん」とか言わない！挨拶くらいまじめにやりなさいよ！",
+			actor = 501010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "じゃあほとんど問題なしってことでいいよね！よし、これでみんなと遊びに行けるぞー！",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 0.5,
 					x = -2250
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
+			say = "こら！みんな春節の準備で忙しいから、迷惑をかけてどうするの！",
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "こら！みんな春節の準備で忙しいから、迷惑をかけてどうするの！",
+			actor = 501010,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 750
@@ -221,8 +221,8 @@ return {
 			expression = "2",
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 101382,
 			dir = 1,
+			actor = 101382,
 			nameColor = "#a9f548",
 			say = "鞍山、キッチンの方で少し手を借りたいです",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 101392,
 			dir = 1,
+			actor = 101392,
 			nameColor = "#a9f548",
 			say = "お、おかしいな……ほぼレシピ通り作ったのに……",
 			typewriter = {
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 101382,
 			dir = 1,
+			actor = 101382,
 			nameColor = "#a9f548",
 			say = "ほぼ、ですか…変なものでも入れたのでしょうか……",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 101392,
 			dir = 1,
+			actor = 101392,
 			nameColor = "#a9f548",
 			say = "せ、せっかく作るわけだし新しいアレンジでも入れようかなって……鞍山さん、お願い～",
 			typewriter = {
@@ -336,14 +336,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_102",
 			actor = 501041,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "それじゃ撫順姉さん、灯篭を取りに行きましょうか",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -403,8 +403,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "えええっ！？で、でも鞍山姉さんはさっき――",
 			typewriter = {
@@ -417,8 +417,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -446,8 +446,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "ば、爆竹ですか！？あ、危ないですよ……うっかりしたら――",
 			typewriter = {
@@ -479,9 +479,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
 			blackBg = true,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "えっ、えええ……撫順姉さん、せめて自分で歩かせてくださいよ……",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

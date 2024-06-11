@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level02",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "果然潛艇想要正面作戰還是太勉強了…！",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "咕…！緊急下潛——！",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			say = "大鬥犬？",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "大鬥犬",
+			actor = 900201,
 			dir = 1,
+			actorName = "大鬥犬",
 			say = "…嗯，這樣就沒問題了",
 			effects = {
 				{
@@ -172,10 +172,10 @@ return {
 			}
 		},
 		{
-			actor = 201070,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201070,
 			say = "啊。女將，妳沒事吧",
 			effects = {
 				{
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "女將看著U-556潛行而去的方向。",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "聲納雖然還能檢測到潛艇的反應，但已經和運輸艦的方向漸行漸遠了",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "帶著剛到手的恩尼格瑪和密碼本，兩人返回了運輸艦隊所在的海域。",
 			typewriter = {
 				speed = 0.05,

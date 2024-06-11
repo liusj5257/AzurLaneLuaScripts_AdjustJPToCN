@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_zhuguang_4",
+			side = 2,
+			bgm = "battle-ucnf",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "艦船たちは陣形を組み、広大な真水水域を探索しつつ前進する。",
-			bgm = "battle-ucnf",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "謎の識別信号は何回かパターンを変えてきたが、その都度ラフィーも艦船たちの識別信号のパターンを変えて対処した。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "相手の信号がどういう意味か分からない。にもかかわらずお互いの間に微妙なコミュニケーションが成立している。",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "人工島の裏側に回ると、艦船たちはついに識別信号の発信源を目にした。",
@@ -200,9 +200,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "信じられないことに、数十隻からなる「浮遊艦隊」が艦船たちにゆっくりと近づいてきている。",
@@ -238,8 +238,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "udf_qingxun",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -256,9 +256,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "udf_zhongxun",
 					time = 3,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -275,9 +275,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "udf_zhanlie",
 					time = 3,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -294,9 +294,9 @@ return {
 					}
 				},
 				{
-					delay = 1.8,
 					name = "udf_hangmu",
 					time = 3,
+					delay = 1.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			nameColor = "#FEF15E",
@@ -460,11 +460,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "……平文放送、流すよ",
 			painting = {
@@ -479,27 +479,27 @@ return {
 		{
 			portrait = 900404,
 			side = 2,
-			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
-			nameColor = "#FEF15E",
 			actorName = "？？？",
+			bgName = "bg_zhuguang_4",
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "こちら「理事会」第5任務艦隊。針路前方にいる艦船に告ぐ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -649,9 +649,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -665,17 +665,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -799,11 +799,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "第V種脅威ってなんですか…？",
@@ -877,9 +877,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -970,9 +970,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -987,8 +987,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1096,9 +1096,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1113,8 +1113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1144,9 +1144,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1161,8 +1161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1192,9 +1192,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1209,8 +1209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1219,11 +1219,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "ん。ラフィーはどっちでも大丈夫",
 			painting = {

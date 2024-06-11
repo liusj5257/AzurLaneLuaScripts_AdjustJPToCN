@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "みさき、左よ！",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "了解！えいっ！",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "どちらも息が合って、連携もバッチリだ。",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "ふう…まあ、悪くなかったかな。…みさき、ケガとかしてない？",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "もう、お姉ちゃんったら心配性なんだから…この通り、ピンピンしてる♪",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,8 +211,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "あはは…やっぱり手強い妹みたい…",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "ふふっ、わたしもそう思うな♪",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "…みさき、いまの「そう思う」って、わたしへの返事…よね？",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "姉妹コンビのほほえましい光景を眺めていると、ふと誰かが駆け寄って来ている気がした。",
 			typewriter = {
 				speed = 0.05,
@@ -286,9 +286,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
 			actor = 103070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "お姉ちゃん、恥ずかしいからやめて……ごめんなさい、姉がご迷惑を…",
 			typewriter = {
 				speed = 0.05,
@@ -304,10 +304,10 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "ちょ、ちょっとまってよー！まだインディちゃんの魅力を…って、あーれー……",
 			subActors = {
 				{
@@ -327,16 +327,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2500
@@ -347,8 +347,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "こ、こんな感じの「お姉ちゃん」もいるんだね…",
 			typewriter = {
 				speed = 0.05,

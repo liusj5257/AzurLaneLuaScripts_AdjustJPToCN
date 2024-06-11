@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AJIAKESI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나의 아름다운 기억\n\n<size=45>4. 적인가 아군인가?</size>",
@@ -17,24 +17,24 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "항구·큰 길",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "항구·큰 길",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "전 종종 생각하곤해요... 이렇게 순찰할 때, 어떤 “사건”이 발생하면 좋겠다고요...",
 			bgm = "story-1",
+			actor = 202030,
+			nameColor = "#92fc63",
+			say = "전 종종 생각하곤해요... 이렇게 순찰할 때, 어떤 “사건”이 발생하면 좋겠다고요...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,9 +61,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "팔이 에이잭스에게 붙들렸다.",
 			flashN = {
 				color = {
@@ -101,9 +101,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "부드러움 중에 단단한 촉감이 느껴졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -125,9 +125,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "? 저기 있는 건......",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#92fc63",
 			say = "에이잭스...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "아, 슈피잖아? 혼자 산책하는 건가?",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아, 슈피잖아? 혼자 산책하는 건가?",
+			actor = 202030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "일촉즉발의 두 사람 사이의 공기 중에서도 불꽃이 튀기는 듯했다——전혀 그렇지 않았지만",
 			typewriter = {
 				speed = 0.05,
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "좋아요, 그 가게는 저도 참 좋아하죠. 하지만 남자는 입장금지니까...... 아기돼지는 들어갈 수 없겠네요.♪",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "좋아요, 그 가게는 저도 참 좋아하죠. 하지만 남자는 입장금지니까...... 아기돼지는 들어갈 수 없겠네요.♪",
+			actor = 202030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			blackBg = true,
 			say = "자신도 모르던 와중에 에이잭스에게서 방치되었다......",
 			typewriter = {

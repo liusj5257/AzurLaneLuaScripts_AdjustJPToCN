@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"미소 뒤의 진심\n\n<size=45>3 \"예민\"한 친구</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "리펄스가 비서함이 된지 며칠 뒤——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "리펄스가 비서함이 된지 며칠 뒤——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "모항-학원",
 			typewriter = {
 				speed = 0.05,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "아, 뱀파이어잖아? 오랜만이야!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "에? 그, 그런 거 아니거든! 나는 평범하게 지휘관의 일을 도와준 것뿐…인데… 음…",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -196,9 +196,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "실눈을 뜬 뱀파이어는 풀이 죽어 있는 리펄스의 등 뒤로 가 갑자기 등을 내리쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -274,9 +274,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "...............",
 			typewriter = {
 				speed = 0.05,
@@ -288,15 +288,15 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "그래, 네 언니가 문서 작업을 끝냈다는 말이지.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -449,11 +449,11 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "정말이지! 돌아갈래! 알아서 잘 해봐!",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -491,9 +491,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "리펄스가 고개를 갸우뚱하고 자리를 떠나려고 할 때, 멀리서 뱀파이어의 목소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "뱀파이어",
+			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,

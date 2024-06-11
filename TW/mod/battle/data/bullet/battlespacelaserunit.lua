@@ -10,30 +10,30 @@ slot3.STATE_PRECAST = "Precast"
 slot3.STATE_ATTACK = "Attack"
 slot3.STATE_DESTROY = "Destroy"
 
-function slot3.Ctor(slot0, ...)
+slot3.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0._collidedTimes = {}
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._lifeEndCb = nil
 	slot0._collidedTimes = nil
 
 	uv0.super.Dispose(slot0)
 end
 
-function slot3.ExecuteLifeEndCallback(slot0)
+slot3.ExecuteLifeEndCallback = function(slot0)
 	if slot0._lifeEndCb then
 		slot0._lifeEndCb()
 	end
 end
 
-function slot3.AssertFields(slot0, slot1)
+slot3.AssertFields = function(slot0, slot1)
 	assert(slot0[slot1], "Lack Field " .. slot1)
 end
 
-function slot3.SetTemplateData(slot0, slot1)
+slot3.SetTemplateData = function(slot0, slot1)
 	slot0.AssertFields(slot1.extra_param, "attack_time")
 	slot0.AssertFields(slot1.hit_type, "interval")
 	uv0.super.SetTemplateData(slot0, slot1)
@@ -41,11 +41,11 @@ function slot3.SetTemplateData(slot0, slot1)
 	slot0._hitInterval = slot1.hit_type.interval
 end
 
-function slot3.GetHitInterval(slot0)
+slot3.GetHitInterval = function(slot0)
 	return slot0._hitInterval
 end
 
-function slot3.DoTrack(slot0)
+slot3.DoTrack = function(slot0)
 	if not slot0:getTrackingTarget() or slot2 == -1 then
 		return
 	elseif not slot2:IsAlive() then
@@ -92,7 +92,7 @@ function slot3.DoTrack(slot0)
 	slot0._yAngle = math.rad2Deg * math.atan2(slot13, slot14)
 end
 
-function slot3.InitSpeed(slot0, ...)
+slot3.InitSpeed = function(slot0, ...)
 	uv0.super.InitSpeed(slot0, ...)
 
 	if slot0:IsTracker() then
@@ -104,11 +104,11 @@ function slot3.InitSpeed(slot0, ...)
 	end
 end
 
-function slot3.SetLifeTime(slot0, slot1)
+slot3.SetLifeTime = function(slot0, slot1)
 	slot0._lifeTime = slot1
 end
 
-function slot3.SetAlert(slot0, slot1)
+slot3.SetAlert = function(slot0, slot1)
 	slot0._alertFlag = slot1
 
 	if not slot0:GetTemplate().extra_param.alertSpeed then
@@ -120,11 +120,11 @@ function slot3.SetAlert(slot0, slot1)
 	slot0.alertSpeedRatio = slot2.alertSpeed
 end
 
-function slot3.IsAlert(slot0)
+slot3.IsAlert = function(slot0)
 	return slot0._alertFlag
 end
 
-function slot3.Update(slot0, slot1)
+slot3.Update = function(slot0, slot1)
 	uv0.super.Update(slot0, slot1)
 
 	slot0._reachDestFlag = slot1 > slot0._timeStamp + slot0._lifeTime
@@ -138,14 +138,14 @@ function slot3.Update(slot0, slot1)
 	end
 end
 
-function slot3.GetCollidedList(slot0)
+slot3.GetCollidedList = function(slot0)
 	return slot0._collidedList, slot0._collidedTimes
 end
 
-function slot3.RegisterLifeEndCB(slot0, slot1)
+slot3.RegisterLifeEndCB = function(slot0, slot1)
 	slot0._lifeEndCb = slot1
 end
 
-function slot3.UnRegisterLifeEndCB(slot0)
+slot3.UnRegisterLifeEndCB = function(slot0)
 	slot0._lifeEndCb = nil
 end

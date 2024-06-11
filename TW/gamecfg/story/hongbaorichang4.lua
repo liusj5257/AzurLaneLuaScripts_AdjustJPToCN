@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"各自的春節\n\n<size=45>四 和樂融融的春節</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_night",
 			bgm = "story-china",
 			actor = 399041,
 			nameColor = "#a9f548",
 			say = "唔…這件衣服…果然還是不太好穿呢…特別是背後…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 399041,
 			dir = 1,
+			actor = 399041,
 			nameColor = "#a9f548",
 			say = "嘻嘻~謝謝妳，幫大忙了呢，長良~",
 			typewriter = {
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "感謝各位，還有指揮官來參加東煌主辦的春節晚會~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,10 +151,10 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			actorName = "平海&寧海",
-			bgName = "star_level_bg_128",
 			side = 0,
+			bgName = "star_level_bg_128",
+			actor = 502030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			actor = 501010,
+			say = "給各位拜年啦！",
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
+			actor = 501010,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "鞍山&撫順&長春&太原",
-			say = "給各位拜年啦！",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "還要特別感謝比叡的支援呢，果然辦宴會還是比叡最有經驗啊~",
 			effects = {
 				{
@@ -250,8 +250,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_128",
-			actor = 304022,
 			dir = 1,
+			actor = 304022,
 			nameColor = "#a9f548",
 			say = "舉手之勞罷了~看到大家在宴會上開心，我就很滿足了~",
 			typewriter = {
@@ -360,13 +360,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_128",
+			side = 2,
+			dir = 1,
 			say = "不僅限於東煌，各個陣營都帶來了或是精彩、或是有趣的表演，確實是場熱鬧無比的春節晚會，而最後……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "謝謝各位的精彩演出~接下來就進入壓軸的環節——",
 			soundeffect = "event:/battle/firework",
+			actor = 502010,
+			nameColor = "#a9f548",
+			say = "謝謝各位的精彩演出~接下來就進入壓軸的環節——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "眾人",
-			bgName = "star_level_bg_128",
 			side = 2,
+			bgName = "star_level_bg_128",
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "(熱烈鼓掌)",
 			typewriter = {
@@ -491,15 +491,15 @@ return {
 			}
 		},
 		{
-			say = "幾天後，重櫻本島",
 			side = 2,
 			bgName = "star_level_bg_129",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "newyear2",
+			say = "幾天後，重櫻本島",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

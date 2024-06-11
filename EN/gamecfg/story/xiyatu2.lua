@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIYATU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIYATU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Party for the Ages\n\n<size=45>2.Operation Extravaganza</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "Several days pass. I'm walking down the road when I notice something odd.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "Several days pass. I'm walking down the road when I notice something odd.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "Neon lights, strung up in the trees on both sides of me.",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "\"Did I?\"",
 			typewriter = {
@@ -175,10 +175,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, yeah! It's all part of Operation Extravaganza! Don't tell me you forgot already~",
 			painting = {
 				alpha = 0.3,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "I rack my brain for a moment and vaguely remember her saying something about it the other day.",
 			typewriter = {
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "These decorations are just like, phase one of the whole plan.",
 			painting = {
 				alpha = 0.3,
@@ -220,10 +220,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And phase two, that's about... Ah, you probably don't remember.",
 			painting = {
 				alpha = 0.3,
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Actually, I wanna test your memory. Try to guess what it is.",
 			painting = {
 				alpha = 0.3,
@@ -255,10 +255,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whaddya call an event where people get together and have a hell of a time?",
 			painting = {
 				alpha = 0.3,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "Knowing her, I think I know the answer.",
 			typewriter = {
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ding, ding, ding!",
 			painting = {
 				alpha = 0.3,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,10 +324,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And still I had to jog your memory... I know you're busy, but so busy you forgot what you even approved? You're overworking yourself.",
 			painting = {
 				alpha = 0.3,
@@ -342,10 +342,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good thing we have a holiday coming up so someone can force you to take a load off!",
 			painting = {
 				alpha = 0.3,
@@ -357,8 +357,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -370,10 +370,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's what this party will be all about: giving everyone, including you, a venue to relax, drink, eat, or whatever floats your boat!",
 			painting = {
 				alpha = 0.3,
@@ -388,10 +388,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The theme is like a world cruise, featuring all factions – from the Dragon Empery to Sardegna – and everyone's invited!",
 			painting = {
 				alpha = 0.3,
@@ -403,12 +403,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Didn't plan it all myself, of course. Georgia helped me iron out some of the deets.",
 			painting = {
 				alpha = 0.3,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "\"Such a big event needs a lot of food... Is that why you've had me try all those breakfast options?\"",
 			typewriter = {
@@ -430,12 +430,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Bingo. You connected the dots! Hahaha!",
 			painting = {
 				alpha = 0.3,

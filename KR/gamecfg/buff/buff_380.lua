@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "分段起火1",
 	time = 5.1,
+	name = "分段起火1",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -26,13 +26,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 1,
 				attr = "airPower",
-				exposeGroup = 1,
 				time = 1,
 				cloakExpose = 36,
-				number = 5,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 1
+				number = 5
 			}
 		},
 		{

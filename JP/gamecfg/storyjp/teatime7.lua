@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME7",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -185,10 +185,10 @@ return {
 			}
 		},
 		{
-			actor = 301121,
 			actorShadow = true,
-			actorName = "{namecode:13}&{namecode:14}",
 			side = 1,
+			actorName = "{namecode:13}&{namecode:14}",
+			actor = 301121,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "……",
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			say = "わ、わたしのことはいいから、いや――",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:13}",
 			dir = -1,
-			say = "わ、わたしのことはいいから、いや――",
+			actor = 301111,
+			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -245,14 +245,14 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "は！そろそろ駆逐艦たちが委託から戻ってくる時間だ。すまない、私は先に失礼させてもらう！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,12 +277,12 @@ return {
 			}
 		},
 		{
-			actor = 301111,
+			say = "き、消えた……ロイヤルの空母って凄いね……",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:13}",
 			dir = 1,
-			say = "き、消えた……ロイヤルの空母って凄いね……",
+			actor = 301111,
+			actorName = "{namecode:13}",
 			paintingFadeOut = {
 				time = 0,
 				side = 0
@@ -315,8 +315,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "イラストリアスさんも、凄い所があるのです……",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "次のお茶会もお待ちしています。",
 			typewriter = {
 				speed = 0.05,
@@ -422,8 +422,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "次はゲーム大会でどう？ロングアイランドさんも誘って――",
 			typewriter = {
 				speed = 0.05,
@@ -438,8 +438,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "「絶対にいや―！」",
 			typewriter = {
 				speed = 0.05,
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			say = "同じ時刻、暁は――",
 			blackBg = true,
+			say = "同じ時刻、暁は――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			say = "【S71°31′34″E24°08′17″】",
 			blackBg = true,
+			say = "【S71°31′34″E24°08′17″】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,12 +492,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "響がいない……うん？ここになんか書いてあるわ。「あすか」「ドローニング・モード・ランド」――",
 			typewriter = {
 				speed = 0.05,

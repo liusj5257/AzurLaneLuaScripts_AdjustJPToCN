@@ -1,11 +1,11 @@
 slot0 = class("ColoringProxy", import(".NetProxy"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.colorGroups = {}
 	slot0.colorItems = {}
 end
 
-function slot0.netUpdateData(slot0, slot1)
+slot0.netUpdateData = function(slot0, slot1)
 	slot0.startTime = slot1.start_time
 	slot2 = {}
 
@@ -88,21 +88,21 @@ function slot0.netUpdateData(slot0, slot1)
 	end
 end
 
-function slot0.getColorItems(slot0)
+slot0.getColorItems = function(slot0)
 	return slot0.colorItems
 end
 
-function slot0.getColorGroups(slot0)
+slot0.getColorGroups = function(slot0)
 	return slot0.colorGroups
 end
 
-function slot0.getColorGroup(slot0, slot1)
+slot0.getColorGroup = function(slot0, slot1)
 	return _.detect(slot0.colorGroups, function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.checkState(slot0)
+slot0.checkState = function(slot0)
 	slot1 = false
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot3:isEnd() then
@@ -130,7 +130,7 @@ function slot0.checkState(slot0)
 	return slot1
 end
 
-function slot0.CheckTodayTip(slot0)
+slot0.CheckTodayTip = function(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and not slot2:isEnd() and slot0.startTime then
 		slot3 = pg.TimeMgr.GetInstance()
 		slot9 = slot3
@@ -161,7 +161,7 @@ function slot0.CheckTodayTip(slot0)
 	end
 end
 
-function slot0.IsALLAchieve(slot0)
+slot0.IsALLAchieve = function(slot0)
 	if #slot0.colorGroups == 0 then
 		return false
 	end
@@ -171,7 +171,7 @@ function slot0.IsALLAchieve(slot0)
 	end)
 end
 
-function slot0.GetViewedPage(slot0)
+slot0.GetViewedPage = function(slot0)
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) or slot1:isEnd() then
 		return 0
 	end
@@ -179,7 +179,7 @@ function slot0.GetViewedPage(slot0)
 	return PlayerPrefs.GetInt("pixelDraw_maxPage_" .. slot1.id .. "_" .. getProxy(PlayerProxy):getRawData().id, 0)
 end
 
-function slot0.SetViewedPage(slot0, slot1)
+slot0.SetViewedPage = function(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) or slot2:isEnd() then
 		return
 	end

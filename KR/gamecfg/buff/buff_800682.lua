@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "META谢菲尔德破甲buff",
 	time = 5,
+	name = "META谢菲尔德破甲buff",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = 0.04
+				number = 0.04,
+				attr = "injureRatioByCannon"
 			}
 		},
 		{

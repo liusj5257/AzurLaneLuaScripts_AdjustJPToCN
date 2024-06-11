@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN34",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "메탈 블러드 부도 요새·모처, 며칠 전 ",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "메탈 블러드 부도 요새·모처, 며칠 전 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "조심하세요, 메탈 블러드 함선이 접근 중이에요.",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,15 +98,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "너는...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -326,8 +326,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "세이렌이 점령한 곳이었잖아. 언제 되찾아 온 거야?",
 			typewriter = {
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "이상한 말만 하더니 왜 혼자서 납득하고 그래? 설명 좀 해줘, 프린츠 오이겐!",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -430,12 +430,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "어쨌든, 돌발 상황이지만 우리랑 같이 세이렌을 처치하지 않을래?",
 			typewriter = {
 				speed = 0.05,

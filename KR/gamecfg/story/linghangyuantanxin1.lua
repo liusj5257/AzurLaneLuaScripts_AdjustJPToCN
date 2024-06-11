@@ -10,12 +10,12 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-10",
-			actor = 1001,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room1",
+			bgm = "qe-ova-10",
+			tbActor = true,
+			actor = 1001,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "졸려… 이야기, 듣고 싶어…",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -56,10 +56,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1001,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "좋아하는 게… 뭐야…?",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "눈앞의 작은 아이… TB는 무표정한 얼굴로 내쪽을 바라보며 이렇게 말했다.",
@@ -127,22 +127,22 @@ return {
 			}
 		},
 		{
-			actor = 1001,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room1",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "{tb}이 읽어주는 거… 좋아…",
+			bgName = "bg_project_tb_room1",
 			tbActor = true,
+			actor = 1001,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "{tb}이 읽어주는 거… 좋아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "좋아, 그럼 오늘은 비장의 이야기를 꺼내야겠군.",

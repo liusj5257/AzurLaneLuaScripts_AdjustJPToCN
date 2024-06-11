@@ -3,11 +3,11 @@ slot0 = pg
 slot0.TrophyReminderMgr = singletonClass("TrophyReminderMgr")
 slot1 = slot0.TrophyReminderMgr
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	slot0._go = nil
 end
 
-function slot1.Init(slot0, slot1)
+slot1.Init = function(slot0, slot1)
 	print("initializing tip manager...")
 
 	slot0._count = 0
@@ -26,7 +26,7 @@ function slot1.Init(slot0, slot1)
 	end)
 end
 
-function slot1.ShowTips(slot0, slot1)
+slot1.ShowTips = function(slot0, slot1)
 	uv0.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_TIP)
 	slot0._go.transform:SetAsLastSibling()
 	SetActive(slot0._go, true)

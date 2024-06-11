@@ -12,7 +12,7 @@ slot0.ON_AUTO = "BattleMediator:ON_AUTO"
 slot0.ON_PUZZLE_RELIC = "BattleMediator.ON_PUZZLE_RELIC"
 slot0.ON_PUZZLE_CARD = "BattleMediator.ON_PUZZLE_CARD"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = pg.BrightnessMgr.GetInstance()
 
 	slot1:SetScreenNeverSleep(true)
@@ -114,8 +114,8 @@ function slot0.register(slot0)
 					mediator = ActivityBossTotalRewardPanelMediator,
 					viewComponent = ActivityBossTotalRewardPanel,
 					data = {
-						isAutoFight = false,
 						isLayer = true,
+						isAutoFight = false,
 						rewards = getProxy(ChapterProxy):PopActBossRewards(),
 						continuousBattleTimes = uv1.contextData.continuousBattleTimes,
 						totalBattleTimes = uv1.contextData.totalBattleTimes
@@ -138,8 +138,8 @@ function slot0.register(slot0)
 				mediator = BossSingleTotalRewardPanelMediator,
 				viewComponent = BossSingleTotalRewardPanel,
 				data = {
-					isAutoFight = false,
 					isLayer = true,
+					isAutoFight = false,
 					rewards = getProxy(ChapterProxy):PopBossSingleRewards(),
 					continuousBattleTimes = uv1.contextData.continuousBattleTimes,
 					totalBattleTimes = uv1.contextData.totalBattleTimes
@@ -197,7 +197,7 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.onAutoBtn(slot0, slot1)
+slot0.onAutoBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle,
@@ -205,7 +205,7 @@ function slot0.onAutoBtn(slot0, slot1)
 	})
 end
 
-function slot0.onPauseBtn(slot0)
+slot0.onPauseBtn = function(slot0)
 	slot1 = ys.Battle.BattleState.GetInstance()
 
 	if slot0.contextData.system == SYSTEM_PROLOGUE or slot0.contextData.system == SYSTEM_PERFORM then
@@ -297,15 +297,15 @@ function slot0.onPauseBtn(slot0)
 	end
 end
 
-function slot0.warnFunc(slot0, slot1)
+slot0.warnFunc = function(slot0, slot1)
 	slot2 = ys.Battle.BattleState.GetInstance()
 	slot3 = slot0.contextData.system
 	slot4, slot5 = nil
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		modal = true,
-		hideNo = true,
 		hideYes = true,
+		hideNo = true,
 		content = (not slot0.contextData.warnMsg or #slot6 <= 0 or i18n(slot6)) and (slot3 ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and (slot3 ~= SYSTEM_SIMULATION or i18n("tech_simulate_quit")) and i18n("battle_battleMediator_quest_exist"),
 		onClose = slot1,
 		custom = {
@@ -326,10 +326,10 @@ function slot0.warnFunc(slot0, slot1)
 	})
 end
 
-function slot0.guideDispatch(slot0)
+slot0.guideDispatch = function(slot0)
 end
 
-function slot1(slot0, slot1, slot2, slot3)
+slot1 = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot1:getActiveEquipments()) do
@@ -350,7 +350,7 @@ function slot1(slot0, slot1, slot2, slot3)
 
 	slot5 = {}
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		return {
 			level = slot0.level,
 			id = ys.Battle.BattleDataFunction.SkillTranform(uv1, uv0:RemapSkillId(slot0.id))
@@ -442,15 +442,15 @@ function slot1(slot0, slot1, slot2, slot3)
 	}
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	slot2 = slot0:getProperties(slot1)
 	slot3 = slot0:getConfig("id")
 
 	return {
-		deathMark = false,
 		shipGS = 100,
-		rarity = 1,
 		intimacy = 100,
+		rarity = 1,
+		deathMark = false,
 		id = slot3,
 		tmpID = slot3,
 		skinId = slot0:getConfig("skin_id"),
@@ -479,7 +479,7 @@ function slot2(slot0, slot1)
 	}
 end
 
-function slot0.GenBattleData(slot0)
+slot0.GenBattleData = function(slot0)
 	slot1 = {}
 	slot0._battleData = slot1
 	slot1.battleType = slot0.contextData.system
@@ -552,7 +552,7 @@ function slot0.GenBattleData(slot0)
 
 		slot0.mainShips = {}
 
-		function slot17(slot0, slot1, slot2)
+		slot17 = function(slot0, slot1, slot2)
 			slot4 = slot0.hpRant * 0.0001
 
 			if table.contains(uv0, slot0.id) then
@@ -612,7 +612,7 @@ function slot0.GenBattleData(slot0)
 
 		slot0.mainShips = {}
 
-		function slot16(slot0, slot1, slot2)
+		slot16 = function(slot0, slot1, slot2)
 			slot4 = slot0.hpRant * 0.0001
 
 			if table.contains(uv0, slot0.id) then
@@ -824,7 +824,7 @@ function slot0.GenBattleData(slot0)
 			slot11 = {}
 			slot12 = {}
 
-			function slot13(slot0, slot1, slot2, slot3)
+			slot13 = function(slot0, slot1, slot2, slot3)
 				if table.contains(uv0, slot0) then
 					BattleVertify.cloneShipVertiry = true
 				end
@@ -861,7 +861,7 @@ function slot0.GenBattleData(slot0)
 			slot26 = 0
 			slot27 = slot3.oil_cost > 0
 
-			function slot28(slot0, slot1)
+			slot28 = function(slot0, slot1)
 				if uv0 then
 					slot2 = slot0:getEndCost().oil
 
@@ -913,7 +913,7 @@ function slot0.GenBattleData(slot0)
 		slot12 = {}
 		slot13 = {}
 
-		function slot14(slot0, slot1, slot2, slot3)
+		slot14 = function(slot0, slot1, slot2, slot3)
 			table.insert(uv2.mainShips, slot0)
 			table.insert(slot3, slot0)
 			table.insert(slot2, uv0(uv1, slot0, slot1))
@@ -978,7 +978,7 @@ function slot0.GenBattleData(slot0)
 		slot16 = {}
 		slot17 = {}
 
-		function slot18(slot0, slot1, slot2, slot3)
+		slot18 = function(slot0, slot1, slot2, slot3)
 			if table.contains(uv0, slot0) then
 				BattleVertify.cloneShipVertiry = true
 			end
@@ -1016,7 +1016,7 @@ function slot0.GenBattleData(slot0)
 		slot29 = slot7:GetOilLimit()
 		slot30 = slot3.oil_cost > 0
 
-		function slot31(slot0, slot1)
+		slot31 = function(slot0, slot1)
 			slot2 = 0
 
 			if uv0 then
@@ -1049,7 +1049,7 @@ function slot0.GenBattleData(slot0)
 		slot14 = {}
 		slot15 = {}
 
-		function slot16(slot0, slot1, slot2, slot3)
+		slot16 = function(slot0, slot1, slot2, slot3)
 			if table.contains(uv0, slot0) then
 				BattleVertify.cloneShipVertiry = true
 			end
@@ -1084,7 +1084,7 @@ function slot0.GenBattleData(slot0)
 		slot23 = getProxy(PlayerProxy):getRawData()
 		slot25 = slot3.oil_cost > 0
 
-		function slot26(slot0, slot1)
+		slot26 = function(slot0, slot1)
 			slot2 = 0
 
 			if uv0 then
@@ -1136,7 +1136,7 @@ function slot0.GenBattleData(slot0)
 			slot11 = {}
 			slot12 = {}
 
-			function slot13(slot0, slot1, slot2, slot3)
+			slot13 = function(slot0, slot1, slot2, slot3)
 				if table.contains(uv0, slot0) then
 					BattleVertify.cloneShipVertiry = true
 				end
@@ -1204,7 +1204,7 @@ function slot0.GenBattleData(slot0)
 		slot11 = {}
 		slot12 = {}
 
-		function slot13(slot0, slot1, slot2)
+		slot13 = function(slot0, slot1, slot2)
 			for slot6, slot7 in ipairs(slot0) do
 				if table.contains(uv0, slot7) then
 					BattleVertify.cloneShipVertiry = true
@@ -1399,7 +1399,7 @@ function slot0.GenBattleData(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.FINISH_STAGE_DONE,
 		GAME.FINISH_STAGE_ERROR,
@@ -1415,7 +1415,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = ys.Battle.BattleState.GetInstance()
 	slot5 = slot0.contextData.system
@@ -1521,7 +1521,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(false)
 end
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOTELAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOTELAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"インディちゃんの笑顔のために！\n\n<size=45>六 本当に大切なこととは</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,17 +190,17 @@ return {
 			}
 		},
 		{
-			actor = 103060,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "──敵部隊の撃退を確認。帰投しますね",
 			bgm = "level",
+			actor = 103060,
+			nameColor = "#a9f548",
+			say = "──敵部隊の撃退を確認。帰投しますね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -481,11 +481,11 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "あ、うん、そうだった。みんな～、帰りますよ～",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.12,
 					x = 0,

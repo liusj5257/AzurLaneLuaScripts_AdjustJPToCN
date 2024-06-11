@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "狮子座推力",
 	time = 0.5,
-	color = "blue",
+	name = "狮子座推力",
+	init_effect = "",
+	id = 600034,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600034,
+	color = "blue",
 	icon = 600034,
 	last_effect = "",
 	effect_list = {

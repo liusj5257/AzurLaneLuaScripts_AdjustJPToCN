@@ -1,38 +1,38 @@
 slot0 = class("MetaSkillDetailBoxLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MetaSkillDetailBoxUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initUITextTips()
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 	slot0:updateShipDetail()
 	slot0:updateSkillList()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.initUITextTips(slot0)
+slot0.initUITextTips = function(slot0)
 	setText(slot0:findTF("Window/top/bg/infomation/title"), i18n("battle_end_subtitle2"))
 	setText(slot0:findTF("Window/MetaSkillDetailBox/ExpDetail/ExpTipText"), i18n("meta_skill_dailyexp"))
 	setText(slot0:findTF("Window/MetaSkillDetailBox/TipText"), i18n("meta_skill_learn"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.metaProxy = getProxy(MetaCharacterProxy)
 	slot0.metaShipID = slot0.contextData.metaShipID
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.window = slot0:findTF("Window")
 	slot0.closeBtn = slot0:findTF("top/btnBack", slot0.window)
@@ -46,7 +46,7 @@ function slot0.findUI(slot0)
 	slot0.skillUIItemList = UIItemList.New(slot0.skillContainer, slot0.skillTpl)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
@@ -55,7 +55,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateSkillTF(slot0, slot1, slot2)
+slot0.updateSkillTF = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF("frame", slot1)
 	slot4 = slot0:findTF("check_mark", slot1)
 	slot5 = slot0:findTF("skillInfo", slot3)
@@ -127,7 +127,7 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.updateSkillList(slot0)
+slot0.updateSkillList = function(slot0)
 	slot0.skillUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv1:updateSkillTF(slot2, uv0[slot1 + 1])
@@ -136,7 +136,7 @@ function slot0.updateSkillList(slot0)
 	slot0.skillUIItemList:align(#MetaCharacterConst.getTacticsSkillIDListByShipConfigID(getProxy(BayProxy):getShipById(slot0.metaShipID).configId))
 end
 
-function slot0.updateShipDetail(slot0)
+slot0.updateShipDetail = function(slot0)
 	slot1 = getProxy(BayProxy):getShipById(slot0.metaShipID)
 	slot2 = slot1:getPainting()
 

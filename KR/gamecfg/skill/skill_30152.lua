@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "全弹发射",
 	cd = 0,
-	painting = 1,
-	id = 30152,
 	picture = "0",
 	desc = "全弹发射",
+	painting = 1,
+	id = 30152,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,20 +16,20 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandom",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandom",
 			arg_list = {
 				weapon_id = 170223,
 				emitter = "BattleBulletEmitter"
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandom",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandom",
 			arg_list = {
 				weapon_id = 170224,
 				emitter = "BattleBulletEmitter"

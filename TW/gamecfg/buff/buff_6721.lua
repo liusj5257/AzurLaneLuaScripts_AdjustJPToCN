@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "觉醒宝珠",
 	time = 0,
-	color = "red",
+	name = "觉醒宝珠",
+	init_effect = "",
+	id = 6721,
 	picture = "",
 	desc = "造成伤害上升",
 	stack = 1,
-	id = 6721,
+	color = "red",
 	icon = 6721,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.03
+				number = 0.03,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

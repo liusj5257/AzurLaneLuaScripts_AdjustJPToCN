@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 14382,
-	picture = "0",
 	castCV = "",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,18 +17,18 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillInstantCoolDown",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillInstantCoolDown",
+			target_choise = "TargetNil",
 			arg_list = {
 				weaponType = "AirAssist"
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},

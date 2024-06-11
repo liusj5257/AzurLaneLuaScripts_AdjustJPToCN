@@ -9,8 +9,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 100
+					number = 100,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -21,8 +21,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 100
+					number = 100,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -37,8 +37,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 140
+					number = 140,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -49,8 +49,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 140
+					number = 140,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -65,8 +65,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 180
+					number = 180,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -77,8 +77,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 180
+					number = 180,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -93,8 +93,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 220
+					number = 220,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -105,8 +105,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 220
+					number = 220,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -121,8 +121,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 260
+					number = 260,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 260
+					number = 260,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -149,8 +149,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 300
+					number = 300,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 300
+					number = 300,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -177,8 +177,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 350
+					number = 350,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -189,8 +189,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 350
+					number = 350,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -205,8 +205,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 400
+					number = 400,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -217,8 +217,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 400
+					number = 400,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 450
+					number = 450,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -245,8 +245,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 450
+					number = 450,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -261,8 +261,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -273,15 +273,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 500
+					number = 500,
+					attr = "torpedoPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "炮击、雷击提升",
 	stack = 3,
@@ -304,8 +304,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 100
+				number = 100,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -316,8 +316,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 100
+				number = 100,
+				attr = "torpedoPower"
 			}
 		}
 	}

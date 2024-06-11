@@ -5,7 +5,7 @@ slot0.Battle.BattleBossCharacterFactory = slot1
 slot1.__name = "BattleBossCharacterFactory"
 slot1.BOMB_FX_NAME = "Bossbomb"
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0.HP_BAR_NAME = "BossBarContainer/heroBlood"
@@ -15,7 +15,7 @@ function slot1.Ctor(slot0)
 	}
 end
 
-function slot1.CreateCharacter(slot0, slot1)
+slot1.CreateCharacter = function(slot0, slot1)
 	slot3 = slot0:MakeCharacter()
 
 	slot3:SetFactory(slot0)
@@ -28,11 +28,11 @@ function slot1.CreateCharacter(slot0, slot1)
 	return slot3
 end
 
-function slot1.MakeCharacter(slot0)
+slot1.MakeCharacter = function(slot0)
 	return uv0.Battle.BattleBossCharacter:New()
 end
 
-function slot1.MakeBloodBar(slot0, slot1)
+slot1.MakeBloodBar = function(slot0, slot1)
 	slot2 = slot0:GetSceneMediator()
 
 	if slot1:GetBossIndex() then
@@ -42,7 +42,7 @@ function slot1.MakeBloodBar(slot0, slot1)
 	end
 end
 
-function slot1.MakeAimBiasBar(slot0, slot1)
+slot1.MakeAimBiasBar = function(slot0, slot1)
 	slot2 = slot0:GetHPBarPool():GetHPBar(uv0.Battle.BattleHPBarManager.HP_BAR_FOE).transform
 
 	setActive(slot2:Find("bg"), false)
@@ -51,6 +51,6 @@ function slot1.MakeAimBiasBar(slot0, slot1)
 	slot1:AddAimBiasFogFX()
 end
 
-function slot1.RemoveCharacter(slot0, slot1)
+slot1.RemoveCharacter = function(slot0, slot1)
 	uv0.super.RemoveCharacter(slot0, slot1)
 end

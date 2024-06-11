@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "Exercise Area - Turn 4 (Mikasa's Action)",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "Is she trying to prevent us from assisting Lady Nagato?",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "She just took a base, but is already poised to make her next move...",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Doesn't this put us in a tough position though? We haven't even finished capturing the Diadem of Light yet.",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "Mikasa said she can handle this situation.",
 			painting = {
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg9",
 			say = "While surveying a map of the exercise area, Kongou relayed the messages she received directly from Mikasa.",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "Even if Akagi manages to capture some of the bases around the central tower, she won't have the resources to push further west.",
 			painting = {
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "Why is she doing this? Shouldn't Akagi know that our forces are concentrated around the Diadem of Light?",
 			painting = {
@@ -231,8 +231,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "That's why I think this might be a feint. Even though we have the numerical advantage, we're prone to getting pincered if we get too focused on surrounding the detachment.",
 			painting = {
@@ -344,8 +344,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "So we'll be directing all our firepower at the bases and trying to avoid other shipgirls, huh?",
 			painting = {
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Right, I just got a report from the recon planes - we're dealing with an Omitter vessel up ahead.",
 			painting = {
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Omitters tend to be more aggressive than other types of Sirens, but this isn't a fight we can back down from.",
 			painting = {
@@ -427,8 +427,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "Naturally, I will be joining you too. How could the first ship of the Kongou-class battleships miss this chance for glory?",
 			painting = {
@@ -444,8 +444,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "I will lead the charge! Capture the Diadem of Light, then turn around as a unit and intercept Akagi's fleet!",
 			painting = {

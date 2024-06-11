@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "第二阶段",
 	cd = 0,
-	painting = 1,
-	id = 100003,
 	picture = "0",
 	desc = "第二阶段",
+	painting = 1,
+	id = 100003,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,10 +16,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 100003
 			}

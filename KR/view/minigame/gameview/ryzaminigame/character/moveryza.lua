@@ -1,6 +1,6 @@
 slot0 = class("MoveEnemy", import("view.miniGame.gameView.RyzaMiniGame.character.TargetMove"))
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	slot0.hp = slot1.hp or 3
 	slot0.bomb = slot1.bomb or 4
 	slot0.bombCount = slot0.bomb
@@ -62,7 +62,7 @@ function slot0.InitUI(slot0, slot1)
 	end)
 end
 
-function slot0.InitRegister(slot0, slot1)
+slot0.InitRegister = function(slot0, slot1)
 	slot0:Register("feedback", function ()
 		uv0.bombCount = math.min(uv0.bombCount + 1, uv0.bomb)
 	end, {})
@@ -109,7 +109,7 @@ function slot0.InitRegister(slot0, slot1)
 	end, {})
 end
 
-function slot0.Hurt(slot0, slot1)
+slot0.Hurt = function(slot0, slot1)
 	if slot0.spirit then
 		slot0.spriteVanish = true
 
@@ -126,7 +126,7 @@ function slot0.Hurt(slot0, slot1)
 	slot0.invincibilityTime = 3
 end
 
-function slot0.AddItem(slot0, slot1)
+slot0.AddItem = function(slot0, slot1)
 	slot2 = pg.CriMgr.GetInstance()
 
 	slot2:PlaySoundEffect_V3("ui-ryza-minigame-powerup")
@@ -178,7 +178,7 @@ function slot0.AddItem(slot0, slot1)
 	})
 end
 
-function slot0.UpdateSpirit(slot0, slot1)
+slot0.UpdateSpirit = function(slot0, slot1)
 	slot0.spirit = slot1
 
 	eachChild(slot0.rtScale:Find("main"), function (slot0)
@@ -189,7 +189,7 @@ function slot0.UpdateSpirit(slot0, slot1)
 	slot0.mainTarget = slot0.rtScale:Find("main/" .. (slot0.spirit and "spirit" or "character"))
 end
 
-function slot0.SetBomb(slot0)
+slot0.SetBomb = function(slot0)
 	if not slot0.lock and slot0.bombCount > 0 and slot0.responder:GetCellCanBomb(slot0.pos) then
 		slot0.bombCount = slot0.bombCount - 1
 
@@ -205,7 +205,7 @@ function slot0.SetBomb(slot0)
 	end
 end
 
-function slot0.GetSpeed(slot0)
+slot0.GetSpeed = function(slot0)
 	return slot0.spirit and 7 or slot0.speed
 end
 
@@ -229,7 +229,7 @@ slot1 = {
 }
 slot2 = 0.15
 
-function slot0.TimeUpdate(slot0, slot1)
+slot0.TimeUpdate = function(slot0, slot1)
 	slot0.invincibilityTime = slot0.invincibilityTime - slot1
 
 	if not slot0.lock then
@@ -273,11 +273,11 @@ function slot0.TimeUpdate(slot0, slot1)
 	end
 end
 
-function slot0.GetMoveInfo(slot0)
+slot0.GetMoveInfo = function(slot0)
 	return nil, slot0.responder:GetJoyStick()
 end
 
-function slot0.PlayNeglect(slot0, slot1)
+slot0.PlayNeglect = function(slot0, slot1)
 	slot0.flowCount = defaultValue(slot0.flowCount, 0) + slot1
 
 	if slot0.flowCount < 0.2 then
@@ -316,27 +316,27 @@ function slot0.PlayNeglect(slot0, slot1)
 	})
 end
 
-function slot0.PlayIdle(slot0)
+slot0.PlayIdle = function(slot0)
 	slot0:PlayAnim("Idle_" .. (string.split(slot0.status, "_")[2] or "S"))
 end
 
-function slot0.PlayDamage(slot0)
+slot0.PlayDamage = function(slot0)
 	slot0:PlayAnim("Damage_" .. (string.split(slot0.status, "_")[2] or "S"))
 end
 
 slot0.loopDic = {
-	Trot = true,
 	Neglect = true,
+	Trot = true,
 	Idle = true,
 	Run = true
 }
 
-function slot0.UpdatePosition(slot0)
+slot0.UpdatePosition = function(slot0)
 	uv0.super.UpdatePosition(slot0)
 	slot0.responder:WindowFocrus(slot0._tf.localPosition)
 end
 
-function slot0.SetHide(slot0, slot1)
+slot0.SetHide = function(slot0, slot1)
 	uv0.super.SetHide(slot0, slot1)
 
 	GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).alpha = slot1 and 0.7 or 1

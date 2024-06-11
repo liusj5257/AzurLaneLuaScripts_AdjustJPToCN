@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,24 +42,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "思った通り、クレマンソーは即断で審判廷施設の「徴用」に同意してくれた。",
-			bgm = "theme-vichy-church",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "サラトガとの通信を終え指揮センターに到着すると、すでにユニオン・北方連合との指揮系統の確立が完了していた。",
@@ -85,10 +85,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官が途中で連絡してくれた通りに、サラトガ艦隊とソユーズ艦隊の合流ルートを設定し直したわ",
 			painting = {
 				alpha = 0.3,
@@ -103,10 +103,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "科学ステーションの撤収作業も同時進行で行われている。今のところは順調よ",
 			painting = {
 				alpha = 0.3,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "クレマンソーは拍手をした。",
@@ -144,10 +144,10 @@ return {
 			portrait = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "クレマンソー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "エウロパにいるのに、数千キロ離れた場所の勝敗を決めるとはね",
 			painting = {
 				alpha = 0.3,
@@ -162,10 +162,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "流石は我らが指揮官のカリスマ、しかと見させてもらったわ。ふふ、平和になったら政治家に転身しても頂点に登り詰められるわね",
 			painting = {
 				alpha = 0.3,
@@ -216,10 +216,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。リクエスト通り秘密回線を用意させてもらったわ。それを伝えるために来たんだから",
 			painting = {
 				alpha = 0.3,
@@ -234,10 +234,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "審判廷のとっておきの秘密部屋よ。誰にも聞かれたりはしないわ",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ。さあ♪",
 			painting = {
 				alpha = 0.3,
@@ -282,10 +282,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ビスマルクはもう待機中だけど、気になるなら時間を変えましょうか？",
 			painting = {
 				alpha = 0.3,
@@ -312,10 +312,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。ではこちらへ～",
 			painting = {
 				alpha = 0.3,
@@ -327,28 +327,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "審判廷本部・シークレットルーム",
-			bgm = "story-commander-up",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -378,10 +378,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "表での打ち合わせでは顔合わせしていたが、貴方も知っての通り…",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それにしても、この回線をわざわざ選ぶとは思わなかったわ",
 			painting = {
 				alpha = 0.3,
@@ -464,10 +464,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ああ。南極大陸での情報の共有と協力の要請のみだ。残りは察しろとでも言わんばかりの口ぶりだったな",
 			painting = {
 				alpha = 0.3,
@@ -524,9 +524,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_guild_blue",
 			paintingNoise = true,
-			dir = 1,
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -540,17 +540,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -613,10 +613,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "フリードリヒが日頃からボウヤと褒めちぎっていただけはある。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -765,10 +765,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ではこうしよう",
 			painting = {
 				alpha = 0.3,
@@ -895,10 +895,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ありがとう。では",
 			painting = {
 				alpha = 0.3,
@@ -910,28 +910,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "審判廷施設・廊下",
-			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -942,10 +942,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら、思ってたより早く済んだわね",
 			painting = {
 				alpha = 0.3,
@@ -960,10 +960,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "見た感じ順調そうね。さすがは指揮官",
 			painting = {
 				alpha = 0.3,
@@ -975,12 +975,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まさか、ビスマルクに「あんなこと」までさせるとはね♪",
 			painting = {
 				alpha = 0.3,
@@ -1043,10 +1043,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "冗談はそこまでにして…ロイヤル艦隊のほうとの連絡も繋いだわ",
 			painting = {
 				alpha = 0.3,
@@ -1061,10 +1061,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あの子達もドロイドの出現を察したらしいけど、まだどうすればいいか難儀しているようね",
 			painting = {
 				alpha = 0.3,
@@ -1076,12 +1076,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかして世界博覧会の一件でトラウマになったのかしら？",
 			painting = {
 				alpha = 0.3,
@@ -1096,10 +1096,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ちゃんと安心させてあげたら？指揮官さま♪",
 			painting = {
 				alpha = 0.3,
@@ -1114,10 +1114,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「南極条約」を行使しても平気よ？",
 			painting = {
 				alpha = 0.3,
@@ -1132,10 +1132,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「アズールレーンの指揮官として、南大洋及び南極大陸の権限は無制限であり――」",
 			painting = {
 				alpha = 0.3,
@@ -1150,10 +1150,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「貴艦隊の戦術指揮権を今すぐこちらに移譲し、作戦終了まで貴艦隊は我が指揮下の戦力の一つとする」",
 			painting = {
 				alpha = 0.3,
@@ -1168,10 +1168,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "と、ちょっと強引だけど代わりに私が打電してもいいのよ？",
 			painting = {
 				alpha = 0.3,
@@ -1198,10 +1198,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら、それはざんねーん♪",
 			painting = {
 				alpha = 0.3,

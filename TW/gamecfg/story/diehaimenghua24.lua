@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，我們的航速比白鷹潛艇快得多，保持這個速度的話甩開它們輕而易舉~",
 			bgm = "battle-boss-3",
+			actor = 301160,
+			nameColor = "#a9f548",
+			say = "哼哼，我們的航速比白鷹潛艇快得多，保持這個速度的話甩開它們輕而易舉~",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -33,11 +33,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "衝鋒~衝鋒~！關原就在前方等著我們，正義在西軍！",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……妾身的動力系統突發故障，無法全速航行了。",
 			typewriter = {
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "糟糕…信濃大人現在的航速只有，15節？！這麼下去很快就會被白鷹潛艇追上哦！",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/fengling",
+			say = "「——————立刻轉向，躲避潛艇的伏擊。」",
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			dir = 1,
-			say = "「——————立刻轉向，躲避潛艇的伏擊。」",
+			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,9 +232,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（這裡是妾身的夢境，腦中的情報也是這麼說的，不會錯…！）",
 			typewriter = {

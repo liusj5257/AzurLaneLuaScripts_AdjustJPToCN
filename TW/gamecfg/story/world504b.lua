@@ -1,19 +1,19 @@
 return {
-	id = "WORLD504B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/16/tb-16",
+			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "警告：指揮官，前方發現未知巨型設施，推測為塞壬的某種新型要塞火炮。",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "必須在出現實質損傷前將其解決掉，為此——",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "向您致敬女王陛下，皇家火力打擊群已就位。",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			paintingNoise = true,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "指揮官，前方的巨型要塞炮請放心交由我們進行處理。",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "不論是何種防禦設施，都將在吾等的齊射之下粉碎，來一次死亡與鮮血的華麗綻放吧。",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 205060,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "目標鎖定完成。讓塞壬切身感受一下KGV的力量，艦隊齊射準備。",
 			typewriter = {
 				speed = 0.05,
@@ -149,11 +149,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 205090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "炮擊準備完畢，開火————————！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

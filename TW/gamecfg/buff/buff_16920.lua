@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16920,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16920,
+	color = "red",
 	icon = 16920,
 	last_effect = "",
 	effect_list = {
@@ -51,8 +51,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				countType = 16920,
+				target = "TargetSelf",
 				skill_id_list = {
 					16920,
 					16921
@@ -75,8 +75,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.08
+				number = 0.08,
+				attr = "dodgeRateExtra"
 			}
 		}
 	}

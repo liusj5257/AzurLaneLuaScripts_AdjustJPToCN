@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.072
+					number = 0.072,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.084
+					number = 0.084,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.1
+					number = 0.1,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.112
+					number = 0.112,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.124
+					number = 0.124,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.14
+					number = 0.14,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.156
+					number = 0.156,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.172
+					number = 0.172,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.2
+					number = 0.2,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -249,9 +249,9 @@ return {
 			}
 		}
 	},
-	time = 15,
 	name = "怒旋·大吉岭",
 	init_effect = "jinengchufared",
+	time = 15,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -273,8 +273,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.06
+				number = 0.06,
+				attr = "damageRatioBullet"
 			}
 		},
 		{

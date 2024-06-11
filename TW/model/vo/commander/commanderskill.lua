@@ -1,32 +1,32 @@
 slot0 = class("CommanderSkill", import("..BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.exp = slot1.exp
 end
 
-function slot0.getExp(slot0)
+slot0.getExp = function(slot0)
 	return slot0.exp
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.commander_skill_template
 end
 
-function slot0.getLevel(slot0)
+slot0.getLevel = function(slot0)
 	return slot0:getConfig("lv")
 end
 
-function slot0.isMaxLevel(slot0)
+slot0.isMaxLevel = function(slot0)
 	return slot0:getConfig("next_id") == 0
 end
 
-function slot0.getNextLevelExp(slot0)
+slot0.getNextLevelExp = function(slot0)
 	return slot0:getConfig("exp")
 end
 
-function slot0.addExp(slot0, slot1)
+slot0.addExp = function(slot0, slot1)
 	slot0.exp = slot0.exp + slot1
 
 	while slot0:canLevelUp() do
@@ -36,19 +36,19 @@ function slot0.addExp(slot0, slot1)
 	end
 end
 
-function slot0.canLevelUp(slot0)
+slot0.canLevelUp = function(slot0)
 	return slot0:getNextLevelExp() <= slot0.exp and not slot0:isMaxLevel()
 end
 
-function slot0.getTacticSkill(slot0)
+slot0.getTacticSkill = function(slot0)
 	return slot0:getConfig("effect_tactic")
 end
 
-function slot0.GetTacticSkillForWorld(slot0)
+slot0.GetTacticSkillForWorld = function(slot0)
 	return slot0:getConfig("effect_tactic_world")
 end
 
-function slot0.GetSkillGroup(slot0)
+slot0.GetSkillGroup = function(slot0)
 	slot1 = {}
 	slot2 = slot0:getConfig("prev_id")
 

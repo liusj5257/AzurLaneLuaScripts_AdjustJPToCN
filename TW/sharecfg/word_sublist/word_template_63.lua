@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_63 = {}
 slot1 = slot0.word_template_63
 
-function temp()
+temp = function()
 	uv0["牛"] = {
 		["头"] = {
 			["马"] = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蒙"] = {
 		["古"] = {
 			["鞑"] = {
@@ -117,7 +117,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["老"] = {
 		["毛"] = {
 			["子"] = {
@@ -202,7 +202,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["*"] = {
 		["法"] = {
 			["*"] = {

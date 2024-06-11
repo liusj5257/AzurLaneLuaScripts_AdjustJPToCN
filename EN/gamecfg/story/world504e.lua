@@ -1,17 +1,17 @@
 return {
-	id = "WORLD504E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504E",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "Hey, Commander... Don't these floating fortresses look familiar?",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"They remind me of the fortress the Iron Blood is working on...\"",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,8 +63,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "First Mirror Seas, and now floating fortresses...",
 			typewriter = {
 				speed = 0.05,
@@ -108,9 +108,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "If they decide to switch sides one terrible day... Bleh, it's too scary to imagine...",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...We'll have to keep a watchful eye on the Iron Blood. That's for sure.",
 			typewriter = {
 				speed = 0.05,
@@ -147,14 +147,14 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Warning: Multiple Siren signals have been detected ahead. Their source appears to be a cluster of Tester-types.",
-			voice = "event:/tb/16/tb-16",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "I've heard reports about them from other fleets. They said the vessels are no pushovers by any means, but apparently they lack a central command unit.",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "They always have some new surprise in store for us...",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "Heh, fine by me. I've been aching for something resembling a real fight!",
 			typewriter = {
 				speed = 0.05,

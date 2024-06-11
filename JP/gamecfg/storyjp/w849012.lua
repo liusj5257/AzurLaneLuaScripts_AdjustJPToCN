@@ -1,12 +1,12 @@
 return {
-	id = "W849012",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W849012",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "どうやら黄色い区域が一回しか通過できないようだ。一度出直そう。",
 			typewriter = {
 				speed = 0.05,

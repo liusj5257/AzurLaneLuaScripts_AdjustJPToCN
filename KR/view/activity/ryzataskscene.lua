@@ -21,7 +21,7 @@ slot18 = "ryza_task_empty_tag"
 slot19 = "sub_item_warning"
 slot20 = "ui/ryzaicon_atlas"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RyzaTaskUI"
 end
 
@@ -29,7 +29,7 @@ slot21 = 4
 slot22 = 5
 slot23 = 4
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.activityId = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_RYZA).id
 	slot0.enterTaskId = slot0.contextData.task_id or nil
 	slot0.taskGroups = pg.activity_template[slot0.activityId].config_data
@@ -129,7 +129,7 @@ function slot0.init(slot0)
 	slot0:updateTask()
 end
 
-function slot0.updateTask(slot0, slot1)
+slot0.updateTask = function(slot0, slot1)
 	slot0.displayTask = {}
 	slot0.allDisplayTask = {}
 	slot0.getAllTasks = {}
@@ -184,7 +184,7 @@ function slot0.updateTask(slot0, slot1)
 		end
 	end
 
-	function slot5(slot0, slot1)
+	slot5 = function(slot0, slot1)
 		if slot0:isOver() and not slot1:isOver() then
 			return false
 		elseif not slot0:isOver() and slot1:isOver() then
@@ -268,7 +268,7 @@ function slot0.updateTask(slot0, slot1)
 	setText(findTF(slot0.pointPanel, "levelBuff/num"), "Lv." .. slot7)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
@@ -347,7 +347,7 @@ function slot0.didEnter(slot0)
 		setActive(uv0.submitPanel, false)
 	end, SOUND_BACK)
 
-	function slot4()
+	slot4 = function()
 		setActive(uv0.submitPanel, false)
 	end
 
@@ -380,7 +380,7 @@ function slot0.didEnter(slot0)
 		table.insert(slot0.btnTags, slot6)
 	end
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateTaskItem(slot0, slot1)
 	end
 
@@ -406,7 +406,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.onClickTag(slot0)
+slot0.onClickTag = function(slot0)
 	print("点击了Tag")
 
 	if slot0.showTagIndex and slot1 > 0 then
@@ -436,7 +436,7 @@ function slot0.onClickTag(slot0)
 	end
 end
 
-function slot0.onUpdateTaskItem(slot0, slot1, slot2)
+slot0.onUpdateTaskItem = function(slot0, slot1, slot2)
 	if slot0.exitFlag then
 		return
 	end
@@ -500,7 +500,7 @@ function slot0.onUpdateTaskItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateDetail(slot0)
+slot0.updateDetail = function(slot0)
 	slot1 = slot0.showTasks[slot0.selectIndex]
 	slot3 = slot1:getProgress()
 	slot4 = slot1.target
@@ -566,7 +566,7 @@ function slot0.updateDetail(slot0)
 	end
 end
 
-function slot0.openSubmitPanel(slot0, slot1)
+slot0.openSubmitPanel = function(slot0, slot1)
 	setActive(slot0.submitPanel, true)
 
 	slot2 = tonumber(slot1:getConfig("target_id_2"))
@@ -579,7 +579,7 @@ function slot0.openSubmitPanel(slot0, slot1)
 	setText(slot0.submitItemDesc, pg.activity_ryza_item[slot2].name)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.exitFlag = true
 
 	if slot0.leanTweens and #slot0.leanTweens > 0 then

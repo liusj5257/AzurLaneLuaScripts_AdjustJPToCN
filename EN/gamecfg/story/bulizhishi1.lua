@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULIZHISHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULIZHISHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Band of Bulins\n\n<size=45>1 Band of Bulins</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "It had been a day of exhausting work for the three Bulin sisters. Worn out and sleepy, they dozed off and went to dreamland...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "It had been a day of exhausting work for the three Bulin sisters. Worn out and sleepy, they dozed off and went to dreamland...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,16 +50,16 @@ return {
 			}
 		},
 		{
-			actor = 502010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "As the saying goes: pressing times create heroes. You must go forth and do what needs to be done.",
 			bgm = "level02",
+			actor = 502010,
+			nameColor = "#a9f548",
+			say = "As the saying goes: pressing times create heroes. You must go forth and do what needs to be done.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "I smell negativity in the air, bulin. What's wrong, bulin?",
 			typewriter = {
@@ -133,11 +133,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "I think... Wow! It's a rainbow gear box, bulin!",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "Hey, hands off, bulin! That's MY gear box, bulin!",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "If you don't give it back now, I'm gonna smack your basic rarity butt with my hammer, bulin!",
 			typewriter = {
@@ -267,10 +267,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 100000,
 			actorName = "Bulins",
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "I agree, bulin! We'll be like the Three Musketeers, bulin!",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -361,9 +361,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "The Bulins gathered beneath a peach tree. They raised their respective weapons to the skies and swore an oath.",
 			typewriter = {
 				speed = 0.05,
@@ -375,10 +375,10 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 100000,
 			dir = 1,
 			hideOther = true,
 			actorName = "All Bulins",

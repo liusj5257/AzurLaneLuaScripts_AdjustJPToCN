@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU30-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU30-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			say = "————————！",
+			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "————————！",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "くっ…！まさか我がここまで押されるとは…！",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "だが侮るなよ！竜宮城の力がなくとも、この刀を手にしている限り、お前らには負けん！",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "仮にだ！仮に本当にお前らに負けたら、約束通り竜宮城から開放してやる！",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "それに制御装置と、「宝」の引き渡しも、ですね",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "それはいいとして、我も知らぬものをどう渡すのだ？",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "白龍がこの竜宮城を制御しているなら、白龍…あなたの身柄はこちらが預かりますよ",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "…………は？",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "まあ良い、お前らが勝ったら好きなものをなんでも持っていけ",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（うわっ、ついでにお宝と称して余計なものまでかっぱらう顔だ）",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 301290,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "分かりました！では……",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "白龍",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "島風",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -308,8 +308,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "島風",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "島風",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "白龍",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "島風",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "白龍",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "島風",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "島風",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "白龍",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "白龍",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "白龍",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "島風",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "島風",
+			side = 1,
 			bgName = "bg_daofeng_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "行きますよ！皆、駿河！",
 			typewriter = {
 				speed = 0.05,

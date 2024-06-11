@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "北方的孤独女王",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 8900,
+	time = 0,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
-	id = 8900,
+	color = "red",
 	icon = 8900,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.3
+				number = 0.3,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

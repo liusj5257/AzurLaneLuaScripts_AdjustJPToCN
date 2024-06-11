@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN29",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "演習海域にて・9ターン目（三笠）",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "くっ…「塔」に攻撃して反撃を食わせるというわけか…やられるところだった…",
 			painting = {
@@ -56,8 +56,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "でもこれで三笠の勘が証明されたな。赤城も「艦船を減らしている」と",
 			painting = {
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "その先のことはまだ分からないけどな。好きにはさせないぞ",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "このまま時間切れまで粘れば、点数勝ちで長門の勝利となる",
 			painting = {
@@ -139,8 +139,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "残りの拠点は量産艦で取るとしよう。羽黒、鬼怒、頼めるか？",
 			painting = {
@@ -156,8 +156,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "了解っすよ。単独行動が危ないってことでしょ？",
 			painting = {
@@ -173,8 +173,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "そうだ。拠点を制圧できたら旗風の護衛を頼む。武蔵が攻撃してこないとは限らんしな",
 			painting = {
@@ -206,8 +206,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "ええ、分かっていますわ。任せてくださいまし",
 			painting = {
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg14",
 			say = "演習海域にて・9ターン目（長門）",
 			typewriter = {
@@ -245,17 +245,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -266,8 +266,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 301570,
 			dir = 1,
+			actor = 301570,
 			nameColor = "#A9F548FF",
 			say = "御狐さま、拠点の攻略が完了しました！これで1点追加です！",
 			painting = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "比叡と榛名も大儀であった",
 			painting = {
@@ -300,8 +300,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304020,
 			dir = 1,
+			actor = 304020,
 			nameColor = "#A9F548FF",
 			say = "ええ、若月ちゃんとは戦闘せず無事に拠点を手に入れられました",
 			painting = {
@@ -317,8 +317,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "一手及ばず無念です……長門さま、さすがです…",
 			painting = {
@@ -334,8 +334,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "一度制圧した拠点は奪われぬ、これで余とお主が戦う意味が完全になくなったぞ",
 			painting = {
@@ -369,8 +369,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "………………良い。善処する",
 			painting = {

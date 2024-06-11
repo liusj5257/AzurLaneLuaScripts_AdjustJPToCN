@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "最强之盾",
 	cd = 0,
+	picture = "0",
+	desc = "最强之盾",
 	painting = 1,
 	id = 10160,
-	picture = "0",
 	castCV = "skill",
-	desc = "最强之盾",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerMainFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerMainFleet",
 			arg_list = {
 				buff_id = 10161
 			}

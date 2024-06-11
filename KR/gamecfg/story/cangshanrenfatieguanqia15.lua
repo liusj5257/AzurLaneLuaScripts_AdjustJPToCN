@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
-			say = "거울 해역, 첫 번째 문.",
 			bgm = "sk-az-story",
+			say = "거울 해역, 첫 번째 문.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모두",
+			side = 2,
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			say = "짝짝짝짝",
@@ -90,9 +90,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "천만의 말씀을! 고개를 드시오!",
 			painting = {
 				alpha = 0.3,
@@ -106,9 +106,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "지금까지 보여준 수많은 인술, 그리고 그 기술의 탁월함과 전투 기술은 저희와 비교해도 전혀 손색이 없소.",
 			painting = {
 				alpha = 0.3,
@@ -122,9 +122,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "앞으로는 서로의 장점을 살려 함께 싸웠으면 하오!",
 			painting = {
 				alpha = 0.3,
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "좋아! 호무라 홍련대가 자랑하는 시노비의 힘! 마음껏 보여주마!",
 			painting = {
@@ -167,9 +167,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "모처럼 진짜 닌자를 근처에서 볼 수 있는 기회니, 가능한 한 다양한 기술을 보고 습득해야……",
 			painting = {
 				alpha = 0.3,
@@ -194,9 +194,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "아, 아니아니아니, 아무것도 아니오!",
 			painting = {
 				alpha = 0.3,
@@ -208,27 +208,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
-			say = "잠시 후……",
 			bgm = "sk-az-battle",
+			say = "잠시 후……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "…그러니까 그런 상황에서는 불이나 물 같은 자연 환경을 이용한다고…?",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "그래, 각자 잘하는 술법 분야가 있어서 말이다. 우선은 그걸 중심으로 전술을 짜는 거지. 나는 화염이고 유미의 경우에는 얼음이지.",
 			painting = {
@@ -272,9 +272,9 @@ return {
 		{
 			actor = 11000030,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "그걸 무기에 깃들게 하거나, 영력으로 뽑아 발사하는 등, 그때 상황에 따라 임기응변으로 구분해서 사용하는 거다.",
 			painting = {
 				alpha = 0.3,
@@ -289,8 +289,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "그렇구나~ 우리도 포탄 종류를 변환해서 공격 방식을 바꾸기는 하지만, 그거랑은 또 다른 느낌이네.",
 			painting = {
@@ -305,9 +305,9 @@ return {
 		{
 			actor = 102260,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "공격 수단을 임기응변으로 구분해서 쓸 수 있다니, 솔직히 말해서 너무 부러워!",
 			painting = {
 				alpha = 0.3,
@@ -322,8 +322,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "그래도 위력은 너희 무기에 비해서는 모자라겠지.",
 			painting = {
@@ -339,8 +339,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "게다가 이 의장… 바다 위를 바람처럼 질주할 수 있는 이 무구는 탐이 나지 않을 수가 없군.",
 			painting = {
@@ -355,9 +355,9 @@ return {
 		{
 			actor = 11000030,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "이걸 시노비의 기술을 이용해 어떤 식으로 살릴지… 이런 상황이지만 조금 기대감을 품게 되는 날 용서해라.",
 			painting = {
 				alpha = 0.3,
@@ -372,8 +372,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "그 인법이라는 거, 리노한테도 알려줘!",
 			painting = {
@@ -389,8 +389,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "변신술을 이용해서 적의 공격을 피하고, 바로 적의 등 뒤로 넘어가서 일격에 팍! …에헤헤, 진짜 멋있겠다!",
 			painting = {
@@ -405,9 +405,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "아! 리노 나리, 약았소! 소인에게도… 소인에게도 모쪼록 인술 지도를…!",
 			painting = {
 				alpha = 0.3,
@@ -445,9 +445,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "잘 알고 있소! 이 아카츠키에게 맡겨주시오!",
 			painting = {
 				alpha = 0.3,
@@ -462,8 +462,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "좋아! 그럼 누가 더 많이 적을 무찌르는지 승부다!",
 			painting = {

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "古立特-鱼雷定身",
 	time = 0.5,
+	name = "古立特-鱼雷定身",
+	init_effect = "",
 	picture = "",
 	desc = "定身效果(无法移动)",
 	stack = 1,

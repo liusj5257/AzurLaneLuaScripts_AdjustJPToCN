@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.15
+					number = -0.15,
+					type = "airAssist"
 				}
 			},
 			{
@@ -32,8 +32,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.166
+					number = -0.166,
+					type = "airAssist"
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.182
+					number = -0.182,
+					type = "airAssist"
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.198
+					number = -0.198,
+					type = "airAssist"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.214
+					number = -0.214,
+					type = "airAssist"
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.23
+					number = -0.23,
+					type = "airAssist"
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.246
+					number = -0.246,
+					type = "airAssist"
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.264
+					number = -0.264,
+					type = "airAssist"
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.282
+					number = -0.282,
+					type = "airAssist"
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.3
+					number = -0.3,
+					type = "airAssist"
 				}
 			},
 			{
@@ -239,9 +239,9 @@ return {
 			}
 		}
 	},
-	time = 60,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 60,
 	picture = "",
 	desc = "首轮航空时间减少",
 	stack = 1,
@@ -263,8 +263,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = "airAssist",
-				number = -0.15
+				number = -0.15,
+				type = "airAssist"
 			}
 		},
 		{

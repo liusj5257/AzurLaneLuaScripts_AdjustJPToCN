@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "水下潜行单位下潜时减伤",
 	time = 0,
-	color = "blue",
+	name = "水下潜行单位下潜时减伤",
+	init_effect = "",
+	id = 8976,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8976,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.6
+				number = -0.6,
+				attr = "injureRatio"
 			}
 		}
 	}

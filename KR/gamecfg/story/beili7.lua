@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼별이란!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 101270,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "음, 지휘관 말야, 베일리에 대해 오해하고 있지 않아?",
 			bgm = "story-2",
+			actor = 101270,
+			nameColor = "#92fc63",
+			say = "음, 지휘관 말야, 베일리에 대해 오해하고 있지 않아?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "확실히, 벤슨의 성격을 떠올려보면 필요할 때 잠깐은 임기응변은 할 수 있겠지만, 중간에 흐지부지되어버릴 가능성도 상당하지.",
 			typewriter = {
 				speed = 0.05,
@@ -148,9 +148,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "확실히 베일리의 말대로다.",
 			typewriter = {
 				speed = 0.05,
@@ -174,11 +174,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "그렇다냥. 우주는 넓다냥.",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "굉장히 긍정적인 해석이다. 하지만……",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "베일리의 미소를 보니, 어쩌면 진짜로 있을지도 모르겠단 생각이 들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 101360,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101360,
+			nameColor = "#92fc63",
 			say = "베일리, 유성우가 슬슬 쏟아질 거래!",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -88,8 +88,8 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "그게 아냐! 항공모함으로서 당연히 구축함들을 지켜야지!",
 			shake = {
 				speed = 8,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			actorName = "글로리어스  &  아크 로열",
 			side = 0,
-			hideOther = true,
+			actor = 207020,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#92fc63",
 			say = "(나랑 비슷할지도…)",
 			subActors = {

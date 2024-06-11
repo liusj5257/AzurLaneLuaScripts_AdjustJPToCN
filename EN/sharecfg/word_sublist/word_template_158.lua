@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_158 = {}
 slot1 = slot0.word_template_158
 
-function temp()
+temp = function()
 	uv0["禁"] = {
 		["断"] = {
 			["之"] = {
@@ -184,7 +184,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["噤"] = {
 		["评"] = {
 			this = true
@@ -194,7 +194,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["燼"] = {
 		["萍"] = {
 			this = true
@@ -204,7 +204,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["茎"] = {
 		["大"] = {
 			["物"] = {
@@ -231,7 +231,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["京"] = {
 		["城"] = {
 			["血"] = {
@@ -289,7 +289,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["经"] = {
 		["常"] = {
 			["被"] = {
@@ -432,7 +432,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["荊"] = {
 		["棘"] = {
 			["護"] = {

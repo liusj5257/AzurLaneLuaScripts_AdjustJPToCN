@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」日常編\n\n<size=45>七 与大家的连接，永不消逝的羁绊</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港区·重樱祭典会场",
 			side = 2,
 			bgName = "star_level_bg_114",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "港区·重樱祭典会场",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -197,8 +197,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "明、明白！非常感谢！",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "哦哦，章鱼烧！真好～不过我是AI所以没法吃呢～嗯？不过现在是在碧蓝航线的世界，也许能吃也说不定？唔…？",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "好，目标是全摊位制霸～！",
 			typewriter = {
@@ -309,15 +309,15 @@ return {
 			}
 		},
 		{
-			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400011,
+			nameColor = "#a9f548",
 			say = "对本天才AI来说，拯救一两条金鱼什么的当然不在话下啦～！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -406,15 +406,15 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 399010,
+			nameColor = "#a9f548",
 			say = "烟花大会马上要开始了哦。大家到那里集合吧",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -506,8 +506,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "海伦娜小姐，待会见！{namecode:428}酱也要注意别喝太多哟～！会被打包带走的哦！……被我",
 			typewriter = {
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "真漂亮啊…在这边待了这么久，想到总有一天要回去总觉得有点难过呢……",
 			typewriter = {
@@ -620,8 +620,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "(虽然烟花绚烂而又转瞬即逝，但是，和大家一起看烟花的事情，我是绝对不会忘记的。就算大家各自分离，已经萌芽的羁绊也绝对…绝对不会消失的！）",
 			typewriter = {
@@ -650,9 +650,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "（咔嚓）",
 			flashN = {
 				color = {
@@ -686,14 +686,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_114",
 			actor = 10400011,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "这么一来，大家也是Kizuner的一员了！记得要搜索“A.I.Channel”关注频道哟！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -750,12 +750,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "抓准一切安利的时机…简直是虚拟主播之鉴呢",
 			typewriter = {
 				speed = 0.05,

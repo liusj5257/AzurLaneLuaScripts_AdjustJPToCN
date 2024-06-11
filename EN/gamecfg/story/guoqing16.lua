@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
+			soundeffect = "event:/battle/boom2",
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "What...?! Sho... Shoukaku?!",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 0.3,
 				alpha = {
@@ -100,19 +100,19 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
-			nameColor = "#a9f548",
-			actorName = "{namecode:95}",
 			say = "I promised... I would always... protect you...!",
+			nameColor = "#a9f548",
+			actor = 307050,
+			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "The Pawn defied us? How?!",
 			shake = {
 				speed = 1,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "She saved her sister from danger. Interesting...",
 			shake = {
 				speed = 1,
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "(So even a Pawn will rush to protect those they love...)",
 			shake = {
 				speed = 1,
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "This must be an Awakening Response... Brought on by remembering something important from the depths of her mind at just the right time...",
 			shake = {
 				speed = 1,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "Kaga, let's retreat. Our priority right now is to report to the Creator that a Pawn has Awakened.",
 			shake = {
 				speed = 1,
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "Understood.",
 			shake = {
 				speed = 1,

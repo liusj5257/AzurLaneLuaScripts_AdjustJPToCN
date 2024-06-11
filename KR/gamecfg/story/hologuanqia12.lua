@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-tokiwa",
 			dir = 1,
 			say = "다녀왔어~ 대장. 퓨리, 너희도 괜찮아?",
+			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "마츠리!! 계속 오지 않아서 걱정했잖아. 후부키, 미오. 너희도 무사해서 다행이야!",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리?!",
 			dir = 1,
+			actorName = "퓨리?!",
 			say = "아, 마츠리 왔네~ 마침 아쿠아의 장비도 디버그가 끝났어. 옆에 있는 건 잃어버렸다던 동료야?",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "응! 이쪽은 시라카미 후부키, 이쪽은 오오카미 미오야.",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "옆에 두 사람은 우리를 도와준 즈이카쿠와 카와카제야. 전부 레지스탕스의 새로운 얼굴이지!",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리?!",
 			dir = 1,
+			actorName = "퓨리?!",
 			say = "어서와~ 또 강해졌네. 저쪽은……",
 			typewriter = {
 				speed = 0.05,
@@ -163,14 +163,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "퓨리파이어가 기억을 잃었다고?!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -213,8 +213,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리?!",
 			dir = 1,
+			actorName = "퓨리?!",
 			say = "그리고 마츠리와 아쿠아를 구한 뒤, 이 기지로 온 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "잠시만! 이렇게 귀여운 퓨리가 그런 일을 했을리 없어. 분명 다른 누군가가 한 일일거야!",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리?!",
 			dir = 1,
+			actorName = "퓨리?!",
 			say = "저기, 내가 너희에게 정말 그런 짓을 했어? 만약 그렇다면… 나가서 테스트 몬스터랑 붙어봐도 되는데!",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "잘 됐다. 방금 카와카제 때문에 정말 놀랐는데… 그렇다면 모두가 함께 싸우는 동료인 거지?",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리?!",
 			dir = 1,
+			actorName = "퓨리?!",
 			say = "쳇… 알겠어! 슬슬 익숙해지고 있으니 너희가 깜짝 놀랄만한 장비를 만들어 주겠다고!",
 			typewriter = {
 				speed = 0.05,
@@ -458,8 +458,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "아야메는 귀신의 힘을 가지고 있고 시온은 마법사니까 괜찮을 거야. 소라 선배는… 소라 선배니까 문제 없어! 마츠리의 직감이 그렇게 말하고 있다고!",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "후후후, 레지스탕스의 군용 물자 모으기는 내가 제일 잘 하지. 아쿠아님에게 맡겨달라고~",
 			typewriter = {
 				speed = 0.05,
@@ -550,8 +550,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "재블린, 분명히 좋은 아내가 될거야. 저런 여자친구가 있으면 좋겠다……",
 			typewriter = {
 				speed = 0.05,

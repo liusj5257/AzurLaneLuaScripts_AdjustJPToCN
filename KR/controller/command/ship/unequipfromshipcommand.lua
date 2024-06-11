@@ -1,6 +1,6 @@
 slot0 = class("UnequipFromShipCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.pos
 	slot5 = slot2.callback
@@ -39,8 +39,8 @@ function slot0.execute(slot0, slot1)
 	slot11 = pg.ConnectionMgr.GetInstance()
 
 	slot11:Send(12006, {
-		equip_id = 0,
 		type = 0,
+		equip_id = 0,
 		ship_id = slot3,
 		pos = slot4
 	}, 12007, function (slot0)

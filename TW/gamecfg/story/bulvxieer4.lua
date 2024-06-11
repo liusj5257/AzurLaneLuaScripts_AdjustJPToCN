@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"元氣甜心的愛意攻勢\n\n<size=45>四　比港區更遠的地方</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-2",
 			bgName = "bg_story_task_2",
 			say = "又是一日的指揮室中——",
-			bgm = "story-richang-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "雖然是工作日，雖然是工作時間，但……",
 			typewriter = {
@@ -55,14 +55,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯……下班後跟指揮官去哪裡約會好呢？",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗯……下班後跟指揮官去哪裡約會好呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,9 +319,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
 			optionFlag = 4,
+			bgName = "bg_story_task_2",
 			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "……不得不說，在約會這一方面，布呂歇爾實在有著令人驚嘆的熱情。",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "當然，也同時能感受到從她身上傳遞過來的強烈愛。",
 			typewriter = {
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "不知不覺間，也許……我也多少被她影響了。",
 			typewriter = {
@@ -447,8 +447,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "去港區的滑雪場嗎？",
 			typewriter = {
@@ -457,14 +457,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不不不~去更遠的地方！",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不不不~去更遠的地方！",
 			painting = {
 				alpha = 0.3,
 				time = 1

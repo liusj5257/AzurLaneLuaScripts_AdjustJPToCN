@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_50 = {}
 slot1 = slot0.word_template_50
 
-function temp()
+temp = function()
 	uv0["常"] = {
 		["万"] = {
 			["全"] = {
@@ -28,7 +28,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["魏"] = {
 		["凤"] = {
 			["和"] = {
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["梁"] = {
 		["光"] = {
 			["烈"] = {
@@ -62,7 +62,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["莫"] = {
 		["言"] = {
 			this = true

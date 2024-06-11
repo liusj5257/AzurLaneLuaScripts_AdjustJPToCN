@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT7",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT7",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10300010,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "battle-uta",
 			dir = 1,
 			say = "루루티에~! 구하러 왔어~!",
+			bgm = "battle-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "우리가 할 말.",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "그건 저희가 할 말입니다. 루루티에씨에게 무슨 일이라도 생긴다면, 저희는 주인님께 어떻게 용서를 구해야 할지 모르겠기 때문입니다.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "그건 저희가 할 말입니다. 루루티에씨에게 무슨 일이라도 생긴다면, 저희는 주인님께 어떻게 용서를 구해야 할지 모르겠기 때문입니다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -90,8 +90,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "후미뤼르님, 우루루님, 사라나님……감사합니다. 심려를 끼쳐버렸네요.",
 			typewriter = {
 				speed = 0.05,

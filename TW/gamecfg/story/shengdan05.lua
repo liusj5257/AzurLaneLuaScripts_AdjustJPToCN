@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN05",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN05",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "港區•白鷹生活區",
 			typewriter = {
 				speed = 0.05,
@@ -108,14 +108,14 @@ return {
 			}
 		},
 		{
-			actor = 101070,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101070,
+			nameColor = "#a9f548",
 			say = "哇！是企業！？嚇得我冰棒都要掉了……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,14 +174,14 @@ return {
 			}
 		},
 		{
-			actor = 101080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101080,
+			nameColor = "#a9f548",
 			say = "企、企業？！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -240,14 +240,14 @@ return {
 			}
 		},
 		{
-			actor = 101060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 101060,
+			nameColor = "#a9f548",
 			say = "是企、——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -336,14 +336,14 @@ return {
 			}
 		},
 		{
-			actor = 101240,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 101240,
+			nameColor = "#a9f548",
 			say = "！——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,14 +402,14 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "姐、姐姐…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -532,14 +532,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#a9f548",
 			say = "嘿嘿，這張照片就叫《馴鹿之主》吧，雖然沒駕著馴鹿來，但也是聖誕老人呢~",
 			flashout = {
-				black = false,
 				dur = 0.35,
+				black = false,
 				alpha = {
 					0,
 					1

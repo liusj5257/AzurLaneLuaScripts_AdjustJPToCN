@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 100
+					number = 100,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 100
+					number = 100,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 200
+					number = 200,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 200
+					number = 200,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 300
+					number = 300,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 300
+					number = 300,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 400
+					number = 400,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 400
+					number = 400,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 600
+					number = 600,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 600
+					number = 600,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 700
+					number = 700,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 700
+					number = 700,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 800
+					number = 800,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 800
+					number = 800,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 900
+					number = 900,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 900
+					number = 900,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1000
+					number = 1000,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -253,15 +253,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1000
+					number = 1000,
+					attr = "attackRating"
 				}
 			}
 		}
 	},
-	time = 5,
 	name = "属性变更",
 	init_effect = "jinengchufablue",
+	time = 5,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -283,8 +283,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 100
+				number = 100,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -294,8 +294,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 100
+				number = 100,
+				attr = "attackRating"
 			}
 		}
 	}

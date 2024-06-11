@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Moments with the Young Miss\n\n<size=45>3 Curiosity and Cake</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "―Chaser’s first day with another camp.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "―Chaser’s first day with another camp.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "This is the Vichiya dormitory! Let’s hurry inside.",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "Chaser quietly pushed the door open and went through.",
@@ -83,15 +83,15 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "Oh~ The interior design is really quite different from the Royal Navy’s...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "The Curious Chaser pointed to every little thing in the room.",
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "Oh? That’s an unfamiliar face... and the Commander with her?",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "...Oh, you’re the girl they sent from the Royal Navy. I am Dunkerque. Would you tell me your name?",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "Yes. You’ll be watching our exercises and sitting in on classes.",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "And... I’ve prepared a special cake for you as a welcoming gift. You can look forward to that. Hehe~",
 			typewriter = {
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "A cake! Marvelous! I’ve brought some delicious teas myself, I do hope you’ll let me serve you.",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Dunkerque walked toward the back with an air of mild exhaustion, Chaser following naturally behind her.",
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "I felt like we were meant to wait at the entrance, but seeing them grow farther and farther from me, I was left with no choice but to follow as well.",
@@ -289,14 +289,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 206050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Now then, you seem rather tired.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "Hm. You and the Commander followed me... I forgot to ask you to wait by the door.",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "Something the matter? The Commander and I aren’t troubling you, are we...?",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "No. I worked very late last night, but if I could just take a short rest with some sweets...",
 			typewriter = {
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "I’ve just the thing!",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Chaser then leaned in and whispered directly to my ear.",
@@ -464,8 +464,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "(...I’d thought the Vichiya a dreadfully dedicated folk, and yet, here we are!)",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Chaser chuckled and spun around cheerfully to look Dunkerque in the eye.",
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Chaser had proven her curiosity a valuable asset when it comes to plunging into unfamiliar situations.",
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

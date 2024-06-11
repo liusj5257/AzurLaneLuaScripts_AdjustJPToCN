@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 15400,
 	picture = "0",
 	desc = "",
+	painting = 0,
+	id = 15400,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,9 +16,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},
@@ -27,10 +27,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetFleetIndex",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetFleetIndex",
 			arg_list = {
 				fleetPos = "Leader",
 				buff_id = 15403

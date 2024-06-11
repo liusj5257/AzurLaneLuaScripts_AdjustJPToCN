@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANSAICHE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANSAICHE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"レーシング・ステージ！\n\n<size=45>ファイナル・ラップ</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			hidePaintObj = true,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
 			withoutActorName = true,
 			bgm = "story-richang-6",
 			actor = 403034,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "白熱した会場の片隅で、ふと悠々と楽しんでいる彼女の姿を見かけた。",
 			typewriter = {
 				speed = 0.05,
@@ -32,11 +32,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――開け掛けたシャンパンを背に置いている。",
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "ふふふ、バレちゃった？",
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どうやら、鉄血の勝利を祝う「予習」をしようとしたらしい。",
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "だって、機械（マシン）を御するのは鉄血の十八番よ",
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それぐらいの自信、持ってて当然でしょう？♪",
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "ちょうどよかったわ。指揮官も一緒に一杯どう？",
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "応えたい気持ちは山々だが、オイゲンの酒癖を考えたら、今飲ませるわけには…",
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "あら、何をためらっているのかしら？",
@@ -164,11 +164,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "心配せずとも、応援の仕事は全て済ませているわ",
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "なんなら指揮官と、朝まで飲み明かしてもいいわよ？ふふ♪",
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "あら、もちろん指揮官に寮まで送ってもらうわよ",
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "か弱い私がここで一晩酔いつぶれたまま放っておくつもりじゃないでしょ？",
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "なんて、冗談よ。うふふ♪",
@@ -290,14 +290,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			llive2d = "main2",
 			side = 2,
 			bgName = "star_level_bg_132",
+			hidePaintObj = true,
 			dir = 1,
 			actor = 403034,
 			nameColor = "#A9F548FF",
-			llive2d = "main2",
-			hidePaintObj = true,
+			live2d = true,
 			say = "それはそうだけど、勝者はもうほぼ決まっていると思わない？",
 			painting = {
 				alpha = 0.3,
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それとも、指揮官は鉄血ではなく、ほかのチームを応援したいの……？",
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "だったら…イケないわね",
@@ -345,11 +345,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官に自分が間違っていたって認識させないと",
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "いたずらっぽく目を輝かせ、オイゲンは不敵に笑い、こっちの服を引っ張って体を密着させてきた。",
@@ -377,11 +377,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "そういえば、まだ指揮官からこの衣装の感想をもらってないわ",
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "うふふ、目を逸らしたってダーメ",
@@ -413,11 +413,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "正直に言ってみて？",
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "ふふふ。よろしい♪今日はこの格好で鉄血の子たちを応援しているわ",
@@ -463,11 +463,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "そして、祝勝パーティーにもこの格好のまま参加するから――",
@@ -481,11 +481,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もちろん指揮官は鉄血を応援してくれるわよね？",
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "オイゲンは体をゆっくり密着させながら、さらにこう続けた――",
@@ -513,11 +513,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "パーティーで私が酔ったりしたら、面倒を見てもらうわ",
@@ -531,11 +531,11 @@ return {
 			}
 		},
 		{
-			actor = 403034,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403034,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ね？指揮官――",

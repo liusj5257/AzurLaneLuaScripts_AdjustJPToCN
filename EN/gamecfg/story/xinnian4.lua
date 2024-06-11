@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -217,8 +217,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "Ayanami is here, yes...",
 			typewriter = {
 				speed = 0.05,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "Woooahhh! Ayayanami?",
+			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -249,9 +249,9 @@ return {
 			},
 			shake = {
 				speed = 10,
-				number = 2,
+				y = 10,
 				x = 0,
-				y = 10
+				number = 2
 			}
 		},
 		{
@@ -288,8 +288,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "I went to Houshou's place... to pick up something I had asked for...",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "I asked Houshou to make a set for everyone... but there wasn't enough time this year... so there's just one...",
 			typewriter = {
 				speed = 0.05,
@@ -392,10 +392,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorShadow = true,
-			actorName = "{namecode:6} & Z23",
 			side = 0,
+			actorName = "{namecode:6} & Z23",
+			hideOther = true,
 			dir = 1,
 			actor = 301050,
 			nameColor = "#a9f548",
@@ -433,16 +433,16 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			withoutPainting = true,
 			side = 0,
-			nameColor = "#a9f548",
-			say = "Ehehehe~ Just relax, it'll be fine~",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "Ehehehe~ Just relax, it'll be fine~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -467,14 +467,14 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			withoutPainting = true,
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:6}",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			actorName = "{namecode:6}",
 			say = "Laffey's skin... so smooth...",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,13 +485,13 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			withoutPainting = true,
 			side = 0,
+			dir = 1,
+			blackBg = true,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "Cold... Itchy...",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,13 +502,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			withoutPainting = true,
 			side = 0,
+			dir = 1,
+			blackBg = true,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "Keep it PG-13, you two... Well, whatever...",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,14 +519,14 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Transformation complete~! Laffey, what do you think?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -566,12 +566,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "But, it's cute...",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:6}",
 			dir = 1,
-			say = "But, it's cute...",
+			actor = 301050,
+			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -619,8 +619,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "Next time... I will have outfits for everyone...",
 			typewriter = {
 				speed = 0.05,
@@ -680,8 +680,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "Yes... but first, it's time to appreciate some good anime...",
 			typewriter = {
 				speed = 0.05,
@@ -693,10 +693,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorShadow = true,
-			actorName = "Everyone",
 			side = 0,
+			actorName = "Everyone",
+			hideOther = true,
 			actor = 401230,
 			nameColor = "#a9f548",
 			say = "……",

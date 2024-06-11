@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Whydah, and something about a collection room?",
+			side = 2,
 			bgm = "qe-ova-15",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Whydah, and something about a collection room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -75,9 +75,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You ready your firearm... but then you think about it. You don't want to take them out, you just want to sneak past without being seen.",
 			typewriter = {
@@ -90,9 +90,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So never mind the gun – what you need is a distraction.",
 			typewriter = {
@@ -192,10 +192,10 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's just say it was a sweet pirate who loves pacts.",
 			typewriter = {
 				speed = 0.05,
@@ -342,28 +342,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sometime later...",
-			bgm = "theme-highseasfleet-reborn",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -683,9 +683,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			soundeffect = "event:/battle/boom2",
 			actorName = "Hai Tien",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It detonates with a massive \"KABOOM!\" and all but cracks the land beneath your feet, making the tiny little castle tremble in fear.",
 			typewriter = {
@@ -777,11 +777,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
-			nameColor = "#FF9B93",
-			factiontag = "Bookworm GM",
-			blackBg = true,
-			bgm = "story-oldcastle-carnival",
 			actorName = "Hai Tien",
+			blackBg = true,
+			factiontag = "Bookworm GM",
+			bgm = "story-oldcastle-carnival",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "This is your morning news.",
 			typewriter = {
@@ -789,17 +789,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -811,8 +811,8 @@ return {
 			side = 2,
 			actorName = "Hai Tien",
 			factiontag = "Bookworm GM",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "At 1 AM yesterday, there was an explosion at the old castle on the outskirts of Arkham.",
 			typewriter = {
@@ -825,8 +825,8 @@ return {
 			side = 2,
 			actorName = "Hai Tien",
 			factiontag = "Bookworm GM",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "Police and ambulances rushed to the scene, where they found the bodies of several victims.",
 			typewriter = {
@@ -839,8 +839,8 @@ return {
 			side = 2,
 			actorName = "Hai Tien",
 			factiontag = "Bookworm GM",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "Among them were Lord Manjuu's two daughters, the castle's three servants, and one unidentified person.",
 			typewriter = {
@@ -853,8 +853,8 @@ return {
 			side = 2,
 			actorName = "Hai Tien",
 			factiontag = "Bookworm GM",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "The police have found traces of a homemade bomb where the building suffered a structural collapse, and speculate that it was the cause of the explosion.",
 			typewriter = {
@@ -867,8 +867,8 @@ return {
 			side = 2,
 			actorName = "Hai Tien",
 			factiontag = "Bookworm GM",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "They believe it's likely that this was a crime perpetrated by the unidentified person. The on-scene investigation is ongoing.",
 			typewriter = {
@@ -877,8 +877,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -893,8 +893,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Are you serious? That was the setup for a bad ending?",
 			bgm = "theme-ijndailymeeting",
+			say = "Are you serious? That was the setup for a bad ending?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

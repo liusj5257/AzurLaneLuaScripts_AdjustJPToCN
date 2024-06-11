@@ -5,7 +5,7 @@ slot0.STATE_AUTO_BATTLE = 3
 slot0.STATE_FINSH_BATTLE = 4
 slot0.STATE_GET_AWARDS = 5
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.event = slot2
@@ -18,10 +18,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0:RemoveTimer()
 
 	slot0.text.text = ""
@@ -41,7 +41,7 @@ function slot0.Flush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetLeftTime(slot0)
+slot0.SetLeftTime = function(slot0)
 	slot0:RemoveTimer()
 
 	slot0.timer = Timer.New(function ()
@@ -56,7 +56,7 @@ function slot0.SetLeftTime(slot0)
 	slot0.timer.func()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -64,11 +64,11 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.GetBossState(slot0)
+slot0.GetBossState = function(slot0)
 	return WorldBossConst.GetCommissionSceneMetaBossBtnState()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:RemoveTimer()
 end

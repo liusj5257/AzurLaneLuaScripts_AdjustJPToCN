@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"벚꽃이 흩날리던 그날 이후\n\n<size=45>7. 소소한 행복</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_twilight",
-			say = "며칠 후, 폭풍우가 지나갔다——",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "며칠 후, 폭풍우가 지나갔다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "예상대로 벚꽃은 모두 떨어졌고, 군데군데 얼룩진 벚꽃이 어지럽게 널려 있었다.",
@@ -69,8 +69,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "지휘관님, 오늘도 오셨군요.",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "류호에게 나중에 오겠다고 한 후에, 원래 후소와 거닐기로 했던 길을 향해 걸었다.",
@@ -114,14 +114,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "벚나무에 가까워지면서 이곳의 상황이 전에 봤던 것보다 더 심각하다는 걸 발견했다——길에는 부러진 나뭇가지가 난잡하게 널려 있었다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "이 벚나무가지라면, 어쩌면……",
@@ -209,14 +209,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "며칠 후——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "후소는 노크하고 가볍게 지휘실로 들어왔다.",
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "후소는 놀란듯이 꽃병에 꽂혀있는 벚나무가지를 쳐다봤다.",
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "사실 그날 요이즈키가 정리한 나뭇가지들 중에 아직 피지 않은 꽃봉오리가 자라고 있는 나뭇가지가 있었다.",
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "그 당시, 조금만 더 키우면 꽃이 필지도 모른다는 생각이 들었다——결국 바라던 대로 지휘실에 벚꽃이 활짝 피었다.",
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "아름다운 벚꽃 가지를 응시하며 가슴 앞에 두 손을 꼭 모았다.",
@@ -492,8 +492,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "이쪽을 바라보는 그녀의 촉촉한 눈동자를 보며 나는 아무 생각 없이 그녀의 손을 잡았다.",
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "앞으로도 여러 가지 행복과 불행이 있겠지만, 그때마다 후소가 마음에서 우러나오는 미소를 지을 수 있길 바란다.",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

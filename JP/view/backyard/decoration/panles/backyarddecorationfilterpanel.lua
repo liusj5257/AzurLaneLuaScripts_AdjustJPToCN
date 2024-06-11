@@ -1,8 +1,8 @@
 slot0 = class("BackYardDecorationFilterPanel", import("....base.BaseSubView"))
 slot0.SORT_MODE = {
-	BY_DEFAULT = 1,
+	BY_FUNC = 2,
 	BY_CONFIG = 3,
-	BY_FUNC = 2
+	BY_DEFAULT = 1
 }
 slot0.SORT_TAG = {
 	{
@@ -37,11 +37,11 @@ slot0.SORT_TAG = {
 slot0.ORDER_MODE_ASC = 1
 slot0.ORDER_MODE_DASC = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardIndexUI"
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.filterConfig = pg.backyard_theme_template
@@ -54,7 +54,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.themes = pg.furniture_data_template.get_id_list_by_themeId
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.sortTpl = slot0:findTF("bg/sort_tpl")
 	slot0.filterTpl = slot0:findTF("bg/filter_tpl")
 	slot0.sortContainer = slot0:findTF("bg/frame/sorts/sort_container")
@@ -69,23 +69,23 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("bg/title"), i18n("courtyard_label_filter"))
 end
 
-function slot0.setFilterData(slot0, slot1)
+slot0.setFilterData = function(slot0, slot1)
 	slot0.furnitures = slot1 or {}
 end
 
-function slot0.GetFilterData(slot0)
+slot0.GetFilterData = function(slot0)
 	return slot0.furnitures
 end
 
-function slot0.SetDorm(slot0, slot1)
+slot0.SetDorm = function(slot0, slot1)
 	slot0.dorm = slot1
 end
 
-function slot0.updateOrderMode(slot0, slot1)
+slot0.updateOrderMode = function(slot0, slot1)
 	slot0.orderMode = slot1 or uv0.ORDER_MODE_ASC
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0:findTF("bg/frame/confirm_btn"), function ()
 		uv0:filter()
 		uv0:Hide()
@@ -106,7 +106,7 @@ function slot0.OnInit(slot0)
 	triggerToggle(slot0.sortBtns[1], true)
 end
 
-function slot0.initSortPanel(slot0)
+slot0.initSortPanel = function(slot0)
 	slot0.sortBtns = {}
 
 	for slot4, slot5 in pairs(uv0.SORT_TAG) do
@@ -125,7 +125,7 @@ function slot0.initSortPanel(slot0)
 	end
 end
 
-function slot0.onSwitch(slot0, slot1, slot2)
+slot0.onSwitch = function(slot0, slot1, slot2)
 	onToggle(slot0, slot1, function (slot0)
 		uv0:Find("Text"):GetComponent(typeof(Text)).color = slot0 and Color.New(1, 1, 1, 1) or Color.New(0.2235294, 0.227451, 0.2352941, 1)
 
@@ -133,7 +133,7 @@ function slot0.onSwitch(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.initFilterPanel(slot0)
+slot0.initFilterPanel = function(slot0)
 	slot0.filterBtns = {}
 	slot1 = Clone(slot0.filterConfig.all)
 
@@ -212,7 +212,7 @@ function slot0.initFilterPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.isSelectedAll(slot0)
+slot0.isSelectedAll = function(slot0)
 	return _.all(_.select(slot0.filterConfig.all, function (slot0)
 		return uv0.filterConfig[slot0].is_view == 1
 	end), function (slot0)
@@ -220,11 +220,11 @@ function slot0.isSelectedAll(slot0)
 	end) and slot0.otherTFToggle.isOn == true or slot0:isSelectedNone()
 end
 
-function slot0.isSelectedNone(slot0)
+slot0.isSelectedNone = function(slot0)
 	return #slot0.filterData == 0 and slot0.otherTFToggle.isOn == false
 end
 
-function slot0.filter(slot0)
+slot0.filter = function(slot0)
 	if table.getCount(slot0.furnitures) == 0 then
 		return
 	end
@@ -239,7 +239,7 @@ function slot0.filter(slot0)
 		end
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		slot1 = slot0.id
 		slot3 = uv0.selectedOther and slot0:getConfig("themeId") == 0
 
@@ -267,7 +267,7 @@ function slot0.filter(slot0)
 	slot0:sort(slot0.furnitures)
 end
 
-function slot0.SORT_BY_FUNC(slot0, slot1, slot2, slot3, slot4)
+slot0.SORT_BY_FUNC = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0:__slot2_None__() == slot1:__slot2_None__() then
 		return slot4()
 	elseif slot3 == uv0.ORDER_MODE_ASC then
@@ -277,7 +277,7 @@ function slot0.SORT_BY_FUNC(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.SORT_BY_CONFIG(slot0, slot1, slot2, slot3, slot4)
+slot0.SORT_BY_CONFIG = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0:getConfig(slot2) == slot1:getConfig(slot2) then
 		return slot4()
 	elseif slot3 == uv0.ORDER_MODE_ASC then
@@ -287,18 +287,18 @@ function slot0.SORT_BY_CONFIG(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.SortForDecorate(slot0, slot1, slot2)
+slot0.SortForDecorate = function(slot0, slot1, slot2)
 	slot3 = slot2[1]
 	slot4 = slot2[2]
 	slot5 = slot2[3]
 	slot6 = slot2[4]
 	slot7 = slot2[5]
 
-	function uv0.SortByDefault1(slot0, slot1)
+	uv0.SortByDefault1 = function(slot0, slot1)
 		return slot0.id < slot1.id
 	end
 
-	function uv0.SortByDefault2(slot0, slot1)
+	uv0.SortByDefault2 = function(slot0, slot1)
 		return slot1.id < slot0.id
 	end
 
@@ -319,7 +319,7 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 	end
 end
 
-function slot0.sort(slot0, slot1)
+slot0.sort = function(slot0, slot1)
 	slot2 = slot0:GetConfigIdAndCntMapInAllFloor(slot0.dorm)
 
 	table.sort(slot1, function (slot0, slot1)
@@ -336,7 +336,7 @@ function slot0.sort(slot0, slot1)
 	slot0.furnitures = slot1
 end
 
-function slot0.GetConfigIdAndCntMapInAllFloor(slot0, slot1)
+slot0.GetConfigIdAndCntMapInAllFloor = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot1:GetThemeList()) do
@@ -358,15 +358,15 @@ function slot0.GetConfigIdAndCntMapInAllFloor(slot0, slot1)
 	return slot3
 end
 
-function slot0.Sort(slot0)
+slot0.Sort = function(slot0)
 	slot0:sort(slot0.furnitures)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0._go, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0._go, false)
 
 	if slot0.onHideFunc then
@@ -374,7 +374,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

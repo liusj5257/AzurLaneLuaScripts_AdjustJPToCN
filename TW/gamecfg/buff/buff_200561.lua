@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "克莱蒙梭活动剧情战 海洛特芬 前排大伤害+锁血",
 	time = 1,
+	name = "克莱蒙梭活动剧情战 海洛特芬 前排大伤害+锁血",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

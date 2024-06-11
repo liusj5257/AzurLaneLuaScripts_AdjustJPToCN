@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE35",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE35",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900230,
 			stopbgm = true,
-			actorName = "Compiler",
 			side = 2,
+			actorName = "Compiler",
 			dir = 1,
 			blackBg = true,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "Even after the mist was superimposed upon the Mirror Sea, it collapsed after only one second.",
 			flashin = {
@@ -37,9 +37,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900230,
 			dir = 1,
 			blackBg = true,
+			actor = 900230,
 			actorName = "Compiler",
 			say = "Observer, the experiment has failed.",
 			typewriter = {
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "Is it impossible to prevent \"Code G\" from coming to pass...?",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "Well done, young program.",
 			typewriter = {
 				speed = 0.05,
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 900230,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Compiler",
 			dir = 1,
 			blackBg = true,
+			actor = 900230,
+			actorName = "Compiler",
 			say = "The Arctic iceberg fortress is also under attack.",
 			typewriter = {
 				speed = 0.05,
@@ -103,14 +103,14 @@ return {
 			}
 		},
 		{
-			bgmDelay = 1,
-			side = 2,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			actorName = "Observer",
+			dir = 1,
+			bgmDelay = 1,
 			bgm = "bsm-2",
 			actor = 900232,
-			actorName = "Observer",
+			nameColor = "#ff5c5c",
 			say = "...No, the plan was a success. Hehehe...",
 			flashin = {
 				delay = 1,
@@ -131,12 +131,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "The power of \"Code G\" comes from its ability to reject all foreign interference.",
 			typewriter = {
 				speed = 0.05,
@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "However, the connection has now opened. To \"Enterprise.\"",
 			typewriter = {
 				speed = 0.05,
@@ -165,12 +165,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "...No, not good enough. Whatever I can come up with now has surely been tried in a parallel timeline.",
 			typewriter = {
 				speed = 0.05,
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "Why have all the experiments that we can access through the logs ended in failure so far...?",
 			typewriter = {
 				speed = 0.05,
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "I see... it's because of the presence of the \"Commander\" in this timeline.",
 			typewriter = {
 				speed = 0.05,
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "Zero, just how many secrets are you keeping from us...",
 			typewriter = {
 				speed = 0.05,
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Observer",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "Observer",
 			say = "I'm just dying to find out. Ahahaha...",
 			typewriter = {
 				speed = 0.05,

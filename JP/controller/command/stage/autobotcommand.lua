@@ -1,6 +1,6 @@
 slot0 = class("AutoBotCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.isActiveBot
 	slot4 = slot2.toggle
@@ -29,11 +29,11 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.autoBotSatisfied()
+slot0.autoBotSatisfied = function()
 	return getProxy(ChapterProxy) and slot0:getChapterById(AUTO_ENABLE_CHAPTER):isClear()
 end
 
-function slot0.activeBotHelp(slot0)
+slot0.activeBotHelp = function(slot0)
 	slot1 = getProxy(PlayerProxy)
 
 	if not slot0 then
@@ -52,8 +52,8 @@ function slot0.activeBotHelp(slot0)
 
 	if getProxy(SettingsProxy):isTipAutoBattle() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			showStopRemind = true,
 			toggleStatus = true,
+			showStopRemind = true,
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n("help_battle_auto"),
 			custom = {
@@ -81,7 +81,7 @@ function slot0.activeBotHelp(slot0)
 	slot1.botHelp = true
 end
 
-function slot0.GetAutoBotMark(slot0)
+slot0.GetAutoBotMark = function(slot0)
 	if slot0 == SYSTEM_WORLD or slot0 == SYSTEM_WORLD_BOSS then
 		return "_" .. SYSTEM_WORLD
 	elseif slot0 == SYSTEM_GUILD then

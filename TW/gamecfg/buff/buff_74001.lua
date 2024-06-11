@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "治疗偷窃",
 	init_effect = "",
-	color = "red",
+	id = 74001,
+	time = 0,
 	picture = "",
 	desc = "战斗对象在场时，当我方舰队受到治疗时，偷窃治疗恢复自己的X%生命",
 	stack = 1,
-	id = 74001,
+	color = "red",
 	icon = 74000,
 	last_effect = "",
 	blink = {

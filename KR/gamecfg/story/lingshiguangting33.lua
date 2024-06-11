@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGSHIGUANGTING33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINGSHIGUANGTING33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "수많은 적이 사방에서 카멜롯의 정원으로 몰려들었다.",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-camelot",
+			say = "수많은 적이 사방에서 카멜롯의 정원으로 몰려들었다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "하지만… 그들은 모두 성벽 앞을 지키고 있는 화력에 의해 저지되고 적군은 단 한 명도 성공적으로 외부 고리로 들어오지 못했다.",
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "훈련장에서 늠름한 모습은 여러 번 봤지만 이렇게 화력 넘치는 대단한 모습의 당신은 오늘이 처음이군요.",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "매우 강합니다. 메탈 블러드의 계획함보다 더 강할지도 모르겠어요. 당신과 함께 싸울 수 있어서 영광입니다.",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "…사실 전 그날 이후로 줄곧 이 생각을 하고 있었습니다. 저희가 무사히 돌아간 후에 바로 날을 잡도록 하죠!",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "역시 들켰군요… 정말 죄송합니다. 이번엔 정말입니다!",
 			typewriter = {
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			say = "쾅——————————!",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "쾅——————————!",
 			flashN = {
 				color = {
 					1,
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			say = "쾅——————————!",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "쾅——————————!",
 			flashN = {
 				color = {
 					1,
@@ -417,8 +417,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "날, 날 무시하지 마——————！",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -444,8 +444,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "우리 아직 볼일이 남아있지 않아?",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "함대 수로 날 제압하려는 건 너무 순진한 생각 아니야?!",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "정말 열받네… 실험장을 파괴하고 이런 대혼란까지 빚다니. 제대로 혼내주겠다!",
 			typewriter = {
@@ -495,8 +495,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "폐하, 퓨리파이어가 다시 함대를 이끌고 나타나 뒤에서 미지의 적을 향해 맹공을 퍼붓고 있습니다.",
 			typewriter = {
@@ -512,8 +512,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "퓨리파이어는 정말 끝까지 책임을 다하는군….",
 			typewriter = {
@@ -545,8 +545,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "안돼. 모험을 하고 싶진 않아.",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "지금은 퓨리파이어가 우리 대신 열심히 싸우고 있으니. 우린~ 철수하자!",
 			typewriter = {
@@ -576,9 +576,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "엘리자베스가 시동 버튼을 누르자 카멜롯의 정원은 다시 금색 빛으로 뒤덮였다.",
 			typewriter = {
 				speed = 0.05,
@@ -590,9 +590,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
+			dir = 1,
 			say = "눈 깜짝할 사이에 거대한 도시는 수면 위에서 완전히 사라졌다.",
 			flashin = {
 				delay = 1,
@@ -619,9 +619,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
+			dir = 1,
 			say = "검은 폭풍은 바다 위를 한참 배회하다가, 수많은 세이렌 잔해를 남기곤 사라졌다.",
 			effects = {
 				{

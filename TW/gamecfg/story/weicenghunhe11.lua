@@ -1,21 +1,21 @@
 return {
-	id = "WEICENGHUNHE11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "hunhe-battle",
+			side = 2,
 			dir = 1,
 			say = "巴拿馬要塞東側？ ·迷霧中",
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "到處都被濃霧覆蓋著，連海水和陸地的區別都分不出來。",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "就算在鏡面海域裡也沒遇到過這麼離譜的事啊。",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "不會吧，難道說我們居然在要塞附近迷航了嗎……",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "從現在的情況來看，基本可以確定這片濃霧和塞壬脫不開干係了。",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "嘿嘿，感覺是我大顯身手的時候到了！偵察機沒辦法在濃霧中偵查，海面的巡查就交給我吧~",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -225,9 +225,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哎？ ！直接把探照燈打開，小心被當成靶子啊！",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -252,8 +252,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "如果對方主動暴露火力，不就正好節約了偵查時間嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "（…該說她是樂觀呢，還是莽撞呢！）",
 			typewriter = {
 				speed = 0.05,
@@ -283,11 +283,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "帶上我的戰鬥機中隊，如果有任何發現派它們回來聯絡就好。濃霧之中隱藏了很多敵人，注意安全。",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "了解~放心放心，論驅逐艦的性能，我可是很有自信的哦~",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2500

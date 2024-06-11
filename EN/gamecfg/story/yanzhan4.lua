@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANZHAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Royal Knight\n\n<size=45>Chapter 4: After the Exercise...</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Several Days Later - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "Several Days Later - Exercise Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,10 +94,10 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			actor = 203030,
 			dir = 1,
 			hideOther = true,
 			actorName = "The Crowd",
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -136,15 +136,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "(I'll step out for some fresh air.)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,12 +201,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "Warspite? Congratulations. You won the exercise.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Warspite? Congratulations. You won the exercise.",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "(She kept me busy dodging bombs and firing ack-acks the whole time... I must've put on quite a show for the Commander...)",
 			typewriter = {
 				speed = 0.05,
@@ -285,16 +285,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1.2,
 					dur = 0.15,
 					x = 0,
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "That feeling is certainly mutual.",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,

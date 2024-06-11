@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-32-11",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg20",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-10",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-32-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뜨거워요……",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			say = "그렇게 말하며 TB는 가슴팍의 수건을 살짝 잡아당기며 열을 쫓으려 의미없는 노력을 기울였다.",
@@ -75,14 +75,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……온천을 좋아하시는군요.",
 			voice = "event:/educate/tb/educate-tb-story-32-12",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……온천을 좋아하시는군요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,14 +105,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……그럼 조금만 더 참을게요.",
 			voice = "event:/educate/tb/educate-tb-story-32-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……그럼 조금만 더 참을게요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,14 +159,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……네.",
 			voice = "event:/educate/tb/educate-tb-story-32-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……네.",
 			painting = {
 				alpha = 0.3,
 				time = 1

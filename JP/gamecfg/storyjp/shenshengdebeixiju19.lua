@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU19",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「墜落か、上昇か」</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「あなたにエンピリオの永遠の栄光あり」</size>",
@@ -61,16 +61,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_italy_cg6",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_italy_cg6",
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ff5c5c",
 			say = "確かに、来ていませんよね？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,8 +98,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "ああ、ロイヤルネイビーと接触したときから鉄血には支援を要請したが、一向に現れなかった",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 900198,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
 			say = "レッドアクシズに誘われたときにはあんなに希望を持てたというのに…",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "そろそろ終幕の時間ね。ヴェネト",
 			typewriter = {

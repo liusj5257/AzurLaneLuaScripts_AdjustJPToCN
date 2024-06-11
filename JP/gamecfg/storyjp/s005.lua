@@ -3,11 +3,11 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			actor = 900011,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "…人類って面白い。力のカケラを授けただけで、またあの歴史を繰り返すとは。",
 			shake = {
 				speed = 1,

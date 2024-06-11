@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU32",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I need to head back to the Royal Isles! This meeting is adjourned!",
 			bgm = "bsm-7",
+			nameColor = "#a9f548",
+			say = "I need to head back to the Royal Isles! This meeting is adjourned!",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -42,10 +42,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900198,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "*yawn*... I was going to fall asleep if the meeting continued much longer... Anyway, I'll be heading back to Sardegna to make some more preparations.",
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Bismarck, I'd like you to confirm the terms of the technology licensing agreement.",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Very well. It's understandable that you would have some reservations, Madame Cardinal.",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "The Siren technology that the Iron Blood is researching... what purpose does that serve?",
 			typewriter = {
@@ -140,17 +140,17 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
-			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Richelieu! Stop spacing out!",
+			bgName = "bg_guild_blue",
 			bgm = "hunhe-story",
+			actor = 205010,
+			nameColor = "#a9f548",
+			say = "Richelieu! Stop spacing out!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "I'm sorry, Your Majesty. I was just reminded of something in the past.",
 			typewriter = {
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "It's about Operation Catapult!",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "I didn't stop Bel or Warspite, and Hood and King George both said that it was the best solution... But really, everyone was...",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -413,8 +413,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "I understand how you feel, Your Majesty.",
 			typewriter = {
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "I'll be counting on you as well!",
 			typewriter = {
 				speed = 0.05,

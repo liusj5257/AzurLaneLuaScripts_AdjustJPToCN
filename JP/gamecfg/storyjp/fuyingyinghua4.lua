@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "nagato-boss",
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "さすがは初代一航戦の先輩方…負けました",
-			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "改めまして、遠路はるばる祭儀の島にお越しいただき、誠にありがとうございます",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "お褒めに預かりありがとうございます。ですが恥ずかしながら、私にはまだまだ勉強することが多く、いきなりそんな大任を任されましても……",
 			typewriter = {
 				speed = 0.05,
@@ -151,9 +151,9 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ははっ。では空母機動部隊の一翼を担う存在になることを目標に努力させていただきます！",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 20,
@@ -178,8 +178,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "ところで、赤城さんは私たち重桜を率いる存在です。こういう演習に顔を出す必要などないと思っていましたが…",
 			typewriter = {
 				speed = 0.05,
@@ -223,9 +223,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "赤城さん……",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,14 +324,14 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "はい！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

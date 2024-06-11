@@ -1,19 +1,19 @@
 return {
-	id = "JICHANG14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG14",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "「μ兵装」実験テスト並びにアイドルステージ大会、引き続き進行中にゃ！",
 			bgm = "azumaster-ins",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "「μ兵装」実験テスト並びにアイドルステージ大会、引き続き進行中にゃ！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "母港・演習海域",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "「アイドルカツドウ」を意識しないほうがいい感じにパフォーマンスできると思うよ",
 			typewriter = {
 				speed = 0.05,
@@ -159,10 +159,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 202280,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "シェフィ、今のはちょっとわかりにくいです…",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "そうすればダンスもボーカルも合わせられるってわけ",
 			typewriter = {
 				speed = 0.05,
@@ -207,10 +207,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "タシュケントは特にそういうところ",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +224,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あっそ。わかったわ",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "（珍しくなにも言われないわね……変な気分だっての）",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "あ、ちなみにル・マランと大鳳たちとも会ったよ？別にあなたたちだけにレクチャーしてるわけじゃないよ",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "中途半端な結果になってしまうのはご主人様的に望ましくないことです",
 			typewriter = {
 				speed = 0.05,
@@ -304,9 +304,9 @@ return {
 		{
 			actor = 103250,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "感謝する。私たちもちょうど今悩んでいたところよ",
 			typewriter = {
 				speed = 0.05,
@@ -320,9 +320,9 @@ return {
 		{
 			actor = 207110,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "「想い」をどうやって歌に乗せるか、確かに難しいですね…",
 			typewriter = {
 				speed = 0.05,
@@ -351,9 +351,9 @@ return {
 		{
 			actor = 202280,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "赤城様？",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			say = "片方は絆を結ぶ相手への感謝、そしてその感情を聖なるものとする高潔さ",
 			typewriter = {
 				speed = 0.05,
@@ -414,8 +414,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "（なんか、赤城が言っているとすごく説得力あるよね…）",
 			typewriter = {
 				speed = 0.05,

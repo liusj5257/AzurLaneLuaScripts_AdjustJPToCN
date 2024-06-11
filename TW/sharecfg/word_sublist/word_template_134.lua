@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_134 = {}
 slot1 = slot0.word_template_134
 
-function temp()
+temp = function()
 	uv0["曲"] = {
 		["线"] = {
 			["消"] = {
@@ -34,7 +34,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蝴"] = {
 		["蝶"] = {
 			["逼"] = {
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["酒"] = {
 		["店"] = {
 			["援"] = {
@@ -60,7 +60,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["动"] = {
 		["漫"] = {
 			["色"] = {

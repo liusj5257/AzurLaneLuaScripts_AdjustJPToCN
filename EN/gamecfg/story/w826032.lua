@@ -1,12 +1,12 @@
 return {
-	id = "W826032",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W826032",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "If we enter a region with corrosion, we’ll lose the Energy Matrix and be forced to retreat to the zone’s entry point. Let’s plan our moves carefully.",
 			typewriter = {
 				speed = 0.05,

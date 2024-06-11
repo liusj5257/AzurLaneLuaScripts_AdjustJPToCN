@@ -1,10 +1,10 @@
 slot0 = class("EquipDestoryConfirmWindow", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "DestoryConfirmWindow"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("window/top/btnBack")
 
 	setActive(slot0:findTF("window/top/bg/infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
@@ -29,7 +29,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("Placeholder", slot0.urInput), i18n("box_ship_del_click"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -47,11 +47,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetCallBack(slot0, slot1)
+slot0.SetCallBack = function(slot0, slot1)
 	slot0.callback = slot1
 end
 
-function slot0.Confirm(slot0)
+slot0.Confirm = function(slot0)
 	if slot0.key then
 		if slot0.key ~= tonumber(getInputText(slot0.urInput)) then
 			pg.TipsMgr:GetInstance():ShowTips(i18n("destory_ship_input_erro"))
@@ -67,7 +67,7 @@ function slot0.Confirm(slot0)
 	end
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
@@ -79,7 +79,7 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0:UpdateEquips()
 end
 
-function slot0.Updatelayout(slot0)
+slot0.Updatelayout = function(slot0)
 	slot1 = {}
 
 	if underscore.any(slot0.equips, function (slot0)
@@ -111,7 +111,7 @@ function slot0.Updatelayout(slot0)
 	setActive(slot0.urInput, slot2)
 end
 
-function slot0.UpdateEquips(slot0)
+slot0.UpdateEquips = function(slot0)
 	mergeSort(slot0.equips, CompareFuncs({
 		function (slot0)
 			return -slot0:getConfig("rarity")
@@ -157,7 +157,7 @@ function slot0.UpdateEquips(slot0)
 	slot2:align(#slot0.equips)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
@@ -167,7 +167,7 @@ function slot0.Hide(slot0)
 	setInputText(slot0.urInput, "")
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

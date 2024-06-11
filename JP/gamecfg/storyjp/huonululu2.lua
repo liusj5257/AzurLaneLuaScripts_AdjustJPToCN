@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"拗ねやすい彼女の小さなお話\n\n<size=45>二　ホノルルは友達が少ない？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・学園中庭",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・学園中庭",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 102130,
+			say = "うふふ、用がないなら会っちゃいけないの？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "うふふ、用がないなら会っちゃいけないの？",
+			actor = 102130,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "……でもなんで指揮官もここにいるの？",
 			typewriter = {
 				speed = 0.05,
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "ら、ラッキーなの……？？",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102130,
+			nameColor = "#a9f548",
 			say = "せっかく秘書艦になったのだから、指揮官くんとも仲良くしたほうがいいわよ？",
 			typewriter = {
 				speed = 0.05,
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "うっ……べ、別にあなたと関係ないでしょう？指揮官も流されないでよっ！",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -274,9 +274,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = -1,
 			say = "ホノルルが完全にセントルイスに見透かされている気がする。",
 			typewriter = {
 				speed = 0.05,
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "……！？な、なな、ななななによこの恥ずかしい服は！こんなのが好きなのはルイスだけでしょう！？",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "もう好きにして………ぜんっぜん似合わなくても私は知らないからね……",
 			typewriter = {
 				speed = 0.05,
@@ -374,8 +374,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = -1,
 			say = "雑談（？）は意外と長く続いた。",
 			typewriter = {
 				speed = 0.05,

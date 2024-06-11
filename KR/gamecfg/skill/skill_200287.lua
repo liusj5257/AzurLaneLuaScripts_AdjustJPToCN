@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023英系活动 EX 发射器机制应对成功",
 	cd = 0,
-	painting = 0,
-	id = 200287,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200287,
 	effect_list = {
 		{
 			type = "BattleSkillEditCustomWarning",

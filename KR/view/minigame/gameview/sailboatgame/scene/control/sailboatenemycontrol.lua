@@ -1,7 +1,7 @@
 slot0 = class("SailBoatEnemyControllua")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._bgContent = slot1
 	slot0._eventCall = slot2
@@ -11,7 +11,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._rules = {}
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	for slot4 = #slot0._enemys, 1, -1 do
 		slot0:returnEnemy(table.remove(slot0._enemys, slot4))
 	end
@@ -36,7 +36,7 @@ function slot0.start(slot0)
 	slot0._fireIndex = uv0.fire_step
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot0._fireIndex = slot0._fireIndex - 1
 
 	if slot0._fireIndex <= 0 then
@@ -90,7 +90,7 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.checkEnemyFire(slot0, slot1, slot2)
+slot0.checkEnemyFire = function(slot0, slot1, slot2)
 	slot3 = slot1:getPosition()
 
 	if slot1:getLife() and slot2:getLife() and not slot2:inFireCd() then
@@ -128,12 +128,12 @@ function slot0.checkEnemyFire(slot0, slot1, slot2)
 	end
 end
 
-function slot0.returnEnemy(slot0, slot1)
+slot0.returnEnemy = function(slot0, slot1)
 	slot1:clear()
 	table.insert(slot0._enemyPool, slot1)
 end
 
-function slot0.checkEnemyCollider(slot0, slot1, slot2)
+slot0.checkEnemyCollider = function(slot0, slot1, slot2)
 	if slot2:getConfig("type") == SailBoatGameConst.item_static and math.abs(slot2:getPosition().x - slot1:getPosition().x) < 500 and math.abs(slot3.y - slot4.y) < 500 then
 		slot5, slot6 = slot2:getWorldColliderData()
 		slot7, slot8 = slot1:getWorldColliderData()
@@ -146,7 +146,7 @@ function slot0.checkEnemyCollider(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.applyRule(slot0, slot1)
+slot0.applyRule = function(slot0, slot1)
 	slot2 = slot1.data
 	slot3 = slot2.enemys
 	slot5 = slot2.screen_pos_y
@@ -169,7 +169,7 @@ function slot0.applyRule(slot0, slot1)
 	slot8:start()
 end
 
-function slot0.getOrCreateEnemy(slot0, slot1, slot2)
+slot0.getOrCreateEnemy = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if #slot0._enemyPool > 0 then
@@ -198,7 +198,7 @@ function slot0.getOrCreateEnemy(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.initWeapon(slot0, slot1, slot2)
+slot0.initWeapon = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
@@ -213,13 +213,13 @@ function slot0.initWeapon(slot0, slot1, slot2)
 	slot1:setWeapon(slot3, slot4)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
-function slot0.stop(slot0)
+slot0.stop = function(slot0)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

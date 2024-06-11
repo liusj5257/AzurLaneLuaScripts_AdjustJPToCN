@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT25",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇\n\n<size=45>名为泡澡的文化</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10300010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "啊，妳好啊指挥官，今天天气不错呢",
 			bgm = "story-uta",
+			actor = 10300010,
+			nameColor = "#a9f548",
+			say = "啊，妳好啊指挥官，今天天气不错呢",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "这么好的天气，窝在屋里实在太可惜了",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "在大和的时候我什么活都干过了，尽管跟我说吧！",
 			typewriter = {
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "还是那个勤于工作的她。已经习惯这里的生活了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "宿舍里还特地为我们准备了房间，真是多谢指挥官了",
 			typewriter = {
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "其他人也这么想吗……向久远问问看吧",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "嗯，大家都在这个世界过得很开心哦",
 			typewriter = {
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10300010,
+			nameColor = "#a9f548",
 			say = "我个人最中意的……果然还是那个吧？",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "对！没错！就是那个大澡堂！",
 			typewriter = {
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……那之后1小时，久远一直滔滔不绝地诉说着她对洗澡的热爱",
 			typewriter = {
 				speed = 0.05,

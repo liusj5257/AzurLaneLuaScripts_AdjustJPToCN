@@ -7,14 +7,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "2023黑阿尔及利亚 特殊点燃",
 	time = 3,
-	id = 200462,
+	name = "2023黑阿尔及利亚 特殊点燃",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200462,
 	last_effect = "",
 	effect_list = {
 		{
@@ -24,8 +24,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200461,
-				target = "TargetSelf",
 				time = 1,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 500
+					number = 500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 500
+					number = 500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.04
+					number = 0.04,
+					attr = "cri"
 				}
 			}
 		}
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 610
+					number = 610,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 610
+					number = 610,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.046
+					number = 0.046,
+					attr = "cri"
 				}
 			}
 		}
@@ -82,8 +82,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 720
+					number = 720,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 720
+					number = 720,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.052
+					number = 0.052,
+					attr = "cri"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 830
+					number = 830,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -130,8 +130,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 830
+					number = 830,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -141,8 +141,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.06
+					number = 0.06,
+					attr = "cri"
 				}
 			}
 		}
@@ -156,8 +156,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 940
+					number = 940,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -167,8 +167,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 940
+					number = 940,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -178,8 +178,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.066
+					number = 0.066,
+					attr = "cri"
 				}
 			}
 		}
@@ -193,8 +193,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1050
+					number = 1050,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -204,8 +204,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1050
+					number = 1050,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -215,8 +215,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.072
+					number = 0.072,
+					attr = "cri"
 				}
 			}
 		}
@@ -230,8 +230,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1160
+					number = 1160,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -241,8 +241,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1160
+					number = 1160,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -252,8 +252,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.08
+					number = 0.08,
+					attr = "cri"
 				}
 			}
 		}
@@ -267,8 +267,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1270
+					number = 1270,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -278,8 +278,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1270
+					number = 1270,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.086
+					number = 0.086,
+					attr = "cri"
 				}
 			}
 		}
@@ -304,8 +304,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1380
+					number = 1380,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -315,8 +315,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1380
+					number = 1380,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -326,8 +326,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.092
+					number = 0.092,
+					attr = "cri"
 				}
 			}
 		}
@@ -341,8 +341,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1500
+					number = 1500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -352,8 +352,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1500
+					number = 1500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -363,20 +363,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 13181,
+	time = 0,
 	picture = "",
 	desc = "提高雷击、机动、鱼雷暴击率属性",
 	stack = 1,
-	id = 13181,
+	color = "yellow",
 	icon = 13181,
 	last_effect = "",
 	blink = {
@@ -394,8 +394,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 500
+				number = 500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -405,8 +405,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 500
+				number = 500,
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -416,8 +416,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.04
+				number = 0.04,
+				attr = "cri"
 			}
 		}
 	}

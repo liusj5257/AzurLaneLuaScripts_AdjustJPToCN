@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Light Up My Day\n\n<size=45>5 Seashells by the Seashore</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_106",
-			say = "Taken by an urge to listen to the sound of the sea, I brought Marblehead to the beachside.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "Taken by an urge to listen to the sound of the sea, I brought Marblehead to the beachside.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "Check it out, Commander! The beach is littered with all these colorful seashells!",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Most of the seashells washing up on this shore come in stunning shades of pink. Cute, right?",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "She handed me a seashell with an exquisite shape. I put it to my ear and listened to the sound coming from inside.",
@@ -128,8 +128,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Whatcha doing?",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "She began explaining the process in great detail. I was astonished by her almost scholarly level of knowledge.",
@@ -192,8 +192,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "...which isn't always the case, but pink noise possesses a fractal frequency, and that's why...",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,8 +219,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Err, what I'm getting at is...",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Y'know, like, that's just what I heard? I'm not, like, an expert or anything.",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "Cutting herself off, she awkwardly took the seashell out of my hand, then took the conversation in another direction.",
@@ -268,8 +268,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "A-anyway! I just noticed this seashell's got the same color as the pink gradient of my hair. Ain't that nifty?",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Changing the subject? Am not! Just thought it looked pretty, is all!",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "What I'm saying is: it reminds you of me, right? So I want you to treasure it like you'd treasure me.",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "Hands cupped around the seashell, she returned it to me with a slow, deliberate motion.",
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANSAICHE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANSAICHE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"レーシング・ステージ！\n\n<size=45>ウィンド・キャッチャー</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			hidePaintObj = true,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
 			withoutActorName = true,
 			bgm = "story-richang-6",
 			actor = 107066,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "レースの合間、散策していたら、ユニオンを応援しているエンタープライズの姿が目に入った。",
 			typewriter = {
 				speed = 0.05,
@@ -32,11 +32,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "指揮官も観戦に来てたのか",
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "先ほどのレースは見事なものだった。レースというものの魅力を遺憾なく見せてくれた",
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官、来年もまたレースを開催しないか？",
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "場所を変えるか？指揮官の気遣い、痛み入るが…",
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "あいにく今日は一観客として来ているわけではない",
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "見ての通り、ユニオンの仲間の応援を任されている――この格好はまさにそのためだ",
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "熱中症の対策だって、この傘があるから問題ない",
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "正直に言うと、私もマシンに乗って参戦してみたいものだ",
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "海を駆けることとは、また違う刺激を味わえると思う",
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "しかし今は、引き受けた責務を全うしなければ",
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なるほど。責任感の強いエンタープライズらしい悩みだ。",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "だが、エンタープライズがいくつものポーズを見せていくうちに…",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "さっきから気になっていたところがどんどん危なっかしく見えてきた。",
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官、心配そうにしているが、どうかしたか？",
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もしさっき言ってた参戦のことなら、もちろん技術を学び、準備は怠らないつもりでいる",
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "あっ、この格好のことか？",
@@ -362,11 +362,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "確かに、私も少し派手過ぎるように思ったな",
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "だが、後輩たちに頼まれたからには仕方がない。それにみんな大喜びだったから問題ないと思うが…どこか変なところでもあるのか？",
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "周りからどっと仲間たちの歓声が聞こえた。いつの間にか次のレースの時間になっていた。",
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "エンタープライズを見ると、もう集中して応援モードになっている。",
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そして気がかりのファスナーは…案の定ますます危うく…",
@@ -458,11 +458,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官？ファスナーがどうしたのか？",
@@ -476,11 +476,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こちらの注意には気づいてくれたが、やっぱり旗を振るうことをやめていない。",
@@ -490,11 +490,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大きな動きをしていて、衣装がどんどん「危険」な領域になっていくエンタープライズ。",
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "思い切ってエンタープライズに近づき、衣装に手を伸ばす――",
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "っ？！し、指揮官？！",
@@ -548,11 +548,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "すでに「危険」な水準になっているファスナーに手をかけ――",
@@ -562,11 +562,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "なっ…！こ、ここで……私は……",
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "事情が事情なだけに人目を憚る場合ではないと、とっさに行動に出たが、一瞬場は混乱を極めた。",
@@ -594,11 +594,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "幸い、エンタープライズがすぐファスナーの危うさに気づきフォローはしてくれたが",
@@ -608,11 +608,11 @@ return {
 			}
 		},
 		{
-			actor = 107066,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "このバタバタのせいで、このレース結果のことはさっぱり頭に入らなかった…",

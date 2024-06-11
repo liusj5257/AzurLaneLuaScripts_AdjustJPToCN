@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-tokiwa",
 			dir = 1,
 			say = "このあたりに戦闘の痕跡があるな",
+			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

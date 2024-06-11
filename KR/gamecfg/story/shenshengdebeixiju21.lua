@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU21",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "며칠 뒤，로열 본섬",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "며칠 뒤，로열 본섬",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "(포미더블은 한 손에 홍차를 들고 담담하게 말했다.)",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "(일러스트리어스는 포미더블을 품에 안고 머리를 쓰다듬어 주었다.)",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "빅토리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "빅토리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "(빅토리어스는 말을 하며 포미더블의 뾰로통한 얼굴을 콕 찔렀다.)",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "빅토리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			actorName = "퀸 엘리자베스",
 			dir = 1,
+			actorName = "퀸 엘리자베스",
 			say = "아!! 찾았다. 나 몰래 티 파티를 열다니!",
 			dialogShake = {
 				speed = 0.09,
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "(마침 정원을 지나던 엘리자베스가 일러스트리어스 자매들의 티 파티를 보고 흥분한 채 손가락질을 했다.)",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벨파스트",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스&빅토리어스&포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "함께 달콤하고 평화로운 오후를 즐기도록 해요~",
 			typewriter = {
 				speed = 0.05,

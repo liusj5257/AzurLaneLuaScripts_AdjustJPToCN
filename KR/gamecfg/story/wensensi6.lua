@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"동생의 변화\n\n<size=45>6. 동생의 노력</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "빈센스의 비서함 교실이 시작되었다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "빈센스의 비서함 교실이 시작되었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……하지만 언니들이 알아버렸기 때문에 처음 생각한 대로 일대일 교습이 아닌 돌아가면서 가르치게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -60,15 +60,15 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103090,
+			nameColor = "#92fc63",
 			say = "자, 그러면 먼저 공문이에요. 지휘관님을 도와드리려면 이게 뭔지 알아야겠죠……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -189,15 +189,15 @@ return {
 			}
 		},
 		{
-			actor = 103080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103080,
+			nameColor = "#92fc63",
 			say = "으으으, 나는 뭘 가르쳐줘야 하지…… 아, 그래. 지휘관이 좋아하는 음식을 알려줄게!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 103080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103080,
+			nameColor = "#92fc63",
 			say = "지휘관의 업무 효율을 위해서 컨디션을 관리하는 것도 아주 중요해!",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "응!",
 			typewriter = {
 				speed = 0.05,
@@ -264,8 +264,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -274,15 +274,15 @@ return {
 			}
 		},
 		{
-			actor = 103130,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103130,
+			nameColor = "#92fc63",
 			say = "빈센스, 내가 사냥을 가르쳐주지! …그런데 나도 선생이 되어버린 기분인데…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -307,12 +307,12 @@ return {
 			}
 		},
 		{
-			actor = 103090,
+			say = "뉴올리언스급은 거의 모두 온 모양이네요… 하지만 사냥은……",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "뉴올리언스급은 거의 모두 온 모양이네요… 하지만 사냥은……",
+			actor = 103090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 103130,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103130,
+			nameColor = "#92fc63",
 			say = "뉴올리언스 본인은 오지 않았잖아… 사냥이 필요 없다면 난 가보겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -3750

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Port - Academy",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-WISHNESS-inst",
+			say = "Port - Academy",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "Oh, all right. Just wanted to hear if she was gonna continue working as an idol. I had someone ask me about it, so.",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "What do you know. Apparently, tons of people wanna have a shot at it.",
 			typewriter = {
@@ -164,14 +164,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "You're kidding! You're seriously done being an idol forever unless the Commander or Le Triomphant beg you for it?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 901110,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#a9f548",
 			say = "Yes, I've had enough of it. Just thinking about it makes me tired. Ugh...",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "(Although unlike them, I guess you REALLY don't wanna do it.)",
 			typewriter = {
@@ -246,13 +246,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "*knock knock*",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

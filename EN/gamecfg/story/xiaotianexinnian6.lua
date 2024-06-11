@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"New Year's Blessings\n\n<size=45>Chapter 6 Dinner Takes An Exciting Turn</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301601,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Wow! Soba and zouni! Finally we get to have dinner!",
 			bgm = "main-newyear",
+			actor = 301601,
+			nameColor = "#a9f548",
+			say = "Wow! Soba and zouni! Finally we get to have dinner!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 205062,
 			dir = 1,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "Mm...! What a peculiar texture! It's so soft, yet hard to actually chew...",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102132,
 			dir = 1,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "Relax and don't think about it too much, Helena. Cleveland's a strong girl, she's not one to get hurt like that.",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102051,
 			dir = 1,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "But...",
 			typewriter = {
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Yo! I'm back!",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102132,
 			dir = 1,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "Hahah, see? I told you she'd be fine. Good timing, Cleveland! You know, apparently this \"soba\" thing tastes better while it's still warm.",
 			typewriter = {
@@ -284,15 +284,15 @@ return {
 			}
 		},
 		{
-			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307031,
+			nameColor = "#a9f548",
 			say = "It seems like everyone, regardless of their faction, has gotten intimately familiar with the kotatsu.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "Oh! I forgot to give you all your New Year's cards nya!",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 201103,
 			dir = 1,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "Is this a flower...? How cute! Thank you so much!",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102051,
 			dir = 1,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "This is a picture of... ah, it's a blue bird which symbolizes happiness! Thank you. I will treasure it.",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 101263,
 			dir = 1,
+			actor = 101263,
 			nameColor = "#a9f548",
 			say = "Sparkle... cute. Like.",
 			typewriter = {
@@ -471,9 +471,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102141,
 			dir = 1,
 			blackBg = true,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "N-no, it's fine! T-this works too... (Blushes)",
 			typewriter = {

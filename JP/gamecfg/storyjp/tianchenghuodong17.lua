@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG17",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG17",
 	continueBgm = true,
 	fadein = 1.5,
 	scripts = {
@@ -11,8 +11,8 @@ return {
 			expression = 2,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 305070,
 			dir = -1,
+			actor = 305070,
 			stopbgm = true,
 			say = "天城さん、あなたは一体何をするつもりですか！",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			say = "これから世界は変わります。大艦巨砲時代への熱狂はじき収束されるのでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			say = "これからは……航空母艦の時代です",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			say = "ですから空母改修より、こうして演習で戦うことを選んだのです",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 305070,
 			dir = -1,
+			actor = 305070,
 			say = "天城…さん……",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			say = "加賀も、一度くらいは私に勝ちたいでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			say = "せっかくの機会です。手を抜かれたら……私はきっと、いつまでも恨みますわよ？",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 305070,
 			dir = -1,
+			actor = 305070,
 			say = "わかり…ました………ふふ、全く、幸せものだな。私は",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 305070,
 			dir = -1,
+			actor = 305070,
 			say = "天城さんのような最後まで自分を貫くヒトが相手なら、全力をぶつける以外考えられませんね",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			say = "<size=52.5>……天城型巡洋戦艦・天城</size>",
 			painting = {
 				alpha = 0.3,
@@ -206,14 +206,14 @@ return {
 			}
 		},
 		{
-			actor = 305070,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 305070,
 			dir = -1,
+			bgm = "theme",
+			hideOther = true,
 			actorName = "{namecode:92}&{namecode:161}",
 			say = "<size=60>いざ、参ります！</size>",
-			bgm = "theme",
 			subActors = {
 				{
 					dir = -1,

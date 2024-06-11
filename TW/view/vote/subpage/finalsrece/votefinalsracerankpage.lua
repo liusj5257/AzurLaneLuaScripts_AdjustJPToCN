@@ -1,10 +1,10 @@
 slot0 = class("VoteFinalsRaceRankPage", import("..GroupRace.VoteGroupRaceRankPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FinalsRaceRank"
 end
 
-function slot0.NewCard(slot0, slot1)
+slot0.NewCard = function(slot0, slot1)
 	slot2 = slot1.transform
 
 	return {
@@ -19,7 +19,7 @@ function slot0.NewCard(slot0, slot1)
 	}
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

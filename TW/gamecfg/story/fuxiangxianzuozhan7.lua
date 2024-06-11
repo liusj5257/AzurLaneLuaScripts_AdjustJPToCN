@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鐵血浮島要塞群·B7浮島至D11防禦模組之間",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-6",
+			say = "鐵血浮島要塞群·B7浮島至D11防禦模組之間",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,11 +43,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "居然又追加了一批“皇家艦隊”嗎，這次的訓練內容真是豐富啊。",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,8 +77,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "嘿嘿，對吧對吧~！彼得再不回來休息時間要結束了哦？",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "作為這麼大要塞一大半區域的負責人果然很辛苦啊……",
 			typewriter = {
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "放心，我明白的。大家都準備完畢了嗎？讓我們開始新一輪的戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

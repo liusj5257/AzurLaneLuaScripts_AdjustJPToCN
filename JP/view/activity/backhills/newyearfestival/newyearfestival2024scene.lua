@@ -1,6 +1,6 @@
 slot0 = class("NewYearFestival2024Scene", import("view.activity.BackHills.TemplateMV.BackHillTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewYearFestival2024UI"
 end
 
@@ -8,7 +8,7 @@ slot0.edge2area = {
 	default = "_SDPlace"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.top = slot0:findTF("top")
@@ -36,7 +36,7 @@ function slot0.init(slot0)
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.NewyearFestival2024Graph"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -61,25 +61,25 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	setActive(slot0.upper_nvpudian:Find("Tip"), uv0.MiniGameTip())
 	setActive(slot0.upper_huimaqiyuan:Find("Tip"), uv0.ShrineTip())
 end
 
-function slot0.ShrineTip()
+slot0.ShrineTip = function()
 	return Shrine2024View.IsNeedShowTipWithoutActivityFinalReward()
 end
 
-function slot0.MiniGameTip()
+slot0.MiniGameTip = function()
 	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_COOKGAME2_ID))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
 end
 
-function slot0.IsShowMainTip(slot0)
+slot0.IsShowMainTip = function(slot0)
 	if slot0 and not slot0:isEnd() then
 		return uv0.MiniGameTip() or uv0.ShrineTip()
 	end

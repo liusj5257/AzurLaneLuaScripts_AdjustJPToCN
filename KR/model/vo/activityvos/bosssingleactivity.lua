@@ -1,6 +1,6 @@
 slot0 = class("BossSingleActivity", import("model.vo.Activity"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.enemyData = {}
@@ -13,15 +13,15 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.GetEnemyDatas(slot0)
+slot0.GetEnemyDatas = function(slot0)
 	return slot0.enemyData
 end
 
-function slot0.GetEnemyDataById(slot0, slot1)
+slot0.GetEnemyDataById = function(slot0, slot1)
 	return slot0.enemyData[slot1]
 end
 
-function slot0.GetEnemyDataByStageId(slot0, slot1)
+slot0.GetEnemyDataByStageId = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.enemyData) do
 		if slot6:GetExpeditionId() == slot1 then
 			return slot6
@@ -29,7 +29,7 @@ function slot0.GetEnemyDataByStageId(slot0, slot1)
 	end
 end
 
-function slot0.GetEnemyDataByFleetIdx(slot0, slot1)
+slot0.GetEnemyDataByFleetIdx = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.enemyData) do
 		if slot6:GetFleetIdx() == slot1 then
 			return slot6
@@ -37,7 +37,7 @@ function slot0.GetEnemyDataByFleetIdx(slot0, slot1)
 	end
 end
 
-function slot0.GetEnemyDataByType(slot0, slot1)
+slot0.GetEnemyDataByType = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.enemyData) do
 		if slot6:GetType() == slot1 then
 			return slot6
@@ -45,7 +45,7 @@ function slot0.GetEnemyDataByType(slot0, slot1)
 	end
 end
 
-function slot0.GetCommonEnemyDatas(slot0)
+slot0.GetCommonEnemyDatas = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.enemyData) do
@@ -57,7 +57,7 @@ function slot0.GetCommonEnemyDatas(slot0)
 	return slot1
 end
 
-function slot0.GetStageIDs(slot0)
+slot0.GetStageIDs = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.enemyData) do
@@ -67,7 +67,7 @@ function slot0.GetStageIDs(slot0)
 	return slot1
 end
 
-function slot0.GetOilLimits(slot0)
+slot0.GetOilLimits = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.enemyData) do
@@ -77,15 +77,15 @@ function slot0.GetOilLimits(slot0)
 	return slot1
 end
 
-function slot0.GetEnemyIds(slot0)
+slot0.GetEnemyIds = function(slot0)
 	return slot0:getConfig("config_data")
 end
 
-function slot0.GetDailyCounts(slot0)
+slot0.GetDailyCounts = function(slot0)
 	return slot0.data1_list
 end
 
-function slot0.AddDailyCount(slot0, slot1)
+slot0.AddDailyCount = function(slot0, slot1)
 	if not slot0:IsCountLimit(slot1) then
 		return
 	end
@@ -93,11 +93,11 @@ function slot0.AddDailyCount(slot0, slot1)
 	slot0:GetDailyCounts()[slot2] = (slot0:GetDailyCounts()[slot0.enemyData[slot1]:GetFleetIdx()] or 0) + 1
 end
 
-function slot0.GetPassStages(slot0)
+slot0.GetPassStages = function(slot0)
 	return slot0.data2_list
 end
 
-function slot0.AddPassStage(slot0, slot1)
+slot0.AddPassStage = function(slot0, slot1)
 	if slot0:HasPassStage(slot1) then
 		return
 	end
@@ -105,11 +105,11 @@ function slot0.AddPassStage(slot0, slot1)
 	table.insert(slot0:GetPassStages(), slot1)
 end
 
-function slot0.HasPassStage(slot0, slot1)
+slot0.HasPassStage = function(slot0, slot1)
 	return table.contains(slot0:GetPassStages(), slot1)
 end
 
-function slot0.IsUnlockByEnemyId(slot0, slot1)
+slot0.IsUnlockByEnemyId = function(slot0, slot1)
 	if not slot0.enemyData[slot1] then
 		return false
 	end
@@ -117,7 +117,7 @@ function slot0.IsUnlockByEnemyId(slot0, slot1)
 	return slot0.enemyData[slot1]:GetPreChapterId() == 0 or slot0:HasPassStage(slot0.enemyData[slot2]:GetExpeditionId())
 end
 
-function slot0.IsCountLimit(slot0, slot1)
+slot0.IsCountLimit = function(slot0, slot1)
 	if not slot0.enemyData[slot1] then
 		return false
 	end
@@ -125,7 +125,7 @@ function slot0.IsCountLimit(slot0, slot1)
 	return slot0.enemyData[slot1]:GetCount() > 0
 end
 
-function slot0.GetCounts(slot0, slot1)
+slot0.GetCounts = function(slot0, slot1)
 	if not slot0.enemyData[slot1] then
 		return
 	end
@@ -133,7 +133,7 @@ function slot0.GetCounts(slot0, slot1)
 	return slot2:GetCount() - slot0:GetDailyCounts()[slot2:GetFleetIdx()], slot2:GetCount()
 end
 
-function slot0.CheckEntranceByIdx(slot0, slot1)
+slot0.CheckEntranceByIdx = function(slot0, slot1)
 	if not slot0:GetEnemyDataByFleetIdx(slot1) then
 		return false, "not exist enemy data, index: " .. slot1
 	end
@@ -149,7 +149,7 @@ function slot0.CheckEntranceByIdx(slot0, slot1)
 	return true
 end
 
-function slot0.CheckCntByIdx(slot0, slot1)
+slot0.CheckCntByIdx = function(slot0, slot1)
 	if not slot0:GetEnemyDataByFleetIdx(slot1) then
 		return false, "not exist enemy data, index: " .. slot1
 	end
@@ -161,7 +161,7 @@ function slot0.CheckCntByIdx(slot0, slot1)
 	return true
 end
 
-function slot0.GetBuffIdsByStageId(slot0, slot1)
+slot0.GetBuffIdsByStageId = function(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_id")) or slot2:isEnd() then
 		return {}
 	end

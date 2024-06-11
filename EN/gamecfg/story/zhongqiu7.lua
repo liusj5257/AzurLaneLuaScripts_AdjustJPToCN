@@ -1,11 +1,11 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHONGQIU7",
-	once = true,
 	fadeType = 1,
-	fadein = 1.5,
+	once = true,
+	id = "ZHONGQIU7",
 	updateOnBegin = 1,
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 502010,
@@ -72,14 +72,14 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "Z46! Here, write something~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -153,14 +153,14 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "Saratoga --- You write, too!",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,14 +234,14 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "Lastly --- Yat Sen! Hehe, it’s my turn this time~",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -330,14 +330,14 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "Second place goes to... Eugen!",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -411,14 +411,14 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "Finally, the first place... Ning Hai!",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			actor = 502022,
+			say = "What!? I'm the first place! Great!",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "Ning Hai",
 			dir = -1,
-			say = "What!? I'm the first place! Great!",
+			actor = 502022,
+			actorName = "Ning Hai",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -466,8 +466,8 @@ return {
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "Ping Hai",
 			dir = -1,
+			actorName = "Ping Hai",
 			say = "I wanna be on the first place as well...",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Ning Hai",
 			dir = -1,
+			actorName = "Ning Hai",
 			say = "Yes, from the very beginning... I wish more and more friends will join us!",
 			typewriter = {
 				speed = 0.05,
@@ -510,14 +510,14 @@ return {
 			}
 		},
 		{
-			actor = 205060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 205060,
+			nameColor = "#a9f548",
 			say = "All the lanterns flew away, out of our reach.",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN23",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "Hai Tien",
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "Hai Tien",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Roll a D100... 48. Success. It is unfortunately too dark to make out their identity.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -117,9 +117,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You remember the key in your pocket. You know, of course, that this is not the door to the study.",
 			typewriter = {
@@ -132,9 +132,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But, maybe if you believe hard enough, this surreal castle will bend to your will.",
 			typewriter = {
@@ -147,9 +147,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yes, this is your final hope. You slide the key into the hole and turn it.",
 			typewriter = {
@@ -162,9 +162,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As sad as it is, your hope does not trounce the hard laws of reality. The right key does not open the wrong door.",
 			typewriter = {
@@ -190,9 +190,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "History Nerd GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Sheffield",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Of course. It hits you that you are in possession of a gun.",
 			typewriter = {
@@ -205,9 +205,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "History Nerd GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Sheffield",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Not only that, but it's an M1873 with a rosewood grip and a fine engraving on the barrel that reads, \"Single Action Army.\"",
 			typewriter = {
@@ -220,9 +220,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "History Nerd GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Sheffield",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Breaking the lock with such an excellent pistol would be a piece of cake.",
 			typewriter = {
@@ -235,9 +235,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "History Nerd GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Sheffield",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "However, firing it would alert everyone in the castle to your location. Are you sure you want to do that?",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "Hai Tien",
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "Hai Tien",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "You close and lock the door, then start looking around your impromptu \"safe room.\"",
 			typewriter = {
@@ -341,17 +341,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -560,9 +560,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#FF9B93",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "Roll a D100... 91. Alas, because of your weak Volition, your spirit instantly crumbles despite your best efforts.",
 			typewriter = {
@@ -575,9 +575,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#FF9B93",
-			optionFlag = 2,
 			actorName = "Z2",
+			optionFlag = 2,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "Yes, in line with what one might call reverse psychology, you ignore your own Volition and give in to fear.",
 			typewriter = {
@@ -677,10 +677,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			nameColor = "#FF9B93",
 			actor = 9600021,
 			actorName = "Castle Housekeeper",
-			nameColor = "#FF9B93",
+			hidePaintObj = true,
 			say = "What are you doing inside Lord Manjuu's private bedroom, Investigator?",
 			typewriter = {
 				speed = 0.05,
@@ -719,10 +719,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			nameColor = "#FF9B93",
 			actor = 9600021,
 			actorName = "Castle Housekeeper",
-			nameColor = "#FF9B93",
+			hidePaintObj = true,
 			say = "I don't take kindly to guests with no respect.",
 			typewriter = {
 				speed = 0.05,
@@ -757,8 +757,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -772,9 +772,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "Serious GM",
-			nameColor = "#A9F548FF",
-			bgm = "theme-ijndailymeeting",
 			actorName = "Enterprise",
+			bgm = "theme-ijndailymeeting",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "São Martinho DID warn you about entering private areas without permission.",
 			typewriter = {

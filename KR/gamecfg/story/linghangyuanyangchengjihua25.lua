@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA25",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_151",
+			bgm = "qe-ova-9",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "버추얼 타운에도 겨울이 찾아왔다.",
-			bgm = "qe-ova-9",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,9 +37,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_151",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-laugh5",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -57,9 +57,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_151",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-laugh2",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			say = "창문에 비친 TB의 눈동자가 반짝반짝 빛난다.",
@@ -88,9 +88,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_151",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-talking3",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			say = "내가 미처 대답하기도 전에 TB는 내 손을 잡고 밖으로 끌어냈다.",
@@ -116,27 +116,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_151",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_151",
 			say = "집으로 들어서자마자 나는 기진맥진한 채로 그대로 소파에 쓰러지고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			say = "한편 TB는 어디서 그런 기운이 솟아나는지 쉬지도 않고 어느새 온 집안을 척척 꾸미기 시작했다.",
@@ -182,9 +182,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_151",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-answer4",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -202,9 +202,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_151",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-answer8",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			say = "그렇게 말하고 TB는 바람처럼 또 다른 방 안으로 사라졌다.",
@@ -244,10 +244,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_151",
-			tbActor = true,
 			dir = 1,
+			bgName = "star_level_bg_151",
 			voice = "event:/educate/tb/educate-tb-33-talking1",
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -261,17 +261,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -282,9 +282,9 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_151",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-talking2",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			say = "잠이 덜 깬 상태로 멍하니 있는데 문득 TB의 목소리가 귓가에 들려왔다.",
@@ -310,14 +310,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg19",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "짜잔~ 산타 TB! 화려하게 등장~!",
 			voice = "event:/educate/tb/educate-tb-story-33-4",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "짜잔~ 산타 TB! 화려하게 등장~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,17 +327,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -345,14 +345,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg19",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "헤헷, 어때요? 크리스마스 느낌 물씬 나죠? 괜찮지 않아요?",
 			voice = "event:/educate/tb/educate-tb-story-33-5",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "헤헷, 어때요? 크리스마스 느낌 물씬 나죠? 괜찮지 않아요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,14 +375,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg19",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "이거 드릴게요!",
 			voice = "event:/educate/tb/educate-tb-story-33-6",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "이거 드릴게요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			say = "TB는 예쁘게 포장된 작은 상자를 내게 내밀었다.",
@@ -404,14 +404,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg19",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "여러 준비를 하는 것만으로 용돈을 거의 써버려서… 이것밖에 못 샀어요.",
 			voice = "event:/educate/tb/educate-tb-story-33-7",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "여러 준비를 하는 것만으로 용돈을 거의 써버려서… 이것밖에 못 샀어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,14 +422,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg19",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그렇지만 열심히 골랐다구요! 싸다고 마음이 안 담겨있는 건 아니니까요!",
 			voice = "event:/educate/tb/educate-tb-story-33-8",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그렇지만 열심히 골랐다구요! 싸다고 마음이 안 담겨있는 건 아니니까요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,32 +452,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg19",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "후훗, 그럼 됐어요!",
 			voice = "event:/educate/tb/educate-tb-story-33-9",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "TB",
-			bgName = "bg_project_tb_cg19",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "메리 크리스마스!",
-			voice = "event:/educate/tb/educate-tb-story-33-10",
+			say = "후훗, 그럼 됐어요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,8 +470,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			side = 2,
+			bgName = "bg_project_tb_cg19",
+			dir = 1,
+			voice = "event:/educate/tb/educate-tb-story-33-10",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "메리 크리스마스!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			say = "TB와 떠들썩한 크리스마스를 보냈다.",

@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG40",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG40",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 2,
-			side = 2,
-			say = "노스 유니온-세브라나야제믈라· 임무 종료 후",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			bgm = "bsm-2",
+			say = "노스 유니온-세브라나야제믈라· 임무 종료 후",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -65,10 +65,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "세이렌의 행동과 메탈 블러드의 보조가 너무 딱 맞았어. 난 그저 단순한 우연일 뿐이라고는 안 믿어.",
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "도착한 물자는 이미 모두 하역했어. 지금은 막 빠르게 각 전장에 배분 중이야. 손상 입은 운송선 수리도 시작했고.",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "하지만 오는 길에 거의 십분의 일에 가까운 손해를 봤는데, 이것도 메탈 블러드의 흉계에 지불해야 할 필수 대가인 건가... 정말 괘씸해.",
 			typewriter = {
 				speed = 0.05,

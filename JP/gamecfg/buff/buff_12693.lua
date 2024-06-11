@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.012
+					number = 0.012,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.012
+					number = 0.012,
+					attr = "cri"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.014
+					number = 0.014,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.014
+					number = 0.014,
+					attr = "cri"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.016
+					number = 0.016,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.016
+					number = 0.016,
+					attr = "cri"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.018
+					number = 0.018,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.018
+					number = 0.018,
+					attr = "cri"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.02
+					number = 0.02,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.02
+					number = 0.02,
+					attr = "cri"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.022
+					number = 0.022,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.022
+					number = 0.022,
+					attr = "cri"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.024
+					number = 0.024,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.024
+					number = 0.024,
+					attr = "cri"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.026
+					number = 0.026,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.026
+					number = 0.026,
+					attr = "cri"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.028
+					number = 0.028,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.028
+					number = 0.028,
+					attr = "cri"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.03
+					number = 0.03,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.03
+					number = 0.03,
+					attr = "cri"
 				}
 			}
 		}
@@ -242,12 +242,12 @@ return {
 	desc_get = "造成暴击概率、暴击伤害增加1.2-3%",
 	name = "恩尼格玛-信号—集中",
 	init_effect = "jinengchufared",
+	id = 12693,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12693,
+	color = "red",
 	icon = 12690,
 	last_effect = "",
 	blink = {
@@ -264,8 +264,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.012
+				number = 0.012,
+				attr = "criDamage"
 			}
 		},
 		{
@@ -274,8 +274,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.012
+				number = 0.012,
+				attr = "cri"
 			}
 		}
 	}

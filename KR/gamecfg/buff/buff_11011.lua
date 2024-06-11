@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "铁底湾之夜",
 	time = 0,
+	name = "铁底湾之夜",
+	init_effect = "",
 	picture = "",
 	desc = "南达触发效果",
 	stack = 1,

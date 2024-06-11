@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU6",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU6",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-italy",
 			say = "翌日・サディア作戦開始前",
+			side = 2,
+			dir = 1,
+			bgm = "battle-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 900197,
 			dir = 1,
+			actor = 900197,
 			say = "なんとなくは分かるけど、やっぱりちょっと変ね…ザラは大丈夫？",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "ええ大丈夫よ。多分ロイヤルにはこういうマナーもあるのかもしれないわ。ここは田舎者と笑われないようにわかったふりをしてなさい",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 2,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "う、うん…",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			actor = 601020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "わかりました！索敵はお任せください！",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "カラビニエーレ、あの子の言うことがわかるの？",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "さ、さあ？",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ffde38",
-			dir = 1,
 			say = "もうスルーしたほうがいいわね…",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

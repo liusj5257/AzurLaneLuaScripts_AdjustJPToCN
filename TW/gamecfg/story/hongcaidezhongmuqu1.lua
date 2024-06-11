@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGCAIDEZHONGMUQU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGCAIDEZHONGMUQU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方聯合控制區·指揮艦內",
 			side = 2,
 			bgName = "bg_endingsong_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet",
+			say = "北方聯合控制區·指揮艦內",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,9 +40,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "從「星海」之中歸來已經過數日……但在短短數小時內經歷的震撼卻沒有絲毫減少。",
 			typewriter = {
 				speed = 0.05,
@@ -54,9 +54,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "作為秘密計劃來說，這樣的規模也太誇張了點……",
 			typewriter = {
 				speed = 0.05,
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "據說是一項戰爭開始之前就定下的計劃，居然能隱瞞的如此完美……",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "不光是我，碧藍航線指揮部、NY司令部、甚至議會之中有多少人知道都是未知數。",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "在這些知情人中，沒有被其表象迷惑，真正了解到其深層內容的又有多少……",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "在如此秘密的地方做著如此秘密的事，甚至用一串秘密來掩蓋更大的秘密。",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "……這樣一來，餘燼飛龍的懷疑也算是揭開了一層。",
 			typewriter = {
 				speed = 0.05,
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "現在推出的諸多具有跳躍性的研究產物其實都是服務於星海計劃整體的一部分。",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "塞壬確實不會提供它們不想讓我們進行逆向解析的東西。",
 			typewriter = {
 				speed = 0.05,
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "直接對塞壬的工程進行研究也過於危險，甚至很容易變為針對塞壬的依賴。",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "但是如果反過來呢……",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "這確實是一條不違背碧藍航線理念基礎的全新的道路。既沒有陷入鐵血重櫻所選的路線，和北方聯合也有所不同……",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -224,9 +224,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "啊…………",
 			typewriter = {
 				speed = 0.05,
@@ -248,12 +248,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "哦？那麼就請指揮官談一談對於現狀的看法吧？",
 			typewriter = {
 				speed = 0.05,
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "埃爾德里奇",
+			side = 2,
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "埃爾德里奇",
+			side = 2,
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "還是算了，在工作中睡覺可不是值得鼓勵的行為……",
 			typewriter = {
 				speed = 0.05,
@@ -342,9 +342,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "麻煩把剛才的內容再重複一遍吧，喬治亞。",
 			typewriter = {
 				speed = 0.05,
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "喬治亞用手指著展示在牆上的時局圖開始了說明。",
 			typewriter = {
 				speed = 0.05,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "只是與恍神之前相比，時局圖似乎已經更新了數個版本……",
 			typewriter = {
 				speed = 0.05,
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -480,9 +480,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "北方聯合抽調的艦隊比預想中額規模要大……極地的防禦不要緊嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "根據她們所說，只要這裡的戰鬥能夠速戰速決，就不要緊。",
 			typewriter = {
 				speed = 0.05,
@@ -536,12 +536,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "根據事先約定，皇家艦隊主力代替前來支援作戰的紐澤西艦隊擔任了NA海域的清理和防衛工作。",
 			typewriter = {
 				speed = 0.05,
@@ -553,12 +553,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "目前沒有收到更新的情報，應該可以認定為一切順利。",
 			typewriter = {
 				speed = 0.05,
@@ -570,12 +570,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "不過在本次行動中我們應該不會獲得來自皇家的支援了。",
 			typewriter = {
 				speed = 0.05,
@@ -587,12 +587,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			nameColor = "#a9f548",
 			say = "根據情報，重櫻遠征艦隊目前依然停泊在達卡港內，沒有調動跡象。",
 			typewriter = {
 				speed = 0.05,
@@ -604,12 +604,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			nameColor = "#a9f548",
 			say = "不過考慮到赤城的一貫行動規律，其帶領艦隊參與本次戰役的可能性依然無法排除。",
 			typewriter = {
 				speed = 0.05,
@@ -621,12 +621,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			nameColor = "#a9f548",
 			say = "根據情報，自由鳶尾艦隊主力依然在阿非利加周邊執行任務，其餘分隊正在地中海中與皇家一同行動。",
 			typewriter = {
 				speed = 0.05,
@@ -638,12 +638,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			nameColor = "#a9f548",
 			say = "雖然很遺憾，不過正如黎胥留所說，自由鳶尾沒有空餘力量加入本次作戰行動。",
 			typewriter = {
 				speed = 0.05,
@@ -655,12 +655,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 4,
+			nameColor = "#a9f548",
 			say = "針對維希教廷旗艦讓巴爾的情報依然稀少，關於她的狀態、她所處的位置，我們均一無所知。",
 			typewriter = {
 				speed = 0.05,
@@ -672,12 +672,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 4,
+			nameColor = "#a9f548",
 			say = "不過根據已有情報，維希教廷的艦隊主力長期集結於土倫港內自守，目前沒有外出行動跡象。",
 			typewriter = {
 				speed = 0.05,
@@ -689,12 +689,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 4,
+			nameColor = "#a9f548",
 			say = "況且在自由鳶尾和皇家地中海艦隊的聯合封鎖下，我們應該不用擔心維希教廷艦隊的參戰問題。",
 			typewriter = {
 				speed = 0.05,
@@ -706,12 +706,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 5,
+			nameColor = "#a9f548",
 			say = "根據情報，薩丁帝國艦隊均分散停留在各大港口中。",
 			typewriter = {
 				speed = 0.05,
@@ -723,12 +723,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 5,
+			nameColor = "#a9f548",
 			say = "在羅馬遇襲之後，薩丁帝國就一直在採取這樣的嚴密防守措施。",
 			typewriter = {
 				speed = 0.05,
@@ -740,12 +740,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 5,
+			nameColor = "#a9f548",
 			say = "況且在自由鳶尾和皇家地中海艦隊的封鎖下，我們應該不用擔心薩丁帝國艦隊的參戰問題。",
 			typewriter = {
 				speed = 0.05,
@@ -757,12 +757,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 6,
+			nameColor = "#a9f548",
 			say = "嗯……？東煌…………？",
 			typewriter = {
 				speed = 0.05,
@@ -774,12 +774,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 6,
+			nameColor = "#a9f548",
 			say = "指揮官，東煌在NA周邊沒有部署任何艦隊，也因此不會加入本次作戰行動。",
 			typewriter = {
 				speed = 0.05,
@@ -791,8 +791,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -807,8 +807,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -823,8 +823,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -839,8 +839,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -855,9 +855,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "嗯，鐵血的障眼法不可能一直生效的。",
 			typewriter = {
 				speed = 0.05,
@@ -869,8 +869,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -885,9 +885,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "嗯。喬治亞，第一次參加實戰的感覺如何？",
 			typewriter = {
 				speed = 0.05,
@@ -899,8 +899,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -915,8 +915,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -931,9 +931,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "妳對現在的形式怎麼看？",
 			typewriter = {
 				speed = 0.05,
@@ -945,8 +945,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -961,8 +961,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -977,8 +977,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -993,9 +993,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "沒錯。輕敵是大忌，按照計劃穩步前進吧。",
 			typewriter = {
 				speed = 0.05,
@@ -1007,9 +1007,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "放心，接下來會有發揮妳作戰實力的機會的。",
 			typewriter = {
 				speed = 0.05,
@@ -1021,9 +1021,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "還有——————",
 			typewriter = {
 				speed = 0.05,
@@ -1035,8 +1035,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -1051,9 +1051,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "去拿墊子的埃爾德里奇怎麼還沒回來？",
 			typewriter = {
 				speed = 0.05,
@@ -1065,8 +1065,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喬治亞",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -1081,13 +1081,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "經過一番努力尋找，終於在艙門外不遠處找到了睡在地板上的埃爾德里奇。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1176,9 +1176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "看著舒服熟睡的埃爾德里奇，不知為何睏意也湧了上來。",
 			typewriter = {
 				speed = 0.05,
@@ -1190,9 +1190,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "那就恭敬不如從命，小睡片刻好了……",
 			typewriter = {
 				speed = 0.05,
@@ -1204,11 +1204,11 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1267,12 +1267,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

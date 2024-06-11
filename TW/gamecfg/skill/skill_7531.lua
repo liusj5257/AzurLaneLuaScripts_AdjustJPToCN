@@ -2,20 +2,20 @@ return {
 	uiEffect = "",
 	name = "传颂之物前排雷伤2%",
 	cd = 0,
-	painting = "lulutiye",
-	id = 7531,
 	picture = "0",
 	aniEffect = "",
 	desc = "传颂之物前排雷伤2%",
+	painting = "lulutiye",
+	id = 7531,
 	castCV = {
-		skinID = 10300030,
-		key = "skill"
+		key = "skill",
+		skinID = 10300030
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerVanguardFleet"
 			},

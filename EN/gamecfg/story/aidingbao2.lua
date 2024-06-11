@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uniquely \"Me\"\n\n<size=45>2 Dejection and Smiles</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "While sifting through my own paperwork, I ask Edinburgh to take care of cleaning the office.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "While sifting through my own paperwork, I ask Edinburgh to take care of cleaning the office.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Cleaning is one of every maid's fundamentals! I'll make sure it's done flawlessly!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -76,15 +76,15 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Heh heh! See, my cleaning skills are certainly not inferior to Bel's. Now, to put away my cleaning tools...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "*CLAAAAANG*!!",
 			dialogShake = {
 				speed = 0.08,
@@ -128,11 +128,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Ack! I knocked over the bucket! I don't even remember putting it over there! ...Where's the rag, where's the rag? ...Ahh!",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,15 +154,15 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "S-sorry for my blunder just now... Just give me a moment to prepare the tea, so please rest for now––",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "I've got you now! Hyaaah!",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,9 +229,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "*THWACK*!!",
 			dialogShake = {
 				speed = 0.08,
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "",
 			typewriter = {
 				speed = 0.05,
@@ -278,9 +278,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "And thus, the chaotic day finally draws to an end.",
 			typewriter = {
 				speed = 0.05,
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "At least now that things have calmed down, I have an opportunity to savor Edinburgh's black tea.",
 			typewriter = {
 				speed = 0.05,
@@ -386,9 +386,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Edinburgh, who had been wallowing in dejection due to her missteps, finally smiles again.",
 			typewriter = {
 				speed = 0.05,
@@ -448,9 +448,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I hand the cup back over to Edinburgh, and she prepares another serving for me.",
 			typewriter = {
 				speed = 0.05,
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Ahh... I'm sure this cup of tea came out great! After all, I put in so much effort praying for your happiness!",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -520,9 +520,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Edinburgh tilts her head with a puzzled expression. Seems like her dejection from before has completely vanished without a trace.",
 			typewriter = {
 				speed = 0.05,
@@ -534,11 +534,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "D-don't keep it a secret from me~! I want to know what you're laughing about!",
 			typewriter = {
 				speed = 0.05,
@@ -550,8 +550,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

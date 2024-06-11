@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -34,20 +34,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "黄昏の陽光が窓からホールに差し込んだ頃、長くかかった会議はようやく一段落付いた。",
 			bgm = "story-richang-sooth",
+			say = "黄昏の陽光が窓からホールに差し込んだ頃、長くかかった会議はようやく一段落付いた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			say = "少し休憩しようと、宴会ホールに向かわず建物の廊下を少し散歩した。",
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			say = "そうして、休憩室の外にあるバルコニーにやってきた。",
@@ -71,10 +71,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "黄昏時のアイリスのお城は絵になるわね",
 			painting = {
 				alpha = 0.3,
@@ -89,10 +89,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、会議お疲れ様",
 			painting = {
 				alpha = 0.3,
@@ -119,10 +119,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あははは……まあね…",
 			painting = {
 				alpha = 0.3,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			say = "少し疲れた表情を見せ、メンフィスは「書記」と書かれているネックストラップを指差した。",
@@ -148,10 +148,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "責務を全うするだけよ",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…フルーツコーナーからこっそり持ち出したりんごよ。甘くて新鮮だし指揮官もどう？",
 			painting = {
 				alpha = 0.3,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あはは…指揮官は一番疲れてるだろうしね…",
 			painting = {
 				alpha = 0.3,
@@ -213,10 +213,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "次から次へと各陣営の代表が発言するのはいいけど、何か実りがない……聞いているだけで頭が痛くなりそうだったわ",
 			painting = {
 				alpha = 0.3,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「レッドアクシズ」…みんなはともかく、上層部が干渉しないはずがないもの",
 			painting = {
 				alpha = 0.3,
@@ -272,10 +272,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いつの間にかアイリスの復帰ではなく、「アズールレーン」と「レッドアクシズ」の合併に話が飛んでて…",
 			painting = {
 				alpha = 0.3,
@@ -347,12 +347,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね。特にリシュリューは審判廷との話があるというのに、サディアに主催を譲ってくれるなんて驚いたわ",
 			painting = {
 				alpha = 0.3,
@@ -364,12 +364,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それに比べて他の陣営といえば……",
 			painting = {
 				alpha = 0.3,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ユニオンは再結成に協力的だけど、ロイヤルと北方連合は各々の準備もあるって少し態度が曖昧で…",
 			painting = {
 				alpha = 0.3,
@@ -401,10 +401,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "東煌はいつも通り、「各陣営の意見を尊重し、平和的な対話による問題の解決を支持する」ってフォローしてくれてる感じだし",
 			painting = {
 				alpha = 0.3,
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「レッドアクシズ」は一枚岩じゃなさそうね",
 			painting = {
 				alpha = 0.3,
@@ -436,10 +436,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "サディアは支持なのに、重桜は反対だし",
 			painting = {
 				alpha = 0.3,
@@ -454,10 +454,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "鉄血はごまかすことに徹して本音を見せない始末…",
 			painting = {
 				alpha = 0.3,
@@ -472,10 +472,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やっぱり公の会議だとこうなるのかしら…はあ…いつになったら終わるのやら",
 			painting = {
 				alpha = 0.3,
@@ -502,10 +502,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね…私もそう感じたわ",
 			painting = {
 				alpha = 0.3,
@@ -517,12 +517,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "会議に次ぐ会議、調整に次ぐ調整、できることもできなくなっちゃう",
 			painting = {
 				alpha = 0.3,
@@ -546,12 +546,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ん？突然のご指名ね",
 			painting = {
 				alpha = 0.3,
@@ -566,10 +566,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろん、陣営が一致団結、一丸になるに越したことはないわ",
 			painting = {
 				alpha = 0.3,
@@ -584,10 +584,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でもこの団結は表面上だけのものじゃなく、もっと実質的なものじゃなきゃならない",
 			painting = {
 				alpha = 0.3,
@@ -599,12 +599,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "形だけの同盟だと結局みんな力を出し惜しみ、足を引っ張り合ってむしろ弱くなるのがオチよ",
 			painting = {
 				alpha = 0.3,
@@ -616,12 +616,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "で？指揮官こそ「アズールレーン」の再結成をどう思う？",
 			painting = {
 				alpha = 0.3,
@@ -708,10 +708,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "きっかけね…これはどうかしら？",
 			painting = {
 				alpha = 0.3,
@@ -723,8 +723,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			say = "端末にメンフィスから送信された資料が表示された。",
@@ -761,10 +761,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そう。すべてが終わって状況を整理してた時、ちょっとヘンなアクシデントが見つかってね",
 			painting = {
 				alpha = 0.3,
@@ -779,10 +779,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今のアイリスとサディアの状況――なぜ急に統一戦線になったのか、より深く理解できるかもしれないわ",
 			painting = {
 				alpha = 0.3,
@@ -797,10 +797,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そしてこれが指揮官の言った「きっかけ」になってくれるといいんだけど",
 			painting = {
 				alpha = 0.3,
@@ -839,10 +839,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。サディアは晩餐会に一番力を入れているって聞いたしね",
 			painting = {
 				alpha = 0.3,
@@ -857,10 +857,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "早く行きましょ！",
 			painting = {
 				alpha = 0.3,

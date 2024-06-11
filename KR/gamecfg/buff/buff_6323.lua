@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "TBD(VT-8)",
 	time = 0,
-	color = "yellow",
+	name = "TBD(VT-8)",
+	init_effect = "",
+	id = 6323,
 	picture = "",
 	desc = "更换舰载机",
 	stack = 1,
-	id = 6323,
+	color = "yellow",
 	icon = 6320,
 	last_effect = "",
 	effect_list = {

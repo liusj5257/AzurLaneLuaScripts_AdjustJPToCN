@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103160,
-			side = 0,
-			bgm = "battle-boss-4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "這個裝甲…203mm炮的威力還不足以擊穿嗎…",
 			soundeffect = "event:/battle/boom2",
+			side = 0,
+			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "這個裝甲…203mm炮的威力還不足以擊穿嗎…",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "這麼快就陷入窮途末路了，妳剛才的那股氣勢呢？",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哈哈哈哈！塞壬，妳犯了一個很大的錯誤。",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,9 +135,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "堅持了這麼久，終於把妳引到目標位置了！",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -171,10 +171,10 @@ return {
 			}
 		},
 		{
+			say = "轟——",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -222,10 +222,10 @@ return {
 			}
 		},
 		{
+			say = "轟————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟————！",
 			flashN = {
 				color = {
 					1,
@@ -276,8 +276,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "居然是…406mm炮彈的遠距離灌頂——",
 			typewriter = {
 				speed = 0.05,
@@ -289,10 +289,10 @@ return {
 			}
 		},
 		{
+			say = "轟————",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟————",
 			flashN = {
 				color = {
 					1,
@@ -355,10 +355,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "阿拉巴馬",
+			side = 2,
 			dir = 1,
+			actorName = "阿拉巴馬",
 			say = "…打中了嗎？距離太遠…無法觀測…",
 			effects = {
 				{
@@ -378,9 +378,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "打得很準，和訓練時一樣，做得很好！",
 			effects = {
 				{
@@ -398,10 +398,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "阿拉巴馬",
+			side = 2,
 			dir = 1,
+			actorName = "阿拉巴馬",
 			say = "妳的引導也很…好。",
 			effects = {
 				{
@@ -419,11 +419,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
+			actor = 900011,
 			dir = 1,
+			actorName = "測試者",
 			say = "…………",
 			effects = {
 				{
@@ -444,8 +444,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "進化與變革，必然帶來苦難與犧牲。相比於結果帶來的救贖，過程中的犧牲簡直不值一提。",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "一面擺出無知的架勢，一面盡情的釋放仇恨，這倒確實是實驗素材應該有的反應。",
 			typewriter = {
 				speed = 0.05,
@@ -552,8 +552,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -565,8 +565,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -596,9 +596,9 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "指揮官，薩拉妹妹前來支援了~！",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,8 +642,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "呵呵呵，確實說的有些多了。",
 			typewriter = {
 				speed = 0.05,
@@ -658,8 +658,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "很遺憾，預定的時間到了。",
 			typewriter = {
 				speed = 0.05,
@@ -671,10 +671,10 @@ return {
 			}
 		},
 		{
+			say = "轟————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟————！",
 			flashN = {
 				color = {
 					1,
@@ -722,10 +722,10 @@ return {
 			}
 		},
 		{
+			say = "轟——————！！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟——————！！",
 			flashN = {
 				color = {
 					1,
@@ -788,8 +788,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -813,8 +813,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信器",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "滋滋滋…",
@@ -883,12 +883,12 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "休想逃跑！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "休想逃跑！！",
 			flashN = {
 				color = {
 					1,
@@ -939,8 +939,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "哪裡，真正的測試，從現在才正式開始呢。",
 			typewriter = {
 				speed = 0.05,
@@ -955,8 +955,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "劇場的大幕已經拉開，主角也已經登場，在名為“歷史”的舞台上盡情演繹吧，各位“演員們”———",
 			typewriter = {
 				speed = 0.05,
@@ -1058,8 +1058,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -1071,8 +1071,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "靜靜停留在遠方——",
 			typewriter = {
 				speed = 0.05,
@@ -1084,8 +1084,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "彷彿總指揮一般的——",
 			typewriter = {
 				speed = 0.05,
@@ -1097,8 +1097,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "那個身影，簡直像…",
 			typewriter = {
 				speed = 0.05,
@@ -1110,17 +1110,17 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			actorName = "？？？",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900189,
 			nameColor = "#ff6100",
 			say = "新的“奇異點”很快就要完成了，就在這片海域上。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1145,12 +1145,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？",
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -1162,12 +1162,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "妳這麼肯定這次我們的目標就是…？",
 			typewriter = {
 				speed = 0.05,
@@ -1179,12 +1179,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？",
 			say = "我能感覺到…我能感覺到那個人。",
 			typewriter = {
 				speed = 0.05,
@@ -1196,12 +1196,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "在那個人的身邊，一定還有“她”存在吧，到時候妳要如何處置？",
 			typewriter = {
 				speed = 0.05,
@@ -1213,12 +1213,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -1230,12 +1230,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "行吧，到時候我會幫妳一把的。",
 			typewriter = {
 				speed = 0.05,
@@ -1247,12 +1247,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "妳只要，堅定地往前走就好。",
 			typewriter = {
 				speed = 0.05,
@@ -1264,12 +1264,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "不要回頭——",
 			typewriter = {
 				speed = 0.05,

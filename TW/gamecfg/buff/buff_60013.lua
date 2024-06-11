@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-拉菲-技能触发被动",
 	time = 0,
+	name = "测试-拉菲-技能触发被动",
+	init_effect = "",
 	picture = "",
 	desc = "狂暴",
 	stack = 1,

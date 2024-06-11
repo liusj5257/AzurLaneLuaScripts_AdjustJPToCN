@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "2023克莱蒙梭活动 SP 审判机甲-支配 召唤激光发射器",
 	cd = 0,
-	painting = 0,
-	id = 200535,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200535,
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -26,35 +26,35 @@ return {
 					buffList = {},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 0.5,
 							addBuff = {
 								200533
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 10,
 							addWeapon = {
 								3074011
 							}
 						},
 						{
-							switchType = 1,
+							switchParam = 300,
 							switchTo = 0,
 							index = 3,
-							switchParam = 300,
+							switchType = 1,
 							setAI = 20006,
 							addBuff = {
 								200440

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나의 아름다운 기억\n\n<size=45>6. 허세와 진심·상</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "에췻!......",
 			bgm = "story-2",
+			actor = 202030,
+			nameColor = "#92fc63",
+			say = "에췻!......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "이불을 덮고 있는 에이잭스의 얼굴이 빨갛다. 온도계의 체온이 그녀가 열이 난다는 걸 보여준다.",
 			typewriter = {
 				speed = 0.05,
@@ -48,9 +48,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "신체 구조가 인간과는 다르지만, 감기에 걸린 듯하다.",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "주동권을 쥐고 있지 않으니 우울해 보인다......",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "살짝 에이잭스의 이마에 젖은 수건을 덮어줬다.",
 			typewriter = {
 				speed = 0.05,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#92fc63",
 			say = "이걸... 왜...",
 			typewriter = {
 				speed = 0.05,

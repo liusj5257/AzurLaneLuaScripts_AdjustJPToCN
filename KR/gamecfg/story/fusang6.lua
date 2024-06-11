@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"벚꽃이 흩날리던 그날 이후\n\n<size=45>6. 실의에 젖은 비</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "모항·지휘실",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "모항·지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,9 +51,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "저녁 무렵, 밖엔 광풍과 함께 폭우가 내리며 빗방울이 지휘실 창문의 유리를 두드리고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "지휘실에 노크 소리가 울렸고, 모가미가 걸어 들어왔다.",
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 302100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302100,
+			nameColor = "#a9f548",
 			say = "그래도 역시 한 번 부탁하고 싶어…… 그럼 난 먼저 가볼게. 미쿠마에게 너무 오래 기다리게 할 수 없어.",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "떠나가는 모가미를 보며 후소는 약간 피곤한 듯 한숨을 내쉬었다.",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "말이 떨어지자마자, 후소는 갑자기 가볍게 고개를 흔들며 활기를 회복하고 웃음을 내보였다.",
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "조금 쑥쓰러웠지만, 후소의 말에 따라 입을 벌렸다. 후소가 직접 만든 맛있는 찹쌀떡은 이렇게 입 속으로 들어왔다.",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

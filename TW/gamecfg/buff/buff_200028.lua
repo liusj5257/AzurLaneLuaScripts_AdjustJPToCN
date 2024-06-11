@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "定身触发",
 	time = 7,
+	name = "定身触发",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

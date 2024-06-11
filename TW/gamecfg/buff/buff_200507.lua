@@ -1,12 +1,12 @@
 return {
-	time = 1,
-	name = "2023古立特联动复刻 TSS4 公主 一阶段结束",
 	init_effect = "",
+	name = "2023古立特联动复刻 TSS4 公主 一阶段结束",
+	time = 1,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200507,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

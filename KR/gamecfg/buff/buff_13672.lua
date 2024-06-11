@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "最后的倔强",
 	time = 0,
-	color = "blue",
+	name = "最后的倔强",
+	init_effect = "",
+	id = 13672,
 	picture = "",
 	desc = "弹幕升级",
 	stack = 1,
-	id = 13672,
+	color = "blue",
 	icon = 13670,
 	last_effect = "",
 	effect_list = {

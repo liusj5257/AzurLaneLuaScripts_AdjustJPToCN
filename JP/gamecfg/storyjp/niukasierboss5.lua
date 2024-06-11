@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戦え！ロイヤルメイド隊\n\n<size=45>五　演習完了</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "合同演習が無事終了し、皆母港に帰還した",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "さすがはご主人様の艦隊です。私達ロイヤルメイド隊の敗北でした",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "まあいいわ！負けこそしたけど、ロイヤルメイド隊の実力をこの母港のメンバー全員に見せつけたし…",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "まあいいわ！負けこそしたけど、ロイヤルメイド隊の実力をこの母港のメンバー全員に見せつけたし…",
+			actor = 205010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "恐縮でございます",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "ニューカッスルはベルファストたちメイド隊に向けて――",
 			typewriter = {
 				speed = 0.05,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
+			say = "よかった～",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "よかった～",
+			actor = 202110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -305,8 +305,8 @@ return {
 			expression = 9,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "でもこれってサボりづらくなりますよね…うぅ……",
 			typewriter = {

@@ -1,12 +1,12 @@
 return {
-	id = "W1104",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1104",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "세이렌의 위협이 해소되었다... 해역에서 세이렌 자원 포인트를 발견했다.",
 			typewriter = {
 				speed = 0.05,

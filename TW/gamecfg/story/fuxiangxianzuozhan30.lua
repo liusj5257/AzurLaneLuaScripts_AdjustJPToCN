@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN30",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-seiren-theme",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "轟————————！",
 			dir = 1,
-			bgm = "battle-seiren-theme",
+			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "構建者護盾，確認擊破。",
 			typewriter = {
@@ -80,8 +80,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "很好，接下來給它最後一擊————",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "外層護盾回收完畢。內層護盾，啟動——————",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "這是作弊了吧~~~~！！！！大家注意，海蟑螂的護盾重新出現了！！！！！",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -141,8 +141,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "這股力量是…………",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "剛剛的戰鬥造成的損傷都完全無效的意思嗎，怎麼會這樣……！",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "諸位鐵血和薩丁帝國的盟友們，看來妳們需要一點小小的幫助呢。",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 307060,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "現在放棄還太早了！繼續保持包圍，這一輪護盾由我們來打破！姐姐，準備好了嗎？",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "呵呵，早就已經進入目標上空瞄準好了哦，本來不想搶走諸位的戰功，不過看上去不是能保留實力的情況了。",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 305020,
 			dir = 1,
+			actor = 305020,
 			nameColor = "#a9f548",
 			say = "我也準備好了……大家一起上！",
 			typewriter = {
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			say = "轟————————！",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -295,8 +295,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "護盾的最後一擊，就由我收下了！",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "………………",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -367,14 +367,14 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "護盾擊破確認~！我的直覺告訴我就是現在，鐵甲艦衝鋒！",
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -390,8 +390,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,8 +419,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "休想，你已經跑不掉了————哎哎哎哎？ ！ ！",
 			typewriter = {
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,8 +446,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "發生什麼事了，海因里希，我這邊突然搜索不到目標了！",
 			typewriter = {
@@ -463,8 +463,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "下潛了……構建者突然快速潛入水面之下消失了！明明擁有那麼巨大的體積！",
 			typewriter = {
@@ -480,8 +480,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "咦？！不是說好移動模組的嗎，怎麼變成下潛了！！！！",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -524,8 +524,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "妳個狡猾的海蟑螂，給我站住！！！！",
 			typewriter = {
@@ -538,8 +538,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -548,15 +548,15 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "果然最後會選擇水下逃跑啊，構建者……呵呵。U-37，妳已經到達伏擊位置了吧，準備攔截！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -584,9 +584,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_134",
-			actor = 408100,
 			dir = 1,
 			blackBg = true,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "U-37收到，嘿嘿，水下的戰鬥就交給我吧~！",
 			typewriter = {

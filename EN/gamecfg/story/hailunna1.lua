@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAILUNNA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAILUNNA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Cinnamon Roll on a Rainy Day\n\n<size=45>1 Sweet as Sugar</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Early morning - Outside the office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Early morning - Outside the office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I was nearing my office, and that's when I saw a familiar figure right by the door.",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "I thought I should wait for you before stepping inside, so... Here I am.",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Right, today was the day Helena would start as my secretary. I then noticed she'd brought a big stack of notes with her.",
 			typewriter = {
 				speed = 0.05,
@@ -111,15 +111,15 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102050,
+			nameColor = "#a9f548",
 			say = "Okay, first thing's first – sorting paperwork.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -144,9 +144,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Helena placed her stack of notes on the table and started flicking through them.",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She withdrew a sheet with gorgeous handwriting and adorned with a colorful stamp, to boot.",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "...Hm? Are you wondering what my notes are for?",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "I figured their advice would help me perform my job better, so yeah...",
 			typewriter = {
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Talk about playing it extremely safe... To be fair, she has always been like that.",
 			typewriter = {
 				speed = 0.05,
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102050,
+			nameColor = "#a9f548",
 			say = "Ah, crap, I haven't made you a drink yet. Do you want tea or coffee?",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "The usual strength... Got it. I'll be back in a minute.",
 			typewriter = {
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She anxiously skimmed her notes until she found the page she was looking for, then left the office.",
 			typewriter = {
 				speed = 0.05,
@@ -305,13 +305,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Helena came back a while later with a kitchen scale in hand.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -339,8 +339,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "This? It's so I can make exact measurements.",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "...It's done. Here you go, Commander.",
 			typewriter = {
@@ -386,9 +386,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I had a sip, and... it was just my cup of tea. Literally, I suppose.",
 			typewriter = {
 				speed = 0.05,
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "However, seeing how meticulous she was made me worry if she cooked like this too. I prayed she wouldn't turn the kitchen into a science lab.",
 			typewriter = {
 				speed = 0.05,
@@ -430,9 +430,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She was already performing impeccably as a secretary. Then, all of a sudden, someone came knocking on the door.",
 			typewriter = {
 				speed = 0.05,
@@ -460,11 +460,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "Ugh. Couldn't you have carried these papers yourself, Louis?",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It was St. Louis and Honolulu. What a coincidence.",
 			typewriter = {
 				speed = 0.05,
@@ -535,8 +535,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Sorry, I just remembered I have to go return this scale. I have to go...",
 			typewriter = {
@@ -552,8 +552,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102130,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "Goodness, she left in a hurry.",
 			typewriter = {
@@ -582,9 +582,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"She definitely is. Though 'diligent' doesn't quite do it justice. More like 'fastidious'...\"",
 			typewriter = {
 				speed = 0.05,
@@ -612,9 +612,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"Rock candy? In what way?\"",
 			typewriter = {
 				speed = 0.05,
@@ -629,8 +629,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102130,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "Sweet, but sticky, I suppose.",
 			typewriter = {

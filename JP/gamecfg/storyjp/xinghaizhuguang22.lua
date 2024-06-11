@@ -4,29 +4,29 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-ucnf",
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――――！！！",
 			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-ucnf",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "――その時、浮遊艦隊の陣列から巨大な機械が飛び出した。",
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuguang_4",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――！！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

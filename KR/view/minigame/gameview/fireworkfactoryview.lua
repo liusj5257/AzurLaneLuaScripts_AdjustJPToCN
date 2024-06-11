@@ -1,7 +1,7 @@
 slot0 = class("FireworkFactoryView", import("..BaseMiniGameView"))
 slot1 = Mathf
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FireworkFactoryUI"
 end
 
@@ -39,11 +39,11 @@ slot4 = {
 	"c"
 }
 
-function slot0.TransformColor(slot0)
+slot0.TransformColor = function(slot0)
 	return Color.New(tonumber(string.sub(slot0, 1, 2), 16) / 255, tonumber(string.sub(slot0, 3, 4), 16) / 255, tonumber(string.sub(slot0, 5, 6), 16) / 255)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.top = slot0:findTF("top")
 	slot0.plate = slot0:findTF("plate")
 	slot0.storage = slot0:findTF("storage")
@@ -122,11 +122,11 @@ function slot0.init(slot0)
 	slot0.progressDispense = 0
 end
 
-function slot0.SetSprite(slot0, slot1, slot2)
+slot0.SetSprite = function(slot0, slot1, slot2)
 	slot0:SetImageSprite(slot1:GetComponent("Image"), slot2)
 end
 
-function slot0.SetImageSprite(slot0, slot1, slot2)
+slot0.SetImageSprite = function(slot0, slot1, slot2)
 	slot3 = pg.PoolMgr.GetInstance()
 
 	slot3:GetSprite("ui/fireworkfactoryui_atlas", slot2, false, function (slot0)
@@ -134,7 +134,7 @@ function slot0.SetImageSprite(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btn_back, function ()
 		if uv0.flagDispense then
 			uv0:ExitDispenseView()
@@ -193,7 +193,7 @@ function slot0.didEnter(slot0)
 		uv0:ShowResult()
 	end)
 
-	function slot4()
+	slot4 = function()
 		uv0:ShowResult()
 	end
 
@@ -255,7 +255,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.UpdateNextBtn(slot0)
+slot0.UpdateNextBtn = function(slot0)
 	if not slot0.flagStart then
 		slot1 = "dispense_ready"
 
@@ -272,7 +272,7 @@ function slot0.UpdateNextBtn(slot0)
 	setButtonEnabled(slot0.btn_next, not slot0.flagStart or slot0:CheckballLoaded())
 end
 
-function slot0.UpdateDispenseBtn(slot0)
+slot0.UpdateDispenseBtn = function(slot0)
 	slot0:SetImageSprite(slot0.btn_load_img, slot0:CheckpowderDispensed() and "btn_loadcompleted" or "btn_load")
 	slot0:SetSprite(slot0.btn_load_text, slot1 and "load_completed" or "load_ready")
 	setButtonEnabled(slot0.btn_load, not slot1)
@@ -286,7 +286,7 @@ slot5 = {
 	"finish_time"
 }
 
-function slot0.FindandStopProgress(slot0)
+slot0.FindandStopProgress = function(slot0)
 	slot0:StopHammerAnim()
 	setButtonEnabled(slot0.btn_hammer, false)
 	setButtonEnabled(slot0.btn_dispenseBG, false)
@@ -347,7 +347,7 @@ function slot0.FindandStopProgress(slot0)
 	end))
 end
 
-function slot0.FindNextPowderProgress(slot0)
+slot0.FindNextPowderProgress = function(slot0)
 	slot0.progressDispense = #slot0.result_digits + 1
 
 	if slot0.progressDispense > 3 then
@@ -357,7 +357,7 @@ function slot0.FindNextPowderProgress(slot0)
 	end
 end
 
-function slot0.ShowResultWindow(slot0)
+slot0.ShowResultWindow = function(slot0)
 	if #slot0.result_digits < 3 then
 		return
 	end
@@ -388,7 +388,7 @@ function slot0.ShowResultWindow(slot0)
 	slot0:SetImageSprite(slot0.result_pingjia, uv0[slot4])
 end
 
-function slot0.ShowResult(slot0)
+slot0.ShowResult = function(slot0)
 	if slot0:GetMGHubData().count <= 0 then
 		slot0:AfterResult()
 	else
@@ -398,7 +398,7 @@ function slot0.ShowResult(slot0)
 	setActive(slot0.resultWindow, false)
 end
 
-function slot0.OnGetAwardDone(slot0, slot1)
+slot0.OnGetAwardDone = function(slot0, slot1)
 	slot3 = slot0:GetMGHubData().ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime
 
 	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE and slot3 then
@@ -414,7 +414,7 @@ function slot0.OnGetAwardDone(slot0, slot1)
 	end
 end
 
-function slot0.AfterResult(slot0)
+slot0.AfterResult = function(slot0)
 	slot2 = Clone(slot0.ballSelectStatus)
 
 	table.insert(slot2, SummerFeastScene.GetCurrentDay())
@@ -424,7 +424,7 @@ function slot0.AfterResult(slot0)
 	end)
 end
 
-function slot0.reset(slot0)
+slot0.reset = function(slot0)
 	slot0:ExitDispenseView()
 
 	slot0.flagStart = false
@@ -436,7 +436,7 @@ function slot0.reset(slot0)
 	slot0:UpdateNextBtn()
 end
 
-function slot0.GetReward(slot0)
+slot0.GetReward = function(slot0)
 	if #slot0.result_digits < 3 then
 		return
 	end
@@ -465,7 +465,7 @@ function slot0.GetReward(slot0)
 	slot0:SendSuccess(slot4)
 end
 
-function slot0.ResetHammerAnim(slot0)
+slot0.ResetHammerAnim = function(slot0)
 	if slot0.hammerAnim then
 		slot0:StopHammerAnim()
 	end
@@ -477,7 +477,7 @@ function slot0.ResetHammerAnim(slot0)
 	end))
 end
 
-function slot0.StopHammerAnim(slot0)
+slot0.StopHammerAnim = function(slot0)
 	if not slot0.hammerAnim then
 		return
 	end
@@ -487,7 +487,7 @@ function slot0.StopHammerAnim(slot0)
 	slot0.hammerAnim = nil
 end
 
-function slot0.UpdateContainer(slot0)
+slot0.UpdateContainer = function(slot0)
 	slot0:SetSprite(slot0.btn_hammer_text, uv0[slot0.progressDispense + 1])
 
 	slot1 = 0
@@ -505,7 +505,7 @@ function slot0.UpdateContainer(slot0)
 	slot0.slider_progress.value = slot1 / 300
 end
 
-function slot0.StopProgressAnim(slot0)
+slot0.StopProgressAnim = function(slot0)
 	if not slot0.progressAnim then
 		return
 	end
@@ -515,17 +515,17 @@ function slot0.StopProgressAnim(slot0)
 	slot0.progressAnim = nil
 end
 
-function slot0.CheckballLoaded(slot0)
+slot0.CheckballLoaded = function(slot0)
 	return _.all(slot0.ballSelectStatus, function (slot0)
 		return slot0 > 0
 	end)
 end
 
-function slot0.CheckpowderDispensed(slot0)
+slot0.CheckpowderDispensed = function(slot0)
 	return #slot0.result_digits >= 3
 end
 
-function slot0.UpdateBall(slot0, slot1, slot2)
+slot0.UpdateBall = function(slot0, slot1, slot2)
 	setActive(slot1, slot2 > 0)
 
 	if slot2 <= 0 then
@@ -537,7 +537,7 @@ function slot0.UpdateBall(slot0, slot1, slot2)
 	slot0:SetSprite(slot1:Find("symbol"), uv0[slot2].name)
 end
 
-function slot0.UpdateRing(slot0, slot1, slot2)
+slot0.UpdateRing = function(slot0, slot1, slot2)
 	if slot1 <= 0 or slot1 > 3 then
 		return
 	end
@@ -551,7 +551,7 @@ function slot0.UpdateRing(slot0, slot1, slot2)
 	slot3:GetComponent("Image").color = slot0.TransformColor(uv0[slot2].color)
 end
 
-function slot0.ResetView(slot0)
+slot0.ResetView = function(slot0)
 	_.each(slot0.plateRings, function (slot0)
 		setActive(slot0, false)
 	end)
@@ -580,7 +580,7 @@ function slot0.ResetView(slot0)
 	setActive(slot0.progress_sub_mark_2, false)
 end
 
-function slot0.UdpateSelectedBall(slot0, slot1)
+slot0.UdpateSelectedBall = function(slot0, slot1)
 	if slot1 <= 0 or slot1 > 3 then
 		return
 	end
@@ -598,7 +598,7 @@ function slot0.UdpateSelectedBall(slot0, slot1)
 	slot0.lastSelectedBall = slot1
 end
 
-function slot0.EnterDispenseView(slot0)
+slot0.EnterDispenseView = function(slot0)
 	setActive(slot0.dispenseView, true)
 
 	slot0.flagDispense = true
@@ -609,7 +609,7 @@ function slot0.EnterDispenseView(slot0)
 	slot0.slider_powder.value = 0
 end
 
-function slot0.ExitDispenseView(slot0)
+slot0.ExitDispenseView = function(slot0)
 	if not slot0.flagDispense then
 		return
 	end
@@ -632,7 +632,7 @@ function slot0.ExitDispenseView(slot0)
 	slot0.flagDispense = false
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:ExitDispenseView()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
 

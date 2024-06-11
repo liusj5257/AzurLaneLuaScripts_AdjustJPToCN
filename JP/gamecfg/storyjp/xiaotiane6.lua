@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春風の十字星\n\n<size=45>その六  証人</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "だ・か・ら！本当に帰ってきたばかりで、服がなぜか部屋中に散らばっていて……それを片付けようとしただけだぞ！",
 			bgm = "story-1",
+			actor = 207020,
+			nameColor = "#a9f548",
+			say = "だ・か・ら！本当に帰ってきたばかりで、服がなぜか部屋中に散らばっていて……それを片付けようとしただけだぞ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "普段のアークロイヤルさんを見てたら…",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "普段のアークロイヤルさんを見てたら…",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "ヴァンパイア？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ヴァンパイア？",
+			actor = 201101,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -267,10 +267,10 @@ return {
 			}
 		},
 		{
-			actor = 201101,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201101,
 			dir = 1,
 			hideOther = true,
 			actorName = "アークロイヤル&シグニット",

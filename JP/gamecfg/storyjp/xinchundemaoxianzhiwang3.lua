@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"スプリング冒険キング\n\n<size=45>三 二段構え？</size>",
@@ -14,24 +14,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "どうにか飛雲を救出し、執務室に戻って最後の仕事に手をつけた。",
 			bgm = "main-chunjie3",
+			say = "どうにか飛雲を救出し、執務室に戻って最後の仕事に手をつけた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、新しいお茶を持ってきたわ。変なものはもちろん入っていない――",
 			painting = {
 				alpha = 0.3,
@@ -46,10 +46,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………でいいよね？飛雲",
 			painting = {
 				alpha = 0.3,
@@ -64,10 +64,10 @@ return {
 			expression = 16,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うわわわ…メンフィス、顔が怖いよ…",
 			painting = {
 				alpha = 0.3,
@@ -79,8 +79,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -92,10 +92,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "や、やっぱりここはドライアップルでも食べて落ち着こう！ほらっ！",
 			painting = {
 				alpha = 0.3,
@@ -110,10 +110,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ドライアップル？",
 			painting = {
 				alpha = 0.3,
@@ -128,10 +128,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん！さっき台所の棚からこっそり何個か持ち帰った！あんなことされて手ぶらで帰るわけないでしょ～",
 			painting = {
 				alpha = 0.3,
@@ -146,10 +146,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろん！指揮官の分も～",
 			painting = {
 				alpha = 0.3,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "（トントン）",
 			soundeffect = "event:ui/knockdoor1",
+			say = "（トントン）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,10 +176,10 @@ return {
 			portrait = 506010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "鎮海",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官？ちょっといいでしょうか…",
 			painting = {
 				alpha = 0.3,
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 506010,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 506010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "お邪魔します。指揮官",
 			painting = {
 				alpha = 0.3,
@@ -219,17 +219,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -240,10 +240,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっきの茶缶のイタズラの真犯人を捕まえました",
 			painting = {
 				alpha = 0.3,
@@ -255,12 +255,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（こそこそ、きょろきょろ…）",
 			painting = {
 				alpha = 0.3,
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "申し訳ございません！妹がまたご迷惑をおかけしました！",
 			painting = {
 				alpha = 0.3,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう！撫順も早く謝って！",
 			painting = {
 				alpha = 0.3,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ごめんなさいぃ……",
 			painting = {
 				alpha = 0.3,
@@ -323,12 +323,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ！でもみんな変なお茶を飲んだってことは、今回のイタズラは大成功でいいかな？あははは",
 			painting = {
 				alpha = 0.3,
@@ -340,12 +340,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "撫順ーーーー！！！",
 			painting = {
 				alpha = 0.3,
@@ -357,8 +357,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -367,12 +367,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わあああ！姉ちゃん痛い痛い痛い！ほっぺを引っ張らないでーーーー！！",
 			painting = {
 				alpha = 0.3,
@@ -387,10 +387,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……それで、飛雲には謝罪したくて",
 			painting = {
 				alpha = 0.3,
@@ -405,10 +405,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ごめんね飛雲、虎ちゃんたちが勘違いしてた…",
 			painting = {
 				alpha = 0.3,
@@ -435,10 +435,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね。我も含めて、みんな飛雲の仕業だって決めつけてしまったみたい",
 			painting = {
 				alpha = 0.3,
@@ -453,10 +453,10 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ううぅ…だから飛雲は何をしてないって言ったじゃない！",
 			painting = {
 				alpha = 0.3,
@@ -471,10 +471,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ、心が広いオトナの飛雲さまだから、お詫びはこのドライアップルで勘弁してあげる",
 			painting = {
 				alpha = 0.3,
@@ -513,10 +513,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろん大歓迎だけど、でも…",
 			painting = {
 				alpha = 0.3,
@@ -531,10 +531,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大丈夫。このお茶は執務室のお茶パックで淹れたわ。撫順にいたずらされた茶缶じゃないの",
 			painting = {
 				alpha = 0.3,
@@ -546,8 +546,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -556,12 +556,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うんうん！さっきからずっと鞍山姉さんに説教されて、もう喉が乾いてるよ…",
 			painting = {
 				alpha = 0.3,
@@ -573,8 +573,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "メンフィスが持ってきたお茶をみんなのカップに注いで、そして――",
@@ -584,29 +584,29 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "げほげほげほげほ―――！！！",
 			bgm = "main-chunjie4-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "げほげほげほげほ―――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -634,10 +634,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっき淹れたばかりなのに……！",
 			painting = {
 				alpha = 0.3,
@@ -652,10 +652,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "にゃははは！ぬかったな！",
 			painting = {
 				alpha = 0.3,
@@ -667,8 +667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -680,10 +680,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "撫順は失敗しちゃったけど、飛雲さまの大冒険は成功した！",
 			painting = {
 				alpha = 0.3,
@@ -695,12 +695,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ま、まさかこの撫順を囮にしたのかー！",
 			painting = {
 				alpha = 0.3,
@@ -712,12 +712,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うわああ！どうしてこうなった！",
 			painting = {
 				alpha = 0.3,
@@ -732,10 +732,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふん、ライバルの撫順ですら飛雲さまの罠にハマったし、もう冒険においては飛雲さまが母港で最強ってこと！",
 			painting = {
 				alpha = 0.3,
@@ -747,12 +747,12 @@ return {
 			}
 		},
 		{
-			actor = 506010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 506010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "げほげほ……最初から二人で二段構えで仕込んでいたと…！？",
 			painting = {
 				alpha = 0.3,
@@ -764,8 +764,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -774,12 +774,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "違う違う！撫順は何も知らないよー！",
 			painting = {
 				alpha = 0.3,
@@ -794,10 +794,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、どう？やっぱり飛雲さまのほうがすごいでしょ！",
 			painting = {
 				alpha = 0.3,
@@ -812,10 +812,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これが最後の手ってこと♪",
 			painting = {
 				alpha = 0.3,
@@ -827,13 +827,13 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorScale = 0.5,
+			actor = 501010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "飛雲―――！！！",
 			painting = {
 				alpha = 0.3,
@@ -845,8 +845,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -862,8 +862,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -879,8 +879,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 3,
 					dur = 0.1,
 					number = 3
@@ -888,27 +888,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "翌日、執務室。ティーポットに変なものは入っておらず、かわりに机の上に反省文が2つ置かれていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -938,27 +938,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "「新春冒険進行中」完？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

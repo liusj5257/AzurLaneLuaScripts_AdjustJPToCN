@@ -1,6 +1,6 @@
 slot0 = class("WorldTriggerDailyTaskCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = nowWorld()
 	slot4 = slot4:GetTaskProxy()
 	slot5 = pg.ConnectionMgr.GetInstance()

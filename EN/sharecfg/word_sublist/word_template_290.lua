@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_290 = {}
 slot1 = slot0.word_template_290
 
-function temp()
+temp = function()
 	uv0["微"] = {
 		["电"] = {
 			["波"] = {
@@ -85,7 +85,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["为"] = {
 		["哥"] = {
 			["哥"] = {
@@ -340,7 +340,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["围"] = {
 		["攻"] = {
 			this = true
@@ -382,7 +382,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["唯"] = {
 		["国"] = {
 			["人"] = {
@@ -440,7 +440,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["惟"] = {
 		["有"] = {
 			["美"] = {
@@ -460,7 +460,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["维"] = {
 		["\""] = {
 			["\""] = {
@@ -929,7 +929,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["維"] = {
 		["\""] = {
 			["\""] = {

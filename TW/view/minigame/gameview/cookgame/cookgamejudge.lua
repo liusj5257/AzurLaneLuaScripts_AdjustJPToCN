@@ -1,6 +1,6 @@
 slot0 = class("CookGameJudge")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._tf = slot1
 	slot0._judgeDatas = slot3
 	slot0._gameData = slot4
@@ -24,7 +24,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, SFX_CANCEL)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0._puzzleTime = nil
 	slot0._puzzleWeight = nil
 	slot0._puzzleCamp = nil
@@ -43,13 +43,13 @@ function slot0.clear(slot0)
 	slot0:select(false)
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:clear()
 	setActive(slot0._tf, true)
 	slot0:updateWanted(math.random(1, slot0._gameData.cake_num))
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	if slot0.wantedCakeTime and slot0.wantedCakeTime > 0 then
 		slot0.wantedCakeTime = slot0.wantedCakeTime - slot1
 
@@ -83,14 +83,14 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.destroy(slot0)
+slot0.destroy = function(slot0)
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 	slot0.animator.speed = slot1
 end
 
-function slot0.onAniEnd(slot0)
+slot0.onAniEnd = function(slot0)
 	slot0.inTrigger = false
 
 	if slot0.freshWanted then
@@ -101,15 +101,15 @@ function slot0.onAniEnd(slot0)
 	end
 end
 
-function slot0.getIndex(slot0)
+slot0.getIndex = function(slot0)
 	return slot0._index
 end
 
-function slot0.getTf(slot0)
+slot0.getTf = function(slot0)
 	return slot0._tf
 end
 
-function slot0.trigger(slot0, slot1, slot2, slot3, slot4)
+slot0.trigger = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0.inTrigger then
 		print("评委已有状态")
 
@@ -145,7 +145,7 @@ function slot0.trigger(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.readyServe(slot0, slot1, slot2)
+slot0.readyServe = function(slot0, slot1, slot2)
 	if slot0.serveCallback then
 		slot0.serveCallback(false)
 	end
@@ -173,10 +173,10 @@ function slot0.readyServe(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setWantedImg(slot0)
+slot0.setWantedImg = function(slot0)
 end
 
-function slot0.serve(slot0)
+slot0.serve = function(slot0)
 	if not slot0.serveData then
 		return
 	end
@@ -235,7 +235,7 @@ function slot0.serve(slot0)
 	slot0.readyServeTime = nil
 end
 
-function slot0.setPuzzle(slot0, slot1, slot2)
+slot0.setPuzzle = function(slot0, slot1, slot2)
 	slot0._puzzleCamp = slot1
 	slot0._puzzleWeight = slot2
 	slot0._puzzleTime = CookGameConst.puzzle_time
@@ -243,28 +243,28 @@ function slot0.setPuzzle(slot0, slot1, slot2)
 	slot0:showCard(true)
 end
 
-function slot0.showCard(slot0, slot1)
+slot0.showCard = function(slot0, slot1)
 	setActive(findTF(slot0.wantedTf, "Card"), slot1)
 	slot0:showCake(nil)
 end
 
-function slot0.isInServe(slot0)
+slot0.isInServe = function(slot0)
 	return slot0.serveData
 end
 
-function slot0.isInTrigger(slot0)
+slot0.isInTrigger = function(slot0)
 	return slot0.inTrigger
 end
 
-function slot0.getPuzzleCamp(slot0)
+slot0.getPuzzleCamp = function(slot0)
 	return slot0._puzzleCamp
 end
 
-function slot0.getWantedCake(slot0)
+slot0.getWantedCake = function(slot0)
 	return slot0.wantedCake
 end
 
-function slot0.updateWanted(slot0, slot1)
+slot0.updateWanted = function(slot0, slot1)
 	if slot0.wantedCake ~= slot1 and slot1 then
 		slot0:showCake(slot1)
 	end
@@ -279,7 +279,7 @@ function slot0.updateWanted(slot0, slot1)
 	end
 end
 
-function slot0.showCake(slot0, slot1)
+slot0.showCake = function(slot0, slot1)
 	slot1 = slot1 or slot0.wantedCake
 
 	for slot5 = 1, slot0._gameData.cake_num do
@@ -287,7 +287,7 @@ function slot0.showCake(slot0, slot1)
 	end
 end
 
-function slot0.setFrontContainer(slot0, slot1)
+slot0.setFrontContainer = function(slot0, slot1)
 	slot0._frontTf = slot1
 
 	if slot0._frontTf then
@@ -295,31 +295,31 @@ function slot0.setFrontContainer(slot0, slot1)
 	end
 end
 
-function slot0.getPos(slot0)
+slot0.getPos = function(slot0)
 	return slot0._tf.anchoredPosition()
 end
 
-function slot0.getLeftTf(slot0)
+slot0.getLeftTf = function(slot0)
 	return findTF(slot0._tf, "leftPos")
 end
 
-function slot0.getRightTf(slot0)
+slot0.getRightTf = function(slot0)
 	return findTF(slot0._tf, "rightPos")
 end
 
-function slot0.select(slot0, slot1)
+slot0.select = function(slot0, slot1)
 	setActive(findTF(slot0._tf, "select"), slot1)
 end
 
-function slot0.setClickCallback(slot0, slot1)
+slot0.setClickCallback = function(slot0, slot1)
 	slot0.clickCallback = slot1
 end
 
-function slot0.getAcTargetTf(slot0)
+slot0.getAcTargetTf = function(slot0)
 	return findTF(slot0._tf, "acTarget")
 end
 
-function slot0.getAnimData(slot0, slot1)
+slot0.getAnimData = function(slot0, slot1)
 	for slot5 = 1, #slot0._judgeDatas do
 		if slot0._judgeDatas[slot5].data.cake_id == slot1 then
 			return slot6

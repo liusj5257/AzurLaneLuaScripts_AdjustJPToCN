@@ -3,7 +3,7 @@ slot0.CLICK_ROTATE_BTN = "ShipProfileMediator:CLICK_ROTATE_BTN"
 slot0.OPEN_CRYPTOLALIA = "ShipProfileMediator:OPEN_CRYPTOLALIA"
 slot0.OPEN_EQUIP_CODE_SHARE = "ShipProfileMediator.OPEN_EQUIP_CODE_SHARE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(CollectionProxy)
 	slot2 = getProxy(ShipSkinProxy)
 	slot0.showTrans = slot0.contextData.showTrans
@@ -83,7 +83,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.FETCH_EVALUATION_DONE,
 		CollectionProxy.GROUP_INFO_UPDATE,
@@ -91,7 +91,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.FETCH_EVALUATION_DONE then

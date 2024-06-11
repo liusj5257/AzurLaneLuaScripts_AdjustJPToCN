@@ -1,20 +1,20 @@
 return {
-	id = "HOLOGUANQIA3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "holo-tokiwa",
 			say = "After a few quick skirmishes, the Sirens' reinforcements ceased coming, and the sea turned still once more.",
+			dir = 1,
+			bgm = "holo-tokiwa",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -27,8 +27,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "As the two searched for a way to exit the Mirror Sea, the fog before their eyes cleared up almost as quickly as when it formed.",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "It's almost like the fog itself is a part of the abnormal weather within the Mirror Sea.",
 			effects = {
 				{
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Countless islands appeared before them, and massive artificial structures rose high up above in the far distance.",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Upon closer inspection, the islands' flora and the structures appear to be made out of innumerable blocks.",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "It all looks like a poor replica of the real world in their eyes.",
 			typewriter = {
 				speed = 0.05,

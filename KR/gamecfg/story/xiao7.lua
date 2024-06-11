@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"닌자의 길\n\n<size=45>약속, 그리고 희망</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 해변",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 해변",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "비번인 날에 아카츠키와 해변으로 오게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "……따, 따딱히 히비키를 포기한다는 말은 아니오만!",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "그리고 무엇보다, 소인이 용감해질 수 있는 느낌이 드니 말이오!",
 			typewriter = {
 				speed = 0.05,
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "우와앗!",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "소, 소인을 괴롭히지 말아 주었으면 하오!",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "우와아앗?!",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "갑자기 이카즈치와 이나즈마가 나타났다.",
 			typewriter = {
 				speed = 0.05,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#92fc63",
 			say = "지휘관, 아카츠키, 같이 점심 먹으러 안 갈래?",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -422,9 +422,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "언제나 제6 구축함대의 모두가 함께 모이게 된다면, 그때 아카츠키는 어떤 표정을 지을까.",
 			typewriter = {
 				speed = 0.05,

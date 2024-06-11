@@ -1,12 +1,12 @@
 slot0 = class("TowerClimbingMap")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1.gameView
 	slot0.view = slot1
 	slot0.map = slot2
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.blocks = {}
 	slot0.groundContainer = slot0._tf:Find("game")
 	slot0.blockPlayCon = slot0.groundContainer:Find("block_play_con")
@@ -41,7 +41,7 @@ function slot0.Init(slot0, slot1)
 	slot0.timers = {}
 end
 
-function slot0.LoadEffect(slot0, slot1)
+slot0.LoadEffect = function(slot0, slot1)
 	if TowerClimbingGameSettings.MAPID2EFFECT[slot1] then
 		for slot6, slot7 in ipairs(slot2) do
 			slot0:LoadSingleEffect(slot7[1], slot7[2])
@@ -49,7 +49,7 @@ function slot0.LoadEffect(slot0, slot1)
 	end
 end
 
-function slot0.LoadSingleEffect(slot0, slot1, slot2, slot3)
+slot0.LoadSingleEffect = function(slot0, slot1, slot2, slot3)
 	slot4 = PoolMgr.GetInstance()
 
 	slot4:GetUI(slot1, true, function (slot0)
@@ -71,7 +71,7 @@ function slot0.LoadSingleEffect(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.ReturnEffect(slot0, slot1)
+slot0.ReturnEffect = function(slot0, slot1)
 	if TowerClimbingGameSettings.MAPID2EFFECT[slot1] then
 		for slot6, slot7 in ipairs(slot2) do
 			if slot0.groundContainer:Find(slot7[1]) then
@@ -81,7 +81,7 @@ function slot0.ReturnEffect(slot0, slot1)
 	end
 end
 
-function slot0.OnReachAwardScore(slot0)
+slot0.OnReachAwardScore = function(slot0)
 	if LOCK_TOWERCLIMBING_AWARD then
 		return
 	end
@@ -109,8 +109,8 @@ function slot0.OnReachAwardScore(slot0)
 	slot2 = slot0.groundContainer
 	slot2 = slot2:InverseTransformPoint(slot0.player._tf.position)
 
-	function slot3()
-		function slot0()
+	slot3 = function()
+		slot0 = function()
 			setActive(uv0.awardEffect1, true)
 
 			uv0.awardTimer = Timer.New(function ()
@@ -136,7 +136,7 @@ function slot0.OnReachAwardScore(slot0)
 		end
 	end
 
-	function slot4()
+	slot4 = function()
 		slot0 = Vector3(uv0.x, uv1.y + 200, -200)
 		slot1 = {}
 
@@ -171,11 +171,11 @@ function slot0.OnReachAwardScore(slot0)
 	end
 end
 
-function slot0.GetFirstBlock(slot0)
+slot0.GetFirstBlock = function(slot0)
 	return slot0.blocks[1]
 end
 
-function slot0.GetHitBlock(slot0, slot1)
+slot0.GetHitBlock = function(slot0, slot1)
 	if _.detect(slot0.blocks, function (slot0)
 		return slot0.go == uv0
 	end) then
@@ -183,7 +183,7 @@ function slot0.GetHitBlock(slot0, slot1)
 	end
 end
 
-function slot0.OnCreateGround(slot0, slot1, slot2)
+slot0.OnCreateGround = function(slot0, slot1, slot2)
 	slot0.ground = slot1
 
 	TowerClimbingResMgr.GetGround(slot1.name, function (slot0)
@@ -201,11 +201,11 @@ function slot0.OnCreateGround(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.TranslateBlockPosition(slot0, slot1)
+slot0.TranslateBlockPosition = function(slot0, slot1)
 	return slot0.blockContainer:InverseTransformVector(slot0.groundContainer:TransformVector(slot1))
 end
 
-function slot0.OnCreateBlock(slot0, slot1, slot2)
+slot0.OnCreateBlock = function(slot0, slot1, slot2)
 	TowerClimbingResMgr.GetBlock(slot1.type, function (slot0)
 		SetParent(slot0, uv0.blockContainer)
 
@@ -242,7 +242,7 @@ function slot0.OnCreateBlock(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OnActiveBlock(slot0, slot1)
+slot0.OnActiveBlock = function(slot0, slot1)
 	for slot6, slot7 in ipairs(_.detect(slot0.blocks, function (slot0)
 		return slot0.block.level == uv0.level
 	end).colliders) do
@@ -250,7 +250,7 @@ function slot0.OnActiveBlock(slot0, slot1)
 	end
 end
 
-function slot0.SinkHandler(slot0, slot1, slot2)
+slot0.SinkHandler = function(slot0, slot1, slot2)
 	LeanTween.value(slot0.blockPlayCon.gameObject, slot0.blockPlayCon.anchoredPosition.y, slot0.blockPlayCon.anchoredPosition.y - slot1, 0.2):setOnUpdate(System.Action_float(function (slot0)
 		setAnchoredPosition(uv0.blockPlayCon, {
 			y = slot0
@@ -258,7 +258,7 @@ function slot0.SinkHandler(slot0, slot1, slot2)
 	end)):setEase(LeanTweenType.easeOutQuad):setOnComplete(System.Action(slot2))
 end
 
-function slot0.OnBlockDestory(slot0, slot1)
+slot0.OnBlockDestory = function(slot0, slot1)
 	if slot0.timers[slot1] then
 		slot0.timers[slot1]:Stop()
 
@@ -272,12 +272,12 @@ function slot0.OnBlockDestory(slot0, slot1)
 	TowerClimbingResMgr.ReturnBlock(slot2.block.type, slot2.go)
 end
 
-function slot0.OnSink(slot0, slot1, slot2)
+slot0.OnSink = function(slot0, slot1, slot2)
 	slot0.bg:DoMove(slot1, slot2)
 	slot2()
 end
 
-function slot0.OnPlayerLifeUpdate(slot0, slot1)
+slot0.OnPlayerLifeUpdate = function(slot0, slot1)
 	triggerToggle(slot0.hearts[3], slot1 >= 3)
 	triggerToggle(slot0.hearts[2], slot1 >= 2)
 	triggerToggle(slot0.hearts[1], slot1 >= 1)
@@ -287,17 +287,17 @@ function slot0.OnPlayerLifeUpdate(slot0, slot1)
 	setFillAmount(slot0.heartProgress, slot1 / 3)
 end
 
-function slot0.OnScoreUpdate(slot0, slot1)
+slot0.OnScoreUpdate = function(slot0, slot1)
 	slot0.score.text = slot1
 end
 
-function slot0.OnCreatePlayer(slot0, slot1, slot2)
+slot0.OnCreatePlayer = function(slot0, slot1, slot2)
 	slot0.player = TowerClimbingPlayer.New(slot0, slot1)
 
 	slot0.player:Init(slot2)
 end
 
-function slot0.OnEnableStab(slot0, slot1, slot2)
+slot0.OnEnableStab = function(slot0, slot1, slot2)
 	slot3 = _.detect(slot0.blocks, function (slot0)
 		return slot0.block.level == uv0.level
 	end)
@@ -313,29 +313,29 @@ function slot0.OnEnableStab(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnEnableGround(slot0, slot1)
+slot0.OnEnableGround = function(slot0, slot1)
 	slot0.groundGo:GetComponent(typeof(UnityEngine.Collider2D)).enabled = slot1
 end
 
-function slot0.GetPlayer(slot0)
+slot0.GetPlayer = function(slot0)
 	return slot0.player
 end
 
-function slot0.SendEvent(slot0, slot1, ...)
+slot0.SendEvent = function(slot0, slot1, ...)
 	slot0.view.controller:__slot1_None__(unpack({
 		...
 	}))
 end
 
-function slot0.OnGroundRuning(slot0)
+slot0.OnGroundRuning = function(slot0)
 	slot0.groundGo:GetComponent("SpineAnimUI"):SetAction("up", 0)
 end
 
-function slot0.OnGroundPositionChange(slot0, slot1)
+slot0.OnGroundPositionChange = function(slot0, slot1)
 	setAnchoredPosition(slot0.groundGo.transform, slot1)
 end
 
-function slot0.OnGroundSleepTimeChange(slot0, slot1)
+slot0.OnGroundSleepTimeChange = function(slot0, slot1)
 	if math.ceil(slot1) > 0 then
 		setText(slot0.groundGo.transform:Find("Text"), slot2)
 	else
@@ -343,7 +343,7 @@ function slot0.OnGroundSleepTimeChange(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.awardTimer then
 		slot0.awardTimer:Stop()
 

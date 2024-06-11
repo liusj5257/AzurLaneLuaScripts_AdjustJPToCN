@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "属性变更",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "装填提升",
 	stack = 3,
@@ -33,8 +33,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 500
+				number = 500,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -44,8 +44,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -65,8 +65,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 110210,
+				target = "TargetSelf",
 				countType = 110212
 			}
 		},
@@ -77,8 +77,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 110211,
+				target = "TargetSelf",
 				countType = 110212
 			}
 		}

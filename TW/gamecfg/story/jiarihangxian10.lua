@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_daozhong",
 			dir = 1,
 			say = "是不是已經等不及了喵？第三場比賽這就開始了喵！",
+			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "瑪莉和穗香的組合是絕對不會輸給任何人的！",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600020,
 			dir = 1,
+			actor = 10600020,
 			say = "欸、欸？！",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "雖然不太清楚是怎麼回事，瑪莉也燃起來了！請多指教，女僕長大人！",
 			typewriter = {
 				speed = 0.05,

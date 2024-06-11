@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"蒼龍さんと一緒\n\n<size=45>二教えて、蒼龍先生！</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "蒼龍の趣味は花札のようだ……仲良くなるために花札から始めてみるとしよう！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,15 +48,15 @@ return {
 			}
 		},
 		{
-			say = "母港・重桜寮",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・重桜寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -97,12 +97,12 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "ふん……ようやくあの天下の分かれ目となった合戦が来たのか！",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ふん……ようやくあの天下の分かれ目となった合戦が来たのか！",
+			actor = 301590,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "時はセンゴク、イマガワ家はまだトウカイドウで覇を唱えていた……あら、指揮官ではありませんか？",
 			typewriter = {
 				speed = 0.05,
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "聞いてみるか。",
 			typewriter = {
@@ -204,15 +204,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "……ノブナガの奇襲でヨシモトが討死にすることを、誰も予想することはできませんでした",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,15 +253,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "――はい、今日の内容はここまでです",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "さすが蒼龍、簡潔でありながら抜かりない解説はとてもわかりやすかった。",
 			typewriter = {
 				speed = 0.05,
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#a9f548",
 			say = "ふむふむ……なるほど、ありがとうございます！蒼龍先生！",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "他の授業まで……蒼龍はなんでも知っているようだな、と心の中で感服した。",
 			typewriter = {
 				speed = 0.05,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "それで、何かご用でしょうか？",
 			typewriter = {
 				speed = 0.05,

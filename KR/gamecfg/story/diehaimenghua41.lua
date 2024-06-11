@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA41",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DIEHAIMENGHUA41",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			say = "사쿠라 엠파이어 본섬·어느 곳",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 1,
 			bgm = "bsm-2",
+			say = "사쿠라 엠파이어 본섬·어느 곳",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,9 +51,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "옵저버",
 			say = "왜 아침부터 소리를 지르고 난리야. 바빠 죽겠다고.",
 			typewriter = {
@@ -85,9 +85,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "옵저버",
 			say = "후후후, 메탈 블러드는 네가 원하는 걸 가져다 주었고, 시나노도 빠르게 깨어났잖아? 난 속인 적 없어~",
 			typewriter = {
@@ -103,9 +103,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "옵저버",
 			say = "적어도 해약과 시나노의 관계에 대해서는 너도 물어보지 않았잖아.",
 			typewriter = {
@@ -137,9 +137,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "옵저버",
 			say = "뒷일을 대비하다니, 내 계획을 못 믿었다는 얘기잖아. 상처 입었어.",
 			typewriter = {
@@ -203,9 +203,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "옵저버",
 			say = "네가 시나노에게 별다른 기대가 없는 건 알겠지만, 우리는 기대가 아주 크다고.",
 			typewriter = {
@@ -221,9 +221,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "옵저버",
 			say = "이번 습격도 말이야, 별다른 손해는 안 입혔으니 \"고장\"난 거라고 치자고. 아무리 정밀한 기계라도 사소한 고장은 나니까 용서해줄 수 있잖아?",
 			typewriter = {
@@ -239,9 +239,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "옵저버",
 			say = "응? 갑자기 재미있는 연락이 들어왔네. 난 할 일이 있어서 더 못 놀아줄 것 같네. 다음에 봐~",
 			typewriter = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff5c5c",
 			say = "사쿠라 엠파이어의 영해를 뒤뜰 정도로 생각하지 말아요, 이 망할 세이렌……!",
 			dialogShake = {
 				speed = 0.09,

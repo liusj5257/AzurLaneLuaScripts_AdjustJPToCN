@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -35,21 +35,21 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "The Iris Orthodoxy's shining Holy City was consumed by the flames of conflict.",
 			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
-			bgm = "theme-vichy-church",
+			side = 2,
 			bgmDelay = 1,
-			say = "The Iris Orthodoxy's shining Holy City was consumed by the flames of conflict.",
+			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
 			say = "Its intricate, ornate roads once welcomed back heroes returning from magnificent victories...",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
 			say = "But now, upon them rumbled the cold, heartless engines of war.",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
 			say = "The gruesome sight of the burning Holy City would soon spread to every corner of the world through every conceivable form of communication.",
@@ -84,10 +84,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "So in the end, all she chose to do was watch from the balcony...",
 			painting = {
 				alpha = 0.3,
@@ -102,10 +102,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Not just the Tribunal, but even the Templar Knights as well...",
 			painting = {
 				alpha = 0.3,
@@ -120,10 +120,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Then, I am left with no other choice.",
 			painting = {
 				alpha = 0.3,
@@ -138,10 +138,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Both the Tribunal and the Templar Knights knew. They both made this decision.",
 			painting = {
 				alpha = 0.3,
@@ -156,10 +156,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "I am the Fighting Angel of the Iris Orthodoxy, and her chief executor. It is not my place to question the orders I have been given.",
 			painting = {
 				alpha = 0.3,
@@ -174,10 +174,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Even if I am told to lay down my arms, even if I am told to watch our Holy City burn.",
 			painting = {
 				alpha = 0.3,
@@ -192,10 +192,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Even if the Iris Orthodoxy is to be split in two.",
 			painting = {
 				alpha = 0.3,
@@ -210,10 +210,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "It is not my place, because all I can do is fight.",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "I know nothing but the Holy Iris' teachings. I cannot say anything.",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "It is not my place, because I am but a ship, a vessel of war...",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Then, I am left with no other choice.",
 			painting = {
 				alpha = 0.3,
@@ -282,10 +282,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "But still, there has to be something I can do.",
 			painting = {
 				alpha = 0.3,
@@ -300,10 +300,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "If I allow myself to be struck down here, if I don't climb back up... how can I be worthy of the title of Fighting Angel?",
 			painting = {
 				alpha = 0.3,
@@ -318,10 +318,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "As long as the Iris Orthodoxy needs me, I will...",
 			painting = {
 				alpha = 0.3,
@@ -342,10 +342,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "I will...",
 			painting = {
 				alpha = 0.3,
@@ -366,10 +366,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Fight, continue to fight, and never back down––",
 			painting = {
 				alpha = 0.3,
@@ -386,12 +386,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -422,22 +422,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
-			say = "Richelieu struggled to push through the waters choked with the black-and-red haze, alone.",
 			bgmDelay = 1,
 			bgm = "theme-vichy-revelation",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Richelieu struggled to push through the waters choked with the black-and-red haze, alone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
@@ -445,10 +445,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "What in the world... is this haze?!",
 			painting = {
 				alpha = 0.3,
@@ -463,10 +463,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "The deeper in I go, the more it pushes back against me, like a wall of some sort...",
 			painting = {
 				alpha = 0.3,
@@ -481,10 +481,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "At this rate, I'm not going to be able to breathe...",
 			painting = {
 				alpha = 0.3,
@@ -499,10 +499,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "I... My body's starting to give out on me!",
 			painting = {
 				alpha = 0.3,
@@ -519,12 +519,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOM––!!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,8 +570,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "She mustered her strength, discharging her cannons in a desperate attempt to blow away the haze. However, it quickly flooded back into the area.",
@@ -581,13 +581,13 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			actorShadow = true,
-			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "???",
+			bgName = "bg_story_sainthelena2",
 			nameColor = "#ff5c5c",
+			actor = 905010,
+			actorName = "???",
+			hidePaintObj = true,
 			say = "Again and again, I fought. Again and again, I failed.",
 			typewriter = {
 				speed = 0.05,
@@ -595,13 +595,13 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			actorShadow = true,
-			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "???",
+			bgName = "bg_story_sainthelena2",
 			nameColor = "#ff5c5c",
+			actor = 905010,
+			actorName = "???",
+			hidePaintObj = true,
 			say = "What you are doing now is futile. Utterly meaningless.",
 			typewriter = {
 				speed = 0.05,
@@ -609,13 +609,13 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			actorShadow = true,
-			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "???",
+			bgName = "bg_story_sainthelena2",
 			nameColor = "#ff5c5c",
+			actor = 905010,
+			actorName = "???",
+			hidePaintObj = true,
 			say = "Give up, sister.",
 			typewriter = {
 				speed = 0.05,
@@ -626,10 +626,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Jean... Bart...?",
 			painting = {
 				alpha = 0.3,
@@ -641,16 +641,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,10 +662,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "No, you're not Jean Bart at all!",
 			painting = {
 				alpha = 0.3,
@@ -680,10 +680,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "She would never say something like that!",
 			painting = {
 				alpha = 0.3,
@@ -703,10 +703,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "This is just an illusion... Just like the Infection back in the basilica's facility...",
 			painting = {
 				alpha = 0.3,
@@ -721,10 +721,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Calm down, Richelieu... Don't let your emotions get the better of you...",
 			painting = {
 				alpha = 0.3,
@@ -736,13 +736,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "???",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Calm down, you say?",
 			painting = {
@@ -755,13 +755,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "???",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Shouldn't you be angry, if anything?",
 			painting = {
@@ -774,13 +774,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "???",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "You abandoned your friends, your sister, and even the Iris Orthodoxy...",
 			painting = {
@@ -793,13 +793,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "???",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "You've been gritting your teeth, enduring it all until now. But for what? What have you achieved?",
 			painting = {
@@ -812,13 +812,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "???",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Endless ridicule, scorn, slander, and abuse... Nothing else.",
 			painting = {
@@ -831,13 +831,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "???",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "So why calm down?",
 			painting = {
@@ -853,10 +853,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 805010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Don't say another word! Please...",
 			painting = {
 				alpha = 0.3,
@@ -873,12 +873,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOM––!!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,13 +924,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "???",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Hmph. Now, you finally understand.",
 			painting = {
@@ -943,13 +943,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "???",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Yeah, that's right. Look into the light! Let the wrath flow through you!",
 			painting = {
@@ -965,10 +965,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 805010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Shut... your... mouth!",
 			painting = {
 				alpha = 0.3,
@@ -991,18 +991,18 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_firedust_5",
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
+			dialogueBgAlpha = 0.6,
 			bgm = "theme-vichy-church",
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "A black sun, quietly burning in the dusky sky.",
 			flashout = {
-				black = true,
 				dur = 0.15,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1027,9 +1027,9 @@ return {
 					name = "speed"
 				},
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			typewriter = {
@@ -1062,18 +1062,18 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
+			dialogueBgAlpha = 0.6,
 			bgm = "theme-vichy-revelation",
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "In the blink of an eye, the black sun disappeared from her consciousness.",
 			flashout = {
-				black = true,
 				dur = 0.15,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1090,14 +1090,14 @@ return {
 			},
 			effects = {
 				{
-					active = false,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = false
 				},
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -1106,8 +1106,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -1118,8 +1118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -1168,8 +1168,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -1299,13 +1299,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
-			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
+			side = 2,
+			dialogueBgAlpha = 0.6,
 			nameColor = "#A9F548FF",
-			say = "KABOOM––!!",
 			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
+			say = "KABOOM––!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1351,8 +1351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,

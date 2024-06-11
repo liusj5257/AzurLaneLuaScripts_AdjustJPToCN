@@ -1,22 +1,22 @@
 return {
-	id = "WORLD404C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404C",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "……硝煙の匂い……っ！この既視感……かの大戦での幻影か！",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "……硝煙の匂い……っ！この既視感……かの大戦での幻影か！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -44,8 +44,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "エンタープライズ？",
 			say = "「まだ覚えてくれているとはな。光栄だ」",
 			typewriter = {
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 900297,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900297,
 			actorName = "ホーネット？",
 			say = "「よく戦ったわよ、私たちの敵としては……ふふふ」",
 			typewriter = {
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 900295,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900295,
 			actorName = "ヨークタウン？",
 			say = "「ええ、また私たちにリベンジするでしょう？永遠に戦ってあげるわ」",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "エンタープライズ？",
 			say = "「そう。あの『再現』に囚われ続けたいなら、5分間でも、5日間でも、5年間でも、永遠に付き合ってやる」",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 900297,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900297,
 			actorName = "ホーネット？",
 			say = "「あなたとの因縁……リュウコツに刻印されている因子は永遠に終わらないわよ」",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "エンタープライズ？",
 			say = "「今度はセイレーンにも、重桜にも、ユニオンにも、天城にも、誰からも邪魔されない――来い、赤城……！」",
 			typewriter = {
@@ -296,10 +296,10 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 307010,
 			say = "―――――――五航戦の、声……？",
 			effects = {
 				{

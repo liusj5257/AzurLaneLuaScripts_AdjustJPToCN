@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINANFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XINANFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Gust of Motivation!\n\n<size=45>7 You Can Do It, Libeccio!</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Port - Main Plaza",
 			side = 2,
 			bgName = "star_level_bg_113",
 			bgmDelay = 2,
-			say = "Port - Main Plaza",
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,10 +57,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I guess I made it, huh... It'll be nice to sleep in tomorrow~",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ehehe~ Commander, getting to spend so much time with you was an absolute blast, but being the secretary is really tough after all.",
 			painting = {
 				alpha = 0.3,
@@ -93,10 +93,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Working so much all the time makes you want to take it easy from time to time, doesn't it? Have you ever wanted to just stay home, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,10 +178,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, look, isn't that Maestrale over there...?",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good afternoon, everyone~!",
 			painting = {
 				alpha = 0.3,
@@ -223,10 +223,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, it's Libeccio and the Commander! G-good afternoon!",
 			painting = {
 				alpha = 0.3,
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good afternoon, yes.",
 			painting = {
 				alpha = 0.3,
@@ -255,12 +255,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hello, you two.",
 			painting = {
 				alpha = 0.3,
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'ello... Would you like to join our tea party as well?",
 			painting = {
 				alpha = 0.3,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Stop that, Laffey! The Commander is still working!",
 			painting = {
 				alpha = 0.3,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Mm... Maybe next time then...",
 			painting = {
 				alpha = 0.3,
@@ -326,10 +326,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Were you going to throw a tea party?",
 			painting = {
 				alpha = 0.3,
@@ -341,12 +341,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not quite. Javelin invited us to attend the Royal Navy's tea party.",
 			painting = {
 				alpha = 0.3,
@@ -361,10 +361,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I see, I see! That sounds fun! Have a good time over there, Maestrale!",
 			painting = {
 				alpha = 0.3,
@@ -379,10 +379,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Th-thank you...",
 			painting = {
 				alpha = 0.3,
@@ -394,21 +394,21 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			say = "Office - Soon afterwards",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -423,10 +423,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heh heh, Libeccio's secretary operation was a huge success!",
 			painting = {
 				alpha = 0.3,
@@ -441,10 +441,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I did a good job with my work, and I even got to help Maestrale make friends! Libeccio is super awesome!",
 			painting = {
 				alpha = 0.3,
@@ -469,10 +469,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ehehe... I'll go make some tea for you, Commander~",
 			painting = {
 				alpha = 0.3,
@@ -487,10 +487,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Here you go, your very last cup of Secretary Libeccio's tea!",
 			painting = {
 				alpha = 0.3,
@@ -529,10 +529,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ehh? Did I mess up?! I'm so sorry!",
 			painting = {
 				alpha = 0.3,
@@ -547,10 +547,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wh-wh-what should I do? We're out of tea bags... I'm sorry–!",
 			painting = {
 				alpha = 0.3,
@@ -562,9 +562,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
+			blackBg = true,
 			say = "Having that said, she still has a lot more growing to do––",
 			typewriter = {
 				speed = 0.05,

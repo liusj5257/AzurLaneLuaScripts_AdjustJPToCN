@@ -1,16 +1,16 @@
 return {
-	id = "MAOZIHUODONG2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "北方海域・極海圏外――天気・春",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
-			say = "北方海域・極海圏外――天気・春",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "NYシティ、そしてバミューダ海域での戦いのあと、本部から次の作戦指示が出された。",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "その作戦とは、極海圏におけるセイレーンの巨大構造物の一つを、「北方連合」と共同で調査・破壊するとの内容だ――",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "えへへ、スキあり！",
 			typewriter = {
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/bbattle/plane",
+			say = "突然頭上を飛んでいった艦載機によって起こされた風で、危うく作戦資料を吹き飛ばされそうになった。",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
-			say = "突然頭上を飛んでいった艦載機によって起こされた風で、危うく作戦資料を吹き飛ばされそうになった。",
+			soundeffect = "event:/bbattle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "…………サラトガのイタズラだな。",
 			typewriter = {
 				speed = 0.05,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_cccp_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "指揮官、対空警戒がおろそかになっているぞーこのあとセイレーン要塞を見に行くんだから、ちゃんと気を引き締めないと♪",
 			typewriter = {
 				speed = 0.05,
@@ -125,12 +125,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_cccp_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "そう！あの巨大構造物は、セイレーンの量産型がいるだけじゃなく、防衛機構も備えているから「要塞」と呼ばれているわ！",
 			typewriter = {
 				speed = 0.05,
@@ -145,9 +145,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "えへへ、サラトガちゃんに惚れ直したほうがいいよ♪！",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "NYシティの前進拠点だって、規模こそ大きくなかったけど脅威的だったわ",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "そうだね。手慣らしにちょっと小さい拠点から一個ずつ攻略していくのが良さそうね",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "ただやられてからやり返すのはなく、たまにはこっちからも打って出ないとね！",
 			typewriter = {
@@ -243,9 +243,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "神出鬼没のセイレーンの脅威に対処するには、防御だけでは足りないと認識されつつある。",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "でも、まさか「北方連合」が共同作戦を申し出てくるとは思わなかったね",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "「北方連合」の海上戦力はセイレーンとの消耗戦でだいぶ削られていたし、別におかしくないよ？",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そこだよそこ！この調査対象となるセイレーン要塞は色々と問題があるの！",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "まずはここ、ユニオンと北方連合の支配海域の境界線にあるけど、北方連合の航路から遠く離れているよね",
 			typewriter = {
@@ -360,8 +360,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "で、以前にも何回か北方連合と共同作戦の話をしたけど、ここはぜーんぜんっ、話題にも上がらなかったわよ",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "つまり、北方連合の航路からちょっと離れてるド辺境の小さなセイレーン拠点に、なぜか大掛かりな共同作戦を行ってまで破壊しようとしてるってわけ！",
 			typewriter = {
@@ -394,8 +394,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "……それ、ただの考えすぎじゃない？案外、向こうもこちらの戦力を測りかねているから試すつもりってだけかもよ",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "まあ、今回は指揮官がいるから安心だけど！",
 			typewriter = {

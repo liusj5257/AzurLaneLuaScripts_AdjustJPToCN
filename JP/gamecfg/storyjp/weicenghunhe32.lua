@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE32",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "hunhe-boss",
-			side = 2,
-			say = "イントレピッドたちの集中攻撃により、セイレーンは変形が阻止され、大ダメージを受けたように見えた。",
-			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "hunhe-boss",
+			say = "イントレピッドたちの集中攻撃により、セイレーンは変形が阻止され、大ダメージを受けたように見えた。",
 			flashN = {
 				color = {
 					1,
@@ -61,8 +61,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "（フィギュアもガジェットも可動部とか接続部とかが一番強度が弱いから！）",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "そのまま関節部を狙い続けて！そうすれば敵の変形を阻止できるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "リノ、機械にも詳しいのですか？",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900234,
 			dir = 1,
+			actor = 900234,
 			actorName = "？？？",
 			say = "……しょうがない",
 			typewriter = {
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "！！！",
 			typewriter = {
 				speed = 0.05,
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_5",
-			actorName = "ブルーギル",
 			dir = 1,
+			actorName = "ブルーギル",
 			say = "エセックス、ブレマートン、水上にいる皆聞こえてる！？",
 			dialogShake = {
 				speed = 0.09,
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_5",
-			actorName = "ブルーギル",
 			dir = 1,
+			actorName = "ブルーギル",
 			say = "今すごくやばいものが向こうから近づいているよ！海面下に気をつけて回避して！！",
 			dialogShake = {
 				speed = 0.09,
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_5",
-			actorName = "マーブルヘッド",
 			dir = 1,
+			actorName = "マーブルヘッド",
 			say = "ってもう来ていますけど！！なにこれ？！",
 			dialogShake = {
 				speed = 0.09,
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_5",
-			actorName = "カサブランカ",
 			dir = 1,
+			actorName = "カサブランカ",
 			say = "機械の触手！？…ど、どこから！？",
 			dialogShake = {
 				speed = 0.09,
@@ -236,11 +236,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_5",
-			actorName = "マーブルヘッド",
 			dir = 1,
+			actorName = "マーブルヘッド",
 			say = "いくらなんでも水圧とか摩擦とか計算が合わないじゃありませんかーーー！",
 			dialogShake = {
 				speed = 0.09,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_5",
-			actorName = "エセックス",
 			dir = 1,
+			actorName = "エセックス",
 			say = "このままでは攻撃できない…！くっ…！",
 			dialogShake = {
 				speed = 0.09,
@@ -280,15 +280,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 106550,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "ふぅ……あのセイレーンに逃げられてしまいましたね……",
 			bgm = "hunhe-battle",
+			actor = 106550,
+			nameColor = "#a9f548",
+			say = "ふぅ……あのセイレーンに逃げられてしまいましたね……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -316,8 +316,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "でもちょっと妙だったね…殺気とか全然感じられなかったし……",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "よくわからない触手を避けるのに気を取られたし…",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "ここの場所は…よし！とにかくこれで要塞は大丈夫なはず！",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "エンタープライズ先輩！？",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -420,8 +420,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			say = "ボルチモアもいる！？いつの間に……",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "突然で悪かったな。すまん、ちょっとセイレーンの追撃を撒くのに時間をかけすぎた",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "一体何があったの？",
 			typewriter = {
 				speed = 0.05,
@@ -483,8 +483,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "まあ話すとまた長くなるから、みんなまずは要塞に戻ろう",
 			typewriter = {
 				speed = 0.05,
@@ -499,8 +499,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "エンタープライズも、ほら",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ああ、帰ろう。みんな、無事で良かった",
 			typewriter = {
 				speed = 0.05,

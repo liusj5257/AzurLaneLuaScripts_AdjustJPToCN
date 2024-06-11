@@ -1,17 +1,17 @@
 return {
-	id = "WORLD106E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD106E",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "NYシティからバミューダまでの航路エリアの確保が完了した。後詰めのサラトガに連絡しよう",
 			dir = 1,
 			bgm = "story-6",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "NYシティからバミューダまでの航路エリアの確保が完了した。後詰めのサラトガに連絡しよう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,13 +30,13 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "さすがのサラトガちゃんでも予測できなかったビックリ展開！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,8 +64,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "…はさておき、上層部から「まずは余燼の捜索をして、異常気象？現象？の探索はその後に」って指示が来たわ！",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "NYシティから遠くまで出撃して大変だけど、まだ凱旋するわけにはいかなそうね",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "「作戦通りNA海域中心部までのルートを切り開く」って？",
 			typewriter = {
 				speed = 0.05,
@@ -111,9 +111,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "サラトガちゃんもいいと思う！というか、サラトガちゃんも仲間たちを連れて応援しに行くよ！",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,8 +138,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "あ、レッドアクシズの動向は何かあったらすぐ指揮官に連絡するから、安心して！",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "それじゃ、サラトガちゃん、アウト！",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ああ、別に驚くことではない。各陣営の上層部もこの作戦の重要性を認知しているはず",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -256,8 +256,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "クイーン・エリザベスか…艦船同士はともかく、ロイヤルと鉄血の上層部間はひと悶着起きそうだな",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "アズールレーンとレッドアクシズとの共闘。うまく実現できれば…",
 			typewriter = {
 				speed = 0.05,

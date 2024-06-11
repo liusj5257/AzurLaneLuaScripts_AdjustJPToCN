@@ -1,18 +1,18 @@
 return {
-	id = "FUXIANGXIANZUOZHAN28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-seiren-theme",
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "海蟑螂發現！妳就是今天來把基地攪得一團亂的人吧！",
-			bgm = "battle-seiren-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,9 +40,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ㄍㄡˋㄐㄧㄢˋㄓㄜˇ……？怎麼看都是海蟑螂嘛！",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,8 +82,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "又是好長的名字…………大王……具足……蟲————啊！！",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 			}
 		},
 		{
+			say = "轟————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2020年6月世界BOSS叠加buff",
 	time = 0,
-	color = "yellow",
+	name = "2020年6月世界BOSS叠加buff",
+	init_effect = "",
+	id = 8700,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8700,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 0.1,
 				target = "TargetSelf",
+				time = 0.1,
 				skill_id = 8704
 			}
 		},
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 8,
 				target = "TargetSelf",
+				time = 8,
 				skill_id = 8700
 			}
 		},
@@ -41,8 +41,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 17,
 				target = "TargetSelf",
+				time = 17,
 				skill_id = 8701
 			}
 		},
@@ -53,8 +53,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 23,
 				target = "TargetSelf",
+				time = 23,
 				skill_id = 8702
 			}
 		},
@@ -65,8 +65,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 38,
 				target = "TargetSelf",
+				time = 38,
 				skill_id = 8703
 			}
 		},
@@ -77,8 +77,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 50,
 				target = "TargetSelf",
+				time = 50,
 				skill_id = 8705
 			}
 		}

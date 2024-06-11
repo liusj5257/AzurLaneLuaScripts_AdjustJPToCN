@@ -13,7 +13,7 @@ slot0.OFFSET_Y = {
 	[5.0] = 17
 }
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0.binder = slot1
 	slot0._tf = slot2
 	slot0.collisionMgr = slot3
@@ -25,7 +25,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0:Init()
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	slot1 = slot0.binder
 
 	slot1:bind(OreGameConfig.EVENT_AKASHI_COLLISION, function (slot0, slot1)
@@ -53,7 +53,7 @@ function slot0.AddListener(slot0)
 	end)
 end
 
-function slot0.AddDftAniEvent(slot0)
+slot0.AddDftAniEvent = function(slot0)
 	slot2 = slot0._tf
 
 	eachChild(slot2:Find("effect"), function (slot0)
@@ -76,7 +76,7 @@ function slot0.AddDftAniEvent(slot0)
 	end)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0:AddListener()
 	slot0:AddDftAniEvent()
 
@@ -114,11 +114,11 @@ function slot0.Init(slot0)
 	slot0.posY = uv0.ROAD_Y[slot0.roadID] + (uv0.OFFSET_Y[slot0.id] or 0)
 end
 
-function slot0.SetSpeed(slot0, slot1)
+slot0.SetSpeed = function(slot0, slot1)
 	slot0.speed = slot1
 end
 
-function slot0.OnEnemyCollison(slot0, slot1, slot2)
+slot0.OnEnemyCollison = function(slot0, slot1, slot2)
 	slot4, slot5 = nil
 	slot6 = slot1._tf.anchoredPosition.x
 	slot7 = slot2._tf.anchoredPosition.x
@@ -137,7 +137,7 @@ function slot0.OnEnemyCollison(slot0, slot1, slot2)
 	end
 end
 
-function slot0.PlayClashLightAnim(slot0)
+slot0.PlayClashLightAnim = function(slot0)
 	slot0.collisionMgr:RemoveEnemyObject(slot0.roadID, slot0.index, slot0)
 	setActive(slot0._tf:Find("effect/EF_Clash_Light"), true)
 	slot0._tf:Find("Image"):GetComponent(typeof(Animator)):Play("Clash_Light")
@@ -148,13 +148,13 @@ function slot0.PlayClashLightAnim(slot0)
 	slot0.centerPoint = Vector2((slot0.startPoint.x + slot0.endPoint.x) / 2, slot0.startPoint.y + 50)
 end
 
-function slot0.PlayClashHeavyAnim(slot0)
+slot0.PlayClashHeavyAnim = function(slot0)
 	slot0.collisionMgr:RemoveEnemyObject(slot0.roadID, slot0.index, slot0)
 	setActive(slot0._tf:Find("Image"), false)
 	setActive(slot0._tf:Find("effect/EF_Clash_Heavy"), true)
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	if slot0.isDestroy then
 		return slot0.isDestroy
 	end
@@ -169,11 +169,11 @@ function slot0.Destroy(slot0)
 	slot0.collisionMgr:RemoveEnemyObject(slot0.roadID, slot0.index, slot0)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.isDestroy = true
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	if slot0.clashTime then
 		if slot0.clashTime < uv0.CLASH_TIME then
 			slot0.clashTime = slot0.clashTime + slot1
@@ -198,18 +198,18 @@ function slot0.OnTimer(slot0, slot1)
 	end
 end
 
-function slot0.GetAABB(slot0)
+slot0.GetAABB = function(slot0)
 	return slot0.aabb
 end
 
-function slot0.GetCarryTriggerOffset(slot0)
+slot0.GetCarryTriggerOffset = function(slot0)
 	return {
 		0,
 		10
 	}
 end
 
-function slot0.GetCollisionInfo(slot0)
+slot0.GetCollisionInfo = function(slot0)
 	slot1 = 0
 
 	return {

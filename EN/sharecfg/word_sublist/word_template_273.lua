@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_273 = {}
 slot1 = slot0.word_template_273
 
-function temp()
+temp = function()
 	uv0["他"] = {
 		["半"] = {
 			["天"] = {
@@ -190,7 +190,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["她"] = {
 		["的"] = {
 			m = {
@@ -262,7 +262,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["塔"] = {
 		["利"] = {
 			["班"] = {
@@ -280,7 +280,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鰨"] = {
 		this = {
 			this = true
@@ -290,7 +290,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闥"] = {
 		this = {
 			this = true
@@ -300,7 +300,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["胎"] = {
 		["欢"] = {
 			["姿"] = {
@@ -314,7 +314,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["台"] = {
 		["办"] = {
 			this = true

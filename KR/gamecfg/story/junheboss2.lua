@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHEBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHEBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"저편을 건너온 물결\n\n<size=45>행운함의 격려</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항-훈련 해역",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "cw-story",
+			say = "모항-훈련 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "역시 이 함대의 지휘관님, 자신의 함대에 대해 누구보다도 잘 알고 있군요……",
 			typewriter = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 900200,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "네. 현재 상대 측 전선과 전투 진행 중입니다. 예측했던 상황——은 아니었습니다… 상대의 속도가 생각한 것 보다 많이 빠릅니다.",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "역시 전위대를 조금 물리는 것이……",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "그럴 필요 없다는 거다!",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "자진해서 나서준 것은 감사하지만, 상대의 행군 속도를 생각해 본다면 이쪽에서 요격을 준비하는 것도 시간이 필요합니다.",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "그러니 단순한 유인이 아니라, 시간을 끌 방법을 생각해봐야 합니다——유키카제, 좋은 생각이라도 있습니까?",
 			typewriter = {
@@ -282,11 +282,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "흥흥! 그런 잔재주는 필요 없다는거다! 유키카제 님의 행운을 빌린다면 그런 작은 일은 문제도 아니라는 거다!",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 900200,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "……알, 알겠습니다!",
 			typewriter = {
 				speed = 0.05,

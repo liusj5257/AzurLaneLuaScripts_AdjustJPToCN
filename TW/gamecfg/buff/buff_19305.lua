@@ -7,9 +7,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 30,
-					skill_id = 19300
+					time = 30
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -34,9 +34,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 29,
-					skill_id = 19300
+					time = 29
 				}
 			},
 			{
@@ -46,8 +46,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -61,9 +61,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 28,
-					skill_id = 19300
+					time = 28
 				}
 			},
 			{
@@ -73,8 +73,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -88,9 +88,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 27,
-					skill_id = 19300
+					time = 27
 				}
 			},
 			{
@@ -100,8 +100,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -115,9 +115,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 26,
-					skill_id = 19300
+					time = 26
 				}
 			},
 			{
@@ -127,8 +127,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -142,9 +142,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 25,
-					skill_id = 19300
+					time = 25
 				}
 			},
 			{
@@ -154,8 +154,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -169,9 +169,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 24,
-					skill_id = 19300
+					time = 24
 				}
 			},
 			{
@@ -181,8 +181,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -196,9 +196,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 23,
-					skill_id = 19300
+					time = 23
 				}
 			},
 			{
@@ -208,8 +208,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -223,9 +223,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 22,
-					skill_id = 19300
+					time = 22
 				}
 			},
 			{
@@ -235,8 +235,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -250,9 +250,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 19300,
 					target = "TargetSelf",
-					time = 20,
-					skill_id = 19300
+					time = 20
 				}
 			},
 			{
@@ -262,8 +262,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 19301
 				}
 			}
@@ -272,12 +272,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19305,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19305,
+	color = "red",
 	icon = 19300,
 	last_effect = "",
 	effect_list = {}

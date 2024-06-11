@@ -4,7 +4,7 @@ slot0.SWITCH_TIME = 0.5
 slot0.SWITCH_WIDTH = 367
 slot0.TACHIE_DELAY = 0.03
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD/mask")
 	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
 	slot4 = slot0.bg
@@ -25,10 +25,10 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
-	function slot4()
+	slot4 = function()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SENRANKAGURA_BACKHILL)
 	end
 
@@ -46,11 +46,11 @@ function slot0.OnFirstFlush(slot0)
 
 	slot0.LTList = {}
 
-	function slot0.Interval()
+	slot0.Interval = function()
 		table.insert(uv0.LTList, LeanTween.delayedCall(go(uv0._tf), uv1.SWITCH_INTERVAL, System.Action(uv0.FadeIn)).uniqueId)
 	end
 
-	function slot0.FadeIn()
+	slot0.FadeIn = function()
 		slot0 = uv0.children[uv0.randomList[uv0.index]]
 		uv0.index = uv0.index % uv0.totalNum + 1
 		slot1 = uv0.children[uv0.randomList[uv0.index]]
@@ -75,7 +75,7 @@ function slot0.OnFirstFlush(slot0)
 				x = uv0 + rtf(slot1).anchoredPosition.x
 			})
 
-			function slot3()
+			slot3 = function()
 				table.insert(uv0.LTList, LeanTween.alpha(uv1, 1, uv2.SWITCH_TIME):setEase(LeanTweenType.easeOutSine).uniqueId)
 				table.insert(uv0.LTList, LeanTween.moveX(rtf(uv1), 0 + uv3, uv2.SWITCH_TIME):setEase(LeanTweenType.easeOutSine).uniqueId)
 			end
@@ -93,13 +93,13 @@ function slot0.OnFirstFlush(slot0)
 		}, function (slot0, slot1)
 			slot2 = rtf(slot1).anchoredPosition.x
 
-			function slot3()
+			slot3 = function()
 				setAnchoredPosition(uv0, {
 					x = uv1
 				})
 			end
 
-			function slot4()
+			slot4 = function()
 				table.insert(uv0.LTList, LeanTween.alpha(uv1, 0, uv2.SWITCH_TIME):setEase(LeanTweenType.easeOutSine).uniqueId)
 				table.insert(uv0.LTList, LeanTween.moveX(rtf(uv1), -uv3 + uv4, uv2.SWITCH_TIME):setOnComplete(System.Action(uv5)):setEase(LeanTweenType.easeOutSine).uniqueId)
 			end
@@ -115,7 +115,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.Interval()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot1 = ipairs
 	slot2 = slot0.LTList or {}
 

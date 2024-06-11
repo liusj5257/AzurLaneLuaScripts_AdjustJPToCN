@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AILUNSAMUNA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AILUNSAMUNA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"三星豪華戀物語\n\n<size=45>七 真正想要的禮物</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "走進指揮室，剛剛安裝好按摩椅的蠻啾們一個接一個跳了出去。",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在艾倫的催促下，試著坐在新買的椅子上。",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "這可是我精挑細選的“獎勵”之一呢♪嘿嘿嘿，等一下也讓我在上面躺一下哦～",
 			typewriter = {
@@ -111,9 +111,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "艾倫的聲音從按摩椅的後方傳了出來。",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "因為有了這個目標，我才能更努力的工作。也因為我更努力了，指揮官才會把禮物送給我。",
 			typewriter = {
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "說起來，還沒有聽艾倫說過她想要的另一件“獎勵”是什麼呢。",
 			typewriter = {
 				speed = 0.05,
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "艾倫繞過椅子直接坐在了我的大腿上，然後笑容滿面的望了過來。",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "指揮官～意外的有點遲鈍呢～",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "我之所以能好好工作，說到底還是因為指揮官經常在意我、提醒我嘛？",
 			typewriter = {
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "也就是說，她想要的另一個“獎勵”是——",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "哼哼，才不會讓你說出口呢～",
 			typewriter = {
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "剛要開口的瞬間，嘴唇被艾倫用手指上的貼紙點住了。",
 			typewriter = {
 				speed = 0.05,
@@ -367,13 +367,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "…………",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "這就是————我給指揮官的“獎勵”，以及“回禮”哦。",
 			typewriter = {
@@ -418,8 +418,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "謝謝你，指揮官。",
 			typewriter = {
@@ -432,12 +432,12 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101450,
+			nameColor = "#a9f548",
 			say = "這次就換我來全力給指揮官心跳加速的感覺吧！",
 			typewriter = {
 				speed = 0.05,

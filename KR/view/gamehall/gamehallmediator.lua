@@ -4,7 +4,7 @@ slot0.OPEN_GAME_SHOP = "open game shop "
 slot0.GET_WEEKLY_COIN = "get weekly coin"
 slot0.EXCHANGE_COIN = "exchange coin"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OPEN_MINI_GAME, function (slot0, slot1, slot2)
 		print("open minigame " .. slot1.game_id)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, slot1.game_id)
@@ -22,7 +22,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.onUIAvalible(slot0)
+slot0.onUIAvalible = function(slot0)
 	if getProxy(GameRoomProxy):getFirstEnter() then
 		pg.m02:sendNotification(GAME.GAME_ROOM_FIRST_COIN)
 	else
@@ -30,14 +30,15 @@ function slot0.onUIAvalible(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.GAME_ROOM_AWARD_DONE,
-		GAME.ROOM_FIRST_COIN_DONE
+		GAME.ROOM_FIRST_COIN_DONE,
+		GAME.END_GUIDE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.GAME_ROOM_AWARD_DONE then
@@ -59,6 +60,8 @@ function slot0.handleNotification(slot0, slot1)
 				slot0()
 			end
 		})
+	elseif slot2 == GAME.END_GUIDE then
+		pg.SystemGuideMgr.GetInstance():Play(slot0.viewComponent)
 	end
 end
 

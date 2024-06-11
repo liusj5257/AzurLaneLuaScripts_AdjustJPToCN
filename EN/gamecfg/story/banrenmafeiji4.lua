@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Midsummer Sagittarius\n\n<size=45>Chapter 4 - Beachside Sweets</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Ah, the girls from Iris Libre and Vichya Dominion are over here!",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#a9f548",
+			say = "Ah, the girls from Iris Libre and Vichya Dominion are over here!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,10 +55,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Elder Rodney appears to be here as well.",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Rodney! Dunkerque! Émile! Over here!",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Yes! Elder Dunkerque, Elder Émile Bertin, and finally, Elder Rodney, it is a pleasure to meet you all.",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -267,10 +267,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "If that's the case, I'll be looking forward to it.",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "It's... amazing!",
 			typewriter = {
@@ -366,11 +366,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Right~? I'd love to dig in, but... I don't have the courage to look at the scales afterwards...",
 			typewriter = {
 				speed = 0.05,
@@ -382,8 +382,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -507,8 +507,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "It behooves a hot summer day.",
 			typewriter = {
@@ -537,13 +537,13 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "Ah, forget it... I want some ice cream too!",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "Ah, forget it... I want some ice cream too!",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.3,
 				side = 2
@@ -558,16 +558,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.4,
 					x = 22.5,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1.1,
 					dur = 0.2,
 					x = 0,

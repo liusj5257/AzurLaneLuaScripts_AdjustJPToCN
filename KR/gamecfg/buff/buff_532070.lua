@@ -1,11 +1,11 @@
 return {
-	init_effect = "",
-	name = "自动速射",
 	time = 0,
-	color = "red",
+	name = "自动速射",
+	init_effect = "",
+	id = 532070,
 	picture = "",
 	stack = 1,
-	id = 532070,
+	color = "red",
 	icon = 532070,
 	last_effect = "",
 	effect_list = {
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 532070,
 				target = "TargetSelf",
-				time = 5,
-				skill_id = 532070
+				time = 5
 			}
 		}
 	}

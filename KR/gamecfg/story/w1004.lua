@@ -1,12 +1,12 @@
 return {
-	id = "W1004",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1004",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "특정 재료를 투입해 시설을 작동시키면, 해역의 더 은폐된 조사 포인트를 탐지할 수 있는데...",
 			typewriter = {
 				speed = 0.05,

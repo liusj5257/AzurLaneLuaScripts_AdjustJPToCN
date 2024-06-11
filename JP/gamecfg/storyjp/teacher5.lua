@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER5",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"36年Z組 ニーミ先生\n\n<size=45>その五 Z23の悩み</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うう…どうしてうまくいかないんだろう…",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "うう…どうしてうまくいかないんだろう…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			say = "あら、私の光を必要とする子の声が～",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、私の光を必要とする子の声が～",
+			actor = 207030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "なるほどですね、うふふ、みんな元気な子ですから～",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "元気……ですか？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "元気……ですか？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

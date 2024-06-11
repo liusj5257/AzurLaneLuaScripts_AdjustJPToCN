@@ -1,15 +1,15 @@
 return {
-	id = "WORLD204A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD204A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA海域中心外周エリア・ロイヤル主力艦隊",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,10 +20,10 @@ return {
 			}
 		},
 		{
+			say = "――――――！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "――――――！",
 			flashN = {
 				color = {
 					1,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "よくやったわ！フッド、ウォースパイト！ユニオン艦隊より早かったじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "ありがとうございます。陛下。そちらの公務の方も順調でしょうか？",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "ちょっと問題が起きたけど…まあ無事和平協定が締結されたわ。これでNA海域で各陣営のいざこざが起こることはないわ",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 		{
 			paintingNoise = false,
 			side = 2,
+			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "まあ、喜ばしいですこと。王都の守備隊から戦力の増援を呼びつけることも可能になりましょう",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "上層部の鉄血艦隊へのあてつけも無視できるようになったわね",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "（とはいっても、鉄血の艦隊が勝手に動いちゃっているのは困るわね…ティルピッツの件で危うく交渉が破談になりそうだったし）",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205020,
 			dir = 1,
+			actor = 205020,
 			say = "（お疲れ様でございます。陛下）",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +310,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（いいわ。大したことじゃないし、下僕も戦いやすくなるからやりがいがあったってものね）",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -337,8 +337,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "そんなことより、レッドアクシズ、本気でセイレーン作戦に参加する気のようね",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "重桜艦隊…というか赤城自らここに来ているし。あとはシェフィに詳しい情報を送らせるわ",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "？ウェールズはどこにいるのかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "ユニオン艦隊の異常調査を行っている別動隊の救援信号をキャッチしました。ウェールズは救援艦隊を編成し、今その艦隊のメンバーを保護して王都に戻ろうとしているところですわ",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "異常調査……？",
 			typewriter = {
 				speed = 0.05,
@@ -417,8 +417,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205020,
 			dir = 1,
+			actor = 205020,
 			say = "何か気がかりでもありますか？陛下？",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "なんでもないわ。一大決戦の計画にこんな小部隊を単独行動させるなんて、何を考えて……",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "通信を切るわ。またあとで",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "陛下の心配も当然ですわね",
 			typewriter = {
 				speed = 0.05,

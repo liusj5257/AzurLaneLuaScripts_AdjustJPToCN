@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.world_collection_file_group = {
 	[110] = {
-		name = "隕石事件",
 		id_2 = "011",
+		name = "隕石事件",
 		name_abbreviate = "1",
 		type = 2,
 		id = 110,
@@ -16,8 +16,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[210] = {
-		name = "エネルギー革命",
 		id_2 = "021",
+		name = "エネルギー革命",
 		name_abbreviate = "2",
 		type = 1,
 		id = 210,
@@ -31,8 +31,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[310] = {
-		name = "技術進歩と生活",
 		id_2 = "031",
+		name = "技術進歩と生活",
 		name_abbreviate = "3",
 		type = 1,
 		id = 310,
@@ -46,8 +46,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[320] = {
-		name = "生活スタイル",
 		id_2 = "032",
+		name = "生活スタイル",
 		name_abbreviate = "4",
 		type = 1,
 		id = 320,
@@ -61,8 +61,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[330] = {
-		name = "ミリタリー",
 		id_2 = "033",
+		name = "ミリタリー",
 		name_abbreviate = "5",
 		type = 5,
 		id = 330,
@@ -76,8 +76,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[410] = {
-		name = "ミリタリーⅡ",
 		id_2 = "041",
+		name = "ミリタリーⅡ",
 		name_abbreviate = "6",
 		type = 5,
 		id = 410,
@@ -91,8 +91,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[510] = {
-		name = "「微光」計画",
 		id_2 = "051",
+		name = "「微光」計画",
 		name_abbreviate = "7",
 		type = 3,
 		id = 510,
@@ -106,8 +106,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[610] = {
-		name = "キューブについて",
 		id_2 = "061",
+		name = "キューブについて",
 		name_abbreviate = "8",
 		type = 3,
 		id = 610,
@@ -121,8 +121,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[710] = {
-		name = "コード：G",
 		id_2 = "071",
+		name = "コード：G",
 		name_abbreviate = "9",
 		type = 3,
 		id = 710,
@@ -136,8 +136,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[810] = {
-		name = "世界情勢",
 		id_2 = "081",
+		name = "世界情勢",
 		name_abbreviate = "10",
 		type = 2,
 		id = 810,
@@ -151,8 +151,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[910] = {
-		name = "機密ファイルⅠ",
 		id_2 = "091",
+		name = "機密ファイルⅠ",
 		name_abbreviate = "11",
 		type = 5,
 		id = 910,
@@ -166,8 +166,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1010] = {
-		name = "世界情勢Ⅱ",
 		id_2 = "101",
+		name = "世界情勢Ⅱ",
 		name_abbreviate = "12",
 		type = 2,
 		id = 1010,
@@ -181,8 +181,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1110] = {
-		name = "学院ライフ",
 		id_2 = "111",
+		name = "学院ライフ",
 		name_abbreviate = "15",
 		type = 4,
 		id = 1110,
@@ -198,8 +198,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1130] = {
-		name = "創造主と審判者",
 		id_2 = "113",
+		name = "創造主と審判者",
 		name_abbreviate = "21",
 		type = 4,
 		id = 1130,
@@ -213,8 +213,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1150] = {
-		name = "フューチャー・ナオ",
 		id_2 = "115",
+		name = "フューチャー・ナオ",
 		name_abbreviate = "16",
 		type = 4,
 		id = 1150,
@@ -228,8 +228,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1310] = {
-		name = "臨時ニュース",
 		id_2 = "131",
+		name = "臨時ニュース",
 		name_abbreviate = "17",
 		type = 1,
 		id = 1310,
@@ -243,8 +243,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1320] = {
-		name = "臨時ニュース・Ⅱ",
 		id_2 = "132",
+		name = "臨時ニュース・Ⅱ",
 		name_abbreviate = "18",
 		type = 3,
 		id = 1320,
@@ -258,8 +258,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1330] = {
-		name = "世界危機",
 		id_2 = "133",
+		name = "世界危機",
 		name_abbreviate = "22",
 		type = 2,
 		id = 1330,
@@ -273,8 +273,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1410] = {
-		name = "リシャールについて・Ⅰ",
 		id_2 = "141",
+		name = "リシャールについて・Ⅰ",
 		name_abbreviate = "13",
 		type = 1,
 		id = 1410,
@@ -288,8 +288,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1420] = {
-		name = "リシャールについて・Ⅱ",
 		id_2 = "142",
+		name = "リシャールについて・Ⅱ",
 		name_abbreviate = "14",
 		type = 1,
 		id = 1420,
@@ -303,8 +303,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1430] = {
-		name = "リシャールについて・Ⅲ",
 		id_2 = "143",
+		name = "リシャールについて・Ⅲ",
 		name_abbreviate = "19",
 		type = 1,
 		id = 1430,
@@ -318,8 +318,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1440] = {
-		name = "リシャールについて・Ⅳ",
 		id_2 = "144",
+		name = "リシャールについて・Ⅳ",
 		name_abbreviate = "20",
 		type = 3,
 		id = 1440,
@@ -337,8 +337,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1460] = {
-		name = "リシャールドキュメントⅠ",
 		id_2 = "146",
+		name = "リシャールドキュメントⅠ",
 		name_abbreviate = "23",
 		type = 3,
 		id = 1460,

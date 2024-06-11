@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102050,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "story-8",
 			dir = 1,
 			say = "…주변 해역에 세이렌 신호 다수 접근 중!",
+			bgm = "story-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,15 +102,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "(콰앙~~~~!)",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 3,
 				alpha = {
 					0,
@@ -526,8 +526,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51> </size>",

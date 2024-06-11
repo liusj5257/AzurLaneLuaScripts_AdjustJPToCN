@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_45 = {}
 slot1 = slot0.word_template_45
 
-function temp()
+temp = function()
 	uv0["辦"] = {
 		["譪"] = {
 			this = true
@@ -38,7 +38,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瓣"] = {
 		["證"] = {
 			this = true
@@ -48,7 +48,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["帮"] = {
 		["人"] = {
 			["报"] = {
@@ -62,7 +62,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["浜"] = {
 		["田"] = {
 			["渚"] = {
@@ -74,7 +74,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["傍"] = {
 		["着"] = {
 			["一"] = {
@@ -100,7 +100,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["薄"] = {
 		["谷"] = {
 			["开"] = {
@@ -181,7 +181,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["保"] = {
 		["单"] = {
 			["机"] = {

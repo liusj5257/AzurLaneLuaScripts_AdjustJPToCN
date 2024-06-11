@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"경항공모함 류조 참전!\n\n<size=45>4. 위험! 소녀를 유혹하는 수수께끼의 미각</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날 - 모항",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날 - 모항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "연습전이 끝나자 어째서인지 류조가 혼자 먼저 자리를 떠나, 그 길로 어디론가 사라져버렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -104,13 +104,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "그래서, 호쇼의 조언대로 식당까지 오게 된 지휘관……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -131,9 +131,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "지휘관에 눈에 비친 건 평소에는 생각도 못할 기이한 광경이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "우걱우걱우걱우걱……맛있어!!",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -203,8 +203,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "역시 배불리 먹는 게 제일 행복하다니까!! 우걱우걱우걱우걱",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -278,8 +278,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "주군이라면 아직 연습전 해역에 있을 테니 괜찮습니다! 우걱우걱",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "……………………………………엥?",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "주, 주군! 보기 흉한 모습을 보여드려 정말 죄송합니다!",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "부, 부부, 부디 용서를…………우으으………",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
 					x = 45,
@@ -405,9 +405,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "류조의 두 눈엔 눈물이 그렁그렁 맺혔고, 젓가락을 집고 있는 손이 파르르 떨렸다.",
 			typewriter = {
 				speed = 0.05,

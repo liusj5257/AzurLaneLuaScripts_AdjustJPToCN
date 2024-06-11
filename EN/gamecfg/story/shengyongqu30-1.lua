@@ -1,18 +1,18 @@
 return {
-	id = "SHENGYONGQU30-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU30-1",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-3",
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Fourth battleship... of the Richelieu class...?",
-			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,8 +31,8 @@ return {
 			expression = 5,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "Gascogne of the Vichya Dominion, fourth battleship of the Richelieu class, and nameship of the Gascogne class.",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "This is the first time I've ever heard of the Richelieu class having... a fourth ship.",
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "A ship that should never have existed... why is she here?",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "Isn't that perfectly normal? The Royal Navy and the Eagle Union both have ships like that... then there's even Sovetskaya Rossiya from the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 		{
 			actor = 207030,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "...Eh, really?",
 			dialogShake = {
 				speed = 0.09,
@@ -125,8 +125,8 @@ return {
 			actor = 903020,
 			side = 2,
 			expression = 1,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "In that regard, the Azur Lane is no different from the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "Vauquelin, La Galissonnière, with me. Sorry, but we'll be taking our leave now. The thing with Gascogne is... she's bad at lying.",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			say = "Reinforcements at the last second to bail us out? ...Yeah right, like that'd happen.",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "Well, guess that's that then~ Since the Vichya is still keeping an eye on us, we'd better save the chatter for next time. Let's have lots of fun again next time?",
 			typewriter = {
 				speed = 0.05,
@@ -204,9 +204,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Wait, come back!",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,10 +228,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "BOOOM!!",
 			soundeffect = "event:/battle/boom2",
+			dir = 1,
+			say = "BOOOM!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,8 +282,8 @@ return {
 			expression = 6,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "Attempts to interfere with retreat protocol will be deemed an act of aggression. Warning: Activating anti-surface combat modules.",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Le Téméraire, L'Opiniâtre, Fortune, I'm counting on you! Please chase after Algérie!",
 			typewriter = {
 				speed = 0.05,
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 801030,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
 			dir = 1,
+			actor = 801030,
+			hideOther = true,
 			actorName = "Le Téméraire & L'Opiniâtre & Fortune",
 			say = "Yes ma'am!",
 			subActors = {
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -385,9 +385,9 @@ return {
 			actor = 207030,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "Of course! I'll scramble my squadrons right away!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,8 +401,8 @@ return {
 			expression = 6,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "Gascogne, commencing anti-surface combat operations...",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI09",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI09",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 905010,
 			side = 1,
-			bgm = "story-french1",
-			dir = 1,
 			say = "So you've finally returned, invaders!",
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 105190,
 			side = 0,
-			say = "Show me what you've got, \"the Ocean's strongest battleship!\"",
+			actor = 105190,
 			dir = 1,
 			bgm = "story-masazhusai",
+			say = "Show me what you've got, \"the Ocean's strongest battleship!\"",
 			subActors = {
 				{
 					actor = 905010,

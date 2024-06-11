@@ -1,6 +1,6 @@
 slot0 = class("MeixiT2FramePage", import(".TemplatePage.NewFrameTemplatePage"))
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	for slot4, slot5 in ipairs(slot0.phases) do
 		setActive(slot5, true)
 
@@ -10,7 +10,7 @@ function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 
 	setToggleEnabled(slot0.switchBtn, false)

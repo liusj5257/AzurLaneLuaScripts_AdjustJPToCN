@@ -2,7 +2,7 @@ slot0 = class("FragmentShop", import(".MonthlyShop"))
 slot0.GoodsType = Goods.TYPE_FRAGMENT
 slot0.type = ShopArgs.ShopFragment
 
-function slot0.update(slot0, slot1, slot2, slot3)
+slot0.update = function(slot0, slot1, slot2, slot3)
 	slot0.id = slot1
 	slot0.configId = slot1
 	slot4 = {}
@@ -18,7 +18,7 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	table.clear(slot0.goods)
 
 	if slot0.id and slot0.id > 0 and slot0:getConfigTable() then
-		function slot5(slot0, slot1)
+		slot5 = function(slot0, slot1)
 			uv1.goods[slot0] = Goods.Create({
 				shop_id = slot0,
 				buy_count = uv0[slot0] or 0
@@ -39,7 +39,7 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.Reset(slot0, slot1)
+slot0.Reset = function(slot0, slot1)
 	slot2 = {}
 	slot6 = "blueprint_shop_limit_goods"
 

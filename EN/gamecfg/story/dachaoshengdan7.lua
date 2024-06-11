@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Operation: Christmas!\n\n<size=45>Chapter 7: Commence Operation: Christmas!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205021,
-			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "Marvelous! We've gotten all the presents in one place!",
 			bgm = "main-christmas",
+			actor = 205021,
+			nameColor = "#a9f548",
+			say = "Marvelous! We've gotten all the presents in one place!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 201102,
+			say = "*Pant*... *Pant*... Now I understand what they mean by holiday fatigue... But I'm glad I was able to help...",
 			side = 1,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "*Pant*... *Pant*... Now I understand what they mean by holiday fatigue... But I'm glad I was able to help...",
+			actor = 201102,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "All that is left is to hand them out! It's time for the old lady to get to work!",
 			typewriter = {
@@ -105,15 +105,15 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "Whew, almost done. Now just to deliver this stuffed toy to Her Majesty...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Warspite...! You've brought me a present?!",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			say = "Yes, Your Majesty! Merry Christmas! I sincerely hope this humble gift will be to Your Majesty's liking!",
 			side = 0,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Yes, Your Majesty! Merry Christmas! I sincerely hope this humble gift will be to Your Majesty's liking!",
+			actor = 205021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "... N-no, I'm not very fond of it! In fact, it's not to my liking whatsoever!",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "If that is so, then I shall see to it that it is immediately disposed of, Your Majesty!",
 			typewriter = {
@@ -261,14 +261,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = -1,
 			bgName = "star_level_bg_100",
 			actor = 205021,
-			dir = -1,
 			nameColor = "#a9f548",
 			say = "Now all presents have been delivered. I hope everyone's having a merry Christmas...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,8 +296,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "... Hm? What's with this leftover box...?",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "What in the–?! It's making noise!",
 			typewriter = {
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 101312,
 			dir = 1,
+			actor = 101312,
 			nameColor = "#a9f548",
 			say = "Good morning... Huh...? Where am I...?",
 			typewriter = {
@@ -344,12 +344,12 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			say = "Nicholas?! How did you get in there? Aha, were you... wrapped up in the hustle and bustle of Christmas?",
 			side = 0,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Nicholas?! How did you get in there? Aha, were you... wrapped up in the hustle and bustle of Christmas?",
+			actor = 205021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "I-I see... Well, this certainly was a surprise for both of us...",
 			typewriter = {
@@ -407,11 +407,11 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107061,
+			nameColor = "#a9f548",
 			say = "Hey, sorry for barging in! Warspite, have you seen Nicholas? She was with me just earlier...",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -452,8 +452,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 101312,
 			dir = 1,
+			actor = 101312,
 			nameColor = "#a9f548",
 			say = "Huhhh? I'm a present now...? I guess that's fine... I don't mind being Enterprise's present...",
 			typewriter = {
@@ -466,12 +466,12 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "Let's just say you're a... gifted girl, Nicholas. To you, and to all, Merry Christmas!",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIAOQIANGMANHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"월간 만화 - 재블린\n\n<size=45>......이상한 편지?</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			blackBg = true,
+			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			blackBg = true,
+			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
@@ -79,13 +79,13 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "....이게 뭐야?",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "....이게 뭐야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,10 +144,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			actorName = "라피&아야나미",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 101170,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "유니콘도 잘 모르겠어....",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "비슷한 편지...? 하, 한번도 못 받아 봤는걸!?",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 25,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -221,15 +221,15 @@ return {
 			}
 		},
 		{
-			actor = 202170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202170,
+			nameColor = "#a9f548",
 			say = "어, 세계의 진실...혹시 편지 쓴 사람이 \"능력자\"...!?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,15 +286,15 @@ return {
 			}
 		},
 		{
-			actor = 401460,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401460,
+			nameColor = "#a9f548",
 			say = "...확실히 잘 이해가 안되네. 그렇다고 해독할 수 없는 건 아냐.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "정말!? Z46, 도와줘!",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 25,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

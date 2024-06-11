@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"その女、賢妻につき\n\n<size=45>六 大鳳の消失・上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "いつのまにか、大鳳が秘書艦をやってくれることには慣れた気がした。",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "優先すべきものは上に、重要ではないものは下に、読まなくてもいいものはゴミ箱に、ですわ",
 			typewriter = {
@@ -111,14 +111,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 307070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "指揮官様、一日お疲れ様でした。お茶でも召し上がってください",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……どうかしました？もしかして――",
 			typewriter = {
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "こんな会話も、いつしか日常となるだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "若干やりすぎ（？）な時もあるが、大鳳の秘書艦としての働きは申し分ない。だが……",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "たまには自分のことでも考えたほうがいいんじゃないか…？",
 			typewriter = {
 				speed = 0.05,
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そう思って、大鳳に休暇を薦めてみた。",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "…………………指揮官様――",
 			typewriter = {
@@ -265,9 +265,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "彼女の表情の中には喜びと感謝の他に、初めて見た寂しさがあった。",
 			typewriter = {
 				speed = 0.05,
@@ -275,14 +275,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			say = "翌日、大鳳は消えた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

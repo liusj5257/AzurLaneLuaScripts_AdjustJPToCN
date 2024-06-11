@@ -1,17 +1,17 @@
 slot0 = class("AiriLoginPanelView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AiriLoginPanelView"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.SetShareData(slot0, slot1)
+slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.airijpPanel = slot0._tf
 	slot0.airiLoginBtn = slot0:findTF("airi_login", slot0.airijpPanel)
 	slot0.clearTranscodeBtn = slot0:findTF("clear_transcode", slot0.airijpPanel)
@@ -61,8 +61,8 @@ function slot0.OnInit(slot0)
 	slot0:InitEvent()
 end
 
-function slot0.InitEvent(slot0)
-	function slot1()
+slot0.InitEvent = function(slot0)
+	slot1 = function()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.firstAlertWin, uv0.airijpPanel)
 		setActive(uv0.firstAlertWin, false)
 	end
@@ -191,7 +191,7 @@ function slot0.InitEvent(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

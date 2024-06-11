@@ -6,7 +6,7 @@ slot0.OnSubAuto = "WorldPreCombatMediator.OnSubAuto"
 slot0.OnStartBattle = "WorldPreCombatMediator.OnStartBattle"
 slot0.OnOpenSublayer = "OpenSublayer"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OnSwitchShip, function (slot0, slot1, slot2, slot3)
 		nowWorld():GetFleet(slot1):SwitchShip(slot2, slot3)
 	end)
@@ -38,7 +38,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayerInfo(getProxy(PlayerProxy):getRawData())
 end
 
-function slot0.onAutoBtn(slot0, slot1)
+slot0.onAutoBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle,
@@ -46,7 +46,7 @@ function slot0.onAutoBtn(slot0, slot1)
 	})
 end
 
-function slot0.onSubAuto(slot0, slot1)
+slot0.onSubAuto = function(slot0, slot1)
 	slot4 = slot1.system
 
 	slot0:sendNotification(GAME.AUTO_SUB, {
@@ -56,14 +56,14 @@ function slot0.onSubAuto(slot0, slot1)
 	})
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.WORLD_MAP_OP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

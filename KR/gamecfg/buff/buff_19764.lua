@@ -18,8 +18,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -44,8 +44,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -70,8 +70,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -96,8 +96,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -122,8 +122,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -148,8 +148,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -174,8 +174,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -200,8 +200,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -226,8 +226,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
@@ -252,16 +252,16 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 19762,
+					target = "TargetSelf",
 					countType = 19762
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 3,
@@ -293,8 +293,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 19762,
+				target = "TargetSelf",
 				countType = 19762
 			}
 		}

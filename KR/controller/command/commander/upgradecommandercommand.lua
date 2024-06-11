@@ -1,6 +1,6 @@
 slot0 = class("UpgradeCommanderCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.materialIds
 	slot5 = slot2.skillId
@@ -98,7 +98,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.clearHardChapterCommanders(slot0, slot1)
+slot0.clearHardChapterCommanders = function(slot0, slot1)
 	for slot7, slot8 in pairs(getProxy(ChapterProxy):getRawData()) do
 		for slot13, slot14 in pairs(slot8:getEliteFleetCommanders()) do
 			for slot18, slot19 in pairs(slot14) do
@@ -111,7 +111,7 @@ function slot0.clearHardChapterCommanders(slot0, slot1)
 	end
 end
 
-function slot0.clearActivityCommanders(slot0, slot1)
+slot0.clearActivityCommanders = function(slot0, slot1)
 	getProxy(FleetProxy):removeActivityFleetCommander(slot1)
 end
 

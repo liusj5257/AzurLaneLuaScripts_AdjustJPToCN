@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"榮光的間奏曲\n\n<size=45>一 其名為光榮</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			bgm = "story-1",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,13 +76,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "一小時後——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "（小聲）不行啊光榮，要有點皇家榮光的樣子……！艦歷上我可是最資深的……！",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "沒、沒有緊張！……找、找到了！觀測報告在這裡！",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -211,9 +211,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "明明觀測報告好好完成了，為什麼會忘記了呢……",
 			typewriter = {
 				speed = 0.05,
@@ -269,9 +269,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（閃——）",
 			typewriter = {
 				speed = 0.05,

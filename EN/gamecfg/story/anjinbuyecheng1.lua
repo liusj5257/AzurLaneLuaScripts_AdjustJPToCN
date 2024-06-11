@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			sequence = {
 				{
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -51,27 +51,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "I hear someone calling.",
 			bgm = "story-antarctica-serious",
+			nameColor = "#A9F548FF",
+			say = "I hear someone calling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "The haze in my mind gradually clears. First, I see a girl abounding with curiosity.",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "Second, I see a jail cell so decrepit that it looks ready to collapse at any given moment.",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "I try to recall my memories, but nothing comes up.",
 			typewriter = {
@@ -266,35 +266,35 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
+			soundeffect = "event:/ui/erming",
 			say = "*bzzzt!*",
-			soundeffect = "event:/ui/erming",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			side = 2,
 			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_130",
-			say = "Suddenly, fragmented memories rush into my mind like a flurry of snow.",
 			soundeffect = "event:/ui/erming",
+			say = "Suddenly, fragmented memories rush into my mind like a flurry of snow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "Manjuu Guard",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "Manjuu Guard",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "Cheep cheep!",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,17 +311,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -329,13 +329,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Manjuu Guard",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "Manjuu Guard",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "Tweet! Cheep cheep cheep!",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,13 +347,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Manjuu Guard",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "Manjuu Guard",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "Cheep! Cheep cheep!",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "*KABOOOOM!*",
 			soundeffect = "event:/battle/boom2",
+			say = "*KABOOOOM!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,22 +415,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "An explosive wave of scorching-hot air blows in from nearby, toppling everything in its path.",
 			soundeffect = "event:/ui/erming",
+			say = "An explosive wave of scorching-hot air blows in from nearby, toppling everything in its path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "Even one of the most powerful people of the Sleepless City, too lofty for its residents to ever look upon, is powerless before it.",
 			soundeffect = "event:/ui/erming",
+			say = "Even one of the most powerful people of the Sleepless City, too lofty for its residents to ever look upon, is powerless before it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,16 +527,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
 					number = 3
 				},
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.7,
 					x = 0
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "The CEO is motionless. The item in her hands falls to the ground.",
 			typewriter = {
@@ -554,9 +554,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
+			side = 2,
 			say = "Looking back, it's an odd feeling.",
 			typewriter = {
 				speed = 0.05,
@@ -570,8 +570,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "Such an important person had died so unceremoniously before my eyes. I watched it happen, and I did nothing to stop it.",
 			typewriter = {
@@ -580,8 +580,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "The sight of it was even more shocking than the stun batons brought by security shortly after.",
 			typewriter = {
@@ -608,8 +608,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "You obtained 1 Ascension Box!",
 			typewriter = {
@@ -832,11 +832,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "*KABOOOOM!*",
 			soundeffect = "event:/battle/boom2",
+			say = "*KABOOOOM!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,8 +882,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = ".........",
 			typewriter = {
@@ -891,17 +891,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

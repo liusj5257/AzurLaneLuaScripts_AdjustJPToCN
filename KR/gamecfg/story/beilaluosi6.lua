@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"씩씩한 흰색\n\n<size=45>6. 청명한 새벽</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 900309,
-			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그랬군. 성정 큐브를 이용해서 함장에서 독립된 보조 작전 장치를 제작한다라...... 재밌군.",
 			bgm = "story-1",
+			actor = 900309,
+			nameColor = "#a9f548",
+			say = "그랬군. 성정 큐브를 이용해서 함장에서 독립된 보조 작전 장치를 제작한다라...... 재밌군.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 900309,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900309,
+			nameColor = "#a9f548",
 			say = "지휘관 동지도 이제 곧 깨겠지?",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_109",
 			actor = 705040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "지휘관 동지, 좋은 아침, 숙취해소제 줄까?",
 			flashout = {
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "잠옷 차림의 벨로루시아는 들고 있던 두꺼운 책을 내려놓고, 여전히 씩씩한 목소리로 인사했다.",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "어젯밤 결국 술을 못이기고 그녀의 방 쇼파에서 바로 잠이 들어버린 것 같았다......",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "미안. 지휘관 동지가 연회에서 술에 취하지 않게 하려고 열심히 마셨는데, 그렇게 되어버렸어.",
 			typewriter = {
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "그녀의 말처럼, 계속 더 마셨다면 오늘의 업무에 확실히 영향이 있었을 것이다......",
 			typewriter = {
 				speed = 0.05,
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "하지만... 술에 취한 결과는 미뤄두고, 동료들과 함께 즐거운 시간을 보낼 수 있었던 것만으로 벨로루시아한테 감사를 해야한다.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "지금 아직 5시도 안 됐어. 구축함들은 자고 있어, 강구트랑 그녀들은 말할 것도 없고...... 빠르게 나간다면, 아마 다른 진영 사람들도 못 볼 걸?",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "내기 하자, 지휘관 동지. 넌 분명히 방으로 우선 갈 거야, 나랑 같이 이대로 지휘실에 가는 게 아니라.",
 			typewriter = {
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "어찌되었든, 지금 상황은 좋지 않다. 벨로루시아의 말에 따르는 게 낫겠다.",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "그래, 그럼 그렇게 하자. 준비해~",
 			typewriter = {
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "벨로루시아가 쇼파 옆으로 와서 두 손을 내밀었다.",
 			typewriter = {
 				speed = 0.05,
@@ -368,12 +368,12 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "star_level_bg_109",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "후훗, 지휘관 동지가 왜 그렇게 많은 사람들에게 사랑 받는지 드디어 알겠어~",
 			typewriter = {
 				speed = 0.05,

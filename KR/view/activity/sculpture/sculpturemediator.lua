@@ -4,7 +4,7 @@ slot0.ON_DRAW_SCULPTURE = "SculptureMediator:ON_DRAW_SCULPTURE"
 slot0.ON_JOINT_SCULPTURE = "SculptureMediator:ON_JOINT_SCULPTURE"
 slot0.ON_FINSIH_SCULPTURE = "SculptureMediator:ON_FINSIH_SCULPTURE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_FINSIH_SCULPTURE, function (slot0, slot1)
 		uv0:sendNotification(GAME.SCULPTURE_ACT_OP, {
 			id = slot1,
@@ -32,13 +32,13 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SCULPTURE))
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SCULPTURE_ACT_OP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SCULPTURE_ACT_OP_DONE then

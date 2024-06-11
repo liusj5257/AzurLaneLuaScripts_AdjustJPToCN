@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIEKEXINGDUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIEKEXINGDUN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"青き海と仲間のための\n\n<size=45>五 それぞれの想い</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "夕食を終えた後、練習用のスタジオを整理することになった。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "夕食を終えた後、練習用のスタジオを整理することになった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,9 +48,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "ここよ、指揮官",
 			painting = {
 				alpha = 0.3,
@@ -64,9 +64,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "指揮官が手伝ってくれるなら、スタジオの片付けはすぐに終わるはずよ",
 			painting = {
 				alpha = 0.3,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "レキシントンがドアを開けた——",
 			typewriter = {
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "あら…？もう片付けられてる……？",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -116,9 +116,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "いつの間に……私が片付けるって言ったのに……",
 			painting = {
 				alpha = 0.3,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "スタジオの中は整然と片付けられ、床まで新品のように磨き上げられ、ピカピカと月明かりを反射していた。",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "……………………",
 			typewriter = {
@@ -158,9 +158,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "うーん、もう前にやってからしばらく経つわね。それに最近はステージに上がることも少なくなったような気がするわ",
 			painting = {
 				alpha = 0.3,
@@ -174,9 +174,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "以前と比べて、裏方のお仕事を増やしていてね。そっちでも皆と一緒に頑張れる気がして",
 			painting = {
 				alpha = 0.3,
@@ -190,9 +190,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "それに皆に好かれるパフォーマンスにしようってアイデアを出したのは私だから、企画から準備の雑用も私がもっとしてあげるべきじゃない？",
 			painting = {
 				alpha = 0.3,
@@ -206,9 +206,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "まあ、結果的にはあまりうまくいってないみたい……",
 			painting = {
 				alpha = 0.3,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "ん？これは…",
 			painting = {
 				alpha = 0.3,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "レキシントン用の物置には、小さな箱が置かれていた。どうやら彼女に何かを伝えたいようだ。",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "箱を開けると、アップテンポな音楽が鳴り始めた——",
 			typewriter = {
@@ -269,10 +269,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 108050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さぷらーいず！！どう？びっくりした？",
 			painting = {
 				alpha = 0.3,
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			actor = 207110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -328,10 +328,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はあ？なんでこれを言わなきゃならないの？……わ、分かったわよ！コホン…。「よく聞きなさい！残りの仕事は私たちに任せていいから、しっかり指揮官と休みなさいっての！」",
 			painting = {
 				alpha = 0.3,
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "音声付きのメッセージカードをプレゼントボックスに改造したもののようだ。",
 			typewriter = {
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "音声の再生が終わり、箱を確認すると、底にライブのチケットが二枚貼り付いていた。",
 			typewriter = {
@@ -420,9 +420,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -436,9 +436,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "本当に…心配してくれているのね……ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "優しく微笑みながら、レキシントンは真剣に箱を見つめていた。",
 			typewriter = {

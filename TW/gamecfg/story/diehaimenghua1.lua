@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「昔者莊周夢為胡蝶  栩栩然胡蝶也」</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -46,14 +46,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "長久以來，妾身一直在遠方凝視著這個世界，如今終於得到了觸碰它的機會，可是…",
 			bgm = "bsm-2",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "長久以來，妾身一直在遠方凝視著這個世界，如今終於得到了觸碰它的機會，可是…",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "眾人的期待，信仰的凝結，換來的卻是如此的虛弱與無力。",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "原本不應該是這樣的，原本……",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "命運的軌跡被干擾了嗎…亦或是，命運軌跡本該如此呢。",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "不，這些都不重要了…現在重要的不是妾身，而是重櫻。",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "現世之中，神木已然凋零，群島正在燃燒，赤紅的身影逐步引導著毀滅的降臨。",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "而夢境……正在被漆黑與猩紅的預兆所撕裂。",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "在片段拼湊的盡頭，是妾身也無法看清的「夢魘」……",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "必須阻止這一切的發生。",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "只要現在行動起來……",
 			typewriter = {
@@ -251,12 +251,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			actor = 307080,
-			stopbgm = true,
+			nameColor = "#a9f548",
 			say = "為時還，未晚…！",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	id = "W1106",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1106",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "是否召喚一個測試用塞壬感染者",
 			typewriter = {
 				speed = 0.05,

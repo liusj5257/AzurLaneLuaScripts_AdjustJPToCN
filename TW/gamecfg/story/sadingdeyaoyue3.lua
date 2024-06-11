@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SADINGDEYAOYUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SADINGDEYAOYUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"薩丁的邀請\n\n<size=45>三　事難鉅細</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "白鷹·？？？",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-arbitrationsystem-theme",
+			say = "白鷹·？？？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "雖然對不起北方聯合的一番好意，不過這件事就代我拒絕了吧。",
 			typewriter = {
 				speed = 0.05,
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官……新一輪設備測試即將開始……",
 			typewriter = {
 				speed = 0.05,
@@ -478,12 +478,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "領航員小姐已經在等你了……",
 			typewriter = {
 				speed = 0.05,
@@ -551,10 +551,10 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101260,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……指揮官，累了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -566,12 +566,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "累的話，就睡一覺……我去讓領航員小姐……換個時間。",
 			typewriter = {
 				speed = 0.05,

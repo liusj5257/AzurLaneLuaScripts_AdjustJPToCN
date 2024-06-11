@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102060,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "저건……",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,14 +23,14 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 305060,
+			nameColor = "#92fc63",
 			say = "어째서 무츠도 같은 전함인데 히에이랑 키리시마보다 발이 느린 거야?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,14 +85,14 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#92fc63",
 			say = "……인디만큼은 아니지만 훌륭한 여동생인 거 같아!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

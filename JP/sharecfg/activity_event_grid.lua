@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.activity_event_grid = {
 	{
+		ticket_item = 59267,
 		id = 1,
 		explore_item = 59268,
-		ticket_item = 59267,
 		box = {
 			{
 				1,
@@ -144,9 +144,9 @@ pg.activity_event_grid = {
 		}
 	},
 	{
+		ticket_item = 59392,
 		id = 2,
 		explore_item = 59393,
-		ticket_item = 59392,
 		box = {
 			{
 				1,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024同盟活动B 实验型轰炸机支援",
 	time = 2,
-	color = "yellow",
+	name = "2024同盟活动B 实验型轰炸机支援",
+	init_effect = "",
+	id = 200781,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200781,
+	color = "yellow",
 	icon = 200781,
 	last_effect = "",
 	effect_list = {

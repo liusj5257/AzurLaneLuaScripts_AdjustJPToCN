@@ -1,12 +1,12 @@
 slot0 = class("LevelStageTotalRewardPanel", import("view.level.BaseTotalRewardPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelStageTotalRewardPanel"
 end
 
 slot1 = 0.15
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.itemList = slot0.boxView:Find("Content/ItemGrid")
@@ -26,7 +26,7 @@ function slot0.init(slot0)
 	setText(slot0.boxView:Find("Content/TitleSub/Text"), i18n("settle_rewards_text"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 
 	slot2 = PlayerPrefs.GetInt(AUTO_BATTLE_LABEL, 0) > 0
@@ -47,7 +47,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:SkipAnim()
 
 	if slot0.metaExpView then
@@ -57,7 +57,7 @@ function slot0.willExit(slot0)
 	uv0.super.willExit(slot0)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1 = slot0.contextData
 
 	onButton(slot0, slot0._tf:Find("BG"), function ()
@@ -75,7 +75,7 @@ function slot0.UpdateView(slot0)
 			PlayerPrefs.SetInt("autoFight_firstUse_sp", 1)
 			PlayerPrefs.Save()
 
-			function slot2()
+			slot2 = function()
 				uv0.contextData.spItemID = nil
 
 				uv0:UpdateSPItem()
@@ -236,7 +236,7 @@ function slot0.UpdateView(slot0)
 	end)
 end
 
-function slot0.UpdateSPItem(slot0)
+slot0.UpdateSPItem = function(slot0)
 	slot2 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
 
 	if slot0.contextData.chapter:getConfig("special_operation_list") == "" then
@@ -306,7 +306,7 @@ function slot0.UpdateSPItem(slot0)
 	end)
 end
 
-function slot0.SkipAnim(slot0)
+slot0.SkipAnim = function(slot0)
 	if not slot0.isRewardAnimating then
 		return
 	end

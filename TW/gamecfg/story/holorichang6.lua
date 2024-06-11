@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"虚拟与现实的双向镜-日常篇\n\n<size=45>六 Game</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港区·宿舍",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-mio",
+			say = "港区·宿舍",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 900211,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900211,
+			nameColor = "#a9f548",
 			say = "原来如此，我已经完全理解了！",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "之后我可以自己攻略，长岛先去忙也没问题哦",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "轻而易举~我可是玩过差不多的游戏的！",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -168,15 +168,15 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#a9f548",
 			say = "久等了，我们继续吧！其实这个游戏我还没来得及玩呢，总之，先分头探索吧，我去这边。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "真是不可思议呢，在这边感觉有很多和咱那边差不多的游戏。",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "嗯，比如说《最终○○》，《勇者○○○》什么的，感觉都能找到相似的游戏。",
 			typewriter = {
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#a9f548",
 			say = "啊，应该是这个道具没错了！妳那边应该也有一块，拼一起就对了。",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,8 +344,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "大概吧？就算是阿库娅酱现在正在玩的游戏，好像也有很像的……",
 			typewriter = {
@@ -393,8 +393,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "呜哇啊！！！这里是哪里啊！！！为什么这里会有一个精英怪！！",
 			typewriter = {
@@ -407,8 +407,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -420,8 +420,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "对不起，对不起，对不起，对不起，对不起,哇啊啊啊啊啊！！",
 			typewriter = {
@@ -434,8 +434,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -447,8 +447,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "Neeeeeeeeeeee！！！！！！要死了啊！！！！！！！",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -490,8 +490,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "啊哈哈哈，毕竟是阿库娅酱呢。",
 			typewriter = {
@@ -507,8 +507,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "再来一局，再来一局吧！",
 			typewriter = {
@@ -521,8 +521,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -534,8 +534,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "等一下，阿库娅，今天的游戏时间就到此为止吧？已经很晚了哦",
 			typewriter = {
@@ -551,8 +551,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "欸？不是在日期变化之后才是夜晚的开始么？",
 			typewriter = {
@@ -600,8 +600,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "游戏虽然很重要，但是身体更加重要，只有保持好身体，才能更好地玩游戏哦。",
 			typewriter = {
@@ -649,8 +649,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "毕竟是在hololive“想当妈妈排行榜”中获得第一名的澪妈妈呢！",
 			typewriter = {
@@ -666,8 +666,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "怎么连阿库娅酱也这么叫了！",
 			typewriter = {
@@ -683,8 +683,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "澪妈妈，明天我要吃便当！",
 			typewriter = {
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 30,
@@ -707,11 +707,11 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#a9f548",
 			say = "澪妈妈，我也要~",
 			typewriter = {
 				speed = 0.05,
@@ -723,8 +723,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 30,
@@ -736,8 +736,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "……要是妳们今晚上床的话，咱就帮妳们做。",
 			typewriter = {
@@ -750,10 +750,10 @@ return {
 			}
 		},
 		{
-			actor = 900211,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
+			actor = 900211,
 			dir = 1,
 			hideOther = true,
 			actorName = "湊阿库娅&长岛",
@@ -784,9 +784,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
 			blackBg = true,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "真是的……咱才不想这么早就当妈妈啦！",
 			typewriter = {

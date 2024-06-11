@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "副炮射程",
 	time = 0,
+	name = "副炮射程",
+	init_effect = "",
 	picture = "",
 	desc = "副炮射程",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				bulletRange = 95,
 				weaponRange = 95,
+				bulletRange = 95,
 				index = {
 					2
 				}

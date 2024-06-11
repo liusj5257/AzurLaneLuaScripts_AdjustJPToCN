@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"또 다른 지도자?\n\n<size=45>4. 기사장의 지휘</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
+			blackBg = true,
 			side = 2,
 			dir = 1,
-			blackBg = true,
+			bgmDelay = 2,
 			say = "킹 조지 5세를 대하다 보면, 그녀야말로 로열 네이비를 통솔하는 자가 아닌가하고 가끔 착각하고 만다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,12 +45,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "모항 - 연습 해역",
 			dir = 1,
 			bgm = "battle-1",
+			nameColor = "#a9f548",
+			say = "모항 - 연습 해역",
 			effects = {
 				{
 					active = true,
@@ -86,8 +86,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "방심도 당황도 말도록! 승리, 그리고 제군들의 안전 또한, 확실히 보장하도록 하지!",
 			typewriter = {
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "로열 네이비를 이끌고 싸운다거나……",
 			typewriter = {
 				speed = 0.05,
@@ -114,15 +114,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 부두",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "모항 - 부두",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "이 물자는…… 제3 창고에 옮겨다오.",
 			typewriter = {
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "엘리자베스의 대행으로서 여러 업무를 도맡아 한다거나……",
 			typewriter = {
 				speed = 0.05,
@@ -194,13 +194,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "모항 - 광장",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -260,8 +260,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "괜찮다면 상담이라도 해주겠다만…… 무얼, 말을 꺼내기만 해도 기분이 나아질지도 모른다고?",
 			typewriter = {
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "사적으로 함대원들의 상담을 해주거나……",
 			typewriter = {
 				speed = 0.05,
@@ -304,13 +304,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "모항 - 로열 네이비 숙소",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "그런 연유로, 로열 네이비의 만찬회에서 후드에게 내 솔직한 감상을 전해 보았다.",
 			typewriter = {
 				speed = 0.05,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "그건 아니 될 일이라고요, 조지!",
 			typewriter = {
 				speed = 0.05,
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "아뇨, 지휘관님께 그런 감상을 품게 만든 것 자체가 그다지 좋지는 않네요.",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "과연… 생각치도 못한 일이긴 하다만, 지휘관 말을 듣고 보니, 확실히 그렇게 보였을지도 모르겠군……",
 			typewriter = {

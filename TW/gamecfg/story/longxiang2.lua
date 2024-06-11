@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"輕型航母{namecode:90}參上！\n\n<size=45>二 特訓！拼盡全力即是重櫻之約</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "港區・演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 306050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306050,
+			nameColor = "#a9f548",
 			say = "啊……不行了……咱的手腕已經提不起來了……",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "哈……哈……再這樣下去貌似真不行了……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -114,15 +114,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "前輩們，比往常都要嚴厲啊……啊{namecode:95}姐！吐槽什麼的之後再說！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "我還可以繼續！",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "正如{namecode:92}之前所言！這種程度對重櫻的航母來說根本就不算什麼！",
 			typewriter = {
@@ -286,12 +286,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "但是……",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "但是……",
+			actor = 307020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -341,8 +341,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "那麼！大家也再加把勁！努力加用功，拿出戰鬥精神上吧！",
 			typewriter = {
@@ -355,10 +355,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "眾人",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 307060,
 			nameColor = "#a9f548",

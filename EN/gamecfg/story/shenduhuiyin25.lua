@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "FATAL ERROR.",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
+			say = "FATAL ERROR.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "██████ PROGRESS: 89.9%",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "Kronshtadt opened her eyes and scanned her surroundings. She was back in the Suliko's synchronization chamber.",
 			flashin = {
 				delay = 1,
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "She rose to a sitting position and combed her hair in order with her hand.",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "Her friends were nowhere to be seen.",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "Strings of letters passed by on the screen in front of her while the faint whirring of a computer fan continued in the background.",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -206,13 +206,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "Suliko Interior - Bridge",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,8 +237,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -285,13 +285,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "After searching every nook and cranny of the Suliko, Kronshtadt dragged her weary body back to where she started.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -412,9 +412,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "She turned her gaze to the data on the screen. Ordinarily she'd feel like trying to decode it, but now, that felt meaningless to her.",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "She remembered the glimpses she caught of Arkhangelsk before being sent into the dream, and the final step she did to initiate the synchronization process.",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -472,8 +472,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kronshtadt",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -520,8 +520,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgName = "star_level_bg_1104",
 			flashin = {
 				delay = 1,

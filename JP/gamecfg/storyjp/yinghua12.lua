@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			side = 2,
 			stopbgm = true,
-			bgm = "nagato-boss",
 			dir = 1,
 			say = "ええと、無理やり叩き起こしちゃってごめんなさい……！",
+			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"人間に触れてはならぬ。神子の神格を損ねるがゆえに。",
@@ -549,16 +549,16 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			withoutPainting = true,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nagato4",
 			bgm = "nagato-boss",
-			dir = 1,
+			actor = 305050,
 			say = "良かろう！実戦経験がなくとも、全力で向かおうぞ！",
-			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -586,9 +586,9 @@ return {
 			actor = 305050,
 			side = 2,
 			bgName = "bg_story_nagato4",
-			say = "重桜の「びっぐせぶん」――長門型戦艦・長門、推して参る！",
-			dir = 1,
 			withoutPainting = true,
+			dir = 1,
+			say = "重桜の「びっぐせぶん」――長門型戦艦・長門、推して参る！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

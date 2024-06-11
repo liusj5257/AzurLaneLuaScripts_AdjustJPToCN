@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO19",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -32,14 +32,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯，撤到這個位置就差不多了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,10 +64,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "接下來我們要做的……就是隱藏自身的位置，耐心等待。",
 			painting = {
 				alpha = 0.3,
@@ -82,10 +82,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "喔~~我懂妳意思了！",
 			painting = {
 				alpha = 0.3,
@@ -100,10 +100,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不論我們在調查的異常點是什麼，這裡肯定對於塞壬很重要。",
 			painting = {
 				alpha = 0.3,
@@ -118,10 +118,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那個META再這麼行動下去的話，塞壬一定不會坐視不理。",
 			painting = {
 				alpha = 0.3,
@@ -136,10 +136,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳是想先讓塞壬幫我們削弱她對吧！",
 			painting = {
 				alpha = 0.3,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,10 +164,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沒錯，兩虎相爭，獵人得利。",
 			painting = {
 				alpha = 0.3,
@@ -182,10 +182,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "現在各處的戰線都很順利，我們有充足的時間完成任務。",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "異常訊號還在嗎？",
 			painting = {
 				alpha = 0.3,
@@ -218,10 +218,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯，還在。看來對面在遭受到我們的干擾後也改變了行動方針。",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………呵呵，塞壬已經去了。",
 			painting = {
 				alpha = 0.3,
@@ -254,10 +254,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就讓我們在陰影中，等待加入這場狩獵的最佳時機吧……",
 			painting = {
 				alpha = 0.3,
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "……滋……滋滋………",
 			soundeffect = "event:/ui/noice",
+			say = "……滋……滋滋………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,10 +284,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯？海域中的干擾強度應該不足以擾亂我們的通訊了才對。",
 			painting = {
 				alpha = 0.3,
@@ -302,10 +302,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……難道是出故障了嗎？",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這種小問題，敲一敲說不定就好了，看我的~",
 			painting = {
 				alpha = 0.3,
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "砰————",
 			typewriter = {
@@ -350,13 +350,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			actorName = "通訊器",
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			side = 2,
 			stopbgm = true,
-			say = "…[雜音]…我是…[雜音]…聯盟…[雜音]…",
 			soundeffect = "event:/ui/noice",
+			say = "…[雜音]…我是…[雜音]…聯盟…[雜音]…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,8 +382,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -411,48 +411,48 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "…[雜音]…我們正…[雜音]…全面…[雜音]…狀態…[雜音]…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "…[雜音]…極地風暴…[雜音]…終止…[雜音]…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "…[雜音]…所有艦隊…[雜音]…於…[雜音]…集結…[雜音]…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "……滋……滋滋………",
 			soundeffect = "event:/ui/noice",
+			say = "……滋……滋滋………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,10 +481,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雖然沒聽清……不過剛剛的內容是不是說…………",
 			painting = {
 				alpha = 0.3,
@@ -499,10 +499,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "立刻呼叫蘇維埃聯盟，詢問一下到底發生了什麼事！",
 			painting = {
 				alpha = 0.3,
@@ -517,10 +517,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "無應答。",
 			painting = {
 				alpha = 0.3,
@@ -535,10 +535,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "聖彼得堡司令部呢……？",
 			painting = {
 				alpha = 0.3,
@@ -553,10 +553,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……無應答。",
 			painting = {
 				alpha = 0.3,
@@ -571,10 +571,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "直接呼叫最高蘇維埃試試看！",
 			painting = {
 				alpha = 0.3,
@@ -589,10 +589,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………也無應答。",
 			painting = {
 				alpha = 0.3,
@@ -645,10 +645,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我是伏羅希洛夫……通訊良好，請講。",
 			painting = {
 				alpha = 0.3,
@@ -701,10 +701,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我們已經收到了，雖然內容斷斷續續的……到底是怎麼回事？",
 			painting = {
 				alpha = 0.3,
@@ -833,10 +833,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就現狀而言……也只能這樣了。",
 			painting = {
 				alpha = 0.3,
@@ -870,10 +870,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯……我們北地群島基地見。",
 			painting = {
 				alpha = 0.3,

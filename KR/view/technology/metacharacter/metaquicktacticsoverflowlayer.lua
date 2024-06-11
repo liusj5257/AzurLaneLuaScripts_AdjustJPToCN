@@ -1,28 +1,28 @@
 slot0 = class("MetaQuickTacticsOverflowLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MetaQuickTacticsOverflowUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:addListener()
 	slot0:overlayPanel(true)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:overlayPanel(false)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:closeView()
 end
 
-function slot0.overlayPanel(slot0, slot1)
+slot0.overlayPanel = function(slot0, slot1)
 	if slot1 and slot0._tf then
 		pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 			groupName = LayerWeightConst.GROUP_META,
@@ -33,14 +33,14 @@ function slot0.overlayPanel(slot0, slot1)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.shipID = slot0.contextData.shipID
 	slot0.skillID = slot0.contextData.skillID
 	slot0.useCountDict = slot0.contextData.useCountDict
 	slot0.overExp = slot0.contextData.overExp
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.text = slot0:findTF("Content/Context/Text")
 	slot0.cancelBtn = slot0:findTF("Content/CancelBtn")
@@ -49,8 +49,8 @@ function slot0.initUI(slot0)
 	setText(slot0.text, i18n("metaskill_overflow_tip", slot0.overExp))
 end
 
-function slot0.addListener(slot0)
-	function slot1()
+slot0.addListener = function(slot0)
+	slot1 = function()
 		uv0:closeView()
 	end
 

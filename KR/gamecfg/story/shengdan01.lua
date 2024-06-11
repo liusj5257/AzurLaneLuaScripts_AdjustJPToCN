@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN01",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -31,14 +31,14 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101050,
+			nameColor = "#92fc63",
 			say = "우왓! ……지휘관이구나~ 정말! 사람이 생각에 잠겨있을 때 갑자기 말 걸지 말라고~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -127,14 +127,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#92fc63",
 			say = "짜잔~! 그리들리, 크리스마스 취재 모드, 준비 완료!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

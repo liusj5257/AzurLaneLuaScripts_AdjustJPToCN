@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「星の海」テストブロック",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "艦船たちが部屋に入るとセンサーが作動し、会議室としても使われている広い部屋を明るく照らした。",
@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どうぞ座って",
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はあ…呼び出したのはほかでもない、サルベージ作戦の件についてだよ",
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあ、データのサルベージはフラッシャーちゃんに任せて。もう何回もやってるし今回も上手くやってくれると思う",
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "グアムはその間ルイビルと一緒に彼女を守ってくれれば大丈夫",
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "んで、サルベージの「時間」と「場所」は？",
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "珊瑚海での「再現」だよ",
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あの時の戦場をもう一度調べる",
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "コンステレーションから渡された「データサルベージ」計画書を読み進めていくうちに、グアムの表情は段々険しくなっていった。",
@@ -362,11 +362,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "今回のサルベージの対象区域って、これまで立ち入り禁止とされてた場所だよね？",
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大丈夫。サラトガちゃんがすべての許可をもらってるよ",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……………うーん………",
@@ -435,11 +435,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……ほかになにか心配事でも…？",
@@ -472,11 +472,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……ありがとう",
@@ -509,11 +509,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "りょうかーい。みんな、ついてきてくださいね～",
@@ -527,28 +527,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_503",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「星の海」テストブロック　サルベージ準備エリア",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			say = "「サルベージ」と言えども、データが対象だからか、艦船たちが立ち入ったエリアには引き上げに関わる機材は何もなかった。",
@@ -567,8 +567,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			say = "それどころか、海上を航行する舟艇類、発着のための施設も一切存在しない。",
@@ -578,8 +578,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			say = "実験資材に囲まれ、部屋の真ん中に鎮座している巨大な「扉」が艦船たちの視線を集めた。",
@@ -627,11 +627,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうですね～。擬似空間でのデータサルベージは使用頻度が高いですから～",
@@ -664,11 +664,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "全て機能が違うとも聞きますし、もしかしたら技術の並行研究とかも…",
@@ -682,11 +682,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "フラッシャーちゃん、みんなが来ましたよ～",
@@ -719,11 +719,11 @@ return {
 			}
 		},
 		{
-			actor = 108080,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "は、はじめまして…潜水艦のフラッシャー…データサルベージは任せて…",
@@ -737,11 +737,11 @@ return {
 			}
 		},
 		{
-			actor = 108080,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "グアムの番組、すごく面白くて…じ、実はフラッシャー、ファンで……",
@@ -850,8 +850,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -860,11 +860,11 @@ return {
 			}
 		},
 		{
-			actor = 108080,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "くすん…うん、食べる……ってまだ作戦中だよね…",
@@ -916,11 +916,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふふん、よし今度機会があったらコラボやっちゃおう！",
@@ -934,8 +934,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
 			say = "サン・ジャシントが「扉」の前のパネルでコマンドを入力すると――",
@@ -945,8 +945,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
 			say = "「扉」のフレーム構造が振動し始め、かすかな雑音を発した。",
@@ -956,8 +956,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
 			say = "…フレームの振動と雑音が数秒もしないうちに収まり、部屋には操作パネルのリズミカルな機械音のみが残り――",
@@ -967,8 +967,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
 			say = "やがて、柔らかい光を放つ「扉」が現れた。",
@@ -978,8 +978,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ルイビル",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "兵装設計部",
 			dir = 1,
@@ -996,8 +996,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ルイビル",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "兵装設計部",
 			dir = 1,
@@ -1019,8 +1019,8 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "戦術特勤部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "グアム",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "合ってるよ。この演出にしたのは単にカッコいいからとかじゃない？",
 			painting = {
@@ -1038,9 +1038,9 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "グアム",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "デザインが洗練されてたりクールなものは性能も信頼される、ってところだと思う",
 			painting = {
@@ -1053,8 +1053,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ルイビル",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "兵装設計部",
 			dir = 1,
@@ -1076,8 +1076,8 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "戦術特勤部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "グアム",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それはねえ、いろんな技術的な話になるから～",
 			painting = {
@@ -1095,9 +1095,9 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "グアム",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "グアム、なーんにも分からない！テヘッ☆",
 			painting = {
@@ -1110,8 +1110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フラッシャー",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "回収解析部",
 			dir = 1,
@@ -1128,8 +1128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フラッシャー",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "回収解析部",
 			dir = 1,
@@ -1146,8 +1146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ルイビル",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "兵装設計部",
 			dir = 1,
@@ -1164,8 +1164,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フラッシャー",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "回収解析部",
 			dir = 1,
@@ -1182,8 +1182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "サン・ジャシント",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "回収解析部",
 			dir = 1,
@@ -1205,9 +1205,9 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "グアム",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Let's go！",
 			painting = {

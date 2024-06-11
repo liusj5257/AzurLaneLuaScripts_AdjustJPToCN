@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO7",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 2,
 			typewriterTime = 0.05,
+			bgmDelay = 2,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -32,14 +32,14 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……はくちゅうぅん！？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "ティッシュがそろそろなくなったんじゃないですか？はーい",
 			painting = {
@@ -86,10 +86,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ありがとうムルマンスク！まあ大したことじゃないよ",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "ソオブラジーテリヌイ、あなた、前に休んだのはいつ？",
 			painting = {
@@ -121,10 +121,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おとと……じゃなくて昨日の夜だよ！",
 			painting = {
 				alpha = 0.3,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -149,8 +149,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "うーん、今おとといって言いかけました…？",
 			painting = {
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "作戦前はちゃんと寝とけって言ったわよね。もしかしてまた徹夜したの？",
 			painting = {
@@ -183,10 +183,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この天才メカニックに休息など不要なのだ！",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,10 +211,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…とまでは流石にいかないけど。せっかく作戦のために量産艦を特別仕様に改装したんだから、ちゃんとチェックしないと",
 			painting = {
 				alpha = 0.3,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "なるほど…見なかったと思ったら量産艦の改装をしていたんですね～",
 			painting = {
@@ -246,10 +246,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それ以外にも色々あるよ！まだ言えないけど……",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はっはっっはー！指揮官が見つけた資料から作ったすごいやつばっかりだ！",
 			painting = {
 				alpha = 0.3,
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "はいはい、量産艦の改装ご苦労さまってね",
 			painting = {
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "そこで一つ、天才メカニック様に機材チェック時に感じた疑問をお伺いしたいんだけど",
 			painting = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "この手のプロじゃないとはいえ、私こう見えて鉄血ともちょっと縁があってね？",
 			painting = {
@@ -343,8 +343,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "だから単なる直感でも多少ほかの子より当てになると思うけど？",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "………ズバリ、あんたの「特別仕様」はちゃんと安全ルールを守っているものかしら？",
 			painting = {
@@ -377,10 +377,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "破ってみなければ分からないのがルールなのだぞ",
 			painting = {
 				alpha = 0.3,
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "…………",
 			painting = {
@@ -417,8 +417,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "ば、爆発しないだけ平気だと思いますよ～",
 			painting = {
@@ -434,10 +434,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -452,8 +452,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "さすがに爆発だけはしない………ですよね？",
 			painting = {
@@ -469,10 +469,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "し、しないとも！その問題は試作三回目ですでに解決した！安全ヨシ！",
 			painting = {
 				alpha = 0.3,
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -497,8 +497,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "2回目までは爆発したのですね～",
 			painting = {
@@ -514,8 +514,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "量産艦の配置、もうちょっと遠いところにしたほうが良さそうね",
 			painting = {
@@ -531,10 +531,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "天才メカニックのことは信じなくても、チカロフ先生の技術力を信じてよ！",
 			painting = {
 				alpha = 0.3,
@@ -546,8 +546,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,8 +559,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "信じているからこそこの距離で済ませたの！",
 			painting = {

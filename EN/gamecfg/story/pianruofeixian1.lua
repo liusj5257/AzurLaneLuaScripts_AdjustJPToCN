@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "PIANRUOFEIXIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "PIANRUOFEIXIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Like a Soaring Apsaras\n\n<size=45>1 Like a Soaring Apsaras</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
-			say = "I was trudging along a stream running through the mountains–",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-haitian-soft-loop",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I was trudging along a stream running through the mountains–",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "When suddenly, the melody of a pipa echoes around me. Its soothing tones seem to permeate me, melting away the fatigue of my long trek.",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "I continue on towards an open area, eventually reaching the destination Hai Tien and I had agreed upon previously.",
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 502072,
-			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, I appreciate you coming all the way out here.",
 			painting = {
 				alpha = 0.3,
@@ -85,17 +85,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -106,10 +106,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've been waiting for you. The tea is ready, so let me get it for you right away.",
 			painting = {
 				alpha = 0.3,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "\"By the way, I heard the sound of a pipa earlier...\"",
@@ -141,10 +141,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, umm... I was just getting some practice in. I didn't think anyone would be able to hear it...",
 			painting = {
 				alpha = 0.3,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -179,10 +179,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I originally was planning a surprise performance for you, but you'll have to forgive me for fumbling it.",
 			painting = {
 				alpha = 0.3,
@@ -197,10 +197,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Hm? Hearing me play was enough to make your fatigue melt away?",
 			painting = {
 				alpha = 0.3,
@@ -215,10 +215,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahaha... You don't have to go out of your way to console me...",
 			painting = {
 				alpha = 0.3,
@@ -233,10 +233,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Ugh... I was so preoccupied with creating the right atmosphere for our date that I didn't consider how tiring the trek up here would be....)",
 			painting = {
 				alpha = 0.3,
@@ -251,10 +251,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But, if my music was enough to make you feel better, I am relieved to hear that.",
 			painting = {
 				alpha = 0.3,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 502072,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In any case, Commander, I called you here today because I wanted to show you the dance that I've been practicing for quite some time now.",
 			painting = {
 				alpha = 0.3,
@@ -286,10 +286,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's called the \"Soaring Apsaras\"– an acrobatic combination of dance and music. I do hope you'll find it to your liking.",
 			painting = {
 				alpha = 0.3,
@@ -304,10 +304,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Hmm? Was there something you wanted to ask me, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -428,13 +428,13 @@ return {
 			}
 		},
 		{
-			actor = 502072,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Who knows? Maybe I'll be able to capture that same feeling you felt when you heard the sound of the pipa~",
 			painting = {
 				alpha = 0.3,
@@ -525,10 +525,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now then, relax and take a deep breath, and then we'll get started–",
 			painting = {
 				alpha = 0.3,
@@ -540,8 +540,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "Sometimes as violent as a sudden hurricane in the summer, at other times as gentle as a newborn's breaths... The sound of the pipa, along with the stream flowing right next to me, seemed like reminders from the heavens to leave behind the material world.",
@@ -551,8 +551,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "I can't take my eyes off Hai Tien. It's as if I had stepped into a fairyland depicted in a storybook.",
@@ -562,12 +562,12 @@ return {
 			}
 		},
 		{
-			actor = 502072,
-			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How was it, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -578,17 +578,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -605,10 +605,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm so glad to hear that! All my hard work has finally paid off!",
 			painting = {
 				alpha = 0.3,
@@ -623,10 +623,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, um... Ahem, sorry I got carried away there. Please forget you saw that...",
 			painting = {
 				alpha = 0.3,
@@ -638,8 +638,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -661,10 +661,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you don't mind, would you mind staying here with me a bit longer?",
 			painting = {
 				alpha = 0.3,
@@ -679,10 +679,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Since you already came all the way up here, why not enjoy a cup of tea while taking in the scenery?",
 			painting = {
 				alpha = 0.3,
@@ -723,8 +723,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -733,8 +733,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -762,8 +762,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -772,8 +772,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -801,8 +801,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -870,8 +870,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -880,8 +880,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN02",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSHUN02",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"撫順的大冒險\n\n<size=45>二　任務是維修機械？</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "長春長春！妳看我們找到了什麼！",
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "長春長春！妳看我們找到了什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "嗚哇…撫順姐妳還真的去翻了舊倉庫啊…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗚哇…撫順姐妳還真的去翻了舊倉庫啊…",
+			actor = 501030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -214,15 +214,15 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "這個是…掌機？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "長春說，這方面的問題，來問長島一定沒問題！",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "長春說，這方面的問題，來問長島一定沒問題！",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

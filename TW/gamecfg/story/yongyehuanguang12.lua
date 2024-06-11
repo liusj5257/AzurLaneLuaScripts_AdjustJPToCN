@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG12",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "bgm-royalnavy",
 			actor = 206060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "這是…一支由巡洋艦和驅逐艦組成的前鋒艦隊，正在希佩爾的帶領下脫離鐵血主力艦隊向我們高速駛來…！",
-			bgm = "bgm-royalnavy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "…作戰方針不變，艦隊邊戰邊退，將鐵血艦隊往我們主力艦隊的方向誘導——",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "幾隻脫離了集團的鬣狗而已…讓我們輕鬆解決吧。",
 			typewriter = {
 				speed = 0.05,

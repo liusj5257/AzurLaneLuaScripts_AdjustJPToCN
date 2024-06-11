@@ -1,6 +1,6 @@
 slot0 = class("WakabaChrisSkinPage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data3
 	slot1 = {}
 	slot2 = slot0.activity:getConfig("config_client").story

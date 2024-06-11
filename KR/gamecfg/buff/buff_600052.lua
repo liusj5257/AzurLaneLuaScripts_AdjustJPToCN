@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 600052,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600052,
+	color = "yellow",
 	icon = 600052,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				time = 40,
-				initialCD = true,
 				skill_id = 600046,
+				initialCD = true,
+				time = 40,
 				target = "TargetSelf"
 			}
 		}

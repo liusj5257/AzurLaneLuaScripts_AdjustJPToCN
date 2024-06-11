@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_308 = {}
 slot1 = slot0.word_template_308
 
-function temp()
+temp = function()
 	uv0["姓"] = {
 		["何"] = {
 			["的"] = {
@@ -58,7 +58,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["凶"] = {
 		["杀"] = {
 			["案"] = {
@@ -70,7 +70,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兄"] = {
 		["妹"] = {
 			["肉"] = {
@@ -88,7 +88,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["胸"] = {
 		["部"] = {
 			this = true,
@@ -137,7 +137,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雄"] = {
 		["风"] = {
 			["重"] = {
@@ -151,7 +151,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["熊"] = {
 		["田"] = {
 			["阳"] = {
@@ -217,7 +217,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["修"] = {
 		["改"] = {
 			["投"] = {

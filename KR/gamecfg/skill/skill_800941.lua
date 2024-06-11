@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "鱼雷额外2轮攻击",
 	painting = 1,
 	id = 800941,
-	picture = "0",
 	castCV = "skill",
-	desc = "鱼雷额外2轮攻击",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,19 +17,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				weaponType = "TorpedoWeapon"
 			}
 		},
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				delay = 1,
 				weaponType = "TorpedoWeapon"

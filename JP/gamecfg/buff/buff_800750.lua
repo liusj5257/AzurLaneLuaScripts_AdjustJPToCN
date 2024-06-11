@@ -30,8 +30,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -68,8 +68,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750800750.0
 				}
 			}
@@ -106,8 +106,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -144,8 +144,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -182,8 +182,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -220,8 +220,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -258,8 +258,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -296,8 +296,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -334,8 +334,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -372,8 +372,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 800750,
+					target = "TargetSelf",
 					countType = 800750
 				}
 			}
@@ -382,12 +382,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 800750,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800750,
+	color = "yellow",
 	icon = 800750,
 	last_effect = "",
 	effect_list = {
@@ -420,8 +420,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 800750,
+				target = "TargetSelf",
 				countType = 800750
 			}
 		}

@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
-			nameColor = "#92fc63",
-			actorName = "???",
-			blackBg = true,
 			say = "당신이야?",
+			nameColor = "#92fc63",
+			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#92fc63",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "티르피츠…나의 여동생……",
 			shake = {
 				speed = 1,
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#92fc63",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "…미안해…내가 한 짓을 용서해줘……",
 			shake = {
 				speed = 1,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#92fc63",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "미안해…메탈 블러드를 위해선 이럴 수밖에 없었어……부디 알아줬으면 해……",
 			shake = {
 				speed = 1,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

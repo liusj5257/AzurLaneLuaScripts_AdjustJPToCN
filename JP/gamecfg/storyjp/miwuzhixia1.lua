@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_newyork",
-			bgm = "level02",
-			dir = 1,
 			say = "ユニオン・NYシティ（セイレーン襲撃後）",
+			dir = 1,
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "大丈夫さ。セイレーンが来た暁には私たちの主砲でしっかり歓迎してやるぞ",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "そろそろ作戦開始時間ね。各自気をつけて",
 			typewriter = {
@@ -149,14 +149,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_newyork",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "んじゃあ、そろそろサラトガちゃんも指揮官と合流するかな～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "北方航路経由で北方連合の辺境にある氷山要塞の調査・攻略――北方連合、ついに共同作戦に踏み切ったか",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そうね…今までずっと北方連合だけで頑張ってたのに、いきなり指揮官を招き入れるなんてちょっと不気味なところがあるわね",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "だから念の為、このサラトガちゃんが一緒に行ってあげる！ってこと！",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "ああ、そうするさ。武運を祈る。指揮官にもよろしく伝えておいてくれ",
 			typewriter = {
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "はーい",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -6,18 +6,18 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			portrait = 118020,
-			bgm = "story-richang-11",
 			actorName = "Guam",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_503",
+			portrait = 118020,
 			say = "Camera settings... Check!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "Guam",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Parameter adjustments... Check!",
 			painting = {
@@ -73,9 +73,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "Guam",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Recording... Now!",
 			painting = {
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -106,17 +106,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, whatever~ By the time you see this show, the sun should already be high in the sky!",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The current time is 0410 in the morning! Even the busy hangar area is all empty right now. Ooh, there might be spooky monsters in hiding!",
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Now! As the more perceptive among you may have guessed...",
@@ -354,9 +354,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 103260,
 			actorName = "Northampton II",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We're here to pick up a teammate, Guam, not to film a show.",
 			painting = {
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ooh! You know, you're right! We DID come here to greet a friend!",
@@ -520,11 +520,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Something to the effect of, \"I wanna see that stuffy-and-serious Princeton get all starry-eyed like a little kid!\"",
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Who was I to turn her down? Of course, I don't offer my services for free.",
@@ -634,9 +634,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -650,17 +650,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -674,11 +674,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What an enormous hangar... I was told they built a facility deep inside the mountains, but isn't this just overkill?",
@@ -711,11 +711,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Laffey, stay close to me. Feels like I might never find you again if we get separated.",
@@ -729,11 +729,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Okay...",
@@ -766,11 +766,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And these walls, too... I don't think I've seen this kind of high-tech material used anywhere else before...",
@@ -803,11 +803,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I think there's someone up ahead... Hello? Excuse me?",
@@ -935,11 +935,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "star_level_bg_503",
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's Louisville! And Princeton and Laffey came, too!",
@@ -952,17 +952,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Better get my shot ready...",
@@ -1013,12 +1013,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			soundeffect = "event:/battle/firework",
 			say = "*pop!* *pop!* *pop!*",
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,11 +1028,11 @@ return {
 			expression = 7,
 			side = 0,
 			bgName = "star_level_bg_503",
-			hideOther = true,
-			dir = 1,
-			actorName = "Louisville & Princeton",
-			actor = 103270,
 			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 103270,
+			hideOther = true,
+			actorName = "Louisville & Princeton",
 			say = "- Aaaaah! \n- Wh-what was that?!",
 			pos = {
 				x = -300
@@ -1056,8 +1056,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1104,11 +1104,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yes, ma'am! I am the Independence-class ship Princeton, and I've been reassigned from the NY City Fleet! From today onward, I will be stationed at the Sea of Stars!",
@@ -1201,12 +1201,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			hideOther = true,
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			hideOther = true,
 			actorName = "Guam & Northampton II",
 			bgName = "star_level_bg_503",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "- Yep! \n- No.",
 			subActors = {
@@ -1228,8 +1228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1241,12 +1241,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			bgName = "star_level_bg_503",
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_503",
 			hideOther = true,
 			actorName = "Guam & Northampton II",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "- It's a special program! \n- Guam planned all this just to skip meetings...",
 			subActors = {
@@ -1267,12 +1267,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			bgName = "star_level_bg_503",
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_503",
 			hideOther = true,
 			actorName = "Guam & Northampton II",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "- You should help me film! - Ignore her. Let's get going.",
 			subActors = {
@@ -1387,11 +1387,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...In that case, I do have one question...",
@@ -1519,11 +1519,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Alaska's out on official business, so she isn't in the Sea of Stars right now.",
@@ -1575,11 +1575,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Whoa, you look crushed... Don't tell me. Did you ask them to assign you here just so you could meet Saratoga and Alaska?",
@@ -1593,11 +1593,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh, not quite. I was assigned here to help research Type II Independence-class rigging.",
@@ -1630,11 +1630,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I've put together a list of questions that arose during the information-gathering process. I'd like you to take a look, if you don't mind...",
@@ -1667,8 +1667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1772,11 +1772,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I'll show you around and handle the camera, and Northampton can explain the facilities...",
@@ -1809,9 +1809,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
 			asideType = 1,
+			blackBg = true,
 			bgm = "theme-ucnf-image",
 			effects = {
 				{
@@ -1855,8 +1855,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

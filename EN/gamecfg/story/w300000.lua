@@ -1,12 +1,12 @@
 return {
-	id = "W300000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W300000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You have entered a File Mission zone. Defeat all Siren fleets to unlock confidential files.",
 			typewriter = {
 				speed = 0.05,

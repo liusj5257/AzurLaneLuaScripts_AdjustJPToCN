@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Best Pictures!\n\n<size=45>Chapter 5: Paparazzi Problems! (Part 1)</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The thirty-fifth photo was of a serene beach at night... And standing there was Saratoga, flashing a brilliant smile.",
 			typewriter = {
 				speed = 0.05,
@@ -27,17 +27,17 @@ return {
 			}
 		},
 		{
-			actor = 107030,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "♪～♪～♪",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "♪～♪～♪",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			say = "Sara's practicing by herself again... this idol business sure is really hard work...",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sara's practicing by herself again... this idol business sure is really hard work...",
+			actor = 101050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "(Snap!)",
 			typewriter = {
 				speed = 0.05,
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "Is that you, Gridley?",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Is that you, Gridley?",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "All righty, here! Say cheese~!",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101050,
+			nameColor = "#a9f548",
 			say = "Ch-cheese!",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 2
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "(Snap!)",
 			typewriter = {
 				speed = 0.05,
@@ -364,13 +364,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "Gridley's smile was stiffer than a yearbook photo in this one.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

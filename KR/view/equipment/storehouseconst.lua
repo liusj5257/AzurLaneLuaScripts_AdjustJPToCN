@@ -54,16 +54,16 @@ slot0.EQUIPMENT_INDEX_COMMON = {
 	groupList = {
 		{
 			dropdown = false,
-			titleTxt = "indexsort_type",
 			titleENTxt = "indexsort_typeeng",
+			titleTxt = "indexsort_type",
 			tags = {
 				"typeIndex"
 			}
 		},
 		{
 			dropdown = true,
-			titleTxt = "indexsort_index",
 			titleENTxt = "indexsort_indexeng",
+			titleTxt = "indexsort_index",
 			tags = {
 				"equipPropertyIndex",
 				"equipPropertyIndex2",
@@ -73,24 +73,24 @@ slot0.EQUIPMENT_INDEX_COMMON = {
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_camp",
 			titleENTxt = "indexsort_campeng",
+			titleTxt = "indexsort_camp",
 			tags = {
 				"equipCampIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_rarity",
 			titleENTxt = "indexsort_rarityeng",
+			titleTxt = "indexsort_rarity",
 			tags = {
 				"rarityIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_extraindex",
 			titleENTxt = "indexsort_indexeng",
+			titleTxt = "indexsort_extraindex",
 			tags = {
 				"extraIndex"
 			}
@@ -152,16 +152,16 @@ slot0.SPWEAPON_INDEX_COMMON = {
 	groupList = {
 		{
 			dropdown = false,
-			titleTxt = "indexsort_type",
 			titleENTxt = "indexsort_typeeng",
+			titleTxt = "indexsort_type",
 			tags = {
 				"typeIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_rarity",
 			titleENTxt = "indexsort_rarityeng",
+			titleTxt = "indexsort_rarity",
 			tags = {
 				"rarityIndex"
 			}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海に響くアイドルの歌-日常編\n\n<size=45>四 オフとゲームについて</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・重桜寮",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Tender",
+			say = "母港・重桜寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,11 +53,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "えいっ！やぁっ！とうっ！まだまだー！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "ああああ～！こっちばっか攻撃してこないでよー！",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,13 +120,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "んっふっふ～、みんなが1つに固まってるうちに遠くから……必殺！ウルトラバーニングパーンチ！！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "んっふっふ～、みんなが1つに固まってるうちに遠くから……必殺！ウルトラバーニングパーンチ！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,11 +140,11 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 10700070,
-			dir = 1,
-			actorName = "双海真美&吹雪&綾波",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 10700070,
+			actorName = "双海真美&吹雪&綾波",
 			say = "あーーー！！",
 			dialogShake = {
 				speed = 0.08,
@@ -175,13 +175,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "いえ～い！亜美の勝ち～！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "いえ～い！亜美の勝ち～！",
 			effects = {
 				{
 					active = true,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -208,13 +208,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うう…負けたです……それにしても、亜美と真美、2人ともゲームがすごく上手いです",
 			hidePaintEquip = true,
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "うう…負けたです……それにしても、亜美と真美、2人ともゲームがすごく上手いです",
 			effects = {
 				{
 					active = false,
@@ -234,11 +234,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "向こうでも、めーっちゃゲームしてたからね～♪こっちにもおもしろいゲームがたくさんあって良かったよ。こうやってみんなで遊べるし～！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,11 +268,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "んー……これとかどう？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,13 +299,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "諦めるのはまだ早ーい！！……じゃじゃーん！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "諦めるのはまだ早ーい！！……じゃじゃーん！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "割り箸？それも4本…何に使うの？",
 			effects = {
 				{
@@ -344,13 +344,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "くじ引きだよ、くじ引き！チーム戦で2試合して両方勝った方が優勝ってルールにすれば解決っしょ！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "くじ引きだよ、くじ引き！チーム戦で2試合して両方勝った方が優勝ってルールにすれば解決っしょ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…みんな、1本ずつ持った？じゃ、一気にひくよ……せぇ～の！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "…みんな、1本ずつ持った？じゃ、一気にひくよ……せぇ～の！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,12 +397,12 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			hideOther = true,
-			dir = 1,
-			actorName = "双海亜美&綾波",
-			hidePaintEquip = true,
 			actor = 10700060,
+			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
+			hidePaintEquip = true,
+			actorName = "双海亜美&綾波",
 			say = "Aチーム！",
 			effects = {
 				{
@@ -431,12 +431,12 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_room",
-			hideOther = true,
-			dir = 1,
-			actorName = "双海真美&吹雪",
-			hidePaintEquip = true,
 			actor = 10700070,
+			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintEquip = true,
+			hideOther = true,
+			actorName = "双海真美&吹雪",
 			say = "Bチーム！",
 			subActors = {
 				{
@@ -459,11 +459,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "決まり！真美は吹雪っちと一緒だね。よっろしく～！",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = false,
@@ -496,13 +496,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "のぞむところだー！そう簡単に勝ちはゆずらないよ～？ね、綾波っち！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "のぞむところだー！そう簡単に勝ちはゆずらないよ～？ね、綾波っち！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,11 +532,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "はいはーい！Bチームは真美から行くよ～！…それじゃあ、ゲームスタート！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,8 +547,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -576,11 +576,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "右～右～左～♪ふふーん、なかなかおもしろい曲だね～",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,11 +610,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "Bチーム1勝～！吹雪っち、いぇーい！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,11 +625,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "悔しいです……亜美、次は任せたです",
 			typewriter = {
 				speed = 0.05,
@@ -641,8 +641,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 45,
@@ -651,13 +651,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "任された～！亜美がBチームの勝利を阻止してみせるかんね！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "任された～！亜美がBチームの勝利を阻止してみせるかんね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,8 +668,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -697,11 +697,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "上～下～♪やりぃ～、ボーナスタイム！右連打～♪",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,11 +712,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "上、下、左…あ、あれ、違うノーツ来ちゃった？ああ～ついていけなくなっちゃうよー！",
 			typewriter = {
 				speed = 0.05,
@@ -728,8 +728,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 45,
@@ -754,13 +754,13 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "自信あったのにな～……あれ？ってことは、チーム戦は引き分け？",
 			hidePaintEquip = true,
+			actor = 301010,
+			nameColor = "#a9f548",
+			say = "自信あったのにな～……あれ？ってことは、チーム戦は引き分け？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,13 +787,13 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "これが経験の差というものだよ……といってもけっこうギリギリのスコアだったけどね。綾波っち、ゲーム上手すぎるんだもん！",
 			hidePaintEquip = true,
+			actor = 10700070,
+			nameColor = "#a9f548",
+			say = "これが経験の差というものだよ……といってもけっこうギリギリのスコアだったけどね。綾波っち、ゲーム上手すぎるんだもん！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,8 +804,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -814,13 +814,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうそう♪それに吹雪っちも、メッチャノリノリでプレイしてたし。亜美も隣で思わず踊り出しちゃいそうだったよ～",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "そうそう♪それに吹雪っちも、メッチャノリノリでプレイしてたし。亜美も隣で思わず踊り出しちゃいそうだったよ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,11 +834,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "ほんとほんと！ねえねえねえ吹雪っち～、次は真美と対戦しよ？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,11 +852,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "あっ、亜美も綾波っちと対戦したいー！……ってことで、おふたりさん、もう1戦どうですかい？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,11 +867,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "もちろん！1回やって少し慣れたからね！さっきみたいにはいかないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -883,8 +883,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -909,15 +909,15 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
-			actorName = "双海真美&双海亜美",
+			actor = 10700070,
 			dir = 1,
 			blackBg = true,
 			hidePaintEquip = true,
-			actor = 10700070,
-			nameColor = "#a9f548",
+			hideOther = true,
+			actorName = "双海真美&双海亜美",
 			say = "んっふっふ～♪望むところだー！",
 			subActors = {
 				{
@@ -938,8 +938,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

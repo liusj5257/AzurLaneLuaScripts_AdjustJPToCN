@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAPOHAIKONGZHIYI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAPOHAIKONGZHIYI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "West of SP Island - Afternoon",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "West of SP Island - Afternoon",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -51,8 +51,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Something wrong, Princeton? You look like you're in a bad mood.",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "Cleveland, don't you think our current operation... is a bit too conservative?",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "With our current strength, we can make a decisive preemptive strike!",
 			typewriter = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "Cleve, I also think we should make the first move.",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "It's been a few days since we last got a report from our submarine fleet, so the Sakura Empire's fleet should already be nearby.",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "Until we get a clearer grasp of where the enemy is, I agree that sticking to defense is the safer bet.",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "Hm? Enterprise, were you listening in?",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Yeah. Honestly, I'd like to make a move as well. We've been winning battle after battle, so we're probably all being influence by the high morale going around.",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Otherwise, even a single misstep can ruin everything we've built up to this point.",
 			typewriter = {
@@ -373,8 +373,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Our objective may be to just focus on protecting this area, but simply sticking to defense isn't the way our fleet does things.",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "Ah?! Y-yes! Please leave it to me!",
 			typewriter = {
@@ -452,11 +452,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "Cleve, would it be okay for me to go on this mission?",
 			typewriter = {
 				speed = 0.05,
@@ -468,8 +468,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -481,8 +481,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Hmm... I think... Birmingham should do it this time.",
 			typewriter = {
@@ -495,10 +495,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_map_maliyana",
 			side = 0,
+			bgName = "bg_map_maliyana",
+			hideOther = true,
 			dir = 1,
 			actor = 102230,
 			actorName = "Birmingham & Montpelier",
@@ -545,8 +545,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Birmingham is a bit more cautious, so she'd probably be a good fit as an escort. Think you're up for it?",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "If you say so... I don't have a problem with it.",
 			typewriter = {
@@ -611,8 +611,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "Alright!",
 			typewriter = {
@@ -628,9 +628,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
 			blackBg = true,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "(Neutralizing the enemy's air forces... it's a small mission, but it's time to focus!)",
 			typewriter = {

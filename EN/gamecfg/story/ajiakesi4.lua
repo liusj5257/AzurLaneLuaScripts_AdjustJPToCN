@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AJIAKESI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Fond Memories\n\n<size=45>Chapter 4: Friend? Foe?</size>",
@@ -17,24 +17,24 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Port - Hallway",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "Port - Hallway",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I've always thought about this, but... I'd love for an \"incident\" to occur on one of my patrols.",
 			bgm = "story-1",
+			actor = 202030,
+			nameColor = "#a9f548",
+			say = "I've always thought about this, but... I'd love for an \"incident\" to occur on one of my patrols.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,9 +61,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Ajax entwined her arm around mine.",
 			flashN = {
 				color = {
@@ -101,9 +101,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "I felt a soft but slightly firm sensation pressing against my skin.",
 			typewriter = {
 				speed = 0.05,
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -125,9 +125,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Hm? The person over there is...",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#a9f548",
 			say = "Ajax...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "Oh, if it isn't Spee. Are you taking a walk by your lonesome?",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, if it isn't Spee. Are you taking a walk by your lonesome?",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "The feeling of a heated rivalry between them... was nonexistent.",
 			typewriter = {
 				speed = 0.05,
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "Sure thing~ I really like that place too. Well, since that store has a strict \"No Pets\" policy... our little piggy won't be able to go~♪",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sure thing~ I really like that place too. Well, since that store has a strict \"No Pets\" policy... our little piggy won't be able to go~♪",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			blackBg = true,
 			say = "Before I knew it, Ajax had left me behind, all alone.",
 			typewriter = {

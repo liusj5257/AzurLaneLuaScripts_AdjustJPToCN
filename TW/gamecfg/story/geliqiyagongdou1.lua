@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELIQIYAGONGDOU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELIQIYAGONGDOU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"綠洲往事\n\n<size=45>今日天氣</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -33,9 +33,9 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			asideType = 3,
+			stopbgm = true,
 			effects = {
 				{
 					active = false,
@@ -67,30 +67,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
-			actorName = "收音機",
 			bgmDelay = 1,
-			say = "Avant que le bateau ne percute I'eau♪ （在船抨擊水面之前♪）",
 			bgm = "story-italy",
+			actorName = "收音機",
+			hidePaintObj = true,
+			say = "Avant que le bateau ne percute I'eau♪ （在船抨擊水面之前♪）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "收音機",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "收音機",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "收音機",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			say = "休息室的收音機中，播放著輕快的歌曲——",
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			say = "（推門聲）——",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
+			say = "（推門聲）——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊！安德烈亞姐姐！早上好~還順利嗎？",
 			painting = {
 				alpha = 0.3,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,10 +204,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "還好……？",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "只能說，今天的天色真是奇怪……",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "話說回來，這首歌阿蒂利奧妳聽得懂嗎？",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "唔……！完全聽不懂！不過很好聽~",
 			painting = {
 				alpha = 0.3,
@@ -282,10 +282,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "唔……！完全聽不懂！不過很好聽~",
 			painting = {
 				alpha = 0.3,
@@ -300,10 +300,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "原來如此……",
 			painting = {
 				alpha = 0.3,
@@ -318,10 +318,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "言傳身教的力量真是強大呢。",
 			painting = {
 				alpha = 0.3,
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			say = "（用力的推門聲）——",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
+			say = "（用力的推門聲）——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,10 +348,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊！哥里加姐姐也回來了！",
 			painting = {
 				alpha = 0.3,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -392,10 +392,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一起聽吧，哥里加姊姊~音樂電台又開始……",
 			painting = {
 				alpha = 0.3,
@@ -416,10 +416,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸？！別換台啊！哥里加姐姐！好不容易才等到的——",
 			painting = {
 				alpha = 0.3,
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -441,8 +441,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -451,8 +451,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "收音機",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "收音機",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "收音機",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "收音機",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -502,10 +502,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沙、沙塵暴？！",
 			painting = {
 				alpha = 0.3,
@@ -517,8 +517,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -540,10 +540,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "怎麼會在這個時節來沙塵暴……",
 			painting = {
 				alpha = 0.3,
@@ -558,10 +558,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我剛才聽到的時候也震驚的不行呢。",
 			painting = {
 				alpha = 0.3,
@@ -576,10 +576,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "明明自從防風牆修好後，就再也沒有沙塵暴闖進來過……",
 			painting = {
 				alpha = 0.3,
@@ -594,10 +594,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "據說今天元老院會有一場重要演講，要是能趕在沙塵暴來之前開始就好了……",
 			painting = {
 				alpha = 0.3,
@@ -612,10 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……重要演講？主講人是？",
 			painting = {
 				alpha = 0.3,
@@ -630,10 +630,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "馬可波羅閣下！好像是跟博覽會閉幕式有關的內容。",
 			painting = {
 				alpha = 0.3,
@@ -645,8 +645,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -655,8 +655,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -668,10 +668,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊哈哈……這樣啊。",
 			painting = {
 				alpha = 0.3,
@@ -686,10 +686,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這件事我都是第一次聽說，妳最近格外注意這些？",
 			painting = {
 				alpha = 0.3,
@@ -704,10 +704,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "畢竟駐紮在這片安寧的區域，總是要找點事情做嘛。",
 			painting = {
 				alpha = 0.3,
@@ -722,10 +722,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過有沙塵暴的話，通訊就會變得有點麻煩了……",
 			painting = {
 				alpha = 0.3,
@@ -740,10 +740,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不光是通訊，戶外工作也沒辦法正常進行了哦。",
 			painting = {
 				alpha = 0.3,
@@ -758,10 +758,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是啊……看來今天只能提前收工了。",
 			painting = {
 				alpha = 0.3,
@@ -776,10 +776,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "好耶！休假！",
 			painting = {
 				alpha = 0.3,
@@ -797,8 +797,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -807,8 +807,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -820,10 +820,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………等等，要是沙塵暴來了，阿蒂利奧豈不是連收音機都聽不了！",
 			painting = {
 				alpha = 0.3,
@@ -844,10 +844,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哎呀！那種事不要啊！",
 			painting = {
 				alpha = 0.3,
@@ -859,8 +859,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -869,8 +869,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -882,10 +882,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這麼說的確……我這邊也是，帶來的書基本上都看完了。",
 			painting = {
 				alpha = 0.3,
@@ -900,10 +900,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "綠洲確實除了綠就……唔，等沙塵暴過去，確實得想辦法好好完善一下生活設施了。",
 			painting = {
 				alpha = 0.3,
@@ -918,10 +918,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "如此有年代感的陳設，彷彿正無言的訴說著過去的艱辛——",
 			painting = {
 				alpha = 0.3,
@@ -936,10 +936,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵……也確實如此。這裡在過去確實發生了不少故事。",
 			painting = {
 				alpha = 0.3,
@@ -954,10 +954,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………故事？故事！",
 			painting = {
 				alpha = 0.3,
@@ -972,10 +972,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就是這個！阿蒂利奧想聽哥里加姐姐和安德烈亞姐姐的故事！",
 			painting = {
 				alpha = 0.3,
@@ -987,8 +987,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -997,8 +997,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1010,10 +1010,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咦……？妳是想聽我們來綠洲以前的故事嗎？",
 			painting = {
 				alpha = 0.3,
@@ -1025,8 +1025,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1035,8 +1035,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1048,10 +1048,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我倒是想到了一些，不過那是很久之前的事了……久到連戰爭都沒開始。",
 			painting = {
 				alpha = 0.3,
@@ -1066,10 +1066,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那還真是很久以前呢，連我都感興趣了，哥里加。",
 			painting = {
 				alpha = 0.3,
@@ -1084,10 +1084,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "別取笑我啦，多利亞前輩。",
 			painting = {
 				alpha = 0.3,
@@ -1102,10 +1102,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳們之後也要把故事分享出來才行。多利亞前輩一定知道很多趣事吧？",
 			painting = {
 				alpha = 0.3,
@@ -1120,10 +1120,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "當然沒問題，我們說定了。",
 			painting = {
 				alpha = 0.3,
@@ -1138,10 +1138,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那我去準備飲料和零食！",
 			painting = {
 				alpha = 0.3,
@@ -1153,8 +1153,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1163,8 +1163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1173,13 +1173,13 @@ return {
 			}
 		},
 		{
-			actor = 605070,
 			nameColor = "#A9F548FF",
+			side = 0,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
+			actor = 605070,
 			hideOther = true,
 			actorName = "安德烈婭&哥里加",
-			side = 0,
+			hidePaintObj = true,
 			say = "不準拿太多哦！",
 			subActors = {
 				{
@@ -1208,10 +1208,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘿嘿，知道啦知道~",
 			painting = {
 				alpha = 0.3,
@@ -1223,8 +1223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1233,8 +1233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

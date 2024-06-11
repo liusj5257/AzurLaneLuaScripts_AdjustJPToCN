@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIAHAIBAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIAHAIBAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"바다의 아이돌\n\n<size=45>3. 작은 에피소드</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107034,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "우와아. 레이더 반응이 점점 강해지고 있어!",
 			bgm = "story-1",
+			actor = 107034,
+			nameColor = "#a9f548",
+			say = "우와아. 레이더 반응이 점점 강해지고 있어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "...그리고 시끄럽기도 하고. 역시 아카시가 만든 물건이다. 이상한 데서 사람을 약올린다니까.",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "지휘관, 어서...",
 			typewriter = {
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 105200,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105200,
+			nameColor = "#a9f548",
 			say = "하프물범은 무슨 과의 동물일까?",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "역시 지휘관!",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,9 +222,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "저건 물범이라구! 정답은—— 하프물범은 물범과!",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 107034,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 107034,
+			nameColor = "#a9f548",
 			say = "정답은—— 물범과!",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "정말 영혼 없이 넘어가는군.",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "후... 완전 몰입했잖아, 너희!",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 105200,
 			dir = 1,
+			actor = 105200,
 			nameColor = "#a9f548",
 			say = "언니는 재미 없어?",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "일단 이건 미뤄두고, 준비는 다 끝났어?",
 			typewriter = {
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "아마도 새러토가는 그녀들과 이상한 이야기를 하고 있는 것 같다. 혹시...",
 			typewriter = {
 				speed = 0.05,
@@ -468,9 +468,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			blackBg = true,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "자아, 지휘관. 얼른 가자!",
 			typewriter = {

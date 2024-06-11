@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 15084,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15084,
+	color = "red",
 	icon = 15080,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatio"
 			}
 		}
 	}

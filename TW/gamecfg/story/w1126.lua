@@ -1,15 +1,15 @@
 return {
-	id = "W1126",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1126",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "已成功使得塞壬增援裝置停止運行。",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("LaunchBallActivityMgr")
 
-function slot0.GetRoundCount(slot0)
+slot0.GetRoundCount = function(slot0)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return 0
 	end
@@ -12,7 +12,7 @@ function slot0.GetRoundCount(slot0)
 	return 0
 end
 
-function slot0.GetRoundCountMax(slot0)
+slot0.GetRoundCountMax = function(slot0)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return 0
 	end
@@ -20,11 +20,11 @@ function slot0.GetRoundCountMax(slot0)
 	return #slot1:getConfig("config_data")[1]
 end
 
-function slot0.GotInvitationFlag(slot0)
+slot0.GotInvitationFlag = function(slot0)
 	return LaunchBallActivityMgr.GetActivityById(slot0).data3 == 1
 end
 
-function slot0.GetActivityDay(slot0)
+slot0.GetActivityDay = function(slot0)
 	if LaunchBallActivityMgr.GetActivityById(slot0) then
 		return slot1:getDayIndex()
 	end
@@ -32,15 +32,15 @@ function slot0.GetActivityDay(slot0)
 	return 0
 end
 
-function slot0.GetRemainCount(slot0)
+slot0.GetRemainCount = function(slot0)
 	return LaunchBallActivityMgr.GetActivityDay(slot0) - LaunchBallActivityMgr.GetRoundCount(slot0)
 end
 
-function slot0.IsTip(slot0)
+slot0.IsTip = function(slot0)
 	return LaunchBallActivityMgr.GetRemainCount(slot0) > 0
 end
 
-function slot0.GetInvitationAble(slot0)
+slot0.GetInvitationAble = function(slot0)
 	if LaunchBallActivityMgr.GotInvitationFlag(slot0) then
 		return false
 	end
@@ -48,7 +48,7 @@ function slot0.GetInvitationAble(slot0)
 	return LaunchBallActivityMgr.GetRoundCountMax(slot0) <= LaunchBallActivityMgr.GetRoundCount(slot0)
 end
 
-function slot0.GetInvitation(slot0)
+slot0.GetInvitation = function(slot0)
 	if LaunchBallActivityMgr.GetInvitationAble(slot0) then
 		pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 2,
@@ -57,15 +57,15 @@ function slot0.GetInvitation(slot0)
 	end
 end
 
-function slot0.GetInvitationDropId(slot0)
+slot0.GetInvitationDropId = function(slot0)
 	return LaunchBallActivityMgr.GetActivityById(slot0):getConfig("config_data")[6]
 end
 
-function slot0.GetActivityById(slot0)
+slot0.GetActivityById = function(slot0)
 	return getProxy(ActivityProxy):getActivityById(slot0)
 end
 
-function slot0.GetZhuanShuCount(slot0)
+slot0.GetZhuanShuCount = function(slot0)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return 0
 	end
@@ -73,7 +73,7 @@ function slot0.GetZhuanShuCount(slot0)
 	return slot1.data1_list or {}
 end
 
-function slot0.GetZhuanShuItems(slot0, slot1)
+slot0.GetZhuanShuItems = function(slot0, slot1)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return 0
 	end
@@ -81,7 +81,7 @@ function slot0.GetZhuanShuItems(slot0, slot1)
 	return slot2:getConfig("config_data")[4][1][slot1]
 end
 
-function slot0.IsFinishZhuanShu(slot0, slot1)
+slot0.IsFinishZhuanShu = function(slot0, slot1)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return 0
 	end
@@ -89,7 +89,7 @@ function slot0.IsFinishZhuanShu(slot0, slot1)
 	return LaunchBallActivityMgr.GetZhuanShuCount(slot0) and table.contains(slot3, slot1)
 end
 
-function slot0.CheckZhuanShuAble(slot0, slot1)
+slot0.CheckZhuanShuAble = function(slot0, slot1)
 	slot3 = nil
 
 	if LaunchBallActivityMgr.GetZhuanShuItems(slot0, slot1) then
@@ -99,7 +99,7 @@ function slot0.CheckZhuanShuAble(slot0, slot1)
 	return slot3 ~= nil
 end
 
-function slot0.GetPlayerZhuanshuIndex(slot0)
+slot0.GetPlayerZhuanshuIndex = function(slot0)
 	if slot0 > 1 then
 		return slot0 - 1
 	end
@@ -107,7 +107,7 @@ function slot0.GetPlayerZhuanshuIndex(slot0)
 	return nil
 end
 
-function slot0.GetGameScore(slot0, slot1)
+slot0.GetGameScore = function(slot0, slot1)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return 0
 	end
@@ -115,12 +115,12 @@ function slot0.GetGameScore(slot0, slot1)
 	return slot2.data2 or 0
 end
 
-function slot0.OpenGame(slot0, slot1)
+slot0.OpenGame = function(slot0, slot1)
 	LaunchBallGameVo.initRoundData(slot0, slot1)
 	pg.m02:sendNotification(GAME.GO_MINI_GAME, 57)
 end
 
-function slot0.GetGameAward(slot0, slot1, slot2, slot3)
+slot0.GetGameAward = function(slot0, slot1, slot2, slot3)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return
 	end
@@ -204,7 +204,7 @@ function slot0.GetGameAward(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetGameScores(slot0)
+slot0.GetGameScores = function(slot0)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return 0
 	end
@@ -212,7 +212,7 @@ function slot0.GetGameScores(slot0)
 	return slot1:getConfig("config_data")[5]
 end
 
-function slot0.GetGamePtId(slot0)
+slot0.GetGamePtId = function(slot0)
 	if not LaunchBallActivityMgr.GetActivityById(slot0) then
 		return 0
 	end

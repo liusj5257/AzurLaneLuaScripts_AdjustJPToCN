@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>권한 인증 중————</size>",
@@ -35,10 +35,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_1100",
 			paintingNoise = true,
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "star_level_bg_1100",
 			bgm = "bsm-2",
 			actor = 107030,
 			nameColor = "#a9f548",
@@ -65,8 +65,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "새벽 즈음, 드디어 지정한 구역에 도착할 수 있었다.",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "함재기들이 별빛처럼 어둠 속을 헤치며 바다를 스쳤다.",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "이런 생각이 머릿속에 계속 맴돌고 있기 때문에 수색에 박차를 가했다.",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "히류는 자신의 동력으로 어느 정도 전진했는지 그녀들과 조금 떨어진 곳에 있었다.",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "거리가 너무 멀어서 구체적인 모델은 확인할 수 없었다.",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "설마 세이렌이 마무리를 대신해 줄 생각인가? 순간 그런 생각이 들었다.",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "나 역시 함재기를 구름 속에 숨긴 채 사태를 지켜보았다.",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "그리고... 큰 충격이 일어났다.",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "검붉은 충격파는 인간형 세이렌을 수십 미터나 날려 보냈다. 물론, 그것이 직접 피했다고 할 수도 있을 것이다.",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "충격파의 범위는 매우 넓었다. 내 함재기는 거리가 멀어 다행히 휘말리지 않았지만, 세이렌 양산형 함대에게 그런 행운은 일어나지 않았다.",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "이상한 것은 충격의 중심에 있던 아카기와 카가는 아무런 영향을 받지 않은 듯하다는 것이다.",
 			typewriter = {
@@ -432,8 +432,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "하지만... 아마도 함선이라고 생각한다.",
 			typewriter = {
@@ -449,8 +449,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "게다가 어디선가 본 것 같은 익숙한 느낌이 든다.",
 			typewriter = {
@@ -466,8 +466,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "대체 왜일까...?",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "데이터 분석 오류————————————",
 			typewriter = {
@@ -500,9 +500,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "재생 중지————————————",
 			typewriter = {

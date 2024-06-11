@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "ふっふっふー、甘いね～こっちが囮作戦にまんまと引っかかると思った？",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -192,12 +192,12 @@ return {
 	desc_get = "",
 	name = "吾妻·特殊弹幕",
 	init_effect = "",
+	id = 18210,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 18210,
+	color = "red",
 	icon = 18210,
 	last_effect = "",
 	effect_list = {
@@ -207,8 +207,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 18210,
 				minWeaponNumber = 1,
+				skill_id = 18210,
 				check_weapon = true,
 				type = {
 					3
@@ -221,9 +221,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 18212,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 18212,
 				index = {
 					1
 				},

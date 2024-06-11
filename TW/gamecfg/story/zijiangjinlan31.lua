@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN31",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "大棋盤·赤城控制區第十回合",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg14",
 			say = "第十回合，以漸暗的天空為標誌，事件卡「日蝕」生效了。",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg14",
 			say = "上回合事件卡所帶來溫暖煦風，轉眼就被籠罩了整片海域的昏暗與煩悶所取代。",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "日蝕……姐姐。妳覺得武藏做這張卡想表達什麼呢？",
 			painting = {
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "剛剛那把從天而降的刀是武藏大人的指揮卡吧?沒想到一整局打法都十分委婉的武藏大人也準備了那麼直接的卡。",
 			painting = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "那張指揮卡的名字叫做「公方之刃」，顧名思義，是專門用來消滅不聽話之人的雷霆手段哦。",
 			painting = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "大前輩以為躲過了我這邊就一切安全了嗎，呵呵。",
 			painting = {
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "反正也不是非要山城才行，只要有一個人進入據點控制區，我們所有人就都能攻擊中心據點了。",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "…………這個倒確實是誰都可以。",
 			painting = {
@@ -289,8 +289,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "……加賀？妳確定嗎。",
 			painting = {
@@ -306,8 +306,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "嗯，我計算過了，沒問題，不需要讓龍鳳去冒險。",
 			painting = {
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "……妳的意思我明白。也罷，妳去吧。",
 			painting = {
@@ -356,8 +356,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "呵呵，萬事已經具備，讓我們進入最後的總攻時刻吧~",
 			painting = {

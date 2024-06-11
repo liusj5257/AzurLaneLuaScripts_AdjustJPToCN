@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.activity_workbench_recipe = {
 	{
-		id = 1,
 		name = "良質な木材",
+		id = 1,
 		lock_display = "クラフトLv.2で開放",
 		item_num = 750,
 		recipe_lock = {
@@ -24,8 +24,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[3] = {
-		id = 3,
 		name = "輝く宝石（赤）",
+		id = 3,
 		lock_display = "クラフトLv.2で開放",
 		item_num = 40,
 		recipe_lock = {
@@ -47,8 +47,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[4] = {
-		id = 4,
 		name = "輝く宝石（黄）",
+		id = 4,
 		lock_display = "クラフトLv.2で開放",
 		item_num = 40,
 		recipe_lock = {
@@ -70,8 +70,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[5] = {
-		id = 5,
 		name = "温泉施設：施設内装",
+		id = 5,
 		lock_display = "クラフトLv.3で開放",
 		item_num = 20,
 		recipe_lock = {
@@ -93,8 +93,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[6] = {
-		id = 6,
 		name = "温泉施設：給湯",
+		id = 6,
 		lock_display = "クラフトLv.3で開放",
 		item_num = 2,
 		recipe_lock = {
@@ -121,8 +121,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[7] = {
-		id = 7,
 		name = "温泉施設：湯上がりお菓子",
+		id = 7,
 		lock_display = "クラフトLv.3で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -144,8 +144,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[8] = {
-		id = 8,
 		name = "温泉施設：施設外装",
+		id = 8,
 		lock_display = "クラフトLv.3で開放",
 		item_num = 4,
 		recipe_lock = {
@@ -167,8 +167,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[9] = {
-		id = 9,
 		name = "温泉施設：入浴セット",
+		id = 9,
 		lock_display = "クラフトLv.3で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -190,8 +190,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[100] = {
-		id = 100,
 		name = "饅頭別荘の床",
+		id = 100,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -218,8 +218,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[101] = {
-		id = 101,
 		name = "饅頭別荘の壁",
+		id = 101,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -251,8 +251,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[102] = {
-		id = 102,
 		name = "別荘ロングベンチ",
+		id = 102,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -284,8 +284,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[103] = {
-		id = 103,
 		name = "別荘フラワーベッド",
+		id = 103,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -317,8 +317,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[104] = {
-		id = 104,
 		name = "別荘小屋",
+		id = 104,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -350,8 +350,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[105] = {
-		id = 105,
 		name = "別荘画板",
+		id = 105,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -383,8 +383,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[106] = {
-		id = 106,
 		name = "別荘フラワーカート",
+		id = 106,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -416,8 +416,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[107] = {
-		id = 107,
 		name = "別荘フラワーランプ",
+		id = 107,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -449,8 +449,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[108] = {
-		id = 108,
 		name = "別荘フラワーハウス",
+		id = 108,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -482,8 +482,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[109] = {
-		id = 109,
 		name = "別荘フラワーガーデン",
+		id = 109,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -515,8 +515,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[110] = {
-		id = 110,
 		name = "別荘ウッドブリッジ",
+		id = 110,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -543,8 +543,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[111] = {
-		id = 111,
 		name = "別荘ブランコ",
+		id = 111,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -576,8 +576,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[112] = {
-		id = 112,
 		name = "別荘ウェール",
+		id = 112,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -609,8 +609,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[113] = {
-		id = 113,
 		name = "別荘ハープ",
+		id = 113,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -642,8 +642,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[114] = {
-		id = 114,
 		name = "別荘化粧台",
+		id = 114,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -675,8 +675,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[115] = {
-		id = 115,
 		name = "別荘テーブル",
+		id = 115,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -708,8 +708,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[116] = {
-		id = 116,
 		name = "別荘小亭",
+		id = 116,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -741,8 +741,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[117] = {
-		id = 117,
 		name = "別荘リトルランプ",
+		id = 117,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -774,8 +774,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[118] = {
-		id = 118,
 		name = "別荘郵便受け",
+		id = 118,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -807,8 +807,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[119] = {
-		id = 119,
 		name = "別荘バスタブ",
+		id = 119,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -840,8 +840,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[120] = {
-		id = 120,
 		name = "別荘置時計",
+		id = 120,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
@@ -873,8 +873,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[121] = {
-		id = 121,
 		name = "別荘フラワーバスケット",
+		id = 121,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 3,
 		recipe_lock = {
@@ -906,8 +906,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[122] = {
-		id = 122,
 		name = "咲き誇る一瞬",
+		id = 122,
 		lock_display = "クラフトLv.4で開放",
 		item_num = 4,
 		recipe_lock = {

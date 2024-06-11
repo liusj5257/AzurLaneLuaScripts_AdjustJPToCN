@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"それは恋を呼ぶ季節\n\n<size=45>三 誰がおしどりですか！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107040,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "はーい、ちゃんと皆席についてるわね。じゃあ今からHRを始めます。みなさんおはようございます。",
 			bgm = "story-1",
+			actor = 107040,
+			nameColor = "#a9f548",
+			say = "はーい、ちゃんと皆席についてるわね。じゃあ今からHRを始めます。みなさんおはようございます。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "――おはようございます！！",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "心の中でそんなことを思っていると、ふと前の席に座っているアーデントがちらとこちらに振り返った。",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "どうしたのだろう、と思ったまさにその時であった。",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "何を言うかと思いきや、アーデントが元気よく手をあげてそんなことを言いだした。",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "クラスの皆の視線が、一気に二人に向けて注がれる……っ！",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "ちょ、ちょっとアーデント！？勝手なこと言わないで――それに誰がおしどりですか！誰が！",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "エ、エディンバラさんまで……",
 			typewriter = {
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "その後もクラスの子たちから続々と票が集まっていき、二人がクラス委員になるのはもはや決定的だった。",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "そ、そんなぁ……。うぅ…",
 			typewriter = {
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "こうして二人は「おしどり・名クラス委員」に選出されることとなった。",
 			typewriter = {
 				speed = 0.05,
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "落ち込むグラスゴーの耳にレンジャー先生の優しいフォローが入ったところで、あの方と目が合った。",
 			typewriter = {
 				speed = 0.05,

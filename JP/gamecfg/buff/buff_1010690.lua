@@ -132,12 +132,12 @@ return {
 	desc_get = "",
 	name = "铁血之鹰",
 	init_effect = "",
+	id = 1010690,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1010690,
+	color = "red",
 	icon = 10690,
 	last_effect = "",
 	effect_list = {
@@ -147,10 +147,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 1010690,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"KMS",
 					"CV"

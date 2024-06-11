@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>Chapter 7 - Well Then, Buh-Bye!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actorName = "Histoire",
+			say = "...Now then, while I totally didn't expect you all to just sit around and play games all day, it seems you did investigate as I told you to. You have done well.",
 			side = 2,
 			bgName = "bg_story_school",
-			withoutPainting = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			bgm = "story-nepu1",
 			actor = 0,
-			nameColor = "#a9f548",
-			say = "...Now then, while I totally didn't expect you all to just sit around and play games all day, it seems you did investigate as I told you to. You have done well.",
+			actorName = "Histoire",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,14 +36,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "Histoire",
 			say = "Thanks to your investigation I was able to understand the gist of what the connection is between Gamindustri and this other world. From now on you should be able to access this world whenever you want.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
+			say = "...What are you on about? We obviously can't do that.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "...What are you on about? We obviously can't do that.",
+			actor = 10100030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -106,14 +106,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "Histoire",
 			say = "Vert is correct. You can all return here whenever you want, so please, all of you come back to Gamindustri at once. And that includes you, Neptune.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "For a while I had no idea how we'd manage in this world... But we did, somehow. We couldn't have done it alone though. Thank you for helping us out so much, everyone.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "For a while I had no idea how we'd manage in this world... But we did, somehow. We couldn't have done it alone though. Thank you for helping us out so much, everyone.",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "Just after we'd all become such close friends... It's a shame.",
 			typewriter = {
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "...But I remember Nep-Nep downing a whole bottle. Maybe she has the same taste as we do?",
 			typewriter = {
@@ -434,14 +434,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "Histoire",
 			say = "Now then, CPUs, please line up in front of the wormhole and prepare to jump into it.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,14 +452,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "Histoire",
 			say = "I can't simply leave an inter-dimensional wormhole open here, so once you're done saying goodbye, I will close it for the time being.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,14 +470,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "Histoire",
 			say = "When you have business in this world, I can open it again, so you don't need to worry about that.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,12 +504,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "I couldn't agree more. There are no words to express my gratitude. Thank you for everything, Noire.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I couldn't agree more. There are no words to express my gratitude. Thank you for everything, Noire.",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "I had fun too. Sayonara, Noire.",
 			typewriter = {
@@ -557,11 +557,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "Okay, Vert! I'm gonna dream of tons of candy while you're gone!",
 			typewriter = {
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "We'll be waiting... Bye bye, Vert!",
 			typewriter = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "Bye byyyyeee!",
 			typewriter = {

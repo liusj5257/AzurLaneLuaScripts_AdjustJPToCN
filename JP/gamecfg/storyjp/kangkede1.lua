@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KANGKEDE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KANGKEDE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シュガリーコンコード\n\n<size=45>一　糖分系ガール？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふぅ……結構仕事したよねーちょっと休憩～……そろそろ糖分を取らないと♪",
 			typewriter = {
@@ -63,9 +63,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "書類仕事をしていた秘書艦のコンコードは思いっきり伸びをして、どこからともなく棒付きキャンディを取り出して口の中に入れた。",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "んん～やっぱいいよねー！仕事の後のキャンディは最高だよ！",
 			typewriter = {
@@ -90,8 +90,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "糖分の話になると話が中々尽きない彼女。",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "あっ、糖分の話ばっかしてて訓練レポートのことを忘れちゃってた。これまとめないといけないよね",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "はい、お仕事に集中しまーす♪",
 			typewriter = {
@@ -172,14 +172,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102180,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "あ！睦月ちゃん！アメさんを交換してみない？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -206,14 +206,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102180,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "あそこにいるのはオマハじゃない……おーい！ってまたおやつ買ってる！あとでちょっとせびりに行こっと♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -240,14 +240,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102180,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ふはー、お仕事しゅーりょー！疲れたー！指揮官肩揉んでー",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -272,8 +272,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "仕事の最中でもすぐ執務室の外に気が移ってしまうコンコード。「集中」できてるとはあまり言えないが……",
 			typewriter = {
 				speed = 0.05,
@@ -292,9 +292,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "彼女にまとめてもらったレポートは概ね問題なかった。ほかの子には中々出来ないことだ",
 			typewriter = {
 				speed = 0.05,
@@ -305,8 +305,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ねえ指揮官肩揉んでよ～あとでお礼してあげるから～",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "うんうん、上手上手♪指揮官は肩揉みがうまいんだ～",
 			typewriter = {
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -355,8 +355,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ではでは、私からのお返しは～",
 			typewriter = {
@@ -369,9 +369,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "コンコードは何かのキャンディを取り出すのではなく、自分の後ろに回り込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -382,8 +382,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ささ、座って座ってー。お返しは……私も肩を揉んであげる！",
 			typewriter = {

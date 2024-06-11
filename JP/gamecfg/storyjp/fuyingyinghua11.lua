@@ -1,27 +1,27 @@
 return {
-	id = "FUYINGYINGHUA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			actorName = "プリンツ・オイゲン",
-			say = "なによ、最新鋭艦なのにこの程度？",
 			bgm = "story-4",
+			actorName = "プリンツ・オイゲン",
+			hidePaintObj = true,
+			say = "なによ、最新鋭艦なのにこの程度？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "プリンツ・オイゲン",
 			nameColor = "#ff5c5c",
+			actorName = "プリンツ・オイゲン",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "能代",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "能代",
+			hidePaintObj = true,
 			say = "（あの演習弾の威力とこっちに向けてくる露骨な殺意…プリンツ・オイゲン、本気で戦っていた…なら……）",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			actorName = "能代",
 			nameColor = "#a9f548",
+			actorName = "能代",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -63,10 +63,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "能代",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "能代",
+			hidePaintObj = true,
 			say = "素晴らしい戦い方です。さすが歴戦の武勲艦、能代感服いたしました。",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			actorName = "プリンツ・オイゲン",
 			nameColor = "#ff5c5c",
+			actorName = "プリンツ・オイゲン",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			actorName = "プリンツ・オイゲン",
 			nameColor = "#ff5c5c",
+			actorName = "プリンツ・オイゲン",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -107,15 +107,15 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "能代",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "能代",
+			hidePaintObj = true,
 			say = "（プリンツ・オイゲン……！）",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -131,10 +131,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "能代",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "能代",
+			hidePaintObj = true,
 			say = "そうですか。ただの演習にもかかわらず全開でお付き合いいただき誠にありがとうございます",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			actorName = "プリンツ・オイゲン",
 			nameColor = "#ff5c5c",
+			actorName = "プリンツ・オイゲン",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			actorName = "プリンツ・オイゲン",
 			nameColor = "#ff5c5c",
+			actorName = "プリンツ・オイゲン",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -171,10 +171,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "能代",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "能代",
+			hidePaintObj = true,
 			say = "（……………………）",
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "能代",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "能代",
+			hidePaintObj = true,
 			say = "侮らないでプリンツ・オイゲン",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "能代",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "能代",
+			hidePaintObj = true,
 			say = "重桜の最新鋭艦の力をそんなに見たいのでしたら、今からじっくりお見せします",
 			typewriter = {
 				speed = 0.05,
@@ -213,10 +213,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "能代",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "能代",
+			hidePaintObj = true,
 			say = "私のことはともかく、重桜を侮辱したこと、後悔させてやります！",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			actorName = "プリンツ・オイゲン",
 			nameColor = "#ff5c5c",
+			actorName = "プリンツ・オイゲン",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -237,17 +237,17 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "プリンツ・オイゲン",
+			side = 0,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "楽しく戦り合おうかしら！！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

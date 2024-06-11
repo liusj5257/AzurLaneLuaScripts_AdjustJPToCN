@@ -5,8 +5,8 @@ return {
 		{
 			action = {
 				ui = {
-					scale = 0.667,
 					customSize = true,
+					scale = 0.667,
 					path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/main/right_panel/commanders/box/boxes_btn"
 				}
 			}
@@ -15,8 +15,8 @@ return {
 			finish = true,
 			action = {
 				ui = {
-					scale = 0.667,
 					customSize = true,
+					scale = 0.667,
 					path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/box_panel/frame/boxes/mask/content/frame"
 				}
 			}
@@ -24,8 +24,8 @@ return {
 		{
 			action = {
 				ui = {
-					scale = 0.667,
 					customSize = true,
+					scale = 0.667,
 					path = "/UICamera/Canvas/UIMain/GetCommanderUI(Clone)/click"
 				}
 			}
@@ -33,8 +33,8 @@ return {
 		{
 			action = {
 				ui = {
-					scale = 0.667,
 					customSize = true,
+					scale = 0.667,
 					path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/box_panel/frame/close_btn"
 				}
 			}

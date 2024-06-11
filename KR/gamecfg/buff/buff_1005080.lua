@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "骑士之剑 +",
 	init_effect = "",
+	id = 1005080,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1005080,
+	color = "red",
 	icon = 5080,
 	last_effect = "",
 	effect_list = {
@@ -75,9 +75,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				time = 15,
-				skill_id = 1005083,
-				target = "TargetSelf"
+				skill_id = 1005083
 			}
 		}
 	}

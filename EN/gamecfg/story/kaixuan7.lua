@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 7 - Le Triomphant of Iris Libre</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "After seeing off Forbin and Le Mars...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "After seeing off Forbin and Le Mars...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Le Triomphant made a fist, gentle but filled with determination.",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Upon hearing my words, Le Triomphant turned a deep shade of red.",
 			typewriter = {
 				speed = 0.05,

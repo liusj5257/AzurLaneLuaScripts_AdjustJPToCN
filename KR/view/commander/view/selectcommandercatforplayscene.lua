@@ -1,6 +1,6 @@
 slot0 = class("SelectCommanderCatForPlayScene", import(".CommanderCatScene"))
 
-function slot0.emit(slot0, ...)
+slot0.emit = function(slot0, ...)
 	if unpack({
 		...
 	}) == uv0.ON_BACK then
@@ -10,7 +10,7 @@ function slot0.emit(slot0, ...)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = slot0.contextData.activeCommander
 	slot0.contextData.mode = uv0.MODE_SELECT
 	slot0.contextData.maxCount = 10
@@ -21,14 +21,14 @@ function slot0.didEnter(slot0)
 	table.insert(slot0.contextData.ignoredIds, slot1.id)
 	slot0:CollectIgnoredIdsForPlay(slot0.contextData.ignoredIds)
 
-	function slot0.contextData.onCommander(slot0, slot1, slot2, slot3)
+	slot0.contextData.onCommander = function(slot0, slot1, slot2, slot3)
 		return uv0:IsLegalForPlay(uv1, slot0, slot1, slot2)
 	end
 
 	uv0.super.didEnter(slot0)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	uv0.super.RegisterEvent(slot0)
 	slot0:bind(CommanderCatDockPage.ON_SORT, function (slot0)
 		onNextTick(function ()
@@ -43,7 +43,7 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.CollectIgnoredIdsForPlay(slot0, slot1)
+slot0.CollectIgnoredIdsForPlay = function(slot0, slot1)
 	for slot6, slot7 in pairs(getProxy(CommanderProxy):getRawData()) do
 		if slot7:isLocked() then
 			table.insert(slot1, slot7.id)
@@ -59,7 +59,7 @@ function slot0.CollectIgnoredIdsForPlay(slot0, slot1)
 	end
 end
 
-function slot0.IsLegalForPlay(slot0, slot1, slot2, slot3, slot4)
+slot0.IsLegalForPlay = function(slot0, slot1, slot2, slot3, slot4)
 	if nowWorld():CheckCommanderInFleet(slot2.id) then
 		return false, i18n("commander_is_in_bigworld")
 	end
@@ -87,7 +87,7 @@ function slot0.IsLegalForPlay(slot0, slot1, slot2, slot3, slot4)
 	return true
 end
 
-function slot0.CheckFormation(slot0, slot1, slot2, slot3)
+slot0.CheckFormation = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(FleetProxy)
 
 	if not _.detect(slot4:getCommanders(), function (slot0)
@@ -119,7 +119,7 @@ function slot0.CheckFormation(slot0, slot1, slot2, slot3)
 	return false
 end
 
-function slot0.CheckGuild(slot0, slot1, slot2, slot3)
+slot0.CheckGuild = function(slot0, slot1, slot2, slot3)
 	if not getProxy(GuildProxy):getRawData() or not slot4:ExistCommander(slot1.id) then
 		return true
 	end
@@ -159,7 +159,7 @@ function slot0.CheckGuild(slot0, slot1, slot2, slot3)
 	return false
 end
 
-function slot0.CheckExtra(slot0, slot1, slot2, slot3)
+slot0.CheckExtra = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(FleetProxy)
 	slot5 = slot4:getCommanders()
 

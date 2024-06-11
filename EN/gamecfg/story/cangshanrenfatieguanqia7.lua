@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			bgm = "sk-az-battle",
 			side = 2,
 			bgName = "bg_kagura_1",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			say = "KABOOOM!",
-			bgm = "sk-az-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,9 +82,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "Blast it! The Sirens are out here, too! We're caught in a pincer attack!",
 			painting = {
 				alpha = 0.3,
@@ -99,8 +99,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "Akatsuki, take command! The rest of us don't know how to deal with Sirens! You know how we shinobis fight, don't you?",
 			painting = {
@@ -115,9 +115,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "What? Uh, I mean... Okay, I'll try...",
 			painting = {
 				alpha = 0.3,
@@ -131,9 +131,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "...Hang on! That's Kashino! Friendly, friendly! The lady is on our side! Hail, Kashino!",
 			painting = {
 				alpha = 0.3,
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 319010,
-			side = 2,
 			bgName = "bg_kagura_1",
-			nameColor = "#A9F548FF",
+			side = 2,
 			dir = 1,
+			actor = 319010,
+			nameColor = "#A9F548FF",
 			say = "Huh? She's coming this way and waving at me... I fear they're using her as a human shield.",
 			painting = {
 				alpha = 0.3,
@@ -160,17 +160,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -181,8 +181,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#A9F548FF",
 			say = "And just on the horizon... Oh, dear! They have reinforcements coming!",
 			painting = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_1",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,11 +245,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
-			side = 2,
 			bgName = "bg_kagura_1",
-			nameColor = "#A9F548FF",
+			side = 2,
 			dir = 1,
+			actor = 301090,
+			nameColor = "#A9F548FF",
 			say = "Kashinooo! Friendly fire! These girls are friendlies! Please stop shooting them! Dang it... She can't hear me!",
 			painting = {
 				alpha = 0.3,
@@ -260,17 +260,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -280,9 +280,9 @@ return {
 		{
 			actor = 11000030,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "No kidding – you can't hear a damn thing over all this cannon fire!",
 			painting = {
 				alpha = 0.3,
@@ -297,8 +297,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "She's not even the biggest pest – these monsters are! Do something, Akatsuki! Use your shinobi arts to get us out of this!",
 			painting = {
@@ -313,9 +313,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "But I can't just... *sob*... Somebody, save us...",
 			painting = {
 				alpha = 0.3,
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_1",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,8 +392,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Fighter squadrons, bomber squadrons, repel the Sirens!",
 			painting = {
@@ -406,11 +406,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_1",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,13 +456,13 @@ return {
 			}
 		},
 		{
-			actor = 207070,
-			side = 2,
 			bgName = "bg_kagura_1",
-			nameColor = "#A9F548FF",
+			side = 2,
 			dir = 1,
-			say = "So you saw a falling star during your compulsory patrol, and went to check it out... Akatsuki, please. Acting on your own accord goes against protocol.",
 			bgm = "sk-az-story",
+			actor = 207070,
+			nameColor = "#A9F548FF",
+			say = "So you saw a falling star during your compulsory patrol, and went to check it out... Akatsuki, please. Acting on your own accord goes against protocol.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,17 +472,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -492,9 +492,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "I am indebted to you, Implacable...",
 			painting = {
 				alpha = 0.3,
@@ -509,8 +509,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "And Kashino, you must not jump to conclusions. I hope you understand now why rash decisions only complicate things.",
 			painting = {
@@ -525,9 +525,9 @@ return {
 		{
 			actor = 319010,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "Yes. I'm sorry...",
 			painting = {
 				alpha = 0.3,
@@ -542,8 +542,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Good. Now, as for you ladies... Judging by your appearances, I presume you're from somewhere else.",
 			painting = {
@@ -558,12 +558,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_kagura_1",
-			actor = 11000010,
 			dir = 1,
+			bgName = "bg_kagura_1",
+			bgm = "sk-menu",
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "And that's the long and short of it.",
-			bgm = "sk-menu",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,17 +573,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -593,9 +593,9 @@ return {
 		{
 			actor = 207070,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "Interesting... This is exactly like cases perpetrated by Sirens in the past.",
 			painting = {
 				alpha = 0.3,
@@ -610,8 +610,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "I would call for Akashi, but it seems we're in a newly formed Mirror Sea, so that's not an option.",
 			painting = {
@@ -627,8 +627,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "I've contacted the port, but they won't be able to do much until we've dealt with the Sirens behind this.",
 			painting = {
@@ -644,8 +644,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "So, let me ask you this, visitors from foreign lands...",
 			painting = {
@@ -661,8 +661,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Our goal is the same – to solve this problem at its core – so why don't we work on it together?",
 			painting = {
@@ -690,8 +690,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "The Sirens must have some motive for kidnapping your friend, no?",
 			painting = {
@@ -707,8 +707,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "That being the case, rescuing her is the most surefire way to nip whatever scheme they have in the bud.",
 			painting = {
@@ -724,8 +724,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "We can worry about what comes next after that.",
 			painting = {
@@ -741,8 +741,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "Sooo... Basically, saving Fubuki is our number one priority? If so, there's no doubt in my mind!",
 			painting = {
@@ -757,9 +757,9 @@ return {
 		{
 			actor = 207070,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "Then we have a plan. Let's move out at once. Time is short.",
 			painting = {
 				alpha = 0.3,
@@ -819,9 +819,9 @@ return {
 		{
 			actor = 207070,
 			side = 2,
-			bgName = "bg_kagura_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_1",
 			say = "To answer your question – it's because it's a nun's duty to extend her hand to people in need♪",
 			painting = {
 				alpha = 0.3,
@@ -836,8 +836,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_1",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "You dress like that and call yourself a nun? You gotta be kidding me...",
 			painting = {

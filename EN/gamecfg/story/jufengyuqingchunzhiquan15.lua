@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Engaging the Echo Fleet was always going to be a steep uphill battle, even if only as a distraction to lure them away from the port.",
 			bgm = "story-temepest-2",
+			say = "Engaging the Echo Fleet was always going to be a steep uphill battle, even if only as a distraction to lure them away from the port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "It's already clear that they can't be reasoned with. The only way to get their attention is with an exchange of cannon fire.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "On one side, Mary's team fights with the fury of a tornado. On the other, São Martinho fights relentlessly on the frontlines.",
@@ -57,8 +57,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "The Invincible Crown",
+			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -69,17 +69,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -128,8 +128,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "The Invincible Crown",
+			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -140,17 +140,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -197,28 +197,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The enemy attacks come in violent waves, but São Martinho does not flinch. Her bravery shines like a star in the dark night.",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Nuh-uh. Now is not a good time.",
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Showing them our backs now would be suicide.",
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's time, my darling~",
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "I launch the signal flare Golden Hind entrusted me with.",
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, well. You're always full of surprises.",
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Let's see if my friend is as well-connected as she claims...",
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "PSSHH!",
@@ -536,9 +536,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "Investor",
 			dir = 1,
+			bgName = "star_level_bg_504",
 			bgm = "story-temepest-1",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
@@ -553,17 +553,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -571,8 +571,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "A flare shoots up into the sky, illuminating a fleet that has appeared out of thin air.",
@@ -641,11 +641,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "To be precise, SHE is the reinforcement~",
@@ -735,11 +735,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Okay, that's nip this in the bud! She's a friend of a friend, which makes her my friend, too! Boy, my rich friends are so awesome!",
@@ -772,11 +772,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hey, Whydah! Over here~",

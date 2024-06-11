@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN03",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSHUN03",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"撫順的大冒險\n\n<size=45>三　勇者的旅途</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			bgm = "story-china",
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "歡迎光臨~喵喵？東煌的小妹妹找{namecode:98}有什麼事情喵？要買東西喵？",
-			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "哇~這裡就是購買部嗎~好多看起來很好玩的東西啊~",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~這裡就是購買部嗎~好多看起來很好玩的東西啊~",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "這個是…遊戲機？",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "真、真拿妳沒辦法喵…這次就破例給妳免費服務好了喵…",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "我看看喵…還真是古老的機器喵…這裡要這樣…然後這裡再這樣……",
 			typewriter = {
@@ -154,16 +154,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "呼…修好了喵！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "哇~{namecode:98}好厲害~",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~{namecode:98}好厲害~",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "雖然零件太古老費了一番功夫，但這點小問題還難不住{namecode:98}喵~",
 			typewriter = {
@@ -241,15 +241,15 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "長春~掌機修好了喲~一起來玩吧~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "還真的修好了啊…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "還真的修好了啊…",
+			actor = 501030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

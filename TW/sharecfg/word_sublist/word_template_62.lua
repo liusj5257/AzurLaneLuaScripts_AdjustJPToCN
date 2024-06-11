@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_62 = {}
 slot1 = slot0.word_template_62
 
-function temp()
+temp = function()
 	uv0["跳"] = {
 		["大"] = {
 			["神"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["神"] = {
 		["汉"] = {
 			this = true
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["阎"] = {
 		["王"] = {
 			this = true
@@ -60,7 +60,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["黑"] = {
 		["白"] = {
 			["无"] = {

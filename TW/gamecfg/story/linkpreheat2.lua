@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT2",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10300010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "那群脸色铁青的人……已经赶跑了吗？",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,10 +38,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "刚才包围着这边的气息也已经消失了。可以说暂时脱离危险了吧",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "刚才包围着这边的气息也已经消失了。可以说暂时脱离危险了吧",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "似乎是这样呢。假芙米露露也被打倒了……",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			stopbgm = true,
 			say = "小久————不可以哦",
 			typewriter = {
@@ -151,11 +151,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "main-uta",
 			actor = 10300010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "芙米露露？！是、是真的吗？……妳没事真的太好了！",
-			bgm = "main-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "对，正是我。我没事的，请放心",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "这群小姑娘是猫神大人的朋友吗？",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -365,8 +365,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "我叫做久远——请多指教",
 			typewriter = {
 				speed = 0.05,

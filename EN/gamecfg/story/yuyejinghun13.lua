@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Serious GM",
-			nameColor = "#A9F548FF",
-			bgm = "qe-ova-15",
 			actorName = "Enterprise",
+			bgm = "qe-ova-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As soon as you enter the dining room, your old habit kicks in, making you inspect your surroundings.",
 			typewriter = {
@@ -281,9 +281,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Essex",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Y-you want to use a gun? Why? You could take your time picking the lock...",
 			typewriter = {
@@ -296,9 +296,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Essex",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You opt to go with the bobby pin regardless, shocked by your horrific impulsive thought that briefly surfaced.",
 			typewriter = {
@@ -321,28 +321,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Looking at the map, the dining room is flanked by the kitchen on one side and the banquet hall on the other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			say = "*creeeak*",
@@ -403,9 +403,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Oh. Sorry if I spooked you. I thought the dining room would be empty at this hour...",
 			typewriter = {
@@ -432,9 +432,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Wait, is that... Is that you, Morgan?",
 			typewriter = {
@@ -443,11 +443,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Oh, my old friend Morgan... You've finally come back...",
@@ -487,9 +487,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "M-my mistake... Lord Manjuu, you've returned?",
 			typewriter = {
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "No, you're not him either! You're that investigator São Martinho told me about, right?",
@@ -516,9 +516,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "I've had a lot to do lately, so I often get people mistaken. Sorry.",
 			typewriter = {
@@ -527,11 +527,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Let me introduce myself. I'm a maid at this... No, excuse me, I'm the chef at the moment.",
@@ -581,9 +581,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "It really isn't... My workload has exploded since many of our staff quit all at once.",
 			typewriter = {
@@ -592,11 +592,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Say, do you mind if I start cleaning here? If it'd disturb you, I can come back later.",
@@ -628,13 +628,13 @@ return {
 			}
 		},
 		{
-			actorName = "Adventure Galley",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Huh? About her?",
 			typewriter = {
@@ -647,9 +647,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The chef repeats your question and seems hesitant to actually answer it.",
 			typewriter = {
@@ -662,9 +662,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Roll a D100... 68. Failure. Her face flashes a look of unease, but it's back to normal in just a moment.",
 			typewriter = {
@@ -673,13 +673,13 @@ return {
 			}
 		},
 		{
-			actorName = "Adventure Galley",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "I don't know very much about her. Sorry I can't be of assistance.",
 			typewriter = {
@@ -705,9 +705,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "The banquet hall? It's right next to the dining room.",
 			typewriter = {
@@ -728,11 +728,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Oh, yes. They used to be two connected rooms, but it was split in two after the owners stopped getting guests.",
@@ -758,9 +758,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Yeah. Lord Manjuu's late wife liked a lively mood, and complained how the dining room was too large for it to feel homely.",
 			typewriter = {
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "So, he hired a tradesman and rebuilt a little. The wall over there is actually just made of wooden boards.",
@@ -787,9 +787,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "You could easily remove it if you opened the padlock on it.",
 			typewriter = {
@@ -798,11 +798,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "All you need is the key, which I can give you if you get São Martinho's permission.",
@@ -842,9 +842,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Oh, f-forgive me! It's just... You remind me so much of an old friend of mine... Morgan, Golden Hind's betrothed.",
 			typewriter = {
@@ -853,11 +853,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "(whisper) It's because you're both so good-looking...",

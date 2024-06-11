@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANBINFENYE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANBINFENYE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항 패션 컬렉션: 현란한 밤\n\n<size=45>4 오늘의 별자리 운세는?</size>",
@@ -49,11 +49,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아름다운 밤하늘이 보이는 가게에서 손짓하는 컨스텔레이션이 눈에 들어왔다.",
@@ -75,9 +75,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			bgName = "star_level_bg_145",
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -91,17 +91,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런가… 그래도 지휘관, 여기서 보는 밤하늘도 꽤 괜찮아.",
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "봐, 별들이 너무 가깝게 느껴져서 손만 뻗으면 은하를 껴안을 수 있을 것만 같아……",
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇게 말하며 컨스텔레이션은 머리 위에 떠 있는 별을 향해 손을 뻗었다.",
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "별 이야기를 할 때면 그녀, 컨스텔레이션은 늘 흥분해서 말수가 많아진다.",
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응, 로맨틱한 신기술이지.",
@@ -403,11 +403,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "여기 있어. 지휘관, 주문은 뭐로 할래?",
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
-			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			bgName = "star_level_bg_145",
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "오래 기다렸지? 지휘관이 주문한 음료수랑…",
@@ -438,17 +438,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

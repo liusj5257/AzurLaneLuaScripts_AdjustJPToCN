@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Another Leader?\n\n<size=45>Chapter 1 - An Unexpected Savior</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "Port - ???",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "story-2",
+			say = "Port - ???",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "As I opened my eyes, an unfamiliar scenery slowly began to spread before me...",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "An ornate, imposing ceiling. A somewhat nostalgic fragrance. The opulence was reminiscent of the heart of the Royal Family...",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "(This voice... Duke of York...?)",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "(By the looks of things, I was taken to her room...?)",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "(She seemed to be serious, but what did she mean by \"my line of work?\" Had I done something wrong...?)",
 			typewriter = {
 				speed = 0.05,
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "(Not Wales, but \"that\" woman...? She can't be talking about...)",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
 			stopbgm = true,
 			dir = 1,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "The voice that echoed across the halls belonged to that of the newly-appointed secretary, King George V.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "The voice that echoed across the halls belonged to that of the newly-appointed secretary, King George V.",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "The thick aroma of Duke of York's incense, coiling around my senses like shackles, robbed me of my defenses as it pulled me deeper into a sweet darkness... Until suddenly, my savior cut through it in a flash of light.",
 			typewriter = {
 				speed = 0.05,
@@ -284,9 +284,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "The normally imperturbable Duke of York seemed at a loss.",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "Hmph. You can't hide anything from me, dear sister.",
 			typewriter = {
@@ -331,11 +331,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "With that, King George V swooped over and–",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "Commander, hang on tight.",
 			typewriter = {
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "... picked me up in a bridal carry, all the way back to the office.",
 			typewriter = {
 				speed = 0.05,

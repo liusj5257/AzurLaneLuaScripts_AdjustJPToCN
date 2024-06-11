@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Red Spider Lily's Love\n\n<size=45>Chapter 6 - Confession in The Dark</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "All you had to do was listen to Akagi... It's not a good idea to make Akagi sad...",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "All you had to do was listen to Akagi... It's not a good idea to make Akagi sad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Akagi crept closer to me as she spoke. Then...",
 			typewriter = {
@@ -76,13 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "... Wha...!?",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			actor = 0,
+			nameColor = "#a9f548",
+			say = "... Wha...!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Akagi put my bleeding finger into her mouth.",
 			typewriter = {
@@ -103,15 +103,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "I would never, ever hurt you, Commander. Even if you made an enemy of me, I wouldn't.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The tip of my finger felt vaguely chilly.",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "No matter how many times I've heard her say that many times before, I could feel the seriousness in her tone.",
 			typewriter = {
@@ -230,14 +230,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 0,
-			optionFlag = 1,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "......",
 			withoutPainting = true,
+			side = 0,
+			blackBg = true,
+			dir = 1,
+			optionFlag = 1,
+			actor = 0,
+			nameColor = "#a9f548",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,12 +248,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "You mean... you'll depend on me, and I'll depend on you...",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(Nod)",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Akagi held me tight.",
 			typewriter = {

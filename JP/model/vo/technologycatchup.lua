@@ -3,7 +3,7 @@ slot0.STATE_UNSELECT = 1
 slot0.STATE_CATCHUPING = 2
 slot0.STATE_FINISHED_ALL = 3
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.version
 	slot0.configId = slot0.id
 	slot0.ssrNum = slot1.number or 0
@@ -16,11 +16,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0:updateState()
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.technology_catchup_template
 end
 
-function slot0.isUr(slot0, slot1)
+slot0.isUr = function(slot0, slot1)
 	slot5 = "ur_char"
 
 	for slot5, slot6 in ipairs(slot0:getConfig(slot5)) do
@@ -32,7 +32,7 @@ function slot0.isUr(slot0, slot1)
 	return false
 end
 
-function slot0.bulidTargetNums(slot0)
+slot0.bulidTargetNums = function(slot0)
 	slot0.targetNums = {}
 	slot4 = "char_choice"
 
@@ -53,11 +53,11 @@ function slot0.bulidTargetNums(slot0)
 	end
 end
 
-function slot0.getTargetNum(slot0, slot1)
+slot0.getTargetNum = function(slot0, slot1)
 	return slot0.targetNums[slot1]
 end
 
-function slot0.addTargetNum(slot0, slot1, slot2)
+slot0.addTargetNum = function(slot0, slot1, slot2)
 	if slot0:isUr(slot1) then
 		slot0.targetNums[slot1] = slot0.targetNums[slot1] + slot2
 	else
@@ -73,7 +73,7 @@ function slot0.addTargetNum(slot0, slot1, slot2)
 	slot0:updateState()
 end
 
-function slot0.isFinish(slot0, slot1)
+slot0.isFinish = function(slot0, slot1)
 	if slot0:isUr(slot1) then
 		return slot0:getConfig("obtain_max_per_ur") <= slot0.targetNums[slot1]
 	else
@@ -81,7 +81,7 @@ function slot0.isFinish(slot0, slot1)
 	end
 end
 
-function slot0.isFinishSSR(slot0)
+slot0.isFinishSSR = function(slot0)
 	slot1 = true
 	slot5 = "char_choice"
 
@@ -94,7 +94,7 @@ function slot0.isFinishSSR(slot0)
 	return slot1
 end
 
-function slot0.isFinishAll(slot0)
+slot0.isFinishAll = function(slot0)
 	slot1 = true
 	slot5 = "char_choice"
 
@@ -107,7 +107,7 @@ function slot0.isFinishAll(slot0)
 	return slot1
 end
 
-function slot0.updateState(slot0)
+slot0.updateState = function(slot0)
 	slot1 = getProxy(TechnologyProxy).curCatchupGroupID
 
 	if slot0:isFinishAll() then
@@ -119,7 +119,7 @@ function slot0.updateState(slot0)
 	end
 end
 
-function slot0.getState(slot0)
+slot0.getState = function(slot0)
 	return slot0.state
 end
 

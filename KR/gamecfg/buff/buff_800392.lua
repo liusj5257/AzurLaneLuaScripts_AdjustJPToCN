@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "造成炮击伤害调整,初始60%",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = -0.4,
+				attr = "damageRatioBullet",
 				index = {
 					1
 				}

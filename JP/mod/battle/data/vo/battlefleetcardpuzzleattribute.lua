@@ -14,19 +14,19 @@ slot11 = class("BattleFleetCardPuzzleAttribute")
 slot0.Battle.BattleFleetCardPuzzleAttribute = slot11
 slot11.__name = "BattleFleetCardPuzzleAttribute"
 
-function slot11.Ctor(slot0, slot1)
+slot11.Ctor = function(slot0, slot1)
 	slot0:init()
 
 	slot0._client = slot1
 end
 
-function slot11.init(slot0)
+slot11.init = function(slot0)
 	slot0._buffAttr = {}
 	slot0._attrList = {}
 	slot0._clampList = {}
 end
 
-function slot11.AddBaseAttr(slot0, slot1, slot2)
+slot11.AddBaseAttr = function(slot0, slot1, slot2)
 	slot0._attrList[slot1] = math.max(0, slot2 + (slot0._attrList[slot1] or 0))
 	slot0._attrList[slot1] = slot0:checkClamp(slot1)
 
@@ -34,7 +34,7 @@ function slot11.AddBaseAttr(slot0, slot1, slot2)
 	slot0:specificAttrUpdate(slot1)
 end
 
-function slot11.SetAttr(slot0, slot1, slot2)
+slot11.SetAttr = function(slot0, slot1, slot2)
 	slot0._attrList[slot1] = slot2
 	slot0._attrList[slot1] = slot0:checkClamp(slot1)
 
@@ -42,13 +42,13 @@ function slot11.SetAttr(slot0, slot1, slot2)
 	slot0:specificAttrUpdate(slot1)
 end
 
-function slot11.specificAttrUpdate(slot0, slot1)
+slot11.specificAttrUpdate = function(slot0, slot1)
 	if slot1 == "BaseEnergyBoostRate" or slot1 == "BaseEnergyBoostExtra" then
 		slot0._client:FlushHandOverheat()
 	end
 end
 
-function slot11.checkClamp(slot0, slot1)
+slot11.checkClamp = function(slot0, slot1)
 	if slot0._attrList[slot1] == nil then
 		return
 	end
@@ -66,6 +66,6 @@ function slot11.checkClamp(slot0, slot1)
 	return slot2
 end
 
-function slot11.GetCurrent(slot0, slot1)
+slot11.GetCurrent = function(slot0, slot1)
 	return slot0._attrList[slot1] or 0
 end

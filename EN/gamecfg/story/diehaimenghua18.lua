@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA18",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"...A Mirror Sea...\"",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "Ohh, so that's what you mean by Mirror Sea, huh?",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(...This \"enemy\"... Is it not the Sirens?)",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Then... who is this \"Antiochus?\" Could it be...)",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "Damn... I've completely lost contact with the Eagle Union fleet.",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"...We still haven't even reached... the enemy's main fleet...\"",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 302130,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#a9f548",
 			say = "Seems like it. We've been fighting off their recon forces, but their main fleet is still further ahead.",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 302130,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#a9f548",
 			say = "But you'd never know it based upon how big these fleets are...",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "...As long we keep things under control, we won't burn out.",
 			dialogShake = {
@@ -273,8 +273,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"...Indeed. Those who burn out will become but embers and ash...\"",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "...No. We will not. Even if we burn out, we must continue to protect the light of humanity.",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "Takao...",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "Be it through the flames of my cannon or the light of hope, I shall illuminate the darkness! Even if I burn through my life, I refuse to become dying embers in the wind!",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Ember... and Ash...?)",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(...Could this dream be... of their creation...?)",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "Lady Shinano, I'm entrusting you with activating our \"trump card\" when the time comes.",
 			typewriter = {
@@ -392,9 +392,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"......Very well.\"",
 			typewriter = {

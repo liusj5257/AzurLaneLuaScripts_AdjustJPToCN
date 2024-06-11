@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"눈 녹는 날의 초대\n\n<size=45>4 아이리스 꽃의 안내</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "설원 속의 맑은 샘, 뜨거운 수증기가 허공을 맴돌며 바스락바스락대는 소리가 들리는 것 같다.",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "설원 속의 맑은 샘, 뜨거운 수증기가 허공을 맴돌며 바스락바스락대는 소리가 들리는 것 같다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			say = "가까이 가자, 소녀의 익숙한 기도 소리가 귓가에 들린다──",
 			typewriter = {
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "방금 분명 지휘관의 시선을 느꼈습니다만…… 설마 착각이란 건가요?",
 			painting = {
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "……아이리스 꽃이라, 길에 심어져 있던가요…….",
 			painting = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "만약 겨울날 온천의 아름답고 따스한 힐링을 즐기러 오신 거라면, 저와 함께……",
 			painting = {
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "착각일지도 모르겠지만, 조프르의 얼굴에 살짝 붉은 기가 감도는 것 같은데?",
 			painting = {
@@ -300,17 +300,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "이 온천으로, 심신이 조금 치유되셨을까요?",
 			painting = {
@@ -335,12 +335,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "따듯하고 편안한 감각이 온몸을 감돌고, 마치 체내의 피로가 싹 쓸려나가는 기분이다.",
 			painting = {
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "그리고, 입욕 후의 안마…… 제가 도울 수 있게 해주세요. 혈액 순환 촉진에 큰 도움이 됩니다.",
 			painting = {

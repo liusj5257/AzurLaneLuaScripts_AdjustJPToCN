@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"桜流しの日のあとで\n\n<size=45>五  笑顔でいてね</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "次の日。さっそく空き地に向かってみると、ちょうど儀式が始まるところだった。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "次の日。さっそく空き地に向かってみると、ちょうど儀式が始まるところだった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 301570,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301570,
+			nameColor = "#a9f548",
 			say = "よ、宵月～……どうしよう、わからなくなっちゃったよぉ……",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "結局、その後は宵月に言われた通りにたどたどしく儀式を遂行する春月であった。",
@@ -220,15 +220,15 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "二人ともお疲れ様。お茶を用意したからゆっくり休んでください",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 301570,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301570,
+			nameColor = "#a9f548",
 			say = "……あ、茶柱！！",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 301570,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301570,
+			nameColor = "#a9f548",
 			say = "カミサマ……ありがとうございます！！",
 			typewriter = {
 				speed = 0.05,
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "喜んで去っていく春月を見送ったあとで、扶桑はこちらに振り返った。",
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "扶桑は心からそう思っている。表情でそれが伝わってくるのがはっきりとわかった",
@@ -511,12 +511,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
-			soundeffect = "event:/ui/dalei",
-			dir = 1,
 			say = "扶桑がそう口にしたその時、ごろごろと空から雷鳴の音が鳴り響いているのが聞こえてきた。",
+			dir = 1,
+			soundeffect = "event:/ui/dalei",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,8 +527,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			stopbgm = true,
-			actorName = "{namecode:182}",
 			dir = 1,
 			blackBg = true,
+			actorName = "{namecode:182}",
 			say = "(I can hear the sound of the waves... But the ocean...)",
 			flashin = {
 				delay = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -65,14 +65,14 @@ return {
 			}
 		},
 		{
-			actor = 302210,
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Shinano, we're about to assemble.",
 			bgm = "bsm-3",
+			actor = 302210,
+			nameColor = "#a9f548",
+			say = "Shinano, we're about to assemble.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Woah, is that the entire fleet that's going to participate in this operation?",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Well, we've been fighting all the way here. It'd be weirder if she wasn't a bit tired after all that.",
 			typewriter = {
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "Yeah, don't worry 'bout it! Things will turn around after this battle, so let's give it one last push!",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"Your rigging is damaged... Can it not be repaired anymore...?\"",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "That's the way it is. We're out of materials, so there's nothing we can do about it.",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "I've given it some elbow grease, but I'll just have to make do.",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
+			nameColor = "#a9f548",
 			say = "(...Their rigging is worn, weathered. As if they haven't been repaired for ages... Just what is going on...?)",
 			typewriter = {
 				speed = 0.05,

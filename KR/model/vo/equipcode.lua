@@ -1,6 +1,6 @@
 slot0 = class("EquipCode", import(".BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.shipGroupId = slot1.shipGroupId
 	slot0.str = slot1.eqcode
@@ -15,15 +15,15 @@ function slot0.Ctor(slot0, slot1)
 	}
 end
 
-function slot0.IsValid(slot0)
+slot0.IsValid = function(slot0)
 	return slot0.valid
 end
 
-function slot0.GetLabels(slot0)
+slot0.GetLabels = function(slot0)
 	return slot0.tags
 end
 
-function slot0.MarkLike(slot0)
+slot0.MarkLike = function(slot0)
 	slot0.afterLike = true
 end
 

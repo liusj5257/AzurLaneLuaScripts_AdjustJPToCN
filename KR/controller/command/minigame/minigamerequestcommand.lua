@@ -1,7 +1,7 @@
 slot0 = class("MiniGameRequestCommand", pm.SimpleCommand)
 slot0.REQUEST_HUB_DATA = 1
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
 	slot5 = pg.ConnectionMgr.GetInstance()

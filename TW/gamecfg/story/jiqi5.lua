@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIQI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIQI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"才不是小孩子！\n\n<size=45>五 故事！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,8 +65,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "怎麼樣，指揮官？我果然非常能幹吧！",
 			typewriter = {
@@ -79,9 +79,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "和棘鰭一起完成了今天的工作。",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "今天鰷魚和大青花魚都沒找我，其他的潛艇們好像也都有安排。",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "唔唔唔……難道要在這裡坐著過一個下午嗎……",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "有點小孩子氣的要求，不過作為打發時間的手段似乎也不錯。",
 			typewriter = {
 				speed = 0.05,
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "講什麼故事好呢？",
 			typewriter = {
@@ -216,15 +216,15 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_story_task",
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,9 +252,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "為什麼拯救世界就一定要犧牲掉主人公啊！",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 35,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,9 +280,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "就沒有既救了世界又不用犧牲自己的方法嗎？這樣的結局我絕對不認同！",
 			typewriter = {
@@ -310,16 +310,16 @@ return {
 			}
 		},
 		{
-			actor = 108030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -347,9 +347,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "不是，為什麼國王為了一個女人願意放棄自己的王位？",
 			typewriter = {
@@ -365,9 +365,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "他難道是笨蛋嗎？",
 			typewriter = {
@@ -395,16 +395,16 @@ return {
 			}
 		},
 		{
-			actor = 108030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "Zzz……Zzz……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -432,9 +432,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "欸？結，結束了嗎？",
 			typewriter = {
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -460,9 +460,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "我，我睡著了嗎？非，非常抱歉！",
 			typewriter = {
@@ -475,9 +475,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "嗯……這個故事似乎對棘鰭沒什麼吸引力",
 			typewriter = {
 				speed = 0.05,
@@ -507,14 +507,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "哼哼，我的故事肯定比指揮官的精彩一百倍！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -539,9 +539,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "棘鰭把自己記憶中的經歷講了一遍",
 			typewriter = {
 				speed = 0.05,
@@ -556,8 +556,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "怎麼樣，是不是很厲害！我的經歷可是獨一無二的！",
 			typewriter = {
@@ -579,8 +579,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "啊，真是的，指揮官又把我當成小孩子了！",
 			typewriter = {
@@ -593,8 +593,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

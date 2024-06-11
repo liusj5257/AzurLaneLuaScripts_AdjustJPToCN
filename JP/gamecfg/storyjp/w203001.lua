@@ -1,12 +1,12 @@
 return {
-	id = "W203001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W203001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エリアでのイベントが全て完了しました。次のエリアに移動します",
 			typewriter = {
 				speed = 0.05,

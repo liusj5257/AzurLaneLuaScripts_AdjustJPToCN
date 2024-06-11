@@ -7,8 +7,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.1,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -21,8 +21,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.111,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -49,8 +49,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.122,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -77,8 +77,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.133,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -105,8 +105,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.144,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -147,8 +147,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.155,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -161,8 +161,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.166,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -189,8 +189,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -203,8 +203,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.177,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -217,8 +217,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -231,8 +231,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.188,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -245,8 +245,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -259,8 +259,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
 					number = 0.2,
+					attr = "damageToArmorRateEnhance_3",
 					index = {
 						2
 					}
@@ -273,15 +273,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,

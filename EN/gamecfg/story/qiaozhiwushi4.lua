@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Another Leader?\n\n<size=45>Chapter 4 - The Knight Commander's Leadership</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
+			blackBg = true,
 			side = 2,
 			dir = 1,
-			blackBg = true,
+			bgmDelay = 2,
 			say = "When I talk to King George V, I sometimes feel like she is the de facto leader of the Royal Navy.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,12 +45,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "During a sortie...",
 			dir = 1,
 			bgm = "battle-1",
+			nameColor = "#a9f548",
+			say = "During a sortie...",
 			effects = {
 				{
 					active = true,
@@ -86,8 +86,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "Stay calm! Make no mistakes. I shall ensure both victory and the safety of all my comrades!",
 			typewriter = {
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Even on the battlefield, she often leads the forces of the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
@@ -114,15 +114,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Harbor Entrance",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "Port - Harbor Entrance",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "Let's get this shipment over to Warehouse #3.",
 			typewriter = {
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "She even takes care of many of the responsibilities normally handled by Queen Elizabeth...",
 			typewriter = {
 				speed = 0.05,
@@ -194,13 +194,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "Port - Main Plaza",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -260,8 +260,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "If there's something on your mind, let's hear it. Maybe I might be able to help.",
 			typewriter = {
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Even during her leisure time, she still helps others work out their problems or conflicts.",
 			typewriter = {
 				speed = 0.05,
@@ -304,13 +304,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Port - Royal Navy Dorms",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "While dining with some members of the Royal Navy, I candidly offered my observations from the last few days to Hood.",
 			typewriter = {
 				speed = 0.05,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "Perhaps she should be more aware of her boundaries. What say you, George?",
 			typewriter = {
 				speed = 0.05,
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "No, Commander, thank you for being frank with your observations. If those were the conclusions you made, then we indeed have a problem.",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "I see... That may not have been my intention at all, but if the Commander made that observation, then surely others must have as well.",
 			typewriter = {

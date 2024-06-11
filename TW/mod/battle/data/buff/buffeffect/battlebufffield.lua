@@ -5,11 +5,11 @@ slot0.Battle.BattleBuffField = slot1
 slot1.__name = "BattleBuffField"
 slot2 = slot0.Battle.BattleConst
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._level = slot2:GetLv()
 	slot0._caster = slot2:GetCaster()
 	slot3 = slot0._tempData.arg_list
@@ -23,7 +23,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 		slot4 = false
 	end
 
-	function slot7(slot0)
+	slot7 = function(slot0)
 		if slot0.Active then
 			slot5 = uv0._tempData.arg_list
 
@@ -56,7 +56,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	end, slot7, slot4, nil, slot0._isUpdateAura and slot7 or nil, slot0._isUpdateAura and true or false)
 end
 
-function slot1.Clear(slot0)
+slot1.Clear = function(slot0)
 	slot0._aura:SetActiveFlag(false)
 
 	slot0._aura = nil

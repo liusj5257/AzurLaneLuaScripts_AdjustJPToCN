@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bsm-3",
 			dir = 1,
 			say = "ビスマルクに命中弾確認！…って、速力全然落としていないじゃない！",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "（……しかし、あの損傷で連戦してなお速力を維持できているとは、恐ろしい戦闘力だ）",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "（どんな手を使っても、あのスピードを落とさなければ…！）",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "ふむ、ロイヤルネイビーの主力艦が総出したってことか",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "王家の栄光にかけて――ビスマルクを捕捉し、撃破する！",
 			typewriter = {
 				speed = 0.05,

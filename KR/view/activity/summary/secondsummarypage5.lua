@@ -1,6 +1,6 @@
 slot0 = class("SecondSummaryPage5", import(".SummaryAnimationPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setText(slot0._tf:Find("window_share_1/name"), slot0.summaryInfoVO.name)
 	setText(slot0._tf:Find("window_share_1/time/Text"), "「" .. slot0.summaryInfoVO.registerTime .. "」")
 	setText(slot0._tf:Find("window_share_1/day/Text"), slot0.summaryInfoVO.days)

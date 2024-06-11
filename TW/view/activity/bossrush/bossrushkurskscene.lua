@@ -5,30 +5,30 @@ slot0.DISPLAY = {
 	BATTLE = 1
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BossRushKurskUI"
 end
 
-function slot0.GetAtalsName(slot0)
+slot0.GetAtalsName = function(slot0)
 	return "ui/BossRushKurskUI_atlas"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	existCall(slot1)
 	slot0.loader:LoadBundle(slot0:GetAtalsName())
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.top = slot0._tf:Find("Top")
 	slot0.map = slot0._tf:Find("Map")
 	slot0.seriesNodes = _.map(_.range(slot0._tf:Find("Battle/Nodes").childCount), function (slot0)
@@ -74,16 +74,16 @@ function slot0.init(slot0)
 	setText(slot0._tf:Find("Story/PassLevel/PT/Tips"), i18n("series_enemy_storyunlock"))
 end
 
-function slot0.SetActivity(slot0, slot1)
+slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.SetPtActivity(slot0, slot1)
+slot0.SetPtActivity = function(slot0, slot1)
 	slot0.ptActivity = slot1
 	slot0.ptData = ActivityPtData.New(slot0.ptActivity)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.top:Find("back_btn"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -130,7 +130,7 @@ function slot0.didEnter(slot0)
 	slot0:SetDisplayMode(slot0.contextData.displayMode or BossRushKurskScene.DISPLAY.BATTLE)
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	if not pg.voice_bgm[slot0.__cname] then
 		return nil
 	end
@@ -145,7 +145,7 @@ function slot0.getBGM(slot0)
 	end
 end
 
-function slot0.SetDisplayMode(slot0, slot1)
+slot0.SetDisplayMode = function(slot0, slot1)
 	if slot1 == slot0.contextData.displayMode then
 		return
 	end
@@ -156,7 +156,7 @@ function slot0.SetDisplayMode(slot0, slot1)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
 
 	setActive(slot0._tf:Find("Battle"), slot1)
@@ -218,7 +218,7 @@ function slot0.UpdateView(slot0)
 	})
 end
 
-function slot0.UpdateBattle(slot0)
+slot0.UpdateBattle = function(slot0)
 	slot2 = slot0.activity:GetActiveSeriesIds()
 
 	table.Foreach(slot0.seriesNodes, function (slot0, slot1)
@@ -277,7 +277,7 @@ slot2 = {
 	"story_bar_purple"
 }
 
-function slot0.UpdateStory(slot0)
+slot0.UpdateStory = function(slot0)
 	slot1 = {}
 	slot2 = pg.NewStoryMgr.GetInstance()
 	slot3 = 1
@@ -409,7 +409,7 @@ function slot0.UpdateStory(slot0)
 	setActive(slot0._tf:Find("Battle/Story/New"), slot11)
 end
 
-function slot0.ReturnLinks(slot0, slot1)
+slot0.ReturnLinks = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.links) do
 		if not slot0.plural:Enqueue(slot6, slot1) then
 			setParent(slot6, slot0.pluralRoot)
@@ -419,7 +419,7 @@ function slot0.ReturnLinks(slot0, slot1)
 	table.clean(slot0.links)
 end
 
-function slot0.PlayStory(slot0, slot1, slot2)
+slot0.PlayStory = function(slot0, slot1, slot2)
 	if not slot1 then
 		return existCall(slot2)
 	end
@@ -445,7 +445,7 @@ function slot0.PlayStory(slot0, slot1, slot2)
 	})
 end
 
-function slot0.UpdateTasks(slot0, slot1)
+slot0.UpdateTasks = function(slot0, slot1)
 	if _.any(slot1, function (slot0)
 		return uv0.storyTask and uv0.storyTask.id == slot0
 	end) then
@@ -455,7 +455,7 @@ function slot0.UpdateTasks(slot0, slot1)
 	end
 end
 
-function slot0.addbubbleMsgBoxList(slot0, slot1)
+slot0.addbubbleMsgBoxList = function(slot0, slot1)
 	table.insertto(slot0.ActionSequence, slot1)
 
 	if not (#slot0.ActionSequence == 0) then
@@ -465,7 +465,7 @@ function slot0.addbubbleMsgBoxList(slot0, slot1)
 	slot0:resumeBubble()
 end
 
-function slot0.addbubbleMsgBox(slot0, slot1)
+slot0.addbubbleMsgBox = function(slot0, slot1)
 	table.insert(slot0.ActionSequence, slot1)
 
 	if not (#slot0.ActionSequence == 0) then
@@ -475,7 +475,7 @@ function slot0.addbubbleMsgBox(slot0, slot1)
 	slot0:resumeBubble()
 end
 
-function slot0.resumeBubble(slot0)
+slot0.resumeBubble = function(slot0)
 	if #slot0.ActionSequence == 0 then
 		return
 	end
@@ -492,11 +492,11 @@ function slot0.resumeBubble(slot0)
 	end)()
 end
 
-function slot0.CleanBubbleMsgbox(slot0)
+slot0.CleanBubbleMsgbox = function(slot0)
 	table.clean(slot0.ActionSequence)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:ReturnLinks(true)
 	slot0.loader:Clear()
 	uv0.super.willExit(slot0)

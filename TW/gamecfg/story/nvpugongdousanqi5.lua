@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NVPUGONGDOUSANQI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NVPUGONGDOUSANQI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戰鬥！皇家女僕隊3rd？\n\n<size=45>五 夕陽的晚宴</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "就這樣，演習結束了————",
 			bgm = "story-richang",
+			say = "就這樣，演習結束了————",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "本次航空演習加深了皇家、白鷹與薩丁帝國之間的交流，所有參與者都在相互交流中獲得了技能的提升，是一次十分富有意義的活動————",
 			typewriter = {
@@ -55,14 +55,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "哈？！等等，最關鍵的演習結果呢？！哪邊贏了哪邊輸了？",
 			hidePaintEquip = true,
+			actor = 205010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "哈？！等等，最關鍵的演習結果呢？！哪邊贏了哪邊輸了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -93,14 +93,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "原來如此，是這樣嗎，我完全理解了…………個鬼啊！",
 			hidePaintEquip = true,
+			actor = 205010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "原來如此，是這樣嗎，我完全理解了…………個鬼啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,14 +111,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "妳這說了跟沒說有區別嗎！",
 			hidePaintEquip = true,
+			actor = 205010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "妳這說了跟沒說有區別嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "在之前的演習安排階段，妳還特意不讓我參與指揮，就這麼在意輸贏嗎？",
 			typewriter = {
@@ -149,14 +149,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "倒也沒有那麼在意……大家都玩得很開心，也不能說本王沒達到目的……",
 			hidePaintEquip = true,
+			actor = 205010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "倒也沒有那麼在意……大家都玩得很開心，也不能說本王沒達到目的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "沒錯，重要的不是結果，而是過程——",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "（敲門聲）————",
 			typewriter = {
@@ -206,14 +206,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 205010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "無妨，本王跟指揮官已經談完了。妳有事就說吧。",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,14 +224,14 @@ return {
 			}
 		},
 		{
-			actor = 206070,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "遵命，陛下。指揮官，這裡是上次演習作戰的報告書，請您過目。",
 			hidePaintEquip = true,
+			actor = 206070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "遵命，陛下。指揮官，這裡是上次演習作戰的報告書，請您過目。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "接過阿爾比恩的報告書——",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "從遠超常規報告書的厚度上而言，阿爾比恩應該寫了相當多的總結和反思在裡面……",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "呃，還有這件事嗎……",
 			typewriter = {
@@ -291,14 +291,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "放心吧，阿爾比恩，我會把過度沉迷工作的指揮官抓去會場的。",
 			hidePaintEquip = true,
+			actor = 205010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "放心吧，阿爾比恩，我會把過度沉迷工作的指揮官抓去會場的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,14 +328,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……等等，還是妳留在這裡陪指揮官，本王親自去監督宴會的準備情況吧。",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,14 +346,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "只要記得及時把指揮官抓去會場，在這之前的時間……就這樣在指揮室中好好休息一下如何？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,14 +364,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 206070,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……只要不會打擾到指揮官工作的話。",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,14 +382,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "放心吧——你也沒有意見吧，指揮官？",
 			hidePaintEquip = true,
+			actor = 205010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "放心吧——你也沒有意見吧，指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1

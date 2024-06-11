@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA36",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH基地",
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-richang",
+			say = "PH基地",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,10 +35,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "これと、これと、これ……",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "基地の資料室で、サラトガが頭を抱えていた。",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "その周りには資料の紙がいくつも積まれており、彼女の苦戦を物語っているが……。",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "結果が出ないのは仕方がない。鉄血の動向は常に謎に包まれており、上層部の情報操作が行われれば状況の把握は極めて困難だ。",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "特異点の出現、そして艦隊行動、奇しくも鞍山たちの調査作戦と同時に出現した現象から導き出される結論は――",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "しかし、判断するための材料が圧倒的に不足している。",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "もしくは、南極にある基地で当時の観測資料を直接問い合わせるのも良さそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -299,10 +299,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…ん？北方連合より指揮官への連絡あり…？",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,10 +419,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "しかもこの内容！指揮官、これがNYシティの上層部に知られたら、大変なことになるかもよ！",
 			typewriter = {
 				speed = 0.05,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			bgm = "bgm-cccp3",
 			mode = 1,
+			bgm = "bgm-cccp3",
 			sequence = {
 				{
 					"<size=51>「「親愛なる同志指揮官」」</size>",

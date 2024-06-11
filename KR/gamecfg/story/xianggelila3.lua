@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"기행의 사프란\n\n<size=45>3 궁합이…찰떡?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "연습 해역에서……",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "연습 해역에서……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "에식스와 샹그릴라의 특훈이 시작되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "그렇군요. 얼마 전 특별 훈련 자료 등에 따르면……",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그렇군요. 얼마 전 특별 훈련 자료 등에 따르면……",
+			actor = 107380,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,8 +119,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "아군과 연계해서 직접 싸우지 않고 집단 전투로 가져가면, 어쩌면 승기를 잡을 수 있을지도 몰라요.",
 			typewriter = {
@@ -149,15 +149,15 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			say = "과연…… 이때는 공격대를 이렇게 나눠서……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "좋아! 이걸로 될 것 같…… 응?",
 			typewriter = {
@@ -215,9 +215,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "그때……",
 			typewriter = {
 				speed = 0.05,
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "이봐~.",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			say = "호, 호넷 선배?!",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,8 +284,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "호넷 씨, 갑자기 놀라게 하지 말아주세요.",
 			typewriter = {
@@ -346,15 +346,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "흠흠…… 확실히 재미있는 전술이기는 하지만, 왠지 경험론에 너무 의지하는 것 같기도 하네……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -382,10 +382,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "경험을 기초 삼아 이론이 완성되는 법이죠. 엔터프라이즈 선배의 실력도 수많은 전훈으로 인한 것 아닌가요?",
+			dir = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -419,8 +419,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "……이대로는 서로 양보가 없을 것 같고, 어느 쪽의 의견이 옳은지 모의전으로 정하면 어떨까요?",
 			typewriter = {

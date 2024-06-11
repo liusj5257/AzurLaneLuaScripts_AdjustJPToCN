@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_47 = {}
 slot1 = slot0.word_template_47
 
-function temp()
+temp = function()
 	uv0["貝"] = {
 		["尤"] = {
 			["爾"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["背"] = {
 		["德"] = {
 			["处"] = {
@@ -82,7 +82,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["倍"] = {
 		["他"] = {
 			["罗"] = {
@@ -96,7 +96,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["被"] = {
 		["保"] = {
 			["安"] = {
@@ -244,7 +244,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鞴"] = {
 		this = {
 			this = true
@@ -254,7 +254,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鐾"] = {
 		this = {
 			this = true
@@ -264,7 +264,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["奔"] = {
 		["驰"] = {
 			["到"] = {

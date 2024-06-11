@@ -43,20 +43,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "擬似空間「？？？」-？？？",
 			bgm = "theme-ucnf-beacon",
+			say = "擬似空間「？？？」-？？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "ホワイトアウトした視界がもとに戻り、コンステレーションの前には氷雪に覆われた白い世界が広がった。",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "水平線…地平線のその先に、金属と氷で構成された、天に届きそうなほどの巨大な構造物が佇んでいる。",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "周りに浮遊する氷塊に飾られたそれは――まさしく「王冠」と呼ぶにふさわしい。",
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "リアリティレンズ接続、正常…異常データの中に無事に入れたみたい",
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -306,11 +306,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
-			bgName = "bg_hms_0",
 			factiontag = "回収解析部",
 			dir = 1,
+			bgName = "bg_hms_0",
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ここの「王冠」は私たちが知っている「王冠」とは違うみたい",
@@ -323,17 +323,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -341,11 +341,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうですね…中にエネルギーが渦巻いていて、まるで「生きている」ように見えます",
@@ -587,11 +587,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "動いて…動いていない……今は動いていないのに、動いている……",
@@ -605,11 +605,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「王冠」は鉄血の「ミッドガルドの塔」と同じく、人工特異点のようなものとかですかね？",
@@ -623,11 +623,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "今「王冠」は動いていませんけど、実は私たちの知らない間に「王冠」は一度起動しているとか…",
@@ -641,11 +641,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "このデータはその時の「王冠」の起動を記録したものだとでもいうの…？",
@@ -754,13 +754,13 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
+			say = "―――――！！！！！",
 			side = 2,
 			bgName = "bg_hms_0",
-			hidePaintObj = true,
+			soundeffect = "event:/battle/boom1",
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			seDelay = 0.5,
-			say = "―――――！！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,8 +772,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "静寂の夜空に爆ぜた轟音は、コンステレーションの推理を中断させた。",
@@ -802,11 +802,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あれは……コンステレーション、見て！黒い竜巻よ…！",
@@ -820,8 +820,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "悪意が形を成した災いが「王冠」の向こうに突如現れた。",
@@ -831,8 +831,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "最初の轟音が収まってまもなく、水天の境界線から黒い壁が立ちはだかった。",
@@ -842,8 +842,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "空を、海を覆う闇雲が急速に広がり、「王冠」の中心部にあるエネルギーの輝きを色褪せさせた。",
@@ -891,27 +891,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_starsea_core_3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_starsea_core_3",
 			say = "一方、「星の海」制御室――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -995,8 +995,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_3",
 			hidePaintObj = true,
 			say = "警報の音が鳴り響き、制御室中が無数のエラー表示によって赤く染まっている。",
@@ -1025,8 +1025,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1206,8 +1206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

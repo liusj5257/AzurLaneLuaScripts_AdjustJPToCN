@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN35",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			say = "사쿠라 엠파이어 근해 어느 곳  수개월 전",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
+			nameColor = "#a9f548",
+			say = "사쿠라 엠파이어 근해 어느 곳  수개월 전",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ffff4d",
 			say = "오이겐, 기분 좋아 보입니다.",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ffff4d",
 			say = "속도가 너무 느립니다. 풀어지는 것은 돌아가고 난 뒤에 하도록 하십시오.",
 			typewriter = {
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#ffff4d",
-			bgName = "bg_xinnong_cg1",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
+			actor = 403030,
 			stopbgm = true,
 			say = "...에?",
 			typewriter = {
@@ -230,16 +230,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 0.5,
+			bgName = "bg_xinnong_cg1",
 			bgm = "theme-longgong",
 			actor = 305080,
 			nameColor = "#a9f548",
 			say = "메탈 블러드 친구들, 잠시만 기다려.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -299,8 +299,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305080,
 			dir = 1,
+			actor = 305080,
 			nameColor = "#a9f548",
 			say = "아니, 누군가의 제안을 전달하려고 왔어.",
 			typewriter = {
@@ -345,12 +345,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "야마토급은 야마토급이 잘 아니까요. 아카기 님이 축제에 여러분을 초대한 이유는 쉽게 짐작할 수 있어요.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "야마토급은 야마토급이 잘 아니까요. 아카기 님이 축제에 여러분을 초대한 이유는 쉽게 짐작할 수 있어요.",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -416,8 +416,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305080,
 			dir = 1,
+			actor = 305080,
 			nameColor = "#a9f548",
 			say = "자, 이쪽 채널에서 기다리고 있어.",
 			typewriter = {
@@ -430,12 +430,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ffff4d",
 			say = "상황이 점점 더 재밌어지네... 좋아, 그럼 이야기를 나눠볼까?",
 			typewriter = {
 				speed = 0.05,

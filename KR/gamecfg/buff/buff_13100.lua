@@ -7,9 +7,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 1500,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -22,9 +22,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13101,
+					time = 10,
 					rant = 4000,
-					time = 10,
-					skill_id = 13101,
 					target = "TargetSelf",
 					index = {
 						1
@@ -41,9 +41,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 1660,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -56,9 +56,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13101,
+					time = 10,
 					rant = 4330,
-					time = 10,
-					skill_id = 13101,
 					target = "TargetSelf",
 					index = {
 						1
@@ -75,9 +75,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 1820,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -90,9 +90,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13101,
+					time = 10,
 					rant = 4660,
-					time = 10,
-					skill_id = 13101,
 					target = "TargetSelf",
 					index = {
 						1
@@ -109,9 +109,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 1980,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -124,9 +124,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13101,
+					time = 10,
 					rant = 4990,
-					time = 10,
-					skill_id = 13101,
 					target = "TargetSelf",
 					index = {
 						1
@@ -143,9 +143,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 2140,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -158,9 +158,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13101,
+					time = 10,
 					rant = 5320,
-					time = 10,
-					skill_id = 13101,
 					target = "TargetSelf",
 					index = {
 						1
@@ -177,9 +177,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 2300,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -192,9 +192,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13101,
+					time = 10,
 					rant = 5650,
-					time = 10,
-					skill_id = 13101,
 					target = "TargetSelf",
 					index = {
 						1
@@ -211,9 +211,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 2460,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -226,9 +226,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13101,
+					time = 10,
 					rant = 5980,
-					time = 10,
-					skill_id = 13101,
 					target = "TargetSelf",
 					index = {
 						1
@@ -245,9 +245,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 2640,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -260,9 +260,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13101,
+					time = 10,
 					rant = 6310,
-					time = 10,
-					skill_id = 13101,
 					target = "TargetSelf",
 					index = {
 						1
@@ -279,9 +279,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
+					skill_id = 13100,
+					time = 5,
 					rant = 2820,
-					time = 5,
-					skill_id = 13100,
 					target = "TargetSelf",
 					index = {
 						1
@@ -294,9 +294,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
-					rant = 6640,
-					time = 10,
 					skill_id = 13101,
+					time = 10,
+					rant = 6640,
 					target = "TargetSelf",
 					index = {
 						1
@@ -313,9 +313,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
-					rant = 3000,
-					time = 5,
 					skill_id = 13100,
+					time = 5,
+					rant = 3000,
 					target = "TargetSelf",
 					index = {
 						1
@@ -328,9 +328,9 @@ return {
 					"onWeaponSteday"
 				},
 				arg_list = {
-					rant = 7000,
-					time = 10,
 					skill_id = 13101,
+					time = 10,
+					rant = 7000,
 					target = "TargetSelf",
 					index = {
 						1
@@ -342,12 +342,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13100,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13100,
+	color = "red",
 	icon = 13100,
 	last_effect = "",
 	effect_list = {
@@ -357,9 +357,9 @@ return {
 				"onWeaponSteday"
 			},
 			arg_list = {
-				rant = 1500,
-				time = 5,
 				skill_id = 13100,
+				time = 5,
+				rant = 1500,
 				target = "TargetSelf",
 				index = {
 					1
@@ -372,9 +372,9 @@ return {
 				"onWeaponSteday"
 			},
 			arg_list = {
-				rant = 4000,
-				time = 10,
 				skill_id = 13101,
+				time = 10,
+				rant = 4000,
 				target = "TargetSelf",
 				index = {
 					1

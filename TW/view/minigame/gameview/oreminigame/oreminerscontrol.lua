@@ -1,6 +1,6 @@
 slot0 = class("OreMinersControl")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.binder = slot1
 	slot0._tf = slot2
 	slot0.tpl = findTF(slot0._tf, "tpl")
@@ -8,7 +8,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.minerList = {}
 
 	eachChild(findTF(slot0._tf, "pos"), function (slot0)
@@ -16,13 +16,13 @@ function slot0.Init(slot0)
 	end)
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	for slot4, slot5 in ipairs(slot0.minerList) do
 		slot5:Reset()
 	end
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.minerList) do
 		slot6:OnTimer(slot1)
 	end

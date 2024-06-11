@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>진실을 향한 노력</size>",
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -59,8 +59,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,15 +84,15 @@ return {
 			}
 		},
 		{
-			say = "정오-항로 호위 함대",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "정오-항로 호위 함대",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 301490,
+			say = "……",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			actor = 301490,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -255,17 +255,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "앗, 너무 그렇게…… 엑, 왜 그래?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "볼 것도 없이 거울 해역이겠지… 사람이 기분 좋을 때만 골라서 온단 말이야! 정말이지… 세이렌은 지각은 해도 오지 않는 법은 없다니까!",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

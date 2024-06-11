@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022毛系活动 B面精神同步实体炮弹跨射",
 	time = 3,
-	color = "yellow",
+	name = "2022毛系活动 B面精神同步实体炮弹跨射",
+	init_effect = "",
+	id = 8919,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8919,
+	color = "yellow",
 	icon = 8919,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8919,
 				time = 1,
 				rant = 10000,
-				skill_id = 8919
+				target = "TargetSelf"
 			}
 		}
 	}

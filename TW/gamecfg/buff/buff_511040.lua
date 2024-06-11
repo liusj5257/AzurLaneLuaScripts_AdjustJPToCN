@@ -1,12 +1,12 @@
 return {
-	time = 5,
-	name = "汲取射线",
 	init_effect = "",
+	name = "汲取射线",
+	time = 5,
+	picture = "",
+	desc = "汲取射线",
 	stack = 1,
 	id = 511040,
-	picture = "",
 	last_effect = "",
-	desc = "汲取射线",
 	effect_list = {
 		{
 			type = "BattleBuffHP",

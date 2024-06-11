@@ -1,6 +1,6 @@
 slot0 = class("CookGameCharController")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._sceneContainer = slot1
 	slot0._scene = findTF(slot0._sceneContainer, "scene")
 	slot0._tpl = findTF(slot1, "scene_background/charTpl")
@@ -99,13 +99,13 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.acCakes = {}
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 	for slot5 = 1, #slot0.chars do
 		slot0.chars[slot5]:changeSpeed(slot1)
 	end
 end
 
-function slot0.onPickupCake(slot0, slot1, slot2, slot3, slot4)
+slot0.onPickupCake = function(slot0, slot1, slot2, slot3, slot4)
 	if slot1:isActiving() then
 		return
 	end
@@ -128,7 +128,7 @@ function slot0.onPickupCake(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	slot0.playerChar:setData(slot0:createCharData(slot0._gameData.playerChar))
 	slot0.partnerChar:setData(slot0:createCharData(slot0._gameData.partnerChar))
 
@@ -157,10 +157,10 @@ function slot0.readyStart(slot0)
 	slot0.sceneTfs = nil
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	for slot5 = 1, #slot0.chars do
 		if slot0.chars[slot5]:getCharActive() then
 			slot8 = slot6:getVelocity()
@@ -305,7 +305,7 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.getTfOffset(slot0, slot1)
+slot0.getTfOffset = function(slot0, slot1)
 	for slot5 = 1, #slot0.chars do
 		if slot0.chars[slot5]:getTf().name == slot1 then
 			return slot0.chars[slot5]:getOffset()
@@ -315,7 +315,7 @@ function slot0.getTfOffset(slot0, slot1)
 	return Vector2(0, 0)
 end
 
-function slot0.getFillterWanted(slot0, slot1)
+slot0.getFillterWanted = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -335,7 +335,7 @@ function slot0.getFillterWanted(slot0, slot1)
 	return slot2
 end
 
-function slot0.setCharAction(slot0, slot1, slot2, slot3)
+slot0.setCharAction = function(slot0, slot1, slot2, slot3)
 	if not slot1:getCharActive() then
 		return
 	end
@@ -395,7 +395,7 @@ function slot0.setCharAction(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.createCharData(slot0, slot1)
+slot0.createCharData = function(slot0, slot1)
 	if not slot0.charDic then
 		slot0.charDic = {}
 	end
@@ -457,7 +457,7 @@ function slot0.createCharData(slot0, slot1)
 	return Clone(slot0.charDic[slot1])
 end
 
-function slot0.createAcCake(slot0, slot1)
+slot0.createAcCake = function(slot0, slot1)
 	if not slot0.acCakes then
 		slot0.acCakes = {}
 	end
@@ -479,7 +479,7 @@ function slot0.createAcCake(slot0, slot1)
 	})
 end
 
-function slot0.clearAcCake(slot0)
+slot0.clearAcCake = function(slot0)
 	if slot0.acCakes then
 		for slot4 = 1, #slot0.acCakes do
 			Destroy(slot0.acCakes[slot4].tf)
@@ -489,7 +489,7 @@ function slot0.clearAcCake(slot0)
 	slot0.acCakes = {}
 end
 
-function slot0.getBattleData(slot0, slot1)
+slot0.getBattleData = function(slot0, slot1)
 	for slot5 = 1, #CookGameConst.char_battle_data do
 		if CookGameConst.char_battle_data[slot5].id == slot1 then
 			return Clone(CookGameConst.char_battle_data[slot5])
@@ -499,7 +499,7 @@ function slot0.getBattleData(slot0, slot1)
 	return nil
 end
 
-function slot0.setJudgeAction(slot0, slot1, slot2, slot3)
+slot0.setJudgeAction = function(slot0, slot1, slot2, slot3)
 	if #(slot2 or slot0.playerChar):getCakeIds() > 0 then
 		slot8 = nil
 
@@ -519,7 +519,7 @@ function slot0.setJudgeAction(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0.playerChar:clear()
 	slot0.partnerChar:clear()
 	slot0.enemy1Char:clear()
@@ -527,7 +527,7 @@ function slot0.clear(slot0)
 	slot0:clearAcCake()
 end
 
-function slot0.destroy(slot0)
+slot0.destroy = function(slot0)
 end
 
 return slot0

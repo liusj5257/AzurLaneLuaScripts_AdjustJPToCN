@@ -4,12 +4,12 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = -1,
 			side = 0,
+			say = "「右舷方向に敵旗艦発見！艦種・国籍は……不明です！」",
 			nameColor = "#a9f548",
+			actor = -1,
 			actorName = "通信",
 			withoutPainting = true,
-			say = "「右舷方向に敵旗艦発見！艦種・国籍は……不明です！」",
 			shake = {
 				speed = 1,
 				number = 3
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = -1,
 			side = 0,
+			say = "「敵艦が攻撃してきました！直ちに反撃を！」",
 			nameColor = "#a9f548",
+			actor = -1,
 			actorName = "通信",
 			withoutPainting = true,
-			say = "「敵艦が攻撃してきました！直ちに反撃を！」",
 			shake = {
 				speed = 1,
 				number = 3

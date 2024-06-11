@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO04",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "ワシントン",
+			side = 0,
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,

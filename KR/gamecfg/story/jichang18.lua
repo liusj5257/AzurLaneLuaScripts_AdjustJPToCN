@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG18",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>함선은 무기, 적을 격침시키기 위해 태어난 운명.</size>",
@@ -37,14 +37,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_jichang_3",
-			actorName = "다이호(μ장비)",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Astrum이 왔네요.",
 			bgm = "idol-kannjouLOYALTY-inst",
+			actorName = "다이호(μ장비)",
+			say = "Astrum이 왔네요.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "론(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "알바코어(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,8 +96,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "다이호(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,10 +114,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(에? 나를 보고도 전혀 동요하지 않아…?)",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 207110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "불길한 분위기네요…… 이게 바로 「Verheerender」의 무대인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -148,10 +148,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 103250,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "분위기에 눌리지 마. 우리도 최고의 무대를 선보이면 되니까.",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "타슈켄트는 무섭지 않아!",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 403080,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「Polaris」를 만났나요? 그 모습은…… 아무래도 우리에 대해서 많이 이야기해준 모양이네요.",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 202280,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지금…… 주인님의 시선을 끌고 있는 건가요?!",
 			typewriter = {
 				speed = 0.05,
@@ -216,10 +216,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "설마 이 장비로 지휘관에게……",
 			typewriter = {
 				speed = 0.05,
@@ -233,10 +233,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 307110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "맞아요. 처음부터 「μ장비」 따위에게는 관심 없었어요. 하지만 이걸로 지휘관님을 사로잡을 수 있다면, 다른 얘기가 되지요.",
 			typewriter = {
 				speed = 0.05,
@@ -250,10 +250,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 403080,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "모두가 음악이니, 뜨거운 분위기니 하고 있지만, 이 장비는「무기」잖아요? 무기는 무기답게, 모든 것을 짓밟는데 써도 무방하지요.",
 			typewriter = {
 				speed = 0.05,
@@ -267,10 +267,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 207110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "여러분이 노래에 담은 감정은…… 「파괴」인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "다이호(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "론(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "다이호(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "론(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "다이호(μ장비)&론(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "용서하지 않아요!!!",
 			typewriter = {
 				speed = 0.05,

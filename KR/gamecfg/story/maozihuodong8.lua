@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900186,
 			side = 2,
 			bgName = "bg_cccp_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "적 반응 소멸. 잘 했어!",
 			bgm = "bgm-cccp2",
+			actor = 900186,
+			nameColor = "#a9f548",
+			say = "적 반응 소멸. 잘 했어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "사우스다코타도 조금 이상했지? 저 보라색 빛이 장갑의 대미지를 줄여주거나 화력을 높여주는 도움을 주는 것 같아.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "저기~ 너무 부정적인 생각 아니야?",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "이게 이글 유니온의 자신감인가?!",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "후후~ 얼마나 많은 세이렌이 나타나도 전부 해치워버리면 그만이야!",
 			typewriter = {

@@ -1,10 +1,10 @@
 slot0 = class("WSWorldInfo", import("...BaseEntity"))
 slot0.Fields = {
-	powerCount = "userdata",
-	stepCount = "userdata",
-	achievementTip = "userdata",
-	transform = "userdata",
 	btnAchievement = "userdata",
+	stepCount = "userdata",
+	powerCount = "userdata",
+	transform = "userdata",
+	achievementTip = "userdata",
 	achievementCount = "userdata",
 	powerIconTF = "userdata",
 	buffListTF = "userdata",
@@ -14,7 +14,7 @@ slot0.Listeners = {
 	onUpdate = "Update"
 }
 
-function slot0.Build(slot0)
+slot0.Build = function(slot0)
 	pg.DelegateInfo.New(slot0)
 
 	slot1 = nowWorld()
@@ -24,7 +24,7 @@ function slot0.Build(slot0)
 	slot1:GetAtlas():AddListener(WorldAtlas.EventAddPressingMap, slot0.onUpdate)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot1 = nowWorld()
 
 	slot1:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdate)
@@ -34,12 +34,12 @@ function slot0.Dispose(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 
-function slot0.Setup(slot0)
+slot0.Setup = function(slot0)
 	slot0:Init()
 	slot0:Update()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.powerIconTF = slot0.transform:Find("power/level")
 
 	onToggle(slot0, slot0.powerIconTF, function (slot0)
@@ -72,7 +72,7 @@ function slot0.Init(slot0)
 	slot0.achievementTip = slot0.btnAchievement:Find("tip")
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot1 = nowWorld()
 	slot2 = slot1:GetWorldRank()
 

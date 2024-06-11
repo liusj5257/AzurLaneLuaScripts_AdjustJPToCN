@@ -1,10 +1,10 @@
 slot0 = class("ChargeMenuScene", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChargeMenuUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	if getProxy(ShopsProxy):ShouldRefreshChargeList() then
 		pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
 			callback = slot1
@@ -14,7 +14,7 @@ function slot0.preload(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
@@ -22,17 +22,17 @@ function slot0.init(slot0)
 	slot0:InitBanner()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updatePlayerRes()
 	slot0:updatePanel()
 	slot0:tryAutoOpenShop()
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.chargeTipWindow and slot0.chargeTipWindow:GetLoaded() and slot0.chargeTipWindow:isShowing() then
 		slot0.chargeTipWindow:Hide()
 
@@ -42,7 +42,7 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.bannerRect then
 		slot0.bannerRect:Dispose()
 
@@ -62,13 +62,13 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 end
 
-function slot0.initUIText(slot0)
+slot0.initUIText = function(slot0)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.blurTF = slot0:findTF("blur_panel")
 	slot0.topTF = slot0:findTF("adapt/top", slot0.blurTF)
 	slot0.resTF = slot0:findTF("res", slot0.topTF)
@@ -86,7 +86,7 @@ function slot0.findUI(slot0)
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 end
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	setText(slot1:Find("name"), slot2:GetName())
 	setText(slot1:Find("desc"), slot2:GetDesc())
 
@@ -116,7 +116,7 @@ function slot1(slot0, slot1, slot2)
 	slot1:Find("icon").sizeDelta = Vector2(180, 180)
 end
 
-function slot0.InitBanner(slot0)
+slot0.InitBanner = function(slot0)
 	for slot5, slot6 in ipairs(getProxy(ShopsProxy):GetRecommendCommodities()) do
 		slot7 = slot0.bannerRect
 		slot7 = slot7:AddChild()
@@ -143,12 +143,12 @@ function slot0.InitBanner(slot0)
 	slot0.bannerRect:SetUp()
 end
 
-function slot0.FlushBanner(slot0)
+slot0.FlushBanner = function(slot0)
 	slot0.bannerRect:Reset()
 	slot0:InitBanner()
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -167,15 +167,15 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.supplyShopBtn, function ()
 		uv0:emit(ChargeMenuMediator.GO_SUPPLY_SHOP, {
-			chargePage = ChargeScene.TYPE_DIAMOND
+			warp = NewShopsScene.TYPE_SHOP_STREET
 		})
 	end, SFX_PANEL)
 end
 
-function slot0.updatePlayerRes(slot0)
+slot0.updatePlayerRes = function(slot0)
 end
 
-function slot0.updatePanel(slot0)
+slot0.updatePanel = function(slot0)
 	if getProxy(ActivityProxy):getActiveBannerByType(GAMEUI_BANNER_9) ~= nil then
 		LoadImageSpriteAsync("activitybanner/" .. slot2.pic, slot0.skinShopBtn)
 	end
@@ -193,7 +193,7 @@ function slot0.updatePanel(slot0)
 	})
 end
 
-function slot0.tryAutoOpenShop(slot0)
+slot0.tryAutoOpenShop = function(slot0)
 	if slot0.contextData.wrap ~= nil then
 		if slot1 == ChargeScene.TYPE_DIAMOND then
 			triggerButton(slot0.diamondShopBtn)
@@ -205,13 +205,13 @@ function slot0.tryAutoOpenShop(slot0)
 	end
 end
 
-function slot0.OnRemoveLayer(slot0, slot1)
+slot0.OnRemoveLayer = function(slot0, slot1)
 	if slot1.mediator == ChargeItemPanelMediator and slot0.bannerRect then
 		slot0.bannerRect:Resume()
 	end
 end
 
-function slot0.OnChargeSuccess(slot0, slot1)
+slot0.OnChargeSuccess = function(slot0, slot1)
 	slot0.chargeTipWindow:ExecuteAction("Show", slot1)
 end
 

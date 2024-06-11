@@ -1,19 +1,19 @@
 return {
-	id = "YONGYEHUANGUANG18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG18",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			bgm = "battle-boss-3",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 201330,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "재장전 완료! 이카로스, 화력 전면 개방!",
-			bgm = "battle-boss-3",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "모두를 다치게 하려는 적을 상대할 때는 화력을 전면 개방해서 서둘려 섬멸시키는 것이 당연한 거죠!",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "하지만…하우처럼 이런 화력이 있다면 더욱…",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = " 그저 구축함이면서…엄청난 말을 정말 아무렇지 않게 하네.",
 			typewriter = {
 				speed = 0.05,
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 205090,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "남은 적이 아직 적지 않아. 내가 포화로 너희들을 엄호할테니 마음껏 싸워!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 205090,
+			nameColor = "#a9f548",
+			say = "남은 적이 아직 적지 않아. 내가 포화로 너희들을 엄호할테니 마음껏 싸워!",
 			flashN = {
 				color = {
 					1,

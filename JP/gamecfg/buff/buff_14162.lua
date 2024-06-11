@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1000
+					number = 1000,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1110
+					number = 1110,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -76,8 +76,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -122,8 +122,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1220
+					number = 1220,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -179,8 +179,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1330
+					number = 1330,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -236,8 +236,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1440
+					number = 1440,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -247,8 +247,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -293,8 +293,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1550
+					number = 1550,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -304,8 +304,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -350,8 +350,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1660
+					number = 1660,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -361,8 +361,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -407,8 +407,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1770
+					number = 1770,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -418,8 +418,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -464,8 +464,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1880
+					number = 1880,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -475,8 +475,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -521,8 +521,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 2000
+					number = 2000,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -532,8 +532,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteShorten",
-					number = 3
+					number = 3,
+					attr = "igniteShorten"
 				}
 			},
 			{
@@ -569,14 +569,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "炮术指挥",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 14162,
+	time = 0,
 	picture = "",
 	desc = "提高炮击属性",
 	stack = 1,
-	id = 14162,
+	color = "red",
 	icon = 14160,
 	last_effect = "",
 	blink = {
@@ -594,8 +594,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 1000
+				number = 1000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -605,8 +605,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "igniteShorten",
-				number = 3
+				number = 3,
+				attr = "igniteShorten"
 			}
 		},
 		{

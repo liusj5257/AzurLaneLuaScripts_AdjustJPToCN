@@ -5,7 +5,7 @@ slot0.ON_PLAY = "CommanderHomeMediator:ON_PLAY"
 slot0.ON_SEL_COMMANDER = "CommanderHomeMediator:ON_SEL_COMMANDER"
 slot0.ON_CHANGE_STYLE = "CommanderHomeMediator:ON_CHANGE_STYLE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_CLEAN, function (slot0, slot1)
 		uv0:sendNotification(GAME.COMMANDER_CATTERY_OP, {
 			op = 1
@@ -38,7 +38,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetHome(getProxy(CommanderProxy):GetCommanderHome())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.PUT_COMMANDER_IN_CATTERY_DONE,
 		GAME.COMMANDER_CHANGE_CATTERY_STYLE_DONE,
@@ -48,7 +48,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.PUT_COMMANDER_IN_CATTERY_DONE then

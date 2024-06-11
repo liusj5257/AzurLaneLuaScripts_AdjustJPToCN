@@ -2,7 +2,7 @@ slot0 = class("BattleGateSubmarine")
 ys.Battle.BattleGateSubmarine = slot0
 slot0.__name = "BattleGateSubmarine"
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	slot2 = slot0.stageId
 
 	slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {
@@ -12,7 +12,7 @@ function slot0.Entrance(slot0, slot1)
 	})
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	slot1:sendNotification(GAME.ACTIVITY_OPERATION, {
 		cmd = 1,
 		activity_id = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUBMARINE_RUN) and slot2.id,

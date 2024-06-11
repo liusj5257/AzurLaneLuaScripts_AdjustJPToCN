@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "点燃自身",
 	time = 30.1,
+	name = "点燃自身",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -15,11 +15,11 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "cannonPower",
-				number = 8,
 				time = 3,
 				dotType = 1,
-				k = 0
+				number = 8
 			}
 		},
 		{

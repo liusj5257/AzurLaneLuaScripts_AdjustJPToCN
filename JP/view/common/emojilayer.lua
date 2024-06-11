@@ -3,11 +3,11 @@ slot0.PageEmojiNums = 8
 slot0.Frequently_Used_Emoji_Num = 6
 slot0.True_Emoji_Num_Of_Page = 15
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EmojiUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.emojiGroup = slot0:findTF("frame/group")
 	slot0.emojiType = slot0:findTF("type", slot0.emojiGroup)
 	slot0.emojiEvent = slot0:findTF("frame/bg/mask/event")
@@ -35,6 +35,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.emojiIconItem, false)
 
+	slot0.parentTr = slot0._tf.parent
 	slot0.resource = slot0:findTF("frame/resource")
 	slot0.frame = slot0:findTF("frame")
 	slot0.frame.position = slot0.contextData.pos or Vector3(0, 0, 0)
@@ -43,18 +44,23 @@ function slot0.init(slot0)
 	slot0.emojiProxy = getProxy(EmojiProxy)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:display()
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
+	else
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+			groupName = slot0:getGroupNameFromData(),
+			weight = LayerWeightConst.SECOND_LAYER
+		})
+	end
 end
 
-function slot0.display(slot0)
+slot0.display = function(slot0)
 	slot1 = UIItemList.New(slot0.emojiGroup, slot0.emojiType)
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -91,7 +97,7 @@ function slot0.display(slot0)
 	triggerToggle(slot0.emojiGroup:GetChild(0), true)
 end
 
-function slot0.filter(slot0, slot1)
+slot0.filter = function(slot0, slot1)
 	slot2 = _.map(pg.emoji_template.all, function (slot0)
 		if pg.emoji_template[slot0].achieve == 0 then
 			return pg.emoji_template[slot0]
@@ -217,7 +223,7 @@ function slot0.filter(slot0, slot1)
 	end
 end
 
-function slot0.emojiIconFliter(slot0)
+slot0.emojiIconFliter = function(slot0)
 	slot1 = pg.emoji_small_template
 	slot2 = {}
 
@@ -318,12 +324,12 @@ function slot0.emojiIconFliter(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0._tf)
 end
 
-function slot0.clearItem(slot0, slot1)
+slot0.clearItem = function(slot0, slot1)
 	eachChild(slot1, function (slot0)
 		if slot0.childCount > 0 then
 			if slot0:Find("newtag") then
@@ -337,14 +343,19 @@ function slot0.clearItem(slot0, slot1)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	eachChild(slot0.emojiContent, function (slot0)
 		uv0:clearItem(slot0)
 	end)
 	_.each(slot0.tplCaches, function (slot0)
 		uv0:clearItem(slot0)
 	end)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		setParent(slot0._tf, slot0.parentTr)
+	else
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	end
 end
 
 return slot0

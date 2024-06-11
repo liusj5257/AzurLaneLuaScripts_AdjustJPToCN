@@ -8,7 +8,13 @@ return {
 			},
 			ui = {
 				delay = 1,
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActMapBtn",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/MainActivityBtnMellowAdapt"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActMapBtn"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -18,19 +24,25 @@ return {
 				}
 			},
 			baseui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActMapBtn"
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/MainActivityBtnMellowAdapt"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActMapBtn"
+					end
+				end
 			},
 			style = {
 				text = "ステージ選択画面から採取地に行けるわよ",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = -289.7
 			}
 		},
 		{
-			alpha = 0.4,
 			waitScene = "LevelScene",
+			alpha = 0.4,
 			code = {
 				2
 			},
@@ -47,8 +59,8 @@ return {
 			style = {
 				text = "「採取地ステージ」が開放されたわ！",
 				mode = 1,
-				posY = -211.8,
 				dir = -1,
+				posY = -211.8,
 				posX = -651.63
 			}
 		},
@@ -61,8 +73,8 @@ return {
 			style = {
 				text = "採取地ステージはそれぞれ異なる属性の調合素材が手に入るわね",
 				mode = 1,
-				posY = -74.3,
 				dir = -1,
+				posY = -74.3,
 				posX = -417.9,
 				uiset = {
 					{
@@ -102,8 +114,8 @@ return {
 			style = {
 				text = "メイン画面に戻るわ",
 				mode = 1,
-				posY = 368.1,
 				dir = 1,
+				posY = 368.1,
 				posX = 644.59
 			}
 		}

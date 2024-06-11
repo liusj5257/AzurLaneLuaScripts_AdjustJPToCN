@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAOFENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAOFENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"欲速則不達\n\n<size=45>五  不可思議的兔子</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_108",
-			say = "港區·遊樂園",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "港區·遊樂園",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "想著巡覽下街道上的設施應該對今後有益，便和島風來到了這裡——",
@@ -69,10 +69,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗚哇！今天來到的地方是遊樂園欸！有種來玩的感覺呢！",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "雖然是以視察的名義來的，不過能看到她歡天喜地的樣子，這點小小的偷懶也沒問題吧。",
@@ -112,10 +112,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那麼就馬上開始巡覽吧！",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,10 +146,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "島風可快了哦ーー！",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 1,
 					x = 2500
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "還沒來得及讓島風等等，她就已經跑遠了——",
@@ -187,15 +187,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_108",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嚕~嚕嚕~♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哦哦，這裡就是鏡子屋了對吧！裡面有好多樣子奇怪的島風呢ー！",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_108",
 			side = 2,
+			bgName = "star_level_bg_108",
 			dir = 1,
+			actor = 101170,
 			actorName = "？ ？ ？",
 			say = "盯……",
 			typewriter = {
@@ -267,10 +267,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哇！島風的表情變奇怪了！",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,10 +311,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "欸……嚇？！鏡，鏡子說話了……！難道這裡是鬼屋嗎……？！",
 			dialogShake = {
 				speed = 0.08,
@@ -347,12 +347,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………啊！！是白鷹的拉菲嗎……？！",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -374,8 +374,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "終於在鏡子屋中追上了島風，不過————",
@@ -408,10 +408,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呀！島風很怕恐怖的東西——！別嚇我啦——！！",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "……這是什麼情況？",
@@ -448,15 +448,15 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_108",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "偶然遇見，卻被請客了，拉菲很開心。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -484,10 +484,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎呀，能碰到白鷹裡的名人，我才更開心呢！請客的事就不要在意啦！",
 			typewriter = {
 				speed = 0.05,
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_108",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "嗯，指揮官。結帳就拜託你了。",
 			typewriter = {
 				speed = 0.05,
@@ -521,8 +521,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			blackBg = true,

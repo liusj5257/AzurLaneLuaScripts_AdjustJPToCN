@@ -6,14 +6,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			portrait = 401466,
-			bgm = "ryza-az-theme",
 			nameColor = "#FEF15E",
+			bgm = "ryza-az-theme",
+			bgName = "star_level_bg_158",
+			actorName = "Bard",
 			hidePaintObj = true,
+			portrait = 401466,
 			say = "♪ The winter has passed, the spring has come, and life begins new ♪",
 			painting = {
 				alpha = 0.3,
@@ -24,17 +24,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -47,9 +47,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
+			nameColor = "#FEF15E",
 			portrait = 401466,
 			actorName = "Bard",
-			nameColor = "#FEF15E",
 			hidePaintObj = true,
 			say = "♪ From the gods get we our blessings, and this lovely world does too ♪",
 			painting = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			hidePaintObj = true,
 			say = "A village sits on a grass plain. A bard's singing can be heard from down the road.",
@@ -75,12 +75,12 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_158",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ The seasons oh they come and go, the time has gone so fast ♪",
 			painting = {
@@ -92,17 +92,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -115,9 +115,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ The glory days have passed us, so many years elapsed ♪",
 			painting = {
@@ -135,9 +135,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ Though darkness once was vanquished, its return is overdue ♪",
 			painting = {
@@ -155,9 +155,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ And while it creeps upon us, adventures start anew ♪",
 			painting = {
@@ -175,9 +175,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ Today a hero rises, fight evil they shall do ♪",
 			painting = {
@@ -195,9 +195,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ The world now needs a champion, perhaps... it's... you ♪",
 			painting = {

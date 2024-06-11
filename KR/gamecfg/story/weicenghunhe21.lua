@@ -1,20 +1,20 @@
 return {
-	id = "WEICENGHUNHE21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE21",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "hunhe-battle",
 			say = "파나마 요새 서쪽? 안개 속",
+			dir = 1,
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -30,8 +30,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "받아라! 잘 가라고!",
 			typewriter = {
 				speed = 0.05,
@@ -43,10 +43,10 @@ return {
 			}
 		},
 		{
+			say = "펑----!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑----!",
 			flashN = {
 				color = {
 					1,
@@ -97,8 +97,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "목표 제거. 세이렌 지휘 시스템에는… 이상 없네요.",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "21번째였죠…",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "여기서 신형 세이렌을 만날 줄은 몰랐으니… 전부 다 수상하게 보인다고!",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "리노는 역시나 활기차네…",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "낙천적인 점에서는 자신 있으니까! 이럴 때야말로 내가 모두에게 힘을 불어넣어 줘야해. 파이팅!",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "볼티모어의 말을 빌리면--- ‘영웅에게 후퇴란 없다!’",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "에?! 바로 그런 느낌이야. 브레머튼 씨, 멋있네!",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2500

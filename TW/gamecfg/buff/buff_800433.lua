@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 800433,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 800433,
+	color = "yellow",
 	icon = 800430,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 500
+				number = 500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 500
+				number = 500,
+				attr = "antiAirPower"
 			}
 		},
 		{

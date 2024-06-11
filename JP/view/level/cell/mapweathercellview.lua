@@ -1,16 +1,16 @@
 slot0 = class("MapWeatherCellView", import(".StaticCellView"))
 
-function slot0.Ctor(slot0, ...)
+slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.weatherPrefabs = {}
 end
 
-function slot0.GetOrder(slot0)
+slot0.GetOrder = function(slot0)
 	return ChapterConst.CellPriorityUpperEffect
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	if IsNil(slot0.go) then
 		slot0:PrepareBase("weathers" .. slot0.line.row .. "_" .. slot0.line.column)
 	end
@@ -46,7 +46,7 @@ function slot0.Update(slot0, slot1)
 	end
 end
 
-function slot0.OnLoadedPrefab(slot0, slot1, slot2)
+slot0.OnLoadedPrefab = function(slot0, slot1, slot2)
 	if slot2 == ChapterConst.FlagWeatherFog then
 		slot3 = tf(slot1).childCount
 		slot4 = math.random(1, slot3)

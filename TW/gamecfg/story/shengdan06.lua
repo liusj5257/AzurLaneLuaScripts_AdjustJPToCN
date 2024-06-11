@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN06",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN06",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "港區•皇家生活區",
 			typewriter = {
 				speed = 0.05,
@@ -78,14 +78,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "聖、聖誕大餐……火雞……布丁……鮭魚……我、我開動了！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,14 +110,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "這個好棒！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -142,14 +142,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "這個也好好吃！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,14 +174,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "哈啊~~活著真好~~~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -206,14 +206,14 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#a9f548",
 			say = "每次看到小天鵝放開了吃東西的樣子，都會讓咱覺得自愧不如呢……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -396,14 +396,14 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "接下來，就是交換禮物的時間囉，大家從前面放好的禮物堆裡各自選一個禮物盒吧~交換要遵循自願原則哦~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -492,14 +492,14 @@ return {
 			}
 		},
 		{
-			actor = 201102,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201102,
+			nameColor = "#a9f548",
 			say = "怎、怎麼樣？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

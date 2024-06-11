@@ -1,18 +1,18 @@
 return {
-	id = "FUXIANGXIANZUOZHAN27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN27",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-executor-type1",
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Eugen! Are you okay? Break any fingernails?",
-			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -93,8 +93,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,10 +118,10 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 403090,
 			say = "Yeah! Alriiight, Prinz Heinrich, heading out~!",
 			effects = {
 				{
@@ -141,12 +141,12 @@ return {
 		{
 			actor = 307050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "What a shock... To think that the Iron Blood had such an amazing facility, just tucked away like this...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "We ended up here because were sent the long away around, en route to NA Ocean.",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "Hm...?",
 			typewriter = {
 				speed = 0.05,

@@ -1,10 +1,10 @@
 slot0 = class("PockySkinPage", import("view.base.BaseActivityPage"))
 
-function slot0.GetCurrentDay()
+slot0.GetCurrentDay = function()
 	return pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").yday
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.leftStage = slot0.bg:Find("left")
 	slot0.rightStage = slot0.bg:Find("right")
@@ -25,7 +25,7 @@ function slot0.OnInit(slot0)
 	slot0.usmLRQ = nil
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot1 = getProxy(ActivityProxy)
 	slot2 = slot0.activity:getConfig("config_client").linkids
 	slot3 = false
@@ -67,7 +67,7 @@ function slot0.OnDataSetting(slot0)
 	return slot3
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot3 = slot0.rightStage
 
 	onButton(slot0, slot3:Find("display_btn"), function ()
@@ -109,7 +109,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetAction(slot0, slot1)
+slot0.SetAction = function(slot0, slot1)
 	if not slot0.spine then
 		return
 	end
@@ -119,7 +119,7 @@ function slot0.SetAction(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0:UpdateTaskList()
 	slot0:UpdatePTList()
 
@@ -146,7 +146,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.UpdateTaskList(slot0)
+slot0.UpdateTaskList = function(slot0)
 	slot0.nday = slot0.ActSignIn.data3 or 0
 	slot0.nday2 = slot0.ActTaskList.data3 or 0
 	slot0.nday3 = slot0.ActFinal.data3 or 0
@@ -271,7 +271,7 @@ function slot0.UpdateTaskList(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdatePTList(slot0)
+slot0.UpdatePTList = function(slot0)
 	if not slot0.ptData then
 		return
 	end
@@ -298,7 +298,7 @@ function slot0.UpdatePTList(slot0)
 	setActive(slot0.rightStage:Find("got_btn"), not slot10)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.spineLRQ then
 		slot0.spineLRQ:Stop()
 

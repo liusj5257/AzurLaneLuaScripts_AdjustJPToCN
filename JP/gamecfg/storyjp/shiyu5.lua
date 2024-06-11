@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"世話焼き娘はダテじゃない\n\n<size=45>五 世話焼きの理由</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301150,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "――それじゃ指揮官。そろそろバカ夕立を探しに戻るわよ！",
 			bgm = "story-1",
+			actor = 301150,
+			nameColor = "#a9f548",
+			say = "――それじゃ指揮官。そろそろバカ夕立を探しに戻るわよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "確かにそろそろ探しに行かないと日も傾く。山城と扶桑に礼を言って社務所から離れると、再び参道に戻って探し始めることにした。",
 			typewriter = {
 				speed = 0.05,
@@ -76,15 +76,15 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "はぁ～……山城姉さんの淹れてくれたお茶、美味しかったなぁ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "時雨は参道を歩きながらしみじみとそう語る。",
 			typewriter = {
 				speed = 0.05,
@@ -171,9 +171,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "そう言って、時雨は嬉しそうに鼻を鳴らしてみせる。",
 			typewriter = {
 				speed = 0.05,
@@ -217,9 +217,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "素直に感謝の言葉を述べると、時雨は気を取り直したように前を向いてふたたびずんずん歩き始める。",
 			typewriter = {
 				speed = 0.05,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "世話焼きな言葉を投げかける彼女を見て、ふと先ほど二手に分かれるのを拒んだときのことを思い出した。",
 			typewriter = {
 				speed = 0.05,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "（きっと、いつも誰かのそばにいたいのかもしれないな……）",
 			typewriter = {
 				speed = 0.05,

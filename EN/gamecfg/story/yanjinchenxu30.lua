@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU30",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_burningsea_1",
-			stopbgm = true,
-			say = "Unknown location",
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
+			stopbgm = true,
+			say = "Unknown location",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,11 +28,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#ffa500",
 			side = 2,
+			nameColor = "#ffa500",
 			bgName = "bg_burningsea_1",
-			say = "KABOOM–––!!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOM–––!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,9 +80,9 @@ return {
 		{
 			actor = 9702030,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "Sorry to keep you waiting. How's the situation?",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "I was a step too late. The \"whale\" got away, and it's only the small fry left now.",
 			painting = {
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "Unfortunate. Did you manage to retrieve anything else?",
 			painting = {
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "Yes, I have everything here. Want to take a look?",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "...I knew it. The \"whale's\" seemingly random movements do have a purpose after all.",
 			painting = {
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "Which makes me even more confused as to what they're trying to do. Can the Magister's plan still proceed in this state?",
 			painting = {
@@ -181,9 +181,9 @@ return {
 		{
 			actor = 9701010,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "Or, did the Magister also account for all this?",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "Why are you asking me?",
 			painting = {
@@ -215,8 +215,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "Well, you have a pretty good track record and whatnot...",
 			painting = {
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "Isn't there someone who'd be more suitable to answer that than me? For example, a certain \"Miss D.\"",
 			painting = {
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "I've already tried. She won't tell us anything unless we catch the \"whale.\"",
 			painting = {
@@ -265,9 +265,9 @@ return {
 		{
 			actor = 9702030,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "I see. I'll leave you to it then.",
 			painting = {
 				alpha = 0.3,
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "Mmhmm.",
 			painting = {
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "But, let's head back first. Her Majesty is waiting for us.",
 			painting = {
@@ -313,13 +313,13 @@ return {
 			}
 		},
 		{
-			bgName = "bg_burningsea_1",
-			mode = 1,
 			spacing = 30,
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			bgName = "bg_burningsea_1",
 			bgmDelay = 0.5,
 			bgm = "theme-shallowoftheworld",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				100,
 				100,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

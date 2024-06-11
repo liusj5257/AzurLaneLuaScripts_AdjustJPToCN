@@ -1,6 +1,6 @@
 slot0 = class("BackYardSettlementCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0.additionTF = findTF(slot0._go, "addition_bg/Text")
 	slot0.levelText = findTF(slot0._go, "exp/level"):GetComponent(typeof(Text))
@@ -10,12 +10,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0.slider = findTF(slot0._go, "exp/value"):GetComponent(typeof(Slider))
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0:UpdateInfo(slot2)
 	slot0:DoAnimation(slot1, slot2, slot3)
 end
 
-function slot0.UpdateInfo(slot0, slot1)
+slot0.UpdateInfo = function(slot0, slot1)
 	slot0.additionText.text = "EXP+" .. 0
 	slot0.levelText.text = "LEVEL" .. slot1.level
 	slot2 = slot0.nameTxt
@@ -30,7 +30,7 @@ function slot0.UpdateInfo(slot0, slot1)
 	end)
 end
 
-function slot0.DoAnimation(slot0, slot1, slot2, slot3)
+slot0.DoAnimation = function(slot0, slot1, slot2, slot3)
 	if slot2.level == slot2:getMaxLevel() then
 		return
 	end
@@ -52,16 +52,16 @@ function slot0.DoAnimation(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.DoLevelUpAnimation(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+slot0.DoLevelUpAnimation = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot8, slot9, slot10 = nil
 
-	function slot9()
+	slot9 = function()
 		TweenValue(uv0.slider, 0, uv1 / uv2, uv3, 0, function (slot0)
 			uv0:SetSliderValue(uv0.slider, slot0)
 		end)
 	end
 
-	function slot10()
+	slot10 = function()
 		TweenValue(uv0.slider, 0, 1, uv1, 0, function (slot0)
 			uv0:SetSliderValue(uv0.slider, slot0)
 		end, uv2)
@@ -84,7 +84,7 @@ function slot0.DoLevelUpAnimation(slot0, slot1, slot2, slot3, slot4, slot5, slot
 	end)
 end
 
-function slot0.SetSliderValue(slot0, slot1, slot2)
+slot0.SetSliderValue = function(slot0, slot1, slot2)
 	if slot2 ~= 0 and slot2 < 0.03 then
 		slot2 = 0.03
 	end
@@ -92,7 +92,7 @@ function slot0.SetSliderValue(slot0, slot1, slot2)
 	slot1.value = slot2
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if LeanTween.isTweening(slot0.slider.gameObject) then
 		LeanTween.cancel(slot0.slider.gameObject)
 	end

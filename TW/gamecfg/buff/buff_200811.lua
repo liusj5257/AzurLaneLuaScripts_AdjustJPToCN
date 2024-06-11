@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024罗德尼meta 终结技",
 	time = 9.5,
-	color = "yellow",
+	name = "2024罗德尼meta 终结技",
+	init_effect = "",
+	id = 200811,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200811,
+	color = "yellow",
 	icon = 200811,
 	last_effect = "",
 	effect_list = {
@@ -88,8 +88,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				skill_id = 200791
 			}
 		},

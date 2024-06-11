@@ -45,7 +45,16 @@ pg.constellation_challenge_month = {
 			10033
 		}
 	},
-	[7] = {
+	{
+		id = 6,
+		constellation_icon = "Taurus",
+		stage = {
+			10034,
+			10035,
+			10036
+		}
+	},
+	{
 		id = 7,
 		constellation_icon = "Aries",
 		stage = {
@@ -54,7 +63,7 @@ pg.constellation_challenge_month = {
 			10003
 		}
 	},
-	[8] = {
+	{
 		id = 8,
 		constellation_icon = "Aries",
 		stage = {
@@ -63,7 +72,7 @@ pg.constellation_challenge_month = {
 			10006
 		}
 	},
-	[9] = {
+	{
 		id = 9,
 		constellation_icon = "Lio",
 		stage = {
@@ -72,7 +81,7 @@ pg.constellation_challenge_month = {
 			10009
 		}
 	},
-	[10] = {
+	{
 		id = 10,
 		constellation_icon = "Virgo",
 		stage = {
@@ -81,7 +90,7 @@ pg.constellation_challenge_month = {
 			10012
 		}
 	},
-	[11] = {
+	{
 		id = 11,
 		constellation_icon = "Libra",
 		stage = {
@@ -90,7 +99,7 @@ pg.constellation_challenge_month = {
 			10015
 		}
 	},
-	[12] = {
+	{
 		id = 12,
 		constellation_icon = "Scorpio",
 		stage = {
@@ -105,6 +114,7 @@ pg.constellation_challenge_month = {
 		3,
 		4,
 		5,
+		6,
 		7,
 		8,
 		9,

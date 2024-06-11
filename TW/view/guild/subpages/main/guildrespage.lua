@@ -1,10 +1,10 @@
 slot0 = class("GuildResPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildResPanel"
 end
 
-function slot0.Load(slot0)
+slot0.Load = function(slot0)
 	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
@@ -16,7 +16,7 @@ function slot0.Load(slot0)
 	slot0:Init()
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.captailBg = slot0:findTF("captail"):GetComponent(typeof(Image))
 	slot0.contributionBg = slot0:findTF("contribution"):GetComponent(typeof(Image))
 	slot0.resCaptailTxt = slot0:findTF("captail/Text"):GetComponent(typeof(Text))
@@ -26,13 +26,13 @@ function slot0.OnLoaded(slot0)
 	setActive(slot0._tf, true)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.resourceLogBtn, function ()
 		uv0:emit(GuildMainMediator.ON_FETCH_CAPITAL_LOG)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.resCaptailTxt.text = slot2:getCapital()
 	slot0.resContributionTxt.text = slot1:getResource(8)
 
@@ -44,7 +44,7 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

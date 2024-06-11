@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "倔强1",
 	init_effect = "",
+	id = 12350,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12350,
+	color = "blue",
 	icon = 12350,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.8,
-				skill_id = 12350,
 				target = "TargetSelf",
+				skill_id = 12350,
 				quota = 1
 			}
 		},
@@ -42,8 +42,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				skill_id = 12351,
 				target = "TargetSelf",
+				skill_id = 12351,
 				quota = 1
 			}
 		}

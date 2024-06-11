@@ -23,13 +23,13 @@ slot1 = pg.ship_data_blueprint
 slot2 = pg.ship_strengthen_blueprint
 slot3 = false
 
-function slot0.print(...)
+slot0.print = function(...)
 	if uv0 then
 		print(...)
 	end
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
 	slot0.state = uv0.STATE_LOCK
@@ -62,7 +62,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.warpspecialEffect(slot0, slot1)
+slot0.warpspecialEffect = function(slot0, slot1)
 	slot2 = {}
 	slot3 = string.split(slot1.effect_desc, "|")
 	slot4 = 0
@@ -160,7 +160,7 @@ function slot0.warpspecialEffect(slot0, slot1)
 	slot1.special_effect = slot2
 end
 
-function slot0.updateInfo(slot0, slot1)
+slot0.updateInfo = function(slot0, slot1)
 	slot0.startTime = slot1.start_time or 0
 	slot0.shipId = slot1.ship_id or 0
 	slot0.level = slot1.blue_print_level and math.min(slot1.blue_print_level, slot0:getMaxLevel()) or 0
@@ -171,11 +171,11 @@ function slot0.updateInfo(slot0, slot1)
 	slot0:updateState()
 end
 
-function slot0.updateStartUpTime(slot0, slot1)
+slot0.updateStartUpTime = function(slot0, slot1)
 	slot0.duration = slot1
 end
 
-function slot0.updateState(slot0)
+slot0.updateState = function(slot0)
 	if slot0:isFetched() then
 		slot0.state = uv0.STATE_UNLOCK
 	elseif slot0.startTime == 0 then
@@ -187,7 +187,7 @@ function slot0.updateState(slot0)
 	end
 end
 
-function slot0.addExp(slot0, slot1)
+slot0.addExp = function(slot0, slot1)
 	assert(slot1, "exp can not be nil")
 
 	slot0.exp = slot0.exp + slot1
@@ -213,7 +213,7 @@ function slot0.addExp(slot0, slot1)
 	end
 end
 
-function slot0.getNextLevelExp(slot0)
+slot0.getNextLevelExp = function(slot0)
 	if slot0.level == slot0:getMaxLevel() then
 		return -1
 	else
@@ -221,7 +221,7 @@ function slot0.getNextLevelExp(slot0)
 	end
 end
 
-function slot0.getNextFateLevelExp(slot0)
+slot0.getNextFateLevelExp = function(slot0)
 	if slot0.fateLevel == slot0:getMaxFateLevel() then
 		return -1
 	else
@@ -229,7 +229,7 @@ function slot0.getNextFateLevelExp(slot0)
 	end
 end
 
-function slot0.canLevelUp(slot0)
+slot0.canLevelUp = function(slot0)
 	if slot0.level == slot0:getMaxLevel() then
 		return false
 	end
@@ -241,11 +241,11 @@ function slot0.canLevelUp(slot0)
 	return false
 end
 
-function slot0.canFateSimulation(slot0)
+slot0.canFateSimulation = function(slot0)
 	return #slot0.fateStrengthenConfig > 0 and slot0.fateLevel >= 0
 end
 
-function slot0.canFateLevelUp(slot0)
+slot0.canFateLevelUp = function(slot0)
 	if slot0.fateLevel == slot0:getMaxFateLevel() then
 		return false
 	end
@@ -257,23 +257,23 @@ function slot0.canFateLevelUp(slot0)
 	return false
 end
 
-function slot0.getMaxLevel(slot0)
+slot0.getMaxLevel = function(slot0)
 	return slot0.strengthenConfig[#slot0.strengthenConfig].lv
 end
 
-function slot0.getMaxFateLevel(slot0)
+slot0.getMaxFateLevel = function(slot0)
 	return slot0.fateStrengthenConfig[#slot0.fateStrengthenConfig].lv - 30
 end
 
-function slot0.isMaxLevel(slot0)
+slot0.isMaxLevel = function(slot0)
 	return slot0.level == slot0:getMaxLevel()
 end
 
-function slot0.isMaxFateLevel(slot0)
+slot0.isMaxFateLevel = function(slot0)
 	return slot0.fateLevel == slot0:getMaxFateLevel()
 end
 
-function slot0.isMaxIntensifyLevel(slot0)
+slot0.isMaxIntensifyLevel = function(slot0)
 	if #slot0:getConfig("fate_strengthen") > 0 then
 		return slot0:isMaxFateLevel()
 	else
@@ -281,7 +281,7 @@ function slot0.isMaxIntensifyLevel(slot0)
 	end
 end
 
-function slot0.getBluePrintAddition(slot0, slot1)
+slot0.getBluePrintAddition = function(slot0, slot1)
 	if slot0:getConfig("attr_exp")[table.indexof(ShipModAttr.BLUEPRINT_ATTRS, slot1)] then
 		slot4 = 0
 
@@ -301,76 +301,76 @@ function slot0.getBluePrintAddition(slot0, slot1)
 	end
 end
 
-function slot0.getShipVO(slot0)
+slot0.getShipVO = function(slot0)
 	return Ship.New({
 		configId = tonumber(slot0.id .. "1")
 	})
 end
 
-function slot0.isFetched(slot0)
+slot0.isFetched = function(slot0)
 	return slot0.shipId ~= 0
 end
 
-function slot0.getState(slot0)
+slot0.getState = function(slot0)
 	return slot0.state
 end
 
-function slot0.start(slot0, slot1)
+slot0.start = function(slot0, slot1)
 	slot0.state = uv0.STATE_DEV
 	slot0.startTime = slot1
 	slot0.duration = 0
 end
 
-function slot0.reset(slot0)
+slot0.reset = function(slot0)
 	slot0.state = uv0.STATE_LOCK
 	slot0.startTime = 0
 end
 
-function slot0.isLock(slot0)
+slot0.isLock = function(slot0)
 	return slot0.state == uv0.STATE_LOCK
 end
 
-function slot0.isDeving(slot0)
+slot0.isDeving = function(slot0)
 	return slot0.state == uv0.STATE_DEV
 end
 
-function slot0.isFinished(slot0)
+slot0.isFinished = function(slot0)
 	return slot0.state == uv0.STATE_DEV_FINISHED
 end
 
-function slot0.finish(slot0)
+slot0.finish = function(slot0)
 	slot0.state = uv0.STATE_DEV_FINISHED
 end
 
-function slot0.unlock(slot0, slot1)
+slot0.unlock = function(slot0, slot1)
 	slot0.shipId = slot1
 	slot0.state = uv0.STATE_UNLOCK
 	slot0.duration = 0
 end
 
-function slot0.isUnlock(slot0)
+slot0.isUnlock = function(slot0)
 	return slot0.state == uv0.STATE_UNLOCK
 end
 
-function slot0.getItemId(slot0)
+slot0.getItemId = function(slot0)
 	return slot0:getConfig("strengthen_item")
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.ship_data_blueprint
 end
 
-function slot0.getTaskIds(slot0)
+slot0.getTaskIds = function(slot0)
 	return _.map(slot0:getConfig("unlock_task"), function (slot0)
 		return slot0[1]
 	end)
 end
 
-function slot0.getTaskOpenTimeStamp(slot0, slot1)
+slot0.getTaskOpenTimeStamp = function(slot0, slot1)
 	return slot0:getConfig("unlock_task")[table.indexof(slot0:getTaskIds(), slot1)][2] + slot0.startTime + 1
 end
 
-function slot0.isFinishedAllTasks(slot0)
+slot0.isFinishedAllTasks = function(slot0)
 	slot1 = getProxy(TaskProxy)
 
 	return _.all(slot0:getTaskIds(), function (slot0)
@@ -378,7 +378,7 @@ function slot0.isFinishedAllTasks(slot0)
 	end)
 end
 
-function slot0.getTaskStateById(slot0, slot1)
+slot0.getTaskStateById = function(slot0, slot1)
 	if slot0:isLock() then
 		if slot0.duration > 0 then
 			return uv0.TASK_STATE_PAUSE
@@ -398,7 +398,7 @@ function slot0.getTaskStateById(slot0, slot1)
 	end
 end
 
-function slot0.getExpRetio(slot0, slot1)
+slot0.getExpRetio = function(slot0, slot1)
 	slot2 = slot0:getConfig("attr_exp")
 
 	assert(slot1 > 0 and slot1 <= #slot2, "invalid index" .. slot1)
@@ -406,7 +406,7 @@ function slot0.getExpRetio(slot0, slot1)
 	return slot2[slot1]
 end
 
-function slot0.specialStrengthens(slot0)
+slot0.specialStrengthens = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.strengthenConfig) do
@@ -422,11 +422,11 @@ function slot0.specialStrengthens(slot0)
 	return slot1
 end
 
-function slot0.getSpecials(slot0)
+slot0.getSpecials = function(slot0)
 	return slot0.strengthenConfig[slot0.level].special_effect
 end
 
-function slot0.getTopLimitAttrValue(slot0, slot1)
+slot0.getTopLimitAttrValue = function(slot0, slot1)
 	if slot0.level == 0 then
 		return 0
 	else
@@ -438,11 +438,11 @@ function slot0.getTopLimitAttrValue(slot0, slot1)
 	end
 end
 
-function slot0.getItemExp(slot0)
+slot0.getItemExp = function(slot0)
 	return Item.getConfigData(slot0:getConfig("strengthen_item")).usage_arg[1]
 end
 
-function slot0.getShipProperties(slot0, slot1, slot2)
+slot0.getShipProperties = function(slot0, slot1, slot2)
 	assert(slot1, "shipVO can not be nil" .. slot0.shipId)
 
 	slot2 = defaultValue(slot2, true)
@@ -465,7 +465,7 @@ function slot0.getShipProperties(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.getTotalAdditions(slot0)
+slot0.getTotalAdditions = function(slot0)
 	slot1 = {}
 	slot2 = slot0:attrSpecialAddition()
 
@@ -477,7 +477,7 @@ function slot0.getTotalAdditions(slot0)
 	return slot1
 end
 
-function slot0.attrSpecialAddition(slot0)
+slot0.attrSpecialAddition = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, slot0.level do
@@ -505,7 +505,7 @@ function slot0.attrSpecialAddition(slot0)
 	return slot1
 end
 
-function slot0.getUseageMaxItem(slot0)
+slot0.getUseageMaxItem = function(slot0)
 	slot1 = 0
 
 	for slot5 = slot0.level + 1, slot0:getMaxLevel() do
@@ -517,7 +517,7 @@ function slot0.getUseageMaxItem(slot0)
 	return math.max(math.ceil((slot1 - slot0.exp) / slot0:getItemExp()), 0)
 end
 
-function slot0.getFateUseageMaxItem(slot0)
+slot0.getFateUseageMaxItem = function(slot0)
 	slot1 = 0
 
 	for slot5 = slot0.fateLevel + 1, slot0:getMaxFateLevel() do
@@ -529,19 +529,19 @@ function slot0.getFateUseageMaxItem(slot0)
 	return math.max(math.ceil((slot1 - slot0.exp) / slot0:getItemExp()), 0)
 end
 
-function slot0.getOpenTaskList(slot0)
+slot0.getOpenTaskList = function(slot0)
 	return slot0:getConfig("unlock_task_open_condition")
 end
 
-function slot0.getStrengthenConfig(slot0, slot1)
+slot0.getStrengthenConfig = function(slot0, slot1)
 	return slot0.strengthenConfig[slot1]
 end
 
-function slot0.getFateStrengthenConfig(slot0, slot1)
+slot0.getFateStrengthenConfig = function(slot0, slot1)
 	return slot0.fateStrengthenConfig[slot1]
 end
 
-function slot0.getUnlockVoices(slot0)
+slot0.getUnlockVoices = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, slot0.level do
@@ -559,7 +559,7 @@ function slot0.getUnlockVoices(slot0)
 	return slot1
 end
 
-function slot0.getUnlockLevel(slot0, slot1)
+slot0.getUnlockLevel = function(slot0, slot1)
 	for slot6 = 1, slot0:getMaxLevel() do
 		if type(slot0:getStrengthenConfig(slot6).special_effect) == "table" then
 			for slot12, slot13 in ipairs(slot8) do
@@ -577,7 +577,7 @@ function slot0.getUnlockLevel(slot0, slot1)
 	return 0
 end
 
-function slot0.getBaseList(slot0, slot1)
+slot0.getBaseList = function(slot0, slot1)
 	slot5 = slot0.shipId
 
 	assert(slot1, "shipVO can not be nil" .. slot5)
@@ -595,7 +595,7 @@ function slot0.getBaseList(slot0, slot1)
 	return slot1:getConfig("base_list")
 end
 
-function slot0.getPreLoadCount(slot0, slot1)
+slot0.getPreLoadCount = function(slot0, slot1)
 	slot5 = slot0.shipId
 
 	assert(slot1, "shipVO can not be nil" .. slot5)
@@ -613,7 +613,7 @@ function slot0.getPreLoadCount(slot0, slot1)
 	return slot1:getConfig("preload_count")
 end
 
-function slot0.getEquipProficiencyList(slot0, slot1)
+slot0.getEquipProficiencyList = function(slot0, slot1)
 	assert(slot1, "shipVO can not be nil" .. slot0.shipId)
 
 	slot2 = {}
@@ -637,7 +637,7 @@ function slot0.getEquipProficiencyList(slot0, slot1)
 	return slot3
 end
 
-function slot0.isFinishPrevTask(slot0)
+slot0.isFinishPrevTask = function(slot0)
 	slot1 = true
 	slot2 = true
 
@@ -652,7 +652,7 @@ function slot0.isFinishPrevTask(slot0)
 	return slot1, slot2
 end
 
-function slot0.isShipModMaxLevel(slot0, slot1)
+slot0.isShipModMaxLevel = function(slot0, slot1)
 	assert(slot1, "shipVO can not be nil" .. slot0.shipId)
 
 	slot2 = slot0:getStrengthenConfig(math.min(slot0.level + 1, slot0:getMaxLevel()))
@@ -664,7 +664,7 @@ function slot0.isShipModMaxLevel(slot0, slot1)
 	end
 end
 
-function slot0.isShipModMaxFateLevel(slot0, slot1)
+slot0.isShipModMaxFateLevel = function(slot0, slot1)
 	assert(slot1, "shipVO can not be nil" .. slot0.shipId)
 
 	slot2 = slot0:getFateStrengthenConfig(math.min(slot0.fateLevel + 1, slot0:getMaxFateLevel()))
@@ -676,7 +676,7 @@ function slot0.isShipModMaxFateLevel(slot0, slot1)
 	end
 end
 
-function slot0.isShipModMaxIntensifyLevel(slot0, slot1)
+slot0.isShipModMaxIntensifyLevel = function(slot0, slot1)
 	if slot0:canFateSimulation() then
 		return slot0:isShipModMaxFateLevel(slot1)
 	else
@@ -684,21 +684,21 @@ function slot0.isShipModMaxIntensifyLevel(slot0, slot1)
 	end
 end
 
-function slot0.getChangeSkillList(slot0)
+slot0.getChangeSkillList = function(slot0)
 	return slot0:getConfig("change_skill")
 end
 
-function slot0.isRarityUR(slot0)
+slot0.isRarityUR = function(slot0)
 	return ShipRarity.SSR <= slot0:getShipVO():getRarity()
 end
 
-function slot0.getFateMaxLeftOver(slot0)
+slot0.getFateMaxLeftOver = function(slot0)
 	slot1 = slot0:isRarityUR() and pg.gameset.fate_sim_ur.key_value or pg.gameset.fate_sim_ssr.key_value
 
 	return slot1 - slot0:getFateUseNum() < 0 and slot1 or slot2
 end
 
-function slot0.getFateUseNum(slot0)
+slot0.getFateUseNum = function(slot0)
 	slot1 = 0
 
 	if slot0:isMaxLevel() then
@@ -716,15 +716,15 @@ function slot0.getFateUseNum(slot0)
 	return slot1
 end
 
-function slot0.isPursuing(slot0)
+slot0.isPursuing = function(slot0)
 	return slot0:getConfig("is_pursuing") == 1
 end
 
-function slot0.getPursuingPrice(slot0, slot1)
+slot0.getPursuingPrice = function(slot0, slot1)
 	return slot0:getConfig("price") * (slot1 or 100) / 100
 end
 
-function slot0.getUnlockItem(slot0)
+slot0.getUnlockItem = function(slot0)
 	slot1 = getProxy(BagProxy)
 	slot5 = "gain_item_id"
 
@@ -735,7 +735,7 @@ function slot0.getUnlockItem(slot0)
 	end
 end
 
-function slot0.isPursuingCostTip(slot0)
+slot0.isPursuingCostTip = function(slot0)
 	return slot0:isPursuing() and slot0:isUnlock() and not slot0:isMaxIntensifyLevel() and not slot0:isShipModMaxIntensifyLevel(getProxy(BayProxy):getShipById(slot0.shipId)) and getProxy(TechnologyProxy):calcPursuingCost(slot0, 1) == 0
 end
 

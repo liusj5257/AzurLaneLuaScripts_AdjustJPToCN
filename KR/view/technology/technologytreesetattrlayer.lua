@@ -1,17 +1,17 @@
 slot0 = class("TechnologyTreeSetAttrLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TechnologyTreeSetAttrUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:initUITips()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = slot0:getWeightFromData()
 	})
@@ -19,16 +19,16 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.typeContainer:GetChild(0), true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.resLoader:Clear()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0.closeBtn)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.tecNationProxy = getProxy(TechnologyNationProxy)
 	slot0.cacheAdditionMap = {}
 	slot0.curAdditionMap = slot0.tecNationProxy:getSetableAttrAddition()
@@ -43,12 +43,12 @@ function slot0.initData(slot0)
 	slot0.typeAttrTFTable = {}
 end
 
-function slot0.initUITips(slot0)
+slot0.initUITips = function(slot0)
 	setText(slot0:findTF("Adapt/Content/ResetBtn/Text"), i18n("attrset_reset"))
 	setText(slot0:findTF("Adapt/Content/SaveBtn/Text"), i18n("attrset_save"))
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.typeTpl = slot0:findTF("TypeTpl")
 	slot0.attrTpl = slot0:findTF("AttrTpl")
 	slot0.backBGTF = slot0:findTF("Adapt/BackBG")
@@ -63,7 +63,7 @@ function slot0.findUI(slot0)
 	slot0.attrUIItemList = UIItemList.New(slot0.attrContainer, slot0.attrTpl)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		if uv0:isChanged() then
 			slot3 = uv0
@@ -137,7 +137,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateTypeTF(slot0, slot1, slot2)
+slot0.updateTypeTF = function(slot0, slot1, slot2)
 	slot6 = slot0.typeOrderList[slot1]
 	slot7 = ShipType.Type2Name(slot6)
 
@@ -185,11 +185,11 @@ function slot0.updateTypeTF(slot0, slot1, slot2)
 	slot0.typeToggleTable[slot6] = slot2
 end
 
-function slot0.updateTypeList(slot0)
+slot0.updateTypeList = function(slot0)
 	slot0.typeUIItemList:align(#slot0.typeOrderList)
 end
 
-function slot0.updateAttrTF(slot0, slot1, slot2)
+slot0.updateAttrTF = function(slot0, slot1, slot2)
 	slot6 = slot0:findTF("Attr/InputField", slot2)
 	slot12 = slot0.typeAttrOrderListTable[slot0.curType][slot1]
 
@@ -235,7 +235,7 @@ function slot0.updateAttrTF(slot0, slot1, slot2)
 	slot0.typeAttrTFTable[slot0.curType][slot12] = slot2
 end
 
-function slot0.updateAttrList(slot0, slot1)
+slot0.updateAttrList = function(slot0, slot1)
 	slot0.typeAttrTFTable = {
 		[slot1] = {}
 	}
@@ -243,11 +243,11 @@ function slot0.updateAttrList(slot0, slot1)
 	slot0.attrUIItemList:align(#slot0.typeAttrOrderListTable[slot1])
 end
 
-function slot0.setAttrTFValue(slot0, slot1, slot2)
+slot0.setAttrTFValue = function(slot0, slot1, slot2)
 	setText(slot0:findTF("Attr/Value/CurValue", slot1), slot2)
 end
 
-function slot0.openSaveBox(slot0, slot1, slot2, slot3)
+slot0.openSaveBox = function(slot0, slot1, slot2, slot3)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("attrset_ask_save"),
 		onYes = slot1,
@@ -257,7 +257,7 @@ function slot0.openSaveBox(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.getAddValueForShow(slot0, slot1, slot2)
+slot0.getAddValueForShow = function(slot0, slot1, slot2)
 	if slot0.cacheAdditionMap[slot1] and slot0.cacheAdditionMap[slot1][slot2] then
 		return slot0.cacheAdditionMap[slot1][slot2]
 	elseif slot0.curAdditionMap[slot0.curType] and slot0.curAdditionMap[slot0.curType][slot2] then
@@ -267,7 +267,7 @@ function slot0.getAddValueForShow(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setAttrValue(slot0, slot1, slot2, slot3)
+slot0.setAttrValue = function(slot0, slot1, slot2, slot3)
 	if not slot0.cacheAdditionMap[slot1] then
 		slot0.cacheAdditionMap[slot1] = {}
 	end
@@ -275,11 +275,11 @@ function slot0.setAttrValue(slot0, slot1, slot2, slot3)
 	slot0.cacheAdditionMap[slot1][slot2] = slot3
 end
 
-function slot0.clearCacheMap(slot0)
+slot0.clearCacheMap = function(slot0)
 	slot0.cacheAdditionMap = {}
 end
 
-function slot0.isChanged(slot0)
+slot0.isChanged = function(slot0)
 	for slot4, slot5 in pairs(slot0.cacheAdditionMap) do
 		for slot9, slot10 in pairs(slot5) do
 			if slot10 ~= slot0.tecNationProxy:getSetableAttrAdditionValueByTypeAttr(slot4, slot9) then
@@ -291,7 +291,7 @@ function slot0.isChanged(slot0)
 	return false
 end
 
-function slot0.save(slot0, slot1)
+slot0.save = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.curAdditionMap) do
@@ -334,7 +334,7 @@ function slot0.save(slot0, slot1)
 	})
 end
 
-function slot0.reset(slot0)
+slot0.reset = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.curAdditionMap) do

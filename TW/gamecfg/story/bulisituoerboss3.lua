@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULISITUOERBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULISITUOERBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"演習神秘事件調查\n\n<size=45>三 加密通話</size>",
@@ -19,18 +19,18 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			oldPhoto = true,
 			dir = 1,
 			bgmDelay = 2,
+			oldPhoto = true,
 			bgm = "battle-boss-4",
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
+			bgName = "bg_story_nepu2",
 			say = "是我的錯覺嗎……敵人好像越來越多了？！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "轟————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -167,13 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒辦法……雖然有風險，但也只能進行加密通話了！",
 			typewriter = {
 				speed = 0.05,
@@ -204,13 +204,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "通訊器",
-			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "接下來還有英格拉罕的私人聯絡頻道可以試一試……",
 			typewriter = {
 				speed = 0.05,
@@ -422,13 +422,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我需要妳幫我送把傘過來啊！（我頂不住了，快派支援！）",
 			typewriter = {
 				speed = 0.05,
@@ -479,8 +479,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -489,13 +489,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（躲一下就好了——的意思是敵人攻勢猛烈，需要暫時躲避！）",
 			typewriter = {
 				speed = 0.05,
@@ -526,13 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我完全明白了！調查員通訊結束！",
 			typewriter = {
 				speed = 0.05,
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不過英格拉罕依然讓我在廢棄基地附近尋找掩護……是只要堅定守住這裡就有辦法的意思嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "布里斯托爾掏出筆記本，在上面寫下：",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "█年█月█日，晴（心情在下雨），港區半數被毀，戰況緊迫。",
@@ -631,8 +631,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,

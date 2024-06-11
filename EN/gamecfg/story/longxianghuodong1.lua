@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "Enterprise, I'm sooo bored~ Why don't we go grab Minneapolis and then head to shore for a barbecue?",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

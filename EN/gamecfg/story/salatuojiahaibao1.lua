@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIAHAIBAO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIAHAIBAO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Superstar of the Blue Seas\n\n<size=45>Chapter 1 - The Marine Idol!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "It was a peaceful day, and I was enjoying some time off.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "It was a peaceful day, and I was enjoying some time off.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The port was hosting a charity drive, and Saratoga plus a few others were planning to take part and help raise money.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "And the theme of the charity drive? Well...",
 			typewriter = {
 				speed = 0.05,
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Apparently, it's to \"help protect the seas! Join Sara and friends in the search for the Mythical Seal, said to bring luck to whoever finds it!\"",
 			typewriter = {
 				speed = 0.05,
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 107034,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107034,
+			nameColor = "#a9f548",
 			say = "That's the gist of it! Now let's go look for the Mythical Seal, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "C'mon, we'd better move out now! If we don't, someone else will find it before us!",
 			typewriter = {
@@ -131,9 +131,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "We... what...?",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Hasn't anybody told you, Commander? There have been confirmed sightings of the Mythical Seal in certain regions!",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Look, Akashi even made special gear to help us catch it!",
 			typewriter = {
@@ -205,9 +205,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Is that a... Mythical Seal radar?",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "She worked pretty hard on it! It's never been tested before, but let's hope it works.",
 			typewriter = {
@@ -236,12 +236,12 @@ return {
 			}
 		},
 		{
-			actor = 107020,
+			say = "It's not every day you see Sara as motivated as this~ I'm glad to see you raring to go.",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "It's not every day you see Sara as motivated as this~ I'm glad to see you raring to go.",
+			actor = 107020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Well, it's for charity. Besides, this \"Mythical Seal\" has got me curious, so I suppose I'll offer a hand in finding it.",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Fantastic! Thanks, Commander!",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,9 +377,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Oh yeah, Saratoga's wearing a new outfit...",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Finally noticed, have you? Hehehe~ I had it especially prepared for the fundraiser concert! I'm Sara, Superstar of the Blue Seas!",
 			typewriter = {
@@ -417,8 +417,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "With this radar and my knowledge, we'll catch the Mythical Seal in the blink of an eye! I've almost read so many books on marine life that I've got fish on the brain!",
 			typewriter = {
@@ -431,11 +431,11 @@ return {
 			}
 		},
 		{
-			actor = 107034,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107034,
+			nameColor = "#a9f548",
 			say = "If you have any aquatic inquiries, just ask, Commander! Professor Sara can teach you anything♪",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

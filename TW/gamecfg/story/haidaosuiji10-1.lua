@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "你手邊有些在森林裡採集到的蘋果，於是餵了一個給牠。",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "小狐狸很快吃完了蘋果，而後依然眼巴巴地看著你，似乎依舊飢餓的樣子。",
 			typewriter = {
 				speed = 0.05,

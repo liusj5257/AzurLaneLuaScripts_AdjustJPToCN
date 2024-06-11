@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_30 = {}
 slot1 = slot0.word_template_30
 
-function temp()
+temp = function()
 	uv0["葵"] = {
 		["花"] = {
 			["子"] = {
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["二"] = {
 		["十"] = {
 			["日"] = {
@@ -85,7 +85,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["广"] = {
 		["场"] = {
 			this = true
@@ -142,7 +142,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["1"] = {
 		["9"] = {
 			["8"] = {

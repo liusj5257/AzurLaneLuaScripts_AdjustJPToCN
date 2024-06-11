@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "制空战术",
 	time = 0,
-	color = "red",
+	name = "制空战术",
+	init_effect = "",
+	id = 902050,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902050,
+	color = "red",
 	icon = 902050,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onFoeAircraftDying"
 			},
 			arg_list = {
-				countTarget = 5,
 				killer = "child",
+				countTarget = 5,
 				countType = 902050
 			}
 		},
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 902050,
 				target = "TargetSelf",
+				skill_id = 902050,
 				countType = 902050
 			}
 		}

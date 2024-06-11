@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "1時間後――",
 			bgm = "theme-seaandsun-image",
+			say = "1時間後――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドから説明を受けた後、「偉大なるロイヤル・フォーチュン号」に名前を改められたクリッパーに戻った。",
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "地図の持ち主は「蒼き狼団」、かつての「大きな失墜」で失われたお宝を狙うトレジャーハンター……",
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "世に知られざる秘密の船団が突如復活！ってだけで胡散臭すぎるわ",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しかもルールを破ってポリスを襲うなんて……うっ、もうわけがわからない",
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "ロイヤル・フォーチュンの思考は渦の中へと入ってしまったようだ…",
@@ -450,11 +450,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "火力、速度、防御、どれもバランスの取れた船ね",
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "…………",
@@ -523,11 +523,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そんなことないよ？いい船ならみんな同じぐらい好き！",
@@ -647,11 +647,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "可愛くて強い――おまけに運もあるこのロイヤル・フォーチュンにとって、幽霊船なんてお手の物だから！",
@@ -684,11 +684,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあ別に今の船でも満足しているけどね！",
@@ -702,11 +702,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "満足してくれて何より～",
@@ -739,11 +739,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "道理であなたを「選んだ」わけね～",
@@ -795,11 +795,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "この船は何年も前に建造されたものだけど、新航路においては未だに一番優秀な船なの",
@@ -870,11 +870,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "この港にある全ての船は私のものよ",
@@ -907,11 +907,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "平気よ～。強者はここで何をしてもいいの",
@@ -963,11 +963,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それに私、この船よりも価値あるものを見つけちゃったわ♡（ぐちゅぐちゅ",
@@ -1000,11 +1000,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どういたしまして～。補給が終わったら偉大な航海に出ましょうね～",
@@ -1018,11 +1018,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ほ、補給の様子を確認してくる！指揮官、ここを任せた！",
@@ -1036,8 +1036,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "ロイヤル・フォーチュンはパっと急いでこの場から離れた。",
@@ -1047,8 +1047,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "いつしか、彼女も「指揮官」と呼ぶようになった――",
@@ -1058,11 +1058,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "面白いわね～",
@@ -1095,11 +1095,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官さま、知ってる？ポリスの教会に一つ言い伝えがあるわ",
@@ -1125,11 +1125,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "新世界を探索する冒険家の物語よ～",
@@ -1162,11 +1162,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あそこは風が吹かない海域、帆走に頼る船が沈む定めの底なし沼",
@@ -1199,11 +1199,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "一度入れば自力で抜け出せない絶境で、冒険家は女神に風が吹くように祈ったが、何も起きなかった",
@@ -1236,11 +1236,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嵐は船を新世界の浜辺にまで押し進め、そこで冒険家は「風無き海」を回避できる海図を手に入れた",
@@ -1273,11 +1273,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ロイヤル・フォーチュンの相棒である指揮官さまは知っていて？",
@@ -1310,8 +1310,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "…………",
@@ -1327,11 +1327,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……最後まで聞いてくれてありがとう",
@@ -1364,11 +1364,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官さま、あなたにも幸運の風がついていることを",
@@ -1382,8 +1382,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドは後ろの港へ振り向いた。",
@@ -1393,8 +1393,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "遠くからロイヤル・フォーチュンの口ずさむ歌声が聞こえてくる。",
@@ -1404,11 +1404,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "錨をあげよう♪帆を降ろせ♪",

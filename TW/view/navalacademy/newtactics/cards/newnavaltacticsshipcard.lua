@@ -1,6 +1,6 @@
 slot0 = class("NewNavalTacticsShipCard", import(".NewNavalTacticsBaseCard"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = findTF(slot0._tf, "skill/name_Text")
 	slot0.skillNameTxt = slot1:GetComponent(typeof(Text))
 	slot1 = findTF(slot0._tf, "skill/icon")
@@ -32,7 +32,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.LoadShipCard(slot0)
+slot0.LoadShipCard = function(slot0)
 	slot1 = ResourceMgr.Inst
 
 	slot1:getAssetAsync("template/shipcardtpl", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -45,7 +45,7 @@ function slot0.LoadShipCard(slot0)
 	end), true, true)
 end
 
-function slot0.OnUpdate(slot0, slot1)
+slot0.OnUpdate = function(slot0, slot1)
 	slot0.student = slot1
 	slot0.ship = getProxy(BayProxy):RawGetShipById(slot0.student.shipId)
 	slot0.skillVO = ShipSkill.New(slot0.ship.skills[slot0.student:getSkillId(slot0.ship)], slot0.ship.id)
@@ -62,7 +62,7 @@ function slot0.OnUpdate(slot0, slot1)
 	setActive(slot0.quickFinishBtn, getProxy(NavalAcademyProxy):getDailyFinishCnt() > 0)
 end
 
-function slot0.UpdateSkill(slot0)
+slot0.UpdateSkill = function(slot0)
 	slot1 = slot0.ship
 	slot2 = slot0.student
 	slot3 = slot0.skillVO
@@ -83,7 +83,7 @@ function slot0.UpdateSkill(slot0)
 	end
 end
 
-function slot0.AddTimer(slot0)
+slot0.AddTimer = function(slot0)
 	slot0:RemoveTimer()
 
 	slot2 = slot0.student:getFinishTime()
@@ -99,7 +99,7 @@ function slot0.AddTimer(slot0)
 	slot0.timer.func()
 end
 
-function slot0.OnFinish(slot0)
+slot0.OnFinish = function(slot0)
 	slot0:RemoveTimer()
 
 	slot0.timeTxt.text = ""
@@ -107,11 +107,11 @@ function slot0.OnFinish(slot0)
 	slot0:emit(NewNavalTacticsMediator.ON_CANCEL, slot0.student.id, Student.CANCEL_TYPE_AUTO)
 end
 
-function slot0.OnCancel(slot0)
+slot0.OnCancel = function(slot0)
 	slot0:emit(NewNavalTacticsMediator.ON_CANCEL, slot0.student.id, Student.CANCEL_TYPE_MANUAL)
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -119,7 +119,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.UpdateShipCard(slot0)
+slot0.UpdateShipCard = function(slot0)
 	if slot0.ship.id == slot0.shipID then
 		return
 	end
@@ -129,7 +129,7 @@ function slot0.UpdateShipCard(slot0)
 	slot0.shipID = slot0.ship.id
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0:RemoveTimer()
 
 	if LeanTween.isTweening(slot0.skillExpSlider.gameObject) then
@@ -141,7 +141,7 @@ function slot0.OnDispose(slot0)
 	end
 end
 
-function slot0.DoAddExpAnim(slot0, slot1, slot2, slot3)
+slot0.DoAddExpAnim = function(slot0, slot1, slot2, slot3)
 	if slot2.level - slot1.level > 0 then
 		slot0:DoLevelUpAnim(slot1, slot2, slot3)
 	else
@@ -149,7 +149,7 @@ function slot0.DoAddExpAnim(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.DoLevelUpAnim(slot0, slot1, slot2, slot3)
+slot0.DoLevelUpAnim = function(slot0, slot1, slot2, slot3)
 	seriesAsync({
 		function (slot0)
 			uv0:Curr2One(uv1, slot0)
@@ -163,7 +163,7 @@ function slot0.DoLevelUpAnim(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.Curr2One(slot0, slot1, slot2)
+slot0.Curr2One = function(slot0, slot1, slot2)
 	slot3 = slot1:GetNextLevelExp()
 	slot4 = slot1.exp / slot3
 	slot5 = 1 - slot4
@@ -185,14 +185,14 @@ function slot0.Curr2One(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.Zero2One(slot0, slot1, slot2, slot3)
+slot0.Zero2One = function(slot0, slot1, slot2, slot3)
 	if slot1.level + 1 == slot2.level then
 		slot3()
 
 		return
 	end
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		slot1 = 0.3
 		slot2 = LeanTween.value(uv0.skillExpSlider.gameObject, 0, 1, slot1)
 
@@ -222,7 +222,7 @@ function slot0.Zero2One(slot0, slot1, slot2, slot3)
 	seriesAsync(slot6, slot3)
 end
 
-function slot0.Zero2New(slot0, slot1, slot2)
+slot0.Zero2New = function(slot0, slot1, slot2)
 	if slot1.exp / slot1:GetNextLevelExp() == 0 or slot1:IsMaxLevel() then
 		slot2()
 
@@ -237,7 +237,7 @@ function slot0.Zero2New(slot0, slot1, slot2)
 	end)):setOnComplete(System.Action(slot2))
 end
 
-function slot0.DoUnLevelUpAnim(slot0, slot1, slot2, slot3)
+slot0.DoUnLevelUpAnim = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2:GetNextLevelExp()
 
 	LeanTween.value(slot0.skillExpSlider.gameObject, slot1.exp / slot4, slot2.exp / slot4, 1):setOnUpdate(System.Action_float(function (slot0)

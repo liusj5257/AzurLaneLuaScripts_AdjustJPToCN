@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"시끌벅적 설날 축제\n\n<size=45>제5장 - 모두 함께 (상)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "(똑똑)",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "(똑똑)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#92fc63",
 			say = "이건 지휘관이 추천한 거다. 이스트 글림의 새해 분위기를 느껴줬으면 한다며 추천해줬는데, 의외로 센스가 좋군.",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#92fc63",
 			say = "렉싱턴 님, 엔터프라이즈 님, 평안하신지요. 이건……?",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#92fc63",
 			say = "그 말대로다. 설마 그쪽도 지휘관이 추천한 것은……",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#92fc63",
 			say = "아카시님께 옷감을 제공받아, 이글 유니온 여러분의 몫도 준비해두었습니다. 그리고……",
 			typewriter = {
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "설날 대방출이다냥! 옷감 대금은 지휘관한테 청구해둘게냥!",
 			effects = {
 				{
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#92fc63",
 			say = "과연. 우리는 라피와 빅토리어스 일행이 만든 거다.",
 			effects = {
 				{
@@ -354,15 +354,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#92fc63",
 			say = "다들 모처럼 와주셨으니, 만찬 식사라도 함께 어떠세요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -406,8 +406,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#92fc63",
 			say = "늘어난 인원수만큼의 식재료도 자재에 포함되어 있습니다. 하지만 그 대신, 부디 저희들도 도와드릴 수 있도록 해주시기 바랍니다.",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#92fc63",
 			say = "이글 유니온 애들도 놀라겠는걸~",
 			typewriter = {
@@ -488,9 +488,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 206042,
 			dir = 1,
 			blackBg = true,
+			actor = 206042,
 			nameColor = "#92fc63",
 			say = "저, 저도 도울게요!",
 			typewriter = {

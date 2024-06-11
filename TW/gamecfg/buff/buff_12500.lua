@@ -122,12 +122,12 @@ return {
 	desc_get = "",
 	name = "巴丹地狱猫",
 	init_effect = "",
+	id = 12500,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12500,
+	color = "red",
 	icon = 12500,
 	last_effect = "",
 	effect_list = {
@@ -137,8 +137,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 12500,
 				minWeaponNumber = 1,
+				skill_id = 12500,
 				check_weapon = true,
 				weapon_group = {
 					17300,
@@ -153,8 +153,8 @@ return {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {
-				skill_id = 12502,
 				minWeaponNumber = 1,
+				skill_id = 12502,
 				check_weapon = true,
 				weapon_group = {
 					17300,

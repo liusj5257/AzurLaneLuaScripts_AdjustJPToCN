@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_64 = {}
 slot1 = slot0.word_template_64
 
-function temp()
+temp = function()
 	uv0.k = {
 		["粉"] = {
 			this = true
@@ -88,7 +88,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["谋"] = {
 		["杀"] = {
 			this = true
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["杀"] = {
 		["人"] = {
 			this = true,
@@ -118,7 +118,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吸"] = {
 		["毒"] = {
 			this = true

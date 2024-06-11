@@ -209,15 +209,15 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "2023黑阿尔及利亚 链接石柱",
 	time = 0,
-	id = 200464,
+	name = "2023黑阿尔及利亚 链接石柱",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	painting = 1,
 	stack = 1,
-	color = "red",
+	id = 200464,
 	last_effect = "",
 	effect_list = {
 		{

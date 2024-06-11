@@ -1,10 +1,10 @@
 slot0 = class("BlueprintAssignedItemView", import(".AssignedItemView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BlueprintItemAssignedView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot1 = slot0._tf
@@ -68,7 +68,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.GetBlueprintNeed(slot0, slot1)
+slot0.GetBlueprintNeed = function(slot0, slot1)
 	slot0.technologyProxy = slot0.technologyProxy or getProxy(TechnologyProxy)
 	slot2 = slot0.technologyProxy:getBluePrintById(slot0.technologyProxy:GetBlueprint4Item(slot1))
 	slot0.bagProxy = slot0.bagProxy or getProxy(BagProxy)
@@ -76,13 +76,13 @@ function slot0.GetBlueprintNeed(slot0, slot1)
 	return math.max(slot2:getUseageMaxItem() + (slot0.isSwitch and slot2:getFateMaxLeftOver() or 0) - slot0.bagProxy:getItemCountById(slot2:getItemId()), 0)
 end
 
-function slot0.checkBlueprintIsUnlock(slot0, slot1)
+slot0.checkBlueprintIsUnlock = function(slot0, slot1)
 	slot0.technologyProxy = slot0.technologyProxy or getProxy(TechnologyProxy)
 
 	return slot0.technologyProxy:getBluePrintById(slot0.technologyProxy:GetBlueprint4Item(slot1)):isUnlock()
 end
 
-function slot0.updateValue(slot0)
+slot0.updateValue = function(slot0)
 	slot0.isAllNeedZero = underscore.all(slot0.displayDrops, function (slot0)
 		return uv0:GetBlueprintNeed(slot0.id) == 0
 	end)
@@ -103,7 +103,7 @@ function slot0.updateValue(slot0)
 	end)
 end
 
-function slot0.updateCountText(slot0)
+slot0.updateCountText = function(slot0)
 	slot1 = slot0.displayDrops[slot0.selectedIndex]
 	slot2 = slot0.count * slot1.count
 	slot3 = slot0:GetBlueprintNeed(slot1.id)
@@ -112,7 +112,7 @@ function slot0.updateCountText(slot0)
 	setActive(slot0.countOver, not slot0.isAllNeedZero and slot3 < slot2)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.count = 1
 	slot0.selectedIndex = nil
 	slot0.selectedItem = nil

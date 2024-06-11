@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "Dragon Palace - Outer Ring",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "Dragon Palace - Outer Ring",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -90,8 +90,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "I must admit, I didn't think of the brute force approach to unlocking that mechanism that Katsuragi used... Heh.",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "Truly, our carriers never fail to surprise me.",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "For better or for worse though, \"they\" have been sending us information, and I'm not sure what to make of it...",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(I thought it was a better idea to take a detour, but... Yeah, that's just like that fuel-for-brains. She rushed headfirst into the fray last time as well...)",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Suruga? What's wrong? We're about to leave...",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "You asked for it. If it's a serious match you want, it's a serious match you'll get!",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Oh my. Are you finally starting to see the fun in our little competition?",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(I'd be having more fun if we weren't trapped in a facility we have zero data on with no way of contacting the outside world, but...)",
 			typewriter = {
@@ -319,9 +319,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(I don't want to do this, but I don't really have a choice...!)",
 			typewriter = {

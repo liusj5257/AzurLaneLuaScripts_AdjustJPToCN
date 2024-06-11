@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "黑基洛夫BOSS战 曙光联合 彗星在场时提升BOSS属性",
 	time = 0,
+	name = "黑基洛夫BOSS战 曙光联合 彗星在场时提升BOSS属性",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 1000
+				number = 1000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 1000
+				number = 1000,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 1000
+				number = 1000,
+				attr = "attackRating"
 			}
 		}
 	}

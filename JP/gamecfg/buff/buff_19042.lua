@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "底力爆发",
 	init_effect = "",
+	id = 19042,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "受到伤害降低",
 	stack = 1,
-	id = 19042,
+	color = "blue",
 	icon = 19040,
 	last_effect = "",
 	blink = {
@@ -25,8 +25,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.2
+				number = -0.2,
+				attr = "injureRatio"
 			}
 		}
 	}

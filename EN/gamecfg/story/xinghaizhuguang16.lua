@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_3",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "In the Sea of Stars control room, TB's battle with the hostile data raged on.",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 199030,
 			side = 2,
 			bgName = "bg_starsea_core_3",
 			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
+			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's okay. I'm right here...",

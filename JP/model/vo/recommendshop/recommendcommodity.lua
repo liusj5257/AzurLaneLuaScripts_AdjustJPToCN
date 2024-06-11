@@ -4,7 +4,7 @@ slot2 = 2
 slot0.PRICE_TYPE_RMB = 1
 slot0.PRICE_TYPE_RES = 2
 
-function slot3(slot0)
+slot3 = function(slot0)
 	slot1 = nil
 
 	if slot0 == uv0 then
@@ -18,7 +18,7 @@ function slot3(slot0)
 	return slot1
 end
 
-function slot4(slot0, slot1, slot2, slot3)
+slot4 = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	if slot0 == uv0 then
@@ -30,7 +30,7 @@ function slot4(slot0, slot1, slot2, slot3)
 	return ChargeConst.getBuyCount(slot4, slot1)
 end
 
-function slot5(slot0, slot1, slot2)
+slot5 = function(slot0, slot1, slot2)
 	if slot0 == uv0 then
 		return 0
 	elseif slot0 == uv1 then
@@ -38,13 +38,13 @@ function slot5(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.commodity = slot0:GenCommodity(slot1.chargedList, slot1.normalList, slot1.normalGroupList)
 end
 
-function slot0.GenCommodity(slot0, slot1, slot2, slot3)
+slot0.GenCommodity = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getConfig("shop_type")
 	slot7 = Goods.Create({
 		id = slot0:getConfig("shop_id")
@@ -59,15 +59,15 @@ function slot0.GenCommodity(slot0, slot1, slot2, slot3)
 	return slot7
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.recommend_shop
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.commodity:GetName() or ""
 end
 
-function slot0.GetDesc(slot0)
+slot0.GetDesc = function(slot0)
 	if slot0.commodity:isChargeType() then
 		if slot0.commodity:isMonthCard() then
 			return i18n("monthly_card_tip")
@@ -79,7 +79,7 @@ function slot0.GetDesc(slot0)
 	end
 end
 
-function slot0.GetDropList(slot0)
+slot0.GetDropList = function(slot0)
 	if slot0.commodity:isChargeType() and slot0.commodity:isMonthCard() then
 		return slot0.commodity:GetDropList()
 	else
@@ -87,7 +87,7 @@ function slot0.GetDropList(slot0)
 	end
 end
 
-function slot0.GetGem(slot0)
+slot0.GetGem = function(slot0)
 	if slot0.commodity:isChargeType() then
 		return slot0.commodity:GetGemCnt()
 	else
@@ -95,7 +95,7 @@ function slot0.GetGem(slot0)
 	end
 end
 
-function slot0.GetPrice(slot0)
+slot0.GetPrice = function(slot0)
 	if slot0.commodity:isChargeType() then
 		return uv0.PRICE_TYPE_RMB, slot0.commodity:getConfig("money")
 	else
@@ -103,7 +103,7 @@ function slot0.GetPrice(slot0)
 	end
 end
 
-function slot0.GetIcon(slot0)
+slot0.GetIcon = function(slot0)
 	if slot0:getConfig("pic") and slot1 ~= "" then
 		return slot1
 	elseif slot0.commodity:isChargeType() then
@@ -113,15 +113,15 @@ function slot0.GetIcon(slot0)
 	end
 end
 
-function slot0.InTime(slot0)
+slot0.InTime = function(slot0)
 	return pg.TimeMgr.GetInstance():inTime(slot0:getConfig("time"))
 end
 
-function slot0.GetOrder(slot0)
+slot0.GetOrder = function(slot0)
 	return slot0:getConfig("order")
 end
 
-function slot0.CanPurchase(slot0)
+slot0.CanPurchase = function(slot0)
 	return slot0:InTime() and slot0.commodity:canPurchase() and slot0.commodity:inTime() and not (function (slot0)
 		if slot0:isChargeType() then
 			return false
@@ -131,7 +131,7 @@ function slot0.CanPurchase(slot0)
 	end)(slot0.commodity)
 end
 
-function slot0.CanShow(slot0)
+slot0.CanShow = function(slot0)
 	if slot0:IsMonthCard() then
 		return true
 	else
@@ -139,11 +139,11 @@ function slot0.CanShow(slot0)
 	end
 end
 
-function slot0.IsMonthCard(slot0)
+slot0.IsMonthCard = function(slot0)
 	return slot0.commodity:isChargeType() and slot0.commodity:isMonthCard()
 end
 
-function slot0.IsMonthCardAndCantPurchase(slot0)
+slot0.IsMonthCardAndCantPurchase = function(slot0)
 	if slot0:IsMonthCard() then
 		if getProxy(PlayerProxy):getRawData():getCardById(VipCard.MONTH) and slot2:GetLeftDay() > (slot0.commodity:getConfig("limit_arg") or 0) then
 			return true, i18n("charge_menu_month_tip", slot2:GetLeftDay())
@@ -155,7 +155,7 @@ function slot0.IsMonthCardAndCantPurchase(slot0)
 	return false
 end
 
-function slot0.GetRealCommodity(slot0)
+slot0.GetRealCommodity = function(slot0)
 	return slot0.commodity
 end
 

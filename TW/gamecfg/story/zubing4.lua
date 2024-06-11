@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"前進吧，{namecode:144}！\n\n<size=45>四 {namecode:144}，為何而戰？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "某日·演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,15 +98,15 @@ return {
 			}
 		},
 		{
-			actor = 205070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205070,
+			nameColor = "#a9f548",
 			say = "余沒記錯的話，汝正是重櫻的{namecode:144}吧。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -134,10 +134,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "欸？啊，是、是的。",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -186,10 +186,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（這，這是在誇獎我吧？）",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "謝謝。",
 			typewriter = {
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 5,
 			side = 0,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（這，這是在說什麼？是問我有今天這樣表現的理由？）",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "唔…我覺得雖然是演習，但是自己畢竟代表著重櫻這一方……",
 			typewriter = {
@@ -318,10 +318,10 @@ return {
 		{
 			expression = 6,
 			side = 0,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（沒，沒聽懂……）",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "兩人離開了演習海域。",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（這樣算是……得救了吧）",
 			typewriter = {
@@ -424,12 +424,12 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（我一直在意的東西，會是什麼呢）",
 			typewriter = {
 				speed = 0.05,

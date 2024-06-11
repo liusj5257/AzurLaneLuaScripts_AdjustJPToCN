@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.activity_ryza_recipe = {
 	{
-		display = "這把鐮刀被改良得更方便採集，可以像風一樣安靜輕巧地割下花草。",
 		rarity = 3,
+		display = "這把鐮刀被改良得更方便採集，可以像風一樣安靜輕巧地割下花草。",
 		name = "寂靜鐮刀",
 		type = 3,
-		id = 1,
 		item_num = 1,
+		id = 1,
 		icon = "props/ryza_item_4",
 		item_id = {
 			1001,
@@ -26,12 +26,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "因為經過改良，仔細調整了鋒利度和重量，採集木材和木柴會比一般斧頭更輕鬆。",
 		rarity = 3,
+		display = "因為經過改良，仔細調整了鋒利度和重量，採集木材和木柴會比一般斧頭更輕鬆。",
 		name = "黃金之斧",
 		type = 3,
-		id = 2,
 		item_num = 1,
+		id = 2,
 		icon = "props/ryza_item_3",
 		item_id = {
 			1001,
@@ -52,12 +52,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "炎燒杖的強化版。前端的寶玉更換為藍色，因此能更有效率地破壞岩石和水晶。",
 		rarity = 3,
+		display = "炎燒杖的強化版。前端的寶玉更換為藍色，因此能更有效率地破壞岩石和水晶。",
 		name = "藍炎燒杖",
 		type = 3,
-		id = 3,
 		item_num = 1,
+		id = 3,
 		icon = "props/ryza_item_2",
 		item_id = {
 			1001,
@@ -78,12 +78,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "釣魚竿的強化版。經過強化後，會讓魚失去戒心主動靠近。",
 		rarity = 3,
+		display = "釣魚竿的強化版。經過強化後，會讓魚失去戒心主動靠近。",
 		name = "神桿慈悲",
 		type = 3,
-		id = 4,
 		item_num = 1,
+		id = 4,
 		icon = "props/ryza_item_1",
 		item_id = {
 			1001,
@@ -105,12 +105,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "擁有強大的握力和推力的塞壬機械臂，還能發射灼熱的開採雷射——用來進行鍊金術素材的採集似乎是個不錯的選擇？",
 		rarity = 3,
+		display = "擁有強大的握力和推力的塞壬機械臂，還能發射灼熱的開採雷射——用來進行鍊金術素材的採集似乎是個不錯的選擇？",
 		name = "雷射切割器",
 		type = 3,
-		id = 5,
 		item_num = 1,
+		id = 5,
 		icon = "props/ryza_item_5",
 		item_id = {
 			1001,
@@ -128,12 +128,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[10] = {
-		display = "萊莎琳·斯托特使用的武器。\n散發強烈光芒的手杖。即使什麼都不做也會持續閃爍耀眼光輝。沐浴在這道光芒中，不僅裝備者，連四周的人都會感覺內心變得光明。",
 		rarity = 4,
+		display = "萊莎琳·斯托特使用的武器。\n散發強烈光芒的手杖。即使什麼都不做也會持續閃爍耀眼光輝。沐浴在這道光芒中，不僅裝備者，連四周的人都會感覺內心變得光明。",
 		name = "閃耀夢想",
 		type = 1,
-		id = 10,
 		item_num = 1,
+		id = 10,
 		icon = "equips/10360",
 		item_id = {
 			21,
@@ -154,12 +154,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[20] = {
-		display = "科洛蒂婭·巴蘭茨使用的武器。\n射出的箭矢會在黑暗中如星星般閃耀，因此而得名。應該誰都不想在黑暗中被這種弓瞄準吧。",
 		rarity = 4,
+		display = "科洛蒂婭·巴蘭茨使用的武器。\n射出的箭矢會在黑暗中如星星般閃耀，因此而得名。應該誰都不想在黑暗中被這種弓瞄準吧。",
 		name = "暗夜星矢",
 		type = 1,
-		id = 20,
 		item_num = 1,
+		id = 20,
 		icon = "equips/10380",
 		item_id = {
 			21,
@@ -180,12 +180,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[30] = {
-		display = "派翠夏‧阿貝爾海姆使用的武器。\n據說這把劍具有意志，會自己選擇使用者。如果沒有高尚的靈魂，再厲害的高手都無法駕馭。",
 		rarity = 4,
+		display = "派翠夏‧阿貝爾海姆使用的武器。\n據說這把劍具有意志，會自己選擇使用者。如果沒有高尚的靈魂，再厲害的高手都無法駕馭。",
 		name = "愛瑟爾劍",
 		type = 1,
-		id = 30,
 		item_num = 1,
+		id = 30,
 		icon = "equips/10400",
 		item_id = {
 			21,
@@ -207,12 +207,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[40] = {
-		display = "莉拉·德西亞斯使用的武器。\n歐蘭族曾經使用的傳統武器之一。據稱，將武器背在身上，周遭居住的精靈便會賦予其力量。",
 		rarity = 4,
+		display = "莉拉·德西亞斯使用的武器。\n歐蘭族曾經使用的傳統武器之一。據稱，將武器背在身上，周遭居住的精靈便會賦予其力量。",
 		name = "幽蘭爪",
 		type = 1,
-		id = 40,
 		item_num = 1,
+		id = 40,
 		icon = "equips/10420",
 		item_id = {
 			21,
@@ -236,12 +236,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[50] = {
-		display = "賽莉·古勞斯使用的武器。\n據說曾被稱為“花之賢者”的人物戴過的手環。佩戴者行走在路上，四周的花朵就會盛開，因此“花之賢者”的周圍好像總是一片花田。",
 		rarity = 4,
+		display = "賽莉·古勞斯使用的武器。\n據說曾被稱為“花之賢者”的人物戴過的手環。佩戴者行走在路上，四周的花朵就會盛開，因此“花之賢者”的周圍好像總是一片花田。",
 		name = "百花盛開",
 		type = 1,
-		id = 50,
 		item_num = 1,
+		id = 50,
 		icon = "equips/10440",
 		item_id = {
 			21,
@@ -263,12 +263,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[60] = {
-		display = "卡菈·伊迪亞斯使用的武器。\n奇形怪狀的戰鎚。平坦的部分另一側的造型純粹是為了美觀。",
 		rarity = 4,
+		display = "卡菈·伊迪亞斯使用的武器。\n奇形怪狀的戰鎚。平坦的部分另一側的造型純粹是為了美觀。",
 		name = "百合長老",
 		type = 1,
-		id = 60,
 		item_num = 1,
+		id = 60,
 		icon = "equips/10460",
 		item_id = {
 			21,
@@ -292,12 +292,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[70] = {
-		display = "一種威力強大的火屬性炸彈，使用後可以對敵人造成傷害。",
 		rarity = 4,
+		display = "一種威力強大的火屬性炸彈，使用後可以對敵人造成傷害。",
 		name = "炙烈炎燒",
 		type = 1,
-		id = 70,
 		item_num = 1,
+		id = 70,
 		icon = "equips/89420",
 		item_id = {
 			3,
@@ -322,12 +322,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[80] = {
-		display = "一種威力強大的冰屬性炸彈，使用後可以對敵人造成傷害。",
 		rarity = 4,
+		display = "一種威力強大的冰屬性炸彈，使用後可以對敵人造成傷害。",
 		name = "结晶冰精",
 		type = 1,
-		id = 80,
 		item_num = 1,
+		id = 80,
 		icon = "equips/89440",
 		item_id = {
 			3,
@@ -352,12 +352,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[90] = {
-		display = "一種威力強大的雷屬性炸彈，使用後可以對敵人造成傷害。",
 		rarity = 4,
+		display = "一種威力強大的雷屬性炸彈，使用後可以對敵人造成傷害。",
 		name = "震耳雷球",
 		type = 1,
-		id = 90,
 		item_num = 1,
+		id = 90,
 		icon = "equips/89460",
 		item_id = {
 			3,
@@ -382,12 +382,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[100] = {
-		display = "一種威力強大的風屬性炸彈，使用後可以對敵人造成傷害。",
 		rarity = 4,
+		display = "一種威力強大的風屬性炸彈，使用後可以對敵人造成傷害。",
 		name = "渦旋風精",
 		type = 1,
-		id = 100,
 		item_num = 1,
+		id = 100,
 		icon = "equips/89480",
 		item_id = {
 			3,
@@ -411,12 +411,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[110] = {
-		display = "用力一敲就能讓大地劇烈搖晃的槌子。大地搖晃時空氣振動及天空傳來鳴響的樣子，讓人聯想到創世的景象，所以如此命名。",
 		rarity = 4,
+		display = "用力一敲就能讓大地劇烈搖晃的槌子。大地搖晃時空氣振動及天空傳來鳴響的樣子，讓人聯想到創世的景象，所以如此命名。",
 		name = "創世之槌",
 		type = 1,
-		id = 110,
 		item_num = 1,
+		id = 110,
 		icon = "equips/89580",
 		item_id = {
 			3,
@@ -442,12 +442,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[120] = {
-		display = "不需要槍管的子彈。將前端對準目標發射，子彈會先在上空盤旋，然後筆直地朝目標前進，在打中的瞬間爆炸。",
 		rarity = 4,
+		display = "不需要槍管的子彈。將前端對準目標發射，子彈會先在上空盤旋，然後筆直地朝目標前進，在打中的瞬間爆炸。",
 		name = "泡雲彈車",
 		type = 1,
-		id = 120,
 		item_num = 1,
+		id = 120,
 		icon = "equips/89600",
 		item_id = {
 			3,
@@ -476,12 +476,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[130] = {
-		display = "一種威力強大的炸彈，使用後可以降低敵人的防禦力。",
 		rarity = 4,
+		display = "一種威力強大的炸彈，使用後可以降低敵人的防禦力。",
 		name = "Ｎ／Ａ",
 		type = 1,
-		id = 130,
 		item_num = 1,
+		id = 130,
 		icon = "equips/89560",
 		item_id = {
 			3,
@@ -507,12 +507,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[140] = {
-		display = "一種威力強大的道具，使用後可以降低敵人屬性，但使用時會消耗使用者的HP。",
 		rarity = 4,
+		display = "一種威力強大的道具，使用後可以降低敵人屬性，但使用時會消耗使用者的HP。",
 		name = "默示錄",
 		type = 1,
-		id = 140,
 		item_num = 1,
+		id = 140,
 		icon = "equips/89540",
 		item_id = {
 			3,
@@ -546,12 +546,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[150] = {
-		display = "色調帶有神秘感的羽衣。雖然是薄得可以一眼看透的布料，但展開之後可以保護自己不受任何攻擊。",
 		rarity = 4,
+		display = "色調帶有神秘感的羽衣。雖然是薄得可以一眼看透的布料，但展開之後可以保護自己不受任何攻擊。",
 		name = "神秘的羽衣",
 		type = 1,
-		id = 150,
 		item_num = 1,
+		id = 150,
 		icon = "equips/89520",
 		item_id = {
 			3,
@@ -583,12 +583,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[160] = {
-		display = "不僅能治好任何傷和疾病，就連死亡也能應對的超強力藥劑。只有極少數的鍊金術士才做得出來，被視為鍊金術的終極技術之一。",
 		rarity = 4,
+		display = "不僅能治好任何傷和疾病，就連死亡也能應對的超強力藥劑。只有極少數的鍊金術士才做得出來，被視為鍊金術的終極技術之一。",
 		name = "萬靈藥劑",
 		type = 1,
-		id = 160,
 		item_num = 1,
+		id = 160,
 		icon = "equips/89500",
 		item_id = {
 			3,
@@ -618,12 +618,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[170] = {
-		display = "可將意志化作音色的口琴。不僅吹奏的人，聽到口琴音色的人也會被賦予各種力量。",
 		rarity = 4,
+		display = "可將意志化作音色的口琴。不僅吹奏的人，聽到口琴音色的人也會被賦予各種力量。",
 		name = "形意口琴",
 		type = 1,
-		id = 170,
 		item_num = 1,
+		id = 170,
 		icon = "equips/89620",
 		item_id = {
 			3,
@@ -643,12 +643,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[180] = {
-		display = "可以獲得一件隨機的鍊金工房風格外觀裝備",
 		rarity = 4,
+		display = "可以獲得一件隨機的鍊金工房風格外觀裝備",
 		name = "裝備外觀箱(鍊金工房)",
 		type = 2,
-		id = 180,
 		item_num = 10,
+		id = 180,
 		icon = "props/appearanceboxlaisha",
 		item_id = {
 			2,
@@ -674,12 +674,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[190] = {
-		display = "借助鍊金術融合四把鑰匙之後形成的類似門卡的裝置，形狀似乎能與核心之所大門上的凹槽完美對應。",
 		rarity = 3,
+		display = "借助鍊金術融合四把鑰匙之後形成的類似門卡的裝置，形狀似乎能與核心之所大門上的凹槽完美對應。",
 		name = "遺跡之鑰·核心之所",
 		type = 2,
-		id = 190,
 		item_num = 1,
+		id = 190,
 		icon = "props/ryza_item_31",
 		item_id = {
 			1001,
@@ -694,12 +694,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[200] = {
-		display = "利用從遺跡中回收的素材製作的精美雕塑，紀念這一段充滿驚喜的秘密遺跡群島冒險之旅。 ——「鍊金術士與秘密遺跡群島」活動紀念\n「……嗯，這也是桶子！」",
 		rarity = 4,
+		display = "利用從遺跡中回收的素材製作的精美雕塑，紀念這一段充滿驚喜的秘密遺跡群島冒險之旅。 ——「鍊金術士與秘密遺跡群島」活動紀念\n「……嗯，這也是桶子！」",
 		name = "遺跡冒險之證",
 		type = 2,
-		id = 200,
 		item_num = 1,
+		id = 200,
 		icon = "furnitureicon/chuanmo/lianjinxunzhangicon",
 		item_id = {
 			5,
@@ -727,12 +727,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[210] = {
-		display = "小瓶中封存了以鍊金術人工製造的精靈之力。可適應任何屬性，卻不易使用。",
 		rarity = 2,
+		display = "小瓶中封存了以鍊金術人工製造的精靈之力。可適應任何屬性，卻不易使用。",
 		name = "精靈的小瓶",
 		type = 4,
-		id = 210,
 		item_num = -1,
+		id = 210,
 		icon = "props/ryza_item_21",
 		item_id = {
 			1001,
@@ -745,12 +745,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[220] = {
-		display = "頻繁出現在鍊金術調合中的基礎藥劑。為紅色液體，與火屬性素材的契合度高。",
 		rarity = 3,
+		display = "頻繁出現在鍊金術調合中的基礎藥劑。為紅色液體，與火屬性素材的契合度高。",
 		name = "中和劑·紅",
 		type = 4,
-		id = 220,
 		item_num = -1,
+		id = 220,
 		icon = "props/ryza_item_22",
 		item_id = {
 			1001,
@@ -764,12 +764,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[230] = {
-		display = "頻繁出現在鍊金術調合中的基礎藥劑。為藍色液體，與冰屬性素材的契合度高。",
 		rarity = 3,
+		display = "頻繁出現在鍊金術調合中的基礎藥劑。為藍色液體，與冰屬性素材的契合度高。",
 		name = "中和劑·藍",
 		type = 4,
-		id = 230,
 		item_num = -1,
+		id = 230,
 		icon = "props/ryza_item_23",
 		item_id = {
 			1001,
@@ -783,12 +783,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[240] = {
-		display = "頻繁出現在鍊金術調合中的基礎藥劑。為黃色液體，與雷屬性素材的契合度高。",
 		rarity = 3,
+		display = "頻繁出現在鍊金術調合中的基礎藥劑。為黃色液體，與雷屬性素材的契合度高。",
 		name = "中和劑·黃",
 		type = 4,
-		id = 240,
 		item_num = -1,
+		id = 240,
 		icon = "props/ryza_item_25",
 		item_id = {
 			1001,
@@ -802,12 +802,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[250] = {
-		display = "頻繁出現在鍊金術調合中的基礎藥劑。為綠色液體，與風屬性素材的契合度高",
 		rarity = 3,
+		display = "頻繁出現在鍊金術調合中的基礎藥劑。為綠色液體，與風屬性素材的契合度高",
 		name = "中和劑·綠",
 		type = 4,
-		id = 250,
 		item_num = -1,
+		id = 250,
 		icon = "props/ryza_item_24",
 		item_id = {
 			1001,
@@ -821,12 +821,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[260] = {
-		display = "從四種元素核心製作而成的最高階素材之一。具備全屬性與高屬性值，進行高階調合時可派上用場。",
 		rarity = 4,
+		display = "從四種元素核心製作而成的最高階素材之一。具備全屬性與高屬性值，進行高階調合時可派上用場。",
 		name = "核水晶元素",
 		type = 4,
-		id = 260,
 		item_num = -1,
+		id = 260,
 		icon = "props/ryza_item_26",
 		item_id = {
 			1001,
@@ -841,12 +841,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[270] = {
-		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得炮擊、航空、雷擊屬性提高的效果",
 		rarity = 4,
+		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得炮擊、航空、雷擊屬性提高的效果",
 		name = "輸出提升核心",
 		type = 2,
-		id = 270,
 		item_num = 2,
+		id = 270,
 		icon = "props/ryza_item_34",
 		item_id = {
 			1001,
@@ -865,12 +865,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[280] = {
-		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得傷害降低的效果",
 		rarity = 4,
+		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得傷害降低的效果",
 		name = "防禦提升核心",
 		type = 2,
-		id = 280,
 		item_num = 3,
+		id = 280,
 		icon = "props/ryza_item_35",
 		item_id = {
 			1001,
@@ -889,12 +889,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[290] = {
-		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得恢復耐久的效果",
 		rarity = 4,
+		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得恢復耐久的效果",
 		name = "緩慢修復核心",
 		type = 2,
-		id = 290,
 		item_num = 3,
+		id = 290,
 		icon = "props/ryza_item_36",
 		item_id = {
 			1001,
@@ -913,12 +913,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[300] = {
-		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得損傷管控的效果",
 		rarity = 4,
+		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得損傷管控的效果",
 		name = "損傷管控核心",
 		type = 2,
-		id = 300,
 		item_num = 3,
+		id = 300,
 		icon = "props/ryza_item_37",
 		item_id = {
 			1001,
@@ -937,12 +937,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[310] = {
-		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得點燃彈幕支援的效果",
 		rarity = 4,
+		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得點燃彈幕支援的效果",
 		name = "點燃支援核心",
 		type = 2,
-		id = 310,
 		item_num = 3,
+		id = 310,
 		icon = "props/ryza_item_38",
 		item_id = {
 			1001,
@@ -961,12 +961,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[320] = {
-		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得易傷彈幕支援的效果",
 		rarity = 4,
+		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得易傷彈幕支援的效果",
 		name = "易傷支援核心",
 		type = 2,
-		id = 320,
 		item_num = 3,
+		id = 320,
 		icon = "props/ryza_item_39",
 		item_id = {
 			1001,
@@ -985,12 +985,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[330] = {
-		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得經驗提升的效果",
 		rarity = 4,
+		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得經驗提升的效果",
 		name = "經驗提升核心",
 		type = 2,
-		id = 330,
 		item_num = 3,
+		id = 330,
 		icon = "props/ryza_item_40",
 		item_id = {
 			1001,
@@ -1009,12 +1009,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[340] = {
-		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得好感提升的效果",
 		rarity = 4,
+		display = "於「鍊金術士與遺跡群島」控制中心中使用。使用後，在活動關卡中可以獲得好感提升的效果",
 		name = "好感提升核心",
 		type = 2,
-		id = 340,
 		item_num = 1,
+		id = 340,
 		icon = "props/ryza_item_41",
 		item_id = {
 			1001,
@@ -1033,12 +1033,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[350] = {
-		display = "兵裝強化石，主要用於特殊兵裝的製造、強化、突破。",
 		rarity = 3,
+		display = "兵裝強化石，主要用於特殊兵裝的製造、強化、突破。",
 		name = "兵裝強化石T2",
 		type = 2,
-		id = 350,
 		item_num = 100,
+		id = 350,
 		icon = "props/15016",
 		item_id = {
 			2,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"만능 점원 시라누이\n\n<size=45>점원 시라누이의 일상</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 보급 상점",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 보급 상점",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "비번 날, 보급 상점이 잘 보이는 풀숲에 숨어 가게 안을 관찰(?)하게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "아직이옵니다. 물건이 오게 되면 직접 전달해 드리겠사오니…",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아직이옵니다. 물건이 오게 되면 직접 전달해 드리겠사오니…",
+			actor = 301180,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -166,15 +166,15 @@ return {
 			}
 		},
 		{
-			actor = 301240,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301240,
+			nameColor = "#92fc63",
 			say = "시라누이, 여전히 궁상맞게 가게에나 틀어박혀 있네.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "그쪽도 입에 문 걸레를 아직 내려놓지 못했나 보군요.",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그쪽도 입에 문 걸레를 아직 내려놓지 못했나 보군요.",
+			actor = 301180,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -299,9 +299,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -309,15 +309,15 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#92fc63",
 			say = "후우, 다음은……쿠로시오의 닌자 수련용 인구에, 오야시오의 인형 재료인가…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

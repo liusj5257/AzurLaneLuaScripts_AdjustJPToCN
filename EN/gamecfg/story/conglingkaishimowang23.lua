@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "After conquering the Demon King's armory and saying our farewells to the pirates, we moved on to our next objective.",
 			bgm = "story-mmorpg",
+			say = "After conquering the Demon King's armory and saying our farewells to the pirates, we moved on to our next objective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "We're so close now. This is the final obstacle standing between us and the Demon King's castle – the supply base.",
 			typewriter = {
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Some say it was the second-largest settlement in the kingdom before the Demon King seized control...",
 			painting = {
@@ -97,9 +97,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "Apprentice Cleric",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -113,17 +113,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.25,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = false,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Man, soaring through the skies on Yuni's back was AMAZING!",
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You should have seen the view from up there. It was unforgettable!",
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Right. Commander, we found out something crazy!",
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There aren't any monsters stationed at the supply base! They all ran away!",
@@ -276,27 +276,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "Demon King's Supply Base - Lord's Chamber",
 			bgm = "story-oldcastle-carnival",
+			say = "Demon King's Supply Base - Lord's Chamber",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "THUD!",
 			typewriter = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Come on out, archdemon! The hero is here to send you to hell!",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hey... This place is empty! Nobody's here!",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Potion Maker",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There was barely any resistance on the way here, either. I suppose the archdemon cottoned on and legged it.",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
-			bgName = "star_level_bg_156",
+			oldPhoto = true,
 			factiontag = "Witch Idol",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -459,17 +459,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -577,8 +577,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "Witch Idol",
 			dir = 1,
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "Witch Idol",
 			dir = 1,
@@ -675,8 +675,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "Witch Idol",
 			dir = 1,
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "Witch Idol",
 			dir = 1,
@@ -735,9 +735,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "Cleric",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -751,17 +751,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hmph... At least THIS demon has some sense in her skull.",

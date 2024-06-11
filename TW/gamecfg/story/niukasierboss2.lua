@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"战斗！皇家女仆队！\n\n<size=45>二　侧翼的两人</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演习海域——北方侧翼防线",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "演习海域——北方侧翼防线",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "呼，总算是守住了这一波。",
 			typewriter = {
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 203030,
+			say = "累死我啦！",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "累死我啦！",
+			actor = 203030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -96,8 +96,8 @@ return {
 			expression = 8,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "虽然贝尔法斯特她们在正面一定更加辛苦，不过侧翼的攻势也很汹涌呢。",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "啊哈哈，不过，果然和同伴交手即使是演习也会很紧张呢……",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "比如，“拿出妳们的全力吧！”“Come on，妳们的实力不止这一点吧？”什么的~",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "肯特，妳回去后肯定要被大家修理的啦……",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 10,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "哈啊…真羡慕妳呢，哎，好想看看云，摸摸鱼什么的呀…",
 			typewriter = {
@@ -251,12 +251,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			actorShadow = true,
+			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 202190,
 			actorName = "？？？",
 			say = "偷懒可不是皇家女仆所为哦，萨福克。",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "哎呀，好疼！谁弹我的头！咦，妳是…",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -347,10 +347,10 @@ return {
 			expression = 14,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "纽卡斯尔~！",
+			dir = 1,
+			actor = 203040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -394,8 +394,8 @@ return {
 			expression = 7,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "因为贝尔法斯特虽然很可靠，但是好亲近这点还是纽卡斯尔妳最好亲近嘛～",
 			typewriter = {
@@ -408,11 +408,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "啊，好狡猾，我也要！",
 			typewriter = {
 				speed = 0.05,
@@ -424,8 +424,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
 					x = 0,
@@ -437,8 +437,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "嗯……是纽卡斯尔的味道……",
 			typewriter = {
@@ -451,8 +451,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -496,8 +496,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "……嗯，汲取到了动力呢。",
 			typewriter = {
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "呵呵，那就加油吧，我还要去后方看看。之后，再好好聊聊吧~",
 			typewriter = {
 				speed = 0.05,

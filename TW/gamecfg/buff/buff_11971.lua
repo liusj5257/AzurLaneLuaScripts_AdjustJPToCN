@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.2,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -22,8 +22,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 150
+					number = 150,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -37,8 +37,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.222,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -51,8 +51,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 180
+					number = 180,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -66,8 +66,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.244,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -80,8 +80,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 210
+					number = 210,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -95,8 +95,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.266,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -109,8 +109,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 250
+					number = 250,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -124,8 +124,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.288,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -138,8 +138,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 280
+					number = 280,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -153,8 +153,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.31,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -167,8 +167,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 310
+					number = 310,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -182,8 +182,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.332,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -196,8 +196,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 350
+					number = 350,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -211,8 +211,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.354,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -225,8 +225,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 390
+					number = 390,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -240,8 +240,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.376,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -254,8 +254,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 430
+					number = 430,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -269,8 +269,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.4,
+					attr = "damageRatioBullet",
 					index = {
 						-1
 					}
@@ -283,15 +283,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 500
+					number = 500,
+					attr = "loadSpeed"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "战意提升",
 	time = 0,
+	name = "战意提升",
+	init_effect = "",
 	picture = "",
 	desc = "使非装备武器发射的子弹（全弹发射）威力上升",
 	stack = 4,
@@ -306,8 +306,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = 0.2,
+				attr = "damageRatioBullet",
 				index = {
 					-1
 				}
@@ -320,8 +320,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 150
+				number = 150,
+				attr = "loadSpeed"
 			}
 		}
 	}

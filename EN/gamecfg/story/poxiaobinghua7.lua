@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			bgm = "bgm-cccp2",
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "That should wrap things up over here. I do believe this is my first time meeting you in person, Commander. I am the flagship of the Secret Room’s defense fleet, heavy cruiser Tallinn.",
-			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Zdravstvuyte! You look even cooler in person than through the communicator, Comrade! Ehehe~",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "And over here is another member of the defense fleet, destroyer Gromky.",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "Hehe~ Well met, Comrade Commander! My name is Gromky, a destroyer from the Northern Parliament! I hope I’ll be able to assist you in this operation!",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Commander, though this is our first time working together, I need no further convincing about your abilities.",
 			typewriter = {
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "“I’m glad to hear that.”",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "(I could sense a domineering aura from Tallinn. As the flagship of a fleet that had been fighting tooth and nail, on top of her experience in the Iron Blood, she was a force to be reckoned with...)",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "So, when you say that the Sanctum is safe, does that mean it’s around here somewhere?",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "You guessed it, Comrade. The Northern Parliament has kept a very close eye on this place!",
 			typewriter = {
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "...We’re still surrounded by icebergs and freezing winds. It’s somewhere in these waters then?",
 			typewriter = {
 				speed = 0.05,
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "(All around us are the husks of Siren ships destroyed during previous engagements, and the various logistics forces trying to clear them away.)",
 			typewriter = {
 				speed = 0.05,
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "(When I look into the distance, all I see is the frozen sea being blanketed by endless white snow, with no traces of platforms, facilities, or any other manmade object for that matter.)",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "(As far as I could tell, there’s nothing here that makes it stand out from the other places I’ve seen across the Arctic.)",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "The commander looks completely lost. Did none of you say anything?",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "I established a connection as soon as the battle ended. Judging by the time... we should be about ready.",
 			typewriter = {
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Ready for what...?",
 			typewriter = {
 				speed = 0.05,
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Under... water...?",
 			typewriter = {
 				speed = 0.05,
@@ -370,11 +370,11 @@ return {
 			}
 		},
 		{
-			say = "CRAAAAAASH—————!!",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "CRAAAAAASH—————!!",
 			flashN = {
 				color = {
 					1,
@@ -422,9 +422,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Not far from me, a massive object could be seen ramming the ice from beneath.",
 			typewriter = {
 				speed = 0.05,
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			say = "CRAAAAAASH—————!!",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "CRAAAAAASH—————!!",
 			flashN = {
 				color = {
 					1,

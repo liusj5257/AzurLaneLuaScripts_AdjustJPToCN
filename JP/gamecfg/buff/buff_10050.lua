@@ -62,12 +62,12 @@ return {
 	desc_get = "受到攻击时，有15%的几率触发，5.0秒(满级10.0秒)内使全体先锋完全回避所有攻击",
 	name = "彩虹计划",
 	init_effect = "",
+	id = 10050,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "受到攻击时，有15%的几率触发，$1秒内使全体先锋完全回避所有攻击",
 	stack = 1,
-	id = 10050,
+	color = "blue",
 	icon = 10050,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 1500,
-				target = "TargetSelf",
 				skill_id = 10050,
+				target = "TargetSelf",
 				time = 20
 			}
 		}

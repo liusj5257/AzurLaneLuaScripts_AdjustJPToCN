@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA21",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA21",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
@@ -22,12 +22,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "Kizuna AI Titan",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "Ugh... Arghh..",
+			actorName = "Kizuna AI Titan",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -59,12 +59,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "Kizuna AI Titan",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "It... hurts...",
+			actorName = "Kizuna AI Titan",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -96,12 +96,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "Kizuna AI Titan",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "Uuugh...! Aaaaaughhh!",
+			actorName = "Kizuna AI Titan",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -133,12 +133,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			say = "WAAAAAAAAAAAAAAAaaaaaaaaaaahhhhh!!",
+			actorScale = 3.5,
 			actorName = "Kizuna AI Titan",
 			actor = 10400010,
-			dir = 1,
 			nameColor = "#ff5c5c",
-			actorScale = 3.5,
-			say = "WAAAAAAAAAAAAAAAaaaaaaaaaaahhhhh!!",
 			flashN = {
 				color = {
 					1,
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 1650,
+					type = "move",
 					delay = 0,
 					dur = 2,
 					x = 0
@@ -197,8 +197,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "Thanks... everyone... I'm so sorry for all the trouble I've caused!",
 			flashN = {
 				color = {
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "MENACING RUMBLING....!!!!!!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#ff5c5c",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			actor = 10400010,
 			actorName = "Kizuna AI clones",
 			say = "………",
@@ -503,8 +503,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "(Ehhhhhh?! I haven't done it for a long time, so I'm probably super rusty?!) I'm not sure what I'll be able to do, but I'll give it my best shot! Nnnhh... Hnnnnng.... Hah!!",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			expression = 1,
 			side = 0,
 			hideOther = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			actor = 10400010,
 			actorName = "Kizuna AI clones",
 			say = "！！！",
@@ -568,8 +568,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -596,8 +596,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "I-I somehow did it~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -627,8 +627,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "!! An error...?!",
 			typewriter = {
 				speed = 0.05,
@@ -640,8 +640,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System Message",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Teleporting player to home port. Please move to the safe zone to commence teleportation.",
@@ -655,8 +655,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "A gentle light began to envelop all the girls...",
 			flashN = {
 				color = {
@@ -688,8 +688,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...except Kizuna AI.",
 			typewriter = {
 				speed = 0.05,
@@ -716,8 +716,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -729,8 +729,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 5,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "I'm sorry. It seems that I have to stay behind in order to keep this portal open so that everyone can get home.",
 			typewriter = {
 				speed = 0.05,
@@ -760,8 +760,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Thanks for accompanying me all this time. Truly, I can't thank you all enough. Our time together was short, but I'll never forget it...",
 			typewriter = {
 				speed = 0.05,
@@ -806,8 +806,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "I swear to get you all back home safely.",
 			typewriter = {
 				speed = 0.05,
@@ -837,8 +837,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "...an intelligent super A.I.!",
 			typewriter = {
 				speed = 0.05,
@@ -850,8 +850,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "--- \"Goodbye.\"",
 			typewriter = {
@@ -864,11 +864,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			actor = 201210,
 			say = "AIIIIIIIIIIIIII------!!!",
 			flashN = {
 				color = {

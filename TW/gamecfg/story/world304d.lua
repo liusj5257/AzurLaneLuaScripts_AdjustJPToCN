@@ -1,18 +1,18 @@
 return {
-	id = "WORLD304D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304D",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "怎麼回事，出現的敵人全都是沒見過的新型號啊......！",
-			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "新型敵人的作戰方式倒是與侵擾者類似，但是比侵擾者要難纏得多.....",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "因為連續不斷的干擾，現在艦載機操控性下降，電子設備多數癱瘓，已經沒辦法維持有效的空中打擊了！艾塞克斯，怎麼辦！",
 			typewriter = {
 				speed = 0.05,
@@ -105,10 +105,10 @@ return {
 			}
 		},
 		{
+			say = "轟——————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟——————！",
 			flashN = {
 				color = {
 					1,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "這個聲音是...大口徑艦炮！終於有援軍登場了嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105190,
 			dir = 1,
+			actor = 105190,
 			say = "航空編隊居然和塞壬打近戰...妳們這是在實驗全新的航母戰術嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "如果可以的話，我們也不想放這些奇怪的塞壬接近啊！這裡面有著很複雜的原因......！",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "艦體損傷輕微，但是電子設備受損嚴重...能在這種時候看到妳們的增援真是太好了！",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105200,
 			dir = 1,
+			actor = 105200,
 			say = "放心吧，戰列艦，就是為了從正面解決這樣的敵人而存在的。",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105190,
 			dir = 1,
+			actor = 105190,
 			say = "這裡由我們吸引火力，妳們趁機拉開距離，盡情展現射程的優勢吧！",
 			typewriter = {
 				speed = 0.05,

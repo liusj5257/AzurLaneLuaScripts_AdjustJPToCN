@@ -1,15 +1,15 @@
 return {
-	init_effect = "",
-	name = "司特莲库斯引力场_本体buff",
 	time = 0,
-	color = "yellow",
-	last_effect = "yinlichang_qianyin",
+	name = "司特莲库斯引力场_本体buff",
+	init_effect = "",
+	id = 79013,
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 79013,
+	color = "yellow",
 	icon = 8636,
-	last_effect_cld_scale = true,
+	last_effect = "yinlichang_qianyin",
 	effect_list = {
 		{
 			type = "BattleBuffAura",

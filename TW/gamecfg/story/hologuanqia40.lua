@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA40",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA40",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			actorName = "诗 音",
-			actor = 10500060,
 			dir = 1,
+			bgm = "holo-control",
+			actor = 10500060,
 			nameColor = "#ff5c5c",
 			say = "听人说话要听完啊，妳这个小学生…",
-			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 1,
 					dur = 0.7,
 					x = 0
@@ -35,9 +35,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "说谁是小学生啊！妳这个笨蛋！略~~~~~~",
 			flashout = {
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "再见了，直率的诗音酱。",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "妳在感动什么！扁妳哦！",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "哈？！那不是敌人的事么！敌人弱妳们应该开心吧！",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "总觉得，除了空前辈之外，余等的镜像根本就是在公开处刑了…",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "啊哈哈，毕竟都是我们真实在直播中展现过的一面呢。",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "到现在为止都没出现我的镜像，究竟会遇到什么个性呢，老实说我都稍微有些害怕了……",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "唔……难道我的性格也是净化者真实存在的一部分？",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "好好好~不过现在这种情况下，和妳们发展出热血的友情，这种展开是完全可能的咯~？",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "感觉又看到希望了！",
 			typewriter = {
 				speed = 0.05,

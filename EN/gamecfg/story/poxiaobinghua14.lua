@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp3",
+			say = "The Gate gave way to a new path, but in a way nobody had expected.",
 			side = 2,
 			bgName = "bg_cccpv2_5",
 			dir = 1,
-			say = "The Gate gave way to a new path, but in a way nobody had expected.",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
+			dir = 1,
 			say = "The wall of ice became thin and translucent, as if turning into a gossamer membrane that could disappear at any time. And on the other side of the veil, a radiant city comprised entirely of light rose from the formerly empty Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
@@ -36,9 +36,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
+			dir = 1,
 			say = "My jaw dropped once more at the indescribable majesty shimmering before my eyes.",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "Incredible... A truly unexpected development...",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "Woooow... It’s so pretty...",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "It’s like a fairytale castle straight out of the storybooks...",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Those streams of water above us actually turned out to be suspended tracks leading to the city...",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "The Sirens truly hid a magnificent work of art here. I can’t imagine their ugly sense of aesthetics giving birth to something this beautiful.",
 			typewriter = {
@@ -151,9 +151,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
+			dir = 1,
 			say = "The buildings here... they don’t look like Siren architecture... Rather, there’s something... human-like about them...",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "But you have a point... this doesn’t feel like something the Sirens would do...",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Now this is an unexpected development. Instead of getting some secret backroom or lab, an entire city of light materializes out of nowhere, and we don’t have any clues as to who built it.",
 			typewriter = {
@@ -231,9 +231,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
+			dir = 1,
 			say = "Of course. I’m also searching for my own answers here.",
 			typewriter = {
 				speed = 0.05,
@@ -248,9 +248,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 705040,
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Then, let us pass through the Gate and discover what awaits us in this city of light!",
 			typewriter = {
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,10 +1,10 @@
 slot0 = class("ChallengeInfo", import(".BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0:UpdateChallengeInfo(slot1)
 end
 
-function slot0.UpdateChallengeInfo(slot0, slot1)
+slot0.UpdateChallengeInfo = function(slot0, slot1)
 	slot0._activityMaxScore = slot1.activity_max_score
 	slot0._activityMaxLevel = slot1.activity_max_level
 	slot0._seasonMaxScore = slot1.season_max_score
@@ -20,7 +20,7 @@ function slot0.UpdateChallengeInfo(slot0, slot1)
 	slot0._activityIndex = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE):getConfig("config_id")
 end
 
-function slot0.checkRecord(slot0, slot1)
+slot0.checkRecord = function(slot0, slot1)
 	slot3 = slot1:getScore()
 
 	if slot1:getMode() == ChallengeProxy.MODE_CASUAL then
@@ -33,7 +33,7 @@ function slot0.checkRecord(slot0, slot1)
 	slot0._seasonMaxLevel = math.max(slot4, slot0._seasonMaxLevel)
 end
 
-function slot0.getGradeList(slot0)
+slot0.getGradeList = function(slot0)
 	return {
 		activityMaxScore = slot0._activityMaxScore,
 		activityMaxLevel = slot0._activityMaxLevel,
@@ -42,15 +42,15 @@ function slot0.getGradeList(slot0)
 	}
 end
 
-function slot0.getSeasonID(slot0)
+slot0.getSeasonID = function(slot0)
 	return slot0._seasonID
 end
 
-function slot0.getDungeonIDList(slot0)
+slot0.getDungeonIDList = function(slot0)
 	return Clone(slot0._dungeonList)
 end
 
-function slot0.getActivityIndex(slot0)
+slot0.getActivityIndex = function(slot0)
 	return slot0._activityIndex
 end
 

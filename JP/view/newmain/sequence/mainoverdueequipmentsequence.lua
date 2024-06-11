@@ -1,6 +1,6 @@
 slot0 = class("MainOverDueEquipmentSequence", import(".MainSublayerSequence"))
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	if #getProxy(EquipmentProxy):getTimeLimitShipList() > 0 then
 		slot0:ShowMsgBox({
 			item2Row = true,
@@ -14,7 +14,7 @@ function slot0.Execute(slot0, slot1)
 	end
 end
 
-function slot0.ShowMsgBox(slot0, slot1)
+slot0.ShowMsgBox = function(slot0, slot1)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		hideNo = true,
 		type = MSGBOX_TYPE_ITEM_BOX,
@@ -30,7 +30,7 @@ function slot0.ShowMsgBox(slot0, slot1)
 	})
 end
 
-function slot0.ShowItemBox(slot0, slot1, slot2)
+slot0.ShowItemBox = function(slot0, slot1, slot2)
 	if slot1.type == DROP_TYPE_EQUIP then
 		slot0:AddSubLayers(Context.New({
 			mediator = EquipmentInfoMediator,

@@ -6,8 +6,8 @@ return {
 		{
 			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "Hornet i'm receiving a decrypted telegram. \"AF is short on water, should the attack plan consider this?\" Looks like something big just took our bait.",
 			shake = {
 				speed = 1,
@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = -1,
 			say = "Even the most cunning fox cannot hide its tail, hehe.",
+			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -66,8 +66,8 @@ return {
 		{
 			actor = 107060,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "But Yorktown, your injuries...",
 			shake = {
 				speed = 1,
@@ -121,8 +121,8 @@ return {
 		{
 			actor = 107060,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "F-fine...",
 			shake = {
 				speed = 1,
@@ -156,10 +156,10 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			actorShadow = true,
-			actorName = "Enterprise & Hornet",
 			side = 0,
+			actorName = "Enterprise & Hornet",
+			actor = 107060,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			sequenceSpd = 2,
 			mode = 1,
+			sequenceSpd = 2,
 			bgFade = true,
 			effects = {
 				{

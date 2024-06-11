@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"정월의 축복\n\n<size=45>1 부엌의 우당탕탕 대소란</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "모항 - 사쿠라 엠파이어 숙소 ",
 			dir = 1,
 			bgmDelay = 2,
+			blackBg = true,
 			bgm = "main-newyear",
+			say = "모항 - 사쿠라 엠파이어 숙소 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 301140,
+			nameColor = "#92fc63",
 			say = "와우! 떡이다! 빨리 내놔! ……하지만 왠지 코타츠에서 못 나가겠어……우으……",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -201,15 +201,15 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#92fc63",
 			say = "우왓! 뭔가 옷에 묻었어!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "힘을 너무 줬다니까! 아무리 잘 섞어야 한다지만, 그렇게 힘주면 어떡하니!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "힘을 너무 줬다니까! 아무리 잘 섞어야 한다지만, 그렇게 힘주면 어떡하니!",
+			actor = 301590,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#92fc63",
 			say = "그건 아직 미완성이야! 게다가 한 벌밖에 못 만들었고……",
 			typewriter = {
 				speed = 0.05,
@@ -328,8 +328,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.4,
 					x = 22.5,
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#92fc63",
 			say = "알았어, 알았다고! 정말, 사고 친 건 이소카제인데 왜 내가 한 소리 듣는 거야……",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -382,15 +382,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_room",
-			actorName = "{namecode:143}",
 			dir = 1,
+			actorName = "{namecode:143}",
+			bgName = "bg_story_room",
 			actor = 301600,
 			nameColor = "#92fc63",
 			say = "짜잔! 우라카제님이 만든 옷, 엄청 귀여워서 나한테 딱이야!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -495,12 +495,12 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
+			actor = 301600,
 			actorName = "{namecode:143}",
 			say = "그럼 우린 먼저 철수할게! 떡국 다 만들어지면 나눠주는 거 도와줄 테니까!",
 			typewriter = {

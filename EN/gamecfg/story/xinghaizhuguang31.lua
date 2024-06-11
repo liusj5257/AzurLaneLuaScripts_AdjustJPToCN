@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-dailyfuture",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The two-sided quiz between the shipgirls and Silver Fox entered its second phase.",
-			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "As per the rules Guam came up with, it was now Constellation's turn to answer Silver Fox's questions.",
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Almost all our resources go toward fighting the Sirens, so...",
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yes. We are not supposed to even mention it to outsiders.",
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I can't answer that.",
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "In our war against the Sirens, they also were the tipping point for things to swing in humanity's favor.",
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We KAN-SEN are born from Cubes, and we use their power to fight the Sirens.",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As a result, only a small limited number of them have been made.",
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's difficult to summarize. Do you mind if Guam answers for me?",
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Leave your eccentricity at the door, please.",
@@ -598,11 +598,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ugh. Fiiine.",
@@ -654,11 +654,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Examples include Purifier, Tester, Omitter, Compiler, and Observer, among others.",
@@ -710,11 +710,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Above even the elite Sirens there are the elusive Arbiters and the Enforcers they control.",
@@ -766,11 +766,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "They inflict heavy casualties even if you do beat them. And if you don't... well, you can probably guess.",
@@ -784,8 +784,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(\"Project Dawn\"... I assume she's referring to those documents the Commander retrieved from the Northern Parliament by the same name...)",
@@ -1076,8 +1076,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Constellation could not believe her ears.",
@@ -1087,8 +1087,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Silver Fox had been so calm and composed, and now a worrying tremble ran through her words.",
@@ -1098,8 +1098,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Indeed, her voice sounded like she was trying and failing to mask her excitement.",
@@ -1192,8 +1192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Constellation imagined dozens of questions, dozens of motives, dozens of answers. None of them prepared her for this last question.",
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "It felt so off the cuff she couldn't help but flinch.",
@@ -1252,11 +1252,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I don't know where it is, much less the latest goings-on there...",
@@ -1283,8 +1283,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Even through the compression, Constellation could deeply feel the disappointment and sadness in Silver Fox's voice.",
@@ -1294,11 +1294,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Say, is that place where you come from?",
@@ -1344,11 +1344,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "No, it's fine. This is just a little quiz between us.",
@@ -1362,11 +1362,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You should be able to bend the rules slightly for everyone to get something out of it.",
@@ -1393,8 +1393,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "The sound coming from the communicator cut off for a moment.",
@@ -1487,8 +1487,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Constellation waited... and waited... and waited, but there was no response from the communicator.",
@@ -1520,10 +1520,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			portrait = 9706030,
-			dir = 1,
-			actorName = "Princeton META",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 9706030,
+			actorName = "Princeton META",
 			hidePaintObj = true,
 			say = "Hey, everyone. I've brought your medal.",
 			painting = {
@@ -1539,10 +1539,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			portrait = 9706030,
-			dir = 1,
-			actorName = "Princeton META",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 9706030,
+			actorName = "Princeton META",
 			hidePaintObj = true,
 			say = "And I have some good news, too!",
 			painting = {
@@ -1555,14 +1555,14 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Sorry if I'm interrupting. Is the quiz over already?",
 			bgm = "theme-ucnf-image",
+			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Sorry if I'm interrupting. Is the quiz over already?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1572,17 +1572,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1625,10 +1625,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The beacon – it's been repaired.",
 			painting = {
 				alpha = 0.3,
@@ -1705,10 +1705,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Shall I, Ms. Silver Fox?",
 			painting = {
 				alpha = 0.3,
@@ -1733,8 +1733,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "With Silver Fox's permission, Princeton put her finger on the beacon's power button.",
@@ -1744,8 +1744,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "She gave it a gentle press, and...",
@@ -1755,28 +1755,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_5",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Just like that, everything and everyone was gone.",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1784,8 +1784,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			say = "The Council's fleet, the ruined sea, Fortress, the other Princeton...",
@@ -1795,8 +1795,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			say = "Even their surroundings vanished, and in their place, a familiar sight.",
@@ -1806,11 +1806,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Isn't this the Coral Sea simulation?",
@@ -1843,11 +1843,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What just happened? Their whole fleet vanished in the twinkle of an eye...",
@@ -1861,11 +1861,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That beacon probably had something to do with it.",
@@ -1956,11 +1956,11 @@ return {
 		{
 			portrait = 107230,
 			side = 2,
-			bgName = "bg_zhuguang_5",
 			factiontag = "Rigging Design Department",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_zhuguang_5",
 			actorName = "Princeton",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Zzz... Saratoga... Alaska... Commander... You shouldn't have prepared such a big welcoming party just for me...",
 			painting = {
@@ -1972,17 +1972,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1995,8 +1995,8 @@ return {
 			bgName = "bg_zhuguang_5",
 			factiontag = "Rigging Design Department",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Princeton",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Heehee... Zzz...",
 			painting = {
@@ -2009,11 +2009,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Thank goodness. She's just asleep.",
@@ -2084,11 +2084,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(She's asked four questions about the moon's soil, the Sea of Stars, Wisdom Cubes, and the Sirens. We've answered three of them.)",
@@ -2178,11 +2178,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Let's hope so.",
@@ -2196,8 +2196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -2401,8 +2401,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -2418,12 +2418,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "Somewhere, in an unknown location...",
+			nameColor = "#A9F548FF",
 			bgm = "theme-shallowoftheworld",
+			say = "Somewhere, in an unknown location...",
 			effects = {
 				{
 					active = false,

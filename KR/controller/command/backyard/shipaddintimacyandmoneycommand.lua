@@ -1,6 +1,6 @@
 slot0 = class("ShipAddIntimacyAndMoneyCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = {}
 
@@ -50,7 +50,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.ShowIntimacyTip(slot0, slot1)
+slot0.ShowIntimacyTip = function(slot0, slot1)
 	if #slot1 == 0 then
 		return
 	end
@@ -80,7 +80,7 @@ function slot0.ShowIntimacyTip(slot0, slot1)
 	end
 end
 
-function slot0.ShowMoneyTip(slot0, slot1, slot2)
+slot0.ShowMoneyTip = function(slot0, slot1, slot2)
 	if #slot1 == 0 then
 		return
 	end

@@ -1,19 +1,19 @@
 return {
-	id = "LINGSHIGUANGTING31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING31",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 205010,
-			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "剛剛帶著艦隊過去的是淨化者？",
 			bgm = "battle-boss-camelot",
+			actor = 205010,
+			nameColor = "#a9f548",
+			say = "剛剛帶著艦隊過去的是淨化者？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "是的，陛下。",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "她說要去迎擊那些突然出現的敵人，還說要我們先走，塞壬將對我們停火。",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "然後還提到了一下BUG什麼的。",
 			typewriter = {
@@ -164,15 +164,15 @@ return {
 			}
 		},
 		{
-			actor = 207120,
 			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207120,
+			nameColor = "#a9f548",
 			say = "陛下，黑色風暴開始……分裂了？海面上生成了無數小龍捲，我們的航線被擋住了！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -216,8 +216,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "陛下，這裡交給我來殿後。距離卡美洛之庭不遠了，請您盡快撤離。",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "為陛下犧牲也是騎士應該做的！",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -433,10 +433,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_9",
 			side = 0,
+			bgName = "bg_camelot_9",
+			hideOther = true,
 			dir = 1,
 			actor = 299010,
 			actorName = "海王星&君主&柴郡",
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			actor = 299010,
 			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 299010,
+			nameColor = "#a9f548",
 			say = "這是皇家計劃艦的第一次合作任務，讓我們一同優雅的完成吧~",
 			typewriter = {
 				speed = 0.05,

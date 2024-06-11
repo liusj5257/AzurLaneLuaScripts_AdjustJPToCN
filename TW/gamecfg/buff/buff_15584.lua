@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.15
+					number = 0.15,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.166
+					number = 0.166,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.182
+					number = 0.182,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.198
+					number = 0.198,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.214
+					number = 0.214,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.23
+					number = 0.23,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.246
+					number = 0.246,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.264
+					number = 0.264,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.282
+					number = 0.282,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.3
+					number = 0.3,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
 	},
-	time = 10,
 	name = "",
 	init_effect = "",
-	color = "yellow",
+	id = 15584,
+	time = 10,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15584,
+	color = "yellow",
 	icon = 15584,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.15
+				number = 0.15,
+				attr = "dodgeRateExtra"
 			}
 		}
 	}

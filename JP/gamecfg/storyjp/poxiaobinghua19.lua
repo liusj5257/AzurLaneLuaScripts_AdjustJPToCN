@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 701080,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "deepblue-image",
 			dir = 1,
 			say = "なんだか雰囲気ががらりと変わったね",
+			bgm = "deepblue-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			say = "ここが「制御室」で間違いないわね…セイレーンの施設とも今まで見てきたどの施設とも全然作りが違うわ",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			say = "ベラルーシア、このシンボルは見たことあるか？",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "全く無いな。…つくづく面白い場所だな、ここは",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			say = "それにここを探索しなければ帰る道がわかりませんし…うぅ…",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "例えば、もしかしたらこの鏡面海域の制御装置を発見できるかもしれないのだぞ",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "………しかし、全部調べるのは骨が折れるな…",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "広そうな場所から調べたほうが良さそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -222,13 +222,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_cccpv2_8",
+			side = 2,
+			dir = 1,
 			say = "謎の施設の広間に足を踏み入れた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "タリン",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ムルマンスク",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ムルマンスク",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ムルマンスク",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ムルマンスク",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ムルマンスク",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ムルマンスク",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ムルマンスク",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ムルマンスク",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ムルマンスク",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グレミャーシュチ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グレミャーシュチ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グロームキィ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -557,8 +557,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ムルマンスク",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -573,9 +573,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_8",
+			dir = 1,
 			say = "言われてみれば確かにこの部屋はちょっと「違和感」が――",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ムルマンスク",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ムルマンスク",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -619,8 +619,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ムルマンスク",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -651,8 +651,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -667,12 +667,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_8",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "皆、集団行動だ。こういうときに分散していると一人ずつ危ない目に遭うのがお決まりだぞ",
 			typewriter = {
 				speed = 0.05,

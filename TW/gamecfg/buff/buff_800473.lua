@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 800473,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800473,
+	color = "blue",
 	icon = 800470,
 	last_effect = "",
 	effect_list = {
@@ -18,9 +18,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 6,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -54,9 +54,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 6,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"萬能看板娘{namecode:20}\n\n<size=45>三　看板娘與小夥伴們</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·軍火商店",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·軍火商店",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "這個休息日，又躲在商店外的灌木裡，悄悄觀察店內的情況。",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "我們之間也沒有熟到那份上吧。",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我們之間也沒有熟到那份上吧。",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "沒問題！那就讓我們馬上開始吧！",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "欸欸欸……那、那能看到幽靈也是……？",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "欸？？？是真的嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "哇啊啊啊啊啊！",
 			typewriter = {
 				speed = 0.05,
@@ -362,16 +362,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 3
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.6,
 					dur = 0.3,
 					x = -1800
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今天，似乎從別的方面瞭解了一些{namecode:20}。",
 			typewriter = {
 				speed = 0.05,

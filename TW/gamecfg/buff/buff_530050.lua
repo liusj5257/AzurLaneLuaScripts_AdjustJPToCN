@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "连击清零",
 	time = 8,
-	color = "yellow",
+	name = "连击清零",
+	init_effect = "",
+	id = 530050,
 	picture = "",
 	desc = "8秒内没有新的连击，连击清零",
 	stack = 1,
-	id = 530050,
+	color = "yellow",
 	icon = 30001,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "CardCombo",
-				number = 0
+				number = 0,
+				attr = "CardCombo"
 			}
 		}
 	}

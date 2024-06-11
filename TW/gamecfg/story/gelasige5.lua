@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"那便是…戀愛的季節\n\n<size=45>五 是格拉斯哥呀</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "放學後——",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "放學後——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "……不會是有什麼企圖吧？",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "連愛丁堡都參與進去，就顯得更可疑了……妳們準備搞什麼——",
 			typewriter = {
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 201030,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201030,
+			nameColor = "#a9f548",
 			say = "唔、唔哇~！再這樣下去就來不及了！對不起格拉斯哥，回頭一定會補償妳的——！",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "喂！等等！等一下啊——",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "……真是的，如果太晚回去的話，會給紐卡斯爾姐姐添麻煩的",
 			typewriter = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "「需要幫忙嗎？」",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "……不用了，你先回去告訴姐姐我要晚點。打掃對我來說只是小菜一碟。",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "(……而且，因為剛剛的壁咚，現在總覺得莫名在意…)",
 			typewriter = {
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "格拉斯哥臉頰發熱，一邊開始打掃，一邊感受著內心的躁動。",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "都說了我一個人沒關係了——",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "……欸？抽屜裡有東西？這是…信？",
 			typewriter = {
@@ -304,9 +304,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "信封十分可愛。",
 			typewriter = {
 				speed = 0.05,
@@ -318,9 +318,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "格拉斯哥好奇地靠過來，讀出了寄信人的名字。",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "等，等等！我可不知道這個啊！？我沒見過也沒寫過這樣的信——",
 			typewriter = {
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "撕開信封，便看到信紙上直白的文字，傳達著不坦率的少女的真摯感情——",
 			typewriter = {
 				speed = 0.05,
@@ -379,9 +379,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "――我愛你  格拉斯哥。",
 			typewriter = {
 				speed = 0.05,
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 202261,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202261,
+			nameColor = "#a9f548",
 			say = "不，不是的！這是假的！這絕對是熱心、愛丁堡她們搞的鬼！！",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -435,9 +435,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "「這樣啊……不是真的啊……」",
 			typewriter = {
 				speed = 0.05,
@@ -465,9 +465,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "意外的反應令格拉斯哥不禁露出困惑的表情。",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "ボルチモアたちが大会に向けて準備を進めているその頃――",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-BlueSpirit-inst",
+			say = "ボルチモアたちが大会に向けて準備を進めているその頃――",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "ああ指揮官様、ほかの子にこの大鳳のアイドル姿を披露するなんて嘆かわしい…この姿をお見せしていいのは本来、指揮官様だけですのに…",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 403080,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
 			say = "指揮官の目を釘つけるには相応しくありません、というべきでしょうね",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "…………あなたの言う通りですわ。ですから、指揮官様だけを意識していれば、私のパフォーマンスは完璧よ",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 403080,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
 			say = "ここは「私たちのパフォーマンス」、でしょう？",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "ええ、そうね。私たちの「μ兵装」によるパフォーマンス…フフフ♡",
 			typewriter = {
@@ -229,15 +229,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_jichang_1",
-			actorName = "？？？",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "「歓声を捧げるはヒト、想い注がれるは神の偶像なり」",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
+			dir = 1,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -311,11 +311,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
+			actorName = "ル・トリオンファン",
 			dir = 1,
 			blackBg = true,
 			actor = 901120,
-			actorName = "ル・トリオンファン",
+			nameColor = "#a9f548",
 			say = "「姉さま、アイリスのエレガントをすべての人に示して差し上げましょう」",
 			typewriter = {
 				speed = 0.05,

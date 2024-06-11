@@ -1,20 +1,20 @@
 slot0 = class("SpWeaponStoreHouseScene", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SpWeaponStoreHouseUI"
 end
 
-function slot0.setEquipments(slot0, slot1)
+slot0.setEquipments = function(slot0, slot1)
 	slot0.equipmentVOs = slot1
 end
 
-function slot0.SetCraftList(slot0, slot1)
+slot0.SetCraftList = function(slot0, slot1)
 	slot0.craftList = slot1
 end
 
 slot1 = require("view.equipment.SpWeaponSortCfg")
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.topItems = slot0:findTF("topItems")
 	slot0.equipmentView = slot0:findTF("ScrollView")
 	slot0.equipmentsGrid = slot0.equipmentView:Find("Viewport/Content/StoreHouse/Grid")
@@ -66,12 +66,12 @@ function slot0.init(slot0)
 	slot0.filterImportance = nil
 end
 
-function slot0.setEquipmentUpdate(slot0)
+slot0.setEquipmentUpdate = function(slot0)
 	slot0:filterEquipment()
 	slot0:updateCapacity()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -115,16 +115,16 @@ function slot0.didEnter(slot0)
 			groupList = {
 				{
 					dropdown = false,
-					titleTxt = "indexsort_type",
 					titleENTxt = "indexsort_typeeng",
+					titleTxt = "indexsort_type",
 					tags = {
 						"typeIndex"
 					}
 				},
 				{
 					dropdown = false,
-					titleTxt = "indexsort_rarity",
 					titleENTxt = "indexsort_rarityeng",
+					titleTxt = "indexsort_rarity",
 					tags = {
 						"rarityIndex"
 					}
@@ -183,11 +183,11 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot2, true)
 end
 
-function slot0.isDefaultStatus(slot0)
+slot0.isDefaultStatus = function(slot0)
 	return (not slot0.contextData.indexDatas.typeIndex or slot0.contextData.indexDatas.typeIndex == IndexConst.SpWeaponTypeAll) and (not slot0.contextData.indexDatas.rarityIndex or slot0.contextData.indexDatas.rarityIndex == IndexConst.SpWeaponRarityAll)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0.sortPanel) then
@@ -197,21 +197,21 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.updateCapacity(slot0)
+slot0.updateCapacity = function(slot0)
 	setText(slot0.tip, "")
 	setText(slot0.capacityTF, getProxy(EquipmentProxy):GetSpWeaponCount() .. "/" .. getProxy(EquipmentProxy):GetSpWeaponCapacity())
 end
 
-function slot0.setShip(slot0, slot1)
+slot0.setShip = function(slot0, slot1)
 	slot0.shipVO = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.initSort(slot0)
-	function slot4()
+slot0.initSort = function(slot0)
+	slot4 = function()
 		uv0.asc = not uv0.asc
 		uv0.contextData.asc = uv0.asc
 
@@ -244,7 +244,7 @@ function slot0.initSort(slot0)
 	end
 end
 
-function slot0.initEquipments(slot0)
+slot0.initEquipments = function(slot0)
 	slot3 = slot0.equipmentView
 	slot0.equipmentRect = UIItemList.New(slot0.equipmentsGrid, slot3:Find("Template"))
 	slot1 = slot0.equipmentRect
@@ -278,7 +278,7 @@ function slot0.initEquipments(slot0)
 	end)
 end
 
-function slot0.InitSpWeapon(slot0, slot1)
+slot0.InitSpWeapon = function(slot0, slot1)
 	slot2 = SpWeaponItemView.New(slot1)
 
 	onButton(slot0, slot2.unloadBtn, function ()
@@ -288,7 +288,7 @@ function slot0.InitSpWeapon(slot0, slot1)
 	slot0.equipmetItems[slot1] = slot2
 end
 
-function slot0.UpdateSpWeapon(slot0, slot1, slot2)
+slot0.UpdateSpWeapon = function(slot0, slot1, slot2)
 	slot3 = slot0.equipmetItems[slot2]
 
 	assert(slot3, "without init item")
@@ -318,7 +318,7 @@ function slot0.UpdateSpWeapon(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ReturnSpWeapon(slot0, slot1, slot2)
+slot0.ReturnSpWeapon = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -329,7 +329,7 @@ function slot0.ReturnSpWeapon(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateEquipmentCount(slot0)
+slot0.updateEquipmentCount = function(slot0)
 	slot1 = slot0.hideSpweapon and 0 or #slot0.loadEquipmentVOs
 
 	slot0.equipmentRect:align(slot1)
@@ -347,8 +347,8 @@ function slot0.updateEquipmentCount(slot0)
 	slot2.padding = slot3
 end
 
-function slot0.filterEquipment(slot0)
-	GetSpriteFromAtlasAsync("ui/commonui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
+slot0.filterEquipment = function(slot0)
+	GetSpriteFromAtlasAsync("ui/share/index_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
 		setImageSprite(uv0.indexBtn, slot0, true)
 	end)
 	(function ()
@@ -398,11 +398,11 @@ function slot0.filterEquipment(slot0)
 	setActive(slot0.sortImgDec, not slot0.asc)
 end
 
-function slot0.InitCraftItem(slot0, slot1)
+slot0.InitCraftItem = function(slot0, slot1)
 	slot0.craftItems[slot1] = SpWeaponItemView.New(slot1)
 end
 
-function slot0.UpdateCraftItem(slot0, slot1, slot2)
+slot0.UpdateCraftItem = function(slot0, slot1, slot2)
 	slot3 = slot0.craftItems[slot2]
 
 	assert(slot3, "without init item")
@@ -412,14 +412,14 @@ function slot0.UpdateCraftItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.ReturnCraftItem(slot0, slot1, slot2)
+slot0.ReturnCraftItem = function(slot0, slot1, slot2)
 	if slot0.craftItems[slot2] then
 		removeOnButton(slot3.go)
 		slot3:clear()
 	end
 end
 
-function slot0.UpdateCraftCount(slot0)
+slot0.UpdateCraftCount = function(slot0)
 	slot1 = slot0.hideCraft and 0 or #slot0.showCraftList
 
 	slot0.craftRect:align(slot1)
@@ -437,19 +437,19 @@ function slot0.UpdateCraftCount(slot0)
 	slot2.padding = slot3
 end
 
-function slot0.GetShowBusyFlag(slot0)
+slot0.GetShowBusyFlag = function(slot0)
 	return slot0.isEquipingOn
 end
 
-function slot0.SetShowBusyFlag(slot0, slot1)
+slot0.SetShowBusyFlag = function(slot0, slot1)
 	slot0.isEquipingOn = slot1
 end
 
-function slot0.checkFitBusyCondition(slot0, slot1)
+slot0.checkFitBusyCondition = function(slot0, slot1)
 	return slot0:GetShowBusyFlag() or not slot1:GetShipId()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topItems, slot0._tf)
 end

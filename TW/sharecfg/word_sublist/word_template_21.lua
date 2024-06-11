@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_21 = {}
 slot1 = slot0.word_template_21
 
-function temp()
+temp = function()
 	uv0["西"] = {
 		["哈"] = {
 			["努"] = {
@@ -203,7 +203,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["希"] = {
 		["拉"] = {
 			["克"] = {
@@ -230,7 +230,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["撒"] = {
 		["切"] = {
 			["尔"] = {
@@ -245,7 +245,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["曼"] = {
 		["德"] = {
 			["拉"] = {

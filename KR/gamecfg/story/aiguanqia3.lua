@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301050,
@@ -53,8 +53,8 @@ return {
 			expression = 5,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			say = "어라~ 평소랑 전혀 달라. 역시 버그에 걸린 건가……",
 			typewriter = {
 				speed = 0.05,

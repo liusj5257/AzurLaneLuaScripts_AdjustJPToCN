@@ -1,6 +1,6 @@
 slot0 = class("SkinShopMainPanel")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.nameTxt = findTF("name_bg/name", slot0._tf):GetComponent(typeof(Text))
 	slot0.skinNameTxt = findTF("name_bg/skin_name", slot0._tf):GetComponent(typeof(Text))

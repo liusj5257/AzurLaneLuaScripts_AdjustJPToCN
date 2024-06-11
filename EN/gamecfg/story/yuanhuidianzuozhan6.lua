@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			bgm = "story-6",
 			side = 2,
-			bgName = "bg_yuanhuidian",
+			stopbgm = true,
 			soundeffect = "event:/battle/boom2",
+			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			say = "KABOOOM!",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "The Pawn's airstrikes proved futile, and the duo succeeded in eliminating it.",
 			typewriter = {

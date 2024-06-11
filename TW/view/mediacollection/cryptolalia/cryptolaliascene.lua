@@ -3,15 +3,15 @@ slot0.ON_UNLOCK = "CryptolaliaScene:ON_UNLOCK"
 slot0.ON_DELETE = "CryptolaliaScene:ON_DELETE"
 slot0.ON_SELECT = "CryptolaliaScene:ON_SELECT"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CryptolaliaUI"
 end
 
-function slot0.SetCryptolaliaList(slot0, slot1)
+slot0.SetCryptolaliaList = function(slot0, slot1)
 	slot0.cryptolaliaList = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0.backBtn = slot0:findTF("Top/blur_panel/adapt/top/back_btn")
 	slot0.auditionBtn = slot0:findTF("Main/audition/toggle")
@@ -66,7 +66,7 @@ function slot0.init(slot0)
 	Input.multiTouchEnabled = false
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.cards = {}
 	slot0.downloadReqList = {}
 
@@ -85,7 +85,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.ActiveDefault(slot0)
+slot0.ActiveDefault = function(slot0)
 	if not slot0.contextData.groupId then
 		return
 	end
@@ -113,7 +113,7 @@ function slot0.ActiveDefault(slot0)
 	end
 end
 
-function slot0.OnItemUpdate(slot0, slot1)
+slot0.OnItemUpdate = function(slot0, slot1)
 	slot1:Interactable(false)
 
 	if not slot0.displays[slot1:GetInitIndex()] then
@@ -128,7 +128,7 @@ function slot0.OnItemUpdate(slot0, slot1)
 	slot0.cards[slot3.id] = slot1
 end
 
-function slot0.OnItemSelected(slot0, slot1)
+slot0.OnItemSelected = function(slot0, slot1)
 	if not slot0.displays[slot1] then
 		return
 	end
@@ -150,7 +150,7 @@ function slot0.OnItemSelected(slot0, slot1)
 	end
 end
 
-function slot0.Filter(slot0)
+slot0.Filter = function(slot0)
 	slot1 = {}
 	slot2 = ipairs
 	slot3 = slot0.cryptolaliaList or {}
@@ -172,13 +172,13 @@ function slot0.Filter(slot0)
 	return slot1
 end
 
-function slot0.InitCryptolaliaList(slot0, slot1)
+slot0.InitCryptolaliaList = function(slot0, slot1)
 	slot0.displays = slot0:FillEmptyDisplayIfNeed(slot0:Filter())
 
 	slot0.scrollRect:Align(#slot0.displays, slot1)
 end
 
-function slot0.FillEmptyDisplayIfNeed(slot0, slot1)
+slot0.FillEmptyDisplayIfNeed = function(slot0, slot1)
 	slot2 = {}
 	slot6 = #slot1
 
@@ -195,7 +195,7 @@ function slot0.FillEmptyDisplayIfNeed(slot0, slot1)
 	return slot2
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(uv0.ON_UNLOCK, function (slot0, slot1)
 		uv0:OnUnlockCryptolalia(slot1)
 	end)
@@ -322,12 +322,12 @@ function slot0.RegisterEvent(slot0)
 	slot0:UpdateAudition(slot0.auditionFlag)
 end
 
-function slot0.UpdateAudition(slot0, slot1)
+slot0.UpdateAudition = function(slot0, slot1)
 	setActive(slot0.auditionBtnOn, slot1)
 	setActive(slot0.auditionBtnOff, not slot1)
 end
 
-function slot0.PlayAudition(slot0, slot1)
+slot0.PlayAudition = function(slot0, slot1)
 	slot0:ClearAuditionTimer()
 
 	slot2 = slot0.auditionEffect
@@ -350,7 +350,7 @@ function slot0.PlayAudition(slot0, slot1)
 	end)
 end
 
-function slot0.ClearAuditionTimer(slot0)
+slot0.ClearAuditionTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -358,7 +358,7 @@ function slot0.ClearAuditionTimer(slot0)
 	end
 end
 
-function slot0.IsDownloading(slot0, slot1)
+slot0.IsDownloading = function(slot0, slot1)
 	if not slot1 then
 		return false
 	end
@@ -374,7 +374,7 @@ function slot0.IsDownloading(slot0, slot1)
 	return false
 end
 
-function slot0.DownloadRes(slot0, slot1)
+slot0.DownloadRes = function(slot0, slot1)
 	slot2 = ipairs
 	slot3 = slot0.displays or {}
 
@@ -403,7 +403,7 @@ function slot0.DownloadRes(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateForResDownload(slot0, slot1, slot2, slot3)
+slot0.OnUpdateForResDownload = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2:GetCpkName(slot0.langType)
 
 	slot0.downloadMgr[slot1](slot0.downloadMgr, {
@@ -437,7 +437,7 @@ function slot0.OnUpdateForResDownload(slot0, slot1, slot2, slot3)
 	}
 end
 
-function slot0.PlayVedio(slot0, slot1)
+slot0.PlayVedio = function(slot0, slot1)
 	if slot0.displays[slot1] and slot2:IsPlayableState(slot0.langType) then
 		slot3 = pg.BgmMgr.GetInstance()
 
@@ -453,7 +453,7 @@ function slot0.PlayVedio(slot0, slot1)
 	end
 end
 
-function slot0.OnUnlockCryptolalia(slot0, slot1)
+slot0.OnUnlockCryptolalia = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.cryptolaliaList) do
 		if slot6.id == slot1 then
 			slot6:Unlock()
@@ -479,7 +479,7 @@ function slot0.OnUnlockCryptolalia(slot0, slot1)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.purchaseWindow and slot0.purchaseWindow:GetLoaded() and slot0.purchaseWindow:isShowing() then
 		slot0.purchaseWindow:Hide()
 
@@ -501,7 +501,7 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:ClearAuditionTimer()
 
 	if slot0.scrollRect then

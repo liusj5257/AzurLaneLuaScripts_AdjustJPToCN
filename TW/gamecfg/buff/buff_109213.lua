@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 5,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 109213,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 109213,
+	color = "red",
 	icon = 109212,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 109214,
-				target = "TargetFleetIndex",
 				fleetPos = "Rear",
+				target = "TargetFleetIndex",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -49,8 +49,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 109214,
-				target = "TargetFleetIndex",
 				fleetPos = "Leader",
+				target = "TargetFleetIndex",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIEKEXINGDUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIEKEXINGDUN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"獻給碧海之歌\n\n<size=45>五 大家的想法</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "吃完晚餐後，在列星頓的請求下幫她整理Live用的訓練室。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "吃完晚餐後，在列星頓的請求下幫她整理Live用的訓練室。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,9 +48,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "好了，就是這裡。",
 			painting = {
 				alpha = 0.3,
@@ -64,9 +64,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "有指揮官幫忙的話，應該很快就能把訓練室整理好了。",
 			painting = {
 				alpha = 0.3,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "列星頓推開了門，然而——",
 			typewriter = {
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "欸？！已經被收拾好了……",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -116,9 +116,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "到底是什麼時候……明明說我來整理就好了的……",
 			painting = {
 				alpha = 0.3,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "訓練室中的一切都被收拾的井井有條，就連地面都被擦得光潔如新，正倒映著皎潔的初升月色。",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "……………………",
 			typewriter = {
@@ -158,9 +158,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "唔，有些時間了吧，感覺連親自登台都快成回憶了……",
 			painting = {
 				alpha = 0.3,
@@ -174,9 +174,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "我做一些後台的工作就好了，我多做一些，大家就能輕鬆一些。",
 			painting = {
 				alpha = 0.3,
@@ -190,9 +190,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "畢竟我要求大家準備更複雜、更精彩的節目，剩下的雜務自然應該我來處理。",
 			painting = {
 				alpha = 0.3,
@@ -206,9 +206,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "不過大家看起來不太認同我的觀點……",
 			painting = {
 				alpha = 0.3,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "咦……？那是——",
 			painting = {
 				alpha = 0.3,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "屬於列星頓的置物架上正放著一個小盒，似乎是專門留給列星頓的。",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "打開盒子的一瞬間，快節奏的音樂突然響了起來——",
 			typewriter = {
@@ -269,10 +269,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 108050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大-驚-喜！怎麼樣，嚇了一跳吧？",
 			painting = {
 				alpha = 0.3,
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			actor = 207110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -328,10 +328,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哈？我、我為什麼要說這個……好吧好吧！咳，聽好，妳只需要休息，剩下的事情就交給我們。",
 			painting = {
 				alpha = 0.3,
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "看起來是將有聲賀卡改造成了禮盒的樣子。",
 			typewriter = {
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "盒子的最底部，是兩張Live的門票。",
 			typewriter = {
@@ -420,9 +420,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -436,9 +436,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "唔，原來大家是這麼想的……",
 			painting = {
 				alpha = 0.3,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "總感覺，列星頓的煩惱又更上一層樓了。",
 			typewriter = {

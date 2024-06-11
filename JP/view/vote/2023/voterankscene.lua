@@ -1,6 +1,6 @@
 slot0 = class("VoteRankScene", import("..VoteScene"))
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 	setActive(slot0:findTF("blur_panel/adapt/top/title_rank"), true)
 	setActive(slot0:findTF("blur_panel/adapt/top/title"), false)
@@ -10,7 +10,7 @@ function slot0.init(slot0)
 	setActive(slot0:findTF("main/right_panel/title/Text"), false)
 end
 
-function slot0.GetPageMap(slot0)
+slot0.GetPageMap = function(slot0)
 	return {
 		[VoteConst.RACE_TYPE_PRE] = {
 			VotePreRaceShipPage,
@@ -39,7 +39,7 @@ function slot0.GetPageMap(slot0)
 	}
 end
 
-function slot0.initShips(slot0)
+slot0.initShips = function(slot0)
 	slot0.displays = {}
 	slot2 = getInputText(slot0.search)
 

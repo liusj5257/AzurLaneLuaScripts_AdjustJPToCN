@@ -25,7 +25,7 @@ slot0.bullet_type_range = 3
 slot0.bullet_type_disperse = 4
 slot0.rid_index = 0
 
-function slot0.getRid()
+slot0.getRid = function()
 	uv0.rid_index = uv0.rid_index + 1
 
 	return uv0.rid_index
@@ -33,9 +33,9 @@ end
 
 slot0.chars = {
 	[3001] = {
-		hp = 300,
 		name = "Manjuu_Atk",
 		distance = 9,
+		hp = 300,
 		id = 3001,
 		desc = "黄鸡射手",
 		move = Vector2(0, 0),
@@ -44,9 +44,9 @@ slot0.chars = {
 		}
 	},
 	[3002] = {
-		hp = 300,
 		name = "Manjuu_Craft",
 		distance = 0,
+		hp = 300,
 		id = 3002,
 		desc = "黄鸡资源",
 		move = Vector2(0, 0),
@@ -55,19 +55,19 @@ slot0.chars = {
 		}
 	},
 	[3003] = {
-		hp = 1000,
 		name = "Manjuu_Def",
 		distance = 0,
-		def = 1000,
+		hp = 1000,
 		id = 3003,
+		def = 1000,
 		desc = "黄鸡守卫",
 		move = Vector2(0, 0),
 		skill = {}
 	},
 	[3004] = {
-		hp = 500,
 		name = "P1_Cheshire",
 		distance = 9,
+		hp = 500,
 		id = 3004,
 		desc = "柴郡",
 		move = Vector2(0, 0),
@@ -76,9 +76,9 @@ slot0.chars = {
 		}
 	},
 	[3005] = {
-		hp = 500,
 		name = "P2_Kashino",
 		distance = 7,
+		hp = 500,
 		id = 3005,
 		desc = "牛牛",
 		move = Vector2(0, 0),
@@ -87,9 +87,9 @@ slot0.chars = {
 		}
 	},
 	[3006] = {
-		hp = 500,
 		name = "P3_Littorio",
 		distance = 9,
+		hp = 500,
 		id = 3006,
 		desc = "利奥里托",
 		move = Vector2(0, 0),
@@ -98,9 +98,9 @@ slot0.chars = {
 		}
 	},
 	[3007] = {
-		hp = 500,
 		name = "P4_Birmingham",
 		distance = 4,
+		hp = 500,
 		id = 3007,
 		desc = "伯明翰",
 		move = Vector2(0, 0),
@@ -109,9 +109,9 @@ slot0.chars = {
 		}
 	},
 	[3008] = {
-		hp = 500,
 		name = "P5_Noshiro",
 		distance = 9,
+		hp = 500,
 		id = 3008,
 		desc = "能代",
 		move = Vector2(0, 0),
@@ -200,22 +200,22 @@ slot0.chars = {
 slot0.skill = {
 	[1000] = {
 		auto = true,
-		distance = 0,
 		time = 0.5,
-		cd = 5,
-		id = 1000,
+		distance = 0,
 		num = 25,
+		cd = 5,
 		desc = "生成资源",
+		id = 1000,
 		type = slot0.skill_craft,
 		anim_type = slot0.anim_craft
 	},
 	[1001] = {
 		auto = true,
-		time = 0.5,
 		cd = 2,
+		time = 0.5,
 		distance = 10,
-		id = 1001,
 		desc = "柴郡普攻",
+		id = 1001,
 		type = slot0.skill_bullet,
 		anim_type = slot0.anim_atk,
 		bullet_id = {
@@ -224,11 +224,11 @@ slot0.skill = {
 	},
 	[1002] = {
 		auto = true,
-		time = 0.5,
 		cd = 2.5,
+		time = 0.5,
 		distance = 8,
-		id = 1002,
 		desc = "牛牛普攻",
+		id = 1002,
 		type = slot0.skill_bullet,
 		anim_type = slot0.anim_atk,
 		bullet_id = {
@@ -237,11 +237,11 @@ slot0.skill = {
 	},
 	[1003] = {
 		auto = true,
-		time = 0.5,
 		cd = 1.5,
+		time = 0.5,
 		distance = 10,
-		id = 1003,
 		desc = "利奥普攻",
+		id = 1003,
 		type = slot0.skill_bullet,
 		anim_type = slot0.anim_atk,
 		bullet_id = {
@@ -250,11 +250,11 @@ slot0.skill = {
 	},
 	[1004] = {
 		auto = true,
-		time = 0.5,
 		cd = 2,
+		time = 0.5,
 		distance = 5,
-		id = 1004,
 		desc = "伯明翰普攻",
+		id = 1004,
 		type = slot0.skill_bullet,
 		anim_type = slot0.anim_atk,
 		bullet_id = {
@@ -263,11 +263,11 @@ slot0.skill = {
 	},
 	[1005] = {
 		auto = true,
-		time = 0.5,
 		cd = 1.5,
+		time = 0.5,
 		distance = 10,
-		id = 1005,
 		desc = "能代普攻",
+		id = 1005,
 		type = slot0.skill_bullet,
 		anim_type = slot0.anim_atk,
 		bullet_id = {
@@ -277,11 +277,11 @@ slot0.skill = {
 	},
 	[1006] = {
 		auto = true,
-		time = 0.5,
 		cd = 1.5,
+		time = 0.5,
 		distance = 10,
-		id = 1006,
 		desc = "黄鸡普攻",
+		id = 1006,
 		type = slot0.skill_bullet,
 		anim_type = slot0.anim_atk,
 		bullet_id = {
@@ -290,149 +290,149 @@ slot0.skill = {
 	},
 	[1007] = {
 		auto = false,
-		distance = 0,
 		cd = 2,
+		distance = 0,
 		time = 0.2,
-		id = 1007,
 		damage = 8011,
 		desc = "探索普攻",
+		id = 1007,
 		type = slot0.skill_melee,
 		anim_type = slot0.anim_atk
 	},
 	[1008] = {
 		auto = false,
-		distance = 0,
 		cd = 2,
+		distance = 0,
 		time = 0.2,
-		id = 1008,
 		damage = 8012,
 		desc = "追迹普攻",
+		id = 1008,
 		type = slot0.skill_melee,
 		anim_type = slot0.anim_atk
 	},
 	[1009] = {
 		auto = false,
-		distance = 0,
 		cd = 1.3,
+		distance = 0,
 		time = 0.2,
-		id = 1009,
 		damage = 8013,
 		desc = "领洋普攻",
+		id = 1009,
 		type = slot0.skill_melee,
 		anim_type = slot0.anim_atk
 	},
 	[1010] = {
 		auto = false,
-		distance = 0,
 		cd = 2,
+		distance = 0,
 		time = 0.2,
-		id = 1010,
 		damage = 8014,
 		desc = "破局普攻",
+		id = 1010,
 		type = slot0.skill_melee,
 		anim_type = slot0.anim_atk
 	},
 	[1011] = {
 		auto = false,
-		distance = 0,
 		cd = 1.5,
+		distance = 0,
 		time = 0.2,
-		id = 1011,
 		damage = 8015,
 		desc = "执棋普攻",
+		id = 1011,
 		type = slot0.skill_melee,
 		anim_type = slot0.anim_atk
 	},
 	[1012] = {
 		auto = false,
-		distance = 0,
 		cd = 1.5,
+		distance = 0,
 		time = 0.2,
-		id = 1012,
 		damage = 8016,
 		desc = "测试普攻",
+		id = 1012,
 		type = slot0.skill_melee,
 		anim_type = slot0.anim_atk
 	},
 	[1013] = {
 		auto = false,
-		distance = 0,
 		cd = 1.5,
+		distance = 0,
 		time = 0.2,
-		id = 1013,
 		damage = 8017,
 		desc = "净化普攻",
+		id = 1013,
 		type = slot0.skill_melee,
 		anim_type = slot0.anim_atk
 	}
 }
 slot0.bullet = {
 	[5001] = {
-		id = 5001,
 		name = "Bullet_p1",
 		damage = 8002,
 		point_able = false,
+		id = 5001,
 		speed = {
 			600,
 			0
 		}
 	},
 	[5002] = {
-		speed_high = 50,
 		name = "Bullet_p2",
 		damage = 8004,
 		point_able = false,
 		id = 5002,
+		speed_high = 50,
 		speed = {
 			400,
 			0
 		}
 	},
 	[5003] = {
-		id = 5003,
 		name = "Bullet_p3",
 		damage = 8006,
 		point_able = false,
+		id = 5003,
 		speed = {
 			600,
 			0
 		}
 	},
 	[5004] = {
-		id = 5004,
 		name = "Bullet_p4",
 		damage = 8007,
 		point_able = false,
+		id = 5004,
 		speed = {
 			600,
 			0
 		}
 	},
 	[5005] = {
-		id = 5005,
 		name = "Bullet_p5",
 		damage = 8010,
 		point_able = false,
+		id = 5005,
 		speed = {
 			600,
 			0
 		}
 	},
 	[5006] = {
-		id = 5006,
 		name = "Bullet_manjuu",
 		damage = 8001,
 		point_able = false,
+		id = 5006,
 		speed = {
 			600,
 			0
 		}
 	},
 	[5007] = {
-		id = 5007,
 		name = "Bullet_p5",
 		damage = 8001,
 		point_able = false,
+		id = 5007,
 		speed = {
 			600,
 			0
@@ -442,10 +442,10 @@ slot0.bullet = {
 }
 slot0.damage = {
 	[8001] = {
-		id = 8001,
-		desc = "黄鸡攻击",
 		damage = 25,
+		id = 8001,
 		hard = 0,
+		desc = "黄鸡攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6014
@@ -454,10 +454,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8002] = {
-		id = 8002,
-		desc = "柴郡攻击",
 		damage = 40,
+		id = 8002,
 		hard = 200,
+		desc = "柴郡攻击",
 		type = slot0.bullet_type_range,
 		effect = {
 			6017
@@ -469,10 +469,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8003] = {
-		id = 8003,
-		desc = "柴郡攻击爆炸二段",
 		damage = 50,
+		id = 8003,
 		hard = 100,
+		desc = "柴郡攻击爆炸二段",
 		type = slot0.bullet_type_once,
 		effect = {
 			6018
@@ -481,10 +481,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8004] = {
-		id = 8004,
-		desc = "牛牛攻击",
 		damage = 40,
+		id = 8004,
 		hard = 200,
+		desc = "牛牛攻击",
 		type = slot0.bullet_type_range,
 		effect = {
 			6019
@@ -496,20 +496,20 @@ slot0.damage = {
 		buff = {}
 	},
 	[8005] = {
-		id = 8005,
-		desc = "牛牛攻击爆炸二段",
 		damage = 50,
+		id = 8005,
 		hard = 100,
+		desc = "牛牛攻击爆炸二段",
 		type = slot0.bullet_type_once,
 		effect = {},
 		config = {},
 		buff = {}
 	},
 	[8006] = {
-		id = 8006,
-		desc = "利奥里托攻击",
 		damage = 50,
+		id = 8006,
 		hard = 100,
+		desc = "利奥里托攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6020
@@ -520,25 +520,25 @@ slot0.damage = {
 		}
 	},
 	[8007] = {
-		id = 8007,
-		desc = "伯明翰攻击",
 		damage = 40,
+		id = 8007,
 		hard = 500,
+		desc = "伯明翰攻击",
 		type = slot0.bullet_type_disperse,
 		effect = {
 			6022
 		},
 		config = {
-			range = 1,
 			up = 8008,
+			range = 1,
 			down = 8009
 		}
 	},
 	[8008] = {
-		id = 8008,
-		desc = "伯明翰溅射二段(上)",
 		damage = 25,
+		id = 8008,
 		hard = 200,
+		desc = "伯明翰溅射二段(上)",
 		type = slot0.bullet_type_once,
 		effect = {
 			6023
@@ -547,10 +547,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8009] = {
-		id = 8009,
-		desc = "伯明翰溅射二段(下)",
 		damage = 25,
+		id = 8009,
 		hard = 200,
+		desc = "伯明翰溅射二段(下)",
 		type = slot0.bullet_type_once,
 		effect = {
 			6021
@@ -559,10 +559,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8010] = {
-		id = 8010,
-		desc = "能代攻击A",
 		damage = 30,
+		id = 8010,
 		hard = 100,
+		desc = "能代攻击A",
 		type = slot0.bullet_type_once,
 		effect = {
 			6015
@@ -573,10 +573,10 @@ slot0.damage = {
 		}
 	},
 	[8011] = {
-		id = 8011,
-		desc = "探索攻击",
 		damage = 100,
+		id = 8011,
 		hard = 0,
+		desc = "探索攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6001
@@ -585,10 +585,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8012] = {
-		id = 8012,
-		desc = "追迹攻击",
 		damage = 120,
+		id = 8012,
 		hard = 0,
+		desc = "追迹攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6002
@@ -597,10 +597,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8013] = {
-		id = 8013,
-		desc = "领洋攻击",
 		damage = 120,
+		id = 8013,
 		hard = 0,
+		desc = "领洋攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6003
@@ -609,10 +609,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8014] = {
-		id = 8014,
-		desc = "破局攻击",
 		damage = 200,
+		id = 8014,
 		hard = 0,
+		desc = "破局攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6004
@@ -621,10 +621,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8015] = {
-		id = 8015,
-		desc = "执棋攻击",
 		damage = 170,
+		id = 8015,
 		hard = 0,
+		desc = "执棋攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6005
@@ -633,10 +633,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8016] = {
-		id = 8016,
-		desc = "测试攻击",
 		damage = 270,
+		id = 8016,
 		hard = 0,
+		desc = "测试攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6006
@@ -645,10 +645,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8017] = {
-		id = 8017,
-		desc = "净化攻击",
 		damage = 270,
+		id = 8017,
 		hard = 0,
+		desc = "净化攻击",
 		type = slot0.bullet_type_once,
 		effect = {
 			6007
@@ -657,10 +657,10 @@ slot0.damage = {
 		buff = {}
 	},
 	[8018] = {
-		id = 8018,
-		desc = "能代攻击B",
 		damage = 30,
+		id = 8018,
 		hard = 100,
+		desc = "能代攻击B",
 		type = slot0.bullet_type_once,
 		effect = {
 			6015
@@ -1023,11 +1023,11 @@ slot0.buff_trigger_other = 1
 slot0.buff_trigger_self = 2
 slot0.buff = {
 	[7001] = {
+		id = 7001,
+		time = 3,
+		times = 4,
 		desc = "移动速度降低",
 		rate = 0.2,
-		time = 3,
-		id = 7001,
-		times = 4,
 		effect = {
 			6024
 		},
@@ -1035,11 +1035,11 @@ slot0.buff = {
 		trigger = slot0.buff_trigger_other
 	},
 	[7002] = {
-		desc = "伤害提高",
-		id = 7002,
+		times = 3,
 		time = 3,
 		rate = 0.1,
-		times = 3,
+		desc = "伤害提高",
+		id = 7002,
 		effect = {
 			6008,
 			6009
@@ -1058,8 +1058,8 @@ slot0.buff = {
 slot0.chapater_enemy = {
 	{
 		id = 1,
-		init_goods = 400,
 		time = 180,
+		init_goods = 400,
 		data = {
 			{
 				time = 1,
@@ -1086,9 +1086,9 @@ slot0.chapater_enemy = {
 				create = 6
 			},
 			{
-				time = 75,
+				comming = true,
 				create = 7,
-				comming = true
+				time = 75
 			},
 			{
 				create = 6,
@@ -1104,9 +1104,9 @@ slot0.chapater_enemy = {
 				create = 7
 			},
 			{
-				time = 130,
+				comming = true,
 				create = 7,
-				comming = true
+				time = 130
 			},
 			{
 				create = 8,
@@ -1130,8 +1130,8 @@ slot0.chapater_enemy = {
 	},
 	{
 		id = 2,
-		init_goods = 600,
 		time = 162,
+		init_goods = 600,
 		data = {
 			{
 				create = 2001,
@@ -1161,9 +1161,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 78,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 78
 			},
 			{
 				create = 2004,
@@ -1232,9 +1232,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 148,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 148
 			},
 			{
 				create = 2013,
@@ -1279,8 +1279,8 @@ slot0.chapater_enemy = {
 	},
 	{
 		id = 3,
-		init_goods = 600,
 		time = 170,
+		init_goods = 600,
 		data = {
 			{
 				create = 20,
@@ -1319,9 +1319,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 65,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 65
 			},
 			{
 				time = 70,
@@ -1408,9 +1408,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 140,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 140
 			},
 			{
 				time = 145,
@@ -1488,8 +1488,8 @@ slot0.chapater_enemy = {
 	},
 	{
 		id = 4,
-		init_goods = 800,
 		time = 209,
+		init_goods = 800,
 		data = {
 			{
 				create = 40,
@@ -1528,9 +1528,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 70,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 70
 			},
 			{
 				time = 73,
@@ -1608,9 +1608,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 123,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 123
 			},
 			{
 				time = 125,
@@ -1687,9 +1687,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 177,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 177
 			},
 			{
 				time = 180,
@@ -1771,8 +1771,8 @@ slot0.chapater_enemy = {
 	},
 	{
 		id = 5,
-		init_goods = 800,
 		time = 206,
+		init_goods = 800,
 		data = {
 			{
 				create = 80,
@@ -1819,9 +1819,9 @@ slot0.chapater_enemy = {
 				create = 62
 			},
 			{
-				time = 67,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 67
 			},
 			{
 				time = 70,
@@ -1886,9 +1886,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 122,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 122
 			},
 			{
 				time = 125,
@@ -1977,9 +1977,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 178,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 178
 			},
 			{
 				time = 181,
@@ -2077,8 +2077,8 @@ slot0.chapater_enemy = {
 	},
 	{
 		id = 6,
-		init_goods = 1000,
 		time = 205,
+		init_goods = 1000,
 		data = {
 			{
 				create = 80,
@@ -2099,9 +2099,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 68,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 68
 			},
 			{
 				time = 70,
@@ -2154,9 +2154,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 133,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 133
 			},
 			{
 				time = 135,
@@ -2249,9 +2249,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 178,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 178
 			},
 			{
 				time = 180,
@@ -2361,8 +2361,8 @@ slot0.chapater_enemy = {
 	},
 	{
 		id = 7,
-		init_goods = 1000,
 		time = 0,
+		init_goods = 1000,
 		data = {
 			{
 				create = 80,
@@ -2437,9 +2437,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 113,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 113
 			},
 			{
 				time = 115,
@@ -2514,9 +2514,9 @@ slot0.chapater_enemy = {
 				create = 86
 			},
 			{
-				time = 143,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 143
 			},
 			{
 				create = 100,
@@ -2528,9 +2528,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 168,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 168
 			},
 			{
 				create = 101,
@@ -2542,9 +2542,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 193,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 193
 			},
 			{
 				create = 102,
@@ -2556,9 +2556,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 218,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 218
 			},
 			{
 				create = 103,
@@ -2570,9 +2570,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 243,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 243
 			},
 			{
 				create = 104,
@@ -2584,9 +2584,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 268,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 268
 			},
 			{
 				create = 105,
@@ -2598,9 +2598,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 297,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 297
 			},
 			{
 				create = 106,
@@ -2612,9 +2612,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 333,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 333
 			},
 			{
 				create = 107,
@@ -2626,9 +2626,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 368,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 368
 			},
 			{
 				create = 108,
@@ -2640,9 +2640,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 403,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 403
 			},
 			{
 				create = 109,
@@ -2654,9 +2654,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 438,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 438
 			},
 			{
 				create = 110,
@@ -2668,9 +2668,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 473,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 473
 			},
 			{
 				create = 111,
@@ -2682,9 +2682,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 508,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 508
 			},
 			{
 				create = 112,
@@ -2699,8 +2699,8 @@ slot0.chapater_enemy = {
 	},
 	{
 		id = 8,
-		init_goods = 1000,
 		time = 0,
+		init_goods = 1000,
 		data = {
 			{
 				create = 80,
@@ -2775,9 +2775,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 113,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 113
 			},
 			{
 				time = 115,
@@ -2852,9 +2852,9 @@ slot0.chapater_enemy = {
 				create = 86
 			},
 			{
-				time = 143,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 143
 			},
 			{
 				create = 100,
@@ -2866,9 +2866,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 168,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 168
 			},
 			{
 				create = 101,
@@ -2880,9 +2880,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 193,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 193
 			},
 			{
 				create = 102,
@@ -2894,9 +2894,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 218,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 218
 			},
 			{
 				create = 103,
@@ -2908,9 +2908,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 243,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 243
 			},
 			{
 				create = 104,
@@ -2922,9 +2922,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 268,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 268
 			},
 			{
 				create = 105,
@@ -2936,9 +2936,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 297,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 297
 			},
 			{
 				create = 106,
@@ -2950,9 +2950,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 333,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 333
 			},
 			{
 				create = 107,
@@ -2964,9 +2964,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 368,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 368
 			},
 			{
 				create = 108,
@@ -2978,9 +2978,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 403,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 403
 			},
 			{
 				create = 109,
@@ -2992,9 +2992,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 438,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 438
 			},
 			{
 				create = 110,
@@ -3006,9 +3006,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 473,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 473
 			},
 			{
 				create = 111,
@@ -3020,9 +3020,9 @@ slot0.chapater_enemy = {
 				}
 			},
 			{
-				time = 508,
+				comming = true,
 				create = 301013,
-				comming = true
+				time = 508
 			},
 			{
 				create = 112,

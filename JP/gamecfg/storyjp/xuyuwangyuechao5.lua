@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "過去　重桜・長門の居所",
 			bgm = "newyear2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "過去　重桜・長門の居所",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妾も調べたところ、神木が枯れたという報告は一件だけのようで…",
 			painting = {
 				alpha = 0.3,
@@ -125,13 +125,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "お二方には知らせていなかったことにつき、恐れ入ります",
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "実は重桜にある神木の根はすべて「大神木」と繋がっております",
 			typewriter = {
@@ -154,13 +154,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "「侵食」で根が断たれてしまったら、いくら神木といえど今の姿のまま残ることはできません",
 			typewriter = {
 				speed = 0.05,
@@ -168,13 +168,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "大元からの栄養がなくなれば、いずれ枯れ果てる事になりましょう",
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "武蔵さんのところに報告された異変の原因も、元を辿れば「大神木」にあります",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -224,10 +224,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "神木の重桜、その花びらの一枚から見ても――",
 			typewriter = {
@@ -236,13 +236,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "すでに神木の侵食が重桜中に広がっています",
 			typewriter = {
 				speed = 0.05,
@@ -253,10 +253,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "このまま放置すれば、「大神木」を始めすべての神木が枯れ果てるでしょう",
 			typewriter = {
@@ -308,10 +308,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "確かに「大神木」の「どこか」にある、とは言えますが…",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -335,10 +335,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "むしろ「大神木」こそが侵食の源です",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -411,13 +411,13 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 301490,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "長門さま、夜宴の準備ができました。宴会場でお客様がお待ちしております",
 			painting = {
 				alpha = 0.3,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_142",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -492,13 +492,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "……よろしくお願い申し上げます。御狐さま",
 			typewriter = {
 				speed = 0.05,
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -518,8 +518,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -545,10 +545,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "武蔵さん、改めて一つお聞きしたいことがあります",
 			typewriter = {
@@ -557,13 +557,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "信濃さんの様子はいかがでしょうか？",
 			typewriter = {
 				speed = 0.05,
@@ -590,13 +590,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "申し訳ありません。ですが……会わせてもらえないでしょうか？",
 			typewriter = {
 				speed = 0.05,
@@ -604,13 +604,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "汝がそこまで言うなら構わないわ",
 			painting = {
 				alpha = 0.3,
@@ -644,10 +644,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "わかりました。武蔵さんの言う通りに",
 			typewriter = {
@@ -675,8 +675,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -699,8 +699,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -711,8 +711,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,

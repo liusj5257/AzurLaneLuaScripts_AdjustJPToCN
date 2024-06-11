@@ -1,8 +1,8 @@
-function slot1()
+slot1 = function()
 	return FileTool.GetCurrentDirectiory() .. "\\"
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	if slot0:gsub("/", "\\"):find(":") == nil then
 		slot0 = uv0() .. slot0
 	end
@@ -70,20 +70,20 @@ return {
 		slot0 = {}
 		uv0.Meta = slot0
 
-		function slot2()
+		slot2 = function()
 		end
 
-		function slot3()
+		slot3 = function()
 			return uv0
 		end
 
-		function slot4(slot0, slot1)
+		slot4 = function(slot0, slot1)
 			uv0.MetaMap[slot0] = slot1
 
 			return slot0
 		end
 
-		function slot5(slot0)
+		slot5 = function(slot0)
 			if not uv0.RequireMap[slot0] then
 				uv0.RequireMap[slot0] = uv1()
 			end
@@ -91,7 +91,7 @@ return {
 			return uv0.RequireMap[slot0]
 		end
 
-		function slot0.__index(slot0, slot1)
+		slot0.__index = function(slot0, slot1)
 			if slot1 == "setmetatable" then
 				return uv0
 			elseif slot1 == "pairs" or slot1 == "ipairs" then
@@ -109,59 +109,59 @@ return {
 			end
 		end
 
-		function slot0.__newindex(slot0, slot1, slot2)
+		slot0.__newindex = function(slot0, slot1, slot2)
 			rawset(slot0, slot1, slot2)
 		end
 
-		function slot0.__call()
+		slot0.__call = function()
 			return uv0(), uv0(), uv0()
 		end
 
-		function slot0.__add()
+		slot0.__add = function()
 			return uv0.__call()
 		end
 
-		function slot0.__sub()
+		slot0.__sub = function()
 			return uv0.__call()
 		end
 
-		function slot0.__mul()
+		slot0.__mul = function()
 			return uv0.__call()
 		end
 
-		function slot0.__div()
+		slot0.__div = function()
 			return uv0.__call()
 		end
 
-		function slot0.__mod()
+		slot0.__mod = function()
 			return uv0.__call()
 		end
 
-		function slot0.__pow()
+		slot0.__pow = function()
 			return uv0.__call()
 		end
 
-		function slot0.__unm()
+		slot0.__unm = function()
 			return uv0.__call()
 		end
 
-		function slot0.__concat()
+		slot0.__concat = function()
 			return uv0.__call()
 		end
 
-		function slot0.__eq()
+		slot0.__eq = function()
 			return uv0.__call()
 		end
 
-		function slot0.__lt()
+		slot0.__lt = function()
 			return uv0.__call()
 		end
 
-		function slot0.__le()
+		slot0.__le = function()
 			return uv0.__call()
 		end
 
-		function slot0.__len()
+		slot0.__len = function()
 			return uv0.__call()
 		end
 

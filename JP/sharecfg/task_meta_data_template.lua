@@ -227,6 +227,16 @@ pg.task_meta_data_template = setmetatable({
 		100183,
 		100184,
 		100185,
+		100191,
+		100192,
+		100193,
+		100194,
+		100195,
+		100201,
+		100202,
+		100203,
+		100204,
+		100205,
 		200001,
 		200002,
 		200003,
@@ -298,2385 +308,2537 @@ pg.task_meta_data_template = setmetatable({
 		200181,
 		200182,
 		200183,
-		200184
+		200184,
+		200191,
+		200192,
+		200193,
+		200194,
+		200201,
+		200202,
+		200203,
+		200204
 	}
 }, confHX)
 pg.base = pg.base or {}
 pg.base.task_meta_data_template = {
 	{
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 27,
-		desc = "演習を1回行おう！",
+		target_id_2 = "",
 		id = 1,
 		target_num = 1,
-		target_id = "0"
+		desc = "演習を1回行おう！"
 	},
 	{
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 80,
-		desc = "軍事委託を1回遂行する",
+		target_id_2 = "",
 		id = 2,
 		target_num = 1,
-		target_id = "0"
+		desc = "軍事委託を1回遂行する"
 	},
 	{
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 20,
-		desc = "艦隊を出撃させ、1回勝利せよ！",
+		target_id_2 = "",
 		id = 3,
 		target_num = 1,
-		target_id = "0"
+		desc = "艦隊を出撃させ、1回勝利せよ！"
 	},
 	{
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 11,
-		desc = "任意の敵艦を1隻撃破する",
+		target_id_2 = "",
 		id = 4,
 		target_num = 1,
-		target_id = "0"
+		desc = "任意の敵艦を1隻撃破する"
 	},
 	{
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で1回戦闘を勝利する",
+		target_id_2 = "",
 		id = 5,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で1回戦闘を勝利する"
 	},
 	{
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 300,
-		desc = "セイレーン作戦で敵を1隻撃破する",
+		target_id_2 = "",
 		id = 6,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で敵を1隻撃破する"
 	},
 	{
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 308,
-		desc = "セイレーン作戦の港任務を1回完了する",
+		target_id_2 = "",
 		id = 7,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦の港任務を1回完了する"
 	},
 	[101] = {
-		target_id_2 = "970701",
+		target_id = "0",
 		sub_type = 180,
-		desc = "飛龍(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970701",
 		id = 101,
 		target_num = 1,
-		target_id = "0"
+		desc = "飛龍(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[102] = {
-		target_id_2 = "970701",
+		target_id = "30",
 		sub_type = 180,
-		desc = "飛龍(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970701",
 		id = 102,
 		target_num = 1,
-		target_id = "30"
+		desc = "飛龍(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[103] = {
-		target_id_2 = "970701",
+		target_id = "55",
 		sub_type = 180,
-		desc = "飛龍(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970701",
 		id = 103,
 		target_num = 1,
-		target_id = "55"
+		desc = "飛龍(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[104] = {
-		target_id_2 = "970701",
+		target_id = "80",
 		sub_type = 180,
-		desc = "飛龍(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970701",
 		id = 104,
 		target_num = 1,
-		target_id = "80"
+		desc = "飛龍(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[105] = {
-		target_id_2 = "970701",
+		target_id = "100",
 		sub_type = 180,
-		desc = "飛龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970701",
 		id = 105,
 		target_num = 1,
-		target_id = "100"
+		desc = "飛龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[106] = {
-		target_id_2 = "970702",
+		target_id = "0",
 		sub_type = 180,
-		desc = "アーク・ロイヤル(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970702",
 		id = 106,
 		target_num = 1,
-		target_id = "0"
+		desc = "アーク・ロイヤル(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[107] = {
-		target_id_2 = "970702",
+		target_id = "30",
 		sub_type = 180,
-		desc = "アーク・ロイヤル(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970702",
 		id = 107,
 		target_num = 1,
-		target_id = "30"
+		desc = "アーク・ロイヤル(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[108] = {
-		target_id_2 = "970702",
+		target_id = "55",
 		sub_type = 180,
-		desc = "アーク・ロイヤル(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970702",
 		id = 108,
 		target_num = 1,
-		target_id = "55"
+		desc = "アーク・ロイヤル(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[109] = {
-		target_id_2 = "970702",
+		target_id = "80",
 		sub_type = 180,
-		desc = "アーク・ロイヤル(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970702",
 		id = 109,
 		target_num = 1,
-		target_id = "80"
+		desc = "アーク・ロイヤル(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[110] = {
-		target_id_2 = "970702",
+		target_id = "100",
 		sub_type = 180,
-		desc = "アーク・ロイヤル(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970702",
 		id = 110,
 		target_num = 1,
-		target_id = "100"
+		desc = "アーク・ロイヤル(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[111] = {
-		target_id_2 = "970201",
+		target_id = "0",
 		sub_type = 180,
-		desc = "ヘレナ(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970201",
 		id = 111,
 		target_num = 1,
-		target_id = "0"
+		desc = "ヘレナ(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[112] = {
-		target_id_2 = "970201",
+		target_id = "30",
 		sub_type = 180,
-		desc = "ヘレナ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970201",
 		id = 112,
 		target_num = 1,
-		target_id = "30"
+		desc = "ヘレナ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[113] = {
-		target_id_2 = "970201",
+		target_id = "55",
 		sub_type = 180,
-		desc = "ヘレナ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970201",
 		id = 113,
 		target_num = 1,
-		target_id = "55"
+		desc = "ヘレナ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[114] = {
-		target_id_2 = "970201",
+		target_id = "80",
 		sub_type = 180,
-		desc = "ヘレナ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970201",
 		id = 114,
 		target_num = 1,
-		target_id = "80"
+		desc = "ヘレナ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[115] = {
-		target_id_2 = "970201",
+		target_id = "100",
 		sub_type = 180,
-		desc = "ヘレナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970201",
 		id = 115,
 		target_num = 1,
-		target_id = "100"
+		desc = "ヘレナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[116] = {
-		target_id_2 = "970703",
+		target_id = "0",
 		sub_type = 180,
-		desc = "蒼龍(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970703",
 		id = 116,
 		target_num = 1,
-		target_id = "0"
+		desc = "蒼龍(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[117] = {
-		target_id_2 = "970703",
+		target_id = "30",
 		sub_type = 180,
-		desc = "蒼龍(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970703",
 		id = 117,
 		target_num = 1,
-		target_id = "30"
+		desc = "蒼龍(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[118] = {
-		target_id_2 = "970703",
+		target_id = "55",
 		sub_type = 180,
-		desc = "蒼龍(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970703",
 		id = 118,
 		target_num = 1,
-		target_id = "55"
+		desc = "蒼龍(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[119] = {
-		target_id_2 = "970703",
+		target_id = "80",
 		sub_type = 180,
-		desc = "蒼龍(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970703",
 		id = 119,
 		target_num = 1,
-		target_id = "80"
+		desc = "蒼龍(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[120] = {
-		target_id_2 = "970703",
+		target_id = "100",
 		sub_type = 180,
-		desc = "蒼龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970703",
 		id = 120,
 		target_num = 1,
-		target_id = "100"
+		desc = "蒼龍(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[121] = {
-		target_id_2 = "970501",
+		target_id = "0",
 		sub_type = 180,
-		desc = "扶桑(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970501",
 		id = 121,
 		target_num = 1,
-		target_id = "0"
+		desc = "扶桑(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[122] = {
-		target_id_2 = "970501",
+		target_id = "30",
 		sub_type = 180,
-		desc = "扶桑(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970501",
 		id = 122,
 		target_num = 1,
-		target_id = "30"
+		desc = "扶桑(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[123] = {
-		target_id_2 = "970501",
+		target_id = "55",
 		sub_type = 180,
-		desc = "扶桑(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970501",
 		id = 123,
 		target_num = 1,
-		target_id = "55"
+		desc = "扶桑(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[124] = {
-		target_id_2 = "970501",
+		target_id = "80",
 		sub_type = 180,
-		desc = "扶桑(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970501",
 		id = 124,
 		target_num = 1,
-		target_id = "80"
+		desc = "扶桑(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[125] = {
-		target_id_2 = "970501",
+		target_id = "100",
 		sub_type = 180,
-		desc = "扶桑(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970501",
 		id = 125,
 		target_num = 1,
-		target_id = "100"
+		desc = "扶桑(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[126] = {
-		target_id_2 = "970601",
+		target_id = "0",
 		sub_type = 180,
-		desc = "飛鷹(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970601",
 		id = 126,
 		target_num = 1,
-		target_id = "0"
+		desc = "飛鷹(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[127] = {
-		target_id_2 = "970601",
+		target_id = "30",
 		sub_type = 180,
-		desc = "飛鷹(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970601",
 		id = 127,
 		target_num = 1,
-		target_id = "30"
+		desc = "飛鷹(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[128] = {
-		target_id_2 = "970601",
+		target_id = "55",
 		sub_type = 180,
-		desc = "飛鷹(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970601",
 		id = 128,
 		target_num = 1,
-		target_id = "55"
+		desc = "飛鷹(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[129] = {
-		target_id_2 = "970601",
+		target_id = "80",
 		sub_type = 180,
-		desc = "飛鷹(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970601",
 		id = 129,
 		target_num = 1,
-		target_id = "80"
+		desc = "飛鷹(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[130] = {
-		target_id_2 = "970601",
+		target_id = "100",
 		sub_type = 180,
-		desc = "飛鷹(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970601",
 		id = 130,
 		target_num = 1,
-		target_id = "100"
+		desc = "飛鷹(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[131] = {
-		target_id_2 = "970401",
+		target_id = "0",
 		sub_type = 180,
-		desc = "グナイゼナウ(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970401",
 		id = 131,
 		target_num = 1,
-		target_id = "0"
+		desc = "グナイゼナウ(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[132] = {
-		target_id_2 = "970401",
+		target_id = "30",
 		sub_type = 180,
-		desc = "グナイゼナウ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970401",
 		id = 132,
 		target_num = 1,
-		target_id = "30"
+		desc = "グナイゼナウ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[133] = {
-		target_id_2 = "970401",
+		target_id = "55",
 		sub_type = 180,
-		desc = "グナイゼナウ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970401",
 		id = 133,
 		target_num = 1,
-		target_id = "55"
+		desc = "グナイゼナウ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[134] = {
-		target_id_2 = "970401",
+		target_id = "80",
 		sub_type = 180,
-		desc = "グナイゼナウ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970401",
 		id = 134,
 		target_num = 1,
-		target_id = "80"
+		desc = "グナイゼナウ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[135] = {
-		target_id_2 = "970401",
+		target_id = "100",
 		sub_type = 180,
-		desc = "グナイゼナウ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970401",
 		id = 135,
 		target_num = 1,
-		target_id = "100"
+		desc = "グナイゼナウ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[136] = {
-		target_id_2 = "970602",
+		target_id = "0",
 		sub_type = 180,
-		desc = "隼鷹(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970602",
 		id = 136,
 		target_num = 1,
-		target_id = "0"
+		desc = "隼鷹(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[137] = {
-		target_id_2 = "970602",
+		target_id = "30",
 		sub_type = 180,
-		desc = "隼鷹(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970602",
 		id = 137,
 		target_num = 1,
-		target_id = "30"
+		desc = "隼鷹(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[138] = {
-		target_id_2 = "970602",
+		target_id = "55",
 		sub_type = 180,
-		desc = "隼鷹(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970602",
 		id = 138,
 		target_num = 1,
-		target_id = "55"
+		desc = "隼鷹(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[139] = {
-		target_id_2 = "970602",
+		target_id = "80",
 		sub_type = 180,
-		desc = "隼鷹(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970602",
 		id = 139,
 		target_num = 1,
-		target_id = "80"
+		desc = "隼鷹(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[140] = {
-		target_id_2 = "970602",
+		target_id = "100",
 		sub_type = 180,
-		desc = "隼鷹(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970602",
 		id = 140,
 		target_num = 1,
-		target_id = "100"
+		desc = "隼鷹(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[141] = {
-		target_id_2 = "970402",
+		target_id = "0",
 		sub_type = 180,
-		desc = "シャルンホルスト(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970402",
 		id = 141,
 		target_num = 1,
-		target_id = "0"
+		desc = "シャルンホルスト(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[142] = {
-		target_id_2 = "970402",
+		target_id = "30",
 		sub_type = 180,
-		desc = "シャルンホルスト(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970402",
 		id = 142,
 		target_num = 1,
-		target_id = "30"
+		desc = "シャルンホルスト(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[143] = {
-		target_id_2 = "970402",
+		target_id = "55",
 		sub_type = 180,
-		desc = "シャルンホルスト(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970402",
 		id = 143,
 		target_num = 1,
-		target_id = "55"
+		desc = "シャルンホルスト(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[144] = {
-		target_id_2 = "970402",
+		target_id = "80",
 		sub_type = 180,
-		desc = "シャルンホルスト(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970402",
 		id = 144,
 		target_num = 1,
-		target_id = "80"
+		desc = "シャルンホルスト(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[145] = {
-		target_id_2 = "970402",
+		target_id = "100",
 		sub_type = 180,
-		desc = "シャルンホルスト(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970402",
 		id = 145,
 		target_num = 1,
-		target_id = "100"
+		desc = "シャルンホルスト(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[146] = {
-		target_id_2 = "970502",
+		target_id = "0",
 		sub_type = 180,
-		desc = "山城(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970502",
 		id = 146,
 		target_num = 1,
-		target_id = "0"
+		desc = "山城(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[147] = {
-		target_id_2 = "970502",
+		target_id = "30",
 		sub_type = 180,
-		desc = "山城(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970502",
 		id = 147,
 		target_num = 1,
-		target_id = "30"
+		desc = "山城(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[148] = {
-		target_id_2 = "970502",
+		target_id = "55",
 		sub_type = 180,
-		desc = "山城(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970502",
 		id = 148,
 		target_num = 1,
-		target_id = "55"
+		desc = "山城(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[149] = {
-		target_id_2 = "970502",
+		target_id = "80",
 		sub_type = 180,
-		desc = "山城(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970502",
 		id = 149,
 		target_num = 1,
-		target_id = "80"
+		desc = "山城(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[150] = {
-		target_id_2 = "970502",
+		target_id = "100",
 		sub_type = 180,
-		desc = "山城(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970502",
 		id = 150,
 		target_num = 1,
-		target_id = "100"
+		desc = "山城(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[151] = {
-		target_id_2 = "970202",
+		target_id = "0",
 		sub_type = 180,
-		desc = "メンフィス(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970202",
 		id = 151,
 		target_num = 1,
-		target_id = "0"
+		desc = "メンフィス(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[152] = {
-		target_id_2 = "970202",
+		target_id = "30",
 		sub_type = 180,
-		desc = "メンフィス(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970202",
 		id = 152,
 		target_num = 1,
-		target_id = "30"
+		desc = "メンフィス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[153] = {
-		target_id_2 = "970202",
+		target_id = "55",
 		sub_type = 180,
-		desc = "メンフィス(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970202",
 		id = 153,
 		target_num = 1,
-		target_id = "55"
+		desc = "メンフィス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[154] = {
-		target_id_2 = "970202",
+		target_id = "80",
 		sub_type = 180,
-		desc = "メンフィス(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970202",
 		id = 154,
 		target_num = 1,
-		target_id = "80"
+		desc = "メンフィス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[155] = {
-		target_id_2 = "970202",
+		target_id = "100",
 		sub_type = 180,
-		desc = "メンフィス(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970202",
 		id = 155,
 		target_num = 1,
-		target_id = "100"
+		desc = "メンフィス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[156] = {
-		target_id_2 = "970403",
+		target_id = "0",
 		sub_type = 180,
-		desc = "レパルス(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970403",
 		id = 156,
 		target_num = 1,
-		target_id = "0"
+		desc = "レパルス(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[157] = {
-		target_id_2 = "970403",
+		target_id = "30",
 		sub_type = 180,
-		desc = "レパルス(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970403",
 		id = 157,
 		target_num = 1,
-		target_id = "30"
+		desc = "レパルス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[158] = {
-		target_id_2 = "970403",
+		target_id = "55",
 		sub_type = 180,
-		desc = "レパルス(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970403",
 		id = 158,
 		target_num = 1,
-		target_id = "55"
+		desc = "レパルス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[159] = {
-		target_id_2 = "970403",
+		target_id = "80",
 		sub_type = 180,
-		desc = "レパルス(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970403",
 		id = 159,
 		target_num = 1,
-		target_id = "80"
+		desc = "レパルス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[160] = {
-		target_id_2 = "970403",
+		target_id = "100",
 		sub_type = 180,
-		desc = "レパルス(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970403",
 		id = 160,
 		target_num = 1,
-		target_id = "100"
+		desc = "レパルス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[161] = {
-		target_id_2 = "970301",
+		target_id = "0",
 		sub_type = 180,
-		desc = "トレント(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970301",
 		id = 161,
 		target_num = 1,
-		target_id = "0"
+		desc = "トレント(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[162] = {
-		target_id_2 = "970301",
+		target_id = "30",
 		sub_type = 180,
-		desc = "トレント(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970301",
 		id = 162,
 		target_num = 1,
-		target_id = "30"
+		desc = "トレント(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[163] = {
-		target_id_2 = "970301",
+		target_id = "55",
 		sub_type = 180,
-		desc = "トレント(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970301",
 		id = 163,
 		target_num = 1,
-		target_id = "55"
+		desc = "トレント(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[164] = {
-		target_id_2 = "970301",
+		target_id = "80",
 		sub_type = 180,
-		desc = "トレント(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970301",
 		id = 164,
 		target_num = 1,
-		target_id = "80"
+		desc = "トレント(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[165] = {
-		target_id_2 = "970301",
+		target_id = "100",
 		sub_type = 180,
-		desc = "トレント(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970301",
 		id = 165,
 		target_num = 1,
-		target_id = "100"
+		desc = "トレント(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[166] = {
-		target_id_2 = "970404",
+		target_id = "0",
 		sub_type = 180,
-		desc = "レナウン(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970404",
 		id = 166,
 		target_num = 1,
-		target_id = "0"
+		desc = "レナウン(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[167] = {
-		target_id_2 = "970404",
+		target_id = "30",
 		sub_type = 180,
-		desc = "レナウン(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970404",
 		id = 167,
 		target_num = 1,
-		target_id = "30"
+		desc = "レナウン(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[168] = {
-		target_id_2 = "970404",
+		target_id = "55",
 		sub_type = 180,
-		desc = "レナウン(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970404",
 		id = 168,
 		target_num = 1,
-		target_id = "55"
+		desc = "レナウン(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[169] = {
-		target_id_2 = "970404",
+		target_id = "80",
 		sub_type = 180,
-		desc = "レナウン(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970404",
 		id = 169,
 		target_num = 1,
-		target_id = "80"
+		desc = "レナウン(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[170] = {
-		target_id_2 = "970404",
+		target_id = "100",
 		sub_type = 180,
-		desc = "レナウン(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970404",
 		id = 170,
 		target_num = 1,
-		target_id = "100"
+		desc = "レナウン(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[200] = {
-		target_id_2 = "970701",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で飛龍(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970701",
 		id = 200,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で飛龍(META)を含めた艦隊で1回勝利する"
 	},
 	[201] = {
-		target_id_2 = "970701",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970701",
 		id = 201,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[202] = {
-		target_id_2 = "970701",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970701",
 		id = 202,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[203] = {
-		target_id_2 = "970701",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970701",
 		id = 203,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦で飛龍(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[204] = {
-		target_id_2 = "970702",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970702",
 		id = 204,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊で1回勝利する"
 	},
 	[205] = {
-		target_id_2 = "970702",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970702",
 		id = 205,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[206] = {
-		target_id_2 = "970702",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970702",
 		id = 206,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[207] = {
-		target_id_2 = "970702",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970702",
 		id = 207,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でアーク・ロイヤル(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[208] = {
-		target_id_2 = "970201",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970201",
 		id = 208,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊で1回勝利する"
 	},
 	[209] = {
-		target_id_2 = "970201",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970201",
 		id = 209,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[210] = {
-		target_id_2 = "970201",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970201",
 		id = 210,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[211] = {
-		target_id_2 = "970201",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970201",
 		id = 211,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でヘレナ(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[212] = {
-		target_id_2 = "970703",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970703",
 		id = 212,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊で1回勝利する"
 	},
 	[213] = {
-		target_id_2 = "970703",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970703",
 		id = 213,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[214] = {
-		target_id_2 = "970703",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970703",
 		id = 214,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[215] = {
-		target_id_2 = "970703",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970703",
 		id = 215,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦で蒼龍(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[216] = {
-		target_id_2 = "970501",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で扶桑(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970501",
 		id = 216,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で扶桑(META)を含めた艦隊で1回勝利する"
 	},
 	[217] = {
-		target_id_2 = "970501",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970501",
 		id = 217,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[218] = {
-		target_id_2 = "970501",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970501",
 		id = 218,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[219] = {
-		target_id_2 = "970501",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970501",
 		id = 219,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦で扶桑(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[220] = {
-		target_id_2 = "970601",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970601",
 		id = 220,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊で1回勝利する"
 	},
 	[221] = {
-		target_id_2 = "970601",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970601",
 		id = 221,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[222] = {
-		target_id_2 = "970601",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970601",
 		id = 222,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[223] = {
-		target_id_2 = "970601",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970601",
 		id = 223,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦で飛鷹(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[224] = {
-		target_id_2 = "970401",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970401",
 		id = 224,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊で1回勝利する"
 	},
 	[225] = {
-		target_id_2 = "970401",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970401",
 		id = 225,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[226] = {
-		target_id_2 = "970401",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970401",
 		id = 226,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[227] = {
-		target_id_2 = "970401",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970401",
 		id = 227,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でグナイゼナウ(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[228] = {
-		target_id_2 = "970602",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970602",
 		id = 228,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊で1回勝利する"
 	},
 	[229] = {
-		target_id_2 = "970602",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970602",
 		id = 229,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[230] = {
-		target_id_2 = "970602",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970602",
 		id = 230,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[231] = {
-		target_id_2 = "970602",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970602",
 		id = 231,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦で隼鷹(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[232] = {
-		target_id_2 = "970402",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970402",
 		id = 232,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊で1回勝利する"
 	},
 	[233] = {
-		target_id_2 = "970402",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970402",
 		id = 233,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[234] = {
-		target_id_2 = "970402",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970402",
 		id = 234,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[235] = {
-		target_id_2 = "970402",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970402",
 		id = 235,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でシャルンホルスト(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[236] = {
-		target_id_2 = "970502",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で山城(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970502",
 		id = 236,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で山城(META)を含めた艦隊で1回勝利する"
 	},
 	[237] = {
-		target_id_2 = "970502",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970502",
 		id = 237,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[238] = {
-		target_id_2 = "970502",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970502",
 		id = 238,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[239] = {
-		target_id_2 = "970502",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970502",
 		id = 239,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦で山城(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[240] = {
-		target_id_2 = "970202",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970202",
 		id = 240,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊で1回勝利する"
 	},
 	[241] = {
-		target_id_2 = "970202",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970202",
 		id = 241,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[242] = {
-		target_id_2 = "970202",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970202",
 		id = 242,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[243] = {
-		target_id_2 = "970202",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970202",
 		id = 243,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でメンフィス(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[244] = {
-		target_id_2 = "970403",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でレパルス(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970403",
 		id = 244,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でレパルス(META)を含めた艦隊で1回勝利する"
 	},
 	[245] = {
-		target_id_2 = "970403",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970403",
 		id = 245,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[246] = {
-		target_id_2 = "970403",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970403",
 		id = 246,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[247] = {
-		target_id_2 = "970403",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970403",
 		id = 247,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でレパルス(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[248] = {
-		target_id_2 = "970301",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でトレント(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970301",
 		id = 248,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でトレント(META)を含めた艦隊で1回勝利する"
 	},
 	[249] = {
-		target_id_2 = "970301",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970301",
 		id = 249,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[250] = {
-		target_id_2 = "970301",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970301",
 		id = 250,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[251] = {
-		target_id_2 = "970301",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv100+の敵を撃破 ",
+		target_id_2 = "970301",
 		id = 251,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でトレント(META)を含めた艦隊でLv100+の敵を撃破 "
 	},
 	[252] = {
-		target_id_2 = "970404",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でレナウン(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970404",
 		id = 252,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でレナウン(META)を含めた艦隊で1回勝利する"
 	},
 	[253] = {
-		target_id_2 = "970404",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970404",
 		id = 253,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[254] = {
-		target_id_2 = "970404",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970404",
 		id = 254,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[255] = {
-		target_id_2 = "970404",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970404",
 		id = 255,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でレナウン(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[301] = {
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 305,
-		desc = "META座標解析を1回行う",
+		target_id_2 = "",
 		id = 301,
 		target_num = 1,
-		target_id = "0"
+		desc = "META座標解析を1回行う"
 	},
 	[302] = {
-		target_id_2 = "",
+		target_id = "0",
 		sub_type = 306,
-		desc = "META戦を1回行う",
+		target_id_2 = "",
 		id = 302,
 		target_num = 1,
-		target_id = "0"
+		desc = "META戦を1回行う"
 	},
 	[100001] = {
-		target_id_2 = "970101",
+		target_id = "0",
 		sub_type = 180,
-		desc = "ハンター(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970101",
 		id = 100001,
 		target_num = 1,
-		target_id = "0"
+		desc = "ハンター(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100002] = {
-		target_id_2 = "970101",
+		target_id = "30",
 		sub_type = 180,
-		desc = "ハンター(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970101",
 		id = 100002,
 		target_num = 1,
-		target_id = "30"
+		desc = "ハンター(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100003] = {
-		target_id_2 = "970101",
+		target_id = "55",
 		sub_type = 180,
-		desc = "ハンター(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970101",
 		id = 100003,
 		target_num = 1,
-		target_id = "55"
+		desc = "ハンター(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100004] = {
-		target_id_2 = "970101",
+		target_id = "80",
 		sub_type = 180,
-		desc = "ハンター(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970101",
 		id = 100004,
 		target_num = 1,
-		target_id = "80"
+		desc = "ハンター(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100005] = {
-		target_id_2 = "970101",
+		target_id = "100",
 		sub_type = 180,
-		desc = "ハンター(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970101",
 		id = 100005,
 		target_num = 1,
-		target_id = "100"
+		desc = "ハンター(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100021] = {
-		target_id_2 = "970102",
+		target_id = "0",
 		sub_type = 180,
-		desc = "フォーチュン(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970102",
 		id = 100021,
 		target_num = 1,
-		target_id = "0"
+		desc = "フォーチュン(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100022] = {
-		target_id_2 = "970102",
+		target_id = "30",
 		sub_type = 180,
-		desc = "フォーチュン(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970102",
 		id = 100022,
 		target_num = 1,
-		target_id = "30"
+		desc = "フォーチュン(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100023] = {
-		target_id_2 = "970102",
+		target_id = "55",
 		sub_type = 180,
-		desc = "フォーチュン(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970102",
 		id = 100023,
 		target_num = 1,
-		target_id = "55"
+		desc = "フォーチュン(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100024] = {
-		target_id_2 = "970102",
+		target_id = "80",
 		sub_type = 180,
-		desc = "フォーチュン(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970102",
 		id = 100024,
 		target_num = 1,
-		target_id = "80"
+		desc = "フォーチュン(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100025] = {
-		target_id_2 = "970102",
+		target_id = "100",
 		sub_type = 180,
-		desc = "フォーチュン(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970102",
 		id = 100025,
 		target_num = 1,
-		target_id = "100"
+		desc = "フォーチュン(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100031] = {
-		target_id_2 = "970503",
+		target_id = "0",
 		sub_type = 180,
-		desc = "アリゾナ(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970503",
 		id = 100031,
 		target_num = 1,
-		target_id = "0"
+		desc = "アリゾナ(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100032] = {
-		target_id_2 = "970503",
+		target_id = "30",
 		sub_type = 180,
-		desc = "アリゾナ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970503",
 		id = 100032,
 		target_num = 1,
-		target_id = "30"
+		desc = "アリゾナ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100033] = {
-		target_id_2 = "970503",
+		target_id = "55",
 		sub_type = 180,
-		desc = "アリゾナ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970503",
 		id = 100033,
 		target_num = 1,
-		target_id = "55"
+		desc = "アリゾナ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100034] = {
-		target_id_2 = "970503",
+		target_id = "80",
 		sub_type = 180,
-		desc = "アリゾナ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970503",
 		id = 100034,
 		target_num = 1,
-		target_id = "80"
+		desc = "アリゾナ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100035] = {
-		target_id_2 = "970503",
+		target_id = "100",
 		sub_type = 180,
-		desc = "アリゾナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970503",
 		id = 100035,
 		target_num = 1,
-		target_id = "100"
+		desc = "アリゾナ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100041] = {
-		target_id_2 = "970203",
+		target_id = "0",
 		sub_type = 180,
-		desc = "シェフィールド(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970203",
 		id = 100041,
 		target_num = 1,
-		target_id = "0"
+		desc = "シェフィールド(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100042] = {
-		target_id_2 = "970203",
+		target_id = "30",
 		sub_type = 180,
-		desc = "シェフィールド(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970203",
 		id = 100042,
 		target_num = 1,
-		target_id = "30"
+		desc = "シェフィールド(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100043] = {
-		target_id_2 = "970203",
+		target_id = "55",
 		sub_type = 180,
-		desc = "シェフィールド(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970203",
 		id = 100043,
 		target_num = 1,
-		target_id = "55"
+		desc = "シェフィールド(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100044] = {
-		target_id_2 = "970203",
+		target_id = "80",
 		sub_type = 180,
-		desc = "シェフィールド(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970203",
 		id = 100044,
 		target_num = 1,
-		target_id = "80"
+		desc = "シェフィールド(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100045] = {
-		target_id_2 = "970203",
+		target_id = "100",
 		sub_type = 180,
-		desc = "シェフィールド(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970203",
 		id = 100045,
 		target_num = 1,
-		target_id = "100"
+		desc = "シェフィールド(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100051] = {
-		target_id_2 = "970504",
+		target_id = "0",
 		sub_type = 180,
-		desc = "クイーン・エリザベス(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970504",
 		id = 100051,
 		target_num = 1,
-		target_id = "0"
+		desc = "クイーン・エリザベス(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100052] = {
-		target_id_2 = "970504",
+		target_id = "30",
 		sub_type = 180,
-		desc = "クイーン・エリザベス(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970504",
 		id = 100052,
 		target_num = 1,
-		target_id = "30"
+		desc = "クイーン・エリザベス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100053] = {
-		target_id_2 = "970504",
+		target_id = "55",
 		sub_type = 180,
-		desc = "クイーン・エリザベス(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970504",
 		id = 100053,
 		target_num = 1,
-		target_id = "55"
+		desc = "クイーン・エリザベス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100054] = {
-		target_id_2 = "970504",
+		target_id = "80",
 		sub_type = 180,
-		desc = "クイーン・エリザベス(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970504",
 		id = 100054,
 		target_num = 1,
-		target_id = "80"
+		desc = "クイーン・エリザベス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100055] = {
-		target_id_2 = "970504",
+		target_id = "100",
 		sub_type = 180,
-		desc = "クイーン・エリザベス(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970504",
 		id = 100055,
 		target_num = 1,
-		target_id = "100"
+		desc = "クイーン・エリザベス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100061] = {
-		target_id_2 = "970204",
+		target_id = "0",
 		sub_type = 180,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970204",
 		id = 100061,
 		target_num = 1,
-		target_id = "0"
+		desc = "ラ·ガリソニエール(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100062] = {
-		target_id_2 = "970204",
+		target_id = "30",
 		sub_type = 180,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970204",
 		id = 100062,
 		target_num = 1,
-		target_id = "30"
+		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100063] = {
-		target_id_2 = "970204",
+		target_id = "55",
 		sub_type = 180,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970204",
 		id = 100063,
 		target_num = 1,
-		target_id = "55"
+		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100064] = {
-		target_id_2 = "970204",
+		target_id = "80",
 		sub_type = 180,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970204",
 		id = 100064,
 		target_num = 1,
-		target_id = "80"
+		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100065] = {
-		target_id_2 = "970204",
+		target_id = "100",
 		sub_type = 180,
-		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970204",
 		id = 100065,
 		target_num = 1,
-		target_id = "100"
+		desc = "ラ·ガリソニエール(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100071] = {
-		target_id_2 = "970801",
+		target_id = "0",
 		sub_type = 180,
-		desc = "U-556(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970801",
 		id = 100071,
 		target_num = 1,
-		target_id = "0"
+		desc = "U-556(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100072] = {
-		target_id_2 = "970801",
+		target_id = "30",
 		sub_type = 180,
-		desc = "U-556(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970801",
 		id = 100072,
 		target_num = 1,
-		target_id = "30"
+		desc = "U-556(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100073] = {
-		target_id_2 = "970801",
+		target_id = "55",
 		sub_type = 180,
-		desc = "U-556(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970801",
 		id = 100073,
 		target_num = 1,
-		target_id = "55"
+		desc = "U-556(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100074] = {
-		target_id_2 = "970801",
+		target_id = "80",
 		sub_type = 180,
-		desc = "U-556(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970801",
 		id = 100074,
 		target_num = 1,
-		target_id = "80"
+		desc = "U-556(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100075] = {
-		target_id_2 = "970801",
+		target_id = "100",
 		sub_type = 180,
-		desc = "U-556(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970801",
 		id = 100075,
 		target_num = 1,
-		target_id = "100"
+		desc = "U-556(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100081] = {
-		target_id_2 = "971201",
+		target_id = "0",
 		sub_type = 180,
-		desc = "ヴェスタル(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "971201",
 		id = 100081,
 		target_num = 1,
-		target_id = "0"
+		desc = "ヴェスタル(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100082] = {
-		target_id_2 = "971201",
+		target_id = "30",
 		sub_type = 180,
-		desc = "ヴェスタル(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "971201",
 		id = 100082,
 		target_num = 1,
-		target_id = "30"
+		desc = "ヴェスタル(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100083] = {
-		target_id_2 = "971201",
+		target_id = "55",
 		sub_type = 180,
-		desc = "ヴェスタル(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "971201",
 		id = 100083,
 		target_num = 1,
-		target_id = "55"
+		desc = "ヴェスタル(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100084] = {
-		target_id_2 = "971201",
+		target_id = "80",
 		sub_type = 180,
-		desc = "ヴェスタル(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "971201",
 		id = 100084,
 		target_num = 1,
-		target_id = "80"
+		desc = "ヴェスタル(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100085] = {
-		target_id_2 = "971201",
+		target_id = "100",
 		sub_type = 180,
-		desc = "ヴェスタル(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "971201",
 		id = 100085,
 		target_num = 1,
-		target_id = "100"
+		desc = "ヴェスタル(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100091] = {
-		target_id_2 = "970302",
+		target_id = "0",
 		sub_type = 180,
-		desc = "アルジェリー(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970302",
 		id = 100091,
 		target_num = 1,
-		target_id = "0"
+		desc = "アルジェリー(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100092] = {
-		target_id_2 = "970302",
+		target_id = "30",
 		sub_type = 180,
-		desc = "アルジェリー(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970302",
 		id = 100092,
 		target_num = 1,
-		target_id = "30"
+		desc = "アルジェリー(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100093] = {
-		target_id_2 = "970302",
+		target_id = "55",
 		sub_type = 180,
-		desc = "アルジェリー(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970302",
 		id = 100093,
 		target_num = 1,
-		target_id = "55"
+		desc = "アルジェリー(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100094] = {
-		target_id_2 = "970302",
+		target_id = "80",
 		sub_type = 180,
-		desc = "アルジェリー(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970302",
 		id = 100094,
 		target_num = 1,
-		target_id = "80"
+		desc = "アルジェリー(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100095] = {
-		target_id_2 = "970302",
+		target_id = "100",
 		sub_type = 180,
-		desc = "アルジェリー(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970302",
 		id = 100095,
 		target_num = 1,
-		target_id = "100"
+		desc = "アルジェリー(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100101] = {
-		target_id_2 = "970103",
+		target_id = "0",
 		sub_type = 180,
-		desc = "旗風(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970103",
 		id = 100101,
 		target_num = 1,
-		target_id = "0"
+		desc = "旗風(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100102] = {
-		target_id_2 = "970103",
+		target_id = "30",
 		sub_type = 180,
-		desc = "旗風(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970103",
 		id = 100102,
 		target_num = 1,
-		target_id = "30"
+		desc = "旗風(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100103] = {
-		target_id_2 = "970103",
+		target_id = "55",
 		sub_type = 180,
-		desc = "旗風(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970103",
 		id = 100103,
 		target_num = 1,
-		target_id = "55"
+		desc = "旗風(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100104] = {
-		target_id_2 = "970103",
+		target_id = "80",
 		sub_type = 180,
-		desc = "旗風(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970103",
 		id = 100104,
 		target_num = 1,
-		target_id = "80"
+		desc = "旗風(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100105] = {
-		target_id_2 = "970103",
+		target_id = "100",
 		sub_type = 180,
-		desc = "旗風(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970103",
 		id = 100105,
 		target_num = 1,
-		target_id = "100"
+		desc = "旗風(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100111] = {
-		target_id_2 = "970205",
+		target_id = "0",
 		sub_type = 180,
-		desc = "神通(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970205",
 		id = 100111,
 		target_num = 1,
-		target_id = "0"
+		desc = "神通(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100112] = {
-		target_id_2 = "970205",
+		target_id = "30",
 		sub_type = 180,
-		desc = "神通(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970205",
 		id = 100112,
 		target_num = 1,
-		target_id = "30"
+		desc = "神通(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100113] = {
-		target_id_2 = "970205",
+		target_id = "55",
 		sub_type = 180,
-		desc = "神通(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970205",
 		id = 100113,
 		target_num = 1,
-		target_id = "55"
+		desc = "神通(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100114] = {
-		target_id_2 = "970205",
+		target_id = "80",
 		sub_type = 180,
-		desc = "神通(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970205",
 		id = 100114,
 		target_num = 1,
-		target_id = "80"
+		desc = "神通(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100115] = {
-		target_id_2 = "970205",
+		target_id = "100",
 		sub_type = 180,
-		desc = "神通(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970205",
 		id = 100115,
 		target_num = 1,
-		target_id = "100"
+		desc = "神通(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100121] = {
-		target_id_2 = "970603",
+		target_id = "0",
 		sub_type = 180,
-		desc = "プリンストン(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970603",
 		id = 100121,
 		target_num = 1,
-		target_id = "0"
+		desc = "プリンストン(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100122] = {
-		target_id_2 = "970603",
+		target_id = "30",
 		sub_type = 180,
-		desc = "プリンストン(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970603",
 		id = 100122,
 		target_num = 1,
-		target_id = "30"
+		desc = "プリンストン(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100123] = {
-		target_id_2 = "970603",
+		target_id = "55",
 		sub_type = 180,
-		desc = "プリンストン(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970603",
 		id = 100123,
 		target_num = 1,
-		target_id = "55"
+		desc = "プリンストン(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100124] = {
-		target_id_2 = "970603",
+		target_id = "80",
 		sub_type = 180,
-		desc = "プリンストン(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970603",
 		id = 100124,
 		target_num = 1,
-		target_id = "80"
+		desc = "プリンストン(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100125] = {
-		target_id_2 = "970603",
+		target_id = "100",
 		sub_type = 180,
-		desc = "プリンストン(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970603",
 		id = 100125,
 		target_num = 1,
-		target_id = "100"
+		desc = "プリンストン(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100131] = {
-		target_id_2 = "971301",
+		target_id = "0",
 		sub_type = 180,
-		desc = "エレバス(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "971301",
 		id = 100131,
 		target_num = 1,
-		target_id = "0"
+		desc = "エレバス(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100132] = {
-		target_id_2 = "971301",
+		target_id = "30",
 		sub_type = 180,
-		desc = "エレバス(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "971301",
 		id = 100132,
 		target_num = 1,
-		target_id = "30"
+		desc = "エレバス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100133] = {
-		target_id_2 = "971301",
+		target_id = "55",
 		sub_type = 180,
-		desc = "エレバス(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "971301",
 		id = 100133,
 		target_num = 1,
-		target_id = "55"
+		desc = "エレバス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100134] = {
-		target_id_2 = "971301",
+		target_id = "80",
 		sub_type = 180,
-		desc = "エレバス(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "971301",
 		id = 100134,
 		target_num = 1,
-		target_id = "80"
+		desc = "エレバス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100135] = {
-		target_id_2 = "971301",
+		target_id = "100",
 		sub_type = 180,
-		desc = "エレバス(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "971301",
 		id = 100135,
 		target_num = 1,
-		target_id = "100"
+		desc = "エレバス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100141] = {
-		target_id_2 = "970206",
+		target_id = "0",
 		sub_type = 180,
-		desc = "キーロフ(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970206",
 		id = 100141,
 		target_num = 1,
-		target_id = "0"
+		desc = "キーロフ(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100142] = {
-		target_id_2 = "970206",
+		target_id = "30",
 		sub_type = 180,
-		desc = "キーロフ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970206",
 		id = 100142,
 		target_num = 1,
-		target_id = "30"
+		desc = "キーロフ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100143] = {
-		target_id_2 = "970206",
+		target_id = "55",
 		sub_type = 180,
-		desc = "キーロフ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970206",
 		id = 100143,
 		target_num = 1,
-		target_id = "55"
+		desc = "キーロフ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100144] = {
-		target_id_2 = "970206",
+		target_id = "80",
 		sub_type = 180,
-		desc = "キーロフ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970206",
 		id = 100144,
 		target_num = 1,
-		target_id = "80"
+		desc = "キーロフ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100145] = {
-		target_id_2 = "970206",
+		target_id = "100",
 		sub_type = 180,
-		desc = "キーロフ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970206",
 		id = 100145,
 		target_num = 1,
-		target_id = "100"
+		desc = "キーロフ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100151] = {
-		target_id_2 = "970104",
+		target_id = "0",
 		sub_type = 180,
-		desc = "キンバリー(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970104",
 		id = 100151,
 		target_num = 1,
-		target_id = "0"
+		desc = "キンバリー(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100152] = {
-		target_id_2 = "970104",
+		target_id = "30",
 		sub_type = 180,
-		desc = "キンバリー(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970104",
 		id = 100152,
 		target_num = 1,
-		target_id = "30"
+		desc = "キンバリー(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100153] = {
-		target_id_2 = "970104",
+		target_id = "55",
 		sub_type = 180,
-		desc = "キンバリー(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970104",
 		id = 100153,
 		target_num = 1,
-		target_id = "55"
+		desc = "キンバリー(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100154] = {
-		target_id_2 = "970104",
+		target_id = "80",
 		sub_type = 180,
-		desc = "キンバリー(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970104",
 		id = 100154,
 		target_num = 1,
-		target_id = "80"
+		desc = "キンバリー(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100155] = {
-		target_id_2 = "970104",
+		target_id = "100",
 		sub_type = 180,
-		desc = "キンバリー(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970104",
 		id = 100155,
 		target_num = 1,
-		target_id = "100"
+		desc = "キンバリー(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100161] = {
-		target_id_2 = "970207",
+		target_id = "0",
 		sub_type = 180,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970207",
 		id = 100161,
 		target_num = 1,
-		target_id = "0"
+		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100162] = {
-		target_id_2 = "970207",
+		target_id = "30",
 		sub_type = 180,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970207",
 		id = 100162,
 		target_num = 1,
-		target_id = "30"
+		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100163] = {
-		target_id_2 = "970207",
+		target_id = "55",
 		sub_type = 180,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970207",
 		id = 100163,
 		target_num = 1,
-		target_id = "55"
+		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100164] = {
-		target_id_2 = "970207",
+		target_id = "80",
 		sub_type = 180,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970207",
 		id = 100164,
 		target_num = 1,
-		target_id = "80"
+		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100165] = {
-		target_id_2 = "970207",
+		target_id = "100",
 		sub_type = 180,
-		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970207",
 		id = 100165,
 		target_num = 1,
-		target_id = "100"
+		desc = "パーミャチ・メルクーリヤ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100171] = {
-		target_id_2 = "970505",
+		target_id = "0",
 		sub_type = 180,
-		desc = "ロドニー(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970505",
 		id = 100171,
 		target_num = 1,
-		target_id = "0"
+		desc = "ロドニー(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100172] = {
-		target_id_2 = "970505",
+		target_id = "30",
 		sub_type = 180,
-		desc = "ロドニー(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970505",
 		id = 100172,
 		target_num = 1,
-		target_id = "30"
+		desc = "ロドニー(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100173] = {
-		target_id_2 = "970505",
+		target_id = "55",
 		sub_type = 180,
-		desc = "ロドニー(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970505",
 		id = 100173,
 		target_num = 1,
-		target_id = "55"
+		desc = "ロドニー(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100174] = {
-		target_id_2 = "970505",
+		target_id = "80",
 		sub_type = 180,
-		desc = "ロドニー(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970505",
 		id = 100174,
 		target_num = 1,
-		target_id = "80"
+		desc = "ロドニー(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100175] = {
-		target_id_2 = "970505",
+		target_id = "100",
 		sub_type = 180,
-		desc = "ロドニー(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970505",
 		id = 100175,
 		target_num = 1,
-		target_id = "100"
+		desc = "ロドニー(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[100181] = {
-		target_id_2 = "970105",
+		target_id = "0",
 		sub_type = 180,
-		desc = "ヴァンパイア(META)を編成した艦隊で1回戦闘を勝利する",
+		target_id_2 = "970105",
 		id = 100181,
 		target_num = 1,
-		target_id = "0"
+		desc = "ヴァンパイア(META)を編成した艦隊で1回戦闘を勝利する"
 	},
 	[100182] = {
-		target_id_2 = "970105",
+		target_id = "30",
 		sub_type = 180,
-		desc = "ヴァンパイア(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		target_id_2 = "970105",
 		id = 100182,
 		target_num = 1,
-		target_id = "30"
+		desc = "ヴァンパイア(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
 	},
 	[100183] = {
-		target_id_2 = "970105",
+		target_id = "55",
 		sub_type = 180,
-		desc = "ヴァンパイア(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		target_id_2 = "970105",
 		id = 100183,
 		target_num = 1,
-		target_id = "55"
+		desc = "ヴァンパイア(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
 	},
 	[100184] = {
-		target_id_2 = "970105",
+		target_id = "80",
 		sub_type = 180,
-		desc = "ヴァンパイア(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		target_id_2 = "970105",
 		id = 100184,
 		target_num = 1,
-		target_id = "80"
+		desc = "ヴァンパイア(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
 	},
 	[100185] = {
-		target_id_2 = "970105",
+		target_id = "100",
 		sub_type = 180,
-		desc = "ヴァンパイア(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		target_id_2 = "970105",
 		id = 100185,
 		target_num = 1,
-		target_id = "100"
+		desc = "ヴァンパイア(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
+	[100191] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100191,
+		target_num = 1,
+		desc = "ベアルン(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100192] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100192,
+		target_num = 1,
+		desc = "ベアルン(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100193] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100193,
+		target_num = 1,
+		desc = "ベアルン(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100194] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100194,
+		target_num = 1,
+		desc = "ベアルン(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100195] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100195,
+		target_num = 1,
+		desc = "ベアルン(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
+	[100201] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100201,
+		target_num = 1,
+		desc = "フォッシュ(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100202] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100202,
+		target_num = 1,
+		desc = "フォッシュ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100203] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100203,
+		target_num = 1,
+		desc = "フォッシュ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100204] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100204,
+		target_num = 1,
+		desc = "フォッシュ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100205] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100205,
+		target_num = 1,
+		desc = "フォッシュ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
 	[200001] = {
-		target_id_2 = "970101",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でハンター(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970101",
 		id = 200001,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でハンター(META)を含めた艦隊で1回勝利する"
 	},
 	[200002] = {
-		target_id_2 = "970101",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970101",
 		id = 200002,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200003] = {
-		target_id_2 = "970101",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970101",
 		id = 200003,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200004] = {
-		target_id_2 = "970101",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970101",
 		id = 200004,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でハンター(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200021] = {
-		target_id_2 = "970102",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970102",
 		id = 200021,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊で1回勝利する"
 	},
 	[200022] = {
-		target_id_2 = "970102",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970102",
 		id = 200022,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200023] = {
-		target_id_2 = "970102",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970102",
 		id = 200023,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200024] = {
-		target_id_2 = "970102",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970102",
 		id = 200024,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でフォーチュン(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200031] = {
-		target_id_2 = "970503",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970503",
 		id = 200031,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊で1回勝利する"
 	},
 	[200032] = {
-		target_id_2 = "970503",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970503",
 		id = 200032,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200033] = {
-		target_id_2 = "970503",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970503",
 		id = 200033,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200034] = {
-		target_id_2 = "970503",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970503",
 		id = 200034,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でアリゾナ(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200041] = {
-		target_id_2 = "970203",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970203",
 		id = 200041,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊で1回勝利する"
 	},
 	[200042] = {
-		target_id_2 = "970203",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970203",
 		id = 200042,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200043] = {
-		target_id_2 = "970203",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970203",
 		id = 200043,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200044] = {
-		target_id_2 = "970203",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970203",
 		id = 200044,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でシェフィールド(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200051] = {
-		target_id_2 = "970504",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970504",
 		id = 200051,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊で1回勝利する"
 	},
 	[200052] = {
-		target_id_2 = "970504",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970504",
 		id = 200052,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200053] = {
-		target_id_2 = "970504",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970504",
 		id = 200053,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200054] = {
-		target_id_2 = "970504",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970504",
 		id = 200054,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でクイーン・エリザベス(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200061] = {
-		target_id_2 = "970204",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970204",
 		id = 200061,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊で1回勝利する"
 	},
 	[200062] = {
-		target_id_2 = "970204",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970204",
 		id = 200062,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200063] = {
-		target_id_2 = "970204",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970204",
 		id = 200063,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200064] = {
-		target_id_2 = "970204",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970204",
 		id = 200064,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でラ·ガリソニエール(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200071] = {
-		target_id_2 = "970801",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でU-556(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970801",
 		id = 200071,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でU-556(META)を含めた艦隊で1回勝利する"
 	},
 	[200072] = {
-		target_id_2 = "970801",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970801",
 		id = 200072,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200073] = {
-		target_id_2 = "970801",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970801",
 		id = 200073,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200074] = {
-		target_id_2 = "970801",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970801",
 		id = 200074,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でU-556(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200081] = {
-		target_id_2 = "971201",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "971201",
 		id = 200081,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊で1回勝利する"
 	},
 	[200082] = {
-		target_id_2 = "971201",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "971201",
 		id = 200082,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200083] = {
-		target_id_2 = "971201",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "971201",
 		id = 200083,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200084] = {
-		target_id_2 = "971201",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "971201",
 		id = 200084,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でヴェスタル(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200091] = {
-		target_id_2 = "970302",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970302",
 		id = 200091,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊で1回勝利する"
 	},
 	[200092] = {
-		target_id_2 = "970302",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970302",
 		id = 200092,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200093] = {
-		target_id_2 = "970302",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970302",
 		id = 200093,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200094] = {
-		target_id_2 = "970302",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970302",
 		id = 200094,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でアルジェリー(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200101] = {
-		target_id_2 = "970103",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で旗風(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970103",
 		id = 200101,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で旗風(META)を含めた艦隊で1回勝利する"
 	},
 	[200102] = {
-		target_id_2 = "970103",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970103",
 		id = 200102,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200103] = {
-		target_id_2 = "970103",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970103",
 		id = 200103,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200104] = {
-		target_id_2 = "970103",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970103",
 		id = 200104,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦で旗風(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200111] = {
-		target_id_2 = "970205",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦で神通(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970205",
 		id = 200111,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦で神通(META)を含めた艦隊で1回勝利する"
 	},
 	[200112] = {
-		target_id_2 = "970205",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970205",
 		id = 200112,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200113] = {
-		target_id_2 = "970205",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970205",
 		id = 200113,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200114] = {
-		target_id_2 = "970205",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970205",
 		id = 200114,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦で神通(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200121] = {
-		target_id_2 = "970603",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970603",
 		id = 200121,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊で1回勝利する"
 	},
 	[200122] = {
-		target_id_2 = "970603",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970603",
 		id = 200122,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200123] = {
-		target_id_2 = "970603",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970603",
 		id = 200123,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200124] = {
-		target_id_2 = "970603",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970603",
 		id = 200124,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でプリンストン(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200131] = {
-		target_id_2 = "971301",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でエレバス(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "971301",
 		id = 200131,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でエレバス(META)を含めた艦隊で1回勝利する"
 	},
 	[200132] = {
-		target_id_2 = "971301",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "971301",
 		id = 200132,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200133] = {
-		target_id_2 = "971301",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "971301",
 		id = 200133,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200134] = {
-		target_id_2 = "971301",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "971301",
 		id = 200134,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でエレバス(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200141] = {
-		target_id_2 = "970206",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970206",
 		id = 200141,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊で1回勝利する"
 	},
 	[200142] = {
-		target_id_2 = "970206",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970206",
 		id = 200142,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200143] = {
-		target_id_2 = "970206",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970206",
 		id = 200143,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200144] = {
-		target_id_2 = "970206",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970206",
 		id = 200144,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でキーロフ(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200151] = {
-		target_id_2 = "970104",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970104",
 		id = 200151,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊で1回勝利する"
 	},
 	[200152] = {
-		target_id_2 = "970104",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970104",
 		id = 200152,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200153] = {
-		target_id_2 = "970104",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970104",
 		id = 200153,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200154] = {
-		target_id_2 = "970104",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970104",
 		id = 200154,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でキンバリー(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200161] = {
-		target_id_2 = "970207",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970207",
 		id = 200161,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊で1回勝利する"
 	},
 	[200162] = {
-		target_id_2 = "970207",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970207",
 		id = 200162,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200163] = {
-		target_id_2 = "970207",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970207",
 		id = 200163,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200164] = {
-		target_id_2 = "970207",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970207",
 		id = 200164,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でパーミャチ・メルクーリヤ(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200171] = {
-		target_id_2 = "970505",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でロドニー(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970505",
 		id = 200171,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でロドニー(META)を含めた艦隊で1回勝利する"
 	},
 	[200172] = {
-		target_id_2 = "970505",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970505",
 		id = 200172,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200173] = {
-		target_id_2 = "970505",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970505",
 		id = 200173,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200174] = {
-		target_id_2 = "970505",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970505",
 		id = 200174,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv100+の敵を撃破"
 	},
 	[200181] = {
-		target_id_2 = "970105",
+		target_id = "0",
 		sub_type = 302,
-		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊で1回勝利する",
+		target_id_2 = "970105",
 		id = 200181,
 		target_num = 1,
-		target_id = "0"
+		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊で1回勝利する"
 	},
 	[200182] = {
-		target_id_2 = "970105",
+		target_id = "70",
 		sub_type = 302,
-		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv70+の敵を撃破",
+		target_id_2 = "970105",
 		id = 200182,
 		target_num = 1,
-		target_id = "70"
+		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv70+の敵を撃破"
 	},
 	[200183] = {
-		target_id_2 = "970105",
+		target_id = "90",
 		sub_type = 302,
-		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv90+の敵を撃破",
+		target_id_2 = "970105",
 		id = 200183,
 		target_num = 1,
-		target_id = "90"
+		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv90+の敵を撃破"
 	},
 	[200184] = {
-		target_id_2 = "970105",
+		target_id = "100",
 		sub_type = 302,
-		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv100+の敵を撃破",
+		target_id_2 = "970105",
 		id = 200184,
 		target_num = 1,
-		target_id = "100"
+		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200191] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970704",
+		id = 200191,
+		target_num = 1,
+		desc = "セイレーン作戦でベアルン(META)を含めた艦隊で1回勝利する"
+	},
+	[200192] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970704",
+		id = 200192,
+		target_num = 1,
+		desc = "セイレーン作戦でベアルン(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200193] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970704",
+		id = 200193,
+		target_num = 1,
+		desc = "セイレーン作戦でベアルン(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200194] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970704",
+		id = 200194,
+		target_num = 1,
+		desc = "セイレーン作戦でベアルン(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200201] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970303",
+		id = 200201,
+		target_num = 1,
+		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊で1回勝利する"
+	},
+	[200202] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970303",
+		id = 200202,
+		target_num = 1,
+		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200203] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970303",
+		id = 200203,
+		target_num = 1,
+		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200204] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970303",
+		id = 200204,
+		target_num = 1,
+		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

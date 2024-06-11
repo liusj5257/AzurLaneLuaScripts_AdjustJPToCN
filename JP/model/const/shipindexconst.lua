@@ -36,7 +36,7 @@ slot0.SortIndexs = {
 	slot0.SortEnergy
 }
 
-function slot0.getSortFuncAndName(slot0, slot1)
+slot0.getSortFuncAndName = function(slot0, slot1)
 	for slot5 = 1, #ShipIndexCfg.sort do
 		if bit.band(bit.lshift(1, slot5 - 1), slot0) > 0 then
 			return underscore.map(ShipIndexCfg.sort[slot5].sortFuncs, function (slot0)
@@ -68,7 +68,7 @@ slot0.SortPropertyNames = {
 	"word_attr_antisub"
 }
 
-function slot0.sortByCombatPower()
+slot0.sortByCombatPower = function()
 	return {
 		function (slot0)
 			return -slot0:getShipCombatPower()
@@ -79,7 +79,7 @@ function slot0.sortByCombatPower()
 	}
 end
 
-function slot0.sortByField(slot0)
+slot0.sortByField = function(slot0)
 	return {
 		function (slot0)
 			return -slot0[uv0]
@@ -93,7 +93,7 @@ function slot0.sortByField(slot0)
 	}
 end
 
-function slot0.sortByProperty(slot0)
+slot0.sortByProperty = function(slot0)
 	return {
 		function (slot0)
 			return -slot0:getShipProperties()[uv0]
@@ -104,7 +104,7 @@ function slot0.sortByProperty(slot0)
 	}
 end
 
-function slot0.sortByCfg(slot0)
+slot0.sortByCfg = function(slot0)
 	return {
 		function (slot0)
 			return -(uv0 == "rarity" and slot0:getRarity() or slot0:getConfig(uv0))
@@ -115,7 +115,7 @@ function slot0.sortByCfg(slot0)
 	}
 end
 
-function slot0.sortByIntimacy()
+slot0.sortByIntimacy = function()
 	return {
 		function (slot0)
 			return -slot0.intimacy
@@ -132,7 +132,7 @@ function slot0.sortByIntimacy()
 	}
 end
 
-function slot0.sortByEnergy()
+slot0.sortByEnergy = function()
 	return {
 		function (slot0)
 			return -slot0:getEnergy()
@@ -183,7 +183,7 @@ slot0.TypeNames = {
 	"index_other"
 }
 
-function slot0.filterByType(slot0, slot1)
+slot0.filterByType = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.TypeAll then
 		return true
 	end
@@ -257,7 +257,7 @@ slot0.CampNames = {
 	"word_shipNation_other"
 }
 
-function slot0.filterByCamp(slot0, slot1)
+slot0.filterByCamp = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.CampAll then
 		return true
 	end
@@ -304,7 +304,7 @@ slot0.RarityNames = {
 	"index_rare6"
 }
 
-function slot0.filterByRarity(slot0, slot1)
+slot0.filterByRarity = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.RarityAll then
 		return true
 	end
@@ -408,7 +408,7 @@ end
 table.insert(slot0.ExtraNames, "index_dressed")
 table.insert(slot0.ExtraNames, "index_marry")
 
-function slot0.filterByExtra(slot0, slot1)
+slot0.filterByExtra = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.ExtraAll then
 		return true
 	end
@@ -458,7 +458,7 @@ slot0.CollExtraNames = {
 	"index_not_obtained"
 }
 
-function slot0.filterByCollExtra(slot0, slot1)
+slot0.filterByCollExtra = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.CollExtraAll then
 		return true
 	end

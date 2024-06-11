@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023北联SP 敌方支援弹幕EX",
 	time = 0,
-	color = "blue",
+	name = "2023北联SP 敌方支援弹幕EX",
+	init_effect = "",
+	id = 200385,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200385,
+	color = "blue",
 	icon = 200385,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200386,
-				target = "TargetSelf",
-				time = 25
+				time = 25,
+				target = "TargetSelf"
 			}
 		}
 	}

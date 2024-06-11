@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"人見知りの黒猫\n\n<size=45>四 秘書艦初春・着任！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "ひ、ひひ、秘書艦にしてください！！",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……何が起きた。",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "ぼ、母港の皆の役に立ちたいです！",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -144,13 +144,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "若葉から事情を説明された。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "なるほど、人見知りを治したいのか。",
 			typewriter = {
 				speed = 0.05,
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "よかったぁ！じゃあ初春姉頑張って！二人の邪魔はしないから！ばいばい！",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -3750
@@ -236,11 +236,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "えっ、あ、はい！が、がががんばります！",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "熱意があるのはいいんだが――",
 			typewriter = {
 				speed = 0.05,
@@ -276,15 +276,15 @@ return {
 			}
 		},
 		{
-			actor = 103110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103110,
+			nameColor = "#a9f548",
 			say = "おい、重桜の、明日の演習海域のスケジュールを教えてもらえるか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "きゃぅ！？ご、ごめんなさい！？わ、わわ……",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -351,15 +351,15 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203070,
+			nameColor = "#a9f548",
 			say = "来る明日の試練<†エクササイズ†>のための領域<†フィールド†>はもう準備できてるか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "うぅ…ごめんなさい！",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -442,13 +442,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "あんまり順調とは言えないようだ……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -473,11 +473,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "ご、ごめんなさい！わ、私はやっぱり……人とうまく会話で、できなくて……",
 			typewriter = {
 				speed = 0.05,
@@ -543,9 +543,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "初春は自分が今すごく流暢に話せたことに気づいていないようだ。",
 			typewriter = {
 				speed = 0.05,

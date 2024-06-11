@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAYUE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAYUE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꽃말\n\n<size=45>7. 눈앞의 행복을 소중히 여기기</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-china",
 			bgName = "star_level_bg_115",
 			say = "새해 연회에서 하나즈키의 꽃다발은 동료들의 호평을 받았다.",
-			bgm = "story-china",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,14 +45,14 @@ return {
 			}
 		},
 		{
-			actor = 301571,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "너무 예쁜 색이에요~! 고마워요, 하나즈키….",
 			hidePaintEquip = true,
+			actor = 301571,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "너무 예쁜 색이에요~! 고마워요, 하나즈키….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			actor = 301822,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "두 분의 칭찬, 고마워요~♬ 지휘관님의 지도를 받으면서 만든 거랍니다….",
 			hidePaintEquip = true,
+			actor = 301822,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "두 분의 칭찬, 고마워요~♬ 지휘관님의 지도를 받으면서 만든 거랍니다….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "화려한 색들이 하늘에서 피어오르더니, 작은 별빛이 되어 칠흑 같은 밤하늘에 녹아들었다.",
 			typewriter = {
@@ -147,17 +147,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "화약 냄새가 나긴 하지만———",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
 			say = "불꽃에 비친 그녀의 얼굴이 새빨갛게 물들었다——",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
 			say = "당연하지.",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 2,
 			say = "하나즈키가 잠시 멍하니 있더니 이윽고 얼굴이 새빨개졌다——",
@@ -459,8 +459,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -533,8 +533,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "활짝 핀 불꽃 아래에서 하나즈키가 목화 한 다발을 내 손에 건네주었다.",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "나도 모르게 미소가 흘러나왔다. 왜냐면 이 꽃의 꽃말은——",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "————'눈앞의 행복을 소중히 여기자'니까.",
 			typewriter = {

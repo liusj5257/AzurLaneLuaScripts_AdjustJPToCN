@@ -1,11 +1,11 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHONGQIU6",
-	once = true,
 	fadeType = 1,
-	fadein = 1.5,
+	once = true,
+	id = "ZHONGQIU6",
 	updateOnBegin = 1,
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205060,
@@ -135,8 +135,8 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Ning Hai",
 			dir = -1,
+			actorName = "Ning Hai",
 			say = "Hey! Stop there! Wine thivees!",
 			typewriter = {
 				speed = 0.05,
@@ -148,15 +148,15 @@ return {
 			}
 		},
 		{
-			actor = 502022,
 			actorName = "Ning Hai",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502022,
+			nameColor = "#a9f548",
 			say = "Wales~ Can I have a h-hug~",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 502032,
+			say = "With a touch of alcohol, my sister becomes a troublemaker...",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "Ping Hai",
 			dir = 1,
-			say = "With a touch of alcohol, my sister becomes a troublemaker...",
+			actor = 502032,
+			actorName = "Ping Hai",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -324,8 +324,8 @@ return {
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Ping Hai",
 			dir = 1,
+			actorName = "Ping Hai",
 			say = "But I ate all the mooncakes... I, I mean we...",
 			typewriter = {
 				speed = 0.05,

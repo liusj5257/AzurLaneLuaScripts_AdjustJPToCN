@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU6",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
-			stopbgm = true,
-			say = "聖堂施設「Blanc（白）」・聖蹟陳列室",
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			say = "聖堂施設「Blanc（白）」・聖蹟陳列室",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,17 +31,17 @@ return {
 			bgName = "bg_firedust_3",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "主役のぼく、堂々と参上☆",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "さあザコめ、この新装備の試し撃ちの的にでもなれー！",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "シラ",
+			side = 2,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "恐れ多くもザコメイドのシラがヒーローさんのお相手を務めさせていただきます",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "シラ",
+			side = 2,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "どうぞ遠慮なく攻撃してください。その代わりヒーローさんが敗北したときの「顔」をシラに……ふふふ♥",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "へ、へぇー！逃げずにこのヒーローに近づいてくるんだ？",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "主役のぼくを邪魔した罪、パシリクエストの刑に処してあげるよ！",
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "シラ",
+			side = 2,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "それはいけませんよヒーローさん。メイドはご奉仕、つまりパシられるのがお仕事ですから♪",
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "じゃ、じゃあぼくの経験値に――",
@@ -151,10 +151,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（パチパチパチパチ）",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（何やってるの。あの二人……）",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヒーローさんのノリに合わせているつもりですが、お見苦しいところをお見せして申し訳ございません",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ま、まあ面白かったわ。陰気な場所で張り詰めていたから助かったわ",
 			painting = {
 				alpha = 0.3,
@@ -223,10 +223,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それで？ヒーローちゃんの持っているアレはなぁに？",
 			painting = {
 				alpha = 0.3,
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかしてあの聖蹟櫃から持ち出したの？",
 			painting = {
 				alpha = 0.3,
@@ -255,12 +255,12 @@ return {
 			}
 		},
 		{
-			actor = 201360,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "持ち出したも何も、4つの櫃は3つが空で、あとはこの弓だけがその辺に転がっていただけだったよ",
 			painting = {
 				alpha = 0.3,
@@ -275,10 +275,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201360,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "櫃に小さく「封印が解かれ、これより審判を始める」って書いてあるね。…なんだかヨークが書いたポエムみたい",
 			painting = {
 				alpha = 0.3,
@@ -293,10 +293,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（4つの櫃…弓…審判の始まり？」",
 			painting = {
 				alpha = 0.3,
@@ -311,10 +311,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "インプラカブルさま？なにか心当たりでも？",
 			painting = {
 				alpha = 0.3,
@@ -329,10 +329,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まだぼんやりとしか。でもここの雰囲気からおおよそ見当はつくわ",
 			painting = {
 				alpha = 0.3,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "————！",
 			typewriter = {
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "その時、インプラカブルが向いている方向とは逆の方向の通路から、虚ろな人影が現れ――",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "インプラカブルさま！",
 			painting = {
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
-			say = "――――――！！",
 			soundeffect = "event:/battle/boom2",
+			say = "――――――！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "一瞬にして艤装が展開され、機銃の銃口から人影に弾丸の矢が放たれた。",
 			typewriter = {
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "ポールアックスらしき獲物を振り回し攻撃を防御しようとする人影だったが、シラの攻撃であっという間に貫かれた。",
 			typewriter = {
@@ -481,8 +481,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "エンカウント！ぼくのこの弓で――",
 			painting = {
@@ -504,8 +504,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "もうシラに倒されたわよ",
 			painting = {
@@ -527,8 +527,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "えっ。脇役のくせにぼくの経験値を横取りして！ふん！",
 			painting = {
@@ -541,8 +541,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -554,8 +554,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "申し訳ございません。次からは許可を頂いてから動きます（ぺこり",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "ならいいよ",
 			painting = {
@@ -585,8 +585,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -597,9 +597,9 @@ return {
 		{
 			actor = 207070,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "これは…ヴィシアのラ・ガリソニエール……",
 			painting = {
 				alpha = 0.3,
@@ -614,8 +614,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "ただの「駒」です。大した戦力ではありません",
 			painting = {
@@ -631,8 +631,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "「駒」、そして「彫刻室」……想定内といえば想定内なんだけど",
 			painting = {
@@ -645,8 +645,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "（ーーーー）",
 			typewriter = {
@@ -663,8 +663,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "？？地震？急に揺れ始めたけど…？",
 			painting = {
@@ -677,8 +677,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -690,8 +690,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "まあ、これも想定内ね",
 			painting = {
@@ -707,8 +707,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "インプラカブルさまに同意させていただきます",
 			painting = {
@@ -724,8 +724,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "大量の「駒」に囲まれました",
 			painting = {
@@ -741,8 +741,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "このインプラカブルが相手してあげる！",
 			painting = {

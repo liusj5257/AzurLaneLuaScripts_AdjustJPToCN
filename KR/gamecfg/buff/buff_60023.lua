@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-厌战-技能",
 	time = 0,
+	name = "测试-厌战-技能",
+	init_effect = "",
 	picture = "",
 	desc = "远程火炮",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 60006,
 				target = "TargetSelf",
-				time = 20,
-				skill_id = 60006
+				time = 20
 			}
 		}
 	}

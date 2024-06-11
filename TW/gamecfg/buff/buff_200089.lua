@@ -1,12 +1,12 @@
 return {
-	time = 3,
-	name = "2022武藏活动 EX 天碍震星释放",
 	init_effect = "",
+	name = "2022武藏活动 EX 天碍震星释放",
+	time = 3,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200089,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					rant = 1000,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -24,8 +24,8 @@ return {
 				},
 				arg_list = {
 					rant = 1220,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -40,8 +40,8 @@ return {
 				},
 				arg_list = {
 					rant = 1440,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -56,8 +56,8 @@ return {
 				},
 				arg_list = {
 					rant = 1660,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -72,8 +72,8 @@ return {
 				},
 				arg_list = {
 					rant = 1880,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -88,8 +88,8 @@ return {
 				},
 				arg_list = {
 					rant = 2100,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -104,8 +104,8 @@ return {
 				},
 				arg_list = {
 					rant = 2320,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -120,8 +120,8 @@ return {
 				},
 				arg_list = {
 					rant = 2540,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -136,8 +136,8 @@ return {
 				},
 				arg_list = {
 					rant = 2760,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -152,8 +152,8 @@ return {
 				},
 				arg_list = {
 					rant = 3000,
-					skill_id = 11141,
 					target = "TargetSelf",
+					skill_id = 11141,
 					time = 0
 				}
 			}
@@ -162,12 +162,12 @@ return {
 	desc_get = "受到攻击时有30%的概率减少50%伤害",
 	name = "触发器",
 	init_effect = "",
+	id = 11141,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "受到攻击时有$1的概率减少50%伤害",
 	stack = 1,
-	id = 11141,
+	color = "blue",
 	icon = 11140,
 	last_effect = "",
 	blink = {
@@ -185,8 +185,8 @@ return {
 			},
 			arg_list = {
 				rant = 1000,
-				skill_id = 11141,
 				target = "TargetSelf",
+				skill_id = 11141,
 				time = 0
 			}
 		}

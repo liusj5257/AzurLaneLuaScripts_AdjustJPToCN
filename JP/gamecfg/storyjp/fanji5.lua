@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"笑顔なあの子の胸のウチ\n\n<size=45>五 すれ違い</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "重桜との軍事演習ですか？そうですね、たしかに目を通した記憶がありますが…",
 			bgm = "story-1",
+			actor = 204010,
+			nameColor = "#a9f548",
+			say = "重桜との軍事演習ですか？そうですね、たしかに目を通した記憶がありますが…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "購買部から戻ってきたレパルスから話を聞いて、レナウンは顎に手をあてて考え込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "数日後に迫っているロイヤル艦隊と重桜艦隊の対抗演習、その参加メンバーの中にレパルスとレナウンの名前がある。",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "二人を特訓に向かわせてしまったらこちらの仕事が追いつかなくなってしまうが、それも仕方ない――",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "突然レパルスが明るい調子で声をあげると、両手を大きく広げて笑ってみせた。",
 			typewriter = {
 				speed = 0.05,
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "私一人でみんなの連携訓練をやって、当日は姉さんの力を借りずに一気にやっつけちゃうよ！",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "いいからいいから！姉さんは指揮官の仕事を手伝ってあげてよ！その分、私が一生懸命特訓する。",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かに一理ある。レナウンの手伝いがあればこちらは事務作業をそつなくこなせるし、演習の準備もスムーズに進められそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "だがそうしなくても、別に事務処理と演習準備に支障が出るわけではない。そもそも秘書艦であるレパルスはなぜこの様な提案を……？",
 			typewriter = {
 				speed = 0.05,
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かに、執務室を出て行ってしまったレパルスの様子は少しおかしかった。",
 			typewriter = {
 				speed = 0.05,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "もしや、レナウンに何か気を使って――",
 			typewriter = {
 				speed = 0.05,
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 204010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204010,
+			nameColor = "#a9f548",
 			say = "――！！",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "その時、レナウンが何かに気づいたようにカッと大きく目を見開いた。",
 			typewriter = {
 				speed = 0.05,

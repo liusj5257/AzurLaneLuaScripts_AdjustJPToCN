@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 400
+					number = 400,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 400
+					number = 400,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 500
+					number = 500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -37,8 +37,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -51,8 +51,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 460
+					number = 460,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -61,8 +61,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 460
+					number = 460,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 610
+					number = 610,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -81,8 +81,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -95,8 +95,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 520
+					number = 520,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 520
+					number = 520,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -115,8 +115,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 720
+					number = 720,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -125,8 +125,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -139,8 +139,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 600
+					number = 600,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 600
+					number = 600,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -159,8 +159,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 830
+					number = 830,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -169,8 +169,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 660
+					number = 660,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 660
+					number = 660,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -203,8 +203,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 940
+					number = 940,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -213,8 +213,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -227,8 +227,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 720
+					number = 720,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -237,8 +237,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 720
+					number = 720,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -247,8 +247,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1050
+					number = 1050,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -257,8 +257,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -271,8 +271,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 800
+					number = 800,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -281,8 +281,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 800
+					number = 800,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -291,8 +291,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1160
+					number = 1160,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -301,8 +301,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -315,8 +315,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 860
+					number = 860,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -325,8 +325,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 860
+					number = 860,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -335,8 +335,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1270
+					number = 1270,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -345,8 +345,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -359,8 +359,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 920
+					number = 920,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -369,8 +369,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 920
+					number = 920,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -379,8 +379,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1380
+					number = 1380,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -389,8 +389,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -403,8 +403,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1000
+					number = 1000,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -413,8 +413,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1000
+					number = 1000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -423,8 +423,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1500
+					number = 1500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -433,8 +433,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -442,12 +442,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 110052,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110052,
+	color = "red",
 	icon = 110050,
 	last_effect = "",
 	effect_list = {
@@ -457,8 +457,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 400
+				number = 400,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -467,8 +467,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 400
+				number = 400,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -477,8 +477,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 500
+				number = 500,
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -487,8 +487,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatio"
 			}
 		}
 	}

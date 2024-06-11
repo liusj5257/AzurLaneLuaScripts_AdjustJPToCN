@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
+			bgm = "blueocean-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "翌日。アズールレーン臨時施設外",
-			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "眩しい朝日を見上げ、思わずあくびをした。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "「ヘレナ」の「精神干渉」のあと、結局考え事をしててよく眠れなかった。",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -133,20 +133,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "仲間に案内され、一つなるアイリスの暗部組織――審判廷の本部地下にやってきた。",
 			bgm = "theme-vichy-church",
+			say = "仲間に案内され、一つなるアイリスの暗部組織――審判廷の本部地下にやってきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "ここは間取図にも書かれていない大広間――",
@@ -159,10 +159,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "あら指揮官、審判廷本部へようこそ。今日はどんな風の吹き回しかしら",
 			painting = {
 				alpha = 0.3,
@@ -201,10 +201,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "そんな。私が指揮官の意図を見透かすなど滅相もないわ",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "よくも悪くも指揮官の行動は注目を集めるもの。もしアイリスで何かあったら他の陣営の子たちに説明できないから",
 			painting = {
 				alpha = 0.3,
@@ -273,10 +273,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "ふふふ、ユニオンのメンフィスはよく嗅ぎ付けたものね。でも残念だけどそれは考えすぎよ",
 			painting = {
 				alpha = 0.3,
@@ -291,10 +291,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "審判廷の艦隊はあくまでアビータの影響を受けたマルコ・ポーロを「フォロー」するように動いていた",
 			painting = {
 				alpha = 0.3,
@@ -309,10 +309,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "わかりやすく言えばただの演技よ",
 			painting = {
 				alpha = 0.3,
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "……決して怪しい動きなんかないわ。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -380,10 +380,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -398,10 +398,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "……「偽神事件」でも、あなたはみんなを信じてくれたわね",
 			painting = {
 				alpha = 0.3,
@@ -413,12 +413,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろん手伝わせてもらうわ。「彼女」の様子を見に行くがいいわ",
 			painting = {
 				alpha = 0.3,
@@ -433,10 +433,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それが一つ目の手伝いなんでしょ？次は……",
 			painting = {
 				alpha = 0.3,
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ん？指揮官、面白いことを考えているのね",
 			painting = {
 				alpha = 0.3,
@@ -492,10 +492,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ、承ったわ。審判廷の「仕事ぶり」を信じてちょうだい",
 			painting = {
 				alpha = 0.3,
@@ -510,10 +510,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう少し細かい要件を伺えるかしら？指揮官――",
 			painting = {
 				alpha = 0.3,

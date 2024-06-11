@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG36",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -54,8 +54,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "はい！今通信が入ってきました――",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "ふぅ……北方連合のようにセイレーンのジャミングに対抗できる通信機がほしいわ",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "任務中止？ウォースパイト様、私たちはこれから指揮官を迎え入れるのでは……？",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "もう何がなにやら…ハウ、通信機を",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "ウォースパイト！こちらヴァリアントよ。スカパ・フローで一体何が起きたの！？",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,8 +219,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "エリザベス様が…？！どうして急にスカパ・フローへ…！？",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -278,8 +278,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "――ウォースパイト、本気ね……",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "鉄血の主力艦隊、スカパ・フローを奇襲するために私達をここで釘づけにしたのでは……",
 			typewriter = {
@@ -328,9 +328,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
 			blackBg = true,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "（陛下、無事でいてください……）",
 			typewriter = {

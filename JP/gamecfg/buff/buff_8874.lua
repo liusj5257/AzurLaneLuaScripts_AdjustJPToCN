@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "记录修正-AF",
 	time = 0,
-	color = "yellow",
+	name = "记录修正-AF",
+	init_effect = "",
+	id = 8874,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8874,
+	color = "yellow",
 	icon = 8874,
 	last_effect = "",
 	effect_list = {

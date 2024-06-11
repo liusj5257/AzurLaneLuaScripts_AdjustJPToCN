@@ -4,7 +4,7 @@ slot0.DetailType1 = 1
 slot0.DetailType2 = 2
 slot1 = 0.5
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tf = slot1.transform
 	slot0.nameTF = slot0.tf:Find("content/request_info/name"):GetComponent(typeof(Text))
@@ -25,7 +25,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.selectedGo:SetActive(false)
 end
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	if slot0.shipVO ~= slot1 then
 		slot0.shipVO = slot1
 
@@ -41,7 +41,7 @@ function slot0.update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateSelected(slot0, slot1)
+slot0.updateSelected = function(slot0, slot1)
 	slot0.selected = slot1
 
 	slot0.selectedGo:SetActive(slot0.selected)
@@ -57,7 +57,7 @@ function slot0.updateSelected(slot0, slot1)
 	end
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	if slot0.shipVO then
 		LoadSpriteAsync("qicon/" .. slot0.shipVO:getPainting(), function (slot0)
 			uv0.iconTF.sprite = slot0
@@ -86,13 +86,13 @@ function slot0.flush(slot0)
 	end
 end
 
-function slot0.updateDetail(slot0, slot1)
+slot0.updateDetail = function(slot0, slot1)
 	slot0.detailType = slot1
 
 	slot0:flushDetail()
 end
 
-function slot0.flushDetail(slot0)
+slot0.flushDetail = function(slot0)
 	if tobool(slot0.shipVO) and uv0.DetailType0 < slot0.detailType then
 		slot3 = slot1:getShipProperties()
 		slot4 = {
@@ -149,7 +149,7 @@ function slot0.flushDetail(slot0)
 	setActive(slot0.detail, slot2 and uv0.DetailType0 < slot0.detailType)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	if slot0.selectedTwId then
 		LeanTween.cancel(slot0.selectedTwId)
 

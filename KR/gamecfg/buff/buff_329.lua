@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "黎塞留特殊标记燃烧",
 	time = 30,
+	name = "黎塞留特殊标记燃烧",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -15,13 +15,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "cannonPower",
-				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
-				number = 119,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0
+				number = 119
 			}
 		},
 		{
@@ -31,8 +31,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -500
+				number = -500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -42,8 +42,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -500
+				number = -500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -53,8 +53,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = -500
+				number = -500,
+				attr = "airPower"
 			}
 		},
 		{
@@ -64,8 +64,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 60
+				skill_id = 60,
+				target = "TargetSelf"
 			}
 		},
 		{

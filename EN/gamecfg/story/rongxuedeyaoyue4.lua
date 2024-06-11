@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Invitation of Melting Snow\n\n<size=45>The Roosting Angel</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "As I'm walking down the silent and snowy hike trail, I hear the rustling of clothes from a nearby open-air hot spring.",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "As I'm walking down the silent and snowy hike trail, I hear the rustling of clothes from a nearby open-air hot spring.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			say = "Approaching to investigate, I spot a familiar face in the midst of a prayer.",
 			typewriter = {
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "Hmm. I swear I sensed your gaze, but perhaps that was a figment of my imagination.",
 			painting = {
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "...The Holy Iris would never will such indecency.",
 			painting = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "Say, are you here to enjoy the view and bask in the hot spring's warmth? If so, you're welcome to.",
 			painting = {
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "While Joffre's tone remains calm and neutral, her cheeks seem to redden ever so slightly at the idea.",
 			painting = {
@@ -300,17 +300,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "Can you feel the hot spring rejuvenate your body and spirit, even if only a little bit?",
 			painting = {
@@ -335,12 +335,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "The water warms me from my shoulders to my toes, washing away all my pent-up weariness.",
 			painting = {
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "Also, after we're done, I'd like to give you a massage. To improve your circulation, of course.",
 			painting = {

@@ -1,15 +1,15 @@
 return {
-	id = "W1022",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1022",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "エネルギー供給、再開しました。装置解析を開始します",
 			typewriter = {
 				speed = 0.05,
@@ -24,8 +24,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "装置の解析に成功。エリアにおけるセイレーン強化モジュールの情報を入手しました",
 			typewriter = {
 				speed = 0.05,
@@ -39,9 +39,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "味方艦隊の艤装を調整し、戦力を強化することが可能です。どの項目を調整しますか？",
 			typewriter = {
 				speed = 0.05,

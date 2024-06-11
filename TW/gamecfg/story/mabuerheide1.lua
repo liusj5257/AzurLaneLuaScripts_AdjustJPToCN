@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"太陽般的辣妹\n\n<size=45>一 猜猜我是誰？</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "某個暖洋洋的日子——",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "某個暖洋洋的日子——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "呼啊……這麼溫暖舒適的天氣，感覺好容易犯睏啊。",
 			typewriter = {
@@ -100,15 +100,15 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "嘻嘻♪我說指揮官，猜猜我是誰呀？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			say = "——？！",
@@ -151,8 +151,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "哎呀，別亂動，快猜猜看嘛~猜中的話也許有好事發生哦—？",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "聖地牙哥？哎呀呀，越猜越遠了喲？——５、４、３、２、１…０！時間到~",
 			typewriter = {
@@ -200,14 +200,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102270,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "為什麼猜不到是我呢？辣妹指數這麼高的女孩，應該很好猜出來吧！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -232,8 +232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "馬布爾黑德氣嘟嘟地鼓起了臉，然後抓起了我的左手。",
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "作為懲罰，現在我要給指揮官你做個美甲~！",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "雖說比不過曼非斯，不過我美甲也做得不錯哦。快把手放這裡，我來給你做個可可愛愛的~",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "她依舊沒有鬆手，然後突然像是想到了什麼般又興奮了起來。",
@@ -347,11 +347,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "“還有事情要想”？那就更應該出去走走了！",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -376,8 +376,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "走吧走吧~乾對著桌子可沒法想到什麼好點子。跟我出門換個心情，出發囉――☆",
 			effects = {
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "就這樣被馬布爾黑德順勢帶到了外面——",
 			effects = {
 				{

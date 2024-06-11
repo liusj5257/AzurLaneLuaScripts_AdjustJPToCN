@@ -1,6 +1,6 @@
 slot0 = class("FireworksPtPage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.fireworkNameText = slot0:findTF("firework_text", slot0.bg)
@@ -22,7 +22,7 @@ function slot0.OnInit(slot0)
 	slot0.lastPageBtn = slot0:findTF("left_btn", slot0.fireworkPanel)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	uv0.super.OnDataSetting(slot0)
 
 	slot0.fireworkActID = slot0.activity:getConfig("config_client").fireworkActID
@@ -32,7 +32,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.fireworkIds = slot1[3]
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.fireBtn, function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SPRING_FESTIVAL_BACKHILL_2023, {
@@ -52,7 +52,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:UpdataPageIndex()
 end
 
-function slot0.UpdataPageIndex(slot0)
+slot0.UpdataPageIndex = function(slot0)
 	slot0.fireworkAct = getProxy(ActivityProxy):getActivityById(slot0.fireworkActID)
 
 	assert(slot0.fireworkAct and not slot0.fireworkAct:isEnd(), "烟花活动(type92)已结束")
@@ -77,7 +77,7 @@ function slot0.UpdataPageIndex(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	slot0:UpdateFrieworkPanel(slot0.pageIndex)
 
@@ -90,7 +90,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.UpdateFrieworkPanel(slot0, slot1)
+slot0.UpdateFrieworkPanel = function(slot0, slot1)
 	slot0.fireworkAct = getProxy(ActivityProxy):getActivityById(slot0.fireworkActID)
 
 	assert(slot0.fireworkAct and not slot0.fireworkAct:isEnd(), "烟花活动(type92)已结束")
@@ -134,7 +134,7 @@ function slot0.UpdateFrieworkPanel(slot0, slot1)
 	setText(slot0.ptText, slot0.ptNum)
 end
 
-function slot0.OnUnlockClick(slot0, slot1)
+slot0.OnUnlockClick = function(slot0, slot1)
 	if slot0.unlockCount <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("activity_yanhua_tip6"))
 

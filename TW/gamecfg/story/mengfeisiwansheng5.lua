@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"混沌的萬聖之夜\n\n<size=45>五 混沌的狂歡</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_119",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_119",
 			bgm = "story-1",
 			actor = 102162,
 			nameColor = "#a9f548",
 			say = "嗯哼，很好，我已經感受到大家對於萬聖夜的熱情了！今晚的特別活動能順利展開，還要感謝大家的協力合作——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 102162,
 			dir = 1,
+			actor = 102162,
 			nameColor = "#a9f548",
 			say = "嗯…廢話我就不多說了，盡情享受吧！南瓜派等各種美食可以盡情享用~惡作劇要適可而止！",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 102162,
 			dir = 1,
+			actor = 102162,
 			nameColor = "#a9f548",
 			say = "想要糖果的夥伴，以及想發糖果又沒準備的同伴，都可以找愛丁堡領取哦~",
 			typewriter = {
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "今晚的糖果大使就是我愛丁堡啦~嘿嘿~歡迎來找我要糖果哦~",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "眾人",
+			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "哦——！",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 101421,
 			dir = 1,
+			actor = 101421,
 			nameColor = "#a9f548",
 			say = "雖然也沒有那麼想要糖果，不過還是…treat or trick",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "好，糖果給妳~嘿嘿，前面辛苦妳啦，斯莫利~",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301411,
+			nameColor = "#a9f548",
 			say = "我跳~我跳~treat or trick！三日月可以要鯛魚燒嗎",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "啊哈哈…可惜我只有糖果呢，給妳~",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "嗯，看妳的反應。今晚選擇這套變裝算是選對了",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "唔…總覺得好像輸了…又沒辦法反駁啊……",
 			typewriter = {
@@ -332,13 +332,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_119",
+			side = 2,
+			dir = 1,
 			say = "此時，在活動會場的另一邊——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "嗚哇啊啊啊啊啊——好辣嗚嗚嗚嗚嗚",
 			dialogShake = {
 				speed = 0.09,
@@ -432,8 +432,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
+			dir = 1,
 			say = "不知不覺間，哀嚎聲在會場上此起彼伏起來",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +459,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "這、這是怎麼回事…難道說糖果過期了？應、應該都是我親自選的，沒有問題才對啊…",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -486,8 +486,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "…好像糖果裡混著一些包裝不太一樣的——",
 			typewriter = {
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "哇哈，哇哈哈，哇哈哈哈哈哈！！！萬聖夜惡作劇作戰！大！成！功！怎麼樣！！阿貝克隆比特製，萬聖節限定超級芥末糖果的味味道！！",
 			typewriter = {
 				speed = 0.05,
@@ -516,8 +516,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "這，這聲音是…",
 			typewriter = {
 				speed = 0.05,
@@ -622,8 +622,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "嗚嗚…我、我再也不敢了啦！胡德阿、姐姐，所以不要扯著我的耳朵了，要掉了要掉了——",
 			typewriter = {
 				speed = 0.05,
@@ -696,8 +696,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

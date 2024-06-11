@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"솔직하지 못한 마음\n\n<size=45>2. 나를 간파하지 마!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "다음 날——",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "다음 날——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "——로, 로드니!? 너처럼 갑자기 튀어나와서 놀래키는 게 더 위험해!",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "갑자기도 아니고 놀래킨 것도 아니에요. 그저 지휘관님에게 보고를 마친 뒤에 지나가던 길이었답니다.",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "네, 간단하게 어깨를 주물러 드렸어요.",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "후후후~",
 			typewriter = {
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "로드니의 대답을 듣지 않고 넬슨은 빠른 걸음으로 자리를 떠났다.",
 			typewriter = {
 				speed = 0.05,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "음... 그 녀석에게 '지금까지 수고했어'라고 얘기하는 편이 좋으려나...?",
 			typewriter = {
 				speed = 0.05,

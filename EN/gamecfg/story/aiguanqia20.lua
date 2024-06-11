@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA20",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA20",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -22,12 +22,12 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			actorName = "Kizuna AI Titan",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "………",
+			actorName = "Kizuna AI Titan",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "Miss AI... I'm so sorry!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 401230,
+			say = "Miss AI... I'm so sorry!",
 			flashN = {
 				color = {
 					1,
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#a9f548",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			actor = 10400020,
 			actorName = "All the Kizuna AI's",
 			say = "………",
@@ -279,10 +279,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
-			soundeffect = "event:/battle/boom2",
 			say = "BOOM!! BOOM BOOM!! FWOOSH!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Just when everyone was preparing themselves for their last stand, the sound of cannonfire rang out from the distance...",
 			typewriter = {
 				speed = 0.05,
@@ -368,13 +368,13 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			actorName = "Everyone",
-			hideOther = true,
+			actor = 303110,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "The Kizuna AI Fleet?",
+			hideOther = true,
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = true,
@@ -415,10 +415,10 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 403030,
 			say = "Kizuna AI Fleet? What are you talking about? Were you so scared that you went delirious?",
 			effects = {
 				{
@@ -573,12 +573,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "Kizuna AI Titan",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "Why... I clearly just want to destroy this world... so why are you going through all this trouble for me...?",
+			actorName = "Kizuna AI Titan",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900

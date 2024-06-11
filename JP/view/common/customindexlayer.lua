@@ -1,6 +1,6 @@
 slot0 = class("CustomIndexLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CustomIndexUI"
 end
 
@@ -10,7 +10,7 @@ slot0.Mode = {
 	NUM = 3
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.panel = slot0._tf:Find("index_panel")
 	slot0.layout = slot0.panel:Find("layout")
 	slot0.contianer = slot0.layout:Find("container")
@@ -33,7 +33,7 @@ function slot0.init(slot0)
 	slot0.yellowSprite = slot0:findTF("resource/yellow", slot0.panel):GetComponent(typeof(Image)).sprite
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnConfirm, function ()
 		if uv0.contextData.callback then
 			uv0.contextData.callback(uv0.contextData.indexDatas)
@@ -58,11 +58,11 @@ function slot0.didEnter(slot0)
 	slot0:BlurPanel()
 end
 
-function slot0.BlurPanel(slot0)
+slot0.BlurPanel = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.InitGroup(slot0)
+slot0.InitGroup = function(slot0)
 	slot0.onInit = true
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 	slot0.dropdownDic = {}
@@ -92,7 +92,7 @@ function slot0.InitGroup(slot0)
 	slot0.onInit = false
 end
 
-function slot0.InitDropdown(slot0, slot1)
+slot0.InitDropdown = function(slot0, slot1)
 	slot2 = slot1.tags
 	slot3 = tf(Instantiate(slot0.panelTemplate))
 
@@ -125,7 +125,7 @@ function slot0.InitDropdown(slot0, slot1)
 	end
 end
 
-function slot0.InitCustoms(slot0, slot1)
+slot0.InitCustoms = function(slot0, slot1)
 	slot3 = slot0.contextData.customPanels[slot1.tags[1]]
 	slot4 = tf(Instantiate(slot0.panelTemplate))
 
@@ -262,7 +262,7 @@ function slot0.InitCustoms(slot0, slot1)
 	end
 end
 
-function slot0.OnDatasChange(slot0, slot1)
+slot0.OnDatasChange = function(slot0, slot1)
 	slot2 = slot0.contextData.dropdownLimit or {}
 
 	for slot6, slot7 in pairs(slot0.dropdownDic) do
@@ -292,7 +292,7 @@ function slot0.OnDatasChange(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0.panel))
 
 	for slot4, slot5 in pairs(slot0.dropdownDic) do
@@ -310,7 +310,7 @@ function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.Clone2Full(slot0, slot1)
+slot0.Clone2Full = function(slot0, slot1)
 	slot2 = {}
 	slot3 = slot0:GetChild(0)
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIOUGEN",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIOUGEN",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"荣耀殿堂\n\n<size=45>倾听她的呼吸</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
-			say = "在下班回去的路上，看到{namecode:427:欧根亲王}一个人溜进了医务室。",
 			bgm = "story-richang-4",
+			say = "在下班回去的路上，看到{namecode:427:欧根亲王}一个人溜进了医务室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,11 +55,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_138",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯？你怎么来了，有哪里不舒服吗？",
 			painting = {
 				alpha = 0.3,
@@ -70,17 +70,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "没有不舒服？只是好奇我进来做什么所以才跟进来了？",
 			painting = {
 				alpha = 0.3,
@@ -108,10 +108,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵，指挥官好奇心真重啊，人来医务室能做些什么呢？",
 			painting = {
 				alpha = 0.3,
@@ -126,10 +126,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不过现在，我倒还真想起一件事要做。",
 			painting = {
 				alpha = 0.3,
@@ -144,10 +144,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指挥官你整天都在忙工作，几乎没什么喘息的空隙。",
 			painting = {
 				alpha = 0.3,
@@ -162,10 +162,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "既然都来了，不如趁这个机会好好检查一下如何？",
 			painting = {
 				alpha = 0.3,
@@ -180,10 +180,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "还是说……指挥官想拒绝呢？",
 			painting = {
 				alpha = 0.3,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			say = "虽然是询问的口吻，但{namecode:427:欧根亲王}似乎完全不打算给我回绝的余地。",
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			say = "她锁上了医务室的门，整个人倚在门边，似笑非笑地看着我。那表情似乎是在说——“你逃不掉的”。",
@@ -268,10 +268,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "希望指挥官能老老实实配合我。这样的话，说不定我还会给指挥官一些奖励呢~",
 			painting = {
 				alpha = 0.3,
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "让我想想，从什么项目开始比较好呢~",
 			painting = {
 				alpha = 0.3,
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			say = "{namecode:427:欧根亲王}熟练地拿出了一份体检记录表。",
@@ -314,10 +314,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "身高体重身体围度，看上去都和之前没什么变化，可以直接跳过了。",
 			painting = {
 				alpha = 0.3,
@@ -342,10 +342,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指挥官还真是大惊小怪，我可是对你的身体数据了如指掌哦——怎么样，不觉得被人关注的感觉很甜蜜吗？",
 			painting = {
 				alpha = 0.3,
@@ -372,10 +372,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "有了~我们来做感官测试吧~",
 			painting = {
 				alpha = 0.3,
@@ -402,10 +402,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯~用来检查你的感官是否正常的测试哦。",
 			painting = {
 				alpha = 0.3,
@@ -417,12 +417,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一共分为视觉、听觉、嗅觉、味觉、触觉五个部分。",
 			painting = {
 				alpha = 0.3,
@@ -437,10 +437,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就先从视力开始吧——",
 			painting = {
 				alpha = 0.3,
@@ -455,10 +455,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "提问：指挥官，今天的我看上去和平时有什么区别吗？",
 			painting = {
 				alpha = 0.3,
@@ -485,10 +485,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "“啊”什么，这个问题就是视力测试的内容哦。",
 			painting = {
 				alpha = 0.3,
@@ -503,10 +503,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "所以，我和平时相比有什么区别？",
 			painting = {
 				alpha = 0.3,
@@ -619,10 +619,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "因为指挥官懊恼的样子实在让人开心呢，忍不住就~",
 			painting = {
 				alpha = 0.3,
@@ -637,10 +637,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不过玩笑讲究适可而止——这道测试就算是指挥官通过了。",
 			painting = {
 				alpha = 0.3,
@@ -655,10 +655,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "接下来测试听力，快闭上眼睛吧~",
 			painting = {
 				alpha = 0.3,
@@ -670,8 +670,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			say = "在闭上眼之前，看见{namecode:427:欧根亲王}拿起了音叉。",
@@ -693,8 +693,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "耳畔并未传来的意料之中的震动，取而代之的是少女温热的吐息。",
@@ -703,17 +703,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -721,12 +721,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:427}",
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ich liebe dich……",
 			painting = {
 				alpha = 0.3,
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "声音轻到像是我的幻觉。",
@@ -749,12 +749,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:427}",
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "可以睁眼了哦，指挥官~",
 			painting = {
 				alpha = 0.3,
@@ -766,27 +766,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_138",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_138",
 			say = "结果，音叉只是装饰——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -797,10 +797,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵~指挥官如果听力没有出现问题的话，就把我刚刚说的内容一字不落地重复一遍吧~",
 			painting = {
 				alpha = 0.3,
@@ -815,10 +815,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……嗯？你说因为刚刚我凑得太近，吓了一跳，所以完全没记住我说了什么……？",
 			painting = {
 				alpha = 0.3,
@@ -833,10 +833,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵呵呵呵……",
 			painting = {
 				alpha = 0.3,
@@ -848,8 +848,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			say = "虽然看上去笑得很开心……但总感觉{namecode:427:欧根亲王}有些不满。",
@@ -862,10 +862,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "说起来，之前有听{namecode:401:Z2}说过，指挥官时不时就会出现“选择性失聪”的问题呢。",
 			painting = {
 				alpha = 0.3,
@@ -880,10 +880,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "想必刚才也是老毛病发作了吧？",
 			painting = {
 				alpha = 0.3,
@@ -898,10 +898,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哎呀，这种程度的听力问题一定要重视起来，万一漏掉了什么重要的命令可就不好了~",
 			painting = {
 				alpha = 0.3,
@@ -913,8 +913,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
 			hidePaintObj = true,
 			say = "不知为何，我突然感觉医务室里的温度开始下降了……",
@@ -927,10 +927,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "放心吧指挥官，你的问题我会如实记录在体检报告中的。",
 			painting = {
 				alpha = 0.3,
@@ -945,10 +945,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "接下来，我们还要依次进行嗅觉、味觉和触觉的测试。",
 			painting = {
 				alpha = 0.3,
@@ -963,10 +963,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指挥官，请你做好觉悟哦————",
 			painting = {
 				alpha = 0.3,

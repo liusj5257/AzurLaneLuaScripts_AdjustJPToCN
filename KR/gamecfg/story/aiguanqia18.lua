@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA18",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA18",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301120,
 			side = 0,
 			nameColor = "#92fc63",
-			hideOther = true,
+			actor = 301120,
 			dir = 1,
+			hideOther = true,
 			actorName = "이카즈치＆이나즈마",
 			say = "에잇!",
 			effects = {
@@ -36,10 +36,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			say = "(투콰~앙!)",
+			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
 					active = false,
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "타카오쨩",
 			say = "이 소인이…… 워, 원통하다…!",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "춘춘",
 			dir = -1,
+			actorName = "춘춘",
 			say = "꽈당큐~＞ㅁ＜",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "쇼쨩",
 			dir = 1,
+			actorName = "쇼쨩",
 			say = "모처럼 아카기 선배보다 레벨이 높아졌는데……",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "프린쨩",
 			dir = 1,
+			actorName = "프린쨩",
 			say = "괜찮아. 네가 사과할 일이 아니야. 하지만, 적어도… 저 허접 AI 지휘관이랑 한 마디라도 대화를 나눠보고 싶었네…",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "프린쨩",
 			dir = 1,
+			actorName = "프린쨩",
 			say = "이 촌스러운 이름… 사실 꽤 마음에 들었었어…",
 			typewriter = {
 				speed = 0.05,

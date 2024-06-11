@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANHOUYUYI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANHOUYUYI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Summer Festival\n\n<size=45>Chapter 1: Prepare for the Festival!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301110,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "It's that time of year again, Inazuma!",
 			bgm = "story-1",
+			actor = 301110,
+			nameColor = "#a9f548",
+			say = "It's that time of year again, Inazuma!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "Festival time! Time to stuff our faces with food and our hearts with fun!",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "I see! It's festival time!",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900195,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900195,
+			nameColor = "#a9f548",
 			say = "If it isn't a thing, let's make it a thing!",
 			effects = {
 				{
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			actor = 301120,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "Ikazuchi & Inazuma",
 			say = "Kitakaze!",
@@ -219,8 +219,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "My ears were burning... with talk of the Sakura Empire, talk of summer!",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "Well if it isn't Zuikaku. You're with me, aren't you!",
 			typewriter = {
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Ahaha, glad to be on the right side of history~",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -324,10 +324,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307060,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:96}&{namecode:164}",
@@ -366,15 +366,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "... And so that's why... we want to put on a summer festival, Commander!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -399,9 +399,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "... The request seemed to come out of nowhere.",
 			typewriter = {
 				speed = 0.05,
@@ -461,11 +461,11 @@ return {
 			}
 		},
 		{
-			actor = 308020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308020,
+			nameColor = "#a9f548",
 			say = "I want to see fireworks! Come on, Commander! It'll be fun!",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -487,9 +487,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It was summer, after all. And they did make it sound fun.",
 			typewriter = {
 				speed = 0.05,
@@ -510,8 +510,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "Our Commander is wise and fair as ever!",
 			typewriter = {
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "Everyone",
 			dir = 1,
+			actorName = "Everyone",
 			say = "Yeah!",
 			dialogShake = {
 				speed = 0.09,

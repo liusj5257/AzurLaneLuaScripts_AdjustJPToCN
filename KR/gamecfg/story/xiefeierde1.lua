@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"탄환과, 사랑을 담아\n\n<size=45>1. 메이드단, 청소 중</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "휴일이지만 딱히 하고 싶은 일이 있는 것도 아니고.. 모항을 이리저리 돌아다녀보자.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "휴일이지만 딱히 하고 싶은 일이 있는 것도 아니고.. 모항을 이리저리 돌아다녀보자.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,15 +50,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_school",
-			actorName = "？？？",
 			dir = 1,
+			nameColor = "#92fc63",
+			actorName = "？？？",
 			say = "서포크, 저쪽 복도까지 달리기 시합하자!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "로열의 기숙사에서 서포크와 켄트의 목소리가 들려왔다. 그리고 나머지 하나는——",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#92fc63",
 			say = "켄트, 아무리 부지런히 뛰어다녀도 닦은 바닥 위를 다시 밟는다면 깨끗해지지 않습니다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#92fc63",
 			say = "윽! … 그게——",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#92fc63",
 			say = "엑? 그그그그럴리가요! 분명 움직였는데!",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "역시, 최근에 비서함을 맡았던 셰필드다.",
 			typewriter = {
 				speed = 0.05,
@@ -299,9 +299,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "일 할 때와 마찬가지로 가차 없네…",
 			typewriter = {
 				speed = 0.05,
@@ -345,9 +345,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "말을 하면서 셰필드는 다시 청소 하기 시작했다. 역시 벨파스트도 칭찬한 직업 정신…",
 			typewriter = {
 				speed = 0.05,

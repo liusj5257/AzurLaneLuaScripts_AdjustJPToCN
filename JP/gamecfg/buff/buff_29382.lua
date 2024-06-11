@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29382,
 	picture = "",
 	desc = "主炮每进行16次攻击，触发专属弹幕-北风II",
 	stack = 1,
-	id = 29382,
+	color = "red",
 	icon = 29380,
 	last_effect = "",
 	effect_list = {
@@ -17,9 +17,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 29380,
-				countTarget = 16,
 				gunnerBonus = true,
+				countTarget = 16,
+				countType = 29380,
 				index = {
 					1
 				}
@@ -31,8 +31,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29382,
+				target = "TargetSelf",
 				countType = 29380
 			}
 		}

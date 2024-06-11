@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHEBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHEBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"交錯する新たな波\n\n<size=45>二　幸運艦の激励</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "cw-story",
+			say = "母港・演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "さすがはこの艦隊の指揮官、といったところかしら。自分の艦隊を誰よりも熟知している――",
 			typewriter = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 900200,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "ええ、最前線の戦力と交戦しています。想定内の戦況――ではないですね。向こうの進撃速度はかなり早いです",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "やはり、前衛を後退させたほうが…………",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "そんなことする必要はないのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "名乗り出てくれたのはありがたいですが、敵の進行速度から考えて、こちらの迎撃態勢が整うまでは多少時間を要します",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "だから単純に引き付けるだけでなく、時間稼ぎも必要だと――雪風さんはなにか策があるのですか？",
 			typewriter = {
@@ -282,11 +282,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "ふふん！小手先など不要なのだ！この雪風様の幸運をもってすれば楽勝なのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 900200,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "……は、はい！",
 			typewriter = {
 				speed = 0.05,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE11",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhedie_3",
-			bgm = "theme-aostelab",
-			stopbgm = true,
-			bgmDelay = 2,
-			say = "―――！！！",
+			side = 2,
 			soundeffect = "event:/battle/boom2",
+			bgmDelay = 2,
+			bgm = "theme-aostelab",
+			bgName = "bg_zhedie_3",
+			stopbgm = true,
+			say = "―――！！！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "マーキング済みの全制御艦の撃破に成功しました！敵陣形、大きく乱れています！",
 			painting = {
 				alpha = 0.3,
@@ -107,10 +107,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "敵が弱まっている今のうちに、一気に追撃をかけるわね",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "攻撃目標の優先順位を仲間たちに伝えておいた。あとは信じて戦況の推移を待つのみ。",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "データリンクで共有された戦況を見る限り、敵の主力艦隊は完全に撃破できた。",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "しかしメンフィス側からは何一つ反応がない。",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "危険な兆候だ。向こうが何かを嗅ぎつけた可能性がある。",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "考えてみれば、こっちが敵の弱点が見いだせるなら、向こうもこっちの弱点を見つけられるはず。",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "こちらは航空戦力が強大だが、護衛する戦力が圧倒的に足りていない。",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "今のところは敵の戦力をうまく分断して対処しているのだが…",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "敵がこちらの偵察が及んでいない場所で戦力を再編し、一気に集中攻撃を仕掛けてくることがあれば危険だ。",
 			typewriter = {
@@ -319,10 +319,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "戦況アップデートしました。ブルーチームの主力艦隊の撃破を確認。味方艦載機の損傷は4割になりますが、艦船の損傷はありません",
 			painting = {
 				alpha = 0.3,
@@ -334,12 +334,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "メンフィスは動きを見せていませんね…次はどうします？",
 			painting = {
 				alpha = 0.3,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "とりあえず敵の奇襲に備えて一度合流しよう。それから各グループの再編成を行う。",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "ハムマンとラングレーの位置を交換して、それから電子戦設備を起動する。",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "ヨークタウンの近くに、ハムマンの偽装信号を作り出し、同時に指揮艦の近くにいるハムマンの信号を遮断する。",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "「Ⅱ」型艤装の説明を読む限り可能なはずだが、本当にできるかどうかは――",
 			typewriter = {
@@ -391,12 +391,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "問題ありません。任せてください",
 			painting = {
 				alpha = 0.3,
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "リスクの高い作戦だが、試すだけの価値はある。",
 			typewriter = {
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "要するにヨークタウンがいるグループの戦力を強化し、自分を餌にして敵の攻勢を誘い出すことだ。",
 			typewriter = {
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
-			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "早速おでましのようですね。敵艦隊が予備部隊を投入し、もうこちらに向かってきていますよ",
 			painting = {
 				alpha = 0.3,
@@ -502,8 +502,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "この程度の戦力なら、接近するまでにホーネットたちに蹴散らされるのはわかっているはずだ。となると攻撃の本命は――",
 			typewriter = {

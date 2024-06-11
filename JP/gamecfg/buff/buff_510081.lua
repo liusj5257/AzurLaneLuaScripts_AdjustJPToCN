@@ -1,12 +1,12 @@
 return {
-	time = 1,
-	name = "制空强化",
 	init_effect = "",
+	name = "制空强化",
+	time = 1,
+	picture = "",
+	desc = "制空强化",
 	stack = 10,
 	id = 510081,
-	picture = "",
 	last_effect = "",
-	desc = "制空强化",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

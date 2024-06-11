@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "毁灭",
 	time = 0,
-	color = "red",
+	name = "毁灭",
+	init_effect = "",
+	id = 73000,
 	picture = "",
 	desc = "战斗对象登场后，每10秒对全体在场舰队造成10%伤害",
 	stack = 1,
-	id = 73000,
+	color = "red",
 	icon = 73000,
 	last_effect = "",
 	effect_list = {
@@ -17,11 +17,11 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetSelf",
-				minTargetNumber = 1,
+				skill_id = 73000,
 				targetMaxHPRatio = 1,
+				minTargetNumber = 1,
 				time = 10,
-				target = "TargetSelf",
-				skill_id = 73000
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29982,
 	picture = "",
 	desc = "主炮类型检查",
 	stack = 1,
-	id = 29982,
+	color = "red",
 	icon = 29980,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 29983,
 				minWeaponNumber = 1,
+				skill_id = 29983,
 				check_weapon = true,
 				label = {
 					"DD",
@@ -32,8 +32,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 29984,
 				maxWeaponNumber = 0,
+				skill_id = 29984,
 				check_weapon = true,
 				label = {
 					"DD",

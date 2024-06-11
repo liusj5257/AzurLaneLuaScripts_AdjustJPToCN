@@ -1,17 +1,17 @@
 return {
-	id = "WORLD106A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD106A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 105120,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "明明剛才一口氣湧來了那麼多敵人，現在越往深處，敵人反倒越少呢。",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "我們在和塞壬打仗，餘燼也在和塞壬打仗。指揮部下達過對餘燼開火的命令，餘燼也對我們也抱有敵意。",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "看來NA海域中塞壬異常部署的原因，可能比我們想的複雜很多...",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "轟隆隆——————",
 			dialogShake = {
 				speed = 0.09,
@@ -147,8 +147,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "嗯...上次奇異點雖然消失了，但是這片海域的海況從那之後就一直十分怪異。",
 			typewriter = {
 				speed = 0.05,
@@ -220,11 +220,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指令已確認：沒問題。正在將偵察機情報、雷達數據與聲納數據進行整合————",
-			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -277,11 +277,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/38/tb-38",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "當前海域的未來氣象預測，以及洋流狀況已經分析完畢，請在G.M系統上進行查看。",
-			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,11 +294,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "以及，未來6小時內可能出現惡劣天氣，請艦隊做好應對措施。",
-			voice = "event:/tb/46/tb-46",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "有了可靠的領航員小姐，總算可以更加安全地探索這片海況複雜的區域了。",
 			typewriter = {
 				speed = 0.05,

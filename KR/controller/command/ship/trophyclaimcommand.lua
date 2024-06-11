@@ -1,6 +1,6 @@
 slot0 = class("TrophyClaimCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = getProxy(CollectionProxy)
 	slot5 = pg.ConnectionMgr.GetInstance()
 

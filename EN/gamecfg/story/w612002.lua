@@ -1,15 +1,15 @@
 return {
-	id = "W612002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W612002",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "All ocean current control devices have been eliminated. Ocean currents have returned to normal.",
 			typewriter = {
 				speed = 0.05,

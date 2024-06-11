@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"크리스마스 선물 대작전!\n\n<size=45>5. 워스파이트의 마음! </size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "방금은…… 오버한거고. 사실 선물을 고르는 데 경험이 있는 너에게 조언을 듣고 싶거든.",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#92fc63",
+			say = "방금은…… 오버한거고. 사실 선물을 고르는 데 경험이 있는 너에게 조언을 듣고 싶거든.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			say = "시간? 그게 무슨 소리지. 이 선물들은 방금 모항으로 돌아온 뒤 상점에서 산 거야. 시간을 많이 썼을 리가 없는데?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "시간? 그게 무슨 소리지. 이 선물들은 방금 모항으로 돌아온 뒤 상점에서 산 거야. 시간을 많이 썼을 리가 없는데?",
+			actor = 107061,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "마음…… 마음인가…… 이해했어. 중요한 것은 선물을 하는 마음이지 선물의 가치가 아니였어!",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "괜찮으시다면 선……선배가 쓰셔도 좋아요! 선배에게 잘 어울린다면…… 저도…… 굉장히 기쁠 거예요!",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 107061,
+			nameColor = "#92fc63",
 			say = "로열의 크리스마스…… 분명 따뜻하겠군. 하하하!",
 			typewriter = {
 				speed = 0.05,

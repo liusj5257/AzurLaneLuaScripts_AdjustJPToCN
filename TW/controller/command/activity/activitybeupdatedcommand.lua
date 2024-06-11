@@ -1,6 +1,6 @@
 slot0 = class("ActivityBeUpdatedCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.isInit
 
@@ -21,7 +21,7 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.IsLinkVoteAct(slot0, slot1)
+slot0.IsLinkVoteAct = function(slot0, slot1)
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) and not slot2:isEnd() then
 		return slot1.id == slot2:getConfig("config_client")[1]
 	end

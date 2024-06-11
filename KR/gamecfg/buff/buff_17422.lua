@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.05
+					number = 0.05,
+					attr = "cri"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.04
+					number = 0.04,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.059
+					number = 0.059,
+					attr = "cri"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.046
+					number = 0.046,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.068
+					number = 0.068,
+					attr = "cri"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.052
+					number = 0.052,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.08
+					number = 0.08,
+					attr = "cri"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.06
+					number = 0.06,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.089
+					number = 0.089,
+					attr = "cri"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.066
+					number = 0.066,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.098
+					number = 0.098,
+					attr = "cri"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.072
+					number = 0.072,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.11
+					number = 0.11,
+					attr = "cri"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.08
+					number = 0.08,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.122
+					number = 0.122,
+					attr = "cri"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.086
+					number = 0.086,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.134
+					number = 0.134,
+					attr = "cri"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.092
+					number = 0.092,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.15
+					number = 0.15,
+					attr = "cri"
 				}
 			},
 			{
@@ -243,20 +243,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.1
+					number = 0.1,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 17422,
+	time = 0,
 	picture = "",
 	desc = "鱼雷暴击率up+对轻巡特攻",
 	stack = 1,
-	id = 17422,
+	color = "red",
 	icon = 17420,
 	last_effect = "",
 	blink = {
@@ -274,8 +274,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.05
+				number = 0.05,
+				attr = "cri"
 			}
 		},
 		{
@@ -284,8 +284,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_1",
-				number = 0.04
+				number = 0.04,
+				attr = "damageToArmorRateEnhance_1"
 			}
 		}
 	}

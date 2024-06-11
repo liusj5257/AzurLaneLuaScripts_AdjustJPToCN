@@ -1,10 +1,10 @@
 slot0 = class("GuildEventFormationPage", import(".GuildEventBasePage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildEventFormationUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.tpl = slot0._go:GetComponent("ItemList").prefabItem[0]
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.sendBtn = slot0:findTF("frame/btn")
@@ -17,7 +17,7 @@ function slot0.OnLoaded(slot0)
 	slot0.cdTimer = {}
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 
@@ -30,13 +30,13 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnFleetUpdated(slot0, slot1)
+slot0.OnFleetUpdated = function(slot0, slot1)
 	slot0.extraData.fleet = slot1
 
 	slot0:UpdateSlots()
 end
 
-function slot0.OnFleetFormationDone(slot0)
+slot0.OnFleetFormationDone = function(slot0)
 	for slot4, slot5 in ipairs(slot0.slots) do
 		slot0:RefreshCdTimer(slot4)
 	end
@@ -44,7 +44,7 @@ function slot0.OnFleetFormationDone(slot0)
 	slot0:UpdateSendBtn()
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 	if not getProxy(GuildProxy).isFetchAssaultFleet then
 		slot0:emit(GuildEventMediator.ON_GET_FORMATION)
 	else
@@ -54,7 +54,7 @@ function slot0.OnShow(slot0)
 	slot0:UpdateSendBtn()
 end
 
-function slot0.UpdateSendBtn(slot0)
+slot0.UpdateSendBtn = function(slot0)
 	slot1 = not slot0.contextData.editFleet or slot0.contextData.editFleet and not slot0.extraData.fleet:AnyShipChanged(slot0.contextData.editFleet)
 
 	setActive(slot0.sendBtnGray, slot1)
@@ -76,7 +76,7 @@ function slot0.UpdateSendBtn(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateSlots(slot0)
+slot0.UpdateSlots = function(slot0)
 	slot0.fleet = slot0.contextData.editFleet or slot0.extraData.fleet
 	slot1 = slot0.fleet
 	slot4 = slot0.guild:GetActiveEvent() and slot3:GetBossMission()
@@ -88,11 +88,11 @@ function slot0.UpdateSlots(slot0)
 	end
 end
 
-function slot0.ShipIsBattle(slot0, slot1)
+slot0.ShipIsBattle = function(slot0, slot1)
 	return slot0.existBossBattle
 end
 
-function slot0.UpdateSlot(slot0, slot1, slot2, slot3)
+slot0.UpdateSlot = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.guild
 	slot5 = slot2:Find("ship")
 	slot6 = slot2:Find("tag/tag")
@@ -131,7 +131,7 @@ function slot0.UpdateSlot(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.RefreshCdTimer(slot0, slot1)
+slot0.RefreshCdTimer = function(slot0, slot1)
 	slot2 = slot0.slots[slot1]
 	slot3 = slot2:Find("tag/timer")
 	slot4 = slot3:Find("Text"):GetComponent(typeof(Text))
@@ -158,7 +158,7 @@ function slot0.RefreshCdTimer(slot0, slot1)
 	setActive(slot2:Find("tag"), isActive(slot5) or slot6)
 end
 
-function slot0.RemoveTimer(slot0, slot1)
+slot0.RemoveTimer = function(slot0, slot1)
 	if slot0.cdTimer[slot1] then
 		slot0.cdTimer[slot1]:Stop()
 
@@ -166,7 +166,7 @@ function slot0.RemoveTimer(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 
 	for slot4, slot5 in pairs(slot0.cdTimer) do

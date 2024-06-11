@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_yuanhuidian",
 			stopbgm = true,
+			bgName = "bg_yuanhuidian",
+			bgm = "story-6",
 			actor = 401160,
 			nameColor = "#A9F548FF",
 			say = "布呂歇爾，前方發現了敵方的增援！",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			expression = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
+			expression = 1,
 			side = 2,
 			actor = 403020,
 			say = "？！！那、那個誇張的艦裝是什麼東西啊！？！",
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			expression = 8,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
+			expression = 8,
 			side = 2,
 			actor = 401160,
 			say = "好帥……而且看起來好強！要是我能有這樣的艦裝的話……",

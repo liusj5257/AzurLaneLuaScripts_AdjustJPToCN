@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
-	id = 40260,
 	picture = "0",
 	aniEffect = "",
 	desc = "英系buff",
+	painting = 1,
+	id = 40260,
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetNationalityFriendly",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetNationalityFriendly",
 			arg_list = {
 				buff_id = 40261,
 				nationality = 2

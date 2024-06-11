@@ -1,6 +1,6 @@
 slot0 = class("EffectBullet", import("view.miniGame.gameView.RyzaMiniGame.effect.TargetEffect"))
 
-function slot0.GetBaseOrder(slot0)
+slot0.GetBaseOrder = function(slot0)
 	if slot0.mark == "N" then
 		return uv0.super.GetBaseOrder(slot0)
 	else
@@ -8,7 +8,7 @@ function slot0.GetBaseOrder(slot0)
 	end
 end
 
-function slot0.InTimeRiver(slot0)
+slot0.InTimeRiver = function(slot0)
 	return true
 end
 
@@ -31,7 +31,7 @@ slot1 = {
 	}
 }
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	slot0.mark = slot1.mark
 
 	slot0._tf:Find("Image"):GetComponent(typeof(Animator)):Play("Bullet_" .. slot0.mark)
@@ -39,11 +39,11 @@ function slot0.InitUI(slot0, slot1)
 	slot0.dir = NewPos(unpack(uv0[slot0.mark]))
 end
 
-function slot0.GetSpeedDis(slot0)
+slot0.GetSpeedDis = function(slot0)
 	return 2
 end
 
-function slot0.TimeUpdate(slot0, slot1)
+slot0.TimeUpdate = function(slot0, slot1)
 	if not slot0.responder:InRange(slot0.realPos + slot0.dir * slot0:GetSpeedDis() * slot1) then
 		slot0:Destroy()
 
@@ -54,7 +54,7 @@ function slot0.TimeUpdate(slot0, slot1)
 	slot0:TimeTrigger(slot1)
 end
 
-function slot0.MoveUpdate(slot0, slot1)
+slot0.MoveUpdate = function(slot0, slot1)
 	if slot1.x == 0 and slot1.y == 0 then
 		return slot1
 	end
@@ -71,12 +71,12 @@ function slot0.MoveUpdate(slot0, slot1)
 	end
 end
 
-function slot0.UpdatePos(slot0, slot1)
+slot0.UpdatePos = function(slot0, slot1)
 	slot0.responder:UpdatePos(slot0, slot1)
 	uv0.super.UpdatePos(slot0, slot1)
 end
 
-function slot0.TimeTrigger(slot0, slot1)
+slot0.TimeTrigger = function(slot0, slot1)
 	if slot0.responder:CollideRyza(slot0) then
 		slot0:Calling("hit", {
 			1,
@@ -86,7 +86,7 @@ function slot0.TimeTrigger(slot0, slot1)
 	end
 end
 
-function slot0.GetCollideRange(slot0)
+slot0.GetCollideRange = function(slot0)
 	slot1 = {
 		{
 			-0.1875,

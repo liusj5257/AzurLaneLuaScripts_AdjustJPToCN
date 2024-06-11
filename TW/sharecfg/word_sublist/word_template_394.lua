@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_394 = {}
 slot1 = slot0.word_template_394
 
-function temp()
+temp = function()
 	uv0["黨"] = {
 		["中"] = {
 			["央"] = {
@@ -27,7 +27,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["釋"] = {
 		["迦"] = {
 			["牟"] = {
@@ -64,7 +64,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["觀"] = {
 		["世"] = {
 			["音"] = {
@@ -83,7 +83,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["實"] = {
 		["際"] = {
 			["神"] = {

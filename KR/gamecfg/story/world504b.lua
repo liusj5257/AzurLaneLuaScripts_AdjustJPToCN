@@ -1,19 +1,19 @@
 return {
-	id = "WORLD504B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/16/tb-16",
+			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "경고: 지휘관님, 전방에 미지의 거대 시설이 발견됐습니다. 세이렌의 신형 요새 화포로 추정됩니다.",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "실질적인 피해를 입기 전에 제거해야 해. 그러기 위해서——",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "여왕 폐하께 경의를 표합니다. 로열 화력 공격단 전원 위치에 있습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			paintingNoise = true,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "지휘관, 전방의 거대한 요새포는 우리에게 맡기도록.",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "어떤 방어 시설도 내 일제 사격으로 산산조각이 나지. 죽음과 선혈이여, 화려하게 피어나라.",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 205060,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "목표 조준 완료. KGV의 힘을 실감하게 해주지, 함대 일제 사격 준비.",
 			typewriter = {
 				speed = 0.05,
@@ -149,11 +149,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 205090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "포격 준비 완료, 발포————————!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

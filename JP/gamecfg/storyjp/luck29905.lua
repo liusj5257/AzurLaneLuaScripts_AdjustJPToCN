@@ -1,15 +1,15 @@
 return {
-	id = "LUCK29905",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK29905",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 299050,
 			dir = 1,
+			actor = 299050,
 			say = "指揮官さま、お喜びください。指揮官さまのお望み通り、プリマスはまた強くなりました",
 			painting = {
 				alpha = 0.3,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 299050,
 			dir = 1,
+			actor = 299050,
 			say = "主砲は特に必要ない…ですか？ではプリマスは何をすればいいでしょう？指揮官さまがお喜びになることはなんでもします",
 			painting = {
 				alpha = 0.3,
@@ -55,8 +55,8 @@ return {
 			expression = 8,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 299050,
 			dir = 1,
+			actor = 299050,
 			say = "どうかお喜びになってくださいね。指揮官さま",
 			painting = {
 				alpha = 0.3,

@@ -1,6 +1,6 @@
 slot0 = class("GloryAwardWindow", import(".PtAwardWindow"))
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot2 = getProxy(TaskProxy)
 
 	slot0.UIlist:make(function (slot0, slot1, slot2)
@@ -27,7 +27,7 @@ function slot1(slot0)
 	slot0.UIlist:align(#slot0.taskList)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.taskList = slot1.taskList
 	slot0.taskVO = slot1.taskVO
 

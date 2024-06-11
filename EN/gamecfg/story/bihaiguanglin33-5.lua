@@ -1,16 +1,16 @@
 return {
-	id = "SHENGYONGQU30-2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU30-2",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 301290,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I'm finally back! Is everyone still hanging in there?",
 			typewriter = {
 				speed = 0.05,
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "I never thought I'd be so glad to see you, but yeah, those mechanisms are making the fight much more manageable!",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(What's more, she seems to be getting weaker every time she taps into the Dragon Palace's power, just like Odin...)",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(Darn them, even though they knew all this, they barely lifted a finger to help!)",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "Press the advantage! Just hold out a bit longer, everyone...!",
 			typewriter = {
 				speed = 0.05,

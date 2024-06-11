@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN26",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -36,8 +36,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -49,10 +49,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "違う、あっちからの――ええと、地震じゃなくてとにかくすごい衝撃波だ！",
 			dialogShake = {
 				speed = 0.09,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "レーダーに反応あり！識別信号は…ユニオンの艦隊！",
 			typewriter = {
 				speed = 0.05,
@@ -86,14 +86,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			hidePaintObj = true,
 			say = "「ヘレナ」のカウントダウンが0になった瞬間、「再現」の戦場のすぐそばから巨大な衝撃波が発生した。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,10 +136,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ユニオンの最大最強のブラック・ドラゴン――ニュージャージー、参上よ！",
 			effects = {
 				{
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官はやっぱりこういう派手な登場が好きなんでしょ？ははは♪",
 			typewriter = {
 				speed = 0.05,
@@ -198,10 +198,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まさかこちらが出港して1日も経たないうちに行方不明になるなんて…みんな心配してたわよ、全く",
 			typewriter = {
 				speed = 0.05,
@@ -216,10 +216,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まあ、こういうのは指揮官のせいではなく、指揮官を誘拐したセイレーンのせいね",
 			typewriter = {
 				speed = 0.05,
@@ -249,10 +249,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あたしだけじゃなく、増援艦隊のみんなもいるわよ",
 			typewriter = {
 				speed = 0.05,
@@ -294,13 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "……再会したばかりでごめんなさい。最後にまだもう1回戦う必要があるわ",
 			typewriter = {
 				speed = 0.05,
@@ -315,10 +315,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "この鏡面海域の制御装置を破壊しないと、鏡面海域と海霧を解除することができないわ",
 			typewriter = {
@@ -334,10 +334,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "ハッキングで防御システムを止められるのもそろそろ限界……",
 			typewriter = {
@@ -365,13 +365,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "ええ、この実験場の「駒」は基本素体の情報通り、かの大戦の「再現」を行うけど",
 			typewriter = {
 				speed = 0.05,
@@ -401,10 +401,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "実験場の存続が脅かされる事態が発生したら、彼女たちはセイレーンの兵器と同じく防御システムに制御が移管されるわ",
 			typewriter = {
@@ -432,13 +432,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "「駒」たちの役割は「再現の配役」からただの防御兵器に戻り――",
 			typewriter = {
 				speed = 0.05,
@@ -468,10 +468,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "はい、私も一緒に戦うわ",
 			typewriter = {
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "これよりニュージャージー以下4隻が指揮官の指揮下に入る！",
 			typewriter = {
 				speed = 0.05,

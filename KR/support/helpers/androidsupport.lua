@@ -5,26 +5,26 @@ ANDROID_CAMERA_PERMISSION = "android.permission.CAMERA"
 ANDROID_RECORD_AUDIO_PERMISSION = "android.permission.RECORD_AUDIO"
 ANDROID_WRITE_EXTERNAL_PERMISSION = "android.permission.WRITE_EXTERNAL_STORAGE"
 
-function CheckPermissionGranted(slot0)
+CheckPermissionGranted = function(slot0)
 	return PermissionMgr.Inst:CheckPermissionGranted(slot0)
 end
 
-function ApplyPermission(slot0)
+ApplyPermission = function(slot0)
 	PermissionMgr.Inst:ApplyPermission(slot0)
 end
 
-function OpenDetailSetting()
+OpenDetailSetting = function()
 	PermissionMgr.Inst:OpenDetailSetting()
 end
 
-function OnPermissionRequestResult(slot0)
+OnPermissionRequestResult = function(slot0)
 	pg.m02:sendNotification(PERMISSION_GRANTED, slot0)
 end
 
-function OnPermissionNeverRemind(slot0)
+OnPermissionNeverRemind = function(slot0)
 	pg.m02:sendNotification(PERMISSION_NEVER_REMIND, slot0)
 end
 
-function OnPermissionReject(slot0)
+OnPermissionReject = function(slot0)
 	pg.m02:sendNotification(PERMISSION_REJECT, slot0)
 end

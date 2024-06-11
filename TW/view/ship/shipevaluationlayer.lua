@@ -4,11 +4,11 @@ slot0.EVENT_EVA = "event eva"
 slot0.EVENT_ZAN = "event zan"
 slot0.EVENT_IMPEACH = "event impeach"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EvaluationUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.mainPanel = slot0:findTF("mainPanel")
 	slot0.head = slot0:findTF("bg/left_panel/ship_tpl", slot0.mainPanel)
 	slot0.labelHeart = slot0:findTF("bg/left_panel/evaluation_count/heart", slot0.mainPanel)
@@ -43,7 +43,7 @@ function slot0.init(slot0)
 	})
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.impackPanel) then
 		setActive(slot0.mainPanel, true)
 		setActive(slot0.impackPanel, false)
@@ -52,7 +52,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -101,21 +101,21 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.setShipGroup(slot0, slot1)
+slot0.setShipGroup = function(slot0, slot1)
 	slot0.shipGroup = slot1
 end
 
-function slot0.setShowTrans(slot0, slot1)
+slot0.setShowTrans = function(slot0, slot1)
 	slot0.showTrans = slot1
 end
 
-function slot0.flushAll(slot0)
+slot0.flushAll = function(slot0)
 	slot0:flushShip()
 	slot0:flushHeart()
 	slot0:flushEva()
 end
 
-function slot0.flushShip(slot0)
+slot0.flushShip = function(slot0)
 	slot1 = slot0.shipGroup.shipConfig
 	slot3 = slot0.shipGroup:rarity2bgPrint(slot0.showTrans)
 
@@ -143,12 +143,12 @@ function slot0.flushShip(slot0)
 	end
 end
 
-function slot0.flushHeart(slot0)
+slot0.flushHeart = function(slot0)
 	setButtonEnabled(slot0.btnLike, not slot0.shipGroup.iheart)
 	setText(slot0.labelHeart, slot0.shipGroup.evaluation.hearts)
 end
 
-function slot0.flushEva(slot0)
+slot0.flushEva = function(slot0)
 	slot1 = slot0.shipGroup.evaluation
 
 	setText(slot0.labelEva, slot1.evaCount)
@@ -180,7 +180,7 @@ function slot0.flushEva(slot0)
 		slot10.supportRichText = false
 		slot10.text = slot9.context
 
-		function slot13(slot0)
+		slot13 = function(slot0)
 			if not uv0.izan then
 				uv1:emit(uv2.EVENT_ZAN, uv0.id, slot0)
 			else
@@ -220,7 +220,7 @@ end
 
 slot1 = 3
 
-function slot0.initImpeachPanel(slot0)
+slot0.initImpeachPanel = function(slot0)
 	slot1 = slot0._tf
 	slot0.impackPanel = slot1:Find("impeachPanel")
 	slot2 = slot0.impackPanel
@@ -282,7 +282,7 @@ function slot0.initImpeachPanel(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.openImpeachPanel(slot0, slot1)
+slot0.openImpeachPanel = function(slot0, slot1)
 	slot0.targetEvaId = slot1
 
 	setActive(slot0.mainPanel, false)
@@ -291,7 +291,7 @@ function slot0.openImpeachPanel(slot0, slot1)
 	triggerToggle(slot0.impackPanel:Find("window/msg_panel/content/options/tpl"), true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

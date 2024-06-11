@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"소류 씨와 함께\n\n<size=45>제3장 - 친구란?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "화투를 배우다보니, 자연스레 소류와 얘기할 기회도 많아졌다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "오늘도 소류네 방에 놀러가자!",
 			typewriter = {
@@ -54,15 +54,15 @@ return {
 			}
 		},
 		{
-			say = "사쿠라 엠파이어 숙소 - 소류의 방",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "사쿠라 엠파이어 숙소 - 소류의 방",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "아하하, 온종일 같이 있는 건 아니에요. 각자 혼자서 보내는 시간도 있답니다.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아하하, 온종일 같이 있는 건 아니에요. 각자 혼자서 보내는 시간도 있답니다.",
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#92fc63",
 			say = "아하하하……",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

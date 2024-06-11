@@ -1,6 +1,6 @@
 slot0 = class("ResourceFieldAttr")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.name = slot2
 	slot0.config = slot1
 	slot0.attrName = slot3
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.addition = 0
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	if slot1 == slot0.level then
 		return
 	end
@@ -23,42 +23,42 @@ function slot0.Update(slot0, slot1)
 	slot0:ReCalcValue()
 end
 
-function slot0.ReCalcValue(slot0)
+slot0.ReCalcValue = function(slot0)
 	slot0.value = slot0.config[slot0.level][slot0.attrName]
 	slot0.nextValue = slot0.config[slot0.nextLevel][slot0.attrName]
 	slot0.maxValue = slot0.config[#slot0.config][slot0.attrName]
 	slot0.addition = slot0.nextValue - slot0.value
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.name
 end
 
-function slot0.IsMaxLevel(slot0)
+slot0.IsMaxLevel = function(slot0)
 	return slot0.level == slot0.nextLevel
 end
 
-function slot0.GetValue(slot0)
+slot0.GetValue = function(slot0)
 	return slot0.value
 end
 
-function slot0.GetNextValue(slot0)
+slot0.GetNextValue = function(slot0)
 	return slot0.nextValue
 end
 
-function slot0.GetMaxValue(slot0)
+slot0.GetMaxValue = function(slot0)
 	return slot0.maxValue
 end
 
-function slot0.GetAddition(slot0)
+slot0.GetAddition = function(slot0)
 	return slot0.addition
 end
 
-function slot0.GetAdditionDesc(slot0)
+slot0.GetAdditionDesc = function(slot0)
 	return slot0.addition
 end
 
-function slot0.GetProgressDesc(slot0)
+slot0.GetProgressDesc = function(slot0)
 	return slot0.value .. "/" .. slot0.maxValue
 end
 

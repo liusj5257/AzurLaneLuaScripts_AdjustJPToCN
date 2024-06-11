@@ -1,18 +1,18 @@
 return {
-	id = "JIENUOWADEYANHUO6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIENUOWADEYANHUO6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "level-french1",
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "居然是鳶尾教國的突襲……都這麼晚的時間了。",
-			bgm = "level-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "哈啊……好睏，她們難道都不睡的嗎——",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "也不知道是向著哪個港口去的，",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "總之按照利托里奧大人的調動命令去指定位置待機就好吧……",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			}
 		},
 		{
+			say = "轟——————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -126,9 +126,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "敵、敵襲？！難道是在路上遭遇了？！",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,9 +152,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "……這麼倒霉？！各艦注意，準備戰鬥！",
 			effects = {
 				{

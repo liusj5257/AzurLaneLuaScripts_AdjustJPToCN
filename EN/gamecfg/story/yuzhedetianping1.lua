@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			bgm = "story-expo-lastday",
 			sequence = {
 				{
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
 			bgName = "star_level_bg_1104",
+			mode = 1,
 			effects = {
 				{
 					active = true,

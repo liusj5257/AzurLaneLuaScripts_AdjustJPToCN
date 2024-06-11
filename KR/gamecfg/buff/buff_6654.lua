@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 6654,
 	picture = "",
 	desc = "水下被侦测效果",
 	stack = 1,
-	id = 6654,
+	color = "red",
 	icon = 6650,
 	last_effect = "Darkness",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				group = 6630,
-				attr = "torpedoPower",
-				number = -500
+				number = -500,
+				attr = "torpedoPower"
 			}
 		}
 	}

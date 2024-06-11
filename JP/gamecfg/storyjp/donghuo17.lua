@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO17",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO17",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			stopbgm = true,
 			actorName = "オブザーバー・零",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			stopbgm = true,
+			nameColor = "#a9f548",
 			say = "「大いなるお方が言われた。『サタンが、いなずまのように天から落ちた』と」",
 			typewriter = {
 				speed = 0.05,
@@ -29,9 +29,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900136,
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
 			actorName = "オブザーバー・零",
 			say = "「反逆に加担した天使たちはその姿を醜悪なるものに変えてもなお、翼だけがもぎ取られていなかったという」",
 			typewriter = {
@@ -47,9 +47,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900136,
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
 			actorName = "オブザーバー・零",
 			say = "「それが、天使たちを作られた大いなるお方が、我が子は地獄にいようと輝けるようにと願われたゆえ――」",
 			typewriter = {
@@ -65,9 +65,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900136,
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
 			actorName = "オブザーバー・零",
 			say = "人類は面白い物語をよく書くわ",
 			typewriter = {
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 900136,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "オブザーバー・零",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			actorName = "オブザーバー・零",
 			say = "そういえば、テスターとピュリファイアー――「下層端末」であの子を抑えるのは無理のようね",
 			typewriter = {
 				speed = 0.05,
@@ -97,12 +97,12 @@ return {
 			}
 		},
 		{
-			actor = 900136,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "オブザーバー・零",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			actorName = "オブザーバー・零",
 			say = "なら……『地獄』にいってあの子たちを呼び起こしてちょうだい",
 			typewriter = {
 				speed = 0.05,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 900136,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "オブザーバー・零",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			actorName = "オブザーバー・零",
 			say = "……中階層プログラム『アービタ』たち",
 			typewriter = {
 				speed = 0.05,

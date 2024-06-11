@@ -8,7 +8,7 @@ slot0.CHANGE_FLEET_FORMATION = "DefenseFormationMedator:CHANGE_FLEET_FORMATION"
 slot0.CHANGE_FLEET_SHIPS_ORDER = "DefenseFormationMedator:CHANGE_FLEET_SHIPS_ORDER"
 slot0.COMMIT_FLEET = "DefenseFormationMedator:COMMIT_FLEET"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(BayProxy)
 	slot0.ships = slot1:getRawData()
 	slot2 = slot0.viewComponent
@@ -74,8 +74,8 @@ function slot0.register(slot0)
 		end)
 
 		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
 			callbackQuit = true,
+			selectedMax = 1,
 			quitTeam = slot1 ~= nil,
 			teamFilter = slot2,
 			ignoredIds = slot7,
@@ -87,11 +87,11 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.refreshView(slot0, slot1)
+slot0.refreshView = function(slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(slot1)
 end
 
-function slot0.save(slot0, slot1, slot2)
+slot0.save = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0:sendNotification(GAME.UPDATE_EXERCISE_FLEET, {
 			fleet = slot1,
@@ -102,11 +102,11 @@ function slot0.save(slot0, slot1, slot2)
 	end
 end
 
-function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.configDockYardFunc = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	return function (slot0, slot1)
 		slot2 = {}
 
-		function slot3(slot0)
+		slot3 = function(slot0)
 			if not uv0 then
 				for slot4, slot5 in ipairs(_.reverse(slot0)) do
 					if not table.contains(uv1, slot5) then
@@ -130,7 +130,7 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 			end
 		end
 
-		function slot4(slot0)
+		slot4 = function(slot0)
 			if uv0 == TeamType.Main then
 				uv1.mainShips = slot0 and uv2 or uv3
 				uv1.vanguardShips = uv4
@@ -150,7 +150,7 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot3(uv3)
 		end
 
-		function slot5()
+		slot5 = function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("defense_formation_tip_npc"),
 				onYes = function ()
@@ -182,7 +182,7 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, function (slot0, slot1, slot2)
 		slot3 = pg.ship_data_template[slot0.configId].group_type
 
-		function slot4(slot0)
+		slot4 = function(slot0)
 			for slot4, slot5 in ipairs(slot0) do
 				slot6 = pg.ship_data_template[uv0[slot5].configId].group_type
 
@@ -206,13 +206,13 @@ function slot0.configDockYardFunc(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.EXERCISE_FLEET_RESET
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if GAME.EXERCISE_FLEET_RESET == slot1:getName() then

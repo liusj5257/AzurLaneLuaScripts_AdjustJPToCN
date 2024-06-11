@@ -1,12 +1,12 @@
 return {
-	id = "WTask3600",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask3600",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "友方的商船被塞壬包圍了！",
 			typewriter = {
 				speed = 0.05,

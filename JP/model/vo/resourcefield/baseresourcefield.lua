@@ -1,10 +1,10 @@
 slot0 = class("BaseResourceField", import("..BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.attrs = {}
 end
 
-function slot0.SetLevel(slot0, slot1)
+slot0.SetLevel = function(slot0, slot1)
 	slot0._LV = slot1
 	slot0.configId = slot1
 
@@ -13,15 +13,15 @@ function slot0.SetLevel(slot0, slot1)
 	end
 end
 
-function slot0.SetUpgradeTimeStamp(slot0, slot1)
+slot0.SetUpgradeTimeStamp = function(slot0, slot1)
 	slot0._upgradeTimeStamp = slot1
 end
 
-function slot0.GetUpgradeTimeStamp(slot0)
+slot0.GetUpgradeTimeStamp = function(slot0)
 	return slot0._upgradeTimeStamp
 end
 
-function slot0.GetDuration(slot0)
+slot0.GetDuration = function(slot0)
 	if slot0._upgradeTimeStamp ~= 0 then
 		return slot0._upgradeTimeStamp - pg.TimeMgr.GetInstance():GetServerTime()
 	else
@@ -29,41 +29,41 @@ function slot0.GetDuration(slot0)
 	end
 end
 
-function slot0.IsStarting(slot0)
+slot0.IsStarting = function(slot0)
 	return slot0._upgradeTimeStamp > 0 and pg.TimeMgr.GetInstance():GetServerTime() < slot0._upgradeTimeStamp
 end
 
-function slot0.GetSpendTime(slot0)
+slot0.GetSpendTime = function(slot0)
 	return slot0:getConfig("time")
 end
 
-function slot0.GetLevel(slot0)
+slot0.GetLevel = function(slot0)
 	return slot0._LV
 end
 
-function slot0.IsMaxLevel(slot0)
+slot0.IsMaxLevel = function(slot0)
 	slot1 = slot0:bindConfigTable()
 
 	return slot0._LV == slot1.all[#slot1.all]
 end
 
-function slot0.GetTargetLevel(slot0)
+slot0.GetTargetLevel = function(slot0)
 	return slot0:bindConfigTable()[slot0:GetLevel()].user_level
 end
 
-function slot0.IsReachLevel(slot0)
+slot0.IsReachLevel = function(slot0)
 	return slot0:bindConfigTable()[slot0:GetLevel()].user_level <= getProxy(PlayerProxy):getRawData().level
 end
 
-function slot0.GetTargetRes(slot0)
+slot0.GetTargetRes = function(slot0)
 	return slot0:bindConfigTable()[slot0:GetLevel()].use[2]
 end
 
-function slot0.IsReachRes(slot0)
+slot0.IsReachRes = function(slot0)
 	return slot0:bindConfigTable()[slot0:GetLevel()].use[2] <= getProxy(PlayerProxy):getRawData().gold
 end
 
-function slot0.CanUpgrade(slot0)
+slot0.CanUpgrade = function(slot0)
 	if slot0:IsReachLevel() and slot0:IsReachRes() and not slot0:IsMaxLevel() and slot0._upgradeTimeStamp == 0 then
 		return true
 	end
@@ -71,11 +71,11 @@ function slot0.CanUpgrade(slot0)
 	return false
 end
 
-function slot0.isCommissionNotify(slot0, slot1)
+slot0.isCommissionNotify = function(slot0, slot1)
 	return slot0:getHourProduct() > slot0:getConfig("store") - slot1
 end
 
-function slot0.GetCost(slot0)
+slot0.GetCost = function(slot0)
 	slot1 = slot0:getConfig("use")
 
 	return {
@@ -85,43 +85,43 @@ function slot0.GetCost(slot0)
 	}
 end
 
-function slot0.GetEffectAttrs(slot0)
+slot0.GetEffectAttrs = function(slot0)
 	return slot0.attrs
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	assert(false)
 end
 
-function slot0.getHourProduct(slot0)
+slot0.getHourProduct = function(slot0)
 	assert(false)
 end
 
-function slot0.GetKeyWord(slot0)
+slot0.GetKeyWord = function(slot0)
 	assert(false)
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	assert(false)
 end
 
-function slot0.GetUpgradeType(slot0)
+slot0.GetUpgradeType = function(slot0)
 	assert(false)
 end
 
-function slot0.GetResourceType(slot0)
+slot0.GetResourceType = function(slot0)
 	assert(false)
 end
 
-function slot0.GetDesc(slot0)
+slot0.GetDesc = function(slot0)
 	assert(false)
 end
 
-function slot0.GetPlayerRes(slot0)
+slot0.GetPlayerRes = function(slot0)
 	assert(false)
 end
 
-function slot0.HasRes(slot0)
+slot0.HasRes = function(slot0)
 	return slot0:GetPlayerRes() > 0
 end
 

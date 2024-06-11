@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "子弹增伤",
 	init_effect = "",
+	name = "子弹增伤",
+	time = 0,
+	picture = "",
+	desc = "子弹增伤",
 	stack = 100,
 	id = 512040,
-	picture = "",
 	last_effect = "Pojia01",
-	desc = "子弹增伤",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.01
+				number = 0.01,
+				attr = "injureRatio"
 			}
 		}
 	}

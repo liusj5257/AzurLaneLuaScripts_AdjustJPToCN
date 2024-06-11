@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"理科実験タイム！\n\n<size=45>五　科学は終わらない</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "こ、ここが夕張と明石の研究室…………",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "こ、ここが夕張と明石の研究室…………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,15 +84,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "いいかねU-73くん、最初の試薬を間違えたからそうなったんだぞ。これをこうすればどうかね？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "な、なるほど！",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "そ、その手があったのか……",
 			typewriter = {
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "……甘い",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "せ、先生と呼ばせてください！",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "あ、あははは…片付け忘れてた……",
 			typewriter = {
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "「誰ですか教室を片付けない子は！！」と、ケルンの怒鳴り声が聞こえた。",
 			effects = {
 				{
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "さ、先に失礼するね！！",
 			effects = {
@@ -438,8 +438,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 2500

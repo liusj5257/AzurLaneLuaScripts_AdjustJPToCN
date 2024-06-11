@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.122
+					number = -0.122,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.144
+					number = -0.144,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.166
+					number = -0.166,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.188
+					number = -0.188,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.21
+					number = -0.21,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.232
+					number = -0.232,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.254
+					number = -0.254,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.278
+					number = -0.278,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.3
+					number = -0.3,
+					attr = "injureRatio"
 				}
 			}
 		}
 	},
-	time = 8,
 	name = "骑士之盾",
 	init_effect = "jinengchufablue",
+	time = 8,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
@@ -173,8 +173,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatio"
 			}
 		}
 	}

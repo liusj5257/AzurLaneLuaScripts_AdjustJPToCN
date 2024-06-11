@@ -4,21 +4,21 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			asideType = 1,
+			mode = 1,
 			bgm = "theme-merkuriameta",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -73,23 +73,23 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
-			stopbgm = true,
-			asideType = 3,
-			mode = 1,
 			blackBg = true,
+			stopbgm = true,
+			bgmDelay = 2,
+			mode = 1,
+			asideType = 3,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -119,25 +119,25 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_541",
 			dir = 1,
+			bgName = "star_level_bg_541",
 			bgm = "story-commander-up",
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Good news, Commander! I just got word from the Tribunal that the Northern Parliament has reached their Antarctic research station!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -206,10 +206,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Clemenceau said it was probably due to jamming. It can't be a coincidence that they ALL went down simultaneously.",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Got it. Good luck.",
 			painting = {
 				alpha = 0.3,
@@ -275,28 +275,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Location Unknown",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			say = "I close my eyes, and a field of stars spread out before me.",
@@ -342,10 +342,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "You've come, Commander. Have you finally decided to make your move?",
 			painting = {
 				alpha = 0.3,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "All contact between Antarctica and the outside world has been cut off. Is that right?",
 			painting = {
 				alpha = 0.3,
@@ -413,10 +413,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Not quite. This isn't Observer's doing.",
 			painting = {
 				alpha = 0.3,
@@ -431,10 +431,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "But, I still might be able to help you out. Give me a sec.",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "You'll find out soon enough.",
 			painting = {
 				alpha = 0.3,
@@ -491,10 +491,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Naturally. I know who they are, what they've done, and what they're after.",
 			painting = {
 				alpha = 0.3,
@@ -509,10 +509,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "But...",
 			painting = {
 				alpha = 0.3,
@@ -539,10 +539,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "I'm sorry... This is something you must uncover yourself.",
 			painting = {
 				alpha = 0.3,
@@ -590,12 +590,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "...Isn't there something else you want to ask for?",
 			painting = {
 				alpha = 0.3,
@@ -610,10 +610,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Remember, Saratoga took this step because she was sure it would help Lexington.",
 			painting = {
 				alpha = 0.3,
@@ -640,10 +640,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Don't you want to save Lexington?",
 			painting = {
 				alpha = 0.3,
@@ -682,10 +682,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "...Very well.",
 			painting = {
 				alpha = 0.3,
@@ -697,12 +697,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Initiating strategic interface. Monitoring target: Antarctica. Setting up command system. Connected.",
 			painting = {
 				alpha = 0.3,
@@ -717,10 +717,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "It's time to wake up, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -732,29 +732,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "I feel bad about borrowing Helena META's powers to do this... but at least this should improve the situation.",
+			side = 2,
 			bgm = "story-commander-up",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I feel bad about borrowing Helena META's powers to do this... but at least this should improve the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -774,28 +774,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Helena, Memphis, check something for me. Is the command system over the Antarctic region connected?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -818,10 +818,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, it's connected! I'm seeing the info!",
 			painting = {
 				alpha = 0.3,
@@ -893,10 +893,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Psst. How did you get this? Did you... ask the other Helena for help?)",
 			painting = {
 				alpha = 0.3,
@@ -935,10 +935,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course. I'll relay the feed to your monitor.",
 			painting = {
 				alpha = 0.3,
@@ -972,10 +972,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Eagle Union iiis... Oh, Saratoga's group is heading for the snowmelt area.",
 			painting = {
 				alpha = 0.3,
@@ -1009,10 +1009,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Looks like the Royal Navy is still out on the ocean. They'll probably reach land soon.",
 			painting = {
 				alpha = 0.3,
@@ -1046,10 +1046,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Also, they sent a message about \"encountering an unidentified enemy\" from their Antarctic base. Maybe that has something to do with it?",
 			painting = {
 				alpha = 0.3,

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG01",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -103,14 +103,14 @@ return {
 			}
 		},
 		{
-			actor = 203050,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 203050,
+			nameColor = "#92fc63",
 			say = "후우…물자 수송 선단 호위는 이걸로 끝났네요…이제 집에 돌아갈 수 있겠어요오…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

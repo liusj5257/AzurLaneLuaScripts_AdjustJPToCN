@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO3",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			actor = 903020,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "福熙，一支小規模艦隊正在向我們接近。",
 			bgm = "level-french1",
+			actor = 903020,
+			nameColor = "#a9f548",
+			say = "福熙，一支小規模艦隊正在向我們接近。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			say = "我們的計劃不可能暴露，難道是薩丁帝國正在返航的巡邏隊嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			say = "居然在這種半路上的地方遇到還真是……",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "只要消滅所有的目擊者，就依然是一次完美的突襲行動————",
 			typewriter = {
 				speed = 0.05,
@@ -97,14 +97,14 @@ return {
 			}
 		},
 		{
-			actor = 603010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 603010,
+			nameColor = "#ff5c5c",
 			say = "妳們是……鳶尾教國的艦隊？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			say = "請各位止步，相信妳們已經知道我們現在的立場了。",
 			typewriter = {
 				speed = 0.05,
@@ -160,10 +160,10 @@ return {
 			}
 		},
 		{
+			say = "轟——————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,

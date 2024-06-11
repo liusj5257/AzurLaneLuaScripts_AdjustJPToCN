@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"호놀룰루의 사소한 일들\n\n<size=45>호놀룰루와의 데이트 (상)</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102120,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "지휘관, 늦었잖아!",
 			bgm = "story-1",
+			actor = 102120,
+			nameColor = "#92fc63",
+			say = "지휘관, 늦었잖아!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "역시 예쁘네…크, 크흠! 아무것도 아냐! 그냥 보기만 한 거야……자, 다음 가게로 가보자!",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………호놀룰루, 왠지 굉장히 들뜬 것 같은데.",
 			typewriter = {
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "아, 아니야…헬레나는 이런 걸 좋아하지 않을까 하고 생각한 것 뿐이라구! ……따, 딴 데도 가보자……",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………역시 대화가 제대로 이어지지 않는다.",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "……왜! 여자아이가 칼로리에 신경쓰는 건 당연한 거잖아…!",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -245,11 +245,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "상점가를 한 바퀴 돌고 마지막에 고른 선물은……",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "SG레이더 모양의 쿠션이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "……헬레나가 정말로 좋아해 줄지 조금은 걱정되네.",
 			typewriter = {
 				speed = 0.05,
@@ -308,11 +308,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "……뭐 상관없겠지, 호놀룰루가 저렇게까지 얘기 한다면.",
 			typewriter = {
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "왠지 그녀가 납득하고 결정만 해준다면, 이젠 뭘 사도 상관없을 것 같다",
 			typewriter = {
 				speed = 0.05,
@@ -351,9 +351,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "난 지금 그녀가 평소와 같이 기분이 안 좋아 보이는 표정이 아닌, 평범한 여자아이의 표정을 하고 있는 걸 알게 되었다. 상냥하고, 밝게 웃는, 그냥 평범하고 순수한 여자아이의 표정…… 물론 본인은 눈치채지 못한 것 같지만.",
 			typewriter = {
 				speed = 0.05,
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "누구한테 주는 건지, 물어봐도……돼?",
 			typewriter = {
 				speed = 0.05,

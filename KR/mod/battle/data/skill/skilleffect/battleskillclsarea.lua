@@ -10,7 +10,7 @@ slot4.TYPE_BULLET = 1
 slot4.TYPE_AIRCRAFT = 2
 slot4.TYPE_MINION = 3
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1, lv)
 
 	slot0._range = slot0._tempData.arg_list.range
@@ -41,15 +41,15 @@ function slot4.Ctor(slot0, slot1)
 	slot0._delayCLSTimerList = {}
 end
 
-function slot4.DoDataEffect(slot0, slot1)
+slot4.DoDataEffect = function(slot0, slot1)
 	slot0:doCLS(slot1)
 end
 
-function slot4.DoDataEffectWithoutTarget(slot0, slot1)
+slot4.DoDataEffectWithoutTarget = function(slot0, slot1)
 	slot0:doCLS(slot1)
 end
 
-function slot4.doCLS(slot0, slot1)
+slot4.doCLS = function(slot0, slot1)
 	if slot0._angle then
 		slot0:cacheSectorData(slot1)
 	end
@@ -106,7 +106,7 @@ function slot4.doCLS(slot0, slot1)
 
 		slot8 = slot0._damageParamA + math.floor(slot7 / slot6) * slot0._damageParamB
 
-		function slot11()
+		slot11 = function()
 		end
 
 		slot0:generateArea(slot1, uv1.AOEField.SURFACE, function (slot0)
@@ -131,8 +131,8 @@ function slot4.doCLS(slot0, slot1)
 	end
 end
 
-function slot4.generateArea(slot0, slot1, slot2, slot3, slot4, slot5)
-	function slot6()
+slot4.generateArea = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = function()
 	end
 
 	slot7 = uv0.Battle.BattleDataProxy.GetInstance()
@@ -161,7 +161,7 @@ function slot4.generateArea(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot9
 end
 
-function slot4.cacheSectorData(slot0, slot1)
+slot4.cacheSectorData = function(slot0, slot1)
 	slot0._upperEdge = math.deg2Rad * slot0._angle / 2
 	slot0._lowerEdge = -1 * slot0._upperEdge
 
@@ -177,7 +177,7 @@ function slot4.cacheSectorData(slot0, slot1)
 	slot0._negativeCircleNormalizeOffset = slot0._normalizeOffset + math.pi * 2
 end
 
-function slot4.isOutOfAngle(slot0, slot1)
+slot4.isOutOfAngle = function(slot0, slot1)
 	if not slot0._angle then
 		return false
 	end
@@ -192,7 +192,7 @@ function slot4.isOutOfAngle(slot0, slot1)
 	end
 end
 
-function slot4.isEnterBlind(slot0, slot1)
+slot4.isEnterBlind = function(slot0, slot1)
 	if slot0._minRange == 0 then
 		return false
 	end
@@ -200,7 +200,7 @@ function slot4.isEnterBlind(slot0, slot1)
 	return Vector3.BattleDistance(slot0._cldArea:GetPosition(), slot1:GetPosition()) < slot0._minRange
 end
 
-function slot4.checkBulletType(slot0, slot1)
+slot4.checkBulletType = function(slot0, slot1)
 	if not slot0._bulletType then
 		return true
 	elseif table.contains(slot0._bulletType, slot1:GetType()) then

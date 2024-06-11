@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Ashigara, Advance!\n\n<size=45>Chapter 7 - Ashigara, Go Out!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 303090,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……",
 			bgm = "story-2",
+			actor = 303090,
+			nameColor = "#a9f548",
+			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "(I.... I have to say something... Ughh...)",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Ashigara fidgeted in her seat next to me, her face red from ear to ear.",
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "The awkward silence was becoming a bit overwhelming...",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Right as I was about to open my mouth...",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Commander! P-please go out with me!",
 			typewriter = {
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Eh...?",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Wh-wh-what did I say just now?!",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -177,8 +177,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "P-please forget the strange thing that I said just now!",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,8 +210,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Huh...?!",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "D-don't worry about it! I don't know what was going through my head just now...",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Um... I see! I also want to learn more about you as well, Commander...",
 			typewriter = {
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "After following up with her a few more times, Ashigara's nervousness finally melted away, revealing a smile.",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Um, then... I'll be looking forward to it...",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			stopbgm = true,
+			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Aoba",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "The door suddenly swung open, and several girls crumpled through the doorway.",
 			dialogShake = {
 				speed = 0.09,
@@ -331,13 +331,13 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Grrr... just when they were getting to the juicy, kissy part...",
 			bgm = "story-1",
+			actor = 301300,
+			nameColor = "#a9f548",
+			say = "Grrr... just when they were getting to the juicy, kissy part...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

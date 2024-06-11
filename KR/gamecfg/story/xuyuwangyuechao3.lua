@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "'대현자'의 술식이 발동되자, 일행의 눈 앞에 펼쳐진 광경이 변하기 시작했다.",
 			bgm = "story-unzen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "'대현자'의 술식이 발동되자, 일행의 눈 앞에 펼쳐진 광경이 변하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -33,13 +33,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "bg_yunxian_2",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "나가토 님, 지금입니다! 어서 봉인 속으로…!",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -59,25 +59,25 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "대지가 부서져, 검은 기운이 탁류처럼 뿜어져 나온다.",
 			bgm = "theme-sakuraholyplace",
+			hidePaintObj = true,
+			say = "대지가 부서져, 검은 기운이 탁류처럼 뿜어져 나온다.",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -252,28 +252,28 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "직감적으로 위험을 감지한 무사시는 칼을 들고 나가토 곁으로 달려갔다.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "재앙을 부르는 안개가 함선들을 삼키려고 다가오는 가운데, 나가토는 대현자의 말대로 '해약'과 접촉하는 데 집중했다.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,14 +364,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "보랏빛 섬광과 함께 자그마한 소녀의 뒤를 잡으려던 어두운 기운이 자취를 감추었다.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
@@ -517,11 +517,11 @@ return {
 			bgName = "bg_yunxian_3",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
-			oldPhoto = true,
 			soundeffect = "event:/battle/boom2",
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			oldPhoto = true,
 			say = "주포! 사격 준비――!",
 			painting = {
 				alpha = 0.3,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -584,14 +584,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "우측으로! 급선회다!",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -653,13 +653,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_3",
+			withoutActorName = true,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "무사시는 의장을 모두 구현하여 보강된 포탑 장갑으로 '짐승'의 송곳니에 맞섰다.",
 			typewriter = {
 				speed = 0.05,
@@ -686,8 +686,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -717,8 +717,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
@@ -741,11 +741,11 @@ return {
 			bgName = "bg_yunxian_3",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
-			oldPhoto = true,
 			soundeffect = "event:/battle/boom2",
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			oldPhoto = true,
 			say = "주포! 사격 준비――!",
 			painting = {
 				alpha = 0.3,
@@ -796,8 +796,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
@@ -832,8 +832,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -882,14 +882,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "꽤 하는군… 이거 얕잡아 봐서는 안 되겠어…!",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,8 +938,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -955,10 +955,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			say = "무사시가 칼을 휘두르기도 전에 날린 참격이 검은 기운을 두 동강 냈다.",
 			flashN = {
@@ -1001,8 +1001,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1013,8 +1013,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1025,14 +1025,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "어디 있는지 보이진 않지만, 나름 열심히 해주고 있는 모양이군.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,28 +1062,28 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "'대현자'의 지원을 확인한 무사시는 호위 중인 소녀에게 말을 건네고 다시 칼을 뽑았다.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "그리고 전방의 항로를 가로막는 어두운 안개를 향해 다시 칼을 겨누었다.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1133,8 +1133,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,

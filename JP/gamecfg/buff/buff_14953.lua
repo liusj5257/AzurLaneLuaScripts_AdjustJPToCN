@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 12,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 14953,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14953,
+	color = "blue",
 	icon = 14950,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteShorten",
-				number = 3
+				number = 3,
+				attr = "igniteShorten"
 			}
 		},
 		{
@@ -37,9 +37,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

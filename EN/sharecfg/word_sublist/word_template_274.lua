@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_274 = {}
 slot1 = slot0.word_template_274
 
-function temp()
+temp = function()
 	uv0["抬"] = {
 		["抬"] = {
 			["女"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["臺"] = {
 		["盟"] = {
 			this = true
@@ -103,7 +103,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鮐"] = {
 		this = {
 			this = true
@@ -113,7 +113,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["太"] = {
 		["比"] = {
 			["力"] = {
@@ -255,7 +255,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["泰"] = {
 		["国"] = {
 			["超"] = {
@@ -372,7 +372,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["贪"] = {
 		["财"] = {
 			["好"] = {
@@ -557,7 +557,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["貪"] = {
 		["汙"] = {
 			["腐"] = {

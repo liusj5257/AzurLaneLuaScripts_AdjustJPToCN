@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "最终阶段",
 	time = 0,
+	name = "最终阶段",
+	init_effect = "",
 	picture = "",
 	desc = "最终阶段开始",
 	stack = 1,

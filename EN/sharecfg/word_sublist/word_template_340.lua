@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_340 = {}
 slot1 = slot0.word_template_340
 
-function temp()
+temp = function()
 	uv0["賊"] = {
 		["民"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["怎"] = {
 		["么"] = {
 			["看"] = {
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["譖"] = {
 		this = {
 			this = true
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["增"] = {
 		["大"] = {
 			["宝"] = {
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["扎"] = {
 		["卡"] = {
 			["维"] = {
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["渣"] = {
 		["波"] = {
 			["波"] = {
@@ -110,7 +110,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["炸"] = {
 		["弹"] = {
 			this = true,

@@ -62,12 +62,12 @@ return {
 	desc_get = "炮击时有5%概率发动，机动属性上升30.0%(满级60.0%)，持续8秒",
 	name = "佐世保{namecode:17}",
 	init_effect = "",
+	id = 10370,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "炮击时有5%概率发动，机动属性上升$1，持续8秒",
 	stack = 1,
-	id = 10370,
+	color = "blue",
 	icon = 10370,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 400,
-				target = "TargetSelf",
 				skill_id = 10370,
+				target = "TargetSelf",
 				time = 5
 			}
 		}

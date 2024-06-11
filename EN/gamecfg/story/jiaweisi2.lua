@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Nursing Honesty\n\n<size=45>2 The Meticulous Secretary</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "It had been a few days since Jervis became my secretary and I'd become fairly familiar with her.",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "It had been a few days since Jervis became my secretary and I'd become fairly familiar with her.",
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,10 +48,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "*sigh*... Didn't I ask you to keep the window open for the sake of better circulation? You need to be more considerate of your health.",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -73,9 +73,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She opened the window and a gust of cool, fresh air breezed inside.",
 			typewriter = {
 				speed = 0.05,
@@ -90,10 +90,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Refreshing, isn't it? If you start feeling cold, please put this on.",
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +108,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You mustn't fall ill, or the whole port will grind to a halt and I will need to painstakingly nurse you back to health.",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We don't want that to happen, so have this warming cup of tea.",
 			typewriter = {
 				speed = 0.05,
@@ -144,10 +144,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "No need to thank me. This is all part of a secretary's responsibilities.",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "While she sounded a bit grumpy, her strong sense of duty shone through her words.",
 			typewriter = {
 				speed = 0.05,
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Not only had she beautifully completed the work I assigned her, but she'd also tidied up the whole office.",
 			typewriter = {
 				speed = 0.05,
@@ -190,10 +190,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Incidentally, I've replaced your inkwell. The one on your desk was running low, so I fetched a new one from the depot.",
 			typewriter = {
 				speed = 0.05,
@@ -208,10 +208,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Please take care not to spill any ink. It's a royal pain to clean up.",
 			typewriter = {
 				speed = 0.05,
@@ -305,14 +305,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "My productivity had shot through the roof thanks to Jervis' impeccable assistance.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -374,9 +374,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			optionFlag = 1,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 1,
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,

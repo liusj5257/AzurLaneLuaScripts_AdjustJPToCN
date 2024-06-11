@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "弹药调整-穿甲",
 	time = 0,
-	color = "red",
+	name = "弹药调整-穿甲",
+	init_effect = "",
+	id = 902040,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902040,
+	color = "red",
 	icon = 902040,
 	last_effect = "",
 	effect_list = {

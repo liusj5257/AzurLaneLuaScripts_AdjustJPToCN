@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"'Tis the Season of Love!\n\n<size=45>6.Would You Still... Love Me?</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_main_twilight",
 			bgm = "story-1",
 			actor = 202261,
 			nameColor = "#a9f548",
 			say = "I, I mean...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "Glasgow was shaken by the sudden question. It was a topic that the two of them normally avoided.",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "Wh-why are you acting like that anyway? It’s not like you at all...",
 			typewriter = {
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "I gazed at Glasgow intently, as if peering into her soul.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "Wait, we can’t...",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "We... really can’t. We’re not just classmates... We’re also master and maid...",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "And my personality is no good either... I don’t know how to treat you tenderly... or how to get close to your heart.",
 			typewriter = {
@@ -149,9 +149,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "“But I still love you, Glasgow.”",
 			typewriter = {
 				speed = 0.05,
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "Glasgow’s eyes opened wide in surprise upon hearing my confession.”",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "Wh-what are ye saying?! I... I prefer for things to stay the way they are...",
 			typewriter = {
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 202261,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202261,
+			nameColor = "#a9f548",
 			say = "If we got any closer... you’d just end up hating me!",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "Glasgow tried to put down her cleaning tools and escape, but...",
 			typewriter = {
 				speed = 0.05,
@@ -250,9 +250,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "The master’s arms gently wrapped around the maid, like goal tape embracing an athlete for crossing the finish line.",
 			typewriter = {
 				speed = 0.05,
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "Unable to escape, Glasgow felt herself sinking into the passionate gaze of the person in front of her.",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "Master... Please... Let go of me...",
 			typewriter = {
@@ -298,8 +298,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "I don’t know if I am worthy of your love... I just know I’ll end up saying something cold...",
 			typewriter = {
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "Despite her words, I continued to embrace her tightly as if to transmit to her the chorus of “I don’t care” throbbing within my chest...",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "Are you sure...? Are you sure... you want an uncute girl like me? Would you still... love me?",
 			typewriter = {
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "I wiped the tears from Glasgow’s eyes, not knowing when they had formed. Looking straight into her moist eyes, I nodded slowly.",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "Master...",
 			typewriter = {

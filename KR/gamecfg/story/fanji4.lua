@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"미소 뒤의 진심\n\n<size=45>4 망설임</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "챙겨야 할 물건은 이게 전부…인가. 좋아, 슬슬 돌아가자. 지휘관과 언니가 기다리고 있을 거야.",
 			bgm = "story-1",
+			actor = 204020,
+			nameColor = "#a9f548",
+			say = "챙겨야 할 물건은 이게 전부…인가. 좋아, 슬슬 돌아가자. 지휘관과 언니가 기다리고 있을 거야.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "오, 그렇네. 지금 비서함을 하고 있다지.",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "…며칠 전에 계획서를 이미 제출했다네. 하지만 처음 듣는 것 같은 모양새군… 설마 내 착각인가?",
 			typewriter = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "그, 그래! 지휘관이 일찍 오라고 했어! 미안, 먼저 가볼게!",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "비서함은 역시 바쁘군.",
 			typewriter = {
@@ -289,13 +289,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "지휘실 문 앞——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "지휘실 안에서 목소리가 들렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -414,9 +414,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "리펄스가 노크를 하고 문을 열었을 때, 두 사람은 서류를 처리하고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -428,9 +428,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "디테일한 것을 체크하기 위해서 리나운은 책상 앞이 아니라 지휘관의 앞에 서 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -458,11 +458,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "아, 미안. 말하는 게 늦었네. 다녀왔어…",
 			typewriter = {
 				speed = 0.05,
@@ -474,8 +474,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,9 +484,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "문 앞에 서있던 리펄스는 엉거주춤 지휘실 안으로 들어왔다.",
 			typewriter = {
 				speed = 0.05,

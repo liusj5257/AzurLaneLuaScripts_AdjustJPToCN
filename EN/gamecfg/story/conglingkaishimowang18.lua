@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
-			say = "Old City Ruins - Castle",
 			bgm = "story-mmorpg",
+			say = "Old City Ruins - Castle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,11 +32,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Commander, do you think we'll really find enough coins amongst these ruins?",
 			painting = {
@@ -129,9 +129,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_500",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			bgName = "star_level_bg_500",
 			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Look! The gemstone in that wall is glowing!",
@@ -144,17 +144,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Why, I'll be... A secret room, perchance?",
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "Some mechanism activates, slowly sliding the thick wall aside and revealing a study that has been hidden for countless years.",
 			typewriter = {
@@ -189,17 +189,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "An old smell hangs in the air and a carpet on the floor is buried under a layer of dust. The mana-powered lamps are working, though their light has become very dim.",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "At the other end of the room is a table, atop which a golden sphere of magic silently hovers.",
 			typewriter = {
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "This spell is royal magic. It protects against time-related degradation.",
 			painting = {
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "The magic sphere dispels after being touched, revealing that which it has protected for all these centuries...",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "A handful of papers and a letter.",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "Vampire Matriarch",
 			dir = 1,
@@ -300,17 +300,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -375,12 +375,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "Vampire Matriarch",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "A month prior, a strange disease began to spread between my family members.",
 			painting = {
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "Vampire Matriarch",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "However, those afflicted with it slowly but surely lost their connection to our family. I realised that they had begun heeding someone else's voice.",
 			painting = {
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "Vampire Matriarch",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "Now, as I write this, my beloved city is ablaze because of my kin's betrayal.",
 			painting = {
@@ -543,12 +543,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "Vampire Matriarch",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "As well as protect the truth hidden within this chamber.",
 			painting = {
@@ -580,12 +580,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "Vampire Matriarch",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "On the desk lies two written spells – one to break the Neverending Night, and one to exterminate the vampires.",
 			painting = {
@@ -617,12 +617,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "Vampire Matriarch",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "Please do what is right and set my family free so–",
 			painting = {
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "The writing becomes increasingly messy before abruptly stopping.",
 			typewriter = {
@@ -644,17 +644,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -662,11 +662,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So the vampires didn't betray us, they were simply manipulated by the Demon King...",
@@ -699,11 +699,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I can't say I'm happy to know that this is what the truth is like.",
@@ -786,11 +786,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We must destroy those three strongholds as soon as possible.",
@@ -804,27 +804,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			say = "After leaving the secret room, we give the whole chest full of old coins to the Tempesta pirates.",
 			bgm = "theme-tempest-up",
+			say = "After leaving the secret room, we give the whole chest full of old coins to the Tempesta pirates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -832,11 +832,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			say = "Wait... THIS much?",
 			painting = {
@@ -867,11 +867,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			say = "Goodness me, adventurers. Your generosity knows no bounds!",
 			painting = {
@@ -938,8 +938,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_525",
 			nameColor = "#A9F548FF",
 			say = "\"Notification: You have obtained the skill Seatide Horn. Rank: SSS.\"",
@@ -957,8 +957,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_525",
 			nameColor = "#A9F548FF",
 			say = "\"Notification: You have obtained the maximum amount of skills. You need to either forget or replace a skill.\"",
@@ -1012,8 +1012,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "I press the button for the Sprinting skill, replacing it with Seatide Horn.",
 			typewriter = {

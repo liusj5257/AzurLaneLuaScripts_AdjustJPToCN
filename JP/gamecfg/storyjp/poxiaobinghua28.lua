@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA28",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "「秘密領域」上方の海 ",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			nameColor = "#a9f548",
+			say = "「秘密領域」上方の海 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,8 +60,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "うぅ…まだ頭がぼーっとしてるわね…皆もそんなとこ…？",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "同志指揮官と同じく、記憶に曖昧なところがあるぞ。「光の都市」で謎の施設に入って、そこから資料を回収し敵と交戦状態に入ったところまでは覚えているけど",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "最後に戦っていた敵はなんだったのか、そして私たちがどうやって入り口に戻ってきたのかは何一つ思い出せないな",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "それだけじゃなく、艤装のほうもまるで戦闘自体が起きなかったかのように直ってるわね",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "しかし同志指揮官とグレミャーシュチはたしかに資料を回収した。…ふむ、これは興味深いな",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "キーロフは頑張ってね～それじゃあ皆で港まで戻りましょ～",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "おいおい、キーロフだけをここに置いていくなよ。……待って、前方に艦影だ",
 			typewriter = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "水平線から現れた艤装をまとった少女たち――ロイヤルとユニオンの混成艦隊がこちらに向かってやってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "アズールレーンの共同演習？そんな予定聞いてないけど",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "予定を切り上げるとかやるな女王陛下、完璧なタイミングじゃないか",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "ここまで早いとは事前に知らせてきたルートじゃないと見た",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "タリン？",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "指揮官のことだもの。いつまでも北方連合に「勾留」されたままにするわけにはいかないわ",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "「秘密領域」の場所がバレたとは思えない。となると同志指揮官がいそうな場所を調べ上げてきたな",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "そしてこの決断の速さ…相当本気だな、ユニオンとロイヤルの子たち",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "鉄血や重桜も絡んでいるとすれば、たとえ我らが北方連合であれ流石に本気の四大陣営を前に指揮官の居場所を隠し通せないよ",
 			typewriter = {
@@ -358,17 +358,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_cccpv2_12",
-			actorName = "サラトガ",
+			side = 1,
 			dir = 1,
 			bgmDelay = 1,
-			say = "北方連合の皆さん！そして指揮官！久しぶりだよ！",
+			bgName = "bg_cccpv2_12",
 			bgm = "bgm-cccp3",
+			actorName = "サラトガ",
+			say = "北方連合の皆さん！そして指揮官！久しぶりだよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "サラトガ",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "サラトガ",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ワシントン",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -489,8 +489,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ホーネット",
+			side = 1,
 			bgName = "bg_cccpv2_12",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "滞在を長引かせたのはそもそも北方連合でしょうに…",
 			typewriter = {
 				speed = 0.05,
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "キーロフ",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "シェフィールド",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_12",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "じゃああとは指揮官の意志、か。",
 			typewriter = {
 				speed = 0.05,
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
 			say = "（どう答えればいいか……）",
@@ -620,9 +620,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_12",
+			dir = 1,
 			say = "（…と言いたいところだが、お互い素直に引くとは思えないな）",
 			typewriter = {
 				speed = 0.05,
@@ -637,8 +637,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "この場は預からせていただきます",
 			typewriter = {
@@ -672,8 +672,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "会合で指揮官への支援要請の件を話しました",
 			typewriter = {
@@ -707,8 +707,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "……北方連合を含む主要陣営は、指揮官のユニオンへの支援を要請します",
 			typewriter = {
@@ -739,8 +739,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -752,8 +752,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "ベラルーシア、情報はあとで詳しく説明します",
 			typewriter = {
@@ -769,8 +769,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "指揮官、長らく北方連合へとご助力いただき感謝いたします。また一緒に戦えるのを楽しみにしています",
 			typewriter = {
@@ -817,8 +817,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			say = "ーー共に戦えてよかった。",
@@ -832,8 +832,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			say = "北方連合の仲間たちと別れるのは名残り惜しいのだが、今はユニオンへの支援が優先だ。",
@@ -847,12 +847,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "指揮官、みんなと一緒に港へと帰りましょう！",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT22",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅-日常編\n\n<size=45>その五　誰がために君は戦う</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……あなたたちは何のために戦っているのかしらね",
 			bgm = "story-uta",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "……あなたたちは何のために戦っているのかしらね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "それはわたし達への問いと捉えてよろしいでしょうか？",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それはわたし達への問いと捉えてよろしいでしょうか？",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "う～ん、なんでこの２人が部下というか家来というか……彼の下についたのか、私たちもよくわかんないとこがあるから",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "……不潔なのです",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "そ、それはご本人たちが言ってるだけで……あの方は否定されてますし、やってることは身の回りのお世話ぐらいで……",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "わたし達は主様だけのもの",
 			typewriter = {
@@ -255,10 +255,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "わたし達は主様に全てを捧げ、永遠の忠誠を誓った身……身体も精神も、魂さえも主様に捧げました",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -276,8 +276,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "つまり、肉人形",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			say = "主様の命あらば、例え火の中水の中……おはようからお休み、床にお風呂にご不浄まで……主様の全てをお世話させていただいております",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "まったくもう……その台詞も聞き飽きたかな",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "と、ととと、床に、お風呂に……ごふじょう…………きゅう",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -370,8 +370,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "…………不潔なのです",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "私もクーちゃんのためなら喜んでご奉仕しちゃいますよ？",
 			typewriter = {
@@ -484,8 +484,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "未来永劫、主様とともに──",
 			typewriter = {
@@ -501,10 +501,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "わたし達はいつまでも、とこしえに主様の傍らにてお仕えするもの。鎖の巫の名前が如く、わたし達の運命は主様と硬い鎖でつながれております",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -586,8 +586,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "似てる？　双子とニーミたちが……それってどういうことかな？",
 			typewriter = {
@@ -760,12 +760,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "なるほど、確かにあなた方の生き様とわたし達の有り様は重なるところがあります",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "なるほど、確かにあなた方の生き様とわたし達の有り様は重なるところがあります",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -831,8 +831,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "愚問",
 			typewriter = {
@@ -848,10 +848,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "主様はわたし達が自ら選んだ御方。わたし達は全身全霊をもって主様をお慕い申し上げております",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -885,8 +885,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "あなたも同類",
 			typewriter = {
@@ -902,10 +902,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "オイゲンさま、あなたもそうなのではありませんか？指揮官という方を心の底から認めて、わたし達と同じ想いを……",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1048,12 +1048,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "オイゲンさまがわたし達に共感を抱くように、わたし達もまたあなた方に似たような匂いを感じておりました",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "オイゲンさまがわたし達に共感を抱くように、わたし達もまたあなた方に似たような匂いを感じておりました",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1148,12 +1148,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "そういう人のことを──カリスマっていうのよ",
 			typewriter = {
 				speed = 0.05,

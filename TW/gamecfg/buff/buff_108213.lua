@@ -189,14 +189,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 10,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108213,
 	picture = "",
 	desc = "MAX直接打出",
 	stack = 1,
-	id = 108213,
+	color = "red",
 	icon = 108010,
 	last_effect = "",
 	effect_list = {

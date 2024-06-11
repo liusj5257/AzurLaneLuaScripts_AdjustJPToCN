@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"元氣甜心的愛意攻勢\n\n<size=45>六　閃爍於星光之下</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-1",
 			bgName = "bg_night",
 			say = "一個天朗氣清的夜晚，來到了約定的地點。",
-			bgm = "story-richang-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "——明明已經是晚上了，卻還收到了布呂歇爾的約會邀約。",
 			typewriter = {
@@ -55,22 +55,22 @@ return {
 			}
 		},
 		{
-			actor = 403020,
-			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呀吼~指揮官，晚上好！",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "呀吼~指揮官，晚上好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "反正也還沒休息，今晚的計畫是？",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "滿天的星光下，陪布呂歇爾一起在港區的小吃街上閒逛。",
 			typewriter = {
@@ -178,17 +178,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -196,14 +196,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "兩串章魚小丸子！天婦羅也要一點，還有鯛魚燒~再來一點關東煮……",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "兩串章魚小丸子！天婦羅也要一點，還有鯛魚燒~再來一點關東煮……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "和布呂歇爾邊吃邊沿著街道走著，不知不覺已經到了街道的盡頭。",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "明明約會剛開始的時候身體裡還有著白天積蓄的疲憊，現在那些疲憊卻已經一掃而空了。",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "布呂歇爾突然張開雙臂，似乎在等待著什麼。",
 			typewriter = {
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -7,9 +7,9 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetSelf"
 			},

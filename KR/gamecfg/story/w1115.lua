@@ -1,12 +1,12 @@
 return {
-	id = "W1115",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1115",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "에너지 매트릭스를 지정된 위치로 이동시켜야 효력이 발생합니다...",
 			typewriter = {
 				speed = 0.05,

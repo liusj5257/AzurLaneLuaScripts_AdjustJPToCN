@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"영광스런 간주곡\n\n<size=45>제4장　여왕의 사건 케이스Ⅱ</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아크 로열씨가 무고하다는 건, 총 세 가지의 이유 때문입니다.",
 			bgm = "story-1",
+			actor = 207060,
+			nameColor = "#92fc63",
+			say = "아크 로열씨가 무고하다는 건, 총 세 가지의 이유 때문입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,16 +82,16 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "음?",
 			action = {
 				{
-					type = "shake",
 					y = 7.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					X = 0,
@@ -108,16 +108,16 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "뭐?",
 			action = {
 				{
-					type = "shake",
 					y = 7.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					X = 0,
@@ -134,16 +134,16 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#92fc63",
 			say = "네?",
 			action = {
 				{
-					type = "shake",
 					y = 7.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					X = 0,
@@ -160,10 +160,10 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "일동",
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
+			say = "제게도 귀여운 동생과도 같은……아니, 동생보다 더욱 소중한 동료가 있습니다.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "제게도 귀여운 동생과도 같은……아니, 동생보다 더욱 소중한 동료가 있습니다.",
+			actor = 207060,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -281,10 +281,10 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "일동",
@@ -329,10 +329,10 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "워스파이트 ＆ 벨파스트",
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
+			say = "아뇨, 별일 아닌 걸요……아크 로열씨의 무고함이 증명되어 다행입니다.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아뇨, 별일 아닌 걸요……아크 로열씨의 무고함이 증명되어 다행입니다.",
+			actor = 207060,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

@@ -1,10 +1,10 @@
 slot0 = class("NewBattleResultGradePage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewBattleResultGradePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.parentTr = slot0._tf.parent
 	slot0.bgTr = slot0:findTF("bg")
 	slot0.gradePanel = slot0.bgTr:Find("grade")
@@ -21,7 +21,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.bgTr:Find("conditions/Text"), i18n("battle_result_targets"))
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0:Show()
 	seriesAsync({
 		function (slot0)
@@ -47,7 +47,7 @@ function slot0.SetUp(slot0, slot1)
 	end)
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -59,11 +59,11 @@ function slot0.RegisterEvent(slot0, slot1)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	removeOnButton(slot0._tf)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	slot2 = slot1.text or ""
 	slot3 = slot1.icon
 	slot4 = slot1.value or ""
@@ -81,11 +81,11 @@ function slot1(slot0, slot1)
 	setActive(slot0:Find("fx"), true)
 end
 
-function slot0.GetGetObjectives(slot0)
+slot0.GetGetObjectives = function(slot0)
 	return NewBattleResultUtil.GetObjectives(slot0.contextData)
 end
 
-function slot0.UpdateObjectives(slot0, slot1)
+slot0.UpdateObjectives = function(slot0, slot1)
 	if #slot0:GetGetObjectives() <= 0 then
 		setActive(slot0.objectiveTpl, false)
 		slot1()
@@ -123,11 +123,11 @@ function slot0.UpdateObjectives(slot0, slot1)
 	end))
 end
 
-function slot0.UpdateChapterName(slot0)
+slot0.UpdateChapterName = function(slot0)
 	setText(slot0.gradeChapterName, NewBattleResultUtil.GetChapterName(slot0.contextData))
 end
 
-function slot0.LoadEffects(slot0, slot1)
+slot0.LoadEffects = function(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 
 	slot2:getAssetAsync("BattleResultItems/ResultEffect", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -153,7 +153,7 @@ function slot0.LoadEffects(slot0, slot1)
 	end), true, true)
 end
 
-function slot0.PlayEnterAnimation(slot0, slot1)
+slot0.PlayEnterAnimation = function(slot0, slot1)
 	slot0.gradeTxtCG.alpha = 0
 
 	LeanTween.value(slot0.gradeTxt.gameObject, 0.2, 1, 0.3):setOnUpdate(System.Action_float(function (slot0)
@@ -179,7 +179,7 @@ function slot0.PlayEnterAnimation(slot0, slot1)
 	end)):setOnComplete(System.Action(slot1))
 end
 
-function slot0.LoadBGAndGrade(slot0, slot1)
+slot0.LoadBGAndGrade = function(slot0, slot1)
 	parallelAsync({
 		function (slot0)
 			uv0:LoadBG(slot0)
@@ -190,7 +190,7 @@ function slot0.LoadBGAndGrade(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.LoadBG(slot0, slot1)
+slot0.LoadBG = function(slot0, slot1)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("BattleResultItems/" .. NewBattleResultUtil.Score2Bg(slot0.contextData.score), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -214,7 +214,7 @@ function slot0.LoadBG(slot0, slot1)
 	end), false, false)
 end
 
-function slot0.LoadGrade(slot0, slot1)
+slot0.LoadGrade = function(slot0, slot1)
 	slot2, slot3 = NewBattleResultUtil.Score2Grade(slot0.contextData.score, slot0.contextData._scoreMark)
 
 	LoadImageSpriteAsync(slot2, slot0.gradeIcon, true)
@@ -225,7 +225,7 @@ function slot0.LoadGrade(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.exited = true
 
 	if slot0:isShowing() then

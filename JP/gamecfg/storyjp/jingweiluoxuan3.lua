@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH基地・執務室　数時間後",
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			hidePaintObj = true,
+			say = "PH基地・執務室　数時間後",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "おっ、プリンちゃんの執務室なかなかサマになってんじゃん",
 			typewriter = {
 				speed = 0.05,
@@ -84,10 +84,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あ、この資料はもしかしてタイコンデロガが用意したやつ？",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +117,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そんなことがわかるのかって？そりゃ付き合いが長いし筆跡とかで分かるってば",
 			effects = {
 				{
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 103140,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "筆跡なんてまだまだ基本中の基本だよ。本気で調べれば書いてある順番とかページの折り方とかで色々ヒントが分かるって",
 			typewriter = {
 				speed = 0.05,
@@ -194,10 +194,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ははは、鈍いな～全く鈍いんだぜプリンちゃ～ん♪",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "女の子ってのはそういう気配りにめっちゃ弱いよ？それができればさぁプリンちゃんも人気者待ったなしだって！",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -270,10 +270,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "なんて今のはウソだよ～ははは、マジで信じちゃった？っていうかこれ手書きの資料じゃないし！",
 			typewriter = {
 				speed = 0.05,
@@ -303,10 +303,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "んで、確か上層部の資料だと今回はレッドアクシズが絡んでる作戦だっけ？",
 			typewriter = {
 				speed = 0.05,
@@ -351,10 +351,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "前回の「再現」で重桜があの海域に現れたから？それとも……~",
 			typewriter = {
 				speed = 0.05,
@@ -369,10 +369,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官、NYシティからの連絡だわ",
 			typewriter = {
 				speed = 0.05,
@@ -512,10 +512,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うわっ、レッドアクシズの話をするんじゃなかった……",
 			typewriter = {
 				speed = 0.05,
@@ -530,10 +530,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あっ、でも一応今回の作戦はセイレーンの警戒って名目だけど？",
 			typewriter = {
 				speed = 0.05,
@@ -601,10 +601,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "サラトガちゃんからのお話は以上！指揮官、がんばってね！",
 			typewriter = {
 				speed = 0.05,
@@ -619,10 +619,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "なーんかちょっと悪い予感がするわね…",
 			typewriter = {
 				speed = 0.05,
@@ -634,8 +634,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,10 +662,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "よっしゃ今日は上がるわー！ワークライフバランス！",
 			typewriter = {
 				speed = 0.05,
@@ -680,10 +680,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "なんかあったらみんなに知らせてね！ファイトだプリンちゃん！じゃあね～",
 			typewriter = {
 				speed = 0.05,
@@ -724,8 +724,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -734,13 +734,13 @@ return {
 			}
 		},
 		{
-			actor = 103140,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 103140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "へへ、これで気絶させてでも寝かせるってな♪ははは！",
 			typewriter = {
 				speed = 0.05,
@@ -771,15 +771,15 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			stopbgm = true,
+			hidePaintObj = true,
 			say = "翌日",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

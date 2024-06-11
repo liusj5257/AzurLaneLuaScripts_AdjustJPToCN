@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"アヴローラと愉快な仲間たち\n\n<size=45>六、本当の力</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 701030,
 			nameColor = "#a9f548",
 			say = "ほ、本当にユニオンと模擬戦をやるのか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 701040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 701040,
+			nameColor = "#a9f548",
 			say = "あっそ。まあボコってやればいいんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "アヴローラさんの言う通りだ。この演習、徹底的に相手の戦い方を分析をしつつ対応しよう",
 			typewriter = {
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "みんな",
 			dir = 1,
+			actorName = "みんな",
 			say = "はい！",
 			dialogShake = {
 				speed = 0.09,
@@ -175,15 +175,15 @@ return {
 			}
 		},
 		{
-			say = "翌日・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "翌日・演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "対抗演習、始めッ！",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "――！！",
 			typewriter = {
 				speed = 0.05,
@@ -273,14 +273,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 702030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ロシアの計画通りに動けばいいわね？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "いいわよ。任せて",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "はい！",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "ああ、敵空母を発見し次第、艤装出力を上げて肉薄し最大火力を叩き込む",
 			typewriter = {
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,14 +446,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "なるほど、古い艦船であることを利用し、こちらの後ろに回り込んだのね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "ええ、そうですよ",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -507,8 +507,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "こちらの攻撃隊が本隊に集中している隙に撹乱して、空母を無力化できなくても――",
 			typewriter = {
@@ -540,8 +540,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "でもそれはサラトガちゃんがあなたの砲撃を避けるしかない、という前提だよね？",
 			typewriter = {
@@ -557,8 +557,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "――サラトガちゃん、マジックキャノン！",
 			typewriter = {
@@ -571,14 +571,14 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "………！！",
 			soundeffect = "event:/battle/boom2",
+			actor = 702010,
+			nameColor = "#a9f548",
+			say = "………！！",
 			flashN = {
 				color = {
 					1,

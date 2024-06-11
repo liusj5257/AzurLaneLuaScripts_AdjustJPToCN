@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "杀敌增加属性",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 14490,
-	picture = "0",
 	castCV = "",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,19 +17,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 14492
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 14493
 			}

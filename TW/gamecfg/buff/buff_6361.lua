@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "延迟射击",
 	time = 0,
-	color = "yellow",
+	name = "延迟射击",
+	init_effect = "",
+	id = 6361,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6361,
+	color = "yellow",
 	icon = 6360,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "chargeBulletAccuracy",
-				number = 2
+				number = 2,
+				attr = "chargeBulletAccuracy"
 			}
 		}
 	}

@@ -4,7 +4,7 @@ slot3 = {
 	__index = slot2
 }
 
-function slot4(slot0)
+slot4 = function(slot0)
 	while slot0.first <= slot0.last do
 		if slot0.data[slot0.first] then
 			return true
@@ -14,11 +14,11 @@ function slot4(slot0)
 	end
 end
 
-function slot2.is_empty(slot0)
+slot2.is_empty = function(slot0)
 	return slot0.last < slot0.first
 end
 
-function slot2.push_front(slot0, slot1)
+slot2.push_front = function(slot0, slot1)
 	if slot0.data_position[slot1] then
 		return
 	end
@@ -28,7 +28,7 @@ function slot2.push_front(slot0, slot1)
 	slot0.data_position[slot1] = slot0.first
 end
 
-function slot2.push_back(slot0, slot1)
+slot2.push_back = function(slot0, slot1)
 	if slot0.data_position[slot1] then
 		return
 	end
@@ -38,7 +38,7 @@ function slot2.push_back(slot0, slot1)
 	slot0.data_position[slot1] = slot0.last
 end
 
-function slot2.get_iterator(slot0)
+slot2.get_iterator = function(slot0)
 	slot1 = slot0.first
 
 	return function ()
@@ -52,7 +52,7 @@ function slot2.get_iterator(slot0)
 	end
 end
 
-function slot2.remove(slot0, slot1)
+slot2.remove = function(slot0, slot1)
 	if not slot0.data_position[slot1] then
 		return
 	end

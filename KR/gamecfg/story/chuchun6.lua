@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"하츠하루의 고민\n\n<size=45>하츠하루의 결의</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301210,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "지, 지휘관님은 왜 여기 계시나요…?",
 			bgm = "story-1",
+			actor = 301210,
+			nameColor = "#92fc63",
+			say = "지, 지휘관님은 왜 여기 계시나요…?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "소심한 것도, 낯가림도, 고쳐지지 않아서……",
 			typewriter = {
 				speed = 0.05,
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "그 뒤로 지휘관님의 비서함이 돼서, 지휘관님이 도와주셔서 어떻게든 다른 아이들과 말도 할 수 있게 되고…",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "저는… 저는……",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "네, 네!! 알겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

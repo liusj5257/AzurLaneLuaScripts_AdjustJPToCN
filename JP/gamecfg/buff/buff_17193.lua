@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.01
+					number = 0.01,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 100
+					number = 100,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.02
+					number = 0.02,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 200
+					number = 200,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.03
+					number = 0.03,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 300
+					number = 300,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.04
+					number = 0.04,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 400
+					number = 400,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.05
+					number = 0.05,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 600
+					number = 600,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 700
+					number = 700,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.08
+					number = 0.08,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 800
+					number = 800,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.09
+					number = 0.09,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 900
+					number = 900,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.1
+					number = 0.1,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -243,15 +243,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1000
+					number = 1000,
+					attr = "cannonPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -273,8 +273,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.01
+				number = 0.01,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -283,8 +283,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 100
+				number = 100,
+				attr = "cannonPower"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"도이칠란트의 우울\n\n<size=45>불협화음</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 203010,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그럼, 지금부터 연습전의 순위를 1위부터 발표하겠습니다.",
 			bgm = "story-1",
+			actor = 203010,
+			nameColor = "#92fc63",
+			say = "그럼, 지금부터 연습전의 순위를 1위부터 발표하겠습니다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "하인, 귀를 쫑긋 세우고 확실히 들으라고. 세계제일의 초갑순양함인 도이칠란트의 이름이 불리는 순간을!",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "하인, 귀를 쫑긋 세우고 확실히 들으라고. 세계제일의 초갑순양함인 도이칠란트의 이름이 불리는 순간을!",
+			actor = 403040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "잠깐! 나, 나는?!",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 203010,
+			say = "항행사격 항목에서의 속도는 일류의 성적이지만, 화력을 투사할 때의 자세와 사격의 정확도는 아직 개선의 여지가 남아있네요.",
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "항행사격 항목에서의 속도는 일류의 성적이지만, 화력을 투사할 때의 자세와 사격의 정확도는 아직 개선의 여지가 남아있네요.",
+			actor = 203010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -230,9 +230,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "런던은 계속해서 순위를 읽어 내려갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "내가……",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "하인! 나 말야, 진짜 강하지 않아?! 단지 손이 미끄러졌던 것뿐이지?! 그렇지??!",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			withoutActorName = true,
+			actor = 403040,
 			nameColor = "#92fc63",
 			say = "도이칠란트는 금방이라도 울 것 같다. 이럴 땐……",
 			typewriter = {
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "후후, 후후후후, 하하하하하……",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1.5,
 					x = -2250

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BAILINGYUMEIMENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BAILINGYUMEIMENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Cubicle Dreamin'\n\n<size=45>Living la Vida Pirata</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=34>This is, apparently, all just a dream.</size>",
@@ -35,13 +35,13 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "Azur Lane Technologies Ltd. - Corporate Headquarters",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			bgm = "theme-schoolfuture",
+			side = 2,
 			bgmDelay = 1,
-			say = "Azur Lane Technologies Ltd. - Corporate Headquarters",
+			bgm = "theme-schoolfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,8 +96,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "It's nighttime, and the office is all but empty. A lone shipgirl-turned-pirate slides across the floor atop her five-wheeled \"warship.\"",
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "I grab her \"warship\" and stop her drunken charge by a hair's breadth.",
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "I can hardly believe I'm talking to the same woman who, just this afternoon, completed her tasks efficiently without a grumble.",
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "I should say something to try and calm her down.",
@@ -563,8 +563,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "Without any warning, she leans forward and buries her head in my chest.",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "Hopefully, come morning, she'll have forgotten about this whole thing...",

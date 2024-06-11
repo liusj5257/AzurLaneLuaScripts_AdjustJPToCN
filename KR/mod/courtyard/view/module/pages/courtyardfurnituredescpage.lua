@@ -1,10 +1,10 @@
 slot0 = class("CourtYardFurnitureDescPage", import(".CourtYardBaseSubPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CourtYardFurnitureDescUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.descPanel = slot0._tf:Find("desc")
 	slot0.okBtn = slot0.descPanel:Find("ok_btn")
 	slot0.iconImg = findTF(slot0._tf, "desc/iconframe/icon"):GetComponent(typeof(Image))
@@ -25,7 +25,7 @@ function slot0.OnLoaded(slot0)
 	setText(findTF(slot0._tf, "desc/ok_btn/text"), i18n("word_ok"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Close()
 	end, SFX_PANEL)
@@ -46,7 +46,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	setActive(slot0._tf, true)
 
 	slot0.furniture = slot1
@@ -80,12 +80,12 @@ function slot0.Show(slot0, slot1)
 	setActive(slot0.dateTxt.gameObject.transform.parent, not slot5)
 end
 
-function slot0.Close(slot0)
+slot0.Close = function(slot0)
 	setActive(slot0._tf, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.exited = true
 
 	slot0:Close()

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -19,8 +19,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "마치 '위대한 로열 포춘호'가 '바람 없는 바다'로 들어서는 순간만을 기다리는 것처럼…",
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "그리고……",
@@ -98,29 +98,29 @@ return {
 			}
 		},
 		{
-			bgm = "battle-temepest-1",
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "―――!!!!",
 			soundeffect = "event:/battle/boom2",
+			bgm = "battle-temepest-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "―――!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "말을 마치기가 무섭게 강풍이 몰아치기 시작했고, 칠흑 같은 하늘에서는 굵은 빗방울이 폭포처럼 쏟아지기 시작했다.",
@@ -235,8 +235,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "이 정도 폭풍 속에서는 제아무리 '우수한 배'라도 자연에 몸을 내맡길 수밖에 없을 것이다.",
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "'위대한 로열 포춘호'도, 뒤에서 추격해 오는 '그녀'도……",
@@ -271,11 +271,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "폭풍 덕에 아까 그 갤리온이랑은 거리가 꽤 벌어진 것 같네……",
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "상 마르티뉴는 순간적으로 반응을 보였지만, 여전히 멀어질 기색은 없다.",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "……",
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "그녀의 의지는 굳건했지만, 자연은 한낱 인간의 선택에는 전혀 아랑곳하지 않았다.",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "불평을 늘어놓으면서도 로열 포춘은 타륜을 있는 힘껏 돌려주었다.",
@@ -463,10 +463,10 @@ return {
 			}
 		},
 		{
-			actor = 9600020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "무적의 월계관",
+			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……!",
@@ -476,8 +476,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -500,8 +500,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -524,8 +524,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -590,8 +590,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -619,8 +619,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -629,8 +629,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "폭풍의 굉음에 동료들의 목소리가 묻혀 잘 들리지 않는다.",
@@ -640,8 +640,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "지금 할 수 있는 것은 오로지 잡고 있는 '그녀'의 팔을 놓지 않는 것뿐……",
@@ -651,8 +651,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "…………",
@@ -662,8 +662,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "……",

@@ -2,14 +2,14 @@ return {
 	{
 		desc = "根据TAG强化"
 	},
-	init_effect = "",
-	name = "特殊弹幕",
 	time = 0,
-	color = "red",
+	name = "特殊弹幕",
+	init_effect = "",
+	id = 29562,
 	picture = "",
 	desc = "根据TAG强化",
 	stack = 1,
-	id = 29562,
+	color = "red",
 	icon = 29560,
 	last_effect = "",
 	effect_list = {

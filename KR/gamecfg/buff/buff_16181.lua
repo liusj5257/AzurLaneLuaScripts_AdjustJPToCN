@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.15
+					number = 0.15,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.166
+					number = 0.166,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.182
+					number = 0.182,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.198
+					number = 0.198,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.214
+					number = 0.214,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.23
+					number = 0.23,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.246
+					number = 0.246,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.264
+					number = 0.264,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.282
+					number = 0.282,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.3
+					number = 0.3,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
 	},
-	time = 30,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 16181,
+	time = 30,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16181,
+	color = "yellow",
 	icon = 16180,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.15
+				number = 0.15,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

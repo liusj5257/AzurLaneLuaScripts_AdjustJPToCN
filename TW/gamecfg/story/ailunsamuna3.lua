@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AILUNSAMUNA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AILUNSAMUNA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"三星豪華戀物語\n\n<size=45>三 關於興趣</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "……唔。現在在工作中…忍耐忍耐……",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "……糟了，現在應該是工作時間！不小心看了Juus的話獎勵就沒有了…",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "離指揮官下班還有2個小時，就快結束了哦！一定要堅持住啊，艾倫！",
 			typewriter = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "艾倫在努力的同自己做著鬥爭。",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "啊——距離上次的休息日已經兩週了…好想買東西啊…哪怕只是隨便逛逛街也好…",
 			typewriter = {
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "糟了，這樣下去的話艾倫又要掉進消費主義的陷阱裡了——",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "啊，抱歉，現在還是工作時間呢！",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在被提醒了之後，艾倫又開始專心工作了。",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在獎勵的鼓舞下，艾倫的注意力確實比以前有所提高，但還是想些別的方法比較好……",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "好好放鬆一下的話第二天的工作確實會更有效率，不過…如果單獨和指揮官在一起的話……",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "被誰看見了的話會產生奇怪的傳聞吧？…嘿嘿♪",
 			typewriter = {

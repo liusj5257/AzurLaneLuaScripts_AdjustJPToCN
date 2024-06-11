@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "卡牌点燃debuff",
 	init_effect = "",
+	name = "卡牌点燃debuff",
+	time = 0,
+	picture = "",
+	desc = "卡牌点燃debuff",
 	stack = 999,
 	id = 521010,
-	picture = "",
 	last_effect = "zhuoshao",
-	desc = "卡牌点燃debuff",
 	effect_list = {
 		{
 			type = "BattleBuffDOT",
@@ -14,13 +14,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.05,
 				attr = "airPower",
-				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
-				number = 1,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0.05
+				number = 1
 			}
 		}
 	}

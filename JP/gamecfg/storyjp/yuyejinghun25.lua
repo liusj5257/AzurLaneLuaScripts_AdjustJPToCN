@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			bgm = "qe-ova-15",
 			actorName = "エセックス",
+			bgm = "qe-ova-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "やっとの思いで書斎にたどり着いたロイヤル・フォーチュンとあなた。扉をしっかりと閉め、危険を扉の向こうに閉じ込めました。",
 			typewriter = {
@@ -139,10 +139,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ゴールデン・ハインドの愛読書ね…ほぼ一台の本棚に集められているはず…確か…あった！",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_515",
 			factiontag = "文学少女なKP",
-			actorName = "海天",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたは本棚の前にやってきました",
@@ -214,17 +214,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -558,9 +558,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…もしかしなくても、ええ、自分の作品をセットの道具に混ぜてしまったのですか？",
 			typewriter = {
@@ -573,9 +573,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "伝説的な探索者KP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "ブリストル",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "わあ…なんというか、奥ゆかしいポエットな感じがする！",
 			typewriter = {
@@ -588,9 +588,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "海天",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ、あぁぁ…！！す、鋭いあなたはロイヤル・フォーチュンの動きが止まったのに気が付きましたっ！彼女は何かの手がかりを掴んだようですよ！！",
 			typewriter = {
@@ -608,9 +608,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "海天",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたは決意しました！本を放り投げて、彼女の様子を確かめに行くことを！",
 			typewriter = {
@@ -623,9 +623,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふぅ…持ち場を改めて確認したが、目ぼしいものは見つかりませんでした",
 			typewriter = {
@@ -638,9 +638,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "その時、鋭いあなたはロイヤル・フォーチュンの動きが止まったのに気が付きました。どうやら彼女は何かの手がかりを掴んだようです",
 			typewriter = {
@@ -704,10 +704,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "昔…城主の奥様がまだ生きていた時は、キャッスルは今のような…冷たい場所ではなかったの",
 			typewriter = {
 				speed = 0.05,
@@ -718,10 +718,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "奥様は心優しくて朗らかな人で、まるで太陽のように周りの人を照らし、笑顔にしてくれた",
 			typewriter = {
 				speed = 0.05,
@@ -732,10 +732,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だから城主饅頭一家はいつも賑やかで、笑い声が絶えなかった…奥様が若くして病に連れ去られるまでは",
 			typewriter = {
 				speed = 0.05,
@@ -746,10 +746,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それから…城主はチャリティと医療事業に熱心に取り組むようになり、昔ほどゴールデン・ハインドたちに構わなくなった",
 			typewriter = {
 				speed = 0.05,
@@ -798,10 +798,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "奥様と同じく急に亡くなって…それで、ゴールデン・ハインドはなかなかショックから立ち直れず、奥様を失った城主も日々彼女に不満を募らせているの",
 			typewriter = {
 				speed = 0.05,
@@ -812,10 +812,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんなある日、ゴールデン・ハインドは心の安らぎを求め…ある教団に入ったわ",
 			typewriter = {
 				speed = 0.05,
@@ -826,10 +826,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかしその教団はなんというか…どう見ても怪しすぎるの…ゴールデン・ハインドに続いて入ったサン・マルチーニョとアドヴェンチャー・ギャレーまで変になっちゃって",
 			typewriter = {
 				speed = 0.05,
@@ -839,11 +839,11 @@ return {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "ブリストル",
 			bgName = "star_level_bg_515",
 			factiontag = "伝説的な探索者KP",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "ブリストル",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ドンドンドン！ドン！ドン！ドン！カシャーン！",
 			typewriter = {
@@ -851,17 +851,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -886,10 +886,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やばっ、ゴールデン・ハインドたちがやっぱりここに気づいたみたい…",
 			typewriter = {
 				speed = 0.05,
@@ -900,10 +900,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "探索者、ウィダーと…みんなをお願い",
 			typewriter = {
 				speed = 0.05,
@@ -927,10 +927,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "このランプは大事に使うようにってウィダーからもらったものだけど…探索者にあげる。きっと助けになるよ",
 			typewriter = {
 				speed = 0.05,
@@ -954,10 +954,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どうか…みんなを救ってあげて！",
 			typewriter = {
 				speed = 0.05,

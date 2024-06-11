@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD503B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD503B",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "（敲門聲）",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
+			say = "（敲門聲）",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "茶會……在前哨站裡嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "沒問題，就讓我們在茶會上再會吧。",
 			typewriter = {
 				speed = 0.05,
@@ -140,14 +140,14 @@ return {
 			}
 		},
 		{
-			say = "前哨站·皇家宴會廳",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgm = "theme-partydress",
+			say = "前哨站·皇家宴會廳",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -207,8 +207,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "哼，真不知道那個皇家女王還利用職務之便偷偷往前線塞了多少與戰鬥無關的物資~",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "咕………………！",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "說的也是，只要能提振士氣，不管是茶會還是宴會都好啦……",
 			typewriter = {
@@ -361,9 +361,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "非常感謝。",
 			typewriter = {
 				speed = 0.05,
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "真是美味……企業妳也嚐嚐吧！放鬆一些，皇家現烤的點心十分鬆軟可口哦！",
 			typewriter = {
@@ -424,13 +424,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "超乎想像規格的皇家茶會正在熱烈進行中————",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -455,9 +455,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "真沒想到薩拉托加和曼非斯居然也來了，之前長島說的調動命令就是這個麼？",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "嗯~沒錯。這項調動也涉及到之後總攻相關的部署呢。",
 			typewriter = {
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "具體的安排是……？帶領艦隊返回白鷹前哨站後再發動攻擊嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "指揮官太熱衷於工作了！本來想著茶會結束之後再跟你說的……",
 			typewriter = {
@@ -549,9 +549,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "原來如此……這樣安排的話倒是省去了來回調動的時間。皇家這邊沒問題麼？",
 			typewriter = {
 				speed = 0.05,
@@ -627,9 +627,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "那份唐突提案的背後絕對有你一份功勞吧……",
 			typewriter = {
 				speed = 0.05,
@@ -660,8 +660,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "接下來就按照之前說好的方案行動。這裡由我們負責，女王陛下就安心返回宮殿吧~",
 			typewriter = {
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102160,
+			nameColor = "#a9f548",
 			say = "哎……？女王陛下打算親自進入核心區嗎！",
 			typewriter = {
 				speed = 0.05,
@@ -706,8 +706,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -751,8 +751,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "……這點小事交給妳的女僕隊不就行了嗎？",
 			typewriter = {
@@ -768,8 +768,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "現在正是關鍵的時刻，我們已經不起更多的波折了。前線的事就交給我們，女王陛下還是盡快返回後方坐鎮吧！",
 			typewriter = {
@@ -817,8 +817,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "王者的有餘呢————（盯）",
 			typewriter = {
@@ -831,11 +831,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "薩、薩拉托加！與其用這種空洞的眼神注視著本王，不如先去自己看看鏡子如何啊？！",
 			typewriter = {
 				speed = 0.05,
@@ -847,8 +847,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "皇家茶會，就這樣在熱烈友好的氛圍中繼續進行了下去————",
 			typewriter = {
 				speed = 0.05,
@@ -903,13 +903,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "茶（宴）會結束後，在返回休息室的路上再次碰到了謝菲爾德。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -950,9 +950,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "剛剛在茶會上完全沒有註意到，沒想到謝菲爾德也來了。",
 			typewriter = {
 				speed = 0.05,
@@ -1012,9 +1012,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -1042,12 +1042,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "我就不多佔用指揮官大人的時間了，希望您度過了一個美好的夜晚。",
 			typewriter = {
 				speed = 0.05,

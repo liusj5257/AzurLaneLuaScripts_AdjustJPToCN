@@ -61,8 +61,8 @@ return {
 			}
 		},
 		{
-			actor = 213011,
 			side = 0,
+			actor = 213011,
 			say = "这个是习惯了……",
 			shake = {
 				speed = 1,
@@ -80,8 +80,8 @@ return {
 		{
 			actor = 205060,
 			side = 1,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "咳咳，虽然我不介意开个茶会聊聊天，不过胡德，别忘了我们的目的",
 			shake = {
 				speed = 1,
@@ -153,8 +153,8 @@ return {
 		{
 			actor = 205060,
 			side = 1,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "真敢说呢……",
 			shake = {
 				speed = 1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			actor = 213011,
 			side = 0,
+			actor = 213011,
 			say = "……感觉胡德也不大对劲了",
 			shake = {
 				speed = 1,

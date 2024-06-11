@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑亚利桑那 替换玩家原本拥有珍珠之泪的效果",
 	time = 0,
-	color = "red",
+	name = "黑亚利桑那 替换玩家原本拥有珍珠之泪的效果",
+	init_effect = "",
+	id = 200201,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200201,
+	color = "red",
 	icon = 200201,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.01,
-				target = "TargetSelf",
 				skill_id = 200201,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},

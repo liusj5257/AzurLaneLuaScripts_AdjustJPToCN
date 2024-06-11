@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANZHAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Royal Knight\n\n<size=45>Chapter 1: Wake Up, Your Majesty!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Royal Navy Dormitory",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Royal Navy Dormitory",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "(Now what shall we do about this...?)",
 			typewriter = {
 				speed = 0.05,
@@ -172,12 +172,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "Your Majesty, please wake up. We have a meeting that Your Majesty absolutely must attend...",
 			typewriter = {
 				speed = 0.05,
@@ -189,12 +189,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Nng... Hm? Hrmm? Warspite? You're here by my side...? Very good then...",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "(I'm afraid this calls for harsher measures. The bedspread, for example. Your Majesty... please forgive the indiscretion.)",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			nameColor = "#a9f548",
 			say = "Haaaagh!",
 			effects = {
 				{
@@ -264,9 +264,9 @@ return {
 			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			nameColor = "#a9f548",
 			say = "Aaaaaaieeeeee!!!",
 			effects = {
 				{
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Wh-what is the meaning of this, Warspite?!",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Honestly, why did you not wake me sooner?! I'm going to be late!",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -379,15 +379,15 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Ahem! Now then, the Royal Navy has agreed to a second round of large-scale exercises with the Eagle Union!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "Yes, Your Majesty!",
 			typewriter = {
 				speed = 0.05,
@@ -460,8 +460,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,

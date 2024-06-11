@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_206 = {}
 slot1 = slot0.word_template_206
 
-function temp()
+temp = function()
 	uv0["秘"] = {
 		["部"] = {
 			this = true
@@ -65,7 +65,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["密"] = {
 		["洞"] = {
 			this = true
@@ -101,7 +101,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蜜"] = {
 		["唇"] = {
 			this = true
@@ -144,7 +144,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["綿"] = {
 		["恒"] = {
 			this = true
@@ -154,7 +154,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["免"] = {
 		["抵"] = {
 			["押"] = {
@@ -344,7 +344,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["缅"] = {
 		["古"] = {
 			this = true
@@ -364,7 +364,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["面"] = {
 		["部"] = {
 			["整"] = {

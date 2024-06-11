@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 战斗BUFF 输出核心LV3",
 	time = 0,
-	color = "red",
+	name = "2022莱莎联动 战斗BUFF 输出核心LV3",
+	init_effect = "",
+	id = 200152,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200152,
+	color = "red",
 	icon = 200152,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 500
+				number = 500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 500
+				number = 500,
+				attr = "airPower"
 			}
 		}
 	}

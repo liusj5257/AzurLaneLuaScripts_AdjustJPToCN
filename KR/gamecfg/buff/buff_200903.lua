@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024偶像活动三期 花青素Cyanidin组合 BUFF",
 	time = 13,
-	color = "yellow",
+	name = "2024偶像活动三期 花青素Cyanidin组合 BUFF",
+	init_effect = "",
+	id = 200903,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200903,
+	color = "yellow",
 	icon = 200903,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatio"
 			}
 		},
 		{

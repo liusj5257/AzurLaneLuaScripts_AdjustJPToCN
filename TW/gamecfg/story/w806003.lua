@@ -1,15 +1,15 @@
 return {
-	id = "W806003",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W806003",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "部分海霧與巨型浮冰消失，可以繼續尋找海豹了！",
 			typewriter = {
 				speed = 0.05,

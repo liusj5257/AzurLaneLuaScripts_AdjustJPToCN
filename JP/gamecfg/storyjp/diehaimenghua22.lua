@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301610,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "信濃さん…信濃さん？んー、よく寝た？",
 			bgm = "xinnong-3",
+			actor = 301610,
+			nameColor = "#a9f548",
+			say = "信濃さん…信濃さん？んー、よく寝た？",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「あ…妾はまた眠っていた……？」",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（体に力が入らない……）",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "ユニオンにギャフンと言わせよう！",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -176,8 +176,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「…ええ……」",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（「夢」の中では、背中を合わせることも、相争うことも…）",
 			typewriter = {
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
+			nameColor = "#a9f548",
 			say = "（これも……「夢」ゆえのことか……）",
 			typewriter = {
 				speed = 0.05,

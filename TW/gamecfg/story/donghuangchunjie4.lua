@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鬧騰嬉戲東煌春節\n\n<size=45>四 和平的遊戲</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 501020,
-			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "來了來了來了！特殊事件“彩票中頭獎”，獲得大量獎金！！",
 			bgm = "main-chunjie",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "來了來了來了！特殊事件“彩票中頭獎”，獲得大量獎金！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.15,
 					x = 0,
@@ -65,8 +65,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "唔…撫順姐運氣太強了…",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "唔…長春姐姐…雖然好像也沒錯…不、不過！春節還是有很多其他的事情的！",
 			typewriter = {
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "港區·廣場",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,8 +276,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "承蒙主人的好意，送來這麼美麗優雅的服裝，不過…",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "若是東煌的人們都穿著這樣的服裝，我們也只要大大方方地穿上就好了不是嗎？",
 			typewriter = {
@@ -341,12 +341,12 @@ return {
 			}
 		},
 		{
-			actor = 202221,
+			say = "嗯，沒有異議，姐姐，我們盡快出發吧",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，沒有異議，姐姐，我們盡快出發吧",
+			actor = 202221,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -398,8 +398,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "哼，不必這麼客氣",
 			typewriter = {
@@ -431,9 +431,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 202121,
 			dir = 1,
 			blackBg = true,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "東煌的新年啊，還真是有些好奇和期待呢——",
 			typewriter = {

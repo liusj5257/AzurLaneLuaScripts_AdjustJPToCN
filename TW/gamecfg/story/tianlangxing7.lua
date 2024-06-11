@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"天狼星改造計畫\n\n<size=45>七 星光閃耀於夜空</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "戰鬥僅僅持續了幾分鐘。",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "戰鬥僅僅持續了幾分鐘。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "到達塞壬出沒的海域時，塞壬已經化為了在海面上漂浮的殘骸了。",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "什麼嘛！把本王的主力部隊的風頭給搶光了！",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -122,17 +122,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "不過…果然不愧是強化過對空能力的黛朵級——",
 			bgm = "story-2",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "不過…果然不愧是強化過對空能力的黛朵級——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "如果是天狼星一定可以做到——讓她單獨出擊的決定正是出於這份信賴",
 			typewriter = {
 				speed = 0.05,
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "而結果正好證明了這個決定是正確的。僅此而已。",
 			typewriter = {
 				speed = 0.05,
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "就這樣，身著白色薔薇禮裙的天狼星凱旋歸來了。",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "天狼星已為您掃清了前進道路，我驕傲的主人",
 			typewriter = {
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "她靜靜的，優雅地把手伸向這邊。仿佛夜色中的大海也是宴會的舞池一般",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "如果您希望的話，那麼天狼星會變的比任何人都耀眼，比任何人都美麗",
 			typewriter = {

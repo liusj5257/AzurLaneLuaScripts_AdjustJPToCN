@@ -1,12 +1,12 @@
 slot0 = class("Chuixue7daySkinPage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.step_txt = slot0:findTF("step_text", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.uilist
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -49,7 +49,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setText(slot0.step_txt, setColorStr(slot0.nday, "#89FF59FF") .. "/" .. #slot0.taskGroup)
 end

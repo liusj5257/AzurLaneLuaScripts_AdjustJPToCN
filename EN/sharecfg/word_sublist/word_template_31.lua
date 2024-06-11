@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_31 = {}
 slot1 = slot0.word_template_31
 
-function temp()
+temp = function()
 	uv0["肉"] = {
 		["棒"] = {
 			this = true
@@ -217,7 +217,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["日"] = {
 		["給"] = {
 			this = true
@@ -825,7 +825,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["破"] = {
 		["産"] = {
 			this = true
@@ -1046,7 +1046,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["馬"] = {
 		["鹿"] = {
 			this = true
@@ -1120,7 +1120,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["買"] = {
 		["賣"] = {
 			["人"] = {
@@ -1195,7 +1195,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["売"] = {
 		["春"] = {
 			["婦"] = {
@@ -1210,7 +1210,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["白"] = {
 		["痴"] = {
 			this = true

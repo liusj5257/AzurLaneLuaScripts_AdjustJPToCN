@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "思いがけなかった出会いは、日常に新たな彩りを加える。港にやってきた「ヴィーナス」たちは、どんな「バカンス」を送っているのだろうか",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,15 +50,15 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			bgName = "star_level_bg_106",
+			bgm = "doa_story1",
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "いらっしゃいませ～！期間限定、明石のスイーツショップですよ！いろんなクレープが盛りだくさん！ぜひ、寄っていってくださーい！",
-			bgm = "doa_story1",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "クレープ、たくさん売れてよかったね、明石さん！",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "いらっしゃいませ！あっ、指揮官とお姉ちゃんだ！一緒に来てくれたの？",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "た、たまたま…そこで会っただけです…！",
 			effects = {
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "なぎさと一緒にみさきのバイト先に来ている、なぜかというと……",
 			effects = {
 				{
@@ -236,14 +236,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900304,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900304,
+			nameColor = "#a9f548",
 			say = "あの、オーナーさん……クレープ、食べたくありませんか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "クレープ…？",
 			typewriter = {
@@ -306,10 +306,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900304,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900304,
+			nameColor = "#a9f548",
 			say = "と、とにかく…突然クレープを食べたくなったんです！行きますか？行かないんですか？さっさと決めてください……このバカわんこ",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "なるほど、妹思いの姉だ",
 			typewriter = {
@@ -345,13 +345,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "……ということで、なぎさとここに来ているわけだ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -401,8 +401,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "どの味も美味しいよ！でも…わたし的には、マンゴーバニラ味がおすすめかな～",
 			typewriter = {
@@ -415,9 +415,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "たしかに美味しそうだ",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "みさきのおすすめなら…",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "これにするしかないな",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "は～いっ、ありがとうございます♪…って、お姉ちゃんどうしたの？わたしの顔に、何かついてる？",
 			typewriter = {
@@ -518,8 +518,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "たまたま会っただけって…ほら、用が済んだのなら行きますよ、バカわんこ！",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -558,9 +558,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "みさきたちと別れて、暫くなぎさと歩く……",
 			typewriter = {
 				speed = 0.05,
@@ -575,8 +575,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "いきなり知らない場所に来てしまうと、どうしても心配で…",
 			typewriter = {
@@ -608,8 +608,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "…って、なにニヤニヤしているんですか、このバカわんこ！",
 			typewriter = {

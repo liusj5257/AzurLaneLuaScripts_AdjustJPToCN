@@ -7,7 +7,7 @@ slot2.__name = "BattleCardPuzzleSkillCreateCard"
 slot2.MOVE_OP_Add = "Add"
 slot2.MOVE_OP_BOTTOM = "Bottom"
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._cardID = slot0._tempData.arg_list.card_id
@@ -16,7 +16,7 @@ function slot2.Ctor(slot0, slot1)
 	slot0._op = slot0._tempData.arg_list.shuffle or 1
 end
 
-function slot2.SkillEffectHandler(slot0)
+slot2.SkillEffectHandler = function(slot0)
 	slot1 = slot0._card:GetClient()
 	slot3 = slot1:GetCardPileByIndex(slot0._moveTo)
 

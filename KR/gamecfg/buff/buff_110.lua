@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "复纵阵回避",
 	time = 0,
-	color = "yellow",
+	name = "复纵阵回避",
+	init_effect = "",
+	id = 110,
 	picture = "",
 	desc = "机动提高30%，炮击和雷击降低5%",
 	stack = 1,
-	id = 110,
+	color = "yellow",
 	icon = 110,
 	last_effect = "",
 	effect_list = {

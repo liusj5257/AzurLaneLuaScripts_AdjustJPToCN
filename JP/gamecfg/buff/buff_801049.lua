@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "基洛夫M",
 	time = 8,
+	name = "基洛夫M",
+	init_effect = "",
 	picture = "",
 	desc = "易伤效果",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.15
+				number = 0.15,
+				attr = "injureRatio"
 			}
 		}
 	}

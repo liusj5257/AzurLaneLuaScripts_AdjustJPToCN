@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA4",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA4",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900179,
@@ -23,8 +23,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "将将！{namecode:98}的“试做型舰装制造装置”制造的专用舰装！这样我就和大家一起战斗了～！",
 			flashN = {
 				color = {
@@ -164,8 +164,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "（居、居然会这么夸我…！感、感觉好棒！？）",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "不过，毕竟本质是全息影像数据，所以现在其实就跟没穿衣服一样呢～",
 			typewriter = {
 				speed = 0.05,
@@ -225,9 +225,9 @@ return {
 		{
 			expression = 6,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哈！该不会因为我说这种话导致碧蓝航线被下架吧！？非常抱歉！刚才的话请当作没听到吧！！",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "……奇怪？换不了装！？为什么？？？",
 			flashN = {
 				color = {
@@ -344,9 +344,9 @@ return {
 		{
 			expression = 5,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "怎么会这样！？怎么办，我很喜欢那几件衣服的啊～～～！",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,10 +428,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "咚！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -476,9 +476,9 @@ return {
 		{
 			expression = 6,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "呀啊啊啊啊啊！好不容易才重新鼓起干劲开始加油的，突然又搞什么啊！",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -518,8 +518,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "绊爱(伪)",
 			say = "………",
 			typewriter = {

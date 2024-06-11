@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"新年的祝福\n\n<size=45>六 大家的晚餐</size>",
@@ -17,18 +17,18 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actorName = "{namecode:143}",
 			side = 2,
-			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_room",
 			bgm = "main-newyear",
 			actor = 301601,
-			actorName = "{namecode:143}",
+			nameColor = "#a9f548",
 			say = "哇~蕎麥麵和年糕！終於可以開飯啦！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 205062,
 			dir = 1,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "唔…！？雖然看上去很軟，但是吃起來的口感卻意外地不同……",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102132,
 			dir = 1,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "不用擔心的，海倫娜，克里夫蘭怎麼可能會那麼容易受傷呢？妳太多慮了啦。",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102051,
 			dir = 1,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "可是……",
 			typewriter = {
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "嘿！我回來啦！",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102132,
 			dir = 1,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "妳看，我說什麼來著。回來的正好，這種麵條一旦冷掉就不好吃了哦。",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 301601,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301601,
 			actorName = "{namecode:143}",
 			say = "這個是暖爐，是為了應對冬天的最強戰術哦！",
 			typewriter = {
@@ -286,15 +286,15 @@ return {
 			}
 		},
 		{
-			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307031,
+			nameColor = "#a9f548",
 			say = "其他陣營的各位也完全和暖爐融為一體了呢",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "對了喵！忘記給在場的各位準備賀年卡了喵",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -380,8 +380,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 201103,
 			dir = 1,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "哇，這……這麼精緻的卡片，上面……還貼了花瓣！感……感謝！",
 			typewriter = {
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -407,8 +407,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102051,
 			dir = 1,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "這個圖案是……啊，是象徵幸福的青鳥吧！謝謝，我會珍惜的。",
 			typewriter = {
@@ -424,8 +424,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 101263,
 			dir = 1,
+			actor = 101263,
 			nameColor = "#a9f548",
 			say = "小閃電的圖案，可愛，喜歡~",
 			typewriter = {
@@ -473,9 +473,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102141,
 			dir = 1,
 			blackBg = true,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "還，還是不了，現在這樣也不錯，大姐頭。",
 			typewriter = {

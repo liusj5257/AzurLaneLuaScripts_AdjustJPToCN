@@ -1,12 +1,12 @@
 return {
-	init_effect = "hanbingquyu_beiji",
-	name = "blizzard",
 	time = 3,
-	color = "yellow",
+	name = "blizzard",
+	init_effect = "hanbingquyu_beiji",
+	id = 8660,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8660,
+	color = "yellow",
 	icon = 8660,
 	last_effect = "hanbingquyu_jiansu",
 	effect_list = {

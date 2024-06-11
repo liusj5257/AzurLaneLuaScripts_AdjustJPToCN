@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"비서함 다이호의 헌신\n\n<size=45>비서함의 업무? (하)</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……좋은 냄새가 난다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
 			actorName = "？？？",
+			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
-			side = 2,
-			dir = 1,
-			nameColor = "#92fc63",
 			withoutActorName = true,
+			side = 2,
+			nameColor = "#92fc63",
+			dir = 1,
 			blackBg = true,
+			actor = 307070,
 			say = "……(꼼지락 꼼지락)",
 			flashN = {
 				color = {
@@ -105,17 +105,17 @@ return {
 			}
 		},
 		{
-			actor = 307070,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "좋은 아침이에요 지휘관님. 다이호, 조금 전까지 지휘관님을 어떻게 깨워야 할지 고민하고 있었답니다~",
 			bgm = "story-1",
+			actor = 307070,
+			nameColor = "#92fc63",
+			say = "좋은 아침이에요 지휘관님. 다이호, 조금 전까지 지휘관님을 어떻게 깨워야 할지 고민하고 있었답니다~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "주위를 둘러보니, 내 방이 맞는 것 같긴 한데…",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "방문은 분명히 잠겨있었는데 대체 어떻게 들어온 거지……일단은 출근 준비부터 하도록 하자.",
 			typewriter = {
 				speed = 0.05,
@@ -185,14 +185,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 307070,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "오늘의 조식은 사쿠라 엠파이어식으로 준비해보았답니다. 입에 맞으셔야 할텐데.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "다이호의 눈이 반짝반짝 거리는 게 느껴진다…",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "그러고 보니 아까 지휘관님께서 주무시는 동안, 다이호가 방 청소를 해두었어요.",
 			typewriter = {
@@ -275,10 +275,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 아쉽게도 다른 건 더 발견할 수 없었지만……",
 			typewriter = {
 				speed = 0.05,
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "무슨 소리야? 도대체……",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "간단한 일 아닌가요, 지휘관님께서 방문을 걸어잠그셨길래, 다이호가 방 열쇠를 하나 맞췄을 뿐이랍니다.",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "……후후후, 비서함으로써 당연한 일 아닌가요.",
 			typewriter = {

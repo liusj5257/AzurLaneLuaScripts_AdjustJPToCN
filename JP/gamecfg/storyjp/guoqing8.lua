@@ -108,8 +108,8 @@ return {
 			side = 2,
 			say = "……今考えてみれば、もしかするとあれも「あいつら」の計画の一部だったのかもしれない…",
 			flashout = {
-				dur = 1.5,
 				black = true,
+				dur = 1.5,
 				alpha = {
 					0,
 					1

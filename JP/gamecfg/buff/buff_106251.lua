@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 106251,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 106251,
+	color = "red",
 	icon = 106250,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 1000
+				number = 1000,
+				attr = "loadSpeed"
 			}
 		}
 	}

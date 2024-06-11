@@ -3,11 +3,11 @@ slot0.optionsPath = {
 	"adpter/frame/option"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EquipCodeUI"
 end
 
-function slot0.setEquipments(slot0, slot1, slot2)
+slot0.setEquipments = function(slot0, slot1, slot2)
 	slot0.equips = slot1
 
 	table.sort(slot0.equips, CompareFuncs(EquipmentSortCfg.sortFunc(EquipmentSortCfg.sort[1], false)))
@@ -17,7 +17,7 @@ function slot0.setEquipments(slot0, slot1, slot2)
 	table.sort(slot0.spWeapons, CompareFuncs(SpWeaponSortCfg.sortFunc(SpWeaponSortCfg.sort[1], false)))
 end
 
-function slot0.setShip(slot0, slot1)
+slot0.setShip = function(slot0, slot1)
 	slot0.shipVO = getProxy(BayProxy):getShipById(slot1)
 	slot0.shipData = {}
 
@@ -40,14 +40,14 @@ function slot0.setShip(slot0, slot1)
 	end
 end
 
-function slot0.getEquipShipVO(slot0, slot1)
+slot0.getEquipShipVO = function(slot0, slot1)
 	slot0.shipVO:clone().equipments = underscore.first(slot1, 5)
 	slot2.spWeapon = slot1[6] or nil
 
 	return slot2
 end
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	setActive(slot0:Find("IconTpl"), tobool(slot1))
 
 	if slot1 then
@@ -63,7 +63,7 @@ function slot1(slot0, slot1, slot2)
 	end
 end
 
-function slot2(slot0, slot1, slot2)
+slot2 = function(slot0, slot1, slot2)
 	setActive(slot0:Find("IconTpl"), tobool(slot1))
 
 	if slot1 then
@@ -79,7 +79,7 @@ function slot2(slot0, slot1, slot2)
 	end
 end
 
-function slot3(slot0, slot1, slot2)
+slot3 = function(slot0, slot1, slot2)
 	setActive(slot0:Find("Icon"), slot1)
 	setActive(slot0:Find("IconShadow"), slot1)
 
@@ -96,7 +96,7 @@ function slot3(slot0, slot1, slot2)
 	end
 end
 
-function slot4(slot0, slot1, slot2)
+slot4 = function(slot0, slot1, slot2)
 	slot3 = slot0:Find("error")
 
 	if not slot1 or not slot2 then
@@ -131,7 +131,7 @@ function slot4(slot0, slot1, slot2)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, #slot0.shipData do
@@ -154,7 +154,7 @@ end
 
 slot5 = nil
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0 = uv0 or {
 		customPanels = {
 			labelIndex = {
@@ -167,8 +167,8 @@ function slot0.init(slot0)
 		groupList = {
 			{
 				dropdown = false,
-				titleTxt = "indexsort_label",
 				titleENTxt = "indexsort_labeleng",
+				titleTxt = "indexsort_label",
 				tags = {
 					"labelIndex"
 				}
@@ -365,15 +365,15 @@ function slot0.init(slot0)
 
 	slot0.comList = slot0.rtQuickPanel:Find("frame/container"):GetComponent("LScrollRect")
 
-	function slot0.comList.onInitItem(slot0)
+	slot0.comList.onInitItem = function(slot0)
 		ClearTweenItemAlphaAndWhite(slot0)
 	end
 
-	function slot0.comList.onReturnItem(slot0, slot1)
+	slot0.comList.onReturnItem = function(slot0, slot1)
 		ClearTweenItemAlphaAndWhite(slot1)
 	end
 
-	function slot0.comList.onUpdateItem(slot0, slot1)
+	slot0.comList.onUpdateItem = function(slot0, slot1)
 		if not uv0.quickIndex then
 			return
 		end
@@ -478,14 +478,14 @@ function slot0.init(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.code = buildEquipCode(slot0.shipVO)
 
 	slot0:updateDispalyPanel(slot0.rtMainPanel, "main")
 	slot0:updateDispalyPanel(slot0.rtCodePanel, "code")
 end
 
-function slot0.updateDispalyPanel(slot0, slot1, slot2)
+slot0.updateDispalyPanel = function(slot0, slot1, slot2)
 	updateDrop(slot1:Find("IconTpl"), {
 		type = DROP_TYPE_SHIP,
 		id = slot0.shipVO.configId
@@ -561,7 +561,7 @@ function slot0.updateDispalyPanel(slot0, slot1, slot2)
 				end
 
 				if slot10 == 6 then
-					function slot17(slot0)
+					slot17 = function(slot0)
 						return not slot0.shipId
 					end
 
@@ -571,7 +571,7 @@ function slot0.updateDispalyPanel(slot0, slot1, slot2)
 						end
 					end
 				else
-					function slot17(slot0)
+					slot17 = function(slot0)
 						return not slot0.shipId or slot0.shipId == uv0.shipVO.id
 					end
 
@@ -613,7 +613,7 @@ function slot0.updateDispalyPanel(slot0, slot1, slot2)
 	end
 end
 
-function slot0.initQuickPanel(slot0)
+slot0.initQuickPanel = function(slot0)
 	slot2 = slot0.rtCodePanel
 
 	eachChild(slot2:Find("equipments_quick"), function (slot0)
@@ -632,7 +632,7 @@ function slot0.initQuickPanel(slot0)
 	slot0:updateQuickPanel()
 end
 
-function slot0.updateQuickPanel(slot0)
+slot0.updateQuickPanel = function(slot0)
 	if not isActive(slot0.rtQuickPanel) then
 		return
 	end
@@ -659,7 +659,7 @@ function slot0.updateQuickPanel(slot0)
 	end
 end
 
-function slot0.getFilterEquipments(slot0)
+slot0.getFilterEquipments = function(slot0)
 	slot1 = slot0:getEquipShipVO(slot0.equipData)
 	slot2 = {
 		slot0.indexData.equipPropertyIndex,
@@ -675,7 +675,7 @@ function slot0.getFilterEquipments(slot0)
 	end):value()
 end
 
-function slot0.getFilterSpWeapon(slot0)
+slot0.getFilterSpWeapon = function(slot0)
 	slot1 = slot0:getEquipShipVO(slot0.equipData)
 
 	return underscore.filter(slot0.spWeapons, function (slot0)
@@ -683,7 +683,7 @@ function slot0.getFilterSpWeapon(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.ltID then
 		LeanTween.cancel(slot0.ltID)
 

@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"여름 바람의 십자성\n\n<size=45>제2장 - 나한테 맡겨!</size>",
@@ -19,13 +19,13 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "흐흥, 이런 건 나한테 맡겨!",
 			bgm = "story-1",
+			actor = 201110,
+			nameColor = "#92fc63",
+			say = "흐흥, 이런 건 나한테 맡겨!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,10 +36,10 @@ return {
 			}
 		},
 		{
-			actor = 201101,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201101,
 			dir = 1,
 			hideOther = true,
 			actorName = "시그넷 & 코멧 & 크레센트",
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "폭스하운드, 멍멍이 같아……",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "폭스하운드, 멍멍이 같아……",
+			actor = 201101,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -120,10 +120,10 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201080,
 			dir = 1,
 			hideOther = true,
 			actorName = "코멧 & 크레센트",
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201110,
+			nameColor = "#92fc63",
 			say = "여기서 끊겼어……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "여기는…!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "여기는…!",
+			actor = 201101,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

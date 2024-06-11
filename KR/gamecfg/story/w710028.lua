@@ -1,12 +1,12 @@
 return {
-	id = "W710028",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710028",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "环流的尽头洋溢着奇怪的力量，看起来还是不要靠近比较好……",
 			typewriter = {
 				speed = 0.05,

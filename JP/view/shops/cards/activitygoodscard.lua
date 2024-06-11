@@ -6,7 +6,7 @@ slot0.DefaultColor = {
 	1
 }
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.go = slot1
@@ -37,7 +37,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.limitPassTag = slot0.tr:Find("mask/tag/pass_tag")
 end
 
-function slot0.update(slot0, slot1, slot2, slot3, slot4)
+slot0.update = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.goodsVO = slot1
 
 	setActive(slot0.mask, not slot5 or slot0.goodsVO:CheckCntLimit() and not slot0.goodsVO:CheckArgLimit())
@@ -135,11 +135,11 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.setAsLastSibling(slot0)
+slot0.setAsLastSibling = function(slot0)
 	slot0.tr:SetAsLastSibling()
 end
 
-function slot0.StaticUpdate(slot0, slot1, slot2, slot3)
+slot0.StaticUpdate = function(slot0, slot1, slot2, slot3)
 	slot4 = tf(slot0)
 	slot6 = findTF(slot4, "item/name_mask/name")
 	slot7 = findTF(slot4, "item/consume/contain/icon"):GetComponent(typeof(Image))
@@ -196,7 +196,7 @@ function slot0.StaticUpdate(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0.goodsVO = nil
 end
 

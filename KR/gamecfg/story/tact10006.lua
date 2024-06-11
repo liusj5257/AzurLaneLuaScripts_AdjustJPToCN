@@ -21,9 +21,9 @@ return {
 		{
 			actor = 303110,
 			side = 1,
-			nameColor = "#92fc63",
-			dir = -1,
 			say = "그러니까 소인이 처음부터...",
+			dir = -1,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

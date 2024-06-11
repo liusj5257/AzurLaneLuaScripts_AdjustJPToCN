@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			stopbgm = true,
-			actorName = "信濃",
 			dir = 1,
 			blackBg = true,
+			actorName = "信濃",
 			say = "（…ここはまた、異なる「夢」……海……？）",
 			flashin = {
 				delay = 1,
@@ -33,14 +33,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "（雪風、浜風に磯風……この風景はたしか…呉への途中…）",
 			bgm = "xinnong-3",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "（雪風、浜風に磯風……この風景はたしか…呉への途中…）",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -85,8 +85,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（連なるカケラが、時間の糸で繋がっているとすれば――）",
 			dialogShake = {
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（これこそ「最初」にして、妾を形作る「素体」）",
 			typewriter = {
@@ -124,9 +124,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（妾を「信濃」足らしめるリュウコツの「カンレキ」――）",
 			typewriter = {

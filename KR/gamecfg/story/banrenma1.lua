@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"센토와 선배님들\n\n<size=45>동경하는 선배님께</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 부두",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 부두",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			actor = 206010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "나의 턴! 드로우!",
 			soundeffect = "event:/battle/plane",
+			actor = 206010,
+			nameColor = "#92fc63",
+			say = "나의 턴! 드로우!",
 			effects = {
 				{
 					active = true,
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "허미즈, 오늘도 기운이 넘치네.",
 			effects = {
 				{
@@ -101,13 +101,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
+			dir = 1,
 			say = "그러고 보니, 도크의 벽 저쪽에서 누가 보는 것 같은……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,8 +137,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "지, 지휘관님! 좋은 아침입니다!",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -164,8 +164,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "앗, 저기, 저, 수상한 짓은 아무것도……! 단지……",
 			typewriter = {
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "센토의 시선을 쫓아가니, 그곳엔 혼자서 드로우 연습을 하고 있는 허미즈가 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "지휘관님, 도와주실 수 있을까요…",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			say = "에에엣?!",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -298,10 +298,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
-			dir = -1,
-			nameColor = "#92fc63",
 			say = "저기, 허미즈 선배님……",
+			dir = -1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -335,8 +335,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "아, 네!",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "선배가 예상외로 상냥해 센토는 안심한 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "에, 에에??",
 			subActors = {
@@ -426,16 +426,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2250
@@ -443,9 +443,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "센토는 어딘가로 허미즈에게 끌려갔다.",
 			typewriter = {
 				speed = 0.05,

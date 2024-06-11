@@ -5,11 +5,11 @@ slot0.optionsPath = {
 slot0.FrameSpeed = 10
 slot0.PlaySpeed = 1.5
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CrusingUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy)
 	slot2 = slot2:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
 	slot3 = PoolMgr.GetInstance()
@@ -45,7 +45,7 @@ function slot0.preload(slot0, slot1)
 	end)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.rtBg = slot0._tf:Find("bg")
 	slot0.scrollMap = slot0.rtBg:Find("map_scroll")
 	slot0.btnTask = slot0.rtBg:Find("task_btn")
@@ -55,7 +55,7 @@ function slot0.init(slot0)
 	slot0.sliderPt = slot0.rtAward:Find("Slider")
 	slot0.comScroll = GetComponent(slot0.rtAward:Find("view/content"), "LScrollRect")
 
-	function slot0.comScroll.onUpdateItem(slot0, slot1)
+	slot0.comScroll.onUpdateItem = function(slot0, slot1)
 		uv0:updateAwardInfo(tf(slot1), uv0.awardList[slot0 + 1])
 	end
 
@@ -72,7 +72,7 @@ function slot0.init(slot0)
 	slot0.LTDic = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -208,7 +208,7 @@ function slot0.didEnter(slot0)
 	slot0:updateMapWay()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.LTDic) do
 		if slot5 then
 			LeanTween.cancel(slot4)
@@ -232,7 +232,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 
 	for slot5, slot6 in pairs(slot1:GetCrusingInfo()) do
@@ -240,11 +240,11 @@ function slot0.setActivity(slot0, slot1)
 	end
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.updateAwardInfo(slot0, slot1, slot2)
+slot0.updateAwardInfo = function(slot0, slot1, slot2)
 	slot3 = slot2.pt <= slot0.pt
 
 	if slot1:Find("mask") then
@@ -269,7 +269,7 @@ function slot0.updateAwardInfo(slot0, slot1, slot2)
 	end, SFX_CONFIRM)
 end
 
-function slot0.updateAwardPanel(slot0)
+slot0.updateAwardPanel = function(slot0)
 	setText(slot0.textPhase, slot0.phase)
 
 	if slot0.phase < #slot0.awardList then
@@ -299,7 +299,7 @@ function slot0.updateAwardPanel(slot0)
 	setButtonEnabled(slot0.btnAfter, slot1)
 end
 
-function slot0.updateMapStatus(slot0)
+slot0.updateMapStatus = function(slot0)
 	for slot4, slot5 in ipairs(slot0.maps) do
 		slot6 = nil
 		slot7 = {}
@@ -338,7 +338,7 @@ function slot0.updateMapStatus(slot0)
 			if isActive(slot0) then
 				slot3 = nil
 
-				function slot3(slot0, slot1)
+				slot3 = function(slot0, slot1)
 					if getImageSprite(slot0) then
 						setImageSprite(slot1, slot2)
 					end
@@ -359,7 +359,7 @@ function slot0.updateMapStatus(slot0)
 	end
 end
 
-function slot0.updateMapWay(slot0)
+slot0.updateMapWay = function(slot0)
 	if slot0.exited or slot0.contextData.frozenMapUpdate then
 		return
 	end
@@ -405,7 +405,7 @@ function slot0.updateMapWay(slot0)
 	end
 end
 
-function slot0.buildPhaseAwardScrollPos(slot0)
+slot0.buildPhaseAwardScrollPos = function(slot0)
 	slot0.phasePos = {}
 
 	for slot4 = 1, #slot0.awardList - 1 do
@@ -413,7 +413,7 @@ function slot0.buildPhaseAwardScrollPos(slot0)
 	end
 end
 
-function slot0.onScroll(slot0, slot1, slot2)
+slot0.onScroll = function(slot0, slot1, slot2)
 	slot3 = slot1.onValueChanged
 
 	assert(slot2, "callback should exist")
@@ -422,7 +422,7 @@ function slot0.onScroll(slot0, slot1, slot2)
 	slot3:AddListener(slot2)
 end
 
-function slot0.updateNextAward(slot0, slot1)
+slot0.updateNextAward = function(slot0, slot1)
 	if not slot0.phasePos then
 		return
 	end
@@ -446,7 +446,7 @@ function slot0.updateNextAward(slot0, slot1)
 	end
 end
 
-function slot0.checkLimitMax(slot0, slot1)
+slot0.checkLimitMax = function(slot0, slot1)
 	slot2 = slot0.player
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -470,7 +470,7 @@ function slot0.checkLimitMax(slot0, slot1)
 	return false
 end
 
-function slot0.openBuyPanel(slot0)
+slot0.openBuyPanel = function(slot0)
 	slot2 = Goods.Create({
 		shop_id = slot0:getPassID()
 	}, Goods.TYPE_CHARGE)
@@ -526,7 +526,7 @@ function slot0.openBuyPanel(slot0)
 	})
 end
 
-function slot0.getPassID(slot0)
+slot0.getPassID = function(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot2:isEnd() then
 		for slot6, slot7 in ipairs(pg.pay_data_display.all) do
 			if pg.pay_data_display[slot7].sub_display and type(slot8.sub_display) == "table" and slot8.sub_display[1] == slot2.id then
@@ -536,7 +536,7 @@ function slot0.getPassID(slot0)
 	end
 end
 
-function slot0.OnChargeSuccess(slot0, slot1)
+slot0.OnChargeSuccess = function(slot0, slot1)
 	slot0.chargeTipWindow:ExecuteAction("Show", slot1)
 end
 

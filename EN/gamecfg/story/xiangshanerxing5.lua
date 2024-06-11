@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
+			bgm = "blueocean-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The next day, outside the Azur Lane's provisional base...",
-			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "I look up at the bright morning sun. A yawn escapes my mouth.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "I didn't get much sleep last night. I couldn't stop thinking about what Helena showed me.",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -133,20 +133,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "I'm escorted into the underground headquarters of the shadowy organization behind the reunion of the Iris Orthodoxy – the Tribunal.",
 			bgm = "theme-vichy-church",
+			say = "I'm escorted into the underground headquarters of the shadowy organization behind the reunion of the Iris Orthodoxy – the Tribunal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "I find myself inside a reception hall that's absent from any visitor's guide I've seen.",
@@ -159,10 +159,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "Well, hello, Commander. Welcome to the Tribunal's headquarters. What brings you here today?",
 			painting = {
 				alpha = 0.3,
@@ -201,10 +201,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "Good heavens, no. I would never be presumptuous as to try to predict your intentions.",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "For better or for worse, there are countless eyes watching your every action. If something were to happen to you on my watch, I would never be able to explain that to the others.",
 			painting = {
 				alpha = 0.3,
@@ -273,10 +273,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "Heehee. I see Memphis has been sniffing around again. Though, I must say that her abilities are matched only by her imagination.",
 			painting = {
 				alpha = 0.3,
@@ -291,10 +291,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "The Tribunal was simply making it seem as though we were supporting Marco Polo whilst she was under the Arbiter's influence.",
 			painting = {
 				alpha = 0.3,
@@ -309,10 +309,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "To put it simply, it was all an act.",
 			painting = {
 				alpha = 0.3,
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "Hardly anything worth your time and consideration, heehee.",
 			painting = {
 				alpha = 0.3,
@@ -380,10 +380,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -398,10 +398,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "...On that day at the World Expo, you chose to believe in us.",
 			painting = {
 				alpha = 0.3,
@@ -413,12 +413,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course, I'm willing to place my trust in you. You may go see her.",
 			painting = {
 				alpha = 0.3,
@@ -433,10 +433,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's the first thing you want, I presume. What's the second?",
 			painting = {
 				alpha = 0.3,
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hm? Sounds like you're planning something quite interesting.",
 			painting = {
 				alpha = 0.3,
@@ -492,10 +492,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Haha, I'll pass on the message. Know that you won't be disappointed by the Tribunal's \"work ethic.\"",
 			painting = {
 				alpha = 0.3,
@@ -510,10 +510,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But first... would you mind sharing some details on what you plan to do?",
 			painting = {
 				alpha = 0.3,

@@ -1,19 +1,19 @@
 slot0 = class("RacingMiniGameView", import("view.miniGame.MiniGameTemplateView"))
 slot0.canSelectStage = false
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RacingMiniGameUI"
 end
 
-function slot0.getGameController(slot0)
+slot0.getGameController = function(slot0)
 	return RacingMiniGameController
 end
 
-function slot0.getShowSide(slot0)
+slot0.getShowSide = function(slot0)
 	return false
 end
 
-function slot0.initPageUI(slot0)
+slot0.initPageUI = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtTitlePage = slot1:Find("TitlePage")
 	slot1 = slot0.rtTitlePage
@@ -55,7 +55,7 @@ function slot0.initPageUI(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initPageUI()
 	slot0:initControllerUI()
 
@@ -67,12 +67,12 @@ function slot0.didEnter(slot0)
 	slot0:openUI("countdown")
 end
 
-function slot0.initOpenUISwich(slot0)
+slot0.initOpenUISwich = function(slot0)
 	uv0.super.initOpenUISwich(slot0)
 
 	slot0.openSwitchDic.main = nil
 
-	function slot0.openSwitchDic.result()
+	slot0.openSwitchDic.result = function()
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3("ui-streamers")
 		setActive(uv0.rtTitlePage:Find("result"):Find("window/now/new"), getProxy(MiniGameProxy):GetHighScore(uv0:GetMGData().id) / 100 < uv0.gameController.point)
 
@@ -95,12 +95,12 @@ function slot0.initOpenUISwich(slot0)
 		end
 	end
 
-	function slot0.openSwitchDic.countdown()
+	slot0.openSwitchDic.countdown = function()
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_STEP_PILE_COUNTDOWN)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.gameController:willExit()
 end
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Lady's Modest Proposal\n\n<size=45>Chapter 3 - An Unexpected Disaster?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "After finishing writing the letters, I escorted Illustrious back to the Royal Navy's dorms.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "After finishing writing the letters, I escorted Illustrious back to the Royal Navy's dorms.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Unicorn, who had just been passing by, came up to us with a curious look on her face.",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Illustrious told Unicorn about how she was planning a tea party to be held at her beautiful secret spot.",
 			typewriter = {
 				speed = 0.05,
@@ -174,13 +174,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Unicorn guided us to the storehouse. Inside were a variety of parasols with different designs, all stored away.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Everyone split up to look for a white parasol.",
 			typewriter = {
 				speed = 0.05,
@@ -235,15 +235,15 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "All of these don't fit well enough... It'd be nice if there was a high-quality one...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "Eek!",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "When I turned toward the source of the noise, Unicorn was swaying unsteadily on top of a ladder propped in front a shelf.",
 			typewriter = {
 				speed = 0.05,
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Nobody had been watching out for each other. It was probably because everyone was so absorbed in their search.",
 			typewriter = {
 				speed = 0.05,
@@ -338,9 +338,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The moment Illustrious and I rushed over to help her, Unicorn lost her balance and fell off the ladder.",
 			typewriter = {
 				speed = 0.05,
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "...Nooo!",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -377,11 +377,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "...Y-you caught me...?",
 			flashout = {
 				dur = 0.15,
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -418,9 +418,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Fortunately, I caught Unicorn just in the nick of time as she fell off the ladder. I breathed a sigh of relief.",
 			typewriter = {
 				speed = 0.05,
@@ -432,9 +432,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Illustrious had supported the falling ladder so it didn't crash into the floor, and thus, we somehow made it.",
 			typewriter = {
 				speed = 0.05,
@@ -494,9 +494,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Illustrious stroked Unicorn's hair gently.",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"환상과 진실의 이중주-일상 편\n\n<size=45>4. 평화로운 세계</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_outdoor",
 			bgm = "holo-fbk",
 			actor = 900214,
 			nameColor = "#a9f548",
 			say = "아파라……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "하지만 그 정도의 적이라 괜찮을 줄 알았지……",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "죄송합니다……",
 			typewriter = {
@@ -180,10 +180,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "아하하, 새로운 환경에 적응하는 데는 역시 시간이 많이 걸리네.",
+			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -249,8 +249,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "이런 세계에서 온 우리들이기 때문에 갑자기 전선에 투입된다는 건 역시 실감이 잘 나지 않네……",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "미안…… 눈앞에 있는 것이 적이라는 건 머리로는 알고 있지만, 카와카제처럼 망설임 없이 공격하는 것은 아직 어려워.",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "에?",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "후후후, 냉정해 보이지만 사실 카와카제는 지휘관을 굉장히 많이 신경 쓰고 있구나.",
 			typewriter = {
@@ -525,8 +525,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "저기, 부상자를 제쳐두고 둘만의 분위기에 빠지지 말아 줄래?! 나 좀 부축해 달라고!",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -549,11 +549,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "……저렇게 큰소리를 칠 수 있다는 건 별문제 없다는 거겠지. 푹 쉬어라. 앞으로 해야 할 임무가 아직 많으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -609,8 +609,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "그런 건가……",
 			typewriter = {
@@ -626,8 +626,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "아, 또 하나 말해주자면 나는 이미 게임에서 카와카제와 서약을 맺었거든? 그러니 이미 알고 있었지만~",
 			typewriter = {
@@ -643,9 +643,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
 			blackBg = true,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "분위기 깨는 말은 그만둬!",
 			typewriter = {
@@ -658,8 +658,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

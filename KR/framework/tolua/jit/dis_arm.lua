@@ -219,8 +219,8 @@ slot36 = {
 		[22.0] = "msrNW",
 		[18] = {
 			[0] = "nopv6",
-			shift = 0,
 			_ = "msrNW",
+			shift = 0,
 			mask = 983295
 		},
 		_ = slot28
@@ -308,9 +308,9 @@ slot36 = {
 				false,
 				"pkhtbDNMU",
 				{
-					shift = 16,
-					[15.0] = "sxtb16DMU",
 					_ = "sxtab16DNMU",
+					[15.0] = "sxtb16DMU",
+					shift = 16,
 					mask = 15
 				},
 				"pkhbtDNMU",
@@ -325,9 +325,9 @@ slot36 = {
 				"ssat16DxM",
 				"ssatDxMu",
 				{
-					shift = 16,
-					[15.0] = "sxtbDMU",
 					_ = "sxtabDNMU",
+					[15.0] = "sxtbDMU",
+					shift = 16,
 					mask = 15
 				},
 				"ssatDxMu",
@@ -341,9 +341,9 @@ slot36 = {
 				"revDM",
 				"ssatDxMu",
 				{
-					shift = 16,
-					[15.0] = "sxthDMU",
 					_ = "sxtahDNMU",
+					[15.0] = "sxthDMU",
+					shift = 16,
 					mask = 15
 				},
 				"ssatDxMu",
@@ -356,9 +356,9 @@ slot36 = {
 				shift = 5,
 				mask = 7,
 				[3] = {
-					shift = 16,
-					[15.0] = "uxtb16DMU",
 					_ = "uxtab16DNMU",
+					[15.0] = "uxtb16DMU",
+					shift = 16,
 					mask = 15
 				}
 			},
@@ -368,9 +368,9 @@ slot36 = {
 				"usat16DwM",
 				"usatDwMu",
 				{
-					shift = 16,
-					[15.0] = "uxtbDMU",
 					_ = "uxtabDNMU",
+					[15.0] = "uxtbDMU",
+					shift = 16,
 					mask = 15
 				},
 				"usatDwMu",
@@ -384,9 +384,9 @@ slot36 = {
 				"rbitDM",
 				"usatDwMu",
 				{
-					shift = 16,
-					[15.0] = "uxthDMU",
 					_ = "uxtahDNMU",
+					[15.0] = "uxthDMU",
+					shift = 16,
 					mask = 15
 				},
 				"usatDwMu",
@@ -428,15 +428,15 @@ slot36 = {
 			},
 			{
 				[0] = {
-					shift = 12,
-					[15.0] = "smmulNMS",
 					_ = "smmlaNMSD",
+					[15.0] = "smmulNMS",
+					shift = 12,
 					mask = 15
 				},
 				{
-					shift = 12,
-					[15.0] = "smmulrNMS",
 					_ = "smmlarNMSD",
+					[15.0] = "smmulrNMS",
+					shift = 12,
 					mask = 15
 				},
 				false,
@@ -452,9 +452,9 @@ slot36 = {
 			false,
 			{
 				[0] = {
-					shift = 12,
-					[15.0] = "usad8NMS",
 					_ = "usada8NMSD",
+					[15.0] = "usad8NMS",
+					shift = 12,
 					mask = 15
 				},
 				shift = 5,
@@ -475,9 +475,9 @@ slot36 = {
 			},
 			{
 				[0] = {
-					shift = 0,
-					[15.0] = "bfcDvX",
 					_ = "bfiDMvX",
+					[15.0] = "bfcDvX",
+					shift = 0,
 					mask = 15
 				},
 				shift = 5,
@@ -485,9 +485,9 @@ slot36 = {
 			},
 			{
 				[0] = {
-					shift = 0,
-					[15.0] = "bfcDvX",
 					_ = "bfiDMvX",
+					[15.0] = "bfcDvX",
+					shift = 0,
 					mask = 15
 				},
 				shift = 5,
@@ -516,10 +516,10 @@ slot36 = {
 			[0] = "stmdaNR",
 			"stmNR",
 			{
-				shift = 16,
-				mask = 63,
+				[45.0] = "pushR",
 				_ = "stmdbNR",
-				[45.0] = "pushR"
+				shift = 16,
+				mask = 63
 			},
 			"stmibNR",
 			shift = 23,
@@ -528,9 +528,9 @@ slot36 = {
 		{
 			[0] = "ldmdaNR",
 			{
-				shift = 16,
-				[61.0] = "popR",
 				_ = "ldmNR",
+				[61.0] = "popR",
+				shift = 16,
 				mask = 63
 			},
 			"ldmdbNR",
@@ -559,9 +559,9 @@ slot36 = {
 				_ = {
 					[0] = "vstrFdl",
 					{
+						[13.0] = "vpushFdr",
 						_ = "vstmdbFNdr",
 						shift = 16,
-						[13.0] = "vpushFdr",
 						mask = 15
 					},
 					shift = 21,
@@ -571,9 +571,9 @@ slot36 = {
 			{
 				[0] = "vmovFDNm",
 				{
+					[13.0] = "vpopFdr",
 					_ = "vldmFNdr",
 					shift = 16,
-					[13.0] = "vpopFdr",
 					mask = 15
 				},
 				shift = 23,
@@ -597,9 +597,9 @@ slot36 = {
 				_ = {
 					[0] = "vstrGdl",
 					{
+						[13.0] = "vpushGdr",
 						_ = "vstmdbGNdr",
 						shift = 16,
-						[13.0] = "vpushGdr",
 						mask = 15
 					},
 					shift = 21,
@@ -609,9 +609,9 @@ slot36 = {
 			{
 				[0] = "vmovGDNm",
 				{
+					[13.0] = "vpopGdr",
 					_ = "vldmGNdr",
 					shift = 16,
-					[13.0] = "vpopGdr",
 					mask = 15
 				},
 				shift = 23,
@@ -641,35 +641,35 @@ slot36 = {
 					"vmlsF.dnm",
 					[147456.0] = "vfnmsF.dnm",
 					[163840.0] = "vfmaF.dnm",
-					[16385.0] = "vnmlaF.dnm",
+					[131072.0] = "vdivF.dnm",
 					mask = 180225,
 					[32769.0] = "vnmulF.dnm",
-					[163841.0] = "vfmsF.dnm",
+					[16384.0] = "vnmlsF.dnm",
 					[32768.0] = "vmulF.dnm",
+					[16385.0] = "vnmlaF.dnm",
+					[163841.0] = "vfmsF.dnm",
 					[180224.0] = "vmovF.dY",
 					[49153.0] = "vsubF.dnm",
-					shift = 6,
-					[16384.0] = "vnmlsF.dnm",
 					[49152.0] = "vaddF.dnm",
-					[131072.0] = "vdivF.dnm",
+					shift = 6,
 					[147457.0] = "vfnmaF.dnm",
 					[180225] = {
 						[0] = "vmovF.dm",
 						"vabsF.dm",
-						[513.0] = "vsqrtF.dm",
-						[2049.0] = "vcmpeF.dm",
+						[512.0] = "vnegF.dm",
+						[2048.0] = "vcmpF.dm",
 						[4096.0] = "vcvt.f32.u32Fdm",
 						mask = 7681,
-						[4097.0] = "vcvt.f32.s32Fdm",
-						[2561.0] = "vcmpzeF.d",
-						[2048.0] = "vcmpF.dm",
-						[6145.0] = "vcvt.u32F.dm",
-						[6144.0] = "vcvtr.u32F.dm",
+						[513.0] = "vsqrtF.dm",
 						[2560.0] = "vcmpzF.d",
+						[2049.0] = "vcmpeF.dm",
+						[4097.0] = "vcvt.f32.s32Fdm",
+						[6144.0] = "vcvtr.u32F.dm",
+						[2561.0] = "vcmpzeF.d",
 						[6656.0] = "vcvtr.s32F.dm",
+						[6145.0] = "vcvt.u32F.dm",
 						[6657.0] = "vcvt.s32F.dm",
 						shift = 7,
-						[512.0] = "vnegF.dm",
 						[3585.0] = "vcvtG.dF.m"
 					}
 				},
@@ -678,35 +678,35 @@ slot36 = {
 					"vmlsG.dnm",
 					[147456.0] = "vfnmsG.dnm",
 					[163840.0] = "vfmaG.dnm",
-					[16385.0] = "vnmlaG.dnm",
+					[131072.0] = "vdivG.dnm",
 					mask = 180225,
 					[32769.0] = "vnmulG.dnm",
-					[163841.0] = "vfmsG.dnm",
+					[16384.0] = "vnmlsG.dnm",
 					[32768.0] = "vmulG.dnm",
+					[16385.0] = "vnmlaG.dnm",
+					[163841.0] = "vfmsG.dnm",
 					[180224.0] = "vmovG.dY",
 					[49153.0] = "vsubG.dnm",
-					shift = 6,
-					[16384.0] = "vnmlsG.dnm",
 					[49152.0] = "vaddG.dnm",
-					[131072.0] = "vdivG.dnm",
+					shift = 6,
 					[147457.0] = "vfnmaG.dnm",
 					[180225] = {
 						[0] = "vmovG.dm",
 						"vabsG.dm",
-						[513.0] = "vsqrtG.dm",
-						[2049.0] = "vcmpeG.dm",
+						[512.0] = "vnegG.dm",
+						[2048.0] = "vcmpG.dm",
 						[4096.0] = "vcvt.f64.u32GdFm",
 						mask = 7681,
-						[4097.0] = "vcvt.f64.s32GdFm",
-						[2561.0] = "vcmpzeG.d",
-						[2048.0] = "vcmpG.dm",
-						[6145.0] = "vcvt.u32FdG.m",
-						[6144.0] = "vcvtr.u32FdG.m",
+						[513.0] = "vsqrtG.dm",
 						[2560.0] = "vcmpzG.d",
+						[2049.0] = "vcmpeG.dm",
+						[4097.0] = "vcvt.f64.s32GdFm",
+						[6144.0] = "vcvtr.u32FdG.m",
+						[2561.0] = "vcmpzeG.d",
 						[6656.0] = "vcvtr.s32FdG.m",
+						[6145.0] = "vcvt.u32FdG.m",
 						[6657.0] = "vcvt.s32FdG.m",
 						shift = 7,
-						[512.0] = "vnegG.dm",
 						[3585.0] = "vcvtF.dG.m"
 					}
 				}
@@ -717,13 +717,13 @@ slot36 = {
 				[10] = {
 					[0] = "vmovFnD",
 					"vmovFDn",
-					mask = 15,
-					shift = 20,
 					[14.0] = "vmsrD",
+					shift = 20,
+					mask = 15,
 					[15] = {
-						shift = 12,
-						[15.0] = "vmrs",
 						_ = "vmrsD",
+						[15.0] = "vmrs",
+						shift = 12,
 						mask = 15
 					}
 				}
@@ -803,7 +803,7 @@ slot40 = {
 	"ror"
 }
 
-function slot41(slot0, slot1, slot2)
+slot41 = function(slot0, slot1, slot2)
 	slot3 = slot0.pos
 	slot4 = ""
 
@@ -824,13 +824,13 @@ function slot41(slot0, slot1, slot2)
 	slot0.pos = slot3 + 4
 end
 
-function slot42(slot0)
+slot42 = function(slot0)
 	return uv0(slot0, ".long", {
 		"0x" .. uv1(slot0.op)
 	})
 end
 
-function slot43(slot0, slot1, slot2)
+slot43 = function(slot0, slot1, slot2)
 	slot3 = uv0[uv1(uv2(slot1, 16), 15)]
 	slot4, slot5 = nil
 
@@ -889,7 +889,7 @@ function slot43(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot44(slot0, slot1, slot2)
+slot44 = function(slot0, slot1, slot2)
 	slot3 = uv0[uv1(uv2(slot1, 16), 15)]
 	slot4 = uv1(slot1, 255) * 4
 
@@ -908,7 +908,7 @@ function slot44(slot0, slot1, slot2)
 	end
 end
 
-function slot45(slot0, slot1, slot2, slot3)
+slot45 = function(slot0, slot1, slot2, slot3)
 	if slot1 == "s" then
 		return uv0("s%d", 2 * uv1(uv2(slot0, slot2), 15) + uv1(uv2(slot0, slot3), 1))
 	else
@@ -916,7 +916,7 @@ function slot45(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot46(slot0)
+slot46 = function(slot0)
 	slot1 = slot0.pos
 	slot2, slot3, slot4, slot5 = uv0(slot0.code, slot1 + 1, slot1 + 4)
 	slot6 = uv1(uv2(slot5, 24), uv2(slot4, 16), uv2(slot3, 8), slot2)
@@ -1102,7 +1102,7 @@ function slot46(slot0)
 	return uv23(slot0, slot10 .. slot8, slot7)
 end
 
-function slot47(slot0, slot1, slot2)
+slot47 = function(slot0, slot1, slot2)
 	slot1 = slot1 or 0
 	slot3 = slot2 and slot1 + slot2 or #slot0.code
 	slot0.pos = slot1

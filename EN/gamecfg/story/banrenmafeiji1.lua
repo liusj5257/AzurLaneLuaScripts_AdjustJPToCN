@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Midsummer Sagittarius\n\n<size=45>Chapter 1 - Regular Ol' Summer?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Beach",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Beach",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "So this is the beach that is reserved for the fleet's use...",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "The vast blue that stretches across the horizon, the comforting warmth of the sand between your toes... what a wonderful place!",
 			typewriter = {
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Ah, Centaur! Over here~!",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -125,10 +125,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Good day, Elder Javelin. Thank you for taking time out of your day for me.",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Don't sweat the small stuff! Commander's been working extra hard to finish everything up before vacation, so I have plenty of time to spare!",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Yes'm!",
 			typewriter = {
@@ -218,12 +218,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "The east side of the beach is where the Sakura girls like to gather. Last year, they blew everyone away with the quantity and quality of their swimsuits... but there might be some competition this year~",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "The east side of the beach is where the Sakura girls like to gather. Last year, they blew everyone away with the quantity and quality of their swimsuits... but there might be some competition this year~",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -238,13 +238,13 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "Look over there - it's Kaga and... huh? Where's Akagi?",
 			side = 0,
 			bgName = "star_level_bg_106",
-			hideOther = true,
+			actor = 201212,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
-			say = "Look over there - it's Kaga and... huh? Where's Akagi?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Um, is that her over there?",
 			typewriter = {
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -294,15 +294,15 @@ return {
 			}
 		},
 		{
-			actor = 307011,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307011,
+			nameColor = "#a9f548",
 			say = "There are a lot of pests trying to swarm around Commander this year... Ahaha, but I shall not permit that...!",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,12 +327,12 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			say = "Oh my, Akagi. Just what could you be talking about? Commander just wanted to enjoy some relaxation with big sister... isn't that right?",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh my, Akagi. Just what could you be talking about? Commander just wanted to enjoy some relaxation with big sister... isn't that right?",
+			actor = 303121,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "See? All the Sakura ships get along with each other so well!",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -408,10 +408,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Should we really be walking away...?",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -445,8 +445,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "I-I see, I am glad that my Elders are full of energy!",
 			typewriter = {
@@ -459,15 +459,15 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "And over there... is that Elder Takao?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -495,8 +495,8 @@ return {
 			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "That seems to be... Takao's idea of training. Blindfolded watermelon splitting, she calls it. If she succeeds, everyone gets to enjoy fresh watermelon - two birds with one stone!",
 			subActors = {
@@ -520,8 +520,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Strangely ingenious...",
 			typewriter = {
@@ -537,8 +537,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Oh, she just landed a clean blow.",
 			typewriter = {
@@ -551,12 +551,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "Way to go, Takao!",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Way to go, Takao!",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -571,11 +571,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Let's also go grab a couple of slices!",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -616,9 +616,9 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "That sounds like a fine arrangement, Elder Javelin.",
 			typewriter = {

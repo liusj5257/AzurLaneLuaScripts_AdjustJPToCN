@@ -1,22 +1,22 @@
 return {
-	id = "WORLD404B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404B",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "...Eh? Where’d all this fog come from?",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "...Eh? Where’d all this fog come from?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "BZZT————ZZZZZZZ——————",
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -199,10 +199,10 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:92}",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "{namecode:92}",
 			dir = 1,
+			side = 2,
 			say = "Akagi, what’s happening to you?",
 			dialogShake = {
 				speed = 0.09,
@@ -256,8 +256,8 @@ return {
 			say = "Kaga? Jintsuu?! ...Yuubari! Yukikaze!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

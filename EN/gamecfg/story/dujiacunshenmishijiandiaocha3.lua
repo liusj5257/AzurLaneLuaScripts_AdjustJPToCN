@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Spiriting-Away Incident?\n\n<size=45>Spirited Away</size>",
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "Onsen Resort - 2 days later...",
 			bgm = "theme-warmwinter-daily",
+			say = "Onsen Resort - 2 days later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Plays the Teacher a Lot",
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Commander, we're almost there!",
@@ -47,8 +47,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Commander, we're almost there!",
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I'm just so excited I couldn't think of anything else to say!",
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Although, it's weird how empty this place is. Shouldn't there be people in the lobby?",
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The first group that went said they'd come out and meet us...",
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Foo is Here Too",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Unless...",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Heheheh... This just screams \"mystery\" to me!",
@@ -244,28 +244,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_516",
+			bgm = "cw-story",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Onsen Resort - Inn Main Building",
-			bgm = "cw-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I suppose this tea was going to be our welcoming drink... Curiously, the kettle is still warm.",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Commander! Look at this!",
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "Fu Shun gestures toward the dining table, on top of which there's a card radiating an abnormal energy.",
@@ -406,8 +406,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "And on top of the black and red card, there's a slip of paper with letters in various fonts cut out from magazines. To be frank, it looks extremely creepy.",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Wow! Let me read it aloud.",
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"We wish to make you and your fleetmates feel welcome, and have planned the most wonderful play in the world for you.\"",
@@ -491,11 +491,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"We cannot wait to see you. Yours truly...\"",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Look! It really says \"Youkai Troupe\" on it!",
@@ -675,11 +675,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You heard me! Between me, Fu Shun, Kasumi, and Hatsuzuki, we've got just enough people to form an investigation team.",
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I'm feeling apprehensive about this, Comrade Commander. Should we radio the port and request backup?",

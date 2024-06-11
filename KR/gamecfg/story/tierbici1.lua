@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"녹아내리는 얼음\n\n<size=45>제1장 - 비서함</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "비스마르크",
 			dir = 1,
 			blackBg = true,
+			actor = 900010,
+			actorName = "비스마르크",
 			say = "동생아……미안하다……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "비스마르크",
 			dir = 1,
 			blackBg = true,
+			actor = 900010,
+			actorName = "비스마르크",
 			say = "날 용서하렴, 내가 저지른 모든 것들을……",
 			typewriter = {
 				speed = 0.05,
@@ -68,17 +68,17 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			bgmDelay = 1,
-			say = "후우……또 이 꿈인가? 벌써 몇 번째 꾸는 거지……",
 			bgm = "story-2",
+			actor = 405020,
+			nameColor = "#92fc63",
+			say = "후우……또 이 꿈인가? 벌써 몇 번째 꾸는 거지……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			say = "비서실에 일찍 오는 날이면, 언제나 비서함 담당인 티르피츠가 일하고 있는 모습을 볼 수 있다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "비서실에 일찍 오는 날이면, 언제나 비서함 담당인 티르피츠가 일하고 있는 모습을 볼 수 있다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#92fc63",
 			say = "마침 오늘의 업무 일정을 정리해두었으니 한 번 확인해보도록. 문제가 있다면 다시 수정하도록 하지.",
 			typewriter = {
 				speed = 0.05,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "책상 위엔 각이 잡혀 정리된 문서가 한 더미 올려져 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -250,9 +250,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "티르피츠는 그렇게, 언제나처럼 말끔히 공문을 처리해 나아갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -260,9 +260,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "역시 북쪽의 여왕. 그녀만큼 똑 부러진 비서함은 찾기 힘들 것이다.",
 			typewriter = {
 				speed = 0.05,

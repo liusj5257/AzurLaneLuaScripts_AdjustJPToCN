@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"その女、賢妻につき\n\n<size=45>一 秘書艦のお仕事？上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "こちらから指示しなくても、大鳳はいつも予め必要なものを用意してくれる。",
 			typewriter = {
 				speed = 0.05,
@@ -76,15 +76,15 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "指揮官様、お茶でもどうぞ♡",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…のどが渇いたと思った時には、いつも大鳳がお茶を持ってきてくれる。",
 			typewriter = {
 				speed = 0.05,
@@ -119,15 +119,15 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "指揮官様、少しお休みになられますか？大鳳が肩を揉んで差し上げますわ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……肩こりもお見通しである。",
 			typewriter = {
 				speed = 0.05,
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "♪～♪～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "大鳳から熱い視線を感じる……",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指揮官様？大鳳のことは気にせず、ご自由にどうぞ♡",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "指揮官様を見ずにして、大鳳はどのように指揮官様のことをもっともっと知ることができるのでありましょうか",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "これこそ秘書艦のすべきことじゃなくて…？",
 			typewriter = {
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "何故か妙に説得力がある。",
 			typewriter = {
 				speed = 0.05,
@@ -322,11 +322,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#a9f548",
+			stobpgm = true,
 			dir = 1,
 			blackBg = true,
-			stobpgm = true,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "（小声）ふふふ…そうよ…指揮官様の隣には大鳳さえいれば十分ですわ……",
 			typewriter = {
 				speed = 0.05,
@@ -338,12 +338,12 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "今、なんか聞こえたような……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "今、なんか聞こえたような……",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

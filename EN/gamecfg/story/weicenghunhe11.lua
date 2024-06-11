@@ -1,21 +1,21 @@
 return {
-	id = "WEICENGHUNHE11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "hunhe-battle",
+			side = 2,
 			dir = 1,
 			say = "Canal Stronghold? - Out at sea?",
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "It's no good. I can barely even get my aircraft to take off and land in this thick fog.",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "I've never seen anything like this before, even in the Mirror Seas.",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "In other words, we're completely lost in the fog...",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "\"This is no ordinary fog. It is actually the work of the Sirens. What we do know is that Baltimore and Enterprise most likely went missing within this fog.\"",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "The fact that you're unable to use your recon planes means that it's my time to shine! Let me handle the recon!",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -225,9 +225,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Ahh! Hold on! You're going to draw the enemy's fire!",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -252,8 +252,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "Huh? But if the enemy attacks, wouldn't they be giving away their position?",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "(This kid... I'm not sure if she's an optimist or just an idiot...)",
 			typewriter = {
 				speed = 0.05,
@@ -283,11 +283,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Fine, fine! If you're gonna use that thing, just make sure to be careful!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "Don't worry! Look, I do this all the time!",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2500

@@ -14,7 +14,7 @@ slot6 = {}
 slot7 = {}
 slot8 = {}
 
-function slot9(slot0)
+slot9 = function(slot0)
 	uv0("load story: " .. slot0.id)
 	table.insert(uv1, slot0)
 
@@ -28,7 +28,7 @@ slot10 = {
 	"US"
 }
 
-function slot0.GetStoryByName(slot0, slot1)
+slot0.GetStoryByName = function(slot0, slot1)
 	slot2 = uv0[PLATFORM_CODE]
 
 	if slot1 == "index" then
@@ -52,13 +52,13 @@ function slot0.GetStoryByName(slot0, slot1)
 	return slot4 and slot5
 end
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0._go = nil
 end
 
 slot11 = {
-	ASIDE = 1,
 	BG = 3,
+	ASIDE = 1,
 	DIALOG = 2
 }
 slot12 = {
@@ -69,7 +69,7 @@ slot12 = {
 slot13 = 0.3
 slot14 = 1
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	print("initializing story manager...")
 
 	slot2 = PoolMgr.GetInstance()
@@ -82,7 +82,7 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.Load(slot0)
+slot0.Load = function(slot0)
 	slot0._go:SetActive(false)
 
 	slot0.UIOverlay = GameObject.Find("Overlay/UIOverlay")
@@ -142,7 +142,7 @@ function slot0.Load(slot0)
 	slot0.material2 = findTF(slot0._go, "material2"):GetComponent(typeof(Image)).material
 end
 
-function slot0.IsPlayed(slot0, slot1, slot2)
+slot0.IsPlayed = function(slot0, slot1, slot2)
 	if getProxy(PlayerProxy) then
 		return slot3:getData():IsPlayed(slot1, slot2)
 	end
@@ -150,10 +150,10 @@ function slot0.IsPlayed(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 end
 
-function slot0.hideEffects(slot0)
+slot0.hideEffects = function(slot0)
 	for slot4 = 1, slot0._effectPanel.childCount do
 		if slot0._effectPanel:GetChild(slot4 - 1) then
 			setActive(slot5, false)
@@ -169,19 +169,19 @@ slot15 = {
 	"DailyLevelScene"
 }
 
-function slot0.PlayOnTaskAdded(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.PlayOnTaskAdded = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not table.contains(uv0, getProxy(ContextProxy):getCurrentContext().viewComponent.__cname) then
 		slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot16()
+slot16 = function()
 	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) then
 		return slot1.data.chapterVO
 	end
 end
 
-function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.GetStoryByName(slot0, slot1) then
 		return slot2 and slot2()
 	end
@@ -247,11 +247,11 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4, slot5)
 	return true
 end
 
-function slot0.getSelectedOptions(slot0)
+slot0.getSelectedOptions = function(slot0)
 	return slot0.selectedOptions
 end
 
-function slot0.storyLog(slot0, slot1)
+slot0.storyLog = function(slot0, slot1)
 	uv0(slot0.GetStoryByName(slot0, slot1))
 
 	if not uv1[slot1] then
@@ -262,7 +262,7 @@ function slot0.storyLog(slot0, slot1)
 
 	slot3 = ""
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		string.gsub(slot0 or "", "{namecode:(%d+)}", function (slot0)
 			return pg.name_code[tonumber(slot0)] and slot1.name
 		end)
@@ -297,11 +297,11 @@ function slot0.storyLog(slot0, slot1)
 	return slot3
 end
 
-function slot0.isRecall(slot0)
+slot0.isRecall = function(slot0)
 	return getProxy(ContextProxy):getCurrentContext().mediator == CollectionMediator
 end
 
-function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
+slot0.StartStory = function(slot0, slot1, slot2, slot3, slot4)
 	pg.CriMgr.GetInstance():StopCV_V3()
 
 	if not slot0.keepSeletedOptions then
@@ -379,7 +379,7 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 			return
 		end
 
-		function slot0()
+		slot0 = function()
 			if uv0.inTypeWritter then
 				uv0.typeWriter:setSpeed(uv0.typeWritterSpeedUp * Time.timeScale)
 			end
@@ -519,7 +519,7 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 							uv0()
 						end)
 					else
-						function uv1.typeWriteCallback()
+						uv1.typeWriteCallback = function()
 							if uv0.storyId == nil then
 								return
 							end
@@ -698,7 +698,7 @@ function slot0.StartStory(slot0, slot1, slot2, slot3, slot4)
 	end)()
 end
 
-function slot0.fadeOut(slot0, slot1, slot2, slot3)
+slot0.fadeOut = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1 == 1 and slot0._curtain or slot0._bg
 	slot5 = slot1 == 1 and slot0._curtainCG or slot0._bgCG
 	slot0.inFadeOut = true
@@ -733,7 +733,7 @@ function slot0.fadeOut(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.initAside(slot0, slot1)
+slot0.initAside = function(slot0, slot1)
 	slot2 = (not slot1.asideType or slot1.asideType == 1) and slot0._asideContainer or slot0._asideContainer2
 	slot3 = (not slot1.asideType or slot1.asideType == 1) and slot0._asideTpl or slot0._asideTpl2
 
@@ -780,7 +780,7 @@ function slot0.initAside(slot0, slot1)
 		SetActive(slot0._dialogue, false)
 	end
 
-	function slot5()
+	slot5 = function()
 		slot0 = 0
 		slot1 = nil
 		slot2 = ipairs
@@ -856,7 +856,7 @@ function slot0.initAside(slot0, slot1)
 	end
 end
 
-function slot0.initDialog(slot0, slot1)
+slot0.initDialog = function(slot0, slot1)
 	uv0("enter dialogue mode............")
 	SetActive(slot0._dialogue, true)
 	SetActive(slot0._asideContainer, false)
@@ -1048,7 +1048,7 @@ function slot0.initDialog(slot0, slot1)
 		end
 	end
 
-	function slot6()
+	slot6 = function()
 		setText(uv0.content, uv1.say or "...")
 
 		if uv1.typewriter then
@@ -1073,7 +1073,7 @@ function slot0.initDialog(slot0, slot1)
 	end
 end
 
-function slot0.flashin(slot0, slot1, slot2)
+slot0.flashin = function(slot0, slot1, slot2)
 	slot0.inflashin = true
 
 	setText(slot0.content, "")
@@ -1093,7 +1093,7 @@ function slot0.flashin(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.flashout(slot0, slot1, slot2)
+slot0.flashout = function(slot0, slot1, slot2)
 	slot0.inflashout = true
 	slot0._flash:GetComponent(typeof(Image)).color = slot1.flashout.black and Color(0, 0, 0) or Color(1, 1, 1)
 	slot0._flashCG.alpha = slot1.flashout.alpha[1]
@@ -1110,7 +1110,7 @@ function slot0.flashout(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.TypeWriter(slot0, slot1, slot2)
+slot0.TypeWriter = function(slot0, slot1, slot2)
 	slot4 = (slot1.typewriter.speed or 0.1) * Time.timeScale
 	slot0.inTypeWritter = true
 	slot0.typeWritterSpeedUp = slot3.speedUp or slot4
@@ -1118,7 +1118,7 @@ function slot0.TypeWriter(slot0, slot1, slot2)
 	slot0.typeWriter:setSpeed(slot4)
 	slot0.typeWriter:Play()
 
-	function slot0.typeWriter.endFunc()
+	slot0.typeWriter.endFunc = function()
 		uv0.inTypeWritter = false
 		uv0.typeWritterSpeedUp = nil
 
@@ -1128,7 +1128,7 @@ function slot0.TypeWriter(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getTagetActorTF(slot0, slot1)
+slot0.getTagetActorTF = function(slot0, slot1)
 	slot2, slot3, slot4 = nil
 
 	if slot1 == uv0.LEFT then
@@ -1147,7 +1147,7 @@ function slot0.getTagetActorTF(slot0, slot1)
 	return slot2, slot3, slot4
 end
 
-function slot0.paintingFadeOut(slot0, slot1, slot2, slot3)
+slot0.paintingFadeOut = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2.painting or {}
 
 	if slot1.side == slot2.side then
@@ -1186,11 +1186,11 @@ function slot0.paintingFadeOut(slot0, slot1, slot2, slot3)
 	slot0:setFade(slot5, 1, slot4.alpha or uv0, slot7)
 end
 
-function slot0.setScale(slot0, slot1, slot2, slot3, slot4)
+slot0.setScale = function(slot0, slot1, slot2, slot3, slot4)
 	LeanTween.scale(rtf(slot1), slot3, slot4):setUseEstimatedTime(true):setFrom(slot2)
 end
 
-function slot0.setCurtainFade(slot0, slot1)
+slot0.setCurtainFade = function(slot0, slot1)
 	if slot0.inFadeOut then
 		return
 	end
@@ -1203,11 +1203,11 @@ function slot0.setCurtainFade(slot0, slot1)
 	end))
 end
 
-function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
+slot0.setFade = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 	slot6 = {}
 
-	function slot7(slot0)
+	slot7 = function(slot0)
 		if IsNil(slot0.GetComponent(slot0, typeof(Image))) then
 			return
 		end
@@ -1276,7 +1276,7 @@ function slot0.setFade(slot0, slot1, slot2, slot3, slot4)
 	end))
 end
 
-function slot0.initBg(slot0, slot1)
+slot0.initBg = function(slot0, slot1)
 	uv0("enter bg mode............")
 	setActive(slot0._bg, true)
 	SetActive(slot0._asideContainer, false)
@@ -1302,7 +1302,7 @@ function slot0.initBg(slot0, slot1)
 	setActive(slot0.nameRight, slot1.side == 1)
 	setActive(slot0.nameLeft, slot1.side == 0)
 
-	function slot3(slot0, slot1, slot2, slot3, slot4)
+	slot3 = function(slot0, slot1, slot2, slot3, slot4)
 		LeanTween.value(go(uv0._bg), slot0, slot1, slot2):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
 			uv0._bgCG.alpha = slot0
 		end)):setDelay(slot3 or 0):setOnComplete(System.Action(function ()
@@ -1413,7 +1413,7 @@ function slot0.initBg(slot0, slot1)
 	end
 end
 
-function slot0.getNameAndPainting(slot0, slot1)
+slot0.getNameAndPainting = function(slot0, slot1)
 	slot2 = ""
 	slot3 = ""
 
@@ -1447,7 +1447,7 @@ function slot0.getNameAndPainting(slot0, slot1)
 	return slot1.nameColor and setColorStr(slot2, slot1.nameColor) or setColorStr(slot2, COLOR_WHITE), slot3
 end
 
-function slot0.initOptions(slot0, slot1, slot2)
+slot0.initOptions = function(slot0, slot1, slot2)
 	uv0("enter bg Options............")
 
 	if not slot0.optionItems then
@@ -1484,7 +1484,7 @@ function slot0.initOptions(slot0, slot1, slot2)
 	slot0.showOptions(slot0)
 end
 
-function slot0.showOptions(slot0)
+slot0.showOptions = function(slot0)
 	setActive(slot0.options, true)
 
 	slot1 = 0
@@ -1515,7 +1515,7 @@ function slot0.showOptions(slot0)
 	end))
 end
 
-function slot0.hideOptions(slot0, slot1, slot2)
+slot0.hideOptions = function(slot0, slot1, slot2)
 	slot3 = 0
 
 	LeanTween.cancel(go(slot0.optionsBg))
@@ -1553,7 +1553,7 @@ function slot0.hideOptions(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.removeOptBtns(slot0)
+slot0.removeOptBtns = function(slot0)
 	if not slot0.optionItems then
 		return
 	end
@@ -1563,7 +1563,7 @@ function slot0.removeOptBtns(slot0)
 	end
 end
 
-function slot0.setEffects(slot0, slot1)
+slot0.setEffects = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot1) do
 		if slot6.name then
 			LeanTween.delayedCall(slot6.delay or 0, System.Action(function ()
@@ -1604,7 +1604,7 @@ function slot0.setEffects(slot0, slot1)
 	end
 end
 
-function slot0.EndStory(slot0, slot1)
+slot0.EndStory = function(slot0, slot1)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:removeOptBtns()
 
@@ -1654,7 +1654,7 @@ function slot0.EndStory(slot0, slot1)
 	slot0.popQuery(slot0)
 end
 
-function slot0.setSubActors(slot0, slot1, slot2)
+slot0.setSubActors = function(slot0, slot1, slot2)
 	if not findTF(slot1, "actor_sub") then
 		return
 	end
@@ -1697,7 +1697,7 @@ function slot0.setSubActors(slot0, slot1, slot2)
 	end
 end
 
-function slot0.popQuery(slot0)
+slot0.popQuery = function(slot0)
 	if table.getCount(uv0) > 0 then
 		table.remove(uv0, 1)
 
@@ -1707,23 +1707,23 @@ function slot0.popQuery(slot0)
 	end
 end
 
-function slot0.addQuery(slot0, slot1, slot2)
+slot0.addQuery = function(slot0, slot1, slot2)
 	table.insert(uv0, {
 		slot1,
 		slot2
 	})
 end
 
-function slot0.isActive(slot0)
+slot0.isActive = function(slot0)
 	return isActive(slot0._go)
 end
 
-function slot0.updatePainting(slot0, slot1, slot2)
+slot0.updatePainting = function(slot0, slot1, slot2)
 	if not slot0.tweenObjs then
 		slot0.tweenObjs = {}
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		slot0.material:SetFloat("_LineGray", 0.3)
 		slot0.material:SetFloat("_TearDistance", 0)
 		LeanTween.cancel(slot0.gameObject)

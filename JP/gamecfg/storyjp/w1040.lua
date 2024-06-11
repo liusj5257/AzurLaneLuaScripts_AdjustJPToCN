@@ -1,15 +1,15 @@
 return {
-	id = "W1040",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1040",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "密封されているコンテナをスキャンしました。エネルギー貯蔵装置を使用すれば、戦利品だけでなくモジュールのサンプルも獲得できます",
 			painting = {
 				alpha = 0.3,

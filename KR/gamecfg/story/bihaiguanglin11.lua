@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "용궁·외곽 지역",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "용궁·외곽 지역",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -90,8 +90,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "무사시 님을 도와 신사의 일을 처리하다니... 풉. 카츠라기가 구축함들에게 큰소리를 제대로 친 모양이네요.",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "지식과 능력은 모두 진짜니까... 문제는 없을 거예요.",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "결계 안에서 행동의 제약을 받는다고 해도 정규 항공모함은 정규 항공모함인 건가요...",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "그렇게 큰 파도를 마주하면 항로를 바꿀 것이지... 정면으로 부딪치다니요.",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "아니요. 곤란한 일을 피해서는 안 되죠. 지금은 시합 중이니까, 한번 돌아가기 시작하면 계속 돌아가게 된다고요?",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "시마카제의 시합에 이렇게 진심으로 달려들 줄은 몰랐는데요...",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "재미있잖아요? 재미있는 마음으로 재미있는 일을 하면, 재미있는 정보를 얻기도 쉬워지죠.",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(바닷속에 갇혀 연락도 끊겼는데... 재미있는 마음이 대체 어디서 나오는 건가요!)",
 			typewriter = {
@@ -319,9 +319,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(역시 안 돼... 의욕이 생기지 않아요! 무슨 일을 겪어도 상관없으니... 어서 끝났으면...)",
 			typewriter = {

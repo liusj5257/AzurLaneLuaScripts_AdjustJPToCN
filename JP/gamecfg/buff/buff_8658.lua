@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "boss shion",
 	time = 0,
-	color = "yellow",
+	name = "boss shion",
+	init_effect = "",
+	id = 8657,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8657,
+	color = "yellow",
 	icon = 8657,
 	last_effect = "",
 	effect_list = {

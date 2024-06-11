@@ -1,12 +1,12 @@
 return {
-	id = "W1031",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1031",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在海域裡發現了塞壬的痕跡......",
 			typewriter = {
 				speed = 0.05,

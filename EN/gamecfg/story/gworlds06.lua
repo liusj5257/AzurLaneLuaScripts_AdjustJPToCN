@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDS06",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDS06",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You've lifted all movement restrictions between normal zones on the Operation Siren map and earned the corresponding zone securing rewards. All normal zones will remain scouted until the next reset.",
 			typewriter = {
 				speed = 0.05,

@@ -2,11 +2,11 @@ slot0 = class("WorldMediaCollectionRecordDetailLayer", import(".WorldMediaCollec
 slot0.TypeStory = 1
 slot0.TypeBattle = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionMemoryDetailUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 	setActive(slot0._tf:Find("ItemRect/TitleRecord"), true)
@@ -14,11 +14,11 @@ function slot0.OnInit(slot0)
 
 	slot0.recordItemList = slot0:findTF("ItemRect"):GetComponent("LScrollRect")
 
-	function slot0.recordItemList.onInitItem(slot0)
+	slot0.recordItemList.onInitItem = function(slot0)
 		uv0:OnInitRecordItem(slot0)
 	end
 
-	function slot0.recordItemList.onUpdateItem(slot0, slot1)
+	slot0.recordItemList.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateRecordItem(slot0 + 1, slot1)
 	end
 
@@ -31,7 +31,7 @@ function slot0.OnInit(slot0)
 	setText(slot0._tf:Find("ItemRect/ProgressDesc"), i18n("world_collection_2"))
 end
 
-function slot0.OnInitRecordItem(slot0, slot1)
+slot0.OnInitRecordItem = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -45,7 +45,7 @@ function slot0.OnInitRecordItem(slot0, slot1)
 	end, SOUND_BACK)
 end
 
-function slot0.OnUpdateRecordItem(slot0, slot1, slot2)
+slot0.OnUpdateRecordItem = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -80,11 +80,11 @@ function slot0.OnUpdateRecordItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.SetStoryMask(slot0, slot1)
+slot0.SetStoryMask = function(slot0, slot1)
 	slot0.memoryMask = slot1
 end
 
-function slot0.PlayMemory(slot0, slot1)
+slot0.PlayMemory = function(slot0, slot1)
 	if slot1.type == uv0.TypeBattle then
 		slot0:emit(WorldMediaCollectionMediator.BEGIN_STAGE, {
 			memory = true,
@@ -112,7 +112,7 @@ function slot0.PlayMemory(slot0, slot1)
 	end
 end
 
-function slot0.ShowRecordGroup(slot0, slot1)
+slot0.ShowRecordGroup = function(slot0, slot1)
 	slot0.contextData.recordGroup = slot1
 
 	assert("Missing Record Group Config ID: " .. (slot1 or "NIL"))
@@ -131,11 +131,11 @@ function slot0.ShowRecordGroup(slot0, slot1)
 	end) .. "/" .. #slot0.records)
 end
 
-function slot0.CheckRecordIsUnlock(slot0)
+slot0.CheckRecordIsUnlock = function(slot0)
 	return nowWorld():GetCollectionProxy():IsUnlock(slot0.id) or pg.NewStoryMgr.GetInstance():IsPlayed(slot0.story, true)
 end
 
-function slot0.CleanList(slot0)
+slot0.CleanList = function(slot0)
 	slot0.records = nil
 
 	slot0.recordItemList:SetTotalCount(0)

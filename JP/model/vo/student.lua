@@ -5,7 +5,7 @@ slot0.CANCEL_TYPE_AUTO = 0
 slot0.CANCEL_TYPE_MANUAL = 1
 slot0.CANCEL_TYPE_QUICKLY = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id or slot1.room_id
 	slot0.skillId = slot1.skill_pos
 	slot0.skillIdIndex = nil
@@ -18,15 +18,19 @@ function slot0.Ctor(slot0, slot1)
 	slot0.state = slot1.state or uv0.ATTEND
 end
 
-function slot0.updateSkillId(slot0, slot1)
+slot0.IsFinish = function(slot0)
+	return slot0:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.updateSkillId = function(slot0, slot1)
 	slot0.skillId = slot1
 end
 
-function slot0.setSkillIndex(slot0, slot1)
+slot0.setSkillIndex = function(slot0, slot1)
 	slot0.skillIdIndex = slot1
 end
 
-function slot0.getSkillId(slot0, slot1)
+slot0.getSkillId = function(slot0, slot1)
 	if slot0.skillId then
 		return slot0.skillId
 	else
@@ -34,39 +38,39 @@ function slot0.getSkillId(slot0, slot1)
 	end
 end
 
-function slot0.setLesson(slot0, slot1)
+slot0.setLesson = function(slot0, slot1)
 	slot0.lessonId = slot1
 end
 
-function slot0.setFinishTime(slot0, slot1)
+slot0.setFinishTime = function(slot0, slot1)
 	slot0.finishTime = slot1
 end
 
-function slot0.setTime(slot0, slot1)
+slot0.setTime = function(slot0, slot1)
 	slot0.time = slot1
 end
 
-function slot0.getTime(slot0)
+slot0.getTime = function(slot0)
 	return slot0.time or slot0.finishTime - slot0.startTime
 end
 
-function slot0.getFinishTime(slot0)
+slot0.getFinishTime = function(slot0)
 	return slot0.finishTime
 end
 
-function slot0.getState(slot0)
+slot0.getState = function(slot0)
 	return slot0.state
 end
 
-function slot0.getSkillDesc(slot0, slot1, slot2)
+slot0.getSkillDesc = function(slot0, slot1, slot2)
 	return getSkillDescLearn(slot0, slot1, slot2)
 end
 
-function slot0.getSkillName(slot0)
+slot0.getSkillName = function(slot0)
 	return getSkillName(slot0:getSkillId(getProxy(BayProxy):getShipById(slot0.shipId)))
 end
 
-function slot0.getShipVO(slot0)
+slot0.getShipVO = function(slot0)
 	return getProxy(BayProxy):getShipById(slot0.shipId)
 end
 

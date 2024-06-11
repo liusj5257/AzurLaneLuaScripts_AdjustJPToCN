@@ -1,17 +1,17 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI02",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI02",
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 207020,
 			side = 0,
-			bgm = "level03",
-			dir = 1,
 			say = "偵察機によれば、ケビール港に停泊中の戦闘艦艇は…戦艦4隻、軽空母1隻、駆逐艦6隻だ。いずれも戦闘態勢にはなっていないようだが…",
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			dir = 1,
 			say = "護教騎士団は、セイレーンと……？なんて嘆かわしいことでしょうか……",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

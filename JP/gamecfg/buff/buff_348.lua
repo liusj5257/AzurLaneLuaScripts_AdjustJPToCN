@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "射水鱼全弹发射弹幕减速",
 	time = 3,
+	name = "射水鱼全弹发射弹幕减速",
+	init_effect = "",
 	picture = "",
 	desc = "3s减速",
 	stack = 1,

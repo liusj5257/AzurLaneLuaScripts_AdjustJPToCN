@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG18",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>I am a warship, brought to life for the purpose of sinking those that stand in my way</size>",
@@ -37,14 +37,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_jichang_3",
-			actorName = "Taihou μ",
 			dir = 1,
 			bgmDelay = 2,
-			say = "There you are at last, Astrum.",
 			bgm = "idol-kannjouLOYALTY-inst",
+			actorName = "Taihou μ",
+			say = "There you are at last, Astrum.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Roon μ",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Albacore μ",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,8 +96,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou μ",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,10 +114,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(No reaction? Weird. She usually gets all worked up when she sees me.)",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 207110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "This is quite the ominous theme... Is that the type of image you wish Verheerender to have?",
 			typewriter = {
 				speed = 0.05,
@@ -148,10 +148,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 103250,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Don't let them pressure you. We'll do our best with our own themes.",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You don't scare Tashkent!",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 403080,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Let me guess... You ran into Polaris, didn't you? Why, they must have told you all about us and our plans. With the power of the Muse System, the Commander shall be ours alone.",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 202280,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You... intend to kidnap Master?!",
 			typewriter = {
 				speed = 0.05,
@@ -216,10 +216,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "And using the very thing you were entrusted to test?! That's just dirty!",
 			typewriter = {
 				speed = 0.05,
@@ -233,10 +233,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 307110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Call it whatever you may, I don't care. If it weren't for the incredible power these devices grant, I would've never partaken in this to begin with.",
 			typewriter = {
 				speed = 0.05,
@@ -250,10 +250,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 403080,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Everyone might make them out to be musical instruments, but at the end of the day, they are weapons. We're simply using them the way we see fit.",
 			typewriter = {
 				speed = 0.05,
@@ -267,10 +267,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 207110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "The way you see fit... What is it that you wish to express with your songs? Destruction? Chaos?",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou μ",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Roon μ",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou μ",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Roon μ",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou μ &Roon μ",
+			side = 2,
 			bgName = "bg_jichang_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "DESTRUCTION!",
 			typewriter = {
 				speed = 0.05,

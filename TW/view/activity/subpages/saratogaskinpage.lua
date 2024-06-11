@@ -1,6 +1,6 @@
 slot0 = class("SaratogaSkinPage", import(".TemplatePage.PreviewTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.fightBtn = slot0:findTF("btn_list/fight", slot0.bg)
@@ -8,7 +8,7 @@ function slot0.OnInit(slot0)
 	slot0.fightBtn = slot0:findTF("btn_list/fight", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.fightBtn, function ()
 		slot0, slot1 = getProxy(ChapterProxy):getLastMapForActivity()

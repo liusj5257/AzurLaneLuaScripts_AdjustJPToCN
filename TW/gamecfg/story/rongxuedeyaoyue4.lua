@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"融雪的邀約\n\n<size=45>4 4.鳶尾花的指引</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "雪原中的一汪清泉，蒸騰的水汽縈繞在空中，似乎從中還傳來了窸窸窣窣的聲音。",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "雪原中的一汪清泉，蒸騰的水汽縈繞在空中，似乎從中還傳來了窸窸窣窣的聲音。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			say = "在我走近時，耳畔響起了少女那熟悉的禱告聲——",
 			typewriter = {
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "剛才明顯感覺到了您的視線……難道是錯覺？",
 			painting = {
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "……鳶尾花，沿途有栽種過嗎……",
 			painting = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "如果您也打算來享受冬日溫泉那美好又溫暖的治癒的話，可以和我一同……",
 			painting = {
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "不知是否是錯覺，霞飛的臉上似乎爬上了一抹微紅？",
 			painting = {
@@ -300,17 +300,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "這汪溫泉，讓您身心感覺到些許的治癒了嗎？",
 			painting = {
@@ -335,12 +335,12 @@ return {
 			}
 		},
 		{
-			actor = 907012,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "溫暖而舒暢的感覺遊走在四肢百骸之中，感覺身體中的疲憊一掃而空。",
 			painting = {
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 907012,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 907012,
 			nameColor = "#A9F548FF",
 			say = "另外，請讓我幫您進行一些入浴後的按摩……對促進血液循環大有好處。",
 			painting = {

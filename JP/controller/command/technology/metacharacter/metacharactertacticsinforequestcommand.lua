@@ -1,6 +1,6 @@
 slot0 = class("MetaCharacterTacticsInfoRequestCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = ""
 
 	for slot8, slot9 in ipairs(slot1:getBody().idList) do

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG8",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103060,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "인디는 지금 뭐 하고 있을까~",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,8 +87,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -187,8 +187,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,

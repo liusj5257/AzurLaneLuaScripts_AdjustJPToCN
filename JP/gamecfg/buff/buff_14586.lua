@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 100
+					number = 100,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 610
+					number = 610,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 200
+					number = 200,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 720
+					number = 720,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 300
+					number = 300,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 830
+					number = 830,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 400
+					number = 400,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 940
+					number = 940,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1050
+					number = 1050,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 600
+					number = 600,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1160
+					number = 1160,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 700
+					number = 700,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1270
+					number = 1270,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 800
+					number = 800,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1380
+					number = 1380,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 900
+					number = 900,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1500
+					number = 1500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -233,15 +233,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1000
+					number = 1000,
+					attr = "antiAirPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "属性变更",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

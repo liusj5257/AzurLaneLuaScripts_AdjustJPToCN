@@ -4,7 +4,7 @@ slot2 = 2
 slot3 = 3
 slot4 = 4
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.layout = slot1.layout
@@ -12,11 +12,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.spacing = slot1.spacing or 35
 end
 
-function slot0.GetMode(slot0)
+slot0.GetMode = function(slot0)
 	return Story.MODE_CAST
 end
 
-function slot0.DataToLayout(slot0, slot1)
+slot0.DataToLayout = function(slot0, slot1)
 	if slot1[1] == uv0 then
 		return {
 			type = uv0,
@@ -55,7 +55,7 @@ function slot0.DataToLayout(slot0, slot1)
 	end
 end
 
-function slot0.GetLayout(slot0)
+slot0.GetLayout = function(slot0)
 	slot1 = {}
 	slot2 = ipairs
 	slot3 = slot0.layout or {}
@@ -67,11 +67,11 @@ function slot0.GetLayout(slot0)
 	return slot1
 end
 
-function slot0.GetSpacing(slot0)
+slot0.GetSpacing = function(slot0)
 	return slot0.spacing
 end
 
-function slot0.GetPlayTime(slot0)
+slot0.GetPlayTime = function(slot0)
 	return slot0.time
 end
 

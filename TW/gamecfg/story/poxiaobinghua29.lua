@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA29",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900307,
-			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "聽說妳最近的研究取得了突破性進展？",
 			bgm = "blueocean-image",
+			actor = 900307,
+			nameColor = "#ffff4d",
+			say = "聽說妳最近的研究取得了突破性進展？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,11 +42,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 900308,
+			nameColor = "#ffff4d",
 			say = "沒錯沒錯！聽我說，最近我好像終於在心智覺醒的研究方向邁出關鍵一步了……！",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,12 +152,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900308,
+			nameColor = "#ffff4d",
 			say = "你還記得之前我跟你說過的那個對於心智魔方有著獨特適應性的人嗎————",
 			typewriter = {
 				speed = 0.05,

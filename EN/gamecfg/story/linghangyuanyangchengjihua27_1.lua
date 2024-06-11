@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-31-10",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg21",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-12",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-31-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh! Oh gosh!",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,14 +40,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "My towel is slipping off!",
 			voice = "event:/educate/tb/educate-tb-story-31-11",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "My towel is slipping off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "She is sitting right next to the hot spring's tap, so maybe the flow of hot water made the towel sag.",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "At any rate, the tightly-wrapped towel suddenly comes undone and falls down limply.",
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "With haste, she clutches the towel to cover herself up... but it's not enough.",
@@ -91,14 +91,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Pl-please don't stare!",
 			voice = "event:/educate/tb/educate-tb-story-31-12",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Pl-please don't stare!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,14 +109,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Oh, goodness, this is so embarrassing...",
 			voice = "event:/educate/tb/educate-tb-story-31-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Oh, goodness, this is so embarrassing...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,14 +139,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Okay...",
 			voice = "event:/educate/tb/educate-tb-story-31-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Okay...",
 			painting = {
 				alpha = 0.3,
 				time = 1

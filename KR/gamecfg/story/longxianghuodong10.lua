@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 306060,
 			nameColor = "#92fc63",
 			side = 1,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "큭…여기까지인가…………",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "그래도 이걸로 모두에게 도움이 되었을 터………",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1,
 					x = 2250
@@ -63,14 +63,14 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#92fc63",
 			say = "이겼어……?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -159,14 +159,14 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#92fc63",
 			say = "류조, 졌나 보네……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -240,12 +240,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
-			nameColor = "#92fc63",
-			say = "쇼카쿠 언니, 잠깐! 진츠가 있는 2수전이 지금 적과 조우했다고 연락을 해 왔어!",
 			dir = 1,
 			bgm = "battle-boss-2",
+			actor = 307060,
+			nameColor = "#92fc63",
+			say = "쇼카쿠 언니, 잠깐! 진츠가 있는 2수전이 지금 적과 조우했다고 연락을 해 왔어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

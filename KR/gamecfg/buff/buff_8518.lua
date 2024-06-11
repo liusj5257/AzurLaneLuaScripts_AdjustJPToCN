@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "三笠boss残血无敌buff",
 	time = 99999,
+	name = "三笠boss残血无敌buff",
+	init_effect = "",
 	picture = "",
 	desc = "三笠boss残血无敌buff",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 8518,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			bgm = "battle-boss-4",
-			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 307080,
 			nameColor = "#a9f548",
 			say = "還不夠，這種程度還遠遠不夠！……妾身的力量，應該遠不止這種程度才對！",
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "測試者",
 			say = "無趣……",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "測試者",
 			say = "大和級船體改，信濃號裝甲航母。原本被視為重櫻的希望而被建造出來，實際上的數據只是這種程度嗎。",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "區區測試者而已……妾身已經與你進行過無數次對局了！",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "測試者",
 			say = "進行過無數次的對局？這應該是我要說的台詞才對。",
 			typewriter = {
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "測試者",
 			say = "真正的實驗，需要可靠的數據，嚴謹的建模，以及大量的計算。妳所依靠的不過是虛無縹緲的幻想而已。",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "信濃大人，您位置太靠前了！快退回來！",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "不……這樣才是正確的，只有這樣才能在測試者放鬆警惕的時候抵達它脆弱的部分！",
 			typewriter = {
@@ -192,14 +192,14 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "測試者",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900011,
 			nameColor = "#ff5c5c",
 			say = "嗯？居然直接攻擊這個地方……",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -250,8 +250,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "觀察到測試者的主炮受損，敵方攻擊頻率下降了！",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "然後是能量的供應模組，妾身記得是在……",
 			typewriter = {
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_mirror",
-			say = "轟————————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————————！",
 			flashN = {
 				color = {
 					1,
@@ -337,8 +337,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "潛艇的襲擊？！怎麼可能…？究竟什麼時候從哪裡……",
 			typewriter = {
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "測試者",
 			say = "戰場需要的不是無紀律的匹夫之勇，重櫻的命運也不會因為妳一人的行動而改變。",
 			typewriter = {
@@ -368,11 +368,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "測試者",
 			say = "……測試結果錄入，信濃的結局沒有發生任何改變。",
 			typewriter = {
@@ -385,17 +385,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_underwater",
-			actorName = "{namecode:182}",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "什麼…？就這麼草率的？！",
+			bgName = "bg_underwater",
 			bgm = "bsm-2",
+			actorName = "{namecode:182}",
+			say = "什麼…？就這麼草率的？！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -468,9 +468,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_underwater",
+			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {

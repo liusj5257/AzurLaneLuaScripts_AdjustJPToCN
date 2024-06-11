@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"凛として鬼の如く\n\n<size=45>五  身を挺して</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 302080,
 			nameColor = "#a9f548",
 			say = "素振りもいくらか様になってきたようだな",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "凪のような精神とは程遠いが……それもまたお前の指揮官としての素質だろう",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "最初のころに比べたらずいぶん落ち着いている。そろそろ度胸試しでもしたいところだが……",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "いいから話してみろ。何か不安なことがあるなら、あてが取り除いてやる",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 302050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302050,
+			nameColor = "#a9f548",
 			say = "うぅ……じ、実はさっき寮舎でおばけを見たの",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "おばけ？",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "つまり……怪しい者が潜り込んでいたということか。これは調査が必要だな…",
 			typewriter = {
@@ -228,14 +228,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "五十鈴がおばけを見たという衣裳室は、パーティーで着るドレスやスーツが保管されている場所であった。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,9 +263,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "電気が切れているな……指揮官、不届きものがまだ潜んでいるかもしれんから気をつけろ",
 			typewriter = {
@@ -296,9 +296,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "聞こえているか！不審者！いるならとっとと出てくるんだな",
 			effects = {
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
+			nameColor = "#a9f548",
 			say = "……どうやらここにはもういないようだな",
 			effects = {
 				{
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "鬼怒が振り返ったその瞬間、彼女の不意をついたように奥から白い布がゆっくりと動き始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "指揮官！なにを――",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actor = 301720,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301720,
+			nameColor = "#a9f548",
 			say = "わっしょーい！",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -442,9 +442,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "なっ！？",
 			typewriter = {
@@ -475,9 +475,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "浦波、こんなところで何をしている",
 			typewriter = {
@@ -490,12 +490,12 @@ return {
 			}
 		},
 		{
-			actor = 301720,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301720,
+			nameColor = "#a9f548",
 			say = "カワイコレクションを探してたのー。ウキウキのワクワクなアイテムねー",
 			typewriter = {
 				speed = 0.05,
@@ -507,8 +507,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -520,9 +520,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "このかっこいいマントはお前が探してた宝物ってわけか。ふむ、浦波にしてはいいセンス……",
 			typewriter = {
@@ -535,12 +535,12 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
+			nameColor = "#a9f548",
 			say = "……コホン！！！そ、それよりも指揮官、さっきのことだが……",
 			typewriter = {
 				speed = 0.05,
@@ -555,9 +555,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……いや、なんでもない。どうやらお前に度胸試しは必要なさそうだ",
 			typewriter = {

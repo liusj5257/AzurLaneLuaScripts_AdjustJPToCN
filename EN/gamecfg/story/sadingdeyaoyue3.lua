@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SADINGDEYAOYUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SADINGDEYAOYUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Where All Roads Lead\n\n<size=45>3 The Commander's Worries</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Somewhere in the Eagle Union...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-arbitrationsystem-theme",
+			say = "Somewhere in the Eagle Union...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"Let's focus on the task at hand first, and once everything blows over, we'll enjoy the rest of the event like ordinary people.\"",
 			typewriter = {
 				speed = 0.05,
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander... Eldridge is here to remind you... that the next round of equipment testing is starting...",
 			typewriter = {
 				speed = 0.05,
@@ -478,12 +478,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um... I thought I heard Saratoga's voice...",
 			typewriter = {
 				speed = 0.05,
@@ -551,10 +551,10 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101260,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander, are you okay?",
 			typewriter = {
 				speed = 0.05,
@@ -566,12 +566,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "If you're tired... Eldridge will try to... get the tests pushed back.",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 EventConst = require("view/event/EventConst")
 slot0 = class("EventDetailPanel")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.go = slot1
@@ -59,20 +59,20 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.index = slot1
 	slot0.event = slot2
 
 	slot0:Flush()
 end
 
-function slot0.UsePrevFormation(slot0)
+slot0.UsePrevFormation = function(slot0)
 	if slot0.event and slot0.event:ExistPrevFormation() then
 		slot0.dispatch(EventConst.EVEN_USE_PREV_FORMATION, slot0.event, slot0.event:GetPrevFormation())
 	end
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	setActive(slot0.usePrevFormationBtn, slot0.event:ExistPrevFormation() and slot0.event.state == EventInfo.StateNone and slot0.event:CanRecordPrevFormation())
 	eachChild(slot0.btn, function (slot0)
 		if uv0.event.state == EventInfo.StateNone and slot0.name == "start" then
@@ -135,21 +135,21 @@ function slot0.Flush(slot0)
 	end
 end
 
-function slot0.setConditionStr(slot0, slot1, slot2)
+slot0.setConditionStr = function(slot0, slot1, slot2)
 	return slot2 and setColorStr(slot1, COLOR_YELLOW) or setColorStr(slot1, "#F35842FF")
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 
-function slot0.onChangeClick(slot0)
+slot0.onChangeClick = function(slot0)
 	if slot0.event.state == EventInfo.StateNone then
 		slot0.dispatch(EventConst.EVENT_OPEN_DOCK, slot0.event)
 	end
 end
 
-function slot0.onRemoveClick(slot0, slot1)
+slot0.onRemoveClick = function(slot0, slot1)
 	if slot0.event.state == EventInfo.StateNone then
 		table.remove(slot0.event.shipIds, slot1)
 		table.remove(slot0.event.ships, slot1)
@@ -157,7 +157,7 @@ function slot0.onRemoveClick(slot0, slot1)
 	end
 end
 
-function slot0.onFuncClick(slot0)
+slot0.onFuncClick = function(slot0)
 	if slot0.event.state == EventInfo.StateNone then
 		slot0.dispatch(EventConst.EVENT_START, slot0.event)
 	elseif slot0.event.state == EventInfo.StateActive then
@@ -167,7 +167,7 @@ function slot0.onFuncClick(slot0)
 	end
 end
 
-function slot0.findTF(slot0, slot1)
+slot0.findTF = function(slot0, slot1)
 	return findTF(slot0.tr, slot1)
 end
 

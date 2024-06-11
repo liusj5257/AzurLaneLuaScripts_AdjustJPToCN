@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA35",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305120,
-			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "信濃大人，您醒了？",
 			bgm = "story-4",
+			actor = 305120,
+			nameColor = "#a9f548",
+			say = "信濃大人，您醒了？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "這裡是…？戰況怎麼樣了…！",
 			dialogShake = {
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（這種感覺…這裡確實是現世。這麼說從在船上睡著之後到現在為止發生的一切，全部都是夢中之事嗎…)",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（啊…居然完全沒有意識到…妾身還是不夠細心啊。不過太好了…尚且還有挽回的餘地！）",
 			typewriter = {
@@ -106,15 +106,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:50}",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "{namecode:50}",
 			say = "信濃大人，您休息得還好嗎？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:27}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:27}",
 			dir = 1,
+			actorName = "{namecode:27}",
 			say = "哎？！這個不行，我們怎麼做出如此僭越的事……",
 			dialogShake = {
 				speed = 0.09,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:27}",
 			dir = 1,
+			actorName = "{namecode:27}",
 			say = "唔…信、信濃！請您放心，不論路上發生什麼危險，涼月都會拼死保護您的安全！",
 			dialogShake = {
 				speed = 0.09,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -408,8 +408,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "很好，這樣的氛圍才與那裡稍微接近了一些……接下來，差不多該到了……",
 			typewriter = {
@@ -441,8 +441,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "果然來了……兩支艦隊航向相同，結伴而行會更加安全，立刻向她們發出同行的命令。",
 			typewriter = {
@@ -458,9 +458,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 301840,
 			dir = 1,
 			blackBg = true,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "…哎？是！",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

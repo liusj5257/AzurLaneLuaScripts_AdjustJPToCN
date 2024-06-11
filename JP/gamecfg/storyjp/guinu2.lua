@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"凛として鬼の如く\n\n<size=45>二  実力差</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 302080,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……精神を鍛えたいと言い出した時、どういう風の吹き回しかと思っていたが",
 			bgm = "story-1",
+			actor = 302080,
+			nameColor = "#a9f548",
+			say = "……精神を鍛えたいと言い出した時、どういう風の吹き回しかと思っていたが",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "ふん、根性を見せてくれるというなら、今日はあての日課の素振りを体験してみるといいだろう",
 			typewriter = {
@@ -69,15 +69,15 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302080,
+			nameColor = "#a9f548",
 			say = "まずは素振り千本からだ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,8 +105,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "どうしたその表情は？さては簡単すぎて拍子抜けしたのか？",
 			typewriter = {
@@ -137,14 +137,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 302080,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "……まさか、もう動けないのか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,9 +169,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "竹刀を振り続けて腕がパンパンになっている……一方の鬼怒は立ち姿勢も変わらぬまま息も乱れていない。",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……ふん「問題ない」か。いいだろう。ならば次は軽く稽古と行こう。かかってこい！",
 			effects = {
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "一度呼吸を整えてから、全力で鬼怒に竹刀で立ち向かっていく。",
 			effects = {
 				{
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "しかしやはりというべきか……鬼怒への攻撃のほとんどは避けられるか、受け流された。",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "ははは！でも立ち向かってきたその気概はなかなかのものだぞ。そこは認めてやろう、指揮官",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……うん？どうしたんだ。さっきからずっとこっちをじろじろと",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "み、見惚れるのは勝手だが手を抜くんじゃないぞ",
 			typewriter = {

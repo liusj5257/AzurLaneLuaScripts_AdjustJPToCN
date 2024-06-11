@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "长春技能",
 	cd = 0,
+	picture = "0",
+	desc = "长春技能",
 	painting = 1,
 	id = 15220,
-	picture = "0",
 	castCV = "skill",
-	desc = "长春技能",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerVanguardFleet",
 				"TargetNationality"
@@ -33,9 +33,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerMainFleet",
 				"TargetNationality"

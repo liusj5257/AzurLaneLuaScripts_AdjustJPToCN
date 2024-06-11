@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"曙光和愉快的夥伴們\n\n<size=45>六、真正的實力</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 701030,
 			nameColor = "#a9f548",
 			say = "欸欸欸？？？真的要打嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 701040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 701040,
+			nameColor = "#a9f548",
 			say = "不管敵人是誰，只要把她們都揍扁就行了吧！",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "曙光同志說的對。我們應該徹底分析對方的戰鬥方法，贏得這場演習",
 			typewriter = {
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "眾人",
 			dir = 1,
+			actorName = "眾人",
 			say = "嗯！",
 			dialogShake = {
 				speed = 0.09,
@@ -175,15 +175,15 @@ return {
 			}
 		},
 		{
-			say = "第二天",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "第二天",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "模擬對抗演習、開始！",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "眾人",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "哦！",
 			typewriter = {
 				speed = 0.05,
@@ -273,14 +273,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 702030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "那麼，只要按俄羅斯的計劃執行就好了吧？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "交給我吧！",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "眾人",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "明白了！",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "發現對方航母後，提高艦裝的出力一口氣接近到主炮射程內，給她狠狠地來上一發模擬彈！",
 			typewriter = {
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,14 +446,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "原來如此，斷定我們不會把注意力集中在型號老舊的艦船上，所以自己一個人偷偷地繞到了我們後方呢。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "正是如此。",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -507,8 +507,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "趁著這邊艦載機已經傾巢而出，護衛艦隊也在正面應對著我的同伴們，在後方進行擾亂",
 			typewriter = {
@@ -540,8 +540,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "但是這個戰術是要建立在薩拉妹妹不能還擊的前提下……對吧？",
 			typewriter = {
@@ -557,8 +557,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "看招！薩拉托加之————魔法砲擊！",
 			typewriter = {
@@ -571,14 +571,14 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……！！",
 			soundeffect = "event:/battle/boom2",
+			actor = 702010,
+			nameColor = "#a9f548",
+			say = "……！！",
 			flashN = {
 				color = {
 					1,

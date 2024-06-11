@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-随机技能-棱镜光束-发射",
 	time = 10,
+	name = "测试-随机技能-棱镜光束-发射",
+	init_effect = "",
 	picture = "",
 	desc = "棱镜光束",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onChargeWeaponBulletCreate"
 			},
 			arg_list = {
+				skill_id = 60024,
 				bulletTrigger = "onBulletHit",
-				target = "TargetSelf",
-				skill_id = 60024
+				target = "TargetSelf"
 			}
 		},
 		{

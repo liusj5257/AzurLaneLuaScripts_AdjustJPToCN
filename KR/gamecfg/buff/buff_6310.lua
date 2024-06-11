@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "归航引导",
 	time = 0,
-	color = "yellow",
+	name = "归航引导",
+	init_effect = "",
+	id = 6310,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6310,
+	color = "yellow",
 	icon = 6310,
 	last_effect = "",
 	effect_list = {

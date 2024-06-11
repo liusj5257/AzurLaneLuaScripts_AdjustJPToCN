@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU19",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>你又為何返回這痛苦的深淵</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>以你不曾見識的聖主之名義，</size>",
@@ -61,17 +61,17 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_italy_cg6",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_italy_cg6",
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
 			say = "最後還是沒有來嗎？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,8 +99,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "是的，從一開始交手的時候便通知了鐵血空軍和帝國空軍",
 			typewriter = {
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "看來我們這次也要變成棄子了，就同維希教廷的戰艦們一樣…",
 			typewriter = {
 				speed = 0.05,
@@ -166,10 +166,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "口口聲聲說著帝國的藝術、羅穆盧斯的希望",
 			typewriter = {
 				speed = 0.05,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "最後卻只能成為任人笑話的喜劇演員嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "馬上就到午夜12時了，我們也該出發了",
 			typewriter = {
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "是的，不論是喜劇還是悲劇，這齣戲都該謝幕了，以它應有的方式",
 			typewriter = {
 				speed = 0.05,

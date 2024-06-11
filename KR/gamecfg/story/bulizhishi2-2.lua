@@ -1,15 +1,15 @@
 return {
-	id = "BULIZHISHI2-2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULIZHISHI2-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-1",
 			say = "특장형 부린 MKIII과 퓨리파이어는 50합을 겨루었고, 약간 열세를 보였다————",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

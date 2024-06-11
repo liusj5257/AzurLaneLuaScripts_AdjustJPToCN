@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69371,
 					supportTarget = {
@@ -26,10 +26,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69372,
 					supportTarget = {
@@ -50,10 +50,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69373,
 					supportTarget = {
@@ -74,10 +74,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69374,
 					supportTarget = {
@@ -98,10 +98,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69375,
 					supportTarget = {
@@ -122,10 +122,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69376,
 					supportTarget = {
@@ -146,10 +146,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69377,
 					supportTarget = {
@@ -170,10 +170,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69378,
 					supportTarget = {
@@ -194,10 +194,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69379,
 					supportTarget = {
@@ -218,10 +218,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 69380,
 					supportTarget = {
@@ -242,11 +242,11 @@ return {
 	uiEffect = "",
 	name = "编队外支援炮击",
 	cd = 0,
+	picture = "0",
+	desc = "支援炮击",
 	painting = "tuzuo",
 	id = 13220,
-	picture = "0",
 	castCV = "",
-	desc = "支援炮击",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

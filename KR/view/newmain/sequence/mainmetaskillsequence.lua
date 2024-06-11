@@ -1,6 +1,6 @@
 slot0 = class("MainMetaSkillSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	slot1 = slot1 or function ()
 	end
 
@@ -41,7 +41,7 @@ function slot0.Execute(slot0, slot1)
 	slot2:clearMetaSkillLevelMaxInfoList()
 end
 
-function slot0.GetShipName(slot0, slot1)
+slot0.GetShipName = function(slot0, slot1)
 	slot2 = ""
 
 	for slot6, slot7 in ipairs(slot1) do

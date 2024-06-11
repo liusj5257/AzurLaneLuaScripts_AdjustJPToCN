@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"融雪的邀約\n\n<size=45>5 5.溫泉約會物語</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "雪原，霧氣朦朧。溫泉的青石上，伏羅希洛夫此刻正在等待著——",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "雪原，霧氣朦朧。溫泉的青石上，伏羅希洛夫此刻正在等待著——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 702071,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "如約來了呢，指揮官。",
 			painting = {
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "和伏羅希洛夫一起享受了雪松林中的溫泉。",
 			painting = {
@@ -176,17 +176,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "能感覺到身體裡泛著暖意，只是不知道這溫度是來自身邊的溫泉水，還是來自纏在身邊的她。",
 			painting = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 702071,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "還是說溫泉的水溫太熱了？感覺指揮官好像臉稍微有點紅的樣子……",
 			painting = {
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "還沒等我做出反應，眼前的少女就把身體湊了過來——",
 			painting = {
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			optionFlag = 2,
 			actor = 702071,
 			nameColor = "#A9F548FF",
@@ -448,12 +448,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "伏羅希洛夫輕輕地握住了我的手。溫度從她的指尖傳來。",
 			painting = {

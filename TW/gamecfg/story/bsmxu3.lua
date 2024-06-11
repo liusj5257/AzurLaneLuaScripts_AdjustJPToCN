@@ -1,8 +1,8 @@
 return {
-	id = "BSMXU3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "BSMXU3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900180,
@@ -50,10 +50,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
-			soundeffect = "event:/battle/dididi",
 			say = "（嗶嗶嗶——電信號聲）",
+			dir = 1,
+			soundeffect = "event:/battle/dididi",
 			effects = {
 				{
 					active = true,
@@ -72,9 +72,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "咦，收到了奇怪的求救信號…",
 			effects = {
 				{
@@ -129,8 +129,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900180,
 			dir = 1,
+			actor = 900180,
 			say = "這個時間點，難道會是俾斯麥姐姐…",
 			typewriter = {
 				speed = 0.05,
@@ -144,9 +144,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "不行，我得去確認看看！",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

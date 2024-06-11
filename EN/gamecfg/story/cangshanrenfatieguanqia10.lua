@@ -1,26 +1,26 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "Mirror Sea - Somewhere else",
 			bgm = "bsm-2",
+			say = "Mirror Sea - Somewhere else",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "There, in a place no one knows, the captive princess stood all by herself.",
@@ -30,12 +30,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -50,10 +50,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...How long has it been since then?",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*gasp*! How long have you been here?",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Do you... WANT me to believe you?",
 			painting = {
 				alpha = 0.3,
@@ -188,10 +188,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll pass, thank you. The idea of letting you get even a crumb of information out of me makes my skin crawl.",
 			painting = {
 				alpha = 0.3,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -259,10 +259,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ugh...",
 			painting = {
 				alpha = 0.3,
@@ -361,10 +361,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's what makes you happy?",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What? Key? Gateway? Oh... You exploited my powers to cross world boundaries. That's what you're saying, isn't it?",
 			painting = {
 				alpha = 0.3,
@@ -505,10 +505,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -532,14 +532,14 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "......",
 			bgm = "sk-az-pv1",
+			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,17 +549,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -570,10 +570,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My gut feeling was right. My powers were the catalyst behind this incident...",
 			painting = {
 				alpha = 0.3,
@@ -588,10 +588,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I need to escape this place immediately and link up with the girls. My conscience won't let me rest until I apologize.",
 			painting = {
 				alpha = 0.3,
@@ -603,12 +603,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The problem is, all my ninjutsu seems to have no effect here. I need to think of another way...",
 			painting = {
 				alpha = 0.3,
@@ -623,10 +623,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No, it's not that it's ineffective, per se – it feels more like my energy is being sapped. Brute-forcing it isn't going to work.",
 			painting = {
 				alpha = 0.3,
@@ -641,10 +641,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If my powers warrant being actively suppressed, that must mean they are the trump card to put a stop to all this.",
 			painting = {
 				alpha = 0.3,
@@ -659,10 +659,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If that's the case, I need to wait for the right time. The time to strike. That's when I'll act swiftly...",
 			painting = {
 				alpha = 0.3,
@@ -674,28 +674,28 @@ return {
 			}
 		},
 		{
-			actor = 900232,
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900232,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh. She's taken the bait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

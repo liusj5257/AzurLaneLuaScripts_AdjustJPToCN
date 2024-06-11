@@ -1,8 +1,8 @@
 return {
-	id = "W2021",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2021",
+	skipTip = false,
 	scripts = {
 		{
 			actor = 112010,
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "수리 후 모든 함대의 내구도가 100% 회복됩니다.",
 			typewriter = {
 				speed = 0.05,

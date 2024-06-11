@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 901020,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 901020,
+	color = "red",
 	icon = 901020,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				maxTargetNumber = 1,
 				target = "TargetSelf",
+				maxTargetNumber = 1,
 				skill_id = 901031,
 				check_target = {
 					"TargetSelf",
@@ -54,8 +54,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 901014,
-				target = "TargetSelf",
 				maxTargetNumber = 1,
+				target = "TargetSelf",
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -73,8 +73,8 @@ return {
 			arg_list = {
 				minTargetNumber = 2,
 				buff_id = 901015,
-				target = "TargetSelf",
 				maxTargetNumber = 2,
+				target = "TargetSelf",
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -92,8 +92,8 @@ return {
 			arg_list = {
 				minTargetNumber = 3,
 				buff_id = 901016,
-				target = "TargetSelf",
 				maxTargetNumber = 3,
+				target = "TargetSelf",
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -111,8 +111,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 901024,
-				target = "TargetSelf",
 				maxTargetNumber = 1,
+				target = "TargetSelf",
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -130,8 +130,8 @@ return {
 			arg_list = {
 				minTargetNumber = 2,
 				buff_id = 901025,
-				target = "TargetSelf",
 				maxTargetNumber = 2,
+				target = "TargetSelf",
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -149,8 +149,8 @@ return {
 			arg_list = {
 				minTargetNumber = 3,
 				buff_id = 901026,
-				target = "TargetSelf",
 				maxTargetNumber = 3,
+				target = "TargetSelf",
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"

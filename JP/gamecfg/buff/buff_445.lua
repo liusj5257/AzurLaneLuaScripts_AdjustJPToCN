@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "灭火烟雾弹",
 	init_effect = "",
-	color = "blue",
+	id = 445,
+	time = 0,
 	picture = "",
 	desc = "进入范围内的友方单位消去普通点燃",
 	stack = 1,
-	id = 445,
+	color = "blue",
 	icon = 445,
 	last_effect = "",
 	blink = {

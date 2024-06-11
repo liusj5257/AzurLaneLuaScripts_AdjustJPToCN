@@ -1,6 +1,6 @@
 slot0 = class("MergeTaskOneStepAwardCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if #slot1:getBody().resultList > 0 then
 		slot4 = {}
 		slot5 = {}
@@ -15,7 +15,7 @@ function slot0.execute(slot0, slot1)
 
 		slot6 = {}
 
-		function slot7(slot0)
+		slot7 = function(slot0)
 			for slot4, slot5 in ipairs(slot0) do
 				table.insert(uv0, slot5)
 			end

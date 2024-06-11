@@ -1,17 +1,17 @@
 return {
-	id = "WORLD106A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD106A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 105120,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "さっきまでは敵があんなにいたのに、この辺りは敵の反撃がほとんどありません…不思議ですね…",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "私達はセイレーンと戦って、そのセイレーンは「余燼」と戦ってて…しかも本部の作戦計画の内容では「余燼」との交戦も指示されている",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "NA海域のセイレーン勢力は想像以上に複雑だな……",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "――――――！！",
 			dialogShake = {
 				speed = 0.09,
@@ -147,8 +147,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ああ。もう完全に消滅したはずだが。特異点が現れたおかげで多少環境に影響が出たようだ",
 			typewriter = {
 				speed = 0.05,
@@ -220,11 +220,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "オーダー受領しました。偵察機・レーダー・ソナーの情報の整理・分析を行っています",
-			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -277,11 +277,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/38/tb-38",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "分析完了です。気象情報の分析結果を端末に表示しました",
-			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,11 +294,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "6時間後には悪天候に変わる可能性が高いと推測します。対策の許可をお願いします",
-			voice = "event:/tb/46/tb-46",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "6時間後とは随分と具体的な数字だな……とにかく、TBに言われた通り今のうちに探索を続けよう。",
 			typewriter = {
 				speed = 0.05,

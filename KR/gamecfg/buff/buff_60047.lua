@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-随机技能-召唤地狱火",
 	time = 0,
+	name = "测试-随机技能-召唤地狱火",
+	init_effect = "",
 	picture = "",
 	desc = "召唤地狱火",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 60026,
 				time = 25,
-				target = "TargetSelf",
-				skill_id = 60026
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -26,9 +26,9 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
+				skill_id = 60027,
 				bulletTrigger = "onBombBulletBang",
-				target = "TargetSelf",
-				skill_id = 60027
+				target = "TargetSelf"
 			}
 		}
 	}

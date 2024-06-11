@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE18",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "??? ???",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
+			say = "??? ???",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -23,9 +23,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -38,9 +38,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "She followed the direction that the shadow was facing before it disappeared.",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "This is... each faction's...",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I'm not detecting any identification signals. Is everything here an illusion?",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "...is everyone here now?",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "I'd like to get out of here too, but because we're not able to conduct any concerted operations, we should prioritize sticking together for now.",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "Cheer up, everyone. Enterprise is here as well, after all! I'm sure everything's going to be fine!",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "...My name?",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "What...?!",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_banama_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "Working with... the Sirens?! What are you plotting?",
 			dialogShake = {
 				speed = 0.09,
@@ -298,9 +298,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "Once again, the shadows disappeared, leaving Enterprise alone in the still sea.",
 			typewriter = {
 				speed = 0.05,

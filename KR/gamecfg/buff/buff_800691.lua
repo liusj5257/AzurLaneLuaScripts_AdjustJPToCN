@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.4
+					number = 0.4,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.433
+					number = 0.433,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.466
+					number = 0.466,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.499
+					number = 0.499,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.532
+					number = 0.532,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.565
+					number = 0.565,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.598
+					number = 0.598,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.631
+					number = 0.631,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.664
+					number = 0.664,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiefeipojia",
-					number = 0.7
+					number = 0.7,
+					attr = "CRI_TAG_EHC_xiefeipojia"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "jinengchufared",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

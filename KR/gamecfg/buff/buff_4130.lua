@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.15
+					number = 0.15,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.166
+					number = 0.166,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.182
+					number = 0.182,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.2
+					number = 0.2,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.216
+					number = 0.216,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.232
+					number = 0.232,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.25
+					number = 0.25,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.266
+					number = 0.266,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.282
+					number = 0.282,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.3
+					number = 0.3,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "冲突禁止",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "降低我方受到碰撞伤害",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "hammerDamagePrevent",
-				number = 0.3
+				number = 0.3,
+				attr = "hammerDamagePrevent"
 			}
 		}
 	}

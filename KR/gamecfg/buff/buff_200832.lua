@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 独角兽空袭",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 独角兽空袭",
+	init_effect = "",
+	id = 200832,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200832,
+	color = "yellow",
 	icon = 200832,
 	last_effect = "",
 	effect_list = {

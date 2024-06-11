@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"哈曼觀察日誌\n\n<size=45>五 哈曼和約克鎮</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
-			bgm = "story-1",
-			dir = 1,
 			say = "——然後呢，哈曼就把指揮官趕出指揮室了……",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,8 +36,8 @@ return {
 			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
-			dir = 1,
 			say = "嗯嗯。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 30,
 					number = 3
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "約克鎮摸著哈曼的頭安慰她，哈曼把臉埋進約克鎮胸口撒嬌。",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "另一邊……",
 			typewriter = {
 				speed = 0.05,
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
+			actor = 101240,
 			say = "欸！？",
 			typewriter = {
 				speed = 0.05,
@@ -276,10 +276,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		}

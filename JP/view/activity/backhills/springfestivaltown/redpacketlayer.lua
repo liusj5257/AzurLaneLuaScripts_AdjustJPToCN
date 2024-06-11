@@ -1,6 +1,6 @@
 slot0 = class("RedPacketLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return "RedPacket2023UI"
 	else
@@ -8,22 +8,22 @@ function slot0.getUIName(slot0)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateUI()
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS)
 	slot0.activityID = slot1.id
@@ -36,7 +36,7 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.packetBtn = slot0:findTF("Container/PacketBtn")
 	slot0.packetMask = slot0:findTF("Container/PacketBtnMask")
 	slot0.helpBtn = slot0:findTF("Container/HelpBtn")
@@ -55,7 +55,7 @@ function slot0.findUI(slot0)
 	slot0.backBtn = slot0:findTF("Top/BackBtn")
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
@@ -66,7 +66,7 @@ function slot0.addListener(slot0)
 		})
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_chunjie_jiulou.tip
@@ -86,7 +86,7 @@ function slot0.addListener(slot0)
 	end
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS)
 	slot2 = slot1.data3
 	slot3 = slot1.data1
@@ -104,7 +104,7 @@ function slot0.updateUI(slot0)
 	setText(slot0.countText, slot1.data1_list[2] .. "/" .. slot1.data1_list[1])
 end
 
-function slot0.tryPlayStory(slot0)
+slot0.tryPlayStory = function(slot0)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS)
 	slot5 = slot1.data1 - math.min(slot1.data1, slot1.data2)
 
@@ -113,12 +113,12 @@ function slot0.tryPlayStory(slot0)
 	end
 end
 
-function slot0.onSubmitFinished(slot0)
+slot0.onSubmitFinished = function(slot0)
 	slot0:updateUI()
 	slot0:tryPlayStory()
 end
 
-function slot0.isShowRedPoint()
+slot0.isShowRedPoint = function()
 	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS).data1 > 0
 end
 

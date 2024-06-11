@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Knights & Awards\n\n<size=45>Chapter 1 - Sudden Invitation</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "I received a sudden invitation from my secretary...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "I received a sudden invitation from my secretary...",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Commander, you wanna join my team for a basketball game?",
 			typewriter = {
 				speed = 0.05,
@@ -54,16 +54,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Stop calling me Clevebro already! ... Also, I'm not asking if you wanna play, I'm asking if you wanna be our coach!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.12,
 					x = 0,
 					number = 2
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "I knew that money doesn't actually grow on the plant she was referring to, despite its nickname... But I decided not to mention that and went along with becoming their coach.",
 			typewriter = {
 				speed = 0.05,
@@ -153,16 +153,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "... You'll do it? Sweet! I knew I could count on you!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.08,
 					x = 0,
 					number = 1
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Putting a pin in the basketball conversation for later, Cleveland got right back to work. It's just like her to be reliable like that.",
 			typewriter = {
 				speed = 0.05,

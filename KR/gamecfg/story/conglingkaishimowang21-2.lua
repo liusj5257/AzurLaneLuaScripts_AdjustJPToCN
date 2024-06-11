@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
+			soundeffect = "event:/battle/boom2",
 			bgm = "login-2022401us",
 			say = "――――!!!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = "main1",
 			say = "흠, 겨우 그 정도로 이 완벽하고 궁극적인 흡혈귀, 뱀파이어를 가둘 수 있을 것 같아?",
 			painting = {
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 201233,
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "나와라, 나의 사역마들아! 저 주제 파악 못하는 녀석들에게 영원한 해방을 안겨주어라!",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "날개 달린 만쥬 슬라임",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "쥬쥬쥬!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 1.7,
 					name = "props/story_youyishilaimu",
+					time = 1.7,
 					path = {
 						{
 							-1500,
@@ -219,9 +219,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 201233,
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "흥, 빈틈이 없네~",
@@ -234,17 +234,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "용사 파티의 지휘관… 먼저 그대부터 처치해야겠어!",
 			painting = {
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2500
@@ -280,25 +280,25 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "지휘관",
+			nameColor = "#A9F548FF",
 			say = "――미끼를 물었군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "뱀파이어는 곧장 내쪽을 향해 돌진해 왔고, 곧바로 메이드가 사라지기 전에 쳐놓은 함정에 걸리고 말았다.",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "그리고… 시간이 멈추었다.",
 			typewriter = {
 				speed = 0.05,
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "으으… 몸이 안 움직여…",
 			painting = {
@@ -377,17 +377,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이걸로!!! 끝이다!!!",
 			painting = {
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "윽… 당했다!",
 			painting = {
@@ -429,27 +429,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "마왕군의 3개 거점을 모두 파괴했다.",
 			bgm = "story-mmorpg",
+			say = "마왕군의 3개 거점을 모두 파괴했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "'광명의 가호'의 힘으로 저주를 물리쳐, 다시 황폐한 대지에 생명을 불어 넣었다.",
 			typewriter = {
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뱀파이어 헌터는 앞으로도 계속 여러분의 맹우입니다.",
@@ -561,11 +561,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그러니 당분간은 서로 뵙기 어렵겠지요.",
@@ -617,13 +617,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "셰필드 & 자이틀리츠",
+			side = 0,
 			bgName = "star_level_bg_176",
-			hidePaintObj = true,
+			hideOther = true,
 			actor = 202084,
 			nameColor = "#A9F548FF",
-			side = 0,
+			hidePaintObj = true,
 			say = "저희 뱀파이어 헌터도 반드시 힘을 보태겠습니다!",
 			subActors = {
 				{
@@ -640,8 +640,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "司特莲库斯雷电buff加强版",
 	time = 0,
-	color = "yellow",
+	name = "司特莲库斯雷电buff加强版",
+	init_effect = "",
+	id = 79015,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 79015,
+	color = "yellow",
 	icon = 8636,
 	last_effect = "sairenboss6_buff2",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageGetRatioByBulletTorpedo",
-				number = -0.15
+				number = -0.15,
+				attr = "damageGetRatioByBulletTorpedo"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.15
+				number = -0.15,
+				attr = "injureRatioByCannon"
 			}
 		}
 	}

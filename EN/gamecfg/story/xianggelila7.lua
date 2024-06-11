@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Saffron Travelogue\n\n<size=45>After the Battle</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "The following day, at the office...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "The following day, at the office...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Shangri-La changed a bit after that battle...",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "...Pardon? You're worried about me?",
 			typewriter = {
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "Why, hello, Hornet!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Why, hello, Hornet!",
+			actor = 107380,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "But first: I've gotta thank you for what you taught me yesterday!",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "For teaching you what?",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "If anything, you taught me a valuable lesson: that you can't rely on data and probabilities alone.",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 0,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Shangri-La fetches a photo album from a nearby shelf.",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Hey, nice pics! But who snapped them?",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "These will be added to my collection of photo albums soon, but I wanted to show these to you all before that.",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Shangri-La takes out the pictures and passes them around.",
 			typewriter = {
@@ -362,11 +362,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "I remember this! It's from right after our mock battle yesterday!",
 			typewriter = {
 				speed = 0.05,
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The photograph is of everyone who was in attendance yesterday: Essex, Shangri-La, Hornet, Enterprise, Yorktown, Zuikaku, and Shoukaku. All smiling.",
 			typewriter = {
 				speed = 0.05,
@@ -405,8 +405,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "I've titled it \"Friends,\" but I don't know what to write for the description on the back. Does anyone have any ideas?",
 			typewriter = {

@@ -10,13 +10,13 @@ slot1 = {
 slot2 = 2
 slot3 = 0.4
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.paintTF = slot0:findTF("Image", slot0.bg)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:ShowNextPainting()
 	end, uv0 + uv1, -1)
@@ -24,7 +24,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.ShowNextPainting(slot0)
+slot0.ShowNextPainting = function(slot0)
 	if not slot0.curIndex then
 		slot0.curIndex = 1
 	end
@@ -70,7 +70,7 @@ function slot0.ShowNextPainting(slot0)
 	})
 end
 
-function slot0.OnHideFlush(slot0)
+slot0.OnHideFlush = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -80,7 +80,7 @@ function slot0.OnHideFlush(slot0)
 	slot0:cleanManagedTween()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 

@@ -1,6 +1,6 @@
 slot0 = class("GetCommanderHomeCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if getProxy(CommanderProxy):GetCommanderHome() then
@@ -22,7 +22,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateCommanderLevelAndExp(slot0, slot1, slot2, slot3)
+slot0.UpdateCommanderLevelAndExp = function(slot0, slot1, slot2, slot3)
 	if getProxy(CommanderProxy):getCommanderById(slot1) then
 		slot5:UpdateLevelAndExp(slot2, slot3)
 		slot4:updateCommander(slot5)

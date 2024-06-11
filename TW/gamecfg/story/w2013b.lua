@@ -1,12 +1,12 @@
 return {
-	id = "W2013B",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2013B",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "分析模組同步中：目前可獲取的資源等級為最高級。指揮官，是否立即獲取資源？",
 			painting = {
 				alpha = 0.3,

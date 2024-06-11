@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500070,
 			dir = 1,
+			bgm = "holo-control",
+			actor = 10500070,
 			actorName = "Miokawa Iiyo",
 			say = "Guess we never stood a chance...",
-			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			actorName = "Kakitsubata Nakiri",
 			say = "Oh, blast it...",
 			typewriter = {
@@ -43,9 +43,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "They did it again! They used the teleport command!",
 			flashout = {
 				dur = 1,
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "Hrm... I know they're just clones the Sirens made, but it's still hard to get myself to fight them.",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +105,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "That said, I might be able to go all out if always get teleported away right before their HP hits 0. I'm not about to let an imposter beat me.",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Hmh, as someone once said: a faker will never be anything more than a faker...",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "I'm done being hesitant. From now on, my mind is set: we'll put a stop to the Sirens' schemes and end this whole ordeal.",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900021,
 			dir = 1,
+			actor = 900021,
 			actorName = "Purity",
 			say = "I can hear you, ya know!",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301050,
 			dir = 1,
+			actor = 301050,
 			say = "Zed, how is it going on your end?",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301050,
 			dir = 1,
+			actor = 301050,
 			say = "The base is functioning as normal.",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201210,
 			dir = 1,
+			actor = 201210,
 			say = "While the base is fine, there's this black veil that suddenly appeared out of nowhere! I think it's expanding, and coming from the labyrinth, actually...",
 			typewriter = {
 				speed = 0.05,
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Just as Javelin said, there's a veil floating in the air above the labyrinth.",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Or rather, it's in the sky. It spans across the ocean, enveloping everything in its path.",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "That's not a veil, it's a barrier! And unbelievably strong one, at that! I hit it with everything I have, yet it didn't as much as cut a hole into it!",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "This is obviously an impassable wall the GM made that we can't pass through without permission...",
 			typewriter = {
 				speed = 0.05,
@@ -482,8 +482,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Say, if we can't go by air or by sea...",
 			typewriter = {
 				speed = 0.05,
@@ -498,8 +498,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Then I might have a good solution to the problem...",
 			typewriter = {
 				speed = 0.05,

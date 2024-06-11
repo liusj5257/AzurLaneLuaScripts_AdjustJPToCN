@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏の日の「サプライズ」\n\n<size=45>三　下準備・その一</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・売店",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・売店",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "最近暑い日が続いているから、わざわざ出かけて買い物する人も減ったにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,15 +156,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "うーん…確かにその機械なら、倉庫に一台あるにゃ。でもとっくの昔に故障してて、貸しても使えないにゃ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "本当？！おっしゃー！やった！！！よろしく頼むね、明石にゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

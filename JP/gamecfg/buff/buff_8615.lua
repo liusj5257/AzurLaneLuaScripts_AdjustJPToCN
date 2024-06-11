@@ -1,12 +1,12 @@
 return {
-	init_effect = "Darkness",
-	name = "2019年2月世界BOSS死亡debuff",
 	time = 0,
-	color = "yellow",
+	name = "2019年2月世界BOSS死亡debuff",
+	init_effect = "Darkness",
+	id = 8615,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8615,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.4
+				number = -0.4,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 8615
+				skill_id = 8615,
+				target = "TargetSelf"
 			}
 		}
 	}

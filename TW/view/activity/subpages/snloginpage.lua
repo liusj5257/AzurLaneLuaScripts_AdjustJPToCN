@@ -1,12 +1,12 @@
 slot0 = class("SNLoginPage", import(".TemplatePage.LoginTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.bar = slot0:findTF("bar", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	slot1 = slot0.itemList
@@ -38,12 +38,12 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setFillAmount(slot0.bar, slot0.nday / slot0.Day)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

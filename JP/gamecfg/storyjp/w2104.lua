@@ -1,15 +1,15 @@
 return {
-	id = "W2104",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2104",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "セイレーン反応を検出しました。強力なセイレーン増援艦隊がこちらに向かっています",
 			typewriter = {
 				speed = 0.05,

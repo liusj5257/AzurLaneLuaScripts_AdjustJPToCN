@@ -2,18 +2,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -27,9 +27,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -47,18 +47,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -72,9 +72,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -92,18 +92,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -117,9 +117,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -137,18 +137,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -162,9 +162,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -182,18 +182,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -207,9 +207,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -227,18 +227,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -252,9 +252,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -272,18 +272,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -297,9 +297,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -317,18 +317,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -342,9 +342,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -362,18 +362,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -387,9 +387,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -407,18 +407,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					buff_id = 105134
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -432,9 +432,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -452,11 +452,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "buff",
 	painting = 1,
 	id = 105132,
-	picture = "0",
 	castCV = "",
-	desc = "buff",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -467,18 +467,18 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				buff_id = 105134
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
 			target_choise = {
 				"TargetAllHarm",
 				"TargetShipTag"
@@ -492,9 +492,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
 			target_choise = {
 				"TargetAllHarm",
 				"TargetShipTag"

@@ -1,19 +1,19 @@
 return {
-	id = "WORLD105B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/38/tb-38",
+			dir = 1,
 			bgm = "story-richang",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Analysis complete. Multiple hostile signals have been detected to the front. Profile matches that of a Siren defense fleet.",
-			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -51,11 +51,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/15/tb-15",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Affirmative. I can provide real-time analysis of the battlefield by interfacing with the fleet’s weaponry and cross-referencing the data.",
-			voice = "event:/tb/15/tb-15",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Let’s take TB’s analyses into account when planning from here on out.",
 			typewriter = {
 				speed = 0.05,

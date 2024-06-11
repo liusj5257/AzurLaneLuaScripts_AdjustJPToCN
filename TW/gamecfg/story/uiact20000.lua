@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{
@@ -23,13 +23,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
-			nameColor = "#ff0000",
-			actorName = "???",
-			withoutPainting = true,
-			blackBg = true,
 			say = "……",
+			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
+			actorName = "???",
+			withoutPainting = true,
 			shake = {
 				speed = 1,
 				number = 3
@@ -44,13 +44,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 1,
+			say = "醒醒，戰鬥開始了",
 			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
-			blackBg = true,
-			say = "醒醒，戰鬥開始了",
 			shake = {
 				speed = 1,
 				number = 3
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
+			say = "………",
 			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
-			blackBg = true,
-			say = "………",
 			shake = {
 				speed = 1,
 				number = 3
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 407010,
 			side = 1,
-			nameColor = "#ff0000",
+			say = "夢？不，妳不會做夢的，如果有，那只會是一個遙遠的記憶",
 			dir = -1,
 			blackBg = true,
-			say = "夢？不，妳不會做夢的，如果有，那只會是一個遙遠的記憶",
+			actor = 407010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
-			nameColor = "#ff0000",
-			blackBg = true,
 			say = "「棄子<Sacrifice>」…嗎？",
+			blackBg = true,
+			actor = 405020,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

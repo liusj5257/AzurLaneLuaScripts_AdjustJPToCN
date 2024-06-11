@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 6: True Power</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 701030,
 			nameColor = "#a9f548",
 			say = "Eh?! We're really going to fight against the Eagle Union?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 701040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 701040,
+			nameColor = "#a9f548",
 			say = "Is that so. Well, all we have to do is beat 'em up, right?",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Avrora's absolutely right. During this exercise, we need to carefully analyze our opponents and adapt our strategies accordingly.",
 			typewriter = {
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "Everyone",
 			dir = 1,
+			actorName = "Everyone",
 			say = "Understood!",
 			dialogShake = {
 				speed = 0.09,
@@ -175,15 +175,15 @@ return {
 			}
 		},
 		{
-			say = "The next day, at the exercise area...",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "The next day, at the exercise area...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "Begin the mock battle, combatants!",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Yeah!!",
 			typewriter = {
 				speed = 0.05,
@@ -273,14 +273,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 702030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I assume we'll be sticking to Rossiya's plans?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "Sure thing. Leave it to me.",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Understood!",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "And as soon as we find the enemy carriers, increase your rigging's output and focus everything into firepower.",
 			typewriter = {
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,14 +446,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I see, you took advantage of the fact that we wouldn't prioritize older ships to sneak up behind us...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "Yes, that's right.",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -507,8 +507,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "And while our planes were focused on offense and our vanguard fleet was distracted, you flanked our main fleet...",
 			typewriter = {
@@ -540,8 +540,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "But, that strategy is based upon the assumption the Sister Sara can't fight back, right?",
 			typewriter = {
@@ -557,8 +557,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Behold! Sister Sara's Magic Cannon!",
 			typewriter = {
@@ -571,14 +571,14 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "What...?!",
 			soundeffect = "event:/battle/boom2",
+			actor = 702010,
+			nameColor = "#a9f548",
+			say = "What...?!",
 			flashN = {
 				color = {
 					1,

@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN18",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Whydah, and something about a collection room?",
+			side = 2,
 			bgm = "qe-ova-15",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Whydah, and something about a collection room?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -75,9 +75,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sure. What are you going to do with it? Threaten the two servants standing outside?",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_600",
 			factiontag = "Serious Protégé GM",
-			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "A while later, the voices on the other side have gone away.",
@@ -112,17 +112,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -170,11 +170,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
-			nameColor = "#A9F548FF",
-			factiontag = "Serious Protégé GM",
-			blackBg = true,
-			bgm = "stopbgm",
 			actorName = "Essex",
+			blackBg = true,
+			factiontag = "Serious Protégé GM",
+			bgm = "stopbgm",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It is a long staircase, and it takes you a considerable time to climb them.",
 			typewriter = {
@@ -182,17 +182,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -202,11 +202,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You set food on the second floor without anyone catching on to you.",
 			typewriter = {
@@ -214,17 +214,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

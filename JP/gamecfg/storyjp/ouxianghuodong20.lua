@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG20",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307100,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "azumaster-ins",
 			dir = 1,
 			say = "この「μ兵装」の真の力、分かった気がするわ",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "そうですね。多少の性能差があるとはいえ、艤装そのものを刷新する意味は感じられません",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "まあ、一気に変わるのも無理があるしね。私達のリュウコツがそもそも決まっているし…",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "性能パフォーマンスは明らかに後者のケースが上であり、つまり……",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "……赤城の推測に同意する",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "「μ兵装」の開発コンセプトは、「セイレーン」を倒すだけでなく、「セイレーンの歌」をもかき消す。つまり「兵器」だけではなく「楽器」",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "「楽器」を奏でる「ヒト」、ガスコーニュたちが楽しんでいれば……",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "「感情を込めて」兵装を動かせれば、「μ兵装」の最大の力を引き出せるはず",
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "赤城、ガスコーニュはそう信じている…！",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,8 +294,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "そんなのとっくに分かりきってるさ。だろ？",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "ええ。正直に申し上げますと、「戦い」という言葉が使われていますが、兵装の実戦テストがライブだろうと勝者も敗者もいません",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "はい。艦船である私たちとして、「ポラリス」としてこのイベントに参加した私たちとして",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "そして感情を持つ「ヒト」として、悔いのないように――",
 			typewriter = {
 				speed = 0.05,
@@ -372,9 +372,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "全力で戦って、そして全力で楽しもう！",
 			effects = {
 				{
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

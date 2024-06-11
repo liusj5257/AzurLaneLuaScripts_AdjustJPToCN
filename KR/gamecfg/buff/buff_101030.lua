@@ -12,12 +12,12 @@ return {
 	desc_get = "队伍中存在贝露&翡绿之心时，自身伤害提高，受到伤害提高，队伍中不存在贝露&翡绿之心时，自身受到伤害降低，伤害降低",
 	name = "限阻破坏",
 	init_effect = "",
+	id = 101030,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "队伍中存在贝露&翡绿之心时，自身伤害提高，受到伤害提高，队伍中不存在贝露&翡绿之心时，自身受到伤害降低，伤害降低",
 	stack = 1,
-	id = 101030,
+	color = "yellow",
 	icon = 101030,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 101030,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -45,9 +45,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				skill_id = 101031,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				skill_id = 101031,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

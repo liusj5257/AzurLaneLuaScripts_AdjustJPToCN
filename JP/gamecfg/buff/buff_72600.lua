@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "对轻母增伤",
 	init_effect = "",
-	color = "red",
+	id = 72600,
+	time = 0,
 	picture = "",
 	desc = "对轻母伤害提高50%",
 	stack = 1,
-	id = 72600,
+	color = "red",
 	icon = 72600,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByShipType_6",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioByShipType_6"
 			}
 		}
 	}

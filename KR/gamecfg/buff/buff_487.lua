@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 6,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "标记",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = -300
+				number = -300,
+				attr = "antiAirPower"
 			}
 		},
 		{

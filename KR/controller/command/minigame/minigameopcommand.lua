@@ -6,7 +6,7 @@ slot0.CMD_HIGH_SCORE = 4
 slot0.CMD_PLAY = 5
 slot0.CMD_SPECIAL_TRACK = 100
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().id or 0
 	slot4 = slot2.hubid
 	slot6 = slot2.args1

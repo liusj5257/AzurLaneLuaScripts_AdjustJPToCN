@@ -1,10 +1,10 @@
 slot0 = class("Shrine2022SelectShipView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Shrine2022SelectShipUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateCardList()
@@ -12,11 +12,11 @@ function slot0.OnInit(slot0)
 	slot0:playEnterAni(true)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:cleanManagedTween()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.cardPosList = {
 		{
 			x = -80,
@@ -86,7 +86,7 @@ function slot0.initData(slot0)
 	slot0.curSelectIndex = nil
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.cardTpl = slot0:findTF("CardTpl")
 	slot0.backBtn = slot0:findTF("Adapt/BackBtn")
@@ -156,7 +156,7 @@ function slot0.initUI(slot0)
 	end)
 end
 
-function slot0.closeSelf(slot0)
+slot0.closeSelf = function(slot0)
 	if slot0.isPlaying then
 		return
 	end
@@ -170,16 +170,16 @@ function slot0.closeSelf(slot0)
 	end)
 end
 
-function slot0.updateConfirmBtn(slot0, slot1)
+slot0.updateConfirmBtn = function(slot0, slot1)
 	setLocalPosition(slot0.confirmBtn, slot0.confirmPosList[slot0.selectingCardIndex])
 	setActive(slot0.confirmBtn, slot1)
 end
 
-function slot0.updateCardList(slot0)
+slot0.updateCardList = function(slot0)
 	slot0.cardUIItemList:align(7)
 end
 
-function slot0.playEnterAni(slot0, slot1, slot2)
+slot0.playEnterAni = function(slot0, slot1, slot2)
 	slot3 = slot1 and -1000 or 0
 	slot6 = {
 		x = slot3,
@@ -212,7 +212,7 @@ function slot0.playEnterAni(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.isSelected(slot0, slot1)
+slot0.isSelected = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.shipGameData:GetRuntimeData("kvpElements")[1]) do
 		if slot7.value == slot1 then
 			return true

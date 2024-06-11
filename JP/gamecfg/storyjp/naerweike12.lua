@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE12",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			stopbgm = true,
 			say = "…ここは…？",
 			flashin = {
@@ -35,10 +35,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "よかったぁ！目が覚めた！",
+			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = -1,
-			say = "よかったぁ！目が覚めた！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "そっか",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "大丈夫",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "ハーディ",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "どうしました？",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "雪よ",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "綺麗に、見える？",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "そうよ。次は……オーロラでも一緒に見る？",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "………うん。約束です",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "ハンター",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "ハーディ",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,

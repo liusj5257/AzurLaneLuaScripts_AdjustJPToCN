@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT29",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅\n\n<size=45>お姉ちゃんは心配性</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "大講堂や戦術教室を見回った後、学園内を歩いていると──",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
+			say = "大講堂や戦術教室を見回った後、学園内を歩いていると──",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "微笑むフミルィルを見掛けた。彼女の視線の先に──",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			actor = 10300010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			say = " ",
 			typewriter = {
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "クオンがいる。",
 			typewriter = {
 				speed = 0.05,
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			withoutActorName = true,
 			actor = 401230,
-			side = 2,
-			bgName = "bg_story_school",
-			withoutActorName = true,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			withoutActorName = true,
 			actor = 301050,
-			side = 2,
-			bgName = "bg_story_school",
-			withoutActorName = true,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "クオンは学園の子たちと楽しげに語らっていた。すっかり打ち解けた様子だ",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "フミルィルこそどうしたのだろう？クオンたちを遠巻きにせずとも、仲間に入れてもらえばいいのに",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "幼い頃からお側付きとしてクーちゃんの傍にお仕えし、誰よりも彼女のことを知っているという誇りがありました",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "私に見せる顔とはまた違う、友人たちだけに見せる顔……それを見つめておりました",
 			typewriter = {
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "寂しい？それとも……",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "いいえ……私の知らないクーちゃんがいる。それが……とっても嬉しいんです！",
 			typewriter = {
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "この後──２時間ほどフミルィルによるクオン語りに付き合わされた",
 			typewriter = {
 				speed = 0.05,

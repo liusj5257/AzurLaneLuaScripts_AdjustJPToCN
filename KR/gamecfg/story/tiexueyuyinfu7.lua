@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bsm-3",
 			dir = 1,
 			say = "비스마르크에 명중탄 확인! …아니 근데, 속력이 전혀 줄지 않잖아!",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "(……하지만, 저런 손상을 입고도 전투 속행은 물론 속력까지 유지할 수 있다니, 무서운 전투력이다.)",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "(무슨 수를 써서라도, 저 속도를 늦춰야 해…!)",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "흠, 로열 네이비의 주력함이 총출동했단 건가.",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "왕가의 영광에 걸고…… 반드시 비스마르크를 포착하여, 격파한다!",
 			typewriter = {
 				speed = 0.05,

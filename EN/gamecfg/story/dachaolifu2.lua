@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOLIFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOLIFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Swept Away in the Moment\n\n<size=45>Chapter 2 - Prost!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Now, as for the ways to enjoy oneself at this party...",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "Now, as for the ways to enjoy oneself at this party...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "Hehehe... I've been saving all these drinks just for this occasion. Today, I can drink as much as I please.",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 905011,
 			dir = 1,
+			actor = 905011,
 			nameColor = "#a9f548",
 			say = "What's the big deal? I'd also rather have as much as I want than be tied down by some arbitrary code of conduct and not even be able to enjoy a glass.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 905011,
 			dir = 1,
+			actor = 905011,
 			nameColor = "#a9f548",
 			say = "Honestly, I like how sensible the Iron Blood is when it comes to this kinda stuff.",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "Haha, I'm delighted that we're in agreement. Say, would you be interested in some of this?",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "The Vichya Dominion makes fine liquor, but it wouldn't hurt to try what the Iron Blood has to offer.",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "And you... Ooshio, was it? How about a drink?",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 905011,
 			dir = 1,
+			actor = 905011,
 			nameColor = "#a9f548",
 			say = "Good point. I wouldn't mind a taste.",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301642,
 			dir = 1,
+			actor = 301642,
 			nameColor = "#a9f548",
 			say = "I'd be right happy to~",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405022,
 			dir = 1,
+			actor = 405022,
 			nameColor = "#a9f548",
 			say = "Hm... I must say, I never imagined I would feel at home in a situation like this.",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405022,
 			dir = 1,
+			actor = 405022,
 			nameColor = "#a9f548",
 			say = "That is, drinking with good company simply to have a good time, rather than to be polite...",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "Oh, Tirpitz, what are you saying? Stop sweating the small stuff and just knock back a glass.",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 405022,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 405022,
+			nameColor = "#a9f548",
 			say = "Hm... You're right. I'll try not to think too much.",
 			typewriter = {
 				speed = 0.05,

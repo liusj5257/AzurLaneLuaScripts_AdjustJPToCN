@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.1
+					number = 0.1,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.2
+					number = 0.2,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.3
+					number = 0.3,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -51,14 +51,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 600149,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600149,
+	color = "yellow",
 	icon = 600149,
 	last_effect = "",
 	effect_list = {
@@ -69,8 +69,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.3
+				number = 0.3,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANHOUYUYI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANHOUYUYI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"みんなの夏祭り\n\n<size=45>一 今年はお祭り！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301110,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "なるほどね！電、またこの時期が来たね！",
 			bgm = "story-1",
+			actor = 301110,
+			nameColor = "#a9f548",
+			say = "なるほどね！電、またこの時期が来たね！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "お祭りだよ！お腹いっぱい食べて、いっぱい遊ぶそれ！",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "なるほど、確かにお祭りですね",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900195,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900195,
+			nameColor = "#a9f548",
 			say = "ないなら今年からやるまでぞ！",
 			effects = {
 				{
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			actor = 301120,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "雷&電",
 			say = "北風ちゃん！",
@@ -219,8 +219,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "いいことを聞かせていただいたぞ！重桜といえば、夏！",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "うむ、北風もそう思うぞ！",
 			typewriter = {
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "そんなわけで、指揮官に具申して祭りをやるのはどうだ？",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -324,10 +324,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307060,
 			dir = 1,
 			hideOther = true,
 			actorName = "北風&瑞鶴",
@@ -366,15 +366,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "というわけで、今年から重桜主催で母港夏祭りをやってもいい？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -399,9 +399,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………急に言われても…",
 			typewriter = {
 				speed = 0.05,
@@ -461,11 +461,11 @@ return {
 			}
 		},
 		{
-			actor = 308020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308020,
+			nameColor = "#a9f548",
 			say = "わたしも花火を見たい！きっとすっごく楽しいよ！",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -487,9 +487,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "せっかくみんな気合入っているし、たまにはお祭りをやってもいいか",
 			typewriter = {
 				speed = 0.05,
@@ -510,8 +510,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "指揮官、話がわかる人ぞ！",
 			typewriter = {
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "みんな",
 			dir = 1,
+			actorName = "みんな",
 			say = "おー！",
 			dialogShake = {
 				speed = 0.09,

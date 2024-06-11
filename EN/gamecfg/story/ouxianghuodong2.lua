@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Let's kick off the first day of Passion Fes, nya!",
 			bgm = "azumaster-ins",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "Let's kick off the first day of Passion Fes, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "There are two other data points that we are interested in collecting, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "Conversely, if we're defeated even once, our combo count will reset, right?",
 			typewriter = {
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "That's exactly right, nya! The next thing is fighting through song, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,8 +187,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "A what? Lead's vocals?",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			nameColor = "#a9f548",
 			say = "Indeed. Although it is my wish that the spotlight shines only upon me, no matter where the stage is, there are some things that I cannot control.",
 			typewriter = {
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 403070,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
 			say = "Huh? If you wanted the role so badly, why not just go for it?",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "That would not be productive for testing the Muse System's functionalities.",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "Analysis: This event is also an opportunity to perform in front of Master.",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "In any case... Let's resolve this by selecting a different lead for different areas!",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,8 +340,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "Who's up first?",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			actorNAME = "Everyone",
 			nameColor = "#a9f548",
+			actorNAME = "Everyone",
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Anyone will do, nya! Anyway, let's begin testing the rigging's performance right meow!",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

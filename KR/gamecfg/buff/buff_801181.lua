@@ -7,9 +7,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 29,
-					skill_id = 801180
+					time = 29
 				}
 			}
 		}
@@ -22,9 +22,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 28,
-					skill_id = 801180
+					time = 28
 				}
 			}
 		}
@@ -37,9 +37,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 27,
-					skill_id = 801180
+					time = 27
 				}
 			}
 		}
@@ -52,9 +52,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 26,
-					skill_id = 801180
+					time = 26
 				}
 			}
 		}
@@ -67,9 +67,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 25,
-					skill_id = 801180
+					time = 25
 				}
 			}
 		}
@@ -82,9 +82,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 24,
-					skill_id = 801180
+					time = 24
 				}
 			}
 		}
@@ -97,9 +97,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 23,
-					skill_id = 801180
+					time = 23
 				}
 			}
 		}
@@ -112,9 +112,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 22,
-					skill_id = 801180
+					time = 22
 				}
 			}
 		}
@@ -127,9 +127,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 21,
-					skill_id = 801180
+					time = 21
 				}
 			}
 		}
@@ -142,9 +142,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 801180,
 					target = "TargetSelf",
-					time = 20,
-					skill_id = 801180
+					time = 20
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "",
 	name = "璀璨之花",
 	init_effect = "",
+	id = 801181,
 	time = 0,
-	color = "",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 801181,
+	color = "",
 	icon = 801180,
 	last_effect = "",
 	effect_list = {
@@ -167,9 +167,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 801180,
 				target = "TargetSelf",
-				time = 30,
-				skill_id = 801180
+				time = 30
 			}
 		}
 	}

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "黑反击BOSS战 破盾弹条提示",
 	cd = 0,
-	painting = 1,
-	id = 8989,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 1,
+	id = 8989,
 	effect_list = {
 		{
 			type = "BattleSkillRemoveAllWeapon",

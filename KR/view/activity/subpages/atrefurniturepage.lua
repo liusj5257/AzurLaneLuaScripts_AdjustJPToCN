@@ -1,12 +1,12 @@
 slot0 = class("AtreFurniturePage", import(".TemplatePage.LoginTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.dayText = slot0:findTF("AD/DayText")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	slot1 = slot0.itemList
@@ -34,7 +34,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setText(slot0.dayText, string.format("%02d", slot0.nday))
 end

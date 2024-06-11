@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 BOSS随机施放技能 二阶段",
 	time = 1,
-	color = "red",
+	name = "2022莱莎联动 BOSS随机施放技能 二阶段",
+	init_effect = "",
+	id = 200138,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200138,
+	color = "red",
 	icon = 200138,
 	last_effect = "",
 	effect_list = {

@@ -2,18 +2,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164171
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -30,18 +30,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164172
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -58,18 +58,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164173
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -86,18 +86,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164174
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -114,18 +114,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164175
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -142,18 +142,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164176
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -170,18 +170,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164177
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -198,18 +198,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164178
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -226,18 +226,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164179
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -254,18 +254,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 164180
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -295,18 +295,18 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 164171
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipTag"

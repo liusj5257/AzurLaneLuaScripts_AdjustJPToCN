@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"万能店員シラヌイ\n\n<size=45>六　店員の真心・上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・医務室",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・医務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "不知火を近くにある学園の医務室に運んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			dir = -1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = -1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "やはりか……",
 			typewriter = {
@@ -105,11 +105,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			dir = -1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = -1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "もっと早く気づけばよかった。",
 			typewriter = {
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "明石、五月蝿い",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "明石、五月蝿い",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
 					x = 0,
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "病人はおとなしく横になるにゃ！ぬいぬいは無理をしすぎだにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ベッドで横になっている不知火は表情こそ変わってないものの、気のせいかいつもよりずっと弱々しく見える。",
 			typewriter = {
 				speed = 0.05,
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "あなたにだけは言われたくありませんが",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あなたにだけは言われたくありませんが",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "とにかく、大変なことにならなくてよかった。",
 			typewriter = {
@@ -343,9 +343,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "それはどうして……？",
 			typewriter = {
 				speed = 0.05,
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301180,
+			nameColor = "#a9f548",
 			say = "はあ……やはり大うつけ者でございますね",
 			typewriter = {
 				speed = 0.05,

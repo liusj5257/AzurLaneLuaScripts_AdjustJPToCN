@@ -1,23 +1,23 @@
 return {
-	id = 200663,
-	name = "2023 闪乱联动 地脉机关-闪 我方控制",
 	cd = 0,
+	name = "2023 闪乱联动 地脉机关-闪 我方控制",
 	painting = 0,
+	id = 200663,
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 3109313
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 200682
 			}

@@ -17,9 +17,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -53,9 +53,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -89,9 +89,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -125,9 +125,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -161,9 +161,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -197,9 +197,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -233,9 +233,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -269,9 +269,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -305,9 +305,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -341,9 +341,9 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
+					skill_id = 14680,
 					count = 1,
 					target = "TargetSelf",
-					skill_id = 14680,
 					countType = 14680
 				}
 			},
@@ -359,14 +359,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "回血",
 	init_effect = "jinengchufared",
-	color = "blue",
+	id = 14681,
+	time = 0,
 	picture = "",
 	desc = "鱼雷计数",
 	stack = 1,
-	id = 14681,
+	color = "blue",
 	icon = 14680,
 	last_effect = "",
 	blink = {

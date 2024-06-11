@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑反击BOSS战 主轴流程",
 	time = 0,
+	name = "黑反击BOSS战 主轴流程",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 8981,
-	picture = "",
-	last_effect = "",
 	icon = 8981,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -14,8 +14,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.4
+				number = -0.4,
+				attr = "damageRatioBullet"
 			}
 		},
 		{

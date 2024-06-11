@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"――周辺に時空異常現象を感知した",
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

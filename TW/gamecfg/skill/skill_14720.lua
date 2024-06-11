@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "robot",
 	cd = 0,
+	picture = "0",
+	desc = "robot",
 	painting = 1,
 	id = 14720,
-	picture = "0",
 	castCV = "skill",
-	desc = "robot",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,19 +17,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 14721
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 14723
 			}

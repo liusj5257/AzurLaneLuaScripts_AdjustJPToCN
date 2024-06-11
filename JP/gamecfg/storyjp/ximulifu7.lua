@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平和に祈りを\n\n<size=45>七　花火を打ち上げて</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "母港・空き地",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -112,15 +112,15 @@ return {
 			}
 		},
 		{
-			say = "パーティー会場外",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "パーティー会場外",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,13 +145,13 @@ return {
 			}
 		},
 		{
-			actor = 199021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "これは……いい眺めだ",
 			soundeffect = "event:/battle/firework",
+			actor = 199021,
+			nameColor = "#a9f548",
+			say = "これは……いい眺めだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,13 +178,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "パーティー会場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -209,13 +209,13 @@ return {
 			}
 		},
 		{
-			actor = 301152,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "お、花火が来たわよ",
 			soundeffect = "event:/battle/firework",
+			actor = 301152,
+			nameColor = "#a9f548",
+			say = "お、花火が来たわよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,16 +258,16 @@ return {
 			}
 		},
 		{
-			actor = 205051,
-			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "ふふ、明石たち、いい仕事をしてくれる",
 			soundeffect = "event:/battle/firework",
+			actor = 205051,
+			nameColor = "#a9f548",
+			say = "ふふ、明石たち、いい仕事をしてくれる",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,8 +327,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 205051,
 			dir = 1,
+			actor = 205051,
 			nameColor = "#a9f548",
 			say = "平和、か……",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "ユニオンらしく、気楽なことね…",
 			typewriter = {
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			actor = 408041,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ビスマルクのアネキ！あたしもそう信じてるよ！",
 			soundeffect = "event:/battle/firework",
+			actor = 408041,
+			nameColor = "#a9f548",
+			say = "ビスマルクのアネキ！あたしもそう信じてるよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,8 +427,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 408041,
 			dir = 1,
+			actor = 408041,
 			nameColor = "#a9f548",
 			say = "うん！美味しいものをいっぱい食べて、ロイヤルの仲間たちとも挨拶したよ！",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "仲間たちみんなとの平和、か……",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 205051,
 			dir = 1,
+			actor = 205051,
 			nameColor = "#a9f548",
 			say = "ああ、心配しなくて良い。ここにいる仲間たちはみんな共に戦ってくれる",
 			typewriter = {
@@ -491,12 +491,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/firework",
+			say = "いつか、またみんなで――",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "いつか、またみんなで――",
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

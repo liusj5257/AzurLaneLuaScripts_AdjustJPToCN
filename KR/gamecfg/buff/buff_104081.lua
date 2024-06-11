@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1000
+					number = 1000,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1000
+					number = 1000,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1120
+					number = 1120,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1120
+					number = 1120,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1240
+					number = 1240,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1240
+					number = 1240,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1400
+					number = 1400,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1400
+					number = 1400,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1550
+					number = 1550,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1550
+					number = 1550,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1700
+					number = 1700,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1700
+					number = 1700,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1900
+					number = 1900,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1900
+					number = 1900,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 2080
+					number = 2080,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 2080
+					number = 2080,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 2260
+					number = 2260,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 2260
+					number = 2260,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 2500
+					number = 2500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -253,15 +253,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 2500
+					number = 2500,
+					attr = "dodgeRate"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "智能寻路自身命中",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "自身命中上升",
 	stack = 1,

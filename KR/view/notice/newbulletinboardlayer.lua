@@ -22,11 +22,11 @@ slot0.MAIN_TAB_GAMETIP = {
 slot0.TITLE_IMAGE_HEIGHT_DEFAULT = 231
 slot0.TITLE_IMAGE_HEIGHT_FULL = 734
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewBulletinBoardUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._closeBtn = slot0:findTF("bg/close_btn")
 	slot0._mainTabContainer = slot0:findTF("bg/notice_list")
 	slot0._subTabGroup = slot0:findTF("bg/title_list/viewport/content"):GetComponent(typeof(ToggleGroup))
@@ -81,7 +81,7 @@ function slot0.init(slot0)
 	slot0.LTList = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0._mainAnim:Play("anim_BulletinBoard_in")
 	onButton(slot0, slot0._closeBtn, function ()
 		uv0._mainAnim:Play("anim_BulletinBoard_out")
@@ -97,7 +97,7 @@ function slot0.didEnter(slot0)
 	LeanTween.rotateAroundLocal(rtf(slot0._detailTitleImg:Find("loading/Image")), Vector3(0, 0, -1), 360, 5):setLoopClamp()
 end
 
-function slot0.updateRed(slot0)
+slot0.updateRed = function(slot0)
 	for slot4 = 1, 3 do
 		slot5 = false
 
@@ -117,11 +117,11 @@ function slot0.updateRed(slot0)
 	end
 end
 
-function slot0.checkNotice(slot0, slot1)
-	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "table" or slot1.paramType == 3 and type(slot1.param) == "number")
+slot0.checkNotice = function(slot0, slot1)
+	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "string" or slot1.paramType == 3 and type(slot1.param) == "number")
 end
 
-function slot0.initNotices(slot0, slot1)
+slot0.initNotices = function(slot0, slot1)
 	slot0.defaultMainTab = slot0.contextData.defaultMainTab
 	slot0.defaultSubTab = slot0.contextData.defaultSubTab
 
@@ -134,9 +134,7 @@ function slot0.initNotices(slot0, slot1)
 			if slot10 == 1 then
 				slot11 = string.match(slot7, "param%s*=%s*'(.*)'")
 			elseif slot10 == 2 then
-				if string.match(slot7, "param%s*=(.*)/>") then
-					slot11 = ParseTable(slot11) or slot11
-				end
+				slot11 = string.match(slot7, "param%s*=%s*'(.*)'")
 			elseif slot10 == 3 then
 				slot11 = string.match(slot7, "param%s*=%s*(%d+)") and (tonumber(slot11) or slot11)
 			end
@@ -195,7 +193,7 @@ function slot0.initNotices(slot0, slot1)
 	end
 end
 
-function slot0.setNotices(slot0, slot1)
+slot0.setNotices = function(slot0, slot1)
 	slot0:clearTab()
 
 	for slot5, slot6 in pairs(slot1) do
@@ -254,7 +252,7 @@ function slot0.setNotices(slot0, slot1)
 	BulletinBoardMgr.Inst:ClearCache(slot0.noticeKeys, slot0.noticeVersions)
 end
 
-function slot0.setImage(slot0, slot1, slot2, slot3, slot4)
+slot0.setImage = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot4:Find("img")
 	slot5:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 0.4)
 
@@ -280,15 +278,15 @@ function slot0.setImage(slot0, slot1, slot2, slot3, slot4)
 	end))
 end
 
-function slot0.setNoticeDetail(slot0, slot1)
-	function slot2(slot0)
+slot0.setNoticeDetail = function(slot0, slot1)
+	slot2 = function(slot0)
 		slot1 = cloneTplTo(uv0._contentBannerTpl, uv0._contentContainer)
 
 		table.insert(uv0._contentList, slot1)
 		uv0:setImage(uv1.id, uv1.version, slot0, slot1, true, nil)
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		slot1 = cloneTplTo(uv0._contentTxtTpl, uv0._contentContainer)
 
 		table.insert(uv0._contentList, slot1)
@@ -342,11 +340,7 @@ function slot0.setNoticeDetail(slot0, slot1)
 					Application.OpenURL(uv0.param)
 					uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
 				elseif uv0.paramType == 2 then
-					if #uv0.param < 2 then
-						uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param[1])
-					else
-						uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param[1], uv0.param[2])
-					end
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param)
 				elseif uv0.paramType == 3 then
 					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY, {
 						id = uv0.param
@@ -413,7 +407,7 @@ function slot0.setNoticeDetail(slot0, slot1)
 	end
 end
 
-function slot0.bannerRotate(slot0)
+slot0.bannerRotate = function(slot0)
 	for slot4, slot5 in pairs(slot0._contentList) do
 		if slot5:Find("loading/Image") then
 			table.insert(slot0.LTList, LeanTween.rotateAroundLocal(rtf(slot6), Vector3(0, 0, -1), 360, 5):setLoopClamp().uniqueId)
@@ -421,7 +415,7 @@ function slot0.bannerRotate(slot0)
 	end
 end
 
-function slot0.clearLeanTween(slot0)
+slot0.clearLeanTween = function(slot0)
 	slot1 = pairs
 	slot2 = slot0.LTList or {}
 
@@ -430,7 +424,7 @@ function slot0.clearLeanTween(slot0)
 	end
 end
 
-function slot0.clearContent(slot0)
+slot0.clearContent = function(slot0)
 	for slot4, slot5 in pairs(slot0._contentList) do
 		Destroy(slot5)
 	end
@@ -438,7 +432,7 @@ function slot0.clearContent(slot0)
 	slot0._contentList = {}
 end
 
-function slot0.clearTab(slot0)
+slot0.clearTab = function(slot0)
 	if slot0.subTabLT then
 		LeanTween.cancel(slot0.subTabLT)
 
@@ -455,7 +449,7 @@ function slot0.clearTab(slot0)
 	slot0._subTabAnims = {}
 end
 
-function slot0.clearLoadingPic(slot0)
+slot0.clearLoadingPic = function(slot0)
 	for slot4, slot5 in pairs(slot0._loadingFlag) do
 		BulletinBoardMgr.Inst:StopLoader(slot4)
 
@@ -463,7 +457,7 @@ function slot0.clearLoadingPic(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearLoadingPic()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

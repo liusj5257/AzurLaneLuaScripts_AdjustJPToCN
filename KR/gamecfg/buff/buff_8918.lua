@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022毛系活动 精神同步flag",
 	time = 0,
-	color = "yellow",
+	name = "2022毛系活动 精神同步flag",
+	init_effect = "",
+	id = 8918,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8918,
+	color = "yellow",
 	icon = 8918,
 	last_effect = "",
 	effect_list = {

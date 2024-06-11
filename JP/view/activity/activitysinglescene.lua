@@ -1,36 +1,36 @@
 slot0 = class("ActivitySingleScene", import("..base.BaseUI"))
 slot0.EXIT = "exit"
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot1()
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivitySingleUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.shareData = ActivityShareData.New()
 	slot0.pageContainer = slot0._tf
 
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:bind(uv0.EXIT, function (slot0)
 		uv0:emit(uv1.ON_BACK)
 	end)
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.shareData:SetPlayer(slot1)
 end
 
-function slot0.setFlagShip(slot0, slot1)
+slot0.setFlagShip = function(slot0, slot1)
 	slot0.shareData:SetFlagShip(slot1)
 end
 
-function slot0.updateTaskLayers(slot0)
+slot0.updateTaskLayers = function(slot0)
 	if not slot0.activity then
 		return
 	end
@@ -38,7 +38,7 @@ function slot0.updateTaskLayers(slot0)
 	slot0:updateActivity(slot0.activity)
 end
 
-function slot0.selectActivity(slot0, slot1)
+slot0.selectActivity = function(slot0, slot1)
 	slot0.activity = slot1
 
 	if slot1:getConfig("page_info").class_name and not slot1:isEnd() then
@@ -57,7 +57,7 @@ function slot0.selectActivity(slot0, slot1)
 	end
 end
 
-function slot0.updateActivity(slot0, slot1)
+slot0.updateActivity = function(slot0, slot1)
 	if ActivityConst.PageIdLink[slot1.id] then
 		slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
 	end
@@ -69,12 +69,12 @@ function slot0.updateActivity(slot0, slot1)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0.actPage:ActionInvoke("onBackPressed")
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.shareData = nil
 
 	if slot0.actPage then

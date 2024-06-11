@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "Terror Field",
 	cd = 0,
+	picture = "0",
+	desc = "Terror Field",
 	painting = 1,
 	id = 11770,
-	picture = "0",
 	castCV = "skill",
-	desc = "Terror Field",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 11771
 			}

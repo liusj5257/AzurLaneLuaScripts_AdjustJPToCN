@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 500
+					number = 500,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 610
+					number = 610,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -53,8 +53,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 720
+					number = 720,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -76,8 +76,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 830
+					number = 830,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -99,8 +99,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 940
+					number = 940,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -122,8 +122,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1050
+					number = 1050,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -145,8 +145,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1160
+					number = 1160,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1270
+					number = 1270,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -191,8 +191,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1380
+					number = 1380,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -214,8 +214,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1500
+					number = 1500,
+					attr = "antiSubPower"
 				}
 			},
 			{
@@ -229,14 +229,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 16017,
+	time = 0,
 	picture = "",
 	desc = "增加一门100%效率的反潜武器",
 	stack = 1,
-	id = 16017,
+	color = "red",
 	icon = 16010,
 	last_effect = "",
 	blink = {
@@ -253,8 +253,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiSubPower",
-				number = 500
+				number = 500,
+				attr = "antiSubPower"
 			}
 		},
 		{

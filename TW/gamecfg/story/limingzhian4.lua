@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方聯合·？？？",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-6",
+			say = "北方聯合·？？？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,9 +40,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "一處地點不明所屬機構不明的昏暗房間中，蘇維埃聯盟正仔細閱讀著行動報告。",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "這還真是，出乎意料的收穫……",
 			typewriter = {
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "從不知道擺放在某處的通訊中傳來了經過處理的聲音。",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "她們現在是什麼狀態？",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "……妳們的“誠意”我收到了。",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "運輸航線的長期損失，邊境的侵擾。",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -288,8 +288,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "就算繼續走下去，最終的輸家也會是妳們就是了。",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "正如妳我所知，曾經的鐵血毫無未來。",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -338,8 +338,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "請當成誇獎吧，俾斯麥確實是一位值得尊重的領袖。",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "通訊中斷了，但是蘇維埃聯盟並沒有做出反應。",
 			typewriter = {
 				speed = 0.05,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "多年的悔恨、多年的等待與多年的期盼彷彿都在此刻匯聚而來。",
 			typewriter = {
 				speed = 0.05,
@@ -430,9 +430,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "她彷彿在寂靜的空間中聆聽，在凝視，又彷佛是在沉思。",
 			typewriter = {
 				speed = 0.05,
@@ -444,9 +444,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "終於，她打開了一個螢幕，耳邊響起了專屬線路獨有的提示音。",
 			typewriter = {
 				speed = 0.05,
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "……鑑於“雜波”事件的情報分析與最新行動所收穫的證據……",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "……我已取得確切的行動坐標，也許我們還有挽回曾經失敗的機會……",
 			typewriter = {
@@ -511,9 +511,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "——最高聯合主席團，我希望立刻組建救援隊展開營救行動！",
 			typewriter = {

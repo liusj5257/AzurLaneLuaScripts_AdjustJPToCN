@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,21 +31,21 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "静寂に包まれる大広間。蝋燭の火のみが寂しげにほのかな光を放っている。",
 			nameColor = "#A9F548FF",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
-			bgm = "Theme-marcopolo",
+			side = 2,
 			bgmDelay = 1,
-			say = "静寂に包まれる大広間。蝋燭の火のみが寂しげにほのかな光を放っている。",
+			bgm = "Theme-marcopolo",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			say = "床に落とされた影は弱々しく、嵐の訪れに怯える小枝のように揺れ続けている。",
@@ -58,10 +58,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……兆しが現れた",
 			painting = {
 				alpha = 0.3,
@@ -76,10 +76,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……陰る雲が開き",
 			painting = {
 				alpha = 0.3,
@@ -94,10 +94,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……地を明るく照らす、聖なる光",
 			painting = {
 				alpha = 0.3,
@@ -112,10 +112,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……大いなる存在がついに降り立つ",
 			painting = {
 				alpha = 0.3,
@@ -130,10 +130,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……輝しき栄光に満ちた、かの写し身",
 			painting = {
 				alpha = 0.3,
@@ -148,10 +148,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……そして………",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "そこまで！相変わらず意味がわからないけど",
 			painting = {
 				alpha = 0.3,
@@ -181,16 +181,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,10 +202,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "要するに、「大いなる存在」の化身とやらがついに現れるわけね？",
 			painting = {
 				alpha = 0.3,
@@ -220,10 +220,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "よろしいっ！掴んだ情報が正しかったってことよ",
 			painting = {
 				alpha = 0.3,
@@ -238,10 +238,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "おーほっほっほっほ！",
 			painting = {
 				alpha = 0.3,
@@ -256,10 +256,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "このマルコ・ポーロ、もうどれだけ待ちわびたことか！",
 			painting = {
 				alpha = 0.3,
@@ -274,10 +274,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "威光を広める偉業、そのための最後のピースがついに揃った！",
 			painting = {
 				alpha = 0.3,
@@ -298,10 +298,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "さあ、大いなる存在――ずばり「神」よ",
 			painting = {
 				alpha = 0.3,
@@ -322,10 +322,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "「全ての願いを叶えられる」のよね？",
 			painting = {
 				alpha = 0.3,
@@ -340,10 +340,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "あははは！おーほっほっほっほ！",
 			painting = {
 				alpha = 0.3,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			say = "大笑いをしながら、マルコ・ポーロは寂れた聖堂を後にした。",
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			say = "大きく開かれた扉から吹き込んだ風が、最後のろうそくの火を消した。",
@@ -389,10 +389,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……そして再び雲が陰り",
 			painting = {
 				alpha = 0.3,
@@ -407,10 +407,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……世界は偽りの光に包まれる",
 			painting = {
 				alpha = 0.3,
@@ -425,10 +425,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……それが「神」が作り出した、永遠なる虚偽の楽園――",
 			painting = {
 				alpha = 0.3,
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = false,
-			bgm = "theme-clemenceau",
-			bgmDelay = 1,
+			mode = 1,
 			soundeffect = "event:/ui/dg-dutiao",
+			bgmDelay = 1,
+			bgm = "theme-clemenceau",
 			effects = {
 				{
 					active = false,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/dg-dutiao",
 			mode = 1,
+			soundeffect = "event:/ui/dg-dutiao",
 			sequence = {
 				{
 					"記録再生：審判廷との会談。レッドアクシズ成立前",
@@ -537,8 +537,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -553,13 +553,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_firedust_5",
-			nameColor = "#A9F548FF",
+			dialogueBgAlpha = 0.6,
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "現在　自由アイリス主力艦隊",
 			typewriter = {
@@ -572,15 +572,15 @@ return {
 					name = "zouxiangyuanweizhige"
 				},
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -629,13 +629,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#696969",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "▇▆▅■▎▃▌█緊急▇█▎■▄▆▋▂▁▅態█▊▇▊▇",
 			typewriter = {
 				speed = 0.05,
@@ -681,16 +681,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -699,13 +699,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#696969",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▊▇危険▅▁▂▋▄▊状█▌",
 			typewriter = {
 				speed = 0.05,
@@ -732,13 +732,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#696969",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▆早く▇█",
 			typewriter = {
 				speed = 0.05,
@@ -746,13 +746,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#696969",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▆リス█▎█",
 			typewriter = {
 				speed = 0.05,
@@ -760,13 +760,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#696969",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▎█▎天使▅█▎█▎▌救い▅▎▌█",
 			typewriter = {
 				speed = 0.05,
@@ -774,13 +774,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#696969",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▆助け▇█▂▁▅ださい█▎█",
 			typewriter = {
 				speed = 0.05,
@@ -788,12 +788,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
-			nameColor = "#92fc63",
+			side = 2,
 			actorName = "？？",
+			bgName = "star_level_bg_1104",
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "リシュリュー枢機卿？",
 			flashout = {
 				dur = 1,
@@ -822,8 +822,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？",
+			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -865,10 +865,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "……うん……頭がちょっと重くて……",
 			painting = {
 				alpha = 0.3,
@@ -883,10 +883,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "すみません、つい寝入ってしまいました",
 			painting = {
 				alpha = 0.3,
@@ -901,10 +901,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "大丈夫ですよ。それよりテリブル、何か用？",
 			painting = {
 				alpha = 0.3,
@@ -919,10 +919,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "実は大事な報告があります",
 			painting = {
 				alpha = 0.3,
@@ -937,10 +937,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "審判廷の……クレマンソー様からの連絡を頂きましてね",
 			painting = {
 				alpha = 0.3,
@@ -955,10 +955,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "「機は熟した。そろそろアイリスの正統を取り戻す時だ」",
 			painting = {
 				alpha = 0.3,
@@ -973,10 +973,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "……わかりました",
 			painting = {
 				alpha = 0.3,
@@ -991,10 +991,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "あまり動じないご様子ですね",
 			painting = {
 				alpha = 0.3,
@@ -1009,10 +1009,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "「聖座の冠」はアイリスの正統の象徴……しかし、象徴は象徴にすぎません",
 			painting = {
 				alpha = 0.3,
@@ -1027,10 +1027,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "信ずる者たちからの信義があって初めて、己を正統たらしめるものになります",
 			painting = {
 				alpha = 0.3,
@@ -1045,10 +1045,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "とはいえ、この連絡は無意味なものではありません",
 			painting = {
 				alpha = 0.3,
@@ -1063,10 +1063,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "審判廷が冠の情報をこちらに伝えてきたことは、流れが変わっている証明でしょう",
 			painting = {
 				alpha = 0.3,
@@ -1081,10 +1081,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "「聖座の冠」に通ずる鍵…はマルタにあります",
 			painting = {
 				alpha = 0.3,
@@ -1099,10 +1099,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "そっちに向かいましょうか",
 			painting = {
 				alpha = 0.3,
@@ -1117,10 +1117,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "それには及びません。枢機卿殿",
 			painting = {
 				alpha = 0.3,
@@ -1135,10 +1135,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "聖堂の島での枢機卿様のご活躍により事情が変わりまして。「冠」の在り処に直行できますよ",
 			painting = {
 				alpha = 0.3,
@@ -1153,10 +1153,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "そうなんですか？",
 			painting = {
 				alpha = 0.3,
@@ -1171,10 +1171,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "セントヘレナ島です。審判廷は以前ロイヤルの許可のもと、とある秘密要塞を建設してましてね",
 			painting = {
 				alpha = 0.3,
@@ -1189,10 +1189,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "「冠」はそこで軽巡洋艦マルセイエーズによって守られています",
 			painting = {
 				alpha = 0.3,
@@ -1207,10 +1207,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "マルセイエーズ……？",
 			painting = {
 				alpha = 0.3,
@@ -1222,8 +1222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1232,8 +1232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1245,10 +1245,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "はい。公の場にほとんど出てきませんが、審判廷の戦闘天使は「再現」の後からずっと「冠」を守っていたようです",
 			painting = {
 				alpha = 0.3,
@@ -1263,10 +1263,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "テリブル、正直この手の話はあまり信じたくありませんが…",
 			painting = {
 				alpha = 0.3,
@@ -1281,10 +1281,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "この数日見せ続けられた夢に、そのマルセイエーズが出てきました",
 			painting = {
 				alpha = 0.3,
@@ -1299,10 +1299,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "黒い太陽の夢……ですか？",
 			painting = {
 				alpha = 0.3,
@@ -1314,8 +1314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1324,8 +1324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1337,10 +1337,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "確かにそれは凶兆と捉えても仕方がありませんね…",
 			painting = {
 				alpha = 0.3,
@@ -1355,10 +1355,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "テリブル。「冠」はともかく、マルセイエーズは放っておけません。私たちは――",
 			painting = {
 				alpha = 0.3,
@@ -1373,10 +1373,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "（クレマンソー殿はこの展開を予想して連絡してきたのですね…）",
 			painting = {
 				alpha = 0.3,
@@ -1391,10 +1391,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "（あの要塞は常時電波封止状態でしたね――ふぅ。全く、私に勝るとも劣らない性悪な方です）",
 			painting = {
 				alpha = 0.3,
@@ -1409,10 +1409,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "艦隊の針路を変えて、セントヘレナ島に向かいましょう",
 			painting = {
 				alpha = 0.3,

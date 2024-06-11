@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2024 同盟活动EX 开场检测",
 	time = 0,
+	name = "2024 同盟活动EX 开场检测",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -47,8 +47,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 0.1,
+				target = "TargetSelf",
 				skill_id = 200765
 			}
 		},
@@ -59,8 +59,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 1,
+				target = "TargetSelf",
 				skill_id = 200766
 			}
 		}

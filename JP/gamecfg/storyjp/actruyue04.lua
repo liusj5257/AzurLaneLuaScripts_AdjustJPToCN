@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ACTRUYUE04",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ACTRUYUE04",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏の鍋大会！？\n\n<size=45>四  ナベにも衣装！？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "重桜寮・少し前",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "重桜寮・少し前",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "如月如月～「ナベタイカイ」いこー！",
 			typewriter = {
@@ -63,13 +63,13 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "な、なべたいかい…？",
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
-			say = "な、なべたいかい…？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "明石がみんなでおなべ、たべようって！",
 			typewriter = {
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "でも…おなべってふゆにたべるものなんじゃ……？",
 			typewriter = {
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "うん…うん！そうだよ！",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "じゃあふゆのふくをきていくの…？",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "うん？うん……たぶん！",
 			typewriter = {
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "そうなの……？",
 			typewriter = {
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "うん！ふゆのおなべをたべるには、ふゆのふくをきるひつようがあるの！",
 			typewriter = {
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "そ、そうなんだ…",
 			typewriter = {

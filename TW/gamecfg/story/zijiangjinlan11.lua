@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg7",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·長門控制區第三回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,17 +36,17 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#A9F548FF",
 			say = "……這霧，礙事。",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -126,8 +126,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "不至於吧，只是一盤棋而已……為了在一盤遊戲上取得優勢而特意準備作戰任務，也太小家子氣了。",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本回合放棄進攻與武藏區域相鄰的邊界據點GH56。",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "榛名進入上回合攻下的據點IJ56，比叡移動至I5，保持對於武藏的壓力。",
 			painting = {
 				alpha = 0.3,
@@ -262,10 +262,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "江風移動至H5，春月移動至G5，防範武藏可能的入侵行動。",
 			painting = {
 				alpha = 0.3,
@@ -280,10 +280,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "翔鶴就近進入IJ12據點控制區I2。",
 			painting = {
 				alpha = 0.3,
@@ -317,10 +317,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "汝一人配合量產型，將小據點IJ12拿下，以上。",
 			painting = {
 				alpha = 0.3,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg7",
 			hidePaintObj = true,
 			say = "長門的話語結束後，翔鶴身上瞬間被兩種光芒所覆蓋。",
@@ -362,8 +362,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "不止如此，長門大人還使用指揮卡「總旗艦之令」大幅度提高了翔鶴的傷害！",
 			painting = {

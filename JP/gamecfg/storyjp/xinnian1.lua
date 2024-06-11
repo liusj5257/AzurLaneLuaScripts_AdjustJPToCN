@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "ふぅ……やっと帰ったわ……",
 			typewriter = {
 				speed = 0.05,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			say = "ただいまにゃ！今日も大漁だにゃ……",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "ただいまにゃ！今日も大漁だにゃ……",
+			actor = 312010,
+			actorName = "{namecode:98}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -55,8 +55,8 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "大漁って……私たちは確かお正月の買い出しに行ったはずだったんだけど……ねぇ、明石ちゃん？",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "ふにゃ…いいパーツを見つけて思わず…べ、別にいいにゃ！「びじねすちゃんす」だにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "それに指揮官やみんなもきっと喜ぶにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "明石ちゃんコラ、パーツを抱えて逃げないの！買ってきたものを片付けるわよ。",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "にゃ…明石は指揮官の懐で寝たいにゃ―",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:93}",
 			dir = -1,
+			actorName = "{namecode:93}",
 			say = "あら、愛宕と明石ちゃん、おかえり。買い出しは終わった？",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "にゃ！蒼龍だにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "ええ。こっちの買い出しはだいたい終わったわ。…といってもこの子は余計なものまで買っちゃって。ふふふ。",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "それはよかった。買ったものの片付け、それと……そろそろ年末の大掃除ね。みんなに声掛けないと。",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "蒼龍は凄いわね。さすが指揮官の右腕だわ。",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "ま、まぁやるべきことをやっただけよ……",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "明石も右腕だにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "はいはい、明石ちゃんは母港みんなの右腕だわ。右腕ならちゃんと手伝わないとね。はい、これはあっちに――",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "わかったにゃ……",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "あ、私も手伝うわよ？",
 			typewriter = {
 				speed = 0.05,

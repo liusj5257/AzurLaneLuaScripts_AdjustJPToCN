@@ -1,14 +1,14 @@
 slot0 = class("BossRushEXBattleResultLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BattleResultBossRushEXUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	setText(slot0._tf:Find("TotalScore/Desc"), i18n("series_enemy_total_score"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	onButton(slot0, slot0._tf:Find("Confirm"), function ()
 		uv0:emit(BossRushBattleResultMediator.ON_SETTLE)
@@ -66,22 +66,22 @@ function slot0.didEnter(slot0)
 	slot0:loadUI()
 end
 
-function slot0.shareEx(slot0)
+slot0.shareEx = function(slot0)
 end
 
-function slot0.setPainting(slot0, slot1, slot2, slot3)
+slot0.setPainting = function(slot0, slot1, slot2, slot3)
 	setPaintingPrefabAsync(slot1, slot2, "biandui", slot3)
 end
 
-function slot0.retPainting(slot0, slot1, slot2)
+slot0.retPainting = function(slot0, slot1, slot2)
 	retPaintingPrefab(slot1, slot2)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0._tf:Find("Confirm"))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
 	if slot0.retPaintings and #slot0.retPaintings > 0 then
@@ -91,7 +91,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.loadUI(slot0)
+slot0.loadUI = function(slot0)
 	slot1 = PoolMgr.GetInstance()
 
 	slot1:GetUI("ShareUI", false, function (slot0)

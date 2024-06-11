@@ -22,7 +22,7 @@ slot3.STRIKE_STATE_FREE = 5
 slot3.STRIKE_STATE_BACKWARD = 6
 slot3.STRIKE_STATE_RECYCLE = 7
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._dir = uv1.Battle.BattleConst.UnitDir.LEFT
@@ -36,12 +36,12 @@ function slot3.Ctor(slot0, slot1)
 	slot0._backwardWeaponID = {}
 end
 
-function slot3.Update(slot0, slot1)
+slot3.Update = function(slot0, slot1)
 	slot0:UpdateSpeed()
 	slot0:updateStrike()
 end
 
-function slot3.UpdateWeapon(slot0)
+slot3.UpdateWeapon = function(slot0)
 	for slot4, slot5 in ipairs(slot0:GetWeapon()) do
 		slot8 = slot5:GetCurrentState()
 
@@ -55,7 +55,7 @@ function slot3.UpdateWeapon(slot0)
 	end
 end
 
-function slot3.CreateWeapon(slot0)
+slot3.CreateWeapon = function(slot0)
 	slot1 = {}
 
 	if type(slot0._weaponTemplateID) == "table" then
@@ -75,30 +75,30 @@ function slot3.CreateWeapon(slot0)
 	return slot1
 end
 
-function slot3.SetWeaponTemplateID(slot0, slot1)
+slot3.SetWeaponTemplateID = function(slot0, slot1)
 	slot0._weaponTemplateID = slot1
 end
 
-function slot3.SetBackwardWeaponID(slot0, slot1)
+slot3.SetBackwardWeaponID = function(slot0, slot1)
 	slot0._backwardWeaponID = slot1
 end
 
-function slot3.SetTemplate(slot0, slot1)
+slot3.SetTemplate = function(slot0, slot1)
 	slot0:SetAttr(slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 end
 
-function slot3.SetAttr(slot0, slot1)
+slot3.SetAttr = function(slot0, slot1)
 	uv0.Battle.BattleAttr.SetAirFighterAttr(slot0, slot1)
 	slot0:SetIFF(-1)
 end
 
-function slot3.UpdateSpeed(slot0)
+slot3.UpdateSpeed = function(slot0)
 	slot0._speed:Copy(slot0._speedDir)
 	slot0._speed:Mul(slot0._velocity * slot0:GetSpeedRatio())
 end
 
-function slot3.Free(slot0)
+slot3.Free = function(slot0)
 	slot0._undefeated = true
 
 	slot0:LiveCallBack()
@@ -106,13 +106,13 @@ function slot3.Free(slot0)
 	slot0._aliveState = false
 end
 
-function slot3.recycle(slot0)
+slot3.recycle = function(slot0)
 	slot0:LiveCallBack()
 
 	slot0._aliveState = false
 end
 
-function slot3.onDead(slot0)
+slot3.onDead = function(slot0)
 	slot0._currentState = slot0.STATE_DESTORY
 
 	slot0:DeadCallBack()
@@ -120,43 +120,43 @@ function slot3.onDead(slot0)
 	slot0._aliveState = false
 end
 
-function slot3.GetPosition(slot0)
+slot3.GetPosition = function(slot0)
 	return slot0._viewPos
 end
 
-function slot3.SetFormationIndex(slot0, slot1)
+slot3.SetFormationIndex = function(slot0, slot1)
 	slot0._formationIndex = slot1
 	slot0._flyStateScale = 12 / (slot1 + 3) + 1
 
 	slot0:DispatchStrikeStateChange()
 end
 
-function slot3.GetFormationIndex(slot0)
+slot3.GetFormationIndex = function(slot0)
 	return slot0._formationIndex
 end
 
-function slot3.SetFormationOffset(slot0, slot1)
+slot3.SetFormationOffset = function(slot0, slot1)
 	slot0._formationOffset = Vector3(slot1.x, slot1.y, slot1.z)
 	slot0._formationOffsetOppo = Vector3(slot1.x * -1, slot1.y, slot1.z)
 end
 
-function slot3.SetDeadCallBack(slot0, slot1)
+slot3.SetDeadCallBack = function(slot0, slot1)
 	slot0._deadCallBack = slot1
 end
 
-function slot3.DeadCallBack(slot0)
+slot3.DeadCallBack = function(slot0)
 	slot0._deadCallBack()
 end
 
-function slot3.SetLiveCallBack(slot0, slot1)
+slot3.SetLiveCallBack = function(slot0, slot1)
 	slot0._liveCallBack = slot1
 end
 
-function slot3.LiveCallBack(slot0)
+slot3.LiveCallBack = function(slot0)
 	slot0._liveCallBack()
 end
 
-function slot3.getYShake(slot0)
+slot3.getYShake = function(slot0)
 	slot0._YShakeDir = slot0._YShakeDir or 1
 
 	if slot0._YShakeMax < (slot0._YShakeCurrent or 0) + (0.04 * math.random() + 0.01) * slot0._YShakeDir then
@@ -174,27 +174,27 @@ function slot3.getYShake(slot0)
 	return slot1
 end
 
-function slot3.calcYShakeMin(slot0)
+slot3.calcYShakeMin = function(slot0)
 	slot0._YShakeMin = -0.5 - math.random()
 end
 
-function slot3.calcYShakeMax(slot0)
+slot3.calcYShakeMax = function(slot0)
 	slot0._YShakeMax = 0.5 + math.random()
 end
 
-function slot3.DispatchStrikeStateChange(slot0)
+slot3.DispatchStrikeStateChange = function(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv1.AIR_STRIKE_STATE_CHANGE, {}))
 end
 
-function slot3.GetStrikeState(slot0)
+slot3.GetStrikeState = function(slot0)
 	return slot0._strikeState
 end
 
-function slot3.GetSize(slot0)
+slot3.GetSize = function(slot0)
 	return slot0._scale
 end
 
-function slot3.changeState(slot0, slot1)
+slot3.changeState = function(slot0, slot1)
 	if slot0._strikeState == slot1 then
 		return
 	end
@@ -234,14 +234,14 @@ function slot3.changeState(slot0, slot1)
 	slot0:DispatchStrikeStateChange()
 end
 
-function slot3.changeToFlyState(slot0)
+slot3.changeToFlyState = function(slot0)
 	slot0._pos = uv0.Battle.BattleCameraUtil.GetInstance():GetS2WPoint(uv1.AIRFIGHTER_ENTER_POINT)
 	slot0._viewPos = slot0._pos
 
 	uv0.Battle.PlayBattleSFX("battle/plane")
 end
 
-function slot3._updatePosFly(slot0)
+slot3._updatePosFly = function(slot0)
 	slot0._pos:Add(uv0.SPEED_FLY)
 
 	slot0._viewPos = Vector3(slot0._formationOffset.x * slot0._flyStateScale, (slot0._formationOffset.z / 1.7 + slot0:getYShake()) * slot0._flyStateScale, 0):Add(slot0._pos)
@@ -251,12 +251,12 @@ function slot3._updatePosFly(slot0)
 	end
 end
 
-function slot3.changeToBackState(slot0)
+slot3.changeToBackState = function(slot0)
 	slot1 = nil
 	slot0._pos = Vector3(slot0._pos.x, 15, (not uv0.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(uv1.FRIENDLY_CODE):GetMotion() or slot2:GetPos().z) and 45)
 end
 
-function slot3._updatePosBack(slot0)
+slot3._updatePosBack = function(slot0)
 	slot0._pos:Sub(slot0._speed)
 	slot0._viewPos:Copy(slot0._pos)
 	slot0._viewPos:Sub(slot0._formationOffset)
@@ -266,13 +266,13 @@ function slot3._updatePosBack(slot0)
 	end
 end
 
-function slot3.changeToDownState(slot0)
+slot3.changeToDownState = function(slot0)
 	slot0._ySpeed = 0.5
 
 	slot0:SetVisitable()
 end
 
-function slot3._updatePosDown(slot0)
+slot3._updatePosDown = function(slot0)
 	slot0._pos:Sub(slot0._speed)
 
 	slot0._pos.y = math.max(uv0.HEIGHT, slot0._pos.y - slot0._ySpeed)
@@ -284,11 +284,11 @@ function slot3._updatePosDown(slot0)
 	end
 end
 
-function slot3.changeToAttackState(slot0)
+slot3.changeToAttackState = function(slot0)
 	uv0.Battle.PlayBattleSFX("battle/air-atk")
 end
 
-function slot3._updatePosAttack(slot0)
+slot3._updatePosAttack = function(slot0)
 	slot0._pos:Sub(slot0._speed)
 
 	slot0._pos.y = math.max(uv0.HEIGHT, slot0._pos.y - 0.04)
@@ -303,11 +303,11 @@ function slot3._updatePosAttack(slot0)
 	end
 end
 
-function slot3.changeToUpState(slot0)
+slot3.changeToUpState = function(slot0)
 	slot0._ySpeed = 0.1
 end
 
-function slot3._updatePosUp(slot0)
+slot3._updatePosUp = function(slot0)
 	slot0._pos:Sub(slot0._speed)
 
 	slot0._pos.y = slot0._pos.y + slot0._ySpeed
@@ -319,14 +319,14 @@ function slot3._updatePosUp(slot0)
 	end
 end
 
-function slot3._updateFree(slot0)
+slot3._updateFree = function(slot0)
 	slot0:Free()
 end
 
-function slot3.changeToBackwardState(slot0)
+slot3.changeToBackwardState = function(slot0)
 end
 
-function slot3._updateBackward(slot0)
+slot3._updateBackward = function(slot0)
 	slot0._pos:Add(slot0._speed)
 
 	slot0._pos.y = math.max(uv0.HEIGHT, slot0._pos.y - 0.04)
@@ -337,6 +337,6 @@ function slot3._updateBackward(slot0)
 	end
 end
 
-function slot3._updateRecycle(slot0)
+slot3._updateRecycle = function(slot0)
 	slot0:recycle()
 end

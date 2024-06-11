@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -68,8 +68,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "After tasting the bitterness of matcha, I will cherish even more the sweetness of other foods.",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "{namecode:13} also wants to try the black tea prepared by Belfast!",
 			typewriter = {
 				speed = 0.05,
@@ -112,13 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			withoutPainting = true,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "???",
 			dir = 1,
+			actor = 205010,
+			actorName = "???",
 			say = "Wait, wait for me——!",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			say = "At the same time, {namecode:11}...",
 			blackBg = true,
+			say = "At the same time, {namecode:11}...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			say = "[North Latitude 34° East Longitude 140°]",
 			blackBg = true,
+			say = "[North Latitude 34° East Longitude 140°]",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "A single person alone can be a bit… but——Ninja {namecode:11} will never give up even if I'm facing danger alone! Here I come, Northern Parliament!",
 			typewriter = {
 				speed = 0.05,

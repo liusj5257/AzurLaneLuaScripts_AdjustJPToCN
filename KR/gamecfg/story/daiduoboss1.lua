@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"싸워라! 로열 메이드 2nd\n\n<size=45>두 번째 작전 개시</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 205010,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "벨파스트, 잘 들어! 이번 임무는 절대 실패해서는 안 돼!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -89,14 +89,14 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 0.5,
-			say = "폐하는 그렇게 말씀하셨지만…",
+			bgName = "bg_story_nepu2",
 			bgm = "level02",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "폐하는 그렇게 말씀하셨지만…",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202210,
 			dir = 1,
+			actor = 202210,
 			nameColor = "#a9f548",
 			say = "괜찮아요. 이런 임무, 처음도 아니니까 가볍게 하면 된답니다.",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "하지만 폐하의 분부도 있으셨으니, 전력을 다해야 합니다.",
 			typewriter = {
@@ -228,14 +228,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 202040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "모항에 막 오자마자 이런 방식으로 지휘관님을 만나게 된다니……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "혹시 그 아이처럼 버려지는 건 아닐까요……",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "걱정 마십시오. 폐하께서 메이드단에 내리신 명령이 있습니다.",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "그러니까…… 메이드단의 백업으로 연합 훈련에서 주인님과 상대한다… 이건가요?",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "그리고 가장 중요한 건… 다이도가 ‘어떤 상황에서도 주인님을 만족시킬 수 있다’라는 사실을 증명할 기회라는 거예요…!",
 			typewriter = {
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 202040,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202040,
+			nameColor = "#a9f548",
 			say = "알겠어요…! 폐하를 위해, 주인님을 위해! 다이도, 반드시 최선을 다할게요!",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -386,15 +386,15 @@ return {
 			}
 		},
 		{
-			actor = 202260,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202260,
+			nameColor = "#a9f548",
 			say = "언니… 악마가 따로 없네.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-5",
 			mode = 1,
+			bgm = "battle-boss-5",
 			effects = {
 				{
 					active = true,
@@ -492,8 +492,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

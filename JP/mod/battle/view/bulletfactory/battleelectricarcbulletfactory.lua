@@ -7,11 +7,11 @@ slot0.Battle.BattleElectricArcBulletFactory = singletonClass("BattleElectricArcB
 slot0.Battle.BattleElectricArcBulletFactory.__name = "BattleElectricArcBulletFactory"
 slot4 = slot0.Battle.BattleElectricArcBulletFactory
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot4.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
+slot4.CreateBullet = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:PlayFireFX(slot1, slot2, slot3, slot4, slot5, nil)
 
 	if slot2:GetDirectHitUnit() == nil then

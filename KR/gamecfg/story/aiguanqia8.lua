@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA8",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA8",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301120,
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			actorName = "가짜 키즈나 아이",
 			say = "………!？",
 			typewriter = {
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			nameColor = "#92fc63",
-			hideOther = true,
+			actor = 301120,
 			dir = 1,
+			hideOther = true,
 			actorName = "이카즈치＆이나즈마",
 			say = "비기 - 뇌전 난사!''",
 			effects = {
@@ -85,11 +85,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			withoutActorName = true,
-			actor = 10400010,
 			dir = 1,
-			say = "(콰앙~!)",
+			withoutActorName = true,
 			soundeffect = "event:/battle/boom2",
+			actor = 10400010,
+			say = "(콰앙~!)",
 			effects = {
 				{
 					active = false,
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -180,8 +180,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "우에에에에엥! 고마워요오오오~~!!",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "우우~ 미안해요오오~~~!",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

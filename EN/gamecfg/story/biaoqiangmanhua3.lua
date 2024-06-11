@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIAOQIANGMANHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Javelin's Monthly Manga\n\n<size=45>Chapter 3 - A Strange Letter...?</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			blackBg = true,
+			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			blackBg = true,
+			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			blackBg = true,
+			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
@@ -94,13 +94,13 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "What's all this nonsense...?",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "What's all this nonsense...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,10 +175,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 101170,
 			dir = 1,
 			hideOther = true,
 			actorName = "Laffey & Ayanami",
@@ -193,15 +193,15 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "Unicorn doesn't really get it either...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "A similar letter...? Um, I've n-never gotten anything of the sort?!",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 25,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -252,15 +252,15 @@ return {
 			}
 		},
 		{
-			actor = 202170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202170,
+			nameColor = "#a9f548",
 			say = "Hmm... the truth of this world... I knew it, whoever sent this letter must be an \"Esper!\"",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -317,15 +317,15 @@ return {
 			}
 		},
 		{
-			actor = 401460,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401460,
+			nameColor = "#a9f548",
 			say = "Tis true, this document is hard to read. But fear not, for we can interpret it.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Really?! Viersechs, you're the best!",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 25,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

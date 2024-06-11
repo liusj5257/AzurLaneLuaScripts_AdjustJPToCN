@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102100,
 			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 102100,
 			nameColor = "#a9f548",
 			say = "敵方反應消失，可以稍微鬆口氣了哦~",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "啊哈哈…越接近要塞中心塞壬的艦隊戰鬥力就越強。現在只不過是個開胃前菜而已哦？",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "嗯？突破每一層封鎖線，防禦力量就會更強一級，感覺好像…好像…",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "魔王城啊…聽起來倒是挺讓人熱血沸騰的呢。全員注意，目標魔王房間，出發~的感覺~？",
 			typewriter = {

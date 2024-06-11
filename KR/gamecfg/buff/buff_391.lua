@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 391,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
-	id = 391,
+	color = "red",
 	icon = 390,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.15
+				number = 0.15,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

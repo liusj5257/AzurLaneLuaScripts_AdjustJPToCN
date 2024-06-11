@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YONGYEHUANGUANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "로열 네이비·LD 사령부 며칠 전",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			nameColor = "#a9f548",
+			say = "로열 네이비·LD 사령부 며칠 전",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "노스 유니온의 현황은 보고서와 같아. 로열 네이비 여러분의 의견은 어떤가?",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "음...지금까지 노스 유니온 덕분에 그 녀석들을 극지에 꽁꽁 묶어 뒀었는데 그들이 버티지 못한다면…",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "흥…그런 일은 절대로 일어나면 안 돼.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = " 맞아, 그러면 이번 노스 유니온의 지원 요청을 받아들이는데 로열 네이비도 다른 의견 없다고 봐도 되겠지?",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "우리가 믿을 만한 정보를 받았는데 메탈 블러드가 몰래 바렌츠해 방향으로 함대를 소집하고 있대. 모두 통과할 때 꼭 조심해야 해!",
 			typewriter = {
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "흥! 만약 메탈 블러드가 이 소란을 틈탄다면 내가 반드시 성대한 연회로 그들을 반겨주지!",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,8 +243,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "설마... 이번 기회를 통해 메탈 블러드의 함대를...?",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "그럼 이번 일은 이렇게 결정하지. 다음은, 지휘관의 현재 상황에 관한 것이다.",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "그래. 현재 형세를 고려하여 노스 유니온에서 지휘관의 주둔 기한을 잠시 연장해달라는 제안서를 보내왔는데, 모두 어떻게 생각하나?",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "…...정말 때맞춰 요구하네.",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "그러게. 이글 유니온은 이에 대해 강력하게 반대야. 지원 물자가 도착하면, 극지의 전세는 대폭 개선될 수 있어. 지휘관의 주둔 기한을 연장할 이유가 아무것도 없다고!",
 			typewriter = {
@@ -360,8 +360,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "노스 유니온이 그렇게 불편하다고 한다면, 우리는 산티아고 사령부에서 함대를 선발 배치하고, 지휘관을 바로 노스 유니온에서 데려오겠어!",
 			typewriter = {
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "흐흥! 나에게 더 좋은 방법이 있어. 바로 회항하는 운송 함대를 이용하여 지휘관을 로열 네이비로 데려온 후, 다시 로열 네이비 함대에게 지휘관을 이글 유니온으로 호위하도록 하는 거지. 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -451,8 +451,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "로열 네이비가 돕는다고 한다면 더할 나위 없겠지!",
 			typewriter = {
@@ -497,8 +497,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「안건」</size>",
@@ -543,8 +543,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

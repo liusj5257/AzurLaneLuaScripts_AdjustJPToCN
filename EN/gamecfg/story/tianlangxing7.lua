@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Sirius' Improvement Plan\n\n<size=45>Chapter 7 - Like The Brightest Star</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "The fight was over in a matter of minutes.",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "The fight was over in a matter of minutes.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "As soon as the Sirens had made their appearance, they were promptly turned into little more than wrecks.",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "What rubbish! They stole the limelight from my Home Fleet!",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -122,17 +122,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "...I must admit, the anti-air capabilities of the Dido-class are a marvel to behold.",
 			bgm = "story-2",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "...I must admit, the anti-air capabilities of the Dido-class are a marvel to behold.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "That decision I made in the banquet hall came from my trust in Sirius and the knowledge that if anyone could do it, it would be her.",
 			typewriter = {
 				speed = 0.05,
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "And that decision turned out to be right. That's all there's to it.",
 			typewriter = {
 				speed = 0.05,
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "And so, Sirius, donning her white rose dress, made her triumphant return.",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "My honourable Master, I have cleared the path so that you may move forward.",
 			typewriter = {
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "Silently and elegantly, she reached her hand out to me.",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "Were it your wish, I would more brightly and magnificently than anyone else.",
 			typewriter = {

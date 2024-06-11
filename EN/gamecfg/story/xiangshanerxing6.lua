@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -52,10 +52,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "I've heard about the results, and they're what I expected. Don't feel anxious about them.",
 			typewriter = {
 				speed = 0.05,
@@ -66,10 +66,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Meh, I had a feeling the talks wouldn't go anywhere.",
 			painting = {
 				alpha = 0.3,
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They want to reform the Azur Lane through diplomacy... While it's a nice idea, it's just too sudden.",
 			painting = {
 				alpha = 0.3,
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We can't set aside our ideological differences just like that, even with the Commander orchestrating things.",
 			painting = {
 				alpha = 0.3,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then there's Naval HQ's role in the matter...",
 			painting = {
 				alpha = 0.3,
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Even supposing all factions agree to a temporary pact, there's still no guarantee that true unity will bloom from it.",
 			painting = {
 				alpha = 0.3,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It will just be a repeat of the past, with us fragmenting once again.",
 			painting = {
 				alpha = 0.3,
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If anything, we should thoroughly destroy the current order and–",
 			painting = {
 				alpha = 0.3,
@@ -196,12 +196,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh...",
 			painting = {
 				alpha = 0.3,
@@ -216,10 +216,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahem...",
 			painting = {
 				alpha = 0.3,
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You know, it's really nice how the Orthodoxy paid part of this AND provided a venue!",
 			painting = {
 				alpha = 0.3,
@@ -251,10 +251,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "It's convenient for us, yes, but \"nice\" isn't the word I'd use.",
 			typewriter = {
 				speed = 0.05,
@@ -265,10 +265,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "Since the Vichya Dominion and Iris Libre have reunited, the question of the Iris Orthodoxy's return to the Azur Lane has become front-and-center.",
 			typewriter = {
 				speed = 0.05,
@@ -292,10 +292,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "The Cardinal is surely aware of this, and so she \"nicely\" sprung into action to petition Comrade Commander for help.",
 			typewriter = {
 				speed = 0.05,
@@ -306,10 +306,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "Therefore, by establishing this conference, they'll at least be able to protect their homeland.",
 			typewriter = {
 				speed = 0.05,
@@ -320,10 +320,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What about Sardegna, then? They don't really expect one conference to resolve everything, do they?",
 			painting = {
 				alpha = 0.3,
@@ -338,10 +338,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "...Knowing them, maybe they do.",
 			typewriter = {
 				speed = 0.05,
@@ -352,10 +352,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "Perhaps they are also trying to regain the honor that the near-superimposition event cost them.",
 			typewriter = {
 				speed = 0.05,
@@ -379,10 +379,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "Though I don't expect anything to come out of this, we should let them have their moment of glory.",
 			typewriter = {
 				speed = 0.05,
@@ -390,12 +390,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course. Leave it to us.",
 			painting = {
 				alpha = 0.3,
@@ -410,10 +410,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "Before I go, there's one thing I want you to bear in mind.",
 			typewriter = {
 				speed = 0.05,
@@ -437,10 +437,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "One possibility is that one of the Orthodoxy's Basilicas lie there, but another is that Iron Blood has found something and told the Tribunal about it.",
 			typewriter = {
 				speed = 0.05,
@@ -451,10 +451,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			paintingNoise = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
+			hidePaintObj = true,
 			say = "I have already tasked a team to investigate further. In the meantime, I ask the two of you to keep an eye on the other factions at the conference.",
 			typewriter = {
 				speed = 0.05,
@@ -462,12 +462,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Antarctica... Understood. We'll look into it as well.",
 			painting = {
 				alpha = 0.3,

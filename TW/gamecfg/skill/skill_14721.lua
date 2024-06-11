@@ -2,14 +2,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -23,14 +23,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -44,10 +44,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64621
 				}
@@ -57,14 +57,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -78,14 +78,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -99,10 +99,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64622
 				}
@@ -112,14 +112,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -133,14 +133,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -154,10 +154,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64623
 				}
@@ -167,14 +167,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -188,14 +188,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -209,10 +209,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64624
 				}
@@ -222,14 +222,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -243,14 +243,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -264,10 +264,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64625
 				}
@@ -277,14 +277,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -298,14 +298,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -319,10 +319,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64626
 				}
@@ -332,14 +332,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -353,14 +353,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -374,10 +374,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64627
 				}
@@ -387,14 +387,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -408,14 +408,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -429,10 +429,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64628
 				}
@@ -442,14 +442,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -463,14 +463,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -484,10 +484,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64629
 				}
@@ -497,14 +497,14 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -518,14 +518,14 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillProjectShelter",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillProjectShelter",
+				target_choise = "TargetNil",
 				arg_list = {
-					duration = 5,
-					effect = "shield03",
 					count = 10,
+					effect = "shield03",
+					duration = 5,
 					box = {
 						4,
 						10,
@@ -539,10 +539,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 64630
 				}
@@ -552,10 +552,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 14721,
 	picture = "0",
 	desc = "",
+	painting = 0,
+	id = 14721,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -566,14 +566,14 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillProjectShelter",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillProjectShelter",
+			target_choise = "TargetNil",
 			arg_list = {
-				duration = 5,
-				effect = "shield03",
 				count = 10,
+				effect = "shield03",
+				duration = 5,
 				box = {
 					4,
 					10,
@@ -587,14 +587,14 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillProjectShelter",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillProjectShelter",
+			target_choise = "TargetNil",
 			arg_list = {
-				duration = 5,
-				effect = "shield03",
 				count = 10,
+				effect = "shield03",
+				duration = 5,
 				box = {
 					4,
 					10,
@@ -608,10 +608,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 64621
 			}

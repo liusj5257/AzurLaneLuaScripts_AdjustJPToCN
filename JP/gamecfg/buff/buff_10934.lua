@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "威光",
 	time = 1,
-	color = "blue",
+	name = "威光",
+	init_effect = "",
+	id = 10934,
 	picture = "",
 	desc = "概率发动",
 	stack = 1,
-	id = 10934,
+	color = "blue",
 	icon = 10934,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 2000,
-				skill_id = 10931,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 10931
 			}
 		}
 	}

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN29",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_6",
-			actorName = "島風",
 			dir = 1,
 			bgmDelay = 1,
-			say = "この台座、敵を回復させたのと似ている！まずはこれで！",
 			bgm = "battle-longgong",
+			actorName = "島風",
+			say = "この台座、敵を回復させたのと似ている！まずはこれで！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "島風",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "島風",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アナウンス",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "島風",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アナウンス",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "島風",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アナウンス",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "島風",
+			side = 2,
 			bgName = "bg_daofeng_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "こ、これでいいのかな…ありがとうございます！",
 			typewriter = {
 				speed = 0.05,

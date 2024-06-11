@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGTINGLIAOFA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "airRaidAlarm",
 			side = 2,
 			bgName = "bg_xiangting_1",
-			dir = 1,
 			say = "Eagle Union - NY Harbor, at about the same time",
+			dir = 1,
+			bgm = "airRaidAlarm",
 			effects = {
 				{
 					active = true,
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 106020,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106020,
+			nameColor = "#a9f548",
 			say = "We're getting distress calls from Newport Harbor as well!",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "You betcha! Your local allies of justice are on the case!",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -208,10 +208,10 @@ return {
 			}
 		},
 		{
-			actor = 101140,
 			nameColor = "#a9f548",
-			bgName = "bg_xiangting_1",
 			side = 0,
+			bgName = "bg_xiangting_1",
+			actor = 101140,
 			dir = 1,
 			hideOther = true,
 			actorName = "Foote & Aulick",
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "(Everyone, please be safe...)",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -320,12 +320,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Let's get going! We'll show those Sirens what happens when you mess with the Eagle Union!",
 			typewriter = {
 				speed = 0.05,

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN26",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "Exercise Area - Turn 8 (Mikasa's Action)",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "After Kirishima was knocked out by the tower's sudden counterattack, Mikasa's fleet followed Akagi's example and retreated out of range.",
 			typewriter = {
@@ -49,8 +49,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "I can't believe we lost Kirishima just like that... Haguro, what happened?",
 			painting = {
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Out of the four ships who were too close to the tower, only Yamashiro managed to withstand that shockwave... Damn that Akagi, she left a path to the tower open on purpose knowing exactly what it does!",
 			painting = {
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "I wouldn't jump to conclusions so soon. We just have to go back to taking a wait-and-see approach again.",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "Akagi has obviously realized this as well. That is why she has also fallen back and is turning around to pick up the bases she left previously.",
 			painting = {
@@ -197,8 +197,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "One last thing - we need to keep a close eye on Musashi's every move. Now that Nagato, Akagi, and I have all entered the battle, she is the only one who remains completely inscrutable to us.",
 			painting = {
@@ -246,8 +246,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "So, uh, is there anything you need me to do?",
 			painting = {
@@ -279,8 +279,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Got it. Nagato can win as long as she gets enough of the remaining bases, right?",
 			painting = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "Nagato is currently in the lead with nine points, so we need to make sure there aren't enough points left to overtake her.",
 			painting = {
@@ -329,8 +329,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "In the event that nobody can take the central base at all, Nagato will win by default as long as she can maintain the lead.",
 			painting = {
@@ -346,8 +346,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Alrighty then. Let's get this show on the road...",
 			painting = {
@@ -410,8 +410,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "Exercise Area - Turn 8 (Nagato's Action)",
 			typewriter = {
@@ -419,17 +419,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -440,8 +440,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "Everyone, we will be fully cooperating with Mikasa to seize victory from now on.",
 			painting = {
@@ -473,8 +473,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "Once all the bases have been taken, we can throw everything we have at that tower.",
 			painting = {
@@ -538,8 +538,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "Musashi is not able to win even if she takes the central tower. We will have to hope that she prioritizes helping Akagi over getting in our way.",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "Shoukaku, Haruna, and Hiei – I want the three of you to start moving towards Musashi's territory.",
 			painting = {
@@ -604,8 +604,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "If we work together, victory will be ours! Everyone, prepare to move out!",
 			painting = {

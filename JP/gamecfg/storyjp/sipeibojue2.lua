@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「つまり、分かち合うことよ」</size>",
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"小さな出来事\n\n<size=45>二　偶然の出逢い</size>",
@@ -35,15 +35,15 @@ return {
 			}
 		},
 		{
-			say = "母港",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "爽やかな風。いいお散歩日和。",
 			typewriter = {
 				speed = 0.05,
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#a9f548",
 			say = "指揮官が言ってた…「シュペーのやりたいこと」……",
 			effects = {
 				{
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "「スナックを食べながらのんびりする」…のはちょっと違うよね。",
 			effects = {
 				{
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "……この「ケズリブシ」って意外と美味しいかも？",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "オフニャではなく、普通の猫だった。",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "猫",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "猫",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "猫",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "猫さんが嬉しそうに食べている姿。うん。和むね。",
 			typewriter = {
 				speed = 0.05,
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "猫",
 			dir = 1,
+			actorName = "猫",
 			say = "（にゃ～！）",
 			dialogShake = {
 				speed = 0.09,
@@ -359,12 +359,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "なによ、ただの猫かしら",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "なによ、ただの猫かしら",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "そんなことより聞いてよシュペー！昨日の演習でロイヤルの奴らが……",
 			typewriter = {
 				speed = 0.05,
@@ -475,8 +475,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,9 +485,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "結局ドイッチュラント姉ちゃんの愚痴を寮まで延々と聞かされた。",
 			typewriter = {
 				speed = 0.05,

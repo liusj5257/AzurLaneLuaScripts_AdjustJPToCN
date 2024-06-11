@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"All-Love Assault!\n\n<size=45>3. Warmer Than the Sun</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_main_day",
-			hidePaintEquip = true,
 			dir = 1,
 			bgm = "story-richang-2",
+			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_main_day",
 			say = "It's sunny outside! Perfect weather for a date, right? Heheh☆",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "For once, I have two days off in a row, and Blücher has taken me to the commercial district first thing in the morning.",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "\"Are you sure you don't want to spend the day relaxing indoors instead?\"",
 			typewriter = {
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Thanks, but no thanks. To me, there's no better way to relax than simply being with you!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Thanks, but no thanks. To me, there's no better way to relax than simply being with you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
+			side = 2,
 			say = "\"Alright then. I'll stick around as long as you want me to.\"",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			say = "Our first destination: a boba café...",
 			typewriter = {
@@ -152,17 +152,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hey, lemme taste yours!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hey, lemme taste yours!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			say = "She shoves her boba tea in my face. Since she insists, I take a sip. It tastes extremely sweet, almost like liquid sugar.",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "Next up: the amusement park...",
 			typewriter = {
@@ -283,17 +283,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -301,14 +301,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
-			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Ooh, that ride looks fun! Let's go on that, Commander!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Ooh, that ride looks fun! Let's go on that, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "\"The roller coaster? I thought you'd want to go on the merry-go-round first, knowing how much you love chit-chatting.\"",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "It sounds like she's describing the psychological phenomenon known as misattribution of arousal.",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "Considering I've weathered storms aboard command ships before, I doubt a roller coaster can faze me.",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "And finally: the movie theater...",
 			typewriter = {
@@ -454,17 +454,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"While it was a phenomenal movie, it was odd how a shipwreck was the start of it all.\"",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "She gently grasps my hand with hers. It feels soft.",
 			typewriter = {
@@ -599,8 +599,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

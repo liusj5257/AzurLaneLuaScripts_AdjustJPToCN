@@ -1,14 +1,14 @@
 slot0 = class("EducatePolaroidLayer", import(".EducateCollectLayerTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducatePolaroidUI"
 end
 
-function slot0.initConfig(slot0)
+slot0.initConfig = function(slot0)
 	slot0.config = pg.child_polaroid
 end
 
-function slot0.initGroups(slot0)
+slot0.initGroups = function(slot0)
 	slot0.groupIds = {}
 	slot0.group2polaroidIds = {}
 
@@ -21,7 +21,7 @@ function slot0.initGroups(slot0)
 	table.sort(slot0.groupIds)
 end
 
-function slot0.initUnlockAttr(slot0)
+slot0.initUnlockAttr = function(slot0)
 	slot0.unlockAttrs = {}
 	slot1 = getProxy(EducateProxy)
 	slot0.endings = slot1:GetFinishEndings()
@@ -33,7 +33,7 @@ function slot0.initUnlockAttr(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initUnlockAttr()
 	slot0:initGroups()
 
@@ -53,7 +53,7 @@ function slot0.didEnter(slot0)
 	EducateTipHelper.ClearNewTip(EducateTipHelper.NEW_POLAROID)
 end
 
-function slot0.initShowList(slot0)
+slot0.initShowList = function(slot0)
 	slot0.showIds = {}
 	slot0.selectedIndex = 1
 	slot0.groupsTF = slot0:findTF("bg/groups", slot0.performTF)
@@ -85,7 +85,7 @@ function slot0.initShowList(slot0)
 	end)
 end
 
-function slot0.IsUnlock(slot0, slot1)
+slot0.IsUnlock = function(slot0, slot1)
 	if slot0.polaroidData[slot1] then
 		return true
 	end
@@ -101,7 +101,7 @@ function slot0.IsUnlock(slot0, slot1)
 	return false
 end
 
-function slot0.updatePage(slot0)
+slot0.updatePage = function(slot0)
 	setActive(slot0.nextBtn, slot0.pages ~= 1 and slot0.curPageIndex < slot0.pages)
 	setActive(slot0.lastBtn, slot0.pages ~= 1 and slot0.curPageIndex > 1)
 	setText(slot0.paginationTF, slot0.curPageIndex .. "/" .. slot0.pages)
@@ -120,7 +120,7 @@ function slot0.updatePage(slot0)
 	end
 end
 
-function slot0.updateItem(slot0, slot1, slot2)
+slot0.updateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.group2polaroidIds[slot1]
 
 	table.sort(slot3, CompareFuncs({
@@ -155,7 +155,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.showPerformWindow(slot0, slot1, slot2)
+slot0.showPerformWindow = function(slot0, slot1, slot2)
 	slot0.showIds = slot1
 
 	slot0.showList:align(#slot0.showIds)
@@ -163,19 +163,19 @@ function slot0.showPerformWindow(slot0, slot1, slot2)
 	setActive(slot0.performTF, true)
 end
 
-function slot0.updatePerform(slot0, slot1)
+slot0.updatePerform = function(slot0, slot1)
 	slot2 = slot0.config[slot1]
 
 	LoadImageSpriteAsync("educatepolaroid/" .. slot2.pic, slot0:findTF("bg/mask/Image", slot0.performTF))
 	setText(slot0:findTF("bg/Text", slot0.performTF), slot2.title)
 end
 
-function slot0.playAnimChange(slot0)
+slot0.playAnimChange = function(slot0)
 	slot0.anim:Stop()
 	slot0.anim:Play("anim_educate_Polaroid_change")
 end
 
-function slot0.playAnimClose(slot0)
+slot0.playAnimClose = function(slot0)
 	slot0.anim:Play("anim_educate_Polaroid_out")
 end
 

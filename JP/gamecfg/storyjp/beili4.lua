@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ウサウサ星人の謎？\n\n<size=45>四 ウサウサ星人は「アイドル」！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "執務室に戻ったら、ベンソンとベイリーが中にいた。",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 101270,
+			say = "えへへ…ベンソン姉に褒められた！",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "えへへ…ベンソン姉に褒められた！",
+			actor = 101270,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "おー！",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今日もベンソンは平常運転のようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そういえば、ホビーが「スター」になりたがっているのもそうだが、なぜベイリーもアイドルになりたがっているのだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "やっぱりベンソンの影響か。",
 			dialogShake = {
 				speed = 0.15,
@@ -287,9 +287,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かにベイリーらしい夢だ。",
 			typewriter = {
 				speed = 0.05,

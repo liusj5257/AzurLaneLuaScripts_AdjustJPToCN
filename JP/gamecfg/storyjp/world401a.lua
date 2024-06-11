@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD401A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD401A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			bgm = "story-italy",
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "この先はターラントだ。……あら、もうロイヤル艦隊は到着していたのか",
-			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,14 +27,14 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			bgName = "bg_port_talantuo",
 			actor = 605020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "女王陛下のご到着を出迎えられず申し訳ない",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,8 +78,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "そうか。…結構お疲れのようだが、来る途中何かあったのか？",
 			typewriter = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#ffff4d",
 			say = "特に何もないわ。来る途中ちょっと遠回りしてただけよ。レッドアクシズの港、相変わらず入港させてくれないしね",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#ffff4d",
 			say = "それには及ばないわ。鉄血と同じ海域を担当してくれればいいわよ",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#ffff4d",
 			say = "各陣営の担当海域・エリアは上層部から直接指定されているゆえ、それに従って艦隊行動をとってほしい",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "各陣営の共同戦線だが、お互いの担当地域の話で揉めることもなかろう",
 			typewriter = {
@@ -309,9 +309,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
 			blackBg = true,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "あとは鉄血艦隊が到着したら交渉を開始するとしよう。それまではここを我が家のように思ってくつろいでくれ",
 			typewriter = {

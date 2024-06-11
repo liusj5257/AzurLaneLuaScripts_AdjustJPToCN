@@ -1,8 +1,8 @@
 return {
-	id = 200603,
-	name = "2023云仙活动 剧情战 伊吹 鱼雷刀光",
 	cd = 0,
+	name = "2023云仙活动 剧情战 伊吹 鱼雷刀光",
 	painting = 0,
+	id = 200603,
 	effect_list = {
 		{
 			target_choise = "TargetHarmNearest",

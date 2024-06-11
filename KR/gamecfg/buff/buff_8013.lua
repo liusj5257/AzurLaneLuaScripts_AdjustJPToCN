@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "鱼雷艇AI切换",
 	time = 0,
+	name = "鱼雷艇AI切换",
+	init_effect = "",
 	picture = "",
 	desc = "鱼雷艇AI切换",
 	stack = 1,

@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "META海伦娜-单海伦娜出击-领舰减伤",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_87 = {}
 slot1 = slot0.word_template_87
 
-function temp()
+temp = function()
 	uv0["丢"] = {
 		["你"] = {
 			["老"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["东"] = {
 		["北"] = {
 			x = {
@@ -348,7 +348,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["冬"] = {
 		["季"] = {
 			["热"] = {
@@ -381,7 +381,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["東"] = {
 		["北"] = {
 			x = {
@@ -539,7 +539,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["董"] = {
 		["存"] = {
 			["瑞"] = {
@@ -595,7 +595,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["懂"] = {
 		["文"] = {
 			["华"] = {
@@ -607,7 +607,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["动"] = {
 		["乱"] = {
 			this = true,

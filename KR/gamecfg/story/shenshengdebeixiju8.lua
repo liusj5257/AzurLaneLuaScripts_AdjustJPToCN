@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU8",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU8",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-5",
 			say = "같은 날 13:20:00",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "워스파이트",
 			dir = 1,
+			actorName = "워스파이트",
 			say = "일러스트리어스, 먼 길 오느라 수고했어. 워스파이트가 감사를 표하지.",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "이야기 했던 것 같이 순양 함대를 파견해 제국과 공동으로 탐색을 진행하려고 하고 있는데…",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "워스파이트",
 			dir = 1,
+			actorName = "워스파이트",
 			say = "역시 일러스트리어스는 속일 수 없네… 상대의 이유는 이래.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "‘한밤 중의 수색은 달갑지 않지만, 세이렌의 거점은 야간에 더 활발해 지니까.’",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 7,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "맞아. 만약 제국이 다른 꿍꿍이가 있다면 다시 한번 휘둘리게 될 수 있으니까, 그게 걱정이야.",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "아, 대체 어떻게…?",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "여… 여자의 직감?!!",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -224,8 +224,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "그… 그런거야? 하나 배웠다…",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "조명탄?",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(이때 요크가 탄약 상자를 들고 지휘거점을 지나가고 있었다.)",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANZHAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"皇家的騎士\n\n<size=45>六 女王陛下，您……？</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202120,
-			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "這是為兩位泡的紅茶，請慢用。",
 			bgm = "story-1",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "這是為兩位泡的紅茶，請慢用。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 2.15,
 					dur = 0.3,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "……有這樣的事情嗎？",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……有這樣的事情嗎？",
+			actor = 205020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "我我我我可沒有覺得寂寞啦嫉妒啦什麼的哦？只只只不過是一點小小的關心而已！",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "！！",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.1,
 					x = 0,
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "怎、怎麼了，厭戰？",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -368,12 +368,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "沒，沒什麼，在想事情而已。",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "沒，沒什麼，在想事情而已。",
+			actor = 205020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "打擾了。",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					dur = 0.3,
 					x = 0,
 					number = 1

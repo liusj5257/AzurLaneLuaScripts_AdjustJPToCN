@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"紀行的藏紅花\n\n<size=45>六　戰術與直覺的對抗</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演習當日·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "演習當日·演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "哇哦，燃起來了燃起來了！",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "前輩…還有大家，都來了啊",
 			typewriter = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "啊哈哈，意外的成了一場熱鬧比賽啊！",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -214,8 +214,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "那麼…開始的訊號，就拜託指揮官了。",
 			typewriter = {
@@ -228,13 +228,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
+			dir = 1,
 			say = "伴隨著開始的訊號，雙方立即開始了行動——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,13 +259,13 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "去吧，艦載機們！",
 			soundeffect = "event:/battle/plane",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "去吧，艦載機們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,8 +279,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "根據以往的數據分析，這裡是佯攻的機率有90%——",
 			typewriter = {
@@ -293,13 +293,13 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘁，沒有上當嗎…那就…這樣如何！",
 			soundeffect = "event:/battle/plane",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "嘁，沒有上當嗎…那就…這樣如何！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 107380,
 			say = "這也在…預料之內！",
 			flashN = {
 				color = {
@@ -406,17 +406,17 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "這下就…結束了！",
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu1",
 			soundeffect = "event:/battle/plane",
-			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			seDelay = 1,
-			say = "這下就…結束了！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -441,13 +441,13 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "嘁！別小看了…大黃蜂大人啊！ ！",
 			soundeffect = "event:/battle/plane",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "嘁！別小看了…大黃蜂大人啊！ ！",
 			effects = {
 				{
 					active = true,
@@ -464,8 +464,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "居然還藏有攻擊編隊？！糟了！！",
 			effects = {
 				{
@@ -496,11 +496,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			dir = 1,
 			say = "轟隆隆——",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "這算是……平局？",
 			typewriter = {
 				speed = 0.05,

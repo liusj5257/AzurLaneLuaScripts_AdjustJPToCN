@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT15-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT15-1",
+	fadein = 1,
 	scripts = {
 		{
-			actor = 10300060,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "フフフ、ここはお姉ちゃんにお任せあれ",
 			dir = 1,
 			bgm = "level-uta",
+			actor = 10300060,
+			nameColor = "#a9f548",
+			say = "フフフ、ここはお姉ちゃんにお任せあれ",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -33,8 +33,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "フミルィル？まさか、本当に一人で行くつもり？",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "こんな危険なお役目、クーちゃんや年下の子たちには任せられませんからね",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "ここはひとつ、みんなのお姉さんが一肌脱ぎましょう（たゆん",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "さすがフミルィル",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "フミルィル……無茶だけはしないでね",
 			typewriter = {
 				speed = 0.05,

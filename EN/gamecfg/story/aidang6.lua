@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDANG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Date With Atago\n\n<size=45>Chapter 6: An Evening Present</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "A Hill Overlooking the Port",
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "A Hill Overlooking the Port",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "Commander, what did you think of our date? Did you have fun?",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "You're right, sometimes I find myself forgetting about my purpose as well.",
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "Connecting the hearts of everyone who has made their way here to this port, bridging the gaps between many different cultures and beliefs...",
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "That's why I'd like a present... the thing that I want most.",
 			typewriter = {
 				speed = 0.05,

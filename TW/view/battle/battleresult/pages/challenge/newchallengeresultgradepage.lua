@@ -1,21 +1,21 @@
 slot0 = class("NewChallengeResultGradePage", import("..NewBattleResultGradePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.challenge = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode)
 	slot0.challengeExpire = getProxy(ChallengeProxy):userSeaonExpire(slot0.contextData.mode)
 end
 
-function slot0.isTotalClear(slot0)
+slot0.isTotalClear = function(slot0)
 	return slot0.challenge:getMode() == ChallengeProxy.MODE_CASUAL and slot0.challenge:IsFinish() or slot0:isFail()
 end
 
-function slot0.isFail(slot0)
+slot0.isFail = function(slot0)
 	return slot0.contextData.score < ys.Battle.BattleConst.BattleScore.S
 end
 
-function slot0.GetGetObjectives(slot0)
+slot0.GetGetObjectives = function(slot0)
 	if getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode):getMode() == ChallengeProxy.MODE_INFINITE then
 		return {}
 	else
@@ -35,7 +35,7 @@ function slot0.GetGetObjectives(slot0)
 	end
 end
 
-function slot0.UpdateChapterName(slot0)
+slot0.UpdateChapterName = function(slot0)
 	if getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode) == ChallengeProxy.MODE_INFINITE then
 		setText(slot0.gradeChapterName, pg.expedition_data_template[slot1.stageId].name .. " - ROUND " .. getProxy(ChallengeProxy):getUserChallengeInfo(slot1.mode):getLevel())
 	else
@@ -43,7 +43,7 @@ function slot0.UpdateChapterName(slot0)
 	end
 end
 
-function slot0.LoadChallengeRes(slot0, slot1)
+slot0.LoadChallengeRes = function(slot0, slot1)
 	slot3 = slot0.bgTr
 
 	setActive(slot3:Find("ResultEffect/Tips"), false)
@@ -67,7 +67,7 @@ function slot0.LoadChallengeRes(slot0, slot1)
 	end), true, true)
 end
 
-function slot0.UpdateChallengeInfo(slot0, slot1)
+slot0.UpdateChallengeInfo = function(slot0, slot1)
 	setText(slot1:Find("expire"), slot0.challengeExpire and i18n("challenge_expire_warn") or "")
 	setText(findTF(slot1, "continue_btn/text"), i18n("battle_result_continue_battle"))
 	setText(findTF(slot1, "quit_btn/text"), i18n("battle_result_quit_battle"))
@@ -83,7 +83,7 @@ function slot0.UpdateChallengeInfo(slot0, slot1)
 	SetActive(slot0.shareBtn, slot2)
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0.super.RegisterEvent(uv1, slot0)
@@ -98,7 +98,7 @@ function slot0.RegisterEvent(slot0, slot1)
 	})
 end
 
-function slot0.RegisterChallengeEvent(slot0, slot1)
+slot0.RegisterChallengeEvent = function(slot0, slot1)
 	if slot0:isTotalClear() then
 		onButton(slot0, slot0.shareBtn, function ()
 			uv0:emit(NewBattleResultMediator.CHALLENGE_SHARE)
@@ -114,7 +114,7 @@ function slot0.RegisterChallengeEvent(slot0, slot1)
 	end
 end
 
-function slot0.OnContinue(slot0, slot1)
+slot0.OnContinue = function(slot0, slot1)
 	if slot0:isFail() then
 		slot1()
 	else
@@ -126,7 +126,7 @@ function slot0.OnContinue(slot0, slot1)
 	end
 end
 
-function slot0.OnQuit(slot0, slot1)
+slot0.OnQuit = function(slot0, slot1)
 	if slot0:isFail() then
 		slot1()
 	else

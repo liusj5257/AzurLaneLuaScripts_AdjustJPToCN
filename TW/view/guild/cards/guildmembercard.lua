@@ -1,6 +1,6 @@
 slot0 = class("GuildMemberCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tf = tf(slot1)
 	slot0.iconTF = slot0.tf:Find("shipicon/icon"):GetComponent(typeof(Image))
@@ -22,7 +22,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.circle = slot0.tf:Find("shipicon/frame")
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.memberVO = slot1
 
 	slot0:Clear()
@@ -92,7 +92,7 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.AddTimer(slot0, slot1)
+slot0.AddTimer = function(slot0, slot1)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -105,7 +105,7 @@ function slot0.AddTimer(slot0, slot1)
 	slot0.timer.func()
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.circle.childCount > 0 then
 		slot1 = slot0.circle:GetChild(0)
 		slot2 = slot1.gameObject.name
@@ -120,12 +120,12 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.SetSelected(slot0, slot1)
+slot0.SetSelected = function(slot0, slot1)
 	setActive(slot0.borderTF, slot1)
 	setActive(slot0.bg, not slot1)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.exited = true
 
 	slot0:Clear()

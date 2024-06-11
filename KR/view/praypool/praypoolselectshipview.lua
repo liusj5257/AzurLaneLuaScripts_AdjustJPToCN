@@ -5,7 +5,7 @@ slot0.FONT_SIZE_MIN = 55
 slot0.FONT_SIZE_MID = 44
 slot0.FONT_SIZE_MAX = 34
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PrayPoolSelectShipView"
 end
 
@@ -38,24 +38,24 @@ slot0.ShipIndexData = {
 	groupList = {
 		{
 			dropdown = false,
-			titleTxt = "indexsort_index",
 			titleENTxt = "indexsort_indexeng",
+			titleTxt = "indexsort_index",
 			tags = {
 				"typeIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_camp",
 			titleENTxt = "indexsort_campeng",
+			titleTxt = "indexsort_camp",
 			tags = {
 				"campIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_rarity",
 			titleENTxt = "indexsort_rarityeng",
+			titleTxt = "indexsort_rarity",
 			tags = {
 				"rarityIndex"
 			}
@@ -63,20 +63,20 @@ slot0.ShipIndexData = {
 	}
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateUI()
 	slot0:Show()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.OnBackPress(slot0)
+slot0.OnBackPress = function(slot0)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.prayProxy = getProxy(PrayProxy)
 	slot0.poolType = slot0.prayProxy:getSelectedPoolType()
 	slot0.selectedCount = slot0.prayProxy:getSelectedShipCount()
@@ -88,7 +88,7 @@ function slot0.initData(slot0)
 	slot0.orderFullList = Clone(slot0.fliteList)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.minRaritySpriteMap = {}
 	slot0.maxRaritySpriteMap = {}
 	slot0.ratioSpriteMap = {}
@@ -96,7 +96,7 @@ function slot0.initUI(slot0)
 	slot2 = slot0:findTF("MaxRarity")
 	slot3 = slot0:findTF("Ratio")
 
-	for slot7 = 2, 5 do
+	for slot7 = 2, 6 do
 		slot0.minRaritySpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot1))
 		slot0.maxRaritySpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot2))
 		slot0.ratioSpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot3))
@@ -172,7 +172,7 @@ function slot0.initUI(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("warning_pray_build_pool"),
 			onYes = function ()
-				function slot0()
+				slot0 = function()
 					uv0:emit(PrayPoolConst.CLICK_BUILD_BTN, {
 						pooltype = uv0.prayProxy:getSelectedPoolType(),
 						shipIDList = uv0.prayProxy:getSelectedShipIDList()
@@ -185,10 +185,10 @@ function slot0.initUI(slot0)
 					slot2 = {}
 
 					for slot7, slot8 in ipairs(uv0.prayProxy:getSelectedShipIDList()) do
-						PaintingConst.AddPaintingNameByShipConfigID(slot2, slot8)
+						PaintingGroupConst.AddPaintingNameByShipConfigID(slot2, slot8)
 					end
 
-					PaintingConst.PaintingDownload({
+					PaintingGroupConst.PaintingDownload({
 						isShowBox = true,
 						paintingNameList = slot2,
 						finishFunc = slot0
@@ -201,7 +201,7 @@ function slot0.initUI(slot0)
 		slot0 = Clone(uv0.ShipIndexData)
 		slot0.indexDatas = Clone(uv0.ShipIndex)
 
-		function slot0.callback(slot0)
+		slot0.callback = function(slot0)
 			uv0.ShipIndex.typeIndex = slot0.typeIndex
 			uv0.ShipIndex.rarityIndex = slot0.rarityIndex
 
@@ -217,13 +217,13 @@ function slot0.initUI(slot0)
 	end)
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	setImageSprite(slot0.poolNameImg, slot0.poolSpriteMap[slot0.poolType], true)
 	slot0:updateSelectedShipList()
 	slot0:updateShipList(slot0.fliteList)
 end
 
-function slot0.updateSelectedShipList(slot0)
+slot0.updateSelectedShipList = function(slot0)
 	if slot0:isMinPrefs() then
 		slot0:updateMin()
 	else
@@ -231,7 +231,7 @@ function slot0.updateSelectedShipList(slot0)
 	end
 end
 
-function slot0.updateMax(slot0)
+slot0.updateMax = function(slot0)
 	slot1 = slot0.prayProxy:getSelectedShipIDList()
 	slot2 = slot0.selectedShipTFMap.Max
 
@@ -317,7 +317,7 @@ function slot0.updateMax(slot0)
 	end
 end
 
-function slot0.updateMin(slot0)
+slot0.updateMin = function(slot0)
 	slot1 = slot0.prayProxy:getSelectedShipIDList()
 	slot2 = slot0.selectedShipTFMap.Min
 
@@ -405,10 +405,10 @@ function slot0.updateMin(slot0)
 	end
 end
 
-function slot0.updateShipList(slot0, slot1)
+slot0.updateShipList = function(slot0, slot1)
 	slot2 = slot0.prayProxy:getSelectedShipIDList()
 
-	function slot0.shipListSC.onUpdateItem(slot0, slot1)
+	slot0.shipListSC.onUpdateItem = function(slot0, slot1)
 		slot2 = uv0[slot0 + 1]
 
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(slot2), "", uv1:findTF("BG/Icon", slot1))
@@ -421,9 +421,11 @@ function slot0.updateShipList(slot0, slot1)
 			setActive(slot4, false)
 		end
 
-		slot9 = ShipRarity.Rarity2Print(pg.ship_data_statistics[slot2].rarity)
+		slot8 = pg.ship_data_statistics[slot2].rarity
+		slot9 = ShipRarity.Rarity2Print(slot8)
 
-		setFrame(uv1:findTF("BG/Frame", slot1), slot9)
+		setFrame(uv1:findTF("BG/icon_bg/frame", slot1), slot9)
+		setIconColorful(uv1:findTF("BG", slot1), slot8 - 1, {})
 		setImageSprite(uv1:findTF("BG", slot1), GetSpriteFromAtlas("weaponframes", "bg" .. slot9))
 		setText(uv1:findTF("NameBG/NameText", slot1), shortenString(pg.ship_data_statistics[slot2].name, 6))
 
@@ -435,6 +437,10 @@ function slot0.updateShipList(slot0, slot1)
 			SetActive(slot13, false)
 		end
 
+		setBlackMask(tf(slot1), slot8 == ShipRarity.SSR and uv1:isSelectedSSR() and not isActive(slot13), {
+			recursive = true,
+			color = Color(0, 0, 0, 0.6)
+		})
 		onButton(uv1, slot1, function ()
 			if uv0.selectedCount < uv0.pickUpNum then
 				if isActive(uv1) then
@@ -444,6 +450,9 @@ function slot0.updateShipList(slot0, slot1)
 
 					SetActive(uv1, false)
 					uv0:updateSelectedShipList()
+					uv0:updateShipList(uv0.fliteList)
+				elseif uv3 == ShipRarity.SSR and uv0:isSelectedSSR() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("pray_build_UR_warning"))
 				else
 					uv0.prayProxy:insertSelectedShipIDList(uv2)
 
@@ -451,6 +460,7 @@ function slot0.updateShipList(slot0, slot1)
 
 					SetActive(uv1, true)
 					uv0:updateSelectedShipList()
+					uv0:updateShipList(uv0.fliteList)
 				end
 			elseif uv0.selectedCount == uv0.pickUpNum then
 				if isActive(uv1) then
@@ -460,6 +470,7 @@ function slot0.updateShipList(slot0, slot1)
 
 					SetActive(uv1, false)
 					uv0:updateSelectedShipList()
+					uv0:updateShipList(uv0.fliteList)
 				else
 					pg.TipsMgr.GetInstance():ShowTips(i18n("error_pray_select_ship_max"))
 				end
@@ -467,13 +478,13 @@ function slot0.updateShipList(slot0, slot1)
 		end, SFX_PANEL)
 	end
 
-	function slot0.shipListSC.onReturnItem(slot0, slot1)
+	slot0.shipListSC.onReturnItem = function(slot0, slot1)
 	end
 
 	slot0.shipListSC:SetTotalCount(#slot1)
 end
 
-function slot0.orderIDListByRarity(slot0, slot1)
+slot0.orderIDListByRarity = function(slot0, slot1)
 	slot2 = getProxy(CollectionProxy)
 
 	table.sort(slot1, function (slot0, slot1)
@@ -488,7 +499,7 @@ function slot0.orderIDListByRarity(slot0, slot1)
 	end)
 end
 
-function slot0.fliteShipIDList(slot0)
+slot0.fliteShipIDList = function(slot0)
 	slot1 = {}
 
 	if slot0.prayProxy:getSelectedShipIDList() and #slot2 > 0 then
@@ -508,8 +519,24 @@ function slot0.fliteShipIDList(slot0)
 	slot0.fliteList = slot1
 end
 
-function slot0.isMinPrefs(slot0)
+slot0.isMinPrefs = function(slot0)
 	return GroupHelper.GetGroupPrefsByName("PAINTING") == DMFileChecker.Prefs.Min
+end
+
+slot0.isSelectedSSR = function(slot0)
+	slot1 = false
+
+	if slot0.prayProxy:getSelectedShipIDList() and #slot2 > 0 then
+		for slot6, slot7 in ipairs(slot2) do
+			if pg.ship_data_statistics[slot7].rarity == ShipRarity.SSR then
+				slot1 = true
+
+				break
+			end
+		end
+	end
+
+	return slot1
 end
 
 return slot0

@@ -1,11 +1,11 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHONGQIU1",
-	once = true,
 	fadeType = 1,
-	fadein = 1.5,
+	once = true,
+	id = "ZHONGQIU1",
 	updateOnBegin = 1,
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
@@ -38,14 +38,14 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 502020,
+			nameColor = "#a9f548",
 			say = "It's finally the day for sister Yat Sen to unseal her secret osmanthus wine! Oh wow... this aroma is really hypnotizing~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,8 +137,8 @@ return {
 			actor = 502020,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "Ning Hai&Ping Hai",
 			dir = -1,
+			actorName = "Ning Hai&Ping Hai",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -304,14 +304,14 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

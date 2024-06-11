@@ -1,12 +1,12 @@
 return {
-	time = 2,
-	name = "2023克莱蒙梭活动 审判庭支援 困难",
 	init_effect = "",
+	name = "2023克莱蒙梭活动 审判庭支援 困难",
+	time = 2,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200542,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI10",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 107040,
-			side = 2,
-			bgm = "story-french2",
-			say = "無畏式，再次俯衝！",
-			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "story-french2",
+			actor = 107040,
+			say = "無畏式，再次俯衝！",
 			flashN = {
 				color = {
 					1,
@@ -58,8 +58,8 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			dir = 1,
 			say = "算了，她已經..失去反抗的能力了",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -80,8 +80,8 @@ return {
 			say = "可惡…動起來啊！快動起來啊！！！",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 22.5,
 					number = 2
@@ -117,8 +117,8 @@ return {
 			say = "可惡，為什麼，為什麼就不能把我完整的造完！！",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 22.5,
 					number = 2
@@ -176,15 +176,15 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900055,
+			stopbgm = true,
 			say = "姐，司令部突然下令要把我們從造船廠轉移到遙遠的港口，這是真的嗎？！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -344,15 +344,15 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
-			say = "…也許從一開始，司令部就沒打算把我完整的造出來…",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-french2",
+			actor = 905010,
+			say = "…也許從一開始，司令部就沒打算把我完整的造出來…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/noice",
-			say = "……"
+			say = "……",
+			soundeffect = "event:/ui/noice"
 		},
 		{
 			actor = 107040,
@@ -453,8 +453,8 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			dir = 1,
 			say = "…鐵血機動部隊正在高速南下，登陸部隊全員做好戰鬥準備…居然在這個時候？",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/noice",
-			say = "……"
+			say = "……",
+			soundeffect = "event:/ui/noice"
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "教廷所屬全部艦隊全員聽令，司令部緊急電報：鐵血向聖座發動了進攻，司令部已經淪陷，重複，司令部已經淪陷",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,8 +513,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "各地艦隊立刻駛離港口就近加入碧藍航線同盟。此命令為維希聖座最後的命令，所有艦隊立刻執行，不得有誤",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "——願天父的恩賜與妳們同在，因父及子及聖神之名",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,12 +593,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "原維希教廷第一旗艦——讓·巴爾號通告陸間海全軍艦隊",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -630,8 +630,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "卡薩布蘭卡已經失守，異教徒的獠牙已經伸向了祖國的內陸",
 			typewriter = {
 				speed = 0.05,
@@ -643,8 +643,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "鐵血想要侵占我們的軀體、帝國想要分食我們的血液",
 			typewriter = {
 				speed = 0.05,
@@ -656,8 +656,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "甚至連司令部的叛徒也想要我們束手就擒——",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "不！",
 			typewriter = {
 				speed = 0.05,
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "凱比爾港的慘案已經給予了我們答案",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "驕傲的聖教騎士不會和他們同流合污，驕傲的天之子民絕不會向淫威屈服",
 			typewriter = {
 				speed = 0.05,
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "前有狼，後有虎，現在是存亡的最後時刻",
 			typewriter = {
 				speed = 0.05,
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "勇敢的聖教騎士絕不低頭，絕不成為任何人的傀儡！",
 			typewriter = {
 				speed = 0.05,
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "以自由之名，我命令，陸間海全軍艦隊，就地自沉，就地自沉！",
 			typewriter = {
 				speed = 0.05,
@@ -747,8 +747,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "生終將死，靈終將滅，然而，汝無需痛苦和哀傷，此為生命的循環，並無絲毫掩蓋、虛偽和黑暗",
 			typewriter = {
 				speed = 0.05,
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "在另一個黎明，我將醒來",
 			typewriter = {
 				speed = 0.05,
@@ -773,8 +773,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "我將感謝主，感謝又把這麼強大的國家賜予了我",
 			typewriter = {
 				speed = 0.05,
@@ -786,8 +786,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "還使我能享受我們國家所有的一切祝福",
 			typewriter = {
 				speed = 0.05,
@@ -799,8 +799,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "使我也能享受天國裡的一切豐盛",
 			typewriter = {
 				speed = 0.05,
@@ -812,8 +812,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "這是我們最後的榮耀，讓我們的名字成為後輩們的榮光",
 			typewriter = {
 				speed = 0.05,
@@ -825,8 +825,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "自由萬歲",
 			typewriter = {
 				speed = 0.05,
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "因父及子及聖神之名",
 			typewriter = {
 				speed = 0.05,
@@ -851,8 +851,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "維…自由鳶尾第二旗艦——讓·巴爾號",
 			typewriter = {
 				speed = 0.05,
@@ -866,9 +866,9 @@ return {
 		{
 			actor = 105190,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			say = "…",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
 					active = false,
@@ -901,8 +901,8 @@ return {
 		{
 			actor = 905010,
 			side = 1,
-			dir = 1,
 			say = "這樣也算…遵守了同盟時期許下的諾言吧…永世，不為鐵血和帝國所用…不成為赤色中軸的獠牙",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1072,15 +1072,15 @@ return {
 			}
 		},
 		{
-			actor = 900054,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900054,
+			stopbgm = true,
 			say = "那麼，妳知道“名字”的含義嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

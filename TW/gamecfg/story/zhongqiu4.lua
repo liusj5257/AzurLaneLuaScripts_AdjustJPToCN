@@ -1,12 +1,12 @@
 return {
 	fadeOut = 1.5,
-	mode = 2,
-	noWaitFade = true,
 	once = true,
 	fadeType = 1,
+	fadein = 1.5,
+	mode = 2,
+	noWaitFade = true,
 	id = "ZHONGQIU4",
 	updateOnBegin = 1,
-	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
@@ -193,14 +193,14 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "姐姐，我們也來一起做吧！看看誰做得更好！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -310,13 +310,13 @@ return {
 		{
 			actor = 107030,
 			side = 2,
+			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "呀吼！終於做完啦——咦，我是最慢的？明明我以為有夥伴們的幫助至少能在中段班呢……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

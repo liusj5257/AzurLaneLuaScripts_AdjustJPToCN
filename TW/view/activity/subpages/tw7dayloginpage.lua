@@ -1,11 +1,11 @@
 slot0 = class("TW7dayLoginPage", import(".TemplatePage.LoginTemplatePage"))
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.config = pg.activity_7_day_sign[slot0.activity:getConfig("config_id")]
 	slot0.Day = 7
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	slot1 = slot0.itemList

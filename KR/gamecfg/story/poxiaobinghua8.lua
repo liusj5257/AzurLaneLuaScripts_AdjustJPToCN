@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "하하하, 총알이 빗발치는 와중에도 침착함을 잃지 않는 지휘관 동지도 이 모습을 보고 깜짝 놀라셨을 것이다.",
 			bgm = "bgm-cccp",
+			nameColor = "#a9f548",
+			say = "하하하, 총알이 빗발치는 와중에도 침착함을 잃지 않는 지휘관 동지도 이 모습을 보고 깜짝 놀라셨을 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "확실히……예상치 못했던 곳에 의외의 존재가 나타났다.……",
 			typewriter = {
 				speed = 0.05,
@@ -38,9 +38,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "굉음과 함께 한 척의 거대한……함정? 두꺼운 얼음층을 뚫고 텅 빈 시야에 나타났다.",
 			typewriter = {
 				speed = 0.05,
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "기계의 굉음, 얼음층의 파열음, 파도의 격동음, 각종 소리가 서로 뒤섞여 커다란 진동과 함께 거대한 짐승과 마주 보고 있는 듯한 착각을 주었다.",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "쇄빙 잠수함……지휘부와 다른 진영의 편성에 이 같은 함정은 존재한 적이 없는데.",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "잠항 대 잠항 능력을 갖춘 거대한 수중전투 플랫폼…… 아까의 전투에서도 물속에서 배회하던 세이렌 잠수함들을 섬멸한건가?",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "잠수함이 필요하다는 것은…… 설마 우리가 갈 \"밀실\"이 물 아래의 시설이라는 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "탈린",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠카야 벨로루시아",
+			side = 2,
 			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "갑시다, 지휘관 동지. \"밀실\"을 향한 여정, 지금부터 정식으로 시작한다~",
 			typewriter = {
 				speed = 0.05,

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.01
+					number = 0.01,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.01
+					number = -0.01,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.02
+					number = 0.02,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -51,8 +51,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.014
+					number = -0.014,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -75,8 +75,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.03
+					number = 0.03,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -85,8 +85,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.018
+					number = -0.018,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -109,8 +109,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.04
+					number = 0.04,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.022
+					number = -0.022,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.05
+					number = 0.05,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -153,8 +153,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.026
+					number = -0.026,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -177,8 +177,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.06
+					number = 0.06,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -187,8 +187,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.03
+					number = -0.03,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -211,8 +211,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.07
+					number = 0.07,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -221,8 +221,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.035
+					number = -0.035,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -245,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.08
+					number = 0.08,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -255,8 +255,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -279,8 +279,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.09
+					number = 0.09,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.045
+					number = -0.045,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -313,8 +313,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.1
+					number = 0.1,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -323,8 +323,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -339,9 +339,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "属性变更",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -362,8 +362,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.01
+				number = 0.01,
+				attr = "dodgeRateExtra"
 			}
 		},
 		{
@@ -372,8 +372,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatio"
 			}
 		},
 		{

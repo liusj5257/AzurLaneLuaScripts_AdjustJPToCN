@@ -22,8 +22,8 @@ return {
 			actor = 303010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:53}",
 			say = "そうだね。こっちのダメージはそんなに大きくないし、もう少し戦闘しても大丈夫。",
+			actorName = "{namecode:53}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,8 +86,8 @@ return {
 			actor = 303030,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:55}",
 			say = "だ、誰だっけ？ははは、私なーんにも覚えてないやー",
+			actorName = "{namecode:55}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "かの海戦の行方が決まった。戦いの争点となる熱帯林に覆われた人跡まれな太平洋の孤島は、再び月夜の静けさに溶け込む。",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "序曲が終わり、より大きな戦いの幕が切り落とされる前の、一時の静けさに――",
 			typewriter = {

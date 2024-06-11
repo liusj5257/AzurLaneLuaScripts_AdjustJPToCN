@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1,
 	mode = 2,
-	id = "SANLI04",
 	fadeType = 2,
+	id = "SANLI04",
 	fadein = 1,
 	scripts = {
 		{
 			actor = 900050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "It warms my heart to hear those words in this day and age... I see that the fleet has been entrusted to capable hands!",
 			typewriter = {
 				speed = 0.05,
@@ -22,12 +22,12 @@ return {
 			}
 		},
 		{
-			actor = 900051,
+			say = "We made it just in time. And we have Shoukaku's scout planes to thank for it.",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = -1,
-			say = "We made it just in time. And we have Shoukaku's scout planes to thank for it.",
+			actor = 900051,
+			actorName = "？？？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -45,8 +45,8 @@ return {
 			actor = 900050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "\"Scout planes\" is what they call those mechanical birds in the sky? ... My word, how the times have changed, ahahaha!",
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +61,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:95}",
 			dir = 1,
+			actorName = "{namecode:95}",
 			say = "... Isn't that...?",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "Wait, that flag...",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "Is that who I think it is?!",
 			typewriter = {
 				speed = 0.05,
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			mode = 3,
+			side = 0,
 			bgName = "bg_story_mikasa",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 0,
+			actor = 307050,
 			actorName = "{namecode:95}&{namecode:96}",
 			say = "The former flagship of the Combined Fleet, the War God herself!",
 			effects = {
@@ -130,12 +130,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			actorName = "{namecode:95}&{namecode:96}",
+			side = 0,
 			bgName = "bg_story_mikasa",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 0,
+			actor = 307050,
 			mode = 3,
 			say = "<size=52.5>It's Mikasa!</size>",
 			dialogShake = {
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
 			mode = 3,
 			say = "Now, my juniors, show me the valor of the Sakura Empire! The true battle has only just begun!",
 			typewriter = {
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
 			mode = 3,
 			say = "Unto the righteous that pray, Heaven shall grant righteous aid!",
 			typewriter = {
@@ -189,11 +189,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
 			mode = 3,
 			say = "Our actions here, guided by our beliefs and devotion, shall lead us into the future!",
 			typewriter = {
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
 			mode = 3,
 			say = "My sistren! The fate of our nation depends on this battle!",
 			typewriter = {
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
 			mode = 3,
 			say = "The clear skies and roaring seas stretch as far as the eye can see...",
 			typewriter = {
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
 			mode = 3,
 			say = "I am Mikasa, the flagship of the Combined Fleet, forged anew!",
 			typewriter = {
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
 			mode = 3,
 			say = "Brace yourself, Siren!",
 			typewriter = {

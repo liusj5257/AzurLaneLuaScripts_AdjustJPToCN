@@ -1,14 +1,14 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "DONGHUO01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO01",
 	occlusion = 2,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>“…我曾以為……把所有槍口對準我們的敵人都擊敗後…就能找回些許的寧靜”</size>",
@@ -45,21 +45,21 @@ return {
 			}
 		},
 		{
-			side = 0,
+			say = "這裡就是神秘信號所指示的海域嗎……看樣子我們還是來遲了一步",
 			actorName = "海倫娜",
 			bgName = "bg_story_wing1",
-			nameColor = "#a9f548",
+			side = 0,
 			dir = 1,
+			nameColor = "#a9f548",
 			bgm = "story-6",
-			say = "這裡就是神秘信號所指示的海域嗎……看樣子我們還是來遲了一步",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 0,
 			actorName = "北卡羅來納",
+			side = 0,
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "海倫娜",
+			side = 0,
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "華盛頓",
+			side = 0,
 			bgName = "bg_story_wing1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "北卡羅來納",
+			side = 0,
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "華盛頓",
+			side = 0,
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "華盛頓",
+			side = 0,
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "華盛頓",
+			side = 0,
 			bgName = "bg_story_wing2",
 			nameColor = "#a9f548",
 			dir = 1,

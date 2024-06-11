@@ -16,7 +16,7 @@ slot0.ON_BUILDPOOL_EXCHANGE = "BuildShipMediator:ON_BUILDPOOL_EXCHANGE"
 slot0.ON_BUILDPOOL_UR_EXCHANGE = "BuildShipMediator.ON_BUILDPOOL_UR_EXCHANGE"
 slot0.ON_SUPPORT_EXCHANGE = "BuildShipMediator:ON_SUPPORT_EXCHANGE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot2 = getProxy(PlayerProxy):getData()
 
 	slot0.viewComponent:setPlayer(slot2)
@@ -133,7 +133,7 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.buildFinishComeback(slot0)
+slot0.buildFinishComeback = function(slot0)
 	if table.getCount(getProxy(BuildShipProxy):getData()) == 0 and slot0.viewComponent then
 		if (BuildShip.getPageFromPoolType(slot1:getLastBuildShipPoolType()) or BuildShipScene.PAGE_BUILD) == BuildShipScene.PAGE_PRAY and (not getProxy(ActivityProxy):getActivityById(ActivityConst.ACTIVITY_PRAY_POOL) or slot3:isEnd()) then
 			slot2 = BuildShipScene.PAGE_BUILD
@@ -143,7 +143,7 @@ function slot0.buildFinishComeback(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BUILD_SHIP_DONE,
 		BagProxy.ITEM_UPDATED,
@@ -160,7 +160,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

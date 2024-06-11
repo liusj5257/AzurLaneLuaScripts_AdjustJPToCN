@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 1,
 			nameColor = "#ff0000",
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			stopbgm = true,
 			say = "It's over. There's nothing one can do when facing superior firepower.",
 			typewriter = {
@@ -27,8 +27,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "You still carried out your duty well.",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "...Amagi, are you actually going for it?",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "... ... ",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "You still behave like the person I know, but I could sense you were different when we fought.",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "I can think of no other reason why you would come to the front when you could get the same results by commanding your team from the back.",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "Who is to say that... Perhaps it's just time for a change of pace. It might turn out to be necessary. ",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "As Nagato-sama said, the world around us is in chaos. We can't afford to wallow in our isolationism.",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "If we can gather some new insight, or even learn what not do in the future, that would make this exercise a success. ",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "Spoken like a true commander...",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "No matter who wins, I will always support the flagship of the Combined Fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
+			dir = -1,
 			say = "......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -336,8 +336,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "*Cough, cough*... At last, it's over... She came too close to figuring out my plan...",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "This is what happens when I don't exercise for so long... *Cough, cough*... I feel like I could faint... ",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "I need to hold on... just a little longer... ",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("GuildEventTimerView")
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	slot0.text = slot1
 
 	slot0:RemoveEndEventTimer()
@@ -46,11 +46,11 @@ function slot0.Flush(slot0, slot1, slot2)
 	slot0.timer:Start()
 end
 
-function slot0.UpdateText(slot0, slot1)
+slot0.UpdateText = function(slot0, slot1)
 	slot0.text.text = slot1
 end
 
-function slot0.RemoveEndEventTimer(slot0)
+slot0.RemoveEndEventTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -58,14 +58,14 @@ function slot0.RemoveEndEventTimer(slot0)
 	end
 end
 
-function slot0.OnOver(slot0)
+slot0.OnOver = function(slot0)
 	slot0:RemoveEndEventTimer()
 	pg.m02:sendNotification(GAME.GUILD_GET_ACTIVATION_EVENT, {
 		force = true
 	})
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:RemoveEndEventTimer()
 end
 

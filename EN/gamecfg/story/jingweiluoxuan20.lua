@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN20",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？·？？",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
+			hidePaintObj = true,
+			say = "？？·？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -25,9 +25,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -43,10 +43,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"Reporting combat situation from the front lines. The Eagle Union's carriers have sustained significant damage and are now retreating.\"",
 			typewriter = {
 				speed = 0.05,
@@ -80,10 +80,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"Hiryuu has been incapacitated and is no longer able to sail. Requesting emergency rescue operation...\"",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +117,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"Recapping operation objectives: Capture AF Base and sink the enemy carrier task force. Status: Failed.\"",
 			typewriter = {
 				speed = 0.05,
@@ -135,10 +135,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"Test Name: Operation AF. Communication playback log finished.\"",
 			typewriter = {
 				speed = 0.05,
@@ -172,10 +172,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"Uploading data... Preparing initialization of next Reenactment.\"",
 			typewriter = {
 				speed = 0.05,
@@ -190,10 +190,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Is it finally over? Are the Pawns going to be disposed of?",
 			typewriter = {
 				speed = 0.05,
@@ -246,10 +246,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's, uh, very commendable of you... But is there anything that can help us make sense of this mess?",
 			typewriter = {
 				speed = 0.05,
@@ -336,10 +336,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's what we wanted to know in the first place! It sucks being stuck here, unable to do anything!",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,10 +364,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Shinano, you brought this topic up because you have an idea on how to escape, right?",
 			typewriter = {
 				speed = 0.05,
@@ -420,12 +420,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			actor = 900315,
-			stopbgm = true,
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "...Yes, our meeting has been made possible by the power hidden here.",
 			typewriter = {

@@ -1,19 +1,19 @@
 return {
-	id = "WORLD505A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD505A",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/17/tb-17",
+			dir = 1,
 			bgm = "xinnong-3",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "분석 모듈 동기화 중: 지휘관님, 주변 지역에서는 더 이상 적 반응이 없습니다.",
-			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,11 +26,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "전장 정보 모으는 중입니다————",
 			voice = "event:/tb/19/tb-19",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "전장 정보 모으는 중입니다————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,11 +43,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/40/tb-40",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "지령 완료: 지휘관님, 저희 말고도 세 방향의 함대가 세이렌의 방어선을 돌파했습니다. 세이렌의 첫 번째 방어선이 붕괴되었습니다.",
-			voice = "event:/tb/40/tb-40",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "…적의 수가 맞지 않다.",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "근데 지금 상황으로 봐선 적의 수가 너무 적다…",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "각 함대에 경각심을 높이고 산발적인 적을 소탕하면서 계속 전진하라고 알려라.",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2023俾斯麦Z活动 侵蚀等级5 重度不良效果",
 	init_effect = "",
+	name = "2023俾斯麦Z活动 侵蚀等级5 重度不良效果",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200420,
-	picture = "",
 	last_effect = "qinshibuff3",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -14,8 +14,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.03
+				number = 0.03,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -24,8 +24,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.03
+				number = 0.03,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -44,8 +44,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -100
+				number = -100,
+				attr = "attackRating"
 			}
 		}
 	}

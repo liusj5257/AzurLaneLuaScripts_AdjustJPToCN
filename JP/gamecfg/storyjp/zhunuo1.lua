@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -88,8 +88,8 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "違うな！空母として駆逐艦の子達を守るのは当たり前じゃないか！",
 			shake = {
 				speed = 8,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			actorName = "アーク・ロイヤル＆グロリアス",
 			side = 0,
-			hideOther = true,
+			actor = 207020,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "（私と似ているかも……）",
 			subActors = {

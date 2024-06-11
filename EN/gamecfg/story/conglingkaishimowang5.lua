@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "This is the Royal Capital, the heart of the kingdom of humanity.",
 			bgm = "story-musicanniversary-gorgeous",
+			say = "This is the Royal Capital, the heart of the kingdom of humanity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "A great wall of stone rises toward the sky, encircling the city and inspiring awe.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "Passing through the gates, we reach a big plaza. The bustling cheering of people on the street speaks to the prosperity of this place.",
 			typewriter = {
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I had my phone before we set off and everything! But I guess those aren't allowed in VR!",
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Don't freak out! Check your adventure interface! There should be a screenshot feature there.",
@@ -166,9 +166,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_178",
 			factiontag = "Cleric",
 			dir = 1,
+			bgName = "star_level_bg_178",
 			soundeffect = "event:/ui/kuaimen",
 			actor = 202341,
 			nameColor = "#A9F548FF",
@@ -183,17 +183,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hold your horses! First of all, we should stop by the marketplace.",
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Or what? Do you NOT want to get new gear?",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I don't hear any objections, so let's go to the marketplace and... Huh?",
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What's this?! I can't move through this alley!",
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "Fu Shun tried to take the path to the marketplace, but was stopped by an invisible wall at the intersection.",
 			typewriter = {
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"This area will unlock after you advance the main quest\"?",
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I thought this was an open world! Why the heck won't they let me through?!",
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -448,11 +448,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That's a barrier set up by the Holy Church and the Church of Steel. It's a security measure to prevent first-timers from trespassing.",
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Seeing as you're adventurers, you should visit the Adventurer's Guild or the castle first. Shall I guide you?",
@@ -554,27 +554,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
-			say = "Royal Castle - Audience Hall",
 			bgm = "story-expo-lastday",
+			say = "Royal Castle - Audience Hall",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -600,11 +600,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "The King",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "What an interesting party you have.",
 			painting = {
@@ -671,11 +671,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "The King",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "I shall provide you with some funds to help you accomplish your quest.",
 			painting = {
@@ -688,11 +688,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Your Majesty, can I have a word?",
@@ -724,11 +724,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We haven't seen an inkling of the Demon King yet... How will we know when we've beaten them?",
@@ -742,11 +742,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Do you have, like, a picture? A photo?",
@@ -796,11 +796,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "The King",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "Alas, the Demon King is protected by a special spell that renders her unidentifiable by regular means.",
 			painting = {
@@ -903,27 +903,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
-			say = "At the center of the hall, a dark purple sphere of magic rises into the air.",
 			bgm = "theme-vichy-church",
+			say = "At the center of the hall, a dark purple sphere of magic rises into the air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -931,8 +931,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "Inside it, you can just make out a girl with the horns and tail of a demon.",
 			typewriter = {
@@ -965,8 +965,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "Silently, I activate my skill.",
 			typewriter = {
@@ -975,8 +975,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "But... not a single thing appears on my adventure interface.",
 			typewriter = {
@@ -985,8 +985,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "All that happens is that the sphere of magic begins to shake violently. It seems moments away from collapsing.",
 			typewriter = {
@@ -1089,8 +1089,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "The girl in the sphere comes to life and moves. A sort of pressure that's difficult to describe fills the hall.",
 			typewriter = {
@@ -1099,8 +1099,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "A pressure like... the Demon King was actually here in person.",
 			typewriter = {
@@ -1203,8 +1203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1213,8 +1213,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "The burning hot light is so powerful that I can feel it on my skin, even behind a protective barrier.",
 			typewriter = {
@@ -1222,17 +1222,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1240,8 +1240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "Eventually, the light disappears from the hall, as does the Demon King and the sphere.",
 			typewriter = {
@@ -1250,8 +1250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "...Along with the entirety of the hall itself.",
 			typewriter = {
@@ -1310,11 +1310,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "VERY not good! Some might even say terrible!",
@@ -1328,11 +1328,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But we DID complete the quest and get our rewards, so...",
@@ -1346,11 +1346,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Quick! Let's get the hell outta here!",
@@ -1366,9 +1366,9 @@ return {
 		{
 			portrait = 205050,
 			side = 2,
-			bgName = "star_level_bg_502",
 			factiontag = "The King",
 			dir = 1,
+			bgName = "star_level_bg_502",
 			nameColor = "#FF9B93",
 			actorName = "King George V",
 			say = "Guards! Throw these mad adventurers in jail!",
@@ -1381,17 +1381,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏の日の「サプライズ」\n\n<size=45>一　極地からのエスキモー</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日の母港",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日の母港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "あれ？ベンソン姉もエスキモーに会ったことがないの？",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "じゃ執務室に行けば会えるよね。どんな人だろう…？",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "ん？木の後ろから喚き声が！？",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_113",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "どぅるるるるる！",
 			dialogShake = {
 				speed = 0.08,
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "今度はドラムの音！？",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -342,8 +342,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,8 +361,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "（ゴクっx2）",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "じゃじゃーん！トライバル級駆逐艦エスキモー、今日から秘書官に着任ー！よろしくね！",
 			dialogShake = {
 				speed = 0.08,
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "自らをエスキモーと名乗る少女が木の後ろから現れた！",
 			effects = {
 				{
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "極地風の厚着に雪山装備も揃ってる！かっこいい…",
 			typewriter = {
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "イメージと違って、元気な人だったね。ふふん、これはいろいろ面白くなりそうだ～",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "克莱蒙梭剧情战 剧情结束",
 	time = 1,
+	name = "克莱蒙梭剧情战 剧情结束",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

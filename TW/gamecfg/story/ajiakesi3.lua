@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"我的美好回憶\n\n<size=45>三 秘書艦的責任</size>",
@@ -81,11 +81,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "好了，今天的秘書艦工作到此結束。指揮官，辛苦啦。",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "阿賈克斯完成工作非常出色，但她作為秘書艦最大的特點卻是——",
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "屬於“打雜”範圍的業務真的一點都不碰。",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

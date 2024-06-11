@@ -1,10 +1,10 @@
 slot1 = 1e-06
 
-function slot6(slot0, slot1)
+slot6 = function(slot0, slot1)
 	return slot0.x * slot1.y - slot0.y * slot1.x
 end
 
-function slot7(slot0, slot1)
+slot7 = function(slot0, slot1)
 	return slot0.x * slot1.x + slot0.y * slot1.y
 end
 

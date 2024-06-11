@@ -149,14 +149,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 106340,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 106340,
+	color = "red",
 	icon = 106330,
 	last_effect = "",
 	effect_list = {
@@ -186,9 +186,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				quota = 1,
-				target = "TargetSelf",
 				skill_id = 106341,
+				target = "TargetSelf",
+				quota = 1,
 				index = {
 					2
 				}

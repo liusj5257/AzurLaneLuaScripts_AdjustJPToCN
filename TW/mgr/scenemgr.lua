@@ -3,13 +3,13 @@ slot0 = pg
 slot0.SceneMgr = singletonClass("SceneMgr")
 slot1 = slot0.SceneMgr
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	slot0._cacheUI = {}
 	slot0._gcLimit = 3
 	slot0._gcCounter = 0
 end
 
-function slot1.prepare(slot0, slot1, slot2, slot3)
+slot1.prepare = function(slot0, slot1, slot2, slot3)
 	slot5 = slot2.viewComponent
 	slot6, slot7 = nil
 
@@ -28,7 +28,7 @@ function slot1.prepare(slot0, slot1, slot2, slot3)
 
 		slot8 = nil
 
-		function slot8()
+		slot8 = function()
 			uv0.event:disconnect(BaseUI.LOADED, uv1)
 
 			uv2 = uv3.New(uv0)
@@ -47,7 +47,7 @@ function slot1.prepare(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.prepareLayer(slot0, slot1, slot2, slot3, slot4)
+slot1.prepareLayer = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 	slot6 = {}
 
@@ -90,7 +90,7 @@ function slot1.prepareLayer(slot0, slot1, slot2, slot3, slot4)
 	end)()
 end
 
-function slot1.enter(slot0, slot1, slot2)
+slot1.enter = function(slot0, slot1, slot2)
 	if #slot1 == 0 then
 		slot2()
 	end
@@ -117,7 +117,7 @@ function slot1.enter(slot0, slot1, slot2)
 	end
 end
 
-function slot1.removeLayer(slot0, slot1, slot2, slot3)
+slot1.removeLayer = function(slot0, slot1, slot2, slot3)
 	slot4 = {
 		slot2
 	}
@@ -160,7 +160,7 @@ function slot1.removeLayer(slot0, slot1, slot2, slot3)
 	seriesAsync(slot6, slot3)
 end
 
-function slot1.removeLayerMediator(slot0, slot1, slot2, slot3)
+slot1.removeLayerMediator = function(slot0, slot1, slot2, slot3)
 	slot4 = {
 		slot2
 	}
@@ -194,13 +194,13 @@ function slot1.removeLayerMediator(slot0, slot1, slot2, slot3)
 	slot3(slot6)
 end
 
-function slot1.clearTempCache(slot0, slot1)
+slot1.clearTempCache = function(slot0, slot1)
 	if slot1:getViewComponent():tempCache() then
 		slot2:RemoveTempCache()
 	end
 end
 
-function slot1.remove(slot0, slot1, slot2, slot3)
+slot1.remove = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:getViewComponent()
 
 	if slot0._cacheUI[slot1.__cname] ~= nil and slot5 ~= slot4 then
@@ -229,7 +229,7 @@ function slot1.remove(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.gc(slot0, slot1)
+slot1.gc = function(slot0, slot1)
 	slot2 = slot1:forceGC()
 
 	table.clear(slot1)

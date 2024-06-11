@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"桜流しの日のあとで\n\n<size=45>三  メールは苦手？</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "扶桑と売店に行った翌日、いつものように執務室で仕事をしていると一通の電子メールが届いた。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "扶桑と売店に行った翌日、いつものように執務室で仕事をしていると一通の電子メールが届いた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メール",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "内容はそれだけしか書かれておらず、アドレスも初めて見るものだ――と思っていると、すぐに次のメールが。",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メール",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "執務室に来るということだろうか……誰かわからないので名前を教えるよう返信のメールを作成していると――",
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メール",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メール",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "立て続けに2通のメールが届き、徐々に近づいてくるのがわかる。",
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "まさか最後は某怪談話のように「あなたの後ろにいる」みたいなものか――そう思った瞬間、メールが届いた。",
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メール",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そのメールを目にしたのと同時に、執務室のドアがこんこんとノックされた。",
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "おそるおそるドアに近づき、ゆっくりと開けるとそこには――",
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "……す、すみません指揮官様。空き地の件でメールしたのですが途中で送信されてしまって",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "扶桑はきょとんとした目でこちらを見ている。",
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "先を歩く扶桑の後についていくようにして執務室を離れる……と同時にそれまでの緊張がようやく解けてきた。",
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

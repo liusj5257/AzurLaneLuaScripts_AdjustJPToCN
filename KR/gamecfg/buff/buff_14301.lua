@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.055
+					number = -0.055,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.065
+					number = -0.065,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.07
+					number = -0.07,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.075
+					number = -0.075,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.085
+					number = -0.085,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.09
+					number = -0.09,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "掩护救援",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 14301,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14301,
+	color = "blue",
 	icon = 14301,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

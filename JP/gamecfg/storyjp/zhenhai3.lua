@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"棋力を上達させる妙手\n\n<size=45>三 特訓！</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "5時間後。執務室。",
 			bgm = "story-richang-5",
+			say = "5時間後。執務室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,10 +29,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "手に迷いがありすぎですね…「碁を持ってから考えあぐねる」のはよろしくありませんよ",
 			painting = {
 				alpha = 0.3,
@@ -71,10 +71,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "過分のお言葉恐れ入ります。こちらこそ指揮官の進歩の速さに驚きましたよ。時間をかければ、いつか私に勝つ時が来るかもしれませんね",
 			painting = {
 				alpha = 0.3,
@@ -89,10 +89,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ただ、指揮官のこの「ワザ」はいささか不足している部分があるように思われまして…",
 			painting = {
 				alpha = 0.3,
@@ -104,12 +104,12 @@ return {
 			}
 		},
 		{
-			actor = 506010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 506010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よければ、私からご指導させていただければ…",
 			painting = {
 				alpha = 0.3,
@@ -124,10 +124,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、いいえ…勝手なことを言ってしまいすみません。これ以上指導が必要かどうか、まだ指揮官にお伺いを立てていない内に――",
 			painting = {
 				alpha = 0.3,
@@ -152,10 +152,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ。これはずいぶん勢いのある答えですね",
 			painting = {
 				alpha = 0.3,
@@ -170,10 +170,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ただ私の指導を受けるからには、気をしっかり持ち、私の言うことにきっちり従っていただきますが…",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "では決意が固まったところで…しっかり「特訓」させていただきますね",
 			painting = {
 				alpha = 0.3,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_210",
 			dir = 1,
 			say = "某虚拟空间内…",
@@ -24,12 +24,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			bgName = "star_level_bg_210",
+			bgm = "story-1",
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "嗨多摩～！我是绊爱！",
-			bgm = "story-1",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "如此这般，今天打算久违的实况一下碧蓝航线！",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "难道说……是和我的联动吗！开玩笑的～",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "虽然一直在说着想要联动什么的呢，总有一天！不过，究竟有没有机会看到展开联动的那一天啊！！",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "算了，调整心情，开始玩碧蓝航线啦！{namecode:66}酱！妳还好吗！？",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "要来咯～锵咔锵咔锵咔锵咔～～～锵！",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "咦？随机单词生成器好像突然发光了……",
 			flashN = {
@@ -264,8 +264,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "这是什么鬼！！？？呜哇啊啊啊啊啊啊啊啊！！！",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -288,14 +288,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			stopbgm = true,
 			say = "砰！！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -323,11 +323,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			bgm = "level",
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "诶！？诶！！？？",
-			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -348,9 +348,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "被丢到一望无际的大海中央的超级智能AI绊爱在海洋覆盖的世界中心呐喊着",
 			typewriter = {
 				speed = 0.05,

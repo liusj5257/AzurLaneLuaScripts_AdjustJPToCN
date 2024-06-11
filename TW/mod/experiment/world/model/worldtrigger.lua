@@ -7,23 +7,23 @@ slot0.Fields = {
 	desc = "string"
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1
 end
 
-function slot0.GetProgress(slot0)
+slot0.GetProgress = function(slot0)
 	return slot0.progress
 end
 
-function slot0.GetMaxProgress(slot0)
+slot0.GetMaxProgress = function(slot0)
 	return slot0.maxProgress
 end
 
-function slot0.GetDesc(slot0)
+slot0.GetDesc = function(slot0)
 	return string.format("%s(%s/%s)", slot0.desc, slot0.progress, slot0.maxProgress)
 end
 
-function slot0.IsAchieved(slot0)
+slot0.IsAchieved = function(slot0)
 	return slot0:GetMaxProgress() <= slot0:GetProgress()
 end
 

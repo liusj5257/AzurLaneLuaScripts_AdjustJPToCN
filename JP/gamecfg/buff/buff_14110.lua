@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "马耳他的英雄",
 	init_effect = "",
+	id = 14110,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14110,
+	color = "red",
 	icon = 14110,
 	last_effect = "",
 	effect_list = {
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				quota = 3,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				skill_id = 14111
 			}
 		}

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "耐久回复",
 	painting = 0,
 	id = 15330,
-	picture = "0",
 	castCV = "",
-	desc = "耐久回复",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -27,9 +27,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetRandom"

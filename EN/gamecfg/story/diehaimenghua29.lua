@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA29",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Shinano arrived at a building that appeared to be a workshop.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "Shinano arrived at a building that appeared to be a workshop.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "Hmm... Need something from the Research Department?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 306090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306090,
+			nameColor = "#a9f548",
 			say = "I'd like a little boost to my engine performance!",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,13 +187,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Chitose, Chiyoda, and Yuubari disappeared into the workshop.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -221,8 +221,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Akashi...? Didn't I see her with Kii and the others not too long ago...?)",
 			typewriter = {
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Hm? Why are you looking at me like that, nya? I let the Manjuus take over back there. They don't need sophisticated orders to sell things for me, nya.",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"......\"",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(I'm in perfect condition... As if I've been completely reborn after the last \"dream.\")",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"Yes...\"",
 			typewriter = {
@@ -376,15 +376,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "I don't see anything wrong at all, nya. Purrfect condition, nya.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -422,8 +422,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(I see... This is what I should have been... and this power...)",
 			typewriter = {
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "By the way, were you about to go see the Commander, nya? You see, I have this brochure for my new product, nya...",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -462,12 +462,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Huh? Did Shinano just disappear into thin air, nya??",
 			typewriter = {
 				speed = 0.05,

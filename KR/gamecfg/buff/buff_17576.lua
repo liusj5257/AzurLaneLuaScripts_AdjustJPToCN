@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 400
+					number = 400,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.035
+					number = -0.035,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -32,8 +32,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 440
+					number = 440,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -57,8 +57,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 480
+					number = 480,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.045
+					number = -0.045,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -82,8 +82,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 550
+					number = 550,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -107,8 +107,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 610
+					number = 610,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.055
+					number = -0.055,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -132,8 +132,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 670
+					number = 670,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -157,8 +157,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 750
+					number = 750,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.065
+					number = -0.065,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -182,8 +182,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 820
+					number = 820,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.07
+					number = -0.07,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -207,8 +207,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 890
+					number = 890,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.075
+					number = -0.075,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -232,8 +232,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1000
+					number = 1000,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -243,20 +243,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatio"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 17576,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17576,
+	color = "blue",
 	icon = 17570,
 	last_effect = "",
 	blink = {
@@ -273,8 +273,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 400
+				number = 400,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -284,8 +284,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.035
+				number = -0.035,
+				attr = "injureRatio"
 			}
 		}
 	}

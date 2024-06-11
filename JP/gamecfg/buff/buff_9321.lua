@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "白龙无敌锁血撤退",
 	time = 9999,
+	name = "白龙无敌锁血撤退",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "白龙无敌锁血撤退",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 9321,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{
@@ -65,8 +65,8 @@ return {
 			},
 			arg_list = {
 				group = 9321,
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		}
 	}

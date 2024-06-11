@@ -159,14 +159,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 4020,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 4020,
+	color = "blue",
 	icon = 4020,
 	last_effect = "",
 	blink = {

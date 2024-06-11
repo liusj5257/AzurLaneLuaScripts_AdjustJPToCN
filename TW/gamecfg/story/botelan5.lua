@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOTELAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOTELAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"為了印第的笑容！\n\n<size=45>五 命運的出擊</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區・港口",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區・港口",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "——又到了演習出擊之時，最後還是按照波特蘭希望的那樣組成了編隊。",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "德意志、多塞特郡、{namecode:156}，還有{namecode:71}、{namecode:16}。以及——",
 			typewriter = {
 				speed = 0.05,
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 308030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308030,
+			nameColor = "#a9f548",
 			say = "波……特蘭……！",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 25,
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "嗷？這不是波特蘭嗎！還要繼續訓練嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "真是的，指揮官！不是拜託你讓她們和印第組隊嗎！",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "欸！！波特蘭也需要和大家拉近距離嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "作為補償，回去以後【一起被印第醬治癒的時間】要增加一倍才行哦！",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

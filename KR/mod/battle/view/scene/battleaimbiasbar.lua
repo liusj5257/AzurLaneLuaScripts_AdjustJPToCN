@@ -5,7 +5,7 @@ slot0.Battle.BattleAimbiasBar.__name = "BattleAimbiasBar"
 slot1 = slot0.Battle.BattleAimbiasBar
 slot1.WARNING_VALUE = 0.1
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	slot0._aimBiasBar = slot1
 	slot0._aimBiasBarGO = slot0._aimBiasBar.gameObject
 	slot0._progress = slot0._aimBiasBar:Find("bias"):GetComponent(typeof(Image))
@@ -24,16 +24,16 @@ function slot1.Ctor(slot0, slot1)
 	slot0._lockBlock = false
 end
 
-function slot1.SetActive(slot0, slot1)
+slot1.SetActive = function(slot0, slot1)
 	setActive(slot0._aimBiasBar, slot1)
 end
 
-function slot1.ConfigAimBias(slot0, slot1)
+slot1.ConfigAimBias = function(slot0, slot1)
 	slot0._aimBiasComponent = slot1
 	slot0._hostile = slot1:IsHostile()
 end
 
-function slot1.UpdateLockStateView(slot0)
+slot1.UpdateLockStateView = function(slot0)
 	slot1 = slot0._aimBiasComponent:GetCurrentState() == slot0._aimBiasComponent.STATE_SKILL_EXPOSE
 
 	setActive(slot0._lock, slot1)
@@ -50,7 +50,7 @@ function slot1.UpdateLockStateView(slot0)
 	slot0._lockBlock = slot1
 end
 
-function slot1.UpdateAimBiasProgress(slot0)
+slot1.UpdateAimBiasProgress = function(slot0)
 	slot1 = slot0._aimBiasComponent:GetCurrentRate()
 	slot0._progress.fillAmount = slot1
 	slot2 = slot0._aimBiasComponent:GetDecayRatioSpeed()
@@ -80,10 +80,10 @@ function slot1.UpdateAimBiasProgress(slot0)
 	slot0._cacheWarningFlag = slot3
 end
 
-function slot1.UpdateAimBiasConfig(slot0)
+slot1.UpdateAimBiasConfig = function(slot0)
 end
 
-function slot1.Dispose(slot0)
+slot1.Dispose = function(slot0)
 	slot0._aimBiasBar = nil
 	slot0._progress = nil
 	slot0._warning = nil
@@ -91,6 +91,6 @@ function slot1.Dispose(slot0)
 	slot0._aimBiasBarGO = nil
 end
 
-function slot1.GetGO(slot0)
+slot1.GetGO = function(slot0)
 	return slot0._aimBiasBarGO
 end

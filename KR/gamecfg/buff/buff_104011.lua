@@ -354,14 +354,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "爱碳光波",
 	time = 9,
-	color = "red",
+	name = "爱碳光波",
+	init_effect = "",
+	id = 104011,
 	picture = "",
 	desc = "战斗中，每20秒启用一个效果，效果随技能等级提高",
 	stack = 1,
-	id = 104011,
+	color = "red",
 	icon = 104010,
 	last_effect = "",
 	effect_list = {

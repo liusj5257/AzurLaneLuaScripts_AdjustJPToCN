@@ -2,7 +2,7 @@ slot0 = class("BeachGamePage", import("view.base.BaseActivityPage"))
 slot0.MINIGAME_HUB_ID = 37
 slot0.MINIGAME_ID = 44
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.goBtn = slot0:findTF("AD/go")
 	slot0.indexTpl = slot0:findTF("AD/index")
 	slot0.markContainer = slot0:findTF("AD/marks")
@@ -16,10 +16,10 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.goBtn, function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, uv0.MINIGAME_ID)
 	end, SFX_PANEL)
@@ -31,7 +31,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:FlushIndex(slot2)
 end
 
-function slot0.FlushMarks(slot0, slot1)
+slot0.FlushMarks = function(slot0, slot1)
 	slot4 = slot1.usedtime + slot1.count
 
 	for slot8, slot9 in ipairs(slot0.markTrs) do
@@ -41,7 +41,7 @@ function slot0.FlushMarks(slot0, slot1)
 	end
 end
 
-function slot0.FlushIndex(slot0, slot1)
+slot0.FlushIndex = function(slot0, slot1)
 	setActive(slot0.indexTpl, slot1.usedtime > 0)
 
 	if slot2 > 0 then
@@ -50,10 +50,10 @@ function slot0.FlushIndex(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

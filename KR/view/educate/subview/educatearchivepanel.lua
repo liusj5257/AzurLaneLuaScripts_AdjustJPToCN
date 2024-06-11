@@ -1,11 +1,11 @@
 slot0 = class("EducateArchivePanel", import("...base.BaseSubView"))
 slot1 = 0.005
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateArchivePanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.config = pg.child_attr
 	slot0.foldPanelTF = slot0:findTF("fold_panel")
 	slot0.showBtn = slot0:findTF("show_btn", slot0.foldPanelTF)
@@ -70,7 +70,7 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.showBtn, function ()
 		uv0:showPanel()
 	end, SFX_PANEL)
@@ -79,17 +79,17 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.showPanel(slot0)
+slot0.showPanel = function(slot0)
 	setActive(slot0.foldPanelTF, false)
 	setActive(slot0.showPanelTF, true)
 end
 
-function slot0.hidePanel(slot0)
+slot0.hidePanel = function(slot0)
 	setActive(slot0.foldPanelTF, true)
 	slot0.showAnim:Play("anim_educate_archive_show_out")
 end
 
-function slot0.initAttrsPanel(slot0)
+slot0.initAttrsPanel = function(slot0)
 	slot0.attrsList1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:updateAttr1Item(slot1, slot2)
@@ -108,7 +108,7 @@ function slot0.initAttrsPanel(slot0)
 	slot0:Flush()
 end
 
-function slot0.updateAttr1Item(slot0, slot1, slot2)
+slot0.updateAttr1Item = function(slot0, slot1, slot2)
 	slot4 = slot0.char:GetAttrGroupByType(EducateChar.ATTR_TYPE_MAJOR)[slot1 + 1][1]
 
 	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot4, slot0:findTF("icon_bg/icon", slot2), true)
@@ -122,7 +122,7 @@ function slot0.updateAttr1Item(slot0, slot1, slot2)
 	setImageColor(slot0:findTF("grade", slot2), Color.NewHex(EducateConst.GRADE_2_COLOR[slot6][2]))
 end
 
-function slot0.updateBuffItem(slot0, slot1, slot2)
+slot0.updateBuffItem = function(slot0, slot1, slot2)
 	slot3 = slot0.buffList[slot1 + 1]
 
 	LoadImageSpriteAsync("educateprops/" .. slot3:getConfig("icon"), slot0:findTF("icon", slot2))
@@ -132,7 +132,7 @@ function slot0.updateBuffItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.showBuffBox(slot0, slot1)
+slot0.showBuffBox = function(slot0, slot1)
 	slot0:emit(EducateBaseUI.EDUCATE_ON_ITEM, {
 		drop = {
 			number = 1,
@@ -142,7 +142,7 @@ function slot0.showBuffBox(slot0, slot1)
 	})
 end
 
-function slot0.updateAttr2Item(slot0, slot1, slot2)
+slot0.updateAttr2Item = function(slot0, slot1, slot2)
 	slot4 = slot0.char:GetAttrGroupByType(EducateChar.ATTR_TYPE_MINOR)[slot1 + 1][1]
 
 	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. slot4, slot0:findTF("icon", slot2), true)
@@ -150,7 +150,7 @@ function slot0.updateAttr2Item(slot0, slot1, slot2)
 	setText(slot0:findTF("value", slot2), slot0.char:GetAttrById(slot4))
 end
 
-function slot0.updateNature(slot0)
+slot0.updateNature = function(slot0)
 	slot4 = EducateChar.ATTR_TYPE_PERSONALITY
 
 	for slot4, slot5 in ipairs(slot0.char:GetAttrGroupByType(slot4)) do
@@ -161,7 +161,7 @@ function slot0.updateNature(slot0)
 	end
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -206,7 +206,7 @@ function slot0.Flush(slot0)
 	slot0.pageSnap.enabled = slot5
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 

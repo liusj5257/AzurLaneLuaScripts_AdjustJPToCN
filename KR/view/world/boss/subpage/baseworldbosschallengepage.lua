@@ -1,7 +1,7 @@
 slot0 = class("BaseWorldBossChallengePage", import("view.base.BaseSubView"))
 slot0.Listeners = {
-	onRankListUpdated = "OnRankListUpdated",
-	onCacheBossUpdated = "OnCacheBossUpdated"
+	onCacheBossUpdated = "OnCacheBossUpdated",
+	onRankListUpdated = "OnRankListUpdated"
 }
 slot1 = {
 	[970701] = {
@@ -40,7 +40,7 @@ slot1 = {
 	}
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	for slot5, slot6 in pairs(uv0.Listeners) do
 		slot0[slot5] = function (...)
 			uv0[uv1](uv2, ...)
@@ -50,13 +50,13 @@ function slot0.Setup(slot0, slot1)
 	slot0.proxy = slot1
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.rankPage = WorldBossRankPage.New(slot0._tf.parent.parent, slot0.event)
 
 	slot0:AddListeners(slot0.proxy)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:UpdateEmptyCard()
 
 	slot0.scrollRect = WorldBossItemList.New(slot0:findTF("list_panel/mask/bg/container"), slot0:findTF("list_panel/mask/tpl"))
@@ -150,14 +150,14 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateEmptyCard(slot0)
+slot0.UpdateEmptyCard = function(slot0)
 	slot3 = slot0:findTF("list_panel/mask/tpl"):Find("empty"):GetComponent(typeof(Image))
 	slot3.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. WorldBossConst.GetCurrBossGroup(), "item_04")
 
 	slot3:SetNativeSize()
 end
 
-function slot0.CheckToggle(slot0)
+slot0.CheckToggle = function(slot0)
 	if _.all(slot0.filterFlags, function (slot0)
 		return slot0 == -1
 	end) then
@@ -166,11 +166,11 @@ function slot0.CheckToggle(slot0)
 	end
 end
 
-function slot0.GetResSuffix(slot0)
+slot0.GetResSuffix = function(slot0)
 	return ""
 end
 
-function slot0.UpdatePainting(slot0, slot1)
+slot0.UpdatePainting = function(slot0, slot1)
 	if slot0.groupId ~= slot1 then
 		slot0.groupId = slot1
 		slot2 = slot0:findTF("main/label"):GetComponent(typeof(Image))
@@ -190,7 +190,7 @@ function slot0.UpdatePainting(slot0, slot1)
 	end
 end
 
-function slot0.RotateRefreshBtn(slot0, slot1)
+slot0.RotateRefreshBtn = function(slot0, slot1)
 	slot2 = LeanTween.rotate(rtf(slot0.refreshBtn), -360, 0.5)
 
 	slot2:setOnComplete(System.Action(function ()
@@ -214,37 +214,37 @@ function slot0.RotateRefreshBtn(slot0, slot1)
 	slot0.refreshtimer:Start()
 end
 
-function slot0.AddListeners(slot0, slot1)
+slot0.AddListeners = function(slot0, slot1)
 	slot1:AddListener(WorldBossProxy.EventRankListUpdated, slot0.onRankListUpdated)
 	slot1:AddListener(WorldBossProxy.EventCacheBossListUpdated, slot0.onCacheBossUpdated)
 end
 
-function slot0.RemoveListeners(slot0, slot1)
+slot0.RemoveListeners = function(slot0, slot1)
 	slot1:RemoveListener(WorldBossProxy.EventRankListUpdated, slot0.onRankListUpdated)
 	slot1:RemoveListener(WorldBossProxy.EventCacheBossListUpdated, slot0.onCacheBossUpdated)
 end
 
-function slot0.OnCacheBossUpdated(slot0)
+slot0.OnCacheBossUpdated = function(slot0)
 	slot0:UpdateNonProcessList()
 end
 
-function slot0.OnRankListUpdated(slot0, slot1, slot2, slot3)
+slot0.OnRankListUpdated = function(slot0, slot1, slot2, slot3)
 	if slot0.boss and slot0.boss.id == slot3 and slot0.rankPage:GetLoaded() and slot0.rankPage:isActive() then
 		slot0.rankPage:ExecuteAction("Update", slot0.proxy, slot0.boss.id)
 	end
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:emit(WorldBossMediator.UPDATE_CACHE_BOSS_HP, function ()
 		uv0:UpdateNonProcessList()
 		uv0:Show()
 	end)
 end
 
-function slot0.UpdateNonProcessList(slot0)
+slot0.UpdateNonProcessList = function(slot0)
 	slot1 = slot0.proxy
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		return _.any(_.select(uv0.filterFlags, function (slot0)
 			return slot0 >= 0
 		end), function (slot0)
@@ -282,11 +282,11 @@ function slot0.UpdateNonProcessList(slot0)
 	setActive(slot0.refreshBtn, true)
 end
 
-function slot0.OnFilterBoss(slot0, slot1)
+slot0.OnFilterBoss = function(slot0, slot1)
 	return true
 end
 
-function slot0.OnInitCard(slot0, slot1, slot2)
+slot0.OnInitCard = function(slot0, slot1, slot2)
 	slot4 = false
 	slot5 = slot1:Find("tags")
 
@@ -319,7 +319,7 @@ function slot0.OnInitCard(slot0, slot1, slot2)
 	setActive(slot1:Find("tags/guild/Text"), false)
 end
 
-function slot0.UpdateCardStyle(slot0, slot1, slot2)
+slot0.UpdateCardStyle = function(slot0, slot1, slot2)
 	slot1:Find("raiding"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot2, "item_03")
 	slot3 = slot1:Find("empty"):GetComponent(typeof(Image))
 	slot3.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot2, "item_04")
@@ -329,7 +329,7 @@ function slot0.UpdateCardStyle(slot0, slot1, slot2)
 	slot1:Find("selected/challenging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("MetaWorldboss/" .. slot2, "item_01" .. slot0:GetResSuffix())
 end
 
-function slot0.OnPreviewCard(slot0, slot1, slot2)
+slot0.OnPreviewCard = function(slot0, slot1, slot2)
 	if slot0.prevSelected and slot0.prevSelected.boss then
 		slot0.prevSelected.childTF:Find("tags").anchoredPosition = Vector3(0, 14, 0)
 
@@ -359,7 +359,7 @@ function slot0.OnPreviewCard(slot0, slot1, slot2)
 	}
 end
 
-function slot0.OnSelectCard(slot0, slot1, slot2)
+slot0.OnSelectCard = function(slot0, slot1, slot2)
 	slot0.boss = slot0.displays[slot2 + 1]
 	slot0.worldBossId = nil
 
@@ -373,7 +373,7 @@ function slot0.OnSelectCard(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateMainView(slot0, slot1, slot2)
+slot0.UpdateMainView = function(slot0, slot1, slot2)
 	setActive(slot0.mainPanel, true)
 	setActive(slot0.painting, true)
 
@@ -400,7 +400,7 @@ function slot0.UpdateMainView(slot0, slot1, slot2)
 	slot0:UpdatePainting(slot1.config.meta_id)
 end
 
-function slot0.addBattleTimer(slot0, slot1)
+slot0.addBattleTimer = function(slot0, slot1)
 	if slot1:GetExpiredTime() - pg.TimeMgr.GetInstance():GetServerTime() >= 0 then
 		slot0.timer = Timer.New(function ()
 			if uv0.exited then
@@ -428,7 +428,7 @@ function slot0.addBattleTimer(slot0, slot1)
 	end
 end
 
-function slot0.removeBattleTimer(slot0)
+slot0.removeBattleTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -436,7 +436,7 @@ function slot0.removeBattleTimer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	retMetaPaintingPrefab(slot0.painting, slot0.groupId)
 	slot0:RemoveListeners(slot0.proxy)
 	slot0:removeBattleTimer()

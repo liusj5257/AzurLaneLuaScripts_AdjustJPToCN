@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Ashigara, Advance!\n\n<size=45>Chapter 2: Ashigara, Work!</size>",
@@ -19,14 +19,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "Eh? Serve as s-secretary? Me?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,10 +60,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "Surely, this is a sign that Commander trusts me... so I've got to do my best!",
 			typewriter = {
 				speed = 0.05,
@@ -75,15 +75,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Command Office",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1.5,
 			bgm = "story-1",
+			say = "Port - Command Office",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Commander, the files of this past month's commissions are all here.",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "...I have to arrange them by date?",
 			typewriter = {
@@ -164,15 +164,15 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "Commander, um, your tea is-",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -200,8 +200,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Eep...!",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "I-I'm so sorry! I accidentally knocked the teacup over! I'll clean it up right away... um, paper towels, where are the paper towels....",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,14 +253,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 303090,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Weird, I swore I put the pen here just a moment ago, and now I can't find it...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -304,8 +304,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "I found it! How did it get all the way over here....",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Oh no! The pile of documents are about to fall over! I didn't notice because I was busy looking for the pen...",
 			typewriter = {
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Fwoosh! ...Ashigara was buried under a landslide of loose papers.",
 			dialogShake = {
 				speed = 0.09,
@@ -367,13 +367,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Though there were some obstacles in the way, Ashigara managed to finish her tasks.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -397,8 +397,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Huh? ...It's already this late?!",
 			typewriter = {
@@ -429,10 +429,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "(Ugh... I have to redeem myself next time...!)",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA25",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA25",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
-			say = "中々やる…！くっ、そろそろ時間か……",
 			bgm = "xinnong-4",
+			actor = 900192,
+			actorName = "？？？",
+			say = "中々やる…！くっ、そろそろ時間か……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦船たちの猛攻で、「高雄」は祭儀の島に近づけられずにいた。",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "通らせてもらう――！",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "進路を変え、一直線で【ワタツミ】へと向かおうとする高雄に、瑞鶴が真正面に飛び出した。",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "まるで時間が止まったかのように、二人の視線が一瞬合うと――",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……次の瞬間、そこには止まったままの瑞鶴と、全速力で前進する「高雄」の姿があった。",
 			typewriter = {
 				speed = 0.05,

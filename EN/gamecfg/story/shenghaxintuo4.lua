@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Secret to Curing Exhaustion?!\n\n<size=45>4 How to Wake a Sleeping Beauty</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "After getting one very confused Independence to leave, San Jacinto left for her joint exercise, and I immersed myself in work again.",
 			bgm = "story-richang-6",
+			say = "After getting one very confused Independence to leave, San Jacinto left for her joint exercise, and I immersed myself in work again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "By afternoon, the pile of documents on my desk has shrunk considerably.",
@@ -73,27 +73,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_outdoor",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_outdoor",
 			say = "When I search the wharf where the exercise was held, though, I find no sign of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			say = "While I search, I run into someone I saw very recently.",
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander? Why are you here? Shouldn't you and San Jacinto be... Ahem!",
 			painting = {
 				alpha = 0.3,
@@ -168,10 +168,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? You didn't bump into her?",
 			painting = {
 				alpha = 0.3,
@@ -186,10 +186,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "After the exercise, she was in such a hurry to get back to your office.",
 			painting = {
 				alpha = 0.3,
@@ -201,12 +201,12 @@ return {
 			}
 		},
 		{
-			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I don't think I've ever seen her in such a hurry...",
 			painting = {
 				alpha = 0.3,
@@ -233,10 +233,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "M-maybe... *blush*",
 			painting = {
 				alpha = 0.3,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			say = "Now that I know San Jacinto and I missed each other, I rush back to my office again.",
@@ -271,27 +271,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "When I get back, I see that the pile left on my desk is just a little smaller.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "San Jacinto is asleep, face-down on my desk. The gentle smile on her face is almost picturesque.",
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Carrying her over to the couch and laying her down there wouldn't be too difficult.",
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Doing that without waking her, though, seems nigh impossible.",
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "I think about it for a while and decide to carry her princess style.",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Gently, I lift her from the chair and lower her onto the couch.",
@@ -390,8 +390,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "When I try to leave her there, though, the girl I'd thought was asleep reaches out and grabs my shirt.",
@@ -404,10 +404,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No fair, Commander~",
 			painting = {
 				alpha = 0.3,
@@ -446,10 +446,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You promised we'd stay up late together, didn't you? Did you already forget?",
 			painting = {
 				alpha = 0.3,
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Naps ARE good at helping you recover from exhaustion, but...",
 			painting = {
 				alpha = 0.3,
@@ -493,10 +493,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, are you sure that was enough?",
 			painting = {
 				alpha = 0.3,
@@ -523,10 +523,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "When you're waking a sleeping beauty, don't you need the magic of love? True love's kiss, was it?",
 			painting = {
 				alpha = 0.3,
@@ -541,10 +541,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's how it works in the fairy tales...",
 			painting = {
 				alpha = 0.3,
@@ -559,10 +559,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You went through the trouble to princess carry me. And then you go back to work like nothing happened? That's just mean~",
 			painting = {
 				alpha = 0.3,

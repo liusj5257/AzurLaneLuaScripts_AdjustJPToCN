@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "hunhe-story",
-			dir = 1,
+			side = 2,
 			say = "Canal Stronghold - Surrounding waters",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			say = "(whispers) Um... What should I say next...",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 		{
 			actor = 107170,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Ahem... Thank you for coming all the way out here...",
 			dialogShake = {
 				speed = 0.09,
@@ -80,9 +80,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "You don't have to read off the script, you know...",
 			effects = {
 				{
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "We're all family here, so just take it easy.",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "The Commander is with Saratoga for a joint operation with the Northern Parliament. We wouldn't be able to recall the Commander for a task like this.",
 			typewriter = {
 				speed = 0.05,
@@ -219,9 +219,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "That's too bad~ I heard your commander was a total stud~",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -260,9 +260,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Don't worry about it, Reno! As long as I'm here, everything's gonna go swimmingly!",
 			typewriter = {
 				speed = 0.05,
@@ -274,16 +274,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -310,8 +310,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "Even if it gets below zero there, it's not like we don't have airfields that get that chilly as well. Trust me, there's no way an engine would suddenly freeze over and stop working just because of the temperature.",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "You sure know your stuff... Ahaha.",
 			typewriter = {
 				speed = 0.05,
@@ -341,9 +341,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "You didn't come across as the knowledgeable type, Marblehead...",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -397,9 +397,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Since we're just standing around here anyways, we might as well head inside.",
 			typewriter = {
 				speed = 0.05,
@@ -411,8 +411,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -424,8 +424,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "That's right. Besides, we need to get around to drafting our rescue plan... Right, Enterprise?",
 			typewriter = {
 				speed = 0.05,
@@ -440,8 +440,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Huh? Oh, sorry. I was thinking about something.",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "Oh? Is something bothering you, Enterprise?",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			actor = 107060,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "It's no big deal. After this, let's all help search.",
 			typewriter = {
 				speed = 0.05,

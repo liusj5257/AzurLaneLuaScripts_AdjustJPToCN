@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_176",
+			bgm = "battle-ash-strong",
 			actorName = "Berserker Knight Slimejuu",
 			say = "CHIIIRP CHIRP!",
-			bgm = "battle-ash-strong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2.2,
 					name = "jiulaimu_zhongxun",
+					time = 2.2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -40,9 +40,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_zhongxun",
 					time = 2.6,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -59,9 +59,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "jiulaimu_zhongxun",
 					time = 2.4,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -80,23 +80,23 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Explosive Slimejuu",
+			side = 2,
 			bgName = "star_level_bg_176",
 			nameColor = "#FF9B93",
 			say = "CHIRP! CHIRP!",
@@ -115,8 +115,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 1.1,
 					name = "jiulaimu_zibao",
+					time = 1.1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -133,9 +133,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_zibao",
 					time = 1.6,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -152,9 +152,9 @@ return {
 					}
 				},
 				{
-					delay = 0.2,
 					name = "jiulaimu_zibao",
 					time = 1.2,
+					delay = 0.2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There are too many of them! Too many even for me to handle!",
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yeah, same...",
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Potion Maker",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Take these MP recovery potions! I've got healing potions left, too, so I'll cover you!",
@@ -324,10 +324,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			bgm = "battle-highseasfleet-reborn",
 			actor = 202084,
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "I've deployed a smokescreen to distract them. Recover now while you can.",
 			typewriter = {
@@ -342,23 +342,23 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -366,11 +366,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			side = 2,
+			actor = 202084,
 			actorName = "???",
 			hidePaintObj = true,
 			say = "What a party you have...",
@@ -384,9 +384,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			actorName = "???",
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			actor = 202084,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "A hero, two clerics, a potion maker, a commander, and...",
 			typewriter = {
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			side = 2,
+			actor = 202084,
 			actorName = "???",
 			hidePaintObj = true,
 			say = "Well, if it isn't the Royal Army's saint.",
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "I thought the stories about you were just that – stories.",
 			painting = {
@@ -466,9 +466,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			actorName = "???",
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			actor = 202084,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "It's better for us if some people believe that.",
 			typewriter = {
@@ -515,11 +515,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I took you for a coward, hiding behind that wall whilst sending adventurers to their deaths in the land you abandoned.",
@@ -533,11 +533,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "I do not take kindly to insults directed at the soldiers of the Royal Army!",
 			painting = {
@@ -624,11 +624,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Has even a single one been carried out since you were born?",
@@ -679,11 +679,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Wait, you didn't tell anyone?!",
@@ -697,11 +697,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sooo... we're suspects in helping her escape now...",
@@ -715,11 +715,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "If the army captures us, they will DEFINITELY throw us in jail this time!",
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Whatever consequences arise from this, I shall bear myself. I will not let them punish you.",
 			painting = {
@@ -857,12 +857,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "I suppose that's– Wait, you thought even that far head?",
 			painting = {
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -985,11 +985,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Now, is everyone topped off on health?",

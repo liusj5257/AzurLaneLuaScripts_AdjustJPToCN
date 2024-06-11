@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "请根据当前任务和海域状况，来判断是否前往调查。",
 			typewriter = {
 				speed = 0.05,

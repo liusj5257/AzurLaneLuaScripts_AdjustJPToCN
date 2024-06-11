@@ -1,12 +1,12 @@
 return {
-	id = "W710038",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710038",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "这是...最后一块塞壬记忆碎片了吧...",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "借助地形避开潮汐暗流吧",
 			typewriter = {
 				speed = 0.05,

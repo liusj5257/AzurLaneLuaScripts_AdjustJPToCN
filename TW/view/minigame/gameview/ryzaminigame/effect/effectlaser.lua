@@ -1,6 +1,6 @@
 slot0 = class("EffectLaser", import("view.miniGame.gameView.RyzaMiniGame.effect.TargetEffect"))
 
-function slot0.GetBaseOrder(slot0)
+slot0.GetBaseOrder = function(slot0)
 	if slot0.mark == "N" then
 		return uv0.super.GetBaseOrder(slot0)
 	else
@@ -8,7 +8,7 @@ function slot0.GetBaseOrder(slot0)
 	end
 end
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	slot0.mark = slot1.mark
 
 	slot0:UpdatePos(slot0.pos)
@@ -28,7 +28,7 @@ function slot0.InitUI(slot0, slot1)
 	end
 end
 
-function slot0.GetCollideRange(slot0)
+slot0.GetCollideRange = function(slot0)
 	switch(slot0.mark, {
 		N = function ()
 			uv0 = {

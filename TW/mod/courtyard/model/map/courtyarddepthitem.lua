@@ -1,6 +1,6 @@
 slot0 = class("CourtYardDepthItem", import("...CourtYardDispatcher"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.ob = {
@@ -24,7 +24,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.area = {}
 end
 
-function slot0.GetInitSize(slot0)
+slot0.GetInitSize = function(slot0)
 	return {
 		{
 			slot0.sizeX,
@@ -33,43 +33,43 @@ function slot0.GetInitSize(slot0)
 	}
 end
 
-function slot0.GetInitSizeCnt(slot0)
+slot0.GetInitSizeCnt = function(slot0)
 	slot1 = slot0:GetInitSize()[1]
 
 	return slot1[1] * slot1[2]
 end
 
-function slot0.GetObjType(slot0)
+slot0.GetObjType = function(slot0)
 	assert(false)
 end
 
-function slot0.GetOffset(slot0)
+slot0.GetOffset = function(slot0)
 	assert(false)
 end
 
-function slot0.UpdateOpFlag(slot0, slot1)
+slot0.UpdateOpFlag = function(slot0, slot1)
 	slot0.opFlag = slot1
 end
 
-function slot0.GetOpFlag(slot0)
+slot0.GetOpFlag = function(slot0)
 	return slot0.opFlag
 end
 
-function slot0.InActivityRange(slot0, slot1)
+slot0.InActivityRange = function(slot0, slot1)
 	return true
 end
 
-function slot0.GetDeathType(slot0)
+slot0.GetDeathType = function(slot0)
 	assert(false)
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	slot0:SetDirty()
 	slot0:SetPos(slot1.x + 1, slot1.y + 1)
 	slot0:ReGenArea()
 end
 
-function slot0.SetDir(slot0, slot1)
+slot0.SetDir = function(slot0, slot1)
 	slot0:SetDirty()
 
 	if slot1 == 2 then
@@ -85,11 +85,11 @@ function slot0.SetDir(slot0, slot1)
 	slot0:SetPosition(slot0:GetPosition())
 end
 
-function slot0.GetDirection(slot0)
+slot0.GetDirection = function(slot0)
 	return slot0.dir
 end
 
-function slot0.GetNormalDirection(slot0)
+slot0.GetNormalDirection = function(slot0)
 	if slot0.dir == 1 then
 		return 1
 	end
@@ -99,32 +99,32 @@ function slot0.GetNormalDirection(slot0)
 	end
 end
 
-function slot0.ReGenArea(slot0)
+slot0.ReGenArea = function(slot0)
 	table.clear(slot0.area)
 
 	slot0.area = slot0:GetAreaByPosition(slot0:GetPosition())
 end
 
-function slot0.GetPosition(slot0)
+slot0.GetPosition = function(slot0)
 	return Vector2(slot0.posX - 1, slot0.posY - 1)
 end
 
-function slot0.SetPos(slot0, slot1, slot2)
+slot0.SetPos = function(slot0, slot1, slot2)
 	slot0.posX = slot1
 	slot0.posY = slot2
 	slot0.maxX = slot1 + slot0.sizeX - 1
 	slot0.maxY = slot2 + slot0.sizeY - 1
 end
 
-function slot0.SetDepth(slot0, slot1)
+slot0.SetDepth = function(slot0, slot1)
 	slot0.posZ = slot1
 end
 
-function slot0.GetArea(slot0)
+slot0.GetArea = function(slot0)
 	return slot0.area
 end
 
-function slot0.GetAreaByPosition(slot0, slot1)
+slot0.GetAreaByPosition = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = slot1.x, slot1.x + slot0.sizeX - 1 do
@@ -136,7 +136,7 @@ function slot0.GetAreaByPosition(slot0, slot1)
 	return slot2
 end
 
-function slot0._GetRotatePositions(slot0, slot1)
+slot0._GetRotatePositions = function(slot0, slot1)
 	slot3 = slot0.sizeX
 	slot4 = {}
 
@@ -149,43 +149,43 @@ function slot0._GetRotatePositions(slot0, slot1)
 	return slot4
 end
 
-function slot0.GetRotatePositions(slot0)
+slot0.GetRotatePositions = function(slot0)
 	return slot0:_GetRotatePositions(slot0:GetPosition())
 end
 
-function slot0.SetDirty(slot0)
+slot0.SetDirty = function(slot0)
 	slot0.dirty = true
 end
 
-function slot0.UnDirty(slot0)
+slot0.UnDirty = function(slot0)
 	slot0.dirty = false
 end
 
-function slot0.IsDirty(slot0)
+slot0.IsDirty = function(slot0)
 	return slot0.dirty
 end
 
-function slot0.Interaction(slot0, slot1)
+slot0.Interaction = function(slot0, slot1)
 end
 
-function slot0.ClearInteraction(slot0, slot1)
+slot0.ClearInteraction = function(slot0, slot1)
 end
 
-function slot0.SetParent(slot0, slot1)
+slot0.SetParent = function(slot0, slot1)
 	slot0:SetDirty()
 
 	slot0.parent = slot1
 end
 
-function slot0.HasParent(slot0)
+slot0.HasParent = function(slot0)
 	return slot0.parent ~= nil
 end
 
-function slot0.GetParent(slot0)
+slot0.GetParent = function(slot0)
 	return slot0.parent
 end
 
-function slot0.GetAroundPositions(slot0)
+slot0.GetAroundPositions = function(slot0)
 	slot1 = slot0:GetPosition()
 
 	return {
@@ -196,19 +196,19 @@ function slot0.GetAroundPositions(slot0)
 	}
 end
 
-function slot0.MarkPosition(slot0, slot1)
+slot0.MarkPosition = function(slot0, slot1)
 	slot0.markPosition = slot1
 end
 
-function slot0.GetMarkPosition(slot0)
+slot0.GetMarkPosition = function(slot0)
 	return slot0.markPosition
 end
 
-function slot0.ClearMarkPosition(slot0)
+slot0.ClearMarkPosition = function(slot0)
 	slot0.markPosition = nil
 end
 
-function slot0.GetOffset(slot0)
+slot0.GetOffset = function(slot0)
 	if slot0:HasParent() then
 		return slot0.parent:RawGetOffset()
 	else
@@ -216,23 +216,23 @@ function slot0.GetOffset(slot0)
 	end
 end
 
-function slot0.UnClear(slot0, slot1)
+slot0.UnClear = function(slot0, slot1)
 	slot0.unClear = slot1
 end
 
-function slot0.IsUnClear(slot0)
+slot0.IsUnClear = function(slot0)
 	return slot0.unClear
 end
 
-function slot0.RawGetOffset(slot0)
+slot0.RawGetOffset = function(slot0)
 	return Vector3.zero
 end
 
-function slot0.IsDifferentDirection(slot0, slot1)
+slot0.IsDifferentDirection = function(slot0, slot1)
 	return slot0.dir ~= ((slot1.x < slot0:GetPosition().x and slot1.y == slot2.y or slot1.x == slot2.x and slot2.y < slot1.y) and 2 or 1)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:ClearListeners()
 end
 

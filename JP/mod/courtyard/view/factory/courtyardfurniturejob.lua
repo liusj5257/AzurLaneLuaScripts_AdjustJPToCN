@@ -3,18 +3,18 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.poolMgr = slot1
 	slot0.state = uv0
 	slot0.callback = slot2
 	slot0.rollBacks = {}
 end
 
-function slot0.IsWorking(slot0)
+slot0.IsWorking = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.InstantiateObj(slot0, slot1, slot2)
+slot0.InstantiateObj = function(slot0, slot1, slot2)
 	slot3 = Object.Instantiate(slot1, slot2)
 
 	table.insert(slot0.rollBacks, slot3)
@@ -22,7 +22,7 @@ function slot0.InstantiateObj(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.CloneTplTo(slot0, slot1, slot2, slot3)
+slot0.CloneTplTo = function(slot0, slot1, slot2, slot3)
 	slot4 = Object.Instantiate(slot1, slot2).transform
 
 	if slot3 then
@@ -32,7 +32,7 @@ function slot0.CloneTplTo(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.Work(slot0, slot1, slot2)
+slot0.Work = function(slot0, slot1, slot2)
 	slot0.id = slot2.id
 
 	if slot1:IsExit() then
@@ -45,7 +45,7 @@ function slot0.Work(slot0, slot1, slot2)
 	slot3 = slot1._tf
 	slot0.module = slot1
 
-	function slot4()
+	slot4 = function()
 		if uv0:IsExit() then
 			uv1:FinishWork(false)
 		else
@@ -54,7 +54,7 @@ function slot0.Work(slot0, slot1, slot2)
 		end
 	end
 
-	function slot5()
+	slot5 = function()
 		uv0:OnIconLoaed()
 	end
 
@@ -67,7 +67,7 @@ function slot0.Work(slot0, slot1, slot2)
 	end
 end
 
-function slot4(slot0, slot1, slot2, slot3)
+slot4 = function(slot0, slot1, slot2, slot3)
 	slot4 = ResourceMgr.Inst
 
 	slot4:getAssetAsync("furnitrues/" .. slot2:GetPicture(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -90,7 +90,7 @@ function slot4(slot0, slot1, slot2, slot3)
 	end), true, true)
 end
 
-function slot5(slot0, slot1, slot2, slot3)
+slot5 = function(slot0, slot1, slot2, slot3)
 	slot5 = {}
 
 	for slot9, slot10 in pairs(slot2:GetMaskNames()) do
@@ -119,7 +119,7 @@ function slot5(slot0, slot1, slot2, slot3)
 	seriesAsync(slot5, slot3)
 end
 
-function slot6(slot0, slot1, slot2, slot3)
+slot6 = function(slot0, slot1, slot2, slot3)
 	slot5 = slot0.poolMgr.root:Find("mask")
 
 	for slot9, slot10 in pairs(slot2:GetBodyMasks()) do
@@ -135,9 +135,9 @@ function slot6(slot0, slot1, slot2, slot3)
 	slot3()
 end
 
-function slot7(slot0, slot1, slot2, slot3)
+slot7 = function(slot0, slot1, slot2, slot3)
 	if slot2:GetType() == Furniture.TYPE_ARCH then
-		if not PathMgr.FileExists(PathMgr.getAssetBundle("furnitrues/" .. slot2:GetArchMask())) then
+		if not checkABExist("furnitrues/" .. slot2:GetArchMask()) then
 			slot3()
 
 			return
@@ -164,7 +164,7 @@ function slot7(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot8(slot0, slot1, slot2, slot3)
+slot8 = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2:GetFirstSlot()
 	slot5 = ResourceMgr.Inst
 
@@ -187,7 +187,7 @@ function slot8(slot0, slot1, slot2, slot3)
 	end), true, true)
 end
 
-function slot9(slot0, slot1, slot2, slot3)
+slot9 = function(slot0, slot1, slot2, slot3)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot2:GetMaskNames()) do
@@ -214,7 +214,7 @@ function slot9(slot0, slot1, slot2, slot3)
 	seriesAsync(slot5, slot3)
 end
 
-function slot10(slot0, slot1, slot2, slot3)
+slot10 = function(slot0, slot1, slot2, slot3)
 	if slot2:GetAnimatorMask() then
 		slot6 = slot0:CloneTplTo(slot0.poolMgr.root:Find("mask"), slot1:Find("interaction"), "animtor_mask")
 		slot6.sizeDelta = slot4.size
@@ -251,7 +251,7 @@ function slot10(slot0, slot1, slot2, slot3)
 	parallelAsync(slot5, slot3)
 end
 
-function slot0.Load(slot0, slot1, slot2, slot3, slot4)
+slot0.Load = function(slot0, slot1, slot2, slot3, slot4)
 	seriesAsync({
 		function (slot0)
 			uv0(uv1, uv2.transform, uv3, slot0)
@@ -271,7 +271,7 @@ function slot0.Load(slot0, slot1, slot2, slot3, slot4)
 	}, slot3)
 end
 
-function slot0.LoadSpine(slot0, slot1, slot2, slot3, slot4)
+slot0.LoadSpine = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.working = true
 
 	seriesAsync({
@@ -293,7 +293,7 @@ function slot0.LoadSpine(slot0, slot1, slot2, slot3, slot4)
 	}, slot3)
 end
 
-function slot0.AdjustModel(slot0, slot1, slot2, slot3)
+slot0.AdjustModel = function(slot0, slot1, slot2, slot3)
 	slot1.pivot = slot3
 	slot1.sizeDelta = slot2
 	slot1:Find("interaction").pivot = slot3
@@ -303,7 +303,7 @@ function slot0.AdjustModel(slot0, slot1, slot2, slot3)
 	slot4.anchorMax = slot3
 end
 
-function slot0.FinishWork(slot0, slot1)
+slot0.FinishWork = function(slot0, slot1)
 	if slot1 then
 		slot0.rollBacks = {}
 	else
@@ -319,7 +319,7 @@ function slot0.FinishWork(slot0, slot1)
 	slot0.module = nil
 end
 
-function slot0.RollBackLoaded(slot0)
+slot0.RollBackLoaded = function(slot0)
 	for slot4 = #slot0.rollBacks, 1, -1 do
 		if not IsNil(slot0.rollBacks[slot4]) then
 			Object.Destroy(slot5)
@@ -329,18 +329,18 @@ function slot0.RollBackLoaded(slot0)
 	slot0.rollBacks = {}
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	slot0.state = uv0
 	slot0.callback = nil
 end
 
-function slot0.OnStop(slot0)
+slot0.OnStop = function(slot0)
 	if slot0.state ~= uv0 then
 		slot0:FinishWork(false)
 	end
 end
 
-function slot0.IsStop(slot0)
+slot0.IsStop = function(slot0)
 	return slot0.state == uv0 or slot0.module and slot0.module:IsExit()
 end
 

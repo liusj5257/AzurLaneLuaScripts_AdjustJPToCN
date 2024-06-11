@@ -1,17 +1,17 @@
 return {
-	id = "HUANGJINDEMIBAO3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUANGJINDEMIBAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 100000,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Buli!!!",
 			dir = 1,
 			bgm = "level03",
+			actor = 100000,
+			nameColor = "#a9f548",
+			say = "Buli!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -42,8 +42,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -54,8 +54,8 @@ return {
 		{
 			actor = 100000,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "Then let's try this! My ultimate buli!",
 			dialogShake = {
 				speed = 0.09,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Universal Bulin",
+			side = 2,
 			bgName = "bg_bigbuli",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Buli?! It's, it's so buli!!",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Trial Bulin MKII",
+			side = 2,
 			bgName = "bg_bigbuli",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Trial Bulin MKII",
+			side = 2,
 			bgName = "bg_bigbuli",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "Warning. System anomaly nya. Warning.",
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "Self-destruct sequence inyatiated. Countdown commencing nya. 10, 9, 8...",
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "7, 6, 5...",
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "4, 3, 2...",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "1, 0 nya!",
@@ -330,14 +330,14 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Buli!!!",
+			bgName = "bg_story_room",
 			bgm = "story-1",
+			actor = 100000,
+			nameColor = "#a9f548",
+			say = "Buli!!!",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -415,8 +415,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Note",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -463,15 +463,15 @@ return {
 			}
 		},
 		{
-			actor = 100001,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100001,
+			nameColor = "#a9f548",
 			say = "Wooaahhh! It's just like my sister buli! I gotta go find her! I'm gonna bulibuli as hard as I can today~!~！",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -496,8 +496,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

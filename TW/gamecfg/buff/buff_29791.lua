@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行15次攻击，触发专属弹幕-布里斯托尔I",
 	name = "专属弹幕-布里斯托尔I",
 	init_effect = "",
+	id = 29791,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行15次攻击，触发专属弹幕-布里斯托尔I",
 	stack = 1,
-	id = 29791,
+	color = "red",
 	icon = 29790,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29791,
+				target = "TargetSelf",
 				countType = 29790
 			}
 		}

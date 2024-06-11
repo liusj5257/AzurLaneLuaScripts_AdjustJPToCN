@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN24",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？·？？？",
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "deepblue-image",
+			hidePaintObj = true,
+			say = "？？？·？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -104,10 +104,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307080,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "이렇게 기묘한 광경은 처음 본다.",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "일시정지를 누른 비디오 같은 느낌이야...",
 			typewriter = {
 				speed = 0.05,
@@ -137,12 +137,12 @@ return {
 			}
 		},
 		{
-			actor = 103140,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "엄청나...! 세이렌이 통신기에만 수작을 부린 걸로 생각했는데, 이렇게 실감 나는 광경을 만들었을 줄이야!",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "장기말이 서로를 죽이고 있어... 세이렌은 뒤에서 계속 이런 짓을 한 걸까...",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 4,
+			blackBg = true,
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -257,10 +257,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			hidePaintObj = true,
 			say = "역시나 밀실의 일은 꿈처럼 간단한 것이 아닌가...",
 			flashout = {
 				dur = 0.15,
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "샌프란시스코, 이런 건 쉽게 볼 수 있는 일이 아니야! 가자, 가까이 가서 보자!",
 			typewriter = {
 				speed = 0.05,
@@ -306,15 +306,15 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_luoxuan_5",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "헤헤헤헤, 이게 사쿠라 엠파이어 히류구나. 진짜 멈춰있네. 나를 봐도 전혀 반응이 없어.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -342,10 +342,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그 옆에 있는 것은——",
 			typewriter = {
 				speed = 0.05,
@@ -450,10 +450,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관, 지휘관! 이렇게 가까이서 사쿠라 엠파이어 항공모함을 본 건 처음이야!",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -475,12 +475,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "함재기 수납 방식이나 기술이 우리랑 많이 다르네! 영화처럼 마법에 걸린 것 같아!",
 			typewriter = {
 				speed = 0.05,
@@ -492,12 +492,12 @@ return {
 			}
 		},
 		{
-			actor = 103140,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "우와! 진짜다! ...어떤 함재기는 이 상태로 멈춰있어...",
 			typewriter = {
 				speed = 0.05,
@@ -512,10 +512,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "헤헤, 기념품으로 하나 가져갈까—",
 			typewriter = {
 				speed = 0.05,
@@ -530,10 +530,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "......아, 꿈쩍도 안 해!",
 			typewriter = {
 				speed = 0.05,
@@ -578,10 +578,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "오래 기다렸지, 처리할 일이 조금 있었어.",
 			typewriter = {
@@ -597,11 +597,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "시간이 없어. 시나노, 대답해—— 넌 지휘관을 어떻게 생각해?",
 			typewriter = {
@@ -636,11 +636,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "깨어난 이후에도 오늘 일어났던 일을 잊지 마.",
 			typewriter = {
@@ -675,11 +675,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "응. 이제 이곳을 '개조'할 거야.",
 			typewriter = {
@@ -695,10 +695,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "네 꿈의 구체적인 원리는 모르겠지만, '개조'로 인한 충격은 네 간섭을 무너뜨릴 거야.",
 			typewriter = {
@@ -714,11 +714,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "그렇다면 꿈도 이어지지 않겠지.",
 			typewriter = {
@@ -753,11 +753,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "미안.",
 			typewriter = {
@@ -773,11 +773,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "그리고 나머지는, 지금 위치가... 그래, 확인했어. 그 자리에 서서 절대 움직이지 마.",
 			typewriter = {
@@ -793,11 +793,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "셋, 둘, 하나——————",
 			typewriter = {
@@ -810,13 +810,13 @@ return {
 			}
 		},
 		{
-			say = "펑————————!",
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
+			say = "펑————————!",
 			flashN = {
 				color = {
 					1,

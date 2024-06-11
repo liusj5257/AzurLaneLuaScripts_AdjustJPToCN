@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 100
+					number = 100,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 130
+					number = 130,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 160
+					number = 160,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 200
+					number = 200,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 230
+					number = 230,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 260
+					number = 260,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 300
+					number = 300,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 330
+					number = 330,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 360
+					number = 360,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 400
+					number = 400,
+					attr = "attackRating"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "命中提升",
 	stack = 5,
@@ -173,8 +173,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 100
+				number = 100,
+				attr = "attackRating"
 			}
 		}
 	}

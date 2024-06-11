@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900186,
 			side = 2,
 			bgName = "bg_cccp_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "敵方反應消失，大家幹得漂亮~",
 			bgm = "bgm-cccp2",
+			actor = 900186,
+			nameColor = "#a9f548",
+			say = "敵方反應消失，大家幹得漂亮~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "南達科他也覺得手感不太對勁嗎…？它們身上的紫色光霧似乎會“幫助”裝甲規避受到的傷害，增強火砲發射的威力。",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "這麼思考可就太消極了哦！",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "這就是白鷹人的自信嗎？！",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "嘿嘿~不論塞壬派出多少艦隊，我們只要一艘不漏的把它們都消滅就好！",
 			typewriter = {

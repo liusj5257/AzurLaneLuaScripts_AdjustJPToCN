@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15982,
 	time = 1,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15982,
+	color = "red",
 	icon = 15982,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				skill_id = 15984,
 				hpSigned = 0,
 				hpUpperBound = 1,
-				skill_id = 15984,
+				target = "TargetSelf",
 				hpLowerBound = 0.25
 			}
 		},
@@ -41,8 +41,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.25,
-				target = "TargetSelf",
 				skill_id = 15981,
+				target = "TargetSelf",
 				hpSigned = 0
 			}
 		},

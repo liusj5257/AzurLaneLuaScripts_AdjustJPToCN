@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN37",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN37",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg16",
+			nameColor = "#A9F548FF",
+			bgm = "theme-shinanometa",
 			stopbgm = true,
 			say = "장기판 경기장·중심 구역",
-			bgm = "theme-shinanometa",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "진츠, 관측 결과는 어떠한가?",
 			painting = {
@@ -92,8 +92,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "성공한 것 같아 보이긴 하는데… 하지만 이런 일이 이렇게 순조로울 수 있는 걸까?",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "하지만 취급된 건 메타 큐브뿐이잖아…. 이렇게 강렬한 에너지 흐름을 견디며 아카기의 '기초'를 구성하고 있는 큐브라면 어떨까?",
 			painting = {
@@ -174,8 +174,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "그럼 이 기술의 본질은 META화를 무해하게 만드는 것이 아닌 META화 함선의 사용 기간을 최대한 늘리는 정도라는 거네….",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "넌 어떻게 META화 된 거지?",
 			painting = {
@@ -232,8 +232,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "네 그 형편없는 몸도 이 '중간 과정'과 관련이 있는 건가?",
 			painting = {
@@ -273,8 +273,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "넌 줄곧 최종 병기의 용도를 강조해왔어.",
 			painting = {
@@ -290,8 +290,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "너희에겐 최종 병기가 있었는데도 불구하고 왜 진 거지?",
 			painting = {
@@ -343,8 +343,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "…네 말은 익숙하고 듣고 있으면 뭔가 안심하게 돼.",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "너무 위험한 것 같군. 대체 네 목적은 뭐지? 왜 날 도와주려는 거야?",
 			painting = {

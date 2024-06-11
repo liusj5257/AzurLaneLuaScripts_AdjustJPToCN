@@ -1,13 +1,13 @@
 slot0 = class("ServerInterconnectionCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = getProxy(UserProxy)
 
 	slot5:SetDefaultGateway()
 	slot5:ActiveGatewaySwitcher()
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		NetConst.GATEWAY_HOST = slot0.host
 		NetConst.GATEWAY_PORT = slot0.port
 		NetConst.PROXY_GATEWAY_HOST = slot0.proxyHost
@@ -39,7 +39,7 @@ function slot0.execute(slot0, slot1)
 	})
 end
 
-function slot0.GetGateWayByServer(slot0, slot1, slot2)
+slot0.GetGateWayByServer = function(slot0, slot1, slot2)
 	slot3 = pg.ConnectionMgr.GetInstance()
 
 	slot3:Connect(NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT, function ()

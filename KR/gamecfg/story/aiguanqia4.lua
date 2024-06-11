@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA4",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA4",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900179,
@@ -23,8 +23,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "짜잔~! 아카시쨩한테 받은 '시제형 장비 제조 장치'로, 제 전용 장비를 장착했습니다~! 이제 나도 모두와 같이 싸울 수 있다구~!",
 			flashN = {
 				color = {
@@ -164,8 +164,8 @@ return {
 			expression = 6,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "(이, 이렇게나 칭찬 받다니…! 기, 기분 좋은 걸!?)",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "뭐어, 홀로그램이란 것도 결국은 데이터니까, 지금은 알몸이나 마찬가지네~",
 			typewriter = {
 				speed = 0.05,
@@ -225,9 +225,9 @@ return {
 		{
 			expression = 6,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "헉! 이런 말 하면 나 때문에 벽람까지 밴 먹는 거 아냐!? 미안! 지금 말은 듣지 않은 걸로 해줘!",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "……어라? 옷이 바뀌지 않아!? 왜지???",
 			flashN = {
 				color = {
@@ -344,9 +344,9 @@ return {
 		{
 			expression = 5,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "그럴 수가~!? 어떡하지, 엄청 마음에 들었는데~~~!",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,10 +428,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "투쾅~!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -476,9 +476,9 @@ return {
 		{
 			expression = 6,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "꺄아아아아! 기껏 기합 새로 넣고 이제부터 힘내자~하고 있었는데, 대체 뭐야!?",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -518,8 +518,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "가짜 키즈나 아이",
 			say = "………",
 			typewriter = {

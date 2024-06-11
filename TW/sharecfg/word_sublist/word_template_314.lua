@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_314 = {}
 slot1 = slot0.word_template_314
 
-function temp()
+temp = function()
 	uv0["誶"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["碎"] = {
 		["片"] = {
 			["製"] = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["孫"] = {
 		["大"] = {
 			["千"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["他"] = {
 		["媽"] = {
 			this = true,

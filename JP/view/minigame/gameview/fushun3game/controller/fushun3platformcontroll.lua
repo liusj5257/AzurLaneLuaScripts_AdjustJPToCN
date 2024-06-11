@@ -1,6 +1,6 @@
 slot0 = class("Fushun3PlatformControll")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._tplTf = slot2
 	slot0._content = slot3
 	slot0._event = slot4
@@ -11,7 +11,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.createDatas = nil
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0.moveDistance = 0
 	slot0.fillDistance = 0
 	slot0.level = 0
@@ -46,7 +46,7 @@ function slot0.start(slot0)
 	slot0:changePlatformShow(false)
 end
 
-function slot0.updateCreateData(slot0)
+slot0.updateCreateData = function(slot0)
 	slot0.createDatas = {}
 	slot0._weightTotal = 0
 
@@ -61,7 +61,7 @@ function slot0.updateCreateData(slot0)
 	end
 end
 
-function slot0.fillPlatform(slot0)
+slot0.fillPlatform = function(slot0)
 	if slot0.fillDistance < slot0.moveDistance + Fushun3GameConst.platform_distance then
 		if slot0:getPlatform().high then
 			setActive(findTF(slot1.tf, "high_roof"), true)
@@ -94,7 +94,7 @@ function slot0.fillPlatform(slot0)
 	end
 end
 
-function slot0.getPlatform(slot0)
+slot0.getPlatform = function(slot0)
 	slot1 = nil
 
 	if slot0.powerNum and slot0.powerNum > 0 then
@@ -133,7 +133,7 @@ function slot0.getPlatform(slot0)
 	return slot7
 end
 
-function slot0.getPowerPlatform(slot0)
+slot0.getPowerPlatform = function(slot0)
 	for slot4 = 1, 10 do
 		slot5 = slot0.initTimes and math.random(1, slot0._weightTotal) or 1
 
@@ -147,7 +147,7 @@ function slot0.getPowerPlatform(slot0)
 	return slot0:getRandomPlatform()
 end
 
-function slot0.getRandomPlatform(slot0)
+slot0.getRandomPlatform = function(slot0)
 	slot1 = slot0.initTimes and math.random(1, slot0._weightTotal) or 1
 
 	for slot5 = 1, #slot0.createDatas do
@@ -157,7 +157,7 @@ function slot0.getRandomPlatform(slot0)
 	end
 end
 
-function slot0.getPlatformFromPool(slot0, slot1)
+slot0.getPlatformFromPool = function(slot0, slot1)
 	for slot5 = 1, #slot0._platformPool do
 		if slot0._platformPool[slot5].name == slot1 then
 			return table.remove(slot0._platformPool, slot5)
@@ -167,7 +167,7 @@ function slot0.getPlatformFromPool(slot0, slot1)
 	return nil
 end
 
-function slot0.removePlatform(slot0)
+slot0.removePlatform = function(slot0)
 	for slot4 = #slot0._platforms, 1, -1 do
 		if slot0._platforms[slot4].anchoredX < slot0.moveDistance - Fushun3GameConst.platform_remove then
 			setActive(slot5.tf, false)
@@ -176,20 +176,20 @@ function slot0.removePlatform(slot0)
 	end
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot0.moveDistance = math.abs(slot0._sceneTf.anchoredPosition.x)
 
 	slot0:fillPlatform()
 	slot0:removePlatform()
 end
 
-function slot0.levelUp(slot0)
+slot0.levelUp = function(slot0)
 	slot0.level = slot0.level + 1
 
 	slot0:updateCreateData()
 end
 
-function slot0.updateDayNight(slot0)
+slot0.updateDayNight = function(slot0)
 	if slot0.timeFlag ~= Fushun3GameVo.GetTimeFlag() then
 		slot0.timeFlag = Fushun3GameVo.GetTimeFlag()
 
@@ -197,7 +197,7 @@ function slot0.updateDayNight(slot0)
 	end
 end
 
-function slot0.changePlatformShow(slot0, slot1)
+slot0.changePlatformShow = function(slot0, slot1)
 	for slot5 = #slot0._platforms, 1, -1 do
 		slot6 = slot0._platforms[slot5].tf
 
@@ -210,11 +210,11 @@ function slot0.changePlatformShow(slot0, slot1)
 	end
 end
 
-function slot0.onPlayerPower(slot0)
+slot0.onPlayerPower = function(slot0)
 	slot0.powerNum = 20
 end
 
-function slot0.dipose(slot0)
+slot0.dipose = function(slot0)
 end
 
 return slot0

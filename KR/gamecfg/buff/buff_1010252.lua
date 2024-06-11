@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 3000
+					number = 3000,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 3330
+					number = 3330,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 3660
+					number = 3660,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 3990
+					number = 3990,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 4320
+					number = 4320,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 4650
+					number = 4650,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 4980
+					number = 4980,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 5310
+					number = 5310,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 5640
+					number = 5640,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 6000
+					number = 6000,
+					attr = "dodgeRate"
 				}
 			}
 		}
 	},
-	time = 8,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 8,
 	picture = "",
 	desc = "自身机动上升",
 	stack = 1,
@@ -173,8 +173,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 3000
+				number = 3000,
+				attr = "dodgeRate"
 			}
 		}
 	}

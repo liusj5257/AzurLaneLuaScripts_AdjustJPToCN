@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Are you finally awake, Comrade?",
 			bgm = "deepblue-image",
+			actor = 705040,
+			nameColor = "#a9f548",
+			say = "Are you finally awake, Comrade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "...My head still feels fuzzy. Did I pass out just now?",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Only briefly. The fleet has managed to cross the Gate.",
 			typewriter = {
@@ -55,9 +55,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "That’s good... Were you the one who brought me back to the command ship?",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Unfortunately not... As soon as we crossed the gate, we were scattered across this sector, with no sign of the control room or where we came through.",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "While regrouping, we found you unconscious on the submarine.",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Hah, it’s nothing worth apologizing over. Rather, we owe you an apology for taking you into an unknown and dangerous battlefield.",
 			typewriter = {
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "It’s my fault for not working with the fleet...",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "At least, you weren’t the only one affected by passing through the Gate. Each of us experienced a short period of malaise as well.",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "Yeah, it felt like someone clubbed me hard in the head or something... Ugh, this place is weird...",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Do you think that all these strange phenomena were set up by the Sirens? ...Well, it’s best not to dwell on it. We’ve seen enough Mirror Seas to know that pretty much anything is possible.",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "The huge floaty icebergs are also totally different! Look, strange glowy lines are running through them now, just like the console when it was activated!",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "As I suspected, it was no accident that the icebergs in the Mirror Sea continued to regenerate themselves. Everything, including the icebergs, is an indispensable part of this giant city.",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "Look, the tracks above us are glowing so prettily! Imagine how fun it’d be to slide all the way down from up there!",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "Those tracks seem to provide access throughout the whole city. We’ll have the best shot of finding our bearings if we take control of it.",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "Of course, before we get pulled in too deeply, we should at least find our way back to the control room, just so we have an exit strategy.",
 			typewriter = {
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "Agreed. Unfortunately, we don’t have the luxury of aerial reconnaissance here, so we’ll have to gather whatever information we can while looking for a way back.",
 			typewriter = {
 				speed = 0.05,

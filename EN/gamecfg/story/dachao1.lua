@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Gentle and Sweet Ooshio!\n\n<size=45>Ooshio the Secretary</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "It was an ordinary morning. The cool sea breeze was blowing, the sun was gently rising, and the port was wrapped in silence.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,9 +44,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "In the distance one could see the silhouette of a young girl walking with a cheerful gait, heading towards the Commander's office.",
 			typewriter = {
 				speed = 0.05,
@@ -54,15 +54,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -83,9 +83,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I opened the door to my office and—",
 			typewriter = {
 				speed = 0.05,
@@ -93,9 +93,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "What the...?",
 			dialogShake = {
 				speed = 0.09,
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "This place was a mess when I went home yesterday, but someone had thoroughly cleaned it up. It almost looked like a newly built apartment ready for an occupant.",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Even the air smelled fresher than it usually did because all the furniture had been polished to a mirror sheen.",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "And in the center of the room was a young girl, silently standing around.",
 			typewriter = {
 				speed = 0.05,
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "As she greeted me, she left her broom on a shelf nearby.",
 			typewriter = {
 				speed = 0.05,
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I sat down in my chair as Ooshio served me coffee and some biscuits.",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It seemed like Ooshio was going to spoil me rotten before I could even start working.",
 			typewriter = {
 				speed = 0.05,
@@ -264,12 +264,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "I reckon we'll be spendin' a lotta time together from now on♪ Hope I can be of use to ya~",
 			typewriter = {
 				speed = 0.05,

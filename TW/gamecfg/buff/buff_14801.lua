@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.04
+					number = 0.04,
+					attr = "cri"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 400
+					number = 400,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.046
+					number = 0.046,
+					attr = "cri"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 460
+					number = 460,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.052
+					number = 0.052,
+					attr = "cri"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 520
+					number = 520,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.06
+					number = 0.06,
+					attr = "cri"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 600
+					number = 600,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.066
+					number = 0.066,
+					attr = "cri"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 660
+					number = 660,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.072
+					number = 0.072,
+					attr = "cri"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 720
+					number = 720,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.08
+					number = 0.08,
+					attr = "cri"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 800
+					number = 800,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.086
+					number = 0.086,
+					attr = "cri"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 860
+					number = 860,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.092
+					number = 0.092,
+					attr = "cri"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 920
+					number = 920,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -243,20 +243,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1000
+					number = 1000,
+					attr = "attackRating"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 14801,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14801,
+	color = "yellow",
 	icon = 14800,
 	last_effect = "",
 	blink = {
@@ -274,8 +274,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.04
+				number = 0.04,
+				attr = "cri"
 			}
 		},
 		{
@@ -284,8 +284,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 400
+				number = 400,
+				attr = "attackRating"
 			}
 		}
 	}

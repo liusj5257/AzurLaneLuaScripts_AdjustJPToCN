@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・4ターン目（三笠）",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "私たちが長門さまを援護するのを防ぐ魂胆か",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "「拠点」を落としたばかりというのに、ずいぶんとせっかちな動きをするようだ",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "でもまずくないっすか？こちらはまだ「祭儀の島」の攻略が終わってないっすよ",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "三笠大先輩から言われましてよ。「くれてやろう」と",
 			painting = {
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg9",
 			say = "演習海域の地図を確認しながら、金剛は三笠から送られた連絡内容――指示内容を説明していく。",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "中央拠点に近い拠点を攻略できても、もっと西にある拠点を落とす余力はなさそうですわね",
 			painting = {
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "なぜだ？あてたちが「祭儀の島」に戦力を集中しているのは赤城さんも知っているはずだぞ？",
 			painting = {
@@ -231,8 +231,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "しかし攻略したところで、私たちが「祭儀の島」から反転してその戦力を攻撃したら各個撃破されてしまう",
 			painting = {
@@ -344,8 +344,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "やる気は「拠点」に向けて、ほかの艦船に気を配るってことっすね",
 			painting = {
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "さっきの偵察で分かったけど、「祭儀の島」の拠点の守りはオミッター…のスペアボディっす",
 			painting = {
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "コンパイラーと違って攻撃偏重のセイレーンだけど、中々の強敵っすね…私たちだけでどうにかしないと",
 			painting = {
@@ -427,8 +427,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "ふふ、金剛型戦艦の栄光轟く一番艦の力、侮らせはしませんわ！",
 			painting = {
@@ -444,8 +444,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "先陣は私が切りますわ！「祭儀の島」の攻略後、赤城さんの隊に向かって反転よ！",
 			painting = {

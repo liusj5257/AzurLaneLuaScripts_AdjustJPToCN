@@ -8,7 +8,7 @@ slot2 = {
 	"fuluoxiluofu"
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD/mask")
 	slot0.countTF = slot0:findTF("rightPanel/count", slot0.bg)
 	slot0.itemTpl = slot0:findTF("itemTpl", slot0.bg)
@@ -26,13 +26,13 @@ function slot0.OnInit(slot0)
 	slot0.paintingTfs = {}
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskList = slot0.activity:getConfig("config_data")
 	slot0.totalCnt = #slot0.taskList
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.usedCnt = slot0.activity:getData1()
 	slot0.unlockCnt = pg.TimeMgr.GetInstance():DiffDay(slot0.activity:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1
 	slot0.unlockCnt = slot0.unlockCnt * tonumber(slot0.activity:getConfig("config_id"))
@@ -85,7 +85,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:selectedChange(slot1)
 end
 
-function slot0.selectedChange(slot0, slot1)
+slot0.selectedChange = function(slot0, slot1)
 	for slot5 = 1, #slot0.itemTfs do
 		setActive(slot0.itemTfs[slot5], slot5 == slot1)
 		setActive(findTF(slot0.paintingTfs[slot5], "name"), slot5 == slot1)
@@ -109,7 +109,7 @@ function slot0.selectedChange(slot0, slot1)
 	slot0.selectedIndex = slot1
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.taskList) do
@@ -148,7 +148,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:updateUI()
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	for slot4 = 1, #slot0.itemTfs do
 		slot7 = slot0:findTF("item", slot0.itemTfs[slot4])
 		slot12 = slot8 == 2
@@ -163,16 +163,16 @@ function slot0.updateUI(slot0)
 	end
 end
 
-function slot0.OnLoadLayers(slot0)
+slot0.OnLoadLayers = function(slot0)
 end
 
-function slot0.OnRemoveLayers(slot0)
+slot0.OnRemoveLayers = function(slot0)
 end
 
-function slot0.OnShowFlush(slot0)
+slot0.OnShowFlush = function(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

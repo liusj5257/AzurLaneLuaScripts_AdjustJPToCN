@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_331 = {}
 slot1 = slot0.word_template_331
 
-function temp()
+temp = function()
 	uv0["娱"] = {
 		["乐"] = {
 			["城"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["愚"] = {
 		["民"] = {
 			["教"] = {
@@ -62,7 +62,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["舆"] = {
 		["论"] = {
 			["钳"] = {
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["漁"] = {
 		["夫"] = {
 			["菲"] = {
@@ -92,7 +92,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["輿"] = {
 		["論"] = {
 			this = true,
@@ -107,7 +107,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["与"] = {
 		["裙"] = {
 			["中"] = {
@@ -195,7 +195,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宇"] = {
 		["明"] = {
 			["网"] = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"正月の祝福\n\n<size=45>三 雪の大乱闘</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・ドック",
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "母港・ドック",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "はぁぁぁ！雪玉斉射をくらえ！",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			say = "さすがはロイヤルの最も信頼する盟友。ならば、こいつはどうだ！",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "さすがはロイヤルの最も信頼する盟友。ならば、こいつはどうだ！",
+			actor = 205060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "あぅうう……や、やられた……",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "え、ええ……？ただの雪合戦なのに、SGまで……",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
+			say = "クリーブランド……そんなに力入れて投げたら肩をケガしちゃうわよ…？",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "クリーブランド……そんなに力入れて投げたら肩をケガしちゃうわよ…？",
+			actor = 102050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 307022,
+			say = "ほぉ…まさかここでロイヤルとユニオンに会うとは……ふふふ、どうやらこの戦い、楽しめそうだ",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "ほぉ…まさかここでロイヤルとユニオンに会うとは……ふふふ、どうやらこの戦い、楽しめそうだ",
+			actor = 307022,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -413,11 +413,11 @@ return {
 			}
 		},
 		{
-			actor = 301601,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301601,
 			actorName = "駆逐艦たち",
 			say = "えいえいおー！",
 			subActors = {
@@ -444,13 +444,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
+			dir = 1,
 			say = "雪合戦が続いた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -475,11 +475,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "ふぇええ…雪だるまになっちゃいそうだよぉ……",
 			typewriter = {
 				speed = 0.05,
@@ -491,8 +491,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -565,12 +565,12 @@ return {
 			}
 		},
 		{
-			actor = 205060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205060,
+			nameColor = "#a9f548",
 			say = "重桜のお正月、か………",
 			typewriter = {
 				speed = 0.05,

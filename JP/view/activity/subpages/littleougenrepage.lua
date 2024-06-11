@@ -1,6 +1,6 @@
 slot0 = class("LittleOuGenRePage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.heartTpl = slot0:findTF("HeartTpl", slot0.bg)
@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2 = slot0.ptData:GetLevelProgress()
@@ -63,7 +63,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:updateTaskUI()
 end
 
-function slot0.updataTask(slot0)
+slot0.updataTask = function(slot0)
 	for slot4, slot5 in ipairs(slot0.taskGroups) do
 		for slot9, slot10 in ipairs(slot5.tasks) do
 			slot11 = slot0.taskProxy:getFinishTaskById(slot10.id) and 1 or 0
@@ -89,7 +89,7 @@ function slot0.updataTask(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.battleBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LEVEL)
@@ -99,7 +99,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:updateTaskUI()
 end
 
-function slot0.initTask(slot0)
+slot0.initTask = function(slot0)
 	slot0.missionTpl = findTF(slot0.bg, "missionTpl")
 
 	setActive(slot0.missionTpl, false)
@@ -124,7 +124,7 @@ function slot0.initTask(slot0)
 	end
 end
 
-function slot0.updateTaskUI(slot0)
+slot0.updateTaskUI = function(slot0)
 	slot1 = 0
 
 	for slot5 = 1, #slot0.taskGroups do
@@ -157,7 +157,7 @@ function slot0.updateTaskUI(slot0)
 	end
 end
 
-function slot0.updateTaskList(slot0, slot1, slot2, slot3, slot4)
+slot0.updateTaskList = function(slot0, slot1, slot2, slot3, slot4)
 	if not slot3.show then
 		return
 	end
@@ -260,7 +260,7 @@ function slot0.updateTaskList(slot0, slot1, slot2, slot3, slot4)
 	slot3.tf:SetSiblingIndex(slot2)
 end
 
-function slot0.changeGroupOpening(slot0, slot1)
+slot0.changeGroupOpening = function(slot0, slot1)
 	slot1.opening = not slot1.opening
 
 	for slot5 = 1, #slot1.tasks do
@@ -285,7 +285,7 @@ function slot0.changeGroupOpening(slot0, slot1)
 	slot0:updateTaskUI()
 end
 
-function slot0.getTaskTfFromPool(slot0)
+slot0.getTaskTfFromPool = function(slot0)
 	if #slot0.taskTplPool > 0 then
 		return table.remove(slot0.taskTplPool, 1)
 	end
@@ -297,7 +297,7 @@ function slot0.getTaskTfFromPool(slot0)
 	return slot1
 end
 
-function slot0.getTaskGroup(slot0, slot1, slot2)
+slot0.getTaskGroup = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0.taskGroups do
 		if slot0.taskGroups[slot6].type == slot1 and slot7.subType == slot2 then
 			return slot7
@@ -305,8 +305,8 @@ function slot0.getTaskGroup(slot0, slot1, slot2)
 	end
 
 	slot3 = {
-		opening = false,
 		progress = 0,
+		opening = false,
 		type = slot1,
 		subType = slot2,
 		tasks = {}
@@ -317,7 +317,7 @@ function slot0.getTaskGroup(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.insertTaskToGroup(slot0, slot1, slot2, slot3)
+slot0.insertTaskToGroup = function(slot0, slot1, slot2, slot3)
 	for slot8 = 1, #slot3.tasks do
 		if slot4[slot8].id == slot1 then
 			return
@@ -357,7 +357,7 @@ function slot0.insertTaskToGroup(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.sortTaskGroups(slot0)
+slot0.sortTaskGroups = function(slot0)
 	for slot4, slot5 in ipairs(slot0.taskGroups) do
 		table.sort(slot5.tasks, function (slot0, slot1)
 			if slot0.finish ~= slot1.finish then
@@ -431,7 +431,7 @@ function slot0.sortTaskGroups(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if LeanTween.isTweening(go(slot0.slider)) then
 		LeanTween.cancel(go(slot0.slider))
 	end

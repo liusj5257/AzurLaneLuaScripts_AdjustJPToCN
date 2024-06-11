@@ -1,6 +1,6 @@
 slot0 = class("CourtYardMonglineInteraction", import(".CourtYardInteraction"))
 
-function slot0.DoStep(slot0)
+slot0.DoStep = function(slot0)
 	slot0.statesCnt[slot0.host.user] = 1
 	slot0.statesCnt[slot0.host.owner] = 1
 	slot0.totalUserActionCnt = #slot0.userActions
@@ -9,7 +9,7 @@ function slot0.DoStep(slot0)
 	uv0.super.DoStep(slot0)
 end
 
-function slot0.PlayUserAction(slot0)
+slot0.PlayUserAction = function(slot0)
 	if slot0.totalUserActionCnt < slot0.statesCnt[slot0.host.user] + 1 then
 		return
 	end
@@ -21,7 +21,7 @@ function slot0.PlayUserAction(slot0)
 	slot0.host:GetUser():UpdateInteraction(slot0:PackData(slot0.userActions[slot1]))
 end
 
-function slot0.PlayOwnerAction(slot0)
+slot0.PlayOwnerAction = function(slot0)
 	if slot0.totalOwnerActionCnt < slot0.statesCnt[slot0.host.owner] + 1 then
 		return
 	end
@@ -33,7 +33,7 @@ function slot0.PlayOwnerAction(slot0)
 	slot0.host:GetOwner():UpdateInteraction(slot0:PackData(slot0.ownerActions[slot1]))
 end
 
-function slot0.StepEnd(slot0, slot1)
+slot0.StepEnd = function(slot0, slot1)
 	if slot0.preheatProcess then
 		slot0:DoStep()
 
@@ -57,11 +57,11 @@ function slot0.StepEnd(slot0, slot1)
 	end
 end
 
-function slot0.IsFinishAll(slot0)
+slot0.IsFinishAll = function(slot0)
 	return slot0.totalOwnerActionCnt <= slot0.statesCnt[slot0.host.owner] and slot0.totalUserActionCnt <= slot0.statesCnt[slot0.host.user]
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	uv0.super.Clear(slot0)
 
 	slot0.statesCnt = {}

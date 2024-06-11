@@ -1,12 +1,12 @@
 return {
-	id = "XINGCHEN5",
 	mode = 3,
 	noWaitFade = true,
 	once = true,
+	id = "XINGCHEN5",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Bits of Courage \n\n<size=45>V 「Echo of Stardust」</size>",
@@ -15,14 +15,14 @@ return {
 			}
 		},
 		{
-			actor = 206030,
+			say = "Dear little Unicorn:",
 			side = 0,
 			bgName = "bg_story_star3",
 			actorName = "Stardust",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "Dear little Unicorn:",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,13 +33,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
-			side = 0,
-			actorName = "Stardust",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "I’m very happy to hear from Unicorn, I didn’t expect to have such a cute little fan.",
+			side = 0,
+			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,13 +50,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
-			side = 0,
-			actorName = "Stardust",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "I can feel Unicorn's feelings from this letter of yours.",
+			side = 0,
+			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,13 +67,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
-			side = 0,
-			actorName = "Stardust",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "And, I can tell that Unicorn really like her Commander nii-chan~",
+			side = 0,
+			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
-			side = 0,
-			actorName = "Stardust",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "The feelings you’re conveying in this letter has woken me up, certainly it cannot be wrong.",
+			side = 0,
+			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,13 +101,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
-			side = 0,
-			actorName = "Stardust",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "Let me give Unicorn a little piece of advice.",
+			side = 0,
+			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,13 +118,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
-			side = 0,
-			actorName = "Stardust",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "Bits of courage is the greatest form of magic, heehee~",
+			side = 0,
+			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,13 +135,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
-			side = 0,
-			actorName = "Stardust",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "Take a brave step forward, let Unicorn's Commander nii-chan see a different you!",
+			side = 0,
+			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,13 +152,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
-			side = 0,
-			actorName = "Stardust",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "I will cheer for you!~",
+			side = 0,
+			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,13 +169,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
+			say = "From the singer who supports you, Stardust.",
 			side = 0,
 			actorName = "Stardust",
+			blackBg = true,
+			actor = 206030,
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			blackBg = true,
-			say = "From the singer who supports you, Stardust.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

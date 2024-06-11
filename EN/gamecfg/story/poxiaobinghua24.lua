@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ffff4d",
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			say = "The auditorium's exit was not physically blocked, but I couldn't go beyond its open doors. It's as though there was an invisible barrier, locking me in here.",
 			dir = 1,
 			bgm = "bsm-2",
+			nameColor = "#ffff4d",
+			say = "The auditorium's exit was not physically blocked, but I couldn't go beyond its open doors. It's as though there was an invisible barrier, locking me in here.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Suddenly, a hologram appeared, breaking the dead silence in the frozen room.",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Those ships on the monitors, who are they?",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "What is the Revolutionary Front?",
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Who are they fighting?",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Is the enemy the Sirens?",
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Then what ARE the Sirens?",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Who is Antiochus?",
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Who is commanding this fleet?",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "What happened to those girls?",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Were they fighting to... protect something, or someone?",
@@ -394,8 +394,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Similar to what my fleet is doing, then?",
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Is there any way to leave this facility then?",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "There... isn't...?",
@@ -496,11 +496,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
+			actorName = "Recorded Voice",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			actorName = "Recorded Voice",
+			nameColor = "#ffff4d",
 			say = "<Please fight until the last light has faded.>",
 			typewriter = {
 				speed = 0.05,

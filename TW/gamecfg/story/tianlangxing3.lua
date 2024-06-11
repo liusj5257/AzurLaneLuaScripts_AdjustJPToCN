@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"天狼星改造計畫\n\n<size=45>三 女僕隊的支援</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "“為了避免她在宴會上的舉止被人看出是女僕，需要讓她對女僕應有的舉止擁有清晰的認識——”",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "“為了避免她在宴會上的舉止被人看出是女僕，需要讓她對女僕應有的舉止擁有清晰的認識——”",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -91,9 +91,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "拜託了皇家女僕隊的貝爾法斯特等人對天狼星進行指導。",
 			effects = {
 				{
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "那就拜託各位了。……為了主人……！",
 			typewriter = {
@@ -176,15 +176,15 @@ return {
 			}
 		},
 		{
-			actor = 202220,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202220,
+			nameColor = "#a9f548",
 			say = "禮儀舉止也得一併教呢",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,15 +225,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "……指揮室的掃除不要先擦地板，先整理櫃子比較好做",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -258,10 +258,10 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 202200,
 			dir = 1,
 			hideOther = true,
 			actorName = "天狼星&小貝法",
@@ -284,15 +284,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "emmm…肯特選手好像沒什麼可教的？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,8 +320,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "我可以教妳一點不會被女僕長發現的摸魚方法哦？",
 			typewriter = {
@@ -350,9 +350,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "……深深感受到了自己的不足……",
 			typewriter = {

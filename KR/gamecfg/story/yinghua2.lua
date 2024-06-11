@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -23,8 +23,8 @@ return {
 		{
 			actor = 307050,
 			side = 1,
-			dir = 1,
 			say = "그러네. 개전 이래로 돌아오지 않았으니까… 그립네…",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -83,8 +83,8 @@ return {
 		{
 			actor = 307060,
 			side = 0,
-			dir = 1,
 			say = "죄송합니다! 하지만 미카사 선배도 약한 소리를 할 때가 있으시군요. 헤헤헤.",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -134,12 +134,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "(콰쾅!)",
+			soundeffect = "event:/battle/boom2",
 			flash = {
+				wait = 0,
 				delay = 0,
 				dur = 0.5,
-				wait = 0,
 				number = 1,
 				alpha = {
 					0,

@@ -1,13 +1,13 @@
 slot0 = class("NissinFoodPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
 	slot0.startBtn = slot0:findTF("start_btn", slot0.bg)
 	slot0.cupList = slot0:findTF("cup_list", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.activity
 	slot0.hubID = slot1:getConfig("config_id")
 	slot1 = slot0.activity
@@ -24,7 +24,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = getProxy(MiniGameProxy)
 
 	eachChild(slot0.cupList, function (slot0)

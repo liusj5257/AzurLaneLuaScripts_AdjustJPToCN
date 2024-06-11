@@ -11,9 +11,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 35,
-					skill_id = 2091
+					time = 35
 				}
 			}
 		}
@@ -30,9 +30,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 33,
-					skill_id = 2091
+					time = 33
 				}
 			}
 		}
@@ -49,9 +49,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 31,
-					skill_id = 2091
+					time = 31
 				}
 			}
 		}
@@ -68,9 +68,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 29,
-					skill_id = 2091
+					time = 29
 				}
 			}
 		}
@@ -87,9 +87,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 27,
-					skill_id = 2091
+					time = 27
 				}
 			}
 		}
@@ -106,9 +106,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 25,
-					skill_id = 2091
+					time = 25
 				}
 			}
 		}
@@ -125,9 +125,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 23,
-					skill_id = 2091
+					time = 23
 				}
 			}
 		}
@@ -144,9 +144,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 21,
-					skill_id = 2091
+					time = 21
 				}
 			}
 		}
@@ -163,9 +163,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 18,
-					skill_id = 2091
+					time = 18
 				}
 			}
 		}
@@ -182,9 +182,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2091,
 					target = "TargetSelf",
-					time = 15,
-					skill_id = 2091
+					time = 15
 				}
 			}
 		}
@@ -192,12 +192,12 @@ return {
 	desc_get = "每隔35秒(满级15秒)，朝前方发射4发带小范围追踪效果的磁性鱼雷(威力依据技能等级)",
 	name = "磁性鱼雷",
 	init_effect = "",
+	id = 2091,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每隔$1秒，朝前方发射4发带小范围追踪效果的磁性鱼雷(威力依据技能等级)",
 	stack = 1,
-	id = 2091,
+	color = "red",
 	icon = 2090,
 	last_effect = "",
 	effect_list = {
@@ -207,9 +207,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 2091,
 				target = "TargetSelf",
-				time = 35,
-				skill_id = 2091
+				time = 35
 			}
 		}
 	}

@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 100
+					number = 100,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 120
+					number = 120,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 140
+					number = 140,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 160
+					number = 160,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 180
+					number = 180,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 210
+					number = 210,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 240
+					number = 240,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 270
+					number = 270,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 310
+					number = 310,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 350
+					number = 350,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "增加装填",
 	name = "专业装填手",
 	init_effect = "jinengchufared",
+	id = 19093,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "增加装填",
 	stack = 12,
-	id = 19093,
+	color = "red",
 	icon = 19090,
 	last_effect = "",
 	blink = {
@@ -175,8 +175,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 100
+				number = 100,
+				attr = "loadSpeed"
 			}
 		}
 	}

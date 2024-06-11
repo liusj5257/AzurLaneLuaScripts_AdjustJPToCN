@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN08",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN08",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "母港・執務室",
 			typewriter = {
 				speed = 0.05,
@@ -46,10 +46,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "……",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,8 +127,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "はわわ！ひ、人がいっぱい！",
 			typewriter = {
 				speed = 0.05,
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 301321,
+			say = "しゅきかんのしつむしつにひとがいっぱいー！あそぼー！",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:33}",
 			dir = -1,
-			say = "しゅきかんのしつむしつにひとがいっぱいー！あそぼー！",
+			actor = 301321,
+			actorName = "{namecode:33}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -192,10 +192,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "……",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,10 +240,10 @@ return {
 			}
 		},
 		{
-			actor = 201102,
 			actorShadow = true,
-			actorName = "みんな",
 			side = 0,
+			actorName = "みんな",
+			actor = 201102,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "あ、エンタープライズだ。",
@@ -308,8 +308,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "え？私にもあるの？あ、ありがと……",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			actor = 301321,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:33}",
 			dir = 1,
+			actorName = "{namecode:33}",
 			say = "むつきはアメさんがほしい！",
 			typewriter = {
 				speed = 0.05,
@@ -354,10 +354,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "！！",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,10 +385,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "！！！",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,10 +399,10 @@ return {
 			}
 		},
 		{
-			actor = 301321,
 			actorShadow = true,
-			actorName = "{namecode:79}&{namecode:33}",
 			side = 0,
+			actorName = "{namecode:79}&{namecode:33}",
+			actor = 301321,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "指揮官、メリークリスマス！（しゅきかん、めりーくりすます！）",
@@ -427,8 +427,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "扶桑姉さまから、せっかくのクリスマス衣装だから是非指揮官に見せたほうがいいって……",
 			typewriter = {
 				speed = 0.05,
@@ -442,10 +442,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "！！！！",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,14 +471,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#a9f548",
 			say = "うんうん！んで、せっかくみんなが来ているから、記念に集合写真でも撮ろうよ！",
 			flashout = {
-				black = false,
 				dur = 0.35,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -518,14 +518,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#a9f548",
 			say = "えへへ、グッジョブ！ハッピー、「愛と平和の聖夜祭（クリスマス・イブ）」！",
 			flashout = {
-				black = false,
 				dur = 0.35,
+				black = false,
 				alpha = {
 					0,
 					1

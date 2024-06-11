@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN18",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Trailing the coastline, we make for the place where the shipgirl Adventure Galley has retired to.",
 			bgm = "theme-tempest-up",
+			say = "Trailing the coastline, we make for the place where the shipgirl Adventure Galley has retired to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "While we've been sailing for several days straight now, life aboard the ship hasn't changed much – there's always something happening.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "From Royal Fortune making a racket when there's trouble, to Whydah playing solo hide-and-seek to avoid doing any work, the days are always full of character.",
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "The girls are bathing on deck, and one of them shoots a playful splash of water at me. São Martinho effortlessly blocks it with her wing, then sits down in one of the water-filled barrels.",
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "She draws a curious comparison, her eyes tracking Mary Celeste and Whydah as the former chases the latter around the deck.",
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Noise on Deck",
+			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "The wild chase around the deck has resulted in a winner.",
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Let me have this, and I'll double your snacks for today.",
@@ -256,10 +256,10 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "The Risen Tempesta",
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "D-double...? You mean it?",
@@ -289,11 +289,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ahahahahah!",
@@ -348,8 +348,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "......",
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "The Great Royal Fortune sails onward, carrying the dreams of all those aboard.",

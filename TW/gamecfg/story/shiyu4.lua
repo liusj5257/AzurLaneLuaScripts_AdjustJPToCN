@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"愛操心的她可不是鬧著玩的\n\n<size=45>四 注意綠色</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "在神社內沒有發現夕立，只看到在神社辦公室中向這邊招手的山城和扶桑。",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "在神社內沒有發現夕立，只看到在神社辦公室中向這邊招手的山城和扶桑。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "唔……夕立那傢伙真是……罰她今天只能吃一半的菜！",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "聽從山城的話稍事休息，無意中看到神社辦公室裡存放著著許多御守和神符。",
 			typewriter = {
 				speed = 0.05,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "時雨興致滿滿地搖了搖籤筒，然後漂亮地將對應大吉的籤搖了出來。",
 			typewriter = {
 				speed = 0.05,
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "哼哼哼。看到沒指揮官！果然時雨大人的運氣才是港區第一吧！！",
 			effects = {
 				{
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "時雨一邊說著，一邊又接連搖出了五次“大吉”。",
 			effects = {
 				{
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "山城說著，搖出來的籤是——吉。",
 			typewriter = {
 				speed = 0.05,
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "時雨突然注意到了山城端著的茶杯。",
 			typewriter = {
 				speed = 0.05,
@@ -398,11 +398,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "？？？……好燙！！",
 			dialogShake = {
 				speed = 0.09,
@@ -419,9 +419,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "山城保持著低頭的姿勢將迅速將嘴離開了茶杯邊緣，伸出舌頭露出了悲傷的表情。",
 			typewriter = {
 				speed = 0.05,

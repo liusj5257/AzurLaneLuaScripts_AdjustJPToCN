@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "なんて毒々しい巨大キノコ…！",
 			typewriter = {
 				speed = 0.05,
@@ -13,8 +13,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "健康のために、あまり近づかないでおこう",
 			typewriter = {
 				speed = 0.05,

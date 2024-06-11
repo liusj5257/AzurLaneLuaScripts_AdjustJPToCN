@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>빨리</size>",
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -55,8 +55,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -80,17 +80,17 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
-			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "조심해! 이런…!",
+			bgName = "bg_xiangting_1",
 			bgm = "airRaidAlarm",
+			actor = 207040,
+			nameColor = "#a9f548",
+			say = "조심해! 이런…!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -125,13 +125,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "동북쪽에 적기가 또 있어! 대공화력은 멈추지 말고 지휘관의 안전을 우선 확보하도록!",
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "동북쪽에 적기가 또 있어! 대공화력은 멈추지 말고 지휘관의 안전을 우선 확보하도록!",
 			flashN = {
 				color = {
 					1,
@@ -179,11 +179,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "몇 놈이 와도 상관없어, 어디 맘껏 와보라고!!!",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -205,9 +205,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "유니온·뉴포트 항구 ",
 			typewriter = {
 				speed = 0.05,
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "혼란과 불바다",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "숙소도, 도크도, 격납고도 불타고 있다",
 			typewriter = {
 				speed = 0.05,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "두려움, 다급함, 슬픔, 분노",
 			typewriter = {
 				speed = 0.05,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "고작 몇분 만에 과거의 아름다웠던 휴양지는 더 이상 존재하지 않게 되었다",
 			typewriter = {
 				speed = 0.05,
@@ -275,9 +275,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "남은 것이라곤 오직, 혼란과… 불바다",
 			typewriter = {
 				speed = 0.05,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "걱정 마, 모두를 잘 지키고 있어, 금방 돌아올 테니까!!",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -361,15 +361,15 @@ return {
 			}
 		},
 		{
-			say = "얼마 전",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "얼마 전",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -432,9 +432,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "며칠 전, 지휘부에 갑작스럽게도 중요 군사 회의가 열린다는 전보가 도착했다.",
 			typewriter = {
 				speed = 0.05,
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "현재 함대는 유니온 본토로 향하는 중이다.",
 			typewriter = {
 				speed = 0.05,
@@ -476,11 +476,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "빨리빨리, 우릴 맞이하러 온 사람들이 손을 흔들고 있잖아~",
 			typewriter = {
 				speed = 0.05,
@@ -492,8 +492,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -502,12 +502,12 @@ return {
 			}
 		},
 		{
-			actor = 207040,
+			say = "호넷, 얌전히 굴어야지. 아무리 조급해도 레이디의 품격을 잃어선 안돼.",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "호넷, 얌전히 굴어야지. 아무리 조급해도 레이디의 품격을 잃어선 안돼.",
+			actor = 207040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -570,9 +570,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "(엔터프라이즈가 정찰 임무에 나간 건 잠시 비밀로 해둘까…)",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "멀리서부터 시끄러운 소리가 들렸어, 여전히 힘이 넘쳐나는구나, 호넷.",
 			typewriter = {
@@ -652,8 +652,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "하하, 농담이야. 난 이곳의 방어함대의 기함이다. 모두들 머무는 동안의 접대는 내가 맡고 있지.",
 			typewriter = {
@@ -698,15 +698,15 @@ return {
 			}
 		},
 		{
-			say = "잊지 못할 추억이라…",
-			side = 2,
 			bgName = "bg_xiangting_1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "airRaidAlarm",
+			say = "잊지 못할 추억이라…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -737,9 +737,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "...............",
 			typewriter = {
 				speed = 0.05,
@@ -751,11 +751,11 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

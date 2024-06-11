@@ -1,12 +1,12 @@
 return {
-	id = "W214010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W214010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦隊を集結ポイントまで移動させよう。",
 			typewriter = {
 				speed = 0.05,

@@ -16,12 +16,12 @@ slot1 = {
 	}
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EventUI"
 end
 
-function slot0.init(slot0)
-	function slot0.dispatch(...)
+slot0.init = function(slot0)
+	slot0.dispatch = function(...)
 		uv0:emit(...)
 	end
 
@@ -44,15 +44,15 @@ function slot0.init(slot0)
 	slot0.scrollRectObj = slot0:findTF("scrollRect$")
 	slot0.scrollRect = slot0.scrollRectObj:GetComponent("LScrollRect")
 
-	function slot0.scrollRect.onInitItem(slot0)
+	slot0.scrollRect.onInitItem = function(slot0)
 		uv0:onInitItem(slot0)
 	end
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateItem(slot0, slot1)
 	end
 
-	function slot0.scrollRect.onReturnItem(slot0, slot1)
+	slot0.scrollRect.onReturnItem = function(slot0, slot1)
 		uv0:onReturnItem(slot0, slot1)
 	end
 
@@ -77,7 +77,7 @@ slot2 = {
 	"urgency"
 }
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		if uv0.selectedItem then
 			uv0:easeOut(function ()
@@ -93,7 +93,7 @@ function slot0.didEnter(slot0)
 		setActive(slot0:findTF("stamp"), false)
 	end
 
-	function slot4()
+	slot4 = function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(9)
 	end
 
@@ -146,7 +146,7 @@ function slot0.didEnter(slot0)
 
 	triggerToggle(slot0.toggles[slot0.contextData.index or 1], true)
 
-	function slot2()
+	slot2 = function()
 		if uv0.scrollItem.event.state == EventInfo.StateFinish then
 			uv0.dispatch(EventConst.EVENT_FINISH, uv0.scrollItem.event)
 		else
@@ -163,12 +163,12 @@ function slot0.didEnter(slot0)
 	slot0:updateBtnTip()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0.btnBack)
 end
 
-function slot0.updateAll(slot0, slot1, slot2, slot3)
+slot0.updateAll = function(slot0, slot1, slot2, slot3)
 	slot0.eventProxy = slot1
 
 	if slot2 then
@@ -190,7 +190,7 @@ function slot0.updateAll(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateOne(slot0, slot1)
+slot0.updateOne = function(slot0, slot1)
 	slot5 = slot0.eventProxy.maxFleetNums
 	slot0.labelShipNums.text = slot0.eventProxy.maxFleetNums - slot0.eventProxy.busyFleetNums .. "/" .. slot5
 
@@ -216,7 +216,7 @@ function slot0.updateOne(slot0, slot1)
 	slot0:updateBtnTip()
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot1 = false
 
 	if uv0[slot0.contextData.index] == "urgency" and slot0.eventProxy:checkNightEvent() then
@@ -229,7 +229,7 @@ function slot0.Flush(slot0, slot1)
 		slot0.labelShipNums.text = slot0.eventProxy.maxFleetNums - slot0.eventProxy.busyFleetNums .. "/" .. slot0.eventProxy.maxFleetNums
 
 		if slot0.eventProxy.selectedEvent then
-			function slot2()
+			slot2 = function()
 				slot0 = uv0.eventProxy.selectedEvent.id
 				slot1 = 1
 
@@ -273,7 +273,7 @@ function slot0.Flush(slot0, slot1)
 	setActive(slot0.listEmptyTF, #slot0.eventList <= 0)
 end
 
-function slot0.filter(slot0)
+slot0.filter = function(slot0)
 	slot0.eventList = {}
 	slot1 = uv0[slot0.contextData.index]
 
@@ -308,10 +308,10 @@ function slot0.filter(slot0)
 	end)
 end
 
-function slot0.onInitItem(slot0, slot1)
+slot0.onInitItem = function(slot0, slot1)
 	slot2 = EventListItem.New(slot1, slot0.dispatch)
 
-	function slot3()
+	slot3 = function()
 		if uv0.event.state == EventInfo.StateFinish then
 			uv1.dispatch(EventConst.EVENT_FINISH, uv0.event)
 		else
@@ -325,7 +325,7 @@ function slot0.onInitItem(slot0, slot1)
 	slot0.scrollItems[slot1] = slot2
 end
 
-function slot0.onUpdateItem(slot0, slot1, slot2)
+slot0.onUpdateItem = function(slot0, slot1, slot2)
 	GetComponent(tf(slot2), "CanvasGroup").alpha = 1
 
 	if not slot0.scrollItems[slot2] then
@@ -340,13 +340,13 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.onReturnItem(slot0, slot1, slot2)
+slot0.onReturnItem = function(slot0, slot1, slot2)
 	if slot0.scrollItems and slot0.scrollItems[slot2] then
 		slot0.scrollItems[slot2]:Clear()
 	end
 end
 
-function slot0.easeIn(slot0, slot1)
+slot0.easeIn = function(slot0, slot1)
 	if not slot0.easing then
 		slot0.easing = true
 		slot0.selectedItem = slot1
@@ -362,7 +362,7 @@ function slot0.easeIn(slot0, slot1)
 	end
 end
 
-function slot0.easeOut(slot0, slot1)
+slot0.easeOut = function(slot0, slot1)
 	if not slot0.easing then
 		slot0.easing = true
 
@@ -388,7 +388,7 @@ function slot0.easeOut(slot0, slot1)
 	end
 end
 
-function slot0.easeInDetail(slot0, slot1)
+slot0.easeInDetail = function(slot0, slot1)
 	slot3 = 0.3
 	slot4 = slot0.mask.gameObject
 
@@ -450,7 +450,7 @@ function slot0.easeInDetail(slot0, slot1)
 	end))
 end
 
-function slot0.easeOutDetail(slot0, slot1)
+slot0.easeOutDetail = function(slot0, slot1)
 	slot2 = 0.2
 	slot3 = 268
 	slot6 = 100000
@@ -488,7 +488,7 @@ function slot0.easeOutDetail(slot0, slot1)
 	end))
 end
 
-function slot0.showDetail(slot0)
+slot0.showDetail = function(slot0)
 	slot0.scrollRect.enabled = false
 
 	slot0.mask.gameObject:SetActive(true)
@@ -530,7 +530,7 @@ function slot0.showDetail(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanel)
 end
 
-function slot0.ctimer(slot0)
+slot0.ctimer = function(slot0)
 	slot0.timer = Timer.New(function ()
 		if uv0.selectedItem then
 			uv0.scrollItem:UpdateTime()
@@ -561,7 +561,7 @@ function slot0.ctimer(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.ktimer(slot0)
+slot0.ktimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -569,14 +569,14 @@ function slot0.ktimer(slot0)
 	end
 end
 
-function slot0.setOpEnabled(slot0, slot1)
+slot0.setOpEnabled = function(slot0, slot1)
 	_.each(slot0.toggles, function (slot0)
 		setToggleEnabled(slot0, uv0)
 	end)
 	setButtonEnabled(slot0.btnBack, slot1)
 end
 
-function slot0.updateBtnTip(slot0)
+slot0.updateBtnTip = function(slot0)
 	slot1 = {
 		false,
 		slot0.eventProxy:checkNightEvent()
@@ -593,7 +593,7 @@ function slot0.updateBtnTip(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end

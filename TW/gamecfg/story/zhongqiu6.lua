@@ -1,11 +1,11 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHONGQIU6",
-	once = true,
 	fadeType = 1,
-	fadein = 1.5,
+	once = true,
+	id = "ZHONGQIU6",
 	updateOnBegin = 1,
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205060,
@@ -135,8 +135,8 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "寧海",
 			dir = -1,
+			actorName = "寧海",
 			say = "喂！妳誰呀！不要偷酒！",
 			typewriter = {
 				speed = 0.05,
@@ -148,15 +148,15 @@ return {
 			}
 		},
 		{
-			actor = 502022,
 			actorName = "寧海",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502022,
+			nameColor = "#a9f548",
 			say = "威爾斯~我要抱~抱~",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 502032,
+			say = "姐姐一喝酒就變得很麻煩……",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "平海",
 			dir = 1,
-			say = "姐姐一喝酒就變得很麻煩……",
+			actor = 502032,
+			actorName = "平海",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -324,8 +324,8 @@ return {
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "平海",
 			dir = 1,
+			actorName = "平海",
 			say = "可是月餅都被我——咳，被大家吃光了呀……",
 			typewriter = {
 				speed = 0.05,

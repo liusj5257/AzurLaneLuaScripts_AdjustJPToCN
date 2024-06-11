@@ -1,17 +1,17 @@
 return {
-	id = "WORLD304A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107110,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "xinnong-3",
 			dir = 1,
 			say = "……調査任務部隊？",
+			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,9 +54,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Nonsense！セイレーン作戦は総力戦、兵力を分けるのは良くないと思うよ！",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "ええ、私もこの作戦指令、そのまま守るべきではないと思うの。…エセックス、どうする？",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "確かに罠かもしれないけど、セイレーン作戦を遂行するためにも相手のことをもっと知っておかないと。ただ…",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "エンタープライズ先輩…そして指揮官もきっと同じことをすると思う！",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/44/tb-44",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "システム再起動中です。ジャミングの停止を確認しました。広域探知結果に異常ありません",
-			voice = "event:/tb/44/tb-44",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "TBも完全復活したようだし、私たちも引き続きエリアを確保していこう！クリーブランドたちをいつでも支援できるようにね！",
 			typewriter = {
 				speed = 0.05,

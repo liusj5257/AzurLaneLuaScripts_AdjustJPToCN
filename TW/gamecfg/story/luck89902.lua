@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK89902",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK89902",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "這一切，都離不開你。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "我會繼續獻上全部，守護你的光輝、溫暖、感情。",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "而你將繼續與我，在這延伸的道路上前行。",
 			typewriter = {
 				speed = 0.05,

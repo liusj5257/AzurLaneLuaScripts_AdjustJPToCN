@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 90,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -53,8 +53,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 101,
 					conditionType = 1,
 					preWaves = {
@@ -65,10 +65,10 @@ return {
 						{
 							score = 0,
 							reinforceDelay = 20,
-							monsterTemplateID = 294202,
 							delay = 0,
 							moveCast = true,
 							affix = true,
+							monsterTemplateID = 294202,
 							corrdinate = {
 								-5,
 								0,
@@ -80,30 +80,30 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 8,
 									switchTo = 1,
 									index = 0,
-									switchParam = 8,
+									switchType = 1,
 									setAI = 100100,
 									addWeapon = {
 										2041000
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 10,
 									switchTo = 2,
 									index = 1,
-									switchParam = 10,
+									switchType = 1,
 									setAI = 100100,
 									addWeapon = {
 										2041020
 									}
 								},
 								{
-									switchParam = 4,
-									switchTo = 3,
-									index = 2,
 									switchType = 1,
+									switchParam = 4,
+									index = 2,
+									switchTo = 3,
 									setAI = 20006,
 									addBuff = {
 										79075
@@ -118,10 +118,10 @@ return {
 									}
 								},
 								{
-									switchParam = 21,
-									switchTo = 4,
-									index = 3,
 									switchType = 1,
+									switchParam = 21,
+									index = 3,
+									switchTo = 4,
 									setAI = 10001,
 									removeBuff = {
 										79075
@@ -135,10 +135,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 24,
 									switchTo = 5,
 									index = 4,
-									switchParam = 24,
+									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
 										2041120
@@ -149,10 +149,10 @@ return {
 									}
 								},
 								{
-									switchParam = 4,
-									switchTo = 6,
-									index = 5,
 									switchType = 1,
+									switchParam = 4,
+									index = 5,
+									switchTo = 6,
 									setAI = 20006,
 									addBuff = {
 										79075
@@ -167,10 +167,10 @@ return {
 									}
 								},
 								{
-									switchParam = 6,
-									switchTo = 7,
-									index = 6,
 									switchType = 1,
+									switchParam = 6,
+									index = 6,
+									switchTo = 7,
 									setAI = 20006,
 									removeBuff = {
 										79075
@@ -184,10 +184,10 @@ return {
 									}
 								},
 								{
-									switchParam = 60,
+									switchType = 1,
 									switchTo = 0,
 									index = 7,
-									switchType = 1,
+									switchParam = 60,
 									setAI = 100100
 								}
 							}
@@ -196,9 +196,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -211,9 +211,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								50,
 								0,
@@ -226,9 +226,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -241,9 +241,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								50,
 								0,
@@ -260,8 +260,8 @@ return {
 							interval = 12,
 							onceNumber = 6,
 							formation = 10009,
-							delay = 0,
 							templateID = 2200903,
+							delay = 0,
 							totalNumber = 18,
 							weaponID = {},
 							attr = {

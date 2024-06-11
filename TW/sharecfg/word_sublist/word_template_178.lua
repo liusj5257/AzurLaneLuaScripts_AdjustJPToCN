@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_178 = {}
 slot1 = slot0.word_template_178
 
-function temp()
+temp = function()
 	uv0["外"] = {
 		["挂"] = {
 			this = true
@@ -118,7 +118,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["&"] = {
 		this = {
 			this = true
@@ -128,7 +128,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["悬"] = {
 		["赏"] = {
 			["兼"] = {
@@ -146,7 +146,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["加"] = {
 		["入"] = {
 			["网"] = {

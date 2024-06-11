@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 610
+					number = 610,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 720
+					number = 720,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 830
+					number = 830,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 940
+					number = 940,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1050
+					number = 1050,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1160
+					number = 1160,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1270
+					number = 1270,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1380
+					number = 1380,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1500
+					number = 1500,
+					attr = "attackRating"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "",
+	name = "",
+	init_effect = "",
+	id = 110201,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110201,
+	color = "",
 	icon = 110200,
 	last_effect = "",
 	effect_list = {
@@ -156,8 +156,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		}
 	}

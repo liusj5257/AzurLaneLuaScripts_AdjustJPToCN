@@ -1,15 +1,15 @@
 return {
-	id = "ZHUXIAN040301",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "ZHUXIAN040301",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level",
 			say = "時をさかのぼり、夜戦が始まる前日の夜。",
+			side = 2,
+			dir = 1,
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ユニオン隊とは違う方向から、ソロモン海に接近する別の一団がいた。",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "ふふふ、私はだーれ？",
 			typewriter = {
 				speed = 0.05,
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 0,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "わわ？！しょ、翔鶴姉！？",
+			side = 0,
+			dir = 1,
+			actor = 307060,
+			nameColor = "#ff5c5c",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "翔鶴さん？瑞鶴さん？なにしているんですか？",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "もう抜かりなく！ご心配には及びません！",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "此度の作戦、囮となれど防戦のみではなく、攻撃も務めさせてもらいますよ！",
 			typewriter = {
 				speed = 0.05,
@@ -421,10 +421,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
+			actor = 307060,
 			say = "よぉし！重桜艦隊、前進！",
 			effects = {
 				{

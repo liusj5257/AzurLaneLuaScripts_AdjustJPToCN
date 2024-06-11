@@ -1,6 +1,6 @@
 slot0 = class("Summary", import(".BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.name = getProxy(PlayerProxy):getData().name
 	slot0.registerTime = pg.TimeMgr.GetInstance():STimeDescC(slot1.register_date, "%Y.%m.%d")
 	slot0.days = math.max(math.ceil((getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SUMMARY):getStartTime() - slot1.register_date) / 86400), 0) + 1
@@ -79,11 +79,11 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.hasGuild(slot0)
+slot0.hasGuild = function(slot0)
 	return slot0.guildName and slot0.guildName ~= ""
 end
 
-function slot0.hasMedal(slot0)
+slot0.hasMedal = function(slot0)
 	return slot0.medalCount > 0
 end
 

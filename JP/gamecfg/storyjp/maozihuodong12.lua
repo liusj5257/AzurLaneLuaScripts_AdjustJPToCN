@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-cccp3",
 			dir = 1,
 			say = "艤装の電力系統を狙う攻撃に気をつけながら戦う…ちっ",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "艦載機に影響はないようね…この要塞、もしかしてセイレーンの新兵器実験場なの？",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "あの兵器を何回も喰らうわけにはいかない。",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "となると――",
 			typewriter = {
 				speed = 0.05,
@@ -112,10 +112,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 107030,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "了解！爆撃機、いっけー！",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			actor = 105140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-masazhusai",
 			dir = 1,
 			say = "指揮官、僕に任せて！今火器管制装置が回復した！",
+			bgm = "story-masazhusai",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,10 +173,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "サウスダコタの砲撃が敵陣を引き裂き、謎の兵装を装備するセイレーンに直撃し、爆発の炎と煙が海を包んだ。",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "―――！？",
 			typewriter = {
 				speed = 0.05,
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
-			side = 2,
 			say = "なんだ、この揺れ…？！",
-			dir = 1,
-			blackBg = true,
-			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "「ゲホゲホ！セイレーンめ、まさかこんなことするなんて…！」",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「不本意だけど、こうするしかないわね…悪いけど！」",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "！！！",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……意識、が………",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…………",
 			typewriter = {

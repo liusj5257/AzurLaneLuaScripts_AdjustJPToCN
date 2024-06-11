@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.1
+					number = 0.1,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.01
+					number = 0.01,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.111
+					number = 0.111,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.02
+					number = 0.02,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.122
+					number = 0.122,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.03
+					number = 0.03,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.133
+					number = 0.133,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.04
+					number = 0.04,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.144
+					number = 0.144,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.05
+					number = 0.05,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.155
+					number = 0.155,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.06
+					number = 0.06,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.166
+					number = 0.166,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.07
+					number = 0.07,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.177
+					number = 0.177,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.08
+					number = 0.08,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.188
+					number = 0.188,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.09
+					number = 0.09,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_shuerci",
-					number = 0.2
+					number = 0.2,
+					attr = "CRIDMG_TAG_EHC_shuerci"
 				}
 			},
 			{
@@ -233,15 +233,15 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_shuerci",
-					number = 0.1
+					number = 0.1,
+					attr = "CRI_TAG_EHC_shuerci"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "jinengchufared",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

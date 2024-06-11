@@ -1,6 +1,6 @@
 slot0 = class("MainBannerView", import("view.base.BaseEventLogic"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot2)
 	pg.DelegateInfo.New(slot0)
 
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.scrollSnap = BannerScrollRect.New(findTF(slot1, "mask/content"), findTF(slot1, "dots"))
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = getProxy(ActivityProxy):getBannerDisplays()
 
 	slot0:UpdateItems(slot1)
@@ -18,7 +18,7 @@ function slot0.Init(slot0)
 	slot0.banners = slot1
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	if #slot0.banners ~= #getProxy(ActivityProxy):getBannerDisplays() then
 		slot0:Clear()
 		slot0:Init()
@@ -27,7 +27,7 @@ function slot0.Refresh(slot0)
 	end
 end
 
-function slot0.UpdateItems(slot0, slot1)
+slot0.UpdateItems = function(slot0, slot1)
 	for slot5 = 0, #slot1 - 1 do
 		slot6 = slot1[slot5 + 1]
 
@@ -41,7 +41,7 @@ function slot0.UpdateItems(slot0, slot1)
 	slot0.scrollSnap:SetUp()
 end
 
-function slot0.Fold(slot0, slot1, slot2)
+slot0.Fold = function(slot0, slot1, slot2)
 	slot0.lposX = slot0.lposX or slot0._tf.localPosition.x
 	slot3 = slot1 and slot0.lposX + 1200 or slot0.lposX
 
@@ -52,17 +52,17 @@ function slot0.Fold(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	slot0.scrollSnap:Puase()
 
 	slot0.lposX = nil
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0.scrollSnap:Reset()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:disposeEvent()
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Clear()

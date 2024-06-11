@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海域中的战争迷雾被消除，视野逐渐开阔。",
 			typewriter = {
 				speed = 0.05,

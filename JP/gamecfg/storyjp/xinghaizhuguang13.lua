@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_3",
+			bgm = "theme-threat-typev",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "擬似空間「NYシティ」……だった場所で、艦船たちは途方に暮れている。",
-			bgm = "theme-threat-typev",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_3",
 			hidePaintObj = true,
 			say = "水平線に見えていた街が、突如現れた黒い竜巻にものの数分間で木っ端微塵に破壊された。",
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "で、でもなんでそんなものを……",
@@ -83,9 +83,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			bgName = "bg_zhuguang_3",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ええと、あそこにいるのは…靄？フネかどうかすらわからない…",
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうだ！指揮官から共有された情報に書いてある！",
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "黒い竜巻とともに現れる、「靄」の形をした謎の敵性存在――",
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ラフィーちゃんはまだ読んでなかったよね",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そもそも影なんだからぼやけているし、観測も出来ないって推測ね",

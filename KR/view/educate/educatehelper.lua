@@ -1,6 +1,6 @@
 slot0 = class("EducateHelper")
 
-function slot0.GetItemAddDrops(slot0)
+slot0.GetItemAddDrops = function(slot0)
 	underscore.each(pg.child_item[slot0.id].display, function (slot0)
 		assert(slot0[1] == EducateConst.DROP_TYPE_ATTR or slot0[1] == EducateConst.DROP_TYPE_RES, "非法道具增益, item id:" .. uv0.id)
 		table.insert(uv1, {
@@ -13,7 +13,7 @@ function slot0.GetItemAddDrops(slot0)
 	return {}
 end
 
-function slot0.UpdateDropsData(slot0)
+slot0.UpdateDropsData = function(slot0)
 	slot1 = getProxy(EducateProxy)
 
 	for slot5, slot6 in ipairs(slot0) do
@@ -41,7 +41,7 @@ function slot0.UpdateDropsData(slot0)
 	end
 end
 
-function slot0.UpdateDropShow(slot0, slot1)
+slot0.UpdateDropShow = function(slot0, slot1)
 	if slot1.type == EducateConst.DROP_TYPE_MEMORY or slot1.type == EducateConst.DROP_TYPE_POLAROID then
 		pg.TipsMgr.GetInstance():ShowTips(string.format("不支持的掉落展示for Item,请检查配置！type:%d, id:%d", slot1.type, slot1.id))
 
@@ -59,7 +59,7 @@ function slot0.UpdateDropShow(slot0, slot1)
 	end
 end
 
-function slot0.GetDropConfig(slot0)
+slot0.GetDropConfig = function(slot0)
 	return switch(slot0.type, {
 		[EducateConst.DROP_TYPE_ATTR] = function ()
 			slot0 = pg.child_attr[uv0.id]
@@ -106,7 +106,7 @@ function slot0.GetDropConfig(slot0)
 	})
 end
 
-function slot0.GetColorForAttrDrop(slot0)
+slot0.GetColorForAttrDrop = function(slot0)
 	if slot0.type == EducateConst.DROP_TYPE_RES then
 		return Color.NewHex("6FD9C4")
 	elseif slot0.type == EducateConst.DROP_TYPE_ATTR then
@@ -122,7 +122,7 @@ function slot0.GetColorForAttrDrop(slot0)
 	return Color.NewHex("39BFFF")
 end
 
-function slot0.UpdateDropShowForAttr(slot0, slot1)
+slot0.UpdateDropShowForAttr = function(slot0, slot1)
 	if slot1.type ~= EducateConst.DROP_TYPE_ATTR and slot1.type ~= EducateConst.DROP_TYPE_RES then
 		pg.TipsMgr.GetInstance():ShowTips(string.format("不支持的掉落展示for Attr,请检查配置！type:%d, id:%d", slot1.type, slot1.id))
 
@@ -136,13 +136,13 @@ function slot0.UpdateDropShowForAttr(slot0, slot1)
 	setText(findTF(slot0, "value"), (slot1.number > 0 and "+" or "") .. slot1.number)
 end
 
-function slot0.FilterDropByTypes(slot0, slot1)
+slot0.FilterDropByTypes = function(slot0, slot1)
 	return underscore.select(slot0, function (slot0)
 		return table.contains(uv0, slot0.type)
 	end)
 end
 
-function slot0.GetDialogueShowDrops(slot0)
+slot0.GetDialogueShowDrops = function(slot0)
 	return uv0.FilterDropByTypes(slot0, {
 		EducateConst.DROP_TYPE_ATTR,
 		EducateConst.DROP_TYPE_RES,
@@ -150,14 +150,14 @@ function slot0.GetDialogueShowDrops(slot0)
 	})
 end
 
-function slot0.GetCommonShowDrops(slot0)
+slot0.GetCommonShowDrops = function(slot0)
 	return uv0.FilterDropByTypes(slot0, {
 		EducateConst.DROP_TYPE_ITEM,
 		EducateConst.DROP_TYPE_POLAROID
 	})
 end
 
-function slot0.UpdateAvatarShow(slot0, slot1, slot2)
+slot0.UpdateAvatarShow = function(slot0, slot1, slot2)
 	slot7 = slot2
 
 	setImageSprite(findTF(slot0, "mask/Image"), LoadSprite("squareicon/" .. slot7), true)
@@ -175,7 +175,7 @@ function slot0.UpdateAvatarShow(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetTimeFromCfg(slot0)
+slot0.GetTimeFromCfg = function(slot0)
 	return {
 		month = slot0[1],
 		week = slot0[2],
@@ -183,11 +183,11 @@ function slot0.GetTimeFromCfg(slot0)
 	}
 end
 
-function slot0.IsSameDay(slot0, slot1)
+slot0.IsSameDay = function(slot0, slot1)
 	return slot0.month == slot1.month and slot0.week == slot1.week and slot0.day == slot1.day
 end
 
-function slot0.CfgTime2Time(slot0)
+slot0.CfgTime2Time = function(slot0)
 	return {
 		month = slot0[1][1],
 		week = slot0[1][2] or 1,
@@ -199,7 +199,7 @@ function slot0.CfgTime2Time(slot0)
 	}
 end
 
-function slot0.IsBeforeTime(slot0, slot1)
+slot0.IsBeforeTime = function(slot0, slot1)
 	if slot0.month < slot1.month then
 		return true
 	end
@@ -215,7 +215,7 @@ function slot0.IsBeforeTime(slot0, slot1)
 	return false
 end
 
-function slot0.IsAfterTime(slot0, slot1)
+slot0.IsAfterTime = function(slot0, slot1)
 	if slot1.month < slot0.month then
 		return true
 	end
@@ -231,11 +231,11 @@ function slot0.IsAfterTime(slot0, slot1)
 	return false
 end
 
-function slot0.InTime(slot0, slot1, slot2)
+slot0.InTime = function(slot0, slot1, slot2)
 	return not uv0.IsBeforeTime(slot0, slot1) and not uv0.IsAfterTime(slot0, slot2)
 end
 
-function slot0.GetTimeAfterDays(slot0, slot1)
+slot0.GetTimeAfterDays = function(slot0, slot1)
 	slot2 = {
 		month = slot0.month,
 		week = slot0.week,
@@ -258,7 +258,7 @@ function slot0.GetTimeAfterDays(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetTimeAfterWeeks(slot0, slot1)
+slot0.GetTimeAfterWeeks = function(slot0, slot1)
 	slot2 = {
 		month = slot0.month,
 		week = slot0.week,
@@ -274,19 +274,19 @@ function slot0.GetTimeAfterWeeks(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetDaysBetweenTimes(slot0, slot1)
+slot0.GetDaysBetweenTimes = function(slot0, slot1)
 	return (slot1.month - slot0.month) * 28 + (slot1.week - slot0.week) * 7 + slot1.day - slot0.day
 end
 
-function slot0.GetWeekIdxWithTime(slot0)
+slot0.GetWeekIdxWithTime = function(slot0)
 	return (slot0.month - 1) * 4 + slot0.week
 end
 
-function slot0.GetShowMonthNumber(slot0)
+slot0.GetShowMonthNumber = function(slot0)
 	return slot0 > 12 and slot0 - 12 or slot0
 end
 
-function slot0.GetWeekByNumber(slot0)
+slot0.GetWeekByNumber = function(slot0)
 	if slot0 == 7 then
 		return i18n("word_day")
 	else
@@ -294,11 +294,11 @@ function slot0.GetWeekByNumber(slot0)
 	end
 end
 
-function slot0.GetWeekStrByNumber(slot0)
+slot0.GetWeekStrByNumber = function(slot0)
 	return i18n("word_week_day" .. slot0)
 end
 
-function slot0.InUnlockTime(slot0, slot1)
+slot0.InUnlockTime = function(slot0, slot1)
 	if slot1[1] < slot0.month then
 		return true
 	end
@@ -314,7 +314,7 @@ function slot0.InUnlockTime(slot0, slot1)
 	return false
 end
 
-function slot0.IsSystemUnlock(slot0)
+slot0.IsSystemUnlock = function(slot0)
 	slot2 = EducateConst.SYSTEM_UNLOCK_CONFIG[slot0]
 
 	if not getProxy(EducateProxy):IsFirstGame() and slot2[2] then
@@ -324,19 +324,19 @@ function slot0.IsSystemUnlock(slot0)
 	return uv0.InUnlockTime(getProxy(EducateProxy):GetCurTime(), pg.gameset[slot2[1]].description)
 end
 
-function slot0.IsShowNature()
+slot0.IsShowNature = function()
 	slot0, slot1 = uv0.CfgTime2Time(pg.gameset.child_charactor_time.description)
 
 	return uv0.InTime(getProxy(EducateProxy):GetCurTime(), slot0, slot1)
 end
 
-function slot0.IsSiteUnlock(slot0, slot1)
+slot0.IsSiteUnlock = function(slot0, slot1)
 	slot2 = pg.child_site[slot0]
 
 	return uv0.InUnlockTime(getProxy(EducateProxy):GetCurTime(), slot1 and slot2.unlock_time_1 or slot2.unlock_time_2)
 end
 
-function slot0.IsMatchSubType(slot0, slot1)
+slot0.IsMatchSubType = function(slot0, slot1)
 	if slot0 == "" then
 		return false
 	end
@@ -350,7 +350,7 @@ function slot0.IsMatchSubType(slot0, slot1)
 	return false
 end
 
-function slot0.ReqEducateDataCheck(slot0)
+slot0.ReqEducateDataCheck = function(slot0)
 	if LOCK_EDUCATE_SYSTEM then
 		slot0()
 

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 战斗BUFF 破甲弹幕LV2",
 	time = 15,
-	color = "red",
+	name = "2022莱莎联动 战斗BUFF 破甲弹幕LV2",
+	init_effect = "",
+	id = 200182,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200182,
+	color = "red",
 	icon = 200182,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200183,
-				target = "TargetSelf",
-				time = 12
+				time = 12,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔20秒，有15.0%(满级30.0%)的概率发动，自体完全回避所有攻击，持续6秒",
 	name = "紧急回避",
 	init_effect = "",
+	id = 4071,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每隔20秒，有$1的概率发动，自体完全回避所有攻击，持续6秒",
 	stack = 1,
-	id = 4071,
+	color = "blue",
 	icon = 4070,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 4072,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		}
 	}

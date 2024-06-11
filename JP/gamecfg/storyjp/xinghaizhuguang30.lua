@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-ucnf-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "戦闘を終え、コンステレーションたちは臨時拠点に戻った。",
-			bgm = "theme-ucnf-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "宣言通り、「ギンギツネ」は顔を見せることなく、一行とのやり取りはあくまでフォートレス経由で行われている。",
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "感謝されるほどのことなんかしていなよ。",
@@ -192,9 +192,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			bgName = "bg_story_task",
 			bgm = "theme-dailyfuture",
 			actor = 104010,
 			nameColor = "#A9F548FF",
@@ -209,17 +209,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――理事会の艦隊はなぜ空に浮いているの？",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…………",
@@ -595,11 +595,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
-			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "じゃあ3つ目の質問",
@@ -612,17 +612,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -907,11 +907,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うん。期待以上に色々教えてくれた。ありがとう",
@@ -995,11 +995,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
-			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ここまで色々答えてくれてありがとう。5つ目の質問よ",
@@ -1012,17 +1012,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

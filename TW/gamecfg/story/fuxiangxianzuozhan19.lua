@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN19",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "xinnong-2",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			say = "轟————————！",
 			dir = 1,
-			bgm = "xinnong-2",
+			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "遭到敵艦攻擊！這個威力……明顯不是演習用的訓練彈啊！",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "……要嘛是這裡的人在進行傳說中的實兵實彈演習，要嘛就是————",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			say = "轟————————！",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -159,8 +159,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "要嘛就是塞壬使役的棋子是吧！總之，以眼還眼，以牙還牙！",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,11 +186,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "這裡可是我們重兵防守的要塞區，怎麼會有被塞壬突破到這種地步……和駐防艦隊的聯絡怎麼樣？",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -241,8 +241,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "完全沉寂！喂，歐根，妳帶我們來的這處基地到底是怎麼回事啊！",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "…………歐根！！！！",
 			effects = {
@@ -281,8 +281,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "啊，稍微有點走神……妳剛剛說什麼？",
 			effects = {
@@ -304,8 +304,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "咦……？什麼時候拉開這麼遠距離的……",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "這種時候妳在亂跑什麼啊歐根！",
 			typewriter = {
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "我去稍微監聽了一下旁邊重櫻艦隊的狀況哦，看來這裡正在發生一些很有趣的事啊~",
 			typewriter = {
@@ -383,8 +383,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "總之先和妳們前面的海因里希糾纏著，我還需要點時間。",
 			typewriter = {
@@ -418,8 +418,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "主要以迴避為主，僅做象徵性的反擊，妳們把海因里希吸引到我的位置來。",
 			typewriter = {
@@ -453,8 +453,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "解釋起來比較複雜，一會妳們就知道了。現在時間緊急，立刻執行命令。",
 			typewriter = {
@@ -470,9 +470,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
 			blackBg = true,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "是，我們明白了。現在開始執行誘導行動！",
 			typewriter = {

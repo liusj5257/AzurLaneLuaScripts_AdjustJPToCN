@@ -1,17 +1,17 @@
 return {
-	id = "WORLD203D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD203D",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101330,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "애틀랜타, 봐요! 로열 네이비가 구하러 왔어요!",
 			dir = 1,
 			bgm = "story-french1",
+			actor = 101330,
+			nameColor = "#a9f548",
+			say = "애틀랜타, 봐요! 로열 네이비가 구하러 왔어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -65,8 +65,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "여기는 이글 유니온의 작전 구역이 아닐 텐데, 여기에 왜 있는 거지? 무슨 일이 일어난 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "...연구 임무? 지금 전체 NA 해역은 전선 작전 구역이 되었을 텐데요?",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,8 +197,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "아크로열은 이 해역에서 임무를 수행하고 있지 않아요. 게다가 혼자서 그런 일은 할 수 없을 텐데요. 역시 아까 느꼈던 잔불이...",
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "나도 궁금해! 방금 전부터 너희가 계속 얘기했던 잔불이 대체 뭐야?",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,8 +254,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "NY 사령부에서 아무것도 이야기해주지 않고 연구 임무를 파견한 건가요?!",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "포미더블, 잔불에 관한 것은 기밀이니 모르는 것이 당연해.",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "...엣, 그래도 작전에 참여하기 전에는 알려줬어야죠. 정말이지.",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "세이렌 함대를 전멸시킨 아크로열이 바로 잔불이에요. 우리와 비슷한 외모를 가지고 있지만 더 강력하고, 레이더에 포착되지 않아요. 게다가 전혀 교류를 하지 않으니 행동을 예측할 수 없죠.",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "기밀이기 때문에 더 많은 잔불에 대한 정보를 알려드릴 수는 없어요. 자세한 것은 NY 사령부 쪽에 물어보는 것이 좋겠네요.",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "응...! 엑, 진짜 물어봐야 해...?",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,8 +405,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "자, 잡담은 여기까지. 너희를 로열 네이비의 항구까지 데려다줄게. 자세한 것은 거기서 얘기하자.",
 			typewriter = {
 				speed = 0.05,
@@ -435,9 +435,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "무슨 소리를 하는 거예요. 지금 상태로는 상어밥이 될 뿐이라고요!",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,8 +462,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "여기는 LD 사령부의 관할 해역이니 우리 명령을 들으세요. 당장 여러분을 로열 네이비의 항구로 데려가겠어요.",
 			typewriter = {
 				speed = 0.05,
@@ -493,8 +493,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "좋아요, 착하네요~ 자, 진형을 갖추세요. 출발합니다! 구조 임무는 아직 끝나지 않았으니 방심하지 말아요!",
 			typewriter = {
 				speed = 0.05,

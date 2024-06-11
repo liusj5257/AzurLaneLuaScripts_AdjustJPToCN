@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"무희 천사 에밀\n\n<size=45>에밀의 낭만 이론 - 하</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			actor = 802010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
+			actor = 802010,
+			nameColor = "#92fc63",
 			say = "낭만이란 건 보여주기 위한 게 아니라, 상대가 알 수 있도록 전하는 마음이라고 난 생각해.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -83,9 +83,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "에밀은 미소지으며 내 손을 두 손으로 감싸 쥐었다.",
 			typewriter = {
 				speed = 0.05,
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "에밀의 말에서 사랑과 낭만을 느꼈다.",
 			typewriter = {
 				speed = 0.05,
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "쥐고 있던 한 손을 놓고, 다른 한 손으로 내 손을 끌어 한 발, 두 발, 가볍게 스텝을 밟으며……",
 			typewriter = {
 				speed = 0.05,
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 802010,
+			nameColor = "#92fc63",
 			say = "지휘관은, 마지막까지 어울려주려나?",
 			typewriter = {
 				speed = 0.05,

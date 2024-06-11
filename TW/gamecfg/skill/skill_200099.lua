@@ -18,9 +18,9 @@ return {
 				speed_x = 3,
 				effect = "qingdan_yuanjuli",
 				damage_param_b = 6,
-				delay = 0.5,
 				damage_buff_id = 400,
 				life_time = 0.6,
+				delay = 0.5,
 				damage_param_a = 30,
 				damage_tag_list = {
 					"sp_far"

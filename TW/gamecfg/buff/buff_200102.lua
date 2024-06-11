@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "勇者标枪亿万斩击",
 	time = 0,
-	color = "red",
+	name = "勇者标枪亿万斩击",
+	init_effect = "",
+	id = 200102,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200102,
+	color = "red",
 	icon = 200102,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 55,
+				target = "TargetSelf",
 				skill_id = 200102
 			}
 		}

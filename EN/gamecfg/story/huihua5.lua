@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUIHUA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUIHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Ceremonial Gala\n\n<size=45>Chapter 5: Essex and Enterprise</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_school",
 			bgm = "story-1",
 			actor = 107090,
 			nameColor = "#a9f548",
 			say = "... I guess I still can't beat you.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,12 +53,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "Don't tell me you're giving up?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Don't tell me you're giving up?",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Enterprise...",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 408011,
 			dir = 1,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "For the competition, of course! We Iron Bloods can learn so much from observation alone!",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "(Hmph. To think she's so friendly with that Grey Ghost...) None of my business...",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Seemed boring to me.",
 			typewriter = {
@@ -320,10 +320,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 107090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "(Who would've thought colleagues from different camps could just talk to each other like this... wild...)",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "But like, making friends and whatever, that's kind of...",
 			typewriter = {
@@ -384,12 +384,12 @@ return {
 			}
 		},
 		{
-			actor = 301013,
+			say = "Hey! Don't be so high strung! It's a festival!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hey! Don't be so high strung! It's a festival!",
+			actor = 301013,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -407,8 +407,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Huh?",
 			typewriter = {
@@ -440,8 +440,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Wait a minute! Don't you get me mixed up in this!",
 			typewriter = {
@@ -454,8 +454,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -467,8 +467,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Where's the harm? The more the merrier!",
 			typewriter = {
@@ -500,8 +500,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "... Hmph. Yeah, sure, whatever.",
 			typewriter = {
@@ -514,12 +514,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			actorScale = 0.6,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Gotcha, nya! You're the one who left that smoke bomb, nya!",
 			effects = {
 				{
@@ -537,8 +537,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -554,8 +554,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					number = 3
@@ -571,8 +571,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					number = 3
@@ -583,8 +583,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Aiee! Akashi caught up to me!",
 			effects = {
@@ -603,8 +603,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -616,8 +616,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 408011,
 			dir = 1,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "She looks furious! What the heck did you do?",
 			typewriter = {
@@ -630,8 +630,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -640,11 +640,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "No time to explain! Skedaddle!",
 			typewriter = {
 				speed = 0.05,
@@ -656,8 +656,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.2,
 					dur = 0.8,
 					x = -2250
@@ -668,8 +668,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Whaaaaa?!?!",
 			typewriter = {
@@ -682,8 +682,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

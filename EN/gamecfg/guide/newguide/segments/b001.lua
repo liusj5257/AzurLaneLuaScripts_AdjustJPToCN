@@ -36,8 +36,8 @@ return {
 				"ShowStick"
 			},
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[1]
@@ -49,8 +49,8 @@ return {
 				"ShowStick"
 			},
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[2]
@@ -68,8 +68,8 @@ return {
 				"ShowSkill_2"
 			},
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[3]
@@ -93,8 +93,8 @@ return {
 				"ShowSkill_2"
 			},
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[4]
@@ -112,8 +112,8 @@ return {
 				"ShowSkill_1"
 			},
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[5]
@@ -137,8 +137,8 @@ return {
 				"ShowSkill_1"
 			},
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[6]

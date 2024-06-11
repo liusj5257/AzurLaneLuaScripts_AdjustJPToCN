@@ -5,7 +5,7 @@ slot0.STATE_GOT_TICKET = 2
 slot0.GIFT_STATE_EMPTY = 0
 slot0.GIFT_STATE_GOT = 1
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.tid
 	slot0.tid = slot0.id
 	slot0.configId = slot0:FindFeastConfigIdByGroupId(slot0.id)
@@ -16,7 +16,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.giftState = uv0.GIFT_STATE_EMPTY
 end
 
-function slot0.FindFeastConfigIdByGroupId(slot0, slot1)
+slot0.FindFeastConfigIdByGroupId = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FEAST)
 
 	assert(slot2)
@@ -33,27 +33,27 @@ function slot0.FindFeastConfigIdByGroupId(slot0, slot1)
 	return nil
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_partyinvitation_template
 end
 
-function slot0.SetInvitationState(slot0, slot1)
+slot0.SetInvitationState = function(slot0, slot1)
 	slot0.invitationStatus = slot1
 end
 
-function slot0.GetInvitationState(slot0)
+slot0.GetInvitationState = function(slot0)
 	return slot0.invitationStatus
 end
 
-function slot0.SetGiftState(slot0, slot1)
+slot0.SetGiftState = function(slot0, slot1)
 	slot0.giftState = slot1
 end
 
-function slot0.GetGiftState(slot0)
+slot0.GetGiftState = function(slot0)
 	return slot0.giftState
 end
 
-function slot0.GetTicketConsume(slot0)
+slot0.GetTicketConsume = function(slot0)
 	slot1 = slot0:getConfig("invitationID")
 
 	return {
@@ -63,7 +63,7 @@ function slot0.GetTicketConsume(slot0)
 	}
 end
 
-function slot0.GetGiftConsume(slot0)
+slot0.GetGiftConsume = function(slot0)
 	slot1 = slot0:getConfig("giftID")
 
 	return {
@@ -73,31 +73,31 @@ function slot0.GetGiftConsume(slot0)
 	}
 end
 
-function slot0.GetSkinId(slot0)
+slot0.GetSkinId = function(slot0)
 	return slot0:getConfig("skinId")
 end
 
-function slot0.GetPrefab(slot0)
+slot0.GetPrefab = function(slot0)
 	return pg.ship_skin_template[slot0:GetSkinId()].prefab
 end
 
-function slot0.GotTicket(slot0)
+slot0.GotTicket = function(slot0)
 	return slot0:GetInvitationState() == uv0.STATE_GOT_TICKET
 end
 
-function slot0.GotGift(slot0)
+slot0.GotGift = function(slot0)
 	return slot0:GetGiftState() == uv0.GIFT_STATE_GOT
 end
 
-function slot0.HasTicket(slot0)
+slot0.HasTicket = function(slot0)
 	return slot0:GetInvitationState() == uv0.STATE_MAKE_TICKET
 end
 
-function slot0.GetShipName(slot0)
+slot0.GetShipName = function(slot0)
 	return ShipGroup.getDefaultShipConfig(slot0.tid).name
 end
 
-function slot0.GetDialogueForTicket(slot0)
+slot0.GetDialogueForTicket = function(slot0)
 	if slot0:GotTicket() then
 		return slot0:getConfig("getletter")
 	else
@@ -105,7 +105,7 @@ function slot0.GetDialogueForTicket(slot0)
 	end
 end
 
-function slot0.GetDialogueForGift(slot0)
+slot0.GetDialogueForGift = function(slot0)
 	if slot0:GotGift() then
 		return slot0:getConfig("getgift")
 	else
@@ -113,7 +113,7 @@ function slot0.GetDialogueForGift(slot0)
 	end
 end
 
-function slot0.GetSpeechContent(slot0, slot1, slot2)
+slot0.GetSpeechContent = function(slot0, slot1, slot2)
 	slot4 = {
 		"feeling",
 		"drinkfeeling",
@@ -128,11 +128,11 @@ function slot0.GetSpeechContent(slot0, slot1, slot2)
 	return slot0:getConfig(slot4[slot3])[slot2] or ""
 end
 
-function slot0.GetInvitationStory(slot0)
+slot0.GetInvitationStory = function(slot0)
 	return slot0:getConfig("getletter_story")
 end
 
-function slot0.GetGiftStory(slot0)
+slot0.GetGiftStory = function(slot0)
 	return slot0:getConfig("getgift_story")
 end
 

@@ -58,7 +58,7 @@ slot15 = {
 	}
 }
 
-function slot16(slot0, slot1)
+slot16 = function(slot0, slot1)
 	slot2 = {
 		ctor = function (slot0)
 			slot0._tf = uv0
@@ -368,7 +368,7 @@ end
 
 slot0.EnemyDistanceData = {}
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._enemyContent = slot1
 	slot0._lineContent = slot2
 	slot0._tpl = slot3
@@ -391,7 +391,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.colliderTestTf, false)
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0.moveSpeed = LaunchBallGameVo.gameRoundData.speed
 	uv0.EnemyDistanceData = {}
 	slot0.gameRoundData = LaunchBallGameVo.gameRoundData
@@ -447,7 +447,7 @@ end
 
 slot0.moveCount = 0
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	uv0.moveCount = 0
 
 	slot0:checkEnemyRuleUpdate()
@@ -464,7 +464,7 @@ function slot0.step(slot0)
 	slot0:updateEnemyData()
 end
 
-function slot0.updateEnemyData(slot0)
+slot0.updateEnemyData = function(slot0)
 	if not slot0.lastPointDistance then
 		slot0.lastPointDistance = {}
 
@@ -487,13 +487,13 @@ function slot0.updateEnemyData(slot0)
 	LaunchBallGameVo.enemyToEndRate = slot1
 end
 
-function slot0.checkEnemyDataUpdate(slot0)
+slot0.checkEnemyDataUpdate = function(slot0)
 	if slot0.currentEnemyRule == nil then
 		slot0.currentEnemyRule = slot0:getEnemyRule()
 	end
 end
 
-function slot0.checkTargetScore(slot0)
+slot0.checkTargetScore = function(slot0)
 	if LaunchBallGameVo.gameRoundData.target and LaunchBallGameVo.gameRoundData.target <= LaunchBallGameVo.scoreNum then
 		return true
 	end
@@ -501,7 +501,7 @@ function slot0.checkTargetScore(slot0)
 	return false
 end
 
-function slot0.checkCreateEnemy(slot0)
+slot0.checkCreateEnemy = function(slot0)
 	if slot0:checkTargetScore() then
 		return
 	end
@@ -525,7 +525,7 @@ function slot0.checkCreateEnemy(slot0)
 	end
 end
 
-function slot0.checkRemoveEnemy(slot0)
+slot0.checkRemoveEnemy = function(slot0)
 	for slot4, slot5 in ipairs(slot0.enemysList) do
 		slot6 = false
 
@@ -571,7 +571,7 @@ function slot0.checkRemoveEnemy(slot0)
 	end
 end
 
-function slot0.appearEnemyBuff(slot0, slot1, slot2, slot3, slot4)
+slot0.appearEnemyBuff = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = LaunchBallGameConst.enemy_buff_data[slot1]
 
 	if slot1 == LaunchBallGameConst.enemy_buff_slow then
@@ -613,7 +613,7 @@ function slot0.appearEnemyBuff(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.moveEnmey(slot0)
+slot0.moveEnmey = function(slot0)
 	slot1 = nil
 
 	if slot0.enemyStopTime and slot0.enemyStopTime > 0 then
@@ -704,7 +704,7 @@ function slot0.moveEnmey(slot0)
 	end
 end
 
-function slot0.checkEnemyQuick(slot0)
+slot0.checkEnemyQuick = function(slot0)
 	if slot0.backFlag then
 		return
 	end
@@ -739,7 +739,7 @@ function slot0.checkEnemyQuick(slot0)
 	end
 end
 
-function slot0.checkEnemyBack(slot0)
+slot0.checkEnemyBack = function(slot0)
 	slot0.backFlag = false
 
 	if not slot0.quickFlag then
@@ -786,7 +786,7 @@ function slot0.checkEnemyBack(slot0)
 	end
 end
 
-function slot0.updateEnemyRemoveFlag(slot0)
+slot0.updateEnemyRemoveFlag = function(slot0)
 	slot0.enemyTimeRemoveFlag = false
 
 	for slot4, slot5 in ipairs(slot0.enemysList) do
@@ -800,7 +800,7 @@ function slot0.updateEnemyRemoveFlag(slot0)
 	end
 end
 
-function slot0.checkEnemySplit(slot0)
+slot0.checkEnemySplit = function(slot0)
 	if not slot0.enemyTimeRemoveFlag and not slot0.backFlag and not slot0.quickFlag and not slot0.backEnemyFlag then
 		for slot5, slot6 in ipairs(slot0.enemysList) do
 			slot7 = 0
@@ -845,7 +845,7 @@ function slot0.checkEnemySplit(slot0)
 	end
 end
 
-function slot0.checkEnemyFinal(slot0)
+slot0.checkEnemyFinal = function(slot0)
 	if slot0:checkTargetScore() then
 		slot1 = 0
 
@@ -869,7 +869,7 @@ function slot0.checkEnemyFinal(slot0)
 	end
 end
 
-function slot0.updateEnemyVo(slot0)
+slot0.updateEnemyVo = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.enemysList) do
@@ -889,7 +889,7 @@ function slot0.updateEnemyVo(slot0)
 	LaunchBallGameVo.enemyColors = slot1
 end
 
-function slot0.updateGameResultSplitCount(slot0, slot1, slot2)
+slot0.updateGameResultSplitCount = function(slot0, slot1, slot2)
 	LaunchBallGameVo.AddGameResultData(LaunchBallGameVo.result_split_count, 1)
 
 	if slot2 > 1 then
@@ -902,7 +902,7 @@ function slot0.updateGameResultSplitCount(slot0, slot1, slot2)
 	end
 end
 
-function slot0.checkSplit(slot0, slot1, slot2)
+slot0.checkSplit = function(slot0, slot1, slot2)
 	slot3 = slot2[slot1]:getColor()
 	slot4 = 1
 	slot5 = {
@@ -981,7 +981,7 @@ function slot0.checkSplit(slot0, slot1, slot2)
 	return slot4, slot6
 end
 
-function slot0.createPoints(slot0, slot1)
+slot0.createPoints = function(slot0, slot1)
 	slot2 = {}
 	slot3 = 0
 
@@ -1034,7 +1034,7 @@ function slot0.createPoints(slot0, slot1)
 	return slot2
 end
 
-function slot0.createEnemy(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.createEnemy = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot0:getOrCreateEnemy()
 
 	slot6:setData(slot1, slot2)
@@ -1054,7 +1054,7 @@ function slot0.createEnemy(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot6
 end
 
-function slot0.createRandomEnemy(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.createRandomEnemy = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if not slot0:getEnemyDataByRule() then
 		return
 	end
@@ -1078,7 +1078,7 @@ function slot0.createRandomEnemy(slot0, slot1, slot2, slot3, slot4, slot5, slot6
 	return slot8
 end
 
-function slot0.getEnemyBuff(slot0)
+slot0.getEnemyBuff = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, #slot0.enemyBuffs.buffs do
@@ -1116,7 +1116,7 @@ function slot0.getEnemyBuff(slot0)
 	return nil
 end
 
-function slot0.getEnemyByBuff(slot0, slot1)
+slot0.getEnemyByBuff = function(slot0, slot1)
 	for slot5 = 1, #slot0.enemysList do
 		slot6 = slot0.pointsList[slot5]
 
@@ -1130,7 +1130,7 @@ function slot0.getEnemyByBuff(slot0, slot1)
 	return nil
 end
 
-function slot0.getOrCreateEnemy(slot0)
+slot0.getOrCreateEnemy = function(slot0)
 	slot1 = nil
 
 	if #slot0.enemyPool > 0 then
@@ -1146,7 +1146,7 @@ function slot0.getOrCreateEnemy(slot0)
 	return slot1
 end
 
-function slot0.sortEnemys(slot0, slot1)
+slot0.sortEnemys = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		return slot0:getDistance() < slot1:getDistance()
 	end)
@@ -1156,12 +1156,12 @@ function slot0.sortEnemys(slot0, slot1)
 	end
 end
 
-function slot0.returnEnemy(slot0, slot1)
+slot0.returnEnemy = function(slot0, slot1)
 	slot1:setActive(false)
 	table.insert(slot0.enemyPool, slot1)
 end
 
-function slot0.getEnemyDataByRule(slot0)
+slot0.getEnemyDataByRule = function(slot0)
 	if not slot0.currentEnemyRule then
 		slot0.currentEnemyRule = slot0:getEnemyRule()
 	end
@@ -1185,7 +1185,7 @@ function slot0.getEnemyDataByRule(slot0)
 	return nil
 end
 
-function slot0.getEnemyById(slot0, slot1)
+slot0.getEnemyById = function(slot0, slot1)
 	for slot5 = 1, #slot0.enemyDatas do
 		if slot0.enemyDatas[slot5].data.id == slot1 then
 			return slot0.enemyDatas[slot5]
@@ -1197,7 +1197,7 @@ function slot0.getEnemyById(slot0, slot1)
 	return nil
 end
 
-function slot0.checkEnemyRuleUpdate(slot0)
+slot0.checkEnemyRuleUpdate = function(slot0)
 	slot1 = false
 
 	for slot5 = 1, #slot0.rounds do
@@ -1211,7 +1211,7 @@ function slot0.checkEnemyRuleUpdate(slot0)
 	end
 end
 
-function slot0.getEnemysInBounds(slot0, slot1, slot2)
+slot0.getEnemysInBounds = function(slot0, slot1, slot2)
 	slot3 = slot0._enemyContent:InverseTransformPoint(slot1)
 	slot0.colliderTestTf.anchoredPosition = slot0._enemyContent:InverseTransformPoint(slot2)
 	slot5 = {}
@@ -1229,7 +1229,7 @@ function slot0.getEnemysInBounds(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot0.getEnemyRule(slot0)
+slot0.getEnemyRule = function(slot0)
 	slot1 = nil
 	slot2 = math.random(0, slot0.maxWeight)
 	slot3 = nil
@@ -1267,7 +1267,7 @@ function slot0.getEnemyRule(slot0)
 	return slot1
 end
 
-function slot0.createRoundData(slot0)
+slot0.createRoundData = function(slot0)
 	slot1 = 0
 	slot0.rounds = {}
 	slot2 = LaunchBallGameVo.gameStepTime
@@ -1290,7 +1290,7 @@ function slot0.createRoundData(slot0)
 	slot0.maxWeight = slot1
 end
 
-function slot0.checkAmulet(slot0, slot1)
+slot0.checkAmulet = function(slot0, slot1)
 	slot2 = slot1.tf.position
 	slot0.fireIndex = slot1.fireIndex
 	slot3 = slot1.color
@@ -1353,7 +1353,7 @@ function slot0.checkAmulet(slot0, slot1)
 	return false
 end
 
-function slot0.checkPositionIn(slot0, slot1)
+slot0.checkPositionIn = function(slot0, slot1)
 	for slot5 = 1, #slot0.enemysList do
 		slot6 = slot0.pointsList[slot5]
 
@@ -1369,7 +1369,7 @@ function slot0.checkPositionIn(slot0, slot1)
 	return false
 end
 
-function slot0.checkWorldInEnemy(slot0, slot1)
+slot0.checkWorldInEnemy = function(slot0, slot1)
 	for slot5 = 1, #slot0.enemysList do
 		slot6 = slot0.pointsList[slot5]
 
@@ -1385,7 +1385,7 @@ function slot0.checkWorldInEnemy(slot0, slot1)
 	return false
 end
 
-function slot0.getBackBuff(slot0)
+slot0.getBackBuff = function(slot0)
 	for slot5 = 1, #LaunchBallGameVo.buffs do
 		if slot1[slot5].data.type == LaunchBallPlayerControl.buff_amulet_back then
 			return true
@@ -1395,7 +1395,7 @@ function slot0.getBackBuff(slot0)
 	return false
 end
 
-function slot0.getEnemyByColor(slot0, slot1, slot2)
+slot0.getEnemyByColor = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0.enemyDatas do
 		if slot0.enemyDatas[slot6].data.color == slot1 and slot0.enemyDatas[slot6].data.player == slot2 then
 			return slot0.enemyDatas[slot6]
@@ -1403,13 +1403,13 @@ function slot0.getEnemyByColor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setBackTime(slot0, slot1, slot2, slot3)
+slot0.setBackTime = function(slot0, slot1, slot2, slot3)
 	slot0.backEnemyTime = slot1
 	slot0.moveBackIndex = slot2
 	slot0.backSpeed = slot3 or uv0
 end
 
-function slot0.eventCall(slot0, slot1, slot2)
+slot0.eventCall = function(slot0, slot1, slot2)
 	if slot1 == LaunchBallGameScene.PLAYING_CHANGE then
 		-- Nothing
 	elseif slot1 == LaunchBallGameScene.FIRE_AMULET then
@@ -1426,7 +1426,7 @@ function slot0.eventCall(slot0, slot1, slot2)
 	end
 end
 
-function slot0.stopEnemysAnim(slot0, slot1)
+slot0.stopEnemysAnim = function(slot0, slot1)
 	for slot5 = 1, #slot0.enemysList do
 		slot6 = slot0.pointsList[slot5]
 
@@ -1436,13 +1436,13 @@ function slot0.stopEnemysAnim(slot0, slot1)
 	end
 end
 
-function slot0.press(slot0, slot1)
+slot0.press = function(slot0, slot1)
 	if slot1 == KeyCode.J then
 		-- Nothing
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
 return slot0

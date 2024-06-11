@@ -1,6 +1,6 @@
 slot0 = class("IslandRequestCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = pg.TimeMgr.GetInstance()
 	slot3 = slot3:GetServerTime()
 	slot4 = pg.ConnectionMgr.GetInstance()

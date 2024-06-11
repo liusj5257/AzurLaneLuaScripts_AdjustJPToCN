@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Light Carrier Ryuujou, Moving Out!\n\n<size=45>Chapter 3: Focus! Don't stop until you've reached your goal!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Warehouse Workshop",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Warehouse Workshop",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "At the workshop, two people are inspecting the materials brought back from commissions.",
 			typewriter = {
 				speed = 0.05,
@@ -91,10 +91,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Good for you. Anyway, next!",
+			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Good for you. Look over this as well.",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Mhm. Two more things to look over... I think this commission was a Great Success!",
 			typewriter = {
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "Appreciate it. Wait... isn't that your job in the first place as secretary?",
 			typewriter = {
 				speed = 0.05,
@@ -207,8 +207,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -217,14 +217,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "At last, the two of them finished their work.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Junyou, I'll be frank. We're very busy, so we can't have you dragging Commander off to a date.",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "... ...",
 			typewriter = {
@@ -329,10 +329,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 306060,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "... A date, with Milord...",
 			typewriter = {
 				speed = 0.05,
@@ -346,10 +346,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 306060,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "... I wonder what that would feel like...",
 			typewriter = {
 				speed = 0.05,

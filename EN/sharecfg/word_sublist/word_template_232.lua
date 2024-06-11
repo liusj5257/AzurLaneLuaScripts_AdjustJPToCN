@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_232 = {}
 slot1 = slot0.word_template_232
 
-function temp()
+temp = function()
 	uv0["签"] = {
 		["字"] = {
 			["是"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["愆"] = {
 		this = {
 			this = true
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鉛"] = {
 		["彈"] = {
 			["氣"] = {
@@ -54,7 +54,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["僉"] = {
 		this = {
 			this = true
@@ -64,7 +64,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["搴"] = {
 		this = {
 			this = true
@@ -74,7 +74,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["钤"] = {
 		this = {
 			this = true
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["前"] = {
 		["例"] = {
 			["腺"] = {

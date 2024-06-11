@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19540,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19540,
+	color = "red",
 	icon = 19540,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				skill_id = 19540,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 19540,
 				check_target = {
 					"TargetPlayerFlagShip",
 					"TargetShipType"
@@ -47,9 +47,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				time = 10,
-				skill_id = 19541,
-				target = "TargetSelf"
+				skill_id = 19541
 			}
 		},
 		{
@@ -59,8 +59,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 19542,
 				time = 30,
+				skill_id = 19542,
 				target = "TargetSelf"
 			}
 		}

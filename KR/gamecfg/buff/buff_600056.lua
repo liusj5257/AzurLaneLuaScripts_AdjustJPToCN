@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.2
+					number = -0.2,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.3
+					number = -0.3,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -54,12 +54,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 600056,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 600056,
+	color = "yellow",
 	icon = 600056,
 	last_effect = "",
 	effect_list = {}

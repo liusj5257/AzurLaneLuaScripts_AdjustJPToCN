@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "战意堆叠",
 	stack = 5,
@@ -16,8 +16,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.02
+				number = 0.02,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 17304,
+				target = "TargetSelf",
 				countType = 17300
 			}
 		},
@@ -61,8 +61,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 17305,
+				target = "TargetSelf",
 				countType = 17301
 			}
 		},
@@ -84,8 +84,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 17306,
+				target = "TargetSelf",
 				countType = 17302
 			}
 		},
@@ -107,8 +107,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 17307,
+				target = "TargetSelf",
 				countType = 17303
 			}
 		},
@@ -130,8 +130,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 17308,
+				target = "TargetSelf",
 				countType = 17304
 			}
 		}

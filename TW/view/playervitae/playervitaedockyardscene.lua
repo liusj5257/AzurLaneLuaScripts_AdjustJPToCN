@@ -1,6 +1,6 @@
 slot0 = class("PlayerVitaeDockyardScene", import("view.ship.DockyardScene"))
 
-function slot0.SortShips(slot0, slot1)
+slot0.SortShips = function(slot0, slot1)
 	slot3 = getProxy(PlayerProxy):getRawData().characters
 	slot4 = {}
 	slot5 = #slot3 + 1

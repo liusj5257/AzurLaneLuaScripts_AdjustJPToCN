@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平穏を讃えて\n\n<size=45>四　悪戯タイム？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ソファに座っているニューカッスルと二人で仕事を黙々と進める。",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "ちょっとつまんないけど……下僕のサポートには十分すぎるくらいだわ！",
 			effects = {
 				{
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "あのクイーン・エリザベスはなぜかニューカッスルのことを「ちょっとつまらない」と評価しているが……",
 			effects = {
 				{
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "ふぅ…………",
 			typewriter = {
 				speed = 0.05,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -213,14 +213,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "あれこれ色々試してみたが、彼女はついに一回もこちらに反応することは無かった。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -283,13 +283,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
 			say = "（ドカーン！！）",
-			dir = 1,
-			optionFlag = 1,
-			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -301,10 +301,10 @@ return {
 			}
 		},
 		{
-			optionFlag = 1,
+			blackBg = true,
 			side = 2,
 			dir = 1,
-			blackBg = true,
+			optionFlag = 1,
 			say = "科学部の方角から轟音とともに執務室が猛烈に揺れ、視界も一瞬で真っ暗に――",
 			typewriter = {
 				speed = 0.05,
@@ -312,18 +312,18 @@ return {
 			}
 		},
 		{
-			optionFlag = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgmDelay = 1,
+			side = 2,
+			dir = 1,
+			optionFlag = 1,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 202190,
 			nameColor = "#a9f548",
 			say = "貴方様？ご無事ですか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "今のはアクシデント……それともお望み通りのことなのでしょうか？",
 			typewriter = {
 				speed = 0.05,
@@ -387,12 +387,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "ご希望されるのでしたら、このままずっと堪能していただいても構いませんよ。……後で残業することにはなるでしょうが",
 			typewriter = {
 				speed = 0.05,

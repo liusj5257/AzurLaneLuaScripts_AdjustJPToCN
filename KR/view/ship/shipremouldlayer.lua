@@ -6,11 +6,11 @@ slot4 = 9
 slot5 = 55
 slot6 = Vector2(-5, 25)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipRemouldUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.container = slot0:findTF("main/bg/container")
 	slot0.gridContainer = slot0:findTF("grids", slot0.container)
 	slot0.gridTF = slot0:findTF("grid_tpl", slot0.gridContainer)
@@ -49,7 +49,7 @@ function slot0.init(slot0)
 	setActive(slot0.tooltip, false)
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.playerVO = slot1
 
 	if slot0.curtransformId then
@@ -57,23 +57,23 @@ function slot0.setPlayer(slot0, slot1)
 	end
 end
 
-function slot0.setItems(slot0, slot1)
+slot0.setItems = function(slot0, slot1)
 	slot0.itemsVO = slot1
 end
 
-function slot0.getItemCount(slot0, slot1)
+slot0.getItemCount = function(slot0, slot1)
 	return (slot0.itemsVO[slot1] or Item.New({
 		count = 0,
 		id = slot1
 	})).count
 end
 
-function slot0.setShipVO(slot0, slot1)
+slot0.setShipVO = function(slot0, slot1)
 	slot0.shipVO = slot1
 	slot0.shipGroupId = math.floor(slot0.shipVO:getGroupId())
 end
 
-function slot0.getShipTranformData(slot0)
+slot0.getShipTranformData = function(slot0)
 	slot1 = pg.ship_data_trans[slot0.shipGroupId]
 
 	assert(slot1, "config missed [pg.ship_data_trans] shipGroup>>>." .. slot0.shipGroupId)
@@ -89,12 +89,12 @@ function slot0.getShipTranformData(slot0)
 	return slot2
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initTranformInfo()
 	slot0:initShipModel()
 end
 
-function slot0.initTranformInfo(slot0)
+slot0.initTranformInfo = function(slot0)
 	slot0.transformIds = slot0:getShipTranformData()
 	slot0.grids = {}
 
@@ -128,7 +128,7 @@ function slot0.initTranformInfo(slot0)
 	end
 end
 
-function slot0.initLines(slot0, slot1)
+slot0.initLines = function(slot0, slot1)
 	slot2 = 270
 	slot3 = 75
 	slot0.lineTFs[slot1] = {}
@@ -170,7 +170,7 @@ function slot0.initLines(slot0, slot1)
 	end
 end
 
-function slot0.updateLines(slot0)
+slot0.updateLines = function(slot0)
 	for slot4, slot5 in pairs(slot0.transformIds) do
 		slot0:updateGridTF(slot4)
 
@@ -186,11 +186,11 @@ function slot0.updateLines(slot0)
 	end
 end
 
-function slot0.getLevelById(slot0, slot1)
+slot0.getLevelById = function(slot0, slot1)
 	return pg.transform_data_template[slot1].level_limit
 end
 
-function slot0.getTransformLevel(slot0, slot1)
+slot0.getTransformLevel = function(slot0, slot1)
 	if not slot0.shipVO.transforms[slot1] then
 		return 0
 	else
@@ -202,7 +202,7 @@ slot0.STATE_FINISHED = 1
 slot0.STATE_ACTIVE = 2
 slot0.STATE_LOCK = 3
 
-function slot0.getTransformState(slot0, slot1)
+slot0.getTransformState = function(slot0, slot1)
 	if slot0:getTransformLevel(slot1) == pg.transform_data_template[slot1].max_level then
 		return uv0.STATE_FINISHED
 	elseif slot0:canRemould(slot1) then
@@ -212,7 +212,7 @@ function slot0.getTransformState(slot0, slot1)
 	end
 end
 
-function slot0.updateGridTF(slot0, slot1)
+slot0.updateGridTF = function(slot0, slot1)
 	slot2 = slot0.grids[slot1]
 	slot3 = pg.transform_data_template[slot1]
 
@@ -275,14 +275,14 @@ function slot0.updateGridTF(slot0, slot1)
 	end
 end
 
-function slot0.initShipModel(slot0)
+slot0.initShipModel = function(slot0)
 	slot1 = slot0.shipVO:getPrefab()
 
 	if slot0.shipContainer.childCount ~= 0 then
 		PoolMgr.GetInstance():ReturnSpineChar(slot1, go(slot0.shipModel))
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		if not IsNil(uv0._tf) then
 			slot1 = tf(slot0)
 			uv0.shipModel = slot1
@@ -307,7 +307,7 @@ function slot0.initShipModel(slot0)
 	end)
 end
 
-function slot0.updateInfo(slot0, slot1)
+slot0.updateInfo = function(slot0, slot1)
 	if slot0:isFinished(slot1) then
 		slot0:updateFinished(slot1)
 	else
@@ -315,7 +315,7 @@ function slot0.updateInfo(slot0, slot1)
 	end
 end
 
-function slot0.updateFinished(slot0, slot1)
+slot0.updateFinished = function(slot0, slot1)
 	slot0.curtransformId = slot1
 	slot0.infoName.text = pg.transform_data_template[slot1].name
 	slot4 = {}
@@ -434,7 +434,7 @@ function slot0.updateFinished(slot0, slot1)
 	slot0.contextData.transformId = slot1
 end
 
-function slot0.updateProgress(slot0, slot1)
+slot0.updateProgress = function(slot0, slot1)
 	slot0.curtransformId = slot1
 	slot3 = pg.transform_data_template[slot1]
 	slot0.infoName.text = slot3.name
@@ -638,7 +638,7 @@ function slot0.updateProgress(slot0, slot1)
 	slot0.contextData.transformId = slot1
 end
 
-function slot0.isUnlock(slot0, slot1)
+slot0.isUnlock = function(slot0, slot1)
 	if not slot0:isUnLockPrev(slot1) then
 		return false
 	end
@@ -654,7 +654,7 @@ function slot0.isUnlock(slot0, slot1)
 	return true
 end
 
-function slot0.isFinished(slot0, slot1)
+slot0.isFinished = function(slot0, slot1)
 	if pg.transform_data_template[slot1].max_level == slot0:getTransformLevel(slot1) then
 		return true
 	end
@@ -662,11 +662,11 @@ function slot0.isFinished(slot0, slot1)
 	return false
 end
 
-function slot0.isReachStar(slot0, slot1)
+slot0.isReachStar = function(slot0, slot1)
 	return pg.transform_data_template[slot1].star_limit <= slot0.shipVO:getStar()
 end
 
-function slot0.canRemould(slot0, slot1)
+slot0.canRemould = function(slot0, slot1)
 	if not slot0:isUnLockPrev(slot1) then
 		return false, i18n("ship_remould_prev_lock"), {
 			1
@@ -698,7 +698,7 @@ function slot0.canRemould(slot0, slot1)
 	return true
 end
 
-function slot0.isUnLockPrev(slot0, slot1)
+slot0.isUnLockPrev = function(slot0, slot1)
 	for slot6, slot7 in pairs(pg.transform_data_template[slot1].condition_id) do
 		slot8 = pg.transform_data_template[slot7]
 
@@ -710,7 +710,7 @@ function slot0.isUnLockPrev(slot0, slot1)
 	return true
 end
 
-function slot0.isEnoughResource(slot0, slot1)
+slot0.isEnoughResource = function(slot0, slot1)
 	slot4 = ipairs
 	slot5 = pg.transform_data_template[slot1].use_item[slot0:getTransformLevel(slot1) + 1] or {}
 
@@ -731,7 +731,7 @@ function slot0.isEnoughResource(slot0, slot1)
 	return true
 end
 
-function slot0.updateAttrTF(slot0, slot1, slot2, slot3)
+slot0.updateAttrTF = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 and "%" or ""
 
 	setText(slot1:Find("name"), slot2.attrName)
@@ -740,12 +740,12 @@ function slot0.updateAttrTF(slot0, slot1, slot2, slot3)
 	setText(slot1:Find("addtion"), (slot2.addition > 0 and "+" .. slot2.addition or slot2.addition) .. slot4)
 end
 
-function slot0.updateAttrTF_D(slot0, slot1, slot2, slot3)
+slot0.updateAttrTF_D = function(slot0, slot1, slot2, slot3)
 	setText(slot1:Find("name"), slot2.attrName)
 	setText(slot1:Find("value"), (slot2.addition > 0 and "+" .. slot2.addition or slot2.addition) .. (slot3 and "%" or ""))
 end
 
-function slot0.showToolTip(slot0, slot1)
+slot0.showToolTip = function(slot0, slot1)
 	if not slot0.shipVO then
 		return
 	end
@@ -856,12 +856,12 @@ function slot0.showToolTip(slot0, slot1)
 	})
 end
 
-function slot0.closeTip(slot0)
+slot0.closeTip = function(slot0)
 	setActive(slot0.tooltip, false)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.tooltip, slot0._tf)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.helpBtn then
 		setActive(slot0.helpBtn, true)
 	end
@@ -869,7 +869,7 @@ function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.tooltip, slot0._tf)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.tooltip) then
 		slot0:closeTip()
 

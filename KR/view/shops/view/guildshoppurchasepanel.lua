@@ -1,10 +1,10 @@
 slot0 = class("GuildShopPurchasePanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildShopPurchaseMsgUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.list = UIItemList.New(slot0:findTF("got/bottom/scroll/list"), slot0:findTF("got/bottom/scroll/list/tpl"))
 	slot0.confirmBtn = slot0:findTF("confirm")
 	slot0.descTxt = slot0:findTF("got/top/desc"):GetComponent(typeof(Text))
@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	slot0.resIcon = slot0:findTF("confirm/consume/icon")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if #uv0.selectedList == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_shop_must_select_goods"))
@@ -35,11 +35,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnConfirm(slot0)
+slot0.OnConfirm = function(slot0)
 	slot0:emit(NewShopsMediator.ON_GUILD_SHOPPING, slot0.data.id, slot0.selectedList)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
@@ -59,12 +59,12 @@ function slot0.Show(slot0, slot1)
 	slot0.descTxt.text = ""
 end
 
-function slot0.UpdateValue(slot0)
+slot0.UpdateValue = function(slot0)
 	slot0.exchagneCnt.text = (slot0.maxCnt - #slot0.selectedList > 0 and "<color=#92FC63FF>" .. slot1 .. "</color>/" or "<color=#FF5C5CFF>" .. slot1 .. "</color>/") .. slot0.maxCnt
 	slot0.consumeCnt.text = slot0.data.price * #slot0.selectedList
 end
 
-function slot0.InitList(slot0)
+slot0.InitList = function(slot0)
 	slot0.displays = slot0.data.displays
 
 	slot0.list:make(function (slot0, slot1, slot2)
@@ -75,7 +75,7 @@ function slot0.InitList(slot0)
 	slot0.list:align(#slot0.displays)
 end
 
-function slot0.UpdateItem(slot0, slot1, slot2, slot3)
+slot0.UpdateItem = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1.type
 
 	updateDrop(slot3:Find("item/bg"), {
@@ -121,7 +121,7 @@ function slot0.UpdateItem(slot0, slot1, slot2, slot3)
 	end)()
 end
 
-function slot0.ClearZeroItem(slot0, slot1)
+slot0.ClearZeroItem = function(slot0, slot1)
 	slot2 = slot0.list
 
 	slot2:each(function (slot0, slot1)
@@ -134,13 +134,13 @@ function slot0.ClearZeroItem(slot0, slot1)
 	end)
 end
 
-function slot0.ClickItem(slot0, slot1, slot2)
+slot0.ClickItem = function(slot0, slot1, slot2)
 	slot0:ClearZeroItem(slot1)
 	setActive(slot1:Find("cnt"), true)
 	setActive(slot1:Find("selected"), true)
 end
 
-function slot0.PressMinusBtn(slot0, slot1, slot2)
+slot0.PressMinusBtn = function(slot0, slot1, slot2)
 	if #slot0.selectedList == 0 then
 		return
 	end
@@ -156,7 +156,7 @@ function slot0.PressMinusBtn(slot0, slot1, slot2)
 	slot0:UpdateValue()
 end
 
-function slot0.PressAddBtn(slot0, slot1, slot2)
+slot0.PressAddBtn = function(slot0, slot1, slot2)
 	if #slot0.selectedList == slot0.maxCnt then
 		return
 	end
@@ -165,7 +165,7 @@ function slot0.PressAddBtn(slot0, slot1, slot2)
 	slot0:UpdateValue()
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0:isShowing() then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	end
@@ -179,7 +179,7 @@ function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

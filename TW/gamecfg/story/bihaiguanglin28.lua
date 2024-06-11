@@ -1,17 +1,17 @@
 return {
-	id = "BIHAIGUANGLIN28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN28",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
+			bgm = "battle-longgong",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
 			say = "轟————————！",
-			dir = 1,
-			bgm = "battle-longgong",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "如果能利用之前的機關進行戰鬥的話，戰斗說不定會輕鬆一些。",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "現在已經是決戰了，要不然把四個都打開吧！",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 		{
 			actor = 301290,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "時間緊迫，只有島風的速度能在最短時間內開啟四處機關，這次任務就交給我吧！",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "可是……",
 			typewriter = {
 				speed = 0.05,
@@ -187,10 +187,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 301290,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "感謝歐根親王閣下……我完全明白了！大家請放心，機關的事就給我吧！",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 301290,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "是，島風明白！",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

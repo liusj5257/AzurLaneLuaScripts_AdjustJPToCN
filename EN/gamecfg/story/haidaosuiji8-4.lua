@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "The unprocessed ores you offered give off a brilliant light, and then...",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "Nothing. Your materials disappeared without a trace...",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "Do you want to try again?",
 			typewriter = {
 				speed = 0.05,

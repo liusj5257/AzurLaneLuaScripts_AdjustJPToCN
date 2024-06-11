@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_cg9",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "透過指揮艦中的作戰顯示螢幕，矗立在遠方水面上的巨大機甲清晰可見。",
 			bgm = "story-thehierophantV",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "透過指揮艦中的作戰顯示螢幕，矗立在遠方水面上的巨大機甲清晰可見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -36,11 +36,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "曼非斯·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "抱歉……指揮官，我們所有攻擊都破除不了它的防禦。",
 			painting = {
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -70,8 +70,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "曼非斯·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "倒是確實有些……不過也很奇怪。",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "曼非斯·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "在資料比對後，與偽神最接近的塞壬機體是仲裁者·海洛芬特·V。",
 			painting = {
@@ -106,11 +106,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "曼非斯·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "不過就算在輸入了正確的參數後，我的設備依然無法將其識別為海洛芬特。",
 			painting = {
@@ -128,8 +128,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "曼非斯·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "我懷疑，或許有什麼東西正在操控海洛芬特的機體進行行動……",
 			painting = {
@@ -145,11 +145,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "曼非斯·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "也就是有力量產生這些異象的，馬可波羅真正想要降臨的「神」。",
 			painting = {
@@ -167,8 +167,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "我也有同感！",
 			painting = {
@@ -186,8 +186,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "我以前可是跟海洛芬特打過不少交道的，它可是仲裁機關裡為數不多真正講道理的溫和派。",
 			painting = {
@@ -203,11 +203,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "{namecode:191}",
-			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "我也傾向於有某些存在正在利用它的量產型機體進行行動。",
 			painting = {
@@ -225,8 +225,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "而這些存在……讓我有很不好的感覺。",
 			painting = {
@@ -244,8 +244,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "現在的這些現象，白色的不明物質就像某種「預兆」一樣……",
 			painting = {
@@ -263,8 +263,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "預兆每次各不相同，所以在現階段我還不好確定。",
 			painting = {
@@ -280,11 +280,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "{namecode:191}",
-			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "如果真的是預兆……你們可就真的惹到不該招惹的東西了哦……",
 			painting = {
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -336,11 +336,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "馬賽曲",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "碧藍航線的指揮官，什麼時候展開總攻？",
 			painting = {
@@ -356,11 +356,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "馬賽曲",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那個怪物手裡，有我們必須奪回的東西。",
 			painting = {
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -390,8 +390,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "讓·巴爾",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "啊……聖座冠冕，那隻怪物手裡拿著的是聖座冠冕！",
 			painting = {
@@ -407,11 +407,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "馬賽曲",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒錯，所以我們必須要停止此等褻瀆行為，將聖物奪回來。",
 			painting = {
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -493,10 +493,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			say = "原來是她……那個無數次在惡夢中出現的身影。",
 			effects = {
@@ -514,11 +514,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "曼非斯",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官，您……額頭出汗了。還好嗎？",
 			painting = {
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,

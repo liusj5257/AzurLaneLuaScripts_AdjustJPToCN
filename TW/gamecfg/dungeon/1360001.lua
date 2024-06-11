@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -69,10 +69,10 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13400001,
-							reinforceDelay = 8,
 							score = 0,
 							delay = 1,
 							moveCast = true,
+							reinforceDelay = 8,
 							corrdinate = {
 								-10,
 								0,
@@ -88,9 +88,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -103,9 +103,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -118,9 +118,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -133,9 +133,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								18,
 								0,
@@ -148,9 +148,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								18,
 								0,
@@ -189,14 +189,14 @@ return {
 	fleet_prefab = {
 		vanguard_unitList = {
 			{
-				exp = 10,
-				configId = 900235,
-				tmpID = 900235,
-				skinId = 900235,
 				oil_at_end = 55,
+				configId = 900235,
+				energy = 10,
+				skinId = 900235,
+				exp = 10,
+				tmpID = 900235,
 				id = 1,
 				level = 100,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -204,15 +204,15 @@ return {
 				},
 				properties = {
 					cannon = 1000,
-					air = 0,
-					antiaircraft = 310,
+					reload = 830,
+					luck = 70,
 					torpedo = 150,
 					durability = 85567,
-					reload = 830,
-					armor = 98,
+					air = 0,
 					dodge = 164,
+					antiaircraft = 310,
 					speed = 31.5,
-					luck = 70,
+					armor = 98,
 					hit = 140
 				}
 			}

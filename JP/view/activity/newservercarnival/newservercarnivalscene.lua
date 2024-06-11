@@ -3,11 +3,11 @@ slot0.TASK_PAGE = 1
 slot0.SHOP_PAGE = 2
 slot0.GIFT_PAGE = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewServerCarnivalUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
@@ -21,11 +21,11 @@ function slot0.preload(slot0, slot1)
 	parallelAsync(slot2, slot1)
 end
 
-function slot0.SetNewServerShop(slot0, slot1)
+slot0.SetNewServerShop = function(slot0, slot1)
 	slot0.newServerShop = slot1
 end
 
-function slot0.setData(slot0)
+slot0.setData = function(slot0)
 	slot1 = getProxy(ActivityProxy)
 	slot3 = slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_SHOP)
 	slot4 = slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_GIFT)
@@ -51,7 +51,7 @@ function slot0.setData(slot0)
 	slot0.player = getProxy(PlayerProxy):getData()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.top = slot0:findTF("adapt/top", slot0.blurPanel)
 	slot0.resPanel = slot0:findTF("res", slot0.top)
@@ -72,7 +72,7 @@ function slot0.init(slot0)
 	}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -83,7 +83,7 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("gem/add_btn", slot0.resPanel), function ()
-		function slot0()
+		slot0 = function()
 			if not pg.m02:hasMediator(ChargeMediator.__cname) then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 					wrap = ChargeScene.TYPE_DIAMOND
@@ -134,11 +134,11 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.toggles[slot0.page], true)
 end
 
-function slot0.updateShopDedDot(slot0)
+slot0.updateShopDedDot = function(slot0)
 	setActive(slot0:findTF("tip", slot0.toggles[uv0.SHOP_PAGE]), slot0.newServerShopPage:isTip())
 end
 
-function slot0.updatePages(slot0)
+slot0.updatePages = function(slot0)
 	if slot0.taskActivity then
 		if not slot0.newServerTaskPage then
 			slot0.newServerTaskPage = NewServerTaskPage.New(slot0.pages[uv0.TASK_PAGE], slot0.event, slot0.contextData)
@@ -174,7 +174,7 @@ function slot0.updatePages(slot0)
 	end
 end
 
-function slot0.updateLocalRedDotData(slot0, slot1)
+slot0.updateLocalRedDotData = function(slot0, slot1)
 	if slot1 == uv0.SHOP_PAGE then
 		if slot0.newServerShopPage:isTip() and PlayerPrefs.GetInt("newserver_shop_first_" .. slot0.player.id) == 0 then
 			PlayerPrefs.SetInt("newserver_shop_first_" .. slot0.player.id, 1)
@@ -184,7 +184,7 @@ function slot0.updateLocalRedDotData(slot0, slot1)
 	end
 end
 
-function slot0.updateTime(slot0)
+slot0.updateTime = function(slot0)
 	slot3 = (slot0.taskActivity and slot0.taskActivity.stopTime or slot0.shopActivity.stopTime) - pg.TimeMgr.GetInstance():GetServerTime()
 	slot4 = math.floor(slot3 / 86400)
 
@@ -193,7 +193,7 @@ function slot0.updateTime(slot0)
 	setActive(slot0:findTF("title_shop", slot0.timeTF), not slot0.taskActivity)
 end
 
-function slot0.onUpdateTask(slot0)
+slot0.onUpdateTask = function(slot0)
 	if slot0.newServerTaskPage then
 		slot0.newServerTaskPage:onUpdateTask()
 	end
@@ -205,7 +205,7 @@ function slot0.onUpdateTask(slot0)
 	slot0:updatePages()
 end
 
-function slot0.onUpdatePlayer(slot0, slot1)
+slot0.onUpdatePlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	setText(slot0:findTF("gem/gem_value", slot0.resPanel), slot0.player:getTotalGem())
@@ -215,7 +215,7 @@ function slot0.onUpdatePlayer(slot0, slot1)
 	end
 end
 
-function slot0.onUpdateGift(slot0)
+slot0.onUpdateGift = function(slot0)
 	if slot0.newServerGiftPage then
 		slot0.newServerGiftPage:onUpdateGift()
 	end
@@ -223,10 +223,10 @@ function slot0.onUpdateGift(slot0)
 	slot0:updatePages()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
-function slot0.isShow()
+slot0.isShow = function()
 	slot0 = getProxy(ActivityProxy)
 	slot2 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_SHOP)
 	slot3 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_GIFT)
@@ -234,7 +234,7 @@ function slot0.isShow()
 	return slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_TASK) and not slot1:isEnd() or slot2 and not slot2:isEnd() or slot3 and not slot3:isEnd()
 end
 
-function slot0.isTip()
+slot0.isTip = function()
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_TASK) and not slot0:isEnd() then
 		slot1 = getProxy(TaskProxy)
 

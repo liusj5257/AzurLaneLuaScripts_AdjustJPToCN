@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"搗蛋萬聖夜！\n\n<size=45>三 害怕幽靈的魔女</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "不久前……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,13 +50,13 @@ return {
 			}
 		},
 		{
-			actor = 302040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "怎麼了，{namecode:48}？在煩惱{namecode:87}說的幽靈小姐的事情嗎？",
 			dir = -1,
 			blackBg = true,
 			bgm = "story-1",
+			actor = 302040,
+			nameColor = "#a9f548",
+			say = "怎麼了，{namecode:48}？在煩惱{namecode:87}說的幽靈小姐的事情嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,12 +69,12 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "欸？{namecode:46}姐？妳怎麼知道的——",
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "欸？{namecode:46}姐？妳怎麼知道的——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -108,9 +108,9 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "我、我果然還是不行的啦，幽靈什麼的對我來說太勉強了…",
 			typewriter = {
@@ -174,9 +174,9 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "啊…確、確實是這樣…",
 			typewriter = {
@@ -205,13 +205,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			say = "回到現在…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "啊！發現新的魔女了～嘿！",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.1,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "哇啊！！嚇、嚇了我一跳",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -324,9 +324,9 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			say = "欸…是貝利啊，這一身是…魔女？",
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "欸…是貝利啊，這一身是…魔女？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -360,8 +360,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "跟妳說哦，我剛才聽到了情報呢，幽靈小姐其實在倉庫！",
 			typewriter = {
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "那就跟貝利一起往倉庫去吧，Let's go～",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 302051,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "嗯，嗯！一起去吧！",
 			typewriter = {
@@ -438,11 +438,11 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			actorName = "{namecode:48}",
 			dir = 1,
 			blackBg = true,
 			actor = 302051,
-			actorName = "{namecode:48}",
+			nameColor = "#a9f548",
 			say = "（有同伴一起的話……我就不會那麼害怕了！）",
 			typewriter = {
 				speed = 0.05,

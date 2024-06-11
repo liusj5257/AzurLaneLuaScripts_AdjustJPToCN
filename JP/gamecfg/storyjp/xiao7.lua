@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ニンジャ暁参上！\n\n<size=45>七　約束、そして希望</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・海辺",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・海辺",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "非番の日に暁と海辺までやってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "……べ、べべべ別に響のことを諦める訳じゃないのでござるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "そしてなにより、それがしは勇敢になれる気がするのでござる！",
 			typewriter = {
 				speed = 0.05,
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "あわわ！",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "そ、それがしのことをいじめないで欲しいでござるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "はわわわ！？",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "なぜか雷と電が現れた。",
 			typewriter = {
 				speed = 0.05,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "指揮官、暁ちゃん、一緒にお昼行かない？",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -422,9 +422,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "いつか第六駆逐隊がみんな揃ったら、その時暁はどんな顔をするだろうか。",
 			typewriter = {
 				speed = 0.05,

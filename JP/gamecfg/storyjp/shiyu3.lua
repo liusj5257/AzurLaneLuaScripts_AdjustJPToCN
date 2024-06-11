@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"世話焼き娘はダテじゃない\n\n<size=45>三 お掃除開始！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301140,
-			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "わぅ！時雨に頼まれてきてやったぞ！",
 			bgm = "story-1",
+			actor = 301140,
+			nameColor = "#a9f548",
+			say = "わぅ！時雨に頼まれてきてやったぞ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "山城を見送った後でもっと助っ人を呼ぼうということになり、時雨が夕立を呼んできてくれた。",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "他の姉妹艦の子たちも各所の点検で忙しいし、白露に至ってはここを上手く見つけられるかが不安ということで、参道の掃除はこの三人で頑張るしかなさそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "なぁなぁ、これ終わったらなにか食べさせてくれるのか？タダ働きはヤダぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "時雨と夕立がいなくなったところで、箒を手にして掃除を始めることにした――",
 			typewriter = {
 				speed = 0.05,
@@ -178,13 +178,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_129",
+			side = 2,
+			dir = 1,
 			say = "――だいぶ掃除も進んだが、時雨たちの姿は一向に見えない。そろそろ遭遇してもおかしくないのだが……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "バカ夕立ーっ！どこにいるの！！",
 			effects = {
 				{
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "突然時雨の声が聞こえてきて顔をあげると、なぜか彼女は参道ではなく鎮守の森の茂みから姿を見せた。",
 			effects = {
 				{
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "あの子ったら途中で「うまそうな匂いだ！」とか言い出してどっか行っちゃったのよ！信じられない！",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "時雨の手料理はたしかに魅力的な提案だが、あの夕立のことを考えると目移りしてしまうことも有り得そうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "というわけで、時雨と手分けして探そうと踵を返そうとした瞬間――",
 			typewriter = {
 				speed = 0.05,
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "心配し過ぎと一瞬思ったが、彼女がそこまで言うのなら――",
 			typewriter = {
 				speed = 0.05,
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "そうそう、大人しくこの時雨様と「一緒に」夕立を探しなさいな、このバカ指揮官！",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

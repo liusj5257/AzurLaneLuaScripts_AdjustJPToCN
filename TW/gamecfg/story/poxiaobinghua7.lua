@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			bgm = "bgm-cccp2",
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "這樣一來就全部解決了。正式向您問候，指揮官。我是“密室”駐防艦隊旗艦、北方聯合重巡洋艦塔林。",
-			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Здравствуйте(您好)、終於正式見面了指揮官同志~呼呼，比剛才在通訊器裡看得清楚多了！",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "這位同樣是駐防艦隊的成員，驅逐艦洪亮。",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "嘿嘿，指揮官同志你好！我是北方聯合的驅逐艦洪亮，希望能在本次行動中為您帶來幫助！",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "指揮官，雖然是第一次合作，不過你的指揮能力我認可了。",
 			typewriter = {
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "多謝誇獎。",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "（從塔林這裡感受到一股強烈的壓迫感，不愧是曾經有過鐵血生活經歷的艦隊旗艦……）",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "不過“密室”無恙……是指“密室”就在周邊區域的意思嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "沒錯，指揮官同志，歡迎來到處於北方聯合嚴密看管下的“密室”所在區域~！",
 			typewriter = {
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "……從漂浮的冰山與凜冽的寒風來看，這裡依然位於極地海域中的某處。",
 			typewriter = {
 				speed = 0.05,
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "除此之外……周邊倒是有不少在此前戰鬥中被摧毀的塞壬殘骸，以及正在清理戰場的北方聯合後勤部隊。",
 			typewriter = {
 				speed = 0.05,
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "再向遠方看，就是被徹底冰封的海面與一望無際的雪白，沒有任何平台、設施與人造物的痕跡。",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "這裡就像在極地之中隨處可見的任何一處海域一樣。",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "指揮官看上去充滿疑惑啊，妳們居然什麼都沒說嗎？",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "戰鬥結束後就發出聯絡了，算時間……應該快到了。",
 			typewriter = {
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "有什麼快到了嗎……？",
 			typewriter = {
 				speed = 0.05,
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "冰面之下…………嗯？",
 			typewriter = {
 				speed = 0.05,
@@ -370,11 +370,11 @@ return {
 			}
 		},
 		{
-			say = "砰————————————",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "砰————————————",
 			flashN = {
 				color = {
 					1,
@@ -422,9 +422,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "不遠處傳來了巨大的撞擊聲，有某種巨大的物體正在下方猛烈撞擊著冰面……！",
 			typewriter = {
 				speed = 0.05,
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			say = "砰————————————！",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "砰————————————！",
 			flashN = {
 				color = {
 					1,

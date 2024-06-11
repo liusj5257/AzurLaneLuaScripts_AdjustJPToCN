@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO19",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -32,14 +32,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここまで来たら大丈夫か",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,10 +64,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あとは身を隠し、バレないよう追跡を続ければいい",
 			painting = {
 				alpha = 0.3,
@@ -82,10 +82,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おおよそあなたのやりたいことを察したわ",
 			painting = {
 				alpha = 0.3,
@@ -100,10 +100,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オミッターの主機でもなんでも、セイレーンにとって大事なものに違いない",
 			painting = {
 				alpha = 0.3,
@@ -118,10 +118,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そして、セイレーンの艦隊を倒しまくったあの「META」をこれ以上北極点で暴れさせては困る",
 			painting = {
 				alpha = 0.3,
@@ -136,10 +136,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "つまり、私たちが先に引けば、セイレーンも「META」を先に対処せざるを得なくなるわね！",
 			painting = {
 				alpha = 0.3,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,10 +164,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "セヴァストポリの言う通りだ。「META」と「セイレーン」をぶつける",
 			painting = {
 				alpha = 0.3,
@@ -182,10 +182,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ガングートとベラルーシアはうまく戦ってくれている。時間はまだ十分ある",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "異常波長の座標は動いたか？",
 			painting = {
 				alpha = 0.3,
@@ -218,10 +218,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。さっきから動いていないわ。もしかしたらセイレーンともう交戦中かも",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それならいい。セイレーンがどこまで削ってくれるのかは未知数だが",
 			painting = {
 				alpha = 0.3,
@@ -254,10 +254,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しばらくは様子を見よう。「ノミ」の監視も継続させる",
 			painting = {
 				alpha = 0.3,
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "――――――",
 			soundeffect = "event:/ui/noice",
+			say = "――――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,10 +284,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…ジャミング？よく聞こえないわ",
 			painting = {
 				alpha = 0.3,
@@ -302,10 +302,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "装置はもうタリンたちに破壊されたはず…もしかして通信機が故障したの…？",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここはひとつ、ソオブラジーテリヌイが教えてくれた方法でも使おうかしら",
 			painting = {
 				alpha = 0.3,
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "（セヴァストポリは通信機に手刀を放った）",
 			typewriter = {
@@ -350,13 +350,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			actorName = "通信",
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			side = 2,
 			stopbgm = true,
-			say = "………こちら………ソユーズ…………",
 			soundeffect = "event:/ui/noice",
+			say = "………こちら………ソユーズ…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,8 +382,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -411,48 +411,48 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "…現在……全面的に……状態……",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "………速やかに……作戦……中止し……",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "……全艦隊…………集結して…………繰り返す……",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "――――――",
 			soundeffect = "event:/ui/noice",
+			say = "――――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,10 +481,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よく聞こえなかったけど、作戦中止って聞こえたよね…！？",
 			painting = {
 				alpha = 0.3,
@@ -499,10 +499,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ソユーズに連絡するわ。何が起きているか確認しないと",
 			painting = {
 				alpha = 0.3,
@@ -517,10 +517,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………繋がらないな",
 			painting = {
 				alpha = 0.3,
@@ -535,10 +535,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "港と泊地のほうは？",
 			painting = {
 				alpha = 0.3,
@@ -553,10 +553,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そっちもだ。西エウロパ大陸の拠点のどこにも繋がらない",
 			painting = {
 				alpha = 0.3,
@@ -571,10 +571,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…仕方ないわ。同志指揮官に――",
 			painting = {
 				alpha = 0.3,
@@ -589,10 +589,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それも試したが……繋がらないようだ",
 			painting = {
 				alpha = 0.3,
@@ -645,10 +645,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こちら分艦隊「ウルフ」のヴォロシーロフ！聞こえているわ！",
 			painting = {
 				alpha = 0.3,
@@ -701,10 +701,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。でもジャミングを受けているようでよく聞こえなかったわ。一体何が起きたの？",
 			painting = {
 				alpha = 0.3,
@@ -833,10 +833,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わかったわ。…今はそうするしかないわね",
 			painting = {
 				alpha = 0.3,
@@ -870,10 +870,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。ではまた後ほど",
 			painting = {
 				alpha = 0.3,

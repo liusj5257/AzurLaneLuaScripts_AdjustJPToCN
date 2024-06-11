@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 6: Commander's Ordeal</size>",
@@ -19,12 +19,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 603020,
 			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			say = "Commander, since we have the day off tomorrow, how about we go shopping together?",
 			effects = {
 				{
@@ -34,8 +34,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Was she asking me on a date?",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "If she was, then...",
 			typewriter = {
 				speed = 0.05,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "I really shouldn't have given in so easily.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,9 +135,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "What I thought was going to be a lovely date had turned into me hauling four huge shopping bags behind Zara.",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "And we need dumbbells for Cesare. Exercise equipment is over there.",
 			typewriter = {
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Dumbbells were on the list too?!",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "That's all we needed to get for everybody. Thanks so much, Commander. There's no way I could've done this in one trip without you.",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Oh but there is one last thing. Over here, Commander~",
 			typewriter = {
@@ -214,13 +214,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "It was a clothing shop.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -248,8 +248,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "We're going to take this special opportunity to try a new look on you, Commander. Hehehe...",
 			typewriter = {
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Zara gazed at me with devious eyes as she approached with a veritable wardrobe in her arms.",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "What do you mean you're embarrassed? That's right, \"tenacemente\" – don't you remember my motto, Commander?",
 			typewriter = {
@@ -309,9 +309,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "... I realized I wasn't getting out of that shop unless I did as she asked.",
 			typewriter = {
 				speed = 0.05,
@@ -323,13 +323,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "It felt like eons...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "How about keeping me company a while longer. You wouldn't say no to me, would you?",
 			typewriter = {

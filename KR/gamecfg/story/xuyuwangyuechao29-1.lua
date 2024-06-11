@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO29-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO29-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "일행의 앞을 가로막던 어두운 기운이 맑은 검광으로 순식간에 흩어졌다.",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "일행의 앞을 가로막던 어두운 기운이 맑은 검광으로 순식간에 흩어졌다.",
 			flashN = {
 				color = {
 					1,
@@ -53,9 +53,9 @@ return {
 		{
 			actor = 399010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "용신님! 운젠 씨! 여긴 이부키에게 맡겨 주세요!",
 			painting = {
 				alpha = 0.3,
@@ -69,10 +69,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 399060,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 399060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이부키?",
 			painting = {
 				alpha = 0.3,
@@ -86,9 +86,9 @@ return {
 		{
 			actor = 399010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "네! 주군을 위해 수행하던 중에 이상한 기운을 느끼고 와보니 성역에서…",
 			painting = {
 				alpha = 0.3,
@@ -102,9 +102,9 @@ return {
 		{
 			actor = 399010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "무, 물론 성역에 무단으로 출입하면 안 된다는 건 알지만, 너무도 이상한 기운이라서요…",
 			painting = {
 				alpha = 0.3,
@@ -118,9 +118,9 @@ return {
 		{
 			actor = 399010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "그렇게 여러분이 계신 곳으로 달려오게 되었습니다.",
 			painting = {
 				alpha = 0.3,
@@ -134,9 +134,9 @@ return {
 		{
 			actor = 399010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "어쨌든 이부키도 사쿠라 엠파이어의 함선이니 이 상황을 내버려둘 수는 없습니다.",
 			painting = {
 				alpha = 0.3,
@@ -150,9 +150,9 @@ return {
 		{
 			actor = 399010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "미력하나마 힘을 보태겠습니다.",
 			painting = {
 				alpha = 0.3,

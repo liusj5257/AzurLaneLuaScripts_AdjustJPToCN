@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU19",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>“대체 왜 이 고통의 구렁텅이로  돌아왔는가?</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>보지 못했던 성군의 이름으로,</size>",
@@ -61,17 +61,17 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_italy_cg6",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_italy_cg6",
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
 			say = "결국 오지 않았습니까?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,8 +99,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "그래. 교전 시작 때 부터 메탈 블러드와 제국의 공군에게 알렸어.",
 			typewriter = {
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "아무래도 우리 역시 비시아 성좌의 전함들 같이 처음부터 버려졌던 모양입니다…",
 			typewriter = {
 				speed = 0.05,
@@ -166,10 +166,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "입으로는 제국의 예술, 로물루스의 희망을 이야기 하지만",
 			typewriter = {
 				speed = 0.05,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "결국은 비웃음을 사는 코미디언이 될 수 밖에 없는 것입니까?",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "곧 자정 12시야. 우리도 출발해야 해.",
 			typewriter = {
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "희극이던 비극이던, 이 연극의 막을 내릴 때가 왔습니다. 적절한 방식으로 말이죠.",
 			typewriter = {
 				speed = 0.05,

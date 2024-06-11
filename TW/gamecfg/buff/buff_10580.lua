@@ -11,9 +11,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 35,
-					skill_id = 10580
+					time = 35
 				}
 			}
 		}
@@ -30,9 +30,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 34,
-					skill_id = 10580
+					time = 34
 				}
 			}
 		}
@@ -49,9 +49,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 33,
-					skill_id = 10580
+					time = 33
 				}
 			}
 		}
@@ -68,9 +68,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 32,
-					skill_id = 10580
+					time = 32
 				}
 			}
 		}
@@ -87,9 +87,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 31,
-					skill_id = 10580
+					time = 31
 				}
 			}
 		}
@@ -106,9 +106,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 30,
-					skill_id = 10580
+					time = 30
 				}
 			}
 		}
@@ -125,9 +125,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 29,
-					skill_id = 10580
+					time = 29
 				}
 			}
 		}
@@ -144,9 +144,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 28,
-					skill_id = 10580
+					time = 28
 				}
 			}
 		}
@@ -163,9 +163,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 27,
-					skill_id = 10580
+					time = 27
 				}
 			}
 		}
@@ -182,9 +182,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10580,
 					target = "TargetSelf",
-					time = 25,
-					skill_id = 10580
+					time = 25
 				}
 			}
 		}
@@ -192,12 +192,12 @@ return {
 	desc_get = "每隔35秒(满级25秒)发射一轮额外鱼雷(3发)，造成伤害的20.0%回复自身耐久",
 	name = "吸血鬼之吻",
 	init_effect = "",
+	id = 10580,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每隔$1秒发射一轮额外鱼雷(3发)，造成伤害的20.0%回复自身耐久",
 	stack = 1,
-	id = 10580,
+	color = "blue",
 	icon = 10580,
 	last_effect = "",
 	effect_list = {
@@ -207,9 +207,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 10580,
 				target = "TargetSelf",
-				time = 35,
-				skill_id = 10580
+				time = 35
 			}
 		}
 	}

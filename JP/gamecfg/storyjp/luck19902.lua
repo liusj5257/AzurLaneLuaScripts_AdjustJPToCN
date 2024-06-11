@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK19902",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK19902",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199020,
 			dir = 1,
+			actor = 199020,
 			say = "ここはコーラで乾杯して、思いっきり祝おうじゃないか！",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199020,
 			dir = 1,
+			actor = 199020,
 			say = "あんたを阻む者は、この巨砲で薙ぎ払うまで！だからもう少し私と共に頑張ろう？な？",
 			typewriter = {
 				speed = 0.05,

@@ -1,19 +1,19 @@
 return {
-	id = "WORLD302A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD302A",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/17/tb-17",
+			dir = 1,
 			bgm = "xinnong-3",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "分析中です。アーク・ロイヤルと思われる味方のシグナルを検出しました",
-			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "迷い込んだにしても遠すぎるわね…もしかしてセイレーンの転送装置で転送されてきた！？ほかの艦もいる？",
 			typewriter = {
 				speed = 0.05,
@@ -57,11 +57,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "オーダーを受領しました。スキャンを開始します――アーク・ロイヤル以外のシグナルはありません",
-			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

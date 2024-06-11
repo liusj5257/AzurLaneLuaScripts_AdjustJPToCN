@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 3: The Shopkeeper's Little Buddies</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Supply Shop",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Supply Shop",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "On this day off, I once again concealed myself next to the shop, quietly observing the situation.",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "I don't remember ever doing anything with you that would resemble a \"deep bond.\"",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I don't remember ever doing anything with you that would resemble a \"deep bond.\"",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "No problem! Let's get started right away!",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "Th-then... the rumor that you can see ghosts as well...?",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "Ehhh??? It's true?!",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "Waaaaaaaaaaaaahhhh!",
 			typewriter = {
 				speed = 0.05,
@@ -362,16 +362,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 3
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.6,
 					dur = 0.3,
 					x = -1800
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Today, I feel like I learned a bit more about another side of Shiranui.",
 			typewriter = {
 				speed = 0.05,

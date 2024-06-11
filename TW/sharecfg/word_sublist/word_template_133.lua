@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_133 = {}
 slot1 = slot0.word_template_133
 
-function temp()
+temp = function()
 	uv0["欧"] = {
 		["美"] = {
 			["大"] = {
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["素"] = {
 		["人"] = {
 			["娘"] = {
@@ -37,7 +37,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["胯"] = {
 		["下"] = {
 			["呻"] = {
@@ -51,7 +51,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["护"] = {
 		["士"] = {
 			["诱"] = {

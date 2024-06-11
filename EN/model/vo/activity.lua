@@ -1,7 +1,7 @@
 slot0 = class("Activity", import(".BaseVO"))
 slot1 = nil
 
-function slot0.GetType2Class()
+slot0.GetType2Class = function()
 	if uv0 then
 		return uv0
 	end
@@ -27,17 +27,18 @@ function slot0.GetType2Class()
 		[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] = SkinCouponActivity,
 		[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = ManualSignActivity,
 		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = BossSingleActivity,
-		[ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE] = SingleEventActivity
+		[ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE] = SingleEventActivity,
+		[ActivityConst.ACTIVITY_TYPE_LINER] = LinerActivity
 	}
 
 	return uv0
 end
 
-function slot0.Create(slot0)
+slot0.Create = function(slot0)
 	return (uv0.GetType2Class()[pg.activity_template[slot0.id].type] or Activity).New(slot0)
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.stopTime = slot1.stop_time
@@ -45,6 +46,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.data2 = defaultValue(slot1.data2, 0)
 	slot0.data3 = defaultValue(slot1.data3, 0)
 	slot0.data4 = defaultValue(slot1.data4, 0)
+	slot0.str_data1 = defaultValue(slot1.str_data1, "")
 	slot0.data1_list = {}
 	slot2 = ipairs
 	slot3 = slot1.data1_list or {}
@@ -67,6 +69,14 @@ function slot0.Ctor(slot0, slot1)
 
 	for slot5, slot6 in slot2(slot3) do
 		table.insert(slot0.data3_list, slot6)
+	end
+
+	slot0.data4_list = {}
+	slot2 = ipairs
+	slot3 = slot1.data4_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot0.data4_list, slot6)
 	end
 
 	slot0.data1KeyValueList = {}
@@ -115,32 +125,32 @@ function slot0.Ctor(slot0, slot1)
 	slot0.clientList = {}
 end
 
-function slot0.GetBuffList(slot0)
+slot0.GetBuffList = function(slot0)
 	return slot0.buffList
 end
 
-function slot0.AddBuff(slot0, slot1)
+slot0.AddBuff = function(slot0, slot1)
 	assert(isa(slot1, ActivityBuff), "activityBuff should instance of ActivityBuff")
 	table.insert(slot0.buffList, slot1)
 end
 
-function slot0.setClientList(slot0, slot1)
+slot0.setClientList = function(slot0, slot1)
 	slot0.clientList = slot1
 end
 
-function slot0.getClientList(slot0)
+slot0.getClientList = function(slot0)
 	return slot0.clientList
 end
 
-function slot0.updateDataList(slot0, slot1)
+slot0.updateDataList = function(slot0, slot1)
 	table.insert(slot0.data1_list, slot1)
 end
 
-function slot0.setDataList(slot0, slot1)
+slot0.setDataList = function(slot0, slot1)
 	slot0.data1_list = slot1
 end
 
-function slot0.updateKVPList(slot0, slot1, slot2, slot3)
+slot0.updateKVPList = function(slot0, slot1, slot2, slot3)
 	if not slot0.data1KeyValueList[slot1] then
 		slot0.data1KeyValueList[slot1] = {}
 	end
@@ -148,7 +158,7 @@ function slot0.updateKVPList(slot0, slot1, slot2, slot3)
 	slot0.data1KeyValueList[slot1][slot2] = slot3
 end
 
-function slot0.getKVPList(slot0, slot1, slot2)
+slot0.getKVPList = function(slot0, slot1, slot2)
 	if not slot0.data1KeyValueList[slot1] then
 		slot0.data1KeyValueList[slot1] = {}
 	end
@@ -156,23 +166,27 @@ function slot0.getKVPList(slot0, slot1, slot2)
 	return slot0.data1KeyValueList[slot1][slot2] or 0
 end
 
-function slot0.getData1(slot0)
+slot0.getData1 = function(slot0)
 	return slot0.data1
 end
 
-function slot0.getData3(slot0)
+slot0.getStrData1 = function(slot0)
+	return slot0.str_data1
+end
+
+slot0.getData3 = function(slot0)
 	return slot0.data3
 end
 
-function slot0.getData1List(slot0)
+slot0.getData1List = function(slot0)
 	return slot0.data1_list
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_template
 end
 
-function slot0.getDataConfigTable(slot0)
+slot0.getDataConfigTable = function(slot0)
 	slot2 = slot0:getConfig("config_id")
 
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY then
@@ -184,7 +198,7 @@ function slot0.getDataConfigTable(slot0)
 	end
 end
 
-function slot0.getDataConfig(slot0, slot1)
+slot0.getDataConfig = function(slot0, slot1)
 	slot2 = slot0:getDataConfigTable()
 
 	assert(slot2, "miss config : " .. slot0.id)
@@ -192,11 +206,11 @@ function slot0.getDataConfig(slot0, slot1)
 	return slot2 and slot2[slot1]
 end
 
-function slot0.isEnd(slot0)
+slot0.isEnd = function(slot0)
 	return slot0.stopTime > 0 and slot0.stopTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.increaseUsedCount(slot0, slot1)
+slot0.increaseUsedCount = function(slot0, slot1)
 	if slot1 == 1 then
 		slot0.data1 = slot0.data1 + 1
 	elseif slot1 == 2 then
@@ -204,7 +218,7 @@ function slot0.increaseUsedCount(slot0, slot1)
 	end
 end
 
-function slot0.readyToAchieve(slot0)
+slot0.readyToAchieve = function(slot0)
 	slot1, slot2 = slot0:IsShowTipById()
 
 	if slot1 then
@@ -460,8 +474,18 @@ function slot0.readyToAchieve(slot0)
 			return false
 		end,
 		[ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY] = function (slot0)
-			if slot0:getConfig("config_client") and slot1.linkGameHubID and getProxy(MiniGameProxy):GetHubByHubId(slot1.linkGameHubID) and slot2.count > 0 then
-				return true
+			if slot0:getConfig("config_client") and slot1.linkGameHubID and getProxy(MiniGameProxy):GetHubByHubId(slot1.linkGameHubID) then
+				if slot1.trimRed then
+					if slot2.ultimate == 1 then
+						return false
+					end
+
+					if slot2.usedtime == slot2:getConfig("reward_need") then
+						return true
+					end
+				end
+
+				return slot2.count > 0
 			end
 
 			return false
@@ -604,13 +628,25 @@ function slot0.readyToAchieve(slot0)
 			return underscore(slot1):chain():first(math.min(#slot1, slot0:getNDay())):any(function (slot0)
 				return getProxy(ShopsProxy):GetGiftCommodity(slot0, Goods.TYPE_GIFT_PACKAGE):canPurchase() and slot1:inTime() and not slot1:IsGroupLimit()
 			end):value()
+		end,
+		[ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE] = function (slot0)
+			if getProxy(ShopsProxy):getActivityShops() == nil then
+				return false
+			end
+
+			slot1 = slot0:getConfig("config_client")
+			slot3 = #slot1.goodsId + 1
+
+			return slot4 < slot3 and (slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
+				return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
+			end) and pg.activity_shop_template[slot1.goodsId[slot4]] or nil).resource_num <= getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
 		end
 	}
 
 	return switch(slot0:getConfig("type"), uv0.readyToAchieveDic, nil, slot0)
 end
 
-function slot0.IsShowTipById(slot0)
+slot0.IsShowTipById = function(slot0)
 	uv0.ShowTipTableById = uv0.ShowTipTableById or {
 		[ActivityConst.ACTIVITY_ID_US_SKIRMISH_RE] = function ()
 			slot0 = getProxy(SkirmishProxy)
@@ -677,7 +713,7 @@ function slot0.IsShowTipById(slot0)
 	return tobool(slot1), slot1 and slot1()
 end
 
-function slot0.isShow(slot0)
+slot0.isShow = function(slot0)
 	if slot0:getConfig("is_show") <= 0 then
 		return false
 	end
@@ -694,12 +730,24 @@ function slot0.isShow(slot0)
 		slot1 = getProxy(ActivityProxy)
 
 		return slot1:isSurveyOpen() and not slot1:isSurveyDone()
+	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE then
+		if getProxy(ShopsProxy):getActivityShops() == nil then
+			return false
+		end
+
+		slot1 = slot0:getConfig("config_client")
+		slot2 = getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
+		slot3 = #slot1.goodsId + 1
+
+		return slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
+			return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
+		end)
 	end
 
 	return true
 end
 
-function slot0.isAfterShow(slot0)
+slot0.isAfterShow = function(slot0)
 	if slot0.configId == ActivityConst.UR_TASK_ACT_ID or slot0.configId == ActivityConst.SPECIAL_WEAPON_ACT_ID then
 		slot1 = getProxy(TaskProxy)
 
@@ -711,11 +759,11 @@ function slot0.isAfterShow(slot0)
 	return false
 end
 
-function slot0.getShowPriority(slot0)
+slot0.getShowPriority = function(slot0)
 	return slot0:getConfig("is_show")
 end
 
-function slot0.left4Day(slot0)
+slot0.left4Day = function(slot0)
 	if slot0.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 345600 then
 		return true
 	end
@@ -723,11 +771,11 @@ function slot0.left4Day(slot0)
 	return false
 end
 
-function slot0.getAwardInfos(slot0)
+slot0.getAwardInfos = function(slot0)
 	return slot0.data1KeyValueList or {}
 end
 
-function slot0.updateData(slot0, slot1, slot2)
+slot0.updateData = function(slot0, slot1, slot2)
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
 		if not slot0:getAwardInfos()[slot1] then
 			slot0.data1KeyValueList[slot1] = {}
@@ -743,11 +791,11 @@ function slot0.updateData(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getTaskShip(slot0)
+slot0.getTaskShip = function(slot0)
 	return slot0:getConfig("config_client")[1]
 end
 
-function slot0.getNotificationMsg(slot0)
+slot0.getNotificationMsg = function(slot0)
 	slot2 = ActivityProxy.ACTIVITY_SHOW_AWARDS
 
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP then
@@ -763,13 +811,13 @@ function slot0.getNotificationMsg(slot0)
 	return slot2
 end
 
-function slot0.getDayIndex(slot0)
+slot0.getDayIndex = function(slot0)
 	slot2 = pg.TimeMgr.GetInstance()
 
 	return slot2:DiffDay(slot0:getStartTime(), slot2:GetServerTime()) + 1
 end
 
-function slot0.getStartTime(slot0)
+slot0.getStartTime = function(slot0)
 	slot1, slot2 = parseTimeConfig(slot0:getConfig("time"))
 
 	if slot2 and slot2[1] == "newuser" then
@@ -779,28 +827,28 @@ function slot0.getStartTime(slot0)
 	end
 end
 
-function slot0.getNDay(slot0, slot1)
+slot0.getNDay = function(slot0, slot1)
 	slot2 = pg.TimeMgr.GetInstance()
 
 	return slot2:DiffDay(slot1 or slot0:getStartTime(), slot2:GetServerTime()) + 1
 end
 
-function slot0.isVariableTime(slot0)
+slot0.isVariableTime = function(slot0)
 	slot1, slot2 = parseTimeConfig(slot0:getConfig("time"))
 
 	return slot2 and slot2[1] == "newuser"
 end
 
-function slot0.setSpecialData(slot0, slot1, slot2)
+slot0.setSpecialData = function(slot0, slot1, slot2)
 	slot0.speciaData = slot0.speciaData and slot0.speciaData or {}
 	slot0.speciaData[slot1] = slot2
 end
 
-function slot0.getSpecialData(slot0, slot1)
+slot0.getSpecialData = function(slot0, slot1)
 	return slot0.speciaData and slot0.speciaData[slot1] and slot0.speciaData[slot1] or nil
 end
 
-function slot0.canPermanentFinish(slot0)
+slot0.canPermanentFinish = function(slot0)
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_LIST then
 		slot2 = slot0:getConfig("config_data")
 		slot3 = getProxy(TaskProxy)
@@ -819,13 +867,13 @@ function slot0.canPermanentFinish(slot0)
 	return false
 end
 
-function slot0.GetShopTime(slot0)
+slot0.GetShopTime = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 
 	return slot1:STimeDescS(slot0:getStartTime(), "%y.%m.%d") .. " - " .. slot1:STimeDescS(slot0.stopTime, "%y.%m.%d")
 end
 
-function slot0.GetCrusingUnreceiveAward(slot0)
+slot0.GetCrusingUnreceiveAward = function(slot0)
 	assert(slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING, "type error")
 
 	slot1 = pg.battlepass_event_pt[slot0.id]
@@ -865,7 +913,7 @@ function slot0.GetCrusingUnreceiveAward(slot0)
 	return PlayerConst.MergePassItemDrop(slot2)
 end
 
-function slot0.GetCrusingInfo(slot0)
+slot0.GetCrusingInfo = function(slot0)
 	assert(slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_CRUSING, "type error")
 
 	slot2 = pg.battlepass_event_pt[slot0.id].pt
@@ -921,11 +969,11 @@ function slot0.GetCrusingInfo(slot0)
 	}
 end
 
-function slot0.IsActivityReady(slot0)
+slot0.IsActivityReady = function(slot0)
 	return slot0 and not slot0:isEnd() and slot0:readyToAchieve()
 end
 
-function slot0.GetEndTimeStrByConfig(slot0)
+slot0.GetEndTimeStrByConfig = function(slot0)
 	if type(slot0:getConfig("time")) == "table" then
 		slot2 = slot1[3]
 

@@ -1,6 +1,6 @@
 slot0 = class("MetaCharacterRepairCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot9 = getProxy(BayProxy):getShipById(slot2.shipID):getMetaCharacter():getAttrVO(slot2.attr):getItem()
 

@@ -1,6 +1,6 @@
 slot0 = class("OreMiniGameController")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.binder = slot1
 
 	slot0:InitTimer()
@@ -9,13 +9,13 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:AddListener()
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	for slot6 = 0, slot0:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
 		slot2[slot6].speed = slot1
 	end
 end
 
-function slot0.InitTimer(slot0)
+slot0.InitTimer = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:OnTimer(OreGameConfig.TIME_INTERVAL)
 	end, OreGameConfig.TIME_INTERVAL, -1)
@@ -27,17 +27,17 @@ function slot0.InitTimer(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:AddDebugInput()
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if IsUnityEditor and Input.GetKeyDown(KeyCode.Space) then
 		slot0:OnCarryBtnClick()
 	end
 end
 
-function slot0.InitGameUI(slot0, slot1)
+slot0.InitGameUI = function(slot0, slot1)
 	slot0.uiMgr = pg.UIMgr.GetInstance()
 	slot0.rtViewport = slot1:Find("Viewport")
 	slot2 = slot0.rtViewport
@@ -64,7 +64,7 @@ function slot0.InitGameUI(slot0, slot1)
 	end)
 end
 
-function slot0.InitControl(slot0)
+slot0.InitControl = function(slot0)
 	slot0.collisionMgr = OreCollisionMgr.New(slot0.binder)
 	slot0.akashiControl = OreAkashiControl.New(slot0.binder, slot0.rtCharacter:Find("Akashi"), slot0.collisionMgr)
 	slot0.enemiesControl = OreEnemiesControl.New(slot0.binder, slot0.rtCharacter:Find("Enemies"), slot0.collisionMgr)
@@ -73,7 +73,7 @@ function slot0.InitControl(slot0)
 	slot0.containerControl = OreContainerControl.New(slot0.binder, slot0.rtViewport:Find("MainContent/container"))
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	slot1 = slot0.binder
 
 	slot1:bind(OreGameConfig.EVENT_DO_CARRY, function (slot0, slot1)
@@ -103,13 +103,13 @@ function slot0.AddListener(slot0)
 	end)
 end
 
-function slot0.OnCarryBtnClick(slot0)
+slot0.OnCarryBtnClick = function(slot0)
 	slot0.binder:emit(OreGameConfig.EVENT_CHECK_CARRY, {
 		weight = slot0.weight
 	})
 end
 
-function slot0.UpdateTimeUI(slot0)
+slot0.UpdateTimeUI = function(slot0)
 	if slot0.timeCount < 60 then
 		setText(slot0.TimeTextM, "00")
 	else
@@ -119,7 +119,7 @@ function slot0.UpdateTimeUI(slot0)
 	setText(slot0.TimeTextS, string.format("%02d", slot0.timeCount % 60))
 end
 
-function slot0.UpdateWeightUI(slot0)
+slot0.UpdateWeightUI = function(slot0)
 	slot1 = 90
 
 	if slot0.weight == 0 then
@@ -137,11 +137,11 @@ function slot0.UpdateWeightUI(slot0)
 	setLocalEulerAngles(slot0.rtPointer, Vector3(0, 0, slot0.weight <= OreGameConfig.CAPACITY.WOOD_BOX and 90 - slot0.weight * 40 / slot2.WOOD_BOX or slot0.weight <= slot2.IRON_BOX and 37 - (slot0.weight - slot2.WOOD_BOX) * 60 / (slot2.IRON_BOX - slot2.WOOD_BOX) or -37 - (slot0.weight - slot2.IRON_BOX) * 40 / (slot2.CART - slot2.IRON_BOX)))
 end
 
-function slot0.UpdatePointUI(slot0)
+slot0.UpdatePointUI = function(slot0)
 	setText(slot0.pointText, slot0.point)
 end
 
-function slot0.ResetGame(slot0)
+slot0.ResetGame = function(slot0)
 	slot0.timeCount = OreGameConfig.PLAY_TIME
 	slot0.point = 0
 	slot0.weight = 0
@@ -157,21 +157,21 @@ function slot0.ResetGame(slot0)
 	slot0:UpdateTimeUI()
 end
 
-function slot0.StartGame(slot0)
+slot0.StartGame = function(slot0)
 	slot0.isStart = true
 
 	slot0:ResetGame()
 	slot0:StartTimer()
 end
 
-function slot0.EndGame(slot0)
+slot0.EndGame = function(slot0)
 	slot0.isStart = false
 
 	slot0:PauseGame()
 	slot0.binder:openUI("result")
 end
 
-function slot0.StartTimer(slot0)
+slot0.StartTimer = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 		slot0.uiMgr:AttachStickOb(slot0.rtJoyStick)
@@ -180,7 +180,7 @@ function slot0.StartTimer(slot0)
 	uv0(slot0.rtViewport, 1)
 end
 
-function slot0.StopTimer(slot0)
+slot0.StopTimer = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 		slot0.uiMgr:ClearStick()
@@ -189,19 +189,19 @@ function slot0.StopTimer(slot0)
 	uv0(slot0.rtViewport, 0)
 end
 
-function slot0.PauseGame(slot0)
+slot0.PauseGame = function(slot0)
 	slot0.isPause = true
 
 	slot0:StopTimer()
 end
 
-function slot0.ResumeGame(slot0)
+slot0.ResumeGame = function(slot0)
 	slot0.isPause = false
 
 	slot0:StartTimer()
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	slot0.timeCount = slot0.timeCount - slot1
 
 	slot0:UpdateTimeUI()
@@ -218,7 +218,7 @@ function slot0.OnTimer(slot0, slot1)
 	slot0.containerControl:OnTimer(slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

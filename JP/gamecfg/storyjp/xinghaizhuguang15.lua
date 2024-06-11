@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 900335,
 			side = 2,
 			bgName = "bg_zhuguang_3",
+			bgm = "theme-thedevilxv",
+			actor = 900335,
 			nameColor = "#FEF15E",
 			say = "取り込み中すまないわ。なんだか急に色々思い出しちゃってね",
-			bgm = "theme-thedevilxv",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "あなた……シミュレーションデータじゃないの！？",
 			painting = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "うん。相打ちでも……ラフィー、戦う",
 			painting = {
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "それは……わ、私はまだ「星の海」に来たばかりだし…",
 			painting = {
@@ -363,8 +363,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "うん。通信システムから座標を受信した…なんか光ってる…",
 			painting = {
@@ -587,11 +587,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "デビル、今日は見逃す。プリンストン、行こ",
 			painting = {

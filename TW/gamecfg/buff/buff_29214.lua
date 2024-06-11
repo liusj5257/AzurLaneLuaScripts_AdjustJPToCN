@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "",
 	time = 1,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 29214,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 29214,
+	color = "red",
 	icon = 29210,
 	last_effect = "",
 	effect_list = {
@@ -17,9 +17,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				maxTargetNumber = 0,
 				skill_id = 29212,
-				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -36,8 +36,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 29214,
 				target = "TargetSelf",
+				skill_id = 29214,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

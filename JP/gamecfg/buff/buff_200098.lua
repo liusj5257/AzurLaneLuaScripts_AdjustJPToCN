@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2022异世界勇者活动 带魔王召唤自爆船",
 	time = 14,
+	name = "2022异世界勇者活动 带魔王召唤自爆船",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -25,9 +25,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200098,
 				time = 4,
-				target = "TargetSelf",
-				skill_id = 200098
+				target = "TargetSelf"
 			}
 		}
 	}

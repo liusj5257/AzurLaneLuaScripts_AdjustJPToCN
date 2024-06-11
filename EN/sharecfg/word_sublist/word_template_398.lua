@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_398 = {}
 slot1 = slot0.word_template_398
 
-function temp()
+temp = function()
 	uv0["具"] = {
 		["有"] = {
 			["强"] = {
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["涉"] = {
 		["及"] = {
 			["师"] = {
@@ -51,7 +51,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["糊"] = {
 		["药"] = {
 			["梆"] = {
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["彡"] = {
 		["工"] = {
 			["泽"] = {
@@ -103,7 +103,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["茪"] = {
 		["淀"] = {
 			["部"] = {
@@ -115,7 +115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["浙"] = {
 		["江"] = {
 			["象"] = {
@@ -149,7 +149,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["飒"] = {
 		["隔"] = {
 			["耳"] = {

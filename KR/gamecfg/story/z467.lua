@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z467",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z467",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"순백의 시\n\n<size=45>7. 순백</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "그렇지 않다'로 나의 병기로서의 존재는 부정당했다. 그렇다면 나는 회색이 아니다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "46은 생각도 소망도 있는 하나의 개인이다'는 자아가 없는 순수함이 아니다. 그렇다면 나는 투명하지 않다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "46은 자신을 더 소중히 여겨야 해' 한때는 허울뿐인 존재였지만 지금은 소중히 여길만한 '자신'을 가지고 있다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "그렇다면, 묻겠다......",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,15 +65,15 @@ return {
 			}
 		},
 		{
-			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "사랑하는 이여. 나는 대체 어떤 색인가?",
 			bgmDelay = 2,
 			bgm = "story-2",
+			actor = 401460,
+			say = "사랑하는 이여. 나는 대체 어떤 색인가?",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1

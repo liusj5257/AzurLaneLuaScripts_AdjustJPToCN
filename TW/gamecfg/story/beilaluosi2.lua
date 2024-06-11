@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"颯爽之白\n\n<size=45>二 瞄準目標</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日·港區",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日·港區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "和秘書艦白俄羅斯一起巡視港區的時候……",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "啊，又沒中！雷鳴，妳還有錢嗎？",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "已經抽了30張二等獎，只剩最後一張獎券了！",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "已經沒了。這種抽獎又不是妳想抽就能抽到的…",
 			typewriter = {
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "沒錯喵！都是運氣喵！",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,9 +151,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "似乎是明石正在舉辦抽獎活動的樣子…",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "還沒被抽出來的獎券只剩最後一張了。如果買下來的話，那張將100%會是一等獎。",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "不過這樣對洪亮她們來說是不是太殘忍了點…",
 			typewriter = {
 				speed = 0.05,
@@ -209,9 +209,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "聽完這些，白俄羅斯一瞬間露出了驚訝的表情，然後又恢復到了平時的神態。",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "那就由我來買下吧，然後我再想辦法把獎品分給大家，怎麼樣？",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "……好，就這麼辦。等我一下，我這就去買。",
 			typewriter = {
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "就交給白俄羅斯好了。",
 			typewriter = {
 				speed = 0.05,
@@ -273,14 +273,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_113",
 			actor = 705040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "久等了，把一等獎抽出來了",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "白俄羅斯拿著一個小信封回來了",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "不、不用太在意我們的……嗯，沒事的。",
 			typewriter = {
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "也沒多少錢，交給白俄羅斯應付就好了。",
 			typewriter = {
 				speed = 0.05,

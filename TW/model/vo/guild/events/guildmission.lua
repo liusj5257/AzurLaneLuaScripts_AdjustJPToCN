@@ -1,6 +1,6 @@
 slot0 = class("GuildMission", import("...BaseVO"))
 
-function slot0.CompleteData2FullData(slot0)
+slot0.CompleteData2FullData = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	return {
@@ -19,7 +19,7 @@ function slot0.CompleteData2FullData(slot0)
 	}
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.event_id
 	slot0.configId = slot0.id
 	slot0.position = slot1.position
@@ -47,7 +47,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.formationTipIndex = PlayerPrefs.GetInt("guild_mission_formation_tip" .. slot0.configId, 0)
 end
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	slot0.nextRefreshTime = slot2 + pg.TimeMgr.GetInstance():GetServerTime()
 	slot0.startTime = slot1.start_time
 	slot0.finishTime = slot1.complete_time
@@ -124,35 +124,35 @@ function slot0.Flush(slot0, slot1, slot2)
 	end
 end
 
-function slot0.IsFinishedByServer(slot0)
+slot0.IsFinishedByServer = function(slot0)
 	return slot0.serverFinish
 end
 
-function slot0.GetTotalTimeCost(slot0)
+slot0.GetTotalTimeCost = function(slot0)
 	return slot0.totalTimeCost
 end
 
-function slot0.GetStartTime(slot0)
+slot0.GetStartTime = function(slot0)
 	return slot0.startTime
 end
 
-function slot0.GetRemainingTime(slot0)
+slot0.GetRemainingTime = function(slot0)
 	return slot0:GetTotalTimeCost() - (pg.TimeMgr.GetInstance():GetServerTime() - slot0:GetStartTime())
 end
 
-function slot0.IsBoss(slot0)
+slot0.IsBoss = function(slot0)
 	return false
 end
 
-function slot0.UpdateNodeAnimFlagIndex(slot0, slot1)
+slot0.UpdateNodeAnimFlagIndex = function(slot0, slot1)
 	slot0.nodeAnimPosistion = slot1
 end
 
-function slot0.GetNodeAnimPosistion(slot0)
+slot0.GetNodeAnimPosistion = function(slot0)
 	return slot0.nodeAnimPosistion
 end
 
-function slot0.GetNewestSuccessNode(slot0)
+slot0.GetNewestSuccessNode = function(slot0)
 	for slot4 = #slot0.nodes, 1, -1 do
 		if slot0.nodes[slot4]:IsSuccess() then
 			return slot5
@@ -160,11 +160,11 @@ function slot0.GetNewestSuccessNode(slot0)
 	end
 end
 
-function slot0.UpdateFormationTime(slot0, slot1)
+slot0.UpdateFormationTime = function(slot0, slot1)
 	slot0.formationTime = slot1 or 0
 end
 
-function slot0.CanFormation(slot0)
+slot0.CanFormation = function(slot0)
 	if table.getCount(slot0.myFleets) == GuildConst.MISSION_MAX_FLEET_CNT then
 		return false
 	end
@@ -176,7 +176,7 @@ function slot0.CanFormation(slot0)
 	return slot0:GetNextFormationTime() - pg.TimeMgr.GetInstance():GetServerTime() <= 0, slot2
 end
 
-function slot0.GetNextFormationTime(slot0)
+slot0.GetNextFormationTime = function(slot0)
 	slot1 = slot0.formationTime
 	slot2 = GetZeroTime()
 	slot3 = GetZeroTime() - 86400
@@ -196,7 +196,7 @@ function slot0.GetNextFormationTime(slot0)
 	end
 end
 
-function slot0.UpdateMyFleets(slot0, slot1)
+slot0.UpdateMyFleets = function(slot0, slot1)
 	slot0.myFleets = slot1
 	slot0.myShips = {}
 
@@ -207,7 +207,7 @@ function slot0.UpdateMyFleets(slot0, slot1)
 	end
 end
 
-function slot0.UpdateFleet(slot0, slot1, slot2)
+slot0.UpdateFleet = function(slot0, slot1, slot2)
 	slot0.myFleets[slot1] = {}
 
 	for slot6, slot7 in ipairs(slot2) do
@@ -216,23 +216,23 @@ function slot0.UpdateFleet(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetFleetByIndex(slot0, slot1)
+slot0.GetFleetByIndex = function(slot0, slot1)
 	return slot0.myFleets[slot1]
 end
 
-function slot0.GetMaxFleet(slot0)
+slot0.GetMaxFleet = function(slot0)
 	return slot0:GetFleetCnt() + (slot0:CanFormation() and 1 or 0)
 end
 
-function slot0.GetFleetCnt(slot0)
+slot0.GetFleetCnt = function(slot0)
 	return table.getCount(slot0.myFleets)
 end
 
-function slot0.IsMaxFleetCnt(slot0)
+slot0.IsMaxFleetCnt = function(slot0)
 	return slot0:GetFleetCnt() == GuildConst.MISSION_MAX_FLEET_CNT
 end
 
-function slot0.GetCanFormationIndex(slot0)
+slot0.GetCanFormationIndex = function(slot0)
 	if slot0:CanFormation() then
 		return table.getCount(slot0.myFleets) + 1
 	end
@@ -240,51 +240,51 @@ function slot0.GetCanFormationIndex(slot0)
 	return -1
 end
 
-function slot0.ShouldRefresh(slot0)
+slot0.ShouldRefresh = function(slot0)
 	return slot0.nextRefreshTime < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.guild_base_event
 end
 
-function slot0.GetPosition(slot0)
+slot0.GetPosition = function(slot0)
 	return slot0.position
 end
 
-function slot0.GetIcon(slot0)
+slot0.GetIcon = function(slot0)
 	return slot0:getConfig("pic")
 end
 
-function slot0.GetSubType(slot0)
+slot0.GetSubType = function(slot0)
 	return slot0:getConfig("sub_type")
 end
 
-function slot0.IsMain(slot0)
+slot0.IsMain = function(slot0)
 	return slot0:GetSubType() == 1
 end
 
-function slot0.IsFinish(slot0)
+slot0.IsFinish = function(slot0)
 	return slot0.finishTime > 0 and slot0.finishTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetTag(slot0)
+slot0.GetTag = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.IsActive(slot0)
+slot0.IsActive = function(slot0)
 	return true
 end
 
-function slot0.IsEliteType(slot0)
+slot0.IsEliteType = function(slot0)
 	return slot0:getConfig("type") == 2
 end
 
-function slot0.GetJoinMemberCnt(slot0)
+slot0.GetJoinMemberCnt = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.ships) do
@@ -296,11 +296,11 @@ function slot0.GetJoinMemberCnt(slot0)
 	return #slot1
 end
 
-function slot0.GetEfficiency(slot0)
+slot0.GetEfficiency = function(slot0)
 	return slot0.efficiency
 end
 
-function slot0.GetShipsByNation(slot0, slot1)
+slot0.GetShipsByNation = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.ships) do
@@ -312,23 +312,23 @@ function slot0.GetShipsByNation(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetNations(slot0)
+slot0.GetNations = function(slot0)
 	return slot0.nations
 end
 
-function slot0.GetAttrAcc(slot0)
+slot0.GetAttrAcc = function(slot0)
 	return slot0.attrAccList
 end
 
-function slot0.GetAttrCntAcc(slot0)
+slot0.GetAttrCntAcc = function(slot0)
 	return slot0.attrCntList
 end
 
-function slot0.GetNodes(slot0)
+slot0.GetNodes = function(slot0)
 	return slot0.nodes
 end
 
-function slot0.GetProgress(slot0)
+slot0.GetProgress = function(slot0)
 	if slot0:GetTotalTimeCost() > 0 then
 		return (pg.TimeMgr.GetInstance():GetServerTime() - slot0:GetStartTime()) / slot1
 	else
@@ -336,11 +336,11 @@ function slot0.GetProgress(slot0)
 	end
 end
 
-function slot0.GetMyFlagShip(slot0)
+slot0.GetMyFlagShip = function(slot0)
 	return slot0.myShips[1]
 end
 
-function slot0.GetLogs(slot0)
+slot0.GetLogs = function(slot0)
 	if slot0:GetMyFlagShip() then
 		slot2 = getProxy(BayProxy)
 		slot2 = slot2:getShipById(slot1)
@@ -353,19 +353,19 @@ function slot0.GetLogs(slot0)
 	end
 end
 
-function slot0.GetMyShips(slot0)
+slot0.GetMyShips = function(slot0)
 	return slot0.myShips
 end
 
-function slot0.GetBattleShipType(slot0)
+slot0.GetBattleShipType = function(slot0)
 	return slot0:getConfig("ship_type_display")
 end
 
-function slot0.GetAwards(slot0)
+slot0.GetAwards = function(slot0)
 	return slot0:getConfig("award_list")
 end
 
-function slot0.CalcMyEffect(slot0)
+slot0.CalcMyEffect = function(slot0)
 	if not slot0 or #slot0 == 0 then
 		return 0
 	end
@@ -384,35 +384,35 @@ function slot0.CalcMyEffect(slot0)
 	return math.floor((20 + math.pow(slot2, 0.7)) * (1 + slot3 / (slot3 + 12500)))
 end
 
-function slot0.GetMyEffect(slot0)
+slot0.GetMyEffect = function(slot0)
 	return uv0.CalcMyEffect(slot0.myShips)
 end
 
-function slot0.GetRecommendShipTypes(slot0)
+slot0.GetRecommendShipTypes = function(slot0)
 	return slot0.shiptypes
 end
 
-function slot0.GetRecommendShipNation(slot0)
+slot0.GetRecommendShipNation = function(slot0)
 	return slot0.nations
 end
 
-function slot0.GetSquadron(slot0)
+slot0.GetSquadron = function(slot0)
 	return slot0:getConfig("extra_squadron")
 end
 
-function slot0.GetSquadronDisplay(slot0)
+slot0.GetSquadronDisplay = function(slot0)
 	return slot0:getConfig("extra_squadron_display")
 end
 
-function slot0.GetSquadronTargetCnt(slot0)
+slot0.GetSquadronTargetCnt = function(slot0)
 	return slot0:getConfig("extra_squadron_num")
 end
 
-function slot0.GetSquadronRatio(slot0)
+slot0.GetSquadronRatio = function(slot0)
 	return slot0:getConfig("extra_squedron_ratio") / 100
 end
 
-function slot0.GetOtherShips(slot0)
+slot0.GetOtherShips = function(slot0)
 	slot1 = getProxy(GuildProxy):getRawData()
 	slot2 = {}
 
@@ -433,21 +433,21 @@ function slot0.GetOtherShips(slot0)
 	return slot2
 end
 
-function slot0.RecordFormationTip(slot0)
+slot0.RecordFormationTip = function(slot0)
 	if slot0:GetCanFormationIndex() > 0 then
 		PlayerPrefs.SetInt("guild_mission_formation_tip" .. slot0.configId, slot1)
 	end
 end
 
-function slot0.ShouldShowFormationTip(slot0)
+slot0.ShouldShowFormationTip = function(slot0)
 	return slot0.formationTipIndex < slot0:GetCanFormationIndex()
 end
 
-function slot0.FirstFleetCanFormation(slot0)
+slot0.FirstFleetCanFormation = function(slot0)
 	return slot0:GetFleetCnt() == 0
 end
 
-function slot0.SameSquadron(slot0, slot1)
+slot0.SameSquadron = function(slot0, slot1)
 	if slot0:IsEliteType() then
 		return table.contains(slot1.tagList, slot0:getConfig("extra_squadron"))
 	end
@@ -455,7 +455,7 @@ function slot0.SameSquadron(slot0, slot1)
 	return false
 end
 
-function slot0.GetEffectAttr(slot0)
+slot0.GetEffectAttr = function(slot0)
 	slot2 = slot0:getConfig("event_attr_acc_effect")
 	slot3, slot4 = nil
 
@@ -471,7 +471,7 @@ function slot0.GetEffectAttr(slot0)
 	return pg.attribute_info_by_type[slot3] and slot5[slot3].name, slot4
 end
 
-function slot0.MatchAttr(slot0, slot1)
+slot0.MatchAttr = function(slot0, slot1)
 	if slot0:IsEliteType() then
 		slot2, slot3 = slot0:GetEffectAttr()
 		slot5 = slot1.attrs[slot2] or 0
@@ -486,7 +486,7 @@ function slot0.MatchAttr(slot0, slot1)
 	return false
 end
 
-function slot0.MatchNation(slot0, slot1)
+slot0.MatchNation = function(slot0, slot1)
 	if slot0:IsEliteType() then
 		return table.contains(slot0:GetRecommendShipNation(), slot1.nation)
 	end
@@ -494,7 +494,7 @@ function slot0.MatchNation(slot0, slot1)
 	return false
 end
 
-function slot0.MatchShipType(slot0, slot1)
+slot0.MatchShipType = function(slot0, slot1)
 	if slot0:IsEliteType() then
 		return table.contains(slot0:GetRecommendShipTypes(), slot1.type)
 	end

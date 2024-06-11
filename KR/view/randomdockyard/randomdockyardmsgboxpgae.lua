@@ -1,10 +1,10 @@
 slot0 = class("RandomDockYardMsgBoxPgae", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RandomDockYardMsgBoxUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/top/btnBack")
 	slot0.cancelBtn = slot0:findTF("frame/cancel_button")
 	slot0.confirmBtn = slot0:findTF("frame/confirm_button")
@@ -17,7 +17,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/cancel_button/pic"), i18n("text_cancel"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -37,20 +37,20 @@ function slot0.OnInit(slot0)
 
 	slot0.cards = {}
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot0.cards[slot1] = RandomDockYardCard.New(slot1)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -60,7 +60,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(getProxy(BayProxy):RawGetShipById(slot0.shipIds[slot1 + 1]), false)
 end
 
-function slot0.Flush(slot0, slot1, slot2, slot3, slot4)
+slot0.Flush = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:Show()
 	slot0:UpdateTitle(slot1)
 	slot0:UpdateSubTitle(slot2)
@@ -69,27 +69,27 @@ function slot0.Flush(slot0, slot1, slot2, slot3, slot4)
 	slot0.callback = slot4
 end
 
-function slot0.UpdateTitle(slot0, slot1)
+slot0.UpdateTitle = function(slot0, slot1)
 	slot0.titleTxt.text = slot1.cn
 	slot0.titleEnTxt.text = slot1.en
 end
 
-function slot0.UpdateSubTitle(slot0, slot1)
+slot0.UpdateSubTitle = function(slot0, slot1)
 	slot0.subTitleTxt.text = slot1
 end
 
-function slot0.UpdateList(slot0, slot1)
+slot0.UpdateList = function(slot0, slot1)
 	slot0.shipIds = slot1
 
 	slot0.scrollrect:SetTotalCount(#slot0.shipIds)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.callback = nil
 	slot0.shipIds = nil
 
@@ -103,7 +103,7 @@ function slot0.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

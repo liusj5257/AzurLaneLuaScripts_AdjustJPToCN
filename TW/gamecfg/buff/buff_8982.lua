@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "黑反击BOSS战 护盾1",
 	init_effect = "",
+	name = "黑反击BOSS战 护盾1",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 8982,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -15,8 +15,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.16
+				number = -0.16,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield02",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {
@@ -62,9 +62,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield02",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {
@@ -97,9 +97,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield02",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {
@@ -132,9 +132,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield02",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {
@@ -167,9 +167,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield02",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {

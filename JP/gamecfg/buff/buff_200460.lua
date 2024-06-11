@@ -7,10 +7,10 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 2,
-					number = 10,
+					k = 0,
 					dotType = 1,
-					k = 0
+					time = 2,
+					number = 10
 				}
 			}
 		}
@@ -23,10 +23,10 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 2,
-					number = 20,
+					k = 0,
 					dotType = 1,
-					k = 0
+					time = 2,
+					number = 20
 				}
 			}
 		}
@@ -39,10 +39,10 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 2,
-					number = 30,
+					k = 0,
 					dotType = 1,
-					k = 0
+					time = 2,
+					number = 30
 				}
 			}
 		}
@@ -55,10 +55,10 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 2,
-					number = 40,
+					k = 0,
 					dotType = 1,
-					k = 0
+					time = 2,
+					number = 40
 				}
 			}
 		}
@@ -71,10 +71,10 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 2,
-					number = 50,
+					k = 0,
 					dotType = 1,
-					k = 0
+					time = 2,
+					number = 50
 				}
 			}
 		}
@@ -87,10 +87,10 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 2,
-					number = 60,
+					k = 0,
 					dotType = 1,
-					k = 0
+					time = 2,
+					number = 60
 				}
 			}
 		}
@@ -103,10 +103,10 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 2,
-					number = 70,
+					k = 0,
 					dotType = 1,
-					k = 0
+					time = 2,
+					number = 70
 				}
 			}
 		}
@@ -119,22 +119,22 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 2,
-					number = 80,
+					k = 0,
 					dotType = 1,
-					k = 0
+					time = 2,
+					number = 80
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "2023黑阿尔及利亚 特殊点燃",
 	time = 8.1,
-	id = 200460,
+	name = "2023黑阿尔及利亚 特殊点燃",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200460,
 	last_effect = "zihuozhuoshao",
 	effect_list = {
 		{
@@ -143,10 +143,10 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				time = 2,
-				number = 5,
+				k = 0,
 				dotType = 1,
-				k = 0
+				time = 2,
+				number = 5
 			}
 		}
 	}

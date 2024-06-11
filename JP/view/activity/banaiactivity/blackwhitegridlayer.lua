@@ -20,8 +20,8 @@ slot15 = 5
 slot16 = pg.activity_event_blackwhite
 slot17 = nil
 
-function slot18()
-	function slot1(slot0, slot1, slot2, slot3, slot4)
+slot18 = function()
+	slot1 = function(slot0, slot1, slot2, slot3, slot4)
 		slot5 = {}
 		slot7 = math.min(slot1 + slot4 - 1, slot2 - 1)
 
@@ -34,7 +34,7 @@ function slot18()
 		return slot5
 	end
 
-	function slot2(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		assert(#slot0 ~= 0 and slot1 <= #slot0)
 
 		slot2 = {}
@@ -82,7 +82,7 @@ function slot18()
 	}
 end
 
-function slot19(slot0, slot1)
+slot19 = function(slot0, slot1)
 	slot2 = {
 		Get = function (slot0)
 			slot1 = nil
@@ -119,7 +119,7 @@ function slot19(slot0, slot1)
 	return slot2
 end
 
-function slot20(slot0)
+slot20 = function(slot0)
 	slot1 = {
 		Get = function (slot0, slot1)
 			if not slot0.pools[slot1] then
@@ -152,7 +152,7 @@ function slot20(slot0)
 	return slot1
 end
 
-function slot21(slot0)
+slot21 = function(slot0)
 	slot1 = {
 		AddListener = function (slot0, slot1, slot2)
 			if not slot0.events[slot1] then
@@ -187,7 +187,7 @@ function slot21(slot0)
 	return slot1
 end
 
-function slot22(slot0)
+slot22 = function(slot0)
 	slot1 = {
 		Reset = function (slot0)
 			slot0.x = slot0.initData.x
@@ -279,7 +279,7 @@ function slot22(slot0)
 	})
 end
 
-function slot23(slot0)
+slot23 = function(slot0)
 	slot1 = {
 		id = slot0.id,
 		maxCount = slot0.maxCount,
@@ -409,7 +409,7 @@ function slot23(slot0)
 				return
 			end
 
-			function slot2()
+			slot2 = function()
 				_.each(uv0.primaryCells or {}, function (slot0)
 					slot0:ClearCheck()
 				end)
@@ -477,7 +477,7 @@ function slot23(slot0)
 	})
 end
 
-function slot24(slot0, slot1)
+slot24 = function(slot0, slot1)
 	slot2 = {
 		onCellTypeChanged = function (slot0, slot1)
 			uv0(uv1, slot0, slot1)
@@ -586,7 +586,7 @@ function slot24(slot0, slot1)
 		end
 	}
 
-	function slot3(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1, slot2)
 		if slot2.anim then
 			slot0.dftAniEvent:SetEndEvent(function ()
 				uv0.dftAniEvent:SetEndEvent(nil)
@@ -599,7 +599,7 @@ function slot24(slot0, slot1)
 		end
 	end
 
-	function slot4(slot0, slot1, slot2)
+	slot4 = function(slot0, slot1, slot2)
 		if slot2 then
 			slot0.animation:Stop()
 			slot0.animation:Play("blink")
@@ -641,7 +641,7 @@ function slot24(slot0, slot1)
 	return slot2
 end
 
-function slot25(slot0, slot1, slot2)
+slot25 = function(slot0, slot1, slot2)
 	slot3 = {
 		poolMgr = slot2,
 		onFirstFinished = function (slot0, slot1)
@@ -742,7 +742,7 @@ function slot25(slot0, slot1, slot2)
 		end
 	}
 
-	function slot4(slot0, slot1, slot2)
+	slot4 = function(slot0, slot1, slot2)
 		slot3 = slot0:GetCellTpl(slot2).transform
 
 		setParent(slot3, slot0.cellContainer)
@@ -770,7 +770,7 @@ function slot25(slot0, slot1, slot2)
 		end, SFX_PANEL)
 	end
 
-	function slot5(slot0, slot1, slot2)
+	slot5 = function(slot0, slot1, slot2)
 		slot0.leftCountTxt.text = slot2
 		slot3 = slot0.map:CalcScore()
 
@@ -791,13 +791,13 @@ function slot25(slot0, slot1, slot2)
 		end
 	end
 
-	function slot6(slot0, slot1, slot2)
+	slot6 = function(slot0, slot1, slot2)
 		slot0.highestScoreTxt.text = slot2
 
 		slot0.onHighestScore(slot0.map.id, slot2)
 	end
 
-	function slot7(slot0, slot1)
+	slot7 = function(slot0, slot1)
 		for slot5, slot6 in ipairs(slot0.cells) do
 			slot6:Dispose()
 			slot0.poolMgr:Return(slot6.cell:GetType(), slot6._tf.gameObject)
@@ -806,7 +806,7 @@ function slot25(slot0, slot1, slot2)
 		slot0.cells = {}
 	end
 
-	function slot8(slot0, slot1, slot2)
+	slot8 = function(slot0, slot1, slot2)
 		if _.detect(slot0.cells, function (slot0)
 			return slot0.cell:IsSame(uv0)
 		end) then
@@ -816,7 +816,7 @@ function slot25(slot0, slot1, slot2)
 		end
 	end
 
-	function slot9(slot0, slot1)
+	slot9 = function(slot0, slot1)
 		slot0.highestScoreTxt.text = slot0.map.highestScore
 		slot0.leftCountTxt.text = slot0.map.calcStep
 		slot0.currScoreTxt.text = slot0:ShouldShowStartBg() and "-" or slot0.map:CalcScore()
@@ -869,7 +869,7 @@ function slot25(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot26(slot0)
+slot26 = function(slot0)
 	slot1 = {
 		_tf = slot0,
 		Show = function (slot0, slot1, slot2)
@@ -908,20 +908,19 @@ function slot26(slot0)
 	return slot1
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BlackWhiteGridUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	uv0 = {}
-	slot2 = ResourceMgr.Inst
 
-	slot2:loadAssetBundleAsync("ui/blackwhitegrid_atlas", function (slot0)
+	buildTempAB("ui/blackwhitegrid_atlas", function (slot0)
 		for slot4 = 0, 4 do
 			uv0[slot4] = {}
 
 			for slot8 = 0, 2 do
-				uv0[slot4][slot8] = ResourceMgr.Inst:LoadAssetSync(slot0, slot4 .. "_" .. slot8, nil, true, false)
+				uv0[slot4][slot8] = slot0:LoadAssetSync(slot4 .. "_" .. slot8, nil, true, false)
 			end
 		end
 	end)
@@ -935,7 +934,7 @@ function slot0.preload(slot0, slot1)
 	end)
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activityVO = slot1
 	slot0.passIds = slot1.data1_list
 	slot0.scores = slot1.data2_list
@@ -943,11 +942,11 @@ function slot0.setActivity(slot0, slot1)
 	slot0:updateFur()
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.mapTF = slot0:findTF("map")
 	slot0.backBtn = slot0:findTF("back")
 	slot0.toggleTFs = slot0:findTF("toggles")
@@ -959,7 +958,7 @@ function slot0.init(slot0)
 	slot0._tf:GetComponent(typeof(Image)).sprite = slot0.bgSprite
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
@@ -972,7 +971,7 @@ function slot0.didEnter(slot0)
 
 	slot0.selecteds = {}
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		eachChild(slot0, function (slot0)
 			if go(slot0).name ~= "text" and go(slot0).activeSelf then
 				slot1 = slot0:GetComponent(typeof(Image))
@@ -983,7 +982,7 @@ function slot0.didEnter(slot0)
 		end)
 	end
 
-	function slot3()
+	slot3 = function()
 		for slot3, slot4 in ipairs(uv0.selecteds) do
 			slot4.color = Color.New(1, 1, 1, 1)
 		end
@@ -1032,7 +1031,7 @@ function slot0.didEnter(slot0)
 	slot0:updateBtnsState()
 end
 
-function slot0.updateFur(slot0)
+slot0.updateFur = function(slot0)
 	if slot0.furGot then
 		slot1 = slot0.activityVO:getConfig("config_data")
 
@@ -1040,13 +1039,13 @@ function slot0.updateFur(slot0)
 	end
 end
 
-function slot0.isUnlock(slot0, slot1)
+slot0.isUnlock = function(slot0, slot1)
 	slot2 = slot1.unlock[1]
 
 	return getProxy(ChapterProxy):getChapterById(slot1.unlock[2]) and slot4:isUnlock() and slot4:isAllAchieve() and (slot2 == 0 or table.contains(slot0.passIds, slot2))
 end
 
-function slot0.GetLastestUnlockMap(slot0)
+slot0.GetLastestUnlockMap = function(slot0)
 	if slot0.btns[slot0:GetMapIndex()] then
 		return slot0.btns[slot1]
 	else
@@ -1065,7 +1064,7 @@ function slot0.GetLastestUnlockMap(slot0)
 	end
 end
 
-function slot0.updateBtnsState(slot0)
+slot0.updateBtnsState = function(slot0)
 	for slot4, slot5 in pairs(slot0.btns) do
 		slot6 = table.contains(slot0.passIds, slot4)
 
@@ -1075,7 +1074,7 @@ function slot0.updateBtnsState(slot0)
 	end
 end
 
-function slot0.GetMapVO(slot0, slot1)
+slot0.GetMapVO = function(slot0, slot1)
 	slot2 = nil
 	slot6 = {
 		highestScore = table.indexof(slot0.passIds, slot1.id) and slot0.scores[slot3] or 0,
@@ -1101,7 +1100,7 @@ function slot0.GetMapVO(slot0, slot1)
 	return slot2
 end
 
-function slot0.parseMap(slot0, slot1)
+slot0.parseMap = function(slot0, slot1)
 	if not PlayerPrefs.GetString("BlackWhiteGridMapData-" .. slot1.id .. "-" .. slot0.player.id, "") or slot2 == "" then
 		return slot1.map, slot1.num, false
 	else
@@ -1111,7 +1110,7 @@ function slot0.parseMap(slot0, slot1)
 	end
 end
 
-function slot0.SaveMapsData(slot0)
+slot0.SaveMapsData = function(slot0)
 	for slot5, slot6 in ipairs(slot0.maps) do
 		if slot6:Serialize() and slot7 ~= "" then
 			PlayerPrefs.SetString("BlackWhiteGridMapData-" .. slot6.id .. "-" .. slot0.player.id, slot7)
@@ -1121,31 +1120,31 @@ function slot0.SaveMapsData(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetMapIndex(slot0)
+slot0.GetMapIndex = function(slot0)
 	return PlayerPrefs.GetInt("BlackWhiteGridMapIndex-" .. slot0.player.id, 1)
 end
 
-function slot0.SaveMapIndex(slot0)
+slot0.SaveMapIndex = function(slot0)
 	PlayerPrefs.SetInt("BlackWhiteGridMapIndex-" .. slot0.player.id, slot0.id or 1)
 	PlayerPrefs.Save()
 end
 
-function slot0.loadMap(slot0, slot1)
+slot0.loadMap = function(slot0, slot1)
 	if slot0.mapView then
 		slot0.mapView:Dispose()
 	end
 
 	slot0.mapView = uv0(slot0.mapTF, slot1, slot0.poolMgr)
 
-	function slot0.mapView.onFirstFinished(slot0, slot1)
+	slot0.mapView.onFirstFinished = function(slot0, slot1)
 		uv0:emit(BlackWhiteGridMediator.ON_FINISH, slot0, slot1)
 	end
 
-	function slot0.mapView.onHighestScore(slot0, slot1)
+	slot0.mapView.onHighestScore = function(slot0, slot1)
 		uv0:emit(BlackWhiteGridMediator.ON_UPDATE_SCORE, slot0, slot1)
 	end
 
-	function slot0.mapView.onShowResult(slot0, slot1, slot2)
+	slot0.mapView.onShowResult = function(slot0, slot1, slot2)
 		if slot1 >= 0 then
 			uv0.successMsgbox:Show(slot1, slot2)
 		else
@@ -1156,7 +1155,7 @@ function slot0.loadMap(slot0, slot1)
 	slot1:Init()
 end
 
-function slot0.playStory(slot0, slot1)
+slot0.playStory = function(slot0, slot1)
 	if uv0[slot0.mapView.map.id].story and slot2 ~= "" then
 		pg.NewStoryMgr.GetInstance():Play(slot2, slot1, true, true)
 	else
@@ -1164,7 +1163,7 @@ function slot0.playStory(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:SaveMapsData()
 	slot0:SaveMapIndex()
 

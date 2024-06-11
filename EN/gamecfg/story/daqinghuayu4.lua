@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Submarine Subterfuge!\n\n<size=45>Chapter 4: A Deal With The Devil</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I had been observing Albacore for a few days and learned that she hadn't been pranking anyone. On the contrary: she had made friends with everyone she'd met.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "At least it was relieving to know that this wasn't an HR problem.",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Commander!",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She spoke to me in a strange, childish tone.",
 			typewriter = {
 				speed = 0.05,
@@ -119,9 +119,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I have a bad feeling about this. What is this cheeky little prankster planning?",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Well, what I was wondering is... have you been stalking me lately, Commander?",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Well, well, I thought as much!",
 			typewriter = {
@@ -177,9 +177,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "C'mon, Commander~ I know a liar when I hear one!",
 			typewriter = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Though I tried to deny it, Albacore knew that I had been spying on her.",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Gee~ Imagine if I were to tell everyone about this~",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "\"Hmph! I knew the Commander was a pervert all along!\" – \"H-how could a student of mine turn out this way?! Why would the Commander go after someone so y-young...\" – \"Oh, Commander, you leave me no choice but to cut you up into tiny little pieces...\"",
 			typewriter = {
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Albacore was mimicking the voices of some of her friends.",
 			typewriter = {
 				speed = 0.05,
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Well, Commander? Aren't you going to say the magic words?",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "I see, I see... So, stalking stuff aside, you were just worried about HR, eh?",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "For the first favor... I'm feeling kinda tired, and I wanna sleep on your lap for the whole afternoon. That should charge my batteries back to full!",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "The second favor I'll save for later! Once I come up with something, I'll let you know! Hehehe~",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.4,
 					x = 22.5,
@@ -354,8 +354,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "... Hm? You've got work this evening? Well, that's... too bad for you, then! I'm getting my beauty sleep!",
 			typewriter = {

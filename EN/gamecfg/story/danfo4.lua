@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Denver's Quest!\n\n<size=45>4.The Knight's Sisters</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "After Denver turned in the pest control quest, she came back with a new addition to our little party.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "After Denver turned in the pest control quest, she came back with a new addition to our little party.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "It was none other than her disciplined, self-reliant younger sister and fellow Knight of the Sea, Birmingham.",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "...Denver, this is silly. I already introduced myself to the commander when I took up my post here.",
 			typewriter = {
@@ -131,14 +131,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 102230,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Which is to say... what? That you have the potential to rival Cleveland? Don't take this the wrong way, but I'm skeptical.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Birmingham gazed intently at us, looking like she was going to throw down the gauntlet. Perhaps she would've, if someone hadn't interjected.",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 102230,
 			actorName = "Denver & Birmingham",
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Heh, guess I've got competition now.",
 			typewriter = {
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Cleveland chuckled as she put the red stamp on a quest she had just completed.",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Hm? Oh, nothing to write home about. Just did a sweep not too far from here.",
 			typewriter = {
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "You did a sweep by yourself?! Wow! You really are a legend!",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -312,8 +312,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "I agree. That's incredible.",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Uh... What? Literally all I did was sweep the floor of this place the R&D guys wanted to convert into a storeroom.",
 			typewriter = {
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Denver got fired up again, inspired by her sister's allegedly great contribution.",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "Psst, Commander. Is she always like this?",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "She must be a real handful... Thanks for always looking after her.",
 			typewriter = {
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Denver sang Cleveland's praises, while Cleveland herself was left speechless. Birmingham, meanwhile, gave me her thanks.",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 202110,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-royalnavy",
 			dir = 1,
 			say = "通信が入りました！支援艦隊からの通信です！",
+			bgm = "bgm-royalnavy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "ティルピッツにシャルンホルスト姉妹を含む、敵鉄血の主力艦隊が支援艦隊に向けて移動中！",
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "――主力艦隊に支援を要請する！",
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "鉄血艦隊、ようやく出てきたわね…！",
 			typewriter = {
 				speed = 0.05,

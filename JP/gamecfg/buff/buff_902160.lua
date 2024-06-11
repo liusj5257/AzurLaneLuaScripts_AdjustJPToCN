@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "恬静的午后",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 902160,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902160,
+	color = "yellow",
 	icon = 902160,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiSubPower",
-				number = 1000
+				number = 1000,
+				attr = "antiSubPower"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "accuracyToShipType_8",
-				number = 0.1
+				number = 0.1,
+				attr = "accuracyToShipType_8"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "accuracyToShipType_17",
-				number = 0.1
+				number = 0.1,
+				attr = "accuracyToShipType_17"
 			}
 		}
 	}

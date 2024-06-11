@@ -1,7 +1,7 @@
 slot0 = class("CatteryAddHomeExpAnim")
 slot1 = 1
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.expSlider = findTF(slot0._tf, "slider"):GetComponent(typeof(Slider))
 	slot0.levelTxt = findTF(slot0._tf, "level"):GetComponent(typeof(Text))
@@ -16,7 +16,7 @@ function slot0.Ctor(slot0, slot1)
 	setActive(slot0._tf, false)
 end
 
-function slot0.Action(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Action = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	setActive(slot0._tf, true)
 
 	slot0.callback = slot5
@@ -28,11 +28,11 @@ function slot0.Action(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:RefreshHome(slot2)
 end
 
-function slot0.GetAwardOffset(slot0, slot1, slot2)
+slot0.GetAwardOffset = function(slot0, slot1, slot2)
 	return (slot1 or slot2) and -82 or -15
 end
 
-function slot0.RefreshAward(slot0, slot1, slot2)
+slot0.RefreshAward = function(slot0, slot1, slot2)
 	if slot1 then
 		GetImageSpriteFromAtlasAsync("Props/20010", "", slot0.additionItemImg)
 	elseif slot2 then
@@ -42,7 +42,7 @@ function slot0.RefreshAward(slot0, slot1, slot2)
 	setActive(slot0.additionItem, slot1 or slot2)
 end
 
-function slot0.RefreshHome(slot0, slot1)
+slot0.RefreshHome = function(slot0, slot1)
 	slot0.additionExpTxt.text = slot1 .. "<size=40>EXP</size>"
 
 	if getProxy(CommanderProxy):GetCommanderHome().exp - slot1 < 0 then
@@ -52,7 +52,7 @@ function slot0.RefreshHome(slot0, slot1)
 	end
 end
 
-function slot0.DoUpgradeAnim(slot0, slot1, slot2)
+slot0.DoUpgradeAnim = function(slot0, slot1, slot2)
 	slot0.levelTxt.text = "LV." .. slot1:GetLevel() - 1
 
 	if slot2 == 0 then
@@ -86,7 +86,7 @@ function slot0.DoUpgradeAnim(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.DoAddExpAnim(slot0, slot1, slot2)
+slot0.DoAddExpAnim = function(slot0, slot1, slot2)
 	slot0.levelTxt.text = "LV." .. slot1:GetLevel()
 
 	if slot2 == 0 then
@@ -110,7 +110,7 @@ function slot0.DoAddExpAnim(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.IfIsMaxLevel(slot0, slot1, slot2, slot3)
+slot0.IfIsMaxLevel = function(slot0, slot1, slot2, slot3)
 	if slot1:IsMaxLevel() then
 		slot0.expTxt.text = "MAX"
 		slot0.expSlider.value = 1
@@ -139,11 +139,11 @@ function slot0.IfIsMaxLevel(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.HideOrShowAddition(slot0, slot1)
+slot0.HideOrShowAddition = function(slot0, slot1)
 	setActive(slot0.additionExp, slot1 > 0)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if not IsNil(slot0.expSlider) and LeanTween.isTweening(go(slot0.expSlider)) then
 		LeanTween.cancel(go(slot0.expSlider))
 	end
@@ -157,16 +157,16 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:Clear()
 	setActive(slot0._tf, false)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Hide()
 end
 
-function slot0.AddExpAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.AddExpAnim = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	parallelAsync({
 		function (slot0)
 			LeanTween.value(go(uv0.expSlider), uv1, uv2, uv3):setOnUpdate(System.Action_float(function (slot0)
@@ -185,7 +185,7 @@ function slot0.AddExpAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end)
 end
 
-function slot0.AdditionAnim(slot0, slot1, slot2)
+slot0.AdditionAnim = function(slot0, slot1, slot2)
 	setActive(slot0.addition, true)
 
 	slot3 = LeanTween.value(go(slot0.addition), slot0.animRiseH, slot0.animRiseH + 25, slot1)

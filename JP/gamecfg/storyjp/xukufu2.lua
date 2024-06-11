@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ジュルネ・シュルクーフ！\n\n<size=45>二 午前中のシュルクーフ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港·執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港·執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "あれ？私、指揮官を起こしに行ってたはずなのに……やっぱりここは夢だよねー……よぉし、二度寝するー",
 			typewriter = {
 				speed = 0.05,
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "あらゆる方法を使って、ようやくシュルクーフを起こすことに成功した。",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "シュルクーフは抱っこしてアピールしてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -302,9 +302,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "驚きを隠せないシュルクーフだった。",
 			typewriter = {
 				speed = 0.05,
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "お仕事再開の時間だ。",
 			typewriter = {
 				speed = 0.05,

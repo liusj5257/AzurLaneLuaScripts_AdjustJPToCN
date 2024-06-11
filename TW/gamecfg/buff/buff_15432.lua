@@ -9,8 +9,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -54,8 +54,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -99,8 +99,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -144,8 +144,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -189,8 +189,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -234,8 +234,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -279,8 +279,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -324,8 +324,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -369,8 +369,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -414,8 +414,8 @@ return {
 				},
 				arg_list = {
 					group = 15430,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -449,9 +449,9 @@ return {
 			}
 		}
 	},
-	time = 10,
 	name = "不沉舰",
 	init_effect = "jinengchufablue",
+	time = 10,
 	picture = "",
 	desc = "无敌",
 	stack = 1,
@@ -474,8 +474,8 @@ return {
 			},
 			arg_list = {
 				group = 15430,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

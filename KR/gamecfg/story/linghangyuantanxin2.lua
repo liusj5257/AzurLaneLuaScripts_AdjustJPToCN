@@ -8,28 +8,28 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room1",
+			bgm = "qe-ova-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "살짝 옷자락이 당겨지는 느낌이 들어 돌아보니, 나를 빤히 쳐다보고 있는 TB의 모습이 보였다.",
-			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -49,14 +49,14 @@ return {
 			}
 		},
 		{
-			actor = 1006,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room1",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "응… 밥…",
+			bgName = "bg_project_tb_room1",
 			tbActor = true,
+			actor = 1006,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "응… 밥…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,10 +78,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1006,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "싫어… 이젠 맛없어…",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1006,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "다른 게 좋아…",
 			typewriter = {
@@ -132,10 +132,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1006,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}이 만드는 거라면 뭐든지 좋아…",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "나는 겸연쩍은 미소를 지으며 TB의 머리를 쓰다듬었다. 나중에 요리책이라도 좀 읽어둬야겠군.",

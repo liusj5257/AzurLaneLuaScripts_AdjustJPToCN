@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 14450,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14450,
+	color = "red",
 	icon = 14450,
 	last_effect = "",
 	effect_list = {
@@ -36,8 +36,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.01
+				number = 0.01,
+				attr = "injureRatio"
 			}
 		},
 		{

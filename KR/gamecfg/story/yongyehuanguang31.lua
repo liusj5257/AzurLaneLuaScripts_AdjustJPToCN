@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG31",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-4",
 			say = "오로라 아래에서의 격렬한 전투는 여전히 계속되고 있다.",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "신형 세이렌 함대일지라도, 로열 네이비 주력의 맹렬한 포화로, 불타고 있는 잔불로 잇달아 변하고 있다. 문제는…",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "지금까지 틈새를 안 막은 건 아니겠지? 정말 못 믿겠네!",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = " 아아! 저 신형? 인트루더…라고 부르지?",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "기록에 따르면, 인트루더는 일종의 전자 설비를 교란하고 부수는 것이 위주인 모델이에요! 만약 그 주무기에 직접적으로 명중된다면, 아무리 전열함이라 하더라도 전력 시스템 고장이 순간 일어날 수 있어요.",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "흥! 화력이라면 우리도 그깟 노스 유니온에 뒤지지 않을 거야!",
 			typewriter = {
 				speed = 0.05,

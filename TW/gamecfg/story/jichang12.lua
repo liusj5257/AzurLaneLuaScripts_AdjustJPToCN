@@ -1,15 +1,15 @@
 return {
-	id = "JICHANG12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG12",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "song07",
 			say = "――！",
+			side = 2,
+			dir = 1,
+			bgm = "song07",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701050,
 			dir = 1,
+			actor = 701050,
 			say = "好，好耀眼！不僅僅是舞台效果，就連惡毒本人也…！",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207110,
 			dir = 1,
+			actor = 207110,
 			say = "沒想到，那個孩子認真起來竟然能展現到這種程度…",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 103250,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "是啊，完全低估了她……",
 			typewriter = {
 				speed = 0.05,
@@ -71,9 +71,9 @@ return {
 		{
 			actor = 103250,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "而且，不僅舞台演出，艦裝和佈景的佈置也十分的優雅……所有一切保持著貫穿全場的一致風格。",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202280,
 			dir = 1,
+			actor = 202280,
 			say = "讓我想起了努力的天狼星的模樣……",
 			typewriter = {
 				speed = 0.05,
@@ -118,10 +118,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 103250,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那就跟她戰鬥到安可，憑耐力取勝吧…！",
 			typewriter = {
 				speed = 0.05,
@@ -135,10 +135,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 901120,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901120,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我已經很累了……不行了，一點也動不了了……",
 			flashout = {
 				dur = 0.5,
@@ -204,9 +204,9 @@ return {
 		{
 			actor = 901120,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "凱旋…………",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "雖說凱旋說過「想看到惡毒在大家面前閃亮登場的姿態」，要不這裡還是算了……",
 			typewriter = {
 				speed = 0.05,
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 901120,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901120,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……………不，還能再堅持一會。",
 			typewriter = {
 				speed = 0.05,
@@ -253,10 +253,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 901120,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901120,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（為了凱旋，再、再努力一會……）",
 			flashout = {
 				dur = 0.5,
@@ -293,8 +293,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205012,
 			dir = 1,
+			actor = 205012,
 			say = "哼哼，這是厭戰準備的超一流佈景和器材！好好見識下女王的力量吧！",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205022,
 			dir = 1,
+			actor = 205022,
 			say = "真不愧是陛下。",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "等等，這下不妙了…",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "如果就這樣開始安可的話，惡毒可沒法一直維持現在的狀態。",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "沒想到光輝她們竟然能堅持到現在……只能使用最後的手段了。",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "惡毒，能聽到嗎？只剩下一首歌哦了！敦克爾克的糖果在等著你哦！",
 			typewriter = {
 				speed = 0.05,

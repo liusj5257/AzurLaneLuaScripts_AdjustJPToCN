@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANSAICHE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANSAICHE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection! Racing Special\n\n<size=45>1 Moonlit Chrome</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			live2d = "main1",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
 			dir = 1,
 			bgm = "story-richang-6",
 			actor = 307082,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main1",
 			say = "Mmh... Ah... How is this?",
 			painting = {
 				alpha = 0.3,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Is this posture... suitable?",
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "Very well... This one shall do as you ask...",
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Shinano, donning a pit babe outfit, is leaning atop a race car. She's trying hard to find just the right pose.",
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Meanwhile, I'm standing just off to the side, camera in hand.",
@@ -112,11 +112,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "How did I end up in this position? Well...",
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Aoba wanted pictures for her newspaper and asked Shinano to pose for some photos. She agreed, but Aoba had to tend to some urgent matter, and so I was the only one left who could do the photography.",
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Perhaps... this pose? What are your thoughts...?",
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It looks like she's settled on one.",
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "It does differ somewhat from the reference pictures...",
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That is true...",
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Whew... Very well, if you're certain...",
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Admittedly... this is a tad embarrassing...",
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Nonetheless... I will do anything in my power to show support for the racers...",
@@ -264,11 +264,11 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Alright. Let's take a few photos and see how they look.",
@@ -278,11 +278,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "Of course... Take as many as needed...",
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 307082,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Shinano is bashful but determined. I offer her a few words of encouragement and psych myself up before starting the shoot.",
@@ -310,31 +310,31 @@ return {
 			}
 		},
 		{
-			hidePaintObj = true,
+			live2d = true,
 			side = 2,
-			bgName = "star_level_bg_132",
 			withoutActorName = true,
+			bgName = "star_level_bg_132",
 			soundeffect = "event:/ui/kuaimen",
 			actor = 307082,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "Thanks to that, I manage to capture some good photos.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

@@ -4,8 +4,8 @@ return {
 	fadeOut = 1,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "獨自在河邊漫步。似乎聽見了附近傳來的水聲？",
 			typewriter = {
 				speed = 0.05,
@@ -13,8 +13,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "——向著發出聲音的地方看去。一隻小動物正在水中掙扎，看起來是不小心落水了。",
 			typewriter = {
 				speed = 0.05,
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "仔細看看，河水深不見底。但小動物依然在呼救……",
 			typewriter = {
 				speed = 0.05,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "於是，你最終決定——",
 			typewriter = {
 				speed = 0.05,

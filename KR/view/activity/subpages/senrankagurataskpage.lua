@@ -1,22 +1,22 @@
 slot0 = class("SenrankaguraTaskPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.activityProxy = getProxy(ActivityProxy)
 
 	slot0:findUI()
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.configID = slot0.activity:getConfig("config_id")
 	slot0.configData = pg.activity_event_turning[slot0.configID]
 	slot0.groupNum = slot0.configData.total_num
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = slot0:getCurIndex()
 
 	if slot0.markClickPos and slot0.markClickPos > 0 then
@@ -43,10 +43,10 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:updateLogText()
 end
 
-function slot0.onDestroy(slot0)
+slot0.onDestroy = function(slot0)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot1 = slot0:findTF("IconList")
 	slot0.nameList = {
 		"feiniao",
@@ -175,7 +175,7 @@ function slot0.findUI(slot0)
 	slot0.logText = slot0:findTF("LogText")
 end
 
-function slot0.updatePosPanel(slot0)
+slot0.updatePosPanel = function(slot0)
 	slot2 = slot0.activity.data1_list
 
 	for slot6, slot7 in ipairs(slot0.posTFList) do
@@ -191,13 +191,13 @@ function slot0.updatePosPanel(slot0)
 	setActive(slot0.finalLockTF, not slot3)
 end
 
-function slot0.updateTaskPanel(slot0)
+slot0.updateTaskPanel = function(slot0)
 	slot0:updateTaskList()
 	slot0:updateProgress()
 	slot0:updatePainting()
 end
 
-function slot0.updateTaskList(slot0)
+slot0.updateTaskList = function(slot0)
 	slot1 = slot0:getCurTaskIDList()
 
 	for slot5, slot6 in ipairs(slot0.taskTFList) do
@@ -247,7 +247,7 @@ function slot0.updateTaskList(slot0)
 	end
 end
 
-function slot0.updateProgress(slot0)
+slot0.updateProgress = function(slot0)
 	slot1 = slot0:getStep()
 
 	for slot5, slot6 in ipairs(slot0.progressTFList) do
@@ -257,7 +257,7 @@ function slot0.updateProgress(slot0)
 	end
 end
 
-function slot0.updatePainting(slot0)
+slot0.updatePainting = function(slot0)
 	slot1 = slot0:getCurIndex()
 	slot3 = slot0.paintingList[slot1]
 
@@ -277,7 +277,7 @@ function slot0.updatePainting(slot0)
 	end
 end
 
-function slot0.openTaskAni(slot0)
+slot0.openTaskAni = function(slot0)
 	slot4 = slot0.posTFList[table.indexof(slot0.activity.data1_list, slot0:getCurIndex(), 1)]
 	slot5 = slot0:findTF("Get", slot4)
 	slot6 = slot0:findTF("Got", slot4)
@@ -315,7 +315,7 @@ function slot0.openTaskAni(slot0)
 	slot0.tweenTF = slot4
 end
 
-function slot0.check(slot0)
+slot0.check = function(slot0)
 	if not slot0:isGotFinalAward() then
 		if slot0:getStep() <= slot0.groupNum and slot0:getCurTaskIDList() and slot0:isFinishedCurTaskList() then
 			print("清除位置")
@@ -329,44 +329,44 @@ function slot0.check(slot0)
 	end
 end
 
-function slot0.isGotFinalAward(slot0)
+slot0.isGotFinalAward = function(slot0)
 	return slot0.activity.data2 > 0
 end
 
-function slot0.getStep(slot0)
+slot0.getStep = function(slot0)
 	return slot0.activity.data3
 end
 
-function slot0.getCurIndex(slot0)
+slot0.getCurIndex = function(slot0)
 	return slot0.activity.data4
 end
 
-function slot0.getCurTaskIDList(slot0)
+slot0.getCurTaskIDList = function(slot0)
 	return slot0.configData.task_table[slot0:getCurIndex()]
 end
 
-function slot0.isFinishedCurTaskList(slot0)
+slot0.isFinishedCurTaskList = function(slot0)
 	return _.all(slot0:getCurTaskIDList(), function (slot0)
 		return uv0.taskProxy:getTaskVO(slot0):getTaskStatus() == 2
 	end)
 end
 
-function slot0.getCurDayCount(slot0)
+slot0.getCurDayCount = function(slot0)
 	return pg.TimeMgr.GetInstance():DiffDay(slot0.activity.data1, pg.TimeMgr.GetInstance():GetServerTime()) + 1
 end
 
-function slot0.getMaxDayCount(slot0)
+slot0.getMaxDayCount = function(slot0)
 	return math.clamp(slot0:getCurDayCount(), 1, slot0.configData.total_num)
 end
 
-function slot0.resetPos(slot0)
+slot0.resetPos = function(slot0)
 	slot0:emit(ActivityMediator.EVENT_OPERATION, {
 		cmd = 2,
 		activity_id = slot0.activity.id
 	})
 end
 
-function slot0.selectPos(slot0, slot1)
+slot0.selectPos = function(slot0, slot1)
 	slot0:emit(ActivityMediator.EVENT_OPERATION, {
 		cmd = 1,
 		activity_id = slot0.activity.id,
@@ -374,14 +374,14 @@ function slot0.selectPos(slot0, slot1)
 	})
 end
 
-function slot0.getFinalAward(slot0)
+slot0.getFinalAward = function(slot0)
 	slot0:emit(ActivityMediator.EVENT_OPERATION, {
 		cmd = 1,
 		activity_id = slot0.activity.id
 	})
 end
 
-function slot0.updateLogText(slot0)
+slot0.updateLogText = function(slot0)
 	slot1 = slot0.activity.data1
 	slot4 = slot0.activity.data4
 	slot6 = slot0.activity
@@ -392,7 +392,7 @@ function slot0.updateLogText(slot0)
 	slot9 = slot9:DiffDay(slot1, slot12:GetServerTime()) + 1
 	slot11 = ""
 
-	function slot12(slot0)
+	slot12 = function(slot0)
 		uv0 = uv0 .. slot0 .. "\n"
 	end
 

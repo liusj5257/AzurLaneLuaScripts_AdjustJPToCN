@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动EX 生命转换 吸血效果",
 	time = 15,
-	color = "red",
+	name = "2022莱莎联动EX 生命转换 吸血效果",
+	init_effect = "",
+	id = 200130,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200130,
+	color = "red",
 	icon = 200130,
 	last_effect = "",
 	effect_list = {

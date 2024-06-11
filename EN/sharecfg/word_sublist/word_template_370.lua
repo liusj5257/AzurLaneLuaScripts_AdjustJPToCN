@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_370 = {}
 slot1 = slot0.word_template_370
 
-function temp()
+temp = function()
 	uv0["攝"] = {
 		["影"] = {
 			["師"] = {
@@ -26,7 +26,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["查"] = {
 		["理"] = {
 			["柯"] = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["檔"] = {
 		["車"] = {
 			["的"] = {
@@ -56,7 +56,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["攩"] = {
 		["車"] = {
 			["的"] = {
@@ -72,7 +72,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["噹"] = {
 		["車"] = {
 			["的"] = {
@@ -88,7 +88,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鐵"] = {
 		["騎"] = {
 			["繼"] = {
@@ -102,7 +102,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["矮"] = {
 		["子"] = {
 			this = true,

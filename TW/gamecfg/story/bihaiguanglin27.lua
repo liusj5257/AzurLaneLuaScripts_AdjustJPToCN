@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN27",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "華麗的中心區內萬籟俱寂，空蕩的水面上沒有任何敵人存在的踪跡。",
 			dir = 1,
 			bgm = "theme-longgong",
+			nameColor = "#a9f548",
+			say = "華麗的中心區內萬籟俱寂，空蕩的水面上沒有任何敵人存在的踪跡。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "彷彿這裡不是戰場的中心，只是一處寧靜的景點而已。",
@@ -82,8 +82,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（絕對不可能……你們當這裡是什麼地方啊！）",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "很好，抓緊機會尋找能夠升起龍宮城的機關，我們盡快離開。",
 			typewriter = {
@@ -113,14 +113,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "一番並不漫長的尋找後，眾人在海域中發現了一個被結界封印的區域。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "好漂亮的結界啊，和之前看到的那些都不一樣……",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "結界裡似乎有人……",
 			typewriter = {
@@ -182,10 +182,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "咦？這次的控制台好像在結界外面，那個就是龍宮城的控制開關吧！",
 			typewriter = {
 				speed = 0.05,
@@ -216,10 +216,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我按——————",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,12 +241,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "轟隆隆隆——————————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟隆隆隆——————————",
 			flashN = {
 				color = {
 					1,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "隨著控制台被啟動，中心區域發生了一陣猛烈地抖動，之後重新歸於平靜。",
@@ -314,8 +314,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "什麼奇怪的事都沒發生？真是太好了……不要總是這樣輕舉妄動啊，島風！",
 			typewriter = {
@@ -331,10 +331,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒想太多就按下去了…非常抱歉，駿河閣下！！",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "居然說話了？！",
 			typewriter = {
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "轟————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -483,8 +483,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "而且隨便一揮刀就從內部把結界破壞了？！",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "破壞了結界後，從結界中甦醒的人沒有發動進一步攻擊，只是悠然的環視著水面。",
@@ -533,8 +533,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "這是棋子…？但是壓迫力好驚人。",
 			typewriter = {
@@ -550,10 +550,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那個……你是誰？是和我們一樣被困在這裡的人麼？",
 			typewriter = {
 				speed = 0.05,
@@ -568,8 +568,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（居然主動上去打招呼了？！前面這個怎麼看都不是吧！）",
 			typewriter = {
@@ -601,8 +601,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "汝等就是侵入吾之領地，並打破吾之封印之人？",
 			typewriter = {
@@ -618,10 +618,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "因為有聲音說這麼做就能離開嘛……抱抱抱歉！我們會賠償的！",
 			typewriter = {
 				speed = 0.05,
@@ -633,8 +633,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,8 +662,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "既然將吾從久睡中喚醒，想必對此已經有了充分的覺悟了吧？",
 			typewriter = {
@@ -679,10 +679,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "覺、覺悟？！我們只是想離開這里而已！真的抱歉打擾到你休息了！",
 			typewriter = {
 				speed = 0.05,
@@ -694,8 +694,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -707,8 +707,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "你……作為挑戰者來說也太缺乏氣勢了……不過無妨，讓我們開始試煉吧。",
 			typewriter = {
@@ -724,10 +724,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "試煉！？",
 			typewriter = {
 				speed = 0.05,
@@ -742,8 +742,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "想要離開龍宮麼？那隻要通過試煉就可以了，出招吧！",
 			typewriter = {
@@ -814,8 +814,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -827,8 +827,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "我說，你不要上來就對著島風欺負啊！",
 			typewriter = {
@@ -844,8 +844,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "哦？原來你才是領頭人麼。",
 			typewriter = {
@@ -861,8 +861,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "我是築摩，受武藏大人和信濃大人的委託帶領艦隊探索此處龍宮城。",
 			typewriter = {
@@ -878,8 +878,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "試煉，是指戰勝你的意思麼？",
 			typewriter = {
@@ -943,8 +943,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "僅此而已麼？",
 			typewriter = {
@@ -960,8 +960,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "你究竟想說什麼？",
 			typewriter = {
@@ -977,8 +977,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "如果我們打贏了，能離開這裡是理所當然的。既然是試煉，作為勝利者難道不應該有額外的嘉獎麼？",
 			typewriter = {
@@ -994,8 +994,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "自大狂妄。僅憑汝等要是真贏了吾，看上城中什麼獎勵隨便拿走便是。",
 			typewriter = {
@@ -1011,8 +1011,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "就這麼說定了~接下來請由我向你介紹這位重櫻的新銳戰列艦，和她過招一定會更有意思的。",
 			typewriter = {
@@ -1025,11 +1025,11 @@ return {
 			}
 		},
 		{
-			actor = 303060,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303060,
+			nameColor = "#a9f548",
 			say = "{namecode:175}~",
 			typewriter = {
 				speed = 0.05,
@@ -1041,8 +1041,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1070,8 +1070,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "嗯~看起來確實比剛才的小個子能打。那麼就換成你來吧，接招——————！",
 			typewriter = {
@@ -1103,10 +1103,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "加油哦，駿河！",
 			typewriter = {
 				speed = 0.05,
@@ -1118,8 +1118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1131,9 +1131,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "不要擺出一副事不關己的態度，又沒說要一對一！一起來打啊！",
 			typewriter = {
@@ -1146,8 +1146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

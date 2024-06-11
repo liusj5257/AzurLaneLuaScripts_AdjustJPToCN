@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"在櫻花紛飛的那天之後\n\n<size=45>一  所尋找的物品是？</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "為了增強艦隊實力，需要在港區內建設一個新的補給倉庫。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "為了增強艦隊實力，需要在港區內建設一個新的補給倉庫。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "一邊走一邊思考建造地點的問題時，發現了一個躺在路中央的束口袋。",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "撿起來搖了一下袋子，裡面傳來硬幣碰撞的叮噹聲。到底會是誰落下的呢…",
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "把錢包遞給扶桑後，告訴了她是剛剛在路中間撿到的。",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "太好了……我還擔心它會不會掉到了排水溝裡…",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "掉了錢包這種事，怎麼也不能算作走運吧……",
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "這麼說起來，神社附近確實有塊大小合適的空地……",
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

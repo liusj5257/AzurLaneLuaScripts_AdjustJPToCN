@@ -1,8 +1,8 @@
 return {
-	id = "W2021",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2021",
+	skipTip = false,
 	scripts = {
 		{
 			actor = 112010,
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Vestal is offering to restore our fleets back to perfect condition.%。",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ヒガンバナの恋\n\n<size=45>その四　味方と過去</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "重桜・鉄血の交流パーティーにて",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "重桜・鉄血の交流パーティーにて",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 407010,
+			say = "グラーフ・ツェッペリンだ。珍しいな。まさかお前がこんな行事に参加するとは。",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "グラーフ・ツェッペリンだ。珍しいな。まさかお前がこんな行事に参加するとは。",
+			actor = 407010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "パーティーの喧騒とは離れた所で、二人の会話が続く。",
 			typewriter = {
 				speed = 0.05,

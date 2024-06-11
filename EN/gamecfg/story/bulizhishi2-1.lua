@@ -1,15 +1,15 @@
 return {
-	id = "BULIZHISHI2-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULIZHISHI2-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-1",
 			say = "The Bulins grew stronger with each passing day as they refined their skills. Finally, one day came the opportunity to show the world the fruits of their training.",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,8 +78,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			say = "You sure talk big for a big fat nobody, bulin!",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			say = "Now those are fighting words, you half-pint! Who the hell are you?",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Just call me Rainbow Bulin, bulin! But you're not getting the rainbow – you're gonna get the PAINbow, bulin!",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,8 +136,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			say = "Oh yeah? We'll see about that! Show me whatcha got!",
 			typewriter = {
 				speed = 0.05,

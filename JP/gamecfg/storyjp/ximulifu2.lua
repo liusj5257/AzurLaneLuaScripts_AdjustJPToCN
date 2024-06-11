@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平和に祈りを\n\n<size=45>二　出逢いを祝おう</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "パーティー会場",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "パーティー会場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "……前にも言ったでしょう？ここではそんなに固くならなくてもいいから、ビスマルクでいいわよ",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "は、はい！ビスマルク…さん！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 405011,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
-			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "鉄血陣営の艦船たちに取り囲まれながら、母港に新たに着任したビスマルクはドレス姿で登場した",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "指揮官も。我が鉄血主催のパーティーに参加してくれて、大変感謝する",
 			typewriter = {
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "いつもに増して威厳のある声だった",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107071,
 			dir = 1,
+			actor = 107071,
 			nameColor = "#a9f548",
 			say = "まあせっかくパーッとお祝いできそうな日だし、楽しまないと損するよ？指揮官もそう思わない？",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107071,
 			dir = 1,
+			actor = 107071,
 			nameColor = "#a9f548",
 			say = "というわけではい！お祝いのシャンパンを開けて景気付けましょう！",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107051,
 			dir = 1,
+			actor = 107051,
 			nameColor = "#a9f548",
 			say = "ご配慮ありがとう。では乾杯の挨拶は私から――みなさん、今日の出逢いを祝って……",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "カンパーイ！",
 			typewriter = {
 				speed = 0.05,

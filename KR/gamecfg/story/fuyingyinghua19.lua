@@ -1,19 +1,19 @@
 return {
-	once = true,
-	mode = 2,
-	id = "FUYINGYINGHUA19",
 	continueBgm = true,
+	mode = 2,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305050,
-			side = 2,
-			bgm = "xinnong-2",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "카와카제!!",
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
+			actor = 305050,
+			nameColor = "#a9f548",
+			say = "카와카제!!",
 			flashN = {
 				color = {
 					1,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "——세이렌의 함선이 또다시 카와카제를 향해 일제히 불을 뿜었다.",
 			typewriter = {
 				speed = 0.05,
@@ -129,10 +129,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "거센 바람이 잦아든 뒤, 보인 것은 아담한 나가토와 거대한 선체의 그림자였다.",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "나가토가 불러낸 장비가 다시 한번 날아온 포탄을 막아냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			say = "바보! 멍청이!!!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -235,8 +235,8 @@ return {
 			say = "에… 에?",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -260,8 +260,8 @@ return {
 			say = "이 몸이… 내가 여전히 모두가 지켜줘야 하는 인형으로 보이는 거야?",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -308,8 +308,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "나가토는 눈을 감고 손을 가슴 앞에 모아 기도를 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "————",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "나가토가 쏘아올린 포탄이 빛이 되어 공중으로 흩어져 어두운 밤하늘을 밝혔다.",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "순간, 그 빛은 한곳으로 모여 포위망의 한쪽을 뚫어냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "나가토는 다친 카와카제를 이끌고 뚫어낸 돌파구를 향해 이동했다——",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "하지만 거대한 장비를 단 채 다른 함선까지 이끌고 빠르게 이동하는 것은 쉽지 않은 일이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -461,23 +461,9 @@ return {
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			say = "저는 신경 쓰지 마십시오… 나가토님.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "나가토는 카와카제의 말을 무시한 채 포화 사이에서 묵묵히 이동할 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,8 +474,22 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			say = "나가토는 카와카제의 말을 무시한 채 포화 사이에서 묵묵히 이동할 뿐이었다.",
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			dir = 1,
 			say = "하지만 바다에서 계속 나타나는 세이렌은 나가토가 채 도달하기도 전, 뚫어낸 돌파구를 메우고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "카와카제는 견인줄을 끊고 마지막 힘을 모아 앞으로 돌진했다.",
 			typewriter = {
 				speed = 0.05,
@@ -544,9 +544,9 @@ return {
 			}
 		},
 		{
+			say = "——",
 			soundeffect = "event:/battle/plane",
 			bgm = "story-7",
-			say = "——",
 			flashN = {
 				color = {
 					1,
@@ -585,10 +585,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "커다란 폭발음과 함께 돌파구 주변의 세이렌이 순식간에 잔불로 변했다.",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -646,12 +646,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "——그저 이런 무사를 잃는다면, 누군가가 울어버릴지도~",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 307060,
+			say = "——그저 이런 무사를 잃는다면, 누군가가 울어버릴지도~",
 			flashN = {
 				color = {
 					1,
@@ -694,8 +694,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "즈이카쿠의 폭격기가 적에게 포탄을 쏟아붓자 하늘이 또다시 붉게 물들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -707,14 +707,14 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "덕분에 살았다… 고맙군, 즈이카쿠.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -739,8 +739,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1250,
+					type = "move",
 					delay = 1.5,
 					dur = 0.25,
 					x = 0
@@ -748,8 +748,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "카와카제는 남은 힘을 모아 즈이카쿠에게 감사를 건넨 뒤, 탈진해 버렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -881,8 +881,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -973,8 +973,8 @@ return {
 			say = "걱정 마시고 맡겨만 달라고요~",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

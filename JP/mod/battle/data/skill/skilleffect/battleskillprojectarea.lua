@@ -7,7 +7,7 @@ slot4 = class("BattleSkillProjectArea", slot0.Battle.BattleSkillEffect)
 slot0.Battle.BattleSkillProjectArea = slot4
 slot4.__name = "BattleSkillProjectArea"
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1, lv)
 
 	slot0._posX = slot0._tempData.arg_list.offset_x
@@ -22,15 +22,15 @@ function slot4.Ctor(slot0, slot1)
 	slot0._buffID = slot0._tempData.arg_list.cld_buff_id
 end
 
-function slot4.DoDataEffect(slot0, slot1)
+slot4.DoDataEffect = function(slot0, slot1)
 	slot0:doSpawnAOE(slot1)
 end
 
-function slot4.DoDataEffectWithoutTarget(slot0, slot1)
+slot4.DoDataEffectWithoutTarget = function(slot0, slot1)
 	slot0:doSpawnAOE(slot1)
 end
 
-function slot4.doSpawnAOE(slot0, slot1)
+slot4.doSpawnAOE = function(slot0, slot1)
 	slot5 = slot1:GetPosition()
 	slot7 = uv0.Battle.BattleDataProxy.GetInstance():SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot1:GetIFF(), Vector3(slot5.x + slot0._posX, 0, slot5.z + slot0._posZ), slot0._width, slot0._height, slot0._lifeTime, function (slot0)
 		for slot4, slot5 in ipairs(slot0) do

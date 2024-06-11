@@ -1,31 +1,31 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHIZHEYUZHIZHU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHIZHEYUZHIZHU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
-					"智者与蜘蛛\n\n<size=45>三　调查</size>",
+					"智者與蜘蛛\n\n<size=45>三　調查</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_guild_red_n",
-			say = "铁血浮岛要塞群·A2浮岛-资料室",
+			side = 2,
 			bgmDelay = 1,
 			bgm = "bsm-7",
+			nameColor = "#A9F548FF",
+			say = "鐵血浮島要塞群·A2浮島-資料室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,13 +46,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "哼哼~♪今天的午饭也很美味呢~哼哼哼~♪",
+			hidePaintObj = true,
+			say = "哼哼~♪今天的午餐也很美味呢~哼哼哼~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,13 +63,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "啊不好……忘记这里是应该保持安静的资料室了、",
+			hidePaintObj = true,
+			say = "啊不好……忘記這裡是應該保持安靜的資料室了、",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,91 +85,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "稍微有点得意忘形……非常抱歉，在资料室里被我的哼歌打扰的人！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_guild_red_n",
-			say = "{namecode:96}紧张地环顾了四周，不过资料室内似乎并没有人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			actor = 307060,
-			side = 2,
-			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼…………好险。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "看来铁血的各位还没有训练结束呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "那我也不能继续散漫下去，该去做正事了，{namecode:96}！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "今天应该查看的资料，我记得是在……",
+			say = "稍微有點得意忘形……非常抱歉，在資料室裡被我的哼歌打擾的人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +103,85 @@ return {
 		},
 		{
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_guild_red_n",
+			say = "瑞鶴緊張地環顧了四周，不過資料室內似乎沒有人。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_guild_red_n",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "呼…………好險。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_guild_red_n",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "看來鐵血的各位還沒訓練結束。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_guild_red_n",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "那我也不能繼續散漫下去，該去做正事了，瑞鶴！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_guild_red_n",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "今天應該要查看的資料，我記得是在……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
 			say = "……zZZZ",
@@ -191,13 +191,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "……嗯？这个是……睡觉时轻微的呼吸声。",
+			hidePaintObj = true,
+			say = "……嗯？這是……睡覺時輕微的呼吸聲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,13 +208,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "欸？！难道说资料室里不但有人，还在休息么…！",
+			hidePaintObj = true,
+			say = "欸？！難道說資料室裡不但有人，還在休息嗎……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,10 +230,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_red_n",
-			say = "顺着声音的痕迹在书架中穿行了一阵，一个趴在桌前熟睡的身影出现在{namecode:96}眼前。",
+			say = "順著聲音的痕跡在書架中穿行了一陣，一個趴在桌前熟睡的身影出現在瑞鶴眼前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,10 +243,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……zZZZ",
 			painting = {
 				alpha = 0.3,
@@ -258,13 +258,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "这个是…………铁血的{namecode:463}阁下？！",
+			hidePaintObj = true,
+			say = "這個是…………鐵血的烏爾里希·馮·胡滕閣下？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,13 +280,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "怎、怎么会睡在这————",
+			hidePaintObj = true,
+			say = "怎、怎麼會睡在這裡————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,13 +297,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "嘘…………不好不好，差点没控制住声音。",
+			hidePaintObj = true,
+			say = "噓…………不好不好，差點沒控制好聲音。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,23 +314,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_red_n",
-			say = "{namecode:464}依然在沉睡，并没有注意到身旁的围观者。",
+			say = "烏爾里希依然在沉睡，並沒有注意到身旁的圍觀者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "难道是因为工作量太超负荷了么……",
+			hidePaintObj = true,
+			say = "難道是因為工作量太超負荷了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,13 +341,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "说的也是……既要管理浮岛要塞群，又要跟进米德加尔特之塔的升级，还要负责关于「神石样本」的研究……",
+			hidePaintObj = true,
+			say = "說的也是……既要管理浮島要塞群，又要跟進米德加爾特之塔的升級，還要負責關於「神石樣本」的研究……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,13 +358,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "我还是不要打扰她，就让她在这里睡到自然醒吧~",
+			hidePaintObj = true,
+			say = "我還是不要打擾她，就讓她在這裡睡到自然醒吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,23 +375,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_red_n",
-			say = "{namecode:96}轻轻地后退，将要转身离开之际，无意中瞟到了散放在{namecode:464}手边的书籍。",
+			say = "瑞鶴輕輕地後退，將要轉身離開之際，無意中瞟到了散放在烏爾里希手邊的書。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "唔……《梦的解析》还有……《启示录》。",
+			hidePaintObj = true,
+			say = "嗯……《夢的解析》還有……《啟示錄》。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,13 +402,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "然后是……《阿兹特克神话》和《罗马与众神》……？",
+			hidePaintObj = true,
+			say = "然後是……《阿茲特克神話》和《羅馬與眾神》……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,13 +419,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "啊，旁边还有一本，名字是……《秘法之黑暗》…？",
+			hidePaintObj = true,
+			say = "啊，旁邊還有一本，名字是……《秘法之黑暗》……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,13 +436,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "额………………都是些有趣的书，但是门类跨越好大……！",
+			hidePaintObj = true,
+			say = "呃………………都是些有趣的書，但是分類跨越好大……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,13 +453,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "{namecode:464}阁下这是在进行某种研究么，还是说只是凭兴趣随便阅读呢……",
+			hidePaintObj = true,
+			say = "烏爾里希閣下這是在進行某種研究嗎，還是說只是憑興趣隨便閱讀呢…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,13 +470,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "呜啊…………！我刚才是不是在不经意间……把{namecode:464}阁下正在阅读的资料名单看了一遍？！",
+			hidePaintObj = true,
+			say = "嗚啊…………！我剛才不是在不經意間……把烏爾里希閣下正在閱讀的資料名單看了一遍？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,13 +492,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "…………呜，不小心就看了……",
+			hidePaintObj = true,
+			say = "…………嗚，不小心就看了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,13 +509,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "不、不过看上去都是随处可见的一般书籍，没有敏感资料，应该……没问题吧？",
+			hidePaintObj = true,
+			say = "不、不過看上去都是隨處可見的一般書籍，沒有敏感資料，應該……沒問題吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,13 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "总、总而言之！该去忙正事了，{namecode:96}，快离开这里忙正事了————",
+			hidePaintObj = true,
+			say = "總、總而言之！該去忙正事了，瑞鶴，快離開這裡忙正事了————",
 			painting = {
 				alpha = 0.3,
 				time = 1

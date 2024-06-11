@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"白衣の天使or悪魔？\n\n<size=45>一　補給物資のサプライズ！？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・広場",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・広場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "当たり前のことではございませんか…？最前線の妾たちが補給物資をもらわなくてどうしますか……",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "当たり前のことではございませんか…？最前線の妾たちが補給物資をもらわなくてどうしますか……",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "にゃ！？不知火に褒められたにゃ！大変にゃ！台風が来そうだにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "うにゃ？！ヴァンパイアはいつからいたにゃ！ビックリしたにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.05,
 					x = 0,
@@ -262,12 +262,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "そう言いながら採寸するのはやめていただけませんかね……",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そう言いながら採寸するのはやめていただけませんかね……",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "にゃ！？ナース服なんてパスにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -330,8 +330,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "本当かにゃ！？",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -414,15 +414,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "……行っちゃったにゃ。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -447,13 +447,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "服一着ぐらいはあとで指揮官に給金から天引きを具申すれば良いでございます。それよりも物資の確認をしましょうぞ。",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "服一着ぐらいはあとで指揮官に給金から天引きを具申すれば良いでございます。それよりも物資の確認をしましょうぞ。",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

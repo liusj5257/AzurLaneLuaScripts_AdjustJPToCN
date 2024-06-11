@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 7,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.08
+				number = 0.08,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -26,11 +26,11 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "cannonPower",
-				number = 255,
 				time = 3,
 				dotType = 1,
-				k = 0
+				number = 255
 			}
 		}
 	}

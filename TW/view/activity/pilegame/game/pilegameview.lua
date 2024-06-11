@@ -1,10 +1,10 @@
 slot0 = class("PileGameView")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.controller = slot1
 end
 
-function slot0.SetUI(slot0, slot1)
+slot0.SetUI = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
@@ -45,7 +45,7 @@ function slot0.SetUI(slot0, slot1)
 	slot0.bgMgr = PileGameBgMgr.New(slot0._tf:Find("AD/bgs"))
 end
 
-function slot0.OnEnterGame(slot0, slot1)
+slot0.OnEnterGame = function(slot0, slot1)
 	slot0.viewData = slot1
 	slot0.gameHelpTip = slot0.viewData.tip and slot0.viewData.tip or nil
 
@@ -65,7 +65,7 @@ function slot0.OnEnterGame(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.ShowExitMsg(slot0)
+slot0.ShowExitMsg = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:BlurPanel(slot0.exitPanel)
@@ -80,7 +80,7 @@ function slot0.ShowExitMsg(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.DoCurtain(slot0, slot1)
+slot0.DoCurtain = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0.bgMgr:Init(slot0)
@@ -116,7 +116,7 @@ function slot0.DoCurtain(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.UpdateScore(slot0, slot1, slot2)
+slot0.UpdateScore = function(slot0, slot1, slot2)
 	slot0.scoreTxt.text = slot1
 	slot3 = false
 
@@ -140,7 +140,7 @@ function slot0.UpdateScore(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateFailedCnt(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateFailedCnt = function(slot0, slot1, slot2, slot3, slot4)
 	for slot8, slot9 in ipairs(slot0.heats) do
 		setActive(slot9, slot2 < slot8)
 	end
@@ -151,7 +151,7 @@ function slot0.UpdateFailedCnt(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.AddPile(slot0, slot1, slot2, slot3)
+slot0.AddPile = function(slot0, slot1, slot2, slot3)
 	slot5 = PoolMgr.GetInstance()
 
 	slot5:GetPrefab("Stacks/" .. slot1.gname, slot1.gname, true, function (slot0)
@@ -180,7 +180,7 @@ function slot0.AddPile(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.OnStartDrop(slot0, slot1, slot2, slot3)
+slot0.OnStartDrop = function(slot0, slot1, slot2, slot3)
 	if slot3 then
 		slot0.manjuuAnim:SetBool("despair", PileGameController.DROP_AREA_WARN == slot2)
 	else
@@ -190,19 +190,19 @@ function slot0.OnStartDrop(slot0, slot1, slot2, slot3)
 	slot0.items[slot1]:Find("anim"):GetComponent(typeof(Animator)):SetTrigger("drop")
 end
 
-function slot0.OnItemPositionChange(slot0, slot1)
+slot0.OnItemPositionChange = function(slot0, slot1)
 	if slot0.items[slot1] then
 		slot2.localPosition = slot1.position
 	end
 end
 
-function slot0.OnItemPositionChangeWithAnim(slot0, slot1, slot2)
+slot0.OnItemPositionChangeWithAnim = function(slot0, slot1, slot2)
 	if slot0.items[slot1] then
 		LeanTween.moveLocalY(go(slot3), slot1.position.y, PileGameConst.SINK_TIME):setOnComplete(System.Action(slot2))
 	end
 end
 
-function slot0.OnItemIndexPositionChange(slot0, slot1)
+slot0.OnItemIndexPositionChange = function(slot0, slot1)
 	slot3 = slot1.position.y
 	slot0.prevPosition = slot0.prevPosition or slot0.manjuuPilot.localPosition.x
 	slot4 = 0
@@ -220,11 +220,11 @@ function slot0.OnItemIndexPositionChange(slot0, slot1)
 	slot0.prevPosition = slot2
 end
 
-function slot0.OnExceedingTheHighestScore(slot0)
+slot0.OnExceedingTheHighestScore = function(slot0)
 	slot0.manjuuAnim:SetTrigger("satisfied")
 end
 
-function slot0.DoSink(slot0, slot1, slot2)
+slot0.DoSink = function(slot0, slot1, slot2)
 	slot3 = getAnchoredPosition(slot0.anikiAnim.gameObject)
 
 	LeanTween.value(slot0.anikiAnim.gameObject, slot3.y, slot3.y - slot1, PileGameConst.SINK_TIME):setOnUpdate(System.Action_float(function (slot0)
@@ -235,7 +235,7 @@ function slot0.DoSink(slot0, slot1, slot2)
 	slot0.bgMgr:DoMove(slot1)
 end
 
-function slot0.OnRemovePile(slot0, slot1)
+slot0.OnRemovePile = function(slot0, slot1)
 	if slot0.items[slot1] then
 		if PileGameConst.DEBUG then
 			Destroy(slot2:Find("collider").gameObject)
@@ -251,7 +251,7 @@ function slot0.OnRemovePile(slot0, slot1)
 	end
 end
 
-function slot0.PlaySpeAction(slot0, slot1)
+slot0.PlaySpeAction = function(slot0, slot1)
 	if slot0.items[slot1] then
 		if slot1.speActionCount == 0 then
 			return
@@ -261,13 +261,13 @@ function slot0.PlaySpeAction(slot0, slot1)
 	end
 end
 
-function slot0.OnGameStart(slot0)
+slot0.OnGameStart = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0.controller:Drop()
 	end, SFX_PANEL)
 end
 
-function slot0.OnGameExited(slot0)
+slot0.OnGameExited = function(slot0)
 	setActive(slot0.overviewPanel, true)
 	setActive(slot0.bg, false)
 
@@ -285,7 +285,7 @@ function slot0.OnGameExited(slot0)
 	end
 end
 
-function slot0.OnGameEnd(slot0, slot1, slot2)
+slot0.OnGameEnd = function(slot0, slot1, slot2)
 	(function ()
 		slot0 = pg.UIMgr.GetInstance()
 
@@ -302,14 +302,14 @@ function slot0.OnGameEnd(slot0, slot1, slot2)
 	end)()
 end
 
-function slot0.OnShake(slot0, slot1)
+slot0.OnShake = function(slot0, slot1)
 	setAnchoredPosition(slot0.anikiAnim, {
 		x = getAnchoredPosition(slot0.anikiAnim).x + slot1
 	})
 end
 
-function slot0.OnCollapse(slot0, slot1, slot2, slot3)
-	function slot4(slot0, slot1, slot2, slot3)
+slot0.OnCollapse = function(slot0, slot1, slot2, slot3)
+	slot4 = function(slot0, slot1, slot2, slot3)
 		LeanTween.value(go(uv0.itemsContainer), slot0, slot1, slot2):setOnUpdate(System.Action_float(function (slot0)
 			uv0.itemsContainer.eulerAngles = Vector3(0, 0, slot0)
 		end)):setOnComplete(System.Action(slot3))
@@ -358,7 +358,7 @@ function slot0.OnCollapse(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.InitSup(slot0, slot1)
+slot0.InitSup = function(slot0, slot1)
 	if PileGameConst.DEBUG then
 		slot2 = slot1.ground
 		slot3 = cloneTplTo(slot0.groundTpl, slot0.gameContainer, "ground")
@@ -372,14 +372,14 @@ function slot0.InitSup(slot0, slot1)
 	end
 end
 
-function slot0.AddPileCollider(slot0, slot1)
+slot0.AddPileCollider = function(slot0, slot1)
 	slot3 = cloneTplTo(slot0.itemCollider, slot0.items[slot1], "collider")
 	slot4 = slot1.collider
 	slot3.localPosition = Vector3((0.5 - slot1.pivot.x) * slot1.sizeDelta.x + slot4.offset.x, (0.5 - slot1.pivot.y) * slot1.sizeDelta.y + slot4.offset.y, 0)
 	slot3.sizeDelta = slot4.sizeDelta
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.resultPanel) then
 		setActive(slot0.resultPanel, false)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.resultPanel, slot0.bg)
@@ -406,7 +406,7 @@ function slot0.onBackPressed(slot0)
 	return false
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0.timer then

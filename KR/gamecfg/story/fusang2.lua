@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"벚꽃이 흩날리던 그날 이후\n\n<size=45>2. 스윗한 쇼핑 타임</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "후소에게 왜 그렇게 동전을 많이 가지고 다니는지 물어본다——",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "후소에게 왜 그렇게 동전을 많이 가지고 다니는지 물어본다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,14 +99,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "상점으로 들어설 때, 우리와 함께 들어가고 있는 미치시오를 발견했다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301650,
+			nameColor = "#a9f548",
 			say = "아, 후소 씨도 찹쌀떡을 사러 온 거에요!?",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 301650,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301650,
+			nameColor = "#a9f548",
 			say = "고마워요 후소 씨! 예! 찹쌀떡 찹쌀떡~♪",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "미치시오는 기쁘게 찹쌀떡을 사고 상점을 떠났다.",
@@ -342,8 +342,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,

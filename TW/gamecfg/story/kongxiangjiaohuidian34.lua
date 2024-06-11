@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN34",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			stopbgm = true,
-			say = "？？？·？？？",
 			bgmDelay = 2,
 			bgm = "battle-torch-theme",
+			stopbgm = true,
+			say = "？？？·？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,41 +28,41 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "深红色的海面上漂浮着燃烧的残骸。",
+			say = "深紅色的海面上漂浮著燃燒的殘骸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "{namecode:440}倒在水面上，静静看向远方的天空。",
+			say = "腓特烈大帝倒在水面上，靜靜看向遠方的天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "她的舰装破损严重，但眼神中依然闪耀着光辉。",
+			say = "她的艦裝破損嚴重，但眼神中依然閃耀著光輝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "轰————————————！",
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,23 +108,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "企业打出的最后一击，宣告了仲裁者·赫米忒·IX的彻底落败。",
+			say = "企業打出的最後一擊，宣告了仲裁者·赫米忒·IX的徹底落敗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "…………诱敌作战辛苦了。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "…………誘敵作戰辛苦了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,10 +137,10 @@ return {
 		{
 			actor = 499020,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "无妨。",
+			bgName = "bg_zhuiluo_2",
+			say = "無妨。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,8 +155,8 @@ return {
 			nameColor = "#ffa500",
 			bgName = "bg_zhuiluo_2",
 			side = 2,
-			actorName = "企业·META",
-			say = "我这边结束了，各方汇报战况。",
+			actorName = "企業·META",
+			say = "我這邊結束了，各方報告戰況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 9705010,
 			nameColor = "#ffa500",
-			say = "空间封锁已完成，赫米忒无法再得到其他仲裁机关的支援了。",
+			say = "空間封鎖已完成，赫米忒無法再得到其他仲裁機關的支援了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			actor = 9704020,
 			nameColor = "#ffa500",
-			say = "何止如此！现在的它甚至无法与自己的主机保持通讯了！",
+			say = "何止如此！現在的它甚至無法與自己的主機保持通訊了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 9706010,
 			nameColor = "#ffa500",
-			say = "天帕岚斯已经开始撤退了。",
+			say = "天帕嵐斯已經開始撤退了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			actor = 9706020,
 			nameColor = "#ffa500",
-			say = "司特莲库斯也是哦。呵呵，看来它们对赫米忒的突然失联表示非常疑惑呢。",
+			say = "司特蓮庫斯也是哦。呵呵，看來它們對赫米忒的突然失聯表示非常疑惑呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,10 +245,10 @@ return {
 			bgName = "bg_zhuiluo_2",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "獒·META",
-			actor = 900192,
 			nameColor = "#ffa500",
-			say = "……没想到这么胡来的计划真能成功。",
+			actor = 900192,
+			actorName = "高雄·META",
+			say = "……沒想到這麼胡來的計畫真能成功。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,10 +261,10 @@ return {
 		{
 			actor = 499020,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "能达成这一点，凭借的是你们的实力、底蕴，还有……",
+			bgName = "bg_zhuiluo_2",
+			say = "能達成這一點，要多虧餘燼頂尖的實力，豐厚的底蘊，還有……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,10 +278,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
+			dir = 1,
 			actor = 499020,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……信任。",
+			say = "……妳們的信任。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,13 +292,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "……差不多了，让我们见见猎物吧。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "……差不多了，讓我們來見見獵物吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,13 +309,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "我们又见面了，赫米忒。",
+			bgName = "bg_zhuiluo_2",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "我們又見面了，赫米忒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,17 +325,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -343,13 +343,13 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "…………你们在盘算什么？",
+			say = "…………妳們在盤算什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,81 +360,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
-			dir = 1,
-			actorName = "企业·META",
-			say = "盘算的话……比如，现在去激活你的一个备份，会发生什么事？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900287,
-			nameColor = "#ff5c5c",
 			bgName = "bg_zhuiluo_2",
-			side = 2,
 			dir = 1,
-			actorName = "仲裁者·赫米忒·IX",
-			say = "……这就是你的计划？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900287,
-			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
-			side = 2,
-			dir = 1,
-			actorName = "仲裁者·赫米忒·IX",
-			say = "余烬还是跟以前一样，只行动不思考……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900287,
-			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
-			side = 2,
-			dir = 1,
-			actorName = "仲裁者·赫米忒·IX",
-			say = "别白费心思了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			actor = 900135,
-			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
-			side = 2,
-			dir = 1,
-			actorName = "企业·META",
-			say = "我知道你在想什么。",
+			actorName = "企業·META",
+			say = "盤算的話……比如，現在去啟動妳的一個備份，會發生什麼事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,47 +377,115 @@ return {
 			}
 		},
 		{
-			actor = 900135,
-			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
-			side = 2,
-			dir = 1,
-			actorName = "企业·META",
-			say = "“没有零进行授权，这种事怎么可能”。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900135,
-			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
-			side = 2,
-			dir = 1,
-			actorName = "企业·META",
-			say = "如果我有一个「造物主」本人的紧急识别码呢？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "……啊？造物主大人的……？这怎么可能？！",
+			say = "……這就是妳的計劃？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 900287,
+			actorName = "仲裁者·赫米忒·IX",
+			say = "餘燼還是跟以前一樣，只行動不思考……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 900287,
+			actorName = "仲裁者·赫米忒·IX",
+			say = "別白費心思了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#ffa500",
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 900135,
+			actorName = "企業·META",
+			say = "我知道妳在想什麼。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#ffa500",
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 900135,
+			actorName = "企業·META",
+			say = "「沒有零進行授權，這種事怎麼可能」。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#ffa500",
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 900135,
+			actorName = "企業·META",
+			say = "如果我有一個「造物主」本人的緊急識別碼呢？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#ff5c5c",
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 900287,
+			actorName = "仲裁者·赫米忒·IX",
+			say = "……啊？造物主大人的……？這怎麼可能？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,13 +501,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "……曾经有一次，安洁有拿给我炫耀过。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "……曾經有一次，安潔有拿給我炫耀過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,13 +518,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "我回忆起来了。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "我回憶起來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,11 +535,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
 			say = "……………、、、、、",
 			painting = {
@@ -552,13 +552,13 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "你在使用之后就会被立刻发现的。",
+			say = "妳在使用後就會被立刻發現的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,13 +569,13 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "况且，就算再激活一个赫米忒又能怎么样？",
+			say = "況且，就算再啟動一個赫米忒又能怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,13 +586,13 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "这种情况下，同步整合协议会自动执行。",
+			say = "這種情況下，同步整合協定會自動執行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,13 +603,13 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "你不过是在给自己增加敌人罢了。",
+			say = "妳不過是在為自己增加敵人罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,13 +620,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "如果是在修改了主机中的数据后，再激活的呢？",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "如果是在修改了主機中的資料後，再啟動的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,13 +637,13 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "什么？！你、到底想做什么……",
+			say = "什麼？！妳、妳到底想做什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,13 +665,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "明明你已经猜到了。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "明明妳已經猜到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,13 +688,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "就算现在自爆也没用。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "就算現在自爆也沒用。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,13 +705,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "这片空间的信号屏蔽是专门针对你准备的。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "這片空間的訊號屏蔽是專門針對妳準備的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,13 +722,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "你应该也发现了吧，你与主机的联系已经被彻底切断了。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "妳應該也發現了吧，妳與主機的聯繫已經被徹底切斷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,13 +739,13 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "……针对性的屏蔽？你从哪里得到的这种技术和设备？",
+			say = "……針對性的屏蔽？妳從哪裡得到的這種技術和設備？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,30 +756,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "曾经，在那段时期。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			actor = 900135,
-			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
-			side = 2,
-			dir = 1,
-			actorName = "企业·META",
-			say = "……作为配合安蒂克丝测试的一环。",
+			actorName = "企業·META",
+			say = "曾經，在那段時期。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,13 +773,30 @@ return {
 			}
 		},
 		{
-			actor = 900287,
+			nameColor = "#ffa500",
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 900135,
+			actorName = "企業·META",
+			say = "……作為配合安蒂克絲測試的一環。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
-			say = "……明明有这样的设备，你以前居然从来没有用过。",
+			say = "……明明有這樣的設備，妳以前居然從來沒有用過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -807,30 +807,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "我对安蒂克丝的设备没有兴趣。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			actor = 900135,
-			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
-			side = 2,
-			dir = 1,
-			actorName = "企业·META",
-			say = "直到不久前，我的想法改变了。",
+			actorName = "企業·META",
+			say = "我對安蒂克絲的設備沒有興趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,11 +824,28 @@ return {
 			}
 		},
 		{
-			actor = 900287,
+			nameColor = "#ffa500",
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 900135,
+			actorName = "企業·META",
+			say = "直到不久前，我的想法改變了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "仲裁者·赫米忒·IX",
 			say = "……………、、、、、",
 			painting = {
@@ -858,13 +858,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "就是这样。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "就是這樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,13 +875,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "很快，我就能追踪到你的主机坐标，你输了。",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "很快，我就能追蹤到妳的主機座標，妳輸了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -892,23 +892,23 @@ return {
 			}
 		},
 		{
+			side = 2,
 			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_zhuiluo_2",
-			say = "（空气振动的声音——）",
+			say = "（空氣振動的聲音——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "……嗯？这个感觉是……",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "……嗯？這個感覺是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,7 +926,7 @@ return {
 			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			say = "不好了企业，有个巨大的物体向你那里冲过去了！",
+			say = "不好了企業，有個巨大的物體向妳衝過去了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,13 +937,13 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
-			actorName = "企业·META",
-			say = "什么？！",
+			actor = 900135,
+			actorName = "企業·META",
+			say = "什麼？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -965,11 +965,11 @@ return {
 			}
 		},
 		{
-			actor = 900325,
 			nameColor = "#a020f0",
-			bgName = "star_level_bg_1104",
 			side = 2,
+			bgName = "star_level_bg_1104",
 			dir = 1,
+			actor = 900325,
 			actorName = "544845544F574552",
 			say = "53 74 61 72 74 75 70 62 61 63 6B 75 70 70 72 6F 74 6F 63 6F 6C 2E",
 			painting = {
@@ -995,11 +995,11 @@ return {
 			}
 		},
 		{
-			actor = 900325,
 			nameColor = "#a020f0",
-			bgName = "star_level_bg_1104",
 			side = 2,
+			bgName = "star_level_bg_1104",
 			dir = 1,
+			actor = 900325,
 			actorName = "544845544F574552",
 			say = "45 78 65 63 75 74 65 74 72 61 6E 73 70 6F 72 74 70 72 6F 74 6F 63 6F 6C 2E",
 			painting = {

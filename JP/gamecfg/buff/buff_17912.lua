@@ -9,13 +9,13 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
-	name = "",
 	init_effect = "",
+	name = "",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 17242,
-	picture = "",
 	last_effect = "boyixi_guanghuan",
-	desc = "",
 	effect_list = {}
 }

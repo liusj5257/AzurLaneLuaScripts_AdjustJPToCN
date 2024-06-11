@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_project_tb_cg14",
+			side = 2,
+			bgm = "qe-ova-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I take a seat on the wooden horse just next to hers.",
-			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -45,14 +45,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hm?",
 			voice = "event:/educate/tb/educate-tb-story-32-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			say = "I snap a picture of her riding the merry-go-round.",
@@ -74,14 +74,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Please at least tell me before you photograph me.",
 			voice = "event:/educate/tb/educate-tb-story-32-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Please at least tell me before you photograph me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,14 +92,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Then again... No, never mind.",
 			voice = "event:/educate/tb/educate-tb-story-32-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Then again... No, never mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,14 +110,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "This is fine.",
 			voice = "event:/educate/tb/educate-tb-story-32-4",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "This is fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			say = "She doesn't say a word after that, but she does nudge me into riding the merry-go-round again later.",
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			say = "Our amusement park visit continues after that, and we make some unforgettable memories.",

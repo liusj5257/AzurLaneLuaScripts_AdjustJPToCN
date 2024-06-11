@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"한여름의 사수자리\n\n<size=45>하루의 끝에서</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 2,
+			blackBg = true,
 			bgm = "story-2",
 			actor = 206040,
 			nameColor = "#92fc63",
 			say = "석양이 참 아름답네……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,10 +55,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 206040,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#92fc63",
 			say = "중간에 참가자가 점점 늘어나서 결국 오후는 온종일 비치발리볼 대회를 하게 되었지만……",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 206040,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#92fc63",
 			say = "하지만…여기서는 그 대전을 체험한 선배님들도 이런 나날을 보내는구나……",
 			typewriter = {
 				speed = 0.05,
@@ -121,10 +121,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 206040,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#92fc63",
 			say = "역시 이 함대에 오게 되어 다행이야……평화로운 시대에 태어난 내게 있어 다양한 선배님들로부터 많은 걸 배울 수 있으니……",
 			typewriter = {
 				speed = 0.05,
@@ -136,17 +136,17 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "센토 씨!",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#92fc63",
+			say = "센토 씨!",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
+			say = "재블린 선배님! 무슨 일이세요?",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "재블린 선배님! 무슨 일이세요?",
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "네! 오늘 하루, 많은 일이 있었으니까요……",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "제게 있어 굉장히 의미있는 하루였답니다.",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "아니에요, 오늘 하루, 선배님들께선 전장 밖에서의 생활을 어떻게 보내고 있는지 여러모로 공부가 되었는걸요.",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "그런가요? 그래도 비치발리볼 대회도 끝났고, 선배님들도 철수하신 것 같아서……",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "다들 뭔가를 옮기시고 있는 것 같네요…저건 뭔가요?",
 			typewriter = {
@@ -398,11 +398,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#92fc63",
 			say = "아이리스와 뷔시아의 새로운 동료, 그리고 센토 씨의 환영회도 겸해서 말야!",
 			typewriter = {
 				speed = 0.05,
@@ -414,8 +414,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -427,8 +427,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "낮에 말씀하셨던 서프라이즈란 불꽃놀이를 말씀하시는 거였군요!",
 			typewriter = {
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#92fc63",
 			say = "맞아! 저기, 장 바르 씨도 덩케르크 씨도 와 있으니,",
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -467,12 +467,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "우리도 어서 가서 참가하자!",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우리도 어서 가서 참가하자!",
+			actor = 201212,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -487,11 +487,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#92fc63",
 			say = "서프라이즈는 지금부터라구!",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -516,8 +516,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "길게 생각할 시간은 없다는 거군요…!",
 			typewriter = {
@@ -533,9 +533,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "네! 이어지는 불꽃놀이도 기대할게요!",
 			typewriter = {

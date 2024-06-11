@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平和に祈りを\n\n<size=45>三　君と踊りを</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "パーティー会場にて",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "パーティー会場にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,10 +69,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "ふふふ、でもみんなが似合ってるって言ってたわ",
+			dir = 1,
+			actor = 102052,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -138,8 +138,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
 			dir = 1,
+			actor = 102052,
 			nameColor = "#a9f548",
 			say = "あっごめんなさい、私つい……",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 0,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102092,
+			nameColor = "#a9f548",
 			say = "もう、ヘレナまで……ほら私だって女の子だぞ？",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -181,11 +181,11 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
 			dir = 1,
+			bgm = "bsm-7",
+			actor = 102052,
 			nameColor = "#a9f548",
 			say = "あら…そろそろダンスパーティーの時間かな？なんか音楽が響いているわ",
-			bgm = "bsm-7",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 0,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102092,
+			nameColor = "#a9f548",
 			say = "……もうヤケだ！ヘレナ、私と一曲踊ってくれ！",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -25,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
 			dir = 1,
+			actor = 102052,
 			nameColor = "#a9f548",
 			say = "あっ、はい！私でいいなら……喜んで！",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
 			dir = 1,
 			blackBg = true,
+			actor = 102052,
 			nameColor = "#a9f548",
 			say = "ええと、エスコートをお願いできないかな…「素晴らしいナイト様？」",
 			typewriter = {

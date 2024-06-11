@@ -7,11 +7,11 @@ slot0.Battle.BattleAAMissileFactory = singletonClass("BattleAAMissileFactory", s
 slot0.Battle.BattleAAMissileFactory.__name = "BattleAAMissileFactory"
 slot4 = slot0.Battle.BattleAAMissileFactory
 
-function slot4.MakeBullet(slot0)
+slot4.MakeBullet = function(slot0)
 	return uv0.Battle.BattleTorpedoBullet.New()
 end
 
-function slot4.onBulletHitFunc(slot0, slot1, slot2)
+slot4.onBulletHitFunc = function(slot0, slot1, slot2)
 	if slot0:GetBulletData():getTrackingTarget() == -1 then
 		uv0.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
 
@@ -46,11 +46,11 @@ function slot4.onBulletHitFunc(slot0, slot1, slot2)
 	end
 end
 
-function slot4.onBulletMissFunc(slot0)
+slot4.onBulletMissFunc = function(slot0)
 	uv0.onBulletHitFunc(slot0)
 end
 
-function slot4.MakeModel(slot0, slot1, slot2)
+slot4.MakeModel = function(slot0, slot1, slot2)
 	slot3 = slot1:GetBulletData()
 	slot4 = slot3:GetTemplate()
 	slot5 = slot0:GetDataProxy()

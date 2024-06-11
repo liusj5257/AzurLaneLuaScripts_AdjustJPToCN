@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "길고 험난한 전투였다……",
 			bgm = "story-temepest-1",
+			say = "길고 험난한 전투였다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "정면에서 싸운 잔향 함대는 연계와 통솔 모두 제대로 갖추어져 있어서, 우리 쪽의 포격 난사에도 전혀 도망치지 않았다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "…그렇지만 어떻게든 동료들을 승리로 이끌었다.",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "함께 격전을 치른 후, 상 마르티뉴는 드디어 입을 열었다.",
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "관군인 당신이 우연히 말려들었다는 건 잘 알지만, 그렇다고 우리 동료를 멋대로 빼가면 곤란하거든?",
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "깃발…? 잠깐 줘 봐~",
@@ -323,11 +323,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……'푸른 늑대단'은 수십 년 전에 이미 '소멸'했었어~",
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "같은 깃발을 쓰고는 있지만, 선단의 수장이 누구인지조차 알려지지 않았어.",

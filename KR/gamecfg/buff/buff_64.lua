@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "战巡竞技场加成",
 	time = 0,
+	name = "战巡竞技场加成",
+	init_effect = "",
 	picture = "",
 	desc = "伤害降低20%",
 	stack = 1,
@@ -19,8 +19,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.2
+				number = -0.2,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

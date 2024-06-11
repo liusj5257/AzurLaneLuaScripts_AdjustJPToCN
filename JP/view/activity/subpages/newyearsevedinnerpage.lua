@@ -4,7 +4,7 @@ slot2 = 2
 slot3 = Vector2(760, -144)
 slot4 = Vector2(370, -144)
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.roleTF = slot0:findTF("mask/role_pos", slot0.bg)
@@ -19,7 +19,7 @@ function slot0.OnInit(slot0)
 	slot0.cookAwardTF = slot0:findTF("award", slot0.cookBtn)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.cookActID = slot0.activity:getConfig("config_client").linkTaskPoolAct
 	slot0.cookCfg = pg.activity_template[slot0.cookActID].config_client
 	slot0.cookTaskIds = pg.activity_template[slot0.cookActID].config_data
@@ -30,7 +30,7 @@ function slot0.OnDataSetting(slot0)
 	uv0.super.OnDataSetting(slot0)
 end
 
-function slot0.GetRandomById(slot0)
+slot0.GetRandomById = function(slot0)
 	slot1 = slot0.playerId
 	slot2 = {}
 
@@ -47,7 +47,7 @@ function slot0.GetRandomById(slot0)
 	return slot2
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -82,7 +82,7 @@ function slot0.OnFirstFlush(slot0)
 	setActive(slot0:findTF("shine", slot0.cookBtn), false)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot0.cookAct = getProxy(ActivityProxy):getActivityById(slot0.cookActID)
@@ -93,7 +93,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:UpdateCookUI()
 end
 
-function slot0.RefreshCookData(slot0)
+slot0.RefreshCookData = function(slot0)
 	slot0.usedCnt = slot0.cookAct:getData1()
 	slot1 = pg.TimeMgr.GetInstance()
 	slot0.unlockCnt = (slot1:DiffDay(slot0.cookAct:getStartTime(), slot1:GetServerTime()) + 1) * slot0.cookAct:getConfig("config_id")
@@ -101,7 +101,7 @@ function slot0.RefreshCookData(slot0)
 	slot0.remainCnt = slot0.totalCookCnt <= slot0.usedCnt and 0 or slot0.unlockCnt - slot0.usedCnt
 end
 
-function slot0.UpdateCookData(slot0)
+slot0.UpdateCookData = function(slot0)
 	slot1 = 0
 	slot0.receivedTasks = {}
 	slot2 = underscore.rest(slot0.cookTaskIds, 1)
@@ -143,7 +143,7 @@ function slot0.UpdateCookData(slot0)
 	end
 end
 
-function slot0.UpdateCookUI(slot0)
+slot0.UpdateCookUI = function(slot0)
 	setText(slot0.cookProgress, (slot0.remainCnt == 0 and slot0.usedCnt or slot0.usedCnt + 1) .. "/" .. slot0.totalCookCnt)
 
 	slot2 = slot0.taskProxy:getTaskVO(slot0.curTaskId)
@@ -179,7 +179,7 @@ function slot0.UpdateCookUI(slot0)
 	end)
 end
 
-function slot0.ClearRole(slot0)
+slot0.ClearRole = function(slot0)
 	slot0.isMoving = false
 
 	if LeanTween.isTweening(slot0.roleTF) then
@@ -189,7 +189,7 @@ function slot0.ClearRole(slot0)
 	removeAllChildren(slot0.roleTF)
 end
 
-function slot0.PlayRoleAnim(slot0)
+slot0.PlayRoleAnim = function(slot0)
 	slot3 = slot0.modelTf:GetComponent("SpineAnimUI")
 
 	setActive(slot0.foodTF, false)
@@ -220,7 +220,7 @@ function slot0.PlayRoleAnim(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.prefabName and slot0.modelTf then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefabName, slot0.modelTf.gameObject)
 

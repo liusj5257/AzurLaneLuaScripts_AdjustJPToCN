@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"한여름의 사수자리\n\n<size=45>데쎄흐 드 아이리스</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "아, 아이리스랑 뷔시아네다!",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#92fc63",
+			say = "아, 아이리스랑 뷔시아네다!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,10 +55,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "로드니 선배님도 계시네요.",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#92fc63",
 			say = "로드니 씨! 덩케르크 씨! 에밀 씨! 여기에요 여기~",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "네! 덩케르크 선배님, 에밀 베르탕 선배님, 그리고 로드니 선배님, 안녕하세요.",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -267,10 +267,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "그렇군요. 기대하고 있을게요!",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "……맛있어요!",
 			typewriter = {
@@ -366,11 +366,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#92fc63",
 			say = "그치 그치~ 나도 먹고 싶지만……먹게 되면 체중계를 볼 용기가 없어져서…",
 			typewriter = {
 				speed = 0.05,
@@ -382,8 +382,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -507,8 +507,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "여름에 딱이네요!",
 			typewriter = {
@@ -537,13 +537,13 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "뭐 어때! 나도 아이스크림 먹고 싶어~!",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "뭐 어때! 나도 아이스크림 먹고 싶어~!",
+			actor = 201210,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.3,
 				side = 2
@@ -558,16 +558,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.4,
 					x = 22.5,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1.1,
 					dur = 0.2,
 					x = 0,

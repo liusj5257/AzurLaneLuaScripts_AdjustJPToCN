@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"나\"만의 가치\n\n<size=45>3. 탄식의 오후</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항・중앙 정원",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항・중앙 정원",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "에에에에!? 셰피는 검사도 너무 엄격해요——",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,8 +144,8 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -158,10 +158,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			hideOther = true,
 			dir = 1,
 			actor = 202080,
 			actorName = "셰필드＆서포크",
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "잠시만요!? 두 분 다 이미 들어오셨으니 그렇게 가버리지 말아요!",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -277,8 +277,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "처, 천천히 얘기하세요~",
 			typewriter = {
@@ -291,15 +291,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "……그랬군요. 그러니까 하루 종일 지휘관님의 발목을 잡을까 봐 걱정했던 거네요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "하지만 들어보면 그냥 평소대로의 에든버러인데……",
 			typewriter = {
@@ -341,11 +341,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "매정하네요!…… 우움, 그러나 이런식으로 가다가는 저는 물론이고, 벨의 평가까지 낮아지게 될 거예요.……！",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "그, 그러니까 저는 벨의 준비 작업용 같은 거잖아요? 지휘관님은 분명 나중에 벨을 비서함으로 임명할 거예요!",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -412,8 +412,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "…… 그런 일은 있을 수 없어요.",
 			typewriter = {
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "있어요! 안 그러면 왜 서툴기만 한 저를 비서함에 임명하셨겠어요!?",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -535,8 +535,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "맞아요! 켄트가 힘이 쎄고 운동을 잘하는 것처럼, 저는 시력이 좋아서 자주 일기예보를 맡곤 하죠ーー",
 			typewriter = {
@@ -568,8 +568,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "구름을 관측하면 돼요.",
 			typewriter = {
@@ -617,8 +617,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "에에에! 제, 제발 짧게 끝내 주세요…… 우웅……",
 			typewriter = {
@@ -631,12 +631,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "나만의 독특한 가치라…… 정말 그런게 있을까……",
 			typewriter = {
 				speed = 0.05,

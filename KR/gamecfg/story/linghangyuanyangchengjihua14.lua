@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA14",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room2",
+			bgm = "qe-ova-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "'시스템 업데이트'로부터 어느 정도 시간이 흘렀다.",
-			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "업데이트 전의 TB가 인간 나이로 3~4세 정도였다고 하면, 지금은 7~8세 정도로 보인다.",
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "'성장'은 여러가지 의미로 TB에게 바람직하지만……",
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-2-talking3",
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-2-talking3",
+			tbActor = true,
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -90,9 +90,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-2-sad2",
+			dir = 1,
+			tbActor = true,
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -110,9 +110,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-2-talking1",
+			dir = 1,
+			tbActor = true,
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "하아……",
@@ -150,27 +150,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_705",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_705",
 			say = "학교에 도착하자마자 TB는 스스로 옷을 갈아입었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
 			say = "그리고 운동장 트랙 옆에 깔린 매트에서 몸을 풀기 시작했다.",
@@ -189,28 +189,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_cg9",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――TB, 물이랑 수건은 여기가 둘게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -218,14 +218,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "네, 벌써 가시려구요?",
 			voice = "event:/educate/tb/educate-tb-story-2-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "네, 벌써 가시려구요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			say = "스트레칭을 하면서 TB는 내게 말을 건넸다.",
@@ -259,14 +259,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "――……",
 			voice = "event:/educate/tb/educate-tb-story-2-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			say = "뭔가 좀 불만족스러워 보인다.",
@@ -300,14 +300,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "네, 그럼 TB도 더 좋은 성적을 낼 수 있겠네요.",
 			voice = "event:/educate/tb/educate-tb-story-2-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "네, 그럼 TB도 더 좋은 성적을 낼 수 있겠네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			say = "기분 탓인지 지금까지 별 표정을 짓지 않았던 TB의 입꼬리가 조금 올라간 것처럼 보였다.",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			say = "솔직하지 않은 아이라도 나름…… 귀여운 점은 있다.",

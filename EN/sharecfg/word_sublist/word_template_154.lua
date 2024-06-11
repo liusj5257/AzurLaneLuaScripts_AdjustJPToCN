@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_154 = {}
 slot1 = slot0.word_template_154
 
-function temp()
+temp = function()
 	uv0["结"] = {
 		["谠"] = {
 			["营"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["捷"] = {
 		["克"] = {
 			C = {
@@ -55,7 +55,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["截"] = {
 		["访"] = {
 			this = true
@@ -78,7 +78,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["姐"] = {
 		["的"] = {
 			["穴"] = {
@@ -114,7 +114,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["解"] = {
 		["放"] = {
 			["后"] = {
@@ -242,7 +242,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["戒"] = {
 		["毒"] = {
 			["所"] = {
@@ -280,7 +280,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["届"] = {
 		["中"] = {
 			["央"] = {

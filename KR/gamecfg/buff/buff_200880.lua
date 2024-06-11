@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 黑企业",
 	time = 15,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 黑企业",
+	init_effect = "",
+	id = 200880,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200880,
+	color = "yellow",
 	icon = 200880,
 	last_effect = "",
 	effect_list = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"愛操心的她可不是鬧著玩的\n\n<size=45>五 愛操心的理由</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301150,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "——指揮官，差不多該回去找那個笨蛋夕立了！",
 			bgm = "story-1",
+			actor = 301150,
+			nameColor = "#a9f548",
+			say = "——指揮官，差不多該回去找那個笨蛋夕立了！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "確實，天色正在變暗。在對山城和扶桑道謝後，和時雨一起回到了參拜道上。",
 			typewriter = {
 				speed = 0.05,
@@ -76,15 +76,15 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "哈~……山城姐姐泡的茶，真好喝啊。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "時雨一邊走在參拜道上，一邊感慨著。",
 			typewriter = {
 				speed = 0.05,
@@ -171,9 +171,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "時雨一邊說著，一邊哼著歌，一副很開心的樣子",
 			typewriter = {
 				speed = 0.05,
@@ -217,9 +217,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "在坦率地對她表示感謝後，時雨彷彿重振精神一般加快了腳步。",
 			typewriter = {
 				speed = 0.05,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "看向誇口要照顧大家的時雨，突然想起剛才她拒絕二人分開尋找的事。",
 			typewriter = {
 				speed = 0.05,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "（也許，她其實是希望能有人一直陪在她身邊吧……）",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANSAICHE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANSAICHE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"レーシング・ステージ！\n\n<size=45>スプレンディッド・ギア</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			live2d = "login",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
 			dir = 1,
 			bgm = "story-richang-6",
 			actor = 103165,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "login",
 			say = "…今回の出場選手は以上！",
 			painting = {
 				alpha = 0.3,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "コースでは一体どんな熱い走りを見せてくれるのか！",
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "さぁ、間もなくレーススタートだ！",
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = " その一声と共に彼女がフラッグを力強く振ると、色とりどりの旗で彩られた会場はどっと盛り上がった。",
@@ -86,28 +86,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――お疲れ様。水を持ってきた……あとタオルも",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "ふぅ…指揮官ありがとう。ちょうど喉が渇いてたから助かった",
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ははは、別に大したことないさ…それより、あの紹介はどうだった？",
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "そうか。正直に言うと、前から練習しててな",
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "頑張った甲斐があったよ",
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "疲れたのか、ボルチモアは少し寄り掛かる体勢でタイヤに腰を降ろした",
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そしてタオルで汗を拭くと、気持ちのいい笑顔を見せた。",
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "頼みを引き受けたからには、悔いの残らないように全力を尽くすまでさ",
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "…ところで、さっきから指揮官が目を合わせてくれないが…",
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "顔に変なものでも付いているのか？",
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "顔じゃないなら、この格好のことか？",
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "この衣装は動きやすいように少し手直ししてもらったんだ",
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "元のは色々とバツバツ過ぎてな。旗を強く振ったりするのに向いてなかった",
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ええと、露出はまあまあ高くなったが…",
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "でも、ほら――",
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "眩しい日差しの中、モノクロの旗を掲げたボルチモアは軽やかにぐるっと回り、爽やかな笑みを浮かべた。",
@@ -432,11 +432,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "こうやって思いっきり旗を動かして応援できるから、直してよかったと思う",
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "そ、そうか…？ふふ、なら……",
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			live2d = true,
 			withoutActorName = true,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ボルチモアは何か思いついたようにこちらに近づいてきて、上目遣いで顔を覗き込んできた。",
@@ -488,11 +488,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "うまく「場」の熱気を作れたが、「指揮官」の熱気は作れたか…？…",
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 103165,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_132",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "その、よかったら……これからも指揮官を応援させてもらっても……いいだろうか？",

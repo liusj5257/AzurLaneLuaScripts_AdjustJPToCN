@@ -1,15 +1,15 @@
 slot0 = class("CourtyardInteractionPreview", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardInterActionPreview"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.mask = slot0:findTF("frame/mask")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Destroy()
 	end, SFX_PANEL)
@@ -19,7 +19,7 @@ function slot0.OnInit(slot0)
 	setText(slot0:findTF("frame/title"), i18n("word_preview"))
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot0.storeyId = 999
@@ -33,7 +33,7 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0:SetUp()
 end
 
-function slot0.SetUp(slot0)
+slot0.SetUp = function(slot0)
 	setActive(slot0.mask, false)
 
 	slot0.instance = CourtYardBridge.New(slot0:GenCourtYardData(id))
@@ -74,7 +74,7 @@ function slot0.SetUp(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -82,14 +82,14 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.StartInteraction(slot0, slot1)
+slot0.StartInteraction = function(slot0, slot1)
 	if slot0.shipId then
 		slot1:DragShip(slot0.shipId)
 		slot1:DragShipEnd(slot0.shipId, slot0.furniturePosition)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:RemoveTimer()
 
@@ -100,7 +100,7 @@ function slot0.Hide(slot0)
 	slot0.instance = nil
 end
 
-function slot0.GenCourtYardData(slot0)
+slot0.GenCourtYardData = function(slot0)
 	slot1 = slot0.storeyId
 	slot2 = 4
 
@@ -121,7 +121,7 @@ function slot0.GenCourtYardData(slot0)
 	}
 end
 
-function slot0.GetPutFurniture(slot0)
+slot0.GetPutFurniture = function(slot0)
 	return BackyardThemeFurniture.New({
 		id = 9999,
 		isNewStyle = true,
@@ -130,7 +130,7 @@ function slot0.GetPutFurniture(slot0)
 	})
 end
 
-function slot0.GetPutShip(slot0)
+slot0.GetPutShip = function(slot0)
 	if not slot0.shipId or slot0.shipId <= 0 then
 		return {}
 	end
@@ -142,7 +142,7 @@ function slot0.GetPutShip(slot0)
 	})
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

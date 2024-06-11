@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港・学園",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-WISHNESS-inst",
+			say = "母港・学園",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "ああ、別に大したことじゃないよ。この前のライブで、前回と同じく引き続き兵装の運用――つまりアイドル活動を続けないかって質問が来ててさ",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "前回同様、ぜひやりたいって子が結構いるようだ",
 			typewriter = {
@@ -164,14 +164,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "えええ！「指揮官かトリオンファンにお願いされない限り絶対にやりたくない」って答えたの？？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 901110,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#a9f548",
 			say = "そうですよ。あんなの思い出しただけでも疲れますよ、もう……",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "（ル・マランの場合は本当にやりたくないよね。多分）",
 			typewriter = {
@@ -246,13 +246,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "（トントン）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

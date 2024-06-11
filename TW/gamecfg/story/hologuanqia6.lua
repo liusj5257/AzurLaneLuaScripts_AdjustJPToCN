@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "妳们没事吧？",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "欸…欸？！！{namecode:158}！！这不是{namecode:158}么！！",
+			side = 0,
+			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -41,8 +41,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -53,9 +53,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "澪快看，是{namecode:158}哎，真真正正的{namecode:158}哎！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "…啊？这是什么展开……总之是得救了么？！",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "啊啊啊！{namecode:158}！这凌冽的眼神，修长的身体，柔顺的尾巴！（深呼吸）",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "喂喂吹雪，给别人带来困扰了啊。",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "{namecode:96}也来了？！！！",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -208,9 +208,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "猫耳？！看这条柔顺的大尾巴，怎么看都是狐狸吧！",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -250,8 +250,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "算啦…初次见面，我是hololive旗下的虚拟白发兽耳女高中生白上吹雪。虽然经常被认错，不过我不是猫，是狐狸哦！",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "至于我为什么会认识妳们，这个说起来就有些复杂了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "我也是hololive旗下，hologamers的大神澪，叫我澪就好，请多指教。",
 			typewriter = {
 				speed = 0.05,
@@ -327,9 +327,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "嗯嗯，我知道我知道，我还把妳们都誓约了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,8 +399,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "呃…严格也不算迷航，来到这里的原因我们也很困惑，不过这里的事我们多少知道一点哦！",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "从外观上来看，这里是hololive服务器，或者说一个和hololive服务器十分相似的地方",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "今天原本也和往常一样造着建筑，结果突然传来眼前一阵白光，然后就出现了大量塞壬舰队开始发动攻击，和同伴也失散了…",
 			typewriter = {
 				speed = 0.05,
@@ -521,9 +521,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "轻而易举的接受了？！",
 			typewriter = {
 				speed = 0.05,
@@ -535,8 +535,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -577,9 +577,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哈哈哈…在原本的世界里我的碧蓝航线知识可是十分丰富的哦！",
 			typewriter = {
 				speed = 0.05,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -634,8 +634,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "嗯……这倒没错。",
 			typewriter = {
 				speed = 0.05,
@@ -650,8 +650,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "吹雪，在这里说话也不是办法，我们先去安全的地方吧。",
 			typewriter = {
 				speed = 0.05,

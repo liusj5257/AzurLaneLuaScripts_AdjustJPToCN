@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"万能店員シラヌイ\n\n<size=45>七　店員の真心・下</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・医務室",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・医務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "…‥……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…‥……",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "明石が言えるのはここまでだから、後は指揮官に任せるにゃ！バイバイにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -210,16 +210,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2250
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "医務室の中は沈黙に包まれた。",
@@ -238,13 +238,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……あの小娘の言ったことはそこまで気にしなくてもいいです。一人で大丈夫ですので",
 			bgm = "story-2",
+			actor = 301180,
+			nameColor = "#a9f548",
+			say = "……あの小娘の言ったことはそこまで気にしなくてもいいです。一人で大丈夫ですので",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#a9f548",
 			say = "妾はただ、すべきことをしたまで……",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ベッドにいる彼女は顔をそっぽ向いたが、口元に微かな笑みが浮かんでいるのをはっきりと見た。",
 			typewriter = {
 				speed = 0.05,

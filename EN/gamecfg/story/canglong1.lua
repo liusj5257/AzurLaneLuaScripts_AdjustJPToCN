@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Together with Souryuu\n\n<size=45>Chapter 1: Be Careful What You Wish For</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 307030,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "My name is Souryuu. Commander, from now on, please request my permission in writing before doing anything weird.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,9 +57,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Ever since we first met, I've always been drawn to her cold, dignified seriousness.",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Thinking that she might be able to help increase my work efficiency, I appointed her as my secretary to see how things would go...",
 			typewriter = {
 				speed = 0.05,
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "That morning, when I arrived at the office...",
 			typewriter = {
 				speed = 0.05,
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Right away, I knew she had no intent on showing me any mercy...",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I was rebuked coldly.",
 			typewriter = {
 				speed = 0.05,
@@ -184,13 +184,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "... I'm getting a bit tired. Maybe it's time to take a break...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/plane",
+			say = "I heard the churning engines of aircraft circling above my head... How terrifying...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "I heard the churning engines of aircraft circling above my head... How terrifying...",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,13 +258,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "My attempts to strike up friendly conversation with Souryuu had backfired spectacularly.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -285,9 +285,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Nevertheless, under her watchful eye, my productivity had undeniably skyrocketed.",
 			typewriter = {
 				speed = 0.05,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Would I be able to convince her to be a little more easygoing if we were on better terms?",
 			typewriter = {
 				speed = 0.05,

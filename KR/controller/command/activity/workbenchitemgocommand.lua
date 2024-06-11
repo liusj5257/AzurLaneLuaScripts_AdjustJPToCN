@@ -1,6 +1,6 @@
 slot0 = class("WorkBenchItemGoCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if WorkBenchItem.New({
 		configId = slot1.body
 	}):GetSource().islandNodes then

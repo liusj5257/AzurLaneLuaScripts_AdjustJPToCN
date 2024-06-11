@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT18",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅-日常編\n\n<size=45>その一　指揮官のお弁当？</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10300010,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……艤装のおかげで私たちも戦えるようになったし、アズールレーンのみんなのおかげで戦力も申し分ない。",
 			bgm = "story-uta",
+			actor = 10300010,
+			nameColor = "#a9f548",
+			say = "……艤装のおかげで私たちも戦えるようになったし、アズールレーンのみんなのおかげで戦力も申し分ない。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "でも、まさか、こんなことになるなんて……",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
+			dir = 1,
 			say = "くぅぅ～、きゅるるるるっ──",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "お腹空いた",
 			typewriter = {
@@ -128,12 +128,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "かれこれ８時間ほど何も食べておりません。栄養補給が必要かと思われます",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "かれこれ８時間ほど何も食べておりません。栄養補給が必要かと思われます",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "稼ぎ時って……猫神さま、お金を取るのですか？",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "あら、どうしましょう。お財布も置いてきちゃいました",
 			typewriter = {
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "心配無用だにゃ、今日は指揮官のオゴリにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "ご馳走になっちゃっていいの？ありがとう、猫神さま！",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "こちらの世界のお料理……ですか？とっても楽しみです",
 			typewriter = {
@@ -325,10 +325,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "我らが主様のように、こちらの指揮官様も気前が良くて何よりです",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -506,8 +506,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "もしかしてこれ、アマムニィ？",
 			typewriter = {
@@ -619,8 +619,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "生春巻き美味しい",
 			typewriter = {
@@ -636,10 +636,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "こちらの中身が透けるほど薄く焼かれた皮に包まれた食材……鼻を通る強い香草が薬味となって、食欲をそそります",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -673,8 +673,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "辛っ……辛すぎて涙が出そうなのです",
 			typewriter = {
@@ -706,8 +706,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "ラフィーさんにお子様扱いされたくないのです",
 			typewriter = {
@@ -723,8 +723,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "このクレープという、白くてフワフワしたのと果実をいっぱい包んだアマムニィ……感動的な美味しさです！",
 			typewriter = {
@@ -740,8 +740,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "！？本当ですかルルティエさま？わたしも一口……姉さま、これ甘くてとっても美味しいのです！",
 			typewriter = {
@@ -834,12 +834,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "確かに……不思議だけれど……面白いです",
 			typewriter = {
 				speed = 0.05,

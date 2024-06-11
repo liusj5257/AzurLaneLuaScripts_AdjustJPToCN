@@ -11,9 +11,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 35,
-					skill_id = 2101
+					time = 35
 				}
 			}
 		}
@@ -30,9 +30,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 34,
-					skill_id = 2101
+					time = 34
 				}
 			}
 		}
@@ -49,9 +49,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 33,
-					skill_id = 2101
+					time = 33
 				}
 			}
 		}
@@ -68,9 +68,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 31,
-					skill_id = 2101
+					time = 31
 				}
 			}
 		}
@@ -87,9 +87,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 30,
-					skill_id = 2101
+					time = 30
 				}
 			}
 		}
@@ -106,9 +106,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 29,
-					skill_id = 2101
+					time = 29
 				}
 			}
 		}
@@ -125,9 +125,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 26,
-					skill_id = 2101
+					time = 26
 				}
 			}
 		}
@@ -144,9 +144,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 25,
-					skill_id = 2101
+					time = 25
 				}
 			}
 		}
@@ -163,9 +163,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 23,
-					skill_id = 2101
+					time = 23
 				}
 			}
 		}
@@ -182,9 +182,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 2101,
 					target = "TargetSelf",
-					time = 20,
-					skill_id = 2101
+					time = 20
 				}
 			}
 		}
@@ -192,12 +192,12 @@ return {
 	desc_get = "每隔35秒(满级20秒)，朝前方发射3发鱼雷(威力依据技能等级)",
 	name = "鱼雷发射",
 	init_effect = "",
+	id = 2101,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每隔$1秒，朝前方发射3发带鱼雷(威力依据技能等级)",
 	stack = 1,
-	id = 2101,
+	color = "red",
 	icon = 2100,
 	last_effect = "",
 	effect_list = {
@@ -207,9 +207,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 2101,
 				target = "TargetSelf",
-				time = 35,
-				skill_id = 2101
+				time = 35
 			}
 		}
 	}

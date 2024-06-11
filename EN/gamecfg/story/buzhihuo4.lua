@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Shiranui, the Do-It-All Shopkeeper\n\n<size=45>Chapter 4: An Encounter at the Store?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Supply Shop",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Supply Shop",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "On this day off, I once again concealed myself next to the shop, quietly observing the situation.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Shiranui Nyaa~~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.7,
 					x = 3000
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "BAAANG!! I heard the sound of someone crashing into a wall.",
 			typewriter = {
 				speed = 0.05,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Uuuughh... that was cruel, Nyaa.... Why did you have to dodge away from Akashi?",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -121,12 +121,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "Because when this dumb cat seeks me out voluntarily, it's never to bring good news.",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Because when this dumb cat seeks me out voluntarily, it's never to bring good news.",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -141,11 +141,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "I thought we were good friends Nyaa~~!",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "It's about the new promotion plan, Nyaa!",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "But it's different this time. It's going to be comprehensive, Nyaa!",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "Akashi",
 			say = "Shiranui, please help me, just this time Nyaa! Akashi will definitely repay you!",
 			subActors = {
@@ -325,8 +325,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#a9f548",
 			say = "Stop clinging to me... this dumb cat better let go...",
 			subActors = {
 				{
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "Akashi",
 			say = "I won't let go until you say yes!",
 			subActors = {
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#a9f548",
 			say = "Fine, fine.. I'll fund you!",
 			subActors = {
 				{
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "That's great, Nyaa! Here is the business proposal. Akashi will go ahead and make preparations, Nyaa!",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.7,
 					x = 2250
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301180,
 			nameColor = "#a9f548",
 			say = "After Akashi leaves, Shiranui skims through the business proposal.",
 			typewriter = {
@@ -479,9 +479,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Despite her grumbling, Shiranui picked up the pen and started making corrections on the document dutifully.",
 			typewriter = {
 				speed = 0.05,

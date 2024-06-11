@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.05
+					number = 0.05,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.061
+					number = 0.061,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.072
+					number = 0.072,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.083
+					number = 0.083,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.094
+					number = 0.094,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.105
+					number = 0.105,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.116
+					number = 0.116,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.127
+					number = 0.127,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.138
+					number = 0.138,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.15
+					number = 0.15,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 15963,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15963,
+	color = "red",
 	icon = 15963,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_1",
-				number = 0.05
+				number = 0.05,
+				attr = "damageToArmorRateEnhance_1"
 			}
 		}
 	}

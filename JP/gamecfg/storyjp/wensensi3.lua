@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"妹の成長期？！\n\n<size=45>三 妹の思い</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・ユニオン寮",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・ユニオン寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "初めてヴィンセンスから遊びに誘われてからだいぶ時間も経ち、彼女とも随分と仲良くなった。",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ヴィンセンスにとっての一緒に遊ぶとは、どうやら「寝る」と「ぼーっとする」以外に選択肢がないようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "（トントン）",
 			typewriter = {
 				speed = 0.05,
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 103070,
+			say = "…………うん",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…………うん",
+			actor = 103070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "インディちゃんのところと比べると、うちの姉ちゃんたちのほうがおとなしいかも",
 			typewriter = {
 				speed = 0.05,

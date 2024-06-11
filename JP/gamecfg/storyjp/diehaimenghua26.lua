@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			stopbgm = true,
-			actorName = "信濃",
 			dir = 1,
 			blackBg = true,
+			actorName = "信濃",
 			say = "（温かい日差し、小鳥のさえずり、風と自然の香り……）",
 			flashin = {
 				delay = 1,
@@ -35,9 +35,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_103",
 			bgm = "story-1",
 			actor = 307080,
 			nameColor = "#a9f548",
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（ラフィー…？名をラフィーと言う……あっ）",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（ユニオンの…ラフィー…）",
 			dialogShake = {
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（敵意も警戒も感じない…まるで一緒にいるのが、当たり前のよう…）",
 			typewriter = {
@@ -254,9 +254,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（ユニオンと重桜が仲間の、「夢」……ここで観ているのは、一体……）",
 			typewriter = {

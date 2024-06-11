@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"妹の成長期？！\n\n<size=45>一 妹の日常</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 103100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "指揮官、今度の休みの日、一緒に遊ばない？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "突然のヴィンセンスからの誘いがあり、休日にユニオン寮までやって来たが――",
 			effects = {
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			say = "母港・ユニオン寮",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "母港・ユニオン寮",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "部屋に入ると、ヴィンセンスがクインシーの膝枕でぐっすり眠っていた",
 			typewriter = {
 				speed = 0.05,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "ふにゃ…………うん？あと五分……",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ヴィンセンスはまた寝てしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103090,
+			nameColor = "#a9f548",
 			say = "すみません、指揮官、ヴィンセンスはこういう子なので……",
 			typewriter = {
 				speed = 0.05,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ヴィンセンスをしっかりさせる選択肢はないのか……",
 			typewriter = {
 				speed = 0.05,
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "一緒に寝る場所などどこに……と思っていると、クインシーはもう片方の太ももを軽く叩いた。",
 			typewriter = {
 				speed = 0.05,

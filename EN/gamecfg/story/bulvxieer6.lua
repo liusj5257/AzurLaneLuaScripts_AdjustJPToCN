@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"All-Love Assault!\n\n<size=45>6. As Bright as the Stars</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-1",
 			bgName = "bg_night",
 			say = "The moon hangs high in the clear night sky.",
-			bgm = "story-richang-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "Blücher decided we're having a date tonight. I arrive at the spot she told me to meet her.",
 			typewriter = {
@@ -55,22 +55,22 @@ return {
 			}
 		},
 		{
-			actor = 403020,
-			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Heheh☆ Evening, Commander!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Heheh☆ Evening, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "\"It's fine. I don't have anything important to do anyway.\"",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "We go from stall to stall, amassing a smorgasbord of Sakura Empire street food under the starry sky.",
 			typewriter = {
@@ -178,17 +178,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -196,14 +196,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Takoyaki, tempura, and taiyaki oh my! And of course, oden!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Takoyaki, tempura, and taiyaki oh my! And of course, oden!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "We chow down while we walk, eventually ending up just outside the Iron Blood dormitory.",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "It's then that I realize that this nighttime date took away all the fatigue I accumulated during my shift today.",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "She extends her arms and looks at me eagerly.",
 			typewriter = {
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

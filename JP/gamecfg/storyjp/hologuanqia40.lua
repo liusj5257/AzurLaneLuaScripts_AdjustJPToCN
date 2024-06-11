@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA40",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA40",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			actorName = "シ　オ　ン",
-			actor = 10500060,
 			dir = 1,
+			bgm = "holo-control",
+			actor = 10500060,
 			nameColor = "#ff5c5c",
 			say = "ちゃんと最後まで人の話を聞きなさいよ！この小学生！",
-			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 1,
 					dur = 0.7,
 					x = 0
@@ -35,9 +35,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "誰が小学生だよ！このバカあ゛あ゛あ゛あ゛あ゛！！！！",
 			flashout = {
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "さようなら、素直なシオンちゃん――",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "なに感動してんの！？ぶん殴るよ！",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "はぁ！？敵なんだよね！敵は弱いほうが嬉しいんじゃないの？",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "なんだか、そら先輩以外、我々の偽物たちって、ただの公開処刑みたいになってるね…",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "あー、どれもこれもうちらが配信で出した一面だからね",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "まだ会ってないのは私の偽物だね…一体どんなキャラなのかな…怖くなってきたよ…",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "あっれーおかしいなー私はピュリファイアーのどの面を表してるんだろー",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "はいはい。でも私もやっぱり興味あるなーあっっっっつい友情とか熱血展開とかさぁ～",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "なんだか希望が見えてきた！",
 			typewriter = {
 				speed = 0.05,

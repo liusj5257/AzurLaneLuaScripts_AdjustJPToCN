@@ -1,7 +1,7 @@
 slot0 = class("CryptolaliaScrollRect")
 slot1 = 150
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.tpl = slot1.gameObject
@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.items = {}
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	if #slot0.tpls > 0 then
 		return table.remove(slot0.tpls, 1)
 	else
@@ -22,16 +22,16 @@ function slot2(slot0)
 	end
 end
 
-function NewTpl(slot0, slot1)
+NewTpl = function(slot0, slot1)
 	return Object.Instantiate(slot1, slot0.tpl.transform.parent)
 end
 
-function slot0.Make(slot0, slot1, slot2)
+slot0.Make = function(slot0, slot1, slot2)
 	slot0.OnItemInit = slot1
 	slot0.OnSelect = slot2
 end
 
-function slot0.Align(slot0, slot1, slot2)
+slot0.Align = function(slot0, slot1, slot2)
 	slot0.totalCnt = math.max(5, slot1)
 	slot0.midIndex = math.ceil(slot0.totalCnt / 2)
 	slot3 = {}
@@ -61,7 +61,7 @@ function slot0.Align(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.SetUp(slot0)
+slot0.SetUp = function(slot0)
 	for slot4, slot5 in ipairs(slot0.items) do
 		onButton(slot0, slot5._go, function ()
 			if uv0.inAnimation then
@@ -75,7 +75,7 @@ function slot0.SetUp(slot0)
 	slot0:AddDrag()
 end
 
-function slot0.AddDrag(slot0)
+slot0.AddDrag = function(slot0)
 	slot1 = slot0.eventTriggerListener
 
 	slot1:AddBeginDragFunc(function (slot0, slot1)
@@ -103,15 +103,15 @@ function slot0.AddDrag(slot0)
 	end)
 end
 
-function slot0.OnListUp(slot0)
+slot0.OnListUp = function(slot0)
 	slot0:trigger(slot0.midIndex + 1)
 end
 
-function slot0.OnListDown(slot0)
+slot0.OnListDown = function(slot0)
 	slot0:trigger(slot0.midIndex - 1)
 end
 
-function slot0.trigger(slot0, slot1)
+slot0.trigger = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in ipairs(slot0.items) do
@@ -127,7 +127,7 @@ function slot0.trigger(slot0, slot1)
 	end
 end
 
-function slot0.JumpToMid(slot0, slot1)
+slot0.JumpToMid = function(slot0, slot1)
 	slot2 = math.abs(slot0.midIndex - slot1)
 	slot3 = slot0.midIndex - slot1 <= 0
 	slot4 = {}
@@ -147,7 +147,7 @@ function slot0.JumpToMid(slot0, slot1)
 	seriesAsync(slot4)
 end
 
-function slot0.Step1(slot0, slot1, slot2)
+slot0.Step1 = function(slot0, slot1, slot2)
 	if slot0.inAnimation then
 		slot0:ClearAnimation()
 	end
@@ -201,7 +201,7 @@ function slot0.Step1(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.Step(slot0, slot1, slot2)
+slot0.Step = function(slot0, slot1, slot2)
 	if slot0.inAnimation then
 		slot0:ClearAnimation()
 	end
@@ -264,7 +264,7 @@ function slot0.Step(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.ClearAnimation(slot0)
+slot0.ClearAnimation = function(slot0)
 	if slot0.inAnimation then
 		slot0.animation:Stop()
 
@@ -282,7 +282,7 @@ function slot0.ClearAnimation(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	for slot4, slot5 in ipairs(slot0.items) do
 		slot5:Dispose()
 	end

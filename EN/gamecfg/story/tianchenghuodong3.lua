@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301790,
 			nameColor = "#ff0000",
 			side = 1,
-			bgm = "battle-boss-tiancheng",
 			dir = -1,
 			say = "Why, I didn't expect Team Red's flagship herself to appear right before me.",
+			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "Perhaps so. It is true I like devising new strategies, but never once have I said I am an incapable soldier.",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "Indeed... I fully believe that it's a fortunate thing I am not your enemy.",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "If you wish to pass, you must first defeat me!",
 			typewriter = {
 				speed = 0.05,

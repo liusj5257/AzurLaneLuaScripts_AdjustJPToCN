@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "大型作战已经重置！请重新派遣舰队前往作战海域，展开新一轮作战！",
 			typewriter = {
 				speed = 0.05,

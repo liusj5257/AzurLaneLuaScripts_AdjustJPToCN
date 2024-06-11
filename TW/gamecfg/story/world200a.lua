@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD200A",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WORLD200A",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "利物浦港·司令部會議室",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
+			say = "利物浦港·司令部會議室",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,8 +35,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "那麼指揮官，企業，胡德，我也要先返回司令部了，希望我們所有人的作戰都能順利進行！",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "皇家艦隊也將在幾小時後開始正式作戰，胡德通話結束。",
 			typewriter = {
@@ -66,15 +66,15 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "呼......戰役終於要正式開始了嗎。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "真是激動人心的演講，胡德，做得很好！",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,10 +301,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_guild_blue",
 			side = 0,
+			bgName = "bg_guild_blue",
+			hideOther = true,
 			dir = 1,
 			actor = 205020,
 			actorName = "厭戰&胡德",
@@ -362,8 +362,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "陛下，我還有一個疑問。關於指揮部最新研發的領航員系統，指揮官與白鷹艦隊都已經開始使用了吧，為什麼我們沒有使用呢？",
 			typewriter = {
@@ -456,12 +456,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "在此預祝妳們作戰順利。胡德，帶領艦隊向世界展現皇家的威嚴吧！可不許讓本王失望哦！",
 			typewriter = {
 				speed = 0.05,

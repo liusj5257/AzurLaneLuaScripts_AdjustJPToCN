@@ -4,7 +4,7 @@ slot2 = 0.2
 slot3 = 1.2
 slot4 = "event:/ui/kaiji"
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.effectBlankScreen = slot0:findTF("blank_screen_effect", slot0.bg)
@@ -13,7 +13,7 @@ function slot0.OnInit(slot0)
 	slot0.effectClick = slot0:findTF("click_effect", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.skinshopBtn = slot0:findTF("skinshop", slot0.btnList)
 
 	onButton(slot0, slot0.skinshopBtn, function ()
@@ -63,7 +63,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:PlayOpenEffect()
 end
 
-function slot0.PlayOpenEffect(slot0)
+slot0.PlayOpenEffect = function(slot0)
 	setActive(slot0.effectBlankScreen, true)
 	setActive(slot0.effectOpen, false)
 	slot0:managedTween(LeanTween.delayedCall, function ()
@@ -79,7 +79,7 @@ function slot0.PlayOpenEffect(slot0)
 	end, uv1 + uv3, nil)
 end
 
-function slot0.PlayClickEffect(slot0, slot1, slot2)
+slot0.PlayClickEffect = function(slot0, slot1, slot2)
 	setLocalPosition(slot0.effectClick, pg.UIMgr.GetInstance().OverlayEffect:GetChild(0) and slot3.localPosition:Sub(Vector3(192, 60, 0)) or slot1.localPosition)
 	setActive(slot0.effectClick, true)
 	slot0:managedTween(LeanTween.delayedCall, function ()
@@ -91,7 +91,7 @@ function slot0.PlayClickEffect(slot0, slot1, slot2)
 	end, 0.3, nil)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:cleanManagedTween()
 end
 

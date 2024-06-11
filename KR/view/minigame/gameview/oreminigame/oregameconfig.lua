@@ -1,10 +1,10 @@
 return {
 	CARRY_LOOKAT_RADIUS = 75,
-	CARRY_RADIUS = 50,
 	MAX_WEIGHT = 180,
+	PLAY_TIME = 90,
+	CARRY_RADIUS = 50,
 	INVINCIBLE_TIME = 1.5,
 	TIME_INTERVAL = 0.016666666666666666,
-	PLAY_TIME = 90,
 	CAPACITY = {
 		WOOD_BOX = 50,
 		IRON_BOX = 100,
@@ -35,65 +35,65 @@ return {
 		{
 			score = 100,
 			name = "小堆铁矿",
-			size = 1,
-			type = 1,
 			duration = 7,
+			type = 1,
+			size = 1,
 			weight = 10
 		},
 		{
 			score = 200,
 			name = "大堆铁矿",
-			size = 2,
-			type = 1,
 			duration = 7,
+			type = 1,
+			size = 2,
 			weight = 20
 		},
 		{
 			score = 150,
 			name = "小堆银矿",
-			size = 1,
-			type = 2,
 			duration = 7,
+			type = 2,
+			size = 1,
 			weight = 15
 		},
 		{
 			score = 300,
 			name = "大堆银矿",
-			size = 2,
-			type = 2,
 			duration = 7,
+			type = 2,
+			size = 2,
 			weight = 30
 		},
 		{
 			score = 300,
 			name = "小堆金矿",
-			size = 1,
-			type = 3,
 			duration = 7,
+			type = 3,
+			size = 1,
 			weight = 15
 		},
 		{
 			score = 600,
 			name = "大堆金矿",
-			size = 2,
-			type = 3,
 			duration = 7,
+			type = 3,
+			size = 2,
 			weight = 30
 		},
 		{
 			score = 400,
 			name = "小堆钻石矿",
-			size = 1,
-			type = 4,
 			duration = 7,
+			type = 4,
+			size = 1,
 			weight = 10
 		},
 		{
 			score = 800,
 			name = "大堆钻石矿",
-			size = 2,
-			type = 4,
 			duration = 7,
+			type = 4,
+			size = 2,
 			weight = 20
 		}
 	},

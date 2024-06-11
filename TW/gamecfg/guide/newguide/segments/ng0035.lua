@@ -14,13 +14,13 @@ return {
 				}
 			},
 			style = {
-				text = "點擊「遊戲手冊」可以查看角色和敵人的詳細說明",
-				mode = 2,
-				posY = -174,
-				char = "amazon",
 				dir = -1,
-				windowbg = "3",
+				mode = 2,
+				char = "amazon",
+				posY = -174,
 				posX = -680,
+				text = "點擊「遊戲手冊」可以查看角色和敵人的詳細說明",
+				windowbg = "3",
 				charPos = {
 					300,
 					0

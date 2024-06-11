@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 500
+					number = 500,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 590
+					number = 590,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 680
+					number = 680,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 800
+					number = 800,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 890
+					number = 890,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 980
+					number = 980,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1100
+					number = 1100,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1220
+					number = 1220,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1340
+					number = 1340,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1500
+					number = 1500,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "前锋减少点燃时间",
 	init_effect = "",
+	id = 13722,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13722,
+	color = "yellow",
 	icon = 13720,
 	last_effect = "",
 	effect_list = {}

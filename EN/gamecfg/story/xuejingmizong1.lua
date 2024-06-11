@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,14 +42,14 @@ return {
 			}
 		},
 		{
-			actor = 705080,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Soyuz, I've finished loading the goods. You're good to go whenever.",
 			bgm = "story-antarctica-serious",
+			actor = 705080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Soyuz, I've finished loading the goods. You're good to go whenever.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,17 +59,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -80,10 +80,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That was quick. Thank you, Poltava.",
 			painting = {
 				alpha = 0.3,
@@ -98,10 +98,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"Quick\"... In the end, they're taking the supply airplane, eh?",
 			painting = {
 				alpha = 0.3,
@@ -135,10 +135,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 718010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Once they touch down, Soyuz will board a special-purpose submarine.",
 			painting = {
 				alpha = 0.3,
@@ -191,10 +191,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They're not going straight to Antarctica though, are they? You can't resupply at Port Louis if you're staying submerged the whole journey.",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 718010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The supplies will be brought in under the pretext that they're also bound for Port Louis.",
 			painting = {
 				alpha = 0.3,
@@ -265,10 +265,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes. Kronshtadt came up with the itinerary. It's as airtight as can be.",
 			painting = {
 				alpha = 0.3,
@@ -283,10 +283,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...But even an airtight plan can only get you so far. I presume everything will change after reaching Antarctica?",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We're here to sample a special mineral that can resonate with shipgirl rigging, not to conduct a combat operation.",
 			painting = {
 				alpha = 0.3,
@@ -338,10 +338,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm sure you're aware, Antarctica has always been a relatively stable region, with limited Siren presence and practically no Reenactments.",
 			painting = {
 				alpha = 0.3,
@@ -356,10 +356,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Furthermore, with the question of the Azur Lane's reformation on the table, each faction is likely going to be cautious about stoking any conflicts.",
 			painting = {
 				alpha = 0.3,
@@ -371,12 +371,12 @@ return {
 			}
 		},
 		{
-			actor = 900354,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900354,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Tallinn, our group, and some mass-produced ships are sufficient to accomplish this mission.",
 			painting = {
 				alpha = 0.3,
@@ -391,10 +391,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If there are no further concerns, I'd like everyone to focus on their respective tasks.",
 			painting = {
 				alpha = 0.3,
@@ -409,10 +409,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Rossiya, Belorussiya, Kirov, I trust you with command of the Northern Parliament's fleet until I return.",
 			painting = {
 				alpha = 0.3,
@@ -446,10 +446,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Voroshilov, stay in touch with our representatives over in the Iris Orthodoxy. Keep things moving with Pamiat' and Avrora.",
 			painting = {
 				alpha = 0.3,
@@ -464,10 +464,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You have the authority to make decisions on the fly – so do not be afraid to exercise it.",
 			painting = {
 				alpha = 0.3,
@@ -501,10 +501,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Considering how lukewarm the conference has been so far, I don't expect any big problems to arise.",
 			painting = {
 				alpha = 0.3,
@@ -519,10 +519,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Most likely not. Also, please keep tabs on Comrade Commander.",
 			painting = {
 				alpha = 0.3,
@@ -575,10 +575,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What exactly... would that entail?",
 			painting = {
 				alpha = 0.3,
@@ -612,10 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hah. I suppose that is something only you can do.",
 			painting = {
 				alpha = 0.3,
@@ -630,10 +630,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, I should hang up. It's time for me to set off.",
 			painting = {
 				alpha = 0.3,
@@ -648,10 +648,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good luck, sister. I look forward to the good news.",
 			painting = {
 				alpha = 0.3,
@@ -663,23 +663,23 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -704,8 +704,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_541",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			bgm = "story-commander-up",
 			actor = 102160,
 			nameColor = "#A9F548FF",
@@ -720,17 +720,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -777,10 +777,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, actually. Saratoga's fleet is still preparing to disembark over in PH.",
 			painting = {
 				alpha = 0.3,
@@ -814,10 +814,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Everyone's been on edge, and given all the various complications, it'll probably be another three or four days until they're ready to go.",
 			painting = {
 				alpha = 0.3,
@@ -851,10 +851,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A fleet has emerged from the Floating Fortress in the Bismarck Sea. We've asked where they're going, but as always, they're not very keen on telling us.",
 			painting = {
 				alpha = 0.3,
@@ -974,10 +974,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What do you mean?",
 			painting = {
 				alpha = 0.3,
@@ -1040,10 +1040,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Why, indeed... Maybe she knows something we don't.",
 			painting = {
 				alpha = 0.3,
@@ -1103,21 +1103,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			asideType = 1,
+			mode = 1,
 			bgm = "theme-merkuriameta",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1147,8 +1147,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"But a series of behind-the-scenes \"leaks\" has shifted the dynamic, creating a race among all the factions.",
@@ -1173,8 +1173,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

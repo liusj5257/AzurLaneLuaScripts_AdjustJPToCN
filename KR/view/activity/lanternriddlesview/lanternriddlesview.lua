@@ -1,12 +1,12 @@
 slot0 = class("LanternRiddlesView")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.controller = slot1
 
 	pg.DelegateInfo.New(slot0)
 end
 
-function slot0.SetUI(slot0, slot1)
+slot0.SetUI = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.questioneTFs = {}
 
@@ -38,11 +38,11 @@ function slot0.SetUI(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateDay(slot0, slot1)
+slot0.UpdateDay = function(slot0, slot1)
 	slot0.day.text = math.min(slot1, 7)
 end
 
-function slot0.InitLanternRiddles(slot0, slot1)
+slot0.InitLanternRiddles = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot0.questioneTFs[slot6.id]
 		slot8 = slot6.isUnlock
@@ -70,11 +70,11 @@ function slot0.InitLanternRiddles(slot0, slot1)
 	end
 end
 
-function slot0.RefreshLanterRiddles(slot0, slot1)
+slot0.RefreshLanterRiddles = function(slot0, slot1)
 	slot0:InitLanternRiddles(slot1)
 end
 
-function slot0.ShowMainPanel(slot0, slot1)
+slot0.ShowMainPanel = function(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.mainPanel)
 	setActive(slot0.mainPanel, true)
 	setActive(slot0:findTF("frame/label_game", slot0.mainPanel), slot1.type == 2)
@@ -112,7 +112,7 @@ function slot0.ShowMainPanel(slot0, slot1)
 	end
 end
 
-function slot0.UpdateMainPanelTime(slot0)
+slot0.UpdateMainPanelTime = function(slot0)
 	slot0:RemoveTimer()
 
 	slot2 = pg.TimeMgr.GetInstance():GetServerTime() <= slot0.controller:GetLockTime()
@@ -124,7 +124,7 @@ function slot0.UpdateMainPanelTime(slot0)
 	end
 end
 
-function slot0.OnUpdateAnswer(slot0, slot1, slot2, slot3)
+slot0.OnUpdateAnswer = function(slot0, slot1, slot2, slot3)
 	slot5 = slot0:findTF("frame/answers", slot0.mainPanel):GetChild(slot2 - 1)
 
 	setActive(slot5:Find("right"), slot3)
@@ -146,13 +146,13 @@ function slot0.OnUpdateAnswer(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.HideMainPanel(slot0)
+slot0.HideMainPanel = function(slot0)
 	slot0:RemoveTimer()
 	setActive(slot0.mainPanel, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.mainPanel, slot0._tf)
 end
 
-function slot0.AddTimer(slot0)
+slot0.AddTimer = function(slot0)
 	slot1 = slot0.controller:GetLockTime()
 	slot2 = slot0:findTF("frame/time/Text", slot0.mainPanel):GetComponent(typeof(Text))
 	slot0.timer = Timer.New(function ()
@@ -168,7 +168,7 @@ function slot0.AddTimer(slot0)
 	slot0.timer.func()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -176,13 +176,13 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:RemoveTimer()
 	slot0:HideMainPanel()
 	pg.DelegateInfo.Dispose(slot0)
 end
 
-function slot0.findTF(slot0, slot1, slot2)
+slot0.findTF = function(slot0, slot1, slot2)
 	assert(slot0._tf, "transform should exist")
 
 	return findTF(slot2 or slot0._tf, slot1)

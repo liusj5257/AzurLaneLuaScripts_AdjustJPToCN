@@ -1,17 +1,17 @@
 return {
-	id = "SHENSHENGDEBEIXIJU11",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU11",
+	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "光輝",
+			side = 2,
 			bgName = "bg_italy_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "光輝號裝甲航空母艦向帝國的諸位獻上夜晚的問候~",
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "光輝號裝甲航空母艦向帝國的諸位獻上夜晚的問候~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "利托里奧",
+			side = 2,
 			bgName = "bg_italy_cg3",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "皇家艦隊！妳們究竟是怎麼辦到的，我們分成3個方向行進的路線居然都被妳們發現了？！",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "光輝",
+			side = 2,
 			bgName = "bg_italy_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "利托里奧",
+			side = 2,
 			bgName = "bg_italy_cg3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "光輝",
+			side = 2,
 			bgName = "bg_italy_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,9 +98,9 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "哈哈哈，真是不可思議的女人，如果妳是帝國的一員，想必我也會迷上妳的吧！",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 8,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "薩丁帝國海軍，維內托級戰列艦——利托里奧號，參戰！",
 			typewriter = {
 				speed = 0.05,

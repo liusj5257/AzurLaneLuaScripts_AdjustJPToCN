@@ -5,25 +5,25 @@ slot0.STATE_EMPTY = 0
 slot0.STATE_CAN_GET = 1
 slot0.STATE_GOT = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.dataConfig = pg.activity_event_sign[slot0.id]
 end
 
-function slot0.GetSignedList(slot0)
+slot0.GetSignedList = function(slot0)
 	return slot0.data1_list
 end
 
-function slot0.GetIndexByToday(slot0)
+slot0.GetIndexByToday = function(slot0)
 	return slot0:getDayIndex()
 end
 
-function slot0.GetTotalDayCnt(slot0)
+slot0.GetTotalDayCnt = function(slot0)
 	return #slot0:GetDropList()
 end
 
-function slot0.GetDropList(slot0)
+slot0.GetDropList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.dataConfig.drop_display) do
@@ -37,11 +37,11 @@ function slot0.GetDropList(slot0)
 	return slot1
 end
 
-function slot0.TodayIsSigned(slot0)
+slot0.TodayIsSigned = function(slot0)
 	return table.contains(slot0:GetSignedList(), slot0:GetIndexByToday())
 end
 
-function slot0.Signed(slot0)
+slot0.Signed = function(slot0)
 	if not table.contains(slot0.data1_list, slot0:GetIndexByToday()) then
 		slot0.data1 = slot0.data1 + 1
 
@@ -49,19 +49,19 @@ function slot0.Signed(slot0)
 	end
 end
 
-function slot0.GetSignedDayCnt(slot0)
+slot0.GetSignedDayCnt = function(slot0)
 	return #slot0.data1_list
 end
 
-function slot0.CanGetAward(slot0)
+slot0.CanGetAward = function(slot0)
 	return slot0:GetGetAwardCnt() < slot0:GetSignedDayCnt()
 end
 
-function slot0.AnyAwardCanGet(slot0)
+slot0.AnyAwardCanGet = function(slot0)
 	return #slot0:GetCanGetAwardIndexList() > 0
 end
 
-function slot0.GetCanGetAwardIndexList(slot0)
+slot0.GetCanGetAwardIndexList = function(slot0)
 	if not slot0:CanGetAward() then
 		return {}
 	end
@@ -84,7 +84,7 @@ function slot0.GetCanGetAwardIndexList(slot0)
 	return slot6
 end
 
-function slot0.GetAwardState(slot0, slot1)
+slot0.GetAwardState = function(slot0, slot1)
 	if table.contains(slot0:GetCanGetAwardIndexList(), slot1) then
 		return uv0.STATE_CAN_GET
 	elseif table.contains(slot0.data2_list, slot1) then
@@ -94,17 +94,17 @@ function slot0.GetAwardState(slot0, slot1)
 	end
 end
 
-function slot0.GetGetAwardCnt(slot0)
+slot0.GetGetAwardCnt = function(slot0)
 	return #slot0.data2_list
 end
 
-function slot0.GetAllAwards(slot0)
+slot0.GetAllAwards = function(slot0)
 	for slot5, slot6 in ipairs(slot0:GetCanGetAwardIndexList()) do
 		slot0:GetIndexAward(slot6)
 	end
 end
 
-function slot0.GetIndexAward(slot0, slot1)
+slot0.GetIndexAward = function(slot0, slot1)
 	if not table.contains(slot0.data2_list, slot1) then
 		slot0.data2 = slot0.data2 + 1
 
@@ -112,7 +112,7 @@ function slot0.GetIndexAward(slot0, slot1)
 	end
 end
 
-function slot0.IsManualSignActAndAnyAwardCanGet(slot0)
+slot0.IsManualSignActAndAnyAwardCanGet = function(slot0)
 	if not getProxy(ActivityProxy):getActivityById(slot0) or slot1:isEnd() then
 		return false
 	end

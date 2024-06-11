@@ -1,7 +1,7 @@
 slot0 = class("ActivityShopWithProgressRewardCommand", pm.SimpleCommand)
 slot0.SHOW_SHOP_REWARD = "ActivityShopWithProgressRewardCommand Show shop reward"
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	assert(getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id):getConfig("type") == ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD, "Operation Cant Fit ActivityType " .. slot4)
 
 	if slot4 == ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD then
@@ -64,7 +64,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.getAwards(slot0, slot1, slot2)
+slot0.getAwards = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot2.award_list) do
@@ -109,7 +109,7 @@ function slot0.getAwards(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
+slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = getProxy(PlayerProxy)
 	slot7 = getProxy(TaskProxy)
 
@@ -143,7 +143,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 	return slot3
 end
 
-function slot0.performance(slot0, slot1, slot2, slot3, slot4)
+slot0.performance = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:sendNotification(uv0.SHOW_SHOP_REWARD, {
 		activityId = slot1.activity_id,
 		shopType = slot1.cmd,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGSHIGUANGTING33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINGSHIGUANGTING33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "無數敵人如潮水一般從四面八方湧向卡美洛之庭。",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-camelot",
+			say = "無數敵人如潮水一般從四面八方湧向卡美洛之庭。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "不過……潮水被城牆前密集的火力阻止了，沒有任何敵人成功進入外環。",
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "雖然在訓練場上見過妳的英姿數次，不過還是第一次見到妳如此意氣風發的火力全開。",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "妳很強，也許比那些鐵血的計劃艦更強。很榮幸能與妳並肩戰鬥。",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "……我其實從那天之後就一直在想這個事。等我們平安回去之後就立刻安排吧！",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "果然被妳發現了啊……非常抱歉，這次是認真的！",
 			typewriter = {
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			say = "轟——————————！",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			say = "轟——————————！",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -417,8 +417,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "我說，別無視我啊——————！",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -444,8 +444,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "我們之間的帳還沒算完呢！",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "以為能在艦隊的數量上壓過我未免太天真了吧？！",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "真是氣死我了……破壞了實驗不說還引發了大混亂。看我好好教訓教訓你！",
 			typewriter = {
@@ -495,8 +495,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "陛下，淨化者再次帶領艦隊出現，正在從後方向未知敵人發動猛烈進攻。",
 			typewriter = {
@@ -512,8 +512,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "這個淨化者倒是挺盡職盡責的……",
 			typewriter = {
@@ -545,8 +545,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "不，本王不想冒險。",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "現在淨化者替我們吸引了火力。在它努力工作的時候，我們嘛~該撤了！",
 			typewriter = {
@@ -576,9 +576,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "伊莉莎白按下啟動按鈕，卡美洛之庭再次被耀眼的金色光芒覆蓋。",
 			typewriter = {
 				speed = 0.05,
@@ -590,9 +590,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
+			dir = 1,
 			say = "只在轉瞬之間，巨大的城市就從水面上徹底消失了。",
 			flashin = {
 				delay = 1,
@@ -619,9 +619,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
+			dir = 1,
 			say = "黑色風暴在海面上又徘徊了一陣子，在留下無數塞壬殘骸後，也煙消雲散了。",
 			effects = {
 				{

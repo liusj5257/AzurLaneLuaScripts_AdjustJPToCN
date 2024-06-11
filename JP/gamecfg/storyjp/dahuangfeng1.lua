@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"サンシャイン・デュエル！!\n\n<size=45>一　元気ハツラツ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今日は新しい秘書艦担当の子が挨拶に来る日だ。",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今回は確か——",
 			typewriter = {
 				speed = 0.05,
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "ハロー指揮官、ホーネットだよ！今日からこの私が秘書艦を担当するね！",
 			effects = {
 				{
@@ -99,8 +99,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#92fc63",
 			say = "あ、しまった…ここは流れ的に、先にノックしとくべきだったっけ？",
 			effects = {
@@ -119,9 +119,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "若干不意を突かれた着任挨拶だったが、ホーネットに「大丈夫」と会釈した。",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#92fc63",
 			say = "ははは、秘書艦の仕事は予めあらかた把握しといたから、どうぞ遠慮なく何でもじゃんじゃん任せてー！",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――彼女の言葉通り、先ほどの挨拶と同じ勢いで、ホーネットはテキパキと仕事をこなしていく。",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "たまに手慣れないものが出てきたときも、教えたらすぐ要領を把握出来た。",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "このペースだと、今日の仕事はすぐ終わりそうだ——",
 			typewriter = {
 				speed = 0.05,
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "はは、手紙だよ指揮官！しっかりキャッチして！",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -256,9 +256,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "あちゃーごめんごめん、てっきりキャッチしてくれると思った…",
 			typewriter = {
@@ -289,9 +289,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "ナイス！",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -325,15 +325,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "ふぅ——秘書官の初日、無事終了！指揮官おっつかれさまー！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,9 +377,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			blackBg = true,
+			actor = 107070,
 			nameColor = "#92fc63",
 			say = "ヨークタウン級の末っ子だぞ？姉たちの顔に泥を塗れないんだから！ははは♪",
 			typewriter = {

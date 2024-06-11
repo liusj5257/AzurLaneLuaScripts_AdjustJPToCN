@@ -1,11 +1,11 @@
 slot0 = class("GalleryView", import("..base.BaseSubView"))
 slot0.GalleryPicGroupName = "GALLERY_PIC"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GalleryUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
@@ -16,7 +16,7 @@ function slot0.OnInit(slot0)
 	slot0:tryShowTipMsgBox()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.resLoader:Clear()
 
 	if slot0.appreciateUnlockMsgBox and slot0.appreciateUnlockMsgBox:CheckState(BaseSubView.STATES.INITED) then
@@ -31,7 +31,7 @@ function slot0.OnDestroy(slot0)
 	slot0:stopUpdateDownBtnPanel()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.appreciateUnlockMsgBox and slot0.appreciateUnlockMsgBox:CheckState(BaseSubView.STATES.INITED) then
 		slot0.appreciateUnlockMsgBox:hideCustomMsgBox()
 
@@ -45,7 +45,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.appreciateProxy = getProxy(AppreciateProxy)
 
 	slot0.appreciateProxy:checkPicFileState()
@@ -64,7 +64,7 @@ function slot0.initData(slot0)
 	slot0.picLikeToggleTag = false
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	setLocalPosition(slot0._tf, Vector2.zero)
 
 	slot0._tf.anchorMin = Vector2.zero
@@ -116,7 +116,7 @@ function slot0.findUI(slot0)
 	slot0.updatePanel = slot0:findTF("UpdatePanel")
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onToggle(slot0, slot0.orderToggle, function (slot0)
 		uv0.curMiddleDataIndex = 1
 
@@ -163,7 +163,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.initTimeSelectPanel(slot0)
+slot0.initTimeSelectPanel = function(slot0)
 	slot0.timeSelectUIItemList = UIItemList.New(slot0.timeItemContainer, slot0.timeItemTpl)
 
 	slot0.timeSelectUIItemList:make(function (slot0, slot1, slot2)
@@ -189,8 +189,8 @@ function slot0.initTimeSelectPanel(slot0)
 	slot0.timeSelectUIItemList:align(#GalleryConst.DateIndex)
 end
 
-function slot0.initCardListPanel(slot0)
-	function slot0.lScrollPageSC.itemInitedCallback(slot0, slot1)
+slot0.initCardListPanel = function(slot0)
+	slot0.lScrollPageSC.itemInitedCallback = function(slot0, slot1)
 		uv0.cardTFList[slot0 + 1] = slot1
 
 		if uv0:getPicConfigForShowByIndex(slot0 + 1) == false then
@@ -200,7 +200,7 @@ function slot0.initCardListPanel(slot0)
 		end
 	end
 
-	function slot0.lScrollPageSC.itemClickCallback(slot0, slot1)
+	slot0.lScrollPageSC.itemClickCallback = function(slot0, slot1)
 		if uv0:getPicConfigForShowByIndex(slot0 + 1) then
 			slot4 = slot3.id
 			slot5, slot6 = nil
@@ -213,7 +213,7 @@ function slot0.initCardListPanel(slot0)
 		end
 	end
 
-	function slot0.lScrollPageSC.itemPitchCallback(slot0, slot1)
+	slot0.lScrollPageSC.itemPitchCallback = function(slot0, slot1)
 		uv0:setMovingTag(false)
 
 		if uv0.curMiddleDataIndex ~= slot0 + 1 then
@@ -227,7 +227,7 @@ function slot0.initCardListPanel(slot0)
 		end
 	end
 
-	function slot0.lScrollPageSC.itemRecycleCallback(slot0, slot1)
+	slot0.lScrollPageSC.itemRecycleCallback = function(slot0, slot1)
 		uv0.cardTFList[slot0 + 1] = nil
 
 		if uv0:getPicConfigForShowByIndex(slot0 + 1) == false then
@@ -235,7 +235,7 @@ function slot0.initCardListPanel(slot0)
 		end
 	end
 
-	function slot0.lScrollPageSC.itemMoveCallback(slot0)
+	slot0.lScrollPageSC.itemMoveCallback = function(slot0)
 		if #uv0.picForShowConfigList == 1 then
 			setText(uv0.progressText, "1/1")
 		else
@@ -244,7 +244,7 @@ function slot0.initCardListPanel(slot0)
 	end
 end
 
-function slot0.updateCardListPanel(slot0)
+slot0.updateCardListPanel = function(slot0)
 	slot0.cardTFList = {}
 
 	slot0.resLoader:Clear()
@@ -271,7 +271,7 @@ function slot0.updateCardListPanel(slot0)
 	end
 end
 
-function slot0.initDownBtnPanel(slot0)
+slot0.initDownBtnPanel = function(slot0)
 	slot1 = slot0:findTF("Btn", slot0.updatePanel)
 	slot2 = slot0:findTF("Text", slot1)
 	slot3 = slot0:findTF("Progress", slot0.updatePanel)
@@ -297,7 +297,7 @@ function slot0.initDownBtnPanel(slot0)
 	slot0:startUpdateDownBtnPanel()
 end
 
-function slot0.updateDownBtnPanel(slot0)
+slot0.updateDownBtnPanel = function(slot0)
 	slot2 = slot0:findTF("Text", slot0:findTF("Btn", slot0.updatePanel))
 	slot4 = slot0:findTF("Slider", slot0:findTF("Progress", slot0.updatePanel))
 
@@ -339,7 +339,7 @@ function slot0.updateDownBtnPanel(slot0)
 	end
 end
 
-function slot0.startUpdateDownBtnPanel(slot0)
+slot0.startUpdateDownBtnPanel = function(slot0)
 	if slot0.downloadCheckTimer then
 		slot0.downloadCheckTimer:Stop()
 	end
@@ -352,13 +352,13 @@ function slot0.startUpdateDownBtnPanel(slot0)
 	slot0:updateDownBtnPanel()
 end
 
-function slot0.stopUpdateDownBtnPanel(slot0)
+slot0.stopUpdateDownBtnPanel = function(slot0)
 	if slot0.downloadCheckTimer then
 		slot0.downloadCheckTimer:Stop()
 	end
 end
 
-function slot0.initPicPanel(slot0)
+slot0.initPicPanel = function(slot0)
 	onButton(slot0, slot0.picPanelBG, function ()
 		uv0:closePicPanel()
 	end, SFX_CANCEL)
@@ -448,7 +448,7 @@ function slot0.initPicPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updatePicImg(slot0, slot1)
+slot0.updatePicImg = function(slot0, slot1)
 	slot3 = slot0:getPicConfigForShowByIndex(slot1 or slot0.curMiddleDataIndex)
 	slot6 = slot3.illustration
 
@@ -460,7 +460,7 @@ function slot0.updatePicImg(slot0, slot1)
 	triggerToggle(slot0.picLikeToggle, slot0.appreciateProxy:isLikedByPicID(slot3.id))
 end
 
-function slot0.switchPicImg(slot0, slot1)
+slot0.switchPicImg = function(slot0, slot1)
 	slot3 = slot0:getPicConfigForShowByIndex(slot1 or slot0.curMiddleDataIndex)
 	slot5 = slot3.name
 	slot6 = slot3.illustration
@@ -478,7 +478,7 @@ function slot0.switchPicImg(slot0, slot1)
 	end))
 end
 
-function slot0.openPicPanel(slot0)
+slot0.openPicPanel = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:BlurPanel(slot0.picPanel, false, {
@@ -506,7 +506,7 @@ function slot0.openPicPanel(slot0)
 	end))
 end
 
-function slot0.closePicPanel(slot0, slot1)
+slot0.closePicPanel = function(slot0, slot1)
 	if slot1 == true then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.picPanel, slot0._tf)
 		setActive(slot0.picPanel, false)
@@ -534,15 +534,15 @@ function slot0.closePicPanel(slot0, slot1)
 	end
 end
 
-function slot0.setMovingTag(slot0, slot1)
+slot0.setMovingTag = function(slot0, slot1)
 	slot0.isMoving = slot1
 end
 
-function slot0.saveRunData(slot0)
+slot0.saveRunData = function(slot0)
 	slot0.appreciateProxy:updateGalleryRunData(slot0.curPicSelectDateValue, slot0.curPicSortValue, slot0.curMiddleDataIndex, slot0.curPicLikeValue, slot0.curFilteLoadingBGValue)
 end
 
-function slot0.recoveryFromRunData(slot0)
+slot0.recoveryFromRunData = function(slot0)
 	slot1 = slot0.appreciateProxy:getGalleryRunData()
 	slot0.curPicSelectDateValue = slot1.dateValue
 	slot0.curPicSortValue = slot1.sortValue
@@ -557,16 +557,16 @@ function slot0.recoveryFromRunData(slot0)
 	slot0.lScrollPageSC:MoveToItemID(slot0.curMiddleDataIndex - 1)
 end
 
-function slot0.tryShowTipMsgBox(slot0)
+slot0.tryShowTipMsgBox = function(slot0)
 	if slot0.appreciateProxy:isGalleryHaveNewRes() then
-		function slot2()
+		slot2 = function()
 			PlayerPrefs.SetInt("galleryVersion", GalleryConst.Version)
 			uv0:emit(CollectionScene.UPDATE_RED_POINT)
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideClose = true,
 			hideNo = true,
+			hideClose = true,
 			content = i18n("res_pic_new_tip", GalleryConst.NewCount),
 			onYes = slot2,
 			onCancel = slot2,
@@ -575,7 +575,7 @@ function slot0.tryShowTipMsgBox(slot0)
 	end
 end
 
-function slot0.cardUpdate(slot0, slot1, slot2)
+slot0.cardUpdate = function(slot0, slot1, slot2)
 	slot5 = slot0:findTF("SelectBtn", slot2)
 	slot6 = slot0:findTF("BlackMask", slot2)
 	slot8 = slot0:findTF("DownloadBtn", slot6)
@@ -654,7 +654,7 @@ function slot0.cardUpdate(slot0, slot1, slot2)
 	end
 end
 
-function slot0.initEmptyCard(slot0, slot1)
+slot0.initEmptyCard = function(slot0, slot1)
 	setActive(slot0:findTF("CardImg", slot1), true)
 	setActive(slot0:findTF("CardNum", slot1), false)
 	setActive(slot0:findTF("SelectBtn", slot1), false)
@@ -662,7 +662,7 @@ function slot0.initEmptyCard(slot0, slot1)
 	slot5, slot6 = nil
 
 	for slot10, slot11 in ipairs(pg.gallery_config.all) do
-		if PathMgr.FileExists(PathMgr.getAssetBundle(GalleryConst.CARD_PATH_PREFIX .. (pg.gallery_config[slot11].illustration .. "_t"))) then
+		if checkABExist(GalleryConst.CARD_PATH_PREFIX .. (pg.gallery_config[slot11].illustration .. "_t")) then
 			slot5 = slot14
 			slot6 = slot13
 
@@ -705,7 +705,7 @@ function slot0.initEmptyCard(slot0, slot1)
 	slot0:startUpdateEmptyCard(slot1)
 end
 
-function slot0.updateEmptyCard(slot0, slot1)
+slot0.updateEmptyCard = function(slot0, slot1)
 	slot3 = slot0:findTF("Update", slot0:findTF("BlackMask", slot1))
 	slot5 = slot0:findTF("Text", slot0:findTF("Btn", slot3))
 	slot7 = slot0:findTF("Slider", slot0:findTF("Progress", slot3))
@@ -748,7 +748,7 @@ function slot0.updateEmptyCard(slot0, slot1)
 	end
 end
 
-function slot0.startUpdateEmptyCard(slot0, slot1)
+slot0.startUpdateEmptyCard = function(slot0, slot1)
 	if slot0.downloadCheckTimer then
 		slot0.downloadCheckTimer:Stop()
 	end
@@ -761,13 +761,13 @@ function slot0.startUpdateEmptyCard(slot0, slot1)
 	slot0:updateEmptyCard(slot1)
 end
 
-function slot0.stopUpdateEmptyCard(slot0, slot1)
+slot0.stopUpdateEmptyCard = function(slot0, slot1)
 	if slot0.downloadCheckTimer then
 		slot0.downloadCheckTimer:Stop()
 	end
 end
 
-function slot0.getPicConfigForShowByIndex(slot0, slot1)
+slot0.getPicConfigForShowByIndex = function(slot0, slot1)
 	if slot0.picForShowConfigList[slot1] then
 		return slot2
 	elseif slot2 == false then
@@ -777,7 +777,7 @@ function slot0.getPicConfigForShowByIndex(slot0, slot1)
 	end
 end
 
-function slot0.sortPicConfigListForShow(slot0)
+slot0.sortPicConfigListForShow = function(slot0)
 	table.sort(slot0.picForShowConfigList, function (slot0, slot1)
 		if uv0.curPicSortValue == GalleryConst.Sort_Order_Up then
 			if slot0.id < slot1.id then
@@ -795,11 +795,11 @@ function slot0.sortPicConfigListForShow(slot0)
 	end)
 end
 
-function slot0.isPicExist(slot0, slot1)
+slot0.isPicExist = function(slot0, slot1)
 	return (slot0.manager:CheckF(GalleryConst.PIC_PATH_PREFIX .. pg.gallery_config[slot1].illustration) == DownloadState.None or slot5 == DownloadState.UpdateSuccess) and (slot0.manager:CheckF(slot4 .. "_t") == DownloadState.None or slot8 == DownloadState.UpdateSuccess)
 end
 
-function slot0.getPicStateByID(slot0, slot1)
+slot0.getPicStateByID = function(slot0, slot1)
 	if not slot0.appreciateProxy:isPicNeedUnlockByID(slot1) then
 		return GalleryConst.CardStates.Unlocked
 	elseif slot0.appreciateProxy:isPicUnlockedByID(slot1) then
@@ -811,7 +811,7 @@ function slot0.getPicStateByID(slot0, slot1)
 	end
 end
 
-function slot0.filtePicForShow(slot0)
+slot0.filtePicForShow = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.gallery_config.all) do
@@ -839,7 +839,7 @@ function slot0.filtePicForShow(slot0)
 	return slot1
 end
 
-function slot0.filtePicForShowByDate(slot0)
+slot0.filtePicForShowByDate = function(slot0)
 	if slot0.curPicSelectDateValue == GalleryConst.Data_All_Value then
 		return slot0:filtePicForShow()
 	end
@@ -873,7 +873,7 @@ function slot0.filtePicForShowByDate(slot0)
 	return slot2
 end
 
-function slot0.filtePicForShowByLike(slot0)
+slot0.filtePicForShowByLike = function(slot0)
 	if slot0.curPicLikeValue == GalleryConst.Filte_Normal_Value then
 		return slot0.picForShowConfigList
 	end
@@ -889,7 +889,7 @@ function slot0.filtePicForShowByLike(slot0)
 	return slot2
 end
 
-function slot0.filtePicForShowByLoadingBG(slot0)
+slot0.filtePicForShowByLoadingBG = function(slot0)
 	if slot0.curFilteLoadingBGValue == GalleryConst.Loading_BG_NO_Filte then
 		return slot0.picForShowConfigList
 	end
@@ -905,7 +905,7 @@ function slot0.filtePicForShowByLoadingBG(slot0)
 	return slot2
 end
 
-function slot0.filtePic(slot0)
+slot0.filtePic = function(slot0)
 	slot0.picForShowConfigList = slot0:filtePicForShow()
 	slot0.picForShowConfigList = slot0:filtePicForShowByLike(slot0.curPicLikeValue)
 
@@ -916,7 +916,7 @@ function slot0.filtePic(slot0)
 	end
 end
 
-function slot0.isNeedShowDownBtn(slot0)
+slot0.isNeedShowDownBtn = function(slot0)
 	if Application.isEditor then
 		return false
 	end

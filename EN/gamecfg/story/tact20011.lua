@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 1,
-			nameColor = "#ff0000",
-			mode = 2,
 			say = "I collected a lot of data during our last battle. This time our chances of winning are over 90%.",
+			nameColor = "#ff0000",
+			actor = 404020,
+			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,10 +85,10 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			actorShadow = true,
-			actorName = "Scharnhorst&Gneisenau",
 			side = 0,
+			actorName = "Scharnhorst&Gneisenau",
+			actor = 404010,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "Scharnhorst-class battlecruisers Scharnhorst and Gneisenau, ready for battle! Come and face your doom!",

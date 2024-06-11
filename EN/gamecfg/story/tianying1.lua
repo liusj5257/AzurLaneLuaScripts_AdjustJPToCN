@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANYING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANYING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Growth of a Courtly Lady\n\n<size=45>1 Help Me, My Commander!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "My Commander, I don't think I can do this!",
 			typewriter = {
 				speed = 0.05,
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Sardegna's sole carrier, Aquila, looked at me imploringly with puffed-out cheeks.",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Even though I finally have the opportunity to serve as your secretary, I feel like I can't do anything right!",
 			typewriter = {
 				speed = 0.05,
@@ -103,10 +103,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Just thinking about how much trouble I'm going to end up causing you... is making me so very sad!",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I wasn't sure exactly what was going on, but it seemed like she had some doubts about her abilities.",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The source of those doubts was...",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "The other day, Miss Illustrious of the Royal Navy invited me to a tea party...",
 			typewriter = {
 				speed = 0.05,
@@ -166,10 +166,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I tried to act as graceful and refined as possible as to not embarrass myself before the elegant ladies of the Royal Navy, but...",
 			typewriter = {
 				speed = 0.05,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It was so painfully clear that I am missing something!",
 			typewriter = {
 				speed = 0.05,
@@ -208,10 +208,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, I don't really know... Hmm, it's because I have too many ideas about what it might be to pin it down...",
 			typewriter = {
 				speed = 0.05,
@@ -226,10 +226,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I was so happy about being chosen for secretary that I almost forgot to accept a commission we were given, and that ended up causing a lot of problems. I've also been making a ton of mistakes in my work...",
 			typewriter = {
 				speed = 0.05,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Additionally, I haven't been able to improve my teamwork with my friends, and I sometimes feel like I barely know anything about being a carrier!",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "While it's true that things tend to go over Aquila's head, most major problems have been preventable just by giving her a quick reminder.",
 			typewriter = {
 				speed = 0.05,
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Regarding the situation with her peers, she's one of the newest arrivals at the port, and that's simply something that requires time.",
 			typewriter = {
 				speed = 0.05,
@@ -290,10 +290,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "My Commander, please help me...",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Of course, I could not bear to see my secretary wallowing in self-doubt.",
 			typewriter = {
 				speed = 0.05,

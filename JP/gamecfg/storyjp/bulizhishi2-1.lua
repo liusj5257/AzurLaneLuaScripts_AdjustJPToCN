@@ -1,15 +1,15 @@
 return {
-	id = "BULIZHISHI2-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULIZHISHI2-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-1",
 			say = "ブリたちは日々腕を磨き、どんどん実力をつけていった。そんなある日、彼女たちの見せ場となるチャンスがやってきた――",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,8 +78,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			say = "どこの馬の骨だか知れないくせに、その言い分はなんだプリン！",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			say = "よくもそんな口を聞いてくれたな！何者だ、名を名乗れ！",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "決戦型ブリMkⅢよプリン！相手になってやるプリン！",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,8 +136,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			say = "弱そうな見た目なのに生意気だね。問答無用、お手並み拝見といこう！",
 			typewriter = {
 				speed = 0.05,

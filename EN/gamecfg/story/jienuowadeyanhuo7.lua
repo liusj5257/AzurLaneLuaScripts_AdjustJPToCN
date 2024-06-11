@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-italy",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_renaya",
-			say = "BOOOOOM!",
 			dir = 1,
 			bgmDelay = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-italy",
+			say = "BOOOOOM!",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Whew... That's that fleet dealt with.",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Hey, you really ought to take a breather, Algérie. You'll exhaust yourself if you keep this up...",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Please. I don't want to hear that from you, Ms. Knight who's always busting her butt in battles.",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Hahah, I suppose we're both overachievers by nature, huh!",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Although, I'm glad I don't have to make a show out of using my rigging, like you.",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "What can I say? Conducting yourself with elegance is demanding.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "(I have no desire to turn my weapons upon fellow shipgirls, but...)",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "(Because the Vichya wills it... we have no choice but to use force to achieve our \"ideals.\")",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Let's keep moving. We're going to reach our target soon.",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Is there anything else we should be keeping our eyes on?",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Probably not. I'm pretty sure we've taken out all the patrols around the port.",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "I wonder how many checkboxes we'll be able to tick before their main force arrives~",
 			typewriter = {

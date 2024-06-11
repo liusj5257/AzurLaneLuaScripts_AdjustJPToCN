@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI03",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI03",
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 904010,
 			actorShadow = true,
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "I've been expecting you, dear guests from the Royal Navy.",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 		{
 			actor = 904010,
 			side = 1,
-			dir = 1,
 			say = "The Templar Knights will not bow to any foreign power.",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -280,8 +280,8 @@ return {
 		{
 			actor = 204030,
 			side = 0,
-			dir = -1,
 			say = "Well then, I hope you can back up your words by disarming right now.",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

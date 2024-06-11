@@ -6,30 +6,30 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillManualWeaponReloadBoost",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillManualWeaponReloadBoost",
+			target_choise = "TargetSelf",
 			arg_list = {
 				rate = -0.1,
 				weaponType = "TorpedoWeapon"
 			}
 		},
 		{
-			type = "BattleSkillManualWeaponReloadBoost",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillManualWeaponReloadBoost",
+			target_choise = "TargetSelf",
 			arg_list = {
 				rate = -0.15,
 				weaponType = "ChargeWeapon"
 			}
 		},
 		{
-			type = "BattleSkillManualWeaponReloadBoost",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillManualWeaponReloadBoost",
+			target_choise = "TargetSelf",
 			arg_list = {
 				rate = -0.05,
 				weaponType = "AirAssist"

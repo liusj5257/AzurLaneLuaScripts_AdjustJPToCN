@@ -8,16 +8,16 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 31502,
 					time = 30,
-					target = "TargetSelf",
-					skill_id = 31502
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "敌人技能鱼雷四联",
 	time = 0,
+	name = "敌人技能鱼雷四联",
+	init_effect = "",
 	picture = "",
 	desc = "每隔30秒，释放1次技能鱼雷",
 	stack = 1,
@@ -31,9 +31,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 31502,
 				time = 30,
-				target = "TargetSelf",
-				skill_id = 31502
+				target = "TargetSelf"
 			}
 		}
 	}

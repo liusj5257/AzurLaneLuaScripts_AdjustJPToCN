@@ -1,7 +1,7 @@
 slot0 = class("SailBoatGamingUI")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 	uv0 = SailBoatGameVo
@@ -50,14 +50,14 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._powerEnemy = findTF(slot0._gameUI, "powerEnemy")
 end
 
-function slot0.show(slot0, slot1)
+slot0.show = function(slot0, slot1)
 	setActive(slot0._gameUI, slot1)
 end
 
-function slot0.update(slot0)
+slot0.update = function(slot0)
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0.direct = Vector2(0, 0)
 	slot0.subGameStepTime = 0
 	slot0.maxProgress = uv0.GetRoundData().progress
@@ -72,13 +72,13 @@ function slot0.start(slot0)
 	setActive(slot0.powerTf, false)
 end
 
-function slot0.addScore(slot0, slot1)
+slot0.addScore = function(slot0, slot1)
 	slot2 = slot1.num
 	slot3 = slot1.pos
 	slot4 = slot1.id
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	if not slot0._char then
 		slot0._char = uv0.GetGameChar()
 		slot0._hpSlider.minValue = 0
@@ -115,7 +115,7 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.press(slot0, slot1, slot2)
+slot0.press = function(slot0, slot1, slot2)
 	if slot1 == KeyCode.W then
 		if slot2 then
 			slot0.direct.y = 1

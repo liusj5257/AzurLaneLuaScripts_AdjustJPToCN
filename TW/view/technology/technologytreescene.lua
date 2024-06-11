@@ -10,18 +10,18 @@ slot0.TypeTrige = {
 	Other = 1
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TechnologyTreeUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:initNationToggleUIList()
 	slot0:initTecClassUIList()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initTypeToggleUIList()
 	slot0:updateTecItemList()
 	slot0:addBtnListener()
@@ -35,11 +35,11 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.updateRedPoint(slot0, slot1)
+slot0.updateRedPoint = function(slot0, slot1)
 	setActive(slot0.redPointImg, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 
 	slot0.rightLSC.onReturnItem = nil
@@ -51,7 +51,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	TechnologyConst.CreateMetaClassConfig()
 
 	slot0.nationToggleList = {}
@@ -76,7 +76,7 @@ function slot0.initData(slot0)
 	slot0.expanded = {}
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.nationAllToggle = nil
 	slot0.nationAllToggleCom = nil
 	slot0.nationMetaToggle = slot0:findTF("Adapt/Left/MetaToggle")
@@ -108,11 +108,11 @@ function slot0.findUI(slot0)
 	slot0.emptyPage = BaseEmptyListPage.New(slot0:findTF("Adapt/Right/ViewPort"), slot0.event)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0.backBtn)
 end
 
-function slot0.addBtnListener(slot0)
+slot0.addBtnListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -143,7 +143,7 @@ function slot0.addBtnListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.initNationToggleUIList(slot0)
+slot0.initNationToggleUIList = function(slot0)
 	slot0.nationAllToggle = nil
 	slot0.nationAllToggleCom = nil
 	slot0.nationMetaToggle = slot0:findTF("Adapt/Left/MetaToggle")
@@ -213,7 +213,7 @@ function slot0.initNationToggleUIList(slot0)
 		end
 	end, SFX_PANEL)
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		if slot0 == true then
 			uv0.lastNationTrige = uv1.NationTrige.Mot
 			uv0.nationMotToggleCom.interactable = false
@@ -263,7 +263,7 @@ function slot0.initNationToggleUIList(slot0)
 	end
 end
 
-function slot0.updateNationToggleUIList(slot0)
+slot0.updateNationToggleUIList = function(slot0)
 	if slot0.lastNationTrige == uv0.NationTrige.All then
 		_.each(slot0.nationToggleList, function (slot0)
 			triggerToggle(slot0, false)
@@ -296,7 +296,7 @@ function slot0.updateNationToggleUIList(slot0)
 	end
 end
 
-function slot0.initTypeToggleUIList(slot0)
+slot0.initTypeToggleUIList = function(slot0)
 	slot0.typeAllToggle = nil
 	slot0.typeAllToggleCom = nil
 	slot1 = UIItemList.New(slot0.bottomContainer, slot0.selectTypeItem)
@@ -322,7 +322,7 @@ function slot0.initTypeToggleUIList(slot0)
 	end)
 	slot1:align(#TechnologyConst.TypeResName)
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		uv0.lastTypeTrige = uv1.TypeTrige.All
 
 		if slot0 == true then
@@ -376,7 +376,7 @@ function slot0.initTypeToggleUIList(slot0)
 	end
 end
 
-function slot0.updateTypeToggleUIList(slot0)
+slot0.updateTypeToggleUIList = function(slot0)
 	if slot0.lastTypeTrige == uv0.TypeTrige.All then
 		_.each(slot0.typeToggleList, function (slot0)
 			triggerToggle(slot0, false)
@@ -393,7 +393,7 @@ function slot0.updateTypeToggleUIList(slot0)
 	end
 end
 
-function slot0.updatePreferredHeight(slot0, slot1, slot2)
+slot0.updatePreferredHeight = function(slot0, slot1, slot2)
 	slot3 = tf(slot1):Find("ShipScrollView/ShipContainer")
 	slot4 = slot2 + slot0.rowHeight
 	slot0.rightLayoutGroup.padding.bottom = slot0.rightLayoutGroup.padding.bottom + slot4 - GetComponent(slot1, "LayoutElement").preferredHeight
@@ -404,7 +404,7 @@ function slot0.updatePreferredHeight(slot0, slot1, slot2)
 	})
 end
 
-function slot0.onClassItemUpdate(slot0, slot1, slot2)
+slot0.onClassItemUpdate = function(slot0, slot1, slot2)
 	slot4 = slot0:findTF("CampBG", slot2)
 	slot5 = slot0:findTF("Level/LevelImg", slot2)
 	slot6 = slot0:findTF("Level/TypeTextImg", slot2)
@@ -459,7 +459,7 @@ function slot0.onClassItemUpdate(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.onClassItemReturn(slot0, slot1, slot2)
+slot0.onClassItemReturn = function(slot0, slot1, slot2)
 	if defaultValue(slot0.expanded[slot1], 0) > 0 then
 		slot0.expanded[slot1] = 0
 
@@ -467,17 +467,17 @@ function slot0.onClassItemReturn(slot0, slot1, slot2)
 	end
 end
 
-function slot0.initTecClassUIList(slot0)
-	function slot0.rightLSC.onUpdateItem(slot0, slot1)
+slot0.initTecClassUIList = function(slot0)
+	slot0.rightLSC.onUpdateItem = function(slot0, slot1)
 		uv0:onClassItemUpdate(slot0, slot1)
 	end
 
-	function slot0.rightLSC.onReturnItem(slot0, slot1)
+	slot0.rightLSC.onReturnItem = function(slot0, slot1)
 		uv0:onClassItemReturn(slot0, slot1)
 	end
 end
 
-function slot0.updateTecItemList(slot0)
+slot0.updateTecItemList = function(slot0)
 	slot0.expanded = {}
 	slot1 = slot0:getClassIDListForShow()
 
@@ -497,7 +497,7 @@ function slot0.updateTecItemList(slot0)
 	end
 end
 
-function slot0.updateShipItemList(slot0, slot1, slot2)
+slot0.updateShipItemList = function(slot0, slot1, slot2)
 	slot3 = UIItemList.New(slot2, slot0.headItem)
 
 	slot3:make(function (slot0, slot1, slot2)
@@ -620,7 +620,7 @@ function slot0.updateShipItemList(slot0, slot1, slot2)
 	slot3:align(#slot1)
 end
 
-function slot0.getClassIDListForShow(slot0, slot1, slot2)
+slot0.getClassIDListForShow = function(slot0, slot1, slot2)
 	slot1 = slot1 or slot0.nationSelectedList
 	slot2 = slot2 or slot0.typeSelectedList
 	slot4 = slot0:isMotOn()
@@ -653,7 +653,7 @@ function slot0.getClassIDListForShow(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getClassConfigForShow(slot0, slot1)
+slot0.getClassConfigForShow = function(slot0, slot1)
 	slot3 = slot0:isMotOn()
 
 	if not slot0:isMetaOn() and not slot3 then
@@ -665,7 +665,7 @@ function slot0.getClassConfigForShow(slot0, slot1)
 	end
 end
 
-function slot0.isMetaOn(slot0)
+slot0.isMetaOn = function(slot0)
 	if slot0.lastNationTrige == uv0.NationTrige.All then
 		return false
 	elseif slot0.lastNationTrige == uv0.NationTrige.Mot then
@@ -675,7 +675,7 @@ function slot0.isMetaOn(slot0)
 	return slot0.nationMetaToggleCom.isOn
 end
 
-function slot0.isMotOn(slot0)
+slot0.isMotOn = function(slot0)
 	if slot0.lastNationTrige == uv0.NationTrige.All then
 		return false
 	elseif slot0.lastNationTrige == uv0.NationTrige.Meta then

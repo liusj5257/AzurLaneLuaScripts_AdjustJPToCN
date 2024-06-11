@@ -1,8 +1,8 @@
 return {
-	id = "ZHIHUIMIAO1",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "ZHIHUIMIAO1",
+	fadein = 1.5,
 	scripts = {
 		{
 			bgName = "bg_story_task",
@@ -19,11 +19,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "喵啊啊啊啊！不可以亂跑喵！！",
 			typewriter = {
 				speed = 0.05,
@@ -39,10 +39,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 0.5,
 					x = 750,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -65,13 +65,13 @@ return {
 		{
 			actor = 312010,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "呼喵…指揮官幫大忙了喵。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -118,13 +118,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			say = "——指揮喵！！",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "——指揮喵！！",
 			effects = {
 				{
 					active = true,
@@ -144,9 +144,9 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "就讓{namecode:98}來給你介紹介紹喵！",
 			effects = {
 				{

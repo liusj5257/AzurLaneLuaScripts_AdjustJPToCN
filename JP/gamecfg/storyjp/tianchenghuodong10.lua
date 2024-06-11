@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG10",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>分かっている。</size>",
@@ -41,17 +41,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_story_tiancheng4",
-			actorName = "{namecode:144}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "天城さん大変です！加賀さんが置き手紙だけ残して、一人でセイレーンが支配している鏡面海域の方に向かいました！",
+			bgName = "bg_story_tiancheng4",
 			bgm = "story-6",
+			actorName = "{namecode:144}",
+			say = "天城さん大変です！加賀さんが置き手紙だけ残して、一人でセイレーンが支配している鏡面海域の方に向かいました！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:144}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_tiancheng4",
+			dir = 1,
 			say = "足柄が加賀の残した手紙を天城に渡した。",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:144}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng4",
+			dir = 1,
 			say = "天城は急いで赤城の自室から出た。",
 			typewriter = {
 				speed = 0.05,
@@ -346,13 +346,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = -1,
 			actor = 304050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "はぁ…はぁ……鳳翔さん、今少し…お時間を…はぁはぁ……いただけますでしょうか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艤装なしでの運動が久しぶりなのか、急いで走ってきたせいで息が切れそうになっていた。",
 			typewriter = {
 				speed = 0.05,
@@ -405,8 +405,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "天城は何回か深呼吸をすると――",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "鳳翔さん、あなたの艦載機で鏡面海域に居る加賀を探していただけますでしょうか……？",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "潮風を浴びながら、空母・鳳翔は片手を曇り空に覆われる水平線に向かって伸ばして――",
 			typewriter = {
 				speed = 0.05,
@@ -510,9 +510,9 @@ return {
 			actor = 306030,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "艦載機たち、お願いします。その翼を海風に乗せて――",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "甲板から次々と艦載機たちが飛び立ち、鳳翔のいる海の上空で旋回し始める。",
 			typewriter = {
 				speed = 0.05,
@@ -536,8 +536,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "その隣で、鏡面海域捜索に随伴する僚艦たちを連れてきた天城と赤城がただただ静かにその様子を注視していた。",
 			typewriter = {
 				speed = 0.05,
@@ -549,8 +549,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……彼女たちにとって、空母、そして艦載機はそれだけ驚異的な存在だった。",
 			typewriter = {
 				speed = 0.05,
@@ -592,10 +592,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/plane",
 			say = "鳳翔の指示を受け、艦載機は扇を描くように7つの方向に向い、そして遠くの空に消えていった。",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,8 +621,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "天城は鳳翔に軽く耳打ちして、僚艦たちに移動指示を出す。",
 			typewriter = {
 				speed = 0.05,
@@ -649,8 +649,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "姉さま、ここからは艦載機と連絡をしながら鏡面海域で捜索するのですね",
@@ -667,8 +667,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "ええ、この子たちは意外と上手くやれるかもしれませんわ",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "でも、やはり私、悪い予感が……",
@@ -713,8 +713,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "姉の話を聞いて。加賀は絶対連れ戻しますから",
 			typewriter = {
 				speed = 0.05,
@@ -726,8 +726,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "まだ頼りない妹に安心させる言葉を投げ、天城は背中を向けた。",
 			typewriter = {
 				speed = 0.05,
@@ -739,8 +739,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "自身も隠しきれない焦りと不安を、妹に察せられないように――",
 			typewriter = {
 				speed = 0.05,

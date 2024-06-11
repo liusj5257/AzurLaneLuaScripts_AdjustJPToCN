@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN24",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Well, well, there they are.",
 			bgm = "xinnong-2",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "Well, well, there they are.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,9 +42,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			say = "An enormous swarm of aircraft of Iron Blood, Sakura Empire, Sardegna, and Siren manufacture appear over the horizon, their formation so massive as to even block out the sky.",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			say = "Shortly after the first planes arrive at the target and begin circling around, one of them loses control, then another, and another... They either waste their payloads, or crash into the sea.",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "It's time to finish the job, as Friedrich ordered...",
 			effects = {
 				{
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "U-37, do you read me?",
 			dialogShake = {
 				speed = 0.09,
@@ -196,8 +196,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Yeah, I hear ya, Eugen. Whatcha need?",
 			effects = {
@@ -219,8 +219,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "Take aim on the device before you and fire every single torpedo you have right into it.",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Wait, whoa, whoa, what?! Ya want me to nuke this thing? But it's the secret facility's beatin' heart!",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "I'm well aware. It also fell back into Siren control just like that. What good is a \"secret\" facility that the Sirens readily have access to?",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Well, if you're sure! Got it!",
 			typewriter = {
@@ -345,9 +345,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "Go ahead, Sirens. Make your next move.",
 			typewriter = {

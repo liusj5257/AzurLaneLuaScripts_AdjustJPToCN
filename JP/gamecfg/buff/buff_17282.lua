@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.046
+					number = -0.046,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.052
+					number = -0.052,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.066
+					number = -0.066,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.072
+					number = -0.072,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.086
+					number = -0.086,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.092
+					number = -0.092,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufablue",
-	name = "减伤光环",
 	time = 0,
-	color = "yellow",
+	name = "减伤光环",
+	init_effect = "jinengchufablue",
+	id = 17282,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
-	id = 17282,
+	color = "yellow",
 	icon = 17280,
 	last_effect = "",
 	effect_list = {
@@ -167,8 +167,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.04
+				number = -0.04,
+				attr = "injureRatio"
 			}
 		}
 	}

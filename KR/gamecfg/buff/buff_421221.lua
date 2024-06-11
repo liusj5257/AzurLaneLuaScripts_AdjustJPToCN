@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "巡洋-指挥-雷击II具体效果",
 	time = 0,
-	color = "yellow",
+	name = "巡洋-指挥-雷击II具体效果",
+	init_effect = "",
+	id = 421221,
 	picture = "",
 	desc = "巡洋-指挥-雷击II",
 	stack = 1,
-	id = 421221,
+	color = "yellow",
 	icon = 421221,
 	last_effect = "",
 	effect_list = {

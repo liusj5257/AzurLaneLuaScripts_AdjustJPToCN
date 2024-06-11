@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 30203,
 	time = 10,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 30203,
+	color = "red",
 	icon = 30200,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 2000
+				number = 2000,
+				attr = "cannonPower"
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA36",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH항구, 지휘실",
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-richang",
+			say = "PH항구, 지휘실",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,10 +35,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이거 ,이거, 그리고 이거...",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "통신 속의 새러토가는 현재 불평을 일삼으며 문서를 뒤지고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "산더미같이 쌓인 문서 꾸러미들은 금방 무너져도 이상할게 없을 정도였다. 그리고 며칠간 야근을 계속한 새러토가는 그 문서 꾸러미 속에 파묻혀 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "하지만 내 사정도 그렇게 좋지는 않다.",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "메탈 블러드의 최근 행보와 남쪽 해양에서 돌연 나타난 이상 기후들까지... 두 사건은 분명 연관되어 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "하지만 가지고 있는 모든 정보를 분석해 봐도 뚜렷한 해석이 나오지 않았다.",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "안타디카코 역과의 교신은 어떻게 됐어?",
 			typewriter = {
 				speed = 0.05,
@@ -299,10 +299,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "잠깐, 지휘부에서 긴급 연락이 왔어.",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,10 +419,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "연락 내용은... 지휘관님, 최근 NY 사령부에서 어쩌면 당신의 복귀를 원할지도 모릅니다....",
 			typewriter = {
 				speed = 0.05,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			bgm = "bgm-cccp3",
 			mode = 1,
+			bgm = "bgm-cccp3",
 			sequence = {
 				{
 					"<size=51>「동지, 안녕하십니까」</size>",

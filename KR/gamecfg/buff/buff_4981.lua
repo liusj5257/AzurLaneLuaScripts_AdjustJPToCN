@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "烟雾弹",
 	init_effect = "",
-	color = "blue",
+	id = 4981,
+	time = 0,
 	picture = "",
 	desc = "提高闪避",
 	stack = 1,
-	id = 4981,
+	color = "blue",
 	icon = 4981,
 	last_effect = "",
 	blink = {
@@ -25,8 +25,8 @@ return {
 			},
 			arg_list = {
 				group = 4981,
-				attr = "dodgeRateExtra",
-				number = 0.15
+				number = 0.15,
+				attr = "dodgeRateExtra"
 			}
 		},
 		{
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				group = 4981,
-				attr = "injureRatioByAir",
-				number = -0.15
+				number = -0.15,
+				attr = "injureRatioByAir"
 			}
 		},
 		{

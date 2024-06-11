@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"쥬르네 쉬르쿠프\n\n<size=45>쉬르쿠프의 아침</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "모항 - 개인실",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "story-1",
+			say = "모항 - 개인실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "왠지 코가 근질거리는 느낌이……",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……엣취! ……큰 재채기로 완전히 잠이 깨버렸다.",
 			flashN = {
 				color = {
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "강아지풀을 한 손에 들고 있는 쉬르쿠프가 바싹 다가와 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "그래서, 꿈속에서 난 뭐 하고 있었어?",
 			typewriter = {
 				speed = 0.05,
@@ -258,13 +258,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "몇 분 후",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

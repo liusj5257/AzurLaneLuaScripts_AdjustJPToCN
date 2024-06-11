@@ -1,10 +1,10 @@
 slot0 = class("EquipmentTraceBackLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EquipmentTraceBackUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0._tf:Find("Adapt/Left/Operation")
 	slot0.sortOrderBtn = slot1:Find("Bar1")
 	slot0.orderText = slot1:Find("OrderText")
@@ -59,11 +59,11 @@ slot3 = {
 	[slot0.SortOrder.Ascend] = "word_asc"
 }
 
-function slot0.SetEnv(slot0, slot1)
+slot0.SetEnv = function(slot0, slot1)
 	slot0.env = slot1
 end
 
-function slot0.GetAllPaths(slot0, slot1)
+slot0.GetAllPaths = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {
 		{
@@ -96,7 +96,7 @@ function slot0.GetAllPaths(slot0, slot1)
 	return slot2
 end
 
-function slot0.UpdateSourceEquipmentPaths(slot0)
+slot0.UpdateSourceEquipmentPaths = function(slot0)
 	slot0.totalPaths = slot0:GetAllPaths(slot0.contextData.TargetEquipmentId)
 
 	if slot0.contextData.sourceEquipmentInstance then
@@ -106,7 +106,7 @@ function slot0.UpdateSourceEquipmentPaths(slot0)
 	end
 end
 
-function slot0.UpdateSort(slot0)
+slot0.UpdateSort = function(slot0)
 	for slot4, slot5 in ipairs(slot0.totalPaths) do
 		slot5.isSourceEnough = slot5.source.type ~= DROP_TYPE_ITEM or slot5.source.composeCfg.material_num <= slot5.source.template.count
 		slot5.isMaterialEnough = slot5.isSourceEnough and EquipmentTransformUtil.CheckTransformFormulasSucceed(slot5.formulas, slot5.source)
@@ -142,17 +142,17 @@ function slot0.UpdateSort(slot0)
 	slot0.loader:GetSprite("ui/equipmenttracebackui_atlas", uv2[slot0.contextData.sortType], slot0.sortImg)
 end
 
-function slot0.didEnter(slot0)
-	function slot0.equipLayoutScroll.onUpdateItem(slot0, slot1)
+slot0.didEnter = function(slot0)
+	slot0.equipLayoutScroll.onUpdateItem = function(slot0, slot1)
 		uv0:UpdateSourceListItem(slot0, tf(slot1))
 		TweenItemAlphaAndWhite(slot1)
 	end
 
-	function slot0.equipLayoutScroll.onReturnItem(slot0, slot1)
+	slot0.equipLayoutScroll.onReturnItem = function(slot0, slot1)
 		ClearTweenItemAlphaAndWhite(slot1)
 	end
 
-	function slot4()
+	slot4 = function()
 		setActive(uv0.sortBar, not isActive(uv0.sortBar))
 	end
 
@@ -209,13 +209,13 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true)
 end
 
-function slot0.UpdateSourceList(slot0)
+slot0.UpdateSourceList = function(slot0)
 	slot0.lastSourceItem = nil
 
 	slot0.equipLayoutScroll:SetTotalCount(#slot0.totalPaths)
 end
 
-function slot0.UpdateSourceListItem(slot0, slot1, slot2)
+slot0.UpdateSourceListItem = function(slot0, slot1, slot2)
 	slot3 = slot0.totalPaths[slot1 + 1].source
 	slot4 = slot3.template
 
@@ -269,13 +269,13 @@ function slot0.UpdateSourceListItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdatePlayer(slot0, slot1)
+slot0.UpdatePlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	slot0:UpdateConsumeComparer()
 end
 
-function slot0.UpdateConsumeComparer(slot0)
+slot0.UpdateConsumeComparer = function(slot0)
 	slot1 = 0
 	slot2 = 0
 	slot3 = true
@@ -293,7 +293,7 @@ function slot0.UpdateConsumeComparer(slot0)
 	slot0.goldText:GetComponent(typeof(Text)).text = slot4
 end
 
-function slot0.UpdateFormula(slot0)
+slot0.UpdateFormula = function(slot0)
 	slot1 = slot0.contextData.sourceEquipmentInstance
 
 	setActive(slot0.sourceEquipStatus, not slot1)
@@ -318,7 +318,7 @@ function slot0.UpdateFormula(slot0)
 	end
 end
 
-function slot0.UpdateFormulaMaterials(slot0)
+slot0.UpdateFormulaMaterials = function(slot0)
 	if not slot0.contextData.sourceEquipmentFormulaList then
 		return
 	end
@@ -368,7 +368,7 @@ function slot0.UpdateFormulaMaterials(slot0)
 	slot0:UpdateConsumeComparer()
 end
 
-function slot0.UpdateFormulaMaterialItem(slot0, slot1, slot2)
+slot0.UpdateFormulaMaterialItem = function(slot0, slot1, slot2)
 	slot3 = slot0.consumeMaterials[slot1 + 1]
 
 	updateDrop(slot2:Find("Item"), {
@@ -381,7 +381,7 @@ function slot0.UpdateFormulaMaterialItem(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

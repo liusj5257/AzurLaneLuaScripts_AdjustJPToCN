@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항 패션 컬렉션: 새봄 합본집[1]\n\n<size=45>1 월화연무</size>",
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "새해 연회 전에 주변을 서성이다 이런 광경을 보게 될 줄은 몰랐군.",
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "이럴 때는…",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "그 순간, 빠직하고 내 발에 밟힌 나뭇가지가 덧없는 생명의 절명을 울려댔다.",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 504011,
 			side = 2,
 			bgName = "star_level_bg_152",
 			spine = true,
 			dir = 1,
+			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "!!!",
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "거리에 장식된 등롱처럼 환창의 얼굴이 순식간에 새빨갛게 물들었다.",
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "……그렇게 여기서 본 것은 모두 비밀로 하겠다는 약속을 받아내고 나서야, 환창은 드디어 안도하는 표정을 보였다.",
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "얼굴색도 평소대로 돌아온… 것 같지만, 그래도 아직 고민이 남은 것 같다.",
@@ -468,9 +468,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_152",
 			spine = true,
-			dir = 1,
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -484,17 +484,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -578,9 +578,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_152",
 			spine = true,
-			dir = 1,
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -594,17 +594,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -681,27 +681,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_152",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_152",
 			say = "꽤 시간은 걸렸지만, 고민한 끝에 환창은 어울리는 마스크를 몇 개 고를 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -709,8 +709,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "새로운 몸짓도 연습해, 드디어 그녀만의 '위엄'을 잘 발휘할 수 있게 된듯하다.",

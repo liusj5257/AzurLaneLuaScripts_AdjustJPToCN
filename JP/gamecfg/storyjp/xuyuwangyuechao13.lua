@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO13",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			actorName = "？？？",
 			stopbgm = true,
-			say = "はわわわわわ――――！？",
 			bgm = "battle-unknown-approaching",
+			actorName = "？？？",
+			hidePaintObj = true,
+			say = "はわわわわわ――――！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "黒い気配が作り出した濁流に流されかけながら、さっきまで詰所に戻ろうとしていた尾張が仲間の呼ぶ声が聞こえた。",
@@ -47,10 +47,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "この声…瑞鳳ちゃん？",
 			painting = {
 				alpha = 0.3,
@@ -65,10 +65,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "いやいや、流石に位置的にそれはないっしょ",
 			painting = {
 				alpha = 0.3,
@@ -83,10 +83,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "だって声があたしより上からじゃん！瑞鳳ちゃんが空を飛んだりしない限り――",
 			painting = {
 				alpha = 0.3,
@@ -101,9 +101,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 900402,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はわわわわわ――――！？",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -124,9 +124,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 900402,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "尾張さーーーん！！！",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,10 +147,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -165,10 +165,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "…………マジ？",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "えええ！？本当に瑞鳳ちゃんなの？！",
 			painting = {
 				alpha = 0.3,
@@ -214,10 +214,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "なんで瑞鳳ちゃんが飛んでるの！？いやそりゃ翼があるから飛べるかもしれないけど――",
 			painting = {
 				alpha = 0.3,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "あまり機転が働く方ではない尾張だが、それでも仲間が飛ばされるのを黙って見ているほど鈍くさくはない。",
@@ -256,10 +256,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "どうすれば…そうだ！艤装を使えば！こらあああああ！！！",
 			painting = {
 				alpha = 0.3,
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "艤装の「鎖」を腕力で外し腕に巻き、そして――",
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "ユニオン映画に出てくるカウガールよろしく、瑞鳳に向けて投げ縄を投げた。",
@@ -296,10 +296,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "尾張",
+			hidePaintObj = true,
 			say = "しっかり掴まっててね！",
 			painting = {
 				alpha = 0.3,
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "無事瑞鳳を捕まえたが、無形の力によって押し流された二人は真正面からぶつかった！",
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ぷはー！",
 			painting = {
 				alpha = 0.3,
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "ふっとばされ、倒れた尾張を下敷きにどうにか事なきを得た瑞鳳だが、起き上がった途端泣き出した。",
@@ -415,8 +415,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "尾張は周りを見渡した。どうやら空に浮いている巨大な岩塊に飛ばされたようだ。",
@@ -429,10 +429,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "武蔵さんがどうしたって？聖域にいるの？",
 			painting = {
 				alpha = 0.3,
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "瑞鳳は冷静沈着とはいい難いが、それでもここまで取り乱すことはほとんどない。",
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "色々と聞きたいことは多いが、まずは安全な場所を確保するのが急務だ。",
@@ -469,10 +469,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "マジ泣きされちゃうと困るよな…とにかく！",
 			painting = {
 				alpha = 0.3,
@@ -487,10 +487,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "安全な場所を探すよ！ほら！",
 			painting = {
 				alpha = 0.3,
@@ -505,10 +505,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "難しいことを考えるのはあとで！",
 			painting = {
 				alpha = 0.3,
@@ -520,8 +520,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "メソメソしている瑞鳳を抱きかかえ、尾張は枯れた「大神木」を一瞥してその場から離れた。",

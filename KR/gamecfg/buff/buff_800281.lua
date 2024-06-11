@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 800281,
+	time = 0,
 	picture = "",
 	desc = "提高炮击属性",
 	stack = 1,
-	id = 800281,
+	color = "red",
 	icon = 800280,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 500
+				number = 500,
+				attr = "antiAirPower"
 			}
 		}
 	}

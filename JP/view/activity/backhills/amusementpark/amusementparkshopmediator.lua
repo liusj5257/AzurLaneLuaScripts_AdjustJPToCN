@@ -2,7 +2,7 @@ slot0 = class("AmusementParkShopMediator", import("view.base.ContextMediator"))
 slot0.ON_ACT_SHOPPING = "AmusementParkShopMediator:ON_ACT_SHOPPING"
 slot0.GO_SCENE = "GO_SCENE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_SHOP_PROGRESS_REWARD)
 
 	assert(slot2, "Activity Type ACTIVITY_TYPE_SHOP_PROGRESS_REWARD Not exist")
@@ -22,13 +22,13 @@ function slot0.register(slot0)
 	slot0:HandleSpecialReach(slot2)
 end
 
-function slot0.TransActivity2ShopData(slot0, slot1)
+slot0.TransActivity2ShopData = function(slot0, slot1)
 	if slot1 and not slot1:isEnd() then
 		slot0.viewComponent:SetShop(ActivityShop.New(slot1))
 	end
 end
 
-function slot0.AddSpecialList(slot0, slot1)
+slot0.AddSpecialList = function(slot0, slot1)
 	slot2 = {}
 
 	if pg.gameset.activity_lottery_rewards then
@@ -46,7 +46,7 @@ function slot0.AddSpecialList(slot0, slot1)
 	slot0.viewComponent:SetSpecial(slot2)
 end
 
-function slot0.HandleSpecialReach(slot0, slot1)
+slot0.HandleSpecialReach = function(slot0, slot1)
 	if not pg.gameset.activity_lottery_rewards or not pg.gameset.activity_lottery_rewards.description then
 		return
 	end
@@ -71,14 +71,14 @@ function slot0.HandleSpecialReach(slot0, slot1)
 	return false
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		ActivityShopWithProgressRewardCommand.SHOW_SHOP_REWARD
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then

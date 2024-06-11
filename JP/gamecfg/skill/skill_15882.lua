@@ -2,18 +2,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 911
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -30,18 +30,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 912
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -58,18 +58,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 913
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -86,18 +86,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 914
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -114,18 +114,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 915
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -142,18 +142,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 916
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -170,18 +170,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 917
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -198,18 +198,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 918
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -226,18 +226,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 919
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -254,18 +254,18 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 920
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"
@@ -282,10 +282,10 @@ return {
 	uiEffect = "",
 	name = "烟雾弹",
 	cd = 0,
-	painting = 0,
-	id = 15882,
 	picture = "0",
 	desc = "烟雾弹",
+	painting = 0,
+	id = 15882,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -296,18 +296,18 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 911
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerVanguardFleet",
 				"TargetShipTag"

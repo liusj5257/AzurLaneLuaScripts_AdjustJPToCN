@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA18",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "이 느낌은… 거울 해역인가?",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "그렇구나… 그게 \"거울 해역\"이었어~!",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(이상해. 설마 적은 세이렌이 아닌가? 그렇다면 늦는다는 예비 함대는 설마… 아니겠지……)",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "됐다. 잊어버리도록 해……",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "모두들, 나쁜 소식이 하나 더 있다네. 방금 이글 유니온의 함대와도 연락이 끊겼어……",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "큰 일이 닥칠거다.",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 302130,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#a9f548",
 			say = "시나노님도 그렇게 생각하세요? 저도 방금 우리가 발견한 것이 적의 선봉이 아니라 주력 함대라고 생각해요.",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 302130,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#a9f548",
 			say = "선봉이라고 하기에는 규모가 너무 커요……",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "?! 시나노님, 방금 그게 무슨 말이오?",
 			dialogShake = {
@@ -273,8 +273,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……타카오, 「잔불」라는 말을 들어본 적이 있나?",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "잔불…? 그런 이름은 들어본 적이 없네만. 어떤 단체의 이름인가…?",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "음침하네. 우리랑 안 맞을 것 같아……",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "그래. 우리는 잔불과 정 반대인 「쿄카」, 어둠 속에서도 계속 빛을 발하고 이 몸이 부숴지는 순간까지도 영원히 불타오르지!",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "쿄카…… 잔불.",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(…………! 알겠다. 여기는 설마 잔불이 처음 탄생한 곳인가?!)",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "시나노님, 전투가 시작되면 결전 병기의 안전은 맡기겠네.",
 			typewriter = {
@@ -392,9 +392,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……그래. 나에게 맡기도록 해.",
 			typewriter = {

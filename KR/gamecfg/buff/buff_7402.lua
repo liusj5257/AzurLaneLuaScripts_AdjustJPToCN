@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "accuracyRateExtra",
-					number = -0.5
+					number = -0.5,
+					attr = "accuracyRateExtra"
 				}
 			}
 		}
@@ -23,15 +23,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "accuracyRateExtra",
-					number = -0.25
+					number = -0.25,
+					attr = "accuracyRateExtra"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "命中下降",
 	time = 0,
+	name = "命中下降",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -46,8 +46,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "accuracyRateExtra",
-				number = -0.5
+				number = -0.5,
+				attr = "accuracyRateExtra"
 			}
 		}
 	}

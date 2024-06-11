@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO12",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "The clear blue skies turned dark in mere moments as greyish clouds enveloped the sanctuary.",
 			bgm = "story-unzen",
+			say = "The clear blue skies turned dark in mere moments as greyish clouds enveloped the sanctuary.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,10 +23,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What's happened to the Prime Sakura?!",
 			painting = {
 				alpha = 0.3,
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "The shipgirls rushed outside to see what was going on. Musashi, the head of the group, urged her shocked friends to calm down.",
@@ -52,10 +52,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No harm shall come to these girls on my watch!",
 			painting = {
 				alpha = 0.3,
@@ -96,10 +96,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Musashi! Lady Nagato is still inside the outpost!",
 			painting = {
 				alpha = 0.3,
@@ -114,10 +114,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(I can't sense the mist. Has the ritual already commenced?)",
 			painting = {
 				alpha = 0.3,
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She's going to be fine. We have other things to worry about.",
 			painting = {
 				alpha = 0.3,
@@ -149,10 +149,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The foreboding dark mist – the Shadow of Corruption – whatever you do, do not let it escape the sanctuary!",
 			painting = {
 				alpha = 0.3,
@@ -167,10 +167,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"Dark mist\"? \"Shadow of Corruption\"? Do you mean that mass on the horizon?",
 			painting = {
 				alpha = 0.3,
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "A black tidal wave towered in the far-off distance, all but blotting out the horizon.",
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "The dark mist assuming a watery state was looming – the notion of escaping its path was unthinkable.",
@@ -207,10 +207,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Stay close to me!",
 			painting = {
 				alpha = 0.3,
@@ -225,10 +225,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Musashi! Look out!",
 			painting = {
 				alpha = 0.3,
@@ -240,8 +240,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "From the encroaching tsunami emerged a black beast – no, a pitch-black leviathan.",
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "The darkness-shrouded monster raised its head and roared menacingly before engulfing Musashi whole faster than the eye could see.",
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "Immediately following that, it produced a shockwave that pushed all the remaining shipgirls back.",
@@ -286,10 +286,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Something's wrong! It's like... it's pushing us away!",
 			painting = {
 				alpha = 0.3,
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,10 +314,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What is happening?! Let go! Let go of me, I say!",
 			painting = {
 				alpha = 0.3,
@@ -329,12 +329,12 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Asanagi! Zuihou! Take my hand!",
 			painting = {
 				alpha = 0.3,
@@ -346,8 +346,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "Some invisible, immense force pulled them further and further away from the dark mist.",
@@ -360,9 +360,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 900402,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I can't hold on! It's too powerful!",
 			typewriter = {
 				speed = 0.05,
@@ -378,10 +378,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Zuihooou!",
 			painting = {
 				alpha = 0.3,
@@ -393,8 +393,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -403,8 +403,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "A turbulent wave of air crashed into Zuihou, and she vanished from view in the blink of an eye.",
@@ -417,10 +417,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What are we supposed to do?!",
 			painting = {
 				alpha = 0.3,
@@ -435,10 +435,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hold on to something! Anything!",
 			painting = {
 				alpha = 0.3,
@@ -478,10 +478,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hang on tight!",
 			painting = {
 				alpha = 0.3,
@@ -493,12 +493,12 @@ return {
 			}
 		},
 		{
-			actor = 302060,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll use my cheat skills! Old Man, don't you move a muscle!",
 			painting = {
 				alpha = 0.3,
@@ -510,8 +510,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "A brief instant later, the three laid eyes on what they were on course towards.",
@@ -523,10 +523,10 @@ return {
 		{
 			portrait = 302060,
 			side = 2,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "Zuihou",
+			bgName = "bg_yunxian_3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What the...?",
 			flashN = {
 				color = {
@@ -563,17 +563,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -588,10 +588,10 @@ return {
 			portrait = 301900,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			actorName = "Asanagi",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "Asanagi",
+			hidePaintObj = true,
 			say = "What's that coming from the roots?",
 			painting = {
 				alpha = 0.3,
@@ -606,10 +606,10 @@ return {
 			portrait = 301890,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Hatsuzuki",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Prime Sakura... It's completely withered!",
 			painting = {
 				alpha = 0.3,

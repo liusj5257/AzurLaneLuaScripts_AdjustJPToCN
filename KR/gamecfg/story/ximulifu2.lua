@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평화에 기도를\n\n<size=45>만남을 축하하자</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "연회장",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "연회장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "……전에도 말했잖아? 여기선 그렇게 딱딱하게 굴 필요 없으니까, 그냥 비스마르크라고 불러.",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "네, 네! 비스마르크… 씨!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 405011,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
-			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "메탈 블러드 진영의 함선들에게 에워싸인 채, 모항에 새로 착임한 비스마르크가 드레스 차림으로 등장했다.",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "지휘관도. 우리 메탈 블러드가 주최하는 연회에 참가해줘서, 매우 감사한다.",
 			typewriter = {
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "여느 때보다도 위엄 있는 목소리였다.",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107071,
 			dir = 1,
+			actor = 107071,
 			nameColor = "#a9f548",
 			say = "뭐어, 모처럼 빠밤~하고 축하할 수 있는 날이니, 즐기지 않으면 손해라구? 지휘관도 그렇게 생각하지 않아?",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107071,
 			dir = 1,
+			actor = 107071,
 			nameColor = "#a9f548",
 			say = "그런 고로, 자! 기념용 샴페인을 따서 분위기를 띄워보자구!",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107051,
 			dir = 1,
+			actor = 107051,
 			nameColor = "#a9f548",
 			say = "배려해주셔서 고마워요. 그럼, 건배사는 제가…… 여러분, 오늘의 만남을 축하하며……",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모두",
+			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "건배!",
 			typewriter = {
 				speed = 0.05,

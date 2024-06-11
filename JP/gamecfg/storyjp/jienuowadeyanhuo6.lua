@@ -1,18 +1,18 @@
 return {
-	id = "JIENUOWADEYANHUO6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIENUOWADEYANHUO6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "level-french1",
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "リットリオにこんな時間に駆り出されるなんて…ふはー……",
-			bgm = "level-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "もう、いつまでもこんな時間に航行しているようではポーラに肌が荒れたと言われちゃうわ",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "港の防衛を強化して、「再現」の戦いに参加せよっと。とりあえず、この港でいいのかしら",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "敵が来なかったら……きゃっ！？",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			}
 		},
 		{
+			say = "——————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "——————————！",
 			flashN = {
 				color = {
 					1,
@@ -126,9 +126,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "敵襲！？まさかアイリスの…！",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,9 +152,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "ついていないわね…ザラ、迎撃するわ！",
 			effects = {
 				{

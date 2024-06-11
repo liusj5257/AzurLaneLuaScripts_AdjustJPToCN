@@ -1,18 +1,18 @@
 return {
-	id = "WORLD504D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504D",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指揮官，陛下，周邊區域中的塞壬艦隊與設施已經被我們清理乾淨了。",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "塞壬機群姑且還是抵抗了一下，不過在我等航空力量的打擊下，也沒有比艦隊堅持更長時間。",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 207010,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "畢竟平台起飛的弱點就在於——只要消滅了平台，也就無法起飛了嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			actor = 206060,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "我們會繼續向下一處區域移動，祝各位作戰順利。",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "剛剛的是鷹和英仙座……？皇家把極地航線的艦隊也掉過來了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

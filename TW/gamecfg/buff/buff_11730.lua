@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "LittleStar",
 	time = 0,
-	color = "yellow",
+	name = "LittleStar",
+	init_effect = "",
+	id = 11730,
 	picture = "",
 	desc = "战斗开始后15秒发动，提高全队$2炮击、装填、机动属性，持续20秒",
 	stack = 1,
-	id = 11730,
+	color = "yellow",
 	icon = 11730,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 11730,
 				target = "TargetSelf",
-				time = 15,
-				skill_id = 11730
+				time = 15
 			}
 		},
 		{

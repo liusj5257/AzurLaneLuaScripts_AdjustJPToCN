@@ -1,32 +1,32 @@
 slot0 = singletonClass("WorldGuider", import("....Mod.Experiment.BaseEntity"))
 slot0.Fields = {
-	tempGridPos = "table",
-	tStamina = "number"
+	tStamina = "number",
+	tempGridPos = "table"
 }
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.tempGridPos = {}
 end
 
-function slot0.SetTempGridPos(slot0, slot1, slot2)
+slot0.SetTempGridPos = function(slot0, slot1, slot2)
 	slot0.tempGridPos[slot2 or 1] = pg.NewGuideMgr.GetInstance()._tf:InverseTransformPoint(slot1)
 end
 
-function slot0.SetTempGridPos2(slot0, slot1, slot2)
+slot0.SetTempGridPos2 = function(slot0, slot1, slot2)
 	slot0:SetTempGridPos(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)):ScreenToWorldPoint(GameObject.Find("LevelCamera"):GetComponent(typeof(Camera)):WorldToScreenPoint(slot1)), slot2)
 end
 
-function slot0.GetTempGridPos(slot0, slot1)
+slot0.GetTempGridPos = function(slot0, slot1)
 	return slot0.tempGridPos[slot1 or 1]
 end
 
-function slot0.CheckPlayChooseCamp(slot0)
+slot0.CheckPlayChooseCamp = function(slot0)
 	if nowWorld():GetRealm() == nil or slot1 < 1 then
 		slot0:PlayGuide("WorldG001")
 	end
 end
 
-function slot0.CheckIntruduce(slot0)
+slot0.CheckIntruduce = function(slot0)
 	if nowWorld():GetRealm() and slot1 > 0 then
 		if slot1 == 1 then
 			slot0:PlayGuide("WorldG002_1")
@@ -36,7 +36,7 @@ function slot0.CheckIntruduce(slot0)
 	end
 end
 
-function slot0.CheckUseStaminaItem(slot0)
+slot0.CheckUseStaminaItem = function(slot0)
 	slot2 = nowWorld():GetInventoryProxy()
 	slot3 = 0
 
@@ -53,11 +53,11 @@ function slot0.CheckUseStaminaItem(slot0)
 	end
 end
 
-function slot0.CheckMapLimit(slot0)
+slot0.CheckMapLimit = function(slot0)
 	pg.NewGuideMgr.GetInstance():Play("WorldG012")
 end
 
-function slot0.SpecialCheck(slot0, slot1)
+slot0.SpecialCheck = function(slot0, slot1)
 	if slot1 == "WorldG008" and nowWorld():GetActiveMap() ~= nil and slot2.findex == 2 then
 		return "WorldG008_2"
 	end
@@ -74,7 +74,7 @@ slot0.interruptReplayList = {
 	"WorldG151"
 }
 
-function slot0.PlayGuide(slot0, slot1, slot2, slot3)
+slot0.PlayGuide = function(slot0, slot1, slot2, slot3)
 	slot4 = pg.NewGuideMgr.GetInstance()
 
 	if not GUIDE_WROLD or not slot2 and pg.NewStoryMgr.GetInstance():IsPlayed(slot1) or not slot4:CanPlay() then
@@ -182,11 +182,11 @@ slot1 = {
 	end
 }
 
-function slot0.GetWorldGuiderNotifies(slot0)
+slot0.GetWorldGuiderNotifies = function(slot0)
 	return underscore.keys(uv0)
 end
 
-function slot0.WorldGuiderNotifyHandler(slot0, slot1, slot2, slot3)
+slot0.WorldGuiderNotifyHandler = function(slot0, slot1, slot2, slot3)
 	switch(slot1, uv0, nil, slot1, slot2, slot3)
 end
 

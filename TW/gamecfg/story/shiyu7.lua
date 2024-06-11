@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"愛操心的她可不是鬧著玩的\n\n<size=45>七 愛照顧人的理由</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301150,
-			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "哈…突然覺得好累……",
 			bgm = "story-1",
+			actor = 301150,
+			nameColor = "#a9f548",
+			say = "哈…突然覺得好累……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "和夕立匯合後重新回到神社內。清理工作的確比預想中要累的多，中途還花了大量精力尋找夕立。",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "但最重要的還是在倉庫受到的驚嚇，當時手一直被夕立握著，看來她是真的被嚇到了。",
 			typewriter = {
 				speed = 0.05,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "啊，指揮官！你看起來好累。衣領也塌下來了。",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "閉嘴！妳別說話！",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "——姐姐！他們終於回來了！殿下，時雨，夕立~！",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,13 +222,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -269,9 +269,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "時雨嘩啦啦地翻著厚厚的資料，一邊說道。",
 			typewriter = {
 				speed = 0.05,
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "只、只是假設哦！如果時雨大人能給你當秘書艦的話，一定會做的非常可靠的！",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……其實就是為了這個，才讓她來幫忙的的。",
 			typewriter = {
 				speed = 0.05,
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "——！！",
 			dialogShake = {
 				speed = 0.09,
@@ -392,9 +392,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "時雨為了不讓人看到她害羞的樣子而遮住了臉，不過這紅透的臉龐卻怎麼樣都遮不住。",
 			typewriter = {
 				speed = 0.05,
@@ -406,9 +406,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "時雨內心的喜悅傳了過來，讓人不禁也微笑了起來。",
 			typewriter = {
 				speed = 0.05,
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "哼！既然指揮官都這麼說了，那就沒辦法了！",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "她又恢復了往日充滿活力的表情，再次轉過身來，露出微笑，然後——",
 			typewriter = {
 				speed = 0.05,
@@ -476,9 +476,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "雖然語氣有點逞能，但確實是個會照顧人的好孩子。",
 			typewriter = {
 				speed = 0.05,

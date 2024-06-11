@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			bgm = "battle-executor-type1",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 403090,
 			nameColor = "#a9f548",
 			say = "For being Pawns, you sure are evasive... Eisen, fire another shot!",
@@ -66,11 +66,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "An impostor, calling ME a Pawn? How rich! Try hitting me, foolish mortal!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Wait, Eugen?! What are you doing here?",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -180,8 +180,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "*pant*... *pant*... Why did you two continue fighting when we were trying to communicate with you?!",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "You didn't answer my call in the first place, so I just assumed you were Pawns...",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "Well, Z24 assumed the same of you. She was insistent that you were a Pawn after you didn't respond.",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "...Hang on, on that note, how are we even chatting right now? Weren't the comms down up until just a minute ago?",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Err, in any case, I'm sorry for shooting at you! I'll get in touch with Strasser and tell her not to launch an attack on this place!",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,12 +378,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "However, you should get in touch with those Sakura Empire girls. Simply tell them we're not Pawns.",
 			typewriter = {
 				speed = 0.05,

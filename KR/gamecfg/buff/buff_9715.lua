@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 9715,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
-	id = 9715,
+	color = "red",
 	icon = 9715,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 10000
+				number = 10000,
+				attr = "airPower"
 			}
 		}
 	}

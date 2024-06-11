@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "DOA联动更换BGM",
 	time = 0,
-	color = "red",
+	name = "DOA联动更换BGM",
+	init_effect = "",
+	id = 6730,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6730,
+	color = "red",
 	icon = 6730,
 	last_effect = "",
 	effect_list = {

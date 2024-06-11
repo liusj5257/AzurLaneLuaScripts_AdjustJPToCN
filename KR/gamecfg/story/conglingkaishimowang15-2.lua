@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_176",
+			bgm = "battle-ash-strong",
 			actorName = "광전사 만쥬 슬라임",
 			say = "쥬쥬쥬!",
-			bgm = "battle-ash-strong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2.2,
 					name = "jiulaimu_zhongxun",
+					time = 2.2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -40,9 +40,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_zhongxun",
 					time = 2.6,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -59,9 +59,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "jiulaimu_zhongxun",
 					time = 2.4,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -80,23 +80,23 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "폭발 만쥬 슬라임",
+			side = 2,
 			bgName = "star_level_bg_176",
 			nameColor = "#FF9B93",
 			say = "쥬! 쥬!",
@@ -115,8 +115,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 1.1,
 					name = "jiulaimu_zibao",
+					time = 1.1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -133,9 +133,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_zibao",
 					time = 1.6,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -152,9 +152,9 @@ return {
 					}
 				},
 				{
-					delay = 0.2,
 					name = "jiulaimu_zibao",
 					time = 1.2,
+					delay = 0.2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "마, 마물이 너무 많아! 아무리 쓰러뜨려도 끝이 없어!",
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "나도…",
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "자, 이 포션으로 MP를 회복해! 회복 포션은 아직 남았으니까, 누비안에게 맡겨!",
@@ -324,10 +324,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			bgm = "battle-highseasfleet-reborn",
 			actor = 202084,
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "마물을 교란시키는 연막을 쳐뒀습니다. 이 틈에 회복을…",
 			typewriter = {
@@ -342,23 +342,23 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -366,11 +366,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			side = 2,
+			actor = 202084,
 			actorName = "???",
 			hidePaintObj = true,
 			say = "파티 구성이……",
@@ -384,9 +384,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			actorName = "???",
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			actor = 202084,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "용사에 프리스트가 두 명… 약사, 지휘관, 그리고…",
 			typewriter = {
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			side = 2,
+			actor = 202084,
 			actorName = "???",
 			hidePaintObj = true,
 			say = "왕국군 성녀님 아니신지요?",
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "그냥 소문으로만 존재하는 줄 알았는데…",
 			painting = {
@@ -466,9 +466,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "???",
-			actorName = "???",
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			actor = 202084,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "일부 사람들에게는 허구로 남겨두는 편이 받아들이기 편하기 때문이겠지요.",
 			typewriter = {
@@ -515,11 +515,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "오래된 영토를 버리고, 모험가들을 속여 사지로 몰아넣고, 성벽 속에 숨어 혼자 살아남을 생각만 하는 비겁자가 되신 줄 알았습니다만…",
@@ -533,11 +533,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "왕국군의 전사를 모욕하는 건 용서 못 합니다!",
 			painting = {
@@ -624,11 +624,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아니, 당신이 태어난 후로 한번이라도 행해진 적이 있던가요?",
@@ -679,11 +679,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐? 진짜?!",
@@ -697,11 +697,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇다는 건… 우리는 지금 성녀의 탈주를 숨겨주는 범죄자가 된 거야?!",
@@ -715,11 +715,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "왕국군에게 잡히면… 으으, 이번에야말로 감옥에 처박히는 거 아니야?!",
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "모든 책임은 저 혼자 지겠습니다. 여러분은 절대로 끌어들이지 않을 겁니다.",
 			painting = {
@@ -857,12 +857,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "그건 그렇죠… 설마 거기까지 생각하고 계신 건가요?",
 			painting = {
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -985,11 +985,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이제 회복은 끝나셨는지요?",

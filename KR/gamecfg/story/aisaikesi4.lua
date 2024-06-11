@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"선배와의 앙금\n\n<size=45>VS 엔터프라이즈</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "연습전 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "연습전 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,13 +46,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "이걸로 마지막 승부다! 여기까지 연전연승할 줄이야, 역시 내 자랑스러운 후배구나!",
 			soundeffect = "event:/battle/plane",
+			actor = 107060,
+			nameColor = "#92fc63",
+			say = "이걸로 마지막 승부다! 여기까지 연전연승할 줄이야, 역시 내 자랑스러운 후배구나!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,10 +66,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "선배야말로, 여유가 넘치시네요…!",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
+			actor = 107090,
 			dir = 1,
+			nameColor = "#92fc63",
 			hideOther = true,
 			actorName = "에식스&엔터프라이즈",
 			say = "<size=45>하아아아아아아!!!</size>",
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "오오…분위기 장난 아닌데~~",
 			effects = {
 				{
@@ -183,13 +183,13 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 107090,
+			nameColor = "#92fc63",
 			say = "이건 어떻습니까!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,13 +200,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#92fc63",
+			side = 2,
+			bgName = "bg_story_nepu1",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 107060,
-			nameColor = "#92fc63",
-			bgName = "bg_story_nepu1",
-			side = 2,
-			dir = 1,
 			say = "나쁘지 않군! 하지만 아직 물러!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -249,13 +249,13 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			nameColor = "#92fc63",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "선배의 공격이야말로 전부 예측했다고요! 다음은 제 차례에요!",
 			soundeffect = "event:/battle/boom2",
+			actor = 107090,
+			say = "선배의 공격이야말로 전부 예측했다고요! 다음은 제 차례에요!",
 			flashN = {
 				color = {
 					1,
@@ -298,9 +298,9 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/plane",
-			bgName = "bg_story_nepu1",
 			say = "——！！",
+			bgName = "bg_story_nepu1",
+			soundeffect = "event:/battle/plane",
 			flashN = {
 				color = {
 					1,

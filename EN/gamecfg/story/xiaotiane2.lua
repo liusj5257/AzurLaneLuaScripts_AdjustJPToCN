@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Sea Star on Shore\n\n<size=45>2: An Interrupted Clue</size>",
@@ -19,13 +19,13 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Heheh, at times like this...just leave it to me!",
 			bgm = "story-1",
+			actor = 201110,
+			nameColor = "#a9f548",
+			say = "Heheh, at times like this...just leave it to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,10 +36,10 @@ return {
 			}
 		},
 		{
-			actor = 201101,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201101,
 			dir = 1,
 			hideOther = true,
 			actorName = "Cygnet, Comet, and Crescent",
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "Foxhound...looks like she's ready to bark--",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Foxhound...looks like she's ready to bark--",
+			actor = 201101,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -120,10 +120,10 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201080,
 			dir = 1,
 			hideOther = true,
 			actorName = "Comet and Crescent",
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201110,
+			nameColor = "#a9f548",
 			say = "The scent disappears here...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "This...This place is...",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "This...This place is...",
+			actor = 201101,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

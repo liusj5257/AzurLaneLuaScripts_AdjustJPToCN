@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA42",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA42",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			bgName = "bg_mirror",
-			nameColor = "#ff5c5c",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			actorName = "淨化者",
+			dir = 1,
+			bgmDelay = 1,
+			bgName = "bg_mirror",
 			bgm = "story-5",
 			actor = 900233,
-			actorName = "淨化者",
+			nameColor = "#ff5c5c",
 			say = "來到這裡之後，這種事還是第一次發生，感覺已經緊張起來了……",
 			flashin = {
 				delay = 1,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "……各節點注意，目標即將抵達。",
 			typewriter = {
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "三……二……一……",
 			typewriter = {
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "零。",
 			typewriter = {
@@ -87,11 +87,11 @@ return {
 			}
 		},
 		{
-			actor = 900230,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900230,
 			actorName = "構建者",
 			say = "抵達行為已確認，目標數量三，識別碼均匹配，能量參數已記錄。",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "看來順利成功了呢~",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900219,
 			actorName = "清除者",
 			say = "…哎？這就結束了嗎！我什麼都沒感覺出來啊……！",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 900230,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900230,
 			actorName = "構建者",
 			say = "你想感覺什麼，風暴還是洪水？",
 			typewriter = {
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900219,
 			actorName = "清除者",
 			say = "至少是些差不多的感覺嘛…有壓迫感一些的……",
 			typewriter = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "測試者",
 			say = "仲裁機關與我們分屬不同體系，流程上無需與我們共享情報。不過……",
 			typewriter = {
@@ -271,11 +271,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "測試者",
 			say = "它們的行動都是圍繞「關鍵點G」展開的，應該不會對我們造成干擾吧。",
 			typewriter = {
@@ -306,11 +306,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "你們知道，為什麼零會禁止各個實驗場的觀察者彼此之間交換情報嗎？",
 			typewriter = {
@@ -323,11 +323,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "匯聚於此的變量越來越多，零的目光也緊緊盯著這裡…",
 			typewriter = {
@@ -340,12 +340,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "呵呵呵，也許終於，兩位大人的佈局以及我們長久以來的努力…就快到見證變革的時刻了。",
 			typewriter = {

@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 150
+					number = 150,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 150
+					number = 150,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 180
+					number = 180,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 180
+					number = 180,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 210
+					number = 210,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 210
+					number = 210,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 250
+					number = 250,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 250
+					number = 250,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 280
+					number = 280,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 280
+					number = 280,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 310
+					number = 310,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 310
+					number = 310,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 350
+					number = 350,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 350
+					number = 350,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 390
+					number = 390,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 390
+					number = 390,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 430
+					number = 430,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 430
+					number = 430,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -253,20 +253,20 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 16001,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 16001,
+	color = "red",
 	icon = 16000,
 	last_effect = "",
 	blink = {
@@ -284,8 +284,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 150
+				number = 150,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -295,8 +295,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 150
+				number = 150,
+				attr = "antiAirPower"
 			}
 		}
 	}

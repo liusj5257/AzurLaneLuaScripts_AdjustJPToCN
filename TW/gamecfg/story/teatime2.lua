@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -68,8 +68,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "品嘗抹茶的醍醐味後，會更珍惜其他食物的甜蜜與溫暖喲",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "原來如此，{namecode:13}也要嘗嘗貝爾法斯特泡的紅茶！",
 			typewriter = {
 				speed = 0.05,
@@ -112,13 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			withoutPainting = true,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 1,
+			actor = 205010,
+			actorName = "？？？",
 			say = "等、等等——！",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
 			blackBg = true,
+			say = "此刻的{namecode:11}……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			say = "【北緯34°東經140°】",
 			blackBg = true,
+			say = "【北緯34°東經140°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "一個人果然還是有點……不過——忍者•{namecode:11}即便孤身一人也絕不會放棄！北方聯合，我來了！",
 			typewriter = {
 				speed = 0.05,

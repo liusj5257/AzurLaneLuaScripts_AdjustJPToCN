@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 701080,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "deepblue-image",
 			dir = 1,
 			say = "這裡的感覺和之前完全不一樣……",
+			bgm = "deepblue-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			say = "雖然在海域中的位置相似，但是裝飾、佈局甚至內部空間結構本身都完全不同，我認為這裡並不是之前的控制台所在地。",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			say = "確實有些這樣的感覺，不過屋簷上懸掛的組織標識我完全沒有印象哦。",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "我也沒有在任何地方見過……呵，這個地方真是越有趣了。",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			say = "而且我們現在也很閒……",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "就算是為了盡快搞清現狀找到回去的道路，對這裡進行一下探索也是必要的。",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "不過確實……房間太多了，逐次看過去會消耗大量時間。",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "重點尋找會議室或者檔案室一類的地方怎麼樣？",
 			typewriter = {
 				speed = 0.05,
@@ -222,13 +222,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_cccpv2_8",
+			side = 2,
+			dir = 1,
 			say = "進入房間後，首先映入眼簾的是一個佔據了大半面牆的巨大螢幕。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "塔林",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "摩爾曼斯克",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "摩爾曼斯克",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "摩爾曼斯克",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "摩爾曼斯克",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "摩爾曼斯克",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "摩爾曼斯克",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "摩爾曼斯克",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "摩爾曼斯克",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "摩爾曼斯克",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雷鳴",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雷鳴",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "洪亮",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -557,8 +557,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "摩爾曼斯克",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -573,9 +573,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_8",
+			dir = 1,
 			say = "其實在進入房間之後，我也有一種房間裡還有其他人的奇怪感覺……",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "摩爾曼斯克",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "摩爾曼斯克",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -619,8 +619,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "摩爾曼斯克",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -651,8 +651,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -667,12 +667,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_8",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "現在返回的道路還沒有調查清楚，大家把這幅圖紀錄下來之後繼續向前探索吧。",
 			typewriter = {
 				speed = 0.05,

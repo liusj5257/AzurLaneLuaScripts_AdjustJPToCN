@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_143 = {}
 slot1 = slot0.word_template_143
 
-function temp()
+temp = function()
 	uv0["鲚"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鱭"] = {
 		this = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["加"] = {
 		["分"] = {
 			["器"] = {
@@ -166,7 +166,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["佳"] = {
 		["静"] = {
 			["安"] = {
@@ -194,7 +194,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["葭"] = {
 		this = {
 			this = true
@@ -204,7 +204,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嘉"] = {
 		["门"] = {
 			["洋"] = {
@@ -218,7 +218,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["夹"] = {
 		["吸"] = {
 			["器"] = {

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "雷击指挥·驱逐舰",
 	cd = 0,
+	picture = "0",
+	desc = "提高舰队中所有驱逐舰的雷击属性",
 	painting = 1,
 	id = 1011,
-	picture = "0",
 	castCV = "skill",
-	desc = "提高舰队中所有驱逐舰的雷击属性",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipType"

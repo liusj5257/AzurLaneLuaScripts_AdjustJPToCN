@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "敌方指挥舰——护盾",
 	time = 0,
-	color = "yellow",
+	name = "敌方指挥舰——护盾",
+	init_effect = "",
+	id = 50410,
 	picture = "",
 	desc = "队友护盾",
 	stack = 1,
-	id = 50410,
+	color = "yellow",
 	icon = 50410,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 2,
-				skill_id = 50410
+				skill_id = 50410,
+				time = 2
 			}
 		}
 	}

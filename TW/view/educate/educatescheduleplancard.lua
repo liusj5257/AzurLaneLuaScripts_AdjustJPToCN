@@ -24,7 +24,7 @@ slot4 = {
 	y = 110
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
@@ -75,7 +75,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.char = getProxy(EducateProxy):GetCharData()
 end
 
-function slot0.updateLimitItem(slot0, slot1, slot2)
+slot0.updateLimitItem = function(slot0, slot1, slot2)
 	slot3 = slot0.limitCfg[slot1 + 1]
 	slot4 = slot3[2]
 
@@ -89,7 +89,7 @@ function slot0.updateLimitItem(slot0, slot1, slot2)
 	setTextColor(findTF(slot2, "name"), Color.NewHex(slot5))
 end
 
-function slot0.updateCostItem(slot0, slot1, slot2)
+slot0.updateCostItem = function(slot0, slot1, slot2)
 	slot3 = slot0.costCfg[slot1 + 1]
 
 	LoadImageSpriteAtlasAsync("ui/educatecommonui_atlas", "res_" .. slot3.id, findTF(slot2, "icon"), true)
@@ -97,7 +97,7 @@ function slot0.updateCostItem(slot0, slot1, slot2)
 	setText(findTF(slot2, "name"), pg.child_resource[slot3.id].name)
 end
 
-function slot0.updateAwardItem(slot0, slot1, slot2)
+slot0.updateAwardItem = function(slot0, slot1, slot2)
 	slot3 = slot0.awardCfg[slot1 + 1]
 
 	EducateHelper.UpdateDropShowForAttr(slot2, {
@@ -107,7 +107,7 @@ function slot0.updateAwardItem(slot0, slot1, slot2)
 	})
 end
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	setActive(slot0.selectedTF, slot1.id == slot2)
 	GetImageSpriteFromAtlasAsync("ui/educatescheduleui_atlas", slot1:GetIconBgName(), slot0.iconBgTF, true)
 	LoadImageSpriteAsync("educateprops/" .. slot1:getConfig("icon"), slot0.iconTF, true)
@@ -194,14 +194,14 @@ function slot0.update(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.setAwardParam(slot0, slot1)
+slot0.setAwardParam = function(slot0, slot1)
 	setSizeDelta(slot0.awardTF, slot1.size)
 
 	slot0.awardLayouCom.spacing = slot1.spacing
 	slot0.awardLayouCom.padding.top = slot1.top
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

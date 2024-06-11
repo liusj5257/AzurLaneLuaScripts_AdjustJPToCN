@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "You may assemble a Support Fleet to sortie to this stage!",
 				mode = 1,
-				posY = 214,
 				dir = 1,
+				posY = 214,
 				posX = 433
 			}
 		},
@@ -16,14 +16,14 @@ return {
 			style = {
 				text = "Tap the \"Support\" slot to configure this fleet.",
 				mode = 1,
-				posY = 3,
 				dir = 1,
+				posY = 3,
 				posX = 197
 			},
 			ui = {
 				path = "/OverlayCamera/Overlay/UIMain/LevelFleetSelectView(Clone)/panel/ShipList/support/1/support/emptytpl(Clone)",
 				triggerType = {
-					3
+					8
 				}
 			}
 		},
@@ -32,13 +32,13 @@ return {
 			style = {
 				text = "Now, choose a ship to add to this fleet!",
 				mode = 1,
-				posY = 289.2,
 				dir = -1,
+				posY = 289.2,
 				posX = -13.7
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
-				pathIndex = 0
+				pathIndex = 0,
+				path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships"
 			}
 		},
 		{
@@ -46,8 +46,8 @@ return {
 			style = {
 				text = "Confirm",
 				mode = 1,
-				posY = -134,
 				dir = 1,
+				posY = -134,
 				posX = 403
 			},
 			ui = {
@@ -59,8 +59,8 @@ return {
 			style = {
 				text = "Tap the Help button (?) to see more information about special mechanisms in effect on this map!",
 				mode = 1,
-				posY = 93.5,
 				dir = 1,
+				posY = 93.5,
 				posX = -408.7
 			},
 			ui = {

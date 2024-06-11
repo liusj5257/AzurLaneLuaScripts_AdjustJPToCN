@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU10",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "level02",
 			say = "A summary of the confrontation between Bulldog and U-110...",
+			dir = 1,
+			bgm = "level02",
 			effects = {
 				{
 					active = true,
@@ -42,10 +42,10 @@ return {
 			}
 		},
 		{
-			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 900201,
 			say = "\"Do you wanna live?\"",
 			effects = {
 				{
@@ -63,10 +63,10 @@ return {
 			}
 		},
 		{
-			actor = 408080,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 408080,
 			say = "(Plays dead.)",
 			effects = {
 				{
@@ -84,10 +84,10 @@ return {
 			}
 		},
 		{
-			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 900201,
 			say = "(It doesn't seem this will work... Umm, let's try...)",
 			effects = {
 				{
@@ -122,13 +122,13 @@ return {
 		{
 			actor = 408080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "......！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -151,10 +151,10 @@ return {
 			}
 		},
 		{
-			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 900201,
 			say = "\"If you wanna save her, hand over your treasure.\"",
 			effects = {
 				{
@@ -187,10 +187,10 @@ return {
 			}
 		},
 		{
-			actor = 408080,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 408080,
 			say = "............",
 			effects = {
 				{
@@ -268,10 +268,10 @@ return {
 			}
 		},
 		{
-			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 900201,
 			say = "Oh, look, she actually dropped it.",
 			effects = {
 				{
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Thus went Bulldog's after-action report.",
 			effects = {
 				{

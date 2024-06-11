@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900357,
 			nameColor = "#696969",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
 			side = 2,
-			say = "「▅■リー▆▅」",
+			bgName = "star_level_bg_504",
 			bgm = "story-thehierophantV",
+			actor = 900357,
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "「▅■リー▆▅」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "突然、頭の中に感情のない、機械音声のような女性の声がした。",
@@ -35,10 +35,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今のは……一体……？",
 			painting = {
 				alpha = 0.3,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こっちも…！指揮官、どうやら全員影響を受けているわ……！",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "声が聞こえたと同時に、海域にいるすべての仲間たちが一斉に何かの影響を受けた。",
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "コトダマのような……汝も声が聞こえた……？",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "体は普段通り動かせる。どうやらこっちには特に影響がないらしい。",
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "信濃の様子を察するに、彼女もほぼ影響を受けていないようだ。",
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "この指揮艦には影響を及ぼしていないのか…？",
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "これは一体……艦船にも影響の差異が…",
 			painting = {
@@ -272,10 +272,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わたしはほぼ平気よ。ま、まあ手足がちょっと重い程度ね",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オーディン、戦闘可能だ。コンディションへの影響はほぼない",
 			painting = {
 				alpha = 0.3,
@@ -308,10 +308,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "量産艦隊も…っ…影響が少ないです！戦闘は…可能…！",
 			painting = {
 				alpha = 0.3,
@@ -323,8 +323,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "特別計画艦と量産艦はあまり影響を受けていなく、そして「META」には重い影響のようだ…",
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "この指揮艦にいる仲間たちの中では、信濃のみ影響を受けていないようだ。",
@@ -424,10 +424,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "撤退って……飛龍、ここにきて逃げようというの…！？",
 			painting = {
 				alpha = 0.3,
@@ -515,8 +515,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "あまり影響を受けていない子がいるのは幸運ね……",
 			painting = {
@@ -532,8 +532,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "ガスコーニュ、心象空間に強制接続して！！",
 			painting = {
@@ -546,19 +546,19 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			stopbgm = true,
 			dialogueBgAlpha = 0.6,
-			say = "気がつけば、黒い太陽の「空間」に思考が移されたようだ。",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "気がつけば、黒い太陽の「空間」に思考が移されたようだ。",
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			typewriter = {
@@ -566,17 +566,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 905020,
-			side = 2,
 			dialogueBgAlpha = 0.6,
+			side = 2,
 			bgName = "bg_firedust_5",
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "ええ。そうよ。もっとも、制御するのは難しいけどね",
 			painting = {
@@ -770,13 +770,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "戦闘開始から「ハイエロファント」が初めて動いた。",
 			bgm = "battle-thehierophantV",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "戦闘開始から「ハイエロファント」が初めて動いた。",
 			effects = {
 				{
 					active = false,
@@ -788,17 +788,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -806,8 +806,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "手に持っている笏杖と思わしき装備を高く掲げてから振り下ろし――",
@@ -817,8 +817,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "――――――――――",
@@ -828,8 +828,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "黒い太陽の光景がガラスのように砕け散り、世界は再び「ハイエロファント」の支配下に戻った。",
@@ -842,8 +842,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "「審判」の概念を象徴する燃ゆる太陽が…効かない？！",
 			painting = {
@@ -859,8 +859,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "出力を上げたから接続が不安定になった？それともアビータの力はそれ以上に強いの…？",
 			painting = {
@@ -895,10 +895,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "あのボディはスペアボディではなく、間違いなく「ハイエロファント」の本体よ！",
 			painting = {
 				alpha = 0.3,
@@ -932,10 +932,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "木っ端微塵にされるか、運が悪ければ「概念」すら消滅させられるわよ…！",
 			painting = {
 				alpha = 0.3,
@@ -950,10 +950,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9707010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "そう言われても……この体じゃ…まともに避けるなんて…！",
 			painting = {
 				alpha = 0.3,
@@ -987,10 +987,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "さっきの束縛は今ので緩くなっているはずよ！皆が回復するまで時間を稼いで！",
 			painting = {
 				alpha = 0.3,

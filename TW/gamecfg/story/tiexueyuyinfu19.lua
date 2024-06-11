@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIEXUEYUYINFU19",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 408040,
 			side = 2,
-			nameColor = "#ffde38",
-			say = "距離訊號源越來越近了…這些殘骸難道是？",
 			dir = 1,
 			blackBg = true,
 			bgm = "echo-loop",
+			actor = 408040,
+			nameColor = "#ffde38",
+			say = "距離訊號源越來越近了…這些殘骸難道是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,10 +26,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "不好，果然是俾斯麥姐姐遭遇了危機！！",
 			typewriter = {
 				speed = 0.05,
@@ -59,10 +59,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "啊啊啊啊——！",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -86,10 +86,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "等著我，俾斯麥姐姐！",
 			typewriter = {
 				speed = 0.05,
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "等著我，我一定會守護妳的！！",
 			typewriter = {
 				speed = 0.05,
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_bsm_6",
+			stopbgm = true,
+			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

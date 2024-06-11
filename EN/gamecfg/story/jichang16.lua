@@ -1,18 +1,18 @@
 return {
-	id = "JICHANG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "song09",
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "High Muse System power output confirmed. Advancing to next ordnance test phase.",
-			bgm = "song09",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "Meh. You're only half as strong as Verheerender, and that's being generous.",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701050,
 			dir = 1,
+			actor = 701050,
 			say = "I see. Well, we just went easy on you! Wouldn't wanna rock you into the next dimension, you know!",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701050,
 			dir = 1,
+			actor = 701050,
 			say = "(Yeah, that's a good quip. That should ease our dear comrade's mind...)",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Attention: emotion inhibition module deactivated.",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "I will sing with as much feeling as possible! For Master's sake!",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			say = "Now this is more like it! No holds barred, let's go!",
 			typewriter = {
 				speed = 0.05,

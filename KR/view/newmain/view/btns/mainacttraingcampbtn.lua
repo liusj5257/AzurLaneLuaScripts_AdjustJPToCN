@@ -1,18 +1,18 @@
 slot0 = class("MainActTraingCampBtn", import(".MainBaseSpcailActBtn"))
 
-function slot0.InShowTime(slot0)
+slot0.InShowTime = function(slot0)
 	return TrainingCampScene.isNormalActOn() or TrainingCampScene.isTecActOn()
 end
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "MainUIRecruitBtn"
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot0.event:emit(NewMainMediator.GO_SCENE, SCENE.TRAININGCAMP)
 end
 
-function slot0.OnRegister(slot0)
+slot0.OnRegister = function(slot0)
 	slot0.redDot = EffectRedDotNode.New(slot0._tf, {
 		pg.RedDotMgr.TYPES.ACT_NEWBIE
 	})
@@ -20,7 +20,7 @@ function slot0.OnRegister(slot0)
 	pg.redDotHelper:AddNode(slot0.redDot)
 end
 
-function slot0.OnClear(slot0)
+slot0.OnClear = function(slot0)
 	if slot0.redDot then
 		pg.redDotHelper:RemoveNode(slot0.redDot)
 	end

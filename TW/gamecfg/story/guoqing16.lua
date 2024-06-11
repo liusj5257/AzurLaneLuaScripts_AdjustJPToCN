@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
+			soundeffect = "event:/battle/boom2",
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "……{namecode:95}…{namecode:95}姐？",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 0.3,
 				alpha = {
@@ -100,19 +100,19 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
-			nameColor = "#a9f548",
-			actorName = "{namecode:95}",
 			say = "…約定……守護…………永遠…",
+			nameColor = "#a9f548",
+			actor = 307050,
+			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "？！棋子居然……？",
 			shake = {
 				speed = 1,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "呵呵呵，製造出的棋子居然會在這時候選擇為“妹妹”挺身而出嗎。",
 			shake = {
 				speed = 1,
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "（只是製造出的棋子，竟然會為了妹妹.....）",
 			shake = {
 				speed = 1,
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "這…這就是所謂的覺醒反應嗎…只要在合適的地點激發出心底最重要的一段類似的經歷就…",
 			shake = {
 				speed = 1,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "{namecode:92}、先撤退，如果有棋子出現“覺醒”的反應，按照和神明的約定應當作為最高優先級日誌上報",
 			shake = {
 				speed = 1,
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "瞭解",
 			shake = {
 				speed = 1,

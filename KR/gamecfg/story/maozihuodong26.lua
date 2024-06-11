@@ -1,18 +1,18 @@
 return {
-	id = "MAOZIHUODONG26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "앙심을 품은 자, 음흉한 자, 그리고… 무지한 자!",
 			bgm = "xinnong-2",
+			nameColor = "#ff5c5c",
+			say = "앙심을 품은 자, 음흉한 자, 그리고… 무지한 자!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "…시끄러.",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "이건 뭐야? 새로운 소음 공격? 자신 있으면 나와서 타슈켄트와 붙어보자고.",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "역시 타슈켄트, 대단해.",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "숨어있지 말고 나와라. 세이렌!",
 			typewriter = {
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_cccp_7",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "으으으으…… 두고 봐라!",
 			dialogShake = {
 				speed = 0.09,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "쿠르르르릉--------",
 			dialogShake = {
 				speed = 0.09,
@@ -203,8 +203,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "와아아아! 이건 또 뭐야?",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "통신기가 조용해짐과 동시에 거대한 소리가 울려퍼지고 얼음으로 만들어진 벽이 변하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "부숴지고, 다시 만들어지고. 작게 분열한 빙벽은 서로 다른 궤적을 그리며 수면에서 빠르게 움직이고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -255,9 +255,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "결국 바다를 둥그렇게 감싼 얼음은 하나의 결투장과 같은 모습을 하게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오미터",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "거센 바람과 함께 그림자 하나가 바다에 모습을 드러냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "민스크",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "강구트",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그로즈니",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아브로라",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오미터",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오미터",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "오미터",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -446,8 +446,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "…아 그래. 볼품 없는 꼬마일 뿐이잖아. 뭐가 무섭다고.",
 			typewriter = {
 				speed = 0.05,
@@ -489,10 +489,10 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "너희들! 아까부터 분위기를 망치기나 하고오오오오오!!!!!!!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -509,8 +509,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -537,8 +537,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "전원, 전투 준비!",
 			typewriter = {
 				speed = 0.05,

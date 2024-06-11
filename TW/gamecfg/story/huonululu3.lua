@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"有關火奴魯魯的二三事\n\n<size=45>三　火奴魯魯不好相處？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "和火奴魯魯、利安得來到了附近的小店。",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "和火奴魯魯、利安得來到了附近的小店。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 202010,
+			say = "哪裡哪裡，妳能來才是我的榮幸呢。",
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哪裡哪裡，妳能來才是我的榮幸呢。",
+			actor = 202010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "……但是指揮官你為什麼又在這裡？",
 			typewriter = {
 				speed = 0.05,
@@ -168,9 +168,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "火奴魯魯把頭別到一邊去，不過看起來並沒有真的生氣。",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "於是開始了愉快的下午茶時間",
 			typewriter = {
 				speed = 0.05,
@@ -204,15 +204,15 @@ return {
 			}
 		},
 		{
-			actor = 202010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202010,
+			nameColor = "#a9f548",
 			say = "不過，感覺火奴魯魯妳平時不大與人來往呢？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,12 +277,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			say = "漂、漂亮，我嗎？",
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "漂、漂亮，我嗎？",
+			actor = 102120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "被這麼直接地讚美，一直都是逆來順受的火奴魯魯反而有些窘迫了起來。",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "果然，讓火奴魯魯和利安得交朋友是對的。",
 			typewriter = {
 				speed = 0.05,

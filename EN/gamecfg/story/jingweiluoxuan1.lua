@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			stopbgm = true,
+			hidePaintObj = true,
 			say = "Following my stay with the Northern Parliament and an expedition to a Siren research facility, I rejoined the Eagle Union's forces and prepared for our next move.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
@@ -110,8 +110,8 @@ return {
 			hidePaintObj = true,
 			say = "Commander, the fleet is approaching PH Harbor. No anomalies detected in the vicinity.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,10 +139,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Nothing abnormal underwater either~",
 			typewriter = {
 				speed = 0.05,
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wonder if there are any hotties around here~ Being submerged all the time has been such a drag~",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander, when's the last time we've made such a long journey?",
 			typewriter = {
 				speed = 0.05,
@@ -217,10 +217,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I was hoping you'd choose a nice vacation getaway for the two of us~",
 			typewriter = {
 				speed = 0.05,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "After all, we've all been working so hard~",
 			typewriter = {
 				speed = 0.05,
@@ -252,10 +252,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But no, a certain workaholic decided to sail straight across to the other side of the world... Not hot.",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -467,13 +467,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "And naturally, a serious and responsible person... wouldn't ever walk back a promise, right?",
 			typewriter = {
 				speed = 0.05,
@@ -520,13 +520,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yeah, yeah, that much I know.",
 			typewriter = {
 				speed = 0.05,
@@ -576,13 +576,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Besides, you're a total hottie when you get all serious and responsible. All of us have nothing but respect for you~",
 			typewriter = {
 				speed = 0.05,
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -712,13 +712,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yeah, \"our\"! Sisters gotta stick together, so of course we're gonna find the best grub around tonight!",
 			typewriter = {
 				speed = 0.05,
@@ -830,16 +830,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#a9f548",
 			actorName = "Communicator",
+			hidePaintObj = true,
 			say = "\"ID authentication complete. You are now authorized to enter the sea sector ahead of you.\"",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -864,12 +864,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "\"As this is a military port, please proceed along the designated approach route and do not stop or stray from it.\"",
 			typewriter = {
 				speed = 0.05,
@@ -881,12 +881,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "\"Welcome to PH Harbor.\"",
 			typewriter = {
 				speed = 0.05,
@@ -898,8 +898,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=38>\"The helix is a stable structure born from natural selection.\"</size>",
@@ -932,12 +932,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

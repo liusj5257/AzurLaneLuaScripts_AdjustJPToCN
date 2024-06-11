@@ -1,15 +1,15 @@
 return {
-	id = "WORLD105A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-richang",
 			say = "NA海域北西。セイレーン作戦の第一作戦海域はユニオン艦隊と共に行動することにした。",
+			side = 2,
+			dir = 1,
+			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

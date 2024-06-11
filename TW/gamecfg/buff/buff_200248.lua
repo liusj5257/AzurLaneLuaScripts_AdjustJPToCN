@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动D2 第五类威胁-弱 无差别攻击弹幕",
 	time = 0,
-	color = "yellow",
+	name = "2022美系活动D2 第五类威胁-弱 无差别攻击弹幕",
+	init_effect = "",
+	id = 200248,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200248,
+	color = "yellow",
 	icon = 200248,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200248,
 				time = 20,
-				target = "TargetSelf",
-				skill_id = 200248
+				target = "TargetSelf"
 			}
 		}
 	}

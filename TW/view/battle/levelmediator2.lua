@@ -52,7 +52,7 @@ slot0.SHOW_ATELIER_BUFF = "LevelMediator2:SHOW_ATELIER_BUFF"
 slot0.ON_SPITEM_CHANGED = "LevelMediator2:ON_SPITEM_CHANGED"
 slot0.ON_BOSSSINGLE_MAP = "LevelMediator2:ON_BOSSSINGLE_MAP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
 			chapterId = slot1,
@@ -251,9 +251,9 @@ function slot0.register(slot0)
 		slot12, slot13, slot14 = uv0:getDockCallbackFuncs(slot5, slot4, slot6, slot3)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			useBlackBlock = true,
 			selectedMin = 0,
+			useBlackBlock = true,
+			selectedMax = 1,
 			energyDisplay = true,
 			ignoredIds = slot10,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
@@ -294,9 +294,9 @@ function slot0.register(slot0)
 		slot11, slot12, slot13 = uv0:getSupportDockCallbackFuncs(slot4, slot3, slot5)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			useBlackBlock = true,
 			selectedMin = 0,
+			useBlackBlock = true,
+			selectedMax = 1,
 			energyDisplay = true,
 			ignoredIds = slot9,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
@@ -575,7 +575,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setSpecialOperationTickets(getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET))
 end
 
-function slot0.DidEnterLevelMainUI(slot0, slot1)
+slot0.DidEnterLevelMainUI = function(slot0, slot1)
 	slot0.viewComponent:setMap(slot1)
 
 	if slot0.contextData.chapterVO and slot2.active then
@@ -617,7 +617,7 @@ function slot0.DidEnterLevelMainUI(slot0, slot1)
 	end
 end
 
-function slot0.RegisterTrackEvent(slot0)
+slot0.RegisterTrackEvent = function(slot0)
 	slot0:bind(uv0.ON_TRACKING, function (slot0, slot1, slot2, slot3, slot4, slot5)
 		slot6 = getProxy(ChapterProxy):getChapterById(slot1, true)
 
@@ -651,15 +651,15 @@ function slot0.RegisterTrackEvent(slot0)
 	end)
 end
 
-function slot0.NoticeVoteBook(slot0, slot1)
+slot0.NoticeVoteBook = function(slot0, slot1)
 	slot1()
 end
 
-function slot0.TryPlaySubGuide(slot0)
+slot0.TryPlaySubGuide = function(slot0)
 	slot0.viewComponent:tryPlaySubGuide()
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ChapterProxy.CHAPTER_UPDATED,
 		ChapterProxy.CHAPTER_TIMESUP,
@@ -698,7 +698,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
@@ -1180,7 +1180,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
+slot0.OnExitChapter = function(slot0, slot1, slot2, slot3)
 	assert(slot1)
 	seriesAsync({
 		function (slot0)
@@ -1403,7 +1403,7 @@ function slot0.OnExitChapter(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.DisplayContinuousWindow(slot0, slot1, slot2, slot3, slot4)
+slot0.DisplayContinuousWindow = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:getConfig("oil")
 	slot7 = 0
 	slot8 = 0
@@ -1478,7 +1478,7 @@ function slot0.DisplayContinuousWindow(slot0, slot1, slot2, slot3, slot4)
 	}))
 end
 
-function slot0.DisplayContinuousOperationResult(slot0, slot1, slot2)
+slot0.DisplayContinuousOperationResult = function(slot0, slot1, slot2)
 	slot0:addSubLayers(Context.New({
 		viewComponent = LevelContinuousOperationTotalRewardPanel,
 		mediator = LevelStageTotalRewardPanelMediator,
@@ -1496,7 +1496,7 @@ function slot0.DisplayContinuousOperationResult(slot0, slot1, slot2)
 	}), true)
 end
 
-function slot0.OnEventUpdate(slot0, slot1)
+slot0.OnEventUpdate = function(slot0, slot1)
 	slot0.viewComponent:updateEvent(getProxy(EventProxy))
 
 	if pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "EventMediator") and slot2.eventForMsg then
@@ -1522,9 +1522,9 @@ function slot0.OnEventUpdate(slot0, slot1)
 	end
 end
 
-function slot0.onTimeUp(slot0)
+slot0.onTimeUp = function(slot0)
 	if getProxy(ChapterProxy):getActiveChapter() and not slot2:inWartime() then
-		function slot3()
+		slot3 = function()
 			uv0:sendNotification(GAME.CHAPTER_OP, {
 				type = ChapterConst.OpRetreat
 			})
@@ -1545,7 +1545,7 @@ function slot0.onTimeUp(slot0)
 	end
 end
 
-function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
+slot0.getDockCallbackFuncs = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(ChapterProxy)
 
 	return function (slot0, slot1)
@@ -1586,7 +1586,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.getSupportDockCallbackFuncs(slot0, slot1, slot2, slot3)
+slot0.getSupportDockCallbackFuncs = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(ChapterProxy)
 
 	return function (slot0, slot1)
@@ -1625,7 +1625,7 @@ function slot0.getSupportDockCallbackFuncs(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.playAIActions(slot0, slot1, slot2, slot3)
+slot0.playAIActions = function(slot0, slot1, slot2, slot3)
 	if not slot0.viewComponent.grid then
 		slot3()
 
@@ -1704,12 +1704,12 @@ function slot0.playAIActions(slot0, slot1, slot2, slot3)
 	end)()
 end
 
-function slot0.saveSubState(slot0, slot1)
+slot0.saveSubState = function(slot0, slot1)
 	PlayerPrefs.SetInt("chapter_submarine_ai_type_" .. getProxy(PlayerProxy):getRawData().id, slot1 + 1)
 	PlayerPrefs.Save()
 end
 
-function slot0.loadSubState(slot0, slot1)
+slot0.loadSubState = function(slot0, slot1)
 	if math.clamp(PlayerPrefs.GetInt("chapter_submarine_ai_type_" .. getProxy(PlayerProxy):getRawData().id, 1) - 1, 0, 1) ~= slot1 then
 		slot0.viewComponent:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpSubState,
@@ -1718,7 +1718,7 @@ function slot0.loadSubState(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	slot0:removeSubLayers(LevelContinuousOperationWindowMediator)
 	uv0.super.remove(slot0)
 end

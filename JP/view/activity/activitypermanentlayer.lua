@@ -1,14 +1,14 @@
 slot0 = class("ActivityPermanentLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivitySelectUI"
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:closeView()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.rtMsgbox) then
 		slot0:hideMsgbox()
 	else
@@ -16,7 +16,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0._tf
 	slot0.bg = slot1:Find("bg_back")
 
@@ -101,7 +101,7 @@ function slot0.init(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0.itemList:align(#slot0.ids)
 
@@ -118,7 +118,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if isActive(slot0.rtMsgbox) then
 		slot0:hideMsgbox()
 	end
@@ -132,7 +132,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.setActivitys(slot0, slot1)
+slot0.setActivitys = function(slot0, slot1)
 	slot0.ids = slot1
 	slot2 = getProxy(ActivityPermanentProxy)
 
@@ -145,11 +145,11 @@ function slot0.setActivitys(slot0, slot1)
 	end)
 end
 
-function slot0.doFinishAnim(slot0, slot1)
+slot0.doFinishAnim = function(slot0, slot1)
 	slot0.ltId = LeanTween.alphaCanvas(GetOrAddComponent(slot1:Find("finish"), typeof(CanvasGroup)), 1, 1).uniqueId
 end
 
-function slot0.showMsgbox(slot0, slot1)
+slot0.showMsgbox = function(slot0, slot1)
 	setText(slot0.rtMsgbox:Find("window/button_container/custom_button_1/pic"), i18n("msgbox_text_confirm"))
 	setText(slot0.rtMsgbox:Find("window/button_container/custom_button_2/pic"), i18n("msgbox_text_cancel"))
 	setText(slot0.rtMsgbox:Find("window/top/bg/infomation/title"), i18n("words_information"))
@@ -163,7 +163,7 @@ function slot0.showMsgbox(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.rtMsgbox)
 end
 
-function slot0.hideMsgbox(slot0)
+slot0.hideMsgbox = function(slot0)
 	setActive(slot0.rtMsgbox, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtMsgbox)
 end

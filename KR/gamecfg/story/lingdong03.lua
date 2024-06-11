@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG03",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG03",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -22,15 +22,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,

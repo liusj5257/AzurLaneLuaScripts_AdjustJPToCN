@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"빛나는 아이리스\n\n<size=45>속마음</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "잡담할 겸 순찰을 계속했다.",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "잡담할 겸 순찰을 계속했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -206,9 +206,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "트리옹팡은 슬픈 듯 고개를 숙였다.",
 			typewriter = {
 				speed = 0.05,

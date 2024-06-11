@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 20,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 17062,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17062,
+	color = "red",
 	icon = 17060,
 	last_effect = "",
 	effect_list = {
@@ -50,8 +50,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17064,
-				minTargetNumber = 1,
 				target = "TargetSelf",
+				minTargetNumber = 1,
 				check_target = {
 					"TargetSelf",
 					"TargetPlayerVanguardFleet"
@@ -65,8 +65,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17065,
-				minTargetNumber = 1,
 				target = "TargetSelf",
+				minTargetNumber = 1,
 				check_target = {
 					"TargetSelf",
 					"TargetPlayerMainFleet"

@@ -1,11 +1,11 @@
 slot0 = class("BeatMonsterController")
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.mediator = BeatMonsterMeidator.New(slot0)
 	slot0.model = BeatMonsterModel.New(slot0)
 end
 
-function slot0.SetUp(slot0, slot1, slot2)
+slot0.SetUp = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			uv0.OnDisenabelUIEvent = uv1
@@ -33,13 +33,13 @@ function slot0.SetUp(slot0, slot1, slot2)
 	})
 end
 
-function slot0.NetData(slot0, slot1)
+slot0.NetData = function(slot0, slot1)
 	slot0.model:UpdateData(slot1)
 	slot0.mediator:OnMonsterHpUpdate(slot0.model.mosterNian.hp)
 	slot0.mediator:OnAttackCntUpdate(slot0.model.attackCnt, slot0.isFake or slot0.model.mosterNian.hp <= 0)
 end
 
-function slot0.InitStage(slot0, slot1)
+slot0.InitStage = function(slot0, slot1)
 	slot0.model:AddMonsterNian(slot1.hp, slot1.maxHp)
 	slot0.model:AddFuShun()
 
@@ -52,7 +52,7 @@ function slot0.InitStage(slot0, slot1)
 	slot0.model:SetStorys(slot1.storys)
 end
 
-function slot0.Input(slot0, slot1)
+slot0.Input = function(slot0, slot1)
 	if slot0.isOnAction then
 		return
 	end
@@ -82,7 +82,7 @@ function slot0.Input(slot0, slot1)
 	slot0.inputTimer:Start()
 end
 
-function slot0.StartAction(slot0, slot1, slot2)
+slot0.StartAction = function(slot0, slot1, slot2)
 	slot0:RemoveAnimationTimer()
 
 	slot3 = nil
@@ -134,7 +134,7 @@ function slot0.StartAction(slot0, slot1, slot2)
 	})
 end
 
-function slot0.SendRequestToServer(slot0, slot1)
+slot0.SendRequestToServer = function(slot0, slot1)
 	if slot0.isFake then
 		slot0:NetData({
 			hp = slot0.model:RandomDamage(),
@@ -152,12 +152,12 @@ function slot0.SendRequestToServer(slot0, slot1)
 	end
 end
 
-function slot0.UpdateActionStr(slot0, slot1)
+slot0.UpdateActionStr = function(slot0, slot1)
 	slot0.model:UpdateActionStr(slot1)
 	slot0.mediator:OnInputChange(slot0.model:GetActionStr())
 end
 
-function slot0.RemoveInputTimer(slot0)
+slot0.RemoveInputTimer = function(slot0)
 	if slot0.inputTimer then
 		slot0.inputTimer:Stop()
 
@@ -165,7 +165,7 @@ function slot0.RemoveInputTimer(slot0)
 	end
 end
 
-function slot0.RemoveAnimationTimer(slot0)
+slot0.RemoveAnimationTimer = function(slot0)
 	if slot0.animationTimer then
 		slot0.animationTimer:Stop()
 
@@ -173,19 +173,19 @@ function slot0.RemoveAnimationTimer(slot0)
 	end
 end
 
-function slot0.ReStartGame(slot0)
+slot0.ReStartGame = function(slot0)
 	slot0.isFake = true
 
 	slot0:NetData({
-		hp = 10,
 		leftCount = 10,
+		hp = 10,
 		maxHp = 10,
 		storys = {}
 	})
 	slot0.mediator:OnUIHpUpdate(10, 10)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:RemoveAnimationTimer()
 	slot0:RemoveInputTimer()
 	slot0.mediator:Dispose()

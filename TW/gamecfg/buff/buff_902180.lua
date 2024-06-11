@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "精准狩猎",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 902180,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902180,
+	color = "yellow",
 	icon = 902180,
 	last_effect = "",
 	blink = {
@@ -33,9 +33,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				skill_id = 902180,
 				killer = "self",
 				target = "TargetSelf",
-				skill_id = 902180,
 				time = 1
 			}
 		}

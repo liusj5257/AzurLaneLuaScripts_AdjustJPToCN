@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "偶像大师联动 fever 增伤BUFF",
 	time = 0,
-	color = "blue",
+	name = "偶像大师联动 fever 增伤BUFF",
+	init_effect = "",
+	id = 8768,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8768,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.05
+				number = 0.05,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

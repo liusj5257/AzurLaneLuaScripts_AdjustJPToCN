@@ -1,12 +1,12 @@
 return {
-	icon = 600003,
 	name = "",
 	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 600003,
-	picture = "",
+	icon = 600003,
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				quota = 3,
-				target = "TargetSelf",
-				skill_id = 600002
+				skill_id = 600002,
+				target = "TargetSelf"
 			}
 		}
 	}

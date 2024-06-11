@@ -1,6 +1,6 @@
 slot0 = class("ActivityBossSceneTemplate", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	error("Need Complete")
 end
 
@@ -8,7 +8,7 @@ slot0.optionsPath = {
 	"adapt/top/option"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.mainTF = slot0:findTF("adapt")
 	slot0.bg = slot0:findTF("bg")
 	slot0.bottom = slot0:findTF("bottom", slot0.mainTF)
@@ -75,7 +75,7 @@ function slot0.init(slot0)
 	slot0:buildCommanderPanel()
 end
 
-function slot0.GetBonusWindow(slot0)
+slot0.GetBonusWindow = function(slot0)
 	if not slot0.bonusWindow then
 		slot0.bonusWindow = ActivityBossPtAwardSubPanel.New(slot0)
 
@@ -85,7 +85,7 @@ function slot0.GetBonusWindow(slot0)
 	return slot0.bonusWindow
 end
 
-function slot0.DestroyBonusWindow(slot0)
+slot0.DestroyBonusWindow = function(slot0)
 	if slot0.bonusWindow then
 		slot0.bonusWindow:Destroy()
 
@@ -93,7 +93,7 @@ function slot0.DestroyBonusWindow(slot0)
 	end
 end
 
-function slot0.GetFleetEditPanel(slot0)
+slot0.GetFleetEditPanel = function(slot0)
 	if not slot0.fleetEditPanel then
 		slot0.fleetEditPanel = ActivityBossBattleFleetSelectSubPanel.New(slot0)
 
@@ -103,7 +103,7 @@ function slot0.GetFleetEditPanel(slot0)
 	return slot0.fleetEditPanel
 end
 
-function slot0.DestroyFleetEditPanel(slot0)
+slot0.DestroyFleetEditPanel = function(slot0)
 	if slot0.fleetEditPanel then
 		slot0.fleetEditPanel:Destroy()
 
@@ -111,7 +111,7 @@ function slot0.DestroyFleetEditPanel(slot0)
 	end
 end
 
-function slot0.EnterAnim(slot0)
+slot0.EnterAnim = function(slot0)
 	setActive(slot0.top, true)
 	setActive(slot0.left, true)
 	setActive(slot0.right, true)
@@ -119,12 +119,12 @@ function slot0.EnterAnim(slot0)
 	slot0.mainTF:GetComponent("Animation"):Play("Enter_Animation")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.awardBtn, function ()
 		uv0:ShowAwards()
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_boss_help.tip
@@ -207,12 +207,12 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0:UpdatePage()
 	slot0:CheckStory()
 end
 
-function slot0.CheckStory(slot0)
+slot0.CheckStory = function(slot0)
 	slot1 = pg.NewStoryMgr.GetInstance()
 	slot2 = slot0.contextData.activity
 
@@ -227,7 +227,7 @@ function slot0.CheckStory(slot0)
 	end)
 end
 
-function slot0.UpdatePage(slot0)
+slot0.UpdatePage = function(slot0)
 	slot1 = slot0.contextData.bossHP
 
 	setText(slot0.digitbig, math.floor(slot1 / 100))
@@ -279,11 +279,11 @@ function slot0.UpdatePage(slot0)
 	setText(slot0.ticketNum, slot0:GetEXTicket())
 end
 
-function slot0.GetEXTicket(slot0)
+slot0.GetEXTicket = function(slot0)
 	return getProxy(PlayerProxy):getRawData():getResource(slot0.contextData.TicketID)
 end
 
-function slot0.ShowNormalFleet(slot0, slot1, slot2)
+slot0.ShowNormalFleet = function(slot0, slot1, slot2)
 	if not slot0.contextData.actFleets[slot1] then
 		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
 	end
@@ -331,7 +331,7 @@ function slot0.ShowNormalFleet(slot0, slot1, slot2)
 	slot4.buffer:Show()
 end
 
-function slot0.ShowEXFleet(slot0)
+slot0.ShowEXFleet = function(slot0)
 	if not slot0.contextData.actFleets[#slot0.contextData.normalStageIDs + 1] then
 		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
 	end
@@ -365,7 +365,7 @@ function slot0.ShowEXFleet(slot0)
 	slot2.buffer:Show()
 end
 
-function slot0.ShowSPFleet(slot0)
+slot0.ShowSPFleet = function(slot0)
 	if not slot0.contextData.actFleets[#slot0.contextData.normalStageIDs + 2] then
 		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
 	end
@@ -392,11 +392,11 @@ function slot0.ShowSPFleet(slot0)
 	slot2.buffer:Show()
 end
 
-function slot0.commitEdit(slot0)
+slot0.commitEdit = function(slot0)
 	slot0:emit(slot0.contextData.mediatorClass.ON_COMMIT_FLEET)
 end
 
-function slot0.commitCombat(slot0)
+slot0.commitCombat = function(slot0)
 	if slot0.contextData.editFleet <= #slot0.contextData.normalStageIDs then
 		slot0:emit(slot0.contextData.mediatorClass.ON_PRECOMBAT, slot0.contextData.editFleet)
 	elseif slot0.contextData.editFleet == #slot0.contextData.normalStageIDs + 1 then
@@ -406,17 +406,17 @@ function slot0.commitCombat(slot0)
 	end
 end
 
-function slot0.commitTrybat(slot0)
+slot0.commitTrybat = function(slot0)
 	slot0:emit(slot0.contextData.mediatorClass.ON_EX_PRECOMBAT, slot0.contextData.editFleet, true)
 end
 
-function slot0.updateEditPanel(slot0)
+slot0.updateEditPanel = function(slot0)
 	if slot0.fleetEditPanel then
 		slot0.fleetEditPanel.buffer:UpdateView()
 	end
 end
 
-function slot0.hideFleetEdit(slot0)
+slot0.hideFleetEdit = function(slot0)
 	if slot0.fleetEditPanel then
 		slot0.fleetEditPanel.buffer:Hide()
 	end
@@ -428,7 +428,7 @@ function slot0.hideFleetEdit(slot0)
 	slot0.contextData.editFleet = nil
 end
 
-function slot0.openShipInfo(slot0, slot1, slot2)
+slot0.openShipInfo = function(slot0, slot1, slot2)
 	slot4 = {}
 	slot5 = getProxy(BayProxy)
 	slot6 = ipairs
@@ -444,11 +444,11 @@ function slot0.openShipInfo(slot0, slot1, slot2)
 	})
 end
 
-function slot0.setCommanderPrefabs(slot0, slot1)
+slot0.setCommanderPrefabs = function(slot0, slot1)
 	slot0.commanderPrefabs = slot1
 end
 
-function slot0.openCommanderPanel(slot0, slot1, slot2)
+slot0.openCommanderPanel = function(slot0, slot1, slot2)
 	slot3 = slot0.contextData.activityID
 
 	slot0.levelCMDFormationView:setCallback(function (slot0)
@@ -476,42 +476,42 @@ function slot0.openCommanderPanel(slot0, slot1, slot2)
 	slot0.levelCMDFormationView:ActionInvoke("Show")
 end
 
-function slot0.updateCommanderFleet(slot0, slot1)
+slot0.updateCommanderFleet = function(slot0, slot1)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot1)
 	end
 end
 
-function slot0.updateCommanderPrefab(slot0)
+slot0.updateCommanderPrefab = function(slot0)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("updatePrefabs", slot0.commanderPrefabs)
 	end
 end
 
-function slot0.closeCommanderPanel(slot0)
+slot0.closeCommanderPanel = function(slot0)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("Hide")
 	end
 end
 
-function slot0.buildCommanderPanel(slot0)
+slot0.buildCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView = LevelCMDFormationView.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
-function slot0.destroyCommanderPanel(slot0)
+slot0.destroyCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView:Destroy()
 
 	slot0.levelCMDFormationView = nil
 end
 
-function slot0.ShowAwards(slot0)
+slot0.ShowAwards = function(slot0)
 	slot1 = slot0:GetBonusWindow()
 
 	slot1.buffer:UpdateView(slot0.contextData.ptData)
 	slot1.buffer:Show()
 end
 
-function slot0.CreateNewFleet(slot0, slot1)
+slot0.CreateNewFleet = function(slot0, slot1)
 	return TypedFleet.New({
 		id = slot1,
 		ship_list = {},
@@ -520,7 +520,7 @@ function slot0.CreateNewFleet(slot0, slot1)
 	})
 end
 
-function slot0.UpdateRank(slot0, slot1)
+slot0.UpdateRank = function(slot0, slot1)
 	slot1 = slot1 or {}
 
 	for slot5 = 1, #slot0.rankList do
@@ -532,7 +532,7 @@ function slot0.UpdateRank(slot0, slot1)
 	end
 end
 
-function slot0.UpdateDropItems(slot0)
+slot0.UpdateDropItems = function(slot0)
 	slot1 = ipairs
 	slot2 = slot0.contextData.DisplayItems or {}
 
@@ -549,7 +549,7 @@ function slot0.UpdateDropItems(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.bonusWindow and slot0.bonusWindow:IsShowing() then
 		slot0.bonusWindow.buffer:Hide()
 
@@ -559,7 +559,7 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:DestroyBonusWindow()
 	slot0:DestroyFleetEditPanel()
 	slot0:destroyCommanderPanel()

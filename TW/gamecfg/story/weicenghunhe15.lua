@@ -1,23 +1,23 @@
 return {
-	id = "WEICENGHUNHE15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE15",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
 			actor = 107110,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼，新型塞壬也不過如此，就這樣一鼓作氣突破過去！",
 			bgm = "hunhe-battle",
+			nameColor = "#a9f548",
+			say = "哼，新型塞壬也不過如此，就這樣一鼓作氣突破過去！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -33,8 +33,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "無畏小心---！",
 			typewriter = {
 				speed = 0.05,
@@ -46,10 +46,10 @@ return {
 			}
 		},
 		{
+			say = "轟------！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟------！",
 			flashN = {
 				color = {
 					1,
@@ -100,8 +100,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "什麼？居然是來自水下的攻擊--？ ！",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "躲在水下偷窺可是變態的行為，全都·給我·出來·吧！",
 			typewriter = {
 				speed = 0.05,
@@ -144,10 +144,10 @@ return {
 			}
 		},
 		{
+			say = "轟------！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟------！",
 			flashN = {
 				color = {
 					1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "馬布爾黑德一邊用可愛的語氣說著可怕的話，一邊向四周拋下了大量的深水炸彈。",
 			typewriter = {
 				speed = 0.05,
@@ -210,9 +210,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哇啊啊啊！居然藏了這麼多？ ！",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -237,8 +237,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "嗚啊…我也被嚇了一跳，其實我也只看到了一兩艘而已…沒想到還藏著這麼多…",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "塞壬的潛艇，到底也是潛艇嗎…如果被護衛艦鎖定的話就只有選擇上浮或者等死。",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "雖然上浮和等死也沒什麼區別，反正它們也不會投降就是了…看我把它們全部收拾掉！",
 			typewriter = {
 				speed = 0.05,
@@ -300,9 +300,9 @@ return {
 			actor = 107110,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "OK~看我把它們全部收拾掉！",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

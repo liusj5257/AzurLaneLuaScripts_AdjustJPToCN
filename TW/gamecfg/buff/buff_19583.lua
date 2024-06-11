@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.045
+					number = 0.045,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.052
+					number = 0.052,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.077
+					number = 0.077,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.085
+					number = 0.085,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.095
+					number = 0.095,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.102
+					number = 0.102,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.11
+					number = 0.11,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.12
+					number = 0.12,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "鱼雷伤害上升",
 	init_effect = "jinengchufared",
-	color = "blue",
+	id = 19583,
+	time = 0,
 	picture = "",
 	desc = "鱼雷伤害上升",
 	stack = 1,
-	id = 19583,
+	color = "blue",
 	icon = 19580,
 	last_effect = "",
 	blink = {

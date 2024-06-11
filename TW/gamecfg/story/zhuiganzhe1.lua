@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"與「大小姐」共處的時刻\n\n<size=45>一 青空下的青春之聲</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "工作告一段落後外出散了會步，不知不覺額上已經沁出了汗珠。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "工作告一段落後外出散了會步，不知不覺額上已經沁出了汗珠。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "早上感覺還沒這麼熱才對…就在仰望晴朗藍天發出感慨的時候——",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "梆——！！",
@@ -81,11 +81,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "哇啊！？怎麼又被打到了啦~~~~！！",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "阿基里斯懊悔的喊聲，與白色的小球一同劃破了平靜的藍天。",
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "看來是利安得級的三位在打棒球玩的樣子，順著聲音看了過去——",
@@ -188,8 +188,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "差不多已經找回揮棒擊球的感覺了，再來一次吧~",
 			typewriter = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "欸~饒了我吧~就算全力投球再怎麼開心，像這樣一直被輕鬆擊中也會洩氣的啦~",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "阿基里斯蹲在地上痛苦地搖著頭。看來這三個人一直在當追趕者的對手。",
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "以原博格級姐妹艦的追趕者為對手，果然是沒那麼簡單啊。",
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "早知道妳這麼強，就不挑戰妳了啦！",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "呼呼呼，算了，今天差不多到這裡就好——嗯？這不是指揮官嗎？",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "向著看過來的追趕者和利安得級三姐妹揮了揮手。",
@@ -335,8 +335,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "指揮官是看到我打出去的球才過來看看的嗎？",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "對了，指揮官，一會能耽誤您點時間嗎？有件事想和您商量下。",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "正好工作已經告一段落，之後也沒有別的計劃。應該沒什麼問題。",
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "答應以後，追趕者笑著走了過來。",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

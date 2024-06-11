@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_33 = {}
 slot1 = slot0.word_template_33
 
-function temp()
+temp = function()
 	uv0["副"] = {
 		["業"] = {
 			this = true
@@ -37,7 +37,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["分"] = {
 		["際"] = {
 			this = true
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["糞"] = {
 		["尿"] = {
 			this = true
@@ -97,7 +97,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["文"] = {
 		["通"] = {
 			this = true
@@ -217,7 +217,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["便"] = {
 		["秘"] = {
 			this = true
@@ -234,7 +234,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["包"] = {
 		["茎"] = {
 			this = true
@@ -709,7 +709,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宝"] = {
 		["く"] = {
 			["じ"] = {

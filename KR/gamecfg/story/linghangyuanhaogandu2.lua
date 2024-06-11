@@ -5,8 +5,8 @@ return {
 	id = "LINGHANGYUANHAOGANDU2",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"이어진 마음\n\n<size=45>2 소망의 힘</size>",
@@ -17,14 +17,14 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "bg_project_tb_room1",
-			tbActor = true,
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-laugh1",
+			bgName = "bg_project_tb_room1",
 			bgm = "qe-ova-10",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			voice = "event:/educate/tb/educate-tb-1-laugh1",
 			say = "――……♪",
 			painting = {
 				alpha = 0.3,
@@ -35,17 +35,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-shy",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-shy",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -90,8 +90,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "외부 세상과의 접촉 덕분인지, 최근들어 TB의 논리적 사고와 언어 능력이 비약적으로 향상된 듯하다.",
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "지금은 비교적 유창하게 말을 할 수 있게 된 상태다.",
@@ -115,9 +115,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-shock2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -147,9 +147,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-doubt3",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer4",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer4",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -210,9 +210,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-doubt2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer14",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer14",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -261,9 +261,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -281,9 +281,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer3",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-angry",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-angry",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer16",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer16",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "혹시 '만족'이라고 하고 싶었던 걸까?",
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TB가 버추얼 타운에 왔을 때 메모리 로그를 차단해 뒀는데…",
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "'개성'을 이해하고 싶다는 마음은 아직 남아 있는 것으로 보이고, 그것이 지금 TB의 '소원'이 된 듯하다.",
@@ -384,9 +384,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer1",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -404,9 +404,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-laugh1",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

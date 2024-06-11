@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023黑阿尔及利亚 石柱转阶段",
 	time = 15,
-	id = 200476,
+	name = "2023黑阿尔及利亚 石柱转阶段",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200476,
 	last_effect = "",
 	effect_list = {
 		{

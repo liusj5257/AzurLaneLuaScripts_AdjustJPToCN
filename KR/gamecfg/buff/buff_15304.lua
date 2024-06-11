@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.035
+					number = 0.035,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.04
+					number = 0.04,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.045
+					number = 0.045,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.05
+					number = 0.05,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.055
+					number = 0.055,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.06
+					number = 0.06,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.065
+					number = 0.065,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.07
+					number = 0.07,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.075
+					number = 0.075,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.08
+					number = 0.08,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "自身减伤-穿甲弹",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageReduceFromAmmoType_2",
-				number = 0.035
+				number = 0.035,
+				attr = "damageReduceFromAmmoType_2"
 			}
 		}
 	}

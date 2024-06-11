@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.05
+					number = 0.05,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 0.5625
+					number = 0.5625,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 2000
+					number = 2000,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -41,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.059
+					number = 0.059,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -51,8 +51,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 0.6625
+					number = 0.6625,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -61,8 +61,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 2330
+					number = 2330,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -75,8 +75,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.068
+					number = 0.068,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -85,8 +85,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 0.7625
+					number = 0.7625,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -95,8 +95,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 2660
+					number = 2660,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -109,8 +109,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.08
+					number = 0.08,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 0.875
+					number = 0.875,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -129,8 +129,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 2990
+					number = 2990,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.089
+					number = 0.089,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -153,8 +153,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 0.975
+					number = 0.975,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 3320
+					number = 3320,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -177,8 +177,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.098
+					number = 0.098,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -187,8 +187,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 1.075
+					number = 1.075,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -197,8 +197,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 3650
+					number = 3650,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -211,8 +211,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.11
+					number = 0.11,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -221,8 +221,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 1.1875
+					number = 1.1875,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -231,8 +231,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 3980
+					number = 3980,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -245,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.122
+					number = 0.122,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -255,8 +255,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 1.2875
+					number = 1.2875,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -265,8 +265,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 4310
+					number = 4310,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -279,8 +279,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.134
+					number = 0.134,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 1.3875
+					number = 1.3875,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -299,8 +299,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 4640
+					number = 4640,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -313,8 +313,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.15
+					number = 0.15,
+					attr = "damageRatioByAmmoType_3"
 				}
 			},
 			{
@@ -323,8 +323,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
-					number = 1.5
+					number = 1.5,
+					attr = "ignite_accuracy"
 				}
 			},
 			{
@@ -333,15 +333,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 5000
+					number = 5000,
+					attr = "igniteEnhance"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "纵火狂魔",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "起火概率、伤害提高",
 	stack = 1,
@@ -362,8 +362,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByAmmoType_3",
-				number = 0.05
+				number = 0.05,
+				attr = "damageRatioByAmmoType_3"
 			}
 		},
 		{
@@ -372,8 +372,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "ignite_accuracy",
-				number = 0.5625
+				number = 0.5625,
+				attr = "ignite_accuracy"
 			}
 		},
 		{
@@ -382,8 +382,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteEnhance",
-				number = 2000
+				number = 2000,
+				attr = "igniteEnhance"
 			}
 		}
 	}

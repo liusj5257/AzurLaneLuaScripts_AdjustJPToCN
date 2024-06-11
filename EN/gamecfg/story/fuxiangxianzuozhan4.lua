@@ -1,18 +1,18 @@
 return {
-	id = "FUXIANGXIANZUOZHAN4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN4",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			bgm = "story-6",
 			actor = 407030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Heinrich, do you copy?",
-			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			side = 2,
 			paintingNoise = false,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Loud and clear!",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "The enemy aircraft have changed their attack pattern. Are you en route to the airfield?",
 			typewriter = {
 				speed = 0.05,
@@ -58,9 +58,9 @@ return {
 		{
 			paintingNoise = false,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Yep-yep! Headed there to take out some stray enemies!",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -85,8 +85,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "Hold. Before you enter battle, first check the Stronghold's Control status so you don't get blindsided by enemy aircraft.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "Roger-dodger!",
 			typewriter = {
 				speed = 0.05,

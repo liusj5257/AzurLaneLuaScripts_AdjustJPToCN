@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港・広場前",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "母港・広場前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 10400010,
 			stopbgm = true,
 			say = "え！ほんとー！？",
 			typewriter = {
@@ -161,14 +161,14 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "………",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			actor = 101170,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "みんな",
-			say = "………",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -206,11 +206,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			bgm = "story-1",
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "えへへ～、無事に帰ってこれちゃった～！",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,14 +221,14 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "えーーーーーーーーーーーーーーー！？",
 			side = 2,
 			bgName = "bg_story_school",
 			actorName = "みんな",
 			dir = 1,
+			actor = 101170,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "えーーーーーーーーーーーーーーー！？",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -268,15 +268,15 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "ということで、そもそも私はAIだしバーチャルな存在だったから、特にバーチャル空間に飲み込まれても問題なかったみたい、的な感じ？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "（まぁ本当のこと言っても多分わかんないと思うから、そういうにしといて）",
 			typewriter = {
@@ -353,8 +353,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "ジャベリンちゃん、心配かけちゃってごめんね",
 			typewriter = {
@@ -399,12 +399,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "一件落着ではないけど…良かった、です",
 			typewriter = {
 				speed = 0.05,

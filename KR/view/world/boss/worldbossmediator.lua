@@ -16,7 +16,7 @@ slot0.ON_ARCHIVES_BOSS_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BA
 slot0.ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE = "WorldBossMediator:ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE"
 slot0.ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER = "WorldBossMediator:ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_ARCHIVES_BOSS_STOP_AUTO_BATTLE, function (slot0, slot1)
 		uv0:sendNotification(GAME.WORLD_ARCHIVES_BOSS_STOP_AUTO_BATTLE, {
 			id = slot1,
@@ -121,7 +121,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.updateBossProxy(slot0)
+slot0.updateBossProxy = function(slot0)
 	slot0.viewComponent:SetBossProxy(nowWorld():GetBossProxy(), getProxy(MetaCharacterProxy))
 
 	if not WorldBossScene.inOtherBossBattle and not slot0.contextData.worldBossId and not slot2:ExistSelfBossAward() and slot2:GetCanGetAwardBoss() then
@@ -139,7 +139,7 @@ function slot0.updateBossProxy(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.WORLD_GET_BOSS_DONE,
 		GAME.WORLD_BOSS_SUPPORT_DONE,
@@ -153,7 +153,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.WORLD_GET_BOSS_DONE then

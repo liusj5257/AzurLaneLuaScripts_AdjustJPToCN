@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU5",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 904010,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "레이더에 새로운 함대가 포착됐어. 새로운 로열 네이비의 순찰함대인가……",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "망했다, 로열 네이비의 아레투사야!",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "이미 들켰으니 보고하지 못하게 해야겠네요.",
 			typewriter = {
 				speed = 0.05,

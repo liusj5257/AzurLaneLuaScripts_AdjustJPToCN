@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX180A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX180A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「대형 작전」 초기화 완료. 특별 교환 상점 오픈.",
 			typewriter = {
 				speed = 0.05,

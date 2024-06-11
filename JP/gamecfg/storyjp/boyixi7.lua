@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ティラミス・マーマレード\n\n<size=45>七  ティラミスの甘さと</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "ボイシに夕食を誘われ、ユニオン寮にやってきた。",
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "ボイシに夕食を誘われ、ユニオン寮にやってきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:197}",
+			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "し、指揮官……",
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ふーはー…ふーはー",
 			typewriter = {
 				speed = 0.05,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官のご希望通り、ま、マスクを外したよ……",
 			typewriter = {
 				speed = 0.05,
@@ -152,15 +152,15 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "え、ええと、飲み物は……",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ルイスと約束した…指揮官が私の素顔が見たいって言ったら、この衣装に着替えて指揮官とで、デートして…。",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それをしたら、指揮官の好きそうなプレゼントを教えてくれるって",
 			typewriter = {
 				speed = 0.05,
@@ -260,10 +260,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "し、指揮官……その、見つめられると、何を言えば……",
 			typewriter = {
 				speed = 0.05,
@@ -293,10 +293,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "し、深呼吸して……すーはー……よし",
 			typewriter = {
 				speed = 0.05,
@@ -308,17 +308,17 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官…ええと、いつもありがとう…",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -335,12 +335,12 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "色々迷惑をかけたけど、ボイシ、指揮官のそばにいると、嬉しい……",
 			typewriter = {
 				speed = 0.05,
@@ -355,10 +355,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "こんな私で良ければ、もっと色々頑張って指揮官のことをサポートするから、その……",
 			typewriter = {
 				speed = 0.05,
@@ -388,10 +388,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あっ、今はお食事の時間だよね……？",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 发射器死亡反馈",
 	time = 1,
-	color = "blue",
+	name = "2023英系活动 EX 发射器死亡反馈",
+	init_effect = "",
+	id = 200279,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200279,
+	color = "blue",
 	icon = 200279,
 	last_effect = "",
 	effect_list = {

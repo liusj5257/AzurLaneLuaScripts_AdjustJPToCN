@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KASABULANKA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KASABULANKA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Whirlwind Romance\n\n<size=45>4 Hard to Explain</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 106550,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "(Sigh... the heroine from the movie I watched last time... Why did she choose to say goodbye to the one she loved? I can't stand it...)",
 			bgm = "story-1",
+			actor = 106550,
+			nameColor = "#a9f548",
+			say = "(Sigh... the heroine from the movie I watched last time... Why did she choose to say goodbye to the one she loved? I can't stand it...)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(I understand that she did it out of consideration for her partner's position, but... surely there's a way to pull through as long as there's love...)",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "Yup. She looks awfully lost in thought.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "That reminds me, I heard that she recently became the secretary ship. Maybe she has a lot of stuff to think about.",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(And she never even confessed... kind of like me and Commander...)",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "How are you doing, Casablanca?",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "Hwah?!",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "Huh...? Oh, um, my apologies. I wasn't watching where I was going.",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "Something must really be bothering you... Whatever it is, I'll be glad to lend an ear!",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(About my hobbies... and about me and Commander...)",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(Wait, huh?! ...Just what's gotten into me?)",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "Um, it's alright, it's nothing serious...",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "What is it then?",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(There's no way I can tell them that I was just comparing myself to the heroine of a romance movie... Gosh, that'd be so embarrassing...)",
 			typewriter = {
@@ -423,14 +423,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 106550,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "—So that's the gist of things. Two people who've concealed their status from each other. Once those facts get revealed, there's no way they'd go back to the way things were before, right?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -458,8 +458,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "For two people who are in an equal relationship, wouldn't it be way too ridiculous to introduce some inequality between them that would split them apart?",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,8 +485,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "Uhh... Do we have any notions of status here at port? I mean, even if you're reassigned somewhere, you'll still run into everyone at some point during battles.",
 			typewriter = {
@@ -518,8 +518,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "Besides, knowing that one person is the boss while the other is a subordinate... isn't that more conducive to the flow of combat?",
 			typewriter = {
@@ -535,8 +535,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "Th-that's not exactly the case... It's more like being unable to go back to having the same relationship as before, and the \"sorrow\" that comes from that...",
 			typewriter = {
@@ -549,8 +549,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,10 +559,10 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
+			actor = 107230,
 			dir = 1,
 			hideOther = true,
 			actorName = "Princeton & Bataan",
@@ -588,8 +588,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "Uhhhh... I, I didn't mean it like that! It's just that...",
 			typewriter = {
@@ -621,8 +621,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(The relationship between the commander and the secretary ship should be one of boss and subordinate, and yet... because Commander keeps listening to me, it's as if...)",
 			typewriter = {
@@ -638,9 +638,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
 			blackBg = true,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(Ugh... Why am I overthinking this in the first place...)",
 			typewriter = {
@@ -653,8 +653,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

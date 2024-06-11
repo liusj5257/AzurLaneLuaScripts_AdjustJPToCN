@@ -1,27 +1,27 @@
 slot0 = class("WSMapRight", import("...BaseEntity"))
 slot0.Fields = {
 	map = "table",
-	btnInventory = "userdata",
 	btnPort = "userdata",
+	btnInventory = "userdata",
 	btnHelp = "userdata",
 	rtTipWord = "userdata",
 	btnDetail = "userdata",
-	gid = "number",
+	tipEventPri = "number",
 	btnScan = "userdata",
 	toggleSkipPrecombat = "userdata",
-	fleet = "table",
+	world = "table",
 	btnInformation = "userdata",
-	btnDefeat = "userdata",
+	toggleAutoFight = "userdata",
 	toggleAutoSwitch = "userdata",
 	entrance = "table",
 	btnTransport = "userdata",
+	gid = "number",
+	fleet = "table",
+	btnDefeat = "userdata",
 	btnExit = "userdata",
-	btnOrder = "userdata",
-	tipEventPri = "number",
-	world = "table",
 	transform = "userdata",
 	wsCompass = "table",
-	toggleAutoFight = "userdata",
+	btnOrder = "userdata",
 	taskProxy = "table",
 	rtCompassPanel = "userdata",
 	wsTimer = "table",
@@ -30,19 +30,19 @@ slot0.Fields = {
 slot0.Listeners = {
 	onUpdateFleetBuff = "OnUpdateFleetBuff",
 	onClearLog = "OnClearLog",
+	onAppendLog = "OnAppendLog",
 	onUpdateFleetLocation = "OnUpdateFleetLocation",
-	onUpdateInfoBtnTip = "OnUpdateInfoBtnTip",
 	onUpdateFleetDefeat = "OnUpdateFleetDefeat",
-	onUpdateSelectedFleet = "OnUpdateSelectedFleet",
-	onAppendLog = "OnAppendLog"
+	onUpdateInfoBtnTip = "OnUpdateInfoBtnTip",
+	onUpdateSelectedFleet = "OnUpdateSelectedFleet"
 }
 
-function slot0.Setup(slot0)
+slot0.Setup = function(slot0)
 	pg.DelegateInfo.New(slot0)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.wsCompass:Dispose()
 	slot0:RemoveFleetListener(slot0.fleet)
 	slot0:RemoveMapListener()
@@ -57,7 +57,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.transform
 	slot0.rtCompassPanel = slot1:Find("compass_panel")
 	slot0.btnOrder = slot0.rtCompassPanel:Find("btn_order")
@@ -96,7 +96,7 @@ function slot0.Init(slot0)
 	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateInfoBtnTip)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	if slot0.entrance ~= slot1 or slot0.map ~= slot2 or slot0.gid ~= slot2.gid then
 		slot0:RemoveMapListener()
 
@@ -112,19 +112,19 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.AddMapListener(slot0)
+slot0.AddMapListener = function(slot0)
 	if slot0.map then
 		slot0.map:AddListener(WorldMap.EventUpdateFIndex, slot0.onUpdateSelectedFleet)
 	end
 end
 
-function slot0.RemoveMapListener(slot0)
+slot0.RemoveMapListener = function(slot0)
 	if slot0.map then
 		slot0.map:RemoveListener(WorldMap.EventUpdateFIndex, slot0.onUpdateSelectedFleet)
 	end
 end
 
-function slot0.AddFleetListener(slot0, slot1)
+slot0.AddFleetListener = function(slot0, slot1)
 	if slot1 then
 		slot1:AddListener(WorldMapFleet.EventUpdateLocation, slot0.onUpdateFleetLocation)
 		slot1:AddListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBuff)
@@ -132,7 +132,7 @@ function slot0.AddFleetListener(slot0, slot1)
 	end
 end
 
-function slot0.RemoveFleetListener(slot0, slot1)
+slot0.RemoveFleetListener = function(slot0, slot1)
 	if slot1 then
 		slot1:RemoveListener(WorldMapFleet.EventUpdateLocation, slot0.onUpdateFleetLocation)
 		slot1:RemoveListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBuff)
@@ -140,7 +140,7 @@ function slot0.RemoveFleetListener(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateSelectedFleet(slot0, slot1)
+slot0.OnUpdateSelectedFleet = function(slot0, slot1)
 	slot2 = slot0.map:GetFleet()
 
 	if not slot1 or slot0.fleet ~= slot2 then
@@ -156,7 +156,7 @@ function slot0.OnUpdateSelectedFleet(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateFleetLocation(slot0)
+slot0.OnUpdateFleetLocation = function(slot0)
 	if not slot0.map.active then
 		return
 	end
@@ -164,33 +164,33 @@ function slot0.OnUpdateFleetLocation(slot0)
 	slot0:UpdateCompassMarks()
 end
 
-function slot0.OnUpdateFleetBuff(slot0)
+slot0.OnUpdateFleetBuff = function(slot0)
 	setActive(slot0.wsCompass.tf, #slot0.fleet:GetBuffsByTrap(WorldBuff.TrapCompassInterference) == 0)
 end
 
-function slot0.OnUpdateFleetDefeat(slot0)
+slot0.OnUpdateFleetDefeat = function(slot0)
 	setText(slot0.btnDefeat:Find("Text"), math.min(slot0.fleet:getDefeatCount(), 99))
 end
 
-function slot0.UpdateCompass(slot0)
+slot0.UpdateCompass = function(slot0)
 	slot0:UpdateCompassMarks()
 	slot0:UpdateCompassRotation(slot0.map:GetFleet())
 end
 
-function slot0.UpdateCompossView(slot0, slot1, slot2)
+slot0.UpdateCompossView = function(slot0, slot1, slot2)
 	slot0.wsCompass:UpdateByViewer(slot0.map, slot1, slot2)
 end
 
-function slot0.UpdateCompassRotation(slot0, slot1)
+slot0.UpdateCompassRotation = function(slot0, slot1)
 	slot0.wsCompass:UpdateCompassRotation(slot1)
 end
 
-function slot0.UpdateCompassMarks(slot0)
+slot0.UpdateCompassMarks = function(slot0)
 	slot0.wsCompass:ClearMarks()
 	slot0.wsCompass:Update(slot0.entrance, slot0.map)
 end
 
-function slot0.OnUpdateEventTips(slot0)
+slot0.OnUpdateEventTips = function(slot0)
 	slot1, slot2 = slot0.map:GetEventTipWord()
 
 	if slot0.tipEventPri ~= slot2 then
@@ -206,12 +206,12 @@ function slot0.OnUpdateEventTips(slot0)
 	end
 end
 
-function slot0.UpdateBtns(slot0)
+slot0.UpdateBtns = function(slot0)
 	setActive(slot0.btnPort, slot0.map:GetPort() and not slot1:IsTempPort())
 	setActive(slot0.btnExit, slot0.map:canExit())
 end
 
-function slot0.OnUpdateInfoBtnTip(slot0)
+slot0.OnUpdateInfoBtnTip = function(slot0)
 	slot2 = slot0.taskProxy
 	slot3 = slot0.btnInformation
 
@@ -220,7 +220,7 @@ function slot0.OnUpdateInfoBtnTip(slot0)
 	end))
 end
 
-function slot0.OnUpdateHelpBtnTip(slot0, slot1)
+slot0.OnUpdateHelpBtnTip = function(slot0, slot1)
 	setActive(slot0.btnHelp:Find("imge/tip"), WorldConst.IsWorldHelpNew(nowWorld():GetProgress(), slot1))
 end
 

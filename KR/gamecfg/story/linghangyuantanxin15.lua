@@ -7,12 +7,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-10",
-			actor = 1201,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			bgm = "qe-ova-10",
+			tbActor = true,
+			actor = 1201,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……숙제랑 오늘 집안일 모두 끝냈어요.",
 			typewriter = {
@@ -20,17 +20,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,14 +38,14 @@ return {
 			}
 		},
 		{
-			actor = 1201,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "(뚫어져라……)",
+			bgName = "bg_project_tb_room3",
 			tbActor = true,
+			actor = 1201,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "(뚫어져라……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,10 +67,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……이럴 때는 보통 무언가 장려나 보상이 있기 마련이죠.",
 			typewriter = {
@@ -94,10 +94,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……아뇨. 무슨 착각이라도 하시는 것 같네요. 딱히 응석부리고 있지는 않거든요.",
 			typewriter = {
@@ -121,10 +121,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……딱히 보상을 바라고 한 건 아니지만… 달걀 프라이는 노른자가 너무 익지 않도록 부탁드려요.",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "하아… 이 나이대 애들은 까다롭다니까…",

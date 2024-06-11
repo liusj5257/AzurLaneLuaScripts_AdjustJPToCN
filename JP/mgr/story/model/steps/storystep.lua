@@ -1,6 +1,6 @@
 slot0 = class("StoryStep")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.flashout = slot1.flashout
 	slot0.flashin = slot1.flashin
 	slot0.bgName = slot1.bgName
@@ -36,31 +36,41 @@ function slot0.Ctor(slot0, slot1)
 	slot0.location = slot1.location
 	slot0.icon = slot1.icon
 	slot0.autoShowOption = defaultValue(slot1.autoShowOption, false)
+	slot0.dispatcher = slot1.dispatcher
+	slot0.shakeTime = defaultValue(slot1.shakeTime, 0)
 	slot0.selectedBranchCode = 0
 	slot0.id = 0
 	slot0.placeholderType = 0
 	slot0.defaultTb = slot1.defaultTb
 end
 
-function slot0.SetDefaultTb(slot0, slot1)
+slot0.ShouldShake = function(slot0)
+	return slot0.shakeTime > 0
+end
+
+slot0.GetShakeTime = function(slot0)
+	return slot0.shakeTime
+end
+
+slot0.SetDefaultTb = function(slot0, slot1)
 	if not slot0.defaultTb or slot0.defaultTb <= 0 then
 		slot0.defaultTb = slot1
 	end
 end
 
-function slot0.SetPlaceholderType(slot0, slot1)
+slot0.SetPlaceholderType = function(slot0, slot1)
 	slot0.placeholderType = slot1
 end
 
-function slot0.ShouldReplacePlayer(slot0)
+slot0.ShouldReplacePlayer = function(slot0)
 	return bit.band(slot0.placeholderType, Story.PLAYER) > 0
 end
 
-function slot0.ShouldReplaceTb(slot0)
+slot0.ShouldReplaceTb = function(slot0)
 	return bit.band(slot0.placeholderType, Story.TB) > 0
 end
 
-function slot0.ReplacePlayerName(slot0, slot1)
+slot0.ReplacePlayerName = function(slot0, slot1)
 	if not getProxy(PlayerProxy) or not getProxy(PlayerProxy):getRawData() then
 		return slot1
 	end
@@ -68,7 +78,7 @@ function slot0.ReplacePlayerName(slot0, slot1)
 	return string.gsub(slot1, "{playername}", getProxy(PlayerProxy):getRawData():GetName())
 end
 
-function slot0.ReplaceTbName(slot0, slot1)
+slot0.ReplaceTbName = function(slot0, slot1)
 	if pg.NewStoryMgr.GetInstance():IsReView() then
 		return string.gsub(slot1, "{tb}", i18n("child_story_name"))
 	end
@@ -82,31 +92,63 @@ function slot0.ReplaceTbName(slot0, slot1)
 	return string.gsub(slot1, "{tb}", slot3)
 end
 
-function slot0.ExistIcon(slot0)
+slot0.ExistDispatcher = function(slot0)
+	return slot0.dispatcher ~= nil
+end
+
+slot0.GetDispatcher = function(slot0)
+	return slot0.dispatcher
+end
+
+slot0.IsRecallDispatcher = function(slot0)
+	if not slot0:ExistDispatcher() then
+		return false
+	end
+
+	return slot0:GetDispatcher().callbackData ~= nil and slot1.callbackData.name ~= nil
+end
+
+slot0.GetDispatcherRecallName = function(slot0)
+	if not slot0:IsRecallDispatcher() then
+		return nil
+	end
+
+	return slot0:GetDispatcher().callbackData.name
+end
+
+slot0.ShouldHideUI = function(slot0)
+	if not slot0:IsRecallDispatcher() then
+		return false
+	end
+
+	return slot0:GetDispatcher().callbackData.hideUI == true
+end
+
+slot0.ExistIcon = function(slot0)
 	return slot0.icon ~= nil
 end
 
-function slot0.GetIconData(slot0)
+slot0.GetIconData = function(slot0)
 	return slot0.icon
 end
 
-function slot0.SetId(slot0, slot1)
+slot0.SetId = function(slot0, slot1)
 	slot0.id = slot1
 end
 
-function slot0.GetId(slot0)
+slot0.GetId = function(slot0)
 	return slot0.id
 end
 
-function slot0.AutoShowOption(slot0)
+slot0.AutoShowOption = function(slot0)
 	slot0.autoShowOption = true
 end
 
-function slot0.SkipEventForOption(slot0)
+slot0.SkipEventForOption = function(slot0)
 	return slot0:ExistOption() and slot0.autoShowOption
 end
 
-function slot0.IsRecallOption(slot0)
+slot0.IsRecallOption = function(slot0)
 	if slot0:ExistOption() and slot0:GetOptionCnt() > 1 and slot0.recallOption then
 		return true
 	end
@@ -114,30 +156,30 @@ function slot0.IsRecallOption(slot0)
 	return false
 end
 
-function slot0.SetBranchCode(slot0, slot1)
+slot0.SetBranchCode = function(slot0, slot1)
 	slot0.selectedBranchCode = slot1
 end
 
-function slot0.GetSelectedBranchCode(slot0)
+slot0.GetSelectedBranchCode = function(slot0)
 	return slot0.selectedBranchCode
 end
 
-function slot0.ExistLocation(slot0)
+slot0.ExistLocation = function(slot0)
 	return slot0.location ~= nil
 end
 
-function slot0.GetLocation(slot0)
+slot0.GetLocation = function(slot0)
 	return {
 		text = slot0.location[1] or "",
 		time = slot0.location[2] or 999
 	}
 end
 
-function slot0.ExistMovableNode(slot0)
+slot0.ExistMovableNode = function(slot0)
 	return slot0.movableNode ~= nil and type(slot0.movableNode) == "table" and #slot0.movableNode > 0
 end
 
-function slot0.GetPathByString(slot0, slot1, slot2)
+slot0.GetPathByString = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = pg.NewStoryMgr.GetInstance():GetRectSize()
 	slot5 = Vector3(-slot4.x * 0.5, slot4.y * 0.5, 0)
@@ -199,7 +241,7 @@ function slot0.GetPathByString(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.GenMoveNode(slot0, slot1)
+slot0.GenMoveNode = function(slot0, slot1)
 	slot2 = {}
 
 	if type(slot1.path) == "table" then
@@ -236,7 +278,7 @@ function slot0.GenMoveNode(slot0, slot1)
 	}
 end
 
-function slot0.GetMovableNode(slot0)
+slot0.GetMovableNode = function(slot0)
 	if not slot0:ExistMovableNode() then
 		return {}
 	end
@@ -252,111 +294,111 @@ function slot0.GetMovableNode(slot0)
 	return slot1
 end
 
-function slot0.OldPhotoEffect(slot0)
+slot0.OldPhotoEffect = function(slot0)
 	return slot0.oldPhoto
 end
 
-function slot0.ShouldBgGlitchArt(slot0)
+slot0.ShouldBgGlitchArt = function(slot0)
 	return slot0.bgGlitchArt
 end
 
-function slot0.IsSameBranch(slot0, slot1)
+slot0.IsSameBranch = function(slot0, slot1)
 	return not slot0.branchCode or slot0.branchCode == slot1
 end
 
-function slot0.GetMode(slot0)
+slot0.GetMode = function(slot0)
 	assert(false, "should override this function")
 end
 
-function slot0.GetFlashoutData(slot0)
+slot0.GetFlashoutData = function(slot0)
 	if slot0.flashout then
 		return slot0.flashout.alpha[1], slot0.flashout.alpha[2], slot0.flashout.dur, slot0.flashout.black
 	end
 end
 
-function slot0.GetFlashinData(slot0)
+slot0.GetFlashinData = function(slot0)
 	if slot0.flashin then
 		return slot0.flashin.alpha[1], slot0.flashin.alpha[2], slot0.flashin.dur, slot0.flashin.black, slot0.flashin.delay
 	end
 end
 
-function slot0.GetBgColor(slot0)
+slot0.GetBgColor = function(slot0)
 	return Color.New(slot0.bgColor[1] or 0, slot0.bgColor[2] or 0, slot0.bgColor[3] or 0)
 end
 
-function slot0.IsBlackBg(slot0)
+slot0.IsBlackBg = function(slot0)
 	return slot0.blackBg
 end
 
-function slot0.GetBgName(slot0)
+slot0.GetBgName = function(slot0)
 	return slot0.bgName
 end
 
-function slot0.GetBgShadow(slot0)
+slot0.GetBgShadow = function(slot0)
 	return slot0.bgShadow
 end
 
-function slot0.IsDialogueMode(slot0)
+slot0.IsDialogueMode = function(slot0)
 	return slot0:GetMode() == Story.MODE_DIALOGUE
 end
 
-function slot0.GetBgmData(slot0)
+slot0.GetBgmData = function(slot0)
 	return slot0.bgm, slot0.bgmDelay, slot0.bgmVolume
 end
 
-function slot0.ShoulePlayBgm(slot0)
+slot0.ShoulePlayBgm = function(slot0)
 	return slot0.bgm ~= nil
 end
 
-function slot0.ShouldStopBgm(slot0)
+slot0.ShouldStopBgm = function(slot0)
 	return slot0.stopbgm
 end
 
-function slot0.GetEffects(slot0)
+slot0.GetEffects = function(slot0)
 	return slot0.effects
 end
 
-function slot0.ShouldBlink(slot0)
+slot0.ShouldBlink = function(slot0)
 	return slot0.blink ~= nil
 end
 
-function slot0.GetBlinkData(slot0)
+slot0.GetBlinkData = function(slot0)
 	return slot0.blink
 end
 
-function slot0.ShouldBlinkWithColor(slot0)
+slot0.ShouldBlinkWithColor = function(slot0)
 	return slot0.blinkWithColor ~= nil
 end
 
-function slot0.GetBlinkWithColorData(slot0)
+slot0.GetBlinkWithColorData = function(slot0)
 	return slot0.blinkWithColor
 end
 
-function slot0.ShouldPlaySoundEffect(slot0)
+slot0.ShouldPlaySoundEffect = function(slot0)
 	return slot0.soundeffect ~= nil
 end
 
-function slot0.GetSoundeffect(slot0)
+slot0.GetSoundeffect = function(slot0)
 	return slot0.soundeffect, slot0.seDelay
 end
 
-function slot0.ShouldPlayVoice(slot0)
+slot0.ShouldPlayVoice = function(slot0)
 	return slot0.voice ~= nil
 end
 
-function slot0.ShouldStopVoice(slot0)
+slot0.ShouldStopVoice = function(slot0)
 	return slot0.stopVoice
 end
 
-function slot0.GetVoice(slot0)
+slot0.GetVoice = function(slot0)
 	return slot0.voice, slot0.voiceDelay
 end
 
-function slot0.ExistOption(slot0)
+slot0.ExistOption = function(slot0)
 	return slot0.options ~= nil and #slot0.options > 0
 end
 
-function slot0.GetOptionCnt(slot0)
+slot0.GetOptionCnt = function(slot0)
 	if slot0:ExistOption() then
 		return #slot0.options
 	else
@@ -364,15 +406,15 @@ function slot0.GetOptionCnt(slot0)
 	end
 end
 
-function slot0.SetOptionSelCodes(slot0, slot1)
+slot0.SetOptionSelCodes = function(slot0, slot1)
 	slot0.optionSelCode = slot1
 end
 
-function slot0.IsBlackFrontGround(slot0)
+slot0.IsBlackFrontGround = function(slot0)
 	return slot0.blackFg > 0, Mathf.Clamp01(slot0.blackFg)
 end
 
-function slot0.GetOptionIndexByAutoSel(slot0)
+slot0.GetOptionIndexByAutoSel = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -399,11 +441,11 @@ function slot0.GetOptionIndexByAutoSel(slot0)
 	return nil
 end
 
-function slot0.IsImport(slot0)
+slot0.IsImport = function(slot0)
 	return slot0.important
 end
 
-function slot0.GetOptions(slot0)
+slot0.GetOptions = function(slot0)
 	return _.map(slot0.options or {}, function (slot0)
 		slot1 = slot0.content
 
@@ -422,23 +464,23 @@ function slot0.GetOptions(slot0)
 	end)
 end
 
-function slot0.ShouldJumpToNextScript(slot0)
+slot0.ShouldJumpToNextScript = function(slot0)
 	return slot0.nextScriptName ~= nil
 end
 
-function slot0.GetNextScriptName(slot0)
+slot0.GetNextScriptName = function(slot0)
 	return slot0.nextScriptName
 end
 
-function slot0.ShouldDelayEvent(slot0)
+slot0.ShouldDelayEvent = function(slot0)
 	return slot0.eventDelay and slot0.eventDelay > 0
 end
 
-function slot0.GetEventDelayTime(slot0)
+slot0.GetEventDelayTime = function(slot0)
 	return slot0.eventDelay
 end
 
-function slot0.GetUsingPaintingNames(slot0)
+slot0.GetUsingPaintingNames = function(slot0)
 	return {}
 end
 

@@ -33,11 +33,11 @@ slot0 = {
 }
 slot0.next = slot0.next_raw
 
-function slot0.byte_indices(slot0, slot1)
+slot0.byte_indices = function(slot0, slot1)
 	return uv0.next, slot0, slot1
 end
 
-function slot0.len(slot0)
+slot0.len = function(slot0)
 	assert(slot0, "bad argument #1 to 'len' (string expected, got nil)")
 
 	slot1 = 0
@@ -49,7 +49,7 @@ function slot0.len(slot0)
 	return slot1
 end
 
-function slot0.byte_index(slot0, slot1)
+slot0.byte_index = function(slot0, slot1)
 	if slot1 < 1 then
 		return
 	end
@@ -65,7 +65,7 @@ function slot0.byte_index(slot0, slot1)
 	assert(slot2 < slot1, "invalid index")
 end
 
-function slot0.char_index(slot0, slot1)
+slot0.char_index = function(slot0, slot1)
 	if slot1 < 1 or slot1 > #slot0 then
 		return
 	end
@@ -83,7 +83,7 @@ function slot0.char_index(slot0, slot1)
 	error("invalid index")
 end
 
-function slot0.prev(slot0, slot1)
+slot0.prev = function(slot0, slot1)
 	if (slot1 or #slot0 + 1) <= 1 or slot1 > #slot0 + 1 then
 		return
 	end
@@ -106,7 +106,7 @@ function slot0.prev(slot0, slot1)
 	error("invalid index")
 end
 
-function slot0.byte_indices_reverse(slot0, slot1)
+slot0.byte_indices_reverse = function(slot0, slot1)
 	if #slot0 < 200 then
 		return uv0.prev, slot0, slot1
 	else
@@ -130,7 +130,7 @@ function slot0.byte_indices_reverse(slot0, slot1)
 	end
 end
 
-function slot0.sub(slot0, slot1, slot2)
+slot0.sub = function(slot0, slot1, slot2)
 	assert(slot1 >= 1)
 	assert(not slot2 or slot2 >= 0)
 
@@ -164,7 +164,7 @@ function slot0.sub(slot0, slot1, slot2)
 	return slot0:sub(slot4, slot5 and slot5 - 1)
 end
 
-function slot0.contains(slot0, slot1, slot2)
+slot0.contains = function(slot0, slot1, slot2)
 	if slot1 < 1 or slot1 > #slot0 then
 		return nil
 	end
@@ -178,7 +178,7 @@ function slot0.contains(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.count(slot0, slot1)
+slot0.count = function(slot0, slot1)
 	assert(#slot1 > 0)
 
 	slot2 = 0
@@ -199,7 +199,7 @@ function slot0.count(slot0, slot1)
 	return slot2
 end
 
-function slot0.isvalid(slot0, slot1)
+slot0.isvalid = function(slot0, slot1)
 	if not slot0:byte(slot1) then
 		return false
 	elseif slot2 >= 0 and slot2 <= 127 then
@@ -240,7 +240,7 @@ function slot0.isvalid(slot0, slot1)
 	return false
 end
 
-function slot0.next_valid(slot0, slot1)
+slot0.next_valid = function(slot0, slot1)
 	slot2 = nil
 	slot1, slot2 = uv0.next_raw(slot0, slot1)
 
@@ -251,11 +251,11 @@ function slot0.next_valid(slot0, slot1)
 	return slot1
 end
 
-function slot0.valid_byte_indices(slot0)
+slot0.valid_byte_indices = function(slot0)
 	return uv0.next_valid, slot0
 end
 
-function slot0.validate(slot0)
+slot0.validate = function(slot0)
 	for slot4, slot5 in uv0.byte_indices(slot0) do
 		if not slot5 or not uv0.isvalid(slot0, slot4) then
 			error(string.format("invalid utf8 char at #%d", slot4))
@@ -263,11 +263,11 @@ function slot0.validate(slot0)
 	end
 end
 
-function slot1(slot0, slot1, slot2, slot3)
+slot1 = function(slot0, slot1, slot2, slot3)
 	return slot3[slot0:sub(slot1, slot2)]
 end
 
-function slot0.replace(slot0, slot1, ...)
+slot0.replace = function(slot0, slot1, ...)
 	if type(slot1) == "table" then
 		return uv0.replace(slot0, uv1, slot1)
 	end
@@ -293,13 +293,13 @@ function slot0.replace(slot0, slot1, ...)
 	return table.concat(slot2)
 end
 
-function slot2(slot0, slot1, slot2, slot3)
+slot2 = function(slot0, slot1, slot2, slot3)
 	if not uv0.isvalid(slot0, slot1) then
 		return slot3
 	end
 end
 
-function slot0.sanitize(slot0, slot1)
+slot0.sanitize = function(slot0, slot1)
 	return uv0.replace(slot0, uv1, slot1 or "�")
 end
 

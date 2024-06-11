@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"素直になれないキモチ\n\n<size=45>五  反応しなさいよ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ネルソン、ロドニーとともにユニオン寮までやってきた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ネルソン、ロドニーとともにユニオン寮までやってきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 105100,
 			dir = 1,
+			actor = 105100,
 			nameColor = "#a9f548",
 			say = "そりゃいい。今日は外も暑いし喉が渇いてしょうがねぇ！",
 			typewriter = {
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "キッチンへと案内されるロドニーとは別に、指揮官とネルソンは会議室まで案内される。",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 105110,
 			dir = 1,
+			actor = 105110,
 			nameColor = "#a9f548",
 			say = "来て早々だな……だが、そういう前のめりな議論の仕方は嫌いじゃない",
 			typewriter = {
@@ -194,13 +194,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "作戦に関する四人の議論は、開始早々から熱の入ったものとなった。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,9 +225,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ロドニーがアイスティーを持ってきても、ほとんど口にするのも忘れて熱い話し合いは続いた。",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かに相手が数的有利である場合も考慮すると、奇襲とはいかないまでもネルソンの作戦は大胆で良いと思う。",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "作戦名を決めたいところだが、何かアイデアはあるのかネルソンに尋ねてみる",
 			typewriter = {
 				speed = 0.05,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――ぷに。",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ネルソンがこちらの頬を人差し指でつつきながらそう告げる。",
 			typewriter = {
 				speed = 0.05,
@@ -407,11 +407,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "ちょっと！なんか反応しなさいよ！こんなこと滅多にしないんだから",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ネルソンにつつかれた頬を撫でながら、ウェストバージニアの言葉に頷く。確かに少しぼーっとしてる気がする。",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 109350,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 109350,
+	color = "red",
 	icon = 109350,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 109350,
 				time = 1,
+				skill_id = 109350,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

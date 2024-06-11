@@ -1,15 +1,15 @@
 return {
-	id = "WORLD204A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD204A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA海域核心區域外圍·皇家主力艦隊",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,10 +20,10 @@ return {
 			}
 		},
 		{
+			say = "轟——————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟——————————！",
 			flashN = {
 				color = {
 					1,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "哼哼哼，沒想到這麼快就推進到塞壬家門口了啊，甚至比白鷹艦隊還要快一點點，很好，妳們做得很出色！",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "多謝誇獎，陛下。您的工作也已經完成了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "雖然經歷了點波折吧......不過總算結束了！我們與赤色中軸的NA海域臨時停火協議已經簽訂，協議將於本日下午正式生效。稍後指揮部就會將這個消息告訴每一個人吧。",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 		{
 			paintingNoise = false,
 			side = 2,
+			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "太好了！也因為停火協議的簽訂，我們也可以調動更多的艦隊來支持下一步行動了。",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "對於海域中亂跑的鐵血艦隊也暫時不用擔心了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "哼，鐵血那邊也算幸運，還好協議簽訂的夠快，不然那支鐵血艦隊就要被白鷹主力逮個正著了，算啦算啦~",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205020,
 			dir = 1,
+			actor = 205020,
 			say = "居然完成了這麼艱鉅的任務，不愧是陛下！",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +310,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哼哼，對於其他人來說也許是不可能完成的任務，對於本王來說小菜一碟啦！",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -337,8 +337,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "而且趁著這個機會，本王也對赤色中軸那邊的情況好好偵察了一下。",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "真沒想到重櫻真的千里迢迢派遣艦隊來NA海域湊熱鬧了，詳細情報之後讓謝菲之後發給妳們......嗯？",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "威爾斯呢？",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "在之前的作戰中我們收到了一個白鷹科研艦隊的求救訊號。威爾斯親王已經同遇難艦隊成功匯合，目前正在護送她們返回本島港口。",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "科研艦隊......？嗯......？嗯............",
 			typewriter = {
 				speed = 0.05,
@@ -417,8 +417,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205020,
 			dir = 1,
+			actor = 205020,
 			say = "陛下...？",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "沒事，本王會調查清楚的，臨近決戰怎麼能這麼胡亂分散兵力...妳們務必恪守職責，本王現在正帶領艦隊趕來，之後在前線與妳們匯合。",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "伊莉莎白通話結束。",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "陛下的心情好像突然變差了......",
 			typewriter = {
 				speed = 0.05,

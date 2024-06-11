@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHANFANGDETIELANQIANGWEI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHANFANGDETIELANQIANGWEI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ほころぶアイアンローズ\n\n<size=45>3 ザイドリッツの友達</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "母港の街を、ザイドリッツと肩を並べて歩く。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "母港の街を、ザイドリッツと肩を並べて歩く。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "もっとも、歩くというより、「見回る」と言ったほうが正しいが。",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "ちょうどいい。これを機に、ザイドリッツの悩みについていろいろ聞いてみよう。まずは人間関係から――",
 			typewriter = {
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "みなさんと…？ご心配には及びません。いつも通り仲良くやっていますよ",
 			painting = {
 				alpha = 0.3,
@@ -176,10 +176,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "上官殿、いろいろとお気遣いありがとうございます",
 			painting = {
 				alpha = 0.3,
@@ -194,10 +194,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ですが仲間たちとは関係なく、むしろ、みなさんを全面的に信頼しています。問題はあくまで自分のほうにあるといいますか…",
 			painting = {
 				alpha = 0.3,
@@ -212,10 +212,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なので、上官殿にご心配をおかけしないよう、自分でなんとかして見せます！",
 			painting = {
 				alpha = 0.3,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それに自分は上官殿の元で、忠実に使命を果たしているだけで力をいっぱい頂いてますので！",
 			painting = {
 				alpha = 0.3,
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "これ以上聞いても収穫は望めそうになさそうだ。ならば様子見を続けるほかない――",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "お店のテラス席を通りかかった時、そこに座っている二人の会話が耳に入ってきた。",
 			typewriter = {
@@ -263,17 +263,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -284,10 +284,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なんと！？最新のハンティング情報がもう手に入ったんでありますか！",
 			painting = {
 				alpha = 0.3,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…となると、チャージャーアックスは使えないのでは――",
 			painting = {
 				alpha = 0.3,
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 201200,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201200,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "狩り甲斐のある大型ターゲットも、たまに現れる",
 			painting = {
 				alpha = 0.3,
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 201200,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201200,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "遠隔戦で弱みを狙おう。あのデカブツは尻尾ばっかり使って攻撃してくるから、その尻尾さえ切り落とせば…",
 			painting = {
 				alpha = 0.3,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "なかなか興味深い。ザイドリッツも聞き耳を立てているようだし、話を振ってみよう。",
 			typewriter = {
@@ -389,10 +389,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "は、はい！少しだけ…",
 			painting = {
 				alpha = 0.3,
@@ -407,10 +407,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "恐らくですが、遊園地に新設されたバーチャルリアルアトラクションのことだと思います",
 			painting = {
 				alpha = 0.3,
@@ -422,12 +422,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "何でも、臨場感たっぷりのハンティングが体験できるのが売りで",
 			painting = {
 				alpha = 0.3,
@@ -442,10 +442,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "駿馬に跨って草原を駆け巡ることだってできるそうですよ",
 			painting = {
 				alpha = 0.3,
@@ -460,10 +460,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そういうの、憧れますね…",
 			painting = {
 				alpha = 0.3,
@@ -484,10 +484,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えっと、たまにパトロールする時乗ったりしていましたが",
 			painting = {
 				alpha = 0.3,
@@ -499,8 +499,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -509,8 +509,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -522,10 +522,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "馬に乗りながらのハンティングについてはまったく未経験でして…",
 			painting = {
 				alpha = 0.3,
@@ -540,10 +540,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっ！別に今すぐやってみたいとか全然なく！見回りもまだ終わってませんから！",
 			painting = {
 				alpha = 0.3,
@@ -555,8 +555,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -575,8 +575,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "今度一緒に乗ってみようと誘ってみたかったのだが、仕方がない。",
 			typewriter = {
@@ -585,8 +585,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "彼女の言う通り、まだ見回りが終わっていない…",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "もう少し進みながら話を弾けさせようか――",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 3 -  Red Alert!?</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Virus removal complete! You've really gotten the hang of this, Commander!",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "Virus removal complete! You've really gotten the hang of this, Commander!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Oooh? Th- this is...! A \"random word!!!\"",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "That's what it's supposed to be anyway, but it's somehow built connections and converted matter into data, crystallizing into a super technology!",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Incidentally, I made this.",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Er... yeah... like... for example...",
 			typewriter = {
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "Terrible. Even though it's our day off, we've been ordered to clean up flotsam and jetsam around the port.",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Wow! That sounds really urgent...",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "\"AI-CHAN, RED ALERT!\"",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Seems pretty useless actually. Okay, Ikazuchi-chan, let's see what you pull!",
 			typewriter = {
@@ -351,12 +351,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "Right. What is it... hmm.... \"Manjuu\" is it? At least it's a little more helpful than the food words?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Right. What is it... hmm.... \"Manjuu\" is it? At least it's a little more helpful than the food words?",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "Oh I know! This is what they call \"the dark souls of video games!\" There's no way I can figure this out!",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -416,8 +416,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "\"Ramune,\" \"Oxy-Cola,\" \"Manjuu\".... Eureka!",
 			typewriter = {
@@ -481,8 +481,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "<size=97.5>KABOOM!</size>",
 			effects = {
@@ -500,8 +500,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Disaster averted~!",
 			effects = {
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Urk. You're not wrong.... all right then!",
 			typewriter = {
@@ -601,12 +601,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "Thanks for your help, everybody! Let's all work together to get this done! LET'S GOOOOO!",
 			typewriter = {
 				speed = 0.05,

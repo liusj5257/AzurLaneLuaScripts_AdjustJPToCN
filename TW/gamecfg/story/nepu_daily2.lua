@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第二话　『有女神真好！』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…原来如此。也就是说，妳们是从其他次元过来的？",
 			bgm = "story-nepu1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "…原来如此。也就是说，妳们是从其他次元过来的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
+			say = "就是这样！我是涅普顿，请多指教～！叫涅普涅普还是涅普子都可以，随妳喜欢～",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "就是这样！我是涅普顿，请多指教～！叫涅普涅普还是涅普子都可以，随妳喜欢～",
+			actor = 10100010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "女神…吗？看起来一点也不像…有证据吗?",
 			typewriter = {
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100050,
+			nameColor = "#a9f548",
 			say = "……呼，果然缺少信仰，光是要维持这个姿态都很辛苦呢",
 			flashout = {
 				dur = 0.5,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "哦哦！真的变身了……！",
 			typewriter = {
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#a9f548",
 			say = "……如此这般，女神化解除！我们刚才也和那些冒牌货打了一场，但是这个世界缺少“信仰”，我们完全使不出力量只好撤退了…不知道有没有什么办法呢？",
 			flashout = {
 				dur = 0.5,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "{namecode:6}…请多指教",
 			typewriter = {
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "来自异次元，吗…我经常看动画，知道这个…",
 			typewriter = {
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "……方便的话，我们也想问一点问题",
 			typewriter = {
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "饿着肚子打不了仗。饭菜已经准备好了",
 			typewriter = {
@@ -570,11 +570,11 @@ return {
 			}
 		},
 		{
-			actor = 900077,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 900077,
 			actorName = "？？？",
 			say = "哎呀呀，很开心的样子呢——让我们也加入吧～♪",
 			typewriter = {
@@ -587,13 +587,13 @@ return {
 			}
 		},
 		{
-			actor = 900076,
+			say = "总算找到妳们了…妳们也体谅下我们找的辛苦……",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900076,
 			actorName = "？？？",
-			say = "总算找到妳们了…妳们也体谅下我们找的辛苦……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -624,12 +624,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "贝露？还有布兰？妳们怎么会在这里！？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "贝露？还有布兰？妳们怎么会在这里！？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -660,12 +660,12 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
+			say = "果然是布兰和贝露！难道妳们也找不到学院在哪一直在海上徘徊吗？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "果然是布兰和贝露！难道妳们也找不到学院在哪一直在海上徘徊吗？",
+			actor = 10100010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -824,13 +824,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "2个人和4个人，反正差不多……",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
-			say = "2个人和4个人，反正差不多……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

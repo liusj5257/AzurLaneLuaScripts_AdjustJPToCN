@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 9714,
+	time = 0,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
-	id = 9714,
+	color = "red",
 	icon = 9714,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 10000
+				number = 10000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 9717,
-				time = 15,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 15
 			}
 		}
 	}

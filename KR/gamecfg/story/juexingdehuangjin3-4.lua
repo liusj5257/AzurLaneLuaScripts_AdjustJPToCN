@@ -15,8 +15,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"\"되살아나라, 나의 화신…… 메카닉 드래곤 '쇠발톱'이여!\"",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"그렇게 영원처럼 느껴지는 전투가 계속되었고――",
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"과연 전투의 승자는…?!",
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"다음 회, \"시제형 부린 MKII, 사망\"",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"\"주의\"",

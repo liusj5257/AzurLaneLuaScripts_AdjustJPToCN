@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIRICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIRICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Azur Anthem - Side Story\n\n<size=45>3 Lessons</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 201010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			say = "Today, we're joined by Ritsuko and Iori, idol advising specialists. It's great to have the two of you here!",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,13 +92,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Feel free to ask me anything. As a top-tier idol, there's no question I won't be able to answer! Hehe~",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "Feel free to ask me anything. As a top-tier idol, there's no question I won't be able to answer! Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,13 +109,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I'm a fairly experienced idol as well, so I'll be glad to help however I can!",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "I'm a fairly experienced idol as well, so I'll be glad to help however I can!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,13 +158,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Let's see... Well, you can't put on a show unless the singing and dancing are on lock.",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "Let's see... Well, you can't put on a show unless the singing and dancing are on lock.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -188,11 +188,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "I think expressiveness is also important. It's a big part of singing and dancing, but also carries over to a variety of other aspects.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,13 +267,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yeah~ It's definitely hard to see that when you first are starting out.",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "Yeah~ It's definitely hard to see that when you first are starting out.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,13 +316,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Why not start with something short-term first?",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "Why not start with something short-term first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,11 +352,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "That's right. Break down the things you want to achieve into small, realistic chunks that build up towards the final goal.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "For example, if your final goal is to become a top idol, your short-term goals would be to make each and every performance memorable.",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "For example, if your final goal is to become a top idol, your short-term goals would be to make each and every performance memorable.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,11 +397,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "That also gives us an idea of how we want to structure our lessons for each performance, so we always have something to work towards.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,11 +415,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "Why don't you try setting some short-term goals and start from there?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,13 +430,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "(As expected from Ritsuko. Her advice is always so insightful!)",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "(As expected from Ritsuko. Her advice is always so insightful!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,11 +479,11 @@ return {
 			}
 		},
 		{
-			actor = 201010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			say = "...Huh?!",
 			typewriter = {
 				speed = 0.05,
@@ -495,8 +495,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -521,13 +521,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "In that case... Let's start by making sure everyone has the songs memorized and the choreography ready to go.",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "In that case... Let's start by making sure everyone has the songs memorized and the choreography ready to go.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,11 +541,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "Huh? W-wait, Ritsuko?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,11 +559,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "(Wait, why are you acting like you're a part of this?!)",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,13 +606,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "That's precisely right!",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "That's precisely right!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,8 +623,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -636,11 +636,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "(At this rate...)",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,11 +651,11 @@ return {
 			}
 		},
 		{
-			actor = 201010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			say = "(This conversation is going bottoms up...!!)",
 			typewriter = {
 				speed = 0.05,
@@ -667,8 +667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -677,13 +677,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Also, when we get to that point, there's another thing we need to be careful about when it comes to lessons...",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "Also, when we get to that point, there's another thing we need to be careful about when it comes to lessons...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,12 +697,12 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
-			dir = 1,
-			actorName = "Amazon",
-			hidePaintEquip = true,
 			actor = 10700030,
+			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintEquip = true,
+			hideOther = true,
+			actorName = "Amazon",
 			say = "Alright, t-time out, you two!!",
 			subActors = {
 				{
@@ -722,8 +722,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -735,11 +735,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "Stop talking for a minute, and take a few steps back!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,9 +753,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201010,
 			dir = 1,
 			blackBg = true,
+			actor = 201010,
 			nameColor = "#a9f548",
 			say = "Yeah! You can't just \"schedule\" a concert out of nowhere! That wasn't part of our plans at all!",
 			typewriter = {
@@ -768,8 +768,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -845,13 +845,13 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 10700030,
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "Amazon",
-			hidePaintEquip = true,
-			hideOther = true,
 			nameColor = "#a9f548",
+			hidePaintEquip = true,
+			actor = 10700030,
+			actorName = "Amazon",
 			say = "Like... I... Said!! Don't just go planning things without getting permission first!!",
 			subActors = {
 				{
@@ -871,8 +871,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

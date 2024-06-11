@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U473",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U473",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"やさしくて静かであたたかくて\n\n<size=45>三 プレゼント</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 408020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官、これあげる",
 			bgm = "story-1",
+			actor = 408020,
+			nameColor = "#a9f548",
+			say = "指揮官、これあげる",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "初めて執務室に遊びにきた次の日、U-47 はやってくるなり紙パックのミルクを手渡してきた。",
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "パッケージには雄々しい牛の絵が描かれており、なんだか飲んだだけで強くなれそうだ（？）",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "なるほど、と思いながらパックを開けたところでストローがないことに気が付いた。",
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そう言って昨日と同じくU-47は本棚を物色し始めた。仕方なくグラスを持ってきてそこにミルクを注ぐ。",
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "一口飲んでみる――と、それだけで普通のミルクとははっきり違うのがわかった。これは美味い！",
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "その申し出はありがたいが、今U-47に手伝ってもらいたい仕事は特にない。今後のことも考慮して何が得意か聞いてみた。",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "……どうやら彼女に仕事を頼む機会は当分なさそうである。",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そう言って彼女は本棚から一冊の本を取り出した。",
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ちらと読んでいる本の表紙を見てみる。",
@@ -283,8 +283,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "「軍港記念切手コレクション」",
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そう言ってU-47は昨日と同じくソファーに腰をかけて黙々と本を読み始めた。",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "なんとなく適当に取り寄せた本だが、彼女がこういう趣味を持っているのはちょっと意外だった。",
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "いや……うるさくしてって言ってるわけじゃなく、静かなのは好きだから今のままでいいんだけど",
 			typewriter = {
 				speed = 0.05,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47はそれ以上何も言わなくなって、読書に専念し始めた。",
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "意大利V2 我方陆基航空支援D3",
 	time = 20,
-	color = "yellow",
+	name = "意大利V2 我方陆基航空支援D3",
+	init_effect = "",
+	id = 8868,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8868,
+	color = "yellow",
 	icon = 8868,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8867,
 				time = 17,
 				rant = 10000,
-				skill_id = 8867
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"전진하라! 아시가라!\n\n<size=45>(청춘에) 고민해라! 아시가라!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 303090,
-			side = 2,
-			bgmDelay = 2,
-			nameColor = "#92fc63",
-			dir = 1,
 			blackBg = true,
-			say = "마음의 요람, 마음에 두는 존재…대체 뭘까……",
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			bgm = "story-2",
+			actor = 303090,
+			nameColor = "#92fc63",
+			say = "마음의 요람, 마음에 두는 존재…대체 뭘까……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "지금 이런 걸 고민할 때가 아니지.",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "묘코 언니와의 특훈 덕에 비서함 업무도 익숙해졌으니",
 			typewriter = {
 				speed = 0.05,
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "지휘관 나리도 기뻐할 것 같아. 정말 다행이다.",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "이대로 비서함을 계속하면, 지휘관 나리랑도 나를 더 봐주겠지…?",
 			typewriter = {
 				speed = 0.05,
@@ -139,10 +139,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "그러면…어라……? 그러면 어떻게 되는 거지……?",
 			typewriter = {
 				speed = 0.05,
@@ -156,10 +156,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "으으, 왠지…훈련 때문인가, 피곤하네……잠들 것 같아……",
 			typewriter = {
 				speed = 0.05,
@@ -171,16 +171,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			actorName = "？？？",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			nameColor = "#92fc63",
 			say = "아직 자고 있나? ……잠들면 아니 된다!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#92fc63",
-			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
 			say = "어~이! 아시가라! 얼른 일어나지 못할꼬!",
 			dialogShake = {
 				speed = 0.09,
@@ -228,10 +228,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "후으……무슨 일이죠……긴급 임무인가요……",
 			typewriter = {
 				speed = 0.05,
@@ -248,9 +248,9 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
+			bgm = "story-1",
 			actor = 303090,
 			say = "벌써 시간이 이렇게?!",
-			bgm = "story-1",
 			flashN = {
 				color = {
 					1,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,8 +294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "지, 지각하겠다! ……옷이 잘 안 입혀! 그리고 머리는…머리는…늘 묘코 언니가 해줬는데……",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "이런 모습을 지휘관 나리에게 보여지면 난…!",
 			typewriter = {
@@ -354,10 +354,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "카, 카미카제씨?! 어떻게 여기에?",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -423,8 +423,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "……죄송해요.",
 			typewriter = {
@@ -504,8 +504,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "에? 그, 그건……",
 			typewriter = {
@@ -534,15 +534,15 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -570,8 +570,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "(내가, 지휘관 나리를……)",
 			typewriter = {
@@ -587,9 +587,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "(혹시 난……)",
 			typewriter = {

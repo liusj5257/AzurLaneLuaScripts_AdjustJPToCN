@@ -18,14 +18,14 @@ return {
 			style = {
 				text = "Various items are sold here.",
 				mode = 2,
-				posY = 191.87,
 				dir = -1,
+				posY = 191.87,
 				posX = 9.1
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/supply",
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/supply",
 				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/supply",
+				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/supply",
 				triggerType = {
 					1
 				},

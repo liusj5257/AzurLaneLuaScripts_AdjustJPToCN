@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第六話　『ゲームパーティー！』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それではこれより！第一回ゲイムパーティーを開催しちゃいまーす！！",
 			bgm = "story-nepu2",
+			actor = 10100010,
+			nameColor = "#a9f548",
+			say = "それではこれより！第一回ゲイムパーティーを開催しちゃいまーす！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "──ワァァァァァァーッ！ドンドン！パフパフ！",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "──ワァァァァァァーッ！ドンドン！パフパフ！",
 			typewriter = {
 				speed = 0.05,
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "資材は提供したんじゃないにゃ。今回のイベントで儲けた分、きっちり回収させてもらうにゃ",
 			typewriter = {
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "むむむ、別次元のゲーム技術……初めて触れるデータばかりで新鮮だったぞ！これを参考に新装備ができないものだろうか？",
 			typewriter = {
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "ま、まあ、ゲイムギョウ界の女神なら、ゲームディスクぐらい常備しておくのは当然でしょ……あははははは。（たまたま持っていたなんて今更言えないわ……）",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ま、まあ、ゲイムギョウ界の女神なら、ゲームディスクぐらい常備しておくのは当然でしょ……あははははは。（たまたま持っていたなんて今更言えないわ……）",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "──ワァァァァァァーッ！ドンドン！パフパフ！",
 			typewriter = {
 				speed = 0.05,
@@ -198,13 +198,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
+			say = "こんな大きな「いべんと」を開催できるなんて……なるほどね！ノワールさん、さすがー！これが「まねじめんと」ってやつなのね！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
-			say = "こんな大きな「いべんと」を開催できるなんて……なるほどね！ノワールさん、さすがー！これが「まねじめんと」ってやつなのね！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "私も感服したです…「企画力」と「プロデュース力」が違います",
 			typewriter = {
@@ -396,13 +396,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "ドン！ドン！ドドン！──パパァン！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "自力で何とかしてください、です……こっちもジリ貧なのです！",
 			typewriter = {
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
+			say = "うふふふ……まだまだですわね、新兵ってところかしら？戦略ＦＰＳでお姉さんに勝てると思って？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "うふふふ……まだまだですわね、新兵ってところかしら？戦略ＦＰＳでお姉さんに勝てると思って？",
+			actor = 10100040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -492,11 +492,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "……ベールお姉さん、やっぱり強い、です……！",
 			typewriter = {
@@ -573,11 +573,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "卑怯です！ベールお姉さん……！",
 			typewriter = {
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "なるほど、です……ならば、こちらも援軍要請です！",
 			typewriter = {
@@ -655,9 +655,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "──ドカアアアアアアアアン！",
 			typewriter = {
 				speed = 0.05,
@@ -729,16 +729,16 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			actorName = "{namecode:13}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 301110,
 			nameColor = "#a9f548",
 			say = "なるほどね！ここのコーナーで「よんりんどりふと」よ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -763,13 +763,13 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "雷、上手です。「ステアリング」のいい車種を選びましたね",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "雷、上手です。「ステアリング」のいい車種を選びましたね",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -800,12 +800,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "それはネプテューヌが使いこなせてないからでしょ",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それはネプテューヌが使いこなせてないからでしょ",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -868,11 +868,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			say = "とかなんとかねぷねぷがやってる間に「ごーる」！「うぃにんぐらん」はこの雷様のものよー！！",
 			typewriter = {
@@ -885,13 +885,13 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "雷、お見事…すかさず私も「ゴール」…姉妹で一位二位を「独占」です。これはもう勝利の「シャンパン」ですね……",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "雷、お見事…すかさず私も「ゴール」…姉妹で一位二位を「独占」です。これはもう勝利の「シャンパン」ですね……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -922,12 +922,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "何回やってもネプテューヌの負け確定よ。この子たちのほうがうまいもの",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "何回やってもネプテューヌの負け確定よ。この子たちのほうがうまいもの",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -990,12 +990,12 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
+			say = "はいはいどうぞどうぞエリザベスちゃん！どんなのがいい～？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はいはいどうぞどうぞエリザベスちゃん！どんなのがいい～？",
+			actor = 10100010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

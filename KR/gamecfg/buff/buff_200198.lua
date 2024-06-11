@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑亚利桑那 黑潮之泪效果",
 	time = 0,
-	color = "red",
+	name = "黑亚利桑那 黑潮之泪效果",
+	init_effect = "",
+	id = 200198,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200198,
+	color = "red",
 	icon = 200198,
 	last_effect = "",
 	effect_list = {

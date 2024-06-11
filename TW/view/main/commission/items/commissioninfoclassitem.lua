@@ -1,6 +1,6 @@
 slot0 = class("CommissionInfoClassItem", import(".CommissionInfoItem"))
 
-function slot0.OnFlush(slot0)
+slot0.OnFlush = function(slot0)
 	slot1 = getProxy(NavalAcademyProxy):getStudents()
 	slot3 = table.getCount(slot1)
 	slot4 = 0
@@ -24,7 +24,7 @@ function slot0.OnFlush(slot0)
 	slot0.list = slot1
 end
 
-function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
+slot0.UpdateListItem = function(slot0, slot1, slot2, slot3)
 	slot5 = slot3:Find("unlock/name_bg")
 
 	if slot2 then
@@ -46,7 +46,7 @@ function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
 	setActive(slot3:Find("unlock/finished"), slot4 and slot6)
 end
 
-function slot0.UpdateStudent(slot0, slot1, slot2)
+slot0.UpdateStudent = function(slot0, slot1, slot2)
 	slot5 = slot1:getShipVO()
 	slot6 = nil
 
@@ -70,7 +70,7 @@ function slot0.UpdateStudent(slot0, slot1, slot2)
 	updateShip(slot6, slot5)
 end
 
-function slot0.AddTimer(slot0, slot1, slot2)
+slot0.AddTimer = function(slot0, slot1, slot2)
 	slot0:RemoveTimer(slot1)
 
 	slot3 = slot2:Find("unlock/ongoging/time"):GetComponent(typeof(Text))
@@ -88,7 +88,7 @@ function slot0.AddTimer(slot0, slot1, slot2)
 	slot0.timers[slot1.id]:func()
 end
 
-function slot0.RemoveTimer(slot0, slot1)
+slot0.RemoveTimer = function(slot0, slot1)
 	if slot0.timers[slot1.id] then
 		slot0.timers[slot1.id]:Stop()
 
@@ -96,7 +96,7 @@ function slot0.RemoveTimer(slot0, slot1)
 	end
 end
 
-function slot0.UpdateEmpty(slot0, slot1)
+slot0.UpdateEmpty = function(slot0, slot1)
 	setText(slot1:Find("unlock/name_bg/Text"), i18n("commission_idle"))
 	onButton(slot0, slot1:Find("unlock/leisure/go_btn"), function ()
 		uv0:emit(CommissionInfoMediator.ON_ACTIVE_CLASS)
@@ -106,15 +106,15 @@ function slot0.UpdateEmpty(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.GetList(slot0)
+slot0.GetList = function(slot0)
 	return slot0.list, getProxy(NavalAcademyProxy):getSkillClassNum()
 end
 
-function slot0.OnSkip(slot0)
+slot0.OnSkip = function(slot0)
 	slot0:emit(CommissionInfoMediator.ON_ACTIVE_CLASS)
 end
 
-function slot0.OnFinishAll(slot0)
+slot0.OnFinishAll = function(slot0)
 	slot0:emit(CommissionInfoMediator.FINISH_CLASS_ALL)
 end
 

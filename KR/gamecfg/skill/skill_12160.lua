@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "日不落的辉光",
 	cd = 0,
+	picture = "0",
+	desc = "日不落的辉光",
 	painting = 1,
 	id = 12160,
-	picture = "0",
 	castCV = "skill",
-	desc = "日不落的辉光",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

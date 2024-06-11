@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "龍宮城·外環區  機關前",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "龍宮城·外環區  機關前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "咦？！那麼大的動靜居然是鐵血艦隊的攻擊？！！太不可思議了。",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "保護在外圍的封印已經在奧丁小姐的一擊中灰飛煙滅了……",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "不過機關本身還完整，我打算仔細檢查一下……那個，歐根親王閣下……?",
 			typewriter = {
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "啊，那邊的歐根親王！不要趁機亂動操作台啊，很危險吧！",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "不要給五成成功率換個好聽的說法啊！",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "隨著歐根親王的操作結束，控制台發出了一陣機械啟動的轟鳴聲，相同的謎之音也再次出現了。",
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "……秘寶？",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -362,8 +362,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "難道龍宮城中各個機關區域之間是有關聯的……？只要奪下來就能為我們所用。",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（不行，太累了……跟這個危險分子完全合不來。）",
 			typewriter = {
@@ -496,8 +496,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

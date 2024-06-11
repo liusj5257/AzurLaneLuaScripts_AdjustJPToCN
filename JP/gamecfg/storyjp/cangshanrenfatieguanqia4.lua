@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "鏡面海域・始まりの孤島",
 			bgm = "sk-az-story",
+			say = "鏡面海域・始まりの孤島",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,9 +23,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			side = 2,
+			hidePaintEquip = true,
 			actor = 11000020,
 			say = "そういうこと…だったのですね。すみません、わたくしの早とちりでした。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,9 +36,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			side = 2,
+			hidePaintEquip = true,
 			actor = 11000020,
 			say = "驚かせてしまってごめんなさいね。改めまして、斑鳩と申します。飛鳥さんと同じ、半蔵学院の生徒です",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,11 +48,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 11000010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "斑鳩さんもこの世界に来ていたんですね！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,9 +67,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			side = 2,
+			hidePaintEquip = true,
 			actor = 11000020,
 			say = "ええ、気がついたらこちらに。それでまずは状況の把握をと周辺を偵察していたところ……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,9 +80,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			side = 2,
+			hidePaintEquip = true,
 			actor = 11000020,
 			say = "こちらの方角から光球が飛び去って行ったので、慌てて駆けつけたのですが……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,11 +92,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 11000010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "そ、それって実は……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,28 +107,28 @@ return {
 			}
 		},
 		{
-			actor = 11000020,
-			side = 2,
 			bgName = "bg_unnamearea_1",
+			side = 2,
+			hidePaintEquip = true,
+			actor = 11000020,
 			nameColor = "#A9F548FF",
 			say = "そう、雪不帰さんが……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -139,11 +139,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 11000010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "うん、だからすぐに探しに行かないと！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,9 +158,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			side = 2,
+			hidePaintEquip = true,
 			actor = 11000020,
 			say = "飛鳥さん、探しに行くってどちらへ？今私たちはどこにいるのかすら、分からないのですよ？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,9 +170,9 @@ return {
 			actor = 11000020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
+			hidePaintEquip = true,
 			nameColor = "#A9F548FF",
 			say = "それに…この島の周囲は海ですよ？船も飛行機もないのにどうやって海を渡るのですか？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,11 +182,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 11000010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "それはそうなんだけど…ねぇ、暁ちゃん、あなたの忍術でどうにかならないかな？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え？忍術で！？え、ええと…移動だけならともかく、艤装も無しに追跡や、ましてや戦闘だなんてとても……",
 			painting = {
 				alpha = 0.3,
@@ -218,21 +218,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			side = 2,
+			hidePaintEquip = true,
 			actor = 11000020,
 			say = "艤装？あなたがまとってるその忍具みたいなやつですか？それならさっき……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 301090,
-			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "た、確かに艤装でござる。数もそろってるし、きっとあなたたち用…ってことなんだと思うでござるが……",
 			painting = {
 				alpha = 0.3,
@@ -243,17 +243,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ぶっちゃけとっても怪しいというか何というか",
 			painting = {
 				alpha = 0.3,
@@ -281,10 +281,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "怪しい？罠だってことか？",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "罠というか、こういうことって時々あるんでござる",
 			painting = {
 				alpha = 0.3,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "以前他の世界の方がやってきたときも、いつの間にか艤装が用意されてて、それを纏って戦ったことが……",
 			painting = {
 				alpha = 0.3,
@@ -333,10 +333,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ということは、今回も私たちがそれを使っても、特に支障は無いってことだな？なら、答えは簡単だ",
 			painting = {
 				alpha = 0.3,
@@ -351,10 +351,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とにかくこれを使えば私たちでも海を渡って雪不帰さんを助けに行けるってことだよね！なら、悩む必要なんて！",
 			painting = {
 				alpha = 0.3,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうですね。救援を待たなくとも自分たちだけで出発できると思うでござる",
 			painting = {
 				alpha = 0.3,
@@ -383,12 +383,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "実は…お恥ずかしながら先ほどから母港との連絡がとれてなくて……",
 			painting = {
 				alpha = 0.3,
@@ -400,12 +400,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "捜索隊とか出ちゃってた場合、海上に出てた方が視界が通る分、うまく見つけてもらえる気がするでござる",
 			painting = {
 				alpha = 0.3,
@@ -455,12 +455,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、はい！",
 			painting = {
 				alpha = 0.3,

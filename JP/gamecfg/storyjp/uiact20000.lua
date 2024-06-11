@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{
@@ -23,13 +23,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
-			nameColor = "#ff0000",
-			actorName = "???",
-			withoutPainting = true,
-			blackBg = true,
 			say = "……",
+			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
+			actorName = "???",
+			withoutPainting = true,
 			shake = {
 				speed = 1,
 				number = 3
@@ -44,13 +44,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 1,
+			say = "目を覚ませ。戦いが始まるぞ。",
 			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
-			blackBg = true,
-			say = "目を覚ませ。戦いが始まるぞ。",
 			shake = {
 				speed = 1,
 				number = 3
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
+			say = "………",
 			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
-			blackBg = true,
-			say = "………",
 			shake = {
 				speed = 1,
 				number = 3
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 407010,
 			side = 1,
-			nameColor = "#ff0000",
+			say = "夢……？否、「駒」にすぎないお前が夢など見ることはあるまい。あるとしたら、それは人格という思念の欠片、幻覚のようなものだ。",
 			dir = -1,
 			blackBg = true,
-			say = "夢……？否、「駒」にすぎないお前が夢など見ることはあるまい。あるとしたら、それは人格という思念の欠片、幻覚のようなものだ。",
+			actor = 407010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
-			nameColor = "#ff0000",
-			blackBg = true,
 			say = "「生贄<Sacrifice>」、か……",
+			blackBg = true,
+			actor = 405020,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

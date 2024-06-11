@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"A Glorious Interlude\n\n<size=45>Chapter 1 - Her Name is Glorious</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "Port - Commander's Office",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			bgm = "story-1",
+			say = "Port - Commander's Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,13 +76,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "一A Short Time Later——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = " (whispering) Come on, Glorious, get it together. Show some of that Royal Navy glory...! You're the most storied ship of all...!",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "No, no I'm not nervous! ...Here, I found it! The Narvik report!",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -211,9 +211,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The report was clearly complete, why didn't she remember it...?",
 			typewriter = {
 				speed = 0.05,
@@ -269,9 +269,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "*sparkle*",
 			typewriter = {
 				speed = 0.05,

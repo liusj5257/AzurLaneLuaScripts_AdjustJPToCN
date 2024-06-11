@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.15
+					number = 0.15,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.166
+					number = 0.166,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.182
+					number = 0.182,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.198
+					number = 0.198,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.214
+					number = 0.214,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.23
+					number = 0.23,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.246
+					number = 0.246,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.264
+					number = 0.264,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.282
+					number = 0.282,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.3
+					number = 0.3,
+					attr = "criDamage"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "联合爆伤",
 	time = 0,
+	name = "联合爆伤",
+	init_effect = "",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

@@ -1,6 +1,6 @@
 slot0 = class("BackYardDecorationCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0._bg = findTF(slot0._tf, "bg")
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.animation = slot0._tf:GetComponent(typeof(Animation))
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3, slot4)
+slot0.Update = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.furniture = slot1
 
 	LoadSpriteAtlasAsync("furnitureicon/" .. slot1:getConfig("icon"), "", function (slot0)
@@ -41,11 +41,11 @@ function slot0.Update(slot0, slot1, slot2, slot3, slot4)
 	SetActive(slot0.newTF, slot1.newFlag)
 end
 
-function slot0.PlayEnterAnimation(slot0)
+slot0.PlayEnterAnimation = function(slot0)
 	slot0.animation:Play("anim_backyard_furniture_itemin")
 end
 
-function slot0.UpdateMark(slot0, slot1)
+slot0.UpdateMark = function(slot0, slot1)
 	if not slot0.furniture then
 		setActive(slot0.mark, false)
 
@@ -55,7 +55,7 @@ function slot0.UpdateMark(slot0, slot1)
 	setActive(slot0.mark, slot1 and slot1 == slot0.furniture.id)
 end
 
-function slot0.Flush(slot0, slot1, slot2, slot3)
+slot0.Flush = function(slot0, slot1, slot2, slot3)
 	if slot1.id == slot0.furniture.id then
 		slot0:Update(slot1, slot2, slot3)
 	else
@@ -63,11 +63,11 @@ function slot0.Flush(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.HasMask(slot0)
+slot0.HasMask = function(slot0)
 	return slot0.showMask
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

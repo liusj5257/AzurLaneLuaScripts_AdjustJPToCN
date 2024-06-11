@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KENTE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KENTE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Unbridled Positivity\n\n<size=45>Chapter 2 - Kent the Unbeatable! </size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "The first day may have seen a couple reckless accidents, but since then Kent has been handling her secretarial duties just fine.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "The first day may have seen a couple reckless accidents, but since then Kent has been handling her secretarial duties just fine.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "And honestly, with all the work to be done around here, she does make things easier.",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Done with my maid work! Time for secretary business!",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Kent strides into the office with the same bright smile she always has. If only I could seize a share of that boundless energy...",
 			typewriter = {
 				speed = 0.05,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Wait! Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Just as I’m putting my papers back on the shelf, a loud shout from Kent stops me.",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I extend my arm, as requested... and Kent takes a moment to observe my sleeve—",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Kent takes out a sewing kit from her apron, sits strikingly close to me, and starts in with her needle.",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Kent pulls my arm right up against her chest, and I keep my eyes locked firmly on her practiced technique...",
 			typewriter = {
 				speed = 0.05,
@@ -266,9 +266,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Gulp...",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I, erm... suddenly feel like my eyes are wandering.",
 			typewriter = {
 				speed = 0.05,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "We’ll come back to that one, Commander, I can’t sew with you that far from me! Get over here! C’mon! Right up against me!",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "With my resistance faltering and me very nearly smushing into her, Kent finally finishes sewing the button.",
 			typewriter = {
 				speed = 0.05,
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Without even checking her work, she hurries to her feet.",
 			typewriter = {
 				speed = 0.05,
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Oh, never mind! We’ve got way too much to do today! Call me if you need my help!",
 			typewriter = {
 				speed = 0.05,
@@ -428,8 +428,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -438,9 +438,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Kent flashes a carefree smile.",
 			typewriter = {
 				speed = 0.05,
@@ -452,9 +452,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Seeing that smile makes me banish the thought of calling out her carelessness.",
 			typewriter = {
 				speed = 0.05,

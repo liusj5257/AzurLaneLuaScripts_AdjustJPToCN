@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 25213,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 25213,
+	color = "red",
 	icon = 20200,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				maxWeaponNumber = 0,
-				skill_id = 25215,
 				target = "TargetSelf",
+				maxWeaponNumber = 0,
 				check_weapon = true,
+				skill_id = 25215,
 				label = {
 					"RN"
 				}
@@ -32,10 +32,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 25216,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 25216,
 				label = {
 					"RN"
 				}

@@ -6,9 +6,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			bgm = "theme-ucnf-image",
 			actor = 108080,
 			nameColor = "#A9F548FF",
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "やっぱり…この近くにみんなをこの空間に集めた「なにか」があると思ったよ",
@@ -78,27 +78,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_zhuguang_4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_zhuguang_4",
 			say = "しばらくすると、フラッシャーは金属製の「なにか」を回収してきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -277,27 +277,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_zhuguang_4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_zhuguang_4",
 			say = "フラッシャーから持ち帰った装置を受け取り、コンステレーションは確認し始めた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ん……金属材質、大まかな構造は…パーツは台座と本体の2つ…",
@@ -323,11 +323,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "台座の厚さは10センチ、本体は長さ30センチ…なにかの発信機みたいだね",
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なにかわかった？",
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "台座の形から海に浮かんでいる発信装置――つまり小型ビーコンみたい",
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そう。航路を案内するやつ。…これがみんなここに飛ばされてきた原因かも",
@@ -490,11 +490,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "一体どうやってこの擬似空間を作れたんだろう？指揮官が飛ばされた「未来」といい、「星の海」も「リアリティレンズ」も何かと繋がっていたら……",
@@ -527,11 +527,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "私たちがここに飛ばされた理由だよ。でもまだ推測でしかないけど…",
@@ -545,11 +545,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まずはこのビーコンを手がかりに、ここがどこなのかを調べるよ",
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ジャシント、空からの偵察結果は？",
@@ -581,11 +581,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "結論から言いますと…この海域、あと周辺の島々には何もありません",
@@ -599,11 +599,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "海に魚はいませんし、島に動物、植物はもちろん、昆虫や真菌類すら見当たりません",
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "向こうに見えるあの山脈みたいな地形は、なにかの廃棄物で積み上げられたゴミの山です",
@@ -635,11 +635,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……言い換えれば、この擬似空間はほぼ人工物だけで構成されています",
@@ -653,11 +653,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それと、少し離れた場所に人工浮島の構造物も確認できました。…ちょっとセイレーンっぽいですけど",
@@ -804,8 +804,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "グアムが俯いて両手で海水を掬い上げ、ぐっと飲み込んだ。",
@@ -872,11 +872,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……擬似空間がそこまで「再現」できる可能性もあったけど…ここは賭けてみた！",
@@ -890,11 +890,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ジャシント、さっき艦載機を飛ばした時「この海域」って言ったよね？",
@@ -908,11 +908,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "んーそうでしたけど…何かおかしなこと言いました？",
@@ -945,11 +945,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なんだって？私も……",
@@ -965,9 +965,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -981,17 +981,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1058,9 +1058,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1074,17 +1074,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1092,11 +1092,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "塩分どころかミネラルを一切検出していない。水だけ",
@@ -1167,8 +1167,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1179,11 +1179,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "ラフィーの敵味方識別装置に変な反応が……",
 			painting = {
@@ -1233,11 +1233,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "少なくともレーダーの感応範囲内にいるのですね",
@@ -1270,11 +1270,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "セイレーンがわざわざ識別信号を発信するかな…",
@@ -1288,11 +1288,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……いや、あたしたちを誘い込もうとする罠かもしれないけど",
@@ -1306,11 +1306,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "また信号を捉えた。さっきとパターンが違う……識別できない……",
 			painting = {
@@ -1361,11 +1361,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "待ち伏せでも、普通に考えれば相手をわざわざ警戒させないほうがいいはず",

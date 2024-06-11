@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -53,10 +53,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Your idea of a performance is too violent! The other team will use that against you!",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,10 +81,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101176,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Zzz... I'm going to sleep...",
 			painting = {
 				alpha = 0.3,
@@ -99,10 +99,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502023,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Boise, do you want a baozi? It's fresh out of the oven!",
 			painting = {
 				alpha = 0.3,
@@ -117,10 +117,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huff... Puff... Y-yes please.",
 			painting = {
 				alpha = 0.3,
@@ -135,10 +135,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 304080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -153,10 +153,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 304080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How did we get to this point? We were just discussing performances and tactics...",
 			painting = {
 				alpha = 0.3,
@@ -171,10 +171,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 304080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You are all severely lacking in grace!",
 			painting = {
 				alpha = 0.3,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 801090,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 801090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What's wrong with it? They're creating a lively atmosphere! That's what idols are supposed to do!",
 			painting = {
 				alpha = 0.3,
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 304080,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 304080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In that way, I suppose you're right.",
 			painting = {
 				alpha = 0.3,
@@ -223,10 +223,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 801090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Exactly! In fact, I think building hype is our team's greatest strength!",
 			painting = {
 				alpha = 0.3,
@@ -241,10 +241,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 801090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's just like the kind of energy Cyanidin brings – cheerful, fun, and full of aspiration!",
 			painting = {
 				alpha = 0.3,
@@ -259,10 +259,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 801090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then again, maybe not all of us are like that. Ahaha...",
 			painting = {
 				alpha = 0.3,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 801090,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 801090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But that's okay! Being yourself is the most important trait an idol can have!",
 			painting = {
 				alpha = 0.3,

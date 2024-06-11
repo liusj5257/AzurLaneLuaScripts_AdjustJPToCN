@@ -19,9 +19,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "是否接受司令部后勤舰只的临时修整，恢复出战舰队状态？",
 			typewriter = {
 				speed = 0.05,

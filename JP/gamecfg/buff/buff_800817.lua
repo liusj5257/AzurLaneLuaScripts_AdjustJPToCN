@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 800811,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800811,
+	color = "red",
 	icon = 800810,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 800812
+				skill_id = 800812,
+				target = "TargetSelf"
 			}
 		}
 	}

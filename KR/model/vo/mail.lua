@@ -4,7 +4,7 @@ slot0.ATTACHMENT_NONE = 0
 slot0.ATTACHMENT_EXIST = 1
 slot0.ATTACHMENT_TAKEN = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.date = slot1.date
 	slot2 = string.split(HXSet.hxLan(slot1.title), "||")
@@ -26,18 +26,18 @@ function slot0.Ctor(slot0, slot1)
 	slot0.openned = false
 end
 
-function slot0.extend(slot0, slot1)
+slot0.extend = function(slot0, slot1)
 	assert(slot0.id == slot1.id, "id should be the same")
 
 	slot0.content = string.gsub(HXSet.hxLan(slot1.content), "\\n", "\n")
 	slot0.openned = true
 end
 
-function slot0.GetAttchmentDic(slot0)
+slot0.GetAttchmentDic = function(slot0)
 	return GetItemsOverflowDic(underscore.rest(slot0.attachments, 1))
 end
 
-function slot0.sortByTime(slot0, slot1)
+slot0.sortByTime = function(slot0, slot1)
 	if slot0.readFlag == slot1.readFlag then
 		if (slot0.attachFlag == uv0.ATTACHMENT_EXIST and 1 or 0) == (slot1.attachFlag == uv0.ATTACHMENT_EXIST and 1 or 0) then
 			if slot0.date == slot1.date then
@@ -53,11 +53,11 @@ function slot0.sortByTime(slot0, slot1)
 	end
 end
 
-function slot0.setReadFlag(slot0, slot1)
+slot0.setReadFlag = function(slot0, slot1)
 	slot0.readFlag = slot1
 end
 
-function slot0.setImportantFlag(slot0, slot1)
+slot0.setImportantFlag = function(slot0, slot1)
 	slot0.importantFlag = slot1
 end
 

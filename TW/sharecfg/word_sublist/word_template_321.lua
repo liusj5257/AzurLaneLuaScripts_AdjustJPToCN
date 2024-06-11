@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_321 = {}
 slot1 = slot0.word_template_321
 
-function temp()
+temp = function()
 	uv0["網"] = {
 		["禪"] = {
 			this = true
@@ -128,7 +128,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鮪"] = {
 		this = {
 			this = true
@@ -138,7 +138,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["閿"] = {
 		this = {
 			this = true
@@ -148,7 +148,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吳"] = {
 		["百"] = {
 			["益"] = {

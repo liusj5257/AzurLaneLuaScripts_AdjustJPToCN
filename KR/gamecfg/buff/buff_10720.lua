@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔30秒，生成2面旋转的护盾，每个护盾阻挡10发子弹，护盾持续5秒(满级15秒)",
 	name = "守卫之盾",
 	init_effect = "",
+	id = 10720,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每隔30秒，生成2面旋转的护盾，每个护盾阻挡10发子弹，护盾持续$1秒",
 	stack = 1,
-	id = 10720,
+	color = "blue",
 	icon = 10720,
 	last_effect = "",
 	effect_list = {
@@ -77,9 +77,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 10720,
 				time = 30,
-				target = "TargetSelf",
-				skill_id = 10720
+				target = "TargetSelf"
 			}
 		}
 	}

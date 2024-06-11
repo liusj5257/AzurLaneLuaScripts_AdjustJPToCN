@@ -1,18 +1,18 @@
 return {
-	id = "WORLD107B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD107B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hold up a hot minute, y’all! One of my recon planes just spotted a ships, and it’s not allied nor Siren!",
-			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "Us? No, she and her escorts are headed for the Bermuda sector. I don't think they even know we're here.",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "They know about Operation Siren, so whatever she’s here for, I can only hope her intentions are good.",
 			typewriter = {
 				speed = 0.05,
@@ -163,11 +163,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Transferring data... Complete. Communications package sent.",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Things are already complicated enough in the NA Ocean. We have no incentive to make it any worse for ourselves.",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The best course of action is to simply stick to our orders.",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "What, like, fly some planes right above her or something?",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "That should be good enough. TB can set a travel path for the planes to follow.",
 			typewriter = {
 				speed = 0.05,
@@ -280,11 +280,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/21/tb-21",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Plotting course... Complete. Aircraft will proceed in airspace directly intersecting the Iron Blood fleet’s path.",
-			voice = "event:/tb/21/tb-21",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

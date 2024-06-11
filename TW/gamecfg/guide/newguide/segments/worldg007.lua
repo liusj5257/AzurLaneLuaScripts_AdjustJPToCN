@@ -7,8 +7,8 @@ return {
 				"EnterPort"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
 				triggerType = {
 					1
 				},
@@ -37,9 +37,9 @@ return {
 			style = {
 				text = "點擊行動可以查看在港口中發布的任務列表。隨著作戰進度推進，港口中發布的任務類型和數量都會有所增加。",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {
@@ -62,9 +62,9 @@ return {
 			style = {
 				text = "補給商店中會出售各類作戰補給物資。售賣物品會隨著時間週期性刷新。",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {
@@ -87,9 +87,9 @@ return {
 			style = {
 				text = "船塢中可以對停泊艦船進行修理、更換艦隊等操作。",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {

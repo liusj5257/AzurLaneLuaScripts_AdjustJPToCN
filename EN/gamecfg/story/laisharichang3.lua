@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHARICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHARICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Alchemist and the Archipelago of Secrets - Peaceful Port Days\n\n<size=45>3 Learning the Ropes</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "Port - Training Area",
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			bgm = "story-1",
-			say = "Port - Training Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,10 +48,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So this is the area of the sea where they all train. It's every bit as vast as I've heard.",
 			painting = {
 				alpha = 0.3,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 10900040,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Hm? Who is that over there?",
 			painting = {
 				alpha = 0.3,
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 303140,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 303140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, Takao. The targets are ready for you.",
 			painting = {
 				alpha = 0.3,
@@ -96,17 +96,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#A9F548FF",
 			say = "I see. Then I shall begin now... Swift death unto evil!",
 			painting = {
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			say = "KABOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -190,10 +190,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You took out both the close and the distant targets in one fell swoop. Very impressive.",
 			painting = {
 				alpha = 0.3,
@@ -214,10 +214,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 303110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's nothing worthy of... Oh, I haven't met you before. Could you be Miss Lila Decyrus, one of the new arrivals at port?",
 			painting = {
 				alpha = 0.3,
@@ -232,10 +232,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I am. Just call me Lila.",
 			painting = {
 				alpha = 0.3,
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Very well. I am Takao of the Sakura Empire. This is Choukai, one of my sister ships.",
 			painting = {
 				alpha = 0.3,
@@ -264,12 +264,12 @@ return {
 			}
 		},
 		{
-			actor = 303140,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's nice to meet you. Did you come to train as well, Miss Lila?",
 			painting = {
 				alpha = 0.3,
@@ -284,10 +284,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah. I'm still learning the ropes of my \"rigging\" as you call it. I had some spare time, so I thought I'd use it to practice.",
 			painting = {
 				alpha = 0.3,
@@ -302,10 +302,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Having just seen what you're capable of, I feel like the skill gap between me and everyone else has only widened.",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I would've never thought you could fight at close quarters whilst firing a volley with such grace...",
 			painting = {
 				alpha = 0.3,
@@ -338,10 +338,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 303110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you'd like some advice, I suggest not treating your rigging as a niche weapon, but rather as an extension of your body.",
 			painting = {
 				alpha = 0.3,
@@ -356,10 +356,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 303110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Use it with your mind, not your strength, and it will move as if it were a part of you.",
 			painting = {
 				alpha = 0.3,
@@ -371,12 +371,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then you will realize that your cannons are more than just cannons, like how a sword is more than just a long blade.",
 			painting = {
 				alpha = 0.3,
@@ -391,10 +391,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 303110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Additionally, your firepower is strongest when you unleash your full volley. However, you can fire individual shots when the situation calls for it.",
 			painting = {
 				alpha = 0.3,
@@ -409,10 +409,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 303110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As for swinging a melee weapon without disrupting your aim, it is possible, albeit difficult.",
 			painting = {
 				alpha = 0.3,
@@ -424,12 +424,12 @@ return {
 			}
 		},
 		{
-			actor = 303140,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You'll likely want to practice that, Miss Lila, since your claws and your main cannons appear to be interconnected.",
 			painting = {
 				alpha = 0.3,
@@ -444,10 +444,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're right, I should. Would you two be willing to spar with me?",
 			painting = {
 				alpha = 0.3,
@@ -459,12 +459,12 @@ return {
 			}
 		},
 		{
-			actor = 303140,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Absolutely. Takao has been training all day, though, so she should take a break. Let's start with just you and me.",
 			painting = {
 				alpha = 0.3,
@@ -476,12 +476,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you insist. Remember, while she may not have mastered her rigging yet, she is indisputably a seasoned warrior. Do not underestimate her.",
 			painting = {
 				alpha = 0.3,
@@ -495,9 +495,9 @@ return {
 		{
 			actor = 303140,
 			side = 2,
-			bgName = "bg_story_nepu1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_nepu1",
 			say = "I won't!",
 			painting = {
 				alpha = 0.3,
@@ -512,8 +512,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 10900040,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
 			say = "Well then, Choukai... Show me what you've got.",
 			painting = {
@@ -528,9 +528,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu1",
 			actor = 10900040,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "Let's see how you handle THIS!",
 			painting = {
@@ -548,17 +548,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -566,11 +566,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,9 +624,9 @@ return {
 		{
 			actor = 303140,
 			side = 2,
-			bgName = "bg_story_nepu1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_nepu1",
 			say = "Phew... That was close. You're a skilled fighter, Miss Lila. Do you feel you're getting the hang of your rigging now?",
 			painting = {
 				alpha = 0.3,
@@ -641,8 +641,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 10900040,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
 			say = "I'm getting better with each fight, though I still can't compare to you.",
 			painting = {
@@ -658,8 +658,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 10900040,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
 			say = "(That said, it is surprisingly fun to be learning under someone.)",
 			painting = {
@@ -672,11 +672,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "Nice fighting there, nya.",
 			painting = {
@@ -689,8 +689,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -717,11 +717,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "\"Skills\" like what, nya? My ability to perform repairs while under fire, nya?",
 			painting = {
@@ -752,11 +752,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "Ahahaha... I was joking, nya. I'm just here to deliver your lunch, nya. It's on that transport ship over there, nya.",
 			painting = {
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "Go on and grab your food, nya. I'll just be over here with Lila for a bit, nya.",
 			painting = {
@@ -786,11 +786,11 @@ return {
 			}
 		},
 		{
-			actor = 303140,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 303140,
 			nameColor = "#A9F548FF",
 			say = "Lunch? Why, thank you! Are you sure you don't want to eat with us?",
 			painting = {
@@ -803,11 +803,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "I've got business with her, nya. We'll join you after we're done talking, nya.",
 			painting = {
@@ -822,11 +822,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_nepu1",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What do you want, Akashi? It must be important if it's in private.",
 			painting = {
 				alpha = 0.3,
@@ -837,17 +837,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -855,11 +855,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "Ahem... See, I discovered a hot spring on an island not far from here, nya.",
 			painting = {
@@ -872,11 +872,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "The problem is, some mass-produced Sirens like to hang out around there, nya. I need someone to take care of 'em, nya.",
 			painting = {
@@ -892,10 +892,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A hot spring? I'm intrigued.",
 			painting = {
 				alpha = 0.3,
@@ -923,10 +923,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Alright. I'll do it.",
 			painting = {
 				alpha = 0.3,
@@ -938,11 +938,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "Great, nya! I knew I could count on you, nya.",
 			painting = {
@@ -955,11 +955,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			hidepaintobj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			say = "Let's set off at once, nya! I'll explain why you had to leave to them later, nya.",
 			painting = {

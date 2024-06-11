@@ -9,13 +9,13 @@ slot0.Battle.BattleSubUnit = class("BattleSubUnit", slot0.Battle.BattlePlayerUni
 slot0.Battle.BattleSubUnit.__name = "BattleSubUnit"
 slot7 = slot0.Battle.BattleSubUnit
 
-function slot7.Ctor(slot0, slot1, slot2)
+slot7.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._type = uv1.UnitType.PLAYER_UNIT
 end
 
-function slot7.setWeapon(slot0, slot1)
+slot7.setWeapon = function(slot0, slot1)
 	slot2 = slot0._tmpData.default_equip_list
 	slot3 = slot0._tmpData.base_list
 	slot4 = slot0._proficiencyList
@@ -40,7 +40,7 @@ function slot7.setWeapon(slot0, slot1)
 		if slot11 <= Ship.WEAPON_COUNT then
 			slot13 = slot4[slot11]
 
-			function slot14(slot0, slot1, slot2)
+			slot14 = function(slot0, slot1, slot2)
 				if uv0.GetWeaponPropertyDataFromID(slot0).type == uv1.EquipmentType.TORPEDO then
 					return slot3.torpedo_ammo
 				else
@@ -72,7 +72,7 @@ function slot7.setWeapon(slot0, slot1)
 		end
 	end
 
-	function slot8(slot0, slot1)
+	slot8 = function(slot0, slot1)
 		slot3, slot4 = nil
 
 		if uv0[slot1].equipment then
@@ -107,7 +107,7 @@ function slot7.setWeapon(slot0, slot1)
 	end
 end
 
-function slot7.AddDisposableTorpedo(slot0, slot1, slot2, slot3, slot4, slot5)
+slot7.AddDisposableTorpedo = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._totalWeapon[#slot0._totalWeapon + 1] = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot1, slot0, slot4, slot5, uv1.EquipmentType.DISPOSABLE_TORPEDO)
 
 	if slot2 then

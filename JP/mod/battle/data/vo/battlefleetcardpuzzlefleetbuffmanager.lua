@@ -13,13 +13,13 @@ slot10 = class("BattleFleetCardPuzzleFleetBuffManager")
 slot0.Battle.BattleFleetCardPuzzleFleetBuffManager = slot10
 slot10.__name = "BattleFleetCardPuzzleFleetBuffManager"
 
-function slot10.Ctor(slot0, slot1)
+slot10.Ctor = function(slot0, slot1)
 	slot0._client = slot1
 
 	slot0:init()
 end
 
-function slot10.Trigger(slot0, slot1, slot2)
+slot10.Trigger = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0._buffList) do
@@ -33,13 +33,13 @@ function slot10.Trigger(slot0, slot1, slot2)
 	end
 end
 
-function slot10.Update(slot0, slot1)
+slot10.Update = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot0._buffList) do
 		slot7:Update(slot1)
 	end
 end
 
-function slot10.AttachCardPuzzleBuff(slot0, slot1)
+slot10.AttachCardPuzzleBuff = function(slot0, slot1)
 	if slot0:GetCardPuzzleBuff(slot1:GetID()) then
 		slot3:Stack()
 	else
@@ -49,14 +49,14 @@ function slot10.AttachCardPuzzleBuff(slot0, slot1)
 	end
 end
 
-function slot10.GetCardPuzzleBuff(slot0, slot1)
+slot10.GetCardPuzzleBuff = function(slot0, slot1)
 	return slot0._buffList[slot1]
 end
 
-function slot10.GetCardPuzzleBuffList(slot0)
+slot10.GetCardPuzzleBuffList = function(slot0)
 	return slot0._buffList
 end
 
-function slot10.init(slot0)
+slot10.init = function(slot0)
 	slot0._buffList = {}
 end

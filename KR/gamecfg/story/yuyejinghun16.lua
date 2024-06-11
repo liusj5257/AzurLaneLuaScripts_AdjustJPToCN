@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			bgm = "qe-ova-15",
 			actorName = "에식스",
+			bgm = "qe-ova-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "판자로 만들어진 벽이라고는 하지만 그 무게는 상당했습니다.",
 			typewriter = {
@@ -49,9 +49,9 @@ return {
 		{
 			portrait = 202080,
 			side = 2,
+			actorName = "셰필드",
 			bgName = "star_level_bg_600",
 			factiontag = "고증 담당 마스터",
-			actorName = "셰필드",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "연회장에는 테이블과 의자가 산더미처럼 쌓여 있었고, 그 외에도 상자로 포장된 많은 양의 식기, 티슈, 폭죽 등의 잡화가 놓여 있었습니다.",
@@ -60,17 +60,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -198,27 +198,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_600",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_600",
 			say = "잠시 후――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

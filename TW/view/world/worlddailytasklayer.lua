@@ -6,11 +6,11 @@ slot0.optionsPath = {
 	"blur_panel/adapt/top/title/option"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldDailyTaskUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	for slot4, slot5 in pairs(uv0.Listeners) do
 		slot0[slot4] = function (...)
 			uv0[uv1](uv2, ...)
@@ -75,7 +75,7 @@ function slot0.init(slot0)
 					uv0:emit(WorldDailyTaskMediator.OnSubmitTask, uv1.task)
 				end, SFX_PANEL)
 
-				function slot3.onDrop(slot0)
+				slot3.onDrop = function(slot0)
 					uv0:emit(uv1.ON_DROP, slot0)
 				end
 
@@ -87,7 +87,7 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData()
 	})
@@ -105,11 +105,11 @@ function slot0.didEnter(slot0)
 	slot0:OnUpdateTasks()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0.btnBack)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtBlurPanel, slot0._tf)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0:DisposeTasks()
@@ -118,13 +118,13 @@ function slot0.willExit(slot0)
 	slot0.taskProxy = nil
 end
 
-function slot0.SetTaskProxy(slot0, slot1)
+slot0.SetTaskProxy = function(slot0, slot1)
 	slot0.taskProxy = slot1
 
 	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateDailyTaskIds, slot0.onUpdateTasks)
 end
 
-function slot0.OnUpdateTasks(slot0)
+slot0.OnUpdateTasks = function(slot0)
 	slot0.taskVOs = underscore.map(slot0.taskProxy:getDailyTaskIds(), function (slot0)
 		return WorldTask.New({
 			id = slot0
@@ -137,7 +137,7 @@ function slot0.OnUpdateTasks(slot0)
 	setActive(slot0.btnAllAccept, slot0.taskProxy:canAcceptDailyTask())
 end
 
-function slot0.DisposeTasks(slot0)
+slot0.DisposeTasks = function(slot0)
 	_.each(slot0.wsTasks, function (slot0)
 		slot0:Dispose()
 	end)
@@ -145,7 +145,7 @@ function slot0.DisposeTasks(slot0)
 	slot0.wsTasks = nil
 end
 
-function slot0.showTaskWindow(slot0, slot1)
+slot0.showTaskWindow = function(slot0, slot1)
 	setActive(slot0.rtTaskWindow:Find("main_window/left_panel"):Find("bg"), slot1:IsSpecialType())
 
 	if #slot1.config.rare_task_icon > 0 then
@@ -196,7 +196,7 @@ function slot0.showTaskWindow(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.rtTaskWindow, slot0._tf)
 end
 
-function slot0.hideTaskWindow(slot0)
+slot0.hideTaskWindow = function(slot0)
 	setActive(slot0.rtTaskWindow, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtTaskWindow, slot0._tf)
 end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"御召艦の宴\n\n<size=45>六 主賓は二人っきり</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "あらあら、やはり霧島は人気者です。",
 			bgm = "story-1",
+			actor = 304020,
+			nameColor = "#a9f548",
+			say = "あらあら、やはり霧島は人気者です。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "あんなに多くの子たちの中でうまく立ち回れるなんて……流石に天性の魅力を持っているだけのことはありますね。",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "なぜか比叡の頬が少し赤みを帯びているように見えた。…錯覚ではなさそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -100,13 +100,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "指揮官と比叡を発見したにゃ！",
 			bgm = "story-1",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "指揮官と比叡を発見したにゃ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "指揮官こんばんは。そして比叡さん、お誘いありがとうございます。",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官こんばんは。そして比叡さん、お誘いありがとうございます。",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "食材は明石が用意したにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			say = "ふにゃ！？び、びっくりしたにゃ…金剛だにゃ……",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "ふにゃ！？び、びっくりしたにゃ…金剛だにゃ……",
+			actor = 312010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -263,12 +263,12 @@ return {
 			}
 		},
 		{
-			actor = 304010,
+			say = "大したことありませんわ。それより、せっかくの宴会ですから、あなたもここで見ているだけじゃなくてもっと……",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "大したことありませんわ。それより、せっかくの宴会ですから、あなたもここで見ているだけじゃなくてもっと……",
+			actor = 304010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 304010,
+			say = "あら、もしかして……分かりましたわ。明石、不知火、あちらでおしゃべりでもしませんこと？",
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、もしかして……分かりましたわ。明石、不知火、あちらでおしゃべりでもしませんこと？",
+			actor = 304010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "別に……うにゃ！？明石を急に持ち上げないでにゃ！明石は歩けるにゃ！！",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -377,9 +377,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "……妙に気を使われた。",
 			typewriter = {
 				speed = 0.05,
@@ -403,12 +403,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "指揮官様、一曲だけ比叡のダンス相手をしていただけないかしら？",
 			typewriter = {
 				speed = 0.05,

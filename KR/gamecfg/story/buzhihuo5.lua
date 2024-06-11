@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"만능 점원 시라누이\n\n<size=45>이상현상</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "휴일을 맞아, 다시 한 번 더 저번처럼 보급 상점이 잘 보이는 근처 풀숲에 숨어 가게 안을 관찰(?)하게 되었다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "휴일을 맞아, 다시 한 번 더 저번처럼 보급 상점이 잘 보이는 근처 풀숲에 숨어 가게 안을 관찰(?)하게 되었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……어라? 그러고 보니 이렇게 시라누이를 관찰하기 시작한 것도 꽤 오래된 것 같은데.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "평소 이러니저러니 '차갑다' 는 인상을 주는 그녀지만, 이렇게 관찰해보니 그렇게 차갑지는 않다는 걸 알게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "하지만……",
 			typewriter = {
 				speed = 0.05,
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301180,
 			nameColor = "#92fc63",
 			say = "……역시나, 시라누이에게 걸려버렸다.",
 			typewriter = {
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "확실히 그렇긴 하지.",
 			typewriter = {
 				speed = 0.05,
@@ -157,11 +157,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#92fc63",
 			say = "……거기서 무엇을 관찰하셨는지요?",
 			typewriter = {
 				speed = 0.05,
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301180,
 			nameColor = "#92fc63",
 			say = "……진짜 그렇게 한다고 해도 또 바보 취급할 거 같은데. 그것보다……",
 			typewriter = {
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "하긴 지금까지 관찰한 걸 보면, 확실히 시라누이 혼자서도 괜찮을 것 같긴 하지만……",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이렇게 점원과 비서함을 동시에 계속해 나아가는 건 확실히 한계가 있다고 생각한다.",
 			typewriter = {
 				speed = 0.05,
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301180,
 			nameColor = "#92fc63",
 			say = "시라누이는 말을 마치자마자, 갑자기 비틀거리기 시작했다.",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#92fc63",
 			say = "단순한……현기증이어요.",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,

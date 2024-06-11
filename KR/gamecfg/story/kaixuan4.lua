@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"빛나는 아이리스\n\n<size=45>풀 죽은 트리옹팡</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "트리옹팡과 함께 모항을 순찰 중이다.",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "트리옹팡과 함께 모항을 순찰 중이다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "왠지 의욕이 넘치는 트리옹팡이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "에레버스랑 테러와 만났다.",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			actor = 213010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			dir = -1,
 			say = "트리옹팡 씨, 고마워. 트리옹팡 씨와 함께 출격하게 된 후로, 테러도 왠지 자신감이 붙은 거 같아…",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -187,14 +187,14 @@ return {
 			}
 		},
 		{
-			actor = 213010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 213010,
 			say = "미안해. 햇볕이 너무 강하면 테러 몸에 안 좋으니까, 답례는 다음에 다시… 테러, 과자라도 먹으러 갈까?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "에레버스와 테러가 떠났다.",
 			typewriter = {
 				speed = 0.05,
@@ -263,14 +263,14 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 107020,
 			say = "어머, 트리옹팡? 지휘관이랑 모항 순찰이야?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -313,8 +313,8 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			dir = 1,
 			say = "에? 에에엥! 어떻게 알았어!? 지휘관 깜짝 놀래켜주려 했는데~",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -404,14 +404,14 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 801010,
 			say = "어른스러운, 모습이라…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -436,9 +436,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -450,9 +450,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "르 트리옹팡은 조금 우울해졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -500,12 +500,12 @@ return {
 			}
 		},
 		{
-			actor = 801010,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			withoutActorName = true,
-			dir = 1,
 			blackBg = true,
+			actor = 801010,
 			say = "우울해진 이유를 묻자, 르 트리옹팡은 쑥스러운 듯 발걸음을 옮기며 말을 꺼냈다.",
 			typewriter = {
 				speed = 0.05,

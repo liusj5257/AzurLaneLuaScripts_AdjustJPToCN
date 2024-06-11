@@ -1,17 +1,17 @@
 slot0 = class("GuildMemberBasePage", import("....base.BaseSubView"))
 
-function slot0.SetCallBack(slot0, slot1, slot2)
+slot0.SetCallBack = function(slot0, slot1, slot2)
 	slot0.onShowCallBack = slot1
 	slot0.onHideCallBack = slot2
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.buttonContainer = slot0:findTF("frame/opera")
 	slot2 = pg.UIMgr:GetInstance().OverlayMain.transform:InverseTransformPoint(slot0.buttonContainer.position)
 	slot0.buttonPos = Vector3(slot2.x, slot2.y, 0)
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3, slot4)
+slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 	if slot4 then
 		slot4()
 	end
@@ -31,7 +31,7 @@ function slot0.Show(slot0, slot1, slot2, slot3, slot4)
 	slot0.onShowCallBack(slot0.buttonPos)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0:isShowing() then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	end
@@ -46,15 +46,15 @@ function slot0.Hide(slot0)
 	slot0.onHideCallBack()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 
-function slot0.ShouldShow(slot0)
+slot0.ShouldShow = function(slot0)
 	return true
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 end
 
 return slot0

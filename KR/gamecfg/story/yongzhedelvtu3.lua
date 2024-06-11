@@ -4,18 +4,18 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "story-richang-2",
+			side = 2,
 			say = "국경도시·대장간",
+			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 알림",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "더 험난한 전투를 대비해 우선 장비를 강화하세요.",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 알림",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "100G 골드 소모. 현재 남은 골드 100G. 아이템 워리어 액스 +1를 획득했습니다.",
 			typewriter = {
@@ -83,17 +83,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 알림",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "100G 골드 소모. 현재 남은 골드 0G. 아이템 워리어 액스 +1가 사라졌습니다.",
 			typewriter = {
@@ -160,17 +160,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -214,8 +214,8 @@ return {
 			expression = 7,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "………… 워, 워리어 액스가 깨졌다니!?",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			expression = 6,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "지갑도…… 텅 비어버렸는데!",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "아하, 하, 하…………",
 			painting = {
 				alpha = 0.3,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "다시 파밍부터 하러 가야겠네…… 으아아…………",
 			painting = {
 				alpha = 0.3,

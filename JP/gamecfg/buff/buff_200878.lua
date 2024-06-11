@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 黑企业",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 黑企业",
+	init_effect = "",
+	id = 200878,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200878,
+	color = "yellow",
 	icon = 200878,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200879,
-				target = "TargetSelf",
-				time = 0.2
+				time = 0.2,
+				target = "TargetSelf"
 			}
 		}
 	}

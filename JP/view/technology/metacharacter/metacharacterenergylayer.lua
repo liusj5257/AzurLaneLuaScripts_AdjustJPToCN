@@ -1,18 +1,18 @@
 slot0 = class("MetaCharacterEnergyLayer", import("...base.BaseUI"))
 slot1 = pg.ship_meta_breakout
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MetaCharacterEnergyUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initUITipText()
 	slot0:initData()
 	slot0:initUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateShipImg()
 	slot0:updateNamePanel()
 	slot0:updateChar()
@@ -31,7 +31,7 @@ function slot0.didEnter(slot0)
 	slot0:TryPlayGuide()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:moveShipImg(false)
 	slot0:recycleChar()
 
@@ -44,7 +44,7 @@ function slot0.willExit(slot0)
 	slot0:disablePartialBlur()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.previewTF) then
 		slot0:closePreviewPanel()
 
@@ -54,14 +54,14 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.initUITipText(slot0)
+slot0.initUITipText = function(slot0)
 	setText(slot0:findTF("Preview/FinalAttrPanel/TitleText"), i18n("meta_energy_preview_title"))
 	setText(slot0:findTF("Preview/FinalAttrPanel/TipText"), i18n("meta_energy_preview_tip"))
 	setText(slot0:findTF("RightPanel/MaterialPanel/StarMax/Text"), i18n("word_level_upperLimit"))
 	setText(slot0:findTF("RightPanel/MaterialPanel/TipText"), i18n("meta_break"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.shipPrefab = nil
 	slot0.shipModel = nil
 	slot0.metaCharacterProxy = getProxy(MetaCharacterProxy)
@@ -73,7 +73,7 @@ function slot0.initData(slot0)
 	slot0:updateData()
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.shipImg = slot0:findTF("ShipImg")
 	slot0.nameTF = slot0:findTF("NamePanel")
 	slot0.nameScrollText = slot0:findTF("NameMask/NameText", slot0.nameTF)
@@ -131,7 +131,7 @@ function slot0.initUI(slot0)
 	slot0.previewAttrUIItemList = UIItemList.New(slot0.previewAttrContainer, slot0.previewAttrTpl)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.previewBtn, function ()
 		uv0:openPreviewPanel()
 	end, SFX_PANEL)
@@ -151,16 +151,16 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.curShipVO = slot0.bayProxy:getShipById(slot0.curMetaShipID)
 	slot0.curMetaCharacterVO = slot0.curShipVO:getMetaCharacter()
 end
 
-function slot0.TryPlayGuide(slot0)
+slot0.TryPlayGuide = function(slot0)
 	pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0026")
 end
 
-function slot0.updateShipImg(slot0)
+slot0.updateShipImg = function(slot0)
 	slot1, slot2 = MetaCharacterConst.GetMetaCharacterPaintPath(slot0.curMetaCharacterVO.id, true)
 
 	setImageSprite(slot0.shipImg, LoadSprite(slot1, slot2), true)
@@ -177,7 +177,7 @@ function slot0.updateShipImg(slot0)
 	})
 end
 
-function slot0.updateNamePanel(slot0)
+slot0.updateNamePanel = function(slot0)
 	slot1 = slot0.curShipVO
 	slot2 = slot0.curMetaCharacterVO
 
@@ -197,10 +197,10 @@ function slot0.updateNamePanel(slot0)
 	slot0.nameTFStarUIList:align(slot1:getMaxStar())
 end
 
-function slot0.updateChar(slot0)
+slot0.updateChar = function(slot0)
 end
 
-function slot0.recycleChar(slot0)
+slot0.recycleChar = function(slot0)
 	if slot0.shipPrefab and slot0.shipModel then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.shipPrefab, slot0.shipModel)
 
@@ -209,11 +209,11 @@ function slot0.recycleChar(slot0)
 	end
 end
 
-function slot0.updateAttrPanel(slot0)
+slot0.updateAttrPanel = function(slot0)
 	slot1 = slot0.curShipVO
 	slot3 = slot0.curMetaCharacterVO:getBreakOutInfo()
 
-	function slot4(slot0, slot1)
+	slot4 = function(slot0, slot1)
 		Clone(uv1).configId = uv0:getNextInfo().id
 		slot5 = 0
 		slot6 = 0
@@ -235,7 +235,7 @@ function slot0.updateAttrPanel(slot0)
 		uv2.starToList:align(slot3:getStar())
 	end
 
-	function slot5(slot0, slot1)
+	slot5 = function(slot0, slot1)
 		slot2 = uv0:getShipProperties()
 		slot4 = 0
 		slot4 = (AttributeType.Expend == MetaCharacterConst.ENERGY_ATTRS[slot0 + 1] or math.floor(uv0:getShipProperties()[slot3])) and math.floor(uv0:getBattleTotalExpend())
@@ -263,7 +263,7 @@ function slot0.updateAttrPanel(slot0)
 	slot0.attrsList:align(#MetaCharacterConst.ENERGY_ATTRS)
 end
 
-function slot0.updateMaterialPanel(slot0, slot1)
+slot0.updateMaterialPanel = function(slot0, slot1)
 	slot2 = slot0.curShipVO
 	slot5 = getProxy(BagProxy)
 
@@ -353,17 +353,17 @@ function slot0.updateMaterialPanel(slot0, slot1)
 	setActive(slot0.activeBtnDisable, not slot6)
 end
 
-function slot0.moveShipImg(slot0, slot1)
+slot0.moveShipImg = function(slot0, slot1)
 	slot3 = MetaCharacterConst.UIConfig[slot0.curMetaCharacterVO.id]
 
 	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), slot1 and slot3[5] or -2000, 0.2):setFrom(slot1 and -2000 or slot3[5])
 end
 
-function slot0.moveRightPanel(slot0)
+slot0.moveRightPanel = function(slot0)
 	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.rightPanel), 577.64, 0.2):setFrom(2000)
 end
 
-function slot0.updatePreviewAttrListPanel(slot0)
+slot0.updatePreviewAttrListPanel = function(slot0)
 	slot2 = slot0.curMetaCharacterVO
 	slot4 = Clone(slot0.curShipVO)
 	slot4.level = 125
@@ -396,7 +396,7 @@ function slot0.updatePreviewAttrListPanel(slot0)
 	})
 end
 
-function slot0.initPreviewPanel(slot0, slot1)
+slot0.initPreviewPanel = function(slot0, slot1)
 	slot2 = slot0.curShipVO
 	slot0.breakIds = slot0:getAllBreakIDs(slot0.curMetaCharacterVO.id)
 
@@ -432,7 +432,7 @@ function slot0.initPreviewPanel(slot0, slot1)
 	slot0:updatePreviewAttrListPanel()
 end
 
-function slot0.closePreviewPanel(slot0)
+slot0.closePreviewPanel = function(slot0)
 	if slot0.previewer then
 		slot0.previewer:clear()
 
@@ -444,7 +444,7 @@ function slot0.closePreviewPanel(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.previewTF, slot0._tf)
 end
 
-function slot0.openPreviewPanel(slot0)
+slot0.openPreviewPanel = function(slot0)
 	setActive(slot0.previewTF, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.previewTF, false, {
 		weight = LayerWeightConst.TOP_LAYER
@@ -452,15 +452,15 @@ function slot0.openPreviewPanel(slot0)
 	slot0:playLoadingAni()
 end
 
-function slot0.playLoadingAni(slot0)
+slot0.playLoadingAni = function(slot0)
 	setActive(slot0.seaLoading, true)
 end
 
-function slot0.stopLoadingAni(slot0)
+slot0.stopLoadingAni = function(slot0)
 	setActive(slot0.seaLoading, false)
 end
 
-function slot0.getAllBreakIDs(slot0, slot1)
+slot0.getAllBreakIDs = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(uv0.all) do
@@ -472,11 +472,11 @@ function slot0.getAllBreakIDs(slot0, slot1)
 	return slot2
 end
 
-function slot0.getWaponIdsById(slot0, slot1)
+slot0.getWaponIdsById = function(slot0, slot1)
 	return uv0[slot1].weapon_ids
 end
 
-function slot0.getAllWeaponIds(slot0)
+slot0.getAllWeaponIds = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.breakIds) do
@@ -498,7 +498,7 @@ function slot0.getAllWeaponIds(slot0)
 	return slot1
 end
 
-function slot0.showBarrage(slot0)
+slot0.showBarrage = function(slot0)
 	slot1 = slot0.bayProxy
 	slot1 = slot1:getShipById(slot0.curMetaShipID)
 	slot2 = slot1:getMetaCharacter()
@@ -518,7 +518,7 @@ function slot0.showBarrage(slot0)
 	end)
 end
 
-function slot0.switchStage(slot0, slot1)
+slot0.switchStage = function(slot0, slot1)
 	if slot0.breakOutId == slot1 then
 		return
 	end
@@ -530,7 +530,7 @@ function slot0.switchStage(slot0, slot1)
 	end
 end
 
-function slot0.enablePartialBlur(slot0)
+slot0.enablePartialBlur = function(slot0)
 	if slot0._tf then
 		slot1 = {}
 
@@ -544,7 +544,7 @@ function slot0.enablePartialBlur(slot0)
 	end
 end
 
-function slot0.disablePartialBlur(slot0)
+slot0.disablePartialBlur = function(slot0)
 	if slot0._tf then
 		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"매력 발산 MAX!\n\n<size=45>2. 스루가의 진심</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항・지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항・지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "스루가 덕분에 업무는 매우 순조로웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "……아——",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "………‥‥으음.",
 			typewriter = {
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "가끔 생각에 잠긴 그녀의 나지막한 음성을 제외하면 지휘실은 조용했다. 따로 지시할 필요 없이 그녀는 스스로 일을 잘 해냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "하지만 무거운 분위기가 개선되지 않은 것은 아쉽다. 아마 그녀의 진심을 아직 이해하지 못했기 때문일 것이다.",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "지휘관님, 최근 저에게 맡기신 업무는 모두 끝냈습니다.",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "보고서를 확인한 후 그녀의 업무 성과를 칭찬했다.",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "확실히 밀린 업무가 있었지만, 우선 순위는 높지 않아서 딱히 스루가의 도움은 필요 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그렇게까지 말할 필요는 없다——",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(……아, 이런…… 방금 너무 경솔했다……)",
 			typewriter = {
@@ -264,11 +264,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 305140,
 			actorName = "2인",
 			say = "……",
 			typewriter = {
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "스루가의 기분이 별로 좋아 보이지 않는다……",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(아, 지휘관님 화나신 거 겠지…… 맞는 것 같아……）",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "(계속 이대로 있는 것보단, 차라리……)",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "비서함 업무에 관해서는, 새로 적당한 사람을 찾아보시는 것이…… 똑같은 의견을!?",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -361,9 +361,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "역시 그녀는 이것을 고려하고 있었다……",
 			typewriter = {
 				speed = 0.05,
@@ -378,8 +378,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(아냐…… 비서함으로 임명되었다가 금방 사임해버린 함선…… 이것도 너무 난감하잖아……）",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(냉정하게 생각해 보자, 스루가…… 역시 이렇게 쉽게 사임하지는 말아야겠어.)",
 			typewriter = {
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………스루가의 이 반응을 보아하니, 속마음은 계속 비서함을 하고 싶어하는 것이겠지……？",
 			typewriter = {
 				speed = 0.05,

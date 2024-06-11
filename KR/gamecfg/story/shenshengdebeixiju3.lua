@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ffde38",
-			actorName = "베네토(교신)",
-			say = "전선은 어떻습니까? 세이렌은 모두 섬멸했습니까?",
+			side = 2,
 			dir = 1,
 			bgm = "battle-boss-italy",
+			actorName = "베네토(교신)",
+			say = "전선은 어떻습니까? 세이렌은 모두 섬멸했습니까?",
 			effects = {
 				{
 					active = true,
@@ -29,10 +29,10 @@ return {
 			}
 		},
 		{
-			actor = 605060,
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
+			actor = 605060,
 			say = "제대로 된 판단도 하지 못하는 조무래기일 뿐이야. 위협조차 되지 않지.",
 			effects = {
 				{
@@ -95,10 +95,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffde38",
-			actorName = "베네토(교신)",
+			side = 2,
 			dir = 1,
+			actorName = "베네토(교신)",
 			say = "좋습니다. 잘 하셨습니다. 체사레, 모두를 데리고 라스페치아 항으로 돌아와 정비하세요. 항구의 병참 보조에게 연락을 넣어 부탁을 해두겠습니다.",
 			effects = {
 				{
@@ -116,10 +116,10 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
+			actor = 603020,
 			say = "축하연인가요. 정말 기대되네요. 후후~",
 			effects = {
 				{
@@ -140,8 +140,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "잠시만, 저건?",
 			typewriter = {
 				speed = 0.05,
@@ -153,10 +153,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			say = "……",
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			effects = {
 				{
 					active = true,
@@ -169,10 +169,10 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
+			actor = 603020,
 			say = "총 기함, 오늘 제국 공군의 지원이 있다고 했나요?",
 			effects = {
 				{
@@ -193,8 +193,8 @@ return {
 			actor = 605050,
 			side = 2,
 			expression = 1,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "아니… 기종을 보니 저건… 로열의 정찰기!",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "전원, 대공 준비!",
 			typewriter = {
 				speed = 0.05,
@@ -225,8 +225,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 900197,
 			dir = 1,
+			actor = 900197,
 			say = "늦었어… 이미 사정거리 밖으로 나가버렸어…",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "로열은 정말 성가시네요. 파리처럼 귀찮게 굴긴!",
 			typewriter = {
 				speed = 0.05,
@@ -272,8 +272,8 @@ return {
 			expression = 6,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "……",
 			typewriter = {
 				speed = 0.05,

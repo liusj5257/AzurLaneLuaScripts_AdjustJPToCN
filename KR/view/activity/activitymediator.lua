@@ -42,8 +42,10 @@ slot0.CHARGE = "ActivityMediator.CHARGE"
 slot0.BUY_ITEM = "ActivityMediator.BUY_ITEM"
 slot0.OPEN_CHARGE_ITEM_PANEL = "ActivityMediator.OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_BIRTHDAY = "ActivityMediator.OPEN_CHARGE_BIRTHDAY"
+slot0.STORE_DATE = "ActivityMediator.STORE_DATE"
+slot0.ON_ACT_SHOPPING = "ActivityMediator.ON_ACT_SHOPPING"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
 	slot0:bind(uv0.ON_AWARD_WINDOW, function (slot0, slot1, slot2, slot3)
@@ -318,6 +320,22 @@ function slot0.register(slot0)
 			data = {}
 		}))
 	end)
+	slot0:bind(uv0.STORE_DATE, function (slot0, slot1)
+		uv0:sendNotification(GAME.ACTIVITY_STORE_DATE, {
+			activity_id = slot1.actId,
+			intValue = slot1.intValue or 0,
+			strValue = slot1.strValue or "",
+			callback = slot1.callback
+		})
+	end)
+	slot0:bind(uv0.ON_ACT_SHOPPING, function (slot0, slot1, slot2, slot3, slot4)
+		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
+			activity_id = slot1,
+			cmd = slot2,
+			arg1 = slot3,
+			arg2 = slot4
+		})
+	end)
 	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())
 
 	slot3 = getProxy(PlayerProxy):getRawData()
@@ -326,7 +344,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setFlagShip(getProxy(BayProxy):getShipById(slot3.character))
 end
 
-function slot0.onUIAvalible(slot0)
+slot0.onUIAvalible = function(slot0)
 	slot0.UIAvalible = true
 
 	_.each(slot0.UIAvalibleCallbacks, function (slot0)
@@ -334,7 +352,7 @@ function slot0.onUIAvalible(slot0)
 	end)
 end
 
-function slot0.initNotificationHandleDic(slot0)
+slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[ActivityProxy.ACTIVITY_ADDED] = function (slot0, slot1)
 			if slot1:getBody():getConfig("type") == ActivityConst.ACTIVITY_TYPE_LOTTERY then
@@ -455,6 +473,7 @@ function slot0.initNotificationHandleDic(slot0)
 					end
 				end
 			}, function ()
+				uv0.viewComponent:updateTaskLayers()
 			end)
 		end,
 		[GAME.ACTIVITY_PERMANENT_START_DONE] = function (slot0, slot1)
@@ -486,11 +505,23 @@ function slot0.initNotificationHandleDic(slot0)
 		end,
 		[GAME.ACT_MANUAL_SIGN_DONE] = function (slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)
+		end,
+		[ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS] = function (slot0, slot1)
+			slot3 = slot0.viewComponent
+
+			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()
+				if getProxy(ActivityProxy):getActivityById(ActivityConst.UR_EXCHANGE_MOGADOR_ID) and not slot0:isShow() then
+					uv0.viewComponent:removeActivity(ActivityConst.UR_EXCHANGE_MOGADOR_ID)
+				end
+
+				uv0.viewComponent:updateTaskLayers()
+				uv1.callback()
+			end)
 		end
 	}
 end
 
-function slot0.showNextActivity(slot0)
+slot0.showNextActivity = function(slot0)
 	if not getProxy(ActivityProxy) then
 		return
 	end

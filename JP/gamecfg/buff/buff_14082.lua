@@ -1,7 +1,7 @@
 return {
-	time = 3,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 3,
 	picture = "",
 	desc = "回复血量",
 	stack = 1,

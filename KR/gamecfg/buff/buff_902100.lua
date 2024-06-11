@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 902100,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902100,
+	color = "red",
 	icon = 902100,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = 23,
-				number = -0.1
+				number = -0.1,
+				type = 23
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = -0.15,
+				attr = "damageRatioBullet",
 				index = {
 					1
 				}

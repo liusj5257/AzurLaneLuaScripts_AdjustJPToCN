@@ -1,6 +1,6 @@
 slot0 = class("GetOpeningUpShopCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody() and slot2.callback
 	slot0.shopsProxy = getProxy(ShopsProxy)
 	slot0.shopList = {}
@@ -43,7 +43,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.GetMilitaryShop(slot0, slot1)
+slot0.GetMilitaryShop = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot0.shopsProxy:getMeritorousShop() then
@@ -67,7 +67,7 @@ function slot0.GetMilitaryShop(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetStressShop(slot0, slot1)
+slot0.GetStressShop = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot0.shopsProxy:getShopStreet() then
@@ -91,7 +91,7 @@ function slot0.GetStressShop(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetGuildShop(slot0, slot1)
+slot0.GetGuildShop = function(slot0, slot1)
 	if LOCK_GUILD_SHOP then
 		slot1()
 
@@ -122,7 +122,7 @@ function slot0.GetGuildShop(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetShamShop(slot0, slot1)
+slot0.GetShamShop = function(slot0, slot1)
 	slot2 = {}
 	slot3 = slot0.shopsProxy:getShamShop()
 
@@ -138,7 +138,7 @@ function slot0.GetShamShop(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetFragmentShop(slot0, slot1)
+slot0.GetFragmentShop = function(slot0, slot1)
 	slot2 = {}
 	slot3 = slot0.shopsProxy:getFragmentShop()
 
@@ -154,7 +154,7 @@ function slot0.GetFragmentShop(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetActivityShops(slot0, slot1)
+slot0.GetActivityShops = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot0.shopsProxy:getActivityShops() or #slot3 == 0 then
@@ -192,7 +192,7 @@ function slot0.GetActivityShops(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetMetaShops(slot0, slot1)
+slot0.GetMetaShops = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot0.shopsProxy:GetMetaShop() then
@@ -225,7 +225,7 @@ function slot0.GetMetaShops(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetMedalShops(slot0, slot1)
+slot0.GetMedalShops = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot0.shopsProxy:GetMedalShop() then
@@ -252,7 +252,7 @@ function slot0.GetMedalShops(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetMiniShops(slot0, slot1)
+slot0.GetMiniShops = function(slot0, slot1)
 	if LOCK_MINIGAME_HALL then
 		if slot1 then
 			slot1()
@@ -290,7 +290,7 @@ function slot0.GetMiniShops(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.GetQuotaShop(slot0, slot1)
+slot0.GetQuotaShop = function(slot0, slot1)
 	if LOCK_QUOTA_SHOP then
 		slot1()
 

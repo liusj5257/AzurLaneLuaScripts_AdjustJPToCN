@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "序章俾斯麦撤退",
 	time = 0,
+	name = "序章俾斯麦撤退",
+	init_effect = "",
 	picture = "",
 	desc = "序章俾斯麦撤退",
 	stack = 1,
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				group = 7023,
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		}
 	}

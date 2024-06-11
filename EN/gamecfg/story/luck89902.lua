@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK89902",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK89902",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "All this, the culmination of thy endeavors.",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "For thy brilliance, thy warmth, thy affection—I shall watch over, as I do serve.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "The path ahead of Champagne and the Commander, stretches forth for eternity.",
 			typewriter = {
 				speed = 0.05,

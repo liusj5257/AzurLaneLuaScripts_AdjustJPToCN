@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN8",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,10 +38,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wow, Katsuragi, you're super reliable! There's no way we get lost with you around!",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "Heh heh~ My recon planes are on a whole 'nother level from Chikuma's seaplanes! Feel free to shower me with more praise! Yes, keep it coming!",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "Maybe this place really was abandoned a long time ago...?",
 			typewriter = {
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Huh, you're right! The deeper in we go, the rougher the waters get.",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "We're in a pretty narrow waterway inside an enclosed area... How are there even any waves in the first place?",
 			typewriter = {
@@ -179,12 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "So you're saying that the wind and waves here are a part of the Dragon Palace's mechanisms? Sounds like a job for heroes like us!",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "Woohoo! We're gonna be real life heroes!",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -226,10 +226,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We got this! I'm already feeling that big protagonist energy!",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			nameColor = "#a9f548",
 			say = "Um, but... If the wind and waves continue to get stronger and stronger...",
 			typewriter = {
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "At that point, we can just use one of those mass-produced ships!",
 			typewriter = {
 				speed = 0.05,
@@ -278,10 +278,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "They might not be very strong, but at least we'll be able to use them to block the elements.",
 			typewriter = {
 				speed = 0.05,
@@ -296,10 +296,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "After that, all we have to do is jump from enemy to enemy! If you go fast, it'll be totally fine!",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "That sounds fine on paper and all, but you're the only person who can pull something like that off. An aircraft carrier like me can't keep up with a speedy destroyer!",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "Having that said, I'll totally back you up though! No need to worry about the enemies – just charge through with everything you've got!",
 			typewriter = {
@@ -348,10 +348,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Great! I appreciate it, Katsuragi!",
 			typewriter = {
 				speed = 0.05,
@@ -363,13 +363,13 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All righty then, it's time to go fast!!",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

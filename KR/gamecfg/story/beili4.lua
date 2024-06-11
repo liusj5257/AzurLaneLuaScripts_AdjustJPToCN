@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼성인은 '아이돌'!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "집무실에 돌아오니, 벤슨과 베일리가 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 101270,
+			say = "에헤헤…벤슨 언니한테 칭찬받았다!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "에헤헤…벤슨 언니한테 칭찬받았다!",
+			actor = 101270,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#92fc63",
 			say = "응~!",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오늘도 벤슨은 여느 때와 다름없어 보이네.",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그러고 보니, 하비가 '스타'가 되고 싶어하는 것도 그렇지만, 왜 베일리도 아이돌이 되고 싶어하는 걸까.",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "역시 벤슨의 영향이었나.",
 			dialogShake = {
 				speed = 0.15,
@@ -287,9 +287,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "확실히 베일리다운 꿈이네.",
 			typewriter = {
 				speed = 0.05,

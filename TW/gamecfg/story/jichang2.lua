@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "港區・演習海域",
 			dir = 1,
 			bgm = "level",
+			nameColor = "#a9f548",
+			say = "港區・演習海域",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,8 +51,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "本次作戰的名字是「μ兵裝實驗測試」。",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "也就是說除了我們之外，其它幾支隊伍也擁有相同類型的裝備……不，或許她們的裝備會更強。",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "當然，本次也同樣會有使用非μ兵裝的隊伍參與測試。",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "少女們即將進行一次前所未有的挑戰。大戰前的緊張氣氛也已經傳達給——————————不，好像並沒有傳達給她們。",
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "好，好吧……啊哈哈，抱歉，是我有點太緊張了~",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "白鷹也接到了薩拉托加傳來的同樣聯絡。",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "女僕長已經事先取得了陛下同意使用量產型進行訓練的許可。",
 			typewriter = {
@@ -514,8 +514,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "訓練用全息投影？",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "說不定還會被判定擊沉……",
 			typewriter = {
@@ -644,8 +644,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "沒錯！總之大家先去演習海域吧，Let's go!",
 			typewriter = {
@@ -658,8 +658,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -671,9 +671,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "各位，請跟我來————",
 			typewriter = {

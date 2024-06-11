@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT5-1",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT5-1",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300040,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "……이 세계는 다른 세계.",
-			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,10 +24,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "아무래도, 여기는 우리들이 있는 세계와는 다른 세계인 것 같습니다……무언가의 주술이나 기술로 인해, 무리하게 전이된 거라고 추측합니다.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "아무래도, 여기는 우리들이 있는 세계와는 다른 세계인 것 같습니다……무언가의 주술이나 기술로 인해, 무리하게 전이된 거라고 추측합니다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -60,8 +60,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "다른 세계에 왔다……그런 말을 들어도, 잘 믿기지가 않는단 말이지.",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "자주 있다고?! 그것도 좀……그렇지 않을까나?",
 			typewriter = {
 				speed = 0.05,

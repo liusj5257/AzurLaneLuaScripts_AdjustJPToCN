@@ -1,13 +1,13 @@
 return {
-	id = "W740010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W740010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "要轉動內層還是外層？",
 			typewriter = {
 				speed = 0.05,

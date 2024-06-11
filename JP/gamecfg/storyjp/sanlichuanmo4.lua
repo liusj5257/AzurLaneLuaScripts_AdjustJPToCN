@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"三笠大先輩のプラモ博物館\n\n<size=45>四　ミニ博物館、新生！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "こ、これが噂の――",
 			bgm = "story-1",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "こ、これが噂の――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.2,
 					x = 0,
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "三笠大先輩のコレクション（復活）！",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "三笠大先輩のコレクション（復活）！",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "三笠",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "比叡",
+			side = 0,
 			bgName = "bg_sanli_cg_1",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "思ったよりずっと早いですね……今夜の祝賀会も格上げしなきゃ！",
+			dir = 1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "翔鶴",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "三笠",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,12 +176,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "睦月ちゃん、これは「歓喜の涙」というものだ。",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "睦月ちゃん、これは「歓喜の涙」というものだ。",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "よし！みんな、過ぎ去った栄光を胸に、新しい時代のため、今日も奮励努力するよう――",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "よし！みんな、過ぎ去った栄光を胸に、新しい時代のため、今日も奮励努力するよう――",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "我が新生ミニ博物館の開館を宣言しよう！ハッ！",
 			effects = {
 				{
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "ガラガラガラガラ……ドガーン！！！",
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			effects = {
 				{
 					active = false,
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "また建物全体が揺れ始めた！",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -346,12 +346,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "はくぶつかん……またたおれるの？？",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "はくぶつかん……またたおれるの？？",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "あれは――新しい展示棚！？",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あれは――新しい展示棚！？",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -418,9 +418,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "新しい展示棚の中で陳列されているのは――",
 			typewriter = {
 				speed = 0.05,
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "モデルだ！三笠大先輩の！",
 			typewriter = {
 				speed = 0.05,
@@ -444,8 +444,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.7,
 					dur = 0.2,
 					x = 0,
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "！？このボタンは我の秘蔵プラモを外に出すためのボタンだったのか！？",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -512,11 +512,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "こんな間抜けなことで後輩の前でさらされるとは……これが「しゅうちぷれい」というのかッ！？",
 			typewriter = {
 				speed = 0.05,
@@ -528,8 +528,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -75,
+					type = "move",
 					delay = 1.2,
 					dur = 0.3,
 					x = 0
@@ -553,12 +553,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "三笠だいせんぱいのモデル、かっこいい！",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "三笠だいせんぱいのモデル、かっこいい！",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

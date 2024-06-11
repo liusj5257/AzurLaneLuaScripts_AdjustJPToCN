@@ -1,15 +1,15 @@
 return {
-	id = "FUYINGYINGHUA21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "아마이와섬 본섬·한밤중",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,8 +155,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "즐겁게 연회를 즐기던 야마시로는 깜짝 놀랐는지 고양이 꼬리가 삐쭉 선 모양새였다.",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 20,
@@ -235,9 +235,9 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "응, 응! 알았어, 아카기.",
 			typewriter = {
 				speed = 0.05,
@@ -249,16 +249,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 2,
 					dur = 0.5,
 					x = 2250
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "히비키는 빠른 속도로 내전을 향해 달려갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			say = "자~ 호국의 보물 [카이쟈쿠]이 준비됐어. 모두들 가서 소원을 빌어보라고~",
 			typewriter = {
 				speed = 0.05,
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "히비키의 말이 끝나자 술상 옆에서 붉은 얼굴로 행복하게 잠이 든 프린츠 오이겐을 제외하고 모두가 일어났다.",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "모두가 의식을 치르는 곳으로 향했다. 남은 것은 Z2와 잠이 든 오이겐 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -583,8 +583,8 @@ return {
 			say = "으음… 응… 쿨… (오이겐은 행복하게 웃고 있다)",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,

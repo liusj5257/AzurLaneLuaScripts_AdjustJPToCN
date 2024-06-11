@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO12",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Avoiding further direct confrontation, Algérie and Foch used their remaining mass-produced ships to create space for them to exit Littorio's firing range.",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-italy",
+			say = "Avoiding further direct confrontation, Algérie and Foch used their remaining mass-produced ships to create space for them to exit Littorio's firing range.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -35,8 +35,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "Heh. Looks like they finally saw through me.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "No matter how seasoned the hunter, the prey will always find a way to escape from a half-hearted hunt.",
 			typewriter = {
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "Suddenly, a dagger flew at Littorio from over the horizon.",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "Littorio instinctively moved to block it, the blade lodging itself into her rigging.",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "When she turned to inspect it, she could see a hilt of Iris design.",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "If I recall properly... Foch was carrying this.",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "Is this a declaration of her fighting spirit...",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "...or just a parting gift for Sardegna?",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -169,9 +169,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "With dagger now in hand, Littorio contemplated the true meaning of Foch's action.",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "A finely-crafted piece. Its owner clearly took good care of it.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "I see.",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "The mass-produced ships were not the only presents those two left for us.",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "How curious. It seems like there are some good people left in the Vichya after all.",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "If I bring this back, it'll prove that I managed to subdue a powerful Vichya ship.",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "...I suppose I'll head back before Veneto starts to worry about me again.",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "However, the \"theatre\" that their HQ has put on will not end with this battle.",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "...I do hope that you survive their machinations, Knights of Vichya.",
 			typewriter = {
@@ -319,15 +319,15 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "bg_renaya",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 903010,
+			nameColor = "#a9f548",
 			say = "Phew... Littorio stopped chasing us...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -355,8 +355,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Dang, that was more excitement than I bargained for... I never thought I'd have to go against Littorio in person.",
 			typewriter = {
@@ -401,9 +401,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "Foch took out her empty scabbard and waved it in front of Algérie.",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "How unlike you. I thought that dagger was really important to you.",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Haha, I suppose so. It's gonna be a pain to get it back.",
 			typewriter = {
@@ -452,8 +452,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Reckon it's now one of Littorio's spoils of war?",
 			typewriter = {
@@ -469,8 +469,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Maybe. We'll find out soon enough if it ends up on the newspapers, haha~",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -496,8 +496,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Heh, that we will.",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Are you sure you're going to be okay though?",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Well, it does hurt a bit... but it's a small price to pay for our lives.",
 			typewriter = {
@@ -547,8 +547,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Mm. I guess we'll have to win it back next time.",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Jeez, Algérie, I really can't get used to seeing you all serious like this.",
 			typewriter = {
@@ -597,8 +597,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Who knows~ Anyway, let's worry about getting home first.",
 			typewriter = {
@@ -611,8 +611,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -624,8 +624,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "We can think about how to get that dagger back from Littorio later.",
 			typewriter = {
@@ -641,8 +641,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "It's a promise then. I swear upon my reputation as a Templar Knight that I'll return that dagger of yours to its rightful owner~",
 			typewriter = {
@@ -658,8 +658,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "I... I don't need a promise like that from you!",
 			typewriter = {
@@ -672,8 +672,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -701,8 +701,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Maybe we can go to a cat café next time to help you go back to normal.",
 			typewriter = {
@@ -718,8 +718,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Hehe, now that's a promise I can get behind. I'll hold you to your word then.",
 			typewriter = {
@@ -735,8 +735,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Ah, wait, I never said it was a promise...",
 			typewriter = {
@@ -749,8 +749,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -762,8 +762,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Let's just make it a Knight's Oath then?",
 			typewriter = {
@@ -779,8 +779,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "That's overdoing it even more!",
 			typewriter = {
@@ -793,8 +793,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -803,11 +803,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_renaya",
-			actorName = "Both",
 			dir = 1,
+			actorName = "Both",
 			say = "Hahaha~",
 			dialogShake = {
 				speed = 0.08,
@@ -824,8 +824,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"\"May our flag fly victoriously over every battlefield.\"",
@@ -846,8 +846,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

@@ -1,12 +1,12 @@
 slot0 = class("WuQiFittingDisplayPage", import("view.base.BaseActivityPage"))
 slot0.blueprintGroupId = 39904
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.btnClick = slot0._tf:Find("bg/click_area")
 	slot0.rtAnim = slot0._tf:Find("bg/CircleBlue02")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.rtAnim
 	slot1 = slot1:GetComponent(typeof(DftAniEvent))
 

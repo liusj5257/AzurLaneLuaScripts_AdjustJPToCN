@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUSHUN04",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"撫順的大冒險\n\n<size=45>四　然後，世界恢復了和平</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "那裡那裡！快攻擊！",
 			bgm = "story-china",
+			actor = 501030,
+			nameColor = "#a9f548",
+			say = "那裡那裡！快攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "我知道！看我的！超必殺！",
+			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "撫順&長春",
-			side = 0,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "哦哦哦…",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "撫~~~順！！妳又搗亂了對不對！",
 			shake = {
 				speed = 1,
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "唔哇啊啊啊啊啊，是鞍山姐姐！！",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔哇啊啊啊啊啊，是鞍山姐姐！！",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -236,17 +236,17 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "嗚——",
 			shake = {
 				speed = 8,
-				number = 3,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -274,17 +274,17 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 501030,
+			nameColor = "#a9f548",
 			say = "嗚——",
 			shake = {
 				speed = 8,
-				number = 3,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "撫順&長春",
-			side = 0,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "嗚——",
@@ -482,15 +482,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "真是讓人懷念的東西啊…沒想到竟然還能找出來…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -531,12 +531,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "那個果然是鞍山姐姐的東西呢",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "那個果然是鞍山姐姐的東西呢",
+			actor = 501030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "哇啊！！長、長春？",
 			shake = {
 				speed = 5,
@@ -700,11 +700,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "別擅自做這種奇怪的總結啦！",
 			shake = {
 				speed = 8,
@@ -720,12 +720,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
 			actorShadow = true,
-			actorName = "太原&長春&撫順",
 			side = 0,
-			hideOther = true,
+			actorName = "太原&長春&撫順",
+			actor = 501040,
 			blackBg = true,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "哈哈哈……",
 			subActors = {

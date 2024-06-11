@@ -1,25 +1,25 @@
 return {
-	tilewidth = 384,
-	name = "Item",
-	spacing = 0,
-	objectalignment = "unspecified",
-	tiledversion = "1.9.2",
-	tilecount = 24,
-	margin = 0,
-	columns = 0,
 	luaversion = "5.1",
-	version = "1.9",
+	name = "Item",
+	tilewidth = 384,
+	margin = 0,
+	tilecount = 24,
+	objectalignment = "unspecified",
 	class = "",
-	tileheight = 465,
 	fillmode = "stretch",
+	columns = 0,
+	spacing = 0,
+	tiledversion = "1.9.2",
+	tileheight = 465,
+	version = "1.9",
 	tilerendersize = "tile",
 	tileoffset = {
 		x = 0,
 		y = 0
 	},
 	grid = {
-		orientation = "orthogonal",
 		height = 1,
+		orientation = "orthogonal",
 		width = 1
 	},
 	properties = {},
@@ -38,12 +38,12 @@ return {
 			height = 117
 		},
 		{
-			x = 0,
 			height = 465,
+			width = 288,
 			y = 0,
 			id = 24,
 			image = "../Spring23Item/Building_A.png",
-			width = 288,
+			x = 0,
 			properties = {
 				offset_y = 3
 			}
@@ -67,12 +67,12 @@ return {
 			height = 258
 		},
 		{
-			x = 63,
+			width = 291,
 			height = 360,
 			y = 0,
 			id = 28,
 			image = "../Spring23Item/Plum.png",
-			width = 291
+			x = 63
 		},
 		{
 			id = 29,

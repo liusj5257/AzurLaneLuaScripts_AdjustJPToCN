@@ -7,11 +7,11 @@ slot1 = {
 	end
 }
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.binder = slot1
 end
 
-function slot0.reset(slot0)
+slot0.reset = function(slot0)
 	if slot0.map then
 		for slot4, slot5 in pairs(slot0.map) do
 			underscore.each(slot5, function (slot0)
@@ -29,7 +29,7 @@ function slot0.reset(slot0)
 	slot0.enemyCount = 0
 end
 
-function slot0.AddListener(slot0, slot1, slot2, slot3)
+slot0.AddListener = function(slot0, slot1, slot2, slot3)
 	slot0.eventRange[slot1] = slot0.eventRange[slot1] or setmetatable({}, uv0)
 	slot4 = slot0.eventRange[slot1]
 
@@ -38,7 +38,7 @@ function slot0.AddListener(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.RemoveListener(slot0, slot1, slot2, slot3)
+slot0.RemoveListener = function(slot0, slot1, slot2, slot3)
 	if not slot3 then
 		return
 	end
@@ -69,7 +69,7 @@ slot2 = {
 	}
 }
 
-function slot0.InRange(slot0, slot1)
+slot0.InRange = function(slot0, slot1)
 	slot2 = slot0.binder.config.mapSize
 
 	if slot1.x < 0 or slot1.y < 0 or slot2.x <= slot1.x or slot2.y <= slot1.y then
@@ -79,7 +79,7 @@ function slot0.InRange(slot0, slot1)
 	end
 end
 
-function slot0.GetCrossFire(slot0, slot1, slot2)
+slot0.GetCrossFire = function(slot0, slot1, slot2)
 	slot3 = {
 		0,
 		0,
@@ -126,13 +126,13 @@ function slot0.GetCrossFire(slot0, slot1, slot2)
 	return slot3, slot5, slot4
 end
 
-function slot0.getRangeList(slot0, slot1, slot2)
+slot0.getRangeList = function(slot0, slot1, slot2)
 	return underscore.map(slot2, function (slot0)
 		return uv0.pos + NewPos(unpack(slot0))
 	end)
 end
 
-function slot0.EventCall(slot0, slot1, slot2, slot3, slot4)
+slot0.EventCall = function(slot0, slot1, slot2, slot3, slot4)
 	if isa(slot4, Reactor) then
 		if slot4 == MoveRyza then
 			slot0.reactorRyza:React(slot1, slot2)
@@ -157,7 +157,7 @@ function slot0.EventCall(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.CreateCall(slot0, slot1)
+slot0.CreateCall = function(slot0, slot1)
 	table.insert(slot0.map[tostring(slot1.pos)], slot1)
 
 	if slot1:InTimeRiver() then
@@ -173,7 +173,7 @@ function slot0.CreateCall(slot0, slot1)
 	end
 end
 
-function slot0.DestroyCall(slot0, slot1, slot2)
+slot0.DestroyCall = function(slot0, slot1, slot2)
 	table.removebyvalue(slot0.map[tostring(slot1.pos)], slot1)
 
 	if slot1:InTimeRiver() then
@@ -193,7 +193,7 @@ function slot0.DestroyCall(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetCellPassability(slot0, slot1)
+slot0.GetCellPassability = function(slot0, slot1)
 	if not slot0:InRange(slot1) then
 		return false
 	end
@@ -209,7 +209,7 @@ function slot0.GetCellPassability(slot0, slot1)
 	return true
 end
 
-function slot0.GetFirePassability(slot0, slot1)
+slot0.GetFirePassability = function(slot0, slot1)
 	if not slot0:InRange(slot1) then
 		return 2
 	end
@@ -219,7 +219,7 @@ function slot0.GetFirePassability(slot0, slot1)
 	end)
 end
 
-function slot0.GetCellCanBomb(slot0, slot1)
+slot0.GetCellCanBomb = function(slot0, slot1)
 	if not slot0:InRange(slot1) then
 		return false
 	end
@@ -229,46 +229,46 @@ function slot0.GetCellCanBomb(slot0, slot1)
 	end)
 end
 
-function slot0.TimeFlow(slot0, slot1)
+slot0.TimeFlow = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.timeRiver) do
 		slot6:TimeUpdate(slot1)
 	end
 end
 
-function slot0.Create(slot0, slot1)
+slot0.Create = function(slot0, slot1)
 	slot0.binder:emit(RyzaMiniGameView.EVENT_CREATE, slot1)
 end
 
-function slot0.GetJoyStick(slot0)
+slot0.GetJoyStick = function(slot0)
 	return NewPos(slot0.binder.uiMgr.hrz, -slot0.binder.uiMgr.vtc)
 end
 
-function slot0.RyzaBomb(slot0)
+slot0.RyzaBomb = function(slot0)
 	slot0.reactorRyza:SetBomb()
 end
 
-function slot0.GameFinish(slot0, slot1)
+slot0.GameFinish = function(slot0, slot1)
 	slot0.binder:emit(RyzaMiniGameView.EVENT_FINISH, slot1)
 end
 
-function slot0.WindowFocrus(slot0, slot1)
+slot0.WindowFocrus = function(slot0, slot1)
 	slot0.binder:emit(RyzaMiniGameView.EVENT_WINDOW_FOCUS, slot1)
 end
 
-function slot0.SyncStatus(slot0, slot1, slot2, slot3)
+slot0.SyncStatus = function(slot0, slot1, slot2, slot3)
 	slot0.binder:emit(RyzaMiniGameView.EVENT_STATUS_SYNC, slot1, slot2, slot3)
 end
 
-function slot0.UpdateHide(slot0, slot1, slot2)
+slot0.UpdateHide = function(slot0, slot1, slot2)
 	slot0.binder:emit(RyzaMiniGameView.EVENT_UPDATE_HIDE, slot1, slot2)
 end
 
-function slot0.UpdatePos(slot0, slot1, slot2)
+slot0.UpdatePos = function(slot0, slot1, slot2)
 	table.removebyvalue(slot0.map[tostring(slot1.pos)], slot1)
 	table.insert(slot0.map[tostring(slot2)], slot1)
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	slot2 = slot1.pos - slot0.pos
 
 	for slot6, slot7 in ipairs(slot0.range) do
@@ -292,7 +292,7 @@ function slot3(slot0, slot1)
 	return false
 end
 
-function slot0.Wayfinding(slot0, slot1)
+slot0.Wayfinding = function(slot0, slot1)
 	if slot0.reactorRyza.hide or slot0:CollideRyza(slot1) then
 		slot0.findingResult[slot1] = nil
 
@@ -314,7 +314,7 @@ function slot0.Wayfinding(slot0, slot1)
 		[tostring(slot1.pos)] = 0
 	}
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		slot1 = {}
 
 		while uv0[tostring(uv1[slot0])] > 0 do
@@ -387,7 +387,7 @@ function slot0.Wayfinding(slot0, slot1)
 	end
 end
 
-function slot0.SearchRyza(slot0, slot1, slot2)
+slot0.SearchRyza = function(slot0, slot1, slot2)
 	if slot0.reactorRyza.hide then
 		return false
 	else
@@ -395,7 +395,7 @@ function slot0.SearchRyza(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CollideRyza(slot0, slot1)
+slot0.CollideRyza = function(slot0, slot1)
 	slot4 = slot0.reactorRyza
 
 	return uv0({
@@ -407,7 +407,7 @@ function slot0.CollideRyza(slot0, slot1)
 	})
 end
 
-function slot0.CollideFire(slot0, slot1)
+slot0.CollideFire = function(slot0, slot1)
 	return underscore.filter(slot0.fireList, function (slot0)
 		return uv0({
 			pos = slot0.pos,

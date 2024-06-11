@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.1,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -24,8 +24,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.105,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -41,8 +41,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.11,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -58,8 +58,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.115,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -75,8 +75,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.12,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -92,8 +92,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.125,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -109,8 +109,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.13,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -126,8 +126,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.135,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -143,8 +143,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.14,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -160,8 +160,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.15,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -169,9 +169,9 @@ return {
 			}
 		}
 	},
-	time = 8,
 	name = "最后的荣耀",
 	init_effect = "jinengchufared",
+	time = 8,
 	picture = "",
 	desc = "提升自身伤害",
 	stack = 1,
@@ -192,8 +192,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = 0.1,
+				attr = "damageRatioBullet",
 				index = {
 					1
 				}

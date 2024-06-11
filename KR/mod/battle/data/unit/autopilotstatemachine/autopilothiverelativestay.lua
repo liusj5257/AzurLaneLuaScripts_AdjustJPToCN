@@ -4,18 +4,18 @@ slot1 = class("AutoPilotHiveRelativeStay", slot0.Battle.IPilot)
 slot0.Battle.AutoPilotHiveRelativeStay = slot1
 slot1.__name = "AutoPilotHiveRelativeStay"
 
-function slot1.Ctor(slot0, ...)
+slot1.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 end
 
-function slot1.SetParameter(slot0, slot1, slot2)
+slot1.SetParameter = function(slot0, slot1, slot2)
 	uv0.super.SetParameter(slot0, slot1, slot2)
 
 	slot0._distX = slot1.x
 	slot0._distZ = slot1.z
 end
 
-function slot1.GetDirection(slot0, slot1)
+slot1.GetDirection = function(slot0, slot1)
 	if not slot0._pilot:GetHiveUnit():IsAlive() then
 		slot0._pilot:OnHiveUnitDead()
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"한여름의 사수자리\n\n<size=45>해안의 감시자의 여름</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "센토 씨는 온 지 얼마 안 됐으니 별수 없긴 하지만, 그래도 몸매가 이렇게 좋은데 수영복을 안 입으면 좀 아까운 거 같아서…",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#92fc63",
+			say = "센토 씨는 온 지 얼마 안 됐으니 별수 없긴 하지만, 그래도 몸매가 이렇게 좋은데 수영복을 안 입으면 좀 아까운 거 같아서…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,10 +55,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "그렇죠…죄송해요, 함대에 이제 막 온 참이라 수영복 준비는 아직……",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "저기, 모항의 안내는……?",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -116,15 +116,15 @@ return {
 			}
 		},
 		{
-			actor = 101251,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101251,
+			nameColor = "#92fc63",
 			say = "새러토가 거기서어어어어어!!! 허먼이 먹으려 했던 거 변상해내!!",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 107031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107031,
+			nameColor = "#92fc63",
 			say = "아하하하! 서라고 해서 순순히 잡혀줄 새러토가 님이 아니라고!",
 			typewriter = {
 				speed = 0.05,
@@ -175,16 +175,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 2250
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "저분이 새러토가 선배님……대단하시네요……",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "어라? 저기 있는 건……",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어라? 저기 있는 건……",
+			actor = 201212,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "아크 로열 선배님이시네요! 수영복이 멋있어요!",
 			typewriter = {
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#92fc63",
 			say = "흠. 이 아크 로열! 구축함 아이들이 안심하고 놀 수 있도록, 전력을 다해 모항을 수호하겠다!",
 			effects = {
 				{
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#92fc63",
 			say = "뭐, 저렇게 보면 쿨하고 멋있어 보이지만……",
 			effects = {
 				{
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
+			say = "이 분위기, 박력……아크 로열 선배님, 굉장해요……!",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "이 분위기, 박력……아크 로열 선배님, 굉장해요……!",
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#92fc63",
 			say = "모래사장! 푸른 하늘! 바다! 그리고 구축함 여동생들! 여름은 최고로구나아아!!",
 			effects = {
 				{
@@ -463,8 +463,8 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 206040,
 			dir = 1,
-			nameColor = "#92fc63",
 			say = "아크 로열 선배님! 안녕하세요!",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -485,11 +485,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#92fc63",
 			say = "에, 엣헴! 센토?! 재블린도? 보기 힘든 조합이군.",
 			typewriter = {
 				speed = 0.05,
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -578,8 +578,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "그게, 전 이 함대에 배속 받은 지 얼마 안 돼서, 수영복은 아직 준비가……",
 			typewriter = {
@@ -592,8 +592,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -634,15 +634,15 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#92fc63",
 			say = "아아… 이런 이런, 임무 수행하는 걸 잊고 있었군. 구축함 아이들을 감상……크흠! 아이들이 안전을 감시하지 않으면! 미안하네!",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -667,8 +667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -677,12 +677,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "그럼 우리도 돌아갈게!",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그럼 우리도 돌아갈게!",
+			actor = 201212,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -710,8 +710,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "아크 로열 선배님, 힘내세요!",
 			typewriter = {

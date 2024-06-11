@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
 			bgm = "qe-ova-12",
+			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "그러고 보니 {tb}의 초콜릿 취향을 아직 모르네요…",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,10 +55,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "음… 요즘 초콜릿을 좀 만들어 보고 싶어서, 기왕 만들 거면 {tb}의 취향에 맞는 초콜릿을 만들려구요.",
 			typewriter = {
@@ -106,10 +106,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "음……",
 			typewriter = {
@@ -133,10 +133,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "아뇨, 아무것도…… 아니에요…",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "기분 탓인지 TB가 조금 토라진 것 같은 기분이 드는데…?",

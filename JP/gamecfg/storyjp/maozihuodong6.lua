@@ -1,16 +1,16 @@
 return {
-	id = "MAOZIHUODONG6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "ユニオン主体のタスクフォースがセイレーン要塞に向けて、順調に前進していた。",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
-			say = "ユニオン主体のタスクフォースがセイレーン要塞に向けて、順調に前進していた。",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "道中に出てくるセイレーン戦力は少しずつ強くなってきたものの、艦隊の脅威には全くならなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "へーもうここまで接近したんだ。わたしたちがこの要塞を調査しようとしたときはここまでしか来れなかったね",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "おっ、先導してくれるってこと？",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "まあ確かにこっちは旧式艦だからここから先はキツいかもね～お言葉に甘えよっか♪",
 			typewriter = {
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "「セイレーン」が現れてからずっと、極海で数十年も戦ってきた「北方連合」――",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "経験値はともかく、資源がかなり疲弊しており、ほかの陣営からの支援で戦線を維持している状態と聞いているが…",
 			typewriter = {
 				speed = 0.05,

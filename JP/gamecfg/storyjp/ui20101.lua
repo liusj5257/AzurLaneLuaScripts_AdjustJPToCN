@@ -1,16 +1,16 @@
 return {
-	id = "UI20101",
 	mode = 3,
 	noWaitFade = true,
 	once = true,
+	id = "UI20101",
 	scripts = {
 		{
-			actor = 107020,
 			nameColor = "#a9f548",
 			bgName = "bg_story_6",
-			side = 0,
+			actor = 107020,
 			bgspeed = 2,
 			blackBg = true,
+			side = 0,
 			say = "<size=42>「Stand your ground. Don't fire unless fired upon.</size>\n<size=33>ーーそこに立っていろ。撃たれるまでは撃つな」</size>",
 			effects = {
 				{
@@ -34,8 +34,8 @@ return {
 			say = "<size=42>「Let it begin here! </size>\n<size=33>ここで始めよう！」</size>"
 		},
 		{
-			sequenceSpd = 2,
 			mode = 1,
+			sequenceSpd = 2,
 			bgFade = true,
 			effects = {
 				{

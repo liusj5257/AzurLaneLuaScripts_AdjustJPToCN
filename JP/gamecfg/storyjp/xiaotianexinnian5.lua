@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"正月の祝福\n\n<size=45>五 明石からの贈り物</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・重桜寮",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "母港・重桜寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "こうなったら……新しく準備した衣装をみんなに着てもらうしかないにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -140,15 +140,15 @@ return {
 			}
 		},
 		{
-			actor = 102132,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102132,
+			nameColor = "#a9f548",
 			say = "重桜風の衣装……確か「キモノ」って名前かしら？うふふ……なかなか豪勢な素材を使っているわね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 201103,
 			dir = 1,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "わあぁ……この衣装……思っていたのより暖かい～",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 205062,
 			dir = 1,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "なるほど、色んな陣営の要素を融合させているのか。面白いわね。ふふふ",
 			typewriter = {
@@ -271,11 +271,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "…………こ、ここここれは………！？",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "わ、私は急に用事が出来たから先に帰る！！！",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1,
 					x = -2250
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "なっ？！",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -380,15 +380,15 @@ return {
 			}
 		},
 		{
-			actor = 102141,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102141,
+			nameColor = "#a9f548",
 			say = "（これが重桜の衣装か……コロンビアとデンバーが好きそうだな）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "み、みんなもう着替えたし、早く正月料理を堪能するにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

@@ -11,11 +11,11 @@ slot1 = 0.15
 slot2 = 340
 slot3 = 564
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AwardInfoUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
@@ -86,7 +86,7 @@ function slot0.init(slot0)
 	slot0.metaRepeatAwardTF = slot0:findTF("MetaShipRepeatAward")
 end
 
-function slot0.doAnim(slot0, slot1)
+slot0.doAnim = function(slot0, slot1)
 	slot2 = LeanTween.scale(rtf(slot0._itemsWindow), Vector3(1, 1, 1), 0.15)
 	slot2 = slot2:setEase(LeanTweenType.linear)
 
@@ -99,7 +99,7 @@ function slot0.doAnim(slot0, slot1)
 	end))
 end
 
-function slot0.playAnim(slot0, slot1)
+slot0.playAnim = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = 1, #slot0.awards do
@@ -131,7 +131,7 @@ function slot0.playAnim(slot0, slot1)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setActive(slot0.spriteMask, true)
 	onButton(slot0, slot0._tf, function ()
 		uv0:checkPaintingRes(function ()
@@ -192,11 +192,11 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.onUIAnimEnd(slot0, slot1)
+slot0.onUIAnimEnd = function(slot0, slot1)
 	slot0.enterCallback = slot1
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if LeanTween.isTweening(go(slot0._itemsWindow)) then
 		return
 	end
@@ -205,7 +205,7 @@ function slot0.onBackPressed(slot0)
 	triggerButton(slot0._tf)
 end
 
-function slot4(slot0, slot1)
+slot4 = function(slot0, slot1)
 	slot2 = pg.ship_data_statistics[slot1.id]
 	slot3 = Ship.New({
 		configId = slot1.id
@@ -217,7 +217,7 @@ function slot4(slot0, slot1)
 	setActive(findTF(slot0, "content/front/new"), slot1.virgin)
 end
 
-function slot0.displayAwards(slot0)
+slot0.displayAwards = function(slot0)
 	assert(#slot0.awards ~= 0, "items数量不能为0")
 	removeAllChildren(slot0.container)
 
@@ -303,7 +303,7 @@ function slot0.displayAwards(slot0)
 	end
 end
 
-function slot0.ShowOrHideSpriteMask(slot0, slot1)
+slot0.ShowOrHideSpriteMask = function(slot0, slot1)
 	if isActive(slot0.spriteMask) == slot1 then
 		return
 	end
@@ -311,7 +311,7 @@ function slot0.ShowOrHideSpriteMask(slot0, slot1)
 	setActive(slot0.spriteMask, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	setActive(slot0.spriteMask, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
@@ -336,7 +336,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.updateSpriteMaskScale(slot0)
+slot0.updateSpriteMaskScale = function(slot0)
 	onNextTick(function ()
 		if uv0.exited then
 			return
@@ -346,10 +346,10 @@ function slot0.updateSpriteMaskScale(slot0)
 	end)
 end
 
-function slot0.checkPaintingRes(slot0, slot1)
-	PaintingConst.PaintingDownload({
+slot0.checkPaintingRes = function(slot0, slot1)
+	PaintingGroupConst.PaintingDownload({
 		isShowBox = false,
-		paintingNameList = PaintingConst.GetPaintingNameListForAwardList(slot0.awards),
+		paintingNameList = PaintingGroupConst.GetPaintingNameListForAwardList(slot0.awards),
 		finishFunc = slot1
 	})
 end

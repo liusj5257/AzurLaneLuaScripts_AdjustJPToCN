@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ははは、潜水艦の指揮艦は初めて見るだろう！同志指揮官！",
 			bgm = "bgm-cccp",
+			nameColor = "#a9f548",
+			say = "ははは、潜水艦の指揮艦は初めて見るだろう！同志指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "潜水艦というだけでも驚かされたが、分厚い氷を突き破って浮上したその姿に圧倒された。",
 			typewriter = {
 				speed = 0.05,
@@ -38,9 +38,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "圧倒的な大きさ、そして黒いクジラを想起させるかのようなフォルムからとこどなく北方連合の美学を感じた。",
 			typewriter = {
 				speed = 0.05,
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "この鋼鉄の巨獣？いや、巨魚が「秘密領域」を導いてくれる指揮艦というわけか。",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "砕氷機能を有する潜水艦はたしかに他の陣営でも聞いたことがないな…",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "……待て、今「何人も乗せる」と聞いたが、もしや――",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "タリン",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ベラルーシア",
+			side = 2,
 			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "ほら、指揮官、早く指揮艦に乗って出発しよう",
 			typewriter = {
 				speed = 0.05,

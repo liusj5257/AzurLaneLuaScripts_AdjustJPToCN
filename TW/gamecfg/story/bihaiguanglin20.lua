@@ -1,18 +1,18 @@
 return {
-	id = "BIHAIGUANGLIN20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-longgong",
 			actor = 303060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "根據島風提供的情報，只要破壞位於前方的封印海域中的機關就會被解除。",
-			bgm = "battle-boss-longgong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "可是若想破壞機關，就必須解決掉堵塞航道的堅硬的敵人。而不解決堅硬的敵人，又無法破壞位於後方的機關。",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "我們只能依靠集中火力逐個消滅敵人，艱難向前推進。",
 			typewriter = {
 				speed = 0.05,
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "妳居然真的有突破死循環的方案麼？請務必詳細說明。",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "這樣的距離夠了嗎……？",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（只不過和妳拉開的距離保持一致而已……！）",
 			typewriter = {
 				speed = 0.05,

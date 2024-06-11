@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.01
+					number = 0.01,
+					attr = "cri"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.05
+					number = 0.05,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -32,8 +32,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.02
+					number = 0.02,
+					attr = "cri"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.061
+					number = 0.061,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -57,8 +57,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.03
+					number = 0.03,
+					attr = "cri"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.072
+					number = 0.072,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -82,8 +82,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.04
+					number = 0.04,
+					attr = "cri"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.083
+					number = 0.083,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -107,8 +107,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.05
+					number = 0.05,
+					attr = "cri"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.094
+					number = 0.094,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -132,8 +132,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.06
+					number = 0.06,
+					attr = "cri"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.105
+					number = 0.105,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -157,8 +157,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.07
+					number = 0.07,
+					attr = "cri"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.116
+					number = 0.116,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -182,8 +182,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.08
+					number = 0.08,
+					attr = "cri"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.127
+					number = 0.127,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -207,8 +207,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.09
+					number = 0.09,
+					attr = "cri"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.138
+					number = 0.138,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
@@ -232,8 +232,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -243,15 +243,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_3",
-					number = 0.15
+					number = 0.15,
+					attr = "damageToArmorRateEnhance_3"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,

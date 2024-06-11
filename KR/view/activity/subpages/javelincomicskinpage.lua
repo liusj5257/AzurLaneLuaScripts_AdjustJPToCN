@@ -1,13 +1,13 @@
 slot0 = class("JavelinComicSkinPage", import(".TemplatePage.SkinTemplatePage"))
 slot0.FADE_OUT_TIME = 1
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0:InitView()
 	slot0:RegisterEvent()
 	uv0.super.OnFirstFlush(slot0)
 end
 
-function slot0.InitView(slot0)
+slot0.InitView = function(slot0)
 	slot0.animations = {}
 	slot0.puzzle = slot0:findTF("Puzzle", slot0.bg)
 	slot0.linkActId = slot0:GetLinkId()
@@ -18,7 +18,7 @@ function slot0.InitView(slot0)
 	slot0:CheckFinalAward()
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0.helpBtn = slot0:findTF("HelpBtn", slot0.bg)
 
 	onButton(slot0, slot0.helpBtn, function ()
@@ -32,11 +32,11 @@ function slot0.RegisterEvent(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.GetLinkId(slot0)
+slot0.GetLinkId = function(slot0)
 	return pg.activity_const.JAVELIN_COMIC_PUZZLE_TASK.act_id
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot0.linkActivity = slot0.activityProxy:getActivityById(slot0.linkActId)
@@ -56,7 +56,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:UpdateMainView(slot1)
 end
 
-function slot0.UpdatePuzzle(slot0, slot1, slot2, slot3)
+slot0.UpdatePuzzle = function(slot0, slot1, slot2, slot3)
 	if slot2 and not table.contains(slot0.chargeIDList, slot3) then
 		table.insert(slot0.chargeIDList, slot3)
 		slot0:DoPieceAnimation(slot1, 0, 1, function ()
@@ -68,7 +68,7 @@ function slot0.UpdatePuzzle(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.DoPieceAnimation(slot0, slot1, slot2, slot3, slot4)
+slot0.DoPieceAnimation = function(slot0, slot1, slot2, slot3, slot4)
 	if LeanTween.isTweening(slot1) then
 		LeanTween.cancel(go(slot1), true)
 
@@ -80,13 +80,13 @@ function slot0.DoPieceAnimation(slot0, slot1, slot2, slot3, slot4)
 	LeanTween.alpha(slot1, slot3, uv0.FADE_OUT_TIME):setFrom(slot2):setOnComplete(System.Action(slot4))
 end
 
-function slot0.UpdateMainView(slot0, slot1)
+slot0.UpdateMainView = function(slot0, slot1)
 	slot2 = nil
 
 	setText(slot0.dayTF, #slot0.chargeIDList == #slot0.taskGroup and "<color=#00FF00><size=48>" .. #slot0.chargeIDList .. "</size></color><color=#00B8FF><size=28>     " .. #slot0.taskGroup .. "</size></color>" or "<color=#E75198><size=48>" .. #slot0.chargeIDList .. "</size></color><color=#00B8FF><size=28>     " .. #slot0.taskGroup .. "</size></color>")
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 
 	slot1 = pairs
@@ -101,7 +101,7 @@ function slot0.OnDestroy(slot0)
 	slot0.animations = nil
 end
 
-function slot0.CheckFinalAward(slot0)
+slot0.CheckFinalAward = function(slot0)
 	if #slot0.activityProxy:getActivityById(slot0.linkActId).data1_list == #slot0.puzzleIDList then
 		if slot1.data1 == 0 then
 			slot0:FetchFinalAward()
@@ -111,14 +111,14 @@ function slot0.CheckFinalAward(slot0)
 	end
 end
 
-function slot0.FetchFinalAward(slot0)
+slot0.FetchFinalAward = function(slot0)
 	slot0:emit(ActivityMediator.EVENT_OPERATION, {
 		cmd = 1,
 		activity_id = slot0.linkActId
 	})
 end
 
-function slot0.OnFetchFinalAwardDone(slot0)
+slot0.OnFetchFinalAwardDone = function(slot0)
 end
 
 return slot0

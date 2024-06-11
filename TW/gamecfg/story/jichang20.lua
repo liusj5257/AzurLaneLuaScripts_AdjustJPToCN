@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港區・演出會場",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "song08",
+			say = "港區・演出會場",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 206035,
 			dir = 1,
+			actor = 206035,
 			nameColor = "#a9f548",
 			say = "獨角獸…要去給光輝姐姐加油…！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 201234,
 			dir = 1,
+			actor = 201234,
 			nameColor = "#a9f548",
 			say = "好啊～我也想近距離看光輝跳舞呢♪",
 			typewriter = {
@@ -130,15 +130,15 @@ return {
 			}
 		},
 		{
-			actor = 401463,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401463,
+			nameColor = "#a9f548",
 			say = "已經與吾友聯繫好了。讓我們進入下一個戰場吧——被稱為「舞台」的戰場。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			nameColor = "#a9f548",
 			say = "對不起，對不起！剛剛被Z23抓住了……",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401463,
 			dir = 1,
+			actor = 401463,
 			nameColor = "#a9f548",
 			say = "魔眼使用者是否也能被蠱惑魔眼的魅力所吸引？",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			nameColor = "#a9f548",
 			say = "欸？",
 			typewriter = {
@@ -246,15 +246,15 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 801010,
+			nameColor = "#a9f548",
 			say = "我們感謝女王陛下的厚意。還有，厭戰大人，謝謝妳為我們在準備工作上的協助。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 205022,
 			dir = 1,
+			actor = 205022,
 			nameColor = "#a9f548",
 			say = "不用謝。不過，我也沒想到惡毒會願意再次登台。",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "呼呼，她也有守規矩的一面啦。",
 			typewriter = {
@@ -345,15 +345,15 @@ return {
 			}
 		},
 		{
-			actor = 201099,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201099,
+			nameColor = "#a9f548",
 			say = "不要…大家都準備了超厲害的服裝，而我們卻……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 101264,
 			dir = 1,
+			actor = 101264,
 			nameColor = "#a9f548",
 			say = "彗星她們的服裝，也很可愛。",
 			typewriter = {
@@ -475,15 +475,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_jichang_5",
-			actorName = "塔什干(μ兵裝)",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "塔什干(μ兵裝)",
 			say = "結果大家都聚集過來了……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -508,8 +508,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大青花魚(μ兵裝)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "羅恩(μ兵裝)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -540,8 +540,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳(μ兵裝)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "羅恩(μ兵裝)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "光輝(μ兵裝)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -588,12 +588,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "眾人",
+			side = 2,
 			bgName = "bg_jichang_5",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "哦哦哦！！",
 			dialogShake = {
 				speed = 0.09,

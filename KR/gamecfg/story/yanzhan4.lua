@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANZHAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나이트 오브 로열 네이비\n\n<size=45>서로에게 끌리는 용자들</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "며칠 뒤 - 연습전 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "며칠 뒤 - 연습전 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,10 +94,10 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			nameColor = "#92fc63",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			actor = 203030,
 			dir = 1,
 			hideOther = true,
 			actorName = "모두",
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -136,15 +136,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "(잠시 바람이라도 쐴까.)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,12 +201,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "워스파이트인가. 축하한다. 연습전은 너희의 승리다.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "워스파이트인가. 축하한다. 연습전은 너희의 승리다.",
+			actor = 107060,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "(생각해보니, 연습전에서는 계속 회피 기동과 대공 전투에 때문에 피해 다니느라 정신이 없었지……큭, 지휘관에게 까지 보여졌을 줄은……)",
 			typewriter = {
 				speed = 0.05,
@@ -285,16 +285,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1.2,
 					dur = 0.15,
 					x = 0,
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "흥, 마찬가지다. 다시 싸울 날을 기대하지.",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,

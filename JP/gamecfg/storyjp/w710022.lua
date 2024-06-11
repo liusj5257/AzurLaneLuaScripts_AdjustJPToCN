@@ -1,12 +1,12 @@
 return {
-	id = "W710022",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710022",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "这是？！",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "整片海域都失去了温度了吗……无论如何还是先到意识之海看看吧",
 			typewriter = {
 				speed = 0.05,

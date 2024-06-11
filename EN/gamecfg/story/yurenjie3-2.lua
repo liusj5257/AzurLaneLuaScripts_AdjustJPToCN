@@ -4,21 +4,21 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
+			side = 2,
 			say = "The Bulin sisters fought, but their best efforts weren't enough to trump their adversary.",
+			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Lord of Evil",
 			dir = 1,
+			actor = 900233,
+			actorName = "Lord of Evil",
 			say = "Your attacks are useless! Ahahahah!",
 			painting = {
 				alpha = 0.3,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "Lord of Evil",
 			say = "No one, and I mean no one on this earth can bring out the hammer's power!",
 			painting = {
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "Lord of Evil",
 			say = "Try it! Struggle all you want, then despair!",
 			painting = {
@@ -128,9 +128,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "You'll be the one to despair, bulin! My hammer is at full charge, bulin!",
 			painting = {
 				alpha = 0.3,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,11 +161,11 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900233,
 			actorName = "Lord of Evil",
 			say = "What?! That's impossible!",
-			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,10 +246,10 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "Follow my lead, bulin! Show her what we bulins are capable of, bulin!",
 			painting = {
 				alpha = 0.3,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

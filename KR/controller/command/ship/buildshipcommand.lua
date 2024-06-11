@@ -1,6 +1,6 @@
 slot0 = class("BuildShipCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot6, slot7, slot8 = BuildShip.canBuildShipByBuildId(slot2.buildId, slot2.count or 1, slot2.isTicket)
 

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_ryza_2",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "過去的片段————",
-			bgm = "ryza-az-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "這個就是返回裝置，通過這個裝置後就能回到妳來的地方了。",
 			painting = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "妳選擇加入我！加入我，妳就能保留新獲得的力量——",
 			painting = {
@@ -124,8 +124,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,9 +136,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			actor = 900233,
 			actorName = "淨化親",
 			say = "怎麼樣，收下這個象徵反抗軍成員的徽章，加入我淨化親的反抗組織，為破壞測試者的奇怪實驗出一份力吧！",
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,10 +165,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雖然看似一場夢，也能像對待夢一樣任其在記憶中消散——",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "但這一切的原理，其實並不是夢吧？",
 			painting = {
 				alpha = 0.3,
@@ -201,10 +201,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳們用某種方式劫持了妾身的意識，或者說……靈魂？也正因此，物質造物才無法由妾身被劫持的意識帶回去是嗎？",
 			painting = {
 				alpha = 0.3,
@@ -255,10 +255,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呼呼，雖然汝這個人還不錯，不過妾身還有屬於自己的使命，是時候讓這場夢結束了。",
 			painting = {
 				alpha = 0.3,
@@ -273,10 +273,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過汝的那個徽章，妾身倒是挺有興趣的。",
 			painting = {
 				alpha = 0.3,
@@ -339,10 +339,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "留存在回憶中的寶物嗎……那就如此辦吧。",
 			painting = {
 				alpha = 0.3,
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "了解~",
 			painting = {
@@ -371,12 +371,12 @@ return {
 			}
 		},
 		{
-			actor = 10900060,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "還有一件事，汝之前提到的關於兩個世界時間不同步的事，是真的嗎？",
 			painting = {
 				alpha = 0.3,
@@ -409,10 +409,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "真是奇妙……",
 			painting = {
 				alpha = 0.3,
@@ -424,11 +424,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "那我還有別的事要做，妳也急著回去，我們就在此分別吧。妳先請？",
 			painting = {
@@ -444,10 +444,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不用，倘若汝有事在身，先走就是。妾身在回去之前還想四處逛一下。",
 			painting = {
 				alpha = 0.3,
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "行行~反正門已經啟動了，操作指令我也刻在底座上了，妳走的時候對著看就行，很簡單的哦。",
 			painting = {
@@ -479,10 +479,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯，那就在這裡告別吧。希望汝能夠一路順風，今後繼續按照汝之目標，堅定地走下去。",
 			painting = {
 				alpha = 0.3,
@@ -512,29 +512,29 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_ryza_1",
-			nameColor = "#A9F548FF",
-			say = "遺跡群島·起始之地 翌日",
 			bgmDelay = 2,
 			bgm = "ryza-az-theme",
+			nameColor = "#A9F548FF",
+			say = "遺跡群島·起始之地 翌日",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -545,10 +545,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "萊莎小姐，鑰匙的製作怎麼樣了？",
 			painting = {
 				alpha = 0.3,
@@ -563,10 +563,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼哼，我已經製作完成了哦。妳們看~",
 			painting = {
 				alpha = 0.3,
@@ -600,10 +600,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這個是…………一張門卡？",
 			painting = {
 				alpha = 0.3,
@@ -618,10 +618,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "居然是用之前的那四把鑰匙製作出來的嗎……？",
 			painting = {
 				alpha = 0.3,
@@ -633,12 +633,12 @@ return {
 			}
 		},
 		{
-			actor = 10900010,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯！我那天的觀察肯定沒錯，用這個的話絕對能打開核心區的那扇大門！",
 			painting = {
 				alpha = 0.3,
@@ -653,10 +653,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雖然這幾天看了不少萊莎的鍊金術，但不論看多少次都還是感覺不可思議啊……",
 			painting = {
 				alpha = 0.3,
@@ -671,10 +671,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "既然關鍵道具已經製作完畢，那我一會就通知大家出發。",
 			painting = {
 				alpha = 0.3,
@@ -689,10 +689,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "可畏小姐，等攻略了核心之所後，我們就要離開這裡了吧。",
 			painting = {
 				alpha = 0.3,
@@ -707,10 +707,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "至少碑文上是這麼寫的，雖然不知道會不會這麼順利就是了。",
 			painting = {
 				alpha = 0.3,
@@ -725,10 +725,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "所以這就是在這座臨時鍊金工房裡的最後一次調合了嗎……稍微有點感傷。",
 			painting = {
 				alpha = 0.3,
@@ -743,10 +743,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這口奇怪的黑色鍊金鍋其實還蠻好用的，以後就再也用不了啊……",
 			painting = {
 				alpha = 0.3,
@@ -761,10 +761,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "如果捨不得的話，妳直接帶走不就好了？",
 			painting = {
 				alpha = 0.3,
@@ -779,10 +779,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這口鍋實在是太重了……就算現在能依靠艦裝把它抬起來，也不能帶著它去戰鬥嘛……",
 			painting = {
 				alpha = 0.3,
@@ -797,10 +797,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咳……看來萊莎還沒有太熟悉艦裝的便利之處啊。",
 			painting = {
 				alpha = 0.3,
@@ -815,10 +815,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雖然經過檢查，妳利用鍊金術配方製作的艦裝與我們所使用的在內部結構上有些區別，少了很多非戰鬥用功能。",
 			painting = {
 				alpha = 0.3,
@@ -833,10 +833,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過貨倉似乎還是存在的。只是一個大鍋而已，利用貨倉就可以很輕鬆的把它一起帶走哦？",
 			painting = {
 				alpha = 0.3,
@@ -851,10 +851,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "比如像這樣——",
 			painting = {
 				alpha = 0.3,
@@ -868,11 +868,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_ryza_1",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "艦、艦裝居然還能這麼使用嗎……？……好……好神奇，就像次元口袋一樣。",
 			painting = {
 				alpha = 0.3,
@@ -884,8 +884,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -912,10 +912,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "說起來……之前大家開茶會時吃的東西，還有量產艦什麼的，是不是也是之前存在這個裡面的？",
 			painting = {
 				alpha = 0.3,
@@ -930,10 +930,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沒錯，艦裝可不光只有作為武器的功能哦。",
 			painting = {
 				alpha = 0.3,
@@ -948,10 +948,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "太厲害了……有了這麼神奇的儲存空間，以後出門冒險想攜帶多少素材都沒問題了！",
 			painting = {
 				alpha = 0.3,
@@ -966,10 +966,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那就首先收好鍊金鍋，然後不帶留戀地向前方進發吧。",
 			painting = {
 				alpha = 0.3,
@@ -984,10 +984,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯，就這樣！讓我們向著最後的未知之地進發吧！",
 			painting = {
 				alpha = 0.3,

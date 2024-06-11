@@ -8,10 +8,10 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 8001
 			}
@@ -21,8 +21,8 @@ return {
 			type = "BattleSkillTeleport",
 			arg_list = {
 				targetRelativeCorrdinate = {
-					hrz = 0,
-					vrt = -1
+					vrt = -1,
+					hrz = 0
 				}
 			}
 		}

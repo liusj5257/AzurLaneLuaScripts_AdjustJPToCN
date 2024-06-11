@@ -27,12 +27,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
-			dir = -1,
 			say = "We are what you see. In this Sanctuary bestowed upon us by the Creator, we wield unlimited power.",
+			actorName = "{namecode:91}",
+			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "That is, as long as we continue sacrificing exquisite souls... *Giggle*...",
 			shake = {
 				speed = 1,
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "Silence! Don't you dare utter that name in my presence!",
 			shake = {
 				speed = 1,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "Enough! It drives me crazy to hear that despicable name repeated! Over and over! I will destroy her... I WILL DESTROY HER MYSELF! AAAGGHHH!",
 			shake = {
 				speed = 1,

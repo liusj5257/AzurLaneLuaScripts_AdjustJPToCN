@@ -1,9 +1,9 @@
 slot0 = class("NewYear23SkinShowPage", import("...base.BaseActivityPage"))
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.goBtn = slot0:findTF("BtnGO")
 	slot0.skinShopBtn = slot0:findTF("BtnShop")
 
@@ -18,7 +18,7 @@ function slot0.OnInit(slot0)
 	slot0.rtFront = slot0.rtBg:Find("front")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 	slot0.showList = {}
 	slot5 = "config_client"
@@ -30,7 +30,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0:ActionInvoke("ShowOrHide", false)
 
 	slot0.index = 1
@@ -47,7 +47,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.DelayCall(slot0)
+slot0.DelayCall = function(slot0)
 	slot1 = {}
 
 	table.insert(slot1, function (slot0)
@@ -79,7 +79,7 @@ function slot0.DelayCall(slot0)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.uniqueId then
 		LeanTween.cancel(slot0.uniqueId)
 	end

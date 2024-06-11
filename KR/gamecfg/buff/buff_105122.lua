@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "WAVE光波-特效",
 	time = 3,
+	name = "WAVE光波-特效",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

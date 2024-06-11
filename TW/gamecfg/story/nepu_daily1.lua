@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第一话　『异次元的虫洞』</size>",
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "和伊斯特瓦尔说的一样呢。看起来是能扭曲空间的虫洞呢…为什么会突然出现在这种地方呢？",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "和伊斯特瓦尔说的一样呢。看起来是能扭曲空间的虫洞呢…为什么会突然出现在这种地方呢？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#a9f548",
 			say = "涅噗————！？",
 			flashout = {
 				dur = 1,
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "喏哇————！？",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "喏哇————！？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "——扑通！！",
 			typewriter = {
 				speed = 0.05,
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100060,
+			nameColor = "#a9f548",
 			say = "变身成女神用飞的不就好了嘛",
 			flashout = {
 				dur = 0.5,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100050,
+			nameColor = "#a9f548",
 			say = "呼…总算是不至于淹死了",
 			flashout = {
 				dur = 0.5,
@@ -480,9 +480,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "——咚！",
 			typewriter = {
 				speed = 0.05,
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			nameColor = "#ff0000",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10100050,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -555,11 +555,11 @@ return {
 			}
 		},
 		{
-			actor = 10100060,
 			nameColor = "#ff0000",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10100060,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -575,8 +575,8 @@ return {
 			hideOther = true,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 10100060,
 			dir = 1,
+			actor = 10100060,
 			nameColor = "#a9f548",
 			say = "那、是…是我们？",
 			typewriter = {
@@ -749,17 +749,17 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "……如此这般，我们可是吃了不少苦头呢！",
 			bgm = "story-nepu1",
+			actor = 10100010,
+			nameColor = "#a9f548",
+			say = "……如此这般，我们可是吃了不少苦头呢！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -784,12 +784,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "哈啊…是吗…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…是吗…",
+			actor = 101170,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1060,12 +1060,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "好像挺热闹的呢——是刚换岗过来的新同伴吗？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "好像挺热闹的呢——是刚换岗过来的新同伴吗？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -1144,11 +1144,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/alarm",
+			say = "（警报声）",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "（警报声）",
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1171,12 +1171,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "紧急出击？难道是……敌袭！？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "紧急出击？难道是……敌袭！？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1191,11 +1191,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "各位都在这里吗…找了妳们好久",
 			typewriter = {
@@ -1208,11 +1208,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "从总部发来的紧急消息，港区近海突然侦测到镜面海域反应…需要紧急派遣侦察部队。就拜托{namecode:408}了",
 			typewriter = {
@@ -1273,15 +1273,15 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#a9f548",
 			say = "……哎呀～大家都走掉了呢",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1306,12 +1306,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "镜面海域什么的…有点让人在意呢",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "镜面海域什么的…有点让人在意呢",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1358,16 +1358,16 @@ return {
 			}
 		},
 		{
-			actor = 900076,
 			actorName = "？？？",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 900076,
 			nameColor = "#a9f548",
 			say = "……本来以为总算追上了，结果又跑没了…哈…静不下来",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1392,13 +1392,13 @@ return {
 			}
 		},
 		{
-			actor = 900077,
+			say = "要那两位静下来…恐怕才是最困难的事情吧",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900077,
 			actorName = "？？？",
-			say = "要那两位静下来…恐怕才是最困难的事情吧",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

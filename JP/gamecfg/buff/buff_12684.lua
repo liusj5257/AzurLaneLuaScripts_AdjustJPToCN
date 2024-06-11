@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.01
+					number = -0.01,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.014
+					number = -0.014,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.018
+					number = -0.018,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.022
+					number = -0.022,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.026
+					number = -0.026,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.03
+					number = -0.03,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.035
+					number = -0.035,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.045
+					number = -0.045,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "减伤光环·除自身",
 	init_effect = "jinengchufablue",
-	color = "yellow",
+	id = 12684,
+	time = 0,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
-	id = 12684,
+	color = "yellow",
 	icon = 12680,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 904010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-french1",
 			dir = 1,
 			say = "미안, 잠시 기절해 있어줘.",
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 0
@@ -64,9 +64,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "대단해, 대단해. 타르투, 봤어? 이게 전함의 실력이라고!",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -91,8 +91,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "보고 있어요. 흔들지 말아요……",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "어쨌든 우리 셋이 누군가를 괴롭힌다는 뜻이지.",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "하지만… '당장 할 수 있는 일'이라. 너희 덕분에 결심을 내렸어.",
 			typewriter = {
 				speed = 0.05,
@@ -183,9 +183,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……응! 헤헤헤. 이래야 내가 알던 성좌의 기사 됭케르크지.",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -207,14 +207,14 @@ return {
 			}
 		},
 		{
-			actor = 901020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 901020,
+			nameColor = "#a9f548",
 			say = "(……포용, 성숙, 강한 의지……)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,9 +256,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이봐---! 타르투, 일어나! 출발할 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

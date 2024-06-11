@@ -4,11 +4,11 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 307040,
 			side = 2,
 			actorName = "{namecode:94}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307040,
+			nameColor = "#ff0000",
 			say = "…",
 			shake = {
 				speed = 1,
@@ -24,11 +24,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			actorName = "{namecode:94}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307040,
+			nameColor = "#ff0000",
 			say = "是麼，一航戰和{namecode:93}都已經…",
 			shake = {
 				speed = 1,
@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			actorName = "{namecode:94}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307040,
+			nameColor = "#ff0000",
 			say = "不能就這麼空著手回去，所有艦載機立刻起飛！",
 			shake = {
 				speed = 1,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			actorName = "{namecode:94}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307040,
+			nameColor = "#ff0000",
 			say = "讓妳們看看二航戰的底力，這是我們“最後的反擊”！",
 			shake = {
 				speed = 1,

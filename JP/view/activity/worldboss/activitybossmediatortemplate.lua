@@ -20,7 +20,7 @@ slot1 = {
 	"word_hard"
 }
 
-function slot0.GetPairedFleetIndex(slot0)
+slot0.GetPairedFleetIndex = function(slot0)
 	if slot0 < Fleet.SUBMARINE_FLEET_ID then
 		return slot0 + 10
 	else
@@ -28,7 +28,7 @@ function slot0.GetPairedFleetIndex(slot0)
 	end
 end
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.contextData.mediatorClass = slot0.class
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.timeMgr = pg.TimeMgr.GetInstance()
@@ -77,7 +77,7 @@ function slot0.register(slot0)
 	pg.GuildMsgBoxMgr.GetInstance():NotificationForBattle()
 end
 
-function slot0.BindEvent(slot0)
+slot0.BindEvent = function(slot0)
 	slot1 = getProxy(FleetProxy)
 	slot2 = slot0.activityProxy
 
@@ -176,8 +176,8 @@ function slot0.BindEvent(slot0)
 
 					if getProxy(SettingsProxy):isTipActBossExchangeTicket() == nil and slot2 then
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							hideYes = true,
 							noText = "text_inconsume",
+							hideYes = true,
 							content = i18n("tip_exchange_ticket", i18n(uv2[uv3])),
 							custom = {
 								{
@@ -286,9 +286,9 @@ function slot0.BindEvent(slot0)
 
 				if not uv0 and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						hideNo = false,
-						showStopRemind = true,
 						hideYes = false,
+						showStopRemind = true,
+						hideNo = false,
 						helps = pg.gametip.worldbossex_help.tip,
 						type = MSGBOX_TYPE_HELP,
 						stopRamindContent = i18n("dont_remind"),
@@ -456,9 +456,9 @@ function slot0.BindEvent(slot0)
 		slot6, slot7, slot8 = uv0.getDockCallbackFuncs4ActicityFleet(slot3, slot1.fleetIndex, slot1.teamType)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			useBlackBlock = true,
 			selectedMin = 0,
+			useBlackBlock = true,
+			selectedMax = 1,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = slot3 ~= nil,
 			teamFilter = slot5,
@@ -543,8 +543,8 @@ function slot0.BindEvent(slot0)
 	end)
 	slot0:bind(uv0.ON_PERFORM_COMBAT, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.BEGIN_STAGE, {
-			mainFleetId = 1,
 			memory = true,
+			mainFleetId = 1,
 			system = SYSTEM_PERFORM,
 			stageId = slot1,
 			exitCallback = slot2
@@ -578,7 +578,7 @@ function slot0.BindEvent(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_ADDED,
 		ActivityProxy.ACTIVITY_UPDATED,
@@ -594,7 +594,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then
@@ -644,28 +644,28 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.RequestAndUpdateView(slot0)
+slot0.RequestAndUpdateView = function(slot0)
 	slot0:sendNotification(GAME.ACTIVITY_BOSS_PAGE_UPDATE, {
 		activity_id = slot0.contextData.activityID
 	})
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0.viewComponent:UpdateView()
 end
 
-function slot0.UpdateRankData(slot0, slot1)
+slot0.UpdateRankData = function(slot0, slot1)
 	slot0.viewComponent:UpdateRank(slot1)
 end
 
-function slot0.UpdateActivityData(slot0, slot1)
+slot0.UpdateActivityData = function(slot0, slot1)
 	slot0.contextData.activity = slot1
 	slot0.contextData.bossHP = slot1:GetBossHP()
 	slot0.contextData.mileStones = slot1:GetMileStones()
 	slot0.contextData.stageTickets = slot1:GetTickets()
 end
 
-function slot0.getDockCallbackFuncs4ActicityFleet(slot0, slot1, slot2)
+slot0.getDockCallbackFuncs4ActicityFleet = function(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(ActivityProxy)

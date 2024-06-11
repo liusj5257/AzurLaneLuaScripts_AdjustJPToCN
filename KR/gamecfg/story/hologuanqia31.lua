@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-inochi-inst",
 			dir = 1,
 			say = "[정말 괜찮아?] [이미 늦었다구?], [앞은 지옥이야]… 이 표지판들은……",
+			bgm = "holo-inochi-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "하지만… 마츠리의 표지판은 [정말 괜찮아?], [아직 늦지 않았어?], [다음은 없다구] 야.",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "설마……",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			actor = 10500040,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "나츠이로 마츠리, hololive에서 가장 좋아하는 사람이 누구지?",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "저건…… 복사된 마츠리?",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "나 츠 이 로 마 츠 리",
 			say = "복사? 그렇다면 본체인 네가 한번 대답해봐. hololive에서 가장 좋아하는 사람이 누구지?",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "음…………………",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "나 츠 이 로 마 츠 리",
 			say = "대답을 못 하는 모양이네~",
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 			expression = 2,
 			side = 1,
 			actorName = "나 츠 이 로 마 츠 리",
-			actor = 10500040,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 10500040,
 			nameColor = "#ff5c5c",
 			say = "뭐?!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "나 츠 이 로 마 츠 리",
 			say = "이 질문에 당하지 않다니, 어떻게……",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "대체 왜 복사된 내 이름에 띄어쓰기가 되어있는지는 생각하지 않기로 했어…",
 			typewriter = {
 				speed = 0.05,

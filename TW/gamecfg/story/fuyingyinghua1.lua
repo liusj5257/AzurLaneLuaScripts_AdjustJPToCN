@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>狂風暴雨，漫漫長夜</size>",
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -58,12 +58,12 @@ return {
 			}
 		},
 		{
-			say = "天岩島內城·拂曉",
-			side = 2,
 			bgName = "bg_xinnong_cg1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-1",
+			say = "天岩島內城·拂曉",
 			effects = {
 				{
 					active = false,
@@ -71,8 +71,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "哐啷啷",
 			dialogShake = {
 				speed = 0.09,
@@ -119,8 +119,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "啊！{namecode:179}大人快閃開！！",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "驅逐艦{namecode:12}正抱著巨大的神龕打算從樓梯上下來，卻一腳踏空失去了平衡。",
 			typewriter = {
 				speed = 0.05,
@@ -157,9 +157,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "哐啷！",
 			dialogShake = {
 				speed = 0.09,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "隨著巨大的翻滾聲，{namecode:12}完美地躺在了庭院的草地上，仰望著拂曉的晨光。",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "唔…痛痛痛~",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "{namecode:179}大人真過分，居然真的對我見死不救！！",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "玄關旁，身著錦衣的少女完美地避開了從樓梯上意外滾落的驅逐艦，並輕盈地接住了飛來的神龕。",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "驅逐艦摔在草地上可不會斷成兩截，而這個神龕會。",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "啊，{namecode:179}大人真是的~",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "還有兩天就是祭典了，不謹慎點處理可是會壞了大事的。",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "這次祭典，她們真的還會來嗎？",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "放心，兩方的大人都是明事理的人。就算平時再怎麼鬧彆扭，也不會缺席重櫻的重要祭典的。",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "特別是在現在這樣的困境時刻。這次天宇啟戶祭也許會是重新尋覓正確方向的契機吧……",
 			typewriter = {
@@ -360,13 +360,13 @@ return {
 			}
 		},
 		{
-			actor = 302210,
+			say = "{namecode:179}，原來妳在這裡啊。",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302210,
 			actorName = "？？？",
-			say = "{namecode:179}，原來妳在這裡啊。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "剛剛收到了鐵血使團發來的電報，她們應{namecode:91}大人的邀請前來參加祭典，預計會在本日上午抵達。",
 			typewriter = {
@@ -417,8 +417,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "我明白了，吩咐沿途關卡予以放行。這是第一次有海外使團參與的祭典，非同往常啊……",
 			typewriter = {
@@ -434,8 +434,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "來者是客。{namecode:50}，接待使團的工作能交給妳負責嗎？",
 			typewriter = {
@@ -467,8 +467,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "{namecode:179}，演武環節的準備就拜託妳了。幫我選個好次序哦~",
 			typewriter = {
@@ -484,8 +484,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "來自重櫻各處的大人與海外高手齊聚一堂，甚至不乏久經沙場的前輩！真期待與她們的交手環節…",
 			typewriter = {
@@ -498,8 +498,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,8 +511,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "哈哈哈，那當然，演武也是祭典的一部分，本次祭典各方面都不馬虎哦！",
 			typewriter = {
@@ -525,9 +525,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "敲門聲",
 			typewriter = {
 				speed = 0.05,
@@ -558,8 +558,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "啊！一航戰的大人們果然來了！",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -585,8 +585,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "看來首先是妳的回合呢，{namecode:179}。",
 			typewriter = {
@@ -602,8 +602,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "……終於要正式開始了！",
 			typewriter = {
@@ -619,8 +619,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "諸位，本次天宇啟戶祭，將會是決定重櫻未來的重要祭典。",
 			typewriter = {
@@ -636,8 +636,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "我們不但是主祭{namecode:182}大人的代行者，更是祭典中不可或缺的一部分。",
 			typewriter = {
@@ -666,11 +666,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actorName = "眾人",
 			dir = 1,
+			actorName = "眾人",
 			say = "明白！",
 			dialogShake = {
 				speed = 0.09,
@@ -690,8 +690,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "那麼，我們就出發了，{namecode:182}大人",
 			typewriter = {
@@ -704,9 +704,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "{namecode:179}走出庭院時，回頭望了一眼天守閣，鞠了一躬。",
 			typewriter = {
 				speed = 0.05,
@@ -718,8 +718,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51></size>",

@@ -4,7 +4,7 @@ slot0.Battle.BattleVariable = slot0.Battle.BattleVariable or {}
 slot1 = slot0.Battle.BattleVariable
 slot2 = slot0.Battle.BattleConfig
 
-function slot1.Init()
+slot1.Init = function()
 	uv0.speedRatioByIFF = {
 		[0] = 1,
 		1,
@@ -35,7 +35,7 @@ function slot1.Init()
 	uv0.CameraFocusHeight = uv0._camera_radian_x_cos * uv1.CAST_CAM_ZOOM_SIZE + uv1.CAMERA_BASE_HEIGH
 end
 
-function slot1.Clear()
+slot1.Clear = function()
 	uv0.speedRatioByIFF = nil
 	uv0.focusExemptList = nil
 	uv0.MapSpeedRatio = nil
@@ -59,7 +59,7 @@ slot6 = 0
 slot7 = 0
 slot8 = 0
 
-function slot1.UpdateCameraPositionArgs()
+slot1.UpdateCameraPositionArgs = function()
 	slot1 = uv0._camera.orthographicSize
 
 	if uv0._lastCameraPos == uv0._cameraTF.position and uv0._lastCameraSize == slot1 then
@@ -83,19 +83,19 @@ function slot1.UpdateCameraPositionArgs()
 	uv6 = (slot6.y - slot5.y) / (slot4.y * 0.866 + slot4.z * 0.5 - slot7)
 end
 
-function slot1.CameraPosToUICamera(slot0)
+slot1.CameraPosToUICamera = function(slot0)
 	uv0.CameraPosToUICameraByRef(slot0)
 
 	return slot0
 end
 
-function slot1.CameraPosToUICameraByRef(slot0)
+slot1.CameraPosToUICameraByRef = function(slot0)
 	slot0.x = (slot0.x - uv0) * uv1 + uv2
 	slot0.y = (slot0.y * 0.866 + slot0.z * 0.5 - uv3) * uv4 + uv5
 	slot0.z = 0
 end
 
-function slot1.UIPosToScenePos(slot0, slot1)
+slot1.UIPosToScenePos = function(slot0, slot1)
 	slot2 = pg.CameraFixMgr.GetInstance()
 	slot7 = uv0._uiCamera:ScreenToWorldPoint(Vector2(slot2:GetCurrentWidth() / 1920 * slot0.x, slot2:GetCurrentHeight() / 1080 * slot0.y))
 	slot9 = (slot7.y - uv4) / uv5 + uv6
@@ -104,7 +104,7 @@ function slot1.UIPosToScenePos(slot0, slot1)
 	slot1:Set((slot7.x - uv1) / uv2 + uv3, 0, slot9 / slot10 + slot9 * slot10 * 0.5)
 end
 
-function slot1.AppendMapFactor(slot0, slot1)
+slot1.AppendMapFactor = function(slot0, slot1)
 	if uv0.MapSpeedFacotrList[slot0] ~= nil then
 		uv0.RemoveMapFactor(slot0)
 	end
@@ -113,14 +113,14 @@ function slot1.AppendMapFactor(slot0, slot1)
 	uv0.MapSpeedFacotrList[slot0] = slot1
 end
 
-function slot1.RemoveMapFactor(slot0)
+slot1.RemoveMapFactor = function(slot0)
 	if uv0.MapSpeedFacotrList[slot0] ~= nil then
 		uv0.MapSpeedRatio = uv0.MapSpeedRatio / slot1
 		uv0.MapSpeedFacotrList[slot0] = nil
 	end
 end
 
-function slot1.AppendIFFFactor(slot0, slot1, slot2)
+slot1.AppendIFFFactor = function(slot0, slot1, slot2)
 	if uv0.IFFFactorList[slot0][slot1] ~= nil then
 		uv0.RemoveIFFFactor(slot0, slot1)
 	end
@@ -130,7 +130,7 @@ function slot1.AppendIFFFactor(slot0, slot1, slot2)
 	uv0.focusExemptList = {}
 end
 
-function slot1.RemoveIFFFactor(slot0, slot1)
+slot1.RemoveIFFFactor = function(slot0, slot1)
 	if uv0.IFFFactorList[slot0][slot1] ~= nil then
 		uv0.speedRatioByIFF[slot0] = uv0.speedRatioByIFF[slot0] / slot3
 		slot2[slot1] = nil
@@ -138,11 +138,11 @@ function slot1.RemoveIFFFactor(slot0, slot1)
 	end
 end
 
-function slot1.GetSpeedRatio(slot0, slot1)
+slot1.GetSpeedRatio = function(slot0, slot1)
 	return uv0.focusExemptList[slot0] or uv0.speedRatioByIFF[slot1]
 end
 
-function slot1.AddExempt(slot0, slot1, slot2)
+slot1.AddExempt = function(slot0, slot1, slot2)
 	if uv0.IFFFactorList[slot1][slot2] ~= nil then
 		uv0.focusExemptList[slot0] = uv0.speedRatioByIFF[slot1] / slot4
 	end

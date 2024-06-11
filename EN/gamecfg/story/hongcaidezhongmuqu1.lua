@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGCAIDEZHONGMUQU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGCAIDEZHONGMUQU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Northern Parliament Control Center - Commanding Vessel",
 			side = 2,
 			bgName = "bg_endingsong_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet",
+			say = "Northern Parliament Control Center - Commanding Vessel",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,9 +40,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "Only a few days have passed since I returned from the Sea of Stars... but I am still reeling from what I experienced there over those short few hours.",
 			typewriter = {
 				speed = 0.05,
@@ -54,9 +54,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "How is it possible for a plan of that scope to be kept secret for so long...",
 			typewriter = {
 				speed = 0.05,
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "Supposedly, the plan itself was set in motion before the war even began...",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "How many people in the Eagle Union or even the entire Azur Lane know about it?",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "And among those people, how many are able to see past the facade of mystique and actually grasp its profound implications?",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "Secrets within secrets, plans within plans.",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "If anything, it lends credence to the Ashes' suspicions.",
 			typewriter = {
 				speed = 0.05,
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "Many of the technological leaps made recently were actually tied to the servicing of the Sea of Stars project.",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "The Sirens would not provide anything to us that they do not want us to reverse engineer.",
 			typewriter = {
 				speed = 0.05,
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "And directly researching Siren technology is too dangerous, as the possibility of it leading to dependence cannot be ignored.",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "But looking at it from another angle...",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "This is a completely different path that does not violate the principles of the Azur Lane. It avoids the pitfalls that ensnared the Iron Blood, and is also different from the Northern Parliament's path.",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -224,9 +224,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_1",
+			dir = 1,
 			say = "\"Oh...\"",
 			typewriter = {
 				speed = 0.05,
@@ -248,12 +248,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "Oh? Then, would you care to share your take on the current situation, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Eldridge",
+			side = 2,
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Eldridge",
+			side = 2,
 			bgName = "bg_endingsong_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"Thanks, but I'm good. It's probably better not to promote sleeping on the job...\"",
 			typewriter = {
 				speed = 0.05,
@@ -342,9 +342,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"Would you mind repeating what you were just talking about, Georgia?\"",
 			typewriter = {
 				speed = 0.05,
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "Georgia begins her explanation of the current situation by directing my attention to a map posted on the wall.",
 			typewriter = {
 				speed = 0.05,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "Apparently, it had been updated several times during the duration I was thinking about other things...",
 			typewriter = {
 				speed = 0.05,
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -480,9 +480,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"The Northern Parliament fleets look a lot bigger than expected... What about holding down the Polar front?\"",
 			typewriter = {
 				speed = 0.05,
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "According to them, there shouldn't be an issue as long as this theater doesn't turn into a war of attrition.",
 			typewriter = {
 				speed = 0.05,
@@ -536,12 +536,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "According to our prior agreement, the bulk of the Royal Navy's forces has taken over the New Jersey fleet's responsibilities to clean up and defend the NA Ocean from Siren stragglers.",
 			typewriter = {
 				speed = 0.05,
@@ -553,12 +553,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "The lack of new information leads me to assume that everything has been going smoothly on their end.",
 			typewriter = {
 				speed = 0.05,
@@ -570,12 +570,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "But in other words, we shouldn't expect much assistance from the Royal Navy during this operation.",
 			typewriter = {
 				speed = 0.05,
@@ -587,12 +587,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			nameColor = "#a9f548",
 			say = "According to our intel, the Sakura Fleet expedition fleet is still moored at Dakar and has not shown any signs of mobilization.",
 			typewriter = {
 				speed = 0.05,
@@ -604,12 +604,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			nameColor = "#a9f548",
 			say = "However, the most predictable part about Akagi is how unpredictable she is, so we can't write off the possibility of their interference.",
 			typewriter = {
 				speed = 0.05,
@@ -621,12 +621,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			nameColor = "#a9f548",
 			say = "So far, the Iris Libre fleet seems to be split up between operations in Africa and assisting the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
@@ -638,12 +638,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			nameColor = "#a9f548",
 			say = "Unfortunately, what Richelieu said earlier seems to still be true - that Iris Libre has no extra forces to spare.",
 			typewriter = {
 				speed = 0.05,
@@ -655,12 +655,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 4,
+			nameColor = "#a9f548",
 			say = "We have no information on Jean Bart, the flagship of the Vichya Empire, or her current whereabouts.",
 			typewriter = {
 				speed = 0.05,
@@ -672,12 +672,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 4,
+			nameColor = "#a9f548",
 			say = "But, we do have some existing information that they are fortifying their position at Toulon for self-defense and are unlikely to venture out.",
 			typewriter = {
 				speed = 0.05,
@@ -689,12 +689,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 4,
+			nameColor = "#a9f548",
 			say = "I suspect it would be difficult for them to leave the Mediterranée anyway, with the activities of the Royal Navy and Iris Libre.",
 			typewriter = {
 				speed = 0.05,
@@ -706,12 +706,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 5,
+			nameColor = "#a9f548",
 			say = "From what we know, their forces are scattered across several major ports.",
 			typewriter = {
 				speed = 0.05,
@@ -723,12 +723,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 5,
+			nameColor = "#a9f548",
 			say = "After the attack on Rome, Sardegna has adopted strict defensive measures.",
 			typewriter = {
 				speed = 0.05,
@@ -740,12 +740,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 5,
+			nameColor = "#a9f548",
 			say = "The same thing I said before also holds true for Sardegna - with the Royal Navy and Iris Libre's movements, they are unlikely to leave the Mediterranée.",
 			typewriter = {
 				speed = 0.05,
@@ -757,12 +757,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 6,
+			nameColor = "#a9f548",
 			say = "The who...?",
 			typewriter = {
 				speed = 0.05,
@@ -774,12 +774,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 6,
+			nameColor = "#a9f548",
 			say = "Commander, they aren't deploying any forces for this operation.",
 			typewriter = {
 				speed = 0.05,
@@ -791,8 +791,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -807,8 +807,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -823,8 +823,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -839,8 +839,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -855,9 +855,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"The same trick won't work twice.\"",
 			typewriter = {
 				speed = 0.05,
@@ -869,8 +869,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -885,9 +885,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"Thanks. So, how does it feel being out on the battlefield for the first time, Georgia?\"",
 			typewriter = {
 				speed = 0.05,
@@ -899,8 +899,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -915,8 +915,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -931,9 +931,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"What's your overall view of the current situation?\"",
 			typewriter = {
 				speed = 0.05,
@@ -945,8 +945,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -961,8 +961,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -977,8 +977,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -993,9 +993,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"Good. You know what they say - never underestimate the enemy. Let's proceed with caution and stick to the plan.\"",
 			typewriter = {
 				speed = 0.05,
@@ -1007,9 +1007,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"Rest assured, you'll have plenty of opportunities to demonstrate your power on the battlefield.\"",
 			typewriter = {
 				speed = 0.05,
@@ -1021,9 +1021,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "\"Also, one last thing––\"",
 			typewriter = {
 				speed = 0.05,
@@ -1035,8 +1035,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -1051,9 +1051,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_2",
+			dir = 1,
 			say = "As you can see, we're still in the process of assembling all the fleets participating in this operation.",
 			typewriter = {
 				speed = 0.05,
@@ -1065,8 +1065,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Georgia",
+			side = 2,
 			bgName = "bg_endingsong_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -1081,13 +1081,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "After a lot of searching, we found Eldridge asleep on the floor not far from the ship's hatch.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1176,9 +1176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Just watching Eldridge's peaceful slumber filled me with drowsiness as well.",
 			typewriter = {
 				speed = 0.05,
@@ -1190,9 +1190,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"I think I'll take you up on that bit of advice...\"",
 			typewriter = {
 				speed = 0.05,
@@ -1204,11 +1204,11 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1267,12 +1267,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

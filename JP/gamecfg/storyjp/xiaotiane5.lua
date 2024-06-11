@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春風の十字星\n\n<size=45>その五  弁解</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 201090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "やっぱりあなただったのね…",
 			bgm = "story-1",
+			actor = 201090,
+			nameColor = "#a9f548",
+			say = "やっぱりあなただったのね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201080,
+			say = "本当にやったの…",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "本当にやったの…",
+			actor = 201080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -199,14 +199,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "みんな",
 			say = "ジ――",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

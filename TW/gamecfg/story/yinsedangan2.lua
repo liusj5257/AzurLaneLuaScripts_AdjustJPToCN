@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>權限驗證中————————————</size>",
@@ -82,8 +82,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "這幾日PH港西南方的安全海域內也有零星的襲擊報告傳來……",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "雖然都只是小股敵人，但應當引起足夠重視。塞壬可能正在為一次大規模襲擊做準備。",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "現在的前線艦隊光是應對重櫻的進攻就已竭盡全力，如果塞壬再發動襲擊的話……",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "嗯……這次我可是盡力把所有能開出海的艦隊都帶上了，就算塞壬真發動襲擊倒也能抵擋一陣子。",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "問題在於時間。",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "抵達前線的時間因為沿途的塞壬阻礙而不斷延遲，實際到達時間可能會是明日下午或者深夜……",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "數據解析完畢————————————",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "播放結束————————————",
 			typewriter = {

@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "使用了大型作战记录仪！获取了大型作战的相关信息！！！",
 			typewriter = {
 				speed = 0.05,
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "大型作战的所有海域移动限制被解除了，并且得到了所有海域的调查奖励！",
 			typewriter = {
 				speed = 0.05,

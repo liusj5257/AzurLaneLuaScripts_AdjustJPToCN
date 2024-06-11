@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "武器攻击速度加快0.5倍",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "武器攻击速度加快0.5倍",
 	stack = 1,
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadspeed",
-				number = 50
+				number = 50,
+				attr = "loadspeed"
 			}
 		}
 	}

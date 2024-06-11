@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13390,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13390,
+	color = "yellow",
 	icon = 13390,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 13391,
-				time = 30,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 30
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				target = "TargetSelf",
 				skill_id = 13390,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -51,8 +51,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				target = "TargetSelf",
 				skill_id = 13391,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

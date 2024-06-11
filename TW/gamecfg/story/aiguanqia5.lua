@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA5",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA5",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "绊爱(伪)",
 			say = "………",
 			typewriter = {
@@ -90,10 +90,10 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
+			actor = 401230,
 			say = "这是爱小姐！？在眼前晃来晃去的完全瞄不准！",
 			effects = {
 				{
@@ -128,9 +128,9 @@ return {
 		{
 			expression = 5,
 			side = 0,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "不对啦！？不是我，而是那个冒牌货在捣乱才对吧！？",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -200,8 +200,8 @@ return {
 			actor = 10400010,
 			side = 0,
 			expression = 6,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "对我做骇客攻击还真是有胆量啊！就让我这个超级AI来教教妳什么是真正的骇客吧！让妳见识一下我在游戏中培养出来的手指灵活度——把妳点回去！",
 			typewriter = {
 				speed = 0.05,

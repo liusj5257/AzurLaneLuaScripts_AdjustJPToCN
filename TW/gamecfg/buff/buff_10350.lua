@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔20秒，有30.0%(满级60.0%)几率触发一次专属弹幕技能(依据技能等级)",
 	name = "无限之darkness",
 	init_effect = "",
+	id = 10350,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每隔20秒，有$1几率触发一次专属弹幕技能(依据技能等级)",
 	stack = 1,
-	id = 10350,
+	color = "red",
 	icon = 10350,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 10351,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		}
 	}

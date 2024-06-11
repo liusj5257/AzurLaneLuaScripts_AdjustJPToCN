@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.child_site = {
 	[110] = {
-		icon = "child_icon_food",
 		name = "グルメ街",
 		type = 1,
-		id = 110,
 		name_pic = "child_icon_food_name",
 		pic = "site_1",
 		desc = "グルメ街へようこそ！あらゆるグルメが集結したここでは味覚も大満足間違いなし！",
+		id = 110,
+		icon = "child_icon_food",
 		ability = {},
 		coordinate = {
 			-201.6,
@@ -39,13 +39,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[111] = {
-		icon = "",
 		name = "ファミレス",
 		type = 2,
-		id = 111,
 		name_pic = "",
 		pic = "site_1",
 		desc = "どんな風味も食材の表現。あなたの味覚に幸あれ――",
+		id = 111,
+		icon = "",
 		ability = {},
 		coordinate = {
 			0,
@@ -72,13 +72,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[120] = {
-		icon = "child_icon_manor",
 		name = "リゾート",
 		type = 1,
-		id = 120,
 		name_pic = "child_icon_manor_name",
 		pic = "site_2",
 		desc = "手ぶらで泊まれる、便利でお手軽なリゾートコンドミニアム",
+		id = 120,
+		icon = "child_icon_manor",
 		ability = {},
 		coordinate = {
 			554.4,
@@ -107,13 +107,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[121] = {
-		icon = "",
 		name = "静謐の山嶺",
 		type = 2,
-		id = 121,
 		name_pic = "",
 		pic = "site_2",
 		desc = "心を落ち着かせる絶好な場所。",
+		id = 121,
+		icon = "",
 		ability = {},
 		coordinate = {
 			0,
@@ -143,13 +143,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[130] = {
-		icon = "child_icon_shopping",
 		name = "商店街",
 		type = 1,
-		id = 130,
 		name_pic = "child_icon_shopping_name",
 		pic = "site_3",
 		desc = "買い物、娯楽、社会実習――なんでもできる！",
+		id = 130,
+		icon = "child_icon_shopping",
 		ability = {},
 		coordinate = {
 			38.4,
@@ -184,13 +184,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[131] = {
-		icon = "",
 		name = "写真スタジオ",
 		type = 2,
-		id = 131,
 		name_pic = "",
 		pic = "site_3",
 		desc = "瞬間の美しさを捉えて、一枚一枚を永遠の記憶にする。",
+		id = 131,
+		icon = "",
 		ability = {},
 		coordinate = {
 			0,
@@ -292,13 +292,13 @@ pg.child_site = {
 		}
 	},
 	[140] = {
-		icon = "child_icon_park",
 		name = "海辺の公園",
 		type = 1,
-		id = 140,
 		name_pic = "child_icon_park_name",
 		pic = "site_4",
 		desc = "砂浜と波が交わり、リラックスできる理想的な場所。",
+		id = 140,
+		icon = "child_icon_park",
 		ability = {},
 		coordinate = {
 			-627.5,
@@ -327,13 +327,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[141] = {
-		icon = "",
 		name = "スターステージ",
 		type = 2,
-		id = 141,
 		name_pic = "",
 		pic = "site_4",
 		desc = "パフォーマンスの一つ一つを楽しむ旅。",
+		id = 141,
+		icon = "",
 		ability = {},
 		coordinate = {
 			0,
@@ -435,13 +435,13 @@ pg.child_site = {
 		}
 	},
 	[150] = {
-		icon = "child_icon_amusement",
 		name = "遊園地",
 		type = 1,
-		id = 150,
 		name_pic = "child_icon_amusement_name",
 		pic = "site_5",
 		desc = "悩みをポイ！ハッピーをもらおう！",
+		id = 150,
+		icon = "child_icon_amusement",
 		ability = {},
 		coordinate = {
 			262.9,
@@ -466,13 +466,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[160] = {
-		icon = "child_icon_gym",
 		name = "グラウンド",
 		type = 1,
-		id = 160,
 		name_pic = "child_icon_gym_name",
 		pic = "site_6",
 		desc = "限界に挑戦し、情熱を解き放つ。",
+		id = 160,
+		icon = "child_icon_gym",
 		ability = {},
 		coordinate = {
 			107.7,
@@ -506,13 +506,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[170] = {
-		icon = "child_icon_school",
 		name = "学園",
 		type = 1,
-		id = 170,
 		name_pic = "child_icon_school_name",
 		pic = "site_7",
 		desc = "エスカレーター式の学園、もう進学の悩みはない。",
+		id = 170,
+		icon = "child_icon_school",
 		ability = {},
 		coordinate = {
 			-282,

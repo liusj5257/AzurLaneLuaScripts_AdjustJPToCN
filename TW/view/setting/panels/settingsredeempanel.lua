@@ -1,18 +1,18 @@
 slot0 = class("SettingsRedeemPanel", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsRedeem"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("Settings_title_Redeem")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / KEY"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.codeInput = findTF(slot0._tf, "voucher")
 	slot0.placeholder = findTF(slot0.codeInput, "Placeholder")
 	slot0.placeholder:GetComponent(typeof(Text)).text = i18n("exchangecode_use_placeholder")
@@ -32,7 +32,7 @@ function slot0.OnInit(slot0)
 	setText(findTF(slot0._tf, "voucher/submit/Image"), i18n("Settings_title_Redeem_input_submit"))
 end
 
-function slot0.ClearExchangeCode(slot0)
+slot0.ClearExchangeCode = function(slot0)
 	slot0.codeInput:GetComponent(typeof(InputField)).text = ""
 end
 

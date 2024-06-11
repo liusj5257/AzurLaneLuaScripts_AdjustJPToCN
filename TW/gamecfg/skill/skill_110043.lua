@@ -5,13 +5,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
-					damage_param_a = 100,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 100,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -25,13 +25,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
-					damage_param_a = 100,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 100,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -49,13 +49,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
-					damage_param_a = 100,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 100,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -69,13 +69,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
-					damage_param_a = 100,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 100,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -93,13 +93,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
-					damage_param_a = 100,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 100,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -113,13 +113,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
-					damage_param_a = 100,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 100,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -137,13 +137,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
+					range = 45,
+					damage_param_b = 0,
 					damage_param_a = 150,
-					damage_param_b = 0,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -157,13 +157,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
+					range = 45,
+					damage_param_b = 0,
 					damage_param_a = 150,
-					damage_param_b = 0,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -181,13 +181,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
+					range = 45,
+					damage_param_b = 0,
 					damage_param_a = 150,
-					damage_param_b = 0,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -201,13 +201,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
+					range = 45,
+					damage_param_b = 0,
 					damage_param_a = 150,
-					damage_param_b = 0,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -225,13 +225,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
-					damage_param_a = 200,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 200,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -245,13 +245,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
-					damage_param_a = 200,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 200,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -269,13 +269,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
-					damage_param_a = 200,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 200,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -289,13 +289,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
+					range = 45,
+					damage_param_b = 0,
 					damage_param_a = 200,
-					damage_param_b = 0,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -313,13 +313,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
-					damage_param_a = 250,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 250,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -333,13 +333,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
-					damage_param_a = 250,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 250,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -357,13 +357,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
-					damage_param_a = 250,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 250,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -377,13 +377,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
-					damage_param_a = 250,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 250,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -401,13 +401,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_shunshi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_shunshi",
 					speed_x = 0,
+					range = 45,
+					damage_param_b = 0,
 					damage_param_a = 300,
-					damage_param_b = 0,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -421,13 +421,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "banjiu_qingdan_nishi",
 					life_time = 0.2,
 					move_type = 1,
-					range = 45,
+					effect = "banjiu_qingdan_nishi",
 					speed_x = 0,
-					damage_param_a = 300,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Ikaruga"
 					},
@@ -442,23 +442,23 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 110043,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	effect_list = {
 		{
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				effect = "banjiu_qingdan_shunshi",
 				life_time = 0.2,
 				move_type = 1,
-				range = 45,
+				effect = "banjiu_qingdan_shunshi",
 				speed_x = 0,
-				damage_param_a = 100,
+				range = 45,
 				damage_param_b = 0,
+				damage_param_a = 100,
 				damage_tag_list = {
 					"Ikaruga"
 				},
@@ -472,13 +472,13 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				effect = "banjiu_qingdan_nishi",
 				life_time = 0.2,
 				move_type = 1,
-				range = 45,
+				effect = "banjiu_qingdan_nishi",
 				speed_x = 0,
-				damage_param_a = 100,
+				range = 45,
 				damage_param_b = 0,
+				damage_param_a = 100,
 				damage_tag_list = {
 					"Ikaruga"
 				},

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"サンシャイン・デュエル！\n\n<size=45>二　無口な友達</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "ノーザンプトン、ほらほら順番だよ！",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ホーネットとノーザンプトンと一緒に執務室でボードゲームをやることになった。",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "どうしてこんな状況になったかというと…",
@@ -120,14 +120,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			say = "そういえば指揮官、今日仕事終わったら一緒にゲームでもしない？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "ちょうどこのホーネット様の無口で頼れる友達も誘ってー",
 			effects = {
 				{
@@ -182,13 +182,13 @@ return {
 		{
 			actor = 107070,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指揮官…？どうした？ボーっとしないでそろそろ順番だよ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ゲームを始めてからずっとハイテンションなホーネットと、言葉をほぼ発さずに考えながらプレイするノーザンプトンだった。",
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "少し考えてターンを飛ばした。",
@@ -262,8 +262,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "ふふん～考えたわね指揮官。じゃあ次は私のターン！これをこうして…んでそれをこうで…オッケー！",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "って、のど渇いてきたな…ちょっと飲み物買ってきたほうがいいかな？",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "…がってん！行ってくる！",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ホーネットがいなくなった途端に、執務室が静まり返った。",
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "沈黙を破ったのは、ホーネットの無口な友達だった。",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ノーザンプトンにホーネットの仕事ぶりを簡単に教えてあげた——",
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "せっかくなので、ホーネットの親友であるノーザンプトンにホーネットのことを聞いてみた。",
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "「姉」といえば、そういえば前にホーネットが「姉たちの顔に泥を塗らない」と言ってたのを思い出した。",
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "機会があれば本人の考えを聞いてみよう…",
@@ -549,8 +549,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "戻ったよ！早かったでしょ～？",
 			effects = {
@@ -572,9 +572,9 @@ return {
 			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "はい、飲み物とーーゲームの続きだ！",
 			effects = {
 				{

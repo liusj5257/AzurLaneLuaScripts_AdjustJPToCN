@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Loaded with Lead and Love\n\n<size=45>Chapter 3 - A Maid's Hobby</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 202080,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Master, are you interested in how we maids spend our everyday life?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,15 +73,15 @@ return {
 			}
 		},
 		{
-			say = "So on the next Sunday, I made my way over to the Royal dormitory and rung the bell...",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "So on the next Sunday, I made my way over to the Royal dormitory and rung the bell...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,11 +128,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "H-huh...? I thought...",
 			typewriter = {
@@ -161,13 +161,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "I expected nothing less of Sheffield's room. Impeccable, without a trace of dust.",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "A Royal maid's skill is truly formidable... a normal person would be hard-pressed to make tea of this caliber.",
 			typewriter = {
 				speed = 0.05,
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Somehow... I don't feel like I'm the \"Master\" here at all...",
 			typewriter = {
 				speed = 0.05,
@@ -268,9 +268,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Then... does that mean other people can't stay as long as they like? Does Sheffield kick them out?",
 			typewriter = {
 				speed = 0.05,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Also, there seems to be something on the table... is this a disassembled pistol?",
 			typewriter = {
 				speed = 0.05,
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "As terse as ever... Come to think of it, Sheffield, doesn't this gun look a bit like your rigging?",
 			typewriter = {
 				speed = 0.05,
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It's a bit like drinking out of a fire hose, but your lecture is undoubtedly quite interesting.",
 			typewriter = {
 				speed = 0.05,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Although her voice was still calm as always, I could somehow sense a passion, burning deep within her.",
 			typewriter = {
 				speed = 0.05,

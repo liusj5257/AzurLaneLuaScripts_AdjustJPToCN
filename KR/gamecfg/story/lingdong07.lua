@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG07",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG07",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 404010,
 			nameColor = "#ff0000",
 			side = 2,
-			bgm = "battle-boss-5",
 			dir = 1,
 			say = "쫓아오는 건 한 척뿐인가…설마, 경순양함 혼자서 전함에게 덤벼들 줄이야…",
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

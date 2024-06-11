@@ -26,17 +26,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "윽… 용사로서… 이런 곳에서 쓰러질 수는…",
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_156",
 			nameColor = "#A9F548FF",
 			say = "\"시스템: [강철의 가호 SSS] 및 [광명의 가호 SSS] 활성화\"",
@@ -447,11 +447,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "마왕",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main2",
 			say = "메가 플레임 드래곤을 쓰러뜨린 것도 요행이 아니라… 당신의 엄청난 힘으로…?!",
@@ -496,11 +496,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "마왕",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "용사 파티 중에서 가장 강한 자는… 지휘관, 당신이었군요!",
@@ -514,8 +514,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "……",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "……",
 			typewriter = {
@@ -565,11 +565,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "마왕",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "잠깐만요! 이야기로 풀어 보는 건…!",
@@ -602,11 +602,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "마왕",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "다, 다가오지 마세요!!!",

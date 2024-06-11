@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			bgm = "battle-executor-type1",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 403090,
 			nameColor = "#a9f548",
 			say = "하아... 이 가짜 놈들. 맞추지는 못하고 도망은 왜 이렇게 잘 가는 거야. 얼른 맞으라고!",
@@ -66,11 +66,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "크크크... 가짜한테 가짜 소리를 듣는 날이 오다니, 이게 바로 멸망의 날인가!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "...에? 오이겐?! 왜 거기 있어?!",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -180,8 +180,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "오이겐, 일단 데려왔는데 이게 무슨 일인지 설명을 해주지 않겠어요?",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "에?!!! 확인까지 했는데?! 아무런 응답이 없어서 공격한 건데!",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "이쪽도 그래요. 응답이 없으니 체스말이라고 생각했는데...",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "이상하네요. 통신은 분명 정상이잖아요? 다른 함대와 통신할 때만 간섭이 생기는 건가요...!",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "어, 어떻게 이럴 수가... 미안해! 페터랑 연락해서 다음 계획을 당장 그만두게 할게!",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,12 +378,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "하하하, 세이렌에게 놀아나기만 하다가 이렇게 반격할 수 있는 기회가 생기다니...",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "沙恩META专属破甲",
 	time = 10,
+	name = "沙恩META专属破甲",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = 0.08
+				number = 0.08,
+				attr = "injureRatioByCannon"
 			}
 		}
 	}

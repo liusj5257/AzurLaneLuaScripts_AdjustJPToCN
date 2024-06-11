@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "只是一場陣雨而已，很快天空就再次放晴。",
 			typewriter = {
 				speed = 0.05,
@@ -13,8 +13,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "你離開了樹下。這只是夏雨中一次微不足道的邂逅。",
 			typewriter = {
 				speed = 0.05,

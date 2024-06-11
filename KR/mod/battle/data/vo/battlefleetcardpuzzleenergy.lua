@@ -14,31 +14,31 @@ slot11 = class("BattleFleetCardPuzzleEnergy")
 slot0.Battle.BattleFleetCardPuzzleEnergy = slot11
 slot11.__name = "BattleFleetCardPuzzleEnergy"
 
-function slot11.Ctor(slot0, slot1)
+slot11.Ctor = function(slot0, slot1)
 	slot0._client = slot1
 	slot0._fleetAttr = slot0._client:GetAttrManager()
 
 	slot0:init()
 end
 
-function slot11.CustomConfig(slot0, slot1)
+slot11.CustomConfig = function(slot0, slot1)
 	slot2 = uv0.GetPuzzleDungeonTemplate(slot1)
 	slot0._currentEnergy = slot2.init_energy
 	slot0._generateRate = slot2.energy_recovery
 end
 
-function slot11.Dispose(slot0)
+slot11.Dispose = function(slot0)
 end
 
-function slot11.GetMaxEnergy(slot0)
+slot11.GetMaxEnergy = function(slot0)
 	return slot0._maxEnergy
 end
 
-function slot11.GetCurrentEnergy(slot0)
+slot11.GetCurrentEnergy = function(slot0)
 	return slot0._currentEnergy
 end
 
-function slot11.GetGeneratingProcess(slot0)
+slot11.GetGeneratingProcess = function(slot0)
 	if slot0._currentEnergy == slot0._maxEnergy then
 		return 1
 	else
@@ -46,7 +46,7 @@ function slot11.GetGeneratingProcess(slot0)
 	end
 end
 
-function slot11.ConsumeEnergy(slot0, slot1)
+slot11.ConsumeEnergy = function(slot0, slot1)
 	slot0._currentEnergy = math.max(slot0._currentEnergy - slot1, 0)
 
 	slot0._client:EnergyUpdate()
@@ -56,26 +56,26 @@ function slot11.ConsumeEnergy(slot0, slot1)
 	end
 end
 
-function slot11.Update(slot0, slot1)
+slot11.Update = function(slot0, slot1)
 	slot0:update(slot1)
 end
 
-function slot11.init(slot0)
+slot11.init = function(slot0)
 	slot0._currentEnergy = uv0.baseEnergyInitial
 	slot0._maxEnergy = 10
 	slot0._generateRate = uv0.baseEnergyGenerateSpeedPerSecond
 	slot0._energyGenerating = 0
 end
 
-function slot11.updateTimeStamp(slot0)
+slot11.updateTimeStamp = function(slot0)
 	slot0._lastUpdateTimeStamp = pg.TimeMgr.GetInstance():GetCombatTime()
 end
 
-function slot11.Start(slot0)
+slot11.Start = function(slot0)
 	slot0:updateTimeStamp()
 end
 
-function slot11.update(slot0, slot1)
+slot11.update = function(slot0, slot1)
 	if slot0._currentEnergy < slot0._maxEnergy then
 		slot0._energyGenerating = (slot1 - slot0._lastUpdateTimeStamp) * slot0:getCurrentSpeed() + slot0._energyGenerating
 
@@ -91,11 +91,11 @@ function slot11.update(slot0, slot1)
 	slot0:updateTimeStamp()
 end
 
-function slot11.getCurrentSpeed(slot0)
+slot11.getCurrentSpeed = function(slot0)
 	return math.max(slot0._generateRate * (1 + slot0._fleetAttr:GetCurrent("BaseEnergyBoostRate")) + slot0._fleetAttr:GetCurrent("BaseEnergyBoostExtra"), 0)
 end
 
-function slot11.FillToCooldown(slot0, slot1)
+slot11.FillToCooldown = function(slot0, slot1)
 	if slot1 <= slot0._currentEnergy then
 		return 0
 	else

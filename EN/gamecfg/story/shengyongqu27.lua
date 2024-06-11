@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU27",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-french2",
 			dir = 1,
 			say = "I know that my words mean very little to you, but please hear me out.",
+			bgm = "level-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +143,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 0,
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Illustrious took a deep bow, her voice full of sorrow but also determination.",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "Hmm... This isn't quite what I expected.",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "...Or so I would like to say, but I don't think there's any way to rebuild a bridge between us, wouldn't you agree?",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "If Vauquelin and Algérie have nothing to say, how 'bout I do the honors instead?",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "Second, I don't wanna hear your apologies... Maybe Dunkerque or Jean Bart might be interested, but y'know...",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "Finally, what to do about all this... Algérie, are you sure you don't wanna use that black cube?",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "Algérie, what's the matter? You're acting a bit weird.",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "Earth to Algérie...? Wait, Vauquelin isn't moving either?",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Algérie continued her prayer, seemingly ignoring everything that was going on around her.",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In response to her prayer, the light of the Basilica gathered around Algérie's body.",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 802020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "What... is this...?!",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Silence fell upon the battlefield.",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "All ships present fixated their gazes upon the box in Algérie's hand.",
 			typewriter = {
 				speed = 0.05,
@@ -463,9 +463,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...No, impossible! This is...!",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -489,9 +489,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Algérie! Stop! You mustn't use this power!",
 			effects = {
 				{
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "But Richelieu's voice could not reach her.",
 			effects = {
 				{
@@ -545,9 +545,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "La Galissonnière! ...Stop her right now! Get that box out of her hand!",
 			effects = {
 				{
@@ -567,9 +567,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "...On it!",
 			effects = {
 				{
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "But before La Galissonnière could move, the dazzling light that engulfed Algérie... exploded.",
 			typewriter = {
 				speed = 0.05,
@@ -617,9 +617,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...Everyone, get down!",
 			typewriter = {
 				speed = 0.05,
@@ -631,8 +631,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -644,8 +644,8 @@ return {
 			actor = 903020,
 			nameColor = "#ffff4d",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "\"Amen.\"",
 			typewriter = {
 				speed = 0.05,
@@ -657,13 +657,13 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_qiongding_5",
-			say = "An intense light flooded the seas and the skies, searing all the color from the world.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-2",
+			stopbgm = true,
+			say = "An intense light flooded the seas and the skies, searing all the color from the world.",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_5",
+			dir = 1,
 			say = "And then, a drop of black ink fell upon the pure, white world.",
 			typewriter = {
 				speed = 0.05,
@@ -703,9 +703,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_5",
+			dir = 1,
 			say = "The black dots quickly grew larger, covering where \"She\" was like a thin film...",
 			typewriter = {
 				speed = 0.05,
@@ -717,9 +717,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_5",
+			dir = 1,
 			say = "Then, a second shockwave.",
 			typewriter = {
 				speed = 0.05,
@@ -731,9 +731,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_5",
+			dir = 1,
 			say = "This time, a tide of black that swallows the light. Overrunning, coalescing, muddying the world with turbulence.",
 			typewriter = {
 				speed = 0.05,

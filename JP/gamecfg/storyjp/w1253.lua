@@ -1,15 +1,15 @@
 return {
-	id = "W1253",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1253",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "サルベージ作業が完了しました。オフニャと資源の回収に成功しました",
 			painting = {
 				alpha = 0.3,

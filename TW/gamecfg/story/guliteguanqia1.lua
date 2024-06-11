@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GULITEGUANQIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GULITEGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			bgName = "star_level_bg_1100",
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呼——呼————",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "周圍好黑，什麼都看不到……這是在夢裡…？",
 			typewriter = {
 				speed = 0.05,
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "也不知道現在幾點了啊……",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "一直在忙著準備宴會……幹了那麼多活，稍微偷懶一下也沒關係吧。",
 			typewriter = {
 				speed = 0.05,
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "說不定指揮官也在睡懶覺呢，反正有貝法在……",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "再睡一會好了——",
 			typewriter = {
 				speed = 0.05,
@@ -129,14 +129,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_147",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			actorName = "？？？",
 			bgm = "ssss-az-story",
 			actor = 900233,
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
+			bgName = "star_level_bg_147",
 			say = "已知，老師現在為測驗準備了三套考卷，四名同學需要從中任選一套作答。請問，這三套考卷都有人選做的機率是？",
 			flashout = {
 				dur = 1,
@@ -163,13 +163,13 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
+			actor = 900233,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "有哪位同學能回答一下嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
+			dir = 1,
 			say = "什麼聲音啊？吵死了…",
 			typewriter = {
 				speed = 0.05,
@@ -198,10 +198,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 102163,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "愛丁堡，喂愛丁堡……這傢伙不會睡過去了吧。",
 			typewriter = {
@@ -217,11 +217,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10800050,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "真厲害啊。",
 			typewriter = {
 				speed = 0.05,
@@ -236,11 +236,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10800020,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "自由自在的風格，不過好像被老師發現了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
+			dir = 1,
 			say = "誰啊，別晃了……讓我再睡一會…………",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			dir = 1,
 			actor = 900233,
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "喂！那邊的愛丁堡！怎麼又在上課的時候睡著了！",
 			dialogShake = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "唔………欸………我這是在…教室？",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "像教師的人",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "像教師的人",
 			hidePaintObj = true,
 			say = "看來還記得自己是在上課。既然睡眠充足了，就來回答一下剛剛的問題吧。",
 			typewriter = {
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "像教師的人",
 			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
+			actor = 900233,
+			actorName = "像教師的人",
+			hidePaintObj = true,
 			say = "老師現在為測驗準備了三套卷子，四名同學需要從中任選一套作答。請問，這三套卷子都有人選做的機率是？",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -395,13 +395,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（居、居然對了嗎……好險。）",
 			typewriter = {
 				speed = 0.05,
@@ -432,13 +432,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊，我算出來了！正確答案是B！",
 			typewriter = {
 				speed = 0.05,
@@ -450,8 +450,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -479,13 +479,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊，我算出來了！正確答案是B！",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -526,13 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 4,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊，我算出來了！正確答案是B！",
 			typewriter = {
 				speed = 0.05,
@@ -544,8 +544,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -573,13 +573,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 5,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊，我算出來了！正確答案是B！",
 			typewriter = {
 				speed = 0.05,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -601,13 +601,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
 			actorName = "像教師的人",
-			side = 2,
+			hidePaintObj = true,
 			say = "回答正確……？難道是昨晚熬夜學習才這麼睏的嗎，不論如何，也不要上課睡覺哦，快請坐下吧。",
 			typewriter = {
 				speed = 0.05,
@@ -622,10 +622,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "像教師的人",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "像教師的人",
 			hidePaintObj = true,
 			say = "接下來我們來講——————",
 			typewriter = {
@@ -671,12 +671,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

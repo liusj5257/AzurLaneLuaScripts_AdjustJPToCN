@@ -1,18 +1,18 @@
 slot0 = class("SailBoatItem")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._tf = slot1
 	slot0._event = slot2
 	slot0._collider = GetComponent(findTF(slot0._tf, "bound"), typeof(BoxCollider2D))
 end
 
-function slot0.setData(slot0, slot1)
+slot0.setData = function(slot0, slot1)
 	slot0._itemData = slot1
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0._removeFlag = false
 	slot0._sceneHeight = uv0.scene_height
 	slot0._sceneWidth = uv0.scene_width
@@ -23,7 +23,7 @@ function slot0.start(slot0)
 	slot0:setVisible(true)
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot2 = slot0._tf.anchoredPosition
 	slot3 = uv0.GetSceneSpeed()
 	slot0._speed.x = slot0._speed.x * slot1 + slot3.x
@@ -41,45 +41,45 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.getSpeed(slot0)
+slot0.getSpeed = function(slot0)
 	return slot0._speed
 end
 
-function slot0.setContent(slot0, slot1)
+slot0.setContent = function(slot0, slot1)
 	slot0._content = slot1
 
 	SetParent(slot0._tf, slot1)
 end
 
-function slot0.getId(slot0)
+slot0.getId = function(slot0)
 	return slot0._itemData.id
 end
 
-function slot0.setVisible(slot0, slot1)
+slot0.setVisible = function(slot0, slot1)
 	setActive(slot0._tf, slot1)
 end
 
-function slot0.setPosition(slot0, slot1)
+slot0.setPosition = function(slot0, slot1)
 	slot0._tf.anchoredPosition = slot1
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0:setVisible(false)
 end
 
-function slot0.setRemoveFlag(slot0, slot1)
+slot0.setRemoveFlag = function(slot0, slot1)
 	slot0._removeFlag = slot1
 end
 
-function slot0.getRemoveFlag(slot0)
+slot0.getRemoveFlag = function(slot0)
 	return slot0._removeFlag
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	uv0 = nil
 end
 
-function slot0.getColliderData(slot0)
+slot0.getColliderData = function(slot0)
 	slot1 = slot0._content:InverseTransformPoint(slot0._collider.bounds.min)
 
 	if not slot0._boundData then
@@ -93,7 +93,7 @@ function slot0.getColliderData(slot0)
 	return slot1, slot0._boundData
 end
 
-function slot0.getWorldColliderData(slot0)
+slot0.getWorldColliderData = function(slot0)
 	slot1 = slot0._collider.bounds.min
 
 	if not slot0._worldBoundData then
@@ -107,11 +107,11 @@ function slot0.getWorldColliderData(slot0)
 	return slot1, slot0._worldBoundData
 end
 
-function slot0.getTf(slot0)
+slot0.getTf = function(slot0)
 	return slot0._tf
 end
 
-function slot0.getUseData(slot0)
+slot0.getUseData = function(slot0)
 	return {
 		score = slot0:getConfig("score"),
 		hp = slot0:getConfig("hp"),
@@ -119,7 +119,7 @@ function slot0.getUseData(slot0)
 	}
 end
 
-function slot0.checkPositionInRange(slot0, slot1)
+slot0.checkPositionInRange = function(slot0, slot1)
 	slot2 = slot0._tf.anchoredPosition
 	slot4 = math.abs(slot2.y - slot1.y)
 
@@ -130,11 +130,11 @@ function slot0.checkPositionInRange(slot0, slot1)
 	return false
 end
 
-function slot0.getPosition(slot0)
+slot0.getPosition = function(slot0)
 	return slot0._tf.anchoredPosition
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	return slot0._itemData[slot1]
 end
 

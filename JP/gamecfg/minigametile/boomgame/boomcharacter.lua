@@ -1,125 +1,125 @@
 return {
-	tilewidth = 248,
-	name = "character",
-	spacing = 0,
-	objectalignment = "unspecified",
-	tiledversion = "1.9.2",
-	tilecount = 11,
-	margin = 0,
-	columns = 0,
 	luaversion = "5.1",
-	version = "1.9",
+	name = "character",
+	tilewidth = 248,
+	margin = 0,
+	tilecount = 11,
+	objectalignment = "unspecified",
 	class = "",
-	tileheight = 248,
 	fillmode = "stretch",
+	columns = 0,
+	spacing = 0,
+	tiledversion = "1.9.2",
+	tileheight = 248,
+	version = "1.9",
 	tilerendersize = "tile",
 	tileoffset = {
 		x = 0,
 		y = 0
 	},
 	grid = {
-		orientation = "orthogonal",
 		height = 1,
+		orientation = "orthogonal",
 		width = 1
 	},
 	properties = {},
 	wangsets = {},
 	tiles = {
 		{
+			height = 248,
 			id = 0,
-			height = 248,
-			width = 248,
 			image = "../../../../../../tool/TileWork/BoomGame/character/BOSS_Chaser.png",
+			width = 248,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
+			height = 248,
 			id = 1,
-			height = 248,
-			width = 248,
 			image = "../../../../../../tool/TileWork/BoomGame/character/BOSS_Conductor.png",
+			width = 248,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
+			height = 248,
 			id = 2,
-			height = 248,
-			width = 248,
 			image = "../../../../../../tool/TileWork/BoomGame/character/BOSS_Navigator.png",
+			width = 248,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
+			height = 248,
 			id = 3,
-			height = 248,
-			width = 248,
 			image = "../../../../../../tool/TileWork/BoomGame/character/BOSS_Scavenger.png",
-			properties = {
-				use_attr = true
-			}
-		},
-		{
-			id = 4,
-			height = 248,
 			width = 248,
+			properties = {
+				use_attr = true
+			}
+		},
+		{
+			height = 248,
+			id = 4,
 			image = "../../../../../../tool/TileWork/BoomGame/character/BOSS_Smasher.png",
+			width = 248,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
+			height = 168,
 			id = 5,
-			height = 168,
-			width = 168,
 			image = "../../../../../../tool/TileWork/BoomGame/character/Chaser.png",
+			width = 168,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
+			height = 168,
 			id = 6,
-			height = 168,
-			width = 168,
 			image = "../../../../../../tool/TileWork/BoomGame/character/Conductor.png",
+			width = 168,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
+			height = 168,
 			id = 7,
-			height = 168,
-			width = 168,
 			image = "../../../../../../tool/TileWork/BoomGame/character/Navigator.png",
+			width = 168,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
-			id = 8,
 			height = 124,
-			width = 124,
+			id = 8,
 			image = "../../../../../../tool/TileWork/BoomGame/character/Ryza.png",
+			width = 124,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
+			height = 168,
 			id = 9,
-			height = 168,
-			width = 168,
 			image = "../../../../../../tool/TileWork/BoomGame/character/Smasher.png",
+			width = 168,
 			properties = {
 				use_attr = true
 			}
 		},
 		{
-			id = 10,
 			height = 168,
-			width = 168,
+			id = 10,
 			image = "../../../../../../tool/TileWork/BoomGame/character/Scavenger.png",
+			width = 168,
 			properties = {
 				use_attr = true
 			}

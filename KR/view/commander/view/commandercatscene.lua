@@ -42,11 +42,11 @@ slot0.MSG_OPEN_BOX = "CommanderCatScene:MSG_OPEN_BOX"
 slot0.MSG_BATCH_BUILD = "CommanderCatScene:MSG_BATCH_BUILD"
 slot0.MSG_RES_UPDATE = "CommanderCatScene:MSG_RES_UPDATE"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderCatUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.bgTF = slot0:findTF("background")
 	slot1 = slot0.bgTF
 	slot0.bgImg = slot1:GetComponent(typeof(Image))
@@ -85,7 +85,7 @@ function slot0.init(slot0)
 	slot0.goldTxt = findTF(slot0.blurPanel, "top/res/gold/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.pageType == uv1.PAGE_PLAY or uv0.pageType == uv1.PAGE_TALENT then
 			triggerButton(uv0.toggles[uv1.PAGE_DOCK])
@@ -119,7 +119,7 @@ function slot0.didEnter(slot0)
 	setActive(slot0.toggles[uv0.PAGE_DOCK], false)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(uv0.EVENT_SELECTED, function (slot0, slot1, slot2)
 		uv0:UpdateMainView(slot1, slot2)
 	end)
@@ -138,7 +138,7 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.UpdateStyle(slot0)
+slot0.UpdateStyle = function(slot0)
 	setActive(slot0.helpBtn, uv0.MODE_VIEW == slot0.contextData.mode)
 
 	if slot0.contextData.mode == uv0.MODE_SELECT then
@@ -153,7 +153,7 @@ function slot0.UpdateStyle(slot0)
 	end
 end
 
-function slot0.UpdateResources(slot0)
+slot0.UpdateResources = function(slot0)
 	for slot5, slot6 in pairs(getProxy(CommanderProxy):getPools()) do
 		if slot0.resources[slot6.id] then
 			slot7.text = slot6:getItemCount()
@@ -161,11 +161,11 @@ function slot0.UpdateResources(slot0)
 	end
 end
 
-function slot0.UpdateGold(slot0)
+slot0.UpdateGold = function(slot0)
 	slot0.goldTxt.text = getProxy(PlayerProxy):getRawData().gold
 end
 
-function slot0.UpdateToggles(slot0)
+slot0.UpdateToggles = function(slot0)
 	for slot4, slot5 in pairs(slot0.toggles) do
 		onButton(slot0, slot5, function ()
 			if uv0.pageType then
@@ -178,7 +178,7 @@ function slot0.UpdateToggles(slot0)
 	end
 end
 
-function slot0.SwitchPage(slot0, slot1)
+slot0.SwitchPage = function(slot0, slot1)
 	if (slot1 == uv0.PAGE_PLAY or slot1 == uv0.PAGE_TALENT) and not slot0.selectedCommander then
 		return
 	end
@@ -213,7 +213,7 @@ function slot0.SwitchPage(slot0, slot1)
 	slot0:emit(uv0.EVENT_SWITCH_PAGE, slot1)
 end
 
-function slot0.CheckFirstHelp(slot0, slot1)
+slot0.CheckFirstHelp = function(slot0, slot1)
 	if slot1 == uv0.PAGE_PLAY then
 		checkFirstHelpShow("help_commander_play")
 	elseif slot1 == uv0.PAGE_TALENT then
@@ -221,7 +221,7 @@ function slot0.CheckFirstHelp(slot0, slot1)
 	end
 end
 
-function slot0.UpdateMainView(slot0, slot1, slot2)
+slot0.UpdateMainView = function(slot0, slot1, slot2)
 	if not slot2 and slot0.selectedCommander and slot1.id == slot0.selectedCommander.id then
 		return
 	end
@@ -262,7 +262,7 @@ function slot0.UpdateMainView(slot0, slot1, slot2)
 	slot0.selectedCommander = slot1
 end
 
-function slot0.ReturnCommanderPainting(slot0)
+slot0.ReturnCommanderPainting = function(slot0)
 	if slot0.selectedCommander then
 		retCommanderPaintingPrefab(slot0.paintingTF, slot0.selectedCommander:getPainting())
 
@@ -270,7 +270,7 @@ function slot0.ReturnCommanderPainting(slot0)
 	end
 end
 
-function slot0.Fold(slot0)
+slot0.Fold = function(slot0)
 	if slot0.doAnimation then
 		return
 	end
@@ -288,7 +288,7 @@ function slot0.Fold(slot0)
 	slot0:emit(uv0.EVENT_FOLD, true)
 end
 
-function slot0.UnFold(slot0)
+slot0.UnFold = function(slot0)
 	if slot0.doAnimation then
 		return
 	end
@@ -304,7 +304,7 @@ function slot0.UnFold(slot0)
 	slot0:emit(uv0.EVENT_FOLD, false)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.pageType and (slot0.pageType == uv0.PAGE_PLAY or slot0.pageType == uv0.PAGE_TALENT) then
 		triggerButton(slot0.toggles[uv0.PAGE_DOCK])
 
@@ -334,7 +334,7 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:ReturnCommanderPainting()
 
 	for slot4, slot5 in pairs(slot0.pages) do

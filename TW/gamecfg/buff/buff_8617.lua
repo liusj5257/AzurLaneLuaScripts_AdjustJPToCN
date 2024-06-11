@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "13章翔鹤死亡",
 	time = 0,
-	color = "yellow",
+	name = "13章翔鹤死亡",
+	init_effect = "",
+	id = 8617,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8617,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "",
 	effect_list = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIBISIMAI",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIBISIMAI",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"SP Bismarck\n\n<size=45>While the Coffee is Hot</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "There I stood, at the door to the Iron Blood's workshop. The sounds of hammering and bolting were coming from inside.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "There I stood, at the door to the Iron Blood's workshop. The sounds of hammering and bolting were coming from inside.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Upon opening the door, I was greeted by the voice of a woman surrounded by a mountain of machine parts and metal materials.",
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Who might that be? Ah, let me guess...",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "You've come alone, and quite late in the evening at that. That leaves but one candidate...",
 			typewriter = {
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Welcome, Commander. My hands are full at the moment, but feel free to make yourself comfortable.",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "She was the source of the sounds. It seemed she was building something.",
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Deciding to stick around, I sat on a chair a fair distance from her so I wouldn't get in the way.",
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "Rigging",
 			dir = 1,
+			actorName = "Rigging",
 			say = "GRRRRGGHH!",
 			dialogShake = {
 				speed = 0.08,
@@ -203,8 +203,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Hmm. It needs some fine-tuning. I'll talk to Friedrich about that later...",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Bismarck decided it was time for a break. She put down her tools, stood up, and walked over to a coffeemaker placed in a corner of the room. She took out two paper cups.",
@@ -251,8 +251,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "I prefer mine black, but if you'd like a bit of sugar or creamer, just tell me.",
 			typewriter = {
@@ -281,15 +281,15 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 405010,
+			nameColor = "#a9f548",
 			say = "Last refill now. We don't want to have too much, or it'll affect our performance in the office tomorrow.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Now... To what do I owe the pleasure? I'd imagine you have better things to do at this hour.",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "The scent of freshly-ground coffee beans filled the air. I took in the smell as I thought about the answer to her question.",
@@ -346,8 +346,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "\"There are two reasons. The first is simple – I'm seeing what's up around the port.\"",
@@ -364,8 +364,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Seeing what's up, you say? Not much, on the whole.",
 			typewriter = {
@@ -397,8 +397,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Me especially, seeing as I am the leader of the Iron Blood. The woman with the permanent pokerface. She has got to be planning something...",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Yes... Planning what to have for dinner, perhaps.",
 			typewriter = {
@@ -428,8 +428,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "She downplayed it as a joke, although I had no reason to believe she meant the first half seriously in the first place.",
@@ -446,8 +446,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Being a leader, someone who looks after those under their command, is quite tiring.",
 			typewriter = {
@@ -492,8 +492,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Bismarck was a leader with a strict sense of duty that seemed to cause her endless woe and doubt...",
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "But, this strict sense of duty is also what fueled her desire to do everything she could for humanity, regardless of the consequences for herself.",
@@ -541,8 +541,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "I don't know what your mind conjures up when it thinks \"Bismarck.\" But if you wonder about me...",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Putting down her cup on the work table, the Iron Blood leader clad in a black uniform turned to face me.",
@@ -589,8 +589,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "I have you to thank for this. For letting me be myself.",
 			typewriter = {
@@ -606,8 +606,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "I'm sure U-556, Tirpitz, and all my Iron Blood comrades are grateful for it as well.",
 			typewriter = {
@@ -623,8 +623,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "So, thank you, Commander. Thank you for everything, always.",
 			typewriter = {
@@ -637,8 +637,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Bismarck smiled at me. It was the first time I'd seen her smile from the heart, as solely herself.",
@@ -652,8 +652,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "It felt like I'd manage to ease the burden on her shoulders, even if only a little bit, by talking to her today.",
@@ -670,8 +670,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "...Sorry, I just realized I've been going on and on about myself.",
 			typewriter = {
@@ -700,8 +700,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "I reached into my pocket, took out two opera tickets, and presented them to her.",
@@ -718,8 +718,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Ahah. I see... It's starting pretty soon, I see.",
 			typewriter = {
@@ -735,8 +735,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Perfect timing. I did say this would be our last cup of coffee for the evening, after all.",
 			typewriter = {
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "And what great coffee it was. It had such a supple, yet clean aftertaste.",
@@ -767,9 +767,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "Just asking, but... Would you say I should stick to black garments for the opera?",
 			typewriter = {

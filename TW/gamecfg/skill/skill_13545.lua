@@ -2,9 +2,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -18,9 +18,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -34,9 +34,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -50,9 +50,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -66,9 +66,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -82,9 +82,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -98,9 +98,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -114,9 +114,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -130,9 +130,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -146,9 +146,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -162,11 +162,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = "yingxianzuo",
 	id = 13540,
-	picture = "0",
 	castCV = "",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -177,9 +177,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetPlayerVanguardFleet"

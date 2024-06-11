@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"An Easily Flustered Girl's Story\n\n<size=45>Chapter 2 - She Doesn't Have Many Friends?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Academy Courtyard",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Academy Courtyard",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 102130,
+			say = "*Giggle*~ What? You mean we can't chat if I don't need something from you?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "*Giggle*~ What? You mean we can't chat if I don't need something from you?",
+			actor = 102130,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "... But why is the Commander here, too?",
 			typewriter = {
 				speed = 0.05,
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "W-what's so lucky about this...?",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102130,
+			nameColor = "#a9f548",
 			say = "So why don't you try getting to know the Commander? You have the chance now that you're the secretary.",
 			typewriter = {
 				speed = 0.05,
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "*Ugh*... That's none of your business, is it? And you, Commander, stay out of this!",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -274,9 +274,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = -1,
 			say = "I have a hunch that St. Louis can see straight through Honolulu's charade.",
 			typewriter = {
 				speed = 0.05,
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "What clo...?! W-w-what's your problem, displaying embarrassing stuff like this in public?! You're the only person on the planet who likes this stuff!",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "Whatever, do as you like... Don't be upset if it looks awful on me, cause I don't give a hoot...",
 			typewriter = {
 				speed = 0.05,
@@ -374,8 +374,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = -1,
 			say = "Their conversation, if one could call it that, went on for surprisingly long.",
 			typewriter = {
 				speed = 0.05,

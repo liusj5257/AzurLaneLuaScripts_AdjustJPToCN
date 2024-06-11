@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>……正直、実感が少し湧かないんだ</size>",
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -58,12 +58,12 @@ return {
 			}
 		},
 		{
-			say = "重桜・祭儀（さいぎ）の島",
-			side = 2,
 			bgName = "bg_xinnong_cg1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-1",
+			say = "重桜・祭儀（さいぎ）の島",
 			effects = {
 				{
 					active = false,
@@ -71,8 +71,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "カランカラン！",
 			dialogShake = {
 				speed = 0.09,
@@ -119,8 +119,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "龍鳳さんどいて――！",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "機材を運んでいる特型駆逐艦「響」はバランスを崩して今にも転びそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -157,9 +157,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "カラン！ドン！カン！",
 			dialogShake = {
 				speed = 0.09,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "――狼狽しながらも尻もちをついた響は、式典に使われる機材を散らかしてしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "あいたた……",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "龍鳳さんひどいよぉ…響を助けてくれないなんて＞＜",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "名前を呼ばれたのは、潜水空母「大鯨」から改造され、軽空母になった「龍鳳」であり、彼女は機材を優雅に拾い上げた。",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "艦船はそれぐらいでは怪我しないでしょうに。というか機材は大事に運びなさいって言いましたね？",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "もーう、龍鳳さん！",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "祭儀まであとちょっとですから、もっと気を付けたほうがいいですよ",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "……そういえば、あの子たちは本当に来るのですか？",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "重桜所属なら来ないはずがありませんよ",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "「歴史ある重桜の祭儀を執り行い、カミに奉り我が行き先を示して頂けば、セイレーンと諸外勢力に脅かされ翳りし重桜の未来もきっと光明に満ち溢れよう――」と",
 			typewriter = {
@@ -360,13 +360,13 @@ return {
 			}
 		},
 		{
-			actor = 302210,
+			say = "龍鳳さん、ここにいましたか",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302210,
 			actorName = "？？？",
-			say = "龍鳳さん、ここにいましたか",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "鉄血の来訪者からの連絡を受信しました。祭儀には参加する――とのことですが、どうやら迷子になっているようです",
 			typewriter = {
@@ -417,8 +417,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "では……今回は初めてよその陣営から参加者が来るのですね",
 			typewriter = {
@@ -434,8 +434,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "能代さん、そっちの案内をお願いできませんか？",
 			typewriter = {
@@ -467,8 +467,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "ですが龍鳳さんには、重桜艦隊の威光発揚のため、祭儀に参加する艦船たちが戦果を競う奉納行事、「連合艦隊演習」－－",
 			typewriter = {
@@ -484,8 +484,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "行事の参加者と対戦組み合わせ、その手配をお願いします",
 			typewriter = {
@@ -498,8 +498,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,8 +511,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "いわゆるお祭り騒ぎ的なもの…ではないので気を引き締めなければなりませんね",
 			typewriter = {
@@ -525,9 +525,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "トントン",
 			typewriter = {
 				speed = 0.05,
@@ -558,8 +558,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			nameColor = "#a9f548",
 			say = "一航戦、やっぱり来たんだね～",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -585,8 +585,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "龍鳳さん、まずはあなたの案内からですね",
 			typewriter = {
@@ -602,8 +602,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "……はい、もちろんです",
 			typewriter = {
@@ -619,8 +619,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "重桜における大事な祭儀、いまは私…ううん、私達の手に委ねられている",
 			typewriter = {
@@ -636,8 +636,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "…重桜のために、絶対失敗させませんっ！",
 			typewriter = {
@@ -666,11 +666,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actorName = "みんな",
 			dir = 1,
+			actorName = "みんな",
 			say = "……はい！",
 			dialogShake = {
 				speed = 0.09,
@@ -690,8 +690,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "積年の恨み…ではなく、訓練の成果を皆にお見せします！",
 			typewriter = {
@@ -704,9 +704,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "会場を一望して、龍鳳たちがそれぞれの持ち場に移動を開始した。",
 			typewriter = {
 				speed = 0.05,
@@ -718,8 +718,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51></size>",

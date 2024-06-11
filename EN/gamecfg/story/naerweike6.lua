@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201200,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "level02",
 			dir = 1,
 			say = "Through the heavy snow, I can only make out a faint glow on the coast...",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Say, Hardy, you know what?",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "What?",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Narvik...",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "Don't tell me you have some critical intelligence?",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "I've heard you can see the aurora from here between January and March.",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Too bad it's already April. We missed it.",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "Hunter... the enemy is right in front of us.",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Only a thought. Do you really have no interest in the aurora?",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "I haven't. But I've heard it's beautiful, enchanting even. When I heard we were going to the Arctic, I'd gotten my hopes up.",
 			typewriter = {
 				speed = 0.05,
@@ -225,8 +225,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "But seeing so much snow is also nice. It never snows like this back home.",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "Really? I think it just gets in the way.",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Say, Hardy, how would you like to enjoy the snow with me after this mission?",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "Now's not the time to think about such things. We are here to attack Narvik. Afterwards...",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Just for a bit?",
 			typewriter = {
 				speed = 0.05,

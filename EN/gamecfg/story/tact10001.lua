@@ -6,8 +6,8 @@ return {
 		{
 			actor = 201230,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "Unknown enemy planes ahead, no fleet detected nearby!",
 			shake = {
 				speed = 1,
@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = 0,
 			say = "Damn, we have been discovered, is there a submarine in the area?",
+			dir = 0,
+			actor = 205060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -48,8 +48,8 @@ return {
 		{
 			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "It's ok, those bombers are no match for our battleships, keep advancing, ready all anti-aircraft guns!",
 			shake = {
 				speed = 1,

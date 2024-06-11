@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELIQIYAGONGDOU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELIQIYAGONGDOU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"오아시스 옛담\n\n<size=45>1.오아시스의 모래폭풍</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -33,9 +33,9 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			asideType = 3,
+			stopbgm = true,
 			effects = {
 				{
 					active = false,
@@ -67,30 +67,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
-			actorName = "라디오",
 			bgmDelay = 1,
-			say = "(음악) \"배가 물에 닿기도 전에♪\"",
 			bgm = "story-italy",
+			actorName = "라디오",
+			hidePaintObj = true,
+			say = "(음악) \"배가 물에 닿기도 전에♪\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라디오",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라디오",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라디오",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			say = "사르데냐 엠파이어 함선들이 머무르고 있는 시설의 휴게실. 테이블에 놓여 있는 라디오에서 경쾌한 음악이 흐르고 있다.",
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			say = "(끼익)",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
+			say = "(끼익)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아! 안드레아 씨, 좋은 아침! 잘 잤어?",
 			painting = {
 				alpha = 0.3,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,10 +204,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아틸리오구나. …뭐, 그럭저럭?",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오늘 날씨… 왠지 좀 불안한 느낌인데….",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나저나 라디오는 아틸리오가 튼 거야?",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응! 무슨 노랜지는 잘 모르겠지만, 뭔가 신나지 않아?!",
 			painting = {
 				alpha = 0.3,
@@ -282,10 +282,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "에헤헷, 안드레아 씨가 라디오를 찾아다 줘서 잘 듣고 있어!",
 			painting = {
 				alpha = 0.3,
@@ -300,10 +300,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇구나~",
 			painting = {
 				alpha = 0.3,
@@ -318,10 +318,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이것도 좋은 선배로서의 모습…인 거겠지……?",
 			painting = {
 				alpha = 0.3,
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			say = "(끼익)",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
+			say = "(끼익)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,10 +348,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "고리치아 씨도 돌아왔네!",
 			painting = {
 				alpha = 0.3,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -392,10 +392,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "고리치아 씨도 같이 들을래? 노래가 이미 시작되긴 했…",
 			painting = {
 				alpha = 0.3,
@@ -416,10 +416,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "엥?! 갑자기 채널은 왜 바꿔? 아틸리오가 음악 감상 시간을 얼마나……",
 			painting = {
 				alpha = 0.3,
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -441,8 +441,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -451,8 +451,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라디오",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라디오",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라디오",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라디오",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -502,10 +502,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "모, 모래폭풍……?!",
 			painting = {
 				alpha = 0.3,
@@ -517,8 +517,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -540,10 +540,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "기상이변이라고 했었지… 확실히 이 시기에 모래폭풍이 몰아치는 건 흔치 않은데.",
 			painting = {
 				alpha = 0.3,
@@ -558,10 +558,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나도 방금 듣고 깜짝 놀랐어.",
 			painting = {
 				alpha = 0.3,
@@ -576,10 +576,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방풍벽이 생기고 모래폭풍이 불어 닥친 적은 거의 없었으니까.",
 			painting = {
 				alpha = 0.3,
@@ -594,10 +594,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 그러고 보니 오늘 상층부에서 연설이 있다더라. 모래폭풍으로 피해를 입지 않으면 좋겠는데….",
 			painting = {
 				alpha = 0.3,
@@ -612,10 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "상층부에서? 누가 연설을 하는데?",
 			painting = {
 				alpha = 0.3,
@@ -630,10 +630,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "마르코 폴로. 세계박람회 관련해서 말이야.",
 			painting = {
 				alpha = 0.3,
@@ -645,8 +645,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -655,8 +655,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -668,10 +668,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아하하하…… 그렇구나….",
 			painting = {
 				alpha = 0.3,
@@ -686,10 +686,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "전혀 몰랐네. 고리치아는 요새 그런 거에 관심 있어?",
 			painting = {
 				alpha = 0.3,
@@ -704,10 +704,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "딱히? 요샌 평화롭기도 하고 한가해서 그냥 심심풀이랄까.",
 			painting = {
 				alpha = 0.3,
@@ -722,10 +722,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나저나 모래폭풍 때문에 당분간 통신도 못하겠네….",
 			painting = {
 				alpha = 0.3,
@@ -740,10 +740,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "통신뿐만이 아니야. 밖에서 보는 업무도 전혀 못하겠지.",
 			painting = {
 				alpha = 0.3,
@@ -758,10 +758,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇구나…… 어쩔 수 없네. 오늘은 빨리 퇴근해야겠다♪",
 			painting = {
 				alpha = 0.3,
@@ -776,10 +776,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응! 오늘은 그냥 쉬자!",
 			painting = {
 				alpha = 0.3,
@@ -797,8 +797,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -807,8 +807,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -820,10 +820,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……음, 그런데 아틸리오... 폭풍 때문에 음악도 못 듣는 거야…?",
 			painting = {
 				alpha = 0.3,
@@ -844,10 +844,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아틸리오… 할 게 별로 없어서 조금 슬퍼….",
 			painting = {
 				alpha = 0.3,
@@ -859,8 +859,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -869,8 +869,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -882,10 +882,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇긴 하네…. 나도 가지고 온 책은 전부 읽어버렸고…",
 			painting = {
 				alpha = 0.3,
@@ -900,10 +900,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사방엔 모래밖에 없고 말이야…. 음… 모래폭풍이 지나가면 본격적으로 시설 수리를 검토해 봐야겠어.",
 			painting = {
 				alpha = 0.3,
@@ -918,10 +918,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "시설이 많이 낡긴 했지. 옛날에 무슨 일 있었나?",
 			painting = {
 				alpha = 0.3,
@@ -936,10 +936,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이런저런 일이 있었다고 해야 하나… 후후훗,",
 			painting = {
 				alpha = 0.3,
@@ -954,10 +954,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이야기…? 아틸리오, 듣고 싶어!",
 			painting = {
 				alpha = 0.3,
@@ -972,10 +972,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응! 그럼 되겠다! 안드레아 씨랑 고리치아 씨한테 이야기를 많이 듣는 거야!",
 			painting = {
 				alpha = 0.3,
@@ -987,8 +987,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -997,8 +997,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1010,10 +1010,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이야기라… 여기 오기 전에 있었던 일 같은 거?",
 			painting = {
 				alpha = 0.3,
@@ -1025,8 +1025,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1035,8 +1035,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1048,10 +1048,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아무것도 없었던 건 아니지만, 꽤 예전 일이고… '전쟁'도 시작되기 전인데…….",
 			painting = {
 				alpha = 0.3,
@@ -1066,10 +1066,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇게나 오래전에 있었던 일? 나도 궁금해지는걸. 후후훗.",
 			painting = {
 				alpha = 0.3,
@@ -1084,10 +1084,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "안드레아 씨한테는 그렇게 오래된 이야기가 아닐 수도 있지만…",
 			painting = {
 				alpha = 0.3,
@@ -1102,10 +1102,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나뿐만 아니라 안드레아 씨 이야기도 들려줘야 해. 재밌는 이야기 많이 알고 있지?",
 			painting = {
 				alpha = 0.3,
@@ -1120,10 +1120,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응! 알았어~!",
 			painting = {
 				alpha = 0.3,
@@ -1138,10 +1138,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아틸리오, 과자랑 마실 거 가지고 올게!",
 			painting = {
 				alpha = 0.3,
@@ -1153,8 +1153,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1163,8 +1163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1173,13 +1173,13 @@ return {
 			}
 		},
 		{
-			actor = 605070,
 			nameColor = "#A9F548FF",
+			side = 0,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
+			actor = 605070,
 			hideOther = true,
 			actorName = "아틸리오 & 안드레아",
-			side = 0,
+			hidePaintObj = true,
 			say = "너무 욕심내진 말고!",
 			subActors = {
 				{
@@ -1208,10 +1208,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알아, 알아! 에헤헷~!",
 			painting = {
 				alpha = 0.3,
@@ -1223,8 +1223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1233,8 +1233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

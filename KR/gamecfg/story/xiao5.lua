@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"닌자의 길\n\n<size=45>갑작스러운 어둠</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오늘은 작업량이 많아 아무래도 늦게 까지 야근을 해야 할 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "지휘관 나리, 같이 노력하죠!",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "아카츠키는 의욕이 충만한 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -140,15 +140,15 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "오오! 전부 읽었소!",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "창 밖을 내다보니, 날은 이미 어두워졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "？！",
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "집무실이 갑자기 캄캄해졌다.",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "누군가가 갑자기 나를 끌어안았다.",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "아카츠키는 부들부들 떨고 있었다.",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,

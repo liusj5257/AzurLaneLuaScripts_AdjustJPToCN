@@ -1,10 +1,10 @@
 slot0 = class("BlueprintQuickExchangeView", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BlueprintQuickExchangeUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtBg = slot1:Find("bg")
 
@@ -135,17 +135,17 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	setActive(slot0._tf, false)
 end
 
-function slot0.UpdateBlueprint(slot0, slot1)
+slot0.UpdateBlueprint = function(slot0, slot1)
 	slot0.blueprintVO = slot1
 
 	changeToScrollText(slot0.rtResult:Find("title/Text"), Drop.New({
@@ -199,7 +199,7 @@ function slot0.UpdateBlueprint(slot0, slot1)
 	triggerToggle(slot0.toggleSwitch, slot1:canFateSimulation())
 end
 
-function slot0.UpdateResult(slot0)
+slot0.UpdateResult = function(slot0)
 	slot0.bagProxy = slot0.bagProxy or getProxy(BagProxy)
 	slot0.need = math.max(slot0.blueprintVO:getUseageMaxItem() + (slot0.isSwitch and slot0.blueprintVO:getFateMaxLeftOver() or 0) - slot0.bagProxy:getItemCountById(slot0.blueprintVO:getItemId()), 0)
 	slot1 = #slot0.displayList

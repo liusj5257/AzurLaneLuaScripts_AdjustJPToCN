@@ -8,7 +8,7 @@ slot3 = require("Mgr/Pool/PoolObjPack")
 slot4 = require("Mgr/Pool/PoolUtil")
 slot5 = ResourceMgr.Inst
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.root = GameObject.New("__Pool__").transform
 	slot0.pools_plural = {}
 	slot0.pools_pack = {}
@@ -40,25 +40,34 @@ function slot0.Ctor(slot0)
 			"1",
 			"2",
 			"3",
-			"04",
 			"4",
-			"05",
+			"4_0",
+			"4_1",
 			"5",
+			"5_0",
+			"5_1",
+			"prop",
+			"prop4_0",
+			"prop4_1",
+			"prop5_0"
+		},
+		shipframeb = {
 			"b1",
 			"b2",
 			"b3",
-			"b04",
+			"b3_1",
 			"b4",
-			"b05",
+			"b4_0",
+			"b4_1",
 			"b5",
+			"b5_0",
+			"b5_1",
 			"ba",
 			"bl",
-			"prop",
-			"prop04",
-			"prop05",
 			"bprop",
-			"bprop04",
-			"bprop05"
+			"bprop4_0",
+			"bprop4_1",
+			"bprop5_0"
 		},
 		["shipyardicon/unknown"] = {
 			""
@@ -72,21 +81,30 @@ function slot0.Ctor(slot0)
 			"bg1",
 			"bg2",
 			"bg3",
-			"bg04",
+			"bg3_1",
 			"bg4",
-			"bg05",
+			"bg4_0",
+			"bg4_1",
 			"bg5",
+			"bg5_0",
+			"bg5_1",
+			"bg7",
 			"bg8",
 			"bg9",
+			"bg_skin",
 			"frame",
-			"frame04",
-			"frame05",
-			"frame6",
-			"frame7",
+			"frame3_1",
+			"frame4_0",
+			"frame4_1",
+			"frame5_0",
 			"frame8",
 			"frame9",
+			"frame_design",
+			"frame_design_owned",
 			"frame_npc",
-			"frame_prop"
+			"frame_prop",
+			"frame_prop_meta",
+			"frame_skin"
 		},
 		energy = {
 			"express_1",
@@ -101,13 +119,13 @@ function slot0.Ctor(slot0)
 	slot0.ui_tempCache = {}
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	print("initializing pool manager...")
 
 	slot2 = 0
 	slot3 = table.getCount(slot0.preloads)
 
-	function slot4()
+	slot4 = function()
 		uv0 = uv0 + 1
 
 		if uv0 == uv1 then
@@ -117,27 +135,44 @@ function slot0.Init(slot0, slot1)
 
 	for slot8, slot9 in pairs(slot0.preloads) do
 		if #slot9 > 0 then
-			slot10 = 0
+			slot10 = typeof(Sprite)
+			slot11 = false
 
-			for slot14, slot15 in ipairs(slot9) do
-				slot0:GetSprite(slot8, slot15, true, function (slot0)
-					uv0 = uv0 + 1
-
-					if uv0 == #uv1 then
-						uv2()
-					end
-				end)
+			slot12 = function(slot0)
 			end
+
+			buildTempAB(slot8, function (slot0)
+				for slot4, slot5 in ipairs(uv0) do
+					slot6 = slot0:LoadAssetSync(slot5, uv1, uv2, false)
+					slot8 = slot5
+
+					if uv4.pools_pack[uv3] and uv4.pools_pack[slot7]:Get(slot8) then
+						uv5(uv4.pools_pack[slot7]:Get(slot8))
+					else
+						if not uv4.pools_pack[slot7] then
+							uv4.pools_pack[slot7] = uv6.New(uv1)
+						end
+
+						if not uv4.pools_pack[slot7]:Get(slot8) then
+							uv4.pools_pack[slot7]:Set(slot8, slot6)
+						end
+
+						uv5(slot6)
+					end
+				end
+
+				uv7()
+			end)
 		else
-			uv0:loadAssetBundleAsync(slot8, function (slot0)
+			buildTempAB(slot8, function (slot0)
 				uv0()
 			end)
 		end
 	end
 end
 
-function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
-	function slot6()
+slot0.GetSpineChar = function(slot0, slot1, slot2, slot3)
+	slot6 = function()
 		slot0 = uv0.pools_plural[uv1]
 		slot0.index = uv0.pluralIndex
 		uv0.pluralIndex = uv0.pluralIndex + 1
@@ -169,7 +204,7 @@ function slot0.GetSpineChar(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.ReturnSpineChar(slot0, slot1, slot2)
+slot0.ReturnSpineChar = function(slot0, slot1, slot2)
 	slot4 = "char/" .. slot1 .. slot1
 
 	if IsNil(slot2) then
@@ -198,7 +233,7 @@ function slot0.ReturnSpineChar(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ExcessSpineChar(slot0)
+slot0.ExcessSpineChar = function(slot0)
 	slot1 = 0
 	slot2 = 6
 	slot3 = {}
@@ -224,7 +259,7 @@ function slot0.ExcessSpineChar(slot0)
 	end
 end
 
-function slot0.GetSpineSkel(slot0, slot1, slot2, slot3)
+slot0.GetSpineSkel = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
 
 	slot0:LoadAsset(slot4, slot5 .. "_SkeletonData", slot2, typeof(Object), function (slot0)
@@ -232,7 +267,7 @@ function slot0.GetSpineSkel(slot0, slot1, slot2, slot3)
 	end, true)
 end
 
-function slot0.IsSpineSkelCached(slot0, slot1)
+slot0.IsSpineSkelCached = function(slot0, slot1)
 	return slot0.pools_plural["char/" .. slot1 .. slot1] ~= nil
 end
 
@@ -256,13 +291,11 @@ slot7 = {
 	"Loading",
 	"WorldUI"
 }
-slot8 = {
-	"WorldAllocateUI"
-}
+slot8 = {}
 
-function slot0.GetUI(slot0, slot1, slot2, slot3)
+slot0.GetUI = function(slot0, slot1, slot2, slot3)
 	slot0:FromPlural("ui/" .. slot1, slot1, slot2, table.contains(uv0, slot1) and 3 or 1, function (slot0)
-		function slot1()
+		slot1 = function()
 			uv0(uv1)
 		end
 
@@ -275,7 +308,7 @@ function slot0.GetUI(slot0, slot1, slot2, slot3)
 	end, table.contains(uv1, slot1) or table.contains(uv2, slot1))
 end
 
-function slot0.BuildUIPlural(slot0, slot1, slot2)
+slot0.BuildUIPlural = function(slot0, slot1, slot2)
 	if slot0.pools_plural["ui/" .. slot1 .. slot1] then
 		return
 	end
@@ -297,7 +330,7 @@ function slot0.BuildUIPlural(slot0, slot1, slot2)
 	end, table.contains(uv1, slot1) or table.contains(uv2, slot1))
 end
 
-function slot0.ReturnUI(slot0, slot1, slot2)
+slot0.ReturnUI = function(slot0, slot1, slot2)
 	slot4 = "ui/" .. slot1 .. slot1
 
 	if IsNil(slot2) then
@@ -329,11 +362,11 @@ function slot0.ReturnUI(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HasCacheUI(slot0, slot1)
+slot0.HasCacheUI = function(slot0, slot1)
 	return slot0.pools_plural["ui/" .. slot1 .. slot1] ~= nil
 end
 
-function slot0.PreloadUI(slot0, slot1, slot2)
+slot0.PreloadUI = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if not slot0.pools_plural["ui/" .. slot1 .. slot1] then
@@ -348,15 +381,15 @@ function slot0.PreloadUI(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.AddTempCache(slot0, slot1)
+slot0.AddTempCache = function(slot0, slot1)
 	slot0.ui_tempCache[slot1] = true
 end
 
-function slot0.DelTempCache(slot0, slot1)
+slot0.DelTempCache = function(slot0, slot1)
 	slot0.ui_tempCache[slot1] = nil
 end
 
-function slot0.PreloadPainting(slot0, slot1, slot2)
+slot0.PreloadPainting = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if not slot0.pools_plural["painting/" .. slot1 .. slot1] then
@@ -371,7 +404,7 @@ function slot0.PreloadPainting(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.GetPainting(slot0, slot1, slot2, slot3)
+slot0.GetPainting = function(slot0, slot1, slot2, slot3)
 	slot4 = "painting/" .. slot1
 	slot5 = slot4 .. slot1
 
@@ -386,7 +419,7 @@ function slot0.GetPainting(slot0, slot1, slot2, slot3)
 	end, true)
 end
 
-function slot0.ReturnPainting(slot0, slot1, slot2)
+slot0.ReturnPainting = function(slot0, slot1, slot2)
 	slot4 = "painting/" .. slot1 .. slot1
 
 	if IsNil(slot2) then
@@ -407,7 +440,7 @@ function slot0.ReturnPainting(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ExcessPainting(slot0)
+slot0.ExcessPainting = function(slot0)
 	slot1 = 0
 	slot2 = 4
 	slot3 = {}
@@ -443,7 +476,7 @@ function slot0.ExcessPainting(slot0)
 	end
 end
 
-function slot0.GetPaintingWithPrefix(slot0, slot1, slot2, slot3, slot4)
+slot0.GetPaintingWithPrefix = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot4 .. slot1
 	slot6 = slot5 .. slot1
 
@@ -458,7 +491,7 @@ function slot0.GetPaintingWithPrefix(slot0, slot1, slot2, slot3, slot4)
 	end, true)
 end
 
-function slot0.ReturnPaintingWithPrefix(slot0, slot1, slot2, slot3)
+slot0.ReturnPaintingWithPrefix = function(slot0, slot1, slot2, slot3)
 	slot5 = slot3 .. slot1 .. slot1
 
 	if IsNil(slot2) then
@@ -479,13 +512,13 @@ function slot0.ReturnPaintingWithPrefix(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
+slot0.GetSprite = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:FromObjPack(slot1, tostring(slot2), slot3, typeof(Sprite), function (slot0)
 		uv0(slot0)
 	end)
 end
 
-function slot0.DecreasSprite(slot0, slot1, slot2)
+slot0.DecreasSprite = function(slot0, slot1, slot2)
 	slot4 = typeof(Sprite)
 
 	if slot0.pools_pack[slot1] and slot0.pools_pack[slot3].type == slot4 then
@@ -501,7 +534,7 @@ function slot0.DecreasSprite(slot0, slot1, slot2)
 	end
 end
 
-function slot0.DestroySprite(slot0, slot1)
+slot0.DestroySprite = function(slot0, slot1)
 	slot3 = typeof(Sprite)
 
 	if slot0.pools_pack[slot1] and slot0.pools_pack[slot2].type == slot3 then
@@ -515,7 +548,7 @@ function slot0.DestroySprite(slot0, slot1)
 	end
 end
 
-function slot0.DestroyAllSprite(slot0)
+slot0.DestroyAllSprite = function(slot0)
 	slot1 = {}
 	slot2 = typeof(Sprite)
 
@@ -538,7 +571,7 @@ function slot0.DestroyAllSprite(slot0)
 	uv0:unloadUnusedAssetBundles()
 end
 
-function slot0.DisplayPoolPacks(slot0)
+slot0.DisplayPoolPacks = function(slot0)
 	slot1 = ""
 
 	for slot5, slot6 in pairs(slot0.pools_pack) do
@@ -562,7 +595,7 @@ function slot0.DisplayPoolPacks(slot0)
 	warning(slot1)
 end
 
-function slot0.SpriteMemUsage(slot0)
+slot0.SpriteMemUsage = function(slot0)
 	slot1 = 0
 	slot2 = 9.5367431640625e-07
 	slot3 = typeof(Sprite)
@@ -602,7 +635,7 @@ slot10 = {
 	"world/"
 }
 
-function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.GetPrefab = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot1 .. slot2
 
 	slot0:FromPlural(slot1, slot2, slot3, slot5 or uv0, function (slot0)
@@ -616,7 +649,7 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, true)
 end
 
-function slot0.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
+slot0.ReturnPrefab = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1 .. slot2
 
 	if IsNil(slot3) then
@@ -638,7 +671,7 @@ function slot0.ReturnPrefab(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.DestroyPrefab(slot0, slot1, slot2)
+slot0.DestroyPrefab = function(slot0, slot1, slot2)
 	if slot0.pools_plural[slot1 .. slot2] then
 		slot0.pools_plural[slot3]:Clear()
 
@@ -648,7 +681,7 @@ function slot0.DestroyPrefab(slot0, slot1, slot2)
 	end
 end
 
-function slot0.DestroyAllPrefab(slot0)
+slot0.DestroyAllPrefab = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.pools_plural) do
@@ -666,7 +699,7 @@ function slot0.DestroyAllPrefab(slot0)
 	end)
 end
 
-function slot0.DisplayPluralPools(slot0)
+slot0.DisplayPluralPools = function(slot0)
 	slot1 = ""
 
 	for slot5, slot6 in pairs(slot0.pools_plural) do
@@ -688,7 +721,7 @@ function slot0.DisplayPluralPools(slot0)
 	warning(slot1)
 end
 
-function slot0.GetPluralStatus(slot0, slot1)
+slot0.GetPluralStatus = function(slot0, slot1)
 	if not slot0.pools_plural[slot1] then
 		return "NIL"
 	end
@@ -704,8 +737,8 @@ function slot0.GetPluralStatus(slot0, slot1)
 	}, tostring), " ")
 end
 
-function slot0.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	function slot8()
+slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot8 = function()
 		slot0 = uv0.pools_plural[uv1]
 		slot0.index = uv0.pluralIndex
 		uv0.pluralIndex = uv0.pluralIndex + 1
@@ -732,7 +765,7 @@ function slot0.FromPlural(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 end
 
-function slot0.FromObjPack(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.pools_pack[slot1] or not slot0.pools_pack[slot6]:Get(slot2) then
 		slot0:LoadAsset(slot1, slot2, slot3, slot4, function (slot0)
 			if not uv0.pools_pack[uv1] then
@@ -750,7 +783,7 @@ function slot0.FromObjPack(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7, slot8 = HXSet.autoHxShiftPath(slot1, slot2)
 
 	if slot0.callbacks[slot7 .. slot8] then
@@ -779,7 +812,7 @@ function slot0.LoadAsset(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 end
 
-function slot0.PrintPools(slot0)
+slot0.PrintPools = function(slot0)
 	slot1 = ""
 
 	for slot5, slot6 in pairs(slot0.pools_plural) do
@@ -789,7 +822,7 @@ function slot0.PrintPools(slot0)
 	warning(slot1)
 end
 
-function slot0.PrintObjPack(slot0)
+slot0.PrintObjPack = function(slot0)
 	slot1 = ""
 
 	for slot5, slot6 in pairs(slot0.pools_pack) do

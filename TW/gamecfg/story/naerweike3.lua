@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201200,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "level02",
 			dir = 1,
 			say = "呼，不愧是北極圈，雪好大，白茫茫一片……",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "不過，在無邊的冰原上打獵，好像也挺有趣的。",
 			typewriter = {
 				speed = 0.05,
@@ -41,9 +41,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "妳在說什麼傻話，獵人，我們可是身負任務而來的，可沒有時間讓妳去和北極熊做遊戲。",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "好吧……",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "不會的。希佩爾將軍號被螢火蟲重創，沙恩姐妹和聲望小姐交手後逃離的方向也不是納爾維克方向……",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "唔，確實……螢火蟲在和希佩爾將軍號交手前也是先和兩艘鐵血驅逐級交手過，我們要面對的，恐怕也是她們吧。不愧是獵人，這樣分析下來，感覺安心了很多呢！",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "只是獵人要對獵物有所了解而已……而且，我也不確定。",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "沒事，這種程度的推斷已經足夠了。",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "希望各位也能像她一樣，發揮我們皇家海軍的英勇傳統，無論面對什麼樣的敵人，都不要輕易退縮。",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "螢火蟲啊…那個傢伙應該只是和往常一樣，沒想那麼多而已……",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "嗯，回去後，慰問她一下。",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "好吧。",
 			typewriter = {
 				speed = 0.05,
@@ -429,10 +429,10 @@ return {
 			}
 		},
 		{
-			actorName = "H級眾人",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "H級眾人",
 			dir = 1,
+			side = 2,
 			say = "是！",
 			dialogShake = {
 				speed = 0.09,

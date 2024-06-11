@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Speed",
 			say = "――！",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Speed",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "すごい……！まるで映画みたい……！",
 			dir = 1,
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "すごい……！まるで映画みたい……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			actor = 403054,
 			side = 2,
 			paintingNoise = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "この子たちは近寄ってくるだけで、乗っている艦を攻撃してこないんだね",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			expression = 2,
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "だからジャベリンたちは上手く遠くまで誘導出来た…ふぅ…",
 			typewriter = {
@@ -96,11 +96,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "でもまだ一隻近寄ってきて…あれは私と律子さん？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 401236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "しかも船には小さいステージがあります！もしかしてライブを挑んできたのでは…！？",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,11 +139,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "こうなったら私たちも甲板に行ってライブを……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,11 +156,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "けど、準備もなしでいきなりライブは難しいんじゃないかしら……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,11 +173,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "でも、このままだとステージに近づけないわ。どうにかしてあの艦を動かさないと……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "それもそうですけど、あの艦にほかの量産艦を呼び戻されたら母港には帰れなくなりますよ",
 			typewriter = {
 				speed = 0.05,
@@ -207,8 +207,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "（いざというときは直接武器を使って戦って沈めてもいいけど、万が一向こうも撃ってきたら春香さんたちの安全は…うぅ）",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 		{
 			actor = 10700010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "亜美、真美！？",
 			dir = 1,
 			hidePaintEquip = true,
+			nameColor = "#a9f548",
+			say = "亜美、真美！？",
 			effects = {
 				{
 					active = false,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -326,9 +326,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ニセモノになんて負けないかんね！真美、只今浮上！",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -351,9 +351,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10700030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "みんな、避難する準備をしなさい！",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,11 +377,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "水瀬さんまで！もしかしてあの「敵」と戦うつもり？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,8 +410,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			say = "「μ兵装」を持っていないアイドルの皆さんは私の指示にしたがって避難を！ほかの艦船は伊織たちのサポートを！",
 			typewriter = {
 				speed = 0.05,
@@ -423,11 +423,11 @@ return {
 			}
 		},
 		{
-			actor = 108050,
 			side = 0,
 			nameColor = "#a9f548",
-			hideOther = true,
+			actor = 108050,
 			dir = 1,
+			hideOther = true,
 			actorName = "アルバコア＆綾波",
 			say = "わかった！\n了解です！",
 			effects = {

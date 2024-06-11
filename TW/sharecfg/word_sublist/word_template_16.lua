@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_16 = {}
 slot1 = slot0.word_template_16
 
-function temp()
+temp = function()
 	uv0["鄧"] = {
 		["小"] = {
 			["平"] = {
@@ -20,7 +20,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["轉"] = {
 		["法"] = {
 			["輪"] = {
@@ -35,7 +35,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吾"] = {
 		["买"] = {
 			["尔"] = {
@@ -68,7 +68,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["布"] = {
 		["莱"] = {
 			["尔"] = {

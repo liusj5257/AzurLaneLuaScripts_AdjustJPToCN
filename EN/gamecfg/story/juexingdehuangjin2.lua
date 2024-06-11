@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"– Activating system...",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Super Drill MKII System",
+			side = 2,
 			bgName = "bg_bigbuli",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The glory of the Gilded Age has come, purin!",
 			painting = {
 				alpha = 0.3,
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's time to bear witness to my TRUE strength, purin!",
 			painting = {
 				alpha = 0.3,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Together, we will rock the world, purin!",
 			painting = {
 				alpha = 0.3,
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You and me, Prototype Super Drill MKII!",
 			painting = {
 				alpha = 0.3,

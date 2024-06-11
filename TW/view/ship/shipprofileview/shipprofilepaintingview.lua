@@ -1,6 +1,6 @@
 slot0 = class("ShipProfilePaintingView")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.prefab = slot1
@@ -20,7 +20,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.isBanRotate = slot3
 end
 
-function slot0.SetHideObject(slot0)
+slot0.SetHideObject = function(slot0)
 	slot1 = slot0.prefab.childCount
 	slot2 = 0
 
@@ -33,11 +33,11 @@ function slot0.SetHideObject(slot0)
 	end
 end
 
-function slot0.setBGCallback(slot0, slot1)
+slot0.setBGCallback = function(slot0, slot1)
 	slot0.bgCallback = slot1
 end
 
-function slot0.Start(slot0)
+slot0.Start = function(slot0)
 	slot0.cg.blocksRaycasts = false
 
 	slot0:EnableObjects(false)
@@ -53,13 +53,13 @@ function slot0.Start(slot0)
 	slot0.isPreview = true
 end
 
-function slot0.EnableObjects(slot0, slot1)
+slot0.EnableObjects = function(slot0, slot1)
 	_.each(slot0.hideObjList, function (slot0)
 		setActive(slot0, uv0)
 	end)
 end
 
-function slot0.TweenObjects(slot0)
+slot0.TweenObjects = function(slot0)
 	if not slot0.isBanRotate then
 		openPortrait(slot0.prefab)
 	end
@@ -114,7 +114,7 @@ function slot0.TweenObjects(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.RecodObjectInfo(slot0)
+slot0.RecodObjectInfo = function(slot0)
 	slot0.recorder.srcPosX = slot0.painting.anchoredPosition.x
 	slot0.recorder.srcPosY = slot0.painting.anchoredPosition.y
 	slot0.recorder.srcWidth = slot0.painting.rect.width
@@ -125,7 +125,7 @@ function slot0.RecodObjectInfo(slot0)
 	slot0.recorder.halfHeight = slot0.recorder.srcHeight / 2
 end
 
-function slot0.Finish(slot0, slot1)
+slot0.Finish = function(slot0, slot1)
 	if not slot1 and not slot0.exitFlag then
 		return
 	end
@@ -157,7 +157,7 @@ function slot0.Finish(slot0, slot1)
 	slot0.recorder = {}
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.isPreview then
 		slot0:Finish(true)
 	end

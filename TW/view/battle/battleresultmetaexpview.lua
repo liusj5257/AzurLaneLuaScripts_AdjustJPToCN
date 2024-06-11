@@ -1,10 +1,10 @@
 slot0 = class("BattleResultMetaExpView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BattleResultMetaExpUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initUITip()
 	slot0:initData()
 	slot0:initUI()
@@ -12,25 +12,25 @@ function slot0.OnInit(slot0)
 	slot0:updateIconList()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.closeCB()
 	slot0:cleanManagedTween(true)
 end
 
-function slot0.setData(slot0, slot1, slot2)
+slot0.setData = function(slot0, slot1, slot2)
 	slot0.lastMetaExpInfoList = slot1
 	slot0.closeCB = slot2
 end
 
-function slot0.initUITip(slot0)
+slot0.initUITip = function(slot0)
 	setText(slot0:findTF("Notch/Panel/Title/Text"), i18n("battle_end_subtitle2"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.metaProxy = getProxy(MetaCharacterProxy)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.iconTpl = slot0:findTF("IconTpl")
 	slot0.panelTF = slot0:findTF("Notch/Panel")
@@ -40,7 +40,7 @@ function slot0.initUI(slot0)
 	slot0.iconUIItemList = UIItemList.New(slot0.iconContainer, slot0.iconTpl)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:closePanel()
 	end, SFX_PANEL)
@@ -49,7 +49,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateIconList(slot0)
+slot0.updateIconList = function(slot0)
 	slot0.gridLayoutGroupSC.constraintCount = #slot0:sortDataList(slot0.lastMetaExpInfoList or slot0.metaProxy:getLastMetaSkillExpInfoList()) > 4 and 2 or 1
 
 	slot0.iconUIItemList:make(function (slot0, slot1, slot2)
@@ -103,7 +103,7 @@ end
 
 slot1 = 0.3
 
-function slot0.openPanel(slot0)
+slot0.openPanel = function(slot0)
 	slot0:cleanManagedTween(true)
 	Canvas.ForceUpdateCanvases()
 
@@ -122,7 +122,7 @@ function slot0.openPanel(slot0)
 	end))
 end
 
-function slot0.closePanel(slot0)
+slot0.closePanel = function(slot0)
 	slot0:cleanManagedTween(true)
 
 	slot1 = 400
@@ -141,7 +141,7 @@ function slot0.closePanel(slot0)
 	end))
 end
 
-function slot0.sortDataList(slot0, slot1)
+slot0.sortDataList = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		if (slot0.isUpLevel and slot0.isMaxLevel and 9999 or 0) + slot0.progress > (slot1.isUpLevel and slot1.isMaxLevel and 9999 or 0) + slot1.progress then
 			return true

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.ShipFlagMgr = singletonClass("ShipFlagMgr")
 slot1 = slot0.ShipFlagMgr
 
-function slot1.Init(slot0, slot1)
+slot1.Init = function(slot0, slot1)
 	slot0.flagDic = {}
 	slot0.extraInfo = {}
 
@@ -125,7 +125,7 @@ slot2 = {
 	end
 }
 
-function slot1.MarkShipsFlag(slot0, slot1, slot2, slot3)
+slot1.MarkShipsFlag = function(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in ipairs(slot2) do
 		slot0.flagDic[slot1][slot8] = true
 	end
@@ -135,7 +135,7 @@ function slot1.MarkShipsFlag(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.GetShipFlag(slot0, slot1, slot2, slot3)
+slot1.GetShipFlag = function(slot0, slot1, slot2, slot3)
 	if type(defaultValue(slot3, true)) == "boolean" then
 		return slot0.flagDic[slot2][slot1] == slot3
 	elseif type(slot3) == "number" then
@@ -159,7 +159,7 @@ function slot1.GetShipFlag(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.FilterShips(slot0, slot1, slot2)
+slot1.FilterShips = function(slot0, slot1, slot2)
 	slot2 = slot2 or underscore.keys(getProxy(BayProxy):getRawData())
 	slot3 = {}
 
@@ -176,17 +176,17 @@ function slot1.FilterShips(slot0, slot1, slot2)
 	return _.keys(slot3)
 end
 
-function slot1.UpdateFlagShips(slot0, slot1)
+slot1.UpdateFlagShips = function(slot0, slot1)
 	slot0.flagDic[slot1] = {}
 
 	slot0:MarkShipsFlag(slot1, uv0[slot1]())
 end
 
-function slot1.ClearShipsFlag(slot0, slot1)
+slot1.ClearShipsFlag = function(slot0, slot1)
 	slot0.flagDic[slot1] = {}
 end
 
-function slot1.DebugPrint(slot0, slot1)
+slot1.DebugPrint = function(slot0, slot1)
 	slot5 = " flags:"
 
 	warning("id:" .. slot1 .. slot5)

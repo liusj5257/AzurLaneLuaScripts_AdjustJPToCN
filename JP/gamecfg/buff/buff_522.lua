@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "活动buff-祭典祈愿效果-战斗伤害提高",
 	time = 0,
-	color = "yellow",
+	name = "活动buff-祭典祈愿效果-战斗伤害提高",
+	init_effect = "",
+	id = 522,
 	picture = "",
 	desc = "舰队伤害提高",
 	stack = 1,
-	id = 522,
+	color = "yellow",
 	icon = 522,
 	last_effect = "",
 	effect_list = {

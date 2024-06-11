@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Light Carrier Ryuujou, Moving Out!\n\n<size=45>Chapter 1: Debut! Light Carrier from the Land of the Rising Sun</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The shipgirls are warriors born from the will of humanity, given bodies of steel. ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "With the power of Wisdom Cubes, the spirits of vessels that fought during the Great War were given human forms.",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Now, they aid humanity against their greatest enemies - the Sirens!",
 			typewriter = {
@@ -64,15 +64,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Warehouse",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Warehouse",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -93,9 +93,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The commander, face darkened with dust and grime, is digging through the back of the warehouse in search of rare equipment...",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Clang! Bang! Ba-boom!",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "... but doesn't seem to be having much luck.",
 			typewriter = {
 				speed = 0.05,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Commander looked about ready to collapse underneath the mountain of materials and equipment.",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a9f548",
+			actorName = "???",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "In a flash of light, talismans flew forth as if cutting through the thick, stagnant air of the warehouse. And then-",
 			flashN = {
 				color = {
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "They swerved upward, catching the crate of materials that was about to fall onto the commander.",
 			typewriter = {
 				speed = 0.05,
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
-			actorName = "???",
+			side = 2,
 			dir = 1,
+			actorName = "???",
 			say = "The skies and the seas are crying for help! The people of this land are crying for help! And now, milord, you too are crying for help!",
 			effects = {
 				{
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She beamed with light, as if she was an anime character making her grand debut.",
 			flashN = {
 				color = {
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(But what about the explosion special effects? ... Nevermind, let's forget about it)",
 			typewriter = {
 				speed = 0.05,
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "Milord! Are you injured? I'm coming to help!",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

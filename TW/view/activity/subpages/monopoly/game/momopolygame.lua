@@ -17,7 +17,7 @@ slot7 = {
 }
 slot8 = nil
 
-function slot8()
+slot8 = function()
 	return {
 		onActionUpdated = function (slot0, slot1)
 		end,
@@ -40,7 +40,7 @@ function slot8()
 	}
 end
 
-function slot9(slot0)
+slot9 = function(slot0)
 	return {
 		onMove = function (slot0, slot1)
 		end,
@@ -63,7 +63,7 @@ function slot9(slot0)
 				return
 			end
 
-			function slot4(slot0)
+			slot4 = function(slot0)
 				if slot0 then
 					uv0.state:ChangeState(uv1.stateWalk)
 				else
@@ -168,7 +168,7 @@ function slot9(slot0)
 	}
 end
 
-function slot10(slot0)
+slot10 = function(slot0)
 	return {
 		id = slot0,
 		config = uv0[slot0],
@@ -184,7 +184,7 @@ function slot10(slot0)
 	}
 end
 
-function slot11(slot0)
+slot11 = function(slot0)
 	slot1 = {
 		column = slot0.pos[2],
 		row = slot0.pos[1],
@@ -204,7 +204,7 @@ function slot11(slot0)
 		end
 	end
 
-	function slot1.GetEvent(slot0, slot1)
+	slot1.GetEvent = function(slot0, slot1)
 		for slot5, slot6 in ipairs(slot0.events) do
 			if slot6.id == slot1 then
 				return slot6
@@ -212,11 +212,11 @@ function slot11(slot0)
 		end
 	end
 
-	function slot1.SetNext(slot0, slot1)
+	slot1.SetNext = function(slot0, slot1)
 		slot0.next = slot1
 	end
 
-	function slot1.Dispose(slot0)
+	slot1.Dispose = function(slot0)
 		for slot4, slot5 in ipairs(slot0.events) do
 			slot5:Dispose()
 		end
@@ -225,7 +225,7 @@ function slot11(slot0)
 	return slot1
 end
 
-function slot12(slot0, slot1)
+slot12 = function(slot0, slot1)
 	return {
 		ROW = uv0,
 		COLUMN = uv1 - 2,
@@ -337,7 +337,7 @@ function slot12(slot0, slot1)
 	}
 end
 
-function slot13(slot0, slot1)
+slot13 = function(slot0, slot1)
 	slot2 = {
 		_tf = slot0,
 		_img = slot0:GetComponent(typeof(Image)),
@@ -366,7 +366,7 @@ function slot13(slot0, slot1)
 	return slot2
 end
 
-function slot14(slot0, slot1)
+slot14 = function(slot0, slot1)
 	slot3 = slot0:GetChild(0)
 	tf(slot3).localScale = Vector3(0.5, 0.5, 0.5)
 	slot4 = GameObject("mouseChild")
@@ -482,7 +482,7 @@ function slot14(slot0, slot1)
 	}
 end
 
-function slot0.SetUp(slot0, slot1, slot2)
+slot0.SetUp = function(slot0, slot1, slot2)
 	slot0.viewComponent = slot1
 	slot3 = slot0.viewComponent._tf
 
@@ -516,7 +516,7 @@ function slot0.SetUp(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 	slot0.useCount = slot0.activity.data1_list[2]
 	slot5 = slot0.activity.data2_list[1]
@@ -535,13 +535,13 @@ function slot0.setActivity(slot0, slot1)
 	slot0.leftDropShipCnt = 10 - (slot0.activity.data1_list[3] - 1)
 end
 
-function slot0.NetActivity(slot0, slot1)
+slot0.NetActivity = function(slot0, slot1)
 	slot0:setActivity(slot1)
 	slot0:updateLeftCount()
 	slot0:updateNextRedPacketStep()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:blockAllEvent(false)
 
 	slot0.bg = slot0:findTF("AD")
@@ -570,11 +570,11 @@ function slot0.init(slot0)
 	slot0.advanceTxt = slot0:findTF("AD/rp_text/sp_img/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.updateNextRedPacketStep(slot0)
+slot0.updateNextRedPacketStep = function(slot0)
 	slot0.nextRedPacketStepTF.text = slot0.nextredPacketStep
 end
 
-function slot0.updateLeftCount(slot0)
+slot0.updateLeftCount = function(slot0)
 	slot0.leftCountTF.text = slot0.leftCount
 
 	slot0.commonAnim:SetInteger("count", slot0.leftAwardCnt)
@@ -582,7 +582,7 @@ function slot0.updateLeftCount(slot0)
 	slot0.commonRpCnt.text = slot0.commonRpCount
 end
 
-function slot0.updateValue(slot0, slot1)
+slot0.updateValue = function(slot0, slot1)
 	if slot1 ~= 0 then
 		slot0.valueImg.sprite = GetSpriteFromAtlas("ui/activityuipage/monopoly_atlas", slot1)
 
@@ -592,7 +592,7 @@ function slot0.updateValue(slot0, slot1)
 	setActive(go(slot0.valueImg), slot1 ~= 0)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setActive(slot0.startBtn, slot0.leftCount > 0)
 	slot0:updateLeftCount()
 	slot0:updateValue(0)
@@ -629,18 +629,18 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.blockAllEvent(slot0, slot1)
+slot0.blockAllEvent = function(slot0, slot1)
 	slot0:emit(ActivityMainScene.LOCK_ACT_MAIN, slot1)
 
 	slot0.block = slot1
 end
 
-function slot0.triggerEvent(slot0, slot1, slot2, slot3)
+slot0.triggerEvent = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.mapVO
 	slot4 = slot4:GetCell(slot1)
 	slot5 = slot4:GetEvent(slot2)
 
-	function slot6(slot0, slot1)
+	slot6 = function(slot0, slot1)
 		if slot0 and slot0:ExistStory() then
 			pg.NewStoryMgr.GetInstance():Play(slot0.config.story, slot1, true, true)
 		else
@@ -684,7 +684,7 @@ function slot0.triggerEvent(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.checkState(slot0)
+slot0.checkState = function(slot0)
 	slot1 = {}
 
 	slot0:blockAllEvent(true)
@@ -726,11 +726,11 @@ function slot0.checkState(slot0)
 	end)
 end
 
-function slot0.startAction(slot0)
+slot0.startAction = function(slot0)
 	slot1 = slot0.activity.id
 	slot2 = 0
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		if uv0 == 0 then
 			slot0()
 
@@ -793,7 +793,7 @@ function slot0.startAction(slot0)
 	end)
 end
 
-function slot0.getStrory(slot0)
+slot0.getStrory = function(slot0)
 	slot1 = slot0.useCount
 
 	if _.detect(slot0.activity:getDataConfig("story") or {}, function (slot0)
@@ -805,11 +805,11 @@ function slot0.getStrory(slot0)
 	return nil
 end
 
-function slot0.createMap(slot0, slot1)
+slot0.createMap = function(slot0, slot1)
 	slot0.charCard = nil
 	slot0.cellTFs = {}
 
-	function slot1.onCreateCell(slot0)
+	slot1.onCreateCell = function(slot0)
 		slot2 = uv1(cloneTplTo(uv0.mapCellTpl, uv0.mapContainer), slot0)
 
 		slot2:UpdateStyle()
@@ -817,14 +817,14 @@ function slot0.createMap(slot0, slot1)
 		uv0.cellTFs[slot0.index] = slot2
 	end
 
-	function slot1.onCreateChar(slot0)
+	slot1.onCreateChar = function(slot0)
 		slot1 = cloneTplTo(uv0.charTpl, uv0.mapContainer)
 
 		setParent(uv0.models[slot0.ship.configId], slot1)
 
 		uv0.charCard = uv1(slot1, slot0)
 
-		function slot0.onMove(slot0, slot1)
+		slot0.onMove = function(slot0, slot1)
 			slot3 = uv0.charCard
 
 			slot3:Move(_.map(slot0, function (slot0)
@@ -832,21 +832,21 @@ function slot0.createMap(slot0, slot1)
 			end), slot1)
 		end
 
-		function slot0.onUpdatePos(slot0)
+		slot0.onUpdatePos = function(slot0)
 			uv0.charCard:UpdatePos(uv0.cellTFs[slot0.index])
 		end
 
-		function slot0.state.onActionUpdated(slot0, slot1)
+		slot0.state.onActionUpdated = function(slot0, slot1)
 			uv0.charCard:ChangeAction(slot0, slot1)
 		end
 
-		function slot0.onJump(slot0, slot1)
+		slot0.onJump = function(slot0, slot1)
 			uv0.charCard:Jump(uv0.cellTFs[slot0.index], slot1)
 		end
 	end
 end
 
-function slot0.playerAnim(slot0, slot1)
+slot0.playerAnim = function(slot0, slot1)
 	setActive(slot0.anim, true)
 
 	if slot0.timer then
@@ -861,13 +861,13 @@ function slot0.playerAnim(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.findTF(slot0, slot1, slot2)
+slot0.findTF = function(slot0, slot1, slot2)
 	assert(slot0._tf, "transform should exist")
 
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-function slot0.getTpl(slot0, slot1, slot2)
+slot0.getTpl = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF(slot1, slot2)
 
 	slot3:SetParent(slot0._tf, false)
@@ -876,7 +876,7 @@ function slot0.getTpl(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.cellTFs) do
 		slot5:Dispose()
 	end
@@ -897,7 +897,7 @@ function slot0.Destroy(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 
-function slot0.emit(slot0, slot1, slot2, slot3)
+slot0.emit = function(slot0, slot1, slot2, slot3)
 	slot0.viewComponent:emit(slot1, slot2, slot3)
 end
 

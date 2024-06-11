@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"쥬르네 쉬르쿠프\n\n<size=45>쉬르쿠프의 오후 - 상</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "밥도 먹었고, 낮잠 시간이네.",
 			typewriter = {
 				speed = 0.05,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "그러니까 지휘관은 낮잠 자고 있어. 쉬는 시간이 끝나면 깨워줄 테니까!",
 			typewriter = {
 				speed = 0.05,
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -163,13 +163,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,13 +190,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "무슨 소리가 들렸다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "머리를 가볍게 쓰다듬어졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -350,9 +350,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "기분 탓인지 좋은 냄새가 난다. 뭐지.",
 			typewriter = {
 				speed = 0.05,
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "뭔가 중요한 이야기 같지만, 더는 졸음을 버틸 수 없다……",
 			typewriter = {
 				speed = 0.05,

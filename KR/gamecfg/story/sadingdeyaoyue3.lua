@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SADINGDEYAOYUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SADINGDEYAOYUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"사르데냐의 초대\n\n<size=45>3. 일의 크고 작은 문제</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "이글 유니온·？？？",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-arbitrationsystem-theme",
+			say = "이글 유니온·？？？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "노스 유니온의 호의에 대해 유감스럽지만, 이번 일은 나 대신 거절해줘.",
 			typewriter = {
 				speed = 0.05,
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관…… 새로운 설비 성능 테스트 곧 시작해……",
 			typewriter = {
 				speed = 0.05,
@@ -478,12 +478,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네비게이터 씨가 기다리고 있어……",
 			typewriter = {
 				speed = 0.05,
@@ -551,10 +551,10 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101260,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…… 지휘관, 힘들어?",
 			typewriter = {
 				speed = 0.05,
@@ -566,12 +566,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "힘들면, 좀 자…… 내가 가서 네비게이터 씨한테…… 시간을 바꿔달라고 말할게.",
 			typewriter = {
 				speed = 0.05,

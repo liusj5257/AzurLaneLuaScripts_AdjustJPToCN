@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50061,
@@ -29,10 +29,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50062,
@@ -56,10 +56,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50063,
@@ -83,10 +83,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50064,
@@ -110,10 +110,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50065,
@@ -137,10 +137,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50066,
@@ -164,10 +164,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50067,
@@ -191,10 +191,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50068,
@@ -218,10 +218,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50069,
@@ -245,10 +245,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					spawnData = {
 						monsterTemplateID = 50070,
@@ -272,11 +272,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 0,
 	id = 17302,
-	picture = "0",
 	castCV = "",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -287,10 +287,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				spawnData = {
 					monsterTemplateID = 50061,

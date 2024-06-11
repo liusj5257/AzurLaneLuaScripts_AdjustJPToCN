@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER5",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"가르쳐줘! Z23 선생님!\n\n<size=45>제5장 ——Z23의 고민——</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "으으… 왜 잘 되지 않는 걸까…",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "으으… 왜 잘 되지 않는 걸까…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			say = "어머, 저의 빛을 필요로 하는 아이의 목소리가~",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "어머, 저의 빛을 필요로 하는 아이의 목소리가~",
+			actor = 207030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "그렇군요, 우후후, 모두 기운 넘치는 아이들이니까~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "기운이 넘친…… 다고요?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "기운이 넘친…… 다고요?",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -5,11 +5,11 @@ slot0.Battle.BattleBuffShieldWall = class("BattleBuffShieldWall", slot0.Battle.B
 slot0.Battle.BattleBuffShieldWall.__name = "BattleBuffShieldWall"
 slot2 = slot0.Battle.BattleBuffShieldWall
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot2.SetArgs(slot0, slot1, slot2)
+slot2.SetArgs = function(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list
 	slot0._buffID = slot2:GetID()
 	slot0._dir = slot1:GetDirection()
@@ -21,7 +21,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	slot0._centerPos = slot1:GetPosition()
 	slot0._startTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		return uv0:onWallCld(slot0)
 	end
 
@@ -49,7 +49,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	end
 
 	if slot9 then
-		function slot0._centerPosFun(slot0)
+		slot0._centerPosFun = function(slot0)
 			slot1 = nil
 			slot1 = uv0.centerPosFun(slot0):Add(uv1)
 			slot1.x = slot1.x * uv2._dir
@@ -81,13 +81,13 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	end
 end
 
-function slot2.onStack(slot0, slot1, slot2)
+slot2.onStack = function(slot0, slot1, slot2)
 	slot0._count = slot0._tempData.arg_list.count
 
 	slot0._unit:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.ADD_EFFECT, slot0._evtData))
 end
 
-function slot2.onUpdate(slot0, slot1, slot2, slot3)
+slot2.onUpdate = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:GetPosition()
 	slot5 = slot1:GetTemplate().scale * 0.02
 	slot6 = slot3.timeStamp
@@ -100,7 +100,7 @@ function slot2.onUpdate(slot0, slot1, slot2, slot3)
 	slot0._centerPos = slot4
 end
 
-function slot2.onWallCld(slot0, slot1)
+slot2.onWallCld = function(slot0, slot1)
 	if not slot1:GetIgnoreShield() and slot1:GetType() == slot0._bulletType and slot0._count > 0 then
 		if slot0._doWhenHit == "intercept" then
 			slot1:Intercepted()
@@ -121,19 +121,19 @@ function slot2.onWallCld(slot0, slot1)
 	return slot0._count > 0
 end
 
-function slot2.GetIFF(slot0)
+slot2.GetIFF = function(slot0)
 	return slot0._unit:GetIFF()
 end
 
-function slot2.GetPosition(slot0)
+slot2.GetPosition = function(slot0)
 	return slot0._centerPos
 end
 
-function slot2.IsWallActive(slot0)
+slot2.IsWallActive = function(slot0)
 	return slot0._count > 0
 end
 
-function slot2.Deactive(slot0)
+slot2.Deactive = function(slot0)
 	if slot0._effectIndex then
 		slot0._unit:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.DEACTIVE_EFFECT, {
 			index = slot0._effectIndex
@@ -145,7 +145,7 @@ function slot2.Deactive(slot0)
 	})
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	if slot0._effectIndex then
 		slot0._unit:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CANCEL_EFFECT, {
 			index = slot0._effectIndex

@@ -1,28 +1,28 @@
 slot0 = class("BackHillTemplate", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return slot0.UIName
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 end
 
-function slot0.InitFacility(slot0, slot1, slot2)
+slot0.InitFacility = function(slot0, slot1, slot2)
 	onButton(slot0, slot1, slot2)
 	onButton(slot0, slot1:Find("button"), slot2)
 end
 
-function slot0.InitFacilityCross(slot0, slot1, slot2, slot3, slot4)
+slot0.InitFacilityCross = function(slot0, slot1, slot2, slot3, slot4)
 	onButton(slot0, slot1:Find(slot3), slot4, SFX_PANEL)
 	onButton(slot0, slot2:Find(slot3), slot4, SFX_PANEL)
 end
 
-function slot0.getStudents(slot0, slot1, slot2)
+slot0.getStudents = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if not getProxy(ActivityProxy):getActivityById(slot0) then
@@ -47,7 +47,7 @@ function slot0.getStudents(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.InitStudents(slot0, slot1, slot2, slot3)
+slot0.InitStudents = function(slot0, slot1, slot2, slot3)
 	slot4 = uv0.getStudents(slot1, slot2, slot3)
 	slot5 = {}
 
@@ -90,7 +90,7 @@ function slot0.InitStudents(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.ChooseRandomPos(slot0, slot1)
+slot0.ChooseRandomPos = function(slot0, slot1)
 	if not math.random(1, slot1) then
 		return nil
 	end
@@ -100,7 +100,7 @@ function slot0.ChooseRandomPos(slot0, slot1)
 	return slot0[slot1]
 end
 
-function slot0.sortStudents(slot0)
+slot0.sortStudents = function(slot0)
 	for slot5, slot6 in pairs(slot0.containers) do
 		if slot6.childCount > 1 then
 			slot7 = {}
@@ -127,7 +127,7 @@ function slot0.sortStudents(slot0)
 	end
 end
 
-function slot0.clearStudents(slot0)
+slot0.clearStudents = function(slot0)
 	if slot0.sortTimer then
 		slot0.sortTimer:Stop()
 
@@ -144,7 +144,7 @@ function slot0.clearStudents(slot0)
 	end
 end
 
-function slot0.AutoFitScreen(slot0)
+slot0.AutoFitScreen = function(slot0)
 	slot5 = nil
 	slot5 = (1.7777777777777777 > Screen.width / Screen.height or math.clamp(1080 * slot1 / slot0._map.rect.width, 1, 2)) and math.clamp(1920 / slot1 / slot0._map.rect.height, 1, 2)
 
@@ -160,7 +160,7 @@ function slot0.AutoFitScreen(slot0)
 	})
 end
 
-function slot0.IsMiniActNeedTip(slot0)
+slot0.IsMiniActNeedTip = function(slot0)
 	slot1 = getProxy(ActivityProxy):getActivityById(slot0)
 
 	assert(slot1)
@@ -168,10 +168,10 @@ function slot0.IsMiniActNeedTip(slot0)
 	return Activity.IsActivityReady(slot1)
 end
 
-function slot0.UpdateActivity(slot0, slot1)
+slot0.UpdateActivity = function(slot0, slot1)
 end
 
-function slot0.BindItemActivityShop(slot0)
+slot0.BindItemActivityShop = function(slot0)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "bujishangdian", function ()
 		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.SHOP, {
 			warp = NewShopsScene.TYPE_ACTIVITY
@@ -179,13 +179,13 @@ function slot0.BindItemActivityShop(slot0)
 	end)
 end
 
-function slot0.BindItemSkinShop(slot0)
+slot0.BindItemSkinShop = function(slot0)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "huanzhuangshangdian", function ()
 		uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.SKINSHOP)
 	end)
 end
 
-function slot0.BindItemBuildShip(slot0)
+slot0.BindItemBuildShip = function(slot0)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "xianshijianzao", function ()
 		slot0 = nil
 		slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILD)
@@ -211,7 +211,7 @@ function slot0.BindItemBuildShip(slot0)
 	end)
 end
 
-function slot0.BindItemBattle(slot0)
+slot0.BindItemBattle = function(slot0)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "tebiezuozhan", function ()
 		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()
 
@@ -226,7 +226,7 @@ function slot0.BindItemBattle(slot0)
 	end)
 end
 
-function slot0.UpdateBuildingTip(slot0, slot1, slot2)
+slot0.UpdateBuildingTip = function(slot0, slot1, slot2)
 	if not slot1 then
 		return false
 	end
@@ -259,7 +259,7 @@ function slot0.UpdateBuildingTip(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 end
 
 return slot0

@@ -1,12 +1,12 @@
 return {
-	id = "W1010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "설비 에너지가 소진되었다. 이제 이곳에는 쓸모 있는 것이 없다.",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

@@ -4,21 +4,21 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
+			side = 2,
 			say = "ブリたちは大魔王？相手に全力で戦ったが、苦戦を強いられることに……",
+			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "恐ろしき大魔王",
 			dir = 1,
+			actor = 900233,
+			actorName = "恐ろしき大魔王",
 			say = "ムダムダムダ！ハハハハ！",
 			painting = {
 				alpha = 0.3,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐ろしき大魔王",
 			say = "この世でスーパーレインボーハンマー1号を目覚めさせられる者などいやしないのだ！",
 			painting = {
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐ろしき大魔王",
 			say = "好きなだけ試せ！足掻け！そして絶望しろ！",
 			painting = {
@@ -128,9 +128,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "残念プリン！私のターンよ！くらえっ！フルチャアアアアアアジ！",
 			painting = {
 				alpha = 0.3,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,11 +161,11 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900233,
 			actorName = "恐ろしき大魔王",
 			say = "なにっ！？まさか？",
-			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,10 +246,10 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "私についてくるプリン！最強無敵ブリ戦隊、参るプリン！",
 			painting = {
 				alpha = 0.3,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

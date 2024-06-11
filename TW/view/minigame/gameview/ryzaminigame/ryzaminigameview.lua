@@ -6,11 +6,11 @@ slot0.EVENT_WINDOW_FOCUS = "RyzaMiniGameView.EVENT_WINDOW_FOCUS"
 slot0.EVENT_STATUS_SYNC = "RyzaMiniGameView.EVENT_STATUS_SYNC"
 slot0.EVENT_UPDATE_HIDE = "RyzaMiniGameView.EVENT_UPDATE_HIDE"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RyzaMiniGameUI"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initTimer()
 	slot0:initUI()
 	slot0:initGameUI()
@@ -19,13 +19,13 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	for slot6 = 0, slot0:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
 		slot2[slot6].speed = slot1
 	end
 end
 
-function slot0.openUI(slot0, slot1)
+slot0.openUI = function(slot0, slot1)
 	if slot0.status then
 		setActive(slot0.rtTitlePage:Find(slot0.status), false)
 	end
@@ -68,7 +68,7 @@ function slot0.openUI(slot0, slot1)
 	})
 end
 
-function slot0.updateMainUI(slot0)
+slot0.updateMainUI = function(slot0)
 	slot1 = slot0:GetMGHubData()
 	slot3 = slot1.usedtime
 	slot5 = slot3 == slot1:getConfig("reward_need") and 8 or math.min(slot1.usedtime + 1, slot3 + slot1.count)
@@ -110,7 +110,7 @@ function slot0.updateMainUI(slot0)
 	end
 end
 
-function slot0.checkGet(slot0)
+slot0.checkGet = function(slot0)
 	if slot0:GetMGHubData().ultimate == 0 then
 		if slot1.usedtime < slot1:getConfig("reward_need") then
 			return
@@ -124,7 +124,7 @@ function slot0.checkGet(slot0)
 	end
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtTitlePage = slot1:Find("TitlePage")
 	slot1 = slot0.rtTitlePage
@@ -245,7 +245,7 @@ function slot0.initUI(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.initGameUI(slot0)
+slot0.initGameUI = function(slot0)
 	slot0.uiMgr = pg.UIMgr.GetInstance()
 	slot1 = slot0._tf
 	slot0.rtResource = slot1:Find("Resource")
@@ -326,13 +326,13 @@ function slot0.initGameUI(slot0)
 	end)
 end
 
-function slot0.initTimer(slot0)
+slot0.initTimer = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:onTimer()
 	end, RyzaMiniGameConfig.TIME_INTERVAL, -1)
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	slot0:resetGame()
 	setActive(slot0._tf:Find("Viewport"), true)
 	uv0(slot0.rtMain, 1)
@@ -342,7 +342,7 @@ function slot0.readyStart(slot0)
 	slot0:openUI("countdown")
 end
 
-function slot0.startGame(slot0)
+slot0.startGame = function(slot0)
 	pg.CriMgr.GetInstance():PlayBGM("ryza-az-battle")
 
 	slot0.gameStartFlag = true
@@ -350,7 +350,7 @@ function slot0.startGame(slot0)
 	slot0:startTimer()
 end
 
-function slot0.endGame(slot0, slot1)
+slot0.endGame = function(slot0, slot1)
 	if slot1 then
 		slot0.scoreNum = slot0.scoreNum + RyzaMiniGameConfig.GetPassGamePoint(slot0.countTime)
 
@@ -363,21 +363,21 @@ function slot0.endGame(slot0, slot1)
 	slot0:openUI("result")
 end
 
-function slot0.pauseGame(slot0)
+slot0.pauseGame = function(slot0)
 	slot0.gamePause = true
 
 	slot0:stopTimer()
 	slot0:pauseManagedTween()
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gamePause = false
 
 	slot0:startTimer()
 	slot0:resumeManagedTween()
 end
 
-function slot0.resetGame(slot0)
+slot0.resetGame = function(slot0)
 	slot0.gameStartFlag = false
 	slot0.gamePause = false
 	slot0.gameEndFlag = false
@@ -395,7 +395,7 @@ function slot0.resetGame(slot0)
 	slot0.reactorUIs = {}
 end
 
-function slot0.initConfig(slot0)
+slot0.initConfig = function(slot0)
 	slot2 = 0
 	slot3 = underscore.rest(RyzaMiniGameConfig.ENEMY_TYPE_LIST, 1)
 	slot4 = {}
@@ -454,7 +454,7 @@ function slot0.initConfig(slot0)
 	end
 end
 
-function slot0.buildMap(slot0)
+slot0.buildMap = function(slot0)
 	setSizeDelta(slot0.rtMain, slot0.config.mapSize * 32)
 	eachChild(slot0.rtMain:Find("bg/NW"), function (slot0)
 		setActive(slot0, slot0.name == tostring(math.floor((uv0.stageIndex - 1) % 8 / 2) + 1))
@@ -489,7 +489,7 @@ function slot0.buildMap(slot0)
 	end
 end
 
-function slot0.initController(slot0)
+slot0.initController = function(slot0)
 	setText(slot0.rtScore, slot0.scoreNum)
 	setText(slot0.rtTime, string.format("%02d:%02d", math.floor(slot0.countTime / 60), math.floor(slot0.countTime % 60)))
 
@@ -509,7 +509,7 @@ function slot0.initController(slot0)
 	})
 end
 
-function slot0.updateControllerStatus(slot0, slot1, slot2, slot3)
+slot0.updateControllerStatus = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.reactorUIs[slot1]
 
 	if isa(slot1, MoveRyza) then
@@ -529,7 +529,7 @@ function slot0.updateControllerStatus(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.popRyzaUI(slot0, slot1, slot2, slot3)
+slot0.popRyzaUI = function(slot0, slot1, slot2, slot3)
 	if isa(slot1, MoveRyza) then
 		slot4 = slot0.reactorUIs[slot1]
 
@@ -551,7 +551,7 @@ function slot0.popRyzaUI(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.CreateReactor(slot0, slot1)
+slot0.CreateReactor = function(slot0, slot1)
 	slot2, slot3, slot4 = RyzaMiniGameConfig.CreateInfo(slot1.name)
 
 	if not slot2 then
@@ -584,7 +584,7 @@ function slot0.CreateReactor(slot0, slot1)
 	end
 end
 
-function slot0.DestroyReactor(slot0, slot1, slot2)
+slot0.DestroyReactor = function(slot0, slot1, slot2)
 	if slot0.reactorUIs[slot1] then
 		Destroy(slot0.reactorUIs[slot1])
 
@@ -596,7 +596,7 @@ function slot0.DestroyReactor(slot0, slot1, slot2)
 	setText(slot0.rtScore, slot0.scoreNum)
 end
 
-function slot0.soilMapPartition(slot0, slot1, slot2)
+slot0.soilMapPartition = function(slot0, slot1, slot2)
 	slot3 = RyzaMiniGameConfig.SOIL_RANDOM_CONFIG
 
 	if math.floor(math.min(slot2.x, slot2.y) * (slot3.size_rate[1] + math.random() * (slot3.size_rate[2] - slot3.size_rate[1]))) < 2 then
@@ -670,14 +670,14 @@ slot3 = {
 	}
 }
 
-function slot0.dealSoilMap(slot0, slot1, slot2)
+slot0.dealSoilMap = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7 = 0, 3 do
 		table.insert(slot3, slot1 + NewPos(slot7 % 2 > 0 and slot2 - 1 or 0, slot7 > 1 and slot2 - 1 or 0))
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		if slot0.x < uv0.x or slot0.y < uv0.y or slot0.x >= uv0.x + uv1 or slot0.y >= uv0.y + uv1 then
 			return false
 		else
@@ -687,7 +687,7 @@ function slot0.dealSoilMap(slot0, slot1, slot2)
 
 	slot5 = {}
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		slot1 = 0
 		slot2 = 1
 
@@ -702,7 +702,7 @@ function slot0.dealSoilMap(slot0, slot1, slot2)
 		return slot1
 	end
 
-	function slot7(slot0)
+	slot7 = function(slot0)
 		for slot4, slot5 in ipairs(uv0) do
 			if uv1(slot0 + NewPos(unpack(slot5))) and defaultValue(uv2[slot6.x .. "_" .. slot6.y], true) and not RyzaMiniGameConfig.SOIL_SPRITES_DIC[uv3(slot6)] then
 				return false
@@ -753,7 +753,7 @@ function slot0.dealSoilMap(slot0, slot1, slot2)
 	end
 end
 
-function slot0.startTimer(slot0)
+slot0.startTimer = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
@@ -762,7 +762,7 @@ function slot0.startTimer(slot0)
 	uv0(slot0.rtMain, 1)
 end
 
-function slot0.stopTimer(slot0)
+slot0.stopTimer = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
@@ -771,7 +771,7 @@ function slot0.stopTimer(slot0)
 	uv0(slot0.rtMain, 0)
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0.countTime = slot0.countTime + RyzaMiniGameConfig.TIME_INTERVAL
 	slot4 = "%02d:%02d"
 	slot5 = math.floor(slot0.countTime / 60)
@@ -798,13 +798,13 @@ function slot0.onTimer(slot0)
 	end
 end
 
-function slot0.OnApplicationPaused(slot0, slot1)
+slot0.OnApplicationPaused = function(slot0, slot1)
 	if slot1 then
 		-- Nothing
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	switch(slot0.status, {
 		main = function ()
 			uv0.super.onBackPressed(uv1)
@@ -827,7 +827,7 @@ function slot0.onBackPressed(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

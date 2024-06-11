@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Though the enemies were not numerous, Chicago and Bagley found themselves outnumbered as they pressed forward. By the time they reached the enemy's main force, they had already sustained many injuries.",
 			typewriter = {

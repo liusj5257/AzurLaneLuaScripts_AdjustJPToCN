@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"아브로라와 유쾌한 동료들\n\n<size=45>3. 특별한 환영회</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,15 +98,15 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "……계세요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "???",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "???",
 			say = "왔구나!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "노스 유니온",
+			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "아브로라!",
 			typewriter = {
 				speed = 0.05,
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			say = "폭죽 소리가 난 뒤 온 방안에 꽃가루가 흩날렸다.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "폭죽 소리가 난 뒤 온 방안에 꽃가루가 흩날렸다.",
 			effects = {
 				{
 					active = true,
@@ -257,8 +257,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "하하, 아브로라가 지휘관까지 데리고 왔네. 좋잖아♪",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "아브로라 동지. 특별한 환영회를 준비했다!",
 			effects = {
@@ -355,8 +355,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "아아, 이번 환영회는 내가 생각해낸 거야. 그 문제에 대해서도 생각해 봤지.",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "하지만 어쨌든 환영해야 한다면 아브로라가 우리를 위해 준비하는 것보다 우리가 하는게 좋지 않겠어? 그렇지?",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,8 +399,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "그리고 이 환영회는 ‘아브로라 동지의 귀환’을 환영하는 것이기도 하니까! 그렇지? 헤헤~",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "타슈켄트도 좋다고 생각해. 그래서 다 같이 환영회를 준비했어.",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "아브로라의 얼굴에 회심의 미소가 떠올랐다.",
 			typewriter = {
 				speed = 0.05,
@@ -479,8 +479,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "응. 코코아도 엄청 많아.",
 			typewriter = {
@@ -496,8 +496,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "꿀꺽꿀꺽~",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "그로즈니, 천천히 마셔.",
 			typewriter = {
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "γpa!",
 			effects = {
 				{
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "노스 유니온",
 			dir = 1,
 			blackBg = true,
+			actorName = "노스 유니온",
 			say = "γpa!",
 			effects = {
 				{

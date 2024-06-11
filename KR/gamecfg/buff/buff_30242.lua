@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行10次攻击，触发专属弹幕",
 	name = "专属弹幕",
 	init_effect = "",
+	id = 30242,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行10次攻击，触发专属弹幕",
 	stack = 1,
-	id = 30242,
+	color = "red",
 	icon = 30240,
 	last_effect = "",
 	effect_list = {
@@ -20,9 +20,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 30240,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 30240,
 				index = {
 					1
 				}
@@ -34,8 +34,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 30242,
+				target = "TargetSelf",
 				countType = 30240
 			}
 		}

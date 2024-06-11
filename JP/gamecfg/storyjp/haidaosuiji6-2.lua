@@ -5,8 +5,8 @@ return {
 	fadein = 1,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "真っ暗で曲がりくねった洞窟の中を進んでいると……",
 			typewriter = {
 				speed = 0.05,
@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "綾波",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "緊急停止です…なんか変な音がしたです…！",
 			typewriter = {
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "――洞窟の奥から響く猛獣の咆哮が耳をつんざいた。",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャベリン",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "ど、洞窟の主を怒らせたみたい…！早く逃げよう！",
 			typewriter = {

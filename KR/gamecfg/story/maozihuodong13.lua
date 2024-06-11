@@ -1,17 +1,17 @@
 return {
-	once = true,
-	mode = 2,
-	id = "MAOZIHUODONG13",
-	continueBgm = true,
 	fadeType = 1,
+	mode = 2,
+	continueBgm = true,
+	once = true,
+	id = "MAOZIHUODONG13",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "세이렌 요새 근해 이글 유니온 주력 함대",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			say = "세이렌 요새 근해 이글 유니온 주력 함대",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "컬럼비아",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "몬트필리어",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "클리블랜드",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_2",
-			actorName = "새러토가",
 			dir = 1,
+			actorName = "새러토가",
 			say = "으… 머리가 아파… 대체 뭐야!",
 			dialogShake = {
 				speed = 0.09,
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "호넷",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "사우스다코타",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "클리블랜드",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "컬럼비아",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "새러토가",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			say = "쿠구궁——",
+			soundeffect = "event:/battle/cannon-air",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			soundeffect = "event:/battle/cannon-air",
+			say = "쿠구궁——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "컬럼비아",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "클리블랜드",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "새러토가",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "호넷",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "사우스다코타",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,13 +266,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "빙벽의 반대편",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "이봐, 지휘관! 잠들지 마!!!",
 			effects = {
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			say = "!!",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
 			bgm = "bgm-cccp3",
+			say = "!!",
 			effects = {
 				{
 					active = false,
@@ -393,8 +393,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "좋은 아침이네, 지휘관. 여기는 내가 컨트롤하는 양산형의 위야. 지휘함이 방금 공격으로 침몰했거든.",
 			typewriter = {
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "전투? 분리? …… 그 거대한 빙벽인가.",
 			typewriter = {
 				speed = 0.05,
@@ -440,8 +440,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "좋은 소식이랑 나쁜 소식이 있어.",
 			typewriter = {
@@ -457,8 +457,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "나쁜 소식은 빙벽이 나타난 이후로 이 해역이 거울 해역으로 바뀌었다는 거야. 벽 너머의 주력 함대와 연락할 방법이 없어.",
 			typewriter = {
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			say = "펑!",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑!",
 			flashN = {
 				color = {
 					1,
@@ -548,8 +548,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "맞아! 정신 차렸으니 지휘는 맡길게, 지휘관!",
 			typewriter = {

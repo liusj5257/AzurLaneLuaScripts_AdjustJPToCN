@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "nagato-map",
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Oh, riiiight, joke's on me...",
-			bgm = "nagato-map",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "Your \"we\" and \"us\" were of course referring to Zuikaku's and Shoukaku's support... *Sigh*, I never stood a chance against you, did I? I admit defeat.",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 		{
 			actor = 305110,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Don't be too hard on yourself. You nearly had me for a moment there.",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,8 +72,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "Perhaps, but you turned the tables on me in the blink of an eye... I see now how you've earned your reputation...",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(I know about her rigging inside out, and I maintained my distance properly... Even excluding the surprise airstrike, I shouldn't have lost this!)",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "(I don't even have any idea of what I did wrong! This person is a monster!)",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -144,9 +144,9 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Ah, n-no, well, I don't mean it that way...!",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "Mikasa held her hand before her chest and clenched it into a fist.",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Of course. I appreciate your thoughtfulness and apologize for any concern caused.",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

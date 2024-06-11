@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Journé Surcouf!\n\n<size=45>Chapter 1 - Surcouf at Sunrise</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Private Quarters",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Private Quarters",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "It felt like something was rubbing against my nose...",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Letting out a powerful sneeze, as loud as a small firecracker, I opened my eyes and looked to my side.",
 			flashN = {
 				color = {
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Surcouf was in the room, holding a green foxtail in her hand, which she was rubbing against the underside of my nose.",
 			typewriter = {
 				speed = 0.05,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "So let me rephrase: what was I up to in your dream?",
 			typewriter = {
 				speed = 0.05,
@@ -258,13 +258,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "A few minutes later...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

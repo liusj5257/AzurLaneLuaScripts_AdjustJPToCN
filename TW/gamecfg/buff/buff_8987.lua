@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑反击BOSS战 触发鱼雷施加1层计数",
 	time = 1,
+	name = "黑反击BOSS战 触发鱼雷施加1层计数",
+	init_effect = "",
+	picture = "",
 	stack = 99,
 	id = 8987,
-	picture = "",
-	last_effect = "",
 	icon = 8987,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

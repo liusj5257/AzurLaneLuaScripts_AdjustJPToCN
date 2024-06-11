@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ワイワイ旧正月！\n\n<size=45>五 みんな一緒に・上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "（コンコン）",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "（コンコン）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "これは指揮官が薦めたのだ。東煌の新年の雰囲気を感じてほしいとのことだが、意外といいセンスしているな",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "レキシントンさまにエンタープライズさま、ご機嫌麗しゅうございます。これは……？",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "その通りだ。まさかそっちのも指揮官が薦めたものでは――",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "明石様から素材の提供を受け、ユニオンの皆様の分も用意いたしました。そして――",
 			typewriter = {
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "春節大放出にゃ！素材代は指揮官にツケておくにゃ！",
 			effects = {
 				{
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "そ、そうか…せっかくのお気遣いだ、では……",
 			effects = {
 				{
@@ -354,15 +354,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "皆さんもせっかく来ていることですし、一緒に「年夜飯（ニェンイエファン）」……えっと、大晦日のご飯でも食べていきませんか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -406,8 +406,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "増えた人数分の食材も資材に含まれておりますが、私たちにもぜひお手伝いをさせてくださいませ",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "ユニオンの子たちも驚くわね～",
 			typewriter = {
@@ -488,9 +488,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 206042,
 			dir = 1,
 			blackBg = true,
+			actor = 206042,
 			nameColor = "#a9f548",
 			say = "わ、私もお手伝いします！",
 			typewriter = {

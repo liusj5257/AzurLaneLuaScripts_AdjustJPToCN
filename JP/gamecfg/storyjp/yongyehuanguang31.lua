@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG31",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-4",
 			say = "バレンツ海・ロイヤル主力艦隊。セイレーンとの戦いはまだ続いている――",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "鉄血の主力艦隊を正面から撃破するために編成された戦力だけあって、セイレーンを次から次へと撃破していってるが――",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "なんて数なの…きりがないわ…！",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "ま、まさか北方連合の防衛線がもう崩壊して……",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "その調子よヴァリアント様！……あれは？",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "確かあれは「オブストラクター」とかいう人形セイレーンね！イカルス、あれはなんなのか説明して頂戴！",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "は、はい！艦船艤装の電気伝導系統を攻撃する兵装を装備し、その兵装の攻撃を受けたら…火力全開できなくなります！",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "じゃあどうすればいい？",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "……北方連合らしいわね………",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "こうなったら仕方ないわ！火力だって北方連合に負けないことを思い知らせてやるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "はい！みんな、火力全開よ！",
 			typewriter = {
 				speed = 0.05,

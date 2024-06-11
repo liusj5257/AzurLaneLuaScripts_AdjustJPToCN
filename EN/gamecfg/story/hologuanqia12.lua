@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-tokiwa",
 			dir = 1,
 			say = "Captain, we're home~ How're things going?",
+			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "Hey, Matsuri! You were gone for so long I was starting to worry. Nice to see Fubuki and Mio made it in one piece!",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Look at that, Matsuri's back! Good timing, we just finished testing Aqua's rigging. Oh, guessing you brought some friends with you?",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Sure did! This here's Shirakami Fubuki, and this is Ookami Mio.",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "And then the girls who got them out of a tight situation: Kawakaze and Zuikaku. The Resistance grows stronger!",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Welcome aboard, folks! We've got fun and games!",
 			typewriter = {
 				speed = 0.05,
@@ -163,14 +163,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Purifier's... lost her memories?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -213,8 +213,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Then I went and saved Aqua and Matsuri and brought them here.",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "You have to believe us! Purity would never hurt anyone! You must be confusing her for someone else who looks like her!",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Uhh, have I horribly wronged some of you in the past? I mean, if you want us to prove our allegiance, I can go out back and commit double suicide with Tessy. We can always get new bodies.",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "Phew, you had me spooked for a second there, Kawakaze... So, all friends here, yeah?",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Uh, so I can make them some rigging too? Surely getting more people equipped to search for their friends is more important than keeping their 3 measurements a secret?",
 			typewriter = {
 				speed = 0.05,
@@ -458,8 +458,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Ayame has her demon powers and Shion can use magic, so they're probably fine. Miss Sora, on the other hand... Well, it's Miss Sora, I'm sure she can manage!",
 			typewriter = {
 				speed = 0.05,
@@ -489,8 +489,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Sounds like a plan! You girls with riggings go out and look for the last three while yours truly stays behind. Somebody's gotta kit out Fubuki and Mio, after all.",
 			typewriter = {
 				speed = 0.05,
@@ -520,8 +520,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "Gathering resources is my middle name! Leave it to Lady Aqua~",
 			typewriter = {
 				speed = 0.05,
@@ -551,8 +551,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Aww, you're so sweet, Javelin. You'll make a lovely wife one day...",
 			typewriter = {
 				speed = 0.05,

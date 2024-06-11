@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "그렇게 때론 전투하고 때론 평화로운 삶이 천천히 흘러갔다.",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "그렇게 때론 전투하고 때론 평화로운 삶이 천천히 흘러갔다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "초반 탐색전 연패 이후 브륀힐드는 서서히 자신의 진짜 실력을 드러냈고, 조금씩 점수를 만회해갔다.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "그 후, 쌍방은 서로 엎치락뒤치락하며, 어느 한쪽도 완전한 우세를 잡지 못하고 있었다.",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "이에 실험은 계속 이어졌다.",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "1일 전투 종료 후 휴게실——",
@@ -80,17 +80,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -451,10 +451,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…우리가 전력을 다할 수 있도록 비스마르크 님의 장기말이 하루빨리 정상으로 돌아왔으면 좋겠는데….",
 			typewriter = {
 				speed = 0.05,

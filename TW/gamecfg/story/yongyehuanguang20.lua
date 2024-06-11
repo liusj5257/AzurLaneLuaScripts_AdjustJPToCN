@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900219,
-			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "輕鬆有餘，封~鎖~突~破~！哼，獲得全部換裝III型的許可之後，區區北方聯合的極地艦隊怎麼可能攔住我~！",
 			bgm = "xinnong-3",
+			actor = 900219,
+			nameColor = "#ff5c5c",
+			say = "輕鬆有餘，封~鎖~突~破~！哼，獲得全部換裝III型的許可之後，區區北方聯合的極地艦隊怎麼可能攔住我~！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "哎~~~~~~~！總感覺最近每次提到NA海域觀察者的眼神就會變得很恐怖...",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "呵呵呵，那就先用這批皇家艦隊練練手吧~",
 			typewriter = {
 				speed = 0.05,

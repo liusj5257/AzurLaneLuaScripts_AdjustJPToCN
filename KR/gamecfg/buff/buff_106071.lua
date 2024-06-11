@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.05
+					number = 0.05,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 610
+					number = 610,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.061
+					number = 0.061,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 720
+					number = 720,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.072
+					number = 0.072,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 830
+					number = 830,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.083
+					number = 0.083,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 940
+					number = 940,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.094
+					number = 0.094,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1050
+					number = 1050,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.105
+					number = 0.105,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1160
+					number = 1160,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.116
+					number = 0.116,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1270
+					number = 1270,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.127
+					number = 0.127,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1380
+					number = 1380,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.138
+					number = 0.138,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1500
+					number = 1500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -253,15 +253,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.15
+					number = 0.15,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
 	},
-	time = 60,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 60,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -283,8 +283,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -294,8 +294,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_1",
-				number = 0.05
+				number = 0.05,
+				attr = "damageToArmorRateEnhance_1"
 			}
 		}
 	}

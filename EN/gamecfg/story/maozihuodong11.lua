@@ -1,17 +1,17 @@
 return {
-	id = "MAOZIHUODONG11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-cccp3",
 			dir = 1,
 			say = "A humanoid Siren is coming our way!",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Once this enemy has been dealt with, we'll finally have some time to rest.",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...Huh? What's that light coming from the Siren?!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "Oh crap! Look out, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The Siren's weapon glowed. Its sights are aimed at me.",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			}
 		},
 		{
-			actor = 105140,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105140,
+			nameColor = "#a9f548",
 			say = "You shall harm NO ONE!",
 			flashout = {
 				dur = 0.5,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			say = "A burst of entwining flame and electricity rushed towards me. South Dakota rushed in front, blocking the attack with her shield.",
 			side = 2,
 			bgName = "bg_cccp_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "A burst of entwining flame and electricity rushed towards me. South Dakota rushed in front, blocking the attack with her shield.",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "South Dakota",
+			side = 1,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Pamiat Merkuria",
+			side = 0,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
+			dir = 1,
 			say = "It seems Pamiat Merkuria, too, tried to protect me from the Siren's attack.",
 			typewriter = {
 				speed = 0.05,
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
+			dir = 1,
 			say = "South Dakota looks like she took the hit well, but had it hit Pamiat instead, she could have suffered major damage...",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Pamiat Merkuria",
+			side = 0,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "South Dakota",
+			side = 1,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "What did I miss? Oh gosh, are you okay, South Dakota?!",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,9 +324,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Malfunctioning?! Have the Sirens pulled out a new weapon on us?!",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "This about confirms that the Sirens in the Bering Sea are not like what we've fought before.",
 			typewriter = {
 				speed = 0.05,
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "This about confirms that the Sirens in the Bering Sea are not like what we've fought before.",
 			painting = {
 				alpha = 0.3,

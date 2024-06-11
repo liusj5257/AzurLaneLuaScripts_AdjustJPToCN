@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "CHICHENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ヒガンバナの恋\n\n<size=45>その五　ササイなキズアト</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "母港・食堂台所",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "母港・食堂台所",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "隣からアツい視線。……に気を取られたせいか軽く手を切ってしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "そうですわ！いっそ指揮官様を赤城から離れられないよう鎖で縛って……明石の小娘に……ううん、この赤城自らが作ってみせますわ！",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "視界が一瞬暗くなった。",
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "身を動かそうと、周りにモフモフとした感触が伝わってくる……",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "どうやらシッポで完全に退路を断たれたようだ。",
 			typewriter = {
@@ -239,16 +239,16 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "逃げるなんて思わないことね。こう見えても、赤城は指揮官の事を誰よりも……うふふ",
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					dur = 0.5,
 					x = 0,
 					number = 1
@@ -264,8 +264,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "巨大な尾に覆われて、赤城と二人っきりの空間に閉ざされてしまった。",
 			typewriter = {

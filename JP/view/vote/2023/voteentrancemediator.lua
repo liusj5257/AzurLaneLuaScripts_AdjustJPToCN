@@ -6,7 +6,7 @@ slot0.ON_SCHEDULE = "VoteEntranceMediator:ON_SCHEDULE"
 slot0.GO_HALL = "VoteEntranceMediator:GO_HALL"
 slot0.SUBMIT_TASK = "VoteEntranceMediator:SUBMIT_TASK"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.SUBMIT_TASK, function ()
 		if not getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) or slot0:isEnd() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_notStartOrEnd"))
@@ -64,7 +64,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SUBMIT_TASK_DONE,
 		GAME.ON_NEW_VOTE_DONE,
@@ -72,7 +72,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then

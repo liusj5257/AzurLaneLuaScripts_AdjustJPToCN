@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"拗ねやすい彼女の小さなお話\n\n<size=45>五　ホノルルの悩み</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "執務室のソファに腰を下ろしてから数分後、ホノルルはようやく口を開いた。",
 			typewriter = {
 				speed = 0.05,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "ホノルルは急に黙り込み、そして幾分か震えた声で再び語りだした。",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "ほかの子のように明るく笑う私なんて、想像できないよ…",
 			typewriter = {
 				speed = 0.05,
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			flag = 2,
 			say = "あなたって趣味が本当に変だよね……ふ、ふん……うぅ……",
 			typewriter = {
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ホノルルがかるーくげんこつでこっちの肩を叩いた。",
 			typewriter = {
 				speed = 0.05,
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "ホノルルは初めて弱気な表情を見せた。",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "…………え？",
 			typewriter = {
 				speed = 0.05,

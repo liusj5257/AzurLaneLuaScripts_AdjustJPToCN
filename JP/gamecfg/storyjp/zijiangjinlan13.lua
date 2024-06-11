@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・３ターン目（武蔵）",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,15 +36,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
 			say = "海霧に乗じて、武蔵の「部下」――酒匂と若月は境界線を越え、長門の艦隊がいるエリアに奇襲をかけた。",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#A9F548FF",
 			say = "春月！江風！武蔵さんの艦隊がそちらに向かっていますわ！",
 			painting = {
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "江風が刀を構えたその瞬間、酒匂と若月が姿を表した。",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "長門さまの「部下」の艦船、発見しました！",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "阿賀野型軽巡洋艦の酒匂です！よろしくお願いしますね！",
 			painting = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "でも敵ではないでしょう？武蔵さんからはこのエリアに行ってとしか命令されていませんし",
 			painting = {
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "ほら、こっちは「竜宮城」を落としたばかりですから、まだ損傷が回復していませんよ",
 			painting = {
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "肩の力を抜き、ほっとして状況を受け入れた春月と違って、江風は依然として警戒を解いていない。",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "そうですかー酒匂たちを止めるって命令が出ているんですかー…ふふん、江風ちゃんは強いですが、それでも酒匂たちを止められるかな？",
 			painting = {
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "江風たちが酒匂たちと対峙していることを隣のエリアに配置されている比叡は知った。",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "海を覆う霧がやがて薄くなり、晴れていき、そして――",
 			typewriter = {
@@ -454,8 +454,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "あ、武蔵さんからの通信！ええと、酒匂と若月ちゃんがやるべきことは……",
 			painting = {
@@ -467,17 +467,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -485,11 +485,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			say = "――――――！！",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "酒匂と若月の動きよりも早く、武蔵艦隊に所属する量産艦が春月たちに模擬弾の砲火を放った。",
 			typewriter = {
@@ -548,8 +548,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "しょうがないですね！酒匂たちに戦えって命令ですよ",
 			painting = {
@@ -581,8 +581,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "酒匂も戦うつもりはなかったんですよ？でも「司令」の命令には従わないといけませんし",
 			painting = {
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "艤装刀を抜いた江風が正眼の構えをし、量産艦たちに取り囲まれないよう移動しながら、酒匂と若月と相対した。",
 			typewriter = {
@@ -640,8 +640,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "さすがは長門さまの付き人だけあって動きがキレッキレですね…でも酒匂も負けませんよ！",
 			painting = {
@@ -657,8 +657,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "わ、若月も負けませんからね！",
 			painting = {
@@ -671,9 +671,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
 			say = "艦船と量産艦たちにより、戦端の火ぶたが今にも切られようとしたその瞬間――",
 			effects = {
 				{
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_wuzang_cg2",
 			bgm = "nagato-map",
 			flashout = {
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg2",
 			say = "そこまでだ！",
 			typewriter = {
@@ -724,8 +724,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg2",
 			say = "桜色の閃光が爆ぜると、薄まりつつある海霧をかき消すように、重桜連合艦隊の旗艦・長門が演習場に降り立った。",
 			typewriter = {
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg2",
 			say = "放たれた砲弾が長門の身の回りに現れたシールドに防がれたのを見て気圧されたか、指示を受けた量産艦は攻撃を止めた。",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:157}",
+			side = 2,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -776,8 +776,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:158}",
+			side = 2,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -792,8 +792,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -827,8 +827,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "はわわわ…ええと、酒匂たちは別に戦いたくて戦うわけではありませんけど…",
 			painting = {
@@ -844,8 +844,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "で、でも確かに武蔵さんから演習を楽しむよう言われたので、それを盾に調子に乗ったことは……すこーしあるかもしれませんね……",
 			painting = {
@@ -861,8 +861,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "長門さま、申し訳ございません！（ぺこり",
 			painting = {
@@ -878,8 +878,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "別にお主たちのことを責めるつもりはない。お主らの行動はあくまで「司令」の采配あってのことだ",
 			painting = {
@@ -943,8 +943,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "ということは…酒匂たちは別に何も間違ったことはしていないってことですよね…？",
 			painting = {
@@ -960,8 +960,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "では長門さま、なぜわたしたちを止めたのですか？",
 			painting = {
@@ -977,8 +977,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "通常の演習ではないからだ。お主たちも知っておろう？この演習場は艦船の通常の性能が制限され、その代わりに心象が反映されることを",
 			painting = {
@@ -1010,8 +1010,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "無意味な戦いなど決して許さぬ――それこそが余が示す重桜の道にして、武蔵と赤城に見せたい余の意志だ",
 			painting = {
@@ -1027,8 +1027,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "酒匂、すごく感動しています！それに長門さま、今のシールドも「心象」によるものですよね！",
 			painting = {
@@ -1060,8 +1060,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "しかし今の余は最早かつて己を追い込んでいたときと違う。あのときのようなことは二度と再現されることはなかろう",
 			painting = {

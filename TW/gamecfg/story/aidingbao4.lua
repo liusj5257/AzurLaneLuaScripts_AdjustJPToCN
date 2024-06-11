@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"“我”獨一無二的價值\n\n<size=45>四  冒冒失失也要向前看</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "——早上。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "——早上。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "而且還沒睡好——欸欸欸！！怎麼這個時間了？！",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -108,15 +108,15 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "哈……哈……！糟了，竟然遲到了！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -189,11 +189,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "不過既然難得早起了，接下來就好好加油努力吧！",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,13 +215,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "今天也一如既往按時來到指揮室——嗯？愛丁堡已經來了嗎？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -278,9 +278,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今天的指揮室確實看上去格外整潔……看來愛丁堡從一大早就開始清掃了。",
 			typewriter = {
 				speed = 0.05,
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "雖說稍微說漏了嘴……不過——",
 			typewriter = {
 				speed = 0.05,
@@ -338,9 +338,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "這次確實做得很好，辛苦了。",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "准备速度提高一轮-25%",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = 23,
-				number = -0.4
+				number = -0.4,
+				type = 23
 			}
 		},
 		{

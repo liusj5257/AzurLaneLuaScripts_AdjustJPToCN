@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA41",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA41",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgmDelay = 2,
-			actor = 900011,
+			side = 2,
 			actorName = "Tester?",
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
+			nameColor = "#ff5c5c",
 			say = "It seems that Resistance brats have discovered an entrance that hasn't been destroyed yet. That's a huge failure, right, Advisor?",
 			flashin = {
 				delay = 1,
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "As far as I know, the damaged \"pieces\" that have taken damage during this time have yet to finish being repaired. What do you plan to do?",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Military Advisor?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Military Advisor?",
 			say = "Please rest assured. Everything is still going just as planned.",
 			typewriter = {
 				speed = 0.05,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Military Advisor?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Military Advisor?",
 			say = "We have already swapped out the rails for the rollercoaster. The destination of the Resistance will not be the headquarters, but instead, in a pit of magma.",
 			typewriter = {
 				speed = 0.05,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "Hmm, making the first move was a very good move.",
 			typewriter = {
 				speed = 0.05,
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Military Advisor?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Military Advisor?",
 			say = "It is because I have studied \"Zhuge Liang's Strategems\" very thoroughly. This time, I have prepared an ambush for the Resistance. Please continue to focus wholly on taking back power.",
 			typewriter = {
 				speed = 0.05,
@@ -119,14 +119,14 @@ return {
 			}
 		},
 		{
-			say = "At the MioShio Coaster",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-fbk",
+			say = "At the MioShio Coaster",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,10 +151,10 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201210,
 			say = "FAAAAAAAAAAAAAASSSSSSSSTTTTTTTTTTTTTTTTTTT!",
 			effects = {
 				{
@@ -175,8 +175,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "THE ROLLER COASTER IS A MILLION TIMES COOLER THAN BEFORE IT BECAME BIGGERRRRRRRRRRRR!",
 			typewriter = {
 				speed = 0.05,

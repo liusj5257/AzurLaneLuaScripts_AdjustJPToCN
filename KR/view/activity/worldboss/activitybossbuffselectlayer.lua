@@ -1,10 +1,10 @@
 slot0 = class("ActivityBossBuffSelectLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivityBossBuffSelectUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.buffList = slot0._tf:Find("BuffList")
 	slot0.buffScrollComp = slot0.buffList:Find("ScrollView"):GetComponent("LScrollRect")
 	slot0.activeBuffRect = slot0._tf:Find("Active")
@@ -19,7 +19,7 @@ function slot0.init(slot0)
 	setText(slot0._tf:Find("Active/PT/Title"), i18n("activityboss_sp_score_bonus"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.buffDatas = {}
 	slot0.buffs = _.map(slot0.contextData.spEnemyInfo:GetSelectableBuffs(), function (slot0)
 		slot1 = ActivityBossBuff.New({
@@ -41,11 +41,11 @@ function slot0.didEnter(slot0)
 	slot0.targets = slot0.contextData.spEnemyInfo:GetScoreTargets()
 	slot0.score = slot0.contextData.score
 
-	function slot0.buffScrollComp.onUpdateItem(slot0, slot1)
+	slot0.buffScrollComp.onUpdateItem = function(slot0, slot1)
 		uv0:UpdateBuffItem(slot0 + 1, slot1)
 	end
 
-	function slot0.activeBuffScrollComp.onUpdateItem(slot0, slot1)
+	slot0.activeBuffScrollComp.onUpdateItem = function(slot0, slot1)
 		uv0:UpdateActiveBuffItem(slot0 + 1, slot1)
 	end
 
@@ -66,12 +66,12 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0.buffScrollComp:SetTotalCount(#slot0.buffs)
 	slot0:UpdateActiveBuffs()
 end
 
-function slot0.UpdateBuffItem(slot0, slot1, slot2)
+slot0.UpdateBuffItem = function(slot0, slot1, slot2)
 	slot3 = tf(slot2)
 	slot4 = slot0.buffs[slot1]
 
@@ -86,7 +86,7 @@ function slot0.UpdateBuffItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateActiveBuffs(slot0)
+slot0.UpdateActiveBuffs = function(slot0)
 	slot0.activeBuffs = _.select(slot0.buffs, function (slot0)
 		return uv0.buffDatas[slot0].selected
 	end)
@@ -101,7 +101,7 @@ function slot0.UpdateActiveBuffs(slot0)
 	end) * 100) .. "%")
 end
 
-function slot0.UpdateActiveBuffItem(slot0, slot1, slot2)
+slot0.UpdateActiveBuffItem = function(slot0, slot1, slot2)
 	slot4 = slot0.activeBuffs[slot1]
 
 	setActive(tf(slot2):Find("Icon"), tobool(slot4))
@@ -113,7 +113,7 @@ function slot0.UpdateActiveBuffItem(slot0, slot1, slot2)
 	GetImageSpriteFromAtlasAsync(slot4:GetIconPath(), "", slot3:Find("Icon"))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

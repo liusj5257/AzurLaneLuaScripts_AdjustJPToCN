@@ -6,11 +6,11 @@ slot3 = class("BattleBuffAddBuff", slot0.Battle.BattleBuffEffect)
 slot0.Battle.BattleBuffAddBuff = slot3
 slot3.__name = "BattleBuffAddBuff"
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	uv0.Battle.BattleBuffAddBuff.super.Ctor(slot0, slot1)
 end
 
-function slot3.SetArgs(slot0, slot1, slot2)
+slot3.SetArgs = function(slot0, slot1, slot2)
 	slot0._level = slot2:GetLv()
 	slot3 = slot0._tempData.arg_list
 	slot0._buff_id = slot3.buff_id
@@ -26,7 +26,7 @@ function slot3.SetArgs(slot0, slot1, slot2)
 	slot0._weaponType = slot0._tempData.arg_list.weaponType
 end
 
-function slot3.onUpdate(slot0, slot1, slot2, slot3)
+slot3.onUpdate = function(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3.timeStamp then
 		slot0:attachBuff(slot0._buff_id, slot0._level, slot1)
 
@@ -34,7 +34,7 @@ function slot3.onUpdate(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot3.onBulletHit(slot0, slot1, slot2, slot3)
+slot3.onBulletHit = function(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -46,7 +46,7 @@ function slot3.onBulletHit(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot3.onBulletCreate(slot0, slot1, slot2, slot3)
+slot3.onBulletCreate = function(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -59,12 +59,12 @@ function slot3.onBulletCreate(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot3.onTrigger(slot0, slot1, slot2, slot3)
+slot3.onTrigger = function(slot0, slot1, slot2, slot3)
 	uv0.super.onTrigger(slot0, slot1, slot2, slot3)
 	slot0:AddBuff(slot1, slot3)
 end
 
-function slot3.AddBuff(slot0, slot1, slot2)
+slot3.AddBuff = function(slot0, slot1, slot2)
 	if not slot0:commanderRequire(slot1, slot0._tempData.arg_list) then
 		return
 	end
@@ -96,7 +96,7 @@ function slot3.AddBuff(slot0, slot1, slot2)
 	end
 end
 
-function slot3.attachBuff(slot0, slot1, slot2, slot3)
+slot3.attachBuff = function(slot0, slot1, slot2, slot3)
 	slot6 = nil
 
 	if #uv0.GetBuffTemplate(slot1).effect_list == 1 and slot5[1].type == "BattleBuffDOT" then
@@ -113,7 +113,7 @@ function slot3.attachBuff(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	uv0.Battle.BattleBuffAddBuff.super:Dispose()
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._timer)
 

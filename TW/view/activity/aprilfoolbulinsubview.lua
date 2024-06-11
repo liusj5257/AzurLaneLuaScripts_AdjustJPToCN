@@ -1,16 +1,16 @@
 slot0 = class("AprilFoolBulinSubView", import("view.base.BaseSubPanel"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.pieceId = slot2
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AprilFoolBulinSubView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) or slot1:isEnd() then
 		slot0:Destroy()
 
@@ -44,15 +44,15 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	setAnchoredPosition(slot0._tf, slot1)
 end
 
-function slot0.SetParent(slot0, slot1)
+slot0.SetParent = function(slot0, slot1)
 	setParent(slot0._tf, slot1)
 end
 
-function slot0.ShowAprilFoolBulin(slot0, slot1, slot2)
+slot0.ShowAprilFoolBulin = function(slot0, slot1, slot2)
 	slot3, slot4 = nil
 
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA) or slot3:isEnd() then

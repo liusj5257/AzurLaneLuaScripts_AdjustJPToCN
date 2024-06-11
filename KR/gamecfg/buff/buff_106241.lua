@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -19,8 +19,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.035
+					number = 0.035,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -45,8 +45,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -56,8 +56,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 610
+					number = 610,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.04
+					number = 0.04,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -82,8 +82,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -93,8 +93,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 720
+					number = 720,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.045
+					number = 0.045,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -130,8 +130,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 830
+					number = 830,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -141,8 +141,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.05
+					number = 0.05,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -156,8 +156,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -167,8 +167,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 940
+					number = 940,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -178,8 +178,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.055
+					number = 0.055,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -193,8 +193,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -204,8 +204,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1050
+					number = 1050,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -215,8 +215,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -230,8 +230,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -241,8 +241,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1160
+					number = 1160,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -252,8 +252,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.065
+					number = 0.065,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -267,8 +267,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -278,8 +278,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1270
+					number = 1270,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -304,8 +304,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -315,8 +315,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1380
+					number = 1380,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -326,8 +326,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.075
+					number = 0.075,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -341,8 +341,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 106240
 				}
 			},
@@ -352,8 +352,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1500
+					number = 1500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -363,20 +363,20 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.08
+					number = 0.08,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 106241,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 106241,
+	color = "red",
 	icon = 106060,
 	last_effect = "",
 	effect_list = {
@@ -387,8 +387,8 @@ return {
 			},
 			arg_list = {
 				quota = 3,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				skill_id = 106240
 			}
 		},
@@ -398,8 +398,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -408,8 +408,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.035
+				number = 0.035,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

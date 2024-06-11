@@ -1,10 +1,10 @@
 slot0 = class("WorldMediaCollectionTemplateLayer", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	assert(false, "Need Assign UIName " .. slot0.__cname)
 end
 
-function slot0.Ctor(slot0, slot1, ...)
+slot0.Ctor = function(slot0, slot1, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.viewParent = slot1
@@ -20,7 +20,7 @@ function slot0.Ctor(slot0, slot1, ...)
 	})
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 
 	if slot0._top then
@@ -28,7 +28,7 @@ function slot0.Show(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0._top then
 		setParent(slot0._top, slot0._tf)
 	end
@@ -36,29 +36,29 @@ function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.OnSelected(slot0)
+slot0.OnSelected = function(slot0)
 	slot0:Show()
 end
 
-function slot0.OnReselected(slot0)
+slot0.OnReselected = function(slot0)
 end
 
-function slot0.OnDeselected(slot0)
+slot0.OnDeselected = function(slot0)
 	slot0:Hide()
 end
 
-function slot0.OnBackward(slot0)
+slot0.OnBackward = function(slot0)
 end
 
-function slot0.Add2LayerContainer(slot0, slot1)
+slot0.Add2LayerContainer = function(slot0, slot1)
 	setParent(slot1, slot0._tf)
 end
 
-function slot0.Add2TopContainer(slot0, slot1)
+slot0.Add2TopContainer = function(slot0, slot1)
 	setParent(slot1, slot0._top)
 end
 
-function slot0.SetActive(slot0, slot1)
+slot0.SetActive = function(slot0, slot1)
 	if slot1 then
 		slot0:Show()
 	else
@@ -66,7 +66,7 @@ function slot0.SetActive(slot0, slot1)
 	end
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 end
 
 return slot0

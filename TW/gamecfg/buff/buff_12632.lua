@@ -169,9 +169,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "扎拉弹药特性技能",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "命中特效",
 	stack = 1,

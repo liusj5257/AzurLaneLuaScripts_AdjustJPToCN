@@ -16,8 +16,8 @@ return {
 			style = {
 				text = "Let's make a tool right off the bat.",
 				mode = 1,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = -88.2
 			}
 		},
@@ -36,8 +36,8 @@ return {
 			style = {
 				text = "Tap the circle to select a material to put in.",
 				mode = 1,
-				posY = -70.1,
 				dir = -1,
+				posY = -70.1,
 				posX = 419.94
 			}
 		},
@@ -56,8 +56,8 @@ return {
 			style = {
 				text = "Choose the materials you received from completing the request.",
 				mode = 1,
-				posY = -116.63,
 				dir = -1,
+				posY = -116.63,
 				posX = 106.9
 			}
 		},
@@ -76,8 +76,8 @@ return {
 			style = {
 				text = "You can tap Quick Select to put in all the required materials.",
 				mode = 1,
-				posY = -174.9,
 				dir = 1,
+				posY = -174.9,
 				posX = -270.23
 			}
 		},
@@ -96,8 +96,8 @@ return {
 			style = {
 				text = "Once you've added all the materials, tap Begin Synthesis.",
 				mode = 1,
-				posY = -227.89,
 				dir = -1,
+				posY = -227.89,
 				posX = 323.61
 			}
 		},
@@ -116,8 +116,8 @@ return {
 			style = {
 				text = "Confirm that you're crafting the right item, and then...",
 				mode = 1,
-				posY = -9.31,
 				dir = -1,
+				posY = -9.31,
 				posX = 308.22
 			}
 		},
@@ -136,8 +136,8 @@ return {
 			style = {
 				text = "Voila! You just made a gathering tool!",
 				mode = 1,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 436.54
 			}
 		},
@@ -156,8 +156,8 @@ return {
 			style = {
 				text = "Let's see what materials are needed for another gathering tool, shall we?",
 				mode = 1,
-				posY = -22.78,
 				dir = -1,
+				posY = -22.78,
 				posX = -542.8
 			}
 		},
@@ -176,8 +176,8 @@ return {
 			style = {
 				text = "Use Quick Select to add what materials you have.  ",
 				mode = 1,
-				posY = -227.1,
 				dir = 1,
+				posY = -227.1,
 				posX = -199.86
 			}
 		},
@@ -196,8 +196,8 @@ return {
 			style = {
 				text = "If key materials are missing, you can tap Begin Synthesis to see which ones you need.",
 				mode = 1,
-				posY = -215.66,
 				dir = -1,
+				posY = -215.66,
 				posX = 314.17
 			}
 		},
@@ -206,8 +206,8 @@ return {
 			style = {
 				text = "You can gain some materials by completing requests, so don't forget to check back on those.",
 				mode = 1,
-				posY = -115.27,
 				dir = 1,
+				posY = -115.27,
 				posX = -32.73
 			}
 		}

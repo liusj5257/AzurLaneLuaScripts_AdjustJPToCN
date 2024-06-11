@@ -2,16 +2,16 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 40461,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 40461,
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipType"

@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.child_item = {
 	{
-		rarity = 2,
 		name = "Manjuu Milk Tea",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "With a texture that's rich and smooth.",
@@ -19,8 +19,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 1,
 		name = "Strawberry Milk",
+		rarity = 1,
 		type = 4,
 		is_show = 1,
 		desc = "You can't go wrong with this flavor.",
@@ -37,8 +37,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "Honey Lemonade",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "Drink it all in one gulp before the lemonade's zest hits you!",
@@ -60,8 +60,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "Banana Coconut Drink",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "A drink made of coconut and banana. It has a mellow, unique taste.",
@@ -83,8 +83,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "Melon Scoops",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "A sublime marriage of sweet honeydew melon and syrup. Irresistible for anyone with a sweet tooth.",
@@ -106,8 +106,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 3,
 		name = "Ice Cream Milkshake",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "What do you start with? Eating the ice cream on top, or drinking the shake?",
@@ -124,8 +124,8 @@ pg.child_item = {
 		}
 	},
 	[11] = {
-		rarity = 2,
 		name = "Rice Omelet",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "Sweet and sour chicken fried rice covered with a fluffy omelet. Delicious!",
@@ -147,8 +147,8 @@ pg.child_item = {
 		}
 	},
 	[12] = {
-		rarity = 3,
 		name = "Stew Pot Pie",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "A rich stew in a crisp pie. What more could you want?",
@@ -165,8 +165,8 @@ pg.child_item = {
 		}
 	},
 	[13] = {
-		rarity = 3,
 		name = "Macarons",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "A crispy snack that'll cheer anyone up.",
@@ -183,8 +183,8 @@ pg.child_item = {
 		}
 	},
 	[14] = {
-		rarity = 3,
 		name = "Watermelon Pizza",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "A creative dish that's sure to upset pizza purists.",
@@ -201,8 +201,8 @@ pg.child_item = {
 		}
 	},
 	[15] = {
-		rarity = 4,
 		name = "Banana Crepe",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A crepe stuffed with cream and banana slices.",
@@ -219,8 +219,8 @@ pg.child_item = {
 		}
 	},
 	[16] = {
-		rarity = 4,
 		name = "Pork Cutlet Sandwiches",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "Thick cuts sandwiched between slices of toast. Juicy and filling.",
@@ -237,8 +237,8 @@ pg.child_item = {
 		}
 	},
 	[17] = {
-		rarity = 4,
 		name = "Meat and Basil Stew",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "The rich, flowing aroma of basil augments the taste of the meat perfectly.",
@@ -255,8 +255,8 @@ pg.child_item = {
 		}
 	},
 	[21] = {
-		rarity = 2,
 		name = "Beginner Fishing Rod",
+		rarity = 2,
 		type = 3,
 		is_show = 1,
 		desc = "A fishing rod tailor-made for beginners.",
@@ -278,8 +278,8 @@ pg.child_item = {
 		}
 	},
 	[22] = {
-		rarity = 2,
 		name = "Steel Axe",
+		rarity = 2,
 		type = 3,
 		is_show = 1,
 		desc = "Let me axe you a question!",
@@ -296,8 +296,8 @@ pg.child_item = {
 		}
 	},
 	[23] = {
-		rarity = 3,
 		name = "Advanced Fishing Rod",
+		rarity = 3,
 		type = 3,
 		is_show = 1,
 		desc = "A fishing rod for anglers with experience. It has a faint silver sheen.",
@@ -319,8 +319,8 @@ pg.child_item = {
 		}
 	},
 	[24] = {
-		rarity = 3,
 		name = "Silver Axe",
+		rarity = 3,
 		type = 3,
 		is_show = 1,
 		desc = "Let me axe you a question! Gold or silver?",
@@ -337,8 +337,8 @@ pg.child_item = {
 		}
 	},
 	[25] = {
-		rarity = 4,
 		name = "Master Fishing Rod",
+		rarity = 4,
 		type = 3,
 		is_show = 1,
 		desc = "A fishing rod that only true angling masters can wield properly!",
@@ -355,8 +355,8 @@ pg.child_item = {
 		}
 	},
 	[26] = {
-		rarity = 4,
 		name = "Gold Axe",
+		rarity = 4,
 		type = 3,
 		is_show = 1,
 		desc = "Let me axe you a question! Gold or silver? Gold, of course! It's the easiest to work with.",
@@ -373,8 +373,8 @@ pg.child_item = {
 		}
 	},
 	[31] = {
-		rarity = 1,
 		name = "From:Zero -Starting Life as a Royal Maid-",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "A story about a clumsy maid who tries to learn cooking and makes mistake after mistake, but still keeps trying.",
@@ -396,8 +396,8 @@ pg.child_item = {
 		}
 	},
 	[32] = {
-		rarity = 1,
 		name = "Fifteen-Verse Sonnets",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "A collection of thought-provoking classics. The number of verses feels off.",
@@ -419,8 +419,8 @@ pg.child_item = {
 		}
 	},
 	[33] = {
-		rarity = 1,
 		name = "Rigging Maintenance: An Expert's Guide",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "A book that's very clearly intended for specialists in the field.",
@@ -442,8 +442,8 @@ pg.child_item = {
 		}
 	},
 	[34] = {
-		rarity = 2,
 		name = "How to Steal Your Commander's Heart",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "This doesn't look like something a child should be allowed to read.",
@@ -460,8 +460,8 @@ pg.child_item = {
 		}
 	},
 	[35] = {
-		rarity = 2,
 		name = "A Genius' Guide to Invention!",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "A handbook written by a very eccentric self-taught inventor. Almost nothing in here seems practical.",
@@ -478,8 +478,8 @@ pg.child_item = {
 		}
 	},
 	[36] = {
-		rarity = 2,
 		name = "All the Best Vacation Destinations",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "Introduces many different travel destinations, from tropical islands to quaint mountain villages.",
@@ -496,8 +496,8 @@ pg.child_item = {
 		}
 	},
 	[41] = {
-		rarity = 3,
 		name = "CD",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "What songs are on it?",
@@ -514,8 +514,8 @@ pg.child_item = {
 		}
 	},
 	[42] = {
-		rarity = 3,
 		name = "Microphone",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "Sports an in-built mixer, allowing rich and delicate sound quality. Perfect for singing karaoke.",
@@ -532,8 +532,8 @@ pg.child_item = {
 		}
 	},
 	[43] = {
-		rarity = 3,
 		name = "Clarinet",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "A woodwind instrument with good sound. Said to be very difficult to learn.",
@@ -555,8 +555,8 @@ pg.child_item = {
 		}
 	},
 	[44] = {
-		rarity = 4,
 		name = "Harp",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "Features a wide range and long reverberation.",
@@ -573,8 +573,8 @@ pg.child_item = {
 		}
 	},
 	[45] = {
-		rarity = 4,
 		name = "Violin",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "Its notes cut deep.",
@@ -596,8 +596,8 @@ pg.child_item = {
 		}
 	},
 	[46] = {
-		rarity = 4,
 		name = "Piano",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "Synonymous with elegance and beautiful sound.",
@@ -614,8 +614,8 @@ pg.child_item = {
 		}
 	},
 	[47] = {
-		rarity = 4,
 		name = "Trumpet",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "Its sound is both bright and sharp, both loud and beautiful.",
@@ -637,8 +637,8 @@ pg.child_item = {
 		}
 	},
 	[51] = {
-		rarity = 3,
 		name = "White Pearl",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "May have whitening properties when ground into a powder.",
@@ -655,8 +655,8 @@ pg.child_item = {
 		}
 	},
 	[52] = {
-		rarity = 4,
 		name = "Seashell Ornament",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A decoration made from a polished seashell.",
@@ -673,8 +673,8 @@ pg.child_item = {
 		}
 	},
 	[53] = {
-		rarity = 3,
 		name = "Octoplushie",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "A plushie based on an octopus. Does it even have any fans out there?",
@@ -691,8 +691,8 @@ pg.child_item = {
 		}
 	},
 	[54] = {
-		rarity = 4,
 		name = "Wishing Bottle",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "Some say that if you leave a message in a bottle and throw it in the sea, it'll come true.",
@@ -709,8 +709,8 @@ pg.child_item = {
 		}
 	},
 	[55] = {
-		rarity = 3,
 		name = "Magic Conch",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "Ask a question and maybe it will answer?",
@@ -732,8 +732,8 @@ pg.child_item = {
 		}
 	},
 	[56] = {
-		rarity = 3,
 		name = "Coconut",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "It's not every day you see a souvenir shop that also sells coconuts.",
@@ -755,8 +755,8 @@ pg.child_item = {
 		}
 	},
 	[101] = {
-		rarity = 2,
 		name = "Boiled Lettuce",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "When working with fresh ingredients, all you need is simple cooking and some seasoning.",
@@ -773,8 +773,8 @@ pg.child_item = {
 		}
 	},
 	[102] = {
-		rarity = 2,
 		name = "Honey Pork Chops",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "Pork chops slathered with honey before going in the oven. Each bite fills your mouth with umami flavor.",
@@ -791,8 +791,8 @@ pg.child_item = {
 		}
 	},
 	[103] = {
-		rarity = 2,
 		name = "Stew Pot Pie",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "A rich stew in a crisp pie. What more could you want?",
@@ -809,8 +809,8 @@ pg.child_item = {
 		}
 	},
 	[104] = {
-		rarity = 2,
 		name = "Dumpling Platter",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "Life is like a plate of dumplings – you never know what you're going to get.",
@@ -827,8 +827,8 @@ pg.child_item = {
 		}
 	},
 	[105] = {
-		rarity = 3,
 		name = "Mapo Tofu",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "Loved by many as a staple of home cooking.",
@@ -845,8 +845,8 @@ pg.child_item = {
 		}
 	},
 	[106] = {
-		rarity = 3,
 		name = "Banana Crepe",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "A crepe stuffed with cream and banana slices.",
@@ -863,8 +863,8 @@ pg.child_item = {
 		}
 	},
 	[107] = {
-		rarity = 3,
 		name = "Meat and Veggie Stew",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "Delectable vegetables and meat resting in a tasty broth, topped with a beaten egg. Yum-yum!",
@@ -881,8 +881,8 @@ pg.child_item = {
 		}
 	},
 	[108] = {
-		rarity = 3,
 		name = "Spare Lamb Ribs with Rosemary",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "Tender meat with a rich, deep flavor.",
@@ -899,8 +899,8 @@ pg.child_item = {
 		}
 	},
 	[109] = {
-		rarity = 3,
 		name = "Pork Cutlet Sandwiches",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "Thick cuts sandwiched between slices of toast. Juicy and filling.",
@@ -917,8 +917,8 @@ pg.child_item = {
 		}
 	},
 	[110] = {
-		rarity = 3,
 		name = "Mystery Dish",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "The only way to tell what it tastes like is to try it.",
@@ -935,8 +935,8 @@ pg.child_item = {
 		}
 	},
 	[121] = {
-		rarity = 3,
 		name = "Framed Art",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "A drawing encased in a nice frame.",
@@ -953,8 +953,8 @@ pg.child_item = {
 		}
 	},
 	[131] = {
-		rarity = 2,
 		name = "River Shrimp",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "A small river shrimp. Better than nothing.",
@@ -971,8 +971,8 @@ pg.child_item = {
 		}
 	},
 	[132] = {
-		rarity = 2,
 		name = "Small Fish",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "Small fry, one might say. Not a bad catch.",
@@ -989,8 +989,8 @@ pg.child_item = {
 		}
 	},
 	[134] = {
-		rarity = 2,
 		name = "Big Fish",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "This is a huge catch! Dinner tonight is going to be good!",
@@ -1007,8 +1007,8 @@ pg.child_item = {
 		}
 	},
 	[135] = {
-		rarity = 2,
 		name = "Lobster",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "That's a big lobster! Hey, wait, how'd you catch this, anyway?",
@@ -1025,8 +1025,8 @@ pg.child_item = {
 		}
 	},
 	[151] = {
-		rarity = 2,
 		name = "Photograph",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "A photo that has been developed. To be placed in the album for safekeeping.",
@@ -1043,8 +1043,8 @@ pg.child_item = {
 		}
 	},
 	[161] = {
-		rarity = 4,
 		name = "Trophy - Open Submissions Literary Award",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A medal awarded for participation in the Open Submissions Literary Award.",
@@ -1055,8 +1055,8 @@ pg.child_item = {
 		display = {}
 	},
 	[162] = {
-		rarity = 4,
 		name = "Trophy - Photography Contest",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A medal awarded for participation in the Photography Contest.",
@@ -1067,8 +1067,8 @@ pg.child_item = {
 		display = {}
 	},
 	[163] = {
-		rarity = 4,
 		name = "Trophy - Sports Competition",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A medal awarded for participation in the Sports Competition.",
@@ -1079,8 +1079,8 @@ pg.child_item = {
 		display = {}
 	},
 	[164] = {
-		rarity = 4,
 		name = "Trophy - Art Contest",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A medal awarded for participation in the Art Contest.",
@@ -1091,8 +1091,8 @@ pg.child_item = {
 		display = {}
 	},
 	[165] = {
-		rarity = 4,
 		name = "Trophy - Great Cook-Off",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A medal awarded for participation in the Great Cook-Off.",
@@ -1103,8 +1103,8 @@ pg.child_item = {
 		display = {}
 	},
 	[166] = {
-		rarity = 4,
 		name = "Trophy - Angling Competition",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A medal awarded for participation in the Angling Competition.",
@@ -1115,8 +1115,8 @@ pg.child_item = {
 		display = {}
 	},
 	[167] = {
-		rarity = 4,
 		name = "Trophy - Singing Competition",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A medal awarded for participation in the Singing Competition.",
@@ -1127,8 +1127,8 @@ pg.child_item = {
 		display = {}
 	},
 	[168] = {
-		rarity = 4,
 		name = "Trophy - The Star of Tomorrow Awards",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "A medal awarded for participation in The Star of Tomorrow Awards.",
@@ -1139,8 +1139,8 @@ pg.child_item = {
 		display = {}
 	},
 	[201] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 1",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+10 Money+60 Fitness+20",
@@ -1167,8 +1167,8 @@ pg.child_item = {
 		}
 	},
 	[202] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 1",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+10 Money+60 Knowledge+20",
@@ -1195,8 +1195,8 @@ pg.child_item = {
 		}
 	},
 	[203] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 1",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+10 Money+60 Charisma+20",
@@ -1223,8 +1223,8 @@ pg.child_item = {
 		}
 	},
 	[204] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 1",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+10 Money+60 Sensitivity+20",
@@ -1251,8 +1251,8 @@ pg.child_item = {
 		}
 	},
 	[205] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 2",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+15 Money+100 Fitness+100",
@@ -1279,8 +1279,8 @@ pg.child_item = {
 		}
 	},
 	[206] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 2",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+15 Money+100 Knowledge+100",
@@ -1307,8 +1307,8 @@ pg.child_item = {
 		}
 	},
 	[207] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 2",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+15 Money+100 Charisma+100",
@@ -1335,8 +1335,8 @@ pg.child_item = {
 		}
 	},
 	[208] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 2",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+15 Money+100 Sensitivity+100",
@@ -1363,8 +1363,8 @@ pg.child_item = {
 		}
 	},
 	[209] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 3",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+150 Athleticism+10 Dexterity+5 Caring+5",
@@ -1401,8 +1401,8 @@ pg.child_item = {
 		}
 	},
 	[210] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 3",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+150 Dexterity+10 Creativity+5 Expression+5",
@@ -1439,8 +1439,8 @@ pg.child_item = {
 		}
 	},
 	[211] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 3",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+150 Caring+10 Creativity+10",
@@ -1472,8 +1472,8 @@ pg.child_item = {
 		}
 	},
 	[212] = {
-		rarity = 3,
 		name = "Growth Goal Completion Award – 3",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+150 Expression+10 Musicality+10",
@@ -1505,8 +1505,8 @@ pg.child_item = {
 		}
 	},
 	[213] = {
-		rarity = 4,
 		name = "Growth Goal Completion Award – 4",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+200 Athleticism+30",
@@ -1533,8 +1533,8 @@ pg.child_item = {
 		}
 	},
 	[214] = {
-		rarity = 4,
 		name = "Growth Goal Completion Award – 4",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+200 Creativity+30",
@@ -1561,8 +1561,8 @@ pg.child_item = {
 		}
 	},
 	[215] = {
-		rarity = 4,
 		name = "Growth Goal Completion Award – 4",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+200 Caring+30",
@@ -1589,8 +1589,8 @@ pg.child_item = {
 		}
 	},
 	[216] = {
-		rarity = 4,
 		name = "Growth Goal Completion Award – 4",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+200 Dexterity+30 ",
@@ -1617,8 +1617,8 @@ pg.child_item = {
 		}
 	},
 	[217] = {
-		rarity = 4,
 		name = "Growth Goal Completion Award – 4",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+200 Musicality+30",
@@ -1645,8 +1645,8 @@ pg.child_item = {
 		}
 	},
 	[218] = {
-		rarity = 4,
 		name = "Growth Goal Completion Award – 4",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a growth goal.\nMood+20 Money+200 Caring+30",
@@ -1673,8 +1673,8 @@ pg.child_item = {
 		}
 	},
 	[301] = {
-		rarity = 1,
 		name = "Main Goal Completion Award",
+		rarity = 1,
 		type = 4,
 		is_show = 1,
 		desc = "An award for completing a main goal. All stats +1.",
@@ -1706,8 +1706,8 @@ pg.child_item = {
 		}
 	},
 	[302] = {
-		rarity = 1,
 		name = "Growth Goal Points",
+		rarity = 1,
 		type = 4,
 		is_show = 0,
 		desc = "Points awarded for completing set growth goals.",

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.05
+					number = 0.05,
+					attr = "cri"
 				}
 			}
 		}
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 610
+					number = 610,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.061
+					number = 0.061,
+					attr = "cri"
 				}
 			}
 		}
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 720
+					number = 720,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.072
+					number = 0.072,
+					attr = "cri"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 830
+					number = 830,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.083
+					number = 0.083,
+					attr = "cri"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 940
+					number = 940,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.094
+					number = 0.094,
+					attr = "cri"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1050
+					number = 1050,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.105
+					number = 0.105,
+					attr = "cri"
 				}
 			}
 		}
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1160
+					number = 1160,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.116
+					number = 0.116,
+					attr = "cri"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1270
+					number = 1270,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.127
+					number = 0.127,
+					attr = "cri"
 				}
 			}
 		}
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1380
+					number = 1380,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.138
+					number = 0.138,
+					attr = "cri"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1500
+					number = 1500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -243,20 +243,20 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.15
+					number = 0.15,
+					attr = "cri"
 				}
 			}
 		}
 	},
-	time = 10,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 15162,
+	time = 10,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15162,
+	color = "red",
 	icon = 15160,
 	last_effect = "",
 	blink = {
@@ -274,8 +274,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -284,8 +284,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.05
+				number = 0.05,
+				attr = "cri"
 			}
 		}
 	}

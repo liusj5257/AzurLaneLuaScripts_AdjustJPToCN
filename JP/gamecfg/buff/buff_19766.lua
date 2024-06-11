@@ -129,14 +129,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "red",
+	id = 19766,
+	time = 0,
 	picture = "",
 	desc = "增加一门100%效率的防空武器",
 	stack = 1,
-	id = 19766,
+	color = "red",
 	icon = 19760,
 	last_effect = "",
 	blink = {

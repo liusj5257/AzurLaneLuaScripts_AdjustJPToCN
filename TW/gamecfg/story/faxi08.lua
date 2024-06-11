@@ -1,9 +1,9 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI08",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI08",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
@@ -25,9 +25,9 @@ return {
 		{
 			actor = 105190,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			say = "這個炮彈是…大口徑的戰列艦炮彈，是那個大傢伙嗎？",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -86,8 +86,8 @@ return {
 		{
 			actor = 107040,
 			side = 1,
-			dir = 1,
 			say = "讓·巴爾",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -133,9 +133,9 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			bgm = "story-masazhusai",
-			dir = 1,
 			say = "我的職責就是盡可能的消除敵方帶來的威脅，減少登陸部隊的犧牲",
+			dir = 1,
+			bgm = "story-masazhusai",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,8 +180,8 @@ return {
 			say = "等等我！！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			say = "我..我來為妳們護航！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

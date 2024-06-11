@@ -7,11 +7,11 @@ slot4 = class("BattleAutoMissileUnit", slot0.Battle.BattleWeaponUnit)
 slot0.Battle.BattleAutoMissileUnit = slot4
 slot4.__name = "BattleAutoMissileUnit"
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot4.createMajorEmitter(slot0, slot1, slot2, slot3)
+slot4.createMajorEmitter = function(slot0, slot1, slot2, slot3)
 	slot6 = uv2.Battle[slot3 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4, uv2.INTERNAL)
 
@@ -43,6 +43,6 @@ function slot4.createMajorEmitter(slot0, slot1, slot2, slot3)
 	return slot6
 end
 
-function slot4.Tracking(slot0)
+slot4.Tracking = function(slot0)
 	return uv0.TargetWeightiest(slot0, nil, slot0:GetFilteredList())[1]
 end

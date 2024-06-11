@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINANFENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XINANFENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Gust of Motivation!\n\n<size=45>5 The Great Friendship Operation</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "I always knew that Libeccio was friendly and outgoing, but I had no idea she already managed to make so many friends.",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "I always knew that Libeccio was friendly and outgoing, but I had no idea she already managed to make so many friends.",
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,10 +48,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's the power of the secretary ship! I get to meet all sorts of shipgirls, so of course we'd get to know each other!",
 			painting = {
 				alpha = 0.3,
@@ -66,10 +66,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I want everyone to be friends with Maestrale too...",
 			painting = {
 				alpha = 0.3,
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Everyone here is so nice though... I'm sure if they got to know her better, they'd get along just fine!",
 			painting = {
 				alpha = 0.3,
@@ -149,10 +149,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And that's where I come in!",
 			painting = {
 				alpha = 0.3,
@@ -164,8 +164,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I want to introduce all my friends to Maestrale! What do you think of that, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ehehe, first of all is Z23! She might be the serious type, but she's also caring and reliable! I've learned all sorts of things from her!",
 			painting = {
 				alpha = 0.3,
@@ -227,10 +227,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Laffey is... always so warm and fuzzy! When I'm with her, she always makes me feel warm and fuzzy as well!",
 			painting = {
 				alpha = 0.3,
@@ -245,10 +245,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Plus, she knows where the best napping spots are!",
 			painting = {
 				alpha = 0.3,
@@ -272,10 +272,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ayanami loves to play games, and she's super good at them too! The two of us play all sorts of games together!",
 			painting = {
 				alpha = 0.3,
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -300,10 +300,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Playing games together is always a great way to meet lots of people!",
 			painting = {
 				alpha = 0.3,
@@ -327,10 +327,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Javelin is super nice and outgoing, and she's just so easy to get along with!",
 			painting = {
 				alpha = 0.3,
@@ -354,10 +354,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's right! You really understand everyone too, Commander!",
 			painting = {
 				alpha = 0.3,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -382,10 +382,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As for my other friends... Hmm, there are so many nice girls here, I don't know who to introduce to Maestrale next!",
 			painting = {
 				alpha = 0.3,
@@ -400,10 +400,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Do you have any suggestions, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -427,10 +427,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Everyone? I see, that's a great idea!",
 			painting = {
 				alpha = 0.3,
@@ -445,10 +445,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thanks for the advice, Commander! I should go see what a good time is for everyone...",
 			painting = {
 				alpha = 0.3,
@@ -460,9 +460,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
+			blackBg = true,
 			say = "Seeing Libeccio's bright expression, I couldn't help but cheer for her operation to be a huge success.",
 			typewriter = {
 				speed = 0.05,

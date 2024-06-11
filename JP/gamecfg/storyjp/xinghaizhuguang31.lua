@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-dailyfuture",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "グアム発案のパラエティ…艦船たちと「ギンギツネ」の探り合いは後半に突入した。",
-			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "ルールに従い、今度はコンステレーションが質問に答える番だ。",
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "今はセイレーンとの戦いでそんな余裕もないから……",
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうなの。外向けには一応「内湖艦隊」ということになってるわ",
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これは答えられるよ",
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そしてセイレーンとの戦いの大きな転換点にもなった",
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "私たち「艦船」はキューブから生み出され、キューブの力でセイレーンと戦ってきたの",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "極めて希少な鉱物が必要だから、製造数がとても少ない",
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……少しまとめるのが難しいから、代わりにグアムに答えさせてもいい？",
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（余計なことは喋らないでね）",
@@ -598,11 +598,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（わ、分かってるって！）",
@@ -654,11 +654,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "例えばピュリファイアー、テスター、オミッター、コンパイラー、オブザーバー…とか",
@@ -710,11 +710,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それから上位個体より更に上にいるのは神出鬼没のアビータと、それに従うエンフォーサー",
@@ -766,11 +766,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "勝っても損害は大きいだろうし、負けたら……あまり言わないほうが良さそうね",
@@ -784,8 +784,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（「曙光計画」……指揮官が北方連合で回収した「曙光」の資料のことだよね…なら…）",
@@ -1076,8 +1076,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "コンステレーションは一瞬耳を疑った。",
@@ -1087,8 +1087,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "ついさっきまで落ち着いて自信に満ちていたはずの「ギンギツネ」の声が震えているように聞こえた。",
@@ -1098,8 +1098,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "緊張、興奮、不安――まるで自分の高ぶる感情を必死に抑えているかのような――",
@@ -1192,8 +1192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "最後の質問の内容、真意、答え方…脳内で必死にシミュレートしてきたコンステレーションは意表を突かれた。",
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "適当に聞いた質問とはとても思えない。",
@@ -1252,11 +1252,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どこにあるのか知らないし、最近の状況ももちろん…",
@@ -1283,8 +1283,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "機械によって処理された声からでも、コンステレーションは「ギンギツネ」の失望と悲しみを感じ取れた。",
@@ -1294,11 +1294,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……ええと、そこはあなたの故郷か何か…？",
@@ -1344,11 +1344,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大丈夫。これはあくまでパラエティ…つまりゲームだから",
@@ -1362,11 +1362,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ゲームだから余裕があって、そしてルールも融通が効くべき",
@@ -1393,8 +1393,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "通信機からの音が一瞬途切れた。",
@@ -1487,8 +1487,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "……通信機の向こうから何も返ってくることはなかった。",
@@ -1520,10 +1520,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			portrait = 9706030,
-			dir = 1,
-			actorName = "プリンストン(META)",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 9706030,
+			actorName = "プリンストン(META)",
 			hidePaintObj = true,
 			say = "みんな、もう大丈夫？メダルを持ってきたわよ",
 			painting = {
@@ -1539,10 +1539,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			portrait = 9706030,
-			dir = 1,
-			actorName = "プリンストン(META)",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 9706030,
+			actorName = "プリンストン(META)",
 			hidePaintObj = true,
 			say = "それと一ついいニュースも！",
 			painting = {
@@ -1555,14 +1555,14 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "邪魔してごめんなさい。もうクイズゲームは終わった？",
 			bgm = "theme-ucnf-image",
+			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "邪魔してごめんなさい。もうクイズゲームは終わった？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1572,17 +1572,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1625,10 +1625,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい、レディ。ビーコンの修理と浄化が無事完了した",
 			painting = {
 				alpha = 0.3,
@@ -1705,10 +1705,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "レディ。大丈夫？",
 			painting = {
 				alpha = 0.3,
@@ -1733,8 +1733,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "「ギンギツネ」から許可を得て、「プリンストン」はビーコンの起動ボタンに指をかけた。",
@@ -1744,8 +1744,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "ボタンを軽く押すと――",
@@ -1755,28 +1755,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_5",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "理事会艦隊、廃墟の海、フォートレス、もうひとりの「プリンストン」――",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1784,8 +1784,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			say = "艦船たちの周りにあった全てが一瞬で消え去り、そして…",
@@ -1795,8 +1795,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			say = "辺りの風景は見慣れた世界に変わった。",
@@ -1806,11 +1806,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "擬似空間「珊瑚海」……？",
@@ -1843,11 +1843,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ええと、一体何があったの…？あんなに大きい艦隊が…",
@@ -1861,11 +1861,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……あのビーコンとなにか関係があるかも…",
@@ -1956,11 +1956,11 @@ return {
 		{
 			portrait = 107230,
 			side = 2,
-			bgName = "bg_zhuguang_5",
 			factiontag = "兵装設計部",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_zhuguang_5",
 			actorName = "プリンストン",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Zzz…サラトガさん…アラスカさん……指揮官…歓迎会…ちょっと豪華すぎるよ…Zzzz",
 			painting = {
@@ -1972,17 +1972,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1995,8 +1995,8 @@ return {
 			bgName = "bg_zhuguang_5",
 			factiontag = "兵装設計部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "プリンストン",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えへへへ………Zzzz",
 			painting = {
@@ -2009,11 +2009,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……寝てるわね…",
@@ -2084,11 +2084,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（月の土壌、「星の海」、キューブ、セイレーン…ここまで4つの質問をされて、その中で3つ答えた）",
@@ -2178,11 +2178,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……そうね",
@@ -2196,8 +2196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -2401,8 +2401,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -2418,12 +2418,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			nameColor = "#A9F548FF",
 			bgm = "theme-shallowoftheworld",
+			say = "？？？·？？？",
 			effects = {
 				{
 					active = false,

@@ -1,12 +1,12 @@
 return {
-	id = "W611001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W611001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The Siren Stronghold has been dealt with. Leave the zone either by moving a fleet outside the map boundary, or by using a Transference Device.",
 			painting = {
 				alpha = 0.3,

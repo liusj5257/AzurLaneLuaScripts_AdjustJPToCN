@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大大大大好きアタック！\n\n<size=45>六 輝きは星とともに</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-1",
 			bgName = "bg_night",
 			say = "澄んだ夜空の下で、約束の場所にたどり着いた。",
-			bgm = "story-richang-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "ブリュッヒャーに誘われ、今日は二人で夜デートを決行した。",
 			typewriter = {
@@ -55,22 +55,22 @@ return {
 			}
 		},
 		{
-			actor = 403020,
-			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "にゃは☆指揮官、こんばんは！",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "にゃは☆指揮官、こんばんは！",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "こっちも特に予定はなかったので、迷惑ではないが……",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "満天の星に照らされた母港。重桜寮の隣でやっている屋台にブリュッヒャーと一緒に訪れた。",
 			typewriter = {
@@ -178,17 +178,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -196,14 +196,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "タコヤキにテンプラにタイヤキ！それとオデンも！",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "タコヤキにテンプラにタイヤキ！それとオデンも！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "食べながら歩いていくうちに、いつの間にか彼女が住む鉄血寮の前に戻ってきた。",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "昼の仕事で溜まった疲れが、夜の楽しいデートを経てすっかり消えてなくなった。",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "腕を広げて、こちらに向けて手をのばす。",
 			typewriter = {
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

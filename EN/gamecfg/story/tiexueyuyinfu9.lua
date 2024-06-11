@@ -1,18 +1,18 @@
 return {
-	id = "TIEXUEYUYINFU9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "TIEXUEYUYINFU9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 0,
+			dir = -1,
+			bgm = "bsm-3",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = -1,
 			say = "It's time to put an end to this!",
-			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,9 +26,9 @@ return {
 			actor = 207020,
 			nameColor = "#a9f548",
 			side = 1,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "You're not going anywhere! 818 Squadron, take aim!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "Torpedoes... from my blind spot...?!",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "I won't... be able to avoid them in time...!",
 			typewriter = {
 				speed = 0.05,
@@ -73,11 +73,11 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = -1,
+			soundeffect = "event:/battle/boom2",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = -1,
 			say = "They damaged my propeller...? No... they hit my rigging?",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -188,8 +188,8 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "... No.",
 			typewriter = {
 				speed = 0.05,
@@ -219,11 +219,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-8",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = 1,
 			say = "This will not be where I meet my end...!",
-			bgm = "bsm-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,8 +237,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "Even though I've failed in my mission, even though I've lost my maneuverability...",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			actor = 405010,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "I still have comrades I must protect, and a dream I must make true...!",
 			typewriter = {
 				speed = 0.05,
@@ -268,11 +268,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/cannon-main-prepared",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = 1,
 			say = "I still have my power...!",
-			soundeffect = "event:/cannon-main-prepared",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "I will fight to the last shell!",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 4,
 			side = 2,
 			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Long live Iron Blood!",
 			effects = {
 				{

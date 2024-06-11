@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE18",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？ ？ ？ ·？ ？ ？",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
+			say = "？ ？ ？ ·？ ？ ？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -23,9 +23,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -38,9 +38,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "企業緊跟著皇家方舟的幻影，來到了一片全新的區域。",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "白鷹、皇家、重櫻、鐵血…居然有這麼多人在這裡？",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "簡直像記錄裡的碧藍航線成立大會一樣。大家上一次這麼聚在一起，是多久之前了呢……",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "噢？ ！重櫻的各位也來了……只有妳們到了嗎？",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "………伊莉莎白陛下那邊暫時無法脫身，我們還在努力中…",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "大家打起精神來，我們不是還有企業在這裡嘛！今後的事，一切都會好起來的…！",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "……名字？",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "？ ！ ！ “它們”難道是！",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_banama_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "喂！到底是怎麼回事，妳們打算做什麼？ ！",
 			dialogShake = {
 				speed = 0.09,
@@ -298,9 +298,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "當然，企業的提問沒有得到任何幻影的回應。",
 			typewriter = {
 				speed = 0.05,

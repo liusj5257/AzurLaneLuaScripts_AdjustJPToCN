@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"謳歌平穩的日常\n\n<size=45>五　外出日</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "和謝菲爾德、紐卡斯爾一起外出購物",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "和謝菲爾德、紐卡斯爾一起外出購物",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "有種被謝菲爾德當作小孩拜託給紐卡斯爾的感覺……",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "保險……？",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "紐卡斯爾一邊說著，一邊打開了平時隨身攜帶的傘。",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "逐漸靠近這邊，用雨傘擋住了我和她頭頂的太陽",
 			typewriter = {
 				speed = 0.05,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "——因為大家都是守護平穩日常的最重要的夥伴呢",
 			typewriter = {
 				speed = 0.05,

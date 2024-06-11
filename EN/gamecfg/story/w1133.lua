@@ -1,12 +1,12 @@
 return {
-	id = "W1133",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1133",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "We salvaged some drifting objects and obtained some information.To the south of this sector is...",
 			typewriter = {
 				speed = 0.05,

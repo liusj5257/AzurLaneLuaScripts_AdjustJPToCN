@@ -4,32 +4,32 @@ slot0.optionsPath = {
 }
 slot0.SHOP = "SixthAnniversaryIslandScene.SHOP"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SixthAnniversaryIslandUI"
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.setNodeIds(slot0, slot1)
+slot0.setNodeIds = function(slot0, slot1)
 	slot0.ids = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	setText(slot0.rtResPanel:Find("tpl/Text"), slot0.player:getResById(350) or 0)
 end
 
-function slot0.setResDrop(slot0, slot1, slot2)
+slot0.setResDrop = function(slot0, slot1, slot2)
 	slot0.resDrop = slot1
 	slot0.resDailyNumber = slot2
 
 	setText(slot0.rtResPanel:Find("tpl_2/Text"), slot1.count or 0)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtTop = slot1:Find("top")
 	slot1 = pg.UIMgr.GetInstance()
@@ -214,7 +214,7 @@ function slot0.init(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.onDragFunction(slot0)
+slot0.onDragFunction = function(slot0)
 	if not uv0.screenPoints then
 		uv0.screenPoints = {
 			Vector2(-slot0.delta.x, slot0.delta.y),
@@ -258,7 +258,7 @@ function slot0.onDragFunction(slot0)
 	end
 end
 
-function slot0.focus(slot0, slot1, slot2, slot3)
+slot0.focus = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.nodeItemList.container:Find(slot1)
 
 	if not slot3 then
@@ -295,7 +295,7 @@ function slot0.focus(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.triggerNode(slot0, slot1)
+slot0.triggerNode = function(slot0, slot1)
 	if getProxy(IslandProxy):GetNode(slot1):IsNew() then
 		slot0:emit(SixthAnniversaryIslandMediator.MARK_NODE_AFTER_NEW, slot1)
 	end
@@ -309,7 +309,7 @@ function slot0.triggerNode(slot0, slot1)
 	end
 end
 
-function slot0.triggerEvent(slot0, slot1)
+slot0.triggerEvent = function(slot0, slot1)
 	assert(slot1.eventId and slot1.eventId ~= 0)
 	switch(IslandEvent.New({
 		id = slot1.eventId
@@ -362,7 +362,7 @@ function slot0.triggerEvent(slot0, slot1)
 	end)
 end
 
-function slot0.afterTriggerEvent(slot0, slot1)
+slot0.afterTriggerEvent = function(slot0, slot1)
 	if slot0.proxy:GetNode(slot1):IsCompleted() then
 		underscore.each(slot0.ids, function (slot0)
 			uv0:refreshNode(slot0)
@@ -378,7 +378,7 @@ function slot0.afterTriggerEvent(slot0, slot1)
 	end
 end
 
-function slot0.refreshNode(slot0, slot1)
+slot0.refreshNode = function(slot0, slot1)
 	slot4 = getProxy(IslandProxy):GetNode(slot1):IsVisual()
 
 	setActive(slot0.nodeItemList.container:Find(slot1):Find("click"), slot4)
@@ -434,7 +434,7 @@ function slot0.refreshNode(slot0, slot1)
 	triggerToggle(slot2, slot0.selectId == slot1 and slot3:CanToggleOn())
 end
 
-function slot0.refreshDailyPanel(slot0)
+slot0.refreshDailyPanel = function(slot0)
 	slot0.dailyIds = underscore.select(slot0.ids, function (slot0)
 		return (uv0.proxy:GetNode(slot0):IsRefresh() or slot1:IsFlowerField()) and slot1:IsVisual()
 	end)
@@ -449,7 +449,7 @@ function slot0.refreshDailyPanel(slot0)
 	slot0:onDragFunction()
 end
 
-function slot0.focusList(slot0, slot1, slot2, slot3)
+slot0.focusList = function(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in ipairs(slot1) do
 		if slot0.proxy:GetNode(slot8):IsVisual() then
 			slot0:focus(slot8, slot2, slot3)
@@ -461,7 +461,7 @@ function slot0.focusList(slot0, slot1, slot2, slot3)
 	return false
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.nodeItemList:align(#slot0.ids)
 	slot0:refreshDailyPanel()
 	slot0:updateTaskTip()
@@ -540,11 +540,11 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.updateTaskTip(slot0)
+slot0.updateTaskTip = function(slot0)
 	setActive(slot0.rtTop:Find("btns/btn_note/tip"), getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.ISLAND_TASK_ID))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtTop, slot0._tf)
 	slot0.rtMap:GetComponent(typeof(ScrollRect)).onValueChanged:RemoveAllListeners()
 

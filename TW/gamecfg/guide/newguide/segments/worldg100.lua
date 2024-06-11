@@ -28,9 +28,9 @@ return {
 			style = {
 				text = "在當前海域壓制完成後，可以點擊海域地圖外區域進入作戰總覽介面。",
 				mode = 2,
-				posY = -160,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -160,
 				posX = -460
 			},
 			showSign = {
@@ -71,9 +71,9 @@ return {
 			style = {
 				text = "每成功壓制一片海域，周邊可探索海域就會增加。現在已經可以前往帶有主線任務標識的海域了！",
 				mode = 2,
-				posY = -150,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -150,
 				posX = 100
 			}
 		},
@@ -82,9 +82,9 @@ return {
 			style = {
 				text = "請點擊此處返回作戰海域中。",
 				mode = 2,
-				posY = 245.23,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 245.23,
 				posX = -552.4
 			},
 			ui = {
@@ -93,11 +93,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -76.32,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 238.9,
-					rotateY = 0
+					posX = -76.32
 				}
 			}
 		},

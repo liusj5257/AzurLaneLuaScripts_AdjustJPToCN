@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401350,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "에, Z35는 참가할 수 없는 거야?",
 			bgm = "azumaster-ins",
+			actor = 401350,
+			nameColor = "#a9f548",
+			say = "에, Z35는 참가할 수 없는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 401360,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401360,
+			nameColor = "#a9f548",
 			say = "마안을 가진 자의 숙명인 것인가…… 아아, 라이브를 하고 싶어!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 401360,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401360,
+			nameColor = "#a9f548",
 			say = "오오! 좋은 생각이야!",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,14 +198,14 @@ return {
 			}
 		},
 		{
-			actor = 307100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307100,
+			nameColor = "#a9f548",
 			say = "(가스코뉴의 감정 모듈……은 생각인 것 같네.)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "응? 뭘 보고 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -293,9 +293,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "메탈 블러드의 SNS… 남의 화면 훔쳐보지 마.",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -320,8 +320,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "아 미안, 미안! 아무것도 못 봤어! … 그런데 그거, 요즘 유행하고 있구나.",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "새러토가가 아이돌이라면 반드시 해야 하는 것이라고 했기에, 요즘 모두가 많이 시작하고 있습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "공개적인 곳에 개인정보 공개, 유효성 판단 불가.",
 			typewriter = {
 				speed = 0.05,
@@ -413,8 +413,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

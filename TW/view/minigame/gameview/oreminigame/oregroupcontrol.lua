@@ -1,6 +1,6 @@
 slot0 = class("OreGroupControl")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.binder = slot1
 	slot0._tf = slot2
 	slot0.collisionMgr = slot3
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:AddListener()
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	slot1 = slot0.binder
 
 	slot1:bind(OreGameConfig.EVENT_ORE_NEW, function (slot0, slot1)
@@ -28,7 +28,7 @@ function slot0.AddListener(slot0)
 	end)
 end
 
-function slot0.NewOre(slot0, slot1, slot2)
+slot0.NewOre = function(slot0, slot1, slot2)
 	if not findTF(slot0.oresTF, slot1) then
 		slot3, slot4 = slot0:GetNewOreConfig()
 		slot5 = slot0:GetOre(slot3)
@@ -47,7 +47,7 @@ function slot0.NewOre(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	for slot4, slot5 in pairs(slot0.oreList) do
 		slot5:Dispose()
 	end
@@ -63,7 +63,7 @@ function slot0.Reset(slot0)
 	removeAllChildren(slot0.poolTF)
 end
 
-function slot0.GetNewOreConfig(slot0)
+slot0.GetNewOreConfig = function(slot0)
 	if slot0.count == OreGameConfig.DIAMOND_CONFIH.count then
 		slot2 = math.random() < OreGameConfig.DIAMOND_CONFIH.probability[1] and 7 or 8
 		slot0.count = 0
@@ -76,13 +76,13 @@ function slot0.GetNewOreConfig(slot0)
 	return slot1, slot2
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.oreList) do
 		slot6:OnTimer(slot1)
 	end
 end
 
-function slot0.GetOre(slot0, slot1)
+slot0.GetOre = function(slot0, slot1)
 	if slot0.pools[slot1] and #slot0.pools[slot1] > 0 then
 		return table.remove(slot0.pools[slot1])
 	end
@@ -90,7 +90,7 @@ function slot0.GetOre(slot0, slot1)
 	return tf(Instantiate(findTF(slot0.tpls, "tpl_" .. slot1)))
 end
 
-function slot0.ReturnOre(slot0, slot1, slot2)
+slot0.ReturnOre = function(slot0, slot1, slot2)
 	if not slot0.pools[slot2] then
 		slot0.pools[slot2] = {}
 	end

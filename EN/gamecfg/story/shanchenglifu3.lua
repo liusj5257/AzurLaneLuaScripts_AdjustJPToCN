@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Special Banquet\n\n<size=45>Chapter 3: Cleveland Enters!</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			say = "Port - Outside the Gymnasium",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102092,
+			nameColor = "#a9f548",
 			say = "No no, it's definitely weird that I'm the only one wearing a suit...",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 		{
 			bgName = "bg_story_litang",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -267,13 +267,13 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "It's... magnificent!",
 			bgm = "story-1",
+			actor = 102092,
+			nameColor = "#a9f548",
+			say = "It's... magnificent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,14 +302,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 207032,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Victorious, I'll entrust that to you~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "Ahaha... Your dress definitely lives up to your name, Illustrious.",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahaha... Your dress definitely lives up to your name, Illustrious.",
+			actor = 102092,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -423,8 +423,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Unicorn, Hiei asked me to make sure all the guests are taken care of, so I have to make a few more rounds. Will you be fine by yourself?",
 			typewriter = {
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			actor = 206030,
+			say = "Mm... Unicorn will be a good girl and wait here for Big Brother...",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Mm... Unicorn will be a good girl and wait here for Big Brother...",
+			actor = 206030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -460,8 +460,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Hehe... Unicorn, you're sticking to Commander as always.",
 			typewriter = {
@@ -524,12 +524,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "Huh? Isn't that Enterprise over there? She seems to be in a good mood, so that means Essex is probably here too.",
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Huh? Isn't that Enterprise over there? She seems to be in a good mood, so that means Essex is probably here too.",
+			actor = 102092,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -547,8 +547,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "That's true. Essex is an excellent mentee, after all, so she's been in high spirits for a while.",
 			typewriter = {
@@ -577,12 +577,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "Hmm... It's so glamorous that I feel out of place...",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm... It's so glamorous that I feel out of place...",
+			actor = 102092,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -616,8 +616,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Hehe~ I'm glad to hear that.",
 			typewriter = {
@@ -633,8 +633,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "For the time being, I need to continue making rounds, since the ball will begin when Commander gets here. You might have a pretty busy night ahead of you, Cleveland~",
 			typewriter = {
@@ -663,11 +663,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "Ah! Cleve! Over here!",
 			typewriter = {
 				speed = 0.05,
@@ -679,8 +679,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -705,12 +705,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102092,
+			nameColor = "#a9f548",
 			say = "Right. See you later.",
 			typewriter = {
 				speed = 0.05,

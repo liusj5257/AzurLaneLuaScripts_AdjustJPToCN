@@ -1,6 +1,6 @@
 slot0 = class("ModifyGuildInfoCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = getProxy(PlayerProxy):getData()
 	slot5 = pg.gameset.modify_guild_cost.key_value
@@ -11,7 +11,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	function slot6()
+	slot6 = function()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(60026, {

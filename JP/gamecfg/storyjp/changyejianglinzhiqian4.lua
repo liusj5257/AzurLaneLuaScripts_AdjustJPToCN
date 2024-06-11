@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,26 +31,26 @@ return {
 			}
 		},
 		{
-			bgm = "story-roma-outside",
+			hidePaintEquip = true,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 1,
+			bgm = "story-roma-outside",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヴィシア聖座所属の重巡洋艦・フォッシュは休憩室のモップかけに勤しんでいる。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "一方、窓際に座っている軽空母・ジョッフルは、我関せずと一心不乱に本を読んでいる。",
 			hidePaintEquip = true,
+			say = "一方、窓際に座っている軽空母・ジョッフルは、我関せずと一心不乱に本を読んでいる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,14 +133,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "十分に掃除されていると思います",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "十分に掃除されていると思います",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "来ないって……はて、これは審判廷の内部からすでになにか情報が上がってきたのかな？",
 			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "来ないって……はて、これは審判廷の内部からすでになにか情報が上がってきたのかな？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,14 +188,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "違います。ただ、最近の出来事から推測しましたので",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "違います。ただ、最近の出来事から推測しましたので",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,14 +225,14 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 903010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "確か……サディアを観光しているんだったかな？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,14 +243,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 903010,
-			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "明後日、つまり閉幕式の直前に会場に来る予定だが",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,14 +261,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "そう。ケルサンはいつ到着しますか？",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "そう。ケルサンはいつ到着しますか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,14 +355,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ケルサンはクレマンソー様の側近です。クレマンソー様と別行動するなんて普通ありません",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ケルサンはクレマンソー様の側近です。クレマンソー様と別行動するなんて普通ありません",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,14 +373,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "普通ありませんが、ただ……",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "普通ありませんが、ただ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,14 +410,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "以前あの子はトゥーロンの「再現」に参加していました",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "以前あの子はトゥーロンの「再現」に参加していました",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,14 +447,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "そして数日前に、ジャン・バール様もクレマンソー様に依頼され、トゥーロンに向かいました",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "そして数日前に、ジャン・バール様もクレマンソー様に依頼され、トゥーロンに向かいました",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,11 +468,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 903010,
-			say = "なるほど？確かに気になるところがないわけでもないね。…それで？ぼくはどうすればいい？",
 			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "なるほど？確かに気になるところがないわけでもないね。…それで？ぼくはどうすればいい？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,14 +498,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "そして――",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "そして――",
 			painting = {
 				alpha = 0.3,
 				time = 1

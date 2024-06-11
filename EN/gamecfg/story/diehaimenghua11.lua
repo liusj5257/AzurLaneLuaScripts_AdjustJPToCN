@@ -1,15 +1,15 @@
 return {
-	id = "DIEHAIMENGHUA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "DIEHAIMENGHUA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "In the night, gossamer sheets of blue silk fluttered towards the flames burning upon the ocean's surface.",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "(...The one who goes by \"Ember\"...)",
 			typewriter = {
 				speed = 0.05,
@@ -53,13 +53,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 306090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "L-Lady Shinano?!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "(Kashino... Chitose, and Chiyoda...? My dreams did not show them as being present at the ritual...)",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "(Has reality began to bleed into the Dreamworld?)",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 306090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Yeah, and just as soon as we managed to mop up the Sirens, a brand new enemy showed up!",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			say = "I have no idea if it's some new Siren weapon, but it looks different than anything we've faced before...",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			say = "The others are trying to hold them back, but enemies keep pouring at us...",
 			typewriter = {
 				speed = 0.05,
@@ -232,8 +232,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "Um, Lady Shinano, there appears to be some misunderstanding. We didn't retreat from the front lines.",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "Mikasa surmised that the enemy's objective was to completely sever the ceremony by destroying Watatsumi, so we were ordered to take Watatsumi to a safe place.",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "\"...This one shall hold back the enemy. See to it that Watatsumi is kept safe.\"",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "Very well. Good luck, Lady Shinano.",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +310,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 306080,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Huh? Lady Shinano herself is going to fight by herself...?",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "\"...Very well.\"",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA18",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			actor = 302210,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Soulless puppets! Begone!",
-			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "We've swept this sector clean! Come on, we must hurry to the next one and provide support!",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "They might be after the First and Fifth Carrier Divisions and Mikasa. But no matter what they're after or what they do, they shall not have it.",
 			typewriter = {
 				speed = 0.05,
@@ -72,9 +72,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 302210,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Of course not. We'll fight to the last... Wh-What's happening to the sky?!",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,9 +98,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "It's... turning purple?!",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "That doesn't seem to be all... Our instruments are starting to malfunction.",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "What's happening...?!",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "Kinu! Kasumi! Are you okay?!",
 			typewriter = {
 				speed = 0.05,
@@ -195,16 +195,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:181}",
-			bgName = "bg_xinnong_cg5",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			bgName = "bg_xinnong_cg5",
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'm fine. We took care of all the mass-produced units in our sector, then rushed over here when we spotted your recon planes.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -229,12 +229,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg5",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:181}",
+			hidePaintObj = true,
 			say = "Abnormal weather phenomena, loss of communication with the outside... it's just like what the records said...",
 			typewriter = {
 				speed = 0.05,
@@ -246,12 +246,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg5",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:181}",
+			hidePaintObj = true,
 			say = "But there's one key difference. Previously, Mirror Seas were known to only occur over water. There have been no instances of them covering the land as well.",
 			typewriter = {
 				speed = 0.05,
@@ -263,12 +263,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg5",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:181}",
+			hidePaintObj = true,
 			say = "We may not be able to stop this Mirror Sea merely by defeating the Sirens this time. Ryuuhou, what should we do next?",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			actorName = "{namecode:179}",
 			say = "There's no time to think about that. The next wave of attacks is coming our way already.",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			actorName = "{namecode:50}",
 			say = "This area is surrounded by reefs... There's no way the Sirens should have been able to cross from underwater, so how did they...",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			actorName = "{namecode:179}",
 			say = "Kasumi, Suruga, come with me to assess the situation. The rest of you, establish a defensive line here!",
 			typewriter = {
@@ -331,11 +331,11 @@ return {
 			}
 		},
 		{
-			actorName = "Everyone",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "Everyone",
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "Aye aye!",
 			typewriter = {
 				speed = 0.05,

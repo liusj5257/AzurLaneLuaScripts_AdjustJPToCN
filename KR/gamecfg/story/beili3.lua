@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼성인은 '노력해'!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 학교",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 학교",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "사무처리에 시간을 뺏겨버린 탓에, 업무를 끝낼 땐 이미 밤이 어둑어둑해졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "이건 베일리와……?",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 303080,
+			say = " '씨' 는 안 붙여도 돼. 따, 딱히 너랑 친해지고 싶은 마음은……",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = " '씨' 는 안 붙여도 돼. 따, 딱히 너랑 친해지고 싶은 마음은……",
+			actor = 303080,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#92fc63",
 			say = "그치만……",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#92fc63",
 			say = "오오!",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 303080,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 303080,
+			nameColor = "#92fc63",
 			say = "연습이 아니라, 적당히 시간을 떼우는 것뿐이야! 흥, 나 같은 천재에겐 연습 따위 필요 없는걸!",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#92fc63",
 			say = "에이 쑥쓰럽게~ 에헤헤",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#92fc63",
 			say = "얏호!",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,

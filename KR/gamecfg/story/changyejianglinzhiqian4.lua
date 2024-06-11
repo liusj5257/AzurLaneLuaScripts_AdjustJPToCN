@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,26 +31,26 @@ return {
 			}
 		},
 		{
-			bgm = "story-roma-outside",
+			hidePaintEquip = true,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 1,
+			bgm = "story-roma-outside",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "비시아 성좌 소속 중순양함 포슈가 휴게실에서 열심히 걸레질을 하고 있다.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "한편 경항공모함 조프르는 창가에 앉아 시간 가는 줄 모르고 일심불란하게 책을 읽고 있다.",
 			hidePaintEquip = true,
+			say = "한편 경항공모함 조프르는 창가에 앉아 시간 가는 줄 모르고 일심불란하게 책을 읽고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,14 +133,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "충분히 깨끗한 상태라고 봅니다.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "충분히 깨끗한 상태라고 봅니다.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "안 오신다니…… 그거 혹시 심판정 내부에서 도는 정보 같은 거야?",
 			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "안 오신다니…… 그거 혹시 심판정 내부에서 도는 정보 같은 거야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,14 +188,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "아뇨. 그냥 요새 있었던 일들로 미루어 짐작한 거예요.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "아뇨. 그냥 요새 있었던 일들로 미루어 짐작한 거예요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,14 +225,14 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 903010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "분명…… 사르데냐 엠파이어를 관광하신다고 했었나…?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,14 +243,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 903010,
-			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "모레, 그러니까 폐막식 직전에 행사장으로 오실 예정이라고 했어.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,14 +261,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그렇군요. 케르생은 언제 도착하나요?",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그렇군요. 케르생은 언제 도착하나요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,14 +355,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "케르생은 클레망소 님의 측근이에요. 클레망소 님이랑 따로 움직이는 건 평소라면 있을 수 없는 일이죠.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "케르생은 클레망소 님의 측근이에요. 클레망소 님이랑 따로 움직이는 건 평소라면 있을 수 없는 일이죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,14 +373,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그렇지만……",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그렇지만……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,14 +410,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "분명 그 아이, 이전에 툴롱에서 '재현'에 단독으로 참가한 적이 있긴 했어요.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "분명 그 아이, 이전에 툴롱에서 '재현'에 단독으로 참가한 적이 있긴 했어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,14 +447,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그리고 며칠 전 장 바르 님도 클레망소 님의 부탁을 받아 툴롱으로 향했었죠.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그리고 며칠 전 장 바르 님도 클레망소 님의 부탁을 받아 툴롱으로 향했었죠.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,11 +468,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 903010,
-			say = "오호라, 이거 마음에 걸리는 부분이 없지는 않은걸… 그래서? 나는 뭘 하면 되는데?",
 			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "오호라, 이거 마음에 걸리는 부분이 없지는 않은걸… 그래서? 나는 뭘 하면 되는데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,14 +498,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그리고……",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그리고……",
 			painting = {
 				alpha = 0.3,
 				time = 1

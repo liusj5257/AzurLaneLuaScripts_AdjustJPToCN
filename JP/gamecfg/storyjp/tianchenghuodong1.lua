@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -25,16 +25,16 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "準備はまだですか！？敵の反撃が来ていますよ！",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			actor = 307040,
+			nameColor = "#a9f548",
+			say = "準備はまだですか！？敵の反撃が来ていますよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "ぐぁああああ！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 307020,
+			say = "ぐぁああああ！！",
 			flashN = {
 				color = {
 					1,
@@ -197,16 +197,16 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:91}",
 			side = 2,
-			nameColor = "#a9f548",
-			say = "加賀！加賀あああああああ！！",
+			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "加賀！加賀あああああああ！！",
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>………………</size>",
@@ -294,15 +294,15 @@ return {
 			}
 		},
 		{
-			say = "――確か…昔の話だったな……",
 			side = 2,
 			bgName = "bg_story_tiancheng1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-tiancheng",
+			say = "――確か…昔の話だったな……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -323,8 +323,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "あ！",
 			dialogShake = {
 				speed = 0.09,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ええい、もう一戦だ!",
 			typewriter = {
 				speed = 0.05,
@@ -466,12 +466,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "ああああ！！",
 			dialogShake = {
 				speed = 0.09,
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#a9f548",
 			say = "姉さまの十一連勝よ～！",
 			typewriter = {
 				speed = 0.05,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -521,8 +521,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -537,8 +537,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -553,8 +553,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -569,8 +569,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -585,8 +585,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -601,15 +601,15 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "長門姉、陸奥ちょっと調べたけど…今回の参加者たちはみんなすごくやる気らしいよ！楽しみ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

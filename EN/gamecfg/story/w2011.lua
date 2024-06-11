@@ -1,12 +1,12 @@
 return {
-	id = "W2011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "It looks like we need to use 2 fleets at the same time for this.",
 			typewriter = {
 				speed = 0.05,

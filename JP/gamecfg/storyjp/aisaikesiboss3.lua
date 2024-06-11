@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"特別演習・超空強襲波\n\n<size=45>三　幕間の傾聴者</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107070,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ハロー！お疲れ様！",
 			bgm = "story-1",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "ハロー！お疲れ様！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "あ、ありがとうございます！",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "ありがとうございます",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "す、すみません。そこまでは考えていませんでした",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "演習の重要性、そして自分の実力を披露できる千載一遇のチャンスであることを鑑みて、全力で挑むほかありません！……感想といえばこれぐらいですね",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "ふふ、エセックスはホーネットさんと違って真面目ですからね",
 			typewriter = {
@@ -313,15 +313,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "はあ、はあ……ホーネットさん！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -365,8 +365,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "さっきホーネットさんが話したエンタープライズさんの癖について、少し詳しく教えていただけませんか？",
 			typewriter = {
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "あ！あははは…待たせてごめん！今行くから！",
 			typewriter = {
 				speed = 0.05,
@@ -475,16 +475,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 3
 				},
 				{
-					type = "move",
 					y = 45,
+					type = "move",
 					delay = 0.6,
 					dur = 1,
 					x = 3750
@@ -495,8 +495,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "コホン！ホーネットさんを引き止めてごめんなさい！",
 			typewriter = {
@@ -637,12 +637,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -655,8 +655,8 @@ return {
 		},
 		action = {
 			{
-				type = "shake",
 				y = 45,
+				type = "shake",
 				delay = 0,
 				dur = 0.15,
 				x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"妹妹的變化\n\n<size=45>七 妹妹的笑容</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "在幾位姐姐的教授之下，文森尼斯初步掌握了身為秘書艦該做的事。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "在幾位姐姐的教授之下，文森尼斯初步掌握了身為秘書艦該做的事。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "雖然比較笨拙，但是確實在慢慢地幫上忙。",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "文森尼斯的成長著實讓人感到高興",
 			typewriter = {
 				speed = 0.05,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "文森尼斯遞過來……一包包裝精美的餅乾？",
 			typewriter = {
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "餅乾的形狀做成了自己的樣子，雖然有些粗糙，但是能夠感覺到烘烤的人的心意。",
 			typewriter = {
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "總覺得似乎能夠想像那個場景。",
 			typewriter = {
 				speed = 0.05,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "以後文森尼斯也會慢慢加油的。",
 			typewriter = {
 				speed = 0.05,
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "嗯…！不過，指揮官…以後還會陪我一起午睡的，對吧？",
 			typewriter = {
 				speed = 0.05,

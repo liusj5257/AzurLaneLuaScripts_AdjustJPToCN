@@ -1,17 +1,17 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI02",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI02",
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 207020,
 			side = 0,
-			bgm = "level03",
-			dir = 1,
 			say = "According to the scouting report, there are four battleships, one light carrier, and six destroyers stationed at port, but none of them seem to be operational.",
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			dir = 1,
 			say = "The Templar Knights have fallen in with the Sirens...? 'tis a sad day indeed...",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

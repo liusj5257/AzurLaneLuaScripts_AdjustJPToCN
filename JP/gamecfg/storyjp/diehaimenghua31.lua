@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA31",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港周辺・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			say = "母港周辺・演習海域",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,8 +51,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "あくまで信濃の補佐として、ですよ。急に参戦しましたら不公平でしょう",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "でも、信濃さんに天城さんって…負ける気がしないかも",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "指揮官の艦隊には油断は禁物",
 			typewriter = {
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 301840,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301840,
+			nameColor = "#a9f548",
 			say = "信濃さん！艦隊の準備はできているよ！いつでも命令を！",
 			typewriter = {
 				speed = 0.05,

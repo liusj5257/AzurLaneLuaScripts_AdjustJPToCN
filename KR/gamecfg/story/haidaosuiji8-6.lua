@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "...다시 시도하시겠습니까?",
 			typewriter = {
 				speed = 0.05,

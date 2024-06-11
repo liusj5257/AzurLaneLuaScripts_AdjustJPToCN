@@ -2,17 +2,17 @@ slot0 = class("ChallengePassedLayer", import("..base.BaseUI"))
 slot0.BOSS_NUM = 5
 slot0.GROW_TIME = 0.55
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChallengePassedUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:findUI()
 	slot0:initData()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.tweenObjs = {}
 
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
@@ -36,7 +36,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	LeanTween.cancel(go(slot0.slider))
 
@@ -47,11 +47,11 @@ function slot0.willExit(slot0)
 	slot0.tweenObjs = {}
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0._tf)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.paintingTF = slot0:findTF("Painting")
 	slot0.paintingShadow1 = slot0:findTF("Painting/PaintingShadow1")
@@ -65,7 +65,7 @@ function slot0.findUI(slot0)
 	slot0.sliderSC = GetComponent(slot0.slider, "Slider")
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.curIndex = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode):getLevel()
 
 	if slot0.curIndex % ChallengeConst.BOSS_NUM == 0 then
@@ -90,15 +90,15 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		LeanTween.cancel(go(uv0.slider))
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 end
 
-function slot0.updatePainting(slot0, slot1, slot2, slot3, slot4)
-	function slot5(slot0)
+slot0.updatePainting = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = function(slot0)
 		slot0.material:SetFloat("_LineGray", 0.3)
 		slot0.material:SetFloat("_TearDistance", 0)
 		LeanTween.cancel(slot0.gameObject)
@@ -146,7 +146,7 @@ function slot0.updatePainting(slot0, slot1, slot2, slot3, slot4)
 	slot3.localScale = Vector3(2.2, 2.2, 1)
 end
 
-function slot0.updateSlider(slot0, slot1)
+slot0.updateSlider = function(slot0, slot1)
 	if ChallengeConst.BOSS_NUM < (slot1 or slot0.curIndex) then
 		slot2 = slot2 % ChallengeConst.BOSS_NUM == 0 and ChallengeConst.BOSS_NUM or slot2 % ChallengeConst.BOSS_NUM
 	end
@@ -159,19 +159,19 @@ function slot0.updateSlider(slot0, slot1)
 		slot5 = uv0:findTF("Challengeing", slot2)
 		slot6 = uv0:findTF("Arrow", slot2)
 
-		function slot7()
+		slot7 = function()
 			setActive(uv0, true)
 			setActive(uv1, false)
 			setActive(uv2, false)
 		end
 
-		function slot8()
+		slot8 = function()
 			setActive(uv0, false)
 			setActive(uv1, true)
 			setActive(uv2, false)
 		end
 
-		function slot9()
+		slot9 = function()
 			setActive(uv0, false)
 			setActive(uv1, false)
 			setActive(uv2, true)
@@ -193,7 +193,7 @@ function slot0.updateSlider(slot0, slot1)
 	slot0.squareList:align(ChallengeConst.BOSS_NUM)
 end
 
-function slot0.moveSlider(slot0, slot1)
+slot0.moveSlider = function(slot0, slot1)
 	if ChallengeConst.BOSS_NUM < (slot1 or slot0.curIndex) then
 		slot2 = slot2 % ChallengeConst.BOSS_NUM == 0 and ChallengeConst.BOSS_NUM or slot2 % ChallengeConst.BOSS_NUM
 	end

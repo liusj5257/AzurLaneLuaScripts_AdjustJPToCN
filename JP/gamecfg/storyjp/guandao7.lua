@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"タレントキャスターセクレタリー！\n\n<size=45>七 エンディングは…？</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "公園のピクニック用の芝生にシートを張って、グアムは早速座って端末を起動した。",
 			bgm = "story-richang-11",
+			say = "公園のピクニック用の芝生にシートを張って、グアムは早速座って端末を起動した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "モニターから笑い声が漏れ出す。どうやらグアムが言ってた「番組」が始まったようだ。",
@@ -37,28 +37,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "母港・執務室。",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -123,11 +123,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "指揮官役頑張ります！",
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うん…確かに補給物資が届く時間ね",
@@ -179,11 +179,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "購買部の明石にゃ",
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大型作戦に備える物資らしいにゃ！",
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "購買部の明石にゃ",
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "コードネームは、「ソウジ」だそうにゃ…",
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "天才美少女秘書艦",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えへ☆グアムはあたまイイもん～",
@@ -516,29 +516,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "——エセックスの表情が迫真過ぎて演技とは思えなかった",
+			side = 2,
 			bgm = "story-richang-11",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "——エセックスの表情が迫真過ぎて演技とは思えなかった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -552,12 +552,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes！ほら、この間の書類仕事で、グアムが迷惑かけちゃったじゃない",
 			painting = {
 				alpha = 0.3,
@@ -572,10 +572,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それでちょっとしたお笑い番組でも作ってみようかな、と思って★",
 			painting = {
 				alpha = 0.3,
@@ -590,10 +590,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "1つ目は指揮官へのお詫び、2つ目はあたし自身への戒め、そして3つ目はより多くの仲間に秘書艦のお仕事の大切さに気づいてもらうため！",
 			painting = {
 				alpha = 0.3,
@@ -617,12 +617,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんな言い方あるんだ…！まああたしは別にそこまで深く考えてなかったけどね…",
 			painting = {
 				alpha = 0.3,
@@ -637,10 +637,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ただ、あたしはこの仕事から多くのことをベンキョウしたから、みんなに何かを得てほしい…みたいな感じ？",
 			painting = {
 				alpha = 0.3,
@@ -655,10 +655,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えへへ…ちょっと事後報告になっちゃうけど……勝手にこんな番組作って…指揮官は怒った？",
 			painting = {
 				alpha = 0.3,
@@ -730,27 +730,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_149",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_149",
 			say = "いつの間にか、番組が終盤に差し掛かっていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -758,8 +758,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "天才（素人）秘書艦・グアムは何回かの失敗を経て自らの過ちに気づき、努力の末に立派な秘書艦になった。",
@@ -769,8 +769,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "番組の外のグアムも同じで、多忙なスケジュールの合間を縫って勉強に励み、今や一人前の秘書艦だ。",
@@ -792,12 +792,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そこまで考えてないよ～。ほら、テキトウにやったほうがあたしの性格に向いているし",
 			painting = {
 				alpha = 0.3,
@@ -812,10 +812,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "番組の中の自分に負けない、優秀な秘書艦になるまで、これからも頑張っていくよ♪",
 			painting = {
 				alpha = 0.3,
@@ -827,8 +827,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -846,10 +846,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあまあ、そんなこと言わないの。あたしはまだまだ全然足りてないもん",
 			painting = {
 				alpha = 0.3,
@@ -861,12 +861,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "要するに、これからもしばらくは秘書艦当番をあたしに任せてね★",
 			painting = {
 				alpha = 0.3,
@@ -881,10 +881,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官にとってno.1の秘書艦になるにはもっともっとレッスンが必要だもん！",
 			painting = {
 				alpha = 0.3,
@@ -899,10 +899,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "明日もよろしく頼むね！指揮官♪",
 			painting = {
 				alpha = 0.3,

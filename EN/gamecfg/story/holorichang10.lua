@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLORICHANG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "holo-sss-inst",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Leader, this is the device! You should already know how to use it.",
-			bgm = "holo-sss-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "Muahahaha! Ahahaha! The fact that you've crossed through such treacherous waters to come here is proof of the spark of rebellion inside of you, waiting to be lit! Behold!",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "The sea of TNT that stretches out before our eyes! Should we join hands, not just the Hololive Headquarters, but even the Commander's Office will...",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "TNT? Commander's Office? What are you talking about?",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Haaaaaaah! Soraaaaaaa! Ah, ummmm, this is.. um......",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 40,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "She seems to have something unconscionable related to arson...",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "We're doing this again?!",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "Well, since we're all here, let's get going. A new adventure is waiting for us! Fubuki, are you coming?",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "All right, um, in any case, Commander... I hope all of us will be able to get along, both Hololive and Azur Lane.",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgm = "holo-fbk",
 			sequence = {
 				{
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=60>【Special Thanks】</size>",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=60>【Special Thanks】</size>",

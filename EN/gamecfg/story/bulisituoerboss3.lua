@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULISITUOERBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULISITUOERBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"An Exercise Gone Slightly Wrong\n\n<size=45>3. Code Speak</size>",
@@ -19,18 +19,18 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			oldPhoto = true,
 			dir = 1,
 			bgmDelay = 2,
+			oldPhoto = true,
 			bgm = "battle-boss-4",
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
+			bgName = "bg_story_nepu2",
 			say = "Is it just me, or are there more enemies here now?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "KABOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -167,13 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I guess I just... have to improvise some sort of code and hope they'll be able to figure out the message...",
 			typewriter = {
 				speed = 0.05,
@@ -204,13 +204,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "Communicator",
-			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hang on... Ingraham's channel worked earlier! Let's see if I can contact her!",
 			typewriter = {
 				speed = 0.05,
@@ -422,13 +422,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I need UMBRELLAS right now! The rainfall is overwhelming!",
 			typewriter = {
 				speed = 0.05,
@@ -479,8 +479,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -489,13 +489,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(Oh, I get it! She's saying reinforcements are coming and I just need to hold out a little longer!)",
 			typewriter = {
 				speed = 0.05,
@@ -526,13 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Copy that loud and clear! Investigator, out!",
 			typewriter = {
 				speed = 0.05,
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But maybe, just maybe, things will be okay if I stop the enemy from taking these ruins...?",
 			typewriter = {
 				speed = 0.05,
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Bristol took out her little notebook and began to write.",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "\"Investigator's Log - Clear skies (but it's raining in my heart). The port is under attack and the future is uncertain.\"",
@@ -631,8 +631,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,

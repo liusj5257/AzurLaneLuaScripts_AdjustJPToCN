@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」日常編\n\n<size=45>一 有着“废柴”之名的天才AI</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港区·广场",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港区·广场",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "嗨多磨～！我是绊爱！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "今天竟然来到了异世界！",
 			typewriter = {
@@ -93,11 +93,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "如此这般，就让我们马上开始对港区的女孩子们进行采访吧！标枪酱，请多指教！",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "没关系没关系！之后靠科学的力量都能搞定的！",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -209,13 +209,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "大约半小时前",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -262,12 +262,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "在看视频网站的游戏视频，的说",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "在看视频网站的游戏视频，的说",
+			actor = 301050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -301,8 +301,8 @@ return {
 			expression = 6,
 			side = 1,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "这个世界也有这种的吗！？再、再跟我多说点关于这方面的啦～！",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "哼哼～♪只要搜索我的频道——",
 			typewriter = {
@@ -393,8 +393,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "竟·然·没·有！？",
 			effects = {
@@ -413,8 +413,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -426,8 +426,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "嗯～…果然不可能搜得到其他世界的频道啊",
 			effects = {
@@ -449,8 +449,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "既然如此，就只能由我再在这个世界创建一个频道，把大家连接在一起了！",
 			typewriter = {
@@ -465,13 +465,13 @@ return {
 		{
 			actor = 101170,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…如此这般",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -537,8 +537,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "所以～就拜托各位多帮帮忙啦！",
 			typewriter = {
@@ -551,15 +551,15 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "诶～～～～～！？",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			actorName = "众人",
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "众人",
-			say = "诶～～～～～！？",
+			actor = 101170,
+			nameColor = "#a9f548",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,

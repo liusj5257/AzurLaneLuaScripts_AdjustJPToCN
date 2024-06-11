@@ -6,11 +6,11 @@ slot1.__name = "BattleBuffAura"
 slot2 = slot0.Battle.BattleConst
 slot3 = slot0.Battle.BattleConfig
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._buffLevel = slot2:GetLv()
 	slot3 = slot0._tempData.arg_list
 	slot0._auraRange = slot3.cld_data.box.range
@@ -30,7 +30,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot8:ConfigData(slot8.FOLLOW)
 end
 
-function slot1.getAreaCldFunc(slot0, slot1)
+slot1.getAreaCldFunc = function(slot0, slot1)
 	return function (slot0)
 		slot1 = uv0:getTargetList(uv1, {
 			"TargetEntityUnit"
@@ -74,7 +74,7 @@ function slot1.getAreaCldFunc(slot0, slot1)
 	end
 end
 
-function slot1.Clear(slot0)
+slot1.Clear = function(slot0)
 	slot0._aura:SetActiveFlag(false)
 
 	slot0._aura = nil

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-随机技能-治疗之泉",
 	time = 0,
+	name = "测试-随机技能-治疗之泉",
+	init_effect = "",
 	picture = "",
 	desc = "治疗之泉",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 60025,
 				time = 25,
-				target = "TargetSelf",
-				skill_id = 60025
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -2,13 +2,13 @@ slot0 = class("TargetItem", import("view.miniGame.gameView.RyzaMiniGame.Reactor"
 slot1 = {
 	hp1 = "4",
 	speed = "3",
-	power = "2",
 	spirit = "6",
+	power = "2",
 	bomb = "1",
 	hp2 = "5"
 }
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	slot0.type = slot1.type
 	slot2 = slot0._tf
 	slot2 = slot2:Find("Image")
@@ -38,7 +38,7 @@ function slot0.InitUI(slot0, slot1)
 	end)
 end
 
-function slot0.InitRegister(slot0, slot1)
+slot0.InitRegister = function(slot0, slot1)
 	slot0:Register("move", function (slot0)
 		if isa(slot0, MoveRyza) then
 			slot0:AddItem(uv0.type)

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "布里斯托尔共斗弹条",
 	time = 0,
-	color = "yellow",
+	name = "布里斯托尔共斗弹条",
+	init_effect = "",
+	id = 9701,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9701,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 1,
 				target = "TargetSelf",
+				time = 1,
 				skill_id = 9701
 			}
 		},
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 13,
 				target = "TargetSelf",
+				time = 13,
 				skill_id = 9702
 			}
 		},
@@ -41,8 +41,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 37,
 				target = "TargetSelf",
+				time = 37,
 				skill_id = 9703
 			}
 		}

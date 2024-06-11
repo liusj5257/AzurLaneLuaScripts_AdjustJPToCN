@@ -1,6 +1,6 @@
 slot0 = class("NewGuildResultGradePage", import("..NewBattleResultGradePage"))
 
-function slot0.LoadBG(slot0, slot1)
+slot0.LoadBG = function(slot0, slot1)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("BattleResultItems/" .. "Victory", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -20,7 +20,7 @@ function slot0.LoadBG(slot0, slot1)
 	end), false, false)
 end
 
-function slot0.LoadGrade(slot0, slot1)
+slot0.LoadGrade = function(slot0, slot1)
 	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0.gradeTxt, true)
 
 	if slot1 then
@@ -28,7 +28,7 @@ function slot0.LoadGrade(slot0, slot1)
 	end
 end
 
-function slot0.GetContributionPoint(slot0)
+slot0.GetContributionPoint = function(slot0)
 	slot1 = 0
 	slot2 = pg.guildset.guild_damage_resource.key_value
 
@@ -41,7 +41,7 @@ function slot0.GetContributionPoint(slot0)
 	return slot1
 end
 
-function slot0.GetGetObjectives(slot0)
+slot0.GetGetObjectives = function(slot0)
 	slot1 = {}
 
 	table.insert(slot1, {

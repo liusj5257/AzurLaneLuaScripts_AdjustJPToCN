@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI9",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 205020,
 			side = 0,
-			nameColor = "#a9f548",
-			say = "Z9, Z11... there should be six more Iron Blood destroyers.",
 			dir = 1,
 			bgm = "level02",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "Z9, Z11... there should be six more Iron Blood destroyers.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

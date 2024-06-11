@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"誓ってナイト！\n\n<size=45>三　指揮官、見つけた！</size>",
@@ -20,8 +20,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "ご、ごめんなさい……",
 			effects = {
@@ -39,8 +39,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "資料は明石にちゃんと届けたよ？でも戻る途中にU-81たちがかくれんぼしてたのを見てついつい一緒に遊びたくなって、今は仕事中だってこと忘れちゃった……",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "次はきっと大丈夫！ごめんなさい！",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "おっ、そうだ！明日は非番の日だよね？指揮官も一緒にかくれんぼでもしない？仕事ばかりしたら体が壊れちゃうよ？",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "凄まじい話題の変え方に流され、潜水艦たちのかくれんぼ大会に参加することにした。---",
 			effects = {
 				{
@@ -117,13 +117,13 @@ return {
 			}
 		},
 		{
-			actor = 408010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "じゃあくじ引きでオニを決めるよー！",
 			bgm = "story-1",
+			actor = 408010,
+			nameColor = "#a9f548",
+			say = "じゃあくじ引きでオニを決めるよー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,8 +137,8 @@ return {
 			actor = 408040,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "いーち、に――",
 			subActors = {
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "ふふん、あたしだ！",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "全員見つけ出すからね！ええと、60、59……",
 			typewriter = {
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "さて、どこに隠れるか……",
 			typewriter = {
 				speed = 0.05,
@@ -242,14 +242,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "執務室に戻って扉を閉じた。たしか部屋の中で隠れる場合は鍵を閉めてはいけないってルールだっけ……？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -379,14 +379,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_105",
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
 			say = "海の中……だと！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -540,9 +540,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -555,12 +555,12 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "……あの、指揮官、見つからないと思ったの？",
 			typewriter = {
 				speed = 0.05,
@@ -587,13 +587,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
+			dir = 1,
 			say = "……というわけでかくれんぼ1回目は終了した。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -637,8 +637,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "みんなの隠れた場所が見つけにくすぎだってば！",
 			typewriter = {
@@ -651,8 +651,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -680,8 +680,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "でもなんで指揮官しか見つけられなかったの？しかも一発で",
 			typewriter = {
@@ -697,8 +697,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……ヒヒヒ。さてはお二人、最近なんかあったんじゃないのォ～？",
 			typewriter = {

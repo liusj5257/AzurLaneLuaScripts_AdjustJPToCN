@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Lunar New Year!\n\n<size=45>Chapter 7 - A Lively, Happy New Year</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actor = 501041,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501041,
+			nameColor = "#a9f548",
 			say = "Unf... Flipping the light switch doesn't do anything... I think the breaker has tripped.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,10 +68,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 202121,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202121,
+			nameColor = "#a9f548",
 			say = "I hear something...! I believe there is something down the hallway, drawing closer.",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 107062,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107062,
+			nameColor = "#a9f548",
 			say = "I think there is something at the end of the hallway...",
 			typewriter = {
 				speed = 0.05,
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Goooo! ...Wait, did something just...?",
 			typewriter = {
 				speed = 0.05,
@@ -148,15 +148,15 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.2,
 					x = 300
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.2,
 					dur = 0.2,
 					x = -300
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The firecracker hit one of the walls in the corridor and bounced back, landing right at Fu Shun's feet.",
 			typewriter = {
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Oh my gooooosh! Stop, don't explode!",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			say = "BWHOOOOOOOM!",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "BWHOOOOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -256,9 +256,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
+			dir = 1,
 			say = "The lights came back on at the same time as the firecracker went off.",
 			typewriter = {
 				speed = 0.05,
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Agh... How could I fail at the very, very end... This sucks...",
 			bgm = "main-chunjie",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "Agh... How could I fail at the very, very end... This sucks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1500,
+					type = "move",
 					delay = 1,
 					dur = 0.2,
 					x = 0
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 501041,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501041,
+			nameColor = "#a9f548",
 			say = "F-Fu Shun?! Are you hurt?!",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "*Cough, cough*... Not again, Fu Shun! You'd better be prepared for your punishment after trying to do something this stupid! ...Wait, huh?",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -383,8 +383,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "Oh dear, you've been very naughty, Fu Shun. But it was still surprisingly good entertainment.",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301054,
 			dir = 1,
+			actor = 301054,
 			nameColor = "#a9f548",
 			say = "...Yes, you should look in the mirror.",
 			typewriter = {
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Aha, ahahaha... I'm a mess...",
 			typewriter = {
 				speed = 0.05,
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -475,8 +475,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "This is a rather amusing turn of events, ahaha~",
 			typewriter = {
@@ -489,15 +489,15 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Kay, I'm done washing my face~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -541,8 +541,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107062,
 			dir = 1,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "Yeah, go ahead. It's all thanks to the commander that we got to have this nice night together. We have to express our thanks.",
 			typewriter = {
@@ -590,8 +590,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "Ahaha, then may I suggest we have an afterparty in the commander's office?",
 			typewriter = {
@@ -604,8 +604,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "star_level_bg_102",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -636,12 +636,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Fu Shuuuuuuun!",
 			dialogShake = {
 				speed = 0.09,

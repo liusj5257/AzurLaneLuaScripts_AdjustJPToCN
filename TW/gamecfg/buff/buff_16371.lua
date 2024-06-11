@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.005
+					number = 0.005,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.01
+					number = 0.01,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.015
+					number = 0.015,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.02
+					number = 0.02,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.025
+					number = 0.025,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.03
+					number = 0.03,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.035
+					number = 0.035,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.04
+					number = 0.04,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.045
+					number = 0.045,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.05
+					number = 0.05,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "jinengchufared",
+	id = 15388,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 15388,
+	color = "red",
 	icon = 15388,
 	last_effect = "",
 	effect_list = {
@@ -167,8 +167,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.005
+				number = 0.005,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

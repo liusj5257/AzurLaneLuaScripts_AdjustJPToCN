@@ -1,15 +1,15 @@
 return {
-	id = "WORLD500B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD500B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "blueocean-image",
 			say = "I see Memphis and Sheffield are here.",
+			side = 2,
+			dir = 1,
+			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "From what I've heard, Sheffield is joining us per secret orders from Queen Elizabeth herself.",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "They're in the middle of a conversation. Let's not disturb them.",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "Well, she saw me. I might as well talk to them and hear what's up.",
 			typewriter = {
@@ -87,14 +87,14 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "I leave the matter in your hands. Now if you'll excuse me...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Sheffield bowed to me, then left quite abruptly after offering her... advice.",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "Working hard as always, Commander? Or just enjoying a casual stroll?",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Let's say a bit of both. What were you two talking about just earlier?\"",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "While I don't exactly have to keep it secret from you, I'd rather wait until I have all the facts before telling you about it.",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Does it have something to do with Naval HQ?\"",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "Maybe. We'll see. Anyway, let's talk about the operation.",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"It is strange. We need to settle on a course of action as soon as possible, but instead, they're thinking about changing the plan entirely at this stage.\"",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "The operation was going swimmingly, too. We've been winning battle after battle against the Sirens, and even the Ashes.",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"The Ashes add an element of uncertainty, but they aren't as immediately threatening as the Sirens are. I'd wager Naval HQ thinks they're a low-priority target.\"",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "There's a world of difference between our estimates of their strength and their actual capabilities, too.",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "And because they're in that mindset, they seem to suddenly think the best option would be to refocus our efforts towards research instead.",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "It's like the first half of the operation went TOO well, causing Naval HQ's priorities to drastically shift from one extreme to the other.",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"I doubt anybody saw this sudden reversal coming.\"",
 			typewriter = {
 				speed = 0.05,
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "We shipgirls just want nothing more than to take back the seas from the Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -467,8 +467,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "Naval HQ knows that, and yet here we are.",
 			typewriter = {
 				speed = 0.05,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Sheffield told me to put the whole thing aside for now. Do you think Elizabeth knows about the situation and plans to use her influence to sway Naval HQ?\"",
 			typewriter = {
 				speed = 0.05,
@@ -570,9 +570,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Gosh, don't sneak up on us like that... Didn't you say you were leaving?",
 			typewriter = {
 				speed = 0.05,
@@ -584,8 +584,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Speaking of Elizabeth, I haven't seen her recently. Is she well?\"",
 			typewriter = {
 				speed = 0.05,
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"True. Let's hope that doesn't happen.\"",
 			typewriter = {
 				speed = 0.05,
@@ -740,8 +740,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,

@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항 패션 컬렉션:합정본\n\n<size=45>1 Allnight Charge</size>",
@@ -14,14 +14,14 @@ return {
 			}
 		},
 		{
-			live2d = "main3",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
 			bgm = "bar-soft",
 			actor = 199041,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main3",
 			say = "평가 완료. 포즈, 불합격.",
 			painting = {
 				alpha = 0.3,
@@ -33,11 +33,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "이것도 안 되겠어… 평가 완료, 불합격.",
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "이것도 아니야… 평가, 불합격.",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "모항 홍보 촬영 현장에서 키어사지가 카메라를 향해 포즈를 계속 취하며 조정하고 있다.",
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "그렇지만 취하는 포즈마다 영 납득이 가지 않는 모양이다.",
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "평소처럼 건조한 표정에, 목소리에서도 별 기복은 느껴지지 않지만…",
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "포즈를 바꾸는 빈도에서 그녀의 초조함이 느껴진다.",
@@ -113,11 +113,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "촬영 중 회피 불가능한 문제 확인. 촬영 오더 시행 중단 및 해결책 모색……",
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "검증… 실패. 문제 해결 속행……",
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "역시 안 되겠어…  필드 디렉션 요구.",
@@ -167,11 +167,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "지휘관, 현 상황에서는 홍보 촬영 중단이 불가피해.",
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "해결책을 검증했지만 별 성과는 얻지 못했어. 실행 가능한 어드바이스가 필요해.",
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "음… 새로운 세트와 특별 의상에 어울리는 포즈를 취해야 해.",
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "현장에 임하기 전에 관련 자료를 대량으로 학습했는데…",
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "자료에 있는 포즈를 그대로 취하니 미세하게 위화감이 느껴져.",
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "세트와 의상을… 머리에서 지우라고?",
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "…확실히 일리 있는 말이네.",
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "키어사지, 새로운 촬영 구성 생성.",
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "잠시 고민한 후, 그녀는 다시 카메라 앞에 섰다.",
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "최종 결전 병기……",
@@ -448,11 +448,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "……기동!",
@@ -466,27 +466,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_145",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_145",
 			say = "키어사지가 자연스러운 몸짓과 표정을 보여준 덕분에 이번 촬영은 성공적으로 끝났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

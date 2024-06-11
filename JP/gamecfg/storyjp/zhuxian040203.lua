@@ -1,18 +1,18 @@
 return {
-	id = "ZHUXIAN040203",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "ZHUXIAN040203",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 107060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "アストリア、クインシー、ヴィンセンス！大丈夫か！",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "どういうこと？",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "エンプラ姉、これって…！",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "レッドアクシズの艦隊と違う「なにか」がこの海域にいる……",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "アストリア、味方の輸送艦隊は無事か？",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "…そうね。ちょっと厄介なことが起きたしね",
 			typewriter = {
 				speed = 0.05,
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 103100,
 			dir = 1,
+			hideOther = true,
 			actorName = "二人",
 			say = "…？",
 			subActors = {
@@ -296,8 +296,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "シカゴの隊より連絡よ。重桜の艦載機の機影が現れたって",
 			typewriter = {
 				speed = 0.05,

@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,14 +42,14 @@ return {
 			}
 		},
 		{
-			actor = 705080,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "소유즈, 물자 준비는 끝났어. 언제든 출발할 수 있어.",
 			bgm = "story-antarctica-serious",
+			actor = 705080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "소유즈, 물자 준비는 끝났어. 언제든 출발할 수 있어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,17 +59,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -80,10 +80,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "예상보다 빠르군요. 고생 많으셨습니다, 폴타바 씨.",
 			painting = {
 				alpha = 0.3,
@@ -98,10 +98,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "빠르군…… 결국 보급용 수송기와 함께하기로 한 건가?",
 			painting = {
 				alpha = 0.3,
@@ -135,10 +135,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 718010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "소코트라 섬에 도착하면 소유주는 특수 잠항함으로 옮겨타고――",
 			painting = {
 				alpha = 0.3,
@@ -191,10 +191,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나저나 남극 대륙까지 그대로 직행하는 건가? 포트루이스 근처에서의 보급도 해저에서 실시할 예정이고?",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 718010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "필요한 보급품도 포트루이스의 보급 수송이라는 명목을 내세워 원양 항로로 조달할 거야.",
 			painting = {
 				alpha = 0.3,
@@ -265,10 +265,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네, 이동 계획은 크론시타트가 짰으니 안심하셔도 됩니다.",
 			painting = {
 				alpha = 0.3,
@@ -283,10 +283,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……그렇지만 계획을 세운 건 이동뿐이잖나? 남극 대륙에 도착한 다음은 일단 부딪혀 봐야 아는 거고.",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이번 목적은 어디까지나 의장과 공명할 수 있는 특수 광물을 찾는 것이지, 전투가 아닙니다.",
 			painting = {
 				alpha = 0.3,
@@ -338,10 +338,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "남극의 상황은 꽤 안정되어 있고, 세이렌 습격 수도 '재현'보다 적다는 점을 알고 계실 텐데요.",
 			painting = {
 				alpha = 0.3,
@@ -356,10 +356,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 지휘관 동지가 '벽람항로'의 재결성을 의제로 올린 이상, 각 진영은 분쟁을 최대한 회피하려는 쪽으로 방향을 잡고 있을 겁니다.",
 			painting = {
 				alpha = 0.3,
@@ -371,12 +371,12 @@ return {
 			}
 		},
 		{
-			actor = 900354,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900354,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "탈린, 폴타바를 비롯한 함선들, 그리고 양산함이면 이번 작전의 전력으로 충분할 거라 봅니다.",
 			painting = {
 				alpha = 0.3,
@@ -391,10 +391,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……그럼 다들 각자 임무에 전념하시길.",
 			painting = {
 				alpha = 0.3,
@@ -409,10 +409,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "러시아, 벨로루시아, 키로프… 제가 귀환할 때까지 노스 유니온 함대의 지휘를 맡깁니다.",
 			painting = {
 				alpha = 0.3,
@@ -446,10 +446,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "보로실로프, 아이리스에서의 협의도 아브로라 씨, 파먀티 씨와 이야기해서 잘 진행해 주시기 바랍니다.",
 			painting = {
 				alpha = 0.3,
@@ -464,10 +464,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "노스 유니온의 대표로서 만일의 경우가 발생했을 때는 결단을 내려주시고요.",
 			painting = {
 				alpha = 0.3,
@@ -501,10 +501,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지금 느낌으로는 아마 그렇게 큰 사건은 일어날 것 같지 않기는 하지만요~",
 			painting = {
 				alpha = 0.3,
@@ -519,10 +519,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네, 지휘관 동지의 동향에도 신경을 써 주셨으면 합니다.",
 			painting = {
 				alpha = 0.3,
@@ -575,10 +575,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'비장의 카드'……?",
 			painting = {
 				alpha = 0.3,
@@ -612,10 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후후후, 꽤 강한 한 수를 떠올리셨군요.",
 			painting = {
 				alpha = 0.3,
@@ -630,10 +630,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900354,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼…… 슬슬 저희도 출발하도록 하지요.",
 			painting = {
 				alpha = 0.3,
@@ -648,10 +648,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "언니, 무운을 빌어. 좋은 소식 기다리고 있을게.",
 			painting = {
 				alpha = 0.3,
@@ -663,23 +663,23 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -704,8 +704,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_541",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			bgm = "story-commander-up",
 			actor = 102160,
 			nameColor = "#A9F548FF",
@@ -720,17 +720,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -777,10 +777,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "음… 새러토가 쪽은 아직 PH 쪽에서 출발 준비를 하고 있는 것 같아.",
 			painting = {
 				alpha = 0.3,
@@ -814,10 +814,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그것 때문에 병참 쪽도 큰일이야. 아마 출발도 3, 4일 후에나 가능할 거야.",
 			painting = {
 				alpha = 0.3,
@@ -851,10 +851,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "비스마르크해의 부유 요새에서도 함대가 출발했어. 목적지는 평소처럼 직접 물어보지 않는 이상은 알 수 없겠지만…",
 			painting = {
 				alpha = 0.3,
@@ -974,10 +974,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……지휘관?",
 			painting = {
 				alpha = 0.3,
@@ -1040,10 +1040,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇네… 어쩌면 새러토가는 우리가 모르는 무언가를 알고 있을 수도 있겠어.",
 			painting = {
 				alpha = 0.3,
@@ -1103,21 +1103,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			asideType = 1,
+			mode = 1,
 			bgm = "theme-merkuriameta",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1147,8 +1147,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"그 정보를 손에 넣은 지휘관은 함선들에게 뒤에서 정보를 흘려보내는 방식으로 저지한다.",
@@ -1173,8 +1173,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

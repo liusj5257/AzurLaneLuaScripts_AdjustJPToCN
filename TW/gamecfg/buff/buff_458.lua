@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "反击meta火伤buff",
 	time = 10,
+	name = "反击meta火伤buff",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = -1500
+				number = -1500,
+				attr = "igniteReduce"
 			}
 		},
 		{

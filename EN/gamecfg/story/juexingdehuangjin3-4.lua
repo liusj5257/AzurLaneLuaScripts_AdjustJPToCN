@@ -15,8 +15,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"\"Come back to me, my second half – Iron Claw Mechadrake!\"",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"And so the cycle repeated, continuing seemingly for eternity.",
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"Only one will survive this ultimate showdown of ultimate destiny. Who will it be?",
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"Find out in the next episode: \"Prototype Bulin MKII Dies\"!",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"LEGAL DISCLAIMER:",

@@ -43,8 +43,8 @@ pg.battle_environment_behaviour_template = {
 		name = "寒冰区域模板示例 伤害+减速+移动",
 		behaviour_list = {
 			{
-				hp_rate = 0,
 				reload_time = 1,
+				hp_rate = 0,
 				damage = 1,
 				type = 2
 			},
@@ -91,8 +91,8 @@ pg.battle_environment_behaviour_template = {
 				type = 1
 			},
 			{
-				hp_rate = 0,
 				reload_time = 0.5,
+				hp_rate = 0,
 				damage = 1,
 				type = 2
 			},
@@ -113,10 +113,10 @@ pg.battle_environment_behaviour_template = {
 		name = "闪电行为",
 		behaviour_list = {
 			{
-				rounds = 10,
-				reload_time = 1.2,
 				offset_time = 0,
 				type = 6,
+				reload_time = 1.2,
+				rounds = 10,
 				content = {
 					count = 1,
 					alert = {
@@ -125,8 +125,8 @@ pg.battle_environment_behaviour_template = {
 						delay = 0.8
 					},
 					child_prefab = {
-						life_time = 0.5,
 						behaviours = 10007,
+						life_time = 0.5,
 						cld_data = {
 							15
 						}
@@ -154,8 +154,8 @@ pg.battle_environment_behaviour_template = {
 		name = "火山预警",
 		behaviour_list = {
 			{
-				hp_rate = 0,
 				reload_time = 0.5,
+				hp_rate = 0,
 				damage = 10,
 				type = 2
 			}
@@ -242,8 +242,8 @@ pg.battle_environment_behaviour_template = {
 		name = "球形闪电移动",
 		behaviour_list = {
 			{
-				hp_rate = 0,
 				reload_time = 0.5,
+				hp_rate = 0,
 				damage = 1,
 				type = 2
 			},
@@ -271,8 +271,8 @@ pg.battle_environment_behaviour_template = {
 		name = "巨浪移动",
 		behaviour_list = {
 			{
-				hp_rate = 0,
 				reload_time = 1,
+				hp_rate = 0,
 				damage = 100,
 				type = 2
 			},
@@ -294,8 +294,8 @@ pg.battle_environment_behaviour_template = {
 		name = "寒冰区域模板示例 伤害+减速+移动",
 		behaviour_list = {
 			{
-				hp_rate = 0.005,
 				reload_time = 1,
+				hp_rate = 0.005,
 				damage = 1,
 				type = 2
 			},
@@ -613,8 +613,8 @@ pg.battle_environment_behaviour_template = {
 		name = "寒冰区域模板示例 伤害+减速+移动",
 		behaviour_list = {
 			{
-				hp_rate = 0.005,
 				reload_time = 1,
+				hp_rate = 0.005,
 				damage = 1,
 				type = 2
 			},
@@ -932,8 +932,8 @@ pg.battle_environment_behaviour_template = {
 		name = "寒冰区域模板示例 伤害+减速+移动",
 		behaviour_list = {
 			{
-				hp_rate = 0.005,
 				reload_time = 1,
+				hp_rate = 0.005,
 				damage = 1,
 				type = 2
 			},
@@ -1251,8 +1251,8 @@ pg.battle_environment_behaviour_template = {
 		name = "寒冰区域模板示例 伤害+减速+移动EX",
 		behaviour_list = {
 			{
-				hp_rate = 0.01,
 				reload_time = 1,
+				hp_rate = 0.01,
 				damage = 1,
 				type = 2
 			},
@@ -1314,8 +1314,8 @@ pg.battle_environment_behaviour_template = {
 		name = "寒冰区域模板示例 伤害+减速+移动EX",
 		behaviour_list = {
 			{
-				hp_rate = 0.01,
 				reload_time = 1,
+				hp_rate = 0.01,
 				damage = 1,
 				type = 2
 			},
@@ -1400,10 +1400,10 @@ pg.battle_environment_behaviour_template = {
 		name = "法系巨炮炮击1",
 		behaviour_list = {
 			{
-				rounds = 3,
-				reload_time = 5,
 				offset_time = 0,
 				type = 6,
+				reload_time = 5,
+				rounds = 3,
 				content = {
 					count = 1,
 					alert = {
@@ -1411,8 +1411,8 @@ pg.battle_environment_behaviour_template = {
 						range = 10
 					},
 					child_prefab = {
-						life_time = 3,
 						behaviours = 10020,
+						life_time = 3,
 						cld_data = {
 							10
 						}
@@ -1437,10 +1437,10 @@ pg.battle_environment_behaviour_template = {
 		name = "法系巨炮炮击2",
 		behaviour_list = {
 			{
-				rounds = 3,
-				reload_time = 6,
 				offset_time = 0,
 				type = 6,
+				reload_time = 6,
+				rounds = 3,
 				content = {
 					count = 1,
 					alert = {
@@ -1448,8 +1448,8 @@ pg.battle_environment_behaviour_template = {
 						range = 10
 					},
 					child_prefab = {
-						life_time = 3,
 						behaviours = 10020,
+						life_time = 3,
 						cld_data = {
 							10
 						}
@@ -1474,10 +1474,10 @@ pg.battle_environment_behaviour_template = {
 		name = "法系巨炮炮击3",
 		behaviour_list = {
 			{
-				rounds = 3,
-				reload_time = 6,
 				offset_time = 0,
 				type = 6,
+				reload_time = 6,
+				rounds = 3,
 				content = {
 					count = 1,
 					alert = {
@@ -1485,8 +1485,8 @@ pg.battle_environment_behaviour_template = {
 						range = 10
 					},
 					child_prefab = {
-						life_time = 3,
 						behaviours = 10020,
+						life_time = 3,
 						cld_data = {
 							10
 						}
@@ -1545,10 +1545,10 @@ pg.battle_environment_behaviour_template = {
 		name = "莱莎联动炮击",
 		behaviour_list = {
 			{
-				rounds = 5,
-				reload_time = 8,
 				offset_time = 0,
 				type = 6,
+				reload_time = 8,
+				rounds = 5,
 				content = {
 					count = 1,
 					alert = {
@@ -1556,8 +1556,8 @@ pg.battle_environment_behaviour_template = {
 						range = 20
 					},
 					child_prefab = {
-						life_time = 3,
 						behaviours = 10025,
+						life_time = 3,
 						cld_data = {
 							20
 						}
@@ -1588,10 +1588,10 @@ pg.battle_environment_behaviour_template = {
 		name = "大世界仲裁者战斗_开场随机雷电",
 		behaviour_list = {
 			{
-				rounds = 2,
-				reload_time = 3,
 				offset_time = 0,
 				type = 6,
+				reload_time = 3,
+				rounds = 2,
 				content = {
 					count = 1,
 					alert = {
@@ -1600,8 +1600,8 @@ pg.battle_environment_behaviour_template = {
 						delay = 2
 					},
 					child_prefab = {
-						life_time = 0.5,
 						behaviours = 10110,
+						life_time = 0.5,
 						cld_data = {
 							15
 						}
@@ -1623,10 +1623,10 @@ pg.battle_environment_behaviour_template = {
 		name = "大世界仲裁者战斗_武器伴随雷电两发",
 		behaviour_list = {
 			{
-				rounds = 1,
-				reload_time = 2.5,
 				offset_time = 0,
 				type = 6,
+				reload_time = 2.5,
+				rounds = 1,
 				content = {
 					count = 1,
 					alert = {
@@ -1635,8 +1635,8 @@ pg.battle_environment_behaviour_template = {
 						delay = 2
 					},
 					child_prefab = {
-						life_time = 0.5,
 						behaviours = 10110,
+						life_time = 0.5,
 						cld_data = {
 							15
 						}
@@ -1655,10 +1655,10 @@ pg.battle_environment_behaviour_template = {
 		name = "大世界仲裁者战斗_武器伴随雷电三发",
 		behaviour_list = {
 			{
-				rounds = 1,
-				reload_time = 2.5,
 				offset_time = 0,
 				type = 6,
+				reload_time = 2.5,
+				rounds = 1,
 				content = {
 					count = 1,
 					alert = {
@@ -1667,8 +1667,8 @@ pg.battle_environment_behaviour_template = {
 						delay = 2
 					},
 					child_prefab = {
-						life_time = 0.5,
 						behaviours = 10110,
+						life_time = 0.5,
 						cld_data = {
 							15
 						}

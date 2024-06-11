@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 150
+					number = 150,
+					attr = "airPower"
 				}
 			},
 			{
@@ -32,8 +32,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 200
+					number = 200,
+					attr = "airPower"
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 250
+					number = 250,
+					attr = "airPower"
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 300
+					number = 300,
+					attr = "airPower"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 350
+					number = 350,
+					attr = "airPower"
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 400
+					number = 400,
+					attr = "airPower"
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 450
+					number = 450,
+					attr = "airPower"
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 500
+					number = 500,
+					attr = "airPower"
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 550
+					number = 550,
+					attr = "airPower"
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 600
+					number = 600,
+					attr = "airPower"
 				}
 			},
 			{
@@ -239,9 +239,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 4,
@@ -263,8 +263,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 150
+				number = 150,
+				attr = "airPower"
 			}
 		},
 		{

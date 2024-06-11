@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "基洛夫燃烧",
 	time = 8,
+	name = "基洛夫燃烧",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害+易伤效果",
 	stack = 1,
@@ -15,13 +15,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.6,
 				attr = "cannonPower",
-				exposeGroup = 1,
 				time = 2,
 				cloakExpose = 36,
-				number = 5,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0.6
+				number = 5
 			}
 		},
 		{
@@ -40,8 +40,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 60
+				skill_id = 60,
+				target = "TargetSelf"
 			}
 		},
 		{

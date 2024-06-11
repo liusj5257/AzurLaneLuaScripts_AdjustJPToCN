@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"妹の成長期？！\n\n<size=45>四 妹の寂しさ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "艦隊の実務が重く、母港の仲間たちが皆忙しくしている中――",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "艦隊の実務が重く、母港の仲間たちが皆忙しくしている中――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "先日周辺海域の掃討に参加したアストリアが適任か。",
 			typewriter = {
 				speed = 0.05,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "指揮官、私に手伝えること……ない？",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ヴィンセンスの戦闘能力は信頼できるが、アストリアが手を挙げた以上、彼女に任せたほうがいいかもしれない。",
 			typewriter = {
 				speed = 0.05,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "指揮官、いっしょにおねんねしない？仕事いっぱいしたし",
 			typewriter = {
 				speed = 0.05,
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "うん…わかった……",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -302,9 +302,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "どこか少し寂しそうな表情を見せたヴィンセンスは秘書艦の席に戻った。",
 			typewriter = {
 				speed = 0.05,

@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行8次攻击，触发专属弹幕-阿芙乐尔II",
 	name = "专属弹幕-阿芙乐尔II",
 	init_effect = "",
+	id = 29192,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行8次攻击，触发专属弹幕-阿芙乐尔II",
 	stack = 1,
-	id = 29192,
+	color = "red",
 	icon = 29190,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29192,
+				target = "TargetSelf",
 				countType = 29190
 			}
 		}

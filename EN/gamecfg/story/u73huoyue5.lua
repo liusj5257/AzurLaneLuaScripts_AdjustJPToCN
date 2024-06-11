@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Science Rules!\n\n<size=45>Chapter 5 - Science Is Never Done</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "S-so this is Akashi's and Yuubari's research room...",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "S-so this is Akashi's and Yuubari's research room...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,15 +84,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "You see, U-73, the explosion happened because you mistreated the reagent for another. This is how you do it, see?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "T-that explains it!",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "I had no idea you could even do that...!",
 			typewriter = {
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "... It's really sweet.",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "P-please, Yuubari! Allow me to call you \"Professor\"!",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "Oh, oops, ahaha... I forgot to clean up...",
 			typewriter = {
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "In the distance, one could hear Köln angrily exclaiming \"who did this!? Who forgot to clean up before they left!?\"",
 			effects = {
 				{
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "I-I think I'd better get going!",
 			effects = {
@@ -438,8 +438,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 2500

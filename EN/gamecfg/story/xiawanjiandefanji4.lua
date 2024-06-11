@@ -1,18 +1,18 @@
 return {
-	id = "XIAWANJIANDEFANJI4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "They got away in the end...",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "I'm fine~ Looks like they're low on ammo. They're just focused on escaping.",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "Ummmm... well... yeah...",
 			typewriter = {
 				speed = 0.05,
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 5,
 			side = 0,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "She did?! Really?!",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

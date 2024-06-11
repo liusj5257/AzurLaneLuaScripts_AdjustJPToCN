@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.child_event = {
 	[11011] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11011,
+		ratio = 1000,
 		id = 11011,
 		attr = "",
 		type_param = {
@@ -30,13 +30,13 @@ pg.child_event = {
 		}
 	},
 	[11012] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11012,
+		ratio = 1000,
 		id = 11012,
 		attr = "",
 		type_param = {
@@ -59,13 +59,13 @@ pg.child_event = {
 		}
 	},
 	[11021] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11021,
+		ratio = 1000,
 		id = 11021,
 		attr = "",
 		type_param = {
@@ -88,13 +88,13 @@ pg.child_event = {
 		}
 	},
 	[11022] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11022,
+		ratio = 1000,
 		id = 11022,
 		attr = "",
 		type_param = {
@@ -117,13 +117,13 @@ pg.child_event = {
 		}
 	},
 	[11031] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11031,
+		ratio = 1000,
 		id = 11031,
 		attr = "",
 		type_param = {
@@ -146,13 +146,13 @@ pg.child_event = {
 		}
 	},
 	[11032] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11032,
+		ratio = 1000,
 		id = 11032,
 		attr = "",
 		type_param = {
@@ -175,13 +175,13 @@ pg.child_event = {
 		}
 	},
 	[11041] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11041,
+		ratio = 1000,
 		id = 11041,
 		attr = "",
 		type_param = {
@@ -204,13 +204,13 @@ pg.child_event = {
 		}
 	},
 	[11042] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11042,
+		ratio = 1000,
 		id = 11042,
 		attr = "",
 		type_param = {
@@ -233,13 +233,13 @@ pg.child_event = {
 		}
 	},
 	[11051] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11051,
+		ratio = 1000,
 		id = 11051,
 		attr = "",
 		type_param = {
@@ -262,13 +262,13 @@ pg.child_event = {
 		}
 	},
 	[11052] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11052,
+		ratio = 1000,
 		id = 11052,
 		attr = "",
 		type_param = {
@@ -291,13 +291,13 @@ pg.child_event = {
 		}
 	},
 	[11061] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11061,
+		ratio = 1000,
 		id = 11061,
 		attr = "",
 		type_param = {
@@ -320,13 +320,13 @@ pg.child_event = {
 		}
 	},
 	[11062] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11062,
+		ratio = 1000,
 		id = 11062,
 		attr = "",
 		type_param = {
@@ -349,14 +349,14 @@ pg.child_event = {
 		}
 	},
 	[11071] = {
-		state = "",
-		result = 11071,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11071,
 		ratio = 2000,
 		id = 11071,
-		resource = "",
 		type_param = {
 			1107
 		},
@@ -399,14 +399,14 @@ pg.child_event = {
 		}
 	},
 	[11072] = {
-		state = "",
-		result = 11072,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11072,
 		ratio = 2000,
 		id = 11072,
-		resource = "",
 		type_param = {
 			1107
 		},
@@ -449,13 +449,13 @@ pg.child_event = {
 		}
 	},
 	[11073] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11073,
+		ratio = 2000,
 		id = 11073,
 		attr = "",
 		type_param = {
@@ -478,13 +478,13 @@ pg.child_event = {
 		}
 	},
 	[11074] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11074,
+		ratio = 2000,
 		id = 11074,
 		attr = "",
 		type_param = {
@@ -507,14 +507,14 @@ pg.child_event = {
 		}
 	},
 	[11081] = {
-		state = "",
-		result = 11081,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11081,
 		ratio = 2000,
 		id = 11081,
-		resource = "",
 		type_param = {
 			1108
 		},
@@ -557,14 +557,14 @@ pg.child_event = {
 		}
 	},
 	[11082] = {
-		state = "",
-		result = 11082,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11082,
 		ratio = 2000,
 		id = 11082,
-		resource = "",
 		type_param = {
 			1108
 		},
@@ -607,13 +607,13 @@ pg.child_event = {
 		}
 	},
 	[11083] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11083,
+		ratio = 2000,
 		id = 11083,
 		attr = "",
 		type_param = {
@@ -636,13 +636,13 @@ pg.child_event = {
 		}
 	},
 	[11084] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11084,
+		ratio = 2000,
 		id = 11084,
 		attr = "",
 		type_param = {
@@ -665,14 +665,14 @@ pg.child_event = {
 		}
 	},
 	[11091] = {
-		state = "",
-		result = 11091,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11091,
 		ratio = 2000,
 		id = 11091,
-		resource = "",
 		type_param = {
 			1109
 		},
@@ -715,13 +715,13 @@ pg.child_event = {
 		}
 	},
 	[11092] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11092,
+		ratio = 2000,
 		id = 11092,
 		attr = "",
 		type_param = {
@@ -744,14 +744,14 @@ pg.child_event = {
 		}
 	},
 	[11101] = {
-		state = "",
-		result = 11101,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11101,
 		ratio = 2000,
 		id = 11101,
-		resource = "",
 		type_param = {
 			1110
 		},
@@ -794,14 +794,14 @@ pg.child_event = {
 		}
 	},
 	[11102] = {
-		state = "",
-		result = 11102,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11102,
 		ratio = 2000,
 		id = 11102,
-		resource = "",
 		type_param = {
 			1110
 		},
@@ -844,13 +844,13 @@ pg.child_event = {
 		}
 	},
 	[11103] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11103,
+		ratio = 2000,
 		id = 11103,
 		attr = "",
 		type_param = {
@@ -873,13 +873,13 @@ pg.child_event = {
 		}
 	},
 	[11104] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11104,
+		ratio = 2000,
 		id = 11104,
 		attr = "",
 		type_param = {
@@ -902,14 +902,14 @@ pg.child_event = {
 		}
 	},
 	[11111] = {
-		state = "",
-		result = 11111,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11111,
 		ratio = 2000,
 		id = 11111,
-		resource = "",
 		type_param = {
 			1111
 		},
@@ -952,14 +952,14 @@ pg.child_event = {
 		}
 	},
 	[11112] = {
-		state = "",
-		result = 11112,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11112,
 		ratio = 2000,
 		id = 11112,
-		resource = "",
 		type_param = {
 			1111
 		},
@@ -1002,13 +1002,13 @@ pg.child_event = {
 		}
 	},
 	[11113] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11113,
+		ratio = 2000,
 		id = 11113,
 		attr = "",
 		type_param = {
@@ -1031,13 +1031,13 @@ pg.child_event = {
 		}
 	},
 	[11114] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11114,
+		ratio = 2000,
 		id = 11114,
 		attr = "",
 		type_param = {
@@ -1060,14 +1060,14 @@ pg.child_event = {
 		}
 	},
 	[11121] = {
-		state = "",
-		result = 11121,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11121,
 		ratio = 2000,
 		id = 11121,
-		resource = "",
 		type_param = {
 			1112
 		},
@@ -1110,13 +1110,13 @@ pg.child_event = {
 		}
 	},
 	[11122] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11122,
+		ratio = 2000,
 		id = 11122,
 		attr = "",
 		type_param = {
@@ -1139,14 +1139,14 @@ pg.child_event = {
 		}
 	},
 	[11131] = {
-		state = "",
-		result = 11131,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11131,
 		ratio = 2000,
 		id = 11131,
-		resource = "",
 		type_param = {
 			1113
 		},
@@ -1189,14 +1189,14 @@ pg.child_event = {
 		}
 	},
 	[11132] = {
-		state = "",
-		result = 11132,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11132,
 		ratio = 2000,
 		id = 11132,
-		resource = "",
 		type_param = {
 			1113
 		},
@@ -1239,13 +1239,13 @@ pg.child_event = {
 		}
 	},
 	[11133] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11133,
+		ratio = 2000,
 		id = 11133,
 		attr = "",
 		type_param = {
@@ -1268,13 +1268,13 @@ pg.child_event = {
 		}
 	},
 	[11134] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11134,
+		ratio = 2000,
 		id = 11134,
 		attr = "",
 		type_param = {
@@ -1297,14 +1297,14 @@ pg.child_event = {
 		}
 	},
 	[11141] = {
-		state = "",
-		result = 11141,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11141,
 		ratio = 2000,
 		id = 11141,
-		resource = "",
 		type_param = {
 			1114
 		},
@@ -1347,14 +1347,14 @@ pg.child_event = {
 		}
 	},
 	[11142] = {
-		state = "",
-		result = 11142,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11142,
 		ratio = 2000,
 		id = 11142,
-		resource = "",
 		type_param = {
 			1114
 		},
@@ -1397,13 +1397,13 @@ pg.child_event = {
 		}
 	},
 	[11143] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11143,
+		ratio = 2000,
 		id = 11143,
 		attr = "",
 		type_param = {
@@ -1426,13 +1426,13 @@ pg.child_event = {
 		}
 	},
 	[11144] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11144,
+		ratio = 2000,
 		id = 11144,
 		attr = "",
 		type_param = {
@@ -1455,14 +1455,14 @@ pg.child_event = {
 		}
 	},
 	[11151] = {
-		state = "",
-		result = 11151,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11151,
 		ratio = 2000,
 		id = 11151,
-		resource = "",
 		type_param = {
 			1115
 		},
@@ -1505,13 +1505,13 @@ pg.child_event = {
 		}
 	},
 	[11152] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11152,
+		ratio = 2000,
 		id = 11152,
 		attr = "",
 		type_param = {
@@ -1534,14 +1534,14 @@ pg.child_event = {
 		}
 	},
 	[11161] = {
-		state = "",
-		result = 11161,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11161,
 		ratio = 2000,
 		id = 11161,
-		resource = "",
 		type_param = {
 			1116
 		},
@@ -1584,14 +1584,14 @@ pg.child_event = {
 		}
 	},
 	[11162] = {
-		state = "",
-		result = 11162,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11162,
 		ratio = 2000,
 		id = 11162,
-		resource = "",
 		type_param = {
 			1116
 		},
@@ -1634,13 +1634,13 @@ pg.child_event = {
 		}
 	},
 	[11163] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11163,
+		ratio = 2000,
 		id = 11163,
 		attr = "",
 		type_param = {
@@ -1663,13 +1663,13 @@ pg.child_event = {
 		}
 	},
 	[11164] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11164,
+		ratio = 2000,
 		id = 11164,
 		attr = "",
 		type_param = {
@@ -1692,14 +1692,14 @@ pg.child_event = {
 		}
 	},
 	[11171] = {
-		state = "",
-		result = 11171,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11171,
 		ratio = 2000,
 		id = 11171,
-		resource = "",
 		type_param = {
 			1117
 		},
@@ -1742,14 +1742,14 @@ pg.child_event = {
 		}
 	},
 	[11172] = {
-		state = "",
-		result = 11172,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11172,
 		ratio = 2000,
 		id = 11172,
-		resource = "",
 		type_param = {
 			1117
 		},
@@ -1792,13 +1792,13 @@ pg.child_event = {
 		}
 	},
 	[11173] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11173,
+		ratio = 2000,
 		id = 11173,
 		attr = "",
 		type_param = {
@@ -1821,13 +1821,13 @@ pg.child_event = {
 		}
 	},
 	[11174] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11174,
+		ratio = 2000,
 		id = 11174,
 		attr = "",
 		type_param = {
@@ -1850,14 +1850,14 @@ pg.child_event = {
 		}
 	},
 	[11181] = {
-		state = "",
-		result = 11181,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11181,
 		ratio = 2000,
 		id = 11181,
-		resource = "",
 		type_param = {
 			1118
 		},
@@ -1900,13 +1900,13 @@ pg.child_event = {
 		}
 	},
 	[11182] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11182,
+		ratio = 2000,
 		id = 11182,
 		attr = "",
 		type_param = {
@@ -1929,14 +1929,14 @@ pg.child_event = {
 		}
 	},
 	[11191] = {
-		state = "",
-		result = 11191,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11191,
 		ratio = 2000,
 		id = 11191,
-		resource = "",
 		type_param = {
 			1119
 		},
@@ -1979,14 +1979,14 @@ pg.child_event = {
 		}
 	},
 	[11192] = {
-		state = "",
-		result = 11192,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11192,
 		ratio = 2000,
 		id = 11192,
-		resource = "",
 		type_param = {
 			1119
 		},
@@ -2029,13 +2029,13 @@ pg.child_event = {
 		}
 	},
 	[11193] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11193,
+		ratio = 2000,
 		id = 11193,
 		attr = "",
 		type_param = {
@@ -2058,13 +2058,13 @@ pg.child_event = {
 		}
 	},
 	[11194] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11194,
+		ratio = 2000,
 		id = 11194,
 		attr = "",
 		type_param = {
@@ -2087,14 +2087,14 @@ pg.child_event = {
 		}
 	},
 	[11201] = {
-		state = "",
-		result = 11201,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11201,
 		ratio = 2000,
 		id = 11201,
-		resource = "",
 		type_param = {
 			1120
 		},
@@ -2137,13 +2137,13 @@ pg.child_event = {
 		}
 	},
 	[11202] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11202,
+		ratio = 2000,
 		id = 11202,
 		attr = "",
 		type_param = {
@@ -2166,14 +2166,14 @@ pg.child_event = {
 		}
 	},
 	[11211] = {
-		state = "",
-		result = 11211,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11211,
 		ratio = 2000,
 		id = 11211,
-		resource = "",
 		type_param = {
 			1121
 		},
@@ -2216,13 +2216,13 @@ pg.child_event = {
 		}
 	},
 	[11212] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11212,
+		ratio = 2000,
 		id = 11212,
 		attr = "",
 		type_param = {
@@ -2245,14 +2245,14 @@ pg.child_event = {
 		}
 	},
 	[11221] = {
-		state = "",
-		result = 11221,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11221,
 		ratio = 2000,
 		id = 11221,
-		resource = "",
 		type_param = {
 			1122
 		},
@@ -2295,14 +2295,14 @@ pg.child_event = {
 		}
 	},
 	[11222] = {
-		state = "",
-		result = 11222,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11222,
 		ratio = 2000,
 		id = 11222,
-		resource = "",
 		type_param = {
 			1122
 		},
@@ -2345,13 +2345,13 @@ pg.child_event = {
 		}
 	},
 	[11223] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11223,
+		ratio = 2000,
 		id = 11223,
 		attr = "",
 		type_param = {
@@ -2374,13 +2374,13 @@ pg.child_event = {
 		}
 	},
 	[11224] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11224,
+		ratio = 2000,
 		id = 11224,
 		attr = "",
 		type_param = {
@@ -2403,14 +2403,14 @@ pg.child_event = {
 		}
 	},
 	[11231] = {
-		state = "",
-		result = 11231,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11231,
 		ratio = 2000,
 		id = 11231,
-		resource = "",
 		type_param = {
 			1123
 		},
@@ -2453,13 +2453,13 @@ pg.child_event = {
 		}
 	},
 	[11232] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11232,
+		ratio = 2000,
 		id = 11232,
 		attr = "",
 		type_param = {
@@ -2482,14 +2482,14 @@ pg.child_event = {
 		}
 	},
 	[11241] = {
-		state = "",
-		result = 11241,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11241,
 		ratio = 2000,
 		id = 11241,
-		resource = "",
 		type_param = {
 			1124
 		},
@@ -2532,13 +2532,13 @@ pg.child_event = {
 		}
 	},
 	[11242] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11242,
+		ratio = 2000,
 		id = 11242,
 		attr = "",
 		type_param = {
@@ -2561,14 +2561,14 @@ pg.child_event = {
 		}
 	},
 	[11251] = {
-		state = "",
-		result = 11251,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11251,
 		ratio = 2000,
 		id = 11251,
-		resource = "",
 		type_param = {
 			1125
 		},
@@ -2611,14 +2611,14 @@ pg.child_event = {
 		}
 	},
 	[11252] = {
-		state = "",
-		result = 11252,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11252,
 		ratio = 2000,
 		id = 11252,
-		resource = "",
 		type_param = {
 			1125
 		},
@@ -2661,13 +2661,13 @@ pg.child_event = {
 		}
 	},
 	[11253] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11253,
+		ratio = 2000,
 		id = 11253,
 		attr = "",
 		type_param = {
@@ -2690,13 +2690,13 @@ pg.child_event = {
 		}
 	},
 	[11254] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11254,
+		ratio = 2000,
 		id = 11254,
 		attr = "",
 		type_param = {
@@ -2719,14 +2719,14 @@ pg.child_event = {
 		}
 	},
 	[11261] = {
-		state = "",
-		result = 11261,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11261,
 		ratio = 2000,
 		id = 11261,
-		resource = "",
 		type_param = {
 			1126
 		},
@@ -2769,13 +2769,13 @@ pg.child_event = {
 		}
 	},
 	[11262] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11262,
+		ratio = 2000,
 		id = 11262,
 		attr = "",
 		type_param = {
@@ -2798,14 +2798,14 @@ pg.child_event = {
 		}
 	},
 	[11271] = {
-		state = "",
-		result = 11271,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11271,
 		ratio = 2000,
 		id = 11271,
-		resource = "",
 		type_param = {
 			1127
 		},
@@ -2848,13 +2848,13 @@ pg.child_event = {
 		}
 	},
 	[11272] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11272,
+		ratio = 2000,
 		id = 11272,
 		attr = "",
 		type_param = {
@@ -2877,14 +2877,14 @@ pg.child_event = {
 		}
 	},
 	[11281] = {
-		state = "",
-		result = 11281,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11281,
 		ratio = 2000,
 		id = 11281,
-		resource = "",
 		type_param = {
 			1128
 		},
@@ -2927,14 +2927,14 @@ pg.child_event = {
 		}
 	},
 	[11282] = {
-		state = "",
-		result = 11282,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11282,
 		ratio = 2000,
 		id = 11282,
-		resource = "",
 		type_param = {
 			1128
 		},
@@ -2977,13 +2977,13 @@ pg.child_event = {
 		}
 	},
 	[11283] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11283,
+		ratio = 2000,
 		id = 11283,
 		attr = "",
 		type_param = {
@@ -3006,13 +3006,13 @@ pg.child_event = {
 		}
 	},
 	[11284] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11284,
+		ratio = 2000,
 		id = 11284,
 		attr = "",
 		type_param = {
@@ -3035,14 +3035,14 @@ pg.child_event = {
 		}
 	},
 	[11291] = {
-		state = "",
-		result = 11291,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11291,
 		ratio = 2000,
 		id = 11291,
-		resource = "",
 		type_param = {
 			1129
 		},
@@ -3085,13 +3085,13 @@ pg.child_event = {
 		}
 	},
 	[11292] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11292,
+		ratio = 2000,
 		id = 11292,
 		attr = "",
 		type_param = {
@@ -3114,14 +3114,14 @@ pg.child_event = {
 		}
 	},
 	[11301] = {
-		state = "",
-		result = 11301,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 11301,
 		ratio = 2000,
 		id = 11301,
-		resource = "",
 		type_param = {
 			1130
 		},
@@ -3164,13 +3164,13 @@ pg.child_event = {
 		}
 	},
 	[11302] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 11302,
+		ratio = 2000,
 		id = 11302,
 		attr = "",
 		type_param = {
@@ -3193,14 +3193,14 @@ pg.child_event = {
 		}
 	},
 	[12011] = {
-		state = "",
-		result = 12011,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12011,
 		ratio = 2000,
 		id = 12011,
-		resource = "",
 		type_param = {
 			1201
 		},
@@ -3243,14 +3243,14 @@ pg.child_event = {
 		}
 	},
 	[12012] = {
-		state = "",
-		result = 12012,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12012,
 		ratio = 2000,
 		id = 12012,
-		resource = "",
 		type_param = {
 			1201
 		},
@@ -3293,14 +3293,14 @@ pg.child_event = {
 		}
 	},
 	[12021] = {
-		state = "",
-		result = 12021,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12021,
 		ratio = 2000,
 		id = 12021,
-		resource = "",
 		type_param = {
 			1202
 		},
@@ -3343,14 +3343,14 @@ pg.child_event = {
 		}
 	},
 	[12022] = {
-		state = "",
-		result = 12022,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12022,
 		ratio = 2000,
 		id = 12022,
-		resource = "",
 		type_param = {
 			1202
 		},
@@ -3393,14 +3393,14 @@ pg.child_event = {
 		}
 	},
 	[12031] = {
-		state = "",
-		result = 12031,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12031,
 		ratio = 2000,
 		id = 12031,
-		resource = "",
 		type_param = {
 			1203
 		},
@@ -3443,14 +3443,14 @@ pg.child_event = {
 		}
 	},
 	[12041] = {
-		state = "",
-		result = 12041,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12041,
 		ratio = 2000,
 		id = 12041,
-		resource = "",
 		type_param = {
 			1204
 		},
@@ -3493,14 +3493,14 @@ pg.child_event = {
 		}
 	},
 	[12042] = {
-		state = "",
-		result = 12042,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12042,
 		ratio = 2000,
 		id = 12042,
-		resource = "",
 		type_param = {
 			1204
 		},
@@ -3543,14 +3543,14 @@ pg.child_event = {
 		}
 	},
 	[12051] = {
-		state = "",
-		result = 12051,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12051,
 		ratio = 2000,
 		id = 12051,
-		resource = "",
 		type_param = {
 			1205
 		},
@@ -3593,14 +3593,14 @@ pg.child_event = {
 		}
 	},
 	[12052] = {
-		state = "",
-		result = 12052,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12052,
 		ratio = 2000,
 		id = 12052,
-		resource = "",
 		type_param = {
 			1205
 		},
@@ -3643,14 +3643,14 @@ pg.child_event = {
 		}
 	},
 	[12061] = {
-		state = "",
-		result = 12061,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12061,
 		ratio = 2000,
 		id = 12061,
-		resource = "",
 		type_param = {
 			1206
 		},
@@ -3693,14 +3693,14 @@ pg.child_event = {
 		}
 	},
 	[12071] = {
-		state = "",
-		result = 12071,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12071,
 		ratio = 2000,
 		id = 12071,
-		resource = "",
 		type_param = {
 			1207
 		},
@@ -3743,14 +3743,14 @@ pg.child_event = {
 		}
 	},
 	[12072] = {
-		state = "",
-		result = 12072,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12072,
 		ratio = 2000,
 		id = 12072,
-		resource = "",
 		type_param = {
 			1207
 		},
@@ -3793,14 +3793,14 @@ pg.child_event = {
 		}
 	},
 	[12081] = {
-		state = "",
-		result = 12081,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12081,
 		ratio = 2000,
 		id = 12081,
-		resource = "",
 		type_param = {
 			1208
 		},
@@ -3843,14 +3843,14 @@ pg.child_event = {
 		}
 	},
 	[12082] = {
-		state = "",
-		result = 12082,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12082,
 		ratio = 2000,
 		id = 12082,
-		resource = "",
 		type_param = {
 			1208
 		},
@@ -3893,14 +3893,14 @@ pg.child_event = {
 		}
 	},
 	[12091] = {
-		state = "",
-		result = 12091,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12091,
 		ratio = 2000,
 		id = 12091,
-		resource = "",
 		type_param = {
 			1209
 		},
@@ -3943,14 +3943,14 @@ pg.child_event = {
 		}
 	},
 	[12101] = {
-		state = "",
-		result = 12101,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12101,
 		ratio = 2000,
 		id = 12101,
-		resource = "",
 		type_param = {
 			1210
 		},
@@ -3993,14 +3993,14 @@ pg.child_event = {
 		}
 	},
 	[12102] = {
-		state = "",
-		result = 12102,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12102,
 		ratio = 2000,
 		id = 12102,
-		resource = "",
 		type_param = {
 			1210
 		},
@@ -4043,14 +4043,14 @@ pg.child_event = {
 		}
 	},
 	[12111] = {
-		state = "",
-		result = 12111,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12111,
 		ratio = 2000,
 		id = 12111,
-		resource = "",
 		type_param = {
 			1211
 		},
@@ -4093,14 +4093,14 @@ pg.child_event = {
 		}
 	},
 	[12112] = {
-		state = "",
-		result = 12112,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12112,
 		ratio = 2000,
 		id = 12112,
-		resource = "",
 		type_param = {
 			1211
 		},
@@ -4143,14 +4143,14 @@ pg.child_event = {
 		}
 	},
 	[12121] = {
-		state = "",
-		result = 12121,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12121,
 		ratio = 2000,
 		id = 12121,
-		resource = "",
 		type_param = {
 			1212
 		},
@@ -4193,14 +4193,14 @@ pg.child_event = {
 		}
 	},
 	[12131] = {
-		state = "",
-		result = 12131,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12131,
 		ratio = 2000,
 		id = 12131,
-		resource = "",
 		type_param = {
 			1213
 		},
@@ -4243,14 +4243,14 @@ pg.child_event = {
 		}
 	},
 	[12132] = {
-		state = "",
-		result = 12132,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12132,
 		ratio = 2000,
 		id = 12132,
-		resource = "",
 		type_param = {
 			1213
 		},
@@ -4293,14 +4293,14 @@ pg.child_event = {
 		}
 	},
 	[12141] = {
-		state = "",
-		result = 12141,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12141,
 		ratio = 2000,
 		id = 12141,
-		resource = "",
 		type_param = {
 			1214
 		},
@@ -4343,14 +4343,14 @@ pg.child_event = {
 		}
 	},
 	[12142] = {
-		state = "",
-		result = 12142,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12142,
 		ratio = 2000,
 		id = 12142,
-		resource = "",
 		type_param = {
 			1214
 		},
@@ -4393,14 +4393,14 @@ pg.child_event = {
 		}
 	},
 	[12151] = {
-		state = "",
-		result = 12151,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12151,
 		ratio = 2000,
 		id = 12151,
-		resource = "",
 		type_param = {
 			1215
 		},
@@ -4443,14 +4443,14 @@ pg.child_event = {
 		}
 	},
 	[12161] = {
-		state = "",
-		result = 12161,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12161,
 		ratio = 2000,
 		id = 12161,
-		resource = "",
 		type_param = {
 			1216
 		},
@@ -4493,14 +4493,14 @@ pg.child_event = {
 		}
 	},
 	[12162] = {
-		state = "",
-		result = 12162,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12162,
 		ratio = 2000,
 		id = 12162,
-		resource = "",
 		type_param = {
 			1216
 		},
@@ -4543,14 +4543,14 @@ pg.child_event = {
 		}
 	},
 	[12171] = {
-		state = "",
-		result = 12171,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12171,
 		ratio = 2000,
 		id = 12171,
-		resource = "",
 		type_param = {
 			1217
 		},
@@ -4593,14 +4593,14 @@ pg.child_event = {
 		}
 	},
 	[12172] = {
-		state = "",
-		result = 12172,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12172,
 		ratio = 2000,
 		id = 12172,
-		resource = "",
 		type_param = {
 			1217
 		},
@@ -4643,14 +4643,14 @@ pg.child_event = {
 		}
 	},
 	[12181] = {
-		state = "",
-		result = 12181,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12181,
 		ratio = 2000,
 		id = 12181,
-		resource = "",
 		type_param = {
 			1218
 		},
@@ -4693,14 +4693,14 @@ pg.child_event = {
 		}
 	},
 	[12191] = {
-		state = "",
-		result = 12191,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12191,
 		ratio = 2000,
 		id = 12191,
-		resource = "",
 		type_param = {
 			1219
 		},
@@ -4743,14 +4743,14 @@ pg.child_event = {
 		}
 	},
 	[12192] = {
-		state = "",
-		result = 12192,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12192,
 		ratio = 2000,
 		id = 12192,
-		resource = "",
 		type_param = {
 			1219
 		},
@@ -4793,14 +4793,14 @@ pg.child_event = {
 		}
 	},
 	[12201] = {
-		state = "",
-		result = 12201,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12201,
 		ratio = 2000,
 		id = 12201,
-		resource = "",
 		type_param = {
 			1220
 		},
@@ -4843,14 +4843,14 @@ pg.child_event = {
 		}
 	},
 	[12202] = {
-		state = "",
-		result = 12202,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12202,
 		ratio = 2000,
 		id = 12202,
-		resource = "",
 		type_param = {
 			1220
 		},
@@ -4893,14 +4893,14 @@ pg.child_event = {
 		}
 	},
 	[12211] = {
-		state = "",
-		result = 12211,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12211,
 		ratio = 2000,
 		id = 12211,
-		resource = "",
 		type_param = {
 			1221
 		},
@@ -4943,14 +4943,14 @@ pg.child_event = {
 		}
 	},
 	[12221] = {
-		state = "",
-		result = 12221,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12221,
 		ratio = 2000,
 		id = 12221,
-		resource = "",
 		type_param = {
 			1222
 		},
@@ -4993,14 +4993,14 @@ pg.child_event = {
 		}
 	},
 	[12222] = {
-		state = "",
-		result = 12222,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12222,
 		ratio = 2000,
 		id = 12222,
-		resource = "",
 		type_param = {
 			1222
 		},
@@ -5043,14 +5043,14 @@ pg.child_event = {
 		}
 	},
 	[12231] = {
-		state = "",
-		result = 12231,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12231,
 		ratio = 2000,
 		id = 12231,
-		resource = "",
 		type_param = {
 			1223
 		},
@@ -5093,14 +5093,14 @@ pg.child_event = {
 		}
 	},
 	[12232] = {
-		state = "",
-		result = 12232,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12232,
 		ratio = 2000,
 		id = 12232,
-		resource = "",
 		type_param = {
 			1223
 		},
@@ -5143,14 +5143,14 @@ pg.child_event = {
 		}
 	},
 	[12241] = {
-		state = "",
-		result = 12241,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12241,
 		ratio = 2000,
 		id = 12241,
-		resource = "",
 		type_param = {
 			1224
 		},
@@ -5193,14 +5193,14 @@ pg.child_event = {
 		}
 	},
 	[12251] = {
-		state = "",
-		result = 12251,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12251,
 		ratio = 2000,
 		id = 12251,
-		resource = "",
 		type_param = {
 			1225
 		},
@@ -5243,14 +5243,14 @@ pg.child_event = {
 		}
 	},
 	[12252] = {
-		state = "",
-		result = 12252,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12252,
 		ratio = 2000,
 		id = 12252,
-		resource = "",
 		type_param = {
 			1225
 		},
@@ -5293,14 +5293,14 @@ pg.child_event = {
 		}
 	},
 	[12261] = {
-		state = "",
-		result = 12261,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12261,
 		ratio = 2000,
 		id = 12261,
-		resource = "",
 		type_param = {
 			1226
 		},
@@ -5343,14 +5343,14 @@ pg.child_event = {
 		}
 	},
 	[12262] = {
-		state = "",
-		result = 12262,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12262,
 		ratio = 2000,
 		id = 12262,
-		resource = "",
 		type_param = {
 			1226
 		},
@@ -5393,14 +5393,14 @@ pg.child_event = {
 		}
 	},
 	[12271] = {
-		state = "",
-		result = 12271,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 12271,
 		ratio = 2000,
 		id = 12271,
-		resource = "",
 		type_param = {
 			1227
 		},
@@ -5443,13 +5443,13 @@ pg.child_event = {
 		}
 	},
 	[13011] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13011,
+		ratio = 2000,
 		id = 13011,
 		attr = "",
 		type_param = {
@@ -5472,13 +5472,13 @@ pg.child_event = {
 		}
 	},
 	[13012] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13012,
+		ratio = 2000,
 		id = 13012,
 		attr = "",
 		type_param = {
@@ -5501,13 +5501,13 @@ pg.child_event = {
 		}
 	},
 	[13013] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13013,
+		ratio = 2000,
 		id = 13013,
 		attr = "",
 		type_param = {
@@ -5530,13 +5530,13 @@ pg.child_event = {
 		}
 	},
 	[13014] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13014,
+		ratio = 2000,
 		id = 13014,
 		attr = "",
 		type_param = {
@@ -5559,13 +5559,13 @@ pg.child_event = {
 		}
 	},
 	[13015] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13015,
+		ratio = 2000,
 		id = 13015,
 		attr = "",
 		type_param = {
@@ -5588,13 +5588,13 @@ pg.child_event = {
 		}
 	},
 	[13021] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13021,
+		ratio = 2000,
 		id = 13021,
 		attr = "",
 		type_param = {
@@ -5617,13 +5617,13 @@ pg.child_event = {
 		}
 	},
 	[13022] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13022,
+		ratio = 2000,
 		id = 13022,
 		attr = "",
 		type_param = {
@@ -5646,13 +5646,13 @@ pg.child_event = {
 		}
 	},
 	[13023] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13023,
+		ratio = 2000,
 		id = 13023,
 		attr = "",
 		type_param = {
@@ -5675,13 +5675,13 @@ pg.child_event = {
 		}
 	},
 	[13024] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13024,
+		ratio = 2000,
 		id = 13024,
 		attr = "",
 		type_param = {
@@ -5704,13 +5704,13 @@ pg.child_event = {
 		}
 	},
 	[13025] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13025,
+		ratio = 2000,
 		id = 13025,
 		attr = "",
 		type_param = {
@@ -5733,13 +5733,13 @@ pg.child_event = {
 		}
 	},
 	[13031] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13031,
+		ratio = 2000,
 		id = 13031,
 		attr = "",
 		type_param = {
@@ -5762,13 +5762,13 @@ pg.child_event = {
 		}
 	},
 	[13032] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13032,
+		ratio = 2000,
 		id = 13032,
 		attr = "",
 		type_param = {
@@ -5791,13 +5791,13 @@ pg.child_event = {
 		}
 	},
 	[13033] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13033,
+		ratio = 2000,
 		id = 13033,
 		attr = "",
 		type_param = {
@@ -5820,13 +5820,13 @@ pg.child_event = {
 		}
 	},
 	[13034] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13034,
+		ratio = 2000,
 		id = 13034,
 		attr = "",
 		type_param = {
@@ -5849,13 +5849,13 @@ pg.child_event = {
 		}
 	},
 	[13035] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13035,
+		ratio = 2000,
 		id = 13035,
 		attr = "",
 		type_param = {
@@ -5878,13 +5878,13 @@ pg.child_event = {
 		}
 	},
 	[13041] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13041,
+		ratio = 2000,
 		id = 13041,
 		attr = "",
 		type_param = {
@@ -5907,13 +5907,13 @@ pg.child_event = {
 		}
 	},
 	[13042] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13042,
+		ratio = 2000,
 		id = 13042,
 		attr = "",
 		type_param = {
@@ -5936,13 +5936,13 @@ pg.child_event = {
 		}
 	},
 	[13043] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13043,
+		ratio = 2000,
 		id = 13043,
 		attr = "",
 		type_param = {
@@ -5965,13 +5965,13 @@ pg.child_event = {
 		}
 	},
 	[13044] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13044,
+		ratio = 2000,
 		id = 13044,
 		attr = "",
 		type_param = {
@@ -5994,13 +5994,13 @@ pg.child_event = {
 		}
 	},
 	[13045] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13045,
+		ratio = 2000,
 		id = 13045,
 		attr = "",
 		type_param = {
@@ -6023,13 +6023,13 @@ pg.child_event = {
 		}
 	},
 	[13051] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13051,
+		ratio = 2000,
 		id = 13051,
 		attr = "",
 		type_param = {
@@ -6052,13 +6052,13 @@ pg.child_event = {
 		}
 	},
 	[13052] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13052,
+		ratio = 2000,
 		id = 13052,
 		attr = "",
 		type_param = {
@@ -6081,13 +6081,13 @@ pg.child_event = {
 		}
 	},
 	[13053] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13053,
+		ratio = 2000,
 		id = 13053,
 		attr = "",
 		type_param = {
@@ -6110,13 +6110,13 @@ pg.child_event = {
 		}
 	},
 	[13054] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13054,
+		ratio = 2000,
 		id = 13054,
 		attr = "",
 		type_param = {
@@ -6139,13 +6139,13 @@ pg.child_event = {
 		}
 	},
 	[13055] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13055,
+		ratio = 2000,
 		id = 13055,
 		attr = "",
 		type_param = {
@@ -6168,13 +6168,13 @@ pg.child_event = {
 		}
 	},
 	[13061] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13061,
+		ratio = 2000,
 		id = 13061,
 		attr = "",
 		type_param = {
@@ -6197,13 +6197,13 @@ pg.child_event = {
 		}
 	},
 	[13062] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13062,
+		ratio = 2000,
 		id = 13062,
 		attr = "",
 		type_param = {
@@ -6226,13 +6226,13 @@ pg.child_event = {
 		}
 	},
 	[13063] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13063,
+		ratio = 2000,
 		id = 13063,
 		attr = "",
 		type_param = {
@@ -6255,13 +6255,13 @@ pg.child_event = {
 		}
 	},
 	[13064] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13064,
+		ratio = 2000,
 		id = 13064,
 		attr = "",
 		type_param = {
@@ -6284,13 +6284,13 @@ pg.child_event = {
 		}
 	},
 	[13065] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13065,
+		ratio = 2000,
 		id = 13065,
 		attr = "",
 		type_param = {
@@ -6313,13 +6313,13 @@ pg.child_event = {
 		}
 	},
 	[13071] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13071,
+		ratio = 2000,
 		id = 13071,
 		attr = "",
 		type_param = {
@@ -6342,13 +6342,13 @@ pg.child_event = {
 		}
 	},
 	[13072] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13072,
+		ratio = 2000,
 		id = 13072,
 		attr = "",
 		type_param = {
@@ -6371,13 +6371,13 @@ pg.child_event = {
 		}
 	},
 	[13073] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13073,
+		ratio = 2000,
 		id = 13073,
 		attr = "",
 		type_param = {
@@ -6400,13 +6400,13 @@ pg.child_event = {
 		}
 	},
 	[13074] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13074,
+		ratio = 2000,
 		id = 13074,
 		attr = "",
 		type_param = {
@@ -6429,13 +6429,13 @@ pg.child_event = {
 		}
 	},
 	[13075] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13075,
+		ratio = 2000,
 		id = 13075,
 		attr = "",
 		type_param = {
@@ -6458,13 +6458,13 @@ pg.child_event = {
 		}
 	},
 	[13081] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13081,
+		ratio = 2000,
 		id = 13081,
 		attr = "",
 		type_param = {
@@ -6487,13 +6487,13 @@ pg.child_event = {
 		}
 	},
 	[13082] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13082,
+		ratio = 2000,
 		id = 13082,
 		attr = "",
 		type_param = {
@@ -6516,13 +6516,13 @@ pg.child_event = {
 		}
 	},
 	[13083] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13083,
+		ratio = 2000,
 		id = 13083,
 		attr = "",
 		type_param = {
@@ -6545,13 +6545,13 @@ pg.child_event = {
 		}
 	},
 	[13084] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13084,
+		ratio = 2000,
 		id = 13084,
 		attr = "",
 		type_param = {
@@ -6574,13 +6574,13 @@ pg.child_event = {
 		}
 	},
 	[13085] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13085,
+		ratio = 2000,
 		id = 13085,
 		attr = "",
 		type_param = {
@@ -6603,14 +6603,14 @@ pg.child_event = {
 		}
 	},
 	[13091] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 1,
+		item = "",
+		date = "",
 		group = 1,
-		ratio = 2000,
+		state = "",
 		resource = "",
 		result = 13091,
+		ratio = 2000,
 		id = 13091,
 		attr = "",
 		type_param = {
@@ -6621,14 +6621,14 @@ pg.child_event = {
 		}
 	},
 	[13092] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 1,
+		item = "",
+		date = "",
 		group = 1,
-		ratio = 2000,
+		state = "",
 		resource = "",
 		result = 13092,
+		ratio = 2000,
 		id = 13092,
 		attr = "",
 		type_param = {
@@ -6639,14 +6639,14 @@ pg.child_event = {
 		}
 	},
 	[13093] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 1,
+		item = "",
+		date = "",
 		group = 1,
-		ratio = 2000,
+		state = "",
 		resource = "",
 		result = 13093,
+		ratio = 2000,
 		id = 13093,
 		attr = "",
 		type_param = {
@@ -6657,13 +6657,13 @@ pg.child_event = {
 		}
 	},
 	[13101] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13101,
+		ratio = 2000,
 		id = 13101,
 		attr = "",
 		type_param = {
@@ -6686,13 +6686,13 @@ pg.child_event = {
 		}
 	},
 	[13102] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13102,
+		ratio = 2000,
 		id = 13102,
 		attr = "",
 		type_param = {
@@ -6715,13 +6715,13 @@ pg.child_event = {
 		}
 	},
 	[13103] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13103,
+		ratio = 2000,
 		id = 13103,
 		attr = "",
 		type_param = {
@@ -6744,13 +6744,13 @@ pg.child_event = {
 		}
 	},
 	[13104] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13104,
+		ratio = 2000,
 		id = 13104,
 		attr = "",
 		type_param = {
@@ -6773,13 +6773,13 @@ pg.child_event = {
 		}
 	},
 	[13105] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13105,
+		ratio = 2000,
 		id = 13105,
 		attr = "",
 		type_param = {
@@ -6802,13 +6802,13 @@ pg.child_event = {
 		}
 	},
 	[13111] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13111,
+		ratio = 2000,
 		id = 13111,
 		attr = "",
 		type_param = {
@@ -6831,13 +6831,13 @@ pg.child_event = {
 		}
 	},
 	[13112] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13112,
+		ratio = 2000,
 		id = 13112,
 		attr = "",
 		type_param = {
@@ -6860,13 +6860,13 @@ pg.child_event = {
 		}
 	},
 	[13113] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13113,
+		ratio = 2000,
 		id = 13113,
 		attr = "",
 		type_param = {
@@ -6889,13 +6889,13 @@ pg.child_event = {
 		}
 	},
 	[13114] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13114,
+		ratio = 2000,
 		id = 13114,
 		attr = "",
 		type_param = {
@@ -6918,13 +6918,13 @@ pg.child_event = {
 		}
 	},
 	[13115] = {
-		state = "",
-		ratio = 2000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 13115,
+		ratio = 2000,
 		id = 13115,
 		attr = "",
 		type_param = {
@@ -6947,13 +6947,13 @@ pg.child_event = {
 		}
 	},
 	[14011] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14011,
+		ratio = 667,
 		id = 14011,
 		attr = "",
 		type_param = {
@@ -6976,13 +6976,13 @@ pg.child_event = {
 		}
 	},
 	[14012] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14012,
+		ratio = 667,
 		id = 14012,
 		attr = "",
 		type_param = {
@@ -7005,13 +7005,13 @@ pg.child_event = {
 		}
 	},
 	[14013] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14013,
+		ratio = 667,
 		id = 14013,
 		attr = "",
 		type_param = {
@@ -7034,14 +7034,14 @@ pg.child_event = {
 		}
 	},
 	[14014] = {
-		state = "",
-		result = 14014,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14014,
 		ratio = 500,
 		id = 14014,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7084,14 +7084,14 @@ pg.child_event = {
 		}
 	},
 	[14015] = {
-		state = "",
-		result = 14015,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14015,
 		ratio = 500,
 		id = 14015,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7134,14 +7134,14 @@ pg.child_event = {
 		}
 	},
 	[14016] = {
-		state = "",
-		result = 14016,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14016,
 		ratio = 500,
 		id = 14016,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7184,14 +7184,14 @@ pg.child_event = {
 		}
 	},
 	[14017] = {
-		state = "",
-		result = 14017,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14017,
 		ratio = 500,
 		id = 14017,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7234,14 +7234,14 @@ pg.child_event = {
 		}
 	},
 	[14018] = {
-		state = "",
-		result = 14018,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14018,
 		ratio = 500,
 		id = 14018,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7284,14 +7284,14 @@ pg.child_event = {
 		}
 	},
 	[14019] = {
-		state = "",
-		result = 14019,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14019,
 		ratio = 500,
 		id = 14019,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7334,14 +7334,14 @@ pg.child_event = {
 		}
 	},
 	[14020] = {
-		state = "",
-		result = 14020,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14020,
 		ratio = 500,
 		id = 14020,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7384,14 +7384,14 @@ pg.child_event = {
 		}
 	},
 	[14021] = {
-		state = "",
-		result = 14021,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14021,
 		ratio = 500,
 		id = 14021,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7434,13 +7434,13 @@ pg.child_event = {
 		}
 	},
 	[14022] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14022,
+		ratio = 667,
 		id = 14022,
 		attr = "",
 		type_param = {
@@ -7463,13 +7463,13 @@ pg.child_event = {
 		}
 	},
 	[14023] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14023,
+		ratio = 667,
 		id = 14023,
 		attr = "",
 		type_param = {
@@ -7492,13 +7492,13 @@ pg.child_event = {
 		}
 	},
 	[14024] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14024,
+		ratio = 667,
 		id = 14024,
 		attr = "",
 		type_param = {
@@ -7521,14 +7521,14 @@ pg.child_event = {
 		}
 	},
 	[14025] = {
-		state = "",
-		result = 14025,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14025,
 		ratio = 500,
 		id = 14025,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7571,14 +7571,14 @@ pg.child_event = {
 		}
 	},
 	[14026] = {
-		state = "",
-		result = 14026,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14026,
 		ratio = 500,
 		id = 14026,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7621,14 +7621,14 @@ pg.child_event = {
 		}
 	},
 	[14027] = {
-		state = "",
-		result = 14027,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14027,
 		ratio = 500,
 		id = 14027,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7671,14 +7671,14 @@ pg.child_event = {
 		}
 	},
 	[14028] = {
-		state = "",
-		result = 14028,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14028,
 		ratio = 500,
 		id = 14028,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7721,14 +7721,14 @@ pg.child_event = {
 		}
 	},
 	[14029] = {
-		state = "",
-		result = 14029,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14029,
 		ratio = 500,
 		id = 14029,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7771,14 +7771,14 @@ pg.child_event = {
 		}
 	},
 	[14030] = {
-		state = "",
-		result = 14030,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14030,
 		ratio = 500,
 		id = 14030,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7821,14 +7821,14 @@ pg.child_event = {
 		}
 	},
 	[14031] = {
-		state = "",
-		result = 14031,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14031,
 		ratio = 500,
 		id = 14031,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7871,14 +7871,14 @@ pg.child_event = {
 		}
 	},
 	[14032] = {
-		state = "",
-		result = 14032,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14032,
 		ratio = 500,
 		id = 14032,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -7921,13 +7921,13 @@ pg.child_event = {
 		}
 	},
 	[14033] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14033,
+		ratio = 667,
 		id = 14033,
 		attr = "",
 		type_param = {
@@ -7950,13 +7950,13 @@ pg.child_event = {
 		}
 	},
 	[14034] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14034,
+		ratio = 667,
 		id = 14034,
 		attr = "",
 		type_param = {
@@ -7979,13 +7979,13 @@ pg.child_event = {
 		}
 	},
 	[14035] = {
-		state = "",
-		ratio = 667,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14035,
+		ratio = 667,
 		id = 14035,
 		attr = "",
 		type_param = {
@@ -8008,14 +8008,14 @@ pg.child_event = {
 		}
 	},
 	[14036] = {
-		state = "",
-		result = 14036,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14036,
 		ratio = 667,
 		id = 14036,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -8058,14 +8058,14 @@ pg.child_event = {
 		}
 	},
 	[14037] = {
-		state = "",
-		result = 14037,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14037,
 		ratio = 667,
 		id = 14037,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -8108,14 +8108,14 @@ pg.child_event = {
 		}
 	},
 	[14038] = {
-		state = "",
-		result = 14038,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 14038,
 		ratio = 667,
 		id = 14038,
-		resource = "",
 		type_param = {
 			1402
 		},
@@ -8158,13 +8158,13 @@ pg.child_event = {
 		}
 	},
 	[14039] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14039,
+		ratio = 1000,
 		id = 14039,
 		attr = "",
 		type_param = {
@@ -8187,13 +8187,13 @@ pg.child_event = {
 		}
 	},
 	[14040] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 14040,
+		ratio = 1000,
 		id = 14040,
 		attr = "",
 		type_param = {
@@ -8216,13 +8216,13 @@ pg.child_event = {
 		}
 	},
 	[15001] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15001,
+		ratio = 200,
 		id = 15001,
 		attr = "",
 		type_param = {
@@ -8332,13 +8332,13 @@ pg.child_event = {
 		}
 	},
 	[15003] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15003,
+		ratio = 200,
 		id = 15003,
 		attr = "",
 		type_param = {
@@ -8448,13 +8448,13 @@ pg.child_event = {
 		}
 	},
 	[15004] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15004,
+		ratio = 200,
 		id = 15004,
 		attr = "",
 		type_param = {
@@ -8564,13 +8564,13 @@ pg.child_event = {
 		}
 	},
 	[15005] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15005,
+		ratio = 200,
 		id = 15005,
 		attr = "",
 		type_param = {
@@ -8680,13 +8680,13 @@ pg.child_event = {
 		}
 	},
 	[15006] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15006,
+		ratio = 200,
 		id = 15006,
 		attr = "",
 		type_param = {
@@ -8796,13 +8796,13 @@ pg.child_event = {
 		}
 	},
 	[15007] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15007,
+		ratio = 200,
 		id = 15007,
 		attr = "",
 		type_param = {
@@ -8912,13 +8912,13 @@ pg.child_event = {
 		}
 	},
 	[15010] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15010,
+		ratio = 200,
 		id = 15010,
 		attr = "",
 		type_param = {
@@ -9028,13 +9028,13 @@ pg.child_event = {
 		}
 	},
 	[15011] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15011,
+		ratio = 200,
 		id = 15011,
 		attr = "",
 		type_param = {
@@ -9144,13 +9144,13 @@ pg.child_event = {
 		}
 	},
 	[15012] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15012,
+		ratio = 200,
 		id = 15012,
 		attr = "",
 		type_param = {
@@ -9260,13 +9260,13 @@ pg.child_event = {
 		}
 	},
 	[15013] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15013,
+		ratio = 200,
 		id = 15013,
 		attr = "",
 		type_param = {
@@ -9376,14 +9376,14 @@ pg.child_event = {
 		}
 	},
 	[15014] = {
-		state = "",
-		result = 15014,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15014,
 		ratio = 200,
 		id = 15014,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -9513,14 +9513,14 @@ pg.child_event = {
 		}
 	},
 	[15016] = {
-		state = "",
-		result = 15016,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15016,
 		ratio = 200,
 		id = 15016,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -9650,14 +9650,14 @@ pg.child_event = {
 		}
 	},
 	[15017] = {
-		state = "",
-		result = 15017,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15017,
 		ratio = 200,
 		id = 15017,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -9787,14 +9787,14 @@ pg.child_event = {
 		}
 	},
 	[15018] = {
-		state = "",
-		result = 15018,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15018,
 		ratio = 200,
 		id = 15018,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -9924,14 +9924,14 @@ pg.child_event = {
 		}
 	},
 	[15019] = {
-		state = "",
-		result = 15019,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15019,
 		ratio = 200,
 		id = 15019,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -10061,14 +10061,14 @@ pg.child_event = {
 		}
 	},
 	[15020] = {
-		state = "",
-		result = 15020,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15020,
 		ratio = 200,
 		id = 15020,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -10198,14 +10198,14 @@ pg.child_event = {
 		}
 	},
 	[15023] = {
-		state = "",
-		result = 15023,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15023,
 		ratio = 200,
 		id = 15023,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -10335,14 +10335,14 @@ pg.child_event = {
 		}
 	},
 	[15024] = {
-		state = "",
-		result = 15024,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15024,
 		ratio = 200,
 		id = 15024,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -10472,14 +10472,14 @@ pg.child_event = {
 		}
 	},
 	[15025] = {
-		state = "",
-		result = 15025,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15025,
 		ratio = 200,
 		id = 15025,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -10609,14 +10609,14 @@ pg.child_event = {
 		}
 	},
 	[15026] = {
-		state = "",
-		result = 15026,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15026,
 		ratio = 200,
 		id = 15026,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -10746,14 +10746,14 @@ pg.child_event = {
 		}
 	},
 	[15027] = {
-		state = "",
-		result = 15027,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15027,
 		ratio = 143,
 		id = 15027,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -10883,14 +10883,14 @@ pg.child_event = {
 		}
 	},
 	[15029] = {
-		state = "",
-		result = 15029,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15029,
 		ratio = 143,
 		id = 15029,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -11020,14 +11020,14 @@ pg.child_event = {
 		}
 	},
 	[15030] = {
-		state = "",
-		result = 15030,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15030,
 		ratio = 143,
 		id = 15030,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -11157,14 +11157,14 @@ pg.child_event = {
 		}
 	},
 	[15031] = {
-		state = "",
-		result = 15031,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15031,
 		ratio = 143,
 		id = 15031,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -11294,14 +11294,14 @@ pg.child_event = {
 		}
 	},
 	[15032] = {
-		state = "",
-		result = 15032,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15032,
 		ratio = 143,
 		id = 15032,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -11431,14 +11431,14 @@ pg.child_event = {
 		}
 	},
 	[15033] = {
-		state = "",
-		result = 15033,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15033,
 		ratio = 143,
 		id = 15033,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -11568,14 +11568,14 @@ pg.child_event = {
 		}
 	},
 	[15036] = {
-		state = "",
-		result = 15036,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15036,
 		ratio = 143,
 		id = 15036,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -11705,14 +11705,14 @@ pg.child_event = {
 		}
 	},
 	[15037] = {
-		state = "",
-		result = 15037,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15037,
 		ratio = 143,
 		id = 15037,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -11842,14 +11842,14 @@ pg.child_event = {
 		}
 	},
 	[15038] = {
-		state = "",
-		result = 15038,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15038,
 		ratio = 143,
 		id = 15038,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -11979,14 +11979,14 @@ pg.child_event = {
 		}
 	},
 	[15039] = {
-		state = "",
-		result = 15039,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15039,
 		ratio = 143,
 		id = 15039,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -12116,14 +12116,14 @@ pg.child_event = {
 		}
 	},
 	[15040] = {
-		state = "",
-		result = 15040,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15040,
 		ratio = 200,
 		id = 15040,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -12253,14 +12253,14 @@ pg.child_event = {
 		}
 	},
 	[15042] = {
-		state = "",
-		result = 15042,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15042,
 		ratio = 200,
 		id = 15042,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -12390,14 +12390,14 @@ pg.child_event = {
 		}
 	},
 	[15043] = {
-		state = "",
-		result = 15043,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15043,
 		ratio = 200,
 		id = 15043,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -12527,14 +12527,14 @@ pg.child_event = {
 		}
 	},
 	[15044] = {
-		state = "",
-		result = 15044,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15044,
 		ratio = 200,
 		id = 15044,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -12664,14 +12664,14 @@ pg.child_event = {
 		}
 	},
 	[15045] = {
-		state = "",
-		result = 15045,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15045,
 		ratio = 200,
 		id = 15045,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -12801,14 +12801,14 @@ pg.child_event = {
 		}
 	},
 	[15046] = {
-		state = "",
-		result = 15046,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15046,
 		ratio = 200,
 		id = 15046,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -12938,14 +12938,14 @@ pg.child_event = {
 		}
 	},
 	[15049] = {
-		state = "",
-		result = 15049,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15049,
 		ratio = 200,
 		id = 15049,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -13075,14 +13075,14 @@ pg.child_event = {
 		}
 	},
 	[15050] = {
-		state = "",
-		result = 15050,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15050,
 		ratio = 200,
 		id = 15050,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -13212,14 +13212,14 @@ pg.child_event = {
 		}
 	},
 	[15051] = {
-		state = "",
-		result = 15051,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15051,
 		ratio = 200,
 		id = 15051,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -13349,14 +13349,14 @@ pg.child_event = {
 		}
 	},
 	[15052] = {
-		state = "",
-		result = 15052,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15052,
 		ratio = 200,
 		id = 15052,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -13486,14 +13486,14 @@ pg.child_event = {
 		}
 	},
 	[15053] = {
-		state = "",
-		result = 15053,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15053,
 		ratio = 143,
 		id = 15053,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -13623,14 +13623,14 @@ pg.child_event = {
 		}
 	},
 	[15055] = {
-		state = "",
-		result = 15055,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15055,
 		ratio = 143,
 		id = 15055,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -13760,14 +13760,14 @@ pg.child_event = {
 		}
 	},
 	[15056] = {
-		state = "",
-		result = 15056,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15056,
 		ratio = 143,
 		id = 15056,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -13897,14 +13897,14 @@ pg.child_event = {
 		}
 	},
 	[15057] = {
-		state = "",
-		result = 15057,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15057,
 		ratio = 143,
 		id = 15057,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -14034,14 +14034,14 @@ pg.child_event = {
 		}
 	},
 	[15058] = {
-		state = "",
-		result = 15058,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15058,
 		ratio = 143,
 		id = 15058,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -14171,14 +14171,14 @@ pg.child_event = {
 		}
 	},
 	[15059] = {
-		state = "",
-		result = 15059,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15059,
 		ratio = 143,
 		id = 15059,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -14308,14 +14308,14 @@ pg.child_event = {
 		}
 	},
 	[15062] = {
-		state = "",
-		result = 15062,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15062,
 		ratio = 143,
 		id = 15062,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -14445,14 +14445,14 @@ pg.child_event = {
 		}
 	},
 	[15063] = {
-		state = "",
-		result = 15063,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15063,
 		ratio = 143,
 		id = 15063,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -14582,14 +14582,14 @@ pg.child_event = {
 		}
 	},
 	[15064] = {
-		state = "",
-		result = 15064,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15064,
 		ratio = 143,
 		id = 15064,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -14719,14 +14719,14 @@ pg.child_event = {
 		}
 	},
 	[15065] = {
-		state = "",
-		result = 15065,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15065,
 		ratio = 143,
 		id = 15065,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -14856,13 +14856,13 @@ pg.child_event = {
 		}
 	},
 	[15066] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15066,
+		ratio = 200,
 		id = 15066,
 		attr = "",
 		type_param = {
@@ -14972,13 +14972,13 @@ pg.child_event = {
 		}
 	},
 	[15068] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15068,
+		ratio = 200,
 		id = 15068,
 		attr = "",
 		type_param = {
@@ -15088,13 +15088,13 @@ pg.child_event = {
 		}
 	},
 	[15069] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15069,
+		ratio = 200,
 		id = 15069,
 		attr = "",
 		type_param = {
@@ -15204,13 +15204,13 @@ pg.child_event = {
 		}
 	},
 	[15070] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15070,
+		ratio = 200,
 		id = 15070,
 		attr = "",
 		type_param = {
@@ -15320,13 +15320,13 @@ pg.child_event = {
 		}
 	},
 	[15071] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15071,
+		ratio = 200,
 		id = 15071,
 		attr = "",
 		type_param = {
@@ -15436,13 +15436,13 @@ pg.child_event = {
 		}
 	},
 	[15072] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15072,
+		ratio = 200,
 		id = 15072,
 		attr = "",
 		type_param = {
@@ -15552,13 +15552,13 @@ pg.child_event = {
 		}
 	},
 	[15075] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15075,
+		ratio = 200,
 		id = 15075,
 		attr = "",
 		type_param = {
@@ -15668,13 +15668,13 @@ pg.child_event = {
 		}
 	},
 	[15076] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15076,
+		ratio = 200,
 		id = 15076,
 		attr = "",
 		type_param = {
@@ -15784,13 +15784,13 @@ pg.child_event = {
 		}
 	},
 	[15077] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15077,
+		ratio = 200,
 		id = 15077,
 		attr = "",
 		type_param = {
@@ -15900,13 +15900,13 @@ pg.child_event = {
 		}
 	},
 	[15078] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15078,
+		ratio = 200,
 		id = 15078,
 		attr = "",
 		type_param = {
@@ -16016,14 +16016,14 @@ pg.child_event = {
 		}
 	},
 	[15079] = {
-		state = "",
-		result = 15079,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15079,
 		ratio = 143,
 		id = 15079,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -16153,14 +16153,14 @@ pg.child_event = {
 		}
 	},
 	[15081] = {
-		state = "",
-		result = 15081,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15081,
 		ratio = 143,
 		id = 15081,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -16290,14 +16290,14 @@ pg.child_event = {
 		}
 	},
 	[15082] = {
-		state = "",
-		result = 15082,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15082,
 		ratio = 143,
 		id = 15082,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -16427,14 +16427,14 @@ pg.child_event = {
 		}
 	},
 	[15083] = {
-		state = "",
-		result = 15083,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15083,
 		ratio = 143,
 		id = 15083,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -16564,14 +16564,14 @@ pg.child_event = {
 		}
 	},
 	[15084] = {
-		state = "",
-		result = 15084,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15084,
 		ratio = 143,
 		id = 15084,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -16701,14 +16701,14 @@ pg.child_event = {
 		}
 	},
 	[15085] = {
-		state = "",
-		result = 15085,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15085,
 		ratio = 143,
 		id = 15085,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -16838,14 +16838,14 @@ pg.child_event = {
 		}
 	},
 	[15088] = {
-		state = "",
-		result = 15088,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15088,
 		ratio = 143,
 		id = 15088,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -16975,14 +16975,14 @@ pg.child_event = {
 		}
 	},
 	[15089] = {
-		state = "",
-		result = 15089,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15089,
 		ratio = 143,
 		id = 15089,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -17112,14 +17112,14 @@ pg.child_event = {
 		}
 	},
 	[15090] = {
-		state = "",
-		result = 15090,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15090,
 		ratio = 143,
 		id = 15090,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -17249,14 +17249,14 @@ pg.child_event = {
 		}
 	},
 	[15091] = {
-		state = "",
-		result = 15091,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15091,
 		ratio = 143,
 		id = 15091,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -17386,13 +17386,13 @@ pg.child_event = {
 		}
 	},
 	[15101] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15101,
+		ratio = 200,
 		id = 15101,
 		attr = "",
 		type_param = {
@@ -17502,13 +17502,13 @@ pg.child_event = {
 		}
 	},
 	[15103] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15103,
+		ratio = 200,
 		id = 15103,
 		attr = "",
 		type_param = {
@@ -17618,13 +17618,13 @@ pg.child_event = {
 		}
 	},
 	[15104] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15104,
+		ratio = 200,
 		id = 15104,
 		attr = "",
 		type_param = {
@@ -17734,13 +17734,13 @@ pg.child_event = {
 		}
 	},
 	[15105] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15105,
+		ratio = 200,
 		id = 15105,
 		attr = "",
 		type_param = {
@@ -17850,13 +17850,13 @@ pg.child_event = {
 		}
 	},
 	[15106] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15106,
+		ratio = 200,
 		id = 15106,
 		attr = "",
 		type_param = {
@@ -17966,13 +17966,13 @@ pg.child_event = {
 		}
 	},
 	[15107] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15107,
+		ratio = 200,
 		id = 15107,
 		attr = "",
 		type_param = {
@@ -18082,13 +18082,13 @@ pg.child_event = {
 		}
 	},
 	[15110] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15110,
+		ratio = 200,
 		id = 15110,
 		attr = "",
 		type_param = {
@@ -18198,13 +18198,13 @@ pg.child_event = {
 		}
 	},
 	[15111] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15111,
+		ratio = 200,
 		id = 15111,
 		attr = "",
 		type_param = {
@@ -18314,13 +18314,13 @@ pg.child_event = {
 		}
 	},
 	[15112] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15112,
+		ratio = 200,
 		id = 15112,
 		attr = "",
 		type_param = {
@@ -18430,13 +18430,13 @@ pg.child_event = {
 		}
 	},
 	[15113] = {
-		state = "",
-		ratio = 200,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
 		resource = "",
 		result = 15113,
+		ratio = 200,
 		id = 15113,
 		attr = "",
 		type_param = {
@@ -18546,14 +18546,14 @@ pg.child_event = {
 		}
 	},
 	[15121] = {
-		state = "",
-		result = 15121,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15121,
 		ratio = 143,
 		id = 15121,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -18683,14 +18683,14 @@ pg.child_event = {
 		}
 	},
 	[15122] = {
-		state = "",
-		result = 15122,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15122,
 		ratio = 143,
 		id = 15122,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -18820,14 +18820,14 @@ pg.child_event = {
 		}
 	},
 	[15123] = {
-		state = "",
-		result = 15123,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15123,
 		ratio = 143,
 		id = 15123,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -18957,14 +18957,14 @@ pg.child_event = {
 		}
 	},
 	[15124] = {
-		state = "",
-		result = 15124,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15124,
 		ratio = 143,
 		id = 15124,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -19094,14 +19094,14 @@ pg.child_event = {
 		}
 	},
 	[15131] = {
-		state = "",
-		result = 15121,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15121,
 		ratio = 143,
 		id = 15131,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -19231,14 +19231,14 @@ pg.child_event = {
 		}
 	},
 	[15132] = {
-		state = "",
-		result = 15122,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15122,
 		ratio = 143,
 		id = 15132,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -19368,14 +19368,14 @@ pg.child_event = {
 		}
 	},
 	[15133] = {
-		state = "",
-		result = 15123,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15123,
 		ratio = 143,
 		id = 15133,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -19505,14 +19505,14 @@ pg.child_event = {
 		}
 	},
 	[15134] = {
-		state = "",
-		result = 15124,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15124,
 		ratio = 143,
 		id = 15134,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -19642,14 +19642,14 @@ pg.child_event = {
 		}
 	},
 	[15141] = {
-		state = "",
-		result = 15141,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15141,
 		ratio = 143,
 		id = 15141,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -19779,14 +19779,14 @@ pg.child_event = {
 		}
 	},
 	[15142] = {
-		state = "",
-		result = 15142,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15142,
 		ratio = 143,
 		id = 15142,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -19916,14 +19916,14 @@ pg.child_event = {
 		}
 	},
 	[15143] = {
-		state = "",
-		result = 15143,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15143,
 		ratio = 143,
 		id = 15143,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -20053,14 +20053,14 @@ pg.child_event = {
 		}
 	},
 	[15144] = {
-		state = "",
-		result = 15144,
-		item = "",
 		type = 1,
+		item = "",
 		group = 1,
+		state = "",
+		resource = "",
+		result = 15144,
 		ratio = 143,
 		id = 15144,
-		resource = "",
 		type_param = {
 			1101,
 			1102,
@@ -20190,14 +20190,14 @@ pg.child_event = {
 		}
 	},
 	[110301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 110301,
+		ratio = 1250,
 		id = 110301,
 		attr = "",
 		type_param = {
@@ -20208,14 +20208,14 @@ pg.child_event = {
 		}
 	},
 	[110302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 110302,
+		ratio = 1250,
 		id = 110302,
 		attr = "",
 		type_param = {
@@ -20226,14 +20226,14 @@ pg.child_event = {
 		}
 	},
 	[110303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 110303,
+		ratio = 1250,
 		id = 110303,
 		attr = "",
 		type_param = {
@@ -20244,14 +20244,14 @@ pg.child_event = {
 		}
 	},
 	[110304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 110304,
+		ratio = 1250,
 		id = 110304,
 		attr = "",
 		type_param = {
@@ -20262,14 +20262,14 @@ pg.child_event = {
 		}
 	},
 	[110305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 110330,
+		ratio = 5000,
 		id = 110305,
 		attr = "",
 		type_param = {
@@ -20278,14 +20278,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1103201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 1103201,
+		ratio = 1250,
 		id = 1103201,
 		attr = "",
 		type_param = {
@@ -20296,14 +20296,14 @@ pg.child_event = {
 		}
 	},
 	[1103202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 1103202,
+		ratio = 1250,
 		id = 1103202,
 		attr = "",
 		type_param = {
@@ -20314,14 +20314,14 @@ pg.child_event = {
 		}
 	},
 	[1103203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 1103203,
+		ratio = 1250,
 		id = 1103203,
 		attr = "",
 		type_param = {
@@ -20332,14 +20332,14 @@ pg.child_event = {
 		}
 	},
 	[1103204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 1103204,
+		ratio = 1250,
 		id = 1103204,
 		attr = "",
 		type_param = {
@@ -20350,14 +20350,14 @@ pg.child_event = {
 		}
 	},
 	[1103205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1103230,
+		ratio = 5000,
 		id = 1103205,
 		attr = "",
 		type_param = {
@@ -20366,14 +20366,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1103301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 1103301,
+		ratio = 1250,
 		id = 1103301,
 		attr = "",
 		type_param = {
@@ -20384,14 +20384,14 @@ pg.child_event = {
 		}
 	},
 	[1103302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 1103302,
+		ratio = 1250,
 		id = 1103302,
 		attr = "",
 		type_param = {
@@ -20402,14 +20402,14 @@ pg.child_event = {
 		}
 	},
 	[1103303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 1103303,
+		ratio = 1250,
 		id = 1103303,
 		attr = "",
 		type_param = {
@@ -20420,14 +20420,14 @@ pg.child_event = {
 		}
 	},
 	[1103304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1250,
+		state = "",
 		resource = "",
 		result = 1103304,
+		ratio = 1250,
 		id = 1103304,
 		attr = "",
 		type_param = {
@@ -20438,14 +20438,14 @@ pg.child_event = {
 		}
 	},
 	[1103305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1103330,
+		ratio = 5000,
 		id = 1103305,
 		attr = "",
 		type_param = {
@@ -20454,13 +20454,13 @@ pg.child_event = {
 		performance = {}
 	},
 	[111201] = {
-		state = "",
-		ratio = 1700,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111201,
+		ratio = 1700,
 		id = 111201,
 		attr = "",
 		type_param = {
@@ -20483,13 +20483,13 @@ pg.child_event = {
 		}
 	},
 	[111202] = {
-		state = "",
-		ratio = 1700,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111202,
+		ratio = 1700,
 		id = 111202,
 		attr = "",
 		type_param = {
@@ -20512,13 +20512,13 @@ pg.child_event = {
 		}
 	},
 	[111203] = {
-		state = "",
-		ratio = 1700,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111203,
+		ratio = 1700,
 		id = 111203,
 		attr = "",
 		type_param = {
@@ -20541,13 +20541,13 @@ pg.child_event = {
 		}
 	},
 	[111204] = {
-		state = "",
-		ratio = 1700,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111204,
+		ratio = 1700,
 		id = 111204,
 		attr = "",
 		type_param = {
@@ -20570,13 +20570,13 @@ pg.child_event = {
 		}
 	},
 	[1112201] = {
-		state = "",
-		ratio = 1700,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111201,
+		ratio = 1700,
 		id = 1112201,
 		attr = "",
 		type_param = {
@@ -20599,13 +20599,13 @@ pg.child_event = {
 		}
 	},
 	[1112202] = {
-		state = "",
-		ratio = 1700,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111202,
+		ratio = 1700,
 		id = 1112202,
 		attr = "",
 		type_param = {
@@ -20628,13 +20628,13 @@ pg.child_event = {
 		}
 	},
 	[1112203] = {
-		state = "",
-		ratio = 1700,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111203,
+		ratio = 1700,
 		id = 1112203,
 		attr = "",
 		type_param = {
@@ -20657,13 +20657,13 @@ pg.child_event = {
 		}
 	},
 	[1112204] = {
-		state = "",
-		ratio = 1700,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111204,
+		ratio = 1700,
 		id = 1112204,
 		attr = "",
 		type_param = {
@@ -20686,13 +20686,13 @@ pg.child_event = {
 		}
 	},
 	[1112301] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111201,
+		ratio = 1000,
 		id = 1112301,
 		attr = "",
 		type_param = {
@@ -20715,13 +20715,13 @@ pg.child_event = {
 		}
 	},
 	[1112302] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111202,
+		ratio = 1000,
 		id = 1112302,
 		attr = "",
 		type_param = {
@@ -20744,13 +20744,13 @@ pg.child_event = {
 		}
 	},
 	[1112303] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111203,
+		ratio = 1000,
 		id = 1112303,
 		attr = "",
 		type_param = {
@@ -20773,13 +20773,13 @@ pg.child_event = {
 		}
 	},
 	[1112304] = {
-		state = "",
-		ratio = 1000,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111204,
+		ratio = 1000,
 		id = 1112304,
 		attr = "",
 		type_param = {
@@ -20802,13 +20802,13 @@ pg.child_event = {
 		}
 	},
 	[1112305] = {
-		state = "",
-		ratio = 500,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111205,
+		ratio = 500,
 		id = 1112305,
 		attr = "",
 		type_param = {
@@ -20831,13 +20831,13 @@ pg.child_event = {
 		}
 	},
 	[1112306] = {
-		state = "",
-		ratio = 500,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111206,
+		ratio = 500,
 		id = 1112306,
 		attr = "",
 		type_param = {
@@ -20860,13 +20860,13 @@ pg.child_event = {
 		}
 	},
 	[1112307] = {
-		state = "",
-		ratio = 500,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111207,
+		ratio = 500,
 		id = 1112307,
 		attr = "",
 		type_param = {
@@ -20889,13 +20889,13 @@ pg.child_event = {
 		}
 	},
 	[1112308] = {
-		state = "",
-		ratio = 500,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111208,
+		ratio = 500,
 		id = 1112308,
 		attr = "",
 		type_param = {
@@ -20918,13 +20918,13 @@ pg.child_event = {
 		}
 	},
 	[1112309] = {
-		state = "",
-		ratio = 500,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111209,
+		ratio = 500,
 		id = 1112309,
 		attr = "",
 		type_param = {
@@ -20947,13 +20947,13 @@ pg.child_event = {
 		}
 	},
 	[1112310] = {
-		state = "",
-		ratio = 500,
-		item = "",
 		type = 2,
+		item = "",
 		group = 0,
+		state = "",
 		resource = "",
 		result = 111210,
+		ratio = 500,
 		id = 1112310,
 		attr = "",
 		type_param = {
@@ -20976,14 +20976,14 @@ pg.child_event = {
 		}
 	},
 	[120401] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120401,
+		ratio = 556,
 		id = 120401,
 		attr = "",
 		type_param = {
@@ -20994,14 +20994,14 @@ pg.child_event = {
 		}
 	},
 	[120402] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120402,
+		ratio = 556,
 		id = 120402,
 		attr = "",
 		type_param = {
@@ -21012,14 +21012,14 @@ pg.child_event = {
 		}
 	},
 	[120403] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120403,
+		ratio = 556,
 		id = 120403,
 		attr = "",
 		type_param = {
@@ -21030,14 +21030,14 @@ pg.child_event = {
 		}
 	},
 	[120404] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120404,
+		ratio = 556,
 		id = 120404,
 		attr = "",
 		type_param = {
@@ -21048,14 +21048,14 @@ pg.child_event = {
 		}
 	},
 	[120405] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120405,
+		ratio = 556,
 		id = 120405,
 		attr = "",
 		type_param = {
@@ -21066,14 +21066,14 @@ pg.child_event = {
 		}
 	},
 	[120406] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120406,
+		ratio = 556,
 		id = 120406,
 		attr = "",
 		type_param = {
@@ -21084,14 +21084,14 @@ pg.child_event = {
 		}
 	},
 	[120407] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120407,
+		ratio = 556,
 		id = 120407,
 		attr = "",
 		type_param = {
@@ -21102,14 +21102,14 @@ pg.child_event = {
 		}
 	},
 	[120408] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120408,
+		ratio = 556,
 		id = 120408,
 		attr = "",
 		type_param = {
@@ -21120,14 +21120,14 @@ pg.child_event = {
 		}
 	},
 	[120409] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 120409,
+		ratio = 556,
 		id = 120409,
 		attr = "",
 		type_param = {
@@ -21138,14 +21138,14 @@ pg.child_event = {
 		}
 	},
 	[120410] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 120430,
+		ratio = 5000,
 		id = 120410,
 		attr = "",
 		type_param = {
@@ -21154,14 +21154,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1204201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204202,
+		ratio = 556,
 		id = 1204201,
 		attr = "",
 		type_param = {
@@ -21172,14 +21172,14 @@ pg.child_event = {
 		}
 	},
 	[1204202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204203,
+		ratio = 556,
 		id = 1204202,
 		attr = "",
 		type_param = {
@@ -21190,14 +21190,14 @@ pg.child_event = {
 		}
 	},
 	[1204203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204204,
+		ratio = 556,
 		id = 1204203,
 		attr = "",
 		type_param = {
@@ -21208,14 +21208,14 @@ pg.child_event = {
 		}
 	},
 	[1204204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204205,
+		ratio = 556,
 		id = 1204204,
 		attr = "",
 		type_param = {
@@ -21226,14 +21226,14 @@ pg.child_event = {
 		}
 	},
 	[1204205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204206,
+		ratio = 556,
 		id = 1204205,
 		attr = "",
 		type_param = {
@@ -21244,14 +21244,14 @@ pg.child_event = {
 		}
 	},
 	[1204206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204207,
+		ratio = 556,
 		id = 1204206,
 		attr = "",
 		type_param = {
@@ -21262,14 +21262,14 @@ pg.child_event = {
 		}
 	},
 	[1204207] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204208,
+		ratio = 556,
 		id = 1204207,
 		attr = "",
 		type_param = {
@@ -21280,14 +21280,14 @@ pg.child_event = {
 		}
 	},
 	[1204208] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204209,
+		ratio = 556,
 		id = 1204208,
 		attr = "",
 		type_param = {
@@ -21298,14 +21298,14 @@ pg.child_event = {
 		}
 	},
 	[1204209] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204210,
+		ratio = 556,
 		id = 1204209,
 		attr = "",
 		type_param = {
@@ -21316,14 +21316,14 @@ pg.child_event = {
 		}
 	},
 	[1204210] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1204230,
+		ratio = 5000,
 		id = 1204210,
 		attr = "",
 		type_param = {
@@ -21332,14 +21332,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1204301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204302,
+		ratio = 556,
 		id = 1204301,
 		attr = "",
 		type_param = {
@@ -21350,14 +21350,14 @@ pg.child_event = {
 		}
 	},
 	[1204302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204303,
+		ratio = 556,
 		id = 1204302,
 		attr = "",
 		type_param = {
@@ -21368,14 +21368,14 @@ pg.child_event = {
 		}
 	},
 	[1204303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204304,
+		ratio = 556,
 		id = 1204303,
 		attr = "",
 		type_param = {
@@ -21386,14 +21386,14 @@ pg.child_event = {
 		}
 	},
 	[1204304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204305,
+		ratio = 556,
 		id = 1204304,
 		attr = "",
 		type_param = {
@@ -21404,14 +21404,14 @@ pg.child_event = {
 		}
 	},
 	[1204305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204306,
+		ratio = 556,
 		id = 1204305,
 		attr = "",
 		type_param = {
@@ -21422,14 +21422,14 @@ pg.child_event = {
 		}
 	},
 	[1204306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204307,
+		ratio = 556,
 		id = 1204306,
 		attr = "",
 		type_param = {
@@ -21440,14 +21440,14 @@ pg.child_event = {
 		}
 	},
 	[1204307] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204308,
+		ratio = 556,
 		id = 1204307,
 		attr = "",
 		type_param = {
@@ -21458,14 +21458,14 @@ pg.child_event = {
 		}
 	},
 	[1204308] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204309,
+		ratio = 556,
 		id = 1204308,
 		attr = "",
 		type_param = {
@@ -21476,14 +21476,14 @@ pg.child_event = {
 		}
 	},
 	[1204309] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1204310,
+		ratio = 556,
 		id = 1204309,
 		attr = "",
 		type_param = {
@@ -21494,14 +21494,14 @@ pg.child_event = {
 		}
 	},
 	[1204310] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1204330,
+		ratio = 5000,
 		id = 1204310,
 		attr = "",
 		type_param = {
@@ -21510,14 +21510,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[121101] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 121103,
+		ratio = 1667,
 		id = 121101,
 		attr = "",
 		type_param = {
@@ -21528,14 +21528,14 @@ pg.child_event = {
 		}
 	},
 	[121102] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 121104,
+		ratio = 1667,
 		id = 121102,
 		attr = "",
 		type_param = {
@@ -21546,14 +21546,14 @@ pg.child_event = {
 		}
 	},
 	[121103] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 121105,
+		ratio = 1667,
 		id = 121103,
 		attr = "",
 		type_param = {
@@ -21564,14 +21564,14 @@ pg.child_event = {
 		}
 	},
 	[121104] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 121106,
+		ratio = 1667,
 		id = 121104,
 		attr = "",
 		type_param = {
@@ -21582,14 +21582,14 @@ pg.child_event = {
 		}
 	},
 	[121105] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 121107,
+		ratio = 1667,
 		id = 121105,
 		attr = "",
 		type_param = {
@@ -21600,14 +21600,14 @@ pg.child_event = {
 		}
 	},
 	[121106] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 121108,
+		ratio = 1667,
 		id = 121106,
 		attr = "",
 		type_param = {
@@ -21618,14 +21618,14 @@ pg.child_event = {
 		}
 	},
 	[1211201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211203,
+		ratio = 1667,
 		id = 1211201,
 		attr = "",
 		type_param = {
@@ -21636,14 +21636,14 @@ pg.child_event = {
 		}
 	},
 	[1211202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211204,
+		ratio = 1667,
 		id = 1211202,
 		attr = "",
 		type_param = {
@@ -21654,14 +21654,14 @@ pg.child_event = {
 		}
 	},
 	[1211203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211205,
+		ratio = 1667,
 		id = 1211203,
 		attr = "",
 		type_param = {
@@ -21672,14 +21672,14 @@ pg.child_event = {
 		}
 	},
 	[1211204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211206,
+		ratio = 1667,
 		id = 1211204,
 		attr = "",
 		type_param = {
@@ -21690,14 +21690,14 @@ pg.child_event = {
 		}
 	},
 	[1211205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211207,
+		ratio = 1667,
 		id = 1211205,
 		attr = "",
 		type_param = {
@@ -21708,14 +21708,14 @@ pg.child_event = {
 		}
 	},
 	[1211206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211208,
+		ratio = 1667,
 		id = 1211206,
 		attr = "",
 		type_param = {
@@ -21726,14 +21726,14 @@ pg.child_event = {
 		}
 	},
 	[1211301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211303,
+		ratio = 1667,
 		id = 1211301,
 		attr = "",
 		type_param = {
@@ -21744,14 +21744,14 @@ pg.child_event = {
 		}
 	},
 	[1211302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211304,
+		ratio = 1667,
 		id = 1211302,
 		attr = "",
 		type_param = {
@@ -21762,14 +21762,14 @@ pg.child_event = {
 		}
 	},
 	[1211303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211305,
+		ratio = 1667,
 		id = 1211303,
 		attr = "",
 		type_param = {
@@ -21780,14 +21780,14 @@ pg.child_event = {
 		}
 	},
 	[1211304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211306,
+		ratio = 1667,
 		id = 1211304,
 		attr = "",
 		type_param = {
@@ -21798,14 +21798,14 @@ pg.child_event = {
 		}
 	},
 	[1211305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211307,
+		ratio = 1667,
 		id = 1211305,
 		attr = "",
 		type_param = {
@@ -21816,14 +21816,14 @@ pg.child_event = {
 		}
 	},
 	[1211306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1667,
+		state = "",
 		resource = "",
 		result = 1211308,
+		ratio = 1667,
 		id = 1211306,
 		attr = "",
 		type_param = {
@@ -21834,14 +21834,14 @@ pg.child_event = {
 		}
 	},
 	[121201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 121201,
+		ratio = 1334,
 		id = 121201,
 		attr = "",
 		type_param = {
@@ -21852,14 +21852,14 @@ pg.child_event = {
 		}
 	},
 	[121202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 121202,
+		ratio = 1334,
 		id = 121202,
 		attr = "",
 		type_param = {
@@ -21870,14 +21870,14 @@ pg.child_event = {
 		}
 	},
 	[121203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 121203,
+		ratio = 1334,
 		id = 121203,
 		attr = "",
 		type_param = {
@@ -21888,14 +21888,14 @@ pg.child_event = {
 		}
 	},
 	[121204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 121204,
+		ratio = 1334,
 		id = 121204,
 		attr = "",
 		type_param = {
@@ -21906,14 +21906,14 @@ pg.child_event = {
 		}
 	},
 	[121205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 121205,
+		ratio = 1334,
 		id = 121205,
 		attr = "",
 		type_param = {
@@ -21924,14 +21924,14 @@ pg.child_event = {
 		}
 	},
 	[121206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 121206,
+		ratio = 1334,
 		id = 121206,
 		attr = "",
 		type_param = {
@@ -21942,14 +21942,14 @@ pg.child_event = {
 		}
 	},
 	[1212201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212201,
+		ratio = 1334,
 		id = 1212201,
 		attr = "",
 		type_param = {
@@ -21960,14 +21960,14 @@ pg.child_event = {
 		}
 	},
 	[1212202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212202,
+		ratio = 1334,
 		id = 1212202,
 		attr = "",
 		type_param = {
@@ -21978,14 +21978,14 @@ pg.child_event = {
 		}
 	},
 	[1212203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212203,
+		ratio = 1334,
 		id = 1212203,
 		attr = "",
 		type_param = {
@@ -21996,14 +21996,14 @@ pg.child_event = {
 		}
 	},
 	[1212204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212204,
+		ratio = 1334,
 		id = 1212204,
 		attr = "",
 		type_param = {
@@ -22014,14 +22014,14 @@ pg.child_event = {
 		}
 	},
 	[1212205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212205,
+		ratio = 1334,
 		id = 1212205,
 		attr = "",
 		type_param = {
@@ -22032,14 +22032,14 @@ pg.child_event = {
 		}
 	},
 	[1212206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212206,
+		ratio = 1334,
 		id = 1212206,
 		attr = "",
 		type_param = {
@@ -22050,14 +22050,14 @@ pg.child_event = {
 		}
 	},
 	[1212301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212301,
+		ratio = 1334,
 		id = 1212301,
 		attr = "",
 		type_param = {
@@ -22068,14 +22068,14 @@ pg.child_event = {
 		}
 	},
 	[1212302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212302,
+		ratio = 1334,
 		id = 1212302,
 		attr = "",
 		type_param = {
@@ -22086,14 +22086,14 @@ pg.child_event = {
 		}
 	},
 	[1212303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212303,
+		ratio = 1334,
 		id = 1212303,
 		attr = "",
 		type_param = {
@@ -22104,14 +22104,14 @@ pg.child_event = {
 		}
 	},
 	[1212304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212304,
+		ratio = 1334,
 		id = 1212304,
 		attr = "",
 		type_param = {
@@ -22122,14 +22122,14 @@ pg.child_event = {
 		}
 	},
 	[1212305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212305,
+		ratio = 1334,
 		id = 1212305,
 		attr = "",
 		type_param = {
@@ -22140,14 +22140,14 @@ pg.child_event = {
 		}
 	},
 	[1212306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1334,
+		state = "",
 		resource = "",
 		result = 1212306,
+		ratio = 1334,
 		id = 1212306,
 		attr = "",
 		type_param = {
@@ -22158,14 +22158,14 @@ pg.child_event = {
 		}
 	},
 	[121301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 120201,
+		ratio = 2500,
 		id = 121301,
 		attr = "",
 		type_param = {
@@ -22176,14 +22176,14 @@ pg.child_event = {
 		}
 	},
 	[121302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 120202,
+		ratio = 2500,
 		id = 121302,
 		attr = "",
 		type_param = {
@@ -22194,14 +22194,14 @@ pg.child_event = {
 		}
 	},
 	[121304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 120204,
+		ratio = 2500,
 		id = 121304,
 		attr = "",
 		type_param = {
@@ -22212,14 +22212,14 @@ pg.child_event = {
 		}
 	},
 	[121305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 120205,
+		ratio = 2500,
 		id = 121305,
 		attr = "",
 		type_param = {
@@ -22230,14 +22230,14 @@ pg.child_event = {
 		}
 	},
 	[1213201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 1202201,
+		ratio = 2500,
 		id = 1213201,
 		attr = "",
 		type_param = {
@@ -22248,14 +22248,14 @@ pg.child_event = {
 		}
 	},
 	[1213202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 1202202,
+		ratio = 2500,
 		id = 1213202,
 		attr = "",
 		type_param = {
@@ -22266,14 +22266,14 @@ pg.child_event = {
 		}
 	},
 	[1213204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 1202204,
+		ratio = 2500,
 		id = 1213204,
 		attr = "",
 		type_param = {
@@ -22284,14 +22284,14 @@ pg.child_event = {
 		}
 	},
 	[1213205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 1202205,
+		ratio = 2500,
 		id = 1213205,
 		attr = "",
 		type_param = {
@@ -22302,14 +22302,14 @@ pg.child_event = {
 		}
 	},
 	[1213301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 1202301,
+		ratio = 2500,
 		id = 1213301,
 		attr = "",
 		type_param = {
@@ -22320,14 +22320,14 @@ pg.child_event = {
 		}
 	},
 	[1213302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 1202302,
+		ratio = 2500,
 		id = 1213302,
 		attr = "",
 		type_param = {
@@ -22338,14 +22338,14 @@ pg.child_event = {
 		}
 	},
 	[1213304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 1202304,
+		ratio = 2500,
 		id = 1213304,
 		attr = "",
 		type_param = {
@@ -22356,14 +22356,14 @@ pg.child_event = {
 		}
 	},
 	[1213305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2500,
+		state = "",
 		resource = "",
 		result = 1202305,
+		ratio = 2500,
 		id = 1213305,
 		attr = "",
 		type_param = {
@@ -22374,14 +22374,14 @@ pg.child_event = {
 		}
 	},
 	[130301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 3000,
+		state = "",
 		resource = "",
 		result = 131110,
+		ratio = 3000,
 		id = 130301,
 		attr = "",
 		type_param = {
@@ -22392,14 +22392,14 @@ pg.child_event = {
 		}
 	},
 	[130302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 3000,
+		state = "",
 		resource = "",
 		result = 131110,
+		ratio = 3000,
 		id = 130302,
 		attr = "",
 		type_param = {
@@ -22410,14 +22410,14 @@ pg.child_event = {
 		}
 	},
 	[130303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 3000,
+		state = "",
 		resource = "",
 		result = 131110,
+		ratio = 3000,
 		id = 130303,
 		attr = "",
 		type_param = {
@@ -22428,14 +22428,14 @@ pg.child_event = {
 		}
 	},
 	[1303201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 3000,
+		state = "",
 		resource = "",
 		result = 131110,
+		ratio = 3000,
 		id = 1303201,
 		attr = "",
 		type_param = {
@@ -22446,14 +22446,14 @@ pg.child_event = {
 		}
 	},
 	[1303202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 3000,
+		state = "",
 		resource = "",
 		result = 131110,
+		ratio = 3000,
 		id = 1303202,
 		attr = "",
 		type_param = {
@@ -22464,14 +22464,14 @@ pg.child_event = {
 		}
 	},
 	[1303203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 3000,
+		state = "",
 		resource = "",
 		result = 131110,
+		ratio = 3000,
 		id = 1303203,
 		attr = "",
 		type_param = {
@@ -22482,14 +22482,14 @@ pg.child_event = {
 		}
 	},
 	[130401] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130401,
+		ratio = 556,
 		id = 130401,
 		attr = "",
 		type_param = {
@@ -22500,14 +22500,14 @@ pg.child_event = {
 		}
 	},
 	[130402] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130402,
+		ratio = 556,
 		id = 130402,
 		attr = "",
 		type_param = {
@@ -22518,14 +22518,14 @@ pg.child_event = {
 		}
 	},
 	[130403] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130403,
+		ratio = 556,
 		id = 130403,
 		attr = "",
 		type_param = {
@@ -22536,14 +22536,14 @@ pg.child_event = {
 		}
 	},
 	[130404] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130404,
+		ratio = 556,
 		id = 130404,
 		attr = "",
 		type_param = {
@@ -22554,14 +22554,14 @@ pg.child_event = {
 		}
 	},
 	[130405] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130405,
+		ratio = 556,
 		id = 130405,
 		attr = "",
 		type_param = {
@@ -22572,14 +22572,14 @@ pg.child_event = {
 		}
 	},
 	[130406] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130406,
+		ratio = 556,
 		id = 130406,
 		attr = "",
 		type_param = {
@@ -22590,14 +22590,14 @@ pg.child_event = {
 		}
 	},
 	[130407] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130407,
+		ratio = 556,
 		id = 130407,
 		attr = "",
 		type_param = {
@@ -22608,14 +22608,14 @@ pg.child_event = {
 		}
 	},
 	[130408] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130408,
+		ratio = 556,
 		id = 130408,
 		attr = "",
 		type_param = {
@@ -22626,14 +22626,14 @@ pg.child_event = {
 		}
 	},
 	[130409] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 130409,
+		ratio = 556,
 		id = 130409,
 		attr = "",
 		type_param = {
@@ -22644,14 +22644,14 @@ pg.child_event = {
 		}
 	},
 	[130410] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 130430,
+		ratio = 5000,
 		id = 130410,
 		attr = "",
 		type_param = {
@@ -22660,14 +22660,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1304201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304201,
+		ratio = 556,
 		id = 1304201,
 		attr = "",
 		type_param = {
@@ -22678,14 +22678,14 @@ pg.child_event = {
 		}
 	},
 	[1304202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304202,
+		ratio = 556,
 		id = 1304202,
 		attr = "",
 		type_param = {
@@ -22696,14 +22696,14 @@ pg.child_event = {
 		}
 	},
 	[1304203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304203,
+		ratio = 556,
 		id = 1304203,
 		attr = "",
 		type_param = {
@@ -22714,14 +22714,14 @@ pg.child_event = {
 		}
 	},
 	[1304204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304204,
+		ratio = 556,
 		id = 1304204,
 		attr = "",
 		type_param = {
@@ -22732,14 +22732,14 @@ pg.child_event = {
 		}
 	},
 	[1304205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304205,
+		ratio = 556,
 		id = 1304205,
 		attr = "",
 		type_param = {
@@ -22750,14 +22750,14 @@ pg.child_event = {
 		}
 	},
 	[1304206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304206,
+		ratio = 556,
 		id = 1304206,
 		attr = "",
 		type_param = {
@@ -22768,14 +22768,14 @@ pg.child_event = {
 		}
 	},
 	[1304207] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304207,
+		ratio = 556,
 		id = 1304207,
 		attr = "",
 		type_param = {
@@ -22786,14 +22786,14 @@ pg.child_event = {
 		}
 	},
 	[1304208] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304208,
+		ratio = 556,
 		id = 1304208,
 		attr = "",
 		type_param = {
@@ -22804,14 +22804,14 @@ pg.child_event = {
 		}
 	},
 	[1304209] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304209,
+		ratio = 556,
 		id = 1304209,
 		attr = "",
 		type_param = {
@@ -22822,14 +22822,14 @@ pg.child_event = {
 		}
 	},
 	[1304210] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1304230,
+		ratio = 5000,
 		id = 1304210,
 		attr = "",
 		type_param = {
@@ -22838,14 +22838,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1304301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304301,
+		ratio = 556,
 		id = 1304301,
 		attr = "",
 		type_param = {
@@ -22856,14 +22856,14 @@ pg.child_event = {
 		}
 	},
 	[1304302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304302,
+		ratio = 556,
 		id = 1304302,
 		attr = "",
 		type_param = {
@@ -22874,14 +22874,14 @@ pg.child_event = {
 		}
 	},
 	[1304303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304303,
+		ratio = 556,
 		id = 1304303,
 		attr = "",
 		type_param = {
@@ -22892,14 +22892,14 @@ pg.child_event = {
 		}
 	},
 	[1304304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304304,
+		ratio = 556,
 		id = 1304304,
 		attr = "",
 		type_param = {
@@ -22910,14 +22910,14 @@ pg.child_event = {
 		}
 	},
 	[1304305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304305,
+		ratio = 556,
 		id = 1304305,
 		attr = "",
 		type_param = {
@@ -22928,14 +22928,14 @@ pg.child_event = {
 		}
 	},
 	[1304306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304306,
+		ratio = 556,
 		id = 1304306,
 		attr = "",
 		type_param = {
@@ -22946,14 +22946,14 @@ pg.child_event = {
 		}
 	},
 	[1304307] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304307,
+		ratio = 556,
 		id = 1304307,
 		attr = "",
 		type_param = {
@@ -22964,14 +22964,14 @@ pg.child_event = {
 		}
 	},
 	[1304308] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304308,
+		ratio = 556,
 		id = 1304308,
 		attr = "",
 		type_param = {
@@ -22982,14 +22982,14 @@ pg.child_event = {
 		}
 	},
 	[1304309] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 556,
+		state = "",
 		resource = "",
 		result = 1304309,
+		ratio = 556,
 		id = 1304309,
 		attr = "",
 		type_param = {
@@ -23000,14 +23000,14 @@ pg.child_event = {
 		}
 	},
 	[1304310] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1304330,
+		ratio = 5000,
 		id = 1304310,
 		attr = "",
 		type_param = {
@@ -23016,14 +23016,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[140301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 140301,
+		ratio = 833,
 		id = 140301,
 		attr = "",
 		type_param = {
@@ -23034,14 +23034,14 @@ pg.child_event = {
 		}
 	},
 	[140302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 140302,
+		ratio = 833,
 		id = 140302,
 		attr = "",
 		type_param = {
@@ -23052,14 +23052,14 @@ pg.child_event = {
 		}
 	},
 	[140303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 140303,
+		ratio = 833,
 		id = 140303,
 		attr = "",
 		type_param = {
@@ -23070,14 +23070,14 @@ pg.child_event = {
 		}
 	},
 	[140304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 140304,
+		ratio = 833,
 		id = 140304,
 		attr = "",
 		type_param = {
@@ -23088,14 +23088,14 @@ pg.child_event = {
 		}
 	},
 	[140305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 140305,
+		ratio = 833,
 		id = 140305,
 		attr = "",
 		type_param = {
@@ -23106,14 +23106,14 @@ pg.child_event = {
 		}
 	},
 	[140306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 140306,
+		ratio = 833,
 		id = 140306,
 		attr = "",
 		type_param = {
@@ -23124,14 +23124,14 @@ pg.child_event = {
 		}
 	},
 	[140307] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 140330,
+		ratio = 5000,
 		id = 140307,
 		attr = "",
 		type_param = {
@@ -23140,14 +23140,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1403201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403201,
+		ratio = 833,
 		id = 1403201,
 		attr = "",
 		type_param = {
@@ -23158,14 +23158,14 @@ pg.child_event = {
 		}
 	},
 	[1403202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403202,
+		ratio = 833,
 		id = 1403202,
 		attr = "",
 		type_param = {
@@ -23176,14 +23176,14 @@ pg.child_event = {
 		}
 	},
 	[1403203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403203,
+		ratio = 833,
 		id = 1403203,
 		attr = "",
 		type_param = {
@@ -23194,14 +23194,14 @@ pg.child_event = {
 		}
 	},
 	[1403204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403204,
+		ratio = 833,
 		id = 1403204,
 		attr = "",
 		type_param = {
@@ -23212,14 +23212,14 @@ pg.child_event = {
 		}
 	},
 	[1403205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403205,
+		ratio = 833,
 		id = 1403205,
 		attr = "",
 		type_param = {
@@ -23230,14 +23230,14 @@ pg.child_event = {
 		}
 	},
 	[1403206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403206,
+		ratio = 833,
 		id = 1403206,
 		attr = "",
 		type_param = {
@@ -23248,14 +23248,14 @@ pg.child_event = {
 		}
 	},
 	[1403207] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1403230,
+		ratio = 5000,
 		id = 1403207,
 		attr = "",
 		type_param = {
@@ -23264,14 +23264,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1403301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403301,
+		ratio = 833,
 		id = 1403301,
 		attr = "",
 		type_param = {
@@ -23282,14 +23282,14 @@ pg.child_event = {
 		}
 	},
 	[1403302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403302,
+		ratio = 833,
 		id = 1403302,
 		attr = "",
 		type_param = {
@@ -23300,14 +23300,14 @@ pg.child_event = {
 		}
 	},
 	[1403303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403303,
+		ratio = 833,
 		id = 1403303,
 		attr = "",
 		type_param = {
@@ -23318,14 +23318,14 @@ pg.child_event = {
 		}
 	},
 	[1403304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403304,
+		ratio = 833,
 		id = 1403304,
 		attr = "",
 		type_param = {
@@ -23336,14 +23336,14 @@ pg.child_event = {
 		}
 	},
 	[1403305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403305,
+		ratio = 833,
 		id = 1403305,
 		attr = "",
 		type_param = {
@@ -23354,14 +23354,14 @@ pg.child_event = {
 		}
 	},
 	[1403306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 833,
+		state = "",
 		resource = "",
 		result = 1403306,
+		ratio = 833,
 		id = 1403306,
 		attr = "",
 		type_param = {
@@ -23372,14 +23372,14 @@ pg.child_event = {
 		}
 	},
 	[1403307] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1403330,
+		ratio = 5000,
 		id = 1403307,
 		attr = "",
 		type_param = {
@@ -23388,14 +23388,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[160201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2000,
+		state = "",
 		resource = "",
 		result = 160201,
+		ratio = 2000,
 		id = 160201,
 		attr = "",
 		type_param = {
@@ -23406,14 +23406,14 @@ pg.child_event = {
 		}
 	},
 	[160202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 0,
+		state = "",
 		resource = "",
 		result = 160202,
+		ratio = 0,
 		id = 160202,
 		attr = "",
 		type_param = {
@@ -23424,14 +23424,14 @@ pg.child_event = {
 		}
 	},
 	[160203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2000,
+		state = "",
 		resource = "",
 		result = 160203,
+		ratio = 2000,
 		id = 160203,
 		attr = "",
 		type_param = {
@@ -23442,14 +23442,14 @@ pg.child_event = {
 		}
 	},
 	[160204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2000,
+		state = "",
 		resource = "",
 		result = 160204,
+		ratio = 2000,
 		id = 160204,
 		attr = "",
 		type_param = {
@@ -23460,14 +23460,14 @@ pg.child_event = {
 		}
 	},
 	[160205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2000,
+		state = "",
 		resource = "",
 		result = 160205,
+		ratio = 2000,
 		id = 160205,
 		attr = "",
 		type_param = {
@@ -23478,14 +23478,14 @@ pg.child_event = {
 		}
 	},
 	[160206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 2000,
+		state = "",
 		resource = "",
 		result = 160206,
+		ratio = 2000,
 		id = 160206,
 		attr = "",
 		type_param = {
@@ -23496,14 +23496,14 @@ pg.child_event = {
 		}
 	},
 	[160207] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 0,
+		state = "",
 		resource = "",
 		result = 160207,
+		ratio = 0,
 		id = 160207,
 		attr = "",
 		type_param = {
@@ -23514,14 +23514,14 @@ pg.child_event = {
 		}
 	},
 	[160208] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 160230,
+		ratio = 5000,
 		id = 160208,
 		attr = "",
 		type_param = {
@@ -23530,14 +23530,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1602201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602201,
+		ratio = 834,
 		id = 1602201,
 		attr = "",
 		type_param = {
@@ -23548,14 +23548,14 @@ pg.child_event = {
 		}
 	},
 	[1602202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1602202,
+		ratio = 715,
 		id = 1602202,
 		attr = "",
 		type_param = {
@@ -23566,14 +23566,14 @@ pg.child_event = {
 		}
 	},
 	[1602203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602203,
+		ratio = 834,
 		id = 1602203,
 		attr = "",
 		type_param = {
@@ -23584,14 +23584,14 @@ pg.child_event = {
 		}
 	},
 	[1602204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602204,
+		ratio = 834,
 		id = 1602204,
 		attr = "",
 		type_param = {
@@ -23602,14 +23602,14 @@ pg.child_event = {
 		}
 	},
 	[1602205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602205,
+		ratio = 834,
 		id = 1602205,
 		attr = "",
 		type_param = {
@@ -23620,14 +23620,14 @@ pg.child_event = {
 		}
 	},
 	[1602206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602206,
+		ratio = 834,
 		id = 1602206,
 		attr = "",
 		type_param = {
@@ -23638,14 +23638,14 @@ pg.child_event = {
 		}
 	},
 	[1602207] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602207,
+		ratio = 834,
 		id = 1602207,
 		attr = "",
 		type_param = {
@@ -23656,14 +23656,14 @@ pg.child_event = {
 		}
 	},
 	[1602208] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1602230,
+		ratio = 5000,
 		id = 1602208,
 		attr = "",
 		type_param = {
@@ -23672,14 +23672,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1602301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602301,
+		ratio = 834,
 		id = 1602301,
 		attr = "",
 		type_param = {
@@ -23690,14 +23690,14 @@ pg.child_event = {
 		}
 	},
 	[1602302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1602302,
+		ratio = 715,
 		id = 1602302,
 		attr = "",
 		type_param = {
@@ -23708,14 +23708,14 @@ pg.child_event = {
 		}
 	},
 	[1602303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602303,
+		ratio = 834,
 		id = 1602303,
 		attr = "",
 		type_param = {
@@ -23726,14 +23726,14 @@ pg.child_event = {
 		}
 	},
 	[1602304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602304,
+		ratio = 834,
 		id = 1602304,
 		attr = "",
 		type_param = {
@@ -23744,14 +23744,14 @@ pg.child_event = {
 		}
 	},
 	[1602305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602305,
+		ratio = 834,
 		id = 1602305,
 		attr = "",
 		type_param = {
@@ -23762,14 +23762,14 @@ pg.child_event = {
 		}
 	},
 	[1602306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602306,
+		ratio = 834,
 		id = 1602306,
 		attr = "",
 		type_param = {
@@ -23780,14 +23780,14 @@ pg.child_event = {
 		}
 	},
 	[1602307] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 834,
+		state = "",
 		resource = "",
 		result = 1602307,
+		ratio = 834,
 		id = 1602307,
 		attr = "",
 		type_param = {
@@ -23798,14 +23798,14 @@ pg.child_event = {
 		}
 	},
 	[1602308] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1602330,
+		ratio = 5000,
 		id = 1602308,
 		attr = "",
 		type_param = {
@@ -23814,14 +23814,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[150101] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 150330,
+		ratio = 5000,
 		id = 150101,
 		attr = "",
 		type_param = {
@@ -23830,14 +23830,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[150201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 150330,
+		ratio = 5000,
 		id = 150201,
 		attr = "",
 		type_param = {
@@ -23846,14 +23846,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[150301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 150330,
+		ratio = 5000,
 		id = 150301,
 		attr = "",
 		type_param = {
@@ -23862,14 +23862,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[170101] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170101,
+		ratio = 715,
 		id = 170101,
 		attr = "",
 		type_param = {
@@ -23880,14 +23880,14 @@ pg.child_event = {
 		}
 	},
 	[170102] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170102,
+		ratio = 715,
 		id = 170102,
 		attr = "",
 		type_param = {
@@ -23898,14 +23898,14 @@ pg.child_event = {
 		}
 	},
 	[170103] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170103,
+		ratio = 715,
 		id = 170103,
 		attr = "",
 		type_param = {
@@ -23916,14 +23916,14 @@ pg.child_event = {
 		}
 	},
 	[170104] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170104,
+		ratio = 715,
 		id = 170104,
 		attr = "",
 		type_param = {
@@ -23934,14 +23934,14 @@ pg.child_event = {
 		}
 	},
 	[170105] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170105,
+		ratio = 715,
 		id = 170105,
 		attr = "",
 		type_param = {
@@ -23952,14 +23952,14 @@ pg.child_event = {
 		}
 	},
 	[170106] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170106,
+		ratio = 715,
 		id = 170106,
 		attr = "",
 		type_param = {
@@ -23970,14 +23970,14 @@ pg.child_event = {
 		}
 	},
 	[170107] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170107,
+		ratio = 715,
 		id = 170107,
 		attr = "",
 		type_param = {
@@ -23988,14 +23988,14 @@ pg.child_event = {
 		}
 	},
 	[1701201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701211,
+		ratio = 715,
 		id = 1701201,
 		attr = "",
 		type_param = {
@@ -24006,14 +24006,14 @@ pg.child_event = {
 		}
 	},
 	[1701202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701212,
+		ratio = 715,
 		id = 1701202,
 		attr = "",
 		type_param = {
@@ -24024,14 +24024,14 @@ pg.child_event = {
 		}
 	},
 	[1701203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701213,
+		ratio = 715,
 		id = 1701203,
 		attr = "",
 		type_param = {
@@ -24042,14 +24042,14 @@ pg.child_event = {
 		}
 	},
 	[1701204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701214,
+		ratio = 715,
 		id = 1701204,
 		attr = "",
 		type_param = {
@@ -24060,14 +24060,14 @@ pg.child_event = {
 		}
 	},
 	[1701205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701215,
+		ratio = 715,
 		id = 1701205,
 		attr = "",
 		type_param = {
@@ -24078,14 +24078,14 @@ pg.child_event = {
 		}
 	},
 	[1701206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701216,
+		ratio = 715,
 		id = 1701206,
 		attr = "",
 		type_param = {
@@ -24096,14 +24096,14 @@ pg.child_event = {
 		}
 	},
 	[1701207] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701217,
+		ratio = 715,
 		id = 1701207,
 		attr = "",
 		type_param = {
@@ -24114,14 +24114,14 @@ pg.child_event = {
 		}
 	},
 	[1701301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701311,
+		ratio = 715,
 		id = 1701301,
 		attr = "",
 		type_param = {
@@ -24132,14 +24132,14 @@ pg.child_event = {
 		}
 	},
 	[1701302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701312,
+		ratio = 715,
 		id = 1701302,
 		attr = "",
 		type_param = {
@@ -24150,14 +24150,14 @@ pg.child_event = {
 		}
 	},
 	[1701303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701313,
+		ratio = 715,
 		id = 1701303,
 		attr = "",
 		type_param = {
@@ -24168,14 +24168,14 @@ pg.child_event = {
 		}
 	},
 	[1701304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701314,
+		ratio = 715,
 		id = 1701304,
 		attr = "",
 		type_param = {
@@ -24186,14 +24186,14 @@ pg.child_event = {
 		}
 	},
 	[1701305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701315,
+		ratio = 715,
 		id = 1701305,
 		attr = "",
 		type_param = {
@@ -24204,14 +24204,14 @@ pg.child_event = {
 		}
 	},
 	[1701306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701316,
+		ratio = 715,
 		id = 1701306,
 		attr = "",
 		type_param = {
@@ -24222,14 +24222,14 @@ pg.child_event = {
 		}
 	},
 	[1701307] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1701317,
+		ratio = 715,
 		id = 1701307,
 		attr = "",
 		type_param = {
@@ -24240,14 +24240,14 @@ pg.child_event = {
 		}
 	},
 	[170201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170201,
+		ratio = 715,
 		id = 170201,
 		attr = "",
 		type_param = {
@@ -24258,14 +24258,14 @@ pg.child_event = {
 		}
 	},
 	[170202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170202,
+		ratio = 715,
 		id = 170202,
 		attr = "",
 		type_param = {
@@ -24276,14 +24276,14 @@ pg.child_event = {
 		}
 	},
 	[170203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170203,
+		ratio = 715,
 		id = 170203,
 		attr = "",
 		type_param = {
@@ -24294,14 +24294,14 @@ pg.child_event = {
 		}
 	},
 	[170204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170204,
+		ratio = 715,
 		id = 170204,
 		attr = "",
 		type_param = {
@@ -24312,14 +24312,14 @@ pg.child_event = {
 		}
 	},
 	[170205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170205,
+		ratio = 715,
 		id = 170205,
 		attr = "",
 		type_param = {
@@ -24330,14 +24330,14 @@ pg.child_event = {
 		}
 	},
 	[170206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170206,
+		ratio = 715,
 		id = 170206,
 		attr = "",
 		type_param = {
@@ -24348,14 +24348,14 @@ pg.child_event = {
 		}
 	},
 	[170207] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 170207,
+		ratio = 715,
 		id = 170207,
 		attr = "",
 		type_param = {
@@ -24366,14 +24366,14 @@ pg.child_event = {
 		}
 	},
 	[1702201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702211,
+		ratio = 715,
 		id = 1702201,
 		attr = "",
 		type_param = {
@@ -24384,14 +24384,14 @@ pg.child_event = {
 		}
 	},
 	[1702202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702212,
+		ratio = 715,
 		id = 1702202,
 		attr = "",
 		type_param = {
@@ -24402,14 +24402,14 @@ pg.child_event = {
 		}
 	},
 	[1702203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702213,
+		ratio = 715,
 		id = 1702203,
 		attr = "",
 		type_param = {
@@ -24420,14 +24420,14 @@ pg.child_event = {
 		}
 	},
 	[1702204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702214,
+		ratio = 715,
 		id = 1702204,
 		attr = "",
 		type_param = {
@@ -24438,14 +24438,14 @@ pg.child_event = {
 		}
 	},
 	[1702205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702215,
+		ratio = 715,
 		id = 1702205,
 		attr = "",
 		type_param = {
@@ -24456,14 +24456,14 @@ pg.child_event = {
 		}
 	},
 	[1702206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702216,
+		ratio = 715,
 		id = 1702206,
 		attr = "",
 		type_param = {
@@ -24474,14 +24474,14 @@ pg.child_event = {
 		}
 	},
 	[1702207] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702217,
+		ratio = 715,
 		id = 1702207,
 		attr = "",
 		type_param = {
@@ -24492,14 +24492,14 @@ pg.child_event = {
 		}
 	},
 	[1702301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702311,
+		ratio = 715,
 		id = 1702301,
 		attr = "",
 		type_param = {
@@ -24510,14 +24510,14 @@ pg.child_event = {
 		}
 	},
 	[1702302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702312,
+		ratio = 715,
 		id = 1702302,
 		attr = "",
 		type_param = {
@@ -24528,14 +24528,14 @@ pg.child_event = {
 		}
 	},
 	[1702303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702313,
+		ratio = 715,
 		id = 1702303,
 		attr = "",
 		type_param = {
@@ -24546,14 +24546,14 @@ pg.child_event = {
 		}
 	},
 	[1702304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702314,
+		ratio = 715,
 		id = 1702304,
 		attr = "",
 		type_param = {
@@ -24564,14 +24564,14 @@ pg.child_event = {
 		}
 	},
 	[1702305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702315,
+		ratio = 715,
 		id = 1702305,
 		attr = "",
 		type_param = {
@@ -24582,14 +24582,14 @@ pg.child_event = {
 		}
 	},
 	[1702306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702316,
+		ratio = 715,
 		id = 1702306,
 		attr = "",
 		type_param = {
@@ -24600,14 +24600,14 @@ pg.child_event = {
 		}
 	},
 	[1702307] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 715,
+		state = "",
 		resource = "",
 		result = 1702317,
+		ratio = 715,
 		id = 1702307,
 		attr = "",
 		type_param = {
@@ -24618,14 +24618,14 @@ pg.child_event = {
 		}
 	},
 	[170501] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 170301,
+		ratio = 1000,
 		id = 170501,
 		attr = "",
 		type_param = {
@@ -24636,14 +24636,14 @@ pg.child_event = {
 		}
 	},
 	[170502] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 170302,
+		ratio = 1000,
 		id = 170502,
 		attr = "",
 		type_param = {
@@ -24654,14 +24654,14 @@ pg.child_event = {
 		}
 	},
 	[170503] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 170303,
+		ratio = 1000,
 		id = 170503,
 		attr = "",
 		type_param = {
@@ -24672,14 +24672,14 @@ pg.child_event = {
 		}
 	},
 	[170504] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 170304,
+		ratio = 1000,
 		id = 170504,
 		attr = "",
 		type_param = {
@@ -24690,14 +24690,14 @@ pg.child_event = {
 		}
 	},
 	[170505] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 170305,
+		ratio = 1000,
 		id = 170505,
 		attr = "",
 		type_param = {
@@ -24708,14 +24708,14 @@ pg.child_event = {
 		}
 	},
 	[170506] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 170330,
+		ratio = 5000,
 		id = 170506,
 		attr = "",
 		type_param = {
@@ -24724,14 +24724,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1705201] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703201,
+		ratio = 1000,
 		id = 1705201,
 		attr = "",
 		type_param = {
@@ -24742,14 +24742,14 @@ pg.child_event = {
 		}
 	},
 	[1705202] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703202,
+		ratio = 1000,
 		id = 1705202,
 		attr = "",
 		type_param = {
@@ -24760,14 +24760,14 @@ pg.child_event = {
 		}
 	},
 	[1705203] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703203,
+		ratio = 1000,
 		id = 1705203,
 		attr = "",
 		type_param = {
@@ -24778,14 +24778,14 @@ pg.child_event = {
 		}
 	},
 	[1705204] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703204,
+		ratio = 1000,
 		id = 1705204,
 		attr = "",
 		type_param = {
@@ -24796,14 +24796,14 @@ pg.child_event = {
 		}
 	},
 	[1705205] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703205,
+		ratio = 1000,
 		id = 1705205,
 		attr = "",
 		type_param = {
@@ -24814,14 +24814,14 @@ pg.child_event = {
 		}
 	},
 	[1705206] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1703230,
+		ratio = 5000,
 		id = 1705206,
 		attr = "",
 		type_param = {
@@ -24830,14 +24830,14 @@ pg.child_event = {
 		performance = {}
 	},
 	[1705301] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703301,
+		ratio = 1000,
 		id = 1705301,
 		attr = "",
 		type_param = {
@@ -24848,14 +24848,14 @@ pg.child_event = {
 		}
 	},
 	[1705302] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703302,
+		ratio = 1000,
 		id = 1705302,
 		attr = "",
 		type_param = {
@@ -24866,14 +24866,14 @@ pg.child_event = {
 		}
 	},
 	[1705303] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703303,
+		ratio = 1000,
 		id = 1705303,
 		attr = "",
 		type_param = {
@@ -24884,14 +24884,14 @@ pg.child_event = {
 		}
 	},
 	[1705304] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703304,
+		ratio = 1000,
 		id = 1705304,
 		attr = "",
 		type_param = {
@@ -24902,14 +24902,14 @@ pg.child_event = {
 		}
 	},
 	[1705305] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 1000,
+		state = "",
 		resource = "",
 		result = 1703305,
+		ratio = 1000,
 		id = 1705305,
 		attr = "",
 		type_param = {
@@ -24920,14 +24920,14 @@ pg.child_event = {
 		}
 	},
 	[1705306] = {
-		date = "",
-		state = "",
-		item = "",
 		type = 2,
+		item = "",
+		date = "",
 		group = 0,
-		ratio = 5000,
+		state = "",
 		resource = "",
 		result = 1703306,
+		ratio = 5000,
 		id = 1705306,
 		attr = "",
 		type_param = {

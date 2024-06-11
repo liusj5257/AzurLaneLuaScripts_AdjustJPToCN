@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
+			nameColor = "#A9F548FF",
+			bgm = "story-6",
 			stopbgm = true,
 			say = "The battle for the final area immediately adjacent to the base began, both sides knowing how it would end.",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "Nevertheless, they fought with all their might. Blücher and Z16 mobilized a desperate last defense, bringing with them every Pawn they could.",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "After much fighting, the victor's flag was finally hoisted over the loser's base. Brünhilde had won.",
 			typewriter = {

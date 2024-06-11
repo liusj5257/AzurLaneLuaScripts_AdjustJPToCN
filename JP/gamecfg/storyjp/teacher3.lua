@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"36年Z組 ニーミ先生\n\n<size=45>その三 ここは誰ぇ？</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うう……ロング・アイランドさんを部屋から連れ出すことが出来ませんでした…",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "うう……ロング・アイランドさんを部屋から連れ出すことが出来ませんでした…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "はいはい！私はここだよ～",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はいはい！私はここだよ～",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "え、えへへ…目の前に大きな星が一杯…一つ、二つ……ここはどこ？私は誰ぇ？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "え、えへへ…目の前に大きな星が一杯…一つ、二つ……ここはどこ？私は誰ぇ？",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

@@ -15,12 +15,12 @@ return {
 	desc_get = "",
 	name = "专属弹幕-里诺",
 	init_effect = "",
+	id = 29521,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 29521,
+	color = "red",
 	icon = 29520,
 	last_effect = "",
 	effect_list = {
@@ -30,8 +30,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 29521,
 				minWeaponNumber = 1,
+				skill_id = 29521,
 				check_weapon = true,
 				label = {
 					"DD",
@@ -45,8 +45,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 29522,
 				minWeaponNumber = 1,
+				skill_id = 29522,
 				check_weapon = true,
 				label = {
 					"CL",

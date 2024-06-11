@@ -102,15 +102,15 @@ slot22 = {
 	"Z23"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuessForkGameUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return uv0
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.countUI = slot0:findTF("count_ui")
 	slot0.countAnimator = slot0:findTF("count_bg/count", slot0.countUI):GetComponent(typeof(Animator))
 	slot0.countDft = slot0:findTF("count_bg/count", slot0.countUI):GetComponent(typeof(DftAniEvent))
@@ -171,7 +171,7 @@ function slot0.init(slot0)
 	slot0.isGuessTime = false
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.pauseBtn, function ()
 		setActive(uv0.pauseUI, true)
 		uv0:pauseGame()
@@ -215,7 +215,7 @@ function slot0.didEnter(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv1)
 end
 
-function slot0.initGameData(slot0)
+slot0.initGameData = function(slot0)
 	slot2 = uv0[math.random(#uv0)]
 
 	eachChild(slot0.cupContainer, function (slot0)
@@ -236,7 +236,7 @@ function slot0.initGameData(slot0)
 	setActive(slot0.result, false)
 end
 
-function slot0.startGame(slot0)
+slot0.startGame = function(slot0)
 	slot0.manjuuAnimator:Play(uv0)
 
 	slot1 = uv1[slot0.roundNum] or uv1[#uv1]
@@ -248,7 +248,7 @@ function slot0.startGame(slot0)
 	slot0.gameStartFlag = true
 end
 
-function slot0.playForkAni(slot0, slot1)
+slot0.playForkAni = function(slot0, slot1)
 	setParent(slot0.fork, slot0:findTF("fork_node", slot0:findTF("cup_" .. slot0.forkIndex, slot0.cupContainer)), false)
 	setLocalScale(slot0.fork, Vector3.one)
 	setLocalPosition(slot0.fork, Vector3(0, 50, 0))
@@ -264,7 +264,7 @@ function slot0.playForkAni(slot0, slot1)
 	end, 0.5, nil)
 end
 
-function slot0.startSwap(slot0, slot1)
+slot0.startSwap = function(slot0, slot1)
 	if slot1 < 1 then
 		slot0.isGuessTime = true
 
@@ -285,7 +285,7 @@ function slot0.startSwap(slot0, slot1)
 	end)
 end
 
-function slot0.swapCup(slot0, slot1, slot2, slot3)
+slot0.swapCup = function(slot0, slot1, slot2, slot3)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
 
 	slot6 = slot2.anchoredPosition
@@ -300,7 +300,7 @@ function slot0.swapCup(slot0, slot1, slot2, slot3)
 	end, slot2, slot7.x, slot8):setEase(LeanTweenType.linear)
 end
 
-function slot0.startTimer(slot0)
+slot0.startTimer = function(slot0)
 	slot1 = slot0.curTime
 	slot0.timer = Timer.New(function ()
 		uv0.curTime = uv0.curTime - 1
@@ -315,7 +315,7 @@ function slot0.startTimer(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.stopTimer(slot0)
+slot0.stopTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -323,7 +323,7 @@ function slot0.stopTimer(slot0)
 	end
 end
 
-function slot0.pauseGame(slot0)
+slot0.pauseGame = function(slot0)
 	slot0:pauseManagedTween()
 
 	if slot0.timer then
@@ -334,7 +334,7 @@ function slot0.pauseGame(slot0)
 	slot0.resultAnimator.speed = 0
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0:resumeManagedTween()
 
 	if slot0.timer then
@@ -345,7 +345,7 @@ function slot0.resumeGame(slot0)
 	slot0.resultAnimator.speed = 1
 end
 
-function slot0.endRound(slot0, slot1)
+slot0.endRound = function(slot0, slot1)
 	slot0:stopTimer()
 
 	if slot0.selectIndex then
@@ -356,7 +356,7 @@ function slot0.endRound(slot0, slot1)
 	end
 end
 
-function slot0.playManjuuAni(slot0, slot1)
+slot0.playManjuuAni = function(slot0, slot1)
 	slot5 = slot0.manjuuAnimator
 
 	slot5:Play(uv0[(slot0:findTF("cup_" .. slot0.selectIndex, slot0.cupContainer).anchoredPosition.x + 480) / 480 + 1])
@@ -371,7 +371,7 @@ function slot0.playManjuuAni(slot0, slot1)
 	end)
 end
 
-function slot0.playResultAni(slot0, slot1)
+slot0.playResultAni = function(slot0, slot1)
 	setParent(slot0.result, slot0:findTF("result_node", slot0:findTF("cup_" .. slot0.selectIndex, slot0.cupContainer)), false)
 	setLocalScale(slot0.result, Vector3.one)
 	setLocalPosition(slot0.result, Vector3.zero)
@@ -410,7 +410,7 @@ function slot0.playResultAni(slot0, slot1)
 	end
 end
 
-function slot0.showCorrectBar(slot0)
+slot0.showCorrectBar = function(slot0)
 	setActive(slot0.correctBar, true)
 
 	slot1 = uv0[1] + (slot0.roundNum - 1) * uv0[2]
@@ -453,7 +453,7 @@ function slot0.showCorrectBar(slot0)
 	end, uv2, nil)
 end
 
-function slot0.playTimeOutAni(slot0)
+slot0.playTimeOutAni = function(slot0)
 	setParent(slot0.result, slot0:findTF("result_node", slot0:findTF("cup_" .. slot0.forkIndex, slot0.cupContainer)), false)
 	setLocalScale(slot0.result, Vector3.one)
 	setLocalPosition(slot0.result, Vector3.zero)
@@ -470,7 +470,7 @@ function slot0.playTimeOutAni(slot0)
 	end)
 end
 
-function slot0.endGame(slot0)
+slot0.endGame = function(slot0)
 	setActive(slot0.failBar, true)
 	onButton(slot0, slot0.failBar, function ()
 		setActive(uv0.failBar, false)
@@ -483,7 +483,7 @@ function slot0.endGame(slot0)
 	end, uv0, nil)
 end
 
-function slot0.enterResultUI(slot0)
+slot0.enterResultUI = function(slot0)
 	slot0.gameStartFlag = false
 
 	setActive(slot0.endUI, true)
@@ -506,7 +506,7 @@ function slot0.enterResultUI(slot0)
 	end
 end
 
-function slot0.OnGetAwardDone(slot0, slot1)
+slot0.OnGetAwardDone = function(slot0, slot1)
 	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE and slot0:GetMGHubData().ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime then
 		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot2.id,
@@ -516,7 +516,7 @@ function slot0.OnGetAwardDone(slot0, slot1)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.gameStartFlag then
 		slot0:emit(uv0.ON_BACK_PRESSED)
 	else

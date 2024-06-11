@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAYUE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAYUE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"言の葉、空に舞う花びら\n\n<size=45>一 花の贈り物</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-7",
 			bgName = "bg_story_task_2",
 			say = "とある日・執務室",
-			bgm = "story-richang-7",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "どこからか馨しい花の香りがすると思ったのもつかの間、花月の可愛らしい姿が目に飛び込んできた。",
 			typewriter = {
@@ -58,11 +58,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "指揮官さん、こんにちは。午後の日差しが暖かくて気持ちいいですね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,11 +76,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "こちらは指揮官さんへの差し入れです。いつも花月にご指導ご鞭撻をいただいているお礼として。ふふ",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "花月は月白色のマツリカの小さな鉢をそっと机に置いた。",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "ふんわりとして素朴な香りがするので、デスクワークが長い指揮官さんにピッタリだと思って選びました",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,11 +128,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "どういたしまして。仕事の合間にでも水やりを忘れずにお世話してあげてくださいね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,11 +146,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "それと…今度、窓際を飾る花もいくつか用意してきますね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,11 +164,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "紫のコチョウランと赤や黄色が入り交じるマツバボタンだと、指揮官さんはどちらが好みでしょうか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "ここ数日で、花月は様々な花を執務室に飾った。",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "飾っていくうちに、彼女がだんだん上機嫌になっていくのが見て取れる。",
 			typewriter = {
@@ -285,13 +285,13 @@ return {
 			}
 		},
 		{
-			actor = 301820,
 			side = 2,
 			bgName = "bg_story_task_2",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "今は花が咲く春ですからね。毎日色んな花が咲き誇っています",
 			hidePaintEquip = true,
+			actor = 301820,
+			nameColor = "#A9F548FF",
+			say = "今は花が咲く春ですからね。毎日色んな花が咲き誇っています",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,11 +305,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "たとえ落ち込んでいる時でも、お花が咲いているところが見られたら、きっと気分もよくなると思いますよ",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "花のことに大変詳しい彼女ではあるが、執務室を飾るための花は明石から調達しているのだろうか……？",
 			typewriter = {
@@ -333,11 +333,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "いいえ、ほとんどわたしが自分で育てているものですよ",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,11 +351,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "実は重桜寮の裏に日当たりのいい空き地があって、そこにガーデンハウスを用意してあるのです",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "さぞ花々が咲きこぼれる美しい光景だろう、と思いをはせる。",
 			typewriter = {
@@ -379,11 +379,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "花月にとってのいい隠れ家、みたいなものですよ",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,11 +397,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "もし指揮官さんが気になるようでしたら、週末に一度見に来てはいかがですか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,11 +415,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "（それまでに指揮官さんを迎える準備をしませんとっ）",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,8 +430,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "花月と週末にガーデンハウスでお花見をすることになった。どんな景色が待ち受けているのか、今から楽しみだ。",
 			typewriter = {

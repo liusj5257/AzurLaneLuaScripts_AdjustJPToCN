@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024偶像活动三期 深红Alizarin组合 BUFF",
 	time = 13,
-	color = "yellow",
+	name = "2024偶像活动三期 深红Alizarin组合 BUFF",
+	init_effect = "",
+	id = 200902,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200902,
+	color = "yellow",
 	icon = 200902,
 	last_effect = "music_huanraoyinfu_yangyandanchuan",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 500
+				number = 500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 500
+				number = 500,
+				attr = "airPower"
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 500
+				number = 500,
+				attr = "loadSpeed"
 			}
 		}
 	}

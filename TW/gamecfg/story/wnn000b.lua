@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "与{namecode:98}进行对话。",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,14 +31,14 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-camelot",
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			bgmDelay = 1,
-			say = "――――――!!",
 			soundeffect = "event:/battle/boom2",
+			bgmDelay = 1,
+			bgm = "battle-boss-camelot",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――――――!!",
 			flashN = {
 				color = {
 					1,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
 			say = "로열 네이비가 지배하는 '카멜로의 정원'. 그곳에는 전송 장치인 '아발론의 문'이 있다.",
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
 			say = "로열 네이비의 여왕인 퀸 엘리자베스가 '문'을 이용해 'META'와 접촉하여, 수수께끼의 존재인 '본험 리차드'를 격퇴하고 후드를 치료할 방법을 찾아냈지만…",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
 			say = "그 '문'이 있는 곳은 현재 포위당해, 포격이 사방에서 쏟아지려고 하고 있다.",
@@ -120,10 +120,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "언니… 저 정체불명의 적들은……",
 			painting = {
 				alpha = 0.3,
@@ -135,12 +135,12 @@ return {
 			}
 		},
 		{
-			actor = 9704030,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "이전에 리차드가 보낸 적들이랑 비슷하지 않아?",
 			painting = {
 				alpha = 0.3,
@@ -155,10 +155,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "나도 그렇게 생각해요.",
 			painting = {
 				alpha = 0.3,
@@ -249,10 +249,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "언니가 모르는 걸 내가 어떻게 알아….",
 			painting = {
 				alpha = 0.3,
@@ -267,10 +267,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "…………으음, 그건 그렇네요….",
 			painting = {
 				alpha = 0.3,
@@ -285,10 +285,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "그나저나 언니 쪽 상황은 괜찮아?",
 			painting = {
 				alpha = 0.3,
@@ -303,10 +303,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "네, 지금 소탕하는 중이에요. 적이 약하기는 하지만…… 숫자가 너무 많아요.",
 			painting = {
 				alpha = 0.3,
@@ -340,10 +340,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "오래 끌수록 불리한 건 우리예요. 리펄스, 폐하 쪽으로 연락은 드렸나요?",
 			painting = {
 				alpha = 0.3,
@@ -355,12 +355,12 @@ return {
 			}
 		},
 		{
-			actor = 9704030,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "지원 요청을 보냈는데 전혀 답이 없어. 애초에 폐하네 통신기는 성능이 너무 안 좋다니까! '잔불'이랑 똑같은 걸 쓰면 좋을 텐데….",
 			painting = {
 				alpha = 0.3,
@@ -375,10 +375,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "리펄스, 혹시 만들 수 있나요?",
 			painting = {
 				alpha = 0.3,
@@ -390,12 +390,12 @@ return {
 			}
 		},
 		{
-			actor = 9704030,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "언니가 못하는 걸 내가 어떻게 해….",
 			painting = {
 				alpha = 0.3,
@@ -410,10 +410,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "…………으음, 그건 그렇네요….",
 			painting = {
 				alpha = 0.3,
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_camelot_1",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――――!!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -476,12 +476,12 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "로열 기사대 도착!! 리나운! 리펄스! 오래 기다렸지!",
 			painting = {
 				alpha = 0.3,
@@ -493,12 +493,12 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "미안, 오래 기다리게 했군.",
 			painting = {
 				alpha = 0.3,
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "엘리자베스 님께서 친히 원군을 이끌고 행차하셨노라! 지금 상황은 어때?",
 			painting = {
 				alpha = 0.3,
@@ -565,12 +565,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "물론 상황 확인을 위해서지.",
 			painting = {
 				alpha = 0.3,
@@ -582,12 +582,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'문'에 이상이 발생했다는 소리를 듣고 난 다음 통신이 끊겼어.",
 			painting = {
 				alpha = 0.3,
@@ -599,12 +599,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'문'에 대해 가장 잘 아는 내가 처리해야지. 아니면 누가 하겠어?",
 			painting = {
 				alpha = 0.3,
@@ -616,12 +616,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뭐…… 상황이 이렇다는 건 처음 알았지만.",
 			painting = {
 				alpha = 0.3,
@@ -652,12 +652,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그야 당연하지. '문'은 중요한 설비니까 최대한 공을 들여야지.",
 			painting = {
 				alpha = 0.3,
@@ -669,12 +669,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사실은 전력을 더 데리고 오고 싶었지만, 긴급 사태라 이 정도가 최선이었어.",
 			painting = {
 				alpha = 0.3,
@@ -686,12 +686,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나저나 지금 상황은 어때?",
 			painting = {
 				alpha = 0.3,
@@ -741,12 +741,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래, 내 생각도 마찬가지야.",
 			painting = {
 				alpha = 0.3,
@@ -758,12 +758,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇지만 저번처럼 엄청난 돌풍의 조짐은 아직 없는 것 같네.",
 			painting = {
 				alpha = 0.3,
@@ -775,12 +775,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어쩌면 '본험 리차드'는 그렇게 쉽게 움직일 수 없는 걸지도 몰라. 예를 들면, 어떤 조건을 달성해야 한다던가….",
 			painting = {
 				alpha = 0.3,
@@ -792,12 +792,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "음…… 다들, 서둘러서 '문'으로 이동해.",
 			painting = {
 				alpha = 0.3,
@@ -809,12 +809,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "전송 장치를 정지시키고, 거울 해역을 봉쇄할 거야. 여차하면 농성할 준비도 하고 있어.",
 			painting = {
 				alpha = 0.3,
@@ -826,12 +826,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "만약 정말로 '본험 리차드'가 침공한 거라면…… 여기서 반드시 막아내야 해.",
 			painting = {
 				alpha = 0.3,
@@ -843,12 +843,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "폐하, 전방에 해무가 나타났습니다. 급속도로 확산되고 있습니다!",
 			painting = {
 				alpha = 0.3,
@@ -860,18 +860,18 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "해무……?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -884,12 +884,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_camelot_1",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――――!!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -938,10 +938,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "누군가 있어!",
 			painting = {
 				alpha = 0.3,
@@ -956,10 +956,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "꺅! 쏘, 쏘지 마세요! 전 아군이에요!",
 			painting = {
 				alpha = 0.3,
@@ -971,12 +971,12 @@ return {
 			}
 		},
 		{
-			actor = 201360,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후후후… 로열 오크가 허둥대는 사이에 히어로가 백스텝을 먹여서…",
 			painting = {
 				alpha = 0.3,
@@ -991,10 +991,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아거스, 지원하러 왔습니다! 여왕 폐하, 무사하신가요?!",
 			painting = {
 				alpha = 0.3,
@@ -1006,12 +1006,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나도 로열 네이비 함대를 이끌고 가세하러 왔어.",
 			painting = {
 				alpha = 0.3,
@@ -1026,10 +1026,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "폐하에게 위협을 가하는 적들에게 심판을…… 어머?",
 			painting = {
 				alpha = 0.3,
@@ -1041,12 +1041,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "임플래커블? 히어로? 거기다 아거스에 로열 오크까지?",
 			painting = {
 				alpha = 0.3,
@@ -1058,12 +1058,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "너희는 아이리스 리브레의 성당 시설 조사에서 돌아오는 길 아니었어?",
 			painting = {
 				alpha = 0.3,
@@ -1075,12 +1075,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "대체 어떻게 여길 온 거야?!",
 			painting = {
 				alpha = 0.3,
@@ -1092,12 +1092,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사실은 '문' 때문에 폐하가 고전하고 있다는 연락을 갑자기 받아서 말이야.",
 			painting = {
 				alpha = 0.3,
@@ -1109,12 +1109,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래서 이 '해무'… 아, 세이렌 '컴파일러'가 남긴 전송 장치를 써서 서둘러 왔지.",
 			painting = {
 				alpha = 0.3,
@@ -1126,12 +1126,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……잠깐만! 나는 이제 막 도착한 참이라고! 그리고 내가 고전한다니, 그게 무슨 말이야?!",
 			painting = {
 				alpha = 0.3,
@@ -1143,12 +1143,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 '해무'가 어떻게 그렇게 딱 맞는 타이밍에 너희 진로 위에 있는 건데? 위험할 거란 생각은 안 해?!",
 			painting = {
 				alpha = 0.3,
@@ -1160,12 +1160,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "왜 아무 생각 없이 무턱대고 행동하는 거야! 누가 그러래?!",
 			painting = {
 				alpha = 0.3,
@@ -1180,10 +1180,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "누가 그러라니… 그야……",
 			painting = {
 				alpha = 0.3,
@@ -1198,10 +1198,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "연락을 준 '폐하'가 그랬는데…?",
 			painting = {
 				alpha = 0.3,

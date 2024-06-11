@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA14",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA14",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -83,8 +83,8 @@ return {
 			actor = 10400030,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "키즈나 아이",
 			dir = 1,
+			actorName = "키즈나 아이",
 			say = "괜찮아~ 항상 이 옷 입고 춤추거나나 노래했는 걸~!",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 6,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "앗, 잡담만 해선 안 되지. 다들 조심해! 언제 보스가 나올지 모르니까!",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(쿵!)",
 			dialogShake = {
 				speed = 0.09,
@@ -164,8 +164,8 @@ return {
 			expression = 2,
 			side = 0,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = -1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "아야!",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			expression = 6,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400040,
 			dir = 1,
+			actor = 10400040,
 			actorName = "가짜 키즈나 아이",
 			say = "………",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			actor = 10400030,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "키즈나 아이",
 			dir = -1,
+			actorName = "키즈나 아이",
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 0,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = -1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "아아아아아아아아아아!",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			expression = 3,
 			side = 0,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = -1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "그런 말 하지 말고 라피쨩도 도와줘~~~",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -323,8 +323,8 @@ return {
 			expression = 6,
 			side = 0,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = -1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "정말~! 또 가짜 나잖아요!? 아무리 3D 모델 배포 중이라고 해도, 해도 되는 것과 안 되는 게 있다구요!!",
 			typewriter = {
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

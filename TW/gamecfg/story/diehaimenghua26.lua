@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			stopbgm = true,
-			actorName = "{namecode:182}",
 			dir = 1,
 			blackBg = true,
+			actorName = "{namecode:182}",
 			say = "陽光、鳥鳴、青草與花朵的芳香……",
 			flashin = {
 				delay = 1,
@@ -35,9 +35,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_103",
 			bgm = "story-1",
 			actor = 307080,
 			nameColor = "#a9f548",
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "現在是…什麼情況？請問汝是…",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "白鷹的，拉菲號驅逐艦…？！",
 			dialogShake = {
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……沒有感受到敵意，也沒有向妾身發動攻擊？",
 			typewriter = {
@@ -254,9 +254,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "又是和白鷹聯合的夢嗎，可是並沒有感受到硝煙的氣息…這種感覺是……總之先收集情報吧。",
 			typewriter = {

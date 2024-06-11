@@ -1,17 +1,17 @@
 return {
-	id = "WORLD504E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504E",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "아… 지휘관, 이 플로팅 아일랜드 요새들을 보면 떠오르는 게 없어?",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "갑자기 나타난 메탈 블러드 플로팅 아일랜드 요새군——",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,8 +63,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "세이렌이 바다를 잘 지배하는 이유는 바다에 여러 가지 방어 시스템을 설치해놨기 때때문이야.",
 			typewriter = {
 				speed = 0.05,
@@ -108,9 +108,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "맞아! 지금은 세이렌만 공격하지만 앞으로 어떤 일이 벌어질지 누가 알겠어!!",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "굉장히 중요하게 생각해야 할 문제네…",
 			typewriter = {
 				speed = 0.05,
@@ -147,14 +147,14 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "경고: 전방에서 여러 개의 강력한 신호 반응이 발견되었습니다. 다수의 세이렌 테스터로 추정됩니다.",
-			voice = "event:/tb/16/tb-16",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "그동안 함대가 보고한 바에 따르면 모든 테스터는 전투력과 방어 능력이 뛰어나, 하지만 지휘 시스템엔 문제가 있는 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "세이렌의 짓처럼 들리던데...",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "헤헤~ 마침 몸도 근질근질했는데, 양산형 테스터로 몸 좀 풀어야겠다!",
 			typewriter = {
 				speed = 0.05,

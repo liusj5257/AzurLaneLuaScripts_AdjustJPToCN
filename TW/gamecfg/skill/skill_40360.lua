@@ -2,16 +2,16 @@ return {
 	uiEffect = "",
 	name = "静寂的狩猎者LV2",
 	cd = 0,
-	painting = 1,
-	id = 40360,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 1,
+	id = 40360,
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipType"

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT27",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꿈의 만남\n\n<size=45>크게 될 나무는 떡잎부터 알아 본다.</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 학교 도서관",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-uta",
+			say = "모항 - 학교 도서관",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "오옷! 이 장서량……눈이 번쩍 떠질 정도로 엄청난 거에요.",
 			typewriter = {
@@ -79,9 +79,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "그러기 위한 도서관인걸. 네코네가 원하는 만큼 읽어도 좋아.",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "고마워요, 지휘관……그럼, 이 책장에 있는 책부터 한 번 읽어볼게요.",
 			typewriter = {
@@ -106,9 +106,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "네코네는 책을 손에 쥐더니, 팔락팔락 책을 넘기며 내용을 읽어 내려가기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "그러고 보니, 네코네 일행에게 저번에 듣기론, 쓰는 문자가 다르다고 하던데……이쪽 세계의 문자를 읽을 수 있는 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "Z23씨, 롤리씨, 레인저 선생님, 랭글리 선생님, 소류 선생님……그분들께서 친절하게 알려준 거에요.",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "맞다, 우리 학교가 자랑하는 최강의 교사진…",
 			typewriter = {
 				speed = 0.05,
@@ -185,9 +185,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "세력 간의 문화 차이 때문에 고생했던 게 생각나네.",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "출신지나 진영이 다른 아이들이 모여있다보니 적응하는데 애 좀 먹었었지.",
 			typewriter = {
 				speed = 0.05,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "이 짧은 시간 안에 전부 배우다니……네코네, 혹시 천재 아니야?",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "천재같은 게 아닌 거에요……단지, 기억력이 조금 좋을 뿐인 거에요.",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "그걸 걱정한 오라버니가 책으로는 배울 수 없는 지식도 있다며, 언니들을 소개해준 거에요.",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "이 학교에서도, 지휘관님이나 다른 많은 분들과 만나……더욱 더 많은 걸 배우고, 알게 되고, 경험해보고 싶은 거에요.",
 			typewriter = {

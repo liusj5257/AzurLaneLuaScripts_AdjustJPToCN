@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"新春パーティー\n\n<size=45>三 旧正月ムード</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_127",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_127",
 			bgm = "story-china",
 			actor = 399013,
 			nameColor = "#a9f548",
 			say = "これが東煌の「旧正月」…ううん、「春節」ですよね…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "はくしょん！",
 			dialogShake = {
@@ -94,8 +94,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 399013,
 			dir = 1,
+			actor = 399013,
 			nameColor = "#a9f548",
 			say = "きゃっ",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,8 +121,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "い、伊吹さん？！ごめんなさい！…いまのでビックリした？",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "大丈夫！実はわたし、今「灯籠」を飾るのを手伝ってるところよ！どうしてこれを飾るのかわからないけど！",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "東煌の子から衣装をもらったときに説明を受けてなかった？もう忘れたの？",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "べ、別に忘れてないよ！今思い出してやるんだからね！ぐぬぬ……",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "すまないね。この子っていつも忘れっぽくて。こんなんでよくラッキースターって名乗ってるものね",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "出会った人に幸運を与えるカミサマだって！",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "はいはい、お仕事まだ終わってないから。次の灯籠をお願いね",
 			typewriter = {
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 101431,
 			side = 2,
 			bgName = "star_level_bg_127",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101431,
+			nameColor = "#a9f548",
 			say = "本当？！えへへ、ありがとう！",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,14 +321,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			hideOther = true,
 			say = "母港・商店通り",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "ふにゃ？……おおお！この黄金色の玉は――特賞にゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -443,11 +443,11 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502020,
+			nameColor = "#a9f548",
 			say = "え？",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +459,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,14 +485,14 @@ return {
 			}
 		},
 		{
-			actor = 502030,
+			hideOther = true,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
 			actorName = "平海&寧海",
+			actor = 502030,
+			nameColor = "#a9f548",
 			say = "……ええええええええ！？",
 			dialogShake = {
 				speed = 0.09,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Knight's Promise\n\n<size=45>Chapter 2 - Are You Busy, Commander?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "After a bit of a hectic start, we finally got the day back on track.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "After a bit of a hectic start, we finally got the day back on track.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "At first, U-556 needed a lot of guidance in performing her secretarial duties. But by mid morning she knew what she was doing and was ready to help with a workload a bit heavier than usual.",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She was engrossed in reading some After Action Reports. I decided to let her focus on her work.",
 			typewriter = {
 				speed = 0.05,
@@ -90,13 +90,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Fifteen minutes later...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "Ugh, I'm so bored! I thought being secretary ship would be easy and fun. I thought I'd just be playing with the Commander all the time...",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -150,8 +150,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Heyyyy, Commanderrr! How about we knock off work and go play for a while!",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Awwww!",
 			typewriter = {
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 408040,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "U-556 looked a little dejected.",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Is this work really that important?",
 			typewriter = {
@@ -231,9 +231,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It seemed like U-556 fundamentally misunderstood the relationship between commander and secretary ship. To her, they were little more than playmates.",
 			typewriter = {
 				speed = 0.05,
@@ -245,9 +245,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Still, the way she took to organizing the office and earnestly focused on her work from dawn until now was certainly praiseworthy... I decided to explain to her the meaning behind our efforts.",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Commander? What's wrong? Why do you suddenly look all serious...",
 			typewriter = {
@@ -278,14 +278,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 408040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I get it now... Without you, the whole port wouldn't be able to function. The Commander's work is really more important than I ever thought...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -313,8 +313,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "That's why I gotta help out!",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -337,9 +337,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "U-556 seemed like she understood what we were doing. So I took advantage of her enthusiasm and gave her some simple things to work on.",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Just hand this over to Akashi down at the shop? I'm on it!",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2500
@@ -377,9 +377,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "U-556 snatched the document out of my hand and flew out the door.",
 			typewriter = {
 				speed = 0.05,
@@ -391,9 +391,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It turned out that with the right spirit, she'd be able to handle something like this.",
 			typewriter = {
 				speed = 0.05,
@@ -405,14 +405,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			stopbgm = true,
 			say = "......",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

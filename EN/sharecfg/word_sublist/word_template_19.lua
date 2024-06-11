@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_19 = {}
 slot1 = slot0.word_template_19
 
-function temp()
+temp = function()
 	uv0["感"] = {
 		["染"] = {
 			this = true
@@ -141,7 +141,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["換"] = {
 		["金"] = {
 			this = true
@@ -163,7 +163,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["還"] = {
 		["政"] = {
 			["於"] = {
@@ -180,7 +180,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["顔"] = {
 		["射"] = {
 			this = true
@@ -200,7 +200,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["奇"] = {
 		["形"] = {
 			["児"] = {
@@ -250,7 +250,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["寄"] = {
 		["生"] = {
 			["虫"] = {
@@ -262,7 +262,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["帰"] = {
 		["化"] = {
 			["人"] = {

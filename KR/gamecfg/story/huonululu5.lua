@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"호놀룰루의 사소한 일들\n\n<size=45>호놀룰루의 고민</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "집무실의 소파에 앉은 지 몇 분이 지나서야, 호놀룰루는 겨우 입을 열었다.",
 			typewriter = {
 				speed = 0.05,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "호놀룰루는 갑자기 입을 다물곤, 다시 부끄러워하며 입을 떼었다.",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "다른 아이들 처럼 밝게 웃는 내 모습은, 상상도 못 하겠는걸…",
 			typewriter = {
 				speed = 0.05,
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			flag = 2,
 			say = "당신 말야, 정말 취향 한 번 독특하네……흐, 흥! ……으으……",
 			typewriter = {
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "호놀룰루가 가볍게 주먹으로 내 어깨를 툭 쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "지휘관, 난 어떻게 하면 좋을까……",
 			typewriter = {
 				speed = 0.05,
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "…………에?",
 			typewriter = {
 				speed = 0.05,

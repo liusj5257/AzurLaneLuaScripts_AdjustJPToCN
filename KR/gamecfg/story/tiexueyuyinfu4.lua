@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU4",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 403030,
 			nameColor = "#ffde38",
 			side = 2,
-			bgm = "bsm-3",
 			dir = 1,
 			say = "쫓아냈어. 레이더 반응도 사라졌고, 꽤 멀리까지 도망간 모양이네.",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,8 +105,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "넌 그대로 귀환하도록 해. 난 다른 경로를 탈게.",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			actor = 405010,
 			side = 0,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = -1,
+			nameColor = "#ffde38",
 			say = "동맹의 세력 하에 있는 해역이 있어. 거기 도착한다면 로열 네이비라해도 간단히 손댈 수는 없을 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			expression = 1,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "시간 없으니까, 바로 출발해.",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "그리고 전속력으로 가. 안전한 해역에 도착하기 전까진 멈추지 말아줘.",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "그쪽이야말로 무운을.",
 			typewriter = {
 				speed = 0.05,
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#ffde38",
-			actorName = "비스마르크",
+			side = 0,
 			dir = -1,
 			blackBg = true,
+			actorName = "비스마르크",
 			say = "……메탈 블러드에, 위대한 영광을!",
 			flashin = {
 				delay = 1,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "프린츠 오이겐",
+			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,

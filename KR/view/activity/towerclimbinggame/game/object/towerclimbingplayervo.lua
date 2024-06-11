@@ -7,7 +7,7 @@ slot5 = 4
 slot6 = 5
 slot7 = 6
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.view = slot1
 	slot0.id = slot2.id
 	slot0.life = slot2.life
@@ -28,29 +28,29 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.InvincibleTime = 0
 end
 
-function slot0.IsOverMapScore(slot0)
+slot0.IsOverMapScore = function(slot0)
 	return slot0.mapScore < slot0.score
 end
 
-function slot0.UpdateStand(slot0, slot1)
+slot0.UpdateStand = function(slot0, slot1)
 	slot0.isStand = slot1
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	slot0.position = slot1
 
 	slot0:SendPlayerEvent("ChangePosition", slot1)
 end
 
-function slot0.GetShipName(slot0)
+slot0.GetShipName = function(slot0)
 	return slot0.shipName
 end
 
-function slot0.CanJump(slot0)
+slot0.CanJump = function(slot0)
 	return not slot0:IsDeath() and slot0.state ~= uv0 and slot0.isStand
 end
 
-function slot0.Jump(slot0)
+slot0.Jump = function(slot0)
 	if slot0:IsFatalInjured() then
 		return
 	end
@@ -64,7 +64,7 @@ function slot0.Jump(slot0)
 	slot0.state = uv0
 end
 
-function slot0.MoveRight(slot0)
+slot0.MoveRight = function(slot0)
 	if slot0:IsFatalInjured() then
 		return
 	end
@@ -80,7 +80,7 @@ function slot0.MoveRight(slot0)
 	slot0.state = uv0
 end
 
-function slot0.MoveLeft(slot0)
+slot0.MoveLeft = function(slot0)
 	if slot0:IsFatalInjured() then
 		return
 	end
@@ -96,7 +96,7 @@ function slot0.MoveLeft(slot0)
 	slot0.state = uv0
 end
 
-function slot0.Idle(slot0)
+slot0.Idle = function(slot0)
 	if slot0:IsDeath() then
 		return
 	end
@@ -106,7 +106,7 @@ function slot0.Idle(slot0)
 	slot0.state = uv0
 end
 
-function slot0.BeInjured(slot0)
+slot0.BeInjured = function(slot0)
 	if slot0:IsFatalInjured() then
 		return
 	end
@@ -128,7 +128,7 @@ function slot0.BeInjured(slot0)
 	slot0:ReduceLife(1)
 end
 
-function slot0.BeFatalInjured(slot0, slot1)
+slot0.BeFatalInjured = function(slot0, slot1)
 	if slot0:IsFatalInjured() then
 		return
 	end
@@ -143,7 +143,7 @@ function slot0.BeFatalInjured(slot0, slot1)
 	slot0:SendPlayerEvent("BeFatalInjured", slot1)
 end
 
-function slot0.ReduceLife(slot0, slot1)
+slot0.ReduceLife = function(slot0, slot1)
 	slot0.life = slot0.life - slot1
 
 	if slot0.life == 0 then
@@ -155,25 +155,25 @@ function slot0.ReduceLife(slot0, slot1)
 	slot0:SendMapEvent("OnPlayerLifeUpdate", slot0.life)
 end
 
-function slot0.IsIdle(slot0)
+slot0.IsIdle = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.IsDeath(slot0)
+slot0.IsDeath = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.IsFatalInjured(slot0)
+slot0.IsFatalInjured = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.AddScore(slot0)
+slot0.AddScore = function(slot0)
 	slot0.score = slot0.score + 1
 
 	slot0:SendMapEvent("OnScoreUpdate", slot0.score)
 end
 
-function slot0.AddInvincibleEffect(slot0, slot1)
+slot0.AddInvincibleEffect = function(slot0, slot1)
 	slot0.InvincibleTime = slot1
 
 	if slot0:IsInvincible() ~= slot0:IsInvincible() then
@@ -181,35 +181,35 @@ function slot0.AddInvincibleEffect(slot0, slot1)
 	end
 end
 
-function slot0.GetInvincibleTime(slot0)
+slot0.GetInvincibleTime = function(slot0)
 	return slot0.InvincibleTime
 end
 
-function slot0.SetInvincibleTime(slot0, slot1)
+slot0.SetInvincibleTime = function(slot0, slot1)
 	slot0:AddInvincibleEffect(slot1)
 end
 
-function slot0.IsInvincible(slot0)
+slot0.IsInvincible = function(slot0)
 	return slot0.InvincibleTime > 0
 end
 
-function slot0.SendPlayerEvent(slot0, slot1, ...)
+slot0.SendPlayerEvent = function(slot0, slot1, ...)
 	slot0.view.map:GetPlayer():__slot1_None__(unpack({
 		...
 	}))
 end
 
-function slot0.SendMapEvent(slot0, slot1, ...)
+slot0.SendMapEvent = function(slot0, slot1, ...)
 	slot0.view.map:__slot1_None__(unpack({
 		...
 	}))
 end
 
-function slot0.IsOverHigestScore(slot0)
+slot0.IsOverHigestScore = function(slot0)
 	return slot0.higestscore < slot0.score
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

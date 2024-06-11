@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGHAIJINGLEI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGHAIJINGLEI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"정해경뢰\n\n<size=45>5. 물 만난 물고기</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
 			side = 2,
 			bgName = "bg_port_chuanwu2",
+			bgm = "main-arbitrationsystem-theme",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "？？？·？？？",
-			bgm = "main-arbitrationsystem-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			say = "위치를 알 수 없는 한 시설에서 두 사람의 모습이 희미한 불빛 아래서 교류하고 있었다.",
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "양산형의 생산은 이미 수없이 봐왔어.",
 			painting = {
 				alpha = 0.3,
@@ -77,10 +77,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하지만…… 고급 세이렌 데이터를 본떠 만든 양산형은 처음 보는군……",
 			painting = {
 				alpha = 0.3,
@@ -95,10 +95,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "난 줄곧 이런 일은 그들 자신의 특수 공장에서만 할 수 있는 일이라고 생각했어.",
 			painting = {
 				alpha = 0.3,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -125,10 +125,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이정도로 강한데…… 간단한 버전이라고?",
 			painting = {
 				alpha = 0.3,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -167,10 +167,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나도 그정도로 순진하진 않아. 단지 감탄스러울 뿐…… 우리 스스로만으로는 이런 일은 분명 해낼 수 없을 거거든.",
 			painting = {
 				alpha = 0.3,
@@ -185,10 +185,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하지만 정말로, 너는 푹 쉬러 가야 할 것 같군.…… 네 몸 상태는 아무리 봐도 좋지 않아 보여.",
 			painting = {
 				alpha = 0.3,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래. 테스터, 퓨리파이어, 컴파일러, 오미터까지…… 전부 다 \"생생하게 살아있다\"고 할 수 있을 정도야.",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다만 한 가지 질문이 있다.",
 			painting = {
 				alpha = 0.3,
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -271,12 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……맞아. 정말 아무것도 숨길 수 없군.",
 			painting = {
 				alpha = 0.3,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -339,10 +339,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇군. 그럼…… 수적으로는 하나 부족한 거네.",
 			painting = {
 				alpha = 0.3,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			say = "공기 중의 빛이 재결합하면서, 키이의 눈앞에서 그녀가 본 적이 없는 인간형 세이렌을 형성했다.",
@@ -392,10 +392,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이건……?",
 			painting = {
 				alpha = 0.3,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
 			actorName = "？？？",
+			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,

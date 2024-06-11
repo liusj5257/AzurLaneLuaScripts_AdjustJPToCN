@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENQI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENQI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Your Dear Inventor\n\n<size=45>1 Wellspring of Inspiration</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "At noon on a clear and sunny day...",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-6",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "At noon on a clear and sunny day...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,10 +50,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, you've got to test out my latest invention!",
 			painting = {
 				alpha = 0.3,
@@ -65,8 +65,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Leonardo da Vinci, the inventor with seemingly endless vitality, comes through my office doors carrying some strange contraption.",
@@ -99,10 +99,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Check it out! I call it the Stiffy Shoulder Massaginator! It'll make your shoulder stiffness go away faster than you can say \"ow, that's smart!\"",
 			painting = {
 				alpha = 0.3,
@@ -117,10 +117,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I figure you'll benefit from it a lot since you're strapped to your desk all the time. Come on, try it!",
 			painting = {
 				alpha = 0.3,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "It's true – I've had to file a lot of paperwork lately, and that has taken its toll on me. It can't hurt to try.",
@@ -143,27 +143,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "\"Well...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "\"On one hand, it does its job exactly as advertised. On the other...\"",
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "\"It's really loud. Can't you make it quieter somehow?\"",
@@ -196,10 +196,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "WHAT? DID YOU SAY SOMETHING? I CAN'T HEAR YOU!",
 			painting = {
 				alpha = 0.3,
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "\"I said it's too loud!\"",
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "*click*",
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "It's impossible to have a conversation over the noise from her invention, so I decide to switch it off.",
@@ -252,10 +252,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I see. So the noise is a problem.",
 			painting = {
 				alpha = 0.3,
@@ -270,10 +270,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "To be fair, I only designed it to give you a great shoulder massage, not to be quiet or anything!",
 			painting = {
 				alpha = 0.3,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -298,10 +298,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So if it makes a little noise, that's fine!",
 			painting = {
 				alpha = 0.3,
@@ -326,10 +326,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's a minor detail, don't worry about it! It works, that's what matters. By the way, do you have any more problems other than stiff shoulders?",
 			painting = {
 				alpha = 0.3,
@@ -344,10 +344,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Big or small, I wanna know! Heck, the more the better!",
 			painting = {
 				alpha = 0.3,
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "\"Let me guess – you came to my office expressly to find inspiration again, didn't you?\"",
@@ -373,10 +373,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Uh... Ahahah... Guilty as charged.",
 			painting = {
 				alpha = 0.3,
@@ -391,10 +391,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah, my idea well has been pretty dry for a while now.",
 			painting = {
 				alpha = 0.3,
@@ -409,10 +409,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So I thought, \"hey, you have a vast range of knowledge, so you must have a good idea or two I can work with.\"",
 			painting = {
 				alpha = 0.3,
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "\"I'm happy to give you that. After I finish my work.\"",
@@ -438,10 +438,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Awesome! Thanks, Commander!",
 			painting = {
 				alpha = 0.3,
@@ -456,10 +456,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In fact, let me help you with the work! It'll be quicker that way, plus I want to make up for dropping in unannounced!",
 			painting = {
 				alpha = 0.3,
@@ -471,27 +471,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "Since da Vinci wants this work done and over as quickly as possible, I thought she'd prioritize efficiency above all else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "However, that presumption proved wrong – she reads through the request forms, sent in by shipgirls, meticulously and slowly.",
@@ -513,10 +513,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Geesh... All these needs I never knew about...",
 			painting = {
 				alpha = 0.3,
@@ -531,10 +531,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This gives me loads of ideas for new inventions, actually...",
 			painting = {
 				alpha = 0.3,
@@ -546,8 +546,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "She smacks the table with both her hands and stands up, as if she just figured something out.",
@@ -560,10 +560,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've got it!",
 			painting = {
 				alpha = 0.3,
@@ -584,10 +584,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, I'm going to be your secretary starting tomorrow!",
 			painting = {
 				alpha = 0.3,
@@ -605,8 +605,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -615,8 +615,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -628,10 +628,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "These request forms provide excellent inspo! And working as your secretary, I'll get to read them all day!",
 			painting = {
 				alpha = 0.3,
@@ -643,8 +643,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "\"If you want to, be my guest. Just don't forget to perform the actual duties of a secretary.\"",
@@ -657,10 +657,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, of course! I'll chew through those papers while savoring the sweet taste of inspiration.",
 			painting = {
 				alpha = 0.3,
@@ -675,10 +675,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heck, I can get the job done in a flash if I really want to!",
 			painting = {
 				alpha = 0.3,
@@ -693,10 +693,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let me do this and I promise you won't be disappointed♪",
 			painting = {
 				alpha = 0.3,
@@ -708,8 +708,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -718,8 +718,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "And so, I welcomed da Vinci aboard as my secretary.",

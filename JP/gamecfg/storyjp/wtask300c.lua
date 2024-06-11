@@ -1,12 +1,12 @@
 return {
-	id = "WTask300C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask300C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エリアにある資材を回収しました！任務完了！",
 			typewriter = {
 				speed = 0.05,

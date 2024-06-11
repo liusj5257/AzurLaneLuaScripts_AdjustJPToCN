@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 努比亚人跨射 中毒效果",
 	time = 12.1,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 努比亚人跨射 中毒效果",
+	init_effect = "",
+	id = 200834,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200834,
+	color = "yellow",
 	icon = 200834,
 	last_effect = "poison_buff",
 	effect_list = {
@@ -16,13 +16,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 3,
 				attr = "cannonPower",
-				exposeGroup = 1,
 				time = 2,
 				cloakExpose = 36,
-				number = 5,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 3
+				number = 5
 			}
 		}
 	}

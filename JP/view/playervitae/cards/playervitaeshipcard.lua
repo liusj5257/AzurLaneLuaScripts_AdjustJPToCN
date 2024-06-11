@@ -1,6 +1,6 @@
 slot0 = class("PlayerVitaeShipCard", import(".PlayerVitaeBaseCard"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bgImage = slot0._tf:Find("bg"):GetComponent(typeof(Image))
 	slot0.paintingTr = slot0._tf:Find("ship_icon/painting")
 	slot0.detailTF = slot0._tf:Find("detail")
@@ -67,27 +67,27 @@ function slot0.OnInit(slot0)
 	slot0.canDragFlag = true
 end
 
-function slot0.DisableDrag(slot0)
+slot0.DisableDrag = function(slot0)
 	slot0.canDragFlag = false
 end
 
-function slot0.EnableDrag(slot0)
+slot0.EnableDrag = function(slot0)
 	slot0.canDragFlag = true
 end
 
-function slot0.CanDrag(slot0)
+slot0.CanDrag = function(slot0)
 	return not slot0.inEdit and slot0.canDragFlag
 end
 
-function slot0.ShouldTip(slot0)
+slot0.ShouldTip = function(slot0)
 	return slot0.tipTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.SetNextTipTime(slot0)
+slot0.SetNextTipTime = function(slot0)
 	slot0.tipTime = pg.TimeMgr.GetInstance():GetServerTime() + 3
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot1 = slot0.eventTrigger
 	slot2 = PlayerVitaeShipsPage.GetSlotMaxCnt()
 
@@ -139,11 +139,11 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.Change2RectPos(slot0, slot1, slot2)
+slot0.Change2RectPos = function(slot0, slot1, slot2)
 	return LuaHelper.ScreenToLocal(slot1, slot2, GameObject.Find("OverlayCamera"):GetComponent("Camera"))
 end
 
-function slot0.OnUpdate(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.OnUpdate = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.canClick = slot4 ~= PlayerVitaeShipsPage.RANDOM_FLAG_SHIP_PAGE
 	slot0.slotIndex = slot1
 	slot0.typeIndex = slot2
@@ -166,7 +166,7 @@ function slot0.OnUpdate(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	slot0:OnUpdate(slot0.slotIndex, slot0.typeIndex, slot0.shipIds, slot0.pageType, slot0.native)
 
 	if isActive(slot0.editTr) then
@@ -174,7 +174,7 @@ function slot0.Refresh(slot0)
 	end
 end
 
-function slot0.UpdateShip(slot0, slot1)
+slot0.UpdateShip = function(slot0, slot1)
 	slot0.displayShip = slot1
 	slot0.lvTxt.text = "Lv." .. slot1.level
 	slot3 = slot1:getStar()
@@ -201,13 +201,13 @@ function slot0.UpdateShip(slot0, slot1)
 	slot0:UpdateProps(slot1)
 end
 
-function slot0.updatePaintingTag(slot0)
+slot0.updatePaintingTag = function(slot0)
 	if slot0.displayShip then
-		setActive(slot0.changskinBtnTag, #PaintingConst.GetPaintingNameListByShipVO(slot1) > 0)
+		setActive(slot0.changskinBtnTag, #PaintingGroupConst.GetPaintingNameListByShipVO(slot1) > 0)
 	end
 end
 
-function slot0.UpdateProps(slot0, slot1)
+slot0.UpdateProps = function(slot0, slot1)
 	slot3, slot4 = slot1:getIntimacyDetail()
 	slot5 = {
 		{
@@ -239,7 +239,7 @@ function slot0.UpdateProps(slot0, slot1)
 	end
 end
 
-function slot0.EditCard(slot0, slot1)
+slot0.EditCard = function(slot0, slot1)
 	if not slot0.displayShip then
 		return
 	end
@@ -252,7 +252,7 @@ function slot0.EditCard(slot0, slot1)
 	setActive(slot0.nativeTr, slot0.canClick and slot0.native and not slot0.inEdit)
 end
 
-function slot0.UpdateBtns(slot0)
+slot0.UpdateBtns = function(slot0)
 	slot1 = slot0.displayShip
 	slot2 = 0
 
@@ -265,7 +265,7 @@ function slot0.UpdateBtns(slot0)
 	end
 end
 
-function slot0.EditCardForRandom(slot0, slot1)
+slot0.EditCardForRandom = function(slot0, slot1)
 	if not slot0.displayShip then
 		return
 	end
@@ -284,7 +284,7 @@ function slot0.EditCardForRandom(slot0, slot1)
 	slot0.inRandomEdit = slot1
 end
 
-function slot1(slot0, slot1, slot2, slot3)
+slot1 = function(slot0, slot1, slot2, slot3)
 	onButton(slot0, slot1, function ()
 		uv0 = not uv0
 
@@ -296,7 +296,7 @@ function slot1(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("off"), not slot2)
 end
 
-function slot0.UpdateRandomBtns(slot0)
+slot0.UpdateRandomBtns = function(slot0)
 	slot2 = slot0.slotIndex or 1
 	slot3 = getProxy(PlayerProxy):getRawData()
 	slot4 = slot3:IsOpenRandomFlagShipSkinInPos(slot2)
@@ -318,7 +318,7 @@ function slot0.UpdateRandomBtns(slot0)
 	setActive(slot0.randomShipBtn, slot3:CanRandomFlagShipInPos(slot2))
 end
 
-function slot0.GetRandomFlagValue(slot0)
+slot0.GetRandomFlagValue = function(slot0)
 	assert(slot0.inRandomEdit)
 
 	if slot0.randomFlagValue then
@@ -328,18 +328,18 @@ function slot0.GetRandomFlagValue(slot0)
 	end
 end
 
-function slot0.ClearRandomFlagValue(slot0)
+slot0.ClearRandomFlagValue = function(slot0)
 	slot0.randomFlagValue = nil
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	uv0.super.Disable(slot0)
 
 	slot0.inEdit = false
 	slot0.inRandomEdit = false
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	if slot0.displayShip then
 		retPaintingPrefab(slot0.paintingTr, slot1:getPainting())
 	end

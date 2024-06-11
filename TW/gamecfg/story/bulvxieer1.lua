@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"元氣甜心的愛意攻勢\n\n<size=45>一　情書</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-1",
 			bgName = "bg_story_task_2",
 			say = "某個陽光明媚的工作日——",
-			bgm = "story-richang-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,14 +45,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呀吼，指揮官~！這麼棒的日子，工作結束後要跟我去約會喲？",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "呀吼，指揮官~！這麼棒的日子，工作結束後要跟我去約會喲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "嗯……還有這份報告也要處理……",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "……這位正纏在我身邊要著約會的女孩，就是理論上應該在辛勤工作的港區秘書艦——布呂歇爾。",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "瞟了一眼布呂歇爾，而後重新進行手邊的工作。",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "…………？",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "無言地指了指桌上的文件堆。",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "接下來處理一下演習相關的事務好了……",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "……",
 			typewriter = {
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "最後還是決定不理她，先做完手邊的工作再說——",
 			typewriter = {
@@ -410,8 +410,8 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
+			bgName = "bg_story_task_2",
 			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
@@ -426,17 +426,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "不知什麼時候，布呂歇爾已經趴在旁邊的桌子上睡著了。",
 			typewriter = {
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "還好工作已經處理完了……說起來，當初為什麼要同意讓布呂歇爾來當秘書艦呢。",
 			typewriter = {
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "就在站起身來的時候，在布呂歇爾的手邊發現了一封桃紅色信紙包著的信，難道是——",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "——果然，是她在工作中摸魚時寫的情書。",
 			typewriter = {

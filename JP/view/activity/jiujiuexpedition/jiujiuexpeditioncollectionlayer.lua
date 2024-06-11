@@ -1,10 +1,10 @@
 slot0 = class("JiuJiuExpeditionCollectionLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "JiuJiuExpeditionCollectionUI"
 end
 
-function slot0.SetData(slot0, slot1, slot2, slot3, slot4)
+slot0.SetData = function(slot0, slot1, slot2, slot3, slot4)
 	print(slot4)
 
 	slot0.allDatas = slot1
@@ -13,7 +13,7 @@ function slot0.SetData(slot0, slot1, slot2, slot3, slot4)
 	slot0.gotRewardIndex = slot4
 end
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	return table.contains(slot0.completeDatas, slot2)
 end
 
@@ -21,7 +21,7 @@ slot2 = 0
 slot3 = 1
 slot4 = 2
 
-function slot0.IsGotAward(slot0, slot1)
+slot0.IsGotAward = function(slot0, slot1)
 	if slot1 <= slot0.gotRewardIndex then
 		return true
 	end
@@ -29,7 +29,7 @@ function slot0.IsGotAward(slot0, slot1)
 	return false
 end
 
-function slot0.GetAwardState(slot0, slot1)
+slot0.GetAwardState = function(slot0, slot1)
 	if slot1 > slot0.gotRewardIndex + 1 then
 		return uv0
 	elseif slot1 <= slot0.gotRewardIndex then
@@ -41,7 +41,7 @@ function slot0.GetAwardState(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.bookContainer = slot0:findTF("books")
 	slot0.book = slot0:findTF("book")
 	slot0.nextPageBtn = slot0:findTF("book/next")
@@ -60,7 +60,7 @@ function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		if uv0.isOpenBook then
 			uv0:CloseBook()
@@ -71,14 +71,14 @@ function slot0.didEnter(slot0)
 	slot0:InitBooks()
 end
 
-function slot0.InitBooks(slot0)
+slot0.InitBooks = function(slot0)
 	setActive(slot0.bookContainer, true)
 	setActive(slot0.book, false)
 	slot0:updateBooks()
 	slot0:UpdateTip()
 end
 
-function slot0.updateBooks(slot0)
+slot0.updateBooks = function(slot0)
 	for slot4, slot5 in ipairs(slot0.books) do
 		slot6 = slot4 <= slot0.gotRewardIndex + 1
 
@@ -96,13 +96,13 @@ function slot0.updateBooks(slot0)
 	end
 end
 
-function slot0.UpdateTip(slot0)
+slot0.UpdateTip = function(slot0)
 	for slot4, slot5 in ipairs(slot0.books) do
 		setActive(slot5:Find("tip"), slot0:GetAwardState(slot4) == uv0)
 	end
 end
 
-function slot0.OpenBook(slot0, slot1)
+slot0.OpenBook = function(slot0, slot1)
 	slot0.isOpenBook = true
 
 	setActive(slot0.bookContainer, false)
@@ -135,7 +135,7 @@ function slot0.OpenBook(slot0, slot1)
 	triggerButton(slot0.prevPageBtn)
 end
 
-function slot0.UpdatePage(slot0, slot1, slot2, slot3)
+slot0.UpdatePage = function(slot0, slot1, slot2, slot3)
 	slot0.scoreList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			GetImageSpriteFromAtlasAsync("JiuJiuExpeditionCollectionIcon/" .. uv1 .. "_" .. slot1 + 1 + uv2, "", slot2:Find("icon"))
@@ -145,14 +145,14 @@ function slot0.UpdatePage(slot0, slot1, slot2, slot3)
 	slot0.scoreList:align(#slot2)
 end
 
-function slot0.CloseBook(slot0)
+slot0.CloseBook = function(slot0)
 	slot0.isOpenBook = false
 
 	setActive(slot0.bookContainer, true)
 	setActive(slot0.book, false)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parent)
 end
 

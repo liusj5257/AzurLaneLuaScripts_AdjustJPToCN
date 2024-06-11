@@ -19,10 +19,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#92fc63",
-			withoutPainting = true,
-			blackBg = true,
 			say = "오, 오빠…… 유니콘이 괜찮다고 할 때까지, 눈 뜨면… 때찌, 할거야…",
+			nameColor = "#92fc63",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,10 +35,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#92fc63",
-			withoutPainting = true,
-			blackBg = true,
 			say = "우으… 역시……",
+			nameColor = "#92fc63",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,10 +51,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#92fc63",
-			withoutPainting = true,
-			blackBg = true,
 			say = "스타더스트님…… 유니콘한테 용기를……",
+			nameColor = "#92fc63",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,10 +67,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#92fc63",
-			withoutPainting = true,
-			blackBg = true,
 			say = "……오빠…… 이제 눈 떠도 돼……",
+			nameColor = "#92fc63",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,8 +86,8 @@ return {
 			nameColor = "#92fc63",
 			say = "~♪",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -173,8 +173,8 @@ return {
 			nameColor = "#92fc63",
 			say = "휴우… 다행이다…… 오빠… 괜찮은 것 같아……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

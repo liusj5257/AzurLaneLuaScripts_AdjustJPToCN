@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"기행의 사프란\n\n<size=45>5 탐문?·하</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모의전 전날.",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "모의전 전날.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "모항-연습 해역",
 			typewriter = {
 				speed = 0.05,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "처음 뵙겠습니다, 즈이카쿠 씨. 유니온의 에식스급 항공모함 샹그릴라라고 합니다.",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "처음 뵙겠습니다, 즈이카쿠 씨. 유니온의 에식스급 항공모함 샹그릴라라고 합니다.",
+			actor = 107380,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -131,8 +131,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "갑작스레 미안해요. 잠깐 시간 좀 내주실 수 있을까요? 몇 가지 엔터프라이즈급에 대해 묻고 싶어서……",
 			typewriter = {
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 307060,
+			nameColor = "#92fc63",
 			say = "그러니까, 쇼카쿠 언니~!",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,15 +251,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#92fc63",
 			say = "과연, 상대의 허를 찌르기 위한 정보수집이란 말씀이군요……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#92fc63",
 			say = "물론 괜찮아요♪",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -374,9 +374,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "(끄적끄적끄적끄적끄적끄적)",
 			typewriter = {
 				speed = 0.05,
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 307060,
+			nameColor = "#92fc63",
 			say = "굉장해……! 쇼카쿠 언니가 말한 걸 전부 메모하고 있어……!",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

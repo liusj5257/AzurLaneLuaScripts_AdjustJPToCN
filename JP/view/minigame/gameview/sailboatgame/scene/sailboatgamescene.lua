@@ -19,14 +19,14 @@ slot0.random_scene_imgs = {
 	}
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._tf = slot1
 	slot0._event = slot2
 	slot0.sceneMask = findTF(slot0._tf, "sceneMask")
 	slot0.sceneContent = findTF(slot0._tf, "sceneMask/sceneContainer")
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		if slot0 == SailBoatGameEvent.DESTROY_ENEMY then
 			uv0:destroyEnemy(slot1)
 		elseif slot0 == SailBoatGameEvent.USE_ITEM then
@@ -63,7 +63,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:showContainer(true)
 	slot0.charControl:start()
 	slot0.bgControl:start()
@@ -88,7 +88,7 @@ function slot0.start(slot0)
 	end
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot2, slot3, slot4, slot5, slot6, slot7, slot8 = nil
 
 	slot0.charControl:step(slot1)
@@ -184,7 +184,7 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.destroyEnemy(slot0, slot1)
+slot0.destroyEnemy = function(slot0, slot1)
 	slot0._event:emit(SailBoatGameView.ADD_SCORE, {
 		num = slot1.score
 	})
@@ -194,7 +194,7 @@ function slot0.destroyEnemy(slot0, slot1)
 	end
 end
 
-function slot0.checkBoomDamage(slot0, slot1)
+slot0.checkBoomDamage = function(slot0, slot1)
 	slot2 = slot1.boom
 	slot5 = uv0.GetGameChar()
 	slot6 = uv0.GetGameEnemys()
@@ -220,7 +220,7 @@ function slot0.checkBoomDamage(slot0, slot1)
 	end
 end
 
-function slot0.sortItems(slot0, slot1)
+slot0.sortItems = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		if slot1.anchoredPosition.y < slot0.anchoredPosition.y then
 			return false
@@ -242,43 +242,43 @@ function slot0.sortItems(slot0, slot1)
 	end
 end
 
-function slot0.useSkill(slot0)
+slot0.useSkill = function(slot0)
 	slot0.charControl:useSkill()
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
-function slot0.stop(slot0)
+slot0.stop = function(slot0)
 end
 
-function slot0.resume(slot0)
+slot0.resume = function(slot0)
 end
 
-function slot0.onSceneEventCall(slot0, slot1, slot2)
+slot0.onSceneEventCall = function(slot0, slot1, slot2)
 	slot0.charControl:onEventCall(slot1, slot2)
 	slot0.bulletControl:onEventCall(slot1, slot2)
 	slot0.effectControl:onEventCall(slot1, slot2)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	slot0.charControl:dispose()
 	slot0.bgControl:dispose()
 	slot0.itemControl:dispose()
 	slot0.enemyControl:dispose()
 end
 
-function slot0.showContainer(slot0, slot1)
+slot0.showContainer = function(slot0, slot1)
 	setActive(slot0.sceneMask, slot1)
 end
 
-function slot0.press(slot0, slot1, slot2)
+slot0.press = function(slot0, slot1, slot2)
 	if slot1 == KeyCode.J and slot2 then
 		slot0.charControl:ableFire()
 	end
 end
 
-function slot0.joystickActive(slot0, slot1)
+slot0.joystickActive = function(slot0, slot1)
 end
 
 return slot0

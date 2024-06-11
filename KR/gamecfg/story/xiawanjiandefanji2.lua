@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401180,
 			nameColor = "#ff5c5c",
 			side = 0,
-			bgm = "level02",
 			dir = 1,
 			say = "음... Z9와 Z11은 계속 우리 뒤를 따르고 있고, Z17은 왔고, 저쪽은 Z12...... Z19는 아직이네요.",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "...... 그렇다면 철수 명령을 아예 수신하지도 못했겠네요.",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "탄약도 이제 바닥 났는데, 일이 좀 꼬이겠어요...",
 			typewriter = {
 				speed = 0.05,

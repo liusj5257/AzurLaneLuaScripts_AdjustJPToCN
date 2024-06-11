@@ -1,15 +1,15 @@
 return {
-	id = "WORLD205A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD205A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA Ocean Core Sector Outskirts - 2nd Outpost",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,12 +20,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Everyone, pay attention! From here, if you fire a shell forward...",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202110,
+			nameColor = "#a9f548",
+			say = "Everyone, pay attention! From here, if you fire a shell forward...",
 			flashN = {
 				color = {
 					1,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The shell fired from Edinburgh’s gun suddenly changed direction and plummeted harmlessly into the ocean.",
 			typewriter = {
 				speed = 0.05,
@@ -101,12 +101,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "That’s not the only unusual thing. Here, I'll shoot another one from the same angle position. Look.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202110,
+			nameColor = "#a9f548",
+			say = "That’s not the only unusual thing. Here, I'll shoot another one from the same angle position. Look.",
 			flashN = {
 				color = {
 					1,
@@ -216,9 +216,9 @@ return {
 		{
 			expression = 14,
 			side = 2,
+			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I won't even be able to slack off at this rate! Err, I mean... I can't even do my job normally because of the abnormal gravity!",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			expression = 9,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			say = "So... Uhh... Now that we've figured it out, we don't have to go back in there, right?",
 			typewriter = {
 				speed = 0.05,

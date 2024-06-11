@@ -111,9 +111,9 @@ slot22 = {
 	},
 	{
 		[0] = "extr|rorDNM4w",
-		shift = 15,
-		[65665.0] = "extr|rorDNM4x",
 		[65664.0] = "extr|rorDNM4x",
+		[65665.0] = "extr|rorDNM4x",
+		shift = 15,
 		mask = 114881
 	},
 	shift = 23,
@@ -814,29 +814,29 @@ slot39 = {
 										[121.0] = "fcvtzuDwNd",
 										[104.0] = "fcvtpsDwNd",
 										[112.0] = "fcvtmsDwNd",
-										[96.0] = "fcvtnsDwNd",
+										[99.0] = "ucvtfDdNw",
 										[97.0] = "fcvtnuDwNd",
-										[113.0] = "fcvtmuDwNd",
+										[100.0] = "fcvtasDwNd",
 										[33.0] = "fcvtnuDwNs",
 										[39.0] = "fmovDsNw",
+										[35.0] = "ucvtfDsNw",
+										[105.0] = "fcvtpuDwNd",
+										[96.0] = "fcvtnsDwNd",
+										[113.0] = "fcvtmuDwNd",
 										[120.0] = "fcvtzsDwNd",
-										[38.0] = "fmovDwNs",
-										[40.0] = "fcvtpsDwNs",
-										[56.0] = "fcvtzsDwNs",
-										[49.0] = "fcvtmuDwNs",
 										[32.0] = "fcvtnsDwNs",
-										shift = 16,
+										[38.0] = "fmovDwNs",
 										[36.0] = "fcvtasDwNs",
-										[100.0] = "fcvtasDwNd",
+										[40.0] = "fcvtpsDwNs",
 										mask = 255,
 										[48.0] = "fcvtmsDwNs",
 										[101.0] = "fcvtauDwNd",
-										[35.0] = "ucvtfDsNw",
+										[56.0] = "fcvtzsDwNs",
 										[37.0] = "fcvtauDwNs",
 										[98.0] = "scvtfDdNw",
 										[41.0] = "fcvtpuDwNs",
-										[99.0] = "ucvtfDdNw",
-										[105.0] = "fcvtpuDwNd",
+										[49.0] = "fcvtmuDwNs",
+										shift = 16,
 										[34.0] = "scvtfDsNw"
 									},
 									{
@@ -844,29 +844,29 @@ slot39 = {
 										[121.0] = "fcvtzuDxNd",
 										[104.0] = "fcvtpsDxNd",
 										[112.0] = "fcvtmsDxNd",
-										[113.0] = "fcvtmuDxNd",
+										[100.0] = "fcvtasDxNd",
 										[97.0] = "fcvtnuDxNd",
-										[120.0] = "fcvtzsDxNd",
+										[56.0] = "fcvtzsDxNs",
 										[33.0] = "fcvtnuDxNs",
-										[57.0] = "fcvtzuDxNs",
+										[105.0] = "fcvtpuDxNd",
 										[102.0] = "fmovDxNd",
-										[40.0] = "fcvtpsDxNs",
-										[35.0] = "ucvtfDsNx",
-										[49.0] = "fcvtmuDxNs",
+										[99.0] = "ucvtfDdNx",
+										[113.0] = "fcvtmuDxNd",
+										[120.0] = "fcvtzsDxNd",
 										[103.0] = "fmovDdNx",
 										[32.0] = "fcvtnsDxNs",
-										shift = 16,
+										[57.0] = "fcvtzuDxNs",
 										[36.0] = "fcvtasDxNs",
-										[100.0] = "fcvtasDxNd",
+										[40.0] = "fcvtpsDxNs",
 										mask = 255,
 										[48.0] = "fcvtmsDxNs",
 										[101.0] = "fcvtauDxNd",
-										[56.0] = "fcvtzsDxNs",
+										[35.0] = "ucvtfDsNx",
 										[37.0] = "fcvtauDxNs",
 										[98.0] = "scvtfDdNx",
 										[41.0] = "fcvtpuDxNs",
-										[99.0] = "ucvtfDdNx",
-										[105.0] = "fcvtpuDxNd",
+										[49.0] = "fcvtmuDxNs",
+										shift = 16,
 										[34.0] = "scvtfDsNx"
 									},
 									shift = 31,
@@ -932,10 +932,10 @@ slot39 = {
 									[0] = {
 										[0] = "fcmpNMf",
 										[24.0] = "fcmpeNZf",
-										shift = 0,
+										[8.0] = "fcmpNZf",
 										[16.0] = "fcmpeNMf",
 										mask = 31,
-										[8.0] = "fcmpNZf"
+										shift = 0
 									},
 									shift = 23,
 									mask = 1
@@ -1091,8 +1091,8 @@ slot40 = {
 	},
 	{
 		[0] = {
-			shift = 0,
 			[2097152.0] = "brkW",
+			shift = 0,
 			mask = 14680095
 		},
 		{
@@ -1101,9 +1101,9 @@ slot40 = {
 			mask = 4194303
 		},
 		{
-			mask = 16776223,
-			[4128768.0] = "blrNx",
 			[6225920.0] = "retNx",
+			[4128768.0] = "blrNx",
+			mask = 16776223,
 			[2031616.0] = "brNx",
 			shift = 0
 		},
@@ -1184,7 +1184,7 @@ slot45 = {
 	"sxtx"
 }
 
-function slot46(slot0, slot1, slot2)
+slot46 = function(slot0, slot1, slot2)
 	slot3 = slot0.pos
 	slot4 = ""
 
@@ -1201,17 +1201,17 @@ function slot46(slot0, slot1, slot2)
 	slot0.pos = slot3 + 4
 end
 
-function slot47(slot0)
+slot47 = function(slot0)
 	return uv0(slot0, ".long", {
 		"0x" .. uv1(slot0.op)
 	})
 end
 
-function slot48(slot0, slot1, slot2)
+slot48 = function(slot0, slot1, slot2)
 	return uv0[uv1(slot1, slot0 .. "%w-([xwds])")][slot2]
 end
 
-function slot49(slot0)
+slot49 = function(slot0)
 	if slot0 < 0 then
 		return uv0(slot0)
 	else
@@ -1227,7 +1227,7 @@ slot50 = {
 	1
 }
 
-function slot51(slot0)
+slot51 = function(slot0)
 	slot1 = uv0(uv1(slot0, 10), 63)
 	slot2 = uv0(uv1(slot0, 16), 63)
 
@@ -1291,7 +1291,7 @@ function slot51(slot0)
 	end
 end
 
-function slot52(slot0, slot1)
+slot52 = function(slot0, slot1)
 	if slot1 == "b" or slot1 == "bl" then
 		return uv0(uv1(slot0, 6), 4)
 	elseif slot1 == "adr" or slot1 == "adrp" then
@@ -1303,11 +1303,11 @@ function slot52(slot0, slot1)
 	end
 end
 
-function slot53(slot0)
+slot53 = function(slot0)
 	return (uv0(slot0, 1048576) == 0 and 1 or -1) * (16 + uv0(uv2(slot0, 13), 15)) * 2^(uv1(uv2(uv3(uv4(slot0, 12), 5), 24), 128) - 131)
 end
 
-function slot54(slot0, slot1, slot2, slot3)
+slot54 = function(slot0, slot1, slot2, slot3)
 	if slot2 < slot3 or slot2 == 31 or slot2 == 63 then
 		return false
 	end
@@ -1325,7 +1325,7 @@ function slot54(slot0, slot1, slot2, slot3)
 	return true
 end
 
-function slot55(slot0)
+slot55 = function(slot0)
 	slot1 = slot0.pos
 	slot2, slot3, slot4, slot5 = uv0(slot0.code, slot1 + 1, slot1 + 4)
 	slot6 = uv1(uv2(slot5, 24), uv2(slot4, 16), uv2(slot3, 8), slot2)
@@ -1677,7 +1677,7 @@ function slot55(slot0)
 	return uv24(slot0, slot10 .. slot8, slot7)
 end
 
-function slot56(slot0, slot1, slot2)
+slot56 = function(slot0, slot1, slot2)
 	slot1 = slot1 or 0
 	slot3 = slot2 and slot1 + slot2 or #slot0.code
 	slot0.pos = slot1

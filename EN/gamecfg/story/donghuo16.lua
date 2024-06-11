@@ -1,8 +1,8 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO16",
 	fadeType = 1,
+	id = "DONGHUO16",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "？？？？？",
+			side = 0,
 			bgName = "bg_story_wing3",
 			nameColor = "#D6341DFF",
 			dir = 1,
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Helena",
+			side = 0,
 			bgName = "bg_story_wing3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Helena",
+			side = 0,
 			bgName = "bg_story_wing3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -410,8 +410,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51> </size>",

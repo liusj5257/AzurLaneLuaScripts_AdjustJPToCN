@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"시끌벅적 설날 축제\n\n<size=45>제4장 - 피스 게임</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 501020,
-			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "왔다, 왔어! 이벤트 칸 '복권 당첨'! 상금을 왕창 획득!",
 			bgm = "main-chunjie",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "왔다, 왔어! 이벤트 칸 '복권 당첨'! 상금을 왕창 획득!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.15,
 					x = 0,
@@ -65,8 +65,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#92fc63",
 			say = "아으…… 푸슌 언니는 운이 너무 좋다구요……",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#92fc63",
 			say = "일을 안 하면 농땡이고 뭐고…… 하, 하지만, 설날에는 그런 거 말고도 여러 가지 할 일이 있어요!",
 			typewriter = {
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "모항 - 광장",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,8 +276,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#92fc63",
 			say = "주인님의 후의를 받아 멋진 의상을 받았습니다만……",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 206042,
 			dir = 1,
+			actor = 206042,
 			nameColor = "#92fc63",
 			say = "역시 조금 부끄럽네요……",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#92fc63",
 			say = "이스트 글림 사람들이 이런 차림으로 지낸다면, 굳이 우리들이 부끄러워할 이유는 없지.",
 			typewriter = {
@@ -340,12 +340,12 @@ return {
 			}
 		},
 		{
-			actor = 202221,
+			say = "이견 없습니다.",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "이견 없습니다.",
+			actor = 202221,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -379,8 +379,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 206042,
 			dir = 1,
+			actor = 206042,
 			nameColor = "#92fc63",
 			say = "아뇨, 선배님들의 힘이 되어 영광입니다!",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#92fc63",
 			say = "흠, 별거 아니다.",
 			typewriter = {
@@ -429,9 +429,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 202121,
 			dir = 1,
 			blackBg = true,
+			actor = 202121,
 			nameColor = "#92fc63",
 			say = "……이스트 글림의 새해, 실로 흥미롭군요……",
 			typewriter = {

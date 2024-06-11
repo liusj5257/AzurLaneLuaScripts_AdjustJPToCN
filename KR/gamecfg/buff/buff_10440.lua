@@ -62,12 +62,12 @@ return {
 	desc_get = "与{namecode:91}同在一个舰队时，自身航空性能提高15.0%(满级35.0%)",
 	name = "{namecode:100}",
 	init_effect = "",
+	id = 10440,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "与{namecode:91}同在一个舰队时，自身航空性能提高$1",
 	stack = 1,
-	id = 10440,
+	color = "yellow",
 	icon = 10440,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 10440,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

@@ -1,13 +1,13 @@
 return {
-	id = "W732000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W732000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "要将圆盘往那个方向倾斜？（选择了方向后，地图上所有未归位的能源矩阵都会往那个方向滑动）",
 			typewriter = {
 				speed = 0.05,

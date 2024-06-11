@@ -1,15 +1,15 @@
 return {
-	id = "W1126",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1126",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "セイレーン通信装置を停止しました。これ以上増援が現れないはずです",
 			typewriter = {
 				speed = 0.05,

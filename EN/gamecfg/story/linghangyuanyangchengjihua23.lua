@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA23",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_151",
+			bgm = "qe-ova-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Winter has arrived in the virtual town.",
-			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -34,11 +34,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-32-shock3",
 			side = 2,
 			bgName = "star_level_bg_151",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-32-shock3",
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -68,9 +68,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_151",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-32-doubt1",
+			dir = 1,
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -100,9 +100,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_151",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-32-doubt2",
+			dir = 1,
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -141,11 +141,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-32-answer2",
 			side = 2,
 			bgName = "star_level_bg_151",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-32-answer2",
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -160,28 +160,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_151",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Alright, this looks good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			say = "The manjuus have finished decorating the Christmas tree. I examine it while I put some wood in the fireplace.",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
 			hidePaintObj = true,
 			say = "TB bought a Christmas dress, if memory serves me right. She should be done getting changed any minute now.",
@@ -223,14 +223,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "star_level_bg_151",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Okay.",
 			voice = "event:/educate/tb/educate-tb-32-shy",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Okay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,14 +241,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg17",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "While I was buying my dress, I also asked for this from the shop clerk.",
 			voice = "event:/educate/tb/educate-tb-story-32-5",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "While I was buying my dress, I also asked for this from the shop clerk.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,17 +258,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg17",
 			hidePaintObj = true,
 			say = "A beautifully wrapped Christmas present rests in her hands.",
@@ -287,14 +287,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg17",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I saved up my allowance to buy it.",
 			voice = "event:/educate/tb/educate-tb-story-32-6",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I saved up my allowance to buy it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg17",
 			hidePaintObj = true,
 			say = "She seems shy as she looks to the side while saying that.",
@@ -316,14 +316,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg17",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I was... feeling the Christmas spirit.",
 			voice = "event:/educate/tb/educate-tb-story-32-7",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I was... feeling the Christmas spirit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,14 +334,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg17",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "It was then that I understood what you meant by \"lucky.\"",
 			voice = "event:/educate/tb/educate-tb-story-32-8",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "It was then that I understood what you meant by \"lucky.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,32 +352,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg17",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Merry Christmas.",
 			voice = "event:/educate/tb/educate-tb-story-32-9",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "TB",
-			bgName = "bg_project_tb_cg17",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "This is for you.",
-			voice = "event:/educate/tb/educate-tb-story-32-10",
+			say = "Merry Christmas.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,8 +370,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			side = 2,
+			bgName = "bg_project_tb_cg17",
+			dir = 1,
+			voice = "event:/educate/tb/educate-tb-story-32-10",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "This is for you.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg17",
 			hidePaintObj = true,
 			say = "The fireplace crackles and pops, and a faint, rosy blush forms on her ordinarily pale and neutral face.",
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg17",
 			hidePaintObj = true,
 			say = "It's a warm Christmas, and TB and I celebrate it together.",

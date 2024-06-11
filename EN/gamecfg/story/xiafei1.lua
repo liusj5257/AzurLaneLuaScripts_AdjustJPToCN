@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Date with an Angel\n\n<size=45>1 A Forgotten Promise</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "After struggling through a hellish amount of work, I finally found myself bathed in the light at the end of the tunnel – a day off, with no forms to fill out and no messages to respond to.",
 			bgm = "story-richang-2",
+			say = "After struggling through a hellish amount of work, I finally found myself bathed in the light at the end of the tunnel – a day off, with no forms to fill out and no messages to respond to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "...or so I thought.",
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Just as I'm about to come to a decision, I suddenly hear someone knocking at the door.",
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "The girl standing at the entrance gives a slight nod before marching right up to me.",
@@ -122,10 +122,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Mm. Looks like you managed to wake up early, just as promised.",
 			painting = {
 				alpha = 0.3,
@@ -137,12 +137,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It would appear that I've underestimated your resolve. Please accept my apologies.",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Judging from your expression... Alas, you must've completely forgotten about the promise you made to me.",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "To think that you'd forget about the promise we made last night come the dawning of the new day...",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Such sinfulness must be met with swift punishment–",
 			painting = {
 				alpha = 0.3,
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In that case, I shall give you a chance to atone for your sins through your actions.",
 			painting = {
 				alpha = 0.3,
@@ -375,10 +375,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -402,12 +402,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's not something I can tell you right now.",
 			painting = {
 				alpha = 0.3,
@@ -422,10 +422,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "First, let us do our morning prayers while there is still time.",
 			painting = {
 				alpha = 0.3,

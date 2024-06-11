@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA21",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "All right, we're finally done here.",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,10 +26,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			say = "I managed to collect a lot of combat data in this adverse weather. Once we get back, I'm going to have to analyze it...",
+			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "I managed to collect a lot of combat data in this adverse weather. Once we get back, I'm going to have to analyze it...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -77,8 +77,8 @@ return {
 			actor = 107380,
 			side = 0,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Furthermore, these storms would persist for several days at a time. Only the most skilled navigators could hope to weather these terrible storms.",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Do you think that the Sirens have been lurking here for hundreds of years?!",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,8 +164,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "We know that the \"singularity\" is capable of causing widespread anomalies. The Mirror Seas can manifest illusionary landscapes into reality, and the Sirens are known to possess rigging in the image of mythical sea creatures.",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Sirens... what in the world are they...?",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 slot0 = class("Fushun3CharController")
 slot1 = 3
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._rectCollider = slot1
 	slot0._charTf = slot2
 	slot0._anim = findTF(slot0._charTf, "anim")
@@ -120,7 +120,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0._animator:SetBool("la", false)
 	slot0._animator:SetBool("s", false)
 	slot0._animator:SetBool("below", slot0._collisionInfo.below)
@@ -141,7 +141,7 @@ function slot0.start(slot0)
 	setActive(slot0._charItemCatchTf, false)
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	if slot0._charTf.anchoredPosition.y >= 1200 or slot0._charTf.anchoredPosition.y <= -200 then
 		if slot0._powerTime > 0 then
 			slot0._charTf.anchoredPosition = Vector2(slot0._charTf.anchoredPosition.x + 100, 1000)
@@ -310,19 +310,19 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.jump(slot0)
+slot0.jump = function(slot0)
 	if slot0._jumpScript:checkScirptApply() then
 		slot0._jumpScript:active(true)
 	end
 end
 
-function slot0.attack(slot0)
+slot0.attack = function(slot0)
 	if slot0._attackScript:checkScirptApply() then
 		slot0._attackScript:active(true)
 	end
 end
 
-function slot0.damageChar(slot0)
+slot0.damageChar = function(slot0)
 	if slot0._damageScript:checkScirptApply() then
 		slot0._damageScript:active(true)
 
@@ -364,13 +364,13 @@ function slot0.damageChar(slot0)
 	end
 end
 
-function slot0.addPower(slot0, slot1)
+slot0.addPower = function(slot0, slot1)
 	if not slot0.powerFlag then
 		slot0.power = slot0.power + slot1
 	end
 end
 
-function slot0.getBuff(slot0, slot1)
+slot0.getBuff = function(slot0, slot1)
 	for slot5 = 1, #slot0.buffList do
 		if slot0.buffList[slot5].buff == slot1 then
 			return slot0.buffList[slot5]
@@ -380,7 +380,7 @@ function slot0.getBuff(slot0, slot1)
 	return nil
 end
 
-function slot0.getBuffById(slot0, slot1)
+slot0.getBuffById = function(slot0, slot1)
 	for slot5 = 1, #slot0.buffList do
 		if slot0.buffList[slot5].id == slot1 then
 			return slot0.buffList[slot5]
@@ -390,7 +390,7 @@ function slot0.getBuffById(slot0, slot1)
 	return nil
 end
 
-function slot0.setBuff(slot0, slot1)
+slot0.setBuff = function(slot0, slot1)
 	slot2 = slot1.buff_id
 	slot3 = nil
 
@@ -405,7 +405,7 @@ function slot0.setBuff(slot0, slot1)
 	end
 end
 
-function slot0.addBuff(slot0, slot1)
+slot0.addBuff = function(slot0, slot1)
 	for slot5 = 1, #slot0.buffList do
 		if slot0.buffList[slot5].id == slot1.id then
 			if slot1.buff == Fushun3GameConst.buff_shield then
@@ -460,7 +460,7 @@ function slot0.addBuff(slot0, slot1)
 	table.insert(slot0.buffList, slot1)
 end
 
-function slot0.updateBuffShow(slot0, slot1)
+slot0.updateBuffShow = function(slot0, slot1)
 	if slot1 == Fushun3GameConst.buff_shield then
 		for slot5 = 1, uv0 do
 			slot6 = slot5
@@ -475,7 +475,7 @@ function slot0.updateBuffShow(slot0, slot1)
 	end
 end
 
-function slot0.removeBuff(slot0, slot1, slot2)
+slot0.removeBuff = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0.buffList do
 		if slot0.buffList[slot6].buff == slot1.buff then
 			slot8 = slot0:getItemTriggerFlag()
@@ -511,7 +511,7 @@ function slot0.removeBuff(slot0, slot1, slot2)
 	end
 end
 
-function slot0.flushBuff(slot0)
+slot0.flushBuff = function(slot0)
 	for slot4 = 1, #slot0.buffList do
 		if slot0.buffList[slot4].buff == Fushun3GameConst.buff_speed then
 			-- Nothing
@@ -530,11 +530,11 @@ function slot0.flushBuff(slot0)
 	end
 end
 
-function slot0.getHeart(slot0)
+slot0.getHeart = function(slot0)
 	return slot0.heart
 end
 
-function slot0.getItemTriggerFlag(slot0)
+slot0.getItemTriggerFlag = function(slot0)
 	for slot4 = 1, #slot0.buffList do
 		if slot0.buffList[slot4].lock_item then
 			return true
@@ -544,7 +544,7 @@ function slot0.getItemTriggerFlag(slot0)
 	return false
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	if Application.isEditor then
 		UpdateBeat:RemoveListener(slot0.handle)
 

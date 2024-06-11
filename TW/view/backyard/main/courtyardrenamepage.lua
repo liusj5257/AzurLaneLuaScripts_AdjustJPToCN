@@ -1,10 +1,10 @@
 slot0 = class("CourtYardRenamePage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CourtYardRenameUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.confirmBtn = slot0:findTF("frame/confirm")
 	slot0.cancelBtn = slot0:findTF("frame/cancel")
 	slot0.closeBtn = slot0:findTF("frame/close")
@@ -16,7 +16,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/input/placehoder"), i18n("backyard_rename_tip"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if not getInputText(uv0.input) or slot0 == "" then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_should_input"))
@@ -47,11 +47,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0:Show()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

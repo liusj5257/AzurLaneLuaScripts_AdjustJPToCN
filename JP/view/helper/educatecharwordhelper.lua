@@ -12,7 +12,7 @@ slot1 = pg.secretary_special_ship
 slot2 = pg.character_voice_special
 slot3 = pg.secretary_special_ship_expression
 
-function slot4(slot0, slot1)
+slot4 = function(slot0, slot1)
 	if not uv0[slot0] then
 		return nil, , 
 	end
@@ -20,7 +20,7 @@ function slot4(slot0, slot1)
 	return "event:/educate-cv/" .. slot1 .. "/" .. slot2.resource_key, slot2.resource_key
 end
 
-function slot0.GetWordAndCV(slot0, slot1, slot2)
+slot0.GetWordAndCV = function(slot0, slot1, slot2)
 	slot3, slot4, slot5, slot6 = nil
 	slot7 = uv0[slot0]
 	slot8 = slot1
@@ -45,7 +45,7 @@ function slot0.GetWordAndCV(slot0, slot1, slot2)
 	return slot3, slot4, slot5 and HXSet.hxLan(slot5), slot6
 end
 
-function slot0.ExistWord(slot0, slot1)
+slot0.ExistWord = function(slot0, slot1)
 	slot2 = uv0[slot0]
 
 	if string.find(slot1, ShipWordHelper.WORD_TYPE_MAIN) then
@@ -57,11 +57,11 @@ function slot0.ExistWord(slot0, slot1)
 	end
 end
 
-function slot0.RawGetCVKey(slot0)
+slot0.RawGetCVKey = function(slot0)
 	return uv0[slot0].voice
 end
 
-function slot0.GetExpression(slot0, slot1)
+slot0.GetExpression = function(slot0, slot1)
 	slot2 = uv0[slot0]
 	slot3 = ""
 

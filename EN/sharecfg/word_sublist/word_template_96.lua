@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_96 = {}
 slot1 = slot0.word_template_96
 
-function temp()
+temp = function()
 	uv0["放"] = {
 		["荡"] = {
 			["旅"] = {
@@ -125,7 +125,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["飞"] = {
 		["机"] = {
 			["上"] = {
@@ -161,7 +161,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["飛"] = {
 		["揚"] = {
 			["論"] = {
@@ -175,7 +175,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["菲"] = {
 		["律"] = {
 			["宾"] = {
@@ -193,7 +193,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["绯"] = {
 		["闻"] = {
 			this = true
@@ -203,7 +203,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["扉"] = {
 		["之"] = {
 			["阴"] = {
@@ -218,7 +218,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["緋"] = {
 		["聞"] = {
 			this = true

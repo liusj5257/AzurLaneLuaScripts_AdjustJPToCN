@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI5",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level02",
 			dir = 1,
 			say = "모두 작전은 잘 되가?",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -183,13 +183,13 @@ return {
 			}
 		},
 		{
-			actor = 102100,
+			say = "오케이~~!!",
 			side = 2,
 			nameColor = "#a9f548",
-			hideOther = true,
+			actor = 102100,
 			dir = 1,
+			hideOther = true,
 			actorName = "컬럼비아&덴버&몬트필리어",
-			say = "오케이~~!!",
 			actorPosition = {
 				x = -500,
 				y = 0

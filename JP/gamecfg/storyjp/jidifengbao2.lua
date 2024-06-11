@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIDIFENGBAO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIDIFENGBAO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 0.5,
-			say = "「極海の嵐」作戦海域から遠く離れた場所",
 			bgm = "battle-deepecho",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "「極海の嵐」作戦海域から遠く離れた場所",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "作戦直前の連絡が終わり、ソユーズの目の前にある別のモニターが点いた。",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "ようやく始まるのですね。長く長く力を蓄えて…",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "結局指揮官に来てもらわなかったんですか？",
 			painting = {
@@ -137,8 +137,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "大丈夫ですよ。会場は平和そのもので、退屈なぐらい何も起こらないんです",
 			painting = {
@@ -154,8 +154,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "まあ、指揮官の参加でちょっとした騒動も起きましたが",
 			painting = {
@@ -195,8 +195,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "それが……指揮官の話が会場に伝わる前からもう会場を後にしてました…",
 			painting = {
@@ -212,8 +212,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "今更引き返すわけにもいきませんから…残念なことです",
 			painting = {
@@ -229,8 +229,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "それより、そろそろ作戦に集中してくださいね。ソユーズ",
 			painting = {
@@ -258,8 +258,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "サディアから作戦の成功を祈ってます。同志ソユーズ",
 			painting = {
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "通信が終了し、部屋に再び静寂が戻った。",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "少し考え込んだ後、ソユーズは時刻を確認し、作戦指揮用の通信システムを立ち上げた。",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_guild_blue",
 			blackBg = true,
 			say = "外では極海の雪嵐が吹き荒れ続けている――",

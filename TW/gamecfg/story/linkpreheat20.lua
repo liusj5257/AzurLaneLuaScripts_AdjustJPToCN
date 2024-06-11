@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT20",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇-日常篇\n\n<size=45>三　泡得真舒服！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "——嗒嗒嗒嗒！轰隆隆！",
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
+			say = "——嗒嗒嗒嗒！轰隆隆！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "警告",
 			typewriter = {
@@ -146,10 +146,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "那位银发女性的意味深长的笑声激发了我们的警戒心",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "嗯……果然不管谁的姐姐都多少有点问题的吗",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "久酱，妳说什么？",
 			typewriter = {
@@ -278,13 +278,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_chuansong",
+			side = 2,
+			dir = 1,
 			say = "——哗啦！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "好厉害！露营用的大澡盆居然有那么大的！啊哈哈哈—！",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "拉，拉菲大人，在澡盆里睡着了的话是会溺水的！",
 			typewriter = {
@@ -582,8 +582,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "大澡堂？有点意思",
 			typewriter = {
@@ -615,8 +615,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "爱干净爱洗澡是好事呢……呵呵呵……",
 			typewriter = {
@@ -741,12 +741,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "听起来像是有什么人一直堵在胸口的感觉呢",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "听起来像是有什么人一直堵在胸口的感觉呢",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -812,8 +812,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "嗯—…虽然不是说坏话啦，不过是有这么个人我有一万句话想抱怨吧",
 			typewriter = {
@@ -826,10 +826,10 @@ return {
 			}
 		},
 		{
-			actor = 10300040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_chuansong",
 			side = 0,
+			bgName = "bg_story_chuansong",
+			actor = 10300040,
 			dir = 1,
 			hideOther = true,
 			actorName = "乌璐露&萨拉娜",
@@ -916,12 +916,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "就像是我们这边的……指挥官一样的人吧",
 			typewriter = {
 				speed = 0.05,

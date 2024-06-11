@@ -1,12 +1,12 @@
 return {
-	id = "W761003",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W761003",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "出現了新的傳送門！",
 			typewriter = {
 				speed = 0.05,

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 1,
+			say = "轟——",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			bgm = "bsm-3",
-			dir = 1,
 			nameColor = "#ffde38",
 			seDelay = 1.3,
-			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -65,8 +65,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "這才是——",
 			typewriter = {
 				speed = 0.05,
@@ -80,11 +80,11 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			say = "轟——",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			dir = 1,
 			seDelay = 1.3,
-			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -135,8 +135,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "鐵血戰艦——",
 			typewriter = {
 				speed = 0.05,
@@ -150,10 +150,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			say = "轟——",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			dir = 1,
-			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -204,8 +204,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "所期待的——",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			say = "轟——",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			dir = 1,
-			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -273,8 +273,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "一生只有一次的戰鬥！",
 			typewriter = {
 				speed = 0.05,
@@ -288,10 +288,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			say = "轟——",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			dir = 1,
-			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -342,8 +342,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 2,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "可惡..朵拉炮塔被擊毀了！？",
 			typewriter = {
 				speed = 0.05,
@@ -385,11 +385,11 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
-			say = "轟————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
+			say = "轟————",
 			flashN = {
 				color = {
 					1,
@@ -482,13 +482,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
-			say = "好了好了，皇家艦隊的各位",
 			bgm = "battle-boss-4",
+			actor = 900011,
+			actorName = "測試者",
+			say = "好了好了，皇家艦隊的各位",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,8 +502,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "再這樣打下去，測試樣本要是就這樣被弄壞了，會給我們增添很多麻煩的",
 			typewriter = {
 				speed = 0.05,

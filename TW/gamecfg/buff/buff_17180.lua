@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17180,
 	time = 60,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17180,
+	color = "blue",
 	icon = 17180,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.4,
-				target = "TargetSelf",
 				skill_id = 17180,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},

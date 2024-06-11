@@ -2,19 +2,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.01
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.015
 				}
@@ -24,19 +24,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.012
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.021
 				}
@@ -46,19 +46,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.014
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.027
 				}
@@ -68,19 +68,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.016
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.033
 				}
@@ -90,19 +90,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.018
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.039
 				}
@@ -112,19 +112,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.021
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.045
 				}
@@ -134,19 +134,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.024
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.051
 				}
@@ -156,19 +156,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.027
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.057
 				}
@@ -178,19 +178,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.031
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.063
 				}
@@ -200,19 +200,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerMainFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerMainFleet",
 				arg_list = {
 					maxHPRatio = 0.035
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					maxHPRatio = 0.07
 				}
@@ -222,11 +222,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 13410,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -237,19 +237,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerMainFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetPlayerMainFleet",
 			arg_list = {
 				maxHPRatio = 0.01
 			}
 		},
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerVanguardFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetPlayerVanguardFleet",
 			arg_list = {
 				maxHPRatio = 0.015
 			}

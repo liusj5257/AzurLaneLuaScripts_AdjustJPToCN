@@ -1,13 +1,13 @@
 return {
-	id = "WORLD507C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507C",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ここの残骸の大半は沈んでいて、だいぶ時間が経ったんだろうか、藻類の痕跡がある。",
 			typewriter = {
 				speed = 0.05,

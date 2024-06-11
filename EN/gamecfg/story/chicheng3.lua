@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Red Spider Lily's Love\n\n<size=45>Chapter 3 - Love Rivals and... Exceptions?</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Noon - Shopping District",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "Noon - Shopping District",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,9 +44,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Akagi was cheerfully swinging around her shopping bag as she walked alongside me.",
 			typewriter = {
 				speed = 0.05,
@@ -70,9 +70,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "After saying that, Akagi took the shopping bags out of my hands. Actually, since she brought it up...",
 			typewriter = {
 				speed = 0.05,
@@ -86,15 +86,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "*Giggle*... You filthy little insect, are you trying to steal the Commander from Akagi!? That will be the last mistake you ever— Commander? Why are you stopping Akagi?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -119,15 +119,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "You just stared at that girl, didn't you? Why won't you stare at Akagi? Akagi thought we were supposed to be shopping together? Are you saying that girl has seduced you? Akagi will have to dispose of her later...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -152,15 +152,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Taih— That wench is right behind us! One day Akagi will end her, Akagi swears it...!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,15 +201,15 @@ return {
 			}
 		},
 		{
-			actor = 307020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "Hello, bootl... *Ahem*, Akagi. I suppose you're shopping with the Commander.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
+			say = "Yes. Would you care to join us?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yes. Would you care to join us?",
+			actor = 307010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Akagi forcefully drew Kaga by her hand over to my side.",
 			typewriter = {
 				speed = 0.05,

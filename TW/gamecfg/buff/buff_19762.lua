@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 150
+					number = 150,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 200
+					number = 200,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 250
+					number = 250,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 300
+					number = 300,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 350
+					number = 350,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 400
+					number = 400,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 450
+					number = 450,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 550
+					number = 550,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 600
+					number = 600,
+					attr = "antiAirPower"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufablue",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "防空提高",
 	stack = 3,
@@ -166,8 +166,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 150
+				number = 150,
+				attr = "antiAirPower"
 			}
 		}
 	}

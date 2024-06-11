@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIAHAIBAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIAHAIBAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Superstar of the Blue Seas\n\n<size=45>Chapter 3 - Protectors of the Seal</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107034,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Hmm, I'm almost sure it headed in this direction...",
 			bgm = "story-1",
+			actor = 107034,
+			nameColor = "#a9f548",
+			say = "Hmm, I'm almost sure it headed in this direction...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Following the reported sightings of the Seal, I thought we had managed to get a good lead on the Seal's whereabouts.",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "We're getting close, Commander! I know it!",
 			typewriter = {
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "They spoke in a lazy manner, like a bored voice actor just phoning in their lines...",
 			typewriter = {
 				speed = 0.05,
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 105200,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105200,
+			nameColor = "#a9f548",
 			say = "So, the question is: what family does the earless seal belong to?",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Wow! Spot on, Commander!",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,9 +222,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "That's like bad Latin for \"sea lion\"! Also, sea lions have ear flaps! The correct answer is \"Phocidae\"!",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 107034,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 107034,
+			nameColor = "#a9f548",
 			say = "Heh heh! The answer is \"Phocidae\"!",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "It seems like they'll let us pass now.",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "... Pfft! I never imagined you three would do something like this!",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 105200,
 			dir = 1,
+			actor = 105200,
 			nameColor = "#a9f548",
 			say = "You not enjoyin' yourself, sis?",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Oh, by the way, how are the preparations coming along?",
 			typewriter = {
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "(What \"preparations\" are they talking about...?)",
 			typewriter = {
 				speed = 0.05,
@@ -468,9 +468,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			blackBg = true,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Okay, Commander! Let's move on!",
 			typewriter = {

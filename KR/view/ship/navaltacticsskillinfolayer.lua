@@ -1,12 +1,12 @@
 slot0 = class("NavalTacticsSkillInfoLayer", import(".SkillInfoLayer"))
 
-function slot0.showBase(slot0)
+slot0.showBase = function(slot0)
 	uv0.super.showBase(slot0)
 	setActive(slot0.metaBtn, false)
 	setActive(slot0.upgradeBtn, false)
 end
 
-function slot0.showInfo(slot0, slot1)
+slot0.showInfo = function(slot0, slot1)
 	slot0.isWorld = slot1
 	slot4 = slot0.contextData.skillOnShip and slot3.level or 1
 

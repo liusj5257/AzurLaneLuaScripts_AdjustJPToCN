@@ -69,14 +69,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "2023黑阿尔及利亚 石柱设置武器",
 	time = 3,
-	id = 200470,
+	name = "2023黑阿尔及利亚 石柱设置武器",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200470,
 	last_effect = "",
 	effect_list = {}
 }

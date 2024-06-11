@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BAILINGYUMEIMENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BAILINGYUMEIMENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Cubicle Dreamin'\n\n<size=45>Productive Work</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=34>This is, apparently, all just a dream.</size>",
@@ -35,13 +35,13 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "Azur Lane Technologies Ltd. - Corporate Headquarters",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			bgm = "theme-schoolfuture",
+			side = 2,
 			bgmDelay = 1,
-			say = "Azur Lane Technologies Ltd. - Corporate Headquarters",
+			bgm = "theme-schoolfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "London rises from her chair and walks up to me.",
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 203011,
 			side = 2,
 			bgName = "star_level_bg_169",
 			spine = true,
 			dir = 1,
+			actor = 203011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "......",
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "I enjoy my breakfast and coffee while London updates me on our project. It's a relief to hear that we summarily resolved the issue that came up last night.",

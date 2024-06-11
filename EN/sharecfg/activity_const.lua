@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 20066
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 5320
+		act_id = 5361
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 30877
+		act_id = 5339
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -1040,5 +1040,23 @@ pg.activity_const = {
 	},
 	MUSIC_FESTIVAL_PT_ID_3 = {
 		act_id = 5308
+	},
+	LINER_SIGN_ID = {
+		act_id = 5324
+	},
+	SEVEN_INVITE_ID = {
+		act_id = 5350
+	},
+	LINER_NAMED_ID = {
+		act_id = 5322
+	},
+	LINER_ID = {
+		act_id = 5335
+	},
+	PIPE_GAME_ACT_ID = {
+		act_id = 5355
+	},
+	UR_EXCHANGE_MOGADOR_ID = {
+		act_id = 5351
 	}
 }

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN10",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-6",
 			actor = 405030,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "나도 함께할 수 있게 해줘.",
 			flashin = {
@@ -44,10 +44,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "안 돼, 넌 이곳에 남아야 해.",
 			painting = {
 				alpha = 0.3,
@@ -62,10 +62,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇지만…",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "난 이미 결정했으니, 다시 얘기할 필요 없어.",
 			painting = {
 				alpha = 0.3,
@@ -95,12 +95,12 @@ return {
 			}
 		},
 		{
-			actor = 499020,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "전투 준비에 집중해… 울리히.",
 			painting = {
 				alpha = 0.3,
@@ -115,10 +115,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -130,14 +130,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "화염으로 뒤덮인 바다, 울리히는 이별의 그날을 떠올린다.",
 			bgm = "theme-bismark-reborn",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "화염으로 뒤덮인 바다, 울리히는 이별의 그날을 떠올린다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,17 +149,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "기억 속 늠름한 모습의 프리드리히는 지금 바다 위 타오르는 잔해 속에 홀로 외롭게 쓰러져 있다.",
@@ -181,10 +181,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "무적의 프리드리히도 궁지에 몰리다니….",
 			painting = {
 				alpha = 0.3,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "적도, 전우도 없이, 파멸의 불길과 부러진 강철만 있을 뿐——  마치 종말의 모습 같았다.",
@@ -210,10 +210,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "후… 아이러니하네, 네가 그토록 기대하던 공해 함대는 어디 있지?",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "내가 옆에 없어서 이런 일이 생긴 거라고…",
 			painting = {
 				alpha = 0.3,
@@ -243,12 +243,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -263,10 +263,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "프리드리히, 대체 누가 널 이렇게 만든 거야…?",
 			painting = {
 				alpha = 0.3,
@@ -281,10 +281,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "아직 살아 있다면, 어서 일어나서 대답해!",
 			painting = {
 				alpha = 0.3,
@@ -307,10 +307,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
+			side = 2,
 			say = "울리히의 질문에 돌아온 건 강철의 삐걱거리는 날카로운 외침뿐이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -327,10 +327,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -345,10 +345,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "그러니까…그때 나를 데리고 갔어야지….",
 			painting = {
 				alpha = 0.3,
@@ -363,10 +363,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "너 없는 메탈 블러드가 내게 무슨 의미가 있겠어….",
 			painting = {
 				alpha = 0.3,
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "탁… 탁… 먼곳에서 점점 가까워지고 있다.",
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "누군가 이쪽으로 접근하고 있는 것 같다.",
@@ -403,10 +403,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…이게 네 마음을 사로잡은 악몽이야? 울리히.",
 			painting = {
 				alpha = 0.3,
@@ -421,10 +421,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "비스마르크… 넌 메탈 블러드가 널 가장 필요로 할 때 우릴 버렸어.",
 			painting = {
 				alpha = 0.3,
@@ -439,10 +439,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "이제와서 갑자기 왜 또 나타난 거지?",
 			painting = {
 				alpha = 0.3,
@@ -457,10 +457,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "주위를 둘러봐! 이 지경이 되었는데도 내게 명령할 셈이야!?",
 			painting = {
 				alpha = 0.3,
@@ -475,10 +475,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "나는 프리드리히의 부하지, 네 부하가 아니야!",
 			painting = {
 				alpha = 0.3,
@@ -504,10 +504,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알고 있어.",
 			painting = {
 				alpha = 0.3,
@@ -528,10 +528,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "메탈 블러드가 사경을 헤쳐나갈 수 있었던 것은 프리드리히 덕분이라고!",
 			painting = {
 				alpha = 0.3,
@@ -557,10 +557,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "그녀가 온갖 수단을 다 동원한 덕분에 메탈 블러드는 비로소 네가 메탈 블러드에 채운 세이렌의 족쇄를 벗어날 수 있었어!",
 			painting = {
 				alpha = 0.3,
@@ -572,12 +572,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "그동안 넌… 아무것도 하지 않았지!",
 			painting = {
 				alpha = 0.3,
@@ -594,12 +594,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알고 있어.",
 			painting = {
 				alpha = 0.3,
@@ -620,10 +620,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "알고 있다고…?",
 			painting = {
 				alpha = 0.3,
@@ -638,10 +638,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "그럼 어떻게 아무렇지도 않게 프리드리히가 고생으로 일군 모든 것들을 한순간에 가져갈 수 있는 거지!?",
 			painting = {
 				alpha = 0.3,
@@ -662,10 +662,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "다른 사람은 널 받아들일 수 있을지도 모르겠지만, 난, 아니야!",
 			painting = {
 				alpha = 0.3,
@@ -685,10 +685,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알고 있어.",
 			painting = {
 				alpha = 0.3,
@@ -709,10 +709,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -727,10 +727,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "…내가 이렇게까지 말했는데 화도 안 나!?",
 			painting = {
 				alpha = 0.3,
@@ -745,10 +745,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "어서 반박해봐!… 메탈 블러드의 현 지도자께서 사실은 겁쟁이었던 거야!?",
 			painting = {
 				alpha = 0.3,
@@ -769,10 +769,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네 말은 모두 사실이니까. 내게 다른 할 말은 없어.",
 			painting = {
 				alpha = 0.3,
@@ -790,12 +790,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그리고 네가 이렇게 말해줘서 정말 고마워.",
 			painting = {
 				alpha = 0.3,
@@ -810,10 +810,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하지만 지금 이렇게 적의 함정에 빠진 채 적이 원하는 대로 상황이 흘러가게 지켜보고 있을 수만은 없어.",
 			painting = {
 				alpha = 0.3,
@@ -828,10 +828,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게리온, 너의 힘을 보여줘. 이 거짓된 환상을 깨부수자!",
 			painting = {
 				alpha = 0.3,
@@ -865,13 +865,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "게리온",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*맹렬한 포효*██▌",
 			soundeffect = "event:/ui/glassbroken",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "▁▂▃▄▅▆▇███*맹렬한 포효*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
 			bgName = "bg_bsmre_cg7",
+			mode = 1,
 			bgm = "story-bismark-determination",
 			flashout = {
 				dur = 1,
@@ -901,8 +901,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -922,8 +922,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -934,8 +934,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -958,8 +958,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -970,8 +970,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -982,8 +982,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -994,8 +994,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1006,8 +1006,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1018,8 +1018,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1030,8 +1030,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1042,8 +1042,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1054,8 +1054,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1066,8 +1066,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1078,8 +1078,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1090,8 +1090,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1102,8 +1102,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1114,8 +1114,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1126,8 +1126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1138,8 +1138,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1150,8 +1150,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1162,8 +1162,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1174,8 +1174,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1186,8 +1186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1198,8 +1198,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1210,8 +1210,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1222,8 +1222,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

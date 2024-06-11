@@ -1,22 +1,22 @@
 return {
-	id = "WORLD404D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404D",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Akagi! Yuubari! Jintsuu! Yukikaze! Where are you?!",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "Akagi! Yuubari! Jintsuu! Yukikaze! Where are you?!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "(Impossible... How did everyone just disappear? But, I should consider myself lucky for not getting attacked...)",
 			typewriter = {
 				speed = 0.05,
@@ -48,8 +48,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "(It’s impossible for me to operate my aircraft in this thick fog...)",
 			typewriter = {
 				speed = 0.05,
@@ -63,9 +63,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "(Wait... This weightiness... I’m... no longer an aircraft carrier...?)",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -87,11 +87,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "Amagi?",
 			say = "It’s been a while, Kaga. It seems like you’ve finally grown up, strong enough to sail the seas with the Sakura fleet.",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "A...magi...?",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "Amagi?",
 			say = "How is my little sister doing? I trust that you’ve been taking good care of her like I asked?",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "Amagi?",
 			say = "Gone? That’s right, I should have been the one to be at her side. Not you.",
 			typewriter = {
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "Amagi?",
 			say = "Ah, how I regret the decision I made back then. Look what has happened to my Akagi, to my Sakura Empire. All because of you, Kaga...",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "Because of... me...?",
 			typewriter = {
 				speed = 0.05,
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "Amagi?",
 			say = "I’m disappointed in you, Kaga.",
 			typewriter = {
@@ -219,10 +219,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOM————————!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOM————————!!",
 			flashN = {
 				color = {
 					1,
@@ -272,9 +272,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Guh....!！",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900298,
 			actorName = "Amagi?",
 			say = "If I destroy you here, I’ll be able to see my sister again.",
 			typewriter = {
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900298,
 			actorName = "Amagi?",
 			say = "What happened to the proud and mighty Kaga I once knew? Are those guns you carry just for show?",
 			typewriter = {
@@ -332,9 +332,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...Don’t mess with me, Siren! Amagi would never say these kinds of things! I have no idea who you are, but you’re going to shut your mouth!",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Graahhhhh!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 305070,
+			nameColor = "#a9f548",
+			say = "Graahhhhh!!",
 			flashN = {
 				color = {
 					1,
@@ -409,10 +409,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOM————————!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOM————————!!",
 			flashN = {
 				color = {
 					1,
@@ -475,8 +475,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -503,8 +503,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			say = "Huh? Zuikaku...?",
 			typewriter = {
 				speed = 0.05,
@@ -561,8 +561,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -706,8 +706,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -764,8 +764,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "At that point, we had no choice but to head in to look for everyone... and that’s when we ran into you.",
 			typewriter = {
 				speed = 0.05,
@@ -810,8 +810,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "That, coupled with the jamming effect, basically confirms that this is no natural phenomenon.",
 			typewriter = {
 				speed = 0.05,
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

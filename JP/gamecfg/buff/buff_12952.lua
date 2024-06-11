@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "格罗斯特2",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "炮击属性提升",
 	stack = 1,
@@ -32,8 +32,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -42,8 +42,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		}
 	}

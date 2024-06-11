@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIAHAIBAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIAHAIBAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Superstar of the Blue Seas\n\n<size=45>Chapter 4 - Seal Located!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "……",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "All that's left is to roll up our sleeves and search for it!",
 			typewriter = {
@@ -105,11 +105,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "See? Aren't I a genius? We'll be the first team to find that Seal~",
 			typewriter = {
 				speed = 0.05,
@@ -121,8 +121,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 102220,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102220,
+			nameColor = "#a9f548",
 			say = "Hey, haven't we already been here before?! We didn't find anything last time!",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "We're so close, and now another team is trying to get there before us?!",
 			typewriter = {
@@ -190,9 +190,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "If we're on the same course, we'll just have to speed up!",
 			typewriter = {
 				speed = 0.05,
@@ -207,8 +207,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Hey! Be gentle with an idol's outfit, Commander!",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 102220,
 			dir = 1,
+			actor = 102220,
 			nameColor = "#a9f548",
 			say = "Saratoga?! ... If that's how you want it, then you'll get it! Quick, everyone!",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "Then, a large structure emerged suddenly from beneath the waves.",
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "The structure was fitted with numerous water tanks, inside of which a myriad of adorable marine animals was playing.",
 			typewriter = {
 				speed = 0.05,
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "And then, from the center of the stage, with lights shining down on it, emerged none other than the star of the show...",
 			typewriter = {
 				speed = 0.05,

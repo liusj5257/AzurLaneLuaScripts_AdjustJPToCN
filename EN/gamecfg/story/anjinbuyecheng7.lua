@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
-			say = "Ten minutes later...",
 			bgm = "story-antarctica-serious",
+			say = "Ten minutes later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Resistance Agent",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Charging in head-on would be reckless. We'll have to detour around the security force's defensive line.",
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "The already-familiar weightlessness comes over me again, and we charge directly to the top-floor office of the Manjuu Tower.",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "*CRASH!*",
 			typewriter = {
@@ -229,17 +229,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "Heehee. I will say, it is an admirable idea.",
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "However... You're far too naïve.",
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "Well done on a successful delivery, Agent Arctic Hare – Sovetsky Soyuz.",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "The leather chair behind the office's desk spins around to reveal the person sitting in it.",
 			typewriter = {
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Agent",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "W-wait. It can't be...",
@@ -439,11 +439,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Leader",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "Well, aren't you smart?",
 			painting = {
@@ -493,11 +493,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Leader",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "Working WITH the Great? Hmm, not quite.",
 			painting = {
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Leader",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "Without the resistance, the order of this city would have collapsed a long time ago.",
 			painting = {
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Leader",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "Unfortunately, that manjuu fool is in cahoots with the mafia now...",
 			painting = {
@@ -604,11 +604,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Leader",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "Heehee, how slanderous. I didn't fire the gun.",
 			painting = {
@@ -639,11 +639,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Leader",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "Playtime is over, Knight. Why don't you just give up and hand over the Ascension Box?",
 			painting = {
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Leader",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "Do it, Agent Arctic Hare.",
 			painting = {
@@ -716,11 +716,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Agent",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = ".........",
@@ -775,8 +775,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "By the time Avrora turns to Soyuz, a flash bang is already on its way to her.",
 			typewriter = {
@@ -785,11 +785,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "*CRASH!*",
 			soundeffect = "event:/battle/boom2",
+			say = "*CRASH!*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,8 +872,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"Thank you for using the Manjuu Tower elevator. Selection: top floor.\"",
 			typewriter = {
@@ -881,17 +881,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -899,8 +899,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"Please input access key.\"",
 			typewriter = {
@@ -928,11 +928,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Resistance Agent",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "There's no time—",
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "There's a whoosh as the pursuer's bullet strikes the wall of the elevator.",
 			typewriter = {
@@ -999,8 +999,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "You used the Ascension Box!",
 			typewriter = {
@@ -1017,8 +1017,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Welcome back, Administrator. Have a pleasant day.",
 			typewriter = {
@@ -1045,8 +1045,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Avrora fires a few more shots, but an energy barrier is deployed just in time to stop them.",
 			typewriter = {
@@ -1055,8 +1055,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "The elevator door inexorably closes.",
 			typewriter = {
@@ -1067,10 +1067,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9702070,
 			factiontag = "Illusion",
 			dir = 1,
 			blackBg = true,
+			actor = 9702070,
 			nameColor = "#A9F548FF",
 			say = "It's time to end this, Knight.",
 			painting = {
@@ -1082,17 +1082,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1100,8 +1100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = ".........",
 			typewriter = {
@@ -1110,8 +1110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "......",
 			typewriter = {

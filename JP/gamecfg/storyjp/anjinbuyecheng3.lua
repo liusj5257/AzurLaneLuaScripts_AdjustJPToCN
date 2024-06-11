@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackBg = true,
 			say = "管理所-地下车库",
@@ -25,19 +25,19 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
-			say = "エレベーターの扉がゆっくりと開いた。",
 			bgm = "story-antarctica-serious",
+			say = "エレベーターの扉がゆっくりと開いた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "怪盗「ミスティック」について、留置所の地下車庫に侵入することに成功したのだが…",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "そうか",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "もっと手品でも見せてくれるのかと思ったが所詮はこの程度か",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "捜査官「アレン・M・サムナー」……いや、怪盗「ミスティック」！",
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "シティの捜査官のモナークはこちらに視線を向けてきた。",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 299023,
 			side = 2,
 			bgName = "star_level_bg_543",
 			factiontag = "シティ探偵",
 			dir = 1,
+			actor = 299023,
 			nameColor = "#FF9B93",
 			say = "…………こほん。悪いが今はそうとだけ",
 			painting = {
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "パチッ！とモナークは指を慣らした。",
 			typewriter = {
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "すると車庫の緊急脱出口の扉が強引に蹴り開かれた…！",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
-			say = "すると無数の銃撃の音が鳴り響き、捜査官と看守との危険な対峙を中断させた。",
 			soundeffect = "event:/ui/kaiqiang",
+			say = "すると無数の銃撃の音が鳴り響き、捜査官と看守との危険な対峙を中断させた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "音の主――スヴィレピイが撃った少し古臭いマシンガンはモナークとオグネヴォイを遮蔽物の後ろに追いやるほどには十分な火力を持っていた。",
 			typewriter = {
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_543",
-			hidePaintObj = true,
-			actorName = "「アーティスト」",
 			side = 2,
+			bgName = "star_level_bg_543",
+			actor = 701121,
+			actorName = "「アーティスト」",
+			hidePaintObj = true,
 			say = "ははははは！ガチンコ勝負だ！",
 			typewriter = {
 				speed = 0.05,
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,8 +511,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "手加減しない掃射の連続。局面はしばらく怪盗とその協力者のほうに傾いた。",
 			typewriter = {
@@ -562,10 +562,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_543",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 701121,
 			actorName = "「アーティスト」",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "りょうかい！",
 			typewriter = {
 				speed = 0.05,
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "足元のマンホールの蓋を開け、スヴィレピイは中に飛び込んだ。",
 			typewriter = {
@@ -596,8 +596,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "ついていくのも簡単だが、しかし今はあえてそうしない理由もある。",
 			typewriter = {
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "柱の方角を見ると、たしかにオグネヴォイがさっきヘリに向けて撃った兵装を組み立てている……",
 			typewriter = {
@@ -697,8 +697,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "決心はしたはずだというのに、飛び込む前にモナークたちの方向をつい見てしまった。",
 			typewriter = {
@@ -707,8 +707,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "かつての友？と視線が交錯した",
 			typewriter = {
@@ -753,11 +753,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_543",
 			factiontag = "セキュリティ追撃隊員",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "ぱわーぜんかーいっ！！！",
 			painting = {
@@ -770,8 +770,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -780,8 +780,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "マンホールの蓋が誰かに閉められ、爆発の音のみが聞こえてくる。",
 			typewriter = {
@@ -790,8 +790,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "暗闇、そして静寂の中で、再び「幻影」の声が聞こえた。",
 			typewriter = {
@@ -817,17 +817,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -861,10 +861,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9702070,
 			factiontag = "幻影",
 			dir = 1,
 			blackBg = true,
+			actor = 9702070,
 			nameColor = "#A9F548FF",
 			say = "「饅頭タワー」へ行って――",
 			painting = {
@@ -876,17 +876,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -894,8 +894,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -904,8 +904,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "……",
 			typewriter = {

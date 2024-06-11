@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA50",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA50",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "ピュリっち",
+			side = 2,
 			stopbgm = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "…………",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "ピュリっち",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -96,16 +96,16 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			actorName = "オブザーバー",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#a9f548",
 			say = "「ピュリファイア―。おかえり♪」",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -195,15 +195,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ピュリっち",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "…………………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -293,15 +293,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ピュリっち",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "…ま、こんなもんね。そろそろ元の人格プログラムに上書きされるか",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -343,8 +343,8 @@ return {
 			}
 		},
 		{
-			actorName = "ピュリっち",
 			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			side = 2,
 			dir = 1,
 			blackBg = true,

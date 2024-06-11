@@ -1,14 +1,14 @@
 slot0 = class("ShipProfileCVLoader")
 slot1 = pg.ship_skin_words
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.loadedCVBankName = nil
 	slot0.loadedCVBattleBankName = nil
 	slot0.playbackInfo = nil
 	slot0.timers = {}
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	slot0:ClearSound()
 
 	if ShipWordHelper.ExistVoiceKey(slot1) then
@@ -16,7 +16,7 @@ function slot0.Load(slot0, slot1)
 	end
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			pg.CriMgr.GetInstance():LoadCV(uv0, slot0)
@@ -38,7 +38,7 @@ function slot0.SetUp(slot0, slot1)
 	end)
 end
 
-function slot0.PlaySound(slot0, slot1, slot2)
+slot0.PlaySound = function(slot0, slot1, slot2)
 	if not slot0.playbackInfo or slot1 ~= slot0.prevCvPath or slot0.playbackInfo.channelPlayer == nil then
 		slot0:StopSound()
 
@@ -81,7 +81,7 @@ function slot0.PlaySound(slot0, slot1, slot2)
 	return nil
 end
 
-function slot0.DelayPlaySound(slot0, slot1, slot2, slot3)
+slot0.DelayPlaySound = function(slot0, slot1, slot2, slot3)
 	slot0:RemoveTimer(slot1)
 
 	if slot2 > 0 then
@@ -103,7 +103,7 @@ function slot0.DelayPlaySound(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.RawPlaySound(slot0, slot1, slot2)
+slot0.RawPlaySound = function(slot0, slot1, slot2)
 	slot0:RemoveTimer(slot1)
 
 	if slot2 > 0 then
@@ -117,7 +117,7 @@ function slot0.RawPlaySound(slot0, slot1, slot2)
 	end
 end
 
-function slot0.RemoveTimer(slot0, slot1)
+slot0.RemoveTimer = function(slot0, slot1)
 	if slot0.timers[slot1] then
 		slot0.timers[slot1]:Stop()
 
@@ -125,14 +125,14 @@ function slot0.RemoveTimer(slot0, slot1)
 	end
 end
 
-function slot0.StopSound(slot0)
+slot0.StopSound = function(slot0)
 	if slot0.playbackInfo then
 		pg.CriMgr.GetInstance():StopPlaybackInfoForce(slot0.playbackInfo)
 		slot0.playbackInfo:SetIgnoreAutoUnload(false)
 	end
 end
 
-function slot0.Unload(slot0)
+slot0.Unload = function(slot0)
 	if slot0.loadedCVBankName then
 		pg.CriMgr.UnloadCVBank(slot0.loadedCVBankName)
 
@@ -146,7 +146,7 @@ function slot0.Unload(slot0)
 	end
 end
 
-function slot0.ClearSound(slot0)
+slot0.ClearSound = function(slot0)
 	slot0:StopSound()
 	slot0:Unload()
 
@@ -157,7 +157,7 @@ function slot0.ClearSound(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:ClearSound()
 
 	slot0.exited = true

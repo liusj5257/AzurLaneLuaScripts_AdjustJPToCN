@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "I56XIAOFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "I56XIAOFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"隅っこのヒマワリ\n\n<size=45>一 対決…？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日・学園",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日・学園",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "こうして教室の隅っこにいると誰とも話すことなく、ずっとこのまま…",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "しかも普段とは違うみんなのことを観察できる…ふふ、ふふふふ……",
 			typewriter = {
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "……ここで逢ったが百年目よ！",
 			dialogShake = {
 				speed = 0.09,
@@ -140,8 +140,8 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ハムマンこそ、今日は絶対に懲らしめてやるわ！伊168！",
 			dialogShake = {
 				speed = 0.09,
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308060,
 			dir = 1,
+			actor = 308060,
 			nameColor = "#a9f548",
 			say = "やれるもんならやってみなさいな！あとでヨークタウンに泣きつくんじゃないわ！",
 			typewriter = {
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 101250,
+			say = "ふん！そんなことするものか！ハムマンの力を思い知るのだ！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			actor = 101250,
 			dir = 1,
-			say = "ふん！そんなことするものか！ハムマンの力を思い知るのだ！",
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = false,
@@ -207,8 +207,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 308060,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308060,
+			nameColor = "#a9f548",
 			say = "寝言は寝て言いなさいな！……教室までどちらが早いか競争よ！",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101250,
+			nameColor = "#a9f548",
 			say = "望むところだ！",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -272,8 +272,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308060,
 			dir = 1,
+			actor = 308060,
 			nameColor = "#a9f548",
 			say = "よーい……",
 			typewriter = {
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101250,
+			nameColor = "#a9f548",
 			say = "ヨークタウン姉さん！どうしてここに？",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -363,8 +363,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308060,
 			dir = 1,
+			actor = 308060,
 			nameColor = "#a9f548",
 			say = "こ、こここんにちは！",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -419,11 +419,11 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101250,
+			nameColor = "#a9f548",
 			say = "………（チラッ",
 			typewriter = {
 				speed = 0.05,
@@ -435,8 +435,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -448,8 +448,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308060,
 			dir = 1,
+			actor = 308060,
 			nameColor = "#a9f548",
 			say = "そんなことないわ！ハムマンとはマブダチよ！",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101250,
+			nameColor = "#a9f548",
 			say = "ハムマンは短気なんかじゃないのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -520,8 +520,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -533,8 +533,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308060,
 			dir = 1,
+			actor = 308060,
 			nameColor = "#a9f548",
 			say = "お、おう…",
 			typewriter = {
@@ -598,8 +598,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308060,
 			dir = 1,
+			actor = 308060,
 			nameColor = "#a9f548",
 			say = "ふん！そうね！今日は見逃してやるわ！",
 			typewriter = {
@@ -612,15 +612,15 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "……敵同士が仲間になって、ライバルと書いて親友と呼ぶ素直じゃない二人……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -648,8 +648,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "……い、いけるねこれ……",
 			typewriter = {
@@ -662,12 +662,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "……伊56、ここで何を…？",
 			typewriter = {
 				speed = 0.05,

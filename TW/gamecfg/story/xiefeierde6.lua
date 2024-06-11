@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"這個女僕不太冷\n\n<size=45>六 謝菲爾德的心意·上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·臥室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·臥室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "早上好，主人。早飯已經準備好了，請洗漱吧。",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在逐漸習慣了謝菲的打掃服務之後，每到休息日甚至開始有些期待起睜開眼能夠見到謝菲了",
 			typewriter = {
 				speed = 0.05,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（要是這樣的生活能持續下去就好了……）",
 			typewriter = {
 				speed = 0.05,
@@ -164,14 +164,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "數日後，港區·臥室",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "早晨醒得早了些，時間…似乎還很早，應該還能睡會……",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "朦朧中聽到房門外似乎有談話聲——",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐卡斯爾",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "謝菲爾德",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐卡斯爾",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "謝菲爾德",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐卡斯爾",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "似乎聽到了一些很難懂的對話……",
 			typewriter = {

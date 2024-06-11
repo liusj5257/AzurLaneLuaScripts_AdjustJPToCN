@@ -2,10 +2,10 @@ pg = pg or {}
 pg.activity_event_monopoly = {
 	{
 		daily_time = 4,
+		effective_times = 0,
+		reward_time = 8,
 		id = 1,
 		version = 1,
-		reward_time = 8,
-		effective_times = 0,
 		map = {
 			1001,
 			1002,
@@ -76,10 +76,10 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		effective_times = 0,
+		reward_time = 5,
 		id = 2,
 		version = 1,
-		reward_time = 5,
-		effective_times = 0,
 		map = {
 			1001,
 			1002,
@@ -136,10 +136,10 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		effective_times = 0,
+		reward_time = 0,
 		id = 3,
 		version = 1,
-		reward_time = 0,
-		effective_times = 0,
 		map = {
 			2001,
 			2002,
@@ -167,10 +167,10 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		effective_times = 0,
+		reward_time = 5,
 		id = 4,
 		version = 2,
-		reward_time = 5,
-		effective_times = 0,
 		map = {
 			3002,
 			3003,
@@ -200,10 +200,10 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		effective_times = 0,
+		reward_time = 0,
 		id = 5,
 		version = 1,
-		reward_time = 0,
-		effective_times = 0,
 		map = {
 			4001,
 			4002,
@@ -231,10 +231,10 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		effective_times = 35,
+		reward_time = 5,
 		id = 6,
 		version = 2,
-		reward_time = 5,
-		effective_times = 35,
 		map = {
 			3002,
 			3003,
@@ -264,10 +264,10 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		effective_times = 0,
+		reward_time = 0,
 		id = 7,
 		version = 1,
-		reward_time = 0,
-		effective_times = 0,
 		map = {
 			5001,
 			5002,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"기행의 사프란\n\n<size=45>4 탐문?·상</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모의전까지 앞으로 2일.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모의전까지 앞으로 2일.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = -1,
 			say = "모항-유니온 기숙사.",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "엥, 엔터프라이즈 선배에게 직접 물어 본다고?!",
 			typewriter = {
@@ -109,15 +109,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "실례합니다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,15 +174,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#92fc63",
 			say = "그렇군, 단도직입적으로 호넷에 대해 물어보러 온 건가. 참으로 강단 있는 행동이야.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -319,15 +319,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "에, 에취~!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -362,12 +362,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "어쩐지 한기가 드네……",
 			typewriter = {
 				speed = 0.05,

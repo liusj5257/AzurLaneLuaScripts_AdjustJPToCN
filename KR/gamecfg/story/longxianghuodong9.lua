@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANGHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 306060,
 			nameColor = "#92fc63",
 			side = 1,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "드디어 왔구나.",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "자신을 희생하여 모두에게 승리를 가져다줄 수 있다면……이 류조, 향하는 곳이 불바다라고 해도 기꺼이 전진하겠다!",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "허나!",
 			typewriter = {
 				speed = 0.05,
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#92fc63",
 			bgName = "bg_story_rj",
-			actorName = "류조",
+			side = 2,
 			dir = 1,
+			actorName = "류조",
 			say = "미끼도 미끼 나름의 의지가 있는 법! 그렇게 쉽겐 쓰러지지 않는다!",
 			effects = {
 				{
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "류조",
+			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "류조",
+			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
 			actorName = "류조",
+			nameColor = "#92fc63",
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,

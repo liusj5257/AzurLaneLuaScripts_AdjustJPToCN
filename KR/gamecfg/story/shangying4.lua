@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"벚꽃놀이 대소동\n\n<size=45>제4장 - 연회의 시작</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 306030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그럼, 봄철 벚꽃놀이를 시작해볼까요~!",
 			bgm = "story-1",
+			actor = 306030,
+			nameColor = "#92fc63",
+			say = "그럼, 봄철 벚꽃놀이를 시작해볼까요~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "모두",
 			say = "오오~!",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,15 +68,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#92fc63",
 			say = "쇼카쿠 언니~ 이 튀김 맛있어~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,12 +101,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "그래 그래…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그래 그래…",
+			actor = 307050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -121,15 +121,15 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 301110,
+			nameColor = "#92fc63",
 			say = "그렇구나! 모두가 함께 폭풍 흡입하는 게 '벚꽃놀이' 구나!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 301130,
+			say = "그게 아니라고 생각하는데…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그게 아니라고 생각하는데…",
+			actor = 301130,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -254,14 +254,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "모두",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

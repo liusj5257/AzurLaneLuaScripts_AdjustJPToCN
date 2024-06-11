@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "我方夜战照明弹",
 	time = 0,
-	color = "yellow",
+	name = "我方夜战照明弹",
+	init_effect = "",
+	id = 9670,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9670,
+	color = "yellow",
 	icon = 9670,
 	last_effect = "",
 	effect_list = {

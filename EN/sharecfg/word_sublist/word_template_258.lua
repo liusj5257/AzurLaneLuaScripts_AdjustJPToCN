@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_258 = {}
 slot1 = slot0.word_template_258
 
-function temp()
+temp = function()
 	uv0["审"] = {
 		["查"] = {
 			this = true
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["諗"] = {
 		this = {
 			this = true
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["審"] = {
 		["查"] = {
 			this = true
@@ -73,7 +73,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["肾"] = {
 		["功"] = {
 			["能"] = {
@@ -104,7 +104,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["腎"] = {
 		["部"] = {
 			["橫"] = {
@@ -120,7 +120,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["升"] = {
 		["水"] = {
 			["美"] = {
@@ -139,7 +139,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["生"] = {
 		["不"] = {
 			["起"] = {

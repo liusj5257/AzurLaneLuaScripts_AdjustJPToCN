@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			bgmDelay = 1,
 			say = "이글 유니온 근해, 안전해역, Risk 0",
 			typewriter = {

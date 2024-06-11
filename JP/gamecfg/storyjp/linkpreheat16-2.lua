@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT16-2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT16-2",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "クオンたちの世界の技術を使った鏡面海域はほぼ完全に消失したにゃ",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,8 +144,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "そんな恐ろしい帰り道、想像したくないのです",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "行きは良い良い帰りは怖い♪　なんて歌みたいですね",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "あらあら、それは大変そうですねぇ……今から帰るのが嫌になってしまいます",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "賛成",
 			typewriter = {
 				speed = 0.05,
@@ -389,12 +389,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 201210,
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
 			actorName = "アズールレーン勢",
 			say = "どうぞどうぞ！",
 			subActors = {

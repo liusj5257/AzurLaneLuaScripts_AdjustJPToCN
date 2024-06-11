@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"만능 점원 시라누이\n\n<size=45>점원의 진심 (상)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 의무실",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 의무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "시라누이를 근처에 있는 학원 의무실로 데려갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "과로다냥.",
 			typewriter = {
 				speed = 0.05,
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "비서함과 점원 일을 동시에 하다보니 피로가 쌓인 거다냥.",
 			typewriter = {
 				speed = 0.05,
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "괜한 말을……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "괜한 말을……",
+			actor = 301180,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
 					x = 0,
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "환자는 얌전히 누워 있어라냥! 누이누이는 너무 무리한 거다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "침대에 누운 시라누이의 표정은 평소와 다름없지만, 기분 탓인지 어딘가 좀 가냘파 보인다.",
 			typewriter = {
 				speed = 0.05,
@@ -246,12 +246,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "당신에게만큼은 그런 말 듣기 싫사옵니다만.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "당신에게만큼은 그런 말 듣기 싫사옵니다만.",
+			actor = 301180,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301180,
 			nameColor = "#92fc63",
 			say = "아무튼, 생각보다 심하지 않아 다행이다.",
 			typewriter = {
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "어째서 납득하지 않을 거란 거지……?",
 			typewriter = {
 				speed = 0.05,
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 301180,
+			nameColor = "#92fc63",
 			say = "하아……역시 왕바보시군요.",
 			typewriter = {
 				speed = 0.05,

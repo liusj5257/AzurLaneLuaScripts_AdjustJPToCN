@@ -1,10 +1,10 @@
 slot0 = class("ChapterRewardPanel", BaseSubView)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChapterRewardPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setText(slot0:findTF("window/bg/text"), i18n("desc_defense_reward"))
 
 	slot2 = slot0._tf
@@ -32,7 +32,7 @@ slot1 = {
 	"b"
 }
 
-function slot2(slot0, slot1, slot2, slot3)
+slot2 = function(slot0, slot1, slot2, slot3)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
@@ -57,17 +57,17 @@ function slot2(slot0, slot1, slot2, slot3)
 	slot0.UIlist:align(#slot3)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	uv0.super.Show(slot0)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.Enter(slot0, slot1)
+slot0.Enter = function(slot0, slot1)
 	slot3 = pg.chapter_defense[slot1.id]
 
 	assert(slot3, "Chapter Detail should only be Defense Type")
@@ -90,7 +90,7 @@ function slot0.Enter(slot0, slot1)
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 

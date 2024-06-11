@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT25",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅\n\n<size=45>お風呂という文化</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10300010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "あ、こんにちは指揮官。今日もいい天気だね",
 			bgm = "story-uta",
+			actor = 10300010,
+			nameColor = "#a9f548",
+			say = "あ、こんにちは指揮官。今日もいい天気だね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "こう天気がいいとお部屋に籠もってるのが勿体なくなっちゃうよね",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "ヤマトにいた頃は隠み……じゃなくて、割と何でもやってたから、ドンドン任せてね！",
 			typewriter = {
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "働き者の彼女らしい。ここでの生活にはもう慣れたのだろうか？",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "寮舎にお部屋まで用意してもらったし、指揮官様々かな",
 			typewriter = {
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "他のみんなもそうだといいのだが……クオンに訊いてみる",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "うん、みんなもこっちの世界での暮らしを楽しんでると思うよ",
 			typewriter = {
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10300010,
+			nameColor = "#a9f548",
 			say = "私としては個人的に大のお気に入りになったのは……やっぱりあれかなー？",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "そう！それ！あの大浴場！",
 			typewriter = {
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……それからたっぷり１時間、クオンのお風呂への熱い思いを聞かされた",
 			typewriter = {
 				speed = 0.05,

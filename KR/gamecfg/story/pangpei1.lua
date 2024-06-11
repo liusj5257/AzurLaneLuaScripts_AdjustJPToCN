@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "PANGPEI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "PANGPEI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"캡틴 폼페이에게 맡겨주시라!\n\n<size=45>1 뭐든 맡길 수 있는 비서함!</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "아침 햇살이 집무실을 비추자, 문을 노크하는 소리가 들려왔다.",
 			bgm = "story-1",
+			say = "아침 햇살이 집무실을 비추자, 문을 노크하는 소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,10 +32,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "위대한 캡틴 폼페이! 집무실에 도착! 오늘부터 비서함을 담당하게 됐어.",
 			painting = {
 				alpha = 0.3,
@@ -47,8 +47,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -72,10 +72,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "에헴! 지휘관, 이게 오늘 업무야? 그냥 다 나한테 맡겨!",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -123,9 +123,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_story_task_2",
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -139,17 +139,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -243,13 +243,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -341,13 +341,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그, 그, 그렇지만… 어떻게 나 혼자서……",
 			painting = {
 				alpha = 0.3,
@@ -442,8 +442,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,13 +484,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(작은 목소리로) 그래도… 지휘관이랑 같이 일하고 싶었는데…",
 			painting = {
 				alpha = 0.3,
@@ -579,13 +579,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "부, 부담 주지 마!",
 			painting = {
 				alpha = 0.3,
@@ -629,8 +629,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "산들바람에 휘날리는 커튼을 뒤로 하고, 폼페이는 집무실 문을 닫고 방을 떠났다.",
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "담소를 나누며 걸음을 옮기는 두 사람의 모습이 점점 멀어진다.",

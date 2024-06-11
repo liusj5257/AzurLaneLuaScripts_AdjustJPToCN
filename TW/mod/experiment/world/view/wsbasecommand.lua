@@ -1,6 +1,6 @@
 slot0 = class("WSBaseCommand")
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	return slot0 ~= nil and type(slot0) == slot1
 end
 
@@ -22,17 +22,17 @@ slot2 = {
 	end
 }
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.index = slot1
 	slot0.wsOps = {}
 
 	setmetatable(slot0, uv0)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
-function slot0.Op(slot0, slot1, ...)
+slot0.Op = function(slot0, slot1, ...)
 	assert(slot1 and #slot1 > 0)
 
 	if #slot0.wsOps > 0 then
@@ -46,7 +46,7 @@ function slot0.Op(slot0, slot1, ...)
 	slot0.class[slot1](slot0, ...)
 end
 
-function slot0.OpDone(slot0, slot1, ...)
+slot0.OpDone = function(slot0, slot1, ...)
 	assert(#slot0.wsOps > 0, "current operation can not be nil.")
 
 	slot2 = slot0.wsOps[#slot0.wsOps]
@@ -65,7 +65,7 @@ function slot0.OpDone(slot0, slot1, ...)
 	end
 end
 
-function slot0.OpRaw(slot0, slot1, ...)
+slot0.OpRaw = function(slot0, slot1, ...)
 	setmetatable({
 		Op = function (slot0, slot1, ...)
 			slot0.class[slot1](slot0, ...)
@@ -81,7 +81,7 @@ function slot0.OpRaw(slot0, slot1, ...)
 	}):__slot1_None__(...)
 end
 
-function slot0.OpClear(slot0)
+slot0.OpClear = function(slot0)
 	slot0.wsOps = {}
 end
 

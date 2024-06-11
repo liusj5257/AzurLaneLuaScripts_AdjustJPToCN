@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.4
+					number = -0.4,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.433
+					number = -0.433,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.466
+					number = -0.466,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.499
+					number = -0.499,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.532
+					number = -0.532,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.565
+					number = -0.565,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.598
+					number = -0.598,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.631
+					number = -0.631,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.664
+					number = -0.664,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.7
+					number = -0.7,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -249,14 +249,14 @@ return {
 			}
 		}
 	},
-	time = 8,
 	name = "遁入云雨",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 13711,
+	time = 8,
 	picture = "",
 	desc = "自身受到航空伤害降低，结束后跳去技能放弹幕",
 	stack = 1,
-	id = 13711,
+	color = "blue",
 	icon = 13710,
 	last_effect = "",
 	blink = {
@@ -274,8 +274,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.4
+				number = -0.4,
+				attr = "injureRatioByAir"
 			}
 		},
 		{

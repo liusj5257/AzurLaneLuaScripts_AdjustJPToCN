@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"凛として鬼の如く\n\n<size=45>四  唯一無二のもの</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 302080,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "…………",
 			bgm = "story-1",
+			actor = 302080,
+			nameColor = "#a9f548",
+			say = "…………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "滝行の一件以来、鬼怒は時々、何やら考え込んでいるようだった。",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そしてある日、そんな凛々しく考え込んでいる彼女の姿を横から覗いてみると――",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "うっかり視線を送っていたことを気づかれてしまった。慌てて目を逸らしたがもう遅い。",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……なるほどそういうことか",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "お前もようやく魅力に気がついたんだな。ふん、さすがに遅すぎるくらいだが……",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "フフ、どうだ？この生地に色合い、そして肌触り、あと飾りに付けてある小物も",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "もっと近くで見ても構わないぞ。オーダーメイドで作ったものなんだ",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "機能性にしても、外套としてはコートに劣るが、そのことを差し引いても見映えは唯一無二だ",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "フフ、つまるところだ。――かっこいいだろ？",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（ﾋﾟｷｰﾝ）",
 			typewriter = {
 				speed = 0.05,
@@ -256,9 +256,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ここはあえてノリを合わせるか…いやいや。",
 			typewriter = {
 				speed = 0.05,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "このままだと、鬼怒のマント談義がしばらく続きそうな気がし、急いで仕事に戻るように注意した。",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "え？あっ。……す、すまん",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "あてとしたことがつい舞い上がってしまったな。コホン",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "…指揮官も、これを機にマントを着てみないか？まぁあてよりも似合うとは思えないがな",
 			typewriter = {

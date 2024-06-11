@@ -66,8 +66,8 @@ slot0.player_skill = {
 	{
 		cd_time = 0.5,
 		play_time = 0.25,
-		weight = 1,
 		name = "atk",
+		weight = 1,
 		type = "skill type fire",
 		color = {
 			1,
@@ -96,8 +96,8 @@ slot0.player_skill = {
 	{
 		cd_time = 0,
 		play_time = 0,
-		weight = 0,
 		name = "panic",
+		weight = 0,
 		type = slot7,
 		buff = {
 			{
@@ -109,17 +109,17 @@ slot0.player_skill = {
 	{
 		cd_time = 0,
 		play_time = 1,
-		weight = 0,
 		name = "neglect",
+		weight = 0,
 		type = slot7,
 		buff = {
 			{
 				time = 999999,
 				type = slot0.buff_neglect,
 				active_rule = {
-					time = 10,
+					weight = 10,
 					play_time = 3.5,
-					weight = 10
+					time = 10
 				}
 			}
 		}
@@ -127,17 +127,17 @@ slot0.player_skill = {
 	{
 		cd_time = 0,
 		play_time = 1,
-		weight = 0,
 		name = "sleep",
+		weight = 0,
 		type = slot7,
 		buff = {
 			{
 				time = 999999,
 				type = slot0.buff_sleep,
 				active_rule = {
-					time = 10,
+					weight = 10,
 					play_time = 3,
-					weight = 10
+					time = 10
 				}
 			}
 		}
@@ -165,8 +165,8 @@ slot0.player_skill = {
 	{
 		cd_time = 0,
 		play_time = 0,
-		weight = 0,
 		name = "player3Time",
+		weight = 0,
 		type = slot7,
 		buff = {
 			{
@@ -176,18 +176,18 @@ slot0.player_skill = {
 		}
 	},
 	{
-		cd_time = 20,
 		name = "player4SkillA",
-		play_time = 1,
 		skill_direct = true,
 		script_time = 0.5,
+		cd_time = 20,
+		play_time = 1,
 		weight = 2,
 		type = slot6,
 		script = slot0.script_slash,
 		effect = {
-			distance = 200,
-			name = "Slash",
 			time = 0.7,
+			name = "Slash",
+			distance = 200,
 			direct = true,
 			remove_time = 0.5,
 			anim = "Slash"
@@ -196,8 +196,8 @@ slot0.player_skill = {
 	{
 		cd_time = 0,
 		play_time = 0,
-		weight = 0,
 		name = "player4SlashTime",
+		weight = 0,
 		type = slot7,
 		buff = {
 			{
@@ -295,7 +295,7 @@ slot16 = {
 	}
 }
 
-function slot17(slot0, slot1, slot2)
+slot17 = function(slot0, slot1, slot2)
 	slot3 = {
 		ctor = function (slot0)
 			slot0.playerTf = uv0
@@ -742,14 +742,14 @@ function slot17(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._topContent = slot1
 	slot0._content = slot2
 	slot0._tpl = slot3
 	slot0._eventCall = slot4
 end
 
-function slot0.setPlayerData(slot0, slot1)
+slot0.setPlayerData = function(slot0, slot1)
 	if slot0.player and slot0.player:getId() ~= slot1.id then
 		slot0.player:dispose()
 
@@ -760,7 +760,7 @@ function slot0.setPlayerData(slot0, slot1)
 	end
 end
 
-function slot0.createPlayer(slot0, slot1)
+slot0.createPlayer = function(slot0, slot1)
 	slot3 = uv0(tf(instantiate(findTF(slot0._tpl, slot1.tpl))), slot1, slot0._eventCall)
 
 	slot3:setContent(slot0._content)
@@ -768,7 +768,7 @@ function slot0.createPlayer(slot0, slot1)
 	return slot3
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0.playerId = LaunchBallGameVo.selectPlayer
 
 	slot0:setPlayerData(uv0[slot0.playerId])
@@ -777,7 +777,7 @@ function slot0.start(slot0)
 	slot0.effects = {}
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	if LaunchBallGameVo.joyStickData and LaunchBallGameVo.joyStickData.active and LaunchBallGameVo.joyStickData.angle then
 		slot0.player:setAngle(LaunchBallGameVo.joyStickData.angle)
 	end
@@ -815,7 +815,7 @@ function slot0.step(slot0)
 	slot0.player:step()
 end
 
-function slot0.eventCall(slot0, slot1, slot2)
+slot0.eventCall = function(slot0, slot1, slot2)
 	if slot1 == LaunchBallGameScene.CHANGE_AMULET then
 		-- Nothing
 	elseif slot1 == LaunchBallGameScene.PLAYER_EFFECT then
@@ -845,25 +845,25 @@ function slot0.eventCall(slot0, slot1, slot2)
 	end
 end
 
-function slot0.press(slot0, slot1)
+slot0.press = function(slot0, slot1)
 	if slot1 == KeyCode.J and slot0.player then
 		slot0.player:fire()
 	end
 end
 
-function slot0.joystickActive(slot0, slot1)
+slot0.joystickActive = function(slot0, slot1)
 	if not slot1 and slot0.player then
 		slot0.player:fire()
 	end
 end
 
-function slot0.useSkill(slot0)
+slot0.useSkill = function(slot0)
 	if slot0.player then
 		slot0.player:useSkill()
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0.player:clear()
 end
 

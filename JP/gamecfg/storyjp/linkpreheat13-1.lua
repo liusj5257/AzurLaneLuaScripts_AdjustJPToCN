@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT13-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT13-1",
+	fadein = 1,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "──わたしがやる",
-			bgm = "level-uta",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "え？双子で一緒に行けばいいんじゃないかな？",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "ダメ、一人がいい",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "なるほど……一人で派手に暴れることで、敵の目を引きつけようというわけですね",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "なるほど……一人で派手に暴れることで、敵の目を引きつけようというわけですね",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -164,10 +164,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "遠距離から大火力で敵を引きつける。その隙に作戦遂行を……とのことです、明石さん",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "遠距離から大火力で敵を引きつける。その隙に作戦遂行を……とのことです、明石さん",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

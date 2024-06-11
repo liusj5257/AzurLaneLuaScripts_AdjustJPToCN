@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN26",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "演習海域にて・8ターン目（三笠）",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "「塔」の反撃で霧島を戦闘不能にされた三笠艦隊の艦船たちも赤城艦隊同様、アビータの射程から後退した。",
 			typewriter = {
@@ -49,8 +49,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "羽黒、中心拠点の様子はどうだった？",
 			painting = {
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "山城以外の退避が間に合わなかった艦船が全部脱落っすね…赤城さん、まさかあの「塔」の力を知っててわざわざ攻撃経路を残したんじゃ…",
 			painting = {
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "そんなことはないぞ。艦隊を引っ込めたのはしばらく様子見するためだ",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "このことはもちろん赤城も知っている。だからこそ損傷を修理して、まだ制圧していない拠点を守り始めたのだろう",
 			painting = {
@@ -197,8 +197,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "それともう一つ、武蔵側の監視もだ。武蔵以外の我々が全員演習場に降り立った以上、武蔵の動きは誰もわからなくなるからな",
 			painting = {
@@ -246,8 +246,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "ええと、羽黒は何をすればいいっすか？",
 			painting = {
@@ -279,8 +279,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "了解っす。拠点を全部長門さまに制圧させるっすね",
 			painting = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "長門は今9点でリードしているから、できればこの優勢を最後まで保っていきたい",
 			painting = {
@@ -329,8 +329,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "万が一中央拠点を陥落できぬまま演習が終了した場合でも、長門さまは点差で勝てる",
 			painting = {
@@ -346,8 +346,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "なるほどっす！羽黒、すぐ移動を開始するっす！",
 			painting = {
@@ -410,8 +410,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "演習海域にて・8ターン目（長門）",
 			typewriter = {
@@ -419,17 +419,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -440,8 +440,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "三笠大先輩の言う通り、自分を貫いて、そしてこの演習に勝つ……！",
 			painting = {
@@ -473,8 +473,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "すべての拠点を制圧が終われば、中央拠点を攻撃する際に足を引っ張り合うようなことはない",
 			painting = {
@@ -538,8 +538,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "武蔵がその拠点を手に入れたところで、「塔」を落とさぬ限り勝利し得ぬ。今更余を試そうとしても無駄に戦力を消耗するだけだぞ",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "そして武蔵のほうは――翔鶴、榛名、比叡、お主たち三人に任せるとしよう",
 			painting = {
@@ -604,8 +604,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "団結すれば勝利を収められるぞ！各艦、行動を開始せよ！",
 			painting = {

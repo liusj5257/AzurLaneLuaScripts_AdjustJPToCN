@@ -1,14 +1,14 @@
 slot0 = class("WorldOverviewLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldOverviewUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot0:LoadAtlasOverall(slot1)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtBg = slot1:Find("bg")
 
@@ -76,7 +76,7 @@ function slot0.init(slot0)
 	})
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.mode = slot0.contextData.info.mode
 
 	if slot0.mode == "Task" then
@@ -126,7 +126,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.mode then
@@ -137,7 +137,7 @@ function slot0.willExit(slot0)
 	slot0:DisposeAtlasOverall()
 end
 
-function slot0.GetOverviewMark(slot0)
+slot0.GetOverviewMark = function(slot0)
 	if slot0.mode == "Task" then
 		if slot0.isTaskArea then
 			return {
@@ -162,7 +162,7 @@ function slot0.GetOverviewMark(slot0)
 	end
 end
 
-function slot0.UpdateTaskPanel(slot0)
+slot0.UpdateTaskPanel = function(slot0)
 	slot2 = nowWorld():GetTaskProxy():getTaskById(slot0.taskId)
 
 	assert(slot2, "without this doing task: " .. slot0.taskId)
@@ -195,7 +195,7 @@ function slot0.UpdateTaskPanel(slot0)
 	setText(slot5:Find("Text"), i18n("world_task_view2") .. slot1:GetActiveEntrance():GetBaseMap():GetName())
 end
 
-function slot0.UpdateAchievementPanel(slot0)
+slot0.UpdateAchievementPanel = function(slot0)
 	slot1 = nowWorld()
 	slot2, slot3, slot4 = slot1:CountAchievements()
 
@@ -218,20 +218,20 @@ function slot0.UpdateAchievementPanel(slot0)
 	setActive(slot0.btnAchieve, pg.gameset.world_target_obtain.key_value <= #slot5)
 end
 
-function slot0.DisplayAtlasOverall(slot0)
+slot0.DisplayAtlasOverall = function(slot0)
 	if slot0.wsAtlasOverall then
 		setActive(slot0.wsAtlasOverall.tfEntity:Find("Plane"), false)
 		slot0.wsAtlasOverall:ShowOrHide(true)
 	end
 end
 
-function slot0.HideAtlasOverall(slot0)
+slot0.HideAtlasOverall = function(slot0)
 	if slot0.wsAtlasOverall then
 		slot0.wsAtlasOverall:ShowOrHide(false)
 	end
 end
 
-function slot0.LoadAtlasOverall(slot0, slot1)
+slot0.LoadAtlasOverall = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot0.wsAtlasOverall then
@@ -256,7 +256,7 @@ function slot0.LoadAtlasOverall(slot0, slot1)
 	end)
 end
 
-function slot0.DisposeAtlasOverall(slot0)
+slot0.DisposeAtlasOverall = function(slot0)
 	if slot0.wsAtlasOverall then
 		slot0.wsAtlasOverall:Dispose()
 

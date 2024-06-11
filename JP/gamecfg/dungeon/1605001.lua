@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-80,
 				20,
@@ -58,9 +58,9 @@ return {
 						{
 							deadFX = "chuansong",
 							score = 0,
-							monsterTemplateID = 15405001,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 15405001,
 							corrdinate = {
 								-5,
 								0,
@@ -75,29 +75,29 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
 									dive = "STATE_FLOAT",
-									switchTo = 1,
-									index = 0,
 									switchParam = 1.5,
+									index = 0,
+									switchType = 1,
+									switchTo = 1,
 									setAI = 20006,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									index = 1,
 									switchType = 1,
 									switchTo = 2,
+									index = 1,
 									switchParam = 11,
 									addWeapon = {
 										855001
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 7,
 									switchTo = 3,
 									index = 2,
-									switchParam = 7,
+									switchType = 1,
 									setAI = 70149,
 									addWeapon = {
 										855003
@@ -107,16 +107,16 @@ return {
 									}
 								},
 								{
-									switchParam = 2,
+									switchType = 1,
 									switchTo = 4,
 									index = 3,
-									switchType = 1,
+									switchParam = 2,
 									setAI = 70158
 								},
 								{
-									index = 4,
 									switchParam = 8,
 									switchTo = 5,
+									index = 4,
 									switchType = 1,
 									addWeapon = {
 										855005
@@ -126,10 +126,10 @@ return {
 									}
 								},
 								{
-									switchParam = 21,
-									switchTo = 6,
-									index = 5,
 									switchType = 1,
+									switchParam = 21,
+									index = 5,
+									switchTo = 6,
 									setAI = 70149,
 									addBuff = {
 										8910
@@ -140,10 +140,10 @@ return {
 									}
 								},
 								{
-									switchParam = 3,
-									switchTo = 1,
-									index = 6,
 									switchType = 1,
+									switchParam = 3,
+									index = 6,
+									switchTo = 1,
 									setAI = 70159,
 									addBuff = {
 										8831
@@ -156,9 +156,9 @@ return {
 						{
 							deadFX = "chuansong",
 							score = 0,
-							monsterTemplateID = 15405002,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 15405002,
 							corrdinate = {
 								-5,
 								0,
@@ -171,28 +171,28 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 1.5,
 									switchTo = 1,
 									index = 0,
-									switchParam = 1.5,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									index = 1,
 									switchType = 1,
 									switchTo = 2,
+									index = 1,
 									switchParam = 11,
 									addWeapon = {
 										855002
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 7,
 									switchTo = 3,
 									index = 2,
-									switchParam = 7,
+									switchType = 1,
 									setAI = 70150,
 									addWeapon = {
 										855004
@@ -202,16 +202,16 @@ return {
 									}
 								},
 								{
-									switchParam = 2,
+									switchType = 1,
 									switchTo = 4,
 									index = 3,
-									switchType = 1,
+									switchParam = 2,
 									setAI = 70126
 								},
 								{
-									index = 4,
 									switchParam = 10,
 									switchTo = 5,
+									index = 4,
 									switchType = 1,
 									addWeapon = {
 										855006
@@ -221,10 +221,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 3,
 									switchTo = 6,
 									index = 5,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70150,
 									addWeapon = {
 										855009
@@ -234,9 +234,9 @@ return {
 									}
 								},
 								{
-									index = 6,
 									switchParam = 11,
 									switchTo = 7,
+									index = 6,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -244,9 +244,9 @@ return {
 									}
 								},
 								{
-									index = 7,
 									switchParam = 5,
 									switchTo = 8,
+									index = 7,
 									switchType = 1,
 									addWeapon = {
 										855009
@@ -254,10 +254,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 3,
 									switchTo = 1,
 									index = 8,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70160,
 									addWeapon = {},
 									removeWeapon = {

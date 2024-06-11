@@ -1,6 +1,6 @@
 slot0 = class("SecondSummaryPage3", import(".SummaryAnimationPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setActive(slot0._tf:Find("propose_panel"), slot0.summaryInfoVO.isProPose)
 	setActive(slot0._tf:Find("un_panel"), not slot0.summaryInfoVO.isProPose)
 
@@ -17,7 +17,7 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0, slot1, slot0._tf:Find(slot0.summaryInfoVO.isProPose and "propose_panel" or "un_panel"))
 end
 

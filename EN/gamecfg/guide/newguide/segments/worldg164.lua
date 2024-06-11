@@ -5,17 +5,17 @@ return {
 			style = {
 				text = "You can extract resources from retrieval points by sending down a Meowfficer! The higher Meowfficer’s level and rarity, the better the odds you’ll get a rare item!",
 				mode = 2,
-				posY = -250,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -250,
 				posX = -300
 			}
 		},
 		{
 			alpha = 0.4,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/adapt/left_stage/other/salvage_list",
 				pathIndex = -999,
+				path = "OverlayCamera/Overlay/UIMain/top/adapt/left_stage/other/salvage_list",
 				triggerType = {
 					1
 				},
@@ -27,9 +27,9 @@ return {
 			style = {
 				text = "Item retrieval is progressed by moving your fleets around the map. Here you can view the progress that has been made.",
 				mode = 2,
-				posY = -250,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -250,
 				posX = -300
 			}
 		},
@@ -37,9 +37,9 @@ return {
 			style = {
 				text = "The Meowfficer can be recalled at any point. Doing so will reward you with all the items it has retrieved up to that point.",
 				mode = 2,
-				posY = -100,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -100,
 				posX = 500
 			},
 			showSign = {
@@ -58,9 +58,9 @@ return {
 			style = {
 				text = "Tap here to view the list of potential rewards.",
 				mode = 2,
-				posY = -200,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -200,
 				posX = 0
 			},
 			showSign = {
@@ -90,9 +90,9 @@ return {
 			style = {
 				text = "Tap here for more information on item retrieval.",
 				mode = 2,
-				posY = 100,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 100,
 				posX = 200
 			}
 		}

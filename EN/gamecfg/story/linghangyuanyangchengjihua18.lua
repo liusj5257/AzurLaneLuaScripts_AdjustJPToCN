@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room2",
+			bgm = "qe-ova-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TB's school entrance examination is coming up soon.",
-			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "I walk over to her room and she lets me inside.",
@@ -56,14 +56,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Um...",
 			voice = "event:/educate/tb/educate-tb-story-2-17",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Um...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,17 +73,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -91,14 +91,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I have no idea what stuff I'm supposed to go over.",
 			voice = "event:/educate/tb/educate-tb-story-2-18",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I have no idea what stuff I'm supposed to go over.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,32 +109,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I've read tons of books, but I forget everything in them.",
 			voice = "event:/educate/tb/educate-tb-story-2-19",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "TB",
-			bgName = "bg_project_tb_cg13",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "My teachers say I'm great at some subjects, but that's not enough because my other subjects are too far behind.",
-			voice = "event:/educate/tb/educate-tb-story-2-20",
+			say = "I've read tons of books, but I forget everything in them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,8 +127,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			side = 2,
+			bgName = "bg_project_tb_cg13",
+			dir = 1,
+			voice = "event:/educate/tb/educate-tb-story-2-20",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "My teachers say I'm great at some subjects, but that's not enough because my other subjects are too far behind.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			say = "Seeing the grades on the tests on her desk, a chuckle escapes my lips.",
@@ -156,14 +156,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "It's NOT funny.",
 			voice = "event:/educate/tb/educate-tb-story-2-21",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "It's NOT funny.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			say = "She pouts.",
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			say = "I had assumed TB could do anything and everything. I never thought she'd get bad grades in certain subjects.",

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG14",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#ff5c5c",
 			say = "あんたの責任じゃないわ。あの艦載機たちが邪魔すぎただけだっての",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "ヒッパーの足止め、感謝するわ。これでしばらくは安全よ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "戦艦なのにそんなに早く走れるの！？",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "どういう意味…？確かに遠くからでも艦が見えたわよ",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "もちろん構わないけど、ただ撃ち落とされる危険を冒してまで…あら？",
 			typewriter = {
@@ -220,14 +220,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_hms_7",
 			actor = 206060,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "……ティルピッツとシャルンホルストたちの対空火器、こちらに反応しなかったわね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "やはりですね。あの主力艦たちはダミーと判断していいでしょう",
 			dialogShake = {
 				speed = 0.09,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_7",
+			dir = 1,
 			say = "証拠は歴然。主力艦にしてありえない速力、反応しない対空火器……つまり――「ティルピッツたちはそこにいなかった」のだ。",
 			typewriter = {
 				speed = 0.05,

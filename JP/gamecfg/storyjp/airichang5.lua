@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「仮想繋げし共時性」-日常編\n\n<size=45>五 おはよう、こんにちは、おやすみ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "夕方・演習海域",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "夕方・演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_battle_night",
-			dir = 1,
 			say = "（ズドーン！）",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 10400020,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 10400020,
 			actorName = "キズナアイ",
 			say = "これも、みなさんのご指導の賜物です！ありがとうございます！",
 			typewriter = {
@@ -196,15 +196,15 @@ return {
 			}
 		},
 		{
-			say = "母港・重桜寮",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・重桜寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -232,8 +232,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "ふぅ、今日もつかれたー、明日も訓練に任務、動画投稿…いろいろがんばらなくちゃ！",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "そうだねー、そろそろスリープしよーっと。またねー！\nぶぅぅぅぅ……ん。",
 			typewriter = {
@@ -313,15 +313,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_battle_night",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
+			bgName = "bg_battle_night",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "どうしよう、演習海域から戻る途中に迷子になっちゃった…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -355,8 +355,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "！？あれはセイレーンの艦隊！？しかもいつの間にか囲まれちゃってる！？",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "こ、これくらいで怖気づいてちゃだめだよね！みんなに訓練してもらった成果を見せてやる！うおりゃあああぁぁぁーーーーーー！！！",
 			typewriter = {
@@ -388,14 +388,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_battle_night",
 			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "はぁ…はぁ…なんとか…ぜんぶ倒せた……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -423,8 +423,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "！？しまった！まだ後ろに――",
 			typewriter = {
@@ -437,9 +437,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "（ズドーン！）",
 			flashN = {
 				color = {
@@ -483,11 +483,11 @@ return {
 			}
 		},
 		{
-			actor = 403038,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 403038,
 			actorName = "プリンちゃん",
 			say = "まだまだ私たちが居ないとダメみたいね。アイ、大丈夫だったかしら？",
 			typewriter = {
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 201120,
 			actorName = "チュンチュン",
 			say = "私たちが来たからにはもう大丈夫ですよ><",
 			typewriter = {
@@ -520,8 +520,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "キズナアイ艦隊のみんな！？ありがとー！でも、どうしてここに！？",
 			typewriter = {
@@ -534,11 +534,11 @@ return {
 			}
 		},
 		{
-			actor = 303118,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 303118,
 			actorName = "高雄ちゃん",
 			say = "そんなことより、そろそろ拙者達に会いに来てはくれぬだろうか？",
 			typewriter = {
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 403038,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 403038,
 			actorName = "プリンちゃん",
 			say = "もう待ちくたびれちゃってるのよ？",
 			typewriter = {
@@ -568,11 +568,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 201120,
 			actorName = "チュンチュン",
 			say = "私たちはまた会える運命なんですよ？",
 			typewriter = {
@@ -585,11 +585,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 307050,
 			actorName = "しょうちゃん",
 			say = "うふふ、あんまりじらしすぎるとイタズラしちゃいますよ？",
 			typewriter = {
@@ -623,8 +623,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "え？えええええ！？",
 			typewriter = {
@@ -637,8 +637,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -647,13 +647,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "―――きて",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -684,8 +684,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "―――おきて",
 			typewriter = {
@@ -698,11 +698,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "起きてーーー！",
 			effects = {
 				{
@@ -723,10 +723,10 @@ return {
 			actor = 301120,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "さっきからずっと、変な名前を叫び続けていましたよ？「プリンちゃんーー！」とか「しょうちゃんーーー！」って",
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "さっきからずっと、変な名前を叫び続けていましたよ？「プリンちゃんーー！」とか「しょうちゃんーーー！」って",
 			effects = {
 				{
 					active = false,
@@ -778,8 +778,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "えっ、ていうかこれ…",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULISITUOERBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULISITUOERBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"演習神秘事件調查\n\n<size=45>二 調查員</size>",
@@ -17,19 +17,19 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-4",
+			soundeffect = "event:/battle/boom2",
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			soundeffect = "event:/battle/boom2",
-			nameColor = "#a9f548",
+			bgm = "battle-boss-4",
+			side = 2,
 			hidePaintObj = true,
+			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
 			say = "轟————————！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "布里斯托爾剛進入廢棄基地近海就遭到了猛烈的攻擊。",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "——這是當然的，因為演習艦隊已經部署完畢了。",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "雖然全身多處中彈，但是布里斯托爾並未受到什麼損傷。",
 			typewriter = {
 				speed = 0.05,
@@ -211,12 +211,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "——這也是當然的，因為艦隊使用的是演習專用彈藥，儘管這一切此時的布里斯托爾還並不知曉。",
 			typewriter = {
 				speed = 0.05,
@@ -247,17 +247,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "短暫的交火後，布里斯托爾借助煙霧脫離了戰鬥，之後選擇了一處廢棄的設施躲了起來。",
+			bgName = "star_level_bg_148",
 			bgm = "xinnong-3",
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "短暫的交火後，布里斯托爾借助煙霧脫離了戰鬥，之後選擇了一處廢棄的設施躲了起來。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "廢棄的設施中寂寥荒涼，即使是在白天也顯得有些陰森可怕。",
 			typewriter = {
 				speed = 0.05,
@@ -299,13 +299,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "照明系統————ON！",
 			typewriter = {
 				speed = 0.05,
@@ -336,13 +336,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "敵人居然攻到了這裡，說明港區的情況已經不容樂觀了……",
 			typewriter = {
 				speed = 0.05,
@@ -392,12 +392,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "一陣冷風吹過，沉思中的布里斯托爾打了個寒顫。在風聲之中，她似乎隱約聽到了什麼。",
 			typewriter = {
 				speed = 0.05,
@@ -409,13 +409,13 @@ return {
 			}
 		},
 		{
-			actor = 900321,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 900321,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "斯……托爾……",
 			typewriter = {
 				speed = 0.05,
@@ -427,13 +427,13 @@ return {
 			}
 		},
 		{
-			actor = 900321,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 900321,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "布里……托爾……我來找妳了……",
 			typewriter = {
 				speed = 0.05,
@@ -478,9 +478,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
-			oldPhoto = true,
-			dir = 1,
 			actor = 101490,
+			dir = 1,
+			oldPhoto = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "勇，勇敢的調查員無所畏懼！我記得書上曾經說過，聽到陌生人叫自己的名字，絕不可以答應！",
@@ -500,13 +500,13 @@ return {
 			}
 		},
 		{
-			actor = 900321,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 900321,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "布里斯……托爾……",
 			typewriter = {
 				speed = 0.05,
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "隨著聲音越來越近，那個伴隨聲音接近的身影也越發清晰起來。",
 			typewriter = {
 				speed = 0.05,
@@ -554,8 +554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "進攻艦隊就在附近，接下來妳就跟我一起……",
 			typewriter = {
 				speed = 0.05,
@@ -658,8 +658,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -706,12 +706,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "丟下了一串如同咒語一般意義不明的話語後，布里斯托爾轉頭跑入了黑暗的設施身處。",
 			typewriter = {
 				speed = 0.05,
@@ -723,14 +723,14 @@ return {
 			}
 		},
 		{
-			say = "不久之後，休假中的英格拉罕收到了來自演習艦隊的聯絡。",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgm = "level",
+			say = "不久之後，休假中的英格拉罕收到了來自演習艦隊的聯絡。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -758,10 +758,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……演習海域與不明敵人發生交火？",
 			typewriter = {
 				speed = 0.05,
@@ -773,12 +773,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（離港區那麼近的地方不可能出現敵人……應該是布里斯托爾沒錯吧？）",
 			typewriter = {
 				speed = 0.05,
@@ -793,10 +793,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那個大概就是布里斯托爾……可能剛剛遠洋回來還沒有進入演習狀態。",
 			typewriter = {
 				speed = 0.05,
@@ -830,10 +830,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呃……她說了些什麼？",
 			typewriter = {
 				speed = 0.05,
@@ -864,12 +864,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "“快回去”……我知道了，布里斯托爾大概是有些不舒服，所以希望妳們暫停一下演習的意思吧。",
 			typewriter = {
 				speed = 0.05,
@@ -884,10 +884,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "如果是這樣直說就好嘛……我現在就去請示一下指揮官~",
 			typewriter = {
 				speed = 0.05,
@@ -899,12 +899,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -919,10 +919,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（布里斯托爾那傢伙到底在搞什麼……我的指令傳達的已經很詳細了吧？）",
 			typewriter = {
 				speed = 0.05,
@@ -934,12 +934,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -954,10 +954,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（難道也許……會不會有一種可能，是我的指令傳達出了一些偏差？）",
 			typewriter = {
 				speed = 0.05,
@@ -969,12 +969,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………………………",
 			typewriter = {
 				speed = 0.05,

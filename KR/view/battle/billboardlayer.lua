@@ -75,11 +75,11 @@ slot0.tpye2titleWord = {
 	}
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BillboardUI"
 end
 
-function slot0.getRankMsgList(slot0)
+slot0.getRankMsgList = function(slot0)
 	if not slot0.rankMsgList then
 		slot0.rankMsgList, slot0.rankMsgInfo = BillboardMediator:getRankMsg()
 	end
@@ -87,7 +87,7 @@ function slot0.getRankMsgList(slot0)
 	return slot0.rankMsgList
 end
 
-function slot0.getRankMsgInfo(slot0, slot1)
+slot0.getRankMsgInfo = function(slot0, slot1)
 	if not slot0.rankMsgInfo then
 		slot0:getRankMsgList()
 	end
@@ -95,7 +95,7 @@ function slot0.getRankMsgInfo(slot0, slot1)
 	return slot0.rankMsgInfo[slot1]
 end
 
-function slot0.getRankMsgId(slot0, slot1, slot2)
+slot0.getRankMsgId = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot0:getRankMsgList()) do
 		if slot0.rankMsgInfo[slot8].type == slot1 and (not slot2 or slot2 == slot9.act_id) then
 			return slot2 or slot1
@@ -105,13 +105,13 @@ function slot0.getRankMsgId(slot0, slot1, slot2)
 	return nil
 end
 
-function slot0.setBillboard(slot0, slot1)
+slot0.setBillboard = function(slot0, slot1)
 	slot0.billboard = slot1 or {}
 
 	slot0:updateBillboard()
 end
 
-function slot0.setRank(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.setRank = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.rankList[slot0:getRankMsgId(slot4, slot5)] then
 		slot0.rankList[slot6] = {}
 	end
@@ -128,32 +128,32 @@ function slot0.setRank(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.setPresonalPoint(slot0, slot1, slot2, slot3)
+slot0.setPresonalPoint = function(slot0, slot1, slot2, slot3)
 	slot0.myPoint[slot4] = slot0.myPoint[slot0:getRankMsgId(slot2, slot3)] and math.max(slot0.myPoint[slot4], slot1) or slot1
 end
 
-function slot0.setPlayerRank(slot0, slot1, slot2, slot3, slot4)
+slot0.setPlayerRank = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.myPoint[slot5] = slot0.myPoint[slot0:getRankMsgId(slot3, slot4)] and math.max(slot0.myPoint[slot5], slot1) or slot1
 	slot0.myRank[slot5] = slot0.myRank[slot5] and math.max(slot0.myRank[slot5], slot2) or slot2
 
 	slot0:updatePlayerRankInfo(slot5)
 end
 
-function slot0.setSeasonInfo(slot0, slot1)
+slot0.setSeasonInfo = function(slot0, slot1)
 	assert(slot1, "必须存在赛季信息")
 
 	slot0.seasonInfo = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.setPlayerShip(slot0, slot1)
+slot0.setPlayerShip = function(slot0, slot1)
 	slot0.playerShip = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.rankList = {}
 	slot0.myPoint = {}
 	slot0.myRank = {}
@@ -240,7 +240,7 @@ function slot0.init(slot0)
 	slot0.scrollRect = slot0:findTF("military_page/content/rank_list", slot0.mainPanel)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -270,10 +270,10 @@ function slot0.didEnter(slot0)
 	setActive(slot0.sortBtns:Find("pledge_btn"), false)
 end
 
-function slot0.filter(slot0, slot1)
+slot0.filter = function(slot0, slot1)
 end
 
-function slot0.updateBillboard(slot0)
+slot0.updateBillboard = function(slot0)
 	if not slot0.isInitBillboard then
 		eachChild(slot0.rankContainer, function (slot0)
 			setActive(slot0, false)
@@ -324,7 +324,7 @@ function slot0.updateBillboard(slot0)
 	end
 end
 
-function slot0.updateRankTF(slot0, slot1, slot2, slot3)
+slot0.updateRankTF = function(slot0, slot1, slot2, slot3)
 	setActive(findTF(slot1, "rank"), slot2.rank <= 3)
 	setActive(findTF(slot1, "rank_num"), slot2.rank > 3)
 
@@ -352,7 +352,7 @@ function slot0.updateRankTF(slot0, slot1, slot2, slot3)
 	setText(findTF(slot1, "shiptpl/icon_bg/lv/Text"), slot2.level)
 end
 
-function slot0.updateRankInfo(slot0, slot1)
+slot0.updateRankInfo = function(slot0, slot1)
 	slot2 = slot0.rankTFs[slot1.id]
 
 	slot0:updateRankTF(slot2, slot1)
@@ -361,7 +361,7 @@ function slot0.updateRankInfo(slot0, slot1)
 	end)
 end
 
-function slot0.updatePlayerMilitaryRankInfo(slot0)
+slot0.updatePlayerMilitaryRankInfo = function(slot0)
 	slot1 = slot0:findTF("military_page/content/player_info", slot0.mainPanel)
 	slot6 = slot0.playerShip
 
@@ -380,19 +380,19 @@ function slot0.updatePlayerMilitaryRankInfo(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.scroll2PlayerRank(slot0, slot1)
+slot0.scroll2PlayerRank = function(slot0, slot1)
 	if math.min(#slot0.billboard - 2, slot1) > 0 then
 		rtf(slot0.rankContainer).anchoredPosition = Vector3(0, slot0.starty + slot0.height * (slot1 - 1), 0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if GameObject.Find("/UICamera/Canvas/UIMain/MilitaryExerciseUI(Clone)/bottom/buttons/rank_btn") then
 		triggerToggle(slot1, false)
 	end
 end
 
-function slot0.addRefreshTimer(slot0, slot1, slot2)
+slot0.addRefreshTimer = function(slot0, slot1, slot2)
 	(function ()
 		if not uv0.refreshTimer then
 			uv0.refreshTimer = {}
@@ -417,7 +417,7 @@ function slot0.addRefreshTimer(slot0, slot1, slot2)
 	slot0.refreshTimer[slot2].func()
 end
 
-function slot0.updatePowerRankTF(slot0, slot1, slot2)
+slot0.updatePowerRankTF = function(slot0, slot1, slot2)
 	if slot2.id then
 		setActive(findTF(slot1, "bg_1"), slot2.rank == 1)
 		setActive(findTF(slot1, "bg_2"), slot2.rank == 2)
@@ -475,7 +475,7 @@ function slot0.updatePowerRankTF(slot0, slot1, slot2)
 	setText(findTF(slot1, "shiptpl/icon_bg/lv/Text"), slot2.lv)
 end
 
-function slot0.updatePlayerRankInfo(slot0, slot1)
+slot0.updatePlayerRankInfo = function(slot0, slot1)
 	slot2 = slot0:findTF("content/player_info", slot0.rtPage[slot1])
 	slot3 = slot0:getRankMsgInfo(slot1)
 
@@ -499,7 +499,7 @@ function slot0.updatePlayerRankInfo(slot0, slot1)
 	})
 end
 
-function slot0.updateRankCount(slot0, slot1)
+slot0.updateRankCount = function(slot0, slot1)
 	if not slot0.initedRank[slot1] then
 		slot0.scroll[slot1]:SetTotalCount(slot0:getRankCount(slot1), -1)
 
@@ -509,7 +509,7 @@ function slot0.updateRankCount(slot0, slot1)
 	end
 end
 
-function slot0.getRankCount(slot0, slot1)
+slot0.getRankCount = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = 1, #slot0.rankList[slot1] do
@@ -519,7 +519,7 @@ function slot0.getRankCount(slot0, slot1)
 	return slot2
 end
 
-function slot0.createRankItem(slot0, slot1)
+slot0.createRankItem = function(slot0, slot1)
 	return {
 		go = slot1,
 		tf = tf(slot1)

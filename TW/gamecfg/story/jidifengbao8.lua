@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO8",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "battle-deepecho2",
 			sequence = {
 				{
@@ -29,13 +29,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_deepecho_12",
+			nameColor = "#A9F548FF",
 			say = "遠方，一座建築物的尖頂從海平線下緩緩升起。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,10 +56,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "極地要塞，我又回來了！",
 			painting = {
 				alpha = 0.3,
@@ -71,8 +71,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -84,10 +84,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "都過去這麼久了，看上去也沒發生什麼變化嘛？",
 			painting = {
 				alpha = 0.3,
@@ -102,10 +102,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雖然我對於塞壬的美學持保留意見，不過還原封不動保留著我們改造的痕跡也太不講究了……",
 			painting = {
 				alpha = 0.3,
@@ -120,8 +120,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "就算外觀如此，內部應該已經被它們徹底改造回去了。",
 			painting = {
@@ -137,8 +137,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "根據情報，這座要塞現在是清除者最主要的量產型生產基地。",
 			painting = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "如果能將其重新奪回的話，我們在極地的作戰壓力就會減少很多。",
 			painting = {
@@ -171,10 +171,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "現在各條戰線上都有我們的同志在奮戰。",
 			painting = {
 				alpha = 0.3,
@@ -189,10 +189,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "即便是塞壬的大軍，在這樣的壓力之下也會露出破綻的！",
 			painting = {
 				alpha = 0.3,
@@ -207,10 +207,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我們輪戰了這麼久，是時候全線出擊給清除者一點小小的北方聯合震撼了！",
 			painting = {
 				alpha = 0.3,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -235,8 +235,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "完全贊同。",
 			painting = {
@@ -252,8 +252,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "唔……大家注意，前方出現了塞壬的要塞守備艦隊。",
 			painting = {
@@ -269,8 +269,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "正在從三個方向向我們接近！",
 			painting = {
@@ -286,10 +286,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哦豁~既然如此，那就————",
 			painting = {
 				alpha = 0.3,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_deepecho_12",
 			say = "就在眾人調整陣型選定目標時，靈敏看準時機，向隨行的量產型艦隊發送了一個神秘的指令。",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_deepecho_12",
 			say = "隨即，原本行動緩慢的量產型忽然加速，火力射擊密度提高了一倍以上，甚至壓制住了過於接近的塞壬艦隊。",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "這究竟是……靈敏，妳剛剛做了什麼？",
 			painting = {
@@ -346,10 +346,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼哼，超載模式不能維持很久，但是爆發力十分出色！",
 			painting = {
 				alpha = 0.3,
@@ -361,8 +361,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -374,10 +374,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我們快趁這個機會摧毀要塞的生產設施，防止敵人在戰鬥中還能獲得源源不斷的增援！",
 			painting = {
 				alpha = 0.3,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "如果超載時間過長了呢……？",
 			painting = {
@@ -409,10 +409,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "快撐不住的時候我會讓它們衝入敵陣的，爆炸也能對敵人造成二次傷害！",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "……這個超載模式其他艦隊知道嗎？",
 			painting = {
@@ -444,10 +444,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "目前其他戰線上的量產型都沒有安裝這個功能，只有我們攜帶的這些有哦！",
 			painting = {
 				alpha = 0.3,
@@ -462,10 +462,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "該模式還處於測試階段，我想經過實戰檢驗之後再推廣出去！",
 			painting = {
 				alpha = 0.3,
@@ -480,8 +480,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "……那這項測試蘇維埃聯盟知道嗎？",
 			painting = {
@@ -497,10 +497,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "應該知道……？",
 			painting = {
 				alpha = 0.3,
@@ -515,10 +515,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我把這件事藏……咳，放在報告的第1873頁的最下方小字補充說明裡了！",
 			painting = {
 				alpha = 0.3,
@@ -533,10 +533,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "總、總而言之，還是先讓我們著眼於面前激烈的戰鬥吧！",
 			painting = {
 				alpha = 0.3,
@@ -548,8 +548,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -577,8 +577,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

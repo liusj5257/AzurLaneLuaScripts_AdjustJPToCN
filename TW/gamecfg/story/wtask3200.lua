@@ -1,12 +1,12 @@
 return {
-	id = "WTask3200",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask3200",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "打撈到了海洋中的資源！",
 			typewriter = {
 				speed = 0.05,

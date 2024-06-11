@@ -8,9 +8,9 @@ return {
 	desc = "传颂之物后排航空上升3%",
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},

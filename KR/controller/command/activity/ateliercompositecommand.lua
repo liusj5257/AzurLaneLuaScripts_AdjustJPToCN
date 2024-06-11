@@ -1,6 +1,6 @@
 slot0 = class("AtelierCompositeCommand", pm.SimpleCommand)
 
-function slot0.SerialAsyncUnitl(slot0, slot1, slot2)
+slot0.SerialAsyncUnitl = function(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = nil
 
@@ -15,7 +15,7 @@ function slot0.SerialAsyncUnitl(slot0, slot1, slot2)
 	end)()
 end
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1.body
 	slot6 = getProxy(ActivityProxy)
 	slot6 = slot6:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)

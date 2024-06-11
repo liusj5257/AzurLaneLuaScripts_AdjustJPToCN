@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508E",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "餘燼的火力還……真是誇張…………我們全員加起來的航空火力都無法跟餘燼的飛龍相提並論……",
-			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "不過我們和餘燼方舟的火力差不多哦！",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "嘿嘿，作戰收穫情報加一條~",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "就是這條情報在這種場合下真不知道應該算好消息還是壞消息……",
 			typewriter = {
 				speed = 0.05,
@@ -101,14 +101,14 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900287,
+			nameColor = "#ff5c5c",
 			say = "此處實驗艦隊呈現出高於預測值的戰鬥力，十分有趣的現象。",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1

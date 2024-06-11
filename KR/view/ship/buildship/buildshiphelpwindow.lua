@@ -1,10 +1,10 @@
 slot0 = class("BuildShipHelpWindow", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BuildShipHelpWindowUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.shipListTF = slot0:findTF("window/list/scrollview/list", slot0._tf)
 	slot0.shipListTpl = slot0:findTF("window/list/scrollview/item", slot0._tf)
 
@@ -16,7 +16,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("window/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0:findTF("window/close_btn", slot0._tf), function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -28,7 +28,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3)
+slot0.Show = function(slot0, slot1, slot2, slot3)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.TOP_LAYER
 	})
@@ -45,7 +45,7 @@ function slot0.Show(slot0, slot1, slot2, slot3)
 	setActiveViaLayer(slot0._tf, true)
 end
 
-function slot0.OnShow(slot0, slot1, slot2)
+slot0.OnShow = function(slot0, slot1, slot2)
 	slot0.showing = true
 	slot3 = slot1
 
@@ -80,18 +80,18 @@ function slot0.OnShow(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.showing = false
 
 	setActiveViaLayer(slot0._tf, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._tf)
 end
 
-function slot0.isShowing(slot0)
+slot0.isShowing = function(slot0)
 	return slot0.showing
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

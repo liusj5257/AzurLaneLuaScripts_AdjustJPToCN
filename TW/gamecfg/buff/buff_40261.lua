@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 40261,
 	picture = "",
 	desc = "英系buff",
 	stack = 1,
-	id = 40261,
+	color = "yellow",
 	icon = 40260,
 	last_effect = "",
 	effect_list = {

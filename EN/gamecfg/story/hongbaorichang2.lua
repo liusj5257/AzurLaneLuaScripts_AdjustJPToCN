@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Spring Festival Party\n\n<size=45>Redecorating the Office</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307072,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "(Having bided my time, waiting for Christmas to end so I can avoid the fierce competition, it's finally time to secure my Commander's heart with this new Dragon Empery outfit!)",
 			bgm = "story-china",
+			actor = 307072,
+			nameColor = "#a9f548",
+			say = "(Having bided my time, waiting for Christmas to end so I can avoid the fierce competition, it's finally time to secure my Commander's heart with this new Dragon Empery outfit!)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 307072,
 			dir = 1,
+			actor = 307072,
 			nameColor = "#a9f548",
 			say = "(Now, let us put my secret plan into action! I shall play my Commander a lovely ballad♡)",
 			typewriter = {
@@ -85,17 +85,17 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			say = "Wh-What the?!",
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "Swiftsure & Black Prince & Sirius",
 			dir = 1,
+			actorName = "Swiftsure & Black Prince & Sirius",
+			hideOther = true,
 			actor = 202232,
 			nameColor = "#a9f548",
-			say = "Wh-What the?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -141,8 +141,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307072,
 			dir = 1,
+			actor = 307072,
 			nameColor = "#a9f548",
 			say = "...Huh?",
 			typewriter = {
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 202101,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202101,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I thought we locked the door, but it seems I was wrong.",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307072,
 			dir = 1,
+			actor = 307072,
 			nameColor = "#a9f548",
 			say = "What is the meaning of this?! Where is my Commander?!",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207035,
 			dir = 1,
+			actor = 207035,
 			nameColor = "#a9f548",
 			say = "Ah. Greetings, Taihou. We are in the midst of redecorating the office in spirit of the Spring Festival whilst the Commander is out.",
 			typewriter = {
@@ -219,10 +219,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202101,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Indeed, that's why we've congregated here. Would you care to join us?",
 			typewriter = {
 				speed = 0.05,
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 307072,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307072,
+			nameColor = "#a9f548",
 			say = "Hmm... Very well, if it's for my Commander's sake, then I will assist!",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,14 +262,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 202232,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Sorry, but... isn't this good luck banner hung upside-down?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 202101,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202101,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I do believe it's supposed to be. It seems to have a certain meaning in the Dragon Empery when hung that way.",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202203,
 			dir = 1,
+			actor = 202203,
 			nameColor = "#a9f548",
 			say = "Where shall I place this decoration? Here?",
 			typewriter = {
@@ -331,10 +331,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202101,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "There? Why would you believe a lantern belongs on a chair? Place it on the bookshelves.",
 			typewriter = {
 				speed = 0.05,
@@ -349,10 +349,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202101,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oi, Black Prince, would you please stop staring at the gramophone and help redecorate?",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202242,
 			dir = 1,
+			actor = 202242,
 			nameColor = "#a9f548",
 			say = "My apologies! I got distracted...",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207035,
 			dir = 1,
+			actor = 207035,
 			nameColor = "#a9f548",
 			say = "You're doing a wonderful job keeping everyone on the same page, Gloucester.",
 			typewriter = {
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 202101,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202101,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I am only doing what's expected of me.",
 			typewriter = {
 				speed = 0.05,
@@ -434,10 +434,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202101,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Certainly. Proceed at your leisure.",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307072,
 			dir = 1,
+			actor = 307072,
 			nameColor = "#a9f548",
 			say = "(This way, I shall be the first one my Commander sees when returning to the office...!)",
 			typewriter = {

@@ -2,7 +2,7 @@ slot0 = class("GetPowerRankCommand", pm.SimpleCommand)
 slot1 = 100
 slot2 = 5
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.type
 	slot4 = slot2.activityId
@@ -11,7 +11,7 @@ function slot0.execute(slot0, slot1)
 
 	slot5 = getProxy(BillboardProxy)
 
-	function slot6(slot0, slot1)
+	slot6 = function(slot0, slot1)
 		uv0:setRankList(uv1, uv2, slot0)
 		uv0:setPlayerRankData(uv1, uv2, slot1)
 		uv3:sendNotification(GAME.GET_POWERRANK_DONE, {
@@ -58,7 +58,7 @@ function slot0.execute(slot0, slot1)
 	else
 		slot7 = {}
 
-		function slot8(slot0, slot1)
+		slot8 = function(slot0, slot1)
 			if #uv0 < (slot0 - 1) * uv1 / uv2 then
 				slot1()
 
@@ -82,7 +82,7 @@ function slot0.execute(slot0, slot1)
 
 		slot9 = nil
 
-		function slot10(slot0)
+		slot10 = function(slot0)
 			slot1 = pg.ConnectionMgr.GetInstance()
 
 			slot1:Send(18203, {
@@ -149,7 +149,7 @@ function slot0.execute(slot0, slot1)
 				slot0 = {}
 				slot1 = {}
 
-				function slot2(slot0)
+				slot2 = function(slot0)
 					slot2 = 0
 
 					for slot6 = 1, table.indexof(uv0, slot0) - 1 do

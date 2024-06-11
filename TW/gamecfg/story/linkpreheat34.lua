@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT34",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇\n\n<size=45>相互连接的世界</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "——关于镜面海域，{namecode:98}掌握的数据就只有这么多喵",
 			bgm = "main-uta",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "——关于镜面海域，{namecode:98}掌握的数据就只有这么多喵",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "感谢",
 			typewriter = {
@@ -72,10 +72,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "感谢您的帮助，猫神大人。这些情报足够了。我们也开始寻找解析的线索吧",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -125,10 +125,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "那是当然，猫神大人。让我们携手给塞壬出其不意的一击吧",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "乌璐露与萨拉娜正和{namecode:98}开着作战会议",
 			typewriter = {
 				speed = 0.05,
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "乌璐露与萨拉娜好像正在让{namecode:98}解释镜面海域的构造",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "以牙还牙",
 			typewriter = {
@@ -183,10 +183,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "被塞壬突然摆了一道，实在是屈辱至极……一定要彻底解析她们的能力，报这一箭之仇",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -268,8 +268,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "交给我们",
 			typewriter = {
@@ -285,10 +285,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "赌上伟大之父之名，一定会成功的",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -322,8 +322,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "关键还是特殊结界",
 			typewriter = {
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "镜面海域是将现实存在的事物倒映进镜面而显现的现实影像。其实我们的咒法里也有类似的，可以制造出这种封闭空间的技术",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "镜面海域是将现实存在的事物倒映进镜面而显现的现实影像。其实我们的咒法里也有类似的，可以制造出这种封闭空间的技术",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -359,8 +359,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "本质相同",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			say = "技术上虽然有所不同，但我听说过大和曾进行过与此相似的研究。那么说不定我们可以揭开这一谜题",
 			typewriter = {

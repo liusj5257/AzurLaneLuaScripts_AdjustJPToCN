@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 800710,
 	picture = "0",
 	desc = "",
+	painting = 0,
+	id = 800710,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,9 +16,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerMainFleet",
 				"TargetNationality",
@@ -36,9 +36,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerMainFleet",
 				"TargetNationality",

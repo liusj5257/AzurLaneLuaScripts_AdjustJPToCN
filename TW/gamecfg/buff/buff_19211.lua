@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "吾妻特殊弹幕I",
 	time = 0,
-	color = "red",
+	name = "吾妻特殊弹幕I",
+	init_effect = "",
+	id = 19211,
 	picture = "",
 	desc = "主炮每进行8次攻击，触发小子弹弹幕",
 	stack = 1,
-	id = 19211,
+	color = "red",
 	icon = 19210,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 19211,
+				target = "TargetSelf",
 				countType = 19210
 			}
 		}

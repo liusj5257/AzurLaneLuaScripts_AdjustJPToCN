@@ -3,7 +3,7 @@ slot0.TYPE_SHOP = 1
 slot0.TYPE_EVENT = 2
 slot0.TYPE_SITE = 3
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.configId = slot0.id
 	slot0.usedCnt = slot2 or 0
@@ -14,17 +14,17 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:initRefreshTime()
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.child_site_option
 end
 
-function slot0.initTime(slot0)
+slot0.initTime = function(slot0)
 	if slot0:IsLimitTime() then
 		slot0.startTime, slot0.endTime = EducateHelper.CfgTime2Time(slot0:getConfig("time_limit"))
 	end
 end
 
-function slot0.initRefreshTime(slot0)
+slot0.initRefreshTime = function(slot0)
 	if slot0:IsEventType() and slot0:IsCountLimit() then
 		slot0.refreshWeeks = {}
 		slot2 = 60
@@ -38,19 +38,19 @@ function slot0.initRefreshTime(slot0)
 	end
 end
 
-function slot0.IsShowLimit(slot0)
+slot0.IsShowLimit = function(slot0)
 	return slot0:getConfig("is_limit") == 1 and slot0.remainCnt > 0
 end
 
-function slot0.IsLimitTime(slot0)
+slot0.IsLimitTime = function(slot0)
 	return #slot0:getConfig("time_limit") ~= 0
 end
 
-function slot0.IsCountLimit(slot0)
+slot0.IsCountLimit = function(slot0)
 	return slot0:getConfig("count_limit") ~= "" and #slot0:getConfig("count_limit") == 2
 end
 
-function slot0.IsShow(slot0)
+slot0.IsShow = function(slot0)
 	if slot0:IsLimitTime() then
 		return EducateHelper.InTime(slot0.curTime, slot0.startTime, slot0.endTime)
 	else
@@ -58,35 +58,35 @@ function slot0.IsShow(slot0)
 	end
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.IsEventType(slot0)
+slot0.IsEventType = function(slot0)
 	return slot0:getConfig("type") == uv0.TYPE_EVENT
 end
 
-function slot0.IsReplace(slot0)
+slot0.IsReplace = function(slot0)
 	return slot0:getConfig("replace") ~= 0
 end
 
-function slot0.GetCost(slot0)
+slot0.GetCost = function(slot0)
 	return slot0:getConfig("cost")
 end
 
-function slot0.GetLinkId(slot0)
+slot0.GetLinkId = function(slot0)
 	return slot0:getConfig("param")[1]
 end
 
-function slot0.GetOriginalCnt(slot0)
+slot0.GetOriginalCnt = function(slot0)
 	return slot0:IsCountLimit() and slot0:getConfig("count_limit")[1] or 999
 end
 
-function slot0.GetRemainCnt(slot0)
+slot0.GetRemainCnt = function(slot0)
 	return slot0.remainCnt
 end
 
-function slot0.GetCntText(slot0)
+slot0.GetCntText = function(slot0)
 	if not slot0:IsCountLimit() then
 		return ""
 	end
@@ -94,15 +94,15 @@ function slot0.GetCntText(slot0)
 	return string.format("(%d/%d)", slot0.remainCnt, slot0:getConfig("count_limit")[1])
 end
 
-function slot0.CanTrigger(slot0)
+slot0.CanTrigger = function(slot0)
 	return slot0.remainCnt > 0
 end
 
-function slot0.ReduceCnt(slot0)
+slot0.ReduceCnt = function(slot0)
 	slot0.remainCnt = slot0.remainCnt - 1
 end
 
-function slot0.IsShowPolaroid(slot0)
+slot0.IsShowPolaroid = function(slot0)
 	if #slot0:getConfig("polarid_list") == 0 then
 		return false
 	end
@@ -112,7 +112,7 @@ function slot0.IsShowPolaroid(slot0)
 	end)
 end
 
-function slot0.GetResults(slot0)
+slot0.GetResults = function(slot0)
 	if EducateHelper.IsShowNature() then
 		return slot0:getConfig("result_display")
 	else
@@ -122,17 +122,17 @@ function slot0.GetResults(slot0)
 	end
 end
 
-function slot0.IsResetWeek(slot0, slot1)
+slot0.IsResetWeek = function(slot0, slot1)
 	return table.contains(slot0.refreshWeeks, slot1)
 end
 
-function slot0.OnWeekUpdate(slot0, slot1)
+slot0.OnWeekUpdate = function(slot0, slot1)
 	slot0.curTime = slot1
 
 	slot0:CheckCntReset()
 end
 
-function slot0.CheckCntReset(slot0)
+slot0.CheckCntReset = function(slot0)
 	if slot0:IsEventType() and slot0:IsCountLimit() and slot0:IsResetWeek(EducateHelper.GetWeekIdxWithTime(slot0.curTime)) then
 		slot0.remainCnt = slot0:GetOriginalCnt()
 	end

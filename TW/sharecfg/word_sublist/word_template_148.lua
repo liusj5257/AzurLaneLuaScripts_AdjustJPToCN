@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_148 = {}
 slot1 = slot0.word_template_148
 
-function temp()
+temp = function()
 	uv0["微"] = {
 		["型"] = {
 			["袖"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["不"] = {
 		["良"] = {
 			["少"] = {
@@ -73,7 +73,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["养"] = {
 		["个"] = {
 			["儿"] = {
@@ -93,7 +93,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.q = {
 		q = {
 			["订"] = {

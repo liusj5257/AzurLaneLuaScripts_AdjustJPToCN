@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023俾斯麦Z活动 革律翁合体状态下承受部分伤害并减伤",
 	time = 0,
-	color = "red",
+	name = "2023俾斯麦Z活动 革律翁合体状态下承受部分伤害并减伤",
+	init_effect = "",
+	id = 200435,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200435,
+	color = "red",
 	last_effect = "",
 	effect_list = {
 		{

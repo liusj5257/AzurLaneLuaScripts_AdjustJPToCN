@@ -1,12 +1,12 @@
 return {
-	id = "WTask330C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask330C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "해역의 모든 회수 가능한 자원을 인양했습니다. 임무 완성!",
 			typewriter = {
 				speed = 0.05,

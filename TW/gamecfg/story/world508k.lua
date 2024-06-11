@@ -1,16 +1,16 @@
 return {
-	id = "WORLD508K",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508K",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "刺眼的白光覆蓋了視野，爆炸與衝擊蹂躪著海天。",
-			dir = 1,
 			bgm = "main-ashes-theme",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "刺眼的白光覆蓋了視野，爆炸與衝擊蹂躪著海天。",
 			flashN = {
 				color = {
 					1,
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "當一切都平靜下來後，海域中剩下的只有死寂。",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "咳咳咳……指揮官，您沒事吧！",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "還算沒事，其他人呢？",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "後勤艦隊正在緊急處理，萬幸的是沒有出現掉隊的人……",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這種規模的爆炸………………餘燼那邊沒問題吧。",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "繼續前進……盡快找出離開這裡的航線。",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "塞壬主力艦隊已被全數消滅，剩下的只有和餘燼激戰的仲裁機關。",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "重新集結艦隊之後肅清奇異點內空間，NA海域的戰鬥就算徹底結束了……",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在那之前，所有人一定要堅持住啊………………",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

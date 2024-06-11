@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-ucnf-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "理事会第5任務艦隊・臨時拠点",
-			bgm = "theme-ucnf-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -36,10 +36,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さて、みなさんについては私の印象にある同一人物と比べて、多少の差異を感じられる",
 			painting = {
 				alpha = 0.3,
@@ -54,10 +54,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この差異は上手く言葉で説明できないけど、しいて言えば「パラレルワールド」が一番しっくり来るかもしれない",
 			painting = {
 				alpha = 0.3,
@@ -72,10 +72,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ、昔のSF小説ではよくある設定ね",
 			painting = {
 				alpha = 0.3,
@@ -109,10 +109,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "必要が迫れば、科学技術の進歩は早いわ",
 			painting = {
 				alpha = 0.3,
@@ -127,10 +127,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それより、ここはみなさんが生活している世界なの？",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん。私たちは…ええと、かなり遠い世界から来たの",
 			painting = {
 				alpha = 0.3,
@@ -201,10 +201,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "元の世界での航行途中、理事会のビーコンから発信された救難信号をキャッチして――",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "信号の座標はそう遠くないから、救援を実施することにしたわ",
 			painting = {
 				alpha = 0.3,
@@ -237,10 +237,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それで、信号を辿って海を進んでいったところ、時空異常現象に突然巻き込まれて…",
 			painting = {
 				alpha = 0.3,
@@ -255,10 +255,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それから色々あってこの世界にやってきたわけ",
 			painting = {
 				alpha = 0.3,
@@ -273,10 +273,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そっちは？どうやって理事会のビーコンを手に入れたの？",
 			painting = {
 				alpha = 0.3,
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "確認だけど、「ビーコン」はこの装置のことだよね……っ",
@@ -363,8 +363,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -376,10 +376,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ。最近星を眺めてばかりでよく眠れなかったのかしら",
 			painting = {
 				alpha = 0.3,
@@ -394,10 +394,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不思議ね。見知らぬはずなのに、お互いがどんな人かよく分かるなんて……",
 			painting = {
 				alpha = 0.3,
@@ -412,10 +412,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃあグアム、説明をお願いね",
 			painting = {
 				alpha = 0.3,
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うん。えー実は今朝グアムが格納庫で――",
@@ -447,11 +447,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正直、1割も分からなかった",
 			painting = {
 				alpha = 0.3,
@@ -462,17 +462,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -483,10 +483,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「枝」とやらが違うだけでこんなに違うのね……",
 			painting = {
 				alpha = 0.3,
@@ -501,10 +501,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも一つだけ確実に言えるのは、あなたたちは偶然ビーコンを手に入れただけみたいね",
 			painting = {
 				alpha = 0.3,
@@ -519,10 +519,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（おうちに帰れると思ったのに、そう上手くいかないわね…）",
 			painting = {
 				alpha = 0.3,
@@ -556,10 +556,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ、もちろんよ",
 			painting = {
 				alpha = 0.3,
@@ -571,11 +571,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "来る途中にプリンストンを見なかった？",
@@ -589,11 +589,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ。ええと、あなたとは別の「プリンストン」って意味ね",
@@ -610,10 +610,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いいえ、見てないわ。その「プリンストン」は確かあなたたちがビーコンを見つける前にはぐれたのよね？",
 			painting = {
 				alpha = 0.3,
@@ -628,10 +628,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃあこの海のどこかにいるかもよ。もしかしたら私たちみたいに通信設備が故障して……",
 			painting = {
 				alpha = 0.3,
@@ -646,10 +646,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……私たちにも手伝わせて",
 			painting = {
 				alpha = 0.3,
@@ -661,12 +661,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "フォートレス、「プリンストン」の捜索をお願い",
 			painting = {
 				alpha = 0.3,
@@ -710,11 +710,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "じーーーーーー",
 			painting = {
@@ -730,10 +730,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ラフィーはさっきからずっとフォートレスを睨んでるね",
 			painting = {
 				alpha = 0.3,
@@ -748,10 +748,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そういえば、さっきもそっちはいきなりフォートレスを攻撃してきたけど",
 			painting = {
 				alpha = 0.3,
@@ -766,10 +766,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……もしかしてそっちの「枝」でフォートレスと何かあった？",
 			painting = {
 				alpha = 0.3,
@@ -781,11 +781,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「何か」どころじゃないのよね～",
@@ -818,12 +818,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "フォートレス――「プロトコルウォーフェア・FORTRESS」は理事会に協力するために特別に改装されたアンチエックスの一体よ",
 			painting = {
 				alpha = 0.3,
@@ -838,10 +838,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そして私は理事会に所属しているKAN-SENだから、一緒に戦って当然じゃない？",
 			painting = {
 				alpha = 0.3,
@@ -856,10 +856,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "セイレーンって…一体何？",
 			painting = {
 				alpha = 0.3,
@@ -912,10 +912,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アンチエックスとセイレーンが同じ？そしてあなたたちの「枝」では敵になっている？",
 			painting = {
 				alpha = 0.3,
@@ -930,10 +930,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "話が見えないわ。なんで艦船がアンチエックスと敵対するの？どうして戦うの…？",
 			painting = {
 				alpha = 0.3,
@@ -1005,10 +1005,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……どうしてそんなことに……",
 			painting = {
 				alpha = 0.3,
@@ -1023,10 +1023,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃあ「エックス」は？「エックス」との戦いはどうなったの？",
 			painting = {
 				alpha = 0.3,
@@ -1041,10 +1041,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それに「侵食具現体」に会ってしまったとはね…",
 			painting = {
 				alpha = 0.3,
@@ -1059,10 +1059,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかしてあなたたち、「エックス」とアンチエックス両方を同時に相手しているの？",
 			painting = {
 				alpha = 0.3,
@@ -1109,10 +1109,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ、今行くわ。フォートレス、ここは任せ……られないわね",
 			painting = {
 				alpha = 0.3,
@@ -1124,11 +1124,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "じーーーーーー",
 			painting = {
@@ -1160,11 +1160,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こっちは大丈夫。それにフォートレスをもっと近くで見てみたいから…",
@@ -1181,10 +1181,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わかった。フォートレス、みんなの相手をしてあげて",
 			painting = {
 				alpha = 0.3,
@@ -1234,11 +1234,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "擬似空間で喉が渇いたりしてもただの錯覚のはずなのに、なぜかものすごくリアルで…///",
@@ -1255,10 +1255,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……擬似空間？",
 			painting = {
 				alpha = 0.3,
@@ -1292,10 +1292,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…フォートレス、まだちょっと早いけど食料の準備もお願い。戻ったらご飯にする",
 			painting = {
 				alpha = 0.3,
@@ -1323,10 +1323,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "では、私はこれで――",
 			painting = {
 				alpha = 0.3,
@@ -1379,10 +1379,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "歴史が分かる、本？…補給艦のデータベースにあるわね",
 			painting = {
 				alpha = 0.3,
@@ -1397,10 +1397,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ちょっと待って、今コピーしてパネルに……",
 			painting = {
 				alpha = 0.3,
@@ -1415,10 +1415,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…アクセスが拒否された…？フォートレス、これは一体？",
 			painting = {
 				alpha = 0.3,
@@ -1430,8 +1430,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1456,10 +1456,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……レディがやりそうなことね…",
 			painting = {
 				alpha = 0.3,
@@ -1474,10 +1474,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ちょっと行ってくるわ。何かあったらまたあとで――",
 			painting = {
 				alpha = 0.3,
@@ -1491,9 +1491,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			bgName = "bg_story_task",
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1507,17 +1507,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1584,9 +1584,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "bg_story_task",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1601,8 +1601,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1649,11 +1649,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "さあ？早く来てほしいから？",
@@ -1667,11 +1667,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうじゃないよ。「プリンストン」と違って、「ギンギツネ」は明らかに私たちのことを警戒している",
@@ -1685,11 +1685,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "彼女から重要な情報を聞くのは簡単じゃないかもね…",

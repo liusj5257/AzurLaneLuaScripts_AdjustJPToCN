@@ -1,13 +1,13 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIERICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIERICHANG2",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Ninja Scrolls: At Your Leisure\n\n<size=45>Trainers Training Trainees - Part 1</size>",
@@ -16,20 +16,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "Port - Gymnasium",
 			bgm = "sk-theme",
+			say = "Port - Gymnasium",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			say = "The shinobis were undergoing intensive training...",
@@ -41,11 +41,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_601",
 			actor = 102260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Gotcha!",
 			painting = {
 				alpha = 0.3,
@@ -56,17 +56,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			say = "BONK!",
@@ -101,10 +101,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Owwww... You pulled a fast one on me!",
 			painting = {
 				alpha = 0.3,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 304040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You've got a lot of training to do if you're falling for simple tricks like that, mecha-ninja.",
 			painting = {
 				alpha = 0.3,
@@ -172,9 +172,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 303100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "W-wait! I'm sorry! I'll take this seriously from now o– Aaahhh!",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,12 +192,12 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 304040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Scoring a point only for this to happen... Cramming all night clearly backfired on you.",
 			painting = {
 				alpha = 0.3,
@@ -250,10 +250,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I know that, it's just... How do I put this... Your way of teaching is pretty punishing.",
 			painting = {
 				alpha = 0.3,
@@ -268,10 +268,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Pfft!",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 11000030,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Your draconian nature is showing!",
 			painting = {
 				alpha = 0.3,
@@ -313,28 +313,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
+			bgm = "sk-az-story",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Meanwhile, outside the gymnasium...",
-			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How I envy them...",
 			painting = {
 				alpha = 0.3,
@@ -359,12 +359,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Speaking to them was so easy during the mission, but now, back at the port, I feel too shy...",
 			painting = {
 				alpha = 0.3,
@@ -376,12 +376,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Asking a genuine ninja for their teachings is so, so discourteous!",
 			painting = {
 				alpha = 0.3,
@@ -396,10 +396,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Akatsuki? Whatcha doin' in there?",
 			painting = {
 				alpha = 0.3,
@@ -411,12 +411,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hibiki?! Oh, it's you, Bremerton... Please don't scare me so.",
 			painting = {
 				alpha = 0.3,
@@ -431,10 +431,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Uh, sorry. So, why aren't you training with the others?",
 			painting = {
 				alpha = 0.3,
@@ -449,10 +449,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are you hiding here as part of some special training or whatever?",
 			painting = {
 				alpha = 0.3,
@@ -464,12 +464,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No, I'm just... Well...",
 			painting = {
 				alpha = 0.3,
@@ -481,12 +481,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
-			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...And that's essentially it.",
 			painting = {
 				alpha = 0.3,
@@ -497,17 +497,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -518,10 +518,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahh... I mean, you fought the Sirens side-by-side with 'em. It makes no sense to be afraid now.",
 			painting = {
 				alpha = 0.3,
@@ -536,10 +536,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You know what? You've got a problem, and I'm gonna help you solve it!",
 			painting = {
 				alpha = 0.3,
@@ -551,12 +551,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What? No, wait! Wait a second!",
 			painting = {
 				alpha = 0.3,
@@ -570,8 +570,8 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_601",
 			dir = 1,
+			bgName = "star_level_bg_601",
 			bgm = "sk-theme",
 			actor = 103240,
 			nameColor = "#A9F548FF",
@@ -586,17 +586,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -607,10 +607,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I just was wondering if you could instruct Akatsuki on her training. You folks got the time?",
 			painting = {
 				alpha = 0.3,
@@ -622,12 +622,12 @@ return {
 			}
 		},
 		{
-			actor = 11000030,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? No, I don't, I'm busy. Really busy with something. Haven't been this busy in aaages.",
 			painting = {
 				alpha = 0.3,
@@ -642,10 +642,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ohhh, I see. You can't just walk up and ask an evil ninja for something.",
 			painting = {
 				alpha = 0.3,
@@ -657,8 +657,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			say = "KA-CLICK!",
@@ -668,12 +668,12 @@ return {
 			}
 		},
 		{
-			actor = 11000030,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whoa, whoa! Easy! What's the deal with the huge cannon all of a sudden?!",
 			painting = {
 				alpha = 0.3,
@@ -688,10 +688,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "C'mon, you've got time. At least enough to help Akatsuki out.",
 			painting = {
 				alpha = 0.3,
@@ -703,12 +703,12 @@ return {
 			}
 		},
 		{
-			actor = 11000030,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, okay! I'll do it, just put that thing away!",
 			painting = {
 				alpha = 0.3,
@@ -720,12 +720,12 @@ return {
 			}
 		},
 		{
-			actor = 103240,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Great! Be nice to her now, 'kay?",
 			painting = {
 				alpha = 0.3,

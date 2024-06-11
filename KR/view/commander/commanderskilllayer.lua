@@ -1,10 +1,10 @@
 slot0 = class("CommanderSkillLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderSkillUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0.contextData.skill
 	slot0.backBtn = slot0:findTF("top/btnBack")
 	slot0.skillInfoName = slot0:findTF("panel/bg/skill_name")
@@ -24,12 +24,12 @@ function slot0.init(slot0)
 	slot0:SetLocaliza()
 end
 
-function slot0.SetLocaliza(slot0)
+slot0.SetLocaliza = function(slot0)
 	setText(slot0:findTF("top/title_list/infomation/title"), i18n("words_information"))
 	setText(slot0:findTF("panel/buttonList/ok_button/Image"), i18n("word_ok"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
@@ -46,7 +46,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateList()
 end
 
-function slot0.UpdateList(slot0)
+slot0.UpdateList = function(slot0)
 	slot1 = slot0.contextData.skill
 	slot2 = slot1:getConfig("lv")
 	slot4 = slot1:getConfig("lv")
@@ -63,7 +63,7 @@ function slot0.UpdateList(slot0)
 	slot0.skillDescList:align(#slot1:GetSkillGroup())
 end
 
-function slot0.GetDesc(slot0, slot1, slot2)
+slot0.GetDesc = function(slot0, slot1, slot2)
 	if not slot1 and slot2.desc_world and slot2.desc_world ~= "" then
 		return slot2.desc_world
 	else
@@ -71,15 +71,15 @@ function slot0.GetDesc(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetColor(slot0, slot1)
+slot0.GetColor = function(slot0, slot1)
 	return "#FFFFFFFF"
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0.backBtn)
 end
 

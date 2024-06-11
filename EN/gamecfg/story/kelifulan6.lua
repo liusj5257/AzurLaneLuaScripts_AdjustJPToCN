@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Knights & Awards\n\n<size=45>Chapter 6 - From The Brink</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "Cleveland's team went to cool down in the break room. They weren't exactly grumbling, but their faces showed signs of distress.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "Cleveland's team went to cool down in the break room. They weren't exactly grumbling, but their faces showed signs of distress.",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Once Cleveland started getting fired up, the rest of the team followed shortly.",
 			typewriter = {
 				speed = 0.05,
@@ -124,16 +124,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "C'mon! We're not out of the game yet! We'll show 'em what the Knights of The Sea are truly made of!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -149,18 +149,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "Denver & Montpelier",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Hooyah!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -201,17 +201,17 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			actorName = "{namecode:63}",
-			bgName = "star_level_bg_103",
 			side = 2,
 			dir = -1,
+			bgName = "star_level_bg_103",
+			bgm = "battle-boss-6",
+			actor = 303070,
 			nameColor = "#a9f548",
 			say = "They're going to break through! Stop them from passing the ball, no matter what!",
-			bgm = "battle-boss-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			actor = 302120,
+			say = "Crap! Now that they've formed up, our strategy ain't gonna work...!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302120,
 			actorName = "{namecode:38}",
-			say = "Crap! Now that they've formed up, our strategy ain't gonna work...!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "HWEEEEEEE!",
 			typewriter = {
 				speed = 0.05,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Just as the whistle marking the game's end sounded, Cleveland landed a powerful dunk through the opposing team's basket.",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Immediately after scoring the winning goal, Cleveland came running over and threw herself at me.",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Though she was exhausted from the match, her joy and excitement could be felt through her tight grip around me.",
 			typewriter = {
 				speed = 0.05,

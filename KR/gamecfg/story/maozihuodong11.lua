@@ -1,17 +1,17 @@
 return {
-	id = "MAOZIHUODONG11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-cccp3",
 			dir = 1,
 			say = "세이렌 정예 함대 발견! 기함은… 집행자II인가?",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "잘 됐다. 이 함대를 돌파구로 삼자. 약점을 돌파해서 전진하자고!",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "어라? 주변이 갑자기 밝아졌어. 맑아진 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "아, 아니야! 세이렌이 후방을 공격하고 있어! 지휘관, 조심해!!",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "초 원거리 저격?! 망했다!",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			}
 		},
 		{
-			actor = 105140,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105140,
+			nameColor = "#a9f548",
 			say = "아아아아아아아아아아아아! 그렇게는 안 된다!!!!!",
 			flashout = {
 				dur = 0.5,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			say = "사우스다코타는 이쪽으로 쏘아지는 빔을 향해 달려들었다. 불꽃과 천둥이 실드 위를 맹렬하게 두드렸다.",
 			side = 2,
 			bgName = "bg_cccp_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "사우스다코타는 이쪽으로 쏘아지는 빔을 향해 달려들었다. 불꽃과 천둥이 실드 위를 맹렬하게 두드렸다.",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "사우스다코타",
+			side = 1,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "파먀티 메르쿠리야",
+			side = 0,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
+			dir = 1,
 			say = "파먀티 메르쿠리야가 제때 제어권을 받은 덕분에, 지휘함은 간발의 차로 공격에서 벗어날 수 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
+			dir = 1,
 			say = "하지만, 사우스다코타의 실드가 없었다면 그 빔은 피하지 못한 파먀티 메르쿠리야에게 직격했을 것이다.",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "파먀티 메르쿠리야",
+			side = 0,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "사우스다코타",
+			side = 1,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "대, 대체 무슨 일이야…?! 사우스다코타, 얼마다 다쳤어?",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,9 +324,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "공격 한 방으로 전함의 전력 시스템이 고장난다고?!",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "구형함으로 둔갑한 신형함인거야?!",
 			typewriter = {
 				speed = 0.05,
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "구형함으로 둔갑한 신형함인거야?!",
 			painting = {
 				alpha = 0.3,

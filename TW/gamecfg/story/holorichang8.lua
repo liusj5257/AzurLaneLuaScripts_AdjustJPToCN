@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"虚拟与现实的双向镜-日常篇\n\n<size=45>八 重樱演武</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305030,
-			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "可算来了，远道而来的客人",
 			bgm = "nagato-map",
+			actor = 305030,
+			nameColor = "#a9f548",
+			say = "可算来了，远道而来的客人",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "这次是{namecode:76}和{namecode:77}啊，也就是说，节目是……",
 			typewriter = {
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 305040,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305040,
+			nameColor = "#a9f548",
 			say = "好洞察力！在这里为妳们来一场重樱演武。",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "哎？为什么都在用微妙的表情看着余……？",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "唔唔唔......没办法了，余作为鬼神的一面，今天就向妳们展示一下吧",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			nameColor = "#a9f548",
 			say = "面对真正姿态的余，妳们承受得住么！",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,10 +220,10 @@ return {
 			}
 		},
 		{
-			actor = 305030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_tiancheng6",
 			side = 0,
+			bgName = "bg_story_tiancheng6",
+			actor = 305030,
 			dir = 1,
 			hideOther = true,
 			actorName = "伊势&日向",
@@ -248,14 +248,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_tiancheng6",
 			actor = 900214,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "骗人的吧.....绫目酱以前是这样的角色么，竟然能和这两个战斗狂打的有来有回？！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "嘶-------以....以后要对绫目酱多客气一点了...！",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "嘶----哈----嘶----哈----女孩子之间，挥洒汗水的近距离的搏斗.....",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "祭酱！",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,8 +344,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "这就是重樱的“演武”么..哈哈哈，确实感受到了异世界的文化差异",
 			typewriter = {
@@ -358,15 +358,15 @@ return {
 			}
 		},
 		{
-			actor = 305030,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305030,
+			nameColor = "#a9f548",
 			say = "绫目阁下很能干嘛",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -410,8 +410,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "呼、呼……累死了！",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "余……从地狱……回来了……哦",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "余的老家……是幽世……啦……",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -503,9 +503,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900215,
 			dir = 1,
 			blackBg = true,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "咱有带保温杯来哦，喝些热水休息一下吧~",
 			typewriter = {

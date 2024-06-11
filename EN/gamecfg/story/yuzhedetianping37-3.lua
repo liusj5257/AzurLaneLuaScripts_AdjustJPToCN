@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900357,
 			nameColor = "#BDBDBD",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
 			side = 2,
-			say = "▅■cease▆▅",
+			bgName = "star_level_bg_504",
 			bgm = "story-thehierophantV",
+			actor = 900357,
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "▅■cease▆▅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "All of a sudden, I heard a girl's emotionless, mechanical voice inside of my head.",
@@ -35,10 +35,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What on earth was that?",
 			painting = {
 				alpha = 0.3,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Mine, too! Commander, we're all affected by whatever this is!",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "With but a single otherworldly word, the entire battlefield was gripped by an icy, death-like chill.",
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "Did you hear that voice too? What manner of enchantment is this?",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "\"Yes. I can still move like normal. Whatever it is, it doesn't look like it affected me.\"",
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "\"You don't look like it affected you much either, for that matter, Shinano.\"",
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "\"Could it be that my command vessel is immune to this phenomenon?\"",
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "Most puzzling... So the effect varies from shipgirl to shipgirl...",
 			painting = {
@@ -272,10 +272,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm basically fine. My arms and legs just feel a little heavy.",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Likewise, I am still fit for battle. I feel hardly affected at all.",
 			painting = {
 				alpha = 0.3,
@@ -308,10 +308,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Same with the mass-produced ships... It's done practically nothing to them. They can still fight!",
 			painting = {
 				alpha = 0.3,
@@ -323,8 +323,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "(So the blueprint ships and the mass-produced ships aren't affected much, while the METAs are gravely affected.)",
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "(Among everyone on the command ship, only Shinano hasn't been affected at all.)",
@@ -424,10 +424,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Retreat? You're just gonna run away, Hiryuu?!",
 			painting = {
 				alpha = 0.3,
@@ -515,8 +515,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "We're lucky a certain someone here has barely been affected...",
 			painting = {
@@ -532,8 +532,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "Gascogne! Force a direct connection into cognitive space!",
 			painting = {
@@ -546,19 +546,19 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			stopbgm = true,
 			dialogueBgAlpha = 0.6,
-			say = "A black sun, quietly burning in the dusky sky.",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "A black sun, quietly burning in the dusky sky.",
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			typewriter = {
@@ -566,17 +566,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 905020,
-			side = 2,
 			dialogueBgAlpha = 0.6,
+			side = 2,
 			bgName = "bg_firedust_5",
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "Correct. The problem with it is that's nigh-impossible to control.",
 			painting = {
@@ -770,13 +770,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "For the first time since the battle began, the Hierophant moved her body.",
 			bgm = "battle-thehierophantV",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "For the first time since the battle began, the Hierophant moved her body.",
 			effects = {
 				{
 					active = false,
@@ -788,17 +788,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -806,8 +806,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "She raised the wand in her hands high above her, then swung it down...",
@@ -817,8 +817,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "...Instantly shattering the vision of the black sun like a glass pane.",
@@ -828,8 +828,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "Just like that, she was in control of the world once more.",
@@ -842,8 +842,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "The symbol of judgment was destroyed THAT easily?!",
 			painting = {
@@ -859,8 +859,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "Did we overload the connection? Or is this Arbiter simply that much stronger than it?",
 			painting = {
@@ -895,10 +895,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "This isn't just one of the Hierophant's vessels! She's here, in person!",
 			painting = {
 				alpha = 0.3,
@@ -932,10 +932,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "It'll either turn you to dust, or if you're really unlucky, the very concept of your existence will be wiped from reality!",
 			painting = {
 				alpha = 0.3,
@@ -950,10 +950,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9707010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Good to know... Too bad I'm basically stuck in place!",
 			painting = {
 				alpha = 0.3,
@@ -987,10 +987,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "The Hierophant's grip on everyone is letting up! Keep her busy while we get back on our feet!",
 			painting = {
 				alpha = 0.3,

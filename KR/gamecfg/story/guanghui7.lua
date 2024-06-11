@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"숙녀의 작은 제안\n\n<size=45>7. 두 사람의 특별 장소</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "다과회 당일.",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "다과회 당일.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "작은 사건들이 조금 있었지만, 다과회는 일러스트리어스가 찾은 이곳에서 순조롭게 열렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "와, 그런데, 정말로 항구를 한눈에 둘러볼 수 있잖아~",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "모두들 쉴 새 없이 일러스트리어스가 찾은 이 장소에 대해 칭찬했다.",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "다들 차와 간식을 음미하며, 다과회를 즐기는 모습을 보자니, 안도의 한숨이 절로 나왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "\"작업이 일단락되었다\"라는 느낌에, 돌연 혼자서 조용히 있고 싶어졌다. 그래서 슬쩍 자리를 비웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -180,13 +180,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "항구를 바라보고 있을 때, 일러스트리어스가 곁으로 다가왔다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "태양빛이 해수면을 내리쬐어 물결이 햋빛에 반짝이고, 간간이 바다에서 전해져 오는 파도 소리를 들을 수 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "일러스트리어스와 같은 곳을 바라보며, 두 사람의 손이 조용히 교차되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -351,9 +351,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "일러스트리어스는 얘기하며 행복한 미소를 머금었다.",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "일러스트리어스와 함께 있는다면, 말을 해도 해도 모자랄 것 같았다.",
 			typewriter = {
 				speed = 0.05,
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "그래서, 마음속으로 결정했다. 앞으로 이곳에 아주아주 많이 올 것이라고.",
 			typewriter = {
 				speed = 0.05,

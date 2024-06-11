@@ -1,6 +1,6 @@
 slot0 = class("ChapterAIAction")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.line = {
 		row = slot1.ai_pos.row,
 		column = slot1.ai_pos.column
@@ -38,7 +38,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.hp_del = slot1.hp_del
 end
 
-function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+slot0.PlayAIAction = function(slot0, slot1, slot2, slot3)
 	if slot1:getChapterCell(slot0.line.row, slot0.line.column) and slot4.attachment == ChapterConst.AttachLandbase and not table.equal(slot0.stgTarget, {
 		row = 9999,
 		columns = 9999
@@ -135,7 +135,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 	assert(false)
 end
 
-function slot0.TryPlayChampionSubAnim(slot0, slot1, slot2, slot3, slot4)
+slot0.TryPlayChampionSubAnim = function(slot0, slot1, slot2, slot3, slot4)
 	if (slot2.flag == ChapterConst.CellFlagDiving or slot3.flag == ChapterConst.CellFlagDiving) and (slot2.flag == ChapterConst.CellFlagActive or slot3.flag == ChapterConst.CellFlagActive) then
 		slot1.viewComponent.grid:PlayChampionSubmarineAnimation(slot3, slot2.flag == ChapterConst.CellFlagDiving, slot4)
 
@@ -145,7 +145,7 @@ function slot0.TryPlayChampionSubAnim(slot0, slot1, slot2, slot3, slot4)
 	slot4()
 end
 
-function slot0.applyTo(slot0, slot1, slot2)
+slot0.applyTo = function(slot0, slot1, slot2)
 	if slot1:getChapterCell(slot0.line.row, slot0.line.column) and slot3.attachment == ChapterConst.AttachLandbase and not table.equal(slot0.stgTarget, {
 		row = 9999,
 		column = 9999
@@ -174,7 +174,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 	return false, "can not find any object at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 end
 
-function slot0.applyToChampion(slot0, slot1, slot2, slot3)
+slot0.applyToChampion = function(slot0, slot1, slot2, slot3)
 	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead champion at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
@@ -246,7 +246,7 @@ function slot0.applyToChampion(slot0, slot1, slot2, slot3)
 	return true, slot4, slot5
 end
 
-function slot0.applyToStrategy(slot0, slot1, slot2, slot3)
+slot0.applyToStrategy = function(slot0, slot1, slot2, slot3)
 	if not pg.strategy_data_template[slot2] then
 		return false, "can not find strategy: " .. slot2
 	end
@@ -270,7 +270,7 @@ function slot0.applyToStrategy(slot0, slot1, slot2, slot3)
 	return true, slot5
 end
 
-function slot0.applyToCoastalGun(slot0, slot1, slot2, slot3)
+slot0.applyToCoastalGun = function(slot0, slot1, slot2, slot3)
 	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead coastalgun at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
@@ -307,7 +307,7 @@ function slot0.applyToCoastalGun(slot0, slot1, slot2, slot3)
 	return true, slot4, slot5
 end
 
-function slot0.applyToHarbor(slot0, slot1, slot2, slot3)
+slot0.applyToHarbor = function(slot0, slot1, slot2, slot3)
 	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead Harbor at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
@@ -344,7 +344,7 @@ function slot0.applyToHarbor(slot0, slot1, slot2, slot3)
 	return true, slot4, slot5
 end
 
-function slot0.applyToDock(slot0, slot1, slot2, slot3)
+slot0.applyToDock = function(slot0, slot1, slot2, slot3)
 	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead Dock at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end
@@ -374,7 +374,7 @@ function slot0.applyToDock(slot0, slot1, slot2, slot3)
 	return true, slot4
 end
 
-function slot0.applyToAntiAir(slot0, slot1, slot2, slot3)
+slot0.applyToAntiAir = function(slot0, slot1, slot2, slot3)
 	if slot2.flag == ChapterConst.CellFlagDisabled then
 		return false, "can not apply ai to dead antiairGun at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 	end

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 EX 云仙本体被击破后直接胜利",
 	time = 0,
+	name = "2023云仙活动 EX 云仙本体被击破后直接胜利",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

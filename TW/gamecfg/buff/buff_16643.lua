@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 500
+					number = 500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 610
+					number = 610,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.061
+					number = -0.061,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 720
+					number = 720,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.072
+					number = -0.072,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 830
+					number = 830,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.083
+					number = -0.083,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 940
+					number = 940,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.094
+					number = -0.094,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1050
+					number = 1050,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.105
+					number = -0.105,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1160
+					number = 1160,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.116
+					number = -0.116,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1270
+					number = 1270,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.127
+					number = -0.127,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1380
+					number = 1380,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.138
+					number = -0.138,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1500
+					number = 1500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -253,20 +253,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.15
+					number = -0.15,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
 	},
-	time = 8,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 16643,
+	time = 8,
 	picture = "",
 	desc = "提高闪避",
 	stack = 1,
-	id = 16643,
+	color = "blue",
 	icon = 16640,
 	last_effect = "",
 	blink = {
@@ -284,8 +284,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 500
+				number = 500,
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -295,8 +295,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

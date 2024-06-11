@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023关岛活动EX 二阶段召唤物1",
 	cd = 0,
-	painting = 0,
-	id = 200744,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200744,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -15,8 +15,8 @@ return {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585003,
 					sickness = 0.5,
+					monsterTemplateID = 16585003,
 					corrdinate = {
 						-15,
 						0,
@@ -27,9 +27,9 @@ return {
 					},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 0.5,
 							addWeapon = {
 								3115011
@@ -52,8 +52,8 @@ return {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585003,
 					sickness = 0.5,
+					monsterTemplateID = 16585003,
 					corrdinate = {
 						-15,
 						0,
@@ -64,9 +64,9 @@ return {
 					},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 0.5,
 							addWeapon = {
 								3115011
@@ -89,8 +89,8 @@ return {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585003,
 					sickness = 0.5,
+					monsterTemplateID = 16585003,
 					corrdinate = {
 						-15,
 						0,
@@ -101,9 +101,9 @@ return {
 					},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 0.5,
 							addWeapon = {
 								3115011
@@ -126,8 +126,8 @@ return {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585003,
 					sickness = 0.5,
+					monsterTemplateID = 16585003,
 					corrdinate = {
 						-15,
 						0,
@@ -138,9 +138,9 @@ return {
 					},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 0.5,
 							addWeapon = {
 								3115011
@@ -163,8 +163,8 @@ return {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585003,
 					sickness = 0.5,
+					monsterTemplateID = 16585003,
 					corrdinate = {
 						-15,
 						0,
@@ -175,9 +175,9 @@ return {
 					},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 0.5,
 							addWeapon = {
 								3115011

@@ -1,12 +1,12 @@
 slot0 = class("AnniversaryIslandHotSpringScene", import("view.activity.BackHills.NewYearFestival.NewYearHotSpringScene"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AnniversaryIslandHotSpringUI"
 end
 
 slot1 = 0.85
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.scrollRect = slot0._tf:Find("ScrollRect")
 	slot0.scrollContent = slot0.scrollRect:GetComponent(typeof(ScrollRect)).content
 	slot0.slotTFs = _.map(_.range(4, 15), function (slot0)
@@ -78,7 +78,7 @@ function slot0.init(slot0)
 	slot0.washMaterial:SetFloat("_Height", 0.5)
 end
 
-function slot0.SetActivity(slot0, slot1)
+slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = slot1
 
 	if not slot0.activity then
@@ -92,16 +92,16 @@ function slot0.SetActivity(slot0, slot1)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 	pg.NewStoryMgr.GetInstance():Play(slot0.activity:getConfig("config_client").unlockstory)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0:UpdateSlots()
 end
 
-function slot0.GetRecordPos(slot0)
+slot0.GetRecordPos = function(slot0)
 	slot3 = {}
 
 	for slot7 = 1, #_.map(string.split(PlayerPrefs.GetString("hotspring_ship_pos_2023", ""), ";"), function (slot0)
@@ -113,7 +113,7 @@ function slot0.GetRecordPos(slot0)
 	return slot3
 end
 
-function slot0.RecordPos(slot0, slot1)
+slot0.RecordPos = function(slot0, slot1)
 	if not slot1 then
 		return
 	end

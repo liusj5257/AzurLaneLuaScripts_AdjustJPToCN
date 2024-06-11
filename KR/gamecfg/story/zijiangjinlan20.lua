@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN20",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "장기판 경기장·통제 구역 경계선 부근. 조금 전——",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "무사시님의 선수 사카와 도착~ 하구로, 이제 한판 붙어봐요!",
 			painting = {
@@ -56,8 +56,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "히잉… 너무 갑작스러운 거 아님까? 너무 귀찮단 말임다….",
 			painting = {
@@ -73,8 +73,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "나가토님의 통제 구역까지 달려와선 제게 전투 요청이라니, 제가 그렇게 매력이 넘침까…?",
 			painting = {
@@ -90,8 +90,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "헤헤, 사실 무사시님의 목표는 하루츠키였어요. 하지만 먼저 그녀를 호위하고 있는 당신을 처리하지 않고서는 우리가 마음놓고 공격할 수 없으니까요.",
 			painting = {
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "그렇슴까…. 후후후, 그럼 얼마든지 덤벼도 좋슴다.",
 			painting = {
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "하지만 제 반격은 주위의 모든 적에게 효력이 발생함다. 만약 당신이 절 공격한다면, 옆에 있는 미유키도 전투에 휘말리게 될 검다.",
 			painting = {
@@ -141,8 +141,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "에?! 그런 거예요!? 그건 너무 반칙이죠!",
 			painting = {
@@ -158,8 +158,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "이건 제 '검은 깃털' 스킬 효과임다. 만약 경기장을 엉망으로 만들고 싶다면… 공격해도 좋슴다.",
 			painting = {
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "만약 하구로가 미유키를 괴롭힌다면 다음 라운드에서 내가 같이 복수해 줄게요!",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "쳇… 도발 실패. 그럼 어서 덤벼보시지 말임다——",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			bgName = "bg_wuzang_cg5",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -265,20 +265,20 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "하구로, 사카와, 미유키 세 사람이 준비를 마치고 자신을 향해 다가오는 칼과 포화를 겸허히 받아드리려는 그때——",
 			stopbgm = true,
 			bgName = "bg_wuzang_cg5",
+			side = 2,
 			nameColor = "#A9F548FF",
 			bgm = "battle-inthememory",
-			say = "하구로, 사카와, 미유키 세 사람이 준비를 마치고 자신을 향해 다가오는 칼과 포화를 겸허히 받아드리려는 그때——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "미카사",
+			side = 2,
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg5",
 			say = "멀리서 들려오는 우렁찬 목소리와 함께 세 사람 주위로 붉은색 고리 모양이 나타났다.",
 			typewriter = {
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "사카와",
+			side = 0,
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "하구로",
+			side = 1,
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "미유키",
+			side = 0,
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "하구로",
+			side = 1,
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "미카사",
+			side = 0,
 			bgName = "bg_wuzang_cg5",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -383,8 +383,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg5",
 			say = "하구로와 미유키가 소리가 나는 쪽을 돌아보자 멀지 않은 곳에서 미카사가 수면 위로 천천히 달려오고 있다.",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "휴… 살았슴다…. 이게 대선배님의 입장 효과인 검까?",
 			painting = {
@@ -429,8 +429,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "맞아. 이건 '전투 중단' 스킬이지. 중앙 거점은 아직 격파되지도 않았는데, 서로 싸우는 건 곤란하다고?",
 			painting = {
@@ -446,8 +446,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "전투가 취소됐을 뿐 아니라… 방금 실행하기로 한 모든 공격 명령은 이미 실행된 걸로 간주되고, 무사시님의 선수들은 더 이상 이번 라운드에서 전투를 계속할 수 없게 돼.",
 			painting = {
@@ -479,8 +479,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "과찬이야, 대선배님…! 미유키는 아카기님을 돕기 위해 룰을 열심히 연구했거든!",
 			painting = {
@@ -496,8 +496,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "하하, 눈앞에서 보니 이 장기판, 역시 대단해…. 문자를 구현해놓은 것뿐만 아니라, 설계 당시 마음속으로만 생각했던 것들이 모두 현실이 되었다니.",
 			painting = {
@@ -513,8 +513,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "이게 대선배님의 실력인건가…. 무사시님의 공세를 가볍게 제거하다니!",
 			painting = {
@@ -530,8 +530,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "마음에 안드나 봐?",
 			painting = {
@@ -563,8 +563,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "눈앞의 위기는 해결했고, 이제 남은 건 라운드가 종료되고 난 뒤의 결산 타임의 벼락이겠어.",
 			painting = {
@@ -580,8 +580,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "첫 번째 퇴장자가 너일 줄은 몰랐는데, 진츠.",
 			painting = {
@@ -594,8 +594,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "미카사가 몸을 돌려 옆칸을 바라보자 무사시의 턴이 끝났다는 안내와 함께 허공에서 번개가 떨어지더니 이미 체력을 많이 소모한 진츠 위로 그대로 떨어진다.",
 			typewriter = {
@@ -607,8 +607,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "천둥과 번개를 맨몸으로 맞다니 정말 용맹한 걸?",
 			painting = {
@@ -624,8 +624,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "…너무 무서운 번개네…. 진츠… 괜찮아?",
 			painting = {

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "尾声",
 	cd = 0,
+	picture = "0",
+	desc = "尾声",
 	painting = 1,
 	id = 1011380,
-	picture = "0",
 	castCV = "skill",
-	desc = "尾声",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipType",
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipType",

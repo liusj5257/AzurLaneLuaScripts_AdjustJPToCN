@@ -7,8 +7,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.111
+					number = 0.111,
+					attr = "cri"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.122
+					number = 0.122,
+					attr = "cri"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.133
+					number = 0.133,
+					attr = "cri"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.144
+					number = 0.144,
+					attr = "cri"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.155
+					number = 0.155,
+					attr = "cri"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.166
+					number = 0.166,
+					attr = "cri"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.177
+					number = 0.177,
+					attr = "cri"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.188
+					number = 0.188,
+					attr = "cri"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.2
+					number = 0.2,
+					attr = "cri"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "U96",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 13551,
+	time = 0,
 	picture = "",
 	desc = "自身鱼雷暴击率提高",
 	stack = 1,
-	id = 13551,
+	color = "red",
 	icon = 13550,
 	last_effect = "",
 	blink = {
@@ -163,8 +163,8 @@ return {
 				"onTorpedoWeaponBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.1
+				number = 0.1,
+				attr = "cri"
 			}
 		}
 	}

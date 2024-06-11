@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑亚利桑那 黑潮之泪效果",
 	time = 0,
-	color = "red",
+	name = "黑亚利桑那 黑潮之泪效果",
+	init_effect = "",
+	id = 200199,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200199,
+	color = "red",
 	icon = 200199,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onTakeHealing"
 			},
 			arg_list = {
-				corruptRate = 1,
-				damageRate = 1
+				damageRate = 1,
+				corruptRate = 1
 			}
 		},
 		{

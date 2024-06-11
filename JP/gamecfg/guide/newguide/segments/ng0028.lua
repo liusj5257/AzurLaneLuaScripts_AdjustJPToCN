@@ -10,8 +10,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[1]
@@ -20,8 +20,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -238.2,
 				posX = -420,
 				text = slot0[2]
@@ -30,8 +30,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -288.9,
 				posX = 305.4,
 				text = slot0[3]

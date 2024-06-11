@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「幻想と真実の二重奏」-日常編\n\n<size=45>八 演武について</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305030,
-			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "遠路はるばるお疲れさんっと。",
 			bgm = "nagato-map",
+			actor = 305030,
+			nameColor = "#a9f548",
+			say = "遠路はるばるお疲れさんっと。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "今度は伊勢さんと日向さんですか！ということは……",
 			typewriter = {
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 305040,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305040,
+			nameColor = "#a9f548",
 			say = "ご明察。少し演武でもやってくれないかとのご注文だ。",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "ん？なんか妙に余に視線が集まっているようだが……",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "むむむ……仕方あるまい、今日は鬼神と呼ばれる余の姿を見せるとしよう。",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			nameColor = "#a9f548",
 			say = "真の力を解放した余の前で、どれほど持ちこたえられるかな！？",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,10 +220,10 @@ return {
 			}
 		},
 		{
-			actor = 305030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_tiancheng6",
 			side = 0,
+			bgName = "bg_story_tiancheng6",
+			actor = 305030,
 			dir = 1,
 			hideOther = true,
 			actorName = "二人",
@@ -248,14 +248,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_tiancheng6",
 			actor = 900214,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "うっそ！あやめちゃんはあんな強キャラだっけ？二人のウォーモンガーと対等に戦ってるんだけど！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "スゥー……こ、今後はあやめちゃんを怒らせないようにしよう……！",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "スーーハーースーーハーー……汗を流し絡み合う女の子たち……",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "まつりちゃん！",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,8 +344,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "これが重桜の「演武」か……あはは、そうか、これが異世界のカルチャーギャップってやつね",
 			typewriter = {
@@ -358,15 +358,15 @@ return {
 			}
 		},
 		{
-			actor = 305030,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305030,
+			nameColor = "#a9f548",
 			say = "なかなかやるな",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -410,8 +410,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "ぜぇ、ぜぇ……疲れた！",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "余は……地獄から……帰ってきた……ぞ。",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "余の故郷は……幽世……だ……地獄、とは……。",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -503,9 +503,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900215,
 			dir = 1,
 			blackBg = true,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "うち、魔法瓶持ってきてるんだ。お茶どうぞ～",
 			typewriter = {

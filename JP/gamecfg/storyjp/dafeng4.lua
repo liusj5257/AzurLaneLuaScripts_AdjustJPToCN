@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"その女、賢妻につき\n\n<size=45>四 同盟結成？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "非番の日に学園で散歩していたら、大鳳の意外な姿を発見した。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "非番の日に学園で散歩していたら、大鳳の意外な姿を発見した。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a9f548",
+			actorName = "？？？",
 			bgName = "star_level_bg_103",
 			side = 1,
 			dir = 1,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "大鳳と会話しているのは……翔鶴？",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "「ほかの子がいるだけで」場をギズギズさせる先輩と違って。ふふふ♪",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
 					x = 0,
@@ -149,10 +149,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "そうなのかもしれませんわね――この匂いは…指揮官様？",
+			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "やっぱり指揮官様ですわ！ああ…指揮官様は大鳳のことを探しにきたのですか？嬉しいですわ～",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -209,9 +209,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "え。",
 			typewriter = {
 				speed = 0.05,
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			say = "指揮官様への愛は誰にも負けませんよ？あの赤城さんにも。ふふふ♡",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官様への愛は誰にも負けませんよ？あの赤城さんにも。ふふふ♡",
+			actor = 307070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "ですが戦力的にはともかく、たしかに赤城さんが踏んだ場数はこの大鳳よりはるかに多いようですね。困りました…",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "翔鶴さんと……？",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "指揮官はどう思います？",
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官はどう思います？",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "良からぬ予感がしたが、とりあえずは当人同士の課題として了承することにした。",
 			typewriter = {
 				speed = 0.05,
@@ -385,10 +385,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "（小声）これで赤城さんへの切り札がもう一枚……ふふふ♡",
 			typewriter = {
 				speed = 0.05,
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "秘書艦の時の甲斐甲斐しさとは違う別の顔だった。",
 			typewriter = {
 				speed = 0.05,

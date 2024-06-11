@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_1",
-			say = "隨著艦隊接近，島嶼的輪廓也變得逐漸清晰起來。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "隨著艦隊接近，島嶼的輪廓也變得逐漸清晰起來。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_1",
 			dir = 1,
 			say = "金碧輝煌的亭台與錯綜複雜的水道構成一座宛如巨大宮殿群一般的海中都市。",
@@ -48,12 +48,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:18}",
+			hidePaintObj = true,
 			say = "真是太壯觀了…………葛城閣下，這究竟是什麼啊！",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,10 +129,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_1",
-			hidePaintObj = true,
+			actorName = "{namecode:18}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:18}",
+			hidePaintObj = true,
 			say = "是——築摩閣下，能聽到嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:18}",
+			hidePaintObj = true,
 			say = "是這樣，我們在偵察路上發現了一個巨大的奇怪島嶼——",
 			typewriter = {
 				speed = 0.05,
@@ -180,15 +180,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_daofeng_2",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
+			bgName = "bg_daofeng_2",
 			actor = 303060,
 			nameColor = "#a9f548",
 			say = "情況我都明白了，信濃大人正在休息，我稍後向她匯報。麻煩各位繼續收集情報，不要輕舉妄動，築摩通訊結束。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -216,8 +216,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "越叫人不要輕舉妄動，越讓人有行動的慾望啊！",
 			typewriter = {
@@ -233,10 +233,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我完全明白妳的感覺，葛城閣下！",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "如果不進去看看的話，就沒辦法更好偵察了，妳們說是吧！",
 			typewriter = {
@@ -268,10 +268,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "唔……確實是這樣！而且這麼金碧輝煌的宮殿，說不定會有寶藏藏在裡面呢！",
 			typewriter = {
 				speed = 0.05,
@@ -286,10 +286,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "確實有一種，埋藏有寶藏的感覺……",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -6,11 +6,11 @@ slot0.Battle.BattleBeamBulletFactory = singletonClass("BattleBeamBulletFactory",
 slot0.Battle.BattleBeamBulletFactory.__name = "BattleBeamBulletFactory"
 slot3 = slot0.Battle.BattleBeamBulletFactory
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
+slot3.CreateBullet = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot2:GetDirectHitUnit() == nil then
 		return
 	end

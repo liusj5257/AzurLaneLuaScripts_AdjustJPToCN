@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_153",
+			nameColor = "#A9F548FF",
 			actorName = "劇のナレーション",
-			stopbgm = true,
-			paintingNoise = true,
+			bgName = "star_level_bg_153",
 			bgm = "cw-story",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
+			paintingNoise = true,
 			hidePaintObj = true,
 			say = "「白い霧が晴れると、旅人は自分たちがマジヤバな雪山の中にいることに気づいた！」",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "………い、いきなり雪山の中になった！",
@@ -100,10 +100,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「ガチ風と雪がビュービューと吹いて、旅人は体力がゴッソリ奪われた」",
 			typewriter = {
@@ -115,10 +115,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「いやあ、この時期に急に雪山に行くなんていくらなんでもそれはないんじゃね？」",
 			typewriter = {
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "独占欲強しコアクマ",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それより今の尾張の声でしょ？一体どういうこと？",
@@ -167,10 +167,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「尾張じゃなくてナレーションだって！」",
 			typewriter = {
@@ -182,10 +182,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「それと初づ…あなたたちはもう演劇の中の旅人よ！」",
 			typewriter = {
 				speed = 0.05,
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なるほど！これが妖怪一座が言ってた興行か！",
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "参加型？……楽しそう！",
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -261,10 +261,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「じゃあ続けるよ？」",
 			typewriter = {
 				speed = 0.05,
@@ -275,10 +275,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「えー旅人はえぐい雪嵐の中で必至に歩き続けた。つらたん」",
 			typewriter = {
@@ -290,10 +290,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「んで、体力がもう、どえらいことになって意識も飛んじゃいそう！」",
 			typewriter = {
@@ -305,10 +305,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「その時！眼の前に山小屋が見えた！」",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -366,11 +366,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			paintingNoise = true,
-			actorName = "劇のナレーション",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「こうして旅人たちは震える手で扉を開けて、山小屋に入ったがー」",
 			typewriter = {
@@ -378,17 +378,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -399,10 +399,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「マジで可哀想な状況だったためか、小屋の中は神的に最高だった。小屋の壁は厚くて頑丈だし、食べ物も薪もたくさん！」",
 			typewriter = {
 				speed = 0.05,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "よかったあ…薪があれば火を起こせて暖が取れるよね！",
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ふわりんと一緒",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "食べ物もあるから、お腹ペコペコにならない",
@@ -465,11 +465,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大丈夫だよ霞！山小屋ってそういう風に利用できるから！",
@@ -483,11 +483,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えへへ、さっそく肉をしっかり焼いて……いい焼き加減！",
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -511,11 +511,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もうお腹減ってるから先に！いただきまぁす！",
@@ -532,10 +532,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「幸運にも雪から避難した旅人は、焚き火を囲んでうまい物を食べながらおしゃべりをした」",
 			typewriter = {
 				speed = 0.05,
@@ -546,10 +546,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「その時！ドン！と扉が大きく開かれ、雪混じりの風が山小屋に吹き込んできた！」",
 			typewriter = {
@@ -558,11 +558,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あわわわ！早く扉を閉めて閉めて！",
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -608,27 +608,27 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「なんとか扉を閉めた旅人たち。山小屋に平和が戻った」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -639,10 +639,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「と思いきや、いつの間にか一人増えていた！」",
 			typewriter = {
 				speed = 0.05,
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プンプンする雪女",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ん？言ってないよ？",
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プンプンする雪女",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -729,8 +729,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プンプンする雪女",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -769,8 +769,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -779,11 +779,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "初月落ち着いて！ここがあなたのうちだって言うなら、証拠はあるよね？",
@@ -797,8 +797,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プンプンする雪女",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -818,11 +818,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "すべて！？じゃあ土地の権利書は？この山小屋の建設許可は？それがないのに、なんであなたのものだって言えるの？",
@@ -836,8 +836,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プンプンする雪女",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -860,10 +860,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「その時！ドン！と扉が大きく開かれ、雪混じりの風がまた山小屋に吹き込んできた！」",
 			typewriter = {
@@ -894,10 +894,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "真面目で強がりな雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "バカな人間！誰が山小屋に入っていいと言ったの？罰として氷漬けにしてあげるんだから♪",
 			typewriter = {
 				speed = 0.05,
@@ -905,11 +905,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ふわりんと一緒",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "酒匂？",
@@ -926,10 +926,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "真面目で強がりな雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もうかわいいおバカさん！私は雪女、酒匂じゃないです！",
 			typewriter = {
 				speed = 0.05,
@@ -969,11 +969,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はあ…雪女がもう一人いた。ってことで合ってるよね…？",
@@ -990,10 +990,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "真面目で強がりな雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私が唯一の雪女よ！さあ、怯えろ！艦船の性能を活かせないまま――",
 			typewriter = {
 				speed = 0.05,
@@ -1001,11 +1001,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はいストップ！結局どっちが本物の雪女なの？",
@@ -1019,8 +1019,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プンプンする雪女",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -1043,10 +1043,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "真面目で強がりな雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こいつがニセモノで私が本物！",
 			typewriter = {
 				speed = 0.05,
@@ -1057,10 +1057,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "真面目で強がりな雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（小声）って、脚本の中に書いてるわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -1068,8 +1068,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プンプンする雪女",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -1092,10 +1092,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「えー。どういうわけか雪女が二人現れたけどぉ……」",
 			typewriter = {
@@ -1107,10 +1107,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「その時！ドン！とまたも扉が大きく開かれた音がした！」",
 			typewriter = {
@@ -1151,11 +1151,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ふわりんと一緒",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……凍らせてやる？",
@@ -1172,10 +1172,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "やる気のない雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "う、うん…凍らせてやるんだから…",
 			typewriter = {
 				speed = 0.05,
@@ -1205,10 +1205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "やる気のない雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "み、深雪じゃなくて、雪女だよ……？",
 			typewriter = {
 				speed = 0.05,
@@ -1235,11 +1235,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ほら、もう先に二人もいるんだから",
@@ -1256,10 +1256,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "やる気のない雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そ、そうなの…？でも私が本物の雪女なのに……？",
 			typewriter = {
 				speed = 0.05,
@@ -1270,10 +1270,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "真面目で強がりな雪女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そっちこそニセモノじゃなくて？",
 			typewriter = {
 				speed = 0.05,
@@ -1281,8 +1281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -1291,8 +1291,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プンプンする雪女",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -1382,12 +1382,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_165",
-			hidePaintObj = true,
-			actorName = "真面目で強がりな雪女",
 			side = 2,
+			bgName = "star_level_bg_165",
+			actor = 302230,
+			actorName = "真面目で強がりな雪女",
+			hidePaintObj = true,
 			say = "どういうこと？私が本物なのではなくて？",
 			typewriter = {
 				speed = 0.05,
@@ -1395,8 +1395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -1456,11 +1456,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "独占欲強しコアクマ",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それに、雪女っぽい格好をしているから本物の雪女よ！",
@@ -1474,13 +1474,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			actorName = "撫順&ブリストル",
 			side = 0,
 			bgName = "star_level_bg_165",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			actor = 501020,
-			actorName = "撫順&ブリストル",
+			dir = 1,
+			hideOther = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうだったのかーーー！",
 			dialogShake = {

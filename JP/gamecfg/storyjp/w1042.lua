@@ -1,12 +1,12 @@
 return {
-	id = "W1042",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1042",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エネルギー貯蔵装置の使用が失敗しましたようです。",
 			typewriter = {
 				speed = 0.05,

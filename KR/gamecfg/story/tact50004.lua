@@ -37,8 +37,8 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			nameColor = "#92fc63",
 			say = "어쩌면 오스트레일리아가 회의 때문에 바빠서, 제대로 지휘권을 인계하지 않았다던……가?",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			actorName = "퀸시 & 빈센스",
 			side = 0,
-			hideOther = true,
+			actor = 103090,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#92fc63",
 			say = "라져!",
 			subActors = {

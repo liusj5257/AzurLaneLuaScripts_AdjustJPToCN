@@ -5,7 +5,7 @@ slot0.Fields = {
 	pools = "table"
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.pools = {}
 	slot0.pooltf = GameObject.Find("__Pool__").transform
 	slot0.tplDic = {}
@@ -17,7 +17,7 @@ function slot0.Setup(slot0, slot1)
 	setActive(slot1, false)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	for slot4, slot5 in pairs(slot0.pools) do
 		_.each(slot5, function (slot0)
 			Destroy(slot0)
@@ -27,7 +27,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Get(slot0, slot1)
+slot0.Get = function(slot0, slot1)
 	if not slot0.pools[slot1] then
 		slot2[slot1] = {}
 	end
@@ -41,7 +41,7 @@ function slot0.Get(slot0, slot1)
 	return slot4
 end
 
-function slot0.Return(slot0, slot1, slot2)
+slot0.Return = function(slot0, slot1, slot2)
 	setActive(slot2, false)
 	slot2.transform:SetParent(slot0.pooltf, false)
 	table.insert(slot0.pools[slot1], slot2)

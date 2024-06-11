@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏の日の「サプライズ」\n\n<size=45>二　宇宙からのウサウサ星アイス</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "真夏の正午という、一番気だるい時間帯のはずなのに、エスキモーは生き生きしていた…",
 			typewriter = {
 				speed = 0.05,
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "えへへ、指揮官午前のお仕事お疲れ様！今日は暑いね…冷たくて熱中症防止になるものを探してこようか？",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -122,9 +122,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（コンコン）",
 			typewriter = {
 				speed = 0.05,
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "これは…ウサウサ型のアイス？",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,9 +210,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "サラトガが作ったアイス…まさか！？",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ウサウサ型のアイスをひと箱残して、ベイリーは去っていった。",
 			typewriter = {
 				speed = 0.05,
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "んんん～この世にアイスという素晴らしいものが存在してくれることに感謝！",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そうだな",
 			typewriter = {
 				speed = 0.05,
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "暑さ対策…もっと大掛かりな…うーん、あ、そうだ！",
 			typewriter = {
 				speed = 0.05,
@@ -374,8 +374,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,9 +384,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "手に持ったアイスをしばらくボーっと見つめていると、エスキモーは何か閃いたようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -420,12 +420,12 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "指揮官はアイスを食べながら執務室でゆっくり休んでてー！ちょっと行ってくるね！",
 			typewriter = {
 				speed = 0.05,

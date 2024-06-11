@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					rant = 3000,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 				},
 				arg_list = {
 					rant = 3300,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 				},
 				arg_list = {
 					rant = 3600,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 				},
 				arg_list = {
 					rant = 3900,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 				},
 				arg_list = {
 					rant = 4300,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 				},
 				arg_list = {
 					rant = 4700,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 				},
 				arg_list = {
 					rant = 5200,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 				},
 				arg_list = {
 					rant = 5700,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 				},
 				arg_list = {
 					rant = 6300,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 				},
 				arg_list = {
 					rant = 7000,
-					target = "TargetSelf",
-					skill_id = 14970
+					skill_id = 14970,
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 3,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -166,8 +166,8 @@ return {
 			},
 			arg_list = {
 				rant = 3000,
-				target = "TargetSelf",
-				skill_id = 14970
+				skill_id = 14970,
+				target = "TargetSelf"
 			}
 		}
 	}

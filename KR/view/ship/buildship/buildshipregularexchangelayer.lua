@@ -1,10 +1,10 @@
 slot0 = class("BuildShipRegularExchangeLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BuildShipRegularExchangeUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot0.cfg = pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID]
 	slot0.ids = slot0.cfg.exchange_ship_id
 	slot0.iconSprites = {}
@@ -23,14 +23,14 @@ function slot0.preload(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.setCount(slot0, slot1)
+slot0.setCount = function(slot0, slot1)
 	slot0.count = slot1
 
 	setText(slot0.textCount, slot0.count .. "/" .. slot0.cfg.exchange_request)
 	setGray(slot0.btnConfirm, slot0.count < slot0.cfg.exchange_request)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.btnBack = slot0._tf:Find("top/bg/btn_back")
 
 	onButton(slot0, slot0.btnBack, function ()
@@ -87,7 +87,7 @@ function slot0.init(slot0)
 	slot0.rtPaint = slot0._tf:Find("main/paint")
 end
 
-function slot0.setSelectedShip(slot0, slot1)
+slot0.setSelectedShip = function(slot0, slot1)
 	if slot0.shipVO then
 		retPaintingPrefab(slot0.rtPaint, slot0.shipVO:getPainting())
 	end
@@ -103,11 +103,11 @@ function slot0.setSelectedShip(slot0, slot1)
 	setPaintingPrefabAsync(slot0.rtPaint, slot1:getPainting(), "huode")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.iconList:align(#slot0.ids)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.iconSprites = nil
 
 	if slot0.shipVO then

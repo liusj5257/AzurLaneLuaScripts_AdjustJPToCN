@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 6460,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6460,
+	color = "red",
 	icon = 6460,
 	last_effect = "",
 	effect_list = {
@@ -17,9 +17,9 @@ return {
 			},
 			arg_list = {
 				attrUpperBound = 4,
-				attrInterval = "armorType",
+				attrLowerBound = 2,
 				skill_id = 6460,
-				attrLowerBound = 2
+				attrInterval = "armorType"
 			}
 		},
 		{
@@ -29,9 +29,9 @@ return {
 			},
 			arg_list = {
 				attrUpperBound = 3,
-				attrInterval = "armorType",
+				attrLowerBound = 0,
 				skill_id = 6461,
-				attrLowerBound = 0
+				attrInterval = "armorType"
 			}
 		}
 	}

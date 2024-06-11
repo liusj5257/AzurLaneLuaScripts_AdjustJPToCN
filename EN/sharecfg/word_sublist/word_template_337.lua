@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_337 = {}
 slot1 = slot0.word_template_337
 
-function temp()
+temp = function()
 	uv0["运"] = {
 		["动"] = {
 			["枪"] = {
@@ -72,7 +72,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["韞"] = {
 		this = {
 			this = true
@@ -82,7 +82,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["杂"] = {
 		["种"] = {
 			this = true
@@ -92,7 +92,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["砸"] = {
 		["警"] = {
 			["车"] = {
@@ -133,7 +133,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雜"] = {
 		["種"] = {
 			this = true
@@ -143,7 +143,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["再"] = {
 		["奸"] = {
 			this = true
@@ -222,7 +222,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["咱"] = {
 		["们"] = {
 			["长"] = {

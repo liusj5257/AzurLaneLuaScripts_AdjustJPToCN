@@ -6,11 +6,11 @@ slot1.FUNC_NAME_REGISTER = "RegisterEventListener"
 slot1.FUNC_NAME_UNREGISTER = "UnregisterEventListener"
 slot1.FUNC_NAME_DISPATCH = "DispatchEvent"
 
-function slot1.AttachEventDispatcher(slot0)
+slot1.AttachEventDispatcher = function(slot0)
 	uv0.New(slot0)
 end
 
-function slot1.DetachEventDispatcher(slot0)
+slot1.DetachEventDispatcher = function(slot0)
 	if slot0._dispatcher_ == nil then
 		return
 	end
@@ -20,13 +20,13 @@ function slot1.DetachEventDispatcher(slot0)
 	slot0._dispatcher_ = nil
 end
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	slot0._target_ = slot1
 
 	slot0:_Init_()
 end
 
-function slot1._Init_(slot0)
+slot1._Init_ = function(slot0)
 	slot0._listenerMap_ = {}
 	slot0._target_[uv0.FUNC_NAME_REGISTER] = uv0._RegisterEventListener_
 	slot0._target_[uv0.FUNC_NAME_UNREGISTER] = uv0._UnregisterEventListener_
@@ -34,12 +34,12 @@ function slot1._Init_(slot0)
 	slot0._target_._dispatcher_ = slot0
 end
 
-function slot1._Destory_(slot0)
+slot1._Destory_ = function(slot0)
 	slot0._listenerMap_ = nil
 	slot0._target_ = nil
 end
 
-function slot1._DispatchEvent_(slot0, slot1)
+slot1._DispatchEvent_ = function(slot0, slot1)
 	slot2 = slot0._dispatcher_
 	slot1.Dispatcher = slot1.Dispatcher or slot2._target_
 
@@ -50,7 +50,7 @@ function slot1._DispatchEvent_(slot0, slot1)
 	end
 end
 
-function slot1._RegisterEventListener_(slot0, slot1, slot2, slot3)
+slot1._RegisterEventListener_ = function(slot0, slot1, slot2, slot3)
 	assert(slot1._eventListener_ ~= nil, "EventDispatcher ERROR" .. slot1.__cname)
 
 	if slot0._dispatcher_._listenerMap_[slot2] == nil then
@@ -63,7 +63,7 @@ function slot1._RegisterEventListener_(slot0, slot1, slot2, slot3)
 	slot1._eventListener_:_AddRoute_(slot2, slot0, slot3)
 end
 
-function slot1._UnregisterEventListener_(slot0, slot1, slot2)
+slot1._UnregisterEventListener_ = function(slot0, slot1, slot2)
 	slot1 = slot1._eventListener_
 
 	if slot0._dispatcher_._listenerMap_[slot2] == nil then

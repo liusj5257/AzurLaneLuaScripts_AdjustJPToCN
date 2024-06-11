@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"笑顔なあの子の胸のウチ\n\n<size=45>四 私よりも</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "必要なものはこれだけかな……。よし、そろそろ戻ろっと。指揮官と姉さんも待っているしね",
 			bgm = "story-1",
+			actor = 204020,
+			nameColor = "#a9f548",
+			say = "必要なものはこれだけかな……。よし、そろそろ戻ろっと。指揮官と姉さんも待っているしね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "む。確かに。そういえば、そなたは秘書艦になったと聞いているが？",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "……すでに先日計画書で伝えた事柄だ。まるで今初めて聞いたような反応に見えたのだが、拙者の気のせいだろうか？",
 			typewriter = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "そ、そういえば指揮官から早く戻るように言われてたんだった！ごめんなさい！もう行かなきゃー！",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "秘書艦というものはやはり忙しいのであろうな",
 			typewriter = {
@@ -289,13 +289,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "執務室前――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "執務室の中から声が聞こえてくる。",
 			typewriter = {
 				speed = 0.05,
@@ -414,9 +414,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "レパルスがそっと扉を開けて中を覗いてみると、どうやら二人で書類作成をしているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -428,9 +428,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "細かい箇所を指で随時指摘しているようで、レナウンは執務机の向こうではなく、指揮官の隣で――体を寄せ合っている体勢になっていた。",
 			typewriter = {
 				speed = 0.05,
@@ -458,11 +458,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "う、うん。遅くなっちゃったけど、ただいま…",
 			typewriter = {
 				speed = 0.05,
@@ -474,8 +474,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,9 +484,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "扉のところにいるのが見つかってしまい、レパルスはおそるおそる執務室の中へと入る。",
 			typewriter = {
 				speed = 0.05,

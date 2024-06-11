@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"만능 점원 시라누이\n\n<size=45>기습 취재! 이웃의 보급 상점!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 보급 상점",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 보급 상점",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "또 저번처럼 보급 상점이 잘 보이는 근처 풀숲에 숨어 가게 안을 관찰(?)하게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "딱히 그럴 정도로 사이가 좋은 것도 없는 것 같습니다만.",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "딱히 그럴 정도로 사이가 좋은 것도 없는 것 같습니다만.",
+			actor = 301180,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#92fc63",
 			say = "물론이지! 그럼 자, 질문을 한 번 드려볼게요?",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#92fc63",
 			say = "에에에에! 그, 그럼……귀신이나 유령을 볼 수 있단 얘기는……?",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#92fc63",
 			say = "…가 아니라 진짜라고?!?!",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#92fc63",
 			say = "꺄아아아아악!!!",
 			typewriter = {
 				speed = 0.05,
@@ -362,16 +362,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 3
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.6,
 					dur = 0.3,
 					x = -1800
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "다시 한 번 시라누이의 또다른 일면을 보게 된 것 같다.",
 			typewriter = {
 				speed = 0.05,

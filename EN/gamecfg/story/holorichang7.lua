@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 7: Kagura Dance</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 900210,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Is everyone here?",
 			bgm = "holo-sora",
+			actor = 900210,
+			nameColor = "#a9f548",
+			say = "Is everyone here?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "I bet she overslept again~",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "I heard that, Aqua!!!",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Jeez... It just took me a while to find my way! Don't just always assume that I overslept!",
 			typewriter = {
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Don't treat me like a kid... Um, but since it's you, Sora, I guess it's fine.",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Is it finally time to go sightseeing? Ay can't wait~",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "Sakura Empire... Floofy catgirl destroyers... Ehehe... Ehehehe...",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "... Sora, I think everyone's here~",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "All right. Let's head out immediately so we don't keep our hosts waiting.",
 			typewriter = {
@@ -246,17 +246,17 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Welcome to Lady Nagato's castle.",
 			bgm = "nagato-map",
+			actor = 301490,
+			nameColor = "#a9f548",
+			say = "Welcome to Lady Nagato's castle.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,8 +284,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Ah, Kawakaze!!",
 			typewriter = {
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -359,8 +359,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "Thank you very much. We're not bothering you in any way, are we...?",
 			typewriter = {
@@ -405,15 +405,15 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "Everyone, thank you for making the arduous trip here.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -441,8 +441,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Huh? Why is Fusou here?",
 			typewriter = {
@@ -503,11 +503,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "Please enjoy the Sakura Empire's traditional Kagura dances to the fullest!",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -563,14 +563,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_tiancheng6",
 			actor = 900215,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "A splendid dance... It feels like my soul has been cleansed~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -614,8 +614,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Matsuri, why aren't you saying anything? Are you still with us?",
 			typewriter = {
@@ -631,8 +631,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
@@ -648,8 +648,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "What's the matter, Matsuri? Are you spacing out?",
 			typewriter = {
@@ -665,8 +665,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Sora, don't worry about her. This is just part of her normal routine.",
 			typewriter = {
@@ -698,8 +698,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Of course! That was absolutely amazing!",
 			typewriter = {
@@ -712,8 +712,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -722,12 +722,12 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "Then, let us continue to the next show.",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ヒガンバナの恋\n\n<size=45>その七　運命の人</size>",
@@ -38,14 +38,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "軽い口づけとともに目が覚める。どうやら赤城に膝枕されて、そのまま寝ってしまったらしい。",
+			bgm = "story-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -146,9 +146,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "今まで大切な仲間たちの声が聞こえる。",
 			typewriter = {
 				speed = 0.05,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "どうかあなたにカミのご加護があらんことを…赤城の…運命の人……",
 			typewriter = {
 				speed = 0.05,

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -11,10 +11,10 @@ return {
 			side = 2,
 			actorName = "Z2",
 			factiontag = "급작스럽게 교체된 마스터",
+			bgm = "theme-highseasfleet-reborn",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이미 깨달으셨겠지만, 어떤 방을 탐색할지도 주사위를 굴려서 나온 숫자로 결정해야 합니다.",
-			bgm = "theme-highseasfleet-reborn",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

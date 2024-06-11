@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 1010603,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1010603,
+	color = "red",
 	icon = 1010600,
 	last_effect = "",
 	effect_list = {
@@ -27,11 +27,11 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 1010601,
 				maxWeaponNumber = 1,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
-				skill_id = 1010601,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"DUO"
@@ -44,11 +44,11 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 1010602,
 				maxWeaponNumber = 1,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
-				skill_id = 1010602,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"TRI"
@@ -61,11 +61,11 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 1010603,
 				maxWeaponNumber = 1,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
-				skill_id = 1010603,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"QUAD"
@@ -78,14 +78,31 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 1010604,
 				maxWeaponNumber = 1,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
-				skill_id = 1010604,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"QUINT"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 1010604,
+				maxWeaponNumber = 1,
+				minWeaponNumber = 1,
+				check_weapon = true,
+				target = "TargetSelf",
+				label = {
+					"TP",
+					"TRI-DUO"
 				}
 			}
 		}

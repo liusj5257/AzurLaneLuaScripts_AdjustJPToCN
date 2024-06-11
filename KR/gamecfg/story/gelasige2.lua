@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"그것은…연애의 계절\n\n<size=45>2 결코 그런 사이 아니야</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202261,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "휴...오늘도 아슬아슬.",
 			bgm = "story-1",
+			actor = 202261,
+			nameColor = "#a9f548",
+			say = "휴...오늘도 아슬아슬.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "아, 아덴트!? 언제부터 거기서 보고 있던 거야!?",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "뭐?! 그, 그런 거 아니야! 우린 그런 사이 아니라고!",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "하나하나 다 너무 쓸데없는 일에 참견이야! 흥!",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,8 +302,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "됐다, 됐어! 이 화제는 여기까지야! 어서 자기 자리로 돌아가자, 조회가 곧 시작될 거야!",
 			typewriter = {
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——딩동댕동.",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "각자가 자리에 앉은 후, 글래스고의 시선은 무심코 대화 중심에 있는 그 사람에게 닿았다.",
 			typewriter = {
 				speed = 0.05,
@@ -392,9 +392,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "누군가 자신의 이야기를 한다는 사실을 전혀 눈치채지 못 한 채, 순진한 미소를 지으며 글래스고를 향해 손을 흔들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -422,9 +422,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "글래스고는 시선을 피하지 않고, 창밖을 보았다.",
 			typewriter = {
 				speed = 0.05,

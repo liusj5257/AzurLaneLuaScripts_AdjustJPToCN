@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "클리퍼는 믿을 수 없는 속도로 세이렌 함대를 뚫고 빠르게 빠져나왔다.",
 			bgm = "story-temepest-1",
+			say = "클리퍼는 믿을 수 없는 속도로 세이렌 함대를 뚫고 빠르게 빠져나왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "후미 갑판에 서니, 앞에서 몰아치는 바닷바람과 함께 뒤쪽 폭발로 인한 섬광과 열기가 느껴졌다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "폭발 중에는 이 '즉석 로열 포춘 호'의 공격으로 인한 것도 있지만…",
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "대부분은 세이렌 함대의 오인 사격으로 인한 것이다.",
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "오오! 제대로 먹히고 있네! 우리의 10배는 되는 적이랑 대등하게 싸우고 있잖아!",
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_524",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――!!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,9 +162,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_524",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			bgName = "star_level_bg_524",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -178,17 +178,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "예상대로 멀리서 호루라기 소리가 들려왔다.",
@@ -253,11 +253,11 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "star_level_bg_524",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "???",
-			say = "여신님이시여, 이 전사들에게 축복을! 아직 싸우고 있는 사람이 있었다니~",
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "여신님이시여, 이 전사들에게 축복을! 아직 싸우고 있는 사람이 있었다니~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,19 +267,19 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "star_level_bg_524",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "???",
-			say = "자! 우리 함대의 기함을 따라와~!",
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "자! 우리 함대의 기함을 따라와~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "십여 분 정도 세이렌을 상대하고 있으니, 곧 폴리스 수비 함대가 출격 준비를 마치고 항구에서 움직이기 시작했다.",
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "이 움직임으로 승패는 이미 결정된 것이나 마찬가지다.",

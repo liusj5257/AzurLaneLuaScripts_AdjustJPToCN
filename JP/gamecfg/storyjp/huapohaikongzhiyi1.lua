@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAPOHAIKONGZHIYI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAPOHAIKONGZHIYI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "SP島西側海域　午後",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "SP島西側海域　午後",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -51,8 +51,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "どうしたんだ、プリンストン。なんか浮かない様子だな。",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "クリーブランド、いまの私たちの作戦…ちょっと慎重過ぎないかしら？",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "いまの私たちの実力であれば、完全に打って出られるわ！",
 			typewriter = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "姉貴、ぼくも打って出たほうがいいと思います！",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "この前潜水艦隊から目撃報告を受けたから、今頃重桜の艦隊は既に周辺海域に到着してるはず",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "敵の具体的な位置を把握できない状況では、防衛を固めたほうが安全かと思う。",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "あら？エンタープライズ、聞いていたの？",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "ああ、打って出たいのは私も同じだ。これまでの戦闘で幾度も勝利を収め、気持ちが高揚しているのだろう。",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "一歩間違えれば、敵につけ込まれる隙を与えかねないからな。",
 			typewriter = {
@@ -373,8 +373,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "本部の作戦はここで防衛に専念することだが、守るだけというのもユニオンのやり方ではない。",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "っ？！は、はい！私に任せて！",
 			typewriter = {
@@ -452,11 +452,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "姉貴、ぼくが行ってもいいですか？",
 			typewriter = {
 				speed = 0.05,
@@ -468,8 +468,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -481,8 +481,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "うーん…今回はバーミンガムに行ってもらいたいかな。",
 			typewriter = {
@@ -495,10 +495,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_map_maliyana",
 			side = 0,
+			bgName = "bg_map_maliyana",
+			hideOther = true,
 			dir = 1,
 			actor = 102230,
 			actorName = "バーミンガム&モントピリア",
@@ -545,8 +545,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "そして慎重なバーミンガムは今回の護衛に向いてると思うんだ！任せてもいい？",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "姉貴がそういうなら……私は問題ない。",
 			typewriter = {
@@ -611,8 +611,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "はい！",
 			typewriter = {
@@ -628,9 +628,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
 			blackBg = true,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "（敵の航空戦力の無力化…小さな任務だけど…気を引き締めていくわ！）",
 			typewriter = {

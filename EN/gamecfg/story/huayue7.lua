@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAYUE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAYUE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Language of the Flowers\n\n<size=45>Chapter 7 Flowers of Happiness, Blossoming in the Sky</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-china",
 			bgName = "star_level_bg_115",
 			say = "At the party, Hanazuki's bouquet receives rich praise from everyone who sees it.",
-			bgm = "story-china",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,14 +45,14 @@ return {
 			}
 		},
 		{
-			actor = 301571,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Wow, it's so beautiful! Thank you very much!",
 			hidePaintEquip = true,
+			actor = 301571,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Wow, it's so beautiful! Thank you very much!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			actor = 301822,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Heehee, I'm glad you two like it! Actually, Commander helped me pick out there right flowers to use, since I couldn't decide myself...",
 			hidePaintEquip = true,
+			actor = 301822,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Heehee, I'm glad you two like it! Actually, Commander helped me pick out there right flowers to use, since I couldn't decide myself...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "The fireworks streak radiantly, blending into the night sky before erupting into twinkling stars on a pitch-dark canvas.",
 			typewriter = {
@@ -147,17 +147,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "\"That they do... But they don't smell anywhere as nice.\"",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
 			say = "Beneath the luminescence of the fireworks, I can see her lovely, faintly-blushing face.",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
 			say = "It feels as if I've been waiting for her to ask me this for a long, long time. And, I've had my answer decided for a long, long time.",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 2,
 			say = "For a few moments, Hanazuki seems unable to process the situation. But soon, she blushes hard, like a teapot about to boil over.",
@@ -459,8 +459,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -533,8 +533,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "With the beautiful fireworks blossoming behind us, Hanazuki presses a single flower into my hands.",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "I smile at her softly. Yes, after all the time I spent with her, I already know what it means––",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "\"May our happiness last forever.\"",
 			typewriter = {

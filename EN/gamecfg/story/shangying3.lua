@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Flower Festival\n\n<size=45>Chapter 3 - Preparing for the Party</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 306030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "There... Now, could someone help me with these boxes~?",
 			bgm = "story-1",
+			actor = 306030,
+			nameColor = "#a9f548",
+			say = "There... Now, could someone help me with these boxes~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "Sorry for leaving you to do everything alone... But I brought some people who can lend us a hand!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 306030,
+			say = "Oh, who might they be...?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, who might they be...?",
+			actor = 306030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actor = 306030,
+			say = "My, it's starting to get crowded in here!",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "My, it's starting to get crowded in here!",
+			actor = 306030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

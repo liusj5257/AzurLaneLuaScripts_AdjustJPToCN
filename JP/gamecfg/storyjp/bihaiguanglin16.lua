@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN16",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_daofeng_4",
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-longgong",
 			dir = 1,
 			bgmDelay = 1,
-			bgm = "battle-boss-longgong",
+			soundeffect = "event:/battle/boom2",
 			actor = 307120,
 			nameColor = "#a9f548",
+			bgName = "bg_daofeng_4",
 			say = "こうなると思った！！あわわわ！？",
 			flashin = {
 				delay = 1,
@@ -78,8 +78,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "山風が砲を撃たなくても、敵が平気で撃ってくるーー！",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "ととととにかく後退！後退だわ！この火の海で沈みたくないのよーー！",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,14 +121,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_daofeng_4",
 			actor = 307120,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "自分の城に燃料をぶちまけて火をつけて燃やすなんて非常識にもほどがあるわなんなのここ！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "葛城殿、やっぱりここは島風がーー",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "あの炎が見えてないのかこのマヌケ！いくらあんたでも突っ込んだら丸焦げだぞ！",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "げほげほ！！やはりここはこの有能で優秀なうちの艦載機たちに任せて仕掛けを直接破壊するわ！",
 			typewriter = {
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 307120,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307120,
+			nameColor = "#a9f548",
 			say = "ぐぬぬ…今に見ておけよ量産艦の雑魚ども…そんなに燃やしたいのなら本当の火の海とはどういうことかこの葛城が見せたるわーーー！！！",
 			effects = {
 				{
@@ -239,9 +239,9 @@ return {
 			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "葛城殿、頑張ってください！",
 			effects = {
 				{
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "葛城から発進した艦載機は燃える燃料から立ち昇る黒煙の中に突っ込み――そして仕掛けの施設に配置された対空砲台に追い返された。",
@@ -277,10 +277,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "このままでは攻撃できませんょ！葛城殿！",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,8 +305,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "ああわかってるわよ！あの対空砲は一体どこからでてきたの！",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "さっきのは油断したのだ！もう一度攻撃を仕掛ける！",
 			typewriter = {
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "二回目の攻撃も対空砲火を突破できず、損害が出る前にギリギリ撤退した。",
@@ -354,8 +354,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "まだまだ！この会心の第三次攻撃でーー",
 			typewriter = {
@@ -371,10 +371,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あわわ落ち着いてください葛城殿！あの対空砲は空母一隻では突破できませんよ！？",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "ええい！ここではうちの艦載機が十分な戦力を発揮できないのだ！って島風、出撃しようとしないでそこにじっとしてなさい！",
 			typewriter = {
@@ -411,10 +411,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "えええ！どうしてですか？！",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "よく見て！炎がまだ燃え続けてるだろうが！",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

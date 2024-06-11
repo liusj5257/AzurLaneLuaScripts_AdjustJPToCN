@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"피안의 장미\n\n<size=45>7.빛나는 밤하늘</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 603020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "자, 바로 여기야. 이 위치가 딱 좋겠다.",
 			bgm = "story-2",
+			actor = 603020,
+			nameColor = "#a9f548",
+			say = "자, 바로 여기야. 이 위치가 딱 좋겠다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "대체 무슨 체력으로 살아있는 거지 생각하던 나는 차라에게 끌려 벤치에 앉아 함께 하늘을 올려다 보았다.",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "오늘 하루 수고했다는 답례와 사과이기도 해. 후후, 지휘관, 마음에 담아두지는 않았겠지?",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "띵——",
 			typewriter = {
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "차라는 나의 얼굴을 빤히 쳐다보고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "장난에 당하는 모습이 아니라 멋있는 모습을 보여주고 싶었는데’ ……라고 생각하고 있지? 항상 성공하지는 못했지만.",
 			typewriter = {
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "아무래도 나는 계속 끌려다니고 있던 것 같다. 매번 반격을 하겠다고 생각할 때마다 제압당하고 마는 것이다.",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "이렇게 말하면 조금 주제 넘은 것 같지만, 자유로운 함대의 통솔자보다는 이렇게 내 함정에 빠져 어찌할 줄 모르는 지휘관이 더 좋아.",
 			typewriter = {
@@ -306,16 +306,16 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "그러니——",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -332,9 +332,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "갑자기 팔이 끌려 안겨졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "피곤했던걸까. 차라가 이렇게 내 품에 기대왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "하지만… 조금만 더 이렇게… 이렇게 있어도… 괜찮겠지?",
 			typewriter = {
 				speed = 0.05,

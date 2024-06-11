@@ -1,14 +1,14 @@
 return {
 	fadeOut = 2,
 	mode = 2,
-	id = "YINGHUA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINGHUA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -25,19 +25,19 @@ return {
 			}
 		},
 		{
-			side = 0,
+			say = "「重桜」が枯れ…民の信仰がなくなっていく……",
 			actorName = "長門",
 			bgName = "bg_story_nagato2",
+			side = 0,
 			bgm = "story-2",
-			say = "「重桜」が枯れ…民の信仰がなくなっていく……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "長門姉！この海域、セイレーンに包囲されちゃったよ！…なんだか守ってくれているって通信で言ってるらしいけど…",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "まさかセイレーンと協力するなんて！みんなは何を考えているの！？",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "……実は…",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "数日前、余は連合艦隊の旗艦を解かれた。",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "えええ――！",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "もう航空兵器の時代だから、もはや余たちは必要とされなくなったのではないか…",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "あの馬鹿たち！陸奥たちの力を見てないくせに勝手に決めて！",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "陸奥と長門姉はあの世界でも「BIG　SEVEN」なのに！……今から言いつけてくる！",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "陸奥、今はもう大艦巨砲の時代ではない！……残念だが、考えを変えていこう。こうして連合艦隊旗艦の任を解れたことで、余は安心して疑問の解決に取り組むことができる。",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "開戦してから毎日、なくなった命の「タマシイ」…ううん、セイレーンが言ってた「りょうしじょうほう」、それが余になにかを訴えかけているようだ。……こうなったのは余の不徳のせいだが……",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "それは違うよ！あの人達、最初から長門姉のちからを利用しようとしただけだよ！",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "わかっておる！とにかく……余の罪滅ぼしでも…陸奥、これだけはわかっててほしいのだ。",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "余を重桜に封じよう。そうしたら余はタマシイの流れが見えるし、もしかしたら何かがわかるかもしれん。",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "「重桜」のためでもあるのだぞ。",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "長門姉……",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "安心せい。頼れる仲間を護衛役につけてもらった。「重桜」には誰も近づけさせんよ。心配せんで良い。",
 			typewriter = {
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "あっ…白露型のあの子なの？あの子はどうも苦手だな……",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			actorName = "長門",
 			side = 0,
+			actorName = "長門",
 			bgName = "bg_story_nagato2",
 			say = "……余の代わりに仲良くするのだぞ。…あ、それと…",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			}
 		},
 		{
-			actorName = "陸奥",
 			side = 0,
+			actorName = "陸奥",
 			bgName = "bg_story_nagato2",
 			say = "なーに？",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "長門",
+			side = 0,
 			bgName = "bg_story_nagato2",
 			blackBg = true,
 			say = "――今まで色々ありがとね。陸奥",

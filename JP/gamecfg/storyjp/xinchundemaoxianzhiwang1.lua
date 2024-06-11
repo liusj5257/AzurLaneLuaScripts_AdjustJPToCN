@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"スプリング冒険キング\n\n<size=45>一 計画ならあるよ！</size>",
@@ -33,8 +33,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "扉がドーンと開けられ、そこから飛び込んできた飛雲に執務室の静けさが破られた。",
@@ -69,10 +69,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "むぅ。明日明日って、また明日まで待たないといけないの……",
 			painting = {
 				alpha = 0.3,
@@ -87,10 +87,10 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この飛雲さまに一体何日待たせる気！？",
 			painting = {
 				alpha = 0.3,
@@ -105,10 +105,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……そうだ！じゃあ飛雲さまにお仕事を手伝わせてよ！",
 			painting = {
 				alpha = 0.3,
@@ -123,10 +123,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ぱぱぱっとお仕事を片付けて、一緒に冒険しに行こうよ！",
 			painting = {
 				alpha = 0.3,
@@ -153,10 +153,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "けど？",
 			painting = {
 				alpha = 0.3,
@@ -195,10 +195,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃあ大丈夫！どーんと聞いてみて！",
 			painting = {
 				alpha = 0.3,
@@ -273,10 +273,10 @@ return {
 			expression = 16,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……え？",
 			painting = {
 				alpha = 0.3,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -301,10 +301,10 @@ return {
 			expression = 16,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え、ええと……",
 			painting = {
 				alpha = 0.3,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -329,10 +329,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "シンクに水を入れながら水を抜こうとする人がどこにいるの！",
 			painting = {
 				alpha = 0.3,
@@ -359,10 +359,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えへへ……分かんない♪",
 			painting = {
 				alpha = 0.3,
@@ -377,10 +377,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "飛雲さまは分からないことを素直に分からないと言う！どう？誠実さも大事でしょ？",
 			painting = {
 				alpha = 0.3,
@@ -395,10 +395,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "で？飛雲さまは指揮官のテストに合格？",
 			painting = {
 				alpha = 0.3,
@@ -425,10 +425,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うぅ……指揮官を冒険に誘うの、やっぱり一筋縄じゃいかないかぁ…",
 			painting = {
 				alpha = 0.3,
@@ -443,10 +443,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でもここで諦めないのが飛雲さまよ！",
 			painting = {
 				alpha = 0.3,
@@ -458,8 +458,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -471,10 +471,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふん、指揮官に会いに来る前に海天老師に色々教えてもらったから！",
 			painting = {
 				alpha = 0.3,
@@ -489,10 +489,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "東煌の詩と諺で指揮官を返事もできないぐらい説き伏せて、大冒険に付き合ってもらうの！",
 			painting = {
 				alpha = 0.3,
@@ -507,10 +507,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…俗に言えば～今日のことは今日終わらせるべし！万事明日に残すべからず！",
 			painting = {
 				alpha = 0.3,
@@ -525,10 +525,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "詩いわく～「明日の次はまた明日、明日よ何ぞ其の多き。日々明日を待てば、万事蹉跎(さた)を成す」～",
 			painting = {
 				alpha = 0.3,
@@ -555,10 +555,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうでしょう！じゃあ早速…",
 			painting = {
 				alpha = 0.3,
@@ -597,10 +597,10 @@ return {
 			expression = 16,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほぇ？だって海天老師が……",
 			painting = {
 				alpha = 0.3,
@@ -615,10 +615,10 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ！騙したなーー！",
 			painting = {
 				alpha = 0.3,
@@ -630,8 +630,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -643,10 +643,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こうなったら飛雲さま、最後の手を使おう！",
 			painting = {
 				alpha = 0.3,
@@ -673,10 +673,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふーん…最後の手は知られないのが肝心よ。指揮官に教えるわけにはいかないの！",
 			painting = {
 				alpha = 0.3,
@@ -691,10 +691,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えへへ～じゃあ飛雲はお先に失礼するよー！",
 			painting = {
 				alpha = 0.3,
@@ -706,8 +706,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "飛雲は一切もったいぶらずに執務室から出ていった。",
@@ -753,8 +753,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "ティーポットに入っている液体をカップに注ぐ。色は普通のようだが、香りが少し変な気がする。",
@@ -764,8 +764,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "色々考えて、少しだけ飲むことにした――",
@@ -775,28 +775,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――ぷーーーー！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

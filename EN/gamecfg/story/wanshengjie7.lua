@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGJIE7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WANSHENGJIE7",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -31,12 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 301171,
+			say = "The view up top while riding on these pumpkin lanterns is really something.",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:19}",
 			dir = 1,
-			say = "The view up top while riding on these pumpkin lanterns is really something.",
+			actor = 301171,
+			actorName = "{namecode:19}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -54,8 +54,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "I, I won’t fall off right?",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:96}",
 			dir = -1,
+			actorName = "{namecode:96}",
 			say = "Not to worry, Enterprise and I searched for a long time and found the most suitably shaped pumpkins.",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			actor = 301051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "{namecode:95}, thanks for the costume.",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "Wait, I need to thank you as well!",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:95}",
 			dir = 1,
+			actorName = "{namecode:95}",
 			say = "Haha~ I’ve been discovered. Only because there are all of you can Halloween be so festive~",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "Eeee, is that the costume made by {namecode:95}?",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "I made a lot of tempura, everyone feel free to enjoy them~",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "Wow, you finally realized my talents!",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "—— Darn you, just you wait, one day——",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:96}",
 			dir = 1,
+			actorName = "{namecode:96}",
 			say = "Loser, loser, what did you just say?!",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "Can I bring my sisters here?",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:95}",
 			dir = -1,
+			actorName = "{namecode:95}",
 			say = "No problem at all, there are still plenty of pumpkins~",
 			typewriter = {
 				speed = 0.05,
@@ -303,15 +303,15 @@ return {
 			}
 		},
 		{
-			actor = 301171,
 			actorName = "{namecode:19}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301171,
+			nameColor = "#a9f548",
 			say = "Can you lower the pumpkin a little bit more? Seems like the only person who is eating the pumpkin pies is {namecode:20}.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -339,8 +339,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "Hey, that pumpkin pie actually seems to be—— {namecode:20}!!!",
 			typewriter = {
 				speed = 0.05,
@@ -352,12 +352,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "S-sis, sister?! Why are you flying?!!",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:20}",
 			dir = -1,
-			say = "S-sis, sister?! Why are you flying?!!",
+			actor = 301180,
+			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -375,8 +375,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "Idiot, I’m not flying, it’s the pumpkin that’s flying!",
 			typewriter = {
 				speed = 0.05,
@@ -391,8 +391,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "Are they my pumpkin pies?",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "...Of course not.",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "Don’t lie to your sister! Honestly, they’ve all gone cold—— it’s salty! Could it be I’ve mistakenly added salt instead of sugar! Th-thank goodness they were away when I was baking—— Don't eat it!!!",
 			typewriter = {
 				speed = 0.05,
@@ -439,8 +439,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "As long as {namecode:19} made these, then no matter how bad they taste...",
 			typewriter = {
 				speed = 0.05,
@@ -455,8 +455,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "As such, I cannot allow my sisters to eat these failed pies!",
 			typewriter = {
 				speed = 0.05,
@@ -471,8 +471,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "You idiot…..",
 			typewriter = {
 				speed = 0.05,
@@ -487,8 +487,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "You’re the idiot, just say it to me directly——",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "If that’s the case, I’ll skip the games at Halloween and go back home to bake a new batch.",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "Idiot, as long as you can taste the most delicious pumpkin pies, then I don’t care about playing!",
 			typewriter = {
 				speed = 0.05,
@@ -535,8 +535,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "So I’ll just….",
 			typewriter = {
 				speed = 0.05,
@@ -551,8 +551,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "… Don’t stand there in the corner eating that salty and cold pie!",
 			typewriter = {
 				speed = 0.05,
@@ -567,8 +567,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:20}",
 			dir = -1,
+			actorName = "{namecode:20}",
 			say = "I just feel that it’ll be a waste to throw these… at the time when baking these, you must’ve thought that we’d finish them all——",
 			typewriter = {
 				speed = 0.05,
@@ -583,8 +583,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "…Idiot——",
 			typewriter = {
 				speed = 0.05,
@@ -599,8 +599,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:95}",
 			dir = -1,
+			actorName = "{namecode:95}",
 			say = "Halloween night hasn’t ended yet, so let’s all go for a ride on those pumpkin lanterns. Quick, call those “kids” to return and let them know the Pumpkin Fleet is ready to sortie!",
 			typewriter = {
 				speed = 0.05,

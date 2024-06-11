@@ -1,10 +1,10 @@
 slot0 = class("SculptureGratitudePage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SculptureGratitudeUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.backBtn = slot0:findTF("back")
 	slot0.roleImg = slot0:findTF("char/Image")
 	slot0.container = slot0:findTF("frame/gift")
@@ -18,10 +18,10 @@ function slot0.OnLoaded(slot0)
 	slot0.arrRight = slot0:findTF("frame/arr (1)")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3)
+slot0.Show = function(slot0, slot1, slot2, slot3)
 	slot0:Clear()
 	setText(slot0:findTF("tip"), i18n("sculpture_gratitude_tip"))
 	uv0.super.Show(slot0)
@@ -54,7 +54,7 @@ function slot0.Show(slot0, slot1, slot2, slot3)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, "story-richang-8")
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.activity = slot1
 
 	if slot0.activity:GetSculptureState(slot0.id) == SculptureActivity.STATE_FINSIH then
@@ -78,14 +78,14 @@ function slot0.Flush(slot0, slot1)
 	end
 end
 
-function slot0.SetScrollTxt(slot0, slot1)
+slot0.SetScrollTxt = function(slot0, slot1)
 	slot0.typer:setSpeed(99999)
 
 	slot0.wordTxt.text = HXSet.hxLan(slot1)
 
 	slot0.typer:setSpeed(0.06)
 
-	function slot0.typer.endFunc()
+	slot0.typer.endFunc = function()
 		uv0:RemoveTimer()
 	end
 
@@ -99,7 +99,7 @@ function slot0.SetScrollTxt(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -107,7 +107,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.InitAwards(slot0)
+slot0.InitAwards = function(slot0)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -125,13 +125,13 @@ function slot0.InitAwards(slot0)
 	slot0.uilist:align(#slot0.activity:getDataConfig(slot0.id, "reward_display"))
 end
 
-function slot0.LoadChar(slot0, slot1)
+slot0.LoadChar = function(slot0, slot1)
 	slot3, slot4, slot5 = slot0:State2CharNameAndActionName(slot0.activity:GetSculptureState(slot0.id))
 
 	slot0:UpdateRole(slot3, slot4, slot5, slot1)
 end
 
-function slot0.State2CharNameAndActionName(slot0, slot1)
+slot0.State2CharNameAndActionName = function(slot0, slot1)
 	slot2 = slot0.activity:GetResorceName(slot0.id)
 
 	if slot1 == SculptureActivity.STATE_FINSIH then
@@ -141,7 +141,7 @@ function slot0.State2CharNameAndActionName(slot0, slot1)
 	end
 end
 
-function slot0.LoadSculpture(slot0, slot1)
+slot0.LoadSculpture = function(slot0, slot1)
 	slot2 = slot0.activity
 	slot3 = ResourceMgr.Inst
 
@@ -157,7 +157,7 @@ function slot0.LoadSculpture(slot0, slot1)
 	end), true, true)
 end
 
-function slot0.InitSculpture(slot0, slot1)
+slot0.InitSculpture = function(slot0, slot1)
 	slot2 = GetOrAddComponent(slot1, typeof(EventTriggerListener))
 	slot3 = nil
 
@@ -180,7 +180,7 @@ function slot0.InitSculpture(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateRole(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateRole = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0.charName == slot1 then
 		return
 	end
@@ -217,7 +217,7 @@ function slot0.UpdateRole(slot0, slot1, slot2, slot3, slot4)
 	slot0.charName = slot1
 end
 
-function slot0.ClearChar(slot0)
+slot0.ClearChar = function(slot0)
 	if slot0.charName and slot0.charGo then
 		if slot0.spineAnimUI then
 			slot0.spineAnimUI:SetActionCallBack(nil)
@@ -232,13 +232,13 @@ function slot0.ClearChar(slot0)
 	end
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.puzzle then
 		ClearEventTrigger(slot0.puzzle:GetComponent(typeof(EventTriggerListener)))
 		Object.Destroy(slot0.puzzle.gameObject)
@@ -251,13 +251,13 @@ function slot0.Clear(slot0)
 	setActive(slot0.awards, false)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 	slot0:RemoveTimer()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Clear()
 end
 

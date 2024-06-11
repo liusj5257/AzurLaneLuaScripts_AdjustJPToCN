@@ -1,17 +1,17 @@
 return {
-	id = "WORLD106E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD106E",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "지휘관, NY항부터 버뮤다 해역까지의 항로를 모두 정리했다. 사령부와 후속 작전을 논의해도 괜찮을 것 같군.",
 			dir = 1,
 			bgm = "story-6",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "지휘관, NY항부터 버뮤다 해역까지의 항로를 모두 정리했다. 사령부와 후속 작전을 논의해도 괜찮을 것 같군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,13 +30,13 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "으으음... 그랬구나. 완전 알 수 없는 상황이었네. 지휘관, 수고했어!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,8 +64,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "NY 사령부에서 천천히 새로 나타난 잔불을 추적할게. 버뮤다의 이상 현상에 대한 조사는 사령부의 논의 이후에 다시 결정하자.",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "지금까지 작전 모두 수고했어! 하지만 여기서 멈출 수는 없지~",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "다음 작전은 중심 구역까지의 항로를 확보하는 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -111,9 +111,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "다른 구역의 작전도 순조롭게 진행 중이야. 나도 전선으로 이동해서 지원할 테니 총 공격 때 만나!",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,8 +138,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "아, 맞아. 적색중축에 관한 건... 됐어! 새로운 정보가 있으면 제일 먼저 알려줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "꼬맹아, 통신 종료~!",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "음... 말 못 할 것도 아니지. 지휘부 측에서 순조로운 작전을 위해서 적색중축과 NA 해역에서의 휴전 협상을 진행 중이야.",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -256,8 +256,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "게다가 로열 네이비의 퀸 엘리자베스가 직접 나서다니... 프리드리히 데어 그로세에게 크게 당하지 않았나요? 별문제는 없겠죠...",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "적색중축과의 휴전이라, 만약 가능하다면...",
 			typewriter = {
 				speed = 0.05,

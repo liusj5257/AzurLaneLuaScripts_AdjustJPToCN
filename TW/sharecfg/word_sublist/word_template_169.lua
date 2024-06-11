@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_169 = {}
 slot1 = slot0.word_template_169
 
-function temp()
+temp = function()
 	uv0["求"] = {
 		["购"] = {
 			["三"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["婷"] = {
 		["婷"] = {
 			["激"] = {
@@ -52,7 +52,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["博"] = {
 		["客"] = {
 			["帖"] = {
@@ -99,7 +99,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["哇"] = {
 		["嘎"] = {
 			["成"] = {

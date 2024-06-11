@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "残废buff装填命中下降",
 	time = 15,
-	color = "yellow",
+	name = "残废buff装填命中下降",
+	init_effect = "",
+	id = 79110,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 79110,
+	color = "yellow",
 	icon = 8661,
 	last_effect = "hunluan",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "accuracyRateExtra",
-				number = -0.5
+				number = -0.5,
+				attr = "accuracyRateExtra"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = -9500
+				number = -9500,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -39,10 +39,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 79110,
 				time = 1.5,
 				rant = 10000,
-				skill_id = 79110
+				target = "TargetSelf"
 			}
 		}
 	}

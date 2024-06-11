@@ -21,7 +21,7 @@ slot0.Battle.UnitState.STATE_DIVELEFT = "STATE_DIVELEFT"
 slot0.Battle.UnitState.STATE_RAID = "STATE_RAID"
 slot0.Battle.UnitState.STATE_RAIDLEFT = "STATE_RAIDLEFT"
 
-function slot0.Battle.UnitState.Ctor(slot0, slot1)
+slot0.Battle.UnitState.Ctor = function(slot0, slot1)
 	slot0._target = slot1
 	slot0._idleState = uv0.Battle.IdleState.New()
 	slot0._moveState = uv0.Battle.MoveState.New()
@@ -44,7 +44,7 @@ function slot0.Battle.UnitState.Ctor(slot0, slot1)
 	slot0:OnIdleState()
 end
 
-function slot0.Battle.UnitState.FreshActionKeyOffset(slot0)
+slot0.Battle.UnitState.FreshActionKeyOffset = function(slot0)
 	if slot0:ActionKeyOffset() then
 		if string.find(slot0._currentAction, slot1) == nil then
 			slot0:SendAction(slot0._currentAction .. slot1)
@@ -56,7 +56,7 @@ function slot0.Battle.UnitState.FreshActionKeyOffset(slot0)
 	slot0._offset = slot1
 end
 
-function slot0.Battle.UnitState.ChangeState(slot0, slot1, slot2)
+slot0.Battle.UnitState.ChangeState = function(slot0, slot1, slot2)
 	if slot1 == slot0.STATE_IDLE then
 		slot0._currentState:AddIdleState(slot0)
 	elseif slot1 == slot0.STATE_MOVE then
@@ -92,103 +92,103 @@ function slot0.Battle.UnitState.ChangeState(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Battle.UnitState.OnMoveState(slot0)
+slot0.Battle.UnitState.OnMoveState = function(slot0)
 	slot0._currentState = slot0._moveState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnMoveLeftState(slot0)
+slot0.Battle.UnitState.OnMoveLeftState = function(slot0)
 	slot0._currentState = slot0._moveLeftState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnIdleState(slot0)
+slot0.Battle.UnitState.OnIdleState = function(slot0)
 	slot0._currentState = slot0._idleState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnAttackState(slot0, slot1)
+slot0.Battle.UnitState.OnAttackState = function(slot0, slot1)
 	slot0._currentState = slot0._attackState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0, slot1))
 end
 
-function slot0.Battle.UnitState.OnAttackLeftState(slot0, slot1)
+slot0.Battle.UnitState.OnAttackLeftState = function(slot0, slot1)
 	slot0._currentState = slot0._attackLeftState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0, slot1))
 end
 
-function slot0.Battle.UnitState.OnDiveState(slot0)
+slot0.Battle.UnitState.OnDiveState = function(slot0)
 	slot0._currentState = slot0._diveState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnDiveLeftState(slot0)
+slot0.Battle.UnitState.OnDiveLeftState = function(slot0)
 	slot0._currentState = slot0._diveLeftState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnRaidState(slot0, slot1)
+slot0.Battle.UnitState.OnRaidState = function(slot0, slot1)
 	slot0._currentState = slot0._raidState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnRaidLeftState(slot0, slot1)
+slot0.Battle.UnitState.OnRaidLeftState = function(slot0, slot1)
 	slot0._currentState = slot0._raidLeftState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnDeadState(slot0)
+slot0.Battle.UnitState.OnDeadState = function(slot0)
 	slot0._currentState = slot0._deadState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnVictoryState(slot0)
+slot0.Battle.UnitState.OnVictoryState = function(slot0)
 	slot0._currentState = slot0._victoryState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnVictorySwimState(slot0)
+slot0.Battle.UnitState.OnVictorySwimState = function(slot0)
 	slot0._currentState = slot0._victorySwimState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnStandState(slot0)
+slot0.Battle.UnitState.OnStandState = function(slot0)
 	slot0._currentState = slot0._standState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnInterruptState(slot0)
+slot0.Battle.UnitState.OnInterruptState = function(slot0)
 	slot0._currentState = slot0._interruptState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnSkillStartState(slot0)
+slot0.Battle.UnitState.OnSkillStartState = function(slot0)
 	slot0._currentState = slot0._skillStartState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.OnSkillEndState(slot0)
+slot0.Battle.UnitState.OnSkillEndState = function(slot0)
 	slot0._currentState = slot0._skillEndState
 
 	slot0:SendAction(slot0._currentState:GetActionName(slot0))
 end
 
-function slot0.Battle.UnitState.ChangeToMoveState(slot0)
+slot0.Battle.UnitState.ChangeToMoveState = function(slot0)
 	slot1 = slot0:GetTarget():GetSpeed().x
 
 	if slot0:GetTarget():GetOxyState() and slot2:GetCurrentDiveState() == uv0.OXY_STATE.DIVE then
@@ -204,7 +204,7 @@ function slot0.Battle.UnitState.ChangeToMoveState(slot0)
 	end
 end
 
-function slot0.Battle.UnitState.SendAction(slot0, slot1)
+slot0.Battle.UnitState.SendAction = function(slot0, slot1)
 	slot0._currentAction = slot1
 
 	slot0._target:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CHANGE_ACTION, {
@@ -212,34 +212,34 @@ function slot0.Battle.UnitState.SendAction(slot0, slot1)
 	}))
 end
 
-function slot0.Battle.UnitState.ChangeOxyState(slot0, slot1)
+slot0.Battle.UnitState.ChangeOxyState = function(slot0, slot1)
 	slot0._target:ChangeOxygenState(slot1)
 end
 
-function slot0.Battle.UnitState.GetTarget(slot0)
+slot0.Battle.UnitState.GetTarget = function(slot0)
 	return slot0._target
 end
 
-function slot0.Battle.UnitState.ActionKeyOffset(slot0)
+slot0.Battle.UnitState.ActionKeyOffset = function(slot0)
 	return slot0._target:GetActionKeyOffset()
 end
 
-function slot0.Battle.UnitState.GetCurrentStateName(slot0)
+slot0.Battle.UnitState.GetCurrentStateName = function(slot0)
 	return slot0._currentState.__name
 end
 
-function slot0.Battle.UnitState.NeedWeaponCache(slot0)
+slot0.Battle.UnitState.NeedWeaponCache = function(slot0)
 	return slot0._currentState:CacheWeapon()
 end
 
-function slot0.Battle.UnitState.OnActionStart(slot0)
+slot0.Battle.UnitState.OnActionStart = function(slot0)
 	slot0._currentState:OnStart(slot0)
 end
 
-function slot0.Battle.UnitState.OnActionTrigger(slot0)
+slot0.Battle.UnitState.OnActionTrigger = function(slot0)
 	slot0._currentState:OnTrigger(slot0)
 end
 
-function slot0.Battle.UnitState.OnActionEnd(slot0)
+slot0.Battle.UnitState.OnActionEnd = function(slot0)
 	slot0._currentState:OnEnd(slot0)
 end

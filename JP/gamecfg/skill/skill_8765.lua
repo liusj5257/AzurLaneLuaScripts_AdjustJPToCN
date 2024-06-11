@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "偶像大师联动 fever 回血BUFF",
 	cd = 0,
+	picture = "0",
+	desc = "回血",
 	painting = 0,
 	id = 8765,
-	picture = "0",
 	castCV = "skill",
-	desc = "回血",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,19 +17,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				maxHPRatio = 0.02
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 8763
 			}

@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
 			bgm = "qe-ova-12",
+			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "저기… {tb}, TB가 학교에 가 있는 동안에는 집에서 뭘 하고 계세요?",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,10 +43,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "그리고 좋아하는 요리는요? …아, 이미 알고는 있지만 혹시 몰라서…",
 			typewriter = {
@@ -58,10 +58,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "그리고 자주보는 TV 방송이나, 좋아하는 옷… 그리고……",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "갑자기 TB가 연달아 내 취향이나 일상에 관한 질문을 하기 시작했다. 대체 무슨…?",
@@ -96,10 +96,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "아, 죄송해요. 설명하는 걸 깜빡했네요. 학교에 제출할 관찰일기를 적는 중이거든요.",
 			typewriter = {
@@ -111,10 +111,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "잘 알고는 있지만, 그래도 미처 다 채우지 못한 항목들이 많아서요…",
 			typewriter = {
@@ -138,10 +138,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "앗, 정말이요?",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "고개를 끄덕이며 그녀에게 다른 관찰 대상을 권했지만…",
@@ -164,10 +164,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "하지만 TB는 이대로가 좋아요. 헤헤, 계속해도 될까요?",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "더 이상 선택의 여지가 없어서 그녀의 관찰일기가 완성될 때까지 순순히 돕기로 했다.",

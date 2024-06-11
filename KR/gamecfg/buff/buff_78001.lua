@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "章节火力支援",
 	time = 0,
+	name = "章节火力支援",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -16,10 +16,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78000,
 				time = 8,
 				rant = 10000,
-				skill_id = 78000
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -29,10 +29,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78000,
 				time = 28,
 				rant = 10000,
-				skill_id = 78000
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -42,10 +42,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78000,
 				time = 48,
 				rant = 10000,
-				skill_id = 78000
+				target = "TargetSelf"
 			}
 		}
 	}

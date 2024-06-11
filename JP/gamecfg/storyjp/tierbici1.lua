@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「Schmelzen」\n\n<size=45>一　秘書艦</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ビスマルク",
 			dir = 1,
 			blackBg = true,
+			actor = 900010,
+			actorName = "ビスマルク",
 			say = "妹……ごめんなさい",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ビスマルク",
 			dir = 1,
 			blackBg = true,
+			actor = 900010,
+			actorName = "ビスマルク",
 			say = "私のしたことを、どうか許してほしい……",
 			typewriter = {
 				speed = 0.05,
@@ -68,17 +68,17 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "……またあの夢……もう何回目になるだろうか……。",
 			bgm = "story-2",
+			actor = 405020,
+			nameColor = "#a9f548",
+			say = "……またあの夢……もう何回目になるだろうか……。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			say = "執務室に到着すると、すでに秘書艦のティルピッツが業務を始めていた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "執務室に到着すると、すでに秘書艦のティルピッツが業務を始めていた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "ちょうどいい。今日のタスクとスケジュールを確認して。問題があったらまた直しておく。",
 			typewriter = {
 				speed = 0.05,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そう言えば机の上に綺麗にまとまった書類の山が……",
 			typewriter = {
 				speed = 0.05,
@@ -250,9 +250,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ティルピッツは仕事に戻った。",
 			typewriter = {
 				speed = 0.05,
@@ -260,9 +260,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "さすがは鉄血の中核艦だけあって、秘書艦としての働きは実に申し分ない。",
 			typewriter = {
 				speed = 0.05,

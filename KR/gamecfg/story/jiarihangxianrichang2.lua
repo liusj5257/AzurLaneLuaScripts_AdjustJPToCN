@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"휴일항로-일상편\n\n<size=45>2 갑작스런 모래조각 대회</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_106",
 			bgm = "doa_story3",
 			actor = 900300,
 			nameColor = "#a9f548",
 			say = "좋았어~! 마리와 호노카 조는 절대 지지 않을 거예요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900301,
 			dir = 1,
+			actor = 900301,
 			nameColor = "#a9f548",
 			say = "그럼 심사는 부탁드릴게요~ 지휘관님~",
 			typewriter = {
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "여러 가지 일들로 결국 이런 \"모항 모래조각 대회\"로 변해버렸다……",
 			typewriter = {
 				speed = 0.05,
@@ -174,13 +174,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "각자 열심히 분투한 결과, 소녀들의 작품도 슬슬 완성되어 갔다——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -208,8 +208,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "짝짝~ 마리와 호노카의 이번 도전은 바로~~~ 이거~!",
 			effects = {
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "엄청 큰 공 모양에, 세일러복의 보타이에 해군 모자까지…… 이건……",
 			effects = {
 				{
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "후훗, 동글동글한 게 찐빵처럼 맛있네♪",
 			typewriter = {
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "허어…이건…\"천수\"인가. 좋은 기세로 환원시켜 놓았구나~",
 			typewriter = {
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "한편, 가스코뉴는……",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "근, 근사한 아치인걸요! 기둥에는 부조 양식까지?!",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -390,8 +390,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "하하하, 정말 재밌구나. 과연 기대한 보람이 있다.",
 			typewriter = {
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "지휘관님! 다음은 당신의 임무예요!",
 			typewriter = {
@@ -424,8 +424,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900301,
 			dir = 1,
+			actor = 900301,
 			nameColor = "#a9f548",
 			say = "히히, 그럼 지휘관님께 우승작을 뽑아 달라고 해볼까~",
 			typewriter = {

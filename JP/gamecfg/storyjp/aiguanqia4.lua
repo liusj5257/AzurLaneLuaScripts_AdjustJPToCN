@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA4",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA4",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900179,
@@ -23,8 +23,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "じゃじゃーん！明石ちゃんにもらった「試作型艤装製造装置」で私専用の艤装を装備しちゃいました～！これでみんなと同じように戦えるよー！",
 			flashN = {
 				color = {
@@ -164,8 +164,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "（こ、こんなに褒められるなんて…！き、気持ちいい！？）",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "まあ、ホログラムってデータだから今も裸みたいなもんなんだよね～",
 			typewriter = {
 				speed = 0.05,
@@ -225,9 +225,9 @@ return {
 		{
 			expression = 6,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "はっ！こんなこと言ってると私のせいでアズレンまでBANされちゃうんじゃ！？申し訳ない！今のは聞かなかったことにして！！",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "……あれ？着替えられない！？なんで？？？",
 			flashN = {
 				color = {
@@ -344,9 +344,9 @@ return {
 		{
 			expression = 5,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そんなー！？どうしよう、すごい気に入ってたのにーーー！",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,10 +428,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "ずどーん！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -476,9 +476,9 @@ return {
 		{
 			expression = 6,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "きゃああああ！せっかく気合入れなおしてこれからがんばるぞーってときに何！？",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -518,8 +518,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "ニセキズナアイ",
 			say = "………",
 			typewriter = {

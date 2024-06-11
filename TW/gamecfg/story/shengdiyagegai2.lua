@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDIYAGEGAI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGDIYAGEGAI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"閃耀☆戰鬥之星！\n\n<size=45>二　聖地牙哥、想特訓？！</size>",
@@ -17,19 +17,19 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			soundeffect = "event:/battle/cannon-main-prepared",
 			side = 2,
-			bgName = "bg_story_outdoor",
-			seDelay = 2.2,
 			dir = 1,
 			bgmDelay = 2,
-			soundeffect = "event:/battle/cannon-main-prepared",
+			say = "強襲模式展開，切換為最大出力！",
+			bgm = "story-1",
 			actor = 201219,
 			nameColor = "#a9f548",
-			say = "強襲模式展開，切換為最大出力！",
+			bgName = "bg_story_outdoor",
+			seDelay = 2.2,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,10 +54,10 @@ return {
 			}
 		},
 		{
-			actor = 301059,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			actor = 301059,
 			dir = 1,
 			actorName = "{namecode:6}",
 			say = "“鬼神”之力，好好感受吧！",
@@ -77,11 +77,11 @@ return {
 			}
 		},
 		{
-			actor = 101179,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101179,
+			nameColor = "#a9f548",
 			say = "呼啊…有點睏了",
 			effects = {
 				{
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 401239,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401239,
+			nameColor = "#a9f548",
 			say = "啊！拉菲，不行啦，難得大家湊在一起擺個pose，要睡覺等一會再睡！",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "啊啊啊！還有人在看著呢！好歹讓人家看到我們帥氣的一面嘛…",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "嗯…嗯！難道這個就是所謂的氣場？",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…嗯！難道這個就是所謂的氣場？",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "喔喔？！",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "喔喔…！改造原來是件這麼厲害的事情！",
 			typewriter = {
 				speed = 0.05,
@@ -377,8 +377,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -387,10 +387,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
+			hideOther = true,
 			dir = 1,
 			actor = 201210,
 			actorName = "標槍&{namecode:6}&拉菲",
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -429,11 +429,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "怎麼連妳們都這樣了啦！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.12,
 					x = 0,

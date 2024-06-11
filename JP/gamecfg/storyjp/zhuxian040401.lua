@@ -1,15 +1,15 @@
 return {
-	id = "ZHUXIAN040401",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "ZHUXIAN040401",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level",
 			say = "午前11時30分・龍驤航空隊発進、作戦進行",
+			side = 2,
+			dir = 1,
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "午後1時・翔鶴航空隊が発進",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "午後1時50分・龍驤、サラトガと交戦し大破",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "午後2時すぎ、比叡隊、ユニオン空母隊を発見し、報告",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "第2次攻撃隊、発進準備――",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -274,13 +274,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "げほげほ…今のは流石にサラトガちゃんでもびっくりしたよ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -308,8 +308,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ミッドウェイ作戦でヨークタウン姉さんが傷を負わせた相手――",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "一航戦だけではなく、まさか重桜にまだこれほど強い空母が残されているとは…",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "レキシントン姉ちゃんを大怪我させた子たちで間違いないね。サラトガちゃん、今プンプンしてるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -356,8 +356,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "しかし、まだ航空攻撃を凌いだだけだ。敵の空母は見つかったか",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +372,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "まだだね。でも龍驤？がここの近くにいるし、敵は救出のために絶対に向かってくるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -387,9 +387,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "エンタープライズ、サラトガちゃんの航空隊を援護に預けるから、敵の空母と決戦よ！",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,8 +414,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "そうだな。夜になるまでに決着をつける――！",
 			typewriter = {
 				speed = 0.05,

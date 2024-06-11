@@ -1,12 +1,12 @@
 return {
-	id = "W890120",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W890120",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "進入塞壬實驗場後，艦隊正在運輸的物件（比如能源矩陣）將會消失。",
 			typewriter = {
 				speed = 0.05,

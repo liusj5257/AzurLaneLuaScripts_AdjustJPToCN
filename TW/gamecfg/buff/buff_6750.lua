@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "白鹰精英损管",
 	time = 0,
-	color = "red",
+	name = "白鹰精英损管",
+	init_effect = "",
+	id = 6750,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6750,
+	color = "red",
 	icon = 6750,
 	last_effect = "",
 	effect_list = {

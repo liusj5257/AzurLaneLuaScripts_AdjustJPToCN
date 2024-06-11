@@ -1,15 +1,15 @@
 return {
-	id = "W2105",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2105",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Scan complete. All Siren Rally Points have been destroyed.",
 			typewriter = {
 				speed = 0.05,

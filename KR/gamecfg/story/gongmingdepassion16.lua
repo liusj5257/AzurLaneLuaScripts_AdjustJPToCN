@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/ui/baozha1",
+			bgm = "votefes-up",
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
+			soundeffect = "event:/ui/baozha1",
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "——",
-			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,17 +21,17 @@ return {
 				number = 3
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			say = "굉음과 함께 무대 위에 설치된 라이브 데이터 집계용 점수판이 폭발했다!",
@@ -53,10 +53,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관… 이 승부 결과는 어떻게 해야 하냥?",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,10 +81,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "점수판이 터져버리다니… 이래선 승패를 가릴 수 없겠군.",
 			painting = {
 				alpha = 0.3,
@@ -99,10 +99,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "글쎄… 그렇다고 무승부로 할 수도 없잖아?",
 			painting = {
 				alpha = 0.3,
@@ -197,10 +197,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "판별이 불가능하다냥! 두 유닛의 데이터가 완전히 일치해서 그렇다냥!",
 			painting = {
 				alpha = 0.3,
@@ -215,10 +215,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 서로 영향을 주어서인지, 각자 장비한 \"μ장비\"에 갑자기 이상한 공명이 발생한 것 같아.",
 			painting = {
 				alpha = 0.3,
@@ -233,10 +233,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "점수판은 그 공명으로 증폭된 힘을 견디지 못하고, 갑자기 폭발하고 만 거지.",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "냥? 그건…",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "예산에 관련해서는 아카시가 내게 맡아달라고 했어.",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다른 진영도 스폰서가 되어준 덕분에, 이번 1위와 2위 예산은 더할 나위 없이 풍족해.",
 			painting = {
 				alpha = 0.3,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			say = "눈앞에 있는 클레망소의 얼굴을 보자, 갑자기 불길한 예감이 들었다.",
@@ -363,10 +363,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "1위 예산은 9,999,999,999,999,999, 2위는 1위보다 9가 한 자릿수 적은 999,999,999,999,999야.",
 			painting = {
 				alpha = 0.3,
@@ -381,10 +381,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "예산이 무한대에 가깝기 때문에, 상품은 모두 \"뭐든지 하나만 이루어지는 소원\"이라고 봐도 무방하겠지.",
 			painting = {
 				alpha = 0.3,

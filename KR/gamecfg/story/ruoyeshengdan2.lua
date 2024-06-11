@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUOYESHENGDAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUOYESHENGDAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"크리스마스 이브 진저브레드 이야기\n\n<size=45>여왕의 측면상</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_100",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_100",
 			bgm = "story-1",
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "좋아! 여기 오른손은 끝났어요. 붙여도 됩니다. 워스파이트 님.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "주의력, 집중, 집중... 여기도 완성이야! 드디어 폐하의 눈썹을 완성했다!",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,10 +83,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...인정합니다. 워스파이트 님이 만든 얼굴은 정말 진짜와 똑같네요.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = 1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "후... 이번엔 완성 시간을 맞출 수 있겠어.",
 			typewriter = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "이건... 진저브레드... 인간!?",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,10 +144,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어엇, 시애틀이군요. 크리스마스 파티 준비하느라 수고가 많겠어요.",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "아하하... 수고는 무슨, 사실 준비 과정도 무척이나 재미있슴다, 헤헤~",
 			typewriter = {
@@ -195,10 +195,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "응? 시애틀도 걱정을 할 때가 있네요?",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = 1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "이런 일에서 중요한 것은 마음이지! 이건 내가 작년 크리스마스 때 배운 경험으로 하는 말이야.",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = 1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "그래서 올해는 폐하를 위해 이걸 준비했지! 로열 특제 크리스마스 진저브레드 조각상——<여왕 폐하의 측면상>!",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "오오... 아주 대단해보이지 말임다!",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -299,10 +299,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "막상 실제로 만들기 시작하면 의외로 손이 정말 많이 간답니다?",
 			typewriter = {
 				speed = 0.05,
@@ -317,10 +317,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "재료 준비부터, 대형 오븐까지... 그리고 중간에 무수히 많은 실패와 희생——",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "너무 과장이다... 그 \"실패작\"을 내가 얼마나 많이 시식했는지도 모르겠거든! 맛은 정말 맛있긴 했는데...",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,10 +378,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어엇, 시식을 돕겠다고 얘기한 건 와카바였잖아요?",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "크리스마스 선물 준비 도중에 맛있는 냄새가 나길래 와본건데, 이렇게 될줄은... 흐음~",
 			typewriter = {
@@ -410,12 +410,12 @@ return {
 			}
 		},
 		{
-			actor = 299011,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299011,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "와카바짱, 당신의 희생은 헛되지 않았어요.",
 			typewriter = {
 				speed = 0.05,
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "저녁 파티가 시작되고 폐하가 이걸 보면 분명 매우 기뻐하실 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -443,8 +443,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -456,10 +456,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "호호, 그 메이드장까지 크게 놀라겠죠~ 정말 기대되네요~",
 			typewriter = {
 				speed = 0.05,
@@ -487,11 +487,11 @@ return {
 			}
 		},
 		{
-			actor = 301231,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301231,
+			nameColor = "#a9f548",
 			say = "앗, 시애틀 기다려, 나도 같이가!",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

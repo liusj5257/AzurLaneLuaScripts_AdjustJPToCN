@@ -7,9 +7,9 @@ return {
 			actor = 900233,
 			nameColor = "#ff5c5c",
 			actorName = "The Demon King",
+			say = "Mwahahah! I'm surprised you made it to my lair alive!",
 			side = 2,
 			bgm = "login-2022401jp",
-			say = "Mwahahah! I'm surprised you made it to my lair alive!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

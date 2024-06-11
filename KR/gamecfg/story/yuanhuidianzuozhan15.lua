@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			bgName = "bg_yuanhuidian",
+			stopbgm = true,
 			bgm = "story-6",
+			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			say = "쾅———————!",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "포탄의 폭음과 해맑은 웃음소리가 바다 상공에 울려 퍼진다——",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "세 사람의 움직임을 가로막는 여유로운 목소리가 등 뒤에 있는 통신기에서 들려왔다.",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
 			say = "블뤼허 그리고 Z16. 실험에 참여하느라 수고 많았구나. 너희들의 성과는 메탈 블러드에 큰 도움이 될 것이다.",
 			painting = {
@@ -336,8 +336,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
 			say = "후훗, 칭찬 고맙구나.",
 			painting = {
@@ -554,8 +554,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			blackBg = true,
 			say = "블뤼허와 프린츠 오이겐이 잡담을 나누고 있는 모습 뒤로 한 무리의 함선들이 서서히 멀어지다가 마침내 거울 해역에서 사라졌다.",

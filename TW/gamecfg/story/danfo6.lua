@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"丹佛的港區委託！\n\n<size=45>六 比賽開始！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "按時來到籃球場後，球場上已經聚集了相當多的人，是比賽的消息傳出去了嗎？",
 			side = 2,
 			bgName = "star_level_bg_112",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "按時來到籃球場後，球場上已經聚集了相當多的人，是比賽的消息傳出去了嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 101150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101150,
+			nameColor = "#a9f548",
 			say = "加加加加油……！丹佛！",
 			effects = {
 				{
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303070,
+			nameColor = "#a9f548",
 			say = "平時我不會看這些比賽，不過{namecode:38}和丹佛的就另當別論了。",
 			effects = {
 				{
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "在觀眾的熱烈的視線中，{namecode:38}一邊看著走進賽場的丹佛，一邊用纏著繃帶的食指轉著球。",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "擲硬幣的結果是{namecode:38}先攻，然後激烈的比賽正式開始了——！",
 			typewriter = {
 				speed = 0.05,
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "{namecode:38}快速運球衝到了籃下。對位的丹佛則在判斷著她會往左邊還是右邊突破。",
 			typewriter = {
 				speed = 0.05,
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "{namecode:38}巧妙而華麗地閃開了丹佛，然後精準投籃。目前{namecode:38}一分領先。",
 			typewriter = {
 				speed = 0.05,
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "這次輪到我了！我上了哦！",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "丹佛就在拿到球的地方，於三分線外投籃。球以一個漂亮的弧線精準入框，為丹佛得到兩分。",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "我擅長的位置，可是得分後衛哦……！",
 			effects = {
 				{
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 302120,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302120,
+			nameColor = "#a9f548",
 			say = "可惡……那我就用徹徹底底的進攻擊敗妳！",
 			effects = {
 				{
@@ -372,9 +372,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "你來我往的比賽還在繼續，現在丹佛和{namecode:38}的比分是8比9，可以說是相當焦灼——",
 			typewriter = {
 				speed = 0.05,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "丹佛的遠距離投籃戰術，被{namecode:38}的貼身防守完全封鎖了。",
 			typewriter = {
 				speed = 0.05,
@@ -432,11 +432,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "還沒有輸……！不，這場比賽我不能輸!",
 			typewriter = {
 				speed = 0.05,
@@ -448,8 +448,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,9 +474,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "{namecode:38}解開了手上纏著的繃帶。丹佛則是仰望天空，調整起自己的呼吸來。",
 			typewriter = {
 				speed = 0.05,
@@ -488,11 +488,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "指揮官，大姐頭，請看著我，看著丹佛閃耀的那一瞬間吧……！",
 			effects = {
 				{

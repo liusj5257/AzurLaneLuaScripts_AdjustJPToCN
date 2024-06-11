@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "眼前巨大的鳥巢吸引了視線，宛如遮天蔽日的雲。",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "站在鳥巢的旁邊，聲音忽然從腦海當中響起——",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "“咕咕咕……交換……”",
 			typewriter = {
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "“放入……咕咕咕……貢品……”",
 			typewriter = {

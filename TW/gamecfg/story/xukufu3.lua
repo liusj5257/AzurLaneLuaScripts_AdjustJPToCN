@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"速科夫的一天\n\n<size=45>三 工作的速科夫</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "指揮官，好無聊……",
 			typewriter = {
 				speed = 0.05,
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "哎嘿嘿~指揮官，忙不忙嘛，不忙的話來聊天呀",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "那就我來說，你聽著就好了~",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +127,12 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "太好啦~",
 			typewriter = {
 				speed = 0.05,
@@ -144,9 +144,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……不過今天居然已經堅持了半小時，對她來說已經非常了不起了。",
 			typewriter = {
 				speed = 0.05,
@@ -186,9 +186,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -327,9 +327,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

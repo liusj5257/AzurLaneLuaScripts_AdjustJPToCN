@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ffff4d",
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			say = "「秘密領域」にある謎の施設のホールに閉じ込められてしばらく経った頃……",
 			dir = 1,
 			bgm = "bsm-2",
+			nameColor = "#ffff4d",
+			say = "「秘密領域」にある謎の施設のホールに閉じ込められてしばらく経った頃……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "静謐な空間に一つのシルエットが投影された",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "……モニターに映っている艦隊は…？",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――「戦線」……？",
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――あの子たちが戦っている相手は……",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――セイレーン……？",
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――なら「セイレーン」は一体どういう存在なのか？",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――「アンチエックス」とは？",
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――この艦隊を指揮しているのは誰？",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――彼女たちはどうなったか？",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――………なにかを守るために戦っていたのか？",
@@ -394,8 +394,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――つまり、今自分たちが置かれている状況と似ている…？",
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "――この施設…いや、この「島」から脱出する方法は？",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "………………",
@@ -496,11 +496,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
+			actorName = "記録機構",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			actorName = "記録機構",
+			nameColor = "#ffff4d",
 			say = "最後の光がかき消されるまで、頑張って戦ってください",
 			typewriter = {
 				speed = 0.05,

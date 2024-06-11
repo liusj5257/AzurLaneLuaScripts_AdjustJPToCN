@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"영광스런 간주곡\n\n<size=45>제1장　그 이름은 글로리어스</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			bgm = "story-1",
+			say = "모항 - 집무실",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,13 +76,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "1시간 뒤……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 안 돼 글로리어스, 제대로 로열 네이비의 영광이 될 수 있도록 행동해야지…! 함력도 내가 제일 기니까…!",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#92fc63",
 			say = "기, 긴장하지 않았습니다! ……아, 있었네요! 여기 관측 보고 자료입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -211,9 +211,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "관측 보고 자료는 완벽하긴 한데, 왜 깜빡한 걸까……",
 			typewriter = {
 				speed = 0.05,
@@ -269,9 +269,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "반짝~!",
 			typewriter = {
 				speed = 0.05,

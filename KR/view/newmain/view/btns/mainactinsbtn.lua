@@ -1,18 +1,18 @@
 slot0 = class("MainActInsBtn", import(".MainBaseSpcailActBtn"))
 
-function slot0.InShowTime(slot0)
+slot0.InShowTime = function(slot0)
 	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot1:isEnd()
 end
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "MainUIInsBtn"
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot0.event:emit(NewMainMediator.SKIP_INS)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.animator = slot0._tf:Find("icon"):GetComponent(typeof(Animator))
 	slot1 = getProxy(InstagramProxy):ShouldShowTip()
 	slot0.animator.enabled = slot1

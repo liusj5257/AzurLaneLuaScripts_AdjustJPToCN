@@ -1,16 +1,16 @@
 return {
-	id = "AIGUANQIA23",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA23",
+	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区，皇家宿舍附近",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "港区，皇家宿舍附近",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "爱酱～～～～！！！？？？",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,17 +170,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "如此如此这般这般，似乎随机单词生成器以我的3D模型为原型制作了拷贝呢，我也是不久前才注意到的，也是吓了一跳呢～",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "如此如此这般这般，似乎随机单词生成器以我的3D模型为原型制作了拷贝呢，我也是不久前才注意到的，也是吓了一跳呢～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "嗯！和原来世界的我能够随时同步记忆，所以算是同一人物，设定上没有问题，嗯！",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "毕竟是虚拟的嘛！无论什么事情都是可能做到的哦！",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "接下来，也请多多关照绊爱咯！",
 			typewriter = {

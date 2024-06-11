@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUIHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUIHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"스페셜 파티\n\n<size=45>다이호와 알바코어</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항・숙소",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항・숙소",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "옷감도 완벽하고…바느질 도구도 문제없고…",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "아카시가 빌려준 도우미 만쥬들은……",
 			typewriter = {
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "만쥬들은 갖고 있는 바느질 도구를 꺼내, 준비가 완료되었다는 싸인을 보냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -106,11 +106,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "후후, 후후후후후♡ 지휘관님이 다이호의 드레스 차림에 마음을 빼앗기는 모습을 상상하면…아아~ 다이호는 행복해요~",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -132,20 +132,20 @@ return {
 			}
 		},
 		{
-			actor = 108020,
+			say = "도와줄까?",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "도와줄까?",
+			actor = 108020,
+			nameColor = "#92fc63",
 			actorPosition = {
 				x = 0,
 				y = -750
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 0
@@ -164,8 +164,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "!!! 아아아아아아알바코어!?!?!?!?!",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "아윽………",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1500,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -217,8 +217,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "우왓! 뭐야, 기절했네? 그냥 서프라이즈~! 해주려고 한 것뿐인데… 여전히 이런 거에 약하구나.",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "어~이, 다이호, 일어나~ 일어나아~",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -258,15 +258,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
 			say = "30분 후",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -290,11 +290,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			bgm = "story-1",
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "……여기는……좀 전에 꿈속에서 알바코어를 본 것 같은데……",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,20 +305,20 @@ return {
 			}
 		},
 		{
-			actor = 108020,
+			say = "꿈 아닌데?",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "꿈 아닌데?",
+			actor = 108020,
+			nameColor = "#92fc63",
 			actorPosition = {
 				x = 0,
 				y = -750
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 0
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "(…털썩)",
 			typewriter = {
 				speed = 0.05,
@@ -350,8 +350,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -300,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -362,8 +362,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "우와앗! 저, 정신차려! 만쥬들아, 물 좀 갖고 와줘!",
 			typewriter = {
@@ -379,10 +379,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 307070,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "……당신, 어쩜 이렇게 당당히 사쿠라 엠파이어 숙소에 들어와 있는 거야……",
+			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -397,8 +397,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -426,8 +426,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "다이호랑? ……우, 우리가 그렇게 좋은 사이였던가?",
 			typewriter = {
@@ -459,8 +459,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "……뭐, 좋아. 딱히 지나간 일에 언제까지고 집착하는 스타일은 아니니……지금은 지금이니까.",
 			typewriter = {
@@ -492,10 +492,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
-			nameColor = "#92fc63",
 			actorScale = 1.1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "지휘관님을 방해하는 자는 살려둘 수 없지요…",
 			effects = {
 				{
@@ -513,11 +513,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "우와와왓! 집착하는 스타일 아니라면서?!",
 			effects = {
 				{
@@ -535,8 +535,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -545,13 +545,13 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = " '지나간 일' 엔 집착하지 않는다는 겁니다. 이 다이호가 사랑하는 지휘관님을 '지금' 방해하려는 어리석은 자는……",
 			soundeffect = "event:/battle/plane",
+			actor = 307070,
+			nameColor = "#92fc63",
+			say = " '지나간 일' 엔 집착하지 않는다는 겁니다. 이 다이호가 사랑하는 지휘관님을 '지금' 방해하려는 어리석은 자는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,8 +581,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "미안! 내가 잘못했어! 다이호의 지휘관을 빼앗진 않을 테니까!",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -608,8 +608,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "함재기 좀 치워줘어!! 만쥬들이 무서워하고 있잖아!",
 			typewriter = {
@@ -622,8 +622,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -635,8 +635,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "……후……죽는 줄 알았네……",
 			typewriter = {
@@ -684,8 +684,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "이 정도로 중요한 이벤트라면, 지휘관도 분명히 온다니깐~",
 			typewriter = {
@@ -701,8 +701,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "(맨날 하는 허풍이겠지?! 아냐, 혹시……) 그, 그럴까요…? 그럼 잠시 어울려 드리도록 하지요……",
 			typewriter = {
@@ -715,12 +715,12 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "이예~이!",
 			typewriter = {
 				speed = 0.05,
@@ -732,8 +732,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,

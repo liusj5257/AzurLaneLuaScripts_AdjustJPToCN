@@ -4,29 +4,29 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "theme-threat-typev",
 			side = 2,
 			bgName = "bg_zhuguang_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――――！！！",
 			soundeffect = "event:/battle/boom2",
+			bgm = "theme-threat-typev",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "プリンストン、大丈夫？",
 			painting = {
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "でもこの数じゃあ…それに急に現れたりするし距離も空けられない…",
 			painting = {
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "ラフィーが守ってあげる",
 			painting = {

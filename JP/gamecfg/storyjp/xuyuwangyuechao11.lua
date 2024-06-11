@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			stopbgm = true,
-			hidePaintObj = true,
-			actorName = "？？？",
 			blackBg = true,
-			say = "「『大神木』の聖域に…」",
 			bgm = "theme-sakuraholyplace",
+			actorName = "？？？",
+			hidePaintObj = true,
+			say = "「『大神木』の聖域に…」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
@@ -36,10 +36,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			actorName = "尾張",
+			hidePaintObj = true,
 			say = "出てきた！頭の中で急に呼びかけてくるやつ！",
 			painting = {
 				alpha = 0.3,
@@ -54,10 +54,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "尾張",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この声……「仙哲」？",
 			painting = {
 				alpha = 0.3,
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			say = "幻の中で聞いた声と照合し、尾張は声の主を思い出した。",
@@ -83,10 +83,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "尾張",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そう言われても、「大神木」には御狐さまの結界があるもんね…近づけないよ",
 			painting = {
 				alpha = 0.3,
@@ -101,10 +101,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "尾張",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんな当たり前なことはあたしでも分かるもん",
 			painting = {
 				alpha = 0.3,
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			say = "声を出して否定すると、ふと違和感が尾張を襲った。",
@@ -130,10 +130,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "尾張",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、あれ…なんだか昨日「大神木」を手で触って、それからずっと変な夢を見ていたような……",
 			painting = {
 				alpha = 0.3,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			say = "溢れ出した記憶の矛盾に頭痛を覚えながら、彼女は「大神木」の方向に振り向いた。",
@@ -159,10 +159,10 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "尾張",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ーーーー！！！",
 			painting = {
 				alpha = 0.3,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			say = "桜色の「大神木」の姿が揺らぎ始め、根元から樹冠まで光り始めた。",
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			say = "大樹の樹冠から複雑な模様が現れては消え、その光がだんだん暗くなっていく。",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			say = "明滅がようやく収まったとき、聖域の天地が一斉に震え出した。",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "闇靄の封印が―――破れた。",
@@ -247,17 +247,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

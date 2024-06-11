@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Hammann Observation Diary\n\n<size=45>Chapter 7: Honest... For Just a Moment!</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 107050,
 			side = 2,
 			bgName = "bg_story_room",
-			bgm = "story-1",
-			dir = 1,
 			say = "Hammann, Commander is right here. Why don't you say what you told me and apologize properly?",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,10 +78,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
@@ -131,10 +131,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -30,
 					dur = 0.5,
-					type = "shake",
-					y = -30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Though her voice was but a tiny whisper, I still could hear what she said.",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.4,
 					x = 30,
 					number = 3
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I could feel Hammann's warmth as she threw her arms around me.",
 			typewriter = {
 				speed = 0.05,
@@ -257,10 +257,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.1,
 					x = 30,
 					number = 3
@@ -304,10 +304,10 @@ return {
 			},
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.5,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			}
 		},
@@ -357,10 +357,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},

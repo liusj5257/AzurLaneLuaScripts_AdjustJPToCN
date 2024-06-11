@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG23",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG23",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "「μ兵装」稼働限界到達…！歌唱行動、停止……",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "はあ…はあ…流石にもう無理ね…",
 			typewriter = {
 				speed = 0.05,
@@ -42,9 +42,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 301014,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "も、燃え尽きたぁ…",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "ふぅ…最高に盛り上がったよ！",
 			typewriter = {
 				speed = 0.05,
@@ -97,14 +97,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "うにゃあああ！会場は最高に盛り上がったにゃ！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,10 +249,10 @@ return {
 			}
 		},
 		{
-			actorName = "みんな",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "みんな",
 			dir = 1,
+			side = 2,
 			say = "おおおおお！！",
 			dialogShake = {
 				speed = 0.09,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,14 +324,14 @@ return {
 			}
 		},
 		{
-			actor = 307100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307100,
+			nameColor = "#a9f548",
 			say = "「μ兵装」のテスト、しばらくまだ続きそうね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

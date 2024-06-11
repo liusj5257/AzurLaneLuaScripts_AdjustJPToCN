@@ -1,18 +1,18 @@
 slot0 = class("SettingsStorySpeedPanel", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsStorySpeed"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("story_setting_label")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / AUTO SPEED"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.btns = {}
 
 	for slot5 = 1, slot0._tf:Find("speeds").childCount do
@@ -29,7 +29,7 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 	triggerToggle(slot0.btns[table.indexof(Story.STORY_AUTO_SPEED, getProxy(SettingsProxy):GetStorySpeed()) or 2], true)
 end
 

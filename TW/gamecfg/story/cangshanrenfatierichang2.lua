@@ -1,13 +1,13 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIERICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIERICHANG2",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"蒼閃忍法帖-「日常篇」\n\n<size=45>修行！修行！修行！-其一</size>",
@@ -16,20 +16,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "港區·體育館",
 			bgm = "sk-theme",
+			say = "港區·體育館",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			say = "「忍」的特訓中————",
@@ -41,11 +41,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_601",
 			actor = 102260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "得分了！",
 			painting = {
 				alpha = 0.3,
@@ -56,17 +56,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			say = "——砰！",
@@ -101,10 +101,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "痛痛痛……嗚～被騙了～",
 			painting = {
 				alpha = 0.3,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 304040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "如果會被這種程度的幻影誤導，表示雷諾作為機甲忍者還有很長的路要走啊。",
 			painting = {
 				alpha = 0.3,
@@ -172,9 +172,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 303100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "等等、等等！抱歉啦！我會認真訓練的……啊呀！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,12 +192,12 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 304040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……剛剛得了一分立刻就被打回原形，羽黑，妳昨晚又熬夜了？",
 			painting = {
 				alpha = 0.3,
@@ -250,10 +250,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這我其實也懂……但是該怎麼說呢……斑鳩，好像有點太魔鬼教練了吧……？",
 			painting = {
 				alpha = 0.3,
@@ -268,10 +268,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "噗！",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 11000030,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "班長大人，妳暴露本性了呢！",
 			painting = {
 				alpha = 0.3,
@@ -313,28 +313,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
+			bgm = "sk-az-story",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "體育館外的一角—",
-			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雷諾她們正在進行忍者特訓……真好啊……",
 			painting = {
 				alpha = 0.3,
@@ -359,12 +359,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗚……之前並肩作戰時明明能輕鬆跟大家搭話，回到港區後就突然覺得好害羞……",
 			painting = {
 				alpha = 0.3,
@@ -376,12 +376,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "向真正的忍者請教對於在下來說，果然還是有些…",
 			painting = {
 				alpha = 0.3,
@@ -396,10 +396,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咦？曉，妳在這裡做什麼？",
 			painting = {
 				alpha = 0.3,
@@ -411,12 +411,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "響？！嗚嗚嗚，原來是布雷默頓閣下……別嚇我……",
 			painting = {
 				alpha = 0.3,
@@ -431,10 +431,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳躲在牆角的陰影裡做什麼呢……不是要跟大家一起訓練嗎？",
 			painting = {
 				alpha = 0.3,
@@ -449,10 +449,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "還是說，這是在做什麼特別的修行？",
 			painting = {
 				alpha = 0.3,
@@ -464,12 +464,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不……那個……其實……",
 			painting = {
 				alpha = 0.3,
@@ -481,12 +481,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
-			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……就是這麼回事",
 			painting = {
 				alpha = 0.3,
@@ -497,17 +497,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -518,10 +518,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呃……我說啊，都已經是並肩和塞壬戰鬥過的關係了，妳怎麼到現在還扭扭捏捏的……",
 			painting = {
 				alpha = 0.3,
@@ -536,10 +536,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "算啦~沒關係，接下來就交給我布雷默頓吧！",
 			painting = {
 				alpha = 0.3,
@@ -551,12 +551,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸？啊，等、等一下——",
 			painting = {
 				alpha = 0.3,
@@ -570,8 +570,8 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_601",
 			dir = 1,
+			bgName = "star_level_bg_601",
 			bgm = "sk-theme",
 			actor = 103240,
 			nameColor = "#A9F548FF",
@@ -586,17 +586,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -607,10 +607,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "請問現在有空嗎？我想請大家幫忙指導一下曉的修行——",
 			painting = {
 				alpha = 0.3,
@@ -622,12 +622,12 @@ return {
 			}
 		},
 		{
-			actor = 11000030,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊？我才沒空，現在很忙呢。在大家看不到的地方非常忙呢~啊，好忙啊～",
 			painting = {
 				alpha = 0.3,
@@ -642,10 +642,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊——！我懂了？因為是焰算是惡忍所以不能用這種普通的方法拜託是吧！",
 			painting = {
 				alpha = 0.3,
@@ -657,8 +657,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			say = "哐噹——（主炮裝填音）",
@@ -668,12 +668,12 @@ return {
 			}
 		},
 		{
-			actor = 11000030,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "喂、喂！等一下！？為什麼突然拿出這樣的大炮來……",
 			painting = {
 				alpha = 0.3,
@@ -688,10 +688,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳有時間的，對吧？稍微指導一下曉修行的時間還是有的，對吧？",
 			painting = {
 				alpha = 0.3,
@@ -703,12 +703,12 @@ return {
 			}
 		},
 		{
-			actor = 11000030,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊，嗯！有的！我有的所以別用那個對著我啦——！！！",
 			painting = {
 				alpha = 0.3,
@@ -720,12 +720,12 @@ return {
 			}
 		},
 		{
-			actor = 103240,
 			side = 2,
 			bgName = "star_level_bg_601",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯，那就好♪那麼，請多關照了♡",
 			painting = {
 				alpha = 0.3,

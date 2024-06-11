@@ -19,8 +19,8 @@ return {
 			style = {
 				text = "Look at that! You've also unlocked the Core Nexus.",
 				mode = 1,
-				posY = -214.2,
 				dir = 1,
+				posY = -214.2,
 				posX = 477.25
 			}
 		},
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			alpha = 0,
 			waitScene = "AtelierBuffLayer",
+			alpha = 0,
 			code = {
 				1
 			},
@@ -60,8 +60,8 @@ return {
 			style = {
 				text = "Core Upgrades can be placed on the circle to the left. Select a slot to place one.",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = -370.59
 			}
 		},
@@ -83,8 +83,8 @@ return {
 			style = {
 				text = "Now select a Core to add.",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			}
 		},
@@ -96,12 +96,12 @@ return {
 			style = {
 				text = "All your active buffs and boosts are shown here.",
 				mode = 1,
-				posY = 372.9,
 				dir = 1,
+				posY = 372.9,
 				posX = -182.6,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Effects/ScrollView",
-					lineMode = true
+					lineMode = true,
+					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Effects/ScrollView"
 				}
 			}
 		},
@@ -113,12 +113,12 @@ return {
 			style = {
 				text = "If you want more Core Upgrades, you can make them using the Synthesis system.",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 461.5,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Items/List/1",
-					lineMode = true
+					lineMode = true,
+					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Items/List/1"
 				}
 			}
 		}

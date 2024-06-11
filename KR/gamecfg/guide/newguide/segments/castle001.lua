@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "이제 한 번 던지셔야 합니다!",
 				mode = 1,
-				posY = -80,
 				dir = -1,
+				posY = -80,
 				posX = -561.6
 			},
 			ui = {

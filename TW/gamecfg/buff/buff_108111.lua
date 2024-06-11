@@ -139,14 +139,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 8,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108111,
 	picture = "",
 	desc = "ROAR中间火焰",
 	stack = 1,
-	id = 108111,
+	color = "red",
 	icon = 108110,
 	last_effect = "",
 	effect_list = {

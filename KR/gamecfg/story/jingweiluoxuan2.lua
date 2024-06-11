@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH항·지휘실",
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "blueocean-image",
+			hidePaintObj = true,
+			say = "PH항·지휘실",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -81,10 +81,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "맞아, 멋지지~!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "내가 심심할 때 만들어둔 거야. 이별 선물로 남겨 둘게.",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이제 나에게는 정품 양산형 함대가 있으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -159,10 +159,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "물론이지. 인수인계가 완료될 때까지 여기는 내 방인걸?",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "크흠... 오랜만이네, 지휘관.",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "함께 싸웠던 때로 따지면 훨씬 더 오래됐지.",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,10 +311,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "윽... MK7이 제대로 완성되었다면 직접 전선으로 달려갔을 거라고.",
 			typewriter = {
 				speed = 0.05,
@@ -329,10 +329,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "됐어~ 함께 싸웠다고 하기에는 조금 어폐가 있긴 해. 기회가 된다면 진짜로 함께 힘을 합쳐보자.",
 			typewriter = {
 				speed = 0.05,
@@ -362,10 +362,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "예를 들면 파커피크 전체의 세이렌이 전선으로 공격을 한다던가?",
 			typewriter = {
 				speed = 0.05,
@@ -395,10 +395,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "장난이야, 장난! 하지만 이 마음은 진짜라고?",
 			typewriter = {
 				speed = 0.05,
@@ -413,10 +413,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...대형 작전에 나는 부르지 않으니까. 나도 지휘관처럼 NA 해역에서 활약하고 싶었어!",
 			typewriter = {
 				speed = 0.05,
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아직 몰라. 일단 NY 사령부에 먼저 들러야 해. 오늘 인수인계를 마친 뒤에 귀환하기로 되어 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -463,10 +463,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "맞아, 방금 날 보고 깜짝 놀란 건 대체 무슨 의미야?!",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -503,12 +503,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "책상 밑에서.",
 			typewriter = {
 				speed = 0.05,
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "물건 찾았어...",
 			typewriter = {
 				speed = 0.05,
@@ -591,10 +591,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "인수인계 기록... (작은 소리)",
 			typewriter = {
 				speed = 0.05,
@@ -624,10 +624,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "괜찮아, 괜찮아! 신경 쓰지 않아도 돼. 밖에서 조금만 기다려 줘. 찾으면 부를 테니까!",
 			typewriter = {
 				speed = 0.05,
@@ -639,8 +639,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -682,10 +682,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아아아... (어떡하지, 어떡하지?)",
 			typewriter = {
 				speed = 0.05,
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -722,12 +722,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "실례. 후후, 한동안 만나지 못했지만 두 사람은 여전히 사이가 좋구나.",
 			typewriter = {
 				speed = 0.05,
@@ -742,10 +742,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아! 타이콘, 마침 잘 왔어! 들어봐——",
 			typewriter = {
 				speed = 0.05,
@@ -772,12 +772,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그랬군. 지휘관, 인수인계를 위해서 회의실을 준비해 두었으니 나랑 먼저 가자.",
 			typewriter = {
 				speed = 0.05,
@@ -792,10 +792,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "뉴저지는 마무리해야 할 일이 있어서, 조금 뒤에 따라올 거야.",
 			typewriter = {
 				speed = 0.05,

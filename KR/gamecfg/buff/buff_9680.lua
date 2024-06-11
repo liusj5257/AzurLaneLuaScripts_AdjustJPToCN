@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 9680,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9680,
+	color = "yellow",
 	icon = 9680,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				time = 5,
 				skill_id = 9677,
+				time = 5,
+				maxTargetNumber = 0,
 				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm"

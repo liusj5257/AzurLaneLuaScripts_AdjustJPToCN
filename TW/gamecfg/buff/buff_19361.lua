@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 100
+					number = 100,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -29,8 +29,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.05,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -47,8 +47,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 140
+					number = 140,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -58,8 +58,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 610
+					number = 610,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.061,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -86,8 +86,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 180
+					number = 180,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 720
+					number = 720,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -107,8 +107,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.072,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -125,8 +125,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 220
+					number = 220,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -136,8 +136,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 830
+					number = 830,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -146,8 +146,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.083,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -164,8 +164,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 260
+					number = 260,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 940
+					number = 940,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.094,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -203,8 +203,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 300
+					number = 300,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -214,8 +214,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1050
+					number = 1050,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.105,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -242,8 +242,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 350
+					number = 350,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -253,8 +253,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1160
+					number = 1160,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -263,8 +263,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.116,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -281,8 +281,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 400
+					number = 400,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -292,8 +292,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1270
+					number = 1270,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -302,8 +302,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.127,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -320,8 +320,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 450
+					number = 450,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -331,8 +331,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1380
+					number = 1380,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -341,8 +341,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.138,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -359,8 +359,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -370,8 +370,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1500
+					number = 1500,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -380,8 +380,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.15,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -389,9 +389,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -413,8 +413,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 100
+				number = 100,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -424,8 +424,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 500
+				number = 500,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -434,8 +434,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageAmmoToArmorRateEnhance_3",
 				number = 0.05,
+				attr = "damageAmmoToArmorRateEnhance_3",
 				index = {
 					1
 				}

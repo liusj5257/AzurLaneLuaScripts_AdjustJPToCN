@@ -3,10 +3,10 @@ pg.activity_event_blackwhite = {
 	{
 		name = "第一张图",
 		random = 0,
-		id = 1,
+		story = "AIJINGHUA1",
 		num = 3,
 		condition = "三星通关SP1后解锁",
-		story = "AIJINGHUA1",
+		id = 1,
 		unlock = {
 			0,
 			1220001
@@ -291,10 +291,10 @@ pg.activity_event_blackwhite = {
 	{
 		name = "第二张图",
 		random = 0,
-		id = 2,
+		story = "AIJINGHUA2",
 		num = 3,
 		condition = "三星通关SP2后解锁",
-		story = "AIJINGHUA2",
+		id = 2,
 		unlock = {
 			1,
 			1220002
@@ -579,10 +579,10 @@ pg.activity_event_blackwhite = {
 	{
 		name = "第三张图",
 		random = 0,
-		id = 3,
+		story = "AIJINGHUA3",
 		num = 3,
 		condition = "三星通关SP3后解锁",
-		story = "AIJINGHUA3",
+		id = 3,
 		unlock = {
 			2,
 			1220003
@@ -867,10 +867,10 @@ pg.activity_event_blackwhite = {
 	{
 		name = "第四张图",
 		random = 0,
-		id = 4,
+		story = "AIJINGHUA4",
 		num = 3,
 		condition = "三星通关SP4后解锁",
-		story = "AIJINGHUA4",
+		id = 4,
 		unlock = {
 			3,
 			1220004
@@ -1155,10 +1155,10 @@ pg.activity_event_blackwhite = {
 	{
 		name = "随机图",
 		random = 1,
-		id = 5,
+		story = "",
 		num = 3,
 		condition = "完成净化空间NO1-4后解锁",
-		story = "",
+		id = 5,
 		unlock = {
 			4,
 			1220004

@@ -1,6 +1,6 @@
 slot0 = class("LevelStageAutoFightPanel", BaseSubView)
 
-function slot0.Ctor(slot0, ...)
+slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.buffer = setmetatable({}, {
@@ -26,11 +26,11 @@ function slot0.Ctor(slot0, ...)
 	slot0.isCO = false
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelStageAutoFightPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.btnOn = slot0._tf:Find("On")
 	slot0.btnOff = slot0._tf:Find("Off")
 
@@ -59,7 +59,7 @@ function slot0.OnInit(slot0)
 	slot0.loader:LoadBundle("ui/levelstageview_atlas")
 end
 
-function slot0.UpdateAutoFightMark(slot0)
+slot0.UpdateAutoFightMark = function(slot0)
 	slot1 = getProxy(ChapterProxy):GetChapterAutoFlag(slot0.contextData.chapterVO.id) == 1
 
 	setActive(slot0.btnOn, slot1)
@@ -68,7 +68,7 @@ function slot0.UpdateAutoFightMark(slot0)
 	slot0:emit(LevelUIConst.STRATEGY_PANEL_AUTOFIGHT_ACTIVE, slot1)
 end
 
-function slot0.UpdateContinuousOperation(slot0)
+slot0.UpdateContinuousOperation = function(slot0)
 	if getProxy(ChapterProxy):GetContinuousData(SYSTEM_SCENARIO) and slot1:IsActive() then
 		slot3 = "$1/$2"
 		slot7 = slot1
@@ -99,7 +99,7 @@ function slot0.UpdateContinuousOperation(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.loader:Clear()
 	uv0.super.OnDestroy(slot0)
 end

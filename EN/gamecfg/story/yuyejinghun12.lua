@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN12",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Although the housekeeper sounds supportive, you are not convinced that she will actually help you.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -257,9 +257,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yes. Enamor.",
 			typewriter = {
@@ -272,9 +272,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Z2",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You did not. Your skill is called Enamor.",
 			typewriter = {
@@ -287,9 +287,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The one who went to went to play in the puzzle room and left me in her place.",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Housekeeper",
-			side = 2,
+			actor = 9600021,
 			actorName = "São Martinho",
 			hidePaintObj = true,
 			say = "There's a simple map of the castle in the dining room. If you need it, by all means, take it.",
@@ -370,9 +370,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Housekeeper",
-			actorName = "São Martinho",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "São Martinho",
 			hidePaintObj = true,
 			say = "Oh, the dining room is across this hall. It would normally not be an issue if you passed through the courtyard, but it's being remodeled, so please detour around it.",
 			typewriter = {
@@ -399,9 +399,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Housekeeper",
-			actorName = "São Martinho",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "São Martinho",
 			hidePaintObj = true,
 			say = "Did my button catch your eye?",
 			typewriter = {
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Housekeeper",
-			side = 2,
+			actor = 9600021,
 			actorName = "São Martinho",
 			hidePaintObj = true,
 			say = "Golden Hind gave it to me.",
@@ -480,9 +480,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Housekeeper",
-			actorName = "São Martinho",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "São Martinho",
 			hidePaintObj = true,
 			say = "I hate to repeat myself again, but the castle is vast. If you wander carelessly at night, you may get lost. Be careful.",
 			typewriter = {
@@ -495,9 +495,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Housekeeper",
-			actorName = "São Martinho",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "São Martinho",
 			hidePaintObj = true,
 			say = "Also, allow me to warn you once more: do not enter bedrooms or other private spaces without the occupant's permission.",
 			typewriter = {
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Housekeeper",
-			side = 2,
+			actor = 9600021,
 			actorName = "São Martinho",
 			hidePaintObj = true,
 			say = "Golden Hind is waiting for me, so I must take my leave now.",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

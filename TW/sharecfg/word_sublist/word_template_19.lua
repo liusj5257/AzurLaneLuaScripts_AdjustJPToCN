@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_19 = {}
 slot1 = slot0.word_template_19
 
-function temp()
+temp = function()
 	uv0["里"] = {
 		["根"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["尼"] = {
 		["克"] = {
 			["松"] = {
@@ -57,7 +57,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["杜"] = {
 		["鲁"] = {
 			["门"] = {
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赫"] = {
 		["鲁"] = {
 			["晓"] = {

@@ -1,12 +1,12 @@
 return {
-	id = "W700110",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700110",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "スキャンモジュール作動中。セイレーン施設によるジャミングを探知、ジャミング源を全部破壊してください",
 			typewriter = {
 				speed = 0.05,

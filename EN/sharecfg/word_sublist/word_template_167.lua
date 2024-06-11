@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_167 = {}
 slot1 = slot0.word_template_167
 
-function temp()
+temp = function()
 	uv0["开"] = {
 		["苞"] = {
 			this = true
@@ -372,7 +372,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["開"] = {
 		["苞"] = {
 			this = true
@@ -404,7 +404,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["凯"] = {
 		["托"] = {
 			["米"] = {
@@ -427,7 +427,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["凱"] = {
 		["奧"] = {
 			["勒"] = {
@@ -460,7 +460,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["砍"] = {
 		["翻"] = {
 			["一"] = {
@@ -549,7 +549,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["看"] = {
 		["病"] = {
 			["最"] = {
@@ -611,7 +611,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["康"] = {
 		["宝"] = {
 			["莱"] = {

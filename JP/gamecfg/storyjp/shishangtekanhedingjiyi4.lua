@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANHEDINGJIYI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANHEDINGJIYI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港着せ替え特集！その①\n\n<size=45>花咲く調べ</size>",
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "お座敷風の部屋に近づくと、中から小さなため息とともに重桜楽器の音が聞こえてきた。",
 			bgm = "newyear2",
+			say = "お座敷風の部屋に近づくと、中から小さなため息とともに重桜楽器の音が聞こえてきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "やっぱりダメですね……はあ…",
@@ -47,11 +47,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "あれ？指揮官？どうしてここに…？",
@@ -65,11 +65,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "樫野の楽器の調べが聞こえたから…ですか？",
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "うぅ…すみません、未熟なところを聞かせてしまいました…",
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "でも変ですね…",
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "教わった通りにやったのに、どうしていつもちょっとズレてしまうんでしょう…",
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "樫野が抱えている楽器を「んっ」と重そうにしながら持ち直す。",
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "手つきや姿勢に特に問題があるようには見えないが、となると問題はやっぱり――",
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			live2d = "expedition",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
 			dir = 1,
 			optionFlag = 1,
 			actor = 319013,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "expedition",
 			say = "？どこで間違ったか調べてくださるんですか？ありがとうございます！",
 			painting = {
 				alpha = 0.3,
@@ -202,14 +202,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
 			dir = 1,
 			optionFlag = 1,
 			actor = 319013,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "ええと、少々お待ち下さい……！",
 			painting = {
 				alpha = 0.3,
@@ -221,14 +221,14 @@ return {
 			}
 		},
 		{
-			hidePaintObj = true,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
 			withoutActorName = true,
 			optionFlag = 1,
 			actor = 319013,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "よいっしょ、と樫野が姿勢を正す。棹を左手で持ち、右手で撥を使って調べを奏でた。",
 			typewriter = {
 				speed = 0.05,
@@ -236,14 +236,14 @@ return {
 			}
 		},
 		{
-			hidePaintObj = true,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
 			withoutActorName = true,
 			optionFlag = 1,
 			actor = 319013,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "そして一曲終わると――",
 			typewriter = {
 				speed = 0.05,
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
-			side = 2,
-			bgName = "star_level_bg_172",
 			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_172",
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "指揮官が見てくださっているおかげか、さっきよりはうまくなった気がします！",
@@ -268,17 +268,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -286,11 +286,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "んー、でもズレているのはやっぱり変わらないような…一体なぜでしょう……？",
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官、ええと、よければアドバイスを頂けないでしょうか…？",
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "やはり樫野の腕じゃまだまだなのでしょうか…？練習不足でしょうか…？",
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "…？じゃあ…",
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "離して…？こうですか？やってみます！",
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "……えっ///",
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "よ、よく分かりませんけどズレが減った気がします！",
@@ -448,11 +448,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "流石指揮官ですね！",
@@ -466,11 +466,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "で、でもこうやって演奏するのは少しきついですね……",
@@ -484,11 +484,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "なにかいい方法はないのでしょうか……",
@@ -514,11 +514,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "少し困っている樫野と――重々しくて持っているその楽器をもう一度見てみる。",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "弦に作用する「なにか」の位置が変わらない以上、このままでは……",
@@ -554,11 +554,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "えぇ…し、指揮官？",
@@ -572,11 +572,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "助けてください―――＞＜",

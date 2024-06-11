@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"輕型航母{namecode:90}參上！\n\n<size=45>四 危險！誘惑少女的謎之味覺 </size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日・港區",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日・港區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "演習結束時，不知為何{namecode:90}一個人先行離開，就這樣不知所蹤了。",
 			typewriter = {
 				speed = 0.05,
@@ -104,13 +104,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "總之接受了{namecode:89}的建議，前往了港區食堂。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -131,9 +131,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "令人出乎意料、大吃一驚的場景映入眼簾……！",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "啊嗚啊嗚啊嗚……真香！！",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -203,8 +203,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "果然吃到撐超級幸福！！吧唧吧唧吧唧",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -278,8 +278,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "主公這會兒應該還在演習場，不會暴露的！啊嗚啊嗚",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "………………………………………………欸？",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "主、主公！十分抱歉讓您看到這副不堪入目的樣子！",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "請、請您、請您一定原諒……嗚嗚……",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
 					x = 45,
@@ -405,9 +405,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "{namecode:90}雙眼含淚，拿著筷子的雙手不住地顫抖著。",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	id = "W700031",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700031",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "困難難度已解鎖，通過前方的特殊通行裝置可以挑戰困難難度的仲裁機關。",
 			typewriter = {
 				speed = 0.05,

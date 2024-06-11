@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUIHE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUIHE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Lucky Crane\n\n<size=45>Chapter 7 - The Indomitable Crane</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "Office - Past midnight",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "Office - Past midnight",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "I'm sure... you'd prefer Shoukaku's snacks over mine anyway...",
 			typewriter = {
@@ -45,13 +45,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "......",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "You mean you want mine too...?",
 			typewriter = {
@@ -81,13 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "*Giggle*~ The Commander must be quite famished♪",
 			side = 1,
 			bgName = "bg_night",
 			actorName = "{namecode:95}",
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
-			say = "*Giggle*~ The Commander must be quite famished♪",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "You don't have to force yourself to eat it... Sis has already gotten you some snacks, so I'll save mine for next time, okay...?",
 			typewriter = {
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... \"Only when together can sis and I form your wings, so it's absurd to choose only one of us\"...?",
 			typewriter = {
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "... J-jeez...",
 			typewriter = {
@@ -153,17 +153,17 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -30,
 					dur = 0.8,
-					type = "shake",
-					y = -30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "For a moment, Zuikaku's expression turned bright red.",
 			typewriter = {
 				speed = 0.05,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307050,
 			actorName = "{namecode:95}",
 			say = "That is a charming, albeit very cheesy way of expressing your feelings...",
 			typewriter = {
@@ -188,16 +188,16 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_night",
-			actorName = "{namecode:96}",
+			side = 2,
 			dir = 1,
+			actorName = "{namecode:96}",
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "Commander, thank you.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "I know that you care about us both. I've known it for a long time, and yet I got so upset over nothing...",
 			typewriter = {
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "If I ever lose faith in myself again and start acting mopey...",
 			typewriter = {
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Actually, no! I'll never let that happen again! I'm the indomitable crane; I'm above mopiness!",
 			typewriter = {
@@ -273,19 +273,19 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "But... if you'd every now and then tell me that you like me more...",
 			typewriter = {
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Then I might... be a little happier...",
 			typewriter = {
@@ -315,12 +315,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			actorName = "{namecode:96}",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "... Please? Commander...?",
 			typewriter = {

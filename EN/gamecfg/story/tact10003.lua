@@ -6,8 +6,8 @@ return {
 		{
 			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "Another wave of torpedoes incoming, emergency maneuvers!",
 			shake = {
 				speed = 1,
@@ -23,15 +23,15 @@ return {
 			}
 		},
 		{
-			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 0,
+			actor = 205060,
+			nameColor = "#a9f548",
 			say = "Ahh... damn, the situation wouldn't be so dire if the Indomitable didn't strike that rock...",
 			flash = {
+				wait = 0.2,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.2,
 				number = 1,
 				alpha = {
 					0,
@@ -54,8 +54,8 @@ return {
 		{
 			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "Is this the end of the line...? Didn't realize a swarm of aircraft is so hard to deal with.",
 			shake = {
 				speed = 1,
@@ -73,8 +73,8 @@ return {
 		{
 			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "Haw-haw, these big guns can no longer keep up with the times… I really want to shower the enemy with a volley... but...",
 			shake = {
 				speed = 1,
@@ -92,8 +92,8 @@ return {
 		{
 			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "My sister ship Hood, I really miss the time when we traveled around the world...",
 			shake = {
 				speed = 1,

@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_599",
+			bgm = "theme-seaandsun-soft",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "在昏暗的房間中，壁爐中的柴火劈啪作響。",
-			bgm = "theme-seaandsun-soft",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "房間的主人靜靜依賴在躺椅上。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "她凝視著消散的晚霞，撫摸著懷中的貓咪。",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "思緒不禁飄向了遠方。",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "回到了那遙遠的過去。",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "回到了那個改變自己命運的瞬間。",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "回到了那個最大最惡事件發生的那一天——",
@@ -99,13 +99,13 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			asideType = 1,
+			stopbgm = true,
 			flashin = {
-				delay = 0,
 				dur = 1,
 				black = true,
+				delay = 0,
 				alpha = {
 					1,
 					0
@@ -119,28 +119,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
+			bgm = "login-2022401us",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "記得那也是一個彩霞漫天的休息日。",
-			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "毫無預警的，鐵爪惡魔出現了。",
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "惡魔一共只現身了五分鐘，卻在這段期間橫掃了整個島嶼。",
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "沒有任何一家甜點店倖免於難，就連一百二十多個倉庫中的甜點儲備也被席捲一空。",
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "怎……怎麼會這樣purin……",
 			painting = {
 				alpha = 0.3,
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本大人還是晚了一步嗎purin……",
 			painting = {
 				alpha = 0.3,
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "到底是什麼人，犯下如此令人髮指的罪行purin！",
 			painting = {
 				alpha = 0.3,
@@ -271,12 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這個鐵爪惡魔，到底是什麼來頭purin！",
 			painting = {
 				alpha = 0.3,
@@ -418,12 +418,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "竟然有如此強大的力量purin……",
 			painting = {
 				alpha = 0.3,
@@ -435,12 +435,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妹妹們都不在身邊purin……",
 			painting = {
 				alpha = 0.3,
@@ -452,12 +452,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "僅靠我……",
 			painting = {
 				alpha = 0.3,
@@ -469,12 +469,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我什麼都做不到purin……",
 			painting = {
 				alpha = 0.3,
@@ -489,10 +489,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "黃金（Golden）之神",
+			nameColor = "#FEF15E",
 			bgm = "login_0401",
 			actor = 202110,
-			nameColor = "#FEF15E",
+			actorName = "黃金（Golden）之神",
 			hidePaintObj = true,
 			say = "真的嗎，妳真的什麼都做不到嗎？",
 			typewriter = {
@@ -500,17 +500,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -518,8 +518,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "當金布里陷入絕望之時，一個金色的身影出現在她的眼前。",
@@ -529,12 +529,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "您……您是……黃金（Golden）之神purin？！",
 			painting = {
 				alpha = 0.3,
@@ -549,10 +549,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "黃金(Golden)之神",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "沒錯，我就是黃金（Golden）之神。",
 			typewriter = {
 				speed = 0.05,
@@ -563,10 +563,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "黃金(Golden)之神",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "回想起來吧，妳所擁有的力量。",
 			typewriter = {
 				speed = 0.05,
@@ -577,10 +577,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "黃金(Golden)之神",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "那是黃金（Golden）的力量。",
 			typewriter = {
 				speed = 0.05,
@@ -591,10 +591,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "黃金（Golden）之神",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "來自黃金（Golden）時代，黃金（Golden）家族的力量。",
 			typewriter = {
 				speed = 0.05,
@@ -602,12 +602,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "黃金（Golden）的力量purin……",
 			painting = {
 				alpha = 0.3,
@@ -619,12 +619,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本大人明白了purin！",
 			painting = {
 				alpha = 0.3,
@@ -636,12 +636,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳指的是家裡那台黃金（Golden）時代流傳下來的黃金（Golden）機甲 ，「試作型超級鑽頭MKII」purin！",
 			painting = {
 				alpha = 0.3,
@@ -653,12 +653,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "因為啟動密碼忘了所以一直在地下室吃灰purin……",
 			painting = {
 				alpha = 0.3,
@@ -670,12 +670,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Purin！只要找到啟動密碼，就能打敗鐵爪惡魔了！",
 			painting = {
 				alpha = 0.3,
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "黃金（Golden）之神微笑著點了點頭，消失了。",
@@ -698,8 +698,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "就這樣，金布里踏上了尋找機甲啟動密碼打倒鐵爪惡魔的旅程，在前方等待她的將會是什麼呢？",

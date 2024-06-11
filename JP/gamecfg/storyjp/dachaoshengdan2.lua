@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オペレーション・クリスマス！\n\n<size=45>二　お土産は地元らしく</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_104",
 			bgm = "story-1",
 			actor = 301641,
 			nameColor = "#a9f548",
 			say = "浦風はん、急がんとって～もうちょい待とって～",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,10 +56,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_104",
-			actor = 301591,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "もう待たないわよ！なんでたかがプレゼント選びに二時間もかかるのよ！",
+			dir = -1,
+			actor = 301591,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 301641,
 			dir = 1,
+			actor = 301641,
 			nameColor = "#a9f548",
 			say = "だって相手が多いやん～みんなにプレゼントする言うたんは浦風はんやない～",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_104",
-			actor = 301591,
 			dir = -1,
+			actor = 301591,
 			nameColor = "#a9f548",
 			say = "ぐぬぬ……しょ、しょうがないわね。ここは度量を見せてあと一時間だけ待ってやるわ！",
 			typewriter = {
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "あら？あそこにいるのは重桜の駆逐艦たち……何が起きているのかしら？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -183,12 +183,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "ご、ごきげんよう……",
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ご、ごきげんよう……",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 301591,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301591,
+			nameColor = "#a9f548",
 			say = "あんた、自分のプレゼント選びも終わってないくせに何を偉そうに言ってるのよ",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,8 +264,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
-			actor = 301591,
 			dir = -1,
+			actor = 301591,
 			nameColor = "#a9f548",
 			say = "そうよ。これは自作のセンゴク風降誕祭陣中衣装よ。ふふん、褒めなくてもいいよ。わかるわ♪",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 301641,
 			dir = 1,
+			actor = 301641,
 			nameColor = "#a9f548",
 			say = "こっちも自作の――クリスマスプレゼントを届けるトナカイはん衣装や～クリスマスの雰囲気がよーさんあるんこ？",
 			typewriter = {
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "で、でもそれじゃあプレゼントを開けるときのサプライズがないよぉ…",
 			typewriter = {
 				speed = 0.05,
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -433,12 +433,12 @@ return {
 			}
 		},
 		{
-			actor = 301641,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301641,
+			nameColor = "#a9f548",
 			say = "メリクリや～戦艦はんもおおきに～",
 			typewriter = {
 				speed = 0.05,

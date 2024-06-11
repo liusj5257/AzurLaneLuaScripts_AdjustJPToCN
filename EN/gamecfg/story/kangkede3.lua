@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KANGKEDE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KANGKEDE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Sugary Concord\n\n<size=45>Chapter 3: Concert</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Time passed very quickly-",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Time passed very quickly-",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander, if you don't have any other plans tonight, why don't you come with me to the open-air concert~",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
 			say = "After finishing work, Concord appeared in front of me with two concert tickets in hand.",
@@ -100,8 +100,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Unusual, right? She rarely performs live. I'm a huge fan, you know~",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Concord, starry-eyed with excitement, was clearly looking forward to it.",
@@ -132,13 +132,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "We rushed to the concert venue in a hurry-",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 102180,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102180,
+			nameColor = "#a9f548",
 			say = "Hurry up, Commander! The show's about to start~ We have the best seats in the house, right in front of the stage!",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "We'll be able to feast our eyes on Lady Lexington!",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "By the way, Lady Lexington is a very kind person~",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "At the last meet-and-greet, I not only got to shake her hand, but also even received a cake from her! She was very happy as well...",
 			typewriter = {
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "It seemed like Concord would never run out of things to say about Lexington.",
 			typewriter = {
 				speed = 0.05,
@@ -246,15 +246,15 @@ return {
 			}
 		},
 		{
-			actor = 102180,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102180,
+			nameColor = "#a9f548",
 			say = "Lady Lexington is here! Commander!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -291,14 +291,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_night",
 			actor = 102180,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Lady Lex~☆! I love you!!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -333,15 +333,15 @@ return {
 			}
 		},
 		{
-			actor = 102180,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102180,
+			nameColor = "#a9f548",
 			say = "Hehe...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 102180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "The performance soon reached its climax. Though the surrounding people were all swept away by the energy of the performance, Concord conversely seemed to fall into a solemn silence, her eyes fixed upon the figure on the stage.",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander... will I be able to stand out like her one day?",
 			typewriter = {
@@ -423,8 +423,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Even though Concord already sticks out from the crowd like a sore thumb...",
@@ -447,8 +447,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Commander... Hehe... unexpectedly, you're quite the smooth talker~",
 			typewriter = {

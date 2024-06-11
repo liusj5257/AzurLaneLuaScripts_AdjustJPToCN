@@ -9,14 +9,14 @@ slot4 = slot0.Battle.BattleBuffSmokeAimBias
 slot5 = slot0.Battle.BattleAttr
 slot4.ATTR_SMOKE = "smoke_aim_bias"
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot4.SetArgs(slot0, slot1, slot2)
+slot4.SetArgs = function(slot0, slot1, slot2)
 end
 
-function slot4.onAttach(slot0, slot1, slot2)
+slot4.onAttach = function(slot0, slot1, slot2)
 	uv0.SetCurrent(slot1, uv1.ATTR_SMOKE, 1)
 	uv2.AttachSmoke(slot1)
 
@@ -27,7 +27,7 @@ function slot4.onAttach(slot0, slot1, slot2)
 	end
 end
 
-function slot4.onUpdate(slot0, slot1, slot2, slot3)
+slot4.onUpdate = function(slot0, slot1, slot2, slot3)
 	slot4 = {
 		[uv0.FRIENDLY_CODE] = 0,
 		[uv0.FOE_CODE] = 0
@@ -49,7 +49,7 @@ function slot4.onUpdate(slot0, slot1, slot2, slot3)
 	slot7:Update(slot3.timeStamp)
 end
 
-function slot4.onRemove(slot0, slot1, slot2)
+slot4.onRemove = function(slot0, slot1, slot2)
 	if BATTLE_ENEMY_AIMBIAS_RANGE then
 		uv0.Battle.BattleDataProxy.GetInstance():DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.REMOVE_AIM_BIAS, {
 			aimBias = slot1:GetAimBias()

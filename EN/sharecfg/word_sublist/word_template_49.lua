@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_49 = {}
 slot1 = slot0.word_template_49
 
-function temp()
+temp = function()
 	uv0["比"] = {
 		["次"] = {
 			["仁"] = {
@@ -26,7 +26,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["笔"] = {
 		["式"] = {
 			["呼"] = {
@@ -44,7 +44,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["必"] = {
 		["须"] = {
 			["冒"] = {
@@ -100,7 +100,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["毕"] = {
 		["业"] = {
 			["证"] = {
@@ -116,7 +116,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["毖"] = {
 		["毖"] = {
 			this = true
@@ -126,7 +126,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["碧"] = {
 		["香"] = {
 			["亭"] = {
@@ -143,7 +143,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["避"] = {
 		["孕"] = {
 			["套"] = {

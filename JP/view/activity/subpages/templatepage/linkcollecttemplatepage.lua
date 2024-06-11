@@ -6,7 +6,7 @@ slot0.DropType2Name = {
 	[DROP_TYPE_SPWEAPON] = "special_weapon"
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
 	slot0.itemPanel = slot0:findTF("item_panel", slot0.bg)
@@ -17,13 +17,13 @@ function slot0.OnInit(slot0)
 	setText(slot0:findTF("tpl/owner/title", slot0.content), i18n("collect_page_got"))
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.guideConfig = pg.activity_limit_item_guide
 
 	slot0:BuildDatas()
 end
 
-function slot0.BuildDatas(slot0)
+slot0.BuildDatas = function(slot0)
 	slot1 = pg.activity_limit_item_guide.get_id_list_by_activity[slot0.activity.id]
 	slot5 = slot0.activity.id
 
@@ -49,7 +49,7 @@ function slot0.BuildDatas(slot0)
 	end
 end
 
-function slot0.GetTogglesDropTypes(slot0)
+slot0.GetTogglesDropTypes = function(slot0)
 	return {
 		DROP_TYPE_EQUIP,
 		DROP_TYPE_FURNITURE,
@@ -58,7 +58,7 @@ function slot0.GetTogglesDropTypes(slot0)
 	}
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.itemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:OnUpdateItem(slot1, slot2)
@@ -72,12 +72,12 @@ function slot0.OnFirstFlush(slot0)
 	triggerToggle(slot0.toggles[slot0.curPage], true)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0:BuildDatas()
 	slot0:UpdatePage(slot0.curPage)
 end
 
-function slot0.AddTogglesListener(slot0)
+slot0.AddTogglesListener = function(slot0)
 	slot0.toggles = {}
 
 	assert(#slot0:GetTogglesDropTypes() == slot0.togglesTF.childCount, "dropType数量与togglesTF子节点数不匹配")
@@ -95,7 +95,7 @@ function slot0.AddTogglesListener(slot0)
 	end
 end
 
-function slot0.AddSpecialBtnListener(slot0)
+slot0.AddSpecialBtnListener = function(slot0)
 	slot1 = slot0.activity:getConfig("config_client")
 	slot0.furnitureThemeBtn = slot0:findTF("furniture_theme", slot0.btnList)
 
@@ -135,7 +135,7 @@ function slot0.AddSpecialBtnListener(slot0)
 	end
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showDataList[slot1 + 1]
 	slot4 = slot0:findTF("icon_mask/icon", slot2)
 
@@ -166,7 +166,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	setActive(slot0:findTF("new", slot2), slot3.config.is_new == "1")
 end
 
-function slot0.UpdatePage(slot0, slot1)
+slot0.UpdatePage = function(slot0, slot1)
 	slot0.curPage = slot1
 	slot0.showDataList = {}
 
@@ -190,7 +190,7 @@ function slot0.UpdatePage(slot0, slot1)
 	slot0.itemList:align(#slot0.showDataList)
 end
 
-function slot0.DoSkip(slot0, slot1, slot2)
+slot0.DoSkip = function(slot0, slot1, slot2)
 	if slot1 == 2 then
 		pg.m02:sendNotification(GAME.GO_SCENE, slot2[1], slot2[2] or {})
 	elseif slot1 == 3 then

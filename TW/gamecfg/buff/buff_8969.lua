@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动剧情战 全体回血",
 	time = 3,
+	name = "公海舰队活动剧情战 全体回血",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

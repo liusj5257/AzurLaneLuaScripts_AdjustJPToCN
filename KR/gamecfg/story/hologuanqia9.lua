@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "저기, 재블린! 전투가 끝나면 나랑 데이트 하자!",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,9 +39,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "쌀쌀맞게 거절하다니…… 하지만 이게 매력이라구~",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			say = "숨 쉬고 있는 모 여고생이네.",
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "숨 쉬고 있는 모 여고생이네.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -141,8 +141,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "응. 모른다고 하고 버리고 가고 싶은 마음이 굴뚝같긴 하지만……",
 			typewriter = {
 				speed = 0.05,
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아하하, 후부키의 마음을 이해하지 못하는 건 아니지만, 저 애들을 도와주지 않겠어?",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

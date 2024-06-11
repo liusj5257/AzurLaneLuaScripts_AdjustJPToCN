@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑声望二阶段跨射lv5",
 	time = 60,
-	color = "yellow",
+	name = "黑声望二阶段跨射lv5",
+	init_effect = "",
+	id = 200051,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200051,
+	color = "yellow",
 	icon = 200051,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 200051,
 				time = 2,
 				rant = 10000,
-				skill_id = 200051
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -30,10 +30,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 200051,
 				time = 17,
 				rant = 10000,
-				skill_id = 200051
+				target = "TargetSelf"
 			}
 		}
 	}

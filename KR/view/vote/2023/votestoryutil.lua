@@ -7,7 +7,7 @@ slot0.ENTER_HALL = 5
 slot0.ENTER_EXCHANGE = 6
 slot0.END = 7
 
-function slot0.GetStoryNameByType(slot0)
+slot0.GetStoryNameByType = function(slot0)
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) or slot1:isEnd() then
 		return nil
 	end
@@ -15,7 +15,7 @@ function slot0.GetStoryNameByType(slot0)
 	return slot1:getConfig("config_client")[slot0 + 2]
 end
 
-function slot0.FinalRaceIsEnd()
+slot0.FinalRaceIsEnd = function()
 	for slot4 = #pg.activity_vote.all, 1, -1 do
 		if pg.activity_vote[slot0[slot4]].type == VoteConst.RACE_TYPE_FINAL then
 			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot6.time_vote[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
@@ -25,7 +25,7 @@ function slot0.FinalRaceIsEnd()
 	return true
 end
 
-function slot0.AllPreheatStoriesPlayed()
+slot0.AllPreheatStoriesPlayed = function()
 	if uv0.FinalRaceIsEnd() then
 		return true
 	end
@@ -44,7 +44,7 @@ function slot0.AllPreheatStoriesPlayed()
 	end)
 end
 
-function slot0.Notify(slot0)
+slot0.Notify = function(slot0)
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE) or slot1:isEnd() then
 		uv0.HandleEndStory()
 
@@ -83,7 +83,7 @@ function slot0.Notify(slot0)
 	})
 end
 
-function slot0.HandleGuide(slot0, slot1)
+slot0.HandleGuide = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0) do
@@ -95,7 +95,7 @@ function slot0.HandleGuide(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.HandleCurrActStory(slot0, slot1)
+slot0.HandleCurrActStory = function(slot0, slot1)
 	if uv0.AllPreheatStoriesPlayed() then
 		uv0.Play({
 			slot0:getConfig("config_client")[1]
@@ -105,7 +105,7 @@ function slot0.HandleCurrActStory(slot0, slot1)
 	end
 end
 
-function slot0.PreRaceIsEnd()
+slot0.PreRaceIsEnd = function()
 	slot0 = nil
 
 	for slot4, slot5 in ipairs(pg.activity_vote.all) do
@@ -123,7 +123,7 @@ function slot0.PreRaceIsEnd()
 	return pg.TimeMgr.GetInstance():parseTimeFromConfig(pg.activity_vote[slot0].time_vote[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.HandleEndStory()
+slot0.HandleEndStory = function()
 	if getProxy(VoteProxy):IsAllRaceEnd() then
 		uv0.Play({
 			uv0.GetStoryNameByType(uv0.END)
@@ -142,13 +142,13 @@ function slot0.HandleEndStory()
 	end
 end
 
-function slot0.CollectEnterGuide(slot0, slot1)
+slot0.CollectEnterGuide = function(slot0, slot1)
 	if slot0 and not pg.NewStoryMgr.GetInstance():IsPlayed(uv0.GetStoryNameByType(uv0.ENTER_SCENE)) then
 		table.insert(slot1, "NG0042")
 	end
 end
 
-function slot0.CollectEnterStory(slot0, slot1)
+slot0.CollectEnterStory = function(slot0, slot1)
 	if slot0 then
 		table.insert(slot1, uv0.GetStoryNameByType(uv0.ENTER_SCENE))
 	else
@@ -171,7 +171,7 @@ function slot0.CollectEnterStory(slot0, slot1)
 	end
 end
 
-function slot0.GetPrevRaceStories()
+slot0.GetPrevRaceStories = function()
 	slot0 = {}
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 
@@ -184,27 +184,27 @@ function slot0.GetPrevRaceStories()
 	return slot0
 end
 
-function slot0.CollectEnterMainStory(slot0)
+slot0.CollectEnterMainStory = function(slot0)
 	table.insert(slot0, uv0.GetStoryNameByType(uv0.ENTER_MAIN_STAGE))
 end
 
-function slot0.CollectEnterSubStory(slot0)
+slot0.CollectEnterSubStory = function(slot0)
 	table.insert(slot0, uv0.GetStoryNameByType(uv0.ENTER_SUB_STAGE))
 end
 
-function slot0.CollectEnterScheduleStory(slot0)
+slot0.CollectEnterScheduleStory = function(slot0)
 	table.insert(slot0, uv0.GetStoryNameByType(uv0.ENTER_SCHEDULE))
 end
 
-function slot0.CollectEnterHallStory(slot0)
+slot0.CollectEnterHallStory = function(slot0)
 	table.insert(slot0, uv0.GetStoryNameByType(uv0.ENTER_HALL))
 end
 
-function slot0.CollectEnterExchangeStory(slot0)
+slot0.CollectEnterExchangeStory = function(slot0)
 	table.insert(slot0, uv0.GetStoryNameByType(uv0.ENTER_EXCHANGE))
 end
 
-function slot0.Play(slot0, slot1)
+slot0.Play = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(_.select(slot0, function (slot0)

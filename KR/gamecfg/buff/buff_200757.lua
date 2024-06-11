@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023 关岛活动EX 一阶段召唤 监听",
 	time = 0,
+	name = "2023 关岛活动EX 一阶段召唤 监听",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200758,
-				target = "TargetSelf",
-				time = 0.5
+				time = 0.5,
+				target = "TargetSelf"
 			}
 		}
 	}

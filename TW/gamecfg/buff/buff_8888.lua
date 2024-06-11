@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "海伦娜共斗 基础航速修正",
 	time = 0,
-	color = "blue",
+	name = "海伦娜共斗 基础航速修正",
+	init_effect = "",
+	id = 8888,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8888,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{

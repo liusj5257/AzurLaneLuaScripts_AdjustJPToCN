@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUSHUN04",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"푸슌의 대모험\n\n<size=45>제4장 - 그리고 세계는 평화로워졌다…</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "거기거기! 공격해!",
 			bgm = "story-china",
+			actor = 501030,
+			nameColor = "#92fc63",
+			say = "거기거기! 공격해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
-			dir = 1,
 			say = "알고 있어! 이거나 먹어라~!",
+			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "푸슌&창춘",
-			side = 0,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#92fc63",
 			say = "오오오!",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#92fc63",
 			say = "얘, 푸슌! 또 사고 쳤구나!",
 			shake = {
 				speed = 1,
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "우와아아아아아! 안샨 언니!?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우와아아아아아! 안샨 언니!?",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -236,17 +236,17 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "큰일 났다, 도망……",
 			shake = {
 				speed = 8,
-				number = 3,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -274,17 +274,17 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 501030,
+			nameColor = "#92fc63",
 			say = "켁.",
 			shake = {
 				speed = 8,
-				number = 3,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "푸슌&창춘",
-			side = 0,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#92fc63",
 			say = "에에에에~~",
@@ -482,15 +482,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#92fc63",
 			say = "그립네… 설마 정말 다시 찾을 줄은…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -531,12 +531,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "역시 그 게임기, 안샨 언니 거였네.",
 			side = 0,
-			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
-			say = "역시 그 게임기, 안샨 언니 거였네.",
+			actor = 501030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 1,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#92fc63",
 			say = "꺄악!? 자, 잠깐, 창춘!?",
 			shake = {
 				speed = 5,
@@ -700,11 +700,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 1,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#92fc63",
 			say = "멋대로 마무리 짓지 마!",
 			shake = {
 				speed = 8,
@@ -720,12 +720,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
 			actorName = "타이위안&푸슌&창춘",
 			side = 0,
+			actor = 501040,
+			blackBg = true,
 			hideOther = true,
 			nameColor = "#92fc63",
-			blackBg = true,
 			say = "하하하하하……",
 			subActors = {
 				{

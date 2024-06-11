@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA35",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305120,
-			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "시나노님, 일어났어?",
 			bgm = "story-4",
+			actor = 305120,
+			nameColor = "#a9f548",
+			say = "시나노님, 일어났어?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "여기는…? 상황은 어떻지…!",
 			dialogShake = {
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(이 느낌… 확실히 현세다. 그렇다는 것은 이 배에서 잠이 든 이후 지금까지 일어난 모든 것은 전부 꿈이었나…)",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(아… 전혀 의식하지 못했다니… 아직 꼼꼼함이 부족한가. 하지만 다행이다… 그리고 아직 되돌릴 여지는 남아있어!)",
 			typewriter = {
@@ -106,15 +106,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:50}",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "{namecode:50}",
 			say = "시나노님, 몸은 괜찮으신가요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:27}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:27}",
 			dir = 1,
+			actorName = "{namecode:27}",
 			say = "에?! 그건 안 돼. 어떻게 그런 무례한 짓을……",
 			dialogShake = {
 				speed = 0.09,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:27}",
 			dir = 1,
+			actorName = "{namecode:27}",
 			say = "음… 시, 시나노! 걱정 마. 무슨 일이 있어도 내가 지켜줄게!",
 			dialogShake = {
 				speed = 0.09,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -408,8 +408,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "좋아. 이걸로 조금 더 가까워진 기분이 드는구나…… 그럼 이제 슬슬 도착할 때가 되었는데……",
 			typewriter = {
@@ -441,8 +441,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "역시 왔나…… 두 함대의 방향이 같으니 같이 간다면 훨씬 더 안전하겠지. 바로 동행 명령을 보내도록 해.",
 			typewriter = {
@@ -458,9 +458,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 301840,
 			dir = 1,
 			blackBg = true,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "……에? 알겠어요!",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "길고 격렬한 진동이 끝난 뒤, 용궁은 침몰을 멈췄다.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "길고 격렬한 진동이 끝난 뒤, 용궁은 침몰을 멈췄다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "대체 얼마나 깊이 침몰한 건지... 햇빛이 전혀 닿지 않는 곳이네요.",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "결계가 튼튼한 것 같아요. 안쪽으로는 물이 스며들지 않아서 안전해요!",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(불행 중에 다행이죠!)",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "외부와의 연락은 완전히 끊겼군요. 유라, 이 결계도 거울 해역의 일종으로 보이나요?",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "음... 결계는 단순한 결계예요. 우리 사쿠라 엠파이어의 것과 큰 차이가 없어 보여요...",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "물 아래에서 버틸 수 있는 결계라니, 들어본 적이 없어요. 설마 세이렌의 개량형인가요... 재미있군요.",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "그렇다는 건 너무 깊이 침몰해서 연락이 끊겼다는 것일 수도 있지요.",
 			typewriter = {
@@ -155,10 +155,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "치쿠마공, 유라공, 스루가공! 혹시 들리나요?",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "일단 합류할 방법을 찾아보죠. 용궁은 결계로 닫혔으니 안에서 뚫고 나갈 방법을 찾아야 해요.",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "좋아요, 이러면 정찰력은 충분하군요. 합류 장소는——",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -454,8 +454,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(아니, 뭔가 이상하잖아요! 방금 채널에서 불가사의한 소리가 나왔다고요?!)",
 			typewriter = {
@@ -490,8 +490,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "절대 안 돼요.",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "너무 그러지 말아요, 스루가. 작은 시합 정도라면 재밌지 않겠어요? 항로도 적당해 보이는데, 시간을 절약하면 더 빨리 합류할 수 있을지도 몰라요.",
 			typewriter = {
@@ -559,8 +559,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "그건 문제없어요. 그렇다면 이쪽은 치쿠마 함대라고 하죠.",
 			typewriter = {
@@ -576,10 +576,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "좋아요~ 그러면 여기는 시마카제 함대예요! 시마카제 함대, 전원 스탠바이! 출격!",
 			typewriter = {
 				speed = 0.05,
@@ -594,11 +594,11 @@ return {
 			paintingNoise = true,
 			side = 0,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
-			dir = 1,
-			actorName = "{namecode:208}&{namecode:207}",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 307120,
+			actorName = "{namecode:208}&{namecode:207}",
 			say = "출격!",
 			subActors = {
 				{
@@ -641,9 +641,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
 			blackBg = true,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "치쿠마 함대! 모두, 출격~!",
 			typewriter = {

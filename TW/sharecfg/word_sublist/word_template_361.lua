@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_361 = {}
 slot1 = slot0.word_template_361
 
-function temp()
+temp = function()
 	uv0["唛"] = {
 		["可"] = {
 			["奈"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["植"] = {
 		["物"] = {
 			["冰"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["福"] = {
 		["寿"] = {
 			["膏"] = {
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["乙"] = {
 		["基"] = {
 			["吗"] = {

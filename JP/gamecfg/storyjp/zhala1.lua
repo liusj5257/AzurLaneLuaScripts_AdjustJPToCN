@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ローザ・ストーリア\n\n<size=45>一 早朝の挨拶（？）</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "はい、指を数えてみて？",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "残念、はずれよ。まだちょっと寝ぼけているみたいね",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "あんなに帰ったほうがいいよって言ったのに結局こうなっちゃって。夜遅くまで頑張ったのね？",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "夜更しは体に悪いと知ってるはずでは？",
 			typewriter = {
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "秘書艦のザラに説教された。",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "日付が変わる前に色々追い込みをかけたかったが、結局夜遅くまで机に突っ伏してしまうほど働いたらしい。",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "言ったはずよ。私が秘書艦としてサポートするから、一人で頑張りすぎないように、と",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "それとも私のことは信用できない、とでもいうのかしら。自分の健康を犠牲にしてまで一人でこっそりお仕事をなさるとは……",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "私の職務怠慢になるわ。指揮官、申し訳ございません",
 			typewriter = {
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ザラは自分のミスだと主張して謝罪した。",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "もちろん、これは決して彼女のせいではないし、このまま責任を感じさせるわけにはいかない。",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "じゃあ…私の言うこと、全部聞いてくれる？",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "支度をお願いね。みんなの前ではカッコいい指揮官でいないと",
 			typewriter = {
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "あのまま「はい」って答えたらどうなるのやら。",
 			typewriter = {
 				speed = 0.05,
@@ -344,9 +344,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……とりあえず朝支度を始めようか。",
 			typewriter = {
 				speed = 0.05,
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "と、立ち上がろうとすると、背中から何かが滑り落ちてきた。――ザラのマント？",
 			typewriter = {
 				speed = 0.05,

@@ -3,18 +3,18 @@ slot0 = ys
 slot0.Battle.BattleAirFighterCharacterFactory = singletonClass("BattleAirFighterCharacterFactory", slot0.Battle.BattleAircraftCharacterFactory)
 slot0.Battle.BattleAirFighterCharacterFactory.__name = "BattleAirFighterCharacterFactory"
 
-function slot0.Battle.BattleAirFighterCharacterFactory.Ctor(slot0)
+slot0.Battle.BattleAirFighterCharacterFactory.Ctor = function(slot0)
 	uv0.Battle.BattleAirFighterCharacterFactory.super.Ctor(slot0)
 
 	slot0.HP_BAR_NAME = uv0.Battle.BattleHPBarManager.HP_BAR_FOE
 end
 
-function slot0.Battle.BattleAirFighterCharacterFactory.MakeCharacter(slot0)
+slot0.Battle.BattleAirFighterCharacterFactory.MakeCharacter = function(slot0)
 	return uv0.Battle.BattleAirFighterCharacter.New()
 end
 
-function slot0.Battle.BattleAirFighterCharacterFactory.MakeModel(slot0, slot1)
-	function slot2(slot0)
+slot0.Battle.BattleAirFighterCharacterFactory.MakeModel = function(slot0, slot1)
+	slot2 = function(slot0)
 		uv0:AddModel(slot0)
 		uv0:InitWeapon()
 		uv0:CameraOrthogonal(uv2.Battle.BattleCameraUtil.GetInstance():GetCamera())
@@ -31,7 +31,7 @@ function slot0.Battle.BattleAirFighterCharacterFactory.MakeModel(slot0, slot1)
 	end)
 end
 
-function slot0.Battle.BattleAirFighterCharacterFactory.MakeBloodBar(slot0, slot1)
+slot0.Battle.BattleAirFighterCharacterFactory.MakeBloodBar = function(slot0, slot1)
 	slot2 = slot0:GetHPBarPool():GetHPBar(slot0.HP_BAR_NAME)
 
 	slot1:AddHPBar(slot2)

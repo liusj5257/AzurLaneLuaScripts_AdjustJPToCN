@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA40",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA40",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ff5c5c",
+			actorName = "テスター",
 			side = 2,
 			bgName = "bg_mirror",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
 			actor = 900011,
-			actorName = "テスター",
+			nameColor = "#ff5c5c",
 			say = "装甲破損、エネルギー供給線路破損、子プログラムに重大エラー発生――",
 			flashin = {
 				delay = 1,
@@ -35,14 +35,14 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "テスター",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900011,
 			nameColor = "#ff5c5c",
 			say = "テストデータ、中層プログラムに送信、覚醒に近しい反応を観測するも覚醒状況を認めず、演算システムに不具合発生の可能性",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -93,8 +93,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（そなたたちセイレーンこそ、「アンチエックス」…そしてあの「夢」で観た光景の艦船と余燼は一体――）",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "テスター",
 			say = "（あなたに教えられる情報などないわ。残念ね）",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（…………）",
 			typewriter = {
@@ -144,11 +144,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……ええ、なれば己で答えを探し出そう……）",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -198,16 +198,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_mirror",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_mirror",
 			bgm = "story-4",
 			actor = 301840,
 			nameColor = "#a9f548",
 			say = "敵将討ち取ったり――！テスターを撃退したよ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -235,8 +235,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "輸送艦隊の損傷も軽微です…！これで安全に本島まで帰れますね！",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "千代田、信濃さんのせいであまり活躍できなかったわね…",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "…嗚呼、これで一つ、定めを乗り越えた……",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "（信濃さんの力、制御できないとはいえ強烈です。なぜ彼女を今まで本島に迎えるのではなく、あの祭儀の島に安置していたのでしょう…）",
 			typewriter = {
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_mirror",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "これは今日のタイムラインに載せようね！最上にとりあえず送信送信っと！",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "こっちも伊勢と飲むときの土産話ができたわ！あーあ、駿河もいればなぁ……",
 			dialogShake = {
@@ -351,8 +351,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……………………）",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（仲間たち、そして「夢」で観た数々の未来は妾の力となった……嗚呼、これも妾の定めというのか…）",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "信濃さん？みんなが出発の命令を待っていますよ？",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -428,8 +428,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "もはや目覚めたばかりの護衛対象じゃなくて、共に戦う仲間だからね。ここは信濃さんに一声をかけてもらうことにするよ",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（よ、よーそろー……）",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（セイレーンの狙いは妾だけにあらずとすれば、輸送船団の積荷、そして妾が観た破滅の「夢」…それを変えるには、夢ではなく、現実で……）",
 			typewriter = {
@@ -495,9 +495,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "………信濃の名にかけて命ず…皆、本島まで出航を――",
 			typewriter = {
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
+			soundeffect = "event:/ui/fengling",
 			stopbgm = true,
 			bgName = "bg_xinnong2_1",
-			seDelay = 0.5,
 			blackBg = true,
-			soundeffect = "event:/ui/fengling",
+			mode = 1,
+			seDelay = 0.5,
 			flashout = {
 				dur = 0.25,
 				alpha = {

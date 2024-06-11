@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN9",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "Exercise Area - Turn 3 (Akagi's Action)",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "At the start of Akagi's turn, a cloud symbol appeared above the exercise area, blanketing the entire domain in a thick sea fog.",
 			typewriter = {
@@ -46,17 +46,17 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "Wh-wh-where'd all this fog come from all of a sudden?!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "I know Akagi better than anyone else. She is trying to create a situation ideal for our carriers, something that the other players cannot take advantage of.",
 			painting = {
@@ -211,8 +211,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "But the fog is still dense enough to prevent the others from reading our movements.",
 			painting = {
@@ -244,8 +244,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "With the exception of the central tower and the strongholds, individual nodes only have low-ranking humanoid enemies and can be easily defeated by any of us alone.",
 			painting = {
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "Th-then, I'll go towards Mikasa's forces to try to capture the base between her and Lady Nagato...",
 			painting = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "You'll be fine, Miyuki. I'll cover you from a distance if necessary.",
 			painting = {
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "Under this arrangement, our forces will be spread thin and we won't always be able to help each other out. But, Akagi always has THAT option.",
 			painting = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "During this exercise, the players have the advantage of not only being able to survey the entire battlefield, but can also observe their opponents to try to gain a mental edge over them.",
 			painting = {

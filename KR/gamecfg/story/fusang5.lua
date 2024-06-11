@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"벚꽃이 흩날리던 그날 이후\n\n<size=45>5. 웃음을 유지하자</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "다음날, 의식을 시작하는 시간에 맞추어 공터에 도착했다.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "다음날, 의식을 시작하는 시간에 맞추어 공터에 도착했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 301570,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301570,
+			nameColor = "#a9f548",
 			say = "요, 요이즈키…… 어떡해요, 다음에 어떻게 하는 거였죠……?",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "결국, 하루츠키는 요이즈키의 도움을 받아 겨우겨우 의식을 끝냈다.",
@@ -220,15 +220,15 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "두 사람 모두 수고했어요. 차를 준비해두었으니 편히 쉬세요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 301570,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301570,
+			nameColor = "#a9f548",
 			say = "...... 아, 찻줄기가 세워졌어요!",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 301570,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301570,
+			nameColor = "#a9f548",
 			say = "천지신명이시어…… 감사합니다!!",
 			typewriter = {
 				speed = 0.05,
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "기뻐하며 떠난 하루츠키를 보내고 후소가 몸을 내 쪽으로 돌렸다.",
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "이것은 그녀의 진심에서 우러나온 생각이다——그녀의 표정에서 읽을 수 있었다.",
@@ -511,12 +511,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
-			soundeffect = "event:/ui/dalei",
-			dir = 1,
 			say = "후소가 말을 꺼낸 순간, 하늘에서 우르릉하고 천둥 소리가 들려왔다.",
+			dir = 1,
+			soundeffect = "event:/ui/dalei",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,8 +527,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,

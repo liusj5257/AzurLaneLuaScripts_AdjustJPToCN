@@ -9,9 +9,9 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "確かにセイレーンの数は多いが、大したことのない量産型がメインだ",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ヴィクトリアスの妙なこだわりは置いといて、同じ姿の敵と延々と戦わされるのはたしかにしんどい気がする",
 			typewriter = {
 				speed = 0.05,

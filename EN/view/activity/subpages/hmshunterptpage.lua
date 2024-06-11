@@ -1,6 +1,6 @@
 slot0 = class("HMSHunterPTPage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.helpBtn = slot0:findTF("help", slot0.bg)
@@ -13,7 +13,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.flush_task_list_pt(slot0)
+slot0.flush_task_list_pt = function(slot0)
 	slot1 = slot0.activity
 	slot3, slot4, slot5 = slot0:getDoingTask(slot1)
 	slot7 = getProxy(ActivityProxy):getActivityById(slot1:getConfig("config_client").rank_act_id).data1

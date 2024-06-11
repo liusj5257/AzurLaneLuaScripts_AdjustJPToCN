@@ -1,16 +1,16 @@
 return {
-	id = "BIHAIGUANGLIN33-3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-3",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 301480,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "屏障啟動！略略略~妳的攻擊打不穿我們了，白龍！",
 			typewriter = {
 				speed = 0.05,
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "雕蟲小技。",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "看起來妳不是塞壬，也不是塞壬的棋子，為什麼一定要在這裡與我們戰鬥？",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "無需多言，吾乃守護此地的存在。面對闖入者，此處就是吾的戰場！",
 			typewriter = {
 				speed = 0.05,
@@ -97,11 +97,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 399050,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "臨。兵。鬥。者。皆。陣。列。在。前。",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -168,9 +168,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 307120,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "開開開開什麼玩笑！她不是航空母艦嗎？！那兩個誇張的炮管是什麼啊？！！",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

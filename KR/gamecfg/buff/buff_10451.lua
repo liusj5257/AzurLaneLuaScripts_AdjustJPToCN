@@ -29,9 +29,9 @@ return {
 	{
 		time = 15
 	},
-	time = 5,
 	name = "最后的反击",
 	init_effect = "jinengchufablue",
+	time = 5,
 	picture = "",
 	desc = "无敌",
 	stack = 1,
@@ -64,8 +64,8 @@ return {
 			},
 			arg_list = {
 				group = 10451,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

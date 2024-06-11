@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "超重弹",
 	time = 0,
-	color = "yellow",
+	name = "超重弹",
+	init_effect = "",
+	id = 6211,
 	picture = "",
 	desc = "主炮暴击率提高8%",
 	stack = 1,
-	id = 6211,
+	color = "yellow",
 	icon = 6211,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 0.08,
+				attr = "cri",
 				index = {
 					1
 				}

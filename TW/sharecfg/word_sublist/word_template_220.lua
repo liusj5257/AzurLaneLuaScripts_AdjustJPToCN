@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_220 = {}
 slot1 = slot0.word_template_220
 
-function temp()
+temp = function()
 	uv0.h = {
 		o = {
 			n = {
@@ -254,7 +254,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.i = {
 		n = {
 			c = {
@@ -432,7 +432,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.J = {
 		["8"] = {
 			this = true
@@ -509,7 +509,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.j = {
 		i = {
 			a = {

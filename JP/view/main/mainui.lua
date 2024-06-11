@@ -67,11 +67,11 @@ slot0.BUFFTEXT_SHOW_TIME = 7
 slot2 = nil
 slot3 = pg.ship_spine_shift
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MainUI"
 end
 
-function slot0.getDiffTimeInfo(slot0)
+slot0.getDiffTimeInfo = function(slot0)
 	slot1 = uv0.BASE_TIME_INFO
 
 	if checkExist(getProxy(ActivityProxy):getActivityById(pg.gameset.dayandnight_bgm.key_value), {
@@ -89,7 +89,7 @@ function slot0.getDiffTimeInfo(slot0)
 	end
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	if slot0:getCurrentFlagship():IsBgmSkin() and getProxy(SettingsProxy):IsBGMEnable() then
 		return slot1:GetSkinBgm()
 	end
@@ -97,15 +97,15 @@ function slot0.getBGM(slot0)
 	return slot0:getDiffTimeInfo()[3] or uv0.super.getBGM(slot0)
 end
 
-function slot0.getCurrentFlagship(slot0)
+slot0.getCurrentFlagship = function(slot0)
 	return getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().characters[getProxy(SettingsProxy):getCurrentSecretaryIndex()] or slot2.character)
 end
 
-function slot0.setShips(slot0, slot1)
+slot0.setShips = function(slot0, slot1)
 	slot0.ships = slot1
 end
 
-function slot0.setBG(slot0)
+slot0.setBG = function(slot0)
 	slot1 = PoolMgr.GetInstance()
 
 	slot1:GetSprite("commonbg/" .. slot0:getDiffTimeInfo()[2], "", false, function (slot0)
@@ -116,13 +116,13 @@ function slot0.setBG(slot0)
 	end)
 end
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	uv1 = pg.AssistantInfo
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.redDotHelper = MainSceneRetDotHelper.New(slot0._go)
 	slot0._leftPanel = slot0:findTF("toTop/frame/leftPanel")
 	slot0._hideBtn = slot0:findTF("toTop/frame/leftPanel/hideButton")
@@ -252,11 +252,11 @@ function slot0.init(slot0)
 	slot0._paintingTimer:Pause()
 end
 
-function slot0.uiEnterAnim(slot0)
+slot0.uiEnterAnim = function(slot0)
 	slot1 = nil
 
 	if slot0.contextData.isFromLogin or getProxy(PlayerProxy):getFlag("battle") then
-		function slot1(...)
+		slot1 = function(...)
 			uv0:enablePartialBlur()
 
 			if uv0.tempFlagShip then
@@ -329,11 +329,11 @@ function slot0.uiEnterAnim(slot0)
 	})
 end
 
-function slot0.openSecondaryPanel(slot0)
+slot0.openSecondaryPanel = function(slot0)
 	slot0.secondaryPage:Show(slot0._player)
 end
 
-function slot0.closeSecondaryPanel(slot0, slot1)
+slot0.closeSecondaryPanel = function(slot0, slot1)
 	if slot1 then
 		slot0:enablePartialBlur()
 	end
@@ -343,13 +343,13 @@ function slot0.closeSecondaryPanel(slot0, slot1)
 	end
 end
 
-function slot0.disablePartialBlur(slot0)
+slot0.disablePartialBlur = function(slot0)
 	if slot0._tf then
 		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.toTopPanel, slot0._tf)
 	end
 end
 
-function slot0.enablePartialBlur(slot0)
+slot0.enablePartialBlur = function(slot0)
 	if slot0._tf then
 		slot1 = {}
 
@@ -362,7 +362,7 @@ function slot0.enablePartialBlur(slot0)
 	end
 end
 
-function slot0.emit(slot0, ...)
+slot0.emit = function(slot0, ...)
 	if slot0.event then
 		slot0.event:emit(...)
 	end
@@ -370,7 +370,7 @@ end
 
 slot4, slot5 = nil
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:setBG()
 	setActive(slot0._phonyui, false)
 
@@ -442,7 +442,7 @@ function slot0.didEnter(slot0)
 				end
 			end)
 
-			function uv1()
+			uv1 = function()
 				uv0.enabled = false
 				uv1.enabled = false
 			end
@@ -558,7 +558,7 @@ function slot0.didEnter(slot0)
 				end
 			end)
 
-			function uv2()
+			uv2 = function()
 				uv0.enabled = false
 				uv1.enabled = false
 			end
@@ -932,20 +932,20 @@ function slot0.didEnter(slot0)
 	TagTipHelper.FreeBuildTicketTip(slot0._freeBuildTag)
 end
 
-function slot0.checkGreeGiftTag(slot0)
+slot0.checkGreeGiftTag = function(slot0)
 	TagTipHelper.FreeGiftTag({
 		slot0._freeGiftTag
 	})
 end
 
-function slot0.openSnapShot(slot0)
+slot0.openSnapShot = function(slot0)
 	slot0:emit(MainUIMediator.OPEN_SNAPSHOT, {
 		skinId = slot0.flagShip.skinId,
 		live2d = slot0.Live2dChar ~= nil
 	})
 end
 
-function slot0.updateMonopolyBtn(slot0, slot1)
+slot0.updateMonopolyBtn = function(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
 	setActive(slot0._monopolyBtn, slot2)
@@ -957,14 +957,14 @@ function slot0.updateMonopolyBtn(slot0, slot1)
 	end
 end
 
-function slot0.openSnapShot(slot0)
+slot0.openSnapShot = function(slot0)
 	slot0:emit(MainUIMediator.OPEN_SNAPSHOT, {
 		skinId = slot0.flagShip.skinId,
 		live2d = slot0.Live2dChar ~= nil
 	})
 end
 
-function slot0.updateMonopolyBtn(slot0, slot1)
+slot0.updateMonopolyBtn = function(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
 	setActive(slot0._monopolyBtn, slot2)
@@ -976,7 +976,7 @@ function slot0.updateMonopolyBtn(slot0, slot1)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if slot0.secondaryPage and slot0.secondaryPage:isShowing() then
@@ -997,7 +997,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.ResetActivityBtns(slot0)
+slot0.ResetActivityBtns = function(slot0)
 	slot1 = import("GameCfg.activity.MainUIEntranceData")
 
 	assert(slot1, "Not Found MAINUI ENTRANCEDATA!!")
@@ -1050,7 +1050,7 @@ function slot0.ResetActivityBtns(slot0)
 	end
 end
 
-function slot0.RefreshBtn(slot0, slot1, slot2)
+slot0.RefreshBtn = function(slot0, slot1, slot2)
 	if slot1:Find("Image") == nil then
 		slot3 = slot1
 	end
@@ -1064,7 +1064,7 @@ function slot0.RefreshBtn(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateActivityBtn(slot0, slot1)
+slot0.UpdateActivityBtn = function(slot0, slot1)
 	slot2 = import("GameCfg.activity.MainUIEntranceData")
 
 	assert(slot2, "Not Found MAINUI ENTRANCEDATA!!")
@@ -1088,7 +1088,7 @@ function slot0.UpdateActivityBtn(slot0, slot1)
 	end
 end
 
-function slot0.HandleMiniGameBtns(slot0)
+slot0.HandleMiniGameBtns = function(slot0)
 	slot1 = import("GameCfg.activity.MainUIEntranceData")
 
 	assert(slot1, "Not Found MAINUI ENTRANCEDATA!!")
@@ -1100,7 +1100,7 @@ function slot0.HandleMiniGameBtns(slot0)
 	end
 end
 
-function slot0.updateAnniversaryBtn(slot0, slot1)
+slot0.updateAnniversaryBtn = function(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
 	setActive(slot0._anniversaryBtn, slot2)
@@ -1112,7 +1112,7 @@ function slot0.updateAnniversaryBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateBlackWhitBtn(slot0, slot1)
+slot0.updateBlackWhitBtn = function(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
 	setActive(slot0._blackWhitBtn, slot2)
@@ -1124,7 +1124,7 @@ function slot0.updateBlackWhitBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateMemoryBookBtn(slot0, slot1)
+slot0.updateMemoryBookBtn = function(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd() and not slot1:isShow()
 
 	setActive(slot0._memoryBookBtn, slot2)
@@ -1136,7 +1136,7 @@ function slot0.updateMemoryBookBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateLotteryBtn(slot0, slot1)
+slot0.updateLotteryBtn = function(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
 	setActive(slot0._lotteryBtn, slot2)
@@ -1148,7 +1148,7 @@ function slot0.updateLotteryBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateActivityPtBtn(slot0, slot1)
+slot0.updateActivityPtBtn = function(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
 	setActive(slot0._activityPtBtn, slot2)
@@ -1162,7 +1162,7 @@ function slot0.updateActivityPtBtn(slot0, slot1)
 	setActive(slot0._activityPtBtn, false)
 end
 
-function slot0.updateActivityWowsBtn(slot0, slot1)
+slot0.updateActivityWowsBtn = function(slot0, slot1)
 	slot2 = slot1 and not slot1:isEnd()
 
 	setActive(slot0._activityTaskWowsBtn, slot2)
@@ -1174,7 +1174,7 @@ function slot0.updateActivityWowsBtn(slot0, slot1)
 	end
 end
 
-function slot0.switchForm(slot0, slot1)
+slot0.switchForm = function(slot0, slot1)
 	if slot0._currentState ~= slot1 then
 		slot0._currentState = slot1
 
@@ -1216,7 +1216,7 @@ function slot0.switchForm(slot0, slot1)
 	end
 end
 
-function slot0.paintBreath(slot0)
+slot0.paintBreath = function(slot0)
 	if slot0.live2dChar or slot0.paintMoving then
 		return
 	end
@@ -1238,7 +1238,7 @@ function slot0.paintBreath(slot0)
 	LeanTween.moveY(rtf(slot0._paintingTF), slot1, uv0.BREATH_DURATION):setLoopPingPong():setEase(LeanTweenType.easeInOutCubic):setFrom(slot2)
 end
 
-function slot0.paintClimax(slot0, slot1, slot2, slot3)
+slot0.paintClimax = function(slot0, slot1, slot2, slot3)
 	if slot0.spinePainting then
 		return
 	end
@@ -1270,7 +1270,7 @@ function slot0.paintClimax(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.paintMove(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.paintMove = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	LeanTween.cancel(go(slot0._paintingTF))
 	LeanTween.moveY(rtf(slot0._paintingTF), 0, uv0.EJECT_DURATION)
 	LeanTween.moveY(findTF(slot0._paintingTF, "live2d"), slot4 or 0, uv0.EJECT_DURATION)
@@ -1324,7 +1324,7 @@ function slot0.paintMove(slot0, slot1, slot2, slot3, slot4, slot5)
 	end))
 end
 
-function slot0.getCvData(slot0, slot1)
+slot0.getCvData = function(slot0, slot1)
 	if slot1 == "" then
 		return nil
 	end
@@ -1351,7 +1351,7 @@ function slot0.getCvData(slot0, slot1)
 	return slot4, slot6, slot5, slot7, slot8, slot9
 end
 
-function slot0.displayShipWord(slot0, slot1)
+slot0.displayShipWord = function(slot0, slot1)
 	if slot0.chatFlag then
 		return
 	end
@@ -1396,8 +1396,8 @@ function slot0.displayShipWord(slot0, slot1)
 		ShipExpressionHelper.SetExpression(findTF(slot0._paintingTF, "fitter"):GetChild(0), slot0.flagShip:getPainting(), slot1, slot2, slot0.flagShip.skinId)
 	end
 
-	function slot13()
-		function slot0()
+	slot13 = function()
+		slot0 = function()
 			uv0._lastChatTween = nil
 			uv0.chatFlag = nil
 
@@ -1437,12 +1437,12 @@ function slot0.displayShipWord(slot0, slot1)
 	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
 		-- Nothing
 	elseif slot5 and not slot14 then
-		function slot15()
+		slot15 = function()
 			if uv0._currentVoice then
 				uv0._currentVoice:Stop(true)
 			end
 
-			function slot0()
+			slot0 = function()
 				slot0 = pg.CriMgr.GetInstance()
 
 				slot0:PlaySoundEffect_V3(uv0, function (slot0)
@@ -1501,7 +1501,7 @@ function slot0.displayShipWord(slot0, slot1)
 	end, SFX_MAIN)
 end
 
-function slot0.stopCurVoice(slot0)
+slot0.stopCurVoice = function(slot0)
 	if slot0._currentVoice then
 		slot0._currentVoice:Stop(true)
 	end
@@ -1513,7 +1513,7 @@ function slot0.stopCurVoice(slot0)
 	end
 end
 
-function slot0.startChatTimer(slot0)
+slot0.startChatTimer = function(slot0)
 	if slot0.chatFlag or slot0.exited then
 		return
 	end
@@ -1560,7 +1560,7 @@ function slot0.startChatTimer(slot0)
 	slot0.chatTimer:Start()
 end
 
-function slot0.initShipChat(slot0)
+slot0.initShipChat = function(slot0)
 	if slot0.contextData.isFromLogin then
 		slot0.contextData.isFromLogin = nil
 
@@ -1573,7 +1573,7 @@ function slot0.initShipChat(slot0)
 	end
 end
 
-function slot0.ShowAssistInfo(slot0, slot1, slot2)
+slot0.ShowAssistInfo = function(slot0, slot1, slot2)
 	slot3 = findTF(slot0._paintingTF, "live2d")
 	slot4 = findTF(slot0._paintingTF, "spinePainting")
 	slot5 = findTF(slot0._paintingBgTf, "spinePainting")
@@ -1688,7 +1688,7 @@ function slot0.ShowAssistInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.AssistantEventEffect(slot0, slot1)
+slot0.AssistantEventEffect = function(slot0, slot1)
 	if not slot1 and slot0.live2dChar and slot0.live2dChar.state == Live2D.STATE_INITED then
 		if not Input.mousePosition then
 			return
@@ -1730,11 +1730,11 @@ function slot0.AssistantEventEffect(slot0, slot1)
 	end
 end
 
-function slot0.tweenBG(slot0, slot1)
+slot0.tweenBG = function(slot0, slot1)
 	LeanTween.moveX(rtf(slot0._bg), slot1, uv0.EJECT_DURATION):setEase(LeanTweenType.easeInOutExpo)
 end
 
-function slot0.ejectGimmick(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.ejectGimmick = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	LeanTween.cancel(slot1.gameObject)
 	SetActive(slot1, true)
 
@@ -1762,7 +1762,7 @@ function slot0.ejectGimmick(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 end
 
-function slot0.concealGimmick(slot0, slot1, slot2, slot3)
+slot0.concealGimmick = function(slot0, slot1, slot2, slot3)
 	GetOrAddComponent(slot1, "CanvasGroup").blocksRaycasts = false
 
 	slot0:generateGimmickLean(slot1, slot2, duration):setOnComplete(System.Action(function ()
@@ -1770,7 +1770,7 @@ function slot0.concealGimmick(slot0, slot1, slot2, slot3)
 	end)):setEase(LeanTweenType.easeInOutExpo):setDelay(slot3 or 0)
 end
 
-function slot0.generateGimmickLean(slot0, slot1, slot2, slot3)
+slot0.generateGimmickLean = function(slot0, slot1, slot2, slot3)
 	slot3 = slot3 or uv0.EJECT_DURATION
 	slot4 = slot1:GetComponent("RectTransform").rect
 	slot5 = nil
@@ -1798,14 +1798,14 @@ function slot0.generateGimmickLean(slot0, slot1, slot2, slot3)
 	return slot5
 end
 
-function slot0.updatePlayerInfo(slot0, slot1)
+slot0.updatePlayerInfo = function(slot0, slot1)
 	slot0._player = slot1
 
 	slot0._resPanel:setResources(slot1)
 	slot0:setProfileInfo(slot1, slot0.ships)
 end
 
-function slot0.setProfileInfo(slot0, slot1, slot2)
+slot0.setProfileInfo = function(slot0, slot1, slot2)
 	setText(slot0._nameLabel, slot1.name)
 	setText(slot0._levelLabel, "LV." .. slot1.level)
 
@@ -1822,7 +1822,7 @@ function slot0.setProfileInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateBuffList(slot0, slot1)
+slot0.updateBuffList = function(slot0, slot1)
 	slot2 = UIItemList.New(slot0._buffList, slot0._buffTpl)
 
 	slot2:make(function (slot0, slot1, slot2)
@@ -1888,11 +1888,11 @@ function slot0.updateBuffList(slot0, slot1)
 	slot2:align(#slot1)
 end
 
-function slot0.setChangeBtnInteractable(slot0)
+slot0.setChangeBtnInteractable = function(slot0)
 	slot0._changeBtn:GetComponent(typeof(Button)).interactable = not slot0.paintingLoading and not slot0.bgLoading
 end
 
-function slot0.updateFlagShip(slot0, slot1)
+slot0.updateFlagShip = function(slot0, slot1)
 	if not slot0.live2dChar and slot0.flagShip then
 		retPaintingPrefab(slot0._paintingTF, slot0.flagShip:getPainting())
 	end
@@ -1978,11 +1978,11 @@ function slot0.updateFlagShip(slot0, slot1)
 	end
 end
 
-function slot0.setFlagShip(slot0, slot1)
+slot0.setFlagShip = function(slot0, slot1)
 	slot0.tempFlagShip = slot1
 end
 
-function slot0.notifyActivitySummary(slot0, slot1, slot2)
+slot0.notifyActivitySummary = function(slot0, slot1, slot2)
 	slot0._activitySummaryBtn = slot0:findTF("activityButton", slot0._ActivityBtns)
 
 	setActive(slot0._activitySummaryBtn, true)
@@ -2001,7 +2001,7 @@ function slot0.notifyActivitySummary(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.updateChat(slot0, slot1)
+slot0.updateChat = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -2058,7 +2058,7 @@ function slot0.updateChat(slot0, slot1)
 	end
 end
 
-function slot0.clearChat(slot0, slot1)
+slot0.clearChat = function(slot0, slot1)
 	childCount = slot0._chatList.childCount
 
 	for slot5 = 0, childCount - 1 do
@@ -2066,7 +2066,7 @@ function slot0.clearChat(slot0, slot1)
 	end
 end
 
-function slot0.updateBanner(slot0, slot1)
+slot0.updateBanner = function(slot0, slot1)
 	slot2 = slot0:findTF("eventPanel/mask/event", slot0._rightPanel):GetComponent("HScrollSnap")
 
 	slot2:Init()
@@ -2119,16 +2119,16 @@ function slot0.updateBanner(slot0, slot1)
 	slot0.bannerDots = slot5
 end
 
-function slot0.activeEffect(slot0, slot1)
+slot0.activeEffect = function(slot0, slot1)
 	setActive(slot0._paintingTF, slot1)
 	setActive(slot0._linkBtns, slot1)
 end
 
-function slot0.resetCommissionBtn(slot0)
+slot0.resetCommissionBtn = function(slot0)
 	LeanTween.moveX(slot0._commissionBtn, 0, 0.2)
 end
 
-function slot0.updateExSkinBtn(slot0, slot1)
+slot0.updateExSkinBtn = function(slot0, slot1)
 	setActive(slot0.exSkinBtn, #slot1 > 0)
 
 	if #slot1 > 0 then
@@ -2142,20 +2142,20 @@ function slot0.updateExSkinBtn(slot0, slot1)
 	slot0._buffText.localPosition = Vector3(#slot1 > 0 and 339 or 234, -90, slot0._buffList.localPosition.z)
 end
 
-function slot0.showExSkinWindow(slot0, slot1)
+slot0.showExSkinWindow = function(slot0, slot1)
 	slot0.skinExperienceDiplayPage:ExecuteAction("Show", slot1)
 end
 
-function slot0.showOverDueExSkins(slot0, slot1)
+slot0.showOverDueExSkins = function(slot0, slot1)
 	slot0.skinExpireDisplayPage:ExecuteAction("Show", slot1)
 end
 
-function slot0.resumePaitingState(slot0)
+slot0.resumePaitingState = function(slot0)
 	GetOrAddComponent(slot0._tf, typeof(CanvasGroup)).blocksRaycasts = true
 	GetOrAddComponent(slot0._paintingTF, typeof(CanvasGroup)).alpha = 1
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0._paintingTimer then
 		slot0._paintingTimer:Stop()
 
@@ -2286,7 +2286,7 @@ function slot0.willExit(slot0)
 	slot0.secondaryPage = nil
 end
 
-function slot0.sethideChatBtn(slot0)
+slot0.sethideChatBtn = function(slot0)
 	slot1 = slot0.hideChatFlag and slot0.hideChatFlag == 1
 
 	setActive(slot0._chatActBtn, slot1)
@@ -2300,11 +2300,11 @@ function slot0.sethideChatBtn(slot0)
 	slot0._chatBtn:GetComponent(typeof(Button)).enabled = not slot1
 end
 
-function slot0.showOverDueAttire(slot0, slot1)
+slot0.showOverDueAttire = function(slot0, slot1)
 	slot0.attireExpireDisplayPage:ExecuteAction("Show", slot1)
 end
 
-function slot0.loadChar(slot0, slot1)
+slot0.loadChar = function(slot0, slot1)
 	if not slot0.shipPrefab then
 		slot0.shipPrefab = slot1
 		slot2 = pg.UIMgr.GetInstance()
@@ -2326,7 +2326,7 @@ function slot0.loadChar(slot0, slot1)
 	end
 end
 
-function slot0.recycleSpineChar(slot0)
+slot0.recycleSpineChar = function(slot0)
 	if slot0.shipPrefab and slot0.shipModel then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.shipPrefab, slot0.shipModel)
 
@@ -2335,7 +2335,7 @@ function slot0.recycleSpineChar(slot0)
 	end
 end
 
-function slot0.checkRefundInfo(slot0, slot1)
+slot0.checkRefundInfo = function(slot0, slot1)
 	if getProxy(PlayerProxy):getRefundInfo() then
 		slot3 = getProxy(ServerProxy)
 		slot4 = true

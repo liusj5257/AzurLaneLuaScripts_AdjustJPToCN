@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 902051,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902051,
+	color = "yellow",
 	icon = 902050,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
+				number = 20,
 				target = "TargetSelf",
-				number = 20
+				attr = "airPower"
 			}
 		}
 	}

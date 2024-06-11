@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"항만\n\n<size=45>6 무게</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 403040,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "왔구나, 내 동생.",
 			bgm = "story-6",
+			actor = 403040,
+			nameColor = "#92fc63",
+			say = "왔구나, 내 동생.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "왜인지 모르겠지만, 언니도 사무실에 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "언니랑 같이 출동해야하는 중요 임무인가?",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "언니의 얼굴에 분노가 떠올랐다. 지휘관도 화가 치민 모습이다.",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "설마, 세이렌이 무슨 짓을?",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "만약 그렇다면, 내가......",
 			typewriter = {
 				speed = 0.05,
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "감히 언니와 지휘관을...... 용서할 수 없어.",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그러니 내가 싸울거야. 지금의 이 곳을 지키기 위해.",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "——이게 바로 내 소망. 난 단지......",
 			typewriter = {
 				speed = 0.05,
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403040,
 			stopbgm = true,
 			say = "뭣, 너 무슨 위험한 말을 하는거야. 놀래라.",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "하인 주제에 위아래도 구별 못하다니, 이걸 내가 어떻게 참아!",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,13 +303,13 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "에.............에!?",
 			bgm = "story-1",
+			actor = 403050,
+			nameColor = "#92fc63",
+			say = "에.............에!?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,9 +320,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "말을 듣고보니, 소파에 확실히 옷이 두 벌 놓여 있었다......",
 			typewriter = {
 				speed = 0.05,
@@ -334,9 +334,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "하지만, 방금은 그게 자신의 것이라고 전혀 생각하지 못했다.",
 			typewriter = {
 				speed = 0.05,
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "누굴 놀래키려면, 나처럼 기세로 몰아붙여야지, 기세로, 알았어?",
 			typewriter = {
 				speed = 0.05,
@@ -428,8 +428,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -454,9 +454,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "내가 해낼 수 있는 것도, 오직——",
 			typewriter = {
 				speed = 0.05,
@@ -484,9 +484,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "지휘관이 다가와 언니와 함께 내 손톱을 분리하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -498,9 +498,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "반면 나는 바보처럼, 제자리에 서서 어찌해야 할바를 몰랐다......",
 			typewriter = {
 				speed = 0.05,

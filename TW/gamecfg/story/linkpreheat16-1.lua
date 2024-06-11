@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT16-1",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT16-1",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
-			say = "啊哈哈哈哈哈！真有妳们的！还有异世界来的客人们，居然有本事把我逼到这种地步！",
 			bgm = "battle-boss-uta",
+			actor = 900021,
+			actorName = "净化者",
+			say = "啊哈哈哈哈哈！真有妳们的！还有异世界来的客人们，居然有本事把我逼到这种地步！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "是的……我们和那位大人一起，一路奋斗至此！",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "好呀，不错嘛！就这么不断变强吧！这样才更有研究的价值，我们才更能拿出干劲啊！",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "闲话就说到这——",
 			typewriter = {
 				speed = 0.05,
@@ -132,10 +132,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "妳都已经不能继续战斗了。而且，妳看",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "妳都已经不能继续战斗了。而且，妳看",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -168,8 +168,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "说什么鬼话……哈？镜面海域快要消失了？",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "啧！我说怎么突然一个人冒出来这么跳！这次是我被妳们算计了！",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "……不过，算了。反正数据也到手了",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "今天就算是妳们赢了吧！下次还会为妳们准备新的游玩舞台的，敬请期待吧！啊哈哈哈哈哈哈哈……",
 			typewriter = {
 				speed = 0.05,

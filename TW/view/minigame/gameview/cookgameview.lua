@@ -6,11 +6,11 @@ slot4 = 60
 slot6 = 0.1
 slot7 = 8
 slot8 = {
+	speed_num = 3,
+	char_path = "ui/minigameui/cookgameassets",
+	extend_time = 10,
 	time_up = 0.5,
 	cake_num = 5,
-	extend_time = 10,
-	char_path = "ui/minigameui/cookgameassets",
-	speed_num = 3,
 	path = "ui/minigameui/" .. "cookgameui_atlas"
 }
 slot0.CLICK_JUDGE_EVENT = "click judge event"
@@ -18,11 +18,11 @@ slot0.AC_CAKE_EVENT = "ac cake event"
 slot0.SERVE_EVENT = "serve event"
 slot0.EXTEND_EVENT = "extend event"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CookGameUI"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initEvent()
 	slot0:initData()
 	slot0:initUI()
@@ -32,7 +32,7 @@ function slot0.didEnter(slot0)
 	slot0:openMenuUI()
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	if not slot0.uiCam then
 		slot0.uiCam = GameObject.Find("UICamera"):GetComponent("Camera")
 	end
@@ -105,7 +105,7 @@ function slot0.initEvent(slot0)
 	end)
 end
 
-function slot0.showScore(slot0, slot1, slot2, slot3)
+slot0.showScore = function(slot0, slot1, slot2, slot3)
 	if slot1 == 0 then
 		return
 	end
@@ -149,10 +149,10 @@ function slot0.showScore(slot0, slot1, slot2, slot3)
 	table.insert(slot0.showScores, slot4)
 end
 
-function slot0.onEventHandle(slot0, slot1)
+slot0.onEventHandle = function(slot0, slot1)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	if (Application.targetFrameRate or 60) > 60 then
 		slot1 = 60
 	end
@@ -173,7 +173,7 @@ function slot0.initData(slot0)
 	slot0.selectPartner = false
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.backSceneTf = findTF(slot0._tf, "scene_background")
 	slot0.sceneContainer = findTF(slot0._tf, "sceneMask/sceneContainer")
 	slot0.sceneFrontContainer = findTF(slot0._tf, "sceneMask/sceneContainer/scene_front")
@@ -469,7 +469,7 @@ function slot0.initUI(slot0)
 	GetComponent(findTF(slot0.leaveUI, "ad/desc"), typeof(Image)):SetNativeSize()
 end
 
-function slot0.initGameUI(slot0)
+slot0.initGameUI = function(slot0)
 	slot0.gameUI = findTF(slot0._tf, "ui/gameUI")
 	slot0.showScoreTpl = findTF(slot0.sceneFrontContainer, "score")
 
@@ -488,7 +488,7 @@ function slot0.initGameUI(slot0)
 	slot0.otherScoreTf = findTF(slot0.gameUI, "top/otherScore")
 end
 
-function slot0.initController(slot0)
+slot0.initController = function(slot0)
 	slot0.judgesController = CookGameJudgesController.New(slot0.sceneContainer, uv0, slot0)
 
 	setActive(findTF(slot0.sceneContainer, "scene_background/charTpl"), false)
@@ -496,11 +496,11 @@ function slot0.initController(slot0)
 	slot0.charController = CookGameCharController.New(slot0.sceneContainer, uv0, slot0)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:AddDebugInput()
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if slot0.gameStop or slot0.settlementFlag then
 		return
 	end
@@ -510,7 +510,7 @@ function slot0.AddDebugInput(slot0)
 	end
 end
 
-function slot0.updateMenuUI(slot0)
+slot0.updateMenuUI = function(slot0)
 	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
@@ -550,7 +550,7 @@ function slot0.updateMenuUI(slot0)
 	slot0:CheckGet()
 end
 
-function slot0.CheckGet(slot0)
+slot0.CheckGet = function(slot0)
 	setActive(findTF(slot0.menuUI, "got"), false)
 
 	if slot0:getUltimate() and slot0:getUltimate() ~= 0 then
@@ -571,7 +571,7 @@ function slot0.CheckGet(slot0)
 	end
 end
 
-function slot0.openSelectUI(slot0)
+slot0.openSelectUI = function(slot0)
 	setActive(slot0.selectUI, true)
 
 	slot0.selectPlayer = true
@@ -580,7 +580,7 @@ function slot0.openSelectUI(slot0)
 	slot0:updateSelectUI()
 end
 
-function slot0.updateSelectUI(slot0)
+slot0.updateSelectUI = function(slot0)
 	if uv0.playerChar then
 		slot2 = findTF(slot0.selectUI, "ad/player/icon/img")
 		slot4 = slot0:getCharData(slot1, "pos")
@@ -618,7 +618,7 @@ function slot0.updateSelectUI(slot0)
 	end
 end
 
-function slot0.selectChar(slot0, slot1)
+slot0.selectChar = function(slot0, slot1)
 	slot0.selectCharId = slot1
 
 	for slot5 = 1, #slot0.selectChars do
@@ -668,7 +668,7 @@ function slot0.selectChar(slot0, slot1)
 	slot0:updateSelectUI()
 end
 
-function slot0.getCharDataById(slot0, slot1)
+slot0.getCharDataById = function(slot0, slot1)
 	for slot5, slot6 in pairs(CookGameConst.char_data) do
 		if slot6.id == slot1 then
 			return Clone(slot6)
@@ -678,7 +678,7 @@ function slot0.getCharDataById(slot0, slot1)
 	return nil
 end
 
-function slot0.getCharData(slot0, slot1, slot2)
+slot0.getCharData = function(slot0, slot1, slot2)
 	for slot6 = 1, #CookGameConst.char_data do
 		if CookGameConst.char_data[slot6].id == slot1 then
 			if not slot2 then
@@ -692,7 +692,7 @@ function slot0.getCharData(slot0, slot1, slot2)
 	return nil
 end
 
-function slot0.randomAIShip(slot0)
+slot0.randomAIShip = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(CookGameConst.char_battle_data) do
@@ -720,7 +720,7 @@ function slot0.randomAIShip(slot0)
 	uv0.enemyPet = CookGameConst.char_battle_data[uv0.enemy1Char].pet or CookGameConst.char_battle_data[uv0.enemy2Char].pet or nil
 end
 
-function slot0.openMenuUI(slot0)
+slot0.openMenuUI = function(slot0)
 	setActive(findTF(slot0.sceneContainer, "scene_front"), false)
 	setActive(findTF(slot0.sceneContainer, "scene_background"), false)
 	setActive(findTF(slot0.sceneContainer, "scene"), false)
@@ -730,7 +730,7 @@ function slot0.openMenuUI(slot0)
 	slot0:updateMenuUI()
 end
 
-function slot0.clearUI(slot0)
+slot0.clearUI = function(slot0)
 	setActive(slot0.sceneContainer, false)
 	setActive(slot0.settlementUI, false)
 	setActive(slot0.countUI, false)
@@ -739,7 +739,7 @@ function slot0.clearUI(slot0)
 	setActive(slot0.selectUI, false)
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	slot0.readyStartFlag = true
 
 	slot0:controllerReady()
@@ -750,7 +750,7 @@ function slot0.readyStart(slot0)
 	slot0.readyStartFlag = false
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	setActive(findTF(slot0.sceneContainer, "scene_front"), true)
 	setActive(findTF(slot0.sceneContainer, "scene_background"), true)
 	setActive(findTF(slot0.sceneContainer, "scene"), true)
@@ -786,7 +786,7 @@ function slot0.gameStart(slot0)
 		setActive(slot0.showScoresPool[slot4], false)
 	end
 
-	function slot1(slot0, slot1)
+	slot1 = function(slot0, slot1)
 		slot3 = uv0:getCharData(slot0, "pos")
 
 		GetSpriteFromAtlasAsync("ui/minigameui/" .. uv1, uv0:getCharData(slot0, "icon"), function (slot0)
@@ -804,35 +804,35 @@ function slot0.gameStart(slot0)
 	slot0:controllerStart()
 end
 
-function slot0.controllerReady(slot0)
+slot0.controllerReady = function(slot0)
 	GetComponent(findTF(slot0.sceneContainer, "scene"), typeof(CanvasGroup)).alpha = 0
 
 	setActive(findTF(slot0.sceneContainer, "scene"), true)
 	slot0.charController:readyStart()
 end
 
-function slot0.controllerStart(slot0)
+slot0.controllerStart = function(slot0)
 	slot0.judgesController:start()
 	slot0.charController:start()
 end
 
-function slot0.getGameTimes(slot0)
+slot0.getGameTimes = function(slot0)
 	return slot0:GetMGHubData().count
 end
 
-function slot0.getGameUsedTimes(slot0)
+slot0.getGameUsedTimes = function(slot0)
 	return slot0:GetMGHubData().usedtime
 end
 
-function slot0.getUltimate(slot0)
+slot0.getUltimate = function(slot0)
 	return slot0:GetMGHubData().ultimate
 end
 
-function slot0.getGameTotalTime(slot0)
+slot0.getGameTotalTime = function(slot0)
 	return slot0:GetMGHubData():getConfig("reward_need")
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 	if slot0.judgesController then
 		slot0.judgesController:changeSpeed(slot1)
 	end
@@ -842,11 +842,11 @@ function slot0.changeSpeed(slot0, slot1)
 	end
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0:gameStep()
 end
 
-function slot0.gameStep(slot0)
+slot0.gameStep = function(slot0)
 	if slot0.gameTime and slot0.gameTime > 3 and slot0.gameTime - Time.deltaTime < 3 and uv0.playerChar ~= 6 and uv0.playerChar ~= 6 then
 		slot0.judgesController:timeUp()
 	end
@@ -889,24 +889,24 @@ function slot0.gameStep(slot0)
 	end
 end
 
-function slot0.controllerStep(slot0, slot1)
+slot0.controllerStep = function(slot0, slot1)
 	slot0.judgesController:step(slot1)
 	slot0.charController:step(slot1)
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
 end
 
-function slot0.updateGameUI(slot0)
+slot0.updateGameUI = function(slot0)
 	setText(slot0.scoreTf, slot0.scoreNum)
 	setText(slot0.otherScoreTf, slot0.otherScoreNum)
 
@@ -917,7 +917,7 @@ function slot0.updateGameUI(slot0)
 	end
 end
 
-function slot0.addScore(slot0, slot1, slot2)
+slot0.addScore = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0.otherScoreNum = slot0.otherScoreNum + slot1
 
@@ -933,7 +933,7 @@ function slot0.addScore(slot0, slot1, slot2)
 	end
 end
 
-function slot0.onGameOver(slot0)
+slot0.onGameOver = function(slot0)
 	if slot0.settlementFlag then
 		return
 	end
@@ -953,7 +953,7 @@ function slot0.onGameOver(slot0)
 	end))
 end
 
-function slot0.showSettlement(slot0)
+slot0.showSettlement = function(slot0)
 	setActive(slot0.settlementUI, true)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
@@ -1029,7 +1029,7 @@ function slot0.showSettlement(slot0)
 	end
 end
 
-function slot0.OnApplicationPaused(slot0)
+slot0.OnApplicationPaused = function(slot0)
 	if not slot0.gameStartFlag then
 		return
 	end
@@ -1053,12 +1053,12 @@ function slot0.OnApplicationPaused(slot0)
 	slot0:stopGame()
 end
 
-function slot0.controllerClear(slot0)
+slot0.controllerClear = function(slot0)
 	slot0.judgesController:clear()
 	slot0.charController:clear()
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gameStop = false
 
 	setActive(slot0.leaveUI, false)
@@ -1066,14 +1066,14 @@ function slot0.resumeGame(slot0)
 	slot0:timerStart()
 end
 
-function slot0.stopGame(slot0)
+slot0.stopGame = function(slot0)
 	slot0.gameStop = true
 
 	slot0:timerStop()
 	slot0:changeSpeed(0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.readyStartFlag then
 		return
 	end
@@ -1094,7 +1094,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end
@@ -1115,7 +1115,7 @@ function slot0.willExit(slot0)
 	slot0.timer = nil
 end
 
-function slot0.destroyController(slot0)
+slot0.destroyController = function(slot0)
 end
 
 return slot0

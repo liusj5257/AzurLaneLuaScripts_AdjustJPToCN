@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE29",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_6",
-			bgm = "hunhe-battle",
 			say = "파나마 요새 서쪽? 동쪽?· 안개 속",
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_6",
+			dir = 1,
 			say = "안개 속의 연합 함대는 여전히 전투 중이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -36,9 +36,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_6",
+			dir = 1,
 			say = "얼마나 시간이 지났을까… 안개 속의 적은 끝을 모르고 계속 이쪽을 향해 몰려왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벙커힐",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "에식스",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "에식스",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "인트레피드",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "에식스",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "에식스",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "인트레피드",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "에식스",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벙커힐",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벙커힐",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "인트레피드",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벙커힐",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "인트레피드",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "인트레피드",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -276,15 +276,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 107110,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "음… 봤어? 세이렌은 이 안개에 영향을 받지 않는 것 같아.",
 			bgm = "hunhe-eagle",
+			actor = 107110,
+			nameColor = "#a9f548",
+			say = "음… 봤어? 세이렌은 이 안개에 영향을 받지 않는 것 같아.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -301,9 +301,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "하지만… 물 위의 세이렌들은 사방팔방을 포위하고 있잖아. 그런데 잠수함 부대는 한 방향에서 오고 있어!",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "설마 잠수함이 공격해오는 방향이 세이렌 지휘함이 있는 방향이라는 말인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "블루길이 얘기했잖아? 잠수함 무리에서 거대한 세이렌의 지휘함을 발견했다고 말이야. 그러니까 분명 잠수함이 공격해오는 곳이 적 지휘함이 있는 곳일 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "그러면 이제 남은 건 전술인데…",
 			typewriter = {
 				speed = 0.05,
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 107170,
 			dir = 1,
+			hideOther = true,
 			actorName = "벙커힐&에식스",
 			say = "돌아갈 시간은 없다. 정면에서 돌파하지.\n정면으로 돌파하죠!",
 			subActors = {
@@ -448,9 +448,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "풋… 다들 세상에 똑같은 에식스급은 없다고 했는데.",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -475,8 +475,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "하지만 적을 상대할 때는 아니구나!",
 			typewriter = {
 				speed = 0.05,
@@ -490,11 +490,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "다들 준비 단단히 하라고! 모처럼의 기회야. 신형 세이렌에게 에식스급의 힘을 보여주자!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

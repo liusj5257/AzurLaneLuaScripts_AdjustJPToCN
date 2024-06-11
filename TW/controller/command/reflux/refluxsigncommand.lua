@@ -1,6 +1,6 @@
 slot0 = class("RefluxSignCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0)
+slot0.execute = function(slot0)
 	slot1 = pg.ConnectionMgr.GetInstance()
 
 	slot1:Send(11753, {

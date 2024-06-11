@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"쥬르네 쉬르쿠프\n\n<size=45>오전 중의 쉬르쿠프</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "어라? 나 지휘관을 깨우러 갔을 텐데…… 역시 이건 꿈이구나~ ……좋아, 다시 자야지~",
 			typewriter = {
 				speed = 0.05,
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "온갖 방법을 동원해서, 간신히 쉬르쿠프를 깨우는 데 성공했다.",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "쉬르쿠프가 안아달라고 어필했다.",
 			typewriter = {
 				speed = 0.05,
@@ -302,9 +302,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "놀람을 감추지 못하는 쉬르쿠프였다.",
 			typewriter = {
 				speed = 0.05,
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "다시 일할 시간이다.",
 			typewriter = {
 				speed = 0.05,

@@ -1,114 +1,114 @@
 pg = pg or {}
 pg.furniture_init_data_template = {
 	[1002] = {
-		dir = 1,
+		id = 1002,
 		parent = 0,
 		y = 0,
-		id = 1002,
+		dir = 1,
 		x = 0,
 		child = {}
 	},
 	[1001] = {
-		dir = 1,
+		id = 1001,
 		parent = 0,
 		y = 0,
-		id = 1001,
+		dir = 1,
 		x = 0,
 		child = {}
 	},
 	[1111] = {
-		dir = 2,
+		id = 1111,
 		parent = 0,
 		y = 22,
-		id = 1111,
+		dir = 2,
 		x = 22,
 		child = {}
 	},
 	[1104] = {
-		dir = 1,
+		id = 1104,
 		parent = 0,
 		y = 12,
-		id = 1104,
+		dir = 1,
 		x = 16,
 		child = {}
 	},
 	[1301] = {
-		dir = 1,
+		id = 1301,
 		parent = 0,
 		y = 24,
-		id = 1301,
+		dir = 1,
 		x = 20,
 		child = {}
 	},
 	[1306] = {
-		dir = 1,
+		id = 1306,
 		parent = 0,
 		y = 24,
-		id = 1306,
+		dir = 1,
 		x = 16,
 		child = {}
 	},
 	[1107] = {
-		dir = 1,
+		id = 1107,
 		parent = 0,
 		y = 20,
-		id = 1107,
+		dir = 1,
 		x = 23,
 		child = {}
 	},
 	[1102] = {
-		dir = 1,
+		id = 1102,
 		parent = 0,
 		y = 12,
-		id = 1102,
+		dir = 1,
 		x = 17,
 		child = {}
 	},
 	[1103] = {
-		dir = 1,
+		id = 1103,
 		parent = 0,
 		y = 12,
-		id = 1103,
+		dir = 1,
 		x = 12,
 		child = {}
 	},
 	[1304] = {
-		dir = 1,
+		id = 1304,
 		parent = 0,
 		y = 20,
-		id = 1304,
+		dir = 1,
 		x = 24,
 		child = {}
 	},
 	[1302] = {
-		dir = 1,
+		id = 1302,
 		parent = 0,
 		y = 12,
-		id = 1302,
+		dir = 1,
 		x = 24,
 		child = {}
 	},
 	[1105] = {
-		dir = 1,
+		id = 1105,
 		parent = 0,
 		y = 15,
-		id = 1105,
+		dir = 1,
 		x = 22,
 		child = {}
 	},
 	[1106] = {
-		dir = 1,
+		id = 1106,
 		parent = 0,
 		y = 23,
-		id = 1106,
+		dir = 1,
 		x = 12,
 		child = {}
 	},
 	[1112] = {
-		dir = 1,
+		id = 1112,
 		parent = 0,
 		y = 13,
-		id = 1112,
+		dir = 1,
 		x = 22,
 		child = {}
 	},

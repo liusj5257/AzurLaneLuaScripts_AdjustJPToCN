@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "巴倫支海·皇家支援艦隊 稍早前",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "嗯…現在來看，還真是難以想像……",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_2",
+			dir = 1,
 			say = "突然，在空中出現的極光點亮了永夜，也照亮了皇家支援艦隊前進的方向。",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_2",
+			dir = 1,
 			say = "飄動的光帶伴隨著整片星空映射在波光粼粼的海面上，如同沐浴在星海仙境之中。",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "英仙座",
+			side = 2,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "吸血鬼",
+			side = 1,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -141,8 +141,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "英仙座",
+			side = 2,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "極圈附近的極光形態很多…既然是極夜期間，偶爾也會出現像現在這樣明亮又持久的極光吧。",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "…刀切番茄……",
 			typewriter = {
 				speed = 0.05,
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 202080,
 			dir = 1,
+			hideOther = true,
 			actorName = "謝菲爾德&吸血鬼",
 			say = "……欸？",
 			subActors = {

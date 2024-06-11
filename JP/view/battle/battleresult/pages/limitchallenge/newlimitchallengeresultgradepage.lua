@@ -1,6 +1,6 @@
 slot0 = class("NewLimitChallengeResultGradePage", import("..NewBattleResultGradePage"))
 
-function slot0.GetGetObjectives(slot0)
+slot0.GetGetObjectives = function(slot0)
 	slot2 = {}
 
 	if ys.Battle.BattleConst.BattleScore.C < slot0.contextData.statistics._battleScore then

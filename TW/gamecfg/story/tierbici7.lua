@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"融冰\n\n<size=45>七　溫度</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "在那之後，過去了一段時間。",
 			typewriter = {
@@ -27,16 +27,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			bgName = "bg_night",
-			say = "港區·郊外",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			bgName = "bg_night",
 			bgm = "story-2",
+			say = "港區·郊外",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,9 +57,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "在鐵必制的邀約下，來到了港區附近的某處高台",
 			typewriter = {
 				speed = 0.05,
@@ -99,9 +99,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "鐵必制用手指向了天空",
 			typewriter = {
 				speed = 0.05,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "肩膀上傳來了重量",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "鐵必制的表情，充滿了柔和。",
 			typewriter = {
 				speed = 0.05,

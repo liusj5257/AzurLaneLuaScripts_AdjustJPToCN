@@ -1,16 +1,16 @@
 return {
-	id = "JICHANG17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG17",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "모항・라이브 현장",
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
-			say = "모항・라이브 현장",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,10 +56,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그렇구나. 마안을 뜨기만 한다면 이런 무대를 완성할 수 있군.",
 			typewriter = {
 				speed = 0.05,
@@ -90,10 +90,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "빛나는 아이돌이 심연의 힘을 발산할 때, 그 눈은 열정의 빛으로 가득 차 보는 사람들을 매료시키지.",
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +108,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "하지만 아이돌로서의 나는 아직 그 힘을 깨우지 못해서 할 수 없는 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -171,15 +171,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "드디어 콘서트의… 콘서트라고 해도 문제 없겠지냥…? …계속 기대해달라냥! 이제 곧 클라이맥스다냥!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "정답을 이제 곧 공개한다냥——!",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

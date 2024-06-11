@@ -4,14 +4,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "2024异世界冒险 啾莱姆王召唤有翼啾莱姆",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 啾莱姆王召唤有翼啾莱姆",
+	init_effect = "",
+	id = 200823,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200823,
+	color = "yellow",
 	icon = 200823,
 	last_effect = "",
 	effect_list = {
@@ -31,9 +31,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200823,
 				time = 18,
-				target = "TargetSelf",
-				skill_id = 200823
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,27 +1,27 @@
 slot0 = class("MapBuilderBismarck", import(".MapBuilderShinano"))
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return MapBuilder.TYPEBISMARCK
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Bismarck_levels"
 end
 
-function slot0.GetAtlasPath(slot0)
+slot0.GetAtlasPath = function(slot0)
 	return "ui/" .. slot0:getUIName() .. "_atlas"
 end
 
 slot1 = {
 	[1720012.0] = "red",
 	[1720025.0] = "blue",
-	[1720001.0] = "green",
 	[1720026.0] = "red",
+	[1720001.0] = "green",
 	[1720002.0] = "yellow",
 	[1720011.0] = "blue"
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.tpl = slot0._tf:Find("level_tpl")
 
 	setActive(slot0.tpl, false)
@@ -40,7 +40,7 @@ function slot0.OnInit(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
+slot0.InitTransformMapBtn = function(slot0, slot1, slot2, slot3)
 	onButton(slot0.sceneParent, slot1, function ()
 		if uv0.sceneParent:isfrozen() then
 			return
@@ -69,7 +69,7 @@ function slot0.InitTransformMapBtn(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.PostUpdateMap(slot0, slot1)
+slot0.PostUpdateMap = function(slot0, slot1)
 	setActive(slot0.buttonUp, false)
 	setActive(slot0.effectUp, false)
 	setActive(slot0.buttonDown, false)
@@ -93,7 +93,7 @@ function slot0.PostUpdateMap(slot0, slot1)
 	end
 end
 
-function slot0.UpdateMapItem(slot0, slot1, slot2)
+slot0.UpdateMapItem = function(slot0, slot1, slot2)
 	slot3 = slot2:getConfigTable()
 
 	setAnchoredPosition(slot1, {
@@ -254,7 +254,7 @@ function slot0.UpdateMapItem(slot0, slot1, slot2)
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.loader:Clear()
 	uv0.super.OnDestroy(slot0)
 end

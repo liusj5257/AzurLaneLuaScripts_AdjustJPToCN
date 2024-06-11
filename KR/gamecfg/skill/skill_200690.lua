@@ -1,8 +1,8 @@
 return {
-	id = 200690,
-	name = "2023 闪乱联动 EX 终结技监听",
 	cd = 0,
+	name = "2023 闪乱联动 EX 终结技监听",
 	painting = 0,
+	id = 200690,
 	effect_list = {
 		{
 			type = "BattleSkillEditCustomWarning",

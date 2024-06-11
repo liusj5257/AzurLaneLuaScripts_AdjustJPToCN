@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-cccp3",
 			dir = 1,
 			say = "嘖…保持距離會受到光束攻擊，試圖近身又會被範圍衝擊擊退，真是棘手…！",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "那個光束…難道是閃電嗎…？這裡該不會是塞壬的秘密兵器試驗場吧！？",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "不行，現在花時間繞開的話，會被增援的塞壬艦隊再次包圍的",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "現在應該------",
 			typewriter = {
 				speed = 0.05,
@@ -112,10 +112,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 107030,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "高空投彈的精準度無法保證，面對塞壬精英單位將會消耗大量時間。不過也只能試試了嗎…",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			actor = 105140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-masazhusai",
 			dir = 1,
 			say = "指揮官，電力系統已經修復完畢，南達科他現在重新加入戰鬥序列",
+			bgm = "story-masazhusai",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,10 +188,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "高速飛行的炮彈，撕開了敵人的防禦網，隨著一連串劇烈的爆炸，海面上的塞壬艦船化成了燃燒著的殘骸",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "多麼樸實無華，枯燥且無味的動能打擊啊…",
 			typewriter = {
 				speed = 0.05,
@@ -257,10 +257,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "……………嗯？爆炸聲還沒停止？",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,8 +274,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "這、這是——！？",
 			typewriter = {
 				speed = 0.05,
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
-			side = 2,
 			say = "發生了什麼！？",
-			dir = 1,
-			blackBg = true,
-			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "不好，指揮艦發生了劇烈顛簸，腦袋…撞上扶手了",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "通訊器裡也亂成了一團……被擊中了嗎，發生了什麼事？！",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "意識在…逐漸…",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……………………",
 			typewriter = {

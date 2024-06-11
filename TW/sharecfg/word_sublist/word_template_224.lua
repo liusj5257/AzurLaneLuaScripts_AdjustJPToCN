@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_224 = {}
 slot1 = slot0.word_template_224
 
-function temp()
+temp = function()
 	uv0["㎏"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.L = {
 		I = {
 			H = {
@@ -51,7 +51,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["㎎"] = {
 		this = {
 			this = true
@@ -61,7 +61,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["㎜"] = {
 		this = {
 			this = true

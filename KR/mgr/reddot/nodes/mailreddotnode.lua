@@ -1,6 +1,6 @@
 slot0 = class("MailRedDotNode", import(".RedDotNode"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._mailMsg = findTF(slot1, "unread")
 	slot0._mailEmpty = findTF(slot1, "read")
 	slot0._attachmentHint = findTF(slot1, "attachmentLabel")
@@ -11,11 +11,11 @@ function slot0.Ctor(slot0, slot1)
 	})
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.gameObject.name
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	uv0.super.Init(slot0)
 
 	if getProxy(MailProxy).total >= 1000 then
@@ -25,7 +25,7 @@ function slot0.Init(slot0)
 	end
 end
 
-function slot0.SetData(slot0, slot1)
+slot0.SetData = function(slot0, slot1)
 	if slot1 > 0 then
 		SetActive(slot0._attachmentHint, true)
 		SetActive(slot0._mailEmpty, false)

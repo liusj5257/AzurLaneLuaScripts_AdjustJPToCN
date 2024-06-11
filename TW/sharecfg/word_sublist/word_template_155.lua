@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_155 = {}
 slot1 = slot0.word_template_155
 
-function temp()
+temp = function()
 	uv0["軍"] = {
 		["用"] = {
 			["步"] = {
@@ -145,7 +145,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["工"] = {
 		["字"] = {
 			["牌"] = {
@@ -299,7 +299,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["禿"] = {
 		["鷹"] = {
 			["氣"] = {
@@ -428,7 +428,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["代"] = {
 		["辦"] = {
 			["全"] = {

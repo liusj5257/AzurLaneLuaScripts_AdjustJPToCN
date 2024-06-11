@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "魔王軍の武器倉庫を制圧し、テンペスタ海賊団を見送った後、一行はその勢いを乗り前進を続けた。",
 			bgm = "story-mmorpg",
+			say = "魔王軍の武器倉庫を制圧し、テンペスタ海賊団を見送った後、一行はその勢いを乗り前進を続けた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "やがて、魔王城に至る最後の障害である魔王軍の補給拠点にたどり着いた。",
 			typewriter = {
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "魔王が現れる前は王国で二番目に大きい都市だったとも言われていましたが…",
 			painting = {
@@ -97,9 +97,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "見習いプリースト",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -113,17 +113,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.25,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = false,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "んんん～ゆーちゃんに乗って空を翔ける感じ、本当に最高！",
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "上空から見渡す景色はやっぱり素晴らしいね！",
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "コホン。指揮官、重大な発見があったよ！",
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "補給拠点に駐留している魔物の大軍が、そこから逃げ出してるんだ！",
@@ -276,27 +276,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "魔王補給拠点・ロードの間",
 			bgm = "story-oldcastle-carnival",
+			say = "魔王補給拠点・ロードの間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "ドンッ————",
 			typewriter = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "おーい大魔族、いるかー？！勇者撫順がお前を倒しに来たぞ！",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あれ、指揮官...誰もいない？",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そういえば来る途中、全然妨害もなかったね。ここの大魔族も逃げたのかしら…",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
-			bgName = "star_level_bg_156",
+			oldPhoto = true,
 			factiontag = "魔女アイドル",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -459,17 +459,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -577,8 +577,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "魔女アイドル",
 			dir = 1,
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "魔女アイドル",
 			dir = 1,
@@ -675,8 +675,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "魔女アイドル",
 			dir = 1,
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "魔女アイドル",
 			dir = 1,
@@ -735,9 +735,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "プリースト",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -751,17 +751,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "むぅ…時勢をよく分かっている魔族らしい",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"好きを伝えよう！\n\n<size=45>三　小さな傷</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ワークライフバランスに気をつけよう、という彼女の提案により、スケジュールに休憩のコマがいくつか強制的に組み込まれた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ワークライフバランスに気をつけよう、という彼女の提案により、スケジュールに休憩のコマがいくつか強制的に組み込まれた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,10 +53,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はい、ここまでです。そろそろ休憩してください",
 			typewriter = {
 				speed = 0.05,
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "仕事を継続しようと何度も足掻いてみたが、有言実行のジャーヴィスの「強制措置」によって全部失敗に終わった。",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "仕方なく書類をまとめて、起きようとした瞬間――",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "指に鋭い痛みが走った。",
 			typewriter = {
 				speed = 0.05,
@@ -118,10 +118,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…じっとしてて。手をこちらに、すぐ応急処置をしてあげます",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,10 +146,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まず消毒して…それから絆創膏を…はい終わり。救急箱を持ってきていてよかったです",
 			typewriter = {
 				speed = 0.05,
@@ -164,10 +164,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "よし…これで大丈夫でしょう",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大の大人が紙で指切っちゃうなんて不注意ですよ？",
 			typewriter = {
 				speed = 0.05,
@@ -200,10 +200,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "紙は柔らかくても、その縁は鋭いですから",
 			typewriter = {
 				speed = 0.05,
@@ -218,10 +218,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "消毒で痛くしたくなければ、今度はちゃんと気をつけてください",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
 			say = "その言葉から一抹の期待が滲み出ているように感じたのは、気のせいだろうか…？",
 			typewriter = {
 				speed = 0.05,

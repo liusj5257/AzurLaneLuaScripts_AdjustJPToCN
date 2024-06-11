@@ -19,8 +19,8 @@ return {
 			style = {
 				text = "點擊可切換單隊連戰與多隊出擊狀態",
 				mode = 1,
-				posY = -136.5,
 				dir = 1,
+				posY = -136.5,
 				posX = 118.24,
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/BossRushFleetSelectUI(Clone)/Panel/Info/Modes"

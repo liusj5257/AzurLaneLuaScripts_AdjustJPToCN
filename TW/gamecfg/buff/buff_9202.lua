@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "龙宫机关-土：我方占领 TAG",
 	time = 3,
-	color = "yellow",
+	name = "龙宫机关-土：我方占领 TAG",
+	init_effect = "",
+	id = 9202,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9202,
+	color = "yellow",
 	icon = 9202,
 	last_effect = "",
 	effect_list = {

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "古立特联动 千濑支援弹幕LV1",
 	time = 5,
-	color = "yellow",
+	name = "古立特联动 千濑支援弹幕LV1",
+	init_effect = "",
+	id = 9443,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9443,
+	color = "yellow",
 	icon = 9443,
 	last_effect = "",
 	effect_list = {

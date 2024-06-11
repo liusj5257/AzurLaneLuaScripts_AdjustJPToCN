@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "莱茵演习",
 	time = 0,
+	name = "莱茵演习",
+	init_effect = "",
 	picture = "",
 	desc = "序章俾斯麦锁定胡德",
 	stack = 1,

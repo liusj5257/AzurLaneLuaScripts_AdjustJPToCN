@@ -1,22 +1,22 @@
 slot0 = class("GuildAssaultFleet", import("..BaseVO"))
 
-function slot0.GetRealId(slot0)
+slot0.GetRealId = function(slot0)
 	return tonumber(string.split(tostring(slot0), "_")[1])
 end
 
-function slot0.GetUserId(slot0)
+slot0.GetUserId = function(slot0)
 	return tonumber(string.split(tostring(slot0), "_")[2])
 end
 
-function slot0.GetVirtualId(slot0, slot1)
+slot0.GetVirtualId = function(slot0, slot1)
 	return slot1 .. "_" .. slot0
 end
 
-function slot0.IsSameUserId(slot0, slot1)
+slot0.IsSameUserId = function(slot0, slot1)
 	return uv0.GetUserId(slot0) == uv0.GetUserId(slot1)
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot2 = {}
 	slot3 = ipairs
 	slot4 = slot1.ships or {}
@@ -28,7 +28,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:InitShips(slot1.user_id, slot2)
 end
 
-function slot0.InitShips(slot0, slot1, slot2)
+slot0.InitShips = function(slot0, slot1, slot2)
 	slot0.ships = {}
 	slot0.userId = slot1
 
@@ -38,13 +38,13 @@ function slot0.InitShips(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClearAllRecommandShip(slot0)
+slot0.ClearAllRecommandShip = function(slot0)
 	for slot4, slot5 in ipairs(slot0.ships) do
 		slot0:MarkShipBeRecommanded(slot5, false)
 	end
 end
 
-function slot0.SetRecommendList(slot0, slot1)
+slot0.SetRecommendList = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.ships) do
 		slot7 = uv0.GetRealId(slot6.id)
 
@@ -56,11 +56,11 @@ function slot0.SetRecommendList(slot0, slot1)
 	end
 end
 
-function slot0.MarkShipBeRecommanded(slot0, slot1, slot2)
+slot0.MarkShipBeRecommanded = function(slot0, slot1, slot2)
 	slot1.guildRecommand = slot2
 end
 
-function slot0.SetShipBeRecommanded(slot0, slot1, slot2)
+slot0.SetShipBeRecommanded = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.ships) do
 		if slot1 == uv0.GetRealId(slot7.id) then
 			slot0:MarkShipBeRecommanded(slot7, slot2)
@@ -70,7 +70,7 @@ function slot0.SetShipBeRecommanded(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetStrongestShip(slot0, slot1)
+slot0.GetStrongestShip = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.ships) do
@@ -86,15 +86,15 @@ function slot0.GetStrongestShip(slot0, slot1)
 	return slot2[1]
 end
 
-function slot0.GetShipList(slot0)
+slot0.GetShipList = function(slot0)
 	return slot0.ships
 end
 
-function slot0.IsEmpty(slot0)
+slot0.IsEmpty = function(slot0)
 	return table.getCount(slot0.ships) == 0
 end
 
-function slot0.ExistShip(slot0, slot1)
+slot0.ExistShip = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.ships) do
 		if slot1 == slot6.id then
 			return true
@@ -104,7 +104,7 @@ function slot0.ExistShip(slot0, slot1)
 	return false
 end
 
-function slot0.GetShipIds(slot0)
+slot0.GetShipIds = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.ships) do
@@ -114,7 +114,7 @@ function slot0.GetShipIds(slot0)
 	return slot1
 end
 
-function slot0.GetShipById(slot0, slot1)
+slot0.GetShipById = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.ships) do
 		if slot6.id == slot1 then
 			return slot6
@@ -122,7 +122,7 @@ function slot0.GetShipById(slot0, slot1)
 	end
 end
 
-function slot0.GetShipByRealId(slot0, slot1, slot2)
+slot0.GetShipByRealId = function(slot0, slot1, slot2)
 	slot3 = uv0.GetVirtualId(slot1, slot2)
 
 	for slot7, slot8 in pairs(slot0.ships) do
@@ -132,16 +132,16 @@ function slot0.GetShipByRealId(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetShipByPos(slot0, slot1)
+slot0.GetShipByPos = function(slot0, slot1)
 	return slot0.ships[slot1]
 end
 
-function slot0.InsertBayShip(slot0, slot1, slot2)
+slot0.InsertBayShip = function(slot0, slot1, slot2)
 	slot2.id = uv0.GetVirtualId(slot0.userId, slot2.id)
 	slot0.ships[slot1] = slot2
 end
 
-function slot0.AnyShipChanged(slot0, slot1)
+slot0.AnyShipChanged = function(slot0, slot1)
 	for slot5 = 1, 2 do
 		if slot0:PositionIsChanged(slot1, slot5) then
 			return true
@@ -151,8 +151,8 @@ function slot0.AnyShipChanged(slot0, slot1)
 	return false
 end
 
-function slot0.PositionIsChanged(slot0, slot1, slot2)
-	function slot3(slot0, slot1)
+slot0.PositionIsChanged = function(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1)
 		if slot0 and slot1 and slot0.id == slot1.id then
 			for slot5, slot6 in ipairs(slot0.equipments) do
 				if (slot6 and 1 or 0) ~= (slot1.equipments[slot5] and 1 or 0) or slot8 == slot9 and slot8 == 1 and slot6.id ~= slot7.id then

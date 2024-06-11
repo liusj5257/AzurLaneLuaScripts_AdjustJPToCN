@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU6",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
-			stopbgm = true,
-			say = "Basilica Blanc - Sacrament Exhibit",
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			say = "Basilica Blanc - Sacrament Exhibit",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,17 +31,17 @@ return {
 			bgName = "bg_firedust_3",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hero",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "Have no fear, for Hero's here!",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hero",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "Come on out, you mooks! I'm gonna farm you for drops!",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Scylla",
+			side = 2,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "It appears there are unfortunately no mooks to farm in here, Hero.",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Scylla",
+			side = 2,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "However, I would gladly serve as a boss encounter. That is, if you're ready to suffer a humiliating defeat at the hands of a maid. Heehee♥",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hero",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "W-wooow! Those are fighting words, you cheeky sidekick!",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hero",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "You'll pay for your lip by running a hundred fetch quests after I've mopped the floor with you!",
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Scylla",
+			side = 2,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "Fetch quests as punishment, you say? Fetching things is simply part of a maid's job.",
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hero",
+			side = 1,
 			bgName = "bg_firedust_3",
 			nameColor = "#A9F548FF",
 			say = "Fine, then I'll make you grind gold for my–",
@@ -151,10 +151,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*clap clap clap*",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nice improv, Scylla. You're a good foil.",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Forgive me, Lady Implacable. I thought it would be amusing and I acted without thinking.",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Don't apologise. I needed a gag to help lighten the mood.",
 			painting = {
 				alpha = 0.3,
@@ -223,10 +223,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Anyway... Where did you get that bow, Hero?",
 			painting = {
 				alpha = 0.3,
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is it legendary? Enchanted? Perhaps taken from one of the display cases?",
 			painting = {
 				alpha = 0.3,
@@ -255,12 +255,12 @@ return {
 			}
 		},
 		{
-			actor = 201360,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I didn't take anything! It was just lying on the floor next to one of those four empty cases!",
 			painting = {
 				alpha = 0.3,
@@ -275,10 +275,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201360,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Also, there's a placard on this case. \"When the Seal breaks, the horns of Judgment sound.\" Sounds like something pretentious York would say.",
 			painting = {
 				alpha = 0.3,
@@ -293,10 +293,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Four cases, a bow, and \"horns of Judgment\"... Hmm...",
 			painting = {
 				alpha = 0.3,
@@ -311,10 +311,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are you on to something, Lady Implacable?",
 			painting = {
 				alpha = 0.3,
@@ -329,10 +329,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nothing concrete, but I'm starting to figure out why this place looks so dreary.",
 			painting = {
 				alpha = 0.3,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "WHOOSH...",
 			typewriter = {
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Just then, a shadowy figure appeared in the corridor on the far opposite end behind Implacable.",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "Lady Implacable! Look out!",
 			painting = {
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Scylla immediately deployed her rigging and unleashed a machine gun burst of lead arrows at the threat.",
 			typewriter = {
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "The figure tried to no avail to block the volley using its poleaxe, and was swiftly dispatched.",
 			typewriter = {
@@ -481,8 +481,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "A random encounter! My bow will take care of–",
 			painting = {
@@ -504,8 +504,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Scylla already dealt with them.",
 			painting = {
@@ -527,8 +527,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "What?! Hey! How dare you steal my EXP!",
 			painting = {
@@ -541,8 +541,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -554,8 +554,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "Do forgive me. I promise it won't happen again~",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Heh! Damn right it won't☆",
 			painting = {
@@ -585,8 +585,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -597,9 +597,9 @@ return {
 		{
 			actor = 207070,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "Was that... Vichya's La Galissonnière?",
 			painting = {
 				alpha = 0.3,
@@ -614,8 +614,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "Specifically, a Pawn of hers. Easily defeated.",
 			painting = {
@@ -631,8 +631,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Vichya Pawns appearing inside a Basilica that they held... That certainly is cause for concern, isn't it?",
 			painting = {
@@ -645,8 +645,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "*RUMBLE*––",
 			typewriter = {
@@ -663,8 +663,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "What the hell? Is that an earthquake?",
 			painting = {
@@ -677,8 +677,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -690,8 +690,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "If only.",
 			painting = {
@@ -707,8 +707,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "I fear it's exactly what it sounds like, Lady Implacable.",
 			painting = {
@@ -724,8 +724,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "An entire army of Pawns is quickly closing in on us!",
 			painting = {
@@ -741,8 +741,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Prepare for battle! We will not fall here!",
 			painting = {

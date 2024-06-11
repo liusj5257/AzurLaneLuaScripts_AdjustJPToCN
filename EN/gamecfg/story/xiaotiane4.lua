@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Sea Star on Shore\n\n<size=45>4: Caught Red-Handed?</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 201101,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "(Gulps) Th-This is the place...",
 			bgm = "story-1",
+			actor = 201101,
+			nameColor = "#a9f548",
+			say = "(Gulps) Th-This is the place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201080,
+			say = "In the end...we still ended up here...",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "In the end...we still ended up here...",
+			actor = 201080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,9 +119,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Creeaak--(Door Opens)",
 			typewriter = {
 				speed = 0.05,
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "Those...those are my clothes...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Those...those are my clothes...",
+			actor = 201101,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -168,8 +168,8 @@ return {
 			actor = 201080,
 			side = 0,
 			bgName = "bg_story_school",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Huh?!",
 			dialogShake = {
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "WHA?!?!",
 			dialogShake = {
 				speed = 0.09,

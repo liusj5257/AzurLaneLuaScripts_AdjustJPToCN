@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Knights & Awards\n\n<size=45>Chapter 5 - A Tough Team</size>",
@@ -17,27 +17,27 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Cleveland's team went on winning match after match until it was time for the final round.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "Cleveland's team went on winning match after match until it was time for the final round.",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102100,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102100,
+			nameColor = "#a9f548",
 			say = "Next, we're up against... Wait, seriously?! Sendai, Agano, and Myoukou?!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					number = 1
@@ -53,12 +53,12 @@ return {
 			}
 		},
 		{
-			actor = 102140,
+			say = "Hmph, whatever. We'll mop the floor with them. Right, sis?",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Hmph, whatever. We'll mop the floor with them. Right, sis?",
+			actor = 102140,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -89,18 +89,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "Denver & Columbia",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Hooyah!",
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					number = 1
@@ -126,16 +126,16 @@ return {
 			}
 		},
 		{
-			actor = 102140,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
-			say = "You're pretty tough after all... Guess that's why you're the flagship of Destroyer Division 3!",
 			bgm = "story-4",
+			actor = 102140,
+			nameColor = "#a9f548",
+			say = "You're pretty tough after all... Guess that's why you're the flagship of Destroyer Division 3!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -160,13 +160,13 @@ return {
 			}
 		},
 		{
-			actor = 302120,
+			say = "Not bad, you've managed to keep up with me... But this ain't gonna be a repeat of last time we met!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			actorName = "{namecode:38}",
+			actor = 302120,
 			dir = 1,
+			actorName = "{namecode:38}",
 			nameColor = "#a9f548",
-			say = "Not bad, you've managed to keep up with me... But this ain't gonna be a repeat of last time we met!",
 			effects = {
 				{
 					active = true,
@@ -203,13 +203,13 @@ return {
 			}
 		},
 		{
-			actor = 303070,
+			say = "Come at me! I've trained long and hard for this, and I'm not planning on losing to you lot!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303070,
 			actorName = "{namecode:63}",
-			say = "Come at me! I've trained long and hard for this, and I'm not planning on losing to you lot!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -240,13 +240,13 @@ return {
 			}
 		},
 		{
-			actor = 302200,
+			say = "Are you displeased with my choice of tactics? *Giggle*, then say it to my face~",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302200,
 			actorName = "{namecode:49}",
-			say = "Are you displeased with my choice of tactics? *Giggle*, then say it to my face~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Cleveland's team was struggling with the strategy the opposing team was employing.",
 			effects = {
 				{
@@ -277,15 +277,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Dammit... I'm sorry, guys... It's all my fault for being such a poor leader...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

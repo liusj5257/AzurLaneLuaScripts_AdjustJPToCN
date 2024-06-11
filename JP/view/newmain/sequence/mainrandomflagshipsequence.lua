@@ -1,6 +1,6 @@
 slot0 = class("MainRandomFlagShipSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	if #getProxy(SettingsProxy):GetRandomFlagShipList() > 0 and _.all(slot2, function (slot0)
 		return getProxy(BayProxy):RawGetShipById(slot0) == nil
 	end) then
@@ -25,7 +25,7 @@ function slot0.Execute(slot0, slot1)
 	slot1()
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot3 = GetZeroTime() - 18000 - 39600
 	slot4 = slot3 - 46800
 
@@ -44,7 +44,7 @@ function slot1(slot0)
 	return false
 end
 
-function slot0.ShouldRandom(slot0)
+slot0.ShouldRandom = function(slot0)
 	if not getProxy(SettingsProxy):IsOpenRandomFlagShip() then
 		return false
 	end
@@ -52,7 +52,7 @@ function slot0.ShouldRandom(slot0)
 	return uv0(getProxy(SettingsProxy):GetPrevRandomFlagShipTime())
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	if slot1:isActivityNpc() then
 		return false
 	end
@@ -68,8 +68,8 @@ function slot2(slot0, slot1)
 	return true
 end
 
-function slot3(slot0, slot1)
-	function slot2(slot0, slot1, slot2)
+slot3 = function(slot0, slot1)
+	slot2 = function(slot0, slot1, slot2)
 		if not slot0[slot2.groupId] then
 			slot0[slot2.groupId] = {}
 
@@ -109,7 +109,7 @@ function slot3(slot0, slot1)
 	return slot4, slot5, slot6, slot7
 end
 
-function slot4(slot0)
+slot4 = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0) do
@@ -121,14 +121,14 @@ function slot4(slot0)
 	return slot1
 end
 
-function slot0.Random(slot0)
+slot0.Random = function(slot0)
 	slot3, slot4 = PlayerVitaeShipsPage.GetSlotMaxCnt()
 	slot6, slot7, slot8, slot9 = uv1(getProxy(PlayerProxy):getRawData():GetRandomFlagShipMode(), uv0(getProxy(SettingsProxy):GetRandomFlagShipList()))
 
 	return slot0:RandomShips(slot4, slot6, slot7, slot8, slot9)
 end
 
-function slot0.RandomShips(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.RandomShips = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = {}
 
 	for slot10 = 1, slot1 do
@@ -154,7 +154,7 @@ function slot0.RandomShips(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot6
 end
 
-function slot0.SynToCache(slot0, slot1, slot2)
+slot0.SynToCache = function(slot0, slot1, slot2)
 	getProxy(SettingsProxy):UpdateRandomFlagShipList(slot1)
 	getProxy(SettingsProxy):SetPrevRandomFlagShipTime(slot2)
 end

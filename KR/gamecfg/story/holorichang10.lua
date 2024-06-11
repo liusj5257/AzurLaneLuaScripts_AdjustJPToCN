@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLORICHANG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "holo-sss-inst",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "리더, 바로 이 장치예요! 사용하는 방법은 알고 계실텐데요.",
-			bgm = "holo-sss-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "하↑하하하, 하↑하하하! 숱한 어려움을 뚫고 이곳에 도착한 지휘관이여. 여기까지 올 수 있다니, 반역의 마음을 품고 있는 사람이란 말이겠구나. ",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "봐라! 이렇게 광활한 TNT의 바다를! 우리가 힘을 합치면 hololive 본사뿐 아니라 지휘실도…",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "TNT? 지휘실? 이게 무슨 말이지?",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "스------ 그게… 윽…… 토키노 소라 선배… 이… 이건……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 40,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "무언가 불과 관련된 위험한 말을 했던 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "한 번 더 하는 거야?!",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "뭐~ 모두가 다 모였으니 어서 출발하자. 새로운 모험이 우리를 기다리고 있어. 후부키, 출발할 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "자~ 이렇게 하자. 지휘관, 벽람항로든 hololive든 앞으로도 잘 부탁해!",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgm = "holo-fbk",
 			sequence = {
 				{
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=60>【Special Thanks】</size>",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=60>【Special Thanks】</size>",

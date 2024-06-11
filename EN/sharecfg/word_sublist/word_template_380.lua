@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_380 = {}
 slot1 = slot0.word_template_380
 
-function temp()
+temp = function()
 	uv0["柠"] = {
 		["檬"] = {
 			A = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["液"] = {
 		["液"] = {
 			["酱"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["泑"] = {
 		["女"] = {
 			["网"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["囗"] = {
 		["交"] = {
 			["深"] = {
@@ -57,7 +57,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宅"] = {
 		["男"] = {
 			["妓"] = {
@@ -71,7 +71,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["涩"] = {
 		["社"] = {
 			["区"] = {
@@ -90,7 +90,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ｇ"] = {
 		["八"] = {
 			this = true

@@ -1,7 +1,7 @@
 slot0 = class("WorldShopMediator", import("view.base.ContextMediator"))
 slot0.BUY_ITEM = "WorldShopMediator:BUY_ITEM"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.BUY_ITEM, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.SHOPPING, {
 			id = slot1,
@@ -11,14 +11,14 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getRawData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.SHOPPING_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

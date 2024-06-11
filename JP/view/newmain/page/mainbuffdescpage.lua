@@ -1,21 +1,21 @@
-slot0 = class("MainBuffDescPage", import("...base.BaseSubView"))
+slot0 = class("MainBuffDescPage", import("view.base.BaseSubView"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0, slot1, slot2, slot3)
 	slot0:bind(NewMainScene.ON_BUFF_DESC, function (slot0, slot1, slot2)
 		uv0:ExecuteAction("Show", slot1, slot2)
 	end)
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MainUIBuffDescWindow"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.descTxt = slot0:findTF("Text"):GetComponent(typeof(Text))
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 	slot0:RemoveDescTimer()
 	slot0:AddCloseTimer()
@@ -29,7 +29,7 @@ function slot0.Show(slot0, slot1, slot2)
 	})
 end
 
-function slot0.UpdateDesc(slot0, slot1)
+slot0.UpdateDesc = function(slot0, slot1)
 	if slot1:getConfig("max_time") <= 0 then
 		slot0.descTxt.text = slot1:getConfig("desc")
 
@@ -44,7 +44,7 @@ function slot0.UpdateDesc(slot0, slot1)
 	slot0.descTimer.func()
 end
 
-function slot0.UpdateDescPreSce(slot0, slot1)
+slot0.UpdateDescPreSce = function(slot0, slot1)
 	slot2 = slot1:getConfig("desc")
 
 	if slot1.timestamp - pg.TimeMgr:GetInstance():GetServerTime() > 0 then
@@ -54,7 +54,7 @@ function slot0.UpdateDescPreSce(slot0, slot1)
 	end
 end
 
-function slot0.RemoveDescTimer(slot0)
+slot0.RemoveDescTimer = function(slot0)
 	if slot0.descTimer then
 		slot0.descTimer:Stop()
 
@@ -62,7 +62,7 @@ function slot0.RemoveDescTimer(slot0)
 	end
 end
 
-function slot0.AddCloseTimer(slot0)
+slot0.AddCloseTimer = function(slot0)
 	slot0:RemoveCloseTimer()
 
 	slot0.timer = Timer.New(function ()
@@ -72,7 +72,7 @@ function slot0.AddCloseTimer(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveCloseTimer(slot0)
+slot0.RemoveCloseTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -80,20 +80,20 @@ function slot0.RemoveCloseTimer(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 	slot0:RemoveCloseTimer()
 	slot0:RemoveDescTimer()
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	if slot0:GetLoaded() and slot0:isShowing() then
 		slot0:Hide()
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveCloseTimer()
 	slot0:RemoveDescTimer()
 end

@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "你需要啟動四個機關。",
 			typewriter = {
 				speed = 0.05,

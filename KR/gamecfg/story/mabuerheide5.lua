@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"태양을 닮은 소녀\n\n<size=45>5. 장난이에요</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_106",
-			say = "마블헤드를 따라서 해안가에 도착했다——",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "마블헤드를 따라서 해안가에 도착했다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "지휘관님, 보세요! 엄청 예쁜 조개껍데기가 있어요.",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "사실 이 해변으로 떠밀려오는 조개껍데기 중에는 가끔 핑크색이 있대요——",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "마블헤드가 건네준 분홍색 소라를 보자 귀에 가져다 대고 싶은 충동이 일어났다...",
@@ -128,8 +128,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "뭐하는 건가요, 지휘관님—?",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "마블헤드는 갑자기 과학 지식을 쏟아내기 시작했다...",
@@ -192,8 +192,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "——음, 그런 느낌이네요. 핑크 노이즈는 프랙탈 형태의 파장을 지니고 있... 아!",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,8 +219,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "............",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "......장, 장난이에요?",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "소라를 쥔 마블헤드는 수줍은 듯이 혀를 내밀었다.",
@@ -268,8 +268,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "그, 그러고 보니 이 소라요. 그라데이션이 제 머리색과 똑같네요.",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "말 돌리는 거 아니거든요! 이건 제 머리색과 똑같은 소라껍데기잖아요?",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "그러니까 선물을 받은 지휘관님도 이 소라껍데기를 저처럼 소중히 여겨주셔야 해요.",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "마블헤드는 소라를 두 손으로 조심스럽게 건넸다——",
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,

@@ -1,15 +1,15 @@
 return {
-	id = "W2034",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2034",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "スキャンが完了しました。セイレーンが撃破されたことにより、エリア封鎖が解除されました",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"혼돈의 핼러윈 나이트\n\n<size=45>5. 혼돈의 축제</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_119",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_119",
 			bgm = "story-1",
 			actor = 102162,
 			nameColor = "#a9f548",
 			say = "으흠, 아주 좋아. 핼러윈 나이트에 대한 모두의 열정이 느껴졌어! 오늘 특별 이벤트를 순조롭게 개최할 수 있었던 건 다 모두의 협력 덕분이야——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 102162,
 			dir = 1,
+			actor = 102162,
 			nameColor = "#a9f548",
 			say = "음... 쓸데없는 말은 그만할게. 다들 신나게 즐겨! 호박파이나 맛있는 음식도 마음껏 먹고~ 장난은 적당히 쳐!",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 102162,
 			dir = 1,
+			actor = 102162,
 			nameColor = "#a9f548",
 			say = "사탕 받고 싶거나 사탕 주고 싶은데 미처 준비 못한 사람은 에든버러한테 가서 받아~",
 			typewriter = {
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "오늘 사탕 담당은 바로 나 에든버러야~ 헤헷~ 다들 나한테 사탕 받으러 와~",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모두",
+			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "앗——!",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 101421,
 			dir = 1,
+			actor = 101421,
 			nameColor = "#a9f548",
 			say = "그렇게 사탕을 받고 싶은 건 아니지만, 그래도... treat or trick",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "좋아, 사탕 줄게~ 헤헷, 아까는 수고 많았어, 스몰리~",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301411,
+			nameColor = "#a9f548",
 			say = "폴짝~ 폴짝~ treat or trick! 미카즈키한테 붕어빵 줄 수 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "아하하... 아쉽지만 나한테는 사탕밖에 없는 걸, 여기 줄게~",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "네, 반응을 보니까. 오늘 변장을 제대로 한 것 같군요.",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "음... 꼭 내가 진 것 같아... 반박할 말도 없고...",
 			typewriter = {
@@ -332,13 +332,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_119",
+			side = 2,
+			dir = 1,
 			say = "두 사람이 대화하고 있을 때, \"그것\"이 폭발했다——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "으아아아아아악—— 너무 맵잖아아아아아.",
 			dialogShake = {
 				speed = 0.09,
@@ -432,8 +432,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
+			dir = 1,
 			say = "어느새 여기저기에서 울음소리가 들려오기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +459,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "이, 이게 무슨 일이지... 사탕이 상했나? 내, 내가 직접 고른 거라 문제없어야 맞는 건데...",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -486,8 +486,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "...사탕 속에 포장이 좀 다른 게 섞여있어요——",
 			typewriter = {
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "아하, 아하하, 아하하하하하!!!! 핼러윈 나이트 장난 작전! 대! 성! 공! 어떠냐!! 애버크롬비가 특별히 만든 핼러윈 한정판 슈퍼 고추냉이 사탕의 맛이!!",
 			typewriter = {
 				speed = 0.05,
@@ -516,8 +516,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "이, 이 목소리는...",
 			typewriter = {
 				speed = 0.05,
@@ -622,8 +622,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "흑흑... 다, 다시는 안 그럴게요! 후드 아줌, 언니, 그러니까 귀 좀 그만 당겨요. 그러다 귀 떨어지겠어요, 떨어지겠어——",
 			typewriter = {
 				speed = 0.05,
@@ -696,8 +696,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

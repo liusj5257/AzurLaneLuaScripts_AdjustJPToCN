@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_23 = {}
 slot1 = slot0.word_template_23
 
-function temp()
+temp = function()
 	uv0["刷"] = {
 		this = {
 			this = true
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["殺"] = {
 		["す"] = {
 			this = true
@@ -110,7 +110,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["三"] = {
 		["国"] = {
 			["人"] = {
@@ -1211,7 +1211,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["子"] = {
 		["校"] = {
 			this = true
@@ -1280,7 +1280,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["指"] = {
 		["マ"] = {
 			["ン"] = {
@@ -1428,7 +1428,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["支"] = {
 		["那"] = {
 			this = true,
@@ -1619,7 +1619,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["死"] = {
 		["ね"] = {
 			this = true

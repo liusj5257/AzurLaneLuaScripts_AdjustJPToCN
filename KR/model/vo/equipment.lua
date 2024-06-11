@@ -5,7 +5,7 @@ slot0.EQUIPMENT_NORMAL = 1
 slot0.EQUIPMENT_IMPORTANCE = 2
 slot1 = pg.equip_skin_template
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.config_id or slot0.id
 
@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.skinId = slot1.skinId or 0
 end
 
-function slot0.getConfigData(slot0)
+slot0.getConfigData = function(slot0)
 	slot2 = nil
 
 	if underscore.any({
@@ -42,7 +42,7 @@ function slot0.getConfigData(slot0)
 	return slot2
 end
 
-function slot0.InitConfig(slot0)
+slot0.InitConfig = function(slot0)
 	slot0.cfg = uv0.getConfigData(slot0.configId)
 
 	if not IsUnityEditor then
@@ -52,11 +52,11 @@ function slot0.InitConfig(slot0)
 	assert(slot0.cfg, string.format("without equip config from id_%d", slot0.id))
 end
 
-function slot0.getConfigTable(slot0)
+slot0.getConfigTable = function(slot0)
 	return slot0.cfg
 end
 
-function slot0.GetAttributes(slot0)
+slot0.GetAttributes = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, 3 do
@@ -71,15 +71,15 @@ function slot0.GetAttributes(slot0)
 	return slot1
 end
 
-function slot0.GetPropertyRate(slot0)
+slot0.GetPropertyRate = function(slot0)
 	return slot0:getConfig("property_rate")
 end
 
-function slot0.CanInBag(slot0)
+slot0.CanInBag = function(slot0)
 	return tobool(pg.equip_data_template[slot0])
 end
 
-function slot0.vertify(slot0)
+slot0.vertify = function(slot0)
 	slot2 = pg.equip_data_template[slot0.configId]
 
 	if slot0:getConfig("value_1") ~= pg.equip_data_statistics[slot0.configId].value_1 or slot0:getConfig("value_2") ~= slot1.value_2 then
@@ -89,17 +89,17 @@ function slot0.vertify(slot0)
 	return true
 end
 
-function slot0.CalcWeanponCD(slot0, slot1)
+slot0.CalcWeanponCD = function(slot0, slot1)
 	return string.format("%0.2f", ys.Battle.BattleFormulas.CalculateReloadTime(slot0 or 0, slot1 and slot1:getProperties().reload or 100))
 end
 
 slot2 = {
-	attribute_cd = "cd_normal",
-	equip_info_34 = "equip_info_33"
+	equip_info_34 = "equip_info_33",
+	attribute_cd = "cd_normal"
 }
 slot3 = nil
 
-function slot4(slot0)
+slot4 = function(slot0)
 	if not uv0 then
 		uv0 = {}
 
@@ -111,7 +111,7 @@ function slot4(slot0)
 	return uv0[slot0]
 end
 
-function slot0.GetInfoTrans(slot0, slot1)
+slot0.GetInfoTrans = function(slot0, slot1)
 	slot2 = slot0.name
 	slot3 = slot0.value
 	slot4 = slot0.auxBoost
@@ -133,7 +133,7 @@ function slot0.GetInfoTrans(slot0, slot1)
 	return slot2, slot3 or "", slot4 and slot1 and table.contains(slot1:getSpecificType(), ShipType.SpecificTypeTable.auxiliary)
 end
 
-function slot5(slot0)
+slot5 = function(slot0)
 	if string.match(slot0, pg.equip_data_code.WAVE.text) then
 		slot0 = string.gsub(slot0, slot1, "")
 	end
@@ -159,7 +159,7 @@ function slot5(slot0)
 	return tonumber(slot0)
 end
 
-function slot0.AlignAttrs(slot0, slot1)
+slot0.AlignAttrs = function(slot0, slot1)
 	for slot5 = 1, #slot0 do
 		if not slot1[slot5] or slot0[slot5].type ~= slot1[slot5].type then
 			slot9 = Clone
@@ -187,7 +187,7 @@ function slot0.AlignAttrs(slot0, slot1)
 	end
 end
 
-function slot0.CompareInfo(slot0, slot1, slot2)
+slot0.CompareInfo = function(slot0, slot1, slot2)
 	if slot0.type == AttributeType.Damage then
 		slot1.compare = uv0(slot1.value) - uv0(slot0.value)
 	elseif slot0.type == AttributeType.CD then
@@ -197,7 +197,7 @@ function slot0.CompareInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InsertAttrsUpgrade(slot0, slot1, slot2)
+slot0.InsertAttrsUpgrade = function(slot0, slot1, slot2)
 	uv0.AlignAttrs(slot0, slot1)
 
 	for slot6 = #slot0, 1, -1 do
@@ -212,7 +212,7 @@ function slot0.InsertAttrsUpgrade(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InsertAttrsCompare(slot0, slot1, slot2)
+slot0.InsertAttrsCompare = function(slot0, slot1, slot2)
 	uv0.AlignAttrs(slot0, slot1)
 
 	for slot6 = 1, #slot0 do
@@ -220,7 +220,7 @@ function slot0.InsertAttrsCompare(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetPropertiesInfo(slot0)
+slot0.GetPropertiesInfo = function(slot0)
 	slot1 = {
 		attrs = {}
 	}
@@ -304,7 +304,7 @@ function slot0.GetPropertiesInfo(slot0)
 	return slot1
 end
 
-function slot0.GetWeaponPageInfo(slot0, slot1, slot2)
+slot0.GetWeaponPageInfo = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot5 = pg.equip_bullet_type[slot1].exhibition_type == 2
 
@@ -319,7 +319,7 @@ function slot0.GetWeaponPageInfo(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.GetWeaponInfo(slot0, slot1, slot2, slot3)
+slot0.GetWeaponInfo = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 and pg.weapon_property[slot2].bullet_ID[1] or slot2
 
 	return switch(slot1, {
@@ -413,7 +413,7 @@ slot6 = {
 	[13.0] = true
 }
 
-function slot0.GetEquipAttrPageInfo(slot0, slot1)
+slot0.GetEquipAttrPageInfo = function(slot0, slot1)
 	slot2, slot3 = nil
 
 	if type(slot1) == "table" then
@@ -429,7 +429,7 @@ function slot0.GetEquipAttrPageInfo(slot0, slot1)
 	return slot0:GetEquipAttrInfo(slot2, slot3)
 end
 
-function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
+slot0.GetEquipAttrInfo = function(slot0, slot1, slot2)
 	return switch(slot1, {
 		function ()
 			return {
@@ -543,7 +543,7 @@ function slot0.GetEquipAttrInfo(slot0, slot1, slot2)
 	})
 end
 
-function slot0.GetGearScore(slot0)
+slot0.GetGearScore = function(slot0)
 	slot1 = slot0:getConfig("rarity")
 
 	assert(pg.equip_data_by_quality[slot1], "equip_data_by_quality not exist: " .. slot1)
@@ -553,7 +553,7 @@ function slot0.GetGearScore(slot0)
 	return slot3.gear_score + slot0:getConfig("level") * slot3.gear_score_addition
 end
 
-function slot0.GetSkill(slot0)
+slot0.GetSkill = function(slot0)
 	slot1 = nil
 
 	if slot0:getConfig("skill_id")[1] then
@@ -563,11 +563,11 @@ function slot0.GetSkill(slot0)
 	return slot1
 end
 
-function slot0.GetWeaponID(slot0)
+slot0.GetWeaponID = function(slot0)
 	return slot0:getConfig("weapon_id")
 end
 
-function slot0.GetSonarProperty(slot0)
+slot0.GetSonarProperty = function(slot0)
 	if slot0:getConfig("equip_parameters").range then
 		return {
 			[AttributeType.SonarRange] = slot2
@@ -577,19 +577,19 @@ function slot0.GetSonarProperty(slot0)
 	end
 end
 
-function slot0.GetAntiSirenPower(slot0)
+slot0.GetAntiSirenPower = function(slot0)
 	return slot0:getConfig("anti_siren")
 end
 
-function slot0.canUpgrade(slot0)
+slot0.canUpgrade = function(slot0)
 	return uv0.getConfigData(slot0).next ~= 0
 end
 
-function slot0.hasPrevLevel(slot0)
+slot0.hasPrevLevel = function(slot0)
 	return slot0:getConfig("prev") ~= 0
 end
 
-function slot0.getRevertAwards(slot0)
+slot0.getRevertAwards = function(slot0)
 	slot1 = {}
 	slot2 = 0
 	slot3 = slot0
@@ -624,27 +624,27 @@ function slot0.getRevertAwards(slot0)
 	return slot1
 end
 
-function slot0.canEquipSkin(slot0)
+slot0.canEquipSkin = function(slot0)
 	return pg.equip_data_by_type[slot0:getConfig("type")].equip_skin == 1
 end
 
-function slot0.getType(slot0)
+slot0.getType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.hasSkin(slot0)
+slot0.hasSkin = function(slot0)
 	return slot0.skinId and slot0.skinId ~= 0
 end
 
-function slot0.setSkinId(slot0, slot1)
+slot0.setSkinId = function(slot0, slot1)
 	slot0.skinId = slot1
 end
 
-function slot0.getSkinId(slot0)
+slot0.getSkinId = function(slot0)
 	return slot0.skinId
 end
 
-function slot0.hasSkinOrbit(slot0)
+slot0.hasSkinOrbit = function(slot0)
 	if not slot0:hasSkin() then
 		return false
 	end
@@ -652,7 +652,7 @@ function slot0.hasSkinOrbit(slot0)
 	return uv0.IsOrbitSkin(slot0.skinId)
 end
 
-function slot0.IsOrbitSkin(slot0)
+slot0.IsOrbitSkin = function(slot0)
 	if uv0[slot0].orbit_combat ~= "" or slot1.orbit_ui ~= "" then
 		return true
 	else
@@ -660,15 +660,15 @@ function slot0.IsOrbitSkin(slot0)
 	end
 end
 
-function slot0.isImportance(slot0)
+slot0.isImportance = function(slot0)
 	return slot0:getConfig("important") == uv0.EQUIPMENT_IMPORTANCE
 end
 
-function slot0.isUnique(slot0)
+slot0.isUnique = function(slot0)
 	return slot0:getConfig("equip_limit") ~= 0
 end
 
-function slot0.isDevice(slot0)
+slot0.isDevice = function(slot0)
 	slot1 = slot0:getConfig("type")
 
 	return underscore.any(EquipType.DeviceEquipTypes, function (slot0)
@@ -676,7 +676,7 @@ function slot0.isDevice(slot0)
 	end)
 end
 
-function slot0.isAircraft(slot0)
+slot0.isAircraft = function(slot0)
 	slot1 = slot0:getConfig("type")
 
 	return underscore.any(EquipType.AirEquipTypes, function (slot0)
@@ -684,7 +684,7 @@ function slot0.isAircraft(slot0)
 	end)
 end
 
-function slot0.isAircraftExtend(slot0)
+slot0.isAircraftExtend = function(slot0)
 	slot1 = slot0:getConfig("type")
 
 	return underscore.any(EquipType.AirExtendEquipTypes, function (slot0)
@@ -692,7 +692,7 @@ function slot0.isAircraftExtend(slot0)
 	end)
 end
 
-function slot0.MigrateTo(slot0, slot1)
+slot0.MigrateTo = function(slot0, slot1)
 	assert(not slot0.isSkin)
 
 	return Equipment.New({
@@ -702,7 +702,7 @@ function slot0.MigrateTo(slot0, slot1)
 	})
 end
 
-function slot0.GetRootEquipment(slot0)
+slot0.GetRootEquipment = function(slot0)
 	slot1 = uv0.getConfigData(slot0.configId)
 
 	while slot1.prev > 0 do
@@ -715,11 +715,11 @@ function slot0.GetRootEquipment(slot0)
 	return slot2
 end
 
-function slot0.getNation(slot0)
+slot0.getNation = function(slot0)
 	return slot0:getConfig("nationality")
 end
 
-function slot0.GetEquipRootStatic(slot0)
+slot0.GetEquipRootStatic = function(slot0)
 	slot1 = uv0.getConfigData(slot0)
 
 	while slot1.prev > 0 do
@@ -729,7 +729,7 @@ function slot0.GetEquipRootStatic(slot0)
 	return slot1.id
 end
 
-function slot0.GetRevertRewardsStatic(slot0)
+slot0.GetRevertRewardsStatic = function(slot0)
 	slot1 = {}
 	slot2 = uv0.getConfigData(slot0)
 
@@ -744,13 +744,13 @@ function slot0.GetRevertRewardsStatic(slot0)
 	return slot1
 end
 
-function slot0.GetEquipReloadStatic(slot0)
+slot0.GetEquipReloadStatic = function(slot0)
 	if uv0.getConfigData(slot0).weapon_id and #slot2 > 0 and pg.weapon_property[slot2[1]] then
 		return slot3.reload_max
 	end
 end
 
-function slot0.GetEquipComposeCfgStatic(slot0)
+slot0.GetEquipComposeCfgStatic = function(slot0)
 	for slot5, slot6 in ipairs(pg.compose_data_template.all) do
 		slot7 = slot1[slot6]
 		slot8 = true

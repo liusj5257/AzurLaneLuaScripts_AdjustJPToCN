@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANZHAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나이트 오브 로열 네이비\n\n<size=45>별거 아닌 고민</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "오늘도 비서함 업무 힘내볼까! 빨리 비서실로……",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#92fc63",
+			say = "오늘도 비서함 업무 힘내볼까! 빨리 비서실로……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#92fc63",
 			say = "어머, 워스파이트 님, 좋은 아침입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.6,
 					x = -2250
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "어, 좋은 아침.",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어, 좋은 아침.",
+			actor = 205020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205020,
 			nameColor = "#92fc63",
 			say = "(납작)",
 			typewriter = {
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 207030,
 			nameColor = "#92fc63",
 			say = "(출렁)",
 			typewriter = {
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			say = "워스파이트 님, 안색이 안 좋으세요……어젯밤에 제대로 못 주무신 건 아니세요?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "워스파이트 님, 안색이 안 좋으세요……어젯밤에 제대로 못 주무신 건 아니세요?",
+			actor = 207030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "그, 그런가……걱정하지 마. 이 정도로 업무에 지장은 없으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -309,15 +309,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "의뢰 임무 보고서가 확실히……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			actor = 205030,
+			withoutActorName = true,
 			side = 2,
 			dir = 1,
-			nameColor = "#92fc63",
-			withoutActorName = true,
 			blackBg = true,
+			actor = 205030,
+			nameColor = "#92fc63",
 			say = "……",
 			effects = {
 				{
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
+			dir = 1,
+			side = 2,
+			withoutActorName = true,
+			blackBg = true,
 			actor = 207030,
-			side = 2,
-			withoutActorName = true,
 			nameColor = "#92fc63",
-			dir = 1,
-			blackBg = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
+			dir = 1,
+			side = 2,
+			withoutActorName = true,
+			blackBg = true,
 			actor = 201100,
-			side = 2,
-			withoutActorName = true,
 			nameColor = "#92fc63",
-			dir = 1,
-			blackBg = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -415,11 +415,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "(아, 안 되겠어…나로는 전혀 상대가 되지 않아……)",
 			effects = {
 				{
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "응?",
 			typewriter = {
 				speed = 0.05,
@@ -453,8 +453,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,

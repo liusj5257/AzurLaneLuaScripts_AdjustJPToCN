@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "穿甲对轻、中甲破甲",
 	time = 1,
+	name = "穿甲对轻、中甲破甲",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -18,8 +18,8 @@ return {
 			arg_list = {
 				buff_id = 409,
 				armor_type = 1,
-				target = "TargetSelf",
 				minTargetNumber = 1,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipArmor"
@@ -35,8 +35,8 @@ return {
 			arg_list = {
 				buff_id = 409,
 				armor_type = 2,
-				target = "TargetSelf",
 				minTargetNumber = 1,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipArmor"

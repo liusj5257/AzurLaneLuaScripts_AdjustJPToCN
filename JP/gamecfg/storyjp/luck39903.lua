@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK39903",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK39903",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "戦闘でも、委託でも北風、今はそつなくこなせるようになっているぞ。",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "それは北風ひとりでは成し遂げられない目標……",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "指揮官、「竜骨編纂」も……北風に付き合ってほしいのだぞ？",
 			typewriter = {
 				speed = 0.05,

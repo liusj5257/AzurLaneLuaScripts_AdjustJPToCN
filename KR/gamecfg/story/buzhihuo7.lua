@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"만능 점원 시라누이\n\n<size=45>점원의 진심 (하)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 의무실",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 의무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "……",
+			actor = 301180,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "아카시는 여기까지만 말할 테니, 이 다음은 지휘관에게 맡길게냥! 바이바이냥!",
 			typewriter = {
 				speed = 0.05,
@@ -210,16 +210,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2250
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "아카시가 자리를 비우자, 의무실엔 어색한 침묵만이 맴돌았다.",
@@ -238,13 +238,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "……저 바보 고양이 말은 별로 신경 쓰지 않으셔도 됩니다. 혼자서도 괜찮사오니.",
 			bgm = "story-2",
+			actor = 301180,
+			nameColor = "#92fc63",
+			say = "……저 바보 고양이 말은 별로 신경 쓰지 않으셔도 됩니다. 혼자서도 괜찮사오니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301180,
+			nameColor = "#92fc63",
 			say = "소녀는 단지, 해야 할 일을 할 뿐……",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "침대에 있는 그녀는 고개를 금세 홱 하고 돌렸지만, 입가에는 잔잔한 미소가 흐르고 있는 것이 확실히 보였다.",
 			typewriter = {
 				speed = 0.05,

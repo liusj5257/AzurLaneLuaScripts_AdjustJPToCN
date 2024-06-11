@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG16",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG16",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Eldridge's idol outfit... isn't bunny-like at all...",
 			bgm = "azumaster-ins",
+			actor = 101270,
+			nameColor = "#a9f548",
+			say = "Eldridge's idol outfit... isn't bunny-like at all...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "...There's no way we can change everything to Planet Kitty... has anyone even heard of that before...? Ugh, what should we do...",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "I'll let the whole world know the pedigree of the super-cute top-tier idol trainer, Benson!",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,13 +126,13 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Gascogne! What are you doing...?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -160,8 +160,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Yes, Gascogne used to believe that the purpose of this event was to conduct armament trials.",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "But I was mistaken. The purpose of this was not just to fight, but for everyone to have fun...!",
 			typewriter = {
 				speed = 0.05,
@@ -191,9 +191,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "That's what... I have to also release my emotions, and enjoy myself with all my might!",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

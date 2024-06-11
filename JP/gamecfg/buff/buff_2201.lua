@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "比洛克西通用技能",
 	init_effect = "",
+	id = 2201,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 2201,
+	color = "blue",
 	icon = 2200,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 2201,
 				minWeaponNumber = 1,
+				skill_id = 2201,
 				check_weapon = true,
 				weapon_group = {
 					11200,
@@ -43,8 +43,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 2200,
 				maxWeaponNumber = 0,
+				skill_id = 2200,
 				check_weapon = true,
 				weapon_group = {
 					11200,

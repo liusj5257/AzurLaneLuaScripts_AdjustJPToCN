@@ -2716,6 +2716,13 @@ pg.name_code = {
 		code = "信濃ちゃん",
 		nation = 0
 	},
+	[535] = {
+		name = "フリードリヒちゃん",
+		type = 1,
+		id = 535,
+		code = "フリードリヒちゃん",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戦五二型",
 		type = 2,

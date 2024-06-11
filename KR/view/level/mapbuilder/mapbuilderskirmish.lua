@@ -1,14 +1,14 @@
 slot1 = class("MapBuilderSkirmish", import(".MapBuilder"))
 
-function slot1.GetType(slot0)
+slot1.GetType = function(slot0)
 	return uv0.TYPESKIRMISH
 end
 
-function slot1.getUIName(slot0)
+slot1.getUIName = function(slot0)
 	return "skirmish_levels"
 end
 
-function slot1.Update(slot0, ...)
+slot1.Update = function(slot0, ...)
 	slot1 = slot0._tf
 	slot2 = 0.21875
 	slot1.pivot = Vector2(slot2, 1)
@@ -28,7 +28,7 @@ slot3 = Vector2(211.3, 116.5263)
 slot4 = Vector2(0, -622)
 slot5 = Vector2(-114, -372)
 
-function slot1.UpdateMapItems(slot0)
+slot1.UpdateMapItems = function(slot0)
 	uv0.super.UpdateMapItems(slot0)
 
 	if getProxy(SkirmishProxy):TryFetchNewTask() then
@@ -159,7 +159,7 @@ function slot1.UpdateMapItems(slot0)
 	slot0.sceneParent.skirmishBar:Find("text"):GetComponent(typeof(Text)).text = slot9 - slot10
 end
 
-function slot1.OnShow(slot0)
+slot1.OnShow = function(slot0)
 	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), true)
 	setActive(slot0.sceneParent.skirmishBar, true)
 	setActive(slot0.sceneParent.leftChapter:Find("buttons"), false)
@@ -167,7 +167,7 @@ function slot1.OnShow(slot0)
 	setActive(slot0.sceneParent.rightChapter, false)
 end
 
-function slot1.OnHide(slot0)
+slot1.OnHide = function(slot0)
 	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), false)
 	setActive(slot0.sceneParent.skirmishBar, false)
 	setActive(slot0.sceneParent.leftChapter:Find("buttons"), true)

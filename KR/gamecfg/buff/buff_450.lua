@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "降值",
 	time = 0,
+	name = "降值",
+	init_effect = "",
 	picture = "",
 	desc = "喀琅施塔得降值",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -500
+				number = -500,
+				attr = "cannonPower"
 			}
 		}
 	}

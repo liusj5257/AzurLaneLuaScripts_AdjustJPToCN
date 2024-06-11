@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG13",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "特別作戦艦隊の各員に告ぐ。本艦隊はセイレーンの攻撃を受け、本部との連絡が途絶えているが……",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

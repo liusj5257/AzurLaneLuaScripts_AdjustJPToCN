@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 4: Afternoon Chat</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 603020,
 			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			say = "I brought lunch today. Apparently the Sakura girls call this kind of lunchbox a \"bento\".",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -63,8 +63,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Want to eat together?",
 			typewriter = {
@@ -77,9 +77,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "When lunchtime rolled around, Zara and I stayed in the office to share the bento.",
 			effects = {
 				{
@@ -88,8 +88,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Eh... they don't? And they throw one of these almost every day...? Those Royal Navy girls really are something.",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Oh, you know how Cavour and Cesare are always trying to one-up each other?",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "They might look that way, but they're closer than anyone else.",
 			typewriter = {
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Zara was the talkative sort. There was nothing she couldn't squeeze a conversation out of.",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "We spent our time discussing the fleet and her homeland, the Sardegna Empire, when suddenly...",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Gun to your head, would you rather have a hardworking girl like Carabiniere or a warm and gentle lady like Trento?",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I had been placed in a difficult position.",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I had no idea why, but it somehow felt like my life was at a crossroads...",
 			typewriter = {
 				speed = 0.05,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "So you like them more honest and hardworking, huh Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -320,9 +320,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "But you know there are some issues with that type. Like, for example, if you're going out on a date, she might end up fretting over her outfit only to show up hours late.",
 			typewriter = {
@@ -338,9 +338,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "At the restaurant, she could waste a few hours debating the nutritional value of each menu item. When you want to take a picture, she might end up spending hours getting the background juuuust right.",
 			typewriter = {
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "And then when it's all said and done, even though the process was kind of a slog, the two of you still had a nice time together. Hooray.",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Enough about that though. Shouldn't you be tasting my steak right about now? Open up~",
 			typewriter = {
@@ -421,9 +421,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "So you like the caring type, Commander?",
 			typewriter = {
@@ -439,9 +439,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Naturally, who wouldn't want a sweet-voiced beauty telling you \"everything's going to be okay\" whenever you're feeling down? Who wouldn't want someone who washes away all your worries?",
 			typewriter = {
@@ -457,9 +457,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "The only problem is, giving into that kind of gentle sweetness turns you weak. Before long, you won't even be able to fend for yourself.",
 			typewriter = {
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "I can hear Trento now. \"No need to worry. Just let the Commander turn into a little baby. I can take care of everything.\"",
 			typewriter = {
 				speed = 0.05,
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "Perhaps you like being babied like that? Here comes the choo-choo train, say ahhn~",
 			typewriter = {
 				speed = 0.05,
@@ -539,9 +539,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 3,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "You're an excellent naval strategist, but...",
 			typewriter = {
@@ -584,12 +584,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "Oh? Commander, if I didn't know better I'd say you were disappointed. Don't tell me... you were serious?",
 			typewriter = {
 				speed = 0.05,
@@ -604,9 +604,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 3,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Don't take it to heart. No matter what happens, I will honor my promise: to bring victory and glory to your fleet. That includes serving you as your secretary ship.",
 			typewriter = {
@@ -619,12 +619,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "Now now, I can't have my colleagues seeing you with that dejected face. You know how they talk. Open up and let me feed you some of my juicy steak. Ah~",
 			typewriter = {
 				speed = 0.05,
@@ -666,12 +666,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -699,8 +699,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Talking to you is so much fun, Commander, but we do need to be getting back to work. Let's do this again sometime!",
 			typewriter = {
@@ -713,9 +713,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Somehow, I felt like Zara was always two steps ahead of me.",
 			typewriter = {
 				speed = 0.05,

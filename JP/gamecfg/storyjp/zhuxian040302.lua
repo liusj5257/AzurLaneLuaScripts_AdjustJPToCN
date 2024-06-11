@@ -1,17 +1,17 @@
 return {
-	id = "ZHUXIAN040302",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "ZHUXIAN040302",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 306060,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-boss-1",
 			dir = 1,
 			say = "囮でも囮の意地がある！そんな簡単に倒れはせん！",
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 306060,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "自由の国の戦士たちに告ぐ！自分は日の出ずる国の武士（もののふ）・龍驤なり！",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 2,
 			side = 2,
 			actor = 306060,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "龍驤麟振、我が前に敵はなし！――参る！",
 			effects = {
 				{
@@ -90,10 +90,10 @@ return {
 			}
 		},
 		{
-			actor = 102060,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 102060,
 			say = "エンタープライズさん、そちらに向かってるよ！",
 			effects = {
 				{
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ああ！エンタープライズ、エンゲージ！",
 			typewriter = {
 				speed = 0.05,
@@ -127,14 +127,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#ff5c5c",
 			say = "龍驤ちゃん、エンタープライズをよく引き付けた…今私達が…！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "――・――・――",
 			typewriter = {
 				speed = 0.05,
@@ -187,14 +187,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#ff5c5c",
 			say = "翔鶴姉、どうすれば…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -351,8 +351,8 @@ return {
 			actor = 306060,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "龍驤？",
 			dir = 1,
+			actorName = "龍驤？",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

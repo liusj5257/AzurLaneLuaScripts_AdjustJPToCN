@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"新春パーティー\n\n<size=45>四 旧正月パーティー</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_night",
 			bgm = "story-china",
 			actor = 399041,
 			nameColor = "#a9f548",
 			say = "この衣装は…やっぱり着づらいですね…とくに背中…んんん…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 399041,
 			dir = 1,
+			actor = 399041,
 			nameColor = "#a9f548",
 			say = "ありがとうございます。助かりましたよ",
 			typewriter = {
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "東煌主催の春節パーティーにご参加いただき、誠にありがとうございます",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,10 +151,10 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			actorName = "平海&寧海",
-			bgName = "star_level_bg_128",
 			side = 0,
+			bgName = "star_level_bg_128",
+			actor = 502030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			actor = 501010,
+			say = "给各位拜年啦（新年の挨拶もうしあげます）！",
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
+			actor = 501010,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "四人",
-			say = "给各位拜年啦（新年の挨拶もうしあげます）！",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "比叡さんとシアトルさんにも感謝します。主催経験のある方のご協力はとても助かりました",
 			effects = {
 				{
@@ -250,8 +250,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_128",
-			actor = 304022,
 			dir = 1,
+			actor = 304022,
 			nameColor = "#a9f548",
 			say = "大したことではありません。私たちはみんなが宴を楽しんでいる姿が見られるだけで十分ですから",
 			typewriter = {
@@ -360,13 +360,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_128",
+			side = 2,
+			dir = 1,
 			say = "――東煌芸能とはいうものの、東煌だけでなく、各陣営による楽しい演目が盛りだくさんだった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "素晴らしい演目、誠にありがとうございました。では、次こそ最後の演目――",
 			soundeffect = "event:/battle/firework",
+			actor = 502010,
+			nameColor = "#a9f548",
+			say = "素晴らしい演目、誠にありがとうございました。では、次こそ最後の演目――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "みんな",
-			bgName = "star_level_bg_128",
 			side = 2,
+			bgName = "star_level_bg_128",
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "（パチパチパチパチ）",
 			typewriter = {
@@ -491,15 +491,15 @@ return {
 			}
 		},
 		{
-			say = "数日後・重桜にて",
 			side = 2,
 			bgName = "star_level_bg_129",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "newyear2",
+			say = "数日後・重桜にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

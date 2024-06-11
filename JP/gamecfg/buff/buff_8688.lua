@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "法系D3 阿尔及利亚",
 	time = 0,
-	color = "red",
+	name = "法系D3 阿尔及利亚",
+	init_effect = "",
+	id = 8688,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8688,
+	color = "red",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 3,
+				target = "TargetSelf",
 				skill_id = 8688
 			}
 		}

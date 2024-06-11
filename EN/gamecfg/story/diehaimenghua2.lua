@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Diadem of Light",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-1",
+			say = "Diadem of Light",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Indeed. ..Now that this one has awakened, it is only natural to attend to the affairs of the main island.",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "That isn't the issue. Lady Shinano just woke up from a deep slumber and isn't fully aware of everything that has happened in the outside world...",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -127,8 +127,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Nay... This one has seen... Both the state of this world, and the internal affairs of the Sakura Empire.",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "Besides, didn't the leadership specifically dispatch a fleet to escort Lady Shinano? I think you're worrying too much.",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Kii is the leader of the fleet. Despite her rather, uh... strong will, rest assured that her strength is first-class.",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "But, but... Forget it, I've made up my mind! This time, I'll accompany Lady Shinano.",
 			dialogShake = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "What?!",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "...We'll have to request permission to change our deployment formation. I don't think there's going to be enough time for that.",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "...Nnh... Hmm... If you insist...",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "This one shall accept your offer...",
 			typewriter = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "Thank you, Lady Shinano!",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -318,9 +318,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "(knock, knock)",
 			typewriter = {
 				speed = 0.05,
@@ -380,14 +380,14 @@ return {
 			}
 		},
 		{
-			actor = 305140,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actorName = "{namecode:175}&{namecode:179}",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			nameColor = "#a9f548",
+			actor = 305140,
+			actorName = "{namecode:175}&{namecode:179}",
 			say = "Understood!",
 			subActors = {
 				{

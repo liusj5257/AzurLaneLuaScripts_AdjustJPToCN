@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"那便是…戀愛的季節\n\n<size=45>三 誰是鴛鴦啦！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107040,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "大家都在座位上了吧，班會現在開始。大家早上好。",
 			bgm = "story-1",
+			actor = 107040,
+			nameColor = "#a9f548",
+			say = "大家都在座位上了吧，班會現在開始。大家早上好。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——早上好！！",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "就在格拉斯哥這麼想著的時候，坐在前面的熱心突然回頭看了她一眼。",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "格拉斯哥感到有些迷惑。",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "格拉斯哥還在疑惑熱心想說什麼，就聽到她舉起手興高采烈地說了一番。",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "整個教室的眼光一下集中到了兩人身上……",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "等、等等！？熱心妳胡說什麼啊——再說了，誰是鴛鴦啦！",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "連、連愛丁堡也……",
 			typewriter = {
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "提議得到了大家的一致認可，結果似乎已經板上釘釘了。",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "怎，怎麼這樣…嗚嗚……",
 			typewriter = {
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "就這樣，二人當選為“鴛鴦・別名班長”。",
 			typewriter = {
 				speed = 0.05,
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "聽著游騎兵老師的柔聲安慰，格拉斯哥和那位交換了次眼神。",
 			typewriter = {
 				speed = 0.05,

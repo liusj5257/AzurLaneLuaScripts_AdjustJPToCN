@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG19",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "輸送船団が襲われてしまったら、護衛艦隊では対応できそうにないわ",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "でも支援艦隊はまだ鉄血の主力艦隊を引きつけていますよ！私たちが救援に向かわないと……",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "本島に連絡しなさい！最悪、支援艦隊はロイヤル本島方面に逃げる選択肢が残ってるわ",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "そんな漁夫の利ならくれてやる！このヴァリアントがその程度ではくじけないことを思い知らせてやるわ！",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,11 +167,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "通信は送りましたけど、着信確認の返信がありません…！",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -196,8 +196,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "本島に伝わったかどうかすら分からないなんて…うぅ…どうしてこうなるのー！",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "や、やっぱり火力全開にするだけでは解決できそうにないですね…",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "ふ、ふん！エリザベス様ほどでなくても、あのウォースパイト並の冴えを見せるなんて造作もないわ！",
 			typewriter = {
@@ -263,8 +263,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "ええと、まず今回の任務は船団輸送と鉄血艦隊の排除――そう、要は鉄血艦隊に被害を与え撃退さえできればいいってこと",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "支援艦隊は確かにピンチだけど、速力を活かせば時間が稼げるはず。でも足の遅い輸送船団はそうはいかないわ",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "ええ、セイレーンがそこになだれ込んでしまえば、艦船たちはともかく、輸送船団は全滅してしまうに違いないわ",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "そして北方連合への支援物資は海の藻屑、今度は指揮官がピンチになる",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "それだけでなく、北極圏のセイレーン勢力が拡大し、ロイヤル本島とユニオンを脅かすことに――",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "……下手すると戦線が総崩れになるのね……んんん…",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "決まりよ。主力艦隊は反転せず、ここでセイレーンを食い止めて、輸送船団の安全を確保するわ",
 			typewriter = {
@@ -398,8 +398,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "支援艦隊のみんなは……？",
 			effects = {
@@ -421,8 +421,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "本島への撤退を指示するわ。あと鉄血にも連絡よ、セイレーンの前でアズールレーンとレッドアクシズが相争うことはないわ",
 			typewriter = {
@@ -467,12 +467,12 @@ return {
 			}
 		},
 		{
-			actor = 205100,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205100,
+			nameColor = "#a9f548",
 			say = "責任はこのヴァリアントが負うわ！まずは全力でセイレーンを食い止めるわよ！",
 			typewriter = {
 				speed = 0.05,

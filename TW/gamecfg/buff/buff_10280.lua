@@ -62,12 +62,12 @@ return {
 	desc_get = "受到攻击后，自身装填提高30.0%(满级50.0%)，持续8秒，不可叠加",
 	name = "“Z”的反击",
 	init_effect = "",
+	id = 10280,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "受到攻击后，自身装填提高$1，持续8秒，不可叠加",
 	stack = 1,
-	id = 10280,
+	color = "yellow",
 	icon = 10280,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 1,
-				skill_id = 10280,
-				time = 8
+				time = 8,
+				skill_id = 10280
 			}
 		}
 	}

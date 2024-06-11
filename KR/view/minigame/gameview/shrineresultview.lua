@@ -1,16 +1,16 @@
 slot0 = class("ShrineResultView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShrineResult"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:Show()
 	slot0:initData()
 	slot0:initUI()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.closeFunc then
 		slot0.closeFunc()
 
@@ -18,10 +18,10 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.bg = slot0:findTF("BGImg")
 	slot0.dft = GetComponent(slot0._tf, "DftAniEvent")
 	slot0.text_buff = slot0:findTF("Main/MainBox/Text_Buff")
@@ -47,7 +47,7 @@ function slot0.initUI(slot0)
 	end)
 end
 
-function slot0.updateView(slot0, slot1, slot2)
+slot0.updateView = function(slot0, slot1, slot2)
 	if slot2 then
 		setText(slot0.text_buff, slot1)
 	else
@@ -61,7 +61,7 @@ function slot0.updateView(slot0, slot1, slot2)
 	setActive(slot0.buffImg_3, slot2 == 3)
 end
 
-function slot0.setCloseFunc(slot0, slot1)
+slot0.setCloseFunc = function(slot0, slot1)
 	slot0.closeFunc = slot1
 end
 

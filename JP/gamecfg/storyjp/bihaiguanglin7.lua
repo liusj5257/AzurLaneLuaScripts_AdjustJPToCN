@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "しばらくすると…………",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "しばらくすると…………",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "かなり深く潜ったわね…お天道様の光も見えないなんて……",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "でも「結界」？というのは本当らしいですね。海水が入り込んでいないみたいです",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（死ぬかと思った………疲れた、休みたい……）",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "外との連絡も断たれましたね…由良、この「結界」？は鏡面海域かなにかでしょうか？",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "なんでしょう？金魚すくいの袋を何千万倍も大きくしたような…",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "それぐらい大きいものを作れるなんて、聞いたことがありませんね。もしかしてセイレーン技術の応用？なのかしら",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "鏡面海域じゃなければ、通信が断たれたのは水深のせいですわね",
 			typewriter = {
@@ -155,10 +155,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "筑摩殿、駿河殿！誰か―！誰か聞こえてる人いませんかー！",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "まずは当初の予定通り合流しましょう。入り口から出れそうにないし、ここは中を探検するしかないですね",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "「目」の数は十分ですね。では合流は……",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アナウンス",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アナウンス",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アナウンス",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アナウンス",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アナウンス",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -454,8 +454,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（いやおかしいでしょ！さっきのアナウンスどう聞いても怪しすぎるわ！）",
 			typewriter = {
@@ -490,8 +490,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "絶対に嫌",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "まあまあ、いずれにしてもみんな中心部に行きますし、何かしらの目標があったほうがいいではありませんか",
 			typewriter = {
@@ -559,8 +559,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "はい。ふふ、じゃあこちらは筑摩チームでいいかしら？",
 			typewriter = {
@@ -576,10 +576,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "分かりました！ではこちらは島風チームですね！",
 			typewriter = {
 				speed = 0.05,
@@ -594,11 +594,11 @@ return {
 			paintingNoise = true,
 			side = 0,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
-			dir = 1,
-			actorName = "葛城＆山風",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 307120,
+			actorName = "葛城＆山風",
 			say = "よーい、どーん！",
 			subActors = {
 				{
@@ -642,9 +642,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
 			blackBg = true,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "筑摩チーム、前進しますね",
 			typewriter = {

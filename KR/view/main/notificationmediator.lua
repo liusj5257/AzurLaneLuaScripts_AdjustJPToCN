@@ -5,7 +5,7 @@ slot0.OPEN_INFO = "NotificationMediator:OPEN_INFO"
 slot0.OPEN_EMOJI = "NotificationMediator:OPEN_EMOJI"
 slot0.BATTLE_CHAT_CLOSE = "NotificationMediator:BATTLE_CHAT_CLOSE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getRawData())
 
 	slot4 = slot0.viewComponent
@@ -119,7 +119,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SEND_CMD_DONE,
 		ChatProxy.NEW_MSG,
@@ -133,7 +133,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ChatProxy.NEW_MSG or slot2 == FriendProxy.FRIEND_NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED then
@@ -189,7 +189,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.getAllMessages(slot0)
+slot0.getAllMessages = function(slot0)
 	slot1 = {}
 
 	_.each(getProxy(ChatProxy):getRawData(), function (slot0)
@@ -213,7 +213,7 @@ function slot0.getAllMessages(slot0)
 	end):value()
 end
 
-function slot0.onChangeChatRoomDone(slot0, slot1)
+slot0.onChangeChatRoomDone = function(slot0, slot1)
 	if slot0.viewComponent.tempRoomSendBits then
 		NotificationLayer.ChannelBits.send = slot0.viewComponent.tempRoomSendBits
 	end

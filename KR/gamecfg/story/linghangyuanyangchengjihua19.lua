@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "버추얼 타운의 데이터가 순조롭게 축적됨에 따라 어느덧 업데이트의 시기가 찾아왔다.",
-			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -45,12 +45,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사실… 있다냥. 역시 지휘관이다냥.",
 			painting = {
 				alpha = 0.3,
@@ -65,10 +65,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "가장 중요하다고 말할 수 있는 계획의 요점, 즉 TB가 앞으로 획득할 '개성'에 대한 이야기를 해주겠다냥.",
 			painting = {
 				alpha = 0.3,
@@ -92,12 +92,12 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "앗? 너무 빠른 거 아니야? 좀 더 차근차근 할 줄 알았는데...…",
 			painting = {
 				alpha = 0.3,
@@ -112,10 +112,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이미 차근차근 하고 있다냥!",
 			painting = {
 				alpha = 0.3,
@@ -127,12 +127,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "냥… 그리고 또 하나… '개성'은 TB의 장래 직업에 영향을 준다냥.",
 			painting = {
 				alpha = 0.3,
@@ -171,10 +171,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다 현실감을 주기 위한 것이다냥. 이해해주길 바란다냥.",
 			painting = {
 				alpha = 0.3,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "설정 설명은 이걸로 정말 끝이다냥. 지휘관, 열심히 해라냥.",
 			painting = {
 				alpha = 0.3,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "아카시는 모습을 감추었다.",

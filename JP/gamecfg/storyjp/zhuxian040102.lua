@@ -1,18 +1,18 @@
 return {
-	id = "ZHUXIAN040102",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "ZHUXIAN040102",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……なんだって？！",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -36,8 +36,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ホーネット、どうした？",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "アストリアとシカゴたちの連絡が途絶えた！重巡洋艦「青葉」を始めとした重桜艦隊と思わしき敵艦と遭遇したって！",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "やっぱりレッドアクシズか…くっ、夜戦となれば連中に有利だ…",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "どうする？ノースカロライナを呼んで加勢してもらったら…",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "それも考えている、ただ、重桜の夜戦艦隊ともなれば乱戦も考えられる。空母の力を活かせないどころか味方を巻き込んで攻撃してしまう危険が…",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "…………っ",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "待て。前方から誰かやって来るぞ",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +147,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "え、えっ！？",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -174,8 +174,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "あれは――――？！",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "もしくは古鷹級の誰かだ。識別信号が間違っていなければな。重桜の戦力…想像以上だ",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "応答せよ。重桜艦。これ以上接近したら――",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "無言で突っ込んでくる…だと？！",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "とにかく応戦よ！エンプラ姉！",
 			typewriter = {
 				speed = 0.05,

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.091
+					number = -0.091,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.102
+					number = -0.102,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.113
+					number = -0.113,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.124
+					number = -0.124,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.135
+					number = -0.135,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.146
+					number = -0.146,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.157
+					number = -0.157,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.168
+					number = -0.168,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.18
+					number = -0.18,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -259,9 +259,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -283,8 +283,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.08
+				number = -0.08,
+				attr = "injureRatio"
 			}
 		},
 		{

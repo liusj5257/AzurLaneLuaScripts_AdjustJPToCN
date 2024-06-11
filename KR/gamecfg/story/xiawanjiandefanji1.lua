@@ -1,18 +1,18 @@
 return {
-	id = "XIAWANJIANDEFANJI1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401020,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "난처하군요... 로열의 증원 화력이 약간 생각 이상이네요.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			actor = 401020,
+			nameColor = "#ff5c5c",
+			say = "난처하군요... 로열의 증원 화력이 약간 생각 이상이네요.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -80,8 +80,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "역시 이런 상황에서는 Z18조차도 웃음이 나오지 않는군요.",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "그래요.",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "..........",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "그냥 이렇게 하고 싶어서요.",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Z1이 있었다면, 이럴 때 모두에게 용기를 주었겠죠. 저는 Z1처럼 그렇게 빛나지 않아서, 이런 것밖에 못해요.",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "네...",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "제가 Z18을 얕보았네요...",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "네... 저도 힘을 내보죠.",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "모두 명령에 따라, 철수 준비하세요.",
 			typewriter = {
 				speed = 0.05,

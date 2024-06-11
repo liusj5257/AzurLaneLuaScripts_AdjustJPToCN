@@ -6,7 +6,7 @@ slot0.TYPE_COMMOM = 1
 slot0.TYPE_MAIN_SPINE = 2
 slot0.TYPE_SPINE_EXTRA = 3
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.mask = nil
 	slot0.scale = Vector3.one
@@ -27,15 +27,15 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.IsEmpty(slot0)
+slot0.IsEmpty = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.IsUsing(slot0)
+slot0.IsUsing = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.Occupy(slot0, slot1, slot2, slot3)
+slot0.Occupy = function(slot0, slot1, slot2, slot3)
 	if slot0.state == uv0 then
 		slot0.user = slot2
 		slot0.owner = slot1
@@ -54,23 +54,23 @@ function slot0.Occupy(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetUser(slot0)
+slot0.GetUser = function(slot0)
 	return slot0.user
 end
 
-function slot0.GetOwner(slot0)
+slot0.GetOwner = function(slot0)
 	return slot0.owner
 end
 
-function slot0.Use(slot0)
+slot0.Use = function(slot0)
 	slot0.state = uv0
 end
 
-function slot0.Empty(slot0)
+slot0.Empty = function(slot0)
 	slot0.state = uv0
 end
 
-function slot0.Clear(slot0, slot1)
+slot0.Clear = function(slot0, slot1)
 	if slot0.state == uv0 then
 		slot0.state = uv1
 
@@ -85,75 +85,75 @@ function slot0.Clear(slot0, slot1)
 	end
 end
 
-function slot0.Continue(slot0, slot1)
+slot0.Continue = function(slot0, slot1)
 	slot0:OnContinue(slot1)
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	slot0:Clear(true)
 	slot0:OnStop()
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 end
 
-function slot0.End(slot0)
+slot0.End = function(slot0)
 	slot0:Clear(false)
 	slot0:OnEnd()
 end
 
-function slot0.GetMask(slot0)
+slot0.GetMask = function(slot0)
 	return slot0.mask
 end
 
-function slot0.GetScale(slot0)
+slot0.GetScale = function(slot0)
 	return slot0.scale
 end
 
-function slot0.GetOffset(slot0)
+slot0.GetOffset = function(slot0)
 	return slot0.offset
 end
 
-function slot0.GetFollower(slot0)
+slot0.GetFollower = function(slot0)
 	return slot0.follower
 end
 
-function slot0.GetBodyMask(slot0)
+slot0.GetBodyMask = function(slot0)
 	return slot0.bodyMask
 end
 
-function slot0.GetAnimators(slot0)
+slot0.GetAnimators = function(slot0)
 	return slot0.animators
 end
 
-function slot0.GetUsingAnimator(slot0)
+slot0.GetUsingAnimator = function(slot0)
 	return slot0.animators[slot0.animatorIndex]
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.name
 end
 
-function slot0.GetSkew(slot0)
+slot0.GetSkew = function(slot0)
 	return slot0.skewValue
 end
 
-function slot0.OnInit(slot0, slot1)
+slot0.OnInit = function(slot0, slot1)
 end
 
-function slot0.OnAwake(slot0)
+slot0.OnAwake = function(slot0)
 end
 
-function slot0.OnStart(slot0)
+slot0.OnStart = function(slot0)
 end
 
-function slot0.OnStop(slot0)
+slot0.OnStop = function(slot0)
 end
 
-function slot0.OnEnd(slot0)
+slot0.OnEnd = function(slot0)
 end
 
-function slot0.OnContinue(slot0, slot1)
+slot0.OnContinue = function(slot0, slot1)
 end
 
 return slot0

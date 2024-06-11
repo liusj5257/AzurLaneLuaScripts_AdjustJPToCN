@@ -4,7 +4,7 @@ slot0.STATE_LOADING = 1
 slot0.STATE_INITED = 2
 slot0.STATE_DISPOSE = 3
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.state = uv0.STATE_EMPTY
 
 	if slot1 then
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.SetData(slot0, slot1, slot2)
+slot0.SetData = function(slot0, slot1, slot2)
 	slot0.prefabName = slot1
 	slot0.attachmentData = slot2
 end
@@ -21,7 +21,7 @@ end
 slot0.ORBIT_KEY_UI = "orbit_ui"
 slot0.ORBIT_KEY_SLG = "orbit_slg"
 
-function slot0.Load(slot0, slot1, slot2, slot3)
+slot0.Load = function(slot0, slot1, slot2, slot3)
 	if slot2 == nil then
 		slot2 = true
 	end
@@ -56,7 +56,7 @@ function slot0.Load(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.state = uv0.STATE_INITED
 	slot0._modleGraphic = slot0.model:GetComponent("SkeletonGraphic")
 	slot0._modleAnim = slot0.model:GetComponent("SpineAnimUI")
@@ -64,7 +64,7 @@ function slot0.Init(slot0)
 	slot0._visible = true
 end
 
-function slot0.AttachOrbit(slot0, slot1)
+slot0.AttachOrbit = function(slot0, slot1)
 	slot2 = slot1 or uv0.ORBIT_KEY_UI
 
 	for slot7, slot8 in pairs(slot0:GetAttachmentList()) do
@@ -104,7 +104,7 @@ function slot0.AttachOrbit(slot0, slot1)
 	end
 end
 
-function slot0.GetAttachmentList(slot0)
+slot0.GetAttachmentList = function(slot0)
 	if slot0.ship then
 		return slot0.ship:getAttachmentPrefab()
 	else
@@ -112,33 +112,33 @@ function slot0.GetAttachmentList(slot0)
 	end
 end
 
-function slot0.CheckInited(slot0)
+slot0.CheckInited = function(slot0)
 	return slot0.state == uv0.STATE_INITED
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.modelRoot.name
 end
 
-function slot0.SetParent(slot0, slot1)
+slot0.SetParent = function(slot0, slot1)
 	if slot0:CheckInited() then
 		SetParent(slot0.modelRoot, slot1, false)
 	end
 end
 
-function slot0.SetRaycastTarget(slot0, slot1)
+slot0.SetRaycastTarget = function(slot0, slot1)
 	if slot0:CheckInited() then
 		slot0._modleGraphic.raycastTarget = slot1
 	end
 end
 
-function slot0.ModifyName(slot0, slot1)
+slot0.ModifyName = function(slot0, slot1)
 	if slot0:CheckInited() then
 		slot0.modelRoot.name = slot1
 	end
 end
 
-function slot0.SetVisible(slot0, slot1)
+slot0.SetVisible = function(slot0, slot1)
 	if slot0:CheckInited() then
 		slot0._visible = slot1
 		slot0._modleGraphic.color = Color.New(1, 1, 1, slot1 and 1 or 0)
@@ -149,7 +149,7 @@ function slot0.SetVisible(slot0, slot1)
 	end
 end
 
-function slot0.SetAction(slot0, slot1)
+slot0.SetAction = function(slot0, slot1)
 	if not slot0:CheckInited() then
 		return
 	end
@@ -158,7 +158,7 @@ function slot0.SetAction(slot0, slot1)
 	slot0:HiddenAttachmentByAction(slot1)
 end
 
-function slot0.SetActionOnce(slot0, slot1)
+slot0.SetActionOnce = function(slot0, slot1)
 	if not slot0:CheckInited() then
 		return
 	end
@@ -167,7 +167,7 @@ function slot0.SetActionOnce(slot0, slot1)
 	slot0:HiddenAttachmentByAction(slot1)
 end
 
-function slot0.SetActionCallBack(slot0, slot1)
+slot0.SetActionCallBack = function(slot0, slot1)
 	if not slot0:CheckInited() then
 		return
 	end
@@ -175,37 +175,37 @@ function slot0.SetActionCallBack(slot0, slot1)
 	slot0._modleAnim:SetActionCallBack(slot1)
 end
 
-function slot0.HiddenAttachmentByAction(slot0, slot1)
+slot0.HiddenAttachmentByAction = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._attachmentList) do
 		SetActive(slot5, not table.contains(slot6, slot1))
 	end
 end
 
-function slot0.SetSizeDelta(slot0, slot1)
+slot0.SetSizeDelta = function(slot0, slot1)
 	if slot0:CheckInited() then
 		rtf(slot0.modelRoot).sizeDelta = slot1
 	end
 end
 
-function slot0.SetLocalScale(slot0, slot1)
+slot0.SetLocalScale = function(slot0, slot1)
 	if slot0:CheckInited() then
 		slot0.modelRoot.transform.localScale = slot1
 	end
 end
 
-function slot0.SetLocalPos(slot0, slot1)
+slot0.SetLocalPos = function(slot0, slot1)
 	if slot0:CheckInited() then
 		slot0.modelRoot.transform.localPosition = slot1
 	end
 end
 
-function slot0.SetLayer(slot0, slot1)
+slot0.SetLayer = function(slot0, slot1)
 	if slot0:CheckInited() then
 		pg.ViewUtils.SetLayer(slot0.modelRoot.transform, slot1)
 	end
 end
 
-function slot0.TweenShining(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
+slot0.TweenShining = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10)
 	if slot0:CheckInited() then
 		slot0:StopTweenShining()
 
@@ -243,7 +243,7 @@ function slot0.TweenShining(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slo
 	end
 end
 
-function slot0.StopTweenShining(slot0)
+slot0.StopTweenShining = function(slot0)
 	if slot0:CheckInited() and slot0._tweenShiningId then
 		LeanTween.cancel(slot0._tweenShiningId, true)
 
@@ -251,7 +251,7 @@ function slot0.StopTweenShining(slot0)
 	end
 end
 
-function slot0.ChangeMaterial(slot0, slot1)
+slot0.ChangeMaterial = function(slot0, slot1)
 	if not slot0:CheckInited() then
 		return
 	end
@@ -263,7 +263,7 @@ function slot0.ChangeMaterial(slot0, slot1)
 	slot0._modleGraphic.material = slot1
 end
 
-function slot0.RevertMaterial(slot0)
+slot0.RevertMaterial = function(slot0)
 	if not slot0:CheckInited() then
 		return
 	end
@@ -275,7 +275,7 @@ function slot0.RevertMaterial(slot0)
 	slot0._modleGraphic.material = slot0._stageMaterial
 end
 
-function slot0.CreateInterface(slot0)
+slot0.CreateInterface = function(slot0)
 	slot0._mouseChild = GameObject("mouseChild")
 
 	slot0._mouseChild.transform:SetParent(slot0.modelRoot.transform, false)
@@ -296,25 +296,25 @@ function slot0.CreateInterface(slot0)
 	return slot0._modelClick, slot0._modelPress, slot0._dragDelegate
 end
 
-function slot0.resumeRole(slot0)
+slot0.resumeRole = function(slot0)
 	if slot0._modleAnim and slot0._modleAnim:GetAnimationState() then
 		slot0._modleAnim:Resume()
 	end
 end
 
-function slot0.GetInterface(slot0)
+slot0.GetInterface = function(slot0)
 	return slot0._modelClick, slot0._modelPress, slot0._dragDelegate
 end
 
-function slot0.EnableInterface(slot0)
+slot0.EnableInterface = function(slot0)
 	slot0._mouseChild:GetComponent(typeof(Image)).enabled = true
 end
 
-function slot0.DisableInterface(slot0)
+slot0.DisableInterface = function(slot0)
 	slot0._mouseChild:GetComponent(typeof(Image)).enabled = false
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.state == uv0.STATE_INITED then
 		slot0:StopTweenShining()
 		slot0:RevertMaterial()

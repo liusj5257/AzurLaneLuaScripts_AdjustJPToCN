@@ -1,8 +1,8 @@
 return {
-	id = "ZHIHUIMIAO4",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "ZHIHUIMIAO4",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "That sounds a bit fishy... but let's see what these Meowfficers are capable of...",
 			typewriter = {
 				speed = 0.05,

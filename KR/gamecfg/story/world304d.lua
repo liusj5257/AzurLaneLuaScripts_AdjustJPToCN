@@ -1,18 +1,18 @@
 return {
-	id = "WORLD304D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304D",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "어떻게 된 거지? 전부 지금까지 본 적 없는 신형이야...!",
-			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "신형의 작전 방식은 침입자와 유사하지만, 훨씬 상대하기 까다롭네요...",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "교란이 계속돼서 함재기를 조종하기가 힘들어. 전자기기 대부분이 마비돼서 공중 타격의 정확도가 떨어지고 있어! 에식스, 어떻게 하지?",
 			typewriter = {
 				speed = 0.05,
@@ -105,10 +105,10 @@ return {
 			}
 		},
 		{
+			say = "펑——————!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑——————!",
 			flashN = {
 				color = {
 					1,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "이 소리는... 대구경 함포! 드디어 지원군이 온 건가?!",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105190,
 			dir = 1,
+			actor = 105190,
 			say = "항공전대가 근접전이라니... 새로운 전술이라도 시험하는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "가능하면 우리도 이렇게 이상한 포지션으로 싸우고 싶지는 않았어! 여기엔 복잡한 이유가 있다고...!",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "선체의 손상은 경미해요. 하지만 전자 설비에 큰 타격을 입었어요... 이런 타이밍에 도와주러 오다니, 정말 다행이에요!",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105200,
 			dir = 1,
+			actor = 105200,
 			say = "걱정 마, 전함은 이런 상황에서 정면으로 적과 맞서기 위해 존재하니까.",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105190,
 			dir = 1,
+			actor = 105190,
 			say = "여기는 우리가 맡을 테니 어서 거리를 벌려. 사정거리의 힘을 보여주자고!",
 			typewriter = {
 				speed = 0.05,

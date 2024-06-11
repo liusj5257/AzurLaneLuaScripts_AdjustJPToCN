@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_newyork",
-			bgm = "level02",
-			dir = 1,
 			say = "이글 유니온·뉴욕 사령부, 조금 전. ",
+			dir = 1,
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,8 +74,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "안심해~ 세이렌이 틈을 타고 \"방문\"한다면 주포로 아주 잘 \"접대\"해줄테니까.",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "모두, 출항한 시간이야. 준비 완료됐으면 바로 움직여!",
 			typewriter = {
@@ -149,14 +149,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_newyork",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "엔터프라이즈, 나도 출발해서 지휘관과 합류해야겠어.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "베링해의 얼음 요새 공략 작전, 드디어 시작하는거야?",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "한결같이 차가운 노스 유니온이 이렇게 열정적으로 우리를 연합 작전에 초청하고, 지휘관더러 전방에서 지휘하도록 하는게, 무슨 음모가 있을 것 같은 느낌이...",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "이번 작전은 분명 석연치 않은 부분이 있어. 반드시 직접 가서 살펴봐야겠어.",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "작전이 순조롭길 바란다. 그리고 나 대신 지휘관을 잘 부탁해.",
 			typewriter = {
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "접수~",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

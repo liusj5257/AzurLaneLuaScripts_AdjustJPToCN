@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"永夜之城的魅影\n\n<size=45>五 命運的分叉路</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "搜索了整個房間，發現了一個偽裝成雕像的飲水機，以及一個杯子，但是……",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "搜索了整個房間，發現了一個偽裝成雕像的飲水機，以及一個杯子，但是……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "並沒有找到紅色的飲料，或者其他類似吸血鬼食物的東西。",
 			typewriter = {
 				speed = 0.05,
@@ -64,14 +64,14 @@ return {
 			}
 		},
 		{
-			actor = 402081,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "（指揮官一定注意不到被詛咒的那個……）",
 			fontsize = 40,
+			actor = 402081,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "（指揮官一定注意不到被詛咒的那個……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "（埃爾賓……小聲點……還有台詞……）",
 			fontsize = 40,
+			actor = 408024,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "（埃爾賓……小聲點……還有台詞……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,10 +132,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402081,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人類，留給我們的時間快不多了……我能感覺到，“永夜之主”的氣息越來越近了……",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "居然還是有時限的關卡……接下來應該——",
 			typewriter = {
 				speed = 0.05,
@@ -186,14 +186,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "門後是一條狹長、彎曲而又昏暗的走廊。走廊內又有無數的分支，但無論哪一個分支，都只會讓人回到這條昏暗的走廊。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -261,14 +261,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "完全被困，早知道就不這麼衝動了……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,13 +293,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這邊………",
 			typewriter = {
 				speed = 0.05,
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，我在這邊哦~",
 			typewriter = {
 				speed = 0.05,
@@ -344,13 +344,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "看來您因為一時心急，把希望押在了運氣上呢。",
 			typewriter = {
 				speed = 0.05,
@@ -362,13 +362,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不過很遺憾，這裡的走廊是有機關的。如果沒有完成解謎的話，無論哪扇門都只會通往BAD END哦~",
 			typewriter = {
 				speed = 0.05,
@@ -380,13 +380,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "現在請跟緊我，然後拿好這個小十字架~",
 			typewriter = {
 				speed = 0.05,
@@ -398,13 +398,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這本來是本關的通關獎勵，後面的場景裡你會用上的。",
 			typewriter = {
 				speed = 0.05,
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -529,13 +529,13 @@ return {
 			}
 		},
 		{
-			actor = 402081,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 402081,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "咕嘟……咕嘟……",
 			typewriter = {
 				speed = 0.05,
@@ -615,13 +615,13 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 408024,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人類，帶上這個吧。這是“永夜之主”用來限制主人力量的道具，如今它已經威脅不到主人，就送給你了。",
 			typewriter = {
 				speed = 0.05,
@@ -648,11 +648,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			optionFlag = 2,
+			blackBg = true,
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,

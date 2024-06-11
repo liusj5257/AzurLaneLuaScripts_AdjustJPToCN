@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU12",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level-french1",
 			say = "모잠비크 해협·비시아 성좌 통제구역",
+			side = 2,
+			dir = 1,
+			bgm = "level-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "격렬한 전투가 이어지고 있다. 하지만---",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "으으… 양산형으로 시간을 끌다니. 지금까지 양산형 말고 본 게 없잖아…",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "정말이지… 인내심이 바닥나겠군요. 알제리 일행은 대체 무슨 생각을 하는 걸까요. 기사라면 정정당당하게 나와서 싸워야죠.",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "이렇게 지연 전술을 쓰는 것을 보면 우리와 전면전을 펼칠지 결정하지 못한 것 아닐까요?",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "아니요. 알제리는 그렇게 우유부단하지 않습니다. 우리가 경고를 무시한 그 순간, 전면전은 이미 벌어졌어요.",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "우리가 이렇게 초조해하는 것이 바로 알제리의 전술이 먹혔다는 증거니까요…",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "알제리는 자신의 홈 그라운드라는 이점을 충분히 발휘해서 가능한한 오래 시간을 끌려고 할 테지요.",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 		{
 			expression = 10,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "에?!! 그럼 이 싸움은 언제 끝나는 거야…",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -248,8 +248,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "후후, 모두의 상태를 보니 진짜 공세가 곧 시작될 것 같군요.",
 			typewriter = {
 				speed = 0.05,

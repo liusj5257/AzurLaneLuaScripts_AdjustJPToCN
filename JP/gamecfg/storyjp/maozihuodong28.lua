@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG28",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG28",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "こんなの通るか―――！？",
 			bgm = "bgm-cccp",
+			actor = 900219,
+			nameColor = "#ff5c5c",
+			say = "こんなの通るか―――！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "アイウィルビーバック…！",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "親指を高く天に翳しながら、オミッターは海に消えた。",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "あっそ。よくわからないこと喋って結局タシュケントたちにボコられただけだったわね",
 			typewriter = {
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "――――！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "この要塞の構造物が崩れ始めてるよ！早く逃げるわよ！",
 			typewriter = {
@@ -148,15 +148,15 @@ return {
 			}
 		},
 		{
-			say = "………猛烈な轟音と波しぶきのあと、セイレーン要塞と氷山が完全に消え去った。",
 			side = 2,
 			bgName = "bg_cccp_8",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			say = "………猛烈な轟音と波しぶきのあと、セイレーン要塞と氷山が完全に消え去った。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "そして、鏡面海域もみんなの予測どおり解除され――嵐も止み、温かい冬の太陽の光が雲の間から差し込んできた。",
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "目の前に広がっている景色が、北方連合の領域に足を踏み入ったときと比べて違うように見えたが、もしかしたら変わってないのかもしれない",
 			typewriter = {
 				speed = 0.05,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "それを考えると、戦う前と比べて、随分と心境が変わった。",
 			typewriter = {
 				speed = 0.05,
@@ -271,9 +271,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "ようやく、母港に戻ってゆっくりと休める。",
 			typewriter = {
 				speed = 0.05,
@@ -285,9 +285,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "そう思った途端――",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "同志指揮官、もう少し北方連合に滞在を頼めないか？",
 			typewriter = {

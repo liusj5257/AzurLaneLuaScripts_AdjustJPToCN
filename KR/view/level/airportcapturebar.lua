@@ -1,6 +1,6 @@
 slot0 = class("AirportCaptureBar", import(".LevelStageStatusBarTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AirportCaptureBar"
 end
 

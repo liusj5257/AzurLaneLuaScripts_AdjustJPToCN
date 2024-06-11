@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "How did you get here, Javelin?",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,15 +84,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 10500040,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Fubuki! Mio! I'm so relieved to see you're okay!",
 			bgm = "holo-matsuri",
+			actor = 10500040,
+			nameColor = "#a9f548",
+			say = "Fubuki! Mio! I'm so relieved to see you're okay!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "Likewiiiise. I don't know what I would've pooooossibly done if you'd gotten huuuurt. God forbiiiid.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Yup. I'm Hololive's pure and innocent highschool girl – Natsuiro Matsuri!",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "And you're Kawakaze, aren't you? I've heard about you before! Listen, I've got a bucket list to check off, so would you mind if I stroked your tail? And could I get a hug? Can we go on a date after?",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Oh, you mean my shooty bang bang stuff? I got it from Purity!",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "She's this nice girl in spats who rescued me and Aqua when we were in trouble. She even made us some gear to defend ourselves with!",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "You know what \"can't be\"? How pretty she is! You should see her!",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "She and Aqua stayed behind at the Resistance base to strengthen its defenses while Javelin and I went out to look for people.",
 			typewriter = {
 				speed = 0.05,

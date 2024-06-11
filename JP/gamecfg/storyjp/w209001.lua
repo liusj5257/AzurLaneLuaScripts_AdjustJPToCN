@@ -1,12 +1,12 @@
 return {
-	id = "W209001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W209001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "そして、セイレーンの実験場も気がかりだ。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "余裕ができたら、【任務】で詳細をチェックしてみようか。",
 			typewriter = {
 				speed = 0.05,

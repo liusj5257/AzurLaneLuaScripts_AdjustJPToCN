@@ -1,12 +1,12 @@
 return {
-	id = "W710027",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710027",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "洋流貫通了",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在洋流的盡頭出現了時空通道……",
 			typewriter = {
 				speed = 0.05,

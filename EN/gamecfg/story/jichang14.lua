@@ -1,19 +1,19 @@
 return {
-	id = "JICHANG14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG14",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Welcome back, nya! We now return to our Muse System test run and conveniently coinciding idol showdown, nya!",
 			bgm = "azumaster-ins",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "Welcome back, nya! We now return to our Muse System test run and conveniently coinciding idol showdown, nya!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Port - Exercise Area",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "Oh, by the way, try not to think of this whole thing as \"serious idol business.\" Have fun with it and you'll perform better, trust me.",
 			typewriter = {
 				speed = 0.05,
@@ -159,10 +159,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 202280,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'm afraid I don't quite understand what that means, Sheffy...",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "As long as you're all on the same page, your choreography and singing will flow nicely together.",
 			typewriter = {
 				speed = 0.05,
@@ -207,10 +207,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Sounds like something we'd better commit to memory. Right, Tashkent?",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +224,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh, I see. Will do.",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "(Nobody's quipping at me for once... Feels pretty weird when you're as used to it as I am.)",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "Also, full disclose: we also explained all this to Lumière and Verheerender earlier when we ran into them. Just so you know.",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "Thus, everyone knows. The Master does not wish for any one team to have an advantage over another, you see.",
 			typewriter = {
 				speed = 0.05,
@@ -304,9 +304,9 @@ return {
 		{
 			actor = 103250,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "We really appreciate it. All we knew was just guesswork until you guys came along.",
 			typewriter = {
 				speed = 0.05,
@@ -320,9 +320,9 @@ return {
 		{
 			actor = 207110,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "Now, however, we have another problem: expressing our feelings through song does seem a difficult task...",
 			typewriter = {
 				speed = 0.05,
@@ -351,9 +351,9 @@ return {
 		{
 			actor = 202280,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "It is? Would you please elaborate, Akagi?",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			say = "The former: the bond she shares with her sister, not to mention the strength of the bond itself.",
 			typewriter = {
 				speed = 0.05,
@@ -414,8 +414,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "(And wouldn't you know it, Akagi has both of those connections...)",
 			typewriter = {
 				speed = 0.05,

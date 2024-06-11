@@ -159,14 +159,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 1090012,
 	picture = "",
 	desc = "装备效率提高",
 	stack = 1,
-	id = 1090012,
+	color = "red",
 	icon = 1090012,
 	last_effect = "",
 	effect_list = {

@@ -7,10 +7,10 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "U556meta_ready",
 				operation = -1

@@ -14,21 +14,21 @@ slot11 = class("BattleCardPuzzleCard")
 slot0.Battle.BattleCardPuzzleCard = slot11
 slot11.__name = "BattleCardPuzzleCard"
 
-function slot11.GetCardEffectConfig(slot0)
+slot11.GetCardEffectConfig = function(slot0)
 	return pg.cardCfg["card_" .. slot0]
 end
 
-function slot11.Ctor(slot0, slot1)
+slot11.Ctor = function(slot0, slot1)
 	slot0._client = slot1
 
 	slot0:init()
 end
 
-function slot11.init(slot0)
+slot11.init = function(slot0)
 	slot0._timeStampList = {}
 end
 
-function slot11.SetCardTemplate(slot0, slot1)
+slot11.SetCardTemplate = function(slot0, slot1)
 	slot0._cardID = slot1
 	slot0._cardTemp = uv0.GetPuzzleCardDataTemplate(slot0._cardID)
 	slot2 = uv1.GetCardEffectConfig(slot0._cardTemp.effect[1])
@@ -46,47 +46,47 @@ function slot11.SetCardTemplate(slot0, slot1)
 	slot0._boostCondition = slot2.boost_hint
 end
 
-function slot11.GetCardTemplate(slot0)
+slot11.GetCardTemplate = function(slot0)
 	return slot0._cardTemp
 end
 
-function slot11.GetCardID(slot0)
+slot11.GetCardID = function(slot0)
 	return slot0._cardID
 end
 
-function slot11.GetRarity(slot0)
+slot11.GetRarity = function(slot0)
 	return slot0._cardTemp.rarity
 end
 
-function slot11.GetCardType(slot0)
+slot11.GetCardType = function(slot0)
 	return slot0._cardTemp.card_type
 end
 
-function slot11.GetCardCD(slot0)
+slot11.GetCardCD = function(slot0)
 	return slot0._cardTemp.cooldown
 end
 
-function slot11.GetLabels(slot0)
+slot11.GetLabels = function(slot0)
 	return slot0._labelList
 end
 
-function slot11.GetCurrentPile(slot0)
+slot11.GetCurrentPile = function(slot0)
 	return slot0._currentPile
 end
 
-function slot11.SetCurrentPile(slot0, slot1)
+slot11.SetCurrentPile = function(slot0, slot1)
 	slot0._currentPile = slot1
 end
 
-function slot11.GetFromPile(slot0)
+slot11.GetFromPile = function(slot0)
 	return slot0._fromPile
 end
 
-function slot11.SetFromPile(slot0, slot1)
+slot11.SetFromPile = function(slot0, slot1)
 	slot0._fromPile = slot1
 end
 
-function slot11.LabelContain(slot0, slot1)
+slot11.LabelContain = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		if table.contains(slot0._labelList, slot6) then
 			return true
@@ -96,7 +96,7 @@ function slot11.LabelContain(slot0, slot1)
 	return false
 end
 
-function slot11.GetCastCondition(slot0)
+slot11.GetCastCondition = function(slot0)
 	if not slot0._castCondition then
 		return nil
 	else
@@ -104,11 +104,11 @@ function slot11.GetCastCondition(slot0)
 	end
 end
 
-function slot11.GetBaseCost(slot0)
+slot11.GetBaseCost = function(slot0)
 	return slot0._cost
 end
 
-function slot11.GetExtraCost(slot0)
+slot11.GetExtraCost = function(slot0)
 	if not slot0._extraCost then
 		return 0
 	else
@@ -116,15 +116,15 @@ function slot11.GetExtraCost(slot0)
 	end
 end
 
-function slot11.GetTotalCost(slot0)
+slot11.GetTotalCost = function(slot0)
 	return math.max(slot0:GetBaseCost() + slot0:GetExtraCost(), 0)
 end
 
-function slot11.GetReturnCost(slot0)
+slot11.GetReturnCost = function(slot0)
 	return slot0._returnCost
 end
 
-function slot11.IsBoost(slot0)
+slot11.IsBoost = function(slot0)
 	if not slot0._boostCondition then
 		return false
 	else
@@ -132,22 +132,22 @@ function slot11.IsBoost(slot0)
 	end
 end
 
-function slot11.GetIconID(slot0)
+slot11.GetIconID = function(slot0)
 	return slot0._iconID
 end
 
-function slot11.GetMoveAfterCast(slot0)
+slot11.GetMoveAfterCast = function(slot0)
 	return slot0._moveAfterCaster
 end
 
-function slot11.SetBaseEnergyFillDuration(slot0, slot1)
+slot11.SetBaseEnergyFillDuration = function(slot0, slot1)
 	slot0._timeStampList.energy = {
 		duration = slot1,
 		timeStamp = slot1 + pg.TimeMgr.GetInstance():GetCombatTime()
 	}
 end
 
-function slot11.SetOverHeatDuration(slot0, slot1)
+slot11.SetOverHeatDuration = function(slot0, slot1)
 	timeStamp = slot1 + pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0._timeStampList.overheat = {
 		duration = slot1,
@@ -155,7 +155,7 @@ function slot11.SetOverHeatDuration(slot0, slot1)
 	}
 end
 
-function slot11.GetCastRemainRate(slot0)
+slot11.GetCastRemainRate = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -173,7 +173,7 @@ function slot11.GetCastRemainRate(slot0)
 	end
 end
 
-function slot11.Precast(slot0, slot1)
+slot11.Precast = function(slot0, slot1)
 	slot0._castCallback = slot1
 
 	if slot0._holdForInputMark then
@@ -183,7 +183,7 @@ function slot11.Precast(slot0, slot1)
 	end
 end
 
-function slot11.Cast(slot0)
+slot11.Cast = function(slot0)
 	slot0:checkAndStartQueue(slot0._queueList)
 
 	if slot0._castCallback then
@@ -191,28 +191,28 @@ function slot11.Cast(slot0)
 	end
 end
 
-function slot11.Retrun(slot0, slot1)
+slot11.Retrun = function(slot0, slot1)
 	slot0:checkAndStartQueue(slot0._returnQueueList)
 	slot1()
 end
 
-function slot11.Active(slot0)
+slot11.Active = function(slot0)
 	slot0:checkAndStartQueue(slot0._queueList)
 end
 
-function slot11.SetInputPoint(slot0, slot1)
+slot11.SetInputPoint = function(slot0, slot1)
 	slot0._inputPoint = Clone(slot1)
 end
 
-function slot11.GetInputPoint(slot0)
+slot11.GetInputPoint = function(slot0)
 	return slot0._inputPoint
 end
 
-function slot11.GetClient(slot0)
+slot11.GetClient = function(slot0)
 	return slot0._client
 end
 
-function slot11.QueueFinish(slot0, slot1)
+slot11.QueueFinish = function(slot0, slot1)
 	if slot1:GetBranch() then
 		slot3 = {}
 
@@ -231,7 +231,7 @@ function slot11.QueueFinish(slot0, slot1)
 	end
 end
 
-function slot11.initCardEffectList(slot0)
+slot11.initCardEffectList = function(slot0)
 	slot0._holdForInputMark = false
 	slot0._moveAfterCaster = uv0.Battle.BattleFleetCardPuzzleComponent.CARD_PILE_INDEX_DISCARD
 	slot0._branchQueueList = {}
@@ -281,7 +281,7 @@ function slot11.initCardEffectList(slot0)
 	end
 end
 
-function slot11.checkAndStartQueue(slot0, slot1)
+slot11.checkAndStartQueue = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -300,7 +300,7 @@ function slot11.checkAndStartQueue(slot0, slot1)
 	end
 end
 
-function slot11.GetCardEffectTargetFilterList(slot0)
+slot11.GetCardEffectTargetFilterList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0._effectList) do
@@ -316,7 +316,7 @@ slot11.AIM_FX_EFFECT = {
 	"BattleCardPuzzleSkillFire"
 }
 
-function slot11.checkQueueTarget(slot0, slot1, slot2)
+slot11.checkQueueTarget = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot1) do
 		if table.contains(uv0.AIM_FX_EFFECT, slot7.type) and slot7.target_choise then
 			slot8 = slot2[slot7.caster] or {}
@@ -336,30 +336,30 @@ function slot11.checkQueueTarget(slot0, slot1, slot2)
 	end
 end
 
-function slot11.GetIconPath(slot0)
+slot11.GetIconPath = function(slot0)
 	return CardPuzzleCard.GetCardIconPath(slot0:GetCardTemplate().icon)
 end
 
-function slot11.GetType(slot0)
+slot11.GetType = function(slot0)
 	return slot0:GetCardType()
 end
 
-function slot11.GetName(slot0)
+slot11.GetName = function(slot0)
 	return slot0:GetCardTemplate().name
 end
 
-function slot11.GetDesc(slot0)
+slot11.GetDesc = function(slot0)
 	return slot0:GetCardTemplate().discript
 end
 
-function slot11.GetCost(slot0)
+slot11.GetCost = function(slot0)
 	return slot0:GetTotalCost()
 end
 
-function slot11.GetKeywords(slot0)
+slot11.GetKeywords = function(slot0)
 	return CardPuzzleCard.GetCardKeyWord(slot0:GetCardTemplate().label)
 end
 
-function slot11.getConfig(slot0, slot1)
+slot11.getConfig = function(slot0, slot1)
 	return slot0._cardTemp[slot1]
 end

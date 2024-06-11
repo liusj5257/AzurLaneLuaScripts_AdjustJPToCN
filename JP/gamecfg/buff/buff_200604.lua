@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 剧情战 敌人召唤自爆",
 	time = 7.9,
+	name = "2023云仙活动 剧情战 敌人召唤自爆",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -35,9 +35,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200604,
 				time = 4,
-				target = "TargetSelf",
-				skill_id = 200604
+				target = "TargetSelf"
 			}
 		}
 	}

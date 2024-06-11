@@ -4,11 +4,11 @@ slot2 = {
 	[99.0] = true
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldPreCombatUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.eventTriggers = {}
 	slot0.middle = slot0:findTF("middle")
 	slot0.right = slot0:findTF("right")
@@ -86,7 +86,7 @@ function slot0.init(slot0)
 	end
 end
 
-function slot0.uiStartAnimating(slot0)
+slot0.uiStartAnimating = function(slot0)
 	setAnchoredPosition(slot0.middle, {
 		x = -840
 	})
@@ -105,7 +105,7 @@ function slot0.uiStartAnimating(slot0)
 	shiftPanel(slot0.top, nil, 0, slot2, slot1, true, true, nil, )
 end
 
-function slot0.uiExitAnimating(slot0)
+slot0.uiExitAnimating = function(slot0)
 	slot1 = 0
 	slot2 = 0.3
 
@@ -114,7 +114,7 @@ function slot0.uiExitAnimating(slot0)
 	shiftPanel(slot0.top, nil, slot0.top.rect.height, slot2, slot1, true, true, nil, )
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 
@@ -170,7 +170,7 @@ function slot0.didEnter(slot0)
 	end, SFX_UI_WEIGHANCHOR)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:hideStrategyInfo()
@@ -180,29 +180,29 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.setPlayerInfo(slot0, slot1)
+slot0.setPlayerInfo = function(slot0, slot1)
 	slot0.resPanel:setPlayer(slot1)
 	setActive(slot0.resPanel._tf, nowWorld():IsSystemOpen(WorldConst.SystemResource))
 end
 
-function slot0.getCurrentFleet(slot0)
+slot0.getCurrentFleet = function(slot0)
 	return nowWorld():GetFleet()
 end
 
-function slot0.GetCurrentAttachment(slot0)
+slot0.GetCurrentAttachment = function(slot0)
 	slot1 = nowWorld():GetActiveMap()
 	slot2 = slot1:GetFleet()
 
 	return slot1:GetCell(slot2.row, slot2.column):GetAliveAttachment(), slot1.config.difficulty
 end
 
-function slot0.updateStageView(slot0)
+slot0.updateStageView = function(slot0)
 	setActive(slot0.normaltab, false)
 	setActive(slot0.informationtab, true)
 	slot0:UpdateInformationtab()
 end
 
-function slot0.UpdateNormaltab(slot0)
+slot0.UpdateNormaltab = function(slot0)
 	slot1, slot2 = slot0:GetCurrentAttachment()
 	slot5 = {}
 
@@ -232,7 +232,7 @@ end
 slot3 = "fe2222"
 slot4 = "92fc63"
 
-function slot0.UpdateInformationtab(slot0)
+slot0.UpdateInformationtab = function(slot0)
 	slot1, slot2 = slot0:GetCurrentAttachment()
 	slot3 = slot1:GetBattleStageId()
 	slot4 = pg.world_expedition_data[slot3]
@@ -327,7 +327,7 @@ function slot0.UpdateInformationtab(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateCharacters(slot0)
+slot0.updateCharacters = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:LoadingOn()
@@ -340,15 +340,15 @@ function slot0.updateCharacters(slot0)
 	end)
 end
 
-function slot0.flushCharacters(slot0)
+slot0.flushCharacters = function(slot0)
 	slot0:resetGrid(TeamType.Vanguard)
 	slot0:resetGrid(TeamType.Main)
 	slot0:setAllCharacterPos(true)
 	slot0:updateFleetView()
 end
 
-function slot0.updateFleetView(slot0)
-	function slot1(slot0, slot1)
+slot0.updateFleetView = function(slot0)
+	slot1 = function(slot0, slot1)
 		removeAllChildren(slot0)
 
 		for slot5 = 1, 3 do
@@ -377,7 +377,7 @@ function slot0.updateFleetView(slot0)
 	slot1(slot0.fleet:Find("vanguard"), slot2:GetTeamShipVOs(TeamType.Vanguard, true))
 end
 
-function slot0.loadAllCharacter(slot0, slot1)
+slot0.loadAllCharacter = function(slot0, slot1)
 	removeAllChildren(slot0.heroContainer)
 
 	slot0.characterList = {
@@ -385,7 +385,7 @@ function slot0.loadAllCharacter(slot0, slot1)
 		[TeamType.Main] = {}
 	}
 
-	function slot2(slot0, slot1, slot2, slot3)
+	slot2 = function(slot0, slot1, slot2, slot3)
 		if uv0.exited then
 			slot0:Dispose()
 
@@ -466,7 +466,7 @@ function slot0.loadAllCharacter(slot0, slot1)
 		end
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		for slot6, slot7 in ipairs(uv0:getCurrentFleet():GetTeamShipVOs(slot0, false)) do
 			table.insert(uv1, function (slot0)
 				slot1 = SpineRole.New(uv0)
@@ -492,7 +492,7 @@ function slot0.loadAllCharacter(slot0, slot1)
 	end)
 end
 
-function slot0.showEnergyDesc(slot0, slot1, slot2)
+slot0.showEnergyDesc = function(slot0, slot1, slot2)
 	if LeanTween.isTweening(go(slot0.energyDescTF)) then
 		LeanTween.cancel(go(slot0.energyDescTF))
 
@@ -516,7 +516,7 @@ function slot0.showEnergyDesc(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.setAllCharacterPos(slot0, slot1)
+slot0.setAllCharacterPos = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.characterList[TeamType.Vanguard]) do
 		slot0:setCharacterPos(TeamType.Vanguard, slot5, tf(slot6.model), slot1)
 	end
@@ -528,7 +528,7 @@ function slot0.setAllCharacterPos(slot0, slot1)
 	slot0:sortSiblingIndex()
 end
 
-function slot0.setCharacterPos(slot0, slot1, slot2, slot3, slot4)
+slot0.setCharacterPos = function(slot0, slot1, slot2, slot3, slot4)
 	SetActive(slot3, true)
 
 	slot6 = slot0.gridTFs[slot1][slot2].localPosition
@@ -547,14 +547,14 @@ function slot0.setCharacterPos(slot0, slot1, slot2, slot3, slot4)
 	slot3:GetComponent("SpineAnimUI"):SetAction("stand", 0)
 end
 
-function slot0.resetGrid(slot0, slot1)
+slot0.resetGrid = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.gridTFs[slot1]) do
 		SetActive(slot7:Find("shadow"), false)
 	end
 end
 
-function slot0.switchToEditMode(slot0)
-	function slot1(slot0)
+slot0.switchToEditMode = function(slot0)
+	slot1 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if tf(slot5.model):Find("mouseChild") then
 				slot8 = slot7:GetComponent("EventTriggerListener")
@@ -579,7 +579,7 @@ function slot0.switchToEditMode(slot0)
 	slot0:flushCharacters()
 end
 
-function slot0.switchToShiftMode(slot0, slot1, slot2)
+slot0.switchToShiftMode = function(slot0, slot1, slot2)
 	for slot6 = 1, 3 do
 		setActive(slot0.gridTFs[TeamType.Vanguard][slot6]:Find("tip"), false)
 		setActive(slot0.gridTFs[TeamType.Main][slot6]:Find("tip"), false)
@@ -613,7 +613,7 @@ function slot0.switchToShiftMode(slot0, slot1, slot2)
 	end
 end
 
-function slot0.shift(slot0, slot1, slot2, slot3)
+slot0.shift = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.characterList[slot3]
 	slot6 = slot4[slot2].model
 	slot8 = slot0.gridTFs[slot3][slot1].localPosition
@@ -633,7 +633,7 @@ function slot0.shift(slot0, slot1, slot2, slot3)
 	slot0:sortSiblingIndex()
 end
 
-function slot0.sortSiblingIndex(slot0)
+slot0.sortSiblingIndex = function(slot0)
 	slot1 = 3
 	slot2 = 0
 
@@ -656,13 +656,13 @@ function slot0.sortSiblingIndex(slot0)
 	end
 end
 
-function slot0.enabledTeamCharacter(slot0, slot1, slot2)
+slot0.enabledTeamCharacter = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot0.characterList[slot1]) do
 		slot0:enabledCharacter(slot8.model, slot2, slot1)
 	end
 end
 
-function slot0.enabledCharacter(slot0, slot1, slot2, slot3)
+slot0.enabledCharacter = function(slot0, slot1, slot2, slot3)
 	if slot2 then
 		slot4, slot5, slot6 = tf(slot1):Find("mouseChild")
 
@@ -715,7 +715,7 @@ function slot0.enabledCharacter(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.displayFleetInfo(slot0)
+slot0.displayFleetInfo = function(slot0)
 	slot1 = slot0:getCurrentFleet()
 
 	uv0.tweenNumText(slot0.vanguardGS, _.reduce(slot1:GetTeamShipVOs(TeamType.Vanguard, false), 0, function (slot0, slot1)
@@ -726,13 +726,13 @@ function slot0.displayFleetInfo(slot0)
 	end))
 end
 
-function slot0.hideStrategyInfo(slot0)
+slot0.hideStrategyInfo = function(slot0)
 	if slot0.strategyPanel then
 		slot0.strategyPanel:detach()
 	end
 end
 
-function slot0.recycleCharacterList(slot0, slot1, slot2)
+slot0.recycleCharacterList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot1) do
 		if slot2[slot6] then
 			slot2[slot6]:Dispose()
@@ -742,7 +742,7 @@ function slot0.recycleCharacterList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 
 	if slot0.resPanel then
@@ -769,7 +769,7 @@ function slot0.willExit(slot0)
 	slot0:recycleCharacterList(slot1:GetTeamShipVOs(TeamType.Vanguard, false), slot0.characterList[TeamType.Vanguard])
 end
 
-function slot0.Clone2Full(slot0, slot1)
+slot0.Clone2Full = function(slot0, slot1)
 	slot2 = {}
 	slot3 = slot0:GetChild(0)
 
@@ -784,7 +784,7 @@ function slot0.Clone2Full(slot0, slot1)
 	return slot2
 end
 
-function slot0.TransformColor(slot0)
+slot0.TransformColor = function(slot0)
 	return Color.New(tonumber(string.sub(slot0, 1, 2), 16) / 255, tonumber(string.sub(slot0, 3, 4), 16) / 255, tonumber(string.sub(slot0, 5, 6), 16) / 255)
 end
 

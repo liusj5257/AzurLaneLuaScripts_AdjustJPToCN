@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"疲労回復の秘訣とは⁉\n\n<size=45>五 秘訣は休暇？</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "サン・ジャシントからあれこれと小言を言われながら深夜まで仕事した。",
 			bgm = "story-richang-7",
+			say = "サン・ジャシントからあれこれと小言を言われながら深夜まで仕事した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,10 +29,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これで最後の一枚です。指揮官さん",
 			painting = {
 				alpha = 0.3,
@@ -71,10 +71,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さんはやはりずるいです～。いまさら言葉でごまかすんですか？",
 			painting = {
 				alpha = 0.3,
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "からかうような彼女の目には、期待の色も混じっていた。",
@@ -124,10 +124,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それって、私とデートしたい、ということですか～？",
 			painting = {
 				alpha = 0.3,
@@ -142,10 +142,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふ、じゃあ指揮官さんからのご褒美としていただきますね♪",
 			painting = {
 				alpha = 0.3,
@@ -184,10 +184,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どうしたんですか指揮官さん？じっと見つめて…",
 			painting = {
 				alpha = 0.3,
@@ -262,10 +262,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え…………………？",
 			painting = {
 				alpha = 0.3,
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "気のせいか、サン・ジャシントの耳が赤くなったように見えた。",
@@ -291,10 +291,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "んん……",
 			painting = {
 				alpha = 0.3,
@@ -309,10 +309,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ま、まったく…いきなり…",
 			painting = {
 				alpha = 0.3,
@@ -327,10 +327,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これは指揮官さんの企みですね～。投げかけられた質問をそのまま返すなんて、やはりずるいです♪",
 			painting = {
 				alpha = 0.3,
@@ -345,10 +345,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあそんな指揮官さんも嫌いではありませんよ…？",
 			painting = {
 				alpha = 0.3,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "サン・ジャシントは耳だけでなく、首や頬まで少し赤くなっている。どうやら錯覚ではないようだ。",
@@ -374,10 +374,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "明日のデート、とても楽しみですよ、し～き～か～ん～さん♪",
 			painting = {
 				alpha = 0.3,

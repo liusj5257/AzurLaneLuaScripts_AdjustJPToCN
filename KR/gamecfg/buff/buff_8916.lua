@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "布里斯托尔共斗 阶段叠加buff",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 8916,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 8916,
+	color = "yellow",
 	icon = 8916,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 2000
+				number = 2000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -35,8 +35,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 2000
+				number = 2000,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -46,8 +46,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.12
+				number = 0.12,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -3,23 +3,23 @@ slot0.Fields = {
 	config = "table",
 	sairenEntranceList = "table",
 	replaceDic = "table",
-	achEntranceList = "table",
+	entranceDic = "table",
 	costMapDic = "table",
 	mapDic = "table",
-	transportDic = "table",
-	activeEntranceId = "number",
+	achEntranceList = "table",
+	markPortDic = "table",
 	pressingMapList = "table",
-	areaEntranceList = "table",
+	nShopGoodsDic = "table",
 	portEntranceList = "table",
 	activeMapId = "number",
 	taskMarkDic = "table",
 	pressingUnlcokCount = "number",
 	world = "table",
-	markPortDic = "table",
+	transportDic = "table",
 	treasureMarkDic = "table",
 	id = "number",
-	entranceDic = "table",
-	nShopGoodsDic = "table",
+	activeEntranceId = "number",
+	areaEntranceList = "table",
 	mapEntrance = "table"
 }
 slot0.EventUpdateProgress = "WorldAtlas.EventUpdateProgress"
@@ -39,7 +39,7 @@ slot0.Scales = {
 	slot0.ScaleFull
 }
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0)
 
 	slot0.id = slot1
@@ -51,7 +51,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:BuildEntranceDic()
 end
 
-function slot0.Build(slot0)
+slot0.Build = function(slot0)
 	slot0.entranceDic = {}
 	slot0.mapDic = {}
 	slot0.taskMarkDic = {}
@@ -63,13 +63,13 @@ function slot0.Build(slot0)
 	slot0.markPortDic = {}
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	WPool:ReturnMap(slot0.entranceDic)
 	WPool:ReturnMap(slot0.mapDic)
 	slot0:Clear()
 end
 
-function slot0.NewEntrance(slot0, slot1)
+slot0.NewEntrance = function(slot0, slot1)
 	slot2 = WPool:Get(WorldEntrance)
 
 	slot2:Setup(slot1, slot0)
@@ -79,7 +79,7 @@ function slot0.NewEntrance(slot0, slot1)
 	return slot2
 end
 
-function slot0.NewMap(slot0, slot1)
+slot0.NewMap = function(slot0, slot1)
 	slot2 = WPool:Get(WorldMap)
 
 	slot2:Setup(slot1)
@@ -89,19 +89,19 @@ function slot0.NewMap(slot0, slot1)
 	return slot2
 end
 
-function slot0.BuildEntranceDic(slot0)
+slot0.BuildEntranceDic = function(slot0)
 	slot1 = {
 		{
-			field = "stage_chapter",
-			name = "step"
+			name = "step",
+			field = "stage_chapter"
 		},
 		{
-			field = "task_chapter",
-			name = "task"
+			name = "task",
+			field = "task_chapter"
 		},
 		{
-			field = "teasure_chapter",
-			name = "treasure"
+			name = "treasure",
+			field = "teasure_chapter"
 		}
 	}
 	slot0.mapEntrance = {}
@@ -161,11 +161,11 @@ function slot0.BuildEntranceDic(slot0)
 	end)
 end
 
-function slot0.GetEntrance(slot0, slot1)
+slot0.GetEntrance = function(slot0, slot1)
 	return slot0.entranceDic[slot1]
 end
 
-function slot0.SetActiveEntrance(slot0, slot1)
+slot0.SetActiveEntrance = function(slot0, slot1)
 	if slot0.activeEntranceId ~= slot1.id then
 		slot0.activeEntranceId = slot1.id
 
@@ -173,11 +173,11 @@ function slot0.SetActiveEntrance(slot0, slot1)
 	end
 end
 
-function slot0.GetActiveEntrance(slot0)
+slot0.GetActiveEntrance = function(slot0)
 	return slot0.activeEntranceId and slot0:GetEntrance(slot0.activeEntranceId)
 end
 
-function slot0.GetMap(slot0, slot1)
+slot0.GetMap = function(slot0, slot1)
 	if not slot0.mapDic[slot1] then
 		slot0:NewMap(slot1)
 	end
@@ -185,7 +185,7 @@ function slot0.GetMap(slot0, slot1)
 	return slot0.mapDic[slot1]
 end
 
-function slot0.SetActiveMap(slot0, slot1)
+slot0.SetActiveMap = function(slot0, slot1)
 	if slot0.activeMapId ~= slot1.id then
 		slot0.activeMapId = slot1.id
 
@@ -193,15 +193,15 @@ function slot0.SetActiveMap(slot0, slot1)
 	end
 end
 
-function slot0.GetActiveMap(slot0)
+slot0.GetActiveMap = function(slot0)
 	return slot0.activeMapId and slot0:GetMap(slot0.activeMapId)
 end
 
-function slot0.GetDiscoverRate(slot0)
+slot0.GetDiscoverRate = function(slot0)
 	return 0
 end
 
-function slot0.CheckMapActive(slot0, slot1)
+slot0.CheckMapActive = function(slot0, slot1)
 	slot2 = slot0:GetMap(slot1)
 
 	assert(slot2, "map not exist: " .. slot1)
@@ -211,31 +211,31 @@ function slot0.CheckMapActive(slot0, slot1)
 	end)
 end
 
-function slot0.GetAtlasPixelSize(slot0)
+slot0.GetAtlasPixelSize = function(slot0)
 	return Vector2(slot0.config.size[1], slot0.config.size[2])
 end
 
-function slot0.GetAchEntranceList(slot0)
+slot0.GetAchEntranceList = function(slot0)
 	return slot0.achEntranceList
 end
 
-function slot0.GetOpenEntranceDic(slot0, slot1)
+slot0.GetOpenEntranceDic = function(slot0, slot1)
 	return slot0.replaceDic.open[nowWorld():GetRealm()][slot1] or {}
 end
 
-function slot0.GetStepDic(slot0, slot1)
+slot0.GetStepDic = function(slot0, slot1)
 	return slot0.replaceDic.step[slot1] or {}
 end
 
-function slot0.GetTaskDic(slot0, slot1)
+slot0.GetTaskDic = function(slot0, slot1)
 	return slot0.replaceDic.task[slot1] or {}
 end
 
-function slot0.GetTreasureDic(slot0, slot1)
+slot0.GetTreasureDic = function(slot0, slot1)
 	return slot0.replaceDic.treasure[slot1] or {}
 end
 
-function slot0.UpdateProgress(slot0, slot1, slot2)
+slot0.UpdateProgress = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7 = slot1 + 1, slot2 do
@@ -268,7 +268,7 @@ function slot0.UpdateProgress(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateTask(slot0, slot1)
+slot0.UpdateTask = function(slot0, slot1)
 	slot0.taskMarkDic[slot1.id] = slot2
 
 	if (slot1:isAlive() and 1 or 0) - (slot0.taskMarkDic[slot1.id] and 1 or 0) == 0 then
@@ -301,7 +301,7 @@ function slot0.UpdateTask(slot0, slot1)
 	end
 end
 
-function slot0.UpdateTreasure(slot0, slot1)
+slot0.UpdateTreasure = function(slot0, slot1)
 	slot0.treasureMarkDic[slot1] = slot4 > 0
 
 	if (nowWorld():GetInventoryProxy():GetItemCount(slot1) > 0 and 1 or 0) - (slot0.treasureMarkDic[slot1] and 1 or 0) ~= 0 then
@@ -315,7 +315,7 @@ function slot0.UpdateTreasure(slot0, slot1)
 	end
 end
 
-function slot0.SetPressingMarkList(slot0, slot1)
+slot0.SetPressingMarkList = function(slot0, slot1)
 	_.each(slot0.pressingMapList, function (slot0)
 		uv0:GetMap(slot0):UpdatePressingMark(false)
 	end)
@@ -335,7 +335,7 @@ function slot0.SetPressingMarkList(slot0, slot1)
 	slot0:BuildTransportDic()
 end
 
-function slot0.BuildTransportDic(slot0)
+slot0.BuildTransportDic = function(slot0)
 	slot0.transportDic = {}
 
 	for slot4, slot5 in pairs(slot0.entranceDic) do
@@ -353,7 +353,7 @@ function slot0.BuildTransportDic(slot0)
 	end
 end
 
-function slot0.AddPortTransportDic(slot0)
+slot0.AddPortTransportDic = function(slot0)
 	for slot4, slot5 in pairs(slot0.portEntranceList) do
 		for slot9, slot10 in ipairs(slot5) do
 			slot0.transportDic[slot10] = true
@@ -361,13 +361,13 @@ function slot0.AddPortTransportDic(slot0)
 	end
 end
 
-function slot0.MarkMapTransport(slot0, slot1)
+slot0.MarkMapTransport = function(slot0, slot1)
 	if slot0.mapEntrance[slot1] then
 		slot0.transportDic[slot2.id] = true
 	end
 end
 
-function slot0.AddPressingMap(slot0, slot1)
+slot0.AddPressingMap = function(slot0, slot1)
 	if _.any(slot0.pressingMapList, function (slot0)
 		return slot0 == uv0
 	end) then
@@ -402,19 +402,19 @@ function slot0.AddPressingMap(slot0, slot1)
 	end
 end
 
-function slot0.GetPressingUnlockCount(slot0)
+slot0.GetPressingUnlockCount = function(slot0)
 	return slot0.pressingUnlcokCount
 end
 
-function slot0.GetPressingUnlockRecordCount(slot0, slot1)
+slot0.GetPressingUnlockRecordCount = function(slot0, slot1)
 	return PlayerPrefs.GetInt(string.format("world_new_shop_unlock_count_in_port_%d_%d_%d", getProxy(PlayerProxy):getRawData().id, nowWorld().activateCount, slot1), -1)
 end
 
-function slot0.SetPressingUnlockRecordCount(slot0, slot1, slot2)
+slot0.SetPressingUnlockRecordCount = function(slot0, slot1, slot2)
 	return PlayerPrefs.SetInt(string.format("world_new_shop_unlock_count_in_port_%d_%d_%d", getProxy(PlayerProxy):getRawData().id, nowWorld().activateCount, slot1), slot2)
 end
 
-function slot0.SetSairenEntranceList(slot0, slot1)
+slot0.SetSairenEntranceList = function(slot0, slot1)
 	_.each(slot0.sairenEntranceList, function (slot0)
 		slot1 = uv0:GetEntrance(slot0)
 
@@ -432,7 +432,7 @@ function slot0.SetSairenEntranceList(slot0, slot1)
 	end)
 end
 
-function slot0.RemoveSairenEntrance(slot0, slot1)
+slot0.RemoveSairenEntrance = function(slot0, slot1)
 	if table.indexof(slot0.sairenEntranceList, slot1.id) then
 		table.remove(slot0.sairenEntranceList, slot2)
 		slot1:UpdateSairenMark(false)
@@ -440,7 +440,7 @@ function slot0.RemoveSairenEntrance(slot0, slot1)
 	end
 end
 
-function slot0.SetCostMapList(slot0, slot1)
+slot0.SetCostMapList = function(slot0, slot1)
 	for slot5 in pairs(slot0.costMapDic) do
 		slot0:GetMap(slot5).isCost = false
 	end
@@ -453,7 +453,7 @@ function slot0.SetCostMapList(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateCostMap(slot0, slot1, slot2)
+slot0.UpdateCostMap = function(slot0, slot1, slot2)
 	if not slot0.costMapDic[slot1] and slot2 then
 		nowWorld():ClearAllFleetDefeatEnemies()
 	end
@@ -461,7 +461,7 @@ function slot0.UpdateCostMap(slot0, slot1, slot2)
 	slot0.costMapDic[slot1] = slot2
 end
 
-function slot0.SetPortMarkList(slot0, slot1, slot2)
+slot0.SetPortMarkList = function(slot0, slot1, slot2)
 	slot0.markPortDic.goods = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -475,7 +475,7 @@ function slot0.SetPortMarkList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdatePortMark(slot0, slot1, slot2, slot3)
+slot0.UpdatePortMark = function(slot0, slot1, slot2, slot3)
 	if not slot0.portEntranceList[slot1] then
 		return
 	end
@@ -505,7 +505,7 @@ function slot0.UpdatePortMark(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.InitPortMarkNShopList(slot0)
+slot0.InitPortMarkNShopList = function(slot0)
 	slot1 = slot0:GetPressingUnlockCount()
 	slot0.markPortDic.newGoods = {}
 
@@ -523,7 +523,7 @@ function slot0.InitPortMarkNShopList(slot0)
 	end
 end
 
-function slot0.UpdateUnlockCountPortMark(slot0)
+slot0.UpdateUnlockCountPortMark = function(slot0)
 	if not nowWorld():UsePortNShop() then
 		return
 	end
@@ -547,7 +547,7 @@ function slot0.UpdateUnlockCountPortMark(slot0)
 	end
 end
 
-function slot0.UpdatePortMarkNShop(slot0, slot1, slot2)
+slot0.UpdatePortMarkNShop = function(slot0, slot1, slot2)
 	if not slot0.portEntranceList[slot1] then
 		return
 	end
@@ -567,7 +567,7 @@ function slot0.UpdatePortMarkNShop(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetAnyPortMarkNShop(slot0)
+slot0.GetAnyPortMarkNShop = function(slot0)
 	for slot4, slot5 in pairs(slot0.markPortDic.newGoods) do
 		if slot5 then
 			return true
@@ -577,7 +577,7 @@ function slot0.GetAnyPortMarkNShop(slot0)
 	return false
 end
 
-function slot0.InitWorldNShopGoods(slot0, slot1)
+slot0.InitWorldNShopGoods = function(slot0, slot1)
 	slot0.nShopGoodsDic = {}
 
 	for slot5, slot6 in ipairs(pg.world_newshop_data.all) do
@@ -591,7 +591,7 @@ function slot0.InitWorldNShopGoods(slot0, slot1)
 	end
 end
 
-function slot0.UpdateNShopGoodsCount(slot0, slot1, slot2)
+slot0.UpdateNShopGoodsCount = function(slot0, slot1, slot2)
 	assert(slot0.nShopGoodsDic[slot1], "without this goods:" .. slot1)
 
 	if slot2 ~= 0 then
@@ -601,7 +601,7 @@ function slot0.UpdateNShopGoodsCount(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetEntrancePortInfo(slot0, slot1)
+slot0.GetEntrancePortInfo = function(slot0, slot1)
 	slot3 = slot0:GetEntrance(slot1):GetPortId()
 
 	if nowWorld():UsePortNShop() then

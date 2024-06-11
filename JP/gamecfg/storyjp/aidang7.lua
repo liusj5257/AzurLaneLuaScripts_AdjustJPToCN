@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDANG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIDANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お姉さんと一日デート\n\n<size=45>七　顧みず</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
 			mode = 1,
+			bgm = "story-2",
 			sequence = {
 				{
 					"あの時……迷いを振り払う、かの艦隊の旗艦が健在していたら。",
@@ -39,16 +39,16 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "今の私が一番欲しいのは指揮官、あなたよ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,13 +105,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "柔らかい感触とともに、目の前が真っ暗になった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "それは狂気でも執念でもなく、ただただ彼女にとっての「目標」であり、「存在し続けるための糧」でもある。",
 			typewriter = {

@@ -21,9 +21,9 @@ return {
 		{
 			actor = 303120,
 			side = 0,
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "うふふ、高雄ちゃん、相変わらずせっかちね。相手にはプリンス・オブ・ウェールズという最新鋭艦がいるのよ。金剛と榛名でも中々敵わないわ。",
+			dir = 1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

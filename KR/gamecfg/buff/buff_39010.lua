@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "大舰队世界boss_1_buff_测试者用",
 	time = 0,
-	color = "yellow",
+	name = "大舰队世界boss_1_buff_测试者用",
+	init_effect = "",
+	id = 39010,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 39010,
+	color = "yellow",
 	icon = 39000,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 0.1,
 				target = "TargetSelf",
+				time = 0.1,
 				skill_id = 39010
 			}
 		},
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 10,
 				target = "TargetSelf",
+				time = 10,
 				skill_id = 39001
 			}
 		},
@@ -41,8 +41,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 20,
 				target = "TargetSelf",
+				time = 20,
 				skill_id = 39002
 			}
 		},
@@ -53,8 +53,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 32,
 				target = "TargetSelf",
+				time = 32,
 				skill_id = 39003
 			}
 		},
@@ -65,8 +65,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 44,
 				target = "TargetSelf",
+				time = 44,
 				skill_id = 39004
 			}
 		}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,21 +31,21 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "정적에 휩싸인 넓은 방, 촛불만이 쓸쓸하게 빛을 발하고 있다.",
 			nameColor = "#A9F548FF",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
-			bgm = "Theme-marcopolo",
+			side = 2,
 			bgmDelay = 1,
-			say = "정적에 휩싸인 넓은 방, 촛불만이 쓸쓸하게 빛을 발하고 있다.",
+			bgm = "Theme-marcopolo",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			say = "바닥에 드리워진 그림자는 갸냘프게, 폭풍으로 겁에 질린 잔가지처럼 계속 흔들리고 있다.",
@@ -58,10 +58,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……조짐이 나타났다.",
 			painting = {
 				alpha = 0.3,
@@ -76,10 +76,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……그늘진 구름이 걷히고",
 			painting = {
 				alpha = 0.3,
@@ -94,10 +94,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……땅을 밝게 비추는 거룩한 빛.",
 			painting = {
 				alpha = 0.3,
@@ -112,10 +112,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……위대한 존재가 드디어 강림하리니.",
 			painting = {
 				alpha = 0.3,
@@ -130,10 +130,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……빛나는 영광으로 가득 찬, 그 화신",
 			painting = {
 				alpha = 0.3,
@@ -148,10 +148,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……그리고…………",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "그만! 여전히 무슨 말인진 모르겠지만…",
 			painting = {
 				alpha = 0.3,
@@ -181,16 +181,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,10 +202,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "그러니까 '위대한 존재'의 화신이니 뭐니가 드디어 나타난다는 거지?",
 			painting = {
 				alpha = 0.3,
@@ -220,10 +220,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "좋아! 결국 내 정보가 맞았다는 거네.",
 			painting = {
 				alpha = 0.3,
@@ -238,10 +238,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "오호호홋!",
 			painting = {
 				alpha = 0.3,
@@ -256,10 +256,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "내가 이 순간만을 얼마나 기다렸는지!",
 			painting = {
 				alpha = 0.3,
@@ -274,10 +274,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "위광을 퍼뜨리는 위업, 이를 위한 마지막 조각이 드디어 갖춰졌어!",
 			painting = {
 				alpha = 0.3,
@@ -298,10 +298,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "자, 위대한 존재… '신'이시여.",
 			painting = {
 				alpha = 0.3,
@@ -322,10 +322,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "'모든 소원을 이뤄준다'고 했지?",
 			painting = {
 				alpha = 0.3,
@@ -340,10 +340,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 699010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "아하하하! 오호호홋!",
 			painting = {
 				alpha = 0.3,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			say = "크게 웃음을 터뜨리며 마르코 폴로는 쓸쓸한 성당을 뒤로 했다.",
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_midgard_9",
 			hidePaintObj = true,
 			say = "활짝 열린 문에서 불어온 바람으로 마지막 촛불이 꺼졌다.",
@@ -389,10 +389,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……그리고 다시 구름이 그늘지며",
 			painting = {
 				alpha = 0.3,
@@ -407,10 +407,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……세상은 거짓된 빛에 감싸이네.",
 			painting = {
 				alpha = 0.3,
@@ -425,10 +425,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……그것이 바로 '신'이 만든, 영원한 가짜 낙원……",
 			painting = {
 				alpha = 0.3,
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = false,
-			bgm = "theme-clemenceau",
-			bgmDelay = 1,
+			mode = 1,
 			soundeffect = "event:/ui/dg-dutiao",
+			bgmDelay = 1,
+			bgm = "theme-clemenceau",
 			effects = {
 				{
 					active = false,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/dg-dutiao",
 			mode = 1,
+			soundeffect = "event:/ui/dg-dutiao",
 			sequence = {
 				{
 					"기록 재생: 심판정과의 회담. 적색중축 성립 전.",
@@ -537,8 +537,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -553,13 +553,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_firedust_5",
-			nameColor = "#A9F548FF",
+			dialogueBgAlpha = 0.6,
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "현재, 아이리스 리브레의 주력함대",
 			typewriter = {
@@ -572,15 +572,15 @@ return {
 					name = "zouxiangyuanweizhige"
 				},
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -629,13 +629,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#BDBDBD",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "▇▆▅■▎▃▌█긴급▇█▎■▄▆▋▂▁▅태█▊▇▊▇",
 			typewriter = {
 				speed = 0.05,
@@ -681,16 +681,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -699,13 +699,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#BDBDBD",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▊▇위기▅▁▂▋▄▊상█▌",
 			typewriter = {
 				speed = 0.05,
@@ -732,13 +732,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#BDBDBD",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▆어서▇█",
 			typewriter = {
 				speed = 0.05,
@@ -746,13 +746,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#BDBDBD",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▆리슐█▎█",
 			typewriter = {
 				speed = 0.05,
@@ -760,13 +760,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#BDBDBD",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▎█▎천사▅█▎█▎▌구원▅▎▌█",
 			typewriter = {
 				speed = 0.05,
@@ -774,13 +774,13 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			nameColor = "#BDBDBD",
-			bgName = "bg_firedust_5",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "█ █ █ █ █",
+			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
+			actor = 902020,
+			actorName = "█ █ █ █ █",
+			hidePaintObj = true,
 			say = "█▆도와▇█▂▁▅세█▎█",
 			typewriter = {
 				speed = 0.05,
@@ -788,12 +788,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
-			nameColor = "#92fc63",
+			side = 2,
 			actorName = "？？",
+			bgName = "star_level_bg_1104",
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "리슐리외 추기경?",
 			flashout = {
 				dur = 1,
@@ -822,8 +822,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？",
+			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -865,10 +865,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "……음, 머리가 좀 무거워서……",
 			painting = {
 				alpha = 0.3,
@@ -883,10 +883,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "죄송해요, 잠깐 잠이 든 모양이네요.",
 			painting = {
 				alpha = 0.3,
@@ -901,10 +901,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "괜찮습니다. 그것보다 테리블, 무슨 일이죠?",
 			painting = {
 				alpha = 0.3,
@@ -919,10 +919,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "실은 중요하게 보고 드릴 건이 있어서…",
 			painting = {
 				alpha = 0.3,
@@ -937,10 +937,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "심판정…… 클레망소 님에게서 연락이 왔는데",
 			painting = {
 				alpha = 0.3,
@@ -955,10 +955,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "\"때가 무르익었다. 슬슬 아이리스의 정통성을 되찾을 때다.\"",
 			painting = {
 				alpha = 0.3,
@@ -973,10 +973,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "……알겠습니다.",
 			painting = {
 				alpha = 0.3,
@@ -991,10 +991,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "그다지 동요하지 않으시는 것 같네요.",
 			painting = {
 				alpha = 0.3,
@@ -1009,10 +1009,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "'성좌의 왕관'은 아이리스의 정통성을 상징하는 것…… 그러나 상징은 그저 상징에 지나지 않습니다.",
 			painting = {
 				alpha = 0.3,
@@ -1027,10 +1027,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "믿는 자의 믿음이 있어야 비로소 스스로 정통성을 부여할 수 있는 것이지요.",
 			painting = {
 				alpha = 0.3,
@@ -1045,10 +1045,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "그렇다고 이 연락을 무의미하다고 치부할 순 없어요.",
 			painting = {
 				alpha = 0.3,
@@ -1063,10 +1063,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "심판정이 이 정보를 이쪽으로 전달했다는 건, 변화의 바람이 불고 있다는 증명이겠죠.",
 			painting = {
 				alpha = 0.3,
@@ -1081,10 +1081,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "'성좌의 왕관'으로 통하는 열쇠…는 몰타에 있어요.",
 			painting = {
 				alpha = 0.3,
@@ -1099,10 +1099,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "그쪽으로 향하죠.",
 			painting = {
 				alpha = 0.3,
@@ -1117,10 +1117,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "그럴 필요 없어요, 추기경님.",
 			painting = {
 				alpha = 0.3,
@@ -1135,10 +1135,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "성당의 섬에서 보여주신 추기경님의 활약으로 상황이 바뀌었습니다. '왕관'이 있는 곳으로 바로 갈 수 있어요.",
 			painting = {
 				alpha = 0.3,
@@ -1153,10 +1153,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "정말인가요?",
 			painting = {
 				alpha = 0.3,
@@ -1171,10 +1171,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "세인트 헬레나 섬이에요. 심판정은 이전에 로열 네이비의 허가를 받아 어떤 비밀 요지를 건설했죠.",
 			painting = {
 				alpha = 0.3,
@@ -1189,10 +1189,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "'왕관'은 거기서 경순양함 마르세예즈가 지키고 있답니다.",
 			painting = {
 				alpha = 0.3,
@@ -1207,10 +1207,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "마르세예즈……?",
 			painting = {
 				alpha = 0.3,
@@ -1222,8 +1222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1232,8 +1232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1245,10 +1245,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "네, 공식 석상에는 좀처럼 나오지 않지만, 심판정이자 전투 천사로서 '재현' 후부터 계속 '왕관'을 지키고 있는 듯해요.",
 			painting = {
 				alpha = 0.3,
@@ -1263,10 +1263,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "테리블, 사실… 평소 이런 건 잘 믿지 않지만…",
 			painting = {
 				alpha = 0.3,
@@ -1281,10 +1281,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "요 며칠 동안 꿈에 계속 그 마르세예즈가 나왔어요.",
 			painting = {
 				alpha = 0.3,
@@ -1299,10 +1299,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "검은 태양의 꿈……?",
 			painting = {
 				alpha = 0.3,
@@ -1314,8 +1314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1324,8 +1324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1337,10 +1337,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "확실히 아무리 봐도 흉조로 여겨지긴 하네요….",
 			painting = {
 				alpha = 0.3,
@@ -1355,10 +1355,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "테리블, '왕관'은 차치하고, 마르세예즈를 그대로 내버려 둘 순 없어요. 우리는……",
 			painting = {
 				alpha = 0.3,
@@ -1373,10 +1373,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "(클레망소 님도 이렇게 될 걸 예상하고 연락하신 거겠지…)",
 			painting = {
 				alpha = 0.3,
@@ -1391,10 +1391,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "(그 요새는 상시적으로 전파가 차단된 상태였지…… 휴우, 정말… 나 못지않게 성미가 고약하신 분이라니까.)",
 			painting = {
 				alpha = 0.3,
@@ -1409,10 +1409,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "함대의 침로를 바꾸어 세인트 헬레나 섬으로 향하죠.",
 			painting = {
 				alpha = 0.3,

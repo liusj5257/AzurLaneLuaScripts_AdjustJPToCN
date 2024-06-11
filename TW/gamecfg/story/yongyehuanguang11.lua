@@ -1,19 +1,19 @@
 return {
-	id = "YONGYEHUANGUANG11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			actor = 401020,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "「幻光」，也就是飄忽不定的極光...沒想到真的在行動中能趕上極光出現……",
 			bgm = "bsm-5",
+			actor = 401020,
+			nameColor = "#ff5c5c",
+			say = "「幻光」，也就是飄忽不定的極光...沒想到真的在行動中能趕上極光出現……",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ff5c5c",
 			say = "......接下來...用誰的名義發出去比較好呢，呵呵呵呵，就用她們尊敬的女王陛下吧~",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -157,10 +157,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 401020,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
+			nameColor = "#ff5c5c",
 			say = "歐根，笑得好噁心。",
 			typewriter = {
 				speed = 0.05,

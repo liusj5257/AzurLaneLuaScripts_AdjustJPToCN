@@ -1,12 +1,12 @@
 return {
-	id = "W1116",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1116",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "需要將塞壬能源矩陣帶到此處……",
 			typewriter = {
 				speed = 0.05,

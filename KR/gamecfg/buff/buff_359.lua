@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 10,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "机动",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -1000
+				number = -1000,
+				attr = "attackRating"
 			}
 		}
 	}

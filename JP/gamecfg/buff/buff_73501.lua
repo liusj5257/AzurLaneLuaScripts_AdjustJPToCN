@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "濒死爆发",
 	init_effect = "",
-	color = "red",
+	id = 73501,
+	time = 0,
 	picture = "",
 	desc = "战斗对象的血量下降到X%时，炮击、雷击上升Y%",
 	stack = 1,
-	id = 73501,
+	color = "red",
 	icon = 73500,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 10000
+				number = 10000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 10000
+				number = 10000,
+				attr = "torpedoPower"
 			}
 		}
 	}

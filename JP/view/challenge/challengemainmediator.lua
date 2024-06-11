@@ -7,7 +7,7 @@ slot0.ON_OPEN_RANK = "ChallengeMainMediator:ON_OPEN_RANK"
 slot0.COMMANDER_FORMATION_OP = "ChallengeMainMediator:COMMANDER_FORMATION_OP"
 slot0.ON_COMMANDER_SKILL = "ChallengeMainMediator:ON_COMMANDER_SKILL"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot3 = getProxy(ChallengeProxy)
 
 	slot0:bind(uv0.ON_OPEN_RANK, function ()
@@ -32,9 +32,9 @@ function slot0.register(slot0)
 		slot9, slot10, slot11 = uv0:getDockCallbackFuncs(slot1.fleet, slot4, slot1.fleetIndex, slot1.teamType)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			useBlackBlock = true,
 			selectedMin = 0,
+			useBlackBlock = true,
+			selectedMax = 1,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = slot4 ~= nil,
 			teamFilter = slot6,
@@ -182,7 +182,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.CHALLENGE2_INITIAL_DONE,
 		GAME.CHALLENGE2_RESET_DONE,
@@ -193,7 +193,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = getProxy(ChallengeProxy)
 	slot5 = getProxy(ActivityProxy)
@@ -263,7 +263,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
+slot0.getDockCallbackFuncs = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(BayProxy)
 	slot6 = getProxy(FleetProxy)
 	slot7 = getProxy(ActivityProxy)

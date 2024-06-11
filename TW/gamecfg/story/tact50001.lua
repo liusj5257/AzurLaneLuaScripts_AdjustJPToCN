@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "雖然敵方兵力並不雄厚，然而芝加哥和中途匯合的巴格萊畢竟是單槍匹馬，當她們最終遭遇敵方的主力艦隊時，身上已經帶了不少傷……",
 			typewriter = {

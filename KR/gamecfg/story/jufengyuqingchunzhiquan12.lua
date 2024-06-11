@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN12",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "서둘러 선실을 나와 갑판으로 올라왔다.",
 			bgm = "battle-temepest-1",
+			say = "서둘러 선실을 나와 갑판으로 올라왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "갑판 위에는 잔해가 흩어져 있었지만, 그 원흉인 폭풍은 점차 잦아들고 있었다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "시간이 얼마 흐르지 않았는데도 말이다.",
@@ -213,11 +213,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "다들 무사히 여기서 탈출할 수 있도록 내가 잔향 함대를 유인할게.",
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응! 잘 부탁해!",
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이 로열 포춘의 선단은 절대 동료를 버리지 않아!",
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐야! 모처럼 멋진 대사를 생각해 냈는데!",
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하하하! 정말 유쾌한 사람들이군.",
@@ -389,11 +389,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇게 나와야지! 우리 배에 온 걸 환영해!",
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잔향 함대라고는 해도 한 번 격퇴한 적은 두 번 와도 마찬가지라고!",

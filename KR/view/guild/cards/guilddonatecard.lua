@@ -1,6 +1,6 @@
 slot0 = class("GuildDonateCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.title = slot0._tf:Find("name"):GetComponent(typeof(Text))
 	slot0.awardTF = slot0._tf:Find("item")
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.commitBtn = slot0._tf:Find("submit")
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.dtask = slot1
 	slot2 = slot1:getCommitItem()
 
@@ -26,7 +26,7 @@ function slot0.update(slot0, slot1)
 	slot0.res.text = slot1:getConfig("award_contribution")
 end
 
-function slot0.GetResCntByAward(slot0, slot1)
+slot0.GetResCntByAward = function(slot0, slot1)
 	if slot1[1] == DROP_TYPE_RESOURCE then
 		return getProxy(PlayerProxy):getRawData():getResource(slot1[2])
 	elseif slot1[1] == DROP_TYPE_ITEM then
@@ -36,7 +36,7 @@ function slot0.GetResCntByAward(slot0, slot1)
 	end
 end
 
-function slot0.WrapNum(slot0, slot1)
+slot0.WrapNum = function(slot0, slot1)
 	if slot1 > 1000000 then
 		return math.floor(slot1 / 1000000) .. "M"
 	elseif slot1 > 1000 then
@@ -46,7 +46,7 @@ function slot0.WrapNum(slot0, slot1)
 	return slot1
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"기사와 포상\n\n<size=45>4. 경기 시작</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "농구 대항전 당일. 경기장",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "농구 대항전 당일. 경기장",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "드디어 이 날이 왔구나...... 지휘관, 우린 다 준비됐어! 경기 지휘는 너에게 맡길게!",
 			typewriter = {
 				speed = 0.05,
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
+			say = "어, 언니!! 말하지마!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어, 언니!! 말하지마!",
+			actor = 102050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -106,13 +106,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "첫 번째 경기의 상대는 \"정의의 비버즈\"팀이었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,11 +133,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#92fc63",
 			say = "적에게 우리의 정의를 보여주자! 리틀 비버즈 분대, 출격! ...... 엣?",
 			effects = {
 				{
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 101140,
+			say = "귀찮아...... 난 후보면 됐는데.",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
+			actor = 101140,
 			dir = 1,
-			say = "귀찮아...... 난 후보면 됐는데.",
+			nameColor = "#92fc63",
 			effects = {
 				{
 					active = false,
@@ -181,16 +181,16 @@ return {
 			}
 		},
 		{
-			actor = 101120,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101120,
+			nameColor = "#92fc63",
 			say = "하하하 스펜스 또 넘어질 뻔 했다! ...... 으아앗 부딪힌다!",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 15,
@@ -239,9 +239,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "코치 다운즈의 노력에도 만회하지 못하였고, 클리블랜드의 팀이 완승을 거두었다.",
 			typewriter = {
 				speed = 0.05,
@@ -249,15 +249,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "좋아, 시작이 나쁘지 않네! 단숨에 우승까지 달리자! ...... 그렇게 잘 될리는 없겠지, 헤헤♪",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "좋아! 지휘관도 눈 크게 뜨고 잘 봐! 우린 전력을 다할거라고♪",
 			typewriter = {
 				speed = 0.05,

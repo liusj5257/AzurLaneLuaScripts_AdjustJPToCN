@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG8",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401236,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "azumaster-ins",
 			dir = 1,
 			say = "綾波、こっちよ！",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "そ、そうだった！コホン！では――",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -137,8 +137,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "……それ、フュンとゼクのどっちの受け売り？",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "あぅ！？",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301057,
 			dir = 1,
+			actor = 301057,
 			say = "サラトガさん、作戦失敗、です",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "……こっちが出るまでもありませんね。三段構えでステージの熱を冷ますつもりだったのですが",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "すみません……",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

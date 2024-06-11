@@ -4,18 +4,18 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "story-richang-2",
+			side = 2,
 			say = "大迷宮·上層",
+			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "此處就是四天王中第五位所在的迷宮！",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "只要攻略了這裡，我們進攻魔王城的最後一道阻礙就消失了！",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:408}",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "但是這個迷宮好複雜……要是一點點探路的話不知道要跑多久。",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "拉菲",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "呼……拉菲，已經感覺累了……",
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:408}",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "不要累啊拉菲，現在連一場戰鬥都還沒開始呢！",
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "綾波",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "這個迷宮的結構，我已經感覺到了…………",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "綾波",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "前方的牆壁，存在薄弱之處……交給我吧。",
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "等等……綾波妳要做什麼？",
@@ -152,8 +152,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 331055,
 			dir = 1,
+			actor = 331055,
 			say = "必殺技躍動飛踢（dynamic kick）————",
 			painting = {
 				alpha = 0.3,
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "系統提示",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "綾波 使用 躍動飛踢 對其實並不薄弱的牆壁 造成了 999點傷害，其實並不薄弱的牆壁被破壞了。",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "系統提示",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "發現了道路 前往迷宮中心的捷徑。",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 331055,
 			dir = 1,
+			actor = 331055,
 			say = "哼哼……這樣就方便多了，大家繼續前進吧！",
 			painting = {
 				alpha = 0.3,

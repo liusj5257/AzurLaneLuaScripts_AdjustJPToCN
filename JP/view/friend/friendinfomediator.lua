@@ -6,7 +6,7 @@ slot0.TOGGLE_BLACK = "FriendInfoMediator:TOGGLE_BLACK"
 slot0.INFORM = "FriendInfoMediator:INFORM"
 slot0.INFORM_BACKYARD = "FriendInfoMediator:INFORM_BACKYARD"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = slot0.contextData.friend
 
 	assert(slot1, "friend is nil")
@@ -22,8 +22,8 @@ function slot0.register(slot0)
 	slot0:bind(uv0.OPEND_FRIEND, function (slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
-			limit = 20,
 			yesText = "text_apply",
+			limit = 20,
 			type = MSGBOX_TYPE_INPUT,
 			placeholder = i18n("friend_request_msg_placeholder"),
 			title = i18n("friend_request_msg_title"),
@@ -77,7 +77,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setFriendProxy(slot2)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.VISIT_BACKYARD_DONE,
 		GAME.GET_BLACK_LIST_DONE,
@@ -89,7 +89,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.VISIT_BACKYARD_DONE then

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「聖堂奪回作戦」から数日後",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			say = "「聖堂奪回作戦」から数日後",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#ff5c5c",
 			backBg = true,
 			say = "「計画は順調よ。鉄血で会うのを楽しみにしているわ」",
 			typewriter = {

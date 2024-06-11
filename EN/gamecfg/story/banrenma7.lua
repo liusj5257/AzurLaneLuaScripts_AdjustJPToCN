@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 7 - True Equals</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Centaur spoke of the \"new meaning\" of \"Elder.\"",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "Centaur spoke of the \"new meaning\" of \"Elder.\"",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,8 +65,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "In that time, I've grown closer to my Elders, and seen past the walls they put up on the battlefield.",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Like you, Commander, you have those times when you just can't take work anymore and you doze off on your desk.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Yes, it's completely normal. Just as everyone has their own opinions, and from time to time that leads to conflict...",
 			typewriter = {
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "And now I'm a part of that fleet too... so no longer do I merely respect everyone, now I truly love everyone.",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "C- Commander... of course, I love you too...",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Centaur turned bright red.",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "What I'm getting at is, in the beginning, I called everyone \"Elder\" because I respected their service in the Great War.",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Ahahaha, and I'm a little embarrassed to say it, but the main reason is I just got used to calling everyone that!",
 			typewriter = {
@@ -260,9 +260,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "It was so complicated, and yet so simple...",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "I'm doing all the talking here. Now it's your turn, Commander.",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "I mean, I've been your secretary ship for this long. It's only natural I've gotten to know you very well.",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "But I'd still like to hear some of it straight from the horse's mouth. Tell me a secret, Commander. Tell me something you've never told anyone.",
 			typewriter = {
@@ -324,9 +324,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Hehe, won't you tell me more... about you? Commander...? ... Oh Elder One...?",
 			typewriter = {

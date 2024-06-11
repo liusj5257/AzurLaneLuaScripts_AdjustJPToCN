@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"愛操心的她可不是鬧著玩的\n\n<size=45>一 暴風雨後的第二天</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "——某天夜晚，港區遭到了可怕的風暴襲擊。",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "——某天夜晚，港區遭到了可怕的風暴襲擊。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "等風暴平息之後必須要開始進行清理工作了啊……一邊這樣想著，一邊聽著窗外的雨聲睡了過去……",
 			typewriter = {
 				speed = 0.05,
@@ -64,13 +64,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "翌日清晨，正當查看受損情況時——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "一個熟悉的身影從對面的樓房中走了出來。",
 			typewriter = {
 				speed = 0.05,
@@ -141,9 +141,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "確實看上去是這樣……？沒想到一邊思考一邊行走，在不知不覺中已經來到了重櫻宿舍區……",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "令人驚訝的是，在經歷了昨晚的風暴後，面前重櫻宿舍樓居然沒有絲毫受損，連玻璃窗都沒有碎掉一面。",
 			typewriter = {
 				speed = 0.05,
@@ -185,9 +185,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "…幸運艦還有這種方面的功效嗎？說起來，雪風好像也住在這棟樓……",
 			typewriter = {
 				speed = 0.05,
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "……喂！你正在想雪風吧！這棟宿舍完全是靠著時雨大人的加護才能平安無事的！",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "看來時雨的心裡燃起了奇怪的競爭欲，還是不要管了…",
 			typewriter = {
 				speed = 0.05,
@@ -287,9 +287,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "還不清楚。不過重櫻神社的構造並不如宿舍樓這樣結實……很可能出現受損情況。",
 			typewriter = {
 				speed = 0.05,
@@ -301,9 +301,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "而且神社周圍有著繁茂的鎮守森林，森林在風暴中受損的可能性也很高……還是去看一下比較好。",
 			typewriter = {
 				speed = 0.05,
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "指揮官如果想一起來的話就快點做準備，時間不等人哦！",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

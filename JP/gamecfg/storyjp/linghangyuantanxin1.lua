@@ -10,12 +10,12 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-10",
-			actor = 1001,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room1",
+			bgm = "qe-ova-10",
+			tbActor = true,
+			actor = 1001,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "…眠い…おはなし、聞きたい…",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -56,10 +56,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1001,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "…すきって…なに…？",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "目の前の小さな子――TBは無表情のままこっちを見つめ、こう告げた――",
@@ -127,22 +127,22 @@ return {
 			}
 		},
 		{
-			actor = 1001,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room1",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "…{tb}が読むの…好き…",
+			bgName = "bg_project_tb_room1",
 			tbActor = true,
+			actor = 1001,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "…{tb}が読むの…好き…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "うん。じゃあ今日はとっておきの物語を用意しないと！",

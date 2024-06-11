@@ -6,7 +6,7 @@ slot2 = 0
 slot3 = 1
 slot4 = 2
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.state = uv0
 
 	if slot1 then
@@ -14,7 +14,7 @@ function slot0.Init(slot0, slot1)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.onClose = slot1.onClose
 	slot0.content = slot1.content
 	slot0.forceRead = slot1.forceRead
@@ -29,7 +29,7 @@ function slot0.Show(slot0, slot1)
 	end
 end
 
-function slot0.LoadUI(slot0)
+slot0.LoadUI = function(slot0)
 	slot0.state = uv0
 
 	pg.UIMgr.GetInstance():LoadingOn()
@@ -49,7 +49,7 @@ function slot0.LoadUI(slot0)
 	end)
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.contentTxt = slot0._go.transform:Find("window/container/scrollrect/content/Text"):GetComponent(typeof(Text))
 	slot0.acceptBtn = slot0._go.transform:Find("window/accept_btn")
 	slot0.acceptBtnTxt = slot0.acceptBtn:Find("Text"):GetComponent(typeof(Text))
@@ -58,7 +58,7 @@ function slot0.OnLoaded(slot0)
 	slot0.msgboxTitleTxt = slot0._go.transform:Find("window/title1/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0.msgboxTitleTxt.text = i18n("title_info")
 	slot0.contentTxt.text = slot0.content
 	slot0.acceptBtnTxt.text = i18n("word_back")
@@ -82,7 +82,7 @@ function slot0.Flush(slot0)
 	scrollTo(slot0.scrollrect.gameObject, 0, 1)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0.onClose then
 		slot0.onClose()
 	end
@@ -110,7 +110,7 @@ function slot0.Hide(slot0)
 	slot0.state = uv1
 end
 
-function slot0.ShowForBiliPrivate(slot0)
+slot0.ShowForBiliPrivate = function(slot0)
 	slot1 = require("GameCfg.useragreems.BiliPrivate")
 
 	slot0:Show({
@@ -119,7 +119,7 @@ function slot0.ShowForBiliPrivate(slot0)
 	})
 end
 
-function slot0.ShowForBiliLicence(slot0)
+slot0.ShowForBiliLicence = function(slot0)
 	slot1 = require("GameCfg.useragreems.BiliLicence")
 
 	slot0:Show({
@@ -128,7 +128,7 @@ function slot0.ShowForBiliLicence(slot0)
 	})
 end
 
-function slot0.ShowChtPrivate(slot0)
+slot0.ShowChtPrivate = function(slot0)
 	slot1 = require("GameCfg.useragreems.ChtPrivate")
 
 	slot0:Show({
@@ -137,7 +137,7 @@ function slot0.ShowChtPrivate(slot0)
 	})
 end
 
-function slot0.ShowChtLicence(slot0)
+slot0.ShowChtLicence = function(slot0)
 	slot1 = require("GameCfg.useragreems.ChtLicence")
 
 	slot0:Show({

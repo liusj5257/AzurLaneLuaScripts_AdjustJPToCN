@@ -15,18 +15,18 @@ slot12 = class("BattleFleetCardPuzzleHand")
 slot0.Battle.BattleFleetCardPuzzleHand = slot12
 slot12.__name = "BattleFleetCardPuzzleHand"
 
-function slot12.Ctor(slot0, slot1, slot2)
+slot12.Ctor = function(slot0, slot1, slot2)
 	slot0._cardPuzzleComponent = slot1
 	slot0._indexID = slot2
 
 	slot0:init()
 end
 
-function slot12.GetIndexID(slot0)
+slot12.GetIndexID = function(slot0)
 	return slot0._indexID
 end
 
-function slot12.EnterCoolDownByType(slot0, slot1, slot2)
+slot12.EnterCoolDownByType = function(slot0, slot1, slot2)
 	if slot2 > 0 then
 		slot0._typeCDTimeStampList[slot1] = pg.TimeMgr.GetInstance():GetCombatTime() + slot2
 
@@ -40,13 +40,13 @@ function slot12.EnterCoolDownByType(slot0, slot1, slot2)
 	end
 end
 
-function slot12.Add(slot0, slot1)
+slot12.Add = function(slot0, slot1)
 	if slot0._typeCDTimeStampList[slot1:GetCardType()] ~= -1 then
 		slot1:SetOverHeatDuration(slot3 - pg.TimeMgr.GetInstance():GetCombatTime())
 	end
 end
 
-function slot12.Update(slot0, slot1)
+slot12.Update = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._typeCDTimeStampList) do
 		if slot6 < slot1 then
 			slot0._typeCDTimeStampList[slot5] = -1
@@ -54,18 +54,18 @@ function slot12.Update(slot0, slot1)
 	end
 end
 
-function slot12.Dispose(slot0)
+slot12.Dispose = function(slot0)
 end
 
-function slot12.GetCardList(slot0)
+slot12.GetCardList = function(slot0)
 	return slot0._handCardList
 end
 
-function slot12.IsFull(slot0)
+slot12.IsFull = function(slot0)
 	return slot0:GetLength() >= uv0.BASE_MAX_HAND + slot0._attrManager:GetCurrent("HandExtra")
 end
 
-function slot12.init(slot0)
+slot12.init = function(slot0)
 	slot0._handCardList = {}
 
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)

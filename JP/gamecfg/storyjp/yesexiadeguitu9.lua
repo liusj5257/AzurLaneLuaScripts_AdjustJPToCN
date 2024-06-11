@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205030,
 			nameColor = "#ffff4d",
 			side = 2,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "速力が…やっぱり夜戦では小回りが効かないわね……！",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "ははは！魚雷命中！ヴィシア護教騎士の力を見たか！",
 			typewriter = {
 				speed = 0.05,
@@ -189,14 +189,14 @@ return {
 			}
 		},
 		{
-			actor = 900236,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900236,
+			nameColor = "#a9f548",
 			say = "よ、ようやくトゥーロンの明かりが見えてきた……もう疲れたよ…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "入港まであと少しです。ここは油断しないほうがいいですね",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "分かってるよ！もうタルテュったらなんでこういうときはやけに集中してるの～",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "？今どうやって入港するか考えていました…",
 			typewriter = {
 				speed = 0.05,
@@ -271,9 +271,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "やっぱり集中してなかった…",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -298,8 +298,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "？ヴォークラン？どうしたの？",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "ふふふ、ここまで来たら少し気が緩んでも仕方ないものね～",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………………………………………",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "夜陰の海路を渡って、巡洋戦艦ダンケルク以下数隻、ヴィシアのトゥーロンに到着した。そして――",
 			typewriter = {
 				speed = 0.05,
@@ -353,16 +353,16 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff5c5c",
 			say = "「再現」なら、戦艦ジャン・バール以下、数十隻に渡るヴィシアの艦船の自沈によって、ヴィシア海軍は解体されることに――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

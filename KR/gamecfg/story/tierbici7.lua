@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"녹아내리는 얼음\n\n<size=45>제7장 - 온도</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "그 일이 있고 나서, 얼마 정도 시간이 지난",
 			typewriter = {
@@ -27,16 +27,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			bgName = "bg_night",
-			say = "모항 - 지휘실",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			bgName = "bg_night",
 			bgm = "story-2",
+			say = "모항 - 지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,9 +57,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "티르피츠의 갑작스러운 약속에, 나는 모항 근처의 어느 언덕으로 서둘러 올라갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -99,9 +99,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "티르피츠는 손가락으로 하늘을 가리켰다.",
 			typewriter = {
 				speed = 0.05,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "그녀가…내 어깨에 살며시 몸을 기댔다.",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "티르피츠는 한없이 부드러운 표정으로, 별이 가득한 밤바다와 조용히 넘실거리는 밤하늘을 가만히 바라보았다.",
 			typewriter = {
 				speed = 0.05,

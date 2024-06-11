@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 450
+					number = 450,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 450
+					number = 450,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 450
+					number = 450,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -41,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 520
+					number = 520,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -51,8 +51,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 520
+					number = 520,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -61,8 +61,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 520
+					number = 520,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -75,8 +75,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 600
+					number = 600,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -85,8 +85,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 600
+					number = 600,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -95,8 +95,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 600
+					number = 600,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -109,8 +109,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 700
+					number = 700,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 700
+					number = 700,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -129,8 +129,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 700
+					number = 700,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 770
+					number = 770,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -153,8 +153,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 770
+					number = 770,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 770
+					number = 770,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -177,8 +177,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 850
+					number = 850,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -187,8 +187,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 850
+					number = 850,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -197,8 +197,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 850
+					number = 850,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -211,8 +211,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 950
+					number = 950,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -221,8 +221,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 950
+					number = 950,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -231,8 +231,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 950
+					number = 950,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -245,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1020
+					number = 1020,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -255,8 +255,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1020
+					number = 1020,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -265,8 +265,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1020
+					number = 1020,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -279,8 +279,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1100
+					number = 1100,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1100
+					number = 1100,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -299,8 +299,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1100
+					number = 1100,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -313,8 +313,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1200
+					number = 1200,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -323,8 +323,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1200
+					number = 1200,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -333,15 +333,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1200
+					number = 1200,
+					attr = "attackRating"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "属性变更",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -362,8 +362,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 450
+				number = 450,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -372,8 +372,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 450
+				number = 450,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -382,8 +382,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 450
+				number = 450,
+				attr = "attackRating"
 			}
 		}
 	}

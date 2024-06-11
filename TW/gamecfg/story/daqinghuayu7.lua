@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大青花魚的“陷阱”\n\n<size=45>七　晚安，還有……早上好！</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "港區·寢室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "今天的嬉鬧讓身體提前感到了疲倦，早早地便躺在了床上。",
 			typewriter = {
@@ -54,19 +54,19 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/boat_drag",
+			say = "（戳——戳——）",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（戳——戳——）",
+			soundeffect = "event:/ui/boat_drag",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "總感覺，臉好像被誰正在戳著……",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？ ？ ？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "這個聲音……是大青花魚吧。",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "睡著了嗎？該不會是在裝睡吧？",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "睡著的話就沒辦法了呢……",
 			typewriter = {
 				speed = 0.05,
@@ -139,12 +139,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……",
 			bgm = "story-2",
+			actor = 108020,
+			nameColor = "#a9f548",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,10 +157,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "吶，指揮官……我有很多東西想和指揮官說呢。",
 			typewriter = {
 				speed = 0.05,
@@ -238,10 +238,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "艦隊的大家，我最喜歡了。",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "還有指揮官，雖然我好像一直在捉弄你，不過其實——",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "臉頰上傳來了溫柔的觸感",
 			typewriter = {
@@ -298,10 +298,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "對了，明天還有我給你準備的驚喜呢……裝睡聽別人真心話的指揮官要吃點苦頭才行呢~",
 			typewriter = {
 				speed = 0.05,
@@ -313,15 +313,15 @@ return {
 			}
 		},
 		{
-			say = "（第二天）",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1.4,
 			bgm = "story-1",
+			say = "（第二天）",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "真真真真的嗎！指揮官，居然和大青花魚一起睡了一晚！",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "被擺了一道啊。",
 			typewriter = {
 				speed = 0.05,
@@ -426,9 +426,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "結果光是和大家解釋清楚，就用掉了一整個上午的時間。",
 			typewriter = {
 				speed = 0.05,

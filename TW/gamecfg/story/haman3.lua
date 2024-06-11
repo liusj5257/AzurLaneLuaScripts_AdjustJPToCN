@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"哈曼觀察日誌\n\n<size=45>三 不高興的理由·中</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "被哈曼趕出指揮室後過了一會兒……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "被哈曼趕出指揮室後過了一會兒……",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101250,
 			say = "總，總之先打掃一下指揮室吧……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,17 +62,17 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "五分鐘後——",
 			typewriter = {
 				speed = 0.05,
@@ -80,14 +80,14 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101250,
 			say = "怎，怎麼辦…要是被指揮官嫌棄了…哈曼就…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 30,
 					number = 3
@@ -151,10 +151,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 30,
 					number = 3
@@ -183,9 +183,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "哈曼啪啪的拍了拍臉，振作精神。",
 			typewriter = {
 				speed = 0.05,
@@ -212,10 +212,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -30,
 					dur = 0.25,
-					type = "shake",
-					y = -30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -235,10 +235,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				},
 				painting = {
 					alpha = 0.3,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 30,
 					number = 3
@@ -285,9 +285,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "哈曼抱著腦袋，十分苦惱的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -329,10 +329,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
@@ -352,17 +352,17 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（開門）",
 			typewriter = {
 				speed = 0.05,
@@ -389,10 +389,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
+			actor = 101250,
 			say = "啊啊啊啊啊啊啊！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -443,8 +443,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.1,
 					x = 30,
 					number = 4

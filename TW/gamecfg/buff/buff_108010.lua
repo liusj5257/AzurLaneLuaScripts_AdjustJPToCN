@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108010,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 108010,
+	color = "red",
 	icon = 108010,
 	last_effect = "",
 	effect_list = {
@@ -46,10 +46,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6890,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6890,
 				index = {
 					1
 				},
@@ -64,10 +64,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6891,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6891,
 				index = {
 					1
 				},
@@ -82,10 +82,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6892,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6892,
 				index = {
 					1
 				},
@@ -100,10 +100,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6893,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6893,
 				index = {
 					1
 				},
@@ -118,10 +118,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6894,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6894,
 				index = {
 					1
 				},
@@ -136,10 +136,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6910,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6910,
 				index = {
 					2
 				},
@@ -154,10 +154,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6911,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6911,
 				index = {
 					2
 				},
@@ -172,10 +172,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6912,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6912,
 				index = {
 					2
 				},
@@ -190,10 +190,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6913,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6913,
 				index = {
 					2
 				},
@@ -208,10 +208,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6914,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6914,
 				index = {
 					2
 				},
@@ -226,10 +226,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6920,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6920,
 				index = {
 					3
 				},
@@ -244,10 +244,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6921,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6921,
 				index = {
 					3
 				},
@@ -262,10 +262,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6922,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6922,
 				index = {
 					3
 				},
@@ -280,10 +280,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6923,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6923,
 				index = {
 					3
 				},
@@ -298,10 +298,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6924,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6924,
 				index = {
 					3
 				},

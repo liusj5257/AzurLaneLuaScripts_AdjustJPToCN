@@ -149,14 +149,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "触发器",
 	time = 1,
-	color = "red",
+	name = "触发器",
+	init_effect = "",
+	id = 15451,
 	picture = "",
 	desc = "概率触发器",
 	stack = 1,
-	id = 15451,
+	color = "red",
 	icon = 15451,
 	last_effect = "",
 	effect_list = {

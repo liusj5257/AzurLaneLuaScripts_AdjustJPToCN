@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 6910,
 	picture = "",
 	desc = "爆裂钻孔机",
 	stack = 1,
-	id = 6910,
+	color = "blue",
 	icon = 6910,
 	last_effect = "",
 	effect_list = {

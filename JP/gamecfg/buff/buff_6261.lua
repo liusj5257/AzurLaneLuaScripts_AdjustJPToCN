@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "精确锁定",
 	time = 50,
+	name = "精确锁定",
+	init_effect = "",
 	picture = "",
 	desc = "准备速度略微提高",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = 23,
-				number = -0.15
+				number = -0.15,
+				type = 23
 			}
 		},
 		{

@@ -1,22 +1,22 @@
 slot0 = class("EducateTargetSetLayer", import(".base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateTargetSetUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0:initTargetList()
 
 	slot0.selectedIndex = 1
 end
 
-function slot0.initTargetList(slot0)
+slot0.initTargetList = function(slot0)
 	slot1 = getProxy(EducateProxy)
 	slot2 = slot1:GetCharData()
 	slot0.maxAttrId = slot2:GetAttrSortIds()[1]
@@ -35,7 +35,7 @@ function slot0.initTargetList(slot0)
 		end
 	end
 
-	function slot13(slot0)
+	slot13 = function(slot0)
 		return slot0
 	end
 
@@ -68,7 +68,7 @@ function slot0.initTargetList(slot0)
 	end
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.windowTF = slot0:findTF("anim_root/window")
 	slot0.targetContent = slot0:findTF("content", slot0.windowTF)
 	slot0.targetTpl = slot0:findTF("tpl", slot0.targetContent)
@@ -80,7 +80,7 @@ function slot0.findUI(slot0)
 	setText(slot0:findTF("Text", slot0.sureBtn), i18n("word_ok"))
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.sureBtn, function ()
 		uv0:emit(EducateBaseUI.EDUCATE_ON_MSG_TIP, {
 			content = i18n("child_target_set_sure_tip", pg.child_attr[pg.child_target_set[uv0.targetList[uv0.selectedIndex]].recommend_attr2].name),
@@ -99,12 +99,12 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:initTarget()
 end
 
-function slot0.initTarget(slot0)
+slot0.initTarget = function(slot0)
 	for slot4 = 1, #slot0.targetList do
 		slot5 = cloneTplTo(slot0.targetTpl, slot0.targetContent, tostring(slot4))
 		slot6 = slot0.targetList[slot4]
@@ -147,17 +147,17 @@ function slot0.initTarget(slot0)
 	end)
 end
 
-function slot0.updateTarget(slot0)
+slot0.updateTarget = function(slot0)
 	eachChild(slot0.targetContent, function (slot0)
 		setActive(uv0:findTF("animroot/selected", slot0), uv0.selectedIndex == tonumber(slot0.name))
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 end
 
 return slot0

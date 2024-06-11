@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "BEILIWANSHENGJIE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"장난스런 핼러윈\n\n<size=45>호기심 많은 마녀</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 101271,
 			nameColor = "#a9f548",
 			say = "유령…집에 돌아가지 못하다니 불쌍해……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,15 +69,15 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "……그러고보니, 유령은 대체 어디에 있는 거야?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "게다가, 유령은 날아다니잖아. 토끼토끼성인은 날 수 없는데……",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "(폐창고…유령…혹시……)",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "토순이, 토돌이, 여기야!",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -233,14 +233,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 101271,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "그래도 선한 마녀가 셋이나 필요하다는 건…아야나미는 \"저는 선한 마녀가 아니에요\" 라 하고 있고, 다른 사람들은……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "아! 새로운 마녀 발견!",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -319,16 +319,16 @@ return {
 			}
 		},
 		{
-			side = 0,
 			stopbgm = true,
-			actorName = "???",
-			nameColor = "#a9f548",
+			side = 0,
 			dir = 1,
 			blackBg = true,
+			actorName = "???",
+			nameColor = "#a9f548",
 			say = "역시 많은 사람들의 말투를 흉내 내는 건 지치네……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,

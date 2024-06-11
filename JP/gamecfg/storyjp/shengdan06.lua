@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN06",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN06",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "母港・ロイヤル寮",
 			typewriter = {
 				speed = 0.05,
@@ -78,14 +78,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "く、クリスマスディナー……ターキー……プリン……サーモン……い、頂きます！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,14 +110,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "お、美味しい！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -142,14 +142,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "これも美味しい！！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,14 +174,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "はぁ～生きててよかったぁ～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -206,14 +206,14 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#a9f548",
 			say = "シグニットの食べっぷりを見るたびに、うち、なんだか羨ましく思っちゃうな……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -396,14 +396,14 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "次はプレゼント交換の時間ですわ。皆さん、ここに置いてあるプレゼントの箱から一つを選んでちょうだい。あ、戻すのは禁止ですことよ？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -492,14 +492,14 @@ return {
 			}
 		},
 		{
-			actor = 201102,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201102,
+			nameColor = "#a9f548",
 			say = "ど、どぉ…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

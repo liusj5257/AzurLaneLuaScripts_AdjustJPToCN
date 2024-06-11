@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_16 = {}
 slot1 = slot0.word_template_16
 
-function temp()
+temp = function()
 	uv0["ロ"] = {
 		["ー"] = {
 			["シ"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["わ"] = {
 		["き"] = {
 			["が"] = {
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["阿"] = {
 		["片"] = {
 			this = true
@@ -468,7 +468,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["愛"] = {
 		["液"] = {
 			this = true,
@@ -528,7 +528,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["慰"] = {
 		["安"] = {
 			["?"] = {
@@ -551,7 +551,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["淫"] = {
 		this = {
 			this = true
@@ -1453,7 +1453,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["隠"] = {
 		["坊"] = {
 			this = true

@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-2",
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "呵呵呵，感受到這來自魔眼中深邃的黑暗了嗎！很快妳就將成為惡魔的祭品，準備感受真正的恐懼吧！",
-			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			say = "啊！這股力量…難道是真祖之力？！",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "...妳就是希佩爾吧。初次見面...我是皇家所屬航空母艦英仙座。鐵血艦隊，如果妳們能放下----",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -205,12 +205,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "切。",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202080,
+			say = "切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

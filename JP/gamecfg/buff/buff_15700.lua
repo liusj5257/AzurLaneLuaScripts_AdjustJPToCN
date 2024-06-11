@@ -149,14 +149,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 15700,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15700,
+	color = "yellow",
 	icon = 15700,
 	last_effect = "",
 	effect_list = {
@@ -190,8 +190,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 15702,
 				minWeaponNumber = 1,
+				skill_id = 15702,
 				check_weapon = true,
 				label = {
 					"HMS"

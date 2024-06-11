@@ -2,7 +2,7 @@ pg = pg or {}
 pg.GuildMsgBoxMgr = singletonClass("GuildMsgBoxMgr")
 slot0 = pg.GuildMsgBoxMgr
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOn()
 	PoolMgr.GetInstance():GetUI("GuildMsgBoxUI", true, function (slot0)
 		pg.DelegateInfo.New(uv0)
@@ -34,7 +34,7 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.Notification(slot0, slot1)
+slot0.Notification = function(slot0, slot1)
 	assert(slot1.condition)
 
 	if slot1.condition() then
@@ -50,7 +50,7 @@ function slot0.Notification(slot0, slot1)
 	end
 end
 
-function slot0.RefreshView(slot0, slot1)
+slot0.RefreshView = function(slot0, slot1)
 	slot0.settings = slot1
 
 	setActive(slot0._tf, true)
@@ -92,7 +92,7 @@ function slot0.RefreshView(slot0, slot1)
 	slot0._tf:SetAsLastSibling()
 end
 
-function slot0.Close(slot0)
+slot0.Close = function(slot0)
 	if slot0._tf and isActive(slot0._tf) then
 		slot0.settings = nil
 
@@ -101,7 +101,7 @@ function slot0.Close(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0._tf and isActive(slot0._tf) and slot0.settings.OnHide then
 		slot0.settings.OnHide()
 	end
@@ -109,7 +109,7 @@ function slot0.Hide(slot0)
 	slot0:Close()
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	if slot0.isInited then
 		pg.DelegateInfo.Dispose(slot0)
 
@@ -119,7 +119,7 @@ function slot0.Destroy(slot0)
 	end
 end
 
-function slot0.NotificationForGuildEvent(slot0, slot1)
+slot0.NotificationForGuildEvent = function(slot0, slot1)
 	if getProxy(GuildProxy):getRawData() then
 		if slot2:GetActiveWeeklyTask() and slot1.id == slot3:GetPresonTaskId() then
 			slot0:Notification({
@@ -135,7 +135,7 @@ function slot0.NotificationForGuildEvent(slot0, slot1)
 	end
 end
 
-function slot0.OnBeginBattle(slot0)
+slot0.OnBeginBattle = function(slot0)
 	if not getProxy(GuildProxy) then
 		return
 	end
@@ -147,7 +147,7 @@ function slot0.OnBeginBattle(slot0)
 	end
 end
 
-function slot0.OnFinishBattle(slot0, slot1)
+slot0.OnFinishBattle = function(slot0, slot1)
 	if not getProxy(GuildProxy) then
 		return
 	end
@@ -163,7 +163,7 @@ function slot0.OnFinishBattle(slot0, slot1)
 	slot0.taskFinished = nil
 end
 
-function slot0.NotificationForBattle(slot0, slot1)
+slot0.NotificationForBattle = function(slot0, slot1)
 	if slot0.shouldShowBattleTip then
 		if getProxy(GuildProxy):getRawData() and slot2:GetActiveWeeklyTask() then
 			slot4 = false
@@ -211,7 +211,7 @@ function slot0.NotificationForBattle(slot0, slot1)
 	slot0.shouldShowBattleTip = nil
 end
 
-function slot0.NotificationForDailyBattle(slot0)
+slot0.NotificationForDailyBattle = function(slot0)
 	if slot0.shouldShowBattleTip then
 		if getProxy(GuildProxy):getRawData() and slot1:GetActiveWeeklyTask() then
 			slot3 = false
@@ -244,7 +244,7 @@ function slot0.NotificationForDailyBattle(slot0)
 	slot0.shouldShowBattleTip = nil
 end
 
-function slot0.NotificationForWorld(slot0, slot1)
+slot0.NotificationForWorld = function(slot0, slot1)
 	if slot0.shouldShowBattleTip then
 		if getProxy(GuildProxy):getRawData() and slot2:GetActiveWeeklyTask() then
 			slot4 = false
@@ -282,15 +282,15 @@ function slot0.NotificationForWorld(slot0, slot1)
 	slot0.shouldShowBattleTip = nil
 end
 
-function slot0.GetShouldShowBattleTip(slot0)
+slot0.GetShouldShowBattleTip = function(slot0)
 	return slot0.shouldShowBattleTip
 end
 
-function slot0.CancelShouldShowBattleTip(slot0)
+slot0.CancelShouldShowBattleTip = function(slot0)
 	slot0.shouldShowBattleTip = nil
 end
 
-function slot0.SubmitTask(slot0, slot1)
+slot0.SubmitTask = function(slot0, slot1)
 	slot1 = slot1 or function ()
 	end
 

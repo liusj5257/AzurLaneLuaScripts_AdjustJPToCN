@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"淑女的小小提案\n\n<size=45>四 心跳的親密接觸</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "於是，馬上開始了對獨角獸發現的高級遮陽傘的安裝。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "於是，馬上開始了對獨角獸發現的高級遮陽傘的安裝。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "安裝本身應該沒有什麼危險，於是同意了獨角獸的請求。",
 			typewriter = {
 				speed = 0.05,
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "完成了…！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確認傘能穩穩地撐起來之後，獨角獸便安心地坐到了椅子上。",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "應該是因為能幫上忙而感到很高興吧，雖然態度不明顯，但還是能感覺到她的這份心情。",
 			typewriter = {
 				speed = 0.05,
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "光輝在旁邊一臉微笑地注視著獨角獸。",
 			typewriter = {
 				speed = 0.05,
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "獨角獸想必也是非常信任且依賴光輝的吧…把這點告訴了光輝。",
 			typewriter = {
 				speed = 0.05,
@@ -243,9 +243,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "光輝那純粹的笑容過於耀眼奪目，讓人甚至感到有些害羞了起來。",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "似乎是看到了自己正在做著伸展運動，光輝有點不好意思地低了低頭。",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "心怦怦跳個不停，答應了光輝這個預料之外的建議。",
 			typewriter = {
 				speed = 0.05,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "與光輝細長手指交纏的溫柔觸感，讓人甚至有些緊張了起來。",
 			typewriter = {
 				speed = 0.05,
@@ -379,9 +379,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "就這樣被拉著手坐到了椅子上，光輝站在身後，雙手輕輕按在了自己的肩膀上。",
 			typewriter = {
 				speed = 0.05,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "沒有艦裝，平日的光輝的話，手勁也許真的不太夠吧，不過……",
 			typewriter = {
 				speed = 0.05,
@@ -439,9 +439,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "說實話…按摩的感覺什麼的——完全沒有進到腦子裡",
 			typewriter = {
 				speed = 0.05,
@@ -453,9 +453,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……一直頂在背上的那股柔軟觸感，早已奪去了一切的注意力。",
 			typewriter = {
 				speed = 0.05,

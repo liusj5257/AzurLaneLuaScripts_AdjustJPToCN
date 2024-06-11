@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "PIANRUOFEIXIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "PIANRUOFEIXIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"飛仙にあやかりて",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
-			say = "山間の渓流に沿って進みながら――",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-haitian-soft-loop",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "山間の渓流に沿って進みながら――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "辺りにこだまする琵琶の音。染み入るような心地よい音色が聞こえ、旅の疲れが霧散した。",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "そうして歩いているうちに開けた場所に出た。――ようやく、海天との約束の場所にたどり着いた。",
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 502072,
-			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さん、遠路はるばるお越しいただきありがとうございます",
 			painting = {
 				alpha = 0.3,
@@ -85,17 +85,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -106,10 +106,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "お待ちしておりました。お茶の準備もできていますので、すぐお持ちいたします",
 			painting = {
 				alpha = 0.3,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "そういえば、先ほど聞こえた琵琶の音……",
@@ -141,10 +141,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えっと、あれは海天が練習していました…まさか本番前に聞かれていたとは…",
 			painting = {
 				alpha = 0.3,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -179,10 +179,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さんを驚かせたかったのですが、どうかご容赦くださいませ",
 			painting = {
 				alpha = 0.3,
@@ -197,10 +197,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…あの音色のおかげで登山の疲れが取れた、ですか？",
 			painting = {
 				alpha = 0.3,
@@ -215,10 +215,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "お気遣いありがとうございます",
 			painting = {
 				alpha = 0.3,
@@ -232,10 +232,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 502072,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（やはり山道を進むのは疲れますよね……雰囲気だけを意識しすぎてしまいました…うぅ）",
 			painting = {
 				alpha = 0.3,
@@ -250,10 +250,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "海天の琵琶の音で指揮官さんの疲れが取れたなら、それはとても嬉しく思います",
 			painting = {
 				alpha = 0.3,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 502072,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今日指揮官さんにこちらにお越しいただいたのは、かねてより練習していたものをご覧いただくためでして",
 			painting = {
 				alpha = 0.3,
@@ -285,10 +285,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「伎楽飛天」――舞踊と音楽を組み合わせた曲芸になります。どうぞ心ゆくまでお楽しみください",
 			painting = {
 				alpha = 0.3,
@@ -303,10 +303,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…ん？指揮官さん、海天に聞きたいことでもあるのですか？",
 			painting = {
 				alpha = 0.3,
@@ -427,13 +427,13 @@ return {
 			}
 		},
 		{
-			actor = 502072,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふ、琵琶の音を聞いた時の指揮官さんと似ているかもしれないですね",
 			painting = {
 				alpha = 0.3,
@@ -524,10 +524,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さんも一息つけたことですし、そろそろ始めますね――",
 			painting = {
 				alpha = 0.3,
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "時折夏に降る急な雨のように激しく、時折想う人の囁きのように優しく…琵琶の音は流れる渓流と共に、俗世を忘れさせる天籟となった。",
@@ -550,8 +550,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "それに合わせてたおやかに踊る海天に目を奪われ、まるで壁画に描かれた仙境に入り込んだかのような錯覚に陥った。",
@@ -561,12 +561,12 @@ return {
 			}
 		},
 		{
-			actor = 502072,
-			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 502072,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――指揮官さん、いかがでしたでしょうか",
 			painting = {
 				alpha = 0.3,
@@ -577,17 +577,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -604,10 +604,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よかったです！頑張った甲斐がありました！",
 			painting = {
 				alpha = 0.3,
@@ -622,10 +622,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……あっ。ええと、その…つい舞い上がってしまいました…指揮官さん、今のは見なかったことにしていただければ…",
 			painting = {
 				alpha = 0.3,
@@ -637,8 +637,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -647,8 +647,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -660,10 +660,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さん、もうしばらく付き合っていただけますか？",
 			painting = {
 				alpha = 0.3,
@@ -678,10 +678,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502072,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "せっかくここまで足を運んで頂いたので、美しい景色を堪能しながら、ゆっくりお茶を楽しみませんか？",
 			painting = {
 				alpha = 0.3,
@@ -722,8 +722,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -732,8 +732,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -792,8 +792,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -861,8 +861,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -871,8 +871,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,15 +1,15 @@
 slot0 = class("IslandEvent", import(".BaseVO"))
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_map_event_data
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 end
 
-function slot0.CheckTrigger(slot0, slot1)
+slot0.CheckTrigger = function(slot0, slot1)
 	if slot0:getConfig("type") == 2 then
 		slot2 = underscore.detect(slot0:getConfig("params"), function (slot0)
 			return slot0[1] == uv0
@@ -35,7 +35,7 @@ function slot0.CheckTrigger(slot0, slot1)
 	return true
 end
 
-function slot0.AfterTrigger(slot0, slot1)
+slot0.AfterTrigger = function(slot0, slot1)
 	if slot0:getConfig("type") == 2 and underscore.detect(slot0:getConfig("params"), function (slot0)
 		return slot0[1] == uv0
 	end)[2] then

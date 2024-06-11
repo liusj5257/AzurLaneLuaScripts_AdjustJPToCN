@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIAOQIANGMANHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"月刊漫畫Javelin\n\n<size=45>一　標槍，早安！</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "朱諾",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -81,14 +81,14 @@ return {
 			}
 		},
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "…………朱諾…？",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "…………朱諾…？",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "學校……啊哇哇哇！要遲到了！",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,15 +156,15 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "（我的名字叫標槍，是一名在港區就任的再普通不過的J級驅逐艦！）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			actorName = "？？？",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 900183,
 			nameColor = "#a9f548",
 			say = "「我正在尋找像妳這樣的女孩子喵」",
 			flashout = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "喵喵…說話了！？",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "「這是預言喵，標槍，妳將會——」",
 			typewriter = {
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "「在今天遇到命運之人！喵」",
 			typewriter = {
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "——！！！",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "啊啊啊不行不行！下午還要給指揮官提交報告，不好好整理髮型一下可不行——！",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

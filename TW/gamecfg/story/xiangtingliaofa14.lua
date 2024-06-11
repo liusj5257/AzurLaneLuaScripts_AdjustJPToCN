@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-6",
 			say = "白鷹·紐約港外圍 此刻",
+			side = 2,
+			dir = 1,
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "比預期中早到了1分35秒，進行戰鬥力評價修正。",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "白鷹高級制式巡洋艦，巴爾的摩級，滿載排水17000噸，9門203mm主炮，防空火力出色…特點是“自詡為一般路過的重巡洋艦”——",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "情報顯示的白鷹防衛艦隊旗艦…妳就是這裡最強的戰艦了嗎，只要將妳擊破，任務就可以完成了。",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "妳們不過是兵器，用於戰爭和殺戮的兵器。",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "只要接到命令，就算對昔日的盟友也能毫不猶豫的瞄準開火…",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "這樣的兵器，居然還在談論正義？",
 			typewriter = {
 				speed = 0.05,
@@ -211,13 +211,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 0,
-			withoutActorName = true,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "轟——",
+			withoutActorName = true,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "轟——",
 			flashN = {
 				color = {
 					1,

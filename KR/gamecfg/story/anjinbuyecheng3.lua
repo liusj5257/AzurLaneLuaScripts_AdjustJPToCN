@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackBg = true,
 			say = "管理所-地下车库",
@@ -25,19 +25,19 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
-			say = "엘리베이터 문이 천천히 열렸다.",
 			bgm = "story-antarctica-serious",
+			say = "엘리베이터 문이 천천히 열렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "괴도 '미스틱'을 따라 유치장 지하 차고에 침입하는 데 성공했다.",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "??",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "그렇군.",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "??",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "조금은 더 마술을 보여줄 줄 알았는데, 그걸로 끝인가?",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "??",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "수사관 '알렌 M. 섬너'…… 아니, 괴도 '미스틱'!",
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "도시의 수사관, 모나크는 내쪽으로 시선을 돌렸다.",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 299023,
 			side = 2,
 			bgName = "star_level_bg_543",
 			factiontag = "도시의 탐정",
 			dir = 1,
+			actor = 299023,
 			nameColor = "#FF9B93",
 			say = "……크흠, 미안하지만 지금은 그런 걸로 알아.",
 			painting = {
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "딱! 하고 모나크는 손가락을 튕겼다.",
 			typewriter = {
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "그러자 차고의 긴급 탈출구 문이 누군가의 발차기로 세차게 열렸다.",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
-			say = "갑작스레 쏟아진 무수한 총격 소리로 위험한 대치 상태는 중단되었다.",
 			soundeffect = "event:/ui/kaiqiang",
+			say = "갑작스레 쏟아진 무수한 총격 소리로 위험한 대치 상태는 중단되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "그 소리의 주인, 스비레피가 쏜 머신건은 오래되어 보였지만, 모나크와 오그네보이를 차폐물 뒤로 몰아낼 정도로 충분히 강력했다.",
 			typewriter = {
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_543",
-			hidePaintObj = true,
-			actorName = "아티스트",
 			side = 2,
+			bgName = "star_level_bg_543",
+			actor = 701121,
+			actorName = "아티스트",
+			hidePaintObj = true,
 			say = "아하하하! 한 판 붙어보자고!",
 			typewriter = {
 				speed = 0.05,
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,8 +511,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "가차없는 총격이 계속해서 쏟아졌다. 국면은 잠시 괴도와 그 협력자 쪽으로 기울었다.",
 			typewriter = {
@@ -562,10 +562,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_543",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 701121,
 			actorName = "아티스트",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알았어!",
 			typewriter = {
 				speed = 0.05,
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "발밑 맨홀 뚜껑을 열고 스비레피는 그 안으로 뛰어들었다.",
 			typewriter = {
@@ -596,8 +596,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "그대로 따라가려고 했지만, 한 가지가 마음에 걸려 발을 내딛지 못했다.",
 			typewriter = {
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "기둥 방향 쪽으로 시선을 돌리니, 오그네보이가 아까 헬기를 향해 쏜 무기를 조립하고 있는 모습이 보였다.",
 			typewriter = {
@@ -697,8 +697,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "결심은 했지만, 뛰어들기 전에 모나크 방향을 슬쩍 돌아보고 말았다.",
 			typewriter = {
@@ -707,8 +707,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "예전 친구…라고 했던가? 그렇게 생각한 순간 모나크와 서로 시선이 마주쳤다.",
 			typewriter = {
@@ -753,11 +753,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_543",
 			factiontag = "보안국 돌격팀 대원",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "파워 전개!!!",
 			painting = {
@@ -770,8 +770,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -780,8 +780,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "그 순간 맨홀 뚜껑은 누군가에 의해 닫혔고, 엄청난 폭발음이 이어졌다.",
 			typewriter = {
@@ -790,8 +790,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "어둠, 그리고 정적 속에서 다시 '환영'의 목소리가 들려왔다.",
 			typewriter = {
@@ -817,17 +817,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -861,10 +861,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9702070,
 			factiontag = "기사의 환영",
 			dir = 1,
 			blackBg = true,
+			actor = 9702070,
 			nameColor = "#A9F548FF",
 			say = "'만쥬 타워'로 가……",
 			painting = {
@@ -876,17 +876,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -894,8 +894,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -904,8 +904,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "……",
 			typewriter = {

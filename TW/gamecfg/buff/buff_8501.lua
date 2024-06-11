@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "万圣节EX2boss，第一阶段伤害加40%",
 	init_effect = "",
-	color = "red",
+	id = 8501,
+	time = 0,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
-	id = 8501,
+	color = "red",
 	icon = 8501,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.4
+				number = 0.4,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
+			stopbgm = true,
 			say = "據說能引出歌唱之力，思念之力的“μ兵裝”",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,9 +39,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "以及使用“μ兵裝”舉辦的港區第三屆“現場演唱會”——",
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "“765事務所”的偶像們與艦船們的聯合演出，達到了前所未有的人氣，俘獲了無數粉絲的心。",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "在那之後——",
 			typewriter = {
 				speed = 0.05,
@@ -83,17 +83,17 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
-			bgm = "idom-Appeal",
 			dir = 1,
 			bgmDelay = 2,
 			hidePaintEquip = true,
+			bgm = "idom-Appeal",
 			actor = 10700050,
 			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			say = "這次真的沒問題了吧？要是那樣的事情再來一次，我的心臟可真的受不了……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -121,11 +121,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "哎呀呀~，律子小姐真是愛擔心～",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,13 +136,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "沒想到兩邊的能量對撞後竟然互相抵消了。",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "沒想到兩邊的能量對撞後竟然互相抵消了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,13 +169,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "還以為要變成“欸，什麼？！沒辦法回去了ー！”這樣的狀況呢…",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "還以為要變成“欸，什麼？！沒辦法回去了ー！”這樣的狀況呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,11 +189,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "結果最後才發現通路並不在舞台那邊，反而就在這個事務所裡……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "這種驚嚇對心臟太不好了啊，真是的。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "非常抱歉喵…都是{namecode:98}的錯喵，請原諒喵＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,13 +264,13 @@ return {
 			}
 		},
 		{
-			actor = 10700040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "沒關係啦，多虧了大家才能順利找到通路，結果是好的嘛。如果在找這個隧道的是我們，想想就不安呢~",
 			hidePaintEquip = true,
+			actor = 10700040,
+			nameColor = "#a9f548",
+			say = "沒關係啦，多虧了大家才能順利找到通路，結果是好的嘛。如果在找這個隧道的是我們，想想就不安呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,13 +297,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（那場演唱會之後，艦船夥伴們所說的異常能量和“μ兵裝”產生的能量一起消失了）",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "（那場演唱會之後，艦船夥伴們所說的異常能量和“μ兵裝”產生的能量一起消失了）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,13 +314,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（其中一部分的餘波影響到了這個港區，好像使得我們來到這個世界時使用的通路又能用了…）",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "（其中一部分的餘波影響到了這個港區，好像使得我們來到這個世界時使用的通路又能用了…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,11 +334,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "（雖然到頭來都不知道為什麼突然來到了這個世界，不過能回去真是太好了……）",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,13 +413,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次絕對不會輸的！對吧，真美？",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "下次絕對不會輸的！對吧，真美？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +430,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -443,11 +443,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "真是的，明明輸的是亞美啦！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,13 +522,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…………這一次多虧大家關照了。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,13 +539,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700040,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "承蒙關照。能跟大家一起度過這段時光真的很開心～呵呵",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,13 +556,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700070,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "不止是演出，在這邊經歷的各種各樣的事都很開心！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700060,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "亞美也超開心的♪",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,13 +600,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700050,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "在這個世界度過的這段時間真的是一段很棒的體驗。真的謝謝大家了！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,13 +617,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700030,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "伊織醬走了之後可別覺得太寂寞哦！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,13 +634,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "總有一天，大家要再一起辦演唱會哦！",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "總有一天，大家要再一起辦演唱會哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,8 +651,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -661,13 +661,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "工作人員",
-			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "好的，那麼有請下一位！",
+			bgName = "star_level_bg_1100",
 			bgm = "idom-MainBGM",
+			nameColor = "#a9f548",
+			say = "好的，那麼有請下一位！",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -704,9 +704,9 @@ return {
 			bgName = "star_level_bg_1100",
 			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
 			nameColor = "#a9f548",
 			say = "哎，我們這是，回來了嗎……",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = false,
@@ -726,11 +726,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "累死了…",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,13 +741,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "休息休息~呼~",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "休息休息~呼~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,8 +758,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -768,13 +768,13 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "一眨眼就結束了嗎？不過總覺得過了很長時間呢…",
 			hidePaintEquip = true,
+			actor = 10700070,
+			nameColor = "#a9f548",
+			say = "一眨眼就結束了嗎？不過總覺得過了很長時間呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,13 +785,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，可沒有休息的時間，繼續攝影吧！下一個是春香嗎？",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "好了，可沒有休息的時間，繼續攝影吧！下一個是春香嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,11 +805,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "對，應該是。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,8 +820,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "工作人員",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -839,11 +839,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 10700010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "好的—！拜託了！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

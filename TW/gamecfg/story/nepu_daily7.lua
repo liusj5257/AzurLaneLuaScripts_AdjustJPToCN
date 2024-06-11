@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第七话　『下次再见～♪』</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actorName = "伊斯特瓦尔",
+			say = "……那么，虽然总觉得好像一直在玩，不过调查任务姑且也好好地完成了。各位辛苦了",
 			side = 2,
 			bgName = "bg_story_school",
-			withoutPainting = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			bgm = "story-nepu1",
 			actor = 0,
-			nameColor = "#a9f548",
-			say = "……那么，虽然总觉得好像一直在玩，不过调查任务姑且也好好地完成了。各位辛苦了",
+			actorName = "伊斯特瓦尔",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,14 +36,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "伊斯特瓦尔",
 			say = "多亏了妳们的调查，我们已经大致上了解了游戏业界和这个次元的关系性和亲和性。今后可以随时自由地来往两个次元了",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
+			say = "……说什么傻话呢？想也知道不行吧",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "……说什么傻话呢？想也知道不行吧",
+			actor = 10100030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -106,14 +106,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "伊斯特瓦尔",
 			say = "正是如此。以后想来的时候随时能来，大家先回去一趟吧。涅普顿也要",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "一时还以为会怎么样呢…还好总算是解决了呢。这也多亏了大家。谢谢妳们帮了这么多忙",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "一时还以为会怎么样呢…还好总算是解决了呢。这也多亏了大家。谢谢妳们帮了这么多忙",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "大家好不容易变成好朋友了…好可惜",
 			typewriter = {
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "……涅普涅普，咕嘟咕嘟地喝下去了呢。味觉和{namecode:6}我们一样？",
 			typewriter = {
@@ -434,14 +434,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "伊斯特瓦尔",
 			say = "那么各位，差不多该进虫洞了",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,14 +452,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "伊斯特瓦尔",
 			say = "一直这样让次元壁开着洞不大好。等妳们离开以后就要暂时关闭了",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,14 +470,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "伊斯特瓦尔",
 			say = "有需要过来的时候还会打开的，不用担心",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,12 +504,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "我们才是，都不知道该说什么感谢的话了。非常感谢，诺瓦露小姐",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们才是，都不知道该说什么感谢的话了。非常感谢，诺瓦露小姐",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "{namecode:6}也玩得很开心。拜拜，诺瓦露",
 			typewriter = {
@@ -557,11 +557,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "嗯，贝露姐姐，糖果、约好了！",
 			typewriter = {
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "等妳……拜拜，贝露姐姐",
 			typewriter = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "拜拜♪",
 			typewriter = {

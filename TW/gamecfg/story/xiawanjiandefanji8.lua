@@ -1,16 +1,16 @@
 return {
-	id = "XIAWANJIANDEFANJI8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI8",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "轟-------------！",
-			dir = 1,
 			bgm = "battle-boss-1",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "轟-------------！",
 			flashN = {
 				color = {
 					1,
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "什、什麼？！",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "可是實際上，已經沒有任何一條能夠讓我們撤出峽灣的航道了呢…",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "一、二、三……愛斯基摩陷入大危機…",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "得趕快聯繫厭戰才行！",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "忙完了嗎？我是Z2，對面的皇家驅逐艦，妳是誰？",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "皇家部族級驅逐艦愛斯基摩！",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "很響亮的回答。妳不害怕嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "區…區幾艘鐵血驅逐艦而已，我完全不害怕哦！",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -279,8 +279,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "（得在厭戰趕來之前拖住她們…！）",
 			typewriter = {
 				speed = 0.05,

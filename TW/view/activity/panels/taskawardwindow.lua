@@ -1,7 +1,7 @@
 slot0 = class("TaskAwardWindow", import(".PtAwardWindow"))
 
-function slot1(slot0)
-	function slot2(slot0)
+slot1 = function(slot0)
+	slot2 = function(slot0)
 		for slot4, slot5 in ipairs(uv0.tasklist) do
 			if type(slot5) == "table" then
 				for slot9, slot10 in ipairs(slot5) do
@@ -66,7 +66,7 @@ function slot1(slot0)
 	slot0.UIlist:align(#slot1)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.tasklist = slot1.tasklist
 	slot0.ptId = slot1.ptId
 	slot0.totalPt = slot1.totalPt

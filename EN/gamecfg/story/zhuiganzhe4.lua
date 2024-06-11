@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Moments with the Young Miss\n\n<size=45>4 When in Rome</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "Chaser’s visit to the Northern Parliament on the second day of her mission went off without a hitch.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "Chaser’s visit to the Northern Parliament on the second day of her mission went off without a hitch.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -131,14 +131,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Northern Parliament Dormitory - Canteen",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -198,8 +198,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "Oh... Dear Comrade and the Royal Navy girl. You’re still here...",
 			typewriter = {
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "Yes, we’re here for dinner. I trust that won’t be a problem!",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,8 +241,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "Oh. Then you can try the borscht. It’s good.",
 			typewriter = {
@@ -271,15 +271,15 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "Sorry to keep you waiting~ Do please enjoy my special Chaser Blend♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -323,8 +323,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "......!",
 			typewriter = {
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Chaser plopped some ice cubes into the tea.",
@@ -413,8 +413,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "...You can tell she’s run the shipping lanes to the Northern Parliament a lot...",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "And so, we all had some tea together.",
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

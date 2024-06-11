@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2022公海舰队b3 精英构建者反击护盾 到点清除TAG",
 	time = 12,
+	name = "2022公海舰队b3 精英构建者反击护盾 到点清除TAG",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

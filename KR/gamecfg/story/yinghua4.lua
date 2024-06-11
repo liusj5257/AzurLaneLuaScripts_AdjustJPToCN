@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -130,32 +130,32 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "이 세계에서 수많은 눈을 보아왔다. 무녀이기 때문에 기대오는 신앙의 눈이라 하더라도, 그 시선의 바닥에는 행복한 미래에 대한 희망이 틀림없이 있었다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			blackBg = true,
 			say = "그러나 이번에는 다르다. 평소 신뢰하던 동료들의 그 눈에는 희망이 아니라…… 그녀에게 최후의 결단을 내려달라는 염원이 비치고 있다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			blackBg = true,
 			say = "아무리 주저해도, 다른 선택지는 없다. 이 전쟁도 인간의 상층부가 정한 시나리오에 불과하다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "이미 거스를 수 없다는 것을 알게 된 소녀는 주먹을 쥐고, 한번 심호흡한 뒤, 이제는 익숙해진 위엄있는 말투로 선언했다.",
 			blackBg = true,
+			say = "이미 거스를 수 없다는 것을 알게 된 소녀는 주먹을 쥐고, 한번 심호흡한 뒤, 이제는 익숙해진 위엄있는 말투로 선언했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

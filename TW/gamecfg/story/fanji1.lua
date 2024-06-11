@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"笑容之下的真心\n\n<size=45>一 開朗活潑的秘書艦</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今天起，將由反擊擔任秘書艦。",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "應著敲門聲打開門。迎面走進來的，是臉上掛著歡快笑容的反擊。",
 			typewriter = {
 				speed = 0.05,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "不過，既然被選中了，我一定會全力以赴為指揮官地工作的！無論什麼事都好，儘管把工作交給我吧！",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "反擊一副按耐不住的模樣，似乎恨不得立馬投身於秘書艦的事務之中。",
 			typewriter = {
 				speed = 0.05,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "既然她如此積極，那就立馬交代她一些工作好了。",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "給她看了看桌子上堆成小山的文件。",
 			typewriter = {
 				speed = 0.05,
@@ -210,9 +210,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "總之，先從文書管理的工作開始做起吧——",
 			typewriter = {
 				speed = 0.05,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "欸、欸欸欸！？有這麼多的文件要處理？？",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "反擊似乎有些困擾地皺起了眉頭。要不要給她找找其他工作的工作呢…",
 			typewriter = {
 				speed = 0.05,
@@ -286,11 +286,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "啊對啦！ 指揮官，整理資料的話我應該能行！",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "話音剛落，反擊就開始著手整理那座“小山”來。",
 			typewriter = {
 				speed = 0.05,
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確實如同反擊所說，在逐個確認這堆成小山的文件之前，先將它們整理一下會更好。",
 			typewriter = {
 				speed = 0.05,

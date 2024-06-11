@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "弹药特性",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
@@ -32,8 +32,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = 0.1,
+				attr = "damageRatioBullet",
 				index = {
 					1
 				}

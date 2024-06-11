@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 维内托",
 	time = 3,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 维内托",
+	init_effect = "",
+	id = 200873,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200873,
+	color = "yellow",
 	icon = 200873,
 	last_effect = "",
 	effect_list = {

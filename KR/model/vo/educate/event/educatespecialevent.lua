@@ -12,26 +12,26 @@ slot0.TAG2NAME = {
 	[slot0.TAG_END] = "END"
 }
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1
 	slot0.configId = slot0.id
 
 	slot0:initTime()
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.child_event_special
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.IsPlanType(slot0)
+slot0.IsPlanType = function(slot0)
 	return slot0:GetType() == uv0.TYPE_PLAN
 end
 
-function slot0.GetGridIndexs(slot0)
+slot0.GetGridIndexs = function(slot0)
 	slot1 = {}
 
 	for slot5 = slot0.startTime.day, slot0.endTime.day do
@@ -48,23 +48,23 @@ function slot0.GetGridIndexs(slot0)
 	return slot1
 end
 
-function slot0.IsSiteType(slot0)
+slot0.IsSiteType = function(slot0)
 	return slot0:GetType() == uv0.TYPE_SITE
 end
 
-function slot0.IsMatchSite(slot0, slot1)
+slot0.IsMatchSite = function(slot0, slot1)
 	return table.contains(slot0:getConfig("type_param"), slot1)
 end
 
-function slot0.initTime(slot0)
+slot0.initTime = function(slot0)
 	slot0.startTime, slot0.endTime = EducateHelper.CfgTime2Time(slot0:getConfig("date"))
 end
 
-function slot0.InTime(slot0, slot1)
+slot0.InTime = function(slot0, slot1)
 	return EducateHelper.InTime(slot1, slot0.startTime, slot0.endTime)
 end
 
-function slot0.IsMatch(slot0, slot1)
+slot0.IsMatch = function(slot0, slot1)
 	if slot0:getConfig("child_attr2") == 0 then
 		return true
 	end
@@ -72,7 +72,7 @@ function slot0.IsMatch(slot0, slot1)
 	return slot0:getConfig("child_attr2") == slot1
 end
 
-function slot0.IsUnlockSite(slot0)
+slot0.IsUnlockSite = function(slot0)
 	if not slot0:IsSiteType() then
 		return true
 	end
@@ -80,35 +80,35 @@ function slot0.IsUnlockSite(slot0)
 	return EducateHelper.IsSiteUnlock(slot0:getConfig("type_param")[1], getProxy(EducateProxy):IsFirstGame())
 end
 
-function slot0.InNextWeekTime(slot0, slot1)
+slot0.InNextWeekTime = function(slot0, slot1)
 	return slot0.startTime.month <= EducateHelper.GetTimeAfterDays(slot1, 7).month and slot2.month <= slot0.endTime.month and slot0.startTime.week <= slot2.week and slot2.week <= slot0.endTime.week
 end
 
-function slot0.GetPerformance(slot0)
+slot0.GetPerformance = function(slot0)
 	return slot0:getConfig("performance")
 end
 
-function slot0.GetResult(slot0)
+slot0.GetResult = function(slot0)
 	return slot0:getConfig("result_display") or {}
 end
 
-function slot0.InMonth(slot0, slot1)
+slot0.InMonth = function(slot0, slot1)
 	return slot1 <= slot0.startTime.month and slot0.endTime.month <= slot1
 end
 
-function slot0.IsShow(slot0)
+slot0.IsShow = function(slot0)
 	return slot0:getConfig("show") ~= 0
 end
 
-function slot0.IsImport(slot0)
+slot0.IsImport = function(slot0)
 	return slot0:getConfig("show") == 1
 end
 
-function slot0.IsOther(slot0)
+slot0.IsOther = function(slot0)
 	return slot0:getConfig("show") == 2
 end
 
-function slot0.GetTag(slot0, slot1, slot2)
+slot0.GetTag = function(slot0, slot1, slot2)
 	if table.contains(slot1, slot0.id) or slot0.endTime.week < slot2 then
 		return uv0.TAG_END
 	else
@@ -116,7 +116,7 @@ function slot0.GetTag(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetTimeDesc(slot0)
+slot0.GetTimeDesc = function(slot0)
 	if slot0.startTime.week == slot0.endTime.week then
 		return i18n("word_which_week", slot0.startTime.week)
 	else
@@ -124,7 +124,7 @@ function slot0.GetTimeDesc(slot0)
 	end
 end
 
-function slot0.GetDiscountShopId(slot0)
+slot0.GetDiscountShopId = function(slot0)
 	if slot0:getConfig("type") == uv0.TYPE_BUBBLE_DISCOUNT then
 		return pg.child_site_option[slot0:getConfig("type_param")[1]].param[1]
 	end
@@ -132,7 +132,7 @@ function slot0.GetDiscountShopId(slot0)
 	assert(nil, "not discount type:" .. slot0.id)
 end
 
-function slot0.GetDiscountRatio(slot0)
+slot0.GetDiscountRatio = function(slot0)
 	if slot0:getConfig("type") == uv0.TYPE_BUBBLE_DISCOUNT then
 		return slot0:getConfig("type_param")[2]
 	end
@@ -140,7 +140,7 @@ function slot0.GetDiscountRatio(slot0)
 	assert(nil, "not discount type:" .. slot0.id)
 end
 
-function slot0.InDiscountTime(slot0, slot1)
+slot0.InDiscountTime = function(slot0, slot1)
 	if slot0:getConfig("type") == uv0.TYPE_BUBBLE_DISCOUNT then
 		return EducateHelper.InTime(slot1, slot0.startTime, EducateHelper.GetTimeAfterWeeks(slot1, slot0:getConfig("type_param")[3]))
 	end

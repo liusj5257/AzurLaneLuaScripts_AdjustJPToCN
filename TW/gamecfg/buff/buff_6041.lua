@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "SG雷达T1",
 	time = 0,
-	color = "yellow",
+	name = "SG雷达T1",
+	init_effect = "",
+	id = 6041,
 	picture = "",
 	desc = "命中和机动提高3%",
 	stack = 1,
-	id = 6041,
+	color = "yellow",
 	icon = 6041,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 6040,
-				attr = "attackRating",
-				number = 300
+				number = 300,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				group = 6040,
-				attr = "dodgeRate",
-				number = 300
+				number = 300,
+				attr = "dodgeRate"
 			}
 		}
 	}

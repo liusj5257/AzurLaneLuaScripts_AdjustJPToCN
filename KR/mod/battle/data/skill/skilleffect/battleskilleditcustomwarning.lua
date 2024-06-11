@@ -8,7 +8,7 @@ slot1.OP_REMOVE = 0
 slot1.OP_REMOVE_PERMANENT = -1
 slot1.OP_REMOVE_TEMPLATE = -2
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1, lv)
 
 	slot0._labelData = {
@@ -21,14 +21,14 @@ function slot1.Ctor(slot0, slot1)
 	}
 end
 
-function slot1.DoDataEffect(slot0)
+slot1.DoDataEffect = function(slot0)
 	slot0:doEditWarning()
 end
 
-function slot1.DoDataEffectWithoutTarget(slot0)
+slot1.DoDataEffectWithoutTarget = function(slot0)
 	slot0:doEditWarning()
 end
 
-function slot1.doEditWarning(slot0)
+slot1.doEditWarning = function(slot0)
 	uv0.Battle.BattleDataProxy.GetInstance():DispatchCustomWarning(slot0._labelData)
 end

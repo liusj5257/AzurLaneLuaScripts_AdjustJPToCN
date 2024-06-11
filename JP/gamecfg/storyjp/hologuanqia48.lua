@@ -1,20 +1,20 @@
 return {
-	id = "HOLOGUANQIA48",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA48",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgm = "holo-fff",
-			nameColor = "#ff5c5c",
-			dir = -1,
-			actorScale = 2,
 			soundeffect = "event:/battle/boom2",
-			actor = 10500010,
+			dir = -1,
 			actorName = "暗邪眼の狐吹雪",
+			bgm = "holo-fff",
+			actor = 10500010,
+			nameColor = "#ff5c5c",
+			actorScale = 2,
 			say = "わ、私が間違ってたというのか……",
 			flashN = {
 				color = {
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "巨大フブキは光となって、ホロライブ本社ビルに消えた…！",
 			flashout = {
 				dur = 1,
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "最後の敵も倒したし、あとはこのホロライブ本社をなんとかすれば鏡面海域を解除できるね",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "でも、あの本社ビルをどうすれば？偽フブキの言ったことが間違ってなければ、セイレーン技術でかなり歪んでるはずよ？",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "答えは……一つしかないじゃない",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "ふふふ、みんな、これまでTNTブロックを集めてたのはなんのためだと思う～？",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "……………ま、まさか！",
 			dialogShake = {
 				speed = 0.09,
@@ -229,8 +229,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "ふっふっふっ、どうやらこのシオン様の魔法を披露するときが来たようね",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "ええと、飛ばしすぎないように気をつけてね？アズールレーンのみんなを傷つけてもダメだからね？",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "………そう言えば、ちょっとだけ引掛ってたね",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "あの偽フブキ、なんで途中から「駒」を最後まで戦わせなくなったのかな……",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "やっぱり考えすぎなのかな……",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "それと、みんななんとなくわかるんだ。こういうときは焦ってもしょうがないって！",
 			typewriter = {
 				speed = 0.05,
@@ -430,8 +430,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "へー、結局爆破しちゃうんだ。本当にいいの？セイレーンの技術って重桜もほしいんじゃないの？",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "ふーん。まあいっか。んじゃ、私もなんか手伝おっかな～",
 			typewriter = {
 				speed = 0.05,

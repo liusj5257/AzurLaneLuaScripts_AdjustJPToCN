@@ -149,9 +149,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 8,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "航速、机动下降",
 	stack = 1,

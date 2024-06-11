@@ -1,13 +1,13 @@
 return {
-	id = "W860001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W860001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "Using the blue device lets us change obstacles marked with blue symbols. What should we do?",
 			typewriter = {
 				speed = 0.05,

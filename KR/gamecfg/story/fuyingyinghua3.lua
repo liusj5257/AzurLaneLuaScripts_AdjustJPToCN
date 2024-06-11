@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "story-4",
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "여러분. 잠시 기다리세요.",
-			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "오래간만입니다. 아카기님, 카가님.",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "…신께 용맹함을, 지혜와 재능을, 그리고 신앙을!",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "항공모함 류호, 갑니다!",
 			typewriter = {
 				speed = 0.05,

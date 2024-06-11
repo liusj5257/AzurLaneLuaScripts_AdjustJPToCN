@@ -1,6 +1,6 @@
 slot0 = class("SettingsAgreementCHTPanle", import(".SettingsAgreementPanle"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf:Find("private")
 
 	onButton(slot0, slot1, function ()

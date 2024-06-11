@@ -226,7 +226,7 @@ slot0.config = {
 	}
 }
 
-function slot0.CheckGuide(slot0, slot1)
+slot0.CheckGuide = function(slot0, slot1)
 	if not getProxy(EducateProxy):IsFirstGame() then
 		slot1()
 
@@ -273,7 +273,7 @@ function slot0.CheckGuide(slot0, slot1)
 	end, slot1)
 end
 
-function slot0.PlayNextOne(slot0, slot1)
+slot0.PlayNextOne = function(slot0, slot1)
 	if not slot0 then
 		return
 	end

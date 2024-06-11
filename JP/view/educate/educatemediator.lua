@@ -9,7 +9,7 @@ slot0.ON_ENDING_TRIGGER = "EducateMediator:ON_ENDING_TRIGGER"
 slot0.ON_GAME_RESET = "EducateMediator:ON_GAME_RESET"
 slot0.ENTER_VIRTUAL_STAGE = "EducateMediator.ENTER_VIRTUAL_STAGE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_DEFAULT_TARGET_SET, function (slot0, slot1)
 		uv0:sendNotification(GAME.EDUCATE_SET_TARGET, {
 			id = slot1.id,
@@ -59,7 +59,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		EducateProxy.RESOURCE_UPDATED,
 		EducateProxy.ATTR_UPDATED,
@@ -87,7 +87,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == EducateProxy.RESOURCE_UPDATED then
@@ -167,7 +167,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.playPlansPerform(slot0, slot1, slot2)
+slot0.playPlansPerform = function(slot0, slot1, slot2)
 	table.insert({}, function (slot0)
 		uv0:addSubLayers(Context.New({
 			viewComponent = EducateCalendarLayer,

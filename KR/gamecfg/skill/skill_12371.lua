@@ -2,9 +2,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -22,9 +22,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -42,9 +42,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -62,9 +62,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -82,9 +82,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -102,9 +102,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -122,9 +122,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -142,9 +142,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -162,9 +162,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -182,9 +182,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipTypeFriendly"
@@ -202,11 +202,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "1",
+	desc = "属性提升",
 	painting = 0,
 	id = 12371,
-	picture = "1",
 	castCV = "skill",
-	desc = "属性提升",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -217,9 +217,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipTypeFriendly"

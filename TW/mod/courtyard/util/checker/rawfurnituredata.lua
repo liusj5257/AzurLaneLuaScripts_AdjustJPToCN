@@ -1,6 +1,6 @@
 slot0 = class("RawFurnitureData")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.config = pg.furniture_data_template[slot1.configId]
 	slot0.name = slot0.config.name
 	slot0.id = slot1.id
@@ -21,7 +21,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.IsCompletion(slot0)
+slot0.IsCompletion = function(slot0)
 	if not slot0.floor then
 		return false
 	end
@@ -45,11 +45,11 @@ function slot0.IsCompletion(slot0)
 	return true
 end
 
-function slot0.ExistParnet(slot0)
+slot0.ExistParnet = function(slot0)
 	return slot0.parent and slot0.parent ~= 0
 end
 
-function slot0.LegalParent(slot0, slot1)
+slot0.LegalParent = function(slot0, slot1)
 	if not slot1 then
 		return false
 	end
@@ -61,7 +61,7 @@ function slot0.LegalParent(slot0, slot1)
 	return true
 end
 
-function slot0.LegalChild(slot0, slot1)
+slot0.LegalChild = function(slot0, slot1)
 	if not slot1 then
 		return false
 	end
@@ -85,7 +85,7 @@ function slot0.LegalChild(slot0, slot1)
 	return true
 end
 
-function slot0.InSide(slot0, slot1, slot2, slot3, slot4)
+slot0.InSide = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0.config.belong == 1 and slot0.config.type ~= 1 and slot0.config.type ~= 4 and not slot0:ExistParnet() then
 		return _.all(slot0:GetAreaByPosition(), function (slot0)
 			return uv0 <= slot0.x and uv1 <= slot0.y and slot0.x <= uv2 and slot0.y <= uv3
@@ -103,7 +103,7 @@ function slot0.InSide(slot0, slot1, slot2, slot3, slot4)
 	return true
 end
 
-function slot0.GetAreaByPosition(slot0)
+slot0.GetAreaByPosition = function(slot0)
 	slot1 = {}
 
 	for slot5 = slot0.x, slot0.x + slot0.sizeX - 1 do
@@ -115,7 +115,7 @@ function slot0.GetAreaByPosition(slot0)
 	return slot1
 end
 
-function slot0.MatOrPaper(slot0)
+slot0.MatOrPaper = function(slot0)
 	return slot0.config.type == 5 or slot0.config.type == 10 or slot0.config.type == 1 or slot0.config.type == 4
 end
 

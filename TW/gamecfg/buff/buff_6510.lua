@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "玉米灯笼",
 	time = 0,
-	color = "red",
+	name = "玉米灯笼",
+	init_effect = "",
+	id = 6510,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6510,
+	color = "red",
 	icon = 6510,
 	last_effect = "",
 	effect_list = {

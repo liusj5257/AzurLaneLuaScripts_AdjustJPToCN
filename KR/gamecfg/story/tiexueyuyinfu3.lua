@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
-			bgm = "bsm-1",
-			nameColor = "#ffde38",
-			dir = 1,
-			say = "어머, 쥐새끼가 미행하고 있었네.",
 			soundeffect = "event:/battle/scan",
+			side = 2,
+			dir = 1,
+			bgm = "bsm-1",
+			actor = 403030,
+			nameColor = "#ffde38",
+			say = "어머, 쥐새끼가 미행하고 있었네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,10 +81,10 @@ return {
 		{
 			expression = 3,
 			side = 0,
+			say = "교전을 허가한다. 쫓아버려.",
+			dir = -1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = -1,
-			say = "교전을 허가한다. 쫓아버려.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "……하지만 너무 쫓아 가지는 마. 이쪽 위치는 이미 발각됐으니까.",
 			typewriter = {
 				speed = 0.05,

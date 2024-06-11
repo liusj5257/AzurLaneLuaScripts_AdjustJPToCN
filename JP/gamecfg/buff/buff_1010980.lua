@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 1010980,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1010980,
+	color = "yellow",
 	icon = 10980,
 	last_effect = "",
 	effect_list = {
@@ -44,9 +44,9 @@ return {
 				"onAntiAirWeaponFireFar"
 			},
 			arg_list = {
+				skill_id = 1010981,
 				time = 10,
-				target = "TargetSelf",
-				skill_id = 1010981
+				target = "TargetSelf"
 			}
 		}
 	}

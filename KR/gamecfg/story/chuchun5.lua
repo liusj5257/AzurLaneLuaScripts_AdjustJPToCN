@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"하츠하루의 고민\n\n<size=45>보람 없는 노력?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날 - 연습 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "어느 날 - 연습 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "후부키도 상당히 활약했어요.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "후부키도 상당히 활약했어요.",
+			actor = 301050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "아! 네, 네! 후, 후부키 씨도 수, 수고하셨습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -124,15 +124,15 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "…오늘도 활약하지 못했네…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "꺅!? ……히, 히요 씨! 자꾸 깜짝 놀래키지 말아주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -263,12 +263,12 @@ return {
 			}
 		},
 		{
-			actor = 306010,
+			say = "아… 미안. 연습 끝났을 때부터 신경 쓰였는데, 무슨 일 있었어?",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아… 미안. 연습 끝났을 때부터 신경 쓰였는데, 무슨 일 있었어?",
+			actor = 306010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "아, 아무것도 아니에요! 조금 지쳤을 뿐……",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "그, 그건……",
 			typewriter = {
 				speed = 0.05,
@@ -373,8 +373,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -511,12 +511,12 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "지, 지휘관님!?",
 			typewriter = {
 				speed = 0.05,
@@ -528,8 +528,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

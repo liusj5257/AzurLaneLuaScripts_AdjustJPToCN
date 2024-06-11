@@ -1,10 +1,10 @@
 slot0 = class("ActivityBossKuybyshevScene", import(".ActivityBossSceneTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivityBossKuybyshevUI"
 end
 
-function slot0.UpdateDropItems(slot0)
+slot0.UpdateDropItems = function(slot0)
 	slot1 = ipairs
 	slot2 = slot0.contextData.DisplayItems or {}
 

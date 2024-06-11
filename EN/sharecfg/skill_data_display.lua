@@ -1641,6 +1641,42 @@ pg.skill_data_display = setmetatable({
 		17890,
 		17891,
 		17911,
+		17942,
+		17952,
+		17961,
+		17970,
+		17982,
+		150000,
+		150001,
+		150004,
+		150010,
+		150012,
+		150013,
+		150014,
+		150015,
+		150016,
+		150017,
+		150018,
+		150020,
+		150021,
+		150022,
+		150025,
+		150027,
+		150030,
+		150040,
+		150043,
+		150050,
+		150051,
+		150063,
+		150064,
+		150070,
+		150071,
+		150081,
+		150082,
+		150083,
+		150090,
+		150091,
+		150121,
 		18010,
 		18040,
 		18041,
@@ -2241,6 +2277,8 @@ pg.skill_data_display = setmetatable({
 		30222,
 		30223,
 		30224,
+		30271,
+		30272,
 		39000,
 		39001,
 		39002,
@@ -2804,6 +2842,17 @@ pg.skill_data_display = setmetatable({
 		801152,
 		801191,
 		801192,
+		801202,
+		801203,
+		801204,
+		801211,
+		801212,
+		801214,
+		801221,
+		801222,
+		801223,
+		801261,
+		801262,
 		902201,
 		1010140,
 		1010143,
@@ -2951,6 +3000,7 @@ pg.skill_data_display = setmetatable({
 		295008,
 		295009,
 		200897,
+		200933,
 		1011540,
 		1011541,
 		1090010,
@@ -9611,6 +9661,150 @@ pg.base.skill_data_display = {
 		id = 17911,
 		name = "Perfect Dazzling Stage"
 	},
+	[17942] = {
+		id = 17942,
+		name = "Cleaver of All Sin"
+	},
+	[17952] = {
+		id = 17952,
+		name = "Speed Follow-Up"
+	},
+	[17961] = {
+		id = 17961,
+		name = "Weak Spot Follow-Up"
+	},
+	[17970] = {
+		id = 17970,
+		name = "Big Seven - Colorado"
+	},
+	[17982] = {
+		id = 17982,
+		name = "The Light of Glory Yet Shines"
+	},
+	[150000] = {
+		id = 150000,
+		name = "Sword of Final Judgment"
+	},
+	[150001] = {
+		id = 150001,
+		name = "Sword of Final Judgment"
+	},
+	[150004] = {
+		id = 150004,
+		name = "Sword of Final Judgment"
+	},
+	[150010] = {
+		id = 150010,
+		name = "Sword of a New Era"
+	},
+	[150012] = {
+		id = 150012,
+		name = "Sword of a New Era (0/6)"
+	},
+	[150013] = {
+		id = 150013,
+		name = "Sword of a New Era (1/6)"
+	},
+	[150014] = {
+		id = 150014,
+		name = "Sword of a New Era (2/6)"
+	},
+	[150015] = {
+		id = 150015,
+		name = "Sword of a New Era (3/6)"
+	},
+	[150016] = {
+		id = 150016,
+		name = "Sword of a New Era (4/6)"
+	},
+	[150017] = {
+		id = 150017,
+		name = "Sword of a New Era (5/6)"
+	},
+	[150018] = {
+		id = 150018,
+		name = "Sword of a New Era (6/6)"
+	},
+	[150020] = {
+		id = 150020,
+		name = "Attack Command: Holy Judgment"
+	},
+	[150021] = {
+		id = 150021,
+		name = "Attack Command: Holy Judgment"
+	},
+	[150022] = {
+		id = 150022,
+		name = "Attack Command: Holy Judgment"
+	},
+	[150025] = {
+		id = 150025,
+		name = "Attack Command: Holy Judgment"
+	},
+	[150027] = {
+		id = 150027,
+		name = "Divine Sanction 12/12"
+	},
+	[150030] = {
+		id = 150030,
+		name = "Divine Sanction"
+	},
+	[150040] = {
+		id = 150040,
+		name = "Critical Flashpoint"
+	},
+	[150043] = {
+		id = 150043,
+		name = "Critical Flashpoint"
+	},
+	[150050] = {
+		id = 150050,
+		name = "Ace of Roses!"
+	},
+	[150051] = {
+		id = 150051,
+		name = "Ace of Roses!"
+	},
+	[150063] = {
+		id = 150063,
+		name = "The Most Elegant Curtain Call!"
+	},
+	[150064] = {
+		id = 150064,
+		name = "The Most Elegant Curtain Call!"
+	},
+	[150070] = {
+		id = 150070,
+		name = "It's Pretty Heavy... Isn't It?"
+	},
+	[150071] = {
+		id = 150071,
+		name = "It's Pretty Heavy... Isn't It?"
+	},
+	[150081] = {
+		id = 150081,
+		name = "As Long As I Can Hold On..."
+	},
+	[150082] = {
+		id = 150082,
+		name = "As Long As I Can Hold On..."
+	},
+	[150083] = {
+		id = 150083,
+		name = "As Long As I Can Hold On..."
+	},
+	[150090] = {
+		id = 150090,
+		name = "Attack Command: Holy Judgment"
+	},
+	[150091] = {
+		id = 150091,
+		name = "Attack Command: Holy Judgment"
+	},
+	[150121] = {
+		id = 150121,
+		name = "Symphony Rehearsal"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -12011,6 +12205,14 @@ pg.base.skill_data_display = {
 		id = 30224,
 		name = "All Out Assault - Prinz Eugen μ"
 	},
+	[30271] = {
+		id = 30271,
+		name = "All Out Assault I"
+	},
+	[30272] = {
+		id = 30272,
+		name = "All Out Assault II"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -14263,6 +14465,50 @@ pg.base.skill_data_display = {
 		id = 801192,
 		name = "Ashen Might - Vampire"
 	},
+	[801202] = {
+		id = 801202,
+		name = "Keeper of the Grimoire"
+	},
+	[801203] = {
+		id = 801203,
+		name = "Keeper of the Grimoire"
+	},
+	[801204] = {
+		id = 801204,
+		name = "Keeper of the Grimoire"
+	},
+	[801211] = {
+		id = 801211,
+		name = "Holy Tempest's Descension"
+	},
+	[801212] = {
+		id = 801212,
+		name = "Holy Tempest's Descension"
+	},
+	[801214] = {
+		id = 801214,
+		name = "Holy Tempest's Descension"
+	},
+	[801221] = {
+		id = 801221,
+		name = "Sacrament's Empowering Rite - Airstrike"
+	},
+	[801222] = {
+		id = 801222,
+		name = "Sacrament's Empowering Rite - Barrage"
+	},
+	[801223] = {
+		id = 801223,
+		name = "Sacrament's Empowering Rite"
+	},
+	[801261] = {
+		id = 801261,
+		name = "Cinders of Hope - Foch"
+	},
+	[801262] = {
+		id = 801262,
+		name = "Cinders of Hope - Foch"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -14850,6 +15096,10 @@ pg.base.skill_data_display = {
 	[200897] = {
 		id = 200897,
 		name = "Iron Claw Sweep"
+	},
+	[200933] = {
+		id = 200933,
+		name = "Martyrium of Noble Sacrifice"
 	},
 	[1011540] = {
 		id = 1011540,

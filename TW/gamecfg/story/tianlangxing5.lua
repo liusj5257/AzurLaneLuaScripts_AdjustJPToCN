@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"天狼星改造計畫\n\n<size=45>五 攜手起舞</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202150,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "這樣轉一圈，然後這樣……",
 			bgm = "story-1",
+			actor = 202150,
+			nameColor = "#a9f548",
+			say = "這樣轉一圈，然後這樣……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "找到歐若拉來教天狼星跳社交舞。",
 			typewriter = {
 				speed = 0.05,
@@ -100,14 +100,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 202200,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "我驕傲的主人，還請多多關照",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "身兼秘書艦、女僕、宴會女伴三職的天狼星優雅地將手伸過來",
 			typewriter = {
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "雖然動作上還有一點點生硬，不過已經完全看不出來是臨時抱佛腳了。",
 			typewriter = {
 				speed = 0.05,
@@ -169,9 +169,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在舞蹈練習中，她突然小聲說。",
 			typewriter = {
 				speed = 0.05,
@@ -186,10 +186,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorScale = 1.5,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "……非常感謝您",
 			typewriter = {
 				speed = 0.05,
@@ -208,10 +208,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorScale = 1.5,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "對於區區女僕，您居然會照顧到這個地步……",
 			typewriter = {
 				speed = 0.05,
@@ -230,10 +230,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorScale = 1.5,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "我明白作為女僕不該說這樣的話，不過……",
 			typewriter = {
 				speed = 0.05,
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（碰）",
 			typewriter = {
 				speed = 0.05,
@@ -263,9 +263,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "或許是因為感情的起伏瞬間打亂了步伐，從纖細的舞伴那邊傳來了有著重量感的柔軟觸感。",
 			typewriter = {
 				speed = 0.05,
@@ -280,10 +280,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorScale = 1.5,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "…我驕傲的主人…",
 			typewriter = {
 				speed = 0.05,
@@ -302,10 +302,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorScale = 1.5,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "實在抱歉！這是，那個……",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 					}
 				},
 				{
-					type = "move",
 					y = 225,
+					type = "move",
 					delay = 0,
 					dur = 0.2,
 					x = 0

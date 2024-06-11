@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_137 = {}
 slot1 = slot0.word_template_137
 
-function temp()
+temp = function()
 	uv0["或"] = {
 		["死"] = {
 			["于"] = {
@@ -72,7 +72,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["货"] = {
 		["不"] = {
 			["在"] = {
@@ -250,7 +250,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蠖"] = {
 		this = {
 			this = true
@@ -260,7 +260,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丌"] = {
 		this = {
 			this = true
@@ -270,7 +270,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["机"] = {
 		["8"] = {
 			this = true
@@ -322,7 +322,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["乩"] = {
 		this = {
 			this = true
@@ -332,7 +332,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["肌"] = {
 		["安"] = {
 			["松"] = {

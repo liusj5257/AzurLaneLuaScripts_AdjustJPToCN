@@ -1,14 +1,14 @@
 return {
-	init_effect = "",
-	name = "2020德系活动EX 构建者反击护盾",
 	time = 12.1,
-	last_effect = "ATdun_full",
+	name = "2020德系活动EX 构建者反击护盾",
+	init_effect = "",
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "AT·FIELD",
 	stack = 1,
 	id = 8821,
 	icon = 8821,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun_full",
 	effect_list = {
 		{
 			type = "BattleBuffAddTag",

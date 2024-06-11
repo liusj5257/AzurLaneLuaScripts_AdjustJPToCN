@@ -5,7 +5,7 @@ slot3 = 0
 slot4 = 1
 slot5 = 2
 
-function slot6(slot0)
+slot6 = function(slot0)
 	return ({
 		"0.5",
 		"1",
@@ -14,7 +14,7 @@ function slot6(slot0)
 	})[slot0]
 end
 
-function slot7()
+slot7 = function()
 	if table.indexof(Story.STORY_AUTO_SPEED, pg.NewStoryMgr.GetInstance():GetPlaySpeed() or 0) <= 0 or slot1 > #Story.STORY_AUTO_SPEED then
 		slot1 = 1
 	end
@@ -22,7 +22,7 @@ function slot7()
 	return uv0(slot1)
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
@@ -45,12 +45,12 @@ function slot0.Ctor(slot0, slot1)
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	onButton(slot0, slot0.speedBtn, function ()
 		uv0:ShowSettings()
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		if uv0.speedPanelStatus == uv1 then
 			uv0:ShowSettings()
 		elseif uv0.speedPanelStatus == uv2 then
@@ -72,7 +72,7 @@ function slot0.Init(slot0)
 	slot0.speedPanelStatus = uv1
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0.speedBtn, true)
 
 	slot0.speedImg.sprite = GetSpriteFromAtlas("ui/story_atlas", uv0())
@@ -86,13 +86,13 @@ function slot0.Show(slot0)
 	slot0.speedAnim:Play("anim_newstoryUI_speed_in")
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:RemoveTimer()
 	slot0.speedAnim:Stop()
 	slot0.speedAnim:Play("anim_newstoryUI_speed_out")
 end
 
-function slot0.ShowSettings(slot0)
+slot0.ShowSettings = function(slot0)
 	setActive(slot0.speedBtn, false)
 	setActive(slot0.speedPanel, true)
 
@@ -123,7 +123,7 @@ function slot0.ShowSettings(slot0)
 	slot0:AddHideSettingsTimer()
 end
 
-function slot0.AddHideSettingsTimer(slot0)
+slot0.AddHideSettingsTimer = function(slot0)
 	slot0:RemoveTimer()
 
 	slot0.timer = Timer.New(function ()
@@ -133,7 +133,7 @@ function slot0.AddHideSettingsTimer(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -141,7 +141,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.HideSettings(slot0)
+slot0.HideSettings = function(slot0)
 	slot0:RemoveTimer()
 	slot0:Show()
 	slot0.speedPanelAnim:Stop()
@@ -150,7 +150,7 @@ function slot0.HideSettings(slot0)
 	slot0.speedPanelStatus = uv0
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0:RemoveTimer()
 	setActive(slot0.speedBtn, false)
 	setActive(slot0.speedPanel, false)
@@ -158,7 +158,7 @@ function slot0.Clear(slot0)
 	slot0.speedPanelAnim:Stop()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 

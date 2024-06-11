@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_150 = {}
 slot1 = slot0.word_template_150
 
-function temp()
+temp = function()
 	uv0["薑"] = {
 		["春"] = {
 			["雲"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["疆"] = {
 		["独"] = {
 			this = true
@@ -28,7 +28,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["奖"] = {
 		["金"] = {
 			["就"] = {
@@ -51,7 +51,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蒋"] = {
 		["达"] = {
 			["德"] = {
@@ -113,7 +113,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蔣"] = {
 		["介"] = {
 			["石"] = {
@@ -140,7 +140,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["講"] = {
 		["法"] = {
 			this = true
@@ -150,7 +150,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["降"] = {
 		["低"] = {
 			["命"] = {

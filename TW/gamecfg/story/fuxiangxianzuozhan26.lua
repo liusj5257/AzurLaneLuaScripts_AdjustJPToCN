@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN26",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鐵血浮島要塞群·D12防禦模組至D13防禦模組之間",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "鐵血浮島要塞群·D12防禦模組至D13防禦模組之間",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,8 +59,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "彼得，鏡面海域正在解除，妳之前做了什麼？！！",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "哎？那個是中央模組控制的，我什麼都沒……是中央控制島的鏡面海域生成器出問題了嗎？！可是為什麼在這種時候……",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "…偵察情報有變，區域內的“鐵血”艦隊和“重櫻”艦隊全部消失了。",
 			typewriter = {
@@ -126,8 +126,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "能夠迷惑偵察機的幻影艦隊應該是我們的技術……",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "由歐根親王攜帶裝置偽造了鐵血艦隊與重櫻艦隊行動的假象……所以歐根親王是真的。",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "原來如此……這樣就說得通了。很厲害啊歐根，居然能在這種局面下完成這樣的協作……",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "而我們根本就沒有收到這些消息，依然按照預定計劃開始了進行訓練。當然，侵入了我們系統的塞壬肯定很清楚這些計劃。",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "恐怕已經嘗試過了……我們的通訊系統應該只是被塞壬偽造成了消除故障的假象，其實一直在塞壬的控制之下。",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "所以意識到這些的歐根就將計就計偽裝成異常的棋子誘導我們的行動，然後在最後攻擊波抵達前暴露出塞壬主謀的真正位置……",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "歐根也真是厲害……我只是猜到今天肯定有塞壬在搗鬼，沒想到居然會這麼複雜…...",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "不過等等……外部接入的通訊姑且不論，我們艦隊之間的通訊一直都是正常的。",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "去追歐根的是海因里希，然後就一直留在了那邊……那她豈不是早就知道了？",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "呵呵…看來是呢………我們的打擊區域也是海因里希告訴歐根的吧。",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "如果情報通過被干擾的通訊器而被塞壬截獲，這個謹慎的塞壬恐怕會立刻潛伏起來，那時候再找起來就麻煩了。",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "那這次海因里希絕對算出色地完成了任務，之前匯報追擊進度的時候我居然沒能發現任何違和感……",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "等等……情況有變！構建者在暴露之後沒有選擇戰鬥，反而正在向要塞外部方向移動。塞壬正在逃跑……？",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "保密等級最高的鐵血基地出現了如此嚴重的入侵事件……如果再讓入侵者毫髮無損的離開，鐵血將會顏面何存！",
 			typewriter = {
@@ -457,16 +457,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_fuxiangxian_4",
-			actorName = "彼得·史特拉塞",
+			side = 2,
 			dir = 1,
-			say = "現在向海域中的所有鐵血戰士，以及作為盟友的重櫻與薩丁帝國戰士進行廣播通告：",
+			bgName = "bg_fuxiangxian_4",
 			bgm = "bsm-9",
+			actorName = "彼得·史特拉塞",
+			say = "現在向海域中的所有鐵血戰士，以及作為盟友的重櫻與薩丁帝國戰士進行廣播通告：",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "彼得·史特拉塞",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "彼得·史特拉塞",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "彼得·史特拉塞",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "彼得·史特拉塞",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -555,12 +555,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "彼得·史特拉塞",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "——————彼得·史特拉塞通話結束。",
 			typewriter = {
 				speed = 0.05,

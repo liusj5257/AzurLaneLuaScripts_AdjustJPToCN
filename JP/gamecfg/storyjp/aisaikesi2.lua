@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"先輩とわだかまり\n\n<size=45>二　後輩たちの集い</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "スケジュール通りエセックスと一緒に母港視察を行った。",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "スケジュール通りエセックスと一緒に母港視察を行った。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -81,10 +81,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "せ、先輩！？あなたはロイヤルの…セントーさん、ですね",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "はい！エセックス先輩たちは母港の見回りですか？お疲れ様です！",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "そ、そうですね。母港を管理する者として当然の仕事です。別に大したことではありません",
 			typewriter = {
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "まあ、エセックス先輩は噂通りの堅実な方ですね。では、私はこれで失礼します",
 			typewriter = {
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "セントーはこの場から離れた。",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "あの子が誰にでも先輩呼びをする、あのセントー……",
 			typewriter = {
@@ -203,13 +203,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "母港・重桜寮周辺",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -233,8 +233,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ここは重桜の生活施設…「あいつ」もここにいるのですね――",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "…やっぱり現れた！",
 			typewriter = {
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "こ、コホン！あなたが重桜の瑞鶴ですね。よろしくおねがいします",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（この子はエンタープライズ先輩のライバル――幸運の鶴！）",
 			typewriter = {
@@ -323,12 +323,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "はい！あ、あれ？なんか顔がじっと見つめられてる？もしかして私の顔になにかついているの！？",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "はい！あ、あれ？なんか顔がじっと見つめられてる？もしかして私の顔になにかついているの！？",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -407,12 +407,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "んじゃ、私はこれで！またね！",
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "んじゃ、私はこれで！またね！",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.5,
 					dur = 1,
 					x = -2250
@@ -438,10 +438,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 107090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "……瑞鶴、先輩にずっと勝ちたかった子……",
 			typewriter = {
 				speed = 0.05,

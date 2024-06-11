@@ -1,12 +1,12 @@
 return {
-	id = "W1213",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1213",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "不穩定空間即將破碎，指揮官請立刻撤離回到安全海域！",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "......",
 			typewriter = {

@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"着せ替え特集　春節2023　①\n\n<size=45>虎舞迎春</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "灯籠と花火に彩られた夜、節句の雰囲気に包まれた街を散策すると――",
 			bgm = "main-chunjie-pv",
+			say = "灯籠と花火に彩られた夜、節句の雰囲気に包まれた街を散策すると――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "鳴き声とともに物陰から変わった「生き物」が飛び出して行く手を阻んできた。",
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "鳴き声を上げる通せん坊ならぬ通せん虎が、その大きな「アタマ」を左右に振りかざして楽しげに舞っている。",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "……いや。獅子のアタマだから通せん……通せん獅子？",
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "（ほかの突破口を探すしかないか…）",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "通せん獅子の開いた「口」から、得意げに笑っている虎賁が顔を見せた。",
@@ -466,10 +466,10 @@ return {
 			portrait = 501050,
 			side = 2,
 			bgName = "star_level_bg_127",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "龍武",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "虎賁ったら、サボってないで早く戻って練習の続きしなさい――",
 			painting = {
 				alpha = 0.3,
@@ -500,8 +500,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "龍武に呼ばれた虎賁は再び獅子アタマをかぶり――",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "そう言い残し、通せん虎賁は元気よく龍武の方向へと走っていった。",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "素晴らしい新春の出し物が、また一つ増えそうだ――",

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 800271,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800271,
+	color = "red",
 	icon = 800270,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
+				skill_id = 800271,
 				killer = "self",
-				target = "TargetSelf",
-				skill_id = 800271
+				target = "TargetSelf"
 			}
 		}
 	}

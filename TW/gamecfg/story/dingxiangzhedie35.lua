@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE35",
 	scripts = {
 		{
-			side = 2,
-			stopbgm = true,
-			bgName = "bg_story_4",
-			bgm = "Beverly_short_inst",
-			bgmDelay = 2,
 			say = "「我做了一個夢——————」",
+			stopbgm = true,
+			side = 2,
+			bgName = "bg_story_4",
+			bgmDelay = 2,
+			bgm = "Beverly_short_inst",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,8 +35,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -86,8 +86,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,15 +130,15 @@ return {
 		},
 		{
 			expression = 3,
-			side = 2,
-			dialogueBgAlpha = 0,
-			oldPhoto = true,
 			dir = 1,
 			blackBg = true,
+			side = 2,
+			oldPhoto = true,
+			say = " ",
+			dialogueBgAlpha = 0,
 			hidePaintEquip = true,
 			actor = 107060,
 			actorName = " ",
-			say = " ",
 			pos = {
 				x = 300,
 				y = -80
@@ -192,8 +192,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -218,8 +218,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -235,8 +235,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,8 +252,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -269,8 +269,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_16",
+			side = 2,
 			say = "「我什麼都做不到……」",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_16",
+			side = 2,
 			say = "「為什麼會變成這個樣子呢……」",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_16",
+			side = 2,
 			say = "「……………………」",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -322,29 +322,29 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_task",
+			soundeffect = "event:/ui/footsteps",
 			bgm = "Beverly_short_eng",
 			nameColor = "#A9F548FF",
 			say = "————（腳步音）",
-			soundeffect = "event:/ui/footsteps",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -352,14 +352,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "………………",
 			soundeffect = "event:/ui/footsteps",
+			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "………………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000
@@ -386,11 +386,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhedie_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_zhedie_14",
 			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "姐————",
 			painting = {
 				alpha = 0.3,
@@ -401,17 +401,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -422,10 +422,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……………………？",
 			painting = {
 				alpha = 0.3,
@@ -439,8 +439,8 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
+			bgName = "bg_story_task",
 			soundeffect = "event:/ui/footsteps",
 			actor = 107060,
 			nameColor = "#A9F548FF",
@@ -455,17 +455,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -478,8 +478,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000
@@ -489,11 +489,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_starsea_core_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_starsea_core_2",
 			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………………………………",
 			painting = {
 				alpha = 0.3,
@@ -504,17 +504,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_zhedie_15",
 			mode = 1,
+			bgName = "bg_zhedie_15",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			actorName = "企業",
 			nameColor = "#A9F548FF",
+			actorName = "企業",
 			bgName = "bg_zhedie_15",
 			side = 2,
 			say = "………………！",
@@ -557,8 +557,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "約克鎮II",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "雖然是「星海」中的模擬環境，不過陽光與清風的感覺已經和真實相差無幾了呢。",
@@ -568,8 +568,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "約克鎮II",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "當然，也有可能是我已經記不太清陽光與清風的真實感受了。",
@@ -579,8 +579,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "約克鎮II",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "感覺我好像睡了很久很久，錯過了很多很多事。",
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "約克鎮II",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "也讓妳一個人努力太久了……沒有努力過頭吧？",
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "企業",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "……約克鎮，姊姊。",
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_zhedie_17",
 			mode = 1,
+			bgName = "bg_zhedie_17",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -631,8 +631,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "約克鎮II",
+			side = 2,
 			bgName = "bg_zhedie_17",
 			nameColor = "#A9F548FF",
 			say = "我回來了哦，企業。",
@@ -642,8 +642,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "企業",
+			side = 2,
 			bgName = "bg_zhedie_17",
 			nameColor = "#A9F548FF",
 			say = "我……………",
@@ -656,10 +656,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哇哦，企業姐妳居然從前線趕回來了嗎！",
 			painting = {
 				alpha = 0.3,
@@ -671,8 +671,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -684,10 +684,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "看，我這套新裝備怎麼樣？！",
 			painting = {
 				alpha = 0.3,
@@ -702,10 +702,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大黃蜂，看來這次妳才是木頭啊……",
 			painting = {
 				alpha = 0.3,
@@ -720,10 +720,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就算是我也能明白，妳這樣突然跳出來是非常不合適的……",
 			painting = {
 				alpha = 0.3,
@@ -738,10 +738,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸……？",
 			painting = {
 				alpha = 0.3,
@@ -756,10 +756,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哈曼也覺得……",
 			painting = {
 				alpha = 0.3,
@@ -774,10 +774,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大黃蜂，木頭……",
 			painting = {
 				alpha = 0.3,
@@ -792,10 +792,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸哎？！！",
 			painting = {
 				alpha = 0.3,
@@ -810,10 +810,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵，這樣不也挺好嗎？",
 			painting = {
 				alpha = 0.3,
@@ -825,12 +825,12 @@ return {
 			}
 		},
 		{
-			actor = 107100,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Fighting-lady約克鎮，以此全新姿態康復歸來。",
 			painting = {
 				alpha = 0.3,
@@ -845,10 +845,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我相信，在黑暗之後迎來的一定是絢爛的幸福之光。",
 			painting = {
 				alpha = 0.3,
@@ -863,10 +863,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "同伴們，讓我們一起攜手邁向未來吧————",
 			painting = {
 				alpha = 0.3,

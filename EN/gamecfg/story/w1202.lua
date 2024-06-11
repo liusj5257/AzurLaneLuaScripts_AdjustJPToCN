@@ -1,12 +1,12 @@
 return {
-	id = "W1202",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1202",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "I've confirmed that this zone has been secured... Having that said, the next time we come around, you will have to spend more AP to do it all over again.",
 			typewriter = {
 				speed = 0.05,

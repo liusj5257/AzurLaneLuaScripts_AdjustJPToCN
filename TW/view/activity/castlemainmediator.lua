@@ -6,7 +6,7 @@ slot0.CASTLE_FIRST_STORY_OP_DONE = "castle first story op done"
 slot0.ON_TASK_SUBMIT = "on task submit"
 slot0.UPDATE_GUIDE = "CastleMainMediator.UPDATE_GUIDE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.CASTLE_ACT_OP, function (slot0, slot1)
 		uv0:sendNotification(GAME.CASTLE_ACT_OP, slot1)
 	end)
@@ -30,7 +30,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.initNotificationHandleDic(slot0)
+slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[GAME.CASTLE_STORY_OP_DONE] = function (slot0, slot1)
 			slot0.viewComponent:StoryActEnd(slot1:getBody().number[1])

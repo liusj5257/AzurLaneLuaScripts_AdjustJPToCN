@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KANGKEDE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KANGKEDE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シュガリーコンコード\n\n<size=45>四　糖分補給連合？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "……ダンケルクから「糖分補給連合」という名のサークル（？）の招待状をもらった。",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "……ダンケルクから「糖分補給連合」という名のサークル（？）の招待状をもらった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 101290,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101290,
+			nameColor = "#a9f548",
 			say = "もちろんこのキャンディも！",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "おお！おいしいおかしができた！",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "おお！おいしいおかしができた！",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "おまたせ～今日はちょっとオリジナルのテイストにチャレンジしたわ",
 			typewriter = {
@@ -125,9 +125,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "どうやら甘党の集いのようだ",
 			typewriter = {
 				speed = 0.05,
@@ -137,14 +137,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 904010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "今日のお菓子はいかがかしら？皆さんのお口に合えばいいけど…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,12 +169,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "おいしい！睦月、もっとたべていい？",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "おいしい！睦月、もっとたべていい？",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -189,11 +189,11 @@ return {
 			}
 		},
 		{
-			actor = 101290,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101290,
+			nameColor = "#a9f548",
 			say = "マカロンはやっぱりダンケルクさんが作るのが一番だよね！",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "やはり美味しい。これならコンコードも好きそう……あれ？",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）はあ……",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ほ、ほいひいよ",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）マカロンはもう飽きたな～",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）私、お菓子よりやっぱりクリームがドバーッと入ってる感じのスイーツの方が好きなんだよね～",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指揮官？な、なんでもないよ、へへへ",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "（小声）はあ……",
 			typewriter = {
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ため息を聞いた気がする。",
 			typewriter = {
 				speed = 0.05,

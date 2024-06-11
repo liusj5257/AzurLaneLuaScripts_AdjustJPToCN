@@ -13,23 +13,29 @@ return {
 	events = {
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/technologyButton",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/tech"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/technologyButton"
+					end
+				end,
 				triggerType = {
 					1
 				},
 				fingerPos = {
-					posX = 50.9,
+					rotateY = 0,
 					posY = -28.1,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 50.9
 				}
 			}
 		},
 		{
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = 0,
 				posX = -60.9,
 				text = slot0[1]
@@ -40,19 +46,19 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 131.46,
+					rotateY = 0,
 					posY = -120.12,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 131.46
 				}
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 0,
 				posX = -396.33,
 				text = slot0[2],
@@ -63,8 +69,8 @@ return {
 		},
 		{
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = 0,
 				posX = -65.8,
 				text = slot0[3]
@@ -73,8 +79,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -253.44,
 				posX = 151.52,
 				text = slot0[4]
@@ -85,19 +91,19 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 101.97,
+					rotateY = 0,
 					posY = -92.07,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 101.97
 				}
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = -251.52,
 				posX = -122.97,
 				text = slot0[5],
@@ -109,8 +115,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 0,
 				posX = -396.56,
 				text = slot0[6],
@@ -122,8 +128,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -215.3,
 				posX = 337.29,
 				text = slot0[7],

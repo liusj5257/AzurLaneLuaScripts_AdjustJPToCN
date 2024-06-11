@@ -29,9 +29,9 @@ return {
 	{
 		time = 10
 	},
-	init_effect = "",
-	name = "厄运集火",
 	time = 5,
+	name = "厄运集火",
+	init_effect = "",
 	picture = "",
 	desc = "受到伤害提升",
 	stack = 1,
@@ -46,8 +46,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.2
+				number = 0.2,
+				attr = "injureRatio"
 			}
 		}
 	}

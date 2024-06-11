@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 500
+					number = 500,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 610
+					number = 610,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 720
+					number = 720,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 830
+					number = 830,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 940
+					number = 940,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1050
+					number = 1050,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1160
+					number = 1160,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1270
+					number = 1270,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1380
+					number = 1380,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1500
+					number = 1500,
+					attr = "loadSpeed"
 				}
 			}
 		}
 	},
-	time = 8,
 	name = "Tora",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 11753,
+	time = 8,
 	picture = "",
 	desc = "提高装填属性",
 	stack = 1,
-	id = 11753,
+	color = "red",
 	icon = 11750,
 	last_effect = "",
 	blink = {
@@ -163,8 +163,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 500
+				number = 500,
+				attr = "loadSpeed"
 			}
 		}
 	}

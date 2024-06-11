@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "미사키, 왼쪽이야!",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "봤어! 이힛!",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "역시 자매들이군. 양측 모두 상당한 케미를 발휘하며 거의 완벽할 정도로 호흡을 맞췄다.",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "후… 그럭저럭… 해냈어… 미사키, 다치지 않았어?",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "언니도 참, 걱정투성이라니까. 난 멀쩡해~",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,8 +211,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "하아… 역시 쉽지 않은 동생이야…",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "동감이야~",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "응? 미사키… 누구한테 동감한 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "무대 위의 미소가 끊이지 않는 \"자매 연극\"이 한창일 때, \"불청객\"이 등장했다.",
 			typewriter = {
 				speed = 0.05,
@@ -286,9 +286,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
 			actor = 103070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "언니… 이러면 부끄럽다고 했잖아. 그만해… 미안해요. 언니 여러분.",
 			typewriter = {
 				speed = 0.05,
@@ -304,10 +304,10 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "잠, 잠깐… 아직 정식으로 인디의 귀여움을 발표하지 못했는데! 아이욧————",
 			subActors = {
 				{
@@ -327,16 +327,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2500
@@ -347,8 +347,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "이, 이런 자매도 있구나……",
 			typewriter = {
 				speed = 0.05,

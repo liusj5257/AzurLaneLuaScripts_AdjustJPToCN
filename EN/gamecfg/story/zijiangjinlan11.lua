@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg7",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "Exercise Area - Turn 3 (Nagato's Action)",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,17 +36,17 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#A9F548FF",
 			say = "...This sea fog throws a wrench in our plans.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -126,8 +126,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "I think you're overthinking things... This is just a naval exercise, isn't it? Why would Musashi arrange a whole diplomatic move over an elaborate game of Go?",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Haruna will patrol the territory adjacent to Musashi's forces after capturing the base there.",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hiei, Kawakaze, and Harutsuki will retreat to provide backup for Shoukaku while fending off Musashi's fleet.",
 			painting = {
 				alpha = 0.3,
@@ -262,10 +262,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We must prevent Musashi from taking the Sacred Sakura under the cover of fog.",
 			painting = {
 				alpha = 0.3,
@@ -280,10 +280,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Shoukaku will solidify her position using our mass-produced ships.",
 			painting = {
 				alpha = 0.3,
@@ -317,10 +317,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Remain vigilant, but carry out the instructions I just gave you. Take control of the surrounding bases.",
 			painting = {
 				alpha = 0.3,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg7",
 			hidePaintObj = true,
 			say = "When Nagato's voice disappeared, new symbols appeared around Shoukaku.",
@@ -362,8 +362,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "Since Shoukaku is the core of Nagato's strategy this turn, she's being funneled all our power and resources!",
 			painting = {

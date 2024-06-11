@@ -1,15 +1,15 @@
 return {
-	id = "W1040",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1040",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "세이렌 특수 자원 보급을 발견했다. 에너지가 고갈되어 정상 운행은 불가능하지만, 부숴버린다면 약간의 재료를 회수할 수 있다.",
 			painting = {
 				alpha = 0.3,

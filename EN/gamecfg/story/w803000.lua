@@ -1,12 +1,12 @@
 return {
-	id = "W803000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W803000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "That’s a whole lot of seals! Now, which is the real one... Might be worth a scan.",
 			typewriter = {
 				speed = 0.05,

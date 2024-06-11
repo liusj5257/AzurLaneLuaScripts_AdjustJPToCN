@@ -8,7 +8,7 @@ slot0.TYPESSSS = 6
 slot0.TYPEATELIER = 7
 slot0.TYPESENRANKAGURA = 8
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2.event, slot2.contextData)
 
 	slot0.sceneParent = slot2
@@ -43,7 +43,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.Load(slot0)
+slot0.Load = function(slot0)
 	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
@@ -81,33 +81,33 @@ function slot0.Load(slot0)
 	end)
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot1()
 end
 
-function slot0.isfrozen(slot0)
+slot0.isfrozen = function(slot0)
 	return slot0.isFrozen
 end
 
-function slot0.DoFunction(slot0, slot1)
+slot0.DoFunction = function(slot0, slot1)
 	slot1()
 end
 
-function slot0.InvokeParent(slot0, slot1, ...)
+slot0.InvokeParent = function(slot0, slot1, ...)
 	if slot0.sceneParent[slot1] then
 		return slot2(slot0.sceneParent, ...)
 	end
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return 0
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0._tf:SetParent(slot0.float, false)
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	if slot0._state == uv0.STATES.INITED then
 		slot0:Hide()
 	end
@@ -115,24 +115,24 @@ function slot0.Destroy(slot0)
 	uv0.super.Destroy(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.tweens = nil
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0._tf, true)
 	slot0:OnShow()
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:OnHide()
 	setActive(slot0._tf, false)
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 end
 
-function slot0.OnHide(slot0)
+slot0.OnHide = function(slot0)
 	for slot4, slot5 in pairs(slot0.tweens) do
 		LeanTween.cancel(slot5)
 	end
@@ -140,30 +140,30 @@ function slot0.OnHide(slot0)
 	slot0.tweens = {}
 end
 
-function slot0.ShowButtons(slot0)
+slot0.ShowButtons = function(slot0)
 end
 
-function slot0.HideButtons(slot0)
+slot0.HideButtons = function(slot0)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.data = slot1
 end
 
-function slot0.UpdateButtons(slot0)
+slot0.UpdateButtons = function(slot0)
 end
 
-function slot0.PostUpdateMap(slot0, slot1)
+slot0.PostUpdateMap = function(slot0, slot1)
 end
 
-function slot0.UpdateMapItems(slot0)
+slot0.UpdateMapItems = function(slot0)
 end
 
-function slot0.RecordTween(slot0, slot1, slot2)
+slot0.RecordTween = function(slot0, slot1, slot2)
 	slot0.tweens[slot1] = slot2
 end
 
-function slot0.DeleteTween(slot0, slot1)
+slot0.DeleteTween = function(slot0, slot1)
 	if slot0.tweens[slot1] then
 		LeanTween.cancel(slot2)
 
@@ -171,7 +171,7 @@ function slot0.DeleteTween(slot0, slot1)
 	end
 end
 
-function slot0.TryOpenChapter(slot0, slot1)
+slot0.TryOpenChapter = function(slot0, slot1)
 	assert(false)
 end
 

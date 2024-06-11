@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023关岛活动B2 召唤物1 消失倒计时",
 	time = 15.8,
-	color = "blue",
+	name = "2023关岛活动B2 召唤物1 消失倒计时",
+	init_effect = "",
+	id = 200751,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200751,
+	color = "blue",
 	icon = 200751,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		},
 		{

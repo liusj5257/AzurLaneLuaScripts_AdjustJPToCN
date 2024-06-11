@@ -143,18 +143,18 @@ slot0.attrs = {
 	BoomLevel_0 = {
 		Ryza = {
 			speed = 4,
-			power = 4,
-			hp = 3,
 			spirit = true,
+			hp = 3,
+			power = 4,
 			bomb = 4
 		}
 	},
 	BoomLevel_1 = {
 		Ryza = {
 			speed = 1,
-			power = 1,
-			hp = 3,
 			spirit = false,
+			hp = 3,
+			power = 1,
 			bomb = 1
 		},
 		Scavenger = {
@@ -173,9 +173,9 @@ slot0.attrs = {
 	BoomLevel_2 = {
 		Ryza = {
 			speed = 2,
-			power = 2,
-			hp = 3,
 			spirit = false,
+			hp = 3,
+			power = 2,
 			bomb = 2
 		},
 		Scavenger = {
@@ -198,9 +198,9 @@ slot0.attrs = {
 	BoomLevel_3 = {
 		Ryza = {
 			speed = 2,
-			power = 2,
-			hp = 3,
 			spirit = false,
+			hp = 3,
+			power = 2,
 			bomb = 2
 		},
 		BOSS_Smasher = {
@@ -223,9 +223,9 @@ slot0.attrs = {
 	BoomLevel_4 = {
 		Ryza = {
 			speed = 3,
-			power = 3,
-			hp = 3,
 			spirit = false,
+			hp = 3,
+			power = 3,
 			bomb = 3
 		},
 		Smasher = {
@@ -244,9 +244,9 @@ slot0.attrs = {
 	BoomLevel_5 = {
 		Ryza = {
 			speed = 3,
-			power = 3,
-			hp = 3,
 			spirit = false,
+			hp = 3,
+			power = 3,
 			bomb = 3
 		},
 		BOSS_Conductor = {
@@ -269,9 +269,9 @@ slot0.attrs = {
 	BoomLevel_6 = {
 		Ryza = {
 			speed = 3,
-			power = 3,
-			hp = 3,
 			spirit = false,
+			hp = 3,
+			power = 3,
 			bomb = 3
 		},
 		BOSS_Navigator = {
@@ -294,9 +294,9 @@ slot0.attrs = {
 	BoomLevel_7 = {
 		Ryza = {
 			speed = 4,
-			power = 4,
-			hp = 3,
 			spirit = true,
+			hp = 3,
+			power = 4,
 			bomb = 4
 		},
 		BOSS_Chaser = {
@@ -323,18 +323,18 @@ slot0.attrs = {
 	BoomLevel_8 = {
 		Ryza = {
 			speed = 1,
-			power = 1,
-			hp = 3,
 			spirit = true,
+			hp = 3,
+			power = 1,
 			bomb = 1
 		}
 	},
 	BoomLevel_9 = {
 		Ryza = {
 			speed = 1,
-			power = 1,
-			hp = 3,
 			spirit = true,
+			hp = 3,
+			power = 1,
 			bomb = 1
 		}
 	}

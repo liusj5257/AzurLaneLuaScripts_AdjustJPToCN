@@ -3,11 +3,11 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			actor = 900313,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 900313,
+			nameColor = "#ff0000",
 			say = "...인간이란 재밌어. 힘의 일부를 준 것만으로 그 역사를 되풀이하다니.",
 			shake = {
 				speed = 1,

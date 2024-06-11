@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "魔王軍の武器倉庫――魔窟・デーモネンホーレ（Dämonenhöhle）。",
 			bgm = "theme-shallowoftheworld",
+			say = "魔王軍の武器倉庫――魔窟・デーモネンホーレ（Dämonenhöhle）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "炎獄湖の中心に位置する魔王軍の戦略的要衝。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "武器倉庫の要塞は年中流れる灼熱の溶岩に取り囲まれ、攻撃者にとっての悪夢となっている。",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "ドラゴンロードが統率する空狩り隊はここを拠点とし、見張りの長城に止むことなく襲撃を行っているのだ。",
 			typewriter = {
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "……今日こそ全てを終わらせましょう",
 			painting = {
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "また会ったな！一度私たちに負けたやつ！",
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "前回は尻尾巻いて逃げてったけど、今回は逃しはしないよ！",
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_camelot_6",
 			factiontag = "ドラゴンロード",
 			dir = 1,
+			bgName = "bg_camelot_6",
 			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "にゃは？……もしかして本気で言ってるの？",
@@ -132,17 +132,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "ドラゴンロード",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "見張りの長城では油断をしたことを認めよう！",
 			painting = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうよ！もう怖くなった？",
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "怖かったら早く降参したほうがいいよ～",
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ダーク饅頭スライムナイト",
+			side = 2,
 			bgName = "bg_camelot_6",
 			nameColor = "#FF9B93",
 			say = "ピョピョ！",
@@ -286,8 +286,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2,
 					name = "jiulaimu_zhanlie",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -304,9 +304,9 @@ return {
 					}
 				},
 				{
-					delay = 0.3,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 0.3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -323,9 +323,9 @@ return {
 					}
 				},
 				{
-					delay = 0.7,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 0.7,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -346,9 +346,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_camelot_6",
 			factiontag = "プリースト",
 			dir = 1,
+			bgName = "bg_camelot_6",
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -362,17 +362,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -398,27 +398,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			say = "悠揚なる角笛の音とともに、魔物の大軍に向かって突撃を開始した。",
 			bgm = "theme-tempest",
+			say = "悠揚なる角笛の音とともに、魔物の大軍に向かって突撃を開始した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "もちろん、前進したのは勇者パーティーだけではない。",
 			typewriter = {
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "海潮のうねりが放つ飛沫とともに、海賊の幽霊や幽霊船が攻撃に加わった。",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "一秒ごとに、その軍勢の規模がより大きくに、波音もまたより喧騒になっていく。",
 			typewriter = {
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
-			bgName = "star_level_bg_525",
 			factiontag = "開拓と冒険の神",
 			dir = 1,
+			bgName = "star_level_bg_525",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "そうそう！私もこんなに面白いのは初めて見た！",
 			painting = {
@@ -544,17 +544,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.25,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = false,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "開拓と冒険の神",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "そうだよ～。みんな久しぶり～",
 			painting = {
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "開拓と冒険の神",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "何事かーってやってきてみたら楽しそうな状況だね♪",
 			painting = {
@@ -650,11 +650,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "開拓と冒険の神",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "カーニヴァルにわたしも混ぜて！",
 			painting = {

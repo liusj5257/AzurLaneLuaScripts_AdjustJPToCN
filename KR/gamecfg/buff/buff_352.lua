@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "海伦娜META雷达定身",
 	time = 0,
+	name = "海伦娜META雷达定身",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

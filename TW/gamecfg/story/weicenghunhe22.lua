@@ -1,21 +1,21 @@
 return {
-	id = "WEICENGHUNHE22",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE22",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/plane",
 			side = 2,
-			bgm = "hunhe-battle",
-			dir = 1,
 			say = "嗡---------",
+			dir = 1,
+			soundeffect = "event:/battle/plane",
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -45,11 +45,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "休想得逞，看招！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "數架利用迷霧掩護的轟炸機試圖對碉堡山發動偷襲，然後在雷諾及時而兇猛對空火力下變為了一團團燃燒的殘渣",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			say = "多謝，在戰鬥結束的時候因為偷襲掛彩可划不來。",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "我這也搞定了！剛剛那招很帥哦，雷諾！",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "我可是防空特化的亞特蘭大級，英雄們的後背放心交給我來守護吧。",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "周圍沒有發現更多塞壬靠近的跡象了，戰鬥暫時結束。要先回要塞補給一下嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "唔，這個聲音…是Last Boss登場的聲音嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哎哎？ ！怎麼平白無故海面上會出現滔天巨浪啊！",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "總感覺是衝著我們來的，大家注意規避，千萬別被捲到海底進去哦！",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "滔天的巨浪與濃密的海霧，彷彿整片大海都成為了敵人。眾人就像落入了捕食者的巨口中一樣，全力避免著被吞噬的命運…",
 			typewriter = {
 				speed = 0.05,

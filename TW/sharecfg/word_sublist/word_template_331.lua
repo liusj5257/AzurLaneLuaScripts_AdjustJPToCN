@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_331 = {}
 slot1 = slot0.word_template_331
 
-function temp()
+temp = function()
 	uv0["藥"] = {
 		["材"] = {
 			["商"] = {
@@ -26,7 +26,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["葉"] = {
 		["菊"] = {
 			["蘭"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["㈠"] = {
 		this = {
 			this = true
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遺"] = {
 		["精"] = {
 			this = true

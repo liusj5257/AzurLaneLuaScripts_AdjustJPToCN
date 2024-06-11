@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"小さな出来事\n\n<size=45>七　暖かさ</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 403040,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "あはははは！見たか下等生物！私の妹のカワイイ姿を！",
 			bgm = "story-1",
+			actor = 403040,
+			nameColor = "#a9f548",
+			say = "あはははは！見たか下等生物！私の妹のカワイイ姿を！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "しかしね！こ、これはやっぱり私の方に軍配が上がるはずだわ！",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "本当はさっきから頭が混乱していて、鏡の中の自分の姿をよく見れていなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それに自分の姿を見れたとしても、どっちが上かなんて判断できるはずがない。",
 			typewriter = {
 				speed = 0.05,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "私は一体どうすれば……？",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -246,9 +246,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "最初から、私のやりたいことはわかりきっているから――",
 			typewriter = {
 				speed = 0.05,
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "おい下等生物、妹に何耳打ちしたの！？抜け駆けは許さないわ！",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -366,9 +366,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そうよ。不安など最初から存在しなかったわ。",
 			typewriter = {
 				speed = 0.05,
@@ -380,9 +380,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "私のちっぽけな悩みは、実はこんなにたやすく解決できるの。",
 			typewriter = {
 				speed = 0.05,
@@ -394,9 +394,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "仲間がいて、友達がいて、大切にしてくれる人がいるこの母港、この艦隊は、私の心地いい居場所。",
 			typewriter = {
 				speed = 0.05,
@@ -472,9 +472,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "指揮官、意地悪のエイジャックス、そしてドイッチュラント級の姉たち、鉄血の、艦隊の仲間――",
 			typewriter = {
 				speed = 0.05,
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "守るために戦っても、それが別に守るものを受け入れないとは意味しない。",
 			typewriter = {
 				speed = 0.05,

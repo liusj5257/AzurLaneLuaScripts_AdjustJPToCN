@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第五话　『图书馆请保持安静』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……这里就是学院的图书馆…好大，看来藏书量很值得期待",
 			bgm = "story-nepu1",
+			actor = 10100030,
+			nameColor = "#a9f548",
+			say = "……这里就是学院的图书馆…好大，看来藏书量很值得期待",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "感觉如何，布兰小姐？有没有让妳满意？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "感觉如何，布兰小姐？有没有让妳满意？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "突击者老师，日安。老师妳又在这里做什么呢？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "突击者老师，日安。老师妳又在这里做什么呢？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——哗啦啦啦",
 			typewriter = {
 				speed = 0.05,
@@ -596,11 +596,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "哎呀，今天的图书馆真热闹呢…大家在干吗呢？",
 			typewriter = {
@@ -661,11 +661,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "嗯，感觉需要学习一下了，就过来了",
 			typewriter = {
@@ -710,11 +710,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "连突击者小姐都这么说……哈啊，这样下去，我的角色真的要固定变成老师了……",
 			typewriter = {

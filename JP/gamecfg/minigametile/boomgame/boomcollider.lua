@@ -1,116 +1,116 @@
 return {
-	tilewidth = 248,
-	name = "collider",
-	spacing = 0,
-	objectalignment = "unspecified",
-	tiledversion = "1.9.2",
-	tilecount = 10,
-	margin = 0,
-	columns = 0,
 	luaversion = "5.1",
-	version = "1.9",
+	name = "collider",
+	tilewidth = 248,
+	margin = 0,
+	tilecount = 10,
+	objectalignment = "unspecified",
 	class = "",
-	tileheight = 248,
 	fillmode = "stretch",
+	columns = 0,
+	spacing = 0,
+	tiledversion = "1.9.2",
+	tileheight = 248,
+	version = "1.9",
 	tilerendersize = "tile",
 	tileoffset = {
 		x = 0,
 		y = 0
 	},
 	grid = {
-		orientation = "orthogonal",
 		height = 1,
+		orientation = "orthogonal",
 		width = 1
 	},
 	properties = {},
 	wangsets = {},
 	tiles = {
 		{
-			id = 19,
 			height = 124,
-			width = 124,
+			id = 19,
 			image = "../collider/Box.png",
+			width = 124,
 			properties = {
 				drop_id = 3
 			}
 		},
 		{
-			id = 20,
 			height = 124,
-			width = 124,
+			id = 20,
 			image = "../collider/Bush.png",
+			width = 124,
 			properties = {
 				drop_id = 0
 			}
 		},
 		{
-			id = 21,
 			height = 124,
-			width = 124,
+			id = 21,
 			image = "../collider/Grass.png",
+			width = 124,
 			properties = {
 				drop_id = 1
 			}
 		},
 		{
+			height = 124,
 			id = 22,
-			height = 124,
-			width = 124,
 			image = "../collider/Rock_A.png",
+			width = 124,
 			properties = {
 				drop_id = 0
 			}
 		},
 		{
+			height = 124,
 			id = 23,
-			height = 124,
-			width = 124,
 			image = "../collider/Rock_B.png",
+			width = 124,
 			properties = {
 				drop_id = 0
 			}
 		},
 		{
-			id = 24,
 			height = 124,
-			width = 124,
+			id = 24,
 			image = "../collider/Taru.png",
+			width = 124,
 			properties = {
 				drop_id = 2
 			}
 		},
 		{
-			id = 25,
 			height = 124,
-			width = 124,
+			id = 25,
 			image = "../collider/Treasure_N.png",
+			width = 124,
 			properties = {
 				drop_id = 4
 			}
 		},
 		{
-			id = 27,
 			height = 168,
-			width = 168,
+			id = 27,
 			image = "../collider/Tree_S.png",
+			width = 168,
 			properties = {
 				drop_id = 0
 			}
 		},
 		{
-			id = 31,
 			height = 248,
-			width = 248,
+			id = 31,
 			image = "../collider/Tree_L.png",
+			width = 248,
 			properties = {
 				drop_id = 0
 			}
 		},
 		{
-			id = 32,
 			height = 124,
-			width = 124,
+			id = 32,
 			image = "../collider/Treasure_R.png",
+			width = 124,
 			properties = {
 				drop_id = 5
 			}

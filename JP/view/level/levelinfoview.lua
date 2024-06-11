@@ -1,14 +1,14 @@
 slot0 = class("LevelInfoView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelStageInfoView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:InitUI()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end
@@ -23,23 +23,23 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:clear()
 	setActive(slot0._tf, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.setCBFunc(slot0, slot1, slot2)
+slot0.setCBFunc = function(slot0, slot1, slot2)
 	slot0.onConfirm = slot1
 	slot0.onCancel = slot2
 end
 
-function slot0.InitUI(slot0)
+slot0.InitUI = function(slot0)
 	slot0.titleBG = slot0:findTF("panel/title")
 	slot0.titleBGDecoration = slot0:findTF("panel/title/Image")
 	slot0.titleIcon = slot0:findTF("panel/title/icon")
@@ -110,7 +110,7 @@ end
 slot1 = 525
 slot2 = 373
 
-function slot0.set(slot0, slot1, slot2)
+slot0.set = function(slot0, slot1, slot2)
 	slot0:cancelTween()
 
 	slot0.chapter = slot1
@@ -339,7 +339,7 @@ function slot0.set(slot0, slot1, slot2)
 	table.insert(slot0.delayTween, LeanTween.moveX(slot0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
 end
 
-function slot0.cancelTween(slot0)
+slot0.cancelTween = function(slot0)
 	_.each(slot0.delayTween, function (slot0)
 		LeanTween.cancel(slot0)
 	end)
@@ -347,7 +347,7 @@ function slot0.cancelTween(slot0)
 	slot0.delayTween = {}
 end
 
-function slot0.updateAchieve(slot0, slot1, slot2, slot3)
+slot0.updateAchieve = function(slot0, slot1, slot2, slot3)
 	if slot1 == UIItemList.EventUpdate then
 		slot5 = findTF(slot3, "desc")
 
@@ -358,7 +358,7 @@ function slot0.updateAchieve(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateDrop(slot0, slot1, slot2, slot3)
+slot0.updateDrop = function(slot0, slot1, slot2, slot3)
 	if slot1 == UIItemList.EventUpdate then
 		updateDrop(slot3, Drop.Create(slot0.awards[slot2 + 1]))
 		onButton(slot0, slot3, function ()
@@ -393,7 +393,7 @@ function slot0.updateDrop(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.getChapterAwards(slot0)
+slot0.getChapterAwards = function(slot0)
 	slot1 = slot0.chapter
 	slot2 = Clone(slot1:getConfig("awards"))
 
@@ -415,7 +415,7 @@ function slot0.getChapterAwards(slot0)
 	slot6 = {}
 	slot7 = {}
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		for slot4, slot5 in ipairs(uv0) do
 			if slot5 == slot0 then
 				return false
@@ -459,7 +459,7 @@ function slot0.getChapterAwards(slot0)
 	return slot2
 end
 
-function slot0.initTestShowDrop(slot0, slot1, slot2)
+slot0.initTestShowDrop = function(slot0, slot1, slot2)
 	if IsUnityEditor then
 		if IsNil(pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")) then
 			slot4 = GameObject.New("button_test_show_drop")
@@ -489,13 +489,13 @@ function slot0.initTestShowDrop(slot0, slot1, slot2)
 	end
 end
 
-function slot0.clearTestShowDrop(slot0)
+slot0.clearTestShowDrop = function(slot0)
 	if IsUnityEditor and not IsNil(pg.MsgboxMgr.GetInstance()._go.transform:Find("button_test_show_drop")) then
 		Destroy(slot2)
 	end
 end
 
-function slot0.ShowChapterRewardPanel(slot0)
+slot0.ShowChapterRewardPanel = function(slot0)
 	if slot0.rewardPanel == nil then
 		slot0.rewardPanel = ChapterRewardPanel.New(slot0._tf.parent, slot0.event, slot0.contextData)
 
@@ -505,7 +505,7 @@ function slot0.ShowChapterRewardPanel(slot0)
 	slot0.rewardPanel:ActionInvoke("Enter", slot0.chapter)
 end
 
-function slot0.ClearChapterRewardPanel(slot0)
+slot0.ClearChapterRewardPanel = function(slot0)
 	if slot0.rewardPanel ~= nil then
 		slot0.rewardPanel:Destroy()
 
@@ -513,7 +513,7 @@ function slot0.ClearChapterRewardPanel(slot0)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0:cancelTween()
 	slot0.dropList:each(function (slot0, slot1)
 		clearDrop(slot1)

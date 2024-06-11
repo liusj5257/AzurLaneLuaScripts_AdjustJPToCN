@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_89 = {}
 slot1 = slot0.word_template_89
 
-function temp()
+temp = function()
 	uv0["读"] = {
 		["不"] = {
 			["起"] = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["渎"] = {
 		["职"] = {
 			this = true
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["獨"] = {
 		["裁"] = {
 			this = true,
@@ -71,7 +71,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["髑"] = {
 		["屙"] = {
 			["民"] = {
@@ -83,7 +83,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赌"] = {
 		this = {
 			this = true
@@ -193,7 +193,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["杜"] = {
 		["恒"] = {
 			["岩"] = {
@@ -246,7 +246,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["肚"] = {
 		["脐"] = {
 			["主"] = {

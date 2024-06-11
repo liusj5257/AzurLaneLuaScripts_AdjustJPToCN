@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
+			bgm = "main-arbitrationsystem-theme",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "？？？·？？？",
-			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "生気が少しも感じられない、無機質な空間。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "リズミカルな音が轟きながら、機械都市が時空間すらお構いなしに拡張し続ける。",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "金属と非金属、天然物と人工物、海と大地でさえ分解され、組み直され、作り変えられていく。",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "一部は機械都市の中に蓄えられる資材として。",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "一部は機械都市「そのもの」になって――",
@@ -124,28 +124,28 @@ return {
 			}
 		},
 		{
-			actor = 900136,
-			side = 2,
 			bgName = "bg_camelot_6",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900136,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "エンプレス。実験場Βの放棄は許されない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -165,28 +165,28 @@ return {
 			}
 		},
 		{
-			actor = 900191,
-			side = 2,
 			bgName = "bg_camelot_6",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900191,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "防御の勝率が極めて低く、間違いなく「非合理」な決定だと演算結果が出ている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

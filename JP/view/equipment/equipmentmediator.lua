@@ -16,7 +16,7 @@ slot0.ITEM_ADD_LAYER = "EquipmentMediator.ITEM_ADD_LAYER"
 slot0.OPEN_EQUIPSKIN_INDEX_LAYER = "EquipmentMediator:OPEN_EQUIPSKIN_INDEX_LAYER"
 slot0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	if not slot0.contextData.warp then
 		slot0.contextData.warp = getProxy(SettingsProxy):getEquipSceneIndex()
 	end
@@ -176,7 +176,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-function slot0.UpdateSpWeapons(slot0)
+slot0.UpdateSpWeapons = function(slot0)
 	slot2 = getProxy(BayProxy):GetSpWeaponsInShips(getProxy(BayProxy):RawGetShipById(slot0.contextData.shipId))
 
 	for slot7, slot8 in ipairs(_.values(getProxy(EquipmentProxy):GetSpWeapons())) do
@@ -188,7 +188,7 @@ function slot0.UpdateSpWeapons(slot0)
 	slot0.viewComponent:SetSpWeapons(slot2)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		BayProxy.SHIP_EQUIPMENT_ADDED,
@@ -213,7 +213,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_UPDATED then
@@ -295,7 +295,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	getProxy(SettingsProxy):setEquipSceneIndex(slot0.contextData.warp)
 end
 

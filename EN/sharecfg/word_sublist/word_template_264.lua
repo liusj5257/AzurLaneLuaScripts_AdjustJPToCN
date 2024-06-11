@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_264 = {}
 slot1 = slot0.word_template_264
 
-function temp()
+temp = function()
 	uv0["视"] = {
 		["频"] = {
 			m = {
@@ -154,7 +154,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["是"] = {
 		["否"] = {
 			["你"] = {
@@ -211,7 +211,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["視"] = {
 		["頻"] = {
 			["表"] = {
@@ -232,7 +232,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["貰"] = {
 		this = {
 			this = true
@@ -242,7 +242,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["释"] = {
 		["迦"] = {
 			["牟"] = {
@@ -266,7 +266,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["釋"] = {
 		["迦"] = {
 			["牟"] = {
@@ -283,7 +283,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["收"] = {
 		["单"] = {
 			["管"] = {

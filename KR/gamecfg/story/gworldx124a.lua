@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX124A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX124A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "일반 해역에서 잠수함 지원 지령을 사용할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,

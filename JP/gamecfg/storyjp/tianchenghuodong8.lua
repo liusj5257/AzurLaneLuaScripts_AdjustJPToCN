@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
+			bgm = "battle-boss-tiancheng",
 			actor = 305070,
 			nameColor = "#ff0000",
-			dir = 1,
 			say = "ようやく戦場で会えたな。天城！",
-			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "玉の守りは金銀三枚……守りを攻めとする戦法を学びましたわね",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "お前のおかげだ。正直、知略も戦術も確実にお前の方が上だが…",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "戦闘ならお前などには決して負けん！",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "私が勝ったら、あなたは私が遣わす最強の刃となり、私の策に協力してもらうとしましょう",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "……当たり前だ。",
 			typewriter = {
 				speed = 0.05,

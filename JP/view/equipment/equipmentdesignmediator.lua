@@ -2,7 +2,7 @@ slot0 = class("EquipmentDesignMediator", import("..base.ContextMediator"))
 slot0.MAKE_EQUIPMENT = "EquipmentDesignMediator:MAKE_EQUIPMENT"
 slot0.OPEN_EQUIPMENTDESIGN_INDEX = "EquipmentDesignMediator:OPEN_EQUIPMENTDESIGN_INDEX"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.bagProxy = getProxy(BagProxy)
 	slot1 = slot0.viewComponent
 	slot3 = slot0.bagProxy
@@ -46,7 +46,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.COMPOSITE_EQUIPMENT_DONE,
 		BagProxy.ITEM_UPDATED,
@@ -55,7 +55,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.COMPOSITE_EQUIPMENT_DONE then

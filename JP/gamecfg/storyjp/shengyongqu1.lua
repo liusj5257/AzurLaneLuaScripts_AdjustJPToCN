@@ -1,13 +1,13 @@
 return {
-	id = "SHENGYONGQU1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			say = "これは夢…なのか",
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
+			actor = 900055,
 			dir = 1,
 			blackBg = true,
 			say = "ヴィシア聖座旗艦ジャン・バールが全艦に告ぐ！",
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "オレは負けた。そしてヴィシアのプライドのために、仲間たちに自沈を命令した。",
 			effects = {
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "あのとき、戦艦ジャン・バールはたしかに沈んだ――そのはずだった。",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "しかし、違和感を覚える。",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "無へと帰ったはずの意識がまだこうして「存在」し続けている。",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "ならばここは天国、はたまた地獄なのだろうかというと、それもまた違う。",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "艦船である自分だと、ほかの場所に辿り着くかもしれないが……",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "少なくとも、この無限に広がる真っ暗な空間はアイリスにあるどの文献にも記載されていない。",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
+			actor = 900055,
 			dir = 1,
 			blackBg = true,
 			say = "「――定命あるものには死がある。汝悲しむことなかれ。これぞ嘘偽りない輪廻の摂理」",
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "暗い虚無の中で、意識だけがはっきりとしている。…奇妙なことに喋ろうと思えば、声も響くようだ",
 			effects = {
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "とはいえ、いくら艦船だろうと定命ある存在と大差ない事実は受け入れるしかない。",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "ヴィシア、アイリス、そしてリシュリュー姉さん…………",
 			typewriter = {
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……今となっては果てしなく遠くにいる、大切な存在たちを思い浮かべる。",
 			dialogShake = {
@@ -471,8 +471,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "もう二度と、みんなと出会うことは――",
 			typewriter = {
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			bgm = "bsm-2",
+			side = 2,
+			say = "バイタル状況問題なし。 d'accord。そのうち視覚と五感が回復すると思いますわ",
 			dir = 1,
 			blackBg = true,
-			say = "バイタル状況問題なし。 d'accord。そのうち視覚と五感が回復すると思いますわ",
+			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +501,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……その声……お前は……",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "私が誰だろうとどうでもいいことですよ。重要なのはあなた、ジャン・バールですわ",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "オレのほうが……重要……？",
 			typewriter = {
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "ええ、どうやらまだ意識が朦朧としていますね。状況を整理してあげましょうか？",
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "さて、あなたが最後にいた場所を思い出してみて？",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…ああ、オレはそこで自沈したはずだ",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "そうです、鉄血にもロイヤルにも屈することなく、あくまでヴィシアの自主性を重んじたために、あなたは艦隊に自沈を命じましたね",
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "ああ。よく分かっているな",
 			typewriter = {
@@ -617,8 +617,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "そして、ヴィシアの上層部は変わらず鉄血に執心し、アイリスもロイヤル――もとい、アズールレーン側にいるまま",
@@ -632,8 +632,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "あなたの自沈は勇敢であり、滑稽であり、悲劇であり――と、後世の人々は様々な評価をするでしょう。",
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "そこはあなたも知っているでしょう。カンレキ…あるいはそうなると分かっていることでも、あなたは同じ選択をしたはず――",
@@ -662,8 +662,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "戦艦ジャン・バールのフネとしての人生は幕を閉じました。しかし彼女はまだ新しい人生の一歩を踏み出さずにいる……",
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "………………",
 			typewriter = {
@@ -691,8 +691,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……ふざけすぎだぞ。テリブル",
 			dialogShake = {
@@ -710,8 +710,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "思いだした。オレはあのとき自沈しようとしていたが、救出されたんだ。",
 			typewriter = {
@@ -724,8 +724,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "今はこうして回復を待ちながら、お前のくだらないお喋りにつきあわされている――だな？",
 			typewriter = {
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "現況を分かっているようで大変喜ばしいことです。ジャン・バールさん？",
@@ -753,8 +753,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "私も同じ境遇でしたけど、こうして一足早く回復し、ジャン・バールさんの看病をアルジェリーから命じられていました",
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "申し訳ございません。いつもの癖でついからかっちゃって",
@@ -783,8 +783,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "構わない。オレもこうして――",
 			typewriter = {
@@ -797,8 +797,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "して、「貴女の人生はまだ続くのでしょうか？」",
@@ -812,8 +812,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……どういう意味だ？",
 			typewriter = {
@@ -826,8 +826,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "なんでもありませんよ。ジャン・バールさん",
@@ -841,8 +841,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "貴女はここでずっと縛られるような人でもありませんから",
@@ -856,8 +856,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "さて、「眠り姫様」の回復も確認しましたし、私も報告に戻らないと",
@@ -871,8 +871,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "じゃあねジャン・バールさん、貴女にもアイリスの素晴らしき空想を",
@@ -886,8 +886,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「天を仰ぎ、よく見よ。頭上高く行く雲を眺めよ」</size>",
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

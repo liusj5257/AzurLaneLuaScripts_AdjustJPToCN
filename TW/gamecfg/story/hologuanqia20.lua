@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA20",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-fbk",
 			dir = 1,
 			say = "{namecode:158}那边似乎一切顺利，把妳的两名同伴救出来了，是叫绫目和诗音么？",
+			bgm = "holo-fbk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "太好了！不过，还有空前辈没有找到啊……",
 			typewriter = {
 				speed = 0.05,
@@ -115,9 +115,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "我？",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "那一定是空前辈！和我？怎么可能！！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

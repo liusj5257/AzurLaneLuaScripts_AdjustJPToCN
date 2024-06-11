@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN30",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-seiren-theme",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "KABOOOOM!",
 			dir = 1,
-			bgm = "battle-seiren-theme",
+			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "The barrier's been destroyed!",
 			typewriter = {
@@ -80,8 +80,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "The time for your destruction has come, Compiler!",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "Emergency detected. Rebooting shield.",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Huh?! The barrier's coming back?!",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -141,8 +141,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "Even after all that trouble we just went through...?",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "And the main body is still unscathed... How...?",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "My friends, it seems like you need a bit of extra firepower!",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 307060,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "It's too early to give up, guys! We'll back you up with our firepower!",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "It would be a stain upon our honor if we just helped ourselves to your supplies while ignoring you in your time of need.",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 305020,
 			dir = 1,
+			actor = 305020,
 			nameColor = "#a9f548",
 			say = "I'll help out too!",
 			typewriter = {
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -295,8 +295,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "The barrier's down! Now's our chance!",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "………………",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -367,14 +367,14 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Eisen! Don't hold back! Fire!!!",
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -390,8 +390,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,8 +419,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "HUUUH?! Um, I mean, WHAAAAAT?!!!",
 			typewriter = {
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,8 +446,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "What happened, Heinrich! We can't detect Compiler's location anymore!",
 			typewriter = {
@@ -463,8 +463,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "Compiler, uh... she went under water just like a submarine!",
 			typewriter = {
@@ -480,8 +480,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Are you saying she has rigging for both surface combat and underwater mobility?!",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -524,8 +524,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "We'll lose track of her at this rate!",
 			typewriter = {
@@ -538,8 +538,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -548,15 +548,15 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "U-37, looks like the rest is up to you. Do you think you can stop her in her tracks?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -584,9 +584,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_134",
-			actor = 408100,
 			dir = 1,
 			blackBg = true,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "I'm already in position! Heheh~ Time to show off what a deep-sea hunter is capable of!",
 			typewriter = {

@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "hunhe-story",
-			dir = 1,
+			side = 2,
 			say = "파나마 요새 동쪽·외해",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			say = "…그다음은 어떻게 말해야 하지… 그래.(작은 소리)",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 		{
 			actor = 107170,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "멀리서 오느라 수고 많았다…!",
 			dialogShake = {
 				speed = 0.09,
@@ -80,9 +80,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "푸하하… 벙커힐, 환영 인사 같은 건 너에게 정말 안 어울리는구나!",
 			effects = {
 				{
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "같은 동료들인데 그렇게 얽매이지 말라고. 에식스도 왔어.",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "지휘관은 현재 새러토가 일행과 베링해 인근에서 노스 유니온과의 연합 작전에 참여 중이다. ",
 			typewriter = {
 				speed = 0.05,
@@ -234,9 +234,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아, 정말 아쉽네요. 이번 기회에 지휘관님과 돈독해지고 싶었는데요.",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -275,9 +275,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "그렇다는 건 이번 작전은 우리끼리 해야 한다는 말이네. 후후, 크게 활약할 기회가 오고 있는 느낌!",
 			typewriter = {
 				speed = 0.05,
@@ -289,16 +289,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -325,8 +325,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "에~ 그렇게 춥나요? 노스 유니온의 환경도 참 험난하네요. 제가 주둔하고 있는 곳이 꽃으로 둘러싸인 화창한 해변의 파나마 요새라 다행이에요.",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "윽… 이론적으로는 베링해의 기온으로 보일러가 얼어붙지는 않을 텐데요. 아마도요…",
 			typewriter = {
 				speed = 0.05,
@@ -356,9 +356,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "뜻밖의 고장이라던가 포탄에 맞아서 꺼지거나 그랬을 거야. 내가 잘 알지……",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -412,9 +412,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "마침 목이 말랐던 참인데, 잘 됐다!",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -439,8 +439,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "그렇다면 먼저 요새에서 쉰 다음 앞으로의 이야기를 하죠… 엔터프라이즈 선배?",
 			typewriter = {
 				speed = 0.05,
@@ -455,8 +455,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "음…… 방금 오던 길에 신경 쓰였던 곳이 있다. 다시 한번 둘러보고 싶은데.",
 			typewriter = {
 				speed = 0.05,
@@ -471,8 +471,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "에? 엔터프라이즈, 뭔가 단서라도 발견한 거야? 같이 갈까?",
 			typewriter = {
 				speed = 0.05,
@@ -487,8 +487,8 @@ return {
 			actor = 107060,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "아니다. 위화감이 들었던 것뿐이야. 요새 동쪽 근해니까 금방 보고 돌아오겠다.",
 			typewriter = {
 				speed = 0.05,

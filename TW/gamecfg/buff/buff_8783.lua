@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "中飞BOSS用buff2",
 	time = 0,
-	color = "yellow",
+	name = "中飞BOSS用buff2",
+	init_effect = "",
+	id = 8783,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8783,
+	color = "yellow",
 	icon = 8783,
 	last_effect = "plane_bosseffect_red",
 	effect_list = {}

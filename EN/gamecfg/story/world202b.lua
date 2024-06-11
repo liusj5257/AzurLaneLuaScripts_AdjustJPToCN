@@ -1,15 +1,15 @@
 return {
-	id = "WORLD202B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD202B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA Ocean NE Sector - Royal Navy Main Fleet",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Bzzt...",
@@ -113,8 +113,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "Miss Hood, the long-range receiver back at the Capital just received an emergency distress signal, but quickly lost contact with the fleet that sent the signal.",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "We speculate that the signal may have been set from a friendly recon fleet, but we haven't determined which fleet that might be.",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "However, we do know that the situation is urgent. I'm sending over the coordinates of the distress signal now, so please arrange a rescue operation with due haste.",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "These coordinates... No Royal Navy ships should've been deployed to this area...",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "Very well. I'll try to get in contact with the Eagle Union as soon as possible.",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205070,
 			dir = 1,
+			actor = 205070,
 			say = "‘tis unlikely that the Eagle Union would stray out this far. Why would the Eagle Union be in this operation zone in the first place?",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "Hood, how about we take a small detachment to back them up? Hopefully it won't be too late.",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "I'll go too. If this is a trap laid by the Sirens, we do not want to risk them getting trapped in a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,

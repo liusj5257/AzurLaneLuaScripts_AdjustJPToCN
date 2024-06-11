@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"元氣甜心的愛意攻勢\n\n<size=45>二　無法被打濕的愛意</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "某個陰雨連綿的休息日——",
+			side = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "某個陰雨連綿的休息日——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "……這是通往指揮室的必經之路。很顯然，布呂歇爾早就等在這裡了。",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "其目的，大概是為了讓我兌現幾天前「被迫」答應她的約會日程。",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "與布呂歇爾一同漫步在雨中的港區。",
 			typewriter = {
@@ -280,17 +280,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "在路過鐵血的宿舍區時，一個熟悉的身影出現在眼前——",
 			typewriter = {
@@ -308,14 +308,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "歐根~早安！妳也在進行雨中漫步嗎？",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "歐根~早安！妳也在進行雨中漫步嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,14 +326,14 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "喲，這不是指揮官，還有「元氣甜心」小姐嘛？",
 			hidePaintEquip = true,
+			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "喲，這不是指揮官，還有「元氣甜心」小姐嘛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,8 +359,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -434,9 +434,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_main_day",
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_main_day",
 			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

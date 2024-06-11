@@ -1,7 +1,7 @@
 slot0 = class("PublicGuild", import("..base.BaseGuild"))
 slot1 = pg.guild_technology_template
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.technologyGroups = {}
 	slot0.technologys = {}
 
@@ -23,7 +23,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maxDonateCntPreDay = pg.guildset.contribution_task_num.key_value
 end
 
-function slot0.InitUser(slot0, slot1)
+slot0.InitUser = function(slot0, slot1)
 	slot0.donateCount = slot1.donate_count
 	slot0.donateTasks = {}
 	slot2 = ipairs
@@ -45,27 +45,27 @@ function slot0.InitUser(slot0, slot1)
 	end
 end
 
-function slot0.GetTechnologyGroups(slot0)
+slot0.GetTechnologyGroups = function(slot0)
 	return slot0.technologyGroups
 end
 
-function slot0.GetDonateTasks(slot0)
+slot0.GetDonateTasks = function(slot0)
 	return slot0.donateTasks
 end
 
-function slot0.GetTechnologys(slot0)
+slot0.GetTechnologys = function(slot0)
 	return slot0.technologys
 end
 
-function slot0.GetTechnologyById(slot0, slot1)
+slot0.GetTechnologyById = function(slot0, slot1)
 	return slot0.technologys[slot1]
 end
 
-function slot0.GetDonateCount(slot0)
+slot0.GetDonateCount = function(slot0)
 	return slot0.donateCount
 end
 
-function slot0.GetDonateTaskById(slot0, slot1)
+slot0.GetDonateTaskById = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.donateTasks) do
 		if slot6.id == slot1 then
 			return slot6
@@ -73,23 +73,23 @@ function slot0.GetDonateTaskById(slot0, slot1)
 	end
 end
 
-function slot0.HasDonateCnt(slot0)
+slot0.HasDonateCnt = function(slot0)
 	return slot0:GetRemainDonateCnt() > 0
 end
 
-function slot0.UpdateDonateTasks(slot0, slot1)
+slot0.UpdateDonateTasks = function(slot0, slot1)
 	slot0.donateTasks = slot1
 end
 
-function slot0.IncDonateCount(slot0)
+slot0.IncDonateCount = function(slot0)
 	slot0.donateCount = slot0.donateCount + 1
 end
 
-function slot0.GetRemainDonateCnt(slot0)
+slot0.GetRemainDonateCnt = function(slot0)
 	return slot0.maxDonateCntPreDay - slot0.donateCount
 end
 
-function slot0.ResetDonateCnt(slot0)
+slot0.ResetDonateCnt = function(slot0)
 	slot0.donateCount = 0
 end
 

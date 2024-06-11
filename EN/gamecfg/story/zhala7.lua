@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 7: Starry Night</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 603020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "All right, we're here. This is the perfect spot.",
 			bgm = "story-2",
+			actor = 603020,
+			nameColor = "#a9f548",
+			say = "All right, we're here. This is the perfect spot.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Zara had pulled me to a bench, where we sat admiring the starry sky.",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Not to mention the part where I made you my pack mule for the day. Thanks, and sorry. Hehe, it wasn't so bad, was it?",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Zara was staring directly into my eyes.",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "\"I want to show her my strong and heroic side! I don't want to be prey that she toys with.\" That's what your eyes are saying. They're full of frustration that you've never succeeded.",
 			typewriter = {
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "In the end, Zara was always two steps ahead of me. Any time I tried to resist her, she always brought me to heel.",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "I know I overdo it sometimes, but I really much prefer the prey caught in my traps to some smooth and confident fleet officer.",
 			typewriter = {
@@ -306,16 +306,16 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "So...",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -332,9 +332,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Zara clung to my arm.",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Maybe she'd gotten too tired. Zara rested her head on my chest.",
 			typewriter = {
 				speed = 0.05,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "But... let's keep it up... just a little while longer... okay?",
 			typewriter = {
 				speed = 0.05,

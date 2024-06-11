@@ -5,28 +5,28 @@ end
 slot1 = {
 	Default = 0,
 	SetField = 2048,
-	Static = 8,
-	FlattenHierarchy = 64,
-	ExactBinding = 65536,
-	InvokeMethod = 256,
+	GetField = 1024,
+	Instance = 4,
+	GetProperty = 4096,
+	SuppressChangeType = 131072,
 	NonPublic = 32,
 	PutRefDispProperty = 32768,
-	SuppressChangeType = 131072,
+	Static = 8,
 	IgnoreReturn = 16777216,
-	CreateInstance = 512,
-	GetField = 1024,
 	OptionalParamBinding = 262144,
+	FlattenHierarchy = 64,
+	ExactBinding = 65536,
 	Public = 16,
-	Instance = 4,
+	InvokeMethod = 256,
 	SetProperty = 8192,
 	DeclaredOnly = 2,
-	GetProperty = 4096,
+	CreateInstance = 512,
 	PutDispProperty = 16384,
 	IgnoreCase = 1
 }
 System.Reflection.BindingFlags = slot1
 
-function System.Reflection.BindingFlags.GetMask(...)
+System.Reflection.BindingFlags.GetMask = function(...)
 	slot1 = 0
 
 	for slot5 = 1, #{

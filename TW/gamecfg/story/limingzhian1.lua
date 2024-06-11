@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方聯合·某處軍港",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgm = "blueocean-image",
+			say = "北方聯合·某處軍港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "曙光？真是好久不見了！",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "妳也要參加這次行動嗎？",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "話說……這次危險的任務就讓我們這兩艘“舊式”艦裝的人來執行是不是有點太微妙了……",
 			typewriter = {
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_bsmlevel",
 			actor = 702020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "啊……忘了把模式換回去了。",
 			flashout = {
@@ -205,8 +205,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "完全是出乎意料的技術！",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "雖然看起來跟極地艦隊使用的新式艦裝比較像，不過我覺得性能上也許要更勝一籌哦~",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "既然是皇家首先研發出來的技術，她們現在肯定已經偷偷普及了吧。",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "現在可是戰雲密布哦？居然還要嚴格保密這種強力技術……",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "看來在從各陣營裡換到足夠回報之前是不打算公開了啊……皇家到底是皇家。",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "畢竟妳可是昔日俄羅斯帝國，不對，應該是世界上——",
 			typewriter = {
@@ -403,8 +403,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "是是~我不說了，不用這麼緊張嘛。",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "——不過其實，更詳細一點的部分我就不知道了……比如具體要早多久之類的？",
 			typewriter = {
@@ -453,8 +453,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "單純是對於自身來源的好奇嘛……聽妳的哦，我不打聽這件事了。",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -554,8 +554,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "根據任務書，我們要突襲的塞壬設施位於鐵血控制區內，恐怕和鐵血本身有什麼不清不楚的聯繫……",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "現在NA海域的停火協議還在生效期，這次行動如果被發現了會很麻煩吧？",
 			typewriter = {
@@ -606,8 +606,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "既然如此隱蔽又鮮為人知……那我們是怎麼知道的？",
 			typewriter = {
@@ -641,8 +641,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "優秀的情報提供人啊……",
 			typewriter = {
@@ -726,8 +726,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "這次行動的目標既然是塞壬實驗場，只靠我和曙光會不會有些火力不足？",
 			typewriter = {
@@ -761,8 +761,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "這些情報還是同樣來自那位優秀的情報提供人嗎？",
 			typewriter = {
@@ -932,8 +932,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "現在鐵血控制區內警備薄弱，NA海域中塞壬也潰不成軍，沒有比現在最適合行動的時候了。",
 			typewriter = {
@@ -1001,8 +1001,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "哼哼，真是難得一見，上次見到蘇維埃聯盟這麼不自信的樣子都不知道是在什麼時候了。",
 			typewriter = {
@@ -1034,8 +1034,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "怎麼了曙光，有想到什麼事嗎？",
 			typewriter = {
@@ -1064,12 +1064,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "看來這次任務非同小可，我們去認真準備一下吧。",
 			typewriter = {
 				speed = 0.05,

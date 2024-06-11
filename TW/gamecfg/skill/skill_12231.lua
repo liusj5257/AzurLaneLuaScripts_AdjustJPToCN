@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "天真烂漫的少女",
 	cd = 0,
+	picture = "0",
+	desc = "小海伦娜",
 	painting = 0,
 	id = 12231,
-	picture = "0",
 	castCV = "skill",
-	desc = "小海伦娜",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,20 +17,20 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "Helena-ME",
 				operation = 1
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 12232
 			}

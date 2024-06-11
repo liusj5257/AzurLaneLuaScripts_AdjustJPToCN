@@ -1,14 +1,14 @@
 slot0 = class("LevelCMDFormationView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelCommanderView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:InitUI()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end
@@ -16,17 +16,17 @@ function slot0.OnDestroy(slot0)
 	slot0.callback = nil
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0._go, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.InitUI(slot0)
+slot0.InitUI = function(slot0)
 	slot0.descFrameTF = slot0:findTF("frame")
 	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
 	slot0.descPos2 = slot0:findTF("commander2/frame/info", slot0.descFrameTF)
@@ -77,29 +77,29 @@ function slot0.InitUI(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.setCallback(slot0, slot1)
+slot0.setCallback = function(slot0, slot1)
 	slot0.callback = slot1
 end
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	slot0:updateFleet(slot1)
 	slot0:updatePrefabs(slot2)
 end
 
-function slot0.updateFleet(slot0, slot1)
+slot0.updateFleet = function(slot0, slot1)
 	slot0.fleet = slot1
 
 	slot0:updateDesc()
 	slot0:updateRecordFleet()
 end
 
-function slot0.updatePrefabs(slot0, slot1)
+slot0.updatePrefabs = function(slot0, slot1)
 	slot0.prefabFleets = slot1
 
 	slot0:updateRecordPanel()
 end
 
-function slot0.updateRecordFleet(slot0)
+slot0.updateRecordFleet = function(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	for slot5, slot6 in ipairs(slot0.recordCommanders) do
@@ -110,7 +110,7 @@ function slot0.updateRecordFleet(slot0)
 	end
 end
 
-function slot0.updateRecordPanel(slot0)
+slot0.updateRecordPanel = function(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	slot0.recordList:make(function (slot0, slot1, slot2)
@@ -121,7 +121,7 @@ function slot0.updateRecordPanel(slot0)
 	slot0.recordList:align(#slot0.prefabFleets)
 end
 
-function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
+slot0.UpdatePrefabFleet = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2:Find("fleet_name")
 
 	onInputEndEdit(slot0, slot4, function ()
@@ -165,7 +165,7 @@ function slot0.UpdatePrefabFleet(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateDesc(slot0)
+slot0.updateDesc = function(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
@@ -178,7 +178,7 @@ function slot0.updateDesc(slot0)
 	slot0:updateAdditions()
 end
 
-function slot0.updateAdditions(slot0)
+slot0.updateAdditions = function(slot0)
 	slot1 = slot0.fleet
 	slot2 = _.values(slot1:getCommandersTalentDesc())
 	slot3, slot4 = slot1:getCommandersAddition()
@@ -208,7 +208,7 @@ function slot0.updateAdditions(slot0)
 	setActive(slot0.talentsArr, #slot2 > 4)
 end
 
-function slot0.updateSkillTF(slot0, slot1, slot2)
+slot0.updateSkillTF = function(slot0, slot1, slot2)
 	setActive(slot2, slot1)
 
 	if slot1 then
@@ -229,7 +229,7 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	removeOnButton(slot2)
 end
 
-function slot0.updateCommander(slot0, slot1, slot2, slot3, slot4)
+slot0.updateCommander = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:Find("add")
 	slot6 = slot1:Find("info")
 
@@ -264,12 +264,12 @@ function slot0.updateCommander(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot6, slot3)
 end
 
-function slot0.OpenRecordPanel(slot0)
+slot0.OpenRecordPanel = function(slot0)
 	setActive(slot0.descFrameTF, false)
 	setActive(slot0.recordPanel, true)
 end
 
-function slot0.CloseRecordPanel(slot0)
+slot0.CloseRecordPanel = function(slot0)
 	setActive(slot0.descFrameTF, true)
 	setActive(slot0.recordPanel, false)
 end

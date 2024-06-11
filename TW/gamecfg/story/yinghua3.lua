@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -37,8 +37,8 @@ return {
 		{
 			actor = 307050,
 			side = 1,
-			dir = 1,
 			say = "看到重櫻的御神木了嗎？這幾年來，它正一直以飛快的速度枯萎，我們這次來，就是希望能夠找到拯救它的方法",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -123,15 +123,15 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			stopbgm = true,
 			say = "新生重櫻聯合那班傢伙們衝著御神木去了——這樣下去，她們也許會相見的",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -158,9 +158,9 @@ return {
 		{
 			actor = 307010,
 			side = 0,
+			say = "礙事的傢伙總是清理不完，真是讓人頭疼…",
 			dir = 1,
 			blackBg = true,
-			say = "礙事的傢伙總是清理不完，真是讓人頭疼…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

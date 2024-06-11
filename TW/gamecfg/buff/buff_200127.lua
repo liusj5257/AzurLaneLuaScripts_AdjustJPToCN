@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 昏睡之门 眩晕效果",
 	time = 5,
-	color = "red",
+	name = "2022莱莎联动 昏睡之门 眩晕效果",
+	init_effect = "",
+	id = 200127,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200127,
+	color = "red",
 	icon = 200127,
 	last_effect = "xuanyun",
 	effect_list = {

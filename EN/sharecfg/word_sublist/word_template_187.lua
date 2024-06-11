@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_187 = {}
 slot1 = slot0.word_template_187
 
-function temp()
+temp = function()
 	uv0["两"] = {
 		["岸"] = {
 			["才"] = {
@@ -434,7 +434,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兩"] = {
 		["岸"] = {
 			["關"] = {
@@ -491,7 +491,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["亮"] = {
 		["屄"] = {
 			this = true
@@ -516,7 +516,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["靓"] = {
 		["妹"] = {
 			["兼"] = {
@@ -536,7 +536,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["撩"] = {
 		["起"] = {
 			["裙"] = {
@@ -556,7 +556,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["料"] = {
 		["理"] = {
 			["店"] = {
@@ -568,7 +568,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["廖"] = {
 		["錫"] = {
 			["龍"] = {

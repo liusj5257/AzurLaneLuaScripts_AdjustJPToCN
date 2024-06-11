@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "夕日の港から出航する艦隊は目標へと突き進んだ。",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-french1",
+			say = "夕日の港から出航する艦隊は目標へと突き進んだ。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "さて、サディアはどう反応してくるか…このまま何も無ければいいのだけど",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "そうね。途中で敵にバレてしまったら奇襲どころじゃなくなるよ",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "そもそもの施設への攻撃効果も落ちる…悪い事ずくめということね",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

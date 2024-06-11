@@ -1,6 +1,6 @@
 slot0 = class("PtTemplatePage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.slider = slot0:findTF("slider", slot0.bg)
 	slot0.step = slot0:findTF("step", slot0.bg)
@@ -12,7 +12,7 @@ function slot0.OnInit(slot0)
 	slot0.gotBtn = slot0:findTF("got_btn", slot0.bg)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if slot0.ptData then
 		slot0.ptData:Update(slot0.activity)
 	else
@@ -20,7 +20,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.displayBtn, function ()
 		uv0:emit(ActivityMediator.SHOW_AWARD_WINDOW, PtAwardWindow, {
 			type = uv0.ptData.type,
@@ -82,7 +82,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if checkExist(slot0.activity:getConfig("config_client").story, {
 		slot0.ptData:getTargetLevel()
 	}, {
@@ -114,10 +114,10 @@ function slot0.OnUpdateFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.GetWorldPtData(slot0, slot1)
+slot0.GetWorldPtData = function(slot0, slot1)
 	if slot1 <= pg.TimeMgr.GetInstance():GetServerTime() - (ActivityMainScene.Data2Time or 0) then
 		ActivityMainScene.Data2Time = pg.TimeMgr.GetInstance():GetServerTime()
 

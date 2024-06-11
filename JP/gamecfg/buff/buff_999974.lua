@@ -1,12 +1,12 @@
 return {
-	time = 2,
-	name = "回血",
 	init_effect = "",
+	name = "回血",
+	time = 2,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999974,
-	picture = "",
 	last_effect = "Health",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffHP",

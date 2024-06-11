@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "한편, 북부함대에서는 세 명의 뉴올리언스급의 중순양함 자매들이 즐겁게 대화를 나누고 있었다.",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 		{
 			actor = 103100,
 			side = 1,
-			nameColor = "#92fc63",
 			say = "게다가 경계 순찰은 지치고 지루하다구……대체 왜 경계 같은 걸 해야 하는 거야? 엔터프라이즈 언니네가 있는데.",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이때, 돌연 강렬한 빛이 삼자매를 에워쌌다.",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 		{
 			actor = 103080,
 			side = 0,
-			nameColor = "#92fc63",
 			say = "아냐! 이건……적의 습격이야! 퀸시, 빈센스, 전투 준비!",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

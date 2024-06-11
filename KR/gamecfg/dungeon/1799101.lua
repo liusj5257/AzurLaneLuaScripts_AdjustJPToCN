@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 600,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -116,14 +116,14 @@ return {
 	fleet_prefab = {
 		vanguard_unitList = {
 			{
-				exp = 10,
-				configId = 900413,
-				tmpID = 900413,
-				skinId = 900413,
 				oil_at_end = 10,
+				configId = 900413,
+				energy = 10,
+				skinId = 900413,
+				exp = 10,
+				tmpID = 900413,
 				id = 1,
 				level = 1,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -131,12 +131,12 @@ return {
 				},
 				properties = {
 					cannon = 30,
-					air = 0,
-					antiaircraft = 200,
-					torpedo = 20,
-					durability = 3000,
 					reload = 200,
 					dodge = 20,
+					torpedo = 20,
+					durability = 3000,
+					air = 0,
+					antiaircraft = 200,
 					speed = 25,
 					luck = 10,
 					hit = 20
@@ -151,11 +151,11 @@ return {
 		},
 		main_unitList = {
 			{
-				tmpID = 900414,
 				configId = 900414,
+				level = 1,
 				skinId = 900414,
 				id = 1,
-				level = 1,
+				tmpID = 900414,
 				equipment = {
 					false,
 					false,
@@ -163,12 +163,12 @@ return {
 				},
 				properties = {
 					cannon = 25,
-					air = 40,
-					antiaircraft = 0,
-					torpedo = 0,
-					durability = 2000,
 					reload = 300,
 					dodge = 5,
+					torpedo = 0,
+					durability = 2000,
+					air = 40,
+					antiaircraft = 0,
 					speed = 1,
 					luck = 10,
 					hit = 25
@@ -181,11 +181,11 @@ return {
 				}
 			},
 			{
-				tmpID = 900415,
 				configId = 900415,
+				level = 1,
 				skinId = 900415,
 				id = 2,
-				level = 1,
+				tmpID = 900415,
 				equipment = {
 					false,
 					false,
@@ -193,12 +193,12 @@ return {
 				},
 				properties = {
 					cannon = 20,
-					air = 30,
-					antiaircraft = 0,
-					torpedo = 0,
-					durability = 1500,
 					reload = 300,
 					dodge = 5,
+					torpedo = 0,
+					durability = 1500,
+					air = 30,
+					antiaircraft = 0,
 					speed = 1,
 					luck = 20,
 					hit = 20

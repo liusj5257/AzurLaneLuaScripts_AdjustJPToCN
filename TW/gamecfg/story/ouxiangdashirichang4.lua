@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"響徹碧海的偶像之歌-日常篇\n\n<size=45>四 關於休息和遊戲</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·重櫻生活區",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Tender",
+			say = "港區·重櫻生活區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,11 +53,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "嘿！呀！哼！還沒完~！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "啊啊啊啊~！不要老盯著我打啦！",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,13 +120,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯哼哼~趁著所有人聚在一起……看我的必殺！究極燃燒拳！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "嗯哼哼~趁著所有人聚在一起……看我的必殺！究極燃燒拳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,11 +140,11 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 10700070,
-			dir = 1,
-			actorName = "雙海真美·{namecode:6}·{namecode:2}",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 10700070,
+			actorName = "雙海真美·{namecode:6}·{namecode:2}",
 			say = "啊——！",
 			dialogShake = {
 				speed = 0.08,
@@ -175,13 +175,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "耶~勝利是亞美的~！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "耶~勝利是亞美的~！",
 			effects = {
 				{
 					active = true,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -208,13 +208,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…輸了…亞美、真美，都很擅長玩遊戲…的說。",
 			hidePaintEquip = true,
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "唔…輸了…亞美、真美，都很擅長玩遊戲…的說。",
 			effects = {
 				{
 					active = false,
@@ -234,11 +234,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "畢竟在那邊也經常玩遊戲嘛~♪這邊也有這麼多好玩的遊戲真是太棒了~還能像這樣和大家一起玩~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,11 +268,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "嗯~…要不玩這個？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,13 +299,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "現在放棄還為時過早！！…鏘鏘！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "現在放棄還為時過早！！…鏘鏘！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "四根免洗筷…？這是要…？",
 			effects = {
 				{
@@ -344,13 +344,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "來抽籤吧，抽籤！我們分成兩隊進行比賽，贏下兩局比賽的團隊取得勝利！這樣就能大家一起玩啦！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "來抽籤吧，抽籤！我們分成兩隊進行比賽，贏下兩局比賽的團隊取得勝利！這樣就能大家一起玩啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…大家都選好了嗎？那就一口氣抽出來…一、二~！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "…大家都選好了嗎？那就一口氣抽出來…一、二~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,12 +397,12 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			hideOther = true,
-			dir = 1,
-			actorName = "雙海亞美·{namecode:6}",
-			hidePaintEquip = true,
 			actor = 10700060,
+			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
+			hidePaintEquip = true,
+			actorName = "雙海亞美·{namecode:6}",
 			say = "A隊！",
 			effects = {
 				{
@@ -431,12 +431,12 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_room",
-			hideOther = true,
-			dir = 1,
-			actorName = "雙海真美·{namecode:2}",
-			hidePaintEquip = true,
 			actor = 10700070,
+			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintEquip = true,
+			hideOther = true,
+			actorName = "雙海真美·{namecode:2}",
 			say = "B隊！",
 			subActors = {
 				{
@@ -459,11 +459,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "好！真美和{namecode:2}親一隊呢！請多指教~！",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = false,
@@ -496,13 +496,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "放馬過來吧！我們可不會輕易地輸給妳們哦！對吧，{namecode:6}親？",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "放馬過來吧！我們可不會輕易地輸給妳們哦！對吧，{namecode:6}親？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,11 +532,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "我來我來！B隊~真美出戰~！…那就~~遊戲開始！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,8 +547,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -576,11 +576,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "右~右~左~♪哼哼，這首歌有點意思~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,11 +610,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "B隊一勝~！{namecode:2}親，耶！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,11 +625,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "不甘心…的說…亞美，接下來就交給妳了。",
 			typewriter = {
 				speed = 0.05,
@@ -641,8 +641,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 45,
@@ -651,13 +651,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "交給我吧！亞美一定會阻止B隊繼續勝利的！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "交給我吧！亞美一定會阻止B隊繼續勝利的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,8 +668,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -697,11 +697,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "上~下~♪好~特殊獎勵時間！右連打！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,11 +712,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "上、下、左……奇怪，搞錯了嗎？啊啊啊~要跟不上了！",
 			typewriter = {
 				speed = 0.05,
@@ -728,8 +728,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 45,
@@ -754,13 +754,13 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "本來還挺有自信來著~……咦？這樣一來…豈不是平局？",
 			hidePaintEquip = true,
+			actor = 301010,
+			nameColor = "#a9f548",
+			say = "本來還挺有自信來著~……咦？這樣一來…豈不是平局？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,13 +787,13 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "這就是經驗的差距哦……雖然只是險勝而已啦。{namecode:6}玩遊戲真的好厲害！",
 			hidePaintEquip = true,
+			actor = 10700070,
+			nameColor = "#a9f548",
+			say = "這就是經驗的差距哦……雖然只是險勝而已啦。{namecode:6}玩遊戲真的好厲害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,8 +804,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -814,13 +814,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是啊是啊♪{namecode:2}親也玩得很投入呢，亞美都忍不住要跟著跳起舞來了~",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "是啊是啊♪{namecode:2}親也玩得很投入呢，亞美都忍不住要跟著跳起舞來了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,11 +834,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "就是就是！{namecode:2}親{namecode:2}親，來和真美對戰一局吧？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,11 +852,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "亞美也想和{namecode:6}親對戰！我們再比一場怎麼樣？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,11 +867,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "好！我已經熟悉這個遊戲了！不會再像剛才那樣輸掉了！",
 			typewriter = {
 				speed = 0.05,
@@ -883,8 +883,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -909,15 +909,15 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
-			actorName = "雙海亞美·雙海真美",
+			actor = 10700070,
 			dir = 1,
 			blackBg = true,
 			hidePaintEquip = true,
-			actor = 10700070,
-			nameColor = "#a9f548",
+			hideOther = true,
+			actorName = "雙海亞美·雙海真美",
 			say = "嗯哼哼~放馬過來吧！",
 			subActors = {
 				{
@@ -938,8 +938,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 6780,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6780,
+	color = "red",
 	icon = 6780,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 6780,
+				target = "TargetSelf",
 				countType = 6780
 			}
 		},
@@ -37,8 +37,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = 0.1,
+				attr = "damageRatioBullet",
 				index = {
 					1
 				}

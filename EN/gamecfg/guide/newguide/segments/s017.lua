@@ -14,15 +14,21 @@ return {
 		{
 			alpha = 0.183,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/dockBtn",
 				pathIndex = -1,
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/dock"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/dockBtn"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -36,18 +42,18 @@ return {
 			alpha = 0.351,
 			waitScene = "DockyardScene",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[2]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				pathIndex = 0,
+				path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				image = {
-					isChild = true,
 					source = "content/ship_icon",
+					isChild = true,
 					target = "content/ship_icon",
 					isRelative = true
 				},
@@ -64,15 +70,15 @@ return {
 			alpha = 0.363,
 			waitScene = "ShipMainScene",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = -366.9,
 				text = slot0[3]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/root/equpiment_toggle",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/root/equpiment_toggle",
 				triggerType = {
 					2
 				},
@@ -85,8 +91,8 @@ return {
 		{
 			alpha = 0.367,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[4]
@@ -95,15 +101,15 @@ return {
 		{
 			alpha = 0.339,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 13.5,
 				text = slot0[5]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/equipment_r_container(Adapt)/equipment_r_container/equipment_r/equipment/equipment_r2",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/equipment_r_container(Adapt)/equipment_r_container/equipment_r/equipment/equipment_r2",
 				triggerType = {
 					1
 				}
@@ -113,15 +119,15 @@ return {
 			alpha = 0.418,
 			waitScene = "StoreHouseScene",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0.37,
 				text = slot0[6]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/equipment_scrollview/equipment_grid",
 				pathIndex = 0,
+				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/equipment_scrollview/equipment_grid",
 				triggerType = {
 					1
 				},
@@ -135,15 +141,15 @@ return {
 			alpha = 0.215,
 			waitScene = "EquipmentInfoLayer",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[7]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/EquipmentInfoUI(Clone)/replace/actions/action_button_2",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/EquipmentInfoUI(Clone)/replace/actions/action_button_2",
 				triggerType = {
 					1
 				},

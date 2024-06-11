@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"벚꽃이 흩날리던 그날 이후\n\n<size=45>1. 찾고 있는 물건은?</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "함대의 실력을 증강시키기 위해서, 모항 내에 새로운 보급 창고를 건설해야 한다.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "함대의 실력을 증강시키기 위해서, 모항 내에 새로운 보급 창고를 건설해야 한다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "걸으며 건설할 위치를 생각하고 있던 때, 길 한복판에 떨어져 있는 끈 주머니를 발견했다.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "주머니를 주워 흔들어 보니, 동전의 딸랑거리는 소리가 들렸다. 대체 누가 떨어뜨린 걸까...",
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "지갑을 후소에게 건네주고 길에서 주웠다고 말해준다.",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "다행이네요…… 배수구에라도 떨어뜨린 건 아닌가 걱정했는데…",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "지갑을 잃어버린 이런 일은, 어떻게 봐도 행운은 아닐텐데……",
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "그러고 보니, 신처 근처에 확실히 크기가 적당한 공터가 있다……",
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

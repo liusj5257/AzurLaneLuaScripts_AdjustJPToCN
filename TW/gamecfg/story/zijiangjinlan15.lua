@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
+			bgm = "battle-againstfate",
 			stopbgm = true,
 			say = "大棋盤·赤城控制區第四回合稍早之前——",
-			bgm = "battle-againstfate",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "嗚啊……又一支量產型艦隊被消滅了，再這麼下去就需要讓侍從來吃反擊傷害了啊……",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg9",
 			say = "山城抬起頭望向遠方，赤城正靜靜地站立在遠方不久前還屬於構建者的位置上。",
 			typewriter = {
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
 			say = "她的身邊是尚未消散的彼岸花花瓣，四周是未燃盡的火焰，而不久前還在耀武揚威的構建者已經消失了。",
 			effects = {
 				{
@@ -187,8 +187,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "沉悶無趣，所以我才來這裡透透氣。",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "赤城前輩，請問剛剛究竟發生了什麼事……？",
 			painting = {
@@ -237,8 +237,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "不過對於非常規方式出現的殺傷，抵抗能力就很弱，比如基於我的入場所帶來的特殊傷害。",
 			painting = {
@@ -302,8 +302,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "原來如此……不愧是赤城前輩，對戰場上的每一個細節都牢記在心！",
 			painting = {
@@ -319,8 +319,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "我對這次棋局也是認真的哦。",
 			painting = {
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "至於妳，後面有有更重要的地方需要妳去呢。",
 			painting = {
@@ -433,8 +433,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "呵呵，熱身到這裡差不多就該結束了。",
 			painting = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "大前輩趁著我們打據點的時候，偷偷封鎖了我們的邊界，現在是時候去給她造成點困擾了。",
 			painting = {
@@ -480,13 +480,13 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			nameColor = "#A9F548FF",
+			side = 0,
 			bgName = "bg_wuzang_bg9",
-			hidePaintObj = true,
+			actor = 302130,
 			hideOther = true,
 			actorName = "{namecode:39}&{namecode:5}",
-			side = 0,
+			hidePaintObj = true,
 			say = "了解。\n遵命……{namecode:91}大人！ 遵命……赤城大人！",
 			subActors = {
 				{
@@ -538,8 +538,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "說不定正因為山城有這些設定，赤城前輩才會把妳派去危險的地方哦？",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "呵呵，從某種意義上來說，山城和赤城前輩的相性也非常好呢。",
 			painting = {
@@ -588,8 +588,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "赤城前輩，切斷大前輩與中心據點的作戰也讓我與山城同去吧，不知道在那邊會遇到什麼危險，兩個人也可以相互照料一下。",
 			painting = {
@@ -621,8 +621,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "不過妳的提案也有道理，兩個人要是都進去大前輩想要接觸中心據點就沒戲了。沒問題，龍鳳妳也去吧。",
 			painting = {
@@ -638,8 +638,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "遵命，赤城前輩。",
 			painting = {

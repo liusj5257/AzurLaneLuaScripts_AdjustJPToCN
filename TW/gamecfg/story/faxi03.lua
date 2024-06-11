@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI03",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI03",
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 904010,
 			actorShadow = true,
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "果然來了嗎…皇家艦隊的各位",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 		{
 			actor = 904010,
 			side = 1,
-			dir = 1,
 			say = "…我們海上騎士團不會聽命於任何異邦人",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -280,8 +280,8 @@ return {
 		{
 			actor = 204030,
 			side = 0,
-			dir = -1,
 			say = "那麼請妳們解除武裝來證明吧",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

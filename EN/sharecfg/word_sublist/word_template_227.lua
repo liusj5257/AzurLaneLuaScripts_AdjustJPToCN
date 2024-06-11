@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_227 = {}
 slot1 = slot0.word_template_227
 
-function temp()
+temp = function()
 	uv0["仆"] = {
 		["街"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蒲"] = {
 		["公"] = {
 			["英"] = {
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["朴"] = {
 		["槿"] = {
 			["惠"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["普"] = {
 		["布"] = {
 			["次"] = {
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["七"] = {
 		["号"] = {
 			["已"] = {
@@ -288,7 +288,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["妻"] = {
 		["交"] = {
 			["换"] = {
@@ -322,7 +322,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["戚"] = {
 		["建"] = {
 			["国"] = {

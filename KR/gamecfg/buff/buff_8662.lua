@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "黛朵",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 8662,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8662,
+	color = "yellow",
 	icon = 8662,
 	last_effect = "",
 	blink = {
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.1
+				number = 0.1,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.2
+				number = 0.2,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -54,8 +54,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8663,
-				target = "TargetSelf",
 				time = 15,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

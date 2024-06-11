@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_101 = {}
 slot1 = slot0.word_template_101
 
-function temp()
+temp = function()
 	uv0["妹"] = {
 		["妹"] = {
 			["骚"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宾"] = {
 		["馆"] = {
 			["女"] = {
@@ -49,7 +49,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["好"] = {
 		["色"] = {
 			c = {
@@ -71,7 +71,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["放"] = {
 		["荡"] = {
 			["少"] = {

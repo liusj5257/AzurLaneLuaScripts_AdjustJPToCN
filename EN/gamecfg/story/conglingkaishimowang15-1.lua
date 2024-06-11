@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "Following the battle, our party stayed at Sentinel Bastion for three days to rest and recover.",
 			bgm = "story-mmorpg",
+			say = "Following the battle, our party stayed at Sentinel Bastion for three days to rest and recover.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "We upgraded our gear and stocked up on supplies, then read up on the Demon King Army as much as we could.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "Then, finally, we passed through the main gates, officially taking our first step into the monster-occupied Wasteland.",
 			typewriter = {
@@ -52,34 +52,34 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "We followed the established road leading away from Sentinel Bastion, but it wasn't long before it abruptly stopped.",
 			bgm = "battle-ash-strong",
+			nameColor = "#A9F548FF",
+			say = "We followed the established road leading away from Sentinel Bastion, but it wasn't long before it abruptly stopped.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "We kept going in the same direction and eventually ended up in a thick forest stuffy with fog.",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "The trees all around us look twisted and mad, their desiccated branches reaching for the sky like broken arms.",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 236031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Apprentice Cleric",
 			dir = 1,
+			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Big brother, this place is creepy...",
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "A figure appears from the mist – it's Jeanne d'Arc, the saint of the Holy Church.",
 			typewriter = {
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "I've been waiting for you.",
 			painting = {
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 2,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "I believe that coming with you should bring about the Demon King's defeat sooner, even if only slightly.",
 			painting = {
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "But now, this place has been reduced to a restricted area, its fauna withering and lava streams raging.",
 			painting = {
@@ -408,11 +408,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "These are the fortresses to the west, east, and center of the Wasteland.",
 			painting = {
@@ -479,11 +479,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "You can bless the purified land to keep it pristine for a while, but once the blessing wears off, the curse will reclaim it.",
 			painting = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "You carry the blessing of the goddess of light and justice in your heart. It can purify the land if you just destroy those bases.",
 			painting = {
@@ -555,11 +555,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What? The Commander can do that?!",
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -583,11 +583,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What about ME?",
@@ -601,11 +601,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "When will it be MY time to shine?",
@@ -637,11 +637,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Good point!",
@@ -655,11 +655,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You're right! It IS my duty to slay the monsters!",
@@ -673,11 +673,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So, what are we waiting for? Let's find a base and clear it out!",
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -751,9 +751,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_176",
+			nameColor = "#FF9B93",
 			actorName = "Berserker Knight Slimejuu",
 			say = "CHIRP CHIRP CHIRP!",
 			typewriter = {
@@ -776,11 +776,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Bugger, they know we're here...",
@@ -800,11 +800,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh, fiddlesticks!",
@@ -818,8 +818,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

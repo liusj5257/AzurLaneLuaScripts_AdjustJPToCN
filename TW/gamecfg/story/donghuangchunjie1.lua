@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鬧騰嬉戲東煌春節\n\n<size=45>一 新的冒險、開始！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·東煌宿舍",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "港區·東煌宿舍",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "怎麼樣，姐姐！我的祝福語練得還行吧？",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
+			say = "真是的，後面不要加嘿嘿，要認真正經一點才是合格的！",
 			side = 1,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是的，後面不要加嘿嘿，要認真正經一點才是合格的！",
+			actor = 501010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "總之就是合格了嘛！耶，可以出去玩囉~~~",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 0.5,
 					x = -2250
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
+			say = "給我回來。過年了大家都在忙各種準備，妳可不許亂跑，給人家添麻煩。",
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "給我回來。過年了大家都在忙各種準備，妳可不許亂跑，給人家添麻煩。",
+			actor = 501010,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 750
@@ -221,8 +221,8 @@ return {
 			expression = "2",
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 101382,
 			dir = 1,
+			actor = 101382,
 			nameColor = "#a9f548",
 			say = "鞍山，廚房這邊可能需要點幫手——",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 101392,
 			dir = 1,
+			actor = 101392,
 			nameColor = "#a9f548",
 			say = "唔，真奇怪…明明幾乎都是是按照食譜做的…",
 			typewriter = {
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 101382,
 			dir = 1,
+			actor = 101382,
 			nameColor = "#a9f548",
 			say = "問題就出在這個幾乎上吧…是不是又加了什麼奇怪的東西……",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 101392,
 			dir = 1,
+			actor = 101392,
 			nameColor = "#a9f548",
 			say = "咕唔，那、那是一種對創新的嘗試…總、總之，鞍山麻煩快來吧～～",
 			typewriter = {
@@ -336,14 +336,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_102",
 			actor = 501041,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "那我們就去拿燈籠吧，撫順姐。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -403,8 +403,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "欸欸欸？可、可是鞍山姐剛才在說…",
 			typewriter = {
@@ -417,8 +417,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -446,8 +446,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "要、要做爆竹嗎！？很、很危險的吧…要是不小心——",
 			typewriter = {
@@ -479,9 +479,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
 			blackBg = true,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "欸、欸欸欸，等等，撫順姐，至少讓我自己走啦——",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

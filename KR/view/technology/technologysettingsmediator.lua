@@ -2,11 +2,11 @@ slot0 = class("TechnologySettingsMediator", import("..base.ContextMediator"))
 slot0.CHANGE_TENDENCY = "TechnologySettingsMediator.CHANGE_TENDENCY"
 slot0.EXIT_CALL = "TechnologySettingsMediator.EXIT_CALL"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bindEvent()
 end
 
-function slot0.bindEvent(slot0)
+slot0.bindEvent = function(slot0)
 	slot0:bind(uv0.CHANGE_TENDENCY, function (slot0, slot1)
 		uv0:sendNotification(GAME.CHANGE_REFRESH_TECHNOLOGYS_TENDENCY, {
 			pool_id = 2,
@@ -15,14 +15,14 @@ function slot0.bindEvent(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.CHANGE_REFRESH_TECHNOLOGYS_TENDENCY_DONE,
 		GAME.SELECT_TEC_TARGET_CATCHUP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.CHANGE_REFRESH_TECHNOLOGYS_TENDENCY_DONE then
@@ -36,7 +36,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	slot0:sendNotification(uv0.EXIT_CALL)
 end
 

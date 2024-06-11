@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG14",
 	continueBgm = true,
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "セイレーンとの戦闘が続く。",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
-			say = "セイレーンとの戦闘が続く。",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "きゃっ？！ちょっと、わたし直接戦うの苦手だってば！",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "アヴローラ、なにか連絡は？！",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -83,9 +83,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "（連絡…？ここは鏡面海域なのに、どうやって…）",
 			typewriter = {
 				speed = 0.05,
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "（あの氷山の大きさからすれば、サラトガたちはすぐに駆けつけられない…となると…）",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "頑張ってるよ！でもそろそろ限界――あ！",
 			typewriter = {
@@ -128,12 +128,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_cccp_6",
-			say = "————！！！！！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "————！！！！！！",
 			flashN = {
 				color = {
 					1,
@@ -181,13 +181,13 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_cccp_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ふぅ…ようやく来てくれましたね",
 			bgm = "bgm-cccp",
+			actor = 702010,
+			nameColor = "#a9f548",
+			say = "ふぅ…ようやく来てくれましたね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_cccp_3",
+			side = 2,
+			dir = 1,
 			say = "――それは予想外の援軍だった。",
 			flashout = {
 				dur = 0.2,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "氷海を吹き荒れる雪嵐とともに、白き装いをした少女たちが水平線から現れた。",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "駆逐艦、巡洋艦、そして戦艦。",
 			typewriter = {
 				speed = 0.05,
@@ -256,9 +256,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "形こそヒトと違わずとも、その迫力はまるで鋼の巨浪のように勇壮であり、頼もしく感じた。",
 			typewriter = {
 				speed = 0.05,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "パーミャチ・メルクーリヤやアヴローラと違って、彼女たちが率いる艤装は別格の存在感を放っていた。",
 			typewriter = {
 				speed = 0.05,
@@ -284,9 +284,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "極北の厳寒を思わせる鈍重さと無骨さに、時折黒鉄の隙間から覗かせる青い光…",
 			typewriter = {
 				speed = 0.05,
@@ -298,9 +298,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "そして何よりも、まるで獣のような「形」…",
 			typewriter = {
 				speed = 0.05,
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "まるでセイレーンの艤装と、同じような――",
 			typewriter = {
 				speed = 0.05,
@@ -332,9 +332,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -346,9 +346,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "ユニオンの艦隊ではなく――",
 			typewriter = {
 				speed = 0.05,
@@ -360,9 +360,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "極海の支配者たち、北方連合の艦船たちが姿を表したのだ。",
 			typewriter = {
 				speed = 0.05,

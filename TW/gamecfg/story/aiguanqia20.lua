@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA20",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA20",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -22,12 +22,12 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			actorName = "绊爱(巨大化)",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "………",
+			actorName = "绊爱(巨大化)",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "爱小姐…抱歉！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 401230,
+			say = "爱小姐…抱歉！",
 			flashN = {
 				color = {
 					1,
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#a9f548",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			actor = 10400020,
 			actorName = "绊爱(伪)",
 			say = "………",
@@ -279,10 +279,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
-			soundeffect = "event:/battle/boom2",
 			say = "咚！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "就在大家下定了“绝对不放弃”的决心之后，炮击声响起——",
 			typewriter = {
 				speed = 0.05,
@@ -368,13 +368,13 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			actorName = "全员",
-			hideOther = true,
+			actor = 303110,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "绊爱舰队？",
+			hideOther = true,
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = true,
@@ -415,10 +415,10 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 403030,
 			say = "……绊爱舰队？说什么呢？是被逼到绝境出现幻觉了吗？",
 			effects = {
 				{
@@ -573,12 +573,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "为什么…明明我想要破坏掉这个世界…为什么，要为了我做到这个份上……？",
+			actorName = "绊爱(巨大化)",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900

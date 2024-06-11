@@ -1,7 +1,7 @@
 return {
-	time = 4,
 	name = "2021美系活动黑苍龙转阶段",
 	init_effect = "Bossbomb",
+	time = 4,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -24,8 +24,8 @@ return {
 			},
 			arg_list = {
 				group = 8691,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

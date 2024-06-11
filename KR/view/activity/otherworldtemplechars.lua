@@ -1,7 +1,7 @@
 slot0 = class("OtherWorldTempleChars")
 slot1 = "other_world_temple_char"
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 
@@ -21,15 +21,15 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._charContent = findTF(slot0._tf, "ad/chars/content")
 end
 
-function slot0.setData(slot0, slot1)
+slot0.setData = function(slot0, slot1)
 	slot0.charIds = slot1
 end
 
-function slot0.updateActivityPool(slot0, slot1)
+slot0.updateActivityPool = function(slot0, slot1)
 	slot0.activityPools = slot1
 end
 
-function slot0.updateSelect(slot0)
+slot0.updateSelect = function(slot0)
 	slot0:updateItemsCount(#slot0.charIds)
 
 	for slot4 = 1, #slot0._charItems do
@@ -44,7 +44,7 @@ function slot0.updateSelect(slot0)
 	setText(findTF(slot0._tf, "ad/title/text"), i18n(uv0))
 end
 
-function slot0.setItemData(slot0, slot1, slot2)
+slot0.setItemData = function(slot0, slot1, slot2)
 	slot3 = pg.guardian_template[slot2]
 	slot5 = ""
 	slot6 = slot0.activityPools[slot3.guardian_gain_pool]:getGuardianGot(slot2)
@@ -78,7 +78,7 @@ function slot0.setItemData(slot0, slot1, slot2)
 	setActive(findTF(slot1, "got"), slot6)
 end
 
-function slot0.updateItemsCount(slot0, slot1)
+slot0.updateItemsCount = function(slot0, slot1)
 	slot2 = 0
 
 	if slot1 > #slot0._charItems then
@@ -93,7 +93,7 @@ function slot0.updateItemsCount(slot0, slot1)
 	end
 end
 
-function slot0.setActive(slot0, slot1)
+slot0.setActive = function(slot0, slot1)
 	setActive(slot0._tf, slot1)
 end
 

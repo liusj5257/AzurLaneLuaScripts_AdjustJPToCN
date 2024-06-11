@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「ワタシ」にしかない価値を\n\n<size=45>七　その価値は誰もが知っている</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "秘書艦の仕事を終えたエディンバラに用事があり、ロイヤルの寮までやってきた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "秘書艦の仕事を終えたエディンバラに用事があり、ロイヤルの寮までやってきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Oh？　指揮官がキッチンまでやってくるなんて珍しいね！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そういうことなら後日でも――とキッチンを出ようとしたその時、",
 			typewriter = {
 				speed = 0.05,
@@ -234,13 +234,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "寮を出たところで、ちょうど買い物から戻ってきたエディンバラと出くわした。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "あれ、指揮官どうして寮に――って、ああ！",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "きっと置きっぱなしにしてきたんだ……うぅ、どうして私っていつもこうなの？",
 			typewriter = {
 				speed = 0.05,
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "はぁ……こんなダメダメな私で本当にいいんですね？",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "頷いてエディンバラの手を取ると、彼女は照れながらも嬉しそうに微笑んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -389,12 +389,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "ふつつか者ですけど、これからもよろしくおねがいしますね――指揮官！",
 			typewriter = {
 				speed = 0.05,

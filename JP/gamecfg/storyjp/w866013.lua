@@ -1,12 +1,12 @@
 return {
-	id = "W866013",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W866013",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "浮氷が再び海面に形成された。2個目の気象操作装置を使い浮氷を融解させよう。",
 			typewriter = {
 				speed = 0.05,

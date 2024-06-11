@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.3
+					number = -0.3,
+					type = 16
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.344
+					number = -0.344,
+					type = 16
 				}
 			},
 			{
@@ -74,8 +74,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.388
+					number = -0.388,
+					type = 16
 				}
 			},
 			{
@@ -107,8 +107,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.432
+					number = -0.432,
+					type = 16
 				}
 			},
 			{
@@ -140,8 +140,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.476
+					number = -0.476,
+					type = 16
 				}
 			},
 			{
@@ -173,8 +173,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.51
+					number = -0.51,
+					type = 16
 				}
 			},
 			{
@@ -206,8 +206,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.554
+					number = -0.554,
+					type = 16
 				}
 			},
 			{
@@ -239,8 +239,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.598
+					number = -0.598,
+					type = 16
 				}
 			},
 			{
@@ -272,8 +272,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.642
+					number = -0.642,
+					type = 16
 				}
 			},
 			{
@@ -305,8 +305,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.7
+					number = -0.7,
+					type = 16
 				}
 			},
 			{
@@ -329,9 +329,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "过早的赠礼",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -353,8 +353,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = 16,
-				number = -0.3
+				number = -0.3,
+				type = 16
 			}
 		},
 		{

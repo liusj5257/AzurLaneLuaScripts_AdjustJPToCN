@@ -1,9 +1,9 @@
 slot0 = class("ShipEquipAllChangeCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = getProxy(EquipmentProxy)
 
-	function slot5(slot0, slot1, slot2)
+	slot5 = function(slot0, slot1, slot2)
 		return function (slot0)
 			pg.ConnectionMgr.GetInstance():Send(12006, {
 				type = 0,
@@ -32,7 +32,7 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	function slot6(slot0, slot1)
+	slot6 = function(slot0, slot1)
 		return function (slot0)
 			pg.ConnectionMgr.GetInstance():Send(14201, {
 				spweapon_id = uv0,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			stopbgm = true,
-			actorName = "{namecode:182}",
 			dir = 1,
 			blackBg = true,
+			actorName = "{namecode:182}",
 			say = "(The warm sunlight... The sound of birds chirping... The gentle aroma of the free-flowing wind...)",
 			flashin = {
 				delay = 1,
@@ -35,9 +35,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_103",
 			bgm = "story-1",
 			actor = 307080,
 			nameColor = "#a9f548",
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Laffey...? I haven't heard of any... Oh...)",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Laffey... from the Eagle Union...)",
 			dialogShake = {
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(I feel no hostility or wariness from her... It is as if it is natural for us to coexist...)",
 			typewriter = {
@@ -254,9 +254,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(A dream where the Eagle Union and the Sakura Empire are friends? ...What am I seeing...?)",
 			typewriter = {

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_157 = {}
 slot1 = slot0.word_template_157
 
-function temp()
+temp = function()
 	uv0["近"] = {
 		["看"] = {
 			["原"] = {
@@ -113,7 +113,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["劲"] = {
 		["得"] = {
 			["力"] = {
@@ -146,7 +146,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["晋"] = {
 		["平"] = {
 			this = true
@@ -156,7 +156,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["烬"] = {
 		["平"] = {
 			this = true
@@ -175,7 +175,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["浸"] = {
 		["坪"] = {
 			this = true
@@ -185,7 +185,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["進"] = {
 		["京"] = {
 			["诉"] = {
@@ -227,7 +227,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["靳"] = {
 		["平"] = {
 			this = true

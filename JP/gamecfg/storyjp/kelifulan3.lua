@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "数日後・体育館にて",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "数日後・体育館にて",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			actorScale = 0.6,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "はぁ…はぁ…遅れたー！",
 			effects = {
 				{
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -68,8 +68,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -85,8 +85,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 3,
 					dur = 0.1,
 					number = 3
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "バスケ大会に向けてみんなが猛練習している中、チームリーダーのクリーブランドが珍しく遅刻した。",
 			effects = {
 				{
@@ -126,30 +126,30 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "んぐ…んぐ…ぷはー！実はここまで来る途中にこんなことがあって……",
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					number = 1
@@ -165,15 +165,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "ええ！サンディエゴのせいで寮の裏の芝生に小麦がたくさん生えちゃってる！？…いやそれは食料的にいいことなのでは…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,16 +230,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "ああわかった！ぱぱっとみんなで収穫するぞ！だから兄貴って呼ぶなぁ！",
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -255,15 +255,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "というわけでユニオン寮のみんなに色々と頼まれてたんだ……ごめんなさい！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -288,9 +288,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "クリーブランドは手を合わせて謝罪した。艦隊での付き合いが長いから、割とこういうのには慣れている気がする。",
 			typewriter = {
 				speed = 0.05,
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 102150,
+			say = "姉貴ありがとう！助かるよ！",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "姉貴ありがとう！助かるよ！",
+			actor = 102150,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 102100,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102100,
+			nameColor = "#a9f548",
 			say = "姉貴はわかってないよね～ヘレナのもいいけど、たまにはクリーブランドの作った弁当が食べたいなーって、指揮官もそう思わない？",
 			typewriter = {
 				speed = 0.05,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "そ、そう？じゃあ今度、ヘレナに聞いとこうかな…指揮官が食べたいって言ったからだぞ！",
 			typewriter = {
 				speed = 0.05,

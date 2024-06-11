@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN9",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "hunhe-battle",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			bgm = "hunhe-battle",
+			hidePaintObj = true,
 			say = "KABOOOOM!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -66,10 +66,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "An enemy airstrike?! Phew... I owe you one, Morrison!",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 101470,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
 			say = "It spooked me too... Thankfully, Mr. Bear was equipped with some air defense weapons...",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 101470,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
 			say = "Hehehe... Just a few little tweaks to make him more perfect...",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 102290,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
 			say = "Morrison, watch out! There's more coming!",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 101470,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
 			say = "More planes? There's just no end to them!",
 			typewriter = {
@@ -168,9 +168,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			actor = 102290,
 			dir = 1,
 			blackBg = true,
+			actor = 102290,
 			nameColor = "#a9f548",
 			say = "That's why we need to hurry up and join with Ticonderoga!",
 			typewriter = {

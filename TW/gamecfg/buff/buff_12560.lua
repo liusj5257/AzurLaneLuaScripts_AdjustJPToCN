@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "贝奇1",
 	time = 0,
-	color = "red",
+	name = "贝奇1",
+	init_effect = "",
+	id = 12560,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12560,
+	color = "red",
 	icon = 12560,
 	last_effect = "",
 	effect_list = {
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				rant = 2500,
-				target = "TargetSelf",
 				skill_id = 12561,
+				target = "TargetSelf",
 				time = 8
 			}
 		}

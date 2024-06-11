@@ -2,7 +2,7 @@ slot0 = class("BattleGateGuild")
 ys.Battle.BattleGateGuild = slot0
 slot0.__name = "BattleGateGuild"
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	if getProxy(PlayerProxy):getRawData().oil < pg.guildset.use_oil.key_value then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
 
@@ -41,7 +41,7 @@ function slot0.Entrance(slot0, slot1)
 	end, slot7)
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 	slot3 = slot0.statistics._battleScore
 	slot4 = pg.guildset.use_oil.key_value
@@ -103,7 +103,7 @@ function slot0.Exit(slot0, slot1)
 	end)
 end
 
-function slot0.SendRequest(slot0, slot1, slot2)
+slot0.SendRequest = function(slot0, slot1, slot2)
 	slot3 = pg.ConnectionMgr.GetInstance()
 
 	slot3:Send(40003, slot1, 40004, function (slot0)
@@ -125,7 +125,7 @@ function slot0.SendRequest(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.GetGuildBossMission()
+slot0.GetGuildBossMission = function()
 	slot1 = getProxy(GuildProxy):getData():GetActiveEvent()
 
 	assert(slot1)
@@ -137,7 +137,7 @@ function slot0.GetGuildBossMission()
 	return slot2
 end
 
-function slot0.UpdateGuildBossMission()
+slot0.UpdateGuildBossMission = function()
 	slot0 = getProxy(GuildProxy)
 	slot1 = slot0:getData()
 	slot2 = slot1:GetActiveEvent()
@@ -153,7 +153,7 @@ function slot0.UpdateGuildBossMission()
 	slot0:updateGuild(slot1)
 end
 
-function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
+slot0.GeneralPlayerCosume = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(PlayerProxy)
 	slot6 = slot5:getData()
 
@@ -165,7 +165,7 @@ function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3, slot4)
 	slot5:updatePlayer(slot6)
 end
 
-function slot0.GeneralPackage(slot0, slot1)
+slot0.GeneralPackage = function(slot0, slot1)
 	slot2 = 0
 	slot3 = {}
 	slot4 = {}

@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			sequence = {
 				{
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -51,27 +51,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "誰かの呼び声が聞こえた。",
 			bgm = "story-antarctica-serious",
+			nameColor = "#A9F548FF",
+			say = "誰かの呼び声が聞こえた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "ぼやけていた意識が少しずつ鮮明になり、目の前には好奇心旺盛な少女？の姿。",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "そして今にも崩れ落ちそうな年季の入った監獄の壁が見えた。",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "記憶を必死に掘り出そうとしたが、何も出てこなかった。",
 			typewriter = {
@@ -266,35 +266,35 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
+			soundeffect = "event:/ui/erming",
 			say = "――プツン",
-			soundeffect = "event:/ui/erming",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			side = 2,
 			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_130",
-			say = "次の瞬間、記憶のかけらが吹き荒れる雪の如く脳裏を埋め尽くしていく――",
 			soundeffect = "event:/ui/erming",
+			say = "次の瞬間、記憶のかけらが吹き荒れる雪の如く脳裏を埋め尽くしていく――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "饅頭ガード",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "護衛饅頭",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "ピョ！――",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,17 +311,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -329,13 +329,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "饅頭ガード",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "護衛饅頭",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "ポンポン！ピョピョピョ！",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,13 +347,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "饅頭ガード",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "護衛饅頭",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "ピョピョ！――ピョピョピョ！",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "――！！！",
 			soundeffect = "event:/battle/boom2",
+			say = "――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,22 +415,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "灼熱の爆風がどこからか吹き込み、触れた全てを押しのけた。",
 			soundeffect = "event:/ui/erming",
+			say = "灼熱の爆風がどこからか吹き込み、触れた全てを押しのけた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "「不夜城」の市民が普段仰ぎ見ることも叶わない「大物」も例外ではなく――",
 			soundeffect = "event:/ui/erming",
+			say = "「不夜城」の市民が普段仰ぎ見ることも叶わない「大物」も例外ではなく――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,16 +527,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
 					number = 3
 				},
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.7,
 					x = 0
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "「CEO」は動かなくなり、その手に持っていた「何か」が床に落ちた。",
 			typewriter = {
@@ -554,9 +554,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
+			side = 2,
 			say = "思い返すと不思議な気持ちだ。",
 			typewriter = {
 				speed = 0.05,
@@ -570,8 +570,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "あんなに偉いやつでも、突然目の前で冷たくなっていった。そして自分は何もできずただ見ていただけだった。",
 			typewriter = {
@@ -580,8 +580,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "その光景は、後にやってくるセキュリティの連中のショックバトンよりもずっと衝撃的だった。",
 			typewriter = {
@@ -608,8 +608,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "「アセンション・ボックス」x1を手に入れた！",
 			typewriter = {
@@ -832,11 +832,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "――！！！",
 			soundeffect = "event:/battle/boom2",
+			say = "――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,8 +882,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -891,17 +891,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

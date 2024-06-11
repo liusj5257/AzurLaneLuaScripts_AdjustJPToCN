@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 信仰加护-Iris",
 	time = 3,
-	color = "yellow",
+	name = "2023英系活动 信仰加护-Iris",
+	init_effect = "",
+	id = 200336,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200336,
+	color = "yellow",
 	icon = 200336,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200337,
-				isBuffStackByCheckTarget = true,
 				nationality = 8,
+				isBuffStackByCheckTarget = true,
 				check_target = {
 					"TargetSelf",
 					"TargetNationalityFriendly"
@@ -34,8 +34,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200337,
-				isBuffStackByCheckTarget = true,
 				nationality = 9,
+				isBuffStackByCheckTarget = true,
 				check_target = {
 					"TargetSelf",
 					"TargetNationalityFriendly"

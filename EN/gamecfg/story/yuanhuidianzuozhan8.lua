@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN8",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "Mirror Sea - Iron Blood Encampment",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "Mirror Sea - Iron Blood Encampment",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -322,10 +322,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 401160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah, you're right! You know what, I think I'll have a burger as well!",
 			typewriter = {
 				speed = 0.05,

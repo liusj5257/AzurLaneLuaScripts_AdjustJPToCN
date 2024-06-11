@@ -49,19 +49,19 @@ slot1 = {
 	}
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TaskScene"
 end
 
-function slot0.setTaskVOs(slot0, slot1)
+slot0.setTaskVOs = function(slot0, slot1)
 	slot0.contextData.taskVOsById = slot1
 end
 
-function slot0.SetWeekTaskProgressInfo(slot0, slot1)
+slot0.SetWeekTaskProgressInfo = function(slot0, slot1)
 	slot0.contextData.weekTaskProgressInfo = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._topPanel = slot0:findTF("blur_panel/adapt/top")
 	slot0._backBtn = slot0._topPanel:Find("back_btn")
 	slot0._leftLength = slot0:findTF("blur_panel/adapt/left_length")
@@ -73,7 +73,7 @@ function slot0.init(slot0)
 	slot0.pageTF = slot0:findTF("pages")
 end
 
-function slot0.IsNewStyleTime()
+slot0.IsNewStyleTime = function()
 	return pg.TimeMgr.GetInstance():parseTimeFromConfig({
 		{
 			2021,
@@ -88,7 +88,7 @@ function slot0.IsNewStyleTime()
 	}) <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.IsPassScenario()
+slot0.IsPassScenario = function()
 	slot0 = pg.gameset.task_first_daily_pre_id.key_value
 	slot1 = getProxy(TaskProxy)
 
@@ -105,7 +105,7 @@ function slot0.IsPassScenario()
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = TaskCommonPage.New(slot0.pageTF, slot0.event, slot0.contextData)
 	slot0.emptyPage = TaskEmptyListPage.New(slot0._tf, slot0.event)
 	slot0.pages = {
@@ -127,7 +127,7 @@ function slot0.didEnter(slot0)
 		setActive(slot0:findTF("stamp"), false)
 	end
 
-	function slot6()
+	slot6 = function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(5)
 	end
 
@@ -158,14 +158,14 @@ function slot0.didEnter(slot0)
 	slot0:UpdateWeekTip()
 end
 
-function slot0.refreshPage(slot0)
+slot0.refreshPage = function(slot0)
 	slot0:UpdatePage(slot0._currentToggleType)
 end
 
-function slot0.UpdatePage(slot0, slot1)
+slot0.UpdatePage = function(slot0, slot1)
 	slot2 = uv0[slot1]
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		if #slot1 <= 0 then
 			uv0.emptyPage:ExecuteAction("ShowOrHide", true)
 		elseif #slot1 > 0 and uv0.emptyPage:GetLoaded() then
@@ -189,7 +189,7 @@ function slot0.UpdatePage(slot0, slot1)
 	slot0.contextData.page = slot1
 end
 
-function slot0.addTask(slot0, slot1)
+slot0.addTask = function(slot0, slot1)
 	print("add task " .. slot1.id)
 
 	slot0.contextData.taskVOsById[slot1.id] = slot1
@@ -197,7 +197,7 @@ function slot0.addTask(slot0, slot1)
 	slot0:UpdatePage(slot0._currentToggleType)
 end
 
-function slot0.removeTask(slot0, slot1)
+slot0.removeTask = function(slot0, slot1)
 	print("revemo task " .. slot1.id)
 
 	slot0.contextData.taskVOsById[slot1.id] = nil
@@ -205,11 +205,11 @@ function slot0.removeTask(slot0, slot1)
 	slot0:UpdatePage(slot0._currentToggleType)
 end
 
-function slot0.updateTask(slot0, slot1)
+slot0.updateTask = function(slot0, slot1)
 	slot0:addTask(slot1)
 end
 
-function slot0.ResetWeekTaskPage(slot0)
+slot0.ResetWeekTaskPage = function(slot0)
 	slot1 = slot0.pages[uv0.PAGE_TYPE_WEEKLY]
 
 	if uv0.IsNewStyleTime() and isa(slot1, TaskCommonPage) then
@@ -227,20 +227,20 @@ function slot0.ResetWeekTaskPage(slot0)
 	end
 end
 
-function slot0.RefreshWeekTaskPage(slot0)
+slot0.RefreshWeekTaskPage = function(slot0)
 	if slot0._currentToggleType == uv0.PAGE_TYPE_WEEKLY then
 		slot0:UpdatePage(slot0._currentToggleType)
 		slot0:UpdateWeekTip()
 	end
 end
 
-function slot0.RefreshWeekTaskPageBefore(slot0, slot1)
+slot0.RefreshWeekTaskPageBefore = function(slot0, slot1)
 	if slot0._currentToggleType == uv0.PAGE_TYPE_WEEKLY then
 		slot0.pages[slot0._currentToggleType]:RefreshWeekTaskPageBefore(slot1)
 	end
 end
 
-function slot0.RefreshWeekTaskProgress(slot0)
+slot0.RefreshWeekTaskProgress = function(slot0)
 	if isa(slot0.pages[slot0._currentToggleType], TaskWeekPage) and slot0.contextData.weekTaskProgressInfo:IsMaximum() then
 		slot1:Destroy()
 
@@ -253,7 +253,7 @@ function slot0.RefreshWeekTaskProgress(slot0)
 	end
 end
 
-function slot0.UpdateWeekTip(slot0)
+slot0.UpdateWeekTip = function(slot0)
 	slot1 = false
 
 	if uv0.IsPassScenario() and uv0.IsNewStyleTime() then
@@ -273,11 +273,11 @@ function slot0.UpdateWeekTip(slot0)
 	setActive(slot0.weekTip, slot1)
 end
 
-function slot0.GoToFilter(slot0, slot1)
+slot0.GoToFilter = function(slot0, slot1)
 	triggerToggle(slot0:findTF(slot1, slot0._tagRoot), true)
 end
 
-function slot0.onSubmit(slot0, slot1)
+slot0.onSubmit = function(slot0, slot1)
 	if slot0.onShowAwards then
 		return
 	end
@@ -285,7 +285,7 @@ function slot0.onSubmit(slot0, slot1)
 	slot0:emit(TaskMediator.ON_TASK_SUBMIT, slot1)
 end
 
-function slot0.onSubmitForWeek(slot0, slot1)
+slot0.onSubmitForWeek = function(slot0, slot1)
 	if slot0.onShowAwards then
 		return
 	end
@@ -293,7 +293,7 @@ function slot0.onSubmitForWeek(slot0, slot1)
 	slot0:emit(TaskMediator.ON_SUBMIT_WEEK_TASK, slot1)
 end
 
-function slot0.onSubmitForAvatar(slot0, slot1)
+slot0.onSubmitForAvatar = function(slot0, slot1)
 	if slot0.onShowAwards then
 		return
 	end
@@ -301,7 +301,7 @@ function slot0.onSubmitForAvatar(slot0, slot1)
 	slot0:emit(TaskMediator.ON_SUBMIT_AVATAR_TASK, slot1)
 end
 
-function slot0.onGo(slot0, slot1)
+slot0.onGo = function(slot0, slot1)
 	if slot0.onShowAwards then
 		return
 	end
@@ -315,7 +315,7 @@ function slot0.onGo(slot0, slot1)
 	slot0:emit(TaskMediator.ON_TASK_GO, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()
 	end
@@ -336,7 +336,7 @@ function slot0.willExit(slot0)
 	slot0.contextData.viewComponent = nil
 end
 
-function slot0.updateOneStepBtn(slot0, slot1)
+slot0.updateOneStepBtn = function(slot0, slot1)
 	if #(slot1 or slot0.pages[slot0._currentToggleType]):GetWaitToCheckList() >= 2 then
 		onButton(slot0, slot0.oneStepBtn, function ()
 			uv0:ExecuteOneStepSubmit()

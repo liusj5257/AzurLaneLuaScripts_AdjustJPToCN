@@ -1,16 +1,16 @@
 return {
-	id = "WORLD508K",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508K",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "My eyes were stabbed by the blinding light of an explosion. The shockwave tore at my skin, and the blast sent great ripples across the sea.",
-			dir = 1,
 			bgm = "main-ashes-theme",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "My eyes were stabbed by the blinding light of an explosion. The shockwave tore at my skin, and the blast sent great ripples across the sea.",
 			flashN = {
 				color = {
 					1,
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "After the smoke cloud dissipated and the dust settled, there was only deathly silence.",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "*cough cough*... Commander... you alright?",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"I think I'm fine. I'm more worried about everyone else...\"",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "Thankfully, the damage to our repair ships and rear fleets was minimal. Our wounded received emergency repairs, so at least there were no casualties.",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"An explosion of that magnitude... There's no way even the Ashes could have made it out unscathed...\"",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"We can't waste the chance the Ashes graciously created for us...\"",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"We need to escape the Singularity and meet up with our allies on the outside.\"",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"After that, we'll regroup, return to the Singularity, and hopefully return the NA Ocean to the way it was before... A clear, blue sea.\"",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Until then, just try to hang in there, everyone!\"",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

@@ -9,8 +9,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.01
+					number = 0.01,
+					attr = "cri"
 				}
 			}
 		}
@@ -25,8 +25,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.02
+					number = 0.02,
+					attr = "cri"
 				}
 			}
 		}
@@ -41,8 +41,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.03
+					number = 0.03,
+					attr = "cri"
 				}
 			}
 		}
@@ -57,8 +57,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.04
+					number = 0.04,
+					attr = "cri"
 				}
 			}
 		}
@@ -73,8 +73,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.05
+					number = 0.05,
+					attr = "cri"
 				}
 			}
 		}
@@ -89,8 +89,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.06
+					number = 0.06,
+					attr = "cri"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.07
+					number = 0.07,
+					attr = "cri"
 				}
 			}
 		}
@@ -121,8 +121,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.08
+					number = 0.08,
+					attr = "cri"
 				}
 			}
 		}
@@ -137,8 +137,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.09
+					number = 0.09,
+					attr = "cri"
 				}
 			}
 		}
@@ -153,20 +153,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			}
 		}
 	},
-	time = 12,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 801072,
+	time = 12,
 	picture = "",
 	desc = "",
 	stack = 5,
-	id = 801072,
+	color = "red",
 	icon = 2080,
 	last_effect = "",
 	blink = {
@@ -185,8 +185,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.01
+				number = 0.01,
+				attr = "cri"
 			}
 		}
 	}

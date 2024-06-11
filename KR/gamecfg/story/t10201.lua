@@ -4,12 +4,12 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = -1,
 			side = 0,
+			say = "\"우현 방향에 적 기함 발견! 함종・국적은... 불명입니다!\"",
 			nameColor = "#92fc63",
+			actor = -1,
 			actorName = "통신",
 			withoutPainting = true,
-			say = "\"우현 방향에 적 기함 발견! 함종・국적은... 불명입니다!\"",
 			shake = {
 				speed = 1,
 				number = 3
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = -1,
 			side = 0,
+			say = "\"적함이 공격해왔습니다! 즉시 반격을!\"",
 			nameColor = "#92fc63",
+			actor = -1,
 			actorName = "통신",
 			withoutPainting = true,
-			say = "\"적함이 공격해왔습니다! 즉시 반격을!\"",
 			shake = {
 				speed = 1,
 				number = 3

@@ -1,7 +1,7 @@
 slot0 = class("QuotaShoppingCommand", pm.SimpleCommand)
 slot0.QUOTA_SHOP = 4
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.type
 	slot8 = getProxy(ShopsProxy):getQuotaShop():getGoodsCfg(slot2.id)

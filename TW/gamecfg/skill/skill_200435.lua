@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "2023俾斯麦Z活动 革律翁合体状态下承受部分伤害并减伤",
 	cd = 0,
-	painting = 0,
-	id = 200435,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200435,
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 200436,
 				exceptCaster = true

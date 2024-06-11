@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "level02",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "噗哈—！總、總算是脫身了…",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "嗚哇！是U-110啊…嚇了我一跳…",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "她們沒追過來吧？趁現在快逃吧！",
 			typewriter = {
 				speed = 0.05,
@@ -71,12 +71,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在這之後——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "呼…差、差點以為真的不行了…",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "是啊…多虧了U-110把大鬥犬吸引開了",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "嗯嗯",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "然後呢，所謂的機智是？",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "幹得不錯…不過下次可不能幹這麼危險的事情哦？如果真的被抓到的話，棒棒糖也沒得吃了哦？",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "嗯嗯",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "啊！",
 			typewriter = {
 				speed = 0.05,

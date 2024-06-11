@@ -1,16 +1,16 @@
 return {
-	id = "JICHANG17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG17",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "Port - Among the crowd",
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
-			say = "Port - Among the crowd",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,10 +56,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ah. With the trammel of the heart removed, their songs have attained an unprecedented level of groove.",
 			typewriter = {
 				speed = 0.05,
@@ -90,10 +90,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Trammel. 'Tis a shackle that keeps the heart under lock and key, denying the very soul its uninhibited emotional liberty.",
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +108,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ridding oneself of it is the wish of all idols. I have yet to do, however, and find myself upon the endless staircase of recital.",
 			typewriter = {
 				speed = 0.05,
@@ -171,15 +171,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "The megaconcert – can we just call it megaconcert, by the way? – is approaching its climax, nya!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Let us find out, nyaaaaaa!",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

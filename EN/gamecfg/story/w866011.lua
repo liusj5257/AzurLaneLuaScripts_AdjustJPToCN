@@ -1,12 +1,12 @@
 return {
-	id = "W866011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W866011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The ice floes have been melted!",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The ice floes will reform every 6 actions. Luckily, we can use the Weather Control Device to melt them again when that happens.",
 			typewriter = {
 				speed = 0.05,

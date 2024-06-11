@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINANFENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XINANFENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Gust of Motivation!\n\n<size=45>1 Libeccio Has A Dream!</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "One day at the office...",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "One day at the office...",
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,10 +48,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is the last batch of documents needing your approval. Go ahead and sign off on them after you've had a look.",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heh. With Littorio at your side, it's only natural that your work efficiency would go through the roof.",
 			painting = {
 				alpha = 0.3,
@@ -90,12 +90,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In any case, I shall take my leave. I do hope you enjoy this rare afternoon of leisure and get to rest early.",
 			painting = {
 				alpha = 0.3,
@@ -119,10 +119,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ciao, Commander!",
 			painting = {
 				alpha = 0.3,
@@ -137,10 +137,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ah, Littorio's here as well! Hooray!",
 			painting = {
 				alpha = 0.3,
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,10 +165,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hello there, Libeccio. What are you hooraying about?",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, Littorio! I, Libeccio, have a dream – to be a secretary ship as well!",
 			painting = {
 				alpha = 0.3,
@@ -211,9 +211,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			optionFlag = 1,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 1,
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "Since I finished work ahead of time today, I suppose I could spare some time to play with Libeccio.",
 			typewriter = {
 				speed = 0.05,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "Libeccio takes out a piece of paper with notes scribbled all over it.",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "As expected, Maestrale's attentiveness to detail is nothing to sneeze at.",
 			typewriter = {
 				speed = 0.05,
@@ -372,13 +372,13 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You can't judge a book by its cover, and you'll never know what she's capable of until you let her try.",
 			painting = {
 				alpha = 0.3,
@@ -390,9 +390,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "\"That's true, but...\"",
 			typewriter = {
 				speed = 0.05,
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "Well, what's the worst that could happen...",
 			typewriter = {
 				speed = 0.05,
@@ -445,13 +445,13 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hooray! Thanks a bunch, Commander! I won't let you down!",
 			painting = {
 				alpha = 0.3,
@@ -482,9 +482,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 3,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 3,
 			say = "Libeccio blows away from the office like a gust of wind.",
 			typewriter = {
 				speed = 0.05,
@@ -549,10 +549,10 @@ return {
 			}
 		},
 		{
-			optionFlag = 3,
+			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
-			blackBg = true,
+			optionFlag = 3,
 			say = "So Libeccio's my secretary now, huh... Things might get pretty crazy around here.",
 			typewriter = {
 				speed = 0.05,

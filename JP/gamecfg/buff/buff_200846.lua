@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 海盗自爆船支援",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 海盗自爆船支援",
+	init_effect = "",
+	id = 200846,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200846,
+	color = "yellow",
 	icon = 200846,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200846,
 				time = 4,
-				target = "TargetSelf",
-				skill_id = 200846
+				target = "TargetSelf"
 			}
 		}
 	}

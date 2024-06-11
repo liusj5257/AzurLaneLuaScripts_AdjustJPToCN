@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDIYAGEGAI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGDIYAGEGAI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Sparkling Battle Star!\n\n<size=45>Chapter 4: One Battle Star to Another</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "Let's see, the next exercise should be starting in... Hm?",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "Let's see, the next exercise should be starting in... Hm?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "Howdy do, Enterprise, old pal!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Howdy do, Enterprise, old pal!",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "Wow, I'm feeling super-duper motivated now! It... it almost feels like I could retrofit right here, right now!",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,

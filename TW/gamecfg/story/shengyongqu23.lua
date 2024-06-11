@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU23",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level-french2",
 			say = "維希聖堂近海·極光之壁中",
+			side = 2,
+			dir = 1,
+			bgm = "level-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "現在這批維希量產型是不是比之前的那些更堅固了？防空火力也兇猛了很多。",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "我可什麼都不知道哦，黎胥留從來都沒有正面回答過我關於聖堂的疑問。",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "如果對聖堂好奇的話，隨我親自去聖堂裡逛逛怎麼樣？",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "拉.加利索尼埃？！！",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "喲，兩位女士，能在這裡見到妳們真是巧啊。",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在航空艦隊剛剛經過的不遠處，原本被認為無法通行的光之壁在發出一陣耀眼的光芒後完全消失了。",
 			typewriter = {
 				speed = 0.05,
@@ -185,9 +185,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "開玩笑吧……這麼複雜的結構…居然是可控的？！",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "完全正確，很聰明嘛，皇家的光輝小姐。極光之壁是用來阻礙行動妳們的東西，怎麼會擋住我嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "嘿嘿，現在妳們的護航艦隊都不在，艦載機也都飛去了前線-----",
 			typewriter = {
 				speed = 0.05,
@@ -273,9 +273,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "接下來就陪我好好玩一下近距離的炮擊戰吧！",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,

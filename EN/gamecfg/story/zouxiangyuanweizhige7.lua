@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -58,10 +58,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Incredible. When did we excavate such a massive facility deep inside the mountains?",
 			painting = {
 				alpha = 0.3,
@@ -76,10 +76,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "I've never seen any allocations being made for a project of this scale... How many outside channels would the Tribunal have needed to go through?",
 			painting = {
 				alpha = 0.3,
@@ -94,10 +94,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "And how did it secure the permissions and funding to construct something like this?",
 			painting = {
 				alpha = 0.3,
@@ -112,10 +112,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Extraordinary circumstances call for extraordinary measures. Is that not why the Tribunal keeps spare change lying around?",
 			painting = {
 				alpha = 0.3,
@@ -130,10 +130,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "I'm not overly concerned about the specifics.",
 			painting = {
 				alpha = 0.3,
@@ -148,10 +148,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Setting aside the motivations of the higher-ups, the Tribunal has always been a shadowy organization. It's only natural that they have secrets they don't want the general public to know.",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "The Naval HQ has always been wary of the power held by the Tribunal.",
 			painting = {
 				alpha = 0.3,
@@ -184,10 +184,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "With this, I can see why they've thought that.",
 			painting = {
 				alpha = 0.3,
@@ -202,10 +202,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Goodness, Marseillaise. Is it really the right time to nip at the hand that feeds you?",
 			painting = {
 				alpha = 0.3,
@@ -220,10 +220,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "In any case, you are now the master of this estate. The Tribunal's secret stronghold is in your hands.",
 			painting = {
 				alpha = 0.3,
@@ -238,10 +238,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Remember the sacred order given to you – protect the Crown of the Holy See.",
 			painting = {
 				alpha = 0.3,
@@ -256,10 +256,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "You're not going to stand guard here with me?",
 			painting = {
 				alpha = 0.3,
@@ -271,16 +271,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,10 +292,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Unfortunately, I have no shortage of work to attend to.",
 			painting = {
 				alpha = 0.3,
@@ -310,10 +310,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "There are too many other areas that require my attention, so...",
 			painting = {
 				alpha = 0.3,
@@ -328,10 +328,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Yes, while I am certainly loathe to leave you on your lonesome, this is also the Holy Iris' will. We both have been given our respective duties.",
 			painting = {
 				alpha = 0.3,
@@ -346,10 +346,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "I will be back sometime later to check on you, so bear with it until then.",
 			painting = {
 				alpha = 0.3,
@@ -364,10 +364,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Understood. I, the Fighting Angel of the Iris Orthodoxy, swear to protect this Crown with my life.",
 			painting = {
 				alpha = 0.3,
@@ -388,10 +388,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "...Well, we did say before that the Crown is just an object.",
 			painting = {
 				alpha = 0.3,
@@ -412,10 +412,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "It's not worth losing your life over. Remember, if at any point, you are forced to choose between it and your life, I want you to choose the latter without hesitation.",
 			painting = {
 				alpha = 0.3,
@@ -430,10 +430,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 801070,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "...The Iris Orthodoxy has already had to make too many sacrifices.",
 			painting = {
 				alpha = 0.3,
@@ -445,12 +445,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -481,28 +481,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
-			say = "The haze continued to spread until it even blotted out the moonlight.",
 			bgmDelay = 1,
 			bgm = "battle-underholyflag",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "The haze continued to spread until it even blotted out the moonlight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "The formless mass of black and red writhed and extended outwards, as if it had a will of its own.",
@@ -512,8 +512,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "If one listened closely, it almost seemed like there was a distant howl drifting along the wind.",
@@ -656,9 +656,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "In the glorious name of the Holy Iris, I shall destroy you!",
 			typewriter = {
 				speed = 0.05,
@@ -672,11 +672,11 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			side = 2,
 			bgName = "bg_masaiqu_cg1",
-			hidePaintObj = true,
+			mode = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "长剑闪烁着刺目的圣洁之光。",
 			flashout = {
 				dur = 1,
@@ -705,9 +705,9 @@ return {
 					name = "speed"
 				},
 				{
-					active = false,
+					center = false,
 					name = "miwu_dark",
-					center = false
+					active = false
 				}
 			},
 			typewriter = {
@@ -716,8 +716,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			say = "The angel's pure, unyielding will to protect manifested itself into power, pushing the formless foes back again and again.",
@@ -727,8 +727,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			say = "But, the enemy's numbers were limitless.",
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			say = "And she had already pushed herself beyond her limits. Little by little, the girl was cornered into a cliff overlooking the ocean.",
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			say = "One more step would push her not into the sea's embrace, but rather the embrace of defeat. At last, she had nowhere left to go.",
@@ -760,12 +760,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "So this... is how it ends...",
 			painting = {
 				alpha = 0.3,
@@ -777,8 +777,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			say = "Just at that time, she saw a glimmer of light from beyond the haze that choked her vision.",
@@ -788,8 +788,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -800,8 +800,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -812,8 +812,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -824,10 +824,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_masaiqu_cg1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_masaiqu_cg1",
 			say = "Having found hope once more, the girl once again lifted her sword, the radiance from the blade parting the mist for a brief moment.",
 			flashout = {
 				dur = 1,
@@ -850,8 +850,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			say = "As fleeting as it was, that moment was enough to clearly reveal Richelieu, approaching with her glistening banner held high.",
@@ -861,8 +861,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -878,8 +878,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg1",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -895,9 +895,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_sainthelena2",
+			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "With the last of her might, Marseillaise threw the Crown towards the holy light.",
 			flashout = {
@@ -921,15 +921,15 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "As soon as the Crown left her hand, the girl was swallowed up by the surging haze and disappeared within its depths.",

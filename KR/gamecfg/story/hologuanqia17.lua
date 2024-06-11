@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA17",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "저기에 있는 건… 아야나미와 라피?!",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "저 귀여운 아이들도 너희의 동료야?",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "대단해. 자기보다 훨씬 큰 항공모함과 저렇게 대등하게 맞서 싸우다니!",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

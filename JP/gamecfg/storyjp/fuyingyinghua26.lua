@@ -1,15 +1,15 @@
 return {
-	id = "FUYINGYINGHUA26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "main-newyear",
 			say = "祭儀の島・仮式場",
+			side = 2,
+			dir = 1,
+			bgm = "main-newyear",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うわぁ…仮式場がこんなにボロボロに…これは【ワタツミ】を運び出すのも一苦労だね…",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,9 +63,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "長門様、ちょっと待ってて、今儀式用の道具を掘り出すよ！…ほい！",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 50,
@@ -104,9 +104,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "えへへ、まあ普段こういうお祭りに参加するのが大好きだから、こういうアイテムを探すのも運ぶのもお手の物よ！…んしょっと",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,9 +484,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "わわわわ！",
 			dialogShake = {
 				speed = 0.09,
@@ -503,8 +503,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -513,10 +513,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/ui/shuaidao",
 			say = "！！",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/shuaidao",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,8 +527,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "祭儀の準備をしていた響がいいタイミングで盛大に――転びそうになった。",
 			typewriter = {
 				speed = 0.05,
@@ -542,9 +542,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ごめんなさい！また転びそうになっちゃった＞＜ ",
 			typewriter = {
 				speed = 0.05,
@@ -556,8 +556,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -581,15 +581,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			withoutActorName = true,
 			side = 2,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
-			withoutActorName = true,
 			say = "響に案内され、重桜の神子・長門と護衛の江風が式場の中心に移動した。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -659,11 +659,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			dir = 1,
 			side = 2,
 			withoutActorName = true,
+			actor = 305050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "【ワタツミ】に向けて、長門は丁重に重桜の祈りを捧げた。",
 			typewriter = {
 				speed = 0.05,
@@ -675,8 +675,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 0,
@@ -730,8 +730,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……何も起こらなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -760,15 +760,15 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 306070,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "三笠様！さっきの「余燼」と呼ばれた敵はこっちの追撃を振り払って、今そちらに――",
 			bgm = "xinnong-4",
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "三笠様！さっきの「余燼」と呼ばれた敵はこっちの追撃を振り払って、今そちらに――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -793,8 +793,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -818,10 +818,10 @@ return {
 			}
 		},
 		{
+			say = "——",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "——",
 			flashN = {
 				color = {
 					1,
@@ -857,8 +857,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「余燼」と呼ばれた艦船が式場の入り口に突然現れ、式場にいる艦船たちは思わず面食らった。",
 			typewriter = {
 				speed = 0.05,
@@ -870,8 +870,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "――ただ二人、赤城と加賀を除いて。",
 			typewriter = {
 				speed = 0.05,
@@ -901,8 +901,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "長門様、お引きを。拙者の刀、重桜の民を傷つけるためではござらぬ",
 			typewriter = {
 				speed = 0.05,
@@ -914,8 +914,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "「高雄」に怯むことなく、長門は【ワタツミ】の前に立ち、身を挺して【ワタツミ】を守ろうとする気概を見せた。",
 			typewriter = {
 				speed = 0.05,
@@ -942,8 +942,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -955,8 +955,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "……【ワタツミ】は宝器ではありませぬ。災いをもたらす存在だ",
 			typewriter = {
 				speed = 0.05,
@@ -971,8 +971,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "思いを集め、実体化し、いずれそなたたちに大いなる災禍をもたらすだろう",
 			typewriter = {
 				speed = 0.05,
@@ -999,8 +999,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1012,8 +1012,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "その歴史は偽りだ。この石はそなたたちの世界に存在するものではない",
 			typewriter = {
 				speed = 0.05,
@@ -1040,11 +1040,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actor = 900192,
+			actorName = "？？？",
 			say = "……参る！",
 			typewriter = {
 				speed = 0.05,
@@ -1056,8 +1056,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1066,11 +1066,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
-			side = 2,
-			dir = 1,
-			nameColor = "#FF5C5CFF",
 			withoutActorName = true,
+			side = 2,
+			nameColor = "#FF5C5CFF",
+			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "目にも留まらぬ神速の斬撃が長門に向けて放たれた。",
 			typewriter = {
@@ -1098,8 +1098,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1110,8 +1110,8 @@ return {
 		{
 			actor = 301490,
 			side = 2,
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "直感で間一髪のところで自分の獲物を抜いた江風が、力を振り絞って刀の軌道をそらそうとする。",
 			typewriter = {
 				speed = 0.05,
@@ -1123,10 +1123,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/ui/kuang",
 			say = "！！",
+			dir = 1,
+			soundeffect = "event:/ui/kuang",
 			flashN = {
 				color = {
 					1,
@@ -1157,8 +1157,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -1170,8 +1170,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "電光石火。式場のほかの誰一人として動けなかった間に、それは成された。",
 			typewriter = {
 				speed = 0.05,
@@ -1213,8 +1213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1238,8 +1238,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "長門の後ろにあった【ワタツミ】は神業の一刀によって綺麗に両断された。",
 			typewriter = {
 				speed = 0.05,
@@ -1269,8 +1269,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "……これは一本やられたな。本物の【ワタツミ】は、とっくに隠されていたというのか",
 			typewriter = {
 				speed = 0.05,
@@ -1285,8 +1285,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "ただの石にセイレーン技術を使った発光塗装の加工、それに重桜の防衛用の小結界…",
 			typewriter = {
 				speed = 0.05,
@@ -1301,8 +1301,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "ふん、無駄足だったというわけか",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"私の素晴らしい記憶\n\n<size=45>その三 秘書艦の責任</size>",
@@ -81,11 +81,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "はい、では今日の秘書艦業務はこれでおしまいです。指揮官、ご苦労様ですわ。",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "業務を完璧にこなすエイジャックスだが、その秘書艦としての仕事には、ひとつ大きな特徴がある。",
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それは――本当に「雑用」に属する仕事はろくにしないことだ。",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

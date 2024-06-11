@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.15
@@ -16,10 +16,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.161
@@ -30,10 +30,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.172
@@ -44,10 +44,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.183
@@ -58,10 +58,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.194
@@ -72,10 +72,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.205
@@ -86,10 +86,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.216
@@ -100,10 +100,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.227
@@ -114,10 +114,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.238
@@ -128,10 +128,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					exceptCaster = true,
 					maxHPRatio = 0.25
@@ -142,11 +142,11 @@ return {
 	uiEffect = "",
 	name = "战争之殇·改",
 	cd = 0,
+	picture = "0",
+	desc = "战争之殇",
 	painting = 1,
 	id = 16021,
-	picture = "0",
 	castCV = "skill",
-	desc = "战争之殇",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -157,10 +157,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				exceptCaster = true,
 				maxHPRatio = 0.15

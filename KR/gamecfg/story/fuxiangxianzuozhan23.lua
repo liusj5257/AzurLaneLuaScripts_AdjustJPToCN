@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "메탈 블러드 부도 요새·D11 방어 모듈~D12 방어 모듈 사이",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
+			say = "메탈 블러드 부도 요새·D11 방어 모듈~D12 방어 모듈 사이",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "이쪽은 끝났어. 전선은 어때?",
 			typewriter = {
@@ -78,8 +78,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "하지만 변화가 일어났어. D13 방어 모듈의 화력망에 따라서 항로를 조정 중이야. 아마도 X구역을 향하는 것 같은데...",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "뭐...? X구역으로 간다고?",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "좋아... 상대의 의도가 이렇게 드러나는군. 고장을 미끼로 삼아서 X구역으로 가려는 거였나...",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "모르겠어. X구역은 내가 책임 지던 곳이 아니야. 하지만... 세이렌의 눈에 들었다고 해서 그냥 둘 수는 없지?",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "부도 A1, A2, A3, B1, B2, B3 타격 명령 설정 완료.",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "카운트 다운, 5... 4... 3... 2.. 1. 확인 중, 완료!",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "타격 개시, 불청객들에게 본때를 보여주자!",
 			typewriter = {

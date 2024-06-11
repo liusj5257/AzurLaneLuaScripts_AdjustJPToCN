@@ -1,10 +1,10 @@
 slot0 = class("SkinVoucherMsgBox", import(".SkinCouponMsgBox"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SkinVoucherMsgBoxUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 	setActive(slot0.confirmBtn, false)
 
@@ -14,7 +14,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
 end
 
-function slot0.RegisterBtn(slot0, slot1)
+slot0.RegisterBtn = function(slot0, slot1)
 	onButton(slot0, slot0.discountPriceBtn, function ()
 		if not uv0.prevSelId then
 			return
@@ -35,7 +35,7 @@ function slot0.RegisterBtn(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateContent(slot0, slot1)
+slot0.UpdateContent = function(slot0, slot1)
 	slot2 = slot1.skinName
 	slot3 = slot1.price
 
@@ -49,7 +49,7 @@ function slot0.UpdateContent(slot0, slot1)
 	setActive(slot0.discountPriceBtn, slot0.prevSelId)
 end
 
-function slot0.UpdateItem(slot0, slot1)
+slot0.UpdateItem = function(slot0, slot1)
 	slot0.itemTrs = {}
 
 	UIItemList.StaticAlign(slot0:findTF("window/frame/list"), slot0:findTF("window/frame/left"), #table.mergeArray({
@@ -62,7 +62,7 @@ function slot0.UpdateItem(slot0, slot1)
 	triggerToggle(slot0:findTF("window/frame/list/none"), true)
 end
 
-function slot0.FlushItem(slot0, slot1, slot2)
+slot0.FlushItem = function(slot0, slot1, slot2)
 	if slot1 == 0 then
 		setText(slot2:Find("name_bg/Text"), i18n("not_use_ticket_to_buy_skin"))
 	else
@@ -93,11 +93,11 @@ function slot0.FlushItem(slot0, slot1, slot2)
 	slot0.itemTrs[slot1] = slot2
 end
 
-function slot0.ClearPrevSel(slot0)
+slot0.ClearPrevSel = function(slot0)
 	slot0.prevSelId = nil
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.settings = nil
 
 	setActive(slot0._tf, false)

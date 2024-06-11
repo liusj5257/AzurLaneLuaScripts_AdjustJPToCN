@@ -7,11 +7,11 @@ slot0.Listeners = {
 	onUpdate = "Update"
 }
 
-function slot0.GetName(slot0, slot1)
+slot0.GetName = function(slot0, slot1)
 	return "cell_effect_" .. slot0 .. "_" .. slot1
 end
 
-function slot0.Setup(slot0, slot1, slot2)
+slot0.Setup = function(slot0, slot1, slot2)
 	assert(slot0.cell == nil)
 
 	slot0.cell = slot1
@@ -40,14 +40,14 @@ function slot0.Setup(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.cell:RemoveListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
 	slot0.cell:RemoveListener(WorldMapCell.EventUpdateDiscovered, slot0.onUpdate)
 	slot0.cell:RemoveListener(WorldMapCell.EventUpdateFog, slot0.onUpdate)
 	uv0.super.Dispose(slot0)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.cell
 	slot2 = slot0.transform
 	slot2.name = uv0.GetName(slot1.row, slot1.column)
@@ -56,7 +56,7 @@ function slot0.Init(slot0)
 	slot0:Update()
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot2 = slot0.cell
 
 	if slot1 == nil or slot1 == WorldMapCell.EventUpdateInFov or slot1 == WorldMapCell.EventUpdateFog then

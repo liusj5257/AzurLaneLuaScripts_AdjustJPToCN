@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401210,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "為什麼我們非要來這種地方執行任務啊！",
 			dir = 1,
 			bgm = "level02",
+			actor = 401210,
+			nameColor = "#a9f548",
+			say = "為什麼我們非要來這種地方執行任務啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -125,8 +125,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "這項任務，將由Z21作為旗艦，帶領Z2，Z9，Z11，Z12，Z17，Z13，Z18，Z19，Z22，共10艘驅逐級共同完成。",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "納爾維克目前為止一直保持著中立，港內佈置的防衛力量並不充裕，憑我們的力量可以輕鬆解決。",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "問題不在佔領，而在之後……呼，總之，先完成佔領再說吧。",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "別說傻話。",
 			typewriter = {
 				speed = 0.05,

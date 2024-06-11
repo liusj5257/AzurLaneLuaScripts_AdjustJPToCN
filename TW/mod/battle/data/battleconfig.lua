@@ -180,49 +180,49 @@ slot0.WARNING_HP_RATE = 0.7
 slot0.WARNING_HP_RATE_MAIN = 0.3
 slot0.SKILL_BUTTON_DEFAULT_PREFERENCE = {
 	{
+		scale = 1,
 		x = 0.924,
-		scale = 1,
 		y = 0.135
 	},
 	{
+		scale = 1,
 		x = 0.81,
-		scale = 1,
 		y = 0.135
 	},
 	{
+		scale = 1,
 		x = 0.696,
-		scale = 1,
 		y = 0.135
 	},
 	{
-		x = 0.58,
 		scale = 1,
+		x = 0.58,
 		y = 0.135
 	}
 }
 slot0.JOY_STICK_DEFAULT_PREFERENCE = {
-	x = 0.12,
 	scale = 1,
+	x = 0.12,
 	y = 0.183
 }
 slot0.AUTO_DEFAULT_PREFERENCE = {
-	x = 0.0625,
 	scale = 1,
+	x = 0.0625,
 	y = 0.925
 }
 slot0.DOT_CONFIG = {
 	{
 		reduce = "igniteReduce",
-		shorten = "igniteShorten",
 		prolong = "igniteProlong",
+		shorten = "igniteShorten",
 		resist = "igniteResist",
 		enhance = "igniteEnhance",
 		hit = "ignite_accuracy"
 	},
 	{
 		reduce = "floodingReduce",
-		shorten = "floodingShorten",
 		prolong = "floodingProlong",
+		shorten = "floodingShorten",
 		resist = "floodingResist",
 		enhance = "floodingEnhance",
 		hit = "flooding_accuracy"
@@ -231,8 +231,8 @@ slot0.DOT_CONFIG = {
 }
 slot0.DOT_CONFIG_DEFAULT = {
 	reduce = 0,
-	shorten = 0,
 	prolong = 0,
+	shorten = 0,
 	resist = 0,
 	enhance = 0,
 	hit = 0
@@ -250,7 +250,7 @@ slot0.AMMO_DAMAGE_REDUCE = {
 	"damageReduceFromAmmoType_1",
 	"damageReduceFromAmmoType_2",
 	"damageReduceFromAmmoType_3",
-	nil,
+	"damageReduceFromAmmoType_4",
 	nil,
 	nil,
 	"damageReduceFromAmmoType_7"
@@ -300,27 +300,27 @@ slot0.SONAR_DURATION_K = 0.1
 slot0.SONAR_INTERVAL_K = 0.1
 slot0.VAN_SONAR_PROPERTY = {
 	[ShipType.QuZhu] = {
-		maxRange = 100,
 		a = 2,
+		maxRange = 100,
 		minRange = 45,
 		b = 32
 	},
 	[ShipType.QingXun] = {
-		maxRange = 80,
 		a = 2.86,
+		maxRange = 80,
 		minRange = 30,
 		b = 0
 	},
 	[ShipType.DaoQuV] = {
-		maxRange = 100,
 		a = 2,
+		maxRange = 100,
 		minRange = 45,
 		b = 32
 	}
 }
 slot0.MAIN_SONAR_PROPERTY = {
-	maxRange = 15,
 	a = 24,
+	maxRange = 15,
 	minRange = 0
 }
 slot0.SUB_EXPOSE_LASTING_DURATION = 0.5
@@ -412,14 +412,16 @@ slot0.AIM_BIAS_MAX_RANGE_MONSTER = 60
 slot0.AIM_BIAS_MAX_RANGE_SUB = 25
 slot0.AIM_BIAS_ENEMY_INIT_TIME = 1.5
 slot0.FLEET_ATTR_CAP = {
-	yuanchou = 9,
+	huohun = 5,
+	shenpanzhijian = 6,
 	ReisalinAP = 99,
-	huohun = 5
+	Judgement = 12,
+	yuanchou = 9
 }
 slot0.TARGET_SELECT_PRIORITY = {
-	C14_1 = 10,
-	leastHP = 998,
 	QEM_highlight = 99,
+	leastHP = 998,
+	C14_1 = 10,
 	C14_highlight = 11,
 	farthest = 999,
 	highlight = 99,

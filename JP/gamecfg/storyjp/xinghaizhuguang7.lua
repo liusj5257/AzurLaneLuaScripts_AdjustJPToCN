@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_528",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「星の海」テストブロック・コンステレーションのオフィス",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_528",
 			hidePaintObj = true,
 			say = "窓がなく照明もつけていない漆黒の部屋に、プラネタリウムの星の光が天井に散らばっている。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_528",
 			hidePaintObj = true,
 			say = "頭上の銀河を見上げながら、机の前の椅子に座っている少女は囁く。",
@@ -93,11 +93,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_528",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "レキシントン姉ちゃん……",
@@ -111,28 +111,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_1",
+			bgm = "battle-pacific",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "擬似空間「珊瑚海」――任務エリア",
-			bgm = "battle-pacific",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_1",
 			hidePaintObj = true,
 			say = "月の光で銀色に照らされた霧が、果てしない海をヴェールのように覆っている。",
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_1",
 			hidePaintObj = true,
 			say = "島々の間から吹き抜ける潮風が懐かしい暖かさを帯びるも、その感触は儚い。",
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_1",
 			hidePaintObj = true,
 			say = "過去と未来、真実と虚偽が交錯する「再現」の戦場。確かな記憶と見知らぬ気配が入り交り、見る者に眩暈すら感じさせる景色を織りなす――",
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "擬似空間にはもう何度か入ってるよ。まあ主に戦闘テストのための空間だけどね",
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「作戦の規定を守り、予定時間内に規定エリアに移動する」",
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「戦闘になった場合、強制射出されるまでサルベージ目標に向けて全力前進」…ですよね？",
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うわっ。結構特例があるのね…",
@@ -435,11 +435,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "へーきへーき！ここの雰囲気がちょっと重ったいなあって",
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあ、これからこの戦場で起きることを考えるとそりゃ落ち込むよね…",
@@ -490,11 +490,11 @@ return {
 			}
 		},
 		{
-			actor = 108080,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "でも、ここはあくまで擬似空間…現実世界じゃないからね！",
@@ -546,11 +546,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "任務に集中するよ！よぉしカメラを――",
@@ -583,11 +583,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "カメラを止める！撮影禁止！リハも禁止！…これでいい？",

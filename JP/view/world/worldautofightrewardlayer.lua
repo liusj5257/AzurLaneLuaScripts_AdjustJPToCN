@@ -1,12 +1,12 @@
 slot0 = class("WorldAutoFightRewardLayer", BaseUI)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldAutoFightRewardUI"
 end
 
 slot1 = 0.1
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.window = slot0._tf:Find("Window")
 	slot0.boxView = slot0.window:Find("Layout/Box/ScrollView")
 	slot0.emptyTip = slot0.window:Find("Layout/Box/EmptyTip")
@@ -20,7 +20,7 @@ function slot0.init(slot0)
 	setText(slot0.boxView:Find("Content/Title/Text"), i18n("battle_end_subtitle1"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:UpdateView()
 
@@ -35,7 +35,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:SkipAnim()
 
 	if slot0.metaExpView then
@@ -45,7 +45,7 @@ function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1 = slot0.contextData
 	slot4 = slot0._tf
 
@@ -195,7 +195,7 @@ function slot0.UpdateView(slot0)
 	end)
 end
 
-function slot0.CloneIconTpl(slot0, slot1)
+slot0.CloneIconTpl = function(slot0, slot1)
 	assert(slot0:GetComponent(typeof(ItemList)), "Need a Itemlist Component for " .. (slot0 and slot0.name or "NIL"))
 
 	slot3 = Instantiate(slot2.prefabItem[0])
@@ -209,7 +209,7 @@ function slot0.CloneIconTpl(slot0, slot1)
 	return slot3
 end
 
-function slot0.SkipAnim(slot0)
+slot0.SkipAnim = function(slot0)
 	if not slot0.isRewardAnimating then
 		return
 	end

@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "ウィダーとの挟み撃ちで、残響艦隊は勢いを失い撤退した。",
 			bgm = "story-temepest-1",
+			say = "ウィダーとの挟み撃ちで、残響艦隊は勢いを失い撤退した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "突如現れた援軍を一瞬怪しんだ仲間たちだが、その援軍の正体を目にした途端、疑いは晴れた。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインド曰く「偉大なウィダーさま」とは、新世界の海域で活躍する海賊艦船・ウィダーだ。",
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ははは！もうほんっとにかわいいやつだな！",
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうよ～♪",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドはなぜかいつもより誇らしげに微笑んだ。",
@@ -183,27 +183,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_jufengv1_4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_jufengv1_4",
 			say = "ドタバタがしばらく続いて――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それなら一緒にトラブルを解決したら？",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "メアリーがしゃがみこもうとしたその瞬間、ウィダーはササッと隣の箱の上に飛び移った。",
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それにしても、残響艦隊はやけに素直に引いたのね",
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もしかしてお家に戻ってパパとママに泣きついてたりして！",
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあ、ロイヤル・フォーチュンは逆にふざけすぎていると思うわ～",
@@ -466,9 +466,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_jufengv1_4",
 			factiontag = "投資者",
 			dir = 1,
+			bgName = "bg_jufengv1_4",
 			bgm = "story-temepest-2",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
@@ -483,17 +483,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -520,11 +520,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインド、どうしたの？急に押し黙って…",
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドの触手が指した方向に目を向けると、そこには巨大な黒影があった。",
@@ -597,8 +597,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "水平線に漂う海霧を黒く染めるほどの大きさの「なにか」が少しずつ姿を現している。",
@@ -608,8 +608,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "この世界のどの戦艦よりもずっと大きく、比較すればポリスの最も大きなフネでも小さく見える巨体。",
@@ -716,11 +716,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあ分からなくはない。ポリスのガレオンよりもずっと大きいフネなんてそう容易く勝てる相手じゃないからな",
@@ -753,10 +753,10 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "名誉リーダー",
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はあ…ウィダー「ちゃん」？",
@@ -766,8 +766,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -804,8 +804,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "自分の体格よりだいぶ大きなコートのポケットから、ウィダーは古臭いながらも精巧な箱を取り出した。",
@@ -888,8 +888,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "自分の頭のサイズより何回りも大きいハットを片手で支えつつ、ウィダーは小箱を抱えて海に消えた。",
@@ -918,11 +918,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うん、子供の夢を叶えるためにも頑張るぞ。指揮官、指揮を頼む",
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "よし、わたしたちも行くよ！",
@@ -974,8 +974,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

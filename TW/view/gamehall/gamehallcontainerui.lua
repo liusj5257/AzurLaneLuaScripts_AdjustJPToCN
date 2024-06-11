@@ -52,7 +52,7 @@ slot12 = {
 	}
 }
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv2 = {
 		uv0 - uv1 + pg.UIMgr.GetInstance().uiCamera.gameObject.transform:Find("Canvas").sizeDelta.x - uv0,
 		0
@@ -144,7 +144,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.coinChar = nil
 	slot8 = PoolMgr.GetInstance()
 
-	function slot12(slot0)
+	slot12 = function(slot0)
 		uv0.coinChar = tf(slot0)
 
 		tf(slot0):GetComponent(typeof(SpineAnimUI)):SetAction("stand2", 0)
@@ -194,7 +194,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.setCharSit(slot0, slot1, slot2)
+slot0.setCharSit = function(slot0, slot1, slot2)
 	if slot1.sitFlag or slot2.sitFlag then
 		return
 	end
@@ -219,7 +219,7 @@ function slot0.setCharSit(slot0, slot1, slot2)
 	slot1.tf.anchoredPosition = Vector2(0, 0)
 end
 
-function slot0.stopCharSit(slot0, slot1)
+slot0.stopCharSit = function(slot0, slot1)
 	slot1.sitItem.sitFlag = false
 
 	slot0:setAnimAction(slot1.anim, "walk", 0, nil)
@@ -233,7 +233,7 @@ function slot0.stopCharSit(slot0, slot1)
 	slot1.tf.anchoredPosition = slot1.pos
 end
 
-function slot0.checkClickTime(slot0, slot1)
+slot0.checkClickTime = function(slot0, slot1)
 	for slot5 = 1, #slot0.clickItems do
 		if slot0.clickItems[slot5].anim == slot1 and (slot0.clickItems[slot5].time == 0 or slot0.clickItems[slot5].time < Time.realtimeSinceStartup) then
 			slot0.clickItems[slot5].time = Time.realtimeSinceStartup + 2
@@ -245,7 +245,7 @@ function slot0.checkClickTime(slot0, slot1)
 	return false
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot4 = slot0.offsetPosition
 	slot0.content.anchoredPosition, slot0.velocityXSmoothing = Vector2.SmoothDamp(slot0.content.anchoredPosition, slot4, slot0.velocityXSmoothing, uv0)
 
@@ -364,7 +364,7 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.checkCharSit(slot0, slot1)
+slot0.checkCharSit = function(slot0, slot1)
 	if not slot1.ableSit then
 		return
 	end
@@ -388,13 +388,13 @@ function slot0.checkCharSit(slot0, slot1)
 	end
 end
 
-function slot0.getVel(slot0, slot1, slot2)
+slot0.getVel = function(slot0, slot1, slot2)
 	slot3 = math.atan(math.abs(slot2.y - slot1.y) / math.abs(slot2.x - slot1.x))
 
 	return Vector2(math.cos(slot3) * (slot1.x < slot2.x and 1 or -1), math.sin(slot3) * (slot1.y < slot2.y and 1 or -1))
 end
 
-function slot0.setAnimAction(slot0, slot1, slot2, slot3, slot4)
+slot0.setAnimAction = function(slot0, slot1, slot2, slot3, slot4)
 	slot1:SetActionCallBack(nil)
 	slot1:SetAction(slot2, 0)
 	slot1:SetActionCallBack(function (slot0)
@@ -405,11 +405,11 @@ function slot0.setAnimAction(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.getTargetPos(slot0, slot1, slot2)
+slot0.getTargetPos = function(slot0, slot1, slot2)
 	return Vector2(slot1.x + math.random(1, tonumber(slot2.x) - tonumber(slot1.x)), slot1.y + math.random(1, tonumber(slot2.y) - tonumber(slot1.y)))
 end
 
-function slot0.isPointInMatrix(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.isPointInMatrix = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot0:getCross(slot1, slot2, slot5) * slot0:getCross(slot3, slot4, slot5) >= 0 and slot0:getCross(slot2, slot3, slot5) * slot0:getCross(slot4, slot1, slot5) >= 0
 end
 

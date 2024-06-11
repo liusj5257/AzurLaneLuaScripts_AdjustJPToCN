@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"淑女的小小提案\n\n<size=45>五 妹妹的一言</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "光輝去找女僕隊商量茶會用的杯子的安排，幾十分鐘後——",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "光輝去找女僕隊商量茶會用的杯子的安排，幾十分鐘後——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "正閒得慌的時候，終於聽到了從入口坡道處傳來的聲音。",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "站在返回的光輝身旁的，是她的妹妹勝利。",
 			typewriter = {
 				speed = 0.05,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "當然是“通往美麗地方的路，一定要是美麗的！ ”的意思呀！",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "請不要隨便炫耀自己太大的事實！",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "拒絕的選項什麼的自然是不存在的，迅速地向她伸出了手，然而——",
 			typewriter = {
 				speed = 0.05,
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "馬上要天黑了，該加緊速度才是。但不知為什麼，她卻一臉不可思議地看著自己伸出的手。",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "嗯…這個舉動有這麼出人預料嗎……",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "光輝略帶拘謹地握住了自己伸過去的手，柔軟纖細的指尖纏繞的觸感傳了過來。",
 			typewriter = {
 				speed = 0.05,

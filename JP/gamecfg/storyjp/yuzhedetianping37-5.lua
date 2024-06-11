@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			bgm = "story-thehierophantV",
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ーーー！！！！",
-			bgm = "story-thehierophantV",
 			flashN = {
 				color = {
 					1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "影響から脱した動ける艦船たちは全力で「ハイエロファント」に向けて武装を発射している。",
@@ -74,10 +74,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「ハイエロファント」が指揮官に向けて突進しています！",
 			painting = {
 				alpha = 0.3,
@@ -92,10 +92,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…早くあれを止めないと……！！",
 			painting = {
 				alpha = 0.3,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "無数の砲撃を受けても「ハイエロファント」の速度は変わらない。",
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "こちらとの距離をだんだん縮めていき――",
@@ -151,10 +151,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "ヘレナ、何をモタモタしているの！？",
 			painting = {
 				alpha = 0.3,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "「ハイエロファント」の笏杖が振り下ろされ、再びドローンの間に光の網が作り上げられた。",
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "今度こそ逃げられないと、頭の中で最悪の結末が思い浮かんだその瞬間。",
@@ -234,13 +234,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_underheaven_cg10",
+			stopbgm = true,
+			dialogueBgAlpha = 0.6,
+			bgm = "theme-thetowerXVI",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
-			bgm = "theme-thetowerXVI",
-			stopbgm = true,
 			hidePaintObj = true,
 			say = "ーーー！！！！",
 			flashN = {
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -330,8 +330,8 @@ return {
 			expression = 2,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			bgName = "star_level_bg_504",
 			actor = 9702010,
 			nameColor = "#ffa500",
@@ -346,8 +346,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -700,10 +700,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			actor = 605010,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
+			hidePaintObj = true,
 			say = "艤装のあの巨体に攻撃が外れる心配もありませんしね",
 			typewriter = {
 				speed = 0.05,
@@ -714,10 +714,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			actor = 605010,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
+			hidePaintObj = true,
 			say = "まあ、攻撃がどこまで有効なのかは疑わしいですが",
 			typewriter = {
 				speed = 0.05,
@@ -744,8 +744,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -756,8 +756,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -780,8 +780,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -792,8 +792,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -804,8 +804,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -816,14 +816,14 @@ return {
 			}
 		},
 		{
-			actor = 900357,
 			nameColor = "#696969",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
 			side = 2,
-			say = "「▅■デコイ▆▅」",
+			bgName = "star_level_bg_504",
 			bgm = "theme-threat-typeV",
+			actor = 900357,
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "「▅■デコイ▆▅」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,8 +836,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -883,8 +883,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "速度を上げるためか、「ハイエロファント」のボディが空中から急加速してきた。",
@@ -909,8 +909,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "電光石火。仲間たちが反応する間もなく、指揮官の上空にたどり着いた彼女はもはや誰にも止められない――",
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "甲板にいる隣の信濃以外は。",
@@ -934,11 +934,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			soundeffect = "event:/ui/fengling",
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "………させぬ！",
-			soundeffect = "event:/ui/fengling",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,15 +949,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			say = "式を召喚する信濃。爆風。かすかに聞こえる風鈴の音。",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -970,12 +970,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "ーーー！！！！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1039,8 +1039,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "妾の攻撃が……命中した…？",
 			painting = {
@@ -1053,8 +1053,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "いつぞやの夢の時とは違い、耳元で風鈴の音が未だに響き続けている。",
@@ -1064,8 +1064,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "「ハイエロファント」のボディは機銃の攻撃を受け、こちらへの突進を停止した。",
@@ -1078,8 +1078,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "当たる……然らば……！",
 			painting = {
@@ -1107,8 +1107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "「ハイエロファント」が二人に……？！指揮官…！！",
 			painting = {
@@ -1121,8 +1121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "まるで影が抜け出たかのように、少女の体からもう一人の「ハイエロファント」が現れた。",
@@ -1132,8 +1132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "幽霊のように壁を抜け、あっという間にこちらの目と鼻の先の距離まで接近した。",
@@ -1145,8 +1145,8 @@ return {
 		{
 			actor = 900357,
 			side = 2,
-			nameColor = "#696969",
 			hidePaintObj = true,
+			nameColor = "#696969",
 			blackBg = true,
 			say = "「▅■ヴァタ▆▅」",
 			typewriter = {
@@ -1154,8 +1154,8 @@ return {
 				speedUp = 0.01
 			},
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -1175,8 +1175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "猛烈な浮遊感とともに、意識は闇へと沈み込んだ。",

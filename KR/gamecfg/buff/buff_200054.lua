@@ -1,12 +1,12 @@
 return {
-	time = 1,
-	name = "2022武藏活动 海雾弥散 敌我双方航母以外的单位的命中率下降",
 	init_effect = "",
+	name = "2022武藏活动 海雾弥散 敌我双方航母以外的单位的命中率下降",
+	time = 1,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200054,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

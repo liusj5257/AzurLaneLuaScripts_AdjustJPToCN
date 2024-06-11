@@ -6,8 +6,8 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			bgName = "star_level_bg_600",
 			dir = 1,
+			bgName = "star_level_bg_600",
 			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#A9F548FF",
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,10 +43,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "輝かしい外交成果に、乾杯！",
 			painting = {
 				alpha = 0.3,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			say = "南極で「アビータ」の手先を退けたあと、会議がトントン拍子で進む勢いを見せる中――",
@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これから事態がどう変わろうと、「サディア」としては円滑に対応できるだろう",
 			painting = {
 				alpha = 0.3,
@@ -193,10 +193,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "インペロたちがいるサディア帝国のポテンシャルに期待してるからでしょ",
 			painting = {
 				alpha = 0.3,
@@ -211,10 +211,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "世界博覧会以降、ヴェネト姉たちはこうして頻繁に表に出ているし、おかげでサディアの影響力もぐんぐん上がってる",
 			painting = {
 				alpha = 0.3,
@@ -229,10 +229,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いいことも次から次へと転がってくるし",
 			painting = {
 				alpha = 0.3,
@@ -247,10 +247,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかしなくても、新しい「アズールレーン」でも大きい発言力を手に入れられるかもしれないよ？",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろんだとも。あはははは",
 			painting = {
 				alpha = 0.3,
@@ -332,10 +332,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "乾杯！",
 			painting = {
 				alpha = 0.3,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

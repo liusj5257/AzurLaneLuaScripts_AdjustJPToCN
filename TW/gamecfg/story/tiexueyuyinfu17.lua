@@ -1,17 +1,17 @@
 return {
-	id = "TIEXUEYUYINFU17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "TIEXUEYUYINFU17",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "bsm-3",
 			dir = -1,
 			say = "終於進入可以面對面的距離了",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "當時妳就是用這個武器把胡德擊敗的，在這個距離上",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			actor = 205050,
 			side = 0,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "我沒說錯吧，俾斯麥",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "榮耀…嗎",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "我……",
 			typewriter = {
 				speed = 0.05,
@@ -120,10 +120,10 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 205050,
 			dir = -1,
-			say = "皇家艦隊，逢敵必戰，開火！",
 			soundeffect = "event:/battle/boom2",
+			actor = 205050,
+			say = "皇家艦隊，逢敵必戰，開火！",
 			flashN = {
 				color = {
 					1,
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
+			seDelay = 1.3,
 			say = "轟————",
 			soundeffect = "event:/battle/boom2",
-			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,

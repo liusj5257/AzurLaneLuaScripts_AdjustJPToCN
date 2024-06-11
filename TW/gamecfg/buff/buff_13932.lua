@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 2
+					number = 2,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 4
+					number = 4,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 6
+					number = 6,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 8
+					number = 8,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 10
+					number = 10,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 12
+					number = 12,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 14
+					number = 14,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 16
+					number = 16,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 18
+					number = 18,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 20
+					number = 20,
+					attr = "oxyMax"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 13931,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13931,
+	color = "red",
 	icon = 13930,
 	last_effect = "",
 	blink = {
@@ -163,8 +163,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "oxyMax",
-				number = 2
+				number = 2,
+				attr = "oxyMax"
 			}
 		}
 	}

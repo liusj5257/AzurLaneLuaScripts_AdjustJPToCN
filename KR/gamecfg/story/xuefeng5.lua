@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUEFENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUEFENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나는 {namecode:22}님이다!\n\n<size=45>5 {namecode:22}와의 놀이공원·상</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			bgm = "story-1",
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "놀이공원이 가고 싶다고? 흥, 이 {namecode:22}님이 그런 곳을 좋아할 리가...이익...",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "...흥, 지휘관이 그렇게 가고 싶어하니 이 {namecode:22}님이 어쩔 수 없이 따라가 주는 거야!",
 			typewriter = {
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "흥! 감사히 생각하라고!",
 			typewriter = {
@@ -69,9 +69,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "그래서 쉬는 날 놀이공원에 갔는데...",
 			typewriter = {
 				speed = 0.05,
@@ -79,16 +79,16 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actorName = "{namecode:22}",
 			dir = 1,
+			actorName = "{namecode:22}",
+			actor = 301160,
 			nameColor = "#92fc63",
 			say = "회전목마? 그렇게 유치한 걸 이 {namecode:22}님이 탈 리가 없잖아!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,16 +113,16 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actorName = "{namecode:22}",
 			dir = 1,
+			actorName = "{namecode:22}",
+			actor = 301160,
 			nameColor = "#92fc63",
 			say = "롤러코스터? 바다의 파도에 비하면 그건 아무것도 아니지!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -147,16 +147,16 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actorName = "{namecode:22}",
 			dir = 1,
+			actorName = "{namecode:22}",
+			actor = 301160,
 			nameColor = "#92fc63",
 			say = "관람차!?그, 그건 데이트 할 때나 타는거 아니야!? 유, {namecode:22}님은 절대...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "응? 귀신의 집에 가자고?",
 			typewriter = {
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "아~하하하! 어린 아이나 속는 걸 이 {namecode:22}님이 무서워 하겠어?",
 			typewriter = {
@@ -215,13 +215,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "5분 후",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:22}",
 			dir = 1,
 			blackBg = true,
+			actor = 301160,
+			actorName = "{namecode:22}",
 			say = "으아아아아아아아악!!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 37.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "{namecode:22}",
 			dir = 1,
 			blackBg = true,
+			actor = 301160,
+			actorName = "{namecode:22}",
 			say = "(부들부들)...무, 무서워! 소소소손..놓지마아아악!!!",
 			typewriter = {
 				speed = 0.05,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:22}",
 			dir = 1,
 			blackBg = true,
+			actor = 301160,
+			actorName = "{namecode:22}",
 			say = "지휘관! 사, 살려줘어어어!!!",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 37.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			blackBg = true,
 			say = "……",
 			typewriter = {
@@ -325,16 +325,16 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actorName = "{namecode:22}",
 			dir = 1,
+			actorName = "{namecode:22}",
+			actor = 301160,
 			nameColor = "#92fc63",
 			say = "주, 죽을 것 같아...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -359,8 +359,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 1,
 					x = 37.5,
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "지, 지휘관...으아앙...",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 1,
 					x = 37.5,

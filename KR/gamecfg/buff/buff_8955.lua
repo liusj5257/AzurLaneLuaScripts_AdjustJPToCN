@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动 铁血支援",
 	time = 3,
-	color = "",
+	name = "公海舰队活动 铁血支援",
+	init_effect = "",
+	id = 8955,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8955,
+	color = "",
 	icon = 8955,
 	last_effect = "",
 	effect_list = {

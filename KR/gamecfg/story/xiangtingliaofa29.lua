@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA29",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 105130,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "드디어 얼굴 보고 말할 수 있게 됐군, 날 기억하나, 이렇게 빨리 만날 줄은 몰랐겠지!",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,8 +101,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#a9f548",
+			side = 0,
 			bgName = "bg_xiangting_cg1",
-			actorName = "빅토리어스",
 			dir = 1,
+			actorName = "빅토리어스",
 			say = "엔터프라이즈!!!",
 			effects = {
 				{
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "엔터프라이즈",
+			side = 0,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			actorName = "엔터프라이즈",
 			nameColor = "#a9f548",
+			actorName = "엔터프라이즈",
 			bgName = "bg_xiangting_cg1",
 			side = 0,
 			dir = 1,
@@ -199,8 +199,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "엔터프라이즈",
+			side = 0,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "엔터프라이즈",
+			side = 0,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			actorName = "엔터프라이즈",
 			nameColor = "#a9f548",
+			actorName = "엔터프라이즈",
 			bgName = "bg_xiangting_cg1",
 			side = 0,
 			dir = 1,
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#a9f548",
+			side = 0,
 			bgName = "bg_xiangting_cg1",
-			actorName = "엔터프라이즈",
 			dir = 1,
+			actorName = "엔터프라이즈",
 			say = "대답해!",
 			dialogShake = {
 				speed = 0.09,
@@ -348,10 +348,10 @@ return {
 			}
 		},
 		{
+			say = "쾅───────!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "쾅───────!",
 			flashN = {
 				color = {
 					1,
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			effects = {
 				{
 					active = true,
@@ -460,11 +460,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xiangting_cg4",
-			actorName = "엔터프라이즈",
 			dir = 1,
+			actorName = "엔터프라이즈",
 			say = "??? 이건…",
 			effects = {
 				{
@@ -482,8 +482,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "엔터프라이즈",
+			side = 2,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -498,8 +498,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -514,8 +514,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -546,8 +546,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			bgName = "bg_xiangting_cg4",
 			side = 1,
 			dir = 1,
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -578,8 +578,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "엔터프라이즈",
+			side = 2,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -594,8 +594,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -610,8 +610,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -626,8 +626,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_xiangting_cg4",
 			nameColor = "#ff5c5c",
 			dir = 1,

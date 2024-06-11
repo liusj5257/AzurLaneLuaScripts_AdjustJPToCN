@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"As Cool As A Demon\n\n<size=45>3 Demons and Men</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Kinu told me to meet her at a waterfall just by the mountain situated behind the port. She said it's a good place to meditate.",
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Kinu told me to meet her at a waterfall just by the mountain situated behind the port. She said it's a good place to meditate.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "Kinu leaned in to whisper into Abukuma's ear. That felt suspicious to me, but nevertheless, I stepped forth and went barefoot into the water.",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Listen, Commander: no matter what happens, you musn't be distracted. You cannot allow a repeat of the wasp incident.",
 			typewriter = {
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "Steeling my resolve, I went in beneath the waterfall. The water was freezing cold and crashed into me like a ceaseless tsunami.",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Let me stress this: no matter what happens! Understood?",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "Kinu emphasizing that specific part made it sound as though she was planning something, which made me raise an eyebrow.",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Hush, Abukuma. Not another word of that.",
 			typewriter = {
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "All right, then... Aw, shucks, I think I've got something big on the hook.",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "For whatever reason, Abukuma started speaking with a very deadpan tone.",
 			typewriter = {
 				speed = 0.05,
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "Oh nooo. This is a biiiig big fish. So big I can't reel it in.",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -334,8 +334,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Stay focused, Commander.",
 			typewriter = {
@@ -364,9 +364,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "Abukuma fell into the river. Or rather, it looked more like she jumped in by her own volition. Her \"Here goes\" sounded especially suspect.",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "However, I had to do something on the odd chance she wasn't faking it. Stepping out of the waterfall, I waded through the river to help Abukuma.",
 			typewriter = {
 				speed = 0.05,
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "Wow, uh... I didn't think the commander would fall for that.",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,8 +421,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Your willingness to come to the rescue of an ally is certainly a virtue. But on the battlefield, it is a weakness that will only make matters worse.",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -448,8 +448,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "I stood right next to her as she fell in the river. You should've ordered me to jump to her rescue, not do it yourself.",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "As long as you learn from your mistake, it's no harm done. On a more immediate note: you failed! Start over from the beginning!",
 			effects = {
@@ -488,8 +488,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "(Interesting... I suppose one need not BE a demon to CONTROL a demon...)",
 			effects = {

@@ -1,6 +1,6 @@
 slot0 = class("MiniGameTileData")
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot1 = {}
 	slot2 = {}
 	slot3 = {}
@@ -73,7 +73,7 @@ function slot1(slot0)
 	print(table.concat(slot3))
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._data = slot1
 	slot0._name = slot1.name
 	slot0.tileMaps = slot1.tile_map
@@ -85,7 +85,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:initData()
 end
 
-function slot0.loadTile(slot0, slot1, slot2)
+slot0.loadTile = function(slot0, slot1, slot2)
 	slot3 = "GameCfg.MiniGameTile." .. slot1 .. "." .. slot2
 	slot4, slot5 = pcall(function ()
 		return require(uv0)
@@ -98,14 +98,14 @@ function slot0.loadTile(slot0, slot1, slot2)
 	return slot4 and slot5
 end
 
-function slot0.initTile(slot0)
+slot0.initTile = function(slot0)
 	for slot4, slot5 in ipairs(slot0.tileMaps) do
 		slot6 = slot0:loadTile(slot0._name, slot5)
 		slot0.tileMapDic[slot6.name] = slot0:createTile(slot6.tiles)
 	end
 end
 
-function slot0.getTileDataLayer(slot0, slot1)
+slot0.getTileDataLayer = function(slot0, slot1)
 	if slot0.tileDataDic[slot1] then
 		return slot0.tileDataDic[slot1].layers
 	end
@@ -113,7 +113,7 @@ function slot0.getTileDataLayer(slot0, slot1)
 	return nil
 end
 
-function slot0.dumpTileDataLayer(slot0, slot1, slot2)
+slot0.dumpTileDataLayer = function(slot0, slot1, slot2)
 	if slot0.tileDataDic[slot1] then
 		for slot7 = 1, #slot0.tileDataDic[slot1].layers do
 			slot8 = slot3[slot7]
@@ -126,13 +126,13 @@ function slot0.dumpTileDataLayer(slot0, slot1, slot2)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	for slot4, slot5 in ipairs(slot0.tileDatas) do
 		slot0.tileDataDic[slot5] = slot0:createMapData(slot0:loadTile(slot0._name, slot5), slot5)
 	end
 end
 
-function slot0.createTile(slot0, slot1)
+slot0.createTile = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 
@@ -159,7 +159,7 @@ function slot0.createTile(slot0, slot1)
 	return slot2
 end
 
-function slot0.createMapData(slot0, slot1, slot2)
+slot0.createMapData = function(slot0, slot1, slot2)
 	if not slot1 then
 		return {
 			layer = {},
@@ -187,7 +187,7 @@ function slot0.createMapData(slot0, slot1, slot2)
 	}
 end
 
-function slot0.createLayerData(slot0, slot1, slot2, slot3)
+slot0.createLayerData = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	for slot8 = 1, #slot1 do
@@ -199,7 +199,7 @@ function slot0.createLayerData(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.relationTile(slot0, slot1, slot2, slot3, slot4)
+slot0.relationTile = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
 	if slot0._name == MiniGameTile.BOOM_GAME then
@@ -239,7 +239,7 @@ function slot0.relationTile(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.createGridPropData(slot0, slot1, slot2, slot3)
+slot0.createGridPropData = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 	slot5 = nil
 
@@ -264,7 +264,7 @@ function slot0.createGridPropData(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.getName(slot0)
+slot0.getName = function(slot0)
 	return slot0._name
 end
 

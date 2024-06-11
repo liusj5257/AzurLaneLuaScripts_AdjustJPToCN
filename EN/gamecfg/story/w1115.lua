@@ -1,12 +1,12 @@
 return {
-	id = "W1115",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1115",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Seems like we need to put the Energy Matrix back on the platform.",
 			typewriter = {
 				speed = 0.05,

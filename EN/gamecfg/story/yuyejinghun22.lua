@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "Essex",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You cling to the wall as you walk down the dark corridor.",
 			typewriter = {

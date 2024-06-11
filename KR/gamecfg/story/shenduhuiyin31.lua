@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN31",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "노스 유니온-모스크바",
 			side = 2,
 			bgName = "bg_deepecho_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-cccp",
+			say = "노스 유니온-모스크바",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_13",
+			dir = 1,
 			say = "성대한 열병식이 진행되고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_13",
+			dir = 1,
 			say = "지상에는 탱크와 장갑차, 하늘엔 중형 폭격기가 하나의 공중성을 이루고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠키 소유즈",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠키 소유즈",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠키 소유즈",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠키 소유즈",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠키 소유즈",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠키 소유즈",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠키 소유즈",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "소비에츠키 소유즈",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_13",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "무사히 임무를 마치고 돌아왔다——————",
 			typewriter = {
 				speed = 0.05,

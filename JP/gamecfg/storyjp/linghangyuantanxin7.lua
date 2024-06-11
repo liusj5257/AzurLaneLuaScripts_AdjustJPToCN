@@ -10,12 +10,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-1",
-			actor = 1009,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			bgm = "qe-ova-1",
+			tbActor = true,
+			actor = 1009,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}、スポーツについて聞いてもいいですか？",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -44,10 +44,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1009,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "最近ランニングでスランプに入って、なかなか記録を更新できずにいます",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "なるほど、だから今日のTBは少し焦ったように見えるのか。",
@@ -82,10 +82,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1009,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "運動を続けることは健康を保ち、バイタリティーを高めてくれますから",
 			typewriter = {
@@ -109,10 +109,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1009,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "…「走る」ことが、好きだと思います",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "後日、TBの成績が伸びたと聞いた――",

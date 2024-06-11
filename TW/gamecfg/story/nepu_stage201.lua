@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE201",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE201",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>『异色海域GREEN』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "这个就是ーー{namecode:98}努力了一晚上的结果喵！",
 			bgm = "level-nep",
+			actor = 312010,
+			actorName = "{namecode:98}",
+			say = "这个就是ーー{namecode:98}努力了一晚上的结果喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "呒呒呒...这话可不能当作没听见呐，明明我也在技术上有帮助的说......",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:37}",
 			dir = 1,
-			say = "呒呒呒...这话可不能当作没听见呐，明明我也在技术上有帮助的说......",
+			actor = 302010,
+			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,8 +102,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "喵喵喵！不能对着别人喵！？",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			actor = 302010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:37}",
 			dir = 1,
+			actorName = "{namecode:37}",
 			say = "舰装都是用大家的想法自由操纵的...所以只要不走神应该是不会走火的......不要炮口朝这边啊！",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "这个服务要另加收费喵",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "使用物资可以买到专用的外观装备箱喵。价格大概是这样...",
 			typewriter = {
 				speed = 0.05,
@@ -298,16 +298,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "测试者α",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "虽然不是很清楚是为什么，但是她们还没有发挥出全力......包含了我们所不知的可能性",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试者α",
 			say = "之后，适应这个次元，同时获得了新的力量......",
 			typewriter = {
 				speed = 0.05,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试者α",
 			say = "哼哼哼...比预想要更有趣起来了",
 			typewriter = {
 				speed = 0.05,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试者α",
 			say = "真是好想看到她们蕴含的更进一步的可能性啊...... 再稍微观察一下吧",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_305 = {}
 slot1 = slot0.word_template_305
 
-function temp()
+temp = function()
 	uv0["瑞"] = {
 		["士"] = {
 			["金"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["薩"] = {
 		["達"] = {
 			["姆"] = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["㈢"] = {
 		this = {
 			this = true
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["毿"] = {
 		this = {
 			this = true

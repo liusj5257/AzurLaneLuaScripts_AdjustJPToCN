@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024罗德尼meta 提示语1",
 	time = 0.1,
-	color = "yellow",
+	name = "2024罗德尼meta 提示语1",
+	init_effect = "",
+	id = 200810,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200810,
+	color = "yellow",
 	icon = 200810,
 	last_effect = "",
 	effect_list = {

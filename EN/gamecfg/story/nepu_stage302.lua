@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE302",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE302",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -89,8 +89,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "Somehow... that makes a lot of sense.",
 			typewriter = {
 				speed = 0.05,
@@ -147,13 +147,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Good work, everyone. I've managed to gather some new data.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "Good work, everyone. I've managed to gather some new data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,13 +164,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "However, it's not quite enough. Please collect a bit more data from the Mirror Seas.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "However, it's not quite enough. Please collect a bit more data from the Mirror Seas.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,13 +196,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Almost, I just need a little bit more! To put it concretely, around one stage's worth? I should be able to finish with that.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "Almost, I just need a little bit more! To put it concretely, around one stage's worth? I should be able to finish with that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,13 +213,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "There you have it. Thank you for your consideration, everyone.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "There you have it. Thank you for your consideration, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,6 +1,6 @@
 slot0 = class("LoadBundleRequesetPackage", import(".RequestPackage"))
 
-function slot0.__call(slot0)
+slot0.__call = function(slot0)
 	if slot0.stopped then
 		return
 	end
@@ -14,9 +14,7 @@ function slot0.__call(slot0)
 			slot1 = uv0.path
 
 			xpcall(function ()
-				slot0 = ResourceMgr.Inst
-
-				slot0:loadAssetBundleAsync(uv0, function (slot0)
+				buildTempAB(uv0, function (slot0)
 					pg.UIMgr.GetInstance():LoadingOff()
 
 					if uv0.stopped then
@@ -40,7 +38,7 @@ function slot0.__call(slot0)
 	return slot0
 end
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.path = slot1
 	slot0.onLoaded = slot2
 end

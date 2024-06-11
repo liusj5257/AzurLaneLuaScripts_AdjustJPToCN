@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"お花見大会\n\n<size=45>その五  桜に幕</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 306030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "やはり春といえば桜ですね。",
 			bgm = "story-1",
+			actor = 306030,
+			nameColor = "#a9f548",
+			say = "やはり春といえば桜ですね。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 306030,
+			say = "みんなが楽しんでいるのを見るとこっちもやりがいを感じますわ。あら？そこにいるのは――",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "みんなが楽しんでいるのを見るとこっちもやりがいを感じますわ。あら？そこにいるのは――",
+			actor = 306030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,15 +86,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "ここが会場のようね。…わぁ、みんな盛り上がってる！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "美味しそうな料理のかおり～",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "美味しそうな料理のかおり～",
+			actor = 201210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -219,15 +219,15 @@ return {
 			}
 		},
 		{
-			actor = 306030,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 306030,
+			nameColor = "#a9f548",
 			say = "うふふ、なんだか微笑ましいですわ～",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

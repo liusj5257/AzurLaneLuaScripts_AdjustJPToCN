@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			say = "눈 깜짝할 사이에 해변의 쓰레기가 또 산처럼 쌓였다.",
 			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgm = "main-SeaAndSun",
-			say = "눈 깜짝할 사이에 해변의 쓰레기가 또 산처럼 쌓였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "푸른 바다와 하늘의 아름다운 풍경 속에서, 자연에 속하지 않는 것들은 유난히 눈에 거슬린다.",
 			typewriter = {
 				speed = 0.05,

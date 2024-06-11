@@ -1,17 +1,17 @@
 return {
-	id = "HUAPOHAIKONGZHIYI10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "쇼카쿠 언니!",
 			dir = 1,
 			bgm = "battle-boss-2",
+			nameColor = "#ff5c5c",
+			say = "쇼카쿠 언니!",
 			effects = {
 				{
 					active = true,
@@ -28,8 +28,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -38,10 +38,10 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
+			actor = 307050,
 			say = "미안해, 즈이카쿠. 앞으로의 전장은 함께할 수 없게 됐어…",
 			effects = {
 				{
@@ -91,8 +91,8 @@ return {
 		{
 			actor = 307060,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "젠장…!!!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -109,14 +109,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "프린스턴, 그쪽 상황은 끝났나?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -144,8 +144,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "모두의 지원 덕분에 하늘에서 사쿠라 엠파이어의 함재기는 보이지 않게 됐어요.",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이렇게 순조롭다니… 다행이야.",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -231,8 +231,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "그렇다면 사령부가 우리에게 추격 명령을 내리겠군요.",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "정말 대단한 전투였어요… 새러토가 선배도 볼 수 있었다면 좋았을 텐데……",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "네가 어떻게 용감하게 싸웠는지, 새러토가가 놓친 전투에 대해서 들려줘~",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "저는 전투 경험이 아직 부족하고, 미숙한 점도 많지만… 계속 노력할 거니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -354,9 +354,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "계속 노력해서 더 많은 공을 세우면 언젠가 새러토가 선배를 따라잡을 날이 올 거예요…!",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "아무리 험난해도 계속 노력해서 모두에게 제 성장을 증명해 보이겠어요!",
 			typewriter = {
 				speed = 0.05,
@@ -411,9 +411,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "기대하고 있을게!",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -453,8 +453,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "새러토가 선배… 선배의 가르침을 헛되게 하지 않을게요.",
 			typewriter = {
 				speed = 0.05,

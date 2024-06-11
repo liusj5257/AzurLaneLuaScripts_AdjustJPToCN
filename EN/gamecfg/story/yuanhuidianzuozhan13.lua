@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "The experiment was nearing its final stage.",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "The experiment was nearing its final stage.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "Blücher's fleet of capital ships tried to push through with brute force only to be stopped and swiftly defeated by a single battleship Pawn.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "What followed was another victory for Brünhilde. All areas were now under her control, save for one – the base's last line of defense.",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "Blücher and Z16 were facing defeat. If Brünhilde conquered their base, that would spell the end of the experiment.",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "Mirror Sea - Iron Blood Encampment",
@@ -80,17 +80,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -346,8 +346,8 @@ return {
 			actor = 401160,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey, Thiele! Just had breakfast – probably the best I've ever had!",
 			flashout = {
 				dur = 1,
@@ -357,8 +357,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -455,10 +455,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 403020,
+			bgName = "bg_yuanhuidian",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...This is just a hunch, but I think that conversation only took place in your head.",
 			effects = {
 				{
@@ -474,8 +474,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0

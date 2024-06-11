@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "法系D3 阿尔及利亚",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 8689,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8689,
+	color = "red",
 	last_effect = "",
 	blink = {
 		1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_ignited",
-				number = 0.15
+				number = 0.15,
+				attr = "DMG_TAG_EHC_ignited"
 			}
 		},
 		{
@@ -32,8 +32,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.05
+				number = 0.05,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

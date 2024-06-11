@@ -1,13 +1,13 @@
 return {
-	id = "W866010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W866010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "실험장 기후 조절 장치를 사용하여 5x5 구역 내의 모든 유빙을 제거할 수 있습니다. 사용하시겠습니까?",
 			typewriter = {
 				speed = 0.05,

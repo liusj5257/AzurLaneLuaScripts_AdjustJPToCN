@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ヒガンバナの恋\n\n<size=45>そのニ　無双の伝承</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			bgm = "story-4",
+			say = "昼・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "昼・演習海域",
+			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "艦載機が急降下する時に引き起こした風切り音と、爆弾が標的艦を破壊する時の爆発音による、交響が鳴り響いた――その後。",
 			typewriter = {
 				speed = 0.05,
@@ -38,11 +38,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "はぁ…はぁ……きょ、今日はいつも以上の鬼教官っぷりですね…",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.3,
 					x = 0,
 					number = 2
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "そうね……赤城先輩になにかあったのかしら…こんなに厳しい合同訓練なんては結構久々じゃない……？",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうね……赤城先輩になにかあったのかしら…こんなに厳しい合同訓練なんては結構久々じゃない……？",
+			actor = 307030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -179,15 +179,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "これぐらいで声を上げるなんて…それでも重桜航空戦隊の一員か！？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -260,12 +260,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "赤城、整列が終わった。指揮官、皆はああ見えてもこの演習で力を十二分につけようとしている。情けは無用だ。",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "赤城、整列が終わった。指揮官、皆はああ見えてもこの演習で力を十二分につけようとしている。情けは無用だ。",
+			actor = 307020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -280,12 +280,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "……では指揮官様、赤城は合同訓練に戻りますわ。ご見学されたいのでしたらあそこに移動して頂戴。うふふ♪",
 			typewriter = {
 				speed = 0.05,

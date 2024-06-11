@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "후후후, 무르긴~ 우리가 미끼 작전에 걸려들 줄 알았어?",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

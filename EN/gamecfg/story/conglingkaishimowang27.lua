@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			sequence = {
 				{
@@ -21,17 +21,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,11 +39,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "The party of heroes returned to the Royal Capital and were given a warm welcome befitting their valorous feat.",
 			bgm = "story-mmorpg",
+			say = "The party of heroes returned to the Royal Capital and were given a warm welcome befitting their valorous feat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "After all the festivities, Fu Shun suggested that the party pay a visit to Ursp Village.",
 			typewriter = {
@@ -85,17 +85,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -129,29 +129,29 @@ return {
 			}
 		},
 		{
-			actor = 201371,
-			side = 2,
 			bgName = "star_level_bg_158",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 201371,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Following that, Nubian returned to Thermalq Village and went back to providing free medical care for the villagers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			say = "The potion maker never did bring anyone else to Silverbank Island. She was simply too busy with other things.",
 			typewriter = {
@@ -194,17 +194,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -225,29 +225,29 @@ return {
 			}
 		},
 		{
-			actor = 202341,
-			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 202341,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Liverpool and Unicorn joined the holy church in the capital and devoted themselves to honing their skills.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "After committing hundreds of years of their lives to fighting a lonesome war in the uninhabited wastes, the vampire hunters were finally acknowledged and accepted by the kingdom.",
 			typewriter = {
@@ -290,17 +290,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "Word that life had returned to the Wasteland quickly reached all the corners of the kingdom.",
 			typewriter = {
@@ -330,17 +330,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "As a result, the whole kingdom experienced a settlement boom.",
 			typewriter = {
@@ -397,29 +397,29 @@ return {
 			}
 		},
 		{
-			actor = 205130,
-			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 205130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Demon King's defeat led to the kingdom becoming quite busy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -453,29 +453,29 @@ return {
 			}
 		},
 		{
-			actor = 907010,
-			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The restoration of the Royal Crown Wall Ruins went orderly, thanks to the oversight of the holy church.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "The ruins of the old Royal Capital, on the other hand, were simply too decayed. The king was forced to give up on her plans to restore them.",
 			typewriter = {
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "However, the many artifacts buried among the rubble proved a great source of wealth all the same.",
 			typewriter = {
@@ -557,11 +557,11 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_105",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Finally, there's the fate of that commander, which remains a mystery.",
 			typewriter = {
@@ -569,17 +569,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -591,9 +591,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Some say this hero became a lord over some remote region.",
 			typewriter = {
@@ -606,9 +606,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Others say this legendary figure went back to the witch in the tower and became her disciple for a hundred years.",
 			typewriter = {
@@ -621,9 +621,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "There are also some local chronicles that say the commander created a new party and traveled to distant lands in search of the New World.",
 			typewriter = {
@@ -636,9 +636,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Some folk records even claim that this human was in fact the true Demon King and was now in control of the entire kingdom.",
 			typewriter = {
@@ -651,9 +651,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "But, if you asked the other members of this legendary party what they thought...",
 			typewriter = {
@@ -666,9 +666,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "They would tell you that the commander is probably off in some peaceful place, enjoying the quiet life.",
 			typewriter = {
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 1,
 			blackBg = true,
 			sequence = {
@@ -693,8 +693,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			sequence = {
 				{
 					"The End",
@@ -703,9 +703,9 @@ return {
 			}
 		},
 		{
+			spacing = 40,
 			time = 50,
 			mode = 6,
-			spacing = 40,
 			layout = {
 				{
 					4

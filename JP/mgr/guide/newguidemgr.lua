@@ -13,7 +13,7 @@ slot5 = 3
 slot6 = 4
 slot7 = 5
 
-function slot8(...)
+slot8 = function(...)
 	if not uv0 then
 		return
 	end
@@ -21,7 +21,7 @@ function slot8(...)
 	print(...)
 end
 
-function slot9(slot0, slot1)
+slot9 = function(slot0, slot1)
 	slot0.players = {
 		[GuideStep.TYPE_DOFUNC] = GuideDoFunctionPlayer.New(slot1),
 		[GuideStep.TYPE_DONOTHING] = GuideDoNothingPlayer.New(slot1),
@@ -33,11 +33,11 @@ function slot9(slot0, slot1)
 	}
 end
 
-function slot10(slot0)
+slot10 = function(slot0)
 	return Guide.New(require("GameCfg.guide.newguide.segments." .. slot0))
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.sceneRecords = {}
 	slot0.state = uv0
 
@@ -64,15 +64,15 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.PlayNothing(slot0)
+slot0.PlayNothing = function(slot0)
 	SetActive(slot0._go, true)
 end
 
-function slot0.StopNothing(slot0)
+slot0.StopNothing = function(slot0)
 	SetActive(slot0._go, false)
 end
 
-function slot0.Play(slot0, slot1, slot2, slot3, slot4)
+slot0.Play = function(slot0, slot1, slot2, slot3, slot4)
 	if not slot0:CanPlay() then
 		uv0("can not play guide " .. slot1)
 		slot3()
@@ -84,11 +84,11 @@ function slot0.Play(slot0, slot1, slot2, slot3, slot4)
 	slot0:PlayScript(uv1(slot1), slot2, slot3, slot4)
 end
 
-function slot0._Play(slot0, slot1, slot2, slot3, slot4)
+slot0._Play = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:PlayScript(Guide.New(slot1), slot2, slot3, slot4)
 end
 
-function slot0.PlayScript(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayScript = function(slot0, slot1, slot2, slot3, slot4)
 	if not slot1 then
 		uv0("should exist guide file ")
 		slot3()
@@ -122,7 +122,7 @@ function slot0.PlayScript(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.CanPlay(slot0)
+slot0.CanPlay = function(slot0)
 	if pg.MsgboxMgr.GetInstance()._go.activeSelf or pg.NewStoryMgr.GetInstance():IsRunning() or not uv0.ENABLE_GUIDE or not slot0:IsLoaded() or slot0:IsPause() or slot0:IsBusy() then
 		return false
 	end
@@ -130,7 +130,7 @@ function slot0.CanPlay(slot0)
 	return true
 end
 
-function slot0.OnStart(slot0)
+slot0.OnStart = function(slot0)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.state = uv0
@@ -143,7 +143,7 @@ function slot0.OnStart(slot0)
 	end)
 end
 
-function slot0.OnEnd(slot0, slot1)
+slot0.OnEnd = function(slot0, slot1)
 	slot0.uiLongPress.onLongPressed:RemoveAllListeners()
 	pg.DelegateInfo.Dispose(slot0)
 
@@ -156,7 +156,7 @@ function slot0.OnEnd(slot0, slot1)
 	end
 end
 
-function slot0.Pause(slot0)
+slot0.Pause = function(slot0)
 	if slot0:IsBusy() then
 		slot0.state = uv0
 
@@ -164,7 +164,7 @@ function slot0.Pause(slot0)
 	end
 end
 
-function slot0.Resume(slot0)
+slot0.Resume = function(slot0)
 	if slot0:IsPause() then
 		slot0.state = uv0
 
@@ -172,23 +172,22 @@ function slot0.Resume(slot0)
 	end
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	if slot0.state ~= uv0 then
 		if slot0.OnFailed then
 			slot0.OnFailed()
 		end
-
-		slot0:Clear()
 
 		slot0.state = uv0
 
 		slot0.uiFinder:Clear()
 		slot0.uiDuplicator:Clear()
 		slot0.uiLoader:Clear()
+		slot0:Clear()
 	end
 end
 
-function slot0.NextStep(slot0)
+slot0.NextStep = function(slot0)
 	if not IsUnityEditor then
 		return
 	end
@@ -198,11 +197,10 @@ function slot0.NextStep(slot0)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0.OnFailed = nil
 	slot0.sceneRecords = {}
 
-	pg.m02:sendNotification(GAME.END_GUIDE)
 	slot0._go:SetActive(false)
 
 	for slot4, slot5 in ipairs(slot0.players) do
@@ -212,25 +210,27 @@ function slot0.Clear(slot0)
 	if slot0.player then
 		slot0.player = nil
 	end
+
+	pg.m02:sendNotification(GAME.END_GUIDE)
 end
 
-function slot0.IsPause(slot0)
+slot0.IsPause = function(slot0)
 	return slot0.state and slot0.state == uv0
 end
 
-function slot0.IsBusy(slot0)
+slot0.IsBusy = function(slot0)
 	return slot0.state and slot0.state == uv0
 end
 
-function slot0.IsLoaded(slot0)
+slot0.IsLoaded = function(slot0)
 	return slot0.state and uv0 < slot0.state
 end
 
-function slot0.IsStop(slot0)
+slot0.IsStop = function(slot0)
 	return slot0.state and slot0.state == uv0
 end
 
-function slot0.OnSceneEnter(slot0, slot1)
+slot0.OnSceneEnter = function(slot0, slot1)
 	if not slot0:IsLoaded() then
 		return
 	end
@@ -244,7 +244,7 @@ function slot0.OnSceneEnter(slot0, slot1)
 	end
 end
 
-function slot0.OnSceneExit(slot0, slot1)
+slot0.OnSceneExit = function(slot0, slot1)
 	if not slot0:IsLoaded() then
 		return
 	end
@@ -254,11 +254,11 @@ function slot0.OnSceneExit(slot0, slot1)
 	end
 end
 
-function slot0.ExistScene(slot0, slot1)
+slot0.ExistScene = function(slot0, slot1)
 	return table.contains(slot0.sceneRecords, slot1)
 end
 
-function slot0.Exit(slot0)
+slot0.Exit = function(slot0)
 	slot0:Clear()
 	slot0.uiFinder:Clear()
 	slot0.uiDuplicator:Clear()

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN15",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_600",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "말끝을 흐리며 요리사는 당신을 뚫어져라 쳐다보았습니다.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,9 +55,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "아! 미, 미안해… 당신이 큰 아가씨의… 소꿉친구랑 많이 닮은 것 같아서…",
 			typewriter = {
@@ -70,9 +70,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "(작은 목소리로) …설정이긴 한데, 일단은 둘 다 얼굴이 잘생겼고…",
 			typewriter = {
@@ -122,10 +122,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "그, 그건…",
 			typewriter = {
@@ -138,9 +138,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "에식스",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "요리사는 동요하는 모습을 보였습니다. 아무래도 그 이름을 입에 올리는 것은 금기처럼 여겨지는 듯합니다.",
 			typewriter = {
@@ -153,10 +153,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "나, 나는 그… 마음대로 성주님의 가정 사정을 말할 수 있는 입장이 아니어서…",
 			typewriter = {
@@ -169,10 +169,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "방금 건 내 말실수였어. 일을 방해하면 안 되니까, 나중에 또 올게.",
 			typewriter = {
@@ -224,9 +224,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "D100 판정, 99… 아… 으흠… 꽤 참혹한 결과가 나왔네요…",
 			typewriter = {
@@ -239,9 +239,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이건 어떻게 전개를 짜야 하나…… 자, 잠깐 생각해 볼게요…… 후후후♪",
 			typewriter = {
@@ -254,9 +254,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하이티엔…이 아니라 당신은 지혜를 짜내어 이스트 글림에 전해지는 '진리는 늘 매우 단순하다'는 속담을 기억해 냈습니다.",
 			typewriter = {
@@ -269,9 +269,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 이 아름다운 숙녀를 바로 마주하고 계책이나 잔꾀없이 정정당당하게 호소하기로 마음 먹습니다.",
 			typewriter = {
@@ -284,9 +284,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――\"연회장의 열쇠가 필요해.\"",
 			typewriter = {
@@ -299,9 +299,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 말을 마치고 만족스러운 듯 고개를 끄덕이고는 한 손을 내밀었습니다.",
 			typewriter = {
@@ -314,10 +314,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "…뭐? 집사의 동의가 없으면 열쇠는 넘겨줄 수 없어.",
 			typewriter = {
@@ -330,10 +330,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "음… 그… 일을 방해하면 안 되니까, 나중에 또 올게.",
 			typewriter = {
@@ -346,9 +346,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "안타깝게도 상황이 당신의 생각처럼 흘러가지는 않았습니다. 아무것도 얻지 못한채, 그저 그녀가 멀어지는 것을 바라보는 수밖에 없었습니다.",
 			typewriter = {
@@ -372,9 +372,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_600",
 			factiontag = "성실한 마스터 후배",
-			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "요리사는 허둥지둥 트롤리를 밀며 식당 밖으로 나갔습니다.",
@@ -383,17 +383,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			say = "……찰칵",
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

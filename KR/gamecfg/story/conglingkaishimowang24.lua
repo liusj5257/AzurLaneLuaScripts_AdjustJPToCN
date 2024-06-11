@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "보급소도 함락되고, 이제 남은 것은 오로지 마왕성뿐이다.",
 			bgm = "story-mmorpg",
+			say = "보급소도 함락되고, 이제 남은 것은 오로지 마왕성뿐이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "지금 이 순간에도 마왕성 안에서 천천히 나타나는 방어 마법진이 또렷이 보일 정도다.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "마왕과의 결전의 시간이 드디어 다가왔다.",
 			typewriter = {
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "더워… 마왕성에 가까워질수록 점점 더워지는 것 같아…",
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "누비안, 체온을 낮춰주는 포션 같은 건 없어?",
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런 걸 쓰면 그냥 통째로 얼어버리잖아?!",
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "유니콘, 유우 좀 빌려도 돼?",
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하늘을 날면서 바람을 쐬면 시원해질 것 같은데… 으아?!",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관, 하늘에서 무언가가 이쪽으로 오고 있어!",
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "저건… 왕국군의 전투 천사?!",
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "안 돼! 성녀는 이제 우리 동료라고! 끌려가는 걸 가만히 보고 있을 수만은 없어!",
@@ -291,9 +291,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "전투 천사",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "빛과 정의의 신의 가호가 함께 하기를…",
@@ -306,17 +306,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "전투 천사",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "폐하와 신성 교회로부터 전할 것이 있어 왔습니다.",
 			painting = {
@@ -413,11 +413,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "전투 천사",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "그리고는 인류의 천년기에 있어서 13번째… 그리고 마지막일지도 모르는 대출정을 수행하기로 결심하셨습니다.",
 			painting = {
@@ -520,11 +520,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "전투 천사",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "그곳을 그냥 피해서 지나가면, 마왕 토벌 시에 협공을 당할 수도 있습니다.",
 			painting = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "전투 천사",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "성녀님은… 저와 함께 돌아갈 생각은 없으시지요?",
 			painting = {

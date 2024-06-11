@@ -1,6 +1,6 @@
 slot0 = class("SecondSummaryPage1", import(".SummaryAnimationPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
 return slot0

@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 307060,
 			dir = 1,
+			bgm = "holo-tokiwa",
+			hideOther = true,
 			actorName = "{namecode:96}&{namecode:158}",
 			say = "ホロライブレジスタンス基地？",
-			bgm = "holo-tokiwa",
 			subActors = {
 				{
 					actor = 301490,
@@ -35,8 +35,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "そう！なぜかこの世界にもあった私たちの作った拠点のことだよ。物資もいっぱいあるし、艦船の補給ももしかしたらできるかも！",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -103,10 +103,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "悪である「本社」の圧政に抵抗するために結成された組織、それが「ホロライブレジスタンス」！…って感じ？",
 			dialogShake = {
 				speed = 0.09,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "えっ？んーどうでしょう。その理解は合ってるような合ってないような……",
 			typewriter = {
 				speed = 0.05,
@@ -166,9 +166,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ちゃんと説明しなよ、フブキ",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,8 +193,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "う、うん！実はこれは友達が作った、悪い運営をしばくぞ！っ的なノリでみんなでワイワイやる組織で、別に本気で戦うとかしてないから！",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "まあそんなところよ",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "さっきよく見たら、「ホロサーバー」…今はこの海域全体のことだけど、は海によってたくさんの島々に分けられてるね",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "（ガイドさん……？？？？）",
 			typewriter = {
 				speed = 0.05,

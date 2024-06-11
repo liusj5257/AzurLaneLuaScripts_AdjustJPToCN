@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO9",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "向こうが総出でないのは幸いだね。早く撤収しよう、アルジェリー",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "そうね。早く撤収しましょう…ほかの艦船にも連絡して",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "よし、速力の早い艦船は早く撤退できるとして、あとは私たちで殿をやって少しだけサディアの戦力を引きつけてから――",
 			typewriter = {
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "bg_renaya",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
+			nameColor = "#a9f548",
 			say = "ヴィシアの拠点に帰還するわ！",
 			typewriter = {
 				speed = 0.05,

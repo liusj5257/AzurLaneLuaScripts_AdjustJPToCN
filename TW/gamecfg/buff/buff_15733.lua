@@ -12,12 +12,12 @@ return {
 	desc_get = "血量检测≤25%",
 	name = "",
 	init_effect = "",
+	id = 15373,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15373,
+	color = "red",
 	icon = 15373,
 	last_effect = "",
 	effect_list = {
@@ -38,9 +38,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 15734,
-				hpLowerBound = 0.25,
+				hpSigned = 1,
 				target = "TargetSelf",
-				hpSigned = 1
+				hpLowerBound = 0.25
 			}
 		}
 	}

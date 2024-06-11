@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 15850,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15850,
+	color = "red",
 	icon = 15850,
 	last_effect = "",
 	effect_list = {
@@ -46,9 +46,9 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
+				skill_id = 15853,
 				killer = "self",
-				target = "TargetSelf",
-				skill_id = 15853
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -57,9 +57,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 15853,
 				time = 10,
-				target = "TargetSelf",
-				skill_id = 15853
+				target = "TargetSelf"
 			}
 		}
 	}

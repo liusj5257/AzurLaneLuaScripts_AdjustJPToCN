@@ -4,13 +4,13 @@ slot0.PrioNormal = 1
 slot0.PrioObstacle = 1000
 slot0.PrioForbidden = 1000000
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.cells = slot1
 	slot0.rows = slot2
 	slot0.columns = slot3
 end
 
-function slot0.Find(slot0, slot1, slot2)
+slot0.Find = function(slot0, slot1, slot2)
 	slot1 = {
 		row = slot1.row,
 		column = slot1.column
@@ -46,7 +46,7 @@ slot1 = {
 	}
 }
 
-function slot0._Find(slot0, slot1, slot2)
+slot0._Find = function(slot0, slot1, slot2)
 	slot3 = uv0.PrioForbidden
 	slot4 = {}
 	slot5 = {

@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT2",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10300010,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "저 안색 안 좋던 애들은……다 쫓아낸 걸까나?",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,10 +38,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "이곳을 감싸고 있던 기운이 사라졌습니다. 우선은, 위기에서 벗어난 것 같습니다.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "이곳을 감싸고 있던 기운이 사라졌습니다. 우선은, 위기에서 벗어난 것 같습니다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "그런 것 같네. 가짜 후미뤼르도 쓰러뜨린 것 같고……",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			stopbgm = true,
 			say = "쿠온~ 그러면 안 되요!",
 			typewriter = {
@@ -151,11 +151,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "main-uta",
 			actor = 10300010,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "후미뤼르?! 지, 진짜 후미뤼르지? ……다행이다, 무사했구나!",
-			bgm = "main-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "네, 그럼요. 저는 무사하니 안심하세요.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "이 아이들, 고양이신님이 아는 사람들인 걸까나?",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -365,8 +365,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "나는 쿠온……잘 부탁해.",
 			typewriter = {
 				speed = 0.05,

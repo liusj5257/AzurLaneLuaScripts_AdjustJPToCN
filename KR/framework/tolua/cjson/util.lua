@@ -1,6 +1,6 @@
 slot0 = require("cjson")
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -25,7 +25,7 @@ end
 
 slot2 = nil
 
-function slot3(slot0, slot1, slot2)
+slot3 = function(slot0, slot1, slot2)
 	slot3, slot4, slot5 = nil
 
 	if slot1 then
@@ -185,7 +185,7 @@ return {
 		return uv0, uv1
 	end,
 	run_test = function (slot0, slot1, slot2, slot3, slot4)
-		function slot5(slot0, slot1, slot2)
+		slot5 = function(slot0, slot1, slot2)
 			slot3 = {
 				[true] = ":success",
 				[false] = ":error"
@@ -225,7 +225,7 @@ return {
 		return slot8, slot6
 	end,
 	run_test_group = function (slot0)
-		function slot1(slot0, slot1, slot2)
+		slot1 = function(slot0, slot1, slot2)
 			if type(slot0) == "string" and #slot0 > 0 then
 				print("==> " .. slot0)
 			end

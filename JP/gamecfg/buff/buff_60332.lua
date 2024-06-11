@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "循环",
 	time = 0.2,
+	name = "循环",
+	init_effect = "",
 	picture = "",
 	desc = "标记",
 	stack = 1,

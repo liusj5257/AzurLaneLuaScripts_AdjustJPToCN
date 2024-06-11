@@ -1,19 +1,19 @@
 slot0 = class("RefluxLetterView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RefluxLetterUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateUI()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.OnBackPress(slot0)
+slot0.OnBackPress = function(slot0)
 	slot0:Hide()
 
 	if slot0.closeCB then
@@ -21,11 +21,11 @@ function slot0.OnBackPress(slot0)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.refluxProxy = getProxy(RefluxProxy)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot1 = slot0:findTF("billboard")
 	slot0.billboardTF = slot1
 	slot0.yearText = slot0:findTF("year", slot1)
@@ -41,7 +41,7 @@ function slot0.initUI(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 	slot2 = slot0.refluxProxy.returnLastTimestamp
 	slot4 = slot1:STimeDescS(slot2, "*t")
@@ -53,7 +53,7 @@ function slot0.updateUI(slot0)
 	setText(slot0.countText, slot0.refluxProxy.returnShipNum)
 end
 
-function slot0.setCloseFunc(slot0, slot1)
+slot0.setCloseFunc = function(slot0, slot1)
 	slot0.closeCB = slot1
 end
 

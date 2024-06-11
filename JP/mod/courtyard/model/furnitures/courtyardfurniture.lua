@@ -7,7 +7,7 @@ slot0.STATE_TOUCH = 5
 slot0.STATE_PLAY_MUSIC = 6
 slot0.STATE_STOP_MUSIC = 7
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot2.id
 	slot0.configId = slot2.configId or slot0.id
 	slot0.config = pg.furniture_data_template[slot0.configId]
@@ -27,7 +27,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot0.id, slot0.config.size[1], slot0.config.size[2])
 end
 
-function slot0.InitSlots(slot0)
+slot0.InitSlots = function(slot0)
 	if slot0:IsSpine() then
 		table.insert(slot0.slots, CourtYardFurnitureSpineSlot.New(1, slot0.config.spine))
 
@@ -71,11 +71,11 @@ function slot0.InitSlots(slot0)
 	end
 end
 
-function slot0.GetLevel(slot0)
+slot0.GetLevel = function(slot0)
 	return slot0.config.level
 end
 
-function slot0._InitMusicData(slot0, slot1, slot2, slot3, slot4)
+slot0._InitMusicData = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = type(slot2) == "table" and slot2 or {
 		slot2
 	}
@@ -93,7 +93,7 @@ function slot0._InitMusicData(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.InitMusicData(slot0)
+slot0.InitMusicData = function(slot0)
 	if slot0.config.can_trigger[1] == 3 then
 		slot0:_InitMusicData(1, slot1[2][1], slot1[2][2], slot1[2][3])
 		slot0:_InitMusicData(2, slot1[3][1], slot1[3][2], slot1[3][3])
@@ -102,117 +102,117 @@ function slot0.InitMusicData(slot0)
 	end
 end
 
-function slot0.Init(slot0, slot1, slot2)
+slot0.Init = function(slot0, slot1, slot2)
 	slot0:SetPosition(slot1)
 	slot0:SetDir(slot2)
 end
 
-function slot0.DisableRotation(slot0)
+slot0.DisableRotation = function(slot0)
 	return slot0.config.can_rotate ~= 0 or slot0:IsType(Furniture.TYPE_WALL) or slot0:IsType(Furniture.TYPE_WALL_MAT)
 end
 
-function slot0.IsType(slot0, slot1)
+slot0.IsType = function(slot0, slot1)
 	return slot0.config.type == slot1
 end
 
-function slot0.IsMusicalInstruments(slot0)
+slot0.IsMusicalInstruments = function(slot0)
 	return slot0:IsType(Furniture.TYPE_LUTE)
 end
 
-function slot0.IsRandomSlotType(slot0)
+slot0.IsRandomSlotType = function(slot0)
 	return slot0:IsType(Furniture.TYPE_RANDOM_SLOT)
 end
 
-function slot0.RawGetOffset(slot0)
+slot0.RawGetOffset = function(slot0)
 	slot1 = slot0.config.offset
 
 	return Vector3(slot1[1], slot1[2], 0)
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	uv0.super.SetPosition(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_POSITION_CHANGE, slot1, slot0:GetOffset())
 end
 
-function slot0.UpdateOpFlag(slot0, slot1)
+slot0.UpdateOpFlag = function(slot0, slot1)
 	uv0.super.UpdateOpFlag(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_OP_FLAG_CHANGE, slot0.opFlag)
 end
 
-function slot0.InActivityRange(slot0, slot1)
+slot0.InActivityRange = function(slot0, slot1)
 	return slot1.x < slot0:GetHost():GetStorey():GetRange().x and slot1.y < slot2.y and slot1.x >= 0 and slot1.y >= 0
 end
 
-function slot0.GetObjType(slot0)
+slot0.GetObjType = function(slot0)
 	return CourtYardConst.OBJ_TYPE_COMMOM
 end
 
-function slot0.GetDeathType(slot0)
+slot0.GetDeathType = function(slot0)
 	return CourtYardConst.DEPTH_TYPE_FURNITURE
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return slot0.config.type
 end
 
-function slot0.GetPicture(slot0)
+slot0.GetPicture = function(slot0)
 	return slot0.config.picture
 end
 
-function slot0.IsOverlap(slot0, slot1)
+slot0.IsOverlap = function(slot0, slot1)
 	return _.any(slot0:GetArea(), function (slot0)
 		return slot0 == uv0
 	end)
 end
 
-function slot0.Rotate(slot0)
+slot0.Rotate = function(slot0)
 	uv0.super.SetDir(slot0, slot0.dir == 1 and 2 or 1)
 	slot0:DispatchEvent(CourtYardEvent.ROTATE_FURNITURE, slot0.dir)
 end
 
-function slot0.GetSize(slot0)
+slot0.GetSize = function(slot0)
 	return slot0.sizeX, slot0.sizeY
 end
 
-function slot0.GetArchMask(slot0)
+slot0.GetArchMask = function(slot0)
 	return slot0.config.picture .. "_using"
 end
 
-function slot0.HasDescription(slot0)
+slot0.HasDescription = function(slot0)
 	return #slot0.config.can_trigger > 0 and slot1[1] > 0
 end
 
-function slot0.ExistVoice(slot0)
+slot0.ExistVoice = function(slot0)
 	return slot0.config.can_trigger[2] ~= nil, slot1[1]
 end
 
-function slot0.GetIcon(slot0)
+slot0.GetIcon = function(slot0)
 	return slot0.config.icon
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.config.name
 end
 
-function slot0.GetAddDate(slot0)
+slot0.GetAddDate = function(slot0)
 	if slot0.date > 0 then
 		return pg.TimeMgr.GetInstance():STimeDescS(slot0.date, "%Y/%m/%d")
 	end
 end
 
-function slot0.GetComfortable(slot0)
+slot0.GetComfortable = function(slot0)
 	return slot0.config.comfortable
 end
 
-function slot0.GetDescription(slot0)
+slot0.GetDescription = function(slot0)
 	return slot0.config.describe
 end
 
-function slot0.GetAddMode(slot0)
+slot0.GetAddMode = function(slot0)
 	return slot0.config.gain_by
 end
 
-function slot0.GetGametipType(slot0)
+slot0.GetGametipType = function(slot0)
 	return ({
 		i18n("word_wallpaper"),
 		i18n("word_furniture"),
@@ -232,11 +232,11 @@ function slot0.GetGametipType(slot0)
 	})[slot0:GetType()]
 end
 
-function slot0.CanTouch(slot0)
+slot0.CanTouch = function(slot0)
 	return slot0.config.spine and slot0.config.spine[1] and slot0.config.spine[1][3] ~= nil
 end
 
-function slot0.GetTouchAction(slot0)
+slot0.GetTouchAction = function(slot0)
 	if slot0:CanTouch() then
 		slot1 = slot0.config.spine
 
@@ -253,19 +253,19 @@ function slot0.GetTouchAction(slot0)
 	end
 end
 
-function slot0.GetTouchPrepareAction(slot0)
+slot0.GetTouchPrepareAction = function(slot0)
 	if slot0:CanTouch() then
 		return slot0.config.spine[1][3][6]
 	end
 end
 
-function slot0.GetTouchBg(slot0)
+slot0.GetTouchBg = function(slot0)
 	if slot0:CanTouch() then
 		return slot0.config.spine[1][3][7]
 	end
 end
 
-function slot0.TriggerTouchDefault(slot0)
+slot0.TriggerTouchDefault = function(slot0)
 	if slot0:CanTouch() and slot0.config.spine[1][3][8] and slot0.config.spine[1][3][8] > 0 then
 		return true
 	end
@@ -273,7 +273,7 @@ function slot0.TriggerTouchDefault(slot0)
 	return false
 end
 
-function slot0.GetTouchSound(slot0)
+slot0.GetTouchSound = function(slot0)
 	if slot0:CanTouch() then
 		if type(slot0.config.spine[1][3][4]) == "table" then
 			return slot1[math.random(1, #slot1)]
@@ -283,29 +283,29 @@ function slot0.GetTouchSound(slot0)
 	end
 end
 
-function slot0.GetTouchEffect(slot0)
+slot0.GetTouchEffect = function(slot0)
 	if slot0:CanTouch() then
 		return slot0.config.spine[1][3][5]
 	end
 end
 
-function slot0.IsTouchState(slot0)
+slot0.IsTouchState = function(slot0)
 	return slot0.state == uv0.STATE_TOUCH or slot0.state == uv0.STATE_TOUCH_PREPARE
 end
 
-function slot0.IsDragingState(slot0)
+slot0.IsDragingState = function(slot0)
 	return slot0.state == uv0.STATE_DRAG
 end
 
-function slot0.IsSpine(slot0)
+slot0.IsSpine = function(slot0)
 	return type(slot0.config.spine) == "table"
 end
 
-function slot0.GetFirstSlot(slot0)
+slot0.GetFirstSlot = function(slot0)
 	return slot0.slots[1]
 end
 
-function slot0.AnySlotIsLoop(slot0)
+slot0.AnySlotIsLoop = function(slot0)
 	for slot4, slot5 in pairs(slot0.slots) do
 		if slot5.loop then
 			return true
@@ -315,7 +315,7 @@ function slot0.AnySlotIsLoop(slot0)
 	return false
 end
 
-function slot0.GetMaskNames(slot0)
+slot0.GetMaskNames = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.slots) do
@@ -327,11 +327,11 @@ function slot0.GetMaskNames(slot0)
 	return slot1
 end
 
-function slot0.IsMultiMask(slot0)
+slot0.IsMultiMask = function(slot0)
 	return not slot0:IsSpine() and table.getCount(slot0:GetMaskNames()) > 0 and slot0:GetSlotCnt() > 1
 end
 
-function slot0.GetBodyMasks(slot0)
+slot0.GetBodyMasks = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.slots) do
@@ -343,7 +343,7 @@ function slot0.GetBodyMasks(slot0)
 	return slot1
 end
 
-function slot0.GetAnimators(slot0)
+slot0.GetAnimators = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.slots) do
@@ -355,7 +355,7 @@ function slot0.GetAnimators(slot0)
 	return slot1
 end
 
-function slot0.GetAnimatorMask(slot0)
+slot0.GetAnimatorMask = function(slot0)
 	if not slot0.config.animator then
 		return nil
 	end
@@ -368,7 +368,7 @@ function slot0.GetAnimatorMask(slot0)
 	end
 end
 
-function slot0.CanInterAction(slot0, slot1)
+slot0.CanInterAction = function(slot0, slot1)
 	return _.any(slot0.slots, function (slot0)
 		return slot0:IsEmpty()
 	end) and not slot0:IsPlayMusicState() and (#slot0.config.interAction_group == 0 or _.any(slot0.config.interAction_group, function (slot0)
@@ -376,11 +376,11 @@ function slot0.CanInterAction(slot0, slot1)
 	end))
 end
 
-function slot0.IsPlayMusicState(slot0)
+slot0.IsPlayMusicState = function(slot0)
 	return slot0.state == uv0.STATE_PLAY_MUSIC
 end
 
-function slot0.GetInteractionSlot(slot0)
+slot0.GetInteractionSlot = function(slot0)
 	if slot0:IsRandomSlotType() then
 		slot1 = {}
 
@@ -398,13 +398,13 @@ function slot0.GetInteractionSlot(slot0)
 	end
 end
 
-function slot0._ChangeState(slot0, slot1)
+slot0._ChangeState = function(slot0, slot1)
 	slot0.state = slot1
 
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_STATE_CHANGE, slot1)
 end
 
-function slot0.ChangeState(slot0, slot1)
+slot0.ChangeState = function(slot0, slot1)
 	if slot0:IsPlayMusicState() and slot1 ~= uv0.STATE_STOP_MUSIC then
 		return
 	end
@@ -432,15 +432,15 @@ function slot0.ChangeState(slot0, slot1)
 	end
 end
 
-function slot0.IsInteractionState(slot0)
+slot0.IsInteractionState = function(slot0)
 	return slot0.state == uv0.STATE_INTERACT
 end
 
-function slot0.WillInteraction(slot0, slot1)
+slot0.WillInteraction = function(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_WILL_INTERACTION, slot1)
 end
 
-function slot0.StartInteraction(slot0, slot1)
+slot0.StartInteraction = function(slot0, slot1)
 	_.each(slot0.slots, function (slot0)
 		if slot0.id ~= uv0.id and slot0:IsUsing() then
 			table.insert(uv1, slot0)
@@ -466,17 +466,17 @@ function slot0.StartInteraction(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_START_INTERACTION, slot1)
 end
 
-function slot0.UpdateInteraction(slot0, ...)
+slot0.UpdateInteraction = function(slot0, ...)
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_UPDATE_INTERACTION, ...)
 end
 
-function slot0.AnySlotIsUsing(slot0)
+slot0.AnySlotIsUsing = function(slot0)
 	return _.any(slot0.slots, function (slot0)
 		return slot0:IsUsing()
 	end)
 end
 
-function slot0.ClearInteraction(slot0, slot1)
+slot0.ClearInteraction = function(slot0, slot1)
 	for slot6, slot7 in ipairs(_.select(slot0.slots, function (slot0)
 		return slot0.id ~= uv0.id and slot0:IsUsing()
 	end)) do
@@ -492,7 +492,7 @@ function slot0.ClearInteraction(slot0, slot1)
 	end)
 end
 
-function slot0.GetUsingSlots(slot0)
+slot0.GetUsingSlots = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.slots) do
@@ -504,15 +504,15 @@ function slot0.GetUsingSlots(slot0)
 	return slot1
 end
 
-function slot0.GetSlotCnt(slot0)
+slot0.GetSlotCnt = function(slot0)
 	return #slot0.slots
 end
 
-function slot0.GetMusicData(slot0)
+slot0.GetMusicData = function(slot0)
 	return slot0.musicData
 end
 
-function slot0.GetInterActionBgm(slot0)
+slot0.GetInterActionBgm = function(slot0)
 	if type(slot0.config.interaction_bgm) == "string" then
 		return slot0.config.interaction_bgm, 0
 	elseif slot1 == "table" then
@@ -522,11 +522,11 @@ function slot0.GetInterActionBgm(slot0)
 	end
 end
 
-function slot0.CanClickWhenExitEditMode(slot0)
+slot0.CanClickWhenExitEditMode = function(slot0)
 	return slot0:HasDescription() or slot0:CanTouch()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
 	for slot4, slot5 in ipairs(slot0:GetUsingSlots()) do
@@ -534,7 +534,7 @@ function slot0.Dispose(slot0)
 	end
 end
 
-function slot0.ToTable(slot0)
+slot0.ToTable = function(slot0)
 	slot1 = slot0:GetPosition()
 
 	return {

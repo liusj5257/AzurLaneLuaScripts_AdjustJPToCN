@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Saffron Travelogue\n\n<size=45>Know Your Enemy</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Two days before the mock battle...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Two days before the mock battle...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = -1,
 			say = "Port - Eagle Union Dormitory",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Wait, you're going to ask Enterprise of all people?!",
 			typewriter = {
@@ -109,15 +109,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "Greetings. I hope this isn't a bad time.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,15 +174,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "Huh, so basically, you're here to ask about Hornet? You sure are diligent.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -319,15 +319,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Ahh... Achooo!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -362,12 +362,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "*sniff*... I've got a hunch like somebody's talking about me...",
 			typewriter = {
 				speed = 0.05,

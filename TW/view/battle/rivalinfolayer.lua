@@ -2,15 +2,15 @@ slot0 = class("RivalInfoLayer", import("..base.BaseUI"))
 slot0.TYPE_DISPLAY = 1
 slot0.TYPE_BATTLE = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RivalInfoUI"
 end
 
-function slot0.setRival(slot0, slot1)
+slot0.setRival = function(slot0, slot1)
 	slot0.rivalVO = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():LoadingOn()
 	onButton(slot0, findTF(slot0._tf, "bg"), function ()
 		uv0:emit(uv1.ON_CLOSE)
@@ -40,7 +40,7 @@ function slot0.didEnter(slot0)
 	setActive(slot0.realNameToggle, pg.PushNotificationMgr.GetInstance():isEnableShipName())
 end
 
-function slot0.UpdateNames(slot0)
+slot0.UpdateNames = function(slot0)
 	for slot4, slot5 in pairs(slot0.names) do
 		slot7 = slot5[2]
 
@@ -48,7 +48,7 @@ function slot0.UpdateNames(slot0)
 	end
 end
 
-function slot0.initRivalInfo(slot0)
+slot0.initRivalInfo = function(slot0)
 	setText(findTF(slot0._tf, "info/name/container/name"), slot0.rivalVO.name)
 	setText(findTF(slot0._tf, "info/name/container/lv"), "Lv." .. slot0.rivalVO.level)
 	setActive(findTF(slot0._tf, "info/rank"), slot0.rivalVO.rank ~= nil)
@@ -79,12 +79,12 @@ function slot0.initRivalInfo(slot0)
 
 	slot0.names = {}
 
-	function slot1(slot0, slot1)
+	slot1 = function(slot0, slot1)
 		flushShipCard(slot0, slot1)
 		setScrollText(findTF(slot0, "content/info/name_mask/name"), slot1:GetColorName(getProxy(PlayerProxy):getRawData():ShouldCheckCustomName() and slot1:GetDefaultName() or slot1:getName()))
 	end
 
-	function slot2(slot0, slot1, slot2, slot3)
+	slot2 = function(slot0, slot1, slot2, slot3)
 		slot4 = cloneTplTo(uv0.shipCardTpl, slot2)
 		slot4.localScale = Vector3(1.1, 1.1, 1)
 
@@ -135,7 +135,7 @@ function slot0.initRivalInfo(slot0)
 	end))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 

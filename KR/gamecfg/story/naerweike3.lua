@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201200,
 			nameColor = "#92fc63",
 			side = 0,
-			bgm = "level02",
 			dir = 1,
 			say = "북극권, 온통 눈으로 새하얗네……",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "설원에서 사냥하는 것도 재밌을 것 같아…",
 			typewriter = {
 				speed = 0.05,
@@ -41,9 +41,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = -1,
 			actor = 201160,
 			nameColor = "#92fc63",
-			dir = -1,
 			say = "헌터, 무슨 말을 하는 거예요!? 우린 임무 때문에 온 거라구요?",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "네에, 네에……",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "그렇지도 않을 것 같은데. 히퍼는 글로우웜에게 격퇴됐고, 샤른호르스트 자매가 향한 방향도 나르비크가 아냐……",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "그 말은 일리 있네요… 글로우웜도 히퍼와 싸우기 전에 호위함과도 교전했으니까, 이번 상대는 그 아이들이라고 생각하는 편이 좋을지도 몰라요.",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "그렇네. 미안, 하디. 내가 말해줄 수 있는 건 이 정도밖에 없어서……",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "아니에요, 그 정도 정보라도 충분히 판단 근거가 되는 걸요.",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "이번 싸움에선 우리도 글로우웜을 본받아서, 적에 당당히 맞서는 로열 네이비의 의지를 보여줘야 해요.",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "글로우웜… 아마 그렇게까지 생각해서 한 건 아닐 텐데……",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "나중에 칭찬해주자.",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "…응.",
 			typewriter = {
 				speed = 0.05,
@@ -429,10 +429,10 @@ return {
 			}
 		},
 		{
-			actorName = "구축함들",
 			nameColor = "#92fc63",
-			side = 2,
+			actorName = "구축함들",
 			dir = 1,
+			side = 2,
 			say = "네!",
 			dialogShake = {
 				speed = 0.09,

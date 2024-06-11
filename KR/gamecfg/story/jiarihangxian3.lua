@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			side = 2,
-			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "doa_daozhong",
 			actor = 900300,
-			actorName = "？？？",
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_106",
 			say = "아, 카스미가 돌아왔어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "다녀왔습니다~",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "후훗, 먼저 소개할게요. 이분들은 방금 탐색을 하던 중에 만난 분들이에요. Z23, 재블린, 아야나미, 그리고 라피 씨.",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "이분들은 저와 함께 이곳으로 오게 된 친구들입니다——",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "저는 마리 로즈. 마리라고 불러주세요!",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 900301,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900301,
+			nameColor = "#a9f548",
 			say = "처음 뵙겠습니다. 호노카예요. 그럼… 잘 부탁해요!",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -196,8 +196,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "견습 딜러 모니카예요~ 잘 부탁드립니다. 히히~",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "나는 뇨텐구. 그대들은 흥미로운 것을 가지고 온 것 같구나~?",
 			typewriter = {
@@ -227,13 +227,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "시간이 지나 서로의 상황을 이해하게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "맞아요. 처음엔 정말 놀랐답니다! 다행히 섬에는 필요한 시설과 물자가 있었긴 했지만요…",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "그리고 이런 수상한 편지도……",
 			typewriter = {
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
-			actorName = "단말기",
 			dir = 1,
+			actorName = "단말기",
 			say = "「먼 곳의 <Venus>들이여. 바캉스 섬에 오신 걸 환영합니다!」",
 			dialogShake = {
 				speed = 0.09,
@@ -472,8 +472,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "단말기",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "단말기",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "단말기",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "우후후…마침 섬에 작은 보트가 있어서 섬 주변을 돌아보려다가 여러분과 만나게 되었어요.",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "응? 새로운 \"지령\"이 온 거 같은데요…",
 			typewriter = {
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "단말기",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -618,12 +618,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "그…그럼, 비너스…? 여러분 저희와 함께 모항으로 가시죠! 지금의 상황을 지휘관님께 보고하지 않으면 안 되니까요!",
 			typewriter = {
 				speed = 0.05,
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

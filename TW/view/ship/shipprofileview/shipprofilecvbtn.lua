@@ -1,6 +1,6 @@
 slot0 = class("ShipProfileCvBtn")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0._go = go(slot1)
 	slot0.nameTxt = slot0._tf:Find("Text"):GetComponent(typeof(Text))
@@ -11,7 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.playIcon = slot0._tf:Find("play_icon")
 end
 
-function slot0.Init(slot0, slot1, slot2, slot3, slot4)
+slot0.Init = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.shipGroup = slot1
 	slot0.isLive2d = slot3
 	slot0.skin = slot2
@@ -61,7 +61,7 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 	}
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot2 = slot0.voice.unlock_condition[1] < 0
 	slot3 = slot0.wordData.textContent == nil or slot0.wordData.textContent == "nil" or slot0.wordData.textContent == ""
 
@@ -80,7 +80,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.UpdateCvBtn(slot0)
+slot0.UpdateCvBtn = function(slot0)
 	slot3, slot4 = slot0.shipGroup:VoiceReplayCodition(slot0.voice)
 	slot0.nameTxt.text = slot3 and slot1.voice_name or "???"
 
@@ -93,19 +93,19 @@ function slot0.UpdateCvBtn(slot0)
 	end
 end
 
-function slot0.UpdateIcon(slot0)
-	setActive(slot0.playIcon, slot0.voice.key == "unlock" and PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/star_level_unlock_anim_" .. slot0.skin.id)))
+slot0.UpdateIcon = function(slot0)
+	setActive(slot0.playIcon, slot0.voice.key == "unlock" and checkABExist("ui/skinunlockanim/star_level_unlock_anim_" .. slot0.skin.id))
 end
 
-function slot0.L2dHasEvent(slot0)
+slot0.L2dHasEvent = function(slot0)
 	return slot0.l2dEventFlag
 end
 
-function slot0.isEx(slot0)
+slot0.isEx = function(slot0)
 	return false
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	Destroy(slot0._go)
 	removeOnButton(slot0._tf)
 end

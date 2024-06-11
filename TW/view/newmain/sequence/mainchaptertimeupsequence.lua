@@ -1,6 +1,6 @@
 slot0 = class("MainChapterTimeUpSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	slot2 = getProxy(ChapterProxy)
 
 	slot2:checkRemasterInfomation()

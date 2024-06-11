@@ -10,12 +10,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-12",
-			actor = 1100,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			bgm = "qe-ova-12",
+			tbActor = true,
+			actor = 1100,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}, do you have a moment? I'd like some advice on what club I should apply to.",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "With an anxious look, she softly places a flyer on the table in front of me.",
@@ -64,14 +64,14 @@ return {
 			}
 		},
 		{
-			actor = 1100,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "That's the issue. I don't know which of them to choose...",
+			bgName = "bg_project_tb_room3",
 			tbActor = true,
+			actor = 1100,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "That's the issue. I don't know which of them to choose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,10 +81,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "More specifically, I don't have any real hobbies, so none of them jump out at me.",
 			typewriter = {
@@ -96,10 +96,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "I'm even starting to consider just trying them all out before I decide...",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "After mulling it over for a while, she accepts my advice.",
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "Here's hoping she'll find something she enjoys.",

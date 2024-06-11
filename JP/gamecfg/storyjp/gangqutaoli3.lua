@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港脱出作戦！\n\n<size=45>三　天の助け！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202180,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ご機嫌麗しゅうございます。エディンバラ級軽巡洋艦、ロイヤルメイド隊の見習いメイド・ベルファストです",
 			bgm = "story-1",
+			actor = 202180,
+			nameColor = "#a9f548",
+			say = "ご機嫌麗しゅうございます。エディンバラ級軽巡洋艦、ロイヤルメイド隊の見習いメイド・ベルファストです",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -22.5,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "お、お初にお目にかかります。重桜の巡洋戦艦・比叡と申します",
 			typewriter = {
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "三人",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "我らはここに指揮官に誘拐された艦船で、この母港から脱出しようとして道に迷っていたところだ",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "それはどうだろう…とにかく、比叡たちは海を見に行きたいのですが、ご案内いただけますか…？",
 			typewriter = {
@@ -209,15 +209,15 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "こちらは大講堂になります。今は授業中なので皆教室にいますよ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "（みんな、仲良く授業している……すごく平和……）",
 			typewriter = {
@@ -307,15 +307,15 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "ここを通れば裏山の重桜神社ですね。お正月になりますと皆初詣しに来ますね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "（うん？比叡すごく震えてるけど……なんで？）",
 			typewriter = {
@@ -439,14 +439,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 407020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "へ、ヘトヘト……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "？？お客様を母港見学しながら埠頭まで案内するのではありませんでした…？",
 			typewriter = {
 				speed = 0.05,

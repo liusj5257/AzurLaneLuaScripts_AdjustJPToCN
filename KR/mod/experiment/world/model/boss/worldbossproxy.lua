@@ -2,31 +2,31 @@ slot0 = class("WorldBossProxy", import("....BaseEntity"))
 slot1 = "WorldbossFleet"
 slot2 = "WorldbossFleet_for_archives"
 slot0.Fields = {
-	summonPtDailyAcc = "number",
-	ptTime = "number",
-	otherBosses = "table",
-	boss = "table",
-	highestDamage = "number",
-	isSetup = "boolean",
-	guildSupport = "number",
-	isFetched = "boolean",
 	ranks = "table",
+	isSetup = "boolean",
+	boss = "table",
+	summonPtDailyAcc = "number",
+	refreshBossesTime = "number",
+	ptTime = "number",
+	summonPtOldDailyAcc = "number",
+	summonFree = "number",
+	otherBosses = "table",
 	summonPt = "number",
-	cacheBosses = "table",
-	timers = "table",
+	highestDamage = "number",
+	guildSupport = "number",
 	archivesId = "number",
 	fleet = "table",
 	summonPtOld = "number",
 	cacheLock = "number",
 	tipProgress = "boolean",
-	summonFree = "number",
+	isFetched = "boolean",
 	fleetForArchives = "table",
 	autoFightFinishTime = "number",
-	summonPtOldDailyAcc = "number",
+	cacheBosses = "table",
 	worldSupport = "number",
 	friendSupport = "number",
 	pt = "number",
-	refreshBossesTime = "number"
+	timers = "table"
 }
 slot0.REFRESH_BOSSES_TIME = 300
 slot0.EventProcessBossListUpdated = "WorldBossProxy.EventProcessBossListUpdated"
@@ -37,7 +37,7 @@ slot0.EventPtUpdated = "WorldBossProxy.EventPtUpdated"
 slot0.EventRankListUpdated = "WorldBossProxy.EventRankListUpdated"
 slot0.EventUnlockProgressUpdated = "WorldBossProxy.EventUnlockProgressUpdated"
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.pt = slot0:GetMaxPt() - (slot1.fight_count or 0)
 
 	if slot1.self_boss then
@@ -74,99 +74,99 @@ function slot0.Setup(slot0, slot1)
 	slot0.isFetched = false
 end
 
-function slot0.CheckRemouldShip(slot0)
+slot0.CheckRemouldShip = function(slot0)
 	if slot0.fleet and slot0.fleetForArchives then
 		slot0:GenFleet()
 	end
 end
 
-function slot0.FriendSupported(slot0)
+slot0.FriendSupported = function(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() < slot0.friendSupport
 end
 
-function slot0.UpdateFriendSupported(slot0)
+slot0.UpdateFriendSupported = function(slot0)
 	slot0.friendSupport = pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.joint_boss_world_time.key_value
 end
 
-function slot0.ClearFriendSupported(slot0)
+slot0.ClearFriendSupported = function(slot0)
 	slot0.friendSupport = 0
 end
 
-function slot0.GetNextFriendSupportTime(slot0)
+slot0.GetNextFriendSupportTime = function(slot0)
 	return slot0.friendSupport
 end
 
-function slot0.GuildSupported(slot0)
+slot0.GuildSupported = function(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() < slot0.guildSupport
 end
 
-function slot0.UpdateGuildSupported(slot0)
+slot0.UpdateGuildSupported = function(slot0)
 	slot0.guildSupport = pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.joint_boss_world_time.key_value
 end
 
-function slot0.ClearGuildSupported(slot0)
+slot0.ClearGuildSupported = function(slot0)
 	slot0.guildSupport = 0
 end
 
-function slot0.GetNextGuildSupportTime(slot0)
+slot0.GetNextGuildSupportTime = function(slot0)
 	return slot0.guildSupport
 end
 
-function slot0.WorldSupported(slot0)
+slot0.WorldSupported = function(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() < slot0.worldSupport
 end
 
-function slot0.UpdateWorldSupported(slot0)
+slot0.UpdateWorldSupported = function(slot0)
 	slot0.worldSupport = pg.TimeMgr.GetInstance():GetServerTime() + pg.gameset.joint_boss_world_time.key_value
 end
 
-function slot0.ClearWorldSupported(slot0)
+slot0.ClearWorldSupported = function(slot0)
 	slot0.worldSupport = 0
 end
 
-function slot0.GetNextWorldSupportTime(slot0)
+slot0.GetNextWorldSupportTime = function(slot0)
 	return slot0.worldSupport
 end
 
-function slot0.UpdateAutoBattleFinishTime(slot0, slot1)
+slot0.UpdateAutoBattleFinishTime = function(slot0, slot1)
 	slot0.autoFightFinishTime = slot1
 end
 
-function slot0.InAutoBattle(slot0)
+slot0.InAutoBattle = function(slot0)
 	return slot0.autoFightFinishTime > 0
 end
 
-function slot0.ClearAutoBattle(slot0)
+slot0.ClearAutoBattle = function(slot0)
 	slot0.autoFightFinishTime = 0
 end
 
-function slot0.GetAutoBattleFinishTime(slot0)
+slot0.GetAutoBattleFinishTime = function(slot0)
 	return slot0.autoFightFinishTime
 end
 
-function slot0.GetHighestDamage(slot0)
+slot0.GetHighestDamage = function(slot0)
 	return slot0.highestDamage
 end
 
-function slot0.UpdateHighestDamage(slot0, slot1)
+slot0.UpdateHighestDamage = function(slot0, slot1)
 	if slot0.highestDamage < slot1 then
 		slot0.highestDamage = slot1
 	end
 end
 
-function slot0.ClearHighestDamage(slot0)
+slot0.ClearHighestDamage = function(slot0)
 	slot0.highestDamage = 0
 end
 
-function slot0.AddSummonFree(slot0, slot1)
+slot0.AddSummonFree = function(slot0, slot1)
 	slot0.summonFree = slot0.summonFree + slot1
 end
 
-function slot0.GetSummonPt(slot0)
+slot0.GetSummonPt = function(slot0)
 	return slot0.summonPt
 end
 
-function slot0.AddSummonPt(slot0, slot1)
+slot0.AddSummonPt = function(slot0, slot1)
 	slot2, slot3, slot4 = WorldBossConst.GetCurrBossConsume()
 
 	if slot3 < slot0.summonPtDailyAcc + slot1 then
@@ -184,27 +184,27 @@ function slot0.AddSummonPt(slot0, slot1)
 	slot0:UpdatedUnlockProgress(slot5, slot0.summonPt)
 end
 
-function slot0.ConsumeSummonPt(slot0, slot1)
+slot0.ConsumeSummonPt = function(slot0, slot1)
 	slot0.summonPt = slot0.summonPt - slot1
 
 	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
-function slot0.GetSummonPtDailyAcc(slot0)
+slot0.GetSummonPtDailyAcc = function(slot0)
 	return slot0.summonPtDailyAcc
 end
 
-function slot0.ClearSummonPtDailyAcc(slot0)
+slot0.ClearSummonPtDailyAcc = function(slot0)
 	slot0.summonPtDailyAcc = 0
 
 	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
-function slot0.GetSummonPtOld(slot0)
+slot0.GetSummonPtOld = function(slot0)
 	return slot0.summonPtOld
 end
 
-function slot0.AddSummonPtOld(slot0, slot1)
+slot0.AddSummonPtOld = function(slot0, slot1)
 	slot2, slot3, slot4 = WorldBossConst.GetAchieveBossConsume()
 
 	if slot3 < slot0.summonPtOldDailyAcc + slot1 then
@@ -219,31 +219,31 @@ function slot0.AddSummonPtOld(slot0, slot1)
 	slot0.summonPtOldDailyAcc = math.min(slot0.summonPtOldDailyAcc + math.min(slot4 - slot0.summonPtOld, slot1), slot3)
 end
 
-function slot0.ConsumeSummonPtOld(slot0, slot1)
+slot0.ConsumeSummonPtOld = function(slot0, slot1)
 	slot0.summonPtOld = slot0.summonPtOld - slot1
 
 	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
-function slot0.ClearSummonPtOldAcc(slot0)
+slot0.ClearSummonPtOldAcc = function(slot0)
 	slot0.summonPtOldDailyAcc = 0
 
 	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
-function slot0.GetSummonPtOldAcc(slot0)
+slot0.GetSummonPtOldAcc = function(slot0)
 	return slot0.summonPtOldDailyAcc
 end
 
-function slot0.GetArchivesId(slot0)
+slot0.GetArchivesId = function(slot0)
 	return slot0.archivesId
 end
 
-function slot0.SetArchivesId(slot0, slot1)
+slot0.SetArchivesId = function(slot0, slot1)
 	slot0.archivesId = slot1
 end
 
-function slot0.BossId2FleetKey(slot0, slot1)
+slot0.BossId2FleetKey = function(slot0, slot1)
 	if slot0:GetBossById(slot1) and not WorldBossConst._IsCurrBoss(slot2) then
 		return uv0
 	else
@@ -251,7 +251,7 @@ function slot0.BossId2FleetKey(slot0, slot1)
 	end
 end
 
-function slot0.GenFleet(slot0)
+slot0.GenFleet = function(slot0)
 	slot0.fleet = Fleet.New({
 		0,
 		id = 1,
@@ -266,8 +266,8 @@ function slot0.GenFleet(slot0)
 	})
 end
 
-function slot0.GetCacheShips(slot0, slot1)
-	function slot2(slot0, slot1)
+slot0.GetCacheShips = function(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		if TeamType.GetTeamShipMax(slot0:getTeamType()) < slot1 + 1 then
 			return true
 		end
@@ -295,7 +295,7 @@ function slot0.GetCacheShips(slot0, slot1)
 	return slot5
 end
 
-function slot0.GetFleet(slot0, slot1)
+slot0.GetFleet = function(slot0, slot1)
 	slot3 = nil
 	slot3 = (uv0 ~= slot0:BossId2FleetKey(slot1) or slot0.fleetForArchives) and slot0.fleet or Fleet.New({
 		0,
@@ -313,7 +313,7 @@ function slot0.GetFleet(slot0, slot1)
 	return slot3
 end
 
-function slot0.UpdateFleet(slot0, slot1, slot2)
+slot0.UpdateFleet = function(slot0, slot1, slot2)
 	if uv0 == slot0:BossId2FleetKey(slot1) then
 		slot0.fleetForArchives = slot2
 	else
@@ -323,7 +323,7 @@ function slot0.UpdateFleet(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv1.EventFleetUpdated)
 end
 
-function slot0.SavaCacheShips(slot0, slot1, slot2)
+slot0.SavaCacheShips = function(slot0, slot1, slot2)
 	slot3 = slot0:BossId2FleetKey(slot1)
 	slot5 = ""
 
@@ -335,20 +335,20 @@ function slot0.SavaCacheShips(slot0, slot1, slot2)
 	PlayerPrefs.Save()
 end
 
-function slot0.ClearCacheShips(slot0, slot1)
+slot0.ClearCacheShips = function(slot0, slot1)
 	PlayerPrefs.DeleteKey(slot0:BossId2FleetKey(slot1) .. getProxy(PlayerProxy):getRawData().id)
 	PlayerPrefs.Save()
 end
 
-function slot0.UpdteRefreshBossesTime(slot0)
+slot0.UpdteRefreshBossesTime = function(slot0)
 	slot0.refreshBossesTime = pg.TimeMgr.GetInstance():GetServerTime() + uv0.REFRESH_BOSSES_TIME
 end
 
-function slot0.ShouldRefreshBosses(slot0)
+slot0.ShouldRefreshBosses = function(slot0)
 	return slot0.refreshBossesTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.UpdateCacheBoss(slot0, slot1)
+slot0.UpdateCacheBoss = function(slot0, slot1)
 	if slot0:IsSelfBoss(slot1) then
 		slot0:UpdateSelfBoss(slot1)
 	else
@@ -358,7 +358,7 @@ function slot0.UpdateCacheBoss(slot0, slot1)
 	end
 end
 
-function slot0.BalanceMaxBossCnt(slot0)
+slot0.BalanceMaxBossCnt = function(slot0)
 	if table.getCount(slot0.cacheBosses) < pg.gameset.boss_cnt_limit.description[1] then
 		return
 	end
@@ -423,7 +423,7 @@ function slot0.BalanceMaxBossCnt(slot0)
 	end
 end
 
-function slot0.RemoveCacheBoss(slot0, slot1)
+slot0.RemoveCacheBoss = function(slot0, slot1)
 	if slot0.cacheBosses[slot1] then
 		slot0.cacheBosses[slot1] = nil
 
@@ -431,23 +431,23 @@ function slot0.RemoveCacheBoss(slot0, slot1)
 	end
 end
 
-function slot0.GetCacheBoss(slot0, slot1)
+slot0.GetCacheBoss = function(slot0, slot1)
 	return slot0.cacheBosses[slot1]
 end
 
-function slot0.LockCacheBoss(slot0, slot1)
+slot0.LockCacheBoss = function(slot0, slot1)
 	slot0.cacheLock = slot1
 end
 
-function slot0.UnlockCacheBoss(slot0)
+slot0.UnlockCacheBoss = function(slot0)
 	slot0.cacheLock = nil
 end
 
-function slot0.canGetSelfAward(slot0)
+slot0.canGetSelfAward = function(slot0)
 	return slot0:GetSelfBoss() and slot1:isDeath()
 end
 
-function slot0.UpdateSelfBoss(slot0, slot1)
+slot0.UpdateSelfBoss = function(slot0, slot1)
 	if slot0.boss and slot1 and not slot1:isSameLevel(slot0.boss) then
 		slot0.fleet:clearFleet()
 	end
@@ -457,7 +457,7 @@ function slot0.UpdateSelfBoss(slot0, slot1)
 	slot0:DispatchEvent(uv0.EventBossUpdated)
 end
 
-function slot0.RemoveSelfBoss(slot0)
+slot0.RemoveSelfBoss = function(slot0)
 	if slot0.boss then
 		slot0:UpdateSelfBoss(nil)
 	end
@@ -469,7 +469,7 @@ function slot0.RemoveSelfBoss(slot0)
 	slot0:ClearWorldSupported()
 end
 
-function slot0.updateBossHp(slot0, slot1, slot2)
+slot0.updateBossHp = function(slot0, slot1, slot2)
 	if slot0.boss and slot1 == slot0.boss.id then
 		slot0.boss:UpdateHp(slot2)
 		slot0:UpdateSelfBoss(slot0.boss)
@@ -479,7 +479,7 @@ function slot0.updateBossHp(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetBossById(slot0, slot1)
+slot0.GetBossById = function(slot0, slot1)
 	if slot0.boss and slot0.boss.id == slot1 then
 		return slot0.boss
 	end
@@ -489,25 +489,25 @@ function slot0.GetBossById(slot0, slot1)
 	end
 end
 
-function slot0.GetSelfBoss(slot0)
+slot0.GetSelfBoss = function(slot0)
 	return slot0.boss
 end
 
-function slot0.IsSelfBoss(slot0, slot1)
+slot0.IsSelfBoss = function(slot0, slot1)
 	assert(slot1)
 
 	return slot0.boss and slot0.boss.id == slot1.id or slot1:IsSelf()
 end
 
-function slot0.GetBoss(slot0)
+slot0.GetBoss = function(slot0)
 	return slot0.boss
 end
 
-function slot0.ExistSelfBoss(slot0)
+slot0.ExistSelfBoss = function(slot0)
 	return slot0.boss ~= nil and not slot0.boss:IsExpired()
 end
 
-function slot0.GetCacheBossList(slot0)
+slot0.GetCacheBossList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.cacheBosses) do
@@ -519,19 +519,19 @@ function slot0.GetCacheBossList(slot0)
 	return slot1
 end
 
-function slot0.reducePt(slot0)
+slot0.reducePt = function(slot0)
 	slot0.pt = slot0.pt - 1
 
 	slot0:DispatchEvent(uv0.EventPtUpdated)
 end
 
-function slot0.increasePt(slot0)
+slot0.increasePt = function(slot0)
 	slot0.pt = math.min(slot0:GetMaxPt(), slot0.pt + pg.gameset.joint_boss_ap_recove_cnt_pre_day.key_value)
 
 	slot0:DispatchEvent(uv0.EventPtUpdated)
 end
 
-function slot0.SetRank(slot0, slot1, slot2)
+slot0.SetRank = function(slot0, slot1, slot2)
 	slot0.ranks[slot1] = slot2
 
 	if slot0:GetBossById(slot1) then
@@ -542,15 +542,15 @@ function slot0.SetRank(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.EventRankListUpdated, slot1)
 end
 
-function slot0.GetRank(slot0, slot1)
+slot0.GetRank = function(slot0, slot1)
 	return slot0.ranks[slot1]
 end
 
-function slot0.ClearRank(slot0, slot1)
+slot0.ClearRank = function(slot0, slot1)
 	slot0.ranks[slot1] = nil
 end
 
-function slot0.addTimer(slot0, slot1)
+slot0.addTimer = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -576,31 +576,31 @@ function slot0.addTimer(slot0, slot1)
 	slot0.timers[slot1]:Start()
 end
 
-function slot0.GetPt(slot0)
+slot0.GetPt = function(slot0)
 	return slot0.pt
 end
 
-function slot0.GetMaxPt(slot0)
+slot0.GetMaxPt = function(slot0)
 	return pg.gameset.joint_boss_ap_max.key_value
 end
 
-function slot0.isMaxPt(slot0)
+slot0.isMaxPt = function(slot0)
 	return slot0.pt == slot0:GetMaxPt()
 end
 
-function slot0.GetRecoverPtTime(slot0)
+slot0.GetRecoverPtTime = function(slot0)
 	return pg.gameset.joint_boss_ap_recover_time.key_value
 end
 
-function slot0.GetNextReconveTime(slot0)
+slot0.GetNextReconveTime = function(slot0)
 	return slot0.ptTime
 end
 
-function slot0.updatePtTime(slot0, slot1)
+slot0.updatePtTime = function(slot0, slot1)
 	slot0.ptTime = slot1
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
 	slot1 = pairs
@@ -613,7 +613,7 @@ function slot0.Dispose(slot0)
 	slot0.timers = nil
 end
 
-function slot0.NeedTip(slot0)
+slot0.NeedTip = function(slot0)
 	return (function ()
 		if uv0.boss and uv0.boss:isDeath() and not uv0.boss:IsExpired() and not uv0.boss:ShouldWaitForResult() then
 			return true
@@ -623,7 +623,7 @@ function slot0.NeedTip(slot0)
 	end)()
 end
 
-function slot0.UpdatedUnlockProgress(slot0, slot1, slot2)
+slot0.UpdatedUnlockProgress = function(slot0, slot1, slot2)
 	if slot2 <= slot1 or not nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss) then
 		slot0.tipProgress = false
 	elseif not (pg.NewStoryMgr.GetInstance():IsPlayed("WorldG190") or not GUIDE_WROLD) then
@@ -639,19 +639,19 @@ function slot0.UpdatedUnlockProgress(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.EventUnlockProgressUpdated)
 end
 
-function slot0.ShouldTipProgress(slot0)
+slot0.ShouldTipProgress = function(slot0)
 	return slot0.tipProgress
 end
 
-function slot0.ClearTipProgress(slot0)
+slot0.ClearTipProgress = function(slot0)
 	slot0.tipProgress = false
 end
 
-function slot0.GetCanGetAwardBoss(slot0)
+slot0.GetCanGetAwardBoss = function(slot0)
 	return nil
 end
 
-function slot0.ExistSelfBossAward(slot0)
+slot0.ExistSelfBossAward = function(slot0)
 	if slot0.boss and slot0.boss:isDeath() and not slot0.boss:IsExpired() then
 		return true
 	end
@@ -659,15 +659,15 @@ function slot0.ExistSelfBossAward(slot0)
 	return false
 end
 
-function slot0.ExistCacheBoss(slot0)
+slot0.ExistCacheBoss = function(slot0)
 	return table.getCount(slot0.cacheBosses) ~= 0
 end
 
-function slot0.IsOpen(slot0)
+slot0.IsOpen = function(slot0)
 	return WorldBossConst.GetCurrBossID() ~= nil
 end
 
-function slot0.IsNeedSupport()
+slot0.IsNeedSupport = function()
 	slot0 = WorldBossConst.GetCurrBossDayIndex()
 	slot1 = pg.gameset.world_metaboss_supportattack.description
 
@@ -686,7 +686,7 @@ function slot0.IsNeedSupport()
 	return true
 end
 
-function slot0.GetSupportValue()
+slot0.GetSupportValue = function()
 	if not WorldBossProxy.IsNeedSupport() then
 		return
 	end

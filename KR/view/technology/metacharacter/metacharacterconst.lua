@@ -38,7 +38,7 @@ slot0.META_NAME_PERFIX = "name_"
 slot0.META_TOAST_PERFIX = "toast_"
 slot0.HX_TAG = "_hx"
 
-function slot0.GetMetaCharacterPaintPath(slot0, slot1)
+slot0.GetMetaCharacterPaintPath = function(slot0, slot1)
 	if not HXSet.isHx() then
 		if slot1 == true then
 			slot3 = slot0 .. uv0.META_ACTIVE_LASTFIX
@@ -50,13 +50,13 @@ function slot0.GetMetaCharacterPaintPath(slot0, slot1)
 			return uv0.META_ART_RESOURCE_PERFIX .. slot3, slot3
 		end
 	elseif slot1 == true then
-		if not PathMgr.FileExists(PathMgr.getAssetBundle(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_ACTIVE_LASTFIX .. uv0.HX_TAG))) then
+		if not checkABExist(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_ACTIVE_LASTFIX .. uv0.HX_TAG)) then
 			slot4 = uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_ACTIVE_LASTFIX)
 		end
 
 		return slot4, slot3
 	else
-		if not PathMgr.FileExists(PathMgr.getAssetBundle(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_DISACTIVE_LASTFIX .. uv0.HX_TAG))) then
+		if not checkABExist(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_DISACTIVE_LASTFIX .. uv0.HX_TAG)) then
 			slot4 = uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_DISACTIVE_LASTFIX)
 		end
 
@@ -64,29 +64,29 @@ function slot0.GetMetaCharacterPaintPath(slot0, slot1)
 	end
 end
 
-function slot0.GetMetaCharacterBannerPath(slot0)
+slot0.GetMetaCharacterBannerPath = function(slot0)
 	slot1 = uv0.META_BANNER_PERFIX .. slot0
 
 	return uv0.META_ART_RESOURCE_PERFIX .. slot1, slot1
 end
 
-function slot0.GetMetaCharacterNamePath(slot0)
+slot0.GetMetaCharacterNamePath = function(slot0)
 	slot1 = uv0.META_NAME_PERFIX .. slot0
 
 	return uv0.META_ART_RESOURCE_PERFIX .. slot1, slot1
 end
 
-function slot0.GetMetaCharacterToastPath(slot0)
+slot0.GetMetaCharacterToastPath = function(slot0)
 	slot1 = uv0.META_TOAST_PERFIX .. slot0
 
 	return uv0.META_ART_RESOURCE_PERFIX .. slot1, slot1
 end
 
-function slot0.GetMetaShipGroupIDByConfigID(slot0)
+slot0.GetMetaShipGroupIDByConfigID = function(slot0)
 	return math.floor(slot0 / 10)
 end
 
-function slot0.isMetaRepairRedTag(slot0)
+slot0.isMetaRepairRedTag = function(slot0)
 	if not slot0 then
 		return false
 	end
@@ -110,7 +110,7 @@ function slot0.isMetaRepairRedTag(slot0)
 	return slot3
 end
 
-function slot0.isMetaEnergyRedTag(slot0)
+slot0.isMetaEnergyRedTag = function(slot0)
 	if not slot0 then
 		return false
 	end
@@ -149,11 +149,11 @@ function slot0.isMetaEnergyRedTag(slot0)
 	return slot3
 end
 
-function slot0.isMetaTacticsRedTag(slot0)
+slot0.isMetaTacticsRedTag = function(slot0)
 	return getProxy(MetaCharacterProxy):getRedTag(slot0)
 end
 
-function slot0.isMetaSynRedTag(slot0)
+slot0.isMetaSynRedTag = function(slot0)
 	if not slot0 then
 		return false
 	end
@@ -183,7 +183,7 @@ function slot0.isMetaSynRedTag(slot0)
 	return slot4
 end
 
-function slot0.isMetaMainSceneRedTag(slot0)
+slot0.isMetaMainSceneRedTag = function(slot0)
 	if not slot0 then
 		return false
 	end
@@ -205,7 +205,7 @@ function slot0.isMetaMainSceneRedTag(slot0)
 	end
 end
 
-function slot0.isMetaMainEntRedPoint()
+slot0.isMetaMainEntRedPoint = function()
 	for slot4, slot5 in ipairs(getProxy(MetaCharacterProxy):getMetaProgressVOList()) do
 		if (uv0.isMetaMainSceneRedTag(slot5.id) or uv0.isMetaSynRedTag(slot5.id)) == true then
 			return true
@@ -215,7 +215,7 @@ function slot0.isMetaMainEntRedPoint()
 	return false
 end
 
-function slot0.isMetaBannerRedPoint(slot0)
+slot0.isMetaBannerRedPoint = function(slot0)
 	slot1 = uv0.isMetaTacticsRedTag(slot0) or uv0.isMetaSynRedTag(slot0)
 
 	if getProxy(BayProxy):getMetaShipByGroupId(slot0) then
@@ -227,7 +227,7 @@ function slot0.isMetaBannerRedPoint(slot0)
 	return slot1
 end
 
-function slot0.getFinalSkillIDListByMetaGroupID(slot0)
+slot0.getFinalSkillIDListByMetaGroupID = function(slot0)
 	slot1 = nil
 
 	for slot5 = 1, 4 do
@@ -247,7 +247,7 @@ function slot0.getFinalSkillIDListByMetaGroupID(slot0)
 	return slot2
 end
 
-function slot0.getTacticsSkillIDListByShipConfigID(slot0)
+slot0.getTacticsSkillIDListByShipConfigID = function(slot0)
 	slot1 = {}
 
 	for slot7, slot8 in ipairs(pg.ship_data_template[slot0].buff_list_display) do
@@ -259,7 +259,7 @@ function slot0.getTacticsSkillIDListByShipConfigID(slot0)
 	return slot1
 end
 
-function slot0.getMetaSkillTacticsConfig(slot0, slot1)
+slot0.getMetaSkillTacticsConfig = function(slot0, slot1)
 	for slot5, slot6 in ipairs(pg.ship_meta_skilltask.all) do
 		if pg.ship_meta_skilltask[slot6].skill_ID == slot0 and slot7.level == slot1 then
 			return slot7
@@ -267,7 +267,7 @@ function slot0.getMetaSkillTacticsConfig(slot0, slot1)
 	end
 end
 
-function slot0.addReMetaTransItem(slot0, slot1)
+slot0.addReMetaTransItem = function(slot0, slot1)
 	if not slot0.virgin and slot0:isMetaShip() and Player.isMetaShipNeedToTrans(slot0.configId) then
 		slot2 = Player.metaShip2Res(slot0.configId)
 
@@ -289,7 +289,7 @@ function slot0.addReMetaTransItem(slot0, slot1)
 	end
 end
 
-function slot0.isMetaTaskSkillID(slot0)
+slot0.isMetaTaskSkillID = function(slot0)
 	for slot4, slot5 in ipairs(pg.ship_meta_skilltask.all) do
 		if pg.ship_meta_skilltask[slot5].skill_ID == slot0 then
 			return true
@@ -299,7 +299,7 @@ function slot0.isMetaTaskSkillID(slot0)
 	return false
 end
 
-function slot0.isMetaInArchive(slot0)
+slot0.isMetaInArchive = function(slot0)
 	if getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0):isPtType() and slot2:isInArchive() then
 		return true
 	else
@@ -307,7 +307,7 @@ function slot0.isMetaInArchive(slot0)
 	end
 end
 
-function slot0.getRepairAbleMetaProgressVOList()
+slot0.getRepairAbleMetaProgressVOList = function()
 	slot0 = {}
 
 	for slot6, slot7 in ipairs(getProxy(MetaCharacterProxy):getMetaProgressVOList()) do
@@ -319,7 +319,7 @@ function slot0.getRepairAbleMetaProgressVOList()
 	return slot0
 end
 
-function slot0.getTacticsAbleMetaProgressVOList()
+slot0.getTacticsAbleMetaProgressVOList = function()
 	slot0 = {}
 
 	for slot6, slot7 in ipairs(getProxy(MetaCharacterProxy):getMetaProgressVOList()) do
@@ -331,7 +331,7 @@ function slot0.getTacticsAbleMetaProgressVOList()
 	return slot0
 end
 
-function slot0.getEnergyAbleMetaProgressVOList()
+slot0.getEnergyAbleMetaProgressVOList = function()
 	slot0 = {}
 
 	for slot6, slot7 in ipairs(getProxy(MetaCharacterProxy):getMetaProgressVOList()) do
@@ -343,12 +343,12 @@ function slot0.getEnergyAbleMetaProgressVOList()
 	return slot0
 end
 
-function slot0.filteMetaByType(slot0, slot1)
+slot0.filteMetaByType = function(slot0, slot1)
 	if not slot1 or slot1 == ShipIndexConst.TypeAll then
 		return true
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		slot1 = nil
 
 		for slot5 = 1, 4 do
@@ -362,7 +362,7 @@ function slot0.filteMetaByType(slot0, slot1)
 		return pg.ship_data_statistics[slot1].type
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		return TeamType.GetTeamFromShipType(slot0)
 	end
 
@@ -389,12 +389,12 @@ function slot0.filteMetaByType(slot0, slot1)
 	return false
 end
 
-function slot0.filteMetaByRarity(slot0, slot1)
+slot0.filteMetaByRarity = function(slot0, slot1)
 	if not slot1 or slot1 == ShipIndexConst.RarityAll then
 		return true
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		slot1 = nil
 
 		for slot5 = 1, 4 do
@@ -417,7 +417,7 @@ function slot0.filteMetaByRarity(slot0, slot1)
 	return false
 end
 
-function slot0.filteMetaExtra(slot0, slot1)
+slot0.filteMetaExtra = function(slot0, slot1)
 	if not slot1 or slot1 == ShipIndexConst.MetaExtraAll then
 		return true
 	end
@@ -433,7 +433,7 @@ function slot0.filteMetaExtra(slot0, slot1)
 	end
 end
 
-function slot0.filteMetaRepairAble(slot0)
+slot0.filteMetaRepairAble = function(slot0)
 	if slot0.metaShipVO and slot1:getMetaCharacter() and slot2:getRepairRate() < 1 then
 		return true
 	end
@@ -441,7 +441,7 @@ function slot0.filteMetaRepairAble(slot0)
 	return false
 end
 
-function slot0.filteMetaTacticsAble(slot0)
+slot0.filteMetaTacticsAble = function(slot0)
 	if slot0.metaShipVO and not slot1:isAllMetaSkillLevelMax() then
 		return true
 	end
@@ -449,7 +449,7 @@ function slot0.filteMetaTacticsAble(slot0)
 	return false
 end
 
-function slot0.filteMetaEnergyAble(slot0)
+slot0.filteMetaEnergyAble = function(slot0)
 	if slot0.metaShipVO and not slot1:isMaxStar() then
 		return true
 	end
@@ -457,7 +457,7 @@ function slot0.filteMetaEnergyAble(slot0)
 	return false
 end
 
-function slot0.filteMetaSynAble(slot0)
+slot0.filteMetaSynAble = function(slot0)
 	if slot0:isPtType() then
 		return not slot0:IsGotAllAwards()
 	else

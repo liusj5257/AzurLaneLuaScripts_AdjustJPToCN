@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"軽空母龍驤ここにあり\n\n<size=45>一 登場！日の出ずる国の軽空母</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "艦船（KAN-SEN）はヒトの形をした鋼の戦乙女たちである。 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "かの大戦でフネとして活躍していた彼女たちは、今やメンタルキューブの力でヒトの形となり、",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "人類の脅威であるセイレーンと戦うために活躍しているのだ！",
 			typewriter = {
@@ -64,15 +64,15 @@ return {
 			}
 		},
 		{
-			say = "母港・倉庫",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・倉庫",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -93,9 +93,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "倉庫の奥に格納されているとあるレア装備を探そうと頑張っている、ホコリまみれの指揮官の姿が見える。",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ドン！ドカン！コンコン！（物音）",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……どうやらその物探しが上手く行っていないようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "資材と装備の山に圧倒され、今でもスタミナ切れで倒れそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a9f548",
+			actorName = "???",
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "閃光。放たれたシキガミが淀む空気を切り裂き、そして――",
 			flashN = {
 				color = {
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "高所から落ちてきた資材が指揮官に直撃する前にナイスキャッチ。",
 			typewriter = {
 				speed = 0.05,
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_task",
-			actorName = "???",
+			side = 2,
 			dir = 1,
+			actorName = "???",
 			say = "天が呼ぶ海が呼ぶ人が呼ぶ！手助けをくれと殿が呼ぶ！",
 			effects = {
 				{
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "キラーーーーーーーーン！",
 			flashN = {
 				color = {
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（爆発……は流石にしないか）",
 			typewriter = {
 				speed = 0.05,
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "殿！大丈夫ですか？今加勢します！",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

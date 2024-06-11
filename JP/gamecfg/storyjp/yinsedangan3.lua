@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>アクセス権限確認中―――</size>",
@@ -82,8 +82,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「損傷状況　ヨークタウン　大破」",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「命に別状はないものの、艤装の損傷が大きく、後方移送と長期療養が必要と判断され――」",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "……………………",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "とにかく、あの戦いには無事に勝ったわね",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "まあ、あのときはセイレーンの攻勢阻止に全力をかけていたから心配することもあまりなかったわ",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "了解しました。記録ログの再生を終了します",
 			typewriter = {
@@ -238,9 +238,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "次の記録ログの検索・解析を開始します",
 			typewriter = {

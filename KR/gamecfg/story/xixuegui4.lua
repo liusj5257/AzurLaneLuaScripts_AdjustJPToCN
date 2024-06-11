@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"백의의 천사 or 악마?\n\n<size=45>제4장 - 돌발 상황?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "하아? 모두에게 폐를 끼쳤다고?",
 			typewriter = {
@@ -63,20 +63,20 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 203010,
+			say = "네……일부 자매들이 좀 곤란해하고 있다는 듯 하네요……",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "네……일부 자매들이 좀 곤란해하고 있다는 듯 하네요……",
+			actor = 203010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -94,8 +94,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -111,8 +111,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "그래…나, 나쁜 짓을 했구나.",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "아니야, 잘못했으면 잘못한 거지. 나도 그 정도는 안다고.",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "나도 간호사는 정말 어울리지 않는다고 생각했었는걸. 환자를 이해하는 건 간호의 기본인데, 그것조차 못했으니…이 옷은 역시 {namecode:98}에게 돌려주도록 할게, 그리고 모두에게 사과해야겠지……",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#a9f548",
 			say = "큰일났어! 지휘관, 지휘관!",
 			effects = {
 				{
@@ -221,8 +221,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#a9f548",
 			say = "{namecode:33}가 병이 났나 봐, 되게 심각한 거 같은데…으에엥~ 어떡하지!!",
 			typewriter = {
 				speed = 0.05,
@@ -255,14 +255,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					number = 3
@@ -275,8 +275,8 @@ return {
 			bgName = "bg_story_task",
 			actor = 201232,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "뭐라고?",
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = false,
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……런던, 옷은 잠시 뒤에 다시 갈아입어도 될까?",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "그럼…런던은 가서 {namecode:98}나 베스탈을 불러줘. 지휘관과 나는 {namecode:33}를 보러 갈 테니, 알겠지?",
 			typewriter = {
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			actor = 201232,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201232,
+			nameColor = "#a9f548",
 			say = "가자, 지휘관. 환자를 기다리게 할 순 없지!",
 			typewriter = {
 				speed = 0.05,

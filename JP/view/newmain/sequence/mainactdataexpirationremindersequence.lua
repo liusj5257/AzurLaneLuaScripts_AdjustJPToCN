@@ -1,6 +1,6 @@
 slot0 = class("MainActDataExpirationReminderSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0:CheckSkinCouponActivity(slot0)
@@ -8,7 +8,7 @@ function slot0.Execute(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.CheckSkinCouponActivity(slot0, slot1)
+slot0.CheckSkinCouponActivity = function(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON) or #slot2 == 0 then
 		slot1()
 
@@ -29,7 +29,7 @@ function slot0.CheckSkinCouponActivity(slot0, slot1)
 	seriesAsync(slot3, slot1)
 end
 
-function slot0.ShowTipMsg(slot0, slot1, slot2)
+slot0.ShowTipMsg = function(slot0, slot1, slot2)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		hideNo = true,
 		type = MSGBOX_TYPE_ITEM_BOX,

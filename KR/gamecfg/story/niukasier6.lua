@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평온한 일상을 바라며\n\n<size=45>황혼의 풍경</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "상가를 전부 돌아, 함대원들이 필요한 물건을 전부 챙겼다.",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "상가를 전부 돌아, 함대원들이 필요한 물건을 전부 챙겼다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "뉴캐슬의 제안을 받아들여, 둘이서 함께 길가의 벤치에서 잠깐 쉬어가기로 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "그녀는 별안간 작은 책을 꺼내 자신의 허벅지에 올려두곤, 책을 펼치기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -225,9 +225,9 @@ return {
 			blackBgtrue,
 			actor = 202190,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_105",
 			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_105",
 			say = "\"너도 뭘 좀 바라면서 살아봐\" 라고, 폐하께선 제게 그리 말씀하셨었습니다……",
 			typewriter = {
 				speed = 0.05,

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA34",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306090,
 			dir = 1,
+			bgm = "battle-boss-tiancheng",
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "側翼發現潛艇編隊，同時上空也發現了正在接近的艦載機群！",
-			bgm = "battle-boss-tiancheng",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "剛剛的偵查艦隊果然是誘導妳的陷阱呢，信濃。",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "如果按照剛剛的作戰方式被吸引過去的話，艦隊會正好進入潛艇和艦載機共同構成的伏擊圈。",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "還好妳冷靜下來了呢~",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "哎？！指揮官就是指揮官啊…應該怎麼說明呢…",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "已經接近指揮官的艦隊主力了，接下來就是決戰。不如等到演習結束之後------",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "遺憾，看來沒時間了呢…",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "信濃，相信自己，也要相信與妳並肩戰鬥的同伴，祝妳一路順風。",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "請加油吧~",
 			typewriter = {
@@ -214,9 +214,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_xinnong2_2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_xinnong2_2",
 			bgm = "bsm-2",
 			actor = 307080,
 			nameColor = "#a9f548",
@@ -264,8 +264,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "那個叫指揮官的人也是，真遺憾…如果時間能再多一些就好了……",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "如果能再次來到這裡的話……",
 			typewriter = {
@@ -298,9 +298,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "啊…意識正在剝離。終於到回歸現實之時了嗎……",
 			typewriter = {
@@ -313,9 +313,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_white",
+			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {

@@ -4,14 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Dragonlord",
 			dir = 1,
+			bgm = "theme-tempest",
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "Aha... Ahaha...",
-			bgm = "theme-tempest",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Dragonlord",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "You have an armada of ghost pirates?",
 			painting = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Dragonlord",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "This is ridiculous! How was I ever supposed to win?!",
 			painting = {
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "The Dragonlord decries the unfairness of it all as she's reduced to bits of mana before vanishing.",
 			typewriter = {
@@ -118,17 +118,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "Meanwhile, the pirates wipe out all the monsters in and around the lava lake.",
 			typewriter = {
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "Hahaha! Now THAT was a nice battle!",
 			painting = {
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "Well, Tempestas, you've fulfilled your promise. It's time you come with me.",
 			painting = {
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			say = "You heard her, adventurers. We kept our word and have nothing anchoring us to this world anymore.",
 			painting = {
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			say = "Finally! I've been dying – literally – for a good rest.",
 			painting = {
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			say = "Same... Fighting for hundreds of years takes a serious toll on the body.",
 			painting = {
@@ -285,11 +285,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Wait, wait! Before you go, let me snap a picture of you all! Smile for the camera!",
@@ -323,11 +323,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
-			bgName = "star_level_bg_525",
 			factiontag = "Cleric",
 			dir = 1,
+			bgName = "star_level_bg_525",
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Thanks! Goodbye, pirates! Goodbye, goddess!",
@@ -340,17 +340,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

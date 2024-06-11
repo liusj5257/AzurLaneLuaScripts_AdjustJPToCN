@@ -7,9 +7,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -22,9 +22,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -37,9 +37,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -52,9 +52,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -67,9 +67,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -82,9 +82,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -97,9 +97,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -112,9 +112,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -127,9 +127,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -142,9 +142,9 @@ return {
 					"onFoeAircraftDying"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 12710,
 					inside = 1,
-					skill_id = 12710
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "",
 	name = "克利夫兰2",
 	init_effect = "",
+	id = 12710,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12710,
+	color = "blue",
 	icon = 12710,
 	last_effect = "",
 	effect_list = {
@@ -167,9 +167,9 @@ return {
 				"onFoeAircraftDying"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				skill_id = 12710,
 				inside = 1,
-				skill_id = 12710
+				target = "TargetSelf"
 			}
 		}
 	}

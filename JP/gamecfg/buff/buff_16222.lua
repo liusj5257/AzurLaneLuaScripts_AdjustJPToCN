@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16222,
 	time = 5,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16222,
+	color = "red",
 	icon = 16222,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cloakRecovery",
-				number = 2
+				number = 2,
+				attr = "cloakRecovery"
 			}
 		}
 	}

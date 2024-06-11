@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG22",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 705010,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈哈！比表面看起來能打嘛！白鷹的驅——",
 			bgm = "bgm-cccp",
+			actor = 705010,
+			nameColor = "#a9f548",
+			say = "啊哈哈哈哈！比表面看起來能打嘛！白鷹的驅——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "航空母艦！哼，妳們也不錯啦！北方聯合艦隊現在的實力確實是讓人刮目相看啊…",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "指揮官的下一步作戰內容有定下來嗎？",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "啊哈哈……指揮官同志打算與白鷹的各位會合以後，再決定下一步的作戰呢。",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "？怎麼了，基洛夫",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YISHIJIEWEITUO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YISHIJIEWEITUO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "A request from the Fighting Angel led you to Magma Mountain.",
 			typewriter = {
 				speed = 0.05,
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "You discovered there are terrifying dragons resting there. This is important intelligence.",
 			typewriter = {
 				speed = 0.05,
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "This request is done, claim the reward now!",
 			typewriter = {
 				speed = 0.05,

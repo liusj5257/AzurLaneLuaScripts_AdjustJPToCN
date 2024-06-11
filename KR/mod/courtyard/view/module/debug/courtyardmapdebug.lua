@@ -1,6 +1,6 @@
 slot0 = class("CourtYardMapDebug")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.map = slot1
 	slot0.mapGrids = {}
 	slot0.r = slot2 and slot2.r or 0
@@ -10,11 +10,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:Init()
 end
 
-function slot0.GetView(slot0)
+slot0.GetView = function(slot0)
 	return slot0.map:GetHost():GetBridge():GetView()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0:GetView():GetRect():Find("grids")
 	slot3 = slot0.map.minSizeY
 	slot5 = slot0.map.sizeY
@@ -39,7 +39,7 @@ function slot0.Init(slot0)
 	slot0:Flush()
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot1 = slot0.map.sizeX
 	slot2 = slot0.map.sizeY
 
@@ -52,7 +52,7 @@ function slot0.Flush(slot0)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0.mapGrids) do
 		for slot9, slot10 in pairs(slot5) do
 			slot10:GetComponent(typeof(Image)).color = Color.New(0, 1, 0, 1)
@@ -64,7 +64,7 @@ function slot0.Clear(slot0)
 	slot0.mapGrids = {}
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 

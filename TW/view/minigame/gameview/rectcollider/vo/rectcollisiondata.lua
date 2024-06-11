@@ -1,6 +1,6 @@
-this = class("RectCollisionData")
+slot0 = class("RectCollisionData")
 
-function this.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.maxSlopeAngle = 45
 	slot0.downMaxSlopeSpeed = 8
 	slot0.gravity = -50
@@ -45,4 +45,4 @@ function this.Ctor(slot0, slot1)
 	end
 end
 
-return this
+return slot0

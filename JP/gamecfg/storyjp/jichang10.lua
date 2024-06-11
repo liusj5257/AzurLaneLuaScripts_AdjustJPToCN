@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG10",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			bgName = "bg_jichang_1",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 1,
+			bgName = "bg_jichang_1",
 			bgm = "idol-WISHNESS-inst",
 			actor = 312010,
 			nameColor = "#a9f548",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "前回大会の強豪にして、「μ兵装」を形にしたユニット、「Polaris」にゃ！！",
 			typewriter = {
 				speed = 0.05,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "紹介の意味、理解しかねる。説明を求む",
 			effects = {
 				{
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 101253,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101253,
+			nameColor = "#a9f548",
 			say = "うぅ、恥ずかしい……しゃ、写真を撮るなこのヘンタイ！！",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -338,8 +338,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "（小声）指揮官様、見てくれているかしら…",
 			typewriter = {
@@ -419,10 +419,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103250,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "皆、よろしく！！",
 			typewriter = {
 				speed = 0.05,
@@ -450,12 +450,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ユニコーンちゃん、一人で大丈夫？",
 			typewriter = {
 				speed = 0.05,
@@ -467,12 +467,12 @@ return {
 			}
 		},
 		{
-			actor = 206035,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206035,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うん、大丈夫だよ。イラストリアス姉ちゃんも頑張ろ？",
 			typewriter = {
 				speed = 0.05,
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ええ、一緒に頑張りましょう",
 			typewriter = {
 				speed = 0.05,
@@ -501,12 +501,12 @@ return {
 			}
 		},
 		{
-			actor = 701050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あの紹介、気合い入りすぎじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			actor = 108050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そういうノリのほうが面白いからね！",
 			typewriter = {
 				speed = 0.05,
@@ -535,12 +535,12 @@ return {
 			}
 		},
 		{
-			actor = 202280,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "皆様、そろそろ準備の時間です",
 			typewriter = {
 				speed = 0.05,
@@ -552,13 +552,13 @@ return {
 			}
 		},
 		{
-			actor = 103250,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ああ、私達も行こう！",
 			typewriter = {
 				speed = 0.05,

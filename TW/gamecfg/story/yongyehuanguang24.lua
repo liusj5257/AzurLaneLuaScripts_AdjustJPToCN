@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG24",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			actor = 408050,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "嗨，我們又見面了，皇家的護航艦船們~",
-			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "明明剛剛才吃了敗仗，真是不長記性啊…",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			say = "哼哼~能不能做到就要看妳的本事了哦，皇家的女僕小姐~",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "這句話我可不能當做沒聽見。將妳們變成護航行動中的戰績，才是送給陛下最好的禮物！",
 			typewriter = {
 				speed = 0.05,

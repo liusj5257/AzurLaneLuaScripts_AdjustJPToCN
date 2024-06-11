@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -72,9 +72,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601003,
 							corrdinate = {
 								0,
 								0,
@@ -88,9 +88,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601001,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601001,
 							corrdinate = {
 								5,
 								0,
@@ -104,9 +104,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601003,
 							corrdinate = {
 								0,
 								0,
@@ -123,8 +123,8 @@ return {
 							interval = 10,
 							onceNumber = 6,
 							formation = 10006,
-							delay = 0,
 							templateID = 3148061,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								3148071
@@ -150,11 +150,11 @@ return {
 					spawn = {
 						{
 							deadFX = "idol_bomb_stg",
-							reinforceDelay = 6,
-							monsterTemplateID = 16601005,
 							score = 0,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601005,
+							reinforceDelay = 6,
 							corrdinate = {
 								8,
 								0,
@@ -170,9 +170,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601001,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601001,
 							corrdinate = {
 								10,
 								0,
@@ -186,9 +186,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601003,
 							corrdinate = {
 								0,
 								0,
@@ -202,9 +202,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601003,
 							corrdinate = {
 								0,
 								0,
@@ -218,9 +218,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601001,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601001,
 							corrdinate = {
 								10,
 								0,
@@ -234,8 +234,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 103,
 					conditionType = 1,
 					preWaves = {
@@ -246,11 +246,11 @@ return {
 					spawn = {
 						{
 							deadFX = "idol_bomb_stg",
-							reinforceDelay = 6,
-							score = 0,
 							monsterTemplateID = 16601104,
+							score = 0,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 6,
 							corrdinate = {
 								-5,
 								0,
@@ -262,9 +262,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601001,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601001,
 							corrdinate = {
 								-3,
 								0,
@@ -278,9 +278,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601003,
 							corrdinate = {
 								3,
 								0,
@@ -294,9 +294,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601003,
 							corrdinate = {
 								3,
 								0,
@@ -310,9 +310,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16601001,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16601001,
 							corrdinate = {
 								-3,
 								0,
@@ -329,8 +329,8 @@ return {
 							interval = 10,
 							onceNumber = 6,
 							formation = 10006,
-							delay = 0,
 							templateID = 3148066,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								3148076,

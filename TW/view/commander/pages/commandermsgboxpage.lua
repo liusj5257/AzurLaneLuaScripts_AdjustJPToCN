@@ -1,10 +1,10 @@
 slot0 = class("CommanderMsgBoxPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderMsgBoxUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.cancelBtn = slot1:Find("frame/cancel_btn")
 	slot1 = slot0._tf
@@ -23,7 +23,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	if slot1.content1 then
@@ -67,7 +67,7 @@ function slot0.Show(slot0, slot1)
 	})
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	setText(slot0.text, "")
 	setText(slot0.text1, "")
@@ -75,7 +75,7 @@ function slot0.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

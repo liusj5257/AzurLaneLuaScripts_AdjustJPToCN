@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI5",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -39,10 +39,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Stray or not, it is not welcome in our waters. Lead us to it!",
 			typewriter = {
 				speed = 0.05,
@@ -54,12 +54,12 @@ return {
 			}
 		},
 		{
-			actor = 602010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Torricelli, contact the noncombatant ships on the route we came from. I'm going to wipe out the Sirens, so have them evacuate.",
 			typewriter = {
 				speed = 0.05,
@@ -74,10 +74,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 608010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Sure...",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wait just a moment. Make sure to let them know that Littorio's fleet is here, and that they are under the protection of Sardegna's Navy.",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 608010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Okay, got it...",
 			typewriter = {
 				speed = 0.05,

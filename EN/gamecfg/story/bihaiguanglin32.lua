@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN32",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_daofeng_6",
-			actorName = "Mysterious Voice",
 			dir = 1,
 			bgmDelay = 1,
-			say = "\"Answer me this final question...\"",
 			bgm = "battle-longgong",
+			actorName = "Mysterious Voice",
+			say = "\"Answer me this final question...\"",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_6",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#ffff4d",
 			say = "\"Now go. Return to your friends and use the treasures' power to save them!\"",
 			typewriter = {
 				speed = 0.05,

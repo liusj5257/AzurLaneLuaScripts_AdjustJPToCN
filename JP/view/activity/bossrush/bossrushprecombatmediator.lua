@@ -13,7 +13,7 @@ slot0.ON_SUB_AUTO = "BossRushPreCombatMediator:ON_SUB_AUTO"
 slot0.ON_FLEET_REFRESHED = "BossRushPreCombatMediator:ON_FLEET_REFRESHED"
 slot0.ON_CHANGE_FLEET = "BossRushPreCombatMediator:ON_CHANGE_FLEET"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bindEvent()
 
 	slot0.ships = getProxy(BayProxy):getRawData()
@@ -31,7 +31,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetSubFlag(slot4[#slot4]:isLegalToFight() == true)
 end
 
-function slot0.bindEvent(slot0)
+slot0.bindEvent = function(slot0)
 	slot0:bind(uv0.ON_CHANGE_FLEET, function (slot0, slot1)
 		uv0:changeFleet(slot1)
 	end)
@@ -78,9 +78,9 @@ function slot0.bindEvent(slot0)
 		end)), uv0.contextData.actId)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			useBlackBlock = true,
 			selectedMin = 0,
+			useBlackBlock = true,
+			selectedMax = 1,
 			energyDisplay = true,
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
 			quitTeam = slot1 ~= nil,
@@ -242,7 +242,7 @@ function slot0.bindEvent(slot0)
 					slot3 = uv0:GetOilLimit()
 					slot4 = pg.battle_cost_template[uv0:GetType() == BossRushSeriesData.TYPE.EXTRA and SYSTEM_BOSS_RUSH_EX or SYSTEM_BOSS_RUSH].oil_cost > 0
 
-					function slot5(slot0, slot1)
+					slot5 = function(slot0, slot1)
 						slot2 = 0
 
 						if uv0 then
@@ -285,7 +285,7 @@ function slot0.bindEvent(slot0)
 	end)
 end
 
-function slot0.onAutoBtn(slot0, slot1)
+slot0.onAutoBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle,
@@ -293,7 +293,7 @@ function slot0.onAutoBtn(slot0, slot1)
 	})
 end
 
-function slot0.onAutoSubBtn(slot0, slot1)
+slot0.onAutoSubBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_SUB, {
 		isActiveSub = slot1.isOn,
 		toggle = slot1.toggle,
@@ -301,19 +301,19 @@ function slot0.onAutoSubBtn(slot0, slot1)
 	})
 end
 
-function slot0.changeFleet(slot0, slot1)
+slot0.changeFleet = function(slot0, slot1)
 	slot0.viewComponent:SetCurrentFleet(slot1)
 	slot0.viewComponent:UpdateFleetView(true)
 	slot0.viewComponent:SetFleetStepper()
 end
 
-function slot0.refreshEdit(slot0, slot1)
+slot0.refreshEdit = function(slot0, slot1)
 	getProxy(FleetProxy):updateActivityFleet(slot0.contextData.actId, slot1.id, slot1)
 	slot0.viewComponent:UpdateFleetView(false)
 	slot0:sendNotification(uv0.ON_FLEET_REFRESHED)
 end
 
-function slot0.commitEdit(slot0)
+slot0.commitEdit = function(slot0)
 	_.each(slot0.contextData.fleets, function (slot0)
 		getProxy(FleetProxy):updateActivityFleet(uv0.contextData.actId, slot0.id, slot0)
 	end)
@@ -326,7 +326,7 @@ function slot0.commitEdit(slot0)
 	})
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BOSSRUSH_TRACE_DONE,
 		GAME.BEGIN_STAGE_DONE,
@@ -335,7 +335,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Émile, the Dancing Angel\n\n<size=45>Chapter 2 - A Fellowship of Gold?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Commander's Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Edinburgh was in the office, and it seemed like she wanted to meet Émile.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "Knowing you, you could get it done in a minute~ Believe it or not, I'm quite a good judge of character!",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Have you two always been this close...?",
 			typewriter = {
 				speed = 0.05,
@@ -160,13 +160,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Turns out Edinburgh's judgment was right; Émile finished her secretary work in a flash.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,

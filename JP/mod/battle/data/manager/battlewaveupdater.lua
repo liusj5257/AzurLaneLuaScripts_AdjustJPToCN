@@ -7,7 +7,7 @@ slot2.__name = "BattleWaveUpdater"
 slot2.PREWAVES_CONDITION_AND = 0
 slot2.PREWAVES_CONDITION_OR = 1
 
-function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot2.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0._spawnFunc = slot1
@@ -18,7 +18,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0:Init()
 end
 
-function slot2.Init(slot0)
+slot2.Init = function(slot0)
 	slot0._monsterList = {}
 	slot0._spawnList = {}
 	slot0._airFighter = {}
@@ -29,7 +29,7 @@ function slot2.Init(slot0)
 	slot0._waveInfoList = {}
 end
 
-function slot2.SetWavesData(slot0, slot1)
+slot2.SetWavesData = function(slot0, slot1)
 	slot0._waveTmpData = slot1
 
 	for slot5, slot6 in ipairs(slot1.waves) do
@@ -89,7 +89,7 @@ function slot2.SetWavesData(slot0, slot1)
 	end
 end
 
-function slot2.Start(slot0)
+slot2.Start = function(slot0)
 	slot0._active = true
 
 	for slot4, slot5 in pairs(slot0._waveInfoList) do
@@ -99,19 +99,19 @@ function slot2.Start(slot0)
 	end
 end
 
-function slot2.AddMonster(slot0, slot1)
+slot2.AddMonster = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._waveInfoList) do
 		slot6:AddMonster(slot1)
 	end
 end
 
-function slot2.RemoveMonster(slot0, slot1)
+slot2.RemoveMonster = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._waveInfoList) do
 		slot6:RemoveMonster(slot1)
 	end
 end
 
-function slot2.onWaveFinish(slot0, slot1)
+slot2.onWaveFinish = function(slot0, slot1)
 	if not slot0._active then
 		return
 	end
@@ -129,7 +129,7 @@ function slot2.onWaveFinish(slot0, slot1)
 	end
 end
 
-function slot2.GetAllBossWave(slot0)
+slot2.GetAllBossWave = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0._waveInfoList) do
@@ -141,7 +141,7 @@ function slot2.GetAllBossWave(slot0)
 	return slot1
 end
 
-function slot2.CheckAllKeyWave(slot0)
+slot2.CheckAllKeyWave = function(slot0)
 	for slot4, slot5 in ipairs(slot0._keyList) do
 		if not slot5:IsFinish() then
 			return false
@@ -151,7 +151,7 @@ function slot2.CheckAllKeyWave(slot0)
 	return true
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
 		slot0:RemoveTimer(slot4)
 	end
@@ -168,7 +168,7 @@ function slot2.Clear(slot0)
 	uv0.EventListener.DetachEventListener(slot0)
 end
 
-function slot2.GetUnfinishedWaveCount(slot0)
+slot2.GetUnfinishedWaveCount = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0._waveInfoList) do

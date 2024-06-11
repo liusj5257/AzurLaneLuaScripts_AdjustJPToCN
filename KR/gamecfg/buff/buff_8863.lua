@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "意大利V2 海妖之歌禁用武器",
 	time = 7,
+	name = "意大利V2 海妖之歌禁用武器",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

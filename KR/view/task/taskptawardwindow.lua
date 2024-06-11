@@ -1,6 +1,6 @@
 slot0 = class("TaskPtAwardWindow", import("..activity.Panels.PtAwardWindow"))
 
-function slot0.UpdateList(slot0, slot1, slot2, slot3)
+slot0.UpdateList = function(slot0, slot1, slot2, slot3)
 	assert(#slot1 == #slot2)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -31,7 +31,7 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3)
 	slot0.UIlist:align(#slot1)
 end
 
-function slot0.UpdateDrop(slot0, slot1, slot2)
+slot0.UpdateDrop = function(slot0, slot1, slot2)
 	if slot2 then
 		setActive(slot1, true)
 		updateDrop(slot1, {

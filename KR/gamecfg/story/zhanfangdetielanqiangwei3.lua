@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHANFANGDETIELANQIANGWEI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHANFANGDETIELANQIANGWEI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"피어나는 아이언 로즈\n\n<size=45>3 자이틀리츠의 친구</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "모항의 거리를 자이틀리츠와 나란히 걷고 있다.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "모항의 거리를 자이틀리츠와 나란히 걷고 있다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "어쩌면, 걷고 있다기보다는 '순찰'이라고 하는 편이 맞을지도 모른다.",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "마침 잘 되었군. 이 기회에 자이틀리츠의 고민에 대해 이것저것 물어봐야겠어. 우선은 인간관계부터……",
 			typewriter = {
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "모항 사람들과…? 걱정하실 것 없습니다. 평소처럼 잘 지내고 있습니다.",
 			painting = {
 				alpha = 0.3,
@@ -176,10 +176,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "상관님, 여러모로 신경 써 주셔서 대단히 감사합니다.",
 			painting = {
 				alpha = 0.3,
@@ -194,10 +194,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇지만 동료들과는 상관없고, 오히려 전적으로 모두를 신뢰하고 있습니다. 문제는 어디까지나 저 자신에게 있다고 해야 할지요….",
 			painting = {
 				alpha = 0.3,
@@ -212,10 +212,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러니 상관님께 폐를 끼치지 않도록 저 스스로 어떻게든 해보겠습니다!",
 			painting = {
 				alpha = 0.3,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 이렇게 상관님 곁에서 충실하게 사명을 다하고 있는 것만으로도 저는 큰 힘을 받고 있으니 괜찮습니다!",
 			painting = {
 				alpha = 0.3,
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "여기서 더 캐물어도 수확은 없을 것 같군. 계속 상태를 지켜보는 수밖에…….",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "가게 테라스석을 지나고 있자니, 그곳에 앉아 있는 두 사람의 대화가 귀에 들어왔다.",
 			typewriter = {
@@ -263,17 +263,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -284,10 +284,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네?! 최신 몬스터 사냥 정보를 벌써 손에 넣으신 겁니까?!",
 			painting = {
 				alpha = 0.3,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…그럼, 차지액스는 못 쓰는 게…….",
 			painting = {
 				alpha = 0.3,
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 201200,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201200,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사냥할 가치가 있는 대형 사냥감도 가끔은 나타나.",
 			painting = {
 				alpha = 0.3,
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 201200,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201200,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "원격전으로 약점을 노리자. 그 거대한 녀석은 꼬리 공격만 하니까, 그 꼬리만 잘라버리면…",
 			painting = {
 				alpha = 0.3,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "꽤 흥미로운 이야기로군. 자이틀리츠도 귀를 기울이고 있는 것 같고, 한 번 말을 건네볼까?",
 			typewriter = {
@@ -389,10 +389,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 네! 조금…",
 			painting = {
 				alpha = 0.3,
@@ -407,10 +407,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아마 유원지에 새로 생긴 가상현실 어트랙션을 말하는 것 같았습니다.",
 			painting = {
 				alpha = 0.3,
@@ -422,12 +422,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "무엇보다 박진감 넘치는 몬스터 사냥을 즐길 수 있다는 점이 장점인데",
 			painting = {
 				alpha = 0.3,
@@ -442,10 +442,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "말을 타고 초원을 달리는 것도 가능하다고 하더군요.",
 			painting = {
 				alpha = 0.3,
@@ -460,10 +460,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "참… 멋질 것 같습니다….",
 			painting = {
 				alpha = 0.3,
@@ -484,10 +484,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "음… 가끔 순찰할 때 타보기는 했습니다만",
 			painting = {
 				alpha = 0.3,
@@ -499,8 +499,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -509,8 +509,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -522,10 +522,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "말을 타고 사냥을 해본 경험은 아직 없어서….",
 			painting = {
 				alpha = 0.3,
@@ -540,10 +540,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아! 그렇다고 바로 해보고 싶다는 건 절대 아닙니다! 아직 순찰도 덜 끝났으니까요!",
 			painting = {
 				alpha = 0.3,
@@ -555,8 +555,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -575,8 +575,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "다음에 같이 타자고 해볼까 했는데 어쩔 수 없겠군.",
 			typewriter = {
@@ -585,8 +585,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "자이틀리츠 말대로 아직 순찰도 안 끝났고…",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "조금만 더 걸으면서 그녀의 마음을 열어보자.",
 			typewriter = {

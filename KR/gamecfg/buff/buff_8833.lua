@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "metaboss保底伤害",
 	time = 0,
+	name = "metaboss保底伤害",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 16,
+				target = "TargetSelf",
 				skill_id = 8832
 			}
 		}

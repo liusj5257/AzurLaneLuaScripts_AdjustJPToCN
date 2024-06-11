@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.046
+					number = 0.046,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.052
+					number = 0.052,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.066
+					number = 0.066,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.072
+					number = 0.072,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.086
+					number = 0.086,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.092
+					number = 0.092,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_xiongmeng",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_xiongmeng"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 17674,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17674,
+	color = "red",
 	icon = 17670,
 	last_effect = "",
 	effect_list = {
@@ -157,8 +157,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_xiongmeng",
-				number = 0.04
+				number = 0.04,
+				attr = "DMG_TAG_EHC_xiongmeng"
 			}
 		}
 	}

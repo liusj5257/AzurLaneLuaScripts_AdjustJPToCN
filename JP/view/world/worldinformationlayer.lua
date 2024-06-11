@@ -1,6 +1,6 @@
 slot0 = class("WorldInformationLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldInformationUI"
 end
 
@@ -9,7 +9,7 @@ slot0.Listeners = {
 	onUpdateTask = "OnUpdateTask"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	for slot4, slot5 in pairs(uv0.Listeners) do
 		slot0[slot4] = function (...)
 			uv0[uv1](uv2, ...)
@@ -46,7 +46,7 @@ function slot0.init(slot0)
 	slot0.btnDailyTask = slot0.rtLeftPanel:Find("world_info/task_btn")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnClose, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -83,14 +83,14 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateTask)
 	slot0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateDailyTaskIds, slot0.onUpdateDailyTask)
 	slot0.wsWorldInfo:Dispose()
 end
 
-function slot0.setWorldTaskProxy(slot0, slot1)
+slot0.setWorldTaskProxy = function(slot0, slot1)
 	slot0.taskProxy = slot1
 
 	slot0.taskProxy:AddListener(WorldTaskProxy.EventUpdateTask, slot0.onUpdateTask)
@@ -99,7 +99,7 @@ function slot0.setWorldTaskProxy(slot0, slot1)
 	slot0.taskList = slot0.taskProxy:getDoingTaskVOs()
 end
 
-function slot0.UpdateFilterTaskList(slot0)
+slot0.UpdateFilterTaskList = function(slot0)
 	slot0.filterTaskList = _.filter(slot0.taskList, function (slot0)
 		return not uv0.filterType or slot0.config.type == uv0.filterType
 	end)
@@ -109,7 +109,7 @@ function slot0.UpdateFilterTaskList(slot0)
 	setActive(slot0.rtNothingTip, #slot0.filterTaskList == 0)
 end
 
-function slot0.UpdateTaskTpl(slot0, slot1, slot2)
+slot0.UpdateTaskTpl = function(slot0, slot1, slot2)
 	slot3 = slot1:Find("base_panel")
 
 	GetImageSpriteFromAtlasAsync("ui/worldtaskfloatui_atlas", pg.WorldToastMgr.Type2PictrueName[slot2.config.type], slot3:Find("type"), true)
@@ -188,13 +188,13 @@ function slot0.UpdateTaskTpl(slot0, slot1, slot2)
 	setActive(slot10:Find("content/award_bg/arror"), #slot14 > 3)
 end
 
-function slot0.OnUpdateTask(slot0)
+slot0.OnUpdateTask = function(slot0)
 	slot0.taskList = slot0.taskProxy:getDoingTaskVOs()
 
 	slot0:UpdateFilterTaskList()
 end
 
-function slot0.OnUpdateDailyTask(slot0)
+slot0.OnUpdateDailyTask = function(slot0)
 	setActive(slot0.btnDailyTask:Find("tip"), slot0.taskProxy:canAcceptDailyTask())
 	setActive(slot0.btnDailyTask:Find("locked"), not nowWorld():IsSystemOpen(WorldConst.SystemDailyTask))
 end

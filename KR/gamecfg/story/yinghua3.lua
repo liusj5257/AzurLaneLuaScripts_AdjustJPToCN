@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -37,8 +37,8 @@ return {
 		{
 			actor = 307050,
 			side = 1,
-			dir = 1,
 			say = "'중앵'이야. 개전 이후의 관측으로 그 나무가 시들기 시작한 것이 판명됐어. 이번에는 그 조사와……",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -123,15 +123,15 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			stopbgm = true,
 			say = "'중앵'을 향하고 있는 것 같군요. 이대로라면 나가토와 접촉하게 됩니다. 괜찮습니까?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -158,9 +158,9 @@ return {
 		{
 			actor = 307010,
 			side = 0,
+			say = "방해꾼은 아무리 시간이 흘러도 제대로 청소가 안 되네요…… 번거롭기 그지없군요.",
 			dir = 1,
 			blackBg = true,
-			say = "방해꾼은 아무리 시간이 흘러도 제대로 청소가 안 되네요…… 번거롭기 그지없군요.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

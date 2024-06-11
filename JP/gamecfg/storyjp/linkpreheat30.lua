@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT30",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅\n\n<size=45>無口でごめん</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10300040,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官様",
 			bgm = "main-uta",
+			actor = 10300040,
+			nameColor = "#a9f548",
+			say = "指揮官様",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 10300040,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "珍しく、ウルゥル一人だけがそこにいた。",
 			typewriter = {
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 10300040,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "いつも双子のサラァナと一緒にいるイメージだったので、少々面食らう",
 			typewriter = {
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "それ以上、彼女は特に何も言わなかった",
 			typewriter = {
 				speed = 0.05,
@@ -122,9 +122,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "これは……会話が続かない！",
 			typewriter = {
 				speed = 0.05,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "いつもならサラァナが一緒にいるので、彼女が流暢に喋ってくれるのだが……ウルゥル一人だとこうも話が弾まないとは",
 			typewriter = {
 				speed = 0.05,
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ウルゥルの透明な眼差しがこちらを見つめている。それは口ほどに何かを訴えてきていた",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "ごめんなさい",
 			typewriter = {
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "突然──彼女は謝ってきた",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "こういう時、困らせる",
 			typewriter = {
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 10300040,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "そうか、彼女も彼女なりに口下手なことを気にしていたらしい",
 			typewriter = {
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 10300040,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "ゆっくり喋れるように練習すればいい。なんなら、自分が付き合おう──そう約束してあげた",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "主様の次にいい",
 			typewriter = {

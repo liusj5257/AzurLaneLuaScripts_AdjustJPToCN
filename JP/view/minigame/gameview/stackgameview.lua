@@ -2,11 +2,11 @@ slot0 = class("StackGameView", import("..BaseMiniGameView"))
 slot0.MINIGAME_HUB_ID = 39
 slot0.MINIGAME_ID = 47
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PileGameUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("overview/back")
 	slot0.scrollrect = slot0:findTF("overview/levels"):GetComponent(typeof(ScrollRect))
 	slot0.levelUIlist = UIItemList.New(slot0:findTF("overview/levels/mask/content"), slot0:findTF("overview/levels/mask/content/1"))
@@ -16,7 +16,7 @@ end
 
 slot1 = 7
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
@@ -67,7 +67,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.UpdateLevelTr(slot0, slot1, slot2)
+slot0.UpdateLevelTr = function(slot0, slot1, slot2)
 	setActive(slot2:Find("clear"), slot1 <= getProxy(MiniGameProxy):GetHubByHubId(uv0.MINIGAME_HUB_ID).usedtime)
 
 	slot8 = slot1 > slot4.count + slot4.usedtime
@@ -91,18 +91,18 @@ function slot0.UpdateLevelTr(slot0, slot1, slot2)
 	slot2:Find("Text"):GetComponent(typeof(Image)).sprite = LoadSprite("ui/minigameui/pile_atlas", "level" .. slot1)
 end
 
-function slot0.PackData(slot0)
+slot0.PackData = function(slot0)
 	return {
 		highestScore = slot0:GetMGData():GetRuntimeData("elements") and slot1[1] or 0,
 		screen = Vector2(slot0._tf.rect.width, slot0._tf.rect.height)
 	}
 end
 
-function slot0.OnGetAwardDone(slot0, slot1)
+slot0.OnGetAwardDone = function(slot0, slot1)
 	slot0.levelUIlist:align(uv0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.controller:onBackPressed() then
 		return
 	end
@@ -110,7 +110,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.controller:Dispose()
 end
 

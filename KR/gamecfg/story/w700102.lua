@@ -1,15 +1,15 @@
 return {
-	id = "W700102",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700102",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "지령 접수 중: 지휘관님, 지금부터 아비터·허밋·IX의 요격을 위한 특수 준비 모의 전투를 시작하겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -24,8 +24,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "함대를 이끌고 모의 전투 해역에 설정된 익스큐터 IX 「Exploration」을 격파하세요.",
 			typewriter = {
 				speed = 0.05,

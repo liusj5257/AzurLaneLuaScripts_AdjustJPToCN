@@ -1,12 +1,12 @@
 return {
-	init_effect = "jinengchufared",
-	name = "信浓活动梦境力量支援弹幕——BUFF效果1",
 	time = 0,
-	color = "blue",
+	name = "信浓活动梦境力量支援弹幕——BUFF效果1",
+	init_effect = "jinengchufared",
+	id = 8733,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8733,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		}
 	}

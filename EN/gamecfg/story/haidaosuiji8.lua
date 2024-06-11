@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "An enormous bird's nest, almost as big as a cloud, catches your attention.",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "You approach it, and suddenly hear a strange voice inside your head.",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "\"Cock-a-doodle-doo... I shall trade with you...\"",
 			typewriter = {
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "\"Leave an offering... buk-buk-buk... and be rewarded...\"",
 			typewriter = {

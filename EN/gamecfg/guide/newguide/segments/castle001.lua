@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "Roll the dice and your fate will be determined!",
 				mode = 1,
-				posY = -80,
 				dir = -1,
+				posY = -80,
 				posX = -561.6
 			},
 			ui = {

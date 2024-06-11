@@ -5,7 +5,7 @@ slot2 = class("BattleLastingAOEData", slot0.Battle.BattleAOEData)
 slot0.Battle.BattleLastingAOEData = slot2
 slot2.__name = "BattleLastingAOEData"
 
-function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot2.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	uv0.super.Ctor(slot0, slot1, slot2, slot3, slot5)
 
 	slot0._exitCldFunc = slot4
@@ -17,7 +17,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0._handledList = {}
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	for slot4, slot5 in pairs(slot0._handledList) do
 		slot0._exitCldFunc(slot4)
 
@@ -30,7 +30,7 @@ function slot2.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 end
 
-function slot2.Settle(slot0)
+slot2.Settle = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -47,7 +47,7 @@ function slot2.Settle(slot0)
 	slot0._cldComponent:GetCldData().func(slot1, obj)
 
 	for slot6, slot7 in pairs(slot0._handledList) do
-		if not slot2[slot6.UID] then
+		if not slot2[slot6.UID] or slot6.ImmuneCLD == true then
 			slot0._exitCldFunc(slot6)
 
 			slot0._handledList[slot6] = nil
@@ -55,7 +55,7 @@ function slot2.Settle(slot0)
 	end
 end
 
-function slot2.frequentlySettle(slot0)
+slot2.frequentlySettle = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0._cldObjList) do
@@ -78,7 +78,7 @@ function slot2.frequentlySettle(slot0)
 	slot0._cldComponent:GetCldData().func(slot0._cldObjList)
 end
 
-function slot2.ForceExit(slot0, slot1)
+slot2.ForceExit = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in pairs(slot0._handledList) do

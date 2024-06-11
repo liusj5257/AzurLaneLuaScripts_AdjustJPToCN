@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
-			say = "不夜城・？？？・「女王」の本部ビル",
 			bgm = "story-antarctica-serious",
+			say = "不夜城・？？？・「女王」の本部ビル",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "無口な連絡人に案内され、とある立派なビルの前にやってきた。",
 			typewriter = {
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "まさか噂のマフィアの本拠地が街で一番にぎやかな場所にあることに驚いたが、「女王」との謁見に赴いた。",
 			typewriter = {
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "しかし………",
 			typewriter = {
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "「アーティスト」",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "なんだって？",
 			painting = {
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "「アーティスト」",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "言ってたのと違うよ？",
 			painting = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "「アーティスト」",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "なっ！？さてはケンカを売る気か？！",
 			painting = {
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "やがて女王のオフィスに到着した。",
 			typewriter = {
@@ -175,17 +175,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "ドアを開けたその瞬間、女王と視線が合って思わずドキッとした。",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "まるでずっと眠っていた記憶が蘇ろうとしているかのように、自然とその名が口に出た。",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "「女王」",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "いいことだわ。まさか覚えてくれてるなんて",
 			painting = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "「女王」",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "以前の風格がまだ残っているとは…全くタフなものね。セキュリティの指揮官",
 			painting = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "「女王」",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "それに……私たちにはもっと大きな偉業が待ち受けているんじゃなくて？",
 			painting = {
@@ -348,11 +348,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "「女王」",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "ええ。私たちよ",
 			painting = {
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "「女王」",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "ふふふ♪「あのお方」を襲撃するだけの力を持っているのはなにも、「レジスタンス」だけじゃないわよ",
 			painting = {
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "「女王」",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "さあ。どうかしら？",
 			painting = {
@@ -529,11 +529,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "「女王」",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "あなたは「光」のリーダーで、私が「影」の女王として君臨する――とても素晴らしいことじゃない？",
 			painting = {
@@ -570,11 +570,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "「女王」",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "……だから私たちで権力のバランスを均衡にすれば、「饅頭タワー」もまた倒れずに済む",
 			painting = {
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			actorName = "？？？？？",
 			side = 2,
 			bgName = "star_level_bg_146",
+			actorName = "？？？？？",
 			nameColor = "#A9F548FF",
 			say = "同志指揮官、伏せてください――",
 			typewriter = {
@@ -699,17 +699,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -722,11 +722,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
-			say = "密集した銃声が鳴り響き、ポルタヴァの玉座の後ろにあるガラス窓が瞬く間に銃弾の穴だらけになった。",
 			soundeffect = "event:/battle/boom2",
+			say = "密集した銃声が鳴り響き、ポルタヴァの玉座の後ろにあるガラス窓が瞬く間に銃弾の穴だらけになった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,8 +772,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "そして次の瞬間、閃光弾が部屋の中に投げ込まれ――",
 			typewriter = {
@@ -794,8 +794,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "体が投げ縄に捉えられ、そのまま大きな力で引っ張られた。",
 			typewriter = {
@@ -803,17 +803,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -821,8 +821,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "真っ白の視界の中、体がまるで無重力空間に放り込まれたかのように――",
 			typewriter = {

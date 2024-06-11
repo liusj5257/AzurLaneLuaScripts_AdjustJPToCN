@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"特別演習·艾塞克斯級\n\n<size=45>一　特別演習·開幕！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "這次的大規模演習，主要是模擬出面對敵方航空母艦來襲的情況，以及如何迅速有效地作出應對。",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "這次的大規模演習，主要是模擬出面對敵方航空母艦來襲的情況，以及如何迅速有效地作出應對。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "哦～？也就是說，我們當中要有人扮演敵人嗎？",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦～？也就是說，我們當中要有人扮演敵人嗎？",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "正是如此。",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "我嗎……但是，我才剛剛加入艦隊，會不會有些不合適？",
 			typewriter = {
@@ -229,10 +229,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 107220,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107220,
+			nameColor = "#a9f548",
 			say = "（正好藉著這個機會，讓大家看到我的實力……！）",
 			typewriter = {
 				speed = 0.05,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "是！！",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,
@@ -398,15 +398,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -450,8 +450,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "雖然我原本只負責觀察和記錄本次演習。不過前輩說了，“如果艾塞克斯需要幫助的話就全力支持她”。艾塞克斯，真的不需要我幫忙嗎？",
 			typewriter = {
@@ -496,14 +496,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
-			say = "嗯。那麼，艦載機，全數出擊！",
 			soundeffect = "event:/battle/plane",
+			actor = 107090,
+			nameColor = "#ff5c5c",
+			say = "嗯。那麼，艦載機，全數出擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,6 +1,6 @@
 slot0 = class("TowerClimbingMapVO")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.view = slot2
 	slot0.nextBlockIndex = 0
 	slot0.level = 0
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	assert(slot0.id, slot1)
 end
 
-function slot0.Init(slot0, slot1, slot2)
+slot0.Init = function(slot0, slot1, slot2)
 	slot0.mapWidth = slot1.screenWidth
 	slot0.mapHeight = slot1.screenHeight
 	slot0.awards = slot1.awards[slot0.id]
@@ -36,7 +36,7 @@ function slot0.Init(slot0, slot1, slot2)
 	}, slot2)
 end
 
-function slot0.InitGround(slot0, slot1, slot2)
+slot0.InitGround = function(slot0, slot1, slot2)
 	slot0.ground = {
 		sleepTime = 0,
 		IsRuning = false,
@@ -47,7 +47,7 @@ function slot0.InitGround(slot0, slot1, slot2)
 	slot0:SendMapEvent("OnCreateGround", slot0.ground, slot2)
 end
 
-function slot0.InitBlock(slot0, slot1)
+slot0.InitBlock = function(slot0, slot1)
 	slot0.blocks = {}
 	slot2 = {}
 
@@ -63,7 +63,7 @@ function slot0.InitBlock(slot0, slot1)
 	parallelAsync(slot2, slot1)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if slot0 == 1 then
 		return TowerClimbingGameSettings.HEAD_BLOCK_TYPE
 	else
@@ -83,7 +83,7 @@ function slot1(slot0, slot1)
 	end
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	if not slot1 then
 		return TowerClimbingGameSettings.BLOCK_START_POSITION
 	else
@@ -120,7 +120,7 @@ function slot2(slot0, slot1)
 	end
 end
 
-function slot0.CreateBlock(slot0)
+slot0.CreateBlock = function(slot0)
 	slot0.nextBlockIndex = slot0.nextBlockIndex + 1
 	slot1 = slot0.blocks[#slot0.blocks]
 	slot2 = uv0(slot0.nextBlockIndex, slot0.id)
@@ -135,7 +135,7 @@ function slot0.CreateBlock(slot0)
 	}
 end
 
-function slot0.ActicveNextBlock(slot0, slot1)
+slot0.ActicveNextBlock = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.blocks) do
 		if slot6.level == slot1 then
 			slot6.isActive = true
@@ -151,7 +151,7 @@ function slot0.ActicveNextBlock(slot0, slot1)
 	end
 end
 
-function slot0.DeactiveAboveBlocks(slot0, slot1)
+slot0.DeactiveAboveBlocks = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.blocks) do
 		if slot1 < slot6.level and slot6.isActive == true then
 			slot6.isActive = false
@@ -161,14 +161,14 @@ function slot0.DeactiveAboveBlocks(slot0, slot1)
 	end
 end
 
-function slot0.AddNewBlock(slot0, slot1)
+slot0.AddNewBlock = function(slot0, slot1)
 	slot2 = slot0:CreateBlock()
 
 	table.insert(slot0.blocks, slot2)
 	slot0:SendMapEvent("OnCreateBlock", slot2, slot1)
 end
 
-function slot0.DoSink(slot0, slot1, slot2, slot3)
+slot0.DoSink = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	table.insert(slot4, function (slot0)
@@ -190,7 +190,7 @@ function slot0.DoSink(slot0, slot1, slot2, slot3)
 	parallelAsync(slot4, slot3)
 end
 
-function slot0.CheckCorssBoundBlocks(slot0, slot1)
+slot0.CheckCorssBoundBlocks = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = #slot0.blocks, 1, -1 do
@@ -207,7 +207,7 @@ function slot0.CheckCorssBoundBlocks(slot0, slot1)
 	slot1()
 end
 
-function slot0.InitPlayer(slot0, slot1, slot2)
+slot0.InitPlayer = function(slot0, slot1, slot2)
 	slot0.player = TowerClimbingPlayerVO.New(slot0.view, {
 		id = slot1.shipId,
 		life = slot1.life,
@@ -220,15 +220,15 @@ function slot0.InitPlayer(slot0, slot1, slot2)
 	slot0:SendMapEvent("OnCreatePlayer", slot0.player, slot2)
 end
 
-function slot0.GetPlayer(slot0)
+slot0.GetPlayer = function(slot0)
 	return slot0.player
 end
 
-function slot0.GetBlocks(slot0)
+slot0.GetBlocks = function(slot0)
 	return slot0.blocks
 end
 
-function slot0.SetCurrentLevel(slot0, slot1)
+slot0.SetCurrentLevel = function(slot0, slot1)
 	if slot0.level < slot1 then
 		slot0:ActicveNextBlock(slot1 + 1)
 	elseif slot1 < slot0.level then
@@ -246,8 +246,8 @@ function slot0.SetCurrentLevel(slot0, slot1)
 	end
 end
 
-function slot0.OverHigestScore(slot0)
-	function slot1(slot0)
+slot0.OverHigestScore = function(slot0)
+	slot1 = function(slot0)
 		for slot4, slot5 in ipairs(uv0.awards) do
 			if slot0 == slot5 then
 				return true
@@ -262,7 +262,7 @@ function slot0.OverHigestScore(slot0)
 	end
 end
 
-function slot0.DoCheck(slot0, slot1)
+slot0.DoCheck = function(slot0, slot1)
 	if slot0.higestLevel <= 1 then
 		return
 	end
@@ -291,7 +291,7 @@ function slot0.DoCheck(slot0, slot1)
 	})
 end
 
-function slot0.CheckGroundState(slot0)
+slot0.CheckGroundState = function(slot0)
 	if not slot0.ground.IsRuning and TowerClimbingGameSettings.GROUND_RISE_UP_LEVEL <= slot0.higestLevel then
 		slot0.ground.IsRuning = true
 
@@ -299,7 +299,7 @@ function slot0.CheckGroundState(slot0)
 	end
 end
 
-function slot0.ReBornPlayer(slot0)
+slot0.ReBornPlayer = function(slot0)
 	slot1 = {}
 	slot2 = nil
 
@@ -324,7 +324,7 @@ function slot0.ReBornPlayer(slot0)
 	slot0.player:SetPosition(slot3.position + Vector2(0, 10))
 end
 
-function slot0.AddPlayerInvincibleEffect(slot0, slot1)
+slot0.AddPlayerInvincibleEffect = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.blocks) do
 		if slot6.isActive then
 			slot0:SendMapEvent("OnEnableStab", slot6, not slot1)
@@ -336,7 +336,7 @@ function slot0.AddPlayerInvincibleEffect(slot0, slot1)
 	end
 end
 
-function slot3(slot0)
+slot3 = function(slot0)
 	slot1 = TowerClimbingGameSettings.GROUND_RISE_UP_SPEED
 	slot2 = slot1[#slot1][2]
 
@@ -351,7 +351,7 @@ function slot3(slot0)
 	return slot2
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0.ground.sleepTime > 0 then
 		slot0.ground.sleepTime = slot0.ground.sleepTime - Time.deltaTime
 
@@ -378,7 +378,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.SetGroundSleep(slot0, slot1)
+slot0.SetGroundSleep = function(slot0, slot1)
 	if slot0.ground.IsRuning then
 		slot0.ground.position = Vector2(slot0.ground.position.x, slot0.ground.position.y - TowerClimbingGameSettings.GROUND_SLIDE_DOWNWARD_DISTANCE)
 
@@ -388,13 +388,13 @@ function slot0.SetGroundSleep(slot0, slot1)
 	end
 end
 
-function slot0.SendMapEvent(slot0, slot1, ...)
+slot0.SendMapEvent = function(slot0, slot1, ...)
 	slot0.view.map:__slot1_None__(unpack({
 		...
 	}))
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.player then
 		slot0.player:Dispose()
 

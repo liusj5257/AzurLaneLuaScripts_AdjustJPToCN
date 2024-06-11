@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"또 다른 지도자?\n\n<size=45>7. 염원</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 기숙사",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 기숙사",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "킹 조지 5세를 위해 요리 특훈을 개시한 이래, 처음으로 로열 네이비 숙소에서 간단한 만찬회를 마련했다.",
 			typewriter = {
 				speed = 0.05,
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "이쪽에 요리 공부를 시킨 장본인인 후드는 우아하게 요리를 입에 가져갔다.",
 			typewriter = {
@@ -112,10 +112,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "후드에게는 감사하고 있다.",
+			dir = 1,
+			actor = 205050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "당신에게는 그게 가장 좋은 방법이었겠죠?",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -40,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 0,
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "덕분에 지금은 킹 조지 5세와의 팀워크도 한 층 더 좋아졌고, 이렇게 그녀와의 일화가 모두에게 알려져 함대의 분위기도 한층 밝아졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -266,9 +266,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "후드와의 잡담을 즐기던 킹 조지 5세는, 이쪽에도 고개를 돌렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "어쨌든 지휘관, 이렇게 요리를 만들어준 것에는 무척 감사한다.",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "다만, '마음을 사로잡기 전에, 위장부터 사로잡아라'라고 했다만…… 지휘관은 아무래도 위장을 넘어 단번에 내 마음까지 사로잡아버린 것 같군. 하하하.",
 			typewriter = {
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "어머나……",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "아아, 미안하군. 지금 건 역시 너무 갑작스러웠나? 하지만 앞으로는 좀 더 분위기에도 신경 써주기 바란다.",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "하지만 조심하도록…… 아무리 나라도 날 만족시킨 사람을 눈 뜨고 놓치지는 않는다고?",
 			typewriter = {
@@ -386,9 +386,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "실로 그녀다운, 정정당당한 고백이었다.",
 			typewriter = {
 				speed = 0.05,

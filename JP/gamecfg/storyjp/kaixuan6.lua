@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"騎士姫の憂鬱\n\n<size=45>六 「対立」の姉妹</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港·執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港·執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ちょうどいい、トリオンファンのお悩み解決のために、フォルバンとル·マルスの関係について聞いてみよう――",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 801010,
+			say = "し、指揮官？？",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "し、指揮官？？",
+			actor = 801010,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -190,14 +190,14 @@ return {
 			}
 		},
 		{
-			actor = 901010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
+			actor = 901010,
 			say = "フォルバンから呼ばれたと聞いて！ん？トリオンファンさんも？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -349,10 +349,10 @@ return {
 			say = "もう、だれがキンニク頭ですか！",
 			action = {
 				{
-					number = 1,
+					y = 22.5,
 					dur = 0.15,
-					type = "shake",
-					y = 22.5
+					number = 1,
+					type = "shake"
 				}
 			},
 			typewriter = {

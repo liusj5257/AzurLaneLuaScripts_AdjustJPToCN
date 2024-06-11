@@ -1,15 +1,15 @@
 return {
-	id = "JICHANG11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG11",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idol-inorinouta-inst",
 			say = "라이브 해역",
+			side = 2,
+			dir = 1,
+			bgm = "idol-inorinouta-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 		{
 			actor = 103250,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "자, 지금까지는 꽤 순조롭네.",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202280,
 			dir = 1,
+			actor = 202280,
 			say = "별다른 실수 없이 레슨 내용을 모두 기억해 냈어요…!",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202280,
 			dir = 1,
+			actor = 202280,
 			say = "(이렇게 계속 문제없이 간다면, 다이도도 주인님께 도움이 될 수 있겠지요…)",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108050,
 			dir = 1,
+			actor = 108050,
 			say = "다음에는 강적을 만나겠지?",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207110,
 			dir = 1,
+			actor = 207110,
 			say = "왜죠…?",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901120,
 			dir = 1,
+			actor = 901120,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701050,
 			dir = 1,
+			actor = 701050,
 			say = "(알바코어는 강력한 상대라고 했지만, 쉽게 이길 수 있지 않을까?)",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_jichang_4",
+			side = 2,
+			dir = 1,
 			say = "――!",
 			flashout = {
 				dur = 1,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "르 말랭(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -237,8 +237,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "르 말랭(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "르 말랭(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "――!",
 			flashout = {
 				dur = 1,
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207110,
 			dir = 1,
+			actor = 207110,
 			say = "이렇게 찬란한 빛이라니……",
 			typewriter = {
 				speed = 0.05,
@@ -315,10 +315,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 103250,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "모두 조심해, 오늘의 르 말랭은 뭔가 달라……",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202280,
 			dir = 1,
+			actor = 202280,
 			say = "네…!",
 			typewriter = {
 				speed = 0.05,

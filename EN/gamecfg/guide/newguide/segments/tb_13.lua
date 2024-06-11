@@ -7,14 +7,14 @@ return {
 			style = {
 				text = "You have unlocked a new location.",
 				mode = 2,
-				posY = -406.14,
-				char = 1,
 				dir = 1,
+				char = 1,
+				posY = -406.14,
 				posX = 223.4
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/bottom/right/EducateBottomPanel(Clone)/content/btns/map",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/bottom/right/EducateBottomPanel(Clone)/content/btns/map",
 				fingerPos = {
 					posY = 61.34,
 					posX = -90.1
@@ -26,14 +26,14 @@ return {
 			style = {
 				text = "This time, go to the Holiday Resort.",
 				mode = 2,
-				posY = -290.9,
-				char = 1,
 				dir = 1,
+				char = 1,
+				posY = -290.9,
 				posX = -82.76
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/EducateMapUI(Clone)/map/content/120",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/EducateMapUI(Clone)/map/content/120",
 				fingerPos = {
 					posY = -15.38,
 					posX = 71.24
@@ -45,15 +45,15 @@ return {
 			style = {
 				text = "Take a walk around the Holiday Resort and get some fresh air.",
 				mode = 2,
-				posY = -150.4,
-				char = 1,
 				dir = 1,
+				char = 1,
+				posY = -150.4,
 				posX = 546.5
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/3",
+				pathIndex = -1,
 				eventPath = "/OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/3",
-				pathIndex = -1
+				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/3"
 			}
 		}
 	}

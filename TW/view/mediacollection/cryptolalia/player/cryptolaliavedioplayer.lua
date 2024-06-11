@@ -5,15 +5,15 @@ slot3 = 3
 slot4 = 4
 slot5 = 5
 
-function slot6(slot0)
+slot6 = function(slot0)
 	return PathMgr.getAssetBundle("originsource/cipher/" .. slot0 .. ".txt")
 end
 
-function slot7(slot0)
+slot7 = function(slot0)
 	return PathMgr.getAssetBundle("originsource/cipher/" .. slot0 .. ".cpk")
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.root = slot1
@@ -30,7 +30,7 @@ function slot0.Ctor(slot0, slot1)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.Play(slot0, slot1, slot2)
+slot0.Play = function(slot0, slot1, slot2)
 	if not slot0:CheckCpkAndSubtitle(slot1, next) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("资源不存在"))
 
@@ -51,7 +51,7 @@ function slot0.Play(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.playBtn, function ()
 		if not uv0.player then
 			return
@@ -75,7 +75,7 @@ function slot0.RegisterEvent(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0._Play(slot0)
+slot0._Play = function(slot0)
 	if slot0.state == uv0 then
 		slot0.player:Pause(false)
 	elseif slot0.state == uv1 then
@@ -95,7 +95,7 @@ function slot0._Play(slot0)
 	slot0.state = uv2
 end
 
-function slot0.Pause(slot0)
+slot0.Pause = function(slot0)
 	if slot0.state ~= uv0 then
 		return
 	end
@@ -107,21 +107,21 @@ function slot0.Pause(slot0)
 	setActive(slot0.backBtn, true)
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	slot0:Dispose()
 
 	slot0.state = uv0
 end
 
-function slot0.CheckCpkAndSubtitle(slot0, slot1, slot2)
+slot0.CheckCpkAndSubtitle = function(slot0, slot1, slot2)
 	return PathMgr.FileExists(uv0(slot1)) and PathMgr.FileExists(uv1(slot1))
 end
 
-function slot0.DownloadCpkAndSubtitle(slot0, slot1, slot2)
+slot0.DownloadCpkAndSubtitle = function(slot0, slot1, slot2)
 	slot2()
 end
 
-function slot8(slot0)
+slot8 = function(slot0)
 	slot3 = {}
 
 	for slot7 = 1, PathMgr.ReadAllLines(uv0(slot0)).Length do
@@ -139,7 +139,7 @@ function slot8(slot0)
 	return slot3
 end
 
-function slot0.LoadVedioPlayer(slot0, slot1, slot2)
+slot0.LoadVedioPlayer = function(slot0, slot1, slot2)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("Cryptolalia/" .. slot1, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -156,7 +156,7 @@ function slot0.LoadVedioPlayer(slot0, slot1, slot2)
 	end), true, true)
 end
 
-function slot0.OnPlayEnd(slot0)
+slot0.OnPlayEnd = function(slot0)
 	slot0.player.player.frameInfo.frameNo = 0
 	slot0.state = uv0
 
@@ -164,7 +164,7 @@ function slot0.OnPlayEnd(slot0)
 	setActive(slot0.backBtn, true)
 end
 
-function slot9(slot0)
+slot9 = function(slot0)
 	if not slot0.frameInfo then
 		return 0
 	end
@@ -174,7 +174,7 @@ function slot9(slot0)
 	return slot1.frameNo / slot1.framerateN / slot1.framerateD * 1000000
 end
 
-function slot10(slot0, slot1)
+slot10 = function(slot0, slot1)
 	if not slot0 or #slot0 <= 0 then
 		return ""
 	end
@@ -190,7 +190,7 @@ function slot10(slot0, slot1)
 	return ""
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0.text == nil or slot0.subtile == nil or slot0.player == nil or slot0.player.player.frameInfo == nil then
 		return
 	end
@@ -220,7 +220,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.state == uv0 then
 		return
 	end

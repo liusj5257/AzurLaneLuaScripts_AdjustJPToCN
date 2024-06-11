@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "联合暴击伤害",
 	cd = 0,
-	painting = 0,
-	id = 16351,
 	picture = "0",
 	desc = "联合暴击伤害",
+	painting = 0,
+	id = 16351,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,9 +16,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetPlayerVanguardFleet",

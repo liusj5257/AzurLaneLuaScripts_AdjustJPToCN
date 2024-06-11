@@ -1,8 +1,8 @@
 slot0 = class("WSMapQuad", import("...BaseEntity"))
 slot0.Fields = {
 	static = "boolean",
-	rtWalkQuad = "userdata",
 	twId = "number",
+	rtWalkQuad = "userdata",
 	transform = "userdata",
 	cell = "table",
 	twTimer = "userdata",
@@ -10,22 +10,22 @@ slot0.Fields = {
 	rtQuad = "userdata"
 }
 
-function slot0.GetResName()
+slot0.GetResName = function()
 	return "world_cell_quad"
 end
 
 slot0.Listeners = {
 	onAddAttachment = "OnAddAttachment",
-	onUpdate = "Update",
 	onRemoveAttachment = "OnRemoveAttachment",
+	onUpdate = "Update",
 	onUpdateAttachment = "OnUpdateAttachment"
 }
 
-function slot0.GetName(slot0, slot1)
+slot0.GetName = function(slot0, slot1)
 	return "world_quad_" .. slot0 .. "_" .. slot1
 end
 
-function slot0.Setup(slot0, slot1, slot2)
+slot0.Setup = function(slot0, slot1, slot2)
 	slot0.cell = slot1
 
 	slot0.cell:AddListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
@@ -41,7 +41,7 @@ function slot0.Setup(slot0, slot1, slot2)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.twId then
 		LeanTween.cancel(slot0.twId)
 	end
@@ -56,7 +56,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.cell
 	slot2 = slot0.transform
 	slot0.rtQuad = slot2:Find("quad")
@@ -71,7 +71,7 @@ function slot0.Init(slot0)
 	slot0:Update()
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot2 = slot0.cell
 
 	if slot1 == nil or slot1 == WorldMapCell.EventUpdateInFov or slot1 == WorldMapCell.EventUpdateFog then
@@ -79,7 +79,7 @@ function slot0.Update(slot0, slot1)
 	end
 end
 
-function slot0.OnAddAttachment(slot0, slot1, slot2, slot3)
+slot0.OnAddAttachment = function(slot0, slot1, slot2, slot3)
 	slot3:AddListener(WorldMapAttachment.EventUpdateFlag, slot0.onUpdateAttachment)
 	slot3:AddListener(WorldMapAttachment.EventUpdateData, slot0.onUpdateAttachment)
 	slot3:AddListener(WorldMapAttachment.EventUpdateLurk, slot0.onUpdateAttachment)
@@ -89,7 +89,7 @@ function slot0.OnAddAttachment(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnRemoveAttachment(slot0, slot1, slot2, slot3)
+slot0.OnRemoveAttachment = function(slot0, slot1, slot2, slot3)
 	slot3:RemoveListener(WorldMapAttachment.EventUpdateFlag, slot0.onUpdateAttachment)
 	slot3:RemoveListener(WorldMapAttachment.EventUpdateData, slot0.onUpdateAttachment)
 	slot3:RemoveListener(WorldMapAttachment.EventUpdateLurk, slot0.onUpdateAttachment)
@@ -99,7 +99,7 @@ function slot0.OnRemoveAttachment(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.UpdateStatic(slot0, slot1, slot2)
+slot0.UpdateStatic = function(slot0, slot1, slot2)
 	if slot0.static ~= slot1 then
 		slot0.static = slot1
 
@@ -111,7 +111,7 @@ function slot0.UpdateStatic(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnUpdateAttachment(slot0)
+slot0.OnUpdateAttachment = function(slot0)
 	if slot0.twId then
 		LeanTween.cancel(slot0.twId)
 
@@ -140,7 +140,7 @@ function slot0.OnUpdateAttachment(slot0)
 	end
 end
 
-function slot0.UpdateScannerQuad(slot0)
+slot0.UpdateScannerQuad = function(slot0)
 	if slot0.twId then
 		LeanTween.cancel(slot0.twId)
 

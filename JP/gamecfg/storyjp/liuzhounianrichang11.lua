@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIUZHOUNIANRICHANG11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIUZHOUNIANRICHANG11",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海风与假日的无人岛\n\n<size=45>11</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-7",
 			bgName = "bg_story_task_2",
 			say = "这是占坑用的剧情。",
-			bgm = "story-richang-7",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,16 +1,16 @@
 return {
-	once = true,
-	mode = 2,
-	id = "FUYINGYINGHUA19",
 	continueBgm = true,
+	mode = 2,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "In a sea surrounded by darkness, two girls were trying to make their escape.",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,12 +21,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "Kawakaze!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 305050,
+			say = "Kawakaze!",
 			flashN = {
 				color = {
 					1,
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Shells from Siren battleships rained down ceaselessly around Kawakaze.",
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "The thunderous roar of a cannon was followed by an explosion...",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "But when the smoke cleared, it was a mass-produced Sakura battleship that lay in ruins, not Kawakaze.",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			say = "What are you saying, you fool!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,8 +248,8 @@ return {
 			say = "Lady Nagato?",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -273,8 +273,8 @@ return {
 			say = "I am Nagato, Nagato of the Sakura Empire!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Having failed to secure the kill, the Siren battleship's movements stopped briefly. Seizing upon that moment...",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "BOOOM!!!",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The massive guns that bore the weight of protecting a nation rang out. Such power tore apart the enemy with ease.",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In an instant, the enemy forces were engulfed in a sea of fire, and the Siren siege began to fall apart.",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Nagato extended her hand to the injured Kawakaze, half towing her towards their escape route.",
 			typewriter = {
 				speed = 0.05,
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...However, the enemies began to close in on the encumbered Nagato once more.",
 			typewriter = {
 				speed = 0.05,
@@ -474,23 +474,9 @@ return {
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			say = "Lady Nagato, please put me down! You must make it out!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "Ignoring Kawakaze's protests, Nagato raised her formidable rigging, firing back at the encroaching enemies while doing her best to avoid their barrage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +487,22 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			say = "Ignoring Kawakaze's protests, Nagato raised her formidable rigging, firing back at the encroaching enemies while doing her best to avoid their barrage.",
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			dir = 1,
 			say = "As Nagato tried to carve out an escape route with her attacks, more Sirens quickly arose to take the place of the fallen.",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Kawakaze broke free from Nagato and used the last of her power to charge forward.",
 			typewriter = {
 				speed = 0.05,
@@ -557,9 +557,9 @@ return {
 			}
 		},
 		{
+			say = "——",
 			soundeffect = "event:/battle/plane",
 			bgm = "story-7",
-			say = "——",
 			flashN = {
 				color = {
 					1,
@@ -598,10 +598,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "Suddenly, several bombs rained down upon the approaching Siren forces.",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -659,12 +659,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "Do you know how sad Nagato would be if she lost you?!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 307060,
+			say = "Do you know how sad Nagato would be if she lost you?!",
 			flashN = {
 				color = {
 					1,
@@ -707,8 +707,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The night sky glowed brightly with explosions from Zuikaku's dive bombers, which brought an end to their crisis.",
 			typewriter = {
 				speed = 0.05,
@@ -720,14 +720,14 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "Zuikaku... I am in your debt...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -752,8 +752,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1250,
+					type = "move",
 					delay = 1.5,
 					dur = 0.25,
 					x = 0
@@ -761,8 +761,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In a mix of exhaustion and relief, Kawakaze fell into Zuikaku's bosom.",
 			typewriter = {
 				speed = 0.05,
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -986,8 +986,8 @@ return {
 			say = "Of course! Lady Nagato, Mikasa is waiting for you on the island!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

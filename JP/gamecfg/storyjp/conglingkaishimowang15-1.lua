@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "戦いのあと、パーティーは三日間、見張り要塞に滞在して休養した。",
 			bgm = "story-mmorpg",
+			say = "戦いのあと、パーティーは三日間、見張り要塞に滞在して休養した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "装備のアップグレードと補給品の調達を済ませ、魔王軍の資料をできる限り調べた。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "その後見張りの要塞の門をくぐり、魔王軍に支配された荒れの大地と呼ばれる領域に正式に足を踏み入れた。",
 			typewriter = {
@@ -52,34 +52,34 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_176",
-			say = "整備された道路は要塞を出てしばらくすると途切れてしまった。",
 			bgm = "battle-ash-strong",
+			nameColor = "#A9F548FF",
+			say = "整備された道路は要塞を出てしばらくすると途切れてしまった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "そのまま予定通りの方向を進むと、濃い霧に覆われた森に入った。",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "周りの木々はとっくに生気を失っており、干からびた枝がまるで歪んだ腕のように空に向かって伸びている。",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 236031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "見習いプリースト",
 			dir = 1,
+			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "お兄ちゃん、なんだか気味が悪いよ……",
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "霧から現れたのは――神聖教会の聖女ジャンヌ・ダルクだ。",
 			typewriter = {
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "みなさんをここで待っていました",
 			painting = {
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
 			optionFlag = 2,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "勇者パーティーと一緒に行動すれば、魔王討伐が成就される瞬間をいち早く目撃できますから",
 			painting = {
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "しかし今は枯れ果て、生命を拒絶する区域となってしまっています",
 			painting = {
@@ -408,11 +408,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "それぞれ西部拠点、中部拠点、東部拠点の3つです",
 			painting = {
@@ -479,11 +479,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "浄化された土地から祝福の力が消えて、再び荒れ地に戻ってしまいます",
 			painting = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "拠点の影響さえ打ち消せれば、その祝福の力で荒れ地を浄化できるでしょう",
 			painting = {
@@ -555,11 +555,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "え！？指揮官が浄化するの？",
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -583,11 +583,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "撫順は？",
@@ -619,11 +619,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……あっ、そっかぁー",
@@ -637,11 +637,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "確かに！魔物を倒す時こそ勇者の活躍の見せ場だね！",
@@ -655,11 +655,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "じゃあ早速近くの要塞の魔物を討伐しに行こう！",
@@ -679,8 +679,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -733,9 +733,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_176",
+			nameColor = "#FF9B93",
 			actorName = "バーサーク饅頭スライムウォリアー",
 			say = "ピョピョピョ！",
 			typewriter = {
@@ -758,11 +758,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "魔物たちに気づかれちゃったね…",
@@ -782,11 +782,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ。……し、しまった！",
@@ -800,8 +800,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

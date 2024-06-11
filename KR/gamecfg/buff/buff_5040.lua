@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "照明弹",
 	init_effect = "",
-	color = "yellow",
+	id = 5040,
+	time = 0,
 	picture = "",
 	desc = "回避率降低",
 	stack = 1,
-	id = 5040,
+	color = "yellow",
 	icon = 5040,
 	last_effect = "EVDdowm",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = -0.25
+				number = -0.25,
+				attr = "dodgeRateExtra"
 			}
 		},
 		{
@@ -45,8 +45,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "lockAimBias",
-				number = 1
+				number = 1,
+				attr = "lockAimBias"
 			}
 		}
 	}

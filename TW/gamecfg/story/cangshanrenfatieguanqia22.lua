@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			bgm = "sk-az-battle",
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "成功了！",
-			bgm = "sk-az-battle",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "接下來就輪到妳了！做好覺悟吧！！",
 			painting = {
@@ -80,9 +80,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_kagura_2",
 			actor = 11000030,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "啊，等等！別想逃！！",
 			painting = {
@@ -94,17 +94,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -124,27 +124,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
-			say = "一段時間後，天守閣深處—",
 			bgm = "sk-az-battle",
+			say = "一段時間後，天守閣深處—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -155,8 +155,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "雪不歸小姐，妳沒事吧！？",
 			painting = {
@@ -171,9 +171,9 @@ return {
 		{
 			actor = 11000050,
 			side = 2,
-			bgName = "star_level_bg_111",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_111",
 			say = "唔……",
 			painting = {
 				alpha = 0.3,
@@ -188,8 +188,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "來來，讓我看看……瞳孔反應，正常。脈搏，正常。呼吸，正常。",
 			painting = {
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "……嗯，雖然受了些皮肉傷，不過並無大礙，只要回港區休養一下很快就能康復了吧。",
 			painting = {
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "真的……太好了……",
 			painting = {
@@ -239,8 +239,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "那讓我們立刻撤離吧……在事態再發生什麼變化之前……",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "像是「讓妳們和我一起陪葬」或是「城池最後來個自爆！」之類的——以塞壬那些傢伙的風格來說，都是很有可能的！",
 			painting = {
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			say = "（衣物摩擦聲——）",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000060,
 			dir = 1,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "欸？這個是……！？雪不歸小姐的身體……似乎……",
 			painting = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "雪不歸小姐，醒來了……呀——！",
 			painting = {
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,11 +324,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
-			say = "轟——————！",
 			soundeffect = "event:/battle/boom2",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,9 +376,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_111",
 			actor = 11000040,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "雪不歸小姐……向我們……發動了攻擊……！？",
 			painting = {
@@ -390,17 +390,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -411,8 +411,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "不，她的意識並沒有清醒。但也沒有被操縱的跡象……這是本能還是某種自動反應……？",
 			painting = {
@@ -428,8 +428,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "可惡，塞壬果然留下了什麼東西！",
 			painting = {
@@ -445,8 +445,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "不是爆炸倒塌結局，而是夥伴暴走結局嗎……真不喜歡這種劇情設計啊……",
 			painting = {
@@ -462,8 +462,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "雪不歸小姐！振作點！",
 			painting = {

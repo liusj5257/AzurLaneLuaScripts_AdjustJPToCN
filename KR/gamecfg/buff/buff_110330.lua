@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 110330,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110330,
+	color = "red",
 	icon = 110330,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onTorpedoWeaponBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.1
+				number = 0.1,
+				attr = "cri"
 			}
 		},
 		{
@@ -26,9 +26,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "luck",
+				number = 12,
 				target = "TargetSelf",
-				number = 12
+				attr = "luck"
 			}
 		}
 	}

@@ -1,22 +1,22 @@
 slot0 = class("IdolTrainUI", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IdolTrainUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:InitUI()
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.onTrain = nil
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTF)
 end
 
-function slot0.InitUI(slot0)
+slot0.InitUI = function(slot0)
 	slot0.trainBtn = slot0:findTF("panel/train_btn")
 	slot0.skills = slot0:findTF("panel/skills")
 	slot0.info = slot0:findTF("panel/info")
@@ -32,11 +32,11 @@ function slot0.InitUI(slot0)
 	slot0.nextBuffLv = slot0:findTF("title/lv/next", slot0.info)
 end
 
-function slot0.setCBFunc(slot0, slot1)
+slot0.setCBFunc = function(slot0, slot1)
 	slot0.onTrain = slot1
 end
 
-function slot0.set(slot0, slot1, slot2)
+slot0.set = function(slot0, slot1, slot2)
 	slot0.buffInfos = slot1
 	slot0.targetIndex = slot2
 	slot0.selectIndex = nil
@@ -80,7 +80,7 @@ function slot0.set(slot0, slot1, slot2)
 	slot0:flush()
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	if slot0.buffInfos then
 		for slot4, slot5 in ipairs(slot0.buffInfos) do
 			if slot5.next then

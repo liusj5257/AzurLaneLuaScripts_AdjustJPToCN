@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN31",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
+			bgName = "bg_underwater",
+			bgm = "bsm-2",
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Stop right there, Compiler! It's time for a showdown, you and me!",
-			bgm = "bsm-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "...An ambush.",
 			typewriter = {
@@ -59,11 +59,11 @@ return {
 			}
 		},
 		{
-			actor = 408100,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408100,
+			nameColor = "#a9f548",
 			say = "Never thought that you'd be able to move so quickly with that giant rigging of yours...",
 			typewriter = {
 				speed = 0.05,
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "But do you think you can outrun my torpedo?",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 4,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			say = "Armor is incapable of withstanding a direct hit.",
 			typewriter = {
 				speed = 0.05,
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#ff5c5c",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			stopbgm = true,
 			say = "Oooh, I think you've been had, you subprogram, you~!",
 			typewriter = {
 				speed = 0.05,
@@ -153,10 +153,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "Ah, don't be such a buzzkill, you! Just so you know, I'm here at Observer's behest to come get you. Were you able to get your hands on the sample?",
 			typewriter = {
 				speed = 0.05,
@@ -202,10 +202,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900230,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900230,
+			nameColor = "#ff5c5c",
 			say = "I'm tired. Thanks for delivering the sample for me.",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "Wait, you little!",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,10 +262,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "Hmph! I can't believe I don't get to fight, ever!",
 			typewriter = {
 				speed = 0.05,
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -332,11 +332,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
+			bgm = "bsm-2",
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Huhhh?! The Siren exploded...?!",
-			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,8 +350,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "But I didn't even get to land a single torpedo yet, damnit!",
 			typewriter = {
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,9 +377,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
 			blackBg = true,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Daaaaamn it———!!!",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

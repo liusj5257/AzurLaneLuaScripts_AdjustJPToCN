@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "野性的二元论",
 	time = 0,
-	color = "yellow",
+	name = "野性的二元论",
+	init_effect = "",
+	id = 105140,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 105140,
+	color = "yellow",
 	icon = 105140,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 105140
+				skill_id = 105140,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_330 = {}
 slot1 = slot0.word_template_330
 
-function temp()
+temp = function()
 	uv0["又"] = {
 		["有"] = {
 			["钱"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["右"] = {
 		["丙"] = {
 			["氧"] = {
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["幼"] = {
 		b = {
 			this = true
@@ -149,7 +149,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["诱"] = {
 		["惑"] = {
 			["的"] = {
@@ -215,7 +215,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["于"] = {
 		["春"] = {
 			["生"] = {
@@ -270,7 +270,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["余"] = {
 		["杰"] = {
 			this = true
@@ -450,7 +450,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["俞"] = {
 		["贵"] = {
 			["麟"] = {

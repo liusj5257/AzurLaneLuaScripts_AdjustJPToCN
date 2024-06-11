@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "？？？",
+			paingtingGray = true,
 			side = 2,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
 			bgm = "battle-boss-4",
 			actor = 303110,
-			paingtingGray = true,
+			nameColor = "#a9f548",
 			say = "“裏から回るぞ！なんとしてもあれを止めるのだ！”",
 			effects = {
 				{
@@ -32,11 +32,11 @@ return {
 			}
 		},
 		{
-			say = "「それ」は、彼女の記憶の中では異形だった。",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			soundeffect = "event:/battle/boom2",
+			say = "「それ」は、彼女の記憶の中では異形だった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "鋼鉄の軀（からだ）を持ちながら、思考も挙動も水棲動物そのもの――人類の英知とはかけ離れた存在だ。",
 			typewriter = {
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302130,
 			paingtingGray = true,
 			say = "高雄さん！撤退しましょう！こっちはもう総崩れです！",
 			typewriter = {
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			paingtingGray = true,
 			say = "もう少し持ちこたえろ！あと少しで味方の増援が来るぞ！",
 			typewriter = {
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			say = "最強の攻性兵器となりうる「それ」は、人格と「思考」、「制御技術」さえなければ、ただ無差別に破壊をもたらす迷惑な存在だ",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			soundeffect = "event:/battle/boom2",
+			say = "最強の攻性兵器となりうる「それ」は、人格と「思考」、「制御技術」さえなければ、ただ無差別に破壊をもたらす迷惑な存在だ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			paingtingGray = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "近代火器と自然の暴威を組み合わせた悪夢の前では、少女たちがなすすべもなく撃退されていった。",
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301140,
 			paingtingGray = true,
 			say = "あれは！？し、白い「壁」がああ！？",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			paingtingGray = true,
 			say = "待て！",
 			typewriter = {
@@ -179,12 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			paingtingGray = true,
 			say = "こ、これが……！",
 			typewriter = {
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			paingtingGray = true,
 			say = "これが【ワタツミ】だというのか……！？",
 			typewriter = {
@@ -215,17 +215,17 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			actorName = "？？？",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900192,
 			nameColor = "#a9f548",
 			say = "………………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900192,
+			actorName = "？？？",
 			say = "「セイレーン」…………！",
 			typewriter = {
 				speed = 0.05,
@@ -273,15 +273,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "祭儀の島・仮式場",
-			dir = 1,
 			bgmDelay = 1,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "main-newyear",
+			say = "祭儀の島・仮式場",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -306,8 +306,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "祭儀の島の仮式場で、重桜の宝器【ワタツミ】がその姿を現した。",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "神棚に置かれている「それ」の外見自体は別にこれといったものではなく――ネイビーブルーの色をした、ただの石だ",
 			effects = {
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "窓から差し込んだ月の光に照らされ、かすかに光っているようにも見える",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "そして……",
 			typewriter = {
@@ -371,9 +371,9 @@ return {
 			expression = 8,
 			side = 2,
 			actor = 301100,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "では、この場にいない龍鳳さんたちに代わって、赤城さんの命によりこの響が儀式の進行を務めさせて頂きまぁす",
 			effects = {
 				{
@@ -393,10 +393,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 301100,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301100,
+			nameColor = "#a9f548",
 			say = "要はリハーサルだよ、リハーサル！ささ、山城さん、どうぞどうぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "みんな",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "みんな",
 			say = "「おほわだつみ　こわだつみ　いついろの　にぎてを　いつかたに　とりはへて」",
 			effects = {
 				{
@@ -462,8 +462,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "みんな",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "みんな",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -494,12 +494,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			say = "――――！",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/kuang",
+			say = "――――！",
 			flashN = {
 				color = {
 					1,
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "山城が【ワタツミ】に触ろうとした途端、まるで反動でも受けたかのように軽く弾き飛ばされた",
 			typewriter = {
@@ -547,9 +547,9 @@ return {
 			expression = 5,
 			side = 2,
 			actor = 301100,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "あ、あれ？",
 			effects = {
 				{
@@ -567,16 +567,16 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "今すぐ儀式を止めろ！決して【ワタツミ】に触るな！",
 			dir = 1,
 			bgm = "story-7",
+			actor = 305050,
+			nameColor = "#a9f548",
+			say = "今すぐ儀式を止めろ！決して【ワタツミ】に触るな！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -593,8 +593,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "長門と瑞鶴が仮式場に駆け込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -651,8 +651,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "長門の警告を受けて、会場にいる艦船たちは一斉に身構えた。",
 			typewriter = {
 				speed = 0.05,
@@ -679,8 +679,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "まるで視界が歪んだような様子とともに、重桜でも鉄血でもない「彼女」が山城の後ろに突然姿を現した。",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
+			actorName = "オブザーバー",
 			say = "この光学迷彩の性能には結構自信があったのに、まさか見破られるなんてね～",
 			typewriter = {
 				speed = 0.05,
@@ -708,9 +708,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			actorName = "みんな",
 			side = 2,
+			dir = 1,
 			say = "セイレーン！！",
 			typewriter = {
 				speed = 0.05,
@@ -740,8 +740,8 @@ return {
 			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
+			actorName = "オブザーバー",
 			say = "あら、暗礁海域ではやられなかったのね？",
 			typewriter = {
 				speed = 0.05,
@@ -756,8 +756,8 @@ return {
 			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
+			actorName = "オブザーバー",
 			say = "残念ね…あの「余燼」の子の相手さえしていなければ、あなたたちがここにたどり着くことなんてないのに",
 			typewriter = {
 				speed = 0.05,
@@ -787,8 +787,8 @@ return {
 			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
+			actorName = "オブザーバー",
 			say = "ふふふ、そうね……",
 			typewriter = {
 				speed = 0.05,
@@ -815,10 +815,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "オブザーバーが触手を動かす前に、一発の砲弾が仮式場の屋根に着弾した。",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -861,14 +861,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "コンクリートと木で作られた屋根は砲弾の威力に耐えることなく脆く崩れ去り、式場を半露天にした。",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -881,8 +881,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ただ、幸いなことに、誰も瓦礫の下敷きにはならなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -894,11 +894,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
+			actor = 900012,
+			actorName = "オブザーバー",
 			say = "やっぱり来たじゃない、「余燼」。ふふふ、あとで同郷とゆるりと語り合おうかしら",
 			typewriter = {
 				speed = 0.05,
@@ -910,8 +910,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1250,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 0
@@ -919,8 +919,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "オブザーバーは式場の入り口に向かって楽しげに言葉を発すると、まるで月の光に溶けたかのように姿を消した。",
 			typewriter = {
 				speed = 0.05,
@@ -947,8 +947,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "慌てながらも会場にいる艦船たちは速やかに周りを警戒し始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -963,8 +963,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			say = "三笠様、ごめんなさい。今、よくわからない艦船が霞たちの防衛線を抜けた……",
 			typewriter = {
 				speed = 0.05,
@@ -979,8 +979,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			say = "ごめんなさい……霞たち、止められなかった……",
 			typewriter = {
 				speed = 0.05,
@@ -1025,8 +1025,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			say = "あ、あの！響たちはどうすれば…！",
 			typewriter = {
 				speed = 0.05,

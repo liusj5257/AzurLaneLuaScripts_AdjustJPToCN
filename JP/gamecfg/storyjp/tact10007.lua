@@ -6,8 +6,8 @@ return {
 		{
 			actor = 205060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "くっ！…ここまで来てまだ空襲が…！こっちの情報に何か間違いでもあるというのか？",
 			shake = {
 				speed = 1,
@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
-			dir = 0,
 			say = "ウェールズ、どうする？これ以上は持ちこたえられないわ！",
+			dir = 0,
+			actor = 204020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -48,8 +48,8 @@ return {
 		{
 			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "こんなハエどもにやられるとは…私の慢心ゆえか…それとも大艦巨砲の時代はもう終わりだというのか？",
 			shake = {
 				speed = 1,
@@ -67,8 +67,8 @@ return {
 		{
 			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "レパルス、ヴァンパイア、エレクトラ、エクスプレス、すまない、私の慢心に付き合わせてしまって…",
 			shake = {
 				speed = 1,
@@ -86,8 +86,8 @@ return {
 		{
 			actor = 201230,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "気にしないでいいの。あんたは十分頑張ったから。",
 			shake = {
 				speed = 1,
@@ -105,8 +105,8 @@ return {
 		{
 			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "……そんな辛気臭い話はやめやめ！まだチャンスはあるわ！",
 			shake = {
 				speed = 1,
@@ -124,8 +124,8 @@ return {
 		{
 			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "…そうだな。みな踏ん張れ！買った喧嘩は最後までやり抜くのよ！",
 			shake = {
 				speed = 1,

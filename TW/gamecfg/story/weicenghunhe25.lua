@@ -1,22 +1,22 @@
 return {
-	id = "WEICENGHUNHE25",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE25",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 108040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "對了，大家聽我說！剛剛我在來的路上，在水下看到這次塞壬的總指揮了！",
 			dir = 1,
 			bgm = "hunhe-battle",
+			nameColor = "#a9f548",
+			say = "對了，大家聽我說！剛剛我在來的路上，在水下看到這次塞壬的總指揮了！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			say = "是一艘好大好大好大的……唔…潛艇？ ！",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			say = "等我回過神來看清楚周圍，就看到落水的無畏了。",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "盯……",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哎哎哎？ ！為什麼都看著我呀！",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "這麼看來，我們突然遭受的巨浪很有可能是塞壬指揮艦在受到威脅時的緊急防衛手段。",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "也就是說我們把它逼到絕境了？",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "剛才開始周圍都出現的都是沒見過的新型塞壬，不論如何，我們都應該距離敵人的指揮艦越來越近了。",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "多虧藍鰓魚的情報，我們對於敵人的偷襲企圖可以有所防備了~",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "大家組成反潛隊形吧，重點注意來自水下的攻擊！",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 0

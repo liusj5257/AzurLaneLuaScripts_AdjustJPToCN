@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT23",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꿈의 만남 - 일상편\n\n<size=45>지는 걸 싫어하는 이들의 연회</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "(쿠콰콰쾅! 퍼퍼퍼퍼펑! 피유유우우웅~ 쾅!)",
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level-uta",
+			say = "(쿠콰콰쾅! 퍼퍼퍼퍼펑! 피유유우우웅~ 쾅!)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
+			dir = 1,
 			say = "(쿠다다다다다……탕탕탕탕! 퍼어어어어어어엉!!)",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "그거랑 비교하자면, 어떻게 말해도 실례겠지만……흠, 왠지 부정할 순 없네.",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "야쿠토우르토씨가 있었다면, 더 큰일이 벌어지지 않았을까요……?",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "그럴까나? 그 사람은 확실히 강하지만, 거기 참가할 정도로 호전적이진 않으니까. 하긴, 시노논이 엮여있지 않다면의 얘기겠지만.",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "아야나미님이……귀신? 여자아이에게 그런 별명은……좀 그렇지 않나요.",
 			typewriter = {
@@ -383,8 +383,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "지는 걸 싫어한달까……네코네는 어려서부터 이래저래 인정받지 못했던 게 있어서 말야.",
 			typewriter = {
@@ -415,16 +415,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_chuansong",
 			bgm = "story-uta",
 			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "하아, 하아, 하아……해냈어요! 전부 합쳐서 스물 여덟척이에요! 이정도면 제가 이겼을 거에요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -465,11 +465,11 @@ return {
 			}
 		},
 		{
-			actor = 305040,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 305040,
+			nameColor = "#92fc63",
 			say = "날 너무 얕본 거 아니야, 언니! 나도 스물 여덟척이라고! 어라? 그 말은……",
 			typewriter = {
 				speed = 0.05,
@@ -481,8 +481,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -510,8 +510,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "그런……안타깝게도, 비겼네요.",
 			typewriter = {
@@ -639,8 +639,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "잠깐, 무기도 그대로고, 장비도 재장전되어있지?! 휴가씨, 그건 좀 아니지 않을까나!",
 			typewriter = {
@@ -653,8 +653,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,
@@ -730,8 +730,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "군고구마 다 됐다.",
 			typewriter = {
@@ -747,10 +747,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "시그넷씨에게 받아온 고구마로로를 구워봤습니다. 전투도 일단락되었으니, 간식을 드시지요.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -832,8 +832,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "후후후, 장난꾸라기 아이들이라도, 간식 시간 때는 얌전해지는 법이니까요.",
 			typewriter = {
@@ -849,8 +849,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "난폭한 아이는 일단 먹이고 봐야 한다, 는 거려나.",
 			typewriter = {
@@ -882,10 +882,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "우리들도 주인님의 삼시 세끼를 준비하고, 늘 주인님의 배를 채워주고 있습니다.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -916,12 +916,12 @@ return {
 			}
 		},
 		{
-			actor = 305040,
+			say = "언니, 술이 고프다 이거지? 자, 고구마 쇼츄.",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "언니, 술이 고프다 이거지? 자, 고구마 쇼츄.",
+			actor = 305040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1048,12 +1048,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "냐앙……술 취한 망나니는 수습이 안 된다냥……",
 			typewriter = {
 				speed = 0.05,

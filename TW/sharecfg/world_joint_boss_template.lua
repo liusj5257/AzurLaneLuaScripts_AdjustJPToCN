@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.world_joint_boss_template = {
 	{
-		state = "always",
 		name = "飛龍·META",
-		painting = "feilong",
 		boss_level_id = 1,
-		id = 1,
-		meta_id = 970701,
+		state = "always",
 		item_id = 100000,
+		painting = "feilong",
+		meta_id = 970701,
+		id = 1,
 		description = {
 			{
 				"光暗花札",
@@ -30,13 +30,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "皇家方舟·META",
-		painting = "huangjiafangzhou",
 		boss_level_id = 16,
-		id = 2,
-		meta_id = 970702,
+		state = "always",
 		item_id = 100000,
+		painting = "huangjiafangzhou",
+		meta_id = 970702,
+		id = 2,
 		description = {
 			{
 				"魔彈射手",
@@ -59,13 +59,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "海倫娜·META",
-		painting = "hailunna",
 		boss_level_id = 31,
-		id = 3,
-		meta_id = 970201,
+		state = "always",
 		item_id = 100000,
+		painting = "hailunna",
+		meta_id = 970201,
+		id = 3,
 		description = {
 			{
 				"雷達掃描·Hacking",
@@ -92,13 +92,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "蒼龍·META",
-		painting = "canglong",
 		boss_level_id = 46,
-		id = 4,
-		meta_id = 970703,
+		state = "always",
 		item_id = 100000,
+		painting = "canglong",
+		meta_id = 970703,
+		id = 4,
 		description = {
 			{
 				"焰舞花札",
@@ -125,13 +125,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "格奈森瑙·META",
-		painting = "genaisennao",
 		boss_level_id = 61,
-		id = 5,
-		meta_id = 970401,
+		state = "always",
 		item_id = 100000,
+		painting = "genaisennao",
+		meta_id = 970401,
+		id = 5,
 		description = {
 			{
 				"焰光之鍊",
@@ -154,13 +154,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "沙恩霍斯特·META",
-		painting = "shaenhuosite",
 		boss_level_id = 76,
-		id = 6,
-		meta_id = 970402,
+		state = "stop",
 		item_id = 100000,
+		painting = "shaenhuosite",
+		meta_id = 970402,
+		id = 6,
 		description = {
 			{
 				"鋼火之杖",
@@ -183,13 +183,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "反擊·META",
-		painting = "fanji",
 		boss_level_id = 91,
-		id = 7,
-		meta_id = 970403,
+		state = "stop",
 		item_id = 100000,
+		painting = "fanji",
+		meta_id = 970403,
+		id = 7,
 		description = {
 			{
 				"反擊焰火",
@@ -221,13 +221,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "聲望·META",
-		painting = "shengwang",
 		boss_level_id = 106,
-		id = 8,
-		meta_id = 970404,
+		state = "stop",
 		item_id = 100000,
+		painting = "shengwang",
+		meta_id = 970404,
+		id = 8,
 		description = {
 			{
 				"流星火雨",
@@ -264,13 +264,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "亞利桑那·META",
-		painting = "yalisangna",
 		boss_level_id = 121,
-		id = 9,
-		meta_id = 970503,
+		state = "stop",
 		item_id = 100000,
+		painting = "yalisangna",
+		meta_id = 970503,
+		id = 9,
 		description = {
 			{
 				"擴散的哀傷",
@@ -297,13 +297,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "伊莉莎白女王·META",
-		painting = "yilishabainvwang",
 		boss_level_id = 136,
-		id = 10,
-		meta_id = 970504,
+		state = "stop",
 		item_id = 100000,
+		painting = "yilishabainvwang",
+		meta_id = 970504,
+		id = 10,
 		description = {
 			{
 				"「伊莉莎白」象限展開",
@@ -330,12 +330,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
 		name = "阿爾及利亞·META",
-		painting = "aerjiliya",
 		boss_level_id = 151,
-		id = 11,
+		state = "stop",
+		item_id = 100000,
+		painting = "aerjiliya",
 		meta_id = 970302,
+		id = 11,
 		description = {
 			{
 				"墮天之柱",
@@ -346,32 +347,6 @@ pg.world_joint_boss_template = {
 				"滌罪之焰",
 				1,
 				"自身在戰鬥中的部分攻擊會令被命中單位受到名為滌罪之焰的<color=#92fc63>特殊點燃效果</color>影響，該點燃單次持續時間較短，但固定傷害較高。 \n同時，固定每隔9秒本身便會對<color=#92fc63>目前耐久值最低的敵方單位</color>施加滌罪之焰，目標選擇無視後排隱匿。 "
-			}
-		},
-		state = {
-			{
-				{
-					2024,
-					3,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -387,6 +362,69 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		name = "神通·META",
+		boss_level_id = 166,
+		item_id = 100000,
+		painting = "shentong",
+		meta_id = 970205,
+		id = 12,
+		description = {
+			{
+				"謀斷的鐵壁",
+				2,
+				"戰鬥開始10秒後，自身將獲得20%的<color=#92fc63>特殊減傷效果</color>，持續至戰鬥結束。"
+			},
+			{
+				"合縱的瓦解",
+				3,
+				"當敵方參戰艦隊成員所屬陣營大於1時，每多1個不同陣營，都會使自身的全屬性提升5%。\n（不計算連動等特殊陣營）"
+			},
+			{
+				"難違的天命",
+				1,
+				"戰鬥開始50秒後，自身會隨著時間流逝逐漸變得虛弱，<color=#92fc63>受到的傷害逐步提升</color>，每過4秒增加10%。"
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-118.8,
+			585.5,
+			0.8,
+			0.8
+		},
+		p_offset_other = {
+			426,
+			587.7,
+			0.8,
+			0.8
+		}
+	},
 	all = {
 		1,
 		2,
@@ -398,6 +436,7 @@ pg.world_joint_boss_template = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

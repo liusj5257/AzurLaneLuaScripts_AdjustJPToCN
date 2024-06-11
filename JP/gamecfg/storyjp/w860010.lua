@@ -1,12 +1,12 @@
 return {
-	id = "W860010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W860010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エリアにあるセイレーンの装置を操作すると、【同じ色の障害物】を変化することができるようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "障害物を動かし、エネルギー供給装置をプラットフォームに持っていこう。",
 			typewriter = {
 				speed = 0.05,

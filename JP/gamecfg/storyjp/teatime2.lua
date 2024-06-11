@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -68,8 +68,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "抹茶を味わったら、ほかの飲み物も美味しく感じますよ",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "なるほどね！雷もベルファストの淹れた紅茶を飲みたい！",
 			typewriter = {
 				speed = 0.05,
@@ -112,13 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			withoutPainting = true,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 1,
+			actor = 205010,
+			actorName = "？？？",
 			say = "待ちなさーーい！",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			say = "同じ時刻、暁は――",
 			blackBg = true,
+			say = "同じ時刻、暁は――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			say = "【N34°E140°】",
 			blackBg = true,
+			say = "【N34°E140°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "一人はやっぱりちょっと……ううん――ニンジャの暁なら一人でもくじけないわ！北方連合、それがしが参るでござる！",
 			typewriter = {
 				speed = 0.05,

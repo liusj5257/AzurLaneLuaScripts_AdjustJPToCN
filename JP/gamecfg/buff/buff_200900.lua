@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024愚人节 BOSS满血",
 	time = 3,
-	color = "yellow",
+	name = "2024愚人节 BOSS满血",
+	init_effect = "",
+	id = 200900,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200900,
+	color = "yellow",
 	icon = 200900,
 	last_effect = "",
 	effect_list = {

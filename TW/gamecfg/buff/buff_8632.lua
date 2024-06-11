@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "伤害上升",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.3
+				number = 0.3,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

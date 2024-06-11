@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "毛系V2 余辉支援弹幕LV5",
 	cd = 0,
-	painting = "cuican2",
-	id = 8856,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "cuican2",
+	id = 8856,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -15,8 +15,8 @@ return {
 				emitter = "BattleBulletEmitter",
 				weapon_id = 779005,
 				attack_attribute_convert = {
-					attr_type = "fleetGS",
 					A = 80,
+					attr_type = "fleetGS",
 					B = 400
 				}
 			}

@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Thinking",
 			say = "母港・ライブ海域",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Thinking",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			actor = 905030,
 			side = 2,
 			paintingNoise = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "「敵」の出現を確認。「ライブ」の準備を求む",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			expression = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "まあ、あの子たちの元いた場所のように変えられたら、こういうのが出てくるのも予想通りだっての",
 			typewriter = {
@@ -55,11 +55,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ぼやけてますけど……なんだか伊織ちゃんにそっくりですね……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,11 +72,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あれって……私達のそっくりさんですか……？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,11 +104,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ライブの演出のためのホログラフィックが、機械を守る番人になって通せんぼしてるだなんて",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,11 +121,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……正直あまり信じられない話ね",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,8 +139,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			expression = 4,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "そうだよね…私も初めて聞いた時はなにそれって思ったけど…",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			expression = 1,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "でも本当に戦って勝てないと通してくれないんだ",
 			typewriter = {
@@ -172,11 +172,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "戦ってって……伊織ちゃんのそっくりさんを倒さないといけない、ということでしょうか……？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,8 +190,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			expression = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "いいえ、あくまで「μ兵装」の力でライブで相手に負けを認めさせるだけです",
 			typewriter = {
@@ -206,11 +206,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "それは一体どんな……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "私達が装備しているこのメカのことよ。これで戦えたり、ライブのパフォーマンスを上げたりできるわ",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "…ああもう！あのバカのアイデアじゃなきゃ誰がこんなの…",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			actor = 102240,
 			side = 2,
 			paintingNoise = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "あわわ、相手はもうライブを始めている！あとで詳しく教えるからちょっと待って！",
 			typewriter = {
 				speed = 0.05,

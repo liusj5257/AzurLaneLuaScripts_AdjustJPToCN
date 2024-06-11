@@ -1,6 +1,6 @@
 slot0 = class("MainBottomPanel", import(".MainBasePanel"))
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 	slot0.mallBtn = findTF(slot0._tf, "mallBtn")
 	slot0.dockBtn = findTF(slot0._tf, "dockBtn")
 	slot0.warehouse = findTF(slot0._tf, "equipButton")
@@ -19,7 +19,7 @@ function slot0.OnSetUp(slot0)
 	slot0.tecShipGiftTag = findTF(slot0._tf, "tags/tecshipgift")
 end
 
-function slot0.OnRegist(slot0)
+slot0.OnRegist = function(slot0)
 	onButton(slot0, slot0.mallBtn, function ()
 		uv0:emit(NewMainMediator.GO_SCENE, SCENE.CHARGE_MENU)
 		pg.m02:sendNotification(GAME.TRACK, TrackConst.GetTrackData(TrackConst.SYSTEM_SHOP, TrackConst.ACTION_ENTER_MAIN, isActive(uv0.sellTag) or isActive(uv0.skinTag) or isActive(uv0.mallTip)))
@@ -55,11 +55,11 @@ function slot0.OnRegist(slot0)
 	end, SFX_MAIN)
 end
 
-function slot0.GetDirection(slot0)
+slot0.GetDirection = function(slot0)
 	return Vector2(0, -1)
 end
 
-function slot0.OnFresh(slot0)
+slot0.OnFresh = function(slot0)
 	slot1 = {}
 
 	table.insert(slot1, function (slot0)
@@ -95,7 +95,7 @@ function slot0.OnFresh(slot0)
 	seriesAsync(slot1)
 end
 
-function slot0.RefreshGuildBtn(slot0)
+slot0.RefreshGuildBtn = function(slot0)
 	slot2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "NewGuildMediator")
 
 	if not slot0.isOpenGuild or slot0.isOpenGuild ~= slot2 then
@@ -106,7 +106,7 @@ function slot0.RefreshGuildBtn(slot0)
 	end
 end
 
-function slot0.OnUpdatePlayer(slot0)
+slot0.OnUpdatePlayer = function(slot0)
 	slot0:RefreshGuildBtn()
 end
 

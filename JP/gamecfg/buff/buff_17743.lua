@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.059
+					number = 0.059,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.068
+					number = 0.068,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.089
+					number = 0.089,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.098
+					number = 0.098,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.11
+					number = 0.11,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.134
+					number = 0.134,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_NubianTarget",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_NubianTarget"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 17743,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17743,
+	color = "red",
 	icon = 17740,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_NubianTarget",
-				number = 0.05
+				number = 0.05,
+				attr = "DMG_TAG_EHC_NubianTarget"
 			}
 		}
 	}

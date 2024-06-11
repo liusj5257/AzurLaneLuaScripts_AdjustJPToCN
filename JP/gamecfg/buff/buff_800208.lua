@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.06
+				number = -0.06,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI5",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -39,10 +39,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はぐれかどうかはともかく、こいつらに案内してもらうとしよう",
 			typewriter = {
 				speed = 0.05,
@@ -54,12 +54,12 @@ return {
 			}
 		},
 		{
-			actor = 602010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "トリチェリ、我々が来た航路にいる船に連絡して。これよりセイレーンを掃討するから退避せよ、とな",
 			typewriter = {
 				speed = 0.05,
@@ -74,10 +74,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 608010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はい……",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「リットリオが率いる艦隊が」も付け加えてちょうだい",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 608010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "りょ、りょうかーい…………",
 			typewriter = {
 				speed = 0.05,

@@ -14,23 +14,23 @@ slot10.__name = "BattleFleetStaticSonar"
 slot10.STATE_DISABLE = "DISABLE"
 slot10.STATE_READY = "READY"
 
-function slot10.Ctor(slot0, slot1)
+slot10.Ctor = function(slot0, slot1)
 	slot0:init()
 
 	slot0._fleetVO = slot1
 end
 
-function slot10.GetCurrentState(slot0)
+slot10.GetCurrentState = function(slot0)
 	return slot0._currentState
 end
 
-function slot10.Dispose(slot0)
+slot10.Dispose = function(slot0)
 	slot0._detectedList = nil
 	slot0._crewUnitList = nil
 	slot0._host = nil
 end
 
-function slot10.init(slot0)
+slot10.init = function(slot0)
 	slot0._crewUnitList = {}
 	slot0._detectedList = {}
 	slot0._skillDiameter = 0
@@ -38,7 +38,7 @@ function slot10.init(slot0)
 	slot0._diameter = 0
 end
 
-function slot10.AppendExtraSkillRange(slot0, slot1)
+slot10.AppendExtraSkillRange = function(slot0, slot1)
 	slot0._skillDiameter = slot0._skillDiameter + slot1
 
 	if slot0._radius ~= 0 then
@@ -46,13 +46,13 @@ function slot10.AppendExtraSkillRange(slot0, slot1)
 	end
 end
 
-function slot10.AppendCrewUnit(slot0, slot1)
+slot10.AppendCrewUnit = function(slot0, slot1)
 	slot0._crewUnitList[slot1:GetUniqueID()] = slot1
 
 	slot0:flush()
 end
 
-function slot10.RemoveCrewUnit(slot0, slot1)
+slot10.RemoveCrewUnit = function(slot0, slot1)
 	if slot0._crewUnitList[slot1:GetUniqueID()] then
 		slot0._crewUnitList[slot2] = nil
 
@@ -64,15 +64,15 @@ function slot10.RemoveCrewUnit(slot0, slot1)
 	end
 end
 
-function slot10.SwitchHost(slot0, slot1)
+slot10.SwitchHost = function(slot0, slot1)
 	slot0._host = slot1
 end
 
-function slot10.GetRange(slot0)
+slot10.GetRange = function(slot0)
 	return slot0._diameter
 end
 
-function slot10.flush(slot0)
+slot10.flush = function(slot0)
 	slot0._diameter = 0
 	slot1, slot2, slot3 = slot0:calcSonarRange()
 
@@ -84,7 +84,7 @@ function slot10.flush(slot0)
 	slot0:updateSonarState()
 end
 
-function slot10.calcSonarRange(slot0)
+slot10.calcSonarRange = function(slot0)
 	slot1 = 0
 	slot2 = 0
 	slot3 = 0
@@ -105,7 +105,7 @@ function slot10.calcSonarRange(slot0)
 	return slot1, Mathf.Clamp(slot3 / slot4.a, slot4.minRange, slot4.maxRange), slot2
 end
 
-function slot10.updateSonarState(slot0)
+slot10.updateSonarState = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0._crewUnitList) do
@@ -123,7 +123,7 @@ function slot10.updateSonarState(slot0)
 	slot0._fleetVO:DispatchEvent(uv1.Event.New(uv1.Battle.BattleEvent.SONAR_UPDATE))
 end
 
-function slot10.getSonarProperty(slot0)
+slot10.getSonarProperty = function(slot0)
 	slot3 = 0
 
 	if uv0[slot0:GetTemplate().type] then
@@ -140,14 +140,14 @@ function slot10.getSonarProperty(slot0)
 	return slot3, slot4, slot5
 end
 
-function slot10.Update(slot0, slot1)
+slot10.Update = function(slot0, slot1)
 	if slot0._currentState ~= uv0.STATE_DISABLE then
 		slot0._fleetVO:DispatchSonarScan()
 		slot0:updateDetectedList()
 	end
 end
 
-function slot10.Undetect(slot0)
+slot10.Undetect = function(slot0)
 	for slot5, slot6 in ipairs(slot0._detectedList) do
 		if slot6:IsAlive() then
 			slot6:Undetected()
@@ -157,7 +157,7 @@ function slot10.Undetect(slot0)
 	slot0._detectedList = {}
 end
 
-function slot10.updateDetectedList(slot0)
+slot10.updateDetectedList = function(slot0)
 	slot2 = uv0.TargetDiveState(slot0._host, {
 		diveState = uv1.OXY_STATE.DIVE
 	}, uv0.LegalTarget(slot0._host))
@@ -178,13 +178,13 @@ function slot10.updateDetectedList(slot0)
 	slot0._detectedList = slot3
 end
 
-function slot10.FilterTarget(slot0)
+slot10.FilterTarget = function(slot0)
 	return slot0:FilterRange(uv0.TargetDiveState(slot0._host, {
 		diveState = uv1.OXY_STATE.DIVE
 	}, uv0.LegalTarget(slot0._host)))
 end
 
-function slot10.FilterRange(slot0, slot1)
+slot10.FilterRange = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -196,11 +196,11 @@ function slot10.FilterRange(slot0, slot1)
 	return slot2
 end
 
-function slot10.isOutOfRange(slot0, slot1)
+slot10.isOutOfRange = function(slot0, slot1)
 	return slot0._radius < slot0._host:GetDistance(slot1)
 end
 
-function slot10.GetTotalRangeDetail(slot0)
+slot10.GetTotalRangeDetail = function(slot0)
 	slot1, slot2, slot3 = slot0:calcSonarRange()
 
 	return slot1, slot2, slot3, slot0._skillDiameter

@@ -7,7 +7,7 @@ slot4 = class("BattleCardPuzzleSkillFire", slot0.Battle.BattleCardPuzzleSkillEff
 slot0.Battle.BattleCardPuzzleSkillFire = slot4
 slot4.__name = "BattleCardPuzzleSkillFire"
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._weaponID = slot0._tempData.arg_list.weapon_id
@@ -16,11 +16,11 @@ function slot4.Ctor(slot0, slot1)
 	slot0._enhance = slot0._tempData.arg_list.enhance_formula
 end
 
-function slot4.SetWeaponSkin(slot0, slot1)
+slot4.SetWeaponSkin = function(slot0, slot1)
 	slot0._modelID = slot1
 end
 
-function slot4.SkillEffectHandler(slot0)
+slot4.SkillEffectHandler = function(slot0)
 	if slot0._weapon == nil then
 		slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot0._caster)
 
@@ -35,7 +35,7 @@ function slot4.SkillEffectHandler(slot0)
 		}))
 	end
 
-	function slot1()
+	slot1 = function()
 		uv0._weapon:Clear()
 		uv0:Finale()
 	end
@@ -55,7 +55,7 @@ function slot4.SkillEffectHandler(slot0)
 	end
 end
 
-function slot4.Clear(slot0)
+slot4.Clear = function(slot0)
 	uv0.super.Clear(slot0)
 
 	if slot0._weapon and not slot0._weapon:GetHost():IsAlive() then
@@ -63,7 +63,7 @@ function slot4.Clear(slot0)
 	end
 end
 
-function slot4.Interrupt(slot0)
+slot4.Interrupt = function(slot0)
 	uv0.super.Interrupt(slot0)
 
 	if slot0._weapon then

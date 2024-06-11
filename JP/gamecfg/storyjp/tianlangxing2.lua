@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シリアス改造計画\n\n<size=45>二 陛下からの最高指令</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "シリアスの努力をなんとか報いてあげられないかと悩んでいる最中――",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "シリアスの努力をなんとか報いてあげられないかと悩んでいる最中――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "今度の各陣営の懇親パーティー、下僕にも参加してもらうわ！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.2,
 					x = 0,
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "……絶対に来るのよ！",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "というわけで、小さな陛下からパーティーへの参加という最高指令を受けた。",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "話によると、どうやら結構格式高いパーティーらしく、パートナーとのダンスもあるらしいが……",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様、ご安心ください。",
 			typewriter = {
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かにこの格好で参加すると色々と目立つが……",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "お言葉ですが、一介のメイドが誇らしきご主人様のパートナーを務めるのはいささか不適切かと存じます",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "しかし、ここで敢えてシリアスをパートナーに選ぶ。",
 			typewriter = {
 				speed = 0.05,
@@ -291,8 +291,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "申し訳ございません！シリアス、ご主人様の意を察することができず出過ぎた発言をしてしまいまして……",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -318,8 +318,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "どうかこの愚鈍なメイドにお仕置きをください！",
 			typewriter = {

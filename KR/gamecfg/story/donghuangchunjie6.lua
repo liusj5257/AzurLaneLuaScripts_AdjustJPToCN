@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"시끌벅적 설날 축제\n\n<size=45>제6장 - 모두 함께 (하)</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 501010,
-			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그럼 여러분, 맛있게 드세요! 원하시는 만큼 더 드셔도 돼요!",
 			bgm = "main-chunjie",
+			actor = 501010,
+			nameColor = "#92fc63",
+			say = "그럼 여러분, 맛있게 드세요! 원하시는 만큼 더 드셔도 돼요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 206042,
 			dir = 1,
+			actor = 206042,
 			nameColor = "#92fc63",
 			say = "맛있어 보이는 요리가 이렇게 잔뜩 차려져 있으면, 뭐부터 먹을지 고민되네요…… 아, 엔터프라이즈 선배? 왜 그러시나요?",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107062,
 			dir = 1,
+			actor = 107062,
 			nameColor = "#92fc63",
 			say = "……아아, 이렇게 모두 함께 있으면, 왠지 마음이 따뜻해지는 느낌이 드는군…… 이게 '단란'하단 느낌인 건가.",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#92fc63",
 			say = "후훗, 이렇게 활기가 가득 차면, 살짝 노래하고 싶어지는걸~? 하지만 오늘은 역시 요리쪽이 중요하겠지?",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301054,
 			dir = 1,
+			actor = 301054,
 			nameColor = "#92fc63",
 			say = "라피, 젓가락은 이렇게 쥐고, 이렇게 집는 거예요.",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#92fc63",
 			say = "감자를 이렇게 만드는 조리법이 있다니…… 향후 새로운 메뉴의 개발에 참고하고 싶습니다.",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#92fc63",
 			say = "……지휘관님은 결국 식사 때까지 못 오셨네요……",
 			typewriter = {
@@ -266,16 +266,16 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "후우~ 잘 먹었다! 역시 얏센 언니 가정식이 제일 맛있어! 그럼 이제…… 후후후……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -302,14 +302,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_102",
 			actor = 101173,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "라피, 배불러…… 배부르면, 졸려……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -337,8 +337,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107062,
 			dir = 1,
+			actor = 107062,
 			nameColor = "#92fc63",
 			say = "그럼, 로열 네이비 여러분. 식후의 여흥은 이 보드로 모노폴리 대결 한 판 어떤가? 이글 유니온이 발상지인 게임이니만큼, 특별히 핸디캡을 주고 시작해도 상관없는데 말야?",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#92fc63",
 			say = "호오? 그건 나에 대한 도전인가? 설령 게임이라고 해도, 내가 최고란 사실을 증명해주지! 와라!",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#92fc63",
 			say = "뭔가 재밌어 보이네. 나도 참가해도 될까?",
 			typewriter = {
@@ -387,10 +387,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 206042,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 206042,
+			nameColor = "#92fc63",
 			say = "꺅! 가, 갑자기 전등이……",
 			typewriter = {
 				speed = 0.05,
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#92fc63",
 			say = "아아아오오오우우우우우우우~~",
 			typewriter = {
 				speed = 0.05,
@@ -442,10 +442,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 202121,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202121,
+			nameColor = "#92fc63",
 			say = "이 목소리는……",
 			typewriter = {
 				speed = 0.05,
@@ -475,9 +475,9 @@ return {
 		{
 			actor = 501010,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#92fc63",
 			say = "아니아니, 그거 그냥 전설이라니까……",
 			effects = {
 				{

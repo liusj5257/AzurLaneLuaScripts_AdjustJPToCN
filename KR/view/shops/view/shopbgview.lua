@@ -1,6 +1,6 @@
 slot0 = class("ShopBgView")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._bg = slot1
 	slot0.img = slot0._bg:GetComponent(typeof(Image))
 
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.bgs = {}
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	setActive(slot0._bg, slot1 ~= nil)
 
 	if slot1 then
@@ -18,7 +18,7 @@ function slot0.Init(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	UIUtil.ClearImageSprite(slot0._bg.gameObject)
 
 	slot0.bgs = nil

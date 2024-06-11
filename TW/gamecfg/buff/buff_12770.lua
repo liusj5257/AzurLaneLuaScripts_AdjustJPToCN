@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "希佩尔2",
 	init_effect = "",
+	id = 12770,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12770,
+	color = "red",
 	icon = 12770,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 12770
+				skill_id = 12770,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -38,9 +38,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 12770,
 				target = "TargetSelf",
-				time = 30,
-				skill_id = 12770
+				time = 30
 			}
 		}
 	}

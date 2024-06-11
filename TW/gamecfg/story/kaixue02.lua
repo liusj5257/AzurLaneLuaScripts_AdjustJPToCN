@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE02",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE02",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"櫻花爛漫開學祭\n\n<size=45>二　操場上的問題兒們</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "無論是學習還是運動，Z1大人都是No.1!",
 			bgm = "story-1",
+			actor = 401011,
+			nameColor = "#a9f548",
+			say = "無論是學習還是運動，Z1大人都是No.1!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,13 +66,13 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			say = "哼哼，真敢說啊～",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "哼哼，真敢說啊～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "送上門的決鬥，怎麼能退縮！",
 			typewriter = {
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 101061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101061,
+			nameColor = "#a9f548",
 			say = "哇哇哇～一觸即發一觸即發～",
 			typewriter = {
 				speed = 0.05,
@@ -152,10 +152,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 37.5,
 					dur = 0.15,
-					type = "shake",
-					y = 37.5
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
@@ -208,13 +208,13 @@ return {
 			}
 		},
 		{
-			actor = 307032,
+			say = "{namecode:94}～～～！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "{namecode:94}～～～！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -229,10 +229,10 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			actorName = "{namecode:94}&克雷文&Z1",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307041,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "嗚——",
@@ -260,8 +260,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.1,
 					x = 7.5,
 					number = 3
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			say = "嘁——",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘁——",
+			actor = 401011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401011,
+			nameColor = "#a9f548",
 			say = "我才沒有破壞課堂紀律！只是老師講得太無聊，我向大家推薦換我來講課，然後就…",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 15,
 					number = 3
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "哈哈哈",
 			typewriter = {
@@ -363,13 +363,13 @@ return {
 			}
 		},
 		{
-			actor = 307032,
+			say = "妳也沒資格笑！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "妳也沒資格笑！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "可、可是對面先挑——",
 			typewriter = {
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "接受挑釁的妳也有問題！還有克雷文！她們倆精力過剩也就算了，妳跟著湊什麼熱鬧啊！",
 			typewriter = {
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "總之三個人都過來！我要好好說一下妳們！",
 			typewriter = {
@@ -451,14 +451,14 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actorName = "{namecode:94}&克雷文&Z1",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			actorName = "{namecode:94}&克雷文&Z1",
+			actor = 307041,
+			nameColor = "#a9f548",
 			say = "嗚——",
 			subActors = {
 				{
@@ -484,10 +484,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -45,
 					dur = 0.8,
-					type = "shake",
-					y = -45
+					number = 1,
+					type = "shake"
 				}
 			}
 		}

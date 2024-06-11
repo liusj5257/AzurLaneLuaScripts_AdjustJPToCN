@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG29",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "몇 년 전, 북극.",
 			side = 2,
 			bgName = "bg_cccp_8",
 			dir = 1,
 			bgmDelay = 2,
-			say = "몇 년 전, 북극.",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,9 +55,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "아브로라는 끝없이 펼쳐진 흰 빛을 보면서 사색에 잠겨 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_cccp_8",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "동지들이여, 시작하시죠!",
 			typewriter = {
 				speed = 0.05,

@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――작은 아가씨…? 컬렉션 방……?",
+			side = 2,
 			bgm = "qe-ova-15",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――작은 아가씨…? 컬렉션 방……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -75,9 +75,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 총을 꺼내 들었습니다. 그러나 곧 당신의 목적은 그녀들을 처리하는 것이 아니라, 그녀들의 눈을 피해 복도를 통과하는 것임을 깨달았습니다.",
 			typewriter = {
@@ -90,9 +90,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래서 총보다 주의를 분산시킬 무언가가 필요하다는 생각이 들었습니다.",
 			typewriter = {
@@ -192,10 +192,10 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "약속을 중요히 여기는 귀여운 해적…인 듯합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -342,28 +342,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시 후――",
-			bgm = "theme-highseasfleet-reborn",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -683,9 +683,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			soundeffect = "event:/battle/boom2",
 			actorName = "하이티엔",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "'쿠구구궁!'하면서 큰 소리가 울려 퍼졌습니다. 대지마저 가를 듯한 폭발에 가련한 성은 마치 겁에 질린 듯 계속해서 요동쳤습니다.",
 			typewriter = {
@@ -777,11 +777,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
-			nameColor = "#FF9B93",
-			factiontag = "문학소녀 마스터",
-			blackBg = true,
-			bgm = "story-oldcastle-carnival",
 			actorName = "하이티엔",
+			blackBg = true,
+			factiontag = "문학소녀 마스터",
+			bgm = "story-oldcastle-carnival",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "뉴스를 전해드립니다.",
 			typewriter = {
@@ -789,17 +789,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -811,8 +811,8 @@ return {
 			side = 2,
 			actorName = "하이티엔",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "오늘 오전 1시경, 아캄 인근의 오래된 성에서 폭발 사고가 발생했습니다.",
 			typewriter = {
@@ -825,8 +825,8 @@ return {
 			side = 2,
 			actorName = "하이티엔",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "경찰과 소방 인력이 긴급 출동했고, 현장에서는 몇 구의 시체가 발견되었습니다.",
 			typewriter = {
@@ -839,8 +839,8 @@ return {
 			side = 2,
 			actorName = "하이티엔",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "현재까지 확인된 시체는 총 6구이며, 행방불명으로 알려진 성주의 딸들이 이 중에 섞여 있을 가능성도 크다고 보고 있습니다.",
 			typewriter = {
@@ -853,8 +853,8 @@ return {
 			side = 2,
 			actorName = "하이티엔",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "또한, 현장에서는 폭발물의 흔적도 발견되었는데――",
 			typewriter = {
@@ -867,8 +867,8 @@ return {
 			side = 2,
 			actorName = "하이티엔",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "신원 미상인 제3자의 시체도 함께 확인되어, 경찰은 이들이 범행을 저지른 것으로 추정하며 조사를 진행하고 있습니다.",
 			typewriter = {
@@ -877,8 +877,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -893,8 +893,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――아니, 이렇게 배드엔딩으로 빠진다고?!",
 			bgm = "theme-ijndailymeeting",
+			say = "――아니, 이렇게 배드엔딩으로 빠진다고?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

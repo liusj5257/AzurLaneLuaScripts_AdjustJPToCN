@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU8",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level03",
 			say = "The Basilica Isle - Surrounding Waters",
+			side = 2,
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "We've broken through the Sirens' defenses! There's nothing standing between us and the Basilica now!",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "Without supporting fire from the Basilica, these Sirens would be no match for us.",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "Woah! Was that Siren plane over there just shot down by anti-air fire?!",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "So even the Iron Blood's manufactured Sirens are being shot at as they approach the Basilica...",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "(Since Jean Bart has yet to return, Algérie and the others must be... But...)",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Heavenly Father, please give us your blessings... may Iris Libre and the Vichya Dominion become whole once again!",
 			dialogShake = {
 				speed = 0.09,
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "...Ah, my apologies. I didn't mean to startle you.",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,

@@ -1,6 +1,6 @@
 slot0 = class("UserLoginCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	assert(isa(slot1:getBody(), User), "should be an instance of User")
 	originalPrint("connect to gateway - " .. NetConst.GATEWAY_HOST .. ":" .. NetConst.GATEWAY_PORT)
 

@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-4",
 			actor = 206060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "以為我不是主力航母，就能僅依靠量產型奪取制空權嗎…",
-			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "不要…太小看人了…！",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "沒問題，都交給我吧。",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -168,8 +168,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "關於這個，我可能有點頭緒…數架塞壬的艦載機正在從北方的天空向我們接近，干擾…是不是與塞壬有關？",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -209,8 +209,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "不對…..不光是艦載機。情報更正，海面上發現包含主力艦在內的多支塞壬艦隊…正在從北方向我們靠近！",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "也許是極地戰線的漏網之魚吧…這樣下去，在與鐵血的戰鬥結束前，塞壬艦隊就會從側面對我們發動進攻。",
 			typewriter = {
 				speed = 0.05,

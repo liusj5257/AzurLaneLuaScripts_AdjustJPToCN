@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING25",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			say = "在克里蒙梭對馬可波羅發動突襲之前，一隻由重櫻和自由鳶尾組成的打擊艦隊原本已經起航。",
 			stopbgm = true,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgm = "theme-thehierophantV",
-			say = "在克里蒙梭對馬可波羅發動突襲之前，一隻由重櫻和自由鳶尾組成的打擊艦隊原本已經起航。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "也因此，在異變發生後，這支艦隊成為了距離異變中心最近的武裝力量。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "在原本的作戰目標消失後，這支艦隊決定轉而執行偵察任務，以期盡快摸清現狀。",
@@ -45,10 +45,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 803010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大家小心，我們快到馬可波羅王座墜落的位置了。",
 			painting = {
 				alpha = 0.3,
@@ -59,17 +59,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "即便在黑暗之中，我也能感受到那片區域比周圍更加漆黑，更加深邃。",
 			painting = {
 				alpha = 0.3,
@@ -98,10 +98,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "連為數不多的光芒也在其附近盡數消失了。",
 			painting = {
 				alpha = 0.3,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "讓島風來打探照燈試試！",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "接招————",
 			painting = {
 				alpha = 0.3,
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "探照燈的強光照亮了眾人身旁的水面，卻穿不透近前方不遠處的漆黑。",
@@ -159,17 +159,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.125,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.125,
 				dur = 0.125,
 				black = true,
+				delay = 0.125,
 				alpha = {
 					1,
 					0
@@ -180,10 +180,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……嗚啊啊？！把光芒都吸收了？！",
 			painting = {
 				alpha = 0.3,
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "簡直就像黑洞一樣！",
 			painting = {
 				alpha = 0.3,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "光芒雖然無法刺穿黑暗，但也讓眾人大致看清了它的輪廓。",
@@ -226,10 +226,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一個弧形的半球，突出了水面……。",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "看來水面下還隱藏著更多部分，就像一個正在上浮的漆黑球體……",
 			painting = {
 				alpha = 0.3,
@@ -259,12 +259,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……天空之中，雲形成了某種敵人。",
 			painting = {
 				alpha = 0.3,
@@ -276,12 +276,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大地之上，白色的菌絲形成了某種敵人。",
 			painting = {
 				alpha = 0.3,
@@ -293,12 +293,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "而此刻，在海水之中……漆黑的霧團形成了某種敵人。",
 			painting = {
 				alpha = 0.3,
@@ -313,10 +313,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302210,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "信濃大人，我覺得這些敵人的外形雖然大相逕庭，但是其形成原理都是相同的。",
 			painting = {
 				alpha = 0.3,
@@ -328,12 +328,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "也就是由不同物質構成的「繭」，敵人就是從這些繭裡誕生的。",
 			painting = {
 				alpha = 0.3,
@@ -348,10 +348,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302210,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "現在我們是距離這個「繭」最近的艦隊，而且裡面的東西還沒有孵化完全……",
 			painting = {
 				alpha = 0.3,
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我認為現在是最佳的進攻時機！",
 			painting = {
 				alpha = 0.3,
@@ -383,10 +383,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妾身也是這麼想的。貞德女士，妳怎麼看？",
 			painting = {
 				alpha = 0.3,
@@ -401,10 +401,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我們的首要任務是偵察情報，不過……現在看起來確實是不可多得的戰機。",
 			painting = {
 				alpha = 0.3,
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我們進行一次試探性進攻？",
 			painting = {
 				alpha = 0.3,
@@ -436,10 +436,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "如果沒能取得成果的話就立刻撤退，怎麼樣？",
 			painting = {
 				alpha = 0.3,
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就如此辦。白龍，準備轟炸。",
 			painting = {
 				alpha = 0.3,
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 399050,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "好勒，我已經等待多時了——",
 			painting = {
 				alpha = 0.3,
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_underheaven_6",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "轟————————！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -536,8 +536,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "白龍艦載機丟出的炸彈成功在「繭」的表面引發了一串爆炸。",
@@ -547,8 +547,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "然後，一陣黑色衝擊自繭的內部向外擴散而出。",
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "吞噬了火光，也吞噬了周圍來不及撤離的信濃一行人——",
@@ -569,8 +569,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
 			blackBg = true,
 			sequence = {
@@ -584,17 +584,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -602,13 +602,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
+			say = "無比華麗的辦公桌前，坐著一個無比消沉的人。",
 			oldPhoto = true,
 			bgm = "theme-threat-typeV",
-			say = "無比華麗的辦公桌前，坐著一個無比消沉的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,13 +691,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一個復興都能寫出來好幾個版本，做夢都夢不到一塊去…",
 			painting = {
 				alpha = 0.3,
@@ -747,8 +747,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -759,13 +759,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……這個古董十字架，昨天在這張桌子上嗎？",
 			painting = {
 				alpha = 0.3,
@@ -777,8 +777,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -804,13 +804,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……？！",
 			effects = {
 				{
@@ -828,13 +828,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "難道說……神、神啟發生了……？",
 			painting = {
 				alpha = 0.3,
@@ -861,13 +861,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "神的軍隊……將塞壬打得潰不成軍？",
 			effects = {
 				{
@@ -903,8 +903,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_501",
-			oldPhoto = true,
 			dir = 1,
+			oldPhoto = true,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

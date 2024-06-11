@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Hiei's Banquet\n\n<size=45>Chapter 1: The Spirited Secretary</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "When I arrived at the office, my secretary, Hiei, had already started working.",
 			typewriter = {
 				speed = 0.05,
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "But when I reflected upon how hard you work every day, I thought you deserved to sleep 10 more minutes.",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "As expected of someone who studied abroad with the Royal Navy. Hiei's skill at making tea was easily on par with that of the Royal girls.",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Hiei's itinerary and reports were flawless as usual. However, there was something I was concerned about...",
 			typewriter = {
 				speed = 0.05,

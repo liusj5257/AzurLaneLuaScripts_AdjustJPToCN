@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港脱出作戦！\n\n<size=45>二　諜報戦！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 407020,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "前方の曲がり角に艦影……これでもくらえぐぐぐぐ…！",
 			bgm = "story-1",
+			actor = 407020,
+			nameColor = "#a9f548",
+			say = "前方の曲がり角に艦影……これでもくらえぐぐぐぐ…！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -65,8 +65,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "ツェッペリンちゃん！艤装で人を殴っちゃ駄目ですよ！",
 			typewriter = {
@@ -98,10 +98,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "げほげほ！卿の言う通りだな。ではこの子に我らの道案内をしてもらおう",
+			dir = 1,
+			actor = 407020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -135,8 +135,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "……え？",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "「オメシカン」としての誇りが許しません！ツェッペリンちゃんも鉄血海軍の明け星でしたらこの駆逐艦の子に教えを乞うべきではありませんよ",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "ここは静かに後ろをつけて道を把握するのがよろしいかと…ずばり、諜報戦です",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "なるほど…相分かった。ふん、プロ譲りのスニーキングスキルを卿に見せてやろう…！",
 			typewriter = {
@@ -232,13 +232,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "一時間後",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "疲れたあああああもう無理動けないぃぃ……",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "ツェッペリンちゃん、相手を何回も見失っていましたね……というか途中から好奇心で変に回り道していませんでした？",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "そ、それは気になるから仕方ないというか…卿こそ厨房を通ったときに一歩も先に進まなくなったろうが！",
 			typewriter = {
@@ -359,8 +359,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "ふ、ふふふふふ…もはや言うまでもあるまい……",
 			typewriter = {
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = -1,
+			actor = 304060,
 			actorName = "二人",
 			say = "ど、どうしよう………",
 			typewriter = {
@@ -390,8 +390,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "？？？",
+			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -406,12 +406,12 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = -1,
 			blackBg = true,
+			actor = 304060,
 			actorName = "二人",
 			say = "あ、あなたは……！？",
 			typewriter = {

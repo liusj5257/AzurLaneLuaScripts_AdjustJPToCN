@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108410,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 108410,
+	color = "red",
 	icon = 108410,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 3,
+				target = "TargetSelf",
 				skill_id = 108417
 			}
 		},
@@ -38,8 +38,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 1500
+				number = 1500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -48,8 +48,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 1500
+				number = 1500,
+				attr = "torpedoPower"
 			}
 		}
 	}

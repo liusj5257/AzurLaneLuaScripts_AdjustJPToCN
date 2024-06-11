@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
-			say = "파티가 숲 속 깊은 곳으로 나아감에 따라, 끝없는 수해 속의 길은 점점 더 복잡해졌다.",
 			bgm = "theme-camelot",
+			say = "파티가 숲 속 깊은 곳으로 나아감에 따라, 끝없는 수해 속의 길은 점점 더 복잡해졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "하지만 정보 수집과 분석 기술 덕분에 단말기는 길이 나뉘는 곳에서 항상 올바른 길을 알려줬다.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "덤불을 한참 헤쳐나가자, 드디어 탁 트인 공터가 나타났다.",
 			typewriter = {
@@ -54,10 +54,10 @@ return {
 		{
 			portrait = 131171,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "전설의 대마법사",
 			dir = 1,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_518",
 			actorName = "라피",
 			say = "쿨… Zzzzzzzz",
 			painting = {
@@ -69,17 +69,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런가… 다들 어떤 것 같아?",
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흠… 진짜 대마법사가 맞는 것 같네.",
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런데 왜 저런 무방비한 상태로 잔디에서 자고 있는 거지? …정말 파티에 도움이 되는 거 맞아?",
@@ -278,9 +278,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "전설의 대마법사",
 			dir = 1,
+			bgName = "star_level_bg_518",
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -294,17 +294,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -407,11 +407,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흠, 역시 도움이 될 것 같지는 않네…",
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "스킬이 발동하자, 대마법사에 관한 정보가 단말기로 흘러들어왔다.",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"대마법사 라피, 종족: 토끼토끼별의 주민\"",
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"천년 전에 마왕을 쓰러뜨렸다는 전설의 용사 파티의 일원\"",
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"현재 상태: 저주에 걸림\"",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"저주 종류: 게으름\"",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"전대 마왕이 남긴 저주. 저주의 대상자를 반복되는 과거 속에 가두고, 이성이 완전히 부정적인 감정으로 휩싸일 때까지 이를 반복한다.\"",
@@ -560,8 +560,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"저주 해제 방법: 불명\"",
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "설마 저주에 걸렸을 줄은…",
@@ -609,11 +609,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "천년 전에 토벌된 마왕의 저주가 아직까지 계속되고 있다니…",
@@ -627,11 +627,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "천년 동안이나 저주에 시달린 건가…",
@@ -695,11 +695,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관! 라피가 자고 있던 매트 옆에 접시가 놓여있어! 정기적으로 식사를 가져다 주는 사람이 있는 것 같아!",
@@ -732,8 +732,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "자세히 둘러보니, 주위에는 음식이 올려져 있는 접시뿐만 아니라, 치료용 포션도 여러 개 놓여 있었다.",
 			typewriter = {
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어? 당신은… 왕성에서 만난 강철 교회의 정비사?",
@@ -778,11 +778,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "갑자기 이런 곳에… 혹시 지휘관을 스토킹이라도 하는 거야?",
@@ -798,9 +798,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "강철 교회 정비사",
 			dir = 1,
+			bgName = "star_level_bg_518",
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -814,17 +814,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -851,11 +851,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "강철 교회 정비사",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "여기 상황은 보다시피 위험하니까… 조금 걱정이 되어서 따라온 것뿐이란다.",
@@ -939,11 +939,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "강철 교회 정비사",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그 아이 나름 저주를 풀어보려고 애쓰고는 있지만…",
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "강철 교회 정비사",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"다음에는 성공할 거야\"라고 말하긴 했거든…",
@@ -1013,11 +1013,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "근처 마을에 사는, 대마법사의 저주를 해제하려는 약사… 힌트는 충분하네.",
@@ -1031,11 +1031,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관, 우리도 가보자!",
@@ -1049,8 +1049,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

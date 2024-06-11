@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"那便是…戀愛的季節\n\n<size=45>七 甜蜜的妄想！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區・指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區・指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 202260,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202260,
+			nameColor = "#a9f548",
 			say = "(……簡直就像在做夢一樣……)",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "——欸！？啊，指揮官？！怎麼了？",
 			dialogShake = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "你說喊了我很多次我都沒反應？……沒，沒什麼！我只是在想事情而已……",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "我，我會做好秘書艦工作的，放心吧！",
 			typewriter = {
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "看她無比慌張的模樣反而讓人心生擔心…不過工作都好好做完了，也不好在說什麼…",
 			typewriter = {
 				speed = 0.05,
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "繼續未完成的工作吧……",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "(啊， 嚇死我了！得集中精神幹活才行……)",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "格拉斯哥一邊整理著資料，一邊不知道在嘟囔著什麼…",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "果然工作太辛苦了吧…下次休息的時候約她一起去哪裡玩玩放鬆下吧……",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "(下次休息的時候乾脆下決心約指揮官出來……不對，是一定要約成功！）",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "(到時候一定要坦率地…溫柔地安慰指揮官，啊，然後的場景就是…『突然一陣風吹過——）",
 			typewriter = {
@@ -297,9 +297,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "『——終有一天，彼此的心能像妄想的那般無比靠近",
 			typewriter = {
 				speed = 0.05,

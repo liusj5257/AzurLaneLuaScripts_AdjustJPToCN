@@ -1,14 +1,14 @@
 slot0 = class("LaunchBallTaskScene", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LaunchBallTaskUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return "cw-story"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.taskDatas = getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_ZUMA_TASK):getConfig("config_client")
 	slot0.iconTpl = findTF(slot0._tf, "ad/players/Viewport/Content/iconTpl")
 
@@ -81,7 +81,7 @@ function slot0.init(slot0)
 	slot0:selectPlayer(1)
 end
 
-function slot0.selectPlayer(slot0, slot1)
+slot0.selectPlayer = function(slot0, slot1)
 	for slot5 = 1, #slot0.icons do
 		setActive(findTF(slot0.icons[slot5].tf, "selected"), slot0.icons[slot5].player == slot1)
 	end
@@ -91,7 +91,7 @@ function slot0.selectPlayer(slot0, slot1)
 	slot0.selectPlayerId = slot1
 end
 
-function slot0.updateTaskList(slot0, slot1)
+slot0.updateTaskList = function(slot0, slot1)
 	slot0.submitTasks = {}
 
 	for slot5 = 1, #slot0.tasks do
@@ -207,11 +207,11 @@ function slot0.updateTaskList(slot0, slot1)
 	setActive(findTF(slot0._tf, "ad/getAll"), #slot0.submitTasks > 1)
 end
 
-function slot0.updateTasks(slot0)
+slot0.updateTasks = function(slot0)
 	slot0:selectPlayer(slot0.selectPlayerId)
 end
 
-function slot0.getTaskByPlayer(slot0, slot1)
+slot0.getTaskByPlayer = function(slot0, slot1)
 	for slot5 = 1, #slot0.taskDatas do
 		if slot0.taskDatas[slot5].player == slot1 then
 			return slot0.taskDatas[slot5].task
@@ -219,7 +219,7 @@ function slot0.getTaskByPlayer(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

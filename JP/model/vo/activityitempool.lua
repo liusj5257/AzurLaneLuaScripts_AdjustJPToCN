@@ -1,7 +1,7 @@
 slot0 = class("ActivityItemPool", import(".BaseVO"))
 slot1 = pg.activity_random_award_item
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.awards = slot1.awards or {}
@@ -9,11 +9,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.index = slot1.index
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_random_award_template
 end
 
-function slot0.getComsume(slot0)
+slot0.getComsume = function(slot0)
 	return {
 		type = slot0:getConfig("resource_category"),
 		id = slot0:getConfig("resource_type"),
@@ -21,7 +21,7 @@ function slot0.getComsume(slot0)
 	}
 end
 
-function slot0.enoughResForUsage(slot0, slot1)
+slot0.enoughResForUsage = function(slot0, slot1)
 	if slot0:getComsume().type == DROP_TYPE_RESOURCE then
 		if getProxy(PlayerProxy):getData():getResById(slot2.id) < slot2.count * slot1 then
 			return false
@@ -33,27 +33,27 @@ function slot0.enoughResForUsage(slot0, slot1)
 	return true
 end
 
-function slot0.getItemCount(slot0)
+slot0.getItemCount = function(slot0)
 	return _.reduce(slot0:getConfig("item_list"), 0, function (slot0, slot1)
 		return slot0 + slot1[2]
 	end)
 end
 
-function slot0.getleftItemCount(slot0)
+slot0.getleftItemCount = function(slot0)
 	return slot0:getItemCount() - slot0:getFetchCount()
 end
 
-function slot0.getFetchCount(slot0)
+slot0.getFetchCount = function(slot0)
 	return _.reduce(_.values(slot0.awards), 0, function (slot0, slot1)
 		return slot0 + slot1
 	end)
 end
 
-function slot0.getMainItems(slot0)
+slot0.getMainItems = function(slot0)
 	return slot0:filterItems(true)
 end
 
-function slot0.filterItems(slot0, slot1)
+slot0.filterItems = function(slot0, slot1)
 	slot2 = slot0:getConfig("main_item")
 
 	return _.map(_.select(slot0:getConfig("item_list"), function (slot0)
@@ -75,17 +75,17 @@ function slot0.filterItems(slot0, slot1)
 	end)
 end
 
-function slot0.getItems(slot0)
+slot0.getItems = function(slot0)
 	return slot0:filterItems(true), slot0:filterItems(false)
 end
 
-function slot0.canOpenNext(slot0)
+slot0.canOpenNext = function(slot0)
 	return _.all(slot0:getMainItems(), function (slot0)
 		return slot0.surplus == 0
 	end)
 end
 
-function slot0.getTempleNewChar(slot0, slot1)
+slot0.getTempleNewChar = function(slot0, slot1)
 	if not slot0.charAwardDisplayData then
 		slot0.charAwardDisplayData = {}
 
@@ -115,7 +115,7 @@ end
 slot0.guardian_type_lottery = 1
 slot0.guardian_type_lock = 2
 
-function slot0.getCharLotteryCount(slot0, slot1)
+slot0.getCharLotteryCount = function(slot0, slot1)
 	if pg.guardian_template[slot1].type == ActivityItemPool.guardian_type_lottery then
 		return slot2.guardian_gain[2]
 	elseif slot2.type == ActivityItemPool.guardian_type_lock then
@@ -131,7 +131,7 @@ function slot0.getCharLotteryCount(slot0, slot1)
 	return -1
 end
 
-function slot0.getGuardianGot(slot0, slot1)
+slot0.getGuardianGot = function(slot0, slot1)
 	if pg.guardian_template[slot1].guardian_gain_pool ~= slot0.id then
 		warning("guardian id " .. slot1 .. "不属于该池子 " .. slot0.id .. " 所属对象")
 
@@ -155,7 +155,7 @@ function slot0.getGuardianGot(slot0, slot1)
 	return false, 0
 end
 
-function slot0.GetAllGuardianIds(slot0)
+slot0.GetAllGuardianIds = function(slot0)
 	if not pg.activity_template[slot0] then
 		return {}
 	end
@@ -176,7 +176,7 @@ function slot0.GetAllGuardianIds(slot0)
 	return slot2
 end
 
-function slot0.GetAllGuardianIdsStatus(slot0)
+slot0.GetAllGuardianIdsStatus = function(slot0)
 	slot2 = getProxy(ActivityProxy):getActivityById(slot0)
 
 	if not pg.activity_template[slot0] then
@@ -221,7 +221,7 @@ function slot0.GetAllGuardianIdsStatus(slot0)
 	return slot3, slot4
 end
 
-function slot0.GetGuardianLastCount(slot0, slot1)
+slot0.GetGuardianLastCount = function(slot0, slot1)
 	slot3 = getProxy(ActivityProxy):getActivityById(slot0)
 
 	if not pg.activity_template[slot0] then
@@ -241,7 +241,7 @@ function slot0.GetGuardianLastCount(slot0, slot1)
 	return ActivityItemPool.CreateItemPool(slot4, slot3:getAwardInfos()[slot4], nil, 1):getGuardianGot(slot1)
 end
 
-function slot0.CreateItemPool(slot0, slot1, slot2, slot3)
+slot0.CreateItemPool = function(slot0, slot1, slot2, slot3)
 	return ActivityItemPool.New({
 		id = slot0,
 		awards = slot1,
@@ -249,7 +249,7 @@ function slot0.CreateItemPool(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.GetTempleRedTip(slot0, slot1)
+slot0.GetTempleRedTip = function(slot0, slot1)
 	if not pg.activity_template[slot0] then
 		return false
 	end

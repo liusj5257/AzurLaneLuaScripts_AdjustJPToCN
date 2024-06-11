@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_3",
+			bgm = "theme-threat-typev",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Princeton and Laffey were still in the NY City simulation, only now the city had been so devastated as to render it unrecognizable.",
-			bgm = "theme-threat-typev",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_3",
 			hidePaintObj = true,
 			say = "The buildings on the horizon were burning and crumbling. This was the work of a black tornado, appearing suddenly and ravaging everything in mere minutes.",
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But... why? Why do that?",
@@ -83,9 +83,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			bgName = "bg_zhuguang_3",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Huh... All I see is mist. I have no idea if those are ships or not.",
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh, wait, the Commander's files said something about this!",
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "They were described as hostile entities that took the form of mist, appearing at the same time as a black tornado did.",
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "No, but it sounds like that if you didn't read the files.",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "They're not in our dimension, per se, which is why they look so hazy. It's also why we can't take measurements of them.",

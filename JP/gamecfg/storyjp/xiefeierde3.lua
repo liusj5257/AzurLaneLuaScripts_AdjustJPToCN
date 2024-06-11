@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"銃弾と、愛を込めて\n\n<size=45>三 メイドの休日</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 202080,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ご主人様は私たちメイド隊の普段の様子が気になるのですか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,15 +73,15 @@ return {
 			}
 		},
 		{
-			say = "というわけで、ロイヤル寮にやってきたのだが……",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "というわけで、ロイヤル寮にやってきたのだが……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,11 +128,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "あ、あれ？？",
 			typewriter = {
@@ -161,13 +161,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "塵一つない、綺麗に掃除されている部屋だ。",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "紅茶を少し啜ってみる。さすがはロイヤルメイド、並ならぬ腕前だ。",
 			typewriter = {
 				speed = 0.05,
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……なんか放置された。",
 			typewriter = {
 				speed = 0.05,
@@ -268,9 +268,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "いや、そもそも別に寝転がってはいないのだが。……あれは？",
 			typewriter = {
 				speed = 0.05,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "机の上に置いてあるのは途中まで分解された…拳銃？",
 			typewriter = {
 				speed = 0.05,
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "相変わらず遠慮のない物言いだな……そういえば、シェフィールドが「銃砲」と呼んでいる艤装も拳銃とよく似ている気がする。",
 			typewriter = {
 				speed = 0.05,
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "知識としてかじってはいるが、シェフィールドのレクチャーには興味がある。",
 			typewriter = {
 				speed = 0.05,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "声色こそいつもと変わらないものの、なんだかシェフィールドから静かな闘志の炎が燃え盛っているように感じた。",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海風與夏日的無人島\n\n<size=45>海風帶來的好消息</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
-			say = "翌日，第一縷陽光灑在金色的沙灘上時，從遠方傳來汽笛的聲音。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "翌日，第一縷陽光灑在金色的沙灘上時，從遠方傳來汽笛的聲音。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg1",
 			mode = 1,
+			bgName = "bg_summerisland_cg1",
 			sequence = {
 				{
 					"",
@@ -56,17 +56,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -86,16 +86,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "嗚哇~！真是好漂亮的一座島欸~！"
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "伊莉莎白女王",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "曼非斯",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "曼非斯",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "曼非斯",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "曼非斯",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "伊莉莎白女王",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "伊莉莎白女王",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "伊莉莎白女王",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "貝爾法斯特",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "曼非斯",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "企業",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "企業",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "企業",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "皇家幸運號",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎塞留",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -467,8 +467,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃俄羅斯",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -479,8 +479,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "薩拉托加",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "俾斯麥",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -515,12 +515,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "逸仙",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "有了港口之後，不論是人員運輸還是物資調配都很方便，不錯的選擇。",
 			painting = {
 				alpha = 0.3,
@@ -532,8 +532,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "維托里奧·維內托",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -544,30 +544,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "港區支援艦隊在登島之後，立刻開始了無人島開發計劃。",
 			bgm = "theme-SeaAndSun-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "港區支援艦隊在登島之後，立刻開始了無人島開發計劃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -575,8 +575,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "各陣營展現出的熱情令人大吃一驚……",
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "相信很快，這座島嶼就會被改造成不錯的度假勝地了。",
@@ -597,8 +597,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "不過當然，在此之前還有一件不得不解決的事——",
@@ -611,10 +611,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahoy matey！好久沒見面囉，老朋友~",
 			painting = {
 				alpha = 0.3,
@@ -626,8 +626,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -636,12 +636,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "怎麼樣，有沒有想我呀？",
 			painting = {
 				alpha = 0.3,
@@ -653,8 +653,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "……這場落難都在妳的計劃中？",
@@ -664,12 +664,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "算是吧~不過我向你保證，我絕對沒有害你的意思哦。",
 			painting = {
 				alpha = 0.3,
@@ -684,10 +684,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "實際上來說也沒有遇到危險嘛~",
 			painting = {
 				alpha = 0.3,
@@ -702,10 +702,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "況且你還收穫了一個風景秀麗的無人島，這次就原諒我吧。",
 			painting = {
 				alpha = 0.3,
@@ -720,10 +720,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊…………時間差不多了，我該回去了。",
 			painting = {
 				alpha = 0.3,
@@ -735,8 +735,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -745,12 +745,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過幾天後我會再來的，在這期間好好探尋這座島嶼的秘密吧。",
 			painting = {
 				alpha = 0.3,
@@ -765,10 +765,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Matey，尋寶之旅可才剛剛開始哦~",
 			painting = {
 				alpha = 0.3,
@@ -783,10 +783,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那麼再會了——",
 			painting = {
 				alpha = 0.3,
@@ -798,8 +798,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "與萬聖夜時相同，皇家幸運號如風一般離去了。",
@@ -809,8 +809,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "……雖然有些不太明白她的意思，不過還是先著眼於無人島的開發計劃吧——",

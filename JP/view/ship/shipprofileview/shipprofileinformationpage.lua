@@ -1,10 +1,10 @@
 slot0 = class("ShipProfileInformationPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipProfileInformationPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.voiceActor = slot0:findTF("bg/author_panel/cvPanel/label/mask/Text"):GetComponent("ScrollText")
 	slot0.illustrator = slot0:findTF("bg/author_panel/illustPanel/illustrator/label/mask/Text"):GetComponent("ScrollText")
 	slot0.cvContainer = slot0:findTF("bg/lines_panel/lines_list/Grid")
@@ -24,7 +24,7 @@ function slot0.OnLoaded(slot0)
 	slot0.profileTxt = slot0:findTF("bg/prototype_panel/desc/scroll/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.UpdateCvBtn(slot0, slot1)
+slot0.UpdateCvBtn = function(slot0, slot1)
 	slot0.voiceBtnSel.localPosition = slot0.voiceBtnPositions[slot1 and 2 or 1]
 	slot0.voiceBtnUnsel.localPosition = slot0.voiceBtnPositions[slot1 and 1 or 2]
 	slot4 = Color.New(1, 1, 1, 1)
@@ -33,7 +33,7 @@ function slot0.UpdateCvBtn(slot0, slot1)
 	slot0.voiceBtnTxt1.color = slot1 and slot5 or slot4
 end
 
-function slot0.UpdateLang2(slot0)
+slot0.UpdateLang2 = function(slot0)
 	slot1 = slot0.skin.ship_group
 	slot3 = pg.ship_skin_words[ShipGroup.getDefaultSkin(slot1).id]
 
@@ -44,7 +44,7 @@ function slot0.UpdateLang2(slot0)
 	slot0:UpdateProfileInfo()
 end
 
-function slot0.UpdateLang1(slot0)
+slot0.UpdateLang1 = function(slot0)
 	slot1 = slot0.skin.ship_group
 	slot3 = pg.ship_skin_words[ShipGroup.getDefaultSkin(slot1).id]
 
@@ -55,7 +55,7 @@ function slot0.UpdateLang1(slot0)
 	slot0:UpdateProfileInfo()
 end
 
-function slot0.OnCvBtn(slot0, slot1)
+slot0.OnCvBtn = function(slot0, slot1)
 	onButton(slot0, slot0.voiceBtn, function ()
 		uv0 = not uv0
 
@@ -70,7 +70,7 @@ function slot0.OnCvBtn(slot0, slot1)
 	slot0:UpdateCvBtn(slot1)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.weddingReview, function ()
 		uv0:emit(ShipProfileScene.WEDDING_REVIEW, {
 			group = uv0.shipGroup,
@@ -79,11 +79,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.EnterAnim(slot0, slot1, slot2)
+slot0.EnterAnim = function(slot0, slot1, slot2)
 	LeanTween.moveX(rtf(slot0._tf), 0, slot1):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot2))
 end
 
-function slot0.ExistAnim(slot0, slot1, slot2)
+slot0.ExistAnim = function(slot0, slot1, slot2)
 	slot3 = LeanTween.moveX(rtf(slot0._tf), 1000, slot1)
 	slot3 = slot3:setEase(LeanTweenType.easeInOutSine)
 
@@ -96,7 +96,7 @@ function slot0.ExistAnim(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0:Show()
 
 	slot0.shipGroup = slot1
@@ -117,7 +117,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	if slot0.skin and slot0.skin.id == slot1.id and slot0.isLive2d == slot2 then
 		return
 	end
@@ -133,7 +133,7 @@ function slot0.Flush(slot0, slot1, slot2)
 	slot0.cvLoader:Load(slot0.skin.id)
 end
 
-function slot0.UpdateProfileInfo(slot0)
+slot0.UpdateProfileInfo = function(slot0)
 	slot1, slot2, slot3 = ShipWordHelper.GetWordAndCV(slot0.skin.id, ShipWordHelper.WORD_TYPE_PROFILE)
 	slot0.profileTxt.text = SwitchSpecialChar(slot3, true)
 
@@ -146,15 +146,15 @@ function slot0.UpdateProfileInfo(slot0)
 	setActive(slot0.profilePlayBtn, slot5)
 end
 
-function slot0.SetCvLoader(slot0, slot1)
+slot0.SetCvLoader = function(slot0, slot1)
 	slot0.cvLoader = slot1
 end
 
-function slot0.SetCallback(slot0, slot1)
+slot0.SetCallback = function(slot0, slot1)
 	slot0.callback = slot1
 end
 
-function slot0.UpdateLanguage(slot0)
+slot0.UpdateLanguage = function(slot0)
 	slot2 = ShipGroup.getDefaultSkin(slot0.skin.ship_group)
 	slot4 = ShipWordHelper.GetLanguageSetting(slot2.id)
 	slot5 = pg.ship_skin_words[slot2.id].voice_key_2 >= 0 or slot3.voice_key_2 == -2
@@ -181,27 +181,27 @@ function slot0.UpdateLanguage(slot0)
 	setActive(slot0.voiceBtn, slot5)
 end
 
-function slot0.SetAuthorInfo(slot0)
+slot0.SetAuthorInfo = function(slot0)
 	slot2 = ShipWordHelper.GetCVAuthor(slot0.skin.id)
 
 	print(slot2 .. "  ----")
 	slot0.voiceActor:SetText(slot2)
 end
 
-function slot0.SetIllustrator(slot0)
+slot0.SetIllustrator = function(slot0)
 	slot2 = slot0.shipGroup:GetNationTxt()
 
 	print(slot2)
 	slot0.illustrator:SetText(slot2)
 end
 
-function slot0.GetCvList(slot0, slot1)
+slot0.GetCvList = function(slot0, slot1)
 	slot2 = {}
 
 	return (not slot1 or (pg.ship_skin_template[slot0.skin.id].spine_use_live2d ~= 1 or pg.AssistantInfo.GetCVListForProfile(true)) and pg.AssistantInfo.GetCVListForProfile()) and ShipWordHelper.GetCVList()
 end
 
-function slot0.UpdateCvList(slot0, slot1)
+slot0.UpdateCvList = function(slot0, slot1)
 	slot0:DestroyCvBtns()
 
 	slot0.cvBtns = {}
@@ -229,7 +229,7 @@ function slot0.UpdateCvList(slot0, slot1)
 	end
 end
 
-function slot0.AddMainExBtn(slot0, slot1, slot2)
+slot0.AddMainExBtn = function(slot0, slot1, slot2)
 	slot3 = ShipProfileMainExCvBtn.New(cloneTplTo(slot0.cvTpl, slot0.cvContainer))
 
 	onButton(slot0, slot3._tf, function ()
@@ -243,7 +243,7 @@ function slot0.AddMainExBtn(slot0, slot1, slot2)
 	table.insert(slot0.cvBtns, slot3)
 end
 
-function slot0.AddCvBtn(slot0, slot1)
+slot0.AddCvBtn = function(slot0, slot1)
 	slot2 = ShipProfileCvBtn.New(cloneTplTo(slot0.cvTpl, slot0.cvContainer))
 
 	onButton(slot0, slot2._tf, function ()
@@ -256,7 +256,7 @@ function slot0.AddCvBtn(slot0, slot1)
 	table.insert(slot0.cvBtns, slot2)
 end
 
-function slot0.AddExCvBtn(slot0, slot1)
+slot0.AddExCvBtn = function(slot0, slot1)
 	slot2 = ShipProfileExCvBtn.New(cloneTplTo(slot0.cvTpl, slot0.cvContainer))
 
 	onButton(slot0, slot2._tf, function ()
@@ -269,7 +269,7 @@ function slot0.AddExCvBtn(slot0, slot1)
 	table.insert(slot0.cvBtns, slot2)
 end
 
-function slot0.DestroyCvBtns(slot0)
+slot0.DestroyCvBtns = function(slot0)
 	if not slot0.cvBtns then
 		return
 	end
@@ -279,7 +279,7 @@ function slot0.DestroyCvBtns(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:DestroyCvBtns()
 
 	slot0.cvLoader = nil

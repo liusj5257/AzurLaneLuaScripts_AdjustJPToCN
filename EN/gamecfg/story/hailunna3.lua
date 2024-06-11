@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAILUNNA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAILUNNA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Cinnamon Roll on a Rainy Day\n\n<size=45>3 A Light in the Darkness</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Helena and I relied on the backup lights to find our way to the breaker room.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "A scorched smell lingered in the air when we got to the power station. Whatever broke here, fixing it wouldn't be quite so easy.",
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Commander, I think we have a small generator over in the depot.",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "If we can get it online, we should be good on power... for a while, at least.",
 			typewriter = {
@@ -115,8 +115,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Let's head there together, shall we?",
 			typewriter = {
@@ -129,13 +129,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "This building's confusing layout was only made worse by our inability to see anything in the dark. Getting lost seemed an inevitability...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"Is it this way? No, that leads to the archives... What about that way? Wait, that's not right either...\"",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "The depot is this way. Or at least, I'm pretty sure it is...",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Oh, not exactly. It's just that I've been here once before, so I know roughly where to go.",
 			typewriter = {
@@ -230,13 +230,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_148",
+			side = 2,
+			dir = 1,
 			say = "I let Helena lead the way, and after just a short while, we'd made it to the depot.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
+			dir = 1,
 			say = "Did she really memorize such a complex layout after just one prior visit? That was amazing, if so.",
 			typewriter = {
 				speed = 0.05,
@@ -275,9 +275,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
+			dir = 1,
 			say = "\"Well, we're here. Now the question is, how are we going to find a needle in a haystack? The generator could be anywhere.\"",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "I'm fairly sure it should be over in... aisle twelve, first shelf.",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Ah, there it is! Thank goodness my memory didn't betray me.",
 			typewriter = {
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
+			dir = 1,
 			say = "She even remembered its exact location. I was stunned.",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Please, that's not true. I just had a gut feeling it would be here.",
 			typewriter = {
@@ -363,8 +363,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Also, uh... We're going to need some fuel for the generator.",
 			typewriter = {
@@ -377,9 +377,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
+			dir = 1,
 			say = "Even in near pitch-black darkness, I could tell my compliment made Helena smile.",
 			typewriter = {
 				speed = 0.05,
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "We found some fuel and got the generator started. The office lights lit once more.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -425,8 +425,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "That takes care of that. Now we should probably–",
 			typewriter = {
@@ -441,9 +441,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Eek! Oh god! Did I do something wrong?",
 			flashout = {
@@ -471,8 +471,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -481,9 +481,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"No, it's fine. I doubt that flickering was because of you.\"",
 			typewriter = {
 				speed = 0.05,
@@ -495,9 +495,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"The generator's probably just gotten weaker over the years. Let's turn off all the non-essentials and use my desk lamp for light.\"",
 			typewriter = {
 				speed = 0.05,

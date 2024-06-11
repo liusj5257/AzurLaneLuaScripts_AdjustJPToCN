@@ -5,13 +5,13 @@ return {
 	id = "LINGHANGYUANTANXIN12",
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
 			bgm = "qe-ova-10",
+			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "(뚫어져라……)",
 			typewriter = {
@@ -19,17 +19,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "TB의 시선을 느낀지도 벌써 한 시간… 도저히 묻지 않고는 넘어갈 수 없는 분위기다.",
@@ -63,10 +63,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……딱히요. 학교에 제출하는 관찰일기를 쓰고 있던 것뿐이에요.",
 			typewriter = {
@@ -90,10 +90,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……그런데요.",
 			typewriter = {
@@ -117,10 +117,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……귀찮으니까 사양할게요.",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "그녀는 단호하게 제안을 거절하고 다시 관찰로 돌아갔다.",
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "뭐…… 긍정적으로 생각하면, 적어도 이번 숙제는 빨리 끝낼 수 있으리라.",

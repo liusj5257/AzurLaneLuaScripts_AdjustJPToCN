@@ -1,16 +1,16 @@
 return {
-	id = "AIGUANQIA24",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA24",
+	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港・寮舎",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "母港・寮舎",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "今回の黒幕？",
 			typewriter = {
@@ -82,8 +82,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "確かにそうだねー、でも私、前にも何度かウィルスに感染したことあるし、結構よくあることであんまりよくはわかってないんだよねー",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "世界征服！？確かに私を操ればそれも不可能ではないかも……？っていやいや！さすがにそれはないと思うけどなー！",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "も～！みんなからかわないでよ～！さすがにあんなに大きくなっちゃうと色々大変なんだから！",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "なんだかんだで、今回もまたセイレーンの仕業だったりして！・・・なーんちゃって、そんなわけないか～！そんな毎回同じじゃ芸がないもんね！あはははは",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
+			nameColor = "#a9f548",
 			actor = 101170,
 			actorName = "ラフィー＆ジャベリン＆Z23＆電",
 			say = "………！",
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "さ、さすがにそんなこと……ねえ？ニーミちゃん！？",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "は、はい……セイレーンだってさすがにそんな馬鹿の一つ覚えのようなことはしないはず…",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "………全ては神のみぞ知る、ということで。",

@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508E",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "잔불의 전투력은… 정말 대단해요…… 저희의 전체 항공 전투력도 히류·META와는 비교가 안 될 정도예요.",
-			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "하지만 우린 아크로열·META의 전투력과는 비슷하다구!",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "헤헤, 작전 정보 하나 추가~",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "이 정보가 이런 상황에서 좋은 소식인지 나쁜 소식인지는 모르겠지만...",
 			typewriter = {
 				speed = 0.05,
@@ -101,14 +101,14 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900287,
+			nameColor = "#ff5c5c",
 			say = "이곳 실험 함대는 예상을 뛰어넘는 전투력을 보여줬어, 굉장히 흥미로운 현상이다.",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1

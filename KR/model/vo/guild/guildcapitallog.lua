@@ -1,6 +1,6 @@
 slot0 = class("GuildCapitalLog", import("..BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.memberId = slot1.member_id
 	slot0.name = slot1.name
 	slot0.eventType = slot1.event_type
@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.text = slot0:buildText()
 end
 
-function slot0.buildText(slot0)
+slot0.buildText = function(slot0)
 	slot1 = ""
 	slot2 = pg.TimeMgr:GetInstance():STimeDescC(slot0.time)
 	slot3 = slot0.eventTarget[1]
@@ -55,11 +55,11 @@ function slot0.buildText(slot0)
 	return slot1
 end
 
-function slot0.getText(slot0)
+slot0.getText = function(slot0)
 	return slot0.text
 end
 
-function slot0.IsSameType(slot0, slot1)
+slot0.IsSameType = function(slot0, slot1)
 	return _.any(slot1, function (slot0)
 		return uv0.eventType == slot0
 	end)

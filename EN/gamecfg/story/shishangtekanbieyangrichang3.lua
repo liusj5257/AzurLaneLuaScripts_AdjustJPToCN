@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection! A Glimpse Into Another Life\n\n<size=45>3 Troubled Seas</size>",
@@ -17,28 +17,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
+			bgm = "story-richang-5",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Under a clear sky, Kongou holds a surfboard in her arms in wait for the \"perfect wave.\"",
-			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Paddle first. Lay face-down on the surfboard, stabilize your weight, and use your ab muscles to support your upper body.",
 			typewriter = {
@@ -99,13 +99,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hmm... Any other tips I should keep in mind?",
 			typewriter = {
@@ -152,13 +152,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sounds easier said than done.",
 			typewriter = {
@@ -224,13 +224,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I see. So it's all about elegance, precision, and fluidity...",
 			typewriter = {
@@ -354,9 +354,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -367,17 +367,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -494,9 +494,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -507,17 +507,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -544,11 +544,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You really can't let your guard down for a second out here...",
@@ -596,13 +596,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(This is bad. Her board shorts are stuck on the surfboard's fin...)",
 			typewriter = {
@@ -679,8 +679,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -689,11 +689,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "C-Commander, please don't look!",
@@ -707,8 +707,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -718,9 +718,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -731,17 +731,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -768,11 +768,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I didn't expect you'd be seeing me in such an... unrefined way.",
@@ -805,11 +805,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "In return for that...",

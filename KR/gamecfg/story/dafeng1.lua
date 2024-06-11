@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"비서함 다이호의 헌신\n\n<size=45>비서함의 업무? (상)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "내가 지시하지 않아도, 다이호는 늘 미리 필요한 걸 준비해준다.",
 			typewriter = {
 				speed = 0.05,
@@ -76,15 +76,15 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "지휘관님, 차라도 한 잔 어떠신지요♡",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…늘 목이 마르다고 느끼는 바로 그 순간에, 다이호는 나에게 차를 가져다준다.",
 			typewriter = {
 				speed = 0.05,
@@ -119,15 +119,15 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "지휘관님, 잠시 쉬시는 건 어떠세요? 다이호가 어깨를 주물러 드릴게요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……마치 어깨가 뭉친 곳이 어디인지 스캔이라도 하는 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "♪～♪～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "다이호로 부터 뜨거운 시선이 느껴진다……",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "지휘관님? 다이호는 신경 쓰지 마시고, 편하게 계셔주셔요♡",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "이렇게 지휘관님을 눈에 담지 않으면, 어떻게 제가 지휘관님에 대해 더욱더 알 수 있겠어요?",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "비서함으로써 마땅한 업무가 아닐는지…?",
 			typewriter = {
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "왠지 묘하게 설득력 있네…",
 			typewriter = {
 				speed = 0.05,
@@ -322,11 +322,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#92fc63",
+			stobpgm = true,
 			dir = 1,
 			blackBg = true,
-			stobpgm = true,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 후후후…그래요…지휘관님의 곁엔 다이호만 있으면 되니까요……",
 			typewriter = {
 				speed = 0.05,
@@ -338,12 +338,12 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "지금 뭔 말 하지 않았나……? 잘못 들었나……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "지금 뭔 말 하지 않았나……? 잘못 들었나……",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

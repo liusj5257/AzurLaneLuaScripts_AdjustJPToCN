@@ -2,15 +2,15 @@ slot0 = class("ArchivesWorldBossListPage", import("view.base.BaseSubView"))
 slot1 = 1
 slot2 = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ArchivesWorldBossListUI"
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.proxy = slot1
 end
 
-function slot0.OnSwitchArchives(slot0)
+slot0.OnSwitchArchives = function(slot0)
 	slot0.isInit = false
 
 	if slot0.key then
@@ -18,7 +18,7 @@ function slot0.OnSwitchArchives(slot0)
 	end
 end
 
-function slot0.OnGetMetaAwards(slot0)
+slot0.OnGetMetaAwards = function(slot0)
 	if slot0.prevCard then
 		slot0:UpdateAwards(slot0.prevCard.data)
 
@@ -30,7 +30,7 @@ function slot0.OnGetMetaAwards(slot0)
 	end
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.toggles = {
 		[uv0] = slot0:findTF("filter/finish"),
 		[uv1] = slot0:findTF("filter/parse")
@@ -53,12 +53,12 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("main/award/pt/label"), i18n("meta_syn_value_label"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(WorldBossScene.ON_QUIT_ARCHIVES_LIST)
 	end, SFX_CANCEL)
 
-	function slot4()
+	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_archives_boss_list_help.tip
@@ -71,19 +71,19 @@ function slot0.OnInit(slot0)
 
 	slot0.cards = {}
 
-	function slot0.scrollRect.onInitItem(slot0)
+	slot0.scrollRect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
-	function slot0.awardScrollrect.onInitItem(slot0)
+	slot0.awardScrollrect.onInitItem = function(slot0)
 		uv0:OnInitAwardItem(slot0)
 	end
 
-	function slot0.awardScrollrect.onUpdateItem(slot0, slot1)
+	slot0.awardScrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateAwardItem(slot0, slot1)
 	end
 
@@ -108,7 +108,7 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.Filter(slot0, slot1)
+slot0.Filter = function(slot0, slot1)
 	slot0.displays = {}
 	slot3 = {}
 
@@ -155,12 +155,12 @@ function slot0.Filter(slot0, slot1)
 	slot0.scrollRect:SetTotalCount(#slot0.displays)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:Show()
 	triggerToggle(slot0.toggles[uv0], true)
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = ArchivesWorldBossCard.New(slot1)
 
 	onButton(slot0, slot2._tf, function ()
@@ -181,7 +181,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -197,12 +197,12 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClickCard(slot0, slot1)
+slot0.ClickCard = function(slot0, slot1)
 	slot0:UpdateMain(slot1)
 	slot0:UpdateAwards(slot1)
 end
 
-function slot0.UpdateMain(slot0, slot1)
+slot0.UpdateMain = function(slot0, slot1)
 	setMetaPaintingPrefabAsync(slot0.paintingTr, slot1.progress.id, "archives")
 
 	slot4 = slot1.id == WorldBossConst.GetArchivesId() or slot1.progress.metaPtData:IsMaxPt()
@@ -218,7 +218,7 @@ function slot0.UpdateMain(slot0, slot1)
 	end
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	if WorldBossConst.GetAchieveState() == WorldBossConst.ACHIEVE_STATE_NOSTART then
 		slot0:emit(WorldBossMediator.ON_SWITCH_ARCHIVES, slot1.id)
 	elseif slot2 == WorldBossConst.ACHIEVE_STATE_STARTING then
@@ -231,7 +231,7 @@ function slot0.Switch(slot0, slot1)
 	end
 end
 
-function slot0.UpdateAwards(slot0, slot1)
+slot0.UpdateAwards = function(slot0, slot1)
 	slot2 = slot1.progress.metaPtData
 	slot3 = slot2.dropList
 	slot4 = slot2.targets
@@ -273,7 +273,7 @@ function slot0.UpdateAwards(slot0, slot1)
 	slot0.awardScrollrect:ScrollTo(slot0.awardScrollrect:HeadIndexToValue(math.min(slot2.level, #slot4 - 5)))
 end
 
-function slot0.getOneStepPTAwardLevelAndCount(slot0, slot1)
+slot0.getOneStepPTAwardLevelAndCount = function(slot0, slot1)
 	slot2 = slot1.metaPtData:GetResProgress()
 	slot4 = slot1:getStoryIndexList()
 	slot5 = slot1.unlockPTLevel
@@ -305,7 +305,7 @@ function slot0.getOneStepPTAwardLevelAndCount(slot0, slot1)
 	return slot6, slot3[slot6]
 end
 
-function slot0.OnInitAwardItem(slot0, slot1)
+slot0.OnInitAwardItem = function(slot0, slot1)
 	slot2 = ArchivesWorldBossAwardCard.New(slot1)
 
 	onButton(slot0, slot2.itemTF, function ()
@@ -315,7 +315,7 @@ function slot0.OnInitAwardItem(slot0, slot1)
 	slot0.awardCards[slot1] = slot2
 end
 
-function slot0.OnUpdateAwardItem(slot0, slot1, slot2)
+slot0.OnUpdateAwardItem = function(slot0, slot1, slot2)
 	if not slot0.awardCards[slot2] then
 		slot0:OnInitAwardItem(slot2)
 
@@ -325,7 +325,7 @@ function slot0.OnUpdateAwardItem(slot0, slot1, slot2)
 	slot3:Update(slot0.awardDisplays[slot1 + 1], slot1 + 1)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.scrollRect.onInitItem = nil
 	slot0.scrollRect.onUpdateItem = nil
 	slot0.awardScrollrect.onInitItem = nil

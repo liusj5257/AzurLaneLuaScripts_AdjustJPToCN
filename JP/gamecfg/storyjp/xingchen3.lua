@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 2,
-			withoutPainting = true,
 			say = "数日後……",
+			mode = 2,
+			blackBg = true,
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,13 +48,13 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
+			actor = 206030,
 			nameColor = "#a9f548",
 			say = "ユニコーン……分からない……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
 			bgm = "qe-ova-12",
+			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "そういえば、{tb}が好きなチョコの味をまだ知りませんね…",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,10 +55,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "ええと、最近はチョコ作りたくなったから、せっかくですし{tb}の好みに合わせようと思いまして",
 			typewriter = {
@@ -106,10 +106,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "むぅ……",
 			typewriter = {
@@ -133,10 +133,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "いいえ、何でもない……です…",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "心なしかTBがちょっとむっとしてる気がする…？",

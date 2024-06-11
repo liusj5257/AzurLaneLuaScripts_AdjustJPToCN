@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"聽妳說喜歡\n\n<size=45>七　聽妳說喜歡</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,10 +53,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "傑維斯一言不發地走進了房間，在她的位置上坐下。",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -103,10 +103,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "剛剛雅努斯的話希望指揮官不要在意，那孩子以為我被指揮官誤會了所以才想著要解釋的。",
 			typewriter = {
 				speed = 0.05,
@@ -121,10 +121,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "怎麼說好呢，她雖然是好心，但有時候自作主張會讓我有些頭痛……",
 			typewriter = {
 				speed = 0.05,
@@ -139,10 +139,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "總之希望指揮官不要怪她。",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -460,9 +460,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			optionFlag = 3,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 3,
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,

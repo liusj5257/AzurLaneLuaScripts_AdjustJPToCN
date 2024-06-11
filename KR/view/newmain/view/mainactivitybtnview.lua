@@ -1,6 +1,6 @@
 slot0 = class("MainActivityBtnView", import("view.base.BaseEventLogic"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot2)
 
 	slot0._tf = slot1
@@ -45,7 +45,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:Register()
 end
 
-function slot0.Register(slot0)
+slot0.Register = function(slot0)
 	slot0:bind(NewMainScene.ON_REMOVE_LAYER, function (slot0, slot1)
 		uv0:OnRemoveLayer(slot1)
 	end)
@@ -57,7 +57,7 @@ function slot0.Register(slot0)
 	end)
 end
 
-function slot0.GetBtn(slot0, slot1)
+slot0.GetBtn = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.activityBtns) do
 		if isa(slot6, slot1) then
 			return slot6
@@ -73,7 +73,7 @@ function slot0.GetBtn(slot0, slot1)
 	return nil
 end
 
-function slot0.OnRemoveLayer(slot0, slot1)
+slot0.OnRemoveLayer = function(slot0, slot1)
 	slot2 = nil
 
 	if slot1.mediator == LotteryMediator then
@@ -87,13 +87,13 @@ function slot0.OnRemoveLayer(slot0, slot1)
 	end
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0:Flush()
 
 	slot0.isInit = true
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if slot0.checkNotchRatio ~= NotchAdapt.CheckNotchRatio then
 		slot0.checkNotchRatio = NotchAdapt.CheckNotchRatio
 		slot0.initPos = nil
@@ -139,7 +139,7 @@ function slot0.Flush(slot0)
 	end
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	if not slot0.isInit then
 		return
 	end
@@ -153,7 +153,7 @@ function slot0.Refresh(slot0)
 	end
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	slot0.lposX = nil
 
 	for slot4, slot5 in ipairs(slot0.specailBtns) do
@@ -163,7 +163,7 @@ function slot0.Disable(slot0)
 	end
 end
 
-function slot0.Fold(slot0, slot1, slot2)
+slot0.Fold = function(slot0, slot1, slot2)
 	slot0.lposX = slot0.lposX or slot0._tf.localPosition.x
 	slot3 = slot1 and slot0.lposX + 1200 or slot0.lposX
 
@@ -183,7 +183,7 @@ function slot0.Fold(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:disposeEvent()
 
 	for slot4, slot5 in ipairs(slot0.activityBtns) do

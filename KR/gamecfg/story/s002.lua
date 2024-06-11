@@ -59,11 +59,11 @@ return {
 			}
 		},
 		{
-			expression = "13",
 			side = 0,
+			say = "!! 우현 방향에 적 대형함 발견! 저건... 메탈 블러드의 신형 전함이잖아?! 노포크, 전투 준비해!",
+			expression = "13",
 			actor = 900312,
 			nameColor = "#92fc63",
-			say = "!! 우현 방향에 적 대형함 발견! 저건... 메탈 블러드의 신형 전함이잖아?! 노포크, 전투 준비해!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

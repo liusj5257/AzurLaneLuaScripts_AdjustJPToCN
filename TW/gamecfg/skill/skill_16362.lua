@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "航空掩护",
 	cd = 0,
+	picture = "0",
+	desc = "每次执行空袭后降低己方先锋受到伤害",
 	painting = 1,
 	id = 16362,
-	picture = "0",
 	castCV = "",
-	desc = "每次执行空袭后降低己方先锋受到伤害",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerVanguardFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerVanguardFleet",
 			arg_list = {
 				buff_id = 3050
 			}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"三笠大先輩のプラモ博物館\n\n<size=45>一　博物館、崩壊</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日、母港にて――",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日、母港にて――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "こ、これが噂の――",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "三笠大先輩のコレクション！",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "三笠大先輩のコレクション！",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
-			actorName = "三笠",
 			dir = 1,
+			actorName = "三笠",
 			say = "だが、その気恥ずかしさをついに乗り越えたのだ！どれ、中に入って存分に見学するがよい！我ながら頑張って集めたものだぞ！",
 			effects = {
 				{
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "三笠",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "おおお――三笠大先輩、船のモデルを集めていたのね！",
 			effects = {
 				{
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "あら、一航戦の先輩たちの艦のモデルもありますね～",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、一航戦の先輩たちの艦のモデルもありますね～",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -294,15 +294,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
-			actorName = "如月",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "如月",
 			say = "む、睦月ちゃん、あまりひっぱらないでぇ……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,12 +327,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "睦月",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "如月ちゃん、睦月たちのモデルはそっちだよ～",
+			dir = 1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "如月",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "三笠",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -395,15 +395,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_sanli_cg_3",
-			actorName = "睦月",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "睦月",
 			say = "うん？これはなに？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -428,12 +428,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "如月",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "む、睦月ちゃん、かってにさわっちゃダメだよ……ボタンのとなりに「きけん」とか「おさわりきんし」ってかいてあるよぉ…",
+			dir = 1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "睦月",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "睦月",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -480,12 +480,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
 			bgName = "bg_sanli_cg_2",
-			soundeffect = "event:/battle/boom1",
-			dir = 1,
 			say = "ガラガラガラガラ……ドガーン！！！",
+			dir = 1,
+			side = 2,
+			soundeffect = "event:/battle/boom1",
 			flashN = {
 				color = {
 					1,
@@ -524,13 +524,13 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "この音……！まさか自爆装置が起動した！？",
 			soundeffect = "event:/battle/boom1",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "この音……！まさか自爆装置が起動した！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,8 +541,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "なんで自爆装置があるのですか！？",
 			typewriter = {
 				speed = 0.05,
@@ -567,8 +567,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -577,12 +577,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "ま、万が一のことも考えて……",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ま、万が一のことも考えて……",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -597,14 +597,14 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			actorName = "{namecode:96}",
 			dir = 1,
-			side = 2,
-			say = "大先輩危ない！",
 			soundeffect = "event:/battle/boom1",
+			actor = 305110,
+			say = "大先輩危ない！",
 			flashN = {
 				color = {
 					1,
@@ -655,16 +655,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = -900,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 1500
@@ -672,8 +672,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:82}",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -684,8 +684,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "ミニ博物館が廃墟になった。",
 			typewriter = {
@@ -710,17 +710,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_sanli_cg_4",
-			actorName = "三笠",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "そんな……そんなああ……",
+			bgName = "bg_sanli_cg_4",
 			bgm = "story-1",
+			actorName = "三笠",
+			say = "そんな……そんなああ……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "三笠",
+			side = 2,
 			bgName = "bg_sanli_cg_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -761,8 +761,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "瑞鶴",
+			side = 2,
 			bgName = "bg_sanli_cg_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -809,12 +809,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "翔鶴姉…わかった！今みんなを呼んでくる！",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "翔鶴姉…わかった！今みんなを呼んでくる！",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -829,8 +829,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -839,8 +839,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "三笠は丸一日凹んだ……",
 			typewriter = {
@@ -849,8 +849,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "そして翌日、モデルを修復し、大先輩の博物館を立て直す――名付けて「大先輩の博物館を救い隊」計画が始動したのであった。",
 			typewriter = {

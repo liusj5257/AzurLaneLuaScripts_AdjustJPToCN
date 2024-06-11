@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA40",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA40",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ff5c5c",
+			actorName = "Tester",
 			side = 2,
 			bgName = "bg_mirror",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
 			actor = 900011,
-			actorName = "Tester",
+			nameColor = "#ff5c5c",
 			say = "Armor damaged, energy supply damaged. Critical error in the young program—",
 			flashin = {
 				delay = 1,
@@ -35,14 +35,14 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "Tester",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900011,
 			nameColor = "#ff5c5c",
 			say = "Transmitting test data to the intermediate program. A phenomenon similar to but independent from Cognitive Awakening has been observed. Noting possibility of errors within the computation system.",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -93,8 +93,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(You've lost, Tester. Tell me about your kind, about \"Antiochus.\" And tell me about what I saw at the end of that dream... those ships, and \"Ember.\")",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "Tester",
 			say = "(I have nothing to tell you. Too bad.)",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(......)",
 			typewriter = {
@@ -144,11 +144,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(...Very well. I shall find the answers myself then...)",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -198,16 +198,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_mirror",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_mirror",
 			bgm = "story-4",
 			actor = 301840,
 			nameColor = "#a9f548",
 			say = "We've eliminated the enemy general! Tester is retreating!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -235,8 +235,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "The transport fleet has only suffered minor damage! Now, we can all go home!",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "I wasn't even able to do much because Lady Shinano was so strong...",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Phew... Only if it was just a single step... we've taken our first step towards overcoming fate...",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "(Shinano's power is overwhelming, even if it's hard to control. Why did they keep her under the Diadem of Light instead of back on the main island?)",
 			typewriter = {
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_mirror",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "(Time to post to Juustagram! This is gonna go viral for sure!)",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Now, I'll have more to talk about when I'm out drinking with Ise. Ahh, too bad Suruga couldn't be here.",
 			dialogShake = {
@@ -351,8 +351,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(............)",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Through all my dreams and the many futures I saw, my friends gave me the power to move forward... Alas, is this also part of my fate...?)",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "Lady Shinano, we're waiting for your orders.",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -428,8 +428,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Shinano, you are no longer our charge, someone to be escorted and protected. You are now one of our comrades-in-arms, standing with us on the field of battle.",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Y-yes... It's about time...)",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(If the goal of the Sirens extends beyond me and the cargo Kashino carries, and the dream of ruination that I saw... then what must be changed is not a dream, but rather reality itself...)",
 			typewriter = {
@@ -495,9 +495,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "...Let us return home at last, to the Sakura Empire—",
 			typewriter = {
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
+			soundeffect = "event:/ui/fengling",
 			stopbgm = true,
 			bgName = "bg_xinnong2_1",
-			seDelay = 0.5,
 			blackBg = true,
-			soundeffect = "event:/ui/fengling",
+			mode = 1,
+			seDelay = 0.5,
 			flashout = {
 				dur = 0.25,
 				alpha = {

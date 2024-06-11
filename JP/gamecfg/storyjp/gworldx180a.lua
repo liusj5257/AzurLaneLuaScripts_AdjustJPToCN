@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX180A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX180A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "作戦の海域攻略進捗がリセットされ、それと同時に特別ショップも開放されました。",
 			typewriter = {
 				speed = 0.05,

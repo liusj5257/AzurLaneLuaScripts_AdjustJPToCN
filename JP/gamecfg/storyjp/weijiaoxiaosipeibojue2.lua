@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "数日後――",
 			bgm = "login-2022401us",
+			say = "数日後――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,8 +18,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 107990,
 			dir = 1,
+			actor = 107990,
 			nameColor = "#A9F548FF",
 			say = "ヘレナ、ユニオンのみんなを連れてきたぞ",
 			painting = {
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 203100,
 			dir = 1,
+			actor = 203100,
 			nameColor = "#A9F548FF",
 			say = "チェシャーもロイヤルのみんなを連れてきた！",
 			painting = {
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 204040,
 			dir = 1,
+			actor = 204040,
 			nameColor = "#A9F548FF",
 			say = "ロイヤルの支援と女王陛下のお言葉を預かって参りました！",
 			painting = {
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 207090,
 			dir = 1,
+			actor = 207090,
 			nameColor = "#A9F548FF",
 			say = "愛と平和のために、お菓子がなくなるトラブルを解決しませんとー",
 			painting = {
@@ -85,9 +85,9 @@ return {
 		{
 			actor = 307090,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "重桜艦隊を連れてきたわよ！まさかこんなことが起きてたとはね",
 			painting = {
 				alpha = 0.3,
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 304060,
 			dir = 1,
+			actor = 304060,
 			nameColor = "#A9F548FF",
 			say = "お菓子が少なくなると、宴会も開けなくなってしまいます……",
 			painting = {
@@ -119,8 +119,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 304070,
 			dir = 1,
+			actor = 304070,
 			nameColor = "#A9F548FF",
 			say = "美味しいお団子もなくなりました…一刻もはやく、解決しませんとっ",
 			painting = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			nameColor = "#A9F548FF",
 			say = "なるほど…さすがサラトガちゃん、情報助かるわ",
 			painting = {
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			nameColor = "#A9F548FF",
 			say = "でも、オイゲン以外にもう一人いるってことは……",
 			painting = {
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -286,8 +286,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102200,
 			dir = 1,
+			actor = 102200,
 			nameColor = "#A9F548FF",
 			say = "絶対に黒幕を捕まえるぞ！",
 			painting = {

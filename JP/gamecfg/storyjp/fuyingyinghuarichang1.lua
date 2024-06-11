@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUARICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUYINGYINGHUARICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"あけおめ2020\n\n<size=45>一 新年の出会い</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_104",
 			bgm = "newyear2",
 			actor = 305052,
 			nameColor = "#a9f548",
 			say = "うむ、これで買い物は全て揃ったな",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "「長門様のお手を煩わせるわけにはいかない、ここは私たちにまかせてお城に戻ってくださいませ」……",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,8 +83,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "と、江風たちは言っておったが……余もみんなと一緒にお正月を準備したいのだぞ",
 			typewriter = {
@@ -100,10 +100,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "重桜の御狐か…ここで出会えたのも何かしらの「ご縁」かしら",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "鉄血のフリードリヒ・デア・グローセ……むぅ、その格好は一体…？",
 			typewriter = {
@@ -135,10 +135,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ええ、あなた方重桜の「キモノ」だわ。上質な素材で落ち着く着心地、それでいて色合いも上品――",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "（着物ってこんなものなの…？！）",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "（赤城といいセントルイスといい、なんでみんなこんな着方をするの？？…うっ、なんだか負けた気がする……）",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "うっ！？…コホン！そなたはロイヤルメイド隊の？",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,8 +230,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 202071,
 			dir = 1,
+			actor = 202071,
 			nameColor = "#a9f548",
 			say = "あっ…元・メイド隊ですね…あんな忙しい場所はもう勘弁ですよ～",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 202071,
 			dir = 1,
+			actor = 202071,
 			nameColor = "#a9f548",
 			say = "ロイヤル騎士隊のメンバーがひとり、サウサンプトンと申します！",
 			typewriter = {
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -274,8 +274,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "うむ……",
 			typewriter = {
@@ -291,10 +291,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そっちも重桜の「キモノ」姿ね…ロイヤルも用意周到というべきかしら…",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 202071,
 			dir = 1,
+			actor = 202071,
 			nameColor = "#a9f548",
 			say = "お褒めに預かり光栄です！鉄血のも…まあ…凄いですね…",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -336,8 +336,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "ロイヤルも鉄血も、重桜の文化に興味を持っているとはな。今年の正月は、我が重桜の神社にくるが良い",
 			typewriter = {
@@ -353,10 +353,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「お正月」…？重桜のニューイヤーを迎える儀式か？",
 			typewriter = {
 				speed = 0.05,
@@ -368,11 +368,11 @@ return {
 			}
 		},
 		{
-			actor = 202071,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202071,
+			nameColor = "#a9f548",
 			say = "ええと、クリーブランドたちの言ってた「羽根つき」のやつですか？ぼく、なぜか審判役までやらされそうになっていましてねー",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -397,8 +397,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "（な、なぜかふたりともちょっと認識がズレているぞ……カルチャーギャップって難しい……！）",
 			typewriter = {
@@ -414,9 +414,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
 			blackBg = true,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "羽根つき大会は余も…コホン！それはまた別の機会に…",
 			typewriter = {

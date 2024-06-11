@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "最适化武装",
 	init_effect = "",
+	id = 12176,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12176,
+	color = "red",
 	icon = 12150,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 12174,
-				target = "TargetSelf",
-				time = 24
+				time = 24,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
-			bgm = "hunhe-story",
-			dir = 1,
 			say = "運河要塞・東部海域",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			say = "運河要塞から離れた東部海域にて、仲間たちと手分けして単独捜索を行っているエンタープライズ。",
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "………行方不明になったボルチモア艦隊。そして謎の救援信号、か",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "ボルチモアの通信によると、セイレーンが出現したようだが、戦闘の痕跡が見当たらない",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "鏡面海域に入ると通信機器が故障して使えなくなるのが今までの経験則だ。だが――",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "もし、その経験も当てにできないというのなら……",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "となると、やはり突然発生したあの海霧のほうが怪しいか",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "もう少し考えよう。この海域は沿岸部で海霧が発生するが、さすがに外洋の気象観測範囲の外まで広くはならないはずだ",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "そんなこと、ありえるのか…！",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "あの海霧はそもそもセイレーンが作り出したもので、通信機器をジャミングする効果がある",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "そしてあえて「通信機器を使えるようにして」、私たちを誘い出す罠だとしたら…！",
 			typewriter = {
@@ -206,17 +206,17 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_1",
-			say = "―――――瞬く間に、周囲が白い海霧に包まれた。",
 			dir = 1,
 			bgm = "xinnong-3",
+			nameColor = "#a9f548",
+			say = "―――――瞬く間に、周囲が白い海霧に包まれた。",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "！？いつの間に！",
 			dialogShake = {
@@ -254,8 +254,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "やはりこれはセイレーンの―――",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			say = "……………………",
@@ -283,9 +283,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_1",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "………………………………",
 			effects = {

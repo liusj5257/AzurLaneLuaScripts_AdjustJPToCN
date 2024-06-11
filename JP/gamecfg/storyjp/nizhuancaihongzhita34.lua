@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA34",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "theme-theloversVI",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "ーーーーーー！！",
 			dir = 1,
 			bgmDelay = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "theme-theloversVI",
+			say = "ーーーーーー！！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "鉄血艦隊の全力の一斉攻撃が、アビータボディに襲いかかる。",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +86,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "装甲に何度も撃ちつけ、ついにその防御に風穴を開けた。",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "自らの負ったダメージをまるで理解できていない様子のアビータは、軽く頭を傾げて貫通された装甲を覗き込む。",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "無理だよ。この特異点の中にいる限り、あのアビータは損傷をどんどん修復できるから",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "…！？あの艤装の砲口、エネルギーを充填している…！もしかして入口を直接狙って――",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			nameColor = "#a9f548",
 			say = "大丈夫だ！入口そのものは片方からの攻撃でやられたりはしない！",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			nameColor = "#a9f548",
 			say = "ローン、ウルリッヒ。今は撤退するぞ。万が一でも計画外のことが起きないとは限らない！",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "はーい、じゃあ遠慮なくー",
 			typewriter = {
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "量産艦と他の仲間の支援砲火に守られながら、アーダルベルトは特異点の入口に飛び込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -293,9 +293,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "それに続くように、ウルリッヒ、マクデブルク、エルベ、U-1206、マインツ…",
 			typewriter = {
 				speed = 0.05,
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "最後に残ったローンはエンフォーサーの砲弾を艤装で受け止め、その衝撃を借りて間一髪で脱出した。",
 			typewriter = {
 				speed = 0.05,
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "特異点の「塔」…そして「塔」で維持された入口のエネルギーの奔流が振動と共に大きく姿を「歪ませ」、近づき過ぎたエンフォーサーを一瞬で木っ端微塵にし――",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "まるで最初からなにも存在しなかったかのように、「塔」、そして「入口」…異世界へとつなぐビフレストの橋は完全に消滅した。",
 			typewriter = {
 				speed = 0.05,
@@ -351,16 +351,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_midgard_2",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_midgard_2",
 			bgm = "bsm-4",
 			actor = 403090,
 			nameColor = "#a9f548",
 			say = "緊急停止成功！つ、疲れた……体がばらばらになりそうだった……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -388,8 +388,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "アーダルベルトたちの回収に成功したよ！って気を失ってる？",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "ローンとマインツも！あわわ！もしかして転送時にトラブルが……",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "だよね！フィーゼくんもそう思うよね！",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "あ、今ローンが動いた！よかった…",
 			typewriter = {
@@ -584,8 +584,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "お願いフィーゼくん！！始末書なんて一人では絶対無理だよ！助けてーー！！",
 			typewriter = {
@@ -646,12 +646,12 @@ return {
 			}
 		},
 		{
-			actor = 401460,
+			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
 			withoutActorName = true,
-			dir = 1,
 			actorScale = 0.6,
+			actor = 401460,
 			say = "アーダルベルトが目覚めると、忙しそうに施設内を走っているZ46の姿が目に映った。",
 			effects = {
 				{
@@ -669,8 +669,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -686,8 +686,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.1,
 					number = 3
@@ -703,8 +703,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					number = 3
@@ -720,8 +720,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.7,
 					dur = 0.1,
 					number = 3
@@ -729,9 +729,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "そして安堵すると、探索作戦の疲れからか、睡魔に押し負けてしまった。",
 			effects = {
 				{
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・ハインリヒ",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -765,8 +765,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・アーダルベルト",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -781,8 +781,8 @@ return {
 			}
 		},
 		{
-			bgm = "bsm-6",
 			mode = 1,
+			bgm = "bsm-6",
 			sequence = {
 				{
 					"<size=51>「これで、『塔』の機能テストが完了したわね」</size>",
@@ -823,8 +823,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

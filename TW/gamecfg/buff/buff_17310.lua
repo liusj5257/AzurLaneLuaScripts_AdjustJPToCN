@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17310,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17310,
+	color = "red",
 	icon = 17310,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 17310,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 17310,
 				label = {
 					"USS"
 				}
@@ -88,8 +88,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 17312,
+				target = "TargetSelf",
 				countType = 17311
 			}
 		}

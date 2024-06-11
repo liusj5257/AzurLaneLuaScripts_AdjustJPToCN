@@ -1,10 +1,10 @@
 slot0 = class("SculpturePuzzlePage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SculpturePuzzleUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.backBtn = slot0:findTF("back")
 	slot0.lineTr = slot0:findTF("frame/line")
 	slot0.frameTr = slot0:findTF("frame")
@@ -16,11 +16,11 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/tip_text"), i18n("sculpture_puzzle_tip"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.slots = {}
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3)
+slot0.Show = function(slot0, slot1, slot2, slot3)
 	uv0.super.Show(slot0)
 	slot0:Clear()
 
@@ -44,7 +44,7 @@ function slot0.Show(slot0, slot1, slot2, slot3)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, "bar-soft")
 end
 
-function slot0.LoadLine(slot0, slot1)
+slot0.LoadLine = function(slot0, slot1)
 	slot2 = slot0.activity
 	slot3 = ResourceMgr.Inst
 
@@ -64,11 +64,11 @@ function slot0.LoadLine(slot0, slot1)
 	end), true, true)
 end
 
-function Screen2Local(slot0, slot1)
+Screen2Local = function(slot0, slot1)
 	return LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, GameObject.Find("UICamera"):GetComponent("Camera"))
 end
 
-function TrPosition2LocalPos(slot0, slot1, slot2)
+TrPosition2LocalPos = function(slot0, slot1, slot2)
 	if slot0 == slot1 then
 		return slot2
 	else
@@ -78,7 +78,7 @@ function TrPosition2LocalPos(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandlePuzzlePart(slot0, slot1)
+slot0.HandlePuzzlePart = function(slot0, slot1)
 	eachChild(slot1, function (slot0)
 		slot1 = slot0:GetComponent(typeof(EventTriggerListener))
 		slot2, slot3 = nil
@@ -115,7 +115,7 @@ function slot0.HandlePuzzlePart(slot0, slot1)
 	end)
 end
 
-function slot0.IsFinishAll(slot0)
+slot0.IsFinishAll = function(slot0)
 	for slot4, slot5 in pairs(slot0.slots) do
 		if slot5.flag == false then
 			return false
@@ -125,7 +125,7 @@ function slot0.IsFinishAll(slot0)
 	return true
 end
 
-function slot0.LoadPuzzle(slot0, slot1)
+slot0.LoadPuzzle = function(slot0, slot1)
 	slot2 = slot0.activity
 	slot3 = ResourceMgr.Inst
 
@@ -140,7 +140,7 @@ function slot0.LoadPuzzle(slot0, slot1)
 	end), true, true)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0.contextData.miniMsgBox:ExecuteAction("Show", {
 			showNo = true,
@@ -190,7 +190,7 @@ function slot0.RegisterEvent(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.AddTimer(slot0, slot1)
+slot0.AddTimer = function(slot0, slot1)
 	slot0:ClearTimer()
 
 	slot2 = 11
@@ -207,7 +207,7 @@ function slot0.AddTimer(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.ClearTimer(slot0)
+slot0.ClearTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -215,7 +215,7 @@ function slot0.ClearTimer(slot0)
 	end
 end
 
-function slot0.BlinkSlots(slot0, slot1, slot2)
+slot0.BlinkSlots = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -239,7 +239,7 @@ function slot0.BlinkSlots(slot0, slot1, slot2)
 	parallelAsync(slot3, slot2)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.puzzleLine then
 		Object.Destroy(slot0.puzzleLine.gameObject)
 
@@ -255,12 +255,12 @@ function slot0.Clear(slot0)
 	slot0.slots = {}
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:ClearTimer()
 
 	for slot4, slot5 in pairs(slot0.slots) do

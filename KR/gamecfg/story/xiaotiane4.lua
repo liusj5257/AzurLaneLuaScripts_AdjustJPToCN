@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"여름 바람의 십자성\n\n<size=45>제4장 - 현행범?</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 201101,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "(꿀꺽) 여, 여기 맞지…?",
 			bgm = "story-1",
+			actor = 201101,
+			nameColor = "#92fc63",
+			say = "(꿀꺽) 여, 여기 맞지…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201080,
+			say = "드디어 여기까지 왔어…",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "드디어 여기까지 왔어…",
+			actor = 201080,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,9 +119,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "끼익――",
 			typewriter = {
 				speed = 0.05,
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "내 옷…!!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "내 옷…!!",
+			actor = 201101,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -168,8 +168,8 @@ return {
 			actor = 201080,
 			side = 0,
 			bgName = "bg_story_school",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#92fc63",
 			say = "에에에에에에에에?!",
 			dialogShake = {
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#92fc63",
 			say = "에에에에에에에에?!",
 			dialogShake = {
 				speed = 0.09,

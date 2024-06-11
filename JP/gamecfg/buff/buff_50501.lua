@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "敌方BOSS 对全航母后排额外攻击",
 	time = 2,
-	color = "yellow",
+	name = "敌方BOSS 对全航母后排额外攻击",
+	init_effect = "",
+	id = 50501,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 50501,
+	color = "yellow",
 	icon = 50500,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 50500,
 				maxTargetNumber = 0,
 				cloak = 0,
-				skill_id = 50500,
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipType",

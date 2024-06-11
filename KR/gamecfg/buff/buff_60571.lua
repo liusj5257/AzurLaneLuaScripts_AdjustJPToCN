@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "Alizarin",
 	time = 15,
-	color = "yellow",
+	name = "Alizarin",
+	init_effect = "",
+	id = 60571,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60571,
+	color = "yellow",
 	icon = 60570,
 	last_effect = "music_huanraoyinfu_yangyandanchuan",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 300
+				number = 300,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 300
+				number = 300,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 300
+				number = 300,
+				attr = "airPower"
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 300
+				number = 300,
+				attr = "loadSpeed"
 			}
 		}
 	}

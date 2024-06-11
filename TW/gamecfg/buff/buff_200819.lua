@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024罗德尼meta 终结技",
 	time = 0,
-	color = "yellow",
+	name = "2024罗德尼meta 终结技",
+	init_effect = "",
+	id = 200819,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200819,
+	color = "yellow",
 	icon = 200819,
 	last_effect = "heiluodeni_shadow",
 	effect_list = {

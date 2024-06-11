@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Virtue of Being Earnest\n\n<size=45>7.I've Always Expected Great Things From You!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Ever since that day I felt groggy from overwork...",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Ever since that day I felt groggy from overwork...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "My condition returned to normal, and I showed up to watch Nelson's joint exercise. ",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "As soon as she saw me, Nelson signaled to the others and broke formation in order to come see me.",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Wasn't she there with me when I recovered...?",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "While looking at her looking frustrated that she wasn't able to say what she wanted to say...",
 			typewriter = {
 				speed = 0.05,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "As Nelson said those words, embarrassment rose all the way up her face to the tip of her ears.",
 			typewriter = {
 				speed = 0.05,
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Maybe it was due to her incredible pride, but she was unable to earnestly put her thoughts in to words, instead brushing me aside with her usual cheeky attitude.",
 			typewriter = {
 				speed = 0.05,
@@ -278,9 +278,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Though I found her attitude bewildering at first, the better I got to know her, the more I realized how compassionate and kind she actually is.",
 			typewriter = {
 				speed = 0.05,
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "Well, I'll be heading off then, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000

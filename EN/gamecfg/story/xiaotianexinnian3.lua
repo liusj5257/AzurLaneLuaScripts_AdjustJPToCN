@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"New Year's Blessings\n\n<size=45>Chapter 3 The Great Snowball Brawl</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Docks",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "Port - Docks",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Raaaaagh! Taste the full force of our snowball volley!",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -92,12 +92,12 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			say = "I should expect no less of the Royal Navy's most sworn and trusted friend. Then how do you like THIS?!",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I should expect no less of the Royal Navy's most sworn and trusted friend. Then how do you like THIS?!",
+			actor = 205060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "Awwhhh... I-I've been hit...",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "Use the SG...? But it's just a snowball fight...",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
+			say = "Cleveland... Don't you know you'll strain your shoulder if you throw it too hard...?",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Cleveland... Don't you know you'll strain your shoulder if you throw it too hard...?",
+			actor = 102050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 307022,
+			say = "Well look at that... Who'd have thought all these people would be here... Fufufu, looks like this will be an enjoyable battle.",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Well look at that... Who'd have thought all these people would be here... Fufufu, looks like this will be an enjoyable battle.",
+			actor = 307022,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -406,11 +406,11 @@ return {
 			}
 		},
 		{
-			actor = 301601,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301601,
 			actorName = "Destroyers",
 			say = "Let's do this!",
 			subActors = {
@@ -437,13 +437,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
+			dir = 1,
 			say = "The snowball fight continued.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -468,11 +468,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "Fueehhh... I'm starting to feel like a snowman...",
 			typewriter = {
 				speed = 0.05,
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -558,12 +558,12 @@ return {
 			}
 		},
 		{
-			actor = 205060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205060,
+			nameColor = "#a9f548",
 			say = "Preparations for New Year's, huh...",
 			typewriter = {
 				speed = 0.05,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN9",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "Bristol",
 			bgName = "star_level_bg_115",
+			bgm = "theme-highseasfleet-reborn",
 			factiontag = "(Self-Proclaimed) Great Detective GM",
 			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
-			actorName = "Bristol",
 			hidePaintObj = true,
 			say = "*hisss* friaghgleh... grsh... *hisssssss*!",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -270,9 +270,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Huh? Oh... Really, now?",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "*knock knock*",
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Golden Hi– I mean, Milady, the housekeeper awaits the Investigator in the guest room.",
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "...It's a shame you need to leave, but I know the case won't solve itself.",
@@ -432,9 +432,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "I hope to hear good news from you soon, my dear Investigator~",
 			typewriter = {
@@ -443,11 +443,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Alright, alright. It's late, so you'd better return to your room, Milady.",
@@ -485,8 +485,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

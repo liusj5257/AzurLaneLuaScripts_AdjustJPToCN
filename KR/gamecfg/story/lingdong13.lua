@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG13",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205070,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "특별 작전 함대의 전원에게 고한다. 본 함대는 세이렌의 공격을 받아, 본부와의 연락이 두절되었으나……",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

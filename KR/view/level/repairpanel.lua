@@ -1,6 +1,6 @@
 slot0 = class("RepairPanel", import("..base.BasePanel"))
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.desc = slot0:findTF("window/desc")
@@ -17,7 +17,7 @@ function slot0.init(slot0)
 	slot0.onCancel = nil
 end
 
-function slot0.set(slot0, slot1, slot2, slot3, slot4)
+slot0.set = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.repairTimes = slot1
 	slot0.freeTimes = slot2
 	slot0.chargeTimes = slot3

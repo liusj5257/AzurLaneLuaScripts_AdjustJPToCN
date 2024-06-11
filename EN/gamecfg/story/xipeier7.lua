@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIPEIER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIPEIER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Paradigm of Happiness\n\n<size=45>Chapter 7 - A Lifelong Vow</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Several days have passed since I returned from the trip with Hipper.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Several days have passed since I returned from the trip with Hipper.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "Excuse me? You still haven't finished your work? Good grief, you shouldn't have put it off earlier then! Learn to use your brain, you big moron!",
 			typewriter = {
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 408060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 408060,
 			actorName = "U-101",
 			say = "Huh...? Wasn't the trip suppose to improve their relationship?",
 			typewriter = {
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 201140,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 201140,
 			actorName = "Glowworm",
 			say = "I originally thought... Well, at least it looks like things are back to normal.",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "All right, stop wasting your breath and sit down! Here, this is the report from today's exercise, which you can use as a reference for planning your next sortie.",
 			typewriter = {
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "You what? You forgot? Geez, do you even have two lone braincells rubbing in that thick skull of yours?!",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 408060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 408060,
 			actorName = "U-101",
 			say = "Seems like she's as strict as ever with the commander... Are you sure they're fine?",
 			typewriter = {
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403030,
 			actorName = "Prinz Eugen",
 			say = "You don't see it? I think they both look happier than they were before.",
 			typewriter = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 201140,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 201140,
 			actorName = "Glowworm",
 			say = "Even though Hipper seems to be absolutely seething?",
 			typewriter = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 408060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 408060,
 			actorName = "U-101",
 			say = "If I was in that situation, I would've hopped on Great Shark and bailed ages ago.",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403030,
 			actorName = "Prinz Eugen",
 			say = "Hehe. Maybe you can't tell, but the commander knows. She isn't upset at all...",
 			typewriter = {
@@ -236,11 +236,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403030,
 			actorName = "Prinz Eugen",
 			say = "She's just doing her best to help.",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403030,
 			actorName = "Prinz Eugen",
 			say = "This, too, is another way of showing love. Hehe, it really puts a smile on one's face~",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 201140,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 201140,
 			actorName = "Glowworm",
 			say = "Ohhh... I've heard about that before~! Maybe I should treat the commander like that too!",
 			typewriter = {
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403030,
 			actorName = "Prinz Eugen",
 			say = "In your case... Oh, right... Be careful not to bump your head again.",
 			typewriter = {
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403030,
 			actorName = "Prinz Eugen",
 			say = "But in her case, she should learn to rely on the commander a bit more as well. That's my hopelessly proud sister for you~",
 			typewriter = {
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "Say what? You still haven't finished organizing your files? Geez, you really can't get anything done without me!",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -348,11 +348,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "Fine, fine. I'll do it for you, but promise me, you'll work harder, become someone more capable, and then...",
 			typewriter = {
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "Devote yourself to making me happy!",
 			typewriter = {
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Hipper's attitude doesn't seem to have changed much compared to before, but...",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Since that day, my office has always been adorned with a bouquet of Hipper's freshly-arranged flowers.",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU20",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "「カラブリアの宝石」――この美しい海そのもの、ですわね",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "月の光に照らされた海はまるで青い宝石のように輝いていた。",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "遠く見える文明の灯火、彼方に映し出される遺跡の蜃気楼、静かに佇む少女たちは幻想的な景色を醸し出していた。",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "そうよ。この青き海こそが私たちサディアの一番大切なもの、守るべきもの",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "あなた方がここに現れた理由を教えてくださるかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーミダブル",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウォースパイト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg5",
+			dir = 1,
 			say = "定められし戦い、悲歎せし焔海の物語、鋼の少女たちに「再現」された数々の「演目」のなりそこないかもしれない。だが――",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウォースパイト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウォースパイト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウォースパイト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウォースパイト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーミダブル",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リットリオ",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -412,8 +412,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーミダブル",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -428,8 +428,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リットリオ",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -460,8 +460,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -476,12 +476,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ・ヴェネト",
+			side = 2,
 			bgName = "bg_italy_cg5",
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#ff5c5c",
 			say = "Lunga vita all'Impero！",
 			typewriter = {
 				speed = 0.05,

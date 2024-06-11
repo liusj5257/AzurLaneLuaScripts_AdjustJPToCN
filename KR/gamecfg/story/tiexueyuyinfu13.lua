@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 1,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "bsm-3",
 			nameColor = "#ffde38",
-			dir = 1,
 			seDelay = 1.3,
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "아직이야!",
 			typewriter = {
 				speed = 0.05,
@@ -79,10 +79,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			nameColor = "#ffde38",
-			seDelay = 1.3,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -133,8 +133,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "전함의 포격전에서!",
 			typewriter = {
 				speed = 0.05,
@@ -148,9 +148,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -201,8 +201,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "가라앉는 건…!",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -269,8 +269,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "메탈 블러드 전함으로서 바라던 바야!",
 			typewriter = {
 				speed = 0.05,
@@ -284,9 +284,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			seDelay = 1.3,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -337,8 +337,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 2,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "큭…! 도라 포탑이!?",
 			typewriter = {
 				speed = 0.05,
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			stopbgm = true,
+			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
@@ -476,13 +476,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "테스터",
 			dir = 1,
-			say = "거기까지야, 로열 네이비.",
 			bgm = "battle-boss-4",
+			actor = 900011,
+			actorName = "테스터",
+			say = "거기까지야, 로열 네이비.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,8 +496,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "테스터",
 			dir = 1,
+			actorName = "테스터",
 			say = "이대로 샘플을 망가뜨리는 건 민폐라고. 물러나.",
 			typewriter = {
 				speed = 0.05,

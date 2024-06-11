@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "黑基洛夫BOSS战 曙光联合 机械被消灭使BOSS叠加易伤",
 	time = 0,
+	name = "黑基洛夫BOSS战 曙光联合 机械被消灭使BOSS叠加易伤",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 99,
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.25
+				number = 0.25,
+				attr = "injureRatio"
 			}
 		}
 	}

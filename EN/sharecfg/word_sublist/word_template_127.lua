@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_127 = {}
 slot1 = slot0.word_template_127
 
-function temp()
+temp = function()
 	uv0["黌"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["哄"] = {
 		["."] = {
 			["铲"] = {
@@ -238,7 +238,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["侯"] = {
 		["贺"] = {
 			["华"] = {
@@ -265,7 +265,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["后"] = {
 		["宫"] = {
 			["社"] = {
@@ -352,7 +352,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["厚"] = {
 		["黑"] = {
 			["大"] = {
@@ -378,7 +378,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["後"] = {
 		["庭"] = {
 			this = true
@@ -388,7 +388,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["候"] = {
 		["德"] = {
 			["建"] = {

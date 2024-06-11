@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"素直になれないキモチ\n\n<size=45>六  言いたかったことが一つだけ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "先ほどの演習に関する内容をまとめて報告書を作るべく、執務室まで戻ってきた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "先ほどの演習に関する内容をまとめて報告書を作るべく、執務室まで戻ってきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "会議での話を振り返り、秘書官のネルソンと細かい準備を詰める。",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…ことをしたかったが、やはり先ほどの会議の時から頭が重い気がする……",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ネルソンの声が聞こえるが……頭がクラクラして反応することができない……。",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "目の前の視界がぼやけて、何も考えられないまま彼女の声だけが何度もこだまする……",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そのまま、意識を失った――",
 			typewriter = {
 				speed = 0.05,
@@ -168,15 +168,15 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "……気が付いた？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
+			dir = 1,
 			say = "気が付くとベッドに横たわっていて、そばにはネルソンの姿があった。",
 			typewriter = {
 				speed = 0.05,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
+			dir = 1,
 			say = "確かに彼女の言うことももっともであった。迷惑をかけたことを素直に謝罪した。",
 			typewriter = {
 				speed = 0.05,
@@ -309,9 +309,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
+			dir = 1,
 			say = "そう言ってネルソンは立ち上がって部屋を出ていこうとする。",
 			typewriter = {
 				speed = 0.05,
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "じゃ、じゃあね！",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000

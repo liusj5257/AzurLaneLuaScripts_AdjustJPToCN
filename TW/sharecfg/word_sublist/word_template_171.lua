@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_171 = {}
 slot1 = slot0.word_template_171
 
-function temp()
+temp = function()
 	uv0.X = {
 		I = {
 			A = {
@@ -51,7 +51,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["夜"] = {
 		["色"] = {
 			["贵"] = {
@@ -97,7 +97,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["俗"] = {
 		["人"] = {
 			["岛"] = {
@@ -115,7 +115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["农"] = {
 		["夫"] = {
 			["电"] = {

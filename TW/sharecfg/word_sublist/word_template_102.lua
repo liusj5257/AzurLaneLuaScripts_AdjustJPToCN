@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_102 = {}
 slot1 = slot0.word_template_102
 
-function temp()
+temp = function()
 	uv0["脚"] = {
 		["交"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["勾"] = {
 		["魂"] = {
 			["少"] = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["集"] = {
 		["体"] = {
 			["性"] = {
@@ -57,7 +57,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["熟"] = {
 		["女"] = {
 			this = true,

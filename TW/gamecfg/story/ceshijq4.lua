@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CESHIJQ4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CESHIJQ4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"剧情选项功能测试\n\n<size=45>SP4剧情</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "SP4·剧情点",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "SP4·剧情点",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "请选择分支，将影响BOSS战斗内容",
 			typewriter = {
 				speed = 0.05,

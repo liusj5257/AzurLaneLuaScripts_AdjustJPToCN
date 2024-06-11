@@ -1,12 +1,12 @@
 return {
-	id = "W1124",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1124",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "It appears that the Pawn invasion has come to an end...",
 			typewriter = {
 				speed = 0.05,

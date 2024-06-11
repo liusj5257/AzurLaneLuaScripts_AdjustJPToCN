@@ -7,7 +7,7 @@ slot5 = ys.Battle.BattleDataFunction
 slot6 = ys.Battle.BattleAttr
 slot7 = ys.Battle.BattleVariable
 
-function slot0.StatisticsInit(slot0, slot1)
+slot0.StatisticsInit = function(slot0, slot1)
 	slot0._statistics = {
 		_battleScore = uv0.BattleScore.D,
 		kill_id_list = {},
@@ -34,7 +34,7 @@ function slot0.StatisticsInit(slot0, slot1)
 	end
 end
 
-function slot0.InitAidUnitStatistics(slot0, slot1)
+slot0.InitAidUnitStatistics = function(slot0, slot1)
 	slot2 = {
 		id = slot1:GetAttrByName("id"),
 		damage = 0,
@@ -49,7 +49,7 @@ function slot0.InitAidUnitStatistics(slot0, slot1)
 	slot0._statistics.submarineAid = true
 end
 
-function slot0.InitSpecificEnemyStatistics(slot0, slot1)
+slot0.InitSpecificEnemyStatistics = function(slot0, slot1)
 	slot2 = {
 		id = slot1:GetAttrByName("id"),
 		damage = 0,
@@ -64,7 +64,7 @@ function slot0.InitSpecificEnemyStatistics(slot0, slot1)
 	slot0._statistics[slot2.id] = slot2
 end
 
-function slot0.RivalInit(slot0, slot1)
+slot0.RivalInit = function(slot0, slot1)
 	slot0._statistics._rivalInfo = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -75,7 +75,7 @@ function slot0.RivalInit(slot0, slot1)
 	end
 end
 
-function slot0.DodgemCountInit(slot0)
+slot0.DodgemCountInit = function(slot0)
 	slot0._dodgemStatistics = {
 		kill = 0,
 		combo = 0,
@@ -86,19 +86,19 @@ function slot0.DodgemCountInit(slot0)
 	}
 end
 
-function slot0.SubmarineRunInit(slot0)
+slot0.SubmarineRunInit = function(slot0)
 	slot0._subRunStatistics = {
 		score = 0
 	}
 end
 
-function slot0.SetFlagShipID(slot0, slot1)
+slot0.SetFlagShipID = function(slot0, slot1)
 	if slot1 then
 		slot0._statistics._flagShipID = slot1:GetAttrByName("id")
 	end
 end
 
-function slot0.DamageStatistics(slot0, slot1, slot2, slot3)
+slot0.DamageStatistics = function(slot0, slot1, slot2, slot3)
 	if slot0._statistics[slot1] then
 		slot0._statistics[slot1].output = slot0._statistics[slot1].output + slot3
 		slot0._statistics[slot1].maxDamageOnce = math.max(slot0._statistics[slot1].maxDamageOnce, slot3)
@@ -109,13 +109,13 @@ function slot0.DamageStatistics(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.KillCountStatistics(slot0, slot1, slot2)
+slot0.KillCountStatistics = function(slot0, slot1, slot2)
 	if slot0._statistics[slot1] then
 		slot0._statistics[slot1].kill_count = slot0._statistics[slot1].kill_count + 1
 	end
 end
 
-function slot0.HPRatioStatistics(slot0)
+slot0.HPRatioStatistics = function(slot0)
 	for slot4, slot5 in pairs(slot0._fleetList) do
 		slot5:UndoFusion()
 	end
@@ -125,11 +125,11 @@ function slot0.HPRatioStatistics(slot0)
 	end
 end
 
-function slot0.BotPercentage(slot0, slot1)
+slot0.BotPercentage = function(slot0, slot1)
 	slot0._statistics._botPercentage = Mathf.Clamp(math.floor(slot1 / (slot0._currentStageData.timeCount - slot0._countDown) * 100), 0, 100)
 end
 
-function slot0.CalcBattleScoreWhenDead(slot0, slot1)
+slot0.CalcBattleScoreWhenDead = function(slot0, slot1)
 	if slot1:GetIFF() == uv0.FRIENDLY_CODE then
 		if not table.contains(TeamType.SubShipType, slot1:GetTemplate().type) then
 			slot0:DelScoreWhenPlayerDead(slot1)
@@ -139,29 +139,29 @@ function slot0.CalcBattleScoreWhenDead(slot0, slot1)
 	end
 end
 
-function slot0.AddScoreWhenBossDestruct(slot0)
+slot0.AddScoreWhenBossDestruct = function(slot0)
 	slot0._statistics._boss_destruct = slot0._statistics._boss_destruct + 1
 end
 
-function slot0.AddScoreWhenEnemyDead(slot0, slot1)
+slot0.AddScoreWhenEnemyDead = function(slot0, slot1)
 	if slot1:GetDeathReason() == uv0.UnitDeathReason.KILLED then
 		slot0._statistics.kill_id_list[#slot0._statistics.kill_id_list + 1] = slot1:GetTemplateID()
 	end
 end
 
-function slot0.DelScoreWhenPlayerDead(slot0, slot1)
+slot0.DelScoreWhenPlayerDead = function(slot0, slot1)
 	slot0._statistics._deadCount = slot0._statistics._deadCount + 1
 end
 
-function slot0.CalcBPWhenPlayerLeave(slot0, slot1)
+slot0.CalcBPWhenPlayerLeave = function(slot0, slot1)
 	slot0._statistics[slot1:GetAttrByName("id")].bp = math.ceil(slot1:GetHPRate() * 10000)
 end
 
-function slot0.isTimeOut(slot0)
+slot0.isTimeOut = function(slot0)
 	return slot0._currentStageData.timeCount - slot0._countDown >= 180
 end
 
-function slot0.CalcCardPuzzleScoreAtEnd(slot0, slot1)
+slot0.CalcCardPuzzleScoreAtEnd = function(slot0, slot1)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._battleScore = slot1:GetCardPuzzleComponent():GetCurrentCommonHP() > 0 and uv0.BattleScore.S or uv0.BattleScore.D
@@ -173,7 +173,7 @@ function slot0.CalcCardPuzzleScoreAtEnd(slot0, slot1)
 	slot0:AirFightInit()
 end
 
-function slot0.CalcSingleDungeonScoreAtEnd(slot0, slot1)
+slot0.CalcSingleDungeonScoreAtEnd = function(slot0, slot1)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._totalTime = slot0._currentStageData.timeCount - slot0._countDown
@@ -239,11 +239,11 @@ function slot0.CalcSingleDungeonScoreAtEnd(slot0, slot1)
 	end
 end
 
-function slot0.CalcMaxRestHPRateBossRate(slot0, slot1)
+slot0.CalcMaxRestHPRateBossRate = function(slot0, slot1)
 	slot0._statistics._maxBossHP = slot1
 end
 
-function slot0.CalcDuelScoreAtTimesUp(slot0, slot1, slot2, slot3, slot4)
+slot0.CalcDuelScoreAtTimesUp = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._timeout = false
@@ -264,7 +264,7 @@ function slot0.CalcDuelScoreAtTimesUp(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.CalcDuelScoreAtEnd(slot0, slot1, slot2)
+slot0.CalcDuelScoreAtEnd = function(slot0, slot1, slot2)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._totalTime = slot0._currentStageData.timeCount - slot0._countDown
@@ -285,7 +285,7 @@ function slot0.CalcDuelScoreAtEnd(slot0, slot1, slot2)
 	slot0._statistics._timeout = slot0:isTimeOut()
 end
 
-function slot0.CalcSimulationScoreAtEnd(slot0, slot1, slot2)
+slot0.CalcSimulationScoreAtEnd = function(slot0, slot1, slot2)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._totalTime = slot0._currentStageData.timeCount - slot0._countDown
@@ -314,7 +314,7 @@ function slot0.CalcSimulationScoreAtEnd(slot0, slot1, slot2)
 	slot0:overwriteRivalStatistics(slot2)
 end
 
-function slot0.CalcSimulationScoreAtTimesUp(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.CalcSimulationScoreAtTimesUp = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._statistics._deadUnit = true
 	slot0._statistics._badTime = true
 	slot0._statistics._timeout = false
@@ -329,7 +329,7 @@ function slot0.CalcSimulationScoreAtTimesUp(slot0, slot1, slot2, slot3, slot4, s
 	slot0:overwriteRivalStatistics(slot5)
 end
 
-function slot0.overwriteRivalStatistics(slot0, slot1)
+slot0.overwriteRivalStatistics = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._statistics._rivalInfo) do
 		slot7 = false
 
@@ -348,7 +348,7 @@ function slot0.overwriteRivalStatistics(slot0, slot1)
 	end
 end
 
-function slot0.CalcChallengeScore(slot0, slot1)
+slot0.CalcChallengeScore = function(slot0, slot1)
 	if slot1 then
 		slot0._statistics._battleScore = uv0.BattleScore.S
 	else
@@ -358,7 +358,7 @@ function slot0.CalcChallengeScore(slot0, slot1)
 	slot0._statistics._totalTime = slot0._totalTime
 end
 
-function slot0.CalcDodgemCount(slot0, slot1)
+slot0.CalcDodgemCount = function(slot0, slot1)
 	slot3 = slot1:GetTemplate().type
 
 	if slot1:GetDeathReason() == ys.Battle.BattleConst.UnitDeathReason.CRUSH then
@@ -386,7 +386,7 @@ function slot0.CalcDodgemCount(slot0, slot1)
 	end
 end
 
-function slot0.GetScorePoint(slot0)
+slot0.GetScorePoint = function(slot0)
 	slot1 = nil
 
 	if slot0._dodgemStatistics.combo == 1 then
@@ -400,7 +400,7 @@ function slot0.GetScorePoint(slot0)
 	return slot1
 end
 
-function slot0.CalcDodgemScore(slot0)
+slot0.CalcDodgemScore = function(slot0)
 	if uv0.BATTLE_DODGEM_PASS_SCORE <= slot0._dodgemStatistics.score then
 		slot0._statistics._battleScore = uv1.BattleScore.S
 	else
@@ -410,19 +410,19 @@ function slot0.CalcDodgemScore(slot0)
 	slot0._statistics.dodgemResult = slot0._dodgemStatistics
 end
 
-function slot0.CalcActBossDamageInfo(slot0, slot1)
+slot0.CalcActBossDamageInfo = function(slot0, slot1)
 	slot0:CalcSpecificEnemyInfo(uv0.GetSpecificEnemyList(slot1, slot0._expeditionID))
 end
 
-function slot0.CalcWorldBossDamageInfo(slot0, slot1, slot2, slot3)
+slot0.CalcWorldBossDamageInfo = function(slot0, slot1, slot2, slot3)
 	slot0:CalcSpecificEnemyInfo(uv0.GetSpecificWorldJointEnemyList(slot1, slot2, slot3))
 end
 
-function slot0.CalcGuildBossEnemyInfo(slot0, slot1)
+slot0.CalcGuildBossEnemyInfo = function(slot0, slot1)
 	slot0:CalcSpecificEnemyInfo(uv0.GetSpecificGuildBossEnemyList(slot1, slot0._expeditionID))
 end
 
-function slot0.CalcSpecificEnemyInfo(slot0, slot1)
+slot0.CalcSpecificEnemyInfo = function(slot0, slot1)
 	slot0._statistics.specificDamage = 0
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -444,30 +444,30 @@ function slot0.CalcSpecificEnemyInfo(slot0, slot1)
 	end
 end
 
-function slot0.CalcKillingSupplyShip(slot0)
+slot0.CalcKillingSupplyShip = function(slot0)
 	slot0._subRunStatistics.score = slot0._subRunStatistics.score + 1
 end
 
-function slot0.CalcSubRunTimeUp(slot0)
+slot0.CalcSubRunTimeUp = function(slot0)
 	slot0._statistics._battleScore = uv0.BattleScore.B
 	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
-function slot0.CalcSubRunScore(slot0)
+slot0.CalcSubRunScore = function(slot0)
 	slot0._statistics._battleScore = uv0.BattleScore.S
 	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
-function slot0.CalcSubRunDead(slot0)
+slot0.CalcSubRunDead = function(slot0)
 	slot0._statistics._battleScore = uv0.BattleScore.D
 	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
-function slot0.CalcKillingSupplyShip(slot0)
+slot0.CalcKillingSupplyShip = function(slot0)
 	slot0._subRunStatistics.score = slot0._subRunStatistics.score + 1
 end
 
-function slot0.CalcSubRountineTimeUp(slot0)
+slot0.CalcSubRountineTimeUp = function(slot0)
 	slot0._statistics._badTime = true
 
 	slot0:CalcSubRoutineScore()
@@ -475,7 +475,7 @@ function slot0.CalcSubRountineTimeUp(slot0)
 	slot0._statistics._battleScore = uv0.BattleScore.C
 end
 
-function slot0.CalcSubRountineElimate(slot0)
+slot0.CalcSubRountineElimate = function(slot0)
 	slot0._statistics._elimated = true
 
 	slot0:CalcSubRoutineScore()
@@ -483,7 +483,7 @@ function slot0.CalcSubRountineElimate(slot0)
 	slot0._statistics._battleScore = uv0.BattleScore.D
 end
 
-function slot0.CalcSubRoutineScore(slot0)
+slot0.CalcSubRoutineScore = function(slot0)
 	if ((slot0._statistics._badTime or slot0._statistics._elimated) and 0 or uv0.SR_CONFIG.BASE_POINT) + slot0._subRunStatistics.score * uv0.SR_CONFIG.POINT - slot0._statistics._deadCount * uv0.SR_CONFIG.DEAD_POINT >= uv0.SR_CONFIG.BASE_POINT + uv0.SR_CONFIG.M * uv0.SR_CONFIG.POINT then
 		slot0._statistics._battleScore = uv1.BattleScore.S
 	elseif uv0.SR_CONFIG.BASE_POINT <= slot4 then
@@ -502,7 +502,7 @@ function slot0.CalcSubRoutineScore(slot0)
 	slot0._statistics.subRunResult = slot0._subRunStatistics
 end
 
-function slot0.AirFightInit(slot0)
+slot0.AirFightInit = function(slot0)
 	slot0._statistics._airFightStatistics = {
 		kill = 0,
 		score = 0,
@@ -512,7 +512,7 @@ function slot0.AirFightInit(slot0)
 	}
 end
 
-function slot0.AddAirFightScore(slot0, slot1)
+slot0.AddAirFightScore = function(slot0, slot1)
 	slot0._statistics._airFightStatistics.score = slot0._statistics._airFightStatistics.score + slot1
 	slot0._statistics._airFightStatistics.kill = slot0._statistics._airFightStatistics.kill + 1
 	slot0._statistics._airFightStatistics.total = math.max(slot0._statistics._airFightStatistics.score - slot0._statistics._airFightStatistics.lose, 0)
@@ -522,7 +522,7 @@ function slot0.AddAirFightScore(slot0, slot1)
 	}))
 end
 
-function slot0.DecreaseAirFightScore(slot0, slot1)
+slot0.DecreaseAirFightScore = function(slot0, slot1)
 	slot0._statistics._airFightStatistics.lose = slot0._statistics._airFightStatistics.lose + slot1
 	slot0._statistics._airFightStatistics.hit = slot0._statistics._airFightStatistics.hit + 1
 	slot0._statistics._airFightStatistics.total = math.max(slot0._statistics._airFightStatistics.score - slot0._statistics._airFightStatistics.lose, 0)
@@ -532,6 +532,6 @@ function slot0.DecreaseAirFightScore(slot0, slot1)
 	}))
 end
 
-function slot0.CalcAirFightScore(slot0)
+slot0.CalcAirFightScore = function(slot0)
 	slot0._statistics._battleScore = uv0.BattleScore.S
 end

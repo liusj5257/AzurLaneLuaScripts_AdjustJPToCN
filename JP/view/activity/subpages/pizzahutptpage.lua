@@ -14,7 +14,7 @@ slot0.PosList = {
 }
 slot0.Pizza_Save_Tag_Pre = "Pizza_Tag_"
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	uv0.super.OnDataSetting(slot0)
 
 	slot0.specialPhaseList = slot0.activity:getConfig("config_data")
@@ -23,7 +23,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.curSelectIndex = 0
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	slot0:findUI()
 	slot0:initMainPanel()
@@ -31,7 +31,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:initSD()
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2, slot3 = slot0.ptData:GetResProgress()
@@ -46,7 +46,7 @@ function slot0.OnUpdateFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.spine then
 		slot0.spine.transform.localScale = Vector3.one
 
@@ -62,7 +62,7 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.shareBtn = slot0:findTF("share_btn", slot0.bg)
 	slot0.empty = slot0:findTF("empty", slot0.bg)
 	slot0.pizzaTF = slot0:findTF("Pizza", slot0.bg)
@@ -160,7 +160,7 @@ function slot0.findUI(slot0)
 	slot0.selectedIconResTF = slot0:findTF("SelectedIcon")
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.getBtn, function ()
 		slot0, slot1, slot2 = uv0.ptData:GetLevelProgress()
 
@@ -204,8 +204,8 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.initMainPanel(slot0)
-	function slot4()
+slot0.initMainPanel = function(slot0)
+	slot4 = function()
 		uv0:closeSpecial()
 
 		if uv0:isFinished() then
@@ -326,7 +326,7 @@ function slot0.initMainPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.openMainPanel(slot0, slot1)
+slot0.openMainPanel = function(slot0, slot1)
 	slot0.selectedList = slot0:getSelectedList()
 
 	setActive(slot0.openBtn, false)
@@ -367,7 +367,7 @@ function slot0.openMainPanel(slot0, slot1)
 	end))
 end
 
-function slot0.closeMainPanel(slot0)
+slot0.closeMainPanel = function(slot0)
 	slot1 = LeanTween.value(go(slot0.mainPanel), 1, 0, uv0.Menu_Ani_Close_Time)
 	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		uv0.mainPanelCG.alpha = slot0
@@ -394,7 +394,7 @@ function slot0.closeMainPanel(slot0)
 	end))
 end
 
-function slot0.openSecondPanel(slot0)
+slot0.openSecondPanel = function(slot0)
 	setActive(slot0.secondPanel, true)
 
 	slot1 = LeanTween.value(go(slot0.secondPanel), 0, 1, uv0.Menu_Ani_Open_Time)
@@ -420,7 +420,7 @@ function slot0.openSecondPanel(slot0)
 	end))
 end
 
-function slot0.closeSecondPanel(slot0)
+slot0.closeSecondPanel = function(slot0)
 	slot1 = LeanTween.value(go(slot0.secondPanel), 1, 0, uv0.Menu_Ani_Close_Time)
 	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		uv0.secondPanelCG.alpha = slot0
@@ -448,7 +448,7 @@ function slot0.closeSecondPanel(slot0)
 	end))
 end
 
-function slot0.openSelectBtn(slot0)
+slot0.openSelectBtn = function(slot0)
 	setActive(slot0.selectBtn, true)
 
 	slot1 = LeanTween.value(go(slot0.selectBtn), 0, 1, uv0.Menu_Ani_Open_Time)
@@ -474,7 +474,7 @@ function slot0.openSelectBtn(slot0)
 	end))
 end
 
-function slot0.closeSelectBtn(slot0)
+slot0.closeSelectBtn = function(slot0)
 	slot1 = LeanTween.value(go(slot0.selectBtn), 1, 0, uv0.Menu_Ani_Close_Time)
 	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setImageAlpha(uv0.selectBtn, slot0)
@@ -500,12 +500,12 @@ function slot0.closeSelectBtn(slot0)
 	end))
 end
 
-function slot0.closeSpecial(slot0)
+slot0.closeSpecial = function(slot0)
 	slot0:closeSelectBtn()
 	slot0:closeSecondPanel()
 end
 
-function slot0.updatePizza(slot0)
+slot0.updatePizza = function(slot0)
 	setActive(slot0.empty, slot0.selectedList[1] == 0)
 	setActive(slot0.pizzaTF, slot0.selectedList[1] > 0)
 	setActive(slot0:findTF("PizzaPan", slot0.pizzaTF), slot0.selectedList[1] and slot0.selectedList[1] > 0)
@@ -540,7 +540,7 @@ function slot0.updatePizza(slot0)
 	end
 end
 
-function slot0.updateMainSelectPanel(slot0)
+slot0.updateMainSelectPanel = function(slot0)
 	if slot0.selectedList[1] and slot0.selectedList[1] > 0 then
 		setImageSprite(slot0.mainToggleSelectedTF[1], getImageSprite(slot0:findTF(tostring(slot0.selectedList[1]), slot0.selectedIconResTF)), true)
 		setActive(slot0.mainToggleSelectedTF[1], true)
@@ -572,17 +572,17 @@ function slot0.updateMainSelectPanel(slot0)
 	end
 end
 
-function slot0.isFinished(slot0)
+slot0.isFinished = function(slot0)
 	return #slot0.activity.data2_list == 6
 end
 
-function slot0.changeIndexSelect(slot0)
+slot0.changeIndexSelect = function(slot0)
 	slot0.selectedList[slot0.curSelectOrder] = slot0.curSelectIndex
 
 	PlayerPrefs.SetInt(uv0.Pizza_Save_Tag_Pre .. slot0.curSelectOrder, slot0.curSelectIndex)
 end
 
-function slot0.getSelectedList(slot0)
+slot0.getSelectedList = function(slot0)
 	slot0.selectedList = {
 		0,
 		0,
@@ -609,13 +609,13 @@ function slot0.getSelectedList(slot0)
 	return slot0.selectedList
 end
 
-function slot0.saveSelectedList(slot0)
+slot0.saveSelectedList = function(slot0)
 	for slot4 = 1, 6 do
 		PlayerPrefs.SetInt(uv0.Pizza_Save_Tag_Pre .. slot4, slot0.selectedList[slot4])
 	end
 end
 
-function slot0.share(slot0)
+slot0.share = function(slot0)
 	slot1 = PoolMgr.GetInstance()
 
 	slot1:GetUI("PizzahutSharePage", false, function (slot0)
@@ -653,7 +653,7 @@ function slot0.share(slot0)
 	end)
 end
 
-function slot0.initSD(slot0)
+slot0.initSD = function(slot0)
 	slot0.sdContainer = slot0:findTF("sdcontainer", slot0.bg)
 	slot0.spine = nil
 	slot0.spineLRQ = GetSpineRequestPackage.New("chuixue_6", function (slot0)
@@ -672,7 +672,7 @@ function slot0.initSD(slot0)
 	setActive(slot0.sdContainer, true)
 end
 
-function slot0.showBubble(slot0, slot1)
+slot0.showBubble = function(slot0, slot1)
 	slot2 = nil
 
 	if not slot1 then
@@ -689,7 +689,7 @@ function slot0.showBubble(slot0, slot1)
 
 	setText(slot0.bubbleText, slot2)
 
-	function slot4()
+	slot4 = function()
 		slot0 = LeanTween.value(go(uv0.bubble), 1, 0, uv1.FADE_OUT_TIME)
 		slot0 = slot0:setOnUpdate(System.Action_float(uv2))
 

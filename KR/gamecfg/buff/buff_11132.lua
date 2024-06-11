@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.2
+					number = -0.2,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 2000
+					number = 2000,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.233
+					number = -0.233,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 2330
+					number = 2330,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.266
+					number = -0.266,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 2660
+					number = 2660,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.299
+					number = -0.299,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 2990
+					number = 2990,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.332
+					number = -0.332,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 3320
+					number = 3320,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.365
+					number = -0.365,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 3650
+					number = 3650,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.398
+					number = -0.398,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 3980
+					number = 3980,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.431
+					number = -0.431,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 4310
+					number = 4310,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.464
+					number = -0.464,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 4640
+					number = 4640,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.5
+					number = -0.5,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			},
 			{
@@ -243,15 +243,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 5000
+					number = 5000,
+					attr = "torpedoPower"
 				}
 			}
 		}
 	},
-	time = 4,
 	name = "第一驱逐舰",
 	init_effect = "jinengchufared",
+	time = 4,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -273,8 +273,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.2
+				number = -0.2,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		},
 		{
@@ -283,8 +283,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 2000
+				number = 2000,
+				attr = "torpedoPower"
 			}
 		}
 	}

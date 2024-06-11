@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_156",
 			bgm = "theme-highseasfleet-reborn",
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "왜 그래? 배 아파? 손님방으로 데려다줄까?",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,13 +63,13 @@ return {
 			}
 		},
 		{
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "밖에서 비 맞고 감기라도 든 거야? 일단 손님방으로 가자! 거긴 난로도 있어서 따뜻해~",
 			typewriter = {
@@ -91,13 +91,13 @@ return {
 			}
 		},
 		{
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
 			optionFlag = 2,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "안색이 안 좋아서 감기라도 걸린 건 아닌가 싶어서! 자, 손님방으로 가자! 거긴 난로도 있어서 따뜻해~",
 			typewriter = {
@@ -110,9 +110,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "이대로 있으면 사람들이 우리 성주님이 손님 대접이 소홀하다고 생각할 거 아니야.",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "뭐? 그렇지만……",
 			typewriter = {
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "소, 손님방에 가기 싫으면 그냥 여기서 쉬어도 돼! 홀은 지금 청소 중이라 들어가면 안 된다고!",
@@ -493,11 +493,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "하이티엔",
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "하이티엔",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "그리고…… 당신은 성에 홀로 들어갔습니다.",
 			typewriter = {
@@ -505,17 +505,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -569,9 +569,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
-			soundeffect = "event:/ui/shuaimen",
 			actorName = "하이티엔",
+			soundeffect = "event:/ui/shuaimen",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "……탕. 그때, 당신의 뒤에서 문이 닫히는 소리가 들렸습니다.",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -663,8 +663,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――이거 설마…",
 			bgm = "theme-ijndailymeeting",
+			say = "――이거 설마…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,9 +701,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "그러니까 내가 위험하다고 주의 줬잖아~",
 			typewriter = {

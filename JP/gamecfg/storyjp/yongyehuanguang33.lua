@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG33",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG33",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "よーやく辿り着いたか。量産型艦隊を突破したことは褒めてやるぜ",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "北方連合によって追い出された残党程度では苦戦するまでもないわ",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "……言い訳？",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,8 +152,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "なんだと！？エディンバラ、こいつも確か氷山要塞にいたのよね？",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "あ、あの背中のものは巨大な砲ではないのですか…？",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "（敵の強力な兵装でないのは幸運ですけど、なんだかちょっと残念なような……）",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "（な、なにを考えているのわたし？！あははは……）",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 		{
 			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "ふざけるなあああああああああ！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,10 +354,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "―――！！",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "―――！！",
 			effects = {
 				{
 					active = false,

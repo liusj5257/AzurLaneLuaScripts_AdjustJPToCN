@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16820,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16820,
+	color = "red",
 	icon = 16820,
 	last_effect = "",
 	effect_list = {
@@ -39,9 +39,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 16822,
+				nationality = 6,
 				minTargetNumber = 2,
 				target = "TargetSelf",
-				nationality = 6,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -59,9 +59,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 16823,
+				nationality = 6,
 				maxTargetNumber = 1,
 				target = "TargetSelf",
-				nationality = 6,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipType",

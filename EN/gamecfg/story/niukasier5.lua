@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Paean for Peace\n\n<size=45>Outing</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "I headed to town with Newcastle and Sheffield to help them out with some shopping.",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "I headed to town with Newcastle and Sheffield to help them out with some shopping.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "She left as if she were handing off an unruly child to the other parent...",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "Your... insurance?",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "Newcastle opened up the umbrella she usually carried on her as she continued to talk.",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "Newcastle gradually approached me, covering me underneath her umbrella.",
 			typewriter = {
 				speed = 0.05,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "After all, my quiet and peaceful life is only possible thanks to all my precious friends who fight so hard to protect me...",
 			typewriter = {
 				speed = 0.05,

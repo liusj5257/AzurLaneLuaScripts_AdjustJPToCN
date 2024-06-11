@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "猛进射击 +",
 	init_effect = "",
+	id = 1011700,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1011700,
+	color = "yellow",
 	icon = 11700,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 1011701,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				quota = 1,
 				time = 3,
+				quota = 1,
 				skill_id = 1011700,
 				check_target = {
 					"TargetPlayerVanguardFleet",

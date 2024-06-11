@@ -1,13 +1,13 @@
 return {
-	id = "W742010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W742010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "是否重置谜题？（重置后海域状态会恢复到最初的样子）",
 			typewriter = {
 				speed = 0.05,

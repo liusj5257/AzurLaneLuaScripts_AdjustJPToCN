@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQILINGBO",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQILINGBO",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"荣耀殿堂\n\n<size=45>{namecode:6}、约会@home</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301050,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指挥官，请坐…的说",
 			bgm = "story-1",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "指挥官，请坐…的说",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "…为什么会变成这种情况呢",
 			typewriter = {
 				speed = 0.05,
@@ -98,13 +98,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "两天前",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -170,13 +170,13 @@ return {
 		{
 			actor = 301050,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "大家都说“先去邀请指挥官”就好了，但是约会地点和约会的方法{namecode:6}都不大清楚…的说……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -207,9 +207,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "虽然想提几个建议，不过好像一时半会也想不出来……",
 			typewriter = {
 				speed = 0.05,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "话说回来，在自己房间集合这个主意究竟是谁出的…？",
 			typewriter = {
 				speed = 0.05,
@@ -251,9 +251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "{namecode:6}掏出手机开始操作起来。",
 			typewriter = {
 				speed = 0.05,
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "总之先和{namecode:6}玩一会游戏吧。",
 			typewriter = {
 				speed = 0.05,
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "（毕竟突然要拿{namecode:2}练的角色来用，还是不太好上手呢…）",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "稍微经过了一段时间",
 			typewriter = {
 				speed = 0.05,
@@ -380,15 +380,15 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "……！有消息的说。指挥官，先按下暂停的说",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -413,8 +413,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -480,9 +480,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "{namecode:6}拿出来的是——五层盒子叠起来的超重便当箱。",
 			typewriter = {
 				speed = 0.05,
@@ -526,9 +526,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "虽然表情没什么变化，但是从{namecode:6}闪闪发亮的眼睛里能看出她是非常有自信的",
 			typewriter = {
 				speed = 0.05,
@@ -556,9 +556,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "没、没办法拒绝……！",
 			typewriter = {
 				speed = 0.05,
@@ -570,13 +570,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "吃完整份便当花了不少时间，不过——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -601,9 +601,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "非常好吃！！",
 			typewriter = {
 				speed = 0.05,
@@ -615,9 +615,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "但是太多了！！",
 			dialogShake = {
 				speed = 0.09,
@@ -666,9 +666,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "吃太撑了，血液循环都到胃部处理消化了，突然感觉很困……",
 			typewriter = {
 				speed = 0.05,
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "……又来消息了……",
 			typewriter = {
 				speed = 0.05,
@@ -797,9 +797,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "{namecode:6}站了起来，从壁柜里掏出了毛毯和被子，然后……",
 			typewriter = {
 				speed = 0.05,
@@ -811,9 +811,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "又掏出了一条毛毯和被子（还有枕头），以迅雷不及掩耳之势整齐地铺在了地板上",
 			typewriter = {
 				speed = 0.05,
@@ -857,9 +857,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "在睡意之下勉强保持的意识，马上就要忍不住想要对这个过于突然的展开吐槽的时刻————",
 			typewriter = {
 				speed = 0.05,
@@ -887,9 +887,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -901,9 +901,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "于是两个人拉着手在梦乡中度过了一下午。",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA46",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA46",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-fff",
 			dir = 1,
 			say = "そういえば、あの「軍師」、たしか自分のことを「時間と空間の支配者」と名乗っていましたね",
+			bgm = "holo-fff",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,9 +39,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ダークフォックスブリザード、これもどこかで聞いたような気がするね",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "まさか…いえ…ありえない………",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "き、きっとあの名探偵、適当にカードの名前をつけたただけだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ゴゴゴゴゴゴゴゴゴゴゴゴゴゴ―――！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "あれは暗邪眼の狐吹雪（ダークフォックスブリザード）…ボスだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actor = 900021,
+			actorName = "ピュリっち",
 			say = "テスターの切り札、あんなものが！？",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "みんな慌てないで！まだ敵かどうか判断できないし、敵だとしてもここで立ち止まるわけにはいかないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "同じ顔だから、自分の写し鏡だから――なおさら逃げずに受け入れて、自分を貫き通すべきだと思うの",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "だから江風、心配しないで、わたしたちなら大丈夫！",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "うん！どんなに辛い戦いに臨んでも、ここだけじゃなく、遠くにいる仲間たちの力も集めれば…",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "この繋がる絆がある限り、わたしたちは絶対勝つよ！",
 			typewriter = {
 				speed = 0.05,

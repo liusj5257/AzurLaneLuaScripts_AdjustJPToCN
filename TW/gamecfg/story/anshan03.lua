@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ANSHAN03",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ANSHAN03",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鞍山的繪圖日記\n\n<size=45>三　舌尖上的東煌</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "我回來啦！雖然沒追上布里們不過…看我帶了誰來~",
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "我回來啦！雖然沒追上布里們不過…看我帶了誰來~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
+			say = "啊，是平海和寧海姐姐~",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，是平海和寧海姐姐~",
+			actor = 501040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
+			say = "啊哈哈，鞍山還是這麼認真呢",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，鞍山還是這麼認真呢",
+			actor = 502020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -138,10 +138,10 @@ return {
 			}
 		},
 		{
-			actor = 501040,
 			actorName = "太原&長春&鞍山",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 501040,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "喔喔喔~~",
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actor = 502030,
+			say = "嘿嘿~",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~",
+			actor = 502030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

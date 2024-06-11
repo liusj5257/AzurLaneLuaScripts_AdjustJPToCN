@@ -62,12 +62,12 @@ return {
 	desc_get = "主炮射击时有50.0%概率恢复先锋部队4.0%(满级10.0%)耐久——“这次，一定要保护好大家”",
 	name = "白鹰之泪",
 	init_effect = "",
+	id = 10140,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "主炮射击时有50.0%概率恢复先锋部队$1耐久——“这次，一定要保护好大家”",
 	stack = 1,
-	id = 10140,
+	color = "yellow",
 	icon = 10140,
 	last_effect = "Health",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 5000,
-				target = "TargetSelf",
 				skill_id = 10140,
+				target = "TargetSelf",
 				time = 12
 			}
 		}

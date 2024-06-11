@@ -1,764 +1,772 @@
 pg = pg or {}
 pg.task_data_trigger = {
 	{
-		group_id = 0,
+		task_id = 5001,
 		activity_id = 21,
 		count = 30,
 		type = 1,
 		id = 1,
-		task_id = 5001
+		group_id = 0
 	},
 	{
-		group_id = 10601,
+		task_id = 5031,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 2,
-		task_id = 5031
+		group_id = 10601
 	},
 	{
-		group_id = 30706,
+		task_id = 5051,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 3,
-		task_id = 5051
+		group_id = 30706
 	},
 	{
-		group_id = 30116,
+		task_id = 5061,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 4,
-		task_id = 5061
+		group_id = 30116
 	},
 	{
-		group_id = 20203,
+		task_id = 5071,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 5,
-		task_id = 5071
+		group_id = 20203
 	},
 	{
-		group_id = 10125,
+		task_id = 5081,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 6,
-		task_id = 5081
+		group_id = 10125
 	},
 	{
-		group_id = 30701,
+		task_id = 5091,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 7,
-		task_id = 5091
+		group_id = 30701
 	},
 	{
-		group_id = 10209,
+		task_id = 5101,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 8,
-		task_id = 5101
+		group_id = 10209
 	},
 	{
-		group_id = 30502,
+		task_id = 5111,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 9,
-		task_id = 5111
+		group_id = 30502
 	},
 	{
-		group_id = 20706,
+		task_id = 5121,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 10,
-		task_id = 5121
+		group_id = 20706
 	},
 	{
-		group_id = 10703,
+		task_id = 5131,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 11,
-		task_id = 5131
+		group_id = 10703
 	},
 	{
-		group_id = 30312,
+		task_id = 5141,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 12,
-		task_id = 5141
+		group_id = 30312
 	},
 	{
-		group_id = 40146,
+		task_id = 5151,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 13,
-		task_id = 5151
+		group_id = 40146
 	},
 	[15] = {
-		group_id = 80101,
+		task_id = 5171,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 15,
-		task_id = 5171
+		group_id = 80101
 	},
 	[16] = {
-		group_id = 80201,
+		task_id = 5181,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 16,
-		task_id = 5181
+		group_id = 80201
 	},
 	[17] = {
-		group_id = 80801,
+		task_id = 5191,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 17,
-		task_id = 5191
+		group_id = 80801
 	},
 	[18] = {
-		group_id = 40502,
+		task_id = 5201,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 18,
-		task_id = 5201
+		group_id = 40502
 	},
 	[19] = {
-		group_id = 20604,
+		task_id = 5211,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 19,
-		task_id = 5211
+		group_id = 20604
 	},
 	[20] = {
-		group_id = 30402,
+		task_id = 5221,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 20,
-		task_id = 5221
+		group_id = 30402
 	},
 	[21] = {
-		group_id = 40304,
+		task_id = 5231,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 21,
-		task_id = 5231
+		group_id = 40304
 	},
 	[22] = {
-		group_id = 10802,
+		task_id = 5241,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 22,
-		task_id = 5241
+		group_id = 10802
 	},
 	[23] = {
-		group_id = 30707,
+		task_id = 5251,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 23,
-		task_id = 5251
+		group_id = 30707
 	},
 	[24] = {
-		group_id = 10709,
+		task_id = 5261,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 24,
-		task_id = 5261
+		group_id = 10709
 	},
 	[25] = {
-		group_id = 30109,
+		task_id = 5271,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 25,
-		task_id = 5271
+		group_id = 30109
 	},
 	[26] = {
-		group_id = 20219,
+		task_id = 5281,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 26,
-		task_id = 5281
+		group_id = 20219
 	},
 	[27] = {
-		group_id = 10212,
+		task_id = 5291,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 27,
-		task_id = 5291
+		group_id = 10212
 	},
 	[28] = {
-		group_id = 10127,
+		task_id = 5301,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 28,
-		task_id = 5301
+		group_id = 10127
 	},
 	[29] = {
-		group_id = 30118,
+		task_id = 5311,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 29,
-		task_id = 5311
+		group_id = 30118
 	},
 	[30] = {
-		group_id = 10218,
+		task_id = 5321,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 30,
-		task_id = 5321
+		group_id = 10218
 	},
 	[31] = {
-		group_id = 30606,
+		task_id = 5331,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 31,
-		task_id = 5331
+		group_id = 30606
 	},
 	[32] = {
-		group_id = 30164,
+		task_id = 5341,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 32,
-		task_id = 5341
+		group_id = 30164
 	},
 	[33] = {
-		group_id = 30309,
+		task_id = 5351,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 33,
-		task_id = 5351
+		group_id = 30309
 	},
 	[34] = {
-		group_id = 30703,
+		task_id = 5361,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 34,
-		task_id = 5361
+		group_id = 30703
 	},
 	[35] = {
-		group_id = 30121,
+		task_id = 5371,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 35,
-		task_id = 5371
+		group_id = 30121
 	},
 	[36] = {
-		group_id = 10310,
+		task_id = 5381,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 36,
-		task_id = 5381
+		group_id = 10310
 	},
 	[37] = {
-		group_id = 20208,
+		task_id = 5391,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 37,
-		task_id = 5391
+		group_id = 20208
 	},
 	[38] = {
-		group_id = 20220,
+		task_id = 5401,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 38,
-		task_id = 5401
+		group_id = 20220
 	},
 	[39] = {
-		group_id = 20502,
+		task_id = 5411,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 39,
-		task_id = 5411
+		group_id = 20502
 	},
 	[40] = {
-		group_id = 10738,
+		task_id = 5421,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 40,
-		task_id = 5421
+		group_id = 10738
 	},
 	[42] = {
-		group_id = 40305,
+		task_id = 5441,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 42,
-		task_id = 5441
+		group_id = 40305
 	},
 	[43] = {
-		group_id = 20505,
+		task_id = 5451,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 43,
-		task_id = 5451
+		group_id = 20505
 	},
 	[44] = {
-		group_id = 40804,
+		task_id = 5461,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 44,
-		task_id = 5461
+		group_id = 40804
 	},
 	[45] = {
-		group_id = 10803,
+		task_id = 5471,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 45,
-		task_id = 5471
+		group_id = 10803
 	},
 	[46] = {
-		group_id = 60302,
+		task_id = 5481,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 46,
-		task_id = 5481
+		group_id = 60302
 	},
 	[47] = {
-		group_id = 70201,
+		task_id = 5491,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 47,
-		task_id = 5491
+		group_id = 70201
 	},
 	[48] = {
-		group_id = 30180,
+		task_id = 5501,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 48,
-		task_id = 5501
+		group_id = 30180
 	},
 	[49] = {
-		group_id = 10306,
+		task_id = 5511,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 49,
-		task_id = 5511
+		group_id = 10306
 	},
 	[50] = {
-		group_id = 20703,
+		task_id = 5521,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 50,
-		task_id = 5521
+		group_id = 20703
 	},
 	[51] = {
-		group_id = 20402,
+		task_id = 5531,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 51,
-		task_id = 5531
+		group_id = 20402
 	},
 	[52] = {
-		group_id = 40301,
+		task_id = 5541,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 52,
-		task_id = 5541
+		group_id = 40301
 	},
 	[53] = {
-		group_id = 20303,
+		task_id = 5551,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 53,
-		task_id = 5551
+		group_id = 20303
 	},
 	[54] = {
-		group_id = 20605,
+		task_id = 5561,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 54,
-		task_id = 5561
+		group_id = 20605
 	},
 	[55] = {
-		group_id = 20226,
+		task_id = 5571,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 55,
-		task_id = 5571
+		group_id = 20226
 	},
 	[56] = {
-		group_id = 70504,
+		task_id = 5581,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 56,
-		task_id = 5581
+		group_id = 70504
 	},
 	[57] = {
-		group_id = 10215,
+		task_id = 5591,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 57,
-		task_id = 5591
+		group_id = 10215
 	},
 	[58] = {
-		group_id = 10145,
+		task_id = 5601,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 58,
-		task_id = 5601
+		group_id = 10145
 	},
 	[59] = {
-		group_id = 30115,
+		task_id = 5611,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 59,
-		task_id = 5611
+		group_id = 30115
 	},
 	[60] = {
-		group_id = 60701,
+		task_id = 5621,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 60,
-		task_id = 5621
+		group_id = 60701
 	},
 	[61] = {
-		group_id = 40802,
+		task_id = 5631,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 61,
-		task_id = 5631
+		group_id = 40802
 	},
 	[62] = {
-		group_id = 20503,
+		task_id = 5641,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 62,
-		task_id = 5641
+		group_id = 20503
 	},
 	[63] = {
-		group_id = 10229,
+		task_id = 5651,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 63,
-		task_id = 5651
+		group_id = 10229
 	},
 	[64] = {
-		group_id = 30501,
+		task_id = 5661,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 64,
-		task_id = 5661
+		group_id = 30501
 	},
 	[65] = {
-		group_id = 30208,
+		task_id = 5671,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 65,
-		task_id = 5671
+		group_id = 30208
 	},
 	[66] = {
-		group_id = 10707,
+		task_id = 5681,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 66,
-		task_id = 5681
+		group_id = 10707
 	},
 	[67] = {
-		group_id = 10655,
+		task_id = 5691,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 67,
-		task_id = 5691
+		group_id = 10655
 	},
 	[68] = {
-		group_id = 10227,
+		task_id = 5701,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 68,
-		task_id = 5701
+		group_id = 10227
 	},
 	[69] = {
-		group_id = 30129,
+		task_id = 5711,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 69,
-		task_id = 5711
+		group_id = 30129
 	},
 	[70] = {
-		group_id = 30514,
+		task_id = 5721,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 70,
-		task_id = 5721
+		group_id = 30514
 	},
 	[71] = {
-		group_id = 40503,
+		task_id = 5731,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 71,
-		task_id = 5731
+		group_id = 40503
 	},
 	[72] = {
-		group_id = 20132,
+		task_id = 5741,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 72,
-		task_id = 5741
+		group_id = 20132
 	},
 	[73] = {
-		group_id = 20211,
+		task_id = 5751,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 73,
-		task_id = 5751
+		group_id = 20211
 	},
 	[74] = {
-		group_id = 10205,
+		task_id = 5761,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 74,
-		task_id = 5761
+		group_id = 10205
 	},
 	[75] = {
-		group_id = 60105,
+		task_id = 5771,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 75,
-		task_id = 5771
+		group_id = 60105
 	},
 	[76] = {
-		group_id = 20134,
+		task_id = 5781,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 76,
-		task_id = 5781
+		group_id = 20134
 	},
 	[77] = {
-		group_id = 70202,
+		task_id = 5791,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 77,
-		task_id = 5791
+		group_id = 70202
 	},
 	[78] = {
-		group_id = 10501,
+		task_id = 5801,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 78,
-		task_id = 5801
+		group_id = 10501
 	},
 	[79] = {
-		group_id = 30182,
+		task_id = 5811,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 79,
-		task_id = 5811
+		group_id = 30182
 	},
 	[80] = {
-		group_id = 40302,
+		task_id = 5821,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 80,
-		task_id = 5821
+		group_id = 40302
 	},
 	[81] = {
-		group_id = 60108,
+		task_id = 5831,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 81,
-		task_id = 5831
+		group_id = 60108
 	},
 	[82] = {
-		group_id = 10148,
+		task_id = 5841,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 82,
-		task_id = 5841
+		group_id = 10148
 	},
 	[83] = {
-		group_id = 19901,
+		task_id = 5851,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 83,
-		task_id = 5851
+		group_id = 19901
 	},
 	[84] = {
-		group_id = 60801,
+		task_id = 5861,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 84,
-		task_id = 5861
+		group_id = 60801
 	},
 	[85] = {
-		group_id = 10702,
+		task_id = 5871,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 85,
-		task_id = 5871
+		group_id = 10702
 	},
 	[86] = {
-		group_id = 40603,
+		task_id = 5881,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 86,
-		task_id = 5881
+		group_id = 40603
 	},
 	[87] = {
-		group_id = 40403,
+		task_id = 5888,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 87,
-		task_id = 5888
+		group_id = 40403
 	},
 	[88] = {
-		group_id = 60802,
+		task_id = 5901,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 88,
-		task_id = 5901
+		group_id = 60802
 	},
 	[89] = {
-		group_id = 60109,
+		task_id = 5911,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 89,
-		task_id = 5911
+		group_id = 60109
 	},
 	[90] = {
-		group_id = 90111,
+		task_id = 5921,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 90,
-		task_id = 5921
+		group_id = 90111
 	},
 	[91] = {
-		group_id = 90502,
+		task_id = 5931,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 91,
-		task_id = 5931
+		group_id = 90502
 	},
 	[92] = {
-		group_id = 60107,
+		task_id = 5941,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 92,
-		task_id = 5941
+		group_id = 60107
 	},
 	[93] = {
-		group_id = 11802,
+		task_id = 5951,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 93,
-		task_id = 5951
+		group_id = 11802
 	},
 	[94] = {
-		group_id = 50102,
+		task_id = 5961,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 94,
-		task_id = 5961
+		group_id = 50102
 	},
 	[95] = {
-		group_id = 50601,
+		task_id = 5971,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 95,
-		task_id = 5971
+		group_id = 50601
 	},
 	[96] = {
-		group_id = 10730,
+		task_id = 5981,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 96,
-		task_id = 5981
+		group_id = 10730
 	},
 	[97] = {
-		group_id = 90701,
+		task_id = 5991,
 		activity_id = 0,
 		count = 1,
 		type = 2,
 		id = 97,
-		task_id = 5991
+		group_id = 90701
+	},
+	[98] = {
+		task_id = 500001,
+		activity_id = 0,
+		count = 1,
+		type = 2,
+		id = 98,
+		group_id = 50207
 	},
 	all = {
 		1,
@@ -855,6 +863,7 @@ pg.task_data_trigger = {
 		94,
 		95,
 		96,
-		97
+		97,
+		98
 	}
 }

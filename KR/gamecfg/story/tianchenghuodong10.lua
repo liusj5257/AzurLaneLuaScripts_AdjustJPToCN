@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG10",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>알고 있다.</size>",
@@ -41,17 +41,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#92fc63",
-			bgName = "bg_story_tiancheng4",
-			actorName = "{namecode:144}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "아마기씨, 큰일이에요! 카가씨가 편지만 남겨두고, 혼자 세이렌이 지배하고 있는 거울해역으로 떠났대요!",
+			bgName = "bg_story_tiancheng4",
 			bgm = "story-6",
+			actorName = "{namecode:144}",
+			say = "아마기씨, 큰일이에요! 카가씨가 편지만 남겨두고, 혼자 세이렌이 지배하고 있는 거울해역으로 떠났대요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:144}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_tiancheng4",
+			dir = 1,
 			say = "아시가라가 카가가 남긴 편지를 아마기에게 건네주었다.",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:144}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng4",
+			dir = 1,
 			say = "아마기는 황급히 아카기와 방을 나왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -346,13 +346,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = -1,
 			actor = 304050,
 			nameColor = "#92fc63",
-			dir = -1,
 			say = "하아…하아……호쇼씨, 지금 잠깐…시간을…하아하아……내주실 수 있을까요?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "장비를 차고 운동하는 게 오랜만인 탓일까, 너무 급하게 뛰어 숨이 끊어질 것만 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -405,8 +405,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "아마기는 심호흡을 몇 번이나 한 뒤……",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "호쇼씨, 당신의 함재기로 거울해역에 있는 카가를 찾아볼 수 있을까요……?",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "바닷바람을 맞으며, 항공모함 호쇼는 한 손을 구름 낀 하늘을 뒤덮는 수평선을 향해 뻗었다.",
 			typewriter = {
 				speed = 0.05,
@@ -510,9 +510,9 @@ return {
 			actor = 306030,
 			nameColor = "#92fc63",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "부탁해 함재기들아. 너희의 그 날개를 펼쳐, 바람을 타고 날아오르렴……",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "갑판에서 하나 둘씩 함재기들이 하늘로 날아올라, 호쇼가 있는 바다의 상공을 선회하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -536,8 +536,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그 옆에선 거울해역의 탐색을 돕고 있는 정찰함들을 데리고 온 아마기와 아카기가 조용히 그 광경을 지켜보고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -549,8 +549,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……그녀들에게 있어 항공모함, 그리고 함재기란 그 정도로 기이한 존재였다.",
 			typewriter = {
 				speed = 0.05,
@@ -592,10 +592,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/plane",
 			say = "호쇼의 지시를 받아 함재기들은 부채꼴을 그리며, 7시 방향의 바다로 멀리 날아갔다.",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,8 +621,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "아마기는 호쇼에게 가볍게 귓속말을 하곤, 정찰함들에게 이동지시를 내렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -649,8 +649,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
 			say = "언니, 여기서부터는 함재기들과 연락을 하며 거울해역을 탐색할 수 있겠어요.",
@@ -667,8 +667,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "응, 이 아이들은 의외로 유용하게 쓰일 수 있을지도 모른답니다.",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
 			say = "그치만 역시 전, 왠지 안 좋은 예감이……",
@@ -713,8 +713,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "언니 말 들어요. 카가는 반드시 데려올 테니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -726,8 +726,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "아마기는 아카기를 향해 온화한 미소를 지어보인 후, 아카기의 반대방향으로 몸을 돌려 전진하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -739,8 +739,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "자신도 감출 수 없는 초조함과 불안감을 동생에게 들키지 않도록……",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("QuickExchangeBlueprintCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = getProxy(BagProxy)
 	slot4 = {}
 	slot5 = pg.ConnectionMgr.GetInstance()

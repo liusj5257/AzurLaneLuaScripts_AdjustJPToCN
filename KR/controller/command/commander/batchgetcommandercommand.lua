@@ -1,6 +1,6 @@
 slot0 = class("BatchGetCommanderCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = {}
 	slot5 = {}
 	slot6 = {}
@@ -36,7 +36,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.CheckFullCapacity(slot0)
+slot0.CheckFullCapacity = function(slot0)
 	if getProxy(PlayerProxy):getRawData().commanderBagMax <= getProxy(CommanderProxy):getCommanderCnt() then
 		return true
 	end

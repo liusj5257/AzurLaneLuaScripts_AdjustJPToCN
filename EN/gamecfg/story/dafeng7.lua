@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Taihou, Body and Soul\n\n<size=45>Chapter 7: Taihou's Disappearance(?) - Part 2</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "There was no breakfast waiting for me when I woke up the next morning.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,9 +48,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "... Taihou?",
 			typewriter = {
 				speed = 0.05,
@@ -58,15 +58,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "Commander, you don't look so good. What happened?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -107,13 +107,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "I went to the office, but there was still no sign of her...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,19 +136,19 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			say = "Commander! Thank goodness you're here! You gotta come quick! It's Taihou! She–",
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "Commander! Thank goodness you're here! You gotta come quick! It's Taihou! She–",
 			actorPosition = {
 				x = 1500,
 				y = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = -675
@@ -166,14 +166,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I'm sorry. It's all my fault. I was just joking around with her. I said she was being too clingy and she was just gonna end up pushing you away.",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "I really didn't think anything of it. I never thought she'd lock herself away in her room like this...",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "You're the only one she'll listen to, Commander... So, it's gotta be you. Please get Taihou to come out of her room!",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -244,13 +244,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			say = "Taihou's door was closed tight.",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
+			say = "Taihou's door was closed tight.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -343,8 +343,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Taihou sobbed out her questions.",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Taihou",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -431,8 +431,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…————",
 			typewriter = {
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I didn't even have time to answer before she threw open the door.",
 			typewriter = {
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actorScale = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			actorScale = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "<size=45>My Commanderrrrrrr!!!</size>",
 			dialogShake = {
 				speed = 0.09,
@@ -479,8 +479,8 @@ return {
 					}
 				},
 				{
-					type = "move",
 					y = -225,
+					type = "move",
 					delay = 0.01,
 					dur = 0.2,
 					x = 0
@@ -488,9 +488,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Taihou pulled me close and buried me in her chest. It seems she already knew.",
 			typewriter = {
 				speed = 0.05,

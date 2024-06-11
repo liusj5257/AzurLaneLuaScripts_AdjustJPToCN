@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-6",
 			side = 2,
 			bgName = "bg_battle_night",
-			dir = 1,
 			say = "Canal Stronghold - Eastern Region",
+			dir = 1,
+			bgm = "story-6",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -29,9 +29,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "A dense mist enveloped the seas. All was painted white as far as the eye can see.",
 			typewriter = {
 				speed = 0.05,
@@ -43,11 +43,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "A Mirror Sea! Those damn Sirens are pulling the same trick on us again!",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,13 +69,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Attention, everyone! Enter battle formations and maintain a safe distance! Prepare for engagement with the Sirens!",
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "Attention, everyone! Enter battle formations and maintain a safe distance! Prepare for engagement with the Sirens!",
 			flashN = {
 				color = {
 					1,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "The Eagle Union fleet found themselves in a Mirror Sea whilst they were en route to the Canal Stronghold. They readied themselves for a Siren ambush.",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "No, it's not been detecting anything...",
 			typewriter = {
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "We all but know there are Sirens here, yet you can't detect them?",
 			dialogShake = {
 				speed = 0.09,
@@ -194,8 +194,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Radio waves get jammed in Mirror Seas. We'll have to rely on our other sensors and plain line of sight to spot them.",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "However, with this mist obscuring our view, even that might be nigh-impossible...",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "I feared a Mirror Sea was coming just after I heard about this dense fog...",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "What's done is done. Besides, we have to pass through here to get to our objective. So, what do we do now?",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Right. A flawless plan, assuming it goes as we hope...",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "By the way, Helena, would you please see if you can contact with Canal Stronghold? I suspect we're being jammed, but it doesn't hurt to try.",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "I'll give it a shot... Oh, I think my message went through! It looks like our communications are *not* being jammed!",
 			typewriter = {
@@ -361,9 +361,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
 			blackBg = true,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "Wait, seriously?! How in the world... Seems this Mirror Sea is different to what we've dealt with before...",
 			typewriter = {

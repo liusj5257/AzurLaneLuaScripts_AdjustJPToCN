@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA38",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA38",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-inochi-inst",
 			dir = 1,
 			say = "This is the third entrance...",
+			bgm = "holo-inochi-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "They searched for the entrance to the roller coaster, but all three had been completely destroyed by the Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "It feels like they're always a step ahead of us... the Sirens must have some really brilliant tactician on their side...",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "Are you saying it would look like this if I blasted it with my magic?",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "Shion... are you behind this?",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "No, I'm not!",
 			dialogShake = {
 				speed = 0.09,
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "A Shion clone, then...",
 			typewriter = {
 				speed = 0.05,

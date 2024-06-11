@@ -1,18 +1,18 @@
 pg = pg or {}
 pg.recommend_shop = {
 	{
-		shop_id = 1,
+		pic = "",
 		time = "always",
 		shop_type = 1,
 		id = 1,
-		pic = "",
+		shop_id = 1,
 		order = 8
 	},
 	{
-		shop_id = 60439,
+		pic = "",
 		shop_type = 2,
 		id = 2,
-		pic = "",
+		shop_id = 60439,
 		order = 7,
 		time = {
 			{
@@ -42,10 +42,10 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 60428,
+		pic = "",
 		shop_type = 2,
 		id = 3,
-		pic = "",
+		shop_id = 60428,
 		order = 1,
 		time = {
 			{
@@ -75,16 +75,16 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 4912,
+		pic = "",
 		shop_type = 1,
 		id = 4,
-		pic = "",
+		shop_id = 4914,
 		order = 4,
 		time = {
 			{
 				{
 					2024,
-					2,
+					6,
 					1
 				},
 				{
@@ -96,7 +96,7 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					3,
+					7,
 					31
 				},
 				{
@@ -108,50 +108,17 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 4037,
+		pic = "",
 		shop_type = 1,
 		id = 5,
-		pic = "",
-		order = 1,
-		time = {
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					22,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		shop_id = 4038,
-		shop_type = 1,
-		id = 6,
-		pic = "",
+		shop_id = 4042,
 		order = 2,
 		time = {
 			{
 				{
 					2024,
-					4,
-					3
+					5,
+					30
 				},
 				{
 					0,
@@ -162,8 +129,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					4,
-					17
+					6,
+					12
 				},
 				{
 					22,
@@ -174,17 +141,17 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 4039,
-		shop_type = 1,
-		id = 7,
 		pic = "",
-		order = 3,
+		shop_type = 1,
+		id = 6,
+		shop_id = 4041,
+		order = 1,
 		time = {
 			{
 				{
 					2024,
-					4,
-					3
+					5,
+					30
 				},
 				{
 					0,
@@ -195,8 +162,41 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					4,
-					17
+					6,
+					12
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		pic = "",
+		shop_type = 1,
+		id = 7,
+		shop_id = 4040,
+		order = 3,
+		time = {
+			{
+				{
+					2024,
+					5,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					12
 				},
 				{
 					22,

@@ -1,6 +1,6 @@
 slot2 = class("FleetCellView", DecorateClass(import(".DynamicCellView"), import(".SpineCellView")))
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 	uv1.Ctor(slot0)
 	uv1.InitCellTransform(slot0)
@@ -13,11 +13,11 @@ function slot2.Ctor(slot0, slot1)
 	slot0.RecordedFlag = nil
 end
 
-function slot2.GetOrder(slot0)
+slot2.GetOrder = function(slot0)
 	return ChapterConst.CellPriorityFleet
 end
 
-function slot2.showPoisonDamage(slot0, slot1)
+slot2.showPoisonDamage = function(slot0, slot1)
 	slot2 = "dexiv4_SLG_poison"
 	slot3 = slot0.tfShip.localPosition
 	slot4 = slot0:GetLoader()
@@ -41,7 +41,7 @@ function slot2.showPoisonDamage(slot0, slot1)
 	end, "PoisonDamage")
 end
 
-function slot2.SetActiveNoPassIcon(slot0, slot1)
+slot2.SetActiveNoPassIcon = function(slot0, slot1)
 	slot2 = "NoPassIcon"
 
 	if not slot1 then
@@ -67,13 +67,13 @@ function slot2.SetActiveNoPassIcon(slot0, slot1)
 	end
 end
 
-function slot2.UpdateIconRecordedFlag(slot0, slot1)
+slot2.UpdateIconRecordedFlag = function(slot0, slot1)
 	slot0.RecordedFlag = slot1
 
 	slot0:UpdateIconRecorded()
 end
 
-function slot2.UpdateIconRecorded(slot0)
+slot2.UpdateIconRecorded = function(slot0)
 	if not (slot0.RecordedFlag and slot0.visible) then
 		if not IsNil(slot0.tfIconRecorded) then
 			setActive(slot0.tfIconRecorded, false)
@@ -93,7 +93,7 @@ function slot2.UpdateIconRecorded(slot0)
 	end
 end
 
-function slot2.TweenShining(slot0)
+slot2.TweenShining = function(slot0)
 	if not slot0:GetSpineRole() then
 		return
 	end
@@ -106,7 +106,7 @@ function slot2.TweenShining(slot0)
 	slot1:TweenShining(0.2, 2, 0, 1, slot2, slot3, true, true)
 end
 
-function slot2.SetSpineVisible(slot0, slot1)
+slot2.SetSpineVisible = function(slot0, slot1)
 	slot0.visible = slot1
 
 	uv0.super.SetSpineVisible(slot0, slot1)
@@ -114,7 +114,7 @@ function slot2.SetSpineVisible(slot0, slot1)
 	slot0:UpdateIconRecorded()
 end
 
-function slot2.StopTween(slot0)
+slot2.StopTween = function(slot0)
 	if not slot0:GetSpineRole() then
 		return
 	end
@@ -122,11 +122,11 @@ function slot2.StopTween(slot0)
 	slot1:StopTweenShining()
 end
 
-function slot2.unloadSpine(slot0)
+slot2.unloadSpine = function(slot0)
 	uv0.super.UnloadSpine(slot0)
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	uv0.ClearSpine(slot0)
 	uv1.super.Clear(slot0)
 end

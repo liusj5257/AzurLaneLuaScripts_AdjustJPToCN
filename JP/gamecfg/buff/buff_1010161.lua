@@ -8,9 +8,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.04,
 					restoreRatio = 2000,
-					absorb = 0.04
+					number = 0.5
 				}
 			},
 			{
@@ -34,9 +34,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.046,
 					restoreRatio = 2330,
-					absorb = 0.046
+					number = 0.5
 				}
 			},
 			{
@@ -60,9 +60,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.052,
 					restoreRatio = 2660,
-					absorb = 0.052
+					number = 0.5
 				}
 			},
 			{
@@ -86,9 +86,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.06,
 					restoreRatio = 2990,
-					absorb = 0.06
+					number = 0.5
 				}
 			},
 			{
@@ -112,9 +112,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.066,
 					restoreRatio = 3320,
-					absorb = 0.066
+					number = 0.5
 				}
 			},
 			{
@@ -138,9 +138,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.072,
 					restoreRatio = 3650,
-					absorb = 0.072
+					number = 0.5
 				}
 			},
 			{
@@ -164,9 +164,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.08,
 					restoreRatio = 3980,
-					absorb = 0.08
+					number = 0.5
 				}
 			},
 			{
@@ -190,9 +190,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.086,
 					restoreRatio = 4310,
-					absorb = 0.086
+					number = 0.5
 				}
 			},
 			{
@@ -216,9 +216,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.092,
 					restoreRatio = 4640,
-					absorb = 0.092
+					number = 0.5
 				}
 			},
 			{
@@ -242,9 +242,9 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
+					absorb = 0.1,
 					restoreRatio = 5000,
-					absorb = 0.1
+					number = 0.5
 				}
 			},
 			{
@@ -259,9 +259,9 @@ return {
 			}
 		}
 	},
-	time = 10,
 	name = "最强之盾 +",
 	init_effect = "jinengchufablue",
+	time = 10,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -283,9 +283,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				number = 0.5,
+				absorb = 0.04,
 				restoreRatio = 2000,
-				absorb = 0.04
+				number = 0.5
 			}
 		},
 		{

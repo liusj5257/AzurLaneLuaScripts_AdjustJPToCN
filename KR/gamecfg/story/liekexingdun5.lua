@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIEKEXINGDUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIEKEXINGDUN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"렉싱턴 개인 스토리\n\n<size=45>5. 모두의 생각</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "저녁 식사 후, 렉싱턴의 부탁으로 Live에서 쓸 연습실 정리를 돕고 있다.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "저녁 식사 후, 렉싱턴의 부탁으로 Live에서 쓸 연습실 정리를 돕고 있다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,9 +48,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "자, 바로 여기예요.",
 			painting = {
 				alpha = 0.3,
@@ -64,9 +64,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "지휘관님이 도와주신다면 연습실 정리가 금방 끝날 거예요.",
 			painting = {
 				alpha = 0.3,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "렉싱턴이 문을 열었는데——",
 			typewriter = {
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "어? 이미 정리가 다 됐네…?",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -116,9 +116,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "대체 언제… 분명 내가 정리하면 된다고 했는데….",
 			painting = {
 				alpha = 0.3,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "연습실의 모든 것이 가지런하고, 바닥조차 새것처럼 반짝이게 닦여 초승달이 비치고 있다.",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "……………………",
 			typewriter = {
@@ -158,9 +158,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "아, 시간이 좀 됐어요. 직접 무대에 오른 것도 곧 추억이 될 것 같네요….",
 			painting = {
 				alpha = 0.3,
@@ -174,9 +174,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "저는 백스테이지의 일을 하면 되겠어요. 제가 많이 하면 모두가 좀 편해질 거예요.",
 			painting = {
 				alpha = 0.3,
@@ -190,9 +190,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "제가 모두에게 다양한 프로그램을 요구했으니 남은 일은 당연히 제가 처리해야죠.",
 			painting = {
 				alpha = 0.3,
@@ -206,9 +206,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "하지만 모두가 제 생각에 그다지 동의하지 않는 것 같아요….",
 			painting = {
 				alpha = 0.3,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "어…? 저건——",
 			painting = {
 				alpha = 0.3,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "렉싱턴의 사물함에 작은 상자 하나가 놓여있다. 마치 렉싱턴만을 위해 준비한듯 하다.",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "상자를 여는 순간, 빠른 리듬의 음악이 울리기 시작했다.",
 			typewriter = {
@@ -269,10 +269,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 108050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "서프라이즈! 어때, 깜짝 놀랐지?",
 			painting = {
 				alpha = 0.3,
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			actor = 207110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -328,10 +328,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어? 내, 내가 왜 이런걸… 좋아, 좋아! 큼, 잘 들어. 넌 쉬기만 해, 남은 건 우리에게 맡기고.",
 			painting = {
 				alpha = 0.3,
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "음성 카드를 선물상자로 바꾼 듯하다.",
 			typewriter = {
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "상자의 가장 아래에는 Live의 입장권 두 장이 있다.",
 			typewriter = {
@@ -420,9 +420,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -436,9 +436,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "아, 모두 이렇게 생각하고 있었구나….",
 			painting = {
 				alpha = 0.3,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "어쩐지 렉싱턴의 고민이 한층 더 깊어지는 듯하다.",
 			typewriter = {

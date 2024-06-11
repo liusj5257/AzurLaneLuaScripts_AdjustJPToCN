@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"前輩與心結\n\n<size=45>六　心結·下</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "當妳抱著這種想法的時候，就已經偏離自己的道路了啊。",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "當妳抱著這種想法的時候，就已經偏離自己的道路了啊。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "為、為什麼企業前輩會在這裡啊！",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -82,8 +82,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "難道是…指揮官？！",
 			typewriter = {
@@ -96,12 +96,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "嗯，指揮官告訴我艾塞克斯的情況不大對勁，於是我也一起來了",
 			side = 1,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯，指揮官告訴我艾塞克斯的情況不大對勁，於是我也一起來了",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "嗚……",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "可、可是…",
 			typewriter = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 0,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "才、才沒有！",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "為了自己？",
 			typewriter = {
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "指揮官，你覺得呢？",
 			typewriter = {
 				speed = 0.05,
@@ -362,8 +362,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "指揮官…",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "也、也謝謝你，指揮官",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "不、不過，和前輩的勝負，我是不會輕易放棄的！",
 			typewriter = {

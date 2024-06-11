@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"선배와의 앙금\n\n<size=45>엄격한 비서함</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "어젯밤 사무 처리가 늦어지는 바람에, 오늘은 아침에 늦게 나오게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "집무실에 도착했을 때는, 비서함인 에식스가 이미 업무를 처리하고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "…아, 지휘관님, 좋은 아침입니다.",
 			typewriter = {
@@ -105,11 +105,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "늦은 이유를 설명했다.",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "어젯밤, 늦게까지 업무를 보았다…는 거군요.",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "그것을 서포트 하는 것도 비서함의 업무이므로…",
 			typewriter = {

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA34",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "theme-theloversVI",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "轟————————！",
 			dir = 1,
 			bgmDelay = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "theme-theloversVI",
+			say = "轟————————！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "羅恩與美因茲同時開火了。",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +86,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "鐵血艦隊距離拉沃斯並不遙遠。幾乎是轉瞬之間，二人的炮火便突破拉沃斯的防禦，在它華麗的裝甲上撕開數條巨大的裂口。",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "拉沃斯盯著受傷的部分，目光似乎有些疑惑。",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "可是受損部位開始了高速修復……拉沃斯本體正在後撤，大量代行者撲過來了！",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "……它的炮口顏色正變的越來越亮，該不會打算直接對米德加爾特之塔發動攻擊吧…？！",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			nameColor = "#a9f548",
 			say = "作為世界之間的連通點，塔可沒有那麼容易從單側摧毀。",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			nameColor = "#a9f548",
 			say = "再戰鬥下去大概要吃虧。羅恩，烏爾里希閣下等人已經撤離完畢了，見好就收，我們也撤吧。",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "非常感謝，那我就不客氣了。",
 			typewriter = {
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "阿達爾貝特親王一個華麗的轉身，躲開了來襲的彈雨，縱深一躍進入了米德加爾特之塔中心澎湃的洪流中。",
 			typewriter = {
 				speed = 0.05,
@@ -293,9 +293,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "緊隨其後的是美因茲，她在臨行之時還不忘用主炮補了一輪射擊。",
 			typewriter = {
 				speed = 0.05,
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "最後進入的是羅恩，她沒有躲閃，而是依靠護盾擋住了襲來的炮彈，她向後仰倒著，借助衝擊力劃入了漩渦之中。",
 			typewriter = {
 				speed = 0.05,
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "緊接著，米德加爾特之塔所在的空間發生了一陣無聲但劇烈的震動，衝在前方的代行者直接變為了碎片，就連後方的拉沃斯也向更遠方後撤了一些。",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "再之後，海面上碩大的米德加爾特之塔就彷佛從未存在過一樣，徹底消失了。",
 			typewriter = {
 				speed = 0.05,
@@ -351,16 +351,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_midgard_2",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_midgard_2",
 			bgm = "bsm-4",
 			actor = 403090,
 			nameColor = "#a9f548",
 			say = "緊急停機成功！呼…………感覺身體都要散架了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -388,8 +388,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "阿達爾貝特，喂妳沒事吧，快醒一醒！",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "羅恩和美因茲也沒反應……完了完了，不會轉移的時候出問題了吧！",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "沒辦法了吧，情況那麼緊急！",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "啊，羅恩和美因茲醒過來了！",
 			typewriter = {
@@ -584,8 +584,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "不要逃避啊！要關禁閉的話還有我陪妳一起！",
 			typewriter = {
@@ -646,12 +646,12 @@ return {
 			}
 		},
 		{
-			actor = 401460,
+			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
 			withoutActorName = true,
-			dir = 1,
 			actorScale = 0.6,
+			actor = 401460,
 			say = "在宛若廢墟的控制室中疾馳而來的Z46——這是剛剛清醒過來的阿達爾貝特親王看到的第一個，也是最後一個畫面。",
 			effects = {
 				{
@@ -669,8 +669,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -686,8 +686,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.1,
 					number = 3
@@ -703,8 +703,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					number = 3
@@ -720,8 +720,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.7,
 					dur = 0.1,
 					number = 3
@@ -729,9 +729,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "迎面而來的劇烈撞擊令她再次昏迷了過去。",
 			effects = {
 				{
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -765,8 +765,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿達爾貝特親王",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -781,8 +781,8 @@ return {
 			}
 		},
 		{
-			bgm = "bsm-6",
 			mode = 1,
+			bgm = "bsm-6",
 			sequence = {
 				{
 					"<size=51>「至此，塔基鑄成，世界的改變已經不可逆轉了」</size>",
@@ -823,8 +823,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

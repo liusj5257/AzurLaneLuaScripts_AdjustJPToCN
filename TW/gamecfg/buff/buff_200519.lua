@@ -1,12 +1,12 @@
 return {
-	time = 5,
-	name = "2023古立特联动复刻 TSS5 第二代 飞船出场弹条",
 	init_effect = "",
+	name = "2023古立特联动复刻 TSS5 第二代 飞船出场弹条",
+	time = 5,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200519,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -15,8 +15,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 3,
+				target = "TargetSelf",
 				skill_id = 200519
 			}
 		}

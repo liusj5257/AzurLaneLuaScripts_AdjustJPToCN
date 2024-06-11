@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_116 = {}
 slot1 = slot0.word_template_116
 
-function temp()
+temp = function()
 	uv0["觀"] = {
 		["世"] = {
 			["音"] = {
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["管"] = {
 		["里"] = {
 			this = true
@@ -92,7 +92,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["贯"] = {
 		["通"] = {
 			["两"] = {
@@ -108,7 +108,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["貫"] = {
 		["通"] = {
 			["兩"] = {
@@ -124,7 +124,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["灌"] = {
 		["肠"] = {
 			this = true,
@@ -155,7 +155,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["光"] = {
 		["复"] = {
 			this = true,
@@ -276,7 +276,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["广"] = {
 		["场"] = {
 			this = true,

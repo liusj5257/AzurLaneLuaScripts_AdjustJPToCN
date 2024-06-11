@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "cw-battle-boss",
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "祭儀主催担当の駿河です。長旅お疲れ様でございます。三笠様、そして翔鶴さんに瑞鶴さん",
-			bgm = "cw-battle-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 		{
 			actor = 305110,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "お主は噂の紀伊型三番艦駿河か。うむ、百聞は一見に如かず――祭儀の準備、誠に大儀である。重桜の仲間に代わって感謝するぞ",
 			paintingFadeOut = {
 				time = 0.5,
@@ -45,8 +45,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "ありがとうございます。自分は並み居る重桜の艦船の一人としてやるべきことをしたまでで、別に褒められるようなことは…",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "は、はぁい……そういうことになっていますね",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -116,9 +116,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（え！いきなり！？こういうタイプはちょっと苦手だけど…！）",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -157,14 +157,14 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（なんでわかったの！？）",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,8 +284,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（三笠様相手に手を抜いてしまうとバレるに決まっている。本当の本当に、全力を出す…！）",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			say = "戦艦駿河、参ります…！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

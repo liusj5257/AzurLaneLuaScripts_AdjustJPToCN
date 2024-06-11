@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "battle-arcticocean",
 			soundeffect = "event:/battle/boom2",
 			say = "ドカーン——",
-			bgm = "battle-arcticocean",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これでおわりだ！",
 			painting = {
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "勇者スラッシュ、くらえ——！",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,9 +100,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			bgName = "star_level_bg_177",
 			bgm = "theme-ijndailymeeting",
 			actor = 705062,
 			nameColor = "#FEF15E",
@@ -116,17 +116,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えへへ～、この撫順にかかれば楽勝楽勝！",
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "全ての秘密を知ってる魔女だから、この世に存在しない魔物やらを操れたり、上級の呪いが使えたりしても別に不思議なことじゃないわよ？",
 			painting = {
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "先生、もう勘弁してあげて！",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			say = "アルハンゲリスクが少し手を掲げると、精巧な笛が現れた。",
 			typewriter = {
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "知恵の魔女",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "「時のフルート」——昔、大魔法使いが所属していた勇者パーティーの隊長の形見よ",
 			painting = {
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "やったぁ！キーアイテムを入手できた！",
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官、ボーっとしてないで早く出発しようよ！",
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "終わりなき樹海に戻って、大魔法使いの呪いを解いてやろう！",
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,10 +1,10 @@
 slot0 = class("EducateBottomPanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateBottomPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.contentTF = slot0:findTF("content")
 	slot0.planBtn = slot0:findTF("btns/schedule", slot0.contentTF)
 	slot0.mapBtn = slot0:findTF("btns/map", slot0.contentTF)
@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 	slot0:Flush()
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.planBtn, function ()
 		uv0:emit(EducateBaseUI.EDUCATE_GO_SCENE, SCENE.EDUCATE_SCHEDULE)
 	end, SFX_PANEL)
@@ -109,7 +109,7 @@ function slot0.addListener(slot0)
 	slot0._tf:GetComponent(typeof(Animation)):Play(slot1)
 end
 
-function slot0.playGuide(slot0, slot1)
+slot0.playGuide = function(slot0, slot1)
 	if not pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
 		pg.NewGuideMgr.GetInstance():Play(slot1)
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
@@ -118,12 +118,12 @@ function slot0.playGuide(slot0, slot1)
 	end
 end
 
-function slot0.onEnterVirtualStage(slot0)
+slot0.onEnterVirtualStage = function(slot0)
 	getProxy(EducateProxy):SetVirtualStage(true)
 	slot0:emit(EducateMediator.ENTER_VIRTUAL_STAGE)
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -147,19 +147,19 @@ function slot0.Flush(slot0)
 	end
 end
 
-function slot0.isSchoolBtnShow(slot0)
+slot0.isSchoolBtnShow = function(slot0)
 	return slot0.status == EducateConst.STATUES_PREPARE and EducateHelper.IsSameDay(slot0.curTime, slot0.targetSetDays[2])
 end
 
-function slot0.isUpgradeBtnShow(slot0)
+slot0.isUpgradeBtnShow = function(slot0)
 	return slot0.status == EducateConst.STATUES_PREPARE and (EducateHelper.IsSameDay(slot0.curTime, slot0.targetSetDays[3]) or EducateHelper.IsSameDay(slot0.curTime, slot0.targetSetDays[4]))
 end
 
-function slot0.isTargetSetBtnShow(slot0)
+slot0.isTargetSetBtnShow = function(slot0)
 	return slot0.status == EducateConst.STATUES_PREPARE and not isActive(slot0.schoolBtn) and not isActive(slot0.upgradeBtn)
 end
 
-function slot0.updateTargetSetBtn(slot0)
+slot0.updateTargetSetBtn = function(slot0)
 	slot1 = slot0:isTargetSetBtnShow()
 
 	setActive(slot0.targetSetBtn, slot1)
@@ -169,7 +169,7 @@ function slot0.updateTargetSetBtn(slot0)
 	end
 end
 
-function slot0.updateMapBtnTips(slot0)
+slot0.updateMapBtnTips = function(slot0)
 	EducateTipHelper.GetSiteUnlockTipIds()
 
 	slot1 = getProxy(EducateProxy)
@@ -187,7 +187,7 @@ function slot0.updateMapBtnTips(slot0)
 	end))
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"정월의 축복\n\n<size=45>2 정월의 눈</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301140,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "후우~ 코타츠는 최고야~",
 			bgm = "main-newyear",
+			actor = 301140,
+			nameColor = "#92fc63",
+			say = "후우~ 코타츠는 최고야~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 301150,
+			say = "하아, 역시 유다치답네. 코타츠에서 한 발짝도 나오지 않다니……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "하아, 역시 유다치답네. 코타츠에서 한 발짝도 나오지 않다니……",
+			actor = 301150,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 301140,
+			nameColor = "#92fc63",
 			say = "오오오! 눈이다! 눈이 내리고 있어!! 시구레, 눈싸움 하자!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#92fc63",
 			say = "우와, 잠깐, 끌고가지 말라구!",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -142,15 +142,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_room",
-			actorName = "{namecode:143}",
 			dir = 1,
+			actorName = "{namecode:143}",
+			bgName = "bg_story_room",
 			actor = 301600,
 			nameColor = "#92fc63",
 			say = "와아, 엄청 내리네! 벌써 이만큼 쌓였어!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "흥, 겨우 눈 오는 거 가지고 저렇게 신이 나선.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "흥, 겨우 눈 오는 거 가지고 저렇게 신이 나선.",
+			actor = 301590,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -213,11 +213,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#92fc63",
 			say = "아냐! 벼, 별로 눈 왔다고 들뜨거나 한 건 아니니까!",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -239,15 +239,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#92fc63",
 			say = "지휘관님께 드릴 선물은 이거랑, 그리고 이것도……후후후후……아아…지휘관님께서 기뻐하시는 모습을 보고 싶어 못 견디겠네요……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "과연… 눈이 오니까, 구축함 애들이 눈싸움을 벌이는 건가.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "과연… 눈이 오니까, 구축함 애들이 눈싸움을 벌이는 건가.",
+			actor = 307020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actor = 399020,
+			say = "뭘, 할 일을 했을 뿐이다. 고생이랄 것도 없지.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "뭘, 할 일을 했을 뿐이다. 고생이랄 것도 없지.",
+			actor = 399020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -464,11 +464,11 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 399010,
+			nameColor = "#92fc63",
 			say = "에, 에에에! 승부라니, 눈싸움 말씀이신가요!?",
 			typewriter = {
 				speed = 0.05,
@@ -480,8 +480,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
 					x = 0,
@@ -602,12 +602,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "정월이 되니 다들 저렇게 들떠선…… 뭔가 사고라도 치지 않았으면 좋겠습니다만…… 하아, 벌써 머리가 지끈거리는 것 같네요…",
 			typewriter = {
 				speed = 0.05,

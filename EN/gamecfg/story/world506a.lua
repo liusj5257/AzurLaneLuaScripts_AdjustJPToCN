@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD506A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD506A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900227,
 			stopbgm = true,
-			bgName = "bg_burningsea_1",
+			side = 2,
 			actorName = "Enterprise META",
 			dir = 1,
-			side = 2,
+			bgName = "bg_burningsea_1",
+			actor = 900227,
 			nameColor = "#ffa500",
 			say = "Do you recognize me?",
 			flashin = {
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "Enterprise META",
 			say = "Sounds like your cognitive bypass is fine. How'd the battle go? Tell me quick.",
 			typewriter = {
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "Enterprise META",
 			say = "The Sirens are pruning the branches, huh.",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "Enterprise META",
 			say = "...Do you want revenge?",
 			typewriter = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "Enterprise META",
 			say = "You still don't understand your true power, do you?",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "Enterprise META",
 			say = "Even if a flame is extinguished, its Ashes yet remain.",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "Enterprise META",
 			say = "I am Enterprise, but not the Enterprise you know... Ark Royal, will you join us?",
 			typewriter = {
@@ -254,15 +254,15 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Master, are you awake? How are you feeling?",
 			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "Master, are you awake? How are you feeling?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "My head is spinning, but I'm able to rise to my feet.",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"So this is what's inside the Singularity... It looks almost like a battle unfolded here.\"",
 			typewriter = {
 				speed = 0.05,
@@ -385,12 +385,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"What happened to TB?\"",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Singularities are always more of a pain to deal with than Mirror Seas...\"",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Heeding Belfast's suggestion, I closed my eyes and rested for a bit.",
 			typewriter = {
 				speed = 0.05,

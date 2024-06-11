@@ -6,9 +6,9 @@ return {
 			style = {
 				text = "ナビゲーションが利用可能になりました。エリアの概況はここで表示されます。",
 				mode = 2,
-				posY = 211.02,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 211.02,
 				posX = 328.22,
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel"
@@ -19,9 +19,9 @@ return {
 			style = {
 				text = "エリアでの艦隊の戦闘回数がここで表示されるわ！スキル発動の参考・確認にでも活用して！",
 				mode = 2,
-				posY = 211.02,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 211.02,
 				posX = 328.22
 			},
 			showSign = {
@@ -48,11 +48,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 56.19,
+					rotateY = 0,
 					posY = -43.7,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 56.19
 				}
 			}
 		},
@@ -73,11 +73,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		},
@@ -89,11 +89,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		}

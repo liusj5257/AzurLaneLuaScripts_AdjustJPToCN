@@ -11,14 +11,14 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				move_type = 2,
+				life_time = 0.1,
 				effect = "qingdan_yuanjuli",
 				finale_effect = "ShellMissBig",
-				range = 20,
+				move_type = 2,
 				speed_x = 3,
+				range = 20,
+				damage_param_b = 6,
 				delay = 0.2,
-				damage_param_b = 6,
-				life_time = 0.1,
 				damage_param_a = 300,
 				damage_tag_list = {
 					"Karlsruhe"
@@ -33,14 +33,14 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				move_type = 2,
+				life_time = 0.1,
 				effect = "qingdan_yuanjuli",
 				finale_effect = "ShellMissBig",
-				range = 20,
+				move_type = 2,
 				speed_x = 3,
+				range = 20,
+				damage_param_b = 6,
 				delay = 0.4,
-				damage_param_b = 6,
-				life_time = 0.1,
 				damage_param_a = 300,
 				damage_tag_list = {
 					"Karlsruhe"
@@ -55,14 +55,14 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				move_type = 2,
+				life_time = 0.2,
 				effect = "qingdan_yuanjuli",
 				finale_effect = "ShellMissBig",
-				range = 20,
+				move_type = 2,
 				speed_x = 3,
-				delay = 1,
+				range = 20,
 				damage_param_b = 6,
-				life_time = 0.2,
+				delay = 1,
 				damage_param_a = 300,
 				damage_tag_list = {
 					"Karlsruhe"

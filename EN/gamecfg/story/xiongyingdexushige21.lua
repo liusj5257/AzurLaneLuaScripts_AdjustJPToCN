@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIONGYINGDEXUSHIGE21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIONGYINGDEXUSHIGE21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_roma_7",
-			stopbgm = true,
-			soundeffect = "event:/battle/boom2",
-			bgm = "story-roma-inside",
 			nameColor = "#A9F548FF",
+			bgm = "story-roma-inside",
+			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
 			hidePaintObj = true,
+			bgName = "bg_roma_7",
 			say = "KABOOOM!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,9 +85,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ugh! They just keep coming!",
 			painting = {
 				alpha = 0.3,
@@ -102,9 +102,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Those eagles especially! We'll run out of ammo if we keep trying to shoot them all down!",
 			painting = {
 				alpha = 0.3,
@@ -119,9 +119,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Crap... We can't win this war of attrition, so we have to fall back for now!",
 			painting = {
 				alpha = 0.3,
@@ -136,9 +136,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then we should try the island to the west. It's covered in forest, plus I can see a Siren-looking facility on it.",
 			painting = {
 				alpha = 0.3,
@@ -153,9 +153,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Sirens might leave us alone if we can make it there... Maybe.",
 			painting = {
 				alpha = 0.3,
@@ -170,9 +170,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's worth a shot! How are we supposed to shake 'em off, though?",
 			painting = {
 				alpha = 0.3,
@@ -187,9 +187,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "By vanishing from sight! Alfredo, lay down a smokescreen!",
 			painting = {
 				alpha = 0.3,
@@ -204,9 +204,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay! Here we go! Work your magic, Equipment Level-Upper!",
 			painting = {
 				alpha = 0.3,
@@ -221,14 +221,14 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Da Vinci resurfaced and threw a gadget in Alfredo's direction.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -286,9 +286,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now's our chance! Run like your lives depend on it!",
 			painting = {
 				alpha = 0.3,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The party successfully fled from the Sirens. Arriving at the island, they went into hiding.",
 			effects = {
 				{
@@ -321,17 +321,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -358,9 +358,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That was close... At least we're safe for now.",
 			painting = {
 				alpha = 0.3,
@@ -375,9 +375,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey, Teach, whatcha working on there?",
 			painting = {
 				alpha = 0.3,
@@ -392,9 +392,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Looking for treasure? You reckon we'll find a chest in this place? If you do, let me snap a pic before you open it!",
 			painting = {
 				alpha = 0.3,
@@ -409,9 +409,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're not taking this seriously at all, are you? ...That said, I'm also curious about what she's up to.",
 			painting = {
 				alpha = 0.3,
@@ -426,9 +426,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What? I'm looking for a way to operate this facility. Seems to be an old production center of some sort.",
 			painting = {
 				alpha = 0.3,
@@ -443,9 +443,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's see... If I'm remembering the Iron Blood's and the Commander's intel about Mirror Seas right...",
 			painting = {
 				alpha = 0.3,
@@ -476,9 +476,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Bingo! If my guess is correct, this is the place where those eagles and ghost ships were manufactured.",
 			painting = {
 				alpha = 0.3,
@@ -493,10 +493,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh... I'm going to put this bad boy to good use♪",
 			painting = {
 				alpha = 0.3,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"A Glorious Interlude\n\n<size=45>Chapter 6 - The Glory She's Named For Pt. 1</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Haah... Now that that's done with...",
 			bgm = "story-1",
+			actor = 207060,
+			nameColor = "#a9f548",
+			say = "Haah... Now that that's done with...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "We had reached about the halfway point when an exhausted Glorious leaned against a huge rig to catch her breath.",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "In fact, I didn't even want Ardent or Acasta coming to help. Not that they listen to me...",
 			typewriter = {
 				speed = 0.05,
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Glorious was doing everything she could to put on a brave face. But—",
 			typewriter = {
 				speed = 0.05,
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "But if that's an order, Commander... Then...!",
 			typewriter = {
 				speed = 0.05,

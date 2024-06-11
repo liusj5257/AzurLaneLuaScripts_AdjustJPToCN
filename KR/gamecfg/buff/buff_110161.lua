@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 110161,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110161,
+	color = "blue",
 	icon = 110160,
 	last_effect = "",
 	blink = {
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cloakExposeExtra",
-				number = 15
+				number = 15,
+				attr = "cloakExposeExtra"
 			}
 		}
 	}

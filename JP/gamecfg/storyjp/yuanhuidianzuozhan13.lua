@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "鏡面海域での実験作戦は終盤に差し迫っていた。",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "鏡面海域での実験作戦は終盤に差し迫っていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "戦艦をはじめとした主力艦で力任せに突破してきたブリュッヒャーたちだったが、ブリュンヒルデ側にも戦艦の「駒」が出現したことにより一気に圧倒された。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "既にエリアのほとんどがブリュンヒルデ側に制圧され、前線と最後の施設基地まではもうエリアが残り一つしかない。",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "あと一回ブリュッヒャーたちが負ければ、ブリュンヒルデは施設基地に攻め入ることができ、実験作戦は終わりを迎える。",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "鏡面海域・生活区画",
@@ -80,17 +80,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -346,8 +346,8 @@ return {
 			actor = 401160,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ティーレ！今日の朝食はすっごい美味かったぞ！",
 			flashout = {
 				dur = 1,
@@ -357,8 +357,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -455,10 +455,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 403020,
+			bgName = "bg_yuanhuidian",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………まさかとは思うけど…これってZ16、あなたの一人芝居よね！？",
 			effects = {
 				{
@@ -474,8 +474,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0

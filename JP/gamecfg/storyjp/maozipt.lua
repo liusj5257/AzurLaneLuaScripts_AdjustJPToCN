@@ -1,18 +1,18 @@
 return {
-	id = "MAOZIPT",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIPT",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-2",
 			actor = 701030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "同志指揮官、北方連合の情報部にようこそ！へへー、面白そうな場所だろう！",
-			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "要するに、「累計獲得数に応じて、情報を分析できたら報酬がもらえる」ってことね！",
 			typewriter = {
 				speed = 0.05,

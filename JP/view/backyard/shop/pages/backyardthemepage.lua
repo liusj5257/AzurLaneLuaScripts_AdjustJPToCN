@@ -1,17 +1,17 @@
 slot0 = class("BackYardThemePage", import(".BackYardShopBasePage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardThemePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0:LoadList()
 	slot0:LoadDetail()
 
 	slot0.largeSpLoader = BackYardLargeSpriteLoader.New(6)
 end
 
-function slot0.LoadList(slot0)
+slot0.LoadList = function(slot0)
 	slot0._parentTF = slot0._tf.parent
 	slot0.adpter = slot0:findTF("adpter")
 	slot0.themeContainer = slot0:findTF("list/frame")
@@ -23,7 +23,7 @@ function slot0.LoadList(slot0)
 	setText(slot0.searchInput:Find("Placeholder"), i18n("courtyard_label_search_holder"))
 end
 
-function slot0.LoadDetail(slot0)
+slot0.LoadDetail = function(slot0)
 	slot0.purchaseBtn = slot0:findTF("adpter/descript/btn_goumai")
 	slot0.title = slot0:findTF("adpter/descript/title"):GetComponent(typeof(Text))
 	slot0.desc = slot0:findTF("adpter/descript/desc"):GetComponent(typeof(Text))
@@ -34,19 +34,19 @@ function slot0.LoadDetail(slot0)
 	slot0.descript = slot0:findTF("adpter/descript")
 	slot0.infoPage = BackYardThemeInfoPage.New(slot0._tf.parent, slot0.event, slot0.contextData)
 
-	function slot0.infoPage.OnEnter()
+	slot0.infoPage.OnEnter = function()
 		uv0:UnBlurView()
 	end
 
-	function slot0.infoPage.OnExit()
+	slot0.infoPage.OnExit = function()
 		uv0:BlurView()
 	end
 
-	function slot0.infoPage.OnPrevTheme()
+	slot0.infoPage.OnPrevTheme = function()
 		uv0:OnInfoPagePrevTheme()
 	end
 
-	function slot0.infoPage.OnNextTheme()
+	slot0.infoPage.OnNextTheme = function()
 		uv0:OnInfoPageNextTheme()
 	end
 
@@ -56,14 +56,14 @@ function slot0.LoadDetail(slot0)
 	setText(slot0.purchaseBtn:Find("Text"), i18n("word_buy"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.cards = {}
 
-	function slot0.scrollRect.onInitItem(slot0)
+	slot0.scrollRect.onInitItem = function(slot0)
 		uv0:OnInitCard(slot0)
 	end
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateCard(slot0, slot1)
 	end
 
@@ -73,14 +73,14 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.InitInput(slot0)
+slot0.InitInput = function(slot0)
 	onInputChanged(slot0, slot0.searchInput, function ()
 		setActive(uv0.searchClear, getInputText(uv0.searchInput) ~= "")
 		uv0:OnSearchKeyChange()
 	end)
 end
 
-function slot0.GetData(slot0)
+slot0.GetData = function(slot0)
 	slot1 = {}
 	slot3 = getInputText(slot0.searchInput)
 	slot4 = slot0.dorm:GetPurchasedFurnitures()
@@ -96,7 +96,7 @@ function slot0.GetData(slot0)
 
 	slot6 = pg.backyard_theme_template
 
-	function slot7(slot0, slot1)
+	slot7 = function(slot0, slot1)
 		if uv0[slot0.id].hot == uv0[slot1.id].hot then
 			return uv0[slot1.id].order < uv0[slot0.id].order
 		else
@@ -119,7 +119,7 @@ function slot0.GetData(slot0)
 	return slot1
 end
 
-function slot0.FurnituresUpdated(slot0, slot1)
+slot0.FurnituresUpdated = function(slot0, slot1)
 	if slot0.infoPage:GetLoaded() then
 		slot0.infoPage:ExecuteAction("FurnituresUpdated", slot1)
 	end
@@ -131,24 +131,24 @@ function slot0.FurnituresUpdated(slot0, slot1)
 	slot0:InitThemeList()
 end
 
-function slot0.OnDormUpdated(slot0)
+slot0.OnDormUpdated = function(slot0)
 	if slot0.infoPage:GetLoaded() then
 		slot0.infoPage:ExecuteAction("DormUpdated", slot0.dorm)
 	end
 end
 
-function slot0.OnPlayerUpdated(slot0)
+slot0.OnPlayerUpdated = function(slot0)
 	if slot0.infoPage:GetLoaded() then
 		slot0.infoPage:ExecuteAction("OnPlayerUpdated", slot0.player)
 	end
 end
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 	slot0:InitThemeList()
 	slot0:BlurView()
 end
 
-function slot0.InitThemeList(slot0)
+slot0.InitThemeList = function(slot0)
 	slot0.disPlays = slot0:GetData()
 
 	onNextTick(function ()
@@ -156,15 +156,15 @@ function slot0.InitThemeList(slot0)
 	end)
 end
 
-function slot0.OnSearchKeyChange(slot0)
+slot0.OnSearchKeyChange = function(slot0)
 	slot0:InitThemeList()
 end
 
-function slot0.CreateCard(slot0, slot1)
+slot0.CreateCard = function(slot0, slot1)
 	return BackYardThemeCard.New(slot1)
 end
 
-function slot0.OnInitCard(slot0, slot1)
+slot0.OnInitCard = function(slot0, slot1)
 	slot2 = slot0:CreateCard(slot1)
 
 	onButton(slot0, slot2._go, function ()
@@ -192,7 +192,7 @@ function slot0.OnInitCard(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateCard(slot0, slot1, slot2)
+slot0.OnUpdateCard = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitCard(slot2)
 	end
@@ -208,17 +208,17 @@ function slot0.OnUpdateCard(slot0, slot1, slot2)
 	end
 end
 
-function slot0.NoSelected(slot0)
+slot0.NoSelected = function(slot0)
 	return not slot0.selected or not _.any(slot0.disPlays, function (slot0)
 		return slot0.id == uv0.selected.id
 	end)
 end
 
-function slot0.OnCardClick(slot0, slot1)
+slot0.OnCardClick = function(slot0, slot1)
 	slot0:UpdateMainPage(slot1.themeVO)
 end
 
-function slot0.UpdateMainPage(slot0, slot1)
+slot0.UpdateMainPage = function(slot0, slot1)
 	if slot1 == slot0.card then
 		return
 	end
@@ -244,11 +244,11 @@ function slot0.UpdateMainPage(slot0, slot1)
 	slot0.card = slot1
 end
 
-function slot0.UpdatePrice(slot0, slot1)
+slot0.UpdatePrice = function(slot0, slot1)
 	slot0.goldTxt.text, slot0.actualPriceTxt.text = slot0:CalcThemePrice(slot1)
 end
 
-function slot0.GetAddList(slot0, slot1)
+slot0.GetAddList = function(slot0, slot1)
 	slot2 = {}
 	slot4 = slot0.dorm:GetPurchasedFurnitures()
 
@@ -263,7 +263,7 @@ function slot0.GetAddList(slot0, slot1)
 	return slot2
 end
 
-function slot0.CalcThemePrice(slot0, slot1)
+slot0.CalcThemePrice = function(slot0, slot1)
 	slot3 = 0
 	slot4 = 0
 
@@ -275,7 +275,7 @@ function slot0.CalcThemePrice(slot0, slot1)
 	return slot3, slot4
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in pairs(slot0) do
@@ -289,11 +289,11 @@ function slot1(slot0, slot1)
 	return slot2
 end
 
-function slot2(slot0, slot1, slot2)
+slot2 = function(slot0, slot1, slot2)
 	return math.abs(slot0:HeadIndexToValue(slot2) - slot0:HeadIndexToValue(slot1))
 end
 
-function slot0.GetSelectedIndex(slot0)
+slot0.GetSelectedIndex = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.disPlays) do
@@ -307,12 +307,12 @@ function slot0.GetSelectedIndex(slot0)
 	return slot1
 end
 
-function slot0.OnSwitchToNextTheme(slot0)
+slot0.OnSwitchToNextTheme = function(slot0)
 	if slot0:GetSelectedIndex() >= #slot0.disPlays then
 		return false
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		return go(uv0.scrollRect).transform.localPosition.x + uv0.scrollRectWidth / 2 < go(uv0.scrollRect).transform.parent:InverseTransformPoint(slot0._tf.position).x
 	end
 
@@ -329,12 +329,12 @@ function slot0.OnSwitchToNextTheme(slot0)
 	return true
 end
 
-function slot0.OnSwitchToPrevTheme(slot0)
+slot0.OnSwitchToPrevTheme = function(slot0)
 	if slot0:GetSelectedIndex() <= 1 then
 		return false
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		return go(uv0.scrollRect).transform.parent:InverseTransformPoint(slot0._tf.position).x < go(uv0.scrollRect).transform.localPosition.x - uv0.scrollRectWidth / 2
 	end
 
@@ -351,24 +351,24 @@ function slot0.OnSwitchToPrevTheme(slot0)
 	return true
 end
 
-function slot0.OnInfoPagePrevTheme(slot0)
+slot0.OnInfoPagePrevTheme = function(slot0)
 	if slot0:OnSwitchToPrevTheme() then
 		triggerButton(slot0.purchaseBtn)
 	end
 end
 
-function slot0.OnInfoPageNextTheme(slot0)
+slot0.OnInfoPageNextTheme = function(slot0)
 	if slot0:OnSwitchToNextTheme() then
 		triggerButton(slot0.purchaseBtn)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:UnBlurView()
 end
 
-function slot0.BlurView(slot0)
+slot0.BlurView = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.adpter, {
 		pbList = {
 			slot0:findTF("adpter/descript")
@@ -377,11 +377,11 @@ function slot0.BlurView(slot0)
 	})
 end
 
-function slot0.UnBlurView(slot0)
+slot0.UnBlurView = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.adpter, slot0._tf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.largeSpLoader then
 		slot0.largeSpLoader:Dispose()
 

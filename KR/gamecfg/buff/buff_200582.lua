@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023黑神通 登场一定时间后开启减伤",
 	time = 0,
+	name = "2023黑神通 登场一定时间后开启减伤",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -17,9 +17,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield03",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {
@@ -52,9 +52,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield03",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {
@@ -87,9 +87,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield03",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {
@@ -122,9 +122,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield03",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {
@@ -157,9 +157,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				bulletType = 1,
 				effect = "shield03",
 				count = 15,
+				bulletType = 1,
 				cld_list = {
 					{
 						box = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"もうひとりのカリスマ？\n\n<size=45>四　騎士長の指揮</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
+			blackBg = true,
 			side = 2,
 			dir = 1,
-			blackBg = true,
+			bgmDelay = 2,
 			say = "キングジョージ5世と接していると、時々彼女こそロイヤルを率いる者ではないかと錯覚してしまう。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,12 +45,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "母港・演習海域",
 			dir = 1,
 			bgm = "battle-1",
+			nameColor = "#a9f548",
+			say = "母港・演習海域",
 			effects = {
 				{
 					active = true,
@@ -86,8 +86,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "油断も慌てもせん！勝利も諸君らの身の無事も、うまく総取りしてくれよう！",
 			typewriter = {
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "ロイヤルネイビーを率いて戦ったり――",
 			typewriter = {
 				speed = 0.05,
@@ -114,15 +114,15 @@ return {
 			}
 		},
 		{
-			say = "母港・埠頭",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "母港・埠頭",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "この物資は……第三倉庫に運んでくれ",
 			typewriter = {
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "エリザベスの代行として様々な業務を仕切ったり――",
 			typewriter = {
 				speed = 0.05,
@@ -194,13 +194,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "母港・広場",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -260,8 +260,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "よかったら相談に乗るが――なに、言い出すだけで楽になるかもしれないぞ？",
 			typewriter = {
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "プライベートで艦隊のメンバーの相談に乗ったり――",
 			typewriter = {
 				speed = 0.05,
@@ -304,13 +304,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "母港・ロイヤル寮",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "というわけで、ロイヤルの晩餐会でフッドに自分の率直な感想を伝えてみた。",
 			typewriter = {
 				speed = 0.05,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "これはいけませんことよ？ジョージ？",
 			typewriter = {
 				speed = 0.05,
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "いいえ、指揮官様にそういった感想を抱かせたこと自体あまりよろしくありませんわ",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "なるほど…心外ではあるが、指揮官に言われたのなら、確かにそういう目で見られていたのかもしれない……",
 			typewriter = {

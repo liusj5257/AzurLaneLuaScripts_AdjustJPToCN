@@ -1,13 +1,13 @@
 return {
-	id = "SHENGYONGQU26-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU26-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Iris Basilica",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Yes. Even if Iron Blood reinforcements do show up, it's very possible that the situation will devolve into an all-out brawl.",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "Even if that is the case, we can't allow speculation to cloud our judgment. We should focus on neutralizing them first.",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "We also have something we must fight for.",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "This is the last chance for us to talk...",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "If we have to fight in earnest, then I must steel my resolve. We must honor the Lord in everything we do.",
 			typewriter = {
 				speed = 0.05,

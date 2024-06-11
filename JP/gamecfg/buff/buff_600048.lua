@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.4
+					number = -0.4,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.6
+					number = -0.6,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.8
+					number = -0.8,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -54,12 +54,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 600048,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600048,
+	color = "yellow",
 	icon = 600040,
 	last_effect = "",
 	effect_list = {
@@ -70,8 +70,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatioByCannon"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"白衣の天使or悪魔？\n\n<size=45>二　ヴァンパイアの誘惑</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・寮舎",
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・寮舎",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "一時間後……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,13 +105,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "数日後。母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "体温もよしよし♪　指揮官は調子いいみたいね♪",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "今日の私はいつもとちょっと違う感じって？",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "むぅ、ちょっとからかおうと思ってノッてきたところだったのに……",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -267,12 +267,12 @@ return {
 			}
 		},
 		{
-			actor = 203010,
+			say = "ヴァンパイアさん？私は別に気にしませんけど、少し時と場合を考えたほうが良いですよ？",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ヴァンパイアさん？私は別に気にしませんけど、少し時と場合を考えたほうが良いですよ？",
+			actor = 203010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -338,8 +338,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "指揮官は？汝は私のことを信じてくれる？",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "ふん！信じてくれないなら証明してやるわ！この衣装は指揮官をユウワクするためだけに着たわけじゃないってことを！",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "ヴァンパイアは執務室からいなくなった。",
 			typewriter = {
@@ -411,12 +411,12 @@ return {
 			}
 		},
 		{
-			actor = 203010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203010,
+			nameColor = "#a9f548",
 			say = "すみません閣下、私の不注意でした。あとでヴァンパイアさんに謝らせていただきます。",
 			typewriter = {
 				speed = 0.05,

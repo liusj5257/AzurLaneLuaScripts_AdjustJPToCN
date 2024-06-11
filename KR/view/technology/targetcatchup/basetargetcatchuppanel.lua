@@ -1,7 +1,7 @@
 slot0 = class("BaseTargetCatchupPanel", import("...base.BaseUI"))
 slot0.SELECT_CHAR_LIGHT_FADE_TIME = 0.3
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0)
 
 	slot3 = PoolMgr.GetInstance()
@@ -16,16 +16,16 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	assert(false)
 
 	return ""
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.curSelectedIndex = 0
 	slot0.technologyProxy = getProxy(TechnologyProxy)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -36,7 +36,7 @@ function slot0.initData(slot0)
 	slot0.state = slot0.technologyProxy:getCatchupState(slot0.tecID)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.choosePanel = slot0:findTF("ChoosePanel")
 	slot0.selectedImgUIItemList = UIItemList.New(slot0:findTF("SelectedImgList", slot0.choosePanel), slot0:findTF("SelectedImgTpl", slot0.choosePanel))
 
@@ -123,7 +123,7 @@ function slot0.initUI(slot0)
 	end
 end
 
-function slot0.updateTargetCatchupPage(slot0)
+slot0.updateTargetCatchupPage = function(slot0)
 	slot0.state = slot0.technologyProxy:getCatchupState(slot0.tecID)
 
 	if slot0.state == TechnologyCatchup.STATE_CATCHUPING then
@@ -133,7 +133,7 @@ function slot0.updateTargetCatchupPage(slot0)
 	end
 end
 
-function slot0.updateCharTpl(slot0, slot1, slot2)
+slot0.updateCharTpl = function(slot0, slot1, slot2)
 	setText(slot0:findTF("PrintNum/Text", slot2), i18n("tec_target_need_print"))
 
 	slot8 = slot0.charIDList[slot1]
@@ -151,7 +151,7 @@ function slot0.updateCharTpl(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateShowPanel(slot0)
+slot0.updateShowPanel = function(slot0)
 	setActive(slot0.showPanel, true)
 	setActive(slot0.choosePanel, false)
 
@@ -173,7 +173,7 @@ function slot0.updateShowPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateChoosePanel(slot0)
+slot0.updateChoosePanel = function(slot0)
 	setActive(slot0.showPanel, false)
 	setActive(slot0.choosePanel, true)
 
@@ -196,7 +196,7 @@ function slot0.updateChoosePanel(slot0)
 	end
 end
 
-function slot0.updateProgress(slot0, slot1)
+slot0.updateProgress = function(slot0, slot1)
 	setActive(slot0:findTF("ProgressTitle", slot0.choosePanel), true)
 
 	slot3 = slot0.technologyProxy:getCatchupData(slot0.tecID):getTargetNum(slot1)
@@ -213,7 +213,7 @@ function slot0.updateProgress(slot0, slot1)
 	end
 end
 
-function slot0.isUR(slot0, slot1)
+slot0.isUR = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.urList) do
 		if slot1 == slot6 then
 			return true
@@ -223,15 +223,15 @@ function slot0.isUR(slot0, slot1)
 	return false
 end
 
-function slot0.getMaxNum(slot0, slot1)
+slot0.getMaxNum = function(slot0, slot1)
 	return slot0:isUR(slot1) and pg.technology_catchup_template[slot0.tecID].obtain_max_per_ur or pg.technology_catchup_template[slot0.tecID].obtain_max
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	PoolMgr.GetInstance():ReturnUI(slot0:getUIName(), slot0._go)
 end
 
-function slot0.getShipBluePrintCurExp(slot0, slot1)
+slot0.getShipBluePrintCurExp = function(slot0, slot1)
 	slot3 = slot1.fateLevel
 	slot5 = slot1:getConfig("strengthen_effect")
 	slot6 = slot1:getConfig("fate_strengthen")

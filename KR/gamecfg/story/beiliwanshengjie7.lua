@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"장난스런 핼러윈\n\n<size=45>해피 핼러윈!</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			actorName = "{namecode:48}",
 			bgm = "story-1",
 			actor = 302051,
-			actorName = "{namecode:48}",
+			nameColor = "#a9f548",
+			bgName = "bg_night",
 			say = "겨우 착지했네……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "드디어 찾았다, 길 잃은 유령!",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -84,8 +84,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "…어라? 하얀 천이랑 램프를 얹은 함재기…? 엥? 왜 다들 여기 있는 거야?!",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "유령은 새러토가의 장난이었구나…",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "그런 거지! 뭐 나도 거들었지만 말야~♪",
 			typewriter = {
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "전부 알바코어 목소리였어?!",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "내 연기 실력, 꽤 괜찮지? 에헤헤~",
 			typewriter = {
@@ -268,10 +268,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
+			hideOther = true,
 			dir = 1,
 			actor = 205031,
 			actorName = "넬슨&{namecode:48}&베일리",
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -412,8 +412,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "의, 의외로 나쁘지 않던데……가 아니지, 로드니! 너 처음부터 알고 있었지!",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.7,
 					dur = 0.15,
 					x = 0,
@@ -468,11 +468,11 @@ return {
 			}
 		},
 		{
-			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205031,
+			nameColor = "#a9f548",
 			say = "이 일의 흑막은 아카시였군……",
 			typewriter = {
 				speed = 0.05,
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -510,10 +510,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
+			hideOther = true,
 			dir = 1,
 			actor = 101271,
 			actorName = "베일리&{namecode:48}&테러",
@@ -543,12 +543,12 @@ return {
 			}
 		},
 		{
-			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205031,
+			nameColor = "#a9f548",
 			say = "잠깐! 갑자기 딴 얘기 하지 말라고~!!",
 			typewriter = {
 				speed = 0.05,
@@ -560,8 +560,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					x = 0,

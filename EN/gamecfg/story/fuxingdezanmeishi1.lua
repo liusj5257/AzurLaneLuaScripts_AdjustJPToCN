@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Sardegna Empire - Taranto Conference Hall",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-7",
+			say = "Sardegna Empire - Taranto Conference Hall",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,10 +35,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All right, Maestrale! Let's hear your report!",
 			typewriter = {
 				speed = 0.05,
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "O-okay... The other faction representatives have finally left, huh...",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "C'mon, why are you such a nervous wreck? I know how hard you've been working, so everything's gonna be fine!",
 			typewriter = {
 				speed = 0.05,
@@ -89,10 +89,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yeah, shinsh you puff in all ish wurk, you shoub be froud ob yourhelf!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hey, stop talking with your mouth full!",
 			typewriter = {
 				speed = 0.05,
@@ -134,10 +134,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "*nomnomnom*... *gulp*... Phewww, in any case, I'm just glad that scary Iron Blood lady is gone...",
 			typewriter = {
 				speed = 0.05,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Scary? Are you talking about Friedrich?",
 			typewriter = {
 				speed = 0.05,
@@ -169,10 +169,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh, Lady Veneto! Welcome back!",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Thank you. You've all done well. Da Recco, despite her appearances, Lady Friedrich is an excellent stateswoman who earned the trust of Bismarck.",
 			typewriter = {
 				speed = 0.05,
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Is she headed back to Iron Blood now?",
 			typewriter = {
 				speed = 0.05,
@@ -232,10 +232,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Who knows? She did say she wanted to take a quick tour around Sardegna.",
 			typewriter = {
 				speed = 0.05,
@@ -250,10 +250,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...and you're fine with that?",
 			typewriter = {
 				speed = 0.05,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hmm... If you put it that way...",
 			typewriter = {
 				speed = 0.05,
@@ -285,10 +285,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Are you sure it's okay for such an important person to be touring around leisurely?",
 			typewriter = {
 				speed = 0.05,
@@ -303,10 +303,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You're waaaay too uptight, Maestrale. You're acting just like Carabiniere~",
 			typewriter = {
 				speed = 0.05,
@@ -321,10 +321,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ugh... Well, if Miss Veneto says it's fine, then...",
 			typewriter = {
 				speed = 0.05,
@@ -339,10 +339,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "My navigator's instinct is telling me that everything's gonna be just fine!",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,12 +364,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Now now, I'm sure she will be availing herself to information about how our Senate functions. Moreover—",
 			typewriter = {
 				speed = 0.05,
@@ -384,10 +384,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...Littorio, what's the matter?",
 			typewriter = {
 				speed = 0.05,
@@ -402,10 +402,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Sorry for interrupting, but we've got a situation on our hands.",
 			typewriter = {
 				speed = 0.05,
@@ -420,10 +420,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I've already forwarded the relevant information to you, so let's discuss the details shortly. I'm on my way back as we speak, so please wait for me in the conference hall.",
 			typewriter = {
 				speed = 0.05,
@@ -438,10 +438,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Understood. I'll be waiting for you right here.",
 			typewriter = {
 				speed = 0.05,
@@ -456,10 +456,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All right! Let's hear Maestrale's report in the meantime!",
 			typewriter = {
 				speed = 0.05,
@@ -473,15 +473,15 @@ return {
 		{
 			expression = 0,
 			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_115",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oooh... You can do it, Maestrale! Go, go!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -509,10 +509,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ahem! Anyway, this is Maestrale, destroyer from the Sardegna Empire, now beginning the situation report—",
 			typewriter = {
 				speed = 0.05,
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=35>\"During the last \"Reenactment,\" we engaged with ships from both Sardegna and the Royal Navy.\"</size>",
@@ -574,12 +574,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

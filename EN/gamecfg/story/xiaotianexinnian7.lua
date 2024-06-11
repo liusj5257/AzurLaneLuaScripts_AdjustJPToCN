@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"New Year's Blessings\n\n<size=45>Chapter 7 New Year's Blessings</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 312011,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Nya?! It's this late already nya?!",
 			bgm = "main-newyear",
+			actor = 312011,
+			nameColor = "#a9f548",
+			say = "Nya?! It's this late already nya?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102141,
 			dir = 1,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "New Year's wish, huh. (Whispering) I wonder if it'll really come true...",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102141,
 			dir = 1,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "No, nothing. Just that I'll keep working hard to try to be more like you.",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -230,15 +230,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_101",
-			actorName = "{namecode:151}",
 			dir = 1,
+			actorName = "{namecode:151}",
+			bgName = "star_level_bg_101",
 			actor = 399021,
 			nameColor = "#a9f548",
 			say = "Whoa! I've never visited the port's shrine before, but I didn't expect it to be this magnificent!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 399011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "It's marvelous that such a divine place exists on this base... I'm certain the gods will watch over it.",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -346,9 +346,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_101",
+			dir = 1,
 			say = "Yes... but first, it's time to appreciate some good anime...",
 			typewriter = {
 				speed = 0.05,
@@ -356,15 +356,15 @@ return {
 			}
 		},
 		{
-			actor = 102132,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102132,
+			nameColor = "#a9f548",
 			say = "So what did everyone wish for?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -408,8 +408,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_101",
-			actor = 205062,
 			dir = 1,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "Well, people of all cultures wish for good health and happy lives. Happy new year, everyone.",
 			typewriter = {
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 399011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "That they do. Let's work together to restore peace and harmony to this world.",
 			typewriter = {
@@ -439,11 +439,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "...Hah hah ha...",
 			typewriter = {
 				speed = 0.05,
@@ -455,8 +455,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			actorName = "Everyone",
 			nameColor = "#a9f548",
+			actorName = "Everyone",
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "Nya♪ It looks like this will be another prosperous year for me! Happy new year nya!",
 			typewriter = {
 				speed = 0.05,

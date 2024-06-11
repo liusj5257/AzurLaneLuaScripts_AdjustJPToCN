@@ -1,14 +1,14 @@
 slot0 = class("resumeLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "resumeUI"
 end
 
-function slot0.setPlayerVO(slot0, slot1)
+slot0.setPlayerVO = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.frame = slot0:findTF("frame")
 	slot0.resumeIcon = slot0:findTF("frame/window/info/circle/head")
 	slot0.resumeStars = slot0:findTF("frame/window/info/circle/head/stars")
@@ -29,7 +29,7 @@ function slot0.init(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:display(slot0.player)
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
@@ -82,7 +82,7 @@ slot1 = {
 	}
 }
 
-function slot0.display(slot0, slot1)
+slot0.display = function(slot0, slot1)
 	if slot0.contextData.parent then
 		setParent(slot0._tf, slot0.contextData.parent)
 	else
@@ -162,7 +162,7 @@ function slot0.display(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if not slot0.contextData.parent then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 	end

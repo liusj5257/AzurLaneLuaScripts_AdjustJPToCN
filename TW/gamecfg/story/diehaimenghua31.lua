@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA31",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港區周邊·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			say = "港區周邊·演習海域",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,8 +51,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "呵呵，這次我方艦隊的指揮是信濃哦，我只是作為軍師稍微前來助助陣而已。",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "信濃加上天城…聽起來就是讓人可靠的配置啊~",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "不過對面是指揮官親自指揮的艦隊，不能有絲毫大意。",
 			typewriter = {
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 301840,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301840,
+			nameColor = "#a9f548",
 			say = "信濃，艦隊已經集結完畢，請下達命令吧。",
 			typewriter = {
 				speed = 0.05,

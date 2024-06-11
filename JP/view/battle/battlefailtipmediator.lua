@@ -5,17 +5,17 @@ slot0.GO_HIGEST_CHAPTER = "BattleFailTipMediator:GO_HIGEST_CHAPTER"
 slot0.GO_DOCKYARD_EQUIP = "BattleFailTipMediator:GO_DOCKYARD_EQUIP"
 slot0.GO_DOCKYARD_SHIP = "BattleFailTipMediator:GO_DOCKYARD_SHIP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:initData()
 	slot0:bindEvent()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.mainShips = slot0.contextData.mainShips
 	slot0.battleSystem = slot0.contextData.battleSystem
 end
 
-function slot0.bindEvent(slot0)
+slot0.bindEvent = function(slot0)
 	slot0:bind(uv0.CHAPTER_RETREAT, function (slot0, slot1)
 		slot4 = nil
 		slot4 = (not getProxy(ChapterProxy):getActiveChapter() or slot3:getShips()) and uv0.mainShips
@@ -100,13 +100,13 @@ function slot0.bindEvent(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.CHAPTER_OP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.CHAPTER_OP_DONE then
@@ -192,7 +192,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.removeContextBeforeGO(slot0)
+slot0.removeContextBeforeGO = function(slot0)
 	slot1 = getProxy(ContextProxy)
 
 	if slot0.battleSystem == SYSTEM_SCENARIO then

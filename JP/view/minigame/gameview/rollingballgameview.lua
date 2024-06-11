@@ -7,11 +7,11 @@ slot5 = "event:/ui/sx-perfect"
 slot6 = "event:/ui/sx-jishu"
 slot7 = "event:/ui/furnitrue_save"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RollingBallGameUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0:GetMGData()
 	slot2 = slot0:GetMGHubData()
 	slot0.tplScoreTip = findTF(slot0._tf, "tplScoreTip")
@@ -116,11 +116,11 @@ function slot0.init(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.getGameTimes(slot0)
+slot0.getGameTimes = function(slot0)
 	return slot0:GetMGHubData().count
 end
 
-function slot0.showScoreUI(slot0, slot1)
+slot0.showScoreUI = function(slot0, slot1)
 	if slot1 > (slot0:GetMGData():GetRuntimeData("elements") and #slot2 > 0 and slot2[1] or 0) then
 		setActive(slot0.scoreNew, true)
 	else
@@ -141,7 +141,7 @@ function slot0.showScoreUI(slot0, slot1)
 	end
 end
 
-function slot0.showCountStart(slot0, slot1)
+slot0.showCountStart = function(slot0, slot1)
 	setActive(findTF(slot0._tf, "count"), true)
 
 	slot0.countIndex = 3
@@ -150,7 +150,7 @@ function slot0.showCountStart(slot0, slot1)
 
 	slot3:PlaySoundEffect_V3(uv0)
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		slot1 = uv0.countIndex
 		uv0.countIndex = uv0.countIndex - 1
 		slot3 = GetComponent(findTF(uv1, "show"), typeof(CanvasGroup))
@@ -197,7 +197,7 @@ function slot0.showCountStart(slot0, slot1)
 	end)
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	slot0.startFlag = true
 
 	seriesAsync({
@@ -235,7 +235,7 @@ function slot0.gameStart(slot0)
 	}, nil)
 end
 
-function slot0.gameStop(slot0)
+slot0.gameStop = function(slot0)
 	slot0:timerStop()
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
 
@@ -256,20 +256,20 @@ function slot0.gameStop(slot0)
 	slot0:showScoreUI(slot0.gameScore)
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
 end
 
-function slot0.fallingGridDic(slot0)
-	function slot1(slot0, slot1)
+slot0.fallingGridDic = function(slot0)
+	slot1 = function(slot0, slot1)
 		for slot5 = slot1 + 1, RollingBallConst.vertical do
 			if uv0.gridDic[slot0][slot5] then
 				return slot5
@@ -291,7 +291,7 @@ function slot0.fallingGridDic(slot0)
 	end
 end
 
-function slot0.firstInitGrid(slot0)
+slot0.firstInitGrid = function(slot0)
 	for slot4 = 1, RollingBallConst.horizontal do
 		slot0.fillGridDic[slot4] = {}
 
@@ -317,7 +317,7 @@ function slot0.firstInitGrid(slot0)
 	end
 end
 
-function slot0.fillEmptyGrid(slot0)
+slot0.fillEmptyGrid = function(slot0)
 	for slot4 = 1, RollingBallConst.horizontal do
 		slot0.fillGridDic[slot4] = {}
 
@@ -333,11 +333,11 @@ function slot0.fillEmptyGrid(slot0)
 	end
 end
 
-function slot0.setFillGridPosition(slot0, slot1, slot2, slot3)
+slot0.setFillGridPosition = function(slot0, slot1, slot2, slot3)
 	slot1:setPosition((slot2 - 1) * RollingBallConst.grid_width, (RollingBallConst.vertical + slot3) * RollingBallConst.grid_height)
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	for slot4 = #slot0.moveDatas, 1, -1 do
 		slot5 = slot0.moveDatas[slot4]
 		slot6 = slot5.grid
@@ -465,7 +465,7 @@ function slot0.onTimer(slot0)
 	end
 end
 
-function slot0.moveGridsByChangeDic(slot0)
+slot0.moveGridsByChangeDic = function(slot0)
 	slot0.moveDatas = {}
 
 	for slot4 = 1, #slot0.changeGridsDic do
@@ -481,7 +481,7 @@ function slot0.moveGridsByChangeDic(slot0)
 	end
 end
 
-function slot0.moveGridsBySelfPos(slot0, slot1, slot2)
+slot0.moveGridsBySelfPos = function(slot0, slot1, slot2)
 	slot0.moveDatas = {}
 
 	for slot6 = 1, #slot1 do
@@ -497,7 +497,7 @@ function slot0.moveGridsBySelfPos(slot0, slot1, slot2)
 	end
 end
 
-function slot0.moveGridToPos(slot0, slot1, slot2, slot3)
+slot0.moveGridToPos = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:getPosition().x
 	slot5 = slot1:getPosition().y
 	slot7 = (slot3 - 1) * RollingBallConst.grid_height
@@ -514,7 +514,7 @@ function slot0.moveGridToPos(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.updateMoveGridDic(slot0)
+slot0.updateMoveGridDic = function(slot0)
 	for slot4 = 1, #slot0.changeGridsDic do
 		for slot9 = 1, #slot0.changeGridsDic[slot4] do
 			if slot5[slot9].grid then
@@ -526,10 +526,10 @@ function slot0.updateMoveGridDic(slot0)
 	slot0:sortGridDic()
 end
 
-function slot0.sortGridDic(slot0)
+slot0.sortGridDic = function(slot0)
 	slot1 = {}
 
-	function slot2(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		for slot5 = 1, #uv0 do
 			slot6, slot7 = uv0[slot5]:getPosData()
 
@@ -564,7 +564,7 @@ function slot0.sortGridDic(slot0)
 	end
 end
 
-function slot0.checkSuccessGrid(slot0)
+slot0.checkSuccessGrid = function(slot0)
 	slot1 = nil
 
 	slot0:updateRemoveFlag()
@@ -641,7 +641,7 @@ function slot0.checkSuccessGrid(slot0)
 	end)
 end
 
-function slot0.updateCombo(slot0)
+slot0.updateCombo = function(slot0)
 	setActive(slot0.goodEffect, false)
 	setActive(slot0.greatEffect, false)
 	setActive(slot0.perfectEffect, false)
@@ -669,7 +669,7 @@ function slot0.updateCombo(slot0)
 	end
 end
 
-function slot0.updateScore(slot0, slot1)
+slot0.updateScore = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot1) do
 		slot0.comboAmount = slot0.comboAmount + 1
 	end
@@ -708,7 +708,7 @@ function slot0.updateScore(slot0, slot1)
 	end))
 end
 
-function slot0.updateRemoveFlag(slot0)
+slot0.updateRemoveFlag = function(slot0)
 	for slot4 = 1, RollingBallConst.horizontal do
 		for slot8 = 1, RollingBallConst.vertical do
 			slot0:checkGridRemove(slot0.gridDic[slot4][slot8], slot4, slot8)
@@ -716,7 +716,7 @@ function slot0.updateRemoveFlag(slot0)
 	end
 end
 
-function slot0.checkGridRemove(slot0, slot1, slot2, slot3)
+slot0.checkGridRemove = function(slot0, slot1, slot2, slot3)
 	if not slot1:getRemoveFlagH() and slot2 < RollingBallConst.horizontal - 1 then
 		slot4 = 0
 		slot5 = true
@@ -776,7 +776,7 @@ function slot0.checkGridRemove(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.onGridDown(slot0, slot1)
+slot0.onGridDown = function(slot0, slot1)
 	if slot0.isMoveing or slot0.selectGrid or #slot0.moveDatas > 0 then
 		return
 	end
@@ -788,7 +788,7 @@ function slot0.onGridDown(slot0, slot1)
 	slot0.selectGrid:getTf():SetAsLastSibling()
 end
 
-function slot0.onGridUp(slot0, slot1)
+slot0.onGridUp = function(slot0, slot1)
 	slot0.selectGrid = nil
 
 	if slot0.changeGridsDic then
@@ -807,7 +807,7 @@ function slot0.onGridUp(slot0, slot1)
 	slot0.downTime = RollingBallConst.downTime
 end
 
-function slot0.checkChangePos(slot0, slot1)
+slot0.checkChangePos = function(slot0, slot1)
 	slot2, slot3 = slot1:getPosData()
 	slot4, slot5 = slot0.selectGrid:getPosData()
 
@@ -831,7 +831,7 @@ function slot0.checkChangePos(slot0, slot1)
 	end
 end
 
-function slot0.onGridBeginDrag(slot0, slot1, slot2, slot3)
+slot0.onGridBeginDrag = function(slot0, slot1, slot2, slot3)
 	if slot0.isMoveing or not slot0.selectGrid or slot1 ~= slot0.selectGrid then
 		return
 	end
@@ -849,7 +849,7 @@ function slot0.onGridBeginDrag(slot0, slot1, slot2, slot3)
 	slot0.dragOffsetPos.y = slot3.position.y - slot4.transform.localPosition.y
 end
 
-function slot0.onGridDrag(slot0, slot1, slot2, slot3)
+slot0.onGridDrag = function(slot0, slot1, slot2, slot3)
 	if not slot0.selectGrid or slot1 ~= slot0.selectGrid then
 		return
 	end
@@ -909,7 +909,7 @@ function slot0.onGridDrag(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateMove(slot0, slot1, slot2)
+slot0.updateMove = function(slot0, slot1, slot2)
 	if RollingBallConst.horizontal < slot1 or RollingBallConst.vertical < slot2 then
 		return
 	end
@@ -923,7 +923,7 @@ function slot0.updateMove(slot0, slot1, slot2)
 	slot0:setDragAlpha(slot1, slot2, slot0.selectGrid:getType())
 end
 
-function slot0.getGridByPosition(slot0, slot1)
+slot0.getGridByPosition = function(slot0, slot1)
 	slot3 = math.floor((slot1.y + RollingBallConst.grid_height / 2) / RollingBallConst.grid_height) + 1
 
 	if math.floor((slot1.x + RollingBallConst.grid_width / 2) / RollingBallConst.grid_width) + 1 >= 1 and slot2 <= RollingBallConst.horizontal and slot3 >= 1 and slot3 <= RollingBallConst.vertical then
@@ -933,7 +933,7 @@ function slot0.getGridByPosition(slot0, slot1)
 	return nil
 end
 
-function slot0.updateEnterGrid(slot0, slot1, slot2)
+slot0.updateEnterGrid = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0.selectGrid:getPosData()
 	slot0.changeGridsDic = {}
 
@@ -998,7 +998,7 @@ function slot0.updateEnterGrid(slot0, slot1, slot2)
 	end
 end
 
-function slot0.changeDragGrid(slot0, slot1, slot2)
+slot0.changeDragGrid = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0.selectGrid:getPosData()
 	slot0.changeGridsDic = {}
 
@@ -1029,7 +1029,7 @@ function slot0.changeDragGrid(slot0, slot1, slot2)
 	end
 end
 
-function slot0.createGrid(slot0, slot1, slot2, slot3)
+slot0.createGrid = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 	slot5 = #slot0.gridsPool
 
@@ -1060,17 +1060,17 @@ function slot0.createGrid(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.setDragAlpha(slot0, slot1, slot2, slot3)
+slot0.setDragAlpha = function(slot0, slot1, slot2, slot3)
 	slot0.dragAlphaGrid:setPosition((slot1 - 1) * RollingBallConst.grid_width, (slot2 - 1) * RollingBallConst.grid_height)
 	slot0.dragAlphaGrid:setType(slot3)
 	setActive(slot0.dragAlphaGrid:getTf(), true)
 end
 
-function slot0.clearDragAlpha(slot0)
+slot0.clearDragAlpha = function(slot0)
 	setActive(slot0.dragAlphaGrid:getTf(), false)
 end
 
-function slot0.returnGrid(slot0, slot1)
+slot0.returnGrid = function(slot0, slot1)
 	slot0:removeGrid(slot1)
 	slot1:clearData()
 	slot1:setParent(slot0.gridPoolTf)
@@ -1078,7 +1078,7 @@ function slot0.returnGrid(slot0, slot1)
 	table.insert(slot0.gridsPool, slot1)
 end
 
-function slot0.removeGrid(slot0, slot1)
+slot0.removeGrid = function(slot0, slot1)
 	slot2, slot3 = slot1:getPosData()
 
 	if not slot0.gridDic[slot2][slot3] then
@@ -1086,7 +1086,7 @@ function slot0.removeGrid(slot0, slot1)
 	end
 end
 
-function slot0.getRandomType(slot0, slot1)
+slot0.getRandomType = function(slot0, slot1)
 	if slot1 then
 		slot2 = {}
 
@@ -1102,7 +1102,7 @@ function slot0.getRandomType(slot0, slot1)
 	return math.random(1, RollingBallConst.grid_type_amount)
 end
 
-function slot0.addGridScoreTip(slot0, slot1, slot2)
+slot0.addGridScoreTip = function(slot0, slot1, slot2)
 	slot5 = slot0:getScoreTip()
 	slot7 = (slot1.y - 1) * RollingBallConst.grid_height
 	slot5.localPosition = Vector3((slot1.x - 1) * RollingBallConst.grid_width, slot7, 0)
@@ -1116,7 +1116,7 @@ function slot0.addGridScoreTip(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.addRemoveEffect(slot0, slot1)
+slot0.addRemoveEffect = function(slot0, slot1)
 	slot4 = slot0:getRemoveEffect()
 	slot4.localPosition = Vector3((slot1.x - 1) * RollingBallConst.grid_width + 50, (slot1.y - 1) * RollingBallConst.grid_height + 50, -350)
 
@@ -1125,7 +1125,7 @@ function slot0.addRemoveEffect(slot0, slot1)
 	end))
 end
 
-function slot0.getRemoveEffect(slot0)
+slot0.getRemoveEffect = function(slot0)
 	if not slot0.removeEffectPool then
 		slot0.removeEffectPool = {}
 		slot0.removeEffects = {}
@@ -1147,12 +1147,12 @@ function slot0.getRemoveEffect(slot0)
 	return slot1
 end
 
-function slot0.returnRemoveEffect(slot0, slot1)
+slot0.returnRemoveEffect = function(slot0, slot1)
 	setActive(slot1, false)
 	table.insert(slot0.removeEffectPool, slot1)
 end
 
-function slot0.getScoreTip(slot0)
+slot0.getScoreTip = function(slot0)
 	if not slot0.scoreTipPool then
 		slot0.scoreTipPool = {}
 		slot0.scoreTips = {}
@@ -1174,12 +1174,12 @@ function slot0.getScoreTip(slot0)
 	return slot1
 end
 
-function slot0.returnScoreTip(slot0, slot1)
+slot0.returnScoreTip = function(slot0, slot1)
 	setActive(slot1, false)
 	table.insert(slot0.scoreTipPool, slot1)
 end
 
-function slot0.addEffect(slot0, slot1)
+slot0.addEffect = function(slot0, slot1)
 	slot3 = slot0:getEffect()
 
 	setParent(slot3, slot0.effectUI, false)
@@ -1188,15 +1188,15 @@ function slot0.addEffect(slot0, slot1)
 	slot3.localPosition = slot0.effectUI:InverseTransformPoint(slot1)
 
 	table.insert(slot0.effectDatas, {
-		vy = 2,
-		ay = 0,
 		vx = 2,
 		ax = 0,
+		ay = 0,
+		vy = 2,
 		tf = slot3
 	})
 end
 
-function slot0.clearUI(slot0)
+slot0.clearUI = function(slot0)
 	slot0.moveDatas = {}
 	slot0.startFlag = false
 	slot0.stopFlag = false
@@ -1227,7 +1227,7 @@ function slot0.clearUI(slot0)
 	end
 end
 
-function slot0.getEffect(slot0)
+slot0.getEffect = function(slot0)
 	if #slot0.effectPool > 0 then
 		return table.remove(slot0.effectPool, #slot0.effectPool)
 	end
@@ -1235,12 +1235,12 @@ function slot0.getEffect(slot0)
 	return tf(Instantiate(slot0.tplEffect))
 end
 
-function slot0.returnEffect(slot0, slot1)
+slot0.returnEffect = function(slot0, slot1)
 	SetParent(slot1, slot0.effectPoolTf, false)
 	table.insert(slot0.effectPool, slot1)
 end
 
-function slot0.getGridRemoveId(slot0)
+slot0.getGridRemoveId = function(slot0)
 	if not slot0.removeId then
 		slot0.removeId = 0
 	end
@@ -1250,13 +1250,13 @@ function slot0.getGridRemoveId(slot0)
 	return tostring(slot0.removeId)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.startFlag then
 		slot0:emit(uv0.ON_BACK_PRESSED)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.timer and slot0.timer.running then
 		slot0.timer:Stop()
 	end

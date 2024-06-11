@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 800960,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800960,
+	color = "red",
 	icon = 800960,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 800960,
 				time = 1,
+				skill_id = 800960,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -56,8 +56,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 800960,
 				time = 1,
+				skill_id = 800960,
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"

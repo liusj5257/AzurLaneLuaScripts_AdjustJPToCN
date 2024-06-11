@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU9",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU9",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-5",
 			say = "Just prior to the Royal Navy embarking on the Siren hunt",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,8 +97,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "………………",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Say York actually does fire the red flare to signal she's been attacked... what happens then, Illustrious?",
 			typewriter = {

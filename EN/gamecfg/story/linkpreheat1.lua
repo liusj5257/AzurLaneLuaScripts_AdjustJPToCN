@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇\n\n<size=45>序幕 嘈杂的海域</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_chuansong",
+			side = 2,
+			dir = 1,
 			say = "……（电报音）哔，哔，哔……哔……哔，哔，哔……哔……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 201211,
+			say = "{namecode:98}应该已经先前往调查了才对……一点回音都没有哦",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}应该已经先前往调查了才对……一点回音都没有哦",
+			actor = 201211,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 101171,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101171,
+			nameColor = "#a9f548",
 			say = "起雾了……前后左右都是一片白……",
 			effects = {
 				{
@@ -198,13 +198,13 @@ return {
 			}
 		},
 		{
-			actor = 201211,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……？!Z23，11点方向好像有什么东西！",
 			bgm = "level-uta",
+			actor = 201211,
+			nameColor = "#a9f548",
+			say = "……？!Z23，11点方向好像有什么东西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
 			nameColor = "#a9f548",
-			bgName = "bg_story_chuansong",
 			side = 2,
+			bgName = "bg_story_chuansong",
 			dir = 1,
+			actor = 10300061,
 			actorName = "???",
 			say = "喂—？不好意思……有谁在那里吗？",
 			typewriter = {
@@ -316,14 +316,14 @@ return {
 			}
 		},
 		{
-			actor = 401231,
 			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "如此这般——我们就千辛万苦把她从那片海域领回来了",
+			bgName = "bg_story_school",
 			bgm = "main-uta",
+			actor = 401231,
+			nameColor = "#a9f548",
+			say = "如此这般——我们就千辛万苦把她从那片海域领回来了",
 			effects = {
 				{
 					active = false,
@@ -331,8 +331,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -357,12 +357,12 @@ return {
 			}
 		},
 		{
-			actor = 10300061,
+			say = "初次见面，我叫做芙米露露",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "初次见面，我叫做芙米露露",
+			actor = 10300061,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300061,
 			dir = 1,
+			actor = 10300061,
 			nameColor = "#a9f548",
 			say = "呀，居然真的长着和我们一样的耳朵和尾巴。果然是同乡吧？",
 			typewriter = {
@@ -490,12 +490,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
+			say = "芙米露露小姐，请问您是从哪儿来的呢？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "芙米露露小姐，请问您是从哪儿来的呢？",
+			actor = 401231,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -513,8 +513,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300061,
 			dir = 1,
+			actor = 10300061,
 			nameColor = "#a9f548",
 			say = "要说从哪儿来…我只能说从图斯库尔来的了",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300061,
 			dir = 1,
+			actor = 10300061,
 			nameColor = "#a9f548",
 			say = "本来应该是和小久还有同伴们一起正在前往大和国的途中呢……",
 			typewriter = {
@@ -675,8 +675,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300061,
 			dir = 1,
+			actor = 10300061,
 			nameColor = "#a9f548",
 			say = "没准小久和大家也在那片海里迷路了呢……而且有这个舰装？的话也许我也能派上用场",
 			typewriter = {
@@ -689,12 +689,12 @@ return {
 			}
 		},
 		{
-			actor = 401231,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 401231,
+			nameColor = "#a9f548",
 			say = "也是……同时也得搞清楚原因呢，让我们再次出发吧。我这就去找指挥官申请出击命令",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU4",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 403030,
 			nameColor = "#ffde38",
 			side = 2,
-			bgm = "bsm-3",
 			dir = 1,
 			say = "追っ払ってきたわ。レーダーの反応も消えたし、結構遠くに逃げたみたいね",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,8 +105,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "あなたはそのまま帰還して。私は別ルートを取る",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			actor = 405010,
 			side = 0,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = -1,
+			nameColor = "#ffde38",
 			say = "盟友の勢力下の海域がある。そこにたどり着ければいくらロイヤルだって簡単に手出し出来ないわ",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			expression = 1,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "時間がないから、すぐに出発して",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "そして全速力よ、安全な海域にたどり着くまで足を止めないでちょうだい",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "そちらこそご武運を",
 			typewriter = {
 				speed = 0.05,
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#ffde38",
-			actorName = "ビスマルク",
+			side = 0,
 			dir = -1,
 			blackBg = true,
+			actorName = "ビスマルク",
 			say = "……我らに大いなる勝利を",
 			flashin = {
 				delay = 1,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "プリンツ・オイゲン",
+			side = 1,
 			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,

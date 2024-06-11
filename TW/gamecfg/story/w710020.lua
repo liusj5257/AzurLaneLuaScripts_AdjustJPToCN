@@ -1,12 +1,12 @@
 return {
-	id = "W710020",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710020",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這是……另一塊記憶碎片嗎？",
 			typewriter = {
 				speed = 0.05,

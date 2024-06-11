@@ -4,17 +4,17 @@ slot0.Fields = {
 	resName = "string"
 }
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Unload()
 	uv0.super.Dispose(slot0)
 end
 
-function slot0.Setup(slot0, slot1, slot2)
+slot0.Setup = function(slot0, slot1, slot2)
 	slot0.resPath = slot1
 	slot0.resName = slot2
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	slot0:LoadModel(WorldConst.ModelPrefab, slot0.resPath, slot0.resName, true, function ()
 		setParent(uv0.model, uv0.transform, false)
 
@@ -22,7 +22,7 @@ function slot0.Load(slot0, slot1)
 	end)
 end
 
-function slot0.Unload(slot0)
+slot0.Unload = function(slot0)
 	slot0:UnloadModel()
 end
 

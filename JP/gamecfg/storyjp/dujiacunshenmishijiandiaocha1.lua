@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"温泉街神隠し事件\n\n<size=45>夏と温泉と怪談と</size>",
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "海の怪物、そして失われた遺跡を探しに行こう！",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "潜航艦じゃ体がろくに動かないもん…やっぱり幽霊船を追いに行こうよ！",
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それは母港でできるよー。せっかくのバカンスだしいつもと違うことをやりたくない？",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "海上騎士のアネキ",
 			dir = 1,
+			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "海上の騎士、正義のヴィジランテパトロールでもどうかな？",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "ハイテンション",
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あのさ…バカンス要素は？",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "意見がなかなかまとまらず、議論が続いていく――",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "それは書類の中に紛れ込んでいたとあるチラシだった。",
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "独占欲強しコアクマ",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "分かったわ！でも何が書いてあるかちょっと確認させて…",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "気づくと執務室はシーンと静まり返り、初月のチラシに視線がぐっと集まったようだ。",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "一行",
+			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -466,11 +466,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "妖怪が見れる…はいはいはい温泉街に一票！",
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "ハイテンション",
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "重桜の妖怪伝説か…面白そう！",
@@ -531,8 +531,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -579,11 +579,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "夢歩くドリームウォーカー",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "温泉ならば…溜まった疲れを洗い流せる、良き提案と申す…",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "初月の異議も虚しく、話はあっという間にどんどん進んでいく。",
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "そうしてバカンスの行先は温泉街が抜きん出た票数で決まったのであった――",
@@ -638,9 +638,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

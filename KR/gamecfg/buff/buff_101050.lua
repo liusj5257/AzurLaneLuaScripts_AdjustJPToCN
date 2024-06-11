@@ -20,8 +20,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -48,8 +48,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -76,8 +76,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -104,8 +104,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -132,8 +132,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -160,8 +160,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -188,8 +188,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -216,8 +216,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -244,8 +244,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -272,8 +272,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 101050,
+					target = "TargetSelf",
 					countType = 101050
 				}
 			}
@@ -282,12 +282,12 @@ return {
 	desc_get = "主炮开火n次触发，下一次主炮射击必定暴击",
 	name = "十字缔结",
 	init_effect = "",
+	id = 101050,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮开火n次触发，下一次主炮射击必定暴击",
 	stack = 1,
-	id = 101050,
+	color = "red",
 	icon = 101050,
 	last_effect = "",
 	effect_list = {
@@ -310,8 +310,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 101050,
+				target = "TargetSelf",
 				countType = 101050
 			}
 		}

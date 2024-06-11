@@ -1,6 +1,6 @@
 slot0 = class("CourtYardPool")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.prefab = slot2
 	slot0.parentTF = slot1
 
@@ -15,13 +15,13 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	for slot4 = 1, slot0.initCnt do
 		slot0:NewItem()
 	end
 end
 
-function slot0.Enqueue(slot0, slot1)
+slot0.Enqueue = function(slot0, slot1)
 	if slot0.max <= #slot0.items then
 		Object.Destroy(slot1)
 	else
@@ -33,7 +33,7 @@ function slot0.Enqueue(slot0, slot1)
 	end
 end
 
-function slot0.Dequeue(slot0)
+slot0.Dequeue = function(slot0)
 	if #slot0.items <= 0 then
 		slot0:NewItem()
 	end
@@ -45,14 +45,14 @@ function slot0.Dequeue(slot0)
 	return slot1
 end
 
-function slot0.NewItem(slot0)
+slot0.NewItem = function(slot0)
 	slot1 = Object.Instantiate(slot0.prefab)
 	slot1.transform.localScale = Vector3.one
 
 	slot0:Enqueue(slot1)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	for slot4, slot5 in ipairs(slot0.items) do
 		Object.Destroy(slot5)
 	end

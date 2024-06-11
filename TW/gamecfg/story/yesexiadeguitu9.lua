@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205030,
 			nameColor = "#ffff4d",
 			side = 2,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "切，夜晚和驅逐艦隊糾纏上果然沒什麼好事……",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "哼哼哼，魚雷成功命中！皇家納爾遜航速減半了~",
 			typewriter = {
 				speed = 0.05,
@@ -189,14 +189,14 @@ return {
 			}
 		},
 		{
-			actor = 900236,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900236,
+			nameColor = "#a9f548",
 			say = "嗯！終於要結束了啊，漫長的一夜~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "我們還沒有進入土倫港，現在放心還太早了。",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "是是是，我知道啦~區區塔爾圖，今天感覺怎麼總是在被妳說教啊！",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "往日惡作劇的回禮。",
 			typewriter = {
 				speed = 0.05,
@@ -271,9 +271,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "喂喂喂，什麼叫惡作劇的回禮啊！喂！好好聽我說話啊！",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -298,8 +298,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "不要搖我，我在聽…",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "呵呵，好了，讓我們回家吧。",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………………………………………",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "就這樣，伴隨著少女們的嬉戲聲，夜色下的歸途也進入了尾聲……",
 			typewriter = {
 				speed = 0.05,
@@ -353,16 +353,16 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff5c5c",
 			say = "觀測結束——呼呼…這也是一種'可能性'呢。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

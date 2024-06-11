@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG17",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			bgm = "xinnong-3",
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Kill confirmed! None may stand before the might of the Northern Parliament!",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "I'll beat you all to a pulp!",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "Haha! What do you think, Commander? Pretty good coordination on the fly, right?",
 			typewriter = {
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "Remarkably, despite not having a determined command structure, the members of the Northern Parliament all fought on the same page, as if linked by their strong sense of unity.",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "I felt a warm breath tickle my ear. Chapayev had snuck up behind me.",
 			dialogShake = {
 				speed = 0.09,
@@ -126,8 +126,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "Here's the report on the current status of our positioning, supplies, and damages. Please look it over before everyone gets back.",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "So, what will your orders be, Commander? I'll do anything you say~",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "What we should do now is...",
 			typewriter = {
 				speed = 0.05,
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "I'm worried about my friends. But, now that our communications have been disrupted by the Mirror Sea, what should we do next...",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "This is solely based upon anecdotal evidence, but we believe that the \"nucleus\" must be destroyed in order to escape from the influence of the Mirror Sea.",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "In other words, it is necessary for us to capture the Siren stronghold in order to achieve your goal - and perhaps the Eagle Union has realized that as well.",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "Of course they are! Where else would they be headed to in this Mirror Sea?",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Wouldn't it be better to focus our attention on the common objective instead of expending valuable time and resources searching around blindly?",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "It's decided then. I'll be counting on you~",
 			typewriter = {
@@ -362,9 +362,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "Let's trust our friends' judgment.",
 			typewriter = {
 				speed = 0.05,

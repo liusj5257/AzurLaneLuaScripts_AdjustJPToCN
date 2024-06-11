@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"盛夏的半人馬座\n\n<size=45>五　鐵血之盟</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 206040,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "咦，標槍前輩，鐵血的各位前輩們也來了。",
 			bgm = "story-1",
+			actor = 206040,
+			nameColor = "#a9f548",
+			say = "咦，標槍前輩，鐵血的各位前輩們也來了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "啊，真的欸。",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "果然鐵血的各位也都換上了泳裝呢。",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,12 +92,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "我跟妳說哦，去年夏天鐵血雖然已經加入了不少人，不過只有歐根一個人過來海邊玩，今年就好多了呢~",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -112,12 +112,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "啊，她們往這邊來了呢。",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，她們往這邊來了呢。",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Z25前輩，Z46前輩，妳們好。",
 			typewriter = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 401251,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 401251,
+			nameColor = "#a9f548",
 			say = "欸欸欸？？妳、妳好……",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.08,
 					x = 0,
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Z25，Z46，來坐這邊~",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			say = "我對團體活動沒有興趣——",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "我對團體活動沒有興趣——",
+			actor = 407011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 407011,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 407011,
+			nameColor = "#a9f548",
 			say = "唔…這直達味蕾的美味…！",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -423,12 +423,12 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			say = "妳就是傳聞中那個“對誰都會喊前輩的新人”嗎…",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "妳就是傳聞中那個“對誰都會喊前輩的新人”嗎…",
+			actor = 405021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -478,8 +478,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "（小聲）標槍前輩，鐵血的前輩們意外地好相處呢。",
 			typewriter = {
@@ -492,12 +492,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "（小聲）啊哈哈，雖然一開始確實會讓人有種想退卻的感覺，不過大家其實都是好人哦",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小聲）啊哈哈，雖然一開始確實會讓人有種想退卻的感覺，不過大家其實都是好人哦",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -528,12 +528,12 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			say = "她啊，好像是被歐根灌輸了什麼奇怪的知識，整天在研究怎麼樣才能用泳裝誘惑指揮官，剛到沙灘就跑去歐根那邊了。",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "她啊，好像是被歐根灌輸了什麼奇怪的知識，整天在研究怎麼樣才能用泳裝誘惑指揮官，剛到沙灘就跑去歐根那邊了。",
+			actor = 405021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -612,11 +612,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "咦，鐵必制小姐是喜歡這種運動的類型嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -628,8 +628,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -654,12 +654,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "唔，既然如此，那麼等大家都吃得差不多了，我們就來分組打沙灘排球吧！",
 			typewriter = {
 				speed = 0.05,
@@ -671,8 +671,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,

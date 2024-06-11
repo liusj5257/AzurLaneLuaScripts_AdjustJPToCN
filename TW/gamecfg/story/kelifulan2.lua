@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"騎士與獎賞\n\n<size=45>二 騎士團結成！ </size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "傍晚·體育館的一角",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "傍晚·體育館的一角",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "丹佛&蒙彼利埃",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "噢——！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 1
@@ -80,16 +80,16 @@ return {
 			}
 		},
 		{
-			actor = 102100,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102100,
+			nameColor = "#a9f548",
 			say = "……噗。 ……噢——！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 1
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "看來是由克里夫蘭級輕巡四人組成了隊伍。",
 			typewriter = {
 				speed = 0.05,
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "……明白了。只要大姐頭一聲令下，就算只有我一個人也會去幹掉對方全隊的",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			say = "不是啦！不是幹掉對方，是要靠比賽贏過她們啊！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "不是啦！不是幹掉對方，是要靠比賽贏過她們啊！",
+			actor = 102090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -248,16 +248,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "……什麼！ ？ ///（臉紅）",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 15,
 					number = 2
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "克里夫蘭瞬間變得滿臉通紅。",
 			typewriter = {
 				speed = 0.05,
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 102140,
+			say = "我明白了。……喂，大姐頭為了討你喜歡都做到這份上了，以後不許你離開她半步聽見沒有。你要把她的一言一行都牢牢記住。",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了。……喂，大姐頭為了討你喜歡都做到這份上了，以後不許你離開她半步聽見沒有。你要把她的一言一行都牢牢記住。",
+			actor = 102140,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -319,17 +319,17 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "不——是——啦！ ！你們倒是好好聽人說話啊——！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 2

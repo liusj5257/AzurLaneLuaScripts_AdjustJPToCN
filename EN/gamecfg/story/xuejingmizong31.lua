@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -44,25 +44,25 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
 			dir = 1,
+			bgName = "star_level_bg_504",
 			bgm = "battle-boss-3",
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "Tsk... Damn Tribunal and their secret weapons...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -81,10 +81,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Guess rescuing Marco Polo is on the back burner.",
 			painting = {
 				alpha = 0.3,
@@ -96,12 +96,12 @@ return {
 			}
 		},
 		{
-			actor = 9702070,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "New priority – weakening the low-level program presence in this area!",
 			painting = {
 				alpha = 0.3,
@@ -116,10 +116,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Purifier's mainframe should be somewhere around here...",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Come out, come out, wherever you are! Mama's got business with...",
 			painting = {
 				alpha = 0.3,
@@ -149,13 +149,13 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			actorShadow = true,
-			actorName = "Hiryuu?",
+			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
+			actor = 307040,
+			actorName = "Hiryuu?",
+			hidePaintObj = true,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -166,10 +166,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "...What the heck is this?",
 			painting = {
 				alpha = 0.3,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "A Pawn?",
 			painting = {
 				alpha = 0.3,
@@ -202,10 +202,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "What's a Pawn doing out here?",
 			painting = {
 				alpha = 0.3,
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actor = 9702070,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "And why is nobody ELSE here?",
 			painting = {
 				alpha = 0.3,
@@ -237,10 +237,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "There's no way she left the defense of her mainframe to a single Pawn, right? She wouldn't send ALL her units to Antarctica!",
 			painting = {
 				alpha = 0.3,
@@ -252,13 +252,13 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			actorShadow = true,
-			actorName = "Hiryuu?",
+			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
+			actor = 307040,
+			actorName = "Hiryuu?",
+			hidePaintObj = true,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Whatever, let's deal with you.",
 			painting = {
 				alpha = 0.3,
@@ -284,12 +284,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,10 +338,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "I've got places to– Whoa?!",
 			painting = {
 				alpha = 0.3,
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,10 +407,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "A-an attack?!",
 			painting = {
 				alpha = 0.3,
@@ -425,10 +425,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Shit, that was powerful! Who did that?!",
 			painting = {
 				alpha = 0.3,
@@ -440,13 +440,13 @@ return {
 			}
 		},
 		{
-			actor = 900314,
 			nameColor = "#FF9B93",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "Souryuu META",
 			side = 2,
+			bgName = "star_level_bg_504",
+			dir = 1,
+			actor = 900314,
+			actorName = "Souryuu META",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Y-you... What are you?!",
 			painting = {
 				alpha = 0.3,
@@ -479,10 +479,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Where'd you come from?!",
 			painting = {
 				alpha = 0.3,
@@ -497,10 +497,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Nobody said I'd be dealing with YOU!",
 			painting = {
 				alpha = 0.3,
@@ -515,10 +515,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "G-god, test site beta is a frightening place!",
 			painting = {
 				alpha = 0.3,
@@ -541,12 +541,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

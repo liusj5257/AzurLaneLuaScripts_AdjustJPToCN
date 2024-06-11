@@ -1,7 +1,7 @@
 slot0 = class("AwardInfoMediator", import("..base.ContextMediator"))
 slot0.ON_DROP = "AwardInfoMediator:ON_DROP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_DROP, function (slot0, slot1, slot2)
 		if slot1.type == DROP_TYPE_EQUIP then
 			uv0:addSubLayers(Context.New({
@@ -37,7 +37,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.STORY_BEGIN,
 		GAME.STORY_END,
@@ -45,7 +45,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.STORY_BEGIN or slot2 == GAME.STORY_NEXT then

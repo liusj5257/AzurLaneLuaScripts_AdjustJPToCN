@@ -1,15 +1,15 @@
 return {
-	id = "HOLOGUANQIA16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-ayame",
 			say = "鏡面海域に点在した島々の向こう――水平線の彼方に位置する場所に、ぽつりと和風のお城が静かに佇んでいる。",
+			side = 2,
+			dir = 1,
+			bgm = "holo-ayame",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それは要衝を守る拠点か、はたまたこの海域の支配を誇示する象徴か",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "そんなことはもはや関係なく、迫ってくるセイレーンの艦隊の前で――",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "城の命運は今、尽きようとしているのだ",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			say = "百鬼城まで逃げたけど、ここまで…か",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			say = "余はサーバーで建築してただけなのに、なんでこんな目に遭うのだ？！",
 			typewriter = {
 				speed = 0.05,
@@ -108,9 +108,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "セイレーン…もしかしてフブキちゃんが普段やってるあのゲームの？",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,9 +134,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ここはまさかゲームの世界なのか！？",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			say = "脱出しようとしても…あやめちゃん！なんでこんなでかい城なのに、抜け道が一本もないの！！",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			say = "だって百鬼城は日常生活をイメージして作った城だもの！動物を飼ったり作物を植えたりして、のんびり過ごす感じで作ったから…",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "普通は戦場になるとか考えないし、抜け道なんて当然作ってないし！",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,8 +219,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			say = "くそ…もうダメか",
 			typewriter = {
 				speed = 0.05,
@@ -249,9 +249,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "え！！綾波、ラフィー、二人だけで本当に大丈夫なの！",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,9 +275,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うむ！余も一緒に行こう！この刀の切れ味、見せてくれようぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -332,8 +332,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			say = "で、でも…",
 			typewriter = {
 				speed = 0.05,

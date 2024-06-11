@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "雷达扫描·改",
 	cd = 0,
+	picture = "0",
+	desc = "雷达扫描·改",
 	painting = 1,
 	id = 13401,
-	picture = "0",
 	castCV = "skill",
-	desc = "雷达扫描·改",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHarm",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHarm",
 			arg_list = {
 				buff_id = 13403
 			}

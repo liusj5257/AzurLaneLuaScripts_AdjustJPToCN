@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA39",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA39",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,10 +35,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_mirror",
 			side = 0,
+			bgName = "bg_mirror",
+			hideOther = true,
 			dir = 1,
 			actor = 301840,
 			actorName = "{namecode:27}&{namecode:29}",
@@ -64,8 +64,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "千歲、千代田、配合妾身的艦載機隊，繼續壓制測試者的航空力量。",
 			typewriter = {
@@ -78,10 +78,10 @@ return {
 			}
 		},
 		{
-			actor = 306080,
 			nameColor = "#a9f548",
-			bgName = "bg_mirror",
 			side = 0,
+			bgName = "bg_mirror",
+			actor = 306080,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:103}&{namecode:104}",
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "其餘各火力艦繼續等待……",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "哎？！我們還需要等什麼…？",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "等待測試者將全部精力用於對空作戰，改變應對模式而露出破綻的時候…",
 			typewriter = {
@@ -184,9 +184,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "正是如此。請諸位與妾身一同努力，共同贏取勝利吧！",
 			typewriter = {

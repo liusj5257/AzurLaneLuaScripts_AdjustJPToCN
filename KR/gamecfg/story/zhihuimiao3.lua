@@ -1,8 +1,8 @@
 return {
-	id = "ZHIHUIMIAO3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "ZHIHUIMIAO3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
@@ -20,10 +20,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "끝났다냥! 새로운 지휘냥을 데려가라냥!",
 			flashout = {
 				dur = 1,

@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62851,
 					supportTarget = {
@@ -22,10 +22,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62851,
@@ -43,10 +43,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62861,
 					supportTarget = {
@@ -63,10 +63,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -87,10 +87,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62852,
 					supportTarget = {
@@ -107,10 +107,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62852,
@@ -128,10 +128,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62862,
 					supportTarget = {
@@ -148,10 +148,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -172,10 +172,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62853,
 					supportTarget = {
@@ -192,10 +192,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62853,
@@ -213,10 +213,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62863,
 					supportTarget = {
@@ -233,10 +233,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -257,10 +257,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62854,
 					supportTarget = {
@@ -277,10 +277,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62854,
@@ -298,10 +298,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62864,
 					supportTarget = {
@@ -318,10 +318,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -342,10 +342,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62855,
 					supportTarget = {
@@ -362,10 +362,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62855,
@@ -383,10 +383,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62865,
 					supportTarget = {
@@ -403,10 +403,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -427,10 +427,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62856,
 					supportTarget = {
@@ -447,10 +447,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62856,
@@ -468,10 +468,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62866,
 					supportTarget = {
@@ -488,10 +488,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -512,10 +512,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62857,
 					supportTarget = {
@@ -532,10 +532,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62857,
@@ -553,10 +553,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62867,
 					supportTarget = {
@@ -573,10 +573,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -597,10 +597,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62858,
 					supportTarget = {
@@ -617,10 +617,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62858,
@@ -638,10 +638,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62868,
 					supportTarget = {
@@ -658,10 +658,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -682,10 +682,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62859,
 					supportTarget = {
@@ -702,10 +702,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62859,
@@ -723,10 +723,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62869,
 					supportTarget = {
@@ -743,10 +743,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -767,10 +767,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					weapon_id = 62860,
 					supportTarget = {
@@ -787,10 +787,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandomByWeight",
 				arg_list = {
 					delay = 1,
 					weapon_id = 62860,
@@ -808,10 +808,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 62870,
 					supportTarget = {
@@ -828,10 +828,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 61529,
 					supportTarget = {
@@ -852,11 +852,11 @@ return {
 	uiEffect = "",
 	name = "编队外支援炮击",
 	cd = 0,
+	picture = "0",
+	desc = "武藏-2雷1刀",
 	painting = "wuzang",
 	id = 16061,
-	picture = "0",
 	castCV = "",
-	desc = "武藏-2雷1刀",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

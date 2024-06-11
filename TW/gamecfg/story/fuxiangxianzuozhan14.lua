@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307050,
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "瑞鶴，這些棋子的飛機稍微有點難纏……！戰鬥力不錯，組織也很嚴密……總之我繼續嘗試打亂它們的陣型！",
 			bgm = "xinnong-2",
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "瑞鶴，這些棋子的飛機稍微有點難纏……！戰鬥力不錯，組織也很嚴密……總之我繼續嘗試打亂它們的陣型！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "不要勉強，翔鶴姐！艦載機數量上我們有優勢，分割之後多打少消滅它們！",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "翔鶴，瑞鶴也許我們遇到的不止塞壬艦隊這麼簡單的問題……我們真的還在預定航線上嗎？",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "嗯……周邊的海域給我一種很陌生的感覺。雖然鏡面海域本身會干擾判斷，但是周邊陸續出現的小島……這絕對不是我當時從歐羅巴返回重櫻的航線……",
 			typewriter = {
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "嗚……居然迷航和遭遇塞壬二者全中了嗎……！",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -226,8 +226,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "綜合現有訊息，我們也許大幅偏離航線進入了某處塞壬嚴格守衛的實驗場。在補給有限敵情不明的情況下，我建議進行避戰，盡快撤離。",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "重點留意一下島嶼的方位和標誌性地理環境，我們需要盡快確定當前所處的方位，",
 			typewriter = {
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "前鋒艦隊取消偵察任務立即返回，艦隊調整航向，做好撤離準備！",
 			typewriter = {
 				speed = 0.05,

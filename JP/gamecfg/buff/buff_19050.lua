@@ -11,8 +11,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.2
+					number = 0.2,
+					attr = "cri"
 				}
 			},
 			{
@@ -21,8 +21,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -49,8 +49,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.222
+					number = 0.222,
+					attr = "cri"
 				}
 			},
 			{
@@ -59,8 +59,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -87,8 +87,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.244
+					number = 0.244,
+					attr = "cri"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -125,8 +125,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.266
+					number = 0.266,
+					attr = "cri"
 				}
 			},
 			{
@@ -135,8 +135,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.288
+					number = 0.288,
+					attr = "cri"
 				}
 			},
 			{
@@ -173,8 +173,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.31
+					number = 0.31,
+					attr = "cri"
 				}
 			},
 			{
@@ -211,8 +211,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -239,8 +239,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.332
+					number = 0.332,
+					attr = "cri"
 				}
 			},
 			{
@@ -249,8 +249,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -277,8 +277,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.354
+					number = 0.354,
+					attr = "cri"
 				}
 			},
 			{
@@ -287,8 +287,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -315,8 +315,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.376
+					number = 0.376,
+					attr = "cri"
 				}
 			},
 			{
@@ -325,8 +325,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -353,8 +353,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.4
+					number = 0.4,
+					attr = "cri"
 				}
 			},
 			{
@@ -363,8 +363,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.65
+					number = 0.65,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -382,12 +382,12 @@ return {
 	desc_get = "鱼雷暴击率提高20.0%(满级40.0%)，暴击伤害提高65.0%",
 	name = "心神合一",
 	init_effect = "jinengchufared",
+	id = 19050,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "鱼雷暴击率提高$1，暴击伤害提高65.0%",
 	stack = 1,
-	id = 19050,
+	color = "red",
 	icon = 19050,
 	last_effect = "",
 	blink = {
@@ -404,8 +404,8 @@ return {
 				"onTorpedoWeaponBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.2
+				number = 0.2,
+				attr = "cri"
 			}
 		},
 		{
@@ -414,8 +414,8 @@ return {
 				"onTorpedoWeaponBulletCreate"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.65
+				number = 0.65,
+				attr = "criDamage"
 			}
 		},
 		{

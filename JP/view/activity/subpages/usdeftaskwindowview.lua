@@ -1,6 +1,6 @@
 slot0 = class("USDefTaskWindowView", import("...base.BaseSubView"))
 
-function slot0.Load(slot0)
+slot0.Load = function(slot0)
 	slot0._tf = findTF(slot0._parentTf, "USDefTaskWindow")
 	slot0._go = go(slot0._tf)
 
@@ -8,11 +8,11 @@ function slot0.Load(slot0)
 	slot0:OnInit()
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	slot0:Hide()
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateProgress()
@@ -20,10 +20,10 @@ function slot0.OnInit(slot0)
 	slot0:Show()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.taskIDList = Clone(pg.task_data_template[slot0.contextData:getConfig("config_client")[1]].target_id)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskVOList = {}
@@ -33,7 +33,7 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.curNumTextTF = slot0:findTF("ProgressPanel/CurNumText")
 	slot0.totalNumText = slot0:findTF("ProgressPanel/TotalNumText")
@@ -46,7 +46,7 @@ function slot0.initUI(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.updateProgress(slot0)
+slot0.updateProgress = function(slot0)
 	slot1 = #slot0.taskIDList
 	slot2 = 0
 
@@ -60,7 +60,7 @@ function slot0.updateProgress(slot0)
 	setText(slot0.totalNumText, string.format("%2d", slot1))
 end
 
-function slot0.updateTaskList(slot0)
+slot0.updateTaskList = function(slot0)
 	slot0.taskList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot1 = slot1 + 1

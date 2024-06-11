@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Heart in the Right Place\n\n<size=45>4 Be Mindful Around the Green</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Unable to find Yuudachi, we went back to the yard. There, we saw Yamashiro and Fusou wave at us from over by the shrine.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Unable to find Yuudachi, we went back to the yard. There, we saw Yamashiro and Fusou wave at us from over by the shrine.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "For the love of... That moron's gonna pay for this. With her dinner!",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I took up on their offer and accepted the cup of tea. My eyes casually glanced over at the shrine office to the side, where I saw a myriad of charms and talismans on display.",
 			typewriter = {
 				speed = 0.05,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Curious to see for herself, Shigure shook the box. The fortune she received was – astoundingly – \"supreme luck.\"",
 			typewriter = {
 				speed = 0.05,
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "Heheheh... Watch this, Commander. I'll prove that I'm the luckiest lucky ship that ever lucked into this port!",
 			effects = {
 				{
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "She shook the box again, and again, and again. When she finished, she had received that same fortune a whole five times in a row.",
 			effects = {
 				{
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Yamashiro picked up the box, gave it a gentle shake, and out came a fortune – regular luck.",
 			typewriter = {
 				speed = 0.05,
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Shigure's attention was suddenly drawn to the teacup in Yamashiro's hand.",
 			typewriter = {
 				speed = 0.05,
@@ -398,11 +398,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "Oww! Hot! Hot!",
 			dialogShake = {
 				speed = 0.09,
@@ -419,9 +419,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Yamashiro tilted her head back to drink from the teacup. The next moment, she cringed in pain, lowered the teacup, and stuck her tongue out.",
 			typewriter = {
 				speed = 0.05,

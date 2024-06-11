@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "雷击易伤",
 	time = 0,
-	color = "blue",
+	name = "雷击易伤",
+	init_effect = "",
+	id = 71150,
 	picture = "",
 	desc = "易伤类型用例,受到雷击伤害提高50%",
 	stack = 1,
-	id = 71150,
+	color = "blue",
 	icon = 71150,
 	last_effect = "Darkness",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageGetRatioByBulletTorpedo",
-				number = 0.5
+				number = 0.5,
+				attr = "damageGetRatioByBulletTorpedo"
 			}
 		}
 	}

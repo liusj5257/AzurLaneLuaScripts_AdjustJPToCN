@@ -159,14 +159,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "巴尔的摩换弹",
 	time = 0,
-	color = "red",
+	name = "巴尔的摩换弹",
+	init_effect = "",
+	id = 12481,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12481,
+	color = "red",
 	icon = 12480,
 	last_effect = "",
 	effect_list = {

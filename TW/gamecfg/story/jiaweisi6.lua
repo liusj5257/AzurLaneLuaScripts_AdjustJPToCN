@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"聽妳說喜歡\n\n<size=45>六　被隱藏的真心</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "正要和傑維斯離開演習海域時，剛剛結束演習的雅努斯跑了過來。",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "正要和傑維斯離開演習海域時，剛剛結束演習的雅努斯跑了過來。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官和傑維斯……你們是來查看演習結果的嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "咳……沒錯，正是如此。",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -442,8 +442,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -471,8 +471,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
 			say = "雅努斯看來也用自己的方式關心著傑維斯啊————",
 			typewriter = {
 				speed = 0.05,

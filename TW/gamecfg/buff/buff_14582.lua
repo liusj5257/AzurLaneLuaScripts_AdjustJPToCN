@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "属性变更",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

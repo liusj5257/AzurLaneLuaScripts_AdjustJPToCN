@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_173 = {}
 slot1 = slot0.word_template_173
 
-function temp()
+temp = function()
 	uv0["褲"] = {
 		["襪"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嚳"] = {
 		this = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["胯"] = {
 		["下"] = {
 			["呻"] = {
@@ -37,7 +37,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["跨"] = {
 		["省"] = {
 			["毁"] = {
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["快"] = {
 		["播"] = {
 			this = true
@@ -185,7 +185,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["款"] = {
 		["到"] = {
 			["发"] = {
@@ -199,7 +199,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["狂"] = {
 		["操"] = {
 			this = true,

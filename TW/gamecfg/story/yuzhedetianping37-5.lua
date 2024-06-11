@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			bgm = "story-thehierophantV",
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "轟————————！",
-			bgm = "story-thehierophantV",
 			flashN = {
 				color = {
 					1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "計畫艦正在協力發動攻擊，其餘諸艦也勉強進行作戰。",
@@ -74,10 +74,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "神正在向指揮官的方向移動！",
 			painting = {
 				alpha = 0.3,
@@ -92,10 +92,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "必須拖延它的速度……才行！",
 			painting = {
 				alpha = 0.3,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "然而，攻擊依然沒有任何效果，「神」的行動沒有受到任何阻擋。",
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "祂正在接近，然後再次舉起了權杖。",
@@ -151,10 +151,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "海倫娜，妳還在等什麼！",
 			painting = {
 				alpha = 0.3,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "「神」的權杖射出的光在迪貝路的艦載機間跳動，再次形成了一張大網。",
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "不過——",
@@ -234,13 +234,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_underheaven_cg10",
+			stopbgm = true,
+			dialogueBgAlpha = 0.6,
+			bgm = "theme-thetowerXVI",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
-			bgm = "theme-thetowerXVI",
-			stopbgm = true,
 			hidePaintObj = true,
 			say = "轟————————！",
 			flashN = {
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -330,8 +330,8 @@ return {
 			expression = 2,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			bgName = "star_level_bg_504",
 			actor = 9702010,
 			nameColor = "#ffa500",
@@ -346,8 +346,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -700,10 +700,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			actor = 605010,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
+			hidePaintObj = true,
 			say = "簡直就像打靶訓練一樣。",
 			typewriter = {
 				speed = 0.05,
@@ -714,10 +714,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			actor = 605010,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
+			hidePaintObj = true,
 			say = "雖然這個靶子沒什麼命中手感……不過我不會客氣的。",
 			typewriter = {
 				speed = 0.05,
@@ -744,8 +744,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -756,8 +756,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -780,8 +780,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -792,8 +792,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -804,8 +804,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -816,14 +816,14 @@ return {
 			}
 		},
 		{
-			actor = 900357,
 			nameColor = "#BDBDBD",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
 			side = 2,
-			say = "「▅■分▆▅」",
+			bgName = "star_level_bg_504",
 			bgm = "theme-threat-typeV",
+			actor = 900357,
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "「▅■分▆▅」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,8 +836,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -883,8 +883,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "海洛芬特拋棄了機甲，孤單一人從空中陡然加速。",
@@ -909,8 +909,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "似乎只有一瞬間，便來到了指揮艦的上方。",
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "除了指揮艦甲板上的信濃，此刻再無能夠阻擋祂的存在——",
@@ -934,11 +934,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			soundeffect = "event:/ui/fengling",
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "休想得逞！",
-			soundeffect = "event:/ui/fengling",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,15 +949,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			say = "耳邊傳來了……風鈴的聲音？",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -970,12 +970,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "轟————————！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1039,8 +1039,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "妾身的攻擊……命中了？",
 			painting = {
@@ -1053,8 +1053,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "風鈴的餘音仍迴盪在耳邊。",
@@ -1064,8 +1064,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "一直無法被任何武器命中的海洛芬特，在遭到信濃的攻擊後停了下來。",
@@ -1078,8 +1078,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "……既然如此，再接再厲——",
 			painting = {
@@ -1107,8 +1107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "分身……？！不好——",
 			painting = {
@@ -1121,8 +1121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "在信濃驚愕的眼神中，一個新的海洛芬特憑空誕生了。",
@@ -1132,8 +1132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "新生的海洛芬特如同幽靈般徑直穿過牆壁，來到了我的面前。",
@@ -1145,8 +1145,8 @@ return {
 		{
 			actor = 900357,
 			side = 2,
-			nameColor = "#BDBDBD",
 			hidePaintObj = true,
+			nameColor = "#BDBDBD",
 			blackBg = true,
 			say = "「▅■分▆▅」",
 			typewriter = {
@@ -1154,8 +1154,8 @@ return {
 				speedUp = 0.01
 			},
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -1175,8 +1175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "在一陣失重感中，意識陷入了黑暗。",

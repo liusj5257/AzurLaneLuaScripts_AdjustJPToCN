@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "15分前 鏡面海域・「若返りの泉」外域海域",
 			bgm = "story-temepest-2",
+			say = "15分前 鏡面海域・「若返りの泉」外域海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "「神隠しの概念」の嵐を通り、ロイヤル・フォーチュンたちは「若返りの泉」がある海域にたどり着いた。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "永遠に止むことのない暴風が吹き荒れ、雲に届くほどの黒い機械構造の森が海面に佇んでおり、不吉な気配を醸し出している。",
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "いいえ、残響艦隊の拠点と呼んだほうがいいかしら",
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「若返りの泉」なんて嘘、本当の目的は指揮官と艦船をさらうこと…",
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "隠居者",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "最初から欲張らなければいいものを",
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もうこうなったらやけよ！正面突破だ正面突破！",
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――って指揮官が言ってた！",
@@ -442,28 +442,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_524",
+			bgm = "theme-tempest",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そう言ってサン・マルチーニョは槍を掲げた。するとどこからともなく彼女の乗艦であるガレオンが海から現れた――",
-			bgm = "theme-tempest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -517,11 +517,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うちの商売は零細なのでね～",
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドが言い終えると、水平線の霧の中から量産艦による艦隊が姿を見せた。",
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "ウィダーが指揮する量産艦たちも次々と旗を上げ――",
@@ -623,8 +623,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "瞬く間に量産艦の大艦隊が結成された。数こそ残響艦隊には劣るものの、制御されている分陣形はしっかりとしている。",
@@ -653,11 +653,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "わ、わたし一人でも参陣するよ！",
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "だ、大丈夫！わたしもこんなにすごい仲間たちと冒険できて鼻が高いなー！あははは……",
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "強がっているものの、ロイヤル・フォーチュンは今にもくすんと泣き崩れそうだ",

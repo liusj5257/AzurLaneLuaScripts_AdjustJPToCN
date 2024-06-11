@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.extraenemy_challenge_template = {
 	{
-		id = 1,
 		ex_challenge_enemy = 1729005,
+		id = 1,
 		score_pt = {
 			5000,
 			300,
@@ -233,8 +233,8 @@ pg.extraenemy_challenge_template = {
 		}
 	},
 	{
-		id = 2,
 		ex_challenge_enemy = 1789005,
+		id = 2,
 		score_pt = {
 			5000,
 			300,

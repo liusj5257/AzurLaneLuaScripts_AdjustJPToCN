@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "battle-arcticocean",
 			soundeffect = "event:/battle/boom2",
 			say = "KABOOOM!",
-			bgm = "battle-arcticocean",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's over for you!",
 			painting = {
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Herooo Slaaash!",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,9 +100,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			bgName = "star_level_bg_177",
 			bgm = "theme-ijndailymeeting",
 			actor = 705062,
 			nameColor = "#FEF15E",
@@ -116,17 +116,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Heck yeah! I mean... Of course! Didn't even break a sweat!",
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "What about them? I am the all-knowing witch. Of course I can cast advanced curses and control monsters from beyond this world.",
 			painting = {
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "Potion Maker",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Master, please give that a rest already!",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			say = "Arkhangelsk holds her hand in the air and an elegant flute appears in her palm.",
 			typewriter = {
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "This is the Flute of Time. A keepsake from the legendary party that great mage was in.",
 			painting = {
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yippee! We got a key item!",
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Don't just stand there, Commander. It's time to leave!",
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Let's go back to the Endless Woods and lift that stupid curse!",
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

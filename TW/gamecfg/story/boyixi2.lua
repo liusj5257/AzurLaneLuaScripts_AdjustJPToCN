@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"香醇的提拉米蘇\n\n<size=45>二  新任秘書艦{namecode:197}</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，很高興見到你……我是新任秘書艦{namecode:197}。",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（深呼吸、深呼吸……）",
 			typewriter = {
 				speed = 0.05,
@@ -103,15 +103,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "——秘書艦的工作要從這裡開始嗎…我明白了。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,10 +169,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "委託相關的文件……我已經整理好了。",
 			typewriter = {
 				speed = 0.05,
@@ -201,15 +201,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，快到午休時間了……需要準備什麼飲料嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "能量飲料嗎……指揮官還是喝點甜甜的，稍微放鬆一下比較好吧……？",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "潛水嗎？算是我的一個小愛好吧……",
 			typewriter = {
 				speed = 0.05,
@@ -284,12 +284,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不過畢竟我不是潛艇……只是藉助潛水裝備稍微在水下待一會啦。",
 			typewriter = {
 				speed = 0.05,
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "喜歡潛水的理由……",
 			typewriter = {
 				speed = 0.05,
@@ -342,10 +342,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "有時候會想要和世界隔絕開來，享受只屬於自己的寧靜……指揮官應該也有過這樣的想法吧。",
 			typewriter = {
 				speed = 0.05,
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "潛到水下之後，就會有這樣一種與世隔絕的感覺……",
 			typewriter = {
 				speed = 0.05,
@@ -392,10 +392,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "水下的世界很漂亮……有各種顏色的珊瑚，還有游來游去的海龜。",
 			typewriter = {
 				speed = 0.05,
@@ -410,10 +410,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "如果碰到魚群遷徙的話，還可以游進它們的中心跳舞……那種感覺也很不錯。",
 			typewriter = {
 				speed = 0.05,

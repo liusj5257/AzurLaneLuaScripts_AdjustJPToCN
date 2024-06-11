@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
-			say = "프리드 마을… 평화를 의미하는 'Frieden'에서 이름을 따왔다.",
 			bgm = "xinnong-3",
+			say = "프리드 마을… 평화를 의미하는 'Frieden'에서 이름을 따왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "하지만 그런 마을의 평화는 지금 전쟁의 불꽃으로 유린당하고 있다.",
 			typewriter = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "누구더러 도적떼라는 거야!",
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "우리는 마왕을 토벌하기 위해 모험 중인 용사 파티라고! 당신이야말로 누군데?",
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "왕국군 상급 기사",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "모험가 파티……",
 			painting = {
@@ -157,9 +157,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_506",
 			factiontag = "왕국군 상급 기사",
 			dir = 1,
+			bgName = "star_level_bg_506",
 			bgm = "theme-camelot",
 			actor = 205130,
 			nameColor = "#A9F548FF",
@@ -173,17 +173,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "왕국군 상급 기사",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "프리드 마을이 습격을 받고 있다는 소식을 듣고 도우러 왔어.",
 			painting = {
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그랬지… 하지만 우리가 할일은 이제 없는 것 같네.",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "서브 퀘스트 보수는 날아갔네…",
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어쩔 수 없지. 지휘관, 메인 퀘스트로 돌아가자.",
@@ -461,11 +461,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
-			say = "――――!!",
 			soundeffect = "event:/battle/boom2",
+			say = "――――!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,11 +585,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "우리들도 갈게!",
@@ -603,8 +603,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

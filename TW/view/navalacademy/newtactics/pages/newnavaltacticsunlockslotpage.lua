@@ -1,10 +1,10 @@
 slot0 = class("NewNavalTacticsUnlockSlotPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewNavalTacticsUnlockSlotPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.contentTxt = slot0:findTF("content/Text"):GetComponent(typeof(Text))
 	slot0.discountDateTxt = slot0:findTF("content/discountDate"):GetComponent(typeof(Text))
 	slot0.discountTxt = slot0:findTF("content/discountInfo/Text"):GetComponent(typeof(Text))
@@ -16,7 +16,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.cancelBtn:Find("pic"), i18n("word_cancel"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.callback then
 			uv0.callback()
@@ -35,7 +35,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot0.callback = slot2
@@ -48,7 +48,7 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0.commodity = slot3
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0:RemoveTimer()
 
 	if slot1:isDisCount() then
@@ -61,7 +61,7 @@ function slot0.Flush(slot0, slot1)
 	setActive(slot0.discountTxt.gameObject.transform.parent, slot2)
 end
 
-function slot0.UpdateDiscountView(slot0, slot1)
+slot0.UpdateDiscountView = function(slot0, slot1)
 	slot2, slot3 = slot1:GetPrice()
 
 	slot0:AddTimer(slot1:GetDiscountEndTime())
@@ -80,7 +80,7 @@ function slot0.UpdateDiscountView(slot0, slot1)
 	end)
 end
 
-function slot0.AddTimer(slot0, slot1)
+slot0.AddTimer = function(slot0, slot1)
 	slot0.timer = Timer.New(function ()
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
 			uv1.discountDateTxt.text = ""
@@ -96,13 +96,13 @@ function slot0.AddTimer(slot0, slot1)
 	slot0.timer.func()
 end
 
-function slot0.WarpDateTip(slot0, slot1)
+slot0.WarpDateTip = function(slot0, slot1)
 	slot2 = ""
 
 	return (slot1 < 86400 or math.floor(slot1 / 86400)) and (slot1 < 3600 or math.floor(slot1 / 3600)) and math.floor(slot1 / 60)
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -110,7 +110,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:RemoveTimer()
 	uv0.super.Hide(slot0)
 
@@ -118,7 +118,7 @@ function slot0.Hide(slot0)
 	slot0.commodity = nil
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

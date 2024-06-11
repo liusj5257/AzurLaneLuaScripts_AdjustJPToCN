@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"誓ってナイト！\n\n<size=45>一　指揮官、おはよう！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "何事もない普通の朝。",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "強いて言えば――今日は秘書艦の担当が変わる日だ。",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "新しい秘書艦、確かU-556と言ったか。……前任者の紹介によると元気な子らしいが、秘書艦の仕事を上手くこなしてくれるといいな。",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "まだ早いけど…とりあえず執務室に行って資料の整理でもしておくか。",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "あれ？鍵が開いている……？",
 			typewriter = {
 				speed = 0.05,
@@ -130,13 +130,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "警戒しながら執務室に入ると……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "本棚に置かれていたはずの資料と本の数々が床に散らかっている。",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ま、まさか――！？",
 			dialogShake = {
 				speed = 0.09,
@@ -208,12 +208,12 @@ return {
 			}
 		},
 		{
-			actor = 408040,
+			say = "おっ、指揮官！おはよう！",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "おっ、指揮官！おはよう！",
+			actor = 408040,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
 				y = -2000
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0,
 					dur = 0.2,
 					x = 0
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "小さな彼女が奥の執務机から顔を出してきた。",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "うん、あたし！今日から秘書艦を担当するからちょっと早起きしちゃった！",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "執務室に来たらなぜか鍵がかかってなくて、指揮官が来るまでに何かあたしでも役立てることないかって本を探したけど！",
 			typewriter = {
@@ -294,8 +294,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "そしたら読んでもよくわからない本ばかりで、秘書艦ってこれ全部わからなきゃダメなのってちょっと心配してて……",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "でもまずは資料を元に戻してって？大丈夫！まっかせてー！",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
 			say = "U-556は自信たっぷりの笑顔を見せた。",
@@ -384,8 +384,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "あれ？ここじゃないっぽい？も、もしかしてあたし間違えてるの？これも違う、これも…これ元々どこに置いてあったっけ……",
 			typewriter = {
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -411,8 +411,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "しまった、わからないよ……",
 			typewriter = {
@@ -428,8 +428,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "指揮官、ごめんなさい…元々どこに置いてあったか忘れちゃった……",
 			typewriter = {
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "U-556は早速助けを求めてきた。",
 			typewriter = {
 				speed = 0.05,

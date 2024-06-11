@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "story-antarctica-serious",
 			side = 2,
 			bgName = "star_level_bg_130",
+			soundeffect = "event:/battle/boom2",
+			bgm = "story-antarctica-serious",
 			nameColor = "#A9F548FF",
 			say = "――――！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -74,9 +74,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ突撃隊長",
 			dir = 1,
+			bgName = "star_level_bg_154",
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = "main1",
@@ -90,17 +90,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ追撃隊員",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "うわあああああ！ごめんなさいぃ！",
 			painting = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ追撃隊員",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "ぶ、武器が故障したーー！？",
 			painting = {
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "監房の鉄格子窓が吹き飛ばされただけでなく、壁にも大きな穴ができた。",
 			typewriter = {
@@ -203,17 +203,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "…このセキュリティが厳重な塔の上にある監房にたどり着くには、空を飛べる翼でも持っていなければ――",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "しかし、そんな「翼」を持つ存在は確かに現れた。",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "ヘリのエンジンから轟く爆音の中、空いた壁から見えた彼女の姿は、まるで月が遣わした天使のような……",
 			typewriter = {
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 705061,
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
 			optionFlag = 1,
+			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "率先して「あの方」のキャラバンを襲ったのはあなたよ？",
 			painting = {
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 705061,
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
+			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "今や「不夜城」ではあなたの名前が伝奇として語り継がれているもの",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "幻影のクーちゃんの言葉が耳元で反響する。",
 			typewriter = {
@@ -619,9 +619,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_154",
 			factiontag = "パトロール隊",
 			dir = 1,
+			bgName = "star_level_bg_154",
 			actor = 213043,
 			nameColor = "#FF9B93",
 			say = "イヒヒ、こちらセキュリティパトロール！",
@@ -634,17 +634,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -670,8 +670,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -698,11 +698,11 @@ return {
 			}
 		},
 		{
-			actor = 213043,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "パトロール隊",
 			dir = 1,
+			actor = 213043,
 			nameColor = "#FF9B93",
 			say = "断るなら身の安全は保証しないよー！",
 			painting = {
@@ -715,8 +715,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -727,9 +727,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_130",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
+			bgName = "star_level_bg_130",
 			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "クロンシュタットのやつ、こんなに早く援軍を出してくるとはね…",
@@ -742,17 +742,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			actor = 705061,
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
+			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "まあいいわ。もとより「レジスタンス」はあなたの計画に協力するつもりだもの",
 			painting = {
@@ -795,11 +795,11 @@ return {
 			}
 		},
 		{
-			actor = 705061,
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
+			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "あとはあなただけでどうにかしなさい",
 			painting = {
@@ -830,8 +830,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "謎のエージェントが別れを告げると、ヘリはいきなり高度を上げ、留置所の外へと飛んでいった。",
 			typewriter = {
@@ -839,17 +839,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -912,11 +912,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ追撃隊員",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "えっ、ええええ！？はい！？",
 			painting = {
@@ -929,8 +929,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -939,11 +939,11 @@ return {
 			}
 		},
 		{
-			actor = 718011,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ突撃隊長",
 			dir = 1,
+			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = "main2",
 			say = "留置所より全ユニットに告ぐ、当直中の全ユニットに告ぐ！",
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			actor = 718011,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ突撃隊長",
 			dir = 1,
+			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "オグネヴォイはここに残って！アバークロンビー、水上交通路を全て封鎖せよ！",
@@ -1042,26 +1042,26 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
+			side = 2,
 			say = "ヘリの轟音とセキュリティの車両のサイレン音が少しずつ遠ざかっていく。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1075,8 +1075,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "どうやらセキュリティの注意は無事アルハンゲリスクに向いたようだ。…さて、ここからどう脱出するか…",
 			typewriter = {
@@ -1085,8 +1085,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "壁の穴から飛び降りるか……さすがに無理だ。この高さから着水したら命はない。",
 			typewriter = {
@@ -1110,11 +1110,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_130",
-			nameColor = "#FF9B93",
-			live2d = true,
-			actor = 101452,
 			actorName = "？？？",
 			live2dIdleIndex = 1,
+			actor = 101452,
+			nameColor = "#FF9B93",
+			live2d = true,
 			say = "むしろその逆だよ？いざという時はなるようになるって",
 			typewriter = {
 				speed = 0.05,
@@ -1122,8 +1122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "停電で真っ暗な廊下から予想外の声が響く。",
 			typewriter = {
@@ -1132,8 +1132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "セキュリティの制服を着た少女が監房の扉窓に顔をのぞかせた。",
 			typewriter = {
@@ -1154,8 +1154,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "やっぱり無理を承知で壁の穴から脱出した方がよかったのでは、と軽く後悔しても遅かった。",
 			typewriter = {
@@ -1164,8 +1164,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "次の瞬間、少女は鍵を取り出し牢屋の扉を開けてくれた。",
 			typewriter = {
@@ -1177,10 +1177,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = "main2",
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			live2d = "main2",
 			say = "開けゴマ～！なんちゃって、今のあたしは看守じゃないよ？",
 			typewriter = {
 				speed = 0.05,
@@ -1191,10 +1191,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "アレン・M・サムナー改め、怪盗「ミスティック」が挨拶申し上げる！ご高名はかねがね～指揮官ちゃん♪",
 			typewriter = {
 				speed = 0.05,
@@ -1205,10 +1205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = "main3",
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = "main3",
 			say = "にしても、ここに潜入するのって思ってたよりカンタンだったね♪",
 			typewriter = {
 				speed = 0.05,
@@ -1225,10 +1225,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "違うよ？あたしは自由の怪盗、誰かのために戦うとかありえないから",
 			typewriter = {
 				speed = 0.05,
@@ -1239,10 +1239,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "気に入ってるものにしか興味がないよ。例えば…指揮官ちゃんのような「大物」ね",
 			typewriter = {
 				speed = 0.05,
@@ -1265,10 +1265,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = "main3",
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = "main3",
 			say = "えへへ、その通り。前から気になってたよ",
 			typewriter = {
 				speed = 0.05,
@@ -1279,10 +1279,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "それに、ここは最もアウトローな連中を閉じ込める場所だと聞いた",
 			typewriter = {
 				speed = 0.05,
@@ -1293,10 +1293,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "伝説の怪盗として、伝説の場所から伝説のレジェンドを盗み出す――こんなチャレンジやらないはずないってね",
 			typewriter = {
 				speed = 0.05,
@@ -1307,10 +1307,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = "main1",
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = "main1",
 			say = "怪盗は厳重なセキュリティを潜り抜けてこそ。でしょ？",
 			typewriter = {
 				speed = 0.05,
@@ -1318,8 +1318,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "ちょっと今の説明は説明になっていないし、そもそも無理な気もする。",
 			typewriter = {
@@ -1328,8 +1328,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "しかしなんとなく親しみを覚えた。",
 			typewriter = {
@@ -1338,8 +1338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "どこかで聞いたようなセリフだからだろうか？",
 			typewriter = {
@@ -1351,10 +1351,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "おーい。ボーッとしてたらせっかくの脱出もできなくなるよ？",
 			typewriter = {
 				speed = 0.05,
@@ -1365,10 +1365,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "怪盗「ミスティック」",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "撒いたデコイは直にバレるから、早くから脱出しないと",
 			typewriter = {
 				speed = 0.05,

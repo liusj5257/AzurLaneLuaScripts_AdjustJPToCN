@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "黑基洛夫BOSS战 曙光联合 闪流在场时提升BOSS属性",
 	time = 0,
+	name = "黑基洛夫BOSS战 曙光联合 闪流在场时提升BOSS属性",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

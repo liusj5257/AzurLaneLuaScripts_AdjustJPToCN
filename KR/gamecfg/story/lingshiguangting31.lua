@@ -1,19 +1,19 @@
 return {
-	id = "LINGSHIGUANGTING31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING31",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 205010,
-			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "방금 함대를 데리고 간 건 퓨리파이어야?",
 			bgm = "battle-boss-camelot",
+			actor = 205010,
+			nameColor = "#a9f548",
+			say = "방금 함대를 데리고 간 건 퓨리파이어야?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "네, 폐하.",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "갑자기 나타난 적들을 해치우러 왔다고 합니다. 세이렌이 저흴 향한 공격을 멈출 것이니 저희보고 먼저 가라고 했습니다.",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "그리고 BUG에 대해서도 언급한 것 같습니다만.",
 			typewriter = {
@@ -164,15 +164,15 @@ return {
 			}
 		},
 		{
-			actor = 207120,
 			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207120,
+			nameColor = "#a9f548",
 			say = "폐하, 검은 폭풍이… 분열되기 시작했습니다. 바다에 수많은 토네이도가 생겨 저희의 경로가 차단되었습니다!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -216,8 +216,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "폐하, 여기는 제게 맡겨주십쇼. 카멜롯의 정원과 멀지 않은 곳이니 먼저 대피하시기 바랍니다.",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "폐하를 위해 희생하는 것도 기사의 본분!",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -433,10 +433,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_9",
 			side = 0,
+			bgName = "bg_camelot_9",
+			hideOther = true,
 			dir = 1,
 			actor = 299010,
 			actorName = "넵튠&모나크&체셔",
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			actor = 299010,
 			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 299010,
+			nameColor = "#a9f548",
 			say = "로열 계획함의 첫 번째 협력 임무인 만큼 함께 우아하게 완수해봅시다~",
 			typewriter = {
 				speed = 0.05,

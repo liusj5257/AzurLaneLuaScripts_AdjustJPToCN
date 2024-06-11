@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港・臨時事務所",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "母港・臨時事務所",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "ど、どうでしょうか……？",
 			typewriter = {
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 101176,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actor = 101176,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "ラフィー&綾波",
 			say = "おお……",
@@ -92,8 +92,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "千早さん、すごく似合っています！",
 			effects = {
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "トンネルが見つかれば元の世界に戻れるかもしれないってことだね！",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "あ、でも……1つ気になることがあるんですけど……",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "前回「ニセモノ」の私たちは小さい船のステージでパフォーマンスしてましたけど、今回は大きなステージですよね",
 			typewriter = {
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "私たちも、全員が出られるような、大きなステージでライブをしたほうがいいと思います！",
 			typewriter = {
 				speed = 0.05,
@@ -374,8 +374,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -403,8 +403,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "……艤装は作ったけど無理して「戦う」必要なんてないんだぞ",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "いいえ、私たちにもパフォーマンスをさせてください",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "私たちの歌やダンスがみんなの助けになるのなら……協力させてほしいです",
 			typewriter = {
@@ -483,11 +483,11 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700020,
+			nameColor = "#a9f548",
 			say = "危険なことはしないと約束します。なので、私たちもライブに参加させてください！",
 			typewriter = {
 				speed = 0.05,
@@ -499,8 +499,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "みんな",
 			dir = 1,
+			actorName = "みんな",
 			say = "おー！",
 			effects = {
 				{
@@ -547,11 +547,11 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700050,
+			nameColor = "#a9f548",
 			say = "歌とダンスのレッスン、ライブのリハーサル、艦船のみんなとの連携に、「μ兵装」の使い方の勉強、それにライブステージを建てなきゃいけないし……",
 			effects = {
 				{
@@ -572,8 +572,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "やることはいっぱいありますね～",
 			typewriter = {
@@ -586,12 +586,12 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
 			say = "ふふ、これは腕が鳴りますね♪",
 			typewriter = {
 				speed = 0.05,

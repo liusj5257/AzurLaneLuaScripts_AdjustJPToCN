@@ -4,7 +4,7 @@ slot0.SHIP_SKIN_EXPIRED = "ship skin expired"
 slot0.FORBIDDEN_TYPE_HIDE = 0
 slot0.FORBIDDEN_TYPE_SHOW = 1
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.skins = {}
 	slot0.cacheSkins = {}
 	slot0.timers = {}
@@ -29,7 +29,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.getOverDueSkins(slot0)
+slot0.getOverDueSkins = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.cacheSkins) do
@@ -41,17 +41,17 @@ function slot0.getOverDueSkins(slot0)
 	return slot1
 end
 
-function slot0.getRawData(slot0)
+slot0.getRawData = function(slot0)
 	return slot0.skins
 end
 
-function slot0.getSkinList(slot0)
+slot0.getSkinList = function(slot0)
 	return _.map(_.values(slot0.skins), function (slot0)
 		return slot0.id
 	end)
 end
 
-function slot0.addSkin(slot0, slot1)
+slot0.addSkin = function(slot0, slot1)
 	assert(isa(slot1, ShipSkin), "skin should be an instance of ShipSkin")
 
 	if slot0.prevNewSkin then
@@ -65,18 +65,18 @@ function slot0.addSkin(slot0, slot1)
 	slot0.facade:sendNotification(uv0.SHIP_SKINS_UPDATE)
 end
 
-function slot0.getSkinById(slot0, slot1)
+slot0.getSkinById = function(slot0, slot1)
 	return slot0.skins[slot1]
 end
 
-function slot0.addExpireTimer(slot0, slot1)
+slot0.addExpireTimer = function(slot0, slot1)
 	slot0:removeExpireTimer(slot1.id)
 
 	if not slot1:isExpireType() then
 		return
 	end
 
-	function slot2()
+	slot2 = function()
 		table.insert(uv0.cacheSkins, uv1)
 		uv0:removeSkinById(uv1.id)
 		_.each(getProxy(BayProxy):getShips(), function (slot0)
@@ -98,7 +98,7 @@ function slot0.addExpireTimer(slot0, slot1)
 	end
 end
 
-function slot0.removeExpireTimer(slot0, slot1)
+slot0.removeExpireTimer = function(slot0, slot1)
 	if slot0.timers[slot1] then
 		slot0.timers[slot1]:Stop()
 
@@ -106,48 +106,48 @@ function slot0.removeExpireTimer(slot0, slot1)
 	end
 end
 
-function slot0.removeSkinById(slot0, slot1)
+slot0.removeSkinById = function(slot0, slot1)
 	slot0.skins[slot1] = nil
 
 	slot0:removeExpireTimer(slot1)
 	slot0.facade:sendNotification(uv0.SHIP_SKINS_UPDATE)
 end
 
-function slot0.hasSkin(slot0, slot1)
+slot0.hasSkin = function(slot0, slot1)
 	return slot0.skins[slot1] ~= nil
 end
 
-function slot0.hasNonLimitSkin(slot0, slot1)
+slot0.hasNonLimitSkin = function(slot0, slot1)
 	return slot0.skins[slot1] ~= nil and not slot2:isExpireType()
 end
 
-function slot0.hasOldNonLimitSkin(slot0, slot1)
+slot0.hasOldNonLimitSkin = function(slot0, slot1)
 	return slot0.skins[slot1] and not slot2:HasNewFlag() and not slot2:isExpireType()
 end
 
-function slot0.getSkinCountById(slot0, slot1)
+slot0.getSkinCountById = function(slot0, slot1)
 	return slot0:hasSkin(slot1) and 1 or 0
 end
 
-function slot0.InForbiddenSkinListAndHide(slot0, slot1)
+slot0.InForbiddenSkinListAndHide = function(slot0, slot1)
 	return _.any(slot0.forbiddenSkinList, function (slot0)
 		return slot0.id == uv0 and slot0.type == uv1.FORBIDDEN_TYPE_HIDE
 	end)
 end
 
-function slot0.InForbiddenSkinListAndShow(slot0, slot1)
+slot0.InForbiddenSkinListAndShow = function(slot0, slot1)
 	return _.any(slot0.forbiddenSkinList, function (slot0)
 		return slot0.id == uv0 and slot0.type == uv1.FORBIDDEN_TYPE_SHOW
 	end)
 end
 
-function slot0.InForbiddenSkinList(slot0, slot1)
+slot0.InForbiddenSkinList = function(slot0, slot1)
 	return _.any(slot0.forbiddenSkinList, function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end
@@ -155,14 +155,14 @@ function slot0.remove(slot0)
 	slot0.timers = nil
 end
 
-function slot0.GetAllSkins(slot0)
+slot0.GetAllSkins = function(slot0)
 	slot1 = {}
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		uv0(Goods.Create({
 			shop_id = slot0
 		}, Goods.TYPE_SKIN))
@@ -221,14 +221,14 @@ function slot0.GetAllSkins(slot0)
 	return slot1
 end
 
-function slot0.GetShopShowingSkins(slot0)
+slot0.GetShopShowingSkins = function(slot0)
 	slot1 = {}
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		slot1 = Goods.Create({
 			shop_id = slot0
 		}, Goods.TYPE_SKIN)
@@ -271,7 +271,7 @@ function slot0.GetShopShowingSkins(slot0)
 	return slot1
 end
 
-function slot0.GetAllSkinForShip(slot0, slot1)
+slot0.GetAllSkinForShip = function(slot0, slot1)
 	assert(isa(slot1, Ship), "ship should be an instance of Ship")
 
 	for slot7 = #ShipGroup.getSkinList(slot1.groupId), 1, -1 do
@@ -327,7 +327,7 @@ function slot0.GetAllSkinForShip(slot0, slot1)
 	return slot3
 end
 
-function slot0.GetShareSkinsForShipGroup(slot0, slot1)
+slot0.GetShareSkinsForShipGroup = function(slot0, slot1)
 	if not pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot1][1]].share_group_id or #slot3.share_group_id <= 0 then
 		return {}
 	end
@@ -347,11 +347,11 @@ function slot0.GetShareSkinsForShipGroup(slot0, slot1)
 	return slot4
 end
 
-function slot0.GetShareSkinsForShip(slot0, slot1)
+slot0.GetShareSkinsForShip = function(slot0, slot1)
 	return slot0:GetShareSkinsForShipGroup(slot1.groupId)
 end
 
-function slot0.GetAllSkinForARCamera(slot0, slot1)
+slot0.GetAllSkinForARCamera = function(slot0, slot1)
 	for slot6 = #ShipGroup.getSkinList(slot1), 1, -1 do
 		if slot2[slot6].skin_type == ShipSkin.SKIN_TYPE_OLD then
 			table.remove(slot2, slot6)
@@ -405,7 +405,7 @@ function slot0.GetAllSkinForARCamera(slot0, slot1)
 	return slot2
 end
 
-function slot0.InShowTime(slot0, slot1)
+slot0.InShowTime = function(slot0, slot1)
 	if pg.ship_skin_template_column_time[slot1] and slot2.time ~= "" and type(slot2.time) == "table" and #slot2.time > 0 then
 		return pg.TimeMgr.GetInstance():passTime(slot2.time)
 	end
@@ -413,22 +413,22 @@ function slot0.InShowTime(slot0, slot1)
 	return true
 end
 
-function slot0.HasFashion(slot0, slot1)
+slot0.HasFashion = function(slot0, slot1)
 	if #slot0:GetShareSkinsForShip(slot1) > 0 then
 		return true
 	end
 
 	if #slot0:GetAllSkinForShip(slot1) == 1 then
-		return PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot3[1].painting .. "_n"))
+		return checkABExist("painting/" .. slot3[1].painting .. "_n")
 	end
 
 	return #slot3 > 1
 end
 
-function slot0.GetEncoreSkins(slot0)
+slot0.GetEncoreSkins = function(slot0)
 	slot1 = getProxy(ActivityProxy)
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		if slot0:getConfig("config_client") and slot1[1] and type(slot1[1]) == "table" then
 			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[1]) <= pg.TimeMgr.GetInstance():GetServerTime()
 		else
@@ -445,7 +445,7 @@ function slot0.GetEncoreSkins(slot0)
 	return {}
 end
 
-function slot0.GetOwnSkins(slot0)
+slot0.GetOwnSkins = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in pairs(slot0:getRawData()) do
@@ -469,7 +469,7 @@ function slot0.GetOwnSkins(slot0)
 	return slot1
 end
 
-function slot0.GetOwnAndShareSkins(slot0)
+slot0.GetOwnAndShareSkins = function(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0:GetOwnSkins()) do
@@ -489,14 +489,14 @@ function slot0.GetOwnAndShareSkins(slot0)
 	return slot1
 end
 
-function slot0.GetProbabilitySkins(slot0, slot1)
+slot0.GetProbabilitySkins = function(slot0, slot1)
 	slot2 = {}
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		slot0:updateBuyCount(getProxy(ShipSkinProxy):getSkinById(slot0:getSkinId()) and not slot2:isExpireType() and 1 or 0)
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		uv0(Goods.Create({
 			shop_id = slot0
 		}, Goods.TYPE_SKIN))
@@ -525,7 +525,7 @@ function slot0.GetProbabilitySkins(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetSkinProbabilitys(slot0, slot1)
+slot0.GetSkinProbabilitys = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do

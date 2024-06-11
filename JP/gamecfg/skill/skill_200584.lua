@@ -35,9 +35,9 @@ return {
 			}
 		}
 	},
-	id = 200584,
-	name = "2023云仙活动 无形侵蚀",
 	cd = 0,
+	name = "2023云仙活动 无形侵蚀",
 	painting = "wuxingzhixi",
+	id = 200584,
 	effect_list = {}
 }

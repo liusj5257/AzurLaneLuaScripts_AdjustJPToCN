@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>Chapter 4 - A Room, Two Gamers, And I</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "This should be the place... Ah, you've got such a wonderful gaming PC!",
 			bgm = "story-nepu2",
+			actor = 10100040,
+			nameColor = "#a9f548",
+			say = "This should be the place... Ah, you've got such a wonderful gaming PC!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "Come on iiiin. Welcome to the Gamer Girl Grotto.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Come on iiiin. Welcome to the Gamer Girl Grotto.",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "This is a place of relaxation for those who have been freed of their duties, a place where they can spend some time as social rejects and indulge in their love of games and degeneracy... You are welcome here!",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Hum hum, that is the deepest thing I've heard all month... You are a pro, aren't you?",
 			typewriter = {
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "...CLACK CLACK CLACK CLACK CLACK... KA-CLICK!",
 			typewriter = {
 				speed = 0.05,
@@ -226,13 +226,13 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "And she plays hunting games solo and without any gear... Then completes it without even taking any damage! How?!",
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "And she plays hunting games solo and without any gear... Then completes it without even taking any damage! How?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "She tried land, sea, and air combat... She played every military sim there is, and she conquered them all!",
 			typewriter = {
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Then she immediately reaches for a bag of chips... I've never seen such a fearsome playstyle before!",
 			typewriter = {
@@ -313,9 +313,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "...CLACK CLACK CLACK CLACK CLACK... KA-CLICK!",
 			typewriter = {
 				speed = 0.05,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "Miss... You're a god among peasants! A gaming god! All I can say is: wow...",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Miss... You're a god among peasants! A gaming god! All I can say is: wow...",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "I, too, admire you! You are the very god of gaming itself... You have descended from the heavens to grace us with your presence...!",
 			typewriter = {
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Hum hum, if that's the plan, then it would be nice if we had a few more players...",
 			typewriter = {
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "You'll have to excuse us. Her Majesty wished to see what this place is about...",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You'll have to excuse us. Her Majesty wished to see what this place is about...",
+			actor = 205020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -509,11 +509,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "...Oh, I guess we just got a few more players.",
 			typewriter = {
@@ -590,11 +590,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "I think there's a fallacy in there somewhere, but... Are you sure?",
 			typewriter = {
@@ -655,11 +655,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Hey... That sounds exactly like something Ark Royal would say!",
 			typewriter = {

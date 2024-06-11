@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "减速恢复",
 	time = 0,
+	name = "减速恢复",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 4,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お嬢様とめぐるひとときを\n\n<size=45>七 興味と好奇心と</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "西日がゆっくりと沈んでいく夕刻――",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "西日がゆっくりと沈んでいく夕刻――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "……仕事が終わったかしら？",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "顔をあげると、そこにはチェイサーの姿があった。",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "最後の出向先であった重桜陣営から戻り、寮に帰ろうとするチェイサーに後で執務室に来るよう伝えていたのだ。",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "視察の報告の提出、それと……",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "ついちょっとレディらしくもなくからかいたくなっちゃったわ",
 			typewriter = {
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "昼間の演習海域でのことを思い出す。",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "あの後高雄さんと暁ちゃんにも説明したけど、「あわわ」とか「破廉恥な」とか怒られちゃって",
 			typewriter = {
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "感慨を述べながら優雅な足取りで窓際へと歩くチェイサーは、夕日に照らされ艶やかな光で輝いているように見えた。",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "……わたくし、カンレキの中で様々な場所に行ったことがあるの。でも、まだまだ行きたいところは多いし、知りたいことがたくさんあるわ",
 			typewriter = {
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "そして、彼女は微笑んでこちらに振り向いた。",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "…それで？私を呼びつけた理由は？",
 			typewriter = {
@@ -267,9 +267,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "その理由はもちろん――",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "明日も秘書艦をお願いって？もちろんいいけど、理由を教えてもらえるかしら？",
 			typewriter = {
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "お嬢様に見えて実は好奇心旺盛で、猪突猛進だと思いきや意外と思いやりがあって…",
 			typewriter = {
 				speed = 0.05,
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "奇想天外な行動の一つ一つも………「楽しい」と思ったからだ。",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "ありがとう。私も指揮官のご期待に応えられるよう…精一杯頑張るわ",
 			typewriter = {
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "優雅で、楽しく生きるのが幸せだもの♪",
 			typewriter = {
 				speed = 0.05,

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2022美系活动D3 BOSS浮游炮召唤 一阶段",
 	cd = 0,
-	painting = 0,
-	id = 200251,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200251,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -22,16 +22,16 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 3,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 3,
 							setAI = 75021
 						},
 						{
-							index = 1,
 							switchParam = 2,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3043206
@@ -41,9 +41,9 @@ return {
 							}
 						},
 						{
-							index = 2,
 							switchParam = 4,
 							switchTo = 1,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3043207
@@ -70,16 +70,16 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 3,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 3,
 							setAI = 75022
 						},
 						{
-							index = 1,
 							switchParam = 2,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3043206
@@ -89,9 +89,9 @@ return {
 							}
 						},
 						{
-							index = 2,
 							switchParam = 4,
 							switchTo = 1,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3043207

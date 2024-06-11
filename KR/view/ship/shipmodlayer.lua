@@ -2,15 +2,15 @@ slot0 = class("ShipModLayer", import("..base.BaseUI"))
 slot1 = 12
 slot0.IGNORE_ID = 4
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipModUI"
 end
 
-function slot0.setShipVOs(slot0, slot1)
+slot0.setShipVOs = function(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.blurPanelTF = slot0:findTF("blur_panel")
 	slot0.mainPanel = slot0:findTF("blur_panel/main")
 	slot0.shipContainer = slot0:findTF("bg/add_ship_panel/ships", slot0.mainPanel)
@@ -19,9 +19,9 @@ function slot0.init(slot0)
 	setText(slot0:findTF("bg/add_ship_panel/title/tip", slot0.mainPanel), i18n("ship_mod_exp_to_attr_tip"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("ok_btn", slot0.mainPanel), function ()
-		function slot0()
+		slot0 = function()
 			slot0, slot1 = ShipStatus.ShipStatusCheck("onModify", uv0.shipVO)
 
 			if not slot0 then
@@ -66,7 +66,7 @@ function slot0.didEnter(slot0)
 	slot0:blurPanel(true)
 end
 
-function slot0.blurPanel(slot0, slot1)
+slot0.blurPanel = function(slot0, slot1)
 	slot2 = pg.UIMgr.GetInstance()
 
 	if slot1 then
@@ -82,7 +82,7 @@ function slot0.blurPanel(slot0, slot1)
 	end
 end
 
-function slot0.startModShip(slot0)
+slot0.startModShip = function(slot0)
 	if not slot0.hasAddition then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("ship_mod_no_addition_tip"),
@@ -95,7 +95,7 @@ function slot0.startModShip(slot0)
 	end
 end
 
-function slot0.setShip(slot0, slot1)
+slot0.setShip = function(slot0, slot1)
 	slot0.shipVO = slot1
 
 	slot0:initSelectedShips()
@@ -105,7 +105,7 @@ function slot0.setShip(slot0, slot1)
 	end
 end
 
-function slot0.clearAllShip(slot0)
+slot0.clearAllShip = function(slot0)
 	for slot4 = 1, uv0 do
 		slot5 = slot0.shipContainer
 		slot5 = slot5:GetChild(slot4 - 1)
@@ -121,7 +121,7 @@ function slot0.clearAllShip(slot0)
 	slot0:updateAttrs()
 end
 
-function slot0.initSelectedShips(slot0)
+slot0.initSelectedShips = function(slot0)
 	slot2 = table.getCount(slot0.contextData.materialShipIds or {})
 
 	for slot6 = 1, uv0 do
@@ -139,7 +139,7 @@ function slot0.initSelectedShips(slot0)
 	end
 end
 
-function slot0.updateShip(slot0, slot1, slot2)
+slot0.updateShip = function(slot0, slot1, slot2)
 	slot3 = slot0.shipVOs[slot2]
 
 	onButton(slot0, slot1, function ()
@@ -162,7 +162,7 @@ function slot0.updateShip(slot0, slot1, slot2)
 	setText(slot1:Find("IconTpl/icon_bg/lv/Text"), slot3.level)
 end
 
-function slot0.initAttrs(slot0)
+slot0.initAttrs = function(slot0)
 	slot0.attrTFs = {}
 
 	for slot4, slot5 in pairs(ShipModAttr.ID_TO_ATTR) do
@@ -174,7 +174,7 @@ function slot0.initAttrs(slot0)
 	slot0:updateAttrs()
 end
 
-function slot0.updateAttrs(slot0)
+slot0.updateAttrs = function(slot0)
 	slot0.hasAddition = nil
 
 	for slot4, slot5 in pairs(slot0.attrTFs) do
@@ -182,7 +182,7 @@ function slot0.updateAttrs(slot0)
 	end
 end
 
-function slot0.updateAttr(slot0, slot1)
+slot0.updateAttr = function(slot0, slot1)
 	slot2 = slot0.attrTFs[slot1]
 	slot3 = slot0:findTF("info", slot2)
 	slot4 = slot2:GetComponent(typeof(CanvasGroup))
@@ -217,7 +217,7 @@ function slot0.updateAttr(slot0, slot1)
 	setText(slot0:findTF("exp_container/Text", slot2), slot17)
 end
 
-function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
+slot0.modAttrAnim = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 or 0.3
 	slot5 = intProperties(slot1:getShipProperties())
 	slot6 = intProperties(slot2:getShipProperties())
@@ -242,7 +242,7 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 			slot0:setSliderValue(slot21:GetComponent(typeof(Slider)), 0)
 			setText(slot0:findTF("exp_container/Text", slot15), slot0.getRemainExp(slot1, slot12) .. "/" .. math.max(slot1:getModExpRatio(slot12), 1))
 
-			function slot27(slot0, slot1)
+			slot27 = function(slot0, slot1)
 				setText(uv0, slot0)
 				setText(uv1, "+" .. slot1)
 			end
@@ -311,7 +311,7 @@ function slot0.modAttrAnim(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.tweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
+slot0.tweenValue = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	assert(not slot0.exited, "tween after ui exited")
 
 	if not slot0.tweens then
@@ -338,7 +338,7 @@ function slot0.tweenValue(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7
 	end
 end
 
-function slot0.getBuffExp()
+slot0.getBuffExp = function()
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(BuffHelper.GetShipModExpBuff()) do
@@ -348,7 +348,7 @@ function slot0.getBuffExp()
 	return slot1
 end
 
-function slot0.getModExpAdditions(slot0, slot1)
+slot0.getModExpAdditions = function(slot0, slot1)
 	slot3 = pg.ship_data_template[slot0.configId].group_type
 	slot4 = pg.ship_data_strengthen
 	slot5 = {}
@@ -380,7 +380,7 @@ function slot0.getModExpAdditions(slot0, slot1)
 	return slot5
 end
 
-function slot0.getMaterialShips(slot0, slot1)
+slot0.getMaterialShips = function(slot0, slot1)
 	slot2 = {}
 	slot3 = ipairs
 	slot4 = slot1 or {}
@@ -392,7 +392,7 @@ function slot0.getMaterialShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.getExpAddition(slot0, slot1, slot2)
+slot0.getExpAddition = function(slot0, slot1, slot2)
 	slot3 = uv0.getModExpAdditions(slot0, slot1)
 
 	if slot0:getModAttrTopLimit(slot2) == 0 then
@@ -406,15 +406,15 @@ function slot0.getExpAddition(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getRemainExp(slot0, slot1)
+slot0.getRemainExp = function(slot0, slot1)
 	return slot0:getModProperties(slot1) % math.max(slot0:getModExpRatio(slot1), 1)
 end
 
-function slot0.setSliderValue(slot0, slot1, slot2)
+slot0.setSliderValue = function(slot0, slot1, slot2)
 	slot1.value = slot2 == 0 and slot2 or math.max(slot2, 0.08)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:blurPanel(false)
 
 	slot1 = pairs
@@ -427,7 +427,7 @@ function slot0.willExit(slot0)
 	slot0.tweens = nil
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:emit(BaseUI.ON_BACK_PRESSED, true)
 end
 

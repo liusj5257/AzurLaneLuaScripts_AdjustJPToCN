@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_323 = {}
 slot1 = slot0.word_template_323
 
-function temp()
+temp = function()
 	uv0["抑"] = {
 		["制"] = {
 			["剂"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["译"] = {
 		["新"] = {
 			["考"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["易"] = {
 		["丹"] = {
 			["軒"] = {
@@ -44,7 +44,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["疫"] = {
 		["苗"] = {
 			["伤"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["意"] = {
 		["志"] = {
 			["不"] = {
@@ -104,7 +104,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瘞"] = {
 		this = {
 			this = true
@@ -114,7 +114,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["議"] = {
 		["長"] = {
 			["阿"] = {

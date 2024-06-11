@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"바닷바람과 여름날의 무인도\n\n<size=45>15 메탈 블러드 바베큐 파티</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
-			say = "며칠이 지났고,  무인도 개발 작업은 순조롭게 진행되고 있다.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "며칠이 지났고,  무인도 개발 작업은 순조롭게 진행되고 있다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "밤하늘이 어두워지자 별이 하나둘씩 떠올랐다.",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "오늘 섬 거점으로 돌아왔을 때, 그곳엔 정체 모를 거대한 철제 구조물이 세워져 있었다.",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "외관상으로 보아하니, 그 거대한 철제물은, 설마——",
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오븐이야!",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "확실히… 기능으로 보면 오븐이 맞긴 맞는데…",
 			painting = {
 				alpha = 0.3,
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다만 사이즈가 너무 큰 탓에….",
 			painting = {
 				alpha = 0.3,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 401990,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흥흥~ 메탈 블러드 엔지니어팀이 새로 만든 '바베큐 끝판왕 MKIII' 대형 오븐이지!",
 			painting = {
 				alpha = 0.3,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,10 +171,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "전통적인 오븐을 기반으로 용량과 통풍 기능이 개선되어 다양한 바베큐를 만들 수 있을 뿐만 아니라 본래의 스모키한 맛을 그대로 살려준다구~",
 			painting = {
 				alpha = 0.3,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 401990,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오늘 저녁은 다같이 모여서 바베큐 파티를 즐겨보자~!",
 			painting = {
 				alpha = 0.3,
@@ -206,10 +206,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...이렇게 큰 오븐을 채울 만큼 재료가 충분할까요?",
 			painting = {
 				alpha = 0.3,
@@ -224,10 +224,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응, 그로즈니가 오늘 동료들과 함께 엄청 많은 식재료를 구해왔거든.",
 			painting = {
 				alpha = 0.3,
@@ -239,12 +239,12 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흐흐흥~ 바베큐 먹는다, 바베큐!",
 			painting = {
 				alpha = 0.3,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "해물 구이와 야채 구이도 나쁘지 않을 것 같아요~",
 			painting = {
 				alpha = 0.3,
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "라피는 생선과 당근꼬치를 먹어보고 싶어.",
 			painting = {
 				alpha = 0.3,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "조개 구이와 미역 구이도 도전해볼 만하는 거예요!",
 			painting = {
 				alpha = 0.3,
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "구운 과일도 맛있을 것 같아요! 오늘 숲에서 야생 과일을 많이 채집해왔거든요!",
 			painting = {
 				alpha = 0.3,
@@ -334,12 +334,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "코코넛도 많이 가져왔는데, 코코넛도 구울 수 있을까요…?",
 			painting = {
 				alpha = 0.3,
@@ -354,10 +354,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "가능할 것 같아!",
 			painting = {
 				alpha = 0.3,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "제 생각엔… 코코넛은 빼는 게 좋을 것 같아요. 오이겐은 셀프 꼬치구이 코너를 준비하는 걸 도와주세요.",
 			painting = {
 				alpha = 0.3,
@@ -399,10 +399,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "문제없어~ 여러분, 잠시후 바베큐 파티가 곧 시작될 거야~",
 			painting = {
 				alpha = 0.3,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg2",
 			mode = 1,
+			bgName = "bg_summerisland_cg2",
 			sequence = {
 				{
 					"",
@@ -423,17 +423,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "알바코어",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "알바코어",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "알바코어",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "알바코어",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "쇼카쿠",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -511,8 +511,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "쇼카쿠",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "즈이카쿠",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "쇼카쿠",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -552,8 +552,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "섬, 밤, 그리고 연락 거점. 각 진영의 모두가 한자리에 모여 향긋한 바베큐 파티를 즐겼다.",
@@ -563,8 +563,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "경쾌한 분위기가 바다 한가운데의 외딴 섬을 감싸고 포근한 항구로 만들었다.",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:428}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:428}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -598,8 +598,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:428}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -610,8 +610,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:428}",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -634,12 +634,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
-			say = "——행복한 시간을 소중한 기록으로 담아냈다.",
 			soundeffect = "event:/ui/kuaimen",
+			say = "——행복한 시간을 소중한 기록으로 담아냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,8 +668,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아브로라",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -680,8 +680,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아브로라",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -692,8 +692,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "알바코어",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -704,8 +704,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "알바코어",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아브로라",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -733,8 +733,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아브로라",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "축사라… 그렇다면——",
@@ -766,13 +766,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모두",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "건배~!!!",
 			soundeffect = "event:/ui/pengbei2",
+			say = "건배~!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

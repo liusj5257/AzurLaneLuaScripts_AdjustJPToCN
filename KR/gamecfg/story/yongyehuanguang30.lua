@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG30",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 206060,
-			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = " 전투 종료, 휴우…조금 까다로웠어.",
 			bgm = "bgm-royalnavy",
+			actor = 206060,
+			nameColor = "#a9f548",
+			say = " 전투 종료, 휴우…조금 까다로웠어.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = " 적과 노스 유니온의 자료 중의 신형함과 부합하는데 사람 형태의 지휘자의 존재는 보지 못했어.",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "신형 세이렌은 지난번에도 아이스스노우 요새의 가장 깊은 곳에서 소량으로 나타났을 뿐이야. 이렇게 빨리 이 정도 규모가 되다니…",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "아! 멀리 아직 남은 일부 잔존 적선들이 호송 함대 쪽으로 도망치고 있어!",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "그물을 빠져나온 물고기들 중의 물고기라…좋아…이 물고기들 없애러 우릴 보내줘.",
 			typewriter = {
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = " (진짜…정말 최대한 빨리 폐하께 이런 중요한 정보를 보고드리고 싶은데…)",
 			typewriter = {
 				speed = 0.05,

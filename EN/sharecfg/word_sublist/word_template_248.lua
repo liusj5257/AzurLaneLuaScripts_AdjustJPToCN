@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_248 = {}
 slot1 = slot0.word_template_248
 
-function temp()
+temp = function()
 	uv0["仍"] = {
 		["张"] = {
 			["纸"] = {
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["容"] = {
 		["貌"] = {
 			["像"] = {
@@ -55,7 +55,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["溶"] = {
 		["尸"] = {
 			["奇"] = {
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["柔"] = {
 		["阴"] = {
 			["术"] = {
@@ -93,7 +93,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["揉"] = {
 		["擦"] = {
 			this = true
@@ -129,7 +129,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["如"] = {
 		["暗"] = {
 			["娼"] = {
@@ -232,7 +232,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["濡"] = {
 		["穴"] = {
 			this = true

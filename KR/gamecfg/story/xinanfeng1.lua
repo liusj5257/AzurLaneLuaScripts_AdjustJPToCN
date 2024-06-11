@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINANFENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XINANFENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리베치오, 전속 전진!\n\n<size=45>1. 비서함이 되고 싶은 리베치오</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "어느 날 지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "어느 날 지휘실",
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,10 +48,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 이게 오늘 마지막 서류야. 검토 후 서명 부탁해~",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흐흠~ 리토리오가 친히 나섰으니, 업무 효율이 상승하는 것은 자연스럽고 당연한 일이지.",
 			painting = {
 				alpha = 0.3,
@@ -90,12 +90,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼 난 먼저 가볼게. 모처럼 조기 퇴근한 지휘관도 편안한 저녁을 보내길 바랄게~",
 			painting = {
 				alpha = 0.3,
@@ -119,10 +119,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관! Ciao!",
 			painting = {
 				alpha = 0.3,
@@ -137,10 +137,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "앗, 리토리오님도 있었네! 좋았어!",
 			painting = {
 				alpha = 0.3,
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,10 +165,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "리베치오잖아? 좋다니 뭐가……？",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 리토리오님, 나도 비서함이 되고 싶어!",
 			painting = {
 				alpha = 0.3,
@@ -211,9 +211,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			optionFlag = 1,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 1,
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "오늘은 업무도 일찍 끝났으니까 리베치오를 데리고 나가서 놀아야겠다——",
 			typewriter = {
 				speed = 0.05,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "리베치오는 빽빽한 메모로 뒤덮인 종이를 꺼냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "음…… 역시 마에스트라레였다. 매우 상세하고 꼼꼼하게 적었다.",
 			typewriter = {
 				speed = 0.05,
@@ -372,13 +372,13 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사람은 겉으로 판단해선 안 되지. 시도해 보지도 않고 어떻게 알겠어~",
 			painting = {
 				alpha = 0.3,
@@ -390,9 +390,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "말은 그렇지만————",
 			typewriter = {
 				speed = 0.05,
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "그렇다면야————",
 			typewriter = {
 				speed = 0.05,
@@ -445,13 +445,13 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오케이——! 고마워 지휘관~! 리베치오 열심히 할게!",
 			painting = {
 				alpha = 0.3,
@@ -482,9 +482,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 3,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 3,
 			say = "확인 대답을 얻은 리베치오는 바람처럼 지휘실을 달려나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -549,10 +549,10 @@ return {
 			}
 		},
 		{
-			optionFlag = 3,
+			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
-			blackBg = true,
+			optionFlag = 3,
 			say = "비서함 리베치오라…… 이제 한동안 시끌벅적해질 것 같다.",
 			typewriter = {
 				speed = 0.05,

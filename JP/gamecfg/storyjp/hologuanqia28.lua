@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500070,
 			dir = 1,
+			bgm = "holo-control",
+			actor = 10500070,
 			actorName = "澪川イイ代",
 			say = "やっぱり、だ、だめか…",
-			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			actorName = "燕子花なきり",
 			say = "ここまでか…",
 			typewriter = {
@@ -43,9 +43,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "この前みたいにテレポートのコマンドで転送された！",
 			flashout = {
 				dur = 1,
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "ふう…セイレーンが作った偽物だと知ってても、戦うとなるとやっぱり気が引けるよね",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +105,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "もし、毎回こんな風にHPが０になる直前にテレポートされる仕様なら全力で戦えるかも。やっぱり、偽物に負けたくないしね",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "ふん、やはり贋者（フェイカー）は贋者（フェイカー）だったか…",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "もう迷わない。セイレーンの企みを阻止してこそ、全てを終わらせられるもの",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900021,
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリっち？",
 			say = "聞こえてるわよこんにゃろ！",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301050,
 			dir = 1,
+			actor = 301050,
 			say = "ニーミ、そちらは何かあったです？",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301050,
 			dir = 1,
+			actor = 301050,
 			say = "基地は別に大丈夫です。",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201210,
 			dir = 1,
+			actor = 201210,
 			say = "ついさっき急に黒い光のヴェールが現れてどんどん伸びてるの！ええと、ちょうど迷宮のところに――",
 			typewriter = {
 				speed = 0.05,
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ジャベリンが言った通り、いつの間にか空に光のヴェールが現れていた。",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "空一面に、と言えばいいだろうか。それは海を跨ぎ、先端も切れ目も見えない。",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "これヴェールじゃなくてバリアよ！しかも信じられないぐらい頑丈！シオンもさっき全力で攻撃したけど、穴一つ開けられなかったもん！",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "これ、明らかにGMが作ったデフォルトで通過できない壁だよね…",
 			typewriter = {
 				speed = 0.05,
@@ -482,8 +482,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "あの、海と空、どっちも進めないんだったら",
 			typewriter = {
 				speed = 0.05,
@@ -498,8 +498,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "まつりに良い考えがあるかも…",
 			typewriter = {
 				speed = 0.05,

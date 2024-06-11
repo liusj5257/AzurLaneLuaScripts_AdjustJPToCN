@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			sequence = {
 				{
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -51,27 +51,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_130",
-			say = "누군가가 부르는 목소리가 들려온다.",
 			bgm = "story-antarctica-serious",
+			nameColor = "#A9F548FF",
+			say = "누군가가 부르는 목소리가 들려온다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "흐릿하던 의식이 점차 선명해지며 눈앞에는 호기심 많은 소녀(?)의 모습이 보였다.",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "그리고 당장이라도 무너질 것 같은, 오랜 세월이 느껴지는 감옥의 벽이 눈에 들어왔다.",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "머릿속에 떠올리려고 애썼지만, 그것과 관련된 기억은 하나도 떠오르지 않았다.",
 			typewriter = {
@@ -266,35 +266,35 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
+			soundeffect = "event:/ui/erming",
 			say = "――파직.",
-			soundeffect = "event:/ui/erming",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			side = 2,
 			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_130",
-			say = "다음 순간, 기억의 조각이 휘몰아치는 눈처럼 머릿속을 가득 메웠다.",
 			soundeffect = "event:/ui/erming",
+			say = "다음 순간, 기억의 조각이 휘몰아치는 눈처럼 머릿속을 가득 메웠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "만쥬 경비",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "만쥬 경비",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "쥬쥬! ――",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,17 +311,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -329,13 +329,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "만쥬 경비",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "만쥬 경비",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "쥬쥬쥬! 쥬쥬쥬!",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,13 +347,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "만쥬 경비",
+			side = 2,
 			bgName = "star_level_bg_508",
 			factiontag = "만쥬 경비",
+			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "쥬쥬! ――쥬쥬쥬!",
-			soundeffect = "event:/ui/kaiqiang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "――!!!",
 			soundeffect = "event:/battle/boom2",
+			say = "――!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,22 +415,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "어디선가 불어온 작열하는 폭풍이 닿는 모든 것을 밀어냈다.",
 			soundeffect = "event:/ui/erming",
+			say = "어디선가 불어온 작열하는 폭풍이 닿는 모든 것을 밀어냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "'불야성'의 시민이라면 평소 쳐다볼 수도 없을만한 '거물'도 예외는 아니다.",
 			soundeffect = "event:/ui/erming",
+			say = "'불야성'의 시민이라면 평소 쳐다볼 수도 없을만한 '거물'도 예외는 아니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,16 +527,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
 					number = 3
 				},
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.7,
 					x = 0
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "'CEO'는 곧 움직임을 멈추었고, 손에 들고 있던 '무언가'를 바닥에 떨어뜨렸다.",
 			typewriter = {
@@ -554,9 +554,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
+			side = 2,
 			say = "생각하면 할 수록 기분이 이상하다.",
 			typewriter = {
 				speed = 0.05,
@@ -570,8 +570,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "그렇게 대단한 사람이 순식간에 눈앞에서 숨을 거두었다. 그리고 나는 아무것도 하지 못하고 그저 바라보고만 있었다.",
 			typewriter = {
@@ -580,8 +580,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			say = "그 광경은 나중에 찾아온 보안국 녀석들의 전기 충격봉보다 훨씬 더 충격적이었다.",
 			typewriter = {
@@ -608,8 +608,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "'어센션 박스' 1개를 획득했다!",
 			typewriter = {
@@ -832,11 +832,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "――!!!",
 			soundeffect = "event:/battle/boom2",
+			say = "――!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,8 +882,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -891,17 +891,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

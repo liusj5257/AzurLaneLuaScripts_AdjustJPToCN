@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "标记敌人已阵亡",
 	stack = 1,

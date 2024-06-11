@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN03",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSHUN03",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fu Shun's Great Adventure\n\n<size=45>Chapter 3 - The Hero's Journey Begins</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			bgm = "story-china",
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "Welcome, nya~ Oh? What brings you here, nya? Shopping for supplies, nya?",
-			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "So this is the legendary Shop... There are a lot of interesting-looking things!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "So this is the legendary Shop... There are a lot of interesting-looking things!",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "A game console, nya?",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "F-fine, nya... Just this one time I'll examine it for free, nya.",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "Unya... This is a pretty old model, nya... First we'll fix this... then replace this...",
 			typewriter = {
@@ -154,16 +154,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Phew... It's fixed, nya!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "Awesome! You're amazing, Akashi!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Awesome! You're amazing, Akashi!",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "It took some time to replace the old parts, but now it should be fine, nya~",
 			typewriter = {
@@ -241,15 +241,15 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Chang Chun~ I got the handheld fixed~ Wanna play some games?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "You actually managed to get it fixed...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You actually managed to get it fixed...",
+			actor = 501030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

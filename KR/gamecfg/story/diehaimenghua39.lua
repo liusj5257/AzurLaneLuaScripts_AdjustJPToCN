@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA39",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA39",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,10 +35,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_mirror",
 			side = 0,
+			bgName = "bg_mirror",
+			hideOther = true,
 			dir = 1,
 			actor = 301840,
 			actorName = "{namecode:27}&{namecode:29}",
@@ -64,8 +64,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "치토세, 치요다. 내 함재기와 함께 테스터의 대공 능력을 압박하도록 해.",
 			typewriter = {
@@ -78,10 +78,10 @@ return {
 			}
 		},
 		{
-			actor = 306080,
 			nameColor = "#a9f548",
-			bgName = "bg_mirror",
 			side = 0,
+			bgName = "bg_mirror",
+			actor = 306080,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:103}&{namecode:104}",
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "나머지는 각자 대기를……",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "에?! 우리는 계속 기다려야 해…?",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "테스터가 모든 정신을 대공 작전에 쏟으면서 대응책을 바꾸면, 그때 허점이 드러나기를 기다리도록 하거라…",
 			typewriter = {
@@ -184,9 +184,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "맞아. 모두 나와 함께 승리를 거머쥐도록 하자!",
 			typewriter = {

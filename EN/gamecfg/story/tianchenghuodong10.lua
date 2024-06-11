@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG10",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>Now, I understand.</size>",
@@ -41,17 +41,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_story_tiancheng4",
-			actorName = "{namecode:144}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Amagi, there's trouble! Kaga just left this letter before charging straight towards the Siren-controlled Mirror Sea by herself!",
+			bgName = "bg_story_tiancheng4",
 			bgm = "story-6",
+			actorName = "{namecode:144}",
+			say = "Amagi, there's trouble! Kaga just left this letter before charging straight towards the Siren-controlled Mirror Sea by herself!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:144}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_tiancheng4",
+			dir = 1,
 			say = "Amagi, standing there emotionlessly, receives Kaga's letter from Ashigara.",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:144}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng4",
+			dir = 1,
 			say = "To Akagi's surprise, the normally collected Amagi let out a yell and bolted out of the room.",
 			typewriter = {
 				speed = 0.05,
@@ -346,13 +346,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = -1,
 			actor = 304050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "*Gasp* *Gasp* ... Houshou, do you have... some spare time?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Whether it was because she hadn't exercised without her rigging for so long or because she'd ran there in a hurry, Amagi seemed out of breath.",
 			typewriter = {
 				speed = 0.05,
@@ -405,8 +405,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "After taking several deep breaths, Amagi clasped Houshou's shoulders.",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "Are you able to send your planes to search for Kaga in the Mirror Sea?",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "As if embraced by the sea breeze, Houshou extended her hand towards the horizon like she was parting the clouds-",
 			typewriter = {
 				speed = 0.05,
@@ -507,10 +507,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/plane",
 			say = "As her words vanished into the wind, over a dozen aircraft began to materialize from Houshou's flight deck, encircling the sky above her.",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,8 +521,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Amagi, Akagi, and the newly-arrived escort fleet could only watch in silence, mouths agape, as they witnessed the spectacle in front of them for the first time.",
 			typewriter = {
 				speed = 0.05,
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...For a brief moment, they thought they could see the first rays of an era about to dawn.",
 			typewriter = {
 				speed = 0.05,
@@ -577,10 +577,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/plane",
 			say = "With Houshou's instructions, the aircraft fanned out in seven different directions, soon disappearing into the distance.",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,8 +606,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Amagi drew close to Houshou, her lips brushing against her ear, whispering something before pulling away. With that, she took a deep bow of gratitude before leading the escort fleet away.",
 			typewriter = {
 				speed = 0.05,
@@ -634,8 +634,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Sister, you're now going to search the Mirror Seas by staying in contact with those planes, right? I also-",
@@ -652,8 +652,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "See that, Akagi? Aren't those planes far more capable than you had first expected?",
 			typewriter = {
 				speed = 0.05,
@@ -680,8 +680,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "B-but... I can't help but have a bad feeling about this still...",
@@ -698,8 +698,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "Listen to your big sister. I swear to bring Kaga back safely.",
 			typewriter = {
 				speed = 0.05,
@@ -711,8 +711,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Amagi smiled warmly in an attempt to console her little sister before turning towards the ocean and departing...",
 			typewriter = {
 				speed = 0.05,
@@ -724,8 +724,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "But she could not hide the unease and anxiety seeping out from her smile, not even from herself.",
 			typewriter = {
 				speed = 0.05,

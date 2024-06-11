@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WUERLIXI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WUERLIXI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"essential.\n\n<size=45>1. 웃지 않는 그녀</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -27,8 +27,8 @@ return {
 			hidePaintObj = true,
 			say = "……………………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오늘의 지휘실에도 풀기 어려운 듯한 침묵이 가득하다.",
 			typewriter = {
 				speed = 0.05,
@@ -84,10 +84,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "다른 사람을 신경 쓸 여유가 있으면 일이나 더 힘내서 하라고 얘기하고 싶지만——",
 			typewriter = {
 				speed = 0.05,
@@ -102,10 +102,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관, 서류 정리는 이미 끝났어. 파기해야 할 부분은 폐지함에 넣어뒀어.",
 			typewriter = {
 				speed = 0.05,
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "책상 위에 메모를 붙여둔 건 네가 다시 한번 확인해 줘야 하는 것들이야, 꼭 봐.",
 			typewriter = {
 				speed = 0.05,
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "——눈앞의 이 늠름하고 씩씩한 여자는 최근 모항에 취임해서 며칠 전 비서함으로 부임한 울리히 폰 후텐이다.",
 			typewriter = {
 				speed = 0.05,
@@ -148,9 +148,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그녀의 업무 능력은 확실히 눈에 띄게 뛰어나다. 하지만……",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "맡은 업무는 모두 끝냈는데, 또 다른 일 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……비서함으로 근무하는 며칠 동안 후텐은 꼭 필요한 대화 외에는 거의 잡담을 하지 않았다.",
 			typewriter = {
 				speed = 0.05,
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이건 무뚝뚝한 게 아닌 것 같다. 설마 다른 사람에 대해 아예 관심이 없는 타입은 아니겠지……?",
 			typewriter = {
 				speed = 0.05,
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "모항에 과묵한 동료가 없는 것도 아니지만, 그녀처럼 이정도까지는…… 정말 모항 생활에 잘 녹아들 수 있으려나……",
 			typewriter = {
 				speed = 0.05,
@@ -290,10 +290,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "응? 모항에서 지내는 건 어떻냐고? 걱정하지 마, 잘 지내고 있으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "내 인간관계를 묻고 싶은 거라면, 그럴 필요 없어. 난 원래 너의 부하로서 여기 있는 거고, 다른 사람에게 특별히 주의를 기울일 생각은 없어.",
 			typewriter = {
 				speed = 0.05,
@@ -325,10 +325,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "너도 자신만을 생각하면 돼.",
 			typewriter = {
 				speed = 0.05,

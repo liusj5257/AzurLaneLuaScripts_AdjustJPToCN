@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "cw-battle-boss",
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "我是{namecode:175}，負責在此接待各位遠道而來的客人，請多指教。",
-			bgm = "cw-battle-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 		{
 			actor = 305110,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "妳就是傳說中的{namecode:80}級三號艦{namecode:175}嗎…嗯，真是百聞不如一見啊！祭典的準備辛苦了。我代表重櫻的夥伴們向妳表示感謝~",
 			paintingFadeOut = {
 				time = 0.5,
@@ -45,8 +45,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "大前輩過獎了…！如您所見我只是一個沒什麼戰鬥經驗的新人而已，很期待今後能與您並肩作戰。",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "啊，嗯…您說的沒錯……",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -116,9 +116,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（哎？這麼突然？！這種性格我超不擅長應付啊……）",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -157,14 +157,14 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（啊！被看穿了？！！）",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,8 +284,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（和{namecode:82}大前輩交手，偷工減料肯定會被發現吧…真是的，只能全力以赴上了…！）",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			say = "向神明展現勇武，向神明納奉才智，向神明給予信仰！{namecode:80}級戰列艦，{namecode:175}，參上！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

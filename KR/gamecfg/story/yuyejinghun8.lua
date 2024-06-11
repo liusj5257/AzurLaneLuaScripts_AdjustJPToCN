@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN8",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "브리스톨",
 			bgName = "star_level_bg_115",
+			bgm = "theme-highseasfleet-reborn",
 			factiontag = "전설적인 탐정 마스터",
 			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
-			actorName = "브리스톨",
 			hidePaintObj = true,
 			say = "쉬시식~ @#￥%…… ￥%………… 쉬이이익!!",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -98,9 +98,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "하이티엔",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "D100 판정, 23… 성공입니다. 당신은 기지를 발휘해 장녀가 입고 있는 화려한 웨딩드레스를 칭찬하기로 했습니다.",
 			typewriter = {
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			side = 2,
+			actor = 9600031,
 			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "이 웨딩드레스가… 아름답다고?",
@@ -180,9 +180,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "……당신, 혹시 잘생겼다는 소리 들은 적 없어?",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			side = 2,
+			actor = 9600031,
 			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "(작은 목소리로) …어머, 설정도 어쩜 지휘관님 본인이랑 똑같네~",
@@ -295,9 +295,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "…이 웨딩드레스, 사실은 소중한 사람이 골라준 거야~ 갑자기 그리워져서 한번 입어봤어♡",
 			typewriter = {
@@ -310,9 +310,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "그것보다 아까 질문에 대한 대답을 아직 못 들었네~ 내 조각상 봤지? 이제 슬슬 당신의 비밀이 뭔지 알려줄래?",
 			typewriter = {
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			side = 2,
+			actor = 9600031,
 			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "드디어… 드디어 날 이해해 줄 수 있는 사람을 만났어~!",
@@ -398,9 +398,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "아, 친애하는 탐정님! 이것이야말로 '오컬트 마스터'의 이름에 걸맞은 깊은 조예… 넓은 견문! 나, 감동했어~♡",
 			typewriter = {
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			side = 2,
+			actor = 9600031,
 			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "사실 하나 보여주고 싶은 게 있어… 어쩌면 성에서 발생한 실종 사건과 관련이 있을지도 몰라.",
@@ -439,9 +439,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "안뜰로 안내해 줄게.",
 			typewriter = {
@@ -454,10 +454,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "문학소녀 마스터",
-			oldPhoto = true,
-			nameColor = "#FF9B93",
-			bgm = "story-oldcastle-carnival",
 			actorName = "하이티엔",
+			oldPhoto = true,
+			bgm = "story-oldcastle-carnival",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "안뜰로 들어서자, 땅에서 노란빛을 발하고 있는 마법진과 그 뒤에 자리 잡고 있는 기묘한 모습의 거대 석상이 당신의 눈에 들어왔습니다.",
 			typewriter = {
@@ -465,17 +465,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -487,9 +487,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "하이티엔",
 			hidePaintObj = true,
 			say = "후드 밑에서 자라난 비틀린 촉수가 당신 쪽을 향해 뻗어와 당신을 어둠 속으로 끌고 들어가려는 듯한… 느낌이 듭니다.",
 			typewriter = {
@@ -502,9 +502,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "하이티엔",
 			hidePaintObj = true,
 			say = "손가락 하나 움직일 수 없는 공포… 식은땀이 등을 타고 흐르고, 온몸이 부들부들 떨리기 시작합니다. 당신은 필사적으로 냉정을 되찾으려고 발버둥 칩니다…",
 			typewriter = {
@@ -517,9 +517,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "하이티엔",
 			hidePaintObj = true,
 			say = "D100 판정, 78… 실패했습니다. 흘끗 본 것만으로 당신은 헤아릴 수 없는 공포와 혼돈에 사로잡히고 말았습니다…",
 			typewriter = {
@@ -532,10 +532,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "역할: 장녀",
-			oldPhoto = true,
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#FF9B93",
+			oldPhoto = true,
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "드디어 찾았어… 내 주인님을 만족시킬 수 있는 제물을…",
 			typewriter = {
@@ -548,10 +548,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "역할: 장녀",
-			oldPhoto = true,
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#FF9B93",
+			oldPhoto = true,
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "사랑스러운 그 사람과의 재회가 머지않았어… 이제 다시는 헤어지지 않을 거야…",
 			typewriter = {
@@ -564,9 +564,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "하이티엔",
 			hidePaintObj = true,
 			say = "의식을 잃은 당신은 제단에 바쳐지고 말았습니다. 그리고……",
 			typewriter = {
@@ -579,9 +579,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "문학소녀 마스터",
+			actorName = "하이티엔",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "하이티엔",
 			hidePaintObj = true,
 			say = "안타깝게도 탐정은 차가운 죽음의 늪으로 끌려가고 말았습니다…",
 			typewriter = {
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -606,8 +606,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――골든 하인드가 연기하는 아가씨는 사실 사악한 신을 섬기는 광신도였고, 나는 그 제물로 바쳐졌다는 건가?",
 			bgm = "theme-ijndailymeeting",
+			say = "――골든 하인드가 연기하는 아가씨는 사실 사악한 신을 섬기는 광신도였고, 나는 그 제물로 바쳐졌다는 건가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

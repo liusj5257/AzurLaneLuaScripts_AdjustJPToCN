@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAILUNNA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAILUNNA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Cinnamon Roll on a Rainy Day\n\n<size=45>7 The Calm After the Storm</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - The next day",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - The next day",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Opening my eyes, the first thing I saw was... Helena's thighs. It seemed I'd asked for a lap pillow at some point before dozing off again.",
 			flashout = {
 				dur = 0.3,
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "Ahem. What the hell are you two doing?",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102130,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "We figured it was because of the storm, so we waited for the rain to let up first.",
 			typewriter = {
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "Care to walk me through what happened? Please don't tell me any funny business went down.",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Uhh, sure. It started late in the evening...",
 			typewriter = {
 				speed = 0.05,
@@ -226,15 +226,15 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "...Hmm, all right. I'll take your word for it.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -262,8 +262,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Now that the sun's up... Geesh, the storm made a worse mess of the office than I thought.",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "We need to order a new windowpane, replace fried wires, tidy up the place... There's a lot to do to better prepare for the next storm.",
 			typewriter = {
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102050,
+			nameColor = "#a9f548",
 			say = "Commander, should I go ask Akashi if she can provide new electronics?",
 			typewriter = {
 				speed = 0.05,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "With a blush on her face, Helena made her swift exit.",
 			typewriter = {
 				speed = 0.05,
@@ -345,11 +345,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "Something's fishy here... I'm going to have to press her for the real answer about what went down last night.",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -387,12 +387,12 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102130,
+			nameColor = "#a9f548",
 			say = "Commander, be a dear and keep looking after Helena for me.",
 			typewriter = {
 				speed = 0.05,

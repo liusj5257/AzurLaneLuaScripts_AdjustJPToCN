@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"여름 바람의 십자성\n\n<size=45>제6장 - 증인</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그·러·니·까! 진짜로 막 돌아왔는데, 무슨 일인지 옷이 방안에 널브러져 있어서…… 그걸 정리하려고 했던 것뿐이라고!",
 			bgm = "story-1",
+			actor = 207020,
+			nameColor = "#92fc63",
+			say = "그·러·니·까! 진짜로 막 돌아왔는데, 무슨 일인지 옷이 방안에 널브러져 있어서…… 그걸 정리하려고 했던 것뿐이라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "아크 로열 씨의 평소 모습을 생각하면…",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "아크 로열 씨의 평소 모습을 생각하면…",
+			actor = 201090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "뱀파이어?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "뱀파이어?",
+			actor = 201101,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -267,10 +267,10 @@ return {
 			}
 		},
 		{
-			actor = 201101,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201101,
 			dir = 1,
 			hideOther = true,
 			actorName = "아크 로열 & 시그넷",

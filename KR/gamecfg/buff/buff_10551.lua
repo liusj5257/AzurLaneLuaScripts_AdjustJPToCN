@@ -129,9 +129,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "回血HOT",
 	time = 5,
+	name = "回血HOT",
+	init_effect = "",
 	picture = "",
 	desc = "HOT",
 	stack = 1,

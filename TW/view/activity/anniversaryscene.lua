@@ -1,21 +1,21 @@
 slot0 = class("AnniversaryScene", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AnniversaryUI"
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activityVO = slot1
 	slot0.configData = slot0.activityVO:getConfig("config_data") or {}
 	slot0.date = slot0.activityVO.data3
 	slot0.currTaskId = slot0.activityVO.data2
 end
 
-function slot0.setTaskList(slot0, slot1)
+slot0.setTaskList = function(slot0, slot1)
 	slot0.taskVOs = slot1
 end
 
-function slot0.getTaskById(slot0, slot1)
+slot0.getTaskById = function(slot0, slot1)
 	slot2 = -1
 
 	for slot6, slot7 in ipairs(slot0.configData) do
@@ -41,7 +41,7 @@ function slot0.getTaskById(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("bg/top/back")
 	slot0.mainPanel = slot0:findTF("bg/main")
 	slot0.scrollRect = slot0:findTF("scroll_rect", slot0.mainPanel)
@@ -56,7 +56,7 @@ function slot0.init(slot0)
 	slot0.titles = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -65,11 +65,11 @@ end
 
 slot1 = 2
 
-function slot0.getRow(slot0, slot1)
+slot0.getRow = function(slot0, slot1)
 	return math.floor(slot1 / uv0) * 2 + slot1 % uv0
 end
 
-function slot0.initScrollRect(slot0)
+slot0.initScrollRect = function(slot0)
 	slot0.taskGroupTFs = {}
 
 	for slot6 = 0, slot0:getRow(#slot0.configData) - 1 do
@@ -107,7 +107,7 @@ function slot0.initScrollRect(slot0)
 	slot0:initBottomPanel()
 end
 
-function slot0.initBottomPanel(slot0)
+slot0.initBottomPanel = function(slot0)
 	slot0.bottomTaskGroupTFs = {}
 
 	for slot4, slot5 in ipairs(slot0.configData) do
@@ -117,7 +117,7 @@ function slot0.initBottomPanel(slot0)
 	end
 end
 
-function slot0.updateBottomTaskGroup(slot0, slot1)
+slot0.updateBottomTaskGroup = function(slot0, slot1)
 	slot2 = slot0.bottomTaskGroupTFs[slot1]
 	slot2:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/anniversaryui_atlas", "part" .. slot1)
 	slot5 = slot2:Find("Image")
@@ -128,7 +128,7 @@ function slot0.updateBottomTaskGroup(slot0, slot1)
 	end))
 end
 
-function slot0.updateTaskGroups(slot0)
+slot0.updateTaskGroups = function(slot0)
 	for slot4, slot5 in ipairs(slot0.configData) do
 		if slot0.taskGroupTFs[slot4] then
 			slot0:updateTaskGroup(slot6, slot4, slot5)
@@ -136,7 +136,7 @@ function slot0.updateTaskGroups(slot0)
 	end
 end
 
-function slot0.updateTaskGroup(slot0, slot1, slot2, slot3)
+slot0.updateTaskGroup = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("mask_lock")
 	slot5 = slot1:Find("mask_prev_unfinish")
 	slot1:Find("icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/anniversaryui_atlas", "lihui" .. slot2)
@@ -158,14 +158,14 @@ function slot0.updateTaskGroup(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("completed"), slot8)
 end
 
-function slot0.updateTaskGroupDesc(slot0, slot1)
+slot0.updateTaskGroupDesc = function(slot0, slot1)
 	slot5 = nil
 	slot0:findTF("main/desc", slot0.taskGroupDesc):Find("Image"):GetComponent(typeof(Image)).sprite = (not slot0.titles[slot1] or slot0.titles[slot1]) and GetSpriteFromAtlas("ui/anniversaryui_atlas", "title" .. slot1)
 	slot6 = slot0:findTF("main/task_list", slot0.taskGroupDesc)
 
 	setText(slot3, i18n("anniversary_task_title_" .. slot1))
 
-	function slot8(slot0, slot1)
+	slot8 = function(slot0, slot1)
 		slot2 = uv0:getTaskById(slot1) or Task.New({
 			id = slot1
 		})
@@ -222,7 +222,7 @@ function slot0.updateTaskGroupDesc(slot0, slot1)
 	slot0.ulist:align(#slot0.configData[slot1])
 end
 
-function slot0.moveToTaskGroup(slot0, slot1, slot2, slot3)
+slot0.moveToTaskGroup = function(slot0, slot1, slot2, slot3)
 	if slot3 then
 		LeanTween.cancel(go(slot0.taskGroupDesc))
 		LeanTween.cancel(go(slot0.taskGorupContainer))
@@ -230,7 +230,7 @@ function slot0.moveToTaskGroup(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	function slot4()
+	slot4 = function()
 		uv0.dateIndex = uv1
 	end
 
@@ -263,7 +263,7 @@ function slot0.moveToTaskGroup(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.openAnim(slot0, slot1, slot2)
+slot0.openAnim = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	assert(slot1, "index can not be nil" .. slot1)
@@ -294,7 +294,7 @@ function slot0.openAnim(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.closeAnim(slot0, slot1, slot2)
+slot0.closeAnim = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot0.taskGroupTFs[slot1]
 
@@ -314,7 +314,7 @@ function slot0.closeAnim(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)
+slot0.addVerticalDrag = function(slot0, slot1, slot2, slot3)
 	slot4 = GetOrAddComponent(slot1, "EventTriggerListener")
 	slot5 = nil
 	slot6 = 0
@@ -344,7 +344,7 @@ function slot0.addVerticalDrag(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

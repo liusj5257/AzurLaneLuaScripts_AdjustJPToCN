@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"All-Love Assault!\n\n<size=45>7. Another Day, Another Date</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-1",
 			bgName = "bg_story_task_2",
 			say = "Port - Office",
-			bgm = "story-richang-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			optionFlag = 3,
 			say = "\"I was just joking to see how you'd react. Please put the phone down.\"",
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"A present? What's the occasion?\"",
 			typewriter = {
@@ -227,14 +227,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "It's, uhh... You know! To celebrate our 100-day wedding anniversary!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "It's, uhh... You know! To celebrate our 100-day wedding anniversary!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"How nice.\"",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "She's either thinking out loud, or hinting at what she's going to do next.",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "I turn to face her and realize she's standing right next to me. Her puckered lips graze my cheek.",
 			typewriter = {
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "The warmth of a gentle kiss spreads through me.",
 			typewriter = {
@@ -428,14 +428,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Anyway, it's time we get to work!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Anyway, it's time we get to work!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,8 +465,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"You left me a bit stunned by changing gears just like that.\"",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"I'm feeling a little light-headed. I can't exactly focus right now.\"",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"It doesn't seem like we have any other option.\"",
 			typewriter = {

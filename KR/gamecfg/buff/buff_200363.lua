@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023伊丽莎白meta 亚空间人形 死亡触发层数积累",
 	time = 0,
-	color = "blue",
+	name = "2023伊丽莎白meta 亚空间人形 死亡触发层数积累",
+	init_effect = "",
+	id = 200363,
 	picture = "",
 	desc = "",
 	stack = 99,
-	id = 200363,
+	color = "blue",
 	icon = 200363,
 	last_effect = "",
 	effect_list = {

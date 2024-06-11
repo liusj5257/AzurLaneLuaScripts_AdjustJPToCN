@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT27",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅\n\n<size=45>幼き才媛</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "──母港・学園の図書館",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-uta",
+			say = "──母港・学園の図書館",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "おおっ……この蔵書量は目を見張るものがあるのです",
 			typewriter = {
@@ -79,9 +79,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "そのための図書館だ。ネコネには思う存分、読んでもらいたい",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "ありがとうです、指揮官……それじゃあ早速、この棚の本から中身を見せてもらうのです",
 			typewriter = {
@@ -106,9 +106,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "ネコネは本を手に取ると、パラパラめくって中身を流し読みする",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "そういえば……ネコネたちとは話せるけど、使っている文字が違うと聞いた。この世界の文字は読めるのだろうか？",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "ニーミさん、ローリーさん、レンジャー先生、ラングレー先生、蒼龍先生……彼女たちが丁寧に教えてくれたのです",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "我が学園が誇る最強の教師陣である",
 			typewriter = {
 				speed = 0.05,
@@ -185,9 +185,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "勢力間のカルチャーギャップに苦労したのを思い出す",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "出身地やお国柄の違う子が集まっているから慣れるまで大変だったのだ",
 			typewriter = {
 				speed = 0.05,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "この短い間に学習済みって……ネコネ、もしかして天才少女？",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "天才なんかじゃないのです……ただ、ちょっと物覚えがいいだけなのです",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "それを心配した兄さまが「本からでは学べない知識もある」と、姉さまたちを紹介してくれたのです",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "この学園でも、指揮官や多くの人と接して……もっと色んなことを学び、知り、経験していきたいのです",
 			typewriter = {

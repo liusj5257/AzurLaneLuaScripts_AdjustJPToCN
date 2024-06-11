@@ -7,19 +7,19 @@ slot0.Battle.CardPuzzleGoalRemind = class("CardPuzzleGoalRemind")
 slot4 = slot0.Battle.CardPuzzleGoalRemind
 slot4.__name = "CardPuzzleGoalRemind"
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 
 	slot0:init()
 end
 
-function slot4.SetCardPuzzleComponent(slot0, slot1)
+slot4.SetCardPuzzleComponent = function(slot0, slot1)
 	slot0._tmp = uv0.GetPuzzleDungeonTemplate(slot1:GetPuzzleDungeonID())
 
 	setText(slot0._bg:Find("text"), slot0._tmp.description)
 end
 
-function slot4.init(slot0)
+slot4.init = function(slot0)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot0._go.transform
@@ -39,7 +39,7 @@ function slot4.init(slot0)
 	end)
 end
 
-function slot4.Dispose(slot0)
+slot4.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	slot0._arrow = nil

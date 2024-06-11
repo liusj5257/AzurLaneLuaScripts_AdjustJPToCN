@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"허먼 관찰일기\n\n<size=45>4. 기쁘지 않은 이유·하</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "들켰어… 허먼… 들켜버렸어……",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,8 +36,8 @@ return {
 			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "일부러 보려던 건 아니지만… 뭐 하는 거야?",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -55,9 +55,9 @@ return {
 			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "그러니까——",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,15 +68,15 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "…방금 일은 잊어야 해! 절대로 잊어줘!",
 			dir = 1,
 			bgm = "story-1",
+			actor = 101250,
+			say = "…방금 일은 잊어야 해! 절대로 잊어줘!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.15,
 					x = 30,
 					number = 4
@@ -125,12 +125,12 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "큰일이라고! 지휘관… 지금 뭘 하고 있는지도 모르는데……",
 			dir = 1,
 			bgm = "story-1",
+			actor = 101250,
+			say = "큰일이라고! 지휘관… 지금 뭘 하고 있는지도 모르는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,10 +141,10 @@ return {
 			},
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			}
 		},
@@ -179,14 +179,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -30,
 					dur = 0.5,
-					type = "shake",
-					y = -30
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					number = 3
@@ -224,17 +224,17 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "허먼은 순식간에 달려 나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -297,14 +297,14 @@ return {
 			}
 		},
 		{
-			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101240,
 			say = "으악?! 지휘관, 언제 왔어?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 2,
 					dur = 0.15,
 					number = 1

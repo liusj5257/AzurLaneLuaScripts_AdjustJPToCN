@@ -9,7 +9,7 @@ slot0.ON_GO = "FeastMediator:ON_GO"
 slot0.ON_SUBMIT_ONE_KEY = "FeastMediator:ON_SUBMIT_ONE_KEY"
 slot0.ON_SHIP_ENTER_FEAST = "FeastMediator:ON_SHIP_ENTER_FEAST"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.caches = {}
 
 	slot0:bind(uv0.SET_UP, function (slot0, slot1)
@@ -61,7 +61,7 @@ function slot0.register(slot0)
 	})
 end
 
-function slot0.HandleTaskGo(slot0, slot1)
+slot0.HandleTaskGo = function(slot0, slot1)
 	if slot1:IsActRoutineType() and slot1:getConfig("sub_type") == 430 then
 		-- Nothing
 	elseif slot1:IsActRoutineType() and slot1:getConfig("sub_type") == 431 then
@@ -77,7 +77,7 @@ function slot0.HandleTaskGo(slot0, slot1)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		CourtYardEvent._QUIT,
 		CourtYardEvent._INITED,
@@ -92,7 +92,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 
@@ -183,7 +183,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.DisplayAwards(slot0)
+slot0.DisplayAwards = function(slot0)
 	slot1 = slot0.caches[1]
 	slot2 = slot1[1]
 	slot4 = {}

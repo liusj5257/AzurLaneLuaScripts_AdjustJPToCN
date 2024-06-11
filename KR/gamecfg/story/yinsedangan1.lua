@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>권한 인증 중————</size>",
@@ -190,8 +190,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "데이터 분석 완료————————————",
 			typewriter = {
@@ -207,9 +207,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "재생 종료————————————",
 			typewriter = {

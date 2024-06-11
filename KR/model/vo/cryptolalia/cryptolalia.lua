@@ -8,30 +8,30 @@ slot0.COST_TYPE_TICKET = 2
 slot0.LANG_TYPE_JP = 0
 slot0.LANG_TYPE_CH = 1
 
-function slot0.GetAssetBundlePath(slot0)
+slot0.GetAssetBundlePath = function(slot0)
 	return PathMgr.getAssetBundle(uv0.BuildCpkPath(slot0))
 end
 
-function slot0.GetSubtitleAssetBundlePath(slot0)
+slot0.GetSubtitleAssetBundlePath = function(slot0)
 	return PathMgr.getAssetBundle(uv0.BuildSubtitlePath(slot0))
 end
 
-function slot0.BuildCpkPath(slot0)
+slot0.BuildCpkPath = function(slot0)
 	return "originsource/cipher/" .. string.lower(slot0) .. ".cpk"
 end
 
-function slot0.BuildSubtitlePath(slot0)
+slot0.BuildSubtitlePath = function(slot0)
 	return "originsource/cipher/" .. string.lower(slot0) .. ".txt"
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.lock = true
 	slot0.sizes = {}
 end
 
-function slot0.GetState(slot0, slot1)
+slot0.GetState = function(slot0, slot1)
 	if not slot0:IsLock() then
 		if slot0:IsDownloadRes(slot1) then
 			return uv0.STATE_PLAYABLE
@@ -43,11 +43,11 @@ function slot0.GetState(slot0, slot1)
 	end
 end
 
-function slot0.IsEmpty(slot0)
+slot0.IsEmpty = function(slot0)
 	return slot0 == nil or slot0 == ""
 end
 
-function slot0.GetDefaultLangType(slot0)
+slot0.GetDefaultLangType = function(slot0)
 	if not uv0.IsEmpty(slot0:GetJpCpkName()) then
 		return uv0.LANG_TYPE_JP
 	end
@@ -57,19 +57,19 @@ function slot0.GetDefaultLangType(slot0)
 	end
 end
 
-function slot0.IsDownloadableState(slot0, slot1)
+slot0.IsDownloadableState = function(slot0, slot1)
 	return slot0:GetState(slot1) == uv0.STATE_DOWNLOADABLE
 end
 
-function slot0.IsPlayableState(slot0, slot1)
+slot0.IsPlayableState = function(slot0, slot1)
 	return slot0:GetState(slot1) == uv0.STATE_PLAYABLE
 end
 
-function slot0.IsDownloadRes(slot0, slot1)
+slot0.IsDownloadRes = function(slot0, slot1)
 	return pg.CipherGroupMgr.GetInstance():isCipherExist(uv0.BuildCpkPath(slot0:GetCpkName(slot1)))
 end
 
-function slot0.IsDownloadAllRes(slot0)
+slot0.IsDownloadAllRes = function(slot0)
 	if slot0:IsMultiVersion() then
 		return slot0:IsDownloadRes(uv0.LANG_TYPE_CH) and slot0:IsDownloadRes(uv0.LANG_TYPE_JP)
 	elseif slot0:OnlyChVersion() then
@@ -79,39 +79,39 @@ function slot0.IsDownloadAllRes(slot0)
 	end
 end
 
-function slot0.IsLockState(slot0, slot1)
+slot0.IsLockState = function(slot0, slot1)
 	return slot0:GetState(slot1) == uv0.STATE_LOCK
 end
 
-function slot0.Unlock(slot0)
+slot0.Unlock = function(slot0)
 	slot0.lock = false
 end
 
-function slot0.IsLock(slot0)
+slot0.IsLock = function(slot0)
 	return slot0.lock
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.soundstory_template
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetDescription(slot0)
+slot0.GetDescription = function(slot0)
 	return slot0:getConfig("overview")
 end
 
-function slot0.GetCnCvAuthor(slot0)
+slot0.GetCnCvAuthor = function(slot0)
 	return slot0:getConfig("CV_CN")
 end
 
-function slot0.GetJpCvAuthor(slot0)
+slot0.GetJpCvAuthor = function(slot0)
 	return slot0:getConfig("CV_JP")
 end
 
-function slot0.GetCvAuthor(slot0, slot1)
+slot0.GetCvAuthor = function(slot0, slot1)
 	if slot1 == uv0.LANG_TYPE_CH then
 		return slot0:GetCnCvAuthor()
 	elseif slot1 == uv0.LANG_TYPE_JP then
@@ -119,31 +119,31 @@ function slot0.GetCvAuthor(slot0, slot1)
 	end
 end
 
-function slot0.GetShipGroupId(slot0)
+slot0.GetShipGroupId = function(slot0)
 	return slot0:getConfig("ship_id")
 end
 
-function slot0.IsSameGroup(slot0, slot1)
+slot0.IsSameGroup = function(slot0, slot1)
 	return slot0:GetShipGroupId() == slot1
 end
 
-function slot0.GetShipName(slot0)
+slot0.GetShipName = function(slot0)
 	return HXSet.hxLan(ShipGroup.getDefaultShipConfig(slot0:GetShipGroupId()).name)
 end
 
-function slot0.ShipIcon(slot0)
+slot0.ShipIcon = function(slot0)
 	return pg.ship_skin_template[ShipGroup.getDefaultShipConfig(slot0:GetShipGroupId()).skin_id].prefab
 end
 
-function slot0.GetCnAudition(slot0)
+slot0.GetCnAudition = function(slot0)
 	return slot0:getConfig("audition_resource_CN")
 end
 
-function slot0.GetJpAudition(slot0)
+slot0.GetJpAudition = function(slot0)
 	return slot0:getConfig("audition_resource_JP")
 end
 
-function slot0.GetAudition(slot0, slot1)
+slot0.GetAudition = function(slot0, slot1)
 	if slot1 == uv0.LANG_TYPE_CH then
 		return slot0:GetCnAudition()
 	elseif slot1 == uv0.LANG_TYPE_JP then
@@ -151,7 +151,7 @@ function slot0.GetAudition(slot0, slot1)
 	end
 end
 
-function slot0.GetAuditionVoice(slot0, slot1)
+slot0.GetAuditionVoice = function(slot0, slot1)
 	slot2 = slot0:GetAudition(slot1)
 
 	if slot1 == uv0.LANG_TYPE_CH then
@@ -161,19 +161,19 @@ function slot0.GetAuditionVoice(slot0, slot1)
 	end
 end
 
-function slot0.GetAuditionTitle(slot0)
+slot0.GetAuditionTitle = function(slot0)
 	return slot0:getConfig("audition_text")
 end
 
-function slot0.GetCnCpkName(slot0)
+slot0.GetCnCpkName = function(slot0)
 	return slot0:getConfig("story_resource_CN")
 end
 
-function slot0.GetJpCpkName(slot0)
+slot0.GetJpCpkName = function(slot0)
 	return slot0:getConfig("story_resource_JP")
 end
 
-function slot0.GetCpkName(slot0, slot1)
+slot0.GetCpkName = function(slot0, slot1)
 	if slot1 == uv0.LANG_TYPE_CH then
 		return slot0:GetCnCpkName()
 	elseif slot1 == uv0.LANG_TYPE_JP then
@@ -181,31 +181,31 @@ function slot0.GetCpkName(slot0, slot1)
 	end
 end
 
-function slot0.IsMultiVersion(slot0)
+slot0.IsMultiVersion = function(slot0)
 	return not uv0.IsEmpty(slot0:GetCnCpkName()) and not uv0.IsEmpty(slot0:GetJpCpkName())
 end
 
-function slot0.OnlyChVersion(slot0)
+slot0.OnlyChVersion = function(slot0)
 	return not uv0.IsEmpty(slot0:GetCnCpkName()) and uv0.IsEmpty(slot0:GetJpCpkName())
 end
 
-function slot0.OnlyJpVersion(slot0)
+slot0.OnlyJpVersion = function(slot0)
 	return not uv0.IsEmpty(slot0:GetJpCpkName()) and uv0.IsEmpty(slot0:GetCnCpkName())
 end
 
-function slot0.ExistLang(slot0, slot1)
+slot0.ExistLang = function(slot0, slot1)
 	return not uv0.IsEmpty(slot0:GetCpkName(slot1))
 end
 
-function slot0.GetIcon(slot0)
+slot0.GetIcon = function(slot0)
 	return slot0:getConfig("story_pic")
 end
 
-function slot0.GetCost(slot0, slot1)
+slot0.GetCost = function(slot0, slot1)
 	return slot0:GetCostList()[slot1]
 end
 
-function slot0.GetCostList(slot0)
+slot0.GetCostList = function(slot0)
 	slot1 = slot0:getConfig("cost" .. uv0.COST_TYPE_GEM)
 	slot2 = slot0:getConfig("cost" .. uv0.COST_TYPE_TICKET)
 
@@ -223,23 +223,23 @@ function slot0.GetCostList(slot0)
 	}
 end
 
-function slot0.InTime(slot0)
+slot0.InTime = function(slot0)
 	return pg.TimeMgr.GetInstance():inTime(slot0:getConfig("time"))
 end
 
-function slot0.IsExpired(slot0)
+slot0.IsExpired = function(slot0)
 	return not slot0:InTime()
 end
 
-function slot0.GetSortIndex(slot0)
+slot0.GetSortIndex = function(slot0)
 	return slot0:getConfig("order")
 end
 
-function slot0.IsForever(slot0)
+slot0.IsForever = function(slot0)
 	return type(slot0:getConfig("time")) == "string" and slot1 == "always"
 end
 
-function slot0.GetExpiredTimeStr(slot0)
+slot0.GetExpiredTimeStr = function(slot0)
 	if slot0:InTime() and not slot0:IsForever() then
 		return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0:getConfig("time")[3]) - pg.TimeMgr.GetInstance():GetServerTime() <= 0 and "" or skinTimeStamp(slot5)
 	else
@@ -247,7 +247,7 @@ function slot0.GetExpiredTimeStr(slot0)
 	end
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	if io.open(slot0, "rb") then
 		slot1:close()
 
@@ -257,15 +257,15 @@ function slot1(slot0)
 	end
 end
 
-function slot0.ExistLocalFile(slot0, slot1)
+slot0.ExistLocalFile = function(slot0, slot1)
 	return PathMgr.FileExists(uv0.GetAssetBundlePath(slot0:GetCpkName(slot1)))
 end
 
-function slot0.ExistLocalSubtitleFile(slot0, slot1)
+slot0.ExistLocalSubtitleFile = function(slot0, slot1)
 	return PathMgr.FileExists(uv0.GetSubtitleAssetBundlePath(slot0:GetCpkName(slot1)))
 end
 
-function slot0.GetResSize(slot0, slot1)
+slot0.GetResSize = function(slot0, slot1)
 	if not slot0:IsDownloadRes(slot1) then
 		return ""
 	end

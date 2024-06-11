@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 皇家财富号",
 	time = 58,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 皇家财富号",
+	init_effect = "",
+	id = 200860,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200860,
+	color = "yellow",
 	icon = 200860,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.15
+				number = 0.15,
+				attr = "damageRatioBullet"
 			}
 		},
 		{

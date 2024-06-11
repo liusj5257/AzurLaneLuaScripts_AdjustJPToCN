@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"潮風と夏の無人島\n\n<size=45>臨時拠点</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
-			say = "日が沈み始める頃に上陸地点に戻ると、すでにテントが一張り建てられていた。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-soft",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "日が沈み始める頃に上陸地点に戻ると、すでにテントが一張り建てられていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,15 +47,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "仲間たちは夜の帳が下りるまでに急いで各種施設の準備を進めている。"
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "集めたものを置き場に持って行ってから手伝いに行こう。",
@@ -65,27 +65,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_summerisland_map_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_summerisland_map_2",
 			say = "無人島・臨時拠点",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "仲間たちと協力し、ついに孤島の海岸で焚き火を焚くことに成功した。",
@@ -104,12 +104,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "臨時拠点レベル1、完成です",
 			painting = {
 				alpha = 0.3,
@@ -121,8 +121,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,12 +131,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これで寝床も大丈夫ですね～",
 			painting = {
 				alpha = 0.3,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -158,12 +158,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "焚き火、ぽかぽか……バーベキューもおいしそ……",
 			painting = {
 				alpha = 0.3,
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "魚とキノコはもうちょっと焼かないとダメよ。…とにかく、みんなお疲れ様！",
 			painting = {
 				alpha = 0.3,
@@ -192,12 +192,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、指揮官、さっき母港との通信が回復しました",
 			painting = {
 				alpha = 0.3,
@@ -209,12 +209,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こっちの状況はもうみんなに知らせましたので、救援隊は明日には到着する予定です",
 			painting = {
 				alpha = 0.3,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "それはよかった。後顧の憂いがなくなったし、安心してバーベキューを楽しむとしよう。",
@@ -237,27 +237,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_summerisland_map_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_summerisland_map_2",
 			say = "日が沈み、夜が更け、いい子は寝る時間になった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "みんなと一緒に片付けを終わらせ、次は――",
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "爽やかな海風が吹く中で焚き火を囲んだ晩餐会も無事終わりを告げ、仲間たちはそれぞれのテントに戻った。",
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "星々に照らされた、無人島での最初の夜が始まった――",

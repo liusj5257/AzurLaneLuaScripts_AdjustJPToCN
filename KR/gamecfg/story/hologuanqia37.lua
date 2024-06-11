@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA37",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA37",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgmDelay = 2,
-			actor = 900011,
+			side = 2,
 			actorName = "테스트 몬스터",
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
+			nameColor = "#ff5c5c",
 			say = "테스트는 성공이네.",
 			flashin = {
 				delay = 1,
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "군사",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "군사",
 			say = "시간 제한이라는 단점이 있지만, 사용자의 전투력이 크게 올라갔네요.",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "테스트 몬스터",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스트 몬스터",
 			say = "조금만 더 손을 본다면 내 군단이 곧 이 서버를 점령할 수 있겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "군사",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "군사",
 			say = "서버 통제권을 점차 장악하고 계시다는 증거입니다. 최종 권한만 손에 넣으신다면 레지스탕스들이 무슨 짓을 해도 소용 없을겁니다.",
 			typewriter = {
 				speed = 0.05,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "테스트 몬스터",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스트 몬스터",
 			say = "그래. 나는 해야할 일이 있으니 그들과 조금 더 놀아주도록 해.",
 			typewriter = {
 				speed = 0.05,
@@ -102,14 +102,14 @@ return {
 			}
 		},
 		{
-			say = "잠시 뒤, 미나토 아쿠아는 순조롭게 전망대의 지도에서 본사 건물의 위치를 확인할 수 있었다.",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-inochi-inst",
+			say = "잠시 뒤, 미나토 아쿠아는 순조롭게 전망대의 지도에서 본사 건물의 위치를 확인할 수 있었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,9 +136,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "하↑하하하, 하↑하하하! 드디어… 드디어 본사 건물의 위치를 찾았다! hololive 레지스탕스! 모두 출발!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "불가능하진 않지만… 만약 용암으로 전부 덮이면 본사 건물에 갈 수 없어져.",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "저쪽은 건설 모드, 우리는 서바이벌 모드라는 거네.",
 			typewriter = {
 				speed = 0.05,
@@ -269,9 +269,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "20상자, TNT 20상자가 있어! 우리가 지금까지 모은 양과 더하면 holo 서버 절반을 날려버릴 수 있을 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,8 +296,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "에? 예전에 이렇게 많았던가……",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "아? 저건 나와 시온이 함께 만든 제트 코스터야. 이름은 미오시오 코스터!",
 			typewriter = {
 				speed = 0.05,
@@ -373,8 +373,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "짐도 다른 동료들과 같이 개조에 참여했지. 날씨가 좋은 날 타면 hololive 서버의 전경을 볼 수 있다고~",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 30,
@@ -429,8 +429,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "전망대 근처에 입구가 있을거야. 시온이 찾아볼게!",
 			typewriter = {
 				speed = 0.05,

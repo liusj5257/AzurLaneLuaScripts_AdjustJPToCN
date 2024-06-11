@@ -7,7 +7,7 @@ slot0.MINI_GAME_COIN = "BaseMiniGameMediator:MINI_GAME_COIN"
 slot0.COIN_WINDOW_CHANGE = "BaseMiniGameMediator:COIN_WINDOW_CHANGE"
 slot0.GAME_FINISH_TRACKING = "BaseMiniGameMediator:GAME_FINISH_TRACKING"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.miniGameId = slot0.contextData.miniGameId
 	slot0.miniGameProxy = getProxy(MiniGameProxy)
 
@@ -54,13 +54,13 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.onUIAvalible(slot0)
+slot0.onUIAvalible = function(slot0)
 	if slot0.gameRoomData and slot0.gameRoomData.add_base > 0 then
 		slot0:loadCoinLayer()
 	end
 end
 
-function slot0.loadCoinLayer(slot0)
+slot0.loadCoinLayer = function(slot0)
 	slot0.viewComponent:setCoinLayer()
 	slot0:addSubLayers(Context.New({
 		mediator = GameRoomCoinMediator,
@@ -69,16 +69,16 @@ function slot0.loadCoinLayer(slot0)
 	}))
 end
 
-function slot0.OnMiniGameOPeration(slot0, ...)
+slot0.OnMiniGameOPeration = function(slot0, ...)
 end
 
-function slot0.OnMiniGameSuccess(slot0, ...)
+slot0.OnMiniGameSuccess = function(slot0, ...)
 end
 
-function slot0.OnMiniGameFailure(slot0, ...)
+slot0.OnMiniGameFailure = function(slot0, ...)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
 		GAME.SEND_MINI_GAME_OP_DONE,
@@ -90,7 +90,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == MiniGameProxy.ON_HUB_DATA_UPDATE then

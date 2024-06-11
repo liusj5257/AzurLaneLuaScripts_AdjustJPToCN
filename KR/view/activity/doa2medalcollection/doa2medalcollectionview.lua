@@ -4,17 +4,17 @@ slot0.PAGE_NUM = 9
 slot0.MEDAL_NUM_PER_PAGE = 2
 slot1 = "ui/doa2medalcollectionui_atlas"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Doa2MedalCollectionUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:checkAward()
 
 	if slot0.activeIDList then
@@ -24,17 +24,17 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.switchBtnList[1], true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if LeanTween.isTweening(go(slot0.picture)) then
 		LeanTween.cancel(go(slot0.picture), false)
 	end
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return math.random() > 0.5 and "doa_main_day" or "doa_main_night"
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.DOA_MEDAL_ACT_ID)
 
@@ -59,7 +59,7 @@ function slot0.initData(slot0)
 	slot0.newMedalID = nil
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot1 = slot0:findTF("NotchAdapt")
 	slot0.backBtn = slot0:findTF("BackBtn", slot1)
@@ -88,7 +88,7 @@ function slot0.findUI(slot0)
 			end
 		end)
 
-		function slot11(slot0)
+		slot11 = function(slot0)
 			if uv0 then
 				setImageSprite(findTF(uv0, "nameSelect"), slot0, true)
 			end
@@ -115,12 +115,12 @@ function slot0.findUI(slot0)
 	slot0.rightPage = findTF(slot0._tf, "book/rightPage")
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	function slot4()
+	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.doa_collection.tip
@@ -143,11 +143,11 @@ function slot0.addListener(slot0)
 	end
 end
 
-function slot0.UpdateActivity(slot0, slot1)
+slot0.UpdateActivity = function(slot0, slot1)
 	slot0:checkAward()
 end
 
-function slot0.updateMedalContainerView(slot0, slot1, slot2)
+slot0.updateMedalContainerView = function(slot0, slot1, slot2)
 	if slot2 then
 		setActive(slot0.picture, false)
 		LoadSpriteAtlasAsync(uv0, "pictureImage" .. slot1, function (slot0)
@@ -171,7 +171,7 @@ function slot0.updateMedalContainerView(slot0, slot1, slot2)
 		end)
 	end
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		setImageSprite(uv0.pictureName, slot0, true)
 	end
 
@@ -194,7 +194,7 @@ function slot0.updateMedalContainerView(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateMedalView(slot0, slot1, slot2)
+slot0.updateMedalView = function(slot0, slot1, slot2)
 	slot3 = table.contains(slot0.activeIDList, slot2)
 	slot5 = not slot3 and not (table.contains(slot0.activatableIDList, slot2) and not slot3)
 	slot8 = slot0.medalTfList[(slot0.curPage - 1) * uv0.MEDAL_NUM_PER_PAGE + table.indexof(slot1, slot2, 1)]
@@ -222,7 +222,7 @@ function slot0.updateMedalView(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateSwitchBtnTF(slot0)
+slot0.updateSwitchBtnTF = function(slot0)
 	setText(slot0.leftPage, (slot0.curPage - 1) * uv0.MEDAL_NUM_PER_PAGE + 1)
 
 	slot4 = uv0.MEDAL_NUM_PER_PAGE
@@ -242,7 +242,7 @@ function slot0.updateSwitchBtnTF(slot0)
 	end
 end
 
-function slot0.updateAfterSubmit(slot0, slot1)
+slot0.updateAfterSubmit = function(slot0, slot1)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.DOA2_MEDAL_ACT_ID)
 	slot0.activatableIDList = slot0.activityData.data1_list
@@ -254,7 +254,7 @@ function slot0.updateAfterSubmit(slot0, slot1)
 	slot0:checkAward()
 end
 
-function slot0.caculateActivatable(slot0, slot1)
+slot0.caculateActivatable = function(slot0, slot1)
 	slot2 = 0
 
 	if not slot0.pageIDList then
@@ -272,7 +272,7 @@ function slot0.caculateActivatable(slot0, slot1)
 	return slot2
 end
 
-function slot0.checkAward(slot0)
+slot0.checkAward = function(slot0)
 	if not slot0.activeIDList then
 		return
 	end

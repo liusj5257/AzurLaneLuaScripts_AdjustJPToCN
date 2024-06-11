@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Trick or Treat, Halloween!\n\n<size=45>V 「Helper From A Coffin?」</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Warehouse",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Warehouse",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			actor = 302051,
+			say = "If you shout like that, you'll scare her away...",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "If you shout like that, you'll scare her away...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Miss Ghost——! Hurry... huh? What's over there? A coffin?",
 			typewriter = {
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "Let's open it first! Allow me!",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Wait——",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 213021,
 			dir = 1,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "Boo! Surprise, surprise~~",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -256,8 +256,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "O gosh, suddenly someone appeared!",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "...Why are you in a coffin, Terror?",
 			typewriter = {
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 213021,
 			dir = 1,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "Terror cannot say, Terror is keeping a promise...",
 			typewriter = {
@@ -370,11 +370,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "Ah! Quick, look over there!",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,8 +414,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,
@@ -427,8 +427,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "Who is it?!",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 213021,
 			dir = 1,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "Wait... Take this. These are \"Witch's Broomsticks\".",
 			typewriter = {
@@ -477,8 +477,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Wow, exactly one broomstick per person... We must catch up to that ghost",
 			typewriter = {
@@ -491,11 +491,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "Don't think you can easily escape from us! I'm coming for ya!!",
 			typewriter = {
 				speed = 0.05,
@@ -507,8 +507,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2250
@@ -519,11 +519,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:48}",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
 			actor = 302051,
-			nameColor = "#a9f548",
+			actorName = "{namecode:48}",
 			say = "Bailey, don't rush...",
 			typewriter = {
 				speed = 0.05,

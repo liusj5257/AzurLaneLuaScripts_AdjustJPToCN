@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "生命的鼓动",
 	cd = 0,
+	picture = "0",
+	desc = "耐久回复",
 	painting = 1,
 	id = 103051,
-	picture = "0",
 	castCV = "",
-	desc = "耐久回复",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetSelf"
 			},
@@ -28,10 +28,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 103053
 			}

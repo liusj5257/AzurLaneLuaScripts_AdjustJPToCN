@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Fond Memories\n\n<size=45>Chapter 1: A Small Luncheon</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgName = "bg_story_school",
 			say = "Port - School Courtyard",
+			bgName = "bg_story_school",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "I must say, Leander's cooking is simply delicious, without fail.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I must say, Leander's cooking is simply delicious, without fail.",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 202010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202010,
+			nameColor = "#a9f548",
 			say = "Ajax, isn't it about time you learned how to cook too? Considering how you're still making Commander cook all the time...",
 			typewriter = {
 				speed = 0.05,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "Well, the person in question is happy about it, so isn't it fine?",
 			typewriter = {
 				speed = 0.05,
@@ -105,12 +105,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "Right? Commander is actually quite a hard worker, though it's not always apparent.",
 			typewriter = {
 				speed = 0.05,
@@ -122,12 +122,12 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "I-Is that so...?",
 			typewriter = {
 				speed = 0.05,
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "Hehe~♪ Well then, what's the problem~?",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Ajax held out the water bottle that she had just been drinking from.",
 			typewriter = {
 				speed = 0.05,
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "Go on, take a sip. Or... would you prefer it mouth to mouth~?",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			hideOther = true,
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Please, do look forward to it. Hehe~♪",
 			typewriter = {

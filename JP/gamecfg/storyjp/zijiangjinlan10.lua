@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg6",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・３ターン目（三笠）",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,17 +36,17 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 302080,
+			nameColor = "#A9F548FF",
 			say = "この霧……セイレーンの仕業じゃないとすれば、赤城さんの「采配」による効果と考えていいだろうな",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "赤城の進軍をこのまま許せば、「屋敷」の拠点の5点分を手に入れることを許すことになる",
 			painting = {
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "艦船の配置地点とは関係なく攻撃対象を自由に決められる…空母偏重の編成はこういう狙いもあるのか？",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "赤城さんが霧を使ってきた以上、何か先手を打つ必要があるかも",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "こういう読み合いはどうも苦手っすね……「部下」としてただ命令に従っていればいいと言われても、やっぱり考えちゃうっす",
 			painting = {
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "お互いの読み合いをより複雑に、不確定性を持たせる――武蔵もそれを狙っていると思う",
 			painting = {
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg6",
 			say = "その時、三笠の艦隊がいる側の「拠点」の上に、攻撃目標を示すシンボルが表示された。",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "三笠大先輩からの指示ですわ。皆、注意して",
 			painting = {
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg6",
 			say = "三笠の示す目標は明確――全力で拠点を攻略することだった。",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "拠点の攻略…大先輩もついにやる気に出たっすね…！",
 			painting = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "そうでなくちゃな！大先輩の采配があればあてたちは負けない！",
 			painting = {
@@ -426,8 +426,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "こっちの「祭儀の島」の攻略を準備し、同時に赤城さんの艦隊を分断することだな",
 			painting = {
@@ -475,8 +475,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "どうだろうな。赤城も戦力を中心の拠点で合流させるとは限らない。この一手はどちらかというと赤城に合わせた動きだ",
 			painting = {
@@ -492,8 +492,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "赤城さんの作戦を逆手に取るんすね…さすが大先輩っす…",
 			painting = {

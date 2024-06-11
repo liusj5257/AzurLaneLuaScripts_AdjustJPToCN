@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-1",
 			say = "Sakura Empire - Diadem of Light",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The Sakura Empire. It consists of many numerous islands and is a superpower with a distinctive culture.",
 			typewriter = {
 				speed = 0.05,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Away from its mainland there are six remote islands, collectively known as the Diadem of Light. The islands are connected by suspension bridges, forming the shape of a bright sun, or perhaps a snow crystal.",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Due to their isolation from the main islands, the Diadem of Light is believed to be the resting grounds of an immense spiritual power. Many conduct pilgrimages to these distant islands in order to hold their rituals and ceremonies.",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -330,8 +330,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -455,8 +455,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

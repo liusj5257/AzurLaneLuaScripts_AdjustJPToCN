@@ -23,13 +23,13 @@ return {
 			style = {
 				text = "이곳에서 전투 일지 확인 가능~",
 				mode = 2,
-				posY = 115.27,
 				dir = 1,
+				posY = 115.27,
 				posX = 642.56
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/right_stage/memo/icon",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/right_stage/memo/icon",
 				triggerType = {
 					1
 				},
@@ -46,8 +46,8 @@ return {
 				"clickLog"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/right_stage/memo/panel/guide_btn",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/right_stage/memo/panel/guide_btn",
 				triggerType = {
 					1
 				},
@@ -79,13 +79,13 @@ return {
 			style = {
 				text = "흐릿한 부분을 터치하여 퇴장",
 				mode = 2,
-				posY = 191.87,
 				dir = -1,
+				posY = 191.87,
 				posX = 9.1
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/overall/close_btn",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/overall/close_btn",
 				triggerType = {
 					1
 				},

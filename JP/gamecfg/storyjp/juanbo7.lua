@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUANBO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUANBO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"笑顔オーバーフロー！\n\n<size=45>七、はい、笑ってー！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "数日の苦行を経て、本部の緊急任務からついに解放された。",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "窓の外を眺める。天気は快晴、太陽もいつもより輝いているように感じた。",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "秘書艦の巻波が埠頭の定時点検から執務室に戻り、そして――",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "おおお！指揮官、笑った！",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "えへへ！大好きな指揮官、ようやく戻ってきた！",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#a9f548",
 			say = "おはよう。巻波ちゃん凄く上機嫌じゃない。何かあったの？",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "言われるまでもありませんわ。指揮官がいつもどおりに戻ったから――ではなくて？",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "えへへ～",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "指揮官ももとに戻ったし、巻波もリベンジしないと～",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "リベンジ？",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "金剛と榛名の方を見る。…どうやら彼女たちもどういう意味かわからないようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "まあ、とりあえず流されてやるとするか……",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "えへへ、指揮官、この間はよくもわたしのコチョコチョ攻撃に耐えたな！",
 			typewriter = {
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……あ。",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "リベンジって、この間指揮官をくすぐろうとして返り討ちにされたときのことですの？",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "指揮官も、よく巻波ちゃん相手にやり返したものですわ…",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#a9f548",
 			say = "お互い仕事で大変だったし、たまにはこういうのもいいんじゃない？",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "指揮官、ちゃんと巻波ちゃんに付き合ってあげなさいませ？",
 			typewriter = {

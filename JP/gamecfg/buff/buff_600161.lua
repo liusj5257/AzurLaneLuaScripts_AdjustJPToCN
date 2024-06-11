@@ -7,9 +7,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 20,
-					initialCD = true,
 					skill_id = 600162,
+					initialCD = true,
+					time = 20,
 					target = "TargetSelf"
 				}
 			}
@@ -23,9 +23,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 20,
-					initialCD = true,
 					skill_id = 600161,
+					initialCD = true,
+					time = 20,
 					target = "TargetSelf"
 				}
 			}
@@ -39,9 +39,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					time = 20,
-					initialCD = true,
 					skill_id = 600160,
+					initialCD = true,
+					time = 20,
 					target = "TargetSelf"
 				}
 			}
@@ -54,14 +54,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 600161,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600161,
+	color = "yellow",
 	icon = 600161,
 	last_effect = "",
 	effect_list = {
@@ -71,9 +71,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				time = 20,
-				initialCD = true,
 				skill_id = 600160,
+				initialCD = true,
+				time = 20,
 				target = "TargetSelf"
 			}
 		}

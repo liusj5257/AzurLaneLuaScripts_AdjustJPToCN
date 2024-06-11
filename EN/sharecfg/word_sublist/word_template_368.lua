@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_368 = {}
 slot1 = slot0.word_template_368
 
-function temp()
+temp = function()
 	uv0["稍"] = {
 		["有"] = {
 			["常"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["⑥"] = {
 		["月"] = {
 			["三"] = {
@@ -97,7 +97,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["3"] = {
 		["5"] = {
 			["日"] = {
@@ -499,7 +499,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["③"] = {
 		["⑤"] = {
 			["日"] = {
@@ -549,7 +549,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["叁"] = {
 		["伍"] = {
 			["日"] = {
@@ -623,7 +623,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ⅷ"] = {
 		["九"] = {
 			["运"] = {
@@ -1012,7 +1012,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["①"] = {
 		["⑨"] = {
 			["⑧"] = {

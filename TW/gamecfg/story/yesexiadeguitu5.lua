@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU5",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 904010,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "雷達檢測到前方有新的艦隊出現，是新的皇家巡邏隊嗎…",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "糟了，是皇家的阿瑞托莎！",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "意圖被發現了，不能讓她回去報信。",
 			typewriter = {
 				speed = 0.05,

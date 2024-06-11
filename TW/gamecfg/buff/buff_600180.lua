@@ -18,8 +18,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 0.01,
+					target = "TargetSelf",
 					skill_id = 600182
 				}
 			},
@@ -54,8 +54,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 0.01,
+					target = "TargetSelf",
 					skill_id = 600181
 				}
 			},
@@ -90,8 +90,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 0.01,
+					target = "TargetSelf",
 					skill_id = 600180
 				}
 			},
@@ -114,9 +114,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -141,8 +141,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 0.01,
+				target = "TargetSelf",
 				skill_id = 600180
 			}
 		},

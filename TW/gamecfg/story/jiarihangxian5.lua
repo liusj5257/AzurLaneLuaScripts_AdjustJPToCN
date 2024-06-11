@@ -1,15 +1,15 @@
 return {
-	id = "JIARIHANGXIAN5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "doa_boss",
 			say = "經過一番準備，萬眾期待的“祭典”終於要開始了——",
+			side = 2,
+			dir = 1,
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,8 +98,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600030,
 			dir = 1,
+			actor = 10600030,
 			say = "呼呼，最先是由我們上場啊，我會加油的！",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10600040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "霞~莫妮卡~加油！我們都在這裡為妳們應援哦！",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "哎呀？對手也是相當可愛的女孩子們呢~",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "{namecode:66}小姐的泳裝，非常可愛哦！",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10600030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "讓我們各自盡最大的努力，來一場最棒的比賽吧！",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,10 +280,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 312010,
 			say = "那就…比賽開始喵！",
 			effects = {
 				{

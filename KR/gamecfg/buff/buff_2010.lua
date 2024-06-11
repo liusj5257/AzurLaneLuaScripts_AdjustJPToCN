@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 2000
+					number = 2000,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 2220
+					number = 2220,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 2440
+					number = 2440,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 2660
+					number = 2660,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 2880
+					number = 2880,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 3100
+					number = 3100,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 3320
+					number = 3320,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 3540
+					number = 3540,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 3760
+					number = 3760,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 4000
+					number = 4000,
+					attr = "cannonPower"
 				}
 			}
 		}
 	},
-	time = 10,
 	name = "火力全开",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 2010,
+	time = 10,
 	picture = "",
 	desc = "炮击伤害提高",
 	stack = 1,
-	id = 2010,
+	color = "red",
 	icon = 2010,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 2000
+				number = 2000,
+				attr = "cannonPower"
 			}
 		}
 	}

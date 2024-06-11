@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 100
+					number = 100,
+					attr = "airPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 100
+					number = 100,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 140
+					number = 140,
+					attr = "airPower"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 140
+					number = 140,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 180
+					number = 180,
+					attr = "airPower"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 180
+					number = 180,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 220
+					number = 220,
+					attr = "airPower"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 220
+					number = 220,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 260
+					number = 260,
+					attr = "airPower"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 260
+					number = 260,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 300
+					number = 300,
+					attr = "airPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 300
+					number = 300,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 350
+					number = 350,
+					attr = "airPower"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 350
+					number = 350,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 400
+					number = 400,
+					attr = "airPower"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 400
+					number = 400,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 450
+					number = 450,
+					attr = "airPower"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 450
+					number = 450,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 500
+					number = 500,
+					attr = "airPower"
 				}
 			},
 			{
@@ -253,20 +253,20 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 500
+					number = 500,
+					attr = "loadSpeed"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 107051,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 107051,
+	color = "red",
 	icon = 107050,
 	last_effect = "",
 	blink = {

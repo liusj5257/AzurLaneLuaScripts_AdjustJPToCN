@@ -145,7 +145,7 @@ slot1 = {
 	}
 }
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	if IsUnityEditor and not ENABLE_GUIDE then
 		if slot1 then
 			slot1()
@@ -194,7 +194,7 @@ function slot0.Execute(slot0, slot1)
 	end, slot1)
 end
 
-function slot0.PlayNextOne(slot0, slot1, slot2)
+slot0.PlayNextOne = function(slot0, slot1, slot2)
 	if not slot1 then
 		return
 	end

@@ -1,16 +1,16 @@
 slot0 = class("EducateScheduleScene", import(".base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateScheduleUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.playerID = getProxy(PlayerProxy):getRawData().id
 	slot0.educateProxy = getProxy(EducateProxy)
 	slot0.char = slot0.educateProxy:GetCharData()
@@ -26,14 +26,14 @@ function slot0.initData(slot0)
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 end
 
-function slot0.clearLocalPlans(slot0)
+slot0.clearLocalPlans = function(slot0)
 	getProxy(EducateProxy):GetPlanProxy():ClearLocalPlansData()
 	slot0:getLocalGridData()
 	slot0:updateResultPanel()
 	slot0:closeSelectPanel()
 end
 
-function slot0.getLocalGridData(slot0)
+slot0.getLocalGridData = function(slot0)
 	slot1 = slot0.char:GetNextWeekPlanCnt()
 	slot0.gridData = {}
 
@@ -72,7 +72,7 @@ function slot0.getLocalGridData(slot0)
 	slot0:recoverSpecEventForPlans()
 end
 
-function slot0.checkLocalPlan(slot0, slot1, slot2)
+slot0.checkLocalPlan = function(slot0, slot1, slot2)
 	if slot2 == EducateGrid.TYPE_PLAN or slot2 == EducateGrid.TYPE_PLAN_OCCUPY then
 		slot3 = EducatePlan.New(slot1)
 		slot4 = slot3:getConfig("pre_next")
@@ -83,7 +83,7 @@ function slot0.checkLocalPlan(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.recoverSpecEventForPlans(slot0)
+slot0.recoverSpecEventForPlans = function(slot0)
 	for slot5, slot6 in ipairs(slot0.educateProxy:GetEventProxy():GetPlanSpecEvents()) do
 		for slot11, slot12 in ipairs(slot6:GetGridIndexs()) do
 			slot0:setGridDataForPlan(slot12[1], slot12[2], EducateGrid.New({
@@ -94,11 +94,11 @@ function slot0.recoverSpecEventForPlans(slot0)
 	end
 end
 
-function slot0.saveGridLocalData(slot0, slot1, slot2, slot3)
+slot0.saveGridLocalData = function(slot0, slot1, slot2, slot3)
 	PlayerPrefs.SetString(EducateConst.PLANS_DATA_KEY .. slot0.playerID .. "_" .. slot1 .. "_" .. slot2, slot3.id .. "_" .. slot3.type)
 end
 
-function slot0.setGridDataForPlan(slot0, slot1, slot2, slot3)
+slot0.setGridDataForPlan = function(slot0, slot1, slot2, slot3)
 	if not slot0.gridData[slot1][slot2]:IsEmpty() then
 		slot0:clearGridData(slot1, slot2)
 	end
@@ -119,7 +119,7 @@ function slot0.setGridDataForPlan(slot0, slot1, slot2, slot3)
 	slot0:saveGridLocalData(slot1, slot2, slot3)
 end
 
-function slot0.clearGridData(slot0, slot1, slot2)
+slot0.clearGridData = function(slot0, slot1, slot2)
 	if slot0.gridData[slot1][slot2]:GetOccupyGridCnt() > 1 then
 		for slot8, slot9 in pairs(slot0.gridData[slot1]) do
 			if (slot9:IsPlanOccupy() or slot9:IsPlan()) and slot9.id == slot3.id then
@@ -139,7 +139,7 @@ function slot0.clearGridData(slot0, slot1, slot2)
 	slot0:saveGridLocalData(slot1, slot2, slot0.gridData[slot1][slot2])
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bgTF = slot0:findTF("anim_root/bg")
 	slot0.topTF = slot0:findTF("anim_root/top")
 	slot0.returnBtn = slot0:findTF("return_btn/return_btn", slot0.topTF)
@@ -196,7 +196,7 @@ function slot0.findUI(slot0)
 	slot0.resPanel:Load()
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	setActive(slot0:findTF("clear_btn", slot0.topTF), false)
 	onButton(slot0, slot0:findTF("clear_btn", slot0.topTF), function ()
 		uv0:clearLocalPlans()
@@ -266,7 +266,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.haveEmpty(slot0)
+slot0.haveEmpty = function(slot0)
 	for slot4 = 1, 6 do
 		for slot8 = 1, 3 do
 			if slot0.gridData[slot4][slot8]:IsEmpty() then
@@ -278,7 +278,7 @@ function slot0.haveEmpty(slot0)
 	return false
 end
 
-function slot0.allEmpty(slot0)
+slot0.allEmpty = function(slot0)
 	for slot4 = 1, 6 do
 		for slot8 = 1, 3 do
 			if not slot0.gridData[slot4][slot8]:IsEmpty() and not slot9:IsLock() then
@@ -290,14 +290,14 @@ function slot0.allEmpty(slot0)
 	return true
 end
 
-function slot0.executePlans(slot0, slot1)
+slot0.executePlans = function(slot0, slot1)
 	slot0:emit(EducateScheduleMediator.GET_PLANS, {
 		gridData = slot0.gridData,
 		isSkip = slot1
 	})
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateBg()
 	slot0:initTimeTitle()
 	slot0:initTargetText()
@@ -318,7 +318,7 @@ function slot0.didEnter(slot0)
 	})
 end
 
-function slot0.checkTips(slot0)
+slot0.checkTips = function(slot0)
 	slot0.newUnlcokPlanIds = EducateTipHelper.GetPlanUnlockTipIds()
 
 	if #slot0.newUnlcokPlanIds > 0 then
@@ -329,18 +329,18 @@ function slot0.checkTips(slot0)
 	end
 end
 
-function slot0.updateBg(slot0)
+slot0.updateBg = function(slot0)
 	setImageSprite(slot0.bgTF, LoadSprite("bg/" .. slot0.char:GetBGName()), false)
 end
 
-function slot0.initTimeTitle(slot0)
+slot0.initTimeTitle = function(slot0)
 	slot1 = EducateHelper.GetTimeAfterWeeks(slot0.curTime, 1)
 
 	setText(slot0.monthText, EducateHelper.GetShowMonthNumber(slot1.month))
 	setText(slot0.weekText, i18n("word_which_week", i18n("number_" .. slot1.week)))
 end
 
-function slot0.initTargetText(slot0)
+slot0.initTargetText = function(slot0)
 	slot0.showAttrSubtype = 0
 
 	if not slot0.educateProxy:GetTaskProxy():CanGetTargetAward() then
@@ -365,7 +365,7 @@ function slot0.initTargetText(slot0)
 	end
 end
 
-function slot0.updateIndexDatas(slot0)
+slot0.updateIndexDatas = function(slot0)
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 	slot0.contextData.indexDatas.typeIndex = slot0.typeIndex
 	slot0.contextData.indexDatas.costIndex = slot0.costIndex
@@ -375,7 +375,7 @@ function slot0.updateIndexDatas(slot0)
 	slot0.contextData.indexDatas.awardAttr2Index = slot0.awardAttr2Index
 end
 
-function slot0.initSchedulePanel(slot0)
+slot0.initSchedulePanel = function(slot0)
 	slot0.dayList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = slot1 + 1
@@ -407,7 +407,7 @@ function slot0.initSchedulePanel(slot0)
 	slot0.dayList:align(6)
 end
 
-function slot0._updateGrid(slot0, slot1, slot2)
+slot0._updateGrid = function(slot0, slot1, slot2)
 	setActive(slot1, not slot2:IsLock())
 
 	if not slot2:IsLock() then
@@ -429,7 +429,7 @@ function slot0._updateGrid(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateDayGrids(slot0, slot1, slot2)
+slot0.updateDayGrids = function(slot0, slot1, slot2)
 	slot3 = slot1 + 1
 
 	for slot7 = 1, 3 do
@@ -440,16 +440,16 @@ function slot0.updateDayGrids(slot0, slot1, slot2)
 	end
 end
 
-function slot0.initSelectPlans(slot0)
+slot0.initSelectPlans = function(slot0)
 	slot1 = slot0.plansView
 	slot0.plansRect = slot1:GetComponent("LScrollRect")
 	slot0.planCards = {}
 
-	function slot0.plansRect.onInitItem(slot0)
+	slot0.plansRect.onInitItem = function(slot0)
 		uv0.planCards[slot0] = EducateSchedulePlanCard.New(slot0, uv0)
 	end
 
-	function slot0.plansRect.onUpdateItem(slot0, slot1)
+	slot0.plansRect.onUpdateItem = function(slot0, slot1)
 		if not uv0.planCards[slot1] then
 			uv0.planCards[slot1] = EducateSchedulePlanCard.New(slot1, uv0)
 		end
@@ -464,7 +464,7 @@ function slot0.initSelectPlans(slot0)
 		slot2:update(slot3, slot4)
 	end
 
-	function slot0.plansRect.onReturnItem(slot0, slot1)
+	slot0.plansRect.onReturnItem = function(slot0, slot1)
 	end
 
 	for slot4 = 1, 3 do
@@ -483,7 +483,7 @@ function slot0.initSelectPlans(slot0)
 	end
 end
 
-function slot0.openSelectPanel(slot0, slot1, slot2)
+slot0.openSelectPanel = function(slot0, slot1, slot2)
 	LoadImageSpriteAtlasAsync("ui/educatescheduleui_atlas", slot1, slot0:findTF("day/title", slot0.selectPanelTF), true)
 	setActive(slot0.selectPanelTF, true)
 	setActive(slot0.scheduleTF, false)
@@ -495,7 +495,7 @@ function slot0.openSelectPanel(slot0, slot1, slot2)
 	slot0:updatePlanList()
 end
 
-function slot0.updateSelectdDay(slot0)
+slot0.updateSelectdDay = function(slot0)
 	for slot4 = 1, 3 do
 		slot5 = slot0:findTF("day/cells", slot0.selectPanelTF):GetChild(slot4 - 1)
 		slot7 = slot0.planProxy:GetGridBgName(slot0.selectDay, slot4)
@@ -507,7 +507,7 @@ function slot0.updateSelectdDay(slot0)
 	end
 end
 
-function slot0.updatePlanList(slot0)
+slot0.updatePlanList = function(slot0)
 	if slot0.selectIndex ~= 0 then
 		slot0.showPlans = slot0:filter(slot0.planProxy:GetShowPlans(slot0.char:GetNextWeekStage(), slot0.selectDay, slot0.selectIndex))
 
@@ -516,7 +516,7 @@ function slot0.updatePlanList(slot0)
 	end
 end
 
-function slot0.sortPlans(slot0)
+slot0.sortPlans = function(slot0)
 	table.sort(slot0.showPlans, CompareFuncs({
 		function (slot0)
 			return table.contains(uv0.newUnlcokPlanIds, slot0.id) and 0 or 1
@@ -538,7 +538,7 @@ function slot0.sortPlans(slot0)
 	slot0.newUnlcokPlanIds = {}
 end
 
-function slot0.OnPlanCardClick(slot0, slot1)
+slot0.OnPlanCardClick = function(slot0, slot1)
 	slot2, slot3 = slot0:CheckCondition(slot1)
 
 	if slot2 then
@@ -554,19 +554,19 @@ function slot0.OnPlanCardClick(slot0, slot1)
 	end
 end
 
-function slot0.filter(slot0, slot1)
+slot0.filter = function(slot0, slot1)
 	return underscore.select(slot1, function (slot0)
 		return EducatePlanIndexConst.filterByType(slot0, uv0.typeIndex) and EducatePlanIndexConst.filterByCost(slot0, uv0.costIndex) and EducatePlanIndexConst.filterByAwardRes(slot0, uv0.awardResIndex) and EducatePlanIndexConst.filterByAwardNature(slot0, uv0.awardNatureIndex) and EducatePlanIndexConst.filterByAwardAttr1(slot0, uv0.awardAttr1Index) and EducatePlanIndexConst.filterByAwardAttr2(slot0, uv0.awardAttr2Index)
 	end)
 end
 
-function slot0.closeSelectPanel(slot0)
+slot0.closeSelectPanel = function(slot0)
 	setActive(slot0.selectPanelTF, false)
 	setActive(slot0.scheduleTF, true)
 	slot0.dayList:align(6)
 end
 
-function slot0.CheckCondition(slot0, slot1)
+slot0.CheckCondition = function(slot0, slot1)
 	if slot0.gridData[slot0.selectDay][slot0.selectIndex]:IsEvent() or slot2:IsEventOccupy() then
 		return false, i18n("child_schedule_event_tip")
 	end
@@ -605,7 +605,7 @@ function slot0.CheckCondition(slot0, slot1)
 	return true
 end
 
-function slot0.CheckRemainGrid(slot0, slot1, slot2)
+slot0.CheckRemainGrid = function(slot0, slot1, slot2)
 	if slot0.selectIndex + slot1 - 1 > 3 then
 		return false
 	end
@@ -619,7 +619,7 @@ function slot0.CheckRemainGrid(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.showBuffBox(slot0, slot1)
+slot0.showBuffBox = function(slot0, slot1)
 	slot0:emit(uv0.EDUCATE_ON_ITEM, {
 		drop = {
 			number = 1,
@@ -629,7 +629,7 @@ function slot0.showBuffBox(slot0, slot1)
 	})
 end
 
-function slot0.initResultPanel(slot0)
+slot0.initResultPanel = function(slot0)
 	slot0.resPanel:FlushAddValue("", "")
 	slot0.buffUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -712,7 +712,7 @@ function slot0.initResultPanel(slot0)
 	slot0:updateResultPanel()
 end
 
-function slot0.updateResultPanel(slot0)
+slot0.updateResultPanel = function(slot0)
 	slot1 = slot0:allEmpty()
 
 	setActive(slot0.rightEmptyTF, slot1)
@@ -751,7 +751,7 @@ function slot0.updateResultPanel(slot0)
 	end
 end
 
-function slot0.getPlansResult(slot0)
+slot0.getPlansResult = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -772,7 +772,7 @@ function slot0.getPlansResult(slot0)
 	return slot1, slot2
 end
 
-function slot0.getPlansCost(slot0)
+slot0.getPlansCost = function(slot0)
 	slot1 = 0
 	slot2 = 0
 	slot3 = {}
@@ -790,7 +790,7 @@ function slot0.getPlansCost(slot0)
 	return slot1, slot2
 end
 
-function slot0.getRemainGridCnt(slot0, slot1, slot2)
+slot0.getRemainGridCnt = function(slot0, slot1, slot2)
 	slot4 = 1
 
 	for slot8, slot9 in pairs(slot0.gridData[slot1]) do
@@ -802,7 +802,7 @@ function slot0.getRemainGridCnt(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.DoRecommend(slot0)
+slot0.DoRecommend = function(slot0)
 	slot1 = slot0.char:GetAttrSortIds()
 
 	for slot5, slot6 in pairs(slot0.gridData) do
@@ -824,7 +824,7 @@ function slot0.DoRecommend(slot0)
 	slot0:closeSelectPanel()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.selectPanelTF) then
 		slot0:closeSelectPanel()
 	else
@@ -832,7 +832,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.topPanel:Destroy()
 
 	slot0.topPanel = nil

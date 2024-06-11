@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-2-15",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg12",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-1",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-2-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "저기…… 왜 항상 달걀 프라이를 만들면 태워버리는 걸까요?",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			say = "TB는 난감한 듯이 손에 들고 있는 팬을 흔들어 아직 완전히 굳지 않은 노른자를 완전히 납작하게 만들었다.",
@@ -51,14 +51,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "제대로 배운 대로 하는데도……",
 			voice = "event:/educate/tb/educate-tb-story-2-16",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "제대로 배운 대로 하는데도……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			say = "접시에 올려져 있는 실패한 달걀 프라이를 곁눈질하면서 조금 안타까운 마음이 들었다.",
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			say = "만드는 방법을 차근차근 가르쳐 주었고, 다치지 않도록 대책도 세웠다.",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			say = "그나저나 TB는 프라이팬에서 튀는 불이나 기름을 전혀 두려워하지 않는다. 위험 감지 능력이 제대로 자라고 있는지 걱정이다.",

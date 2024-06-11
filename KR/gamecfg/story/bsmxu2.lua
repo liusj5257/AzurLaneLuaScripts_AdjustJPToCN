@@ -1,15 +1,15 @@
 return {
-	id = "BSMXU2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "BSMXU2",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "에헤헤~ 식은 죽 먹기~",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -78,9 +78,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "후후후후후~",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -119,9 +119,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "천 톤! 그, 그렇게 많은 거야…!?",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900180,
 			dir = 1,
+			actor = 900180,
 			say = "왜, 왜인지 목표가 갑자기 엄청 멀어진 기분이 들어…",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900180,
 			dir = 1,
+			actor = 900180,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

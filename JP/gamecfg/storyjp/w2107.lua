@@ -1,12 +1,12 @@
 return {
-	id = "W2107",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2107",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "このエリアに再び入ることはないだろう。",
 			painting = {
 				alpha = 0.3,

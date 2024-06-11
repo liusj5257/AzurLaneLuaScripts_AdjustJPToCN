@@ -1,48 +1,48 @@
 return {
 	Points = {
 		{
-			x = 51.64862,
 			scale = 0.4,
+			x = 51.64862,
 			y = -285
 		},
 		{
 			outRandom = true,
-			x = 255.6734,
 			scale = 0.4,
+			x = 255.6734,
 			y = -237
 		},
 		{
 			outRandom = true,
-			x = 288.6775,
 			scale = 0.4,
+			x = 288.6775,
 			y = -141
 		},
 		{
 			outRandom = true,
-			x = 129.6581,
 			scale = 0.4,
+			x = 129.6581,
 			y = -60
 		},
 		{
 			outRandom = true,
-			x = -80.46745,
 			scale = 0.4,
+			x = -80.46745,
 			y = -132
 		},
 		{
 			outRandom = true,
-			x = -98.36964,
 			scale = 0.4,
+			x = -98.36964,
 			y = -207
 		},
 		{
-			x = -548.4244,
 			scale = 0.4,
+			x = -548.4244,
 			y = -417
 		},
 		{
-			x = 759.7348,
 			scale = 0.4,
+			x = 759.7348,
 			y = -195
 		}
 	},

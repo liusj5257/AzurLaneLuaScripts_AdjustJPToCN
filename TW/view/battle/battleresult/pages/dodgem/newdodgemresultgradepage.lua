@@ -1,6 +1,6 @@
 slot0 = class("NewDodgemResultGradePage", import("..NewBattleResultGradePage"))
 
-function slot0.LoadBG(slot0, slot1)
+slot0.LoadBG = function(slot0, slot1)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("BattleResultItems/" .. "CommonBg", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -20,7 +20,7 @@ function slot0.LoadBG(slot0, slot1)
 	end), false, false)
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0.super.RegisterEvent(uv1, slot0)
@@ -39,7 +39,7 @@ function slot0.RegisterEvent(slot0, slot1)
 	end)
 end
 
-function slot0.MovePainting(slot0, slot1)
+slot0.MovePainting = function(slot0, slot1)
 	slot3 = LeanTween.value(slot0.paintingTr.parent.gameObject, 2500, 587, 0.3)
 	slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
 		uv0.localPosition = Vector3(slot0, 0, 0)
@@ -55,7 +55,7 @@ function slot0.MovePainting(slot0, slot1)
 	end))
 end
 
-function slot0.GetGetObjectives(slot0)
+slot0.GetGetObjectives = function(slot0)
 	slot2 = {}
 	slot3 = slot0.contextData.statistics.dodgemResult
 
@@ -71,7 +71,7 @@ function slot0.GetGetObjectives(slot0)
 	return slot2
 end
 
-function slot0.LoadPainitingContainer(slot0, slot1)
+slot0.LoadPainitingContainer = function(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 
 	slot2:getAssetAsync("BattleResultItems/Painting", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -83,7 +83,7 @@ function slot0.LoadPainitingContainer(slot0, slot1)
 	end), true, true)
 end
 
-function slot0.UpdatePainting(slot0, slot1, slot2)
+slot0.UpdatePainting = function(slot0, slot1, slot2)
 	slot3 = slot1.transform:Find("painting")
 	slot4 = slot0:GetFlagShip()
 
@@ -100,7 +100,7 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 	setActive(slot0.objectiveContainer.parent, false)
 end
 
-function slot0.DisplayShipDialogue(slot0, slot1, slot2)
+slot0.DisplayShipDialogue = function(slot0, slot1, slot2)
 	slot3, slot4, slot5 = nil
 
 	if slot0.contextData.score > 1 then
@@ -113,7 +113,7 @@ function slot0.DisplayShipDialogue(slot0, slot1, slot2)
 	slot6.alignment = CHAT_POP_STR_LEN < #slot4 and TextAnchor.MiddleLeft or TextAnchor.MiddleCenter
 end
 
-function slot0.GetFlagShip(slot0)
+slot0.GetFlagShip = function(slot0)
 	return Ship.New({
 		id = 9999,
 		configId = 205021,
@@ -121,7 +121,7 @@ function slot0.GetFlagShip(slot0)
 	})
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.paintingTr then
 		retPaintingPrefab(slot0.paintingTr, slot0:GetFlagShip():getPainting())
 	end

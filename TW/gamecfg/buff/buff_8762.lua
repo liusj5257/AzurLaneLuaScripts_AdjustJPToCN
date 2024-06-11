@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "DOA联动 fever BUFF",
 	time = 0,
-	color = "blue",
+	name = "DOA联动 fever BUFF",
+	init_effect = "",
+	id = 8761,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8761,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{

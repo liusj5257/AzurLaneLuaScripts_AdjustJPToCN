@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "布里FullCharge！",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 902190,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902190,
+	color = "yellow",
 	icon = 902190,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 9
+				number = 9,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 9
+				number = 9,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 9
+				number = 9,
+				attr = "airPower"
 			}
 		},
 		{
@@ -53,8 +53,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 9
+				number = 9,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -63,8 +63,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 9
+				number = 9,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -73,8 +73,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 9
+				number = 9,
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -83,8 +83,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 9
+				number = 9,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -93,8 +93,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiSubPower",
-				number = 9
+				number = 9,
+				attr = "antiSubPower"
 			}
 		}
 	}

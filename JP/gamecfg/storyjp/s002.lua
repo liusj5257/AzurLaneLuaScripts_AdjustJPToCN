@@ -59,11 +59,11 @@ return {
 			}
 		},
 		{
-			expression = "13",
 			side = 0,
+			say = "！！右舷方向に敵大型艦発見！あれは…鉄血の新鋭戦艦！？ノーフォークちゃん、戦闘準備！",
+			expression = "13",
 			actor = 900004,
 			nameColor = "#a9f548",
-			say = "！！右舷方向に敵大型艦発見！あれは…鉄血の新鋭戦艦！？ノーフォークちゃん、戦闘準備！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

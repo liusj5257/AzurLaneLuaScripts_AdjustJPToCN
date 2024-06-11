@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z466",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z466",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"純白之詩\n\n<size=45>六 羈絆</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "出擊結束了。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "十餘艘量產型敵艦。幾枚“棋子”。不過是中等規模的艦隊，然而對於彈藥已盡的己方而言，已是難以應付的強敵了。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "我全力戰鬥了。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "發射了數十次主炮。不停地擊出炮彈、直到炮身過熱停止，滿身瘡痍。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "艦裝，還有裹在這一時之軀上的布，全都——失去了原本的色彩，染上了硝煙的灰色。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,13 +77,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_task",
 			say = "港區·指揮室",
+			bgName = "bg_story_task",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			stopbgm = true,
+			blackBg = true,
 			say = "我的內心在呼喊著。如果不是這樣的話，請你賜予我意義。",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "賜予我，不是兵器而是你所期望的我，戰鬥的理由。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "賜予我，留在摯愛的你身邊的我，可被呼喚的姓名。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			say = "請給我，屬於我的顏色。",
 			blackBg = true,
+			say = "請給我，屬於我的顏色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

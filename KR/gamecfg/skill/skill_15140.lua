@@ -2,9 +2,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -23,9 +23,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -44,9 +44,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -65,9 +65,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -86,9 +86,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -107,9 +107,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -128,9 +128,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -149,9 +149,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -170,9 +170,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -191,9 +191,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetShipType",
@@ -212,11 +212,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 15140,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -227,9 +227,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipType",

@@ -1,18 +1,18 @@
 slot0 = class("CryptolaliaListView", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CryptolaliaListui"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.cards = {}
 	slot0.scrollrect = slot0:findTF("frame/view"):GetComponent("LScrollRect")
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateItem(slot0, slot1)
 	end
 
@@ -22,11 +22,11 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/title"), i18n("cryptolalia_list_title"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
-function slot0.OnInitItem(slot0, slot1)
-	function slot2()
+slot0.OnInitItem = function(slot0, slot1)
+	slot2 = function()
 		if not uv0.cryptolaliaId then
 			return
 		end
@@ -54,11 +54,11 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot3
 end
 
-function slot0.CanSwitch(slot0)
+slot0.CanSwitch = function(slot0)
 	return not slot0.scrollRect.inAnimation
 end
 
-function slot0.onUpdateItem(slot0, slot1, slot2)
+slot0.onUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -68,7 +68,7 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot4, slot0.langType, slot0.displays[slot1 + 1].id == slot0.cryptolaliaId)
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3, slot4)
+slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.scrollRect = slot4
 
 	uv0.super.Show(slot0)
@@ -84,7 +84,7 @@ function slot0.Show(slot0, slot1, slot2, slot3, slot4)
 	})
 end
 
-function slot0.EnterAnimation(slot0, slot1)
+slot0.EnterAnimation = function(slot0, slot1)
 	slot2 = slot0.frameTr.sizeDelta.x
 
 	LeanTween.value(slot0._tf.gameObject, slot2, 0, 0.3):setOnUpdate(System.Action_float(function (slot0)
@@ -92,7 +92,7 @@ function slot0.EnterAnimation(slot0, slot1)
 	end)):setFrom(slot2):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(slot1))
 end
 
-function slot0.InitList(slot0, slot1, slot2, slot3)
+slot0.InitList = function(slot0, slot1, slot2, slot3)
 	slot0.cryptolaliaId = slot3
 	slot0.langType = slot2
 	slot0.displays = slot1
@@ -102,13 +102,13 @@ function slot0.InitList(slot0, slot1, slot2, slot3)
 	slot0.subTitleTxt.text = i18n("cryptolalia_list_subtitle", #slot0.displays)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	removeOnButton(slot0._tf)
 
@@ -117,11 +117,11 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.SelectCard(slot0, slot1)
+slot0.SelectCard = function(slot0, slot1)
 	slot0:emit(CryptolaliaScene.ON_SELECT, slot1)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

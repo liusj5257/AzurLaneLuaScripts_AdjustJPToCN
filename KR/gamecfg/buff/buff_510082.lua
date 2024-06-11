@@ -1,12 +1,12 @@
 return {
-	time = 10,
-	name = "制空强化",
 	init_effect = "",
+	name = "制空强化",
+	time = 10,
+	picture = "",
+	desc = "制空强化",
 	stack = 10,
 	id = 510082,
-	picture = "",
 	last_effect = "",
-	desc = "制空强化",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -15,8 +15,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageGetRatioByAir",
-				number = -0.2
+				number = -0.2,
+				attr = "damageGetRatioByAir"
 			}
 		}
 	}

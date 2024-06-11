@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"시리우스 개조 계획\n\n<size=45>4. Big seven으로부터의 조언</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202200,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "넬슨님, 로드니님, 부탁드릴게요.",
 			bgm = "story-1",
+			actor = 202200,
+			nameColor = "#92fc63",
+			say = "넬슨님, 로드니님, 부탁드릴게요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "넬슨과 로드니를 불러, 시리우스에게 상류 연회에 관한 조언을 제공해달라고 부탁했다.",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#92fc63",
 			say = "참가자들의 개인 정보 조사는 모두 끝냈고, 경비에 결함은 없는지 또 긴급 상황 시의 탈출 경로 조사도 90% 완료했습니다.",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#92fc63",
 			say = "주인님께서 연회에 참석해 사용하시는 물품, 차량과 항구에서 연락 수단의 설정, 예비용 의류, 음주 시 상비약 등도 모두 준비되었습니다.",
 			typewriter = {
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "예비용 의류와 숙취해소제까지 준비했다니, 벨파스트들의 지도가 확실히 효과를 보이는 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#92fc63",
 			say = "뭔가 빠뜨린 것이 있다면 마음껏 말씀해주세요(꾸벅).",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -75,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.3,
 					x = 0,
@@ -236,15 +236,15 @@ return {
 			}
 		},
 		{
-			actor = 205040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205040,
+			nameColor = "#92fc63",
 			say = "대략 이런 것들이겠죠. 말하자면, 아주 중요한 일을 잊은 것 같은데...... 드레스는 어떻게 할거죠?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -272,8 +272,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#92fc63",
 			say = "아......",
 			typewriter = {
@@ -286,11 +286,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#92fc63",
 			say = "역시...... 내가 상점에 가서 물어볼게. 여러 의미에서 너와 일러스트리어스들과 몸매가 비슷하니까, {namecode:98}라면 곧바로 준비할 수 있을지도 몰라.",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#92fc63",
 			say = "넬슨님, 정말 감사합니다!",
 			typewriter = {

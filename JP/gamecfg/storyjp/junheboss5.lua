@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHEBOSS5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHEBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"交錯する新たな波\n\n<size=45>五　駿河SIDE</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305110,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ご苦労だった。雪風、大鳳、そして駿河。今回の合同演習、指揮官からもお褒めの言葉を預かっておるぞ",
 			bgm = "cw-level",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "ご苦労だった。雪風、大鳳、そして駿河。今回の合同演習、指揮官からもお褒めの言葉を預かっておるぞ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "もう…最後はどうなるかと思ったのだ！演習の模擬弾でよかったのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "……………………！？！？",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "それはぜっっっっっっったいに断らせていただきます！！",
 			dialogShake = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,15 +161,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "（思えば、こんなことになるなんて思わなかったな…）",
 			bgm = "story-2",
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "（思えば、こんなことになるなんて思わなかったな…）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -212,10 +212,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "（最初はただのお飾りポジションだと思ってとりあえず穏便に済まそうと適当に答えたのに――！）",
 			typewriter = {
 				speed = 0.05,
@@ -245,10 +245,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "（もう、こういうなんでも考えなしに適当にするタイプが一番苦手なのよね！）",
 			typewriter = {
 				speed = 0.05,
@@ -262,10 +262,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "（でもなんだかんだで味方じゃん？放っておけないじゃん？だから結局こっちが頑張るしかないよね！）",
 			typewriter = {
 				speed = 0.05,
@@ -295,10 +295,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "（そりゃそうだよ！まさか指揮官の艦隊がこんなに強いとは思わなかったよ！）",
 			typewriter = {
 				speed = 0.05,
@@ -312,10 +312,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "（奇策でも使わないと一瞬で崩されるぞ？！本当は目立たないつもりでいたのにね！）",
 			typewriter = {
 				speed = 0.05,
@@ -329,10 +329,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "（だからといって私のようなよそ者でないと絶対見破られるじゃん？つまりそういうことよ！）",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>ここなら、もしかして私は――</size>",
@@ -402,17 +402,17 @@ return {
 			}
 		},
 		{
-			actor = 305110,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "そう、カンレキの存在しない艦船とてなんの隔たりもない。",
 			bgm = "cw-story",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "そう、カンレキの存在しない艦船とてなんの隔たりもない。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -472,8 +472,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "私は………",
 			typewriter = {
@@ -537,8 +537,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "（そうね。ここなら、私、そしてもしかして『アイツ』も……）",
 			typewriter = {
@@ -554,9 +554,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900200,
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "いつか、また会いましょう――",
 			typewriter = {

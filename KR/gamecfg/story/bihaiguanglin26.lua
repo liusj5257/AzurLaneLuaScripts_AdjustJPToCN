@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN26",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "불꽃놀이보다 더 난리가 났어! 거대한 화염이 적을 전부 집어삼켰다고!",
 			typewriter = {
@@ -55,10 +55,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "기관의 봉인까지 파괴되어서 적의 증원도 멈췄어요.",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "장관이겠네. 직접 볼 수 없는 것이 아쉬운데?",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -122,10 +122,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "물론이죠! 시마카제는 벌써 너무 기대된다고요!",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,12 +147,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "치쿠마공, 스루가공. 저 불가사의한 소리가 들리시죠?",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "세이렌이 만든 내비게이션일 수도 있잖아. 여기까지 왔으니 그냥 이 설정을 받아들이는 편이 좋다고 생각해.",
 			typewriter = {

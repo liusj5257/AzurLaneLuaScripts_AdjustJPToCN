@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg3",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "Exercise Area - Turn 1 (Nagato's Action)",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "You're probably just overcomplicating things again. I bet that's just the order they're sitting around the table.",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "Do you think... Musashi has some other plan in mind?",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "I sure hope so... By the way, Nagato seems to be mirroring Mikasa's move and attacking Musashi from the side.",
 			painting = {
@@ -138,8 +138,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "Not quite. Listen well to my command:",
 			painting = {
@@ -155,8 +155,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "Haruna and Harutsuki will move towards Musashi's territory and halt her forces from advancing.",
 			painting = {
@@ -172,8 +172,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "We will move our mass-produced ships to surround the Sacred Sakura.",
 			painting = {
@@ -189,8 +189,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "Hiei, Kawakaze, and Shoukaku are to make preparations to capture the adjacent base on our next action.",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "To that end, I shall see to it that we sustain no losses this turn.",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "As soon as Nagato's communication ended, a shield symbol appeared in the sky, and barriers of light materialized around Nagato's forces.",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "Despite being defense-oriented, Nagato doesn't believe in the wait-and-see approach.",
 			painting = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "Exercise Area - Turn 1 (Nagato's Action)",
 			typewriter = {
@@ -386,17 +386,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "On the game board, a diamond-shaped \"base\" sits between the intersection of four squares.",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "A Siren vessel defends each base, and the surrounding sectors must be controlled first before the base can be captured.",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "Great, a humanoid Siren. I was starting to get tired of smashing these mass-produced ships.",
 			painting = {
@@ -492,8 +492,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "Well, they don't seem to have the hostile aura most Sirens give off. Does that mean we figured out a way to control them?",
 			painting = {

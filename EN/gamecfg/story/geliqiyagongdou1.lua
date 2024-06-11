@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELIQIYAGONGDOU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELIQIYAGONGDOU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Reflections of the Oasis\n\n<size=45>1 Sandstorm in the Oasis</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,
@@ -33,9 +33,9 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			asideType = 3,
+			stopbgm = true,
 			effects = {
 				{
 					active = false,
@@ -67,30 +67,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
-			actorName = "Radio",
 			bgmDelay = 1,
-			say = "Before the boat had hit the water♪",
 			bgm = "story-italy",
+			actorName = "Radio",
+			hidePaintObj = true,
+			say = "Before the boat had hit the water♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			say = "A lighthearted sea shanty played over the desk radio in the Sardegnian docking facility's break room.",
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			say = "*door clicks*",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
+			say = "*door clicks*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh! Andrea, hello! Are you having a lovely morning?",
 			painting = {
 				alpha = 0.3,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,10 +204,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Attilio? Um, I guess...?",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The weather does seem a little odd today...",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "By the way, Attilio, are you the one who put this station on the radio?",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yep! I don't really understand what's going on in the song, but it sounds fun, right?",
 			painting = {
 				alpha = 0.3,
@@ -282,10 +282,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh, I've gotten a lot more into music ever since you found this radio for us!",
 			painting = {
 				alpha = 0.3,
@@ -300,10 +300,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is that so...?",
 			painting = {
 				alpha = 0.3,
@@ -318,10 +318,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, I'm glad I could awaken a new interest in you.",
 			painting = {
 				alpha = 0.3,
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
-			say = "*door clicks*",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
+			say = "*door clicks*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,10 +348,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, Gorizia's back, too!",
 			painting = {
 				alpha = 0.3,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -392,10 +392,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Come and listen with me. The program's already...",
 			painting = {
 				alpha = 0.3,
@@ -416,10 +416,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whaaat?! Don't change the station! They were just getting to my favorite music...",
 			painting = {
 				alpha = 0.3,
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -441,8 +441,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -451,8 +451,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio",
+			side = 2,
 			bgName = "bg_alexandria_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -502,10 +502,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A... sandstorm?",
 			painting = {
 				alpha = 0.3,
@@ -517,8 +517,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -540,10 +540,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They did call it abnormal... Sandstorms should be unthinkable at this time of year.",
 			painting = {
 				alpha = 0.3,
@@ -558,10 +558,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I was surprised when I heard it, too.",
 			painting = {
 				alpha = 0.3,
@@ -576,10 +576,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But no sandstorm has ever gotten through since the windbreak walls were installed.",
 			painting = {
 				alpha = 0.3,
@@ -594,10 +594,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Actually... They were planning to hold a presentation in the Upper Senate today. I hope the sandstorm doesn't interrupt that.",
 			painting = {
 				alpha = 0.3,
@@ -612,10 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A presentation? Who's the speaker?",
 			painting = {
 				alpha = 0.3,
@@ -630,10 +630,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Marco Polo. I hear it's related to the World Expo.",
 			painting = {
 				alpha = 0.3,
@@ -645,8 +645,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -655,8 +655,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -668,10 +668,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahahaha... Of course it is.",
 			painting = {
 				alpha = 0.3,
@@ -686,10 +686,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I had no idea. Have you been keeping a close eye on these things lately, Gorizia?",
 			painting = {
 				alpha = 0.3,
@@ -704,10 +704,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not really? It's peaceful around here, so I'm just finding ways to pass the time.",
 			painting = {
 				alpha = 0.3,
@@ -722,10 +722,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But the sandstorm is going to make communications rough for a while, huh...",
 			painting = {
 				alpha = 0.3,
@@ -740,10 +740,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not just communications. We won't be able to do any work outside.",
 			painting = {
 				alpha = 0.3,
@@ -758,10 +758,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right... Ah, well. Guess I'm calling it quits early today!",
 			painting = {
 				alpha = 0.3,
@@ -776,10 +776,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah! Let's take the day off!",
 			painting = {
 				alpha = 0.3,
@@ -797,8 +797,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -807,8 +807,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -820,10 +820,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Oh, but the sandstorm means I won't be able to listen to the radio anymore...",
 			painting = {
 				alpha = 0.3,
@@ -844,10 +844,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now I'm sad. I won't have anything to do!",
 			painting = {
 				alpha = 0.3,
@@ -859,8 +859,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -869,8 +869,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -882,10 +882,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now that you mention it... I've read all of the books I brought with me.",
 			painting = {
 				alpha = 0.3,
@@ -900,10 +900,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We're kind of surrounded by sand... After the sandstorm passes, we'll have to look into serious repairs.",
 			painting = {
 				alpha = 0.3,
@@ -918,10 +918,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It is an old facility, after all. You never know what they went through in the old days.",
 			painting = {
 				alpha = 0.3,
@@ -936,10 +936,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Haha... That's true. I happen to know of a few old stories, myself.",
 			painting = {
 				alpha = 0.3,
@@ -954,10 +954,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Stories? I want to hear stories!",
 			painting = {
 				alpha = 0.3,
@@ -972,10 +972,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah, tell us some stories! I want to hear stuff about you two!",
 			painting = {
 				alpha = 0.3,
@@ -987,8 +987,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -997,8 +997,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1010,10 +1010,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Stories, huh? Will any old story from before our coming to the Oasis do?",
 			painting = {
 				alpha = 0.3,
@@ -1025,8 +1025,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1035,8 +1035,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1048,10 +1048,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I do have some, but they're from a long time ago... Before this whole war even started.",
 			painting = {
 				alpha = 0.3,
@@ -1066,10 +1066,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Goodness, that is long ago. Now you've piqued my interest, hahaha.",
 			painting = {
 				alpha = 0.3,
@@ -1084,10 +1084,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm sure it's nothing compared to yours, Andrea...",
 			painting = {
 				alpha = 0.3,
@@ -1102,10 +1102,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 603060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If I tell a story, then you have to share one too, okay? You must have plenty of fascinating things to talk about.",
 			painting = {
 				alpha = 0.3,
@@ -1120,10 +1120,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course! You have yourself a deal.",
 			painting = {
 				alpha = 0.3,
@@ -1138,10 +1138,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll go get drinks and snacks!",
 			painting = {
 				alpha = 0.3,
@@ -1153,8 +1153,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1163,8 +1163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1173,13 +1173,13 @@ return {
 			}
 		},
 		{
-			actor = 605070,
 			nameColor = "#A9F548FF",
+			side = 0,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
+			actor = 605070,
 			hideOther = true,
 			actorName = "Andrea & Gorizia",
-			side = 0,
+			hidePaintObj = true,
 			say = "In moderation, please.",
 			subActors = {
 				{
@@ -1208,10 +1208,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_alexandria_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I know! Hahaha!",
 			painting = {
 				alpha = 0.3,
@@ -1223,8 +1223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1233,8 +1233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

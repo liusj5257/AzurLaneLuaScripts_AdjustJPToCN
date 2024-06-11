@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD200B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD200B",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "리버풀항 근해·로열 네이비 집결지",
 			side = 2,
 			bgName = "bg_port_liwupu",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
+			say = "리버풀항 근해·로열 네이비 집결지",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "하지만 아이리스 리브레에서 함대를 파견하다니, 뜻밖이네요. 리슐리외 본인도 여유가 없을 텐데... 게다가 이번 적색증축과의 협상도 반대하지 않았나요?",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "그렇군요... 리슐리외가 거기까지 생각하다니.",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "통신 테스트를 진행하겠습니다. 후드, 여기는 LD 사령부의 뉴캐슬. 통신 상태는 괜찮은가요?",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "네, 아주 좋아요. 세이렌 통제 구역에 들어갔을 때도 이렇게 통신 상태가 양호하면 좋겠네요...",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "최선을 다해 전선의 작전을 돕겠습니다. 지휘부에서도 통신 설비를 강화했으니 세이렌이 그렇게 쉽게 간섭할 수는 없을 거예요.",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "좋은 소식이네요. 지난번에 통신 장애로 크게 애를 먹었거든요.",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "이제부터는 제가 사령부의 명령을 전달하겠습니다. 확실한 명령이 없을 때는 후드 본인의 판단에 따라 자유롭게 결정하세요.",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "그리고... 폐하 쪽에서 뭔가 진전이 있다면 바로 알려드리겠습니다.",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "정식으로 대 세이렌 대형 작전을 시작하겠습니다. 각 함대, 계획에 따라 움직이세요. 모두의 행운을 빕니다. 여왕 폐하를 위하여!",
 			effects = {
 				{

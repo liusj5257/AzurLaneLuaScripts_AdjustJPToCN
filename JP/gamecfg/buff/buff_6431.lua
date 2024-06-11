@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 6431,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6431,
+	color = "red",
 	icon = 6430,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 6431,
 				minWeaponNumber = 1,
+				skill_id = 6431,
 				check_weapon = true,
 				type = {
 					7

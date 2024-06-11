@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 0,
+			dir = -1,
+			bgm = "bsm-3",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = -1,
 			say = "이건… 항모 함재기인가?",
-			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "대공화력, 적 함재기 공격대에 집중!",
 			typewriter = {
 				speed = 0.05,
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 0,
-			nameColor = "#ffde38",
-			say = "……Feuer!",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
+			actor = 405010,
+			nameColor = "#ffde38",
+			say = "……Feuer!",
 			flashN = {
 				color = {
 					1,

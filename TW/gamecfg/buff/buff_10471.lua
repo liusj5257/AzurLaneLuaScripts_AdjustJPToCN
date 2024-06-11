@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1500
+					number = 1500,
+					attr = "airPower"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1720
+					number = 1720,
+					attr = "airPower"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1940
+					number = 1940,
+					attr = "airPower"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 2160
+					number = 2160,
+					attr = "airPower"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 2380
+					number = 2380,
+					attr = "airPower"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 2600
+					number = 2600,
+					attr = "airPower"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 2820
+					number = 2820,
+					attr = "airPower"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 3040
+					number = 3040,
+					attr = "airPower"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 3260
+					number = 3260,
+					attr = "airPower"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 3500
+					number = 3500,
+					attr = "airPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "二航战",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "航空属性上升",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 1500
+				number = 1500,
+				attr = "airPower"
 			}
 		}
 	}

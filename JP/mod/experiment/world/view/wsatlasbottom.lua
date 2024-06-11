@@ -1,30 +1,30 @@
 slot0 = class("WSAtlasBottom", import("...BaseEntity"))
 slot0.Fields = {
+	btnShop = "userdata",
 	rtBg = "userdata",
-	transform = "userdata",
-	btnBoss = "userdata",
 	btnOverview = "userdata",
-	btnCollection = "userdata",
-	rtButton = "userdata",
+	transform = "userdata",
 	wsTimer = "table",
+	rtButton = "userdata",
+	btnBoss = "userdata",
 	comSilder = "userdata",
 	twId = "number",
-	btnShop = "userdata",
+	btnCollection = "userdata",
 	btnDailyTask = "userdata"
 }
 slot0.EventUpdateScale = "WSAtlasBottom.EventUpdateScale"
 
-function slot0.Setup(slot0)
+slot0.Setup = function(slot0)
 	pg.DelegateInfo.New(slot0)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.transform
 	slot0.rtBg = slot1:Find("bg")
 	slot0.rtButton = slot1:Find("button")
@@ -45,7 +45,7 @@ function slot0.Init(slot0)
 	end
 end
 
-function slot0.UpdateScale(slot0, slot1, slot2, slot3)
+slot0.UpdateScale = function(slot0, slot1, slot2, slot3)
 	if slot2 then
 		slot4 = slot0.comSilder.value
 
@@ -73,11 +73,11 @@ function slot0.UpdateScale(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.CheckIsTweening(slot0)
+slot0.CheckIsTweening = function(slot0)
 	return slot0.twId and LeanTween.isTweening(slot0.twId)
 end
 
-function slot0.SetOverSize(slot0, slot1)
+slot0.SetOverSize = function(slot0, slot1)
 	slot0.rtBg.offsetMin = Vector2(slot1, slot0.rtBg.offsetMin.y)
 	slot0.rtBg.offsetMax = Vector2(-slot1, slot0.rtBg.offsetMax.y)
 end

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA20",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-fbk",
 			dir = 1,
 			say = "카와카제쪽은 순조로운 것 같아. 동료 둘을 구했다고 하네. 이름이… 아야메랑 시온?",
+			bgm = "holo-fbk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "잘 됐다! 하지만 여전히 소라 선배를 찾지 못했네……",
 			typewriter = {
 				speed = 0.05,
@@ -115,9 +115,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "나?",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "소라 선배야! 그리고 나? 말도 안돼!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

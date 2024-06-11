@@ -2,7 +2,7 @@ slot0 = class("PlayerResource", import("..base.BaseUI"))
 slot1 = 12
 slot0.GO_MALL = "PlayerResource:GO_MALL"
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot1 = PoolMgr.GetInstance()
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0)
 	end)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.oilAddBtn = slot0:findTF("oil")
 	slot0.goldAddBtn = slot0:findTF("gold")
 	slot0.gemAddBtn = slot0:findTF("gem")
@@ -77,7 +77,7 @@ function slot0.init(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gemAddBtn, function ()
-		function slot0()
+		slot0 = function()
 			if not pg.m02:hasMediator(ChargeMediator.__cname) then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 					wrap = ChargeScene.TYPE_DIAMOND
@@ -102,11 +102,11 @@ function slot0.init(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.setParent(slot0, slot1, slot2)
+slot0.setParent = function(slot0, slot1, slot2)
 	setParent(slot0._go, slot1, slot2)
 end
 
-function slot0.setResources(slot0, slot1, slot2)
+slot0.setResources = function(slot0, slot1, slot2)
 	assert(isa(slot1, Player), "should be an instance of Player")
 
 	slot0.player = slot1
@@ -128,7 +128,7 @@ function slot0.setResources(slot0, slot1, slot2)
 	setActive(slot0.gemAddBtn, slot2[3])
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if pg.goldExchangeMgr then
 		pg.goldExchangeMgr:exit()
 

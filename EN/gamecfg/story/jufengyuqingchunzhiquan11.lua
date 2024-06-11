@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
+			blackBg = true,
+			bgm = "wedding",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...",
-			blackBg = true,
-			bgm = "wedding",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "......",
@@ -55,17 +55,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.25,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_church",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sooo... you're sure about this?",
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_church",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But, living with me's not gonna be easy. You can't just change your mind later, ya hear?",
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_church",
+			soundeffect = "event:/ui/shuaimen",
 			hidePaintObj = true,
 			say = "SLAM!",
-			soundeffect = "event:/ui/shuaimen",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,21 +210,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_jufengv1_cg2",
+			mode = 1,
 			bgm = "theme-seaandsun-image",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -243,12 +243,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "The Rising Star",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Oi! What are ya doing?!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Oi! What are ya doing?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg2",
 			hidePaintObj = true,
 			say = "I open my eyes and see Royal Fortune at the cabin door, having just thrown it open with force.",
@@ -275,12 +275,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "Investor",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "What does it look like? We're tending to the Commander~",
-			actor = 9600030,
-			actorName = "Golden Hind",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Golden Hind",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "What does it look like? We're tending to the Commander~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,11 +294,11 @@ return {
 			portrait = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "???",
+			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Shh. Not so loud. The Commander just woke up.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,12 +310,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, okay...",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,12 +331,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "WAIT, NO! THIS IS NOT OKAY!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,12 +352,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Commander is MY crewmate! Looking after the crew is MY job!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,12 +373,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And you! Out of the way!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,12 +394,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "The Rising Star",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Famous ghost ship or not, you're in MY seat!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Famous ghost ship or not, you're in MY seat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,17 +413,17 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -442,12 +442,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "Investor",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Golden Hind",
+			actor = 9600030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, well~",
-			actor = 9600030,
-			actorName = "Golden Hind",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,12 +463,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "Investor",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Golden Hind",
+			actor = 9600030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I thought I heard someone aboard this clipper was dying to meet a ghost ship~",
-			actor = 9600030,
-			actorName = "Golden Hind",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,12 +484,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "Investor",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Who might that be, hmm~?",
-			actor = 9600030,
+			withoutPainting = true,
 			actorName = "Golden Hind",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "Who might that be, hmm~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,12 +505,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "The Rising Star",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ugh! I hate you!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,12 +526,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "The Rising Star",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I don't care about those anymore!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I don't care about those anymore!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg3",
 			hidePaintObj = true,
 			say = "I did not imagine my day would start with a catfight wake-up call...",
@@ -564,12 +564,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "Investor",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Fair enough~ Come sit next to me, Royal Fortune~",
-			actor = 9600030,
-			actorName = "Golden Hind",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Golden Hind",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Fair enough~ Come sit next to me, Royal Fortune~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
-			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			bgName = "bg_jufengv1_2",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hmph. \"Thanks.\"",
@@ -597,17 +597,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -615,8 +615,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			say = "She sits down angrily on the bed and grasps my other, unheld hand.",
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -681,11 +681,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Because why would she be? That whole chase only happened because Golden Hind misled us!",
@@ -718,8 +718,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -730,8 +730,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -742,8 +742,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -773,11 +773,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I see you! Don't you even try!",
@@ -791,8 +791,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -803,11 +803,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "My name's Mary Celeste, by the way.",
@@ -840,11 +840,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Mhm. She helped by guiding us into the eye of the storm.",
@@ -883,11 +883,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "No need to. You and your crew earned the rescue.",
@@ -920,11 +920,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As a ghost ship, sailing to the eye of a storm is an instinct imprinted on my hull.",
@@ -988,11 +988,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Don't I creep you out? I'm a ghost ship, for god's sake.",
@@ -1012,11 +1012,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Come on. You're just saying that.",
@@ -1030,11 +1030,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "No, the Commander means it.",
@@ -1067,11 +1067,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You are cordially and sincerely invited to join the crew. We want you with us on this adventure!",
@@ -1104,11 +1104,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(Come on, say something!)",
@@ -1189,12 +1189,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1240,8 +1240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			say = "Suddenly, the sound of cannon fire rumbles through the cabin window.",
@@ -1289,11 +1289,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And São Martinho is already engaging them. We should back her up~",

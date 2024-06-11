@@ -1,10 +1,10 @@
 slot0 = class("WorldMediaCollectionMemoryDetailLayer", import(".WorldMediaCollectionSubLayer"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionMemoryDetailUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 	setActive(slot0._tf:Find("ItemRect/TitleRecord"), false)
@@ -12,11 +12,11 @@ function slot0.OnInit(slot0)
 
 	slot0.memoryItemList = slot0:findTF("ItemRect"):GetComponent("LScrollRect")
 
-	function slot0.memoryItemList.onInitItem(slot0)
+	slot0.memoryItemList.onInitItem = function(slot0)
 		uv0:onInitMemoryItem(slot0)
 	end
 
-	function slot0.memoryItemList.onUpdateItem(slot0, slot1)
+	slot0.memoryItemList.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateMemoryItem(slot0, slot1)
 	end
 
@@ -33,7 +33,7 @@ function slot0.OnInit(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.onInitMemoryItem(slot0, slot1)
+slot0.onInitMemoryItem = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -45,7 +45,7 @@ function slot0.onInitMemoryItem(slot0, slot1)
 	end, SOUND_BACK)
 end
 
-function slot0.onUpdateMemoryItem(slot0, slot1, slot2)
+slot0.onUpdateMemoryItem = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -69,11 +69,11 @@ function slot0.onUpdateMemoryItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SetStoryMask(slot0, slot1)
+slot0.SetStoryMask = function(slot0, slot1)
 	slot0.memoryMask = slot1
 end
 
-function slot0.PlayMemory(slot0, slot1)
+slot0.PlayMemory = function(slot0, slot1)
 	if slot1.type == 1 then
 		slot2 = findTF(slot0.memoryMask, "pic")
 
@@ -102,7 +102,7 @@ function slot0.PlayMemory(slot0, slot1)
 	end
 end
 
-function slot0.ShowSubMemories(slot0, slot1)
+slot0.ShowSubMemories = function(slot0, slot1)
 	slot0.contextData.memoryGroup = slot1.id
 	slot0.memories = _.map(slot1.memories, function (slot0)
 		return pg.memory_template[slot0]
@@ -136,13 +136,13 @@ function slot0.ShowSubMemories(slot0, slot1)
 	end
 end
 
-function slot0.CleanList(slot0)
+slot0.CleanList = function(slot0)
 	slot0.memories = nil
 
 	slot0.memoryItemList:SetTotalCount(0)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	setAnchoredPosition(slot0:findTF("ItemRect"), {
 		x = WorldMediaCollectionScene.WorldRecordLock() and 0 or slot0.rectAnchorX
 	})

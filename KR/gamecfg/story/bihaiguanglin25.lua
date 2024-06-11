@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN25",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,10 +38,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네? 엄청 빠르네요! 저희는 이제 막 내부 지역에 들어왔어요. 이상한 기관이 있나요?!",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "없네요.",
 			typewriter = {
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "불공평해요! 저희는 벌써 3개째라고요!",
 			typewriter = {
 				speed = 0.05,
@@ -118,10 +118,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "윽...",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -146,8 +146,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "너무 풀 죽지 말아요. 결승선 앞에서 기다렸다 같이 들어가도록 하죠.",
 			typewriter = {
@@ -163,10 +163,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "흑흑흑, 치쿠마공은 너무 착해요!",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,10 +191,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "하지만 적이 너무 많아서 전투가 언제 끝날지 모르겠어요...",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "완전 모르겠어요! 해역에 이상한 점은 없지만 적이 너무너무 많아요! 싸워도 끝이 안 날 것 같아요!",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "끈질긴 생명력의 상징이네요.",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "적의 재생력이 강하다면 한 번에 큰 피해를 입힐 수 있는 방법을 생각해 보아야 해요.",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "그렇다는 건 파도와 불바다를 일으켰던 기관을 사용해서 한 번에 적들을 쓸어버리자는 건가요?",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "걱정 마, 적임자가 여기에 있잖아?",
 			typewriter = {
@@ -439,8 +439,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "나는 힘이 빠진지 오래고 오딘도 계속 싸울 수는 없어.",
 			typewriter = {
@@ -456,8 +456,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "그리고 이제는 중심 지역을 돌아서 시마카제가 있는 쪽으로 갈 수 있지. 스루가, 너희는 여기에서 계속 정찰을 하도록 해. 기관에 관한 것은 우리 둘에게 맡겨줘.",
 			typewriter = {
@@ -489,8 +489,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

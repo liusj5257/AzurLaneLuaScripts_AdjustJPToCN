@@ -1,13 +1,13 @@
 return {
-	id = "BULISITUOERBOSS5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULISITUOERBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"연습 신비 사건 조사\n\n<size=45>5. 호흡척척</size>",
@@ -16,16 +16,16 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
-			bgName = "star_level_bg_148",
-			say = "훈련 해역-버려진 기지",
+			oldPhoto = true,
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_148",
 			bgm = "xinnong-3",
+			say = "훈련 해역-버려진 기지",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_148",
 			dir = 1,
 			say = "쿠퍼와 잉그레이엄이 어두운 시설 안에서 앞을 향해 걷고 있다.",
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "조명 시설 작동!",
 			typewriter = {
 				speed = 0.05,
@@ -161,13 +161,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어둠 속에서 수색 중이야… 자세하게 수색… 어! 브리스톨 발견!",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,13 +284,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "응!",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,13 +388,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관은 습격으로 부상을 당했고 나도 모항과 연락이 끊겨버렸어.",
 			typewriter = {
 				speed = 0.05,
@@ -558,13 +558,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "끝까지 지키면 방법이 있을 거야! 이거 봐, 기다리니까 지원병도 왔잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -759,13 +759,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "응... 역시 잉그레이엄이야, 쉬운 문젤 복잡하게 만드는 능력은 타고났지.",
 			typewriter = {
 				speed = 0.05,
@@ -837,16 +837,16 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_148",
 			dir = 1,
+			bgName = "star_level_bg_148",
 			bgm = "story-1",
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "머리가 띵해...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -871,12 +871,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "괜찮아, 이해해.",
 			typewriter = {
 				speed = 0.05,
@@ -891,10 +891,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "전에 만났던 언니도… 그럼 정말 언니가 맞았던 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -906,12 +906,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그렇다니까.",
 			typewriter = {
 				speed = 0.05,
@@ -926,10 +926,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그럼 함정에 걸린 사람은...?",
 			typewriter = {
 				speed = 0.05,
@@ -944,10 +944,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "훈련이 잠시 중단돼서 전선에서 돌아온 동료들인 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -962,10 +962,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "으아아, 너무 창피해… 폐를 끼쳐버렸어.",
 			typewriter = {
 				speed = 0.05,
@@ -980,10 +980,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "괜찮아 괜찮아, 아무도 화나지 않았으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -995,12 +995,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "오히려 잉그레이엄 그 자식이 제대로 반성을 해야겠는 걸.",
 			typewriter = {
 				speed = 0.05,
@@ -1015,10 +1015,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이제 돌아가야겠다. 나중에 지휘관한테도 사건 보고서 하나 작성해서 제출하는 거 잊지 말고.",
 			typewriter = {
 				speed = 0.05,
@@ -1033,10 +1033,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "사건… 보고서?! 응, 알겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -1048,8 +1048,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1058,15 +1058,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
 			bgName = "bg_story_task",
-			say = "다음 날, 지휘실의 책상 위엔 《훈련 중 미스테리 사건》이라는 보고서가 올려져 있었다.",
 			dir = 1,
+			side = 2,
 			bgm = "xinnong-3",
+			say = "다음 날, 지휘실의 책상 위엔 《훈련 중 미스테리 사건》이라는 보고서가 올려져 있었다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1091,8 +1091,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "…함선에 있어 가장 큰 공포는 바로 미지에 대한 두려움…",
@@ -1106,8 +1106,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "...버려진 기지 속에 잠들어 있는 적은 꿈을 기다리고 있다…",
@@ -1121,8 +1121,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "...별들이 특정 위치에 도달했고, 진실은 머지않아 모항에 강림할 것...",
@@ -1136,8 +1136,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "+ '잉그레이엄 반성문'. 감수 : 알렌 M. 섬너/D237 쿠퍼",
@@ -1161,8 +1161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

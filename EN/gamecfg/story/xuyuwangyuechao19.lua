@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO19",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "In the dark, cold seal, monsters made of black mist shrieked and roared ceaselessly.",
 			bgm = "battle-unknown-approaching",
+			say = "In the dark, cold seal, monsters made of black mist shrieked and roared ceaselessly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "They jumped between the ethereal sea and floating rocks, launched out of the ground by the uprooting of the Prime Sakura, searching for the targets of their ire.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "After the signal flare from before, she'd used the seal's divine light to find and rescue the trio.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "The light had repelled the black mist and brought them to this safe haven for the time being.",
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "She had a general idea of their remaining friends' whereabouts, but there was no way to narrow it down and help them.",
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "A single carrier-based aircraft, hardly useful in the black mist's domain, quickly lost control and crash-landed.",
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "She stepped into the ethereal waters and used the sanctuary's power to rush to the shipgirls' aid.",
@@ -151,28 +151,28 @@ return {
 			}
 		},
 		{
-			actor = 900402,
-			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900402,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I-I've lost another carrier-based craft!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -196,10 +196,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is rough... It's dangerous, but I've got no choice but to act.",
 			painting = {
 				alpha = 0.3,
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But first... Let's deal with what's right in front of us!",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll give 'em the trouncing of a lifetime! Which way, Zuihou?",
 			painting = {
 				alpha = 0.3,
@@ -275,10 +275,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Behind me?!",
 			painting = {
 				alpha = 0.3,
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "Noticing a presence in an unexpected direction, Owari used her rigging to whip around in a hurry.",
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "*PING*",
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "Her shells were deflected by an invisible barrier, covering the surroundings in smoke.",
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...A shipgirl?!",
 			painting = {
 				alpha = 0.3,
@@ -415,8 +415,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -430,10 +430,10 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
-			side = 2,
-			withoutActorName = true,
-			say = "She floated above the water without rigging, but there was no doubt she was a shipgirl just like Owari and Zuihou.",
 			hidePaintEquip = true,
+			withoutActorName = true,
+			side = 2,
+			say = "She floated above the water without rigging, but there was no doubt she was a shipgirl just like Owari and Zuihou.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,12 +452,12 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(I think I saw this person in that illusion... Great Sage, or something?)",
 			painting = {
 				alpha = 0.3,
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "As she approached the Prime Sakura, Owari's memory of the illusion became more vivid.",
@@ -480,13 +480,13 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			actorName = "Owari",
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_3",
+			dir = 1,
+			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Great Sage...?",
 			painting = {
 				alpha = 0.3,
@@ -501,10 +501,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 303190,
 			actorName = "The Great Sage",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That is me. I've taken your friends to a safe place, and now, I'll have you two come with me as well.",
 			typewriter = {
 				speed = 0.05,
@@ -515,10 +515,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 303190,
 			actorName = "The Great Sage",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's the last pure land remaining in this seal. With my power, I will protect you all.",
 			typewriter = {
 				speed = 0.05,
@@ -526,8 +526,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "Once she finished talking, light shone through the sky and enveloped Owari and Zuihou.",
@@ -537,8 +537,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "However, the pillar of light flickered multiple times before disappearing.",
@@ -563,10 +563,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 303190,
 			actorName = "The Great Sage",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Unfortunately, straying too far away makes it consume far too much power... My remaining strength isn't enough.",
 			typewriter = {
 				speed = 0.05,
@@ -590,10 +590,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 303190,
 			actorName = "The Great Sage",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Come with me.",
 			typewriter = {
 				speed = 0.05,

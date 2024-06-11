@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUEFENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUEFENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"佐世保生まれの幸運艦\n\n<size=45>その四　雪風追っかけ隊？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			say = "ねえ知ってる？雪風ちゃんをモフモフすれば運が上がるって噂よ？",
 			side = 0,
 			bgName = "bg_story_school",
-			withoutPainting = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			bgm = "story-1",
 			actor = 0,
-			nameColor = "#a9f548",
-			say = "ねえ知ってる？雪風ちゃんをモフモフすれば運が上がるって噂よ？",
+			actorName = "？？？",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,14 +36,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "？？？",
 			say = "それはありがたいね！流石は幸運艦！私も今度雪風ちゃんに頼もうかな…",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,9 +54,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -64,16 +64,16 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_school",
-			actorName = "{namecode:22}",
 			dir = 1,
+			actorName = "{namecode:22}",
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "というわけで、この雪風様がこの母港では大人気なのだ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "さあ、この雪風様にシッポを振れば、雪風様のシッポを少しモフモフさせてやらなくもない――のだ！？",
 			typewriter = {
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "ダダダダダ――",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 102060,
+			say = "ありがとうレパルス！よぉし、雪風ちゃんに頼んで、今度こそお姉さん力を……！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ありがとうレパルス！よぉし、雪風ちゃんに頼んで、今度こそお姉さん力を……！",
+			actor = 102060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "如月も…こううん、ほしい……",
 			typewriter = {
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205060,
+			nameColor = "#a9f548",
 			say = "まあまあ、そういうこともあるってことさ",
 			typewriter = {
 				speed = 0.05,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "ふ、ふん！たかがモフモフぐらい、この雪風様が全部させてやるのだ――！",
 			typewriter = {
@@ -265,9 +265,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -275,16 +275,16 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_story_school",
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
+			actor = 305010,
 			nameColor = "#a9f548",
 			say = "雪風ちゃん、本当に大人気ですね…でもこれはちょっと大変かも……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -309,13 +309,13 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			say = "殿様知っていますか？実は雪風ちゃん、頼めば何でもやってくれるんですよ！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
 			actorName = "{namecode:79}",
-			say = "殿様知っていますか？実は雪風ちゃん、頼めば何でもやってくれるんですよ！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "そ、そうですね…あははは……",
 			typewriter = {

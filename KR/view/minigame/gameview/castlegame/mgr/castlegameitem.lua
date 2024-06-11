@@ -13,7 +13,7 @@ slot8 = "bubble_hold"
 slot9 = 130
 slot10 = 130
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._bubbleTpl = findTF(slot1, "bubbleTpl")
 	slot0._carriageTpl = findTF(slot1, "carriageTpl")
 	slot0._stoneTpl = findTF(slot1, "stoneTpl")
@@ -29,7 +29,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.booms = {}
 end
 
-function slot0.setContent(slot0, slot1)
+slot0.setContent = function(slot0, slot1)
 	if not slot1 then
 		print("容器不能为nil")
 
@@ -39,7 +39,7 @@ function slot0.setContent(slot0, slot1)
 	slot0._content = slot1
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0.stoneDatas = {}
 
 	for slot5 = 1, #CastleGameVo.roundData.stone do
@@ -99,7 +99,7 @@ function slot0.start(slot0)
 	end
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	for slot4 = #slot0.carriageTime, 1, -1 do
 		if slot0.carriageTime[slot4] < CastleGameVo.gameStepTime then
 			table.remove(slot0.carriageTime, slot4)
@@ -254,7 +254,7 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.appearStone(slot0, slot1)
+slot0.appearStone = function(slot0, slot1)
 	slot2 = nil
 	slot3 = {}
 
@@ -313,7 +313,7 @@ function slot0.appearStone(slot0, slot1)
 	table.insert(slot0.stones, slot2)
 end
 
-function slot0.returnItem(slot0, slot1, slot2)
+slot0.returnItem = function(slot0, slot1, slot2)
 	if slot0.itemChangeCallback then
 		slot0.itemChangeCallback(slot1, false)
 	end
@@ -321,7 +321,7 @@ function slot0.returnItem(slot0, slot1, slot2)
 	table.insert(slot2, slot1)
 end
 
-function slot0.appearBubble(slot0, slot1)
+slot0.appearBubble = function(slot0, slot1)
 	for slot5 = 1, slot1 do
 		slot6 = nil
 
@@ -375,7 +375,7 @@ function slot0.appearBubble(slot0, slot1)
 	end
 end
 
-function slot0.appearBoom(slot0)
+slot0.appearBoom = function(slot0)
 	slot1 = {}
 
 	for slot6 = 1, #slot0:getItemActiveIndex() do
@@ -445,23 +445,23 @@ function slot0.appearBoom(slot0)
 	table.insert(slot0.booms, slot4)
 end
 
-function slot0.setFloorBroken(slot0, slot1)
+slot0.setFloorBroken = function(slot0, slot1)
 	slot0.floorBrokenCallback = slot1
 end
 
-function slot0.setBubbleBroken(slot0, slot1)
+slot0.setBubbleBroken = function(slot0, slot1)
 	slot0.bubbleBrokenCallback = slot1
 end
 
-function slot0.setItemChange(slot0, slot1)
+slot0.setItemChange = function(slot0, slot1)
 	slot0.itemChangeCallback = slot1
 end
 
-function slot0.setFloorIndexs(slot0, slot1)
+slot0.setFloorIndexs = function(slot0, slot1)
 	slot0.floorIndexs = slot1
 end
 
-function slot0.getItemActiveIndex(slot0)
+slot0.getItemActiveIndex = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -492,7 +492,7 @@ function slot0.getItemActiveIndex(slot0)
 	return slot1
 end
 
-function slot0.appearCarriage(slot0)
+slot0.appearCarriage = function(slot0)
 	slot1 = nil
 
 	if #slot0.carriagePool > 0 then
@@ -543,7 +543,7 @@ function slot0.appearCarriage(slot0)
 	end
 end
 
-function slot0.getCarriageRoadlist(slot0)
+slot0.getCarriageRoadlist = function(slot0)
 	slot1 = {}
 
 	for slot5 = 0, CastleGameVo.w_count - 1 do
@@ -593,11 +593,11 @@ function slot0.getCarriageRoadlist(slot0)
 	return slot1
 end
 
-function slot0.setItemRemindCallback(slot0, slot1)
+slot0.setItemRemindCallback = function(slot0, slot1)
 	slot0.itemRemindCallback = slot1
 end
 
-function slot0.countSpeed(slot0, slot1, slot2)
+slot0.countSpeed = function(slot0, slot1, slot2)
 	slot3 = math.atan(math.abs(slot2.y - slot1.y) / math.abs(slot2.x - slot1.x))
 	slot4 = slot1.x < slot2.x and 1 or -1
 	slot5 = slot1.y < slot2.y and 1 or -1
@@ -605,7 +605,7 @@ function slot0.countSpeed(slot0, slot1, slot2)
 	return Vector2(math.cos(slot3) * slot4, math.sin(slot3) * slot5), Vector2(slot4, slot5)
 end
 
-function slot0.changeAnimAction(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.changeAnimAction = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = 0
 
 	for slot10 = 1, #slot1 do
@@ -636,23 +636,23 @@ function slot0.changeAnimAction(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.playerInBubble(slot0, slot1, slot2)
+slot0.playerInBubble = function(slot0, slot1, slot2)
 	slot1.char = slot2
 end
 
-function slot0.getBooms(slot0)
+slot0.getBooms = function(slot0)
 	return slot0.booms
 end
 
-function slot0.getBubbles(slot0)
+slot0.getBubbles = function(slot0)
 	return slot0.bubbles
 end
 
-function slot0.getCarriages(slot0)
+slot0.getCarriages = function(slot0)
 	return slot0.carriages
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
 return slot0

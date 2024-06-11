@@ -1,12 +1,12 @@
 return {
-	id = "WTask3200",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask3200",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "바다 속의 자원을 인양했습니다!",
 			typewriter = {
 				speed = 0.05,

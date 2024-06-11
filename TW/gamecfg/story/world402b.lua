@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD402B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD402B",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "在這裡轉了這麼久，鐵血艦隊也沒有一點要來匯合的跡象。這究竟是怎麼回事，腓特烈叫我們來的時候說的可是聯合行動喲？",
 			bgm = "bsm-7",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "在這裡轉了這麼久，鐵血艦隊也沒有一點要來匯合的跡象。這究竟是怎麼回事，腓特烈叫我們來的時候說的可是聯合行動喲？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -85,8 +85,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "如果歐根在的話倒是也許能問出點什麼來...",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "算了！作戰行動依靠重櫻本身的艦隊足夠了，既然妳們不配合我的行動，我也對妳們的行動沒興趣。",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "大家同為赤色中軸的盟友，這些小事當然沒問題。不過真的要這麼著急的走妳？原本明日還有預定一些瀏覽行程之類的...",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "這樣啊...NA海域的情況復雜多變，我們又一直處於皇家長期封鎖中，因此無法為妳們提供有效的情報支援。",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "對了，說到聯絡......在稍後補給的時候，請一起收下為妳們準備的鐵血最新型通訊設備。",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "當然沒問題，這些就是專門為妳們準備的禮物。",
 			typewriter = {
@@ -356,9 +356,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "補給維修區域在這個方向，各位請跟我來。",
 			typewriter = {

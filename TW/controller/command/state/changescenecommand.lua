@@ -1,6 +1,6 @@
 slot0 = class("ChangeSceneCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot6 = Context.New()
 
 	slot6:extendData(slot1:getType())

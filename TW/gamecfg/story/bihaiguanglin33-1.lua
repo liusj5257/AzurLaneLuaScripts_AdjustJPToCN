@@ -1,14 +1,14 @@
 return {
-	id = "BIHAIGUANGLIN33-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "龍宮城·中心區 稍早前",
 			typewriter = {
 				speed = 0.05,
@@ -20,9 +20,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "掩護島風離開後，戰鬥依然在激烈地進行著。",
 			typewriter = {
 				speed = 0.05,
@@ -36,11 +36,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 307120,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "那個白龍的艦裝……明顯是航空母艦吧！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -93,8 +93,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "……同為航空母艦，為什麼她的威力能到這麼誇張啊！",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			say = "那個……非常感謝妳，歐根親王小姐。從戰鬥開始後就一直在保護我和山風……",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（……那個奧丁更是連主炮都沒有再發射過一次，這些鐵血的人是怎麼回事啊，一點緊張感都沒有嗎！）",
 			typewriter = {
 				speed = 0.05,
@@ -215,9 +215,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（等等，這麼說作為唯一的戰列艦，戰鬥的火力不是只能靠我了嗎！）",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "大家注意防空，不要急於取勝。",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "在島風成功啟動機關之前，盡可能長時間的拖下去！",
 			typewriter = {
 				speed = 0.05,

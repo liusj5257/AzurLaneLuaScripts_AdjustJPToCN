@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN31-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN31-3",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
+			nameColor = "#A9F548FF",
 			stopbgm = true,
 			bgm = "story-bismark-determination",
 			say = "꽝—————!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "아비터·허밋·IX？",
 			dir = 1,
+			actorName = "아비터·허밋·IX？",
 			say = ">목표물이 예상보다 강하다. 계획 F로 변경.",
 			painting = {
 				alpha = 0.3,
@@ -76,8 +76,8 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "아비터·허밋·IX？",
 			dir = 1,
+			actorName = "아비터·허밋·IX？",
 			say = ">기관 시스템 IX=XV 연계 지원 접속 - '데빌 엔진', 출력 5% 입력.",
 			painting = {
 				alpha = 0.3,
@@ -92,8 +92,8 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "아비터·허밋·IX？",
 			dir = 1,
+			actorName = "아비터·허밋·IX？",
 			say = ">공간 기동 모드로 조정한다.",
 			painting = {
 				alpha = 0.3,
@@ -108,8 +108,8 @@ return {
 			expression = 5,
 			side = 2,
 			paintingNoise = true,
-			actor = 401990,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
 			say = "지금보다 더… 강해질 수 있다니.",
 			painting = {
@@ -125,8 +125,8 @@ return {
 			actor = 405030,
 			side = 2,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "아니, 관리기가 비행 모드로 변경됐어.",
 			painting = {
 				alpha = 0.3,
@@ -140,10 +140,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 402100,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이런, 적이 도망치려는 것 같아…. 설마 하늘에 거꾸로 매달려 있는 저 도시인 건가?!",
 			painting = {
 				alpha = 0.3,
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			side = 2,
 			paintingNoise = true,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
 			say = "함재기가 적의 화력망을 뚫을 수 없어서 요격할 기회가 없어요!",
 			painting = {
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = ">…도망가려는 건가?",
 			painting = {
 				alpha = 0.3,
@@ -206,8 +206,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "U-556, 세계 최초로… 하늘을 나는 잠수함이 되고 싶지 않아?",
 			painting = {
 				alpha = 0.3,
@@ -222,8 +222,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
+			actor = 9708010,
 			actorName = "U-556·META？",
 			say = "에…?! 하고 싶어!",
 			painting = {
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "내 옆으로 올라와.",
 			painting = {
 				alpha = 0.3,
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "마음껏 날아봐———",
 			painting = {
 				alpha = 0.3,

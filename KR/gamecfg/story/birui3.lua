@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"의전함의 연회\n\n<size=45>계기는 홀연히 다가오는 법</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "기억나셨나요? 저번에 하셨던 말씀……",
 			bgm = "story-1",
+			actor = 304020,
+			nameColor = "#92fc63",
+			say = "기억나셨나요? 저번에 하셨던 말씀……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "히에이의 미소를 바라보니, 잊고 있던 뭔가가 떠오르는 것 같다……",
 			typewriter = {
 				speed = 0.05,
@@ -62,15 +62,15 @@ return {
 			}
 		},
 		{
-			say = "며칠 전 - 모항 근해",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "며칠 전 - 모항 근해",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 304030,
+			say = "딱히 싸우고 싶은 건 아니지만, 이런 경계 정찰도 너무 평화스러우면 재미가 없단 말이지……",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "딱히 싸우고 싶은 건 아니지만, 이런 경계 정찰도 너무 평화스러우면 재미가 없단 말이지……",
+			actor = 304030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 304030,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 304030,
+			nameColor = "#92fc63",
 			say = "좋아! 덤벼 보라고! 절대로 안 질 테니까!",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -205,10 +205,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#92fc63",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 304040,
 			actorName = "{namecode:73}&{namecode:72}",
@@ -231,9 +231,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "히에이는 차분하게 말을 이어나갔지만, 두 사람은 알 수 없는 히에이의 기백에 눌려 꼬리를 내렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#92fc63",
 			say = "모두들, 수고하셨어요.",
 			typewriter = {
 				speed = 0.05,
@@ -311,10 +311,10 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			actorName = "{namecode:73}&{namecode:72}",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			actor = 304040,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#92fc63",
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			say = "그러고 보니 그런 일이 있었지……",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "그러고 보니 그런 일이 있었지……",
 			effects = {
 				{
 					active = false,
@@ -356,8 +356,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -426,8 +426,8 @@ return {
 		},
 		action = {
 			{
-				type = "move",
 				y = -75,
+				type = "move",
 				delay = 0,
 				dur = 0.3,
 				x = 0

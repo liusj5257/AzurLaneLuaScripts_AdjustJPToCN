@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Resplendent Night II\n\n<size=45>Delirious Duel</size>",
@@ -17,10 +17,10 @@ return {
 			portrait = 499091,
 			side = 2,
 			actorName = "Hindenburg",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So you've finally awoken, Contract Binder.",
 			painting = {
 				alpha = 0.3,
@@ -32,28 +32,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_501",
+			bgm = "story-richang-4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "A familiar voice reaches my ears. When I open my eyes, I'm not in my bedroom.",
-			bgm = "story-richang-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_501",
 			live2d = "touch",
 			hidePaintObj = true,
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			say = "Hindenburg. She lays on the sofa in uniform, wearing a fearless smirk on her face.",
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "You look confused. Heehee... Did you already forget about me? We've yet to finish our little game.",
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "Yes, of course.",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "You cannot exit this room until you've overcome the devil's trial.",
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "Heehee. Of course, I don't mind extending this intermission...",
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "No, better yet...",
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Contract Binder, I have half a mind to trap you here forever and make you my plaything.",
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "♪~ Don't be scared, now.",
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I won't do anything as long as our game goes on... but if you lose, well, that changes things♥",
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Are you ready, Contract Binder?",
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "Heehee, I love your confidence. Let's just hope you can maintain it.",
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
-			side = 2,
-			bgName = "star_level_bg_501",
 			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_501",
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "What a shame. Lady Luck isn't on your side today, Contract Bearer.",
@@ -339,17 +339,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			say = "My hand of cards has been driven into a corner. Where did it all go wrong?",
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "Still lost in thought? That's okay. Struggle a little more; that'll make it so much easier for reality to sink in...",
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			say = "Hindenburg leans back into the couch comfortably. She's the very image of a carnivore waiting for her prey to fall into a trap.",
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			say = "That's exactly what it takes for me to realize how things ended up this way.",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			say = "I reach a hand out toward a certain enticing feature of hers.",
@@ -443,11 +443,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Contract Binder? Have you run out of patience... Hm?",
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			say = "From there I pluck out a single card wedged between them – the card that will save me from the clutches of defeat.",
@@ -472,11 +472,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Heehee. When did that get in there?",
@@ -490,11 +490,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "It seems our game has gone back to square one.",
@@ -508,11 +508,11 @@ return {
 			}
 		},
 		{
-			actor = 499091,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "Beloved Contract Binder, are you prepared for what's to come?",

@@ -1,6 +1,6 @@
 slot0 = class("GuildRankPage", import("...base.GuildBasePage"))
 
-function slot0.getTargetUI(slot0)
+slot0.getTargetUI = function(slot0)
 	return "GuildRankBluePage", "GuildRankRedPage"
 end
 
@@ -15,15 +15,15 @@ slot2 = {
 	i18n("guild_member_rank_title_join_cnt")
 }
 
-function slot0.PageId2RankLabel(slot0)
+slot0.PageId2RankLabel = function(slot0)
 	return uv0[slot0]
 end
 
-function slot0.GetRank(slot0, slot1)
+slot0.GetRank = function(slot0, slot1)
 	return slot0.ranks[slot1]
 end
 
-function slot0.OnUpdateRankList(slot0, slot1, slot2)
+slot0.OnUpdateRankList = function(slot0, slot1, slot2)
 	if slot2 and table.getCount(slot2) > 0 then
 		slot0.ranks[slot1] = slot2
 
@@ -33,14 +33,14 @@ function slot0.OnUpdateRankList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.tabContainer = slot0:findTF("frame/bg/tab")
 	slot0.ranTypeTF = slot0:findTF("frame/bg/week")
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.rankLabel = slot0:findTF("frame/bg/title/Text"):GetComponent(typeof(Text))
 	slot0.scrollrect = slot0:findTF("frame/bg/scrollrect"):GetComponent("LScrollRect")
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -48,7 +48,7 @@ function slot0.OnLoaded(slot0)
 	setActive(slot0.ranTypeTF:Find("total"), true)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -75,7 +75,7 @@ function slot0.OnInit(slot0)
 	end)()
 end
 
-function slot0.InitTags(slot0)
+slot0.InitTags = function(slot0)
 	for slot4, slot5 in ipairs(uv0) do
 		slot6 = slot0.tabContainer
 
@@ -87,7 +87,7 @@ function slot0.InitTags(slot0)
 	end
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.ranks = slot1
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
@@ -96,7 +96,7 @@ function slot0.Flush(slot0, slot1)
 	triggerToggle(slot0.tabContainer:Find("commit"), true)
 end
 
-function slot0.SwitchPage(slot0, slot1)
+slot0.SwitchPage = function(slot0, slot1)
 	slot0.pageId = slot1
 
 	slot0.scrollrect:SetTotalCount(0)
@@ -111,7 +111,7 @@ function slot0.SwitchPage(slot0, slot1)
 	slot0.rankLabel.text = uv0.PageId2RankLabel(slot1)
 end
 
-function slot0.InitRank(slot0, slot1)
+slot0.InitRank = function(slot0, slot1)
 	slot0.displays = {}
 
 	for slot5, slot6 in pairs(slot1) do
@@ -124,7 +124,7 @@ function slot0.InitRank(slot0, slot1)
 	slot0.scrollrect:SetTotalCount(#slot0.displays)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.displays[slot1 + 1]
 
 	setText(tf(slot2):Find("number"), slot1 + 1)
@@ -132,7 +132,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	setText(tf(slot2):Find("score"), slot3:GetScore(slot0.ranType))
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0:isShowing() then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	end
@@ -140,7 +140,7 @@ function slot0.Hide(slot0)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

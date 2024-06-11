@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Timid Black Cat\n\n<size=45>You Can Do It, Hatsuharu!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "A while later, in the Sakura Empire Dormitory",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "A while later, in the Sakura Empire Dormitory",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 301210,
+			say = "*Whimper*... I-I just wanted to be more confident so I could help people more... I'm sure she just misunderstood what I wanted...",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "*Whimper*... I-I just wanted to be more confident so I could help people more... I'm sure she just misunderstood what I wanted...",
+			actor = 301210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "*Sob*...",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 45,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "Oh, look at that pretty butterfly! I'm gonna go catch it!",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -3750
@@ -213,11 +213,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "Don't run or else you'll trip, Wakaba!",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "I caught it! I caught... Whoaaahh?!",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -3000,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 0
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301240,
+			nameColor = "#a9f548",
 			say = "Request to become the Commander's secretary. If you become the secretary, you'll get to talk to each other every day, even if you hate it. The position is open, so go for it.",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 306010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 306010,
+			nameColor = "#a9f548",
 			say = "Don't say that. If you give up now, you'll never get over your social anxiety.",
 			effects = {
 				{
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "... N-no, I have to try!",
 			effects = {
 				{
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -472,14 +472,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
-			actorName = "{namecode:141}&{namecode:129}",
+			actor = 301230,
 			dir = 1,
 			blackBg = true,
-			actor = 301230,
-			nameColor = "#a9f548",
+			hideOther = true,
+			actorName = "{namecode:141}&{namecode:129}",
 			say = "You can do it, Hatsuharu!",
 			subActors = {
 				{

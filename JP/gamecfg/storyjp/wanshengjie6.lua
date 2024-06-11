@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGJIE6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WANSHENGJIE6",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 301051,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:6}",
 			dir = -1,
+			actorName = "{namecode:6}",
 			say = "声！？上から…！",
 			typewriter = {
 				speed = 0.05,
@@ -51,13 +51,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
-			side = 0,
-			nameColor = "#a9f548",
-			actorName = "ホワイト?",
-			dir = 1,
-			withoutPainting = true,
 			say = "で、何のイタズラをするの？",
+			side = 0,
+			nameColor = "#a9f548",
+			dir = 1,
+			actor = 307050,
+			actorName = "ホワイト?",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,29 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 1,
-			nameColor = "#a9f548",
-			actorName = "ゴールド?",
-			dir = 1,
-			withoutPainting = true,
 			say = "あ、あれ？翔鶴姉がハロウィンを楽しみたいって言うから、私てっきりイタズラをするかと思って",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 307050,
-			side = 0,
+			side = 1,
 			nameColor = "#a9f548",
-			actorName = "ホワイト?",
 			dir = 1,
-			say = "……私、シスターサラじゃないから！",
+			actor = 307060,
+			actorName = "ゴールド?",
 			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
@@ -102,13 +85,30 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			withoutPainting = true,
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:6}",
-			dir = -1,
-			say = "この声……翔鶴！",
+			dir = 1,
+			actor = 307050,
+			actorName = "ホワイト?",
+			say = "……私、シスターサラじゃないから！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			withoutPainting = false,
+			side = 0,
+			nameColor = "#a9f548",
+			dir = -1,
+			actor = 301051,
+			actorName = "{namecode:6}",
+			say = "この声……翔鶴！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,8 +122,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "ホワイト?",
 			dir = 1,
+			actorName = "ホワイト?",
 			say = "ち、違います！私はホワイトです！",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "いや、翔鶴やろ……",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "ホワイト?",
 			dir = 1,
+			actorName = "ホワイト?",
 			say = "違います！！今の私はホワイトですよ！",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "ホワイト?",
 			dir = 1,
+			actorName = "ホワイト?",
 			say = "えっと……皆さんはどんなイタズラがお好き？",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "なんでいたずらする側がそれを聞いてくるのじゃ……",
 			typewriter = {
 				speed = 0.05,
@@ -217,8 +217,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "はい！今のカボチャランタンは翔鶴たちが操ってるんやね？カボチャランタンで、でっかい台を作ってみんなに載せたらすんごいええと思うで！うちもやったことあるんやけど、上手くいかのうて…いたずらかっちゅうたら怪しいんやけどな！",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "ホワイト?",
 			dir = 1,
+			actorName = "ホワイト?",
 			say = "いいんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "グレイ?",
 			dir = 1,
+			actorName = "グレイ?",
 			say = "じゃあ決まりな。ゴールド、左は任せた。",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "ゴールド?",
 			dir = 1,
+			actorName = "ゴールド?",
 			say = "私が賭けに勝ったのになんであんたが仕切ってるの！",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "グレイ?",
 			dir = 1,
+			actorName = "グレイ?",
 			say = "これ以上モタモタすると右のほうは終わらせるぞ。",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "ホワイト?",
 			dir = 1,
+			actorName = "ホワイト?",
 			say = "この――！一気に追い越してやる！",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			actor = 307050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "ホワイト?",
 			dir = 1,
+			actorName = "ホワイト?",
 			say = "うふふ♪はい！じゃあみんなカボチャランタンに乗って―！",
 			typewriter = {
 				speed = 0.05,

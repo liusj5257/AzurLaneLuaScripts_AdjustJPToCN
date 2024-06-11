@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT34",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅\n\n<size=45>結ばれた世界</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "──鏡面海域について、明石が知っているデータはこれくらいだにゃ",
 			bgm = "main-uta",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "──鏡面海域について、明石が知っているデータはこれくらいだにゃ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "感謝",
 			typewriter = {
@@ -72,10 +72,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "ご協力ありがとうございます、猫神さま。これだけ情報があれば十分です。ここから、わたしたちも解析の手掛かりを探りましょう",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -125,10 +125,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "もちろんです、猫神さま。協力してセイレーンに一泡吹かせて差し上げましょう",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ウルゥルとサラァナが、明石を挟んで作戦会議のようなことをしている",
 			typewriter = {
 				speed = 0.05,
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "鏡面海域の構造について、ウルゥルとサラァナが説明を求めているようだ",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "やられたらやり返す",
 			typewriter = {
@@ -183,10 +183,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "不意を突かれたとはいえ、セイレーンなる者にしてやられたのは屈辱の極みです……必ずや彼女たちの能力を解析し、一矢報いるところを御覧いただきます",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -268,8 +268,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "お任せ",
 			typewriter = {
@@ -285,10 +285,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "オンヴィタイカヤンの名にかけて、必ずや成し遂げてみせましょう",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -322,8 +322,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "要するに特殊な結界",
 			typewriter = {
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "鏡面海域とは、既にあった事象を鏡で映したかのように模倣したもの。そのような閉鎖空間を作り出す技術と見ました。呪法でも同じような空間を作り出すものがあります",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "鏡面海域とは、既にあった事象を鏡で映したかのように模倣したもの。そのような閉鎖空間を作り出す技術と見ました。呪法でも同じような空間を作り出すものがあります",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -359,8 +359,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "本質は一緒",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			nameColor = "#a9f548",
 			say = "技術的な違いはあれど、ヤマトでも似たものを研究した事案があると聞いたことがあります。ならば、私たちにも読み解けるかもしれません",
 			typewriter = {

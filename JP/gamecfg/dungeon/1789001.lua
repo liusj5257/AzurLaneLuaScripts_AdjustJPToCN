@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -74,9 +74,9 @@ return {
 					spawn = {
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 0,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -89,9 +89,9 @@ return {
 						},
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 0,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -127,9 +127,9 @@ return {
 					spawn = {
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 0,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -142,9 +142,9 @@ return {
 						},
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 1,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -157,9 +157,9 @@ return {
 						},
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 1,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -172,9 +172,9 @@ return {
 						},
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 0,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -210,9 +210,9 @@ return {
 					spawn = {
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 0,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -225,9 +225,9 @@ return {
 						},
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 0,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -240,9 +240,9 @@ return {
 						},
 						{
 							deadFX = "chengbao_yanhua_stg",
+							sickness = 0.5,
 							delay = 0,
 							monsterTemplateID = 16589101,
-							sickness = 0.5,
 							corrdinate = {
 								30,
 								0,
@@ -300,9 +300,9 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 16589103,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-5,
 								0,
@@ -314,19 +314,19 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 300,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 300,
 									setAI = 20013
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 16589104,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-5,
 								0,
@@ -338,10 +338,10 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 300,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 300,
 									setAI = 20014
 								}
 							}

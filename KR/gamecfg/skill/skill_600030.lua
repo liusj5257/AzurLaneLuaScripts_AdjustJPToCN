@@ -23,8 +23,8 @@ return {
 				delay = 0,
 				effect = "shanshuo",
 				casterRelativeCorrdinate = {
-					hrz = 0,
-					vrt = 0
+					vrt = 0,
+					hrz = 0
 				}
 			}
 		},
@@ -39,10 +39,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 950361,
 				delay = 2

@@ -1,12 +1,12 @@
 return {
-	id = "W863006",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W863006",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "电力方阵，通过底框的颜色可以判断是否被激活。",
 			typewriter = {
 				speed = 0.05,

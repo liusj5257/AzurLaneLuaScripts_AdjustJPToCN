@@ -15,7 +15,7 @@ slot3.STATE_FREE_FLOAT = "STATE_FREE_FLOAT"
 slot3.STATE_FREE_BENCH = "STATE_FREE_BENCH"
 slot3.STATE_DEEP_MINE = "STATE_DEEP_MINE"
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._target = slot1
 	slot0._idleState = uv0.Battle.IdleOxyState.New()
 	slot0._diveState = uv0.Battle.DiveOxyState.New()
@@ -31,21 +31,21 @@ function slot3.Ctor(slot0, slot1)
 	slot0:OnIdleState()
 end
 
-function slot3.SetRecycle(slot0, slot1)
+slot3.SetRecycle = function(slot0, slot1)
 	slot0._recycle = slot1
 end
 
-function slot3.SetBubbleTemplate(slot0, slot1, slot2)
+slot3.SetBubbleTemplate = function(slot0, slot1, slot2)
 	slot0._bubbleInitial = slot1 or 0
 	slot0._bubbleInterval = slot2 or 0
 	slot0._bubbleTimpStamp = nil
 end
 
-function slot3.UpdateOxygen(slot0)
+slot3.UpdateOxygen = function(slot0)
 	slot0._currentState:DoUpdateOxy(slot0)
 end
 
-function slot3.GetNextBubbleStamp(slot0)
+slot3.GetNextBubbleStamp = function(slot0)
 	if slot0._currentState:GetBubbleFlag() then
 		if slot0._target:GetPosition().x < slot0._bubbleInitial and slot0._bubbleTimpStamp == nil then
 			slot0._bubbleTimpStamp = 0
@@ -57,19 +57,21 @@ function slot3.GetNextBubbleStamp(slot0)
 	end
 end
 
-function slot3.SetForceExpose(slot0, slot1)
+slot3.SetForceExpose = function(slot0, slot1)
 	slot0._forceExpose = slot1
+
+	slot0._target:SetForceVisible()
 end
 
-function slot3.GetForceExpose(slot0)
+slot3.GetForceExpose = function(slot0)
 	return slot0._forceExpose
 end
 
-function slot3.FlashBubbleStamp(slot0, slot1)
+slot3.FlashBubbleStamp = function(slot0, slot1)
 	slot0._bubbleTimpStamp = slot1 + slot0._bubbleInterval
 end
 
-function slot3.ChangeState(slot0, slot1, slot2)
+slot3.ChangeState = function(slot0, slot1, slot2)
 	if slot1 == uv0.STATE_IDLE then
 		slot0:OnIdleState()
 	elseif slot1 == uv0.STATE_DIVE then
@@ -95,19 +97,19 @@ function slot3.ChangeState(slot0, slot1, slot2)
 	slot0._target:GetCldData().Surface = slot0._currentState:GetDiveState()
 end
 
-function slot3.OxyConsume(slot0)
+slot3.OxyConsume = function(slot0)
 	slot0._target:OxyConsume()
 end
 
-function slot3.OxyRecover(slot0, slot1)
+slot3.OxyRecover = function(slot0, slot1)
 	slot0._target:OxyRecover(slot1)
 end
 
-function slot3.OnIdleState(slot0)
+slot3.OnIdleState = function(slot0)
 	slot0._currentState = slot0._idleState
 end
 
-function slot3.OnDiveState(slot0)
+slot3.OnDiveState = function(slot0)
 	slot0._currentState = slot0._diveState
 
 	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
@@ -125,7 +127,7 @@ function slot3.OnDiveState(slot0)
 	slot0._target:AddBuff(uv1.Battle.BattleBuffUnit.New(uv0.SUB_DIVE_IMMUNE_IGNITE_BUFF))
 end
 
-function slot3.OnFloatState(slot0)
+slot3.OnFloatState = function(slot0)
 	slot0._currentState = slot0._floatState
 
 	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
@@ -139,7 +141,7 @@ function slot3.OnFloatState(slot0)
 	slot0._target:AddBuff(uv0.Battle.BattleBuffUnit.New(uv2.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
-function slot3.OnRaidState(slot0)
+slot3.OnRaidState = function(slot0)
 	slot0._currentState = slot0._raidState
 
 	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
@@ -155,7 +157,7 @@ function slot3.OnRaidState(slot0)
 	slot0._target:AddBuff(uv2.Battle.BattleBuffUnit.New(uv0.SUB_DIVE_IMMUNE_IGNITE_BUFF))
 end
 
-function slot3.OnRetreatState(slot0)
+slot3.OnRetreatState = function(slot0)
 	slot0._currentState = slot0._retreatState
 
 	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
@@ -167,7 +169,7 @@ function slot3.OnRetreatState(slot0)
 	slot0._target:AddBuff(uv2.Battle.BattleBuffUnit.New(uv0.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
-function slot3.OnFreeDiveState(slot0)
+slot3.OnFreeDiveState = function(slot0)
 	slot0._currentState = slot0._freeDiveState
 
 	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
@@ -181,7 +183,7 @@ function slot3.OnFreeDiveState(slot0)
 	slot0._target:AddBuff(uv0.Battle.BattleBuffUnit.New(uv2.SUB_DIVE_IMMUNE_IGNITE_BUFF))
 end
 
-function slot3.OnFreeFloatState(slot0)
+slot3.OnFreeFloatState = function(slot0)
 	slot0._currentState = slot0._freeFloatState
 
 	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
@@ -194,7 +196,7 @@ function slot3.OnFreeFloatState(slot0)
 	slot0._target:AddBuff(uv0.Battle.BattleBuffUnit.New(uv2.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
-function slot3.OnFreeBenchState(slot0)
+slot3.OnFreeBenchState = function(slot0)
 	slot0._currentState = slot0._freeBenchState
 
 	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
@@ -206,7 +208,7 @@ function slot3.OnFreeBenchState(slot0)
 	slot0._target:AddBuff(uv0.Battle.BattleBuffUnit.New(uv1.SUB_FLOAT_DISIMMUNE_IGNITE_BUFF))
 end
 
-function slot3.OnDeepMineState(slot0)
+slot3.OnDeepMineState = function(slot0)
 	slot0._currentState = slot0._deepMineState
 
 	slot0._currentState:UpdateCldData(slot0._target, slot0._currentState)
@@ -215,34 +217,34 @@ function slot3.OnDeepMineState(slot0)
 	slot0._target:SetAI(20005)
 end
 
-function slot3.GetRecycle(slot0)
+slot3.GetRecycle = function(slot0)
 	return false
 end
 
-function slot3.GetTarget(slot0)
+slot3.GetTarget = function(slot0)
 	return slot0._target
 end
 
-function slot3.GetCurrentState(slot0)
+slot3.GetCurrentState = function(slot0)
 	return slot0._currentState
 end
 
-function slot3.GetCurrentStateName(slot0)
+slot3.GetCurrentStateName = function(slot0)
 	return slot0._currentState.__name
 end
 
-function slot3.GetWeaponType(slot0)
+slot3.GetWeaponType = function(slot0)
 	return slot0._currentState:GetWeaponUseableList()
 end
 
-function slot3.GetBarVisible(slot0)
+slot3.GetBarVisible = function(slot0)
 	return slot0._currentState:GetBarVisible()
 end
 
-function slot3.GetRundMode(slot0)
+slot3.GetRundMode = function(slot0)
 	return slot0._currentState:RunMode()
 end
 
-function slot3.GetCurrentDiveState(slot0)
+slot3.GetCurrentDiveState = function(slot0)
 	return slot0._currentState:GetDiveState()
 end

@@ -6,7 +6,7 @@ slot3 = class("BattleSkillProjectShelter", slot0.Battle.BattleSkillEffect)
 slot0.Battle.BattleSkillProjectShelter = slot3
 slot3.__name = "BattleSkillProjectShelter"
 
-function slot3.Ctor(slot0, slot1, slot2)
+slot3.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._duration = slot0._tempData.arg_list.duration
@@ -16,7 +16,7 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0._count = slot0._tempData.arg_list.count
 end
 
-function slot3.DoDataEffect(slot0, slot1)
+slot3.DoDataEffect = function(slot0, slot1)
 	slot3 = uv0.Battle.BattleDataProxy.GetInstance():SpawnShelter(slot0._box, slot0._duration)
 
 	if slot1:GetIFF() == uv1.FOE_CODE then
@@ -31,6 +31,6 @@ function slot3.DoDataEffect(slot0, slot1)
 	}))
 end
 
-function slot3.DataEffectWithoutTarget(slot0, slot1)
+slot3.DataEffectWithoutTarget = function(slot0, slot1)
 	slot0:DoDataEffect(slot1)
 end

@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508C",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900286,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-ashes-theme",
 			dir = 1,
 			say = "應對及時，但是無效。在妳發動攻擊前，我的戰術就已經成功了。",
+			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

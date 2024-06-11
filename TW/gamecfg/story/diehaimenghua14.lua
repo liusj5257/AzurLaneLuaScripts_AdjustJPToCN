@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_4",
-			soundeffect = "event:/battle/boom2",
+			bgm = "xinnong-4",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
 			say = "戰鬥還在繼續…趕上了！",
-			bgm = "xinnong-4",
 			flashN = {
 				color = {
 					1,
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_4",
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "妳是……？啊，這不是信濃嗎！妳終於睡醒了啊~！",
 			dialogShake = {
 				speed = 0.09,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:91}",
+			side = 1,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:182}",
+			side = 0,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "bg_white",
-			actorName = "{namecode:182}",
+			side = 2,
 			dir = 1,
+			actorName = "{namecode:182}",
+			bgName = "bg_white",
 			nameColor = "#a9f548",
 			say = "這份光芒是…夢境的消散，這樣就要結束了嗎……",
 			flashout = {
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "黑色的崩壞…與夢魘的誕生…一定要…阻止…………",
 			typewriter = {
 				speed = 0.05,
@@ -327,9 +327,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 1,
 			bgName = "bg_white",
+			mode = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {
 				dur = 0.5,

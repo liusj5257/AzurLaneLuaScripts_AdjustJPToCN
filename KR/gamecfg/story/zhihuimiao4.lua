@@ -1,8 +1,8 @@
 return {
-	id = "ZHIHUIMIAO4",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "ZHIHUIMIAO4",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그래서 '지휘냥' 의 정체는 대체 뭐란 거지…우선은 어떤 능력을 가지고 있는지 한 번 알아봐야겠어……",
 			typewriter = {
 				speed = 0.05,

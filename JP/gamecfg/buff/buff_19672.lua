@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 100
+					number = 100,
+					attr = "airPower"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 200
+					number = 200,
+					attr = "airPower"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 300
+					number = 300,
+					attr = "airPower"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 400
+					number = 400,
+					attr = "airPower"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 500
+					number = 500,
+					attr = "airPower"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 600
+					number = 600,
+					attr = "airPower"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 700
+					number = 700,
+					attr = "airPower"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 800
+					number = 800,
+					attr = "airPower"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 900
+					number = 900,
+					attr = "airPower"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1000
+					number = 1000,
+					attr = "airPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "属性变更",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "提升",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 100
+				number = 100,
+				attr = "airPower"
 			}
 		}
 	}

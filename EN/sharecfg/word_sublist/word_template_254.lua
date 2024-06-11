@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_254 = {}
 slot1 = slot0.word_template_254
 
-function temp()
+temp = function()
 	uv0["山"] = {
 		["本"] = {
 			["惠"] = {
@@ -222,7 +222,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["杉"] = {
 		["村"] = {
 			["阳"] = {
@@ -236,7 +236,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["删"] = {
 		[" "] = {
 			["号"] = {
@@ -291,7 +291,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["舢"] = {
 		["舨"] = {
 			["9"] = {
@@ -305,7 +305,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["煽"] = {
 		["动"] = {
 			["不"] = {
@@ -329,7 +329,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["陕"] = {
 		["西"] = {
 			["人"] = {
@@ -366,7 +366,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["汕"] = {
 		["頭"] = {
 			["頻"] = {

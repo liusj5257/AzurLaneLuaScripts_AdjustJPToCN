@@ -1,6 +1,6 @@
 slot0 = class("CpkPerformPlayer", import(".BasePerformPlayer"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.bgTF = slot0:findTF("bg", slot0._tf)
@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.personalityIds = slot2.attr_2_list
 end
 
-function slot0.getCpkName(slot0, slot1)
+slot0.getCpkName = function(slot0, slot1)
 	if getProxy(EducateProxy):GetCharData():GetStage() < slot0.maxStage then
 		return slot1[slot2]
 	elseif slot2 == slot0.maxStage then
@@ -24,7 +24,7 @@ function slot0.getCpkName(slot0, slot1)
 	return ""
 end
 
-function slot0.Play(slot0, slot1, slot2, slot3)
+slot0.Play = function(slot0, slot1, slot2, slot3)
 	slot0:Show()
 
 	if slot3 then
@@ -35,7 +35,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 
 	slot5 = slot1.param[2] or 3
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("educateanim/" .. (slot0:getCpkName(slot1.param[1]) or ""))) then
+	if checkABExist("educateanim/" .. (slot0:getCpkName(slot1.param[1]) or "")) then
 		slot7 = ResourceMgr.Inst
 
 		slot7:getAssetAsync("educateanim/" .. slot4, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -63,11 +63,14 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 				uv0._anim:Play()
 			end
 
-			uv0.player.maxFrameDrop = ReflectionHelp.RefGetField(typeof("CriManaMovieMaterial+MaxFrameDrop"), "Infinite", nil)
+			uv0.player:SetMaxFrameDrop(CriManaMovieMaterial.MaxFrameDrop.Infinite)
+			uv0.player:SetCpkTotalTimeCallback(function (slot0)
+				uv0.time = slot0
 
+				uv0:onCpkStart(slot0)
+			end)
 			uv0.player:PlayerManualUpdate()
 			uv0.player:PlayCpk()
-			uv0:onCpkStart(uv1)
 
 			if not IsNil(slot2) then
 				Destroy(slot2)
@@ -78,7 +81,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.onCpkStart(slot0, slot1)
+slot0.onCpkStart = function(slot0, slot1)
 	setSlider(slot0.sliderTF, 0, 1, 0)
 
 	slot0.playingTime = 0
@@ -91,7 +94,7 @@ function slot0.onCpkStart(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.onCpkEnd(slot0)
+slot0.onCpkEnd = function(slot0)
 	setSlider(slot0.sliderTF, 0, 1, 1)
 
 	if slot0.timer ~= nil then
@@ -101,7 +104,7 @@ function slot0.onCpkEnd(slot0)
 	end
 end
 
-function slot0.SetUIParam(slot0, slot1)
+slot0.SetUIParam = function(slot0, slot1)
 	setAnchoredPosition(slot0.sliderTF, slot1.sliderPos)
 	setAnchoredPosition(slot0.cpkParentTF, slot1.cpkPos)
 	setAnchoredPosition(slot0.cpkCoverTF, slot1.cpkCoverPos)
@@ -109,7 +112,7 @@ function slot0.SetUIParam(slot0, slot1)
 	GetComponent(slot0.bgTF, typeof(Image)).enabled = slot1.showCpkBg
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if not IsNil(slot0.cpkTF) then
 		Destroy(slot0.cpkTF)
 	end

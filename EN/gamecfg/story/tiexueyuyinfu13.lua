@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 1,
+			say = "Booomm————",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			bgm = "bsm-3",
-			dir = 1,
 			nameColor = "#ffde38",
 			seDelay = 1.3,
-			say = "Booomm————",
 			flashN = {
 				color = {
 					1,
@@ -65,8 +65,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "This is...",
 			typewriter = {
 				speed = 0.05,
@@ -80,11 +80,11 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			say = "Booomm————",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#ffde38",
-			dir = 1,
 			seDelay = 1.3,
-			say = "Booomm————",
 			flashN = {
 				color = {
 					1,
@@ -135,8 +135,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "a once-in-a-lifetime battle...",
 			typewriter = {
 				speed = 0.05,
@@ -150,10 +150,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			say = "Booomm————",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			dir = 1,
-			say = "Booomm————",
 			flashN = {
 				color = {
 					1,
@@ -204,8 +204,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "the greatest thrill...",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			say = "Booomm————",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			dir = 1,
-			say = "Booomm————",
 			flashN = {
 				color = {
 					1,
@@ -273,8 +273,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "for an Iron Blood battleship!",
 			typewriter = {
 				speed = 0.05,
@@ -288,10 +288,10 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			say = "Booomm————",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
-			dir = 1,
-			say = "Booomm————",
 			flashN = {
 				color = {
 					1,
@@ -342,8 +342,8 @@ return {
 			actor = 405010,
 			side = 1,
 			expression = 2,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Curses... they took out my precious Dora?!",
 			typewriter = {
 				speed = 0.05,
@@ -385,11 +385,11 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
-			say = "Booomm————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
+			say = "Booomm————",
 			flashN = {
 				color = {
 					1,
@@ -482,13 +482,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
-			say = "You've had your fun, Royal Navy girls.",
 			bgm = "battle-boss-4",
+			actor = 900011,
+			actorName = "Tester",
+			say = "You've had your fun, Royal Navy girls.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,8 +502,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "How terribly inconvenient it would be if you were to break our valuable specimen.",
 			typewriter = {
 				speed = 0.05,

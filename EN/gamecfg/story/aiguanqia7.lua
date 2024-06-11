@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA7",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA7",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301120,
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "Kizuna AI clone",
 			say = "————!",
 			typewriter = {
@@ -40,8 +40,8 @@ return {
 			expression = 1,
 			side = 0,
 			hideOther = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			actor = 10400010,
 			actorName = "Kizuna AI clone",
 			say = "————!",
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,10 +129,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "KABOOOM!!!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -223,8 +223,8 @@ return {
 			expression = 4,
 			side = 0,
 			actor = 10400020,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "Kizuna AI",
 			say = "Got it! With the way I am now, taking out the enemies will be a piece of cake!",
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 555
@@ -250,8 +250,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "Kizuna AI",
 			say = "I’ll start things off by taking care of my clone~! Take this!",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2250
@@ -276,8 +276,8 @@ return {
 			actor = 401230,
 			side = 0,
 			hideOther = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Ah...! Miss AI, stop! Don’t charge in by yourself!",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			actorName = "Kizuna AI clone",
 			say = "... ... ...!！！",
 			typewriter = {
@@ -306,10 +306,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "KABOOOM!!!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "Kizuna AI",
 			say = "AAAAAAAAAAAAAAAAAHHH!",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -382,8 +382,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "Kizuna AI",
 			say = "SOME~ONE~! SAAAVE MEEEEE——!!!",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 0

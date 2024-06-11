@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023关岛活动 D3 精英人形召唤物",
 	time = 3,
-	color = "yellow",
+	name = "2023关岛活动 D3 精英人形召唤物",
+	init_effect = "",
+	id = 200739,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200739,
+	color = "yellow",
 	icon = 200739,
 	last_effect = "",
 	effect_list = {

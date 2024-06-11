@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN16",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "???·미드가르드 탑-1번 관제탑",
 			bgm = "deepblue-image",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "???·미드가르드 탑-1번 관제탑",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "즈이카쿠",
+			side = 1,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -291,8 +291,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그나이제나우·META",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그나이제나우·META",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그나이제나우·META",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그나이제나우·META",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그나이제나우·META",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그나이제나우·META",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -423,8 +423,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

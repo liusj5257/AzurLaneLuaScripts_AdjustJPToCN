@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "모항, 집무실",
-			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "스크린 너머로 TB와 눈싸움을 하고 있다.",
@@ -59,10 +59,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "분석 모듈을 동기화하는 중입니다… '개성'이라는 개념을 내포하는 정보는 분석할 수 없습니다.",
 			painting = {
 				alpha = 0.3,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "얼마 전 갑자기 TB가 '개성이 부족하다'며, 참으로 어려운 상담을 해왔다.",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "답을 스스로 찾을 수 있도록 일단은 자료를 건넸는데……",
@@ -130,10 +130,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "검색 중… '개성'은 일반적으로 개체의 유일무이한 특성 또는 타인과 구별되는 사고 회로로 해석됩니다.",
 			painting = {
 				alpha = 0.3,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "갑자기 어떤 대담한 아이디어가 머리에 떠올랐다.",
@@ -214,10 +214,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "보조 전자 정체성 인터페이스에는 일반적으로 '어린이'로 정의되는 시기가 존재하지 않습니다.",
 			painting = {
 				alpha = 0.3,
@@ -313,10 +313,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "연관성이 존재할 가능성을 확인했습니다. 그렇지만 이 결론에는 논리적 근거가 없으며, 단지 지금까지의 주제에 따라 도출된 합리적 추론에 불과합니다.",
 			painting = {
 				alpha = 0.3,
@@ -398,10 +398,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "명령을 수령했습니다. 특수 대기 모드에 돌입합니다. 명령 재수령 시에 기동됩니다.",
 			painting = {
 				alpha = 0.3,

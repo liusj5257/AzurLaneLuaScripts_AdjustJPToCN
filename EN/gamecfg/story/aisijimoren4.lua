@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Summer Surprise\n\n<size=45>4 Preparations, Part 2</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office, a few days later",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "Port - Office, a few days later",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Over the last few days, Eskimo seems to have been working on something. I wonder if it's related to the \"secret\" she mentioned.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "But, she's still been diligently taking care of her secretary duties. An absolute ball of energy, that girl...",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Eskimo continues to work while humming cheerfully. I can't really picture a girl like her having secrets at all.",
 			typewriter = {
 				speed = 0.05,
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "But that only makes me more interested in what it is...",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Despite her usual carefree attitude, she clearly wasn't going to budge on this particular topic.",
 			typewriter = {
 				speed = 0.05,
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "Think you could do me a favor, Commander? Pretty please?",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The indoor pool, huh... Since it's the middle of summer, everyone just goes down to the beach anyway so the pool is pretty deserted.",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Well, I guess one day couldn't hurt...",
 			typewriter = {
 				speed = 0.05,
@@ -282,11 +282,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "Woohoo! Thanks a ton, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Even an energetic kid like Eskimo can't finish without a whole day's time, huh... That really makes me interested in seeing what she's been working on.",
 			typewriter = {
 				speed = 0.05,

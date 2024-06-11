@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "コホン！ではこれより年末の大掃除を始めますわ！",
 			typewriter = {
 				speed = 0.05,
@@ -32,13 +32,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "重桜のみんな",
 			dir = 1,
+			actor = 0,
+			actorName = "重桜のみんな",
 			say = "おう！",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			actor = 301140,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:16}",
 			dir = -1,
+			actorName = "{namecode:16}",
 			say = "オゥ！あたたたたた！一気に片付けてやるぜ！",
 			typewriter = {
 				speed = 0.05,
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "あわわわ！ いませいりしたばかりなのに……",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:34}",
 			dir = 1,
-			say = "あわわわ！ いませいりしたばかりなのに……",
+			actor = 301330,
+			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -88,8 +88,8 @@ return {
 			actor = 307020,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "ふぅ…戦場の「ソウジ」より、母港の掃除のほうが疲れるな……",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:91}",
 			dir = 1,
+			actorName = "{namecode:91}",
 			say = "ふふふ……普段でも注意しているとはいえ、やっぱり正月はもっと気をつけないと……指揮官様の母港の「害虫」はこの機に……",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			actor = 307020,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "赤城姉さま、今日の任務は普通の整理整頓……くれぐれも暴走しないでください……",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:91}",
 			dir = 1,
+			actorName = "{namecode:91}",
 			say = "加賀、安心して。指揮官には迷惑をかけないように心掛けていますわ。あの「害虫」たちが指揮官の側にさえ近づかなければ……",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "なんか不穏な発言が聞こえちゃったけど……",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			actor = 307020,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "貴女はたしか鉄血の……",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "あ、オイゲンさん、こんにちは。いま重桜寮で年に一度の大掃除をやっているの。",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			actor = 307010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:91}",
 			dir = -1,
+			actorName = "{namecode:91}",
 			say = "なん、ですって……指揮官様の身の回りも「ソウジ」しなければならないようね……ふふふ、指揮官様、いま赤城がお側に駆けつけますわ……",
 			typewriter = {
 				speed = 0.05,
@@ -243,10 +243,10 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			actorShadow = true,
-			actorName = "{namecode:93}&{namecode:92}",
 			side = 0,
+			actorName = "{namecode:93}&{namecode:92}",
+			actor = 307030,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "策で赤城をけしかけてこちらの戦力を削るとは、さすがは鉄血だな。",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:92}",
 			dir = 1,
-			say = "策で赤城をけしかけてこちらの戦力を削るとは、さすがは鉄血だな。",
+			actor = 307020,
+			actorName = "{namecode:92}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -308,8 +308,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:93}",
 			dir = -1,
+			actorName = "{namecode:93}",
 			say = "うぅ…赤城先輩は指揮官が絡むととことんわかりやすくなるものね……",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			actor = 303120,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:67}",
 			dir = -1,
+			actorName = "{namecode:67}",
 			say = "あら、掃除する場所は結構残っているのに、なんで赤城がもう行っちゃうの……",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "え、いいの？",
 			typewriter = {
 				speed = 0.05,

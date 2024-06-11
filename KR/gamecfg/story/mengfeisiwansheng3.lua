@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"혼돈의 핼러윈 나이트\n\n<size=45>3. 관례적인 장난</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
-			actorName = "호박?",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……",
+			bgName = "bg_night",
 			bgm = "story-1",
+			actorName = "호박?",
+			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_night",
-			actorName = "호박?",
 			dir = 1,
+			actorName = "호박?",
 			say = "BOOM!",
 			dialogShake = {
 				speed = 0.09,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 101421,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			actor = 101421,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "스몰리&플레처",
 			say = "으앗!?",
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "이게 호박인 줄 알았어? 사실은 나 애버크롬비야!! 헤헷, 놀랐지~?",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 213041,
 			dir = 1,
+			actor = 213041,
 			nameColor = "#a9f548",
 			say = "앗~ 미안, 미안해~ 스몰리, 괜찮지?",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 101421,
 			dir = 1,
+			actor = 101421,
 			nameColor = "#a9f548",
 			say = "음... 사탕을 지키지 못한 건 위치 딜리버리의... 과실이야...",
 			typewriter = {
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301411,
 			actorName = "강시?",
 			say = "사탕은 내가 주웠어.",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 301411,
 			dir = 1,
+			actor = 301411,
 			nameColor = "#a9f548",
 			say = "폴짝~ 폴짝~ 사탕 줄게.",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301411,
+			nameColor = "#a9f548",
 			say = "응, 미카즈키는 강시로 변신했어. 폴짝~ 폴짝~ 붕어빵 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 101120,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101120,
+			nameColor = "#a9f548",
 			say = "이게 다 너 때문이니까 네가 해결하는 거지!",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,13 +421,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -548,10 +548,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
+			hideOther = true,
 			dir = 1,
 			actor = 101090,
 			actorName = "모두",
@@ -586,17 +586,17 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			stopbgm = true,
 			side = 2,
-			actor = 900202,
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
+			actor = 900202,
 			nameColor = "#a9f548",
 			say = "헤헤헷… 안 들키고 섞여 들어왔다~ 순조롭게 진행되고 있어~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

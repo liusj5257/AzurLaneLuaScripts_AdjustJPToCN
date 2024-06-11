@@ -2,24 +2,24 @@ return {
 	uiEffect = "",
 	name = "2023俾斯麦Z活动 剧情战BOSS 召唤代行者2",
 	cd = 0,
-	painting = "sairenboss5_alter",
-	id = 200457,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "sairenboss5_alter",
+	id = 200457,
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
 					monsterTemplateID = 16526407,
-					moveCast = true,
-					delay = 0,
 					score = 0,
+					delay = 0,
+					moveCast = true,
 					corrdinate = {
 						-10,
 						0,

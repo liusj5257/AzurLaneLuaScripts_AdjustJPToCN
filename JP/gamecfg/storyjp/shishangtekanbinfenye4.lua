@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANBINFENYE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANBINFENYE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港ナイト\n\n<size=45>今日の星座運勢は？</size>",
@@ -49,11 +49,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "きれいな星空が見える模擬店で、コンステレーションがこちらに手招きしている。",
@@ -75,9 +75,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			bgName = "star_level_bg_145",
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -91,17 +91,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうね…でも指揮官、ここの星空もいい感じだよ？",
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ほら、星々がこんなに近くて、手を伸ばせば銀河を抱きしめられそうな――",
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そう言いながら、コンステレーションは頭上の星を指差した。",
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "星々の話になると、彼女――コンステレーションはいつもテンションが上がり、饒舌になる。",
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うん、ロマン溢れる新技術だよね",
@@ -403,11 +403,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こほん。…指揮官、ご注文は何にする？",
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
-			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			bgName = "star_level_bg_145",
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "お待たせ。指揮官が注文したドリンク、それと…",
@@ -438,17 +438,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

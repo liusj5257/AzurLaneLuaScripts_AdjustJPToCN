@@ -1,12 +1,12 @@
 return {
-	id = "W803001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W803001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「しょぼーん…」――どうやらこのアザラシは本物ではないようだ。",
 			typewriter = {
 				speed = 0.05,

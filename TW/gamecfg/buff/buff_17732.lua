@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.05,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -24,8 +24,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.059,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -41,8 +41,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.068,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -58,8 +58,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.08,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -75,8 +75,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.089,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -92,8 +92,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.098,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -109,8 +109,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.11,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -126,8 +126,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.122,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -143,8 +143,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.134,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -160,8 +160,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.15,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -169,9 +169,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -192,8 +192,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 0.05,
+				attr = "cri",
 				index = {
 					1
 				}

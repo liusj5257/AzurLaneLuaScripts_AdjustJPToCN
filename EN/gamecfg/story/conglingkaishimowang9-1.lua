@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "To the west of the Royal Capital, in the Looking-Glass Lake, lies Silverbank Island.",
 			bgm = "story-mmorpg",
+			say = "To the west of the Royal Capital, in the Looking-Glass Lake, lies Silverbank Island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "We finally got the potion maker to accompany us there... after painstakingly gathering the ingredients to make 99 potions.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "After sailing a small boat across the lake, we laid anchor and at last set foot on the island.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "The place looks barren, seemingly only home to a dense forest and craggy rocks.",
 			typewriter = {
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So... where is the northern tower? There's no silver anywhere on this island, just a bunch of trees and bushes.",
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Are you sure we didn't end up on the wrong island?",
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "Potion Maker",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And yes, the island's name may seem deceptive. My master said that this used to be a vast ice lake, long ago. Perhaps that's where the name came from.",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "With a smug expression, Nubian walks up to a clearing. She bows to a dead tree and then clears her throat.",
 			typewriter = {
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
+			side = 2,
 			say = "Then, the space ahead of us seems to warp and bend...",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "Out of thin air, a tall tower made of black metal manifests.",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's glowing red... H-hang on, isn't this one of the Demon King's bases?",
@@ -309,27 +309,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
-			say = "We reach the highest floor of the tower. The legendary witch sits in a chair at the center of a magic circle.",
 			bgm = "theme-ijndailymeeting",
+			say = "We reach the highest floor of the tower. The legendary witch sits in a chair at the center of a magic circle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "I know why you're here. Leave.",
 			painting = {
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But we haven't said anything yet!",
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "Potion Maker",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Master, why won't you help us? We're talking about the great mage who defeated the Demon King a millennium ago.",
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "That is you, Commander. I shall teach you how to break the curse if you stay here and become my disciple.",
 			painting = {
@@ -559,8 +559,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -600,11 +600,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Come on, you're exaggerating... right?",
@@ -618,11 +618,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "She's not. Training under my watch is done in increments of a hundred years. Don't you know that?",
 			painting = {
@@ -654,11 +654,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yeah! We have a Demon King to defeat!",
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "I shall teach you how to lift the curse... if you can complete my trial.",
 			painting = {
@@ -726,11 +726,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "That's what I'd usually do, yes.",
 			painting = {
@@ -761,11 +761,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "The Wise Witch",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "So, instead, I will have you partake in a combat trial.",
 			painting = {

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "応援団席にて",
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
-			say = "応援団席にて",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "長春、いつか儲けるために予めサインをたくさんもらっておいたほうがいい？",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -208,15 +208,15 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "兵装テスト並びに歌唱行動、終了",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -308,8 +308,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			nameColor = "#a9f548",
 			say = "実質勝利のポーズ……",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			nameColor = "#a9f548",
 			say = "姉ちゃん、鞍山たちも来ているよ！",
 			typewriter = {
@@ -342,8 +342,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 502023,
 			dir = 1,
+			actor = 502023,
 			nameColor = "#a9f548",
 			say = "み、みんな――！",
 			typewriter = {
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
+			dir = 1,
 			say = "一方、最初の実戦テスト（ライブ）のあと、赤城は自分の「μ兵装」を静かにじっと見つめていた",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "赤城？なんかあったの？",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "「オモイ」…みんなの、「カンジョウ」……",
 			typewriter = {

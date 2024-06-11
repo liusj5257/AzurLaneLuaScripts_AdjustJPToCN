@@ -1,12 +1,12 @@
 return {
-	id = "W1103",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1103",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "操作装置が破壊され、海霧が消え去った。そして海面になにか…？",
 			typewriter = {
 				speed = 0.05,

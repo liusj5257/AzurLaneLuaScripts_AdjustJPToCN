@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Operation: Christmas!\n\n<size=45>Chapter 6: Onwards, To Christmas Day!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Nighttime",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-christmas",
+			say = "Port - Nighttime",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "Now all that remains is Her Majesty's special present!",
 			typewriter = {
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 201102,
+			say = "Didn't Enterprise say we don't need to fuss over giving people the \"perfect present\"...?",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Didn't Enterprise say we don't need to fuss over giving people the \"perfect present\"...?",
+			actor = 201102,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 201102,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201102,
+			nameColor = "#a9f548",
 			say = "Well... then I'm sure Her Majesty will adore it!",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -145,15 +145,15 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "This is unfortunate... We purchased too many presents to carry by ourselves...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 201102,
+			say = "I'm sorry... I shouldn't have bought so many snacks...",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I'm sorry... I shouldn't have bought so many snacks...",
+			actor = 201102,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -201,8 +201,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_night",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "Blast it... Our Christmas is doomed...!",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "Enterprise! Thank goodness! Ah, and Nicholas too?",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 201102,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201102,
+			nameColor = "#a9f548",
 			say = "Thank you so much! Please take us to the Royal Navy dormitory!",
 			typewriter = {
 				speed = 0.05,

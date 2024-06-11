@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIQIYE",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIQIYE",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"SPストーリー\n\n<size=45>碧き海</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日・海にて",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "ある日・海にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "そうは言ったものの、指揮官が来てくれなかったら流石にちょっと心細くなってただろうな",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "エンタープライズはそう言っているが、正直彼女たちと違って、自分では戦力になれないのが事実だ。",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "サポートならまだしも、背中を預かれるか、正直自信がない……",
 			typewriter = {
 				speed = 0.05,
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "エンタープライズは急に話を遮った。",
 			typewriter = {
 				speed = 0.05,
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "彼女にとっての自分はどういう存在なのか、本人の言葉で表されない以上、こっちにも推測のしようがない…か。",
 			typewriter = {
 				speed = 0.05,
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "エンタープライズは恥ずかしそうに軍帽を手で正した。",
 			typewriter = {
 				speed = 0.05,
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "エンタープライズは軍帽で顔を半分隠した。",
 			typewriter = {
 				speed = 0.05,
@@ -476,11 +476,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "そういえば指揮官、空から海を見てみたいか？",
 			typewriter = {
 				speed = 0.05,
@@ -530,9 +530,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "いつものカッコよく、みんなの英雄である「エンタープライズ」に戻った。",
 			typewriter = {
 				speed = 0.05,
@@ -544,9 +544,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "せっかくだし、エンタープライズの好意に甘えることにした。",
 			typewriter = {
 				speed = 0.05,
@@ -558,13 +558,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_nepu2",
+			side = 2,
+			dir = 1,
 			say = "エンタープライズのおかげでいい風景が見れた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -589,11 +589,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "指揮官、「空のお散歩」はどうだった？",
 			typewriter = {
 				speed = 0.05,
@@ -619,12 +619,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "キレイ…か……",
 			typewriter = {
 				speed = 0.05,
@@ -636,12 +636,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "はは、お客人に快適に乗ってもらえるよう鍛え直しておかないとな",
 			typewriter = {
 				speed = 0.05,
@@ -653,8 +653,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -663,12 +663,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "そうか…今度はエセックスに声をかけて鍛えてもらったほうがいいか…",
 			typewriter = {
 				speed = 0.05,
@@ -728,9 +728,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "エンタープライズは一つ深呼吸をして、気恥ずかしそうに語った。",
 			typewriter = {
 				speed = 0.05,
@@ -790,9 +790,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "少し顔を赤らめながら、彼女は最高の笑顔を見せてくれた。",
 			typewriter = {
 				speed = 0.05,
@@ -820,12 +820,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "あなたと見たあの碧い海。あれは最高に綺麗なものだ――",
 			typewriter = {
 				speed = 0.05,

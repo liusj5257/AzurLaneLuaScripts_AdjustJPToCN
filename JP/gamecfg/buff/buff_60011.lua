@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-女灶神-回血HOT",
 	time = 10,
+	name = "测试-女灶神-回血HOT",
+	init_effect = "",
 	picture = "",
 	desc = "HOT",
 	stack = 1,

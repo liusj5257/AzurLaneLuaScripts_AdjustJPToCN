@@ -11,9 +11,9 @@ return {
 			nameColor = "#92fc63",
 			bgName = "bg_story_1",
 			side = 0,
-			bgm = "story-5",
 			bgSpeed = 1.5,
 			say = "후드!",
+			bgm = "story-5",
 			effects = {
 				{
 					active = true,
@@ -25,8 +25,8 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#92fc63",
-			say = "이 힘은...! 역시 당신들은 그 \"힘\"을...!",
 			subBgName = "bg_story_1_sub",
+			say = "이 힘은...! 역시 당신들은 그 \"힘\"을...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,10 +87,10 @@ return {
 			actor = 900010,
 			nameColor = "#ff0000",
 			bgName = "bg_story_3",
-			side = 1,
-			bgFade = true,
-			blackBg = true,
 			say = "\"충성이야말로 우리들의 명예\"────힘을 가지는 것만이 인류를 구할 수 있다. 우리들은... 그저 다른 길을 골랐을 뿐.",
+			side = 1,
+			blackBg = true,
+			bgFade = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900313,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			dir = -1,
 			blackBg = true,
+			actor = 900313,
+			mode = 2,
 			say = "...인간이란 재밌어. 힘의 일부를 준 것만으로 그 역사를 되풀이하다니.",
 			shake = {
 				speed = 1,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			blackBg = true,
+			actor = 900012,
+			mode = 2,
 			say = "한동안 계속 관찰해볼까. 저 아이들의 미래가 기대되는걸.",
 			shake = {
 				speed = 1,
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			blackBg = true,
+			actor = 900012,
+			mode = 2,
 			say = "이렇게라도 하지 않는다면 우리가 이 시대에 돌아온 의미가 없으니. 후후후...",
 			shake = {
 				speed = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

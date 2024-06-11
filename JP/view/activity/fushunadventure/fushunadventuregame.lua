@@ -6,7 +6,7 @@ slot4 = 2
 slot5 = 3
 slot6 = 4
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.fushunLoader = AutoLoader.New()
@@ -18,15 +18,15 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:Init()
 end
 
-function slot0.SetOnShowResult(slot0, slot1)
+slot0.SetOnShowResult = function(slot0, slot1)
 	slot0.OnShowResult = slot1
 end
 
-function slot0.SetOnLevelUpdate(slot0, slot1)
+slot0.SetOnLevelUpdate = function(slot0, slot1)
 	slot0.OnLevelUpdate = slot1
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	if slot0.state ~= uv0 then
 		return
 	end
@@ -36,7 +36,7 @@ function slot0.Init(slot0)
 	slot0:InitMainUI()
 end
 
-function slot0.InitMainUI(slot0)
+slot0.InitMainUI = function(slot0)
 	slot1 = slot0._go
 
 	onButton(slot0, findTF(slot1, "btn_help"), function ()
@@ -61,7 +61,7 @@ function slot0.InitMainUI(slot0)
 	slot0:RefreshLevels()
 end
 
-function slot0.RefreshLevels(slot0)
+slot0.RefreshLevels = function(slot0)
 	slot0.levelList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot2:Find("Text"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/FushunAdventureGame_atlas", "level_" .. slot1 + 1)
@@ -95,7 +95,7 @@ function slot0.RefreshLevels(slot0)
 	end
 end
 
-function slot0.InitGameUI(slot0)
+slot0.InitGameUI = function(slot0)
 	slot1 = slot0.gameUI
 	slot0.btnA = findTF(slot1, "UI/A")
 	slot0.btnB = findTF(slot1, "UI/B")
@@ -146,7 +146,7 @@ function slot0.InitGameUI(slot0)
 	slot0.energyBar.fillAmount = 0
 end
 
-function slot0.EnterAnimation(slot0, slot1)
+slot0.EnterAnimation = function(slot0, slot1)
 	setActive(slot0.countdownPanel, true)
 
 	slot0.countdownTimer = Timer.New(function ()
@@ -169,7 +169,7 @@ function slot0.EnterAnimation(slot0, slot1)
 	slot0.countdownTimer:Start()
 end
 
-function slot0.ShowHelpWindow(slot0, slot1)
+slot0.ShowHelpWindow = function(slot0, slot1)
 	setActive(slot0.helpWindow, true)
 	onButton(slot0, slot0.helpWindow, function ()
 		setActive(uv0.helpWindow, false)
@@ -178,8 +178,8 @@ function slot0.ShowHelpWindow(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.DisplayKey(slot0)
-	function slot1(slot0, slot1)
+slot0.DisplayKey = function(slot0)
+	slot1 = function(slot0, slot1)
 		slot2 = nil
 
 		if not slot1 or slot1 == "" then
@@ -200,17 +200,17 @@ function slot0.DisplayKey(slot0)
 	end
 end
 
-function slot0.DisplayeHearts(slot0, slot1)
+slot0.DisplayeHearts = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.hearts) do
 		setActive(slot6, slot5 <= slot1)
 	end
 end
 
-function slot0.DisplayScore(slot0)
+slot0.DisplayScore = function(slot0)
 	slot0.scoreTxt.text = slot0.score
 end
 
-function slot0.DisplayeEnergy(slot0, slot1, slot2)
+slot0.DisplayeEnergy = function(slot0, slot1, slot2)
 	slot3 = math.min(1, slot1 / slot2)
 	slot0.energyBar.fillAmount = slot3
 
@@ -231,7 +231,7 @@ function slot0.DisplayeEnergy(slot0, slot1, slot2)
 	slot0.energyLight.sizeDelta = Vector2(slot6, slot0.energyLight.sizeDelta.y)
 end
 
-function slot0.StartGame(slot0)
+slot0.StartGame = function(slot0)
 	if slot0.state ~= uv0 then
 		return
 	end
@@ -253,7 +253,7 @@ function slot0.StartGame(slot0)
 	slot0.state = uv1
 end
 
-function slot0.LoadScene(slot0, slot1)
+slot0.LoadScene = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			if uv0.gameUI then
@@ -303,7 +303,7 @@ function slot0.LoadScene(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.EnterGame(slot0)
+slot0.EnterGame = function(slot0)
 	if not slot0.handle then
 		slot0.handle = UpdateBeat:CreateListener(slot0.UpdateGame, slot0)
 	end
@@ -329,7 +329,7 @@ function slot0.EnterGame(slot0)
 	end)
 end
 
-function slot0.UpdateGame(slot0)
+slot0.UpdateGame = function(slot0)
 	if slot0.state == uv0 then
 		slot0:ExitGame(true)
 
@@ -381,15 +381,15 @@ function slot0.UpdateGame(slot0)
 	slot0.schedule:Update()
 end
 
-function slot0.RangeLightDisplay(slot0, slot1)
+slot0.RangeLightDisplay = function(slot0, slot1)
 	setActive(slot0.lightMark, slot1)
 end
 
-function slot0.CheckAttackRange(slot0, slot1)
+slot0.CheckAttackRange = function(slot0, slot1)
 	return slot1:GetPosition().x <= slot0.fushun:GetAttackPosition().x
 end
 
-function slot0.CheckEnemyDeath(slot0, slot1)
+slot0.CheckEnemyDeath = function(slot0, slot1)
 	slot2 = false
 
 	if slot0.enemys[slot1]:IsDeath() then
@@ -407,7 +407,7 @@ function slot0.CheckEnemyDeath(slot0, slot1)
 	return slot2
 end
 
-function slot0.EnterInvincibleMode(slot0)
+slot0.EnterInvincibleMode = function(slot0)
 	slot2 = FushunAdventureGameConst.EX_TIME
 
 	slot0.fushun:Invincible()
@@ -439,7 +439,7 @@ function slot0.EnterInvincibleMode(slot0)
 	slot0:DisplayKey()
 end
 
-function slot0.ExitInvincibleMode(slot0)
+slot0.ExitInvincibleMode = function(slot0)
 	slot0.fushun:Vincible()
 
 	slot4 = 1
@@ -459,7 +459,7 @@ function slot0.ExitInvincibleMode(slot0)
 	setActive(slot0.btnBExEffect, false)
 end
 
-function slot0.CheckCollision(slot0, slot1, slot2)
+slot0.CheckCollision = function(slot0, slot1, slot2)
 	if uv0.IsCollision(slot2.effectCollider2D, slot1.collider2D) then
 		slot1:Hurt()
 		slot2:OnHit()
@@ -476,7 +476,7 @@ function slot0.CheckCollision(slot0, slot1, slot2)
 	end
 end
 
-function slot0.AddHitEffect(slot0, slot1)
+slot0.AddHitEffect = function(slot0, slot1)
 	slot6 = Vector3(slot0.gameUI.transform:InverseTransformPoint(slot1.collider2D.bounds:GetMin()).x, slot0.gameUI.transform:InverseTransformPoint(slot0.fushun.effectCollider2D.bounds.center).y, 0)
 
 	slot0.fushunLoader:GetPrefab("FushunAdventure/attack_effect", "", function (slot0)
@@ -492,7 +492,7 @@ function slot0.AddHitEffect(slot0, slot1)
 	slot0:ShakeScreen(slot0.gameUI)
 end
 
-function slot0.ShakeScreen(slot0, slot1)
+slot0.ShakeScreen = function(slot0, slot1)
 	if LeanTween.isTweening(slot1) then
 		LeanTween.cancel(slot1)
 	end
@@ -506,14 +506,14 @@ function slot0.ShakeScreen(slot0, slot1)
 	end))
 end
 
-function slot0.SpawnEnemys(slot0)
+slot0.SpawnEnemys = function(slot0)
 	slot1 = {
 		FushunBeastChar,
 		FushunEliteBeastChar,
 		FushunEliteBeastChar
 	}
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		slot2 = nil
 
 		for slot6, slot7 in ipairs(FushunAdventureGameConst.SPEED_ADDITION) do
@@ -544,7 +544,7 @@ function slot0.SpawnEnemys(slot0)
 	slot0.spawner:NormalMode()
 end
 
-function slot0.AddScore(slot0, slot1)
+slot0.AddScore = function(slot0, slot1)
 	slot0:AddCombo(1)
 
 	slot0.score = slot0.score + slot1 + (FushunAdventureGameConst.COMBO_SCORE_TARGET <= slot0.combo and FushunAdventureGameConst.COMBO_EXTRA_SCORE or 0)
@@ -553,11 +553,11 @@ function slot0.AddScore(slot0, slot1)
 	slot0.spawner:UpdateScore(slot0.score)
 end
 
-function slot0.AddEnergy(slot0, slot1)
+slot0.AddEnergy = function(slot0, slot1)
 	slot0.fushun:AddEnergy(slot1)
 end
 
-function slot0.AddCombo(slot0, slot1)
+slot0.AddCombo = function(slot0, slot1)
 	if slot1 > 0 then
 		slot2 = slot0.fushunLoader
 
@@ -585,7 +585,7 @@ function slot0.AddCombo(slot0, slot1)
 	setActive(slot0.comboTxt.gameObject.transform.parent, slot0.combo > 0)
 end
 
-function slot0.Action(slot0, slot1)
+slot0.Action = function(slot0, slot1)
 	if slot0.fushun:InvincibleState() then
 		slot0:AddScore(FushunAdventureGameConst.EX_CLICK_SCORE)
 	else
@@ -593,7 +593,7 @@ function slot0.Action(slot0, slot1)
 	end
 end
 
-function slot0.OnFushunAttack(slot0, slot1)
+slot0.OnFushunAttack = function(slot0, slot1)
 	if #slot0.key == 3 or slot0.fushun:IsMissState() or slot0.fushun:IsDamageState() then
 		return
 	end
@@ -636,16 +636,16 @@ function slot0.OnFushunAttack(slot0, slot1)
 	end
 end
 
-function slot0.PauseGame(slot0)
+slot0.PauseGame = function(slot0)
 	slot0.pause = true
 end
 
-function slot0.ResumeGame(slot0)
+slot0.ResumeGame = function(slot0)
 	slot0.pause = false
 end
 
-function slot0.ExitGame(slot0, slot1)
-	function slot2()
+slot0.ExitGame = function(slot0, slot1)
+	slot2 = function()
 		uv0:ClearGameScene()
 	end
 
@@ -688,7 +688,7 @@ function slot0.ExitGame(slot0, slot1)
 	end
 end
 
-function slot0.ClearGameScene(slot0)
+slot0.ClearGameScene = function(slot0)
 	if slot0.fushun then
 		slot0.fushun:Destory()
 
@@ -720,11 +720,11 @@ function slot0.ClearGameScene(slot0)
 	end
 end
 
-function slot0.IsStarting(slot0)
+slot0.IsStarting = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.countdownTimer then
 		slot0.countdownTimer:Stop()
 
@@ -751,7 +751,7 @@ function slot0.Dispose(slot0)
 	slot0.OnLevelUpdate = nil
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if IsUnityEditor then
 		if Input.GetKeyDown(KeyCode.A) then
 			slot0:OnShowBtnEffect("A", true)
@@ -775,7 +775,7 @@ function slot0.AddDebugInput(slot0)
 	end
 end
 
-function slot0.RegisterEventListener(slot0)
+slot0.RegisterEventListener = function(slot0)
 	slot1 = slot0.btnA
 	slot1 = slot1:GetComponent("EventTriggerListener")
 
@@ -821,11 +821,11 @@ function slot0.RegisterEventListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnShowBtnEffect(slot0, slot1, slot2)
+slot0.OnShowBtnEffect = function(slot0, slot1, slot2)
 	setActive(slot0["btn" .. slot1 .. "Effect"], slot2)
 end
 
-function slot0.ShowResultWindow(slot0, slot1)
+slot0.ShowResultWindow = function(slot0, slot1)
 	setActive(slot0.resultPanel, true)
 	onButton(slot0, slot0.resultCloseBtn, function ()
 		uv0:HideResultWindow()
@@ -843,11 +843,11 @@ function slot0.ShowResultWindow(slot0, slot1)
 	end
 end
 
-function slot0.HideResultWindow(slot0)
+slot0.HideResultWindow = function(slot0)
 	setActive(slot0.resultPanel, false)
 end
 
-function slot0.ShowPauseMsgbox(slot0)
+slot0.ShowPauseMsgbox = function(slot0)
 	slot0:PauseGame()
 	setActive(slot0.msgboxPanel, true)
 	setActive(slot0.pauseMsgboxWindow, true)
@@ -861,12 +861,12 @@ function slot0.ShowPauseMsgbox(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.HidePauseMsgbox(slot0)
+slot0.HidePauseMsgbox = function(slot0)
 	setActive(slot0.msgboxPanel, false)
 	setActive(slot0.pauseMsgboxWindow, false)
 end
 
-function slot0.ShowExitMsgbox(slot0)
+slot0.ShowExitMsgbox = function(slot0)
 	slot0:PauseGame()
 	setActive(slot0.msgboxPanel, true)
 	setActive(slot0.pauseMsgboxWindow, false)
@@ -892,20 +892,20 @@ function slot0.ShowExitMsgbox(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.HideExitMsgbox(slot0)
+slot0.HideExitMsgbox = function(slot0)
 	setActive(slot0.msgboxPanel, false)
 	setActive(slot0.exitMsgboxWindow, false)
 end
 
-function slot0.IsCollision(slot0, slot1)
+slot0.IsCollision = function(slot0, slot1)
 	return slot0.enabled and slot1.enabled and slot0.gameObject.activeSelf and slot0.bounds:Intersects(slot1.bounds)
 end
 
-function slot0.IsNearby(slot0, slot1)
+slot0.IsNearby = function(slot0, slot1)
 	return slot1.x - slot0.x <= 0
 end
 
-function slot0.LOG(...)
+slot0.LOG = function(...)
 	if uv0 then
 		print(...)
 	end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 4 - Cheer Up, Le Triomphant!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Le Triomphant and I were patrolling the port together.",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Le Triomphant and I were patrolling the port together.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "She seemed to be quite energetic today.",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "We had bumped into Erebus and Terror.",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			actor = 213010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			dir = -1,
 			say = "Thank you, Le Triomphant. After sortieing with you, Terror seems to be a lot more confident in herself.",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -187,14 +187,14 @@ return {
 			}
 		},
 		{
-			actor = 213010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 213010,
 			say = "I'm terribly sorry, but we're going to have to get going. Too much sunlight is bad for Terror's body. Terror, want to go get some sweets?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "With that, Erebus lead Terror off.",
 			typewriter = {
 				speed = 0.05,
@@ -263,14 +263,14 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 107020,
 			say = "Oh my, Le Triomphant? Are you on patrol with Commander today?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -313,8 +313,8 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			dir = 1,
 			say = "Eh? Ehhhh?! How'd you find me? I was gonna sneak up on Commander and get a real good reaction!",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -404,14 +404,14 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 801010,
 			say = "Being responsible...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -436,9 +436,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -450,9 +450,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Le Triomphant seemed a little down...",
 			typewriter = {
 				speed = 0.05,

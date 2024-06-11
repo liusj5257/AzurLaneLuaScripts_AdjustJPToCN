@@ -4,17 +4,17 @@ slot0.Battle.BattleBuffFixDamage = class("BattleBuffFixDamage", slot0.Battle.Bat
 slot0.Battle.BattleBuffFixDamage.__name = "BattleBuffFixDamage"
 slot1 = slot0.Battle.BattleBuffFixDamage
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._fixProb = slot0._tempData.arg_list.rant or 10000
 	slot0._fixValue = slot0._tempData.arg_list.value
 	slot0._fixRate = slot0._tempData.arg_list.rate
 end
 
-function slot1.onBeforeTakeDamage(slot0, slot1, slot2, slot3)
+slot1.onBeforeTakeDamage = function(slot0, slot1, slot2, slot3)
 	if not slot0:damageCheck(slot3) then
 		return
 	end

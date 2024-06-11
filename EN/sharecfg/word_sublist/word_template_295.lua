@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_295 = {}
 slot1 = slot0.word_template_295
 
-function temp()
+temp = function()
 	uv0["毋"] = {
 		["忘"] = {
 			this = true,
@@ -86,7 +86,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吾"] = {
 		["尔"] = {
 			["开"] = {
@@ -327,7 +327,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吴"] = {
 		["　"] = {
 			["仪"] = {
@@ -484,7 +484,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吳"] = {
 		["百"] = {
 			["益"] = {
@@ -572,7 +572,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["五"] = {
 		["百"] = {
 			["元"] = {
@@ -1272,7 +1272,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["午"] = {
 		["夜"] = {
 			this = true,
@@ -1335,7 +1335,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["伍"] = {
 		["凡"] = {
 			this = true

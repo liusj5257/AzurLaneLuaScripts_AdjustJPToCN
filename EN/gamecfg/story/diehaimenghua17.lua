@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 303180,
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "We haven't encountered a whole lot of enemies so far.",
 			bgm = "bsm-3",
+			actor = 303180,
+			nameColor = "#a9f548",
+			say = "We haven't encountered a whole lot of enemies so far.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Mm... I'm a little nervous, but I'm sure we'll be fine!",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -112,8 +112,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Yeah. It's fine to be vigilant, but don't let your nerves get the better of you.",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "Would you like some herbal tea? ...Unfortunately, there's not much of a selection left...",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"...Indeed. That sounds lovely...\"",
 			typewriter = {
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Voices ring out across the water. They are all trying to drown out the sense of anxiety and urgency from the imminent decisive battle.",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "The enemy vanguard fleet is approaching.",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "I've lost contact with several of the Eagle Union fleets. Trying to confirm the situation.",
 			typewriter = {
@@ -227,9 +227,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "Stay alert, and don't let your guard down.",
 			typewriter = {

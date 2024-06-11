@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.04
+					number = -0.04,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.046
+					number = -0.046,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.052
+					number = -0.052,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.06
+					number = -0.06,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.066
+					number = -0.066,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.072
+					number = -0.072,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.08
+					number = -0.08,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.086
+					number = -0.086,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.092
+					number = -0.092,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = -0.1
+					number = -0.1,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "确捷2",
 	time = 6,
+	name = "确捷2",
+	init_effect = "",
 	picture = "",
 	desc = "回避率下降",
 	stack = 1,

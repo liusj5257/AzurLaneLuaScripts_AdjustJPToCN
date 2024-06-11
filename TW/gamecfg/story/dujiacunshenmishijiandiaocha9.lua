@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "風波結束後又過去了數日，溫泉渡假村已經完全恢復了假日的氣息。",
 			bgm = "map-longgong",
+			say = "風波結束後又過去了數日，溫泉渡假村已經完全恢復了假日的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "入夜後前往結界內欣賞妖怪劇團的劇目，變成了一項在絕大多數同伴中備受好評的活動。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "然而，在某個清晨，假日辦公桌上出現了這樣一份文件——",
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "純路人喵",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "《渡假村神秘事件調查》——全劇終喵~",
 			painting = {
@@ -177,17 +177,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

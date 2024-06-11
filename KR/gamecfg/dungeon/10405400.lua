@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -82,8 +82,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 104009,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -118,8 +118,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104009,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -134,8 +134,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 104029,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -148,8 +148,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104029,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -174,8 +174,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 104009,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -188,8 +188,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104020,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								19,
 								0,
@@ -202,8 +202,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104020,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								19,
 								0,
@@ -216,8 +216,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104009,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -234,8 +234,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 314085,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								314521
@@ -260,8 +260,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 104006,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								2,
 								0,
@@ -273,8 +273,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104029,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								41,
 								0,
@@ -287,8 +287,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104015,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								18,
 								0,
@@ -300,8 +300,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104014,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								18,
 								0,
@@ -313,8 +313,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104029,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								41,
 								0,
@@ -331,8 +331,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 314083,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								314523
@@ -371,8 +371,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 104028,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -381,8 +381,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104021,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -411,8 +411,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 104029,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -425,8 +425,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104029,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,

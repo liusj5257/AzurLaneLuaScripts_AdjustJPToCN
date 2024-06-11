@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Heart Beneath the Smile\n\n<size=45>Chapter 5 - Chance Encounter</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Exercises with the Sakura Empire? Oh yes, I remember seeing those plans. However...",
 			bgm = "story-1",
+			actor = 204010,
+			nameColor = "#a9f548",
+			say = "Exercises with the Sakura Empire? Oh yes, I remember seeing those plans. However...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Renown strokes her chin as she ponders Repulse, who has just come back from Akashi's shop.",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "In a few days, the Royal Navy and the Sakura Empire will face off in war games. Renown and Repulse are both at the top of the list of Royal Navy participants.",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "That's for sure. Things will get tight around here, but what else can we do—",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Repulse suddenly throws out her arms, speaking in that bright, cheery tone of hers.",
 			typewriter = {
 				speed = 0.05,
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "Let me handle everyone's training. Then we won't have to lean on Renown. I'll pound 'em all flat myself!",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "Of course! You just stay here and help the Commander! Leave the training to me!",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Repulse has the right idea. This way, we'll be able to tackle the paperwork and the exercises at the same time.",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "But even if we didn't, we could still get it done. So why would Repulse, my designated secretary, come up with this plan?",
 			typewriter = {
 				speed = 0.05,
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I did think she seemed a little off when she left the office.",
 			typewriter = {
 				speed = 0.05,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I wonder if she's doing this for Renown...",
 			typewriter = {
 				speed = 0.05,
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 204010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204010,
+			nameColor = "#a9f548",
 			say = "Ah!",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Renown's eyes grow wide with a sudden realization.",
 			typewriter = {
 				speed = 0.05,

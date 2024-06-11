@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "qe-ova-9",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg34",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-34",
-			actorName = "TB",
+			dir = 1,
+			bgm = "qe-ova-9",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Tadaaah! Look at all this! I'm running the place pretty well, wouldn'tcha say?",
 			painting = {
@@ -23,14 +23,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg34",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "It's exhausting work day in and day out, but it's more fulfilling and fun than any other job out there!",
 			voice = "event:/educate/tb/educate-tb-story-33-35",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "It's exhausting work day in and day out, but it's more fulfilling and fun than any other job out there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg34",
 			hidePaintObj = true,
 			say = "After graduating, TB yearned for a very different lifestyle, and so she took over a farm.",
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg34",
 			hidePaintObj = true,
 			say = "The farm had been in decline for some time, but she slowly turned it around with hard, honest work. It's now more prosperous than ever.",
@@ -63,14 +63,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg34",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hey, think you could help out with a few things? It's a good workout and builds muscle, too.",
 			voice = "event:/educate/tb/educate-tb-story-33-36",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hey, think you could help out with a few things? It's a good workout and builds muscle, too.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,14 +81,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg34",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Oh, I'll pay you for the trouble, of course!",
 			voice = "event:/educate/tb/educate-tb-story-33-37",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Oh, I'll pay you for the trouble, of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,14 +111,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg34",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Heheh. Alright, then be a dear and feed ol' Daisy here.",
 			voice = "event:/educate/tb/educate-tb-story-33-38",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Heheh. Alright, then be a dear and feed ol' Daisy here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg34",
 			hidePaintObj = true,
 			say = "Her ponytail flutters for a little as a calm breeze blows by.",
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg34",
 			hidePaintObj = true,
 			say = "What wonderful weather we're having today.",

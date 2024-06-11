@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENG03",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHANCHENG03",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "Cold-water swim meet, huh... That reminds me, I had to do a purification ritual like that last New Year's... ",
 			typewriter = {
 				speed = 0.05,
@@ -35,8 +35,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "I suppose... I have been a bit lazy recently...",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "Milord did give me a swimsuit for the summer...",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "If I remember correctly, it should be over here...",
 			typewriter = {
 				speed = 0.05,
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			actorName = "{namecode:79}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "Huh? It's not here...?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

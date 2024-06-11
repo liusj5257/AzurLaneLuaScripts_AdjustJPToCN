@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鉄血浮島要塞周辺",
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
 			dir = 1,
 			bgm = "bsm-5",
+			say = "鉄血浮島要塞周辺",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "ようこそ鉄血の秘密基地・浮島要塞実験場へ！案内任務って潜航任務と比べるとおしゃべりできる相手がいて楽しいね～！",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "ここが目的地ですか？すみません、鉄血の施設らしきものは見当たらないのですが…",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "そうですね…U-37、本当にここであっているのでしょうか…？",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "もしかして秘密基地って、もっと小さくて可愛くて、この廃墟のどこかにあるオフニャハウスみたいなものですか？",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 401240,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401240,
+			nameColor = "#a9f548",
 			say = "ククク…闇に隠されし恐怖の真実を見通せる目を持たんとは…やっぱり凡愚はこの魔王（デビルロード）たる我に及ばんのだ",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "や、闇に隠されし…恐怖の真実……！",
 			typewriter = {
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 402050,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 402050,
+			nameColor = "#a9f548",
 			say = "ひぃ！？ニーシェだけが知っている場所ってこと！？",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "ニーシェと呼ぶな！…コホン、暗闇に隠されし瞳、確かに我はすでにそこを知っている",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "？？？",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "だがあれは蠱惑の魔眼の持ち主でも知り得ぬ真実。闇が光を飲み込むまではモータルなどには永遠に――",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -266,8 +266,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "お、オイゲン！？",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "ここは昔鉄血が掌握した海域でしたけど、セイレーンが現れたときにあっという間に奪われました",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "そして戦略的な価値が低いし航路からも離れていたから、ずっと奪還せずに放置していたんですよね",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "それを知るにはもう少し前に進まないとね～今見えているのは真実を隠すための幻にすぎないんだから！",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "一体どういう技術を使って秘密基地を…",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -483,8 +483,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "（オイゲン、ちょっといい？出迎えてくれる人が見当たらないけど…）",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "（えっ！いいの？今日飛行場施設の点検をやるって聞いたけど…）",
 			typewriter = {
@@ -565,8 +565,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "（て、適当ですね…）",
 			typewriter = {
@@ -614,8 +614,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "はいよー。ここは大洋の島々を利用して作られた鉄血の秘密基地、それぞれの島・区画には役割があって…",
 			typewriter = {
@@ -628,11 +628,11 @@ return {
 			}
 		},
 		{
-			actor = 408100,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408100,
+			nameColor = "#a9f548",
 			say = "って今話してもしょうがない！防衛システムを作動させたら大変だから、とにかくあたしにしっかりついてきてね！",
 			typewriter = {
 				speed = 0.05,
@@ -644,8 +644,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU27",
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
 			bgName = "bg_story_task",
-			asideType = 3,
-			typewriterTime = 0.05,
 			bgmDelay = 1,
 			bgm = "theme-vichy-church",
+			mode = 1,
+			asideType = 3,
+			typewriterTime = 0.05,
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "The clock ticked over silently to the new day.",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "The Cardinal was asleep at her desk, exhausted after what had transpired.",
 			typewriter = {
@@ -58,9 +58,9 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
-			side = 2,
 			bgName = "bg_firedust_5",
+			side = 2,
+			dialogueBgAlpha = 0.6,
 			nameColor = "#A9F548FF",
 			say = "█ █ █ █ █ █ █ █ █",
 			typewriter = {
@@ -69,23 +69,23 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -112,13 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 805010,
-			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
+			dir = 1,
+			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...A black sun, descending into the world of Man.",
 			painting = {
 				alpha = 0.3,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "█ █ █ █ █",
+			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#BDBDBD",
 			dialogueBgAlpha = 0.6,
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "█ █ █ █ █",
+			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#BDBDBD",
 			dialogueBgAlpha = 0.6,
@@ -192,13 +192,13 @@ return {
 			}
 		},
 		{
-			actor = 805010,
-			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
+			dir = 1,
+			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Who goes there? May I ask you to show yourself?",
 			painting = {
 				alpha = 0.3,
@@ -210,14 +210,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "█ █ █ █ █",
-			actor = 905010,
 			nameColor = "#BDBDBD",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 905010,
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "█▊▇▊▇▅▁▂▋▄▊▌█▌",
 			painting = {
@@ -254,14 +254,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "█ █ █ █ █",
-			actor = 905010,
 			nameColor = "#BDBDBD",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 905010,
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "█▎■Be▋▂▁▅▎▌ware▇▊▇",
 			painting = {
@@ -274,13 +274,13 @@ return {
 			}
 		},
 		{
-			actor = 805010,
-			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
+			dir = 1,
+			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Beware? Beware of what?!",
 			painting = {
 				alpha = 0.3,
@@ -292,14 +292,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			actorName = "█ █ █ █ █",
+			dialogueBgAlpha = 0.6,
 			actor = 905010,
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "█▆▎Come█▎█",
 			painting = {
@@ -312,14 +312,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			actorName = "█ █ █ █ █",
+			dialogueBgAlpha = 0.6,
 			actor = 905010,
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "█▎█▎to▅█▎█▎▌me▅▎▌█",
 			painting = {
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Jean... Bart...",
 			painting = {
 				alpha = 0.3,
@@ -397,10 +397,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Just now... was I dreaming...?",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That... was just a dream... right?",
 			painting = {
 				alpha = 0.3,

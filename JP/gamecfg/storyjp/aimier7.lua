@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"踊り子天使エミール\n\n<size=45>七 エミールのロマン論·下</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			actor = 802010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "ロマンとは見せつけられるものなんかじゃなくて、相手がわかるように伝える想いなんだと、私は思うわ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -83,9 +83,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "エミールは微笑んでこっちの手を両手で握りしめた。",
 			typewriter = {
 				speed = 0.05,
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "エミールの言葉から愛しさとロマンを感じた。",
 			typewriter = {
 				speed = 0.05,
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "握りしめた手の片方が離され、もう片方の手でこっちの手を引いて二、三歩、軽やかなステップを踏み――",
 			typewriter = {
 				speed = 0.05,
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "指揮官は、最後まで付き合ってくださるかしら？",
 			typewriter = {
 				speed = 0.05,

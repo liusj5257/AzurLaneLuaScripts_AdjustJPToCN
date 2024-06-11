@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シリアス改造計画\n\n<size=45>七 夜空を照らす青星の輝き</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "戦闘はものの数分で終わった。",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "戦闘はものの数分で終わった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "セイレーンの出現海域に到着した時、セイレーンは既に残骸となって海面に漂っていた。",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "なによ！私の本隊の出番が奪われたじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -122,17 +122,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "…………しかし、さすがは対空能力を強化したダイドー級、といったところね",
 			bgm = "story-2",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "…………しかし、さすがは対空能力を強化したダイドー級、といったところね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "あのシリアスならきっとできる――彼女への信頼がパーティー会場で決断させてくれた。",
 			typewriter = {
 				speed = 0.05,
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "そしてその決断は正しかった。それだけだ。",
 			typewriter = {
 				speed = 0.05,
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "こうして、白き薔薇のドレスをまとったシリアスは帰還した。",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様、御身が進む道はシリアスが掃除してまいりました",
 			typewriter = {
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 202201,
+			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "彼女は静かに、そして優雅に手をこちらに差し伸ばした。",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "お望みとあらば、シリアスは誰よりももっと輝く、美しくなってみせます",
 			typewriter = {

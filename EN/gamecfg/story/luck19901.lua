@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK19901",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK19901",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199010,
 			dir = 1,
+			actor = 199010,
 			say = "Y'know, I've been thinkin' it's time to get everyone together and throw the most hype party ever!",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199010,
 			dir = 1,
+			actor = 199010,
 			say = "Buuut... Feels like we're not 100% done, y'know? Like we've still got some potential left in me to wring out.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199010,
 			dir = 1,
+			actor = 199010,
 			say = "So let's put that party to end all parties on hold for now and just have ourselves a medium-sized one instead.",
 			typewriter = {
 				speed = 0.05,

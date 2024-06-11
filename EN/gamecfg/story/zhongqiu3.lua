@@ -1,11 +1,11 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHONGQIU3",
-	once = true,
 	fadeType = 1,
-	fadein = 1.5,
+	once = true,
+	id = "ZHONGQIU3",
 	updateOnBegin = 1,
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 502010,
@@ -132,47 +132,13 @@ return {
 			}
 		},
 		{
-			actor = 201100,
-			side = 2,
-			actorName = "？？？",
-			nameColor = "#a9f548",
-			dir = -1,
-			withoutPainting = true,
 			say = "I've already changed into my swimsuit, don't be shy now, Hood~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204030,
-			side = 1,
-			actorName = "？？？",
-			nameColor = "#a9f548",
-			dir = -1,
-			withoutPainting = true,
-			say = "I said I'll only accompany you to the beach, I didn't promise you that I'll change into a swimsuit. Also, swimming in cold waters during the Autumn season is no demeanor of a lady.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201100,
 			side = 2,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "Sister Hood…but I saw you only yesterday practicing on your swimming in the sea, so----",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,13 +149,13 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			say = "I said I'll only accompany you to the beach, I didn't promise you that I'll change into a swimsuit. Also, swimming in cold waters during the Autumn season is no demeanor of a lady.",
 			side = 1,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "Cy-g-net!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,13 +166,47 @@ return {
 			}
 		},
 		{
+			say = "Sister Hood…but I saw you only yesterday practicing on your swimming in the sea, so----",
+			side = 2,
+			actorName = "？？？",
+			dir = -1,
 			actor = 201100,
+			nameColor = "#a9f548",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "Cy-g-net!!!!",
+			side = 1,
+			actorName = "？？？",
+			dir = -1,
+			actor = 204030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "Ahhhh!!!",
 			side = 0,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "Ahhhh!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

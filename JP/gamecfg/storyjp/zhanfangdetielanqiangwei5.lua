@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHANFANGDETIELANQIANGWEI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHANFANGDETIELANQIANGWEI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ほころぶアイアンローズ\n\n<size=45>5 ザイドリッツと草原と</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "バーチャルリアルアトラクションに訪れて、ザイドリッツとデバイスを装着した。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-7",
+			nameColor = "#A9F548FF",
+			say = "バーチャルリアルアトラクションに訪れて、ザイドリッツとデバイスを装着した。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "視界に現れた果てしない草原。まるで夢のような光景に、思わず息を漏らす。",
 			typewriter = {
@@ -59,10 +59,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なんて広い…",
 			painting = {
 				alpha = 0.3,
@@ -77,10 +77,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まるで海のように地平線の彼方まで続く草原って本当なんですね……",
 			painting = {
 				alpha = 0.3,
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "実際の風景を見事に再現したバーチャルの世界――ザイドリッツはかなり感動しているようだ。",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "上官殿、実は…本物の草原は見たことがありませんでした",
 			painting = {
 				alpha = 0.3,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,10 +143,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "興味はありますが、自分が持っている知識は本や写真からのものだけです",
 			painting = {
 				alpha = 0.3,
@@ -161,10 +161,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それがこうして広大な野原を縦横無尽に駆けられるなんて、バーチャルのものとはいえ、今とても感激しています",
 			painting = {
 				alpha = 0.3,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "ザイドリッツは目をキラキラとさせている。本当に嬉しそうでほっとした。",
 			typewriter = {
@@ -195,10 +195,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "自由に駆け巡ること、ですか？",
 			painting = {
 				alpha = 0.3,
@@ -213,10 +213,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……そうですね…申し訳ございません、上官殿、まだなんとも言えません",
 			painting = {
 				alpha = 0.3,
@@ -231,10 +231,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私は自由に駆け巡るより、仲間と上官殿の期待を背負って生きてきました",
 			painting = {
 				alpha = 0.3,
@@ -246,12 +246,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "時々リュッツォウからそんなの疲れないかって言われたりしますが…それでも私にとって頑張り甲斐のある人生です",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "自分の気持ちだというのに、どうしても仲間と上官殿にちゃんと応えられるか気になってしまって",
 			painting = {
 				alpha = 0.3,
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "気づいたら空回りし続けることも……上官殿はそんな風に感じる時はありますか？",
 			painting = {
 				alpha = 0.3,
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "……………………",
 			typewriter = {
@@ -318,13 +318,13 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とてもそうは見えないのに…さすが上官殿です",
 			painting = {
 				alpha = 0.3,
@@ -358,10 +358,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "上官殿、話を聞いていただきありがとうございます！自分なりの答えを出すためにもう少し考えてみます！",
 			painting = {
 				alpha = 0.3,
@@ -376,10 +376,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………それより、狩り甲斐のある獲物、さっそく現れましたね！",
 			painting = {
 				alpha = 0.3,
@@ -391,8 +391,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -401,8 +401,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,10 +414,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "上官殿、一緒にそいつをとっ捕まえに行きましょう！",
 			painting = {
 				alpha = 0.3,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "吹っ切れたように意気揚々としたザイドリッツにつられて、こちらも草むらを蠢く獲物目当てに駆け始めた。",
 			typewriter = {
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "ザイドリッツの切り替えの早さに舌を巻きながら、ふとある考えが頭をよぎる。",
 			typewriter = {
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "もしかして彼女を悩ませているものって…",
 			typewriter = {

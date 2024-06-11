@@ -4,20 +4,20 @@ slot0.PAGE_ADVENTURE = 2
 slot0.PAGE_GUARDIAN = 3
 slot1 = slot0.PAGE_PERSONAL
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "OtherworldTerminalUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.windowTF = slot0:findTF("window")
 	slot0.togglesTF = slot0:findTF("toggles", slot0.windowTF)
 	slot0.adventureTipTF = slot0:findTF("2/tip", slot0.togglesTF)
@@ -45,7 +45,7 @@ function slot0.findUI(slot0)
 	}
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0:findTF("close_btn", slot0.windowTF), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
@@ -81,7 +81,7 @@ function slot0.addListener(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	if (slot0.contextData.page or uv0) == uv1.PAGE_PERSONAL and not slot0.personalPage then
 		slot1 = uv1.PAGE_ADVENTURE
 	end
@@ -90,7 +90,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateAdventureTip()
 end
 
-function slot0.SwitchPage(slot0)
+slot0.SwitchPage = function(slot0)
 	for slot4, slot5 in pairs(slot0.pages) do
 		if slot4 == slot0.curPageIdx then
 			slot5:ExecuteAction("Show")
@@ -102,23 +102,23 @@ function slot0.SwitchPage(slot0)
 	end
 end
 
-function slot0.UpdateAdventurePtAct(slot0, slot1)
+slot0.UpdateAdventurePtAct = function(slot0, slot1)
 	slot0.pages[uv0.PAGE_ADVENTURE]:ExecuteAction("UpdatePt", slot1)
 end
 
-function slot0.UpdateAdventureTip(slot0)
+slot0.UpdateAdventureTip = function(slot0)
 	setActive(slot0.adventureTipTF, TerminalAdventurePage.IsTip())
 end
 
-function slot0.UpdateAdventureTaskAct(slot0, slot1)
+slot0.UpdateAdventureTaskAct = function(slot0, slot1)
 	slot0.pages[uv0.PAGE_ADVENTURE]:ExecuteAction("UpdateTask", slot1)
 end
 
-function slot0.UpdateGuardianAct(slot0, slot1)
+slot0.UpdateGuardianAct = function(slot0, slot1)
 	slot0.pages[uv0.PAGE_GUARDIAN]:ExecuteAction("UpdateView", slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()
 

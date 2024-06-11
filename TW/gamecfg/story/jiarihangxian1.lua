@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>新的邂逅就在眼前</size>",
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -51,8 +51,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			bgm = "doa_story1",
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "某日，一封奇怪的信件被擺在了指揮室的辦公桌上。",
+			dir = 1,
+			bgm = "doa_story1",
 			effects = {
 				{
 					active = false,
@@ -113,9 +113,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "沒錯，只能用“一頭霧水”來形容。",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "莫非只是單純的惡作劇信件？在這種不著邊際的事情上花費過多的心力似乎也有點——",
 			typewriter = {
 				speed = 0.05,
@@ -189,11 +189,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "啊，對了！被指揮官這裡的奇怪信件吸引了注意力，差點忘了正事！",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -267,9 +267,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "看來不是單純的惡作劇，也不是單純的巧合了……",
 			typewriter = {
 				speed = 0.05,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "光是在這猜也不是辦法呢…指揮官！讓我們幾個去實地考察一下吧！",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "正如標槍所言，在這盲猜也不是辦法。派遣靈活的驅逐執行偵察任務也算合情合理……",
 			typewriter = {
 				speed = 0.05,
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "太好啦~那我們就立馬準備出發吧！Z23、{namecode:6}、拉菲！",
 			typewriter = {
 				speed = 0.05,
@@ -359,8 +359,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -368,10 +368,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 101170,
 			dir = 1,
 			hideOther = true,
 			actorName = "拉菲&{namecode:6}",
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -403,11 +403,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "等、等等！這可是正經的調查任務！可不是去玩的啊！",
 			typewriter = {
 				speed = 0.05,
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500

@@ -1,6 +1,6 @@
 slot0 = class("GraftingActivityOpCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivityById(slot1:getBody().id) or slot5:isEnd() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
@@ -38,11 +38,11 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.IsBuildShipType(slot0, slot1)
+slot0.IsBuildShipType = function(slot0, slot1)
 	return slot1 == ActivityConst.ACTIVITY_TYPE_BUILDSHIP_1 or slot1 == ActivityConst.ACTIVITY_TYPE_BUILD or slot1 == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
 end
 
-function slot0.UpdateActivityForBuildShip(slot0, slot1)
+slot0.UpdateActivityForBuildShip = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy)
 	slot3 = slot2:getActivityById(slot1)
 	slot3.data2 = slot3.data2 + 1

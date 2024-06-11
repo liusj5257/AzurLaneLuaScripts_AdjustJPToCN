@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行6次攻击，触发全弹发射-特伦托级II"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 25214,
 	picture = "",
 	desc = "主炮每进行6次攻击，触发全弹发射-特伦托级II",
 	stack = 1,
-	id = 25214,
+	color = "red",
 	icon = 20200,
 	last_effect = "",
 	effect_list = {
@@ -19,10 +19,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				maxWeaponNumber = 0,
-				skill_id = 25217,
 				target = "TargetSelf",
+				maxWeaponNumber = 0,
 				check_weapon = true,
+				skill_id = 25217,
 				label = {
 					"RN"
 				}
@@ -34,10 +34,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 25218,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 25218,
 				label = {
 					"RN"
 				}

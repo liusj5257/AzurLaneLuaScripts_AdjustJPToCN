@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 408080,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "帶了這麼多深水炸彈，魔鬼",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "…唔…U-556還沒來——",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 		{
 			actor = 201010,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "等——！？",
 			dialogShake = {
 				speed = 0.09,
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "嗯嗯。感謝分享有趣的情報",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			say = "明明妳自己也是半斤八兩！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -291,8 +291,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "大鬥犬伸出食指，指著半個腦袋已經潛入水中的U-110。",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "話說完了，U-110可以回去了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			say = "怎麼可能放妳回去啊？！！！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "不行嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			say = "…不行！真是的，這傢伙怎麼一點緊張感都沒有啊！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

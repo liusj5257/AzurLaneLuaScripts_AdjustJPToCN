@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508G",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508G",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900287,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-arbitrator-type1",
 			dir = 1,
 			say = "XIV는 실험체의 후방 함대를 즉각 제압했다. VIII 포메이션 변경. 잔불에 숨 돌릴 틈을 주지 마라.",
+			bgm = "battle-arbitrator-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

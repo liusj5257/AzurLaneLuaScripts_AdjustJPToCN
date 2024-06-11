@@ -1,21 +1,21 @@
 slot0 = class("IdolMedalCollectionView3", import(".IdolMedalCollectionView2"))
 
-function slot0.GetContainerPositions(slot0)
+slot0.GetContainerPositions = function(slot0)
 	return {
 		0,
 		100
 	}
 end
 
-function slot0.GetActivityID(slot0)
+slot0.GetActivityID = function(slot0)
 	return ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_3
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IdolMedalCollectionUI3"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setActive(slot0:findTF("1", slot0.bg), math.random() >= 0.5)
 	setActive(slot0:findTF("2", slot0.bg), slot1 < 0.5)
 	uv0.super.didEnter(slot0)
@@ -27,7 +27,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.IsShowMainTip(slot0)
+slot0.IsShowMainTip = function(slot0)
 	return Activity.IsActivityReady(slot0)
 end
 

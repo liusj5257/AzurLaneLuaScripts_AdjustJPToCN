@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Thinking",
 			say = "母港・ライブ海域",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Thinking",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,9 +52,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ふむふむ……なるほど……つまり、ここからは一気にステージまで突進しちゃえばいいんだね！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -91,8 +91,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,9 +118,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10700060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "元の世界にいざ凱旋！って感じで、亜美たちの大勝利は間違いなしだね♪",
 			effects = {
 				{
@@ -140,9 +140,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "勝利宣言するにはまだ早いわよ、亜美。今は目の前の「ニセモノ」に集中しなさい！",
 			effects = {
 				{
@@ -193,8 +193,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			say = "ありがとうございます～今日は長丁場になりそうですね",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			say = "ええ、それに私たちのライブは指揮官さまに全部見られますもの、最初から全力だと体力が持ちませんわ～",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10700030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ちょっと、いつから見られてるのよ！？聞いてないわよ、そんなこと！",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			say = "（指揮官に見られることが艦船たちにとっての良い刺激なのかもしれないわね……）",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			say = "……！",
 			typewriter = {
 				speed = 0.05,

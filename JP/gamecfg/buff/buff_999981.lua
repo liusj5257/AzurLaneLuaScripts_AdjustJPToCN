@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "肉鸽引导1 平射护盾",
 	time = 999,
+	name = "肉鸽引导1 平射护盾",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 9999,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -49,9 +49,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 9999,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -82,9 +82,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 9999,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

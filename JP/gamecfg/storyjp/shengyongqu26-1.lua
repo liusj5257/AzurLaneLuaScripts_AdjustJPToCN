@@ -1,13 +1,13 @@
 return {
-	id = "SHENGYONGQU26-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU26-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "アイリス聖堂",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "はい、仮に鉄血の予備戦力が待っていようと、お互い総力戦を行う段階でこちらの索敵に引っかからないことはないでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "なにか理由があるかもしれませんが、今はそれを推察するより、敵の無力化に集中すべきでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "私たちにも、譲れないものがあります",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "最後にアルジェリーたちに会って来ます",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "仮に本気で戦うとしても、向こうの決意を確かめてからにしないと。これは同じ神を敬う私たちの成すべきことです",
 			typewriter = {
 				speed = 0.05,

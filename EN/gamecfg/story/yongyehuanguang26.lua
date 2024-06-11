@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG26",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-4",
 			say = "Barents Sea - Royal Navy Supporting Fleet",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Sheffield, Perseus, and Vampire led the support fleet in the direction of the Iron Blood's \"main fleet.\"",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 2500
@@ -134,11 +134,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 206060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Sheffy, look out!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,10 +149,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/wave",
 			say = "One of Perseus's planes dove towards Deutschland, releasing a bomb at the Iron Blood ship to preempt her attack. However...",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/wave",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 202080,
 			dir = 1,
+			hideOther = true,
 			actorName = "Sheffield & Perseus",
 			say = "What...?!",
 			subActors = {
@@ -190,8 +190,8 @@ return {
 		{
 			actor = 403040,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "Hehehe... Ahahahahaa!!",
 			dialogShake = {
 				speed = 0.09,
@@ -217,8 +217,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 403040,
 			dir = 1,
+			actor = 403040,
 			say = "Did you see that, lowly swine? This is why Iron Blood technology is the best in the world!",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The bomb phased through Deutschland's translucent body, and disappeared into the ocean without a trace.",
 			effects = {
 				{
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "—But not just Deutschland. Tirpitz, the Scharnhorst sisters, and Graf Spee... The entire Iron Blood main fleet vanished as if they had never been there in the first place.",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In their place, only a few mass-produced ships remained...",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "Their fleet... disappeared?",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "Sheffield, your deductions ended up being accurate...",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 201230,
 			dir = 1,
+			hideOther = true,
 			actorName = "Vampire & Sheffield",
 			say = "...Huh?",
 			subActors = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "Err, I meant, I'll go contact the other fleets. Please mop up the stragglers here.",
 			typewriter = {
 				speed = 0.05,

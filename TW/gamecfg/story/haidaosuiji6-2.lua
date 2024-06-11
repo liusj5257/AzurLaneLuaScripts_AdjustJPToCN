@@ -5,8 +5,8 @@ return {
 	fadein = 1,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "眾人在漆黑的曲折洞穴裡走了許久，忽然——",
 			typewriter = {
 				speed = 0.05,
@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "綾波",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "等等……大家先停一下，似乎有奇怪的聲音……！",
 			typewriter = {
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "——從洞穴的身處傳來一聲巨大的動物怒吼聲。",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "好、好像惹到洞穴的主人了……！快跑呀！",
 			typewriter = {

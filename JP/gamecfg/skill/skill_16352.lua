@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "生效弹条",
 	cd = 0,
-	painting = 1,
-	id = 16352,
 	picture = "0",
 	desc = "",
+	painting = 1,
+	id = 16352,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,9 +16,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},

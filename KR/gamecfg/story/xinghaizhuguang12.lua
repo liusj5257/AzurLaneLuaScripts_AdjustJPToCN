@@ -43,20 +43,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "가상 세계 \"???\" - ???",
 			bgm = "theme-ucnf-beacon",
+			say = "가상 세계 \"???\" - ???",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "눈과 얼음으로 뒤덮인 세계가 사람들의 눈앞에 나타났다.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "그 외에도 가장 눈에 띄는 건 멀리서 보이는 금속과 차가운 얼음으로 이루어진 거대한 구조물이었다.",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "마치 왕관의 모습이었다.",
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...리얼리티 렌즈가 정상적으로 작동한 것 같아. 성공적으로 데이터 블록에 도달했어!",
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -306,11 +306,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
-			bgName = "bg_hms_0",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			bgName = "bg_hms_0",
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "혹시 눈치챘어? 이곳의 왕관은 우리가 알고 있는 왕관과 달라.",
@@ -323,17 +323,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -341,11 +341,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "확실히 좀 다르긴 하네요... 멀리서 보니 내부에 에너지로 가득찬 모습이 마치... 작동 중인 특이점 같은데요?",
@@ -587,11 +587,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만 우리가 흔히 알고 있는 왕관은 이런 모습이 아닌데...",
@@ -605,11 +605,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "왕관은 사실 자연적으로 발생한 특이점이 아니라 메탈 블러드의 미드가르드 탑과 같은 인공 특이점과 유사해서 열고 닫는 게 가능한 거 아닐까요?",
@@ -623,11 +623,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그게 아니면... 왕관이 탄생한 뒤 한동안 정상적으로 작동하다가 어떠한 이유로 완전히 닫혔거나…？",
@@ -641,11 +641,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "왕관을 실제로 조사하기 전까지는 결론을 내릴 수 없어.",
@@ -754,13 +754,13 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
+			say = "콰과광——",
 			side = 2,
 			bgName = "bg_hms_0",
-			hidePaintObj = true,
+			soundeffect = "event:/battle/boom1",
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			seDelay = 0.5,
-			say = "콰과광——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,8 +772,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "갑작스런 굉음이 고요한 밤하늘을 깨뜨리더니 컨스텔레이션의 깊은 생각을 방해했다.",
@@ -802,11 +802,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그건… 어, 저기 좀 보세요. 지평선에 검은색 토네이도가 나타났어요!",
@@ -820,8 +820,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "찾을 필요도,  자세히 확인할 필요도 없었다.",
@@ -831,8 +831,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "첫 번째 굉음이 들린 후 눈 깜짝할 사이에 검은 폭풍의 거대한 벽이 지평선에 우뚝 솟아있었다.",
@@ -842,8 +842,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "그 순간 폭풍은 무서운 속도로 커졌고 왕관의 광채마저 점차 폭풍 속으로 희미해져갔다.",
@@ -891,27 +891,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_starsea_core_3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_starsea_core_3",
 			say = "그 시각, 별의 바다의 심장 통제실.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -995,8 +995,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_3",
 			hidePaintObj = true,
 			say = "통제실의 경보음이 요란하게 울리고, 무수히 깜빡이는 빨간색 프레임이 상황의 위급함을 보여주고 있다.",
@@ -1025,8 +1025,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1206,8 +1206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,18 +1,18 @@
 return {
-	id = "WEICENGHUNHE20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE20",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_underwater",
-			say = "運河要塞？・外洋？",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			nameColor = "#a9f548",
+			say = "運河要塞？・外洋？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
 			say = "イントレピッドたちが運河要塞に到着する前――",
@@ -50,8 +50,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "よ、ようやく撒いた…早くみんなにセイレーンの状況を知らせなくちゃ！",
 			typewriter = {
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
+			dir = 1,
 			say = "―――・―――・―――",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "あれは‥…！！！！",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_4",
 			dir = 1,
 			say = "妖しい光を放つ漆黒の影――無数のセイレーン潜水艦が運河要塞に向かおうとしていた。",
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_4",
+			dir = 1,
 			say = "……量産型セイレーンがまるで回遊魚群のように同じ方向に向かって行進しているその様は、なんともおぞましい光景だった。",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ブルーギル",
+			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -148,9 +148,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_4",
+			dir = 1,
 			say = "運河要塞からそう遠くない距離かもしれない。だがセイレーンの「魚群」にバレずに追い越すのは、間違いなく不可能だ。",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ブルーギル",
+			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ブルーギル",
+			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ブルーギル",
+			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -210,13 +210,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_underwater",
+			side = 2,
+			dir = 1,
 			say = "岩礁の裏に隠れ、小さな狩人が狙いを定めた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -241,11 +241,11 @@ return {
 			}
 		},
 		{
-			actor = 108040,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108040,
+			nameColor = "#a9f548",
 			say = "噂の中枢艦に違いない！あいつさえ倒せばセイレーンたちの指揮系統が動かなくなって、そうなったらこっちの勝ちだ！",
 			typewriter = {
 				speed = 0.05,
@@ -264,8 +264,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "そう！この勝利は「ブルーギル・スナイプ・ヴィクトリー」と呼ぶことにする！",
 			typewriter = {
@@ -282,17 +282,17 @@ return {
 			}
 		},
 		{
-			actor = 108040,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108040,
+			nameColor = "#a9f548",
 			say = "あ、あれ？この白い靄は一体…なんで海の中でもこんな霧みたいのがあるの！？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "一体……わわわ！？",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "うわああああああ！！",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 40,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
+			dir = 1,
 			say = "視界が真っ白になり、まるで渦の中に放り込まれたかのように激流に襲われる。",
 			typewriter = {
 				speed = 0.05,
@@ -371,13 +371,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
+			dir = 1,
 			say = "そしてしばらくして海が鎮まり――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -411,8 +411,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "あいててて…あれ？セイレーン艦隊は？ここは一体…",
 			typewriter = {
@@ -429,11 +429,11 @@ return {
 			}
 		},
 		{
-			actor = 108040,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108040,
+			nameColor = "#a9f548",
 			say = "あそこにいるのは…イントレピッドさん！？",
 			typewriter = {
 				speed = 0.05,

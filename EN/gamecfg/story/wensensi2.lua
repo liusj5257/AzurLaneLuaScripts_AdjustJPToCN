@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Sister's Growth Spurt?!\n\n<size=45>Chapter 2: My Sister's Troubles</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Eagle Union Dorms",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Eagle Union Dorms",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I received another invitation from Vincennes to the Eagle Union Dorms.",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			say = "Astoria... why are you doing this too...",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Astoria... why are you doing this too...",
+			actor = 103100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Vincennes' objections were quickly silenced by the spoonfuls of cake that Astoria fed her.",
 			typewriter = {
 				speed = 0.05,
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "Commander, help me...",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "From the side, Astoria was watching Vincennes with a... \"happy\" smile?",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Astoria, your aura seems to have... darkened a few shades?",
 			typewriter = {
 				speed = 0.05,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Upon saying that, Astoria threw herself around Vincennes and squeezed her hard.",
 			typewriter = {
 				speed = 0.05,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Somehow, I started getting the feeling that Astoria and Portland could become really good friends...",
 			typewriter = {
 				speed = 0.05,

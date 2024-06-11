@@ -29,9 +29,9 @@ return {
 	{
 		time = 10
 	},
-	time = 5,
 	name = "彩虹计划",
 	init_effect = "jinengchufablue",
+	time = 5,
 	picture = "",
 	desc = "完全闪避",
 	stack = 1,
@@ -54,8 +54,8 @@ return {
 			},
 			arg_list = {
 				group = 10051,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		}
 	}

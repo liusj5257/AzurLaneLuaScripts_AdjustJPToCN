@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"아브로라와 유쾌한 동료들\n\n<size=45>4. 똑같은 ‘노병’</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "기묘한 조합이 모여 사쿠라 엠파이어의 녹차를 마시고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "오오, 이게 바로 말로만 듣던 사쿠라 엠파이어의 말차구나!",
 			typewriter = {
@@ -81,8 +81,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "가끔 이렇게 심심한 것을 먹은 것도 좋구만.",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "맞아. 우리는 전부 늙은…… ‘경력이 긴 사람’들 이니까!",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "아, 그래 맞아! 지난 번에 지휘관에게 사다달라고 한 그 게임 재밌었어. 다음 번에 같이 하자!",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,8 +219,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "에에? 모항에 그렇게 오래 있었으니 미카사도 가끔은 해봤을 줄 알았는데.",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 30,
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "내가 왜 그런 걸 해야 하지!",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -288,8 +288,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "알았어, 알았다구.",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "나만 잘 기억이 안 나는 건가. 전혀 기억이 나지 않는 건 아니지만…",
 			typewriter = {
@@ -431,11 +431,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "그래. 은퇴하기는 아직 이르지. 하하하.",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

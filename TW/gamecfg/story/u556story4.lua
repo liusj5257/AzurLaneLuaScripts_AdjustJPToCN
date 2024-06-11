@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"小小的騎士誓言！\n\n<size=45>四　約好了？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "距U-556開始擔任秘書艦已經過去了一段時間",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "與最開始一副玩鬧的樣子不同，現在的她已經可以分擔處理一些日常事務了",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "當然，秘書艦的工作遠不止如此。今天要教些什麼好呢…",
 			typewriter = {
 				speed = 0.05,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "U-556看起來……有點無精打采的樣子？",
 			typewriter = {
 				speed = 0.05,
@@ -121,8 +121,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "啊，稍微有些走神，抱歉……今天要做些什麼嗎？",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "俾斯麥姐姐！我來找妳玩啦！",
 			effects = {
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
+			say = "嗯？是U-556嗎。",
 			side = 1,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？是U-556嗎。",
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "抱歉，我還有些事情要和皇家那邊商討。",
 			typewriter = {
@@ -217,15 +217,15 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "俾斯麥姐姐，有空嗎？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,10 +253,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_guild_red",
-			actor = 405010,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "啊。",
+			dir = 1,
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -290,8 +290,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "最近姐姐她總是很忙的樣子……",
 			effects = {
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "原來如此。",
 			typewriter = {
 				speed = 0.05,
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "這樣的話，能做到的事就是----",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "欸？指揮官……下個休息日會陪我玩嗎？",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,11 +381,11 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "真的嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "那，那就約好了！可不能反悔！",
 			typewriter = {

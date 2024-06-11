@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 14990,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14990,
+	color = "red",
 	icon = 14990,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 14991,
 				time = 3,
+				skill_id = 14991,
 				streakRange = {
 					0,
 					2
@@ -53,8 +53,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 14992,
 				time = 3,
+				skill_id = 14992,
 				streakRange = {
 					2,
 					4
@@ -68,8 +68,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 14993,
 				time = 3,
+				skill_id = 14993,
 				streakRange = {
 					4,
 					100

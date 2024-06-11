@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN30",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_6",
-			actorName = "{namecode:18}",
 			dir = 1,
 			bgmDelay = 1,
-			say = "이건 스루가공이 만난 특수한 실드를 만드는 기관이죠...",
 			bgm = "battle-longgong",
+			actorName = "{namecode:18}",
+			say = "이건 스루가공이 만난 특수한 실드를 만드는 기관이죠...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "고마워요. 다음 콘솔에서 봐요~",
 			typewriter = {
 				speed = 0.05,

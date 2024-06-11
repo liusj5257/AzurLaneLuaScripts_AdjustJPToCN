@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDANG2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIDANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Date With Atago\n\n<size=45>Chapter 2: Let's Go!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Next Morning -",
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Next Morning -",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,15 +94,15 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303110,
+			nameColor = "#a9f548",
 			say = "Atago? And... Commander? Did you two also come here to carry out morning training?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Atago took a sports drink out of her bag and passed it to Takao.",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Atago whispered something into Takao's ear.",
 			typewriter = {
 				speed = 0.05,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "For some reason, Takao was beet red as if she was about to shoot steam from her ears. She quickly sheathed her sword, turned around, and sprinted off.",
 			typewriter = {
 				speed = 0.05,
@@ -301,9 +301,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "What in the world did Atago tell her...",
 			typewriter = {
 				speed = 0.05,

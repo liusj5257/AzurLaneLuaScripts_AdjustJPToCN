@@ -1,14 +1,14 @@
 pg = pg or {}
 pg.world_chapter_random = {
 	{
-		entrance_ui = 1,
 		name = "NYシティ",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "port1",
+		entrance_ui = 1,
 		id = 1,
 		reset_auto_complete = 1,
 		hazard_level = 1,
-		entrance_mapicon = "port1",
 		template_id = {
 			{
 				1001001,
@@ -23,14 +23,14 @@ pg.world_chapter_random = {
 		}
 	},
 	{
-		entrance_ui = 1,
 		name = "リバープール",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "port2",
+		entrance_ui = 1,
 		id = 2,
 		reset_auto_complete = 1,
 		hazard_level = 1,
-		entrance_mapicon = "port2",
 		template_id = {
 			{
 				1002001,
@@ -45,14 +45,14 @@ pg.world_chapter_random = {
 		}
 	},
 	{
-		entrance_ui = 1,
 		name = "ジブラルタル",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "port3",
+		entrance_ui = 1,
 		id = 3,
 		reset_auto_complete = 1,
 		hazard_level = 1,
-		entrance_mapicon = "port3",
 		template_id = {
 			{
 				1003001,
@@ -67,14 +67,14 @@ pg.world_chapter_random = {
 		}
 	},
 	{
-		entrance_ui = 1,
 		name = "ペテルブルク",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "port4",
+		entrance_ui = 1,
 		id = 4,
 		reset_auto_complete = 1,
 		hazard_level = 1,
-		entrance_mapicon = "port4",
 		template_id = {
 			{
 				1004001,
@@ -89,14 +89,14 @@ pg.world_chapter_random = {
 		}
 	},
 	{
-		entrance_ui = 1,
 		name = "キール",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "port5",
+		entrance_ui = 1,
 		id = 5,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "port5",
 		template_id = {
 			{
 				1005001,
@@ -111,14 +111,14 @@ pg.world_chapter_random = {
 		}
 	},
 	{
-		entrance_ui = 1,
 		name = "タラント",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "port6",
+		entrance_ui = 1,
 		id = 6,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "port6",
 		template_id = {
 			{
 				1006001,
@@ -133,14 +133,14 @@ pg.world_chapter_random = {
 		}
 	},
 	{
-		entrance_ui = 1,
 		name = "ブレスト",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "port7",
+		entrance_ui = 1,
 		id = 7,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "port7",
 		template_id = {
 			{
 				1007001,
@@ -155,14 +155,14 @@ pg.world_chapter_random = {
 		}
 	},
 	{
-		entrance_ui = 1,
 		name = "ダカール",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "port8",
+		entrance_ui = 1,
 		id = 8,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "port8",
 		template_id = {
 			{
 				1008001,
@@ -177,14 +177,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[11] = {
-		entrance_ui = 2,
 		name = "カリブ海A",
 		complete_effect = 2,
 		enter_cost = 80,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 2,
 		id = 11,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1011001,
@@ -199,14 +199,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[12] = {
-		entrance_ui = 2,
 		name = "カリブ海B",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 2,
 		id = 12,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1012001,
@@ -221,14 +221,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[13] = {
-		entrance_ui = 2,
 		name = "カリブ海C",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 2,
 		id = 13,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1013001,
@@ -243,14 +243,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[14] = {
-		entrance_ui = 1,
 		name = "カリブ海D",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 14,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1014001,
@@ -265,14 +265,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[21] = {
-		entrance_ui = 1,
 		name = "NA海域南西A",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 21,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1021001,
@@ -287,14 +287,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[22] = {
-		entrance_ui = 1,
 		name = "NA海域南西B",
 		complete_effect = 2,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 22,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1022001,
@@ -309,14 +309,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[23] = {
-		entrance_ui = 1,
 		name = "NA海域南西C",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 23,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1023001,
@@ -331,14 +331,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[24] = {
-		entrance_ui = 1,
 		name = "NA海域南西D",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 24,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1024001,
@@ -353,14 +353,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[25] = {
-		entrance_ui = 1,
 		name = "NA海域南西E",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 25,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1025001,
@@ -375,14 +375,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[31] = {
-		entrance_ui = 1,
 		name = "南西海嶺A",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 31,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1031001,
@@ -397,14 +397,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[32] = {
-		entrance_ui = 1,
 		name = "南西海嶺B",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 32,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1032001,
@@ -419,14 +419,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[33] = {
-		entrance_ui = 1,
 		name = "南西海嶺C",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 33,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1033001,
@@ -441,14 +441,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[34] = {
-		entrance_ui = 1,
 		name = "南西海嶺D",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 34,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1034001,
@@ -463,14 +463,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[41] = {
-		entrance_ui = 1,
 		name = "西大陸棚A",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 41,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1041001,
@@ -485,14 +485,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[42] = {
-		entrance_ui = 1,
 		name = "西大陸棚B",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 42,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1042001,
@@ -507,14 +507,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[43] = {
-		entrance_ui = 1,
 		name = "西大陸棚C",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 43,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1043001,
@@ -529,14 +529,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[44] = {
-		entrance_ui = 1,
 		name = "西大陸棚D",
 		complete_effect = 2,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 44,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1044001,
@@ -551,14 +551,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[51] = {
-		entrance_ui = 1,
 		name = "南東海嶺A",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 51,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1051001,
@@ -573,14 +573,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[52] = {
-		entrance_ui = 1,
 		name = "南東海嶺B",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 52,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1052001,
@@ -595,14 +595,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[53] = {
-		entrance_ui = 1,
 		name = "南東海嶺C",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 53,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1053001,
@@ -617,14 +617,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[54] = {
-		entrance_ui = 1,
 		name = "南東海嶺D",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 54,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1054001,
@@ -639,14 +639,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[61] = {
-		entrance_ui = 1,
 		name = "NA海域南東A",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 61,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1061001,
@@ -661,14 +661,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[62] = {
-		entrance_ui = 1,
 		name = "NA海域南東B",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 62,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1062001,
@@ -683,14 +683,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[63] = {
-		entrance_ui = 1,
 		name = "NA海域南東C",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 63,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1063001,
@@ -705,14 +705,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[64] = {
-		entrance_ui = 1,
 		name = "NA海域南東D",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 64,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1064001,
@@ -727,14 +727,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[65] = {
-		entrance_ui = 1,
 		name = "NA海域南東E",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 65,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1065001,
@@ -749,14 +749,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[66] = {
-		entrance_ui = 1,
 		name = "NA海域南東F",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 66,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1066001,
@@ -771,14 +771,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[71] = {
-		entrance_ui = 2,
 		name = "地中海A",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "dizhonghai",
+		entrance_ui = 2,
 		id = 71,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "dizhonghai",
 		template_id = {
 			{
 				1071001,
@@ -793,14 +793,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[72] = {
-		entrance_ui = 2,
 		name = "地中海B",
 		complete_effect = 2,
 		enter_cost = 80,
+		entrance_mapicon = "dizhonghai",
+		entrance_ui = 2,
 		id = 72,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "dizhonghai",
 		template_id = {
 			{
 				1072001,
@@ -815,14 +815,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[73] = {
-		entrance_ui = 2,
 		name = "地中海C",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "dizhonghai",
+		entrance_ui = 2,
 		id = 73,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "dizhonghai",
 		template_id = {
 			{
 				1073001,
@@ -837,14 +837,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[81] = {
-		entrance_ui = 1,
 		name = "NA海域西A",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 81,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1081001,
@@ -859,14 +859,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[82] = {
-		entrance_ui = 1,
 		name = "NA海域西B",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 82,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1082001,
@@ -881,14 +881,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[83] = {
-		entrance_ui = 1,
 		name = "NA海域西C",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 83,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1083001,
@@ -903,14 +903,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[84] = {
-		entrance_ui = 1,
 		name = "NA海域西D",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 84,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1084001,
@@ -925,14 +925,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[85] = {
-		entrance_ui = 1,
 		name = "NA海域西E",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 85,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1085001,
@@ -947,14 +947,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[91] = {
-		entrance_ui = 1,
 		name = "NA海域北西A",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 91,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1091001,
@@ -969,14 +969,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[92] = {
-		entrance_ui = 1,
 		name = "NA海域北西B",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 92,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1092001,
@@ -991,14 +991,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[93] = {
-		entrance_ui = 1,
 		name = "NA海域北西C",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 93,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1093001,
@@ -1013,14 +1013,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[94] = {
-		entrance_ui = 1,
 		name = "NA海域北西D",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 94,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1094001,
@@ -1035,14 +1035,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[95] = {
-		entrance_ui = 1,
 		name = "NA海域北西E",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 95,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1095001,
@@ -1057,14 +1057,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[101] = {
-		entrance_ui = 2,
 		name = "北西航路A",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 2,
 		id = 101,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1101001,
@@ -1079,14 +1079,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[102] = {
-		entrance_ui = 2,
 		name = "北西航路B",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 2,
 		id = 102,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1102001,
@@ -1101,14 +1101,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[103] = {
-		entrance_ui = 1,
 		name = "北西航路C",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 103,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1103001,
@@ -1123,14 +1123,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[104] = {
-		entrance_ui = 1,
 		name = "北西航路D",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 104,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1104001,
@@ -1145,14 +1145,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[105] = {
-		entrance_ui = 1,
 		name = "北西航路E",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 105,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1105001,
@@ -1167,14 +1167,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[106] = {
-		entrance_ui = 2,
 		name = "北西航路F",
 		complete_effect = 2,
 		enter_cost = 80,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 2,
 		id = 106,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1106001,
@@ -1189,14 +1189,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[111] = {
-		entrance_ui = 1,
 		name = "NA海域東A",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 111,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1111001,
@@ -1211,14 +1211,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[112] = {
-		entrance_ui = 1,
 		name = "NA海域東B",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 112,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1112001,
@@ -1233,14 +1233,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[113] = {
-		entrance_ui = 1,
 		name = "NA海域東C",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 113,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1113001,
@@ -1255,14 +1255,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[114] = {
-		entrance_ui = 1,
 		name = "NA海域東D",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 114,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1114001,
@@ -1277,14 +1277,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[121] = {
-		entrance_ui = 2,
 		name = "東大陸棚A",
 		complete_effect = 2,
 		enter_cost = 80,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 2,
 		id = 121,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1121001,
@@ -1299,14 +1299,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[122] = {
-		entrance_ui = 1,
 		name = "東大陸棚B",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 122,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1122001,
@@ -1321,14 +1321,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[123] = {
-		entrance_ui = 1,
 		name = "東大陸棚C",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 123,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1123001,
@@ -1343,14 +1343,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[124] = {
-		entrance_ui = 2,
 		name = "東大陸棚D",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 2,
 		id = 124,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1124001,
@@ -1365,14 +1365,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[125] = {
-		entrance_ui = 1,
 		name = "東大陸棚E",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 125,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1125001,
@@ -1387,14 +1387,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[131] = {
-		entrance_ui = 1,
 		name = "NA海域北東A",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 131,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1131001,
@@ -1409,14 +1409,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[132] = {
-		entrance_ui = 1,
 		name = "NA海域北東B",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 132,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1132001,
@@ -1431,14 +1431,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[133] = {
-		entrance_ui = 1,
 		name = "NA海域北東C",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 133,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1133001,
@@ -1453,14 +1453,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[134] = {
-		entrance_ui = 1,
 		name = "NA海域北東D",
 		complete_effect = 2,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 134,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1134001,
@@ -1475,14 +1475,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[135] = {
-		entrance_ui = 1,
 		name = "NA海域北東E",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 135,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1135001,
@@ -1497,14 +1497,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[141] = {
-		entrance_ui = 1,
 		name = "北東航路A",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 141,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1141001,
@@ -1519,14 +1519,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[142] = {
-		entrance_ui = 1,
 		name = "北東航路B",
 		complete_effect = 2,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 142,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1142001,
@@ -1541,14 +1541,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[143] = {
-		entrance_ui = 1,
 		name = "北東航路C",
 		complete_effect = 2,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 143,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1143001,
@@ -1563,14 +1563,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[144] = {
-		entrance_ui = 2,
 		name = "北東航路D",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 2,
 		id = 144,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1144001,
@@ -1585,14 +1585,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[151] = {
-		entrance_ui = 2,
 		name = "NA海域深部A",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 151,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1151001,
@@ -1607,14 +1607,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[152] = {
-		entrance_ui = 2,
 		name = "NA海域深部B",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 152,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1152001,
@@ -1629,14 +1629,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[153] = {
-		entrance_ui = 2,
 		name = "NA海域深部C",
 		complete_effect = 2,
 		enter_cost = 80,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 153,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1153001,
@@ -1651,14 +1651,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[154] = {
-		entrance_ui = 2,
 		name = "NA海域中心",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 154,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1154001,
@@ -1673,14 +1673,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[155] = {
-		entrance_ui = 2,
 		name = "NA海域深部D",
 		complete_effect = 2,
 		enter_cost = 80,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 155,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1155001,
@@ -1695,14 +1695,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[156] = {
-		entrance_ui = 2,
 		name = "NA海域深部E",
 		complete_effect = 2,
 		enter_cost = 80,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 156,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1156001,
@@ -1717,14 +1717,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[157] = {
-		entrance_ui = 2,
 		name = "NA海域深部F",
 		complete_effect = 2,
 		enter_cost = 80,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 157,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1157001,
@@ -1739,14 +1739,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[158] = {
-		entrance_ui = 2,
 		name = "NA海域深部G",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 158,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1158001,
@@ -1761,14 +1761,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[159] = {
-		entrance_ui = 2,
 		name = "NA海域深部H",
 		complete_effect = 2,
 		enter_cost = 60,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 159,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1159001,
@@ -1783,14 +1783,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[200] = {
-		entrance_ui = 1,
 		name = "Chapter1-0-1 演習海域",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 200,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2000,
@@ -1805,14 +1805,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[201] = {
-		entrance_ui = 1,
 		name = "Chapter1-1 出航",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 201,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2010,
@@ -1827,14 +1827,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[202] = {
-		entrance_ui = 1,
 		name = "Chapter1-0-1 演習海域",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 202,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2020,
@@ -1849,14 +1849,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[203] = {
-		entrance_ui = 1,
 		name = "Chapter1-2 既視感",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 203,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2030,
@@ -1871,14 +1871,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[204] = {
-		entrance_ui = 1,
 		name = "Chapter1-3 バミューダへ",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 204,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2040,
@@ -1893,14 +1893,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[205] = {
-		entrance_ui = 1,
 		name = "Chapter1-4 赤い影",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 205,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2050,
@@ -1915,14 +1915,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[206] = {
-		entrance_ui = 1,
 		name = "Chapter1-5 和平条約",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 206,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2060,
@@ -1937,14 +1937,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[207] = {
-		entrance_ui = 1,
 		name = "Chapter1-6 前哨基地",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 207,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2070,
@@ -1959,14 +1959,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[211] = {
-		entrance_ui = 1,
 		name = "Chapter2-2 共同作戦",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 211,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2110,
@@ -1981,14 +1981,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[212] = {
-		entrance_ui = 1,
 		name = "Chapter2-3 掃討戦",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 212,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2120,
@@ -2003,14 +2003,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[213] = {
-		entrance_ui = 1,
 		name = "Chapter2-4 救援信号",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 213,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2130,
@@ -2025,14 +2025,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[214] = {
-		entrance_ui = 1,
 		name = "Chapter2-5 女王の連絡",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 214,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2140,
@@ -2047,14 +2047,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[215] = {
-		entrance_ui = 1,
 		name = "Chapter2-6 強敵",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 215,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2150,
@@ -2069,14 +2069,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[220] = {
-		entrance_ui = 1,
 		name = "Chapter3-1 片翼戦線",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 220,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2200,
@@ -2091,14 +2091,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[221] = {
-		entrance_ui = 1,
 		name = "Chapter3-2 TBについて",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 221,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2210,
@@ -2113,14 +2113,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[222] = {
-		entrance_ui = 1,
 		name = "Chapter3-3 友軍信号",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 222,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2220,
@@ -2135,14 +2135,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[223] = {
-		entrance_ui = 1,
 		name = "Chapter3-4 救援",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 223,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				2230,
@@ -2157,14 +2157,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[224] = {
-		entrance_ui = 1,
 		name = "Chapter3-5 残影",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 224,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				2240,
@@ -2179,14 +2179,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[225] = {
-		entrance_ui = 1,
 		name = "Chapter3-6 一気突破",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 225,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2250,
@@ -2201,14 +2201,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[230] = {
-		entrance_ui = 1,
 		name = "Chapter4-1 地中海",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 230,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2300,
@@ -2223,14 +2223,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[231] = {
-		entrance_ui = 1,
 		name = "Chapter4-2 タラント",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 231,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2310,
@@ -2245,14 +2245,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[232] = {
-		entrance_ui = 1,
 		name = "Chapter4-3 ダカール",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 232,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2320,
@@ -2267,14 +2267,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[233] = {
-		entrance_ui = 1,
 		name = "Chapter4-4 侵入",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 233,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2330,
@@ -2289,14 +2289,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[234] = {
-		entrance_ui = 1,
 		name = "Chapter4-5 海霧",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 234,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2340,
@@ -2311,14 +2311,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[235] = {
-		entrance_ui = 1,
 		name = "Chapter4-6 戦略調整",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 235,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2350,
@@ -2333,14 +2333,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[260] = {
-		entrance_ui = 1,
 		name = "Chapter5-1 泥沼",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 260,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2600,
@@ -2355,14 +2355,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[261] = {
-		entrance_ui = 1,
 		name = "Chapter5-2 座標",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 261,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2610,
@@ -2377,14 +2377,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[262] = {
-		entrance_ui = 1,
 		name = "Chapter5-3 幻影",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 262,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2620,
@@ -2399,14 +2399,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[263] = {
-		entrance_ui = 1,
 		name = "Chapter5-4 茶会",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 263,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2630,
@@ -2421,14 +2421,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[264] = {
-		entrance_ui = 1,
 		name = "Chapter5-5 総攻撃",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 264,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2640,
@@ -2443,14 +2443,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[265] = {
-		entrance_ui = 1,
 		name = "Chapter5-6-0 円環",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 265,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2650,
@@ -2465,14 +2465,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[266] = {
-		entrance_ui = 1,
 		name = "Chapter5-6-1 収束",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 266,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2660,
@@ -2487,14 +2487,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[267] = {
-		entrance_ui = 1,
 		name = "Chapter5-6-2 基底",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 267,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				2670,
@@ -2509,14 +2509,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[301] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 301,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				3010,
@@ -2531,14 +2531,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[400] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 400,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4000,
@@ -2553,14 +2553,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[401] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 401,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4001,
@@ -2575,14 +2575,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[410] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 410,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4010,
@@ -2597,14 +2597,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[411] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 411,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4011,
@@ -2619,14 +2619,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[412] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 412,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4012,
@@ -2641,14 +2641,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[413] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 413,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4013,
@@ -2663,14 +2663,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[414] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 414,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4014,
@@ -2685,14 +2685,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[415] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 415,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4015,
@@ -2707,14 +2707,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[416] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 416,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4016,
@@ -2729,14 +2729,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[417] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 417,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4017,
@@ -2751,14 +2751,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[418] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 418,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4018,
@@ -2773,14 +2773,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[419] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 419,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4019,
@@ -2795,14 +2795,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[420] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 420,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				4020,
@@ -2817,14 +2817,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[500] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 500,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5000,
@@ -2839,14 +2839,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[510] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 510,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5010,
@@ -2861,14 +2861,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[511] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 511,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5011,
@@ -2883,14 +2883,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[512] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 512,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5012,
@@ -2905,14 +2905,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[513] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 513,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5013,
@@ -2927,14 +2927,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[514] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 514,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5014,
@@ -2949,14 +2949,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[515] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 515,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5015,
@@ -2971,14 +2971,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[516] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 516,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5016,
@@ -2993,14 +2993,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[517] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 517,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5017,
@@ -3015,14 +3015,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[518] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 518,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5018,
@@ -3037,14 +3037,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[519] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 519,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5019,
@@ -3059,14 +3059,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[520] = {
-		entrance_ui = 1,
 		name = "剧情海域(暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 520,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5020,
@@ -3081,14 +3081,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[541] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 541,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5041,
@@ -3103,14 +3103,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[544] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 544,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5044,
@@ -3125,14 +3125,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[547] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 547,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5047,
@@ -3147,14 +3147,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[550] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 550,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5050,
@@ -3169,14 +3169,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[553] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 553,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				5053,
@@ -3191,14 +3191,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[601] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 601,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6001,
@@ -3213,14 +3213,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[602] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 602,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6002,
@@ -3235,14 +3235,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[610] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 610,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6010,
@@ -3257,14 +3257,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[620] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 620,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6020,
@@ -3279,14 +3279,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[630] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 630,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6030,
@@ -3301,14 +3301,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[631] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 631,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6031,
@@ -3323,14 +3323,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[632] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 632,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6032,
@@ -3345,14 +3345,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[640] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 640,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6040,
@@ -3367,14 +3367,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[650] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 650,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6050,
@@ -3389,14 +3389,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[660] = {
-		entrance_ui = 1,
 		name = "异常空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 660,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				6060,
@@ -3411,14 +3411,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[700] = {
-		entrance_ui = 1,
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 700,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7000,
@@ -3433,14 +3433,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[701] = {
-		entrance_ui = 1,
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 701,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7010,
@@ -3455,14 +3455,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[702] = {
-		entrance_ui = 1,
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 702,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7020,
@@ -3477,14 +3477,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[703] = {
-		entrance_ui = 1,
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 703,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7030,
@@ -3499,14 +3499,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[710] = {
-		entrance_ui = 1,
 		name = "混乱之海（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 710,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7100,
@@ -3521,14 +3521,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[711] = {
-		entrance_ui = 1,
 		name = "意识之海（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 711,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7101,
@@ -3543,14 +3543,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[712] = {
-		entrance_ui = 1,
 		name = "意识之海（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 712,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7102,
@@ -3565,14 +3565,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[713] = {
-		entrance_ui = 1,
 		name = "混乱之海（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 713,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7103,
@@ -3587,14 +3587,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[715] = {
-		entrance_ui = 1,
 		name = "神秘海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 715,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7150,
@@ -3609,14 +3609,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[720] = {
-		entrance_ui = 1,
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 720,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7200,
@@ -3631,14 +3631,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[721] = {
-		entrance_ui = 1,
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 721,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7210,
@@ -3653,14 +3653,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[722] = {
-		entrance_ui = 1,
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 722,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7220,
@@ -3675,14 +3675,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[723] = {
-		entrance_ui = 1,
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 723,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7230,
@@ -3697,14 +3697,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[730] = {
-		entrance_ui = 1,
 		name = "精神空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 730,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7300,
@@ -3719,14 +3719,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[731] = {
-		entrance_ui = 1,
 		name = "精神空间·深层（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 731,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7310,
@@ -3741,14 +3741,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[740] = {
-		entrance_ui = 1,
 		name = "图腾空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 740,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7400,
@@ -3763,14 +3763,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[741] = {
-		entrance_ui = 1,
 		name = "图腾空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 741,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7410,
@@ -3785,14 +3785,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[742] = {
-		entrance_ui = 1,
 		name = "图腾空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 742,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7420,
@@ -3807,14 +3807,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[743] = {
-		entrance_ui = 1,
 		name = "图腾空间（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 743,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7430,
@@ -3829,14 +3829,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[750] = {
-		entrance_ui = 1,
 		name = "图腾空间·深层（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 750,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7500,
@@ -3851,14 +3851,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[760] = {
-		entrance_ui = 1,
 		name = "春之幻境（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 760,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7600,
@@ -3873,14 +3873,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[761] = {
-		entrance_ui = 1,
 		name = "夏之幻境（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 761,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7610,
@@ -3895,14 +3895,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[762] = {
-		entrance_ui = 1,
 		name = "秋之幻境（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 762,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7620,
@@ -3917,14 +3917,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[763] = {
-		entrance_ui = 1,
 		name = "冬之幻境（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 763,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7630,
@@ -3939,14 +3939,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[770] = {
-		entrance_ui = 1,
 		name = "季节幻境·深层（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 770,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				7700,
@@ -3961,14 +3961,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[800] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.Q2A7L",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 800,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8000,
@@ -3983,14 +3983,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[803] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.MY4BE",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 803,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8030,
@@ -4005,14 +4005,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[806] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.K8ALD",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 806,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8060,
@@ -4027,14 +4027,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[809] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.IKTJB",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 809,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8090,
@@ -4049,14 +4049,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[820] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.EMHOD",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 820,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8200,
@@ -4071,14 +4071,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[823] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.3PF6Z",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 823,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8230,
@@ -4093,14 +4093,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[826] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.COU42",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 826,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8260,
@@ -4115,14 +4115,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[829] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.QK3RM",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 829,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8290,
@@ -4137,14 +4137,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[840] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.E8BIJ",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 840,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8400,
@@ -4159,14 +4159,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[841] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.E8BIJ-II",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 841,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8410,
@@ -4181,14 +4181,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[843] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.9RYH2",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 843,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8430,
@@ -4203,14 +4203,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[844] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.9RYH2-II",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 844,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8440,
@@ -4225,14 +4225,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[846] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.ZKT5G",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 846,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8460,
@@ -4247,14 +4247,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[847] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.ZKT5G-II",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 847,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8470,
@@ -4269,14 +4269,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[849] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.YH16W",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 849,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8490,
@@ -4291,14 +4291,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[850] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.YH16W-II",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 850,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8500,
@@ -4313,14 +4313,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[860] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.SLUIA",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 860,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8600,
@@ -4335,14 +4335,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[863] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.4KXZG",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 863,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8630,
@@ -4357,14 +4357,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[866] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.EC57Y",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 866,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8660,
@@ -4379,14 +4379,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[869] = {
-		entrance_ui = 1,
 		name = "セイレーン海域NO.KAD7O",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 869,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				8690,
@@ -4401,14 +4401,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[901] = {
-		entrance_ui = 1,
 		name = "破碎的空间-I",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 901,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				9001,
@@ -4489,14 +4489,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[902] = {
-		entrance_ui = 1,
 		name = "破碎的空间-II",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 902,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				9101,
@@ -4577,14 +4577,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[903] = {
-		entrance_ui = 1,
 		name = "破碎的空间-III",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 903,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				9201,
@@ -4665,14 +4665,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1011] = {
-		entrance_ui = 2,
 		name = "カリブ海A-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 2,
 		id = 1011,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1011002,
@@ -4687,14 +4687,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1012] = {
-		entrance_ui = 2,
 		name = "カリブ海B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 2,
 		id = 1012,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1012002,
@@ -4709,14 +4709,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1013] = {
-		entrance_ui = 2,
 		name = "カリブ海C-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 2,
 		id = 1013,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1013002,
@@ -4731,14 +4731,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1014] = {
-		entrance_ui = 1,
 		name = "カリブ海D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 1014,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1014002,
@@ -4753,14 +4753,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1021] = {
-		entrance_ui = 1,
 		name = "NA海域南西A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1021,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1021002,
@@ -4775,14 +4775,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1022] = {
-		entrance_ui = 1,
 		name = "NA海域南西B-安全海域",
 		complete_effect = 1,
 		enter_cost = 5,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1022,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1022002,
@@ -4797,14 +4797,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1023] = {
-		entrance_ui = 1,
 		name = "NA海域南西C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1023,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1023002,
@@ -4819,14 +4819,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1024] = {
-		entrance_ui = 1,
 		name = "NA海域南西D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 1024,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1024002,
@@ -4841,14 +4841,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1025] = {
-		entrance_ui = 1,
 		name = "NA海域南西E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1025,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1025002,
@@ -4863,14 +4863,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1031] = {
-		entrance_ui = 1,
 		name = "南西海嶺A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1031,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1031002,
@@ -4885,14 +4885,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1032] = {
-		entrance_ui = 1,
 		name = "南西海嶺B-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1032,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1032002,
@@ -4907,14 +4907,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1033] = {
-		entrance_ui = 1,
 		name = "南西海嶺C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 1033,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1033002,
@@ -4929,14 +4929,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1034] = {
-		entrance_ui = 1,
 		name = "南西海嶺D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 1034,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1034002,
@@ -4951,14 +4951,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1041] = {
-		entrance_ui = 1,
 		name = "西大陸棚A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1041,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1041002,
@@ -4973,14 +4973,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1042] = {
-		entrance_ui = 1,
 		name = "西大陸棚B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1042,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1042002,
@@ -4995,14 +4995,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1043] = {
-		entrance_ui = 1,
 		name = "西大陸棚C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1043,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1043002,
@@ -5017,14 +5017,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1044] = {
-		entrance_ui = 1,
 		name = "西大陸棚D-安全海域",
 		complete_effect = 1,
 		enter_cost = 5,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1044,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1044002,
@@ -5039,14 +5039,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1051] = {
-		entrance_ui = 1,
 		name = "南東海嶺A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1051,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1051002,
@@ -5061,14 +5061,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1052] = {
-		entrance_ui = 1,
 		name = "南東海嶺B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1052,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1052002,
@@ -5083,14 +5083,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1053] = {
-		entrance_ui = 1,
 		name = "南東海嶺C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 1053,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1053002,
@@ -5105,14 +5105,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1054] = {
-		entrance_ui = 1,
 		name = "南東海嶺D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 1054,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1054002,
@@ -5127,14 +5127,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1061] = {
-		entrance_ui = 1,
 		name = "NA海域南東A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1061,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1061002,
@@ -5149,14 +5149,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1062] = {
-		entrance_ui = 1,
 		name = "NA海域南東B-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1062,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1062002,
@@ -5171,14 +5171,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1063] = {
-		entrance_ui = 1,
 		name = "NA海域南東C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1063,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1063002,
@@ -5193,14 +5193,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1064] = {
-		entrance_ui = 1,
 		name = "NA海域南東D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "redaicaoyuan",
+		entrance_ui = 1,
 		id = 1064,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "redaicaoyuan",
 		template_id = {
 			{
 				1064002,
@@ -5215,14 +5215,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1065] = {
-		entrance_ui = 1,
 		name = "NA海域南東E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1065,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1065002,
@@ -5237,14 +5237,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1066] = {
-		entrance_ui = 1,
 		name = "NA海域南東F-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1066,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1066002,
@@ -5259,14 +5259,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1071] = {
-		entrance_ui = 2,
 		name = "地中海A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "dizhonghai",
+		entrance_ui = 2,
 		id = 1071,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "dizhonghai",
 		template_id = {
 			{
 				1071002,
@@ -5281,14 +5281,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1072] = {
-		entrance_ui = 2,
 		name = "地中海B-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "dizhonghai",
+		entrance_ui = 2,
 		id = 1072,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "dizhonghai",
 		template_id = {
 			{
 				1072002,
@@ -5303,14 +5303,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1073] = {
-		entrance_ui = 2,
 		name = "地中海C-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "dizhonghai",
+		entrance_ui = 2,
 		id = 1073,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "dizhonghai",
 		template_id = {
 			{
 				1073002,
@@ -5325,14 +5325,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1081] = {
-		entrance_ui = 1,
 		name = "NA海域西A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1081,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1081002,
@@ -5347,14 +5347,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1082] = {
-		entrance_ui = 1,
 		name = "NA海域西B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1082,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1082002,
@@ -5369,14 +5369,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1083] = {
-		entrance_ui = 1,
 		name = "NA海域西C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1083,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1083002,
@@ -5391,14 +5391,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1084] = {
-		entrance_ui = 1,
 		name = "NA海域西D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1084,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1084002,
@@ -5413,14 +5413,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1085] = {
-		entrance_ui = 1,
 		name = "NA海域西E-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1085,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1085002,
@@ -5435,14 +5435,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1091] = {
-		entrance_ui = 1,
 		name = "NA海域北西A-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1091,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1091002,
@@ -5457,14 +5457,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1092] = {
-		entrance_ui = 1,
 		name = "NA海域北西B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1092,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1092002,
@@ -5479,14 +5479,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1093] = {
-		entrance_ui = 1,
 		name = "NA海域北西C-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1093,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1093002,
@@ -5501,14 +5501,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1094] = {
-		entrance_ui = 1,
 		name = "NA海域北西D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1094,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1094002,
@@ -5523,14 +5523,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1095] = {
-		entrance_ui = 1,
 		name = "NA海域北西E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1095,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1095002,
@@ -5545,14 +5545,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1101] = {
-		entrance_ui = 2,
 		name = "北西航路A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 2,
 		id = 1101,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1101002,
@@ -5567,14 +5567,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1102] = {
-		entrance_ui = 2,
 		name = "北西航路B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 2,
 		id = 1102,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1102002,
@@ -5589,14 +5589,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1103] = {
-		entrance_ui = 1,
 		name = "北西航路C-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1103,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1103002,
@@ -5611,14 +5611,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1104] = {
-		entrance_ui = 1,
 		name = "北西航路D-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1104,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1104002,
@@ -5633,14 +5633,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1105] = {
-		entrance_ui = 1,
 		name = "北西航路E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1105,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1105002,
@@ -5655,14 +5655,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1106] = {
-		entrance_ui = 2,
 		name = "北西航路F-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 2,
 		id = 1106,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1106002,
@@ -5677,14 +5677,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1111] = {
-		entrance_ui = 1,
 		name = "NA海域東A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1111,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1111002,
@@ -5699,14 +5699,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1112] = {
-		entrance_ui = 1,
 		name = "NA海域東B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1112,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1112002,
@@ -5721,14 +5721,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1113] = {
-		entrance_ui = 1,
 		name = "NA海域東C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1113,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1113002,
@@ -5743,14 +5743,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1114] = {
-		entrance_ui = 1,
 		name = "NA海域東D-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1114,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1114002,
@@ -5765,14 +5765,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1121] = {
-		entrance_ui = 2,
 		name = "東大陸棚A-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 2,
 		id = 1121,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1121002,
@@ -5787,14 +5787,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1122] = {
-		entrance_ui = 1,
 		name = "東大陸棚B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1122,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1122002,
@@ -5809,14 +5809,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1123] = {
-		entrance_ui = 1,
 		name = "東大陸棚C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1123,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1123002,
@@ -5831,14 +5831,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1124] = {
-		entrance_ui = 2,
 		name = "東大陸棚D-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 2,
 		id = 1124,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1124002,
@@ -5853,14 +5853,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1125] = {
-		entrance_ui = 1,
 		name = "東大陸棚E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1125,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1125002,
@@ -5875,14 +5875,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1131] = {
-		entrance_ui = 1,
 		name = "NA海域北東A-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1131,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1131002,
@@ -5897,14 +5897,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1132] = {
-		entrance_ui = 1,
 		name = "NA海域北東B-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1132,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1132002,
@@ -5919,14 +5919,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1133] = {
-		entrance_ui = 1,
 		name = "NA海域北東C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1133,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1133002,
@@ -5941,14 +5941,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1134] = {
-		entrance_ui = 1,
 		name = "NA海域北東D-安全海域",
 		complete_effect = 1,
 		enter_cost = 10,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1134,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1134002,
@@ -5963,14 +5963,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1135] = {
-		entrance_ui = 1,
 		name = "NA海域北東E-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1135,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1135002,
@@ -5985,14 +5985,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1141] = {
-		entrance_ui = 1,
 		name = "北東航路A-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "yahandai",
+		entrance_ui = 1,
 		id = 1141,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "yahandai",
 		template_id = {
 			{
 				1141002,
@@ -6007,14 +6007,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1142] = {
-		entrance_ui = 1,
 		name = "北東航路B-安全海域",
 		complete_effect = 1,
 		enter_cost = 20,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1142,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1142002,
@@ -6029,14 +6029,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1143] = {
-		entrance_ui = 1,
 		name = "北東航路C-安全海域",
 		complete_effect = 1,
 		enter_cost = 15,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 1,
 		id = 1143,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1143002,
@@ -6051,14 +6051,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1144] = {
-		entrance_ui = 2,
 		name = "北東航路D-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "wendaihaiyang",
+		entrance_ui = 2,
 		id = 1144,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "wendaihaiyang",
 		template_id = {
 			{
 				1144002,
@@ -6073,14 +6073,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1151] = {
-		entrance_ui = 2,
 		name = "NA海域深部A-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1151,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1151002,
@@ -6095,14 +6095,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1152] = {
-		entrance_ui = 2,
 		name = "NA海域深部B-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1152,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1152002,
@@ -6117,14 +6117,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1153] = {
-		entrance_ui = 2,
 		name = "NA海域深部C-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1153,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1153002,
@@ -6139,14 +6139,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1154] = {
-		entrance_ui = 2,
 		name = "NA海域中心-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1154,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1154002,
@@ -6161,14 +6161,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1155] = {
-		entrance_ui = 2,
 		name = "NA海域深部D-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1155,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1155002,
@@ -6183,14 +6183,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1156] = {
-		entrance_ui = 2,
 		name = "NA海域深部E-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1156,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1156002,
@@ -6205,14 +6205,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1157] = {
-		entrance_ui = 2,
 		name = "NA海域深部F-安全海域",
 		complete_effect = 1,
 		enter_cost = 40,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1157,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1157002,
@@ -6227,14 +6227,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1158] = {
-		entrance_ui = 2,
 		name = "NA海域深部G-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1158,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1158002,
@@ -6249,14 +6249,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[1159] = {
-		entrance_ui = 2,
 		name = "NA海域深部H-安全海域",
 		complete_effect = 1,
 		enter_cost = 30,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 1159,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				1159002,
@@ -6271,14 +6271,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20001] = {
-		entrance_ui = 1,
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20001,
 		reset_auto_complete = 0,
 		hazard_level = 1,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				110000,
@@ -6467,14 +6467,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20002] = {
-		entrance_ui = 1,
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 10,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20002,
 		reset_auto_complete = 0,
 		hazard_level = 2,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				113000,
@@ -6663,14 +6663,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20003] = {
-		entrance_ui = 1,
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 20,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20003,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				120000,
@@ -6859,14 +6859,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20004] = {
-		entrance_ui = 1,
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 20,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20004,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				123000,
@@ -7055,14 +7055,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20005] = {
-		entrance_ui = 1,
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 40,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20005,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				130000,
@@ -7251,14 +7251,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20006] = {
-		entrance_ui = 1,
 		name = "秘密海域",
 		complete_effect = 0,
 		enter_cost = 40,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20006,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				133000,
@@ -7447,14 +7447,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20013] = {
-		entrance_ui = 3,
 		name = "異常海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 80,
+		entrance_mapicon = "meixi",
+		entrance_ui = 3,
 		id = 20013,
 		reset_auto_complete = 0,
 		hazard_level = 3,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				140350,
@@ -7475,14 +7475,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20014] = {
-		entrance_ui = 3,
 		name = "異常海域",
 		complete_effect = 0,
 		enter_cost = 80,
+		entrance_mapicon = "meixi",
+		entrance_ui = 3,
 		id = 20014,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				140004,
@@ -7497,14 +7497,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20015] = {
-		entrance_ui = 3,
 		name = "異常海域",
 		complete_effect = 0,
 		enter_cost = 100,
+		entrance_mapicon = "meixi",
+		entrance_ui = 3,
 		id = 20015,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				140005,
@@ -7519,14 +7519,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20016] = {
-		entrance_ui = 3,
 		name = "異常海域",
 		complete_effect = 0,
 		enter_cost = 100,
+		entrance_mapicon = "meixi",
+		entrance_ui = 3,
 		id = 20016,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				140006,
@@ -7541,14 +7541,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20017] = {
-		entrance_ui = 3,
 		name = "異常海域（暂不使用）",
 		complete_effect = 0,
 		enter_cost = 100,
+		entrance_mapicon = "meixi",
+		entrance_ui = 3,
 		id = 20017,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				141650,
@@ -7569,14 +7569,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20020] = {
-		entrance_ui = 1,
 		name = "情報開放",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20020,
 		reset_auto_complete = 0,
 		hazard_level = 4,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				200000,
@@ -7615,14 +7615,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20021] = {
-		entrance_ui = 1,
 		name = "情報開放",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20021,
 		reset_auto_complete = 0,
 		hazard_level = 5,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				200100,
@@ -7661,14 +7661,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20022] = {
-		entrance_ui = 1,
 		name = "情報開放",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20022,
 		reset_auto_complete = 0,
 		hazard_level = 6,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				200200,
@@ -7683,14 +7683,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20101] = {
-		entrance_ui = 1,
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20101,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				300000,
@@ -7705,14 +7705,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20103] = {
-		entrance_ui = 1,
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20103,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				300999,
@@ -7727,14 +7727,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20200] = {
-		entrance_ui = 1,
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20200,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				300001,
@@ -7749,14 +7749,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20201] = {
-		entrance_ui = 1,
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20201,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				300002,
@@ -7771,14 +7771,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20202] = {
-		entrance_ui = 1,
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20202,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				300003,
@@ -7793,14 +7793,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20203] = {
-		entrance_ui = 1,
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20203,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				300004,
@@ -7815,14 +7815,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[20204] = {
-		entrance_ui = 1,
 		name = "塞壬要塞海域（暂不使用）",
 		complete_effect = 1,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 20204,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				300005,
@@ -7837,14 +7837,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30001] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30001,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				301000,
@@ -7859,14 +7859,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30002] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30002,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				302000,
@@ -7881,14 +7881,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30003] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30003,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				303000,
@@ -7903,14 +7903,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30004] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30004,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				304000,
@@ -7925,14 +7925,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30005] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30005,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				305000,
@@ -7947,14 +7947,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30006] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30006,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				306000,
@@ -7969,14 +7969,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30007] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30007,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				307000,
@@ -7991,14 +7991,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30008] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30008,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				308000,
@@ -8013,14 +8013,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30009] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30009,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				309000,
@@ -8035,14 +8035,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30010] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30010,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				310000,
@@ -8057,14 +8057,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30011] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30011,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				311000,
@@ -8079,14 +8079,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30012] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30012,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				312000,
@@ -8101,14 +8101,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30013] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30013,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				313000,
@@ -8123,14 +8123,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30014] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30014,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				314000,
@@ -8145,14 +8145,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30015] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30015,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				315000,
@@ -8167,14 +8167,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30016] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30016,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				316000,
@@ -8189,14 +8189,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30017] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30017,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				317000,
@@ -8211,14 +8211,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30018] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30018,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				318000,
@@ -8233,14 +8233,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30019] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30019,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				319000,
@@ -8255,14 +8255,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30020] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30020,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				320000,
@@ -8277,14 +8277,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30021] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30021,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				321000,
@@ -8299,14 +8299,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30022] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30022,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				322000,
@@ -8321,14 +8321,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30023] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30023,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				323000,
@@ -8343,14 +8343,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30024] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30024,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				324000,
@@ -8365,14 +8365,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30025] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30025,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				325000,
@@ -8387,14 +8387,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30026] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30026,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				326000,
@@ -8409,14 +8409,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30027] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30027,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				327000,
@@ -8431,14 +8431,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30028] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30028,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				328000,
@@ -8453,14 +8453,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30029] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30029,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				329000,
@@ -8475,14 +8475,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30030] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30030,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				330000,
@@ -8497,14 +8497,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30031] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30031,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				331000,
@@ -8519,14 +8519,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30032] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30032,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				332000,
@@ -8541,14 +8541,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30033] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30033,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				333000,
@@ -8563,14 +8563,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30034] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30034,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				334000,
@@ -8585,14 +8585,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30035] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30035,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				335000,
@@ -8607,14 +8607,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30036] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30036,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				336000,
@@ -8629,14 +8629,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30037] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30037,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				337000,
@@ -8651,14 +8651,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30038] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30038,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				338000,
@@ -8673,14 +8673,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30039] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30039,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				339000,
@@ -8695,14 +8695,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30040] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30040,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				340000,
@@ -8717,14 +8717,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30041] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30041,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				341000,
@@ -8739,14 +8739,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30042] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30042,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				342000,
@@ -8761,14 +8761,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30043] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30043,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				343000,
@@ -8783,14 +8783,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30044] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30044,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				344000,
@@ -8805,14 +8805,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30045] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30045,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				345000,
@@ -8827,14 +8827,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30046] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30046,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				346000,
@@ -8849,14 +8849,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30047] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30047,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				347000,
@@ -8871,14 +8871,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30048] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30048,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				348000,
@@ -8893,14 +8893,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30049] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30049,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				349000,
@@ -8915,14 +8915,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30050] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30050,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				350000,
@@ -8937,14 +8937,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30051] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30051,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				351000,
@@ -8959,14 +8959,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30052] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30052,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				352000,
@@ -8981,14 +8981,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30053] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30053,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				353000,
@@ -9003,14 +9003,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30054] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30054,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				354000,
@@ -9025,14 +9025,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30055] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30055,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				355000,
@@ -9047,14 +9047,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30056] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30056,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				356000,
@@ -9069,14 +9069,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30057] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30057,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				357000,
@@ -9091,14 +9091,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30058] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30058,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				358000,
@@ -9113,14 +9113,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30059] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30059,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				359000,
@@ -9135,14 +9135,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30060] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30060,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				360000,
@@ -9157,14 +9157,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30061] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30061,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				361000,
@@ -9179,14 +9179,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30062] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30062,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				362000,
@@ -9201,14 +9201,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30063] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30063,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				363000,
@@ -9223,14 +9223,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30064] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30064,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				364000,
@@ -9245,14 +9245,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30065] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30065,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				365000,
@@ -9267,14 +9267,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30066] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30066,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				366000,
@@ -9289,14 +9289,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30067] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30067,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				367000,
@@ -9311,14 +9311,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30068] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30068,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				368000,
@@ -9333,14 +9333,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30069] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30069,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				369000,
@@ -9355,14 +9355,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30070] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30070,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				370000,
@@ -9377,14 +9377,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30071] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30071,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				371000,
@@ -9399,14 +9399,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[30072] = {
-		entrance_ui = 2,
 		name = "セイレーン要塞海域",
 		complete_effect = 1,
 		enter_cost = 200,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 30072,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				372000,
@@ -9421,14 +9421,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[89003] = {
-		entrance_ui = 1,
 		name = "测试用地图原819",
 		complete_effect = 0,
 		enter_cost = 1000,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 89003,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				890030,
@@ -9443,14 +9443,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[89004] = {
-		entrance_ui = 1,
 		name = "测试用地图原819",
 		complete_effect = 0,
 		enter_cost = 1000,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 89004,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				890040,
@@ -9465,14 +9465,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[89014] = {
-		entrance_ui = 1,
 		name = "被破坏的海域",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 89014,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				890140,
@@ -9487,14 +9487,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[89015] = {
-		entrance_ui = 1,
 		name = "被破坏的海域",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 89015,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				890150,
@@ -9509,14 +9509,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[89016] = {
-		entrance_ui = 1,
 		name = "被破坏的海域",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 89016,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				890160,
@@ -9531,14 +9531,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[89017] = {
-		entrance_ui = 1,
 		name = "被破坏的海域",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 1,
 		id = 89017,
 		reset_auto_complete = 0,
 		hazard_level = 0,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				890170,
@@ -9553,14 +9553,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[40000] = {
-		entrance_ui = 2,
 		name = "前哨基地",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "daxuanwo",
+		entrance_ui = 2,
 		id = 40000,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "daxuanwo",
 		template_id = {
 			{
 				400000,
@@ -9575,14 +9575,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[43000] = {
-		entrance_ui = 2,
 		name = "ノーマル：アビータ・TemperanceXⅣ",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 43000,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				430000,
@@ -9597,14 +9597,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[43001] = {
-		entrance_ui = 2,
 		name = "ノーマル：アビータ・StrengthVIII",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 43001,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				430010,
@@ -9619,14 +9619,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[43002] = {
-		entrance_ui = 2,
 		name = "ノーマル：アビータ・HermitⅨ",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 43002,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				430020,
@@ -9641,14 +9641,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[43010] = {
-		entrance_ui = 2,
 		name = "ハード：アビータ・TemperanceXⅣ",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 43010,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				430100,
@@ -9663,14 +9663,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[43011] = {
-		entrance_ui = 2,
 		name = "ハード：アビータ・StrengthVIII",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 43011,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				430110,
@@ -9685,14 +9685,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[43012] = {
-		entrance_ui = 2,
 		name = "ハード：アビータ・HermitⅨ",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 43012,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				430120,
@@ -9707,14 +9707,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[43020] = {
-		entrance_ui = 2,
 		name = "ハード模擬戦：アビータ",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 43020,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				430200,
@@ -9729,14 +9729,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[44000] = {
-		entrance_ui = 2,
 		name = "模擬戦：エンフォーサーXIV",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 44000,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				440000,
@@ -9751,14 +9751,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[44001] = {
-		entrance_ui = 2,
 		name = "模擬戦：エンフォーサーVII",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 44001,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				440010,
@@ -9773,14 +9773,14 @@ pg.world_chapter_random = {
 		}
 	},
 	[44002] = {
-		entrance_ui = 2,
 		name = "模擬戦：エンフォーサーIX",
 		complete_effect = 0,
 		enter_cost = 0,
+		entrance_mapicon = "meixi",
+		entrance_ui = 2,
 		id = 44002,
 		reset_auto_complete = 0,
 		hazard_level = 7,
-		entrance_mapicon = "meixi",
 		template_id = {
 			{
 				440020,

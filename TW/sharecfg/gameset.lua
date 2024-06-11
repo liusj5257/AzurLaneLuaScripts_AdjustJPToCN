@@ -340,7 +340,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 378
+		key_value = 351
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1924,7 +1924,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 377
+		key_value = 352
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2442,6 +2442,11 @@ pg.gameset = {
 					4,
 					100011,
 					1
+				},
+				{
+					2,
+					21000,
+					8
 				}
 			},
 			{
@@ -2586,7 +2591,7 @@ pg.gameset = {
 		}
 	},
 	dayandnight_bgm = {
-		key_value = 5092,
+		key_value = 5301,
 		description = {
 			{
 				{
@@ -2594,7 +2599,7 @@ pg.gameset = {
 					5
 				},
 				"bg_main_night",
-				"sk-menu"
+				"song-Alizarin-full-inst"
 			},
 			{
 				{
@@ -2602,7 +2607,7 @@ pg.gameset = {
 					8
 				},
 				"bg_main_twilight",
-				"sk-theme"
+				"song-Cyanidin-full-inst"
 			},
 			{
 				{
@@ -2610,7 +2615,7 @@ pg.gameset = {
 					16
 				},
 				"bg_main_day",
-				"sk-theme"
+				"song-Cyanidin-full-inst"
 			},
 			{
 				{
@@ -2618,7 +2623,7 @@ pg.gameset = {
 					19
 				},
 				"bg_main_twilight",
-				"sk-theme"
+				"song-Cyanidin-full-inst"
 			},
 			{
 				{
@@ -2626,7 +2631,7 @@ pg.gameset = {
 					24
 				},
 				"bg_main_night",
-				"sk-menu"
+				"song-Alizarin-full-inst"
 			}
 		}
 	},
@@ -2806,6 +2811,32 @@ pg.gameset = {
 			}
 		}
 	},
+	main_live_area_time = {
+		key_value = 0,
+		description = {
+			{
+				{
+					0,
+					8
+				},
+				"night"
+			},
+			{
+				{
+					8,
+					19
+				},
+				"day"
+			},
+			{
+				{
+					19,
+					24
+				},
+				"night"
+			}
+		}
+	},
 	food_shop_id = {
 		key_value = 0,
 		description = {
@@ -2833,6 +2864,16 @@ pg.gameset = {
 				50006,
 				50009
 			}
+		}
+	},
+	main_scene_silent_time = {
+		description = "",
+		key_value = 60
+	},
+	unoccupied_ship_nationality = {
+		key_value = 0,
+		description = {
+			97
 		}
 	}
 }

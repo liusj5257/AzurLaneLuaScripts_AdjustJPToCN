@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "苏俄冰锥减速",
 	time = 4,
+	name = "苏俄冰锥减速",
+	init_effect = "",
 	picture = "",
 	desc = "4s减速",
 	stack = 1,
@@ -27,11 +27,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "airPower",
-				number = 23,
 				time = 3.5,
 				dotType = 2,
-				k = 0
+				number = 23
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

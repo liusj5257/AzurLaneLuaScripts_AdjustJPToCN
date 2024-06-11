@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「아가씨」와 함께하는 시간\n\n<size=45>4 로마에 가면 로마법을 따르라?</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "둘째 날의 교류 대상은 노스 유니온. 진행은 순조로웠다.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "둘째 날의 교류 대상은 노스 유니온. 진행은 순조로웠다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -131,14 +131,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "노스 유니온 생활 구역·식당",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -198,8 +198,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "아... 동지쨩이랑 로열 네이비 사람이구나. 아직 안갔네......",
 			typewriter = {
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "응, 마침 밥 때가 되서, 실례 좀 하려고~",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,8 +241,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "...... 그렇구나. 그럼 특제 보르시 먹어봐, 맛있어.",
 			typewriter = {
@@ -271,15 +271,15 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "오래 기다렸지~ 이게 바로 나의 특제 찻잎으로 탄 홍차야♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -323,8 +323,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "............!",
 			typewriter = {
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "체이서가 홍차에 얼음을 넣었다.",
@@ -413,8 +413,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "...... 역시 노스 유니온 항로로 여러번 항행해 본 함선이야......",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "이처럼 모두 같이 홍차를 즐겼다.",
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

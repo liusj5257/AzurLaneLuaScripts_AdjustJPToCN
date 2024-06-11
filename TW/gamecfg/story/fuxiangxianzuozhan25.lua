@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN25",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			bgm = "battle-executor-type1",
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "唔————————！",
-			bgm = "battle-executor-type1",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -33,8 +33,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "居然……主動炸掉了鏡面海域維持裝置…？",
 			typewriter = {
@@ -82,8 +82,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "…………妳是什麼時候猜到的？",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "…………………防禦模組，啟動。移動模組功率增加70%，超載準備中———",
 			typewriter = {
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "……………………想都別想。",
 			typewriter = {
 				speed = 0.05,

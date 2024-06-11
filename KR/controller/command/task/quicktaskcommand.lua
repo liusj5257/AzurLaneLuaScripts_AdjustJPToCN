@@ -1,6 +1,6 @@
 slot0 = class("QuickTaskCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getType()
 	slot4 = nil
 
@@ -97,7 +97,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.AddGuildLivness(slot0)
+slot0.AddGuildLivness = function(slot0)
 	if slot0:IsGuildAddLivnessType() then
 		slot3 = 0
 		slot4 = false

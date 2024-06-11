@@ -15,12 +15,12 @@ slot0.GO_THEME_TEMPLATE = "CourtYardMediator:GO_THEME_TEMPLATE"
 slot0.ON_ADD_VISITOR_SHIP = "CourtYardMediator:ON_ADD_VISITOR_SHIP"
 slot0.ONE_KEY = "CourtYardMediator:ONE_KEY"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ONE_KEY, function (slot0)
 		uv0:sendNotification(GAME.BACKYARD_ONE_KEY)
 	end)
 	slot0:bind(uv0.ON_ADD_VISITOR_SHIP, function (slot0)
-		function slot1(slot0)
+		slot1 = function(slot0)
 			if slot0 then
 				_courtyard:GetController():AddVisitorShip(slot0)
 			end
@@ -114,7 +114,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetDorm(slot0.contextData.dorm or getProxy(DormProxy):getRawData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		DormProxy.DORM_UPDATEED,
 		DormProxy.INIMACY_AND_MONEY_ADD,
@@ -147,7 +147,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 
@@ -182,7 +182,7 @@ function slot0.handleNotification(slot0, slot1)
 	slot0:handleCourtyardNotification(slot2, slot3, slot4)
 end
 
-function slot0.handleCourtyardNotification(slot0, slot1, slot2, slot3)
+slot0.handleCourtyardNotification = function(slot0, slot1, slot2, slot3)
 	if not _courtyard or not _courtyard:IsLoaed() then
 		return
 	end
@@ -266,7 +266,7 @@ function slot0.handleCourtyardNotification(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.SettleExp(slot0, slot1)
+slot0.SettleExp = function(slot0, slot1)
 	if slot0.contextData.mode == CourtYardConst.SYSTEM_VISIT then
 		return
 	end
@@ -298,7 +298,7 @@ function slot0.SettleExp(slot0, slot1)
 	end
 end
 
-function slot0.OnExtend(slot0)
+slot0.OnExtend = function(slot0)
 	if getProxy(BagProxy):getItemCountById(ITEM_BACKYARD_AREA_EXTEND) <= 0 then
 		slot3 = pg.shop_template[getProxy(DormProxy):getRawData():GetExpandId()]
 
@@ -324,7 +324,7 @@ function slot0.OnExtend(slot0)
 	})
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	if _courtyard then
 		_courtyard:Dispose()
 
@@ -332,7 +332,7 @@ function slot0.remove(slot0)
 	end
 end
 
-function slot0.GenCourtYardData(slot0, slot1)
+slot0.GenCourtYardData = function(slot0, slot1)
 	slot3, slot4 = nil
 
 	if (slot0.contextData.mode or CourtYardConst.SYSTEM_DEFAULT) == CourtYardConst.SYSTEM_VISIT then

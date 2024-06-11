@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIAOQIANGMANHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"월간 만화 - 재블린\n\n<size=45>재블린, 좋은 아침!</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "재블린",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "쥬노",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -81,14 +81,14 @@ return {
 			}
 		},
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = ".............쥬노...?",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = ".............쥬노...?",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "학교.......아아아아! 지각이닷!",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,15 +156,15 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "(내 이름은 재블린, 항구 내의 유일한 J급 구축함!)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			actorName = "？？？",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 900183,
 			nameColor = "#a9f548",
 			say = "「나는 너 같은 여자 아이를 찾고 있다냥」",
 			flashout = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "고양이...말을 했어!?",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "「나는 예언냥이다. 재블린, 너는 앞으로——」",
 			typewriter = {
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "「운명을 만날 것이다! 냥!」",
 			typewriter = {
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "——！！！",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "아아아 안돼안돼! 오후에 지휘관에게 보고해야 하는데, 헤어스타일이 엉망이면 안되지——！",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

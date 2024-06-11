@@ -1,13 +1,13 @@
 slot0 = class("ChargeScene", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackChargeUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.diamondPanel = findTF(slot0._tf, "frame/viewContainer/diamondPanel")
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.detail = slot0:findTF("detail", slot0.blurPanel)
@@ -19,7 +19,7 @@ function slot0.didEnter(slot0)
 	slot0:refundUpdate()
 end
 
-function slot0.refundUpdate(slot0)
+slot0.refundUpdate = function(slot0)
 	slot0:updateDamondsData()
 	slot0:sortDamondItems()
 
@@ -36,19 +36,19 @@ function slot0.refundUpdate(slot0)
 	end
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.setChargedList(slot0, slot1)
+slot0.setChargedList = function(slot0, slot1)
 	slot0.chargedList = slot1
 end
 
-function slot0.initDamonds(slot0)
+slot0.initDamonds = function(slot0)
 	slot0.diamondUIItemList = slot0:initDiamondList(slot0.diamondPanel)
 end
 
-function slot0.confirm(slot0, slot1)
+slot0.confirm = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -56,8 +56,8 @@ function slot0.confirm(slot0, slot1)
 	slot0:emit(BackChargeMediator.CHARGE, slot1.id)
 end
 
-function slot0.initDiamondList(slot0, slot1)
-	function slot4(slot0)
+slot0.initDiamondList = function(slot0, slot1)
+	slot4 = function(slot0)
 		slot1 = BackChargeDiamondCard.New(slot0, uv0)
 
 		onButton(uv0, slot1.tr, function ()
@@ -67,7 +67,7 @@ function slot0.initDiamondList(slot0, slot1)
 		uv0.damondItems[slot0] = slot1
 	end
 
-	function slot5(slot0, slot1)
+	slot5 = function(slot0, slot1)
 		if not uv0.damondItems[slot1] then
 			uv1(slot1)
 
@@ -92,7 +92,7 @@ function slot0.initDiamondList(slot0, slot1)
 	return slot6
 end
 
-function slot0.updateDamondsData(slot0)
+slot0.updateDamondsData = function(slot0)
 	slot1 = pg.pay_data_display
 	slot0.damondItemVOs = {}
 	slot7 = getProxy(ServerProxy):getLastServer(getProxy(UserProxy):getData().uid)
@@ -109,7 +109,7 @@ function slot0.updateDamondsData(slot0)
 	end
 end
 
-function slot0.sortDamondItems(slot0)
+slot0.sortDamondItems = function(slot0)
 	if slot0.damondItemVOs == nil then
 		return
 	end
@@ -151,7 +151,7 @@ function slot0.sortDamondItems(slot0)
 	end
 end
 
-function slot0.getBuyCount(slot0, slot1, slot2)
+slot0.getBuyCount = function(slot0, slot1, slot2)
 	if not slot1 then
 		return 0
 	end
@@ -159,7 +159,7 @@ function slot0.getBuyCount(slot0, slot1, slot2)
 	return slot1[slot2] and slot3.buyCount or 0
 end
 
-function slot0.showItemDetail(slot0, slot1)
+slot0.showItemDetail = function(slot0, slot1)
 	slot2 = slot1.icon
 	slot3 = slot1.name and slot1.name or ""
 	slot4 = slot1.tipBonus or ""
@@ -280,7 +280,7 @@ function slot0.showItemDetail(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.blurPanel)
 end
 
-function slot0.bindDetailTF(slot0, slot1)
+slot0.bindDetailTF = function(slot0, slot1)
 	slot0.detailWindow = slot1
 	slot0.detailName = slot0:findTF("goods/name", slot0.detailWindow)
 	slot0.detailIcon = slot0:findTF("goods/icon", slot0.detailWindow)
@@ -314,15 +314,15 @@ function slot0.bindDetailTF(slot0, slot1)
 	slot0.detailNormalTip = slot0:findTF("NormalTips", slot0.detailWindow)
 end
 
-function slot0.revertDetailBlur(slot0)
+slot0.revertDetailBlur = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0._tf)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:revertDetailBlur()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 end
 
 return slot0

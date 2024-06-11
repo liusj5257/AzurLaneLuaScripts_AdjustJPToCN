@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG27",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_hms_8",
-			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "하하하하, 역시 매우 놀랐군! 가장 먼저 봤을 때 나도 깜짝 놀랐어!",
 			bgm = "bsm-5",
+			actor = 403030,
+			nameColor = "#ff5c5c",
+			say = "하하하하, 역시 매우 놀랐군! 가장 먼저 봤을 때 나도 깜짝 놀랐어!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "응. 그러면 전지전능하신 오이겐님, 무지한 저에게 알려주세요. 현재 주력 함대의 위장이 이미 들통이 나버렸는데 앞으로 어떻게 해야 하지?",
 			typewriter = {
@@ -182,9 +182,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 401020,
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "정말 순 억지야…알았어. 지금 함대에 작전 지령을 내릴게. 각 함선 자리에, 전투 준비라고.",
 			typewriter = {

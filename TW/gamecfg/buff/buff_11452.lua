@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 3000
+					number = 3000,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,44 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 10000
-				}
-			},
-			{
-				type = "BattleBuffAddBuff",
-				trigger = {
-					"onRemove"
-				},
-				arg_list = {
-					buff_id = 11453,
-					target = "TargetSelf"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					attr = "cannonPower",
-					number = 3220
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					attr = "loadSpeed",
-					number = 11100
+					number = 10000,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -80,8 +44,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 3440
+					number = 3220,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -91,44 +55,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 12200
-				}
-			},
-			{
-				type = "BattleBuffAddBuff",
-				trigger = {
-					"onRemove"
-				},
-				arg_list = {
-					buff_id = 11453,
-					target = "TargetSelf"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					attr = "cannonPower",
-					number = 3660
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					attr = "loadSpeed",
-					number = 13300
+					number = 11100,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -152,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 3880
+					number = 3440,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -163,44 +91,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 14400
-				}
-			},
-			{
-				type = "BattleBuffAddBuff",
-				trigger = {
-					"onRemove"
-				},
-				arg_list = {
-					buff_id = 11453,
-					target = "TargetSelf"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					attr = "cannonPower",
-					number = 4100
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					attr = "loadSpeed",
-					number = 15500
+					number = 12200,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -224,8 +116,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 4320
+					number = 3660,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -235,44 +127,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 16600
-				}
-			},
-			{
-				type = "BattleBuffAddBuff",
-				trigger = {
-					"onRemove"
-				},
-				arg_list = {
-					buff_id = 11453,
-					target = "TargetSelf"
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					attr = "cannonPower",
-					number = 4540
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach",
-					"onRemove"
-				},
-				arg_list = {
-					attr = "loadSpeed",
-					number = 17700
+					number = 13300,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -296,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 4760
+					number = 3880,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -307,8 +163,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 18800
+					number = 14400,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -332,8 +188,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 5000
+					number = 4100,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -343,8 +199,152 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 20000
+					number = 15500,
+					attr = "loadSpeed"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 11453,
+					target = "TargetSelf"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 4320,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 16600,
+					attr = "loadSpeed"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 11453,
+					target = "TargetSelf"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 4540,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 17700,
+					attr = "loadSpeed"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 11453,
+					target = "TargetSelf"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 4760,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 18800,
+					attr = "loadSpeed"
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onRemove"
+				},
+				arg_list = {
+					buff_id = 11453,
+					target = "TargetSelf"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 5000,
+					attr = "cannonPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach",
+					"onRemove"
+				},
+				arg_list = {
+					number = 20000,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -362,12 +362,12 @@ return {
 	desc_get = "",
 	name = "过载炮击",
 	init_effect = "jinengchufared",
+	id = 11452,
 	time = 10,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11452,
+	color = "red",
 	icon = 11450,
 	last_effect = "",
 	blink = {
@@ -385,8 +385,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 3000
+				number = 3000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -396,8 +396,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 10000
+				number = 10000,
+				attr = "loadSpeed"
 			}
 		},
 		{

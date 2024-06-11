@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꿈의 만남 - 일상편\n\n<size=45>숙녀들의 다과회</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 207030,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "늘 전투가 계속되면 마음이 울적해지죠……아카시, 일전에 부탁한 건 준비되었나요?",
 			bgm = "story-uta",
+			actor = 207030,
+			nameColor = "#92fc63",
+			say = "늘 전투가 계속되면 마음이 울적해지죠……아카시, 일전에 부탁한 건 준비되었나요?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "이 간식, 먹다보면 배부를 것 같은데, 차를 마시면 딱 좋게 소화되는 느낌이에요.",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "맛있어.",
 			typewriter = {
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "이 차…처음 경험해보는 깊은 맛이네요. 주인님께도 맛보여드리고 싶으니, 나중에 찻잎을 꼭 좀……",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "이 차…처음 경험해보는 깊은 맛이네요. 주인님께도 맛보여드리고 싶으니, 나중에 찻잎을 꼭 좀……",
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			withoutActorName = true,
+			actor = 207030,
 			nameColor = "#92fc63",
 			say = "후다닥! (일러스트리어스의 등 뒤로 숨는다)",
 			subActors = {
@@ -339,8 +339,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "와……정말 부끄러움을 많이 타나 보네.",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "처음 뵙겠습니다, 유니콘님……저는 루루티에라고 합니다. 잘 부탁드립……",
 			typewriter = {
@@ -415,12 +415,12 @@ return {
 			}
 		},
 		{
-			actor = 206030,
+			say = "이 아이는……유우야. 언제나, 유니콘을……지켜줘.",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "이 아이는……유우야. 언제나, 유니콘을……지켜줘.",
+			actor = 206030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -438,8 +438,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "네, 유우라고 하는군요……저한테도 코코포라는 친구가 있답니다.",
 			typewriter = {
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#92fc63",
 			say = "정말? 그, 그럼……유니콘, 루루티에씨랑 같이 코코포 타볼래!",
 			typewriter = {
 				speed = 0.05,
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,
@@ -545,8 +545,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "네, 언제든지 환영이랍니다, 유니콘님.",
 			typewriter = {
@@ -591,12 +591,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "유니콘씨와 루루티에 씨의 영혼의 색깔은 매우 닮았습니다. 그게 공명한 걸지도 모릅니다.",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "유니콘씨와 루루티에 씨의 영혼의 색깔은 매우 닮았습니다. 그게 공명한 걸지도 모릅니다.",
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -678,8 +678,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "그말대로지만, 뭐랄까……내가 더 신세를 졌단 느낌이 든단 말이지.",
 			typewriter = {
@@ -708,11 +708,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			withoutActorName = true,
-			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "(출렁 출렁 출렁)",
 			typewriter = {
@@ -757,11 +757,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			withoutActorName = true,
-			dir = 1,
+			actor = 207030,
 			nameColor = "#92fc63",
 			say = "(출렁 출렁 출렁)",
 			typewriter = {
@@ -777,8 +777,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "우왓?! 일러스트리어스씨도 전혀 밀리고 있지 않은 거에요……",
 			typewriter = {
@@ -794,8 +794,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "주인님께 못 보여줘.",
 			typewriter = {
@@ -811,10 +811,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "주인님이 안 계셔서 다행입니다. 만약 이렇게나 선정적인 광경에 유혹이라도 당했다면, 저희가 설 자리가 없어졌을 겁니다.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -832,8 +832,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "어느 입으로 말할까나, 이 아이들……",
 			typewriter = {
@@ -910,15 +910,15 @@ return {
 			}
 		},
 		{
-			actor = 10300030,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 10300030,
+			nameColor = "#92fc63",
 			say = "앗, 그렇지, 유니콘님. 이렇게 알게 된 기념으로……이 책을 드릴게요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -962,8 +962,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "잠깐 루루티에! 아무 것도 모르는 순진한 아이한테 그런 거 보여주면 안 되지!!!!!",
 			typewriter = {
@@ -976,8 +976,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#92fc63",
 			say = "아야나미, 알고 있어요, 저건……'후조시' 의 세계, 인 거에요.",
 			typewriter = {
 				speed = 0.05,

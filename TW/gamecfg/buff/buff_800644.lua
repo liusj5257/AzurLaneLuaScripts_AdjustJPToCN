@@ -9,8 +9,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.1
+					number = 0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -25,8 +25,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.111
+					number = 0.111,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -41,8 +41,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.122
+					number = 0.122,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -57,8 +57,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.133
+					number = 0.133,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -73,8 +73,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.144
+					number = 0.144,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -89,8 +89,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.155
+					number = 0.155,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.166
+					number = 0.166,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -121,8 +121,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.177
+					number = 0.177,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -137,8 +137,8 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.188
+					number = 0.188,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -153,15 +153,15 @@ return {
 				},
 				arg_list = {
 					group = 800640,
-					attr = "injureRatio",
-					number = 0.2
+					number = 0.2,
+					attr = "injureRatio"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "受到伤害提高",
 	stack = 1,
@@ -177,8 +177,8 @@ return {
 			},
 			arg_list = {
 				group = 800640,
-				attr = "injureRatio",
-				number = 0.1
+				number = 0.1,
+				attr = "injureRatio"
 			}
 		}
 	}

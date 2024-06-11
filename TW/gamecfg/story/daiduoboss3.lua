@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戰鬥！皇家女僕隊2nd\n\n<size=45>三　姐妹的防線</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202220,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "姐姐，這邊還可以戰鬥！讓指揮官見識一下皇家女僕隊的——",
 			bgm = "battle-boss-5",
+			actor = 202220,
+			nameColor = "#a9f548",
+			say = "姐姐，這邊還可以戰鬥！讓指揮官見識一下皇家女僕隊的——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202210,
 			dir = 1,
+			actor = 202210,
 			nameColor = "#a9f548",
 			say = "好啦~到此為止♪黛朵她們也不打算死守，我們還是也稍微保留點戰力比較好哦？",
 			typewriter = {
@@ -119,9 +119,9 @@ return {
 		{
 			actor = 202120,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "抱歉，突然把這麼重大的任務交給了妳",
 			flashout = {
 				dur = 0.25,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "沒關係，不過我應該感謝女僕長才對",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "作為港區新人，能像這樣為主人，為港區的大家發揮作用，是黛朵的榮幸",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 202040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202040,
+			nameColor = "#a9f548",
 			say = "是…！",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,9 +248,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
+			bgName = "bg_story_nepu2",
 			actor = 202040,
 			nameColor = "#a9f548",
 			say = "竟然…被期待了呢…",
@@ -288,9 +288,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "……不過果然黛朵還是……",
 			typewriter = {

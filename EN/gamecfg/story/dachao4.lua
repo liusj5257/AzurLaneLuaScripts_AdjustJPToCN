@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Gentle and Sweet Ooshio!\n\n<size=45>The Trusted Press Corps</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Pier",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Pier",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Ooshio and I were patrolling around the base.",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Aoba was in dire straits.",
 			typewriter = {
 				speed = 0.05,
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "...Maybe I should MAKE something happen?",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Ooshio went over to greet Aoba.",
 			typewriter = {
 				speed = 0.05,
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			actor = 303030,
+			say = "Oh, hey, Ooshio. You know anything I could use? Like something big that even I haven't heard about?",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Oh, hey, Ooshio. You know anything I could use? Like something big that even I haven't heard about?",
+			actor = 303030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "Hehehe♪ I reckon I do~",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 825
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Ooshio whispered something into Aoba's ear.",
 			typewriter = {
 				speed = 0.05,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "Holy crap! Y-you're giving me a scoop this big?! You might have it in you to be a reporter!",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,12 +257,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "Shhhh! Don't go shoutin'!",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Shhhh! Don't go shoutin'!",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -293,16 +293,16 @@ return {
 			}
 		},
 		{
-			actor = 303030,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			withoutActorName = true,
+			actor = 303030,
 			say = "After Aoba saw me, she panicked and tried her hardest to act normal.",
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = -3750
@@ -318,9 +318,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "What in the world was that about?",
 			typewriter = {
 				speed = 0.05,
@@ -328,12 +328,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "Ya curious what we were talkin' 'bout? Hehehe♪ It's a secret between girls that I can't letcha in on~",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"颯爽之白\n\n<size=45>四 加深了解</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "如此這般，歡迎會上寒暄的時候，順便嘗試著向北方聯合的夥伴們聊了對於對白俄羅斯的看法。",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "如此這般，歡迎會上寒暄的時候，順便嘗試著向北方聯合的夥伴們聊了對於對白俄羅斯的看法。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "今天的歡迎會估計也是她想和大家一起喝才提出來的吧！",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "所以說啊指揮官同志，也來陪我甘古特喝一杯！哈哈哈！",
 			typewriter = {
@@ -102,14 +102,14 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 702060,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "白俄羅斯是個好人哦～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,8 +137,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "有在妳眼中看起來不是好人的孩子嗎？",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "嗯……這麼說起來好像沒有呢~",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "哎…指揮官想問的不是這個人好不好，而是她的性格、待人方式，以及在戰鬥中的“習慣”吧？",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "不過指揮官並沒有去問她本人，而是選擇去問她的同伴呢。",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "才不是吧。白俄羅斯那傢伙聰明的很，要是指揮官直接問她，不光得不到想要的回答，沒準還會被耍得團團轉。",
 			typewriter = {
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "嗯……和我的預感一樣。",
 			typewriter = {
 				speed = 0.05,
@@ -283,14 +283,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 705050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "指揮官同志，你的臉色看起來不太好啊，發生什麼事了？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -318,8 +318,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "……在向夥伴們詢問有關白俄羅斯的事情？那還真是巧啊。",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "她雖然很依賴直覺，但也不是那種會忽視踏實收集情報的性格。",
 			typewriter = {
@@ -387,9 +387,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "白俄羅斯有時候是會提出進行打賭，但不要上當是指……？",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "那傢伙只會在自己“絕對會贏”的時候才會“賭”。",
 			typewriter = {
@@ -421,8 +421,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "啊，不好意思，沒注意指揮官同志的杯子空了。",
 			typewriter = {

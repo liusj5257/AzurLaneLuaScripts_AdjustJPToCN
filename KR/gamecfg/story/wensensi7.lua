@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"동생의 변화\n\n<size=45>6. 동생의 웃음</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "언니들의 도움을 받아 빈센스는 비서함이 해야 하는 일에 대해 파악하기 시작했다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "언니들의 도움을 받아 빈센스는 비서함이 해야 하는 일에 대해 파악하기 시작했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "약간 실수 투성이지만 그래도 도움이 되고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "빈센스의 이런 모습을 보니 정말 기쁘네.",
 			typewriter = {
 				speed = 0.05,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#92fc63",
 			say = "빈센스가 준 것은…… 잘 포장된 과자?",
 			typewriter = {
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#92fc63",
 			say = "내 모습을 본따서 만들었어. 조금 어설프지만 마음은 전해질 거야.",
 			typewriter = {
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "어떤 모습일지 상상이 간다.",
 			typewriter = {
 				speed = 0.05,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "앞으로 더 힘낼게.",
 			typewriter = {
 				speed = 0.05,
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "응…! 하지만 지휘관… 앞으로도 같이 낮잠 자줄 거지?",
 			typewriter = {
 				speed = 0.05,

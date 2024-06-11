@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29642,
 	picture = "",
 	desc = "主炮每进行10次攻击，触发专属弹幕-塔什干μII",
 	stack = 1,
-	id = 29642,
+	color = "red",
 	icon = 29640,
 	last_effect = "",
 	effect_list = {
@@ -17,9 +17,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 29640,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 29640,
 				index = {
 					1
 				}
@@ -31,8 +31,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29642,
+				target = "TargetSelf",
 				countType = 29640
 			}
 		}

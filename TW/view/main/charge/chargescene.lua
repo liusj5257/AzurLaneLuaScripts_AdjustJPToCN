@@ -3,16 +3,16 @@ slot0.TYPE_DIAMOND = 1
 slot0.TYPE_GIFT = 2
 slot0.TYPE_ITEM = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChargeShopUI"
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:closeView()
 end
 
-function slot0.preload(slot0, slot1)
-	function slot3()
+slot0.preload = function(slot0, slot1)
+	slot3 = function()
 		slot1 = uv0:getChargedList()
 		slot2 = uv0:GetNormalList()
 		slot3 = uv0:GetNormalGroupList()
@@ -45,33 +45,33 @@ function slot0.preload(slot0, slot1)
 	end
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.setFirstChargeIds(slot0, slot1)
+slot0.setFirstChargeIds = function(slot0, slot1)
 	slot0.firstChargeIds = slot1
 end
 
-function slot0.setChargedList(slot0, slot1)
+slot0.setChargedList = function(slot0, slot1)
 	slot0.chargedList = slot1
 end
 
-function slot0.setNormalList(slot0, slot1)
+slot0.setNormalList = function(slot0, slot1)
 	slot0.normalList = slot1
 end
 
-function slot0.setNormalGroupList(slot0, slot1)
+slot0.setNormalGroupList = function(slot0, slot1)
 	slot0.normalGroupList = slot1
 
 	slot0:addRefreshTimer(GetZeroTime())
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.top = slot0:findTF("adapt/top", slot0.blurPanel)
 	slot0.frame = slot0:findTF("frame")
@@ -122,13 +122,13 @@ function slot0.init(slot0)
 	slot0:initSubView()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setActive(slot0.chat, false)
 	onButton(slot0, slot0:findTF("back_button", slot0.top), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	function slot4()
+	slot4 = function()
 		uv0:displayShipWord()
 		uv0:emit(ChargeMediator.CLICK_MING_SHI)
 	end
@@ -147,7 +147,7 @@ function slot0.didEnter(slot0)
 
 	onButton(slot0, slot0.switchBtn, function ()
 		uv0:emit(ChargeMediator.SWITCH_TO_SHOP, {
-			chargePage = uv0.curSubViewNum
+			warp = NewShopsScene.TYPE_SHOP_STREET
 		})
 		uv0:stopCV()
 	end, SFX_PANEL)
@@ -167,11 +167,11 @@ function slot0.didEnter(slot0)
 	slot0:jpUIEnter()
 end
 
-function slot0.OnChargeSuccess(slot0, slot1)
+slot0.OnChargeSuccess = function(slot0, slot1)
 	slot0.chargeTipWindow:ExecuteAction("Show", slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:unBlurView()
 
 	if slot0.chargeTipWindow then
@@ -203,7 +203,7 @@ function slot0.willExit(slot0)
 	slot0:stopCV()
 end
 
-function slot0.initSubView(slot0)
+slot0.initSubView = function(slot0)
 	slot0.subViewContainer = slot0:findTF("SubView", slot0.viewContainer)
 	slot0.diamondShopView = ChargeDiamondShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
 	slot0.giftShopView = ChargeGiftShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
@@ -216,7 +216,7 @@ function slot0.initSubView(slot0)
 	}
 end
 
-function slot0.switchSubView(slot0, slot1)
+slot0.switchSubView = function(slot0, slot1)
 	if slot1 == slot0.curSubViewNum then
 		return
 	end
@@ -241,18 +241,18 @@ function slot0.switchSubView(slot0, slot1)
 	end
 end
 
-function slot0.switchSubViewByTogger(slot0, slot1)
+slot0.switchSubViewByTogger = function(slot0, slot1)
 	triggerToggle(slot0.toggleList[slot1], true)
 end
 
-function slot0.updateCurSubView(slot0)
+slot0.updateCurSubView = function(slot0)
 	slot1 = slot0.subViewList[slot0.curSubViewNum]
 
 	slot1:setGoodData(slot0.firstChargeIds, slot0.chargedList, slot0.normalList, slot0.normalGroupList)
 	slot1:reUpdateAll()
 end
 
-function slot0.updateNoRes(slot0, slot1)
+slot0.updateNoRes = function(slot0, slot1)
 	if not slot1 then
 		slot1 = slot0.contextData.noRes
 	else
@@ -296,7 +296,7 @@ function slot0.updateNoRes(slot0, slot1)
 	end
 end
 
-function slot0.displayShipWord(slot0, slot1, slot2, slot3)
+slot0.displayShipWord = function(slot0, slot1, slot2, slot3)
 	if not slot0.chatFlag then
 		if not slot1 and slot0.contextData.noRes and #slot0.contextData.noRes > 0 then
 			setActive(slot0.chat, false)
@@ -359,12 +359,12 @@ function slot0.displayShipWord(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.InitChatPosition(slot0)
+slot0.InitChatPosition = function(slot0)
 	slot3 = slot0.chat.parent:InverseTransformPoint(slot0.painting.parent:TransformPoint(slot0.painting.localPosition + Vector3(-21, -176, 0)))
 	slot0.chat.localPosition = Vector3(slot3.x, slot3.y, 0)
 end
 
-function slot0.playHeartEffect(slot0)
+slot0.playHeartEffect = function(slot0)
 	if slot0.heartsTimer then
 		slot0.heartsTimer:Stop()
 	end
@@ -378,7 +378,7 @@ function slot0.playHeartEffect(slot0)
 	slot0.heartsTimer:Start()
 end
 
-function slot0.createLive2D(slot0)
+slot0.createLive2D = function(slot0)
 	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
 			configId = 312011
@@ -389,7 +389,7 @@ function slot0.createLive2D(slot0)
 	}))
 end
 
-function slot0.checkBuyDone(slot0, slot1)
+slot0.checkBuyDone = function(slot0, slot1)
 	if not slot0.live2dChar then
 		return
 	end
@@ -428,7 +428,7 @@ function slot0.checkBuyDone(slot0, slot1)
 	return slot5
 end
 
-function slot0.playCV(slot0, slot1)
+slot0.playCV = function(slot0, slot1)
 	slot3 = nil
 
 	if pg.pay_level_award[slot1] and slot2.cv_key ~= "" then
@@ -444,7 +444,7 @@ function slot0.playCV(slot0, slot1)
 	end
 end
 
-function slot0.stopCV(slot0)
+slot0.stopCV = function(slot0)
 	if slot0._currentVoice then
 		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0._currentVoice)
 	end
@@ -452,7 +452,7 @@ function slot0.stopCV(slot0)
 	slot0._currentVoice = nil
 end
 
-function slot0.blurView(slot0)
+slot0.blurView = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.viewContainer, {
 		pbList = {
 			slot0:findTF("blurBg", slot0.viewContainer)
@@ -460,11 +460,11 @@ function slot0.blurView(slot0)
 	})
 end
 
-function slot0.unBlurView(slot0)
+slot0.unBlurView = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.viewContainer, slot0.frame)
 end
 
-function slot0.jpUIInit(slot0)
+slot0.jpUIInit = function(slot0)
 	if PLATFORM_CODE ~= PLATFORM_JP then
 		return
 	end
@@ -473,7 +473,7 @@ function slot0.jpUIInit(slot0)
 	slot0.userAgreeBtn4 = slot0:findTF("frame/raw2Btn")
 end
 
-function slot0.jpUIEnter(slot0)
+slot0.jpUIEnter = function(slot0)
 	if PLATFORM_CODE ~= PLATFORM_JP then
 		return
 	end
@@ -486,7 +486,7 @@ function slot0.jpUIEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.addRefreshTimer(slot0, slot1)
+slot0.addRefreshTimer = function(slot0, slot1)
 	(function ()
 		if uv0.refreshTimer then
 			uv0.refreshTimer:Stop()
@@ -508,7 +508,7 @@ function slot0.addRefreshTimer(slot0, slot1)
 	slot0.refreshTimer.func()
 end
 
-function slot0.checkFreeGiftTag(slot0)
+slot0.checkFreeGiftTag = function(slot0)
 	TagTipHelper.FreeGiftTag({
 		slot0.giftTip
 	})

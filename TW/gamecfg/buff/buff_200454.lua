@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "空白BUFF",
 	time = 0,
+	name = "空白BUFF",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

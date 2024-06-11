@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.equip_upgrade_template = {
 	[101] = {
-		id = 101,
 		category1 = 1,
 		category2 = 1,
+		id = 101,
 		canvasSize = {
 			2700,
 			900
@@ -108,9 +108,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[102] = {
-		id = 102,
 		category1 = 1,
 		category2 = 2,
+		id = 102,
 		canvasSize = {
 			2700,
 			900
@@ -199,9 +199,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[103] = {
-		id = 103,
 		category1 = 1,
 		category2 = 3,
+		id = 103,
 		canvasSize = {
 			2250,
 			1170
@@ -298,9 +298,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[104] = {
-		id = 104,
 		category1 = 1,
 		category2 = 4,
+		id = 104,
 		canvasSize = {
 			3195,
 			1170
@@ -372,6 +372,12 @@ pg.equip_upgrade_template = {
 				2970,
 				990,
 				14500,
+				false
+			},
+			{
+				2970,
+				450,
+				14460,
 				false
 			}
 		},
@@ -489,13 +495,41 @@ pg.equip_upgrade_template = {
 					2813,
 					990
 				}
+			},
+			{
+				{
+					2227,
+					450
+				},
+				{
+					2813,
+					450
+				}
+			},
+			{
+				{
+					1732,
+					720
+				},
+				{
+					2790,
+					720
+				},
+				{
+					2790,
+					450
+				},
+				{
+					2813,
+					450
+				}
 			}
 		}
 	},
 	[105] = {
-		id = 105,
 		category1 = 1,
 		category2 = 5,
+		id = 105,
 		canvasSize = {
 			2700,
 			900
@@ -640,9 +674,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[113] = {
-		id = 113,
 		category1 = 1,
 		category2 = 13,
+		id = 113,
 		canvasSize = {
 			1800,
 			1170
@@ -741,9 +775,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[106] = {
-		id = 106,
 		category1 = 1,
 		category2 = 6,
+		id = 106,
 		canvasSize = {
 			2700,
 			1665
@@ -1006,9 +1040,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[107] = {
-		id = 107,
 		category1 = 1,
 		category2 = 7,
+		id = 107,
 		canvasSize = {
 			2700,
 			1170
@@ -1193,9 +1227,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[108] = {
-		id = 108,
 		category1 = 1,
 		category2 = 8,
+		id = 108,
 		canvasSize = {
 			2700,
 			1170
@@ -1374,9 +1408,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[201] = {
-		id = 201,
 		category1 = 2,
 		category2 = 1,
+		id = 201,
 		canvasSize = {
 			2700,
 			1170
@@ -1410,7 +1444,7 @@ pg.equip_upgrade_template = {
 			},
 			{
 				1575,
-				990,
+				450,
 				21540,
 				false
 			},
@@ -1442,6 +1476,12 @@ pg.equip_upgrade_template = {
 				2475,
 				720,
 				21600,
+				false
+			},
+			{
+				2025,
+				990,
+				21620,
 				false
 			}
 		},
@@ -1482,24 +1522,6 @@ pg.equip_upgrade_template = {
 				{
 					968,
 					720
-				}
-			},
-			{
-				{
-					1282,
-					720
-				},
-				{
-					1395,
-					720
-				},
-				{
-					1395,
-					990
-				},
-				{
-					1418,
-					990
 				}
 			},
 			{
@@ -1549,13 +1571,45 @@ pg.equip_upgrade_template = {
 					2318,
 					720
 				}
+			},
+			{
+				{
+					1282,
+					720
+				},
+				{
+					1395,
+					720
+				},
+				{
+					1395,
+					450
+				},
+				{
+					1418,
+					450
+				}
+			},
+			{
+				{
+					675,
+					799
+				},
+				{
+					675,
+					990
+				},
+				{
+					1868,
+					990
+				}
 			}
 		}
 	},
 	[202] = {
-		id = 202,
 		category1 = 2,
 		category2 = 2,
+		id = 202,
 		canvasSize = {
 			2250,
 			630
@@ -1652,9 +1706,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[203] = {
-		id = 203,
 		category1 = 2,
 		category2 = 3,
+		id = 203,
 		canvasSize = {
 			2250,
 			1125
@@ -1775,9 +1829,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[204] = {
-		id = 204,
 		category1 = 2,
 		category2 = 4,
+		id = 204,
 		canvasSize = {
 			1800,
 			900
@@ -1898,9 +1952,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[205] = {
-		id = 205,
 		category1 = 2,
 		category2 = 5,
+		id = 205,
 		canvasSize = {
 			2700,
 			630
@@ -2029,9 +2083,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[213] = {
-		id = 213,
 		category1 = 2,
 		category2 = 13,
+		id = 213,
 		canvasSize = {
 			1350,
 			630
@@ -2096,9 +2150,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[206] = {
-		id = 206,
 		category1 = 2,
 		category2 = 6,
+		id = 206,
 		canvasSize = {
 			2700,
 			1980
@@ -2391,9 +2445,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[207] = {
-		id = 207,
 		category1 = 2,
 		category2 = 7,
+		id = 207,
 		canvasSize = {
 			2700,
 			900
@@ -2538,9 +2592,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[208] = {
-		id = 208,
 		category1 = 2,
 		category2 = 8,
+		id = 208,
 		canvasSize = {
 			3150,
 			900
@@ -2725,9 +2779,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[301] = {
-		id = 301,
 		category1 = 3,
 		category2 = 1,
+		id = 301,
 		canvasSize = {
 			3150,
 			900
@@ -2896,9 +2950,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[302] = {
-		id = 302,
 		category1 = 3,
 		category2 = 2,
+		id = 302,
 		canvasSize = {
 			2700,
 			630
@@ -3011,9 +3065,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[303] = {
-		id = 303,
 		category1 = 3,
 		category2 = 3,
+		id = 303,
 		canvasSize = {
 			1350,
 			900
@@ -3070,9 +3124,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[304] = {
-		id = 304,
 		category1 = 3,
 		category2 = 4,
+		id = 304,
 		canvasSize = {
 			2700,
 			900
@@ -3209,9 +3263,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[305] = {
-		id = 305,
 		category1 = 3,
 		category2 = 5,
+		id = 305,
 		canvasSize = {
 			2700,
 			900
@@ -3300,9 +3354,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[313] = {
-		id = 313,
 		category1 = 3,
 		category2 = 13,
+		id = 313,
 		canvasSize = {
 			2250,
 			1170
@@ -3407,9 +3461,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[306] = {
-		id = 306,
 		category1 = 3,
 		category2 = 6,
+		id = 306,
 		canvasSize = {
 			2700,
 			1440
@@ -3487,6 +3541,12 @@ pg.equip_upgrade_template = {
 				2475,
 				1260,
 				36720,
+				false
+			},
+			{
+				2025,
+				720,
+				36740,
 				false
 			}
 		},
@@ -3618,13 +3678,23 @@ pg.equip_upgrade_template = {
 					2318,
 					1260
 				}
+			},
+			{
+				{
+					1732,
+					720
+				},
+				{
+					1868,
+					720
+				}
 			}
 		}
 	},
 	[307] = {
-		id = 307,
 		category1 = 3,
 		category2 = 7,
+		id = 307,
 		canvasSize = {
 			2700,
 			900
@@ -3793,9 +3863,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[308] = {
-		id = 308,
 		category1 = 3,
 		category2 = 8,
+		id = 308,
 		canvasSize = {
 			2700,
 			1170
@@ -4012,9 +4082,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[401] = {
-		id = 401,
 		category1 = 4,
 		category2 = 1,
+		id = 401,
 		canvasSize = {
 			1800,
 			900
@@ -4087,9 +4157,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[402] = {
-		id = 402,
 		category1 = 4,
 		category2 = 2,
+		id = 402,
 		canvasSize = {
 			1800,
 			1440
@@ -4137,6 +4207,12 @@ pg.equip_upgrade_template = {
 				1575,
 				720,
 				42080,
+				false
+			},
+			{
+				675,
+				450,
+				42160,
 				false
 			}
 		},
@@ -4190,13 +4266,23 @@ pg.equip_upgrade_template = {
 					1418,
 					720
 				}
+			},
+			{
+				{
+					382,
+					450
+				},
+				{
+					518,
+					450
+				}
 			}
 		}
 	},
 	[403] = {
-		id = 403,
 		category1 = 4,
 		category2 = 3,
+		id = 403,
 		canvasSize = {
 			900,
 			900
@@ -4237,9 +4323,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[404] = {
-		id = 404,
 		category1 = 4,
 		category2 = 4,
+		id = 404,
 		canvasSize = {
 			1800,
 			1125
@@ -4334,9 +4420,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[405] = {
-		id = 405,
 		category1 = 4,
 		category2 = 5,
+		id = 405,
 		canvasSize = {
 			2700,
 			630
@@ -4465,9 +4551,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[413] = {
-		id = 413,
 		category1 = 4,
 		category2 = 13,
+		id = 413,
 		canvasSize = {
 			1350,
 			900
@@ -4508,16 +4594,16 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[406] = {
-		id = 406,
 		category1 = 4,
 		category2 = 6,
+		id = 406,
 		canvasSize = {
-			2700,
-			630
+			2790,
+			1080
 		},
 		canvasPadding = {
-			1,
-			2
+			2,
+			1
 		},
 		gridSize = {
 			45,
@@ -4525,139 +4611,155 @@ pg.equip_upgrade_template = {
 		},
 		equipments = {
 			{
-				225,
-				450,
+				270,
+				675,
 				46140,
 				false
 			},
 			{
+				720,
 				675,
-				450,
 				46040,
 				false
 			},
 			{
-				1125,
-				180,
+				1170,
+				405,
 				46060,
 				false
 			},
 			{
-				1125,
-				450,
+				1170,
+				675,
 				46240,
 				false
 			},
 			{
-				1575,
-				450,
+				1620,
+				675,
 				46260,
 				false
 			},
 			{
-				2025,
-				180,
+				2070,
+				405,
 				46340,
 				false
 			},
 			{
-				2475,
-				180,
+				2520,
+				405,
 				46360,
 				false
 			},
 			{
-				2475,
-				450,
+				2520,
+				135,
 				46380,
+				false
+			},
+			{
+				1620,
+				945,
+				46440,
 				false
 			}
 		},
 		links = {
 			{
 				{
-					382,
-					450
+					427,
+					675
 				},
 				{
-					518,
-					450
+					563,
+					675
 				}
 			},
 			{
 				{
-					832,
-					450
+					877,
+					675
 				},
 				{
-					968,
-					450
+					1013,
+					675
 				}
 			},
 			{
 				{
-					832,
-					450
+					877,
+					675
 				},
 				{
-					945,
-					450
+					990,
+					675
 				},
 				{
-					945,
-					180
+					990,
+					405
 				},
 				{
-					968,
-					180
+					1013,
+					405
 				}
 			},
 			{
 				{
-					1282,
-					450
+					1327,
+					675
 				},
 				{
-					1418,
-					450
+					1463,
+					675
 				}
 			},
 			{
 				{
-					1282,
-					180
+					1327,
+					405
 				},
 				{
-					1868,
-					180
+					1913,
+					405
 				}
 			},
 			{
 				{
-					2182,
-					180
+					2227,
+					405
 				},
 				{
-					2318,
-					180
+					2363,
+					405
 				}
 			},
 			{
 				{
-					2475,
-					259
+					2520,
+					326
 				},
 				{
-					2475,
-					371
+					2520,
+					214
+				}
+			},
+			{
+				{
+					1620,
+					754
+				},
+				{
+					1620,
+					866
 				}
 			}
 		}
 	},
 	[407] = {
-		id = 407,
 		category1 = 4,
 		category2 = 7,
+		id = 407,
 		canvasSize = {
 			2250,
 			630
@@ -4754,9 +4856,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[408] = {
-		id = 408,
 		category1 = 4,
 		category2 = 8,
+		id = 408,
 		canvasSize = {
 			2250,
 			630
@@ -4853,9 +4955,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[1001] = {
-		id = 1001,
 		category1 = 10,
 		category2 = 1,
+		id = 1001,
 		canvasSize = {
 			2250,
 			1170
@@ -4934,9 +5036,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[1002] = {
-		id = 1002,
 		category1 = 10,
 		category2 = 31,
+		id = 1002,
 		canvasSize = {
 			2700,
 			900
@@ -5073,9 +5175,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[1004] = {
-		id = 1004,
 		category1 = 10,
 		category2 = 4,
+		id = 1004,
 		canvasSize = {
 			2700,
 			900
@@ -5148,9 +5250,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[1005] = {
-		id = 1005,
 		category1 = 10,
 		category2 = 5,
+		id = 1005,
 		canvasSize = {
 			1845,
 			1170
@@ -5239,9 +5341,9 @@ pg.equip_upgrade_template = {
 		}
 	},
 	[1006] = {
-		id = 1006,
 		category1 = 10,
 		category2 = 6,
+		id = 1006,
 		canvasSize = {
 			3150,
 			900

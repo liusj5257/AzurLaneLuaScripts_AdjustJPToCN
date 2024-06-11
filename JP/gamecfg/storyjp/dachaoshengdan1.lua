@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オペレーション・クリスマス！\n\n<size=45>一　学友の悩み？</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ドレスはいい案ではあるけど…しかし……",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "ドレスはいい案ではあるけど…しかし……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "いやいや、あの陛下に限ってドレスが足りないわけがない。それに私の選んだドレスはどう考えても格式を欠いてしまう",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "わわ！？ご、ごきげんようウォースパイトさん…う、うち邪魔しちゃった…？",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "わわ！？ご、ごきげんようウォースパイトさん…う、うち邪魔しちゃった…？",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "そそ、そんな！うち別に感謝されるようなアドバイスはしてないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "はい！……えええ！もうお出かけするの？う、うちちょっと支度してくる……！",
 			typewriter = {
 				speed = 0.05,

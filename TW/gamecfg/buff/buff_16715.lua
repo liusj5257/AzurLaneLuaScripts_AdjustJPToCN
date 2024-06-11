@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.035
+					number = 0.035,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.045
+					number = 0.045,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.055
+					number = 0.055,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.065
+					number = 0.065,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.075
+					number = 0.075,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_leigensibao",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_leigensibao"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 16715,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16715,
+	color = "red",
 	icon = 16715,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_leigensibao",
-				number = 0.035
+				number = 0.035,
+				attr = "DMG_TAG_EHC_leigensibao"
 			}
 		}
 	}

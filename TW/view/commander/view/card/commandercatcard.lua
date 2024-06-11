@@ -2,7 +2,7 @@ slot0 = class("CommanderCatCard")
 slot0.MARK_TYPE_CIRCLE = 1
 slot0.MARK_TYPE_TICK = 2
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.infoTF = slot0._tf:Find("info")
@@ -41,7 +41,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	setActive(slot0.expUp, false)
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	if not IsNil(slot0.lockTr) then
 		setActive(slot0.lockTr, false)
 	end
@@ -62,7 +62,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	setActive(slot0.tip, slot1 and slot1.id ~= 0 and slot1:getTalentPoint() > 0 and not LOCK_COMMANDER_TALENT_TIP)
 end
 
-function slot0.UpdateCommander(slot0, slot1, slot2)
+slot0.UpdateCommander = function(slot0, slot1, slot2)
 	slot3 = slot0.commanderVO
 	slot0.levelTF.text = slot3.level
 
@@ -75,7 +75,7 @@ function slot0.UpdateCommander(slot0, slot1, slot2)
 	slot0:UpdateSelected(slot1, slot2)
 end
 
-function slot0.UpdateSelected(slot0, slot1, slot2)
+slot0.UpdateSelected = function(slot0, slot1, slot2)
 	if not slot0.commanderVO then
 		setActive(slot0.mark, false)
 
@@ -88,7 +88,7 @@ function slot0.UpdateSelected(slot0, slot1, slot2)
 	slot0:UpdateCommanderName(slot4, slot2)
 end
 
-function slot0.UpdateCommanderName(slot0, slot1, slot2)
+slot0.UpdateCommanderName = function(slot0, slot1, slot2)
 	if not slot0.commanderVO or slot3.id == 0 then
 		slot0.scrollTxt:SetText("")
 
@@ -102,7 +102,7 @@ function slot0.UpdateCommanderName(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

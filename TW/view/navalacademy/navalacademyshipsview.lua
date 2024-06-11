@@ -1,6 +1,6 @@
 slot0 = class("NavalAcademyShipsView")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.parent = slot1
 	slot0.academyStudents = {}
 	slot0._map = slot1:findTF("academyMap/map")
@@ -9,13 +9,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.academyGraphPath = GraphPath.New(AcademyGraph)
 end
 
-function slot0.BindBuildings(slot0, slot1)
+slot0.BindBuildings = function(slot0, slot1)
 	slot0.buildings = _.map(slot1, function (slot0)
 		return slot0._tf
 	end)
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	slot1, slot2 = slot0:getStudents()
 
 	_.each(_.keys(slot0.academyStudents), function (slot0)
@@ -49,11 +49,11 @@ function slot0.Refresh(slot0)
 	slot0:sortStudents()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0:Refresh()
 end
 
-function slot0.onStateChange(slot0, slot1, slot2)
+slot0.onStateChange = function(slot0, slot1, slot2)
 	if slot0.sortTimer then
 		slot0.sortTimer:Stop()
 
@@ -69,7 +69,7 @@ function slot0.onStateChange(slot0, slot1, slot2)
 	end
 end
 
-function slot0.sortStudents(slot0)
+slot0.sortStudents = function(slot0)
 	table.insertto({}, slot0.buildings)
 
 	for slot5, slot6 in pairs(slot0.academyStudents) do
@@ -89,7 +89,7 @@ function slot0.sortStudents(slot0)
 	end
 end
 
-function slot0.onTask(slot0, slot1, slot2)
+slot0.onTask = function(slot0, slot1, slot2)
 	slot3 = getProxy(TaskProxy)
 	slot4 = getProxy(ActivityProxy)
 
@@ -150,11 +150,11 @@ function slot0.onTask(slot0, slot1, slot2)
 	end
 end
 
-function slot0.emit(slot0, ...)
+slot0.emit = function(slot0, ...)
 	slot0.parent:emit(...)
 end
 
-function slot0.clearStudents(slot0)
+slot0.clearStudents = function(slot0)
 	if slot0.sortTimer then
 		slot0.sortTimer:Stop()
 
@@ -169,14 +169,14 @@ function slot0.clearStudents(slot0)
 	slot0.academyStudents = {}
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:clearStudents()
 end
 
-function slot0.getStudents(slot0)
+slot0.getStudents = function(slot0)
 	slot3 = getProxy(TaskProxy)
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		slot3 = _.flatten(slot0:getConfig("config_data"))
 		slot4, slot5 = nil
 

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "level02",
 			actor = 408080,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "로열 사람은 다 나쁜 사람이야.",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "——사람을 괴롭혀.",
 			typewriter = {
 				speed = 0.05,
@@ -117,12 +117,12 @@ return {
 		{
 			actor = 408080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "등에 멘 거? 비밀이야.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "에니그마? 응, U-110은 에니그마가 가장 좋아.",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "재미있지? U-110은 암호 해독 게임이 가장 좋아~",
 			typewriter = {
 				speed = 0.05,
@@ -202,12 +202,12 @@ return {
 		{
 			actor = 201070,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "여전히 알아내지 못했어.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -275,8 +275,8 @@ return {
 			say = "나한테 에니그마와 코드북을 주면, 너한테 막대사탕을 줄게. 어때?",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -341,8 +341,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "응, 상어 게임은 다들 좋아하지.",
 			typewriter = {
 				speed = 0.05,

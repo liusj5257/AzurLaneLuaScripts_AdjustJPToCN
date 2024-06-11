@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 701080,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "♪～",
 			bgm = "deepblue-image",
+			actor = 701080,
+			nameColor = "#a9f548",
+			say = "♪～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "グロームキィは上機嫌のようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "…………（じーーー）",
 			typewriter = {
@@ -55,9 +55,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "グレミャーシュチは相変わらずいつもジト目でコ・チ・ラを観察している。",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "さっきからまたチラチラと見てきたね。……なにか用？",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "グレミャーシュチ、同志指揮官に冷たいよ！どうして仲良くしないの？",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "グレミャーシュチはただの護衛担当だから別に。仲良くやる必要もないけど。うん、そんなとこ",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "つれないなー。同志指揮官！なにかわからないことがあったらいつでも聞いてね！グレミャーシュチのことも大丈夫よ！",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 8,
 			side = 0,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "ふん。……まあ、そんなとこね",
 			typewriter = {
@@ -190,9 +190,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "…………二人は仲がいいんだな。",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "グレミャーシュチも嬉しいよね！ね！（ぎゅっ",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 7,
 			side = 0,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "わ、わかったから急に抱きつかないで…（むぎゅっ",
 			typewriter = {
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 701080,
 			side = 1,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 701080,
+			nameColor = "#a9f548",
 			say = "だめだよ！久しぶりに会ったからグレミャーシュチのこのもふもふに抱きつきたいもん！（もふもふ",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -287,8 +287,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "…………………（もふもふもふ",
 			typewriter = {
@@ -301,9 +301,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "…………なんか埒が明かないな。",
 			typewriter = {
 				speed = 0.05,
@@ -315,15 +315,15 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702040,
+			nameColor = "#a9f548",
 			say = "おっ、戻ったか同志指揮官。一ついいお知らせだ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "ここの制御室？っぽい場所を発見しました～もしかしたらお宝があるかもしれませんよー",
 			typewriter = {
@@ -368,9 +368,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702040,
 			dir = 1,
 			blackBg = true,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "ああ。上手くいけば、安全に脱出できる道も見つかるかもな",
 			typewriter = {

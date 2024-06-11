@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」净化篇\n\n<size=45>三 危机发生！？</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "病毒清除完成！指挥官也越来越顺手了呢",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "病毒清除完成！指挥官也越来越顺手了呢",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "喔喔？…这、这是！“随机单词”！！！",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "……本来应该是这的样，但是不知怎么的莫名连上了各种各样的空间，所以变成了能把物质变换成数据的超科技呢",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "顺便一提，这个箱子的制作者是我（诶嘿",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "（制作者的事被完美忽略过去了……）比、比如说——",
 			typewriter = {
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "糟糕了，明明今天是休息日，上面却突然下达了“清除漂流到港区的残骸”的命令啊",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "呜哇，这也太突然了……",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "“爱酱危机一发！”",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "看起来完全排不上用场呢…好，让{namecode:13}也摇摇看吧！",
 			typewriter = {
@@ -351,12 +351,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "好，那就…恰咔恰咔——酱，是蛮啾吗，看起来比食物稍微能多派上点用场",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "好，那就…恰咔恰咔——酱，是蛮啾吗，看起来比食物稍微能多派上点用场",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "原来如此！这就是所谓的“打个屁”吧！{namecode:13}，完全不懂呢！",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -416,8 +416,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "“汽水糖”，“酸素可乐”，“蛮啾”……有了！",
 			typewriter = {
@@ -481,8 +481,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "<size=97.5>咚！</size>",
 			effects = {
@@ -500,8 +500,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "好！危机回避～！",
 			effects = {
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "咕…确实……那只能靠那个了！",
 			typewriter = {
@@ -601,12 +601,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "谢谢大家！让我们一起加油吧！上咯～～～！喔～～～！",
 			typewriter = {
 				speed = 0.05,

@@ -4,13 +4,13 @@ slot0.Battle.BattleBuffDamageWall = class("BattleBuffDamageWall", slot0.Battle.B
 slot0.Battle.BattleBuffDamageWall.__name = "BattleBuffDamageWall"
 slot1 = slot0.Battle.BattleBuffDamageWall
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._cldList = {}
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	uv0.super.SetArgs(slot0, slot1, slot2)
 	slot0._wall:SetCldObjType(uv1.Battle.BattleWallData.CLD_OBJ_TYPE_SHIP)
 
@@ -20,9 +20,9 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._atkAttrType = slot0._tempData.arg_list.attack_attribute
 	slot0._damage = slot0._tempData.arg_list.damage
 	slot0._forgeTmp = {
-		random_damage_rate = 0,
-		antisub_enhancement = 0,
 		ammo_type = 1,
+		antisub_enhancement = 0,
+		random_damage_rate = 0,
 		damage_type = {
 			1,
 			1,
@@ -58,7 +58,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._atkAttr = uv1.Battle.BattleAttr.GetAtkAttrByType(slot0._attr, slot0._atkAttrType)
 end
 
-function slot1.onWallCld(slot0, slot1)
+slot1.onWallCld = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		if not table.contains(slot0._cldList, slot6) then
 			slot0._dataProxy:HandleWallDamage(slot0, slot6)
@@ -87,39 +87,39 @@ function slot1.onWallCld(slot0, slot1)
 	end
 end
 
-function slot1.GetDamageEnhance(slot0)
+slot1.GetDamageEnhance = function(slot0)
 	return 1
 end
 
-function slot1.GetHost(slot0)
+slot1.GetHost = function(slot0)
 	return slot0._unit
 end
 
-function slot1.GetWeaponHostAttr(slot0)
+slot1.GetWeaponHostAttr = function(slot0)
 	return uv0.Battle.BattleAttr.GetAttr(slot0)
 end
 
-function slot1.GetWeapon(slot0)
+slot1.GetWeapon = function(slot0)
 	return slot0._forgeWeapon
 end
 
-function slot1.GetWeaponTempData(slot0)
+slot1.GetWeaponTempData = function(slot0)
 	return slot0._forgeWeaponTmp
 end
 
-function slot1.GetWeaponAtkAttr(slot0)
+slot1.GetWeaponAtkAttr = function(slot0)
 	return slot0._atkAttr
 end
 
-function slot1.GetCorrectedDMG(slot0)
+slot1.GetCorrectedDMG = function(slot0)
 	return slot0._damage
 end
 
-function slot1.GetTemplate(slot0)
+slot1.GetTemplate = function(slot0)
 	return slot0._forgeTmp
 end
 
-function slot1.Clear(slot0)
+slot1.Clear = function(slot0)
 	slot0._cldList = nil
 
 	uv0.super.Clear(slot0)

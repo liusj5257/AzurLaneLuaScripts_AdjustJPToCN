@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN19",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "After breaking the seal, the party blasted their way through the building's entrance.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "After breaking the seal, the party blasted their way through the building's entrance.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "Inside, they found...",
@@ -51,8 +51,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Prinz Eugen, from the Iron Blood?",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "By the way, who's that behind you...?",
 			typewriter = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 499040,
 			nameColor = "#ffff4d",
-			bgName = "bg_daofeng_4",
 			side = 2,
+			bgName = "bg_daofeng_4",
 			dir = 1,
+			actor = 499040,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(She's trying to avoid giving an answer... I don't trust her.)",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -359,8 +359,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(She's not acting like a victim at all...)",
 			typewriter = {
@@ -411,8 +411,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -440,8 +440,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Miss Eugen, I apologize for the interruption, but I'd like to ask you something.",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "What if there's no control mechanism at all in that central area?",
 			typewriter = {
@@ -605,8 +605,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "If it comes to that... We have to find some way to get the Dragon Palace back up to the surface.",
 			typewriter = {
@@ -654,8 +654,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -686,9 +686,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Ugh... Is anyone actually taking this seriously? Let's keep moving, I guess...",
 			typewriter = {

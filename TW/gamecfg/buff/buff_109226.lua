@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "CD",
 	time = 15,
+	name = "CD",
+	init_effect = "",
 	picture = "",
 	desc = "CD",
 	stack = 1,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动D3 BOSS浮游炮召唤 二阶段",
 	time = 3,
-	color = "red",
+	name = "2022美系活动D3 BOSS浮游炮召唤 二阶段",
+	init_effect = "",
+	id = 200257,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200257,
+	color = "red",
 	icon = 200257,
 	last_effect = "",
 	effect_list = {

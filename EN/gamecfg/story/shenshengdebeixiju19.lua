@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU19",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"But thou, why goest thou back to such annoyance?</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>In the name of the God you never knew,</size>",
@@ -61,17 +61,17 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_italy_cg6",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_italy_cg6",
 			bgm = "story-italy",
 			actor = 900198,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
 			say = "And in the end, they never came?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,8 +99,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "Correct. We informed the Iron Blood as soon as we engaged the Royal Navy.",
 			typewriter = {
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Hrmm...",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Looks like we were never more than cannon fodder to them, just like the Vichya Dominion.",
 			typewriter = {
 				speed = 0.05,
@@ -166,10 +166,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 900198,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "I was full of hope when we were brought into the Crimson Axis...",
 			typewriter = {
 				speed = 0.05,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "But it looks like we are just pawns for their \"Reenactment.\"",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "It's almost time for the denouement, Veneto.",
 			typewriter = {
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Indeed. This \"Reenactment\" is about to come to an end. The only thing left for us... is to decide whether it ends as a comedy or as a tragedy...",
 			typewriter = {
 				speed = 0.05,

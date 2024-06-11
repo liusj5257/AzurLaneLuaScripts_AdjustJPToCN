@@ -83,38 +83,38 @@ slot2.BATTLE_STATE_OPENING = "BATTLE_OPENING"
 slot2.BATTLE_STATE_FIGHT = "BATTLE_FIGHT"
 slot2.BATTLE_STATE_REPORT = "BATTLE_REPORT"
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 	slot0:ChangeState(uv0.BATTLE_STATE_IDLE)
 end
 
-function slot2.IsAutoBotActive(slot0)
+slot2.IsAutoBotActive = function(slot0)
 	return PlayerPrefs.GetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(slot0), 0) == 1 and AutoBotCommand.autoBotSatisfied()
 end
 
-function slot2.IsAutoSubActive(slot0)
+slot2.IsAutoSubActive = function(slot0)
 	return PlayerPrefs.GetInt("autoSubIsAcitve" .. AutoSubCommand.GetAutoSubMark(slot0), 0) == 1
 end
 
-function slot2.ChatUseable(slot0)
+slot2.ChatUseable = function(slot0)
 	slot3 = slot0:GetBattleType()
 
 	return (not PlayerPrefs.GetInt(HIDE_CHAT_FLAG) or slot1 ~= 1) and (slot3 == SYSTEM_DUEL or slot0.IsAutoBotActive(slot3)) and not (slot3 == SYSTEM_CARDPUZZLE)
 end
 
-function slot2.GetState(slot0)
+slot2.GetState = function(slot0)
 	return slot0._state
 end
 
-function slot2.GetBattleType(slot0)
+slot2.GetBattleType = function(slot0)
 	return slot0._battleType
 end
 
-function slot2.SetBattleUI(slot0, slot1)
+slot2.SetBattleUI = function(slot0, slot1)
 	slot0._baseUI = slot1
 end
 
-function slot2.EnterBattle(slot0, slot1, slot2)
+slot2.EnterBattle = function(slot0, slot1, slot2)
 	pg.TimeMgr.GetInstance():ResetCombatTime()
 	slot0:Active()
 	slot0:ResetTimer()
@@ -169,28 +169,28 @@ function slot2.EnterBattle(slot0, slot1, slot2)
 	end
 end
 
-function slot2.GetSceneMediator(slot0)
+slot2.GetSceneMediator = function(slot0)
 	return slot0._sceneMediator
 end
 
-function slot2.GetUIMediator(slot0)
+slot2.GetUIMediator = function(slot0)
 	return slot0._uiMediator
 end
 
-function slot2.ActiveBot(slot0, slot1)
+slot2.ActiveBot = function(slot0, slot1)
 	slot0._weaponCommand:ActiveBot(slot1, true)
 	slot0:EnableJoystick(not slot1)
 end
 
-function slot2.EnableJoystick(slot0, slot1)
+slot2.EnableJoystick = function(slot0, slot1)
 	slot0._uiMediator:EnableJoystick(slot1)
 end
 
-function slot2.IsBotActive(slot0)
+slot2.IsBotActive = function(slot0)
 	return slot0._weaponCommand:GetWeaponBot():IsActive()
 end
 
-function slot2.Update(slot0)
+slot2.Update = function(slot0)
 	if not slot0._isPause then
 		for slot4, slot5 in pairs(slot0._mediatorList) do
 			slot5:Update()
@@ -202,14 +202,14 @@ function slot2.Update(slot0)
 	end
 end
 
-function slot2.GenerateVertifyData(slot0)
+slot2.GenerateVertifyData = function(slot0)
 end
 
-function slot2.Vertify()
+slot2.Vertify = function()
 	return true, -1
 end
 
-function slot2.ChangeState(slot0, slot1)
+slot2.ChangeState = function(slot0, slot1)
 	slot0._state = slot1
 
 	if slot1 == uv0.BATTLE_STATE_OPENING then
@@ -229,15 +229,15 @@ function slot2.ChangeState(slot0, slot1)
 	end
 end
 
-function slot2.GetUI(slot0)
+slot2.GetUI = function(slot0)
 	return slot0._baseUI
 end
 
-function slot2.ConfigBattleEndFunc(slot0, slot1)
+slot2.ConfigBattleEndFunc = function(slot0, slot1)
 	slot0._endFunc = slot1
 end
 
-function slot2.BattleEnd(slot0)
+slot2.BattleEnd = function(slot0)
 	slot0:disableCommon()
 
 	if uv0.Battle.BattleConst.BattleScore.B <= slot0._dataProxy:GetStatistics()._battleScore then
@@ -250,7 +250,7 @@ function slot2.BattleEnd(slot0)
 	end
 end
 
-function slot2.BattleTimeUp(slot0)
+slot2.BattleTimeUp = function(slot0)
 	slot0:disableCommon()
 	slot0:ActiveEscape()
 	slot0:reportDelayTimer(function ()
@@ -259,14 +259,14 @@ function slot2.BattleTimeUp(slot0)
 	end, uv0.Battle.BattleConfig.EscapeDuration)
 end
 
-function slot2.DoResult(slot0)
+slot2.DoResult = function(slot0)
 	slot0._sceneMediator:PauseCharacterAction(true)
 	slot0._dataProxy:BotPercentage(slot0._weaponCommand:GetBotActiveDuration())
 	slot0._dataProxy:HPRatioStatistics()
 	slot0._endFunc(slot0._dataProxy:GetStatistics())
 end
 
-function slot2.ExitBattle(slot0)
+slot2.ExitBattle = function(slot0)
 	uv0.Battle.BattleCameraUtil.GetInstance():Clear()
 
 	for slot4, slot5 in pairs(slot0._mediatorList) do
@@ -312,12 +312,12 @@ function slot2.ExitBattle(slot0)
 	gcAll(true)
 end
 
-function slot2.Stop(slot0, slot1)
+slot2.Stop = function(slot0, slot1)
 	slot0:disableCommon()
 	slot0._baseUI:exitBattle(slot1)
 end
 
-function slot2.disableCommon(slot0)
+slot2.disableCommon = function(slot0)
 	slot0._weaponCommand:ActiveBot(false)
 	slot0:ScaleTimer()
 	uv0.Battle.BattleCameraUtil.GetInstance():ResetFocus()
@@ -331,7 +331,7 @@ function slot2.disableCommon(slot0)
 	slot0:Deactive()
 end
 
-function slot2.reportDelayTimer(slot0, slot1, slot2)
+slot2.reportDelayTimer = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	slot0:RemoveAllTimer()
@@ -346,7 +346,7 @@ function slot2.reportDelayTimer(slot0, slot1, slot2)
 	end)
 end
 
-function slot2.SetTakeoverProcess(slot0, slot1)
+slot2.SetTakeoverProcess = function(slot0, slot1)
 	assert(slot0._takeoverProcess == nil, "已经有接管的战斗过程，暂时没有定义这种逻辑")
 	assert(slot1.Pause ~= nil and type(slot1.Pause) == "function", "SetTakeoverProcess附加过程，必须要有Pause函数")
 	assert(slot1.Pause ~= nil and type(slot1.Resume) == "function", "SetTakeoverProcess附加过程，必须要有Pause函数")
@@ -356,7 +356,7 @@ function slot2.SetTakeoverProcess(slot0, slot1)
 	slot0:_pause()
 end
 
-function slot2.ClearTakeoverProcess(slot0)
+slot2.ClearTakeoverProcess = function(slot0)
 	assert(slot0._takeoverProcess, "没有接管的战斗过程，暂时没有定义这种逻辑")
 
 	slot0._takeoverProcess = nil
@@ -364,11 +364,11 @@ function slot2.ClearTakeoverProcess(slot0)
 	slot0:_resume()
 end
 
-function slot2.IsPause(slot0)
+slot2.IsPause = function(slot0)
 	return slot0._isPause
 end
 
-function slot2.Pause(slot0)
+slot2.Pause = function(slot0)
 	if slot0._takeoverProcess then
 		slot1.Pause()
 	else
@@ -376,7 +376,7 @@ function slot2.Pause(slot0)
 	end
 end
 
-function slot2._pause(slot0)
+slot2._pause = function(slot0)
 	slot0:Deactive()
 	slot0._dataProxy:PausePuzzleComponent()
 	slot0._sceneMediator:Pause()
@@ -389,7 +389,7 @@ function slot2._pause(slot0)
 	uv0.Battle.BattleCameraUtil.GetInstance():PauseCameraTween()
 end
 
-function slot2.Resume(slot0)
+slot2.Resume = function(slot0)
 	if slot0._state == uv0.BATTLE_STATE_IDLE then
 		slot0:ChangeState(uv0.BATTLE_STATE_OPENING)
 		UpdateBeat:Add(slot0.Update, slot0)
@@ -404,7 +404,7 @@ function slot2.Resume(slot0)
 	end
 end
 
-function slot2._resume(slot0)
+slot2._resume = function(slot0)
 	slot0._sceneMediator:Resume()
 	slot0:Active()
 	slot0._dataProxy:ResumePuzzleComponent()
@@ -417,7 +417,7 @@ function slot2._resume(slot0)
 	uv0.Battle.BattleCameraUtil.GetInstance():ResumeCameraTween()
 end
 
-function slot2.ScaleTimer(slot0, slot1)
+slot2.ScaleTimer = function(slot0, slot1)
 	slot1 = slot1 or uv0.Battle.BattleConfig.BASIC_TIME_SCALE
 
 	pg.TimeMgr.GetInstance():ScaleBattleTimer(slot1)
@@ -425,25 +425,25 @@ function slot2.ScaleTimer(slot0, slot1)
 	slot0._timeScale = slot1
 end
 
-function slot2.GetTimeScaleRate(slot0)
+slot2.GetTimeScaleRate = function(slot0)
 	return slot0._timeScale or 1
 end
 
-function slot2.CacheTimescaler(slot0, slot1)
+slot2.CacheTimescaler = function(slot0, slot1)
 	slot0._timescalerCache = slot1
 end
 
-function slot0.Battle.PlayBattleSFX(slot0)
+slot0.Battle.PlayBattleSFX = function(slot0)
 	if slot0 ~= "" then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/" .. slot0)
 	end
 end
 
-function slot2.OpenConsole(slot0)
+slot2.OpenConsole = function(slot0)
 	slot0._uiMediator:InitDebugConsole()
 	slot0._uiMediator:ActiveDebugConsole()
 end
 
-function slot2.ActiveReference(slot0)
+slot2.ActiveReference = function(slot0)
 	slot0._controllerCommand = slot0:AddCommand(uv0.Battle.BattleControllerCommand.New())
 end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"像牛仔一樣!\n\n<size=45>二 不愛說話的朋友</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "北安普敦，到妳了到妳了！",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "現在……正與大黃蜂和北安普敦一起在指揮室中玩著桌遊。",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "要問為什麼會是現在這個狀況……",
@@ -120,14 +120,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			say = "我說指揮官！今天工作完之後要不要來玩遊戲？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "正好可以把我那個不怎麼喜歡說話的朋友一起叫上~",
 			effects = {
 				{
@@ -182,13 +182,13 @@ return {
 		{
 			actor = 107070,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指揮官……？別發呆別發呆，到你了哦！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "大黃蜂從遊戲開始前就是一副活力旺盛的樣子，與在一旁安靜思考的北安普敦正好相反。",
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "稍微考慮一下之後，完成了本次行動輪。",
@@ -262,8 +262,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "哼~很有想法啊，指揮官。接下來是我的回合！那就先這樣…然後再這樣…OK！",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "啊……感覺有些口渴了，要不我去買些飲料回來吧！",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "好，我知道了，我去去就回~",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "大黃蜂離開後，整個房間也變得安靜下來。",
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "率先打破這片寧靜的，是大黃蜂的那位安靜的朋友。",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "向北安普敦簡單說了下大黃蜂最近工作的狀況——",
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "機會難得，向作為好友的北安普敦多打聽了一下大黃蜂的情報。",
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "姐姐嗎……之前好像確實聽大黃蜂提起過，“不能拖姐姐們的後腿”之類的。",
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "機會合適的時候問一下她本人的想法吧……",
@@ -549,8 +549,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "密技，杜立特式郵遞！我回來啦！是不是很快？",
 			effects = {
@@ -572,9 +572,9 @@ return {
 			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "給，你們的飲料——然後~遊戲繼續！",
 			effects = {
 				{

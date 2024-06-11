@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 500
+					number = 500,
+					attr = "airPower"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 610
+					number = 610,
+					attr = "airPower"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 720
+					number = 720,
+					attr = "airPower"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 830
+					number = 830,
+					attr = "airPower"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 940
+					number = 940,
+					attr = "airPower"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1050
+					number = 1050,
+					attr = "airPower"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1160
+					number = 1160,
+					attr = "airPower"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1270
+					number = 1270,
+					attr = "airPower"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1380
+					number = 1380,
+					attr = "airPower"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1500
+					number = 1500,
+					attr = "airPower"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "jinengchufared",
+	id = 17871,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17871,
+	color = "blue",
 	icon = 17870,
 	last_effect = "",
 	effect_list = {}

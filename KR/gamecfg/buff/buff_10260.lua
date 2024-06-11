@@ -62,12 +62,12 @@ return {
 	desc_get = "开火时，有20%概率触发，自身炮击提升20.0%(满级40.0%)，持续8秒",
 	name = "魔炮-Armageddon！",
 	init_effect = "",
+	id = 10260,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "开火时，有20%概率触发，自身炮击提升$1，持续8秒",
 	stack = 1,
-	id = 10260,
+	color = "red",
 	icon = 10260,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 2000,
-				target = "TargetSelf",
 				skill_id = 10260,
+				target = "TargetSelf",
 				time = 10
 			}
 		}

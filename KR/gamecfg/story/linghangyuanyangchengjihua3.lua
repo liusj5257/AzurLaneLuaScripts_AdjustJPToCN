@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			sequence = {
 				{
@@ -15,14 +15,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "지휘관, 오늘 무슨 날인지 기억하고 있지냥?",
 			bgm = "story-richang-2",
+			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "지휘관, 오늘 무슨 날인지 기억하고 있지냥?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -32,17 +32,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "짜잔! TB를 위해 만든 버추얼 타운이 완성되는 날이다냥!",
 			painting = {
 				alpha = 0.3,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이걸 받아라냥.",
 			painting = {
 				alpha = 0.3,
@@ -97,12 +97,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이건 아카시 공방에서 새로 개발한 몰입형 인터페이스다냥!",
 			painting = {
 				alpha = 0.3,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이것만 쓰고 있으면 실제로 먹고 만지는 듯한 현실감 넘치는 체험을 할 수 있다냥!",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "TB는 실체를 가지지 않는 가상의 존재지만, 이것만 있으면……",
 			painting = {
 				alpha = 0.3,
@@ -152,10 +152,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "가상과 현실의 경계를 부술 수 있다냥!",
 			painting = {
 				alpha = 0.3,
@@ -179,12 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아카시 뿐만이 아니다냥! 모항 사람들이 도와줬다냥.",
 			painting = {
 				alpha = 0.3,
@@ -199,10 +199,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "냐냥! 그것보다 지휘관, 어서 체험해 봐라냥!",
 			painting = {
 				alpha = 0.3,
@@ -214,12 +214,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "TB를 곧 만날 수 있을 거다냥~",
 			painting = {
 				alpha = 0.3,
@@ -243,27 +243,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_1104",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_1104",
 			say = "아카시의 맹렬한 기세에 떠밀려 약간 수상한 장치를 장착하자, 눈앞에 빛이 한순간 일렁거리더니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0

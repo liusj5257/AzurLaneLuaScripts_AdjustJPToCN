@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024同盟活动D 指挥通讯网络",
 	time = 3,
-	color = "yellow",
+	name = "2024同盟活动D 指挥通讯网络",
+	init_effect = "",
+	id = 200777,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200777,
+	color = "yellow",
 	icon = 200777,
 	last_effect = "",
 	effect_list = {

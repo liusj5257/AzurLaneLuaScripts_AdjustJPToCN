@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 10,
 	name = "",
 	init_effect = "",
+	time = 10,
 	picture = "",
 	desc = "受到伤害降低",
 	stack = 1,
@@ -33,8 +33,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatio"
 			}
 		}
 	}

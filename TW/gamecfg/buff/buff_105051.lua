@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -150
+					number = -150,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -140
+					number = -140,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -130
+					number = -130,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -120
+					number = -120,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -110
+					number = -110,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -100
+					number = -100,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -90
+					number = -90,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -80
+					number = -80,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -70
+					number = -70,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = -60
+					number = -60,
+					attr = "oxyMax"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "室内系女仆",
 	time = 0,
-	color = "yellow",
+	name = "室内系女仆",
+	init_effect = "jinengchufared",
+	id = 105051,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 105051,
+	color = "yellow",
 	icon = 105050,
 	last_effect = "",
 	effect_list = {}

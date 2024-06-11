@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_505",
+			bgm = "theme-underheaven",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Soyuz and I opened the door in front of us.",
-			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "Beyond it lay a palace reminiscent of the Imperiya.",
@@ -46,9 +46,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_600",
 			oldPhoto = true,
-			dir = 1,
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -62,17 +62,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -80,13 +80,13 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			oldPhoto = true,
-			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_600",
+			dir = 1,
+			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Foie gras~ Venison~ Roast chicken~",
 			painting = {
 				alpha = 0.3,
@@ -101,10 +101,10 @@ return {
 			portrait = 702020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "Pamiat' Merkuria",
 			hidePaintObj = true,
 			say = "Truffle and nut souffle♪",
 			painting = {
@@ -120,10 +120,10 @@ return {
 			portrait = 705070,
 			side = 2,
 			bgName = "star_level_bg_600",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "Sevastopol",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "Sevastopol",
 			hidePaintObj = true,
 			say = "I've returned, Mademoiselle Pamiat' Merkuria.",
 			painting = {
@@ -139,10 +139,10 @@ return {
 			portrait = 705010,
 			side = 2,
 			bgName = "star_level_bg_600",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "Gangut",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "Gangut",
 			hidePaintObj = true,
 			say = "*sniff* *sniff*... That smells good!",
 			painting = {
@@ -155,13 +155,13 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			oldPhoto = true,
-			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_600",
+			dir = 1,
+			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank you for all you do, Pamiat'. Heehee, would you like some help?",
 			painting = {
 				alpha = 0.3,
@@ -192,13 +192,13 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			oldPhoto = true,
-			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_600",
+			dir = 1,
+			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh. But I know something you can help me with...",
 			painting = {
 				alpha = 0.3,
@@ -305,13 +305,13 @@ return {
 			}
 		},
 		{
-			actor = 705070,
 			oldPhoto = true,
-			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_600",
+			dir = 1,
+			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It DOES matter!",
 			painting = {
 				alpha = 0.3,
@@ -323,13 +323,13 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			oldPhoto = true,
-			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_600",
+			dir = 1,
+			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah! It does!",
 			painting = {
 				alpha = 0.3,
@@ -360,27 +360,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_505",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_505",
 			say = "The recording ended, and the world turned white again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "We entered the door once more.",
@@ -418,13 +418,13 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You must be tired. Empty that brain and take a little break!",
 			painting = {
 				alpha = 0.3,
@@ -436,13 +436,13 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank you! Mm... The air here is just so lovely.",
 			painting = {
 				alpha = 0.3,
@@ -454,13 +454,13 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But Pamiat', I'm not entirely sure if horseback riding is the best way to take a break after a long trip.",
 			painting = {
 				alpha = 0.3,
@@ -491,13 +491,13 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A surprise?",
 			painting = {
 				alpha = 0.3,
@@ -528,30 +528,30 @@ return {
 			}
 		},
 		{
-			actor = 702029,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = false,
 			side = 2,
-			actorName = "Pamiat' Merkuria (Retrofit)",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 702029,
+			actorName = "Pamiat' Merkuria (Retrofit)",
+			hidePaintObj = false,
 			say = "Tadaaah!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.25,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = false,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -559,13 +559,13 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You've modernized your rigging... You got a retrofit! So the new technology proved a success?",
 			painting = {
 				alpha = 0.3,
@@ -577,13 +577,13 @@ return {
 			}
 		},
 		{
-			actor = 702029,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = false,
 			side = 2,
-			actorName = "Pamiat' Merkuria (Retrofit)",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 702029,
+			actorName = "Pamiat' Merkuria (Retrofit)",
+			hidePaintObj = false,
 			say = "A roaring one, as you can see!",
 			typewriter = {
 				speed = 0.05,
@@ -591,13 +591,13 @@ return {
 			}
 		},
 		{
-			actor = 702029,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = false,
 			side = 2,
-			actorName = "Pamiat' Merkuria (Retrofit)",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 702029,
+			actorName = "Pamiat' Merkuria (Retrofit)",
+			hidePaintObj = false,
 			say = "Heheh, and I'm the first shipgirl to get one, too!",
 			typewriter = {
 				speed = 0.05,
@@ -605,13 +605,13 @@ return {
 			}
 		},
 		{
-			actor = 702029,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "Pamiat' Merkuria (Retrofit)",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 702029,
+			actorName = "Pamiat' Merkuria (Retrofit)",
+			hidePaintObj = true,
 			say = "Awesome, right? I am so awesome!",
 			typewriter = {
 				speed = 0.05,
@@ -619,27 +619,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_505",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_505",
 			say = "The recording ended, and the world turned white again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "We entered the door once more.",
@@ -680,8 +680,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			oldPhoto = true,
 			dir = 1,
+			oldPhoto = true,
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
@@ -696,8 +696,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -709,8 +709,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			oldPhoto = true,
 			dir = 1,
+			oldPhoto = true,
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
@@ -725,8 +725,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -738,8 +738,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			oldPhoto = true,
 			dir = 1,
+			oldPhoto = true,
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
@@ -754,8 +754,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -764,8 +764,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -776,8 +776,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -788,8 +788,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -800,27 +800,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_505",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_505",
 			say = "The recording ended, and the world turned white again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -828,8 +828,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "We entered the door once more.",
@@ -839,8 +839,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_deepecho_0",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -851,8 +851,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_deepecho_0",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -863,8 +863,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_deepecho_0",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -875,27 +875,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_505",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_505",
 			say = "The recording ended, and a fifth door appeared before us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -906,10 +906,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Was that... the past of the other Pamiat' Merkuria?",
 			painting = {
 				alpha = 0.3,
@@ -936,10 +936,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Comrade Commander... Do you know what manner of being she was?",
 			painting = {
 				alpha = 0.3,
@@ -966,10 +966,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is the fifth door. Do you want to keep going?",
 			painting = {
 				alpha = 0.3,
@@ -1007,11 +1007,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_xuejing_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_xuejing_3",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Comrade Commander... Is this what I think it is?",
 			painting = {
 				alpha = 0.3,
@@ -1022,17 +1022,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1052,8 +1052,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			say = "When we went through the door, we found a place quite similar to where Soyuz had been.",
@@ -1063,8 +1063,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			say = "It wasn't a memory or a recording. The scenery here was just too vivid.",
@@ -1074,8 +1074,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			say = "In the center of the battlefield was Pamiat' Merkuria META, engulfed in that black mist.",
@@ -1085,8 +1085,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			say = "I saw our allies around her.",
@@ -1096,8 +1096,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			say = "However, everything was motionless. It was as if time had frozen in the Antarctic cold.",
@@ -1107,8 +1107,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			say = "When I looked up, there was one more witness.",
@@ -1123,8 +1123,8 @@ return {
 			bgName = "bg_xuejing_3",
 			portrait = 9702070,
 			dir = 1,
-			actorName = "Pamiat' Merkuria",
 			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			hidePaintObj = false,
 			say = "It's frozen because it's happening right now, in the present.",
 			painting = {
@@ -1152,10 +1152,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702020,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Nope.",
 			painting = {
@@ -1171,10 +1171,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702029,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Like yeah, I am Pamiat', but I'm not that one. I'm not any of the Pamiat' Merkurias you've ever known or will ever know.",
 			painting = {
@@ -1190,10 +1190,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Umm, I guess you could say I'm like every Pamiat' ever all balled up into one.",
 			painting = {
@@ -1209,10 +1209,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Does that make sense?",
 			painting = {
@@ -1228,10 +1228,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In other words... you're the culmination of the concept of Pamiat' Merkuria?",
 			painting = {
 				alpha = 0.3,
@@ -1243,13 +1243,13 @@ return {
 			}
 		},
 		{
-			actor = 9702070,
 			actorName = "Pamiat' Merkuria",
-			bgName = "bg_xuejing_3",
-			hidePaintObj = false,
-			dir = 1,
-			nameColor = "#BDBDBD",
 			side = 2,
+			bgName = "bg_xuejing_3",
+			dir = 1,
+			actor = 9702070,
+			nameColor = "#BDBDBD",
+			hidePaintObj = false,
 			say = "Oh, wow! You're smart. Guess you need to be, if you made it this far.",
 			painting = {
 				alpha = 0.3,
@@ -1264,10 +1264,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Anyway, this incarnation was just born, so it's not quite perfect yet.",
 			painting = {
@@ -1283,10 +1283,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Even though the shipgirl Pamiat' Merkuria has existed for a long time now?",
 			painting = {
 				alpha = 0.3,
@@ -1301,10 +1301,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702020,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "A long time? Mm... Sorry, but time doesn't really MEAN anything, does it?",
 			painting = {
@@ -1320,10 +1320,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702020,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "We can't just pop out of thin air willy-nilly, you know. There are conditions for our birth.",
 			painting = {
@@ -1336,12 +1336,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...What would happen if we were to take you down right now?",
 			painting = {
 				alpha = 0.3,
@@ -1353,13 +1353,13 @@ return {
 			}
 		},
 		{
-			actor = 702029,
 			actorName = "Pamiat' Merkuria",
-			bgName = "bg_xuejing_3",
-			hidePaintObj = false,
-			dir = 1,
-			nameColor = "#BDBDBD",
 			side = 2,
+			bgName = "bg_xuejing_3",
+			dir = 1,
+			actor = 702029,
+			nameColor = "#BDBDBD",
+			hidePaintObj = false,
 			say = "Hmm... Gotta say, I'm curious myself!",
 			painting = {
 				alpha = 0.3,
@@ -1374,10 +1374,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702029,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "But unfortunately, I'm not going down here. Neither will either of you, though.",
 			painting = {
@@ -1393,10 +1393,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702029,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "That's just... the rules, or whatever.",
 			painting = {
@@ -1412,10 +1412,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Don't worry too much about the battle, alright?",
 			painting = {
@@ -1428,13 +1428,13 @@ return {
 			}
 		},
 		{
-			actor = 9702070,
 			actorName = "Pamiat' Merkuria",
-			bgName = "bg_xuejing_3",
-			hidePaintObj = false,
-			dir = 1,
-			nameColor = "#BDBDBD",
 			side = 2,
+			bgName = "bg_xuejing_3",
+			dir = 1,
+			actor = 9702070,
+			nameColor = "#BDBDBD",
+			hidePaintObj = false,
 			say = "See? Take a look, and you'll get what I mean.",
 			painting = {
 				alpha = 0.3,
@@ -1449,10 +1449,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "You've already cornered the poor girl. You're this close to a total victory.",
 			painting = {
@@ -1468,10 +1468,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "If you went back right now, you could seize victory just like that.",
 			painting = {
@@ -1487,10 +1487,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "So just leave it alone, and everything will be just fine!",
 			painting = {
@@ -1506,10 +1506,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Instead, have a little chat with me!",
 			painting = {
@@ -1525,10 +1525,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "You must have tons of questions!",
 			painting = {
@@ -1568,10 +1568,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702020,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Strictly speaking? I'm not on any side.",
 			painting = {
@@ -1587,10 +1587,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702020,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Will I take a side? Well, I have my own plans♪",
 			painting = {
@@ -1603,13 +1603,13 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			actorName = "Pamiat' Merkuria",
-			bgName = "bg_xuejing_3",
-			hidePaintObj = false,
-			dir = 1,
-			nameColor = "#BDBDBD",
 			side = 2,
+			bgName = "bg_xuejing_3",
+			dir = 1,
+			actor = 702020,
+			nameColor = "#BDBDBD",
+			hidePaintObj = false,
 			say = "Work with me, and I'll call you a friend. Get in my way, you're my enemy. Sound good enough?",
 			painting = {
 				alpha = 0.3,
@@ -1621,13 +1621,13 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			actorName = "Pamiat' Merkuria",
-			bgName = "bg_xuejing_3",
-			hidePaintObj = false,
-			dir = 1,
-			nameColor = "#BDBDBD",
 			side = 2,
+			bgName = "bg_xuejing_3",
+			dir = 1,
+			actor = 702020,
+			nameColor = "#BDBDBD",
+			hidePaintObj = false,
 			say = "So, who the heck are you?",
 			painting = {
 				alpha = 0.3,
@@ -1651,13 +1651,13 @@ return {
 			}
 		},
 		{
-			actor = 702029,
 			actorName = "Pamiat' Merkuria",
-			bgName = "bg_xuejing_3",
-			hidePaintObj = false,
-			dir = 1,
-			nameColor = "#BDBDBD",
 			side = 2,
+			bgName = "bg_xuejing_3",
+			dir = 1,
+			actor = 702029,
+			nameColor = "#BDBDBD",
+			hidePaintObj = false,
 			say = "Come ON, I already know that.",
 			painting = {
 				alpha = 0.3,
@@ -1672,10 +1672,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702029,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "I don't want your title. I want to know who and what you are!",
 			painting = {
@@ -1691,10 +1691,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 702029,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Something about you is all nostalgic... I just can't remember why, for some reason!",
 			painting = {
@@ -1707,13 +1707,13 @@ return {
 			}
 		},
 		{
-			actor = 9702070,
 			actorName = "Pamiat' Merkuria",
-			bgName = "bg_xuejing_3",
-			hidePaintObj = false,
-			dir = 1,
-			nameColor = "#BDBDBD",
 			side = 2,
+			bgName = "bg_xuejing_3",
+			dir = 1,
+			actor = 9702070,
+			nameColor = "#BDBDBD",
+			hidePaintObj = false,
 			say = "I mean, look. I'm not perfect, but I'm Pamiat' Merkuria in the purest sense of the name.",
 			painting = {
 				alpha = 0.3,
@@ -1728,10 +1728,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Don't you think it's a liiittle weird that there's something I just can't remember?",
 			painting = {
@@ -1747,10 +1747,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Meh. You probably don't know, either.",
 			painting = {
@@ -1766,10 +1766,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "But then I have to wonder – why are you here?",
 			painting = {
@@ -1785,10 +1785,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#BDBDBD",
+			actorName = "Pamiat' Merkuria",
 			dir = 1,
 			actor = 9702070,
-			actorName = "Pamiat' Merkuria",
+			nameColor = "#BDBDBD",
 			hidePaintObj = false,
 			say = "Just so you know, I didn't bring you here. I don't have any crazy powers like that.",
 			painting = {
@@ -1825,13 +1825,13 @@ return {
 			}
 		},
 		{
-			actor = 9702070,
 			actorName = "Pamiat' Merkuria",
-			bgName = "bg_xuejing_3",
-			hidePaintObj = false,
-			dir = 1,
-			nameColor = "#BDBDBD",
 			side = 2,
+			bgName = "bg_xuejing_3",
+			dir = 1,
+			actor = 9702070,
+			nameColor = "#BDBDBD",
+			hidePaintObj = false,
 			say = "Wind chimes? What are you talking about?",
 			painting = {
 				alpha = 0.3,
@@ -1855,29 +1855,29 @@ return {
 			}
 		},
 		{
-			bgm = "bgm-waterwave",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "The sound of wind chimes rang in my ears again.",
 			soundeffect = "event:/ui/fengling",
+			bgm = "bgm-waterwave",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "The sound of wind chimes rang in my ears again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1897,28 +1897,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
+			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Dazzling light awakened me.",
-			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1952,11 +1952,11 @@ return {
 		{
 			portrait = 102160,
 			side = 2,
-			bgName = "bg_story_task",
-			actorName = "Memphis",
 			dir = 1,
-			bgm = "theme-sovietunion",
 			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
+			bgm = "theme-sovietunion",
+			actorName = "Memphis",
 			hidePaintObj = true,
 			say = "Commander! You're finally awake!",
 			painting = {
@@ -1968,17 +1968,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1989,10 +1989,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank goodness... Your vital signs were fine, but you just wouldn't wake up.",
 			painting = {
 				alpha = 0.3,
@@ -2007,10 +2007,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Do you feel okay? Are you hurting anywhere?",
 			painting = {
 				alpha = 0.3,
@@ -2049,10 +2049,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A Tribunal medical station.",
 			painting = {
 				alpha = 0.3,
@@ -2079,10 +2079,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thirty whole minutes!",
 			painting = {
 				alpha = 0.3,
@@ -2094,8 +2094,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -2116,12 +2116,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How did you know...? Wait, shouldn't you be more worried about yourself?!",
 			painting = {
 				alpha = 0.3,
@@ -2136,10 +2136,10 @@ return {
 			portrait = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Clemenceau",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, now. I'm sure it's a good thing that the Commander has the energy to worry about others.",
 			painting = {
 				alpha = 0.3,
@@ -2166,10 +2166,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "All is well. Soyuz has things under control.",
 			painting = {
 				alpha = 0.3,
@@ -2196,10 +2196,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You don't need to worry about that. By the way, we have a call from Soyuz.",
 			painting = {
 				alpha = 0.3,
@@ -2226,10 +2226,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A secret line. I promise I'm not eavesdropping this time.",
 			painting = {
 				alpha = 0.3,
@@ -2243,9 +2243,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			paintingNoise = true,
-			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -2259,17 +2259,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -2299,10 +2299,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "All of this is thanks to your support, coordination, and command.",
 			painting = {
 				alpha = 0.3,
@@ -2355,10 +2355,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No matter what choice you make in the future...",
 			painting = {
 				alpha = 0.3,
@@ -2408,27 +2408,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task",
 			say = "With the META threat defeated, the distant battle in the Antarctic had ended in our victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -2436,8 +2436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "We had prevented Antarctica from facing a worst-case scenario.",
@@ -2447,8 +2447,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "However, some doubts lingered.",
@@ -2458,8 +2458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Why had Observer severed her connection to her mainframe? What exactly was that Pamiat' Merkuria in the memory space?",
@@ -2469,8 +2469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "What were those wind chimes, and why did Helena META want to help me so much?",
@@ -2480,8 +2480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Project Dawn and the strange crystal contained their fair share of mysteries, as well.",
@@ -2491,8 +2491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "One thing was for sure – more sleepless nights lay in store for me.",

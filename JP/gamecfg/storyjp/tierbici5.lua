@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「Schmelzen」\n\n<size=45>五　みんなの秘書艦</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "母港・執務室",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,9 +47,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ティルピッツはいつもどおり、効率よく秘書艦の仕事をこなしている。",
 			typewriter = {
 				speed = 0.05,
@@ -73,9 +73,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（コンコン）",
 			typewriter = {
 				speed = 0.05,
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			say = "ご苦労さま。",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ご苦労さま。",
+			actor = 405020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "出現予測海域にそって、次にパトロールするときのルートも変更、と……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,9 +168,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（コンコン）",
 			typewriter = {
 				speed = 0.05,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "こんにちは。ティルピッツ、この前はすごく助かった。ありがとう",
 			typewriter = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "はい、最新の空気浄化装置。ええと、仕事の能率向上と健康促進効果があるタイプ。ここに置いとく",
 			typewriter = {
@@ -212,12 +212,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			say = "ああ、ありがとう。",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ああ、ありがとう。",
+			actor = 405020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "科学部の用事はまだ終わってないから、先に帰るぞ",
 			typewriter = {
@@ -249,15 +249,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "パトロールルートはこれで……人選は……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（コンコン）",
 			typewriter = {
 				speed = 0.05,
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			say = "大丈夫、そこでいいわよ。",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "大丈夫、そこでいいわよ。",
+			actor = 405020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -360,15 +360,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ティルピッツはまだ知らない。自分がすでに艦隊のみんなの仲間になっていることを。",
 			typewriter = {
 				speed = 0.05,

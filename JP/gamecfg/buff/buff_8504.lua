@@ -1,7 +1,7 @@
 return {
-	time = 8,
 	name = "减伤50",
 	init_effect = "jinengchufablue",
+	time = 8,
 	picture = "",
 	desc = "伤害降低",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.5
+				number = -0.5,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

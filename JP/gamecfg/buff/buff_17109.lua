@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "Asanagi铁拳buff",
 	time = 0.3,
+	name = "Asanagi铁拳buff",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

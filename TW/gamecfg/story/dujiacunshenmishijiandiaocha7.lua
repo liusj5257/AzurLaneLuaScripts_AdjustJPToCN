@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"渡假村神秘事件調查\n\n<size=45>艦隊集結！</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "自稱小生的老者",
+			bgm = "map-longgong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "中場休息時間~",
-			bgm = "map-longgong",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
@@ -60,13 +60,13 @@ return {
 			}
 		},
 		{
-			actor = 301810,
+			actorName = "{namecode:180}&{namecode:189}",
 			side = 0,
 			bgName = "bg_village_in",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			hideOther = true,
-			actorName = "{namecode:180}&{namecode:189}",
+			dir = 1,
+			actor = 301810,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "非常滿意！  太嚇人了！",
 			subActors = {
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
+			actorName = "布里斯托爾&撫順",
 			side = 0,
 			bgName = "bg_village_in",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			hideOther = true,
-			actorName = "布里斯托爾&撫順",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "還想再來！  再來一次吧！",
 			subActors = {
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
@@ -169,12 +169,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_village_in",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "轟————————！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "和噗噗在一起",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……在搖。",
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_village_in",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "轟————————！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,11 +289,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哇啊啊啊！！地震了嗎！",
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "在溫泉開party！",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "在溫泉開party！",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "糟、糟糕！得盡快讓外面停止攻擊才行！",
@@ -501,28 +501,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_out",
+			bgm = "nagato-map",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "此時的鳥居外——",
-			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "神子休假中",
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "再給吾十分鐘。",
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "不畏厄運",
 			dir = 1,
+			actor = 305020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "交給我吧，長門大人！",
@@ -654,8 +654,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "此刻，長門、山城與武藏正在鳥居前進攻著結界，而在她們身後，則是集結了各陣營整裝待發的艦隊成員。",
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "眾人",
+			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -689,8 +689,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -701,8 +701,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "被包圍的鳥居里突然傳來了熟悉的聲音。島風像是憑空出現一樣，從鳥居後方急急忙忙衝了出來。",
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "緊接著是尾張，還有之前不見了蹤影的初月、布里斯托爾……調查小隊的四人全都冒了出來。",
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哇……這麼大陣仗嗎？",
@@ -741,11 +741,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "所以我之前就說……先通知指揮官再進去……",
@@ -778,28 +778,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_out",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "在島風手忙腳亂地解釋下，事情似乎正變得愈發複雜……",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -807,8 +807,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "還好隨後信濃也從結界中出現，親自解釋了事情的來龍去脈，誤會終於得到了澄清。",
@@ -818,11 +818,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "十分抱歉，指揮官。妾身原本只想順勢而為，為諸位帶來一場難忘的夏日體驗。",
@@ -898,11 +898,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "政委度假中",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "而且，確實是一段很難忘的體驗。",
@@ -935,11 +935,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "政委度假中",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯……它們的存在形式真令人在意啊。",
@@ -953,11 +953,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "偶像度假中",
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "信濃信濃，妳剛才說只要進入鳥居，就能看到妖怪劇團了對吧！",
@@ -971,11 +971,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯，沒錯。目前它們還不能在結界外自由行動。",

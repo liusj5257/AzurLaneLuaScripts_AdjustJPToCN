@@ -1,15 +1,15 @@
 slot0 = class("BackYardThemeTemplateListPage", import("...Shop.pages.BackYardThemePage"))
 slot0.nextClickRefreshTime = 0
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardThemeTemplateThemePage"
 end
 
-function slot0.LoadDetail(slot0)
+slot0.LoadDetail = function(slot0)
 	setActive(slot0:findTF("adpter/descript"), false)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.tipBg = slot0:findTF("tip")
@@ -87,7 +87,7 @@ function slot0.OnInit(slot0)
 		end
 	end, SFX_PANEL)
 
-	function slot1()
+	slot1 = function()
 		if uv0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 			uv0:emit(NewBackYardThemeTemplateMediator.ON_GET_SPCAIL_TYPE_TEMPLATE, BackYardConst.ThemeSortIndex2ServerIndex(uv0.sortIndex, uv0.asc))
 		else
@@ -97,7 +97,7 @@ function slot0.OnInit(slot0)
 
 	slot0.descPages = BackYardThemeTemplateDescPage.New(slot0._tf, slot0.event, slot0.contextData)
 
-	function slot0.descPages.OnSortChange(slot0)
+	slot0.descPages.OnSortChange = function(slot0)
 		uv0.asc = slot0
 
 		uv1()
@@ -113,7 +113,7 @@ function slot0.OnInit(slot0)
 	setText(slot0:findTF("tip3"), i18n("courtyard_label_empty_collection_list"))
 end
 
-function slot0.InitInput(slot0)
+slot0.InitInput = function(slot0)
 	onInputChanged(slot0, slot0.searchInput, function ()
 		setActive(uv0.searchClear, getInputText(uv0.searchInput) ~= "")
 	end)
@@ -122,7 +122,7 @@ function slot0.InitInput(slot0)
 	end)
 end
 
-function slot0.UpdateArr(slot0)
+slot0.UpdateArr = function(slot0)
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 		setActive(slot0.arrLeftBtnShop, getProxy(DormProxy).PAGE > 1)
 		setActive(slot0.arrRightBtnShop, slot1 < getProxy(DormProxy).lastPages[getProxy(DormProxy).TYPE] or not getProxy(DormProxy).ClickPage)
@@ -135,7 +135,7 @@ function slot0.UpdateArr(slot0)
 	end
 end
 
-function slot0.CanClickRefBtn(slot0, slot1)
+slot0.CanClickRefBtn = function(slot0, slot1)
 	slot2 = getProxy(DormProxy).TYPE
 
 	if pg.TimeMgr.GetInstance():GetServerTime() < uv0.nextClickRefreshTime then
@@ -151,7 +151,7 @@ function slot0.CanClickRefBtn(slot0, slot1)
 	return true
 end
 
-function slot0.SwitchPage(slot0, slot1, slot2, slot3)
+slot0.SwitchPage = function(slot0, slot1, slot2, slot3)
 	slot5 = slot0.timeType
 
 	if getProxy(DormProxy).TYPE ~= slot1 or slot3 then
@@ -163,7 +163,7 @@ function slot0.SwitchPage(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.UpdateDorm(slot0, slot1)
+slot0.UpdateDorm = function(slot0, slot1)
 	slot0.dorm = slot1
 
 	if slot0.contextData.infoPage:GetLoaded() and slot0.contextData.infoPage:isShowing() then
@@ -175,7 +175,7 @@ function slot0.UpdateDorm(slot0, slot1)
 	end
 end
 
-function slot0.PlayerUpdated(slot0, slot1)
+slot0.PlayerUpdated = function(slot0, slot1)
 	slot0.player = slot1
 
 	if slot0.contextData.infoPage:GetLoaded() and slot0.contextData.infoPage:isShowing() then
@@ -187,13 +187,13 @@ function slot0.PlayerUpdated(slot0, slot1)
 	end
 end
 
-function slot0.FurnituresUpdated(slot0, slot1)
+slot0.FurnituresUpdated = function(slot0, slot1)
 	if slot0.contextData.infoPage:GetLoaded() and slot0.contextData.infoPage:isShowing() then
 		slot0.contextData.infoPage:ExecuteAction("FurnituresUpdated", slot1)
 	end
 end
 
-function slot0.ThemeTemplateUpdate(slot0, slot1)
+slot0.ThemeTemplateUpdate = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.list) do
 		if slot6.id == slot1.id then
 			slot0.list[slot5] = slot1
@@ -213,15 +213,15 @@ function slot0.ThemeTemplateUpdate(slot0, slot1)
 	end
 end
 
-function slot0.ThemeTemplatesUpdate(slot0, slot1)
+slot0.ThemeTemplatesUpdate = function(slot0, slot1)
 	slot0:Flush(slot1)
 end
 
-function slot0.OnSearchKeyChange(slot0)
+slot0.OnSearchKeyChange = function(slot0)
 	slot0:emit(NewBackYardThemeTemplateMediator.ON_SEARCH, slot0.pageType, getInputText(slot0.searchInput))
 end
 
-function slot0.ShopSearchKeyChange(slot0, slot1)
+slot0.ShopSearchKeyChange = function(slot0, slot1)
 	slot0.searchTemplate = slot1
 
 	slot0:InitThemeList()
@@ -235,20 +235,20 @@ function slot0.ShopSearchKeyChange(slot0, slot1)
 	end
 end
 
-function slot0.OnSearchKeyEditEnd(slot0)
+slot0.OnSearchKeyEditEnd = function(slot0)
 	if not getInputText(slot0.searchInput) or slot1 == "" then
 		slot0:emit(NewBackYardThemeTemplateMediator.ON_SEARCH, slot0.pageType, slot1)
 	end
 end
 
-function slot0.ClearShopSearchKey(slot0)
+slot0.ClearShopSearchKey = function(slot0)
 	slot0.searchTemplate = nil
 
 	slot0:InitThemeList()
 	slot0:ForceActiveFirstCard()
 end
 
-function slot0.DeleteCustomThemeTemplate(slot0, slot1)
+slot0.DeleteCustomThemeTemplate = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.list) do
 		if slot6.id == slot1 then
 			table.remove(slot0.list, slot5)
@@ -261,7 +261,7 @@ function slot0.DeleteCustomThemeTemplate(slot0, slot1)
 	slot0:ForceActiveFirstCard()
 end
 
-function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
+slot0.DeleteCollectionThemeTemplate = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.list) do
 		if slot6.id == slot1 then
 			table.remove(slot0.list, slot5)
@@ -274,12 +274,12 @@ function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
 	slot0:ForceActiveFirstCard()
 end
 
-function slot0.AddCollectionThemeTemplate(slot0, slot1)
+slot0.AddCollectionThemeTemplate = function(slot0, slot1)
 	table.insert(slot0.list, slot1)
 	slot0:InitThemeList()
 end
 
-function slot0.DeleteShopThemeTemplate(slot0, slot1)
+slot0.DeleteShopThemeTemplate = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.list) do
 		if slot6.id == slot1 then
 			table.remove(slot0.list, slot5)
@@ -292,11 +292,11 @@ function slot0.DeleteShopThemeTemplate(slot0, slot1)
 	slot0:ForceActiveFirstCard()
 end
 
-function slot0.ThemeTemplatesErro(slot0)
+slot0.ThemeTemplatesErro = function(slot0)
 	slot0:UpdateArr()
 end
 
-function slot0.GetData(slot0)
+slot0.GetData = function(slot0)
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 		table.sort(slot0.list, function (slot0, slot1)
 			return slot0.sortIndex < slot1.sortIndex
@@ -315,19 +315,19 @@ function slot0.GetData(slot0)
 	return slot0.list
 end
 
-function slot0.OnDormUpdated(slot0)
+slot0.OnDormUpdated = function(slot0)
 end
 
-function slot0.OnPlayerUpdated(slot0)
+slot0.OnPlayerUpdated = function(slot0)
 end
 
-function slot0.BlurView(slot0)
+slot0.BlurView = function(slot0)
 end
 
-function slot0.UnBlurView(slot0)
+slot0.UnBlurView = function(slot0)
 end
 
-function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
+slot0.SetUp = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.searchTemplate = nil
 	slot0.searchKey = ""
 	slot0.pageType = slot1
@@ -368,7 +368,7 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0:Show()
 
 	slot0.list = slot1 or {}
@@ -383,12 +383,12 @@ function slot0.Flush(slot0, slot1)
 	end)
 end
 
-function slot0.InitThemeList(slot0)
+slot0.InitThemeList = function(slot0)
 	setActive(slot0.rawImage.gameObject, false)
 	slot0:SetTotalCount()
 end
 
-function slot0.SetTotalCount(slot0)
+slot0.SetTotalCount = function(slot0)
 	slot0.disPlays = {}
 	slot1 = slot0:GetData()
 
@@ -405,7 +405,7 @@ function slot0.SetTotalCount(slot0)
 	slot0.scrollRect:SetTotalCount(#slot0.disPlays)
 end
 
-function slot0.ForceActiveFirstCard(slot0)
+slot0.ForceActiveFirstCard = function(slot0)
 	slot1 = #slot0.disPlays == 0
 
 	setActive(slot0.tipBg, slot1)
@@ -436,15 +436,15 @@ function slot0.ForceActiveFirstCard(slot0)
 	end
 end
 
-function slot0.NoSelected(slot0)
+slot0.NoSelected = function(slot0)
 	return false
 end
 
-function slot0.CreateCard(slot0, slot1)
+slot0.CreateCard = function(slot0, slot1)
 	return BackYardThemeTemplateCard.New(slot1)
 end
 
-function slot0.OnUpdateCard(slot0, slot1, slot2)
+slot0.OnUpdateCard = function(slot0, slot1, slot2)
 	uv0.super.OnUpdateCard(slot0, slot1, slot2)
 
 	if slot0.cards[slot2].template:ShouldFetch() then
@@ -454,7 +454,7 @@ function slot0.OnUpdateCard(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnCardClick(slot0, slot1)
+slot0.OnCardClick = function(slot0, slot1)
 	if slot1.template == slot0.card then
 		return
 	end
@@ -465,7 +465,7 @@ function slot0.OnCardClick(slot0, slot1)
 
 	setActive(slot0.rawImage.gameObject, false)
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		BackYardThemeTempalteUtil.GetTexture(slot0:GetTextureName(), slot0:GetImageMd5(), function (slot0)
 			if not IsNil(uv0.rawImage) and slot0 then
 				uv0.rawImage.texture = slot0
@@ -488,7 +488,7 @@ function slot0.OnCardClick(slot0, slot1)
 	slot0.card = slot1.template
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 
 	slot0.descPages.OnSortChange = nil

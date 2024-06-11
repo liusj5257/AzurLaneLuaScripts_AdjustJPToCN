@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 202110,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-royalnavy",
 			dir = 1,
 			say = "It's a message! We've got a message from the support fleet!",
+			bgm = "bgm-royalnavy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "The Iron Blood's main fleet is moving towards the support fleet! Tirpitz and the Scharnhorst sisters are with them!",
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "—Requesting immediate assistance from the main fleet!",
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "The Iron Blood have finally shown themselves...!",
 			typewriter = {
 				speed = 0.05,

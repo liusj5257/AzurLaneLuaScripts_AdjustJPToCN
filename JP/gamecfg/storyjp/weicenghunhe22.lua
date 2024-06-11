@@ -1,21 +1,21 @@
 return {
-	id = "WEICENGHUNHE22",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE22",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/plane",
 			side = 2,
-			bgm = "hunhe-battle",
-			dir = 1,
 			say = "――――",
+			dir = 1,
+			soundeffect = "event:/battle/plane",
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -45,11 +45,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ここはリノに任せて！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "奇襲してきた数機のセイレーンの艦載機はアトランタ級――オークランド級の彼女に撃破された。",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			say = "助かったな。感謝する、リノ",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "こっちも敵を片付けたわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "敵影なし、っと…結局今のは敵の中枢艦でした？",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "「ハズレ」のようですね。霧がまだ消えていませんから",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "しっ。今変な声が…",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "津波…波の壁！？",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "こんな波が普通突然現れるわけないっしょ！皆、注意して！！",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーンの量産艦を文字通り「飲み込んだ」波に、艦船たちは慌てながらも――必死に対処していた。",
 			typewriter = {
 				speed = 0.05,

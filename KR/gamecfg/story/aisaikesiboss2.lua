@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"특별훈련·에식스급\n\n<size=45>2 출격 인디펜던스</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu1",
 			bgm = "level",
 			actor = 107220,
 			nameColor = "#92fc63",
 			say = "큭…… 생각보다 함대 연계가 어렵네……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "역시 경항공모함의 지휘운용에는 한계가 있다는 건가……",
 			typewriter = {
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "인디펜던스 씨, 잠깐 괜찮을까요?",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "인디펜던스 씨, 잠깐 괜찮을까요?",
+			actor = 107380,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -125,8 +125,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = -1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "네, 죄송하지만 관찰자로서 인디펜던스 씨가 지금 직면한 문제를 분석했는데……",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = -1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "혹시…… 초조해하는 거 아닌가요? 이대로 적과 접촉하면 큰일이 날 것 같아요……",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "내가 초조해 한다고? 알았어. 충고 고마워.",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "(에식스를 상대한다면 확실히 그게 중요하지. 하지만 어떻게……)",
 			typewriter = {
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "오? 인디펜던스? 뭐 고민이라도 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -267,8 +267,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "(클리블랜드……? 여기선 순순히 물어보는 것이 좋겠지? 네임쉽인 그녀라면 뭔가 팁을 줄 것 같아.)",
 			typewriter = {
@@ -297,17 +297,17 @@ return {
 			}
 		},
 		{
-			actor = 102090,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그렇군, 동료와 연계를 하는 법이라……",
 			bgm = "story-1",
+			actor = 102090,
+			nameColor = "#92fc63",
+			say = "그렇군, 동료와 연계를 하는 법이라……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -332,11 +332,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "그야……",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "어라? 다들 언제부터 온 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -499,8 +499,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "앗, 지금? 하지만 지금부터 연습을……",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -542,8 +542,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "아, 알았어……",
 			typewriter = {
@@ -572,11 +572,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "아니 이게 아냐! 상담을 받은 건 나라고! 멋진 모습은 전혀 보여주지 못했잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -588,8 +588,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

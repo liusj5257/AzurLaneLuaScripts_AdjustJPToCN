@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"カオティック・ハロウィンナイト\n\n<size=45>五 カオティックナイト</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_119",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_119",
 			bgm = "story-1",
 			actor = 102162,
 			nameColor = "#a9f548",
 			say = "これでハロウィンパーティーの準備もOKっと…みんな、ご協力感謝するわ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 102162,
 			dir = 1,
+			actor = 102162,
 			nameColor = "#a9f548",
 			say = "さて、あとはみんなが楽しんでるところを見守るだけっと…あ！お菓子はたくさんあるから、イタズラはほどほどにしなさい！",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 102162,
 			dir = 1,
+			actor = 102162,
 			nameColor = "#a9f548",
 			say = "お菓子を配る側も、なくなったらエディンバラのところまで行って頂戴！",
 			typewriter = {
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "はぁい！配るお菓子が足りなくなったら私のところまで来てください！",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "おーーー！",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 101421,
 			dir = 1,
+			actor = 101421,
 			nameColor = "#a9f548",
 			say = "エディンバラさん、お菓子の補充分を持ってきた",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "助かった～！あ、スモーリーにも一個あげるね？",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301411,
+			nameColor = "#a9f548",
 			say = "とりーくおあとりーと。三日月はたいやき、ほしい",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "ごめん、今日はお菓子だけだよ～はい、これを持ってってね～",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "あら。……この衣装に着替えたのはどうやら正解だったようですね",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "そ、そう言われるとそうですね…",
 			typewriter = {
@@ -332,13 +332,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_119",
+			side = 2,
+			dir = 1,
 			say = "……………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "か、からいよぉおお…うえええええええ……",
 			dialogShake = {
 				speed = 0.09,
@@ -432,8 +432,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
+			dir = 1,
 			say = "怪しいお菓子が入ってると会場中が騒ぎになった。",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +459,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "ど、どういうこと？私が準備したお菓子に変なものが入ってるわけが――",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -486,8 +486,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "どうやら後から変なものを入れられたようですね。パッケージが微妙に異なるものが混ざっています",
 			typewriter = {
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "イッヒッヒ！ハロウィンイタズラ作戦大成功！アバークロンビーの特別わさび入りキャンディを味わえ！",
 			typewriter = {
 				speed = 0.05,
@@ -516,8 +516,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "こ、この声は……",
 			typewriter = {
 				speed = 0.05,
@@ -622,8 +622,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "ひぃ！？ふ、フッドおばさん…じゃなくて、フッド姉さん許して～！！！",
 			typewriter = {
 				speed = 0.05,
@@ -696,8 +696,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

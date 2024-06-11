@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"紀行的藏紅花\n\n<size=45>二　同伴的煩惱</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日·演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "是艾塞克斯啊，早安。",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是艾塞克斯啊，早安。",
+			actor = 107380,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "看到艾塞克斯一副欲言又止的模樣，香格里拉率先打開了話匣子",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "！妳、妳怎麼知道",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
+			dir = -1,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "說起來剛才艾塞克斯的反應卻是有點讓人好奇。",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "呵呵，讓我猜猜看…是不是關於下次白鷹大型演習的事情呢？",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（小聲）哇？難道妳會讀心術嗎，香格里拉？",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "（小聲）看這反應，妳的煩惱八成還跟我們那位“前輩”脫不開關係吧~？",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "嗚…還、還是讓我自己來說吧，事情是這樣的——",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -257,15 +257,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "嗯…想要在下次大型演習前尋找到能確切戰勝企業前輩的方法，實在不行，至少也要讓前輩大吃一驚…嗎",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,8 +293,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "不介意的話，就讓我來給妳提供一點小小的幫助如何~？",
 			typewriter = {
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "真的嗎！？……咳咳！",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -367,14 +367,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107380,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "東煌有句古話，叫做“知己知彼，百戰不殆”",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,8 +402,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "雖然是古典理論，但是面對企業前輩，訊息和經驗的重要性自然是不用多說",
 			typewriter = {
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "嗯，之後再按照紀錄，針對企業前輩的戰鬥風格來給艾塞克斯妳定制一個特訓吧",
 			typewriter = {
@@ -468,8 +468,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "啊，指揮官也可以來觀摩一下。畢竟不是什麼秘密的東西",
 			typewriter = {

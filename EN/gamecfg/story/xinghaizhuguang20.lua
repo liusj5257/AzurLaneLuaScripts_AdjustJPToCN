@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_zhuguang_4",
+			side = 2,
+			bgm = "battle-ucnf",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The shipgirls assumed a combat-ready formation and sailed onward through the vast, distilled sea.",
-			bgm = "battle-ucnf",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "Each time the unidentified signal changed in frequency, Laffey updated her own signal in response.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "The two sides had formed a strange kind of tacit understanding, even though neither one knew the meaning behind the other's signal.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "As they circled around an artificial island, they finally laid eyes on the source of the signal.",
@@ -200,9 +200,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "Regardless of how unbelievable the shipgirls thought it, the very real fleet made up of dozens of ships was slowly approaching them.",
@@ -238,8 +238,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "udf_qingxun",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -256,9 +256,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "udf_zhongxun",
 					time = 3,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -275,9 +275,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "udf_zhanlie",
 					time = 3,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -294,9 +294,9 @@ return {
 					}
 				},
 				{
-					delay = 1.8,
 					name = "udf_hangmu",
 					time = 3,
+					delay = 1.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			nameColor = "#FEF15E",
@@ -460,11 +460,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "...They're sending us an unencrypted broadcast.",
 			painting = {
@@ -479,27 +479,27 @@ return {
 		{
 			portrait = 900404,
 			side = 2,
-			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
-			nameColor = "#FEF15E",
 			actorName = "???",
+			bgName = "bg_zhuguang_4",
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "This is the Council's Task Force 5, addressing the KAN-SEN in our path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -649,9 +649,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -665,17 +665,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -799,11 +799,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What is a \"Category V corrosion threat\"?",
@@ -877,9 +877,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -970,9 +970,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -987,8 +987,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1096,9 +1096,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1113,8 +1113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1144,9 +1144,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1161,8 +1161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1192,9 +1192,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1209,8 +1209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1219,11 +1219,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "Both ways are fine by me.",
 			painting = {

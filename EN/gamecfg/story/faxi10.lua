@@ -1,19 +1,19 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI10",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 107040,
-			side = 2,
-			bgm = "story-french2",
-			say = "Dauntless, press the attack!",
-			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "story-french2",
+			actor = 107040,
+			say = "Dauntless, press the attack!",
 			flashN = {
 				color = {
 					1,
@@ -58,8 +58,8 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			dir = 1,
 			say = "That's enough. She already... can't fight anymore.",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -80,8 +80,8 @@ return {
 			say = "Move! Move!! I said, move!!",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 22.5,
 					number = 2
@@ -117,8 +117,8 @@ return {
 			say = "Why?! Why was my construction never finished?!",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 22.5,
 					number = 2
@@ -176,15 +176,15 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900055,
+			stopbgm = true,
 			say = "Richelieu, I heard that we're all going to be moved to another dock. Is that true?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -344,15 +344,15 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
-			say = "Maybe... they never planned to finish building me in the first place.",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-french2",
+			actor = 905010,
+			say = "Maybe... they never planned to finish building me in the first place.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/noice",
-			say = "------- (Bzzzzzt...)"
+			say = "------- (Bzzzzzt...)",
+			soundeffect = "event:/ui/noice"
 		},
 		{
 			actor = 107040,
@@ -453,8 +453,8 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			dir = 1,
 			say = "\"An Iron Blood Carrier Battle Group is quickly approaching from the north! Prepare for combat.\" Could they have picked a worse time...?",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/noice",
-			say = "------- (Bzzzzzt...)"
+			say = "------- (Bzzzzzt...)",
+			soundeffect = "event:/ui/noice"
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "\"Attention, all members of the Vichya fleet. This is an important message from Headquarters.\"",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,8 +513,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "\"As of now, the Vichya Dominion has been dissolved. All former Vichya ships are to join the Azur Lane Alliance Fleet, effective immediately.\"",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "\"May you all be blessed by Father, Son, and the Holy Spirit.\"",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,12 +593,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Ugh...! Jean Bart, flagship of the rightful Vichya Dominion, decrees to all ships in the Méditerranée...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -630,8 +630,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Casablanca has fallen! The pagans now bare their fangs at the heart of our motherland!",
 			typewriter = {
 				speed = 0.05,
@@ -643,8 +643,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "The Iron Blood seeks to violate our lands, and the so-called Allies seek to drink our blood.",
 			typewriter = {
 				speed = 0.05,
@@ -656,8 +656,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Even the traitors at the Headquarters seek to sell out Vichya Dominion for cheap trinkets!",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "While I draw breath, I will never permit this to pass!",
 			typewriter = {
 				speed = 0.05,
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Remember what happened at Kébir! The Azur Lane already made their intentions clear to us with what they did to Dunkerque and the others.",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "While I draw breath, I will never allow us to bow before such hypocrites!",
 			typewriter = {
 				speed = 0.05,
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "The Vichya Dominion is about to draw its last breath, surrounded by vultures ready to devour us. But what of it?",
 			typewriter = {
 				speed = 0.05,
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "The proud Templar Knights shall never bow their heads! So that we may never become puppets, I hereby order all of you to sink!",
 			typewriter = {
 				speed = 0.05,
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "All things mortal must come to an end, but there is no need for sorrow. This is the cycle of life, and we shall become one without lies or hypocrisy.",
 			typewriter = {
 				speed = 0.05,
@@ -747,8 +747,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Perhaps in a distant dawn, I shall wake up once more in a different form.",
 			typewriter = {
 				speed = 0.05,
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Despite that, blessed be God's name. Thank you for granting me a life in service of this splendid country.",
 			typewriter = {
 				speed = 0.05,
@@ -773,8 +773,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Thank you for granting me a life of happiness.",
 			typewriter = {
 				speed = 0.05,
@@ -786,8 +786,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "And thank you for welcoming me into the seas of Heaven.",
 			typewriter = {
 				speed = 0.05,
@@ -799,8 +799,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Blessed be the successors of the true Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
@@ -812,8 +812,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "The Vichya Dominion represents the justice, passion, and love of the Iris Orthodoxy.",
 			typewriter = {
 				speed = 0.05,
@@ -825,8 +825,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "May you all be blessed by Heavenly Father, Son, and Holy Spirit.",
 			typewriter = {
 				speed = 0.05,
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Second flagship of the Vichya... no, of Iris... Jean Bart...",
 			typewriter = {
 				speed = 0.05,
@@ -853,9 +853,9 @@ return {
 		{
 			actor = 105190,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			say = "How could you do such a thing?",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
 					active = false,
@@ -874,8 +874,8 @@ return {
 		{
 			actor = 905010,
 			side = 1,
-			dir = 1,
 			say = "With this... I was able to honor the pact that we made with the Royal Navy in the past... to not be used by the Iron Blood, to not become a hue in the Crimson Axis...",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1045,15 +1045,15 @@ return {
 			}
 		},
 		{
-			actor = 900054,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900054,
+			stopbgm = true,
 			say = "By the way, did you ever figure out what our names mean?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

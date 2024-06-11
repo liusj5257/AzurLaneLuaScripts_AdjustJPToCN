@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_48 = {}
 slot1 = slot0.word_template_48
 
-function temp()
+temp = function()
 	uv0["逩"] = {
 		["馳"] = {
 			["寳"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苯"] = {
 		["巴"] = {
 			["比"] = {
@@ -90,7 +90,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["笨"] = {
 		["屄"] = {
 			this = true
@@ -103,7 +103,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["屄"] = {
 		this = {
 			this = true
@@ -133,7 +133,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["逼"] = {
 		this = {
 			this = true
@@ -279,7 +279,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鼻"] = {
 		["吸"] = {
 			["剂"] = {
@@ -294,7 +294,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["匕"] = {
 		["首"] = {
 			["麻"] = {

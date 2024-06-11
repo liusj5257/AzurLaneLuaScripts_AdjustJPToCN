@@ -1,312 +1,312 @@
 pg = pg or {}
 pg.painting_filte_world = {
 	{
-		key = 1,
-		name = "shancheng"
+		name = "shancheng",
+		key = 1
 	},
 	{
-		key = 2,
-		name = "hao"
+		name = "hao",
+		key = 2
 	},
 	{
-		key = 3,
-		name = "wuwei"
+		name = "wuwei",
+		key = 3
 	},
 	{
-		key = 4,
-		name = "hermit"
+		name = "hermit",
+		key = 4
 	},
 	{
-		key = 5,
-		name = "bominghan"
+		name = "bominghan",
+		key = 5
 	},
 	{
-		key = 6,
-		name = "linuo"
+		name = "linuo",
+		key = 6
 	},
 	{
-		key = 7,
-		name = "tiancheng_hei"
+		name = "tiancheng_hei",
+		key = 7
 	},
 	{
-		key = 8,
-		name = "mengfeisi"
+		name = "mengfeisi",
+		key = 8
 	},
 	{
-		key = 9,
-		name = "tbniang"
+		name = "tbniang",
+		key = 9
 	},
 	{
-		key = 10,
-		name = "dahuangfeng"
+		name = "dahuangfeng",
+		key = 10
 	},
 	{
-		key = 11,
-		name = "mengbiliai"
+		name = "mengbiliai",
+		key = 11
 	},
 	{
-		key = 12,
-		name = "temperance"
+		name = "temperance",
+		key = 12
 	},
 	{
-		key = 13,
-		name = "qiye_hei"
+		name = "qiye_hei",
+		key = 13
 	},
 	{
-		key = 14,
-		name = "kelifulan"
+		name = "kelifulan",
+		key = 14
 	},
 	{
-		key = 15,
-		name = "jiahe"
+		name = "jiahe",
+		key = 15
 	},
 	{
-		key = 16,
-		name = "baerdimo"
+		name = "baerdimo",
+		key = 16
 	},
 	{
-		key = 17,
-		name = "beierfasite"
+		name = "beierfasite",
+		key = 17
 	},
 	{
-		key = 18,
-		name = "qiye"
+		name = "qiye",
+		key = 18
 	},
 	{
-		key = 19,
-		name = "luodeni"
+		name = "luodeni",
+		key = 19
 	},
 	{
-		key = 20,
-		name = "yilishabai"
+		name = "yilishabai",
+		key = 20
 	},
 	{
-		key = 21,
-		name = "chicheng"
+		name = "chicheng",
+		key = 21
 	},
 	{
-		key = 22,
-		name = "shengwang_younv"
+		name = "shengwang_younv",
+		key = 22
 	},
 	{
-		key = 23,
-		name = "masazhusai"
+		name = "masazhusai",
+		key = 23
 	},
 	{
-		key = 24,
-		name = "buzhihuo"
+		name = "buzhihuo",
+		key = 24
 	},
 	{
-		key = 25,
-		name = "yuekecheng_hei"
+		name = "yuekecheng_hei",
+		key = 25
 	},
 	{
-		key = 26,
-		name = "qiaozhiwushi"
+		name = "qiaozhiwushi",
+		key = 26
 	},
 	{
-		key = 27,
-		name = "jingang"
+		name = "jingang",
+		key = 27
 	},
 	{
-		key = 28,
-		name = "niukasier"
+		name = "niukasier",
+		key = 28
 	},
 	{
-		key = 29,
-		name = "xuefeng"
+		name = "xuefeng",
+		key = 29
 	},
 	{
-		key = 30,
-		name = "tierbici"
+		name = "tierbici",
+		key = 30
 	},
 	{
-		key = 31,
-		name = "salatuojia"
+		name = "salatuojia",
+		key = 31
 	},
 	{
-		key = 32,
-		name = "huangjiafangzhou_alter"
+		name = "huangjiafangzhou_alter",
+		key = 32
 	},
 	{
-		key = 33,
-		name = "unknown5"
+		name = "unknown5",
+		key = 33
 	},
 	{
-		key = 34,
-		name = "xianghe"
+		name = "xianghe",
+		key = 34
 	},
 	{
-		key = 35,
-		name = "kewei"
+		name = "kewei",
+		key = 35
 	},
 	{
-		key = 36,
-		name = "weiershiqinwang"
+		name = "weiershiqinwang",
+		key = 36
 	},
 	{
-		key = 37,
-		name = "feilong"
+		name = "feilong",
+		key = 37
 	},
 	{
-		key = 38,
-		name = "yatelanda"
+		name = "yatelanda",
+		key = 38
 	},
 	{
-		key = 39,
-		name = "z2"
+		name = "z2",
+		key = 39
 	},
 	{
-		key = 40,
-		name = "u47"
+		name = "u47",
+		key = 40
 	},
 	{
-		key = 41,
-		name = "strength"
+		name = "strength",
+		key = 41
 	},
 	{
-		key = 42,
-		name = "safuke"
+		name = "safuke",
+		key = 42
 	},
 	{
-		key = 43,
-		name = "changdao"
+		name = "changdao",
+		key = 43
 	},
 	{
-		key = 44,
-		name = "yanzhan"
+		name = "yanzhan",
+		key = 44
 	},
 	{
-		key = 45,
-		name = "nuofuke"
+		name = "nuofuke",
+		key = 45
 	},
 	{
-		key = 46,
-		name = "nandaketa"
+		name = "nandaketa",
+		key = 46
 	},
 	{
-		key = 47,
-		name = "gelunweier"
+		name = "gelunweier",
+		key = 47
 	},
 	{
-		key = 48,
-		name = "yingxianzuo"
+		name = "yingxianzuo",
+		key = 48
 	},
 	{
-		key = 49,
-		name = "alabama"
+		name = "alabama",
+		key = 49
 	},
 	{
-		key = 50,
-		name = "guanghui"
+		name = "guanghui",
+		key = 50
 	},
 	{
-		key = 51,
-		name = "beikaluolaina"
+		name = "beikaluolaina",
+		key = 51
 	},
 	{
-		key = 52,
-		name = "dujiaoshou"
+		name = "dujiaoshou",
+		key = 52
 	},
 	{
-		key = 53,
-		name = "kente"
+		name = "kente",
+		key = 53
 	},
 	{
-		key = 54,
-		name = "bushi"
+		name = "bushi",
+		key = 54
 	},
 	{
-		key = 55,
-		name = "aisaikesi"
+		name = "aisaikesi",
+		key = 55
 	},
 	{
-		key = 56,
-		name = "shengwang"
+		name = "shengwang",
+		key = 56
 	},
 	{
-		key = 57,
-		name = "shengli"
+		name = "shengli",
+		key = 57
 	},
 	{
-		key = 58,
-		name = "xianggelila"
+		name = "xianggelila",
+		key = 58
 	},
 	{
-		key = 59,
-		name = "mingshi"
+		name = "mingshi",
+		key = 59
 	},
 	{
-		key = 60,
-		name = "deyizhi"
+		name = "deyizhi",
+		key = 60
 	},
 	{
-		key = 61,
-		name = "lituoliao"
+		name = "lituoliao",
+		key = 61
 	},
 	{
-		key = 62,
-		name = "dahuangfeng_hei"
+		name = "dahuangfeng_hei",
+		key = 62
 	},
 	{
-		key = 63,
-		name = "feilong_alter"
+		name = "feilong_alter",
+		key = 63
 	},
 	{
-		key = 64,
-		name = "aidingbao"
+		name = "aidingbao",
+		key = 64
 	},
 	{
-		key = 65,
-		name = "lumang"
+		name = "lumang",
+		key = 65
 	},
 	{
-		key = 66,
-		name = "hude"
+		name = "hude",
+		key = 66
 	},
 	{
-		key = 67,
-		name = "ying"
+		name = "ying",
+		key = 67
 	},
 	{
-		key = 68,
-		name = "xiefeierde"
+		name = "xiefeierde",
+		key = 68
 	},
 	{
-		key = 69,
-		name = "shentong"
+		name = "shentong",
+		key = 69
 	},
 	{
-		key = 70,
-		name = "juejiang"
+		name = "juejiang",
+		key = 70
 	},
 	{
-		key = 71,
-		name = "ruihe"
+		name = "ruihe",
+		key = 71
 	},
 	{
-		key = 72,
-		name = "jiahezhanlie"
+		name = "jiahezhanlie",
+		key = 72
 	},
 	{
-		key = 73,
-		name = "qiye_dark_shadow"
+		name = "qiye_dark_shadow",
+		key = 73
 	},
 	{
-		key = 74,
-		name = "zaoshen"
+		name = "zaoshen",
+		key = 74
 	},
 	{
-		key = 75,
-		name = "yuekegongjue"
+		name = "yuekegongjue",
+		key = 75
 	},
 	{
-		key = 76,
-		name = "kubo"
+		name = "kubo",
+		key = 76
 	},
 	{
-		key = 77,
-		name = "xizhang"
+		name = "xizhang",
+		key = 77
 	},
 	all = {
 		1,

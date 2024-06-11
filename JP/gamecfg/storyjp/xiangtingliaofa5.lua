@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103160,
-			side = 2,
-			bgm = "story-6",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "これで…終わりだ！",
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "story-6",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "これで…終わりだ！",
 			flashN = {
 				color = {
 					1,
@@ -76,16 +76,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
 					number = 3
 				},
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.7,
 					x = 0
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "同行している駆逐艦にホーネットをNPシティまで退避させるよう指示した。",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "これでセイレーンの指揮系統が崩壊すれば、残りの掃討も時間の問題になる。",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それにしても、まさかユニオン本土にここまで大規模な襲撃をされるとは…",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",

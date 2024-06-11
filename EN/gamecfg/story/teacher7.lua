@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Class Z VII\n\n<size=45>Teach Me, Miss Z23! </size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I heard Zed was here...",
 			bgm = "story-1",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "I heard Zed was here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "What's \"special tutoring?\" Sounds like something that would be fun with the Commander~",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "What's \"special tutoring?\" Sounds like something that would be fun with the Commander~",
+			actor = 201210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,10 +86,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			actorShadow = true,
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 101170,
 			actorName = "Laffey&Javelin&{namecode:6}",
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -134,15 +134,15 @@ return {
 			}
 		},
 		{
-			actor = 401231,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401231,
+			nameColor = "#a9f548",
 			say = "This is important! (knocks on the blackboard) If you don't take notes carefully, Miss Z23 is going to punish you!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

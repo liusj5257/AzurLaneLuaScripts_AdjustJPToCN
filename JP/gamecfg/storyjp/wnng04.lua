@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "储物舱中存放着各种大型作战冒险过程中获得的道具。",
 			typewriter = {
 				speed = 0.05,

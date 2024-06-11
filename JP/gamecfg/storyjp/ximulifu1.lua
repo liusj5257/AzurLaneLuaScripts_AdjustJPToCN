@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平和に祈りを\n\n<size=45>一　パーティーへの招待</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 401234,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401234,
+			nameColor = "#a9f548",
 			say = "指揮官、準備はいいですか？そろそろ出発の時間ですよ？",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "もう、まだ寝ぼけているんですか？パーティーですよ",
 			typewriter = {
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そういえば……",
 			typewriter = {
 				speed = 0.05,
@@ -99,9 +99,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "数日前・執務室",
 			effects = {
 				{
@@ -138,8 +138,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "なにせ、珍しく我がロイヤルと鉄血の共同主催だからな",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205050,
+			nameColor = "#a9f548",
 			say = "そんな大事な行事に参加しないなど、風情のわからない指揮官ではなかろう",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "ふふふ、指揮官とのダンスを楽しみにしているぞ？",
 			typewriter = {
@@ -209,9 +209,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			say = "思い出しました？ふぅ……知らせにやってきてよかったですね",
 			flashout = {
@@ -264,8 +264,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "指揮官が出席しないと大変なことになりますよ",
 			typewriter = {

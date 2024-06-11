@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "鱼雷艇AI切换自杀",
 	time = 0,
+	name = "鱼雷艇AI切换自杀",
+	init_effect = "",
 	picture = "",
 	desc = "鱼雷艇AI切换跑路AI及自杀",
 	stack = 1,
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		}
 	}

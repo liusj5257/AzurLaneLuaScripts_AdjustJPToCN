@@ -11,13 +11,13 @@ slot0.Battle.BattleSceneMediator = slot7
 slot7.__name = "BattleSceneMediator"
 slot8 = Vector3(0, 0.8, 0)
 
-function slot7.Ctor(slot0)
+slot7.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0.FlagShipUIPos = Vector3.zero
 end
 
-function slot7.Initialize(slot0)
+slot7.Initialize = function(slot0)
 	uv0.super.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(uv1.Battle.BattleDataProxy.__name)
@@ -27,7 +27,7 @@ function slot7.Initialize(slot0)
 	slot0:AddEvent()
 end
 
-function slot7.Init(slot0)
+slot7.Init = function(slot0)
 	slot0._characterList = {}
 	slot0._bulletList = {}
 	slot0._particleBulletList = {}
@@ -48,14 +48,14 @@ function slot7.Init(slot0)
 	pg.CameraFixMgr.GetInstance():SetMaskAsTopLayer(true)
 end
 
-function slot7.InitCamera(slot0)
+slot7.InitCamera = function(slot0)
 	slot0._cameraUtil = uv0.Battle.BattleCameraUtil.GetInstance()
 
 	slot0._cameraUtil:RegisterEventListener(slot0, uv1.CAMERA_FOCUS_RESET, slot0.onCameraFocusReset)
 	slot0._cameraUtil:RegisterEventListener(slot0, uv1.BULLET_TIME, slot0.onBulletTime)
 end
 
-function slot7.InitPopNumPool(slot0)
+slot7.InitPopNumPool = function(slot0)
 	slot0._popNumMgr = uv0.Battle.BattlePopNumManager.GetInstance()
 	slot2 = slot0._state:GetUI()
 
@@ -66,7 +66,7 @@ function slot7.InitPopNumPool(slot0)
 	end
 end
 
-function slot7.InitFlagShipMark(slot0)
+slot7.InitFlagShipMark = function(slot0)
 	slot1 = slot0._state:GetUI():findGO("flagShipMark")
 
 	slot1:SetActive(true)
@@ -74,12 +74,12 @@ function slot7.InitFlagShipMark(slot0)
 	slot0._goFlagShipMarkTf = slot1.transform
 end
 
-function slot7.InitSkillAim(slot0)
+slot7.InitSkillAim = function(slot0)
 	slot0._cardAimTargetFilter = {}
 	slot0._cardAimTargetList = {}
 end
 
-function slot7.InitCharacterFactory(slot0)
+slot7.InitCharacterFactory = function(slot0)
 	slot1 = slot0._state:GetUI()
 
 	uv0.Battle.BattleHPBarManager.GetInstance():InitialPoolRoot(slot1:findTF(uv0.Battle.BattleHPBarManager.ROOT_NAME))
@@ -96,14 +96,14 @@ function slot7.InitCharacterFactory(slot0)
 	}
 end
 
-function slot7.InitPlayerAntiAirArea(slot0)
+slot7.InitPlayerAntiAirArea = function(slot0)
 	slot0._antiAirArea = slot0._fxPool:GetFX("AntiAirArea")
 	slot0._antiAirAreaTF = slot0._antiAirArea.transform
 
 	slot0._antiAirArea:SetActive(false)
 end
 
-function slot7.InitPlayerAntiSubArea(slot0)
+slot7.InitPlayerAntiSubArea = function(slot0)
 	slot0._anitSubArea = slot0._fxPool:GetFX("AntiSubArea")
 	slot0._anitSubAreaTF = slot0._anitSubArea.transform
 
@@ -115,10 +115,10 @@ function slot7.InitPlayerAntiSubArea(slot0)
 	}
 end
 
-function slot7.InitDetailAntiSubArea(slot0)
+slot7.InitDetailAntiSubArea = function(slot0)
 	slot1, slot2, slot3, slot4 = slot0._leftFleet:GetFleetSonar():GetTotalRangeDetail()
 
-	function slot5(slot0, slot1, slot2)
+	slot5 = function(slot0, slot1, slot2)
 		slot3 = uv0._fxPool:GetFX("AntiSubArea")
 		slot3.name = slot2
 		slot4 = slot3.transform
@@ -136,7 +136,7 @@ function slot7.InitDetailAntiSubArea(slot0)
 	slot5(slot1, Color.New(1, 0, 0, 1), "基础直径：" .. slot1)
 end
 
-function slot7.AddEvent(slot0)
+slot7.AddEvent = function(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.STAGE_DATA_INIT_FINISH, slot0.onStageInitFinish)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UNIT, slot0.onAddUnit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_UNIT, slot0.onRemoveUnit)
@@ -159,7 +159,7 @@ function slot7.AddEvent(slot0)
 	end)
 end
 
-function slot7.RemoveEvent(slot0)
+slot7.RemoveEvent = function(slot0)
 	slot0._leftFleet:UnregisterEventListener(slot0, uv0.SONAR_SCAN)
 	slot0._leftFleet:UnregisterEventListener(slot0, uv0.SONAR_UPDATE)
 	slot0._leftFleet:UnregisterEventListener(slot0, uv0.ADD_AIM_BIAS)
@@ -188,7 +188,7 @@ function slot7.RemoveEvent(slot0)
 	pg.CameraFixMgr.GetInstance():disconnect(slot0._camEventId)
 end
 
-function slot7.onStageInitFinish(slot0, slot1)
+slot7.onStageInitFinish = function(slot0, slot1)
 	slot0._leftFleet = slot0._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FRIENDLY_CODE)
 	slot0._leftFleetMotion = slot0._leftFleet:GetMotion()
 
@@ -203,11 +203,11 @@ function slot7.onStageInitFinish(slot0, slot1)
 	slot0:InitPopNumPool()
 end
 
-function slot7.onAddUnit(slot0, slot1)
+slot7.onAddUnit = function(slot0, slot1)
 	slot0._characterFactoryList[slot1.Data.type]:CreateCharacter(slot1.Data)
 end
 
-function slot7.onRemoveUnit(slot0, slot1)
+slot7.onRemoveUnit = function(slot0, slot1)
 	slot3 = slot1.Data.deadReason
 
 	if slot0._characterList[slot1.Data.UID] then
@@ -217,7 +217,7 @@ function slot7.onRemoveUnit(slot0, slot1)
 	end
 end
 
-function slot7.onRemoveAircraft(slot0, slot1)
+slot7.onRemoveAircraft = function(slot0, slot1)
 	if slot0._aircraftList[slot1.Data.UID] then
 		slot3:GetFactory():RemoveCharacter(slot3)
 
@@ -225,7 +225,7 @@ function slot7.onRemoveAircraft(slot0, slot1)
 	end
 end
 
-function slot7.onRemoveAirFighter(slot0, slot1)
+slot7.onRemoveAirFighter = function(slot0, slot1)
 	if slot0._aircraftList[slot1.Data.UID] then
 		slot3:GetFactory():RemoveCharacter(slot3)
 
@@ -233,23 +233,23 @@ function slot7.onRemoveAirFighter(slot0, slot1)
 	end
 end
 
-function slot7.onRemoveBullet(slot0, slot1)
+slot7.onRemoveBullet = function(slot0, slot1)
 	slot0:RemoveBullet(slot1.Data.UID)
 end
 
-function slot7.onAddArea(slot0, slot1)
+slot7.onAddArea = function(slot0, slot1)
 	slot0:AddArea(slot1.Data.area, slot1.Data.FXID)
 end
 
-function slot7.onRemoveArea(slot0, slot1)
+slot7.onRemoveArea = function(slot0, slot1)
 	slot0:RemoveArea(slot1.Data.id)
 end
 
-function slot7.onAddEffect(slot0, slot1)
+slot7.onAddEffect = function(slot0, slot1)
 	slot0:AddEffect(slot1.Data.FXID, slot1.Data.position, slot1.Data.localScale)
 end
 
-function slot7.onAddShelter(slot0, slot1)
+slot7.onAddShelter = function(slot0, slot1)
 	slot2 = slot1.Data.shelter
 	slot3, slot4 = slot0._fxPool:GetFX(slot2:GetFXID())
 
@@ -265,7 +265,7 @@ function slot7.onAddShelter(slot0, slot1)
 	slot0._shelterList[slot2:GetUniqueID()] = slot3
 end
 
-function slot7.onRemoveShleter(slot0, slot1)
+slot7.onRemoveShleter = function(slot0, slot1)
 	if slot0._shelterList[slot1.Data.uid] then
 		uv0.Battle.BattleResourceManager.GetInstance():DestroyOb(slot3)
 
@@ -273,7 +273,7 @@ function slot7.onRemoveShleter(slot0, slot1)
 	end
 end
 
-function slot7.onAntiAirArea(slot0, slot1)
+slot7.onAntiAirArea = function(slot0, slot1)
 	if slot1.Data.isShow ~= nil then
 		slot0._antiAirArea.gameObject:SetActive(slot1.Data.isShow)
 
@@ -284,7 +284,7 @@ function slot7.onAntiAirArea(slot0, slot1)
 	end
 end
 
-function slot7.onAntiAirOverload(slot0, slot1)
+slot7.onAntiAirOverload = function(slot0, slot1)
 	slot3 = slot0._antiAirAreaTF:Find("Quad"):GetComponent(typeof(Animator))
 
 	if slot1.Dispatcher:IsOverLoad() then
@@ -294,11 +294,11 @@ function slot7.onAntiAirOverload(slot0, slot1)
 	end
 end
 
-function slot7.onUpdateHostileSubmarine(slot0, slot1)
+slot7.onUpdateHostileSubmarine = function(slot0, slot1)
 	slot0:updateSonarView()
 end
 
-function slot7.updateSonarView(slot0)
+slot7.updateSonarView = function(slot0)
 	slot0._sonarActive = slot0._dataProxy:GetEnemySubmarineCount() > 0
 
 	for slot5, slot6 in pairs(slot0._characterList) do
@@ -315,7 +315,7 @@ function slot7.updateSonarView(slot0)
 	end
 end
 
-function slot7.onSonarScan(slot0, slot1)
+slot7.onSonarScan = function(slot0, slot1)
 	if slot1.Data.indieSonar then
 		slot4 = slot0._fxPool:GetFX("AntiSubArea").transform
 		slot4.localScale = Vector3(100, 0, 100)
@@ -344,14 +344,14 @@ function slot7.onSonarScan(slot0, slot1)
 	end
 end
 
-function slot7.onAddAimBias(slot0, slot1)
+slot7.onAddAimBias = function(slot0, slot1)
 	slot0._aimBiasTFList[slot1.Data.aimBias] = {
 		tf = slot0._fxPool:GetFX("AimBiasArea").transform,
 		vector = Vector3(5, 0, 5)
 	}
 end
 
-function slot7.onRemoveAimBias(slot0, slot1)
+slot7.onRemoveAimBias = function(slot0, slot1)
 	if slot0._aimBiasTFList[slot1.Data.aimBias] then
 		uv0.Battle.BattleResourceManager.GetInstance():DestroyOb(slot3.tf.gameObject)
 
@@ -359,7 +359,7 @@ function slot7.onRemoveAimBias(slot0, slot1)
 	end
 end
 
-function slot7.onUpdateMoveMark(slot0, slot1)
+slot7.onUpdateMoveMark = function(slot0, slot1)
 	slot2 = slot1.Data.pos
 
 	if not slot0._moveMarkFXTF then
@@ -376,7 +376,7 @@ function slot7.onUpdateMoveMark(slot0, slot1)
 	end
 end
 
-function slot7.onBoardClick(slot0, slot1)
+slot7.onBoardClick = function(slot0, slot1)
 	slot4 = slot0._leftFleet:GetCardPuzzleComponent():GetTouchScreenPoint()
 
 	if slot1.Data.click == uv0.Battle.CardPuzzleBoardClicker.CLICK_STATE_CLICK then
@@ -389,15 +389,15 @@ function slot7.onBoardClick(slot0, slot1)
 	end
 end
 
-function slot7.onCameraFocusReset(slot0, slot1)
+slot7.onCameraFocusReset = function(slot0, slot1)
 	slot0:ResetFocus()
 end
 
-function slot7.onAddCameraFX(slot0, slot1)
+slot7.onAddCameraFX = function(slot0, slot1)
 	slot0:AddCameraFX(slot1.Data.orderDiff, slot1.Data.FXID, slot1.Data.position, slot1.Data.localScale)
 end
 
-function slot7.AddCameraFX(slot0, slot1, slot2, slot3, slot4)
+slot7.AddCameraFX = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot0._cameraUtil:Add2Camera(slot0._fxPool:GetFX(slot2), slot1)
 	slot4 = slot4 or 1
 	slot5.transform.localScale = Vector3(slot4 / slot6.x, slot4 / slot6.y, slot4 / slot6.z)
@@ -405,11 +405,11 @@ function slot7.AddCameraFX(slot0, slot1, slot2, slot3, slot4)
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot5, slot3, true)
 end
 
-function slot7.onUpdateSkillAim(slot0, slot1)
+slot7.onUpdateSkillAim = function(slot0, slot1)
 	slot0._cardAimTargetFilter = slot1.Data.targetFilterList
 end
 
-function slot7.Update(slot0)
+slot7.Update = function(slot0)
 	for slot4, slot5 in pairs(slot0._characterList) do
 		slot5:Update()
 	end
@@ -436,7 +436,7 @@ function slot7.Update(slot0)
 	slot0:UpdateFlagShipMark()
 end
 
-function slot7.UpdatePause(slot0)
+slot7.UpdatePause = function(slot0)
 	for slot4, slot5 in pairs(slot0._characterList) do
 		slot5:UpdateUIComponentPosition()
 		slot5:UpdateHPBarPosition()
@@ -453,7 +453,7 @@ function slot7.UpdatePause(slot0)
 	slot0:UpdateFlagShipMark()
 end
 
-function slot7.UpdateEscapeOnly(slot0, slot1)
+slot7.UpdateEscapeOnly = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._characterList) do
 		if slot6.__name == uv0.Battle.BattleEnemyCharacter.__name or slot6.__name == uv0.Battle.BattleBossCharacter.__name then
 			slot6:Update(slot1)
@@ -461,7 +461,7 @@ function slot7.UpdateEscapeOnly(slot0, slot1)
 	end
 end
 
-function slot7.Pause(slot0)
+slot7.Pause = function(slot0)
 	slot0:PauseCharacterAction(true)
 
 	for slot4, slot5 in pairs(slot0._areaList) do
@@ -485,7 +485,7 @@ function slot7.Pause(slot0)
 	end
 end
 
-function slot7.Resume(slot0)
+slot7.Resume = function(slot0)
 	slot0:PauseCharacterAction(false)
 
 	for slot4, slot5 in pairs(slot0._areaList) do
@@ -509,7 +509,7 @@ function slot7.Resume(slot0)
 	end
 end
 
-function slot7.onBulletTime(slot0, slot1)
+slot7.onBulletTime = function(slot0, slot1)
 	slot2 = slot1.Data
 	slot3 = slot2.key
 
@@ -543,7 +543,7 @@ function slot7.onBulletTime(slot0, slot1)
 	end
 end
 
-function slot7.ResetFocus(slot0)
+slot7.ResetFocus = function(slot0)
 	uv0.RemoveIFFFactor(uv1.FOE_CODE, uv1.SPEED_FACTOR_FOCUS_CHARACTER)
 	uv0.RemoveIFFFactor(uv1.FRIENDLY_CODE, uv1.SPEED_FACTOR_FOCUS_CHARACTER)
 
@@ -558,11 +558,11 @@ function slot7.ResetFocus(slot0)
 	slot0._cameraUtil:ZoomCamara(nil, , uv1.CAM_RESET_DURATION)
 end
 
-function slot7.UpdateFlagShipMark(slot0)
+slot7.UpdateFlagShipMark = function(slot0)
 	slot0._goFlagShipMarkTf.position = uv0.CameraPosToUICamera(slot0.FlagShipUIPos:Copy(slot0._leftFleetMotion:GetPos())):Add(uv1)
 end
 
-function slot7.UpdateAntiAirArea(slot0)
+slot7.UpdateAntiAirArea = function(slot0)
 	slot0._antiAirAreaTF.position = slot0._leftFleetMotion:GetPos()
 
 	for slot4, slot5 in pairs(slot0._anitSubAreaTFList) do
@@ -570,7 +570,7 @@ function slot7.UpdateAntiAirArea(slot0)
 	end
 end
 
-function slot7.UpdateAimBiasArea(slot0)
+slot7.UpdateAimBiasArea = function(slot0)
 	for slot4, slot5 in pairs(slot0._aimBiasTFList) do
 		slot6 = slot5.tf
 		slot7 = slot5.vector
@@ -589,7 +589,7 @@ function slot7.UpdateAimBiasArea(slot0)
 	end
 end
 
-function slot7.updateCardAim(slot0)
+slot7.updateCardAim = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0._cardAimTargetFilter) do
@@ -627,7 +627,7 @@ function slot7.updateCardAim(slot0)
 	end
 end
 
-function slot7.AddBullet(slot0, slot1)
+slot7.AddBullet = function(slot0, slot1)
 	slot0._bulletList[slot1:GetBulletData():GetUniqueID()] = slot1
 
 	if slot1:GetGO() and slot3:GetComponent(typeof(ParticleSystem)) then
@@ -639,7 +639,7 @@ function slot7.AddBullet(slot0, slot1)
 	end
 end
 
-function slot7.RemoveBullet(slot0, slot1)
+slot7.RemoveBullet = function(slot0, slot1)
 	if slot0._bulletList[slot1] then
 		slot0._particleBulletList[slot2] = nil
 
@@ -649,15 +649,15 @@ function slot7.RemoveBullet(slot0, slot1)
 	slot0._bulletList[slot1] = nil
 end
 
-function slot7.GetBulletRoot(slot0)
+slot7.GetBulletRoot = function(slot0)
 	return slot0._bulletContainer
 end
 
-function slot7.EnablePopContainer(slot0, slot1, slot2)
+slot7.EnablePopContainer = function(slot0, slot1, slot2)
 	setActive(slot0._state:GetUI():findTF(slot1), slot2)
 end
 
-function slot7.AddPlayerCharacter(slot0, slot1)
+slot7.AddPlayerCharacter = function(slot0, slot1)
 	slot0:AppendCharacter(slot1)
 
 	slot3 = slot1:GetUnitData():IsMainFleetUnit()
@@ -671,47 +671,47 @@ function slot7.AddPlayerCharacter(slot0, slot1)
 	end
 end
 
-function slot7.AddEnemyCharacter(slot0, slot1)
+slot7.AddEnemyCharacter = function(slot0, slot1)
 	slot0:AppendCharacter(slot1)
 end
 
-function slot7.AppendCharacter(slot0, slot1)
+slot7.AppendCharacter = function(slot0, slot1)
 	slot0._characterList[slot1:GetUnitData():GetUniqueID()] = slot1
 end
 
-function slot7.InstantiateCharacterComponent(slot0, slot1)
+slot7.InstantiateCharacterComponent = function(slot0, slot1)
 	slot3 = slot0._state:GetUI():findTF(slot1)
 
 	return cloneTplTo(slot3, slot3.parent).gameObject
 end
 
-function slot7.GetCharacterList(slot0)
+slot7.GetCharacterList = function(slot0)
 	return slot0._characterList
 end
 
-function slot7.GetPopNumPool(slot0)
+slot7.GetPopNumPool = function(slot0)
 	return slot0._popNumMgr
 end
 
-function slot7.PauseCharacterAction(slot0, slot1)
+slot7.PauseCharacterAction = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._characterList) do
 		slot6:PauseActionAnimation(slot1)
 	end
 end
 
-function slot7.GetCharacter(slot0, slot1)
+slot7.GetCharacter = function(slot0, slot1)
 	return slot0._characterList[slot1]
 end
 
-function slot7.GetAircraft(slot0, slot1)
+slot7.GetAircraft = function(slot0, slot1)
 	return slot0._aircraftList[slot1]
 end
 
-function slot7.AddAirCraftCharacter(slot0, slot1)
+slot7.AddAirCraftCharacter = function(slot0, slot1)
 	slot0._aircraftList[slot1:GetUnitData():GetUniqueID()] = slot1
 end
 
-function slot7.AddArea(slot0, slot1, slot2)
+slot7.AddArea = function(slot0, slot1, slot2)
 	slot3 = slot0._fxPool:GetFX(slot2)
 	slot5 = false
 
@@ -722,7 +722,7 @@ function slot7.AddArea(slot0, slot1, slot2)
 	slot0._areaList[slot1:GetUniqueID()] = uv0.Battle.BattleEffectArea.New(slot3, slot1, slot5)
 end
 
-function slot7.RemoveArea(slot0, slot1)
+slot7.RemoveArea = function(slot0, slot1)
 	if slot0._areaList[slot1] then
 		slot0._areaList[slot1]:Dispose()
 
@@ -730,7 +730,7 @@ function slot7.RemoveArea(slot0, slot1)
 	end
 end
 
-function slot7.AddEffect(slot0, slot1, slot2, slot3)
+slot7.AddEffect = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0._fxPool:GetFX(slot1)
 	slot3 = slot3 or 1
 	slot4.transform.localScale = Vector3(slot3, 1, slot3)
@@ -738,7 +738,7 @@ function slot7.AddEffect(slot0, slot1, slot2, slot3)
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot4, slot2, true)
 end
 
-function slot7.AddArcEffect(slot0, slot1, slot2, slot3, slot4)
+slot7.AddArcEffect = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = uv0.Battle.BattleArcEffect.New(slot0._fxPool:GetFX(slot1), slot2, slot3, slot4)
 
 	slot6:ConfigCallback(function ()
@@ -747,7 +747,7 @@ function slot7.AddArcEffect(slot0, slot1, slot2, slot3, slot4)
 	table.insert(slot0._arcEffectList, slot6)
 end
 
-function slot7.RemoveArcEffect(slot0, slot1)
+slot7.RemoveArcEffect = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._arcEffectList) do
 		if slot6 == slot1 then
 			slot6:Dispose()
@@ -758,12 +758,12 @@ function slot7.RemoveArcEffect(slot0, slot1)
 	end
 end
 
-function slot7.Reinitialize(slot0)
+slot7.Reinitialize = function(slot0)
 	slot0:Clear()
 	slot0:Init()
 end
 
-function slot7.AllBulletNeutralize(slot0)
+slot7.AllBulletNeutralize = function(slot0)
 	for slot4, slot5 in pairs(slot0._characterList) do
 		if slot5.__name == uv0.Battle.BattlePlayerCharacter.__name or slot5.__name == uv0.Battle.BattleSubCharacter.__name then
 			slot5:DisableWeaponTrack()
@@ -783,7 +783,7 @@ function slot7.AllBulletNeutralize(slot0)
 	uv0.Battle.BattleBulletFactory.NeutralizeBullet()
 end
 
-function slot7.Clear(slot0)
+slot7.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0._characterList) do
 		slot5:GetFactory():RemoveCharacter(slot5)
 	end
@@ -833,7 +833,7 @@ function slot7.Clear(slot0)
 	pg.CameraFixMgr.GetInstance():SetMaskAsTopLayer(false)
 end
 
-function slot7.Dispose(slot0)
+slot7.Dispose = function(slot0)
 	slot0:Clear()
 	slot0:RemoveEvent()
 	uv0.super.Dispose(slot0)

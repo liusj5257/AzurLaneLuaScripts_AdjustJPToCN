@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KENTE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KENTE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"GO！ポジティブ・メイド！\n\n<size=45>五 ケント選手の秘密！(?)</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 203030,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "それじゃ行ってくるよ――せーの、ほっ！",
 			bgm = "story-1",
+			actor = 203030,
+			nameColor = "#a9f548",
+			say = "それじゃ行ってくるよ――せーの、ほっ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ケントは両手で太い枝に飛びつくと、鉄棒のようにくるんと器用に回ってその上に乗ってみせた。",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "さすがの身体能力だ、と思っている間にもケントはどんどん高い場所までのぼっていく。",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "大した身のこなしだけど……もう少しおしとやかさを気にしたほうが良い気もするわね。",
 			typewriter = {
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "確かにスカート姿でガンガンのぼっていく姿は目のやり場に困ってしまう……と思ったその時。",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "――ミシミシッ！",
 			dialogShake = {
 				speed = 0.09,
@@ -159,8 +159,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "まずい！子猫がしがみついている枝が……っ！",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "嫌な音を立てて、猫のいる枝が折れ曲がっていく。もとより支えられる太さじゃなかったのかもしれない。",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ケントが手を伸ばしたその瞬間、子猫の枝が重みに耐えきれずに「バキッ！」激しい音を立てて折れる。",
 			typewriter = {
 				speed = 0.05,
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "ああっ！！",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,9 +243,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ケントの手に届かないまま、真っ逆さまに落ちてくる猫を見てすかさず両腕を広げる。",
 			typewriter = {
 				speed = 0.05,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "間一髪――というべきだろうか。どうにか両手で小さな子猫を受け止めることができた。",
 			typewriter = {
 				speed = 0.05,
@@ -271,11 +271,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Nice！指揮官すごいじゃん！！",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -297,9 +297,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "頭上からケントの嬉しそうな声が聞こえてくる。子猫もほっとしたように腕の中で小さくにゃあと鳴いた。",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "はぁ……一時はどうなることかと……。",
 			typewriter = {
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ビスマルクとウェールズが互いに安堵の表情を浮かべた――かと思えば、すぐに二人はつんと顔を背ける。",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "指揮官、子猫は安全な場所に離すようにね。二度とこのようなことがないためにも。では私もこれで――",
 			typewriter = {
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "あれだけ子猫のことを気にかけていた二人が、ずいぶんと素っ気なく去っていってしまった……",
 			typewriter = {
 				speed = 0.05,
@@ -405,9 +405,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "そういえば、二人ともカンレキで猫には少なからず縁があったような気がする……",
 			typewriter = {
 				speed = 0.05,
@@ -419,9 +419,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "助けた猫を笑顔でなでるケント。もしかしたら彼女にも同じような縁があったのだろうか？",
 			typewriter = {
 				speed = 0.05,
@@ -449,11 +449,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "どちらかというと猫というよりもネコ科――タイガーちゃんが好きだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -475,9 +475,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "タイガー……思っていたものよりも大きな動物が出てきて驚いてしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -505,11 +505,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "タイガーちゃんのことはまた今度話そうね！",
 			typewriter = {
 				speed = 0.05,
@@ -521,8 +521,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

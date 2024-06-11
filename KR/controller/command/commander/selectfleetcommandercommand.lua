@@ -1,6 +1,6 @@
 slot0 = class("SelectFleetCommanderCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.commanderId
 	slot6 = slot2.callback
@@ -19,7 +19,7 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	function slot11(slot0)
+	slot11 = function(slot0)
 		if uv1[uv0 == 2 and 1 or 2] and slot2.id == slot0 then
 			return true, slot1
 		end

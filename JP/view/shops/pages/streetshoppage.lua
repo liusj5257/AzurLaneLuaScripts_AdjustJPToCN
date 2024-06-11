@@ -1,10 +1,10 @@
 slot0 = class("StreetShopPage", import(".BaseShopPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "StreetShop"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.timerText = slot0:findTF("timer_bg/Text"):GetComponent(typeof(Text))
 	slot0.refreshBtn = slot0:findTF("refresh_btn")
 	slot0.actTip = slot0:findTF("tip/tip_activity"):GetComponent(typeof(Text))
@@ -21,7 +21,7 @@ function slot0.OnLoaded(slot0)
 	slot0.activitys = slot2
 end
 
-function slot0.GenTip(slot0, slot1)
+slot0.GenTip = function(slot0, slot1)
 	slot2 = ""
 
 	if #slot1 == 1 then
@@ -33,7 +33,7 @@ function slot0.GenTip(slot0, slot1)
 	return slot2
 end
 
-function slot0.GenTipForMultiAct(slot0, slot1)
+slot0.GenTipForMultiAct = function(slot0, slot1)
 	slot2 = slot1[1]
 	slot3 = slot2:getStartTime()
 	slot4 = slot2.stopTime
@@ -61,13 +61,13 @@ function slot0.GenTipForMultiAct(slot0, slot1)
 	return i18n("shop_street_activity_tip", slot7:GetShopTime())
 end
 
-function slot0.GenHelpContent(slot0, slot1, slot2)
+slot0.GenHelpContent = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot2:getConfig("config_data")) do
 		table.insert(slot1, i18n("shop_street_Equipment_skin_box_help", Item.getConfigData(pg.shop_template[slot8[1]].effect_args[1]).name, slot2:GetShopTime()))
 	end
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		table.sort(uv0.activitys, function (slot0, slot1)
 			return slot0:getStartTime() < slot1:getStartTime()
@@ -89,9 +89,9 @@ function slot0.OnInit(slot0)
 		slot1 = pg.shop_template[slot0]
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			noText = "text_cancel",
-			hideNo = false,
 			yesText = "text_confirm",
+			hideNo = false,
+			noText = "text_cancel",
 			content = i18n("refresh_shopStreet_question", i18n("word_" .. id2res(slot1.resource_type) .. "_icon"), slot1.resource_num, uv0.shop.flashCount),
 			onYes = function ()
 				uv0:emit(NewShopsMediator.REFRESH_STREET_SHOP, uv1)
@@ -100,27 +100,27 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return {
 		showType = PlayerResUI.TYPE_ALL
 	}
 end
 
-function slot0.OnUpdatePlayer(slot0)
+slot0.OnUpdatePlayer = function(slot0)
 	slot1 = slot0.player
 end
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 	slot0:RemoveTimer()
 	slot0:AddTimer()
 end
 
-function slot0.OnUpdateAll(slot0)
+slot0.OnUpdateAll = function(slot0)
 	slot0:InitCommodities()
 	slot0:OnSetUp()
 end
 
-function slot0.OnUpdateCommodity(slot0, slot1)
+slot0.OnUpdateCommodity = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in pairs(slot0.cards) do
@@ -134,7 +134,7 @@ function slot0.OnUpdateCommodity(slot0, slot1)
 	end
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = GoodsCard.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -161,7 +161,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -171,7 +171,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:update(slot0.displays[slot1 + 1])
 end
 
-function slot0.Purchase(slot0, slot1)
+slot0.Purchase = function(slot0, slot1)
 	if slot1:getConfig("resource_type") == 4 or slot2 == 14 then
 		slot3 = slot0.player:getResById(slot2)
 
@@ -188,7 +188,7 @@ function slot0.Purchase(slot0, slot1)
 	end
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -196,7 +196,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.AddTimer(slot0)
+slot0.AddTimer = function(slot0)
 	slot1 = slot0.shop
 	slot0.timer = Timer.New(function ()
 		if uv0:isUpdateGoods() then
@@ -211,7 +211,7 @@ function slot0.AddTimer(slot0)
 	slot0.timer.func()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveTimer()
 
 	if slot0:isShowing() then

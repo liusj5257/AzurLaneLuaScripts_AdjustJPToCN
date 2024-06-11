@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"덴버의 모항 의뢰!\n\n<size=45>5. 라이벌의 의뢰</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "게시판 앞에 서있는 건, 기사단의 숙명의 라이벌이었다.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "게시판 앞에 서있는 건, 기사단의 숙명의 라이벌이었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "사쿠라 엠파이어 경순양함 센다이의 손에 종이 한 장이 들려있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "센다이가 임무서를 펼치며, 얼굴에 미소를 내비쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "하하~ 그렇게까지 말하는데, 이 도전을 안 받아줄 수 없겠네!",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "두 사람 사이에 일촉즉발의 살기가 아니라, 같은 모항내 동료 사이에서 벌어질 \"전투\"에 대한 긴장과 흥분의 분위기가 흘렀다.",
 			typewriter = {
 				speed = 0.05,
@@ -278,11 +278,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "이것도 해상 기사라는 내 신분에 대한 시험이겠지~ 좋아, 센다이, 정식으로 네 도전을 받아주겠다!",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

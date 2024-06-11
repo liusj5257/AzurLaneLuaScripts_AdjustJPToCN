@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_daozhong",
 			dir = 1,
 			say = "唔…雖然進度已經到達了85%…不過還是沒能追蹤到訊號的來源喵……",
+			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "罷了，按照這種展開，八成又是“那群傢伙”搞的鬼…等進度滿了看看會出現什麼新的提示吧…",
 			typewriter = {
 				speed = 0.05,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "不過，最後的對手啊……",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "該派誰上陣比較好呢？",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "如果感到迷茫的話，不妨聽聽年長者的建議如何？",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "呵呵~跟{namecode:82}確實有不少共同話題可以聊呢~",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "迷茫的時候，還是聽聽“前輩”的意見好了。",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "既然是面對“後輩”，就不用太過拘泥於“單挑的公平”之類的了，要給我安排一場足夠盡興的比賽哦，指揮官殿下~",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "後輩們…嗎……",
 			typewriter = {
 				speed = 0.05,

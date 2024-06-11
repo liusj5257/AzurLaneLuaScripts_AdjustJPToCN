@@ -1,18 +1,18 @@
 return {
-	id = "WORLD304D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304D",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "A new type of Siren...!",
-			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "It... seems to be an improved version of the Obstructor...!",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "My aircraft are performing at well below average because of all the electronic interference... Essex, should we retreat?",
 			typewriter = {
 				speed = 0.05,
@@ -105,10 +105,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "There they are! And thank goodness for it!",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105190,
 			dir = 1,
+			actor = 105190,
 			say = "Carriers fighting Sirens at close quarters... Novel. I like it.",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "If we could've kept our distance, we would've!",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Our aircraft and weaponry are fine, but all our electronics are disabled and we're stuck here. You came right in the nick of time.",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105200,
 			dir = 1,
+			actor = 105200,
 			say = "Don't you worry now. Us battleships can handle a jammin' without too much trouble.",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105190,
 			dir = 1,
+			actor = 105190,
 			say = "We'll draw their fire. Carriers, fall back and try to provide support with your aircraft if you can.",
 			typewriter = {
 				speed = 0.05,

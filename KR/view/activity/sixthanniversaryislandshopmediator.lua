@@ -1,7 +1,7 @@
 slot0 = class("SixthAnniversaryIslandShopMediator", import("..base.ContextMediator"))
 slot0.OPEN_GOODS_WINDOW = "SixthAnniversaryIslandShopMediator.OPEN_GOODS_WINDOW"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = slot0.viewComponent
 
 	slot1:setShop(slot0.contextData.shop)
@@ -23,7 +23,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.initNotificationHandleDic(slot0)
+slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[GAME.ISLAND_SHOPPING_DONE] = function (slot0, slot1)
 			slot3 = {}

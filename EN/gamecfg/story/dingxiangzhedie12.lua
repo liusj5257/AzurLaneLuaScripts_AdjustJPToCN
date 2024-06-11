@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE12",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhedie_3",
-			stopbgm = true,
-			say = "Later in the exercise...",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
+			stopbgm = true,
+			say = "Later in the exercise...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "The girls are doing a good job holding back the reserve fleet, but there are so many enemies to deal with that they can't focus on anything else.",
 			typewriter = {
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "Everyone is fighting hard, except for Hammann, who's with me on the command ship's deck.",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "She's pacing around anxiously, keeping an eye on my device for updates on the battle.",
 			typewriter = {
@@ -61,10 +61,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Why am I sitting around while everyone else is fighting for dear life?",
 			painting = {
 				alpha = 0.3,
@@ -79,10 +79,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Commander clearly made the wrong call here...",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"What's wrong, Hammann? Do you have a problem with my deployments?\"",
 			typewriter = {
@@ -107,10 +107,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? I guess. I just wish I was doing something to help. I'm not mad at you or anything...",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,10 +135,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They're handling themselves well, but that doesn't change the fact...",
 			painting = {
 				alpha = 0.3,
@@ -153,10 +153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Wait! A blip just appeared on our sonar! An enemy is nearby!",
 			painting = {
 				alpha = 0.3,
@@ -171,10 +171,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A big one, too. It must be a big submarine... No, it's the size of a battleship!",
 			painting = {
 				alpha = 0.3,
@@ -189,10 +189,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heads up! It's resurfacing!",
 			painting = {
 				alpha = 0.3,
@@ -204,8 +204,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "The seas rumble, and a massive, silver-clad vessel emerges from the depths.",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "Just as I anticipated, Memphis' reserve fleet is only a diversion. This mega-submarine is the real threat to us.",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"Interesting exterior. It looks a lot like the submarine Belorussiya's crew used when I went to the Northern Parliament.\"",
 			typewriter = {
@@ -328,10 +328,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They let you have a submarine that can dive out of our sonar range?!",
 			painting = {
 				alpha = 0.3,
@@ -384,10 +384,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm so sorry, Commander. I had no clue she'd made it right next to us...",
 			painting = {
 				alpha = 0.3,
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"It's okay. She should have no idea YOU'RE here either. Strike now while she's unaware!\"",
 			typewriter = {
@@ -412,10 +412,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Got it! I'll show her what happens when you mess with us!",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "Memphis' mega-submarine is a very different beast to an ordinary mass-produced ship, but still, it's not designed specifically for combat.",
 			typewriter = {
@@ -497,8 +497,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "A shipgirl should easily prove a fair fight for it.",
 			typewriter = {
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"You're not the only one with a trump card. You might want to–\"",
 			typewriter = {
@@ -615,10 +615,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 102160,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Activate escape pod! Bail out!",
 			painting = {
 				alpha = 0.3,
@@ -630,11 +630,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,8 +680,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "An oval-shaped object shoots out of her mega-submarine, coming straight towards me.",
 			typewriter = {
@@ -690,8 +690,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "It lands just nearby on the deck, then burst open to reveal Memphis, rigging at the ready.",
 			typewriter = {
@@ -703,10 +703,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 102160,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Checkmate, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -718,8 +718,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -731,10 +731,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 102160,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "While you did display excellent knowledge of tactics and mastery of the Type II rigging's functions, you did not anticipate me boarding you.",
 			painting = {
 				alpha = 0.3,
@@ -749,10 +749,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 102160,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "You did well, but I was one step ahead.",
 			painting = {
 				alpha = 0.3,
@@ -764,8 +764,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "Sure, I didn't anticipate a tactical use of her escape pod, but I DID plan for something similar.",
 			typewriter = {
@@ -783,10 +783,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 102160,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Thank you. I contemplated a thousand different ways to beat you, and eventually arrived at this one.",
 			painting = {
 				alpha = 0.3,
@@ -798,8 +798,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"I see. You deserve a promotion. The battle isn't over yet, though.\"",
 			typewriter = {
@@ -818,12 +818,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "It will be once I neutralize you. Without someone to command your team, it will... Huh?",
 			painting = {
 				alpha = 0.3,
@@ -838,10 +838,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ff5c5c",
 			actor = 102160,
+			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Wait... What are those planes?",
 			painting = {
 				alpha = 0.3,
@@ -853,8 +853,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"My contingency plan in case you were to board my command vessel through some means.\"",
 			typewriter = {
@@ -863,8 +863,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"Open fire!\"",
 			typewriter = {
@@ -892,11 +892,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,10 +957,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wow... I applaud you, Commander. I thought I planned for everything, and still you were one step ahead.",
 			painting = {
 				alpha = 0.3,
@@ -975,10 +975,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Holy smokes, what a finale! I was on the edge of my seat there.",
 			painting = {
 				alpha = 0.3,
@@ -993,10 +993,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You really deserve a round of applause, Commander. I get why everyone adores you now.",
 			painting = {
 				alpha = 0.3,
@@ -1011,10 +1011,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Both sides, great job. This was truly a spectacular test. Expect a juicy reward for all your efforts later.",
 			painting = {
 				alpha = 0.3,
@@ -1048,10 +1048,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah... Sorry 'bout that. On the bright side, we have the next few days off while the team analyzes the exercise data.",
 			painting = {
 				alpha = 0.3,
@@ -1066,10 +1066,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heck, we can take my plane and go on a short vacation somewhere! The Commander would probably like that.",
 			painting = {
 				alpha = 0.3,
@@ -1084,10 +1084,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "An actual vacation? Really?",
 			painting = {
 				alpha = 0.3,
@@ -1102,10 +1102,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Aww hell yeah! Commander, Dr. Anzeel, you're the best!",
 			painting = {
 				alpha = 0.3,
@@ -1120,10 +1120,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hang on, someone's calling... Oh, it's Aoste. Just a minute.",
 			painting = {
 				alpha = 0.3,
@@ -1138,10 +1138,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Anzeel speaking. What's up?",
 			painting = {
 				alpha = 0.3,
@@ -1156,10 +1156,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...I mean, what do you think? The test went perfectly.",
 			painting = {
 				alpha = 0.3,
@@ -1174,10 +1174,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Yeah, I guess it was a given, with the Commander at the helm.",
 			painting = {
 				alpha = 0.3,
@@ -1192,10 +1192,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...You did that? That totally explains why the blue team was overpowered in quantity AND quality.",
 			painting = {
 				alpha = 0.3,
@@ -1210,10 +1210,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Come again?",
 			painting = {
 				alpha = 0.3,
@@ -1228,10 +1228,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...You know me too well. Data will take a few days to process, so yeah, might as well take some time off.",
 			painting = {
 				alpha = 0.3,
@@ -1246,10 +1246,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...You're serious? Okay. I dig the sound of that.",
 			painting = {
 				alpha = 0.3,
@@ -1264,10 +1264,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Yeah, I'll try to explain it to the Commander. Talk to you later.",
 			painting = {
 				alpha = 0.3,
@@ -1301,10 +1301,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nothing important. We just talked about vacation destinations.",
 			painting = {
 				alpha = 0.3,
@@ -1319,10 +1319,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "He told me about a pretty sweet place, actually. Ever heard of Samos Island?",
 			painting = {
 				alpha = 0.3,

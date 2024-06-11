@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"虚拟与现实的双向镜-日常篇\n\n<size=45>四 和平的世界</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_outdoor",
 			bgm = "holo-fbk",
 			actor = 900214,
 			nameColor = "#a9f548",
 			say = "疼疼疼……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "但是敌人只有那么一点了，我以为没关系的……",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "对不起……",
 			typewriter = {
@@ -180,10 +180,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "啊哈哈，果然适应新的环境还需要不少时间啊",
+			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -249,8 +249,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "所以从这样的世界而来的我们，就算突然进入前线，也很难在短时间内产生实感啦……",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "对不起……虽然我们都知道眼前的是敌人，要像{namecode:158}那样毫不犹疑的攻击还是很难",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "欸？",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "呼呼呼，虽然看起来那么冷漠，{namecode:158}果然还是很关心指挥官的嘛。",
 			typewriter = {
@@ -525,8 +525,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "喂，妳们别把我这个伤员撇在一边擅自营造出很好的氛围啊！倒是来扶我一下啊！",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -549,11 +549,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "……能喊得这么大声就说明没有大碍，好好休息吧，接下来还有许多任务要执行呢。",
 			typewriter = {
 				speed = 0.05,
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -609,8 +609,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "是这样吗……",
 			typewriter = {
@@ -626,8 +626,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "啊，顺便一提，我早就和游戏里的{namecode:158}缔结了誓约，所以是肯定知道啦~",
 			typewriter = {
@@ -643,9 +643,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
 			blackBg = true,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "不要加这种破坏气氛而且只有妳懂的吐槽啦！",
 			typewriter = {
@@ -658,8 +658,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

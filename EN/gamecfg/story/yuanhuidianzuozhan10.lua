@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "The experiment continued smoothly with the girls all resting on some days and fighting on others.",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "The experiment continued smoothly with the girls all resting on some days and fighting on others.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "While Brünhilde had lost the first battle, she mustered additional Pawns for the following rounds, slowly but surely turning the tides in her favor.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "Even so, a clear victor had yet to emerge. Neither side had achieved the experiment's objective of conquering the other's base.",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "Until that happened, nobody was allowed to leave the Mirror Sea.",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "Mirror Sea - Iron Blood Encampment",
@@ -80,17 +80,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -451,10 +451,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "While we do have a Bismarck Pawn, we'll still have to go all-in and win as fast as we can.",
 			typewriter = {
 				speed = 0.05,

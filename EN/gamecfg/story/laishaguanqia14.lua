@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "Mirror Sea - In the past",
-			bgm = "ryza-az-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "Under Purity's command, countless small flying units circled around a forest of skyscrapers.",
 			typewriter = {
@@ -67,10 +67,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You confuse me. What is the point of \"cleaning things up\" for them if you're planning to add real weapons?",
 			painting = {
 				alpha = 0.3,
@@ -84,9 +84,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			actor = 900233,
 			actorName = "Purity",
 			say = "Heheh! These aren't for the adventurers. They're to protect the central hub.",
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "We don't want something going WAY wrong and destroying the transporter before the others get here. That'd be catastrophic.",
 			painting = {
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "Make it look scary as hell, and there isn't an idiot in the world who would make this their first destination.",
 			painting = {
@@ -165,10 +165,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hrmmm... I doubt it will have the intended effect.",
 			painting = {
 				alpha = 0.3,
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "I was kind enough to leave instructions for them. If they wanna break the rules and try to break into the final destination...",
 			painting = {
@@ -242,10 +242,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're starting to sound like a villain now.",
 			painting = {
 				alpha = 0.3,
@@ -263,29 +263,29 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_ryza_1",
-			nameColor = "#A9F548FF",
-			say = "Mirror Sea Ruins - Land of Beginnings",
 			bgmDelay = 2,
 			bgm = "ryza-az-theme",
+			nameColor = "#A9F548FF",
+			say = "Mirror Sea Ruins - Land of Beginnings",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -296,10 +296,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, so we found our third key. But, uh... We still don't know where the \"Desolate Capital\" is, do we? How will we find the last one?",
 			painting = {
 				alpha = 0.3,
@@ -314,10 +314,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've been meaning to ask about that. Do we actually need to follow the monument word for word?",
 			painting = {
 				alpha = 0.3,
@@ -332,10 +332,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If \"breaching the towering barrier\" means opening some kind of door, then that means we can open three out of four doors now, yeah? That just leaves one.",
 			painting = {
 				alpha = 0.3,
@@ -350,10 +350,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And if the Mirror Sea belongs to the Sirens, why do we have to be nice and use a key for every single door? I bet we could blow that last one away with cannon fire.",
 			painting = {
 				alpha = 0.3,
@@ -368,10 +368,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101490,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ooh, good idea! We've got added firepower in the form of Ryza, Patricia, Serri, and Lila's riggings, after all!",
 			painting = {
 				alpha = 0.3,
@@ -383,8 +383,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -393,12 +393,12 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "With these forces, we could give those Sirens a real walloping!",
 			painting = {
 				alpha = 0.3,
@@ -413,10 +413,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "True... Our search has hit a dead end. Why not try brute force once in a while, right?",
 			painting = {
 				alpha = 0.3,
@@ -431,11 +431,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_1",
-			actor = 10900020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "Are you sure about this, Ryza?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,12 +446,12 @@ return {
 			}
 		},
 		{
-			actor = 10900010,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Don't you worry, Klaudia. Even if we run into strong enemies, I know we can win if we just work together!",
 			painting = {
 				alpha = 0.3,
@@ -466,10 +466,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She's right. I happen to be in just the mood to use my newly-obtained power, so I would appreciate a strong foe right about now.",
 			painting = {
 				alpha = 0.3,
@@ -484,10 +484,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You have my approval as well. It irks me to be toyed with by Sirens. I say it's high time we mount our own offensive.",
 			painting = {
 				alpha = 0.3,
@@ -502,10 +502,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Do we have the numbers to attack the Sirens' central hub head-on? I have my doubts.)",
 			painting = {
 				alpha = 0.3,
@@ -520,10 +520,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(But it's not like the battles so far have been really hard... Maybe we shouldn't assume this Mirror Sea follows the rules of common sense.)",
 			painting = {
 				alpha = 0.3,
@@ -535,12 +535,12 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Forget that. Everyone's ready and raring to go! Let's ride this momentum and give it a shot!)",
 			painting = {
 				alpha = 0.3,
@@ -555,10 +555,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What's wrong, Suruga? Something on your mind?",
 			painting = {
 				alpha = 0.3,
@@ -573,10 +573,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You could say that... But we don't have any other leads. I will take the vanguard; let us investigate the Siren island to the north!",
 			painting = {
 				alpha = 0.3,

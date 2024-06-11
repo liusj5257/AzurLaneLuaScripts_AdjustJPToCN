@@ -1,6 +1,6 @@
 slot0 = class("EquipmentItemTransformVer", import("view.equipment.EquipmentItem"))
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	setActive(slot0.equiped, false)
 	setActive(slot0.unloadBtn, not slot1)
 	setActive(slot0.bg, slot1)
@@ -42,7 +42,7 @@ function slot0.update(slot0, slot1)
 	end
 end
 
-function slot0.updateSelected(slot0, slot1)
+slot0.updateSelected = function(slot0, slot1)
 	slot0.selected = slot1
 
 	setActive(slot0.selectedMask, slot1)

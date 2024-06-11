@@ -1,15 +1,15 @@
 return {
-	id = "W2018",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2018",
+	skipTip = false,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Mysterious Merchant",
 			dir = 1,
+			actorName = "Mysterious Merchant",
 			say = "Commander, nya! I sure wasn't expecting to find you out here, nya!, Care to take a gander at my new wares, nya?",
 			painting = {
 				alpha = 0.3,
@@ -27,12 +27,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Mysterious Merchant",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312010,
+			actorName = "Mysterious Merchant",
 			say = "It's not easy doing business out here, nya... Hope to see you again soon, nya!~！",
 			typewriter = {
 				speed = 0.05,

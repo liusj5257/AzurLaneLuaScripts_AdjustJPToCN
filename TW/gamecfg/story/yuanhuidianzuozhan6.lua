@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			bgm = "story-6",
 			side = 2,
-			bgName = "bg_yuanhuidian",
+			stopbgm = true,
 			soundeffect = "event:/battle/boom2",
+			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			say = "轟————————！",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "伴隨著一聲巨響，擁有著龐大又怪異艦裝的齊柏林伯爵最終倒在了海面上。",
 			typewriter = {

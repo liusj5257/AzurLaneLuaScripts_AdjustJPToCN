@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AERFULEIDUO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AERFULEIDUO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<모항 비화> 특별판\n\n<size=45>6.소재 정비 작전!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_night",
-			say = "무도회가 끝난 뒤——",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "무도회가 끝난 뒤——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "알프레도와 함께 지휘실로 돌아와 오늘 얻은 자료들을 정리하고 있다.",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "옷도 갈아입지 않고 왜 이렇게 급하게 와서 정리를 하고 있냐면——",
 			typewriter = {
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 601081,
-			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 601081,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그야 당연히 언제 사라질지 모를 영감을 잡기 위해서!",
 			painting = {
 				alpha = 0.3,
@@ -79,8 +79,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -96,10 +96,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방금 좋은 아이디어가 많이 떠올랐는데, 내일이면 잊어버리게 될지도 모른다구!",
 			painting = {
 				alpha = 0.3,
@@ -114,10 +114,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지금 생각난 김에 서둘러 정리해야해!",
 			painting = {
 				alpha = 0.3,
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "기자 생활이란 참으로 고된 것 같아…. 낮에 일을 끝내고 나면 지금처럼 자료를 정리한다고 야근까지 해야 하니까 말이야.",
 			typewriter = {
@@ -142,10 +142,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "매일이 오늘 같은 건 아니라구?",
 			painting = {
 				alpha = 0.3,
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "바쁠 때만 바쁘고 안 바쁠 때는 안 바빠!",
 			painting = {
 				alpha = 0.3,
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 601081,
-			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 601081,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 그건 둘째 치고 지휘관, 지금 산더미처럼 쌓여 있는 소재 정리하는 것 좀 도와줘!",
 			painting = {
 				alpha = 0.3,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "그녀가 찍은 사진을 한번 확인해 보았다——",
 			typewriter = {
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "——뉴스의 가치를 판단하기는 어렵지만 '관심 끌기' 부분에서는  확실히 꽤나 성공한 것 같네.",
 			typewriter = {
@@ -225,10 +225,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흐응~ 이 사진들이 있으니, 그 다음은 역시 가십 뉴스를 곁들여줘야 더욱 매력적일 거야.",
 			painting = {
 				alpha = 0.3,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "그런데 이렇게 많은 사진을 찍었을 줄은 전혀 몰랐는데…  언제 찍었는지 모를 사진들도 이렇게나 많이 있다니.",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "기자가 가지고 있는 일종의 특별한 기술인 건가…. 앞으로 알프레도의 취재에 대한 '경계 태세' 수준을 한 단계 더 올려야 할 것 같군.",
 			typewriter = {
@@ -263,10 +263,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 자료는 거의 다 봤지? 어디 보자….",
 			painting = {
 				alpha = 0.3,
@@ -281,10 +281,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 아니면 지휘관이 <모항 비화> 다음 호의 헤드라인을 생각해줘!",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 601081,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601081,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "괜찮아, 괜찮아! <모항 비화>는 진지한 뉴스 잡지도 아니니까 그렇게 진지하게 생각하지 않아도 돼!",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그냥 '기자 입문 체험'이라 생각하고 방관자의 시선으로 제목을 하나 생각해주면 돼!",
 			painting = {
 				alpha = 0.3,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "기자가 될 생각은 전혀 없지만…. 그녀가 이렇게 요구하니, 그렇다면 제목은——",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			optionFlag = 1,
 			say = "역시 그녀의 독특함은 여전하군….",
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			optionFlag = 2,
 			say = "전혀 기쁘지 않은 칭찬인 걸요…?",
@@ -459,12 +459,12 @@ return {
 			}
 		},
 		{
-			actor = 601081,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601081,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "고마워, 지휘관. 그럼 이제 알프레도의 특종을 기다리고 있어줘!",
 			painting = {
 				alpha = 0.3,

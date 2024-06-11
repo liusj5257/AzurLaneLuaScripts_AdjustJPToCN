@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29701,
 	picture = "",
 	desc = "主炮每进行12次攻击，触发专属弹幕-阿布鲁齐公爵I",
 	stack = 1,
-	id = 29701,
+	color = "red",
 	icon = 29700,
 	last_effect = "",
 	effect_list = {
@@ -30,8 +30,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29701,
+				target = "TargetSelf",
 				countType = 29700
 			}
 		}

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_279 = {}
 slot1 = slot0.word_template_279
 
-function temp()
+temp = function()
 	uv0["替"] = {
 		["党"] = {
 			["说"] = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兲"] = {
 		["朝"] = {
 			["真"] = {
@@ -44,7 +44,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["添"] = {
 		["逼"] = {
 			this = true
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["田"] = {
 		["村"] = {
 			["麻"] = {
@@ -172,7 +172,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["畑"] = {
 		["野"] = {
 			["浩"] = {
@@ -186,7 +186,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["甜"] = {
 		["性"] = {
 			["涩"] = {
@@ -209,7 +209,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["舔"] = {
 		B = {
 			this = true

@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行9次攻击，触发特殊弹幕-柴郡II"
 	},
-	init_effect = "",
-	name = "特殊弹幕",
 	time = 0,
-	color = "red",
+	name = "特殊弹幕",
+	init_effect = "",
+	id = 29552,
 	picture = "",
 	desc = "主炮每进行6次攻击，触发特殊弹幕-柴郡II",
 	stack = 1,
-	id = 29552,
+	color = "red",
 	icon = 29550,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29552,
+				target = "TargetSelf",
 				countType = 29550
 			}
 		}

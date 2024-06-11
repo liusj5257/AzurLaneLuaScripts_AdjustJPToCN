@@ -1,7 +1,7 @@
 slot0 = class("SailBoatItemControl")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._tf = slot1
 	slot0._event = slot2
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._content = findTF(slot0._tf, "scene/content")
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:clear()
 
 	slot0._rules = {}
@@ -25,7 +25,7 @@ function slot0.start(slot0)
 	uv0.SetGameItems(slot0._items)
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot2 = uv0.gameTime
 
 	for slot6 = 1, #slot0._rules do
@@ -58,10 +58,10 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
-function slot0.applyRule(slot0, slot1)
+slot0.applyRule = function(slot0, slot1)
 	slot2 = slot1.data
 	slot3 = slot2.items
 	slot6 = slot3[math.random(1, #slot3)]
@@ -71,7 +71,7 @@ function slot0.applyRule(slot0, slot1)
 	end
 end
 
-function slot0.getOrCreateItem(slot0, slot1, slot2)
+slot0.getOrCreateItem = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if #slot0._itemsPool > 0 then
@@ -101,12 +101,12 @@ function slot0.getOrCreateItem(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.returnItem(slot0, slot1)
+slot0.returnItem = function(slot0, slot1)
 	slot1:clear()
 	table.insert(slot0._itemsPool, slot1)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	for slot4 = #slot0._items, 1, -1 do
 		slot5 = table.remove(slot0._items, slot4)
 

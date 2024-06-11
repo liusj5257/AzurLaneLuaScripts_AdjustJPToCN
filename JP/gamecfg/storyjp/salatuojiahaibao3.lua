@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIAHAIBAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIAHAIBAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"青き海のアイドル\n\n<size=45>三 アザラシちゃんを守るもの</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107034,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "むむ、この方向で間違いないみたい……",
 			bgm = "story-1",
+			actor = 107034,
+			nameColor = "#a9f548",
+			say = "むむ、この方向で間違いないみたい……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "出現情報を集めて、アザラシちゃんの居場所のヒントをどんどんつかめたような気がする。",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "指揮官、そろそろだよ！",
 			typewriter = {
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "すごく……棒読みだった……",
 			typewriter = {
 				speed = 0.05,
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 105200,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105200,
+			nameColor = "#a9f548",
 			say = "では質問、アザラシって何科の動物なの？",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "指揮官、さっすが！",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,9 +222,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "海豹と書くけど猫科じゃないよ！アザラシ科だよ！",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 107034,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 107034,
+			nameColor = "#a9f548",
 			say = "ふっふっふーアザラシ科だよ♪",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "どうやらこれで前に進んでもいいようだ",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "…っぷ！本当にこれをやるとは思ってなかったよ～",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 105200,
 			dir = 1,
+			actor = 105200,
 			nameColor = "#a9f548",
 			say = "姉貴は楽しくないの？",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "それより、例の準備は出来た？",
 			typewriter = {
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "（なんの話をしているんだ…？）",
 			typewriter = {
 				speed = 0.05,
@@ -468,9 +468,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			blackBg = true,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "よぉし！指揮官、次行ってみよう！",
 			typewriter = {

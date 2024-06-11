@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "사르데냐 엠파이어 타란토 항·파티장",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-7",
+			say = "사르데냐 엠파이어 타란토 항·파티장",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,10 +35,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "으... 드디어 시끌벅적했던 파티장도 조용해졌네...",
 			typewriter = {
 				speed = 0.05,
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "파티도 끝나는 시간이 있으니까요. 실망하지 말아요, 리베치오.",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "에이... 로열 네이비와 사쿠라 엠파이어도 계획대로 왔으면 좋았을텐데... 열심히 준비했잖아! 먹을 것도 이렇게 많고!",
 			typewriter = {
 				speed = 0.05,
@@ -89,10 +89,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "맞아~ 나라면 꼭 왔을텐데! 이렇게 화려한 파티를 두고 즐기지 않는 건 너무 아쉽잖아~!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그보다 메탈 블러드의 프리드리히 데어 그로세는 꽤 기개가 있었지.",
 			typewriter = {
 				speed = 0.05,
@@ -134,10 +134,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "맞아. 프리드리히 데어 그로세, 소문만큼 무섭지 않았어. 상사인 그로즈니가 있었지만 항상 웃고 있었고, 행동도 교양이 넘쳤어!",
 			typewriter = {
 				speed = 0.05,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그렇습니다. 그녀는 비스마르크에 버금가는 훌륭한 외교관이자 리더니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -169,10 +169,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "베네토 님, 다녀오셨어요. 수고 많으셨어요!",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "후후, 계속 메탈 블러드를 호송을 해야하는 리토리오에 비하면 저는 근해까지 배웅한 것뿐입니다. 수고라고 할 것도 없지요.",
 			typewriter = {
 				speed = 0.05,
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "프리드리히 데어 그로세는 메탈 블러드로 돌아갔나요?",
 			typewriter = {
 				speed = 0.05,
@@ -232,10 +232,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아니요, 로마로 가겠다는군요. 온 김에 원로원과 상의할 것이 있다고 합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -250,10 +250,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...이건, 임시로 결정된 스케줄인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그런 것 같습니다. 즉흥적인 면이 있는 분이더군요.",
 			typewriter = {
 				speed = 0.05,
@@ -285,10 +285,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "메탈 블러드는 곧 사쿠라 엠파이어와 연합 작전을 펼칠텐데, 이렇게 여유를 부려도 괜찮은 걸까요...",
 			typewriter = {
 				speed = 0.05,
@@ -303,10 +303,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "좋잖아~ 정전 협정 이후에 평화로웠던 때로 돌아간 느낌도 들고~ 이참에 세계 일주를 떠나고 싶은걸!",
 			typewriter = {
 				speed = 0.05,
@@ -321,10 +321,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "정전 협정의 범위는 NA 해역 부근 한정이었던 걸로 기억하는데요...",
 			typewriter = {
 				speed = 0.05,
@@ -339,10 +339,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "에? 그런 건가... 잠깐, 그럼 우리 지중해는 어떡해?",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,12 +364,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "걱정 마세요. 지중해도 정전 협정의 범위에 들어갑니다... 아, 잠시만요.",
 			typewriter = {
 				speed = 0.05,
@@ -384,10 +384,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "무슨 일입니까, 리토리오? 메탈 블러드 함대에 무슨 문제라도?",
 			typewriter = {
 				speed = 0.05,
@@ -402,10 +402,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "메탈 블러드 함대는 멀쩡해, 문제가 있다면 우리 쪽일까...",
 			typewriter = {
 				speed = 0.05,
@@ -420,10 +420,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "자료를 보냈어. 자세한 것은 거기서 확인해보도록 해. 돌아가는 중이니까 회의실에서 기다려줘.",
 			typewriter = {
 				speed = 0.05,
@@ -438,10 +438,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "알겠습니다. 여러분, 긴급 상황이 발생한 모양입니다. 먼저 실례하도록 하죠.",
 			typewriter = {
 				speed = 0.05,
@@ -456,10 +456,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네! 뒷정리는 맡기고 가보세요, 베네토 님!",
 			typewriter = {
 				speed = 0.05,
@@ -473,15 +473,15 @@ return {
 		{
 			expression = 0,
 			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_115",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "마에스트라레, 마에스트라레! 무슨 일인 것 같아?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -509,10 +509,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "모르겠어요. 하지만... 당신의 출항 계획이 어쩌면 빨리 실현될 수도 있을 것 같아요...",
 			typewriter = {
 				speed = 0.05,
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「일곱 언덕 위에 위대한 제국이 있었다.」</size>",
@@ -574,12 +574,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

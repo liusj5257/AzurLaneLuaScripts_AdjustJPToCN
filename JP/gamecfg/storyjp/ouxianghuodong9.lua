@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 301057,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "負けた、です…でも楽しかったです",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -124,8 +124,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,14 +134,14 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "「μ兵装」の戦闘実験においてのパフォーマンス、カタログスペックと差異があると認む",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,8 +169,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "艤装の性能が普段身につけているものと違うのはわかるけど、なんだかこう、微妙に戦いやすいというか…",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "同感ですね。艦船である私達の艤装は決まった性能しか発揮できないはずです",
 			typewriter = {
 				speed = 0.05,
@@ -200,9 +200,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ガスコーニュ自身の戦闘行動のパターンはリハーサル及びシミュレーション時から変化なしと認む",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "んーそれってガスコーニュは別に戦い方を変えてないのに、艤装を使う肌感覚はいつもより若干細かいところで色々と変わるってこと？",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "はい",
 			typewriter = {
 				speed = 0.05,
@@ -379,8 +379,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "先程の兵装実験テストにおける戦闘中、通常の戦闘プロトコルと共通の感情抑制処理を行ったにもかかわらず",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "感情モジュールの活性化度合いが比較的高いと観測",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "ごめん、今のはあんまりよく分からなかった…",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "つまり「楽しかった」と感じたのですね",
 			typewriter = {
 				speed = 0.05,
@@ -473,8 +473,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "説明の仕方について謝罪。「ごめんなさい」",
 			typewriter = {
 				speed = 0.05,
@@ -489,8 +489,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "ただ、兵装実験においてガスコーニュの感情モジュールの開放が必要と判断された場合――",
 			typewriter = {
 				speed = 0.05,
@@ -505,8 +505,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "どうぞ、ガスコーニュに指示を",
 			typewriter = {
 				speed = 0.05,

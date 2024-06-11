@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "Tap on the building with an ! over it to have a look!",
 				mode = 1,
-				posY = 250,
 				dir = -1,
+				posY = 250,
 				posX = -92,
 				uiFunc = function ()
 					slot0 = {}

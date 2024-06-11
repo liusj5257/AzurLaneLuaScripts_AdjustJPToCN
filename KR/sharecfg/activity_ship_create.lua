@@ -3,8 +3,8 @@ pg.activity_ship_create = {
 	{
 		id = 1,
 		activity_id = 21000,
-		pickup_num = 2,
 		create_id = 7,
+		pickup_num = 2,
 		pickup_list = {
 			101031,
 			101041,
@@ -134,8 +134,8 @@ pg.activity_ship_create = {
 	{
 		id = 2,
 		activity_id = 21000,
-		pickup_num = 2,
 		create_id = 8,
+		pickup_num = 2,
 		pickup_list = {
 			103011,
 			103031,
@@ -201,14 +201,15 @@ pg.activity_ship_create = {
 			250,
 			250,
 			250,
-			200
+			200,
+			120
 		}
 	},
 	{
 		id = 3,
 		activity_id = 21000,
-		pickup_num = 2,
 		create_id = 6,
+		pickup_num = 2,
 		pickup_list = {
 			103011,
 			103031,
@@ -274,7 +275,8 @@ pg.activity_ship_create = {
 			250,
 			250,
 			250,
-			200
+			200,
+			120
 		}
 	},
 	all = {

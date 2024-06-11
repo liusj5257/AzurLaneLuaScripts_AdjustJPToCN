@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "bgm-cccp",
 			actor = 705050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Press forward! Beat them back!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "I'll crush you all underfoot! Take this!",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "Ahahahaha! That's right! Let me see you struggle! Push me to the brink!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "I'm not really feeling it, but... I'll do it if I must! Ура! ",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			say = "кролик... Let's wipe them out so we can go home sooner...",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "Whew! I'm getting a flash of inspiration! Take this!",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The concentrated fire of the Northern Parliament quickly swallowed the Siren forces.",
 			typewriter = {
 				speed = 0.05,
@@ -217,8 +217,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "Having that said, that title is just provisional in nature. In actuality, we do not observe rank or status in our command structure.",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "...This is Chapayev. She's mastered her equipment better than any of us have. Also... I'd advise you to not get on her bad side.",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "I brought my bridle with me just in case. Anyway, let's get along~",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "Over here is Gangut. She acts hot-blooded and headstrong, but she's actually quite caring.",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "Hahaha! Comrade, let us fight for the safety of these azure lanes!",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "Hmph. I'll show you how strong I really am, dear comrade.",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Dear...?",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "Haha... Don't read too much into it, all right?",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "This is Grozny. I'd advise you to stay away from her Кроли.",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Clo...ri...?",
 			typewriter = {
 				speed = 0.05,
@@ -416,8 +416,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			say = "Yes... This is my кроли убийца... It's a cute bunny that kills things...",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "Finally, this is Minsk. Her imagination can be a bit whimsical, but also helpful at times. Hopefully she can offer you some new insights.",
 			typewriter = {
 				speed = 0.05,
@@ -448,8 +448,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "Ehehe, pleased to meet you, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -464,8 +464,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "I assume I don't need to introduce Avrora and Pamiat Merkuria...",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "So this... is the Northern Parliament...",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Before I saw them in action today, I always had been led to believe that they were a collection of peculiar personalities that couldn't hold their own compared to the other major factions.",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...But only half of that statement held true. Their abilities were far beyond anything I had expected.",
 			typewriter = {
 				speed = 0.05,
@@ -518,9 +518,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Under the provisions of our joint operation, the fleet of the Northern Parliament is now yours to command, comrade.",
 			typewriter = {
 				speed = 0.05,
@@ -541,8 +541,8 @@ return {
 			expression = 5,
 			side = 2,
 			actor = 705050,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "That's correct, comrade. This operation is not over yet. I hope you will wield our power effectively.",
 			effects = {
 				{

@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-1",
+			say = "Diadem of Light - A few days later",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 1,
-			say = "Diadem of Light - A few days later",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "After the conclusion of the ceremony, a special gathering was held for those who fought bravely against the Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/minigame_sword",
+			say = "Mikasa also forced(?) Nagato to attend.",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "Mikasa also forced(?) Nagato to attend.",
+			soundeffect = "event:/ui/minigame_sword",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -59,8 +59,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "Lady Mikasa! Thank you for taking the time to make the journey all the way out here!",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "Indeed. I also squared off against that \"Ember\" character! Ahaha!",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Indeed. I also squared off against that \"Ember\" character! Ahaha!",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,8 +121,8 @@ return {
 		{
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/minigame_sword",
+			say = "——！！",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "——！！",
+			soundeffect = "event:/ui/minigame_sword",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "Yeah... Shoukaku and I together couldn't even hold her back. I would not want to fight her alone.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yeah... Shoukaku and I together couldn't even hold her back. I would not want to fight her alone.",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "We have Grey Ghosts, Blue Ghosts, and now this... Crazy strong folks just keep popping up one after another! Ahahaha!",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -216,15 +216,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "Zuikaku, I've finished cooking~ Everyone, let's all go eat~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "The venue was livelier than ever as the delicious aroma of tempura and traditional pastries mingled with the sounds of merriment.",
 			typewriter = {
 				speed = 0.05,
@@ -279,13 +279,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "Zuikaku apologized, thinking back to when she was almost cut by \"Ember.\"",
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
-			say = "Zuikaku apologized, thinking back to when she was almost cut by \"Ember.\"",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "It's not your fault, Zuikaku. None of us could have stood against someone that strong. Rather, I'm just thankful that you're alive.",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "Besides, I like being able to nurse you back to health~",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Shoukaku, don't plant your own death flag!",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -436,15 +436,15 @@ return {
 			}
 		},
 		{
-			say = "Meanwhile, two figures were sitting on the other side of the venue.",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "Meanwhile, two figures were sitting on the other side of the venue.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -501,11 +501,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "I have lost my qualifications to serve as your escort, Lady Nagato...!",
 			typewriter = {
 				speed = 0.05,
@@ -517,18 +517,18 @@ return {
 			},
 			action = {
 				{
+					y = -2500,
+					type = "move",
 					delay = 1.5,
 					dur = 1,
-					type = "move",
-					y = -2500,
 					x = -0
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "Kawakaze bowed her head until she could only see the ground.",
 			typewriter = {
 				speed = 0.05,
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "Therefore, please continue your efforts as my escort!",
 			typewriter = {
 				speed = 0.05,
@@ -636,8 +636,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,9 +662,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "Though such words may not be particularly encouraging or comforting to some, to Kawakaze, those few words were the greatest compliment she could receive.",
 			typewriter = {
 				speed = 0.05,
@@ -676,11 +676,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "I will do my best to meet your expectations, Lady Nagato!",
 			typewriter = {
 				speed = 0.05,
@@ -692,8 +692,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -702,12 +702,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			say = "...Good, now stand straight.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "...Good, now stand straight.",
+			actor = 305050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -722,8 +722,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -734,14 +734,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			bgName = "bg_xinnong_cg1",
 			actor = 306070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I suppose this concludes another chapter of our lives.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -766,11 +766,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "Guess so. Hard to believe so much happened in such a short period of time...",
 			typewriter = {
 				speed = 0.05,
@@ -782,8 +782,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -827,8 +827,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "But, without Watatsumi, it won't be possible for us to hold the Dawning Ceremony...",
 			typewriter = {
@@ -844,8 +844,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "I just don't get it. Who did this, and when? Why would they take something so important to us?",
 			typewriter = {
@@ -909,8 +909,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "Akagi, and Kaga...?!",
 			typewriter = {
@@ -923,8 +923,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -952,8 +952,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "Now that I think about it, Akagi and Kaga were the first ones to leave the island when they went to send off the Iron Blood guests. But after that...",
 			typewriter = {
@@ -966,8 +966,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -979,8 +979,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "Hibiki... Well, I just can't see a girl like her doing something like that.",
 			typewriter = {
@@ -1012,8 +1012,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "Ah, um...",
 			dialogShake = {
@@ -1031,8 +1031,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1044,8 +1044,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "Kasumi, what's the matter?",
 			typewriter = {
@@ -1058,8 +1058,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1071,8 +1071,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "Just now... um...",
 			typewriter = {
@@ -1085,8 +1085,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1098,8 +1098,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "Lady Shinano seems to have woken up?",
 			effects = {
@@ -1120,9 +1120,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
+			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			say = "Great, I managed to make it to the end without drawing too much attention to myself!",
 			effects = {
@@ -1132,8 +1132,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1161,8 +1161,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "By the way, why did you choose Shinano to host the ceremony? Was it because of her overwhelming power? Even so, there was no way she was going to be ready in time.",
 			typewriter = {
@@ -1178,8 +1178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Nagato then rushed over anyway after hearing that. Could it be that someone knew that all of this would happen from the very beginning?",
 			typewriter = {
@@ -1195,8 +1195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Well, in the end, these rituals are out of my area of expertise! Let's just take it easy and not dive too deeply into these things~ Phew...",
 			typewriter = {

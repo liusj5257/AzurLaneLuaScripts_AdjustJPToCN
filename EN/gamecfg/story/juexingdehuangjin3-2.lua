@@ -4,21 +4,21 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "A fierce battle unfolded. The Mechadrake suddenly brandished its iron claws and charged forward.",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			bgm = "story-battle-16bit-sfc",
+			hidePaintObj = true,
+			say = "A fierce battle unfolded. The Mechadrake suddenly brandished its iron claws and charged forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "It happened so fast, the Prototype Super Drill MKII couldn't dodge, and was cleaved in two with just one attack.",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "It happened so fast, the Prototype Super Drill MKII couldn't dodge, and was cleaved in two with just one attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,10 +27,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What, purin?! An iron claw sweep, purin?!",
 			painting = {
 				alpha = 0.3,
@@ -67,30 +67,30 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Iron Claw Demon smirked, drunk on a sense of triumph.",
-			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But then...",
-			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "Wasting not even a second to mourn the loss of her mech, the Bulin charged back into battle with a new mech.",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "Wasting not even a second to mourn the loss of her mech, the Bulin charged back into battle with a new mech.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,9 +99,9 @@ return {
 		{
 			actor = 100011,
 			side = 2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "Pierce the heavens once more, my Prototype Super Drill MKII!",
 			painting = {
 				alpha = 0.3,
@@ -127,10 +127,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hahaha! \"Another,\" purin? What a naive fool you are, purin!",
 			painting = {
 				alpha = 0.3,
@@ -144,10 +144,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Obviously there wasn't just ONE Gilded Age mech, purin!",
 			painting = {
 				alpha = 0.3,
@@ -159,20 +159,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "Indeed, the mech was of a mass-produced variety. The Iron Claw Demon was not expecting this.",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "Indeed, the mech was of a mass-produced variety. The Iron Claw Demon was not expecting this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "She couldn't react in time to its golden laser, which reduced her Mechadrake into a pile of scrap.",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "She couldn't react in time to its golden laser, which reduced her Mechadrake into a pile of scrap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,10 +181,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "NOW it's over, purin!",
 			painting = {
 				alpha = 0.3,
@@ -198,10 +198,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Victory is mine, purin!",
 			painting = {
 				alpha = 0.3,
@@ -240,10 +240,10 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Purin?! No, it can't be...",
 			painting = {
 				alpha = 0.3,
@@ -258,9 +258,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#FF9B93",
-			hidePaintObj = true,
-			actorName = "Iron Claw Demon",
 			actor = 403130,
+			actorName = "Iron Claw Demon",
+			hidePaintObj = true,
 			say = "Come back to me, my second half – Iron Claw Mechadrake!",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Iron Claw Mechadrake",
+			side = 2,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "ROOOOOOAAAAARRRR!",

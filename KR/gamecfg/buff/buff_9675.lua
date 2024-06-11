@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "14-顶盾冲锋",
 	time = 0,
-	color = "yellow",
+	name = "14-顶盾冲锋",
+	init_effect = "",
+	id = 9575,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9575,
+	color = "yellow",
 	icon = 9575,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 8003,
-				mul = 5000,
-				add = 0
+				add = 0,
+				mul = 5000
 			}
 		},
 		{
@@ -28,9 +28,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 32,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

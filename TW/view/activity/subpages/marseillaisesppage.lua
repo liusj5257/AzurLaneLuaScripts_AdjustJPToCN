@@ -2,7 +2,7 @@ slot0 = class("MarseillaiseSpPage", import(".TemplatePage.SpTemplatePage"))
 slot1 = Vector2(225, -270)
 slot2 = Vector2(515, -270)
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
 	if not slot0.activity:getConfig("config_client").linkPoolActID then

@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			side = 2,
-			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "doa_daozhong",
 			actor = 900300,
-			actorName = "？？？",
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_106",
 			say = "あ、かすみさん！おかえりなさい！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "ただいま、マリーちゃん、みんな。",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "先に、皆さんを紹介しますね。こちらは、さっき出会ったZ23さん、ジャベリンさん、綾波さん、そしてラフィーさんです。",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "こっちは、わたしのお友達…ヴィーナス諸島から来た仲間です。",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "マリー・ローズと言います！マリーって呼んでください！",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 900301,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900301,
+			nameColor = "#a9f548",
 			say = "初めまして、ほのかです。その…よろしくお願いしますね！",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -196,8 +196,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "ディーラーのモニカです♪…まだ見習いですけど。よろしくお願いしますね、ふふっ",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "わらわは女天狗じゃ。そなたら、おもしろそうな気配がするのう？",
 			typewriter = {
@@ -227,13 +227,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "互いに自己紹介した後、突如現れた「島」の現状について確認した。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "カクカクシカジカ……",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "マリー、すっごくびっくりしました！…でも、家も食べ物もあったから…",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "そして、この変な手紙を見つけたんです…",
 			typewriter = {
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
-			actorName = "端末",
 			dir = 1,
+			actorName = "端末",
 			say = "「遥々より来たれし“ヴィーナス”たちよ、ようこそバカンス島へ！」",
 			dialogShake = {
 				speed = 0.09,
@@ -472,8 +472,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "端末",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "端末",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "端末",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "あはは…ちょうどゴムボートがありましたので、近くの状況を確かめようと…そしたら、あなたたちと出会ったんです",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "あら？またなにかメッセージが届いたみたいですよ",
 			typewriter = {
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "端末",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -618,12 +618,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "と、とりあえずヴィーナス諸島？の皆さんを港に迎えましょう！指揮官にも報告しないといけませんね",
 			typewriter = {
 				speed = 0.05,
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

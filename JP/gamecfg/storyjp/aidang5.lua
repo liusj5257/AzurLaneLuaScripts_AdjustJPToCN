@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お姉さんと一日デート\n\n<size=45>五　暗闇の中で</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（ガラガラガラガラ）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（ドクンドクンドクン）",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（無音）",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（うーらーめーしーやー）",
 			typewriter = {
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "！！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "隣に座っている愛宕が急に凄く強く手を握りしめてくる",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "よく見たら、頭を伏せたまま――静かに震えていた。",
 			typewriter = {
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 303120,
-			side = 2,
-			blackBg = true,
-			nameColor = "#a9f548",
-			dir = 1,
 			optionFlag = 1,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "……………！",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "握りしめてくる力がいっそう強くなった。",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "映画のことはもはやどうでもよく、握りしめられた手を使って相手の体温を確かめるので精一杯だった。",
 			typewriter = {
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 303120,
-			side = 2,
-			blackBg = true,
-			nameColor = "#a9f548",
-			dir = 1,
 			optionFlag = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "………指揮官……？",
 			typewriter = {
 				speed = 0.05,
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "………うん……怖くない、怖くない……",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					number = 1
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "時に凛々しく、時に色っぽく、いつも余裕綽々の愛宕が…今は弱々しく見えた。",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "映画が終わると、腕の中から微かに愛宕の寝息が聞こえてきた。",
 			typewriter = {
@@ -307,15 +307,15 @@ return {
 			}
 		},
 		{
-			say = "（一時間後）",
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "（一時間後）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "そこにいるのは、いつもの愛宕だ。",
 			typewriter = {
 				speed = 0.05,
@@ -410,12 +410,12 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "指揮官だけが知っている「ヒミツ」こそ、価値があると思わない？うふふ",
 			typewriter = {
 				speed = 0.05,

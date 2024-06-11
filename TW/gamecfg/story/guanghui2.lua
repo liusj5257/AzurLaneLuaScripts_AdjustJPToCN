@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"淑女的小小提案\n\n<size=45>二 煩惱的談心</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "工作結束，正準備離開辦公室時，發現光輝在門口等著。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "工作結束，正準備離開辦公室時，發現光輝在門口等著。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "機會難得，在答應之餘，順便問了下有什麼可以幫忙的。",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "向光輝表示沒關係，並且很快決定和光輝一起籌備茶會需要的東西。",
 			typewriter = {
 				speed = 0.05,
@@ -142,13 +142,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "總之先把白色桌子和幾把椅子搬了過來。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "準備工作比想像中的還要累，兩人坐在搬來的椅子上稍作休息。",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "光輝似乎陷入了某種沉思。",
 			typewriter = {
 				speed = 0.05,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "不過當時正好在忙，就沒有及時回覆，現在有點煩惱該如何是好…",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 		{
 			actor = 207050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "很高興妳邀請我。不過那一天我要欣賞搖……音樂——",
 			effects = {
 				{
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "——如此這般地被她推辭了呢……",
 			effects = {
 				{
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "趁著休息的時候，幫著光輝一起想想如何回覆利托里奧，跟說動可畏好了…",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "光輝拉著椅子，很自然地靠了過來， 彼此的手臂似乎緊緊地貼在一起，令人不禁砰然心動。",
 			typewriter = {
 				speed = 0.05,

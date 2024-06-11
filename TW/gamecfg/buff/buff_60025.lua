@@ -29,8 +29,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -66,8 +66,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -103,8 +103,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -140,8 +140,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -177,8 +177,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -214,8 +214,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -251,8 +251,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -288,8 +288,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -325,8 +325,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
@@ -362,16 +362,16 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 60015,
+					target = "TargetSelf",
 					countType = 60027
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "女王号令",
 	time = 0,
+	name = "女王号令",
+	init_effect = "",
 	picture = "",
 	desc = "女王号令",
 	stack = 1,
@@ -406,8 +406,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 60015,
+				target = "TargetSelf",
 				countType = 60027
 			}
 		}

@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 600085,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600085,
+	color = "yellow",
 	icon = 600085,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				maxHPRatio = 0.3,
-				countType = 600102
+				countType = 600102,
+				maxHPRatio = 0.3
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 600100,
+				target = "TargetSelf",
 				countType = 600102
 			}
 		}

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG12",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			bgm = "battle-boss-tiancheng",
-			dir = 1,
 			say = "ドカーン！",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-tiancheng",
 			flashN = {
 				color = {
 					1,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "……くっ！",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "大丈夫、かすり傷ですわ。ただ…流石にこの自爆能力は予測できませんわね…不覚です",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "兵と甘苦を共にせず、策だけ講じては、奇策鬼謀も机上の空論になりましょう",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
+			dir = -1,
 			say = "天城は大演習の時と同じく、後方支援に徹するのではなく前線に出ている。",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302140,
 			dir = 1,
+			actor = 302140,
 			say = "天城さん……",
 			typewriter = {
 				speed = 0.05,
@@ -207,8 +207,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "私がこうして前に出て戦うからこそ、得られる成果もありますもの",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
+			dir = -1,
 			say = "天城は海に浮かんでいる加賀の艤装と思われる破片を拾い上げる。",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "困りますわね……",
 			typewriter = {
 				speed = 0.05,

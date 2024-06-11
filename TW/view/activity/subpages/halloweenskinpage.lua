@@ -1,13 +1,13 @@
 slot0 = class("HalloweenSkinPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.stage = slot0:findTF("AD/Text"):GetComponent(typeof(Text))
 	slot0.goBtn = slot0:findTF("AD/go_btn")
 	slot0.gotBtn = slot0:findTF("AD/got_btn")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot2 = slot0.activity
 	slot0.tasks = _.flatten(slot2:getConfig("config_data"))
 
@@ -20,7 +20,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.LastTaskBeFinished(slot0)
+slot0.LastTaskBeFinished = function(slot0)
 	if getProxy(TaskProxy):getTaskVO(slot0.tasks[#slot0.tasks]) and slot3:isReceive() then
 		return true
 	end
@@ -28,7 +28,7 @@ function slot0.LastTaskBeFinished(slot0)
 	return false
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = slot0.activity
 	slot2 = 0
 	slot3 = getProxy(TaskProxy)
@@ -46,7 +46,7 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.gotBtn, slot0:LastTaskBeFinished())
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动EX 恶魔子弹命中标记",
 	time = 3,
-	color = "red",
+	name = "2022美系活动EX 恶魔子弹命中标记",
+	init_effect = "",
+	id = 200301,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200301,
+	color = "red",
 	icon = 200301,
 	last_effect = "",
 	effect_list = {

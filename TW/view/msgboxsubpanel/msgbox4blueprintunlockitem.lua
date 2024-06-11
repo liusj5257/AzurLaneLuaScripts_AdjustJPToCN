@@ -1,10 +1,10 @@
 slot0 = class("Msgbox4BlueprintUnlockItem", import(".MsgboxSubPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Msgbox4BlueprintUnlockItem"
 end
 
-function slot0.OnRefresh(slot0, slot1)
+slot0.OnRefresh = function(slot0, slot1)
 	rtf(slot0.viewParent._window).sizeDelta = Vector2(1010, 685)
 	slot2 = slot1.item
 

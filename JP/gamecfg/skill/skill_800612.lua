@@ -2,23 +2,23 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 800612,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	effect_list = {
 		{
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				effect = "mingyun_qingdan_hong",
 				life_time = 0.2,
 				move_type = 1,
-				range = 45,
+				effect = "mingyun_qingdan_hong",
 				speed_x = 0,
-				damage_param_a = 300,
+				range = 45,
 				damage_param_b = 0,
+				damage_param_a = 300,
 				damage_tag_list = {
 					"Fortune_meta_near"
 				},
@@ -32,13 +32,13 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				effect = "mingyun_qingdan_lan",
 				life_time = 0.2,
 				move_type = 1,
-				range = 45,
+				effect = "mingyun_qingdan_lan",
 				speed_x = 0,
-				damage_param_a = 300,
+				range = 45,
 				damage_param_b = 0,
+				damage_param_a = 300,
 				damage_tag_list = {
 					"Fortune_meta_near"
 				},
@@ -49,10 +49,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 800613
 			}

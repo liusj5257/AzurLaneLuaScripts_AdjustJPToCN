@@ -169,14 +169,14 @@ return {
 			}
 		}
 	},
-	time = 10,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 13861,
+	time = 10,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13861,
+	color = "red",
 	icon = 13860,
 	last_effect = "",
 	blink = {

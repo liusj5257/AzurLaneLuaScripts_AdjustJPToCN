@@ -2,9 +2,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63461,
 					delay = 2
@@ -18,20 +18,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63471,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -39,10 +39,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -53,9 +53,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63462,
 					delay = 2
@@ -69,20 +69,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63472,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -90,10 +90,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -104,9 +104,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63463,
 					delay = 2
@@ -120,20 +120,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63473,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -141,10 +141,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -155,9 +155,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63464,
 					delay = 2
@@ -171,20 +171,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63474,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -192,10 +192,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -206,9 +206,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63465,
 					delay = 2
@@ -222,20 +222,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63475,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -243,10 +243,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -257,9 +257,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63466,
 					delay = 2
@@ -273,20 +273,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63476,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -294,10 +294,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -308,9 +308,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63467,
 					delay = 2
@@ -324,20 +324,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63477,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -345,10 +345,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -359,9 +359,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63468,
 					delay = 2
@@ -375,20 +375,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63478,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -396,10 +396,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -410,9 +410,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63469,
 					delay = 2
@@ -426,20 +426,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63479,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -447,10 +447,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -461,9 +461,9 @@ return {
 	{
 		effect_list = {
 			{
+				targetAniEffect = "",
 				type = "BattleSkillFire",
 				target_choise = "TargetHarmRandomByWeight",
-				targetAniEffect = "",
 				arg_list = {
 					weapon_id = 63470,
 					delay = 2
@@ -477,20 +477,20 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetSameToLastEffect",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetSameToLastEffect",
 				arg_list = {
 					weapon_id = 63480,
 					delay = 2
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetFleetIndex",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetFleetIndex",
 				arg_list = {
 					fleetPos = "Leader",
 					buff_id = 108154,
@@ -498,10 +498,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetPlayerVanguardFleet",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetPlayerVanguardFleet",
 				arg_list = {
 					buff_id = 108155,
 					delay = 5
@@ -512,11 +512,11 @@ return {
 	uiEffect = "",
 	name = "大黄蜂-轰炸",
 	cd = 0,
+	picture = "0",
+	desc = "轰炸",
 	painting = 1,
 	id = 108150,
-	picture = "0",
 	castCV = "skill",
-	desc = "轰炸",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -527,9 +527,9 @@ return {
 	},
 	effect_list = {
 		{
+			targetAniEffect = "",
 			type = "BattleSkillFire",
 			target_choise = "TargetHarmRandomByWeight",
-			targetAniEffect = "",
 			arg_list = {
 				weapon_id = 63461,
 				delay = 2
@@ -543,20 +543,20 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetSameToLastEffect",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetSameToLastEffect",
 			arg_list = {
 				weapon_id = 63471,
 				delay = 2
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetFleetIndex",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetFleetIndex",
 			arg_list = {
 				fleetPos = "Leader",
 				buff_id = 108154,
@@ -564,10 +564,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerVanguardFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerVanguardFleet",
 			arg_list = {
 				buff_id = 108155,
 				delay = 5

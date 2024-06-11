@@ -3,7 +3,7 @@ slot0.FADE_TIME = 0.5
 slot0.SHOW_TIME = 2
 slot0.FADE_OUT_TIME = 0.5
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.finishContainer = slot0:findTF("FinishContainer", slot0.bg)
@@ -106,7 +106,7 @@ function slot0.OnInit(slot0)
 	end):Start()
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.uilist
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -151,7 +151,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.showBubbleTag = false
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setActive(slot0.boxTF, false)
 
@@ -184,7 +184,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 
 	if slot0.spineLRQ then
@@ -202,12 +202,12 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.showBubble(slot0, slot1)
+slot0.showBubble = function(slot0, slot1)
 	slot2 = nil
 
 	setText(slot0.bubbleText, (slot1 or i18n(slot0.bubbleTextList[math.random(#slot0.bubbleTextList)])) and slot1)
 
-	function slot4()
+	slot4 = function()
 		LeanTween.value(go(uv0.bubbleTF), 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
 			setActive(uv0.bubbleTF, false)
 		end))

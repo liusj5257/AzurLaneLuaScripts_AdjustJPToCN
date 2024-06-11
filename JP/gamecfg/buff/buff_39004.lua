@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "大舰队世界boss_1_阶段3",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 39004,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 39004,
+	color = "yellow",
 	icon = 39000,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 8000
+				number = 8000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 8000
+				number = 8000,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 8000
+				number = 8000,
+				attr = "airPower"
 			}
 		},
 		{
@@ -53,8 +53,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.15
+				number = 0.15,
+				attr = "injureRatio"
 			}
 		}
 	}

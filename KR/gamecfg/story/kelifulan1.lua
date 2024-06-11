@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"기사와 포상\n\n<size=45>1. 갑작스런 요청</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "그것은 갑작스러운 일이었다. 비서함으로부터의 요청은——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "그것은 갑작스러운 일이었다. 비서함으로부터의 요청은——",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "지휘관, 우리랑 같이 농구 시합 나갈래?",
 			typewriter = {
 				speed = 0.05,
@@ -54,16 +54,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "형님이라고 부르지마!...... 아, 지휘관한테 직접 뛰라는 건 아니야. 우리 팀을 위해 코치를 해줄 수 있겠냐고 묻고 싶었어.",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.12,
 					x = 0,
 					number = 2
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "요전수는, 비취나무는 결코 돈이 나지 않는데... 아무튼 먼저 응해주자.",
 			typewriter = {
 				speed = 0.05,
@@ -153,16 +153,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "......약속했어? 아싸! 역시 지휘관이야, 시원시원해!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.08,
 					x = 0,
 					number = 1
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "농구 시합 얘기가 끝나고, 클리블랜드는 손발을 재빠르게 일하기 시작했다. 여전히 변함없이 질서 정연하다.",
 			typewriter = {
 				speed = 0.05,

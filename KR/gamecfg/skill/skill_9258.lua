@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "龙宫机关-土 武器LV2",
 	cd = 0,
-	painting = "mibao_tu",
-	id = 9258,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "mibao_tu",
+	id = 9258,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -15,17 +15,17 @@ return {
 				emitter = "BattleBulletEmitter",
 				weapon_id = 820012,
 				attack_attribute_convert = {
-					attr_type = "fleetGS",
 					A = 80,
+					attr_type = "fleetGS",
 					B = 400
 				}
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 9268
 			}

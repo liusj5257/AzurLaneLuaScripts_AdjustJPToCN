@@ -1,16 +1,16 @@
 return {
-	id = "MAOZIHUODONG6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "The Eagle Union task force is steadily making its way towards the Siren stronghold.",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
-			say = "The Eagle Union task force is steadily making its way towards the Siren stronghold.",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "Though the Sirens' counterattacks slowly grow stronger, they still pose no actual threat to the Eagle Union's ships.",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Wow, we've made some astonishing progress. When we first decided to investigate the stronghold, we never got *this* close.",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Ooh, do I hear an offer to clear the path for us?",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Because if so, I'll gladly take it! My gear's from a bygone time, so I'd struggle to keep up anyway~",
 			typewriter = {
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "For decades, the Northern Parliament has been engaged in a battle with the Sirens over the Bering Sea.",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "They may have experience, but their supplies are dwindling, and apparently they need support from other factions to hold the line...",
 			typewriter = {
 				speed = 0.05,

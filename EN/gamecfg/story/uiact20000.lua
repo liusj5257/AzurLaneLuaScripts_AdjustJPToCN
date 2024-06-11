@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{
@@ -23,13 +23,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
-			nameColor = "#ff0000",
-			actorName = "???",
-			withoutPainting = true,
-			blackBg = true,
 			say = "……",
+			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
+			actorName = "???",
+			withoutPainting = true,
 			shake = {
 				speed = 1,
 				number = 3
@@ -44,13 +44,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 1,
+			say = "Wake up. The battle is about to begin.",
 			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
-			blackBg = true,
-			say = "Wake up. The battle is about to begin.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
+			say = "………",
 			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
-			blackBg = true,
-			say = "………",
 			shake = {
 				speed = 1,
 				number = 3
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 407010,
 			side = 1,
-			nameColor = "#ff0000",
+			say = "A dream...? Nonsense. A mere Pawn like you does not dream. Even if you did, it would merely be a fragment of your own thoughts, like a hallucination.",
 			dir = -1,
 			blackBg = true,
-			say = "A dream...? Nonsense. A mere Pawn like you does not dream. Even if you did, it would merely be a fragment of your own thoughts, like a hallucination.",
+			actor = 407010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
-			nameColor = "#ff0000",
-			blackBg = true,
 			say = "Sacrificed, huh...",
+			blackBg = true,
+			actor = 405020,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

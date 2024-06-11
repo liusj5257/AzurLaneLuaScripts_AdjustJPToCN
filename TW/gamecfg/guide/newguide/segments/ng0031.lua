@@ -7,7 +7,13 @@ return {
 				1
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/eventPanel/MainActDelegationBtn(Clone)",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/MainActDelegationBtn(Clone)"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/eventPanel/MainActDelegationBtn(Clone)"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -19,8 +25,8 @@ return {
 			style = {
 				text = "先在港區委託板中，領取一些鍊金素材",
 				mode = 1,
-				posY = 197.47,
 				dir = 1,
+				posY = 197.47,
 				posX = 293.8
 			}
 		},
@@ -42,8 +48,8 @@ return {
 			}
 		},
 		{
-			alpha = 0.2,
 			waitScene = "RyzaTaskScene",
+			alpha = 0.2,
 			code = {
 				1
 			},
@@ -60,8 +66,8 @@ return {
 			style = {
 				text = "獲取通關T5後的素材",
 				mode = 1,
-				posY = -212.73,
 				dir = 1,
+				posY = -212.73,
 				posX = 462.68
 			}
 		},
@@ -99,8 +105,8 @@ return {
 			style = {
 				text = "返回主介面",
 				mode = 1,
-				posY = 311.92,
 				dir = 1,
+				posY = 311.92,
 				posX = 495.66
 			}
 		}

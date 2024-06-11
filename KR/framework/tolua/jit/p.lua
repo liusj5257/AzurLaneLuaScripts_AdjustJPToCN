@@ -18,7 +18,7 @@ slot24 = {
 	I = "Interpreted"
 }
 
-function slot25(slot0, slot1, slot2)
+slot25 = function(slot0, slot1, slot2)
 	uv0 = uv0 + slot1
 	slot3, slot4, slot5 = nil
 
@@ -80,7 +80,7 @@ function slot25(slot0, slot1, slot2)
 	end
 end
 
-function slot26(slot0, slot1, slot2, slot3)
+slot26 = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 	slot5 = 0
 
@@ -111,7 +111,7 @@ function slot26(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot27(slot0, slot1)
+slot27 = function(slot0, slot1)
 	slot2 = {}
 	slot3 = 0
 
@@ -227,7 +227,7 @@ function slot27(slot0, slot1)
 	end
 end
 
-function slot29(slot0)
+slot29 = function(slot0)
 	slot1 = ""
 	uv0 = 3
 	uv2 = 1

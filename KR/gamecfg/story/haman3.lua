@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"허먼 관찰일기\n\n<size=45>3. 기쁘지 않은 이유·중</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "허먼에게 지휘실에서 쫓겨난지 조금 뒤……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "허먼에게 지휘실에서 쫓겨난지 조금 뒤……",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101250,
 			say = "일, 일단 지휘실 청소를 하고……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,17 +62,17 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "5분 뒤——",
 			typewriter = {
 				speed = 0.05,
@@ -80,14 +80,14 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101250,
 			say = "어, 어떡하지… 만약 지휘관에게 버림받으면… 허먼은…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 30,
 					number = 3
@@ -151,10 +151,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 30,
 					number = 3
@@ -183,9 +183,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "허먼은 자기 얼굴을 톡톡 두드리더니 정신을 차렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -212,10 +212,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -30,
 					dur = 0.25,
-					type = "shake",
-					y = -30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -235,10 +235,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				},
 				painting = {
 					alpha = 0.3,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 30,
 					number = 3
@@ -285,9 +285,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "머리를 싸맨 허먼은 꽤나 괴로운 것 같았다.",
 			typewriter = {
 				speed = 0.05,
@@ -329,10 +329,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
@@ -352,17 +352,17 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(문이 열린다)",
 			typewriter = {
 				speed = 0.05,
@@ -389,10 +389,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
+			actor = 101250,
 			say = "으아아아아아!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -443,8 +443,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.1,
 					x = 30,
 					number = 4

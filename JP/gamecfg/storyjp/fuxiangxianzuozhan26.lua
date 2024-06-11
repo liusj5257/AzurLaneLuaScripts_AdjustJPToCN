@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN26",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "浮島要塞D12防衛区画",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "浮島要塞D12防衛区画",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,8 +59,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "鏡面海域が解除されている…？",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "やってくれたわね…破壊まで頼んでないわよ",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "ペーター、識別信号が変わった。鉄血と重桜の「艦船」たちが脱出したわ",
 			typewriter = {
@@ -126,8 +126,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "あとは量産艦と残りのセイレーンね",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "セイレーンのジャミングでこちらの施設の制御権が奪われ、さらに量産艦が暴走下という危機的な状況……",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "同時に各艦で時間を稼いでいる間に飛行場施設の制御権を奪還し、戦力を集中して一挙にセイレーンを殲滅する作戦……",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "不可解な通信異常、本土への連絡不通、量産艦の暴走、そして思わぬ重桜艦隊の出現……",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "そして通信機能と実験場のレーダーもセイレーンに操られていると判断し、そのまま本当の「駒」とニセモノの「艦船」の見分けがついていない振りをして……",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "セイレーンをD13区画に足止めさせて攻撃を仕掛けたわよ",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "セイレーンに私達が本当に騙されているように信じさせたのは…",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "ハインリヒ、ね",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "あの子はどこまで状況を把握しているのやら",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "ああ見えても結構できる子よ、ハインリヒは",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "そして今まで動かなかったのは、もっぱらハインリヒに惑わされただけかもしれない",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "………どうやら私も騙されたわね。まさかあの子が状況を把握しているとは思わなかったわ",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "動いたわ。…逃げるんじゃなくてこっちに向かってる？",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "機密施設へはなんとしてでも阻止するわよ！ヴェーザー、通信が回復しているならオイゲン、そしてこの海域の艦船全員につないで！",
 			typewriter = {
@@ -457,16 +457,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_fuxiangxian_4",
-			actorName = "ペーター・シュトラッサー",
+			side = 2,
 			dir = 1,
-			say = "こちら鉄血空母ペーター・シュトラッサー！この海域にいる鉄血、及びサディア、重桜の全ての艦船に告ぐ！",
+			bgName = "bg_fuxiangxian_4",
 			bgm = "bsm-9",
+			actorName = "ペーター・シュトラッサー",
+			say = "こちら鉄血空母ペーター・シュトラッサー！この海域にいる鉄血、及びサディア、重桜の全ての艦船に告ぐ！",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ペーター・シュトラッサー",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ペーター・シュトラッサー",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ペーター・シュトラッサー",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ペーター・シュトラッサー",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -555,12 +555,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ペーター・シュトラッサー",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "セイレーン個体「コンパイラー」を撃破せよッ！",
 			typewriter = {
 				speed = 0.05,

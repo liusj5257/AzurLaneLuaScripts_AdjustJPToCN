@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春天的賞櫻大會\n\n<size=45>一  春日和</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼…不知不覺，天氣開始轉暖了呢",
 			bgm = "story-1",
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "呼…不知不覺，天氣開始轉暖了呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 307040,
+			say = "哇！{namecode:89}手腳這麼快啊！",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！{namecode:89}手腳這麼快啊！",
+			actor = 307040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA41",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DIEHAIMENGHUA41",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			say = "Somewhere in the Sakura Empire's main island...",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 1,
 			bgm = "bsm-2",
+			say = "Somewhere in the Sakura Empire's main island...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,9 +51,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "Observer",
 			say = "Hehe. How cautious of you if you're calling me to this place. Aren't you afraid of getting found out?",
 			typewriter = {
@@ -85,9 +85,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "Observer",
 			say = "Is it my fault you never bothered to ask?",
 			typewriter = {
@@ -103,9 +103,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "Observer",
 			say = "Besides, what are you dissatisfied with? You got what you wanted from the Iron Blood, and Shinano woke up. I've been doing nothing but good here.",
 			typewriter = {
@@ -137,9 +137,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "Observer",
 			say = "How sad. Do you have so little faith in your God?",
 			typewriter = {
@@ -203,9 +203,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "Observer",
 			say = "What a spoilsport. We just wanted to see how significantly an \"unobservable\" could break our calculations.",
 			typewriter = {
@@ -221,9 +221,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "Observer",
 			say = "In any case, I'll leave that child alone. Consider what happened with Tester... an unexpected system malfunction.",
 			typewriter = {
@@ -239,9 +239,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "Observer",
 			say = "...Oh my, it seems that I have a visitor. I'll be taking my leave then. Have a nice day, Akagi~",
 			typewriter = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff5c5c",
 			say = "...Siren, I'll make you pay for stepping on the Sakura Empire as if it was your doormat...",
 			dialogShake = {
 				speed = 0.09,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "布里斯托尔调查",
 	time = 0,
+	name = "布里斯托尔调查",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

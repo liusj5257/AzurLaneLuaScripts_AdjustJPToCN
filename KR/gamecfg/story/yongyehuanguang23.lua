@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "오로라 아래에서 로열 네이비의 호송 함대가 질서있는 대형으로 줄지어 해수면 위를 행진하고 있다.",
 			side = 2,
 			bgName = "bg_hms_4",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-royalnavy",
+			say = "오로라 아래에서 로열 네이비의 호송 함대가 질서있는 대형으로 줄지어 해수면 위를 행진하고 있다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "허마이오니",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "이글",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "이글",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "허마이오니",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,8 +96,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "이글",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "자메이카",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "허마이오니",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "허마이오니",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"聖誕禮物大作戰！\n\n<size=45>一　聖誕前的困擾？</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "嗯……禮服或許是不錯的選擇，可是……",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "嗯……禮服或許是不錯的選擇，可是……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "不行不行，陛下怎麼會缺禮服穿呢？而且也不夠精緻嚴肅。",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "呼哇哇！貴……貴安，厭戰前輩。咱……咱打擾到您了嗎！？",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼哇哇！貴……貴安，厭戰前輩。咱……咱打擾到您了嗎！？",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "嗚哇！前……前輩說哪裡的話，這點事情怎麼能讓您道謝！",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "欸……欸！現在就要出門了嘛！咱要趕快……整理一下才行哇……",
 			typewriter = {
 				speed = 0.05,

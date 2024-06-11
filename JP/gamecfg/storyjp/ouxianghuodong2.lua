@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "というわけで早速規定海域に到着したにゃ！",
 			bgm = "azumaster-ins",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "というわけで早速規定海域に到着したにゃ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "実は「μ兵装」の通常戦闘性能以外に、もう２つ実験してほしい内容があるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "逆に言うと、途中で一回でも敗北すればコンボ数が0になるってことだね！",
 			typewriter = {
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "そのとおりにゃ！もう１つは「歌って戦う」ことだにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,8 +187,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "パフォーマンス？",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			nameColor = "#a9f548",
 			say = "ええ、本当は私が全てのステージでメインパフォーマンスを務めたかったですが、仕方ありませんわ",
 			typewriter = {
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 403070,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
 			say = "は？別にあんたがやりたければ全部やればいいじゃない",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "それでは「μ兵装」性能実験の意味をなしませんね",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "主（メートル）へのパフォーマンスを兼ねて、との意味と理解",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "とにかく！これからそれぞれの海域で一人メインパフォーマーを選べばいいってことね！",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,8 +340,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "だれかやりたい人――！",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			actorNAME = "みんな",
 			nameColor = "#a9f548",
+			actorNAME = "みんな",
 			bgName = "star_level_bg_120",
 			side = 2,
 			dir = 1,
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "誰でも問題ないにゃ！それじゃ、早速兵装の性能実験を始めるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

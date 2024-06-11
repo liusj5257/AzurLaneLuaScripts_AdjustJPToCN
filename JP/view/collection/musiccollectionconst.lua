@@ -3,9 +3,9 @@ slot0.Version = 2
 slot0.AutoScrollIndex = 14
 slot0.NewCount = 4
 slot0.MusicStates = {
-	DirectShow = 0,
-	Unlocked = 1,
 	Unlockable = 2,
+	Unlocked = 1,
+	DirectShow = 0,
 	DisUnlockable = 3
 }
 slot0.Color_Of_Normal_Song = "#343434FF"

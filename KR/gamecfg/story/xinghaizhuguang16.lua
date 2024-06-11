@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_3",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "통제실에서는 네비게이터와 악성 데이터의 전쟁이 계속되고 있다.",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 199030,
 			side = 2,
 			bgName = "bg_starsea_core_3",
 			factiontag = "첨단함선연구계획국",
 			dir = 1,
+			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "괜찮아. 앵커리지는 그냥 여기서 그냥 얌전히...",

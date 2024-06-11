@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOLIFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOLIFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"영감이 떠오르는 파티\n\n<size=45>파티를 열자!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날·지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날·지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "하등생물! 파티를 열자!",
 			effects = {
 				{
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…이 풍경, 어디선가 본 것 같다.",
 			effects = {
 				{
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……못 이기는 척 메탈 블러드를, 혹은 도이칠란트를 도와 파티를 준비했다.",
 			typewriter = {
 				speed = 0.05,
@@ -154,15 +154,15 @@ return {
 			}
 		},
 		{
-			say = "며칠의 준비 끝에, 심혈을 기울인 메탈 블러드의 파티가 시작되었다——",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "며칠의 준비 끝에, 심혈을 기울인 메탈 블러드의 파티가 시작되었다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "미안해, 지휘관. 언니가 폐를 끼쳤어… 하지만 같이 파티를 준비해준 것은 고마워……",
 			typewriter = {
@@ -207,8 +207,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403043,
 			dir = 1,
+			actor = 403043,
 			nameColor = "#a9f548",
 			say = "으흥, 하등생물 치고는 괜찮구나! 어때! 엘리자베스! 우리 메탈 블러드의 파티!",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "도이칠란트가 이렇게 으스대다니… 하지만… 파티 준비가 괜찮다는 건 인정할 수 밖에 없겠는데…",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -267,8 +267,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 202123,
 			dir = 1,
+			actor = 202123,
 			nameColor = "#a9f548",
 			say = "답례로 파티장의 경호는 메이드단에게 맡겨주십시오.",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -294,8 +294,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 202123,
 			dir = 1,
+			actor = 202123,
 			nameColor = "#a9f548",
 			say = "함께 온 아크로열님도 적극적으로 함께 해주시겠다 하셨습니다. 만전을 기할테니 부디 안심하시길.",
 			typewriter = {
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "멀지 않은 곳…",
 			typewriter = {
 				speed = 0.05,
@@ -341,11 +341,11 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_115",
-			actor = 205011,
-			dir = 1,
-			actorName = "전원",
-			hideOther = true,
 			nameColor = "#a9f548",
+			dir = 1,
+			hideOther = true,
+			actor = 205011,
+			actorName = "전원",
 			say = "……",
 			subActors = {
 				{
@@ -373,12 +373,12 @@ return {
 			}
 		},
 		{
-			actor = 403043,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403043,
+			nameColor = "#a9f548",
 			say = "그, 그래! 메탈 블러드의 파티를 마음껏 즐기라고!",
 			typewriter = {
 				speed = 0.05,

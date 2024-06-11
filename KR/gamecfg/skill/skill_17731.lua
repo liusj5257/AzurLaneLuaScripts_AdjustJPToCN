@@ -5,13 +5,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 30,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -29,13 +29,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 31,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -53,13 +53,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 32,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -77,13 +77,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 33,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -101,13 +101,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 35,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -125,13 +125,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 37,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -149,13 +149,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 39,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -173,13 +173,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 41,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -197,13 +197,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
+					effect = "qingdan_yuanxing_shuixia05x",
+					speed_x = 0,
 					range = 43,
-					speed_x = 0,
-					damage_param_a = 300,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -221,13 +221,13 @@ return {
 				target_choise = "TargetSelf",
 				type = "BattleSkillCLSArea",
 				arg_list = {
-					effect = "qingdan_yuanxing_shuixia05x",
 					life_time = 0.4,
 					move_type = 1,
-					range = 45,
+					effect = "qingdan_yuanxing_shuixia05x",
 					speed_x = 0,
-					damage_param_a = 300,
+					range = 45,
 					damage_param_b = 0,
+					damage_param_a = 300,
 					damage_tag_list = {
 						"Nubian"
 					},
@@ -242,23 +242,23 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 0,
 	id = 17731,
-	picture = "0",
 	castCV = "",
-	desc = "",
 	effect_list = {
 		{
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				effect = "qingdan_yuanxing_shuixia05x",
 				life_time = 0.4,
 				move_type = 1,
-				range = 30,
+				effect = "qingdan_yuanxing_shuixia05x",
 				speed_x = 0,
-				damage_param_a = 300,
+				range = 30,
 				damage_param_b = 0,
+				damage_param_a = 300,
 				damage_tag_list = {
 					"Nubian"
 				},

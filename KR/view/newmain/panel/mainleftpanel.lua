@@ -1,6 +1,6 @@
 slot0 = class("MainLeftPanel", import(".MainBasePanel"))
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 	slot0.hideBtn = findTF(slot0._tf, "hideButton")
 	slot0.cameraBtn = findTF(slot0._tf, "cameraButton")
 	slot0.commissionBtn = findTF(slot0._tf, "commissionButton")
@@ -12,7 +12,7 @@ function slot0.OnSetUp(slot0)
 	slot0.wordLpos = slot0.wordBtn.localPosition
 end
 
-function slot0.OnRegist(slot0)
+slot0.OnRegist = function(slot0)
 	onButton(slot0, slot0.hideBtn, function ()
 		uv0:emit(NewMainScene.FOLD, true)
 	end, SFX_MAIN)
@@ -45,7 +45,7 @@ function slot0.OnRegist(slot0)
 	slot0:UpdateChangeSkinBtn()
 end
 
-function slot0.UpdateLayout(slot0)
+slot0.UpdateLayout = function(slot0)
 	if pg.SdkMgr.GetInstance():IsAUPackage() then
 		setActive(slot0.cameraBtn, false)
 
@@ -54,49 +54,64 @@ function slot0.UpdateLayout(slot0)
 	end
 end
 
-function slot0.OnFresh(slot0)
+slot0.OnFresh = function(slot0)
 	slot0:UpdateChangeSkinBtn()
 	slot0:ResetCommissionBtn()
 end
 
-function slot0.OnRemoveLayer(slot0, slot1)
+slot0.OnRemoveLayer = function(slot0, slot1)
 	if slot1.mediator == CommissionInfoMediator then
 		slot0:ResetCommissionBtn()
 	end
 end
 
-function slot0.OpenCamera(slot0)
+slot0.OpenCamera = function(slot0)
 	if pg.SdkMgr.GetInstance():IsYunPackage() then
 		pg.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持该功能哦")
 
 		return
 	end
 
-	if CheckPermissionGranted(ANDROID_CAMERA_PERMISSION) then
-		slot0:emit(NewMainMediator.GO_SNAPSHOT)
-	else
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("apply_permission_camera_tip1"),
-			onYes = function ()
-				ApplyPermission({
-					ANDROID_CAMERA_PERMISSION
-				})
-			end
-		})
+	slot1, slot2 = nil
+
+	slot1 = function()
+		uv0:emit(NewMainMediator.GO_SNAPSHOT)
 	end
+
+	slot2 = function()
+		if CameraHelper.IsAndroid() then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("apply_permission_camera_tip3"),
+				onYes = function ()
+					CameraHelper.RequestCamera(uv0, uv1)
+				end
+			})
+		elseif CameraHelper.IsIOS() then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("apply_permission_camera_tip2")
+			})
+		end
+	end
+
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		content = i18n("apply_permission_camera_tip1"),
+		onYes = function ()
+			CameraHelper.RequestCamera(uv0, uv1)
+		end
+	})
 end
 
-function slot0.ResetCommissionBtn(slot0)
+slot0.ResetCommissionBtn = function(slot0)
 	slot0.commissionBtn.localPosition = Vector3(0, slot0.commissionBtn.localPosition.y, 0)
 end
 
-function slot0.UpdateWordBtn(slot0, slot1)
+slot0.UpdateWordBtn = function(slot0, slot1)
 	slot2 = slot1 and 1 or 0
 	slot0.wordOpen.alpha = 1 - slot2
 	slot0.wordClose.alpha = slot2
 end
 
-function slot0.UpdateChangeSkinBtn(slot0)
+slot0.UpdateChangeSkinBtn = function(slot0)
 	slot1 = nil
 
 	if getProxy(SettingsProxy):IsOpenRandomFlagShip() then
@@ -117,7 +132,7 @@ function slot0.UpdateChangeSkinBtn(slot0)
 	setActive(slot0.changeSkinBtn, slot3 > 1)
 end
 
-function slot0.GetDirection(slot0)
+slot0.GetDirection = function(slot0)
 	return Vector2(-1, 0)
 end
 

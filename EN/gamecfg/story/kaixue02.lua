@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE02",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE02",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"School Day Celebrations\n\n<size=45> II　「Troublemakers on the Playground」</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "From sports to studies, Z1-sama is always zee N0.1!",
 			bgm = "story-1",
+			actor = 401011,
+			nameColor = "#a9f548",
+			say = "From sports to studies, Z1-sama is always zee N0.1!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,13 +66,13 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			say = "Woah...haha, boldly said～",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "Woah...haha, boldly said～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "I never back down! Not from duels!",
 			typewriter = {
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 101061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101061,
+			nameColor = "#a9f548",
 			say = "Woaaa～～The show is starting～",
 			typewriter = {
 				speed = 0.05,
@@ -152,10 +152,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 37.5,
 					dur = 0.15,
-					type = "shake",
-					y = 37.5
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
@@ -208,13 +208,13 @@ return {
 			}
 		},
 		{
-			actor = 307032,
+			say = "{namecode:94}～～～！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "{namecode:94}～～～！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -229,10 +229,10 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			actorName = "{namecode:94}&Craven&Z1",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307041,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Whining — —",
@@ -260,8 +260,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.1,
 					x = 7.5,
 					number = 3
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			say = "Tsk tsk — —",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Tsk tsk — —",
+			actor = 401011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 401011,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401011,
+			nameColor = "#a9f548",
 			say = "I didn't break any classroom rules! It’s just that the teacher is too boring. I recommend to everyone that I should teach the class...",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 15,
 					number = 3
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "Hahaha",
 			typewriter = {
@@ -363,13 +363,13 @@ return {
 			}
 		},
 		{
-			actor = 307032,
+			say = "Why’re you laughing? You’re no better!",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
-			say = "Why’re you laughing? You’re no better!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "B-but, she started it — —",
 			typewriter = {
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "You made it worse by taking her nonsense seriously! And you Craven! They are nothing but troublemakers, why did you follow them?!",
 			typewriter = {
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "The three of you, follow me! Now! We are gonna have a talk!",
 			typewriter = {
@@ -451,14 +451,14 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actorName = "{namecode:94}&Craven&Z1",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			actorName = "{namecode:94}&Craven&Z1",
+			actor = 307041,
+			nameColor = "#a9f548",
 			say = "Whining — —",
 			subActors = {
 				{
@@ -484,10 +484,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -45,
 					dur = 0.8,
-					type = "shake",
-					y = -45
+					number = 1,
+					type = "shake"
 				}
 			}
 		}

@@ -1,6 +1,6 @@
 slot0 = class("JavelinComicSkinPermanentPage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	if slot0.nday < #slot0.taskGroup then

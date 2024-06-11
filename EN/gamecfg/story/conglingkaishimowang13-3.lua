@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			bgm = "story-mmorpg",
 			side = 2,
 			bgName = "star_level_bg_545",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			say = "KABOOOM!",
-			bgm = "story-mmorpg",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,17 +54,17 @@ return {
 				number = 2
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,9 +165,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
+			side = 2,
 			say = "Blücher is dragged along helplessly by her dragon. The two disappear like shooting stars among the distant dark clouds.",
 			typewriter = {
 				speed = 0.05,
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Dang. The dragon's scales were too thick and it got away.",
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "And to think you did this by provoking her, then taking her out with flawless teamwork...",
 			painting = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "One day, you and your party may just defeat the Demon King and restore peace to the world.",
 			painting = {
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "I look forward to the day I'll hear about how your group took the Demon King out.",
 			painting = {
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
 			optionFlag = 2,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Then let us speak again come the victory celebration.",
 			painting = {

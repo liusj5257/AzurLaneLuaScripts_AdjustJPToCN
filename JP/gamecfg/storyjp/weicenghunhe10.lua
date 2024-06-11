@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE10",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "hunhe-battle",
-			dir = 1,
+			side = 2,
 			say = "運河要塞・外洋",
+			dir = 1,
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "ふふん、ボルチモアほどじゃないけど、戦うのって別になんとも無いわよ",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "そりゃどうも。私はあの時戦場にいなかったけど、まあ褒め言葉として受け取っておくよ",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "もっとも、ボルチモアと一緒に戦いたかったけどね",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "もちろんさ。友達だもん",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "ブレーマトンの顔が一瞬だけ曇った。",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "あのボルチモアのことだから、今頃セイレーンの本陣で大暴れしてるんじゃないかなーって",
 			typewriter = {
 				speed = 0.05,
@@ -175,16 +175,16 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 107170,
 			say = "……待て。これは…霧？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……ブレーマトン…カー・ヒル…こえていますか…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,11 +216,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…霧に乗じて…レーンが…湾内に……",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,11 +233,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…早く…抜け出して…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,10 +248,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			say = "……………………",
 			soundeffect = "event:/ui/noice",
+			side = 2,
+			dir = 1,
+			say = "……………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_3",
-			actorName = "ブレマートン",
 			dir = 1,
+			actorName = "ブレマートン",
 			say = "そして湾内に侵入しようとするセイレーンがいると。こりゃ捜索どころじゃなさそうだ",
 			effects = {
 				{
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ブレマートン",
+			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "バンカー・ヒル",
+			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,

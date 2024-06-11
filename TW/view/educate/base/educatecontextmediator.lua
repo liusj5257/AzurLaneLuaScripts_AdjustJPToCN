@@ -1,6 +1,6 @@
 slot0 = class("EducateContextMediator", import("view.base.ContextMediator"))
 
-function slot0.onRegister(slot0)
+slot0.onRegister = function(slot0)
 	uv0.super.onRegister(slot0)
 	slot0:bind(EducateBaseUI.EDUCATE_GO_SCENE, function (slot0, slot1, ...)
 		uv0:sendNotification(GAME.GO_SCENE, slot1, ...)

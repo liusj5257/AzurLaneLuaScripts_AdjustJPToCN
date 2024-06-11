@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -44,25 +44,25 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_506",
 			dir = 1,
+			bgName = "star_level_bg_506",
 			bgm = "theme-clemenceau",
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "Heeheehee♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -81,10 +81,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "I TOLD them the battle was far from over!",
 			painting = {
 				alpha = 0.3,
@@ -99,10 +99,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Okay, the target should be under this building. Inside a dungeon...",
 			painting = {
 				alpha = 0.3,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 9702070,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Ugh. Dungeons. This is gonna be a pain to look through.",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			portrait = 905020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Clemenceau",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, well. A trespasser? Did no one teach you to ask for permission?",
 			painting = {
 				alpha = 0.3,
@@ -152,10 +152,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Oh. It's you, Clemenceau.",
 			painting = {
 				alpha = 0.3,
@@ -170,10 +170,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "So you knew I'd be here. Interesting.",
 			painting = {
 				alpha = 0.3,
@@ -188,10 +188,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It wasn't hard to figure out you'd come here. Though I am puzzled by HOW you did it.",
 			painting = {
 				alpha = 0.3,
@@ -206,10 +206,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Getting rid of you won't be that easy after all.",
 			painting = {
 				alpha = 0.3,
@@ -224,10 +224,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, well. At least this is a good chance to test how well-prepared we are.",
 			painting = {
 				alpha = 0.3,
@@ -242,10 +242,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Well-prepared for– Wait, is that...?",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9703020,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Heehee. An uninvited guest.",
 			painting = {
 				alpha = 0.3,
@@ -278,10 +278,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702040,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Already made yourself at home, huh? Get ready for the reception party!",
 			painting = {
 				alpha = 0.3,

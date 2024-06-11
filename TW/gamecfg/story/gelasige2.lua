@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"那便是…戀愛的季節\n\n<size=45>二 才不是那種關係呢</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202261,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "呼…今天也算趕上了。",
 			bgm = "story-1",
+			actor = 202261,
+			nameColor = "#a9f548",
+			say = "呼…今天也算趕上了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "熱，熱心！？妳是什麼時候開始在那看的！？",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "什麼？！才，才不是那樣！我們根本就不是那種關係！",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "一個個的，都太多管閒事了啦！哼！",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,8 +302,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "好了好了！這話題到此為止！趕緊回自己座位去吧，朝會馬上就要開始了！",
 			typewriter = {
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——叮鈴鈴鈴。",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "各自就坐後，格拉斯哥的目光不經意間與談話中心的那個人對上了。",
 			typewriter = {
 				speed = 0.05,
@@ -392,9 +392,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "完全沒注意到有人在談論自己，帶著一臉純真的微笑向格拉斯哥揮著手。",
 			typewriter = {
 				speed = 0.05,
@@ -422,9 +422,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "格拉斯哥別開目光，看向窗外。",
 			typewriter = {
 				speed = 0.05,

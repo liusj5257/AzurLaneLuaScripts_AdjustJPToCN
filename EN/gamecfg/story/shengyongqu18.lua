@@ -1,18 +1,18 @@
 return {
-	id = "SHENGYONGQU18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU18",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 8,
 			side = 1,
+			dir = -1,
+			bgm = "level-french2",
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = -1,
 			say = "Hahah! Behold the Vichya Dominion's enhanced, indestructible Mass-Production Corps, led by the unvanquished Vauquelin!",
-			bgm = "level-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 802020,
 			side = 0,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "What? The unvanquished Vauquelin? Enhanced and indestructible...?! Why must God test us with such tribulations...!",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 901030,
 			dir = -1,
+			actor = 901030,
 			say = "I-I'm glad you feel that way, but as one of the Vichya's glorious Templar Knights, I can't just hang up my gear and say, \"sure thing!\"",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			actor = 901030,
 			side = 1,
 			expression = 7,
-			nameColor = "#ff5c5c",
 			dir = -1,
+			nameColor = "#ff5c5c",
 			say = "...Besides, I don't want to fight you either. As Algérie said, if I can get you to turn around or convince you to join us, I won't have to fire a single shot.",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			actor = 901030,
 			side = 1,
 			expression = 9,
-			nameColor = "#ff5c5c",
 			dir = -1,
+			nameColor = "#ff5c5c",
 			say = "Mm... What should we do then...?",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			actor = 802020,
 			side = 0,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "You'd like to settle this with the sword? Very well. I, Jeanne d'Arc, shall not hold back...",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			actor = 901030,
 			side = 1,
 			expression = 5,
-			nameColor = "#ff5c5c",
 			dir = -1,
+			nameColor = "#ff5c5c",
 			say = "Wait, wait, wait! I'd totally get my butt handed to me! Um... I was just blurting out some ideas!",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 802020,
 			side = 0,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Really? That's too bad though, since this is a battlefield after all...",
 			typewriter = {
 				speed = 0.05,
@@ -197,9 +197,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = -1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = -1,
 			say = "Fine, I'll take you on then! Wait, Tem, you're coming at me too?!",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -224,8 +224,8 @@ return {
 			actor = 802020,
 			side = 0,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "If you don't want to duel me one-on-one, we'll just fight the usual way!",
 			typewriter = {
 				speed = 0.05,
@@ -239,9 +239,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = -1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = -1,
 			say = "Ehhhhhh?! F-fine, let's do this!",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

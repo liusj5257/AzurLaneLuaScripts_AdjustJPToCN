@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_219 = {}
 slot1 = slot0.word_template_219
 
-function temp()
+temp = function()
 	uv0["諾"] = {
 		["姆"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["女"] = {
 		["屄"] = {
 			this = true
@@ -508,7 +508,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["欧"] = {
 		["美"] = {
 			a = {
@@ -660,7 +660,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["殴"] = {
 		["打"] = {
 			this = true
@@ -670,7 +670,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["歐"] = {
 		["美"] = {
 			b = {
@@ -699,7 +699,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["偶"] = {
 		["尔"] = {
 			j = {
@@ -735,7 +735,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["啪"] = {
 		["啪"] = {
 			["啪"] = {

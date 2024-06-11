@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGRICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGRICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"某日的polaris\n\n<size=45>三 某日的成果展示</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日，港區臨時舞台",
 			side = 2,
 			bgName = "star_level_bg_121",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日，港區臨時舞台",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "哦哦…舞台上的克里夫蘭姐姐也很有氣概呀～",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -159,8 +159,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "哈哈…沒想到來了這麼多觀眾，總覺得突然有點緊張起來了呢",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "貝爾法斯特…竟然也是喜歡湊這種熱鬧的人……",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "呼…",
 			typewriter = {
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "練習也就算了…為什麼連真正的上台演出也要搞啦！",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900203,
 			dir = 1,
+			actor = 900203,
 			nameColor = "#a9f548",
 			say = "初次的登台…加斯科涅，感覺身體參數略微異常，這是…“高揚感”？",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "緊張和高揚並存，這就是“舞台表演”的樂趣吧～",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "克里夫蘭，很熟練的感覺",
 			typewriter = {
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "啊啊啊！沒辦法了！上了啊！",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -342,9 +342,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
+			dir = 1,
 			say = "歌聲、樂器聲、歡呼聲，響徹港區的臨時舞台——",
 			typewriter = {
 				speed = 0.05,

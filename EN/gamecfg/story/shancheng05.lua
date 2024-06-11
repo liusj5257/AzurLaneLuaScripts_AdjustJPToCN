@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENG05",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHANCHENG05",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "M-Milord!",
 			typewriter = {
 				speed = 0.05,
@@ -34,10 +34,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "Hmm?",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,8 +51,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "L-Let's go swimming together!",
 			typewriter = {
 				speed = 0.05,
@@ -66,10 +66,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "What...?!",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,8 +83,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "Actually, umm...",
 			typewriter = {
 				speed = 0.05,
@@ -96,15 +96,15 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			actorName = "{namecode:79}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "So that's why... we should all participate together! No guts, no glory!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -131,10 +131,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "……",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,8 +148,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "Y-you don't wanna? I even took out the swimsuit that you gave me, Milord...",
 			typewriter = {
 				speed = 0.05,
@@ -163,10 +163,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "*nods* ...!",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,8 +180,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "Really?! Ehehe... In that case, let's go check on Hyuuga and the others!",
 			typewriter = {
 				speed = 0.05,

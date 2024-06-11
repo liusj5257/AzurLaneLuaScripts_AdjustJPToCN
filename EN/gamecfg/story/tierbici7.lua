@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「Schmelzen」\n\n<size=45>Chapter 7: Warmth</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "After that, some time passed...",
 			typewriter = {
@@ -27,16 +27,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			bgName = "bg_night",
-			say = "Port - Outskirts",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			bgName = "bg_night",
 			bgm = "story-2",
+			say = "Port - Outskirts",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,9 +57,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Tirpitz invited me to come talk to her, and I ended up somewhere up high at the outskirts of the port.",
 			typewriter = {
 				speed = 0.05,
@@ -99,9 +99,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Tirpitz pointed at something shimmering in the sky.",
 			typewriter = {
 				speed = 0.05,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "I feel the weight of her resting against my shoulder.",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Tirpitz's warm voice, almost in a whisper, filled your ears.",
 			typewriter = {
 				speed = 0.05,

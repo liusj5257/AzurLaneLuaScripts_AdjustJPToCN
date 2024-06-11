@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"温泉街神隠し事件\n\n<size=45>演目の前に</size>",
@@ -17,40 +17,40 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "「妖怪一座」による演目が開場する前に起きた、もう一つの小さな物語――",
+			nameColor = "#A9F548FF",
+			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			bgm = "stopbgm",
+			say = "「妖怪一座」による演目が開場する前に起きた、もう一つの小さな物語――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "battle-xinnong-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "饅頭温泉街・某所",
-			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "夢喰いバク",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "幸運パクは像になりたい",
 			nameColor = "#A9F548FF",
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "夢喰いバク",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "幸運パクは像になりたい",
 			nameColor = "#A9F548FF",
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "夢喰いバク",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "幸運パクは像になりたい",
 			nameColor = "#A9F548FF",
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "いつも眠そうな信濃――そして「夢喰いバク」も――だが、珍しく言葉の中に厳しい感情が読み取れた。",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "固まって石像のように眠りたいが、このままでは安心して眠れない。",
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "夢喰いバク",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "幸運パクは像になりたい",
 			nameColor = "#A9F548FF",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "夢喰いバク",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "幸運パクは像になりたい",
 			nameColor = "#A9F548FF",
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "夢喰いバク",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "幸運パクは像になりたい",
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "夢喰いバク",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "幸運パクは像になりたい",
 			nameColor = "#A9F548FF",
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "夢喰いバク",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "幸運パクは像になりたい",
 			nameColor = "#A9F548FF",
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "夢歩くドリームウォーカー",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "明石、目的は良からぬとは言え、結果的に良きことを……指揮官も仲間も、きっと分かってくれよう",
 			painting = {

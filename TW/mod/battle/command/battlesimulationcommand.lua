@@ -6,15 +6,15 @@ slot3 = class("BattleSimulationCommand", slot0.MVC.Command)
 slot0.Battle.BattleSimulationCommand = slot3
 slot3.__name = "BattleSimulationCommand"
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.ConfigBattleData(slot0, slot1)
+slot3.ConfigBattleData = function(slot0, slot1)
 	slot0._battleInitData = slot1
 end
 
-function slot3.Initialize(slot0)
+slot3.Initialize = function(slot0)
 	slot0:Init()
 	uv0.super.Initialize(slot0)
 
@@ -25,7 +25,7 @@ function slot3.Initialize(slot0)
 	slot0:AddEvent()
 end
 
-function slot3.DoPrologue(slot0)
+slot3.DoPrologue = function(slot0)
 	slot5 = uv0.Battle.BattleConfig.FOE_CODE
 	slot6 = {}
 
@@ -71,15 +71,15 @@ function slot3.DoPrologue(slot0)
 	slot0._dataProxy:RivalInit(slot0._rivalFleet:GetUnitList())
 end
 
-function slot3.Update(slot0)
+slot3.Update = function(slot0)
 	slot0._rivalWeaponBot:Update()
 end
 
-function slot3.Init(slot0)
+slot3.Init = function(slot0)
 	slot0._unitDataList = {}
 end
 
-function slot3.Clear(slot0)
+slot3.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0._unitDataList) do
 		slot0:UnregisterUnitEvent(slot5)
 
@@ -87,28 +87,28 @@ function slot3.Clear(slot0)
 	end
 end
 
-function slot3.Reinitialize(slot0)
+slot3.Reinitialize = function(slot0)
 	slot0._state:Deactive()
 	slot0:Clear()
 	slot0:Init()
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0:Clear()
 	slot0:RemoveEvent()
 	uv0.super.Dispose(slot0)
 end
 
-function slot3.onInitBattle(slot0)
+slot3.onInitBattle = function(slot0)
 	slot0._weaponCommand = slot0._state:GetCommandByName(uv0.Battle.BattleControllerWeaponCommand.__name)
 	slot0._userFleet = slot0._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FRIENDLY_CODE)
 	slot0._rivalFleet = slot0._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FOE_CODE)
 end
 
-function slot3.InitProtocol(slot0)
+slot3.InitProtocol = function(slot0)
 end
 
-function slot3.AddEvent(slot0)
+slot3.AddEvent = function(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UNIT, slot0.onAddUnit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_UNIT, slot0.onRemoveUnit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.STAGE_DATA_INIT_FINISH, slot0.onInitBattle)
@@ -116,7 +116,7 @@ function slot3.AddEvent(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN, slot0.onUpdateCountDown)
 end
 
-function slot3.RemoveEvent(slot0)
+slot3.RemoveEvent = function(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.STAGE_DATA_INIT_FINISH)
@@ -124,7 +124,7 @@ function slot3.RemoveEvent(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.UPDATE_COUNT_DOWN)
 end
 
-function slot3.onAddUnit(slot0, slot1)
+slot3.onAddUnit = function(slot0, slot1)
 	slot2 = slot1.Data.type
 	slot3 = slot1.Data.unit
 
@@ -133,7 +133,7 @@ function slot3.onAddUnit(slot0, slot1)
 	slot0._unitDataList[slot3:GetUniqueID()] = slot3
 end
 
-function slot3.RegisterUnitEvent(slot0, slot1)
+slot3.RegisterUnitEvent = function(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.DYING, slot0.onUnitDying)
 	slot1:RegisterEventListener(slot0, uv0.UPDATE_HP, slot0.onUpdateUnitHP)
 
@@ -142,7 +142,7 @@ function slot3.RegisterUnitEvent(slot0, slot1)
 	end
 end
 
-function slot3.UnregisterUnitEvent(slot0, slot1)
+slot3.UnregisterUnitEvent = function(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, uv0.DYING)
 	slot1:UnregisterEventListener(slot0, uv0.UPDATE_HP)
 
@@ -151,7 +151,7 @@ function slot3.UnregisterUnitEvent(slot0, slot1)
 	end
 end
 
-function slot3.onRemoveUnit(slot0, slot1)
+slot3.onRemoveUnit = function(slot0, slot1)
 	if slot0._unitDataList[slot1.Data.UID] == nil then
 		return
 	end
@@ -161,7 +161,7 @@ function slot3.onRemoveUnit(slot0, slot1)
 	slot0._unitDataList[slot2] = nil
 end
 
-function slot3.onPlayerShutDown(slot0, slot1)
+slot3.onPlayerShutDown = function(slot0, slot1)
 	if slot0._state:GetState() ~= slot0._state.BATTLE_STATE_FIGHT then
 		return
 	end
@@ -209,7 +209,7 @@ function slot3.onPlayerShutDown(slot0, slot1)
 	end
 end
 
-function slot3.rivalMainUnitPhase(slot0)
+slot3.rivalMainUnitPhase = function(slot0)
 	slot0:startBuffCount()
 
 	slot0._rivalDisadvatage = true
@@ -226,7 +226,7 @@ function slot3.rivalMainUnitPhase(slot0)
 	end
 end
 
-function slot3.onUpdateCountDown(slot0, slot1)
+slot3.onUpdateCountDown = function(slot0, slot1)
 	slot2 = slot0._dataProxy:GetCountDown()
 
 	if slot0._buffStartTime then
@@ -250,26 +250,26 @@ function slot3.onUpdateCountDown(slot0, slot1)
 	end
 end
 
-function slot3.onUpdateUnitHP(slot0, slot1)
+slot3.onUpdateUnitHP = function(slot0, slot1)
 	if slot1.Dispatcher:GetFleetVO() then
 		slot3:UpdateFleetDamage(slot1.Data.validDHP)
 	end
 end
 
-function slot3.onUnitDying(slot0, slot1)
+slot3.onUnitDying = function(slot0, slot1)
 	slot2 = slot1.Dispatcher
 
 	slot0._dataProxy:CalcBattleScoreWhenDead(slot2)
 	slot0._dataProxy:KillUnit(slot2:GetUniqueID())
 end
 
-function slot3.onShutDownPlayer(slot0, slot1)
+slot3.onShutDownPlayer = function(slot0, slot1)
 	slot2 = slot1.Dispatcher
 
 	slot2:GetFleetVO():UpdateFleetOverDamage(slot2)
 	slot0._dataProxy:ShutdownPlayerUnit(slot2:GetUniqueID())
 end
 
-function slot3.startBuffCount(slot0)
+slot3.startBuffCount = function(slot0)
 	slot0._buffStartTime = slot0._dataProxy:GetCountDown()
 end

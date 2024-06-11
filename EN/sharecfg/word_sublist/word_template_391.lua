@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_391 = {}
 slot1 = slot0.word_template_391
 
-function temp()
+temp = function()
 	uv0["继"] = {
 		["续"] = {
 			["当"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ⅹ"] = {
 		["刂"] = {
 			i = {
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["刈"] = {
 		i = {
 			n = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["傀"] = {
 		["儡"] = {
 			["上"] = {
@@ -89,7 +89,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["驸"] = {
 		["马"] = {
 			["爷"] = {
@@ -105,7 +105,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["珊"] = {
 		["露"] = {
 			["不"] = {
@@ -121,7 +121,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Z = {
 		O = {
 			D = {

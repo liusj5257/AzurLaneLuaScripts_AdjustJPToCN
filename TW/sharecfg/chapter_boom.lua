@@ -3,9 +3,9 @@ pg.chapter_boom = {
 	[1190001] = {
 		action_times = 3,
 		minimum_guarantee = 6,
+		first_time = 0,
 		id = 1190001,
 		special_unit_p = 1500,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -82,9 +82,9 @@ pg.chapter_boom = {
 	[1190002] = {
 		action_times = 3,
 		minimum_guarantee = 6,
+		first_time = 0,
 		id = 1190002,
 		special_unit_p = 1500,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -173,9 +173,9 @@ pg.chapter_boom = {
 	[1190003] = {
 		action_times = 3,
 		minimum_guarantee = 6,
+		first_time = 0,
 		id = 1190003,
 		special_unit_p = 1500,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -284,9 +284,9 @@ pg.chapter_boom = {
 	[1190004] = {
 		action_times = 3,
 		minimum_guarantee = 6,
+		first_time = 0,
 		id = 1190004,
 		special_unit_p = 1500,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -399,9 +399,9 @@ pg.chapter_boom = {
 	[1190005] = {
 		action_times = 3,
 		minimum_guarantee = 6,
+		first_time = 0,
 		id = 1190005,
 		special_unit_p = 1500,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -510,9 +510,9 @@ pg.chapter_boom = {
 	[1190006] = {
 		action_times = 3,
 		minimum_guarantee = 6,
+		first_time = 0,
 		id = 1190006,
 		special_unit_p = 1500,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -629,9 +629,9 @@ pg.chapter_boom = {
 	[1190011] = {
 		action_times = 3,
 		minimum_guarantee = 5,
+		first_time = 0,
 		id = 1190011,
 		special_unit_p = 2000,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -708,9 +708,9 @@ pg.chapter_boom = {
 	[1190012] = {
 		action_times = 3,
 		minimum_guarantee = 5,
+		first_time = 0,
 		id = 1190012,
 		special_unit_p = 2000,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -799,9 +799,9 @@ pg.chapter_boom = {
 	[1190013] = {
 		action_times = 3,
 		minimum_guarantee = 5,
+		first_time = 0,
 		id = 1190013,
 		special_unit_p = 2000,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -910,9 +910,9 @@ pg.chapter_boom = {
 	[1190014] = {
 		action_times = 3,
 		minimum_guarantee = 5,
+		first_time = 0,
 		id = 1190014,
 		special_unit_p = 2000,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -1025,9 +1025,9 @@ pg.chapter_boom = {
 	[1190015] = {
 		action_times = 3,
 		minimum_guarantee = 5,
+		first_time = 0,
 		id = 1190015,
 		special_unit_p = 2000,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,
@@ -1136,9 +1136,9 @@ pg.chapter_boom = {
 	[1190016] = {
 		action_times = 3,
 		minimum_guarantee = 5,
+		first_time = 0,
 		id = 1190016,
 		special_unit_p = 2000,
-		first_time = 0,
 		special_expedition_list = {
 			1150020,
 			1150021,

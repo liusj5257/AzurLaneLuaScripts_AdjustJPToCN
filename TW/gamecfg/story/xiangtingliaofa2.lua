@@ -1,15 +1,15 @@
 return {
-	id = "XIANGTINGLIAOFA2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "XIANGTINGLIAOFA2",
+	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bsm-1",
+			say = "這…剛剛出現的是？",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "這…剛剛出現的是？",
+			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "可惡…又開始頭疼了，偏偏在這種時候——",
 			typewriter = {
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "指揮官，我們被偷襲了，塞壬似乎破譯了我們的雷達波段，繞開了防守。",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1

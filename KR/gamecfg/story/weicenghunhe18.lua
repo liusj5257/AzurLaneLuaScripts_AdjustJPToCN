@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE18",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "???·???",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
+			say = "???·???",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -23,9 +23,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -38,9 +38,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "아크로열의 환영을 쫓아간 엔터프라이즈는 새로운 장소에 도착했다.",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "이글 유니온, 로열 네이비, 사쿠라 엠파이어, 메탈 블러드… 이렇게 많은 사람이 모두 여기에?",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "기억 속에 있던 벽람항로 결성식과 같군. 모두가 이렇게 모인 것이 얼마 만인지……",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "오?! 사쿠라 엠파이어도 왔군…… 너희뿐인가?",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "……엘리자베스 폐하는 나오실 수 없었다. 우리도 노력 중이지만…",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "모두 힘내세요! 엔터프라이즈가 있잖아요! 앞으로는 모두 다 잘 될 거예요…!",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "……이름?",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "?!! ‘그들’이라는 것은 설마!",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_banama_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "이봐! 대체 무슨 일이지? 너희들, 뭘 할 생각인가?!",
 			dialogShake = {
 				speed = 0.09,
@@ -298,9 +298,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "물론, 엔터프라이즈의 목소리에 돌아오는 대답은 없었다.",
 			typewriter = {
 				speed = 0.05,

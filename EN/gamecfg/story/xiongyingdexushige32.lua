@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIONGYINGDEXUSHIGE32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIONGYINGDEXUSHIGE32",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "Mirror Sea - Beneath the Colosseum",
+			bgName = "bg_underwater",
 			bgm = "battle-roma-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Mirror Sea - Beneath the Colosseum",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,10 +45,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Da Vinci dove beneath the waves.",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Da Vinci dove beneath the waves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,17 +322,17 @@ return {
 			nameColor = "#A9F548FF",
 			say = "That's everything set up for her rescue. Now the question is, what to do about this huge machine...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -383,10 +383,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "All of a sudden, the sea shook.",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "All of a sudden, the sea shook.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,10 +474,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "All of a sudden, the sea shook.",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "All of a sudden, the sea shook.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,21 +587,21 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "With the Mirror Sea's central control unit destroyed, all its defenders—the emerald eagles, the ghost ships, and the Pawn—vanished into thin air in the twinkle of an eye.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -668,9 +668,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*cough cough*... Ugh... Where am I...?",
 			painting = {
 				alpha = 0.3,
@@ -685,9 +685,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It feels as though I've awoken from a long dream...",
 			painting = {
 				alpha = 0.3,
@@ -750,9 +750,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's a replica of a tile from the Great Library... It was being stored in the warehouse...",
 			painting = {
 				alpha = 0.3,
@@ -767,9 +767,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I knew something was amiss from the moment I laid eyes on it.",
 			painting = {
 				alpha = 0.3,
@@ -800,9 +800,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What are those... airships?",
 			painting = {
 				alpha = 0.3,
@@ -849,9 +849,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It sounds like you have a great story to tell later. It's a shame I didn't get the pleasure of fighting with you.",
 			painting = {
 				alpha = 0.3,
@@ -962,9 +962,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh?! Just like that?!",
 			painting = {
 				alpha = 0.3,
@@ -1011,10 +1011,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "The shutter clicked as the moment was immortalized.",
 			soundeffect = "event:/ui/kuaimen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "The shutter clicked as the moment was immortalized.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1025,12 +1025,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Alfredo Oriani",
+			side = 2,
 			bgName = "bg_white",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*cough cough*! Well, mission accomplished! Time to go home!",
 			flashout = {
 				dur = 0.5,

@@ -1,14 +1,14 @@
 return {
-	once = true,
-	mode = 2,
-	id = "FUYINGYINGHUA13",
-	continueBgm = true,
 	fadeType = 1,
+	mode = 2,
+	continueBgm = true,
+	once = true,
+	id = "FUYINGYINGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「己を貫く」――と大先輩が言っていた</size>",
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -74,27 +74,27 @@ return {
 			}
 		},
 		{
-			bgm = "story-6",
-			side = 2,
 			bgName = "bg_xinnong_cg3",
-			say = "数日前、とある海域にて",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
+			bgm = "story-6",
+			say = "数日前、とある海域にて",
 			effects = {
 				{
 					active = false,
 					name = "logo_sakura"
 				},
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -119,9 +119,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
+			dir = 1,
 			say = "この時代に存在し得ない施設の残骸と、いたる所に残っている斬撃の痕跡が、この場所と、この場所を襲撃した存在の正体を示している。",
 			effect = {
 				{
@@ -139,9 +139,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
+			side = 2,
+			dir = 1,
 			say = "ここはセイレーンによって創造された「鏡面海域」――正確に言えば、「鏡面海域」だった場所だ。",
 			typewriter = {
 				speed = 0.05,
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "…うまく片付いた。拙者は次の場所に移動させてもらう",
 			typewriter = {
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "…………………",
 			typewriter = {
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……そなたらと交わす言葉など持ち合わせておらぬ",
 			typewriter = {
@@ -330,11 +330,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……彼女の計画を探るためにわざわざ姿を見せたのか。そなたとは関係ない。消えろ",
 			typewriter = {
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "…………………",
 			typewriter = {
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……言いたいのはそれだけか",
 			typewriter = {
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "………………！？",
 			typewriter = {
@@ -560,11 +560,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "………",
 			typewriter = {
@@ -577,11 +577,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "カミに頼り過ぎた過ちによって災禍（さいか）が引き起こされたのなら、それはこの世界の人類の自業自得だ",
 			typewriter = {
@@ -648,9 +648,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
+			side = 2,
+			dir = 1,
 			say = "……通信が切断された。",
 			typewriter = {
 				speed = 0.05,
@@ -662,11 +662,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "待て！",
 			typewriter = {
@@ -679,11 +679,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -696,11 +696,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "また、回り道をしないといかぬというのか…！",
 			typewriter = {

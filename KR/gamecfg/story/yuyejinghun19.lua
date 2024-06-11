@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "에식스",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시 휴식을 취해 체력을 회복한 후, 당신은 탐색을 재개했습니다.",
 			typewriter = {
@@ -59,9 +59,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 조사를 위해 어두운 복도에서 차녀의 방과 컬렉션 방 사이를 몇 번 왕복했습니다.",
@@ -70,17 +70,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -186,9 +186,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "하이티엔",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 문손잡이를 잡았지만, 잠겨서 열리지 않습니다.",
 			typewriter = {
@@ -214,9 +214,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "하이티엔",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "D100 판정, 89. 실패했습니다. 당신은 익숙한 락픽 기술로 문을 따려고 했지만… 생각만큼 잘 풀리진 않았습니다.",
 			typewriter = {
@@ -377,11 +377,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_146",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "story-richang-10",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "방으로 들어서자마자 차녀는 당신이 열고 들어온 문을 곧바로 닫고는 잠갔습니다.",
 			typewriter = {
@@ -389,17 +389,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -957,8 +957,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -981,11 +981,11 @@ return {
 			}
 		},
 		{
-			actor = 9600051,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "역할: 차녀",
-			side = 2,
+			actor = 9600051,
 			actorName = "위다",
 			say = "됐어…… 꼭 혼자서라도 클리어할 거야…!",
 			typewriter = {

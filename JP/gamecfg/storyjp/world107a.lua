@@ -1,17 +1,17 @@
 return {
-	id = "WORLD107A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD107A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103160,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bsm-1",
 			dir = 1,
 			say = "おかしい。このエリアは敵がいくらなんでも少なすぎる",
+			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "過去の調査資料が当てにならないってことか。",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "この行動パターンはセイレーン艦隊の指揮ユニットが消失したときのものだ",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ここまでの距離で大規模なセイレーン艦隊が何個現れても不思議じゃないのに、全部このパターンになっているなら…",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "よっぽどひどくやられたようね。セイレーン側は",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "でもバミューダより弱かったのはなぜだろう。例の「余燼」が通ったようにも見えないし",
 			typewriter = {
 				speed = 0.05,
@@ -161,9 +161,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あははは…とにかく、敵が弱くなっている好機を逃すわけにはいかないってことだけは確実さ",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "敵のセイレーンが弱くなっている現状は海域を奪還する最大のチャンスだ。利用しない手はない…！",
 			typewriter = {
 				speed = 0.05,

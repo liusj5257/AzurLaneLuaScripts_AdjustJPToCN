@@ -1,6 +1,6 @@
 slot0 = class("GuildDynamicBgShip")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0._go = slot1.go
 	slot0._tf = tf(slot0._go)
@@ -19,7 +19,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:Init(slot1)
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0:SetPosition(slot1.grid, true)
 
 	slot0.nameTF = slot0._tf:Find("name")
@@ -39,11 +39,11 @@ function slot0.Init(slot0, slot1)
 	end
 end
 
-function slot0.SetOnMoveCallBack(slot0, slot1)
+slot0.SetOnMoveCallBack = function(slot0, slot1)
 	slot0.callback = slot1
 end
 
-function slot0.SetPosition(slot0, slot1, slot2)
+slot0.SetPosition = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -65,7 +65,7 @@ function slot0.SetPosition(slot0, slot1, slot2)
 	end
 end
 
-function slot0.AddRandomMove(slot0)
+slot0.AddRandomMove = function(slot0)
 	slot0.stepCnt = math.random(1, 10)
 	slot0.timer = Timer.New(function ()
 		uv0.timer:Stop()
@@ -78,7 +78,7 @@ function slot0.AddRandomMove(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.IsCanWalkPonit(slot0, slot1)
+slot0.IsCanWalkPonit = function(slot0, slot1)
 	if not slot0.path[slot1.x] then
 		return false
 	end
@@ -90,7 +90,7 @@ function slot0.IsCanWalkPonit(slot0, slot1)
 	end
 end
 
-function slot0.StartMove(slot0)
+slot0.StartMove = function(slot0)
 	slot1 = slot0.grid
 
 	if not _.select(slot1:GetAroundGrids(), function (slot0)
@@ -105,8 +105,8 @@ function slot0.StartMove(slot0)
 	end
 end
 
-function slot0.MoveToGrid(slot0, slot1)
-	function slot2()
+slot0.MoveToGrid = function(slot0, slot1)
+	slot2 = function()
 		uv0:SetAction("stand2")
 
 		uv0.idleTimer = Timer.New(function ()
@@ -137,7 +137,7 @@ function slot0.MoveToGrid(slot0, slot1)
 	end)
 end
 
-function slot0.MoveNext(slot0, slot1, slot2, slot3)
+slot0.MoveNext = function(slot0, slot1, slot2, slot3)
 	if not slot2 and not slot1:CanWalk() then
 		return
 	end
@@ -162,7 +162,7 @@ function slot0.MoveNext(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.MoveLeft(slot0)
+slot0.MoveLeft = function(slot0)
 	slot1 = slot0.grid.position
 
 	if slot0.path[Vector2(slot1.x - 1, slot1.y).x] and slot0.path[slot2.x][slot2.y] then
@@ -172,7 +172,7 @@ function slot0.MoveLeft(slot0)
 	end
 end
 
-function slot0.MoveRight(slot0)
+slot0.MoveRight = function(slot0)
 	slot1 = slot0.grid.position
 
 	if slot0.path[Vector2(slot1.x + 1, slot1.y).x] and slot0.path[slot2.x][slot2.y] then
@@ -182,7 +182,7 @@ function slot0.MoveRight(slot0)
 	end
 end
 
-function slot0.MoveDown(slot0)
+slot0.MoveDown = function(slot0)
 	slot1 = slot0.grid.position
 
 	if slot0.path[Vector2(slot1.x, slot1.y - 1).x] and slot0.path[slot2.x][slot2.y] then
@@ -192,7 +192,7 @@ function slot0.MoveDown(slot0)
 	end
 end
 
-function slot0.MoveUp(slot0)
+slot0.MoveUp = function(slot0)
 	slot1 = slot0.grid.position
 
 	if slot0.path[Vector2(slot1.x, slot1.y + 1).x] and slot0.path[slot2.x][slot2.y] then
@@ -202,7 +202,7 @@ function slot0.MoveUp(slot0)
 	end
 end
 
-function slot0.SetAction(slot0, slot1)
+slot0.SetAction = function(slot0, slot1)
 	if slot0.actionName == slot1 then
 		return
 	end
@@ -212,11 +212,11 @@ function slot0.SetAction(slot0, slot1)
 	slot0.spineAnimUI:SetAction(slot1, 0)
 end
 
-function slot0.SetAsLastSibling(slot0)
+slot0.SetAsLastSibling = function(slot0)
 	slot0._tf:SetAsLastSibling()
 end
 
-function slot0.MoveToFurniture(slot0, slot1)
+slot0.MoveToFurniture = function(slot0, slot1)
 	slot1[1]:Lock()
 
 	for slot7, slot8 in ipairs(slot1[2]) do
@@ -228,7 +228,7 @@ function slot0.MoveToFurniture(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateShipDir(slot0, slot1)
+slot0.UpdateShipDir = function(slot0, slot1)
 	slot0._tf.localScale = Vector3(slot1 * slot0.scale, slot0.scale, slot0.scale)
 	slot0.nameTF.localScale = Vector3(1 / slot0.scale * slot1, slot0.nameTF.localScale.y, 1)
 
@@ -237,7 +237,7 @@ function slot0.UpdateShipDir(slot0, slot1)
 	end
 end
 
-function slot0.InterActionFurniture(slot0, slot1)
+slot0.InterActionFurniture = function(slot0, slot1)
 	setParent(slot0._tf, slot1._tf)
 	slot0:UpdateShipDir(slot1:GetInteractionDir())
 
@@ -253,7 +253,7 @@ function slot0.InterActionFurniture(slot0, slot1)
 	slot0:CancelInterAction(slot1)
 end
 
-function slot0.CancelInterAction(slot0, slot1)
+slot0.CancelInterAction = function(slot0, slot1)
 	slot0.interActionTimer = Timer.New(function ()
 		uv0.interActionTimer:Stop()
 
@@ -269,7 +269,7 @@ function slot0.CancelInterAction(slot0, slot1)
 	slot0.interActionTimer:Start()
 end
 
-function slot0.MoveByPath(slot0, slot1, slot2)
+slot0.MoveByPath = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -285,8 +285,8 @@ function slot0.MoveByPath(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.SearchPoint(slot0, slot1, slot2)
-	function slot3(slot0, slot1, slot2, slot3)
+slot0.SearchPoint = function(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1, slot2, slot3)
 		if _.any(slot0, function (slot0)
 			return uv0 == slot0.point
 		end) or _.any(slot1, function (slot0)
@@ -302,7 +302,7 @@ function slot0.SearchPoint(slot0, slot1, slot2)
 		return false
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		slot1 = {}
 
 		table.insert(slot1, Vector2(slot0.x + 1, slot0.y))
@@ -313,7 +313,7 @@ function slot0.SearchPoint(slot0, slot1, slot2)
 		return slot1
 	end
 
-	function slot5(slot0, slot1, slot2)
+	slot5 = function(slot0, slot1, slot2)
 		return math.abs(slot2.x - slot0.x) + math.abs(slot2.y - slot0.y) < math.abs(slot2.x - slot1.x) + math.abs(slot2.y - slot1.y)
 	end
 
@@ -368,7 +368,7 @@ function slot0.SearchPoint(slot0, slot1, slot2)
 	return slot8
 end
 
-function slot0.CanInterAction(slot0, slot1)
+slot0.CanInterAction = function(slot0, slot1)
 	if slot1 < math.random(1, 10000) then
 		return false
 	end
@@ -408,7 +408,7 @@ function slot0.CanInterAction(slot0, slot1)
 	}
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 

@@ -1,12 +1,12 @@
 return {
-	id = "W2022",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2022",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "進行維護後所有艦隊的耐久值將會恢復至100%。",
 			typewriter = {
 				speed = 0.05,

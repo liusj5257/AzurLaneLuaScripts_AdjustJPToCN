@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -218,8 +218,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "아야나미는 여기, 에요.",
 			typewriter = {
 				speed = 0.05,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 1,
-			nameColor = "#92fc63",
-			dir = 1,
 			say = "우와아아앗! 아, 아야나미?!",
+			dir = 1,
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -250,9 +250,9 @@ return {
 			},
 			shake = {
 				speed = 10,
-				number = 2,
+				y = 10,
 				x = 0,
-				y = 10
+				number = 2
 			}
 		},
 		{
@@ -289,8 +289,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "호쇼 씨가 있는 곳에 가서, 부탁받은 걸 받아 왔어요.",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "호쇼 씨가 만들어 줘서, 모두에게 선물하려고 했지만, 시간이 없어서, 한 벌 밖에 없어요…",
 			typewriter = {
 				speed = 0.05,
@@ -393,10 +393,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorShadow = true,
-			actorName = "{namecode:6}&Z23",
 			side = 0,
+			actorName = "{namecode:6}&Z23",
+			hideOther = true,
 			dir = 1,
 			actor = 301050,
 			nameColor = "#92fc63",
@@ -434,16 +434,16 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			withoutPainting = true,
 			side = 0,
-			nameColor = "#92fc63",
-			say = "에헤헤헷, 곱구나 고와~",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			actor = 201210,
+			nameColor = "#92fc63",
+			say = "에헤헤헷, 곱구나 고와~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -468,14 +468,14 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			withoutPainting = true,
 			side = 0,
 			nameColor = "#92fc63",
-			actorName = "{namecode:6}",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			actorName = "{namecode:6}",
 			say = "라피의 피부… 야들야들~",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,13 +486,13 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			withoutPainting = true,
 			side = 0,
+			dir = 1,
+			blackBg = true,
+			actor = 101170,
 			nameColor = "#92fc63",
 			say = "간지러… 추워…",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,13 +503,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			withoutPainting = true,
 			side = 0,
+			dir = 1,
+			blackBg = true,
+			actor = 401230,
 			nameColor = "#92fc63",
 			say = "뭔가 좀 이상하지만… 뭐, 상관 없겠지…",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,14 +520,14 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#92fc63",
 			say = "변신 완료~ 라피~ 어때?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -567,12 +567,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "하지만, 귀여워요.",
 			side = 1,
 			nameColor = "#92fc63",
-			actorName = "{namecode:6}",
 			dir = 1,
-			say = "하지만, 귀여워요.",
+			actor = 301050,
+			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -620,8 +620,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "다음엔, 여러분 몫도 준비하는 거에요.",
 			typewriter = {
 				speed = 0.05,
@@ -681,8 +681,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "응, 우선은 애니 감상, 이에요.",
 			typewriter = {
 				speed = 0.05,
@@ -694,10 +694,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorShadow = true,
-			actorName = "모두",
 			side = 0,
+			actorName = "모두",
+			hideOther = true,
 			actor = 401230,
 			nameColor = "#92fc63",
 			say = "……",

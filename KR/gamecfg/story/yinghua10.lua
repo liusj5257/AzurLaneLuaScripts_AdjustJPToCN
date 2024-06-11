@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			side = 2,
-			bgm = "nagato-map",
-			dir = 1,
 			say = "…그렇게 말은 해도, 우리들은 나가토를 어떻게 깨워야 할지 잘 모르겠단 말이지…",
+			dir = 1,
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,14 +50,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom1",
 			say = "콰광!",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -124,10 +124,10 @@ return {
 		{
 			actor = 0,
 			side = 2,
+			withoutPainting = true,
+			dir = 1,
 			actorName = "？？？",
 			say = "이 아이를 설득하려 하다니, 어디서 온 바보야?",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,14 +208,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom1",
 			say = "콰앙!",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -233,14 +233,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom1",
 			say = "콰광!",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,

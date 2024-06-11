@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "卡牌 追加攻击I",
 	time = 3,
+	name = "卡牌 追加攻击I",
+	init_effect = "",
 	picture = "",
 	desc = "先锋舰发射一轮额外的常规弹幕",
 	stack = 99,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 100010
+				skill_id = 100010,
+				target = "TargetSelf"
 			}
 		}
 	}

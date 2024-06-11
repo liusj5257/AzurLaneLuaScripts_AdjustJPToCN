@@ -1,15 +1,15 @@
 return {
-	id = "WORLD501A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD501A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-3",
 			say = "NA海域　中心部周辺",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "出港してから、ずっと視線を感じていた……",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "じー…",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…… ",
 			typewriter = {
 				speed = 0.05,
@@ -70,9 +70,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うわっ！し、指揮官、リノに何か手伝えることある？",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "まさかリノが緊張しているのを見抜いたの…",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "ずっとあんな風に見つめていたら、さすがに気づかれるぞ",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "熱の籠った視線のおかげで、ここの気温まで上がったみたいだったな",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "えっ、ごめん！つい…",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "ずっと待ちわびていたんだ…！やっと、指揮官と肩を並べて戦えるこの日を！だからちょっと高ぶってしまって…",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "（…気持ちは嬉しいが、ちょっと反応に困る）",
 			typewriter = {
 				speed = 0.05,
@@ -239,10 +239,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 102260,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 102260,
+			nameColor = "#a9f548",
 			say = "一緒に戦えるってことはつまり、リノはあなたのサポーターみたいなもの…えへへ…",
 			typewriter = {
 				speed = 0.05,
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 102260,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 102260,
+			nameColor = "#a9f548",
 			say = "おおお！よろしく指揮官！世界を救うために頑張っていこう！",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,10 +282,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 102260,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 102260,
+			nameColor = "#a9f548",
 			say = "リノはサポーターとして、スーパーヒーローの指揮官を全力で支援するね！えへへ…",
 			typewriter = {
 				speed = 0.05,
@@ -299,10 +299,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 102260,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 102260,
+			nameColor = "#a9f548",
 			say = "本当に！？どうしよう…今日はリノの人生で最高の日になったよ！",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -342,10 +342,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 102260,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 102260,
+			nameColor = "#a9f548",
 			say = "ってことは、リノはあなたのサポーターみたいなもの…えへへ…",
 			typewriter = {
 				speed = 0.05,
@@ -359,11 +359,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/17/tb-17",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "分析モジュールシンクロナイズ完了しました。間もなく作戦エリアに入ります",
-			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,8 +407,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "大きさと色の違いはあるけど、この奇妙な迫力はもしかして…セイレーンの「特異点」によるものでは？",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "いや、少なくとも今はまだあの異様な感じはしないな…",
 			typewriter = {
 				speed = 0.05,
@@ -454,8 +454,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "海域にいるセイレーンを掃討してから、引き続き——",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "っ、セイレーンが動き始めた！戦闘準備を！",
 			typewriter = {
 				speed = 0.05,
@@ -485,11 +485,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "警告・セイレーン艦隊が接近中。戦闘準備をオススメします",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,8 +503,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "（TBちゃんより早く敵に気づいた…！さすが百戦の勇者エンタープライズ！）",
 			typewriter = {
 				speed = 0.05,
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "こちらはあくまで威力偵察で来ている。深追いは不要、戦闘はほどほどにしたほうが最善か。",
 			typewriter = {
 				speed = 0.05,
@@ -546,9 +546,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そうだな。中心部からある程度離れるよう、艦隊針路を調整する。セイレーンとは乱戦にならないように注意しよう！",
 			effects = {
 				{

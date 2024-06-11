@@ -1,15 +1,15 @@
 return {
-	id = "W700008",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700008",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "蟲洞看起來依然疑雲重重，等待司令部後續的任務吧",
 			typewriter = {
 				speed = 0.05,

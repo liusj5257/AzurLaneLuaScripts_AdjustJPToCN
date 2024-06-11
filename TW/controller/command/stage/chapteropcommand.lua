@@ -1,6 +1,6 @@
 slot0 = class("ChapterOpCommand", import(".ChapterOpRoutine"))
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if (function ()
@@ -189,7 +189,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.PrepareChapterRetreat(slot0)
+slot0.PrepareChapterRetreat = function(slot0)
 	seriesAsync({
 		function (slot0)
 			if getProxy(ChapterProxy):getActiveChapter() and slot1:CheckChapterWillWin() and not slot1:IsRemaster() then
@@ -239,7 +239,7 @@ function slot0.PrepareChapterRetreat(slot0)
 	}, slot0)
 end
 
-function slot0.PlayChapterStory(slot0, slot1, slot2)
+slot0.PlayChapterStory = function(slot0, slot1, slot2)
 	pg.NewStoryMgr.GetInstance():Play(slot0, slot1)
 
 	if not getProxy(SettingsProxy):GetStoryAutoPlayFlag() and slot2 and slot3:IsRunning() then

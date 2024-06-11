@@ -7,9 +7,9 @@ return {
 			actor = 900233,
 			nameColor = "#ff5c5c",
 			actorName = "魔王",
+			say = "フーハハハ、よくぞ生きて我が城にたどり着いた！",
 			side = 2,
 			bgm = "login-2022401jp",
-			say = "フーハハハ、よくぞ生きて我が城にたどり着いた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

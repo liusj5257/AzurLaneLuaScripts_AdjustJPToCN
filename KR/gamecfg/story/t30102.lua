@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			nameColor = "#ff0000",
-			actorName = "{namecode:91}",
 			dir = -1,
+			actor = 307010,
+			actorName = "{namecode:91}",
 			say = "!? 각 기 장비 교체를 멈춰! 긴급 발함!",
 			shake = {
 				speed = 1,
@@ -43,11 +43,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
-			nameColor = "#92fc63",
-			dir = -1,
 			say = "이미 늦었어! 맥클러스키 편대, 날려버려라!",
+			dir = -1,
+			actor = 107060,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

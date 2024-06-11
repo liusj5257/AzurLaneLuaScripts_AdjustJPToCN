@@ -1,6 +1,6 @@
 slot0 = class("ShamRival", import(".Rival"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.super.Ctor(slot0, slot1)
 
 	slot0.id = slot1.id

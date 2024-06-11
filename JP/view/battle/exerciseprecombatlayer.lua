@@ -1,25 +1,25 @@
 slot0 = class("ExercisePreCombatLayer", import("view.battle.PreCombatLayer"))
 slot1 = import("..ship.FormationUI")
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PreCombatUI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return {
-		order = 5,
 		anim = true,
+		order = 5,
 		showType = PlayerResUI.TYPE_ALL
 	}
 end
 
-function slot0.CommonInit(slot0)
+slot0.CommonInit = function(slot0)
 	uv0.super.CommonInit(slot0)
 
 	slot0._ticket = slot0._costContainer:Find("ticket")
 end
 
-function slot0.Register(slot0)
+slot0.Register = function(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddLoadComplete(function ()
@@ -103,8 +103,8 @@ function slot0.Register(slot0)
 
 	slot1:AddCheckRemove(function (slot0, slot1, slot2, slot3, slot4)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			zIndex = -100,
 			hideNo = false,
+			zIndex = -100,
 			content = i18n("battle_preCombatLayer_quest_leaveFleet", slot2:getConfigTable().name),
 			onYes = slot1,
 			onNo = slot0
@@ -144,7 +144,7 @@ function slot0.Register(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:disableAllStepper()
 	onButton(slot0, slot0._backBtn, function ()
 		slot0 = {}
@@ -152,8 +152,8 @@ function slot0.didEnter(slot0)
 		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					zIndex = -100,
 					hideNo = false,
+					zIndex = -100,
 					content = i18n("battle_preCombatLayer_save_confirm"),
 					onYes = function ()
 						uv0:emit(ExercisePreCombatMediator.ON_COMMIT_EDIT, function ()
@@ -182,8 +182,8 @@ function slot0.didEnter(slot0)
 		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					zIndex = -100,
 					hideNo = false,
+					zIndex = -100,
 					content = i18n("battle_preCombatLayer_save_march"),
 					onYes = function ()
 						uv0:emit(ExercisePreCombatMediator.ON_COMMIT_EDIT, function ()
@@ -269,12 +269,12 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.disableAllStepper(slot0)
+slot0.disableAllStepper = function(slot0)
 	SetActive(slot0._nextPage, false)
 	SetActive(slot0._prevPage, false)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0._currentForm == uv0.FORM_EDIT then
 		slot1 = getProxy(FleetProxy)
 		slot0.contextData.EdittingFleet = slot1.EdittingFleet

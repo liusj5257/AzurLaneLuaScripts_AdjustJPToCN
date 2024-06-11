@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENQI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENQI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"당신을 위한 발명\n\n<size=45>3. 거리로 나가 보자!</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
-			say = "어느 화창한 휴일",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-7",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "어느 화창한 휴일",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,10 +50,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "자세히 안 보면 눈치채지 못했을 것도 있네… 설마 이런 식으로 되어 있을 줄이야.",
 			painting = {
 				alpha = 0.3,
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			say = "운동장을 걷고 있자니 허들을 보면서 무언가 중얼거리는 다 빈치와 마주쳤다.",
@@ -79,10 +79,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어라, 지휘관이네. 좋은 아침이야~",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			say = "지금 뭐 하는 거야?",
@@ -108,10 +108,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "여기 있는 기구를 개량하기 위한 발명을 생각하는 중이야!",
 			painting = {
 				alpha = 0.3,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "기구도 시대의 흐름에 맞춰 변화해야 하니까!",
 			painting = {
 				alpha = 0.3,
@@ -144,10 +144,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "봐, 이 허들을 예를 들면 매번 쓸 때마다 사람이 옮겨서 설치해야 하는 번거로움이 있잖아?",
 			painting = {
 				alpha = 0.3,
@@ -162,10 +162,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "만약 그 번거로움을 해소할 수 있다면…",
 			painting = {
 				alpha = 0.3,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			say = "의미 있는 일이긴 하겠군.",
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			say = "그건 누가 부탁해서…?",
@@ -202,10 +202,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아니, 내가 그러고 싶어서.",
 			painting = {
 				alpha = 0.3,
@@ -220,10 +220,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_112",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사실 오늘은 영감을 찾으러 나갈 계획이었어. 지휘관도 괜찮으면 같이 갈래?",
 			painting = {
 				alpha = 0.3,
@@ -235,8 +235,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
 			say = "산책 겸 같이 여기저기 돌아다니는 것도 재미있을 것 같아, 흔쾌히 승낙했다.",
@@ -246,27 +246,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_150",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_150",
 			say = "모항의 카페",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -277,10 +277,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "역시 휴일이라 점원도 엄청 바쁘네.",
 			painting = {
 				alpha = 0.3,
@@ -295,10 +295,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_150",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "주문에 따라 자동으로 음료를 만들어 주는 로봇을 발명하면 부담을 덜어줄 수 있지 않을까?!",
 			painting = {
 				alpha = 0.3,
@@ -396,27 +396,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_133",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_133",
 			say = "모항의 야외 수영장",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -427,10 +427,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_133",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "수영장에서 나올 때는 항상 몸이 흠뻑 젖어 있잖아?",
 			painting = {
 				alpha = 0.3,
@@ -445,10 +445,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_133",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그런 상태로 바람이라도 불면 추워서 감기에 걸리기 십상이지.",
 			painting = {
 				alpha = 0.3,
@@ -463,10 +463,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_133",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇지만 수영장에서 나올 때 자동으로 발열하는 수영복이 있다면 그런 우려는 없어질 거야!",
 			painting = {
 				alpha = 0.3,
@@ -564,27 +564,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_147",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_147",
 			say = "모항의 교실",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -595,10 +595,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "칠판은 매번 지워야 하는 불편함이 있잖아? 손이 많이 가는 것 말고도 분필 가루가 날려서 건강에 안 좋기도 해….",
 			painting = {
 				alpha = 0.3,
@@ -613,10 +613,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "짜잔! '가루 날림 억제 기능 자동 칠판지우개' 등장!",
 			painting = {
 				alpha = 0.3,
@@ -631,10 +631,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "버튼만 누르면 칠판을 깨끗하게 지워 주고, 칠판 가장자리에 남은 가루도 모두 집진 장치로 처리해 주니까 깨끗! 깔끔!",
 			painting = {
 				alpha = 0.3,
@@ -732,27 +732,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_main_day",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_main_day",
 			say = "그 후 다 빈치와 여러 곳을 돌아다녔다. 영감이 솟아올라 들뜬 그녀의 모습을 보니 나도 무척이나 흐뭇했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			say = "집무실로 돌아온 후――",
@@ -774,10 +774,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후훗♪ 영감이 이렇게나 솟아오를 줄은 몰랐어!",
 			painting = {
 				alpha = 0.3,
@@ -792,10 +792,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오늘 이렇게 특별히 영감이 더 솟구친 건 지휘관 덕분이겠지… 오늘 하루 나랑 같이 있어 줬으니까.",
 			painting = {
 				alpha = 0.3,
@@ -810,10 +810,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래서 말이야! 혹시 괜찮으면 영감이 필요할 때 또 부탁해도 될까?",
 			painting = {
 				alpha = 0.3,
@@ -828,10 +828,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관이랑 같이 있으면 평소보다 영감도 잘 떠오르고, 내가 몰랐던 걸 많이 알려 주니까 굉장히 도움이 돼!",
 			painting = {
 				alpha = 0.3,

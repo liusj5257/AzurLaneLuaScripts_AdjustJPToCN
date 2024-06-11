@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黛朵",
 	time = 0,
-	color = "yellow",
+	name = "黛朵",
+	init_effect = "",
+	id = 8664,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8664,
+	color = "yellow",
 	icon = 8664,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.15
+				number = 0.15,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.25
+				number = 0.25,
+				attr = "injureRatio"
 			}
 		}
 	}

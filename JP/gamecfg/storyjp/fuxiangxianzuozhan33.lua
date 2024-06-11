@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "タラント港",
 			side = 2,
 			bgName = "bg_guild_red",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "タラント港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "以上、鉄血の「見学」に参加した内容の報告でした。リットリオ様",
 			typewriter = {
@@ -78,8 +78,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "リットリオ様、新型兵器や技術のデモンストレーションについて、鉄血からの自分の滞在期間の延長要請についてはいかがお答えいたしますか？",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "向こうがそこまで私たちに見せたいというのなら断るのも失礼ね。申し訳ないけどもう少し滞在していてくれる？",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "はっ！サディアの威光のためにカラビニエ―レ、どんな任務でも遂行するのであります",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "（事件のことも気になるが…鉄血の戦力、思っていたよりずっと大きいのはショックだった）",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "（うーん、サディアの指導者として、このリットリオは一体どうすればいいものか…）",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605050,
 			dir = 1,
+			actor = 605050,
 			nameColor = "#a9f548",
 			say = "リットリオ、使節団が到着した。出迎えはどちらが行くのかね？",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605050,
 			dir = 1,
+			actor = 605050,
 			nameColor = "#a9f548",
 			say = "了解",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "（まあいい、面倒なことはまたあとで考えよう）",
 			typewriter = {
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 605020,
+			nameColor = "#a9f548",
 			say = "（今日は遠方の客人を迎えるめでたい日だからな）~",
 			typewriter = {
 				speed = 0.05,

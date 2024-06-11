@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KENTE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KENTE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Unbridled Positivity\n\n<size=45>Chapter 3 - Feelings of Gratitude!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Kent is later than usual today. Maybe she had a lot of maid business to take care of...?",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Kent is later than usual today. Maybe she had a lot of maid business to take care of...?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,15 +50,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "―Sorry, Commander! I had a lot of maid business to take care of, that’s why I’m late!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Seeing Kent scurrying around all flustered, I get up and shake my head.",
 			typewriter = {
 				speed = 0.05,
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "C-come on! Commander, I... Well, you’re not wrong...",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "After finishing her thought, Kent pats at her chest and sits down.",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I’d say there are still a lot of things I’d like to ask Kent—",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Kent flashes a wonderful smile, balls her hands into fists, and raises them to the ceiling.",
 			typewriter = {
 				speed = 0.05,
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "For absolutely no particular reason whatsoever!",
 			effects = {
 				{
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "I just think that if you put a lot of energy into your words, you’ll get other people excited along with you!",
 			effects = {
 				{
@@ -310,9 +310,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She’s downplaying a bit, sure, but her explanation still shows how she cares for the people around her.",
 			typewriter = {
 				speed = 0.05,
@@ -324,11 +324,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Oh! How about this! Let’s have you give it a try, Commander! Come out and say something just like I would! Anything!",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -350,9 +350,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She rattles me with her sudden challenge, but——",
 			typewriter = {
 				speed = 0.05,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "...I express my heartfelt gratitude to Kent.",
 			typewriter = {
 				speed = 0.05,
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "......?!",
 			dialogShake = {
 				speed = 0.09,
@@ -405,11 +405,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "L-let’s call it a day here! Commander... You, you can’t be so direct with these things... Oh my! I’m thirsty! I’ll make some tea!",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -431,9 +431,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "After watching Kent rocket to her feet and hurry off to hide her embarrassment, I stand up to go after her.",
 			typewriter = {
 				speed = 0.05,

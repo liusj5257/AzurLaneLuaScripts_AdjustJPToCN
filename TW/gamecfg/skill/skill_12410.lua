@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "狼群战术-U101",
 	cd = 0,
+	picture = "0",
+	desc = "狼群战术-U101",
 	painting = 1,
 	id = 12410,
-	picture = "0",
 	castCV = "skill",
-	desc = "狼群战术-U101",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetNationality",

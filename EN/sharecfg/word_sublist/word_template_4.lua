@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_4 = {}
 slot1 = slot0.word_template_4
 
-function temp()
+temp = function()
 	uv0["ｓ"] = {
 		["ｅ"] = {
 			["ｘ"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.t = {
 		i = {
 			t = {
@@ -619,7 +619,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.v = {
 		a = {
 			g = {
@@ -727,7 +727,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.w = {
 		a = {
 			n = {
@@ -1221,7 +1221,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.A = {
 		n = {
 			j = {
@@ -1314,7 +1314,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.P = {
 		a = {
 			n = {
@@ -1529,7 +1529,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.K = {
 		o = {
 			p = {

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "석양이 서쪽으로 지고, 해질녘에 뒤덮인 아이리스 교국의 항구에서 두 함대가 속속 나와 각자 다른 방향으로 나아갔다.",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-french1",
+			say = "석양이 서쪽으로 지고, 해질녘에 뒤덮인 아이리스 교국의 항구에서 두 함대가 속속 나와 각자 다른 방향으로 나아갔다.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "두 번째 함대를 파견하는 것은 처음에 생각하지 못했던 부분인데, 이제 사르데냐 엠파이어도 여러 선의 적을 만날 수 있게 됐군.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "흐흥~ 급습이니까, 당연히 끝까지 미처 생각 못하게끔 해야지. 두 함대, 두 배의 서프라이즈~",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "어둠을 틈타 출항하자! 사르데냐 엠파이어 녀석들도 잠에 빠져들었을지 몰라.",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

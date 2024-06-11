@@ -1,18 +1,18 @@
 return {
-	id = "WORLD305A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD305A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-3",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Here it is, the place we're going to build the Outpost. We're getting pretty near the center of the NA Ocean now.",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "This isn't the only place we're building an Outpost, you know. Every faction is building their own in each sector surrounding the center.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Attacking from all directions? Now that's what I call a united offensive. The Sirens will crumble under the sheer firepower.",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "When we all attack at once, boy, it'll be the biggest sortie anyone's ever seen...",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "If we ALL would attack at once, we wouldn't need to first force the Sirens back.",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "You mean the Ashes, correct? I believe the Commander's fleet ran into one of their members earlier.",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "It's only a matter of time before they start considering ways to deal with them. Which, of course, will mean more paperwork for me...",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Hang in there, Memphis... On another note, I've been thinking about something. Did you notice how we haven't been jammed since we fought off Arbiter's units?",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "And they weren't factory seconds either. They put up a decent fight.",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "I'm not sure which of those two is more accurate, but maybe the latter. The Sirens were sloppy ever since this operation began, and maybe Arbiter just fixed whatever was wrong.",
 			typewriter = {
 				speed = 0.05,

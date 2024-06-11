@@ -1,6 +1,6 @@
 slot0 = class("CourtYardRawDataChecker")
 
-function slot0.Check(slot0, slot1)
+slot0.Check = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 
@@ -23,7 +23,7 @@ function slot0.Check(slot0, slot1)
 	return true
 end
 
-function slot0.FillMap(slot0, slot1)
+slot0.FillMap = function(slot0, slot1)
 	if not slot1:MatOrPaper() and not slot1:ExistParnet() and slot1.config.belong == 1 and slot1.x and slot1.y then
 		assert(slot1.x, slot1.id)
 
@@ -45,7 +45,7 @@ function slot0.FillMap(slot0, slot1)
 	return true
 end
 
-function slot0.CheckFurnitrue(slot0, slot1, slot2)
+slot0.CheckFurnitrue = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
@@ -60,7 +60,7 @@ function slot0.CheckFurnitrue(slot0, slot1, slot2)
 	return uv0._CheckFurnitrue(slot3[slot0.id], slot3, slot2)
 end
 
-function slot0._CheckFurnitrue(slot0, slot1, slot2)
+slot0._CheckFurnitrue = function(slot0, slot1, slot2)
 	slot3 = slot2.x
 	slot4 = slot2.y
 	slot5 = slot2.z

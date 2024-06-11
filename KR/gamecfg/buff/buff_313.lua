@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "进水",
 	time = 24.1,
+	name = "进水",
+	init_effect = "",
 	picture = "",
 	desc = "U81进水 持续伤害",
 	stack = 1,
@@ -15,11 +15,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.45,
 				attr = "torpedoPower",
-				number = 10,
 				time = 3,
 				dotType = 2,
-				k = 0.45
+				number = 10
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"温泉街神隠し事件\n\n<size=45>艦隊集結！</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "烏天狗",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "お年寄りを敬ってほしい",
+			bgm = "map-longgong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "今より幕間に入るが、",
-			bgm = "map-longgong",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "烏天狗",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "お年寄りを敬ってほしい",
 			nameColor = "#A9F548FF",
@@ -60,13 +60,13 @@ return {
 			}
 		},
 		{
-			actor = 301810,
+			actorName = "霞&初月",
 			side = 0,
 			bgName = "bg_village_in",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			hideOther = true,
-			actorName = "霞&初月",
+			dir = 1,
+			actor = 301810,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "楽しかった 怖かった！",
 			subActors = {
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
+			actorName = "ブリストル&撫順",
 			side = 0,
 			bgName = "bg_village_in",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			hideOther = true,
-			actorName = "ブリストル&撫順",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もう待ちきれないよ！ 早く次のを初めて！",
 			subActors = {
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "烏天狗",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "お年寄りを敬ってほしい",
 			nameColor = "#A9F548FF",
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "烏天狗",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "お年寄りを敬ってほしい",
 			nameColor = "#A9F548FF",
@@ -169,12 +169,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_village_in",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "————————！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "ふわりんと一緒",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…揺れている…？",
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_village_in",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "————————！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,11 +289,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あわわわ！？地震？！",
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "提灯オバケ",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "温泉でパーティーっす！",
 			nameColor = "#A9F548FF",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "提灯オバケ",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "温泉でパーティーっす！",
 			nameColor = "#A9F548FF",
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "わわわ、まずいよ！早く攻撃を止めさせないと！",
@@ -501,28 +501,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_out",
+			bgm = "nagato-map",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "一方、謎の鳥居の近く――",
-			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "重桜の御狐さま",
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "10分以内に終わらせよう",
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "悪運に負けない！",
 			dir = 1,
+			actor = 305020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はい！長門さま",
@@ -654,8 +654,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "結界を攻撃している長門、山城と武蔵の後ろには、出撃の準備を終えた各陣営の艦船たちが控えている。",
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "一行",
+			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -689,8 +689,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -701,8 +701,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "聞き覚えのある声がしたと思った次の瞬間、島風がまるで転移されてきたかのようにいきなり飛び出してきた。",
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "しばらくして、尾張、初月、ブリストル…調査チームの4人も後を現れた。",
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あああ…これはとんでもない大事に…",
@@ -741,11 +741,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "独占欲強しコアクマ",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "だから指揮官に連絡してから鳥居を潜ろうって言ったのに…",
@@ -778,28 +778,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_out",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しかし慌てふためく島風の説明は要領を得ず、情報がますます錯綜していく…",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -807,8 +807,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "幸い駆けつけてきた信濃がいきさつを説明してくれたおかげで、事情がわかった。",
@@ -818,11 +818,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "夢歩くドリームウォーカー",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "忘れがたい夏のひと時をと…よもや斯様なことに…お詫び申す…",
@@ -898,11 +898,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "意外と変装が得意",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ああ。確かに忘れがたい体験だったしな",
@@ -935,11 +935,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "意外と変装が得意",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どういう仕組みなのか、実に興味深い",
@@ -953,11 +953,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "実は先生役が多い",
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ねね、鳥居の結界？に入れば、「妖怪一座」に会えるって言ってたよね？",
@@ -971,11 +971,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "夢歩くドリームウォーカー",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ええ…あの姿のままでは…結界から出られぬがゆえ…",

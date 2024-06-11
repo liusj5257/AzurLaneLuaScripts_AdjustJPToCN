@@ -1,19 +1,19 @@
 return {
-	id = "YONGYEHUANGUANG11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			actor = 401020,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "The Northern Lights actually came out at a time like this...",
 			bgm = "bsm-5",
+			actor = 401020,
+			nameColor = "#ff5c5c",
+			say = "The Northern Lights actually came out at a time like this...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ff5c5c",
 			say = "...I wonder whose name I should use next. Maybe using that little queen's name will be a bit more believable?",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -157,10 +157,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 401020,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
+			nameColor = "#ff5c5c",
 			say = "Prinz Eugen... You're having too much fun with this...",
 			typewriter = {
 				speed = 0.05,

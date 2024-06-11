@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"先輩とわだかまり\n\n<size=45>六　わだかまり・下</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "そう思っている限り、あなたは自分の道からズレているままだ",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "そう思っている限り、あなたは自分の道からズレているままだ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ど、どうしてエンタープライズ先輩はここに！？",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -82,8 +82,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "もしかして…指揮官！？",
 			typewriter = {
@@ -96,12 +96,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "そう。エセックスの様子がおかしいと指揮官から聞かされた。だから一緒に来た",
 			side = 1,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そう。エセックスの様子がおかしいと指揮官から聞かされた。だから一緒に来た",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "くっ……！",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "し、しかし…！",
 			typewriter = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 0,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "そんなことありません！",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "自分のため……",
 			typewriter = {
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "指揮官もそう思わないか？",
 			typewriter = {
 				speed = 0.05,
@@ -362,8 +362,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "指揮官…",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "指揮官にも感謝します",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ですが、エンタープライズ先輩に勝ちたいという目標は簡単に捨てはしません！",
 			typewriter = {

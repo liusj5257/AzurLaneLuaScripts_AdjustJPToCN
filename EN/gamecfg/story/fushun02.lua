@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN02",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSHUN02",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fu Shun's Great Adventure\n\n<size=45>Chapter 2 - Can You Fix It?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Chang Chun, look at this!",
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "Chang Chun, look at this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "Oh wow... You actually went to that old warehouse, huh...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh wow... You actually went to that old warehouse, huh...",
+			actor = 501030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -214,15 +214,15 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "Isn't that a... handheld?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "Chang Chun said you could tell me more about it!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Chang Chun said you could tell me more about it!",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

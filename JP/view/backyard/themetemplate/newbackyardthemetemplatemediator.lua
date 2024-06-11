@@ -16,7 +16,7 @@ slot0.ON_GET_THEMPLATE_DATA = "NewBackYardThemeTemplateMediator:ON_GET_THEMPLATE
 slot0.ON_GET_SPCAIL_TYPE_TEMPLATE = "NewBackYardThemeTemplateMediator:ON_GET_SPCAIL_TYPE_TEMPLATE"
 slot0.GO_DECORATION = "NewBackYardThemeTemplateMediator:GO_DECORATION"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.GO_DECORATION, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD, {
 			openDecoration = true
@@ -116,7 +116,7 @@ function slot0.register(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_APPLY_TEMPLATE, function (slot0, slot1, slot2)
-		function slot4()
+		slot4 = function()
 			uv0:sendNotification(GAME.BACKYARD_APPLY_THEME_TEMPLATE, {
 				template = uv1
 			})
@@ -175,7 +175,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.FRIEND_SEARCH_DONE,
@@ -198,7 +198,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 

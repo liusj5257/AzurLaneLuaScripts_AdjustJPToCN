@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 100
+					number = 100,
+					attr = "airPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 100
+					number = 100,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 140
+					number = 140,
+					attr = "airPower"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 140
+					number = 140,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 180
+					number = 180,
+					attr = "airPower"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 180
+					number = 180,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 220
+					number = 220,
+					attr = "airPower"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 220
+					number = 220,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 260
+					number = 260,
+					attr = "airPower"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 260
+					number = 260,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 300
+					number = 300,
+					attr = "airPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 300
+					number = 300,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 350
+					number = 350,
+					attr = "airPower"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 350
+					number = 350,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 400
+					number = 400,
+					attr = "airPower"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 400
+					number = 400,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 450
+					number = 450,
+					attr = "airPower"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 450
+					number = 450,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 500
+					number = 500,
+					attr = "airPower"
 				}
 			},
 			{
@@ -253,15 +253,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "航空阵列",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "航空阵列——额外航空值",
 	stack = 3,
@@ -283,8 +283,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 100
+				number = 100,
+				attr = "airPower"
 			}
 		},
 		{
@@ -294,8 +294,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 100
+				number = 100,
+				attr = "antiAirPower"
 			}
 		}
 	}

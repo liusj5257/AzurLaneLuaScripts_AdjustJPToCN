@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大潮よりお届け♪\n\n<size=45>七　これからもよろしゅうな～</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "癒やしのお茶会の時間が終わろうとしていた。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "癒やしのお茶会の時間が終わろうとしていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ふと「実は自分が邪魔者だったのではないか」という不安が頭をよぎった。",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "………やはり大潮たちの楽しい時間を邪魔しないほうが……？",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "こちらの考えを見透かしたように、大潮が微笑んでくる。",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "第八駆逐隊のみんなが集まってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -186,9 +186,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "…なんか軽く引っ張られた気がした。",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "荒潮はこちらに向けて一礼した。",
 			typewriter = {
 				speed = 0.05,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "皆の眩しい笑顔にさっきまでの卑屈な考えが完全かき消された。",
 			typewriter = {
 				speed = 0.05,
@@ -280,12 +280,12 @@ return {
 			}
 		},
 		{
-			actor = 301630,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
+			actor = 301630,
 			actorName = "朝潮级四人",
 			say = "これからもよろしくね！指揮官～",
 			subActors = {

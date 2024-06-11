@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA35",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA35",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 10500020,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Miss Sora?",
 			dir = 1,
-			say = "Welcome to the observation deck.",
 			bgm = "holo-inochi",
+			actor = 10500020,
+			actorName = "Miss Sora?",
+			say = "Welcome to the observation deck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "Eh? But I'm right here...",
 			typewriter = {
 				speed = 0.05,
@@ -69,10 +69,10 @@ return {
 			}
 		},
 		{
+			say = "In the blink of an eye, Kawakaze drew forth her guns and aimed them at the enemy.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "In the blink of an eye, Kawakaze drew forth her guns and aimed them at the enemy.",
 			flashN = {
 				color = {
 					1,
@@ -123,8 +123,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "Your movements are skilled, but you still have much to learn~",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "This shield even has a little red bean pastry design on it. Isn't it cute~?",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "Are you... a \"mirror image\" made by the Sirens?",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "There's nothing to be surprised about. That part of your personality will only hold you back when we fight, other \"me.\"",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "I'll make sure to keep improving myself!",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Is that... Miss Sora over there? The enemy is giving off a completely different vibe...",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "Correct. That is why it falls upon me to stop you.",
 			typewriter = {
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 3,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "\"You're not our ally? So you're the enemy, then?\" Ahahaha! I always wanted to try saying that!",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -309,9 +309,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Leader!",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -336,8 +336,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "It's really going to come down to this, huh? Fine then. Everyone, get ready for battle! Don't hesitate!",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "Come at me with everything you have. I will not lose here!",
 			typewriter = {

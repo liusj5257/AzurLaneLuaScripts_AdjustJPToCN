@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평온한 일상을 바라며\n\n<size=45>점심 시간</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "점심 식사를 마친 뒤 뉴캐슬에게 1시간 휴식할 것을 지시했는데……정신을 차려보니 어느샌가 사라져버렸다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "점심 식사를 마친 뒤 뉴캐슬에게 1시간 휴식할 것을 지시했는데……정신을 차려보니 어느샌가 사라져버렸다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "딱히 휴식 시간이 아직 끝난 건 아니지만, 어떻게 쉬는지 궁금하기도 하니… 어디 한 번 찾아보도록 할까.",
 			typewriter = {
 				speed = 0.05,
@@ -62,15 +62,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#92fc63",
 			say = "Question？뉴캐슬씨가 어디로 갔냐고?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,14 +113,14 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 203040,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "어, 어라? 저 구름은……앗, 저 농땡이 친 거 아니에요! 정말 아니라구요!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,15 +161,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#92fc63",
 			say = "아뇨, 못 봤습니다…죄송합니다.",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,15 +194,15 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#92fc63",
 			say = "뉴캐슬씨? 셰피랑 같이 있는 게 아니라면, 아마 혼자서 책을 읽고 있을 거에요!",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,13 +259,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "로열 네이비 기숙사 뒤편에 있는 공터에서, 바람에 나부끼는 새하얀 시트에 감춰진 그녀의 실루엣이 눈에 들어왔다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "세탁물 옆에 놓인 의자에 앉아 있는, 여느 때와 변함없는 메이드복 차림의 그녀. 그리고 허벅지 위에 반쯤 펼쳐진 자그마한 책. 어딘가 졸린 듯한 표정…",
 			typewriter = {
 				speed = 0.05,

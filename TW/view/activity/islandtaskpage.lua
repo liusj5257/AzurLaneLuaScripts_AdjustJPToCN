@@ -7,7 +7,7 @@ slot1 = {
 }
 slot2 = 4
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.taskPage = slot1
 	slot0.contextData = slot2
 	slot0.taskItemTpl = findTF(slot3, "taskItemTpl")
@@ -98,7 +98,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 		table.insert(slot0.btnTags, slot11)
 	end
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateTaskItem(slot0, slot1)
 	end
 
@@ -152,7 +152,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0:onClickTag()
 end
 
-function slot0.onUpdateTaskItem(slot0, slot1, slot2)
+slot0.onUpdateTaskItem = function(slot0, slot1, slot2)
 	if slot0.exitFlag then
 		return
 	end
@@ -230,7 +230,7 @@ function slot0.onUpdateTaskItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateTask(slot0, slot1)
+slot0.updateTask = function(slot0, slot1)
 	slot0.displayTask = {}
 	slot0.allDisplayTask = {}
 	slot0.getAllTasks = {}
@@ -290,7 +290,7 @@ function slot0.updateTask(slot0, slot1)
 		end
 	end
 
-	function slot5(slot0, slot1)
+	slot5 = function(slot0, slot1)
 		if slot0:isOver() and not slot1:isOver() then
 			return false
 		elseif not slot0:isOver() and slot1:isOver() then
@@ -333,7 +333,7 @@ function slot0.updateTask(slot0, slot1)
 	end
 end
 
-function slot0.updateDetail(slot0)
+slot0.updateDetail = function(slot0)
 	slot1 = slot0.showTasks[slot0.selectIndex]
 	slot3 = slot1:getProgress()
 	slot4 = slot1.target
@@ -399,7 +399,7 @@ function slot0.updateDetail(slot0)
 	end
 end
 
-function slot0.onClickTag(slot0, slot1)
+slot0.onClickTag = function(slot0, slot1)
 	if slot0.tagId and slot0.tagId > 0 then
 		if slot0.displayTask[slot0.tagId] and #slot0.displayTask[slot0.tagId] > 0 then
 			slot0.showTasks = slot0.displayTask[slot0.tagId]
@@ -427,11 +427,11 @@ function slot0.onClickTag(slot0, slot1)
 	end
 end
 
-function slot0.setActive(slot0, slot1)
+slot0.setActive = function(slot0, slot1)
 	setActive(slot0.taskPage, slot1)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	slot0.exitFlag = true
 
 	if slot0.leanTweens and #slot0.leanTweens > 0 then

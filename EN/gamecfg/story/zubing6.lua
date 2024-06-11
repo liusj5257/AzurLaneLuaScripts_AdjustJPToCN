@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Ashigara, Advance!\n\n<size=45>Chapter 6 - Ashigara, (Love) Stricken!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Command Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Command Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "She's doing a lot better now than at first? Well of course! She's one of my precious juniors after all!",
 			typewriter = {
 				speed = 0.05,
@@ -137,15 +137,15 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "She should be alone, resting in her room right now. Let me try knocking...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -204,14 +204,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 303090,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Wh-what should I do... I've folded so many without realizing it... If I give all of these to Commander at once...",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,15 +238,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_room",
-			actorName = "{namecode:144}&{namecode:124}",
 			dir = 1,
+			say = "Uhh...",
+			actorName = "{namecode:144}&{namecode:124}",
+			bgName = "bg_story_room",
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "Uhh...",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,8 +286,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "C-c-c-commander?!",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -374,11 +374,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "Ah, I just remembered! I have a training drill with the rest of the squadron! Time to jet~!",
 			typewriter = {
 				speed = 0.05,
@@ -390,8 +390,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 3750
@@ -402,8 +402,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Huh? Kamikaze? W-wait, why are you leaving me here?!",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,10 +428,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "(If you do that, d-d-d-doesn't that mean it's just the two of us here?!)",
 			typewriter = {
 				speed = 0.05,
@@ -445,10 +445,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "(What should I do...?!)",
 			typewriter = {
 				speed = 0.05,

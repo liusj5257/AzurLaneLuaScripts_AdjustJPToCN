@@ -6,17 +6,17 @@ slot4 = 2
 slot5 = 1
 slot6 = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "StoreHouseUI"
 end
 
-function slot0.setEquipments(slot0, slot1)
+slot0.setEquipments = function(slot0, slot1)
 	slot0.equipmentVOs = slot1
 
 	slot0:setEquipmentByIds(slot1)
 end
 
-function slot0.setEquipmentByIds(slot0, slot1)
+slot0.setEquipmentByIds = function(slot0, slot1)
 	slot0.equipmentVOByIds = {}
 
 	for slot5, slot6 in pairs(slot1) do
@@ -29,7 +29,7 @@ end
 slot7 = require("view.equipment.EquipmentSortCfg")
 slot8 = require("view.equipment.SpWeaponSortCfg")
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.filterEquipWaitting = 0
 	slot1 = slot0.contextData
 	slot0.topItems = slot0:findTF("topItems")
@@ -118,7 +118,7 @@ function slot0.init(slot0)
 	slot0.msgBox = SelectSkinMsgbox.New(slot0._tf, slot0.event)
 end
 
-function slot0.setEquipment(slot0, slot1)
+slot0.setEquipment = function(slot0, slot1)
 	slot2 = #slot0.equipmentVOs + 1
 
 	for slot6, slot7 in ipairs(slot0.equipmentVOs) do
@@ -139,14 +139,14 @@ function slot0.setEquipment(slot0, slot1)
 	end
 end
 
-function slot0.setEquipmentUpdate(slot0)
+slot0.setEquipmentUpdate = function(slot0)
 	if slot0.contextData.warp == StoreHouseConst.WARP_TO_WEAPON then
 		slot0:filterEquipment()
 		slot0:updateCapacity()
 	end
 end
 
-function slot0.addShipEquipment(slot0, slot1)
+slot0.addShipEquipment = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.equipmentVOs) do
 		if EquipmentProxy.SameEquip(slot6, slot1) then
 			slot0.equipmentVOs[slot5] = slot1
@@ -158,7 +158,7 @@ function slot0.addShipEquipment(slot0, slot1)
 	table.insert(slot0.equipmentVOs, slot1)
 end
 
-function slot0.removeShipEquipment(slot0, slot1)
+slot0.removeShipEquipment = function(slot0, slot1)
 	for slot5 = #slot0.equipmentVOs, 1, -1 do
 		if EquipmentProxy.SameEquip(slot0.equipmentVOs[slot5], slot1) then
 			table.remove(slot0.equipmentVOs, slot5)
@@ -166,7 +166,7 @@ function slot0.removeShipEquipment(slot0, slot1)
 	end
 end
 
-function slot0.setEquipmentSkin(slot0, slot1)
+slot0.setEquipmentSkin = function(slot0, slot1)
 	slot2 = true
 
 	for slot6, slot7 in pairs(slot0.equipmentVOs) do
@@ -189,18 +189,18 @@ function slot0.setEquipmentSkin(slot0, slot1)
 	end
 end
 
-function slot0.setEquipmentSkinUpdate(slot0)
+slot0.setEquipmentSkinUpdate = function(slot0)
 	if slot0.contextData.warp == StoreHouseConst.WARP_TO_WEAPON then
 		slot0:filterEquipment()
 		slot0:updateCapacity()
 	end
 end
 
-function slot0.SetSpWeapons(slot0, slot1)
+slot0.SetSpWeapons = function(slot0, slot1)
 	slot0.spweaponVOs = slot1
 end
 
-function slot0.SetSpWeaponUpdate(slot0)
+slot0.SetSpWeaponUpdate = function(slot0)
 	if slot0.contextData.warp == StoreHouseConst.WARP_TO_WEAPON and slot0.page == uv0 then
 		slot0:filterEquipment()
 		slot0:UpdateSpweaponCapacity()
@@ -209,7 +209,7 @@ function slot0.SetSpWeaponUpdate(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setText(slot0:findTF("tip", slot0.selectPanel), i18n("equipment_select_device_destroy_tip"))
 	setActive(slot0:findTF("adapt/stamp", slot0.topItems), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 	onButton(slot0, slot0:findTF("adapt/stamp", slot0.topItems), function ()
@@ -548,19 +548,19 @@ function slot0.didEnter(slot0)
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, slot0.topItems)
 end
 
-function slot0.isDefaultStatus(slot0)
+slot0.isDefaultStatus = function(slot0)
 	return underscore(slot0.contextData.indexDatas):chain():keys():all(function (slot0)
 		return uv0.contextData.indexDatas[slot0] == StoreHouseConst.EQUIPMENT_INDEX_COMMON.customPanels[slot0].options[1]
 	end):value()
 end
 
-function slot0.isDefaultSpWeaponIndexData(slot0)
+slot0.isDefaultSpWeaponIndexData = function(slot0)
 	return underscore(slot0.contextData.spweaponIndexDatas):chain():keys():all(function (slot0)
 		return uv0.contextData.spweaponIndexDatas[slot0] == StoreHouseConst.SPWEAPON_INDEX_COMMON.customPanels[slot0].options[1]
 	end):value()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0.sortPanel) then
@@ -578,7 +578,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.updateCapacity(slot0)
+slot0.updateCapacity = function(slot0)
 	if slot0.contextData.warp == StoreHouseConst.WARP_TO_MATERIAL then
 		return
 	end
@@ -587,23 +587,23 @@ function slot0.updateCapacity(slot0)
 	setText(slot0.capacityTF, slot0.capacity .. "/" .. slot0.player:getMaxEquipmentBag())
 end
 
-function slot0.setCapacity(slot0, slot1)
+slot0.setCapacity = function(slot0, slot1)
 	slot0.capacity = slot1
 end
 
-function slot0.UpdateSpweaponCapacity(slot0)
+slot0.UpdateSpweaponCapacity = function(slot0)
 	slot1 = getProxy(EquipmentProxy)
 
 	setText(slot0.capacityTF, slot1:GetSpWeaponCount() .. "/" .. slot1:GetSpWeaponCapacity())
 end
 
-function slot0.setShip(slot0, slot1)
+slot0.setShip = function(slot0, slot1)
 	slot0.shipVO = slot1
 
 	setActive(slot0.bottomPanel, not tobool(slot1))
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	if slot0.contextData.warp == StoreHouseConst.WARP_TO_WEAPON and slot0.page == uv0 then
@@ -613,8 +613,8 @@ function slot0.setPlayer(slot0, slot1)
 	end
 end
 
-function slot0.initSort(slot0)
-	function slot4()
+slot0.initSort = function(slot0)
+	slot4 = function()
 		uv0.asc = not uv0.asc
 		uv0.contextData.asc = uv0.asc
 
@@ -651,7 +651,7 @@ function slot0.initSort(slot0)
 	end
 end
 
-function slot0.UpdateWeaponWrapButtons(slot0)
+slot0.UpdateWeaponWrapButtons = function(slot0)
 	setActive(slot0.indexBtn, slot0.page == uv0 or slot1 == uv1)
 	setActive(slot0.sortBtn, slot1 == uv0 or slot1 == uv1)
 	setActive(slot0.BatchDisposeBtn, slot1 == uv0)
@@ -662,38 +662,38 @@ function slot0.UpdateWeaponWrapButtons(slot0)
 	slot0:updatePageFilterButtons(slot1)
 end
 
-function slot0.updatePageFilterButtons(slot0, slot1)
+slot0.updatePageFilterButtons = function(slot0, slot1)
 	for slot5, slot6 in ipairs(uv0.sort) do
 		triggerToggle(slot0.sortButtons[slot5], false)
 		setActive(slot0.sortButtons[slot5], table.contains(slot6.pages, slot1))
 	end
 end
 
-function slot0.initEquipments(slot0)
+slot0.initEquipments = function(slot0)
 	slot0.isInitWeapons = true
 	slot1 = slot0.equipmentView
 	slot0.equipmentRect = slot1:GetComponent("LScrollRect")
 
-	function slot0.equipmentRect.onInitItem(slot0)
+	slot0.equipmentRect.onInitItem = function(slot0)
 		uv0:initEquipment(slot0)
 	end
 
-	function slot0.equipmentRect.onUpdateItem(slot0, slot1)
+	slot0.equipmentRect.onUpdateItem = function(slot0, slot1)
 		uv0:updateEquipment(slot0, slot1)
 	end
 
-	function slot0.equipmentRect.onReturnItem(slot0, slot1)
+	slot0.equipmentRect.onReturnItem = function(slot0, slot1)
 		uv0:returnEquipment(slot0, slot1)
 	end
 
-	function slot0.equipmentRect.onStart()
+	slot0.equipmentRect.onStart = function()
 		uv0:updateSelected()
 	end
 
 	slot0.equipmentRect.decelerationRate = 0.07
 end
 
-function slot0.initEquipment(slot0, slot1)
+slot0.initEquipment = function(slot0, slot1)
 	slot2 = EquipmentItem.New(slot1)
 
 	onButton(slot0, slot2.unloadBtn, function ()
@@ -710,7 +710,7 @@ function slot0.initEquipment(slot0, slot1)
 	slot0.equipmetItems[slot1] = slot2
 end
 
-function slot0.updateEquipment(slot0, slot1, slot2)
+slot0.updateEquipment = function(slot0, slot1, slot2)
 	slot3 = slot0.equipmetItems[slot2]
 
 	assert(slot3, "without init item")
@@ -799,7 +799,7 @@ function slot0.updateEquipment(slot0, slot1, slot2)
 	end
 end
 
-function slot0.returnEquipment(slot0, slot1, slot2)
+slot0.returnEquipment = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -810,14 +810,14 @@ function slot0.returnEquipment(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateEquipmentCount(slot0, slot1)
+slot0.updateEquipmentCount = function(slot0, slot1)
 	slot0.equipmentRect:SetTotalCount(slot1 or #slot0.loadEquipmentVOs, -1)
 	setActive(slot0.listEmptyTF, (slot1 or #slot0.loadEquipmentVOs) <= 0)
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_storehouseui_equip"))
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.filterEquipment(slot0)
+slot0.filterEquipment = function(slot0)
 	if slot0.filterEquipWaitting > 0 then
 		slot0.filterEquipWaitting = slot0.filterEquipWaitting - 1
 
@@ -834,7 +834,7 @@ function slot0.filterEquipment(slot0)
 		return
 	end
 
-	GetSpriteFromAtlasAsync("ui/commonui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
+	GetSpriteFromAtlasAsync("ui/share/index_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
 		setImageSprite(uv0.indexBtn, slot0, true)
 	end)
 
@@ -882,7 +882,7 @@ function slot0.filterEquipment(slot0)
 	slot0:updateCapacity()
 end
 
-function slot0.filterEquipSkin(slot0)
+slot0.filterEquipSkin = function(slot0)
 	slot1 = slot0.equipSkinIndex
 	slot2 = slot0.equipSkinTheme
 	slot4 = {}
@@ -926,12 +926,12 @@ function slot0.filterEquipSkin(slot0)
 	setActive(slot0.sortImgDec, not slot0.asc)
 end
 
-function slot0.filterSpWeapon(slot0)
+slot0.filterSpWeapon = function(slot0)
 	if slot0.page ~= uv0 then
 		assert(false, "不是特殊兵装分页")
 	end
 
-	GetSpriteFromAtlasAsync("ui/commonui_atlas", slot0:isDefaultSpWeaponIndexData() and "shaixuan_off" or "shaixuan_on", function (slot0)
+	GetSpriteFromAtlasAsync("ui/share/index_atlas", slot0:isDefaultSpWeaponIndexData() and "shaixuan_off" or "shaixuan_on", function (slot0)
 		setImageSprite(uv0.indexBtn, slot0, true)
 	end)
 
@@ -961,15 +961,15 @@ function slot0.filterSpWeapon(slot0)
 	slot0:UpdateSpweaponCapacity()
 end
 
-function slot0.GetShowBusyFlag(slot0)
+slot0.GetShowBusyFlag = function(slot0)
 	return slot0.isEquipingOn
 end
 
-function slot0.SetShowBusyFlag(slot0, slot1)
+slot0.SetShowBusyFlag = function(slot0, slot1)
 	slot0.isEquipingOn = slot1
 end
 
-function slot0.Scroll2Equip(slot0, slot1)
+slot0.Scroll2Equip = function(slot0, slot1)
 	if slot0.contextData.warp ~= StoreHouseConst.WARP_TO_WEAPON or slot0.page ~= uv0 then
 		return
 	end
@@ -985,17 +985,17 @@ function slot0.Scroll2Equip(slot0, slot1)
 	end
 end
 
-function slot0.ScrollEquipPos(slot0, slot1)
+slot0.ScrollEquipPos = function(slot0, slot1)
 	slot2 = slot0.equipmentView:Find("equipment_grid"):GetComponent(typeof(GridLayoutGroup))
 
 	slot0.equipmentRect:ScrollTo((slot1 - slot0.equipmentView.rect.height * 0.5) / ((slot2.cellSize.y + slot2.spacing.y) * math.ceil(#slot0.loadEquipmentVOs / slot2.constraintCount) - slot2.spacing.y + slot0.equipmentRect.paddingFront + slot0.equipmentRect.paddingEnd - slot0.equipmentView.rect.height > 0 and slot5 or slot4))
 end
 
-function slot0.checkFitBusyCondition(slot0, slot1)
+slot0.checkFitBusyCondition = function(slot0, slot1)
 	return not slot1.shipId or slot0:GetShowBusyFlag() and slot0.mode ~= StoreHouseConst.DESTROY
 end
 
-function slot0.setItems(slot0, slot1)
+slot0.setItems = function(slot0, slot1)
 	slot0.itemVOs = slot1
 
 	if slot0.isInitItems and slot0.contextData.warp == StoreHouseConst.WARP_TO_MATERIAL then
@@ -1003,27 +1003,27 @@ function slot0.setItems(slot0, slot1)
 	end
 end
 
-function slot0.initItems(slot0)
+slot0.initItems = function(slot0)
 	slot0.isInitItems = true
 	slot1 = slot0.itemView
 	slot0.itemRect = slot1:GetComponent("LScrollRect")
 
-	function slot0.itemRect.onInitItem(slot0)
+	slot0.itemRect.onInitItem = function(slot0)
 		uv0:initItem(slot0)
 	end
 
-	function slot0.itemRect.onUpdateItem(slot0, slot1)
+	slot0.itemRect.onUpdateItem = function(slot0, slot1)
 		uv0:updateItem(slot0, slot1)
 	end
 
-	function slot0.itemRect.onReturnItem(slot0, slot1)
+	slot0.itemRect.onReturnItem = function(slot0, slot1)
 		uv0:returnItem(slot0, slot1)
 	end
 
 	slot0.itemRect.decelerationRate = 0.07
 end
 
-function slot0.sortItems(slot0)
+slot0.sortItems = function(slot0)
 	table.sort(slot0.itemVOs, CompareFuncs({
 		function (slot0)
 			return -slot0:getConfig("order")
@@ -1041,11 +1041,11 @@ function slot0.sortItems(slot0)
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.initItem(slot0, slot1)
+slot0.initItem = function(slot0, slot1)
 	slot0.itemCards[slot1] = ItemCard.New(slot1)
 end
 
-function slot0.updateItem(slot0, slot1, slot2)
+slot0.updateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.itemCards[slot2]
 
 	assert(slot3, "without init item")
@@ -1199,7 +1199,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.returnItem(slot0, slot1, slot2)
+slot0.returnItem = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -1210,7 +1210,7 @@ function slot0.returnItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.selectCount(slot0)
+slot0.selectCount = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.selectedIds) do
@@ -1220,7 +1220,7 @@ function slot0.selectCount(slot0)
 	return slot1
 end
 
-function slot0.selectEquip(slot0, slot1, slot2)
+slot0.selectEquip = function(slot0, slot1, slot2)
 	if not slot0:checkDestroyGold(slot1, slot2) then
 		return
 	end
@@ -1284,13 +1284,13 @@ function slot0.selectEquip(slot0, slot1, slot2)
 	slot0:updateSelected()
 end
 
-function slot0.unselecteAllEquips(slot0)
+slot0.unselecteAllEquips = function(slot0)
 	slot0.selectedIds = {}
 
 	slot0:updateSelected()
 end
 
-function slot0.checkDestroyGold(slot0, slot1, slot2)
+slot0.checkDestroyGold = function(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = false
 
@@ -1319,7 +1319,7 @@ function slot0.checkDestroyGold(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.updateSelected(slot0)
+slot0.updateSelected = function(slot0)
 	for slot4, slot5 in pairs(slot0.equipmetItems) do
 		if slot5.equipmentVO then
 			slot6 = false
@@ -1355,7 +1355,7 @@ function slot0.updateSelected(slot0)
 	end
 end
 
-function slot0.SwitchToDestroy(slot0)
+slot0.SwitchToDestroy = function(slot0)
 	slot0.page = uv0
 	slot0.filterEquipWaitting = slot0.filterEquipWaitting + 1
 
@@ -1363,13 +1363,13 @@ function slot0.SwitchToDestroy(slot0)
 	triggerButton(slot0.BatchDisposeBtn)
 end
 
-function slot0.SwitchToSpWeaponStoreHouse(slot0)
+slot0.SwitchToSpWeaponStoreHouse = function(slot0)
 	slot0.page = uv0
 
 	triggerToggle(slot0.weaponToggle, true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.topItems, slot0._tf)
 

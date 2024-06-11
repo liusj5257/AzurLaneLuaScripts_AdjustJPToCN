@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
-			say = "This village got its name from the word Ursprung – meaning \"origin.\"",
 			bgm = "story-mmorpg",
+			say = "This village got its name from the word Ursprung – meaning \"origin.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "Adventurers are likely to visit it as it's the first village you see after exiting the Endless Woods and following the road.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "As far as names go, this one is pretty fitting.",
 			typewriter = {
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "Mayor of Ursp",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But, our resources are stretched too thin right now because of the Demon King Аrmy. They've been attackin' more and more each day.",
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "Mayor of Ursp",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We're short not just on materials, but manpower, too. There's hardly any young'uns left in the village. It's mostly old folks like mahself.",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "......",
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "Mayor of Ursp",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What're ya standin' around for? Shouldn't ya get movin'?",
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You don't have any side quests?",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Surely there's SOMETHING we can do?",
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "Mayor of Ursp",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(Psst. Listen. There's nothing in this village. No side quests, no hidden items, nada. You should just be on your way.)",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What? Are you telling us to get out?!",
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You're talking to the hero's party! Show some respect!",
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,11 +381,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "Mayor of Ursp",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You know, there used to be many parties like yours. I once saw over a dozen in a single day.",
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh yeah? Behold! I have the legendary hero's sword! This proves that I, Fu Shun, am the strongest of all heroes in the kingdom!",
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You've got some nerve, painting me as a rando! I'm gonna put your NPC butt in its place!",
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...What? Why can't I attack her?!",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Grrr... Bristol, you little twerp...",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Fine! We'll go to the Royal Capital!",
@@ -548,10 +548,10 @@ return {
 		{
 			portrait = 101491,
 			side = 2,
-			bgName = "star_level_bg_155",
 			factiontag = "Mayor of Ursp",
 			dir = 1,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_155",
 			actorName = "Bristol",
 			say = "I wish ye luck, brave adventurers.",
 			painting = {
@@ -563,17 +563,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

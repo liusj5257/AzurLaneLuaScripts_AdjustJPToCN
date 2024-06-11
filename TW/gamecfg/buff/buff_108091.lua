@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 5,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108091,
 	picture = "",
 	desc = "概率触发器",
 	stack = 1,
-	id = 108091,
+	color = "red",
 	icon = 108090,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 108090
+				skill_id = 108090,
+				target = "TargetSelf"
 			}
 		}
 	}

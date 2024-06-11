@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行12次攻击，触发专属弹幕",
 	name = "专属弹幕",
 	init_effect = "",
+	id = 30061,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行12次攻击，触发专属弹幕",
 	stack = 1,
-	id = 30061,
+	color = "red",
 	icon = 30060,
 	last_effect = "",
 	effect_list = {
@@ -34,8 +34,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 30061,
+				target = "TargetSelf",
 				countType = 30060
 			}
 		}

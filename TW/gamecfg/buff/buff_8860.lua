@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2021意大利活动 海妖之歌 弹条",
 	time = 10,
-	color = "blue",
+	name = "2021意大利活动 海妖之歌 弹条",
+	init_effect = "",
+	id = 8860,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8860,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8861,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

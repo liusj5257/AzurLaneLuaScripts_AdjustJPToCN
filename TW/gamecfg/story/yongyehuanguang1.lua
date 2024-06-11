@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YONGYEHUANGUANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "皇家·LD司令部 數日前",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			nameColor = "#a9f548",
+			say = "皇家·LD司令部 數日前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "——北方聯合的現狀，就和報告中說的一樣。皇家的各位有什麼看法嗎？",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "解決了冰雪要塞之後反而刺激了塞壬進行更兇猛的反撲…嗎。真是意想不到的災難。",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "唔，一直以來多虧有北方聯合把那些傢伙牢牢堵在極地內，要是她們撐不住了…",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "極地塞壬將會和NA海域的塞壬連成一片，皇家將會變成大洋上的孤島吧。",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "哼…這種事絕對不可以發生。",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "嗯，那麼對於本次針對北方聯合的求援做出的支援行動，可以認為皇家也沒有異議吧？",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "我們收到可靠情報，鐵血正在偷偷向巴倫支海方向調集艦隊中。妳們通過的時候一定要千萬小心哦？",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "鐵血最近對極地航線的態度好像也認真起來了呢…",
 			typewriter = {
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "哼，如果鐵血敢來湊這個熱鬧，本王肯定準備一場盛大的宴會來“歡迎”它們！",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,8 +246,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "難道說…妳們想趁這個機會對鐵血的艦隊…？",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "那這件事就這麼決定了。另外，是關於指揮官現在的情況。",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "嗯。鑑於當前形式，北方聯合發來了暫時延長指揮官駐紮期限的提案，妳們怎麼看？",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "......真是會選時間提要求。",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "就是啊，白鷹對此是堅決反對的哦！支援物資送到以後，極地戰局就能得到大幅改善，沒有任何延長指揮官留駐期限的理由！",
 			typewriter = {
@@ -363,8 +363,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "既然北方聯合這麼不方便的話，我們計劃從聖地牙哥司令部抽調一支艦隊，直接把指揮官從北方聯合接回來！",
 			typewriter = {
@@ -380,8 +380,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "皇家也不會同意的。不過，聖地牙哥司令部…還要負責對重櫻的作戰吧，抽調艦隊去極地會不會……",
 			typewriter = {
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "哼哼！本王有個更好的方案！直接利用返航的運輸艦隊把指揮官接來皇家，然後再由皇家艦隊護送指揮官返回白鷹，怎麼樣！",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -455,8 +455,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "如果皇家願意幫忙的話就再好不過了！",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "是，陛下，我會妥善安排下去的。",
 			typewriter = {
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「議案」</size>",
@@ -548,8 +548,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

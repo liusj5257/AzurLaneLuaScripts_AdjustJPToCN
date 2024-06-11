@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.escort_map_template = {
 	[70000] = {
+		level_limit = 40,
 		id = 70000,
 		refresh_time = 21600,
-		level_limit = 40,
 		escort_id_list = {
 			1,
 			2,

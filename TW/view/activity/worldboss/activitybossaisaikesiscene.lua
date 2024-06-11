@@ -1,17 +1,17 @@
 slot0 = class("ActivityBossAisaikesiScene", import(".ActivityBossSceneTemplate"))
 slot0.ASKSRemasterStage = 1201204
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivityBossAisaikesiUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 
 	slot1 = 0
@@ -32,12 +32,12 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.UpdatePage(slot0)
+slot0.UpdatePage = function(slot0)
 	uv0.super.UpdatePage(slot0)
 end
 
-function slot0.EnterAnim(slot0)
-	function slot1()
+slot0.EnterAnim = function(slot0)
+	slot1 = function()
 		uv0.super.EnterAnim(uv1)
 
 		slot0 = uv1.loader
@@ -69,7 +69,7 @@ function slot0.EnterAnim(slot0)
 
 	slot3 = nil
 
-	function slot4()
+	slot4 = function()
 		setActive(uv0, true)
 		setActive(uv1, false)
 		uv2.loader:ReturnPrefab(uv1)
@@ -98,7 +98,7 @@ function slot0.EnterAnim(slot0)
 	end)
 end
 
-function slot0.RemasterSuffering(slot0)
+slot0.RemasterSuffering = function(slot0)
 	slot1 = GameObject.New("Mask")
 	slot2 = slot1:AddComponent(typeof(RectTransform))
 	slot2.anchorMin = Vector2.zero
@@ -116,7 +116,7 @@ function slot0.RemasterSuffering(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 	uv0.super.willExit(slot0)
 end

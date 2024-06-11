@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG09",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG09",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "……————",
-			side = 2,
-			bgm = "level03",
-			dir = 1,
-			blackBg = true,
 			soundeffect = "event:/battle/boom1",
+			side = 2,
+			say = "……————",
+			blackBg = true,
+			dir = 1,
+			bgm = "level03",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 3,
 				alpha = {
 					0,
@@ -79,15 +79,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 3,
 				alpha = {
 					0,
@@ -146,15 +146,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flash = {
+				wait = 0.2,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.2,
 				number = 1,
 				alpha = {
 					0,

@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			say = "Ballad Castle – it got its name from the endless sound of music that came from it, never drowned out by the streets.",
 			bgm = "story-temepest-2",
+			say = "Ballad Castle – it got its name from the endless sound of music that came from it, never drowned out by the streets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "This was once the heart of the kingdom of humanity. Though now it's but a husk of its former self, one can still see a glimpse of its former glory.",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The vampire nobles all used to live in the castle. This road should take us to...",
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			say = "*yaaawn*... Who do you think you are, setting foot on Tempesta's turf?",
 			painting = {
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Uh... \"Tempesta's turf\"?",
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			say = "Well, well! Seems we have ourselves a band of adventurers with a death wish!",
 			painting = {
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Potion Maker",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ohhh. They're just bandits.",
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "A gang of lowly pirates, trying to shake down the hero's party? That's rich!",
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "All you're gonna get from us is a lesson in respect!",

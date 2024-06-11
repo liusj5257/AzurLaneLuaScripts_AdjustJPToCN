@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 404010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 404010,
+			nameColor = "#ff5c5c",
 			stopBGM = true,
 			say = "어떤 상대였어?",
 			typewriter = {
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
+			say = "여동생의 피해보다 적의 정보를 먼저 묻다니, 역시 샤른호르스트 언니네요.",
 			side = 1,
-			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
-			say = "여동생의 피해보다 적의 정보를 먼저 묻다니, 역시 샤른호르스트 언니네요.",
+			actor = 404020,
+			nameColor = "#ff5c5c",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

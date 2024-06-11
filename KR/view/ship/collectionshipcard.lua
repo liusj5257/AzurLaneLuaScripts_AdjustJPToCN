@@ -3,7 +3,7 @@ slot0.TypeCard = 1
 slot0.TypeTrans = 2
 slot1 = pg.ship_data_group
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.btn = GetOrAddComponent(slot1, "Button")
@@ -31,11 +31,11 @@ function slot0.Ctor(slot0, slot1)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.getIsInited(slot0)
+slot0.getIsInited = function(slot0)
 	return slot0.shipGroup ~= nil
 end
 
-function slot0.update(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.update = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = ShipGroup.getState(slot5, slot2, slot3)
 
 	if slot0.code ~= slot1 or slot0.shipGroup ~= slot2 or slot0.showTrans ~= slot3 or slot0.propose ~= slot4 or slot0.state ~= slot6 then
@@ -52,7 +52,7 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4, slot5)
 	TweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	slot1 = slot0.shipGroup
 
 	setActive(slot0.heart, slot0.state == ShipGroup.STATE_UNLOCK)
@@ -104,7 +104,7 @@ function slot0.flush(slot0)
 	setActive(slot0.labelName, true)
 end
 
-function slot0.loadImage(slot0, slot1, slot2)
+slot0.loadImage = function(slot0, slot1, slot2)
 	slot3 = slot1:rarity2bgPrint(slot0.showTrans)
 	slot4 = slot2 and slot1:getPainting(slot0.showTrans) or "unknown"
 
@@ -124,7 +124,7 @@ function slot0.loadImage(slot0, slot1, slot2)
 	setShipCardFrame(slot0.shipFrameImg, slot3)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0.shipGroup = nil
 	slot0.showTrans = nil
 	slot0.propose = nil

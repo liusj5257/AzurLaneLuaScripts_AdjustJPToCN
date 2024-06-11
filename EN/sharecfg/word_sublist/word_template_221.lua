@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_221 = {}
 slot1 = slot0.word_template_221
 
-function temp()
+temp = function()
 	uv0["龐"] = {
 		["建"] = {
 			["國"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["跑"] = {
 		["灯"] = {
 			["机"] = {
@@ -47,7 +47,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["泡"] = {
 		["沫"] = {
 			["經"] = {
@@ -61,7 +61,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["炮"] = {
 		["弹"] = {
 			["壳"] = {
@@ -87,7 +87,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["陪"] = {
 		["伴"] = {
 			["服"] = {
@@ -147,7 +147,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["轡"] = {
 		this = {
 			this = true
@@ -157,7 +157,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["喷"] = {
 		["潮"] = {
 			this = true

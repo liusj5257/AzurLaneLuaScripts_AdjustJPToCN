@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG21",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 502023,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "「東煌シスターズ」、再登場！みんなの戦いを見て学んだ私たち、もはや初登場のときのヒヨッコとは思わないことね！",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			say = "楽屋でいっぱい差し入れもらって、腹いっぱい食べた！もっと頑張れるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -82,13 +82,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 101176,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ポラリス…強かったけど……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201216,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そう！みんなで一緒に戦えばポラリスにも負けないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,14 +194,14 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "妹に勝ったら許さないから覚悟していなさい！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,9 +253,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 301014,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "でも気持ちはわかるよ？うちの特型駆逐艦の子にも勝ってほしいもん！",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,14 +292,14 @@ return {
 			}
 		},
 		{
-			actor = 403070,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
 			say = "ふん！今更束になっても全然怖くないっての！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -341,9 +341,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102240,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ここが本当に最後の戦いだ！ガスコーニュ、準備はいい？",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -368,8 +368,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "指示確認！ガスコーニュ、最高の歌を――",
 			typewriter = {
 				speed = 0.05,

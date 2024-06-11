@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "In the Withered Woods, while we're on our way to the central fortress...",
 			bgm = "story-mmorpg",
+			say = "In the Withered Woods, while we're on our way to the central fortress...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sheffy? What's the matter?",
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sounds like a golden opportunity! Let's go check it out, Commander!",
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,27 +193,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "By the time we reach the inside of the fortress, the fighting has already concluded.",
 			bgm = "story-oldcastle-carnival",
+			say = "By the time we reach the inside of the fortress, the fighting has already concluded.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What?! They've already taken out two of the vampires?!",
@@ -277,8 +277,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Who are you?!",
 			painting = {
@@ -345,9 +345,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			bgm = "login-2022401us",
 			actor = 201233,
 			nameColor = "#FF9B93",
@@ -362,17 +362,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "As milord hath instructed me, I have taken over this fortress.",
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "On the other hand, she has been injured, that much is clear.",
@@ -473,11 +473,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Beware, though – she recovers astoundingly quickly. If we're going to attack, now is the time.",
@@ -497,8 +497,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "My adventure interface provides a description of her, confirming that she is indeed a mighty vampire with no weaknesses.",
 			typewriter = {
@@ -506,17 +506,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "On the bright side, she is only at half HP.",
 			typewriter = {
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "In addition, my skill tells me that there is a secret trap waiting to be sprung inside the room.",
 			typewriter = {
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Hahah! Thou art challenging me? Suicidal fools!",
@@ -598,11 +598,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Thou shall witness the terrifying might of the ultimate vampire!",

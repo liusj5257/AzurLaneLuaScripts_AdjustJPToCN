@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Together with Souryuu\n\n<size=45>Chapter 3: What are Friends?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "As a natural result of having her teach me hanafuda, I found more and more time to converse with Souryuu.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I decided to head over to her place again today.",
 			typewriter = {
@@ -54,15 +54,15 @@ return {
 			}
 		},
 		{
-			say = "Sakura Dorms - Souryuu's Room",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Sakura Dorms - Souryuu's Room",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "Ahaha... I wouldn't say \"always.\" Even I need some time for myself now and then.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahaha... I wouldn't say \"always.\" Even I need some time for myself now and then.",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "Ahaha...",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

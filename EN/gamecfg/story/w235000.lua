@@ -1,12 +1,12 @@
 return {
-	id = "W235000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W235000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "All tasks in the zone have been completed. You will now be brought back to Dakar.",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Complete missions that progress the story to continue the Chapter 5 campaign.",
 			typewriter = {
 				speed = 0.05,

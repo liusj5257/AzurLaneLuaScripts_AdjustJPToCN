@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA28",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_172",
+			bgm = "qe-ova-9",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We won tickets to a hot spring resort weekend through a raffle, and since it's the cold season, TB and I immediately set off.",
-			bgm = "qe-ova-9",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,9 +37,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_172",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-laugh2",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -57,9 +57,9 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_172",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-laugh5",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -89,9 +89,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_172",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-doubt1",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -109,9 +109,9 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_172",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-doubt2",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -129,9 +129,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_172",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-laugh5",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			say = "Seeing her eyes twinkle with excitement, I breathe an exasperated sigh.",
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			say = "It is completely beyond me how she turned into such an over-the-top peppy girl.",
@@ -171,9 +171,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_172",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-33-shock1",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			say = "Just as I brace myself for a hot spring water fight, something else seems to grab her attention.",
@@ -202,9 +202,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_172",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-11",
+			dir = 1,
+			tbActor = true,
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -219,14 +219,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg22",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Look! It's a maple leaf!",
 			voice = "event:/educate/tb/educate-tb-story-33-11",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Look! It's a maple leaf!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,17 +236,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			say = "A leaf floats in the water. She picks it up and covers her eye with it, showing it to me.",
@@ -277,14 +277,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg22",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "In cases like this, you need to have a quote prepared. Like...",
 			voice = "event:/educate/tb/educate-tb-story-33-12",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "In cases like this, you need to have a quote prepared. Like...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,14 +295,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg22",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "\"Cursed power within my right eye, heed my words – with this leaf made of a sage's blood, I will seal you away!\"",
 			voice = "event:/educate/tb/educate-tb-story-33-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "\"Cursed power within my right eye, heed my words – with this leaf made of a sage's blood, I will seal you away!\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,14 +313,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg22",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Ain't that the coolest thing you've ever heard? I read it in a comic book!",
 			voice = "event:/educate/tb/educate-tb-story-33-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Ain't that the coolest thing you've ever heard? I read it in a comic book!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,14 +343,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg22",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hmph. Spoken like the most boring adult on the planet.",
 			voice = "event:/educate/tb/educate-tb-story-33-15",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hmph. Spoken like the most boring adult on the planet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,14 +373,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg22",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Owch! Hot, hot!",
 			voice = "event:/educate/tb/educate-tb-story-33-16",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Owch! Hot, hot!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			say = "And so, we have a fun stay at the hot spring resort.",
@@ -401,17 +401,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

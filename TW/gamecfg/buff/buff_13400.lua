@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13400,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13400,
+	color = "yellow",
 	icon = 13400,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				maxWeaponNumber = 0,
-				skill_id = 13400,
 				target = "TargetSelf",
+				maxWeaponNumber = 0,
 				check_weapon = true,
+				skill_id = 13400,
 				label = {
 					"SG"
 				}
@@ -42,10 +42,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 13405,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 13405,
 				label = {
 					"SG"
 				}
@@ -57,10 +57,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 13406,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 13406,
 				label = {
 					"SG"
 				}

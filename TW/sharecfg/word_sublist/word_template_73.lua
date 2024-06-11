@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_73 = {}
 slot1 = slot0.word_template_73
 
-function temp()
+temp = function()
 	uv0.S = {
 		M = {
 			this = true,
@@ -228,7 +228,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["制"] = {
 		["幻"] = {
 			["剂"] = {
@@ -491,7 +491,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["女"] = {
 		["性"] = {
 			["自"] = {
@@ -577,7 +577,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["操"] = {
 		["屄"] = {
 			this = true,

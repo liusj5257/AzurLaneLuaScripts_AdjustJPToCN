@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Fifteen minutes prior - Outside the Fountain of Youth",
 			bgm = "story-temepest-2",
+			say = "Fifteen minutes prior - Outside the Fountain of Youth",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "After passing through the storm, the rest of the girls found themselves in the waters surrounding the Fountain of Youth.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "An endless cyclone blew before them, and they were surrounded by black, mechanical trees reaching for the clouds. They gave off an unsettling aura.",
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "However, I think it's more apt to call it the Echo Fleet's home base~",
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So that was an outright lie! What they really wanted was to lure unsuspecting people like us into gathering artifacts for them...",
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "Retiree",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You should've curbed your expectations to begin with.",
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "If we can't beat 'em, let's just charge right through!",
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...That's what the Commander told me. I'm basically second in command.",
@@ -442,28 +442,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_524",
+			bgm = "theme-tempest",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "São Martinho raised her lance skywards, and after a moment, her galleon manifests from thin air in the water.",
-			bgm = "theme-tempest",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -517,11 +517,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Let's just say I run a small business~",
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "As Golden Hind finished speaking, a fleet consisting of mass-produced vessels emerged from the mist on the horizon.",
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "On Whydah's command, her ships rose from the sea once after the next, banners raised.",
@@ -623,8 +623,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "In but the blink of an eye, a great fleet had assembled. Though the Echo Fleet outnumbered them, the girls' fleet had superior deployment.",
@@ -653,11 +653,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "W-well, I'll constitute a fleet by myself if I have to!",
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hey, now, I did bring backup! Behold! The best ships money can buy... Ahaha...",
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "Royal Fortune gestured towards a pathetic group of mass-produced ships. Behind her forced smile, she was on the verge of tears.",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT24",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇-日常篇\n\n<size=45>七　像母亲一样的人</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……好了，穿过这片海域久远妳们应该就能回到原来的世界了喵",
 			bgm = "story-uta",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "……好了，穿过这片海域久远妳们应该就能回到原来的世界了喵",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "虽然一路都很危险，不过好在有学院的各位来帮忙……这也会成为我们记忆里浓墨重彩的一笔呢",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "他处不可久居",
 			typewriter = {
@@ -134,12 +134,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "主人还在我们的世界里等着我们呢。虽然很舍不得，不过还是回去吧",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "主人还在我们的世界里等着我们呢。虽然很舍不得，不过还是回去吧",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "——嗖嗖！轰隆！啪哐咚咔——轰隆隆隆！",
 			stopbgm = true,
 			bgName = "bg_story_chuansong",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			dir = 1,
-			say = "——嗖嗖！轰隆！啪哐咚咔——轰隆隆隆！",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -294,13 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……哪里来的炮击……！",
 			bgm = "level-uta",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "……哪里来的炮击……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,8 +314,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "难道……我们打倒了那么多了，还有敌人的援军吗！?",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "是啊…一只接一只地出现在水平线上了……和至今为止的数量根本没法比",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "以少打多",
 			typewriter = {
@@ -429,10 +429,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "完全不是一个数量级的战力差，现在是真的急需援军了……",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -447,11 +447,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_chuansong",
-			dir = 1,
 			say = "——咚咚咚咚！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -493,8 +493,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "呀！？猫音，危险！",
 			typewriter = {
@@ -507,8 +507,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -533,11 +533,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_chuansong",
-			dir = 1,
 			say = "咻咻——哐！哐！嘭！——轰隆隆隆！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -576,11 +576,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "攻击猫音的敌人被打飞起来了！?",
 			typewriter = {
 				speed = 0.05,
@@ -592,8 +592,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_chuansong",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -678,12 +678,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "姐姐大人，首轮攻击开始就做得有点过火了……太过头可坚持不到最后哦",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐大人，首轮攻击开始就做得有点过火了……太过头可坚持不到最后哦",
+			actor = 307020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -698,11 +698,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "哦哦，妳们终于来了喵！重樱的荣耀，无双的一航战！",
 			typewriter = {
 				speed = 0.05,
@@ -714,8 +714,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -740,17 +740,17 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "妳是叫做……久远，对吧",
 			bgm = "main-uta",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "妳是叫做……久远，对吧",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -778,10 +778,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "是，是的，您是……{namecode:91}小姐吧",
+			dir = 1,
+			actor = 10300010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -847,8 +847,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……诶？为什么……",
 			typewriter = {
@@ -880,8 +880,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "那也就是说……您也有许多想要守护的，重要的人……",
 			typewriter = {
@@ -974,11 +974,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "修理就交给我喵！",
 			typewriter = {
 				speed = 0.05,
@@ -990,8 +990,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1000,10 +1000,10 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
-			bgName = "bg_story_chuansong",
 			side = 0,
+			bgName = "bg_story_chuansong",
+			actor = 201210,
 			dir = 1,
 			hideOther = true,
 			actorName = "标枪＆{namecode:408}＆柚＆拉菲",
@@ -1057,8 +1057,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "大家快走吧！可不能浪费了{namecode:91}她们的心意！",
 			typewriter = {
@@ -1074,8 +1074,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "好，好的！各位，多保重……！",
 			typewriter = {
@@ -1088,8 +1088,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1117,8 +1117,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "有劳各位",
 			typewriter = {
@@ -1134,10 +1134,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "虽然时间不长，不过还是谢谢各位的照顾了。我替主人给各位道谢",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1168,15 +1168,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "……看来她们平安回去了呢",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1201,12 +1201,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "不过这次真是稀奇……姐姐大人居然会担心指挥官以外的人",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过这次真是稀奇……姐姐大人居然会担心指挥官以外的人",
+			actor = 307020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1285,15 +1285,15 @@ return {
 			}
 		},
 		{
-			actor = 10300020,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10300020,
+			nameColor = "#a9f548",
 			say = "……姐姐大人，您是在哭吗",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1321,8 +1321,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "嗯…为什么呢……听了那个叫{namecode:91}的人的话…眼泪就忍不住地…一直不停地涌出来……",
 			typewriter = {
@@ -1370,8 +1370,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "我也知道。虽然没有像{namecode:91}那样的母亲大人……",
 			typewriter = {
@@ -1400,12 +1400,12 @@ return {
 			}
 		},
 		{
-			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10300010,
+			nameColor = "#a9f548",
 			say = "从她身上，我感受到了无比令人怀念，而又无比温暖的感情",
 			typewriter = {
 				speed = 0.05,

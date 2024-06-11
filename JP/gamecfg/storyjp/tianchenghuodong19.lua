@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANCHENGHUODONG19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			bgName = "bg_story_tiancheng6",
 			dir = 1,
 			say = "…………",
@@ -47,12 +47,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
+			say = "加賀、起きたの？",
 			side = 1,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#ff0000",
 			dir = -1,
-			say = "加賀、起きたの？",
+			actor = 307010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -243,12 +243,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "あと少しで、「あの方」に会えるのよ…ふふふ……",
 			typewriter = {
 				speed = 0.05,

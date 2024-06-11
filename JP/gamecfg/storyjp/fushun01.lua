@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUSHUN01",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"四天王の大冒険・撫順編\n\n<size=45>その一　古倉庫でお宝探し</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "これが長春（チョウシュン）の言ってた倉庫か。へへへー、きっと面白いものがいっぱいあるぜ！",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "これが長春（チョウシュン）の言ってた倉庫か。へへへー、きっと面白いものがいっぱいあるぜ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
+			say = "えっと…指揮官の許可なしで入ってきて本当に大丈夫ですか…？",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "えっと…指揮官の許可なしで入ってきて本当に大丈夫ですか…？",
+			actor = 501040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -166,15 +166,15 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "げほげほ！…ほこりが多いよね…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
+			say = "げほげほ！…わかりにくい本がたくさん……",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "げほげほ！…わかりにくい本がたくさん……",
+			actor = 501040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

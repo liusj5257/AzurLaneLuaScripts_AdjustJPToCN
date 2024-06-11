@@ -1,15 +1,15 @@
 return {
-	id = "W2014",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2014",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "スキャンが完了しました。セイレーンの資源スポットを発見しました。…しかし、エネルギー供給がされていないようです",
 			typewriter = {
 				speed = 0.05,
@@ -24,8 +24,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "エネルギー供給装置の位置をナビゲーションシステムに表示させました。回収し格納プラットフォームに格納しましょう",
 			typewriter = {
 				speed = 0.05,

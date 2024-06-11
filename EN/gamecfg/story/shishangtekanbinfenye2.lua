@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANBINFENYE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANBINFENYE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Resplendent Night\n\n<size=45>2 Sleepy on a Busy Day</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "When I enter the pop-up restaurant, I find Laffey in uniform and carrying a tray.",
 			bgm = "bar-soft",
+			say = "When I enter the pop-up restaurant, I find Laffey in uniform and carrying a tray.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "She's so visibly sleepy that I have to worry about the drinks balancing on it.",
@@ -40,14 +40,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main1",
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = "main1",
 			say = "Welcome... Commander, sit wherever you want... Any open seat is probably fine.",
 			painting = {
 				alpha = 0.3,
@@ -59,14 +59,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
-			side = 2,
-			bgName = "star_level_bg_145",
-			live2d = true,
-			dir = 1,
-			actor = 101511,
 			nameColor = "#A9F548FF",
+			side = 2,
+			dir = 1,
 			hidePaintObj = true,
+			bgName = "star_level_bg_145",
+			actor = 101511,
+			actorName = "Laffey",
+			live2d = true,
 			say = "Commander... Did you come to check on the restaurant?",
 			painting = {
 				alpha = 0.3,
@@ -77,17 +77,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -107,14 +107,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "touch",
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = "touch",
 			say = "Yep... Laffey promised to help everyone around the restaurant... *yawn*... Sleepy...",
 			painting = {
 				alpha = 0.3,
@@ -126,14 +126,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = true,
 			say = "But don't worry, Commander... All Laffey has to do is take this tray from the counter to the tables...",
 			painting = {
 				alpha = 0.3,
@@ -145,14 +145,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = true,
 			say = "I'm just fine... Probably, yup...",
 			painting = {
 				alpha = 0.3,
@@ -164,14 +164,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = true,
 			say = "Oh... Do you want to order, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main3",
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = "main3",
 			say = "Here's the menu for today... If you want anything, let Laffey know...",
 			painting = {
 				alpha = 0.3,
@@ -202,14 +202,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = true,
 			say = "...The recommended drinks? Laffey likes... the soda...",
 			painting = {
 				alpha = 0.3,
@@ -221,14 +221,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = true,
 			say = "It's cold and refreshing, and... the feeling of the bubbly carbonation popping...",
 			painting = {
 				alpha = 0.3,
@@ -240,14 +240,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = true,
 			say = "You'll like it a lot, Commander...",
 			painting = {
 				alpha = 0.3,
@@ -283,14 +283,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main2",
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = "main2",
 			say = "Commander... Do you hate soda?",
 			painting = {
 				alpha = 0.3,
@@ -314,14 +314,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main3",
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = "main3",
 			say = "*stare*...",
 			painting = {
 				alpha = 0.3,
@@ -343,14 +343,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "mission_complete",
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = "mission_complete",
 			say = "One glass of soda... Wait a minute, Commander. I'll be right back.",
 			painting = {
 				alpha = 0.3,
@@ -362,14 +362,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
-			side = 2,
-			bgName = "star_level_bg_145",
-			live2d = true,
-			dir = 1,
-			actor = 101511,
 			nameColor = "#A9F548FF",
+			side = 2,
+			dir = 1,
 			hidePaintObj = true,
+			bgName = "star_level_bg_145",
+			actor = 101511,
+			actorName = "Laffey",
+			live2d = true,
 			say = "Thanks for waiting, Commander... Here's your soda.",
 			painting = {
 				alpha = 0.3,
@@ -380,17 +380,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -398,11 +398,11 @@ return {
 			}
 		},
 		{
-			actor = 101511,
+			live2d = "main1",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main1",
 			withoutActorName = true,
+			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Laffey puts the soda on the table and sits down right next to me.",
@@ -412,14 +412,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = true,
 			say = "Oh, the soda... Try it, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -431,8 +431,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "The cold drink runs through me, and the carbonated bubbles burst... Yep. That's just soda with ice in it.",
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "Suddenly, something heavy falls on my arm.",
@@ -465,14 +465,14 @@ return {
 			}
 		},
 		{
-			actorName = "Laffey",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "touch",
+			hidePaintObj = true,
 			dir = 1,
 			actor = 101511,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			actorName = "Laffey",
+			live2d = "touch",
 			say = "Kkh... Nnh... Zzzzzzz...",
 			painting = {
 				alpha = 0.3,
@@ -484,14 +484,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			withoutactorName = true,
 			actor = 101511,
-			actorName = "Laffey",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "An exhale touches my arm. When I turn to look, I see Laffey asleep, leaning on me.",
 			typewriter = {
 				speed = 0.05,
@@ -499,14 +499,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "Laffey",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
+			hidePaintObj = true,
 			withoutactorName = true,
 			actor = 101511,
-			actorName = "Laffey",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "It seems like I'll have to finish off this soda slowly.",
 			typewriter = {
 				speed = 0.05,

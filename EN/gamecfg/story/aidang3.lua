@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDANG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIDANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Date With Atago\n\n<size=45>Chapter 3: The Shopping Situation</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Outside of Port - Nearby Street",
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Outside of Port - Nearby Street",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 303130,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303130,
+			nameColor = "#a9f548",
 			say = "That may be the case, but... I don't know why I'm like this either...",
 			typewriter = {
 				speed = 0.05,
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "The two of them hastily beat their retreat.",
 			typewriter = {
 				speed = 0.05,

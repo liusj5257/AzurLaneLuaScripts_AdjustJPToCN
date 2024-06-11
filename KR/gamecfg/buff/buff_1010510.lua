@@ -9,13 +9,13 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "改变时代的炮声 +",
 	time = 0,
-	color = "yellow",
+	name = "改变时代的炮声 +",
+	init_effect = "",
+	id = 1010510,
 	picture = "",
 	stack = 1,
-	id = 1010510,
+	color = "yellow",
 	icon = 10510,
 	last_effect = "",
 	effect_list = {
@@ -34,9 +34,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 1010511,
 				time = 20,
-				target = "TargetSelf",
-				skill_id = 1010511
+				target = "TargetSelf"
 			}
 		}
 	}

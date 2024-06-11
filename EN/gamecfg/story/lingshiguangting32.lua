@@ -1,17 +1,17 @@
 return {
-	id = "LINGSHIGUANGTING32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING32",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Elizabeth's fleet successfully broke through the enemy and arrived at the gate. Then came a pleasant surprise.",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-camelot",
+			say = "Elizabeth's fleet successfully broke through the enemy and arrived at the gate. Then came a pleasant surprise.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,8 +34,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "The gate is still in working order, Your Majesty!",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 203049,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 203049,
 			actorName = "Suffolk (Retrofit)",
 			say = "Your Majesty! We've come to your aid!",
 			typewriter = {
@@ -113,11 +113,11 @@ return {
 			}
 		},
 		{
-			actor = 207029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 207029,
 			actorName = "Ark Royal (Retrofit)",
 			say = "Need a wingwoman, Indomitable?",
 			typewriter = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 206039,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 206039,
 			actorName = "Unicorn (Retrofit)",
 			say = "Unicorn is here to help too!",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 202039,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 202039,
 			actorName = "Ajax (Retrofit)",
 			say = "It appears we came not a moment too soon. The enemy is at the gate – literally.",
 			typewriter = {
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "The minute Scapa Flow received word of Elizabeth's rescue, it mobilized as many people as the teleporter platform could accommodate.",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 205029,
 			actorName = "Warspite (Retrofit)",
 			say = "I would've brought the entire fleet stationed at Scapa Flow if I could, but King George wouldn't allow it.",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "Antiochus has even recreated Point Berth in a Mirror Sea... What are they planning this time?",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "Hail, um... Your Royal Highness?",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "We are Renown and Repulse of the Ashes. For reasons we can't get into right now, we've mobilised to help.",
 			typewriter = {
@@ -363,8 +363,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "I know it's sudden, but please allow us to fight by your side.",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900327,
 			dir = 1,
+			actor = 900327,
 			nameColor = "#ffa500",
 			say = "So, Queen Elizabeth... Actually, can we just call you Lady Elizabeth?",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "I'm afraid my memories of it are hazy. What I can confidently say is that black tornado is not part of them.",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Your Majesty, Purifier's fleet has vanished! The big tornado is on its way toward us!",
 			typewriter = {
@@ -540,11 +540,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "This time, we'll stop that thing in its tracks! Raise Camelot's energy levels!",
 			effects = {
 				{
@@ -562,9 +562,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "At the queen's orders, the gate took on a new shape, discharging a great beam of energy that negated the tornado's powers.",
 			typewriter = {
 				speed = 0.05,
@@ -643,8 +643,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "There's no mistaking it! But how did she get here?",
 			typewriter = {
@@ -676,8 +676,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "She's a shipgirl from our branch, and the only person in existence that the head of Antiochus – Zero – cannot write into her mainframe.",
 			typewriter = {
@@ -693,8 +693,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "Even with the endless information from the past Zero has access to, she cannot reconstruct Richard.",
 			typewriter = {
@@ -710,8 +710,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "Moreover, Richard has never been seen in any other branch as far as we know.",
 			typewriter = {
@@ -727,8 +727,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "This is the first time we've laid eyes on her since her namesake incident.",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "Is she after you? Why?",
 			typewriter = {
@@ -921,8 +921,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "Definitely not. There's something wrong with her. Something deeply, profoundly wrong.",
 			typewriter = {
@@ -938,8 +938,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "Whatever it is, it goes beyond her being META. If Helena were here, she might have been able to clue us in...",
 			typewriter = {
@@ -971,8 +971,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "I'm afraid you've mistaken us for a different Renown and Repulse.",
 			typewriter = {
@@ -988,8 +988,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "The two before you... Us! We are shipgirls! We are Royal Knights!",
 			typewriter = {
@@ -1034,9 +1034,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "The tornado bellowed a resounding roar, raising an army of minions to do its bidding.",
 			typewriter = {
 				speed = 0.05,
@@ -1096,11 +1096,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 205029,
 			actorName = "Warspite (Retrofit)",
 			say = "They'll have to get through us first! We shall deal with them, Your Majesty!",
 			typewriter = {
@@ -1113,11 +1113,11 @@ return {
 			}
 		},
 		{
-			actor = 207029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 207029,
 			actorName = "Ark Royal (Retrofit)",
 			say = "Come on then, you nonces! Do your worst!",
 			typewriter = {
@@ -1133,8 +1133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Some will get through if they all swarm us! I will go in and cut them down to size!",
 			typewriter = {
@@ -1214,9 +1214,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
 			blackBg = true,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Understood! Ladies, on me!",
 			typewriter = {

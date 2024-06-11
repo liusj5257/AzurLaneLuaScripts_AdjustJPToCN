@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·武藏控制區第七回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "長門的選擇讓劍拔弩張的氣氛得到了緩解，不過隨著武藏行動的開始，酒匂的身邊突然出現了眾多飛舞的紫色蝴蝶。",
 			typewriter = {
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "所以不用緊張，我們之間暫時不用戰鬥了。",
 			painting = {
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "酒匂看向屹立在中心的黑色高塔，即使歷經了之前的猛烈戰鬥，那座高塔似乎依然沒什麼破損的跡象。",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "而在高塔之下，涼月和千代田已經就位了。",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#A9F548FF",
 			say = "不要用這麼恐怖的形容詞啊……這不只是一座機械塔而已嗎。",
 			painting = {
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "也許這個塔，代表的是某種塞壬的高級形式吧？",
 			painting = {
@@ -218,8 +218,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#A9F548FF",
 			say = "塞壬的高級形式……？看起來也沒什麼了不起的，千歲姐，我們一起上吧。",
 			painting = {
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "哇哦~哼哼哼，武藏大人讓我使用技能的指令也下來了。",
 			painting = {
@@ -268,8 +268,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "是時候讓大家，還有我自己見識一下了，我所設定技能的恐怖威力了！看招，「酒匂鬼神斬」——————！",
 			painting = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "酒匂身後突然出現了一個逐漸凝聚為實體的巨大的影子，揮舞著近百公尺的長刀，對水面發出了猛烈一擊。",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "產生的劍氣劈開海水，向著塔身衝去。不過比劍氣更先到的是艦載機的機炮與炸彈，猛烈的攻擊讓塔身逐漸出現了裂縫。",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "緊接著，數道細小的衝擊波憑空出現，對水面上的涼月等人發動了反擊。",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "有問題，它不想讓我們看清自己的狀態，說明這座塔正在刻意隱藏著什麼。",
 			painting = {
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "在眾人的觀察中，武藏結束了回合。不過第八回合沒有開始，而是進入了結算階段。",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "結算階段……？哎？這回合沒什麼要結算的啊。",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "這個光芒是…………大家小心，有什麼事要發生了！",
 			painting = {
@@ -453,8 +453,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "無聲的光芒散去之後，原本位於中心據點周邊的霧島、涼月、千代田和山城都消失了，一個新的身影出現在水面上。",
 			typewriter = {
@@ -462,17 +462,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -494,8 +494,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "開玩笑吧……滿狀態的霧島，被直接消滅了？！",
 			painting = {
@@ -511,8 +511,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "難道塔是把本回合受到的所有傷害全部釋放給了周圍的人嗎……",
 			painting = {
@@ -528,8 +528,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "大意了，沒想到還有這種機制，應該再觀察一個回合的……！",
 			painting = {
@@ -545,8 +545,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "……真是慘狀。可是令人不解啊……這是武藏設計的棋局她應該對規則心知肚明吧？",
 			painting = {
@@ -562,8 +562,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "為什麼明知會發生這種事，還要把自己的兩個人送進去？她這麼做的目的究竟是……",
 			painting = {
@@ -579,8 +579,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "……大前輩，中間出現的人型，是塞壬嗎？",
 			painting = {
@@ -596,8 +596,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "不知道，看起來是塞壬人形的風格，但是我沒見過它。",
 			painting = {
@@ -661,8 +661,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "真是連我也大吃一驚啊，不是說好的觀察者，而是這個塞壬的仲裁機關，仲裁者·赫米忒·IX。",
 			painting = {
@@ -694,8 +694,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "當時具有腐蝕性的海霧就是這東西使出來的伎倆，我絕對不會忘記這傢伙的樣子的。",
 			painting = {
@@ -711,8 +711,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "呵，如此近距離一看做的真是逼真又還原啊，一下子消滅了三個人嗎……",
 			painting = {

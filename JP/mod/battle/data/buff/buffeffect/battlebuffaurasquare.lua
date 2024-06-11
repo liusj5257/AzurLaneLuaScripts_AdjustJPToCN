@@ -6,11 +6,11 @@ slot1.__name = "BattleBuffAuraSquare"
 slot2 = slot0.Battle.BattleConst
 slot3 = slot0.Battle.BattleConfig
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot4, slot5, slot6, slot7 = uv0.Battle.BattleDataProxy.GetInstance():GetTotalBounds()
 	slot10 = slot5 + (slot4 - slot5) * 0.5
 	slot11 = slot6 + (slot7 - slot6) * 0.5
@@ -44,7 +44,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	}))
 end
 
-function slot1.Clear(slot0)
+slot1.Clear = function(slot0)
 	slot0._unit:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CANCEL_EFFECT, {
 		index = slot0._effectIndex
 	}))

@@ -1,10 +1,10 @@
 slot0 = class("WorldBossFormationPreViewPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldBossFormationPreViewPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.shipList = {
 		slot0:findTF("frame/ships/1"),
 		slot0:findTF("frame/ships/2"),
@@ -13,7 +13,7 @@ function slot0.OnLoaded(slot0)
 	slot0.returnBtn = slot0:findTF("frame/return")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -32,7 +32,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot2 = slot0.ships[slot1]
 
 	for slot6, slot7 in ipairs(slot0.shipList) do
@@ -40,7 +40,7 @@ function slot0.Switch(slot0, slot1)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	setParent(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 
@@ -63,11 +63,11 @@ function slot0.Show(slot0, slot1)
 	triggerToggle(slot0:findTF("frame/toggles/main"), true)
 end
 
-function slot0.OnHide(slot0)
+slot0.OnHide = function(slot0)
 	uv0.super.OnHide(slot0)
 end
 
-function slot0.UpdateShip(slot0, slot1, slot2)
+slot0.UpdateShip = function(slot0, slot1, slot2)
 	setActive(slot1:Find("bg/info"), slot2)
 
 	if slot2 then
@@ -92,7 +92,7 @@ function slot0.UpdateShip(slot0, slot1, slot2)
 	slot0:UpdateEquipments(slot3, slot2)
 end
 
-function slot0.UpdateEquipments(slot0, slot1, slot2)
+slot0.UpdateEquipments = function(slot0, slot1, slot2)
 	slot3 = UIItemList.New(slot1.parent:Find("equipemtns"), slot1.parent:Find("equipemtns/equipment_tpl"))
 	slot4 = slot2 and slot2:getActiveEquipments() or {}
 
@@ -119,7 +119,7 @@ function slot0.UpdateEquipments(slot0, slot1, slot2)
 	slot3:align(5)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -4,20 +4,20 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "翌朝早く、執務室のドアを開けると――",
 			bgm = "story-richang-6",
+			say = "翌朝早く、執務室のドアを開けると――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "昨夜まで片付いてなかった本がすべて元の場所に戻されていて、カーペットも地図もすべて元通り。そして…",
@@ -27,12 +27,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、おはよー",
 			painting = {
 				alpha = 0.3,
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "撫順姉さんじゃなくて長春がいるのはなんで？って困惑してるよね～？",
 			painting = {
 				alpha = 0.3,
@@ -73,12 +73,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "撫順姉さんはどこに行ったのかな？えへへ、長春も知らないよ～",
 			painting = {
 				alpha = 0.3,
@@ -90,12 +90,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そういえば、指揮官は撫順姉さんと「廃工場」に行ってきたんだよね？どうだった？",
 			painting = {
 				alpha = 0.3,
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「母港の不思議」の真相、わかった？",
 			painting = {
 				alpha = 0.3,
@@ -136,12 +136,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そっか～、それじゃあイングラハムと会った時みんなびっくりしたんだ？",
 			painting = {
 				alpha = 0.3,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "それを聞こうとした瞬間、外から大きな音が響き、執務室の窓もガタガタと揺れた。",
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "むぅ…廃工場の爆破ってそんなすぐにやるんだったっけ？",
 			painting = {
 				alpha = 0.3,
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "爆破されるって知った時、びっくりしたな～。まあ、もう爆破されたからどうでもいいけど",
 			painting = {
 				alpha = 0.3,
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふー、これでぜんぶ片付いた！それじゃ、バイバイ指揮官～",
 			painting = {
 				alpha = 0.3,
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "元通りになった執務室を眺めると、長春に適当に流されたとあることを思い出した。",
@@ -286,27 +286,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "しばらくして、当番するはずの撫順がようやく執務室にやってきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官ーー！ごめんごめん！今日秘書艦の仕事があるのをすっかり忘れてた！",
 			painting = {
 				alpha = 0.3,
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "煙の匂いがするって？あー。爆破工事の現場に行ってきたよ！",
 			painting = {
 				alpha = 0.3,
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "窓を開けて換気するね～ってあれ…？",
 			painting = {
 				alpha = 0.3,
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "後片付けが終わってる？",
 			painting = {
 				alpha = 0.3,
@@ -382,12 +382,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかして指揮官がやったの？うわぁ…本当にごめんなさい…！",
 			painting = {
 				alpha = 0.3,
@@ -423,12 +423,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そっか…長春だったんだ…",
 			painting = {
 				alpha = 0.3,
@@ -452,12 +452,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "違うよ。別に代わりにやって欲しいなんて言ってないよ？だって私、秘書艦の仕事すら忘れちゃってたもん…",
 			painting = {
 				alpha = 0.3,
@@ -469,12 +469,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（小声）長春がここに来たってことは、やっぱりあのことを気にしてたんだ……",
 			painting = {
 				alpha = 0.3,
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "何でもないよ！とにかく、今日の仕事を始めよう！指揮官！",
 			painting = {
 				alpha = 0.3,
@@ -515,27 +515,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "少し経ち、イングラハムが執務室を訪れてきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -546,10 +546,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今日、廃工場で行った爆破工事の報告書を提出するよ。テーブルに置いとくね",
 			painting = {
 				alpha = 0.3,
@@ -561,12 +561,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おおイングラハム！今朝の爆破、すごかったよ！バーンってあの建物がきれいに消えた！",
 			painting = {
 				alpha = 0.3,
@@ -578,12 +578,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "花火玉を持ってくのを忘れたのが本当惜しかったな～。イングラハムが爆破装置を起動したときに投げたら…きっとすごいのが見られたのに！",
 			painting = {
 				alpha = 0.3,
@@ -598,10 +598,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんな危ないことダメだから！",
 			painting = {
 				alpha = 0.3,
@@ -616,10 +616,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…まあ、とにかく爆破作業は無事終了した",
 			painting = {
 				alpha = 0.3,
@@ -631,12 +631,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それともう1つ…",
 			painting = {
 				alpha = 0.3,
@@ -651,10 +651,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "昨夜の奇妙な物音がちょっと気になったから、朝一で廃工場にもう一度確認しに行ったけど",
 			painting = {
 				alpha = 0.3,
@@ -669,10 +669,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、撫順、私以外に、実は4人目が現場にいた痕跡を見つけた",
 			painting = {
 				alpha = 0.3,
@@ -684,12 +684,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "誰なのか、どういう目的で廃工場に行ったのか、そもそもなぜ私たちと同じ時間に廃工場にいたのかは分からないけど…",
 			painting = {
 				alpha = 0.3,
@@ -704,10 +704,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "爆破の時はちゃんと避難連絡を出して、人がいないことを確認したから、巻き込まれてはいないはず",
 			painting = {
 				alpha = 0.3,
@@ -719,12 +719,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その4人目に関する調査記録も報告書に添付しておいた。指揮官、あとで目を通しておいて",
 			painting = {
 				alpha = 0.3,
@@ -736,12 +736,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よ、4人目なんているわけないよ！きっと妖怪かお化けだよ～。あはは…",
 			painting = {
 				alpha = 0.3,
@@ -753,12 +753,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん！きっとイングラハムの見間違いだよ！4人目なんているはずないもん",
 			painting = {
 				alpha = 0.3,

@@ -5,22 +5,22 @@ slot0.Battle.BattleBuffCastSkill.__name = "BattleBuffCastSkill"
 slot1 = slot0.Battle.BattleBuffCastSkill
 slot1.FX_TYPE = slot0.Battle.BattleBuffEffect.FX_TYPE_CASTER
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._castCount = 0
 	slot0._fireSkillDMGSum = 0
 end
 
-function slot1.GetEffectType(slot0)
+slot1.GetEffectType = function(slot0)
 	return uv0.FX_TYPE
 end
 
-function slot1.GetGroupData(slot0)
+slot1.GetGroupData = function(slot0)
 	return slot0._group
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._level = slot2:GetLv()
 	slot3 = slot0._tempData.arg_list
 	slot0._skill_id = slot3.skill_id
@@ -50,7 +50,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._srcBuff = slot2
 end
 
-function slot1.onBulletCreate(slot0, slot1, slot2, slot3)
+slot1.onBulletCreate = function(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
@@ -62,11 +62,11 @@ function slot1.onBulletCreate(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot1.onTrigger(slot0, slot1, slot2, slot3)
+slot1.onTrigger = function(slot0, slot1, slot2, slot3)
 	return slot0:castSkill(slot1, slot3, slot2)
 end
 
-function slot1.castSkill(slot0, slot1, slot2, slot3)
+slot1.castSkill = function(slot0, slot1, slot2, slot3)
 	if slot0:IsInCD(pg.TimeMgr.GetInstance():GetCombatTime()) then
 		return "overheat"
 	end
@@ -176,11 +176,11 @@ function slot1.castSkill(slot0, slot1, slot2, slot3)
 	slot0:enterCoolDown(slot4)
 end
 
-function slot1.IsInCD(slot0, slot1)
+slot1.IsInCD = function(slot0, slot1)
 	return slot1 < slot0._nextEffectTime
 end
 
-function slot1.spell(slot0, slot1, slot2)
+slot1.spell = function(slot0, slot1, slot2)
 	slot0._skill = slot0._skill or uv0.Battle.BattleSkillUnit.GenerateSpell(slot0._skill_id, slot0._level, slot1, attData)
 
 	if slot2 and slot2.target then
@@ -194,13 +194,13 @@ function slot1.spell(slot0, slot1, slot2)
 	slot0._castCount = slot0._castCount + 1
 end
 
-function slot1.enterCoolDown(slot0, slot1)
+slot1.enterCoolDown = function(slot0, slot1)
 	if slot0._time and slot0._time > 0 then
 		slot0._nextEffectTime = slot1 + slot0._time
 	end
 end
 
-function slot1.Interrupt(slot0)
+slot1.Interrupt = function(slot0)
 	uv0.super.Interrupt(slot0)
 
 	if slot0._skill then
@@ -208,7 +208,7 @@ function slot1.Interrupt(slot0)
 	end
 end
 
-function slot1.Clear(slot0)
+slot1.Clear = function(slot0)
 	uv0.super.Clear(slot0)
 
 	if slot0._skill then
@@ -218,45 +218,27 @@ function slot1.Clear(slot0)
 	end
 end
 
-function slot1.BuffAttachDataCondition(slot0, slot1)
+slot1.BuffAttachDataCondition = function(slot0, slot1)
 	slot2 = true
 
 	for slot7, slot8 in ipairs(slot1:GetEffectList()) do
 		for slot12, slot13 in ipairs(slot0._effectAttachData) do
-			if slot8.__name == slot13.type then
-				slot14 = slot13.type
-				slot15 = slot13.value
-				slot17 = slot8:GetEffectAttachData()
-
-				if slot13.op == "equal" and slot17 ~= slot15 then
-					slot2 = false
-				elseif slot16 == "notequal" and slot17 == slot15 then
-					slot2 = false
-				elseif slot16 == "lessequal" and slot15 < slot17 then
-					slot2 = false
-				elseif slot16 == "greatequal" and slot17 < slot15 then
-					slot2 = false
-				elseif slot16 == "great" and slot17 <= slot15 then
-					slot2 = false
-				elseif slot16 == "less" and slot15 <= slot17 then
-					slot2 = false
-				end
-			end
+			slot2 = slot2 and uv0.Battle.BattleFormulas.parseCompareBuffAttachData(slot13, slot8)
 		end
 	end
 
 	return slot2
 end
 
-function slot1.GetWinningStreak(slot0)
+slot1.GetWinningStreak = function(slot0)
 	return slot0[1] <= uv0.Battle.BattleDataProxy.GetInstance():GetWinningStreak() and slot1 < slot0[2]
 end
 
-function slot1.GetDungeonType(slot0)
+slot1.GetDungeonType = function(slot0)
 	return table.contains(slot0, pg.expedition_data_template[uv0.Battle.BattleDataProxy.GetInstance():GetInitData().StageTmpId].type)
 end
 
-function slot1.GetEquipmentList(slot0, slot1)
+slot1.GetEquipmentList = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0:GetEquipment()) do
@@ -308,7 +290,7 @@ function slot1.GetEquipmentList(slot0, slot1)
 	return slot3
 end
 
-function slot1.FilterSpWeapon(slot0, slot1)
+slot1.FilterSpWeapon = function(slot0, slot1)
 	(function ()
 		if not uv0 then
 			uv1 = false
@@ -336,11 +318,11 @@ function slot1.FilterSpWeapon(slot0, slot1)
 	return true and slot0:GetSpWeapon() or nil
 end
 
-function slot1.GetCastCount(slot0)
+slot1.GetCastCount = function(slot0)
 	return slot0._castCount
 end
 
-function slot1.GetSkillFireDamageSum(slot0)
+slot1.GetSkillFireDamageSum = function(slot0)
 	slot0._fireSkillDMGSum = math.max(slot0._skill and slot0._skill:GetDamageSum() or 0, slot0._fireSkillDMGSum)
 
 	return slot0._fireSkillDMGSum

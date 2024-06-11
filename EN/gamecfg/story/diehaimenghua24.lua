@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "There's no way the enemy subs can keep up with Yukikaze the Great's speed! As long as we keep this up, we'll be done here in no time!",
 			bgm = "battle-boss-3",
+			actor = 301160,
+			nameColor = "#a9f548",
+			say = "There's no way the enemy subs can keep up with Yukikaze the Great's speed! As long as we keep this up, we'll be done here in no time!",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -33,11 +33,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "Charge! Charge! Upon our honor, crush the Army of the West~♪",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"My movement... seems a bit sluggish... Even at full output...\"",
 			typewriter = {
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "We're gonna be in trouble if Shinano can't outpace the submarines and they catch up to us!",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/fengling",
+			say = "——Evade. Steer away from the submarines. ",
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			dir = 1,
-			say = "——Evade. Steer away from the submarines. ",
+			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,9 +232,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Is that not the voice I heard in the previous dream? What is going on...?)",
 			typewriter = {

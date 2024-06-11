@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			say = "気づけば砂浜が潮に流されてきたゴミで埋め尽くされていた。",
 			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgm = "main-SeaAndSun",
-			say = "気づけば砂浜が潮に流されてきたゴミで埋め尽くされていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "青い海と澄み渡る青空に対して、人工的な存在感を放つゴミの山はとても目ざわりだ。",
 			typewriter = {
 				speed = 0.05,

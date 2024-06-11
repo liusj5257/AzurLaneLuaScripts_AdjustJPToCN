@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "海霧の鏡面海域　ユニオン「駒」集結地",
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-battle",
+			hidePaintObj = true,
+			say = "海霧の鏡面海域　ユニオン「駒」集結地",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ユニオンの「駒」の調査はこんなところか…特に目ぼしい発見はなかったわね",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "量産艦のほうにも指揮官がいるような様子はありませんね",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -81,10 +81,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ごめんなさい…ちょっと休ませて……",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -108,10 +108,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "こっちもちょっと休憩…まさか、あの数の量産艦を一気に調べるなんて",
 			typewriter = {
 				speed = 0.05,
@@ -123,12 +123,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ついでに上手く「駒」も全部倒せたって褒めてくれてもいいわよ？",
 			typewriter = {
 				speed = 0.05,
@@ -143,10 +143,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ユニオン最大最強のブラック・ドラゴンであるニュージャージーはさすがのスタミナだね！とか♪",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ははは…次はあまり先に突っ走らないでお願いね？",
 			typewriter = {
 				speed = 0.05,
@@ -188,10 +188,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "分かっているわ。さて、あたしも少し休憩しよっと",
 			typewriter = {
 				speed = 0.05,
@@ -203,13 +203,13 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（次は重桜側の「駒」も調べなきゃならないから、体力を温存しないとっ）",
 			typewriter = {
 				speed = 0.05,

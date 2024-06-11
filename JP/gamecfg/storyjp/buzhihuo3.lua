@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BUZHIHUO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BUZHIHUO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"万能店員シラヌイ\n\n<size=45>三　突撃取材！隣の購買部</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・購買部",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・購買部",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "また購買部の様子が見える隣の雑木林に隠れて店の中を観察（？）しに来てしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "別にそこまで仲がいいわけではございませんが",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "別にそこまで仲がいいわけではございませんが",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "もちろん！じゃあ早速質問させてもらいますね？",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "ええええ！じゃ、じゃあ……お化けとか幽霊とかが見えるのは……？",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "って今の本物！？",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "きゃああああ！",
 			typewriter = {
 				speed = 0.05,
@@ -362,16 +362,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 3
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.6,
 					dur = 0.3,
 					x = -1800
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "また不知火の別の一面を知ることが出来た。",
 			typewriter = {
 				speed = 0.05,

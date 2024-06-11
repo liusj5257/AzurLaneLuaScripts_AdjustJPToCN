@@ -1,6 +1,6 @@
 slot0 = class("NewBackYardThemeTemplateLayer", import("...base.BaseUI"))
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		if not uv0() then
 			return
@@ -20,21 +20,21 @@ function slot1(slot0, slot1, slot2)
 	end)(slot1, false)
 end
 
-function slot0.forceGC(slot0)
+slot0.forceGC = function(slot0)
 	return true
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewBackYardTemplateUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	_backYardThemeTemplateMsgbox = BackyardMsgBoxMgr.New()
 
 	_backYardThemeTemplateMsgbox:Init(slot0, slot1)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.tpl = slot0:findTF("adpter/tag/list/tpl")
 	slot0.container = slot0:findTF("adpter/tag/list")
 	slot0.pageContainer = slot0:findTF("pages")
@@ -54,11 +54,11 @@ function slot0.init(slot0)
 	slot0.contextData.msgBox = BackYardThemeTemplateMsgBox.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
-function slot0.SetShopThemeTemplate(slot0, slot1)
+slot0.SetShopThemeTemplate = function(slot0, slot1)
 	slot0.shopThemeTemplate = slot1
 end
 
-function slot0.ShopThemeTemplateUpdate(slot0, slot1)
+slot0.ShopThemeTemplateUpdate = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.shopThemeTemplate) do
 		if slot6.id == slot1.id then
 			slot0.shopThemeTemplate[slot5] = slot1
@@ -72,7 +72,7 @@ function slot0.ShopThemeTemplateUpdate(slot0, slot1)
 	end
 end
 
-function slot0.OnShopTemplatesUpdated(slot0, slot1)
+slot0.OnShopTemplatesUpdated = function(slot0, slot1)
 	slot0:SetShopThemeTemplate(slot1)
 
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
@@ -80,17 +80,17 @@ function slot0.OnShopTemplatesUpdated(slot0, slot1)
 	end
 end
 
-function slot0.OnShopTemplatesErro(slot0)
+slot0.OnShopTemplatesErro = function(slot0)
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 		slot0.listPage:ExecuteAction("ThemeTemplatesErro", slot0:GetDataForType(slot0.pageType))
 	end
 end
 
-function slot0.SetCustomThemeTemplate(slot0, slot1)
+slot0.SetCustomThemeTemplate = function(slot0, slot1)
 	slot0.customThemeTemplate = slot1
 end
 
-function slot0.CustomThemeTemplateUpdate(slot0, slot1)
+slot0.CustomThemeTemplateUpdate = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.customThemeTemplate) do
 		if slot6.id == slot1.id then
 			slot0.customThemeTemplate[slot5] = slot1
@@ -104,11 +104,11 @@ function slot0.CustomThemeTemplateUpdate(slot0, slot1)
 	end
 end
 
-function slot0.SetCollectionThemeTemplate(slot0, slot1)
+slot0.SetCollectionThemeTemplate = function(slot0, slot1)
 	slot0.collectionThemeTemplate = slot1
 end
 
-function slot0.CollectionThemeTemplateUpdate(slot0, slot1)
+slot0.CollectionThemeTemplateUpdate = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.collectionThemeTemplate) do
 		if slot6.id == slot1.id then
 			slot0.collectionThemeTemplate[slot5] = slot1
@@ -122,11 +122,11 @@ function slot0.CollectionThemeTemplateUpdate(slot0, slot1)
 	end
 end
 
-function slot0.SetDorm(slot0, slot1)
+slot0.SetDorm = function(slot0, slot1)
 	slot0.dorm = slot1
 end
 
-function slot0.UpdateDorm(slot0, slot1)
+slot0.UpdateDorm = function(slot0, slot1)
 	slot0:SetDorm(slot1)
 
 	if slot0.pageType then
@@ -134,11 +134,11 @@ function slot0.UpdateDorm(slot0, slot1)
 	end
 end
 
-function slot0.SetPlayer(slot0, slot1)
+slot0.SetPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.PlayerUpdated(slot0, slot1)
+slot0.PlayerUpdated = function(slot0, slot1)
 	slot0:SetPlayer(slot1)
 	slot0:UpdateRes()
 
@@ -147,31 +147,31 @@ function slot0.PlayerUpdated(slot0, slot1)
 	end
 end
 
-function slot0.FurnituresUpdated(slot0, slot1)
+slot0.FurnituresUpdated = function(slot0, slot1)
 	if slot0.pageType then
 		slot0.listPage:ExecuteAction("FurnituresUpdated", slot1)
 	end
 end
 
-function slot0.SearchKeyChange(slot0, slot1)
+slot0.SearchKeyChange = function(slot0, slot1)
 	if slot0.pageType and (slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM or slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION) then
 		slot0.listPage:ExecuteAction("SearchKeyChange", slot1)
 	end
 end
 
-function slot0.ShopSearchKeyChange(slot0, slot1)
+slot0.ShopSearchKeyChange = function(slot0, slot1)
 	if slot0.pageType and slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 		slot0.listPage:ExecuteAction("ShopSearchKeyChange", slot1)
 	end
 end
 
-function slot0.ClearShopSearchKey(slot0)
+slot0.ClearShopSearchKey = function(slot0)
 	if slot0.pageType and slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 		slot0.listPage:ExecuteAction("ClearShopSearchKey")
 	end
 end
 
-function slot0.DeleteCustomThemeTemplate(slot0, slot1)
+slot0.DeleteCustomThemeTemplate = function(slot0, slot1)
 	if not slot0.customThemeTemplate then
 		return
 	end
@@ -189,7 +189,7 @@ function slot0.DeleteCustomThemeTemplate(slot0, slot1)
 	end
 end
 
-function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
+slot0.DeleteCollectionThemeTemplate = function(slot0, slot1)
 	if not slot0.collectionThemeTemplate then
 		return
 	end
@@ -207,7 +207,7 @@ function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
 	end
 end
 
-function slot0.DeleteShopThemeTemplate(slot0, slot1)
+slot0.DeleteShopThemeTemplate = function(slot0, slot1)
 	if not slot0.shopThemeTemplate then
 		return
 	end
@@ -225,7 +225,7 @@ function slot0.DeleteShopThemeTemplate(slot0, slot1)
 	end
 end
 
-function slot0.AddCollectionThemeTemplate(slot0, slot1)
+slot0.AddCollectionThemeTemplate = function(slot0, slot1)
 	slot0.collectionThemeTemplate[slot1.id] = slot1
 
 	if slot0.pageType and slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
@@ -233,7 +233,7 @@ function slot0.AddCollectionThemeTemplate(slot0, slot1)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -257,7 +257,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.InitPages(slot0)
+slot0.InitPages = function(slot0)
 	slot0.btns = {}
 
 	for slot4, slot5 in pairs(slot0.tags) do
@@ -286,11 +286,11 @@ function slot0.InitPages(slot0)
 	setActive(slot0.tpl, false)
 end
 
-function slot0.ActiveDefaultPage(slot0)
+slot0.ActiveDefaultPage = function(slot0)
 	triggerButton(slot0.btns[slot0.contextData.page or BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM])
 end
 
-function slot0.GetDataForType(slot0, slot1)
+slot0.GetDataForType = function(slot0, slot1)
 	if slot1 == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 		slot2 = {}
 
@@ -322,12 +322,12 @@ function slot0.GetDataForType(slot0, slot1)
 	assert(false)
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	slot0.goldTxt.text = slot0.player:getResource(PlayerConst.ResDormMoney)
 	slot0.gemTxt.text = slot0.player:getTotalGem()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	_backYardThemeTemplateMsgbox:Destroy()
 
 	_backYardThemeTemplateMsgbox = nil

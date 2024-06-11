@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.012
+					number = 0.012,
+					attr = "cri"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.014
+					number = 0.014,
+					attr = "cri"
 				}
 			},
 			{
@@ -82,8 +82,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.016
+					number = 0.016,
+					attr = "cri"
 				}
 			},
 			{
@@ -119,8 +119,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.018
+					number = 0.018,
+					attr = "cri"
 				}
 			},
 			{
@@ -156,8 +156,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.02
+					number = 0.02,
+					attr = "cri"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.022
+					number = 0.022,
+					attr = "cri"
 				}
 			},
 			{
@@ -230,8 +230,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.024
+					number = 0.024,
+					attr = "cri"
 				}
 			},
 			{
@@ -267,8 +267,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.026
+					number = 0.026,
+					attr = "cri"
 				}
 			},
 			{
@@ -304,8 +304,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.028
+					number = 0.028,
+					attr = "cri"
 				}
 			},
 			{
@@ -341,8 +341,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.03
+					number = 0.03,
+					attr = "cri"
 				}
 			},
 			{
@@ -369,9 +369,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "暴击率提高",
 	stack = 3,
@@ -393,8 +393,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.012
+				number = 0.012,
+				attr = "cri"
 			}
 		},
 		{

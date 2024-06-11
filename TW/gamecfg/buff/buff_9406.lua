@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "古立特联动 宝多六花支援弹幕LV2",
 	time = 5,
-	color = "yellow",
+	name = "古立特联动 宝多六花支援弹幕LV2",
+	init_effect = "",
+	id = 9406,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9406,
+	color = "yellow",
 	icon = 9406,
 	last_effect = "",
 	effect_list = {

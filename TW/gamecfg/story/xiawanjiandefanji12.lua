@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401020,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-boss-1",
 			dir = 1,
 			say = "果然驅逐艦想要挑戰戰列艦還是太勉強了嗎…",
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 205020,
 			side = 2,
 			hideOther = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "到此為止了，鐵血的驅逐艦，妳們戰鬥得很英勇。",
 			typewriter = {
 				speed = 0.05,
@@ -53,10 +53,10 @@ return {
 			}
 		},
 		{
+			say = "轟-------------！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟-------------！",
 			flashN = {
 				color = {
 					1,
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

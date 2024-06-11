@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE11",
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "ハーディ",
 			nameColor = "#a9f548",
+			actorName = "ハーディ",
 			bgName = "bg_story_naerweike",
-			side = 0,
-			dir = 1,
-			bgm = "battle-boss-1",
 			say = "終わりです！",
+			dir = 1,
+			side = 0,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,10 +37,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			say = "…！！ハーディ！",
+			dir = 1,
 			actor = 201200,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "…！！ハーディ！",
 			actorPosition = {
 				x = -1500,
 				y = 0
@@ -55,8 +55,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 2250
@@ -64,12 +64,12 @@ return {
 			}
 		},
 		{
-			actor = 201200,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "うぅ！？",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 201200,
+			say = "うぅ！？",
 			flashN = {
 				color = {
 					1,
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201160,
 			dir = 1,
+			actor = 201160,
 			say = "増援！？",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "くっ、早く撤退を――！",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -1500
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			side = 1,
 			hideOther = true,
-			actor = 401020,
 			dir = -1,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "手強い相手ね……ええ、味方が来なければやられたところだった",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 401020,
 			dir = -1,
+			actor = 401020,
 			say = "いいえ、ハンスの判断は正しかった。むやみに追うことより味方との合流をした方がいい",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 401020,
 			dir = -1,
+			actor = 401020,
 			say = "そう遠くないうちに第二波が来る。しっかり備えなくては",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

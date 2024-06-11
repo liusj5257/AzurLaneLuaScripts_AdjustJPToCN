@@ -1,15 +1,15 @@
 return {
-	id = "W612000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W612000",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Scan complete. Control device responsible for abnormal ocean currents has been located.There are a total of 4 ocean current control devices. Their destruction is recommend.",
 			typewriter = {
 				speed = 0.05,

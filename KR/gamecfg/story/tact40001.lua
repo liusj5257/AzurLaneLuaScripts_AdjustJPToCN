@@ -10,8 +10,8 @@ return {
 		{
 			actor = 306030,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 0,
+			nameColor = "#ff0000",
 			say = "难得有这么好的机会，天时、地利、人和……",
 			shake = {
 				speed = 1,
@@ -29,8 +29,8 @@ return {
 		{
 			actor = 306030,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 0,
+			nameColor = "#ff0000",
 			say = "就让我再测试一下你们的反应吧呵呵呵~",
 			shake = {
 				speed = 1,

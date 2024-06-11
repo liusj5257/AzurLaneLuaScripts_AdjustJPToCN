@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			actorName = "극중 내레이션",
-			stopbgm = true,
-			paintingNoise = true,
+			bgName = "star_level_bg_504",
 			bgm = "cw-story",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
+			paintingNoise = true,
 			hidePaintObj = true,
 			say = "\"하얀 안개가 걷히자, 나그네는 자신이 개쩌는 나무배를 타고 있다는 걸 깨달았다!\"",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,10 +63,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"딩동댕~! 눈치가 빠르네.\"",
 			typewriter = {
 				speed = 0.05,
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "둥실이와 함께",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "방금까진 설산이었는데… 신기하다…",
@@ -95,10 +95,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"억수처럼 쏟아지는 비랑 휙휙 부는 바람 때문에 바다는 거칠게 날뛰었고, 나그네는 극심한 뱃멀미를 느꼈다.\"",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으음…… 푸슌은 아무렇지도 않은데?",
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "함선이 무슨 뱃멀미를 해… 말이 안 되는 소리도 정도껏 해야지.",
@@ -146,10 +146,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"그런가? 뭐 여튼, 억수 같은 비랑 매서운 바람으로 바다는 날뛰고, 그런데 나그네는 우수에 찬 얼굴을 하고 있다. 크으… 나그네 간지 폭발!\"",
 			typewriter = {
 				speed = 0.05,
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그런 나그네도 바다 앞에서는 자그마한 존재에 불과하다.\"",
 			typewriter = {
@@ -175,10 +175,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"그것이 무시무시한 바다의 요괴 '바다허깨비' 앞에 선 자그마한 어선 몇 척이라면 말할 것도 없으리라! 대위기를 맞이한 나그네들!\"",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "바다허깨비",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "연장자의 실력을 무시하지 마라",
 			nameColor = "#A9F548FF",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "바다허깨비",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "연장자의 실력을 무시하지 마라",
 			nameColor = "#A9F548FF",
@@ -263,10 +263,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "선량한 어부",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "공물이 바다허깨비 성에 안 차면, 폭풍이 그치지 않고 계속되니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "선량한 어부를 괴롭히다니 너무해! 이런 나쁜 녀석은 다 같이 힘을 합쳐서 무찔러 버리자!",
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "찬성! 아무리 강한 요괴라도 함포에는 꼼짝 못 할걸!",
@@ -339,10 +339,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302210,
 			actorName = "용감한 어부",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "피땀 흘려 얻은 걸 고스란히 요괴에게 넘겨주다니, 분해서 견딜 수가 없다고.",
 			typewriter = {
 				speed = 0.05,
@@ -353,10 +353,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "선량한 어부",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "으아아…! 진정하세요, 용감한 어부 공!",
 			typewriter = {
 				speed = 0.05,
@@ -393,10 +393,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"어, 어라…? 용감한 어부는 작살을 손에 들고 바다허깨비를 무찌르기 위해 배에서 뛰어 내렸다.\"",
 			typewriter = {
 				speed = 0.05,
@@ -407,10 +407,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그러자, 안 그래도 난폭해져 있던 바다에 거대한 파도가 일어, 용감한 어부는 불행히도 칠흑빛 바닷속에 삼켜지고 말았다!\"",
 			typewriter = {
@@ -422,10 +422,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "선량한 어부",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하아…… 그러니까 제가 말했잖아요!",
 			typewriter = {
 				speed = 0.05,
@@ -484,11 +484,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "가짜로 공물을 바치면 스테이지 클리어가 안 될 것 같아.",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "바다허깨비",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "연장자의 실력을 무시하지 마라",
 			nameColor = "#A9F548FF",
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"어이쿠, 양이 너무 적어서 바다허깨비가 빡친 모양이네. 배를 덮친 거대한 파도에 휩쓸려 성실한 어부 스루가도 아웃!\"",
 			typewriter = {
@@ -573,10 +573,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "선량한 어부",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어, 어, 어떡하죠… 우리가 가지고 있는 걸로는 절대 만족할 것 같지 않은데…!",
 			typewriter = {
 				speed = 0.05,
@@ -597,11 +597,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "바칠 공물도 없고, 직접 포격하는 것도 안 되고…… 이걸 어쩌면 좋지?",
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "독점욕이 강한 작은 악마",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "일단은 배에 남아 있는 것들을 모아보자.",
@@ -652,13 +652,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "푸슌&브리스톨",
+			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			hideOther = true,
 			actor = 501020,
 			nameColor = "#A9F548FF",
-			side = 2,
+			hidePaintObj = true,
 			say = "그런 방법이……!!",
 			dialogShake = {
 				speed = 0.08,
@@ -683,10 +683,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "선량한 어부",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(카스미가 제안했던 방법이랑 비슷한 것 같은데…?!)",
 			dialogShake = {
 				speed = 0.08,
@@ -701,11 +701,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			paintingNoise = true,
-			actorName = "극중 내레이션",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그렇게 일행은 어선에서 공물을 차례차례 한곳으로 모았고, 바다허깨비는 탐욕스러운 눈동자로 공물 더미를 뚫어져라 쳐다보았다.",
 			typewriter = {
@@ -713,17 +713,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -731,8 +731,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "바다허깨비",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "연장자의 실력을 무시하지 마라",
 			nameColor = "#A9F548FF",
@@ -755,10 +755,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그렇게 말한 바다허깨비는 안달이 난 건지 공물을 빼앗으려고 달려들었다!\"",
 			typewriter = {
@@ -786,11 +786,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하츠즈키! 공물을 조금만 바다에 던져줘! 조금 더 우리 쪽으로 끌어들여야 해!",
@@ -804,11 +804,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "독점욕이 강한 작은 악마",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "알았어, 나한테 맡겨줘!",
@@ -822,8 +822,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -851,8 +851,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -880,8 +880,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -893,10 +893,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"음… 이건… 도깨비불 같네.\"",
 			typewriter = {
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -936,10 +936,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"음… 너무 무서워서 궁지에 몰린 나그네는, 죽을힘을 다해 뛰어올랐다!\"",
 			typewriter = {
@@ -951,10 +951,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"오오, 대박! 하츠즈키는 높이 뛰어올라 옆에 있던 배에 안착했다! 하지만 그곳에는……\"",
 			typewriter = {
@@ -982,8 +982,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -994,10 +994,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"비명을 내지르며 온 배를 다 뛰어다닌 그녀는 자기도 모르는 사이에 여덟 번째 배까지 이동했고, 결국 바다허깨비의 코앞까지 도달했다!\"",
 			typewriter = {
 				speed = 0.05,
@@ -1005,8 +1005,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "바다허깨비",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "연장자의 실력을 무시하지 마라",
 			nameColor = "#A9F548FF",
@@ -1045,8 +1045,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -1056,11 +1056,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			paintingNoise = true,
-			actorName = "극중 내레이션",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그렇게 바다허깨비는 쓰러져 바다에는 다시 평온이 찾아왔고, 어부들도 평온한 삶을 되찾게 되었다.\"",
 			typewriter = {
@@ -1068,17 +1068,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1089,10 +1089,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"그렇게 다들 행복하게 살았다고 한다. 끝.\"",
 			typewriter = {
 				speed = 0.05,

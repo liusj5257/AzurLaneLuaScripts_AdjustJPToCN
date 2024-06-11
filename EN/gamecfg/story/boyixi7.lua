@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Me and the Boise\n\n<size=45>7.The Sweetness of Tiramisu</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "Boise asked to have dinner with me, and I met her at a little bar by the Eagle Union dorms.",
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "Boise asked to have dinner with me, and I met her at a little bar by the Eagle Union dorms.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:197}",
+			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "C-Commander...",
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Haah... Haah...",
 			typewriter = {
 				speed = 0.05,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I took off the mask... just like you asked me to...",
 			typewriter = {
 				speed = 0.05,
@@ -152,15 +152,15 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um, umm... would you like something to drink...",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I made a promise with St. Louis... If you asked to see my face, I'd change into this outfit and then... ask you out on a date...",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "And if I did that, she'd help me pick out a gift that you like...",
 			typewriter = {
 				speed = 0.05,
@@ -260,10 +260,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "C-Commander, um... Now that you see me, what do you think...?",
 			typewriter = {
 				speed = 0.05,
@@ -293,10 +293,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "D-deep breaths... Haah... Haah... Okay, I feel a lot better...",
 			typewriter = {
 				speed = 0.05,
@@ -308,17 +308,17 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander... Umm, thanks for always treating me so well...",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -335,12 +335,12 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I know I've caused you a lot of trouble, but I'm glad you've always been so patient and understanding with me...",
 			typewriter = {
 				speed = 0.05,
@@ -355,10 +355,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "If you like what you see, then, um... I'll do everything I can to support you, so, um...",
 			typewriter = {
 				speed = 0.05,
@@ -388,10 +388,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh, um, I think the food is here...",
 			typewriter = {
 				speed = 0.05,

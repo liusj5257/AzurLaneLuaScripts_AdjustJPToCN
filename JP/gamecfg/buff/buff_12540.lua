@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "圣胡安防空",
 	init_effect = "",
+	id = 12540,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12540,
+	color = "yellow",
 	icon = 12540,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				rant = 2500,
-				target = "TargetSelf",
 				skill_id = 12540,
+				target = "TargetSelf",
 				time = 8
 			}
 		},
@@ -53,8 +53,8 @@ return {
 			},
 			arg_list = {
 				quota = 3,
-				target = "TargetSelf",
 				skill_id = 12541,
+				target = "TargetSelf",
 				countType = 12540
 			}
 		}

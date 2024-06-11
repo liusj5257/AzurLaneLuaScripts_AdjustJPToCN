@@ -1,10 +1,10 @@
 slot0 = class("BackYardThemeInfoPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardThemeInfoPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.scrollRect = slot0:findTF("frame/list"):GetComponent("LScrollRect")
 	slot0.nameTxt = slot0:findTF("frame/name"):GetComponent(typeof(Text))
 	slot0.icon = slot0:findTF("frame/icon/Image"):GetComponent(typeof(Image))
@@ -23,14 +23,14 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.purchaseAllBtn:Find("Text"), i18n("fur_all_buy"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.cards = {}
 
-	function slot0.scrollRect.onInitItem(slot0)
+	slot0.scrollRect.onInitItem = function(slot0)
 		uv0:OnInitCard(slot0)
 	end
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateCard(slot0, slot1)
 	end
 
@@ -64,17 +64,17 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnPlayerUpdated(slot0, slot1)
+slot0.OnPlayerUpdated = function(slot0, slot1)
 	slot0.player = slot1
 
 	slot0:UpdateRes()
 end
 
-function slot0.DormUpdated(slot0, slot1)
+slot0.DormUpdated = function(slot0, slot1)
 	slot0.dorm = slot1
 end
 
-function slot0.FurnituresUpdated(slot0, slot1)
+slot0.FurnituresUpdated = function(slot0, slot1)
 	slot2 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -87,7 +87,7 @@ function slot0.FurnituresUpdated(slot0, slot1)
 	slot0:UpdatePurchaseBtn()
 end
 
-function slot0.OnDisplayUpdated(slot0, slot1)
+slot0.OnDisplayUpdated = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.displays) do
 		if slot6.id == slot1.id then
 			slot0.displays[slot5] = slot1
@@ -95,7 +95,7 @@ function slot0.OnDisplayUpdated(slot0, slot1)
 	end
 end
 
-function slot0.OnCardUpdated(slot0, slot1)
+slot0.OnCardUpdated = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.furniture.id == slot1.id then
 			slot6:Update(slot1)
@@ -103,7 +103,7 @@ function slot0.OnCardUpdated(slot0, slot1)
 	end
 end
 
-function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
+slot0.SetUp = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:Show()
 
 	slot0.index = slot1
@@ -116,12 +116,12 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 	slot0:UpdateRes()
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	slot0.gemTxt.text = slot0.player:getTotalGem()
 	slot0.goldTxt.text = slot0.player:getResource(PlayerConst.ResDormMoney)
 end
 
-function slot0.InitFurnitureList(slot0)
+slot0.InitFurnitureList = function(slot0)
 	slot2 = slot0.dorm:GetPurchasedFurnitures()
 	slot0.displays = {}
 
@@ -141,7 +141,7 @@ function slot0.InitFurnitureList(slot0)
 	slot0.scrollRect:SetTotalCount(#slot0.displays)
 end
 
-function slot0.OnInitCard(slot0, slot1)
+slot0.OnInitCard = function(slot0, slot1)
 	slot2 = BackYardFurnitureCard.New(slot1)
 
 	onButton(slot0, slot2._go, function ()
@@ -153,7 +153,7 @@ function slot0.OnInitCard(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateCard(slot0, slot1, slot2)
+slot0.OnUpdateCard = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitCard(slot2)
 
@@ -163,7 +163,7 @@ function slot0.OnUpdateCard(slot0, slot1, slot2)
 	slot3:Update(slot0.displays[slot1 + 1])
 end
 
-function slot0.UpdateThemeInfo(slot0)
+slot0.UpdateThemeInfo = function(slot0)
 	slot1 = slot0.themeVO
 	slot0.nameTxt.text = HXSet.hxLan(slot1:getConfig("name"))
 
@@ -181,7 +181,7 @@ function slot0.UpdateThemeInfo(slot0)
 	slot0:UpdatePurchaseBtn()
 end
 
-function slot0.UpdatePurchaseBtn(slot0)
+slot0.UpdatePurchaseBtn = function(slot0)
 	slot1 = slot0.themeVO
 	slot1 = slot1:GetFurnitures()
 	slot2 = slot0.dorm
@@ -195,7 +195,7 @@ function slot0.UpdatePurchaseBtn(slot0)
 	end))
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.BASE_LAYER
@@ -206,7 +206,7 @@ function slot0.Show(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 
@@ -215,7 +215,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 
 	for slot4, slot5 in pairs(slot0.cards) do

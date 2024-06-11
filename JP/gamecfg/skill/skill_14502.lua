@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "little LuckyE",
 	cd = 0,
+	picture = "0",
+	desc = "减速",
 	painting = 1,
 	id = 14502,
-	picture = "0",
 	castCV = "skill",
-	desc = "减速",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHarm",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHarm",
 			arg_list = {
 				buff_id = 14504
 			}

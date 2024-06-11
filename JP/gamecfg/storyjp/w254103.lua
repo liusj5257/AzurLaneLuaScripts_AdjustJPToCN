@@ -1,12 +1,12 @@
 return {
-	id = "W254103",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W254103",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "指令释放：偏移",
 			typewriter = {
 				speed = 0.05,
@@ -18,12 +18,12 @@ return {
 			}
 		},
 		{
-			actor = 801030,
+			dir = 1,
 			side = 2,
 			withoutActorName = true,
-			nameColor = "#a9f548",
-			dir = 1,
 			actorScale = 0,
+			actor = 801030,
+			nameColor = "#a9f548",
 			say = "<size=120>        ↓</size>",
 			painting = {
 				alpha = 0.3,
@@ -31,8 +31,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.1,
 					x = 0,

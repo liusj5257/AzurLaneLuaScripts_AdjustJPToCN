@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT23",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇-日常篇\n\n<size=45>六　不服输的盛宴</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "——咚哐！突突突哒哒哒！咻——轰隆！",
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level-uta",
+			say = "——咚哐！突突突哒哒哒！咻——轰隆！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
+			dir = 1,
 			say = "——轰轰轰……轰隆隆隆隆！！",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "和那次放在一起比较也太失礼了吧……不过的确无法否定",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "要是亚科特瓦尔特也在的话，场面肯定更加混乱了吧……？",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "会怎样呢。那个人虽然强得如鬼神一般，不过也没有好战到会去参加那种较量吧。当然，是建立在诗乃乃不受影响的基础上。",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "{namecode:6}大人是…鬼神?明明是女孩子却有这样的外号…不觉得有点怪吗",
 			typewriter = {
@@ -383,8 +383,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "该说是争强好胜呢还是什么呢…从猫音小时候起她就遇上过很多得不到认可的事情了呢",
 			typewriter = {
@@ -415,16 +415,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_chuansong",
 			bgm = "story-uta",
 			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "哈，哈，哈……搞定了！总共击破了28艘！这样的话我赢定了！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -465,11 +465,11 @@ return {
 			}
 		},
 		{
-			actor = 305040,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305040,
+			nameColor = "#a9f548",
 			say = "别小看我啊姐姐！我也是28哦！欸？也就是说……",
 			typewriter = {
 				speed = 0.05,
@@ -481,8 +481,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -510,8 +510,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "怎么会…真可惜，打了个平手",
 			typewriter = {
@@ -639,8 +639,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "不不不不妳们用的不还是实战武器吗！再装填都结束了吧！{namecode:77}小姐这不行的吧！？",
 			typewriter = {
@@ -653,8 +653,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,
@@ -730,8 +730,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "烤红薯来了",
 			typewriter = {
@@ -747,10 +747,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "我把小天鹅带来的红莫洛洛烤了一下。战斗也告一段落了，大家来吃点点心吧",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -832,8 +832,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "呵呵呵，就算是调皮捣蛋的孩子，到了吃点心的时候也会乖乖回到餐桌前呢",
 			typewriter = {
@@ -849,8 +849,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "想要管好捣蛋鬼，就先征服她的胃，是这么回事吧",
 			typewriter = {
@@ -882,10 +882,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "我们也一直为主人准备三餐，随时都管控着他的胃",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -916,12 +916,12 @@ return {
 			}
 		},
 		{
-			actor = 305040,
+			say = "姐姐，妳想要的是这个吧——来，红薯烧酒",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐，妳想要的是这个吧——来，红薯烧酒",
+			actor = 305040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1048,12 +1048,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "喵……这群人喝醉了要是闹起来可什么时候才是个头喵……",
 			typewriter = {
 				speed = 0.05,

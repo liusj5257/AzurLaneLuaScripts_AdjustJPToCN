@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "Experimental Armament Testing Grounds",
 			side = 2,
 			bgName = "bg_ouxianglevel",
 			dir = 1,
-			say = "Experimental Armament Testing Grounds",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_ouxianglevel",
-			actorName = "Everyone",
 			dir = 1,
+			actorName = "Everyone",
 			say = "We're ready!!",
 			dialogShake = {
 				speed = 0.09,
@@ -91,11 +91,11 @@ return {
 			}
 		},
 		{
-			actor = 301014,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301014,
+			nameColor = "#a9f548",
 			say = "I'm the Special-Type Idol that's taking the world by snowstorm - Fubuki! My energetic performances will ring out more brilliantly than anyone else's!",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 301014,
 			dir = 1,
+			actor = 301014,
 			nameColor = "#a9f548",
 			say = "Wow, look at all the Special-type destroyers who've come out to cheer for me! Heyyy, Ayanami~! Inazuma, Ikazuchi~! I'll do my best~!",
 			typewriter = {
@@ -201,13 +201,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "Eldridge...! Looks like we'll be facing another formidable opponent!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "There are only two battles left. All we have to do is hold out a bit longer.",
 			typewriter = {
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 403070,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
 			say = "Hmph. That's exactly what we want!",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

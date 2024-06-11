@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "과연 역전의 \"함선\"이군요… 하지만 저도 쉽게 물러서지 않을 거예요! 지금이야! 잘 보라구요!",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "두 사람이 펼친 절묘한 공방은 손뼉을 치게 하였다.",
 			flashin = {
 				delay = 0.2,
@@ -81,8 +81,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600030,
 			dir = 1,
+			actor = 10600030,
 			say = "히히~ 타카오 씨야말로 이렇게 귀여운 수영복을 입고 계시지만, 굉장한 공격력인데요~",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "히히~ 어쩌면 타카오 씨도 원본 \"비너스 챌린지\"에 어울릴지도 모르겠어요~",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "다음에는 전투가 아닌 다른 방식으로 \"한 판 승부\" 해봐요~ 비치 발리볼이라던가~?",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -18,17 +18,17 @@ slot0.NORMAL_MAP = {
 	slot0.ACT_EXTRA
 }
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
 	slot0.chapterIds = slot1.chapterIds
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.expedition_data_by_map
 end
 
-function slot0.isUnlock(slot0)
+slot0.isUnlock = function(slot0)
 	if getProxy(PlayerProxy):getRawData().level < slot0:getConfig("level_limit") then
 		return false, i18n("levelScene_chapter_unlock_tip", slot0:getConfig("level_limit"))
 	elseif slot0:isActivity() then
@@ -70,41 +70,41 @@ function slot0.isUnlock(slot0)
 	end
 end
 
-function slot0.setRemaster(slot0, slot1)
+slot0.setRemaster = function(slot0, slot1)
 	slot0.remasterId = slot1
 end
 
-function slot0.isRemaster(slot0)
+slot0.isRemaster = function(slot0)
 	return slot0.remasterId ~= nil
 end
 
-function slot0.getRemaster(slot0)
+slot0.getRemaster = function(slot0)
 	return slot0.remasterId
 end
 
-function slot0.getMapType(slot0)
+slot0.getMapType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.getMapTitleNumber(slot0)
+slot0.getMapTitleNumber = function(slot0)
 	return slot0:getConfig("title")
 end
 
-function slot0.getBindMapId(slot0)
+slot0.getBindMapId = function(slot0)
 	return slot0:getConfig("bind_map")
 end
 
-function slot0.getBindMap(slot0)
+slot0.getBindMap = function(slot0)
 	return getProxy(ChapterProxy):getMapById(slot0:getBindMapId())
 end
 
-function slot0.getChapters(slot0)
+slot0.getChapters = function(slot0)
 	return _.filter(slot0:GetChapterItems(), function (slot0)
 		return isa(slot0, Chapter)
 	end)
 end
 
-function slot0.GetChapterItems(slot0)
+slot0.GetChapterItems = function(slot0)
 	slot1 = getProxy(ChapterProxy)
 
 	return _.map(slot0:GetChapterList(), function (slot0)
@@ -112,13 +112,13 @@ function slot0.GetChapterItems(slot0)
 	end)
 end
 
-function slot0.getEscortConfig(slot0)
+slot0.getEscortConfig = function(slot0)
 	if slot0:isEscort() then
 		return pg.escort_map_template[slot0.id]
 	end
 end
 
-function slot0.getChapterTimeLimit(slot0)
+slot0.getChapterTimeLimit = function(slot0)
 	if not slot0:isActivity() or slot0:isRemaster() then
 		return 0
 	end
@@ -135,7 +135,7 @@ function slot0.getChapterTimeLimit(slot0)
 	return slot2
 end
 
-function slot0.isClear(slot0)
+slot0.isClear = function(slot0)
 	if slot0:getMapType() == uv0.SCENARIO then
 		return slot0:isAllChaptersClear()
 	elseif slot0:isActivity() then
@@ -145,7 +145,7 @@ function slot0.isClear(slot0)
 	end
 end
 
-function slot0.isClearForActivity(slot0)
+slot0.isClearForActivity = function(slot0)
 	for slot5, slot6 in ipairs(slot0:GetChapterItems()) do
 		if slot5 > 1 and slot6.id - slot1[slot5 - 1].id > 1 then
 			break
@@ -157,14 +157,14 @@ function slot0.isClearForActivity(slot0)
 	return true
 end
 
-function slot0.isEliteEnabled(slot0)
+slot0.isEliteEnabled = function(slot0)
 	slot1 = nil
 	slot1 = (slot0:getMapType() ~= uv0.ELITE or getProxy(ChapterProxy):getMapById(slot0:getBindMapId())) and slot0
 
 	return slot1:isAllChaptersClear() and slot1:isAllChaptersAchieve()
 end
 
-function slot0.isAnyChapterUnlocked(slot0, slot1)
+slot0.isAnyChapterUnlocked = function(slot0, slot1)
 	slot2 = false
 
 	for slot6, slot7 in ipairs(slot0:GetChapterItems()) do
@@ -180,13 +180,13 @@ function slot0.isAnyChapterUnlocked(slot0, slot1)
 	return false, slot2
 end
 
-function slot0.isAnyChapterClear(slot0)
+slot0.isAnyChapterClear = function(slot0)
 	return underscore.any(slot0:GetChapterItems(), function (slot0)
 		return slot0:isClear()
 	end)
 end
 
-function slot0.isAllChaptersClear(slot0)
+slot0.isAllChaptersClear = function(slot0)
 	for slot4, slot5 in ipairs(slot0:GetChapterItems()) do
 		if not slot5:isClear() then
 			return false
@@ -196,7 +196,7 @@ function slot0.isAllChaptersClear(slot0)
 	return true
 end
 
-function slot0.isAllChaptersAchieve(slot0)
+slot0.isAllChaptersAchieve = function(slot0)
 	for slot4, slot5 in ipairs(slot0:getChapters()) do
 		if not slot5:isAllAchieve() then
 			return false
@@ -206,7 +206,7 @@ function slot0.isAllChaptersAchieve(slot0)
 	return true
 end
 
-function slot0.getLastUnlockChapterName(slot0)
+slot0.getLastUnlockChapterName = function(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in ipairs(slot0:getChapters()) do
@@ -220,17 +220,17 @@ function slot0.getLastUnlockChapterName(slot0)
 	return slot1:getConfig("chapter_name")
 end
 
-function slot0.GetChapterInProgress(slot0)
+slot0.GetChapterInProgress = function(slot0)
 	return underscore.detect(slot0:GetChapterItems(), function (slot0)
 		return slot0:isUnlock() and not slot0:isClear()
 	end)
 end
 
-function slot0.GetChapterList(slot0)
+slot0.GetChapterList = function(slot0)
 	return slot0.chapterIds
 end
 
-function slot0.GetRearChaptersOfRemaster(slot0)
+slot0.GetRearChaptersOfRemaster = function(slot0)
 	if not slot0 or slot0 == 0 then
 		return
 	end
@@ -258,7 +258,7 @@ function slot0.GetRearChaptersOfRemaster(slot0)
 	return {}
 end
 
-function slot0.isActivity(slot0)
+slot0.isActivity = function(slot0)
 	if slot0:getMapType() == Map.EVENT then
 		return true, false
 	elseif slot1 == Map.ACTIVITY_EASY or slot1 == Map.ACTIVITY_HARD or slot1 == Map.ACT_EXTRA then
@@ -268,27 +268,27 @@ function slot0.isActivity(slot0)
 	end
 end
 
-function slot0.isHardMap(slot0)
+slot0.isHardMap = function(slot0)
 	return slot0:getMapType() == Map.ELITE or slot1 == Map.ACTIVITY_HARD
 end
 
-function slot0.isActExtra(slot0)
+slot0.isActExtra = function(slot0)
 	return slot0:getMapType() == Map.ACT_EXTRA
 end
 
-function slot0.isEscort(slot0)
+slot0.isEscort = function(slot0)
 	return slot0:getMapType() == Map.ESCORT
 end
 
-function slot0.isSkirmish(slot0)
+slot0.isSkirmish = function(slot0)
 	return slot0:getMapType() == Map.SKIRMISH
 end
 
-function slot0.isNormalMap(slot0)
+slot0.isNormalMap = function(slot0)
 	return table.contains(Map.NORMAL_MAP, slot0:getMapType())
 end
 
-function slot0.NeedRecordMap(slot0)
+slot0.NeedRecordMap = function(slot0)
 	return slot0:getMapType() == uv0.INVALID or slot1 == uv0.SCENARIO or slot1 == uv0.ELITE
 end
 

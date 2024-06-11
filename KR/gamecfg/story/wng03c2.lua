@@ -19,8 +19,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "是否听取关于大世界当前舰队更替的说明？",
 			typewriter = {
 				speed = 0.05,

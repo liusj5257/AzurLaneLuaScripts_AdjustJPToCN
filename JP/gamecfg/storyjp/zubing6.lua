@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"足柄、すゝめ！\n\n<size=45>六 足柄、（恋に）悩め！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "最初と比べればだいぶ良くなった？当然じゃ。わっちの誇れる後輩なんじゃからな",
 			typewriter = {
 				speed = 0.05,
@@ -137,15 +137,15 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "この時間帯ならあの子は一人で部屋にいるはずよのう。どれ、わっちから声をかけてやろうか",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -204,14 +204,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 303090,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ど、どうしよう…思わず折りすぎてしまいました…指揮官殿にこれだけ送ったら……",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,15 +238,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_room",
-			actorName = "{namecode:144}&{namecode:124}",
 			dir = 1,
+			say = "あ…",
+			actorName = "{namecode:144}&{namecode:124}",
+			bgName = "bg_story_room",
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "あ…",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,8 +286,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "ししし指揮官殿！？",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -374,11 +374,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "あっ、急に駆逐艦たちの引率訓練があるのを思い出したわい！わっちは先に失礼するわい！",
 			typewriter = {
 				speed = 0.05,
@@ -390,8 +390,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 3750
@@ -402,8 +402,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "え！？か、神風先輩！？ひ、一人にしないでください！！",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,10 +428,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（話が違いますよ！ここここれは指揮官殿と二人っきりじゃありませんか！？）",
 			typewriter = {
 				speed = 0.05,
@@ -445,10 +445,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（い、一体どうすれば……！？）",
 			typewriter = {
 				speed = 0.05,

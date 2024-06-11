@@ -1,32 +1,32 @@
 slot0 = class("SettingsWorldPanle", import(".SettingsNotificationPanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsWorld"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("world_setting_title")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / OPERATION SETTINGS"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.worldbossProgressTip = findTF(slot0._tf, "world_boss")
 end
 
-function slot0.OnItemSwitch(slot0, slot1, slot2)
+slot0.OnItemSwitch = function(slot0, slot1, slot2)
 	getProxy(SettingsProxy):SetWorldFlag(slot1.key, slot2)
 end
 
-function slot0.GetDefaultValue(slot0, slot1)
+slot0.GetDefaultValue = function(slot0, slot1)
 	return getProxy(SettingsProxy):GetWorldFlag(slot1.key)
 end
 
-function slot0.GetList(slot0)
+slot0.GetList = function(slot0)
 	return {
 		{
 			key = "story_tips",
@@ -46,7 +46,7 @@ function slot0.GetList(slot0)
 	}
 end
 
-function slot0.DisplayWorldBossProgressTipSettings(slot0)
+slot0.DisplayWorldBossProgressTipSettings = function(slot0)
 	slot1 = pg.NewStoryMgr.GetInstance():IsPlayed("WorldG190")
 
 	setActive(slot0.worldbossProgressTip, slot1)
@@ -56,10 +56,10 @@ function slot0.DisplayWorldBossProgressTipSettings(slot0)
 	end
 end
 
-function slot0.InitWorldBossProgressTipSettings(slot0)
+slot0.InitWorldBossProgressTipSettings = function(slot0)
 	slot3 = getProxy(SettingsProxy):GetWorldBossProgressTipFlag()
 
-	function slot4(slot0, slot1)
+	slot4 = function(slot0, slot1)
 		onToggle(uv1, slot1, function (slot0)
 			if slot0 then
 				getProxy(SettingsProxy):WorldBossProgressTipFlag(uv0)
@@ -86,7 +86,7 @@ function slot0.InitWorldBossProgressTipSettings(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.GetWorldBossProgressTipConfig(slot0)
+slot0.GetWorldBossProgressTipConfig = function(slot0)
 	slot1 = pg.gameset.joint_boss_ticket.description
 	slot2 = {}
 
@@ -100,7 +100,7 @@ function slot0.GetWorldBossProgressTipConfig(slot0)
 	return slot2
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 	uv0.super.OnUpdate(slot0)
 	slot0:DisplayWorldBossProgressTipSettings()
 end

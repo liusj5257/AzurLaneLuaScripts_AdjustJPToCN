@@ -1,6 +1,6 @@
 slot0 = class("ChangeRandomFlagShipsCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot8 = {}
 
@@ -37,7 +37,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.Send(slot0, slot1, slot2, slot3)
+slot0.Send = function(slot0, slot1, slot2, slot3)
 	slot4 = pg.ConnectionMgr.GetInstance()
 
 	slot4:Send(12208, {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"허먼 관찰일기\n\n<size=45>5. 허먼과 요크타운</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_room",
-			bgm = "story-1",
-			dir = 1,
 			say = "——그래서, 허먼이 지휘관을 지휘실에서 내쫓았어……",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,8 +36,8 @@ return {
 			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
-			dir = 1,
 			say = "응응.",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 30,
 					number = 3
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "요크타운이 허먼의 머리를 쓰다듬으며 위로하자 허먼은 얼굴을 요크타운의 가슴에 파묻고 애교를 부렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "다른 한 쪽……",
 			typewriter = {
 				speed = 0.05,
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
+			actor = 101240,
 			say = "에?!",
 			typewriter = {
 				speed = 0.05,
@@ -276,10 +276,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		}

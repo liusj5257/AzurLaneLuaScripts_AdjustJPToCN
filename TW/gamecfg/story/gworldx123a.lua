@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX123A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX123A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "使用艦隊指令模組-艦隊部署，可以部署潛艇編隊進入NA海域。",
 			typewriter = {
 				speed = 0.05,

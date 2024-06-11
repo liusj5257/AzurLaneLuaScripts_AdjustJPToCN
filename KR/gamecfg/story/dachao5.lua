@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"오오시오의 선물♪\n\n<size=45>야근 데이!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "밤이 깊었는데도, 남은 일은 산더미다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이거 큰일인걸……",
 			typewriter = {
 				speed = 0.05,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오오시오가 우유를 가져와줬다.",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "따뜻한 우유를 홀짝이며, 아직도 높게 쌓인 서류의 산을 본다. 살짝 한숨이 나올 것 같은 기분이다.",
 			typewriter = {
 				speed = 0.05,
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오늘은 자기 글렀군……",
 			typewriter = {
 				speed = 0.05,
@@ -144,16 +144,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			actorName = "？？？",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			nameColor = "#92fc63",
 			say = "…지휘관 씨, 지휘관 씨",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			withoutActorName = true,
 			nameColor = "#92fc63",
+			dir = 1,
+			actor = 301640,
 			say = "비서함이 깨워줬다. 아무래도 어제는 그대로 집무실에서 잠들어 버린 모양이다.",
 			flashN = {
 				color = {
@@ -215,13 +215,13 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "지휘관 씨, 잘 잤나. 어젠 그대로 집무실에서 자삐따이가…",
 			bgm = "story-1",
+			actor = 301640,
+			nameColor = "#92fc63",
+			say = "지휘관 씨, 잘 잤나. 어젠 그대로 집무실에서 자삐따이가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "어깨에 코트가 걸쳐져 있는 걸 알아차렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -274,9 +274,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오오시오는 어느새 한 묶음 정도로 줄어든 서류의 산을 가볍게 두드렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#92fc63",
 			say = "지휘관 씨가 힘내준 덕에 끝이 보이기 시작하는기라~ 쪼매만 더 힘내제이?",
 			typewriter = {
 				speed = 0.05,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#92fc63",
 			say = "후후♪ 지휘관 씨는 역시 듬직하구마~",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"人見知りの黒猫\n\n<size=45>二 仲間のアドバイス</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・重桜寮",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・重桜寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "航行中に何回も練習したのに、指揮官の前ではやっぱり……",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "きゃっ！？あぅ…ひ、飛鷹さん……？",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,12 +130,12 @@ return {
 			}
 		},
 		{
-			actor = 306010,
+			say = "ごめんごめん。今ので驚かせちゃったか？",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "ごめんごめん。今ので驚かせちゃったか？",
+			actor = 306010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "（こくり）",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "や、やっぱりいいです――",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			actor = 306010,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 306010,
+			nameColor = "#92fc63",
 			say = "…こんなところか。駆逐艦初春、出撃だ！この大海原も指揮官もお前の力で征服してみせろ！",
 			effects = {
 				{
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "あぅ…私……",
 			effects = {
 				{
@@ -422,8 +422,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -448,11 +448,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#92fc63",
 			say = "初春姉かっこいい！",
 			typewriter = {
 				speed = 0.05,
@@ -464,8 +464,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "うぅ…やっぱり無理―――――！！！",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -3000

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "CHICHENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Red Spider Lily's Love\n\n<size=45>Chapter 5 - A Small Scar</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Port - Canteen Kitchen",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "Port - Canteen Kitchen",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Akagi was staring at me so intently... I got distracted and cut my finger.",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Ah, I've got it! I'll just chain you to your bed so that we will never be apart... I'll ask Akashi to make— No, I'll even make the chains myself!",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Then, in the blink of an eye, everything went black.",
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I tried to move, and a fluffy sensation ran over my whole body...",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "It seemed she had enveloped me with her tails to prevent me from going anywhere.",
 			typewriter = {
@@ -239,16 +239,16 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Don't even think about running away. No matter what you believe, nobody loves you more than Akagi does... *Giggle*",
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					dur = 0.5,
 					x = 0,
 					number = 1
@@ -264,8 +264,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Trapped inside her mass of tails, Akagi and I were alone.",
 			typewriter = {

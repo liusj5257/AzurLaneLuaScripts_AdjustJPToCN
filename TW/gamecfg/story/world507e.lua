@@ -1,17 +1,17 @@
 return {
-	id = "WORLD507E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507E",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
 			say = "奇怪……這些殘骸不但新舊不一，還有大量根本無法判斷來源……",
+			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "NA海域中的風暴才出現了數月時間，怎麼會積累這麼龐大的殘骸？",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "沒錯，企業前輩。",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "塞壬進行這一切怪異部署的原因只有一個————NA海域中的塞壬被餘燼從中心開花了。",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "說起來……決定發起作戰的契機就是NA海域中出現的風暴和塞壬異常的兵力收縮。",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "不過……就算所有新殘骸都是餘燼的手筆，那些舊殘骸依然解釋不了。",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "我們可沒有過這麼大規模損失的報告哦。",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "也許是把海底的殘骸一起捲進來了……？",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "這片殘骸彷彿是無窮無盡的，不論偵察機怎麼飛，總有更多的殘骸出現在前方。",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "奇異點的內部空間與外界空間不同——我最近看到了一個這樣的理論哦！",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "作為其性質的體現，奇異點內的空間可能存在有嚴重的觀察者效應————",
 			typewriter = {
 				speed = 0.05,
@@ -380,8 +380,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "等等！這可是薩拉妹妹先想起來的，妳可不許搶答！",
 			typewriter = {
 				speed = 0.05,
@@ -411,8 +411,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "……這種事怎麼都好吧！而且妳真的有好好看過論文裡的內容嗎……",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,
@@ -473,8 +473,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "哼~根據論文中的觀點，奇異點的內部空間會隨著我們的觀測進行延伸與擴張。",
 			typewriter = {
 				speed = 0.05,
@@ -504,8 +504,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "當然~既然塞壬和餘燼都可以在這裡正常出入，說明這裡一定擁有某種規則……",
 			typewriter = {
 				speed = 0.05,
@@ -519,9 +519,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "我覺得不如主動縮小觀測範圍。回收偵察機，關閉雷達，僅依靠我們的視距沿著這條狹窄的航線前進，說不定就能離開這裡了！",
 			typewriter = {
 				speed = 0.05,

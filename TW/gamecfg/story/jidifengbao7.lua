@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO7",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 2,
 			typewriterTime = 0.05,
+			bgmDelay = 2,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -32,14 +32,14 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "阿……阿……阿嚏——！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "紙巾都快要用完了吧？給~",
 			painting = {
@@ -86,10 +86,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這都是小問題啦~嘿嘿，謝謝妳。",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "靈敏，妳上一次休息是什麼時候？",
 			painting = {
@@ -121,10 +121,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "前——當然是昨天晚上啊？",
 			painting = {
 				alpha = 0.3,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -149,8 +149,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "說漏嘴了哦，靈敏。",
 			painting = {
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "唉，不是跟妳說了作戰前要好好休息嗎，怎麼又通宵了。",
 			painting = {
@@ -183,10 +183,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "天才機械師是不需要休息的！",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,10 +211,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這次可是檢驗我的“特別改裝”成果的時候，我在出發前不仔細檢查一下怎麼行！",
 			painting = {
 				alpha = 0.3,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "原來之前妳離開前線那段時間是去做量產型的改進升級了啊……",
 			painting = {
@@ -246,10 +246,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "只是工作內容之一哦！更多的現在還不能說，不過——",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘿嘿嘿，都是基於密室資料的研究做出來的好東西哦！",
 			painting = {
 				alpha = 0.3,
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "沒想到能在這裡見到參與本次“特別改裝”的人。",
 			painting = {
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "其實我在出發前檢查的時候，有一點小小的疑問……",
 			painting = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "雖然我不是相關專業的人，不過姑且也算過去在鐵血留學了一段時間……",
 			painting = {
@@ -343,8 +343,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "所以我只是隨口一說哦，也不是在懷疑妳……",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "就是，這些量產型的“特別改裝”，符合安全標準嗎？",
 			painting = {
@@ -377,10 +377,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "標準就是用來突破的呀？！",
 			painting = {
 				alpha = 0.3,
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "…………",
 			painting = {
@@ -417,8 +417,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "只要不爆炸，什麼都好啦……",
 			painting = {
@@ -434,10 +434,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -452,8 +452,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "不會真的會爆炸吧……？",
 			painting = {
@@ -469,10 +469,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不、不會的！這個問題在第三次測試的時候就被解決了！妳們放心吧！",
 			painting = {
 				alpha = 0.3,
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -497,8 +497,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "居然真的爆炸過嗎……",
 			painting = {
@@ -514,8 +514,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "我覺得……還是把量產型艦隊和我們之間的間隔再拉長一些好了。",
 			painting = {
@@ -531,10 +531,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸————妳們就算不相信我，也要相信我們製造局的嚴謹水平啊！",
 			painting = {
 				alpha = 0.3,
@@ -546,8 +546,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,8 +559,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "嗯……我完全相信。所以還是再拉開些距離好了……",
 			painting = {

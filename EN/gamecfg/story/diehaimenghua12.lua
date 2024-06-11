@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 302080,
-			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Damn it... Is this the best we can do...?!",
 			bgm = "xinnong-4",
+			actor = 302080,
+			nameColor = "#a9f548",
+			say = "Damn it... Is this the best we can do...?!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "What the hell is this power...?!",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "I'm so sorry... Lady Shinano...",
 			typewriter = {
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "Mass-produced battleships... sundered in but a single slash. Coastal installations, ruined in one shot. Destroyers, light cruisers, light carriers... Nothing could withstand even a single blow.",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "This could not even be called a battle. Yet, the last, fragile line of defense still clung on.",
 			typewriter = {
 				speed = 0.05,
@@ -192,15 +192,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "*cough*... Now you've done it... I'll have to use this!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Behold, ye cruel gods... this is the power of my love! I shall bring ruin to everything!!",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,14 +251,14 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			actorName = "？？？",
-			bgName = "bg_xinnong_cg2",
 			side = 2,
+			bgName = "bg_xinnong_cg2",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900192,
 			nameColor = "#ffa500",
 			say = "...Out of my way.",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "Akagi! Watch out!!",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

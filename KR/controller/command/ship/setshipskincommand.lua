@@ -1,7 +1,7 @@
 slot0 = class("SetShipSkinCommand", pm.SimpleCommand)
 slot0.SKIN_UPDATED = "skin updated"
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.hideTip
 	slot6 = pg.ConnectionMgr.GetInstance()

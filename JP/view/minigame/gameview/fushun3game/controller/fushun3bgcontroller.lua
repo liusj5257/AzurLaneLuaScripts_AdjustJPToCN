@@ -1,6 +1,6 @@
 slot0 = class("Fushun3BgController")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._bgTpl = slot1
 	slot0._fireTpl = slot2
 	slot0._backSceneTf = slot4
@@ -27,7 +27,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.bgAnimator = GetComponent(findTF(slot0._backSceneTf, "bg/anim"), typeof(Animator))
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:clearBg()
 
 	slot0.fireTime = math.random() * (Fushun3GameConst.fire_time[2] - Fushun3GameConst.fire_time[1]) + Fushun3GameConst.fire_time[1]
@@ -52,7 +52,7 @@ function slot0.start(slot0)
 	slot0:changeDayNight(false)
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	if slot0.fireTime > 0 then
 		slot0.fireTime = slot0.fireTime - Time.deltaTime
 
@@ -123,7 +123,7 @@ function slot0.step(slot0)
 	slot0:removeBg()
 end
 
-function slot0.changeDayNight(slot0, slot1)
+slot0.changeDayNight = function(slot0, slot1)
 	slot0.timeTypeData = Fushun3GameVo.GetTimeTypeData()
 	slot0.dayTimeCount = slot0.timeTypeData.time
 
@@ -131,7 +131,7 @@ function slot0.changeDayNight(slot0, slot1)
 	slot0:changeBgItems(slot1)
 end
 
-function slot0.changeBgItems(slot0, slot1)
+slot0.changeBgItems = function(slot0, slot1)
 	if slot1 and slot0.currentItemTimeFlag == Fushun3GameVo.GetTimeFlag() then
 		return
 	end
@@ -165,7 +165,7 @@ function slot0.changeBgItems(slot0, slot1)
 	end
 end
 
-function slot0.changeBg(slot0, slot1)
+slot0.changeBg = function(slot0, slot1)
 	if slot1 then
 		slot0.bgAnimator:SetTrigger(slot0.timeTypeData.change_anim)
 	else
@@ -184,7 +184,7 @@ function slot0.changeBg(slot0, slot1)
 	print("当前状态" .. tostring(slot0.timeTypeData.name))
 end
 
-function slot0.createTopBg(slot0, slot1)
+slot0.createTopBg = function(slot0, slot1)
 	if slot0:getBgData(slot1) then
 		slot3 = slot0:getBgFromPool(slot2.id)
 		slot3.tf.anchoredPosition = Vector2(slot0.topBgPosX, slot3.data.pos.y)
@@ -195,7 +195,7 @@ function slot0.createTopBg(slot0, slot1)
 	end
 end
 
-function slot0.createMidBg(slot0)
+slot0.createMidBg = function(slot0)
 	slot1 = 0
 
 	for slot5 = 1, #Fushun3GameConst.mid_bg do
@@ -221,7 +221,7 @@ function slot0.createMidBg(slot0)
 	slot0.midBgPosX = slot0.midBgPosX + Fushun3GameConst.mid_bg_inst_posX
 end
 
-function slot0.createPetal(slot0)
+slot0.createPetal = function(slot0)
 	slot2 = Vector2(math.random(100, 1920), math.random(540, 1080))
 
 	if slot0:getBgFromPool(Fushun3GameConst.petal_ids[math.random(1, #Fushun3GameConst.petal_ids)]) then
@@ -239,7 +239,7 @@ function slot0.createPetal(slot0)
 	end
 end
 
-function slot0.createFire(slot0)
+slot0.createFire = function(slot0)
 	slot2 = Vector2(math.random(100, 1920), 0)
 
 	for slot6 = 1, #Fushun3GameConst.fire_group[math.random(1, #Fushun3GameConst.fire_group)] do
@@ -256,7 +256,7 @@ function slot0.createFire(slot0)
 	end
 end
 
-function slot0.getBgData(slot0, slot1)
+slot0.getBgData = function(slot0, slot1)
 	for slot5 = 1, #Fushun3GameConst.bg_data do
 		if Fushun3GameConst.bg_data[slot5].id == slot1 then
 			return Fushun3GameConst.bg_data[slot5]
@@ -264,7 +264,7 @@ function slot0.getBgData(slot0, slot1)
 	end
 end
 
-function slot0.getBgFromPool(slot0, slot1)
+slot0.getBgFromPool = function(slot0, slot1)
 	for slot5 = 1, #slot0.bgsPool do
 		if slot0.bgsPool[slot5].data.id == slot1 then
 			return table.remove(slot0.bgsPool, slot5)
@@ -313,14 +313,14 @@ function slot0.getBgFromPool(slot0, slot1)
 	return nil
 end
 
-function slot0.clearBg(slot0)
+slot0.clearBg = function(slot0)
 	for slot4 = #slot0.bgItems, 1, -1 do
 		setActive(slot0.bgItems[slot4].tf, false)
 		table.insert(slot0.bgsPool, table.remove(slot0.bgItems, slot4))
 	end
 end
 
-function slot0.removeBg(slot0)
+slot0.removeBg = function(slot0)
 	slot1 = {}
 
 	for slot5 = #slot0.bgItems, 1, -1 do

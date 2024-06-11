@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TUOLICHAILI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TUOLICHAILI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Where the Sun Doesn't Shine\n\n<size=45>The Unmotivated Girl</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "Today is a day off. Rays of light shine through the window, dyeing the floor with a pleasant golden glow.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "Today is a day off. Rays of light shine through the window, dyeing the floor with a pleasant golden glow.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "It's a bright, cheerful day. For everyone but me, that is.",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "I stare at the pile of paperwork on my desk and let out a sigh. There's so much work to get through still.",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "As for the reason I have all this work to catch up on... she's sitting over there in the corner.",
 			typewriter = {
@@ -79,10 +79,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "Torricelli, my secretary. Squeezed into a corner of my office, she looks lost in thought.",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "Sometimes, she produces some sort of lab report and writes something down. She rarely ever talks unless spoken to first.",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "She reminds me of a mushroom, growing quietly out of sight.",
 			typewriter = {
@@ -127,10 +127,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I think I'll base this report on the office's internal layout... Hehehe...",
 			painting = {
 				alpha = 0.3,
@@ -145,8 +145,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#A9F548FF",
 			say = "...Hm? What is it, Commander?",
 			painting = {
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "She senses my gaze and slowly turns to look at me.",
 			typewriter = {
@@ -188,10 +188,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Work? You mean... sorting those papers?",
 			painting = {
 				alpha = 0.3,
@@ -203,8 +203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -216,10 +216,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I did that long ago. It felt like plain busy work... Hehehe... You underestimate me, don't you?",
 			painting = {
 				alpha = 0.3,
@@ -234,10 +234,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Here. Everything's in order...",
 			painting = {
 				alpha = 0.3,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "I skim the folder she gave me. Not only is it neatly organized, but it also includes easily readable annotations. However...",
 			typewriter = {
@@ -262,10 +262,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Why didn't I give it to you earlier? Well, you never asked...",
 			painting = {
 				alpha = 0.3,
@@ -280,10 +280,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm not sleeping on the job... Communication isn't my forte... that's all...",
 			painting = {
 				alpha = 0.3,
@@ -298,10 +298,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now if you don't mind, I'd like to be left to my devices...",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "When you think about it... Staying out of your hair counts as helping you do your paperwork, right?",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It may not look like it, but I am assisting you, as a secretary should...",
 			painting = {
 				alpha = 0.3,
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			optionFlag = 1,
 			say = "She takes back the organized folder, then shuffles back into her dark corner...",
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task_2",
-			blackBg = true,
 			optionFlag = 2,
+			blackBg = true,
 			say = "She takes back the organized folder, then shuffles back into her dark corner...",
 			typewriter = {
 				speed = 0.05,

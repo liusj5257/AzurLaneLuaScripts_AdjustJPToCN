@@ -6,7 +6,7 @@ slot0.Listeners = {
 	onBossProgressUpdate = "OnBossProgressUpdate"
 }
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot1 = PoolMgr.GetInstance()
@@ -17,7 +17,7 @@ function slot0.Ctor(slot0)
 	end)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	for slot4, slot5 in pairs(uv0.Listeners) do
 		slot0[slot4] = function (...)
 			uv0[uv1](uv2, ...)
@@ -127,11 +127,11 @@ function slot0.init(slot0)
 	slot0:SetWorldBossRes(slot1:GetBossProxy())
 end
 
-function slot0.setParent(slot0, slot1, slot2)
+slot0.setParent = function(slot0, slot1, slot2)
 	setParent(slot0._go, slot1, slot2)
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	assert(isa(slot1, Player), "should be an instance of Player")
 
 	slot0.player = slot1
@@ -140,12 +140,12 @@ function slot0.setPlayer(slot0, slot1)
 	setText(slot0.oil:Find("value"), slot1.oil)
 end
 
-function slot0.OnUpdateActivate(slot0)
+slot0.OnUpdateActivate = function(slot0)
 	slot0:setStaminaMgr(nowWorld().staminaMgr)
 	slot0.atlas:RemoveListener(WorldAtlas.EventUpdateActiveMap, slot0.onUpdateActivate)
 end
 
-function slot0.setStaminaMgr(slot0, slot1)
+slot0.setStaminaMgr = function(slot0, slot1)
 	slot0.staminaMgr = slot1
 
 	setText(slot0.stamina:Find("max_value"), "MAX:" .. slot1:GetMaxStamina())
@@ -154,31 +154,31 @@ function slot0.setStaminaMgr(slot0, slot1)
 	setActive(slot0.stamina, true)
 end
 
-function slot0.setWorldInventory(slot0, slot1)
+slot0.setWorldInventory = function(slot0, slot1)
 	slot0.inventoryProxy = slot1
 
 	slot0.inventoryProxy:AddListener(WorldInventoryProxy.EventUpdateItem, slot0.onUpdateInventory)
 	slot0:OnUpdateInventory()
 end
 
-function slot0.OnUpdateStamina(slot0)
+slot0.OnUpdateStamina = function(slot0)
 	setText(slot0.stamina:Find("value"), slot0.staminaMgr:GetDisplayStanima())
 end
 
-function slot0.OnUpdateInventory(slot0, slot1, slot2, slot3)
+slot0.OnUpdateInventory = function(slot0, slot1, slot2, slot3)
 	if not slot1 or slot1 == WorldInventoryProxy.EventUpdateItem and slot3.id == WorldItem.MoneyId then
 		setText(slot0.Whuobi:Find("value"), slot0.inventoryProxy:GetItemCount(WorldItem.MoneyId))
 	end
 end
 
-function slot0.SetWorldBossRes(slot0, slot1)
+slot0.SetWorldBossRes = function(slot0, slot1)
 	slot0.worldBossProxy = slot1
 
 	slot0.worldBossProxy:AddListener(WorldBossProxy.EventUnlockProgressUpdated, slot0.onBossProgressUpdate)
 	slot0:OnBossProgressUpdate()
 end
 
-function slot0.OnBossProgressUpdate(slot0)
+slot0.OnBossProgressUpdate = function(slot0)
 	slot2, slot3, slot4 = WorldBossConst.GetCurrBossItemCapacity()
 	slot5, slot6 = WorldBossConst.GetCurrBossConsume()
 	slot9 = slot4 <= slot3 and COLOR_GREY or COLOR_WHITE
@@ -188,7 +188,7 @@ function slot0.OnBossProgressUpdate(slot0)
 	setActive(slot0.bossProgress, nowWorld():IsSystemOpen(WorldConst.SystemWorldBoss))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.staminaMgr then
 		slot0.staminaMgr:RemoveListener(WorldStaminaManager.EventUpdateStamina, slot0.onUpdateStamina)
 	else

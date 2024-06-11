@@ -1,12 +1,12 @@
 return {
-	id = "W803001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W803001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "發現塞壬棋子的痕跡，看來這一群並不是真正的海豹……",
 			typewriter = {
 				speed = 0.05,

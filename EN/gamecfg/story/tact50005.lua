@@ -22,8 +22,8 @@ return {
 			actor = 303040,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:56}",
 			say = "Sis, I've come to help!",
+			actorName = "{namecode:56}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			actorName = "{namecode:55}&{namecode:53}",
 			side = 0,
-			hideOther = true,
+			actor = 303030,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Understood!",
 			subActors = {

@@ -2,7 +2,7 @@ slot0 = class("MeritorousShop", import(".BaseShop"))
 slot0.REFRESH_TYPE_AUTO = 1
 slot0.REFRESH_TYPE_MANUAL = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.goods = {}
@@ -17,15 +17,15 @@ function slot0.Ctor(slot0, slot1)
 	slot0.type = ShopArgs.MilitaryShop
 end
 
-function slot0.IsSameKind(slot0, slot1)
+slot0.IsSameKind = function(slot0, slot1)
 	return isa(slot1, MeritorousShop)
 end
 
-function slot0.GetCommodityById(slot0, slot1)
+slot0.GetCommodityById = function(slot0, slot1)
 	return slot0:getGoodsById(slot1)
 end
 
-function slot0.GetCommodities(slot0)
+slot0.GetCommodities = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.goods) do
@@ -39,33 +39,33 @@ function slot0.GetCommodities(slot0)
 	return slot1
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.arena_data_shop
 end
 
-function slot0.getRefreshCount(slot0)
+slot0.getRefreshCount = function(slot0)
 	return slot0.refreshCount
 end
 
-function slot0.resetRefreshCount(slot0)
+slot0.resetRefreshCount = function(slot0)
 	slot0.refreshCount = 1
 end
 
-function slot0.increaseRefreshCount(slot0)
+slot0.increaseRefreshCount = function(slot0)
 	slot0.refreshCount = slot0.refreshCount + 1
 end
 
-function slot0.updateAllGoods(slot0, slot1)
+slot0.updateAllGoods = function(slot0, slot1)
 	slot0.goods = slot1
 end
 
-function slot0.getGoodsById(slot0, slot1)
+slot0.getGoodsById = function(slot0, slot1)
 	assert(slot0.goods[slot1], "should exist good" .. slot1)
 
 	return Clone(slot0.goods[slot1])
 end
 
-function slot0.updateGoods(slot0, slot1)
+slot0.updateGoods = function(slot0, slot1)
 	assert(slot0.goods[slot1.id], "should exist good" .. slot1.id)
 
 	slot0.goods[slot1.id] = slot1

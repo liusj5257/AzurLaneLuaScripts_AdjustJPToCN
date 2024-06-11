@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-45,
 				20,
@@ -58,9 +58,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 300001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -71,10 +71,10 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 5,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 5,
 									setAI = 20006
 								}
 							}
@@ -108,8 +108,8 @@ return {
 						201
 					},
 					triggerParams = {
-						move_to = 0,
 						shuffle = 0,
+						move_to = 0,
 						move_op = "Add",
 						card_id = 999991
 					}
@@ -151,8 +151,8 @@ return {
 						203
 					},
 					triggerParams = {
-						move_to = 0,
 						shuffle = 0,
+						move_to = 0,
 						move_op = "Add",
 						card_id = 999973
 					}
@@ -164,8 +164,8 @@ return {
 						203
 					},
 					triggerParams = {
-						move_to = 0,
 						shuffle = 0,
+						move_to = 0,
 						move_op = "Add",
 						card_id = 999974
 					}
@@ -177,8 +177,8 @@ return {
 						203
 					},
 					triggerParams = {
-						move_to = 0,
 						shuffle = 0,
+						move_to = 0,
 						move_op = "Add",
 						card_id = 999984
 					}
@@ -190,8 +190,8 @@ return {
 						203
 					},
 					triggerParams = {
-						move_to = 0,
 						shuffle = 0,
+						move_to = 0,
 						move_op = "Add",
 						card_id = 999985
 					}
@@ -203,8 +203,8 @@ return {
 						204
 					},
 					triggerParams = {
-						move_to = 1,
 						shuffle = 0,
+						move_to = 1,
 						move_op = "Add",
 						card_id = 999992
 					}
@@ -216,8 +216,8 @@ return {
 						204
 					},
 					triggerParams = {
-						move_to = 1,
 						shuffle = 0,
+						move_to = 1,
 						move_op = "Add",
 						card_id = 999992
 					}
@@ -244,9 +244,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 300992,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								17,
 								0,
@@ -258,18 +258,18 @@ return {
 							},
 							phase = {
 								{
-									index = 0,
 									switchType = 1,
 									switchTo = 1,
+									index = 0,
 									switchParam = 0.5,
 									addWeapon = {
 										9999980
 									}
 								},
 								{
-									index = 1,
 									switchType = 1,
 									switchTo = 2,
+									index = 1,
 									switchParam = 12,
 									addBuff = {
 										999981

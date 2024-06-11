@@ -1,22 +1,22 @@
 return {
-	id = "WORLD404D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404D",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "喂————赤城、夕張！神通、雪風！妳們都去哪兒了？！",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "喂————赤城、夕張！神通、雪風！妳們都去哪兒了？！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "奇怪.......怎麼突然所有人都消失了。",
 			typewriter = {
 				speed = 0.05,
@@ -48,8 +48,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "沒有塞壬趁機襲擊過來總算是萬幸，不過.......儀器大半失靈，海霧又這麼濃厚，這是要迷航了啊。",
 			typewriter = {
 				speed = 0.05,
@@ -63,9 +63,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "嗯？等等，我的艦裝怎麼變回戰列艦了.......？",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -87,11 +87,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "好久不見啊，加賀。看來妳現在過得不錯，已經能帶領艦隊前往遠海作戰了嗎？",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "{namecode:161}....？",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "我的妹妹怎麼樣了，我曾經拜託妳替我照顧好她，她現在還好嗎？",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "原本能有機會繼續服役，與妹妹在一起的人是我，而不是妳，加賀。",
 			typewriter = {
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "變成今天這個樣子並非我的本意。如果現在帶領艦隊的人是我而不是妳，我的妹妹，以及整個重櫻都會變得截然不同吧。",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "我.........",
 			typewriter = {
 				speed = 0.05,
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "妳真是太令我失望了，加賀。",
 			typewriter = {
@@ -219,10 +219,10 @@ return {
 			}
 		},
 		{
+			say = "轟————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -272,9 +272,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "唔........！",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "我要在這裡消滅妳，然後與我的妹妹團聚。",
 			typewriter = {
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "曾經那個不可一世實力至上的加賀怎麼不見了，妳在艦裝上的主炮都是裝飾物嗎？",
 			typewriter = {
@@ -332,9 +332,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = ".........不要太過分了！真正的天城是不可能說出這種話來的！雖然不知道妳是什麼東西，但是我要在這裡轟碎妳！",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "啊啊啊啊啊啊啊啊啊啊！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 305070,
+			nameColor = "#a9f548",
+			say = "啊啊啊啊啊啊啊啊啊啊！",
 			flashN = {
 				color = {
 					1,
@@ -409,10 +409,10 @@ return {
 			}
 		},
 		{
+			say = "轟————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -475,8 +475,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -503,8 +503,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			say = "哎？五航戰......？",
 			typewriter = {
 				speed = 0.05,
@@ -561,8 +561,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -706,8 +706,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -764,8 +764,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "剛才看到妳一個人在海面上游盪，本來想去和妳打個招呼，結果妳就突然對我們發動攻擊了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -810,8 +810,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "而且還連帶有干擾電子效果......絕對不是單純的自然現象呢。",
 			typewriter = {
 				speed = 0.05,
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

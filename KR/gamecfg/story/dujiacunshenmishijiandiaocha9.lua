@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "첫 번째 사건이 끝나고 며칠 후, 만쥬 온천 마을은 완전히 바캉스 모드로 돌아왔다.",
 			bgm = "map-longgong",
+			say = "첫 번째 사건이 끝나고 며칠 후, 만쥬 온천 마을은 완전히 바캉스 모드로 돌아왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "밤에 상연되는 '공연'은 매일 성황리에 진행되는 메인 이벤트가 되었다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "그리고 바캉스 중 어느 날, '행방불명 사건'의 조사 보고서가 방문 틈으로 들어왔다.",
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "흑막의 고양이",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "'만쥬 온천 마을', '요괴 극단'에 '행방불명'…… 후후후, 이번에도 한탕 제대로 건졌다냥♪",
 			painting = {
@@ -177,17 +177,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

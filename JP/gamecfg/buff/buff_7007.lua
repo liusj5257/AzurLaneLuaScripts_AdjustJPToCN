@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "精英怪-急速-加速",
 	time = 30,
+	name = "精英怪-急速-加速",
+	init_effect = "",
 	picture = "",
 	desc = "精英怪-急速-加速",
 	stack = 10,

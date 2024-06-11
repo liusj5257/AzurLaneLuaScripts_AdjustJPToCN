@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「幻想と真実の二重奏」-日常編\n\n<size=45>四 平和の世界について　</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_outdoor",
 			bgm = "holo-fbk",
 			actor = 900214,
 			nameColor = "#a9f548",
 			say = "いたたた……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "敵がほとんどいなくなったって聞いたから、もう大丈夫だろうって思って……",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "ごめんなさい……",
 			typewriter = {
@@ -180,10 +180,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "やっぱり、新しい環境に慣れるには時間が必要ですからね。うんうんっ！",
+			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -249,8 +249,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "だから、あの世界から来たわたしたちは、急に戦場だーって言われても、実感が湧いてないところはあるかも……",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "ごめんなさい……わたしたちには、目の前にいるのが『敵』だと頭ではわかっていても、江風ちゃんのように迷わず攻撃するのは難しいかも……",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "え？",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "ふふふ、いつもクールな江風ちゃんも、指揮官さんのことはすごく大事なんですね。くぅ～、てぇてぇな～！",
 			typewriter = {
@@ -509,8 +509,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "おーい、怪我人のシオン様を放っておくんじゃないわよ！もっと心配してよー！",
 			typewriter = {
@@ -523,8 +523,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -533,11 +533,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "あんな大声を出せる時点で大事ないと思うがな。まあ、次の任務までしっかりと休むといい。",
 			typewriter = {
 				speed = 0.05,
@@ -549,8 +549,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -593,8 +593,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "そうなんだ……",
 			typewriter = {
@@ -610,8 +610,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "あ、ちなみにわたしはとっくにゲームで江風ちゃんとケッコンしたから、江風ちゃんが本当は優しくて仲間思いなことは当然知ってるんですけどね！",
 			typewriter = {
@@ -627,9 +627,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
 			blackBg = true,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "雰囲気ぶち壊しの限界トークやめろー！！",
 			typewriter = {
@@ -642,8 +642,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

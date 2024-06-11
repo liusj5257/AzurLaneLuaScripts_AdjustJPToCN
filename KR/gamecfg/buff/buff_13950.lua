@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "威悉轰炸",
 	init_effect = "",
+	id = 13950,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13950,
+	color = "red",
 	icon = 13950,
 	last_effect = "",
 	effect_list = {
@@ -58,9 +58,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
+				nationality = 4,
 				maxTargetNumber = 1,
 				skill_id = 13953,
-				nationality = 4,
 				check_target = {
 					"TargetPlayerMainFleet",
 					"TargetNationality"

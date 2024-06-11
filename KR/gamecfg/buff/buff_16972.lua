@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16972,
 	time = 3,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16972,
+	color = "yellow",
 	icon = 16972,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 16970,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"FFNF"
 				}
@@ -42,10 +42,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 16973,
-				target = "TargetSelf",
 				maxWeaponNumber = 0,
+				skill_id = 16973,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"FFNF"
 				}

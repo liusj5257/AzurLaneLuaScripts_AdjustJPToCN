@@ -17,8 +17,8 @@ return {
 				},
 				arg_list = {
 					rant = 1500,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -42,8 +42,8 @@ return {
 				},
 				arg_list = {
 					rant = 1660,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -67,8 +67,8 @@ return {
 				},
 				arg_list = {
 					rant = 1820,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -92,8 +92,8 @@ return {
 				},
 				arg_list = {
 					rant = 1980,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -117,8 +117,8 @@ return {
 				},
 				arg_list = {
 					rant = 2140,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -142,8 +142,8 @@ return {
 				},
 				arg_list = {
 					rant = 2300,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -167,8 +167,8 @@ return {
 				},
 				arg_list = {
 					rant = 2460,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -192,8 +192,8 @@ return {
 				},
 				arg_list = {
 					rant = 2640,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -217,8 +217,8 @@ return {
 				},
 				arg_list = {
 					rant = 2820,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -242,21 +242,21 @@ return {
 				},
 				arg_list = {
 					rant = 3000,
-					target = "TargetSelf",
 					skill_id = 14661,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 14660,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14660,
+	color = "red",
 	icon = 14660,
 	last_effect = "",
 	effect_list = {
@@ -276,8 +276,8 @@ return {
 			},
 			arg_list = {
 				rant = 1500,
-				target = "TargetSelf",
 				skill_id = 14661,
+				target = "TargetSelf",
 				time = 10
 			}
 		}

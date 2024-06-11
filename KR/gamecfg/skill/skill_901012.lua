@@ -11,14 +11,14 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				move_type = 2,
+				life_time = 0.5,
 				range = 24,
 				finale_effect = "qingdan_yuanjuli_beiji",
-				effect = "qingdan_yuanjuli",
+				move_type = 2,
 				speed_x = 3,
+				effect = "qingdan_yuanjuli",
 				damage_param_b = 2,
 				damage_buff_id = 400,
-				life_time = 0.5,
 				damage_param_a = 12,
 				damage_tag_list = {
 					"sp_far"
@@ -32,15 +32,15 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				move_type = 2,
+				life_time = 0.5,
 				range = 24,
 				finale_effect = "qingdan_yuanjuli_beiji",
-				effect = "qingdan_yuanjuli",
+				move_type = 2,
 				speed_x = 3,
-				delay = 0.5,
+				effect = "qingdan_yuanjuli",
 				damage_param_b = 2,
+				delay = 0.5,
 				damage_buff_id = 400,
-				life_time = 0.5,
 				damage_param_a = 12,
 				damage_tag_list = {
 					"sp_far"
@@ -51,10 +51,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 901015
 			}

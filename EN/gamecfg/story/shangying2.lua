@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Flower Festival\n\n<size=45>Chapter 2 - Blooming Beckoning</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "I'll go out and tell people about the festival, then.",
 			bgm = "story-1",
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "I'll go out and tell people about the festival, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "Oh, hi, Shoukaku and Zuikaku. Good timing.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			actorName = "{namecode:95}&{namecode:96}",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307060,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "Ahaha, sorry for interrupting your stroll... You see, we're having a Flower Festival soon, and I'd like to invite you to come.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Ahaha, sorry for interrupting your stroll... You see, we're having a Flower Festival soon, and I'd like to invite you to come.",
+			actor = 307030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "Will there be candy? Because I wanna eat candy!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Will there be candy? Because I wanna eat candy!",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "Ahaha, Souryuu is like a mother figure to them... That's what I would call \"sweet\"~",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahaha, Souryuu is like a mother figure to them... That's what I would call \"sweet\"~",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

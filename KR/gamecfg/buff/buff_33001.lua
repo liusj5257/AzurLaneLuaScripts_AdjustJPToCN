@@ -8,16 +8,16 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 33001,
 					time = 30,
-					target = "TargetSelf",
-					skill_id = 33001
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "紧急损管",
 	time = 0,
+	name = "紧急损管",
+	init_effect = "",
 	picture = "",
 	desc = "每隔30秒回复自身耐久1次",
 	stack = 1,
@@ -31,9 +31,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 33001,
 				time = 30,
-				target = "TargetSelf",
-				skill_id = 33001
+				target = "TargetSelf"
 			}
 		}
 	}

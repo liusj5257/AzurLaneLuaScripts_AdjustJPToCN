@@ -1,18 +1,18 @@
 return {
-	id = "MAOZIHUODONG7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 102100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hey, you know what that thing is? The purple glowing one?",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "What is that, Avrora...?",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Is it some sort of undiscovered Northern Parliament wildlife?",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "Did you forget your glasses at home? That's obviously a Siren!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "...Wait, let me guess, you were being sarcastic?",
 			typewriter = {
 				speed = 0.05,

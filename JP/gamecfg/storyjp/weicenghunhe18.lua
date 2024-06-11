@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE18",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？·？？？",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
+			say = "？？？·？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -23,9 +23,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -38,9 +38,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "「影」が消えた方向を辿って別の場所に踏み入ったようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "……これは……各陣営の……",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "識別信号を探知できない。これがすべて「幻」だというのか",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "……いまので全部か？",
 			typewriter = {
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			nameColor = "#ffa500",
-			bgName = "bg_banama_2",
 			side = 2,
+			bgName = "bg_banama_2",
 			dir = 1,
+			actor = 303110,
 			actorName = "高雄？",
 			say = "今の所はな。合流できない者もいる",
 			typewriter = {
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			nameColor = "#ffa500",
-			bgName = "bg_banama_2",
 			side = 2,
+			bgName = "bg_banama_2",
 			dir = 1,
+			actor = 307040,
 			actorName = "？？？",
 			say = "……厳しい状況ですね。この戦いは",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#ffa500",
 			say = "落ち込んでいてもしかたない。エンタープライズがここにいるんだ。きっと上手くいく",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "……「名前」？",
 			typewriter = {
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			nameColor = "#ffa500",
-			bgName = "bg_banama_2",
 			side = 2,
+			bgName = "bg_banama_2",
 			dir = 1,
+			actor = 307040,
 			actorName = "？？？",
 			say = "それより本当にあいつらと協力するんですか？あいつら、「セイレーン」は本来、私たちに代わって戦う存在として――",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "……！？",
 			typewriter = {
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_banama_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "セイレーンと…艦船（KAN-SEN）！？お前たちは一体何者だ！",
 			dialogShake = {
 				speed = 0.09,
@@ -302,9 +302,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "「影」は消え、エンタープライズはただ一人、静かな海に取り残された。",
 			typewriter = {
 				speed = 0.05,

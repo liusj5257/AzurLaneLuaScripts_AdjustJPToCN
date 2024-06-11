@@ -1,13 +1,13 @@
 return {
-	id = "BULISITUOERBOSS5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULISITUOERBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"名状しがたき演習事件\n\n<size=45>五 名演技！</size>",
@@ -16,16 +16,16 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
-			bgName = "star_level_bg_148",
-			say = "演習海域・廃棄施設",
+			oldPhoto = true,
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_148",
 			bgm = "xinnong-3",
+			say = "演習海域・廃棄施設",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_148",
 			dir = 1,
 			say = "暗闇に包まれた施設の中、クーパーとイングラハムは目的地に向かった。",
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "照明――――オン！",
 			typewriter = {
 				speed = 0.05,
@@ -161,13 +161,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "よーく目を凝らして……あっ、いた！ブリストル見っけー！",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,13 +284,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,13 +388,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官も何かあったみたいだし、母港と通信しようにも敵のジャミングや傍聴で思い通りにいかなくて…",
 			typewriter = {
 				speed = 0.05,
@@ -558,13 +558,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "死守すれば何とかなる！現にこうしてクーパーが来てくれたじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -759,13 +759,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うん…シンプルなことを見事にややこしくしたね",
 			typewriter = {
 				speed = 0.05,
@@ -837,16 +837,16 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_148",
 			dir = 1,
+			bgName = "star_level_bg_148",
 			bgm = "story-1",
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "もう頭がごちゃごちゃになったよークーパー助けて……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -871,12 +871,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うんうん、まぁそうなるよね",
 			typewriter = {
 				speed = 0.05,
@@ -891,10 +891,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "この前出くわしたアレンも本物だったの？",
 			typewriter = {
 				speed = 0.05,
@@ -906,12 +906,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうだよ～",
 			typewriter = {
 				speed = 0.05,
@@ -926,10 +926,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "じゃ仕掛けに引っかかった人たちは……？",
 			typewriter = {
 				speed = 0.05,
@@ -944,10 +944,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "演習が中止になってたまたまここを通った仲間たちだと思う。うん",
 			typewriter = {
 				speed = 0.05,
@@ -962,10 +962,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ううぅ…みんなに迷惑かけちゃった……",
 			typewriter = {
 				speed = 0.05,
@@ -980,10 +980,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大丈夫だよー、みんなブリストルを怒ってないから",
 			typewriter = {
 				speed = 0.05,
@@ -995,12 +995,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "むしろイングラハムが今頃始末書で大変なことになっているかもね…ははは",
 			typewriter = {
 				speed = 0.05,
@@ -1015,10 +1015,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ほら、そろそろ帰るよ。あ、この事件に関する報告書をまとめて、ちゃんと指揮官ちゃんに提出してね",
 			typewriter = {
 				speed = 0.05,
@@ -1033,10 +1033,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "事件…報告書？あ、うん、分かった！",
 			typewriter = {
 				speed = 0.05,
@@ -1048,8 +1048,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1058,15 +1058,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
 			bgName = "bg_story_task",
-			say = "翌日、指揮官の机に「対抗演習　調査報告書」という書類が提出された。",
 			dir = 1,
+			side = 2,
 			bgm = "xinnong-3",
+			say = "翌日、指揮官の机に「対抗演習　調査報告書」という書類が提出された。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1091,8 +1091,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "「……艦船にとって、一番恐れているのは未知に対する恐怖であり……」",
@@ -1106,8 +1106,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "「……あの廃棄基地で、眠りし敵は夢の訪れを待っている……」",
@@ -1121,8 +1121,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "「……星々は特定の位置に行きつき、真実はいずれ母港に降り注ぐだろう……」",
@@ -1136,8 +1136,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "補足：「イングラハムによる始末書」監修：アレン・M・サムナー",
@@ -1161,8 +1161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

@@ -15,48 +15,48 @@ slot1 = {
 	7
 }
 slot0.nationSpriteIndex = {
-	cn = 5,
+	us = 1,
 	de = 4,
 	cm = 0,
-	jp = 3,
+	cn = 5,
 	np = 9,
-	sn = 6,
-	en = 2,
 	um = 11,
+	en = 2,
+	jp = 3,
 	mnf = 8,
 	bili = 10,
 	ff = 7,
-	us = 1
+	sn = 6
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ProposeUI"
 end
 
-function slot0.setShip(slot0, slot1)
+slot0.setShip = function(slot0, slot1)
 	slot0.shipVO = slot1
 	slot0.proposeType = slot0.shipVO:getProposeType()
 
 	slot0:setShipGroupID(slot0.shipVO:getGroupId())
 end
 
-function slot0.setShipGroupID(slot0, slot1)
+slot0.setShipGroupID = function(slot0, slot1)
 	slot0.shipGroupID = slot1
 end
 
-function slot0.setWeddingReviewSkinID(slot0, slot1)
+slot0.setWeddingReviewSkinID = function(slot0, slot1)
 	slot0.reviewSkinID = slot1
 end
 
-function slot0.setBagProxy(slot0, slot1)
+slot0.setBagProxy = function(slot0, slot1)
 	slot0.bagProxy = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.storybg = slot0:findTF("close/bg")
 	slot0.bgAdd = slot0:findTF("add")
 
@@ -119,7 +119,7 @@ function slot0.init(slot0)
 	slot0.tweenList = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:emit(ProposeMediator.HIDE_SHIP_MAIN_WORD)
 
 	if slot0.commonTF then
@@ -141,14 +141,14 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.doPlay(slot0)
+slot0.doPlay = function(slot0)
 	setActive(slot0.skipBtn, slot0.weddingReview)
 	slot0:setMask(true)
 	pg.BgmMgr.GetInstance():TempPlay("wedding")
 	slot0:showProposePanel()
 end
 
-function slot0.doMain(slot0)
+slot0.doMain = function(slot0)
 	onButton(slot0, slot0.skipBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -306,7 +306,7 @@ function slot0.doMain(slot0)
 			end
 
 			if uv2 then
-				function uv1.afterRegisterCall()
+				uv1.afterRegisterCall = function()
 					uv0.afterRegisterCall = nil
 
 					pg.TipsMgr.GetInstance():ShowTips(i18n("word_propose_switch_tip"))
@@ -321,7 +321,7 @@ function slot0.doMain(slot0)
 	end)
 end
 
-function slot0.getProposeText(slot0)
+slot0.getProposeText = function(slot0)
 	slot1 = ""
 
 	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT then
@@ -350,7 +350,7 @@ function slot0.getProposeText(slot0)
 	return slot1
 end
 
-function slot0.getProposeItemId(slot0)
+slot0.getProposeItemId = function(slot0)
 	if slot0.proposeType == "imas" then
 		return ITEM_ID_FOR_PROPOSE_IMAS
 	else
@@ -358,7 +358,7 @@ function slot0.getProposeItemId(slot0)
 	end
 end
 
-function slot0.onUpdateItemCount(slot0)
+slot0.onUpdateItemCount = function(slot0)
 	slot1 = slot0.bagProxy:getItemCountById(slot0:getProposeItemId())
 
 	setActive(slot0.ringAchieved, slot0.shipVO.propose or slot1 > 0)
@@ -385,13 +385,13 @@ function slot0.onUpdateItemCount(slot0)
 	end
 end
 
-function slot0.onUpdateIntimacydescTime(slot0, slot1)
+slot0.onUpdateIntimacydescTime = function(slot0, slot1)
 	slot2 = nil
 
 	setText(slot0.intimacydescTime, pg.TimeMgr.GetInstance():STimeDescS(slot1, PLATFORM_CODE == PLATFORM_JP and (slot0.proposeType == "imas" and "%Y.%m.%d" or "%B.%d,    %y") or PLATFORM_CODE == PLATFORM_US and "%B %d, %Y" or slot0.proposeType == "imas" and i18n("intimacy_desc_day") .. " %Y.%m.%d" or "%B.%d,    %y"))
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.exchangePanel) then
 		slot0:hideExchangePanel()
 
@@ -404,7 +404,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0._currentVoice then
 		slot0._currentVoice:PlaybackStop()
 	end
@@ -468,16 +468,16 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.setMask(slot0, slot1)
+slot0.setMask = function(slot0, slot1)
 	setActive(slot0.maskTF, slot1)
 end
 
-function slot0.bgAddAnimation(slot0, slot1)
+slot0.bgAddAnimation = function(slot0, slot1)
 	setActive(slot0.storybg, true)
 	slot0:showbgAdd(true, slot1)
 end
 
-function slot0.showbgChurch(slot0)
+slot0.showbgChurch = function(slot0)
 	table.insert(slot0.tweenList, LeanTween.scale(slot0.storybg, Vector3(1, 1, 1), 6).uniqueId)
 	setActive(slot0.churchLight, true)
 	table.insert(slot0.tweenList, LeanTween.delayedCall(6, System.Action(function ()
@@ -485,12 +485,12 @@ function slot0.showbgChurch(slot0)
 	end)).uniqueId)
 end
 
-function slot0.showbgAdd(slot0, slot1, slot2)
+slot0.showbgAdd = function(slot0, slot1, slot2)
 	table.insert(slot0.tweenList, LeanTween.alphaCanvas(GetOrAddComponent(slot0.bgAdd, typeof(CanvasGroup)), slot1 and 0 or 1, slot2):setFrom(slot1 and 1 or 0).uniqueId)
 	setActive(slot0.bgAdd, true)
 end
 
-function slot0.showBlackBG(slot0, slot1, slot2, slot3)
+slot0.showBlackBG = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.blackBG, true)
 	table.insert(slot0.tweenList, LeanTween.alphaCanvas(GetOrAddComponent(slot0.blackBG, typeof(CanvasGroup)), slot1 and 0 or 1, slot2):setFrom(slot1 and 1 or 0):setOnComplete(System.Action(function ()
 		if uv0 then
@@ -503,7 +503,7 @@ function slot0.showBlackBG(slot0, slot1, slot2, slot3)
 	end)).uniqueId)
 end
 
-function slot0.showPainting(slot0, slot1, slot2, slot3)
+slot0.showPainting = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	if slot1 then
@@ -523,7 +523,7 @@ end
 
 slot0.Live2DProposeDelayTime = 2
 
-function slot0.showLive2D(slot0, slot1)
+slot0.showLive2D = function(slot0, slot1)
 	setActive(slot0:findTF("fitter", slot0.targetActorTF), false)
 	setActive(slot0:findTF("live2d", slot0.targetActorTF), true)
 
@@ -536,7 +536,7 @@ function slot0.showLive2D(slot0, slot1)
 	end)).uniqueId)
 end
 
-function slot0.changeParamaterValue(slot0, slot1, slot2)
+slot0.changeParamaterValue = function(slot0, slot1, slot2)
 	if not slot1 or string.len(slot1) == 0 then
 		return
 	end
@@ -548,7 +548,7 @@ function slot0.changeParamaterValue(slot0, slot1, slot2)
 	slot0.l2dChar:AddParameterValue(slot3, slot2, CubismParameterBlendMode.Override)
 end
 
-function slot0.hideWindow(slot0)
+slot0.hideWindow = function(slot0)
 	slot1 = GetOrAddComponent(slot0.window, typeof(CanvasGroup))
 	slot1.interactable = false
 	slot4 = LeanTween.alphaCanvas(slot1, 0, 0.2)
@@ -559,7 +559,7 @@ function slot0.hideWindow(slot0)
 	end)).uniqueId)
 end
 
-function slot0.stampWindow(slot0)
+slot0.stampWindow = function(slot0)
 	slot0.proposeEndFlag = true
 
 	slot0:loadChar(nil, , function ()
@@ -610,7 +610,7 @@ function slot0.stampWindow(slot0)
 	end)).id
 end
 
-function slot0.showProposePanel(slot0)
+slot0.showProposePanel = function(slot0)
 	slot1 = {}
 	slot0.proposeSkin = ShipGroup.getProposeSkin(slot0.shipGroupID)
 
@@ -815,7 +815,7 @@ function slot0.showProposePanel(slot0)
 	end)
 end
 
-function slot0.ringOn(slot0)
+slot0.ringOn = function(slot0)
 	if slot0.isRingOn then
 		return
 	end
@@ -844,7 +844,7 @@ function slot0.ringOn(slot0)
 	end
 end
 
-function slot0.enableRingDrag(slot0, slot1)
+slot0.enableRingDrag = function(slot0, slot1)
 	if not slot0.press then
 		slot0:addRingDragListenter()
 	end
@@ -852,7 +852,7 @@ function slot0.enableRingDrag(slot0, slot1)
 	slot0.press.enabled = slot1
 end
 
-function slot0.addRingDragListenter(slot0)
+slot0.addRingDragListenter = function(slot0)
 	slot0.press = GetOrAddComponent(slot0.proposePanel, "EventTriggerListener")
 	slot1 = nil
 	slot2 = slot0.press
@@ -882,7 +882,7 @@ function slot0.addRingDragListenter(slot0)
 	end)
 end
 
-function slot0.RingFadeout(slot0)
+slot0.RingFadeout = function(slot0)
 	slot1 = {}
 
 	if slot0.proposeType == "imas" then
@@ -918,7 +918,7 @@ function slot0.RingFadeout(slot0)
 	end)).uniqueId)
 end
 
-function slot0.displayShipWord(slot0, slot1)
+slot0.displayShipWord = function(slot0, slot1)
 	slot3, slot4, slot5 = ShipWordHelper.GetWordAndCV(ShipGroup.getDefaultSkin(slot0.shipGroupID).id, slot1)
 	slot6 = nil
 	slot7 = ShipWordHelper.GetL2dCvCalibrate((not slot0.reviewSkinID or slot0.reviewSkinID) and (not slot0.proposeSkin or slot0.proposeSkin.id) and slot0.shipVO.skinId, slot1)
@@ -926,7 +926,7 @@ function slot0.displayShipWord(slot0, slot1)
 	slot0:showStoryUI(slot5)
 
 	if slot4 then
-		function slot8()
+		slot8 = function()
 			if uv0._currentVoice then
 				uv0._currentVoice:PlaybackStop()
 			end
@@ -956,11 +956,11 @@ function slot0.displayShipWord(slot0, slot1)
 	end
 end
 
-function slot0.useL2dOrPainting(slot0)
-	return PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. string.lower(slot0.paintingName)))
+slot0.useL2dOrPainting = function(slot0)
+	return checkABExist("live2d/" .. string.lower(slot0.paintingName))
 end
 
-function slot0.showStoryUI(slot0, slot1)
+slot0.showStoryUI = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot0.storyTF then
@@ -1074,7 +1074,7 @@ function slot0.showStoryUI(slot0, slot1)
 	end)
 end
 
-function slot0.TypeWriter(slot0)
+slot0.TypeWriter = function(slot0)
 	slot0.inTypeWritter = true
 	slot0.typeWritterSpeedUp = 0.01
 	slot2 = slot0.typeWriter
@@ -1085,13 +1085,13 @@ function slot0.TypeWriter(slot0)
 
 	slot2:Play()
 
-	function slot0.typeWriter.endFunc()
+	slot0.typeWriter.endFunc = function()
 		uv0.inTypeWritter = false
 		uv0.typeWritterSpeedUp = nil
 	end
 end
 
-function slot0.loadChar(slot0, slot1, slot2, slot3)
+slot0.loadChar = function(slot0, slot1, slot2, slot3)
 	slot1 = slot1 or slot0._paintingTF
 	slot2 = slot2 or "wedding"
 	slot4 = {}
@@ -1106,7 +1106,7 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 				uv0.paintingName = uv0.shipVO:getPainting()
 			end
 
-			if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv0.paintingName .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+			if checkABExist("painting/" .. uv0.paintingName .. "_n") and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
 				slot1 = slot1 .. "_n"
 			end
 
@@ -1123,7 +1123,7 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 				uv1()
 			end)
 
-			if PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. string.lower(uv0.paintingName))) then
+			if checkABExist("live2d/" .. string.lower(uv0.paintingName)) then
 				uv0:createLive2D(uv0.paintingName)
 			end
 		end)
@@ -1148,7 +1148,7 @@ function slot0.loadChar(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.createLive2D(slot0, slot1)
+slot0.createLive2D = function(slot0, slot1)
 	slot2 = pg.Live2DMgr.GetInstance()
 	slot0.live2dRequestId = slot2:GetLive2DModelAsync(slot1, function (slot0)
 		UIUtil.SetLayerRecursively(slot0, LayerMask.NameToLayer("UI"))
@@ -1161,7 +1161,7 @@ function slot0.createLive2D(slot0, slot1)
 		uv0.l2dChar = GetComponent(slot0, "Live2dChar")
 		uv0.l2dChar.name = uv1
 
-		function uv0.l2dChar.FinishAction(slot0)
+		uv0.l2dChar.FinishAction = function(slot0)
 			if uv0 ~= slot0 then
 				uv1.l2dChar:SetAction(uv0)
 			end
@@ -1182,7 +1182,7 @@ function slot0.createLive2D(slot0, slot1)
 	end)
 end
 
-function slot0.showTip(slot0)
+slot0.showTip = function(slot0)
 	if not slot0.proposeSkin then
 		return
 	end
@@ -1201,7 +1201,7 @@ function slot0.showTip(slot0)
 	table.insert(slot0.tweenList, LeanTween.alphaCanvas(slot4, 0, 1.5):setFrom(1):setDelay(4).uniqueId)
 end
 
-function slot0.initChangeNamePanel(slot0)
+slot0.initChangeNamePanel = function(slot0)
 	slot2 = slot0._renamePanel
 	slot5 = slot0.shipVO
 
@@ -1241,7 +1241,7 @@ function slot0.initChangeNamePanel(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.DisplayRenamePanel(slot0)
+slot0.DisplayRenamePanel = function(slot0)
 	if slot0.shipVO:IsXIdol() then
 		slot0:closeView()
 	else
@@ -1252,26 +1252,26 @@ function slot0.DisplayRenamePanel(slot0)
 	end
 end
 
-function slot0.showExchangePanel(slot0)
+slot0.showExchangePanel = function(slot0)
 	setActive(slot0.exchangePanel, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.exchangePanel, false, {
 		weight = LayerWeightConst.SECOND_LAYER
 	})
 end
 
-function slot0.hideExchangePanel(slot0)
+slot0.hideExchangePanel = function(slot0)
 	setActive(slot0.exchangePanel, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.exchangePanel, slot0._tf)
 end
 
-function slot0.checkPaintingRes(slot0, slot1, slot2)
+slot0.checkPaintingRes = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if slot1:getProposeSkin() and slot4.id > 0 then
-		PaintingConst.AddPaintingNameBySkinID(slot3, slot4.id)
+		PaintingGroupConst.AddPaintingNameBySkinID(slot3, slot4.id)
 	end
 
-	PaintingConst.PaintingDownload({
+	PaintingGroupConst.PaintingDownload({
 		isShowBox = true,
 		paintingNameList = slot3,
 		finishFunc = slot2

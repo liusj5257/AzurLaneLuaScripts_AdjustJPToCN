@@ -1,19 +1,19 @@
 return {
-	id = "WORLD505B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD505B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/16/tb-16",
+			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "경고: 전방 해역에 이상 기후가 감지되었습니다. 거리를 두시길 바랍니다.",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "어라? 폭풍 전체적가 특이점이 아니라 폭풍우가 감싸고 있는 작은 폭풍이 특이점...?",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "정말 교활해… 그치만...",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "어? 잠깐… 이 폭풍은 세이렌이 만들어낸 게 아닌가? 특이점은 잔불이 연 거 아니었어?",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "성분 분석 가능할까, 네비게이터?",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "지령 확인 완료. 분석 중입니다——————",
 			voice = "event:/tb/17/tb-17",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "지령 확인 완료. 분석 중입니다——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,11 +227,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "분석 완료: 형태는 약간 다르지만 공기 중의 검은 결정들은 성질상 연구팀에서 잔불 위치 취적 분석을 진행하는 참조물과 일치합니다.",
 			voice = "event:/tb/38/tb-38",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "분석 완료: 형태는 약간 다르지만 공기 중의 검은 결정들은 성질상 연구팀에서 잔불 위치 취적 분석을 진행하는 참조물과 일치합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,8 +245,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "공기 중의 검은 결정체는 잔불이 이곳에서 격렬하게 싸운 후의 흔적으로 보입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -275,9 +275,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "엘리자베스! 설마 그 이유 때문에 계획을 바꿔 억지로 모이게 한 건 아니겠지!",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,9 +331,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "… 하루 종일 뒤쪽 성에 처박혀서, 가끔! 전선에 한 번 행차하시는 여왕 폐하께서는 그럴 말할 자격이 없습니다만!",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -387,14 +387,14 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "경고: 전방 폭풍의 중심에서 높은 에너지 반응이 나타났습니다. 함대 즉각 대피 바랍니다.",
-			voice = "event:/tb/16/tb-16",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -451,11 +451,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "경고: 전방 폭풍의 중심에서 에너지 반응이 계속해서 높아지고 있습니다.  충격 피해는 10초 후로 예상됩니다. 10, 9, 8, 7...",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,8 +481,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "지휘함에서도 선명하게 느껴지는군, 점점 거세지는 힘이 바다 위 함대를 파도와 함께 폭풍의 방향으로 빨아들이고 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -506,9 +506,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "최대 속력으로도 벗어날 수 없다! 지휘관, 조심해. 우리 빨려 들어간다!",
 			dialogShake = {
 				speed = 0.08,

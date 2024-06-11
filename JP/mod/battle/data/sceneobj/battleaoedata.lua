@@ -8,7 +8,7 @@ slot2.ALIGNMENT_LEFT = "left"
 slot2.ALIGNMENT_RIGHT = "right"
 slot2.ALIGNMENT_MIDDLE = "middle"
 
-function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot2.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._areaUniqueID = slot1
 	slot0._areaCldFunc = slot3
 	slot0._endFunc = slot4
@@ -24,7 +24,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0._timeExemptKey = "aoe_" .. slot0._areaUniqueID
 end
 
-function slot2.StartTimer(slot0)
+slot2.StartTimer = function(slot0)
 	if slot0._lifeTime == -1 then
 		slot0._flag = false
 
@@ -40,45 +40,45 @@ function slot2.StartTimer(slot0)
 	end
 end
 
-function slot2.GetTimeRationExemptKey(slot0)
+slot2.GetTimeRationExemptKey = function(slot0)
 	return slot0._timeExemptKey
 end
 
-function slot2.RemoveTimer(slot0)
+slot2.RemoveTimer = function(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._lifeTimer)
 
 	slot0._lifeTimer = nil
 	slot0._flag = false
 end
 
-function slot2.ClearCLDList(slot0)
+slot2.ClearCLDList = function(slot0)
 	slot0._cldObjList = {}
 end
 
-function slot2.AppendCldObj(slot0, slot1)
+slot2.AppendCldObj = function(slot0, slot1)
 	slot0._cldObjList[#slot0._cldObjList + 1] = slot1
 end
 
-function slot2.Settle(slot0)
+slot2.Settle = function(slot0)
 	slot0.SortCldObjList(slot0._cldObjList)
 	slot0._cldComponent:GetCldData().func(slot0._cldObjList)
 end
 
-function slot2.SettleFinale(slot0)
+slot2.SettleFinale = function(slot0)
 	if slot0._endFunc then
 		slot0.SortCldObjList(slot0._cldObjList)
 		slot0._endFunc(slot0._cldObjList)
 	end
 end
 
-function slot2.ForceExit(slot0)
+slot2.ForceExit = function(slot0)
 end
 
-function slot2.SortCldObjList(slot0)
+slot2.SortCldObjList = function(slot0)
 	table.sort(slot0, uv0._Fun_SortCldObjList)
 end
 
-function slot2._Fun_SortCldObjList(slot0, slot1)
+slot2._Fun_SortCldObjList = function(slot0, slot1)
 	if slot0.IsBoss ~= slot1.IsBoss then
 		if slot1.IsBoss then
 			return true
@@ -90,31 +90,31 @@ function slot2._Fun_SortCldObjList(slot0, slot1)
 	end
 end
 
-function slot2.SetOpponentAffected(slot0, slot1)
+slot2.SetOpponentAffected = function(slot0, slot1)
 	slot0._opponentAffected = slot1
 end
 
-function slot2.OpponentAffected(slot0)
+slot2.OpponentAffected = function(slot0)
 	return slot0._opponentAffected
 end
 
-function slot2.SetIndiscriminate(slot0, slot1)
+slot2.SetIndiscriminate = function(slot0, slot1)
 	slot0._indicriminate = slot1
 end
 
-function slot2.GetIndiscriminate(slot0)
+slot2.GetIndiscriminate = function(slot0)
 	return slot0._indicriminate
 end
 
-function slot2.GetActiveFlag(slot0)
+slot2.GetActiveFlag = function(slot0)
 	return slot0._flag
 end
 
-function slot2.SetActiveFlag(slot0, slot1)
+slot2.SetActiveFlag = function(slot0, slot1)
 	slot0._flag = slot1
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	for slot4, slot5 in ipairs(slot0._component) do
 		slot5:Dispose()
 	end
@@ -126,105 +126,105 @@ function slot2.Dispose(slot0)
 	slot0._cldObjList = nil
 end
 
-function slot2.GetUniqueID(slot0)
+slot2.GetUniqueID = function(slot0)
 	return slot0._areaUniqueID
 end
 
-function slot2.GetIFF(slot0)
+slot2.GetIFF = function(slot0)
 	return slot0._IFF
 end
 
-function slot2.GetAreaType(slot0)
+slot2.GetAreaType = function(slot0)
 	return slot0._areaType
 end
 
-function slot2.GetPosition(slot0)
+slot2.GetPosition = function(slot0)
 	return slot0._pos
 end
 
-function slot2.GetTickness(slot0)
+slot2.GetTickness = function(slot0)
 	return slot0._tickness
 end
 
-function slot2.GetLifeTime(slot0)
+slot2.GetLifeTime = function(slot0)
 	return slot0._lifeTime
 end
 
-function slot2.GetFieldType(slot0)
+slot2.GetFieldType = function(slot0)
 	return slot0._fieldType
 end
 
-function slot2.GetDiveFilter(slot0)
+slot2.GetDiveFilter = function(slot0)
 	return slot0._diveFilter
 end
 
-function slot2.GetCldFunc(slot0)
+slot2.GetCldFunc = function(slot0)
 	return slot0._areaCldFunc
 end
 
-function slot2.GetHeight(slot0)
+slot2.GetHeight = function(slot0)
 	return slot0._height
 end
 
-function slot2.GetWidth(slot0)
+slot2.GetWidth = function(slot0)
 	return slot0._width
 end
 
-function slot2.GetAngle(slot0)
+slot2.GetAngle = function(slot0)
 	return slot0._angle
 end
 
-function slot2.GetRange(slot0)
+slot2.GetRange = function(slot0)
 	return slot0._range
 end
 
-function slot2.GetSectorAngle(slot0)
+slot2.GetSectorAngle = function(slot0)
 	return slot0._sectorAngle
 end
 
-function slot2.SetAreaType(slot0, slot1)
+slot2.SetAreaType = function(slot0, slot1)
 	slot0._areaType = slot1
 
 	slot0:InitCldComponent()
 end
 
-function slot2.SetDiveFilter(slot0, slot1)
+slot2.SetDiveFilter = function(slot0, slot1)
 	slot0._diveFilter = slot1
 end
 
-function slot2.SetPosition(slot0, slot1)
+slot2.SetPosition = function(slot0, slot1)
 	slot0._pos = slot1
 end
 
-function slot2.SetTickness(slot0, slot1)
+slot2.SetTickness = function(slot0, slot1)
 	slot0._tickness = slot1
 end
 
-function slot2.SetFieldType(slot0, slot1)
+slot2.SetFieldType = function(slot0, slot1)
 	slot0._fieldType = slot1
 end
 
-function slot2.SetLifeTime(slot0, slot1)
+slot2.SetLifeTime = function(slot0, slot1)
 	slot0._lifeTime = slot1
 end
 
-function slot2.SetHeight(slot0, slot1)
+slot2.SetHeight = function(slot0, slot1)
 	slot0._height = slot1
 end
 
-function slot2.SetWidth(slot0, slot1)
+slot2.SetWidth = function(slot0, slot1)
 	slot0._width = slot1
 end
 
-function slot2.SetAngle(slot0, slot1)
+slot2.SetAngle = function(slot0, slot1)
 	slot0._angle = slot1
 end
 
-function slot2.SetRange(slot0, slot1)
+slot2.SetRange = function(slot0, slot1)
 	slot0._range = slot1
 end
 
-function slot2.SetSectorAngle(slot0, slot1, slot2)
+slot2.SetSectorAngle = function(slot0, slot1, slot2)
 	slot0._sectorAngle = slot1
 	slot0._sectorDir = slot2
 	slot0._upperEdge = math.deg2Rad * slot0._sectorAngle / 2
@@ -243,7 +243,7 @@ function slot2.SetSectorAngle(slot0, slot1, slot2)
 	slot0._negativeCircleNormalizeOffset = slot0._normalizeOffset + math.pi * 2
 end
 
-function slot2.SetAnchorPointAlignment(slot0, slot1)
+slot2.SetAnchorPointAlignment = function(slot0, slot1)
 	if slot1 == uv0.ALIGNMENT_LEFT then
 		slot0._alignment = Vector3(slot0._width * 0.5, 0, 0)
 	elseif slot1 == uv0.ALIGNMENT_RIGHT then
@@ -251,23 +251,23 @@ function slot2.SetAnchorPointAlignment(slot0, slot1)
 	end
 end
 
-function slot2.GetAnchorPointAlignment(slot0)
+slot2.GetAnchorPointAlignment = function(slot0)
 	return slot0._alignment
 end
 
-function slot2.GetFXStatic(slot0)
+slot2.GetFXStatic = function(slot0)
 	return slot0._fxStatic
 end
 
-function slot2.SetFXStatic(slot0, slot1)
+slot2.SetFXStatic = function(slot0, slot1)
 	slot0._fxStatic = slot1
 end
 
-function slot2.AppendComponent(slot0, slot1)
+slot2.AppendComponent = function(slot0, slot1)
 	table.insert(slot0._component, slot1)
 end
 
-function slot2.InitCldComponent(slot0)
+slot2.InitCldComponent = function(slot0)
 	if slot0._areaType == uv0.AreaType.CUBE then
 		slot0._cldComponent = uv1.Battle.BattleCubeCldComponent.New(slot0._width, slot0._tickness, slot0._height, 0, 0)
 	elseif slot0._areaType == uv0.AreaType.COLUMN then
@@ -283,23 +283,23 @@ function slot2.InitCldComponent(slot0)
 	slot0._cldComponent:SetActive(true)
 end
 
-function slot2.GetCldComponent(slot0)
+slot2.GetCldComponent = function(slot0)
 	return slot0._cldComponent
 end
 
-function slot2.DeactiveCldBox(slot0)
+slot2.DeactiveCldBox = function(slot0)
 	slot0._cldComponent:SetActive(false)
 end
 
-function slot2.GetCldBox(slot0)
+slot2.GetCldBox = function(slot0)
 	return slot0._cldComponent:GetCldBox(slot0:GetPosition() + slot0._alignment)
 end
 
-function slot2.GetCldData(slot0)
+slot2.GetCldData = function(slot0)
 	return slot0._cldComponent:GetCldData()
 end
 
-function slot2.UpdateDistanceInfo(slot0)
+slot2.UpdateDistanceInfo = function(slot0)
 	for slot4, slot5 in ipairs(slot0._cldObjList) do
 		slot6 = nil
 		slot8 = slot5.RightBound
@@ -329,11 +329,11 @@ function slot2.UpdateDistanceInfo(slot0)
 	end
 end
 
-function slot2.GetDistance(slot0, slot1)
+slot2.GetDistance = function(slot0, slot1)
 	return slot0._cldObjDistanceList[slot1]
 end
 
-function slot2.IsOutOfAngle(slot0, slot1)
+slot2.IsOutOfAngle = function(slot0, slot1)
 	if not slot0._sectorAngle or slot0._sectorAngle >= 360 then
 		return false
 	else

@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA18",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA18",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301120,
 			side = 0,
 			nameColor = "#a9f548",
-			hideOther = true,
+			actor = 301120,
 			dir = 1,
+			hideOther = true,
 			actorName = "雷＆電",
 			say = "えい！",
 			effects = {
@@ -36,10 +36,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			say = "（ズドーン！）",
+			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
 					active = false,
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "高雄ちゃん",
 			say = "拙者としたことが……む、無念…！",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "チュンチュン",
 			dir = -1,
+			actorName = "チュンチュン",
 			say = "ぱたんきゅー＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "しょうちゃん",
 			dir = 1,
+			actorName = "しょうちゃん",
 			say = "せっかく赤城先輩より練度が高いというのに……",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "プリンちゃん",
 			dir = 1,
+			actorName = "プリンちゃん",
 			say = "いいのよ、あんたが謝るようなことじゃないわ。でも、せめて…あのポンコツAIの指揮官と一言だけでも言葉を交わしてみたかったわね…",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "プリンちゃん",
 			dir = 1,
+			actorName = "プリンちゃん",
 			say = "このダサい名前…実は結構気に入ってたのよ…",
 			typewriter = {
 				speed = 0.05,

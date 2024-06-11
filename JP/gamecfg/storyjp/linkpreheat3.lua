@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "……では、皆さんもやっぱり記憶が曖昧なんですか？",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "そうなの。みんなでヤマトに行く旅をしていたはずなんだけど……気がついたら、この海に放り出されてたんだ",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "見渡すかぎりの海、陸地もなくて寄る辺もない……危うく溺れかけました",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "見渡すかぎりの海、陸地もなくて寄る辺もない……危うく溺れかけました",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "あれはもう遭難みたいなものでしたよね",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -341,8 +341,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "……来る",
 			typewriter = {
 				speed = 0.05,
@@ -356,10 +356,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "お話はこれまでです。新手がやってきます",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "お話はこれまでです。新手がやってきます",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			actorName = "クオン？",
 			say = "…………",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			actor = 10300020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ネコネ？",
 			dir = 1,
+			actorName = "ネコネ？",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -440,8 +440,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "私だけじゃなくて、ネコネまで……趣味悪いかな！",
 			typewriter = {
 				speed = 0.05,

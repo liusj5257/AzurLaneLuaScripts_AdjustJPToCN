@@ -22,8 +22,8 @@ return {
 			actor = 303010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:53}",
 			say = "That's right. We didn't sustain any major injuries, so we can probably keep fighting on.",
+			actorName = "{namecode:53}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,8 +86,8 @@ return {
 			actor = 303030,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:55}",
 			say = "W-who knows?! I have n-no clue what you're talking about~!",
+			actorName = "{namecode:55}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Choukai turned her head to look at the tropical island, its dense rainforest making it look even more inaccessible than before. With that, the island, as well as the sounds of battle, faded into the stillness of the moonlight.",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "But this was only an intermission, a brief period of quiet before the curtains would rise again with the fanfare of cannons.",
 			typewriter = {

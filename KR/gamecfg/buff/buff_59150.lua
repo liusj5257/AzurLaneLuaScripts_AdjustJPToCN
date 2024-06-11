@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "立场发射",
 	init_effect = "",
-	color = "red",
+	id = 59150,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 59150,
+	color = "red",
 	icon = 59150,
 	last_effect = "",
 	blink = {
@@ -23,9 +23,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 59150,
 				target = "TargetSelf",
-				time = 15,
-				skill_id = 59150
+				time = 15
 			}
 		}
 	}

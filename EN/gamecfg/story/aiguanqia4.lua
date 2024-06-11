@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA4",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA4",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900179,
@@ -23,8 +23,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "Tada! I've just installed this \"Prototype Ship Rigging Construction Module\" that Akashi-chan made for me! Now, I'll be able to fight alongside all of you~!",
 			flashN = {
 				color = {
@@ -164,8 +164,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "(I-I didn't think I'd get praised this much...! It feels... super good?!)",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "Well, since holograms are just data, I'm basically naked right now if you think about it~",
 			typewriter = {
 				speed = 0.05,
@@ -225,9 +225,9 @@ return {
 		{
 			expression = 6,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "*gasp*! Is Azur Lane going to get banned in several different countries because of what I just said? I'm so sorry... forget you heard anything!!",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "Huh? I can't change my skin? What's going on??",
 			flashN = {
 				color = {
@@ -344,9 +344,9 @@ return {
 		{
 			expression = 5,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "No way...!? What should I do? I really liked those outfits too~!",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,10 +428,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "BA-DOOSH!!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -476,9 +476,9 @@ return {
 		{
 			expression = 6,
 			side = 1,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Woooahhhhhhh! Just when I was starting to get my motivation back, this happens?!",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -518,8 +518,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "Kizuna AI clone",
 			say = "... ... ...",
 			typewriter = {

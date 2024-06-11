@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Best Pictures!\n\n<size=45>三 小加加的休息日</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "第四張照片上是休息日裡還在進行著偶像工作（？）的薩拉托加——",
 			typewriter = {
 				speed = 0.05,
@@ -27,17 +27,17 @@ return {
 			}
 		},
 		{
-			actor = 107030,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "嗯嗯！今天的宣傳照也拍得不錯！",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "嗯嗯！今天的宣傳照也拍得不錯！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,12 +78,12 @@ return {
 			}
 		},
 		{
-			actor = 201080,
+			say = "薩拉托加，咱……咳，我們真的能演嗎……",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "薩拉托加，咱……咳，我們真的能演嗎……",
+			actor = 201080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "乾杯——！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					number = 1
@@ -204,12 +204,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "乾杯——！……咳咳！薩拉托加，莫非妳……",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "乾杯——！……咳咳！薩拉托加，莫非妳……",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -224,15 +224,15 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "嘿嘿嘿嘿，我往裡放了點薑♪惡作劇得手",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -345,13 +345,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "……欸。",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "……欸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,16 +362,16 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
-			dir = 1,
-			withoutPainting = true,
 			say = "這麼說來，隔天早上確實遇到麻煩了……",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_room",
+			actor = 0,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

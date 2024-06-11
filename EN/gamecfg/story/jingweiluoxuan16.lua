@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "I learned from Shinano that she drifts between possible realities in the form of \"dreams,\" and has a limited ability to \"project\" herself into reality.",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
+			hidePaintObj = true,
+			say = "I learned from Shinano that she drifts between possible realities in the form of \"dreams,\" and has a limited ability to \"project\" herself into reality.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -25,9 +25,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -73,10 +73,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Shinano, girl, you'd definitely benefit from some exercise and Vitamin D. Trust me, if you spend all day in bed, your muscles definitely will tell you that you're powerless.",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Translator? Where you at?",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hmm... I guess she has significant downsides to her abilities. Like being able to see a bunch of dreams but not able to influence any of them...",
 			typewriter = {
 				speed = 0.05,
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You'll get nowhere if you allow yourself to get stuck on every little thing though, right? Even if your power's also a bit of a curse, you've already made it this far!",
 			typewriter = {
 				speed = 0.05,
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's no reason to get depressed! When life knocks you down, you have to keep getting back up! I can tell that you'll be able to overcome your situation, little by little!",
 			typewriter = {
 				speed = 0.05,
@@ -256,10 +256,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "S-sorry, I'm not trying to lecture you or anything... I'm usually not the kind of girl you'd want to take advice from anyway~",
 			typewriter = {
 				speed = 0.05,
@@ -293,10 +293,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hehe, Albacore would probably be bullying the heck out of you if she was here! I dunno what it is, but I feel like I have some kind of special connection with you~♪",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -335,16 +335,16 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_1100",
 			dir = 1,
+			bgName = "star_level_bg_1100",
 			bgm = "xinnong-3",
 			actor = 307040,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			say = "\"Sorry for the delay since my last report. This is Hiryuu.\"",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -372,10 +372,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"While we were changing equipment, our carrier force was ambushed by the Eagle Union. Akagi, Kaga, and Souryuu have all been...\"",
 			typewriter = {
 				speed = 0.05,
@@ -390,10 +390,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"I am still standing though. I will now begin the counterattack.\"",
 			typewriter = {
 				speed = 0.05,
@@ -408,10 +408,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"I will avenge my comrades!\"",
 			typewriter = {
 				speed = 0.05,
@@ -426,10 +426,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander! The Sakura Empire Pawns are moving!",
 			typewriter = {
 				speed = 0.05,
@@ -444,10 +444,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Are we in danger here?",
 			typewriter = {
 				speed = 0.05,
@@ -462,10 +462,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"But... Why did you give me those orders...?\"",
 			typewriter = {
 				speed = 0.05,
@@ -480,10 +480,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander, what do I say? Our cover's gonna get blown!",
 			typewriter = {
 				speed = 0.05,
@@ -528,10 +528,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "\"Why... Am I supposed to flee with my tail between my legs...? Why...?!\"",
 			typewriter = {
 				speed = 0.05,
@@ -546,10 +546,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "[Adjusting Reenactment parameters. Lifting maximum combat power of the Sakura Empire fleet. Conditions for defeating Aircraft Carrier \"YORKTOWN\" now met——]",
 			typewriter = {
 				speed = 0.05,
@@ -579,10 +579,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "[After modulation, change production capabilities to match new specifications.]",
 			typewriter = {
 				speed = 0.05,
@@ -597,10 +597,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "[Resetting and reinitializing Reenactment.]",
 			typewriter = {
 				speed = 0.05,
@@ -634,10 +634,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Shinano... Is there no way to stop them...?!",
 			typewriter = {
 				speed = 0.05,
@@ -649,8 +649,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -788,11 +788,11 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
 			bgmDelay = 0.5,
 			bgm = "Beverly_short_inst",
+			mode = 1,
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -846,9 +846,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
+			oldPhoto = true,
+			mode = 1,
 			fontsize = 34,
 			flashout = {
 				dur = 0.5,
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
+			oldPhoto = true,
+			mode = 1,
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -933,15 +933,15 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			hidePaintObj = true,
 			say = "………………",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANWEIFANGXINMIMANSHI8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANWEIFANGXINMIMANSHI8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鳶尾芳馨瀰漫時\n\n<size=45>平凡的女王</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "宴會還沒正式開始，稍微留意下會場內外吧。",
 			bgm = "story-musicanniversary-gorgeous",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "宴會還沒正式開始，稍微留意下會場內外吧。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,11 +49,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_502",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陛下，請小心。",
 			painting = {
 				alpha = 0.3,
@@ -64,17 +64,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "不遠處的天狼星突然將伊莉莎白護在懷裡，警戒了起來。",
@@ -101,10 +101,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202123,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不必緊張，天狼星，會場裡很安全。",
 			painting = {
 				alpha = 0.3,
@@ -119,10 +119,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯——嗯!",
 			painting = {
 				alpha = 0.3,
@@ -134,16 +134,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -155,10 +155,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊，我的女王陛下！",
 			painting = {
 				alpha = 0.3,
@@ -178,10 +178,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咳——咳！天狼星，妳差點悶死本王，妳這對礙事的——（盯）",
 			painting = {
 				alpha = 0.3,
@@ -193,16 +193,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -214,10 +214,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼——",
 			painting = {
 				alpha = 0.3,
@@ -232,10 +232,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "抱歉，陛下，請原諒我的僭越。",
 			painting = {
 				alpha = 0.3,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "……這是在做什麼？",
@@ -261,10 +261,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是指揮官啊。",
 			painting = {
 				alpha = 0.3,
@@ -279,10 +279,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沒什麼，就是天狼星有點擔心過度而已。",
 			painting = {
 				alpha = 0.3,
@@ -297,10 +297,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正好，既然在這裡遇上了，就陪本王走走吧。",
 			painting = {
 				alpha = 0.3,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -375,10 +375,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202123,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陛下，可以允許我去為二位準備飲品嗎？",
 			painting = {
 				alpha = 0.3,
@@ -393,10 +393,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯，麻煩了，貝法。",
 			painting = {
 				alpha = 0.3,
@@ -411,10 +411,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "還有天狼星，妳也跟貝法一起去吧",
 			painting = {
 				alpha = 0.3,
@@ -429,10 +429,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "可是，陛下……",
 			painting = {
 				alpha = 0.3,
@@ -447,10 +447,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不用擔心，會場很安全，況且謝菲也在暗處看著呢。",
 			painting = {
 				alpha = 0.3,
@@ -465,10 +465,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "遵命，我明白了！",
 			painting = {
 				alpha = 0.3,
@@ -488,10 +488,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那麼陛下，可否允許我去準備一些茶點來。",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "距離晚餐時間還有一段時間，我擔心……",
 			painting = {
 				alpha = 0.3,
@@ -524,10 +524,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊，這個就不必了。會場有冷盤，今天難得看看鳶尾的手藝，女僕隊就不用麻煩了。",
 			painting = {
 				alpha = 0.3,
@@ -539,27 +539,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_502",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_502",
 			say = "女僕隊走後，與伊莉莎白一同在城堡中閒逛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -570,10 +570,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "唔嗯……這鳶尾主辦的慶典，看起來也像那麼回事。",
 			painting = {
 				alpha = 0.3,
@@ -588,10 +588,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "差不多已經能有皇家八成的水準了！",
 			painting = {
 				alpha = 0.3,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "看來今天也是伊莉莎白嘴上不饒人的一天。",
@@ -617,10 +617,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本王已經很客氣了。",
 			painting = {
 				alpha = 0.3,
@@ -635,10 +635,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "你看到那邊的掛畫了嗎，如果是本王，一定在這裡放上——",
 			painting = {
 				alpha = 0.3,
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "在閒逛之中，伊莉莎白時而手舞足蹈，時而指指點點，感覺比平常還要活躍。",
@@ -661,8 +661,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "不過在難得停下來之後，卻會露出若有所思的表情。",
@@ -678,8 +678,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -728,8 +728,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -892,8 +892,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -1009,16 +1009,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1108,8 +1108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -1120,8 +1120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,

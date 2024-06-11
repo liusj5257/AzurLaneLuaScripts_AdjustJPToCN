@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK39903",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK39903",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "I can now easily handle any task given to me, whether battle or commission.",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "That is a goal that I cannot achieve alone...",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "Commander... Will you continue to guide me as I embark upon this Fate Simulation?",
 			typewriter = {
 				speed = 0.05,

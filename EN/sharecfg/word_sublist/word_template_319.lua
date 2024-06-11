@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_319 = {}
 slot1 = slot0.word_template_319
 
-function temp()
+temp = function()
 	uv0["遥"] = {
 		["控"] = {
 			["彩"] = {
@@ -65,7 +65,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遙"] = {
 		["控"] = {
 			["色"] = {
@@ -79,7 +79,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["銚"] = {
 		this = {
 			this = true
@@ -89,7 +89,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["咬"] = {
 		["着"] = {
 			["龟"] = {
@@ -110,7 +110,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["药"] = {
 		["劲"] = {
 			["过"] = {
@@ -136,7 +136,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["要"] = {
 		k = {
 			["粉"] = {
@@ -321,7 +321,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["藥"] = {
 		["材"] = {
 			["商"] = {

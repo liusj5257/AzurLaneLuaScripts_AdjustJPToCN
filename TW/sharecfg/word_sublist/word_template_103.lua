@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_103 = {}
 slot1 = slot0.word_template_103
 
-function temp()
+temp = function()
 	uv0["無"] = {
 		["碼"] = {
 			this = true,
@@ -184,7 +184,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["要"] = {
 		["色"] = {
 			["色"] = {
@@ -201,7 +201,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["耻"] = {
 		["辱"] = {
 			["轮"] = {
@@ -215,7 +215,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["巨"] = {
 		["乳"] = {
 			this = true,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA29",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "工房らしき場所にやってきた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "工房らしき場所にやってきた。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "…むむ、科学部に何か用？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 306090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306090,
+			nameColor = "#a9f548",
 			say = "こっちは主機のほう、もうちょっと出力が上がるよう頼むわ！",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,13 +187,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "千歳と千代田、そして夕張は工房のどこかに消えた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -221,8 +221,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（明石……？さっき紀伊たちのところにいたはず……）",
 			typewriter = {
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "？どうして驚いているにゃ？あそこは饅頭たちに任せたにゃ。ほっといてもモノを売ってくれるにゃ",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「…………」",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（体の調子は万全……前の「夢」と打って変わり、生まれ変わった気分……）",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「ええ……」",
 			typewriter = {
@@ -376,15 +376,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "別にどこも具合は悪くないにゃ。バッチリにゃ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -422,8 +422,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（やはり…この姿は「あるべき」姿……そして、この力も…）",
 			typewriter = {
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "そう言えばこれから指揮官のところに行くところだったのかにゃ？明石の新商品のチラシを……",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -462,12 +462,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "あれ？信濃はどこに行ったにゃ？？",
 			typewriter = {
 				speed = 0.05,

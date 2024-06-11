@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN31",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "장기판 경기장·아카기 통제 구역 제10 라운드",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg14",
 			say = "10라운드가 시작되고 하늘이 어두워지더니 사건 카드 '일식' 효과가 촉발됐다.",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg14",
 			say = "지난 라운드의 사건 카드가 가져온 따스한 바람은 눈 깜짝할 사이에 온 해역을 어둠과 번민으로 뒤덮어버렸다.",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "일식이라... 언니. 무사시가 이 사건 카드를 설정한 이유가 뭐라고 생각해?",
 			painting = {
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "방금 하늘에서 내려온 그 칼, 무사시님의 지휘 카드인거죠? 지금까지 줄곧 소극적이던 무사시님이 이렇게 확실한 카드를 숨겨놓고 있었다니.",
 			painting = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "지휘 카드의 이름은 '공방의 칼날'이에요. 이름 그대로 말을 안 듣는 사람을 벌하기 위해 특별히 제작한 거랍니다.",
 			painting = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "대선배는 나한테서 도망치고나면 안전하다고 생각한 걸까요, 후후.",
 			painting = {
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "어차피 꼭 야마시로일 필요는 없잖아요. 누군가 거점 통제 구역에만 있으면 모두가 중앙 거점으로 공격할 수 있는 거니까요.",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "…확실히 누구라도 상관 없긴 하죠.",
 			painting = {
@@ -289,8 +289,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "…카가? 확실해요?",
 			painting = {
@@ -306,8 +306,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "응, 내가 계산해봤는데 문제 없을 것 같아. 류호가 위험을 감수할 필요는 없어.",
 			painting = {
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "…무슨 뜻인지 이해했어요. 좋아요, 카가가 가는 걸로 하죠.",
 			painting = {
@@ -356,8 +356,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "후후, 모든 준비는 끝났으니 이제 마지막 총공격으로 넘어가볼까요~",
 			painting = {

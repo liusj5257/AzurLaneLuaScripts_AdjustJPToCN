@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KASABULANKA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KASABULANKA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Whirlwind Romance\n\n<size=45>1 Touching Fingertips</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 106550,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "(Yesterday, I was notified that I was to assume the role of secretary.)",
 			bgm = "story-1",
+			actor = 106550,
+			nameColor = "#a9f548",
+			say = "(Yesterday, I was notified that I was to assume the role of secretary.)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(Even though it's my first day on the job, I still find myself in disbelief as I head to the office. Me, secretary?)",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(I suppose this means that my \"down-to-earth work ethic\" has been recognized, but...)",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "*knock* *knock*",
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "Reporting in. I am Casablanca, and I will now be assisting you as secretary.",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,8 +146,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "I will give it my all to make sure that my duties are completed, from official affairs to miscellaneous chores. I look forward to working with you.",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(If I can finish this quickly, I'll have enough time left over to help with the paperwork as well.)",
 			typewriter = {
@@ -211,14 +211,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 106550,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Thank you for your praise. I try to be efficient.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "I am quite proficient at rear support on the battlefield, so if you think about things that way, it makes sense that I would seem suitable for the role of secretary.",
 			typewriter = {
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "In any case...",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,8 +305,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(What was that sound...? The commander's pen just fell onto the ground?)",
 			typewriter = {
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "–––!",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -380,8 +380,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(My fingertips brush against those of the commander, who had reached out at the same time!)",
 			typewriter = {
@@ -397,8 +397,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "(I draw my hand back in a hurry, thinking of how to apologize.)",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "...Sorry about that. I'll get back to work now.",
 			typewriter = {
@@ -428,8 +428,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -438,12 +438,12 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "(And like that, I began my first day as secretary, struggling to manage the appropriate distance between me and the commander.)",
 			typewriter = {
 				speed = 0.05,

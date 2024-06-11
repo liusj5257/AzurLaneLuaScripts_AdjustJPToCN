@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"솔직하지 못한 마음\n\n<size=45>6. 하고 싶었던 말 한 가지</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "회의가 끝난 뒤, 넬슨과 함께 지휘실로 돌아와 연습의 세부 사항에 대해 정리를 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "...방금 전부터 머리가 조금 무거운데...",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "넬슨이 분명 가까운 곳에 앉아 있는데, 목소리가 먼 곳에서 들리는 것 같았다...",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "눈앞이 점점 캄캄해지고, 아무런 생각도 할 수 없었다. 대답을 할 수 없는 넬슨의 목소리가 귓가를 맴돌았다...",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그리고 의식이 멀어졌다——",
 			typewriter = {
 				speed = 0.05,
@@ -168,15 +168,15 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "...일어났어?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
+			dir = 1,
 			say = "정신이 들자, 의무실에 누워있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
+			dir = 1,
 			say = "솔직하게 넬슨에게 감사를 표했다...",
 			typewriter = {
 				speed = 0.05,
@@ -309,9 +309,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
+			dir = 1,
 			say = "말을 마친 넬슨은 몸을 돌려 떠나려고 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "끝이야! 갈게!",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑海伦娜 约克城飞机支援",
 	time = 0,
-	color = "yellow",
+	name = "黑海伦娜 约克城飞机支援",
+	init_effect = "",
+	id = 8891,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8891,
+	color = "yellow",
 	icon = 8891,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 8891
+				skill_id = 8891,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 8891,
+				target = "TargetSelf",
 				time = 20
 			}
 		}

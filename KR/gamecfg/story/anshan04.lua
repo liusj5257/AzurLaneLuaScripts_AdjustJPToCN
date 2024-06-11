@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ANSHAN04",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ANSHAN04",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"안샨의 그림 교실\n\n<size=45>제4장 - 모두의 스케치북</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "뭔가… 시끌벅적해졌네요.",
 			bgm = "story-china",
+			actor = 501010,
+			nameColor = "#92fc63",
+			say = "뭔가… 시끌벅적해졌네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "괜찮아, 괜찮아. 사람이 많은 편이 즐겁잖아~",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "괜찮아, 괜찮아. 사람이 많은 편이 즐겁잖아~",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 502030,
+			nameColor = "#92fc63",
 			say = "핑하이가 여기 칠할게~",
 			shake = {
 				speed = 5,

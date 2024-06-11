@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z462",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z462",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"純白之詩\n\n<size=45>二 軌跡</size>",
@@ -42,13 +42,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_task",
 			say = "港區·指揮室",
+			bgName = "bg_story_task",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_task",
+			blackBg = true,
 			say = "下一次，更直接地問問吧。",
 			typewriter = {
 				speed = 0.05,

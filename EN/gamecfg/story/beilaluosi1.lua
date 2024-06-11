@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"White Gallantry\n\n<size=45>1 The Earliest Bird</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Just outside the office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Just outside the office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I was just about to enter my office and resume another day of fleet management. Right as I put my hand on the doorknob, though, I sensed something was off.",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Then I realized what it was. Someone had entered my office before me.",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She was right. I gasped in surprise. How did she know?",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I couldn't just keep standing there, hesitant to enter my own office. It would be humiliating.",
 			typewriter = {
 				speed = 0.05,
@@ -186,9 +186,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Besides, I was less worried about who's waiting for me inside than about the weird looks the ships in the hallway were giving me.",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I opened the door.",
 			typewriter = {
 				speed = 0.05,
@@ -232,14 +232,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 705040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "The reason I came early, of course, was to get everything in order to assume my role as your secretary.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "There in my chair sat Sovetskaya Belorussiya, claiming the throne as if she owned the place.",
 			typewriter = {
 				speed = 0.05,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The girl, clad in the Northern Parliament's signature white uniform, stood up. She softly thumped the stack of paperwork on the desk.",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "At ease, Comrade. I'm as capable a secretary as they come. You're free to work me as you see fit.",
 			typewriter = {
@@ -325,9 +325,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She had already finished the morning's preliminary work, which I was grateful for. She walked over to me and whispered into my ear.",
 			typewriter = {
 				speed = 0.05,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "Next time, remember to lock the door.",
 			typewriter = {
 				speed = 0.05,

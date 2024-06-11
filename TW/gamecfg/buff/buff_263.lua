@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "战术分析",
 	time = 0,
-	color = "yellow",
+	name = "战术分析",
+	init_effect = "",
+	id = 263,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 263,
+	color = "yellow",
 	icon = 263,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.3
+				number = -0.3,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.3
+				number = 0.3,
+				attr = "injureRatio"
 			}
 		}
 	}

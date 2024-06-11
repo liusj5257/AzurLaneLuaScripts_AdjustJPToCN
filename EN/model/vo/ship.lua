@@ -13,15 +13,15 @@ slot1 = {
 	main = i18n("word_main_fleet")
 }
 slot0.CVBattleKey = {
-	skill = "skill",
+	hp = "hp",
 	link2 = "link2",
-	lose = "lose",
+	link4 = "link4",
 	link5 = "link5",
 	link3 = "link3",
 	link6 = "link6",
-	hp = "hp",
+	skill = "skill",
 	link1 = "link1",
-	link4 = "link4",
+	lose = "lose",
 	warcry = "warcry",
 	mvp = "mvp"
 }
@@ -44,57 +44,41 @@ slot6 = pg.ship_level
 slot7 = pg.equip_skin_template
 slot8 = pg.ship_data_breakout
 
-function nation2print(slot0)
+nation2print = function(slot0)
 	return Nation.Nation2Print(slot0)
 end
 
-function slot0.getRecoverEnergyPoint(slot0)
+slot0.getRecoverEnergyPoint = function(slot0)
 	return slot0.propose and 3 or 2
 end
 
-function shipType2name(slot0)
+shipType2name = function(slot0)
 	return ShipType.Type2Name(slot0)
 end
 
-function shipType2print(slot0)
+shipType2print = function(slot0)
 	return ShipType.Type2Print(slot0)
 end
 
-function shipType2Battleprint(slot0)
+shipType2Battleprint = function(slot0)
 	return ShipType.Type2BattlePrint(slot0)
 end
 
-function skinId2bgPrint(slot0)
+skinId2bgPrint = function(slot0)
 	if pg.ship_skin_template[slot0].rarity_bg and slot2 ~= "" then
 		return slot2
 	end
 end
 
-function shipRarity2bgPrint(slot0, slot1, slot2)
-	slot3 = ""
-
-	if slot1 then
-		slot3 = "0"
-	elseif slot2 then
-		slot3 = "1"
-	end
-
-	return slot3 .. ShipRarity.Rarity2Print(slot0)
-end
-
-function shipRarity2FrameColor(slot0)
-	return ShipRarity.Rarity2FrameColor(slot0)
-end
-
-function slot0.rarity2bgPrint(slot0)
+slot0.rarity2bgPrint = function(slot0)
 	return shipRarity2bgPrint(slot0:getRarity(), slot0:isBluePrintShip(), slot0:isMetaShip())
 end
 
-function slot0.rarity2bgPrintForGet(slot0)
+slot0.rarity2bgPrintForGet = function(slot0)
 	return skinId2bgPrint(slot0.skinId) or slot0:rarity2bgPrint()
 end
 
-function slot0.getShipBgPrint(slot0, slot1)
+slot0.getShipBgPrint = function(slot0, slot1)
 	assert(pg.ship_skin_template[slot0.skinId], "ship_skin_template not exist: " .. slot0.skinId)
 
 	slot3 = nil
@@ -106,31 +90,31 @@ function slot0.getShipBgPrint(slot0, slot1)
 	return slot3 and slot3 or slot2.bg and #slot2.bg > 0 and slot2.bg or slot0:rarity2bgPrintForGet()
 end
 
-function slot0.getStar(slot0)
+slot0.getStar = function(slot0)
 	return slot0:getConfig("star")
 end
 
-function slot0.getMaxStar(slot0)
+slot0.getMaxStar = function(slot0)
 	return pg.ship_data_template[slot0.configId].star_max
 end
 
-function slot0.getShipArmor(slot0)
+slot0.getShipArmor = function(slot0)
 	return slot0:getConfig("armor_type")
 end
 
-function slot0.getShipArmorName(slot0)
+slot0.getShipArmorName = function(slot0)
 	return ArmorType.Type2Name(slot0:getShipArmor())
 end
 
-function slot0.getGroupId(slot0)
+slot0.getGroupId = function(slot0)
 	return pg.ship_data_template[slot0.configId].group_type
 end
 
-function slot0.getGroupIdByConfigId(slot0)
+slot0.getGroupIdByConfigId = function(slot0)
 	return math.floor(slot0 / 10)
 end
 
-function slot0.getShipWords(slot0)
+slot0.getShipWords = function(slot0)
 	if not pg.ship_skin_words[slot0] then
 		warning("找不到ship_skin_words: " .. slot0)
 
@@ -146,7 +130,7 @@ function slot0.getShipWords(slot0)
 	return slot2, pg.ship_skin_words_extra[slot0]
 end
 
-function slot0.getMainwordsCount(slot0)
+slot0.getMainwordsCount = function(slot0)
 	if not uv0.getShipWords(slot0).main or slot1.main == "" then
 		slot1 = uv0.getShipWords(uv0.getOriginalSkinId(slot0))
 	end
@@ -154,7 +138,7 @@ function slot0.getMainwordsCount(slot0)
 	return #string.split(slot1.main, "|")
 end
 
-function slot0.getWordsEx(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.getWordsEx = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = false
 
 	if (not slot0 or not slot0[slot1]) and not nil or slot6 == "" then
@@ -196,7 +180,7 @@ function slot0.getWordsEx(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.getWords(slot0, slot1, slot2, slot3, slot4)
+slot0.getWords = function(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot6 = uv0.getShipWords(slot0)
 	slot8 = math.fmod(slot0, uv0.getOriginalSkinId(slot0))
 
@@ -265,7 +249,7 @@ function slot0.getWords(slot0, slot1, slot2, slot3, slot4)
 	return rstEx or slot17, slot14, cvEx
 end
 
-function slot0.getCVKeyID(slot0)
+slot0.getCVKeyID = function(slot0)
 	if not Ship.getShipWords(slot0) then
 		return -1
 	end
@@ -280,7 +264,7 @@ function slot0.getCVKeyID(slot0)
 	return slot2
 end
 
-function slot0.getCVPath(slot0, slot1, slot2, slot3)
+slot0.getCVPath = function(slot0, slot1, slot2, slot3)
 	slot2 = slot2 or 1
 	slot5 = uv0.getOriginalSkinId(slot0)
 
@@ -317,7 +301,7 @@ function slot0.getCVPath(slot0, slot1, slot2, slot3)
 	return slot8
 end
 
-function slot0.getCVCalibrate(slot0, slot1, slot2)
+slot0.getCVCalibrate = function(slot0, slot1, slot2)
 	if not pg.ship_skin_template[slot0] then
 		return 0
 	end
@@ -329,7 +313,7 @@ function slot0.getCVCalibrate(slot0, slot1, slot2)
 	return slot3.l2d_voice_calibrate[slot1]
 end
 
-function slot0.getL2dSoundEffect(slot0, slot1, slot2)
+slot0.getL2dSoundEffect = function(slot0, slot1, slot2)
 	if not pg.ship_skin_template[slot0] then
 		return 0
 	end
@@ -341,11 +325,11 @@ function slot0.getL2dSoundEffect(slot0, slot1, slot2)
 	return slot3.l2d_se[slot1]
 end
 
-function slot0.getOriginalSkinId(slot0)
+slot0.getOriginalSkinId = function(slot0)
 	return ShipGroup.getDefaultSkin(pg.ship_skin_template[slot0].ship_group).id
 end
 
-function slot0.getTransformShipId(slot0)
+slot0.getTransformShipId = function(slot0)
 	if pg.ship_data_trans[pg.ship_data_template[slot0].group_type] then
 		for slot6, slot7 in ipairs(slot2.transform_list) do
 			for slot11, slot12 in ipairs(slot7) do
@@ -359,7 +343,7 @@ function slot0.getTransformShipId(slot0)
 	end
 end
 
-function slot0.getAircraftCount(slot0)
+slot0.getAircraftCount = function(slot0)
 	slot1 = slot0:getConfigTable().base_list
 	slot2 = slot0:getConfigTable().default_equip_list
 	slot3 = {}
@@ -373,15 +357,15 @@ function slot0.getAircraftCount(slot0)
 	return slot3
 end
 
-function slot0.getShipType(slot0)
+slot0.getShipType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.getEnergy(slot0)
+slot0.getEnergy = function(slot0)
 	return slot0.energy
 end
 
-function slot0.getEnergeConfig(slot0)
+slot0.getEnergeConfig = function(slot0)
 	slot2 = slot0:getEnergy()
 
 	for slot6, slot7 in pairs(pg.energy_template) do
@@ -393,21 +377,21 @@ function slot0.getEnergeConfig(slot0)
 	assert(false, "疲劳配置不存在：" .. slot0.energy)
 end
 
-function slot0.getEnergyPrint(slot0)
+slot0.getEnergyPrint = function(slot0)
 	slot1 = slot0:getEnergeConfig()
 
 	return slot1.icon, slot1.desc
 end
 
-function slot0.getIntimacy(slot0)
+slot0.getIntimacy = function(slot0)
 	return slot0.intimacy
 end
 
-function slot0.getCVIntimacy(slot0)
+slot0.getCVIntimacy = function(slot0)
 	return slot0:getIntimacy() / 100 + (slot0.propose and 1000 or 0)
 end
 
-function slot0.getIntimacyMax(slot0)
+slot0.getIntimacyMax = function(slot0)
 	if slot0.propose then
 		return 200
 	else
@@ -415,11 +399,11 @@ function slot0.getIntimacyMax(slot0)
 	end
 end
 
-function slot0.GetNoProposeIntimacyMax(slot0)
+slot0.GetNoProposeIntimacyMax = function(slot0)
 	return 100
 end
 
-function slot0.getIntimacyIcon(slot0)
+slot0.getIntimacyIcon = function(slot0)
 	slot1 = pg.intimacy_template[slot0:getIntimacyLevel()]
 	slot2 = ""
 
@@ -436,17 +420,17 @@ function slot0.getIntimacyIcon(slot0)
 	end
 end
 
-function slot0.getIntimacyDetail(slot0)
+slot0.getIntimacyDetail = function(slot0)
 	return slot0:getIntimacyMax(), math.floor(slot0:getIntimacy() / 100)
 end
 
-function slot0.getIntimacyInfo(slot0)
+slot0.getIntimacyInfo = function(slot0)
 	slot1 = pg.intimacy_template[slot0:getIntimacyLevel()]
 
 	return slot1.icon, slot1.desc
 end
 
-function slot0.getIntimacyLevel(slot0)
+slot0.getIntimacyLevel = function(slot0)
 	slot1 = 0
 
 	for slot6, slot7 in pairs(pg.intimacy_template) do
@@ -464,7 +448,7 @@ function slot0.getIntimacyLevel(slot0)
 	return slot1
 end
 
-function slot0.getBluePrint(slot0)
+slot0.getBluePrint = function(slot0)
 	slot1 = ShipBluePrint.New({
 		id = slot0.groupId
 	})
@@ -481,7 +465,7 @@ function slot0.getBluePrint(slot0)
 	return slot1
 end
 
-function slot0.getBaseList(slot0)
+slot0.getBaseList = function(slot0)
 	if slot0:isBluePrintShip() then
 		slot1 = slot0:getBluePrint()
 
@@ -493,7 +477,7 @@ function slot0.getBaseList(slot0)
 	end
 end
 
-function slot0.getPreLoadCount(slot0)
+slot0.getPreLoadCount = function(slot0)
 	if slot0:isBluePrintShip() then
 		return slot0:getBluePrint():getPreLoadCount(slot0)
 	else
@@ -501,11 +485,11 @@ function slot0.getPreLoadCount(slot0)
 	end
 end
 
-function slot0.getNation(slot0)
+slot0.getNation = function(slot0)
 	return slot0:getConfig("nationality")
 end
 
-function slot0.getPaintingName(slot0)
+slot0.getPaintingName = function(slot0)
 	slot1 = pg.ship_data_statistics[slot0].skin_id
 	slot2 = pg.ship_skin_template[slot1]
 
@@ -514,7 +498,7 @@ function slot0.getPaintingName(slot0)
 	return slot2.painting
 end
 
-function slot0.getName(slot0)
+slot0.getName = function(slot0)
 	if slot0.propose and pg.PushNotificationMgr.GetInstance():isEnableShipName() then
 		return slot0.name
 	end
@@ -526,7 +510,7 @@ function slot0.getName(slot0)
 	return pg.ship_data_statistics[slot0.configId].name
 end
 
-function slot0.GetDefaultName(slot0)
+slot0.GetDefaultName = function(slot0)
 	if slot0:isRemoulded() then
 		return pg.ship_skin_template[slot0:getRemouldSkinId()].name
 	else
@@ -534,18 +518,18 @@ function slot0.GetDefaultName(slot0)
 	end
 end
 
-function slot0.getShipName(slot0)
+slot0.getShipName = function(slot0)
 	return pg.ship_data_statistics[slot0].name
 end
 
-function slot0.getBreakOutLevel(slot0)
+slot0.getBreakOutLevel = function(slot0)
 	assert(slot0, "必须存在配置id")
 	assert(pg.ship_data_statistics[slot0], "必须存在配置" .. slot0)
 
 	return pg.ship_data_statistics[slot0].star
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.template_id or slot1.configId
 	slot0.level = slot1.level
@@ -701,7 +685,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.isMetaShipByConfigID(slot0)
+slot0.isMetaShipByConfigID = function(slot0)
 	slot3 = false
 
 	if pg.ship_meta_breakout.all[1] <= slot0 then
@@ -717,23 +701,23 @@ function slot0.isMetaShipByConfigID(slot0)
 	return slot3
 end
 
-function slot0.isMetaShip(slot0)
+slot0.isMetaShip = function(slot0)
 	return slot0.metaCharacter ~= nil
 end
 
-function slot0.getMetaCharacter(slot0)
+slot0.getMetaCharacter = function(slot0)
 	return slot0.metaCharacter
 end
 
-function slot0.unlockActivityNpc(slot0, slot1)
+slot0.unlockActivityNpc = function(slot0, slot1)
 	slot0.activityNpc = slot1
 end
 
-function slot0.isActivityNpc(slot0)
+slot0.isActivityNpc = function(slot0)
 	return slot0.activityNpc > 0
 end
 
-function slot0.getActiveEquipments(slot0)
+slot0.getActiveEquipments = function(slot0)
 	for slot5 = #Clone(slot0.equipments), 1, -1 do
 		if slot1[slot5] then
 			for slot10 = 1, slot5 - 1 do
@@ -747,19 +731,19 @@ function slot0.getActiveEquipments(slot0)
 	return slot1
 end
 
-function slot0.getAllEquipments(slot0)
+slot0.getAllEquipments = function(slot0)
 	return slot0.equipments
 end
 
-function slot0.isBluePrintShip(slot0)
+slot0.isBluePrintShip = function(slot0)
 	return slot0.bluePrintFlag == 1
 end
 
-function slot0.updateSkinId(slot0, slot1)
+slot0.updateSkinId = function(slot0, slot1)
 	slot0.skinId = slot1
 end
 
-function slot0.updateName(slot0)
+slot0.updateName = function(slot0)
 	if slot0.name ~= pg.ship_data_statistics[slot0.configId].name then
 		return
 	end
@@ -771,7 +755,7 @@ function slot0.updateName(slot0)
 	end
 end
 
-function slot0.isRemoulded(slot0)
+slot0.isRemoulded = function(slot0)
 	if slot0.remoulded then
 		return true
 	end
@@ -789,7 +773,7 @@ function slot0.isRemoulded(slot0)
 	return false
 end
 
-function slot0.getRemouldSkinId(slot0)
+slot0.getRemouldSkinId = function(slot0)
 	if ShipGroup.getModSkin(slot0.groupId) then
 		return slot1.id
 	end
@@ -797,11 +781,11 @@ function slot0.getRemouldSkinId(slot0)
 	return nil
 end
 
-function slot0.hasEquipmentSkinInPos(slot0, slot1)
+slot0.hasEquipmentSkinInPos = function(slot0, slot1)
 	return slot0.equipments[slot1] and slot2:hasSkin()
 end
 
-function slot0.getPrefab(slot0)
+slot0.getPrefab = function(slot0)
 	slot1 = slot0.skinId
 
 	if slot0:hasEquipmentSkinInPos(uv0) and uv1[slot0:getEquip(uv0):getSkinId()].ship_skin_id ~= 0 then
@@ -815,7 +799,7 @@ function slot0.getPrefab(slot0)
 	return slot2.prefab
 end
 
-function slot0.getAttachmentPrefab(slot0)
+slot0.getAttachmentPrefab = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.equipments) do
@@ -828,7 +812,7 @@ function slot0.getAttachmentPrefab(slot0)
 	return slot1
 end
 
-function slot0.getPainting(slot0)
+slot0.getPainting = function(slot0)
 	slot1 = pg.ship_skin_template[slot0.skinId]
 
 	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
@@ -836,7 +820,7 @@ function slot0.getPainting(slot0)
 	return slot1.painting
 end
 
-function slot0.GetSkinConfig(slot0)
+slot0.GetSkinConfig = function(slot0)
 	slot1 = pg.ship_skin_template[slot0.skinId]
 
 	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
@@ -844,7 +828,7 @@ function slot0.GetSkinConfig(slot0)
 	return slot1
 end
 
-function slot0.getRemouldPainting(slot0)
+slot0.getRemouldPainting = function(slot0)
 	slot1 = pg.ship_skin_template[slot0:getRemouldSkinId()]
 
 	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
@@ -852,31 +836,31 @@ function slot0.getRemouldPainting(slot0)
 	return slot1.painting
 end
 
-function slot0.updateStateInfo34(slot0, slot1, slot2)
+slot0.updateStateInfo34 = function(slot0, slot1, slot2)
 	slot0.state_info_3 = slot1
 	slot0.state_info_4 = slot2
 end
 
-function slot0.hasStateInfo3Or4(slot0)
+slot0.hasStateInfo3Or4 = function(slot0)
 	return slot0.state_info_3 ~= 0 or slot0.state_info_4 ~= 0
 end
 
-function slot0.isTestShip(slot0)
+slot0.isTestShip = function(slot0)
 	return slot0.testShip
 end
 
-function slot0.canUseTestShip(slot0, slot1)
+slot0.canUseTestShip = function(slot0, slot1)
 	assert(slot0.testShip, "ship is not TestShip")
 
 	return table.contains(slot0.testShip, slot1)
 end
 
-function slot0.updateEquip(slot0, slot1, slot2)
+slot0.updateEquip = function(slot0, slot1, slot2)
 	assert(slot2 == nil or slot2.count == 1)
 
 	slot0.equipments[slot1] = slot2 and Clone(slot2) or false
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		slot0 = CreateShell(slot0)
 		slot0.shipId = uv0.id
 		slot0.shipPos = uv1
@@ -897,7 +881,7 @@ function slot0.updateEquip(slot0, slot1, slot2)
 	end
 end
 
-function slot0.reletiveEquipSkin(slot0, slot1)
+slot0.reletiveEquipSkin = function(slot0, slot1)
 	if slot0.equipments[slot1] and slot0.equipmentSkins[slot1] ~= 0 then
 		if table.contains(pg.equip_skin_template[slot0.equipmentSkins[slot1]].equip_type, slot0.equipments[slot1]:getType()) then
 			slot0.equipments[slot1]:setSkinId(slot0.equipmentSkins[slot1])
@@ -909,7 +893,7 @@ function slot0.reletiveEquipSkin(slot0, slot1)
 	end
 end
 
-function slot0.updateEquipmentSkin(slot0, slot1, slot2)
+slot0.updateEquipmentSkin = function(slot0, slot1, slot2)
 	if not slot1 then
 		return
 	end
@@ -950,19 +934,19 @@ function slot0.updateEquipmentSkin(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getEquip(slot0, slot1)
+slot0.getEquip = function(slot0, slot1)
 	return Clone(slot0.equipments[slot1])
 end
 
-function slot0.getEquipSkins(slot0)
+slot0.getEquipSkins = function(slot0)
 	return Clone(slot0.equipmentSkins)
 end
 
-function slot0.getEquipSkin(slot0, slot1)
+slot0.getEquipSkin = function(slot0, slot1)
 	return slot0.equipmentSkins[slot1]
 end
 
-function slot0.getCanEquipSkin(slot0, slot1)
+slot0.getCanEquipSkin = function(slot0, slot1)
 	if slot0:getSkinTypes(slot1) and #slot2 then
 		for slot6, slot7 in ipairs(slot2) do
 			if pg.equip_data_by_type[slot7].equip_skin == 1 then
@@ -974,7 +958,7 @@ function slot0.getCanEquipSkin(slot0, slot1)
 	return false
 end
 
-function slot0.checkCanEquipSkin(slot0, slot1, slot2)
+slot0.checkCanEquipSkin = function(slot0, slot1, slot2)
 	if not slot1 or not slot2 then
 		return
 	end
@@ -990,15 +974,15 @@ function slot0.checkCanEquipSkin(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.getSkinTypes(slot0, slot1)
+slot0.getSkinTypes = function(slot0, slot1)
 	return pg.ship_data_template[slot0.configId]["equip_" .. slot1] or {}
 end
 
-function slot0.updateState(slot0, slot1)
+slot0.updateState = function(slot0, slot1)
 	slot0.state = slot1
 end
 
-function slot0.addSkillExp(slot0, slot1, slot2)
+slot0.addSkillExp = function(slot0, slot1, slot2)
 	slot3 = slot0.skills[slot1] or {
 		exp = 0,
 		level = 1,
@@ -1028,7 +1012,7 @@ function slot0.addSkillExp(slot0, slot1, slot2)
 	})
 end
 
-function slot0.upSkillLevelForMeta(slot0, slot1)
+slot0.upSkillLevelForMeta = function(slot0, slot1)
 	slot4 = (slot0.skills[slot1] or {
 		exp = 0,
 		level = 0,
@@ -1046,7 +1030,7 @@ function slot0.upSkillLevelForMeta(slot0, slot1)
 	})
 end
 
-function slot0.getMetaSkillLevelBySkillID(slot0, slot1)
+slot0.getMetaSkillLevelBySkillID = function(slot0, slot1)
 	return (slot0.skills[slot1] or {
 		exp = 0,
 		level = 0,
@@ -1054,7 +1038,7 @@ function slot0.getMetaSkillLevelBySkillID(slot0, slot1)
 	}).level
 end
 
-function slot0.isSkillLevelMax(slot0, slot1)
+slot0.isSkillLevelMax = function(slot0, slot1)
 	slot2 = slot0.skills[slot1] or {
 		exp = 0,
 		level = 1,
@@ -1064,7 +1048,7 @@ function slot0.isSkillLevelMax(slot0, slot1)
 	return pg.skill_data_template[slot1].max_level <= (slot2.level and slot2.level or 1)
 end
 
-function slot0.isAllMetaSkillLevelMax(slot0)
+slot0.isAllMetaSkillLevelMax = function(slot0)
 	slot1 = true
 
 	for slot6, slot7 in ipairs(MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot0.configId)) do
@@ -1078,7 +1062,7 @@ function slot0.isAllMetaSkillLevelMax(slot0)
 	return slot1
 end
 
-function slot0.isAllMetaSkillLock(slot0)
+slot0.isAllMetaSkillLock = function(slot0)
 	slot2 = true
 
 	for slot6, slot7 in ipairs(MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot0.configId)) do
@@ -1092,11 +1076,11 @@ function slot0.isAllMetaSkillLock(slot0)
 	return slot2
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.ship_data_statistics
 end
 
-function slot0.isAvaiable(slot0)
+slot0.isAvaiable = function(slot0)
 	return true
 end
 
@@ -1140,7 +1124,7 @@ slot0.SONAR_PROPERTIES = {
 	AttributeType.SonarRange
 }
 
-function slot0.intimacyAdditions(slot0, slot1)
+slot0.intimacyAdditions = function(slot0, slot1)
 	slot2 = pg.intimacy_template[slot0:getIntimacyLevel()].attr_bonus * 0.0001
 
 	for slot6, slot7 in pairs(slot1) do
@@ -1150,7 +1134,7 @@ function slot0.intimacyAdditions(slot0, slot1)
 	end
 end
 
-function slot0.getShipProperties(slot0)
+slot0.getShipProperties = function(slot0)
 	slot1 = slot0:getBaseProperties()
 
 	if slot0:isBluePrintShip() then
@@ -1199,7 +1183,7 @@ function slot0.getShipProperties(slot0)
 	return slot1
 end
 
-function slot0.getTechNationAddition(slot0, slot1)
+slot0.getTechNationAddition = function(slot0, slot1)
 	slot2 = getProxy(TechnologyNationProxy)
 
 	if slot0:getConfig("type") == ShipType.DaoQuV or slot3 == ShipType.DaoQuM then
@@ -1209,15 +1193,15 @@ function slot0.getTechNationAddition(slot0, slot1)
 	return slot2:getShipAddition(slot3, slot1)
 end
 
-function slot0.getTechNationMaxAddition(slot0, slot1)
+slot0.getTechNationMaxAddition = function(slot0, slot1)
 	return getProxy(TechnologyNationProxy):getShipMaxAddition(slot0:getConfig("type"), slot1)
 end
 
-function slot0.getEquipProficiencyByPos(slot0, slot1)
+slot0.getEquipProficiencyByPos = function(slot0, slot1)
 	return slot0:getEquipProficiencyList()[slot1]
 end
 
-function slot0.getEquipProficiencyList(slot0)
+slot0.getEquipProficiencyList = function(slot0)
 	slot2 = Clone(slot0:getConfigTable().equipment_proficiency)
 
 	if slot0:isBluePrintShip() then
@@ -1247,7 +1231,7 @@ function slot0.getEquipProficiencyList(slot0)
 	return slot2
 end
 
-function slot0.getBaseProperties(slot0)
+slot0.getBaseProperties = function(slot0)
 	assert(slot0:getConfigTable(), "配置表没有这艘船" .. slot0.configId)
 
 	slot2 = {}
@@ -1275,7 +1259,7 @@ function slot0.getBaseProperties(slot0)
 	return slot3
 end
 
-function slot0.getGrowthForAttr(slot0, slot1)
+slot0.getGrowthForAttr = function(slot0, slot1)
 	slot2 = slot0:getConfigTable()
 	slot3 = table.indexof(uv0.PROPERTIES, slot1)
 	slot5 = slot2.attrs[slot3] + (slot0.level - 1) * slot2.attrs_growth[slot3] / 1000
@@ -1287,17 +1271,17 @@ function slot0.getGrowthForAttr(slot0, slot1)
 	return slot5
 end
 
-function slot0.isMaxStar(slot0)
+slot0.isMaxStar = function(slot0)
 	return slot0:getMaxStar() <= slot0:getStar()
 end
 
-function slot0.IsMaxStarByTmpID(slot0)
+slot0.IsMaxStarByTmpID = function(slot0)
 	slot1 = pg.ship_data_template[slot0]
 
 	return slot1.star_max <= slot1.star
 end
 
-function slot0.IsSpweaponUnlock(slot0)
+slot0.IsSpweaponUnlock = function(slot0)
 	if not slot0:CanAccumulateExp() then
 		return false, "spweapon_tip_locked"
 	else
@@ -1305,11 +1289,11 @@ function slot0.IsSpweaponUnlock(slot0)
 	end
 end
 
-function slot0.getModProperties(slot0, slot1)
+slot0.getModProperties = function(slot0, slot1)
 	return slot0.strengthList[slot1] or 0
 end
 
-function slot0.addModAttrExp(slot0, slot1, slot2)
+slot0.addModAttrExp = function(slot0, slot1, slot2)
 	if slot0:getModAttrTopLimit(slot1) == 0 then
 		return
 	end
@@ -1321,7 +1305,7 @@ function slot0.addModAttrExp(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getNeedModExp(slot0)
+slot0.getNeedModExp = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(ShipModAttr.ID_TO_ATTR) do
@@ -1335,7 +1319,7 @@ function slot0.getNeedModExp(slot0)
 	return slot1
 end
 
-function slot0.attrVertify(slot0)
+slot0.attrVertify = function(slot0)
 	if not BayProxy.checkShiplevelVertify(slot0) then
 		return false
 	end
@@ -1349,7 +1333,7 @@ function slot0.attrVertify(slot0)
 	return true
 end
 
-function slot0.getEquipmentProperties(slot0)
+slot0.getEquipmentProperties = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -1415,7 +1399,7 @@ function slot0.getEquipmentProperties(slot0)
 	return slot1, slot2
 end
 
-function slot0.getSkillEffects(slot0)
+slot0.getSkillEffects = function(slot0)
 	_.each(slot0:getEquipmentSkillEffects(), function (slot0)
 		table.insert(uv0, slot0)
 	end)
@@ -1423,7 +1407,7 @@ function slot0.getSkillEffects(slot0)
 	return slot0:getShipSkillEffects()
 end
 
-function slot0.getShipSkillEffects(slot0)
+slot0.getShipSkillEffects = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0:getSkillList()) do
@@ -1433,7 +1417,7 @@ function slot0.getShipSkillEffects(slot0)
 	return slot1
 end
 
-function slot0.getEquipmentSkillEffects(slot0)
+slot0.getEquipmentSkillEffects = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
@@ -1459,7 +1443,7 @@ function slot0.getEquipmentSkillEffects(slot0)
 	return slot1
 end
 
-function slot0.FilterActiveSkill(slot0, slot1, slot2, slot3)
+slot0.FilterActiveSkill = function(slot0, slot1, slot2, slot3)
 	if not slot2 or not slot2.const_effect_list then
 		return
 	end
@@ -1495,7 +1479,7 @@ function slot0.FilterActiveSkill(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.getEquipmentGearScore(slot0)
+slot0.getEquipmentGearScore = function(slot0)
 	slot1 = 0
 
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
@@ -1507,7 +1491,7 @@ function slot0.getEquipmentGearScore(slot0)
 	return slot1
 end
 
-function slot0.getProperties(slot0, slot1, slot2, slot3, slot4)
+slot0.getProperties = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1 or {}
 	slot6 = slot0:getConfig("nationality")
 	slot7 = slot0:getConfig("type")
@@ -1574,7 +1558,7 @@ function slot0.getProperties(slot0, slot1, slot2, slot3, slot4)
 	return slot8
 end
 
-function slot0.getTransGearScore(slot0)
+slot0.getTransGearScore = function(slot0)
 	slot1 = 0
 	slot2 = pg.transform_data_template
 
@@ -1587,34 +1571,34 @@ function slot0.getTransGearScore(slot0)
 	return slot1
 end
 
-function slot0.getShipCombatPower(slot0, slot1)
+slot0.getShipCombatPower = function(slot0, slot1)
 	slot2 = slot0:getProperties(slot1, nil, , true)
 
 	return math.floor(slot2[AttributeType.Durability] / 5 + slot2[AttributeType.Cannon] + slot2[AttributeType.Torpedo] + slot2[AttributeType.AntiAircraft] + slot2[AttributeType.Air] + slot2[AttributeType.AntiSub] + slot2[AttributeType.Reload] + slot2[AttributeType.Hit] * 2 + slot2[AttributeType.Dodge] * 2 + slot2[AttributeType.Speed] + slot0:getEquipmentGearScore() + slot0:getTransGearScore())
 end
 
-function slot0.cosumeEnergy(slot0, slot1)
+slot0.cosumeEnergy = function(slot0, slot1)
 	slot0:setEnergy(math.max(slot0:getEnergy() - slot1, 0))
 end
 
-function slot0.addEnergy(slot0, slot1)
+slot0.addEnergy = function(slot0, slot1)
 	slot0:setEnergy(slot0:getEnergy() + slot1)
 end
 
-function slot0.setEnergy(slot0, slot1)
+slot0.setEnergy = function(slot0, slot1)
 	slot0.energy = slot1
 end
 
-function slot0.setLikability(slot0, slot1)
+slot0.setLikability = function(slot0, slot1)
 	assert(slot1 >= 0 and slot1 <= slot0.maxIntimacy, "intimacy value invaild" .. slot1)
 	slot0:setIntimacy(slot1)
 end
 
-function slot0.addLikability(slot0, slot1)
+slot0.addLikability = function(slot0, slot1)
 	slot0:setIntimacy(Mathf.Clamp(slot0:getIntimacy() + slot1, 0, slot0.maxIntimacy))
 end
 
-function slot0.setIntimacy(slot0, slot1)
+slot0.setIntimacy = function(slot0, slot1)
 	if slot1 > 10000 and not slot0.propose then
 		slot1 = 10000
 	end
@@ -1626,7 +1610,7 @@ function slot0.setIntimacy(slot0, slot1)
 	end
 end
 
-function slot0.getLevelExpConfig(slot0, slot1)
+slot0.getLevelExpConfig = function(slot0, slot1)
 	if slot0:getConfig("rarity") == ShipRarity.SSR then
 		slot2 = Clone(getConfigFromLevel1(uv0, slot1 or slot0.level))
 		slot2.exp = slot2.exp_ur
@@ -1640,7 +1624,7 @@ function slot0.getLevelExpConfig(slot0, slot1)
 	end
 end
 
-function slot0.getExp(slot0)
+slot0.getExp = function(slot0)
 	if slot0.level == slot0:getMaxLevel() and LOCK_FULL_EXP then
 		return 0
 	end
@@ -1648,11 +1632,11 @@ function slot0.getExp(slot0)
 	return slot0.exp
 end
 
-function slot0.getProficiency(slot0)
+slot0.getProficiency = function(slot0)
 	return slot0.proficiency
 end
 
-function slot0.addExp(slot0, slot1, slot2)
+slot0.addExp = function(slot0, slot1, slot2)
 	if slot0.level == slot0:getMaxLevel() then
 		if pg.gameset.exp_overflow_max.key_value <= slot0.exp then
 			return
@@ -1681,27 +1665,27 @@ function slot0.addExp(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getMaxLevel(slot0)
+slot0.getMaxLevel = function(slot0)
 	return slot0.maxLevel
 end
 
-function slot0.canLevelUp(slot0)
+slot0.canLevelUp = function(slot0)
 	return slot0:getLevelExpConfig(slot0.level + 1) and slot0:getLevelExpConfig().exp_interval <= slot0.exp and not (slot0:getMaxLevel() <= slot0.level)
 end
 
-function slot0.getConfigMaxLevel(slot0)
+slot0.getConfigMaxLevel = function(slot0)
 	return uv0.all[#uv0.all]
 end
 
-function slot0.isConfigMaxLevel(slot0)
+slot0.isConfigMaxLevel = function(slot0)
 	return slot0.level == slot0:getConfigMaxLevel()
 end
 
-function slot0.updateMaxLevel(slot0, slot1)
+slot0.updateMaxLevel = function(slot0, slot1)
 	slot0.maxLevel = math.max(math.min(slot0:getConfigMaxLevel(), slot1), slot0.maxLevel)
 end
 
-function slot0.getNextMaxLevel(slot0)
+slot0.getNextMaxLevel = function(slot0)
 	for slot6 = slot0:getMaxLevel() + 1, slot0:getConfigMaxLevel() do
 		if uv0[slot6].level_limit == 1 then
 			return slot6
@@ -1709,7 +1693,7 @@ function slot0.getNextMaxLevel(slot0)
 	end
 end
 
-function slot0.canUpgrade(slot0)
+slot0.canUpgrade = function(slot0)
 	if slot0:isMetaShip() or slot0:isBluePrintShip() then
 		return false
 	else
@@ -1721,23 +1705,23 @@ function slot0.canUpgrade(slot0)
 	end
 end
 
-function slot0.isReachNextMaxLevel(slot0)
+slot0.isReachNextMaxLevel = function(slot0)
 	return slot0.level == slot0:getMaxLevel() and slot0:CanAccumulateExp() and slot0:getNextMaxLevel() ~= nil
 end
 
-function slot0.isAwakening(slot0)
+slot0.isAwakening = function(slot0)
 	return slot0:isReachNextMaxLevel() and slot0.level < uv0
 end
 
-function slot0.isAwakening2(slot0)
+slot0.isAwakening2 = function(slot0)
 	return slot0:isReachNextMaxLevel() and uv0 <= slot0.level
 end
 
-function slot0.notMaxLevelForFilter(slot0)
+slot0.notMaxLevelForFilter = function(slot0)
 	return slot0.level ~= slot0:getMaxLevel()
 end
 
-function slot0.getNextMaxLevelConsume(slot0)
+slot0.getNextMaxLevelConsume = function(slot0)
 	slot3 = uv0[slot0:getMaxLevel()]["need_item_rarity" .. slot0:getConfig("rarity")]
 
 	assert(slot3, "items  can not be nil")
@@ -1751,7 +1735,7 @@ function slot0.getNextMaxLevelConsume(slot0)
 	end)
 end
 
-function slot0.canUpgradeMaxLevel(slot0)
+slot0.canUpgradeMaxLevel = function(slot0)
 	if not slot0:isReachNextMaxLevel() then
 		return false, i18n("upgrade_to_next_maxlevel_failed")
 	else
@@ -1772,15 +1756,15 @@ function slot0.canUpgradeMaxLevel(slot0)
 	return true
 end
 
-function slot0.CanAccumulateExp(slot0)
+slot0.CanAccumulateExp = function(slot0)
 	return pg.ship_data_template[slot0.configId].can_get_proficency == 1
 end
 
-function slot0.getTotalExp(slot0)
+slot0.getTotalExp = function(slot0)
 	return slot0:getLevelExpConfig().exp_start + slot0.exp
 end
 
-function slot0.getStartBattleExpend(slot0)
+slot0.getStartBattleExpend = function(slot0)
 	if table.contains(TeamType.SubShipType, slot0:getShipType()) then
 		return 0
 	else
@@ -1788,15 +1772,15 @@ function slot0.getStartBattleExpend(slot0)
 	end
 end
 
-function slot0.getEndBattleExpend(slot0)
+slot0.getEndBattleExpend = function(slot0)
 	return math.floor(pg.ship_data_template[slot0.configId].oil_at_end * slot0:getLevelExpConfig().fight_oil_ratio / 10000)
 end
 
-function slot0.getBattleTotalExpend(slot0)
+slot0.getBattleTotalExpend = function(slot0)
 	return slot0:getStartBattleExpend() + slot0:getEndBattleExpend()
 end
 
-function slot0.getShipAmmo(slot0)
+slot0.getShipAmmo = function(slot0)
 	slot1 = slot0:getConfig(AttributeType.Ammo)
 
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
@@ -1814,7 +1798,7 @@ function slot0.getShipAmmo(slot0)
 	return slot1
 end
 
-function slot0.getHuntingLv(slot0)
+slot0.getHuntingLv = function(slot0)
 	slot1 = slot0:getConfig("huntingrange_level")
 
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
@@ -1832,7 +1816,7 @@ function slot0.getHuntingLv(slot0)
 	return math.min(slot1, slot0:getMaxHuntingLv())
 end
 
-function slot0.getMapAuras(slot0)
+slot0.getMapAuras = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
@@ -1847,7 +1831,7 @@ function slot0.getMapAuras(slot0)
 	return slot1
 end
 
-function slot0.getMapAids(slot0)
+slot0.getMapAids = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0:getAllSkills()) do
@@ -1867,7 +1851,7 @@ slot0.BENEFIT_EQUIP = 3
 slot0.BENEFIT_MAP_AURA = 4
 slot0.BENEFIT_AID = 5
 
-function slot0.IsBenefitSkillActive(slot0, slot1)
+slot0.IsBenefitSkillActive = function(slot0, slot1)
 	slot2 = false
 
 	if slot1.type == uv0.BENEFIT_SKILL then
@@ -1895,11 +1879,11 @@ function slot0.IsBenefitSkillActive(slot0, slot1)
 	return slot2
 end
 
-function slot0.getMaxHuntingLv(slot0)
+slot0.getMaxHuntingLv = function(slot0)
 	return #slot0:getConfig("hunting_range")
 end
 
-function slot0.getHuntingRange(slot0, slot1)
+slot0.getHuntingRange = function(slot0, slot1)
 	slot3 = Clone(slot0:getConfig("hunting_range")[1])
 	slot4 = slot1 or slot0:getHuntingLv()
 	slot8 = slot0
@@ -1916,7 +1900,7 @@ function slot0.getHuntingRange(slot0, slot1)
 	return slot3
 end
 
-function slot0.getTriggerSkills(slot0)
+slot0.getTriggerSkills = function(slot0)
 	_.each(slot0:getSkillEffects(), function (slot0)
 		if slot0.type == "AddBuff" and slot0.arg_list and slot0.arg_list.buff_id then
 			slot1 = slot0.arg_list.buff_id
@@ -1930,7 +1914,7 @@ function slot0.getTriggerSkills(slot0)
 	return {}
 end
 
-function slot0.GetEquipmentSkills(slot0)
+slot0.GetEquipmentSkills = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
@@ -1954,7 +1938,7 @@ function slot0.GetEquipmentSkills(slot0)
 	return slot1
 end
 
-function slot0.getAllSkills(slot0)
+slot0.getAllSkills = function(slot0)
 	slot1 = Clone(slot0.skills)
 
 	for slot5, slot6 in pairs(slot0:GetEquipmentSkills()) do
@@ -1968,42 +1952,42 @@ function slot0.getAllSkills(slot0)
 	return slot1
 end
 
-function slot0.isSameKind(slot0, slot1)
+slot0.isSameKind = function(slot0, slot1)
 	return pg.ship_data_template[slot0.configId].group_type == pg.ship_data_template[slot1.configId].group_type
 end
 
-function slot0.GetLockState(slot0)
+slot0.GetLockState = function(slot0)
 	return slot0.lockState
 end
 
-function slot0.IsLocked(slot0)
+slot0.IsLocked = function(slot0)
 	return slot0.lockState == uv0.LOCK_STATE_LOCK
 end
 
-function slot0.SetLockState(slot0, slot1)
+slot0.SetLockState = function(slot0, slot1)
 	slot0.lockState = slot1
 end
 
-function slot0.GetPreferenceTag(slot0)
+slot0.GetPreferenceTag = function(slot0)
 	return slot0.preferenceTag or 0
 end
 
-function slot0.IsPreferenceTag(slot0)
+slot0.IsPreferenceTag = function(slot0)
 	return slot0:GetPreferenceTag() == uv0.PREFERENCE_TAG_COMMON
 end
 
-function slot0.SetPreferenceTag(slot0, slot1)
+slot0.SetPreferenceTag = function(slot0, slot1)
 	slot0.preferenceTag = slot1
 end
 
-function slot0.calReturnRes(slot0)
+slot0.calReturnRes = function(slot0)
 	slot1 = pg.ship_data_by_type[slot0:getShipType()]
 	slot3 = slot1.distory_resource_oil_ratio
 
 	return slot1.distory_resource_gold_ratio, 0, pg.ship_data_by_star[slot0:getConfig("rarity")].destory_item
 end
 
-function slot0.getRarity(slot0)
+slot0.getRarity = function(slot0)
 	slot1 = slot0:getConfig("rarity")
 
 	if slot0:isRemoulded() then
@@ -2013,11 +1997,11 @@ function slot0.getRarity(slot0)
 	return slot1
 end
 
-function slot0.getExchangePrice(slot0)
+slot0.getExchangePrice = function(slot0)
 	return pg.ship_data_by_star[slot0:getConfig("rarity")].exchange_price
 end
 
-function slot0.updateSkill(slot0, slot1)
+slot0.updateSkill = function(slot0, slot1)
 	slot2 = slot1.skill_id or slot1.id
 	slot0.skills[slot2] = {
 		id = slot2,
@@ -2026,7 +2010,7 @@ function slot0.updateSkill(slot0, slot1)
 	}
 end
 
-function slot0.canEquipAtPos(slot0, slot1, slot2)
+slot0.canEquipAtPos = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0:isForbiddenAtPos(slot1, slot2)
 
 	if slot3 then
@@ -2042,7 +2026,7 @@ function slot0.canEquipAtPos(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.isForbiddenAtPos(slot0, slot1, slot2)
+slot0.isForbiddenAtPos = function(slot0, slot1, slot2)
 	slot3 = pg.ship_data_template[slot0.configId]
 
 	assert(slot3, "can not find ship in ship_data_templtae: " .. slot0.configId)
@@ -2058,7 +2042,7 @@ function slot0.isForbiddenAtPos(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.canEquipCommander(slot0, slot1)
+slot0.canEquipCommander = function(slot0, slot1)
 	if slot1:getShipType() ~= slot0:getShipType() then
 		return false, i18n("commander_type_unmatch")
 	end
@@ -2066,22 +2050,22 @@ function slot0.canEquipCommander(slot0, slot1)
 	return true
 end
 
-function slot0.upgrade(slot0)
+slot0.upgrade = function(slot0)
 	if pg.ship_data_transform[slot0.configId].trans_id and slot1.trans_id > 0 then
 		slot0.configId = slot1.trans_id
 		slot0.star = slot0:getConfig("star")
 	end
 end
 
-function slot0.getTeamType(slot0)
+slot0.getTeamType = function(slot0)
 	return TeamType.GetTeamFromShipType(slot0:getShipType())
 end
 
-function slot0.getFleetName(slot0)
+slot0.getFleetName = function(slot0)
 	return uv0[slot0:getTeamType()]
 end
 
-function slot0.getMaxConfigId(slot0)
+slot0.getMaxConfigId = function(slot0)
 	slot1 = pg.ship_data_template
 	slot2 = nil
 
@@ -2096,21 +2080,21 @@ function slot0.getMaxConfigId(slot0)
 	return slot2
 end
 
-function slot0.getFlag(slot0, slot1, slot2)
+slot0.getFlag = function(slot0, slot1, slot2)
 	return pg.ShipFlagMgr.GetInstance():GetShipFlag(slot0.id, slot1, slot2)
 end
 
-function slot0.hasAnyFlag(slot0, slot1)
+slot0.hasAnyFlag = function(slot0, slot1)
 	return _.any(slot1, function (slot0)
 		return uv0:getFlag(slot0)
 	end)
 end
 
-function slot0.isBreakOut(slot0)
+slot0.isBreakOut = function(slot0)
 	return slot0.configId % 10 > 1
 end
 
-function slot0.fateSkillChange(slot0, slot1)
+slot0.fateSkillChange = function(slot0, slot1)
 	if not slot0.skillChangeList then
 		slot0.skillChangeList = slot0:isBluePrintShip() and slot0:getBluePrint():getChangeSkillList() or {}
 	end
@@ -2124,7 +2108,7 @@ function slot0.fateSkillChange(slot0, slot1)
 	return slot1
 end
 
-function slot0.RemapSkillId(slot0, slot1)
+slot0.RemapSkillId = function(slot0, slot1)
 	if slot0:GetSpWeapon() then
 		return slot2:RemapSkillId(slot1)
 	end
@@ -2132,7 +2116,7 @@ function slot0.RemapSkillId(slot0, slot1)
 	return slot1
 end
 
-function slot0.getSkillList(slot0)
+slot0.getSkillList = function(slot0)
 	slot1 = pg.ship_data_template[slot0.configId]
 	slot2 = Clone(slot1.buff_list_display)
 	slot3 = Clone(slot1.buff_list)
@@ -2160,15 +2144,15 @@ function slot0.getSkillList(slot0)
 	return slot6
 end
 
-function slot0.getModAttrTopLimit(slot0, slot1)
+slot0.getModAttrTopLimit = function(slot0, slot1)
 	return calcFloor((3 + 7 * math.min(slot0.level, 100) / 100) * pg.ship_data_strengthen[pg.ship_data_template[slot0.configId].strengthen_id].durability[ShipModAttr.ATTR_TO_INDEX[slot1]] * 0.1)
 end
 
-function slot0.leftModAdditionPoint(slot0, slot1)
+slot0.leftModAdditionPoint = function(slot0, slot1)
 	return math.max(0, slot0:getModAttrTopLimit(slot1) - calcFloor(slot0:getModProperties(slot1) / slot0:getModExpRatio(slot1)))
 end
 
-function slot0.getModAttrBaseMax(slot0, slot1)
+slot0.getModAttrBaseMax = function(slot0, slot1)
 	if not table.contains(slot0:getConfig("lock"), slot1) then
 		return calcFloor(slot0:getShipProperties()[slot1] + slot0:leftModAdditionPoint(slot1))
 	else
@@ -2176,7 +2160,7 @@ function slot0.getModAttrBaseMax(slot0, slot1)
 	end
 end
 
-function slot0.getModExpRatio(slot0, slot1)
+slot0.getModExpRatio = function(slot0, slot1)
 	if not table.contains(slot0:getConfig("lock"), slot1) then
 		slot3 = pg.ship_data_template[slot0.configId].strengthen_id
 
@@ -2188,25 +2172,25 @@ function slot0.getModExpRatio(slot0, slot1)
 	end
 end
 
-function slot0.inUnlockTip(slot0)
+slot0.inUnlockTip = function(slot0)
 	return table.contains(pg.gameset.tip_unlock_shipIds.description[0], slot0)
 end
 
-function slot0.proposeSkinOwned(slot0, slot1)
+slot0.proposeSkinOwned = function(slot0, slot1)
 	return slot1 and slot0.propose and slot1.skin_type == ShipSkin.SKIN_TYPE_PROPOSE
 end
 
-function slot0.getProposeSkin(slot0)
+slot0.getProposeSkin = function(slot0)
 	return ShipSkin.GetSkinByType(slot0.groupId, ShipSkin.SKIN_TYPE_PROPOSE)
 end
 
-function slot0.getDisplaySkillIds(slot0)
+slot0.getDisplaySkillIds = function(slot0)
 	return _.map(pg.ship_data_template[slot0.configId].buff_list_display, function (slot0)
 		return uv0:fateSkillChange(slot0)
 	end)
 end
 
-function slot0.isFullSkillLevel(slot0)
+slot0.isFullSkillLevel = function(slot0)
 	slot1 = pg.skill_data_template
 
 	for slot5, slot6 in pairs(slot0.skills) do
@@ -2218,12 +2202,12 @@ function slot0.isFullSkillLevel(slot0)
 	return true
 end
 
-function slot0.setEquipmentRecord(slot0, slot1, slot2)
+slot0.setEquipmentRecord = function(slot0, slot1, slot2)
 	PlayerPrefs.SetString("equipment_record" .. "_" .. slot1 .. "_" .. slot0.id, table.concat(_.flatten(slot2), ":"))
 	PlayerPrefs.Save()
 end
 
-function slot0.getEquipmentRecord(slot0, slot1)
+slot0.getEquipmentRecord = function(slot0, slot1)
 	if not slot0.equipmentRecords then
 		slot3 = string.split(PlayerPrefs.GetString("equipment_record" .. "_" .. slot1 .. "_" .. slot0.id) or "", ":")
 		slot4 = {}
@@ -2240,7 +2224,7 @@ function slot0.getEquipmentRecord(slot0, slot1)
 	return slot0.equipmentRecords
 end
 
-function slot0.SetSpWeaponRecord(slot0, slot1, slot2)
+slot0.SetSpWeaponRecord = function(slot0, slot1, slot2)
 	PlayerPrefs.SetString("spweapon_record" .. "_" .. slot1 .. "_" .. slot0.id, table.concat(_.map({
 		1,
 		2,
@@ -2255,7 +2239,7 @@ function slot0.SetSpWeaponRecord(slot0, slot1, slot2)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetSpWeaponRecord(slot0, slot1)
+slot0.GetSpWeaponRecord = function(slot0, slot1)
 	return _.map(string.split(PlayerPrefs.GetString("spweapon_record" .. "_" .. slot1 .. "_" .. slot0.id, ""), ":"), function (slot0)
 		slot1 = string.split(slot0, ",")
 
@@ -2280,7 +2264,7 @@ function slot0.GetSpWeaponRecord(slot0, slot1)
 	end)
 end
 
-function slot0.hasEquipEquipmentSkin(slot0)
+slot0.hasEquipEquipmentSkin = function(slot0)
 	for slot4, slot5 in ipairs(slot0.equipments) do
 		if slot5 and slot5:hasSkin() then
 			return true
@@ -2290,19 +2274,19 @@ function slot0.hasEquipEquipmentSkin(slot0)
 	return false
 end
 
-function slot0.hasCommander(slot0)
+slot0.hasCommander = function(slot0)
 	return slot0.commanderId and slot0.commanderId ~= 0
 end
 
-function slot0.getCommander(slot0)
+slot0.getCommander = function(slot0)
 	return slot0.commanderId
 end
 
-function slot0.setCommander(slot0, slot1)
+slot0.setCommander = function(slot0, slot1)
 	slot0.commanderId = slot1
 end
 
-function slot0.getSkillIndex(slot0, slot1)
+slot0.getSkillIndex = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0:getSkillList()) do
 		if slot1 == slot7 then
 			return slot6
@@ -2310,21 +2294,21 @@ function slot0.getSkillIndex(slot0, slot1)
 	end
 end
 
-function slot0.getTactics(slot0)
+slot0.getTactics = function(slot0)
 	return 1, "tactics_attack"
 end
 
-function slot0.IsBgmSkin(slot0)
+slot0.IsBgmSkin = function(slot0)
 	return table.contains(slot0:GetSkinConfig().tag, ShipSkin.WITH_BGM)
 end
 
-function slot0.GetSkinBgm(slot0)
+slot0.GetSkinBgm = function(slot0)
 	if slot0:IsBgmSkin() then
 		return slot0:GetSkinConfig().bgm
 	end
 end
 
-function slot0.isIntensifyMax(slot0)
+slot0.isIntensifyMax = function(slot0)
 	slot1 = intProperties(slot0:getShipProperties())
 
 	if slot0:isBluePrintShip() then
@@ -2340,11 +2324,11 @@ function slot0.isIntensifyMax(slot0)
 	return true
 end
 
-function slot0.isRemouldable(slot0)
+slot0.isRemouldable = function(slot0)
 	return not slot0:isTestShip() and not slot0:isBluePrintShip() and pg.ship_data_trans[slot0.groupId]
 end
 
-function slot0.isAllRemouldFinish(slot0)
+slot0.isAllRemouldFinish = function(slot0)
 	slot1 = pg.ship_data_trans[slot0.groupId]
 	slot5 = slot0.groupId
 
@@ -2363,7 +2347,7 @@ function slot0.isAllRemouldFinish(slot0)
 	return true
 end
 
-function slot0.isSpecialFilter(slot0)
+slot0.isSpecialFilter = function(slot0)
 	slot1 = pg.ship_data_statistics[slot0.configId]
 	slot5 = slot0.configId
 
@@ -2378,7 +2362,7 @@ function slot0.isSpecialFilter(slot0)
 	return false
 end
 
-function slot0.hasAvailiableSkin(slot0)
+slot0.hasAvailiableSkin = function(slot0)
 	slot1 = getProxy(ShipSkinProxy)
 	slot3 = slot1:getRawData()
 	slot4 = 0
@@ -2392,7 +2376,7 @@ function slot0.hasAvailiableSkin(slot0)
 	return slot4 > 0
 end
 
-function slot0.hasProposeSkin(slot0)
+slot0.hasProposeSkin = function(slot0)
 	for slot6, slot7 in ipairs(getProxy(ShipSkinProxy):GetAllSkinForShip(slot0)) do
 		if slot7.skin_type == ShipSkin.SKIN_TYPE_PROPOSE then
 			return true
@@ -2408,11 +2392,11 @@ function slot0.hasProposeSkin(slot0)
 	return false
 end
 
-function slot0.HasUniqueSpWeapon(slot0)
+slot0.HasUniqueSpWeapon = function(slot0)
 	return tobool(pg.spweapon_data_statistics.get_id_list_by_unique[slot0:getGroupId()])
 end
 
-function slot0.getAircraftReloadCD(slot0)
+slot0.getAircraftReloadCD = function(slot0)
 	slot1 = slot0:getConfigTable().base_list
 	slot2 = slot0:getConfigTable().default_equip_list
 	slot3 = 0
@@ -2436,19 +2420,19 @@ function slot0.getAircraftReloadCD(slot0)
 	}
 end
 
-function slot0.IsTagShip(slot0, slot1)
+slot0.IsTagShip = function(slot0, slot1)
 	return table.contains(slot0:getConfig("tag_list"), slot1)
 end
 
-function slot0.setReMetaSpecialItemVO(slot0, slot1)
+slot0.setReMetaSpecialItemVO = function(slot0, slot1)
 	slot0.reMetaSpecialItemVO = slot1
 end
 
-function slot0.getReMetaSpecialItemVO(slot0, slot1)
+slot0.getReMetaSpecialItemVO = function(slot0, slot1)
 	return slot0.reMetaSpecialItemVO
 end
 
-function slot0.getProposeType(slot0)
+slot0.getProposeType = function(slot0)
 	if slot0:isMetaShip() then
 		return "meta"
 	elseif slot0:IsXIdol() then
@@ -2458,19 +2442,19 @@ function slot0.getProposeType(slot0)
 	end
 end
 
-function slot0.IsXIdol(slot0)
+slot0.IsXIdol = function(slot0)
 	return slot0:getNation() == Nation.IDOL_LINK
 end
 
-function slot0.getSpecificType(slot0)
+slot0.getSpecificType = function(slot0)
 	return pg.ship_data_template[slot0.configId].specific_type
 end
 
-function slot0.GetSpWeapon(slot0)
+slot0.GetSpWeapon = function(slot0)
 	return slot0.spWeapon
 end
 
-function slot0.UpdateSpWeapon(slot0, slot1)
+slot0.UpdateSpWeapon = function(slot0, slot1)
 	slot2 = (slot1 and slot1:GetUID() or 0) == (slot0.spWeapon and slot0.spWeapon:GetUID() or 0)
 	slot0.spWeapon = slot1
 
@@ -2483,7 +2467,7 @@ function slot0.UpdateSpWeapon(slot0, slot1)
 	end
 end
 
-function slot0.CanEquipSpWeapon(slot0, slot1)
+slot0.CanEquipSpWeapon = function(slot0, slot1)
 	slot2, slot3 = slot0:IsSpWeaponForbidden(slot1)
 
 	if slot2 then
@@ -2493,7 +2477,7 @@ function slot0.CanEquipSpWeapon(slot0, slot1)
 	return true
 end
 
-function slot0.IsSpWeaponForbidden(slot0, slot1)
+slot0.IsSpWeaponForbidden = function(slot0, slot1)
 	if not table.contains(slot1:GetWearableShipTypes(), slot0:getShipType()) then
 		return true, i18n("spweapon_tip_group_error")
 	end
@@ -2507,7 +2491,7 @@ function slot0.IsSpWeaponForbidden(slot0, slot1)
 	return false
 end
 
-function slot0.GetMapStrikeAnim(slot0)
+slot0.GetMapStrikeAnim = function(slot0)
 	switch(TeamType.GetTeamFromShipType(slot0:getShipType()), {
 		[TeamType.Main] = function ()
 			if ShipType.IsTypeQuZhu(uv0) then
@@ -2537,11 +2521,11 @@ function slot0.GetMapStrikeAnim(slot0)
 	return nil
 end
 
-function slot0.IsDefaultSkin(slot0)
+slot0.IsDefaultSkin = function(slot0)
 	return slot0.skinId == 0 or slot0.skinId == slot0:getConfig("skin_id")
 end
 
-function slot0.IsMatchKey(slot0, slot1)
+slot0.IsMatchKey = function(slot0, slot1)
 	if not slot1 or slot1 == "" then
 		return true
 	end
@@ -2549,15 +2533,15 @@ function slot0.IsMatchKey(slot0, slot1)
 	return string.find(string.lower(slot0:GetDefaultName()), string.lower(string.gsub(slot1, "%.", "%%.")))
 end
 
-function slot0.IsOwner(slot0)
+slot0.IsOwner = function(slot0)
 	return tobool(slot0.id)
 end
 
-function slot0.GetUniqueId(slot0)
+slot0.GetUniqueId = function(slot0)
 	return slot0.id
 end
 
-function slot0.ShowPropose(slot0)
+slot0.ShowPropose = function(slot0)
 	if not slot0.propose then
 		return false
 	else
@@ -2567,7 +2551,7 @@ function slot0.ShowPropose(slot0)
 	end
 end
 
-function slot0.GetColorName(slot0, slot1)
+slot0.GetColorName = function(slot0, slot1)
 	slot1 = slot1 or slot0:getName()
 
 	if PlayerPrefs.GetInt("SHIP_NAME_COLOR", PLATFORM_CODE == PLATFORM_CH and 1 or 0) == 1 and slot0.propose then
@@ -2578,68 +2562,53 @@ function slot0.GetColorName(slot0, slot1)
 end
 
 slot9 = {
-	[false] = {
-		effect = {
-			"duang_meta_jiehun",
-			"duang_meta_%s",
-			"duang_6_jiehun_tuzhi",
-			"duang_6_jiehun",
-			"duang_6"
-		},
-		frame = {
-			"prop14",
-			"prop%s",
-			"prop"
-		}
+	effect = {
+		"duang_meta_jiehun",
+		"duang_6_jiehun_tuzhi",
+		"duang_6_jiehun",
+		"duang_meta_%s",
+		"duang_6"
 	},
-	[true] = {
-		effect = {
-			"duang_meta_jiehun_1",
-			"duang_meta_b%s",
-			"duang_6_jiehun_tuzhi_1",
-			"duang_6_jiehun_1",
-			"duang_6_1"
-		},
-		frame = {
-			"prop14",
-			"prop%s",
-			"prop"
-		}
+	frame = {
+		"prop4_1",
+		"prop%s",
+		"prop"
 	}
 }
 
-function slot0.GetFrameAndEffect(slot0, slot1)
+slot0.GetFrameAndEffect = function(slot0, slot1)
 	slot1 = tobool(slot1)
 	slot2, slot3 = nil
 
-	if slot0:isMetaShip() then
-		slot3 = (not slot0.propose or string.format(uv0[slot1].effect[1])) and string.format(uv0[slot1].effect[2], slot0:rarity2bgPrint())
+	if slot0.propose then
+		if slot0:isMetaShip() then
+			slot3 = string.format(uv0.effect[1])
+			slot2 = string.format(uv0.frame[1])
+		elseif slot0:isBluePrintShip() then
+			slot3 = string.format(uv0.effect[2])
+			slot2 = string.format(uv0.frame[2], slot0:rarity2bgPrint())
+		else
+			slot3 = string.format(uv0.effect[3])
+			slot2 = string.format(uv0.frame[3])
+		end
 
-		if slot0:ShowPropose() then
-			slot2 = string.format(uv0[slot1].frame[1])
+		if not slot0:ShowPropose() then
+			slot2 = nil
 		end
-	elseif slot0:isBluePrintShip() then
-		if slot0.propose then
-			slot3 = string.format(uv0[slot1].effect[3])
-		end
+	elseif slot0:isMetaShip() then
+		slot3 = string.format(uv0.effect[4], slot0:rarity2bgPrint())
+	elseif slot0:getRarity() == ShipRarity.SSR then
+		slot3 = string.format(uv0.effect[5])
+	end
 
-		if slot0:ShowPropose() then
-			slot2 = string.format(uv0[slot1].frame[2], slot0:rarity2bgPrint())
-		end
-	elseif slot0.propose then
-		slot3 = string.format(uv0[slot1].effect[4])
-
-		if slot0:ShowPropose() then
-			slot2 = string.format(uv0[slot1].frame[3])
-		end
-	elseif slot0:getRarity() == 6 then
-		slot3 = string.format(uv0[slot1].effect[5])
+	if slot1 then
+		slot3 = slot3 and slot3 .. "_1"
 	end
 
 	return slot2, slot3
 end
 
-function slot0.GetRecordPosKey(slot0)
+slot0.GetRecordPosKey = function(slot0)
 	return slot0.skinId
 end
 

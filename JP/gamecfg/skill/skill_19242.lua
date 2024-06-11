@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "鲜血诗篇-P3",
 	cd = 0,
+	picture = "0",
+	desc = "鲜血诗篇-P3",
 	painting = 1,
 	id = 19242,
-	picture = "0",
 	castCV = "",
-	desc = "鲜血诗篇-P3",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 19243
 			}

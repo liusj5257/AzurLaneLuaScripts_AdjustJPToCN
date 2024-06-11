@@ -1,6 +1,6 @@
 slot0 = class("TagTipHelper")
 
-function slot0.FuDaiTagTip(slot0)
+slot0.FuDaiTagTip = function(slot0)
 	triggerToggle(slot0, false)
 
 	slot1 = {}
@@ -12,7 +12,7 @@ function slot0.FuDaiTagTip(slot0)
 	end
 
 	if #slot1 > 0 then
-		function slot3(slot0)
+		slot3 = function(slot0)
 			table.sort(uv0, function (slot0, slot1)
 				return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1.time[1]) < pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.time[1])
 			end)
@@ -41,7 +41,7 @@ function slot0.FuDaiTagTip(slot0)
 	end
 end
 
-function slot0.SetFuDaiTagMark()
+slot0.SetFuDaiTagMark = function()
 	if uv0.FudaiTime then
 		PlayerPrefs.SetInt("Ever_Enter_Mall_", uv0.FudaiTime)
 		PlayerPrefs.Save()
@@ -50,7 +50,7 @@ function slot0.SetFuDaiTagMark()
 	end
 end
 
-function slot0.SkinTagTip(slot0)
+slot0.SkinTagTip = function(slot0)
 	triggerToggle(slot0, false)
 
 	slot2 = {}
@@ -74,7 +74,7 @@ function slot0.SkinTagTip(slot0)
 	end
 end
 
-function slot0.SetSkinTagMark()
+slot0.SetSkinTagMark = function()
 	if uv0.SkinTime then
 		PlayerPrefs.SetInt("Ever_Enter_Skin_Shop_", uv0.SkinTime)
 		PlayerPrefs.Save()
@@ -83,11 +83,11 @@ function slot0.SetSkinTagMark()
 	end
 end
 
-function slot0.MonthCardTagTip(slot0)
+slot0.MonthCardTagTip = function(slot0)
 	triggerToggle(slot0, MonthCardOutDateTipPanel.GetShowMonthCardTag())
 end
 
-function slot0.FreeGiftTag(slot0)
+slot0.FreeGiftTag = function(slot0)
 	if not getProxy(ShopsProxy):getChargedList() then
 		pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
 			callback = function ()
@@ -107,7 +107,7 @@ function slot0.FreeGiftTag(slot0)
 	end
 end
 
-function slot0.FreeBuildTicketTip(slot0, slot1)
+slot0.FreeBuildTicketTip = function(slot0, slot1)
 	if getProxy(ActivityProxy):IsShowFreeBuildMark(false) then
 		setActive(slot0, true)
 		LoadImageSpriteAtlasAsync(Drop.New({
@@ -129,7 +129,7 @@ function slot0.FreeBuildTicketTip(slot0, slot1)
 	end
 end
 
-function slot0.TecShipGiftTip(slot0)
+slot0.TecShipGiftTip = function(slot0)
 	slot1 = {
 		2001,
 		2002,
@@ -159,7 +159,7 @@ function slot0.TecShipGiftTip(slot0)
 	end
 end
 
-function slot0.SetFreeBuildMark()
+slot0.SetFreeBuildMark = function()
 	if uv0.BuildMark then
 		if getProxy(ActivityProxy):IsShowFreeBuildMark(false) then
 			PlayerPrefs.SetString("Free_Build_Ticket_" .. slot0.id, pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d"))

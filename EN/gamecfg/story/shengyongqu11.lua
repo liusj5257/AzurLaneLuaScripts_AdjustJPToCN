@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU11",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "The Basilica Isle - Surrounding Waters",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "level-french1",
+			say = "The Basilica Isle - Surrounding Waters",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "Explosions tear through the waters as the battle rages on.",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "They're so strong, even though they're just mass-produced ships...!",
 			typewriter = {
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -76,8 +76,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "We're at a disadvantage fighting under the supporting fire of the coastal artillery installations... We should continue the fight outside of their range.",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Their alliance with the Iron Blood may have something to do with it, but these defenses are on a whole different level from what we saw before.",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "If we don't advance carefully, we'll risk being focused by their coastal defenses...!",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Algérie was not only one of the Iris Orthodoxy's best fighters, but also a skilled tactician.",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Nothing was more reassuring than having her on the same side, but to face her as an opponent...",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "One more thing. Those mass-produced ships seem to have received some tuning-up.",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "Ordinarily, performance shouldn't change within the same mass-produced model. However, these clearly have higher specifications than normal.",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "Not all of these ships have been upgraded, but the fact that they've mixed them together is enough to cast doubt into our battle plan.",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "No, this feels more like it's Algérie's doing...!",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "O, Saint Michael, why must we be tested like this?",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "Does this have to do something with cognitive chips...?",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "That's a possibility...! Wait... there's been no verified evidence of cognitive chips having any effects on mass-produced ships...",
 			typewriter = {
@@ -488,8 +488,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "(The Royal Navy certainly should already be involved if there's any secret research going on… I'll definitely have to look further into this.)",
 			typewriter = {
@@ -502,8 +502,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -531,8 +531,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "…I think the Cardinal is saying that there's no point in pursuing this line of thought any further.",
 			typewriter = {
@@ -548,8 +548,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "I see…",
 			typewriter = {
@@ -581,8 +581,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "It's as if something is encroaching upon us…",
 			typewriter = {
@@ -611,11 +611,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201120,
+			nameColor = "#a9f548",
 			say = "I... I feel it too…!",
 			typewriter = {
 				speed = 0.05,
@@ -627,8 +627,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -640,8 +640,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "What? I'm not sensing anything, though?",
 			typewriter = {
@@ -657,8 +657,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "Me neither… is this some sort of strange spell...?",
 			typewriter = {
@@ -722,8 +722,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "(Is it possible... that the Vichya Dominion already uncovered it...?!)",
 			typewriter = {
@@ -752,11 +752,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201120,
+			nameColor = "#a9f548",
 			say = "I-I'm feeling a little weird...",
 			typewriter = {
 				speed = 0.05,
@@ -768,8 +768,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -794,12 +794,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "Miss Richelieu...?",
 			typewriter = {
 				speed = 0.05,

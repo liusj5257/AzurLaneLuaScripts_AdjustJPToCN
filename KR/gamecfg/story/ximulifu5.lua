@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평화에 기도를\n\n<size=45>연회를 즐기는 법</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 403053,
-			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "친구들이랑 떨어져 버린 거구나……",
 			bgm = "bsm-5",
+			actor = 403053,
+			nameColor = "#a9f548",
+			say = "친구들이랑 떨어져 버린 거구나……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301263,
 			dir = 1,
+			actor = 301263,
 			nameColor = "#a9f548",
 			say = "아리아케 언니, 그리고 시구레랑 같이 쫓아가다 보니, 어느새 다들 떨어져 버려서…",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "그래…? 사쿠라 엠파이어엔 개성적인 애가 많구나.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301263,
 			dir = 1,
+			actor = 301263,
 			nameColor = "#a9f548",
 			say = "괘, 괜찮나요?",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "괜찮아. 나도…연회란 거 어떻게 즐겨야 할지 아직 모르겠어서.",
 			typewriter = {
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 403053,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403053,
+			nameColor = "#a9f548",
 			say = "……저기 있는 거, 친구 아냐?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,8 +230,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301152,
 			dir = 1,
+			actor = 301152,
 			nameColor = "#a9f548",
 			say = "응? 슈피가 도와준 거야?",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301152,
 			dir = 1,
+			actor = 301152,
 			nameColor = "#a9f548",
 			say = "「연회를 즐기는 법을 모르겠다」고? 간단해, 그런 거.",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301152,
 			dir = 1,
+			actor = 301152,
 			nameColor = "#a9f548",
 			say = "봐, 저기 유니온 사람들처럼 춤을 춰도 괜찮고, 유다치처럼 마구 먹어대는 것도 괜찮으니까.",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301152,
 			dir = 1,
+			actor = 301152,
 			nameColor = "#a9f548",
 			say = "별말씀을.",
 			typewriter = {
@@ -375,14 +375,14 @@ return {
 			}
 		},
 		{
-			actor = 301152,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "! 이 소리는……",
 			soundeffect = "event:/battle/firework",
+			actor = 301152,
+			nameColor = "#a9f548",
+			say = "! 이 소리는……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,8 +393,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0,
 					x = 0,

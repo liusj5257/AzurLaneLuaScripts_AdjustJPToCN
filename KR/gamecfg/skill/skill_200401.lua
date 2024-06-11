@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023俾斯麦Z活动 侵蚀等级2",
 	cd = 0,
-	painting = 0,
-	id = 200401,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200401,
 	effect_list = {
 		{
 			type = "BattleSkillEditCustomWarning",

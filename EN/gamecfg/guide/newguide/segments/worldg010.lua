@@ -9,8 +9,8 @@ return {
 			style = {
 				text = "Tap on an outside area to view the World Map. ",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 100
 			},
 			showSign = {
@@ -65,8 +65,8 @@ return {
 			style = {
 				text = "Tap on any place other than the map to close the World Map.",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 100
 			},
 			showSign = {

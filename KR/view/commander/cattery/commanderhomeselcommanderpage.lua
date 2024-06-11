@@ -1,16 +1,16 @@
 slot0 = class("CommanderHomeSelCommanderPage", import(".CommanderHomeBaseSelPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderHomeSelCommanderPage"
 end
 
-function slot0.OnCatteryUpdate(slot0, slot1)
+slot0.OnCatteryUpdate = function(slot0, slot1)
 	slot0.cattery = slot1
 
 	slot0:Update(slot0.home, slot1)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.selectedID = -1
@@ -22,7 +22,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnSelected(slot0, slot1)
+slot0.OnSelected = function(slot0, slot1)
 	if slot1.commanderVO then
 		slot3, slot4 = slot0:Check(slot1.commanderVO.id)
 
@@ -50,7 +50,7 @@ function slot0.OnSelected(slot0, slot1)
 	end
 end
 
-function slot0.Check(slot0, slot1)
+slot0.Check = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.home:GetCatteries()) do
 		if slot7:GetCommanderId() == slot1 and slot7.id ~= slot0.cattery.id then
 			return false, i18n("commander_is_in_cattery")
@@ -60,7 +60,7 @@ function slot0.Check(slot0, slot1)
 	return true
 end
 
-function slot0.CheckIncludeSelf(slot0, slot1)
+slot0.CheckIncludeSelf = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.home:GetCatteries()) do
 		if slot7:GetCommanderId() == slot1 then
 			return false
@@ -70,7 +70,7 @@ function slot0.CheckIncludeSelf(slot0, slot1)
 	return true
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	uv0.super.OnUpdateItem(slot0, slot1, slot2)
 
 	slot5 = slot0.cards[slot2]
@@ -88,7 +88,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0:Show()
 
 	slot0.home = slot1
@@ -101,7 +101,7 @@ function slot0.Update(slot0, slot1, slot2)
 	uv0.super.Update(slot0)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 
 	slot0.selectedID = -1

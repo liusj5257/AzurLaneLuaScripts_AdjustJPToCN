@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"각자의 설날\n\n<size=45>1. 새해 맞이 폭죽</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = " 어느 날, 모항",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-china",
+			say = " 어느 날, 모항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "좋아. 붙었다! 다들 피해!",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,10 +92,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 501031,
 			actorName = "창춘&유키카제&무츠키",
@@ -127,9 +127,9 @@ return {
 			hideOther = true,
 			side = 2,
 			bgName = "star_level_bg_102",
-			soundeffect = "event:/battle/firework",
-			dir = 1,
 			say = "펑——! 타다다다다닥——! 펑——!",
+			dir = 1,
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301162,
 			dir = 1,
+			actor = 301162,
 			nameColor = "#a9f548",
 			say = "폭죽에서 작은 불꽃놀이 효과가?!",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,8 +170,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301323,
 			dir = 1,
+			actor = 301323,
 			nameColor = "#a9f548",
 			say = "대단해!",
 			typewriter = {
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "푸슌의 특제 폭죽, 안샨 7호! 성공!",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301323,
 			dir = 1,
+			actor = 301323,
 			nameColor = "#a9f548",
 			say = "무츠키도 할래!",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301162,
 			dir = 1,
+			actor = 301162,
 			nameColor = "#a9f548",
 			say = "또 있냐는 것이다! 나도 하고 싶다!",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,10 +302,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 301323,
 			actorName = "무츠키&유키카제",
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "바로 헤비급 폭죽! ‘슈퍼 안샨 1호’!!!",
 			effects = {
 				{
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501031,
+			nameColor = "#a9f548",
 			say = "음… 솔직히 말하면 화약을 가득 채운 것뿐이지만… 뭐… 어떤 일이 일어날지 궁금하기도 하고… 헤헤…",
 			effects = {
 				{
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "푸——슌——!",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "아, 알았다구! 지금 가면 되잖아… 귀 잡아당기지 마. 아파아아——",
 			typewriter = {
 				speed = 0.05,
@@ -462,16 +462,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2500
@@ -479,10 +479,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 501031,
 			actorName = "창춘&유키카제&무츠키",
@@ -529,10 +529,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 301323,
 			actorName = "유키카제&무츠키",
@@ -555,8 +555,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -565,14 +565,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			hideOther = true,
 			say = "멀지 않은 곳…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -600,8 +600,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 403044,
 			dir = 1,
+			actor = 403044,
 			nameColor = "#a9f548",
 			say = "흥, 폭죽인가… 그래봤자 불꽃 튀는 작은 장난감 같은데.",
 			typewriter = {
@@ -617,8 +617,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 404011,
 			dir = 1,
+			actor = 404011,
 			nameColor = "#a9f548",
 			say = "하하. 역시 함포 발사가 더 재미있어 보이는걸! 하지만 마지막 것은 꽤 흥미가 생긴다. 단순무식한 설계에는 원초적인 아름다움이 따르는 법이지.",
 			typewriter = {
@@ -634,8 +634,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 404011,
 			dir = 1,
+			actor = 404011,
 			nameColor = "#a9f548",
 			say = "볼 수 없어서 아쉽군. 쯧쯧… 하지만 도이칠란트여, 궁금하면 가보지 그래?",
 			typewriter = {
@@ -651,9 +651,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 403044,
 			dir = 1,
 			blackBg = true,
+			actor = 403044,
 			nameColor = "#a9f548",
 			say = "무슨 헛소리지?",
 			typewriter = {

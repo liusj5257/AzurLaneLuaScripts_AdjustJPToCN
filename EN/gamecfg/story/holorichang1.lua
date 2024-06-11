@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 1: Same Face</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Dormitory",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-shion",
+			say = "Port - Dormitory",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 900212,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900212,
+			nameColor = "#a9f548",
 			say = "Hear me out, Fubuki. Kawakaze is way too cute, right? But the real-life version is a hundred times cuter!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Matsuri, are you trying to hit on me again...",
 			typewriter = {
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "I'm not just saying that because she looks like you, really! I mean it in a completely pure way. Kawakaze is totally cute, like in general.",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "Oh my, she sounds kind of hot...",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "W-wait, don't be deceived, Aqua! If it's a matter of sounding manly, Kuro can pull off the same thing!",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -157,8 +157,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Why are you using someone else to compete for you?!",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Ehehe, what belongs to Kuro, also belongs to me~",
 			typewriter = {
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 900211,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900211,
+			nameColor = "#a9f548",
 			say = "Eh? Really?!",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Indeed. Just wait a moment and I'll show you.",
 			typewriter = {
@@ -257,17 +257,17 @@ return {
 			}
 		},
 		{
-			actor = 301140,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Ayame, you said that there's gonna be something delicious, right?",
 			bgm = "holo-ayame",
+			actor = 301140,
+			nameColor = "#a9f548",
+			say = "Ayame, you said that there's gonna be something delicious, right?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -308,11 +308,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "Waooo! How generous of you!!",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -385,8 +385,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Ay am not a dog!",
 			typewriter = {
@@ -399,8 +399,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -412,8 +412,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "Ahaha, sorry, sorry. You're both very cute girls~",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "Hmm... Dog or not, this girl does resemble Ayame in many ways.",
 			typewriter = {
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -494,8 +494,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "... It definitely was not because she reminded me of a puppy, understood?!",
 			typewriter = {
@@ -508,8 +508,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -537,8 +537,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Izumo is an Oni just like Ayame! Ooh...! I totally wanted to see you two co-starring in some kind of show or collaboration... But, but, just seeing the two of you stand next to each other is good enough~!",
 			typewriter = {
@@ -570,8 +570,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Bleh...! Even Ay do not wish to be put through that hellish training!",
 			typewriter = {
@@ -584,8 +584,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -594,11 +594,11 @@ return {
 			}
 		},
 		{
-			actor = 900213,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900213,
+			nameColor = "#a9f548",
 			say = "But first, Ay must beat a hasty retreat! See you lateroni~☆",
 			typewriter = {
 				speed = 0.05,
@@ -610,8 +610,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2500
@@ -619,11 +619,11 @@ return {
 			}
 		},
 		{
-			actor = 399020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 399020,
+			nameColor = "#a9f548",
 			say = "Hey, wait! Get back here!",
 			typewriter = {
 				speed = 0.05,
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2500
@@ -695,8 +695,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "They might not look like me... but they have the same awesome Matsuri energy!",
 			typewriter = {
@@ -728,8 +728,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "It's true! Hold on, I'll go get them~",
 			typewriter = {
@@ -745,9 +745,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "The same energy...? Crap, did she meet that girl...?!",
 			typewriter = {

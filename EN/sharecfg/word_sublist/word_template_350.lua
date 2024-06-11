@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_350 = {}
 slot1 = slot0.word_template_350
 
-function temp()
+temp = function()
 	uv0["冢"] = {
 		["本"] = {
 			["友"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["仲"] = {
 		["根"] = {
 			["香"] = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["众"] = {
 		["央"] = {
 			["企"] = {
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["重"] = {
 		["大"] = {
 			["事"] = {
@@ -253,7 +253,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["周"] = {
 		["本"] = {
 			["顺"] = {
@@ -386,7 +386,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["週"] = {
 		["六"] = {
 			["性"] = {
@@ -415,7 +415,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["粥"] = {
 		["健"] = {
 			["康"] = {

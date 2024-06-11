@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD500C",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD500C",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			say = "白鷹前哨站 翌日",
 			dir = 1,
 			bgm = "blueocean-image",
+			stopbgm = true,
+			say = "白鷹前哨站 翌日",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "不妙啊……塞壬的襲擊報告正在變得越來越頻繁。",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "對於中心區域的總攻遲遲沒有執行，塞壬就算再遲鈍也應該反應過來了。",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "不論發生什麼事，今天在會議上絕對要讓進攻計劃實質性的定下來！",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "就這麼下定決心準備前往會議室的時候————",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "咚咚咚（敲門聲）",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "嗯……？",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "是企業啊。今天的會議你也要參加嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "好的，等我收拾一下資料……哈？偵察核心區？！",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "決定這個總攻的時間不就是開會的目的嗎……我們走了之後今天的會議要怎麼辦？",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "包在她身上是指……",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "指揮官，就算今天的會議正常進行，你能保證今天之內得出結果嗎？",
 			typewriter = {
@@ -253,9 +253,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "會盡力爭取，不過……",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "時不我待，與其在這裡躊躇不前，不如果斷出擊打破僵局。",
 			typewriter = {
@@ -300,9 +300,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "……說的也是，那就這麼辦吧。休息了這麼多天，也該活動一下了。",
 			typewriter = {
 				speed = 0.05,

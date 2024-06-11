@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ベストピクチャーズ！\n\n<size=45>その七　大切な宝物</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うわっ、これ私の写真！？指揮官ってまさか――",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "うわっ、これ私の写真！？指揮官ってまさか――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "怪しいね～じゃあ誰から貰ったのかな～？",
 			typewriter = {
 				speed = 0.05,
@@ -61,12 +61,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "……聞くまでもないよね。流石にこれだけの写真を撮れる子はうちの母港に一人しかいないし。",
 			typewriter = {
 				speed = 0.05,
@@ -78,12 +78,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "えええ！そんな――！指揮官が撮ったの――！",
 			typewriter = {
 				speed = 0.05,
@@ -95,12 +95,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "……それはないわー。流石に指揮官はこんな写真を撮れないよね。",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そう言いながら、サラトガちゃんが手を伸ばして最後の一枚を自分から奪い取った。",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それは、サラトガちゃんと指揮官が一緒に楽しく歩いている写真だった。",
 			typewriter = {
 				speed = 0.05,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……そういえば、今までの写真は全部サラトガちゃんとほかの子の写真だった気がする。",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "サラトガちゃんの声がどんどん小さくなっていく。",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "写真と同じく、サラトガちゃんがいたずらっぽく、そしてこれでもかというほど楽しそうに微笑んでいた。",
 			typewriter = {
 				speed = 0.05,

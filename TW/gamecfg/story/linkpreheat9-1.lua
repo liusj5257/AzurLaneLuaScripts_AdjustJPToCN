@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0,
 	mode = 2,
-	id = "LINKPREHEAT9-1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINKPREHEAT9-1",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "……这里就是鄂霍次克海的最深处吗",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "这里不是……我们一开始到的地方吗？",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "妳这么一说……风景是有那么一点眼熟呢……",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "倒不如说……这种诡异的气氛，我也在哪儿体验过？",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "梦幻演武……",
 			typewriter = {
 				speed = 0.05,
@@ -273,10 +273,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "那个结界里独特的氛围弥漫在这片海域里",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "那个结界里独特的氛围弥漫在这片海域里",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -294,8 +294,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "叮咚！差不多回答正确了哦？",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "差不多正确是什么意思？",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "那就给妳对对答案了哦？这里的确是镜面海域，而且的确借鉴了妳们世界的“梦幻演武”的结界技术哦",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "不过…从妳们的世界稍微来了点麻烦呢",
 			typewriter = {
 				speed = 0.05,
@@ -373,8 +373,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "从我们的世界？到底是……？",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "难道是——主人吗？",
 			typewriter = {
 				speed = 0.05,
@@ -404,10 +404,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "如果是主人的话，我保证他一定会为了救我们拼了命来阻止妳们的",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "如果是主人的话，我保证他一定会为了救我们拼了命来阻止妳们的",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -440,8 +440,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "是谁我才不知道也不想知道！跟实验又没什么关系～我们想要的只有数据！样本！实验记录！",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化者",
 			dir = 1,
+			actorName = "净化者",
 			say = "来吧，尽管挣扎抵抗吧！这片舞台正是为此而准备的！",
 			typewriter = {
 				speed = 0.05,

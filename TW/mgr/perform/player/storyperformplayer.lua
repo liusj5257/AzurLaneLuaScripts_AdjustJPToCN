@@ -1,12 +1,12 @@
 slot0 = class("StoryPerformPlayer", import(".BasePerformPlayer"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.noDrawGraphicCom = slot0._tf.parent:GetComponent("NoDrawingGraphic")
 end
 
-function slot0.Play(slot0, slot1, slot2)
+slot0.Play = function(slot0, slot1, slot2)
 	slot0:Show()
 
 	slot0.noDrawGraphicCom.enabled = false
@@ -21,7 +21,7 @@ function slot0.Play(slot0, slot1, slot2)
 	end, true)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0:Hide()
 end
 

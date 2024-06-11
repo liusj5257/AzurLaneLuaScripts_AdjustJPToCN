@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIDUJIAOSHOU",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIDUJIAOSHOU",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"荣耀殿堂\n\n<size=45>憧憬的约会日</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
-			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "哥哥……明天是休息日，那个……",
+			bgName = "star_level_bg_1100",
 			bgm = "story-1",
+			actor = 206030,
+			nameColor = "#a9f548",
+			say = "哥哥……明天是休息日，那个……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "独角兽，想和哥哥……约会……可以吗？",
 			effects = {
 				{
@@ -80,14 +80,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "港区·学院外",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "离约定的时间还有一个小时，看来不知不觉起的太早了……没办法，在这里稍微等一下————",
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "这个声音是……难道说独角兽也是提前了一个小时来的……?",
@@ -167,8 +167,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "优酱？为什么突然往那边……啊！",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "视线对上了。",
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 206033,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206033,
+			nameColor = "#a9f548",
 			say = "哥哥？！你……怎么会来的这么早！",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "嘿嘿嘿，独角兽也是……想着提前一点就不会那么紧张，结果……",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "和哥哥想到一起去了呢……好开心…",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "对、对了！独角兽，有一个请求…想和哥哥，牵着手……可以吗？",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "既然是约会，这样合理的提案自然不能拒绝——",
@@ -313,8 +313,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "诶嘿嘿~",
 			typewriter = {
@@ -327,14 +327,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "和独角兽手牵着手在公园里漫无目的地闲逛，虽有些散漫，但绝对不无聊地享受着平静的约会时间。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "不知不觉，时钟的指针已经来到了表盘的最高点。",
@@ -374,8 +374,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "肚子也…恰好在这个时候仿佛报时一般叫了一声……",
@@ -408,8 +408,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "那个……独角兽……做了便当哦！如果哥哥不介意的话……",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "诶嘿嘿~哥哥来这边，那棵大树下的草坪很适合野餐哦！",
 			typewriter = {
@@ -449,8 +449,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "嘿咻♪优酱，谢谢你了……",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "在那只神奇的白色布偶的帮助下，餐布、餐具以及盛满食物的餐盒以飞快的速度被布置在了草坪上。",
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "不知道会是什么样的味道呢…第一次品尝独角兽的便当，好期待——",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "粉色餐盒的盖子被揭开后，四溢的香气立刻迎面扑来。",
@@ -537,8 +537,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "其中不但有皇家料理，甚至连其他阵营的菜也有……",
@@ -552,8 +552,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "而且味道也————",
@@ -567,8 +567,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "十分美味！美味到一下子不知道如何形容的程度！",
@@ -587,11 +587,11 @@ return {
 			}
 		},
 		{
-			actor = 206033,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206033,
+			nameColor = "#a9f548",
 			say = "哥哥…觉得怎么样……？",
 			typewriter = {
 				speed = 0.05,
@@ -616,8 +616,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "？！嘿嘿……独角兽……这段时间向光辉姐姐，还有别的阵营的姐姐们请教了很多…",
 			typewriter = {
@@ -633,8 +633,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "…哥哥能喜欢真是太好了！",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "得到了肯定回复后，独角兽看起来放松了不少，也开始慢慢享用起午餐来。",
@@ -662,14 +662,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "不知不觉，居然将一篮子食物全部吃光了，好像……稍微吃得有点撑。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -697,8 +697,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "哥哥好厉害……独角兽也，好像稍微吃多了。",
 			typewriter = {
@@ -730,8 +730,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "果然是因为哥哥的原因……因为和哥哥在一起吃所以食物也变得美味了吧，嘿嘿……啊——",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "独角兽突然紧紧盯了过来。",
@@ -775,8 +775,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "她从口袋里拿出了手帕，然后用它轻轻地擦了擦我的嘴角。",
@@ -790,8 +790,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "看来是吃得太投入，脸上粘了东西都没有注意到……",
@@ -808,8 +808,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "这样，就干净了呢…诶嘿嘿~",
 			typewriter = {
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "美味地饱餐一顿之后，似乎确实有几分倦意爬了上来……",
@@ -856,8 +856,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "如果想睡个午觉的话……那个……请用独角兽的膝枕吧！",
 			typewriter = {
@@ -870,8 +870,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "嗯————既然是约会，这样合理的提案自然不能拒绝——",
@@ -885,8 +885,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "轻轻地躺到了独角兽的腿上——",
@@ -903,8 +903,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "从这个角度看着哥哥的脸……有点像小孩子一样呢，嘿嘿……",
 			typewriter = {
@@ -917,8 +917,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "感受着萦绕在身边的幸福感，任由倦意侵袭，缓缓地合上了眼睛……",
@@ -932,8 +932,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "等醒来之后，下午的约会要再去……做些……什么……好呢………………",
@@ -950,9 +950,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206033,
 			dir = 1,
 			blackBg = true,
+			actor = 206033,
 			nameColor = "#a9f548",
 			say = "哥哥……午安好梦哦~",
 			typewriter = {
@@ -966,8 +966,8 @@ return {
 		},
 		action = {
 			{
-				type = "shake",
 				y = 45,
+				type = "shake",
 				delay = 0,
 				dur = 0.15,
 				x = 0,

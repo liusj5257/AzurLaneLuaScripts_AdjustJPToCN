@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.activity_workbench_recipe = {
 	{
-		id = 1,
 		name = "Quality Wood",
+		id = 1,
 		lock_display = "Unlocks at Crafting Station Lv. 2.",
 		item_num = 750,
 		recipe_lock = {
@@ -24,8 +24,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[3] = {
-		id = 3,
 		name = "Shiny Red Gemstone",
+		id = 3,
 		lock_display = "Unlocks at Crafting Station Lv. 2.",
 		item_num = 40,
 		recipe_lock = {
@@ -47,8 +47,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[4] = {
-		id = 4,
 		name = "Shiny Yellow Gemstone",
+		id = 4,
 		lock_display = "Unlocks at Crafting Station Lv. 2.",
 		item_num = 40,
 		recipe_lock = {
@@ -70,8 +70,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[5] = {
-		id = 5,
 		name = "Hot Springs Interior Decor",
+		id = 5,
 		lock_display = "Unlocks at Crafting Station Lv. 3.",
 		item_num = 20,
 		recipe_lock = {
@@ -93,8 +93,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[6] = {
-		id = 6,
 		name = "Hot Springs Hydrant",
+		id = 6,
 		lock_display = "Unlocks at Crafting Station Lv. 3.",
 		item_num = 2,
 		recipe_lock = {
@@ -121,8 +121,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[7] = {
-		id = 7,
 		name = "Hot Springs Snacks",
+		id = 7,
 		lock_display = "Unlocks at Crafting Station Lv. 3.",
 		item_num = 1,
 		recipe_lock = {
@@ -144,8 +144,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[8] = {
-		id = 8,
 		name = "Hot Springs Exterior Decor",
+		id = 8,
 		lock_display = "Unlocks at Crafting Station Lv. 3.",
 		item_num = 4,
 		recipe_lock = {
@@ -167,8 +167,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[9] = {
-		id = 9,
 		name = "Hot Springs Bathing Set",
+		id = 9,
 		lock_display = "Unlocks at Crafting Station Lv. 3.",
 		item_num = 1,
 		recipe_lock = {
@@ -190,8 +190,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[100] = {
-		id = 100,
 		name = "Manor Flooring",
+		id = 100,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -218,8 +218,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[101] = {
-		id = 101,
 		name = "Manor Wallpaper",
+		id = 101,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -251,8 +251,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[102] = {
-		id = 102,
 		name = "Manor Bench",
+		id = 102,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -284,8 +284,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[103] = {
-		id = 103,
 		name = "Manor Flower Bed",
+		id = 103,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -317,8 +317,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[104] = {
-		id = 104,
 		name = "Manor Hut",
+		id = 104,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -350,8 +350,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[105] = {
-		id = 105,
 		name = "Manor Canvas",
+		id = 105,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -383,8 +383,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[106] = {
-		id = 106,
 		name = "Manor Flower Carriage",
+		id = 106,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -416,8 +416,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[107] = {
-		id = 107,
 		name = "Manor Flower Lamp",
+		id = 107,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -449,8 +449,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[108] = {
-		id = 108,
 		name = "Manor Greenhouse",
+		id = 108,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -482,8 +482,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[109] = {
-		id = 109,
 		name = "Manor Flower Garden",
+		id = 109,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -515,8 +515,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[110] = {
-		id = 110,
 		name = "Manor Wood Bridge",
+		id = 110,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -543,8 +543,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[111] = {
-		id = 111,
 		name = "Manor Swing",
+		id = 111,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -576,8 +576,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[112] = {
-		id = 112,
 		name = "Manor Well",
+		id = 112,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -609,8 +609,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[113] = {
-		id = 113,
 		name = "Manor Harp",
+		id = 113,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -642,8 +642,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[114] = {
-		id = 114,
 		name = "Manor Dressing Table",
+		id = 114,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -675,8 +675,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[115] = {
-		id = 115,
 		name = "Manor Table",
+		id = 115,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -708,8 +708,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[116] = {
-		id = 116,
 		name = "Manor Pavilion",
+		id = 116,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -741,8 +741,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[117] = {
-		id = 117,
 		name = "Manor Candle Lamp",
+		id = 117,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -774,8 +774,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[118] = {
-		id = 118,
 		name = "Manor Mailbox",
+		id = 118,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -807,8 +807,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[119] = {
-		id = 119,
 		name = "Manor Bathtub",
+		id = 119,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -840,8 +840,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[120] = {
-		id = 120,
 		name = "Manor Grandfather Clock",
+		id = 120,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 1,
 		recipe_lock = {
@@ -873,8 +873,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[121] = {
-		id = 121,
 		name = "Manor Blossom Bed",
+		id = 121,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 3,
 		recipe_lock = {
@@ -906,8 +906,8 @@ pg.activity_workbench_recipe = {
 		}
 	},
 	[122] = {
-		id = 122,
 		name = "Blooming Moment",
+		id = 122,
 		lock_display = "Unlocks at Crafting Station Lv. 4.",
 		item_num = 4,
 		recipe_lock = {

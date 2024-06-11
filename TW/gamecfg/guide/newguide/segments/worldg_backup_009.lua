@@ -23,13 +23,13 @@ return {
 			style = {
 				text = "這邊可以查看戰鬥日誌喲~",
 				mode = 2,
-				posY = 115.27,
 				dir = 1,
+				posY = 115.27,
 				posX = 642.56
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/right_stage/memo/icon",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/right_stage/memo/icon",
 				triggerType = {
 					1
 				},

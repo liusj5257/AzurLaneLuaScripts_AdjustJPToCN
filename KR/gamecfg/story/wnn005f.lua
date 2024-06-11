@@ -4,9 +4,9 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "是否离开深渊海域？（离开后将无法返回）",
 			typewriter = {
 				speed = 0.05,

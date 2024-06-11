@@ -1,12 +1,12 @@
 return {
-	id = "W3001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W3001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海面上出現了異動！一部分海域的入口被打開了，先嘗試調查一下看看吧",
 			typewriter = {
 				speed = 0.05,

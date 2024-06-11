@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQILUOEN",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQILUOEN",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"SPストーリー\n\n<size=45>趣味の付き合い</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 499010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "♪～♪～♪～",
 			bgm = "story-1",
+			actor = 499010,
+			nameColor = "#a9f548",
+			say = "♪～♪～♪～",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "上機嫌（？）に鼻歌を口ずさみながら、ローンは昼食を載せたトレーをこちらの目に前に置いた。",
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "いつローンの手料理を褒めたのかは忘れたが…確かにローンの手料理は最近どんどん上達している気がする。",
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ほどよいボリュームに、食欲をそそる匂いと色、そして盛り付け……",
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "（じゅるり）",
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "（もぐもぐ）",
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "（もぐ、もぐ）",
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ローンの作った料理を食べ終え、ちょっとぼうっとした感覚がもとに戻る。",
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そういえば今日はローンに手料理を振る舞ってもらう日だった。",
@@ -492,11 +492,11 @@ return {
 			}
 		},
 		{
-			actor = 499010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 499010,
+			nameColor = "#a9f548",
 			say = "なので、こうして指揮官を癒やしてあげることにしています",
 			typewriter = {
 				speed = 0.05,
@@ -517,8 +517,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -533,8 +533,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 3,
 					dur = 0.1,
 					number = 3
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "（むにゅっ）",
@@ -557,8 +557,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "こちらが箸を止めている隙に、ローンはこちらに近づき、ハグをしてくれた。",
@@ -620,8 +620,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "温かい抱擁の中で、彼女――ローンの匂いが鼻から脳に、体中に染み渡る。",
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "戦場で鬼神のように敵を蹂躙し、徹底的に打ち砕く彼女の鉄と血の匂いではなく、ふんわりとした「温かい」香り。",
@@ -698,8 +698,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "耳元で囁かれると、抱きつかれた腕から開放された。",
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "いつものゆるふわとした顔に戻り、ローンは立ち上がり部屋の扉を開けてくれた。",
@@ -792,12 +792,12 @@ return {
 			}
 		},
 		{
-			actor = 499010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 499010,
+			nameColor = "#a9f548",
 			say = "　　自由　　になっていいですよ～",
 			typewriter = {
 				speed = 0.05,

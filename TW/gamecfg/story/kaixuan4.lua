@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"騎士公主的憂鬱\n\n<size=45>四 失落的凱旋小姐</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "和凱旋一起在港區巡邏",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "和凱旋一起在港區巡邏",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "似乎幹勁滿滿的樣子",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "偶然遇到了黑暗界和恐怖",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			actor = 213010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			dir = -1,
 			say = "凱旋小姐，謝謝妳…和妳一起出擊之後，恐怖變得比以前自信了不少…",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -187,14 +187,14 @@ return {
 			}
 		},
 		{
-			actor = 213010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 213010,
 			say = "那…我們就先走了。這麼大的太陽對恐怖的身體不大好…恐怖，想吃點心嗎…？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "黑暗界帶著恐怖離開了",
 			typewriter = {
 				speed = 0.05,
@@ -263,14 +263,14 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 107020,
 			say = "哎呀，是凱旋小姐啊，和指揮官在巡邏嗎？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -313,8 +313,8 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			dir = 1,
 			say = "哎？哎哎？怎麼被發現了！？還想要偷偷出現嚇指揮官一跳呢～",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -404,14 +404,14 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 801010,
 			say = "穩重啊…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -436,9 +436,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -450,9 +450,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "凱旋似乎有點失落",
 			typewriter = {
 				speed = 0.05,

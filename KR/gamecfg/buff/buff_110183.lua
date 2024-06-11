@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "毒",
 	time = 20.1,
+	name = "毒",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -15,11 +15,11 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "cannonPower",
-				number = 105,
 				time = 1,
 				dotType = 1,
-				k = 0
+				number = 105
 			}
 		}
 	}

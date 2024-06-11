@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN18-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN18-1",
 	scripts = {
 		{
-			stopbgm = true,
 			nameColor = "#A9F548FF",
+			stopbgm = true,
+			say = "？？？·米德加爾特之塔-週邊海域",
 			side = 2,
-			bgm = "theme-thehermitIX",
 			bgmDelay = 2,
-			say = "？？？·米德加尔特之塔-周边海域",
+			bgm = "theme-thehermitIX",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -30,9 +30,9 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "抱歉我来晚了，战况如何？",
+			actor = 405050,
+			say = "抱歉我來晚了，戰況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "压力很大，但还算能应付。",
+			say = "壓力很大，但還算能應付。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,9 +61,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405030,
 			dir = 1,
-			say = "作战表现来看，这个赫米忒也许只是量产机。",
+			actor = 405030,
+			say = "作戰表現來看，這個赫米忒也許只是量產機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,9 +77,9 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405030,
 			dir = 1,
-			say = "其显现出了多项棋子的特征，战斗力也没有很夸张。",
+			actor = 405030,
+			say = "其顯現出了多項棋子的特徵，戰鬥力也沒有很誇張。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,9 +93,9 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405030,
 			dir = 1,
-			say = "——至少让我们撑到你调查结束了。",
+			actor = 405030,
+			say = "———至少讓我們撐到妳調查結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,9 +109,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405030,
 			dir = 1,
-			say = "但是，我们的首要目标是安全返回，也许应该想办法脱离战斗。",
+			actor = 405030,
+			say = "但是，我們的首要目標是安全返回，也許應該想辦法脫離戰鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,9 +125,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "这一点恐怕做不到。来的时候我观察过了，米德加尔特之塔的控制面板已经被锁死了。",
+			actor = 405050,
+			say = "這一點恐怕做不到。來的時候我觀察過了，米德加爾特之塔的控制面板已經被鎖死了。。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "和这个赫米忒的量产机出现大概是在同一时间。",
+			say = "而這台赫米忒的量產機出現大概是在同一時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么就只能奋力迎战了！",
+			say = "那就只能奮力迎戰了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只是量产型机体，{namecode:91}前辈既然能消灭掉，我们也不会输的！",
+			say = "只是量產型機體，赤城前輩既然能消滅掉，我們也不會輸的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,9 +191,9 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "{namecode:91}也……？不，现在不是在意这个的时候。",
+			actor = 405050,
+			say = "赤城也……？不，現在不是在意這個的時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "保持间隔，稳步推进。",
+			say = "保持間隔，穩步推進。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,9 +222,9 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "全员准备接敌——",
+			actor = 405050,
+			say = "全員準備接敵——",
 			painting = {
 				alpha = 0.3,
 				time = 1

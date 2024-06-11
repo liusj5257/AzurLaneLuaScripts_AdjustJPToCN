@@ -1,13 +1,13 @@
 return {
-	id = "W860000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W860000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "赤い装置を操作すると、【赤い標識の障害物】を変化させることができるようだ。装置を操作するか？",
 			typewriter = {
 				speed = 0.05,

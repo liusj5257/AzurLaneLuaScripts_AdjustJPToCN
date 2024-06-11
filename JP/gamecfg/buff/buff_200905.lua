@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024偶像活动三期 聚光灯 深红",
 	time = 3,
-	color = "yellow",
+	name = "2024偶像活动三期 聚光灯 深红",
+	init_effect = "",
+	id = 200905,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200905,
+	color = "yellow",
 	icon = 200905,
 	last_effect = "",
 	effect_list = {

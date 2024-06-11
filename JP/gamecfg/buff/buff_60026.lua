@@ -1,7 +1,7 @@
 return {
-	init_effect = "ATK",
-	name = "测试-伊丽莎白-链接",
 	time = 0,
+	name = "测试-伊丽莎白-链接",
+	init_effect = "ATK",
 	picture = "",
 	desc = "女王号令-友军链接",
 	stack = 1,

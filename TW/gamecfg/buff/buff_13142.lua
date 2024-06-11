@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13142,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "受伤时触发技能",
 	stack = 1,
-	id = 13142,
+	color = "red",
 	icon = 13140,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 1,
-				target = "TargetSelf",
-				skill_id = 13141
+				skill_id = 13141,
+				target = "TargetSelf"
 			}
 		}
 	}

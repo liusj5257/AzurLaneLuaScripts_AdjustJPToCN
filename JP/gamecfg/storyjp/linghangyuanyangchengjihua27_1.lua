@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-31-10",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg21",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-12",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-31-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えっ、えっ……？！",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,14 +40,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "タオルが……滑り落ちてしまいそうです……",
 			voice = "event:/educate/tb/educate-tb-story-31-11",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "タオルが……滑り落ちてしまいそうです……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "隣の給湯口から流しこまれる湯のせいで、TBのタオルが緩んでしまったのかもしれないが…",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "もともと少しキツく巻かれたタオルが突然ほどけて滑り落ちてしまった。",
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "すかさずタオルを掴んで体を隠したものの、それでも——",
@@ -91,14 +91,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "み、見ないでください……！",
 			voice = "event:/educate/tb/educate-tb-story-31-12",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "み、見ないでください……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,14 +109,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "うぅ、恥ずかしいです……",
 			voice = "event:/educate/tb/educate-tb-story-31-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "うぅ、恥ずかしいです……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,14 +139,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "はい、はい……",
 			voice = "event:/educate/tb/educate-tb-story-31-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "はい、はい……",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -36,7 +36,7 @@ slot1 = {
 	}
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	for slot6, slot7 in pairs({
 		onBossUpdated = "OnBossUpdated",
 		onRankListUpdated = "OnRankListUpdated",
@@ -53,7 +53,7 @@ function slot0.Setup(slot0, slot1)
 	slot0:AddListeners(slot0.proxy)
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.supportBtn = slot0:findTF("btns/help_btn")
 	slot0.startBtn = slot0:findTF("btns/start_btn")
 	slot0.awardBtn = slot0:findTF("btns/award_btn")
@@ -87,7 +87,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("btns/time/label"), i18n("time_remaining_tip"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.startBtn, function ()
 		uv0:OnStart()
 	end, SFX_PANEL)
@@ -104,7 +104,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnStart(slot0)
+slot0.OnStart = function(slot0)
 	if slot0.boss:isDeath() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_is_death"))
 	elseif slot0.boss:GetLeftTime() <= 0 then
@@ -114,45 +114,45 @@ function slot0.OnStart(slot0)
 	end
 end
 
-function slot0.AddListeners(slot0, slot1)
+slot0.AddListeners = function(slot0, slot1)
 	slot1:AddListener(WorldBossProxy.EventPtUpdated, slot0.onPtUpdated)
 	slot1:AddListener(WorldBossProxy.EventBossUpdated, slot0.onBossUpdated)
 	slot1:AddListener(WorldBossProxy.EventRankListUpdated, slot0.onRankListUpdated)
 	slot1:AddListener(WorldBossProxy.EventUnlockProgressUpdated, slot0.onBossProgressUpdate)
 end
 
-function slot0.RemoveListeners(slot0, slot1)
+slot0.RemoveListeners = function(slot0, slot1)
 	slot1:RemoveListener(WorldBossProxy.EventPtUpdated, slot0.onPtUpdated)
 	slot1:RemoveListener(WorldBossProxy.EventBossUpdated, slot0.onBossUpdated)
 	slot1:RemoveListener(WorldBossProxy.EventRankListUpdated, slot0.onRankListUpdated)
 	slot1:RemoveListener(WorldBossProxy.EventUnlockProgressUpdated, slot0.onBossProgressUpdate)
 end
 
-function slot0.OnBossUpdated(slot0)
+slot0.OnBossUpdated = function(slot0)
 	if slot0:isShowing() then
 		slot0:UpdateBoss()
 	end
 end
 
-function slot0.OnRankListUpdated(slot0, slot1, slot2, slot3)
+slot0.OnRankListUpdated = function(slot0, slot1, slot2, slot3)
 	if slot0:isShowing() and slot0.boss and slot0.boss.id == slot3 and slot0.infoAndRankPanel and slot0.infoAndRankPanel:GetLoaded() then
 		slot0.infoAndRankPanel:FlushRank()
 	end
 end
 
-function slot0.OnBossProgressUpdate(slot0)
+slot0.OnBossProgressUpdate = function(slot0)
 	if slot0:isShowing() then
 		slot0:OnUpdateRes()
 	end
 end
 
-function slot0.OnPtUpdated(slot0)
+slot0.OnPtUpdated = function(slot0)
 	if slot0:isShowing() then
 		slot0:OnUpdatePt()
 	end
 end
 
-function slot0.UpdatePainting(slot0, slot1)
+slot0.UpdatePainting = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -182,7 +182,7 @@ function slot0.UpdatePainting(slot0, slot1)
 	end
 end
 
-function slot0.UpdateBoss(slot0)
+slot0.UpdateBoss = function(slot0)
 	slot0.boss = slot0.proxy:GetBoss()
 
 	if slot0.boss then
@@ -194,7 +194,7 @@ function slot0.UpdateBoss(slot0)
 	end
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:UpdateBoss()
 	slot0:Show()
 
@@ -206,7 +206,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.UpdateAward(slot0)
+slot0.UpdateAward = function(slot0)
 	slot0.awardList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -226,7 +226,7 @@ function slot0.UpdateAward(slot0)
 	slot0.awardList:align(math.min(#slot0.boss:GetAwards(), 3))
 end
 
-function slot0.UpdateMainInfo(slot0)
+slot0.UpdateMainInfo = function(slot0)
 	slot1 = slot0.boss
 	slot3 = slot1:GetHP()
 	slot4 = slot1:GetMaxHp()
@@ -242,14 +242,14 @@ function slot0.UpdateMainInfo(slot0)
 	slot0:UpdatePainting(slot1.config.meta_id)
 end
 
-function slot0.AddChanllengTimer(slot0)
+slot0.AddChanllengTimer = function(slot0)
 	if slot0.boss:isDeath() then
 		return
 	end
 
 	slot2 = pg.TimeMgr.GetInstance()
 
-	function slot4()
+	slot4 = function()
 		uv0.leftTime.text = i18n("world_word_expired")
 
 		onNextTick(function ()
@@ -274,7 +274,7 @@ function slot0.AddChanllengTimer(slot0)
 	end
 end
 
-function slot0.RemoveChallengeTimer(slot0)
+slot0.RemoveChallengeTimer = function(slot0)
 	if slot0.bossTimer then
 		slot0.bossTimer:Stop()
 
@@ -282,14 +282,14 @@ function slot0.RemoveChallengeTimer(slot0)
 	end
 end
 
-function slot0.AddGetAwaradTimer(slot0)
+slot0.AddGetAwaradTimer = function(slot0)
 	if not slot0.boss:isDeath() then
 		return
 	end
 
 	slot2 = pg.TimeMgr.GetInstance()
 
-	function slot4()
+	slot4 = function()
 		uv0.leftTime.text = i18n("world_word_expired")
 
 		onNextTick(function ()
@@ -314,11 +314,11 @@ function slot0.AddGetAwaradTimer(slot0)
 	end
 end
 
-function slot0.OnBossExpired(slot0)
+slot0.OnBossExpired = function(slot0)
 	slot0:emit(WorldBossMediator.ON_SELF_BOSS_OVERTIME)
 end
 
-function slot0.RemoveGetAwardTimer(slot0)
+slot0.RemoveGetAwardTimer = function(slot0)
 	if slot0.awardTimer then
 		slot0.awardTimer:Stop()
 
@@ -326,7 +326,7 @@ function slot0.RemoveGetAwardTimer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.groupId then
 		slot0:OnRetPaintingPrefab()
 		retMetaPaintingPrefab(slot0.painting, slot0.groupId)
@@ -347,23 +347,23 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.OnRetPaintingPrefab(slot0)
+slot0.OnRetPaintingPrefab = function(slot0)
 end
 
-function slot0.GetResSuffix(slot0)
+slot0.GetResSuffix = function(slot0)
 	return ""
 end
 
-function slot0.OnPaintingLoad(slot0)
+slot0.OnPaintingLoad = function(slot0)
 end
 
-function slot0.OnUpdateRes(slot0)
+slot0.OnUpdateRes = function(slot0)
 end
 
-function slot0.OnUpdatePt(slot0)
+slot0.OnUpdatePt = function(slot0)
 end
 
-function slot0.OnRescue(slot0)
+slot0.OnRescue = function(slot0)
 end
 
 return slot0

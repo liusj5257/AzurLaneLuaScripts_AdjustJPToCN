@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"銃弾と、愛を込めて\n\n<size=45>七 メイドの気持ち・下</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・自室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・自室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……どうやら頭がスッキリしないまま朝を迎えたようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "シェフィールドに休暇を与える",
 			typewriter = {
 				speed = 0.05,
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "なぜですか？",
 			typewriter = {
 				speed = 0.05,
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "気づいたら、自分はシェフィールドについ甘えてしまい、彼女の「本当の気持ち」をずっと聞きそびれていた。だから――",
 			typewriter = {
 				speed = 0.05,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "シェフィールドはこちらに近づき、額に手を当ててきた。",
 			typewriter = {
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "すごい失礼な心配をされたようだ。",
 			typewriter = {
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "シェフィールドはため息をついた。",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それはつまり…………！？",
 			typewriter = {
 				speed = 0.05,
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "シェフィールドがまっすぐこちらを見つめてくる。",
 			typewriter = {
 				speed = 0.05,

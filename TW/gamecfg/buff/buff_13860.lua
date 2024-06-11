@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13860
+					skill_id = 13860,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -253,8 +253,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 13862,
-					target = "TargetSelf",
-					time = 20
+					time = 20,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -262,12 +262,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13860,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13860,
+	color = "red",
 	icon = 13860,
 	last_effect = "",
 	effect_list = {
@@ -278,8 +278,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 13860
+				skill_id = 13860,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -289,8 +289,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 13862,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "可畏-初次定身",
 	cd = 0,
+	picture = "0",
+	desc = "可畏-初次定身",
 	painting = 1,
 	id = 12580,
-	picture = "0",
 	castCV = "skill",
-	desc = "可畏-初次定身",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,19 +17,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 12583
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 12581
 			}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE01",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE01",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequenceSpd = 2,
 			sequence = {
 				{
@@ -35,14 +35,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actorName = "{namecode:2}",
 			side = 2,
 			bgName = "star_level_bg_103",
+			actor = 301011,
 			dir = 1,
 			actorScale = 0.6,
 			bgm = "story-1",
-			actor = 301011,
-			actorName = "{namecode:2}",
+			nameColor = "#a9f548",
 			say = "嗚哇哇哇！！遲到了遲到了！！",
 			effects = {
 				{
@@ -60,8 +60,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -77,8 +77,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -94,8 +94,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 3,
 					dur = 0.1,
 					number = 3
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "嗚嗚嗚…為什麼那麼多妹妹，就沒有一個叫我起床的啦！！",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 4
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			actorName = "{namecode:94}",
-			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_103",
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "嗯～～果然不良少女就應該光明正大的翹課才對吧～？",
 			effects = {
@@ -143,8 +143,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "啊…果然還是不大好吧…姐姐又要生氣了",
 			typewriter = {
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "不、不過，既然有風紀委員，就應該有不良少女才對吧！嗯嗯！",
 			typewriter = {
@@ -203,16 +203,16 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			actorName = "{namecode:94}",
-			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_103",
+			actor = 307041,
 			nameColor = "#a9f548",
 			say = "嗯？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actorName = "{namecode:94}&{namecode:2}",
+			actor = 307041,
 			dir = 1,
+			actorName = "{namecode:94}&{namecode:2}",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "哎呀！",
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "誰啊！走路都不看路的嗎！",
 			typewriter = {
@@ -300,21 +300,21 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 301011,
+			say = "疼疼疼…對、對不起…",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "疼疼疼…對、對不起…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "原來是{namecode:2}啊…慌慌張張的做什麼呢…",
 			typewriter = {
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "快、快遲到了不是嗎——啊咧？{namecode:94}、{namecode:94}？妳這一身…",
 			typewriter = {
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "不、不良少女？！",
 			typewriter = {
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "哼哼哼，怎麼樣！是不是挺像的！這下姐姐也——",
 			typewriter = {
@@ -397,11 +397,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "{namecode:94}～～～！！！",
 			typewriter = {
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "嗚哇！姐姐這麼快就來了！",
 			typewriter = {
@@ -431,11 +431,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "賭上{namecode:63}託付給我的風紀委員之名，就算是妹妹，不、正因為是妹妹，才更要糾正妳！",
 			typewriter = {
@@ -448,10 +448,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "{namecode:94}&{namecode:2}",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
+			hideOther = true,
 			dir = 1,
 			actor = 307041,
 			nameColor = "#a9f548",
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "咦，怎麼{namecode:2}也在這裡…",
 			typewriter = {
@@ -491,11 +491,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "啊，都這時間了…總、總之先去學校吧！都快遲到了…",
 			typewriter = {
@@ -508,11 +508,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "{namecode:94}！回頭我再找妳！",
 			typewriter = {
@@ -525,12 +525,12 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "是……",
 			typewriter = {

@@ -14,9 +14,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "黑基洛夫BOSS战 彗星机械重组",
 	time = 0,
+	name = "黑基洛夫BOSS战 彗星机械重组",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -41,8 +41,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = 0.3
+				number = 0.3,
+				attr = "injureRatioByCannon"
 			}
 		},
 		{
@@ -52,8 +52,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200706,
-				minTargetNumber = 1,
 				target = "TargetShipTag",
+				minTargetNumber = 1,
 				ship_tag_list = {
 					"BOSS"
 				}

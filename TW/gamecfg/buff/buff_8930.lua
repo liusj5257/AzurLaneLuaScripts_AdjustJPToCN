@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "毛系V3 EX雷击反制 开火",
 	time = 2,
+	name = "毛系V3 EX雷击反制 开火",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 8928,
-	picture = "",
-	last_effect = "",
 	icon = 8928,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -25,8 +25,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.25
+				number = -0.25,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

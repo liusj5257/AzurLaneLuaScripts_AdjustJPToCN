@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_240 = {}
 slot1 = slot0.word_template_240
 
-function temp()
+temp = function()
 	uv0["清"] = {
 		["偿"] = {
 			["债"] = {
@@ -216,7 +216,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["輕"] = {
 		["舟"] = {
 			["快"] = {
@@ -230,7 +230,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["檠"] = {
 		this = {
 			this = true
@@ -240,7 +240,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苘"] = {
 		this = {
 			this = true
@@ -250,7 +250,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["謦"] = {
 		this = {
 			this = true
@@ -260,7 +260,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["檾"] = {
 		this = {
 			this = true
@@ -270,7 +270,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["庆"] = {
 		["丰"] = {
 			["包"] = {

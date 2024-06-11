@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大青花魚的“陷阱”\n\n<size=45>四　和“惡魔”的契約</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "就這幾天有意無意的觀察下來，大青花魚不僅沒有給港區帶來麻煩，反而是和大家相處得很好。",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "沒出什麼人際關係的問題，反而讓人鬆了口氣。",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官！",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "大青花魚用著小孩子一般的口吻向我發問。",
 			typewriter = {
 				speed = 0.05,
@@ -119,9 +119,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "總覺得有種不好的預感。這傢伙有什麼陰謀……！",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官，莫非——這幾天，一直在偷偷跟蹤著大青花魚？",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "啊，果然！被我猜到了呢！嘿嘿~",
 			typewriter = {
@@ -177,9 +177,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官，說謊可是不行的呢~",
 			typewriter = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "無論如何，偷偷觀察大青花魚這件事情還是被她發現了。",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "要是港區的大家知道了這件事情的話——",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "“哼！指揮官果然是個變態！”“怎，怎麼可能，指揮官怎麼會做出這樣的事情！難道指揮官真的是個蘿莉控……”“這樣的指揮官，果然還是切成幾塊放在身邊好了……”",
 			typewriter = {
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "大青花魚一連模仿了好幾個人的說話方式。",
 			typewriter = {
 				speed = 0.05,
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "總而言之，指揮官要怎麼做才好呢？",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "原來如此……你的擔心也不是沒有道理呢。",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "第一！我現在有點累了~要是能在指揮官的腿上睡一個下午的話，我就能恢復精神了呢！",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "第二……第二先留著！等我想到了再說吧！",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.4,
 					x = 22.5,
@@ -354,8 +354,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "下午要工作嗎？唔……這個要指揮官自己想辦法了呢~",
 			typewriter = {

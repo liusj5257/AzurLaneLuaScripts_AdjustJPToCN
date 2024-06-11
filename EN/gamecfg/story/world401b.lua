@@ -1,17 +1,17 @@
 return {
-	id = "WORLD401B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD401B",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307020,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-italy",
 			dir = 1,
 			say = "Sister, are you just going to leave Taranto like that?",
+			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

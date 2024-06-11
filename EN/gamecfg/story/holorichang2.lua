@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 2: Same Energy</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_room",
 			bgm = "holo-shion",
 			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Fubuki, you don't look so good. Are you getting sick~?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Ah, no, I'm fine... It's just that... I think I know who Matsuri is talking about...",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "Is she scary?!",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,8 +100,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Scary...? Ah, well, maybe in a sense...?",
 			typewriter = {
@@ -116,16 +116,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_room",
 			bgm = "holo-matsuri",
 			actor = 900212,
 			nameColor = "#a9f548",
 			say = "Sorry to keep you waiting~! I've brought her with me!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -179,8 +179,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Huh? Ooshio...?",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "Yeah, it's Ooshio. Fubuki, who'd you think it was?",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Um, Ark something... Nevermind!",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Ooshio... looks like a normal, pure girl. How's she anything like this sexual harassment fiend?",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "(Hey, Fubuki... This aura, could it be...)",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "(Yeah, Mio, it definitely is...)",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "Just like me, Ooshio is overflowing with love for all the cute girls in the world!",
 			typewriter = {
@@ -340,8 +340,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Eww... Another dangerous one...",
 			typewriter = {
@@ -374,8 +374,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "Huh? It's normal to like cute girls... right? Why do you all look like you found a half-eaten worm in your apple?",
 			typewriter = {
@@ -391,8 +391,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "It might be normal for most people, but in Matsuri's case... how do I put this, it goes a bit overboard...",
 			typewriter = {
@@ -408,8 +408,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "Huh? Ehhhh?",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -434,14 +434,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 900212,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Basically, I totally met Ooshio by chance, and we instantly became best friends!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -485,8 +485,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Unbelievable... This pure-looking girl shares the same hobby as Matsuri...",
 			typewriter = {
@@ -518,8 +518,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Oh no, not her \"breathing\" again!",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -545,9 +545,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "For Matsuri, to breathe is to have an affair... I feel like Ooshio and Matsuri are two people who never should have met...",
 			typewriter = {

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN19",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "封印の術式を解き、一行は建物の巨大な扉を砲撃で破壊した。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "封印の術式を解き、一行は建物の巨大な扉を砲撃で破壊した。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "中から現れたのは――",
@@ -51,8 +51,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "鉄血の「プリンツ・オイゲン」さん？",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "オイゲンさんの後ろにいるのは…？",
 			typewriter = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 499040,
 			nameColor = "#ffff4d",
-			bgName = "bg_daofeng_4",
 			side = 2,
+			bgName = "bg_daofeng_4",
 			dir = 1,
+			actor = 499040,
 			actorName = "？？？",
 			say = "………………",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（質問に答える気はないわね。やはり警戒して――）",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -359,8 +359,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（全く遭難者には見えなかったわね…）",
 			typewriter = {
@@ -411,8 +411,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -440,8 +440,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "オイゲンさん、いきなりで恐れ入りますけど、一つ質問させてください",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "中心部にその制御装置とやらがない場合はどうします？",
 			typewriter = {
@@ -605,8 +605,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "その時は…何かしらの方法を探してこの竜宮城を再び浮上させるしかありませんわね",
 			typewriter = {
@@ -654,8 +654,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -686,9 +686,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "結局進むしか無いってことね……",
 			typewriter = {

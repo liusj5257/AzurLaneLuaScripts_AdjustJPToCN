@@ -1,6 +1,6 @@
 slot0 = class("NavalAcademyBuilding")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.parent = slot1
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tip = findTF(slot0._tf, "tip")
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:OnClick()
 	end, SFX_PANEL)
@@ -20,33 +20,33 @@ function slot0.Init(slot0)
 	slot0:OnInit()
 end
 
-function slot0.RefreshTip(slot0)
+slot0.RefreshTip = function(slot0)
 	setActive(slot0.tip, slot0:IsTip())
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 end
 
-function slot0.IsTip(slot0)
+slot0.IsTip = function(slot0)
 	return false
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return ""
 end
 
-function slot0.GetGameObjectName(slot0)
+slot0.GetGameObjectName = function(slot0)
 	assert(false)
 end
 
-function slot0.emit(slot0, ...)
+slot0.emit = function(slot0, ...)
 	slot0.parent:emit(...)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

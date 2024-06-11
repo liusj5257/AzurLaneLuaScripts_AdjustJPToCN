@@ -1,7 +1,7 @@
 EventConst = require("view/event/EventConst")
 slot0 = class("EventMediator", import("..base.ContextMediator"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(EventConst.EVEN_USE_PREV_FORMATION, function (slot0, slot1, slot2)
 		slot3 = getProxy(EventProxy)
 		slot4 = getProxy(BayProxy)
@@ -58,9 +58,9 @@ function slot0.register(slot0)
 		slot6, slot7, slot8 = uv0:getDockCallbackFuncs()
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 6,
-			useBlackBlock = true,
 			selectedMin = 1,
+			useBlackBlock = true,
+			selectedMax = 6,
 			ignoredIds = slot4,
 			selectedIds = slot5.selectedEvent and slot5.selectedEvent.shipIds or {},
 			onShip = slot6,
@@ -124,14 +124,14 @@ function slot0.register(slot0)
 	slot0:updateEventList(false)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.EVENT_LIST_UPDATE,
 		GAME.EVENT_SHOW_AWARDS
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.EVENT_LIST_UPDATE then
@@ -155,7 +155,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.updateEventList(slot0, slot1, slot2)
+slot0.updateEventList = function(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	slot4 = getProxy(EventProxy)
 	slot4.virgin = false
@@ -204,7 +204,7 @@ function slot0.updateEventList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getDockCallbackFuncs(slot0)
+slot0.getDockCallbackFuncs = function(slot0)
 	return function (slot0, slot1, slot2)
 		slot3, slot4 = ShipStatus.ShipStatusCheck("inEvent", slot0, slot1)
 

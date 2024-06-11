@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "SNSHIP",
 	time = 0,
+	name = "SNSHIP",
+	init_effect = "",
 	picture = "",
 	desc = "标记",
 	stack = 1,

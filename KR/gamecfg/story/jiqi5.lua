@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIQI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIQI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"어린 애가 아니야!\n\n<size=45>5. 이야기!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "항구-지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "항구-지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,8 +65,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "어때, 지휘관? 나 역시 잘 하지?",
 			typewriter = {
@@ -79,9 +79,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "카발라와 함께 오늘의 일을 마쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "오늘은 데이스도 알바코어도 모두 나를 찾지 않네, 다른 잠수함들도 모두 각자 일이 있는 것 같아.",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "우으으…… 설마 오후 내내 여기 앉아있어야 하는건가……",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "어린 애 같은 요구지만 시간을 때우는 데는 썩 괜찮아 보였다.",
 			typewriter = {
 				speed = 0.05,
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "어떤 이야기를 할까?",
 			typewriter = {
@@ -216,15 +216,15 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_story_task",
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,9 +252,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "왜 세계를 구하려면 항상 주인공을 희생해야 하는거야!",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 35,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,9 +280,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "세계를 안 구한다거나 자기를 희생하지 않는 방법은 없는거야? 이런 엔딩에는 동의할 수 없어!",
 			typewriter = {
@@ -310,16 +310,16 @@ return {
 			}
 		},
 		{
-			actor = 108030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -347,9 +347,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "아니, 대체 왜 왕이 한 사람을 위해서 왕위를 포기하는 거지?",
 			typewriter = {
@@ -365,9 +365,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "혹시 바보 아니야?",
 			typewriter = {
@@ -395,16 +395,16 @@ return {
 			}
 		},
 		{
-			actor = 108030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "쿨…… 쿠울……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -432,9 +432,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "에? 끝, 끝났어?",
 			typewriter = {
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -460,9 +460,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "혹, 혹시 나 자버렸나? 미, 미안해!",
 			typewriter = {
@@ -475,9 +475,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "음…… 카발라는 이야기가 재미없었던 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -507,14 +507,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "흐흥, 내 이야기가 지휘관의 것보다 훨씬 더 재밌을거라구!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -539,9 +539,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "카발라는 자신이 겪었던 일을 이야기해 주었다.",
 			typewriter = {
 				speed = 0.05,
@@ -556,8 +556,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "어때, 엄청나지 않아? 내 경험은 굉장히 유니크하다구!",
 			typewriter = {
@@ -579,8 +579,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "아, 정말이지… 지휘관, 또 애 취급 했어!",
 			typewriter = {
@@ -593,8 +593,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

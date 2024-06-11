@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "노스 유니온 어딘가·회의실",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp3",
+			say = "노스 유니온 어딘가·회의실",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -83,8 +83,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "공교롭게도, 소비에츠키 소유즈는 어제 상트페테부르크의 회의에 참석하고자 떠났고, 지금은 내가 이곳을 책임지게 되었다.",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "아…… 또 그 시기가 왔군. 하지만 지금처럼 전선이 긴박한 상황에, 그녀가 출석하지 않는다면 의미가 없지 않은가?",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "추측건대, 이번 긴급 집합으로 나를 부른 것은 지휘관을 데리고 \"밀실\"에 가야 할 때가 드디어 왔기 때문인가?",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "그는 과거 일부 동지들이 주관적인 편견을 가지고 단순히 이글 유니온의 이익을 위해 봉사한다고 생각했던 지휘관이 아니라, 진영에 대한 편견을 버리고 전 인류의 생존을 위해 분투하며, 진정한 벽람항로라는 본래의 취지를 대변할 수 있는 사람이다.",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "지휘관은 확실히 동지라는 칭호에 걸맞아. 게다가 우리가 관찰한 바로는 \"밀실\" 자료 기록에서와 비슷한 특이한 현상이 있다...",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "중대한 사항이니, 원래라면 소비에츠키 소유즈가 지휘관을 데리고 갈 예정이었지만, 상트페테부르크의 회의는 결코 빠질 수가 없기 때문에, 이번 일은 우리에게 맡기게 되었다.",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "그렇다면, 회의가 끝난 후 지휘관을 데리고 가면 될 것인데, 아무리 그래도 오늘내일할 정도로 급한 일은 아니지 않은가?",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "음…… 눈치챘는지 모르겠지만, 최근 유럽의 정세가 매우 수상하다. 스캐퍼플로의 습격이 발발한 후, 로열과 메탈 블러드 사이에 극렬한 충돌이 예상되었지만, 전혀 발생하지 않았고, 오히려 양쪽 사이에 기괴한 평온이 감돌고 있지.",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "그 점은 나도 수상하게 생각하고 있지만, 설마 로열과 메탈 블러드가 어떤 거래를 했다고 의심하고 있는 건가?",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "확실하지 않지만. 사실 메탈 블러드의 행동은 결코 짐작할 수 없게 하는 데다, 로열도 역시…… 아무튼, 사태가 진정되었으니, 다시 지휘관을 데려가겠다고 요청한 것이다.",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "쳇, 정말 귀찮게 구는군……",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "정보에 따르면 그녀들은 이미 실질적인 준비 작업을 시작했다고 한다. 이제 우리에게 더이상 미룰 수 있는 이유가 없으니, 일단 함대가 도착하면, 일은 골치 아파 질 것이다.",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "음…… 그녀들의 구체적인 진행 상황을 알고 있나?",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "아직 정확하지 않다. 하지만 이번 주 안에 도착할 예정이다.",
 			typewriter = {
@@ -385,8 +385,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "너무 빠르잖아! 그렇다면 지금은 확실히 분초를 다투어야 할 때로군. 계획은 무엇이지?",
 			typewriter = {
@@ -402,8 +402,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "협동 출격이다. 극지 세이렌도 우리가 지휘관을 남겨 둔 목적을 알게 된 것 같더군. 오랜 세월 \"밀실\"에 대해 관여하지 않았던 그들이 최근 공격을 재개했으니 말이야.",
 			typewriter = {
@@ -419,8 +419,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "행동이 개시되면 나는 극지 세이렌의 주의를 끄는 책임을 맡게 될 것이니, 너는 지휘관과 함께 \"밀실\"로 향하는 호송 임무를 책임져야 한다.",
 			typewriter = {
@@ -436,8 +436,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "지휘관은 곧 떠날 예정이며, 세이렌의 진격도 빨라지고 있다. 이것은 아마 유일한 기회일지도 모르니, 임무를 꼭 성공해야만 한다.",
 			typewriter = {
@@ -450,11 +450,11 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "걱정 말라고, 임무는 꼭 완료할 테니까.",
 			typewriter = {
 				speed = 0.05,
@@ -466,8 +466,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「재밌는 보물찾기 게임은 어떻게 설계해야 할까?」</size>",
@@ -506,12 +506,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

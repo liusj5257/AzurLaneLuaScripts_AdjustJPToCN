@@ -10,7 +10,7 @@ slot7 = io.stdout
 slot8 = io.stderr
 slot9, slot10, slot11, slot12 = nil
 
-function slot13(slot0, slot1)
+slot13 = function(slot0, slot1)
 	if uv0(slot0, slot1).loc then
 		return slot2.loc
 	elseif slot2.ffid then
@@ -22,7 +22,7 @@ function slot13(slot0, slot1)
 	end
 end
 
-function slot14(slot0, slot1)
+slot14 = function(slot0, slot1)
 	if uv0(slot0) == "number" then
 		if uv0(slot1) == "function" then
 			slot1 = uv1(slot1)
@@ -34,7 +34,7 @@ function slot14(slot0, slot1)
 	return slot0
 end
 
-function slot15(slot0, slot1, slot2, slot3, slot4, slot5)
+slot15 = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot0 == "start" then
 		uv0 = uv1(slot2, slot3)
 		uv2 = slot4 and "(" .. slot4 .. "/" .. (slot5 == -1 and "stitch" or slot5) .. ") " or ""
@@ -68,7 +68,7 @@ function slot15(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot17(slot0)
+slot17 = function(slot0)
 	if uv0 then
 		uv1()
 	end

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.045
+					number = 0.045,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.052
+					number = 0.052,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.077
+					number = 0.077,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.085
+					number = 0.085,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.095
+					number = 0.095,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.102
+					number = 0.102,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.11
+					number = 0.11,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.12
+					number = 0.12,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "jinengchufared",
+	id = 16822,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16822,
+	color = "red",
 	icon = 16822,
 	last_effect = "",
 	effect_list = {
@@ -156,8 +156,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.045
+				number = 0.045,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

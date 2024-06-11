@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHEBOSS4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHEBOSS4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Crosswave\n\n<size=45>Crossing New Waves</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "cw-story",
+			say = "Port - Exercise Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "Good. Keep this up, and we'll be able to lure them over before they breach our last line of defense.",
 			typewriter = {
@@ -67,11 +67,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "We still aren't done?! Yukikaze the Great may be second to none, but even I don't have limitless stamina!",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -96,8 +96,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "Just hold on a bit longer! But we're also nearly out of time! Taihou, any news?",
 			typewriter = {
@@ -110,13 +110,13 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I can smell it! This is my dear Commander's fragrance... Hehehehe...",
 			soundeffect = "event:/battle/boom2",
+			actor = 307070,
+			nameColor = "#a9f548",
+			say = "I can smell it! This is my dear Commander's fragrance... Hehehehe...",
 			flashN = {
 				color = {
 					1,
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "Great! Yukikaze, once you're at the location I told you about, turn around and head back at maximum speed! We'll get them in a pincer attack!",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "I'm drawing closer to the opponent! ... *Sigh*, and I wish I wasn't. Why did I agree to this in the first place...",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "This isn't what you promised! Didn't we agree I would be the one to dive straight into the Commander's heart?!",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,8 +292,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "You're a carrier; that's not happening! And keep your mind on your recon! If we lose sight of the Commander, the whole mission will fail!",
 			typewriter = {
@@ -306,11 +306,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "Fine! But just this one time!",
 			dialogShake = {
 				speed = 0.09,
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "D-did you just get Taihou to back down?!",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,8 +356,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "Wait, is this really the right time to be cracking a joke?",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -380,9 +380,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "————",
 			typewriter = {
 				speed = 0.05,
@@ -397,8 +397,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "Thank you for having faith in my command, Yukikaze, Taihou!",
 			typewriter = {
@@ -411,12 +411,12 @@ return {
 			}
 		},
 		{
-			actor = 900200,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "Now's the time! I'll show them what a Kii-class battleship is capable of! Chaaaaaarge!",
 			typewriter = {
 				speed = 0.05,

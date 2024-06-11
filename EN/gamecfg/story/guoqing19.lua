@@ -11,8 +11,8 @@ return {
 			actor = 307010,
 			actorName = "{namecode:91}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "Ahh... The glorious light born from clashing souls... O, Creator, please grace us with your attention... for this is the light of the Awakening you desire...",
 			typewriter = {
 				speed = 0.05,
@@ -27,8 +27,8 @@ return {
 			actor = 307010,
 			actorName = "{namecode:91}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "So beautiful, yet so frail... I can't help but want to crush it in my grasp... Ahahaha, ahahaha...",
 			typewriter = {
 				speed = 0.05,
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "I thought this would happen... Very well. It seems this is where our plans come to an end.",
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
-			say = "I thought this would happen... Very well. It seems this is where our plans come to an end.",
+			actor = 307020,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -63,8 +63,8 @@ return {
 			actor = 307010,
 			actorName = "{namecode:91}",
 			side = 1,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "Is that so...? How regrettable~ Then let us depart... *Giggle*... We shall find ourselves a new Sanctuary...",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Hey... W-wait! I'm not finished with you...!",
 			typewriter = {
 				speed = 0.05,
@@ -92,30 +92,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
+			withoutPainting = true,
 			side = 0,
+			actorName = "SYSTEM",
+			dir = 0,
 			soundeffect = "event:/ui/alarm",
-			actorName = "SYSTEM",
-			dir = 0,
-			nameColor = "#ff0000",
-			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
-			withoutPainting = true,
-			typewriter = {
-				speed = 0.02,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			actor = 900011,
-			side = 0,
 			nameColor = "#ff0000",
-			actorName = "SYSTEM",
-			dir = 0,
-			withoutPainting = true,
 			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
 			typewriter = {
 				speed = 0.02,
@@ -127,13 +110,30 @@ return {
 			}
 		},
 		{
-			actor = 900011,
+			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
 			side = 0,
 			nameColor = "#ff0000",
-			actorName = "SYSTEM",
 			dir = 0,
+			actor = 900011,
+			actorName = "SYSTEM",
 			withoutPainting = true,
+			typewriter = {
+				speed = 0.02,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			say = "ERADICATION SEQUENCE INITIATED. PLEASE EVACUATE THE AREA IMMEDIATELY.",
+			side = 0,
+			nameColor = "#ff0000",
+			dir = 0,
+			actor = 900011,
+			actorName = "SYSTEM",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -147,8 +147,8 @@ return {
 			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
+			nameColor = "#ff0000",
 			say = "My sister, everything in this world has its cause and effect. We must always look for another possibility through this infinite cycle of death and rebirth...",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
+			nameColor = "#ff0000",
 			say = "That is why we conduct experiments in this Sanctuary.",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
+			nameColor = "#ff0000",
 			say = "One day you will understand the reason why we do what we do...",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
+			nameColor = "#ff0000",
 			say = "May all the gods watch over you...",
 			typewriter = {
 				speed = 0.05,
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "Tester",
 			side = 2,
-			nameColor = "#ff0000",
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "The simulation at Test Site Gamma has concluded.",
 			flashout = {
 				dur = 1.5,

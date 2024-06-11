@@ -64,11 +64,11 @@ slot31 = {
 	15430
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MonopolyPtUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:initEvent()
@@ -77,7 +77,7 @@ function slot0.init(slot0)
 	slot0:initMap()
 end
 
-function slot0.initMap(slot0)
+slot0.initMap = function(slot0)
 	if slot0.useCount < 9 then
 		slot0:createMap("ground_1")
 	elseif slot0.useCount == 9 then
@@ -171,7 +171,7 @@ slot32 = {
 	5
 }
 
-function slot0.createMap(slot0, slot1)
+slot0.createMap = function(slot0, slot1)
 	if not slot0.mapIndexs then
 		slot0.mapIndexs = Clone(uv0)
 	end
@@ -294,7 +294,7 @@ function slot0.createMap(slot0, slot1)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.distance = 0
 	slot0.moveDistance = 0
 	slot0.activityId = slot0.contextData.config_id
@@ -323,7 +323,7 @@ function slot0.initData(slot0)
 	slot0.awardsTimer:Start()
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0._ad = findTF(slot0._tf, "AD")
 	slot0.char = findTF(slot0._ad, "map/mask/container/mid/char")
 	slot0.btnStart = findTF(slot0._ad, "btnStart")
@@ -410,7 +410,7 @@ function slot0.initUI(slot0)
 	end
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	onButton(slot0._binder, slot0.btnStart, function ()
 		if uv0.leftCount and uv0.leftCount <= 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_count_noenough"))
@@ -452,11 +452,11 @@ function slot0.initEvent(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.getPtData(slot0)
+slot0.getPtData = function(slot0)
 	return ActivityPtData.New(getProxy(ActivityProxy):getActivityById(slot0.activityId))
 end
 
-function slot0.addAwards(slot0, slot1)
+slot0.addAwards = function(slot0, slot1)
 	if not slot0.awardTfs then
 		slot0.awardTfs = {}
 	end
@@ -474,7 +474,7 @@ function slot0.addAwards(slot0, slot1)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	if slot0.inAnimatedFlag then
 		return
 	end
@@ -490,7 +490,7 @@ function slot0.start(slot0)
 	end)
 end
 
-function slot0.checkCountStory(slot0, slot1)
+slot0.checkCountStory = function(slot0, slot1)
 	slot2 = slot0.useCount
 
 	if _.detect(slot0.activity:getDataConfig("story") or {}, function (slot0)
@@ -502,7 +502,7 @@ function slot0.checkCountStory(slot0, slot1)
 	end
 end
 
-function slot0.changeAnimeState(slot0, slot1, slot2)
+slot0.changeAnimeState = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0.btnStart:GetComponent(typeof(Image)).raycastTarget = false
 		slot0.inAnimatedFlag = true
@@ -514,7 +514,7 @@ function slot0.changeAnimeState(slot0, slot1, slot2)
 	setActive(slot0.btnStart, not slot1)
 end
 
-function slot0.updataActivity(slot0, slot1)
+slot0.updataActivity = function(slot0, slot1)
 	slot0:activityDataUpdata()
 	slot0:updataUI()
 
@@ -526,7 +526,7 @@ function slot0.updataActivity(slot0, slot1)
 	end
 end
 
-function slot0.activityDataUpdata(slot0)
+slot0.activityDataUpdata = function(slot0)
 	slot2 = ActivityPtData.New(getProxy(ActivityProxy):getActivityById(slot0.activityId))
 	slot3, slot4, slot5 = slot2:GetResProgress()
 	slot6 = slot2:GetLevel()
@@ -549,7 +549,7 @@ function slot0.activityDataUpdata(slot0)
 	slot0.leftLastDrop = 20 - slot0.useCount
 end
 
-function slot0.updataUI(slot0)
+slot0.updataUI = function(slot0)
 	if slot0.leftLastDrop then
 		setText(findTF(slot0.labelDropShip, "text"), "" .. slot0.leftLastDrop)
 		setActive(slot0.labelDropShip, slot0.leftLastDrop > 0)
@@ -562,14 +562,14 @@ function slot0.updataUI(slot0)
 	end
 end
 
-function slot0.updataChar(slot0)
+slot0.updataChar = function(slot0)
 	if not isActive(slot0.char) then
 		SetActive(slot0.char, true)
 		slot0.char:SetAsLastSibling()
 	end
 end
 
-function slot0.move(slot0, slot1, slot2)
+slot0.move = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	table.insert(slot3, function (slot0)
@@ -622,7 +622,7 @@ function slot0.move(slot0, slot1, slot2)
 
 			slot3:changeCharAction(uv1, 0, nil)
 
-			function slot3()
+			slot3 = function()
 				slot0 = uv0:getPtAwardData(uv1)
 
 				assert(slot0)
@@ -721,7 +721,7 @@ function slot0.move(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.getBattle(slot0, slot1)
+slot0.getBattle = function(slot0, slot1)
 	for slot5 = 1, #slot0.battles do
 		if slot0.battles[slot5][1] == slot1 then
 			return slot0.battles[slot5][2]
@@ -731,7 +731,7 @@ function slot0.getBattle(slot0, slot1)
 	return nil
 end
 
-function slot0.getStoryData(slot0, slot1)
+slot0.getStoryData = function(slot0, slot1)
 	for slot5 = 1, #slot0.storys do
 		if slot0.storys[slot5][1] == slot1 then
 			return slot0.storys[slot5][2]
@@ -741,7 +741,7 @@ function slot0.getStoryData(slot0, slot1)
 	return nil
 end
 
-function slot0.createCell(slot0, slot1, slot2)
+slot0.createCell = function(slot0, slot1, slot2)
 	slot3 = tf(instantiate(go(slot0.tplCell)))
 	slot3.localPosition = Vector3(slot0.cellPos:InverseTransformPoint(slot0.char.position).x + slot1 + 100, 0, 0)
 	slot3.localScale = Vector3(0.5, 0.5, 0.5)
@@ -784,7 +784,7 @@ function slot0.createCell(slot0, slot1, slot2)
 	table.insert(slot0.mapCells, slot3)
 end
 
-function slot0.getPtAwardData(slot0, slot1)
+slot0.getPtAwardData = function(slot0, slot1)
 	if not slot0.ptDatas then
 		slot0.ptDatas = pg.activity_event_pt[slot0.activityId].drop_client
 	end
@@ -796,7 +796,7 @@ function slot0.getPtAwardData(slot0, slot1)
 	return nil
 end
 
-function slot0.insertMapTf(slot0, slot1, slot2, slot3)
+slot0.insertMapTf = function(slot0, slot1, slot2, slot3)
 	if slot2 == uv0 then
 		SetParent(slot1, findTF(slot0.container, "back"))
 	elseif slot2 == uv1 then
@@ -812,7 +812,7 @@ function slot0.insertMapTf(slot0, slot1, slot2, slot3)
 	slot1.anchoredPosition = Vector2(slot3, 0)
 end
 
-function slot0.sortMap(slot0, slot1)
+slot0.sortMap = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = 1, #slot0.mapGround do
@@ -836,7 +836,7 @@ function slot0.sortMap(slot0, slot1)
 	end
 end
 
-function slot0.getGround(slot0, slot1)
+slot0.getGround = function(slot0, slot1)
 	for slot5 = 1, #slot0.mapGround do
 		if slot0.mapGround[slot5].name == slot1 then
 			return slot6
@@ -846,7 +846,7 @@ function slot0.getGround(slot0, slot1)
 	return nil
 end
 
-function slot0.updateMap(slot0, slot1, slot2)
+slot0.updateMap = function(slot0, slot1, slot2)
 	if slot0.char then
 		slot0.char.anchoredPosition = Vector2(slot0.char.anchoredPosition.x + slot1, slot0.char.anchoredPosition.y)
 	end
@@ -871,7 +871,7 @@ function slot0.updateMap(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setModelAnim(slot0, slot1, slot2, slot3, slot4)
+slot0.setModelAnim = function(slot0, slot1, slot2, slot3, slot4)
 	slot1:SetActionCallBack(nil)
 	slot1:SetAction(slot2, 0)
 	slot1:SetActionCallBack(function (slot0)
@@ -891,7 +891,7 @@ function slot0.setModelAnim(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.changeCharAction(slot0, slot1, slot2, slot3)
+slot0.changeCharAction = function(slot0, slot1, slot2, slot3)
 	for slot7 = 1, #slot0.anims do
 		slot9 = slot0.anims[slot7]
 
@@ -916,10 +916,10 @@ function slot0.changeCharAction(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.onHide(slot0)
+slot0.onHide = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if LeanTween.isTweening(go(slot0.cellPos)) then
 		LeanTween.cancel(go(slot0.cellPos))
 	end

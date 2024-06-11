@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "航空阵列",
 	cd = 0,
+	picture = "0",
+	desc = "航空阵列——技能弹窗",
 	painting = 1,
 	id = 11650,
-	picture = "0",
 	castCV = "skill",
-	desc = "航空阵列——技能弹窗",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

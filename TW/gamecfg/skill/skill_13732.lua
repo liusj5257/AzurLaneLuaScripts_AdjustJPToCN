@@ -2,9 +2,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -21,9 +21,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -40,9 +40,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -59,9 +59,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -78,9 +78,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -97,9 +97,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -116,9 +116,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -135,9 +135,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -154,9 +154,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -173,9 +173,9 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
 				target_choise = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -192,11 +192,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "1",
+	desc = "鱼雷",
 	painting = 0,
 	id = 13732,
-	picture = "1",
 	castCV = "",
-	desc = "鱼雷",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -207,9 +207,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
 			target_choise = {
 				"TargetAllHarm",
 				"TargetShipTag"

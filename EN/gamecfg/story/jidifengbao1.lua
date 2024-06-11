@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIDIFENGBAO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIDIFENGBAO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "On the ice of the snow-covered northern sea, a mass-produced supply fleet led by an icebreaker pushed forth as a line.",
 			bgm = "bgm-cccp3",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "On the ice of the snow-covered northern sea, a mass-produced supply fleet led by an icebreaker pushed forth as a line.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_jidifengbao_map",
 			say = "Though the war in the Polar North raged on, such a large-scale fleet was a truly rare sight.",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_jidifengbao_map",
 			say = "The communicator buzzed with static, heralding a certain woman's voice—she who would give the final orders before battle.",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
 			say = "Understood. The Fist unit will see it done!",
 			painting = {
@@ -386,8 +386,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "Right. Leave it to us Weasels.",
 			painting = {
@@ -523,9 +523,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 900218,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Move to your positions swiftly and stand by for battle.",
 			typewriter = {
 				speed = 0.05,
@@ -541,10 +541,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 900218,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That is all, comrades. Good luck.",
 			typewriter = {
 				speed = 0.05,

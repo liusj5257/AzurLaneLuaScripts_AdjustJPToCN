@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			stopbgm = true,
-			actorName = "{namecode:182}",
 			dir = 1,
 			blackBg = true,
+			actorName = "{namecode:182}",
 			say = "(...Where am I...? Is this the ocean... of yet another dream...?)",
 			flashin = {
 				delay = 1,
@@ -33,14 +33,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "(Yukikaze... Hamakaze... Isokaze... Surely, this is... on the way to Kure...)",
 			bgm = "xinnong-3",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "(Yukikaze... Hamakaze... Isokaze... Surely, this is... on the way to Kure...)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -85,8 +85,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(If these fragments are connected by the threads of time...)",
 			dialogShake = {
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(This is the dream of the beginning... the history that created my form...)",
 			typewriter = {
@@ -124,9 +124,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(The fate that called this \"Shinano\" into existence...)",
 			typewriter = {

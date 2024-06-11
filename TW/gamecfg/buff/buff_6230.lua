@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "Z字旗",
 	time = 0,
-	color = "yellow",
+	name = "Z字旗",
+	init_effect = "",
+	id = 6230,
 	picture = "",
 	desc = "自身暴击率提高5%，特定角色装备时，获得额外效果",
 	stack = 1,
-	id = 6230,
+	color = "yellow",
 	icon = 6230,
 	last_effect = "",
 	effect_list = {

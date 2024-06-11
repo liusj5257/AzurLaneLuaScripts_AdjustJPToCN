@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"또 다른 지도자?\n\n<size=45>2. 개성이라는 것...</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 광장",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 광장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "그날 아침 있었던 일을 프린스 오브 웨일즈에게 설명했다.",
 			typewriter = {
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "프린스 오브 웨일즈는 어째선지 웃음을 터트렸다.",
 			typewriter = {
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "……천적?",
 			typewriter = {
 				speed = 0.05,
@@ -174,15 +174,15 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "언니, 아직도 그런 걸 신경 쓰는 거야??",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,10 +239,10 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_113",
 			side = 2,
+			bgName = "star_level_bg_113",
+			actor = 205050,
 			dir = 1,
 			actorName = "？？？",
 			say = "괜찮다면, 상담해줄 수도 있다만?",
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "너는…… 로열 네이비의 킹 조지 5세?!",
 			effects = {
 				{
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "결국, 당신의 개성을 당신 스스로가 인정하지 않는다면, 애초에 아무것도 안 되지 않겠나?",
 			typewriter = {
@@ -336,8 +336,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "그렇다면 내가 인정해주지!",
 			typewriter = {
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 105120,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105120,
+			nameColor = "#a9f548",
 			say = "네?",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "무얼 당황하는 건가? 당신의 개성은 이 내가 보장한다고 했다.",
 			typewriter = {
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "……(필사적으로 웃음을 참고 있다)",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,

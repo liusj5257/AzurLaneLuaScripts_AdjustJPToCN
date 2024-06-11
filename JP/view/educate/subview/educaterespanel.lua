@@ -1,10 +1,10 @@
 slot0 = class("EducateResPanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateResPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.moneyBtn = findTF(slot0._go, "res/money")
 	slot0.moneyValue = findTF(slot0._go, "res/money/value"):GetComponent(typeof(Text))
 	slot0.moodBtn = findTF(slot0._go, "res/mood")
@@ -32,7 +32,7 @@ function slot0.OnInit(slot0)
 	slot0:Flush()
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.moneyBtn, function ()
 		uv0:ShowResBox(EducateChar.RES_MONEY_ID)
 	end, SFX_PANEL)
@@ -44,7 +44,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.ShowResBox(slot0, slot1)
+slot0.ShowResBox = function(slot0, slot1)
 	slot0:emit(EducateBaseUI.EDUCATE_ON_ITEM, {
 		drop = {
 			number = 1,
@@ -54,7 +54,7 @@ function slot0.ShowResBox(slot0, slot1)
 	})
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -66,7 +66,7 @@ function slot0.Flush(slot0)
 	slot0.siteValue.text = slot0.char.site .. "/" .. slot0.siteMaxValue
 end
 
-function slot0.FlushAddValue(slot0, slot1, slot2)
+slot0.FlushAddValue = function(slot0, slot1, slot2)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -75,7 +75,7 @@ function slot0.FlushAddValue(slot0, slot1, slot2)
 	slot0.moneyValue.text = slot0.char.money .. slot2
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.contextData and slot0.contextData.showBg then
 		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	end

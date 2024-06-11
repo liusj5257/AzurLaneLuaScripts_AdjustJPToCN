@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK39903",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK39903",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "전투나 다른 쪽에서도 {namecode:164}가 더 도움이 될 수 있을 거다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "{namecode:164} 혼자서는 할 수 없는 일이야…",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "지휘관, {namecode:164}와 함께… 해주겠지?",
 			typewriter = {
 				speed = 0.05,

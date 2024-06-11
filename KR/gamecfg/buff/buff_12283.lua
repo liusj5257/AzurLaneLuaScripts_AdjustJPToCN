@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.122
+					number = -0.122,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.144
+					number = -0.144,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.166
+					number = -0.166,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.188
+					number = -0.188,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.21
+					number = -0.21,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.232
+					number = -0.232,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.254
+					number = -0.254,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.276
+					number = -0.276,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.3
+					number = -0.3,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "",
 	name = "毁灭模式·原型·前排减伤",
 	init_effect = "jinengchufared",
+	id = 11283,
 	time = 10,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11283,
+	color = "red",
 	icon = 11280,
 	last_effect = "",
 	blink = {
@@ -175,8 +175,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 slot0 = class("AttireIconFramePanel", import(".AttireFramePanel"))
 slot1 = setmetatable
 
-function slot2(slot0)
+slot2 = function(slot0)
 	slot1 = {
 		Update = function (slot0, slot1, slot2, slot3)
 			uv0:Update(slot1, slot2, slot3)
@@ -20,7 +20,7 @@ function slot2(slot0)
 		end
 	}
 
-	function slot4(slot0, slot1, slot2)
+	slot4 = function(slot0, slot1, slot2)
 	end
 
 	(function (slot0)
@@ -31,15 +31,15 @@ function slot2(slot0)
 	})
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AttireIconFrameUI"
 end
 
-function slot0.GetData(slot0)
+slot0.GetData = function(slot0)
 	return slot0.rawAttireVOs.iconFrames
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = uv0(slot1)
 	slot0.cards[slot1] = slot2
 
@@ -59,11 +59,11 @@ function slot0.OnInitItem(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.GetColumn(slot0)
+slot0.GetColumn = function(slot0)
 	return 2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	uv0.super.OnUpdateItem(slot0, slot1, slot2)
 
 	if slot0.cards[slot2].attireFrame.id == (slot0.contextData.iconFrameId or slot0.displayVOs[1].id) then

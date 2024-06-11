@@ -1,10 +1,10 @@
 slot0 = class("NewSkinShopPurchaseView", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewSkinShopPurchaseUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.cancelBtn = slot0:findTF("frame/cancel")
 	slot0.confirmBtn = slot0:findTF("frame/confirm")
 	slot0.toggle = slot0:findTF("frame")
@@ -14,7 +14,7 @@ function slot0.OnLoaded(slot0)
 	slot0.dropsList = UIItemList.New(slot0:findTF("frame/gift_bg/gift/drops"), slot0:findTF("frame/gift_bg/gift/drops/item"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -28,7 +28,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.commodity = slot1
@@ -37,11 +37,11 @@ function slot0.Show(slot0, slot1)
 	slot0:emit(NewSkinShopMainView.EVT_SHOW_OR_HIDE_PURCHASE_VIEW, true)
 end
 
-function slot0.GetText(slot0, slot1)
+slot0.GetText = function(slot0, slot1)
 	return slot1 and slot0.textWithGift or slot0.text
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot3 = #slot1:GetGiftList() > 0
 
 	triggerToggle(slot0.toggle, slot3)
@@ -61,7 +61,7 @@ function slot0.Flush(slot0, slot1)
 	slot0:FlushGift(slot2)
 end
 
-function slot0.FlushGift(slot0, slot1)
+slot0.FlushGift = function(slot0, slot1)
 	slot0.dropsList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -79,7 +79,7 @@ function slot0.FlushGift(slot0, slot1)
 	slot0.dropsList:align(#slot1)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:emit(NewSkinShopMainView.EVT_SHOW_OR_HIDE_PURCHASE_VIEW, false)
 	setAnchoredPosition(pg.playerResUI.gemAddBtn, {
@@ -89,7 +89,7 @@ function slot0.Hide(slot0)
 	slot0.commodity = nil
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

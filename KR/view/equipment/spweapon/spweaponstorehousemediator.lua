@@ -3,7 +3,7 @@ slot0.ON_COMPOSITE = "SpWeaponStoreHouseMediator:ON_COMPOSITE"
 slot0.ON_UNEQUIP = "SpWeaponStoreHouseMediator:ON_UNEQUIP"
 slot0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:BindEvent()
 
 	slot2 = getProxy(BayProxy):getShipById(slot0.contextData.shipId)
@@ -26,7 +26,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-function slot0.UpdateSpWeapons(slot0)
+slot0.UpdateSpWeapons = function(slot0)
 	slot2 = getProxy(BayProxy):GetSpWeaponsInShips(getProxy(BayProxy):RawGetShipById(slot0.contextData.shipId))
 
 	for slot7, slot8 in ipairs(_.values(getProxy(EquipmentProxy):GetSpWeapons())) do
@@ -38,7 +38,7 @@ function slot0.UpdateSpWeapons(slot0)
 	slot0.viewComponent:setEquipments(slot2)
 end
 
-function slot0.BindEvent(slot0)
+slot0.BindEvent = function(slot0)
 	slot0:bind(uv0.ON_UNEQUIP, function (slot0)
 		uv0:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
 			shipId = uv0.contextData.shipId
@@ -63,7 +63,7 @@ function slot0.BindEvent(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		BayProxy.SHIP_UPDATED,
@@ -72,7 +72,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BayProxy.SHIP_UPDATED then

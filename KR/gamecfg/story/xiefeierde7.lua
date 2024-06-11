@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"탄환과, 사랑을 담아\n\n<size=45>7. 셰필드의 마음-하</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항-자신의 방",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항-자신의 방",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……사실 잠든 게 아니었어.",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "몽롱한 중에 들었던 대화를 떠올렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "왠지는 모르겠지만 거침없이 움직이던 셰피가 멈춰섰다.",
 			typewriter = {
 				speed = 0.05,
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…생각해보니 아무래도 무의식중에 셰필드에게 많이 의지했던 것 같아. 하지만 단 한 번도 ‘셰필드가 하고 싶은 일’에 대해서는 생각해본 적이 없어서——",
 			typewriter = {
 				speed = 0.05,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#92fc63",
 			say = "갑자기 다가온 셰필드가 손을 이마에 올렸다.",
 			typewriter = {
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#92fc63",
 			say = "굉장히 실례같이 들리는 걱정의 말이다.",
 			typewriter = {
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "셰필드는 왠지 모르게 한숨을 내쉬었다.",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……??!! 연애?",
 			typewriter = {
 				speed = 0.05,
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "셰필드가 이쪽을 똑바로 바라봤다.",
 			typewriter = {
 				speed = 0.05,

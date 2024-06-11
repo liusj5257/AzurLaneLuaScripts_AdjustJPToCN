@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 301057,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "輸了。但是很開心",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -124,8 +124,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,14 +134,14 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "確認在戰鬥中，μ兵裝的性能發揮和標準性能存在差異",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,8 +169,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "和平常自己裝備的艦裝有點不一樣這個還真是。怎麼說呢，微妙的用得順手的感覺…",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "同感。我們作為艦船，各種艦裝之間理應沒有性能差距才對",
 			typewriter = {
 				speed = 0.05,
@@ -200,9 +200,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "加斯科涅自身的戰鬥行動規範和測試時沒有變化",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "嗯…也就是說加斯科涅的戰鬥方式明明沒有變化，但是艦裝用起來感覺還是有點不一樣？",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "是的",
 			typewriter = {
 				speed = 0.05,
@@ -379,8 +379,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "在剛才的戰鬥中，儘管對感情模塊同樣實施了抑制",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "但是感情模塊的活性化程度還是較通常時微高",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "呃，有點暈了……",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "也就是說加斯科涅自己感覺“很開心”對吧",
 			typewriter = {
 				speed = 0.05,
@@ -473,8 +473,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "對我說明的方法表示道歉。對不起",
 			typewriter = {
 				speed = 0.05,
@@ -489,8 +489,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "如果在兵裝實驗中需要加斯科涅開放感情模塊的話",
 			typewriter = {
 				speed = 0.05,
@@ -505,8 +505,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "請對加斯科涅下指示",
 			typewriter = {
 				speed = 0.05,

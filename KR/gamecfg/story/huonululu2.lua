@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"호놀룰루의 사소한 일들\n\n<size=45>호놀룰루는 친구가 적다고?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 학교 광장",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 학교 광장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 102130,
+			say = "우후훗, 용무가 없으면 못 만나는 건가?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "우후훗, 용무가 없으면 못 만나는 건가?",
+			actor = 102130,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "……근데 왜 지휘관도 여기 있는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "러, 럭키~한 건가??",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 102130,
+			nameColor = "#92fc63",
 			say = "모처럼 비서함을 맡게 되었으니, 지휘관군과도 사이좋게 지내는 편이 좋지 않을까?",
 			typewriter = {
 				speed = 0.05,
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "윽……따, 딱히 세인트루이스랑은 관계없잖아? 지휘관도 갑자기 그러지 말라고!",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -274,9 +274,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = -1,
 			say = "왠지 호놀룰루가 세인트루이스의 손바닥 위에 있다는 느낌이 들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "……?! 뭐, 뭐뭐, 뭐야 이 부끄러운 옷은! 루이스나 좋아하겠지 이런 건!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "그럼 맘대로 하든가………전~혀 안 어울려도 난 모른다고……",
 			typewriter = {
 				speed = 0.05,
@@ -374,8 +374,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = -1,
 			say = "이런 분위기 속에서, 잡담은 의외로 길게 이어졌다.",
 			typewriter = {
 				speed = 0.05,

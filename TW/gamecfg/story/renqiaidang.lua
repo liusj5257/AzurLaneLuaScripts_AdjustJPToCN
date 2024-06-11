@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIAIDANG",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIAIDANG",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"榮耀殿堂\n\n<size=45>餅乾時光</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "港區·指揮室",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "在一個一如既往忙碌的午後，愛宕突然帶著一個手提食品保溫箱來到了指揮室。",
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "這可是姐姐親手製作的，僅供指揮官享用的非賣品哦~請一定要多吃一點！",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "愛宕打開保溫箱，烤餅乾與奶油的混合香甜氣息在指揮室瀰漫開來。",
@@ -199,8 +199,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "張嘴含住餅乾，香甜的味道填滿口腔……除此之外，愛宕溫熱柔軟的手指也在嘴唇上留下了來過的痕跡。",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "好吃嗎？有沒有感受到幸福的味道？",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "蘸著巧克力的手指餅乾進入口中，輕輕一抿便融化開來……巧克力的味道非常濃郁。",
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "咬斷餅乾咀嚼起來，巧克力的甘甜與烤餅乾的醇厚口味產生了美妙的疊加感。",
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "品嚐著愛宕親手製作並送到嘴邊的餅乾，逐漸將工作暫時拋在了腦後。",
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "愛宕突然咬住了餅乾的另一頭，臉頰貼近了過來——",
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "與愛宕四目相對，愛宕不斷咬下前端的餅乾，距離變得越來越近——",
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "咔嚓——",
@@ -554,8 +554,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "餅乾斷了……",
@@ -601,12 +601,12 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "還剩下草莓味的和香蕉味的，接下來品嚐哪個好呢——",
 			typewriter = {
 				speed = 0.05,

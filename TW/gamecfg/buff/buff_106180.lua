@@ -1,12 +1,12 @@
 return {
-	time = 60,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 106180,
+	time = 60,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 106180,
+	color = "red",
 	icon = 106180,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 1500
+				number = 1500,
+				attr = "loadSpeed"
 			}
 		},
 		{

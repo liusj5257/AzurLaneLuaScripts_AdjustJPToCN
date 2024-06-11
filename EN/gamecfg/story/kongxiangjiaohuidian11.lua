@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN11",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "Geryon let out a mighty roar, and the nightmare surrounding Bismarck and Ulrich shattered into pieces.",
 			bgm = "story-bismark-determination",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "Geryon let out a mighty roar, and the nightmare surrounding Bismarck and Ulrich shattered into pieces.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			say = "But even as the fragments of illusion fell away, the attack did not end there.",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			say = "As if responding to the situation, a black-and-red haze gushed out from Ulrich's body and began to lurch towards Bismarck.",
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			say = "The shadowy substance climbed up her body and rigging like a ravenous beast, shaking wildly as if reveling in a successful hunt.",
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			say = "It seemed as if she would become its next victim.",
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
-			hidePaintObj = true,
 			actorName = "Geryon",
+			hidePaintObj = true,
 			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_bsmre_cg8",
 			mode = 1,
+			bgName = "bg_bsmre_cg8",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -142,8 +142,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -216,8 +216,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -264,8 +264,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -360,27 +360,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_bsmre_cg15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_bsmre_cg15",
 			say = "Bismarck offered her hand out to Ulrich, who hesitated for a moment before finally accepting it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_cg15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ulrich, we need you. Not just me or Iron Blood, but all of us.",
 			painting = {
 				alpha = 0.3,
@@ -408,10 +408,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Together, we can forge a brighter future.",
 			painting = {
 				alpha = 0.3,
@@ -426,10 +426,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah. I'm with you.",
 			painting = {
 				alpha = 0.3,
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg15",
 			hidePaintObj = true,
 			say = "Ulrich straightened herself out before turning to face Bismarck. No longer was there any doubt or loneliness in her eyes.",
@@ -455,10 +455,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Glad to have you back. Let's go get the others.",
 			painting = {
 				alpha = 0.3,
@@ -470,30 +470,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "Mirror Sea - α phase, inside the tower",
 			bgm = "story-midgard",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Mirror Sea - α phase, inside the tower",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -504,10 +504,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank goodness the two of you are fine!",
 			painting = {
 				alpha = 0.3,
@@ -519,8 +519,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -532,10 +532,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ulrich looks like she's doing a whole lot better too.",
 			painting = {
 				alpha = 0.3,
@@ -550,10 +550,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Would you look at that. Everything turned out okay in the end.",
 			painting = {
 				alpha = 0.3,
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -578,10 +578,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah. Doubt that nightmare's ever coming back to haunt me.",
 			painting = {
 				alpha = 0.3,
@@ -596,10 +596,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I still feel a little out of it, but I'll be back to normal before you know it.",
 			painting = {
 				alpha = 0.3,
@@ -614,10 +614,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Did anything happen while I was inside the control center?",
 			painting = {
 				alpha = 0.3,
@@ -629,12 +629,12 @@ return {
 			}
 		},
 		{
-			actor = 402100,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Actually, yes. As ordered, we stood on standby at the end of the corridor.",
 			painting = {
 				alpha = 0.3,
@@ -649,10 +649,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "At first, everything was normal, but then something rather strange happened.",
 			painting = {
 				alpha = 0.3,
@@ -667,10 +667,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We all felt a palpable sense of danger in the air, and then saw a strange black mist seeping out from the doorway...",
 			painting = {
 				alpha = 0.3,
@@ -685,10 +685,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Gneisenau was about to rush in to check on you, but that oppressive feeling dissipated as quickly as it had come on.",
 			painting = {
 				alpha = 0.3,
@@ -703,10 +703,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That pretty much brings us to where we're at now.",
 			painting = {
 				alpha = 0.3,
@@ -718,12 +718,12 @@ return {
 			}
 		},
 		{
-			actor = 402100,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What was that thing?",
 			painting = {
 				alpha = 0.3,
@@ -738,10 +738,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "That energy is strong enough to corrode a shipgirl's hull. There's no way something like that could just vanish into thin air.",
 			painting = {
 				alpha = 0.3,
@@ -756,10 +756,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "What did you do, Bismarck?",
 			painting = {
 				alpha = 0.3,
@@ -774,10 +774,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I took a little gamble, that's all. Thanks to Queen Elizabeth and the Commander's findings, we have more insight into how Wisdom Cubes manifest their power.",
 			painting = {
 				alpha = 0.3,
@@ -789,12 +789,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Combined with Scharnhorst's research, we now have the technology to temporarily redirect this corrosive energy into our riggings and neutralize it to a certain extent.",
 			painting = {
 				alpha = 0.3,
@@ -809,10 +809,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It doesn't address the root of the problem, but at least it'll provide us some resistance to META corruption from external sources.",
 			painting = {
 				alpha = 0.3,
@@ -827,10 +827,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In other words... We won't have to worry about getting knocked out by that black energy or getting trapped inside a nightmare?",
 			painting = {
 				alpha = 0.3,
@@ -845,10 +845,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's great news. We'll have a fighting chance against whatever it was that got its hands on U-556, right?",
 			painting = {
 				alpha = 0.3,
@@ -863,10 +863,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "I see... You've found a way to stem the corruption.",
 			painting = {
 				alpha = 0.3,
@@ -881,10 +881,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "I was right to place my trust in you, Bismarck.",
 			painting = {
 				alpha = 0.3,
@@ -896,12 +896,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We've only seen a brief glimmer of this technology's potential. With further testing, we might even be able to reverse–",
 			painting = {
 				alpha = 0.3,
@@ -916,10 +916,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "I know what you're about to say, but give up on that notion. There's no reversing METAmorphosis.",
 			painting = {
 				alpha = 0.3,
@@ -931,12 +931,12 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "...And even if it does somehow become possible, I've already accepted the reality of this body, and of this power.",
 			painting = {
 				alpha = 0.3,
@@ -951,10 +951,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I understand.",
 			painting = {
 				alpha = 0.3,
@@ -969,10 +969,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "One last thing. I've had some time to review what I know with what I learned from Zuikaku. All these phenomena we've been experiencing likely tie back to Arbiter IX: The Hermit.",
 			painting = {
 				alpha = 0.3,
@@ -987,10 +987,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "If we go after U-556, we will likely be delivering ourselves straight to her.",
 			painting = {
 				alpha = 0.3,
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "An Arbiter? We hardly have the resources to deal with their spare vessels, let alone a complete Arbiter.",
 			painting = {
 				alpha = 0.3,
@@ -1022,10 +1022,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But, there's no other way. We have to keep searching the tower.",
 			painting = {
 				alpha = 0.3,
@@ -1037,12 +1037,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Zuikaku, I'm sorry for getting you tangled up in this mess.",
 			painting = {
 				alpha = 0.3,
@@ -1054,12 +1054,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, uh, don't be sorry!",
 			painting = {
 				alpha = 0.3,
@@ -1071,12 +1071,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You've given me the VIP treatment while I was at the Floating Fortress, so it's only natural I return the favor!",
 			painting = {
 				alpha = 0.3,
@@ -1088,12 +1088,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whatever happens, I'm with you 'til the end!",
 			painting = {
 				alpha = 0.3,
@@ -1105,12 +1105,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank you. Everyone, let's bring U-556 back!",
 			painting = {
 				alpha = 0.3,

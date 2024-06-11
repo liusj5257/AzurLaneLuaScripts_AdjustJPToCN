@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"Someone who really understands you.\"</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"One Little Incident\n\n<size=45>Chapter 4: Allies</size>",
@@ -39,15 +39,15 @@ return {
 			}
 		},
 		{
-			say = "Port",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			say = "Heya, Eug– Ahem... Hello, Eugen. What are you up to?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Heya, Eug– Ahem... Hello, Eugen. What are you up to?",
+			actor = 403050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#a9f548",
 			say = "\"What I want to do\"... It might be a good idea to ask Eugen what the Commander meant.",
 			typewriter = {
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 403030,
 			stopbgm = true,
 			say = "\"Nothing in particular. I'm content with just being here with everyone,\" right?",
 			typewriter = {
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#a9f548",
 			say = "Huh?!",
 			dialogShake = {
 				speed = 0.09,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#a9f548",
 			say = "Eugen said exactly what I was thinking at that moment.",
 			typewriter = {
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I can tell just by looking at your face.",
 			bgm = "story-2",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "I can tell just by looking at your face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,11 +391,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#a9f548",
 			say = "End up... not knowing what I want to do...",
 			typewriter = {
@@ -456,15 +456,15 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "Hehe, you're so innocent.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "Just like they did for me, once...",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("CourtYardFeastPoolMgr", import(".CourtYardPoolMgr"))
 
-function slot0.GenPool(slot0, slot1)
+slot0.GenPool = function(slot0, slot1)
 	slot2 = uv0.super.GenPool(slot0, slot1)
 
 	for slot7, slot8 in ipairs({

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#ffff4d",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "オーディン、チャージのほうは大丈夫？",
 			bgm = "xinnong-2",
+			actor = 403030,
+			nameColor = "#ffff4d",
+			say = "オーディン、チャージのほうは大丈夫？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 499040,
 			dir = 1,
+			actor = 499040,
 			nameColor = "#ffff4d",
 			say = "穿て、ヘルテイトの轟雷！！！",
 			typewriter = {
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "竜宮城の明かりが一瞬暗くなったが、すぐさま眩しい光が一行の視界を真っ白にした。",
 			flashout = {
 				dur = 0.5,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "オーディンが掲げた腕から放たれた紫電の一閃が、仕掛けの建物に直撃した。",
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "比類なき破壊力の前にバリアは簡単に砕かれ、仕掛けの台座が建物ごと崩落していった。",
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "仕掛けが破壊されたことに呼応してか、量産艦は散り散りになってどこかに消えていった。",
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "あの破壊力は…一体……",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（今の攻撃、とてもじゃないけど艦船の主砲とは比べ物にならないわ！これもセイレーン技術ってやつ！？）",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "艦船の兵装にしてはデタラメすぎですね。この兵装は特別なものか、それともあの子自身が――",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -334,8 +334,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "この「目」で見るのは初めてですから、確信を持つまでは秘密にしていましたわ",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "ただ、特別計画艦にしても、こんな規格外の破壊力はさすがに情報にないです",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -391,12 +391,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ffff4d",
 			say = "つまり奥の手はこれでおしまい。早く出発しないとあの島風って子たちに差をつけられるわよ？",
 			typewriter = {
 				speed = 0.05,

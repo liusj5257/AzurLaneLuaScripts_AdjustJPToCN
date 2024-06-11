@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 502023,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이스트 글림 시스터즈, 첫 등장! 침착하게… 침착해야해, 닝하이.",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			say = "저기, 언니… 핑하이 배고파. 먼저 뭐 좀 먹어도 돼?",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 502033,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "만두를… 잔뜩?! 보컬이든 댄스든, 아니면 쿵후이든지 간에 핑하이, 열심히 할게!",
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502023,
 			dir = 1,
+			actor = 502023,
 			say = "좋아. 가장 아름다운 댄스를 전 세계에 보여주자고!",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 502023,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이번에는 이스트 글림을 대표해서 온 거니까… 절대로 그 이름에 먹칠을 해서는 안 돼!",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,8 +136,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			say = "언니, 폴라리스가 왔어.",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502023,
 			dir = 1,
+			actor = 502023,
 			say = "클리블랜드, 그리고 폴라리스의 모두들. 오늘 라이브는 잘 부탁할게.",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

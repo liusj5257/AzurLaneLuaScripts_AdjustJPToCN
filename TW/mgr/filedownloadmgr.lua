@@ -4,7 +4,7 @@ slot0.FileDownloadMgr = singletonClass("FileDownloadMgr")
 slot1 = slot0.FileDownloadMgr
 slot2 = FileDownloadConst
 
-function slot1.Init(slot0, slot1)
+slot1.Init = function(slot0, slot1)
 	print("initializing filedownloadmgr manager...")
 	PoolMgr.GetInstance():GetUI("FileDownloadUI", true, function (slot0)
 		uv0._go = slot0
@@ -20,24 +20,24 @@ function slot1.Init(slot0, slot1)
 	end)
 end
 
-function slot1.Main(slot0, slot1)
+slot1.Main = function(slot0, slot1)
 	slot0:initData()
 	slot0:setData(slot1)
 	slot0:show()
 	slot0:startDownload()
 end
 
-function slot1.IsRunning(slot0)
+slot1.IsRunning = function(slot0)
 	return isActive(slot0._go)
 end
 
 slot1.KEY_STOP_REMIND = "File_Download_Remind_Time"
 
-function slot1.SetRemind(slot0, slot1)
+slot1.SetRemind = function(slot0, slot1)
 	slot0.isStopRemind = slot1
 end
 
-function slot1.IsNeedRemind(slot0)
+slot1.IsNeedRemind = function(slot0)
 	if slot0.isStopRemind == true then
 		return false
 	else
@@ -45,26 +45,26 @@ function slot1.IsNeedRemind(slot0)
 	end
 end
 
-function slot1.show(slot0)
+slot1.show = function(slot0)
 	slot0._go:SetActive(true)
 end
 
-function slot1.hide(slot0)
+slot1.hide = function(slot0)
 	slot0._go:SetActive(false)
 end
 
-function slot1.initUI(slot0)
+slot1.initUI = function(slot0)
 	slot0.mainTF = slot0._tf:Find("Main")
 	slot0.titleText = slot0.mainTF:Find("Title")
 	slot0.progressText = slot0.mainTF:Find("ProgressText")
 	slot0.progressBar = slot0.mainTF:Find("ProgressBar")
 end
 
-function slot1.initUITextTips(slot0)
+slot1.initUITextTips = function(slot0)
 	setText(slot0.titleText, i18n("file_down_mgr_title"))
 end
 
-function slot1.initData(slot0)
+slot1.initData = function(slot0)
 	slot0.curGroupIndex = 0
 	slot0.curGroupMgr = nil
 	slot0.validGroupNameList = nil
@@ -73,20 +73,20 @@ function slot1.initData(slot0)
 	slot0.onFinish = nil
 end
 
-function slot1.setData(slot0, slot1)
+slot1.setData = function(slot0, slot1)
 	slot0.dataList = slot1.dataList
 	slot0.onFinish = slot1.onFinish
 end
 
-function slot1.fileProgress(slot0, slot1, slot2, slot3, slot4)
+slot1.fileProgress = function(slot0, slot1, slot2, slot3, slot4)
 	setText(slot0.progressText, i18n("file_down_mgr_progress", HashUtil.BytesToString(slot3), HashUtil.BytesToString(slot4)))
 	setSlider(slot0.progressBar, 0, slot4, slot3)
 end
 
-function slot1.fileFinish(slot0, slot1, slot2)
+slot1.fileFinish = function(slot0, slot1, slot2)
 end
 
-function slot1.groupComplete(slot0, slot1)
+slot1.groupComplete = function(slot0, slot1)
 	slot2 = HashUtil.BytesToString(slot1)
 
 	setText(slot0.progressText, i18n("file_down_mgr_progress", slot2, slot2))
@@ -101,7 +101,7 @@ function slot1.groupComplete(slot0, slot1)
 	end
 end
 
-function slot1.allComplete(slot0)
+slot1.allComplete = function(slot0)
 	if slot0.onFinish then
 		slot0.onFinish()
 	end
@@ -110,8 +110,8 @@ function slot1.allComplete(slot0)
 	slot0:hide()
 end
 
-function slot1.error(slot0, slot1, slot2)
-	function slot4()
+slot1.error = function(slot0, slot1, slot2)
+	slot4 = function()
 		Application.Quit()
 	end
 
@@ -130,7 +130,7 @@ function slot1.error(slot0, slot1, slot2)
 	})
 end
 
-function slot1.download(slot0)
+slot1.download = function(slot0)
 	if not slot0.validFileNameArrMap[slot0.validGroupNameList[slot0.curGroupIndex]] or slot2.Length == 0 then
 		slot0:groupComplete()
 
@@ -160,7 +160,7 @@ function slot1.download(slot0)
 	end)
 end
 
-function slot1.startDownload(slot0)
+slot1.startDownload = function(slot0)
 	if slot0:verifyValidData() then
 		slot0.curGroupIndex = 1
 
@@ -170,7 +170,7 @@ function slot1.startDownload(slot0)
 	end
 end
 
-function slot1.verifyValidData(slot0)
+slot1.verifyValidData = function(slot0)
 	slot0.validGroupNameList = {}
 	slot0.validFileNameArrMap = {}
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG25",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"潮風と夏の無人島\n\n<size=45>無人島ヨットレース</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "今日も快晴だ。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "今日も快晴だ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "埠頭施設に向かって歩くと、仲間の自称ジャーナリストの声が聞こえてきた。",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "アルフレードが何かを抱えて、俯いたまま急いで走ってきて――",
@@ -84,10 +84,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いたた…あわわ！原稿が――",
 			painting = {
 				alpha = 0.3,
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 601080,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大丈夫大丈夫！前を見なかったうちが悪かったよ！",
 			painting = {
 				alpha = 0.3,
@@ -135,10 +135,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わわわもう時間がない！指揮官、原稿を拾うの手伝って！早く行かないと間に合わなくなっちゃう！",
 			painting = {
 				alpha = 0.3,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -163,10 +163,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「無人島ヨットレース」の特別報道をしなきゃ！！",
 			painting = {
 				alpha = 0.3,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,10 +194,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
+			side = 2,
 			say = "……「無人島ヨットレース」？レーゲンスブルクが言ってたような…",
 			typewriter = {
 				speed = 0.05,
@@ -214,10 +214,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ん？指揮官はまだ知らないの？！",
 			painting = {
 				alpha = 0.3,
@@ -232,10 +232,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そ、そんな……観戦するなら早く埠頭へ行って！うちはこれで！",
 			painting = {
 				alpha = 0.3,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,10 +266,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ってもう始まってる————！！",
 			painting = {
 				alpha = 0.3,
@@ -281,16 +281,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "目にも留まらぬ速さで原稿をまとめると、アルフレード・オリアーニは埠頭に消えた。",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "そういえばこの前ニュージャージーもサプライズうんぬん言っていたような…",
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "とりあえず様子を見に行こう——",
@@ -346,17 +346,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アルフレード・オリアーニ",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メンフィス",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アルフレード・オリアーニ",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -405,13 +405,13 @@ return {
 			}
 		},
 		{
-			actorName = "アルフレード・オリアーニ",
 			side = 2,
 			bgName = "bg_summerisland_cg4",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "「ヨットレース優勝は誰の手に？有力候補たちの勇姿——」よし、見出しはこれだ！",
+			actorName = "アルフレード・オリアーニ",
 			soundeffect = "event:/ui/kuaimen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "「ヨットレース優勝は誰の手に？有力候補たちの勇姿——」よし、見出しはこれだ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メンフィス",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			say = "観戦する仲間たちのいる桟橋にやってきた。艦船たちによるレースの熱気が漂っていた。",
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エンタープライズ",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			say = "次のレースはエンタープライズが出場するのだろうか？それと遠くにいるのは……",
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エンタープライズ",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -498,8 +498,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			say = "見たところ、花月とロイヤル・フォーチュンも参加するのか？",
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エンタープライズ",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -521,8 +521,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			say = "なら向こうにあるボートは……",
@@ -532,8 +532,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エンタープライズ",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エンタープライズ",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ロイヤル・フォーチュン",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -573,8 +573,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ロイヤル・フォーチュン",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -585,8 +585,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ロイヤル・フォーチュン",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -597,8 +597,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エンタープライズ",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -609,8 +609,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "花月",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -626,8 +626,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "花月",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ロイヤル・フォーチュン",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -650,10 +650,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actorName = "ロイヤル・フォーチュン",
 			say = "大した勇気ね！かかってこーい！",
 			typewriter = {

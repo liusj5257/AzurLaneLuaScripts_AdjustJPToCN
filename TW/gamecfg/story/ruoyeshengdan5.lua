@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUOYESHENGDAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUOYESHENGDAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平安夜的薑餅物語\n\n<size=45>五 歡笑與祝福的平安夜</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "平安夜·派對會場",
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "平安夜·派對會場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "呼~派對的準備順利完成了，薑餅也都完成了，嘿嘿，多虧了大家的幫忙呢~",
 			typewriter = {
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 101022,
 			dir = 1,
+			actor = 101022,
 			nameColor = "#a9f548",
 			say = "西雅圖小姐烤的薑餅，很好吃哦",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301541,
 			dir = 1,
+			actor = 301541,
 			nameColor = "#a9f548",
 			say = "兔兔造型，很可愛…",
 			typewriter = {
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			actor = 102182,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102182,
+			nameColor = "#a9f548",
 			say = "呼呼呼…撒滿了糖霜的甜蜜加強版薑餅…很棒！",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -169,15 +169,15 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "這、這是！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -215,10 +215,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "是為了陛下特別製作的薑餅雕像哦",
 			typewriter = {
 				speed = 0.05,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "名字就叫做《女王陛下的側身像》！",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -291,10 +291,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哼哼，就算是妳也該大吃一驚了吧",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -318,14 +318,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_100",
 			actor = 301231,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "薑、薑餅已經夠了…我、我要吃點鹹的東西！！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -353,8 +353,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302052,
 			dir = 1,
+			actor = 302052,
 			nameColor = "#a9f548",
 			say = "啊，大家的禮物都放在聖誕樹旁邊了，沒有拿的小夥伴都可以拿一個哦~",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -380,8 +380,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 302201,
 			dir = 1,
+			actor = 302201,
 			nameColor = "#a9f548",
 			say = "嘻嘻，不知道誰會拿到我準備的禮物呢，真讓人期待啊~",
 			typewriter = {
@@ -397,10 +397,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "真是的，說到禮物就開始吵吵鬧鬧起來了",
 			typewriter = {
 				speed = 0.05,
@@ -431,8 +431,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 102182,
 			dir = 1,
+			actor = 102182,
 			nameColor = "#a9f548",
 			say = "畢竟是聖誕節嘛♪",
 			typewriter = {
@@ -448,8 +448,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "嘿嘿，說得好，肯定沒問題的！好啦，大家一起來乾一杯吧~聖誕快樂！",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "眾人",
+			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "乾杯~聖誕快樂！",
 			dialogShake = {
 				speed = 0.09,

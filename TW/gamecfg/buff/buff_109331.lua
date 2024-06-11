@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "laisha_huibiBuff",
-	color = "red",
+	id = 109331,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 109331,
+	color = "red",
 	icon = 109330,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.05
+				number = 0.05,
+				attr = "dodgeRateExtra"
 			}
 		}
 	}

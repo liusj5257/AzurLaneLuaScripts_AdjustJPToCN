@@ -3,7 +3,7 @@ slot0.SEARCH_TYPE_LIST = 1
 slot0.SEARCH_TYPE_RESUME = 2
 slot0.SEARCH_TYPE_FRIEND = 3
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = nil
 	slot5 = tonumber(slot2.keyword and string.gsub(slot4, "^%s*(.-)%s*$", "%1")) and 0 or 1

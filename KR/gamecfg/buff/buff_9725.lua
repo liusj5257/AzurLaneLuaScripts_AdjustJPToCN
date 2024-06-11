@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "主线15章召唤烟幕发生蛋船",
 	time = 0,
-	color = "blue",
+	name = "主线15章召唤烟幕发生蛋船",
+	init_effect = "",
+	id = 9725,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9725,
+	color = "blue",
 	icon = 9725,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 9725,
 				time = 30,
-				target = "TargetSelf",
-				skill_id = 9725
+				target = "TargetSelf"
 			}
 		}
 	}

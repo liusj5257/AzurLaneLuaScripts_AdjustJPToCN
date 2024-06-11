@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"{namecode:30}的煩惱\n\n<size=45>五 徒勞的努力？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "某日·演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "吹雪姐，也很活躍…",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "吹雪姐，也很活躍…",
+			actor = 301050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "…啊！謝、謝謝！妳、妳們也……",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -124,15 +124,15 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "…這次也沒什麼表現呢…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "呀！嗚、嗚嗚…飛鷹小姐！請、請不要每次都這樣嚇人啦！",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -263,12 +263,12 @@ return {
 			}
 		},
 		{
-			actor = 306010,
+			say = "啊，抱歉。不過…從剛剛演習結束就覺得妳的樣子有點奇怪，怎麼了嘛？",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，抱歉。不過…從剛剛演習結束就覺得妳的樣子有點奇怪，怎麼了嘛？",
+			actor = 306010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "沒，沒什麼啦！只不過是有點累了——",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "…那、那個是…",
 			typewriter = {
 				speed = 0.05,
@@ -373,8 +373,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -511,12 +511,12 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "指揮官？ ！",
 			typewriter = {
 				speed = 0.05,
@@ -528,8 +528,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -9,8 +9,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 20
+					number = 20,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -25,8 +25,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 26
+					number = 26,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -41,8 +41,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 32
+					number = 32,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -57,8 +57,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 40
+					number = 40,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -73,8 +73,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 46
+					number = 46,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -89,8 +89,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 52
+					number = 52,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 60
+					number = 60,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -121,8 +121,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 66
+					number = 66,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -137,8 +137,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 72
+					number = 72,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -153,20 +153,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 80
+					number = 80,
+					attr = "cannonPower"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "小齐柏林1",
 	time = 0,
-	color = "red",
+	name = "小齐柏林1",
+	init_effect = "",
+	id = 12091,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 12091,
+	color = "red",
 	icon = 12090,
 	last_effect = "",
 	effect_list = {}

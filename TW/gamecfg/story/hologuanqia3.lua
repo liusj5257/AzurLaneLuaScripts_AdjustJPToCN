@@ -1,20 +1,20 @@
 return {
-	id = "HOLOGUANQIA3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "holo-tokiwa",
 			say = "零星的几场战斗结束后，塞壬停止了继续增援，海域恢复了宁静。",
+			dir = 1,
+			bgm = "holo-tokiwa",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -27,8 +27,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "就在{namecode:96}与{namecode:158}寻找脱离镜面海域的航线时，海雾消散了",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "就像出现之时那么突然，二人的视野刹那间豁然开朗",
 			effects = {
 				{
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "与浓雾出现前的空旷海域不同，无数大小岛屿如凭空出现一般棋布在海域中，远方还有隐约可见的巨大水面建筑物",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "放眼细看，不论是岛屿还是岛屿上的树木砂石，甚至人工建筑，都是由无数方形色块构成的。",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "就好像对自然造物的低劣仿制一样",
 			typewriter = {
 				speed = 0.05,

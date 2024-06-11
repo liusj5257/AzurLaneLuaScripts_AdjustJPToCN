@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection! A Glimpse Into Another Life\n\n<size=45>2 Brilliant Touchdown</size>",
@@ -17,28 +17,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_112",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "When the whistle is blown to signal the start of half-time, I find a good opportunity to run over to Prinz Eugen, who just scored minutes ago.",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -77,13 +77,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			hideRecordIco = true,
 			actor = 403036,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, you're doing great. Let's talk about our second half strategy.",
 			typewriter = {
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			hideRecordIco = true,
 			actor = 403036,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That being...?",
 			typewriter = {
@@ -435,9 +435,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_112",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_112",
 			hideRecordIco = true,
 			actor = 403036,
 			nameColor = "#A9F548FF",
@@ -448,17 +448,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -519,11 +519,11 @@ return {
 			}
 		},
 		{
-			actor = 403036,
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			dir = 1,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You thirsty, too?",
@@ -686,9 +686,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_112",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_112",
 			hideRecordIco = true,
 			actor = 403036,
 			nameColor = "#A9F548FF",
@@ -699,17 +699,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -736,11 +736,11 @@ return {
 			}
 		},
 		{
-			actor = 403036,
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			dir = 1,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hmm? Heheh, you look more excited for our \"second half.\"",

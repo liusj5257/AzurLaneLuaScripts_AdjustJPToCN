@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "小海狸中队",
 	time = 0,
-	color = "yellow",
+	name = "小海狸中队",
+	init_effect = "",
+	id = 6002,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6002,
+	color = "yellow",
 	icon = 6002,
 	last_effect = "",
 	effect_list = {

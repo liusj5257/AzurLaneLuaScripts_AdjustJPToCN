@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU31",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level-french1",
+			say = "The Basilica Isle - Surrounding Waters",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
-			say = "The Basilica Isle - Surrounding Waters",
+			bgm = "level-french1",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -34,8 +34,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "Wait, Algérie!",
 			typewriter = {
@@ -51,8 +51,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ff5c5c",
 			say = "All right, we're headed back home! ...Wait, we can't do that, can we?",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ff5c5c",
 			say = "Gascogne is doing her best out there. Or not? ...Guess Iris Libre's knights are no slouches either.",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "...But I'm a magician...",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ff5c5c",
 			say = "Hmm... I don't think you'll be catching us at any rate~",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "Looks like we have somewhere to be... Everyone, pick up the pace and don't get left behind.",
 			typewriter = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/hit",
+			say = "Swoosh!",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
-			say = "Swoosh!",
+			soundeffect = "event:/battle/hit",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "Wh-what?! Was that a torpedo? Fortune, watch out!",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "Why are Sakura Empire submarines here...?! Everyone, stay alert!",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "Woah! These torpedoes are too fast to dodge...!",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,8 +302,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "Tem, calm down...! The torpedoes can't curve, so as long as we avoid their line of sight...",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ff5c5c",
 			say = "Phew, we're saved~! Algérie, are these girls the reinforcements that those memos said we'd be getting?",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -346,8 +346,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "Who knows? All I was told that we'd be safe as long as we came here.",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "(But this isn't how Bismarck usually does things... In that case, who's behind all this...)",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "Their torpedoes are so fast that they're hardly leaving behind a wake...! We won't be able to catch up to Algérie at this rate!",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "After all, the Azur Lane and the Crimson Axis are one and the same... *sigh*",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "Please take care of Richelieu...",
 			typewriter = {

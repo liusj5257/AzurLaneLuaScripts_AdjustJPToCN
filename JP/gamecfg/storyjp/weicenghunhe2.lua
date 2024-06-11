@@ -1,13 +1,13 @@
 return {
-	id = "WEICENGHUNHE2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "パトロール艦隊――ボルチモアが率いる艦隊が突如現れた海霧に突入した後、行方不明。.",
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "要塞への支援、そしてボルチモア艦隊救出のための増援艦隊が早速編成された。",
 			typewriter = {
@@ -35,15 +35,15 @@ return {
 			}
 		},
 		{
-			say = "運河要塞・周辺海域",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "hunhe-story",
+			say = "運河要塞・周辺海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 103240,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103240,
+			nameColor = "#a9f548",
 			say = "へーこれが伝説の運河要塞？噂は聞いてたけど、実際に見たらやっぱりすごいわね",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "ブレマートンは確かずっとNYシティ配置だったっけ？この辺りに来たことなかったんだ？",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "そうですね。軍事輸送だけでなく、民生にも決して欠かせない重要な航路ですもの",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "先行のボルチモアたちのことはやっぱり心配ね…",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,15 +187,15 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "要塞が見えるところまで来たというのに、敵の影すらないのね……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "もしかして鏡面海域に巻き込まれた？ほらあの突然発生した海霧、明らかにおかしいし",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "それに当日パナマ運河周辺を通る輸送船団も、無事海霧を通って要塞に到着しましたから",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "つまり海霧の中に入って、通信機器が故障して、セイレーンと遭遇して…流石に「すべて偶然だー」とは言えないね、これ",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "私もイントレピッドと同意見だ。この状況はどう見ても普通じゃない",
 			typewriter = {
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "ただ、海霧が消えた今、探すにも手がかりはない。あの広さではとても手に負えないしな",
 			typewriter = {

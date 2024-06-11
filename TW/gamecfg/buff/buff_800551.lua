@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.3
+					number = -0.3,
+					type = 23
 				}
 			},
 			{
@@ -32,8 +32,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.322
+					number = -0.322,
+					type = 23
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.344
+					number = -0.344,
+					type = 23
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.366
+					number = -0.366,
+					type = 23
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.388
+					number = -0.388,
+					type = 23
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.41
+					number = -0.41,
+					type = 23
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.432
+					number = -0.432,
+					type = 23
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.454
+					number = -0.454,
+					type = 23
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.476
+					number = -0.476,
+					type = 23
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.5
+					number = -0.5,
+					type = 23
 				}
 			},
 			{
@@ -239,9 +239,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "主炮装填时间缩短",
 	stack = 1,
@@ -256,8 +256,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = 23,
-				number = -0.3
+				number = -0.3,
+				type = 23
 			}
 		},
 		{

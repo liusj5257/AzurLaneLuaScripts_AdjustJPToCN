@@ -160,6 +160,10 @@ slot2 = {
 	SC_26159_RET_FIELD = slot0.FieldDescriptor(),
 	SC_26159_REFRESH_TIME_FIELD = slot0.FieldDescriptor(),
 	SC_26159_PARTY_ROLES_FIELD = slot0.FieldDescriptor(),
+	CS_26160_ACT_ID_FIELD = slot0.FieldDescriptor(),
+	CS_26160_INT_VALUE_FIELD = slot0.FieldDescriptor(),
+	CS_26160_STR_VALUE_FIELD = slot0.FieldDescriptor(),
+	SC_26161_RESULT_FIELD = slot0.FieldDescriptor(),
 	P_PARTY_ROLE_TID_FIELD = slot0.FieldDescriptor(),
 	P_PARTY_ROLE_BUBBLE_FIELD = slot0.FieldDescriptor(),
 	P_PARTY_ROLE_SPEECH_BUBBLE_FIELD = slot0.FieldDescriptor(),
@@ -178,7 +182,8 @@ slot2 = {
 	FRIENDSCORE_ID_FIELD = slot0.FieldDescriptor(),
 	FRIENDSCORE_NAME_FIELD = slot0.FieldDescriptor(),
 	FRIENDSCORE_SCORE_FIELD = slot0.FieldDescriptor(),
-	FRIENDSCORE_DISPLAY_FIELD = slot0.FieldDescriptor()
+	FRIENDSCORE_DISPLAY_FIELD = slot0.FieldDescriptor(),
+	FRIENDSCORE_TIME_DATA_FIELD = slot0.FieldDescriptor()
 }
 SC_26001 = slot0.Descriptor()
 CS_26002 = slot0.Descriptor()
@@ -245,6 +250,8 @@ CS_26156 = slot0.Descriptor()
 SC_26157 = slot0.Descriptor()
 CS_26158 = slot0.Descriptor()
 SC_26159 = slot0.Descriptor()
+CS_26160 = slot0.Descriptor()
+SC_26161 = slot0.Descriptor()
 P_PARTY_ROLE = slot0.Descriptor()
 P_SPECIAL_ROLE = slot0.Descriptor()
 GOODS_INFO = slot0.Descriptor()
@@ -1762,7 +1769,7 @@ slot2.MINIGAMEHUB_MAXSCORES_FIELD.index = 4
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.label = 3
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.has_default_value = false
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.default_value = {}
-slot2.MINIGAMEHUB_MAXSCORES_FIELD.message_type = slot1.KVDATA
+slot2.MINIGAMEHUB_MAXSCORES_FIELD.message_type = slot1.KVDATA2
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.type = 11
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.cpp_type = 10
 MINIGAMEHUB.name = "minigamehub"
@@ -2365,6 +2372,62 @@ SC_26159.fields = {
 }
 SC_26159.is_extendable = false
 SC_26159.extensions = {}
+slot2.CS_26160_ACT_ID_FIELD.name = "act_id"
+slot2.CS_26160_ACT_ID_FIELD.full_name = "p26.cs_26160.act_id"
+slot2.CS_26160_ACT_ID_FIELD.number = 1
+slot2.CS_26160_ACT_ID_FIELD.index = 0
+slot2.CS_26160_ACT_ID_FIELD.label = 2
+slot2.CS_26160_ACT_ID_FIELD.has_default_value = false
+slot2.CS_26160_ACT_ID_FIELD.default_value = 0
+slot2.CS_26160_ACT_ID_FIELD.type = 13
+slot2.CS_26160_ACT_ID_FIELD.cpp_type = 3
+slot2.CS_26160_INT_VALUE_FIELD.name = "int_value"
+slot2.CS_26160_INT_VALUE_FIELD.full_name = "p26.cs_26160.int_value"
+slot2.CS_26160_INT_VALUE_FIELD.number = 2
+slot2.CS_26160_INT_VALUE_FIELD.index = 1
+slot2.CS_26160_INT_VALUE_FIELD.label = 1
+slot2.CS_26160_INT_VALUE_FIELD.has_default_value = false
+slot2.CS_26160_INT_VALUE_FIELD.default_value = 0
+slot2.CS_26160_INT_VALUE_FIELD.type = 13
+slot2.CS_26160_INT_VALUE_FIELD.cpp_type = 3
+slot2.CS_26160_STR_VALUE_FIELD.name = "str_value"
+slot2.CS_26160_STR_VALUE_FIELD.full_name = "p26.cs_26160.str_value"
+slot2.CS_26160_STR_VALUE_FIELD.number = 3
+slot2.CS_26160_STR_VALUE_FIELD.index = 2
+slot2.CS_26160_STR_VALUE_FIELD.label = 1
+slot2.CS_26160_STR_VALUE_FIELD.has_default_value = false
+slot2.CS_26160_STR_VALUE_FIELD.default_value = ""
+slot2.CS_26160_STR_VALUE_FIELD.type = 9
+slot2.CS_26160_STR_VALUE_FIELD.cpp_type = 9
+CS_26160.name = "cs_26160"
+CS_26160.full_name = "p26.cs_26160"
+CS_26160.nested_types = {}
+CS_26160.enum_types = {}
+CS_26160.fields = {
+	slot2.CS_26160_ACT_ID_FIELD,
+	slot2.CS_26160_INT_VALUE_FIELD,
+	slot2.CS_26160_STR_VALUE_FIELD
+}
+CS_26160.is_extendable = false
+CS_26160.extensions = {}
+slot2.SC_26161_RESULT_FIELD.name = "result"
+slot2.SC_26161_RESULT_FIELD.full_name = "p26.sc_26161.result"
+slot2.SC_26161_RESULT_FIELD.number = 1
+slot2.SC_26161_RESULT_FIELD.index = 0
+slot2.SC_26161_RESULT_FIELD.label = 2
+slot2.SC_26161_RESULT_FIELD.has_default_value = false
+slot2.SC_26161_RESULT_FIELD.default_value = 0
+slot2.SC_26161_RESULT_FIELD.type = 13
+slot2.SC_26161_RESULT_FIELD.cpp_type = 3
+SC_26161.name = "sc_26161"
+SC_26161.full_name = "p26.sc_26161"
+SC_26161.nested_types = {}
+SC_26161.enum_types = {}
+SC_26161.fields = {
+	slot2.SC_26161_RESULT_FIELD
+}
+SC_26161.is_extendable = false
+SC_26161.extensions = {}
 slot2.P_PARTY_ROLE_TID_FIELD.name = "tid"
 slot2.P_PARTY_ROLE_TID_FIELD.full_name = "p26.p_party_role.tid"
 slot2.P_PARTY_ROLE_TID_FIELD.number = 1
@@ -2601,6 +2664,15 @@ slot2.FRIENDSCORE_DISPLAY_FIELD.default_value = nil
 slot2.FRIENDSCORE_DISPLAY_FIELD.message_type = slot1.DISPLAYINFO
 slot2.FRIENDSCORE_DISPLAY_FIELD.type = 11
 slot2.FRIENDSCORE_DISPLAY_FIELD.cpp_type = 10
+slot2.FRIENDSCORE_TIME_DATA_FIELD.name = "time_data"
+slot2.FRIENDSCORE_TIME_DATA_FIELD.full_name = "p26.friendscore.time_data"
+slot2.FRIENDSCORE_TIME_DATA_FIELD.number = 5
+slot2.FRIENDSCORE_TIME_DATA_FIELD.index = 4
+slot2.FRIENDSCORE_TIME_DATA_FIELD.label = 2
+slot2.FRIENDSCORE_TIME_DATA_FIELD.has_default_value = false
+slot2.FRIENDSCORE_TIME_DATA_FIELD.default_value = 0
+slot2.FRIENDSCORE_TIME_DATA_FIELD.type = 13
+slot2.FRIENDSCORE_TIME_DATA_FIELD.cpp_type = 3
 FRIENDSCORE.name = "friendscore"
 FRIENDSCORE.full_name = "p26.friendscore"
 FRIENDSCORE.nested_types = {}
@@ -2609,7 +2681,8 @@ FRIENDSCORE.fields = {
 	slot2.FRIENDSCORE_ID_FIELD,
 	slot2.FRIENDSCORE_NAME_FIELD,
 	slot2.FRIENDSCORE_SCORE_FIELD,
-	slot2.FRIENDSCORE_DISPLAY_FIELD
+	slot2.FRIENDSCORE_DISPLAY_FIELD,
+	slot2.FRIENDSCORE_TIME_DATA_FIELD
 }
 FRIENDSCORE.is_extendable = false
 FRIENDSCORE.extensions = {}
@@ -2646,6 +2719,7 @@ cs_26152 = slot0.Message(CS_26152)
 cs_26154 = slot0.Message(CS_26154)
 cs_26156 = slot0.Message(CS_26156)
 cs_26158 = slot0.Message(CS_26158)
+cs_26160 = slot0.Message(CS_26160)
 friendscore = slot0.Message(FRIENDSCORE)
 gameroom = slot0.Message(GAMEROOM)
 goods_info = slot0.Message(GOODS_INFO)
@@ -2684,4 +2758,5 @@ sc_26153 = slot0.Message(SC_26153)
 sc_26155 = slot0.Message(SC_26155)
 sc_26157 = slot0.Message(SC_26157)
 sc_26159 = slot0.Message(SC_26159)
+sc_26161 = slot0.Message(SC_26161)
 select_info = slot0.Message(SELECT_INFO)

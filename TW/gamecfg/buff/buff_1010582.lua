@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "吸血鬼之吻 +",
 	time = 0,
+	name = "吸血鬼之吻 +",
+	init_effect = "",
 	picture = "",
 	desc = "吸血鬼之吻 +持续状态",
 	stack = 1,

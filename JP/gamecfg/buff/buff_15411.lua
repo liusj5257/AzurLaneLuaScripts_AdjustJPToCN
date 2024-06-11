@@ -10,8 +10,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.05
+						max = 0.05,
+						base = 10
 					},
 					index = {
 						2
@@ -31,8 +31,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.061
+						max = 0.061,
+						base = 10
 					},
 					index = {
 						2
@@ -52,8 +52,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.072
+						max = 0.072,
+						base = 10
 					},
 					index = {
 						2
@@ -73,8 +73,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.083
+						max = 0.083,
+						base = 10
 					},
 					index = {
 						2
@@ -94,8 +94,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.094
+						max = 0.094,
+						base = 10
 					},
 					index = {
 						2
@@ -115,8 +115,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.105
+						max = 0.105,
+						base = 10
 					},
 					index = {
 						2
@@ -136,8 +136,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.116
+						max = 0.116,
+						base = 10
 					},
 					index = {
 						2
@@ -157,8 +157,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.127
+						max = 0.127,
+						base = 10
 					},
 					index = {
 						2
@@ -178,8 +178,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.138
+						max = 0.138,
+						base = 10
 					},
 					index = {
 						2
@@ -199,8 +199,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = -0.003,
-						base = 10,
-						max = 0.15
+						max = 0.15,
+						base = 10
 					},
 					index = {
 						2
@@ -209,14 +209,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 15411,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15411,
+	color = "red",
 	icon = 15410,
 	last_effect = "",
 	blink = {
@@ -236,8 +236,8 @@ return {
 				attr = "damageRatioBullet",
 				displacement_convert = {
 					rate = -0.003,
-					base = 10,
-					max = 0.05
+					max = 0.05,
+					base = 10
 				},
 				index = {
 					2

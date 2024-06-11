@@ -1,15 +1,15 @@
 return {
-	id = "W1040",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1040",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "檢測到塞壬的特殊資源補給。因為能源枯竭，已經無法正常開啟了。不過，就算強行破壞也能回收一定材料。",
 			painting = {
 				alpha = 0.3,

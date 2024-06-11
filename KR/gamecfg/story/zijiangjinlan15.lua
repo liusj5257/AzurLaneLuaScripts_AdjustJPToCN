@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
+			bgm = "battle-againstfate",
 			stopbgm = true,
 			say = "장기판 경기장·아카기 통제 구역 제4 라운드. 조금전——",
-			bgm = "battle-againstfate",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "히잉… 또 하나의 양산형 함대가 제거됐어요. 이렇게 가다간 선수들이 반격을 받게 될지도 모르겠어요….",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg9",
 			say = "야마시로가 고개를 들어 먼 곳을 바라보니 아카기가 조금 전까지만 해도 컴파일러가 서있던 자리에 조용히 서있었다.",
 			typewriter = {
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
 			say = "그녀의 옆엔 아직 사라지지 않은 꽃잎이 보였고, 사방엔 아직 타오르는 불꽃이 보였다. 하지만 조금 전까지만 해도 위풍당당하던 컴파일러는 사라진 상태였다.",
 			effects = {
 				{
@@ -187,8 +187,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "답답하고 재미없어서 바람 좀 쐬러 왔어요.",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "아카기 선배, 방금 무슨 일이 있었던 거죠…?",
 			painting = {
@@ -237,8 +237,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "하지만 비상식적인 방식으로 발생하는 살상에 대해서는 저항력이 매우 낮죠. 예를 들어 내 입장 효과 덕분에 발생한 특별 대미지와 같은 거 말이에요.",
 			painting = {
@@ -302,8 +302,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "그렇군요…. 역시 아카기 선배네요. 전장의 디테일 하나하나 신경 쓰고 있다니 말이에요!",
 			painting = {
@@ -319,8 +319,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "나 역시 이번 경기는 진지하게 임하고 있거든요.",
 			painting = {
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "그리고 야마시로는, 나중에 더 가야 할 중요한 곳이 있어요.",
 			painting = {
@@ -433,8 +433,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "후후, 몸풀기는 여기서 끝내는 게 좋겠어요.",
 			painting = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "대선배는 우리가 거점을 공격한 틈을 타 우리의 경계선쪽을 봉쇄한 것 같군요. 그럼 이젠 우리가 그녀를 좀 괴롭히러 가볼까요.",
 			painting = {
@@ -480,13 +480,13 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			nameColor = "#A9F548FF",
+			side = 0,
 			bgName = "bg_wuzang_bg9",
-			hidePaintObj = true,
+			actor = 302130,
 			hideOther = true,
 			actorName = "진츠&미유키",
-			side = 0,
+			hidePaintObj = true,
 			say = "알겠습니다. 네, 아카기님!",
 			subActors = {
 				{
@@ -538,8 +538,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "야마시로가 그렇게 설정한 걸 보고 아카기 선배가 이런 결정을 내린 걸지도…?",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "하핫, 이럴때 보면 야마시로와 아카기 선배는 찰떡 궁합인 것 같다니까요.",
 			painting = {
@@ -588,8 +588,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "아카기 선배, 대선배와 중심 구역의 차단 작전은 저도 야마시로와 함께 가겠습니다. 어떤 위험이 있을지 모르니 둘이 함께 상황을 살펴보는 것이 좋을 것 같아요.",
 			painting = {
@@ -621,8 +621,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "하지만 류호의 제안도 일리가 있는 것 같네요. 둘이 함께 간다면 대선배님이 중심 구역과 가까워지는 건 불가능할테니까요. 좋아요, 류호도 같이 가는 걸로 하죠.",
 			painting = {
@@ -638,8 +638,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "네, 아카기 선배.",
 			painting = {

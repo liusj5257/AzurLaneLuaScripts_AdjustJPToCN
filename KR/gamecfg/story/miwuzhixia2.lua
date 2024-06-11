@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-6",
 			side = 2,
 			bgName = "bg_battle_night",
-			dir = 1,
 			say = "요새 동쪽 외해?·해무 속",
+			dir = 1,
+			bgm = "story-6",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -29,9 +29,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "흰 색. 아무리 보아도, 시야에는 오직 새하얀 흰 색 뿐.",
 			typewriter = {
 				speed = 0.05,
@@ -43,11 +43,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "젠장...... 또 이런 잔재주를 피우다니!",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,13 +69,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "모두 서로 거리를 유지해. 안개 속에서 습격해올 수 있으니 조심하고!",
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "모두 서로 거리를 유지해. 안개 속에서 습격해올 수 있으니 조심하고!",
 			flashN = {
 				color = {
 					1,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "이글 유니온 함대는 짙은 안개 속에서 전진하고 있다. 사방에서 날아오는 포탄과 어뢰로 봤을 때, 주위에 매복한 세이렌의 수는 그야말로 가관이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "똑같아. 레이더 상으론 아무것도 안보여...",
 			typewriter = {
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "분명 어디를 가도 세이렌 군함이 깔려 있는데, 레이더로는 탐지가 안된다니, 이게 대체 무슨 일이야!",
 			dialogShake = {
 				speed = 0.09,
@@ -194,8 +194,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "“해무” 자체가 아마 세이렌의 함정일거야. 무슨 수단을 써서 레이더 시스템을 방해한거야...",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "게다가 해무를 통해 우리의 동향을 파악할 수 있는 것 같아... 계속 이러다간 일방적으로 당할거야.",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "기상청에서 해무가 점점 퍼지고 있다는 소식을 들었을 때, 세이렌의 습격이 아닌가하고 생각했었는데...",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "완전히 당했어... 이제 어떻게 하지...?",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "정확한 판단이야~ 세이렌의 홈 그라운드에서 헛되이 희생하는 것은 좋은 선택이라고 할 수 없지.",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "헬레나, 파나마 요새를 향해 경보를 발송해줘. 요새에서 해무를 따라오는 습격을 맞이할 준비하도록.",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "방금 이미... 발송했어! 해무가 통신 시스템을 방해하는 것 같진 않네.",
 			typewriter = {
@@ -361,9 +361,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
 			blackBg = true,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "좋아! 모두들 서로 엄호하며 요새를 향해 계속 전진! 주둔 함대와 합류한 후에 방어 시스템으로 세이렌을 무찌르자고!",
 			typewriter = {

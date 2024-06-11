@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_282 = {}
 slot1 = slot0.word_template_282
 
-function temp()
+temp = function()
 	uv0["桐"] = {
 		["岛"] = {
 			["绘"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["统"] = {
 		["独"] = {
 			["论"] = {
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["捅"] = {
 		["鸡"] = {
 			["局"] = {
@@ -91,7 +91,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["統"] = {
 		["獨"] = {
 			this = true,
@@ -109,7 +109,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["痛"] = {
 		["恨"] = {
 			["这"] = {
@@ -139,7 +139,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["偷"] = {
 		["欢"] = {
 			this = true
@@ -243,7 +243,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["投"] = {
 		["毒"] = {
 			["杀"] = {

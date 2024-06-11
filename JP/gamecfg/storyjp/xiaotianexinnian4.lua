@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"正月の祝福\n\n<size=45>四 重桜の正月</size>",
@@ -19,15 +19,15 @@ return {
 		{
 			actor = 205060,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "前々から重桜の新年は賑やかだとは聞いていたが……もしかして結構面白いのか？",
+			bgName = "bg_story_outdoor",
 			bgm = "main-newyear",
+			nameColor = "#a9f548",
+			say = "前々から重桜の新年は賑やかだとは聞いていたが……もしかして結構面白いのか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			say = "それと夕立が言ってた「ソバトモチ」も気になる！いやぁ、いっぱい体を動かした後じゃ、流石にお腹も空いてくるよな",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それと夕立が言ってた「ソバトモチ」も気になる！いやぁ、いっぱい体を動かした後じゃ、流石にお腹も空いてくるよな",
+			actor = 102090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "あの……その、オイゲンさんの酔いっぷりとか……あわわわ、どんな感じかちょっと想像できないかも……",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 399010,
+			say = "服についている雪も融け始めているようですし、そろそろ重桜寮に移動しましょうか？",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "服についている雪も融け始めているようですし、そろそろ重桜寮に移動しましょうか？",
+			actor = 399010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -317,15 +317,15 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "ふにゃ～、やっとお雑煮ができたにゃ！一番先に味見するのは……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -350,8 +350,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -360,12 +360,12 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "にゃ！？みんなどこへ行ったにゃ！？",
 			typewriter = {
 				speed = 0.05,

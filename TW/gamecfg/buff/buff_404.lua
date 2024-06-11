@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "永久航空向破甲",
 	time = 0,
+	name = "永久航空向破甲",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = 0.05
+				number = 0.05,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

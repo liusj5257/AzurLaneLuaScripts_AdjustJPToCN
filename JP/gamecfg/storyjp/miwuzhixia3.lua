@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-6",
 			side = 2,
 			bgName = "bg_battle_night",
-			dir = 1,
 			say = "運河要塞・東部？",
+			dir = 1,
+			bgm = "story-6",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -29,11 +29,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/dididi",
+			say = "――・――・――",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "――・――・――",
+			soundeffect = "event:/battle/dididi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,8 +47,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "あ……",
 			typewriter = {
@@ -61,8 +61,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -74,8 +74,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "みんな！今レーダーに何かが映ったわ！",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "レーダーが機能しないんじゃなかったの？",
 			typewriter = {
@@ -105,11 +105,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/dididi",
+			say = "――・――・――",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "――・――・――",
+			soundeffect = "event:/battle/dididi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "ああ、こっちも確認した。反応は弱いが確かに信号があったぞ",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -150,8 +150,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "しかも識別波形は友軍艦…私たちと同じように巻き込まれた輸送艦なの？",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "となると、セイレーンの罠である可能性は――",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "よし、様子を見に行こうか",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "ええ、様子を見て……って行くの？！",
 			dialogShake = {
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "となると、セイレーンの動向を目印にするしか無いわね…",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "はい！",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "ここは一歩踏み込んで、その陰謀を暴こうじゃないか",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "こういう駆け引きは得意じゃないけど、やっぱりこれは危険すぎない？一回要塞に向かったほうが…",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "……見殺しにするわけにはいかないわね",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "でもセイレーンが本当にそこで待ち伏せしていたら…",
 			typewriter = {
@@ -495,9 +495,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
 			blackBg = true,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "さあ、みんな、出発するぞ！",
 			typewriter = {

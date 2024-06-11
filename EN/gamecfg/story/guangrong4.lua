@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"A Glorious Interlude\n\n<size=45>Chapter 4 - The Queen Incident Pt. 2</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "As for how I intend to prove Ark Royal's innocence, my case stands on three legs——",
 			bgm = "story-1",
+			actor = 207060,
+			nameColor = "#a9f548",
+			say = "As for how I intend to prove Ark Royal's innocence, my case stands on three legs——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,16 +82,16 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "Huh.",
 			action = {
 				{
-					type = "shake",
 					y = 7.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					X = 0,
@@ -108,16 +108,16 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_school",
+			dir = 1,
 			actor = 205010,
-			side = 2,
-			bgName = "bg_story_school",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Huh.",
 			action = {
 				{
-					type = "shake",
 					y = 7.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					X = 0,
@@ -134,16 +134,16 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_school",
+			dir = 1,
 			actor = 202120,
-			side = 2,
-			bgName = "bg_story_school",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Huh.",
 			action = {
 				{
-					type = "shake",
 					y = 7.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					X = 0,
@@ -160,10 +160,10 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "Together",
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
+			say = "I know what it's like to have little ones you care about, like little sisters to— No, they're even more important to me than a little sister.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I know what it's like to have little ones you care about, like little sisters to— No, they're even more important to me than a little sister.",
+			actor = 207060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -281,10 +281,10 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "Together",
@@ -329,10 +329,10 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 205020,
 			dir = 1,
 			hideOther = true,
 			actorName = "Warspite＆Belfast",
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
+			say = "Think nothing of it! Only a trifle. ... It was my pleasure to see you get off, Ark Royal.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Think nothing of it! Only a trifle. ... It was my pleasure to see you get off, Ark Royal.",
+			actor = 207060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

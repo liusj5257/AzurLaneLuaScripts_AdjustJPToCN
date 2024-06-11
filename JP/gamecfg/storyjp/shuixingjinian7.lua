@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIXINGJINIAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIXINGJINIAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"クーちゃんが秘書艦！\n\n<size=45>七 休日を満喫したら…</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
+			bgm = "story-2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "遊園地にて",
-			bgm = "story-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,11 +48,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わぁ…！新しくできたアトラクションじゃない！指揮官、クーちゃんこれに乗りた～い！",
 			flashout = {
 				dur = 1,
@@ -88,10 +88,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すごく美味しそう…！指揮官、クーちゃん、あれ食べた～い♪",
 			painting = {
 				alpha = 0.3,
@@ -106,10 +106,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あー！新作ゲームが売ってる…！？指揮官、もちろんクーちゃんに買ってくれるよね？",
 			painting = {
 				alpha = 0.3,
@@ -124,10 +124,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっちのゲーム面白そう！ちょっと並んでくる！",
 			painting = {
 				alpha = 0.3,
@@ -139,9 +139,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "腰のことを抜きにしても、普段からは考えられないほど凄まじいスタミナだ…………",
 			flashout = {
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "しかも遊園地のゲームコーナーでのあの無双っぷり…クーちゃんのゲームの腕の評価を改める必要がありそうだ。",
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "しかし、もし素であれほど上手なら、この間自分にボロ負けしたのはもしかして…？",
@@ -196,10 +196,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、これをもらったわよ！あげる！",
 			painting = {
 				alpha = 0.3,
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "チャレンジコーナーの最高記録を更新したクーちゃんは、どうやら記念として賞品を手に入れてきたようだ。",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "彼女が手に持っている賞品を見てみると…",
@@ -236,10 +236,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どう？結構きれいでしょう！",
 			painting = {
 				alpha = 0.3,
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "その手のひらにあったのは小さなスノードームだった。",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "雪の大地にぽつりと佇む小屋。ドームのスイッチを押せば、まるで本物のような雪がハラハラと舞い落ちる演出になっている。",
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "別に高級でも、大きくもないただの精巧な工芸品だが、それでもクーちゃんの実力と気持ちを表すには十分すぎるものだった。",
@@ -287,10 +287,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっちのチャレンジコーナーで記録更新した賞品よ！クーちゃんすごいでしょ！",
 			painting = {
 				alpha = 0.3,
@@ -305,10 +305,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふーん、もっと褒めてもいいわよ！なんなら拝み倒してもいいわ！",
 			painting = {
 				alpha = 0.3,
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "こうして、クーちゃんと遊園地での楽しいひと時を過ごした……",
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "やがて夕焼けが世界を金色に染め始め――",
@@ -341,17 +341,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "寮への帰り道、クーちゃんは楽しそうに軽快なステップを踏んでいた。",
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "例の小気味よい靴の音が響き、カツカツと彼女の上機嫌な様子がリズムからも感じ取れる。",
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "その後ろには、大半をゲームの賞品や記念品で占められたショッピングバッグで両手がいっぱいになっている自分がいた。",
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "そういえば、遊園地から出たときの明石の目つきが何やら意味ありげだったが…",
@@ -406,10 +406,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふんふふーん♪",
 			painting = {
 				alpha = 0.3,
@@ -421,8 +421,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "気のせいか、クーちゃんは一瞬だけこっちに目を向けてきたような…",
@@ -435,10 +435,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、クーちゃん疲れた～。どこかで一休みしない？",
 			painting = {
 				alpha = 0.3,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "腰に手を当て、わざと疲れ顔を作ったクーちゃんは近くのベンチを指差した。",
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "彼女なりの気遣い…だろうか？",
@@ -482,8 +482,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -746,8 +746,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -796,8 +796,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -830,10 +830,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "早く寮へと戻るわよ！",
 			painting = {
 				alpha = 0.3,
@@ -848,10 +848,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それともう一つ、クーちゃんの部屋に突撃するのは予め連絡してからでお願いね！",
 			painting = {
 				alpha = 0.3,

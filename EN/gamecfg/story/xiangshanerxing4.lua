@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
+			bgm = "story-darkplan",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Somewhere, in an unknown location...",
-			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			say = "A galaxy of glimmering silver lights expands before my eyes.",
@@ -83,10 +83,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "It's not that. It's both your dream and someone else's.",
 			painting = {
 				alpha = 0.3,
@@ -101,10 +101,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Good to see you again, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -131,10 +131,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Mhm. Your Helena.",
 			painting = {
 				alpha = 0.3,
@@ -161,10 +161,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "I only did what had to be done, but you're welcome.",
 			painting = {
 				alpha = 0.3,
@@ -179,10 +179,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "I have to say, you're surprisingly calm for someone who's been mind-jacked.",
 			painting = {
 				alpha = 0.3,
@@ -197,10 +197,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Most people tend to... freak out, I suppose.",
 			painting = {
 				alpha = 0.3,
@@ -239,10 +239,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "That's true. I would never hurt you.",
 			painting = {
 				alpha = 0.3,
@@ -257,10 +257,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "...Let's cut to the chase.",
 			painting = {
 				alpha = 0.3,
@@ -275,10 +275,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "You wouldn't know about it, but there's a fierce battle taking place somewhere extremely close to you.",
 			painting = {
 				alpha = 0.3,
@@ -293,10 +293,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "You don't need to know who or what the battle is about, but I will say that it's forced me to use this roundabout way of contacting you.",
 			painting = {
 				alpha = 0.3,
@@ -308,12 +308,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "It's for your own safety. If I could, I would've simply called you.",
 			painting = {
 				alpha = 0.3,
@@ -328,10 +328,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Methods aside... I have something to tell you, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -346,10 +346,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Initiate data transfer mode. Execute.",
 			painting = {
 				alpha = 0.3,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			say = "A blue light glows around Helena before splitting up into rays, forming a cloudy stream that rushes toward me.",
@@ -387,10 +387,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "It's safe, don't worry. Just think of it as an unusual data transfer procedure.",
 			painting = {
 				alpha = 0.3,
@@ -405,10 +405,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Don't try to fight it. Let it happen.",
 			painting = {
 				alpha = 0.3,
@@ -423,10 +423,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "You simply must know what I'm about to show you.",
 			painting = {
 				alpha = 0.3,
@@ -438,27 +438,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_505",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_505",
 			say = "The blue light obstructs my vision completely...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "Then, a picture suddenly forms inside my mind.",
@@ -527,11 +527,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
+			bgName = "bg_port_chongdong",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Saratoga couldn't help herself.",
 			painting = {
 				alpha = 0.3,
@@ -542,17 +542,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -563,10 +563,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "She always gets passionate about anything that involves Lexington.",
 			painting = {
 				alpha = 0.3,
@@ -578,12 +578,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "What will you do with this knowledge, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -670,10 +670,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Fair analysis.",
 			painting = {
 				alpha = 0.3,
@@ -688,10 +688,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "If reforming the Azur Lane is your goal, then I can help with that.",
 			painting = {
 				alpha = 0.3,
@@ -706,10 +706,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "What happens next is up to you, though. My goal here was just to pass on this information.",
 			painting = {
 				alpha = 0.3,
@@ -724,10 +724,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "The battle that's unfolding now will determine the fate of test site beta. That's your branch, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -742,10 +742,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "If you have any plans, you should put them in motion sooner rather than later.",
 			painting = {
 				alpha = 0.3,
@@ -772,10 +772,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Yes. It really is.",
 			painting = {
 				alpha = 0.3,
@@ -790,10 +790,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Good night, Commander. Sweet dreams for the rest of the night.",
 			painting = {
 				alpha = 0.3,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT21",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇-日常篇\n\n<size=45>四　致姐姐大人…</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204030,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "初次见面，异世界的各位——我是本日前来助战的皇家荣耀，胡德。这位是我的随从…",
 			bgm = "story-uta",
+			actor = 204030,
+			nameColor = "#a9f548",
+			say = "初次见面，异世界的各位——我是本日前来助战的皇家荣耀，胡德。这位是我的随从…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "那个…咱，咱是…小天鹅。那个，这个……请多指教…",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个…咱，咱是…小天鹅。那个，这个……请多指教…",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "啊啦啊啦，又是一对感情深厚的姐妹登场了呢。真是倍感亲切",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "是……吗",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "但是这两位的话……不是更像久远大人和猫音大人吗？",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "我觉得我们的关系更自然一些啊…对吧猫音",
 			typewriter = {
@@ -236,12 +236,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "胡，胡德姐姐，居然这么关心咱…啊，诶？怎么突然凑过来…",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "胡，胡德姐姐，居然这么关心咱…啊，诶？怎么突然凑过来…",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "唔诶诶诶…胡德姐姐，凑太近啦！这么贴着咱的话，咱会害羞的……",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "那，那个！就算都是女孩子，也不好在别人面前贴这么紧吧……！",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "年龄微妙呢",
 			typewriter = {
@@ -377,10 +377,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "女孩子不管几岁都不能忘记作为少女的内心，母亲大人一直这么教导我们",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -571,12 +571,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			say = "军粮乃战场不可或缺之物……小天鹅，这次妳干的不错哦",
 			side = 0,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "军粮乃战场不可或缺之物……小天鹅，这次妳干的不错哦",
+			actor = 204030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -674,8 +674,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……怎么说呢，看着小天鹅这样我怎么觉得一点也不陌生",
 			typewriter = {
@@ -784,11 +784,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			withoutActorName = true,
-			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "——眼神一闪！",
 			typewriter = {
@@ -836,8 +836,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "禁语",
 			typewriter = {
@@ -853,10 +853,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "说出那个词的瞬间便感知到了与解放者之怒相匹敌的怒火。还请慎言。",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -906,9 +906,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
 			blackBg = true,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……真是让人想起卡露拉妈……姐姐大人呢……",
 			typewriter = {

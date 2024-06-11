@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鐵血某港口·作戰結束後某日",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			say = "鐵血某港口·作戰結束後某日",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#ff5c5c",
 			backBg = true,
 			say = "就說“計劃進行的十分順利，之後期待著她親自來參加鐵血的宴會哦~”",
 			typewriter = {

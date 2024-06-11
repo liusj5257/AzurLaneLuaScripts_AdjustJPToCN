@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "最后的反击",
 	time = 0,
-	color = "red",
+	name = "最后的反击",
+	init_effect = "",
+	id = 8903,
 	picture = "",
 	desc = "触发弹条",
 	stack = 1,
-	id = 8903,
+	color = "red",
 	icon = 8903,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.3
+				number = 0.3,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

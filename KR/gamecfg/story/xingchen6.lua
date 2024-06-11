@@ -78,8 +78,8 @@ return {
 			nameColor = "#92fc63",
 			say = "하지만…… \"자그마한 용기야말로 가장 강한 마법\"…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

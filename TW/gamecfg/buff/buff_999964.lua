@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
 	name = "",
 	time = 0,
+	init_effect = "",
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999964,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	blink = {
 		0,
 		0.5,

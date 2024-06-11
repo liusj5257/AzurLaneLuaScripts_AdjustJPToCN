@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"永夜之城的魅影\n\n<size=45>三 不勝的詛咒</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "果然，結果是平局。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "果然，結果是平局。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "看來，和之前相比並沒有什麼變化呢。",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "持續在這棋局裡的詛咒，終究無法被打破，實在可惜。",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "但就這麼吸乾你的話，也只能解一時之渴，無法排解這困擾吾許久的乏悶感……",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我改變主意了~如果你願意服從於我，今後永遠留在這裡作為我的寵物取悅我，我就將給予你無憂無慮的生活，以及人類夢寐以求的永生~",
 			typewriter = {
 				speed = 0.05,
@@ -123,10 +123,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "亦或是，吾再給予你一次對弈的機會。但你若沒能把握住這最後的機會，等待你的就只有成為食糧的悲慘下場了。",
 			typewriter = {
 				speed = 0.05,
@@ -138,12 +138,12 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "識時務者為俊傑，你應該知道哪一邊才是對你而言是正確的選擇吧~?",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "這是要做出選擇的意思嗎……如果選錯的話，看來會有非常危險的後果……",
 			typewriter = {
 				speed = 0.05,
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎呀，居然選擇了服從嗎，真是軟弱呢~",
 			typewriter = {
 				speed = 0.05,
@@ -216,13 +216,13 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我還需要時間準備隸屬之契與初擁之儀，在那之前就在我的懷裡好好躺著，於夢鄉之中靜靜等待吧~",
 			typewriter = {
 				speed = 0.05,
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,14 +296,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "醒來的時候，約克和埃姆登已經不見了，桌上只剩下了一個鑲嵌著紅寶石的項鍊。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -384,9 +384,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			blackBg = true,
-			dir = 1,
 			optionFlag = 1,
+			dir = 1,
+			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -505,16 +505,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
+			bgName = "star_level_bg_156",
 			actor = 403111,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "對局結束。取得勝利的是……埃姆登。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -539,13 +539,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒有試圖贏下對局，而是故意將勝利拱手相讓嗎！",
 			typewriter = {
 				speed = 0.05,
@@ -576,13 +576,13 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "雖然很可惜，不過我也必須按規則辦事……你可以離開了，人類。",
 			typewriter = {
 				speed = 0.05,
@@ -628,13 +628,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這個項鍊叫做“血之詛咒項鍊”。記住它的名字，以後你會用上的。",
 			typewriter = {
 				speed = 0.05,
@@ -646,11 +646,11 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
+			blackBg = true,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			blackBg = true,
+			optionFlag = 2,
 			say = "通往其他房間的門打開了，這一關……就算過了吧？",
 			typewriter = {
 				speed = 0.05,

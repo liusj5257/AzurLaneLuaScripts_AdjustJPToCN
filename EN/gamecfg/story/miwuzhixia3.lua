@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-6",
 			side = 2,
 			bgName = "bg_battle_night",
-			dir = 1,
 			say = "Canal Stronghold - Region unknown",
+			dir = 1,
+			bgm = "story-6",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -29,11 +29,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/dididi",
+			say = "(Beep... Beep... Beep...)",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "(Beep... Beep... Beep...)",
+			soundeffect = "event:/battle/dididi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,8 +47,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Was that...?",
 			typewriter = {
@@ -61,8 +61,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -74,8 +74,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Everyone, hold! My radar just detected something!",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Didn't you say it wasn't functioning earlier?",
 			typewriter = {
@@ -105,11 +105,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/dididi",
+			say = "(Beep... Beep... Beep...)",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "(Beep... Beep... Beep...)",
+			soundeffect = "event:/battle/dididi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "Hang on, I'm getting something too. The signal's weak, but it's definitely *something*.",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -150,8 +150,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "It seems they have an allied identification signal... Maybe they're transport ships who got caught in the mist too?",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "When you put it like that, it sounds more likely to be a trap laid by the Sirens.",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "Okay then. Let's go investigate.",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Yeah, let's go in– Wait, what?!",
 			dialogShake = {
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Either way, it sounds like we have to shift our focus to the Sirens...",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Roger!",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "Let's proceed cautiously and uncover what they're really doing here.",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Now, I'll admit I'm no master strategist, but isn't this really risky? I think we should head for the fortress instead.",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Then... we must help. We can't just leave them to their fates.",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "The more likely scenario is that it's a Siren ambush, though...",
 			typewriter = {
@@ -495,9 +495,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
 			blackBg = true,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "Everyone clear on what to do? Then let's go!",
 			typewriter = {

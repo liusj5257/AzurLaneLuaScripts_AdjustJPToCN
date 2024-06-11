@@ -159,14 +159,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 15300,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15300,
+	color = "red",
 	icon = 15300,
 	last_effect = "",
 	effect_list = {
@@ -187,8 +187,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 15301,
 				minWeaponNumber = 1,
+				skill_id = 15301,
 				check_weapon = true,
 				label = {
 					"SN"
@@ -201,8 +201,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 15302,
 				maxWeaponNumber = 0,
+				skill_id = 15302,
 				check_weapon = true,
 				label = {
 					"SN"

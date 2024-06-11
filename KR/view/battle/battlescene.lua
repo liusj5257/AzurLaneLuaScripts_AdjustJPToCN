@@ -22,11 +22,11 @@ slot0.SIDE_ALIGNMENT = {
 }
 slot1 = nil
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CombatUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	table.insert({}, slot0.contextData.system == SYSTEM_WORLD and checkExist(pg.world_expedition_data[slot0.contextData.stageId], {
 		"bgm"
 	}) or "")
@@ -41,7 +41,7 @@ function slot0.getBGM(slot0)
 	return uv0.super.getBGM(slot0)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0 = ys.Battle.BattleVariable
 	slot1 = pg.UIMgr.GetInstance():GetMainCamera()
 	slot0.uiCanvas = findTF(GameObject.Find("UICamera"), "Canvas/UIMain")
@@ -81,7 +81,7 @@ function slot0.init(slot0)
 	slot0._ratioFitter = GetComponent(slot0._tf, typeof(AspectRatioFitter))
 end
 
-function slot0.initPainting(slot0)
+slot0.initPainting = function(slot0)
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 	slot2 = slot1:InstSkillPaintingUI()
 
@@ -116,7 +116,7 @@ function slot0.initPainting(slot0)
 	end)
 end
 
-function slot0.EnableSkillFloat(slot0, slot1)
+slot0.EnableSkillFloat = function(slot0, slot1)
 	if slot1 == slot0._skillFloat then
 		return
 	end
@@ -140,7 +140,7 @@ function slot0.EnableSkillFloat(slot0, slot1)
 	SetActive(slot0.skillTips, slot1)
 end
 
-function slot0.SkillHrzPop(slot0, slot1, slot2, slot3, slot4)
+slot0.SkillHrzPop = function(slot0, slot1, slot2, slot3, slot4)
 	if not slot0._skillFloat then
 		table.insert(slot0._cacheSkill, {
 			skillName = slot1,
@@ -241,21 +241,21 @@ function slot0.SkillHrzPop(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.SkillHrzPopCover(slot0, slot1, slot2, slot3)
+slot0.SkillHrzPopCover = function(slot0, slot1, slot2, slot3)
 	slot0:SkillHrzPop(slot1, slot2, nil, slot3)
 end
 
-function slot0.handleSkillFloatCld(slot0, slot1)
+slot0.handleSkillFloatCld = function(slot0, slot1)
 	if math.floor(math.abs(slot1.anchoredPosition.y - slot0.anchoredPosition.y)) <= 112.5 then
 		slot2.y = slot3 + 112.5
 		slot1.anchoredPosition = slot2
 	end
 end
 
-function slot0.handleSkillSinkCld(slot0, slot1)
+slot0.handleSkillSinkCld = function(slot0, slot1)
 end
 
-function slot0.commanderSkillFloat(slot0, slot1, slot2, slot3)
+slot0.commanderSkillFloat = function(slot0, slot1, slot2, slot3)
 	slot0._commanderSkillList[slot1] = slot0._commanderSkillList[slot1] or {}
 	slot0._commanderSkillList[slot1][slot2] = true
 	slot4 = slot3.transform
@@ -280,7 +280,7 @@ function slot0.commanderSkillFloat(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.CutInPainting(slot0, slot1, slot2, slot3, slot4)
+slot0.CutInPainting = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0._currentPainting then
 		slot0._paintingAnimator.enabled = false
 
@@ -314,7 +314,7 @@ function slot0.CutInPainting(slot0, slot1, slot2, slot3, slot4)
 	slot0._paintingAnimator:Play("skill_painting", -1, 0)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setActive(slot0._tf, false)
 
 	slot0._ratioFitter.enabled = true
@@ -372,7 +372,7 @@ function slot0.didEnter(slot0)
 		slot3.ON_SUB_CONSORT
 	}
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		slot1 = 0
 
 		for slot5, slot6 in ipairs(slot0) do
@@ -394,14 +394,14 @@ function slot0.didEnter(slot0)
 	setActive(slot2, slot1:ChatUseable())
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.pauseWindow) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		triggerButton(slot0.continueBtn)
 	end
 end
 
-function slot0.activeBotHelp(slot0, slot1)
+slot0.activeBotHelp = function(slot0, slot1)
 	slot2 = getProxy(PlayerProxy)
 
 	if not slot1 then
@@ -435,7 +435,7 @@ function slot0.activeBotHelp(slot0, slot1)
 	slot2.botHelp = true
 end
 
-function slot0.exitBattle(slot0, slot1)
+slot0.exitBattle = function(slot0, slot1)
 	if not slot1 then
 		slot0:emit(BattleMediator.ON_QUIT_BATTLE_MANUALLY)
 		slot0:emit(BattleMediator.ON_BACK_PRE_SCENE)
@@ -444,23 +444,23 @@ function slot0.exitBattle(slot0, slot1)
 	end
 end
 
-function slot0.setChapter(slot0, slot1)
+slot0.setChapter = function(slot0, slot1)
 	slot0._chapter = slot1
 end
 
-function slot0.setFleet(slot0, slot1, slot2)
+slot0.setFleet = function(slot0, slot1, slot2)
 	slot0._mainShipVOs = slot1
 	slot0._vanShipVOs = slot2
 end
 
-function slot0.initPauseWindow(slot0)
+slot0.initPauseWindow = function(slot0)
 	slot0.pauseWindow = slot0:findTF("Msgbox")
 	slot0.LeftTimeContainer = slot0:findTF("window/LeftTime", slot0.pauseWindow)
 	slot0.LeftTime = slot0:findTF("window/LeftTime/Text", slot0.pauseWindow)
 	slot0.mainTFs = {}
 	slot0.vanTFs = {}
 
-	function slot1(slot0, slot1, slot2)
+	slot1 = function(slot0, slot1, slot2)
 		for slot6 = 1, 3 do
 			setActive(slot1:Find("ship_" .. slot6), slot2 and slot6 <= #slot2)
 
@@ -555,7 +555,7 @@ function slot0.initPauseWindow(slot0)
 	setActive(slot0.pauseWindow, false)
 end
 
-function slot0.updatePauseWindow(slot0)
+slot0.updatePauseWindow = function(slot0)
 	if not slot0.pauseWindow then
 		return
 	end
@@ -568,7 +568,7 @@ function slot0.updatePauseWindow(slot0)
 	slot2 = ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name)
 	slot3 = slot2:GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE)
 
-	function slot6(slot0, slot1, slot2)
+	slot6 = function(slot0, slot1, slot2)
 		if not slot0 then
 			return
 		end
@@ -592,7 +592,7 @@ function slot0.updatePauseWindow(slot0)
 	setText(slot0.LeftTime, ys.Battle.BattleTimerView.formatTime(math.floor(slot2:GetCountDown())))
 end
 
-function slot0.AddUIFX(slot0, slot1, slot2)
+slot0.AddUIFX = function(slot0, slot1, slot2)
 	slot2 = slot2 or 1
 	slot1 = tf(slot1)
 	slot4 = slot2 > 0 and slot0._fxContainerUpper or slot0._fxContainerBottom
@@ -604,11 +604,11 @@ function slot0.AddUIFX(slot0, slot1, slot2)
 	return slot4.localScale
 end
 
-function slot0.OnCloseChat(slot0)
+slot0.OnCloseChat = function(slot0)
 	setActive(slot0:findTF("chatBtn"), ys.Battle.BattleState.GetInstance():IsBotActive())
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0._preSkillTF = nil
 	slot0._preCommanderSkillTF = nil
 	slot0._commanderSkillList = nil
@@ -618,7 +618,7 @@ function slot0.clear(slot0)
 	Destroy(slot0._paintingUI)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0._skillFloatPool:Dispose()
 	slot0._skillFloatCMDPool:Dispose()
 	ys.Battle.BattleState.GetInstance():ExitBattle()

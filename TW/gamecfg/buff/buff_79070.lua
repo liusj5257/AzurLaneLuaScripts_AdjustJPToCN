@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "追击者烟幕lv1",
 	time = 0,
-	color = "yellow",
+	name = "追击者烟幕lv1",
+	init_effect = "",
+	id = 79070,
 	picture = "",
 	desc = "减速，降低命中，造成dot伤害",
 	stack = 1,
-	id = 79070,
+	color = "yellow",
 	icon = 4971,
 	last_effect = "poison_buff",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -200
+				number = -200,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -42,12 +42,12 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				attr = "cannonPower",
+				time = 2,
 				currentHPRatio = 0.01,
 				k = 0.3,
-				time = 2,
-				number = 20,
 				dotType = 1,
-				attr = "cannonPower"
+				number = 20
 			}
 		}
 	}

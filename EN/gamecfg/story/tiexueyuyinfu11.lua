@@ -1,16 +1,16 @@
 return {
-	id = "TIEXUEYUYINFU11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "TIEXUEYUYINFU11",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			bgm = "bsm-1",
-			dir = -1,
 			say = "————",
+			side = 2,
+			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			bgm = "bsm-1",
 			flashN = {
 				color = {
 					1,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "By the decree of the Queen, you are to lay down your arms and come with us. You shall have a fair trial in our courts.",
 			typewriter = {
 				speed = 0.05,
@@ -86,10 +86,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "So, is this how the Royal Navy does things, O \"Sailor King?\"",
+			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = 1,
-			say = "So, is this how the Royal Navy does things, O \"Sailor King?\"",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "Even in the face of our bloody retribution, you still insist on suppressing your fighting instict to resort to cheap rhetoric.",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "Tell me... You may be cutting edge warships, but do your hearts even know the thrill of battle?",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "Hahaha! It's been a long time since someone has called me that...",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "I shall not ask you another time–",
 			typewriter = {
 				speed = 0.05,
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
+			seDelay = 1.3,
 			say = "Booomm————",
 			soundeffect = "event:/battle/boom2",
-			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "She doesn't have the ammo for this. Fear not, our enemy is on her last legs!",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "She's made her choice painfully clear...",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "All forces, open fire! For the glory of the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
+			seDelay = 1.3,
 			say = "Booomm————",
 			soundeffect = "event:/battle/boom2",
-			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,

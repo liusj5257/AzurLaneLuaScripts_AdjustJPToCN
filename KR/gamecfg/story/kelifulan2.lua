@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"기사와 포상\n\n<size=45>2. 기사단 결성!</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "저녁. 체육관 한 쪽",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "저녁. 체육관 한 쪽",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "덴버&몬트필리어",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#92fc63",
 			say = "오——!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 1
@@ -80,16 +80,16 @@ return {
 			}
 		},
 		{
-			actor = 102100,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102100,
+			nameColor = "#92fc63",
 			say = "......풉. ......오——！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 1
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "보아하니 클리블랜드급 경순양함 4인조로 팀을 구성했다.",
 			typewriter = {
 				speed = 0.05,
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 102140,
+			nameColor = "#92fc63",
 			say = "...... 알았어. 언니가 명령만 내린다면, 나 혼자서라도 상대방 전부를 날려버려주겠어.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			say = "아니야! 상대를 날려버리는 게 아니라, 경기를 이겨야 하는거야!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아니야! 상대를 날려버리는 게 아니라, 경기를 이겨야 하는거야!",
+			actor = 102090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -248,16 +248,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "...... 뭐라고!? ///(얼굴 빨개짐)",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 15,
 					number = 2
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "클리블랜드는 순간 얼굴 전체가 빨개졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 102140,
+			say = "알았어...... 어이, 언니가 너를 위해 이번 일을 해냈으니까, 앞으로 한발짝도 언니에게서 떨어지지마. 알아들었지? 너는 언니의 일언일행을 모두 확실히 기억해야해.",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "알았어...... 어이, 언니가 너를 위해 이번 일을 해냈으니까, 앞으로 한발짝도 언니에게서 떨어지지마. 알아들었지? 너는 언니의 일언일행을 모두 확실히 기억해야해.",
+			actor = 102140,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -319,17 +319,17 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "아——니——야!! 사람 말 좀 똑바로 들어——!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 2

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "筑摩の「目」で見つけた竜宮仕掛けに向けて、駿河たちは敵と戦いながら前に進んていく。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
+			nameColor = "#a9f548",
+			say = "筑摩の「目」で見つけた竜宮仕掛けに向けて、駿河たちは敵と戦いながら前に進んていく。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "防御力が極めて高い量産艦の排除に苦労しつつ、なんとか進んでいたが",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "敵の密度がだんだんと上がり、ついに量産艦が横一列に並び水路を防がれる状況に遭遇してしまった。",
@@ -66,8 +66,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "まるで壁のように道を塞いじゃっています…",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "もうわけがわからないよこれ！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "駿河さん、ここは一発、戦艦の全開火力をお願いできます？",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "うん、任せて",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "道を塞ぐやつら……ぶっとばしてやるわぁー！！！",
 			typewriter = {
 				speed = 0.05,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "――――――！！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（結局目立ってるじゃない…まあほかに誰も見ていないしこのままでもいっか）",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "さっさとあの仕掛けをぶっ壊して、ここから脱出して任務を終わらせて早く帰りましょう…",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "駿河さん？",
 			typewriter = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "あっ、ううん何でもない、早く行きましょう",
 			typewriter = {
 				speed = 0.05,

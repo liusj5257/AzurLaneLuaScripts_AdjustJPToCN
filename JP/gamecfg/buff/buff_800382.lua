@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 2,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,

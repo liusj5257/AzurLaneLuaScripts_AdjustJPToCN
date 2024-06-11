@@ -20,8 +20,8 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			nameColor = "#a9f548",
 			say = "あの二人は南から来ていますから、おそらく……",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

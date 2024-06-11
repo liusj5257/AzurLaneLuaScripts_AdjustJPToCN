@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"凛として鬼の如く\n\n<size=45>一  非常事態！？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "重桜陣営との作戦会議を終えて執務室に戻ってくると、心なしかふわりと頬に風が当たった気がした。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "重桜陣営との作戦会議を終えて執務室に戻ってくると、心なしかふわりと頬に風が当たった気がした。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……部屋の奥でカーテンが膨らんでいる。どうやら窓を開けっぱなしにして出て行ってしまったみたいだ。",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――コンコン。",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ちょうど窓を閉めたところで、鬼怒がノックをして部屋に入ってきた。なんだろうと振り返ったその瞬間、",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……おい指揮官、そこを1ミリも動くなよ",
 			effects = {
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "突如険しい表情で物騒なことを言う鬼怒。すさまじい気迫に圧倒され、ほとんど反射的に硬直してしまった。",
 			effects = {
 				{
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "別に大したことじゃない。今お前の近くにスズメバチがいて――動くなと言っただろ",
 			typewriter = {
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "冷や汗が流れる中、鬼怒は実に落ち着いた様子で執務室の窓を静かに開け放った。",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "こちらが全力でじっとするよう努力している間、鬼怒はそっとこちらの襟に手を近づけてハチを自らの手に乗り移らせた。",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……これで良し。しかし指揮官ともありながらこの程度でうろたえるとはな",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "もっと強くなれ。この鬼を従えるためにもな",
 			typewriter = {

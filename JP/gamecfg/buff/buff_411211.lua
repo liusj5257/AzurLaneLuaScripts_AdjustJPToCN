@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "驱逐-指挥-雷击I具体效果",
 	time = 0,
-	color = "yellow",
+	name = "驱逐-指挥-雷击I具体效果",
+	init_effect = "",
+	id = 411211,
 	picture = "",
 	desc = "驱逐-指挥-雷击I",
 	stack = 1,
-	id = 411211,
+	color = "yellow",
 	icon = 411211,
 	last_effect = "",
 	effect_list = {

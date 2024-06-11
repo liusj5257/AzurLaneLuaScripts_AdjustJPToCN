@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YIXIAN8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YIXIAN8",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -137,16 +137,16 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			actorName = "观察者",
 			side = 2,
-			nameColor = "#D6341D",
 			dir = -1,
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#D6341D",
 			say = "觉醒的条件果然如想象的那样简单，只要在特定的时间点进行适量的刺激…呵呵呵",
 			flashout = {
-				black = true,
 				dur = 3,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -171,12 +171,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
+			say = "这一次不对“她们”进行销毁么？",
 			side = 1,
 			nameColor = "#D6341D",
-			actorName = "测试者",
 			blackBg = true,
-			say = "这一次不对“她们”进行销毁么？",
+			actor = 900011,
+			actorName = "测试者",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -191,12 +191,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341D",
 			side = 0,
-			actorName = "观察者",
 			dir = -1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "观察者",
 			say = "关键的数据已经到手了，而且，她们日后的表现也应该纳入观测的范围",
 			typewriter = {
 				speed = 0.05,
@@ -208,12 +208,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			side = 2,
 			nameColor = "#D6341D",
-			actorName = "？？？",
 			dir = -1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "？？？",
 			say = "啊啊啊，这样的话多无聊啊，都没有我出马的机会了！！",
 			shake = {
 				speed = 3,
@@ -229,13 +229,13 @@ return {
 			}
 		},
 		{
-			actor = 900012,
+			say = "放心~很快就会有新的指令传递给你了~",
 			side = 0,
 			nameColor = "#D6341D",
-			actorName = "观察者",
 			dir = -1,
 			blackBg = true,
-			say = "放心~很快就会有新的指令传递给你了~",
+			actor = 900012,
+			actorName = "观察者",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341D",
 			side = 0,
-			actorName = "观察者",
 			dir = -1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "观察者",
 			say = "在那之前，我们下一个观测的目标会是谁呢？真令人期待呢呵呵呵~",
 			typewriter = {
 				speed = 0.05,

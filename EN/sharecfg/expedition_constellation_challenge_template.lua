@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.expedition_constellation_challenge_template = {
 	[10001] = {
-		painting = "huashengdun",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "huashengdun_constellation",
+		painting = "huashengdun",
 		id = 10001,
 		dungeon_id = 5103,
 		objective = {
@@ -30,9 +30,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10002] = {
-		painting = "huashengdun",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "huashengdun_constellation",
+		painting = "huashengdun",
 		id = 10002,
 		dungeon_id = 5102,
 		objective = {
@@ -59,9 +59,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10003] = {
-		painting = "huashengdun",
-		button_style = 6,
+		button_style = 7,
 		information_icon = "huashengdun_constellation",
+		painting = "huashengdun",
 		id = 10003,
 		dungeon_id = 5101,
 		objective = {
@@ -88,9 +88,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10004] = {
-		painting = "sipeibojue",
 		button_style = 7,
 		information_icon = "sipeibojue_constellation",
+		painting = "sipeibojue",
 		id = 10004,
 		dungeon_id = 5106,
 		objective = {
@@ -117,9 +117,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10005] = {
-		painting = "sipeibojue",
 		button_style = 7,
 		information_icon = "sipeibojue_constellation",
+		painting = "sipeibojue",
 		id = 10005,
 		dungeon_id = 5105,
 		objective = {
@@ -146,9 +146,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10006] = {
-		painting = "sipeibojue",
 		button_style = 7,
 		information_icon = "sipeibojue_constellation",
+		painting = "sipeibojue",
 		id = 10006,
 		dungeon_id = 5104,
 		objective = {
@@ -175,9 +175,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10007] = {
-		painting = "shengdiyage",
 		button_style = 7,
 		information_icon = "shengdiyage_constellation",
+		painting = "shengdiyage",
 		id = 10007,
 		dungeon_id = 5109,
 		objective = {
@@ -204,9 +204,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10008] = {
-		painting = "shengdiyage",
 		button_style = 7,
 		information_icon = "shengdiyage_constellation",
+		painting = "shengdiyage",
 		id = 10008,
 		dungeon_id = 5108,
 		objective = {
@@ -233,9 +233,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10009] = {
-		painting = "shengdiyage",
 		button_style = 7,
 		information_icon = "shengdiyage_constellation",
+		painting = "shengdiyage",
 		id = 10009,
 		dungeon_id = 5107,
 		objective = {
@@ -262,9 +262,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10010] = {
-		painting = "hailunna",
 		button_style = 7,
 		information_icon = "hailunna_constellation",
+		painting = "hailunna",
 		id = 10010,
 		dungeon_id = 5112,
 		objective = {
@@ -291,9 +291,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10011] = {
-		painting = "hailunna",
 		button_style = 7,
 		information_icon = "hailunna_constellation",
+		painting = "hailunna",
 		id = 10011,
 		dungeon_id = 5111,
 		objective = {
@@ -320,9 +320,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10012] = {
-		painting = "hailunna",
 		button_style = 7,
 		information_icon = "hailunna_constellation",
+		painting = "hailunna",
 		id = 10012,
 		dungeon_id = 5110,
 		objective = {
@@ -349,9 +349,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10013] = {
-		painting = "qiye",
 		button_style = 7,
 		information_icon = "qiye_constellation",
+		painting = "qiye",
 		id = 10013,
 		dungeon_id = 5115,
 		objective = {
@@ -378,9 +378,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10014] = {
-		painting = "qiye",
 		button_style = 7,
 		information_icon = "qiye_constellation",
+		painting = "qiye",
 		id = 10014,
 		dungeon_id = 5114,
 		objective = {
@@ -407,9 +407,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10015] = {
-		painting = "qiye",
 		button_style = 7,
 		information_icon = "qiye_constellation",
+		painting = "qiye",
 		id = 10015,
 		dungeon_id = 5113,
 		objective = {
@@ -436,9 +436,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10016] = {
-		painting = "aierbin",
 		button_style = 7,
 		information_icon = "aierbin_constellation",
+		painting = "aierbin",
 		id = 10016,
 		dungeon_id = 5118,
 		objective = {
@@ -465,9 +465,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10017] = {
-		painting = "aierbin",
 		button_style = 7,
 		information_icon = "aierbin_constellation",
+		painting = "aierbin",
 		id = 10017,
 		dungeon_id = 5117,
 		objective = {
@@ -494,9 +494,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10018] = {
-		painting = "aierbin",
 		button_style = 7,
 		information_icon = "aierbin_constellation",
+		painting = "aierbin",
 		id = 10018,
 		dungeon_id = 5116,
 		objective = {
@@ -523,9 +523,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10019] = {
-		painting = "yanzhan",
 		button_style = 7,
 		information_icon = "yanzhan_constellation",
+		painting = "yanzhan",
 		id = 10019,
 		dungeon_id = 5121,
 		objective = {
@@ -552,9 +552,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10020] = {
-		painting = "yanzhan",
 		button_style = 7,
 		information_icon = "yanzhan_constellation",
+		painting = "yanzhan",
 		id = 10020,
 		dungeon_id = 5120,
 		objective = {
@@ -581,9 +581,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10021] = {
-		painting = "yanzhan",
 		button_style = 7,
 		information_icon = "yanzhan_constellation",
+		painting = "yanzhan",
 		id = 10021,
 		dungeon_id = 5119,
 		objective = {
@@ -610,9 +610,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10022] = {
-		painting = "gecheng",
 		button_style = 7,
 		information_icon = "gecheng_constellation",
+		painting = "gecheng",
 		id = 10022,
 		dungeon_id = 5124,
 		objective = {
@@ -639,9 +639,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10023] = {
-		painting = "gecheng",
 		button_style = 7,
 		information_icon = "gecheng_constellation",
+		painting = "gecheng",
 		id = 10023,
 		dungeon_id = 5123,
 		objective = {
@@ -668,9 +668,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10024] = {
-		painting = "gecheng",
 		button_style = 7,
 		information_icon = "gecheng_constellation",
+		painting = "gecheng",
 		id = 10024,
 		dungeon_id = 5122,
 		objective = {
@@ -697,9 +697,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10025] = {
-		painting = "niukasier",
 		button_style = 7,
 		information_icon = "niukasier_constellation",
+		painting = "niukasier",
 		id = 10025,
 		dungeon_id = 5127,
 		objective = {
@@ -726,9 +726,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10026] = {
-		painting = "niukasier",
 		button_style = 7,
 		information_icon = "niukasier_constellation",
+		painting = "niukasier",
 		id = 10026,
 		dungeon_id = 5126,
 		objective = {
@@ -755,9 +755,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10027] = {
-		painting = "niukasier",
 		button_style = 7,
 		information_icon = "niukasier_constellation",
+		painting = "niukasier",
 		id = 10027,
 		dungeon_id = 5125,
 		objective = {
@@ -784,9 +784,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10028] = {
-		painting = "yuekegongjue",
 		button_style = 7,
 		information_icon = "yuekegongjue_constellation",
+		painting = "yuekegongjue",
 		id = 10028,
 		dungeon_id = 5130,
 		objective = {
@@ -813,9 +813,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10029] = {
-		painting = "yuekegongjue",
 		button_style = 7,
 		information_icon = "yuekegongjue_constellation",
+		painting = "yuekegongjue",
 		id = 10029,
 		dungeon_id = 5129,
 		objective = {
@@ -842,9 +842,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10030] = {
-		painting = "yuekegongjue",
 		button_style = 7,
 		information_icon = "yuekegongjue_constellation",
+		painting = "yuekegongjue",
 		id = 10030,
 		dungeon_id = 5128,
 		objective = {
@@ -871,9 +871,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10031] = {
-		painting = "xuefeng",
 		button_style = 7,
 		information_icon = "xuefeng_constellation",
+		painting = "xuefeng",
 		id = 10031,
 		dungeon_id = 5133,
 		objective = {
@@ -900,9 +900,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10032] = {
-		painting = "xuefeng",
 		button_style = 7,
 		information_icon = "xuefeng_constellation",
+		painting = "xuefeng",
 		id = 10032,
 		dungeon_id = 5132,
 		objective = {
@@ -929,9 +929,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10033] = {
-		painting = "xuefeng",
 		button_style = 7,
 		information_icon = "xuefeng_constellation",
+		painting = "xuefeng",
 		id = 10033,
 		dungeon_id = 5131,
 		objective = {
@@ -958,9 +958,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10034] = {
-		painting = "gaoxiong",
 		button_style = 7,
 		information_icon = "gaoxiong_constellation",
+		painting = "gaoxiong",
 		id = 10034,
 		dungeon_id = 5136,
 		objective = {
@@ -987,9 +987,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10035] = {
-		painting = "gaoxiong",
 		button_style = 7,
 		information_icon = "gaoxiong_constellation",
+		painting = "gaoxiong",
 		id = 10035,
 		dungeon_id = 5135,
 		objective = {
@@ -1016,9 +1016,9 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10036] = {
-		painting = "gaoxiong",
 		button_style = 7,
 		information_icon = "gaoxiong_constellation",
+		painting = "gaoxiong",
 		id = 10036,
 		dungeon_id = 5134,
 		objective = {

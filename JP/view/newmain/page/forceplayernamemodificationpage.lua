@@ -1,10 +1,10 @@
 slot0 = class("ForcePlayerNameModificationPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PlayerVitaeRenamePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.content = slot0:findTF("frame/border/tip"):GetComponent(typeof(Text))
 	slot0.confirmBtn = slot0:findTF("frame/queren")
 	slot0.cancelBtn = slot0:findTF("frame/cancel")
@@ -32,7 +32,7 @@ function slot0.OnLoaded(slot0)
 	slot1.verticalOverflow = ReflectionHelp.RefGetField(typeof("UnityEngine.VerticalWrapMode"), "Overflow")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		pg.m02:sendNotification(GAME.CHANGE_PLAYER_NAME, {
 			type = 2,
@@ -50,7 +50,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.showing = true
 
 	uv0.super.Show(slot0)
@@ -62,7 +62,7 @@ function slot0.Show(slot0, slot1)
 	slot0.callback = slot1
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0.showing then
 		slot0.showing = false
 
@@ -73,7 +73,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

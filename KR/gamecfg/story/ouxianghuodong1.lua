@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
-			stopbgm = true,
-			bgmDelay = 2,
-			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			say = "오래된 전설 속, 노래의 힘으로 선원들을 유혹해 배를 좌초시키는 괴물.",
 			typewriter = {
 				speed = 0.05,
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "그 이름은 '세이렌', 항로의 안전을 위협하고 인류를 바다로 끌어들이는 존재.",
 			typewriter = {
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "세이렌과 바다에 도사리고 있는 각종 위협에 대항하기 위해 인류는 다양한 방법을 고안해 낸다.",
 			typewriter = {
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "아르고의 영웅, 오르페우스는 리라를 연주해 세이렌의 노랫소리를 상쇄시켰다.",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "대항해시대에, 사람들은 뱃머리에서 소리 높여 노래를 부르며 마음 속의 두려움을 없애고 항해의 안전을 기원했다.",
 			typewriter = {
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "이 뱃머리를 장식한 조각상들은 아이리스 리브레와 샤르데나 엠파이어의 문화에서 생겨난, 때로는 예술로, 때로는 신앙의 상징으로 생겨난 '아이돌'.",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "이러한 인류의 전승은 역사 속에서 각 세력에 의해 계승되었다.",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'음악'은 로열 네이비의 전통으로 시작해 메탈 블러드와 이글 유니온의 해상 군악대의 손에 의해 발전했다.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'아이돌'이라는 개념은 바다 건너편의 사쿠라 엠파이어의 영향을 받아 '닌자', '애니메이션'과 함께 세계를 풍미했다.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "......그리하여 세이렌에 대항하기 위한 장비 연구의 일환으로 인간은 세이렌과 음악의 전승, 그리고 함선을 접목시켜 새로운 장비를 만들어 낸다.",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "깊은 바다로부터의 위협에 대항하기 위한 새로운 장비, 그 이름은——",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'μ장비'.",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'μ장비'의 최종 성능 테스트가 지금 여기서 막을 올린다.",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -207,14 +207,14 @@ return {
 			}
 		},
 		{
-			say = "장비 테스트 시설(?)",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "azumaster-ins",
+			say = "장비 테스트 시설(?)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "모항에 계시는 여러분, 오래 기다렸다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "μ장비'가 대체 무엇인가! 아카시가 먼저 설명해주겠다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "당연히 음악 때문이지냥! 여자아이니까냥! 라이브를 해야 하는 거다냥! 지휘관도 동의했다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,11 +429,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "절대로 이 틈을 노려서 대박을 터뜨리려고 하는 게 아니다냥! 정말이다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -455,15 +455,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "그래서 이번 임무는 신 장비인 '폴라리스'를 장착하고 각 진영과 모의 작전을 펼치는 것이라고 한다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -552,15 +552,15 @@ return {
 			}
 		},
 		{
-			actor = 102240,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102240,
+			nameColor = "#a9f548",
 			say = "좋아! 'μ장비 테스트 그룹 - 폴라리스'——우리도 같이 힘내자!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -585,8 +585,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -614,8 +614,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "하…… 빨리 끝나면 좋겠는데…",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "이 그룹은 시작부터 착오가 많은 것 같습니다. 레슨을 할 때는 그래도 나름 화기애애 했는데요.",
 			typewriter = {

@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "黑企业剧情战斗技能",
 	init_effect = "",
+	id = 7500,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 7500,
+	color = "red",
 	icon = 7500,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 7501,
-				time = 1,
 				target = "TargetSelf",
+				time = 1,
 				quota = 1
 			}
 		}

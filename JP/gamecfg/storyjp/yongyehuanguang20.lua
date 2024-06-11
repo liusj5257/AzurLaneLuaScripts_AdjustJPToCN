@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900219,
-			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "ヨユウヨユウズバリラクチン！Ⅲ型リソースの使用許諾さえあれば北方連合なんぞに囚われるかよコノヤロー！！",
 			bgm = "xinnong-3",
+			actor = 900219,
+			nameColor = "#ff5c5c",
+			say = "ヨユウヨユウズバリラクチン！Ⅲ型リソースの使用許諾さえあれば北方連合なんぞに囚われるかよコノヤロー！！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "ヒィ！？！？あいつの動向を「考える」と毎回やべぇ目で睨まれるナァ…",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "よかろう。まずは血祭りに挙げてやらぁロイヤル艦隊ィ！",
 			typewriter = {
 				speed = 0.05,

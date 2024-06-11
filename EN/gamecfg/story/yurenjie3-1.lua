@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YURENJIE3-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YURENJIE3-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"One-Punch! Bulin!\n\n<size=45>3.The Site of Trials</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
-			bgmDelay = 2,
 			say = "By working together, the three Bulin sisters managed to pass all the trials.",
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgmDelay = 2,
+			bgm = "login-2022401us",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "Opening the box released a blinding rainbow light which pierced the skies.",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "Item obtained: Ultra Rainbow Hammer.",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -135,9 +135,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "Look at that light, bulin! This thing must be amazingly powerful, bulin!",
 			painting = {
 				alpha = 0.3,
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			say = "And now it's in my hands, bulin!",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "While the sisters cheered and celebrated, a stranger approached from the dark.",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "Lord of Evil",
 			say = "What the hell is all this ruckus about?",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "Lord of Evil",
 			say = "Ah... Adventurers. You're after the legendary hammer, are you?",
 			painting = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "Lord of Evil",
 			say = "Well, bad news for you. If you want to keep it, you've gotta get through me!",
 			painting = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -287,9 +287,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "Come here, bulin! I'm gonna squash you like a bug, bulin!",
 			painting = {
 				alpha = 0.3,
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,9 +313,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "...What the heck, bulin? The hammer isn't doing anything, bulin!",
 			painting = {
 				alpha = 0.3,
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,8 +340,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "Lord of Evil",
 			say = "Hahah! You didn't know? The Ultra Rainbow Hammer is an energy weapon! You've gotta charge it, idiot!",
 			painting = {
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#A9F548FF",
 			side = 0,
-			hideOther = true,
 			dir = 1,
+			actor = 100000,
+			hideOther = true,
 			actorName = "<size=28>Universal Bulin & Prototype Bulin MKII</size>",
 			say = "Let's see what you've got, bulin!",
 			subActors = {
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

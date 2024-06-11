@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "我方随机效果",
 	time = 1,
+	name = "我方随机效果",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

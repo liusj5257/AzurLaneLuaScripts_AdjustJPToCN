@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA20",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_704",
+			bgm = "qe-ova-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TB and I are visiting the amusement park.",
-			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "Whereas I'm in pretty high spirits, she isn't showing much emotion of any kind.",
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "It reminds me of... How do I put it?",
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "It feels like she has reverted to the TB I'm used to working with.",
@@ -67,11 +67,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-32-talking1",
 			side = 2,
 			bgName = "star_level_bg_704",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-32-talking1",
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -101,9 +101,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_704",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-32-answer5",
+			dir = 1,
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -133,9 +133,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_704",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-32-sad1",
+			dir = 1,
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -165,9 +165,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_704",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-32-doubt2",
+			dir = 1,
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "So she doesn't want to go on any of the popular rides.",
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "That leaves not many options, but there's always...",
@@ -230,10 +230,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_704",
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-32-shock1",
 			dir = 1,
 			optionFlag = 1,
-			voice = "event:/educate/tb/educate-tb-32-shock1",
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "We line up at the entrance to the merry-go-round.",
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "That's no surprise, since it's clearly themed with children in mind. I crack a wry smile.",
@@ -358,9 +358,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_704",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-32-sad1",
+			dir = 1,
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-32-answer3",
 			side = 2,
 			bgName = "star_level_bg_704",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-32-answer3",
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -394,8 +394,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "Although her tone remains as unaffected and flat as ever, she projects an air of intensity that I can't refuse.",
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			say = "I take a seat on the wooden horse just next to hers.",
@@ -427,17 +427,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -457,14 +457,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hm?",
 			voice = "event:/educate/tb/educate-tb-story-32-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			say = "I snap a picture of her riding the merry-go-round.",
@@ -486,14 +486,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Please at least tell me before you photograph me.",
 			voice = "event:/educate/tb/educate-tb-story-32-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Please at least tell me before you photograph me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,14 +504,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Then again... No, never mind.",
 			voice = "event:/educate/tb/educate-tb-story-32-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Then again... No, never mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,14 +522,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "This is fine.",
 			voice = "event:/educate/tb/educate-tb-story-32-4",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "This is fine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,8 +552,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			say = "She doesn't say a word after that, but she does nudge me into riding the merry-go-round again later.",
@@ -563,8 +563,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			say = "Our amusement park visit continues after that, and we make some unforgettable memories.",

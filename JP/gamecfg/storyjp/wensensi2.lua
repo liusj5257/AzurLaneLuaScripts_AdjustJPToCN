@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"妹の成長期？！\n\n<size=45>二 妹の憂鬱</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・ユニオン寮",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・ユニオン寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "またヴィンセンスに誘われ、ユニオン寮にやってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			say = "どうしてアストリア姉ちゃんまで……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "どうしてアストリア姉ちゃんまで……",
+			actor = 103100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ヴィンセンスはアストリアに無理やりケーキを食べさせられていた。",
 			typewriter = {
 				speed = 0.05,
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "指揮官、ヘルプミー……",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "そんなやり取りに、アストリアは幸せそうな笑顔を浮かべていた。",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "いつものアストリアとはちょっと違う気がするような……？",
 			typewriter = {
 				speed = 0.05,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "アストリアはヴィンセンスを後ろから抱きしめた。",
 			typewriter = {
 				speed = 0.05,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "どうやらアストリアにはポートランドになる素質が…？",
 			typewriter = {
 				speed = 0.05,

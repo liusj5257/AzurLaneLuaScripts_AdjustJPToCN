@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIAOQIANGMANHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"월간 만화 - 재블린\n\n<size=45>서랍 속의 미스터리</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "늦어서 미안——！",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "늦어서 미안——！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,15 +99,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "이건 지각 사유라고 할 수 없겠는데.....",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "정말이야! 말하는 지휘냥을 만났다고, \"운명을 만날 것이다\" 라고 말했어!",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

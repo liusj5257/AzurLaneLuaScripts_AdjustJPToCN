@@ -1,15 +1,15 @@
 return {
-	id = "BULIZHISHI2-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULIZHISHI2-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-1",
 			say = "三隻布里苦練本領，實力漸漸強大起來。然後，一個展現她們力量的機會到來了————",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,8 +78,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			say = "喂，妳是怎麼說話的，不倫不類的怪物burin！",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			say = "好大的膽子？！什麼人，報上名來！",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "我是特裝型布里MKIII，我來當妳的對手burin！",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,8 +136,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			say = "人小口氣倒不小。就讓我看看妳的本事，放馬過來吧！",
 			typewriter = {
 				speed = 0.05,

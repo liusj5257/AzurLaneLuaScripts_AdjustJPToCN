@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Prayer for Peace\n\n<size=45>Chapter 5 - How to Enjoy a Banquet</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 403053,
-			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "I see... you got separated from your sister and your friends...",
 			bgm = "bsm-5",
+			actor = 403053,
+			nameColor = "#a9f548",
+			say = "I see... you got separated from your sister and your friends...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301263,
 			dir = 1,
+			actor = 301263,
 			nameColor = "#a9f548",
 			say = "I went to chase after her along with Ariake and Shigure, but then got lost in the crowd...",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "I-I see... There certainly are a lot of vibrant folks in the Sakura fleet.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301263,
 			dir = 1,
+			actor = 301263,
 			nameColor = "#a9f548",
 			say = "R-really?",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "Sure. I have no idea how I'm supposed to \"enjoy the banquet\" anyway.",
 			typewriter = {
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 403053,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403053,
+			nameColor = "#a9f548",
 			say = "... Are those your friends over there?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,8 +230,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301152,
 			dir = 1,
+			actor = 301152,
 			nameColor = "#a9f548",
 			say = "Huh? Graf Spee helped you find us?",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301152,
 			dir = 1,
+			actor = 301152,
 			nameColor = "#a9f548",
 			say = "\"How to enjoy the banquet?\" That's simple enough~",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301152,
 			dir = 1,
+			actor = 301152,
 			nameColor = "#a9f548",
 			say = "I'm about to let you in on a little secret. See, the trick is, just do what you wanna do! You can go dancing like those two lovebirds over there. Or sink your fangs into some grub like Yuudachi over there.",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301152,
 			dir = 1,
+			actor = 301152,
 			nameColor = "#a9f548",
 			say = "Heheh! Don't mention it!",
 			typewriter = {
@@ -359,14 +359,14 @@ return {
 			}
 		},
 		{
-			actor = 301152,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "Woah, what's that sound?",
 			soundeffect = "event:/battle/firework",
+			actor = 301152,
+			nameColor = "#a9f548",
+			say = "Woah, what's that sound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,8 +377,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0,
 					x = 0,

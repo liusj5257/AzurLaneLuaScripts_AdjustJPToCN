@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 202110,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-royalnavy",
 			dir = 1,
 			say = "통신 장비에 신호가 있어. 지원 함대에서 보내온 연락이야!",
+			bgm = "bgm-royalnavy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "전보! 전열함 티르피츠호, 샤른호르스트호, 그나이제나우호, 도이칠란트호, 아드미랄 그라프 슈피호를 포함한 메탈 블러드의 주력 함대 이미 집결 완료. 현재 바렌츠해 방향 접근 중.",
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "주력 함대는 계획대로 즉시 모든 함선의 방향을 틀어 서쪽으로 전진하고, 메탈 블러드의 주력 함대를 공격할 준비를 하라.",

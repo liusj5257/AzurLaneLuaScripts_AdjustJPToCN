@@ -19,28 +19,28 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 600057
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 600059
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -57,10 +57,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -77,10 +77,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -97,10 +97,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -117,10 +117,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -137,10 +137,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -157,10 +157,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -177,10 +177,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -197,10 +197,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -217,10 +217,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -258,28 +258,28 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 600057
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 600059
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -296,10 +296,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -316,10 +316,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -336,10 +336,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -356,10 +356,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -376,10 +376,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -396,10 +396,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -416,10 +416,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -436,10 +436,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -456,10 +456,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -497,28 +497,28 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 600057
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 600059
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -535,10 +535,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -555,10 +555,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -575,10 +575,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -595,10 +595,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -615,10 +615,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -635,10 +635,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -655,10 +655,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -675,10 +675,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -695,10 +695,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillSummon",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillSummon",
+				target_choise = "TargetNil",
 				arg_list = {
 					delay = 0,
 					spawnData = {
@@ -740,11 +740,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
-	id = 600046,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 1,
+	id = 600046,
 	effect_list = {
 		{
 			target_choise = "TargetSelf",
@@ -764,28 +764,28 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 600057
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 600059
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -802,10 +802,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -822,10 +822,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -842,10 +842,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -862,10 +862,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -882,10 +882,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -902,10 +902,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -922,10 +922,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -942,10 +942,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -962,10 +962,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {

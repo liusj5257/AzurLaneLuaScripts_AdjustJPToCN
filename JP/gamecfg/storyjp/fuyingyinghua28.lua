@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-1",
+			say = "数日後・祭儀の島",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 1,
-			say = "数日後・祭儀の島",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "祭儀が終わり、セイレーンとの戦いに参加した者らによる懇親会が開かれ――",
 			typewriter = {
 				speed = 0.05,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/minigame_sword",
+			say = "三笠も強引に（？）長門を連れて参加した。",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "三笠も強引に（？）長門を連れて参加した。",
+			soundeffect = "event:/ui/minigame_sword",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -59,8 +59,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "三笠様！わざわざお越しいただき誠にありがとうございます！",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "うむ。我もあの「余燼」とやらと対面したぞ！ははは！",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うむ。我もあの「余燼」とやらと対面したぞ！ははは！",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,8 +121,8 @@ return {
 		{
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/minigame_sword",
+			say = "——！！",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "——！！",
+			soundeffect = "event:/ui/minigame_sword",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "ああ、翔鶴姉と一緒に戦っても足止めすら出来なかったし、私ひとりでは多分戦いにすらならないよね",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ああ、翔鶴姉と一緒に戦っても足止めすら出来なかったし、私ひとりでは多分戦いにすらならないよね",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "……グレイゴーストといい、ブルーゴーストといい、やっぱり強いやつはどこにもいるってことね！あははは！",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -216,15 +216,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "瑞鶴～料理ができたわよ～みんなも食べましょうね～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "天ぷらや重桜饅頭などの料理が出され、会場の雰囲気が一気に盛り上がった。",
 			typewriter = {
 				speed = 0.05,
@@ -279,13 +279,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "「余燼」に斬られたことについて瑞鶴が謝罪した。",
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
-			say = "「余燼」に斬られたことについて瑞鶴が謝罪した。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "別に瑞鶴のせいじゃないわよ。あんなに強い相手なら誰でも無理だもの。むしろ生きていることに感謝しないとね",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "それに、私なんて瑞鶴の被害担当艦みたいなものだし",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "翔鶴姉、それフラグだからやめて！",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -436,15 +436,15 @@ return {
 			}
 		},
 		{
-			say = "一方、会場の隅に座っている二人がいた。",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "一方、会場の隅に座っている二人がいた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -501,11 +501,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "この江風、神子さまの護衛としては失格でございます…！",
 			typewriter = {
 				speed = 0.05,
@@ -517,18 +517,18 @@ return {
 			},
 			action = {
 				{
+					y = -2500,
+					type = "move",
 					delay = 1.5,
 					dur = 1,
-					type = "move",
-					y = -2500,
 					x = -0
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "そう言いながら、江風は頭を下げて深く詫びた。",
 			typewriter = {
 				speed = 0.05,
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "よって、引き続き余の護衛として精進せよ！",
 			typewriter = {
 				speed = 0.05,
@@ -636,8 +636,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,9 +662,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "正直激励にも、慰めにも聞こえない言葉だが、江風にとっては彼女の仕える相手からいただけた最大級の賛辞である。",
 			typewriter = {
 				speed = 0.05,
@@ -676,11 +676,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "神子さまのご期待に添えるようがんばります！",
 			typewriter = {
 				speed = 0.05,
@@ -692,8 +692,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -702,12 +702,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			say = "……うむ、それで良い",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……うむ、それで良い",
+			actor = 305050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -722,8 +722,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -734,14 +734,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			bgName = "bg_xinnong_cg1",
 			actor = 306070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "これで、一段落ですね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -766,11 +766,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "そうだな。短い間に色々あった……",
 			typewriter = {
 				speed = 0.05,
@@ -782,8 +782,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -827,8 +827,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "でも、【ワタツミ】がないとなると、祭儀を開催できなくなりますね…",
 			typewriter = {
@@ -844,8 +844,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "私にはわかりません。これほど大事なものを一体誰がいつ、どうやってすり替えたのでしょうか",
 			typewriter = {
@@ -909,8 +909,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "赤城さんと、加賀さんも……！？",
 			typewriter = {
@@ -923,8 +923,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -952,8 +952,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "確かに、鉄血の方を見送ってから、赤城さんと加賀さんが真っ先に祭儀の島から離れましたが、これといったことは…",
 			typewriter = {
@@ -966,8 +966,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -979,8 +979,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "響は…まあ、どう考えてもそんなことするような子ではないので",
 			typewriter = {
@@ -1012,8 +1012,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "あ、あの……",
 			dialogShake = {
@@ -1031,8 +1031,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1044,8 +1044,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "霞、どうしたの？",
 			typewriter = {
@@ -1058,8 +1058,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1071,8 +1071,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "今更だけど、うん",
 			typewriter = {
@@ -1085,8 +1085,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1098,8 +1098,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "信濃さん、起きたよ？",
 			effects = {
@@ -1120,9 +1120,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
+			bgName = "bg_xinnong_cg1",
 			nameColor = "#a9f548",
 			say = "うん、これで最後まで目立たないようにできたわね！",
 			effects = {
@@ -1132,8 +1132,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1161,8 +1161,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "そういえば、なんで信濃さんを祭儀の主催にさせたわけ？いくら噂の超能力？があっても儀式に間に合わないでしょうに",
 			typewriter = {
@@ -1178,8 +1178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "長門様も、来ないと聞いてたのに結局来たし。もしやこれ、最初から祭儀がこういう展開になるのを誰かが想定していた？！",
 			typewriter = {
@@ -1195,8 +1195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "まあ、結局祭儀のことなんて私には蚊帳の外なんで！深いことを考えずちょっと休みをとってゆっくりしましょうか～ふぅ……",
 			typewriter = {

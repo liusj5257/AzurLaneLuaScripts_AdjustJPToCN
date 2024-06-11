@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg6",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "Exercise Area - Turn 3 (Mikasa's Action)",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,17 +36,17 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 302080,
+			nameColor = "#A9F548FF",
 			say = "Look at that fog... Assuming this isn't the Sirens' doing, Akagi must be up to something major.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "If we huddle here all scared and let Akagi do whatever she wants, she could potentially take five points' worth of bases this turn.",
 			painting = {
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "So she can pick and choose her targets freely, regardless of where her ships are deployed... So this is how she's leveraging her fleet of carriers?!",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "But now that Akagi is threatening large swaths of the battlefield with her sea fog, she might decide to respond to that first.",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Ugh, trying to read the situation is giving me a headache... I was told that all I had to do was follow the orders.",
 			painting = {
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "I think she benefits when the situation gets harder to read. The more complex the battlefield, the more uncertainties there are. Maybe that's exactly what Musashi is after.",
 			painting = {
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg6",
 			say = "At that time, a symbol appeared above the sacred site nearest to Mikasa's territory, ordering her nearby forces to focus their attacks on it.",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "Listen up, everyone, we have an order from Mikasa!",
 			painting = {
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg6",
 			say = "Mikasa's instructions were clear - all forces are to converge on the Diadem of Light and capture it.",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "All right, we're going for some big points! Looks like Mikasa is finally getting her head in the game!",
 			painting = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "That's what I like to see! With Mikasa at the helm, we can't lose!",
 			painting = {
@@ -426,8 +426,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "Now then, we'll prepare to attack the Diadem of Light, and split Akagi's forces down the middle while we're at it.",
 			painting = {
@@ -475,8 +475,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "We don't know for sure if that's actually what Akagi is going for, but this move at least matches her aggression.",
 			painting = {
@@ -492,8 +492,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Turning Akagi's strategy against her, huh? You've still got it in you, old timer!",
 			painting = {

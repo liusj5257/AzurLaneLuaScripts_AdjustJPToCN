@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE401",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE401",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>『异色海域PURPLE』</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 10100010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-nep",
 			dir = -1,
 			say = "……刚才说到布兰她们昨天又被伊森扔了一个难题",
+			bgm = "level-nep",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "能看到被累惨的未来了……快去要加班费。",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "哦哦！……航母以上的……包容力！",
 			typewriter = {
 				speed = 0.05,

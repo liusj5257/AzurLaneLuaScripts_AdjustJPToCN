@@ -4,21 +4,21 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
+			side = 2,
 			say = "布里們竭力與魔王戰鬥著，但是卻漸漸落了下風。",
+			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "恐怖大魔王？",
 			dir = 1,
+			actor = 900233,
+			actorName = "恐怖大魔王？",
 			say = "沒用沒用沒用——哈哈哈哈！",
 			painting = {
 				alpha = 0.3,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐怖大魔王？",
 			say = "能啟動“超級彩虹錘1號”power的傢伙，現在還沒誕生呢！",
 			painting = {
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐怖大魔王？",
 			say = "妳們儘管試吧！努力吧！然後絕望吧！",
 			painting = {
@@ -128,9 +128,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "妳錯了！我的回合了burin！吃我一錘，Full Charge！",
 			painting = {
 				alpha = 0.3,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,11 +161,11 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900233,
 			actorName = "恐怖大魔王？",
 			say = "什麼？！居然？！",
-			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,10 +246,10 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "跟著我，無敵布里戰隊，上啦burin！",
 			painting = {
 				alpha = 0.3,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

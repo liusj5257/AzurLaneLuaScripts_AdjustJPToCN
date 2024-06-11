@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD200A",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WORLD200A",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "리버풀항·사령부 회의실",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
+			say = "리버풀항·사령부 회의실",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,8 +35,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "그럼 지휘관, 엔터프라이즈, 후드! 나도 사령부로 돌아갈게. 순조로운 작전이 되기를!",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "로열 네이비도 몇 시간 뒤부터 본격적인 작전을 개시합니다. 후드, 통신 종료.",
 			typewriter = {
@@ -66,15 +66,15 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "후... 드디어 전투가 시작되는군요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "정말 감동적인 연설이었어, 후드. 잘 했어!",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,10 +301,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_guild_blue",
 			side = 0,
+			bgName = "bg_guild_blue",
+			hideOther = true,
 			dir = 1,
 			actor = 205020,
 			actorName = "워스파이트&후드",
@@ -362,8 +362,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "폐하, 궁금한 점이 있습니다. 지휘부의 최신 기술이라는 네비게이터를 지휘관님과 이글 유니온 쪽에서는 이미 사용하고 있는데, 왜 우리는 사용하지 않고 있나요?",
 			typewriter = {
@@ -456,12 +456,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "작전이 순조롭길 빌지. 후드, 전 세계에 로열 네이비의 위엄을 선보이도록 해! 절대 나를 실망하게 하지 마!",
 			typewriter = {
 				speed = 0.05,

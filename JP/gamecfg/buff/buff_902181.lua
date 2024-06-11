@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	time = 12,
 	name = "精准狩猎",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 902181,
+	time = 12,
 	picture = "",
 	desc = "提升命中",
 	stack = 1,
-	id = 902181,
+	color = "red",
 	icon = 902180,
 	last_effect = "",
 	blink = {
@@ -34,8 +34,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 1000
+				number = 1000,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -44,9 +44,9 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
+				skill_id = 902180,
 				killer = "self",
 				target = "TargetSelf",
-				skill_id = 902180,
 				time = 1
 			}
 		},

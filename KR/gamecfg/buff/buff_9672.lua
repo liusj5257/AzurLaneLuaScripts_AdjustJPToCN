@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "我方夜战照明弹(循环施放)",
 	time = 0,
-	color = "yellow",
+	name = "我方夜战照明弹(循环施放)",
+	init_effect = "",
+	id = 9672,
 	picture = "",
 	desc = "照明弹首次施放延迟时间",
 	stack = 1,
-	id = 9672,
+	color = "yellow",
 	icon = 9672,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 9672,
 				target = "TargetSelf",
-				time = 10,
-				skill_id = 9672
+				time = 10
 			}
 		},
 		{

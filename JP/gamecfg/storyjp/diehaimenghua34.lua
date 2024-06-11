@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA34",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306090,
 			dir = 1,
+			bgm = "battle-boss-tiancheng",
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "艦隊の東より敵潜水艦隊が接近！空から艦載機も…！",
-			bgm = "battle-boss-tiancheng",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "信濃さんを誘い込んで各個撃破、狙い通りね",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "やっぱり頭を使った作戦は駿河のほうが得意ね…相方の子にも私にもこういうの最初から無理だわ",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "皆さん、お疲れさまでした",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "お礼なんて大げさな～平和なのはいいけれど体が鈍っちゃうから、たまにはこういう演習あってもいいかもね☆",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "さあ皆！そろそろ母港に帰ってパーティーの準備よ！今日はサディアの子の歓迎会があるもんね！",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "ふふふ、それは楽しみですわ。ね、信濃？",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "………幸運を祈っていますわ。夢見る胡蝶に幸せな未来を",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "そして、赤城のことを、加賀とともに頼みます――",
 			typewriter = {
@@ -214,9 +214,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_xinnong2_2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_xinnong2_2",
 			bgm = "bsm-2",
 			actor = 307080,
 			nameColor = "#a9f548",
@@ -264,8 +264,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（そして、争いを止め、あらゆる陣営の間を取り持つ力…破滅の未来を回避できる「指揮官」…）",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（そなたと一緒なら、この思い出も……）",
 			typewriter = {
@@ -298,9 +298,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（きっと、「夢」ではなく――）",
 			typewriter = {
@@ -313,9 +313,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_white",
+			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {

@@ -4,8 +4,8 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -382,
 				posX = -245,
 				text = ({
@@ -18,11 +18,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 67.77,
+					rotateY = 0,
 					posY = -27.34,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 67.77
 				}
 			}
 		}

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
-			stopbgm = true,
 			dir = -1,
+			stopbgm = true,
 			say = "Everybody seems to be in quite a rush... Did something happen earlier this morning?",
 			typewriter = {
 				speed = 0.05,
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "Oh, you're finally here. There's something not so great going on. Just follow me.",
 			typewriter = {
 				speed = 0.05,
@@ -57,17 +57,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_story_tiancheng2",
-			actorName = "{namecode:92}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Are you stupid?",
+			bgName = "bg_story_tiancheng2",
 			bgm = "story-tiancheng",
+			actorName = "{namecode:92}",
+			say = "Are you stupid?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:91}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:91}",
 			bgName = "bg_story_tiancheng2",
 			side = 0,
 			dir = 1,
@@ -201,8 +201,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:92}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:92}",
 			bgName = "bg_story_tiancheng2",
 			side = 1,
 			dir = 1,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "-- CLANG!",
 			dialogShake = {
 				speed = 0.09,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:92}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:92}",
 			bgName = "bg_story_tiancheng2",
 			side = 1,
 			dir = 1,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "The two sisters who seemed on the brink of starting a fight fell silent in the blink of an eye from the intense rage they could sense.",
 			typewriter = {
 				speed = 0.05,
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -304,9 +304,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "-- CLANG!",
 			dialogShake = {
 				speed = 0.09,
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "Amagi smiled and forced Akagi and Kaga to hold hands.",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "...They both had bumps forming on their heads.",
 			typewriter = {
 				speed = 0.05,
@@ -383,9 +383,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "-- That woman seriously freaks me out.",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "Hidden beneath Amagi's loving smile was a rage that would frighten even the most vile of beasts. All the bystanders knew this for a fact.",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -415,9 +415,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "Akagi and Kaga couldn't stop their tears.",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "Both sisters started tightening their own grip on the other's hand, seemingly because they hadn't quite reached a mutual understanding yet.",
 			typewriter = {
 				speed = 0.05,
@@ -459,9 +459,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "Nevertheless, overwhelmed by Amagi's silent rage, they both reluctantly let go of the other's hand and began walking in opposite directions.",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -493,9 +493,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "The crowd of onlookers who had gathered around began to disperse as well. And then...",
 			typewriter = {
 				speed = 0.05,
@@ -503,9 +503,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "The only person left was Amagi who stood there in silence, lost in her own thoughts.",
 			typewriter = {
 				speed = 0.05,

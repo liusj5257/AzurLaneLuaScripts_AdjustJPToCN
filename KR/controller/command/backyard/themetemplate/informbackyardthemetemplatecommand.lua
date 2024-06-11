@@ -1,6 +1,6 @@
 slot0 = class("InformBackYardThemeTemplateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().playerName
 
 	if getProxy(PlayerProxy):getRawData().level < 20 then

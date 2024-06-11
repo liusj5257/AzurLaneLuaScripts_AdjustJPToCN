@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_264 = {}
 slot1 = slot0.word_template_264
 
-function temp()
+temp = function()
 	uv0["毀"] = {
 		["滅"] = {
 			["步"] = {
@@ -27,7 +27,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["昏"] = {
 		["迷"] = {
 			["圖"] = {
@@ -47,7 +47,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["混"] = {
 		["亂"] = {
 			["的"] = {
@@ -73,7 +73,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鍃"] = {
 		this = {
 			this = true

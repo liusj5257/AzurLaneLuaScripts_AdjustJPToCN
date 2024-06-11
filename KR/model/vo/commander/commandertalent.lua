@@ -1,7 +1,7 @@
 slot0 = class("CommanderTalent", import("..BaseVO"))
 slot1 = pg.commander_ability_group
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.groupId = slot0:getConfig("group_id")
@@ -11,35 +11,35 @@ function slot0.Ctor(slot0, slot1)
 	slot0.list = uv0[slot0.groupId].ability_list
 end
 
-function slot0.reset(slot0)
+slot0.reset = function(slot0)
 	slot0.id = slot0.list[1]
 	slot0.configId = slot0.id
 end
 
-function slot0.setOrigin(slot0, slot1)
+slot0.setOrigin = function(slot0, slot1)
 	slot0.origin = slot1
 end
 
-function slot0.isOrigin(slot0)
+slot0.isOrigin = function(slot0)
 	return slot0.origin
 end
 
-function slot0.getTalentList(slot0)
+slot0.getTalentList = function(slot0)
 	return slot0.list
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.commander_ability_template
 end
 
-function slot0.getConsume(slot0)
+slot0.getConsume = function(slot0)
 	slot1 = 0
 	slot2 = table.indexof(slot0.list, slot0.id)
 
 	return slot0.origin and slot2 - table.indexof(slot0.list, slot0.origin.id) or slot2
 end
 
-function slot0.getAttrsAddition(slot0)
+slot0.getAttrsAddition = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -68,7 +68,7 @@ function slot0.getAttrsAddition(slot0)
 	return slot1, slot2
 end
 
-function slot0.getBuffsAddition(slot0)
+slot0.getBuffsAddition = function(slot0)
 	slot1 = {}
 	slot5 = "add"
 
@@ -81,7 +81,7 @@ function slot0.getBuffsAddition(slot0)
 	return slot1
 end
 
-function slot0.getDestoryExpValue(slot0)
+slot0.getDestoryExpValue = function(slot0)
 	slot1 = 0
 
 	for slot6, slot7 in ipairs(slot0:getConfig("add")) do
@@ -93,7 +93,7 @@ function slot0.getDestoryExpValue(slot0)
 	return slot1
 end
 
-function slot0.getDestoryExpRetio(slot0)
+slot0.getDestoryExpRetio = function(slot0)
 	slot1 = 0
 
 	for slot6, slot7 in ipairs(slot0:getConfig("add")) do
@@ -105,7 +105,7 @@ function slot0.getDestoryExpRetio(slot0)
 	return slot1
 end
 
-function slot0.getDesc(slot0)
+slot0.getDesc = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0:getConfig("add_desc")) do

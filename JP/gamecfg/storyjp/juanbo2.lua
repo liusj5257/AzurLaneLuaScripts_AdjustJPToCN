@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUANBO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUANBO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"笑顔オーバーフロー！\n\n<size=45>二、助けるよ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "結局こんな時間になった……",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "さっきまで倉庫に資料を取りに行ってたけど、流石に巻波はもう執務室にいないよな…",
 			typewriter = {
 				speed = 0.05,
@@ -78,13 +78,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "暗い廊下から会話が聞こえた。",
 			typewriter = {
 				speed = 0.05,
@@ -164,14 +164,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 301800,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ほら、別に怖くないもん！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 301800,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301800,
+			nameColor = "#a9f548",
 			say = "巻波についていれば大丈夫よ！",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -225,8 +225,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "巻波ちゃん、ありがとう……",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "んーそういえば清波はなんでここにいるの？",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "海だと灯火管制しても怖くないのに、母港だとどうしても怖くて…ひとりでしたし……",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "ふぅ…巻波ちゃんに会えて本当に良かった…",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "でも、巻波ちゃんはどうしてここにいるの？秘書艦のお仕事って、こんなに遅くまでするものなの…？",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "別にそうでもないよ？最近指揮官もいつもおそーいから、巻波もおそーくまで一緒にいよう！って",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "ん―指揮官、やっぱり大変だよね…一日中座りっぱなしでいつも資料を読んだり書いたりしてて…",
 			typewriter = {
@@ -360,8 +360,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "た、大変そう…でもきっと大丈夫です！巻波ちゃんがいるから…！",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "うんうん！わたしがいるからね！きっと大丈夫だよ！",
 			typewriter = {
@@ -394,14 +394,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "寮舎がもう見えてるね！よぉし、ここから一気に――あわわわ！",
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 0
@@ -417,9 +417,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "急に走り出した巻波が危うく転びそうになった。",
 			typewriter = {
 				speed = 0.05,
@@ -434,8 +434,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "巻波ちゃん、だ、大丈夫？？",
 			typewriter = {
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "大丈夫！もう慣れてるから！へへへ！",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

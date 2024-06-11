@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "敌方维修船维修技能",
 	time = 4,
-	color = "yellow",
+	name = "敌方维修船维修技能",
+	init_effect = "",
+	id = 50010,
 	picture = "",
 	desc = "3秒后回复7%HP，跳转至下一强度",
 	stack = 1,
-	id = 50010,
+	color = "yellow",
 	icon = 50010,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 3,
+				target = "TargetSelf",
 				skill_id = 50010
 			}
 		}

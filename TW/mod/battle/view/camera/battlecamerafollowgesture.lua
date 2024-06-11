@@ -6,15 +6,15 @@ slot0.Battle.BattleCameraFollowGesture = class("BattleCameraFollowGesture")
 slot0.Battle.BattleCameraFollowGesture.__name = "BattleCameraFollowGesture"
 slot3 = slot0.Battle.BattleCameraFollowGesture
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	slot0._point = Vector3.zero
 end
 
-function slot3.SetGestureComponent(slot0, slot1)
+slot3.SetGestureComponent = function(slot0, slot1)
 	slot0._slider = slot1
 end
 
-function slot3.GetCameraPos(slot0, slot1)
+slot3.GetCameraPos = function(slot0, slot1)
 	if slot0._slider:IsPress() then
 		slot0._pressPoint = slot0._pressPoint or slot1
 		slot2, slot3 = slot0._slider:IsFirstPress()
@@ -42,6 +42,6 @@ function slot3.GetCameraPos(slot0, slot1)
 	end
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._slider = nil
 end

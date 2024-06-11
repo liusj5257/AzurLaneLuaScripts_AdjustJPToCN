@@ -3,7 +3,7 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.content = slot0.tr:Find("content")
@@ -25,7 +25,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	if slot1 then
 		setActive(slot0.content, true)
 
@@ -37,7 +37,7 @@ function slot0.update(slot0, slot1)
 	end
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	slot1 = slot0.shipVO
 	slot0.lvTxt.text = "Lv." .. slot1.level
 	slot3 = slot1:getStar()
@@ -64,7 +64,7 @@ function slot0.flush(slot0)
 	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
 end
 
-function slot0.updateProps(slot0, slot1)
+slot0.updateProps = function(slot0, slot1)
 	for slot5 = 0, 2 do
 		slot6 = slot0.propsTr:GetChild(slot5)
 
@@ -79,7 +79,7 @@ function slot0.updateProps(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	if slot0.shipVO then
 		retPaintingPrefab(slot0.paintingTr, slot1:getPainting())
 	end

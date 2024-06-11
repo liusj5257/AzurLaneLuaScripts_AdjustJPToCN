@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_185",
-			say = "After closing the game, I head to the Iron Blood dorm to speak to Friedrich Carl.",
 			bgm = "story-richang-5",
+			say = "After closing the game, I head to the Iron Blood dorm to speak to Friedrich Carl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,22 +32,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_185",
-			say = "*knock knock*",
 			soundeffect = "event:/ui/knockdoor1",
+			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "Friedrich Carl",
-			bgName = "star_level_bg_185",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_185",
 			say = "Come in! The door is unlocked.",
 			painting = {
 				alpha = 0.3,
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_185",
 			say = "Stepping inside her room, I see her lying down on the carpet.",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Heehee. If it isn't the brave little soul who dethroned the Demon King. Why are you here?",
 			painting = {
@@ -111,8 +111,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Ah, yes, you didn't close out of the game that night. Don't you know that playing for too long isn't good for you?",
 			painting = {
@@ -150,8 +150,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Yes? I was on the production team, so I should have an answer for you.",
 			painting = {
@@ -193,9 +193,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Heehee. I'll admit my role wasn't quite as simple as a mere mechanic.",
 			painting = {
@@ -211,9 +211,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "I appeared out of nowhere to help you on your quest, and more than just once.",
 			painting = {
@@ -229,9 +229,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "As for why I did... Well, the game is meant to have an open ending.",
 			painting = {
@@ -247,9 +247,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "You're welcome to create your own theory for it.",
 			painting = {
@@ -265,9 +265,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Ah, the goddesses. Our discussions about those were pretty passionate.",
 			painting = {
@@ -283,9 +283,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Perhaps unsurprisingly, project members were given priority for those roles.",
 			painting = {
@@ -298,12 +298,12 @@ return {
 			}
 		},
 		{
-			actor = 403141,
 			side = 2,
 			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
+			nameColor = "#A9F548FF",
 			say = "First, there's the goddess of beginnings and ends. Bristol gave that title to Saratoga.",
 			painting = {
 				alpha = 0.3,
@@ -318,9 +318,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "She also chose TB for the role of the goddess of order and rules.",
 			painting = {
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			actor = 403141,
 			side = 2,
 			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
+			nameColor = "#A9F548FF",
 			say = "On the other hand, Valiant quite insistently nominated Queen Elizabeth to be the goddess of desserts and tea parties.",
 			painting = {
 				alpha = 0.3,
@@ -353,9 +353,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "The title of goddess of revivals and baths was similarly forced upon Veneto by Marco Polo.",
 			painting = {
@@ -371,9 +371,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Then there's the goddess of steel and dragons. Eugen evaluated candidate after candidate until she chose Bismarck in the end.",
 			painting = {
@@ -389,9 +389,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "The role of goddess of fire and purity was a three-way nomination between Ayanami, Ikazuchi, and Inazuma, who chose Akagi.",
 			painting = {
@@ -404,12 +404,12 @@ return {
 			}
 		},
 		{
-			actor = 403141,
 			side = 2,
 			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
+			nameColor = "#A9F548FF",
 			say = "That one actually had an alternative name proposed. I think it was \"goddess of fire and agriculture.\"",
 			painting = {
 				alpha = 0.3,
@@ -424,9 +424,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "It didn't make the cut because people thought it was too difficult to understand.",
 			painting = {
@@ -439,12 +439,12 @@ return {
 			}
 		},
 		{
-			actor = 403141,
 			side = 2,
 			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
+			nameColor = "#A9F548FF",
 			say = "Anyway... Clemenceau nominated herself for the role of goddess of darkness and conspiracy and also picked Richelieu to be the goddess of light and justice.",
 			painting = {
 				alpha = 0.3,
@@ -459,9 +459,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Goddess of unity and toughness went to Soyuz. Pamiat' endorsed her.",
 			painting = {
@@ -477,9 +477,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Meanwhile, Hai Tien thought Yat Sen would be a good pick for the goddess of peace and protection.",
 			painting = {
@@ -495,9 +495,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Finally, there's the goddesses of pioneering and adventure and luck and riches. Those two were self-nominated.",
 			painting = {
@@ -513,9 +513,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "That should be all of them, I think.",
 			painting = {
@@ -543,9 +543,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "For those, I'll have to say... Stay tuned, my dear little one♪",
 			painting = {
@@ -558,12 +558,12 @@ return {
 			}
 		},
 		{
-			actor = 403141,
 			side = 2,
 			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 3,
+			actor = 403141,
+			nameColor = "#A9F548FF",
 			say = "Heehee. It's a very interesting story, I can tell you that.",
 			painting = {
 				alpha = 0.3,
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			actor = 403141,
 			side = 2,
 			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 3,
+			actor = 403141,
+			nameColor = "#A9F548FF",
 			say = "Long, looong ago, humans and dragons and vampires all managed to coexist.",
 			painting = {
 				alpha = 0.3,
@@ -595,9 +595,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 3,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "The power structure of the old world was completely different from the new world. More mysterious, too...",
 			painting = {
@@ -610,12 +610,12 @@ return {
 			}
 		},
 		{
-			actor = 403141,
 			side = 2,
 			bgName = "star_level_bg_185",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 3,
+			actor = 403141,
+			nameColor = "#A9F548FF",
 			say = "So Hai Tien says, anyway. She wrote a lot of background lore about them.",
 			painting = {
 				alpha = 0.3,
@@ -630,9 +630,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
 			optionFlag = 3,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "If we ever add more content, I'm sure they'll appear in it.",
 			painting = {
@@ -648,8 +648,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Oh, one more thing...",
 			painting = {
@@ -665,8 +665,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "As you've probably already figured out, everyone who worked on the game got to choose a special bonus for their efforts.",
 			painting = {
@@ -681,9 +681,9 @@ return {
 		{
 			actor = 403141,
 			side = 2,
-			bgName = "star_level_bg_185",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_185",
 			say = "Some chose to appear in it as goddesses, others gave themselves unique and powerful items.",
 			painting = {
 				alpha = 0.3,
@@ -698,8 +698,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Then there's me... Heehee. I chose to create a very special place.",
 			painting = {
@@ -715,8 +715,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "It's a mysterious hideout, tucked away in a corner of the world where nobody will find it.",
 			painting = {
@@ -732,8 +732,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Furnished with all the things Ballad Castle did at the peak of the city's prosperity...",
 			painting = {
@@ -749,8 +749,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "It's a beautiful place where love and music hang in the air from dawn 'til dusk.",
 			painting = {
@@ -766,8 +766,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Would you like to see it?",
 			painting = {
@@ -783,8 +783,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_185",
-			actor = 403141,
 			dir = 1,
+			actor = 403141,
 			nameColor = "#A9F548FF",
 			say = "Then let's go and visit it, just the two of us.",
 			painting = {

@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.chapter_capture = {
 	[1150001] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 6,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 1500,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 6,
 		id = 1150001,
 		special_expedition_list = {
 			1150001
@@ -97,12 +97,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150002] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 6,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 1500,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 6,
 		id = 1150002,
 		special_expedition_list = {
 			1150002
@@ -189,12 +189,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150003] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 6,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 1500,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 6,
 		id = 1150003,
 		special_expedition_list = {
 			1150003
@@ -309,12 +309,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150004] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 6,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 1500,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 6,
 		id = 1150004,
 		special_expedition_list = {
 			1150004
@@ -405,12 +405,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150005] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 6,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 1500,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 6,
 		id = 1150005,
 		special_expedition_list = {
 			1150005
@@ -517,12 +517,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150006] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 6,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 1500,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 6,
 		id = 1150006,
 		special_expedition_list = {
 			1150006
@@ -665,12 +665,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150011] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1150011,
 		special_expedition_list = {
 			1150011
@@ -761,12 +761,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150012] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1150012,
 		special_expedition_list = {
 			1150012
@@ -853,12 +853,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150013] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1150013,
 		special_expedition_list = {
 			1150013
@@ -973,12 +973,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150014] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1150014,
 		special_expedition_list = {
 			1150014
@@ -1069,12 +1069,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150015] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1150015,
 		special_expedition_list = {
 			1150015
@@ -1181,12 +1181,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1150016] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1150016,
 		special_expedition_list = {
 			1150016
@@ -1329,12 +1329,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210001] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210001,
 		special_expedition_list = {
 			1210001
@@ -1445,12 +1445,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210002] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210002,
 		special_expedition_list = {
 			1210002
@@ -1537,12 +1537,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210003] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210003,
 		special_expedition_list = {
 			1210003
@@ -1637,12 +1637,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210004] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210004,
 		special_expedition_list = {
 			1210004
@@ -1713,12 +1713,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210005] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210005,
 		special_expedition_list = {
 			1210005
@@ -1797,12 +1797,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210006] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210006,
 		special_expedition_list = {
 			1210006
@@ -1925,12 +1925,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210011] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210011,
 		special_expedition_list = {
 			1210011
@@ -2041,12 +2041,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210012] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210012,
 		special_expedition_list = {
 			1210012
@@ -2133,12 +2133,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210013] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210013,
 		special_expedition_list = {
 			1210013
@@ -2233,12 +2233,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210014] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210014,
 		special_expedition_list = {
 			1210014
@@ -2309,12 +2309,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210015] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210015,
 		special_expedition_list = {
 			1210015
@@ -2393,12 +2393,12 @@ pg.chapter_capture = {
 		}
 	},
 	[1210016] = {
-		escape_grid_icon = 0,
-		minimum_guarantee = 5,
 		special_item = 2,
-		special_item_type = 0,
 		special_unit_p = 2000,
+		escape_grid_icon = 0,
 		first_time = 0,
+		special_item_type = 0,
+		minimum_guarantee = 5,
 		id = 1210016,
 		special_expedition_list = {
 			1210016

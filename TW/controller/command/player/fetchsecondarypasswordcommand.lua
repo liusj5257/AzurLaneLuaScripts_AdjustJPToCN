@@ -1,6 +1,6 @@
 slot0 = class("FetchSecondaryPasswordCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = pg.UIMgr.GetInstance()
 
 	slot2:LoadingOn()

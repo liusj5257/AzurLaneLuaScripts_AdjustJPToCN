@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "公海舰队EX 构建者召唤小怪 第一波",
 	time = 1,
+	name = "公海舰队EX 构建者召唤小怪 第一波",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

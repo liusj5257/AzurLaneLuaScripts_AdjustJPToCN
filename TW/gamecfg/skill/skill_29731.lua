@@ -2,30 +2,30 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 79741,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 79743,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillEditTag",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillEditTag",
+				target_choise = "TargetSelf",
 				arg_list = {
 					tag = "DanmakuFire",
 					operation = 1
@@ -36,10 +36,10 @@ return {
 	uiEffect = "",
 	name = "专属弹幕-风云",
 	cd = 0,
-	painting = 1,
-	id = 29731,
 	picture = "0",
 	desc = "专属弹幕-风云",
+	painting = 1,
+	id = 29731,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -50,30 +50,30 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 79741,
 				emitter = "BattleBulletEmitter"
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 79743,
 				emitter = "BattleBulletEmitter"
 			}
 		},
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "DanmakuFire",
 				operation = 1

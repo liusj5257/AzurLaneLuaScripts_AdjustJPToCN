@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"バケーションレーン-日常編\n\n<size=45>三 魅惑のポーカーレッスン</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "モニカがレッスンに付き合ってほしいと、ここに連れてこられた",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "doa_story1",
+			say = "モニカがレッスンに付き合ってほしいと、ここに連れてこられた",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ポーカーとかかな…？",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "これから、ちょっとしたレッスンに付き合っていただきます。「真剣勝負」…ではありませんが、その「つもり」で、お願いしますね♪",
 			typewriter = {
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 900306,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900306,
+			nameColor = "#a9f548",
 			say = "ここに、ハートのエースとジョーカーが1枚ずつあります。よ～く、見えましたか？",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "ルールは簡単、ハートのエースを引いたら、指揮官さんの勝ちです！",
 			typewriter = {
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "2枚の中から当たりを引く、運が試されるな",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "それでは、カードをシャッフルするので、指揮官さんは目を閉じてください",
 			typewriter = {
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "モニカの言う通りに、目を閉じる",
 			typewriter = {
 				speed = 0.05,
@@ -181,15 +181,15 @@ return {
 			}
 		},
 		{
-			actor = 900306,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900306,
+			nameColor = "#a9f548",
 			say = "……目を開けていいですよ、指揮官さん",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "目を開けると、モニカの手には裏返ったカードが1枚だけ",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "もう1枚は…",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "ふふっ♪こちらです❤",
 			typewriter = {
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "？！",
 			typewriter = {
 				speed = 0.05,
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "もう1枚のカードは、モニカの胸元で挟まれていた",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "さあ、どっちにしますか？指揮官さん❤",
 			typewriter = {
@@ -332,9 +332,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900306,
 			dir = 1,
 			optionFlag = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "ふふっ、指揮官さんの負け、ですね♪",
 			typewriter = {
@@ -350,9 +350,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900306,
 			dir = 1,
 			optionFlag = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "指揮官さんったら、すぐ誘惑に負けちゃうんですから…",
 			typewriter = {
@@ -380,12 +380,12 @@ return {
 			}
 		},
 		{
-			actor = 900306,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 900306,
+			nameColor = "#a9f548",
 			say = "ふふっ、指揮官さんの勝ち、です♪",
 			typewriter = {
 				speed = 0.05,
@@ -400,9 +400,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900306,
 			dir = 1,
 			optionFlag = 2,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "うーん、指揮官さんには効くかもって思ったんですけど…",
 			typewriter = {
@@ -415,12 +415,12 @@ return {
 			}
 		},
 		{
-			actor = 900306,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900306,
+			nameColor = "#a9f548",
 			say = "ふふっ、また付き合ってくださいね、指揮官さん♪",
 			typewriter = {
 				speed = 0.05,

@@ -1,16 +1,16 @@
 return {
-	id = "WORLD508K",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508K",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "爆発による衝撃波で海が荒れ、眩しい光で視界が覆われた。",
-			dir = 1,
 			bgm = "main-ashes-theme",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "爆発による衝撃波で海が荒れ、眩しい光で視界が覆われた。",
 			flashN = {
 				color = {
 					1,
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "全てが収まると、そこには死のような静寂さだけが残されていた。",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "こほこほ…指揮官、大丈夫？",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "体はどうやら無事のようだ。他の仲間の様子が心配だ…",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "ただ、工作艦たち後詰めの部隊の損傷は少なく、緊急手当てしてくれているから、脱落者は出ていないわ",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "しかし、この規模の爆発…余燼でも無事でいられるはずは……",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "余燼がせっかく作ってくれたチャンス、無下にはできない……",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "今は一刻も早く特異点の出口にたどり着き、外にいる仲間たちと合流しなければならない。",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それから戦力を再度集結させて特異点内部の調査を行い、願わくばNA海域を元に――青い海へと戻す。",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それまで、みんな持ちこたえてくれ…っ！",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_94 = {}
 slot1 = slot0.word_template_94
 
-function temp()
+temp = function()
 	uv0["应"] = {
 		["召"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["菊"] = {
 		["花"] = {
 			["蕾"] = {
@@ -34,7 +34,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["肉"] = {
 		["蒲"] = {
 			["团"] = {
@@ -189,7 +189,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["极"] = {
 		["品"] = {
 			["波"] = {

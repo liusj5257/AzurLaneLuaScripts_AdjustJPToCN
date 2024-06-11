@@ -2,11 +2,11 @@ slot0 = class("WorldBossInformationLayer", import("view.base.BaseUI"))
 slot1 = 25
 slot2 = 7.2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldBossInformationUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.layer = slot0:findTF("fixed")
 	slot0.top = slot0:findTF("top", slot0.layer)
@@ -64,7 +64,7 @@ function slot0.init(slot0)
 	slot0.dungeonDict = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -130,23 +130,23 @@ function slot0.didEnter(slot0)
 	})
 end
 
-function slot0.setPlayerInfo(slot0, slot1)
+slot0.setPlayerInfo = function(slot0, slot1)
 	slot0.resPanel:setPlayer(slot1)
 	setActive(slot0.resPanel._tf, nowWorld():IsSystemOpen(WorldConst.SystemResource))
 end
 
-function slot0.getCurrentFleet(slot0)
+slot0.getCurrentFleet = function(slot0)
 	return nowWorld():GetFleet()
 end
 
-function slot0.GetCurrentAttachment(slot0)
+slot0.GetCurrentAttachment = function(slot0)
 	slot1 = nowWorld():GetActiveMap()
 	slot2 = slot1:GetFleet()
 
 	return slot1:GetCell(slot2.row, slot2.column):GetAliveAttachment(), slot1.config.difficulty
 end
 
-function slot0.GetEnemyLevel(slot0, slot1)
+slot0.GetEnemyLevel = function(slot0, slot1)
 	if slot1.difficulty == ys.Battle.BattleConst.Difficulty.WORLD then
 		return WorldConst.WorldLevelCorrect(nowWorld():GetActiveMap().config.expedition_level, slot1.type)
 	else
@@ -154,7 +154,7 @@ function slot0.GetEnemyLevel(slot0, slot1)
 	end
 end
 
-function slot0.UpdateHpbar(slot0)
+slot0.UpdateHpbar = function(slot0)
 	slot1 = slot0:GetCurrentAttachment()
 	slot2 = slot0:GetDungeonBossData(slot1).bossData.hpBarNum
 	slot4 = math.ceil(slot2 * (slot1:GetHP() or 10000) / 10000)
@@ -210,7 +210,7 @@ function slot0.UpdateHpbar(slot0)
 	})
 end
 
-function slot0.GetDungeonBossData(slot0, slot1)
+slot0.GetDungeonBossData = function(slot0, slot1)
 	assert(slot1, "Attachment is null")
 
 	slot2 = slot1.config.dungeon_id
@@ -233,7 +233,7 @@ function slot0.GetDungeonBossData(slot0, slot1)
 	return slot5
 end
 
-function slot0.GetDungeonFile(slot0, slot1)
+slot0.GetDungeonFile = function(slot0, slot1)
 	if slot0.dungeonDict[slot1] then
 		return slot0.dungeonDict[slot1]
 	end
@@ -250,7 +250,7 @@ slot5 = "fe2222"
 slot6 = "92fc63"
 slot7 = 70
 
-function slot0.updateStageView(slot0)
+slot0.updateStageView = function(slot0)
 	slot1, slot2 = slot0:GetCurrentAttachment()
 	slot3 = slot1:GetBattleStageId()
 
@@ -481,7 +481,7 @@ function slot0.updateStageView(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.awardPanel and slot0.awardPanel:isShowing() then
 		slot0.awardPanel:Hide()
 
@@ -491,7 +491,7 @@ function slot0.onBackPressed(slot0)
 	triggerButton(slot0.backBtn)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:DestroyAwardPanel()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.layer, slot0._tf)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
@@ -510,7 +510,7 @@ function slot0.willExit(slot0)
 	slot0.loader:Clear()
 end
 
-function slot0.GetAwardPanel(slot0)
+slot0.GetAwardPanel = function(slot0)
 	slot0.awardPanel = slot0.awardPanel or WorldBossHPAwardPanel.New(slot0._tf, slot0.event, slot0.contextData)
 
 	slot0.awardPanel:Load()
@@ -518,7 +518,7 @@ function slot0.GetAwardPanel(slot0)
 	return slot0.awardPanel
 end
 
-function slot0.DestroyAwardPanel(slot0)
+slot0.DestroyAwardPanel = function(slot0)
 	if not slot0.awardPanel then
 		return
 	end
@@ -528,7 +528,7 @@ function slot0.DestroyAwardPanel(slot0)
 	slot0.awardPanel = nil
 end
 
-function slot0.TransformColor(slot0)
+slot0.TransformColor = function(slot0)
 	return Color.New(tonumber(string.sub(slot0, 1, 2), 16) / 255, tonumber(string.sub(slot0, 3, 4), 16) / 255, tonumber(string.sub(slot0, 5, 6), 16) / 255)
 end
 

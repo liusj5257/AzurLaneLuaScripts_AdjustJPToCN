@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE29",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_starsea_core_1",
-			stopbgm = true,
-			say = "ユニオン極秘研究基地「星の海」中央制御室 現実空間",
 			bgmDelay = 2,
 			bgm = "battle-starsea-elec",
+			stopbgm = true,
+			say = "ユニオン極秘研究基地「星の海」中央制御室 現実空間",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -27,17 +27,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "「リアリティレンズ」にいたときの違和感もない。どうやら無事に「星の海」に戻れたようだ。",
 			typewriter = {
@@ -58,10 +58,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官？！良かった…無事に目覚めたわね！",
 			painting = {
 				alpha = 0.3,
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -86,10 +86,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "身体機能のモニタリングもよし。うん、体にも意識にも異常はありません",
 			painting = {
 				alpha = 0.3,
@@ -104,10 +104,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よかったぁ……おかえり、指揮官…",
 			painting = {
 				alpha = 0.3,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "…………",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "長い夢でも見ていたような気分だ。",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "しかし、夢の中での出来事ははっきりと記憶している。",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "自分の体調より、もっと心配すべきことがあるのだが――",
 			typewriter = {
@@ -174,10 +174,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大丈夫。指揮官より早く目覚めたけど、何も異常もないわ",
 			painting = {
 				alpha = 0.3,
@@ -192,10 +192,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それとリュウコツの異常データが全部消えたの",
 			painting = {
 				alpha = 0.3,
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
-			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "全く、人の心配をするより、まずは自分の心配をしたらどうかしら？",
 			painting = {
 				alpha = 0.3,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -237,10 +237,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官が「リアリティレンズ」の中にいる間、こちらでも色々起きたんですよ",
 			painting = {
 				alpha = 0.3,
@@ -255,10 +255,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヘレナがどなたかから「星の海」のアクセスコードを教えられて、無事に「リアリティレンズ」を停止できました",
 			painting = {
 				alpha = 0.3,
@@ -273,10 +273,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それで指揮官を救出できたわ。それで…ヘレナ、説明してくれるのよね？",
 			painting = {
 				alpha = 0.3,
@@ -291,10 +291,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええと………",
 			painting = {
 				alpha = 0.3,
@@ -306,8 +306,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "もう一人のヘレナ…「META」のヘレナが教えてくれたんだろう。",
 			typewriter = {
@@ -319,10 +319,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "は、はい！指揮官がどうしてそれを知ってるの？",
 			painting = {
 				alpha = 0.3,
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "こっちにも色々あったから…と、とりあえずごまかしておこう。",
 			typewriter = {
@@ -347,10 +347,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ニュージャージーたちと一緒に会った「META」艦船の一人の？",
 			painting = {
 				alpha = 0.3,
@@ -362,8 +362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "こっちでも色々あった。",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "仲間たちには今度詳しく説明しておこう。",
 			typewriter = {
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "「星の海」の各種システムを制御できるTBを呼び出す。",
 			typewriter = {
@@ -392,13 +392,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/15/tb-15",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "ナビゲーターTB、こちらに",
 			painting = {
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "「レイ」という名前に聞き覚えがあるか？",
 			typewriter = {
@@ -421,13 +421,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "オーダーを受領しました。データを検索中です",
 			painting = {
@@ -440,13 +440,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "863000000件のデータがヒットしました。絞り込むための情報を追加してください",
 			painting = {
 				alpha = 0.3,
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "TBと知り合う個体は存在するか？",
 			typewriter = {
@@ -468,13 +468,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "オーダーを受領しました。データを検索中です",
 			painting = {
@@ -487,13 +487,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "0件ヒットしました。TBのデータベース内に、指揮官が述べる特徴をもつ個体に関する記録は存在しません",
 			painting = {
 				alpha = 0.3,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "……やっぱり一筋縄ではいかない、か。",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "それともう一つ…本命とも言えることを確かめる",
 			typewriter = {
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "「リアリティレンズ」の仮想空間について、なんらかのログやデータが残っているはずだ。",
 			typewriter = {
@@ -535,13 +535,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/15/tb-15",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "実験中に発生しましたデータオーバーフローにより、現在当該ログの検証と解析が困難です",
 			painting = {
@@ -554,13 +554,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "当該データのメモリでの整理を行った後に、解析を開始できます",
 			painting = {
 				alpha = 0.3,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "「Ⅱ」型艤装……という名の資料があるか？",
 			typewriter = {
@@ -582,13 +582,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "オーダーを受領しました。データを検索中です",
 			painting = {
@@ -601,13 +601,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "「Ⅱ」型艤装に関する解析済みのデータが存在します",
 			painting = {
@@ -620,13 +620,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "現在、「ヨークタウン」「ホーネット」「ラングレー」「ハムマン」「ノーザンプトン」に関する資料の解析が終了しています",
 			painting = {
 				alpha = 0.3,
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "「ラフィー」のはあるか？",
 			typewriter = {
@@ -648,13 +648,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "「ラフィー」に関する「Ⅱ」型艤装の資料は存在しません。もう一度検索しますか？",
 			painting = {
 				alpha = 0.3,
@@ -666,8 +666,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "ほかの仲間と違ってほとんど交流していなかったから、ログが蓄積されていない可能性がある。",
 			typewriter = {
@@ -676,8 +676,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "だが問題ない。これらの資料があれば――",
 			typewriter = {
@@ -686,12 +686,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「Ⅱ」型艤装って……なに？",
 			painting = {
 				alpha = 0.3,
@@ -703,8 +703,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "…………",
 			typewriter = {
@@ -723,8 +723,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "とにかく、急ぎサラトガに連絡し、一度「星の海」で合流しよう。",
 			typewriter = {
@@ -733,8 +733,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "ヨークタウンやレキシントン、そしてほかの陣営の仲間たちを必ず救って見せる！",
 			typewriter = {

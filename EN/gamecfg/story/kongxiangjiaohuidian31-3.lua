@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN31-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN31-3",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
+			nameColor = "#A9F548FF",
 			stopbgm = true,
 			bgm = "story-bismark-determination",
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
+			actorName = "Arbiter: The Hermit IX?",
 			say = "<Detecting values greatly exceeding predictions. Switching to combat sequence F.>",
 			painting = {
 				alpha = 0.3,
@@ -76,8 +76,8 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
+			actorName = "Arbiter: The Hermit IX?",
 			say = "<External resources accessed. The Devil main engine output: 5%.>",
 			painting = {
 				alpha = 0.3,
@@ -92,8 +92,8 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Arbiter: The Hermit IX?",
 			dir = 1,
+			actorName = "Arbiter: The Hermit IX?",
 			say = "<Gravity manipulator deployed. Switching to XYZ navigation mode.>",
 			painting = {
 				alpha = 0.3,
@@ -108,8 +108,8 @@ return {
 			expression = 5,
 			side = 2,
 			paintingNoise = true,
-			actor = 401990,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
 			say = "Uhh, does anyone else feel kinda weightless?!",
 			painting = {
@@ -125,8 +125,8 @@ return {
 			actor = 405030,
 			side = 2,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "It's not just us, the change in gravity has messed with the red sea as well!",
 			painting = {
 				alpha = 0.3,
@@ -140,10 +140,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 402100,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My Regina can adapt to that! Do not let that Arbiter vessel get away!",
 			painting = {
 				alpha = 0.3,
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			side = 2,
 			paintingNoise = true,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
 			say = "Don't know if they'll be there in time or not, but I'll scramble my planes anyway!",
 			painting = {
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "(This must be the gamble Vestal was talking about.)",
 			painting = {
 				alpha = 0.3,
@@ -206,8 +206,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "U-556, do you want to be the world's first flying submarine?",
 			painting = {
 				alpha = 0.3,
@@ -222,8 +222,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
+			actor = 9708010,
 			actorName = "U-556 META?",
 			say = "Uhh... Yeah, that sounds sweet!",
 			painting = {
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "Then get up here, quickly.",
 			painting = {
 				alpha = 0.3,
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "Geryon! Take to the skies!",
 			painting = {
 				alpha = 0.3,

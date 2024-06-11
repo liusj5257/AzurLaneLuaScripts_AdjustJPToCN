@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_394 = {}
 slot1 = slot0.word_template_394
 
-function temp()
+temp = function()
 	uv0["糕"] = {
 		["力"] = {
 			["先"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["枷"] = {
 		["一"] = {
 			["秒"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["禾"] = {
 		["舀"] = {
 			["学"] = {
@@ -49,7 +49,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["裆"] = {
 		["仲"] = {
 			["央"] = {
@@ -61,7 +61,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.u = {
 		s = {
 			h = {
@@ -136,7 +136,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["算"] = {
 		["计"] = {
 			["师"] = {
@@ -148,7 +148,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["壴"] = {
 		["."] = {
 			["{"] = {

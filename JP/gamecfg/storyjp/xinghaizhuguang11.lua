@@ -4,29 +4,29 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "battle-hightech",
 			side = 2,
 			bgName = "bg_zhedie_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "―――！！",
 			soundeffect = "event:/battle/boom2",
+			bgm = "battle-hightech",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "―――！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "じーーーーーーー",
 			painting = {
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（あれ？実験が終わったのに、TBが出てこない…）",
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（ええと、ここからどうすればいいの？「星の海」じゃこれが普通なのかしら？）",
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（いやいや、通信が繋がらないってどう考えても普通じゃないでしょ？！）",
@@ -308,11 +308,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（もう…「星の海」に来て早々トラブルに巻き込まれるなんて……）",
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（ここからはどうすればいいの……？？）",
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "じーーーーーーー",
 			painting = {
@@ -439,11 +439,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "じーーーーーーー",
 			painting = {
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "じーーーーーーー",
 			painting = {

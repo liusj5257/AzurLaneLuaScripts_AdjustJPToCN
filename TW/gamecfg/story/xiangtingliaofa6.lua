@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "airRaidAlarm",
 			say = "白鷹·長島防線 不久前",
+			side = 2,
+			dir = 1,
+			bgm = "airRaidAlarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,12 +21,12 @@ return {
 			}
 		},
 		{
-			actor = 102070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "怎、怎麼會…….這裡不是安全的後方嗎……",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 102070,
+			nameColor = "#a9f548",
+			say = "怎、怎麼會…….這裡不是安全的後方嗎……",
 			flashN = {
 				color = {
 					1,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -102,8 +102,8 @@ return {
 			actor = 102230,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "終於找到妳了——",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "不要怕，現在沿島防線還算穩固。再怎麼說也是紐約司令部的外圍防禦，不會這麼輕易被攻克的。",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "沒事，不要緊。事先誰都沒料到塞壬艦隊會毫無預警的打到這裡來。",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "一直隱藏在姐姐們的光環中，可是永遠也發揚不出自我的！",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -350,8 +350,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "就是這樣，平靜下來了嗎？",
 			typewriter = {
 				speed = 0.05,

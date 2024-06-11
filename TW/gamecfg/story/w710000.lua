@@ -1,12 +1,12 @@
 return {
-	id = "W710000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這裡是？……",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "看起來進入了未知的海域，深藍色的海水上漂浮著紫灰色的暗雲，空氣裡充斥著濃郁的海鹽氣息，以及陣陣鐵鏽的味道……",
 			typewriter = {
 				speed = 0.05,

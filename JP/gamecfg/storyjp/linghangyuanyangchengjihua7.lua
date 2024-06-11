@@ -5,29 +5,29 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA7",
 	scripts = {
 		{
-			actor = 0,
-			side = 2,
 			bgName = "bg_project_tb_room1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――これで食材の下準備は一通り終わった…",
+			side = 2,
 			bgm = "qe-ova-12",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――これで食材の下準備は一通り終わった…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "バーチャル空間とはいえ、食器食材の手触りから料理の香りまで再現されているようだ。",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "明石に依頼した際の投資額を思い出すと諸行無常の気持ちに――",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "と、服の裾が引っ張られた気がした。",
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "――TBか。",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TBは反応する素振りを見せることなく、ただただ静かに見つめてきている。",
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-doubt2",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-doubt2",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TBは腕を広げた。抱っこしてほしいようだ。",
@@ -183,9 +183,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "小さい子を台所に立たせるのは危険すぎるが、それでも「成長」のためなら……",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "こども用椅子を運び込み、それからTBがちゃんと立てるようにしっかり固定させた。",
@@ -225,9 +225,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-talking3",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "まだ切っていないじゃがいもを持ち上げながら、TBは身振り手振りで何か伝えようとしている。",
@@ -256,9 +256,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-laugh2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TBの言わんとしたいことを頑張って読み解く。",
@@ -287,9 +287,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-angry",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "そういえば、にくじゃがを作ったときに失敗して焦げさせたな…あれがおいしかったのか？",
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TBは首を縦に振った。",
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer11",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer11",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "表情もトーンも変わらないのに、なぜか楽しそうにしているように感じた",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "こども用の調理器具セットを取り出し、包丁をTBに渡した",
@@ -415,27 +415,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_room1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_room1",
 			say = "こうして、お子様TBの「協力」のもと、肉じゃがは順調に出来上がった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -443,8 +443,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "スプーンを手に取り、彼女に食べさせようとしたが…",
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TBは口に運ばれた料理を無視し、いつも用意された食器を手に取り、たどたどしくこっちの動きを真似し始めた。",
@@ -489,8 +489,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TBの成長に柄にもなく感慨を覚えていると、彼女は再びこちらの裾を引っ張り始めた。",
@@ -500,14 +500,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "あ――",
 			voice = "event:/educate/tb/educate-tb-story-1-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "あ――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,17 +517,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "彼女はフォークでブロッコリーをこっちの口元に運んできた。",
@@ -558,14 +558,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "お口……開けて",
 			voice = "event:/educate/tb/educate-tb-story-1-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "お口……開けて",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,8 +576,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "余計な表情もなく、彼女はとても嬉しそうにしている。",
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "もしかしたら……このような「餌付け」行為を真似すること自体が、TBにとっては何かを理解する手がかりになっているのかもしれない。",
@@ -598,14 +598,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "あ――",
 			voice = "event:/educate/tb/educate-tb-story-1-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "あ――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "なかなか反応しないのを見て、彼女は再び声を出してこちらに行動を促してきた。",
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "大げさに口を開けて、ブロッコリーをがぶっと食べた。",
@@ -650,27 +650,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_room1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_room1",
 			say = "その後、TBとの楽しい食事の時間が終わった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN31",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
+			bgName = "bg_underwater",
+			bgm = "bsm-2",
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "여기까지다 컴파일러, 포.기.해!",
-			bgm = "bsm-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "매복...",
 			typewriter = {
@@ -59,11 +59,11 @@ return {
 			}
 		},
 		{
-			actor = 408100,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408100,
+			nameColor = "#a9f548",
 			say = "정말 놀랐어. 그런 큰 몸을 하고 물속에서 그렇게 빠르게 움직이다니!",
 			typewriter = {
 				speed = 0.05,
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "하지만 그래도 내 어뢰에서는 벗어나지 못할걸?",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 4,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			say = "장갑———",
 			typewriter = {
 				speed = 0.05,
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#ff5c5c",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			stopbgm = true,
 			say = "안녕~ 꽤 고전 중인가 봐?",
 			typewriter = {
 				speed = 0.05,
@@ -153,10 +153,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "아, 미안! 하지만 걱정 마. 옵저버가 곧 데리러 갈 거니까. 「샘플」은 회수했지?",
 			typewriter = {
 				speed = 0.05,
@@ -202,10 +202,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900230,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900230,
+			nameColor = "#ff5c5c",
 			say = "됐어. 올 거면 그냥 물건이나 가지고 가. 피곤해...",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "에?! 설, 설마...",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,10 +262,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "젠장... 한바탕할 수 있을 줄 알았는데, 결국 뒤집어썼잖아!!!",
 			typewriter = {
 				speed = 0.05,
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			say = "펑————————!",
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -332,11 +332,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
+			bgm = "bsm-2",
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "에, 에엥? 어뢰는 쏘지 않았는데 왜 폭발한 거지...",
-			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,8 +350,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "설마 이렇게 끝이야? 내 실력을 뽐낼 기회는?!",
 			typewriter = {
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,9 +377,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408100,
 			dir = 1,
 			blackBg = true,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "......에엥? ——————————으아아아!!!!!",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

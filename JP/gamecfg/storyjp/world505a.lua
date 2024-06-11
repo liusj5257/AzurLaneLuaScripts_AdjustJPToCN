@@ -1,19 +1,19 @@
 return {
-	id = "WORLD505A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD505A",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/17/tb-17",
+			dir = 1,
 			bgm = "xinnong-3",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "スキャンが完了しました。周辺区域内のセイレーン反応はありません",
-			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,11 +26,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "戦況データの分析を行います",
 			voice = "event:/tb/19/tb-19",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "戦況データの分析を行います",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,11 +43,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/40/tb-40",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "報告します。本艦隊以外、セイレーンの防御線を突破した艦隊は3つあります。NA中心海域における第一防衛ラインは瓦解しつつあります",
-			voice = "event:/tb/40/tb-40",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "何より、当初の想定だとNA海域中心部に接近するにつれて、セイレーンの戦力は増大するはず…",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "全部奥のエリアに集めていたら、そもそも艦隊行動どころか密度のせいで戦闘の邪魔になるだろう",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……不可解なセイレーン配置を警戒しつつ、既定作戦を引き続き進行させることにした。",
 			typewriter = {
 				speed = 0.05,

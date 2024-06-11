@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2024异世界冒险 剧情战 独角兽空袭",
 	cd = 0,
-	painting = 1,
-	id = 200832,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 1,
+	id = 200832,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -21,10 +21,10 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 300,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 300,
 							setAI = 70256
 						}
 					}

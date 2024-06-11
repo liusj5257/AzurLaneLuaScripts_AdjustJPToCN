@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Go Master and Her Disciple\n\n<size=45>2 Guidance</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "CLICK...",
 			bgm = "story-richang-4",
+			say = "CLICK...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Chen Hai shoots me a look of slight confusion as I lock the door to the office.",
@@ -40,10 +40,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hang on, why did you lock the door? By \"guidance\" did you mean...?",
 			painting = {
 				alpha = 0.3,
@@ -58,10 +58,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee, now I see. \"Surprise the enemy and strike at their weak point.\" It seems you know this well.",
 			painting = {
 				alpha = 0.3,
@@ -100,10 +100,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Take your time. I'm not going anywhere.",
 			painting = {
 				alpha = 0.3,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "She picks up her cup of coffee like it's the most natural thing ever. Looking closer, I can see it – and her hand – is shaking slightly. She's nervous.",
@@ -210,14 +210,14 @@ return {
 			}
 		},
 		{
-			actor = 506010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "...Now I see. No wonder something felt off.",
 			fontsize = 24,
+			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "...Now I see. No wonder something felt off.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,10 +288,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "C-Commander! I just remembered something I have to–",
 			painting = {
 				alpha = 0.3,
@@ -318,10 +318,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Y-you \"found\" it? Ahaha... Wonderful. That's... great.",
 			painting = {
 				alpha = 0.3,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -346,10 +346,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Oh. A Go board?",
 			painting = {
 				alpha = 0.3,
@@ -373,12 +373,12 @@ return {
 			}
 		},
 		{
-			actor = 506010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 506010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So THAT'S what this was about...",
 			painting = {
 				alpha = 0.3,
@@ -405,10 +405,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, I'm fine. In fact, I feel great.",
 			painting = {
 				alpha = 0.3,
@@ -423,10 +423,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm ready if you are. Let's play. Heehee.",
 			painting = {
 				alpha = 0.3,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_162 = {}
 slot1 = slot0.word_template_162
 
-function temp()
+temp = function()
 	uv0["迅"] = {
 		["雷"] = {
 			["三"] = {
@@ -28,7 +28,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["4"] = {
 		["5"] = {
 			M = {
@@ -90,7 +90,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["溫"] = {
 		["切"] = {
 			["斯"] = {
@@ -178,7 +178,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["立"] = {
 		["式"] = {
 			["双"] = {

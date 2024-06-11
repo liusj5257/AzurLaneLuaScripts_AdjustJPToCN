@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"愛操心的她可不是鬧著玩的\n\n<size=45>二 如果是為了山城姐姐</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301150,
-			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "唔哇……比想像中還要嚴重的情況……！",
 			bgm = "story-1",
+			actor = 301150,
+			nameColor = "#a9f548",
+			say = "唔哇……比想像中還要嚴重的情況……！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "正如時雨所說，通向主殿的參拜道上蓋滿了鎮守森林的殘枝與落葉。",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "歪倒的樹木沒有堵住道路真是不幸中的萬幸。",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "看到參拜道上的景像後，時雨急匆匆的衝向了主殿——————",
 			typewriter = {
 				speed = 0.05,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "——時雨，然後是……殿下？你們怎麼來這裡了？ ！",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "迎面遇到的山城正拿著掃把站在院外，看來是在清理落葉與樹枝。",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "向山城解釋了自己是在確認母港內受災情況途中被時雨拉來這裡的。",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "既然人手不足的話，就留在這裡幫幫忙好了——",
 			typewriter = {
 				speed = 0.05,
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "正當山城急匆匆轉向主殿的方向轉身時，她踩到了自己的和服下擺。",
 			typewriter = {
 				speed = 0.05,
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "危險——！",
 			effects = {
 				{
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "如同預測了倒地軌跡一般，時雨搶先衝到山城身旁，化解了這次搖搖欲墜的危機。",
 			effects = {
 				{
@@ -420,9 +420,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "真不愧是長時間相處的同伴，時雨對山城突發狀況的應對堪稱完美。",
 			typewriter = {
 				speed = 0.05,

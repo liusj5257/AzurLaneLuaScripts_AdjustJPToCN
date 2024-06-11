@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KASABULANKA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KASABULANKA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"突如其來的羅曼史\n\n<size=45>二  『約定太多啦』</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 106550,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "（相比剛剛擔任秘書艦的時候，已經差不多熟悉房間內各種辦公用品和文件的位置了——）",
 			bgm = "story-1",
+			actor = 106550,
+			nameColor = "#a9f548",
+			say = "（相比剛剛擔任秘書艦的時候，已經差不多熟悉房間內各種辦公用品和文件的位置了——）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "指揮官，關於前幾天提交給指揮部的報告書……",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "――――咚咚",
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 107040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107040,
+			nameColor = "#a9f548",
 			say = "真是的——指揮官！你果然在這裡！",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "請，請先冷靜一下，到底發生了什麼事？",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,8 +197,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "非常抱歉。今天需要指揮官處理的工作堆積如山……",
 			typewriter = {
@@ -227,15 +227,15 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "（就這樣繼續工作了幾小時後——）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "指揮官，關於前幾天送到的物資，我有一些在意的地方……",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "――――咚咚",
@@ -308,11 +308,11 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#a9f548",
 			say = "指～揮～官～！為什麼到了約好的時間你人卻在這裡呢～！",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#a9f548",
 			say = "明明約好了今天這個時間和我一起玩對戰遊戲的~！幽靈可不會原諒忘記約定的孩子哦~！",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "非常抱歉，我作為指揮官的秘書艦也向妳致歉……總之先消消氣吧？",
 			typewriter = {
@@ -411,14 +411,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 106550,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "（……呼。總算是請回去了。這麼一看指揮官的日程管理完全不行啊。）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "……指揮官，不好意思，不過關於剛才的事我有一些想法——",
 			typewriter = {
@@ -495,8 +495,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "為了今後的工作考慮，之後的日程表就由我來進行管理吧。",
 			typewriter = {
@@ -509,8 +509,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -554,8 +554,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "總、總之就是這樣，能明白吧？",
 			typewriter = {
@@ -568,12 +568,12 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "（指揮官似乎沒有要反駁我的意思……就先這樣吧。）",
 			typewriter = {
 				speed = 0.05,

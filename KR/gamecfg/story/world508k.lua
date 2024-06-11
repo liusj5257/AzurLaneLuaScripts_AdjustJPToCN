@@ -1,16 +1,16 @@
 return {
-	id = "WORLD508K",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508K",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "눈이 부신 하얀 빛이 시야를 뒤덮고 폭발과 충격이 바다 하늘을 짓밟았다.",
-			dir = 1,
 			bgm = "main-ashes-theme",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "눈이 부신 하얀 빛이 시야를 뒤덮고 폭발과 충격이 바다 하늘을 짓밟았다.",
 			flashN = {
 				color = {
 					1,
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "모든 것이 잠잠해지자 바다에는 적막만이 남았다.",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "콜록콜록… 지휘관, 괜찮아?!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "난 괜찮아, 다른 애들은?",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "후방 함대가 긴급히 대처하고 있긴 하지만, 다행히 낙오자는 나오지 않았어……",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이 정도 규모의 폭발이라니…… 잔불 쪽은 무사하겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "계속 전진하자… 빨리 이곳을 떠날 항로를 찾아야 해.",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "세이렌의 주력 함대는 전멸했고 남은 것은 잔불과 전투를 벌인 아비터뿐이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "함대 재결집 이후 특이점 내 공간 숙청 완료. NA 해역 전투가 드디어 끝이 났다...",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그전까지 모두 버텨야 해……………",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

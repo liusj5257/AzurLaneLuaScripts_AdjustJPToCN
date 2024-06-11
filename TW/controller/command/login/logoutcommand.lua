@@ -1,6 +1,6 @@
 slot0 = class("LogoutCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	slot0:sendNotification(GAME.WILL_LOGOUT)
@@ -113,6 +113,7 @@ function slot0.execute(slot0, slot1)
 			uv0.facade:removeProxy(ActivityTaskProxy.__cname)
 			uv0.facade:removeProxy(FeastProxy.__cname)
 			uv0.facade:removeProxy(EducateProxy.__cname)
+			uv0.facade:removeProxy(ApartmentProxy.__cname)
 			uv0.facade:removeCommand(GAME.LOAD_SCENE_DONE)
 		end
 	})

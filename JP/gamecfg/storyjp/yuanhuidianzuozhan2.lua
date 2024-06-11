@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "鏡面海域。それはセイレーンの作り上げた異空間のことである。",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "鏡面海域。それはセイレーンの作り上げた異空間のことである。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "生成された鏡面海域は外部からほとんど遮断され、そして内部には独自の環境・構造・ないし物理法則が適用される。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "そう、例えば何もないはずの海で発見された鏡面海域の中に巨大な島や施設群が存在することも――",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "鏡面海域・生活区画",
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "ブリュッヒャーは休憩室に備え付けているソファに横たわり、作戦概要書を開いた。",
@@ -237,9 +237,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "にゃは☆ こわいこわい！",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "ブリュッヒャーが作戦概要書を確認している一方で、Z16は隣の無人食堂を調査していた。",
@@ -321,9 +321,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 401160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ブリュッヒャー！今の聞いてた？",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -550,10 +550,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とにかく急いでご飯を食べて早く施設と「駒」を点検しないと！",
 			typewriter = {
 				speed = 0.05,

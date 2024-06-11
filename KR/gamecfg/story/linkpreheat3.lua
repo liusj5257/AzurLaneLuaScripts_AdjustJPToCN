@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "……그럼, 다들 기억이 잘 안 난다는 건가요?",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "맞아. 다 같이 야마토로 향하고 있었는데……정신을 차려보니 이 바다에 떨어지고 말았지.",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "어디를 둘러봐도 바다, 육지도 없어 발붙일 곳도 없고……하마터면 물에 빠져 죽겠구나 싶었습니다.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "어디를 둘러봐도 바다, 육지도 없어 발붙일 곳도 없고……하마터면 물에 빠져 죽겠구나 싶었습니다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "조난당한다는 느낌이란 아마 이런 거겠죠.",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -341,8 +341,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "……온다.",
 			typewriter = {
 				speed = 0.05,
@@ -356,10 +356,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "이야긴 거기까지입니다. 또 다른 누군가가 옵니다.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "이야긴 거기까지입니다. 또 다른 누군가가 옵니다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			actorName = "쿠온(?)",
 			say = "…………",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			actor = 10300020,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "네코네？",
 			dir = 1,
+			actorName = "네코네？",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -440,8 +440,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "나뿐만 아니라 네코네까지……악취미인 걸까나!",
 			typewriter = {
 				speed = 0.05,

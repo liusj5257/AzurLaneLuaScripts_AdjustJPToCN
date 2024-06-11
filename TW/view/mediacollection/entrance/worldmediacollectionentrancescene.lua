@@ -1,10 +1,10 @@
 slot0 = class("WorldMediaCollectionEntranceScene", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionEntranceUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.recallBtn = slot0:findTF("Main/recall")
 	slot0.cryptolaliaBtn = slot0:findTF("Main/cryptolalia")
 	slot0.archiveBtn = slot0:findTF("Main/archive")
@@ -16,7 +16,7 @@ function slot0.init(slot0)
 	setText(slot0:findTF("Main/empty1/label"), i18n("cryptolalia_unopen"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.optionBtn, function ()
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
@@ -41,7 +41,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

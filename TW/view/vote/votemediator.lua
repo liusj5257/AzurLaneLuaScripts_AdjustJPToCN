@@ -4,7 +4,7 @@ slot0.ON_FILTER = "VoteMediator:ON_FILTER"
 slot0.ON_SCHEDULE = "VoteMediator:ON_SCHEDULE"
 slot0.OPEN_EXCHANGE = "VoteMediator:OPEN_EXCHANGE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_VOTE, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.ON_NEW_VOTE, {
 			voteId = slot1,
@@ -40,14 +40,14 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.ON_NEW_VOTE_DONE,
 		GAME.ACT_NEW_PT_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.ON_NEW_VOTE_DONE then
@@ -59,10 +59,10 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.DisplayAwards(slot0, slot1)
+slot0.DisplayAwards = function(slot0, slot1)
 	slot2 = nil
 
-	function slot2()
+	slot2 = function()
 		if #uv0.cache <= 0 then
 			return
 		end

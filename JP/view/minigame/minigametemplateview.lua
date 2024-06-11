@@ -1,19 +1,19 @@
 slot0 = class("MiniGameTemplateView", import("view.miniGame.BaseMiniGameView"))
 slot0.canSelectStage = true
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return nil
 end
 
-function slot0.getGameController(slot0)
+slot0.getGameController = function(slot0)
 	return nil
 end
 
-function slot0.getShowSide(slot0)
+slot0.getShowSide = function(slot0)
 	return true
 end
 
-function slot0.updateMainUI(slot0)
+slot0.updateMainUI = function(slot0)
 	if slot0:getShowSide() then
 		slot1 = slot0:GetMGHubData()
 		slot2 = slot1:getConfig("reward_need")
@@ -45,7 +45,7 @@ function slot0.updateMainUI(slot0)
 	slot0:checkGet()
 end
 
-function slot0.checkGet(slot0)
+slot0.checkGet = function(slot0)
 	if slot0:GetMGHubData().ultimate == 0 then
 		if slot1.usedtime < slot1:getConfig("reward_need") then
 			return
@@ -59,7 +59,7 @@ function slot0.checkGet(slot0)
 	end
 end
 
-function slot0.initPageUI(slot0)
+slot0.initPageUI = function(slot0)
 	slot0.rtTitlePage = slot0._tf:Find("TitlePage")
 	slot1 = slot0.rtTitlePage:Find("main")
 
@@ -162,7 +162,7 @@ function slot0.initPageUI(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.initControllerUI(slot0)
+slot0.initControllerUI = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("Controller/top")
 
@@ -174,11 +174,11 @@ function slot0.initControllerUI(slot0)
 	end)
 end
 
-function slot0.SaveDataChange(slot0, slot1)
+slot0.SaveDataChange = function(slot0, slot1)
 	slot0:StoreDataToServer(slot1)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initPageUI()
 	slot0:initControllerUI()
 
@@ -187,7 +187,7 @@ function slot0.didEnter(slot0)
 	slot0:openUI("main")
 end
 
-function slot0.initOpenUISwich(slot0)
+slot0.initOpenUISwich = function(slot0)
 	slot0.openSwitchDic = {
 		main = function ()
 			uv0:updateMainUI()
@@ -222,7 +222,7 @@ function slot0.initOpenUISwich(slot0)
 	}
 end
 
-function slot0.openUI(slot0, slot1)
+slot0.openUI = function(slot0, slot1)
 	if not slot0.openSwitchDic then
 		slot0:initOpenUISwich()
 	end
@@ -240,7 +240,7 @@ function slot0.openUI(slot0, slot1)
 	switch(slot1, slot0.openSwitchDic)
 end
 
-function slot0.initBackPressSwitch(slot0)
+slot0.initBackPressSwitch = function(slot0)
 	slot0.backPressSwitchDic = {
 		main = function ()
 			uv0.super.onBackPressed(uv1)
@@ -260,7 +260,7 @@ function slot0.initBackPressSwitch(slot0)
 	}
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.backPressSwitchDic then
 		slot0:initBackPressSwitch()
 	end
@@ -271,7 +271,7 @@ function slot0.onBackPressed(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

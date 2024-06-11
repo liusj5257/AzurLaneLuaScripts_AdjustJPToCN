@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -88,8 +88,8 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "前輩妳這是說的什麼話，身為前輩愛護後輩，身為航母保護驅逐妹妹們不是理所當然的事嗎？！",
 			shake = {
 				speed = 8,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			actorName = "光榮&皇家方舟",
 			side = 0,
-			hideOther = true,
+			actor = 207020,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "（真是白璧微瑕呢）",
 			subActors = {

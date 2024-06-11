@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 60350,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60350,
+	color = "red",
 	icon = 60350,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 60350,
-				attr = "DMG_TAG_EHC_N_97",
-				number = 0.05
+				number = 0.05,
+				attr = "DMG_TAG_EHC_N_97"
 			}
 		}
 	}

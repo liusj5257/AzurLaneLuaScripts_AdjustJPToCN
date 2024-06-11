@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA51",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA51",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ピュリファイアー、いつの間にか消えてたです",
 			bgm = "holo-tokiwa",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "ピュリファイアー、いつの間にか消えてたです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "今度こそ、本当に終わったのかな…",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "一緒に戦った仲間だからね。同じセイレーンでもイイヤツだったら仲良くやるべきよ",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "この海域から脱出したら、私たちも帰る方法を探さないと",
 			typewriter = {
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba2",
+			dir = 1,
 			say = "ビビビッ――",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "瑞鶴？瑞鶴、大丈夫なの？",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "良かったぁ！ようやく通信が回復したわ！艦隊の皆は大丈夫？",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "何日間？どういうこと？",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "そうなの…？みんなと連絡がつかなくなってからそんなに経ってませんよ？",
 			typewriter = {
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "え…えっ？",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "この現象はまさか、あの鏡面海域では時間の流れがほかのところと異なってたってこと？",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "そんなのありえないにゃ。宇宙の法則がこわれるにゃ",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "そう言えば、隣にいる方々は……",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "異世界からやってきた仲間――このパターン多くないにゃ？",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "まあ、あの鏡面海域があったエリアにセイレーンの装置をゴニョゴニョすればなんとかなるにゃ！",
 			typewriter = {
@@ -448,8 +448,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "もう、早く戻ってきてよ～みんな心配してたんだから",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "あっ、それともう一つ……",
 			typewriter = {
@@ -482,9 +482,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
 			blackBg = true,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "お疲れ様。そして私たちの世界へようこそ",
 			typewriter = {

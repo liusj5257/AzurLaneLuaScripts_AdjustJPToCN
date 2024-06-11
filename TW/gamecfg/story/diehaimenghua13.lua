@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "轟鳴與硝煙散去後，堅固的裝甲被粉碎了。",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-4",
+			say = "轟鳴與硝煙散去後，堅固的裝甲被粉碎了。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "裝甲的主人被擊退了幾個踉蹌，終於還是跪倒在水面上。",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "赤城回身望著毫無反應的天守閣，冷笑著，在手上展開了一個黑色的立方體。",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "姐姐，那個是！！",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -255,9 +255,9 @@ return {
 			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "……任何人，任何人都不能阻礙我的計劃！",
 			effects = {
 				{

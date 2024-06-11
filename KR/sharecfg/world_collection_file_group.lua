@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.world_collection_file_group = {
 	[110] = {
-		name = "운석 사건",
 		id_2 = "011",
+		name = "운석 사건",
 		name_abbreviate = "1",
 		type = 2,
 		id = 110,
@@ -16,8 +16,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[210] = {
-		name = "에너지 혁명",
 		id_2 = "021",
+		name = "에너지 혁명",
 		name_abbreviate = "2",
 		type = 1,
 		id = 210,
@@ -31,8 +31,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[310] = {
-		name = "과학 기술과 생활",
 		id_2 = "031",
+		name = "과학 기술과 생활",
 		name_abbreviate = "3",
 		type = 1,
 		id = 310,
@@ -46,8 +46,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[320] = {
-		name = "생활의 변혁",
 		id_2 = "032",
+		name = "생활의 변혁",
 		name_abbreviate = "4",
 		type = 1,
 		id = 320,
@@ -61,8 +61,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[330] = {
-		name = "큐브 군사화",
 		id_2 = "033",
+		name = "큐브 군사화",
 		name_abbreviate = "5",
 		type = 5,
 		id = 330,
@@ -76,8 +76,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[410] = {
-		name = "큐브 군사화II",
 		id_2 = "041",
+		name = "큐브 군사화II",
 		name_abbreviate = "6",
 		type = 5,
 		id = 410,
@@ -91,8 +91,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[510] = {
-		name = "「희미한 빛」 계획",
 		id_2 = "051",
+		name = "「희미한 빛」 계획",
 		name_abbreviate = "7",
 		type = 3,
 		id = 510,
@@ -106,8 +106,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[610] = {
-		name = "큐브의 비밀",
 		id_2 = "061",
+		name = "큐브의 비밀",
 		name_abbreviate = "8",
 		type = 3,
 		id = 610,
@@ -121,8 +121,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[710] = {
-		name = "코드 번호: CodeG",
 		id_2 = "071",
+		name = "코드 번호: CodeG",
 		name_abbreviate = "9",
 		type = 3,
 		id = 710,
@@ -136,8 +136,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[810] = {
-		name = "군비 경쟁",
 		id_2 = "081",
+		name = "군비 경쟁",
 		name_abbreviate = "10",
 		type = 2,
 		id = 810,
@@ -151,8 +151,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[910] = {
-		name = "기밀 기록I",
 		id_2 = "091",
+		name = "기밀 기록I",
 		name_abbreviate = "11",
 		type = 5,
 		id = 910,
@@ -166,8 +166,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1010] = {
-		name = "냉전 업그레이드",
 		id_2 = "101",
+		name = "냉전 업그레이드",
 		name_abbreviate = "12",
 		type = 2,
 		id = 1010,
@@ -181,8 +181,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1110] = {
-		name = "대학 시절",
 		id_2 = "111",
+		name = "대학 시절",
 		name_abbreviate = "15",
 		type = 4,
 		id = 1110,
@@ -198,8 +198,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1130] = {
-		name = "창조주와 심판자",
 		id_2 = "113",
+		name = "창조주와 심판자",
 		name_abbreviate = "21",
 		type = 4,
 		id = 1130,
@@ -213,8 +213,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1150] = {
-		name = "현재와 미래",
 		id_2 = "115",
+		name = "현재와 미래",
 		name_abbreviate = "16",
 		type = 4,
 		id = 1150,
@@ -228,8 +228,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1310] = {
-		name = "이상한 충격 사건 I",
 		id_2 = "131",
+		name = "이상한 충격 사건 I",
 		name_abbreviate = "17",
 		type = 1,
 		id = 1310,
@@ -243,8 +243,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1320] = {
-		name = "이상한 충격 사건 II",
 		id_2 = "132",
+		name = "이상한 충격 사건 II",
 		name_abbreviate = "18",
 		type = 3,
 		id = 1320,
@@ -258,8 +258,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1330] = {
-		name = "세계의 위기",
 		id_2 = "133",
+		name = "세계의 위기",
 		name_abbreviate = "22",
 		type = 2,
 		id = 1330,
@@ -273,8 +273,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1410] = {
-		name = "리차드 사건I",
 		id_2 = "141",
+		name = "리차드 사건I",
 		name_abbreviate = "13",
 		type = 1,
 		id = 1410,
@@ -288,8 +288,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1420] = {
-		name = "리차드 사건II",
 		id_2 = "142",
+		name = "리차드 사건II",
 		name_abbreviate = "14",
 		type = 1,
 		id = 1420,
@@ -303,8 +303,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1430] = {
-		name = "리차드 사건III",
 		id_2 = "143",
+		name = "리차드 사건III",
 		name_abbreviate = "19",
 		type = 1,
 		id = 1430,
@@ -318,8 +318,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1440] = {
-		name = "리차드 사건IV",
 		id_2 = "144",
+		name = "리차드 사건IV",
 		name_abbreviate = "20",
 		type = 3,
 		id = 1440,
@@ -337,8 +337,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1460] = {
-		name = "리차드 문서Ⅰ",
 		id_2 = "146",
+		name = "리차드 문서Ⅰ",
 		name_abbreviate = "23",
 		type = 3,
 		id = 1460,

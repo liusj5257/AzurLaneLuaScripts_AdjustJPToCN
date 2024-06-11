@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023海盗活动 异常环境：风眼",
 	time = 0,
+	name = "2023海盗活动 异常环境：风眼",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.03
+				number = 0.03,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

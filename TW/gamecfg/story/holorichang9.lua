@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"虚拟与现实的双向镜-日常篇\n\n<size=45>九 重樱观光团</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "{namecode:74}大人----看来好像还在睡午觉的样子…",
 			bgm = "holo-tokiwa",
+			actor = 301490,
+			nameColor = "#a9f548",
+			say = "{namecode:74}大人----看来好像还在睡午觉的样子…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
+			dir = 1,
 			say = "（开门声）",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 305051,
 			dir = 1,
+			actor = 305051,
 			nameColor = "#a9f548",
 			say = "{namecode:158}……？已经到了么，吾还在睡午觉中呢……",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "好可爱！",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "这、这是什么可爱的生物，不，是天使，是天使！",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "唔，确实...这一次不得不赞同祭酱的意见了呢......",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 305051,
 			dir = 1,
+			actor = 305051,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 305051,
 			dir = 1,
+			actor = 305051,
 			nameColor = "#a9f548",
 			say = "―――――！？妳们是谁！？",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,15 +204,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "刚才弄得乱七八糟的实在对不起，吾作为重樱的神子，在这里向各位道歉了",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "不会不会，不如说，原本以为是大人物，这样一下子感觉亲近了许多呢。",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "有种邻居家小妹妹的感觉呢~",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "嘶--------",
 			typewriter = {
@@ -304,15 +304,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "原来如此。{namecode:79}与{namecode:78}的神乐舞，再加上{namecode:76}和{namecode:77}的演武",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "没关系，没关系，我们都看的很开心，请您不要放在心上~",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "{namecode:74}大人不和我们一起玩吗？",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "{namecode:74}妹妹也来和我们一起到处走走么？",
 			typewriter = {
@@ -468,11 +468,11 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "{namecode:74}姐姐，为什么不告诉{namecode:75}大家都来了呢！为什么不让{namecode:75}来做欢迎的准备呢！明明{namecode:75}也在努力准备节目呢！",
 			typewriter = {
 				speed = 0.05,
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -526,11 +526,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "啊啊啊……如果妳都说到这个份上了的话",
 			typewriter = {
 				speed = 0.05,
@@ -542,8 +542,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "太好啦~",
 			typewriter = {
 				speed = 0.05,
@@ -568,8 +568,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -612,14 +612,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_111",
 			actor = 900214,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "……这个叫{namecode:75}的女孩子也是大人物吗？感觉和诗音差不多欸。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -663,8 +663,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "而且比妳要可爱多了。",
 			typewriter = {
@@ -680,8 +680,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "哈？！才没有吧，最少也是一样可爱！而且大概还是诗音更可爱一些！！",
 			typewriter = {
@@ -694,8 +694,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -768,11 +768,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			say = "嗯，我知道的！{namecode:74}的要点是反差萌的属性，可不要让这样的孩子感到寂寞哦！",
 			typewriter = {
 				speed = 0.05,
@@ -784,8 +784,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -810,9 +810,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
+			dir = 1,
 			say = "高高的城墙之内，回荡着少女的阵阵笑声",
 			typewriter = {
 				speed = 0.05,

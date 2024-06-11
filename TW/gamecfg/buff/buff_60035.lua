@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-萤火虫-幽灵召唤",
 	time = 0,
+	name = "测试-萤火虫-幽灵召唤",
+	init_effect = "",
 	picture = "",
 	desc = "召唤一个幽灵",
 	stack = 1,

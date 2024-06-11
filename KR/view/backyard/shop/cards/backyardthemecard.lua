@@ -1,6 +1,6 @@
 slot0 = class("BackYardThemeCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.content = slot0._tf:Find("content")
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.maskPurchased = slot0.content:Find("mask1")
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.themeVO = slot1
 
 	LoadSpriteAtlasAsync("BackYardTheme/" .. slot1.id, "", function (slot0)
@@ -41,7 +41,7 @@ function slot0.Update(slot0, slot1, slot2)
 	setActive(slot0.maskPurchased, slot2)
 end
 
-function slot0.UpdateSelected(slot0, slot1)
+slot0.UpdateSelected = function(slot0, slot1)
 	slot2 = slot1 and slot1.id == slot0.themeVO.id
 
 	if IsNil(slot0.content) then
@@ -59,7 +59,7 @@ function slot0.UpdateSelected(slot0, slot1)
 	end))
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if LeanTween.isTweening(slot0.content.gameObject) then
 		LeanTween.cancel(slot0.content.gameObject)
 	end

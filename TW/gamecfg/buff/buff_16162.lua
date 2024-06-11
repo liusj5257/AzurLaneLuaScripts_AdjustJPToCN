@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 100
+					number = 100,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 100
+					number = 100,
+					attr = "airPower"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 200
+					number = 200,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 200
+					number = 200,
+					attr = "airPower"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 300
+					number = 300,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 300
+					number = 300,
+					attr = "airPower"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 400
+					number = 400,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 400
+					number = 400,
+					attr = "airPower"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 500
+					number = 500,
+					attr = "airPower"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 600
+					number = 600,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 600
+					number = 600,
+					attr = "airPower"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 700
+					number = 700,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 700
+					number = 700,
+					attr = "airPower"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 800
+					number = 800,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 800
+					number = 800,
+					attr = "airPower"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 900
+					number = 900,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 900
+					number = 900,
+					attr = "airPower"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1000
+					number = 1000,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -233,20 +233,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1000
+					number = 1000,
+					attr = "airPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 16162,
+	time = 0,
 	picture = "",
 	desc = "提高航空、命中属性",
 	stack = 1,
-	id = 16162,
+	color = "red",
 	icon = 16160,
 	last_effect = "",
 	blink = {
@@ -263,8 +263,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 100
+				number = 100,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -273,8 +273,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 100
+				number = 100,
+				attr = "airPower"
 			}
 		}
 	}

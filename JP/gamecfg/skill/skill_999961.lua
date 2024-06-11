@@ -2,24 +2,24 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 999961,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 999961,
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 5,
 				spawnData = {
 					monsterTemplateID = 300006,
-					moveCast = true,
-					delay = 0,
 					score = 0,
+					delay = 0,
+					moveCast = true,
 					corrdinate = {
 						-15,
 						0,
@@ -30,16 +30,16 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 5,
 							setAI = 20006
 						},
 						{
-							index = 1,
-							switchParam = 4,
 							switchTo = 2,
+							switchParam = 4,
+							index = 1,
 							switchType = 1,
 							addBuff = {
 								999983
@@ -47,9 +47,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
-							switchParam = 8,
 							switchTo = 0,
+							switchParam = 8,
+							index = 2,
 							switchType = 1,
 							addBuff = {
 								8002
@@ -61,17 +61,17 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 5,
 				spawnData = {
 					monsterTemplateID = 300006,
-					moveCast = true,
-					delay = 0,
 					score = 0,
+					delay = 0,
+					moveCast = true,
 					corrdinate = {
 						-15,
 						0,
@@ -82,16 +82,16 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 5,
 							setAI = 20006
 						},
 						{
-							index = 1,
-							switchParam = 4,
 							switchTo = 2,
+							switchParam = 4,
+							index = 1,
 							switchType = 1,
 							addBuff = {
 								999983
@@ -99,9 +99,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
-							switchParam = 8,
 							switchTo = 0,
+							switchParam = 8,
+							index = 2,
 							switchType = 1,
 							addBuff = {
 								8002

@@ -1,10 +1,10 @@
 slot0 = class("CommanderReplaceTalentPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderCatReplaceTalentUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.replaceList = UIItemList.New(slot0:findTF("bg/frame/bg/talents/content"), slot0:findTF("bg/frame/bg/talents/content/talent"))
 	slot0.replaceTargetTF = slot0:findTF("bg/frame/bg/talent")
 	slot0.replaceTalent = slot0:findTF("bg/frame/bg/replace")
@@ -17,7 +17,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("bg/frame/bg/talents/title/Text"), i18n("commander_choice_talent_2"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.replaceCloseBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -29,7 +29,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 	slot0._tf:SetAsLastSibling()
 
@@ -39,7 +39,7 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0:UpdateList(slot2)
 end
 
-function slot0.UpdateList(slot0, slot1)
+slot0.UpdateList = function(slot0, slot1)
 	slot0.replaceList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			onButton(uv1, slot2, function ()
@@ -61,7 +61,7 @@ function slot0.UpdateList(slot0, slot1)
 	slot0.replaceList:align(#slot0.commander:getTalents())
 end
 
-function slot0.UpdateTalents(slot0, slot1, slot2)
+slot0.UpdateTalents = function(slot0, slot1, slot2)
 	slot3 = slot0.commander
 
 	slot0:UpdateTalentCard(slot0.replaceTargetTF, slot1)
@@ -84,7 +84,7 @@ function slot0.UpdateTalents(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateTalentCard(slot0, slot1, slot2)
+slot0.UpdateTalentCard = function(slot0, slot1, slot2)
 	slot3 = slot1:Find("unlock")
 	slot4 = slot1:Find("lock")
 
@@ -108,7 +108,7 @@ function slot0.UpdateTalentCard(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 
 	if slot0.prevToggle then
@@ -118,7 +118,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

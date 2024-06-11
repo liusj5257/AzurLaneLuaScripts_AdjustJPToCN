@@ -6,17 +6,17 @@ slot3 = class("BattleEnvironmentBehaviourShakeScreen", slot0.Battle.BattleEnviro
 slot0.Battle.BattleEnvironmentBehaviourShakeScreen = slot3
 slot3.__name = "BattleEnvironmentBehaviourShakeScreen"
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.SetTemplate(slot0, slot1)
+slot3.SetTemplate = function(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._shakeID = slot0._tmpData.shake_ID
 end
 
-function slot3.doBehaviour(slot0)
+slot3.doBehaviour = function(slot0)
 	uv0.Battle.BattleCameraUtil.GetInstance():StartShake(pg.shake_template[slot0._shakeID])
 
 	slot0._state = uv1.STATE_OVERHEAT

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "塔什干2",
 	cd = 0,
+	picture = "0",
+	desc = "北联驱逐使用北联驱逐炮时武器效率提高",
 	painting = 0,
 	id = 12990,
-	picture = "0",
 	castCV = "",
-	desc = "北联驱逐使用北联驱逐炮时武器效率提高",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetNationalityFriendly",

@@ -1,6 +1,6 @@
 slot0 = class("SculptureCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.tr = slot1
 	slot0.go = slot1.gameObject
 	slot0.nameImg = slot1:Find("name/Image"):GetComponent(typeof(Image))
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.lockBtn = slot1:Find("mask")
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.activity = slot2
 	slot0.id = slot1
 
@@ -26,7 +26,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:UpdateBtns(slot3)
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.activity = slot1
 	slot2 = slot0.activity:GetSculptureState(slot0.id)
 
@@ -34,19 +34,19 @@ function slot0.Flush(slot0, slot1)
 	slot0:UpdateRole(slot2)
 end
 
-function slot0.UpdateConsume(slot0)
+slot0.UpdateConsume = function(slot0)
 	slot1, slot0.consumeTxt.text = slot0.activity:_GetComsume(slot0.id)
 	slot0.consumeIcon.sprite = LoadSprite("props/" .. pg.activity_workbench_item[slot1].icon)
 	rtf(slot0.consumeIcon.gameObject).sizeDelta = Vector2(60, 60)
 end
 
-function slot0.UpdateName(slot0)
+slot0.UpdateName = function(slot0)
 	slot0.nameImg.sprite = GetSpriteFromAtlas("ui/SculptureUI_atlas", slot0.activity:GetResorceName(slot0.id) .. "_title")
 
 	slot0.nameImg:SetNativeSize()
 end
 
-function slot0.UpdateRole(slot0, slot1)
+slot0.UpdateRole = function(slot0, slot1)
 	slot2 = slot0.activity:GetResorceName(slot0.id)
 
 	if slot1 == SculptureActivity.STATE_FINSIH then
@@ -71,7 +71,7 @@ function slot0.UpdateRole(slot0, slot1)
 	end
 end
 
-function slot0.LoadChar(slot0, slot1)
+slot0.LoadChar = function(slot0, slot1)
 	if slot0.charName == slot1 then
 		return
 	end
@@ -94,7 +94,7 @@ function slot0.LoadChar(slot0, slot1)
 	slot0.charName = slot1
 end
 
-function slot0.ClearChar(slot0)
+slot0.ClearChar = function(slot0)
 	if slot0.charName and slot0.charGo then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.charName, slot0.charGo)
 
@@ -103,14 +103,14 @@ function slot0.ClearChar(slot0)
 	end
 end
 
-function slot0.UpdateBtns(slot0, slot1)
+slot0.UpdateBtns = function(slot0, slot1)
 	setActive(slot0.finishBtn, slot1 == SculptureActivity.STATE_FINSIH)
 	setActive(slot0.continueBtn, SculptureActivity.STATE_UNLOCK <= slot1 and slot1 < SculptureActivity.STATE_JOINT)
 	setActive(slot0.presentedBtn, slot1 == SculptureActivity.STATE_JOINT)
 	setActive(slot0.lockBtn, slot1 < SculptureActivity.STATE_UNLOCK)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.exited = true
 
 	slot0:ClearChar()

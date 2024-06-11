@@ -3,7 +3,7 @@ ys.Battle.BattleGateActBossSP = slot0
 slot0.__name = "BattleGateActBossSP"
 slot0.BattleSystem = SYSTEM_ACT_BOSS_SP
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	if BeginStageCommand.DockOverload() then
 		return
 	end
@@ -76,7 +76,7 @@ function slot0.Entrance(slot0, slot1)
 	end)
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	slot4 = getProxy(BayProxy)
 	slot5 = slot0.statistics._battleScore
 	slot8 = pg.activity_event_worldboss[getProxy(ActivityProxy):getActivityById(slot0.actId):getConfig("config_id")]

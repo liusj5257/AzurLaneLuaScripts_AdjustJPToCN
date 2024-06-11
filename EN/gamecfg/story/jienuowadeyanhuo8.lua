@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "airRaidAlarm",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_renaya",
-			say = "A blaring alarm ripped through the night sky at the Sardegnian facility, now under a surprise attack.",
 			dir = 1,
 			bgmDelay = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "airRaidAlarm",
+			say = "A blaring alarm ripped through the night sky at the Sardegnian facility, now under a surprise attack.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "The Vichya fleet rained destruction down upon the port, taking out facilities and defensive weapons.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Phew... We sure did a number on them.",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Their defenses were a lot thinner than I expected.",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Usually, we'd be at a disadvantage bombarding a land target.",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "I guess they tried to compensate for this fact with their patrols.",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "So... Did we achieve our objectives?",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Launch a surprise attack by night and cut off their supply lines, limit their operational activities...",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Though I'm not sure we brought enough firepower. Maybe we should've brought more mass-produced ships...",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "That's a no-go. The more firepower we bring, the higher the chance of us getting detected.",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "And no matter how many ships we bring, the number of ships that can actually attack land targets are limited.",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "In any case, I think we did a good enough job here.",
 			typewriter = {
@@ -269,9 +269,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
 			blackBg = true,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "But now, we need to get out of here before Sardegna's main fleet arrives!",
 			typewriter = {

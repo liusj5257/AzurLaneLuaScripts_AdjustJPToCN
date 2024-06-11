@@ -1,6 +1,6 @@
 slot0 = class("HarvestResourceCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = id2res(slot2)
 	slot5 = getProxy(PlayerProxy):getData()

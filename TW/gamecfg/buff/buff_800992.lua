@@ -269,9 +269,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 1,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

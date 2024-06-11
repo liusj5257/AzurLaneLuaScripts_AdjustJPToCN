@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA30",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "（大きな敵もなく、脅威もなく、争いもない……）",
 			bgm = "bsm-2",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "（大きな敵もなく、脅威もなく、争いもない……）",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（「レッドアクシズ」…いいえ、「アズールレーン」の存在すら希薄した「平和」な世界……）",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（嗚呼、これこそ、妾が探し求めた「真実」……破滅を避け、重桜も、人類も救われる「未来」……）",
 			typewriter = {
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong2_7",
-			actorName = "信濃",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "（ようやく、この「カケラ」を……）",
+			bgName = "bg_xinnong2_7",
 			bgm = "main-newyear",
+			actorName = "信濃",
+			say = "（ようやく、この「カケラ」を……）",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_7",
+			dir = 1,
 			say = "不意に、目の前の風景が一変した――舞い散る桜の彼方に、「いるはずのない」彼女がそこに居た。",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "信濃",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "信濃",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "信濃",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong2_7",
-			actorName = "天城",
 			dir = 1,
+			actorName = "天城",
 			say = "私の目の前にいる「信濃」は、きっととても遠い場所――げほ、げほ…",
 			dialogShake = {
 				speed = 0.09,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "信濃",
 			dir = 1,
+			actorName = "信濃",
 			say = "（……！！）",
 			dialogShake = {
 				speed = 0.09,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "信濃",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "信濃",
 			dir = 1,
+			actorName = "信濃",
 			say = "（妾は……ただ「夢」のカケラを集めて、そして「未来」を求めて――）",
 			dialogShake = {
 				speed = 0.09,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "信濃",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "信濃",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -466,11 +466,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "信濃",
 			dir = 1,
+			actorName = "信濃",
 			say = "……あっ…",
 			dialogShake = {
 				speed = 0.09,
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "天城",
+			side = 2,
 			bgName = "bg_xinnong2_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "では一緒に参りましょう。あなたが探し求めるものがきっと、そこにあるはずです",
 			typewriter = {
 				speed = 0.05,

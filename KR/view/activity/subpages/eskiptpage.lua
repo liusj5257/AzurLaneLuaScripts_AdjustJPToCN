@@ -1,6 +1,6 @@
 slot0 = class("EskiPtPage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.progresses = slot0:findTF("progresses", slot0.bg)
@@ -9,7 +9,7 @@ function slot0.OnInit(slot0)
 	slot0.buildBtn = slot0:findTF("build_btn", slot0.bg)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if checkExist(slot0.activity:getConfig("config_client").story, {
 		slot0.ptData:getTargetLevel()
 	}, {

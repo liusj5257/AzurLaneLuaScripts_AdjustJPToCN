@@ -11,9 +11,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 20,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -30,9 +30,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 19,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -49,9 +49,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 18,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -68,9 +68,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 17,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -87,9 +87,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 16,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -106,9 +106,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 15,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -125,9 +125,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 14,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -144,9 +144,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 13,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -163,9 +163,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 12,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -182,9 +182,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10180,
 					time = 10,
-					target = "TargetSelf",
-					skill_id = 10180
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -192,12 +192,12 @@ return {
 	desc_get = "每20秒(满级10秒)发动一次掩护炮击，威力为重巡级(依据技能等级)",
 	name = "舰炮掩护",
 	init_effect = "",
+	id = 10180,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每$1秒发动一次掩护炮击，威力为重巡级(依据技能等级)",
 	stack = 1,
-	id = 10180,
+	color = "red",
 	icon = 10180,
 	last_effect = "",
 	effect_list = {
@@ -207,9 +207,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 10180,
 				time = 20,
-				target = "TargetSelf",
-				skill_id = 10180
+				target = "TargetSelf"
 			}
 		}
 	}

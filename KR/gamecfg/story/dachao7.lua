@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"오오시오의 선물♪\n\n<size=45>앞으로도 잘 부탁한데이~</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "힐링 충만한 다과회 시간이 끝나간다.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "힐링 충만한 다과회 시간이 끝나간다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "문득 '사실 내가 와서 방해된 건 아닌가'하는 불안이 머릿속을 스쳐 지나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "………역시 오오시오들의 즐거운 시간을 방해하지 않는 게 더 좋았나……?",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "이쪽 생각을 꿰뚫어보기라도 한 듯, 오오시오가 미소 짓는다.",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "제8 구축대의 모두가 모여들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -186,9 +186,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "…왠지, 가볍게 잡아당겨진 기분이 들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "아라시오 이쪽을 보고 꾸벅 고개를 숙였다.",
 			typewriter = {
 				speed = 0.05,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "모두의 눈부신 미소에, 조금 전까지의 비굴한 생각이 완전히 날아갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -280,12 +280,12 @@ return {
 			}
 		},
 		{
-			actor = 301630,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,
+			actor = 301630,
 			actorName = "아사시오급 4인방",
 			say = "앞으로도 잘 부탁해! 지휘관~",
 			subActors = {

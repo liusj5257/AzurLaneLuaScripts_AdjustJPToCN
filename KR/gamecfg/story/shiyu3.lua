@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"걱정 많은 그녀는 진지해\n\n<size=45>3. 청소 시작!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301140,
-			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "오우! 시구레~ 청소 도와주러 왔어!",
 			bgm = "story-1",
+			actor = 301140,
+			nameColor = "#a9f548",
+			say = "오우! 시구레~ 청소 도와주러 왔어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "야마시로가 무사히 떠나고, 우리는 이 긴 길의 청소를 도와줄 사람들을 더 부르기로 했다. 시구레는 유다치를 불렀다.",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "시구레의 다른 자매함들은 모두 각자의 바쁜 사정이 있었고, 시라츠유는 여길 잘 찾아올 수 있을지가 문제였다… 어쩔 수 없이 지금 셋이서 힘을 내야겠다.",
 			typewriter = {
 				speed = 0.05,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "약속 잊지마! 청소 끝나면 맛있는 거 사줘야 돼!",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "유다치, 시구레와 잠깐의 이별 후, 청소 임무를 시작했다——",
 			typewriter = {
 				speed = 0.05,
@@ -178,13 +178,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_129",
+			side = 2,
+			dir = 1,
 			say = "——이미 산 절반 가까이 왔다. 마주칠 장소까지 거의 온 것 같은데, 참배길에서는 시구레와 유다치의 모습은 전혀 볼 수 없었다……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "멍청한 유다치————! 어딜로 튄 거야——————!",
 			effects = {
 				{
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "갑자기 시구레의 목소리가 들려왔다. 두리번 두리번. 이유는 모르겠지만 시구레는 참배길이 아닌 삼림에서 나타났다.",
 			effects = {
 				{
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "청소하다가 갑자기 \"고기 냄새 죽인다!\" 하더니 어디로 튀어간지 모르겠어! 정말 말도 안돼……",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "시구레가 직접 만든 요리는 구미가 당겼을 것이지만, 유다치의 상황이라면, 다른 음식에 홀렸을 수도 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "흩어져서 찾아보려 방향을 돌리려 할 때——",
 			typewriter = {
 				speed = 0.05,
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "순간 그녀가 너무 지나친 걱정을 하는게 아닌가 싶었지만, 그렇게까지 얘기를 했으니——",
 			typewriter = {
 				speed = 0.05,
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "그래, 얌전히 시구레 님과 「함께」 유다치를 찾자고. 바보 지휘관!",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

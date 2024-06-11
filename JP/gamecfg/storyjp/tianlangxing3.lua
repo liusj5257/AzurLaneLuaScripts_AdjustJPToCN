@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シリアス改造計画\n\n<size=45>三 メイド隊の支援</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "「パーティーにおける振る舞いでメイドと悟らせないためにも、メイドは一体どんな存在なのかを徹底的に再認識する必要があり――",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "「パーティーにおける振る舞いでメイドと悟らせないためにも、メイドは一体どんな存在なのかを徹底的に再認識する必要があり――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -91,9 +91,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ベルファストたちロイヤルメイド隊にシリアスの指導を依頼した。",
 			effects = {
 				{
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "よろしくお願いします。…誇らしきご主人様のためなら……！",
 			typewriter = {
@@ -176,15 +176,15 @@ return {
 			}
 		},
 		{
-			actor = 202220,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202220,
+			nameColor = "#a9f548",
 			say = "礼儀作法も合わせて教えないといけませんね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,15 +225,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "……執務室は先に床拭きではなく、棚の収納のほうからやったほうがやりやすいでしょう",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -258,10 +258,10 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 202200,
 			dir = 1,
 			hideOther = true,
 			actorName = "シリアス&ベルちゃん",
@@ -284,15 +284,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "emm、ケント選手から特に教えることはないかな？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,8 +320,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "メイド長にバレないサボり方なら教えられますよぉ？",
 			typewriter = {
@@ -350,9 +350,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "………自分の未熟さを思い知らされました…",
 			typewriter = {

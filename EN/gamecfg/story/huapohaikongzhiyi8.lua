@@ -1,17 +1,17 @@
 return {
-	id = "HUAPOHAIKONGZHIYI8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI8",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107230,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "We've spotted more squadrons of planes from the Sakura Empire. There are more this time around.",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "No... What if they've made us their primary targets rather than going after our main fleet?",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "Do you know what's happening on their side?",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "\"See what someone is thinking, and you can see their future.\" That's what Saratoga (as a prankster) told me.",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "Contact Enterprise. We'll guide their interceptors to neutralize the enemy air squadrons.",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "And... we'll hold out until they arrive. Reno, Birmingham. Please cover me!",
 			typewriter = {
 				speed = 0.05,
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 102260,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 102260,
 			dir = 1,
+			hideOther = true,
 			actorName = "Reno & Birmingham",
 			say = "Leave it to me!\nRoger.",
 			subActors = {

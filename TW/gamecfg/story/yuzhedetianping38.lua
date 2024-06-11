@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING38",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING38",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "？？？·？？？",
 			bgm = "theme-dailyfuture",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "？？？·？？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "睜開雙眼後，前方是一個昏暗的大廳。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "大廳的佈局有些……似曾相識。",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "海洛芬特站在一旁，輕輕舉起權杖。",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "不過在祂決定發動攻擊前，從遠方的昏暗中，由遠及近傳來了兩個聲音。",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "大廳之中似乎……還有其他人？",
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "海洛芬特放下了權杖，轉頭看向遠方。",
@@ -127,29 +127,29 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "……鑑於戰局日漸僵持的現狀，我已經得到了加速研發的命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
+			say = "……第一個？",
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
+			actor = 900308,
 			nameColor = "#ffff4d",
-			say = "……第一個？",
+			hidePaintObj = true,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -769,8 +769,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "（…………我怎麼看？！）",
@@ -785,8 +785,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "（這裡不是單純的……播放記錄嗎？）",
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "一旁的海洛芬特也看了過來，似乎在等著答案。",
@@ -819,8 +819,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "……………………",
@@ -840,8 +840,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -852,29 +852,29 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼哼~我就知道助手跟我想的一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -882,8 +882,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -932,8 +932,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -944,29 +944,29 @@ return {
 			}
 		},
 		{
-			actor = 900333,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			actor = 900333,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不錯，真是理性的看法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1000,8 +1000,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -1025,8 +1025,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -1037,8 +1037,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "光芒之中，安潔、奧斯塔、海洛芬特與整個空間都消散了。",
@@ -1047,17 +1047,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1065,8 +1065,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "遠方出現了一道門。",
@@ -1076,8 +1076,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "一道，似曾相識的門……",
@@ -1087,8 +1087,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "看來，離開的時間到了——",
@@ -1098,13 +1098,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "眼前，是博覽會會場。",
 			bgm = "story-expo-lastday",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "眼前，是博覽會會場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1126,8 +1126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "準確來說，是為與月色下的寧靜博覽會場。",
@@ -1137,8 +1137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "天空與大地恢復了正常，神的國度，那片承載有馬可波羅虛妄的世界消散了。",
@@ -1148,8 +1148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "此刻是如此寧靜，如同無數夜晚中的平凡一夜，如同什麼事都未曾發生過一般。",
@@ -1159,8 +1159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "然而手中傳來的重量似乎在無言訴說著，剛才所經歷的一切都是真的。",
@@ -1170,8 +1170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "鳶尾教國的聖物——聖座冠冕，此刻正靜靜躺在我的懷中。",
@@ -1181,8 +1181,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "在最後關頭所看到的一切以及海洛芬特的突然消失……都與聖座冠冕有關嗎？",
@@ -1192,8 +1192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "我無法確定，也沒有足夠的證據支持我得出任何結論。",
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "不過通訊器中一次性接入的大量通訊請求似乎宣示著，有另一件迫在眉睫的事需要處理。",
@@ -1214,8 +1214,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "也是……畢竟突然消失了好一陣子。",
@@ -1225,8 +1225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "博覽會的閉幕式……過幾天好好開一次吧。",
@@ -1236,9 +1236,9 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			bgName = "star_level_bg_1104",
+			stopbgm = true,
 			effects = {
 				{
 					active = true,

@@ -1,17 +1,17 @@
 slot0 = class("AiriLoginPanelView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AiriLoginPanelView"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.SetShareData(slot0, slot1)
+slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.airijpPanel = slot0._tf
 	slot0.airiLoginBtn = slot0:findTF("airi_login", slot0.airijpPanel)
 	slot0.clearTranscodeBtn = slot0:findTF("clear_transcode", slot0.airijpPanel)
@@ -40,7 +40,6 @@ function slot0.OnInit(slot0)
 	slot0.amazonLoginBtn_en = slot0:findTF("amazon_login_en", slot0.enLoginCon)
 
 	setActive(slot0.clearTranscodeBtn, not LOCK_CLEAR_ACCOUNT)
-	setActive(slot0.twitterLoginBtn, PLATFORM_CODE == PLATFORM_JP)
 	setActive(slot0.transcodeLoginBtn, PLATFORM_CODE == PLATFORM_JP)
 	setActive(slot0.touristLoginBtn, false)
 	setActive(slot0.yostarLoginBtn, PLATFORM_CODE == PLATFORM_JP)
@@ -58,11 +57,14 @@ function slot0.OnInit(slot0)
 	setActive(slot0.yostarLoginBtn_en, PLATFORM_CODE == PLATFORM_US)
 	setActive(slot0.appleLoginBtn_en, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "1")
 	setActive(slot0.amazonLoginBtn_en, PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() == "3")
+	setActive(slot0.twitterLoginBtn, false)
+	setActive(slot0.twitterLoginBtn_en, false)
+	setActive(slot0.twitterToggleTf, false)
 	slot0:InitEvent()
 end
 
-function slot0.InitEvent(slot0)
-	function slot1()
+slot0.InitEvent = function(slot0)
+	slot1 = function()
 		pg.UIMgr.GetInstance():UnblurPanel(uv0.firstAlertWin, uv0.airijpPanel)
 		setActive(uv0.firstAlertWin, false)
 	end
@@ -99,9 +101,6 @@ function slot0.InitEvent(slot0)
 	onButton(slot0, slot0.amazonLoginBtn, function ()
 		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_AMAZON)
 	end)
-	onButton(slot0, slot0.twitterLoginBtn, function ()
-		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
-	end)
 	onButton(slot0, slot0.yostarLoginBtn, function ()
 		uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
 			LoginSceneConst.DEFINE.YOSTAR_ALERT_VIEW,
@@ -118,9 +117,6 @@ function slot0.InitEvent(slot0)
 	end)
 	onButton(slot0, slot0.touristLoginBtn, function ()
 		pg.SdkMgr.GetInstance():LoginWithDevice()
-	end)
-	onButton(slot0, slot0.twitterLoginBtn_en, function ()
-		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
 	end)
 	onButton(slot0, slot0.facebookLoginBtn_en, function ()
 		pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_FACEBOOK)
@@ -158,13 +154,14 @@ function slot0.InitEvent(slot0)
 		uv0()
 	end)
 	onButton(slot0, slot0.alertSureBtn, function ()
+		slot0 = getToggleState(uv0.twitterToggleTf)
 		slot1 = getToggleState(uv0.transcodeToggleTf)
 		slot2 = getToggleState(uv0.touristToggleTf)
 		slot3 = getToggleState(uv0.appleToggleTf)
 		slot4 = getToggleState(uv0.amazonToggleTf)
 		slot5 = getToggleState(uv0.yostarToggleTf)
 
-		if getToggleState(uv0.twitterToggleTf) then
+		if false then
 			pg.SdkMgr.GetInstance():LoginWithSocial(AIRI_PLATFORM_TWITTER)
 		elseif slot1 then
 			uv0:emit(LoginSceneConst.SWITCH_SUB_VIEW, {
@@ -188,13 +185,9 @@ function slot0.InitEvent(slot0)
 
 		uv1()
 	end)
-
-	if PLATFORM_CODE == PLATFORM_JP then
-		triggerToggle(pg.SdkMgr.GetInstance():GetChannelUID() == "3" and slot0.amazonToggleTf or slot0.twitterToggleTf, true)
-	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

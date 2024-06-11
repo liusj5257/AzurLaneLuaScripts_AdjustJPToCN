@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA45",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA45",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgmDelay = 2,
-			actor = 900011,
+			side = 2,
 			actorName = "Tester?",
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
+			nameColor = "#ff5c5c",
 			say = "Hmm, to think that even you would lose... It seems like there really is a limit to using \"pieces.\"",
 			flashin = {
 				delay = 1,
@@ -37,9 +37,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			actorName = "Master Detective Fubuki?",
 			say = "*cough* *cough*... My sincerest apologies...",
 			typewriter = {
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "It doesn't matter. From the beginning, the only purpose you've all served was to buy more time for me while I increased my authorization over the Mirror Sea. In other words, \"pieces.\"",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "Look around you. The Mirror Seas around us slowly bend to my will, and the pseudo-Singularity that shall serve as a \"Gate\" between worlds shall open soon!",
 			typewriter = {
 				speed = 0.05,
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "With this power, repairing \"pieces\" is a simple task... So what say you? Do you wish to reward the Resistance with one final battle?",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Master Detective Fubuki?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Master Detective Fubuki?",
 			say = "Thank you for your consideration... I see now... the authorization is almost complete... Everything has been going according to plan.",
 			typewriter = {
 				speed = 0.05,
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "Sure. You've bought me the time I needed to clear the authorization, so... Go forth, quickly...",
 			typewriter = {
 				speed = 0.05,
@@ -137,12 +137,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "............",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.8,
 					dur = 0.7,
 					x = 0
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The sound of a surge of electricity was followed by wisps of smoke rising from Tester's body. The Siren collapsed as she lost consciousness.",
 			typewriter = {
@@ -180,9 +180,9 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			actorName = "Master Detective Fubuki?",
 			say = "Everything has been going according to plan... Now, it's time for me to prepare my next move.",
 			typewriter = {
@@ -195,14 +195,14 @@ return {
 			}
 		},
 		{
-			say = "Waters surrounding the Hololive HQ",
 			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "holo-fbk",
+			say = "Waters surrounding the Hololive HQ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -242,10 +242,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "But this performance stage...",
 			effects = {
 				{
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "A performance stage, cobbled together with blocks of various colors, loomed before Zuikaku.",
 			effects = {
 				{
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The words \"HOLOLIVE\" were assembled with large blocks towards the stage's rear.",
 			typewriter = {
 				speed = 0.05,
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Though the appearance was quite normal, there was something indescribably threatening about it.",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "This is the new Holo Island Stage that Fubuki made! In any case, it might be a bit unfamiliar to you guys.",
 			typewriter = {
 				speed = 0.05,
@@ -411,9 +411,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Awawawa! This was just... supposed to be a parody! *hides*",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -453,8 +453,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "Before I came here, I actually wanted to dance on stage with the others. This stage is so cute with all its different colors~",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "(Miss Sora doesn't get it at all, does she...)",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "(Zuikaku doesn't get it either...)",
 			typewriter = {
 				speed = 0.05,
@@ -531,8 +531,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "(That's fine too!)",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 slot0 = class("StoryTimer")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.duration = slot2
 	slot0.func = slot1
 	slot0.loop = slot3
 end
 
-function slot0.Start(slot0)
+slot0.Start = function(slot0)
 	slot0.passed = 0
 	slot0.running = true
 	slot0.paused = nil
@@ -18,15 +18,15 @@ function slot0.Start(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.Pause(slot0)
+slot0.Pause = function(slot0)
 	slot0.paused = true
 end
 
-function slot0.Resume(slot0)
+slot0.Resume = function(slot0)
 	slot0.paused = nil
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	if not slot0.running then
 		return
 	end
@@ -40,7 +40,7 @@ function slot0.Stop(slot0)
 	end
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if not slot0.running or slot0.paused then
 		return
 	end

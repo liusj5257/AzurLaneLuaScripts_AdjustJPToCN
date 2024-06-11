@@ -1,10 +1,10 @@
 slot0 = class("ArchivesWorldBossDetailPage", import(".BaseWorldBossDetailPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ArchivesWorldBossDetailUI"
 end
 
-function slot0.OnAutoBattleResult(slot0, slot1)
+slot0.OnAutoBattleResult = function(slot0, slot1)
 	slot0.autoBattleResultMsg:ExecuteAction("Show", {
 		battleCnt = slot1.cnt,
 		damage = slot1.damage,
@@ -14,16 +14,16 @@ function slot0.OnAutoBattleResult(slot0, slot1)
 	slot0:UpdatePainting(slot0.groupId)
 end
 
-function slot0.OnAutoBattleStart(slot0)
+slot0.OnAutoBattleStart = function(slot0)
 	slot0:Flush()
 	slot0:UpdatePainting(slot0.groupId)
 end
 
-function slot0.GetResSuffix(slot0)
+slot0.GetResSuffix = function(slot0)
 	return "_archives"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.currProgressTr = slot0:findTF("progress")
@@ -39,7 +39,7 @@ function slot0.OnLoaded(slot0)
 	slot0.autoBattleResultMsg = ArchivesWorldBossAutoBattleResultMsg.New(slot0._parentTf.parent, slot0.event)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	onButton(slot0, slot0.listBtn, function ()
 		uv0:emit(WorldBossScene.ON_SWITCH, WorldBossScene.PAGE_ARCHIVES_CHALLENGE)
@@ -106,7 +106,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnStart(slot0)
+slot0.OnStart = function(slot0)
 	if nowWorld():GetBossProxy():InAutoBattle() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_archives_need_stop_auto_battle"))
 
@@ -116,13 +116,13 @@ function slot0.OnStart(slot0)
 	uv0.super.OnStart(slot0)
 end
 
-function slot0.OnRescue(slot0)
+slot0.OnRescue = function(slot0)
 	if slot0.helpWindow then
 		slot0.helpWindow:ExecuteAction("Update", slot0.boss)
 	end
 end
 
-function slot0.OnUpdateRes(slot0)
+slot0.OnUpdateRes = function(slot0)
 	if not slot0.currProgressTxt then
 		return
 	end
@@ -131,7 +131,7 @@ function slot0.OnUpdateRes(slot0)
 	slot0.currProgressTxt.text = WorldBossConst.GetAchieveBossItemProgress() .. "/" .. slot3
 end
 
-function slot0.UpdateMainInfo(slot0)
+slot0.UpdateMainInfo = function(slot0)
 	uv0.super.UpdateMainInfo(slot0)
 
 	slot1 = slot0.boss
@@ -139,7 +139,7 @@ function slot0.UpdateMainInfo(slot0)
 	slot0.hpTxt.text = slot1:GetHP() .. "/<color=#CF4E24>" .. slot1:GetMaxHp() .. "</color>"
 end
 
-function slot0.OnPaintingLoad(slot0)
+slot0.OnPaintingLoad = function(slot0)
 	if slot0.painting:Find("fitter").childCount > 0 then
 		slot4 = WorldBossConst.GetAutoBattleState(slot0.boss) == WorldBossConst.AUTO_BATTLE_STATE_STARTING
 
@@ -149,12 +149,12 @@ function slot0.OnPaintingLoad(slot0)
 	end
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	slot0:Flush()
 end
 
-function slot0.OnBossExpired(slot0)
+slot0.OnBossExpired = function(slot0)
 	if WorldBossConst.GetAutoBattleState(slot0.boss) == WorldBossConst.AUTO_BATTLE_STATE_STARTING then
 		if WorldBossConst.GetAutoBattleLeftTime() <= 0 then
 			slot0:emit(WorldBossMediator.ON_ARCHIVES_BOSS_AUTO_BATTLE_TIMEOVER, slot0.boss.id)
@@ -166,7 +166,7 @@ function slot0.OnBossExpired(slot0)
 	slot0:emit(WorldBossMediator.ON_SELF_BOSS_OVERTIME)
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0.archivesWorldbossBtn:Flush()
 
 	slot2 = slot0.autoBattleBtn:GetComponent(typeof(Image))
@@ -195,7 +195,7 @@ function slot0.Flush(slot0)
 	setGray(slot0.startBtn, WorldBossConst.AUTO_BATTLE_STATE_STARTING == slot1, true)
 end
 
-function slot0.AddBattleTimer(slot0)
+slot0.AddBattleTimer = function(slot0)
 	if slot0.boss:IsExpired() then
 		return
 	end
@@ -224,7 +224,7 @@ function slot0.AddBattleTimer(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveBattleTimer(slot0)
+slot0.RemoveBattleTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -232,12 +232,12 @@ function slot0.RemoveBattleTimer(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:RemoveBattleTimer()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.painting:Find("fitter"):GetChild(0) and slot1:GetComponent(typeof(Gradient)) then
 		slot1:GetComponent(typeof(Gradient)).enabled = false
 	end

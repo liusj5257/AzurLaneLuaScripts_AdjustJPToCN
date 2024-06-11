@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"기사와 포상\n\n<size=45>6. 분발해!</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "체육관의 휴게실. 클리블랜드와 팀원들은 말은 안했지만, 모두의 얼굴에 근심어린 기색이 역력했다.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "체육관의 휴게실. 클리블랜드와 팀원들은 말은 안했지만, 모두의 얼굴에 근심어린 기색이 역력했다.",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "열받은 클리블랜드에게 감염되어, 모두의 표정에도 생기가 돌아왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -124,16 +124,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "모두들! 경기 아직 안끝났어! 상대에게 우리 \"해상기사단\"의 진정한 실력을 보여주자!!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -149,18 +149,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "덴버＆몬트필리어",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#92fc63",
 			say = "우오오!!!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -201,17 +201,17 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			actorName = "{namecode:63}",
-			bgName = "star_level_bg_103",
 			side = 2,
 			dir = -1,
+			bgName = "star_level_bg_103",
+			bgm = "battle-boss-6",
+			actor = 303070,
 			nameColor = "#92fc63",
 			say = "이대로 가다간 역전 당하겠어! 패스 무조건 차단해!",
-			bgm = "battle-boss-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			actor = 302120,
+			say = "! 상대가 서로 호응이 잘 맞으면, 우리 전술은 소용이 없어...!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 302120,
 			actorName = "{namecode:38}",
-			say = "! 상대가 서로 호응이 잘 맞으면, 우리 전술은 소용이 없어...!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "(콰앙!!!)",
 			typewriter = {
 				speed = 0.05,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "종료 휘슬과 동시에, 클리블랜드의 맹렬한 덩크슛이 경기의 종료를 알렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "결승골을 넣은 클리블랜드는 이쪽을 향해 쏜살같이 달려왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "——소녀의 몸은 가냘팠지만 승리의 기쁨을 나누는 포옹은 힘이 넘쳤다.",
 			typewriter = {
 				speed = 0.05,

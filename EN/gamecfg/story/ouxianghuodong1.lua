@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
-			stopbgm = true,
-			bgmDelay = 2,
-			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			say = "Ancient legends spoke of sea monsters that sang enchanting songs to lure ships to their watery graves.",
 			typewriter = {
 				speed = 0.05,
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "They were named \"Sirens,\" and they threatened the safety of the seas by dragging people to their demise.",
 			typewriter = {
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "A number of people developed countermeasures in order to deal with these monsters.",
 			typewriter = {
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Orpheus, companion of the Argonauts, offset the Sirens' song with the melodies of his lyre.",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "During the Great Era of Discovery, sailors sang to the figurehead of their ship to quell the fear within their hearts and pray for a safe voyage.",
 			typewriter = {
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "These decorative figureheads, or idols, were so important to the peoples who would later become Iris Libre and the Sardegna Empire, that they were seen as pieces of art or even symbols of faith.",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "These traditions have evolved and taken many different forms as they were passed down the ages...",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Indeed, the connection between music and sailing has remained strong in modernity, as evidenced by the naval bands of the Royal Navy, Iron Blood, and Eagle Union.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "When these idols made their way from West to East, they took on a completely different form within the unique culture of the Sakura Empire - a combination of mystery and glamor that would take the world by storm.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "And now, the fight against the Sirens continues to evolve, in the form of an experimental rigging that reflects the time-hallowed tethers between music and sailing...",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Azur Lane's new weapon to counter the encroaching Siren threat. Its name is...",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The µ-rigging, also known as the \"Muse System.\"",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The experimental Muse System is about to enter its final stage of testing...",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -207,14 +207,14 @@ return {
 			}
 		},
 		{
-			say = "Experimental Testing Facility (?)",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "azumaster-ins",
+			say = "Experimental Testing Facility (?)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Thanks to everyone who could make it to the our experimental armament final trial concert, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "First, some of you might be wondering what the Muse System is, nya! Akashi will kindly explain the details, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "You have music, nya! You have a bunch of cute girls, nya! There's only one logical thing to do, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,11 +429,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "You might think that this was simply an idea to capitalize on a popular, successful genre, but you'd be wrong, nya! I'm not lying, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -455,15 +455,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "So, in other words, \"Polaris\" is a randomly selected group of girls who are equipped with the Muse System, and you'd like them to conduct test battles against the rest of the fleet?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -552,15 +552,15 @@ return {
 			}
 		},
 		{
-			actor = 102240,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102240,
+			nameColor = "#a9f548",
 			say = "All right! Experimental Muse System testing unit, \"Polaris,\" let's make sure to do our best!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -585,8 +585,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -614,8 +614,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "*sigh*... I hope this doesn't take long...",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "This unit did not look very promising at first. It took a lot of practice to even muster a semblance of team unity.",
 			typewriter = {

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "谢幕演出 +",
 	init_effect = "",
+	id = 1011380,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1011380,
+	color = "red",
 	icon = 11380,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 1011381
+				skill_id = 1011381,
+				target = "TargetSelf"
 			}
 		}
 	}

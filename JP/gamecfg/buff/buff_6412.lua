@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 6412,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6412,
+	color = "blue",
 	icon = 6410,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "oxyAtkDuration",
-				number = 4.5
+				number = 4.5,
+				attr = "oxyAtkDuration"
 			}
 		}
 	}

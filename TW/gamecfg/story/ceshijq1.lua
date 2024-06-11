@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CESHIJQ1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CESHIJQ1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"剧情测试\n\n<size=45>SP2剧情</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "SP2·剧情点测试",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "SP2·剧情点测试",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

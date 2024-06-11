@@ -1,10 +1,10 @@
 slot0 = class("EquipmentSkinInfoUIForShopWindow", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EquipmentSkinInfoUIForShop"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.displayPanel = slot0:findTF("display")
 	slot0.displayActions = slot0.displayPanel:Find("actions")
 	slot0.displayNameTxt = slot0:findTF("info/display_panel/name_container/name", slot0.displayPanel):GetComponent(typeof(Text))
@@ -17,7 +17,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("display/actions/confirm/change"), i18n("shop_word_exchange"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SOUND_BACK)
@@ -35,7 +35,7 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:UpdateSkinView(slot1)
@@ -43,7 +43,7 @@ function slot0.Show(slot0, slot1)
 	slot0.showing = true
 end
 
-function slot0.Open(slot0, slot1, slot2)
+slot0.Open = function(slot0, slot1, slot2)
 	onButton(slot0, slot0.confirmBtn, function ()
 		slot0 = pg.equip_skin_template[uv0].name
 
@@ -56,7 +56,7 @@ function slot0.Open(slot0, slot1, slot2)
 	slot0:Show(slot1:getConfig("commodity_id"))
 end
 
-function slot0.UpdateSkinView(slot0, slot1)
+slot0.UpdateSkinView = function(slot0, slot1)
 	slot2 = slot0.displayPanel
 	slot3 = pg.equip_skin_template[slot1]
 
@@ -77,7 +77,7 @@ function slot0.UpdateSkinView(slot0, slot1)
 	})
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0.showing then
 		uv0.super.Hide(slot0)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
@@ -86,7 +86,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

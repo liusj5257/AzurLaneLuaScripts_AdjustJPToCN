@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Fond Memories\n\n<size=45>Chapter 2: The Meaning of Glory</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 203080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ajax, you're really...!",
 			bgm = "story-1",
+			actor = 203080,
+			nameColor = "#a9f548",
+			say = "Ajax, you're really...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "I was simply speaking from a logical perspective. After all, we have a higher chance of victory if we face them in a night battle rather than facing them head-on.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I was simply speaking from a logical perspective. After all, we have a higher chance of victory if we face them in a night battle rather than facing them head-on.",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
+			say = "As always, Exeter and Ajax were quarreling with each other.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "As always, Exeter and Ajax were quarreling with each other.",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
+			say = "Ajax's battle plans were surprisingly logical and accurate. That said, because she prioritized logic over all else, it appeared that she wasn't able to meet eye-to-eye with girls who prioritized honor or formalities.",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "Ajax's battle plans were surprisingly logical and accurate. That said, because she prioritized logic over all else, it appeared that she wasn't able to meet eye-to-eye with girls who prioritized honor or formalities.",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
+			say = "As one was bound to get more worked up the more the opponent rebutted one's argument, oftentimes the situation would get more and more tangled up...",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "As one was bound to get more worked up the more the opponent rebutted one's argument, oftentimes the situation would get more and more tangled up...",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,15 +163,15 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "I apologized properly to Exeter, since this is just what always happens.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "Well, that's also because my plans rely on you to come in there to deal the finishing blow~♪",
 			typewriter = {
 				speed = 0.05,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "... And that's why I like you. Hehe~♪",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("QuotaGoodsCard", import(".BaseGoodsCard"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.go = slot1
@@ -20,7 +20,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.limitTag = slot0.tr:Find("mask/tag/limit_tag")
 end
 
-function slot0.update(slot0, slot1, slot2, slot3, slot4)
+slot0.update = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.goodsVO = slot1
 	slot5 = slot0.goodsVO:canPurchase()
 
@@ -55,11 +55,11 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 	slot0.limitCountTF.text = slot11 - slot1:GetPurchasableCnt() .. "/" .. slot11
 end
 
-function slot0.setAsLastSibling(slot0)
+slot0.setAsLastSibling = function(slot0)
 	slot0.tr:SetAsLastSibling()
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0.goodsVO = nil
 end
 

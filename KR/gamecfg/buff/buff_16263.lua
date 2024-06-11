@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 100
+					number = 100,
+					attr = "airPower"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 130
+					number = 130,
+					attr = "airPower"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 160
+					number = 160,
+					attr = "airPower"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 200
+					number = 200,
+					attr = "airPower"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 230
+					number = 230,
+					attr = "airPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 260
+					number = 260,
+					attr = "airPower"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 300
+					number = 300,
+					attr = "airPower"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 330
+					number = 330,
+					attr = "airPower"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 360
+					number = 360,
+					attr = "airPower"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 400
+					number = 400,
+					attr = "airPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 16263,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 16263,
+	color = "red",
 	icon = 16260,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 100
+				number = 100,
+				attr = "airPower"
 			}
 		}
 	}

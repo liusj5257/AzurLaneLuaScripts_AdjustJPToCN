@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_131 = {}
 slot1 = slot0.word_template_131
 
-function temp()
+temp = function()
 	uv0["划"] = {
 		["船"] = {
 			["式"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["华"] = {
 		["国"] = {
 			["锋"] = {
@@ -162,7 +162,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["華"] = {
 		["國"] = {
 			["鋒"] = {
@@ -224,7 +224,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["滑"] = {
 		["动"] = {
 			["着"] = {
@@ -256,7 +256,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["话"] = {
 		["说"] = {
 			["江"] = {
@@ -283,7 +283,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["怀"] = {
 		["念"] = {
 			this = true,
@@ -303,7 +303,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["懷"] = {
 		["特"] = {
 			this = true

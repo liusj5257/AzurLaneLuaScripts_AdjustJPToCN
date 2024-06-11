@@ -1,13 +1,13 @@
 return {
-	id = "W866010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W866010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "Using the Weather Control Device lets us temporarily melt all the ice floes in a 5x5 tile area. What should we do?",
 			typewriter = {
 				speed = 0.05,

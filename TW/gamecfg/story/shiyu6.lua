@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"愛操心的她可不是鬧著玩的\n\n<size=45>六 門內的危險</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "最後，與時雨兩人來到了夕立消失的一之鳥居，果然也沒有發現她的蹤影。",
 			side = 2,
 			bgName = "star_level_bg_129",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "最後，與時雨兩人來到了夕立消失的一之鳥居，果然也沒有發現她的蹤影。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -114,13 +114,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_129",
+			side = 2,
+			dir = 1,
 			say = "——和時雨繼續清理了一會後……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -209,9 +209,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "時雨一邊說著，一邊準備推開門，就在這時——",
 			typewriter = {
 				speed = 0.05,
@@ -223,9 +223,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "——喀噠喀噠！！",
 			dialogShake = {
 				speed = 0.09,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "噫！！剛、剛剛那是什麼聲音？！",
 			effects = {
 				{
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "感覺聲音是從倉庫深處傳來的。",
 			typewriter = {
 				speed = 0.05,
@@ -300,9 +300,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "豎起耳朵——卻再也沒聽到任何響動了。但是剛才的聲音絕對不是幻聽。",
 			typewriter = {
 				speed = 0.05,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "為了讓受到驚嚇的時雨安心，緊緊握住了她的手。",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "等一下——笨蛋指揮官！這種時候你想要幹嘛啊！",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "本以為這樣也許能緩解一下她內心的不安的感覺…難道惹她生氣了？",
 			typewriter = {
 				speed = 0.05,
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "與時雨一手互相牽著，另一隻手一起抓住了門把手。",
 			typewriter = {
 				speed = 0.05,
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "要上了哦——三、二、一！",
 			effects = {
 				{
@@ -436,13 +436,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "氣勢洶洶地拉開了門，幽靈——並不在裡面。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -489,11 +489,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "笨、笨蛋夕立？！妳怎麼在這裡啊？！",
 			typewriter = {
 				speed = 0.05,
@@ -505,8 +505,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -547,11 +547,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "真是…氣都氣不起來了…哈啊…妳這傢伙…",
 			typewriter = {
 				speed = 0.05,
@@ -563,8 +563,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 0.8,
 					dur = 1,
 					x = 0

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_300 = {}
 slot1 = slot0.word_template_300
 
-function temp()
+temp = function()
 	uv0["虾"] = {
 		["碌"] = {
 			["情"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瞎"] = {
 		["话"] = {
 			["局"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["侠"] = {
 		["医"] = {
 			["淫"] = {
@@ -48,7 +48,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["夏"] = {
 		["宝"] = {
 			["龙"] = {
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["仙"] = {
 		["剑"] = {
 			["私"] = {
@@ -119,7 +119,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["先"] = {
 		["奸"] = {
 			["后"] = {
@@ -242,7 +242,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["掀"] = {
 		["翻"] = {
 			["警"] = {

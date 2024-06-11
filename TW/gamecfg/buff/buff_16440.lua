@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16440,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16440,
+	color = "yellow",
 	icon = 16440,
 	last_effect = "",
 	effect_list = {
@@ -37,9 +37,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				time = 12,
 				maxTargetNumber = 0,
 				skill_id = 16440,
-				time = 12,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -56,8 +56,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 16441,
 				time = 12,
+				skill_id = 16441,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

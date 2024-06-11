@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试",
 	time = 0,
+	name = "测试",
+	init_effect = "",
 	picture = "",
 	desc = "测试用航速buff",
 	stack = 1,

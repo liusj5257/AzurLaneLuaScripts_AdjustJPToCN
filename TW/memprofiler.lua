@@ -2,7 +2,7 @@ slot0 = {}
 slot1 = 0
 slot2 = true
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	if collectgarbage("count") - uv0 <= 1e-06 then
 		uv0 = collectgarbage("count")
 

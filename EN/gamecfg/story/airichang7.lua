@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 7 - AI in Search of Love and Friendship</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Sakura Festival Grounds",
 			side = 2,
 			bgName = "star_level_bg_114",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "Port - Sakura Festival Grounds",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -306,15 +306,15 @@ return {
 			}
 		},
 		{
-			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400011,
+			nameColor = "#a9f548",
 			say = "Rescuing a goldfish is a piece of cake for a genius AI like me.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -403,15 +403,15 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 399010,
+			nameColor = "#a9f548",
 			say = "The fireworks will begin soon. Everyone please make your way over there.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -644,9 +644,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "*click*",
 			typewriter = {
 				speed = 0.05,
@@ -658,15 +658,15 @@ return {
 			}
 		},
 		{
-			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400011,
+			nameColor = "#a9f548",
 			say = "You too can be one of my Kizuners! Just search \"A.I. Channel\" and smash that subscribe button there!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -723,12 +723,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "Any VTuber will tell you, you can't miss a chance to do some advertising.",
 			typewriter = {
 				speed = 0.05,

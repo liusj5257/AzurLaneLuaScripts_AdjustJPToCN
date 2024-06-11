@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
+			bgm = "main-arbitrationsystem-theme",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "???, ???",
-			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "생기가 조금도 느껴지지 않는 죽음의 땅.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "리드미컬한 소리를 울려대며 기계로 이루어진 도시가 시공간조차 개의치 않고 계속 확장되고 있다.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "금속과 비금속, 천연물질과 인공물질, 바다와 대지마저 분해되어 재조립되고 다시 만들어져간다.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "그중 일부는 기계 도시 내부에 축적되는 자재로서…",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "그리고 그중 일부는 기계 도시 '그 자체'가 되어――",
@@ -124,28 +124,28 @@ return {
 			}
 		},
 		{
-			actor = 900136,
-			side = 2,
 			bgName = "bg_camelot_6",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900136,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "엠프레스, 실험장B 포기는 용납할 수 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -165,28 +165,28 @@ return {
 			}
 		},
 		{
-			actor = 900191,
-			side = 2,
 			bgName = "bg_camelot_6",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900191,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방어 승률이 너무 낮아서 연산 결과도 확실히 '비합리'적인 결정이라고 나왔어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "锁血",
 	time = 0,
-	color = "blue",
+	name = "锁血",
+	init_effect = "",
+	id = 74500,
 	picture = "",
 	desc = "受到致命伤害时不会死亡",
 	stack = 1,
-	id = 74500,
+	color = "blue",
 	icon = 74500,
 	last_effect = "",
 	effect_list = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"{namecode:30}的煩惱\n\n<size=45>三 {namecode:30}，勇敢一點！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "不久之後，重櫻宿舍",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "不久之後，重櫻宿舍",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 301210,
+			say = "嗚…我只是想變得更自信一點，能派上更多用場而已…一定是哪裡弄錯了…",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗚…我只是想變得更自信一點，能派上更多用場而已…一定是哪裡弄錯了…",
+			actor = 301210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "啊嗚…",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 45,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "啊，好漂亮的蝴蝶！",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -3750
@@ -213,11 +213,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "等等，那樣跑的話很危險的！",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "抓到…了！哎呀——",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -3000,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 0
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301240,
+			nameColor = "#a9f548",
 			say = "對了，秘書艦呀！最近正好秘書艦的安排有空缺呢！初春姐，這或許是個機會哦。",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 306010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 306010,
+			nameColor = "#a9f548",
 			say = "在這裡猶豫，停滯不前的話是沒法變得自信的！",
 			effects = {
 				{
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "…我，我想試試！",
 			effects = {
 				{
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -472,14 +472,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_room",
-			actorName = "{namecode:141}&{namecode:129}",
+			actor = 301230,
 			dir = 1,
 			blackBg = true,
-			actor = 301230,
-			nameColor = "#a9f548",
+			hideOther = true,
+			actorName = "{namecode:141}&{namecode:129}",
 			say = "哦哦哦…姐姐加油！",
 			subActors = {
 				{

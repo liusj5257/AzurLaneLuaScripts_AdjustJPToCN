@@ -2,7 +2,7 @@ slot0 = class("CourtYardBGMAgent", import(".CourtYardAgent"))
 slot1 = 0
 slot2 = 1
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.recoders = {}
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:PlayVoice(slot0.defaultBgm)
 end
 
-function slot0.Play(slot0, slot1, slot2)
+slot0.Play = function(slot0, slot1, slot2)
 	if not slot1 or slot1 == "" then
 		return
 	end
@@ -33,11 +33,11 @@ function slot0.Play(slot0, slot1, slot2)
 	slot0.recoders[slot1] = (slot0.recoders[slot1] or 0) + 1
 end
 
-function slot0.HandlePlayOnce(slot0, slot1)
+slot0.HandlePlayOnce = function(slot0, slot1)
 	slot0:AddTimerToStopBgm(long2int(slot1.length) * 0.001)
 end
 
-function slot0.AddTimerToStopBgm(slot0, slot1)
+slot0.AddTimerToStopBgm = function(slot0, slot1)
 	slot0.waitForStop = true
 	slot0.timer = Timer.New(function ()
 		uv0:Reset()
@@ -48,7 +48,7 @@ function slot0.AddTimerToStopBgm(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -56,7 +56,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Stop(slot0, slot1)
+slot0.Stop = function(slot0, slot1)
 	if slot0.waitForStop then
 		return
 	end
@@ -72,13 +72,13 @@ function slot0.Stop(slot0, slot1)
 	end
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0.recoders = {}
 
 	slot0:PlayVoice(slot0.defaultBgm)
 end
 
-function slot0.PlayVoice(slot0, slot1, slot2)
+slot0.PlayVoice = function(slot0, slot1, slot2)
 	if slot0.playName == slot1 then
 		return
 	end
@@ -96,7 +96,7 @@ function slot0.PlayVoice(slot0, slot1, slot2)
 	slot0.playName = slot1
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0:RemoveTimer()
 
 	slot0.recoders = {}
@@ -106,7 +106,7 @@ function slot0.Clear(slot0)
 	pg.CriMgr.GetInstance():StopBGM()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.recoders = nil
 
 	slot0:RemoveTimer()

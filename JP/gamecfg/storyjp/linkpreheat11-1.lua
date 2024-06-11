@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT11-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT11-1",
+	fadein = 1,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "なら……わたしが行きます",
-			bgm = "level-uta",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "この、ココポみたいに強くて頑丈な、艤装という装備があれば……あ、あれだけの敵を引きつけても……わ、わたしを守ってくれるはずです",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "だから、この作戦は、わたしが適任だと……思います",
 			typewriter = {
 				speed = 0.05,
@@ -155,10 +155,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "その時は作戦を中止して駆けつけましょう",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "その時は作戦を中止して駆けつけましょう",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "はい……ありがとうございます",
 			typewriter = {
 				speed = 0.05,

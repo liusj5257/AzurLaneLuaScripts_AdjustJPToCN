@@ -1,17 +1,17 @@
 return {
-	once = true,
-	mode = 2,
-	id = "MAOZIHUODONG13",
-	continueBgm = true,
 	fadeType = 1,
+	mode = 2,
+	continueBgm = true,
+	once = true,
+	id = "MAOZIHUODONG13",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "セイレーン要塞周辺・ユニオン艦隊",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			say = "セイレーン要塞周辺・ユニオン艦隊",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "コロンビア",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "モントピリア",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クリーブランド",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_2",
-			actorName = "サラトガ",
 			dir = 1,
+			actorName = "サラトガ",
 			say = "フラフラ…って何よこれ！",
 			dialogShake = {
 				speed = 0.09,
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ホーネット",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "サウスダコタ",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クリーブランド",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "コロンビア",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "サラトガ",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			say = "―――！！",
+			soundeffect = "event:/battle/cannon-air",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			soundeffect = "event:/battle/cannon-air",
+			say = "―――！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "コロンビア",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クリーブランド",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "サラトガ",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ホーネット",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "サウスダコタ",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,13 +266,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "氷山の反対側",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "お・き・て・よー！起きてええええええ！！",
 			effects = {
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			say = "！！",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
 			bgm = "bgm-cccp3",
+			say = "！！",
 			effects = {
 				{
 					active = false,
@@ -393,8 +393,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "おはよー、パーミャチ・メルクーリヤちゃんの目覚ましサービス、どうだった？",
 			typewriter = {
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "目覚まし……仲間たちはどこに？？",
 			typewriter = {
 				speed = 0.05,
@@ -440,8 +440,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "で、ここで悪いニュースといいニュース",
 			typewriter = {
@@ -457,8 +457,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "悪いニュースは、あの氷山が現れてからこの辺りが鏡面海域になっていて、仲間との通信ができなくなってるの",
 			typewriter = {
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			say = "―――！",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "―――！",
 			flashN = {
 				color = {
 					1,
@@ -548,8 +548,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "わたしたちの指揮をよろしくね？指揮官♪",
 			typewriter = {

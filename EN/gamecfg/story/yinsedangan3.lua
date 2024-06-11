@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Access authentication in progress–––",
@@ -82,8 +82,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"Damage Report Status ––– CV-5 Yorktown ––– Heavy Damage\"",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"Though her condition is stable, her rigging was heavily damaged, necessitating her to be transferred from the front lines for long-term medical care.\"",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "……………………",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Anyway, what's important is that we all made it back in one piece.",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "After all, I was so focused on trying to stop the Sirens that I couldn't worry about other things.",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "Understood. Ending playback of recording log.",
 			typewriter = {
@@ -238,9 +238,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "Beginning search and analysis for the next recording log.",
 			typewriter = {

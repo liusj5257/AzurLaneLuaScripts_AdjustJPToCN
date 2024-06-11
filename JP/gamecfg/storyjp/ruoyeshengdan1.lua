@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUOYESHENGDAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUOYESHENGDAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"クリスマスパーティー！\n\n<size=45>一 クッキーの作り方</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_100",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_100",
 			bgm = "story-1",
 			actor = 199012,
 			nameColor = "#a9f548",
 			say = "レシピOK…オープンOK…完璧だね！今回のジンジャークッキーはきっと大丈夫っす！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "♫～",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "サンディエゴ？ちょうど夜のクリスマスパーティーの準備してて、んで…",
 			typewriter = {
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "くんくん…これは…もしかしてジンジャークッキー！うまそー！",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "……おいひい！もういっこ！",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
+			dir = 1,
 			say = "サンディエゴはジンジャークッキーを食べた。",
 			typewriter = {
 				speed = 0.05,
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "お腹いっぱいだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "よかったっす！…じゃなくて！美味しいかどうか聞いてるんっすよ！",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "むぅ、やっぱちょっと足りないっすね…",
 			typewriter = {
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "サンディエゴよくわかんない！",
 			typewriter = {
 				speed = 0.05,
@@ -428,8 +428,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -441,8 +441,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "いい線行ってるかもっすね！とりあえずほかの人にも聞いてみるっす！ま、そろそろほかの陣営の子も招待しないとね",
 			typewriter = {
@@ -455,12 +455,12 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "おおー！（話を聞いていない）",
 			typewriter = {
 				speed = 0.05,

@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			say = "只是眨眼的工夫，海灘上的垃圾又要堆積成山了。",
 			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgm = "main-SeaAndSun",
-			say = "只是眨眼的工夫，海灘上的垃圾又要堆積成山了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "在碧海藍天的美景當中，那些不屬於自然的東西顯得格外扎眼。",
 			typewriter = {
 				speed = 0.05,

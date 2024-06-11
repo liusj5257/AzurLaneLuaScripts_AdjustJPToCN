@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIGUANQIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港近隣海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "母港近隣海域",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -256,17 +256,17 @@ return {
 			}
 		},
 		{
-			actor = 101170,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "……だれか、いる……？",
 			bgm = "story-1",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "……だれか、いる……？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -294,8 +294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "あばばばばば、だれがだずげでえ゛え゛え゛え゛え゛！おぼれるう゛う゛う゛う゛う゛！",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -353,8 +353,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "おぼぼぼぼぼ……（あれ？そういえば私ＡＩだから呼吸する必要ないんだった！）",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "ざばーーーん！",
 			typewriter = {
 				speed = 0.05,
@@ -423,9 +423,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "全速力で駆け付けたラフィーが白とピンクの服を着た謎の人物を海から引き揚げた",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "ありがとおおおおお！助けてくれてーーー！",
 			typewriter = {
@@ -470,8 +470,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -483,8 +483,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "……って、ラフィーちゃん！？",
 			typewriter = {
@@ -500,8 +500,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "うれしいーーー！まさか本物のラフィーちゃんに会えるなんてーーー！（むぎゅっ）",
 			typewriter = {
@@ -514,8 +514,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,8 +559,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "えええ！うそでしょおおお！？私とたくさんの苦難を乗り越えたあの日々を！忘れちゃったのーーー！？",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -631,15 +631,15 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "……落ち着いた？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -683,8 +683,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "本物のみんなにいつか会ってみたいなぁって思ってたんだー！",
 			typewriter = {
@@ -713,12 +713,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "「だいよんのかべ」だったりして…？",
 			side = 0,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "「だいよんのかべ」だったりして…？",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -893,11 +893,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900179,
+			nameColor = "#a9f548",
 			say = "ふっふっふー、そこまで言うなら見せてあげましょう！じゃかじゃかじゃか～じゃんっ！",
 			typewriter = {
 				speed = 0.05,
@@ -909,8 +909,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.3,
 					x = 0,
@@ -922,8 +922,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "……ってあれ？おかしいなー、生成されないや、ちょっと直すね！えい！（コツン）えい！（コツン）",
 			typewriter = {
@@ -936,8 +936,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_ourdoor",
 			dir = 1,
 			say = "ばっこーん！",
@@ -1047,11 +1047,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			dir = 1,
 			say = "ずどーん！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1110,13 +1110,13 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "綾波、皆、大丈夫か？",
 			bgm = "story-1",
+			actor = 303110,
+			nameColor = "#a9f548",
+			say = "綾波、皆、大丈夫か？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1130,10 +1130,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "たっかおちゃーーーん！ありがとーーー！（むぎゅーーーー）",
+			dir = 1,
+			actor = 900179,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1215,8 +1215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "困ったときの猫神様ｷﾀ━━━━ლ(´ڡ`ლ)━━━━!!",
 			typewriter = {
@@ -1229,11 +1229,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "うにゃ！？急に抱きつかないでにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -1245,8 +1245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1255,15 +1255,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "この「らんだむわーどせいせいき」はいろんな空間に通じてる、という",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1336,11 +1336,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "え！？きょ、鏡面海域ですか！？箱の中に！？",
 			typewriter = {
 				speed = 0.05,
@@ -1352,8 +1352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1365,8 +1365,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "なんですと！これはバグを修正しないと帰れないパターン！？",
 			typewriter = {
@@ -1395,11 +1395,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "入ろうと思えば普通に入れるぞ。ほいほい。",
 			typewriter = {
 				speed = 0.05,
@@ -1411,8 +1411,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -1484,12 +1484,12 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900179,
+			nameColor = "#a9f548",
 			say = "うん！ありがとー、じゃあ出撃だねー！えい、えい、おー！",
 			typewriter = {
 				speed = 0.05,
@@ -1501,8 +1501,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0

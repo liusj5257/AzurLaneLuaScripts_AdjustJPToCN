@@ -1,34 +1,34 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINRIZHUTUISHANGPINSHI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINRIZHUTUISHANGPINSHI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "港區·指揮室",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "今天到了差不多的時間，明石卻沒有出現在指揮室。",
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "打開電視機也沒有看到她的宣傳節目……難道終於放棄了？",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -92,10 +92,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "想我了的話，就快點來濱海大道吧！明石在這裡等著你喵~",
 			painting = {
 				alpha = 0.3,
@@ -131,27 +131,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_526",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_526",
 			say = "港區·濱海大道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "——一年一度的明石大特賣正在火熱進行中喵！",
 			painting = {
 				alpha = 0.3,
@@ -179,10 +179,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "限定換裝大量返場銷售，還有超值特賣活動期間限定禮包等待您的選購喵！",
 			painting = {
 				alpha = 0.3,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "早買早享受，多買享折扣喵！",
 			painting = {
 				alpha = 0.3,
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不僅如此，只要來參加特賣活動，就算只看不買都能拿到免費禮包福袋喵！",
 			painting = {
 				alpha = 0.3,
@@ -229,12 +229,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "機不可失失不再來，走過路過不要錯過喵！",
 			painting = {
 				alpha = 0.3,
@@ -246,27 +246,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_blackfriday_cg",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_blackfriday_cg",
 			say = "一走進濱海大道，就聽到了明石賣力地推銷聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
 			say = "在她的身後，被商品堆滿的舞台上，三位被請來充當氣氛宣傳員的少女正不斷變換著帥氣的姿勢。",
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
 			say = "大海與沙灘，白雲與藍天，還有被港區同伴們圍得水洩不通的濱海大道。",
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_blackfriday_cg",
 			hidePaintObj = true,
 			say = "看來明石終於找到適合自己的宣傳方案了。",
@@ -307,28 +307,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那麼接下來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -346,13 +346,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不客氣，都是託了指揮官的福喵~",
 			painting = {
 				alpha = 0.3,
@@ -383,13 +383,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "然後來都來了，要不要順便看看有沒有喜歡的、想買走的商品喵？",
 			painting = {
 				alpha = 0.3,
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -472,13 +472,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			side = 2,
 			bgName = "star_level_bg_526",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 301180,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊？等等？明石妳……",
 			painting = {
 				alpha = 0.3,
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_526",
 			hidePaintObj = true,
 			optionFlag = 2,

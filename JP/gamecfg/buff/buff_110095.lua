@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.05
+					number = 0.05,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.066
+					number = 0.066,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.082
+					number = 0.082,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.1
+					number = 0.1,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.116
+					number = 0.116,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.132
+					number = 0.132,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.15
+					number = 0.15,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.166
+					number = 0.166,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.182
+					number = 0.182,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.2
+					number = 0.2,
+					attr = "criDamage"
 				}
 			}
 		}
 	},
-	icon = 110090,
 	name = "",
 	time = 1,
+	picture = "",
+	desc = "属性提升",
 	stack = 1,
 	id = 110095,
-	picture = "",
+	icon = 110090,
 	last_effect = "",
-	desc = "属性提升",
 	blink = {
 		1,
 		0,
@@ -172,8 +172,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.05
+				number = 0.05,
+				attr = "criDamage"
 			}
 		}
 	}

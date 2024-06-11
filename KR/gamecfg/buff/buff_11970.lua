@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "战意提升",
 	time = 0,
-	color = "red",
+	name = "战意提升",
+	init_effect = "",
+	id = 11970,
 	picture = "",
 	desc = "主炮每进行10次攻击，触发增益效果",
 	stack = 1,
-	id = 11970,
+	color = "red",
 	icon = 11970,
 	last_effect = "",
 	effect_list = {
@@ -40,8 +40,8 @@ return {
 			},
 			arg_list = {
 				quota = 4,
-				target = "TargetSelf",
 				skill_id = 11970,
+				target = "TargetSelf",
 				countType = 11970
 			}
 		}

@@ -1,22 +1,22 @@
 return {
-	id = "GULITEGUANQIA24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "GULITEGUANQIA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
-			bgName = "bg_ssss_1",
-			actorName = "메가 아머먼트: 「호광」",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁",
+			bgName = "bg_ssss_1",
 			bgm = "ssss-az-battle-boss",
+			actorName = "메가 아머먼트: 「호광」",
+			say = "█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,12 +41,12 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "우악, 이 공격은!?",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -71,10 +71,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 306060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "바다뿐만 아니라 주위의 공기도 떨리기 시작하고 있습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "마치 해상 지진 같네요... 전자 장비도 작동 불능인 것 같아요.",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,12 +113,12 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307032,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이건…… 전자 작전 모듈이 있을 줄이야.",
 			typewriter = {
 				speed = 0.05,
@@ -130,12 +130,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "퓨리, 괜찮아? 잠시 철수할까?",
 			typewriter = {
 				speed = 0.05,
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "응? 난 괜찮아, 문제 없어.",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "퓨리파이어(거대)",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "퓨리파이어(거대)",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "응? 난 괜찮아, 문제 없어.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "설마… 왜 퓨리의 전자 장비만 정상이야?!",
 			typewriter = {
 				speed = 0.05,
@@ -187,15 +187,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "아마 내가 세이렌이라서 그런 걸까? 아니면 고급 세이렌이라서? 이 정도론 날 막을 수 없다고!",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "퓨리파이어(거대)",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "퓨리파이어(거대)",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "아마 내가 세이렌이라서 그런 걸까? 아니면 고급 세이렌이라서? 이 정도론 날 막을 수 없다고!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -210,12 +210,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그렇다면… 흠, 이렇게 할 수 있을 것 같아!",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "퓨리, 네 전자 장비도 망가진 줄 알 거야, 움직이지 말고 당한 척해봐.",
 			typewriter = {
 				speed = 0.05,
@@ -254,12 +254,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "괴수가 방심한 틈을 타 주포로 단숨에 끝내버리자.",
 			typewriter = {
 				speed = 0.05,
@@ -271,15 +271,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "어?!  좋아, 알겠어.",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "퓨리파이어(거대)",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "퓨리파이어(거대)",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "어?!  좋아, 알겠어.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
+			dir = 1,
 			say = "한동안 계속되던 괴수의 공격이 마침내 멈추었다.",
 			typewriter = {
 				speed = 0.05,
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
+			dir = 1,
 			say = "바다 위 모든 함선, 통제된 양산형 세이렌, 그리고 거대한 퓨리까지 모두 움직이지 않았고 강력한 파도에 의해 흩어졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
+			dir = 1,
 			say = "괴수는 흡족한 듯 이 모든 것을 바라보며 퓨리를 향해 눈을 돌렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 10800060,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10800060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "바로 지금이야, 퓨리, 빨리 쏴!",
 			typewriter = {
 				speed = 0.05,
@@ -353,15 +353,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_ssss_1",
-			dir = 1,
-			actorScale = 2,
-			actor = 900233,
-			actorName = "퓨리파이어(거대)",
-			hidePaintObj = true,
 			say = "알겠어, 주포 충전 완료. 상상도 못했지? 나에겐 효과가 없다구———",
+			side = 2,
+			bgName = "bg_ssss_1",
+			actorName = "퓨리파이어(거대)",
+			dir = 1,
+			actorScale = 2,
+			actor = 900233,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -376,38 +376,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_ssss_1",
-			dir = 1,
-			actorScale = 2,
-			actor = 900233,
-			actorName = "퓨리파이어(거대)",
-			hidePaintObj = true,
 			say = "받아라——————음…",
-			actorPosition = {
-				x = 150,
-				y = -400
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "퓨리파이어(거대)",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "퓨리파이어(거대)",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "뭔가 멋있는 거 외쳐야 되는 거 아니야? 예전에 뭐라고 외쳤더라...?",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -422,12 +399,35 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			say = "뭔가 멋있는 거 외쳐야 되는 거 아니야? 예전에 뭐라고 외쳤더라...?",
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
+			actorName = "퓨리파이어(거대)",
 			dir = 1,
+			actorScale = 2,
+			actor = 900233,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
+			actorPosition = {
+				x = 150,
+				y = -400
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_ssss_1",
+			dir = 1,
+			actor = 202111,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "한 번도 신경 쓴 적 없는데...",
 			typewriter = {
 				speed = 0.05,
@@ -439,12 +439,12 @@ return {
 			}
 		},
 		{
-			actor = 10800050,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10800050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아무 광선이나 좋으니까, 빨리 쏴, 이러다 기횔 놓칠 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -459,13 +459,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			nameColor = "#a9f548",
+			say = "좋아, 알겠어! 주포 조준 완료——————아무거나 광선, 발포!!!!!!!!!",
 			dir = 1,
+			actorName = "퓨리파이어(거대)",
 			actorScale = 2,
 			actor = 900233,
-			actorName = "퓨리파이어(거대)",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "좋아, 알겠어! 주포 조준 완료——————아무거나 광선, 발포!!!!!!!!!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {

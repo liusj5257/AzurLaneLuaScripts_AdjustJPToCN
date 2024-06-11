@@ -4,29 +4,29 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Is... that it? It's over?",
 			bgm = "qe-ova-9",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Is... that it? It's over?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,10 +37,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It is, nya!",
 			painting = {
 				alpha = 0.3,
@@ -64,12 +64,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Myahaha! I'm the developer, so it only makes sense for me to appear in the credits, nya!",
 			painting = {
 				alpha = 0.3,
@@ -84,10 +84,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Besides, don't you have questions for me, nya?",
 			painting = {
 				alpha = 0.3,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nya?",
 			painting = {
 				alpha = 0.3,
@@ -144,10 +144,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you want to know, you should ask TB directly, nya!",
 			painting = {
 				alpha = 0.3,
@@ -162,10 +162,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And in case you're wondering how TB can be here – it's a trade secret, so don't ask, nya.",
 			painting = {
 				alpha = 0.3,
@@ -189,12 +189,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'd better get going now, nya. You two have a nice chat, nya!",
 			painting = {
 				alpha = 0.3,
@@ -206,27 +206,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_room3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_room3",
 			say = "Akashi vanishes into thin air, and not much later, I come face to face with TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

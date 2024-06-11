@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"소류 씨와 함께\n\n<size=45>제6장 - 변화 (중)</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "모항 - 광장 ",
 			dir = 1,
 			bgmDelay = 2,
+			blackBg = true,
 			bgm = "story-1",
+			say = "모항 - 광장 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -63,9 +63,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "갑자기 소류와 데이트를(?) 하게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "……아무래도 소류가 에스코트해줄 흐름인 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "아카시, 이거 살게요. 그리고 시라누이, 포장도 부탁해요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "시종일관 묘한 시선을 받으며, 소류와 함께 보급상점을 나섰다.",
 			typewriter = {
 				speed = 0.05,
@@ -210,15 +210,15 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#92fc63",
 			say = "저건? 어, 언니……!?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "히류, 무슨 일 있나요?",
 			side = 1,
 			bgName = "star_level_bg_105",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "히류, 무슨 일 있나요?",
+			actor = 307030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "모두가 놀라는 건 무리도 아니다. ……소류가 출발할 때부터 팔짱을 끼고 있으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -331,15 +331,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "저녁 식사 마련해주셔서 감사합니다, 히에이.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,9 +380,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "히에이는 생글생글 웃으며 방에서 나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "지휘관님, 오늘 데이트는 만족하셨는지요?",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "祭儀の島",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-1",
+			say = "祭儀の島",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "異議は申さぬ…目覚めたからには、本島への参列は当然…",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "そういうことではありません。信濃さんは目覚めたばかり、今の状況を把握しているとは思えません",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -127,8 +127,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……状況は把握している…妾が夢を観ていた間に……",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "ほら、信濃さんもそう言っていますよ？それに本島から迎えの艦隊もいますし",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（信濃さんを出迎える艦隊…たしか旗艦は紀伊だったわね……げぇ、アイツ、大丈夫かしら……）",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "話は平行線ね……信濃さんの航行には私も同行します",
 			dialogShake = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（え）",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "いくらなんでも急すぎませんか？配置変更には上層部の…いいえ、せめて赤城さんたちには……",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "………んっ……そういう、話なら…",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "能代の申し出、妾から話を合わせよう…",
 			typewriter = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "信濃さん…感謝します",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -318,9 +318,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "（トントン）",
 			typewriter = {
 				speed = 0.05,
@@ -380,14 +380,14 @@ return {
 			}
 		},
 		{
-			actor = 305140,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			actorName = "駿河&龍鳳",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			nameColor = "#a9f548",
+			actor = 305140,
+			actorName = "駿河&龍鳳",
 			say = "かしこまりました！",
 			subActors = {
 				{

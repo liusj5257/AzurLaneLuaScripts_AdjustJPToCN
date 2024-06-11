@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 倔强鱼雷",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 倔强鱼雷",
+	init_effect = "",
+	id = 200836,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200836,
+	color = "yellow",
 	icon = 200836,
 	last_effect = "",
 	effect_list = {

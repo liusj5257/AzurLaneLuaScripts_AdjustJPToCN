@@ -9,13 +9,13 @@ slot0 = {
 	y = pg.gameset.air_dominance_y.key_value
 }
 
-function calcAirDominanceValue(slot0, slot1)
+calcAirDominanceValue = function(slot0, slot1)
 	slot2 = slot0:getAircraftCount()
 
 	return defaultValue(slot0:getProperties(slot1)[AttributeType.Air], 0) * (defaultValue(slot2[EquipType.FighterAircraft], 0) * uv0.p + defaultValue(slot2[EquipType.TorpedoAircraft], 0) * uv0.q + defaultValue(slot2[EquipType.BomberAircraft], 0) * uv0.s + defaultValue(slot2[EquipType.SeaPlane], 0) * uv0.t) * (0.8 + slot0.level * uv0.r / 100) / 100 + defaultValue(slot0:getEquipmentProperties()[AttributeType.AirDominate], 0)
 end
 
-function calcAirDominanceStatus(slot0, slot1, slot2)
+calcAirDominanceStatus = function(slot0, slot1, slot2)
 	slot1 = slot1 * uv0.a / (slot2 + uv0.a)
 
 	if slot0 == 0 then
@@ -83,7 +83,7 @@ function calcAirDominanceStatus(slot0, slot1, slot2)
 	end
 end
 
-function calcPositionAngle(slot0, slot1)
+calcPositionAngle = function(slot0, slot1)
 	slot2 = Vector3(slot0, slot1, 0)
 	slot3 = Vector3.up
 	slot4 = Vector2.Angle(slot2, slot3)
@@ -91,7 +91,7 @@ function calcPositionAngle(slot0, slot1)
 	return Vector3.Cross(slot2, slot3).z > 0 and slot4 or -slot4
 end
 
-function DOAParabolaCalc(slot0, slot1, slot2)
+DOAParabolaCalc = function(slot0, slot1, slot2)
 	assert(slot2 < slot1 * slot1 * slot0 / 2, "x is unreal")
 
 	slot3 = slot0 * math.sqrt(slot1 / 2)
@@ -112,7 +112,7 @@ function DOAParabolaCalc(slot0, slot1, slot2)
 	return slot4
 end
 
-function mergeSort(slot0, slot1)
+mergeSort = function(slot0, slot1)
 	slot1 = slot1 or function (slot0, slot1)
 		return slot0 <= slot1
 	end
@@ -157,7 +157,7 @@ function mergeSort(slot0, slot1)
 	end)(1, #slot0)
 end
 
-function LineLine(slot0, slot1, slot2, slot3)
+LineLine = function(slot0, slot1, slot2, slot3)
 	slot4 = false
 	slot5, slot6 = nil
 
@@ -172,7 +172,7 @@ function LineLine(slot0, slot1, slot2, slot3)
 	return slot4, slot5, slot6
 end
 
-function ConversionBase(slot0, slot1)
+ConversionBase = function(slot0, slot1)
 	slot2 = {
 		0
 	}
@@ -202,7 +202,7 @@ end
 base64 = {}
 slot1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 
-function base64.enc(slot0)
+base64.enc = function(slot0)
 	slot1 = slot0:gsub(".", function (slot0)
 		slot1 = ""
 		slot2 = slot0:byte()
@@ -233,7 +233,7 @@ function base64.enc(slot0)
 	})[#slot0 % 3 + 1]
 end
 
-function base64.dec(slot0)
+base64.dec = function(slot0)
 	slot0 = string.gsub(slot0, "[^" .. uv0 .. "=]", "")
 	slot1 = slot0:gsub(".", function (slot0)
 		if slot0 == "=" then

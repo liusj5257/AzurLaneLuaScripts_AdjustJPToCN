@@ -1,19 +1,19 @@
 return {
-	id = "WORLD109B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD109B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/31/tb-31",
+			dir = 1,
 			bgm = "level02",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Part one of Operation Siren has been completed. Forward base has been established.",
-			voice = "event:/tb/31/tb-31",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "Now we just sit tight until NY City arrives with their supply ships and a crew to man the forward base.",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "So, what even IS a forward base? The mission documents say a whole lot about it, but it’s all jargon to me.",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hey, now that actually sounds pretty swell!",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The plan is to establish 4 forward bases spread out across the NA Ocean. Once that’s been done, we can mount an offensive on the central sector.",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Without stopover points like these, we couldn't dream of maintaining an organized offensive against the Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Now that we're finished here, it’s time to set our eyes on the next sector. TB will no doubt play an indispensable role to come.",
 			typewriter = {
 				speed = 0.05,
@@ -168,11 +168,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/52/tb-52",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = ".You have completed your mission admirably. Allow me to offer... my sincerest thank-you.",
-			voice = "event:/tb/52/tb-52",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Was that... emotion in her voice just now?",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_81 = {}
 slot1 = slot0.word_template_81
 
-function temp()
+temp = function()
 	uv0.T = {
 		N = {
 			N = {
@@ -179,7 +179,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["幼"] = {
 		["齿"] = {
 			this = true
@@ -221,7 +221,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["作"] = {
 		["爱"] = {
 			this = true
@@ -237,7 +237,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["阝"] = {
 		["月"] = {
 			this = true

@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Sea Star on Shore\n\n<size=45>6: The Witness</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Like I said! I got back and found all these clothes scattered around, and was just about to pick them up!",
 			bgm = "story-1",
+			actor = 207020,
+			nameColor = "#a9f548",
+			say = "Like I said! I got back and found all these clothes scattered around, and was just about to pick them up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "In the end, considering it's Ark Royal-san...",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "In the end, considering it's Ark Royal-san...",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "V-Vampire?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "V-Vampire?",
+			actor = 201101,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -267,10 +267,10 @@ return {
 			}
 		},
 		{
-			actor = 201101,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201101,
 			dir = 1,
 			hideOther = true,
 			actorName = "Ark Royal and Cygnet",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"카우보이처럼!\n\n<size=45>7. 그러니까, 좋아한다고!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "호넷과 즈이카쿠의 연습전이 끝난 후——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "호넷과 즈이카쿠의 연습전이 끝난 후——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,11 +49,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			fontsize = 60,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "지휘관! 우리 데이트 가자!",
-			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "!?",
@@ -92,8 +92,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "아…… 소리가 너무 컸나, 미안 미안……",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "내가 아카시한테 서부 영화 티켓 2장 받아왔어. 같이 영화 보러 가자! 하루 종일 놀자고~",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,8 +136,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "이건…… 이전의 일에 대한 뇌물이라고 해도 좋고…… 보답이라고 해도 좋아. 아니면 단순히 초대 같은 것도…… 어쨌든 별 이유는 없어, 같이 놀러 가자!",
 			typewriter = {
@@ -150,15 +150,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "빨리 빨리, 영화 시작해! 3D 안경 챙기고!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,14 +193,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "호넷의 성격이라면 극의 하이라이트에서 소리를 지를 줄 알았는데……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			say = "그녀는 집중해서 조용히 영화의 세계에 빠져있었다.",
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			say = "계속 그녀가 손을 잡고 있어서 오히려 내가 조금 쑥쓰러워졌다……",
@@ -255,15 +255,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "역시 서부 영화에서 최고 장면은 말타고 총쏘는 결투씬이지~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -291,8 +291,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "아, 지휘관~ 손 잡았다고 얼굴 빨개진 거 아니지?",
 			typewriter = {
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "가자 가자, 다음 장소로 가자고——",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "남은 시간 동안 이렇게 호넷에게 이끌려 건물 전체의 오락 시설을 체험했다……",
@@ -348,14 +348,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_night",
 			actor = 107070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "후아—— 너무 재밌다. 1년 동안 놀 거 다 논 거 같아~ 특히 그 카우보이 체험 코너, 진짜 완전 재밌었어~!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,8 +380,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "엇? 힘들어? 그럼 우리 좀 쉬자!",
 			typewriter = {
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "호넷과 기다란 의자에 같이 앉았다.",
@@ -441,8 +441,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "근데 난 이미 털어놓을 게 없어…… 너랑 노샘프턴 그리고 엔터 언니 덕분에, 지금 기분 최고야~",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "엔터 언니도……",
 			typewriter = {
@@ -507,8 +507,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "그래. 맞아. 그리고 한 마디 보충하고 싶어… 나도, 언니들의 힘을 이용하거나, 언니를 모방해서 전투하고 싶지 않을 때가 있어.",
 			typewriter = {
@@ -524,8 +524,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "예를 들면… 봐, 난 언니처럼 그렇게 귀찮지 않지? 네 눈앞에 나는, 좋아하는 사람한텐 좋아한다고 직접 얘기해.",
 			typewriter = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "그러니까 이런 \"전투\"는 나 한 사람만의 것이지——지휘관, 나 너 좋아해!",
 			typewriter = {
 				speed = 0.05,
@@ -554,8 +554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -564,11 +564,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			blackbg = true,
-			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "————지휘관, 넌?",
 			typewriter = {

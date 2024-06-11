@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 800152,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800152,
+	color = "red",
 	icon = 800150,
 	last_effect = "",
 	effect_list = {
@@ -26,10 +26,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 800150,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 800150,
 				label = {
 					"IJN",
 					"CV"

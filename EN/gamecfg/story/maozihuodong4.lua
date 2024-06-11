@@ -1,17 +1,17 @@
 return {
-	id = "MAOZIHUODONG4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG4",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 105140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "...It's too quiet. There's nothing wrong with my SK-2 radar... but undeniably, the enemy stronghold is right in front of us. Seeing a battlefield this calm is giving me goosebumps...",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "We're still at a safe distance for the time being~",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Woah... these Sirens must be sleeping or something. My recon planes are flying over them without drawing a response...",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "Hehe~ If that's the case, let's settle this with some ultra long-range bombing!",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Nice thinking, Hornet! But thinking isn't as fun as doing! Sister Sara, scrambling bombers!",
 			typewriter = {
 				speed = 0.05,
@@ -101,10 +101,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/bbattle/plane",
 			say = "Saratoga issued her orders, and a squadron of bombers immediately began to fly towards the Siren stronghold.",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/bbattle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Even without protection from fighters, the bombers reached their target successfully and dropped a payload directly on top of the stronghold!",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Heheh! A direct hit!!",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Just as Saratoga began to cheer, the stronghold's defenses came to life. The bombs that had been dropped were repelled by shields that materialized out of nowhere, and Saratoga's bombers were mercilessly mowed down by withering anti-air fire.",
 			typewriter = {
 				speed = 0.05,
@@ -169,9 +169,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "What... the... heck?!",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "Be careful, everyone! We're about to enter their defensive perimeter!",
 			typewriter = {
 				speed = 0.05,

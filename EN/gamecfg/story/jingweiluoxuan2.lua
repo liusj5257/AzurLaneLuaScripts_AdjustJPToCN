@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH Harbor - Temporary Command Post",
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "blueocean-image",
+			hidePaintObj = true,
+			say = "PH Harbor - Temporary Command Post",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -81,10 +81,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hehe, don'tcha just love the feeling of being right at home?",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I took the liberty of looking into you a bit, but judging from your expression, I'd say I did a pretty darn good job setting this place up~",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh, by the way, the name's New Jersey. Iowa-class battleship.",
 			typewriter = {
 				speed = 0.05,
@@ -159,10 +159,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But if that's not catchy enough for you to remember, I'm also called the indomitable Black Dragon of the Eagle Union! Hahaha~♪",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ahem... In any case, I'm now under your command. It's a pleasure to meetcha, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "By the way, Commander, do you have any questions for me?",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,10 +311,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Anything you'd like me to do in the meantime? It's too bad I couldn't help Saratoga out in that Reenactment incident...",
 			typewriter = {
 				speed = 0.05,
@@ -329,10 +329,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, no point dwelling on the past. It's my time to shine now, and I trust you'll be able to make full use of my capabilities?",
 			typewriter = {
 				speed = 0.05,
@@ -362,10 +362,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "The fighting around here's been pretty rough the last few days, so it's good that you showed up, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -395,10 +395,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Woah, maybe you're like some bad omen for when the Sirens are going to show up!",
 			typewriter = {
 				speed = 0.05,
@@ -413,10 +413,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Or maybe... everything that's happened so far has been a trap to lure you out! That seems like a possibility!",
 			typewriter = {
 				speed = 0.05,
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hehe, I suppose so... But enough messing around. If you don't have any other plans, I'll take the patrol fleet and survey the nearby waters.",
 			typewriter = {
 				speed = 0.05,
@@ -463,10 +463,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Anyway, I'll be off now unless there's something else you'd like to ask.",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -503,12 +503,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Huh? Is that something that requires explaining?",
 			typewriter = {
 				speed = 0.05,
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Uh, looking for something?",
 			typewriter = {
 				speed = 0.05,
@@ -591,10 +591,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ummm... I left some briefing-related materials in here while setting up...",
 			typewriter = {
 				speed = 0.05,
@@ -624,10 +624,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Err... There was also an anime disk mixed in with the files...",
 			typewriter = {
 				speed = 0.05,
@@ -639,8 +639,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -682,10 +682,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(Nooo, I can't let the commander know about my power level...)",
 			typewriter = {
 				speed = 0.05,
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -722,12 +722,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hello, Commander. Have you met New Jersey yet? Wonder where that girl's gotten herself to...",
 			typewriter = {
 				speed = 0.05,
@@ -742,10 +742,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'm over here, Ty! Hey, come help me out over here...",
 			typewriter = {
 				speed = 0.05,
@@ -772,12 +772,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All right, I'll be right there. Sorry for the late introduction, but my name is Ticonderoga, an Essex-class carrier. Pleased to meet you, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -792,10 +792,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You know, this desk isn't in the right spot after all. Would you mind giving us a few minutes to fix it?",
 			typewriter = {
 				speed = 0.05,

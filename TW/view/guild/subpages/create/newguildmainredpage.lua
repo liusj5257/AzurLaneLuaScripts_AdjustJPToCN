@@ -1,10 +1,10 @@
 slot0 = class("NewGuildMainRedPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewGuildRedUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.nameInput = findTF(slot0._tf, "bg/frame/name_bg/input"):GetComponent(typeof(InputField))
 	slot0.manifestoInput = findTF(slot0._tf, "bg/frame/policy_container/input_frame/input"):GetComponent(typeof(InputField))
 	slot0.relaxToggle = findTF(slot0._tf, "bg/frame/policy_container/policy/relax")
@@ -14,7 +14,7 @@ function slot0.OnLoaded(slot0)
 	slot0.costTF = findTF(slot0._tf, "bg/frame/confirm_btn/print_container/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.costTF.text = pg.gameset.create_guild_cost.key_value
 
 	onInputChanged(slot0, slot0.nameInput, function ()
@@ -104,7 +104,7 @@ function slot0.OnInit(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3, slot4)
+slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.playerVO = slot2
 
 	uv0.super.Show(slot0)
@@ -127,11 +127,11 @@ function slot0.Show(slot0, slot1, slot2, slot3, slot4)
 	slot0._tf:SetSiblingIndex(1)
 end
 
-function slot0.IsPlaying(slot0)
+slot0.IsPlaying = function(slot0)
 	return slot0.isPlaying
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-1",
+			say = "数日後",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 1,
-			say = "数日後",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "重桜のあの祭儀は結局失敗したの？",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401020,
+			nameColor = "#a9f548",
 			say = "もちろん私もことの顛末を見損ねました。酔っ払ったオイゲンの介抱で",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "ティーレ、私は別に酔っ払ってなかったわよ？あれはただの演技",
 			dialogShake = {
 				speed = 0.09,
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "………この話、誰にも話すんじゃないわ",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			withoutActorName = true,
-			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "重桜酒をお土産に大量購入したオイゲンにZ2は内心困っていた。",
 			typewriter = {
@@ -218,15 +218,15 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 30,
+					type = "move",
 					delay = 0.25,
 					dur = 0.5,
 					x = 0
 				},
 				{
-					type = "move",
 					y = -50,
+					type = "move",
 					delay = 0.75,
 					dur = 0.7,
 					x = 0
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "それと手ぶらなんかじゃないわ。「新生連合艦隊」の正体、重桜の内部事情、それと新鋭艦の情報を手に入れたの",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,16 +292,16 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "プリンツ・オイゲン、少しお時間をいただけないかしら",
 			bgm = "xinnong-3",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "プリンツ・オイゲン、少しお時間をいただけないかしら",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
+			say = "これはこれは重桜の赤城様？見送りなら、先程港でもう済ませたのではなくて？",
 			side = 1,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "これはこれは重桜の赤城様？見送りなら、先程港でもう済ませたのではなくて？",
+			actor = 403030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "単刀直入に言います。鉄血が握っている艦船とセイレーンの情報をもうちょっといただけないかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

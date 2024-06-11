@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA42",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA42",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "そろそろ終点です",
 			dir = 1,
 			bgm = "holo-fbk",
+			nameColor = "#a9f548",
+			say = "そろそろ終点です",
 			effects = {
 				{
 					active = true,
@@ -45,9 +45,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "おにぎり！？やばいやばいやばいやばい！あのおにぎりの裏はマグマの湖だよ！",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "あれ？マップに書いてるゴールはここじゃないよ？まつり、てっきりこれ仕様だと…うわああああ！",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "セイレーンの罠なの！？ってこの高速回転でどうやって脱出して…あわわわ！",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "瑞鶴！",
 			dialogShake = {
 				speed = 0.09,
@@ -139,8 +139,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "えー皆様、慌てずこっちの艤装にしっかり掴まってくださぁーい",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "うわわわわわわ！！",
@@ -167,16 +167,16 @@ return {
 			}
 		},
 		{
-			actor = 10500070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "ピュリっちの艤装！！",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "holo-inochi-inst",
+			actor = 10500070,
+			nameColor = "#a9f548",
+			say = "ピュリっちの艤装！！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -210,8 +210,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "私、記憶喪失だけどこいつの出し方覚えてるんだーいやぁこんなピンチで活躍できるとは思わなかったよなぁ～",
 			typewriter = {
 				speed = 0.05,
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actor = 900021,
+			actorName = "ピュリっち",
 			say = "あははは！もっと褒めちぎっていいんだぜ！",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 40,
@@ -297,8 +297,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "みんなは無事だよ！でもあの列車、完全にマグマの中に突っ込んだね…",
 			typewriter = {
 				speed = 0.05,
@@ -342,9 +342,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "壁画の中のそら先輩、艤装付きになってる！",
 			typewriter = {
 				speed = 0.05,
@@ -356,8 +356,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -369,8 +369,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "あっちのまつり、こういうところは結構凝ってるね……",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "ただの「敵」として扱うのは、やっぱりちょっと微妙な気がする…",
 			typewriter = {
 				speed = 0.05,
@@ -431,8 +431,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "ううん、元は余たち自身だから、別にそこまで気負う必要ないよ",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "まあ、良い方に考えれば、セイレーンの親玉を倒せば全ては元通りになるから、頑張れば戦いは避けられるはずだしね",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "ちょっと迷ったけど…もう迷わない。ここからみんなを連れて帰るために、あの人たちを倒すしかないなら…わたしはやる！",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "ふふん、これしきの駆け引き、余裕余裕。無理そうなら、その時はこのあくあ様に任せて！",
 			typewriter = {
 				speed = 0.05,
@@ -510,8 +510,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "私は……あれ、まつりちゃん？",
 			typewriter = {
 				speed = 0.05,
@@ -526,8 +526,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "うーん、まつり、ちょっとアイデアがあるかも",
 			typewriter = {
 				speed = 0.05,

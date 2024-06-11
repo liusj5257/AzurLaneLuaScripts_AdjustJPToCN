@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN25",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,10 +38,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎？速度好快！我們才剛進入內環區，你們沒有再遇到奇怪機關麼？！",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "沒有哦。",
 			typewriter = {
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不公平！我這邊已經遇到第三個了！",
 			typewriter = {
 				speed = 0.05,
@@ -118,10 +118,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗚……",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -146,8 +146,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "別那麼消沉，進入最後的大門之前我們會等你一起的。",
 			typewriter = {
@@ -163,10 +163,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗚嗚嗚，築摩閣下真是太善良了！",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,10 +191,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不過我們這裡遇到的敵人好多，不知道戰鬥還要多久才能結束……",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "島風完全不清楚！海域中沒有遇到奇怪的現象，但是敵人特別特別特別得多，彷彿怎麼打都打不完！",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "真是生命力頑強的象徵啊~",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "如果把所有敵人當成一個再生能力很強的整體進行考慮的話，必須想辦法一次性給予其大量傷害才行。",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "你的意思是同時啟動怒濤和火海的機關，一次性大面積摧毀敵人？",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "不用擔心，合適的人不是就在這裡嘛。",
 			typewriter = {
@@ -439,8 +439,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "我一路打下來早就已經精疲力盡了，奧丁也沒辦法持續作戰。",
 			typewriter = {
@@ -456,8 +456,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "現在可以繞過中心區域前往島風的那一側。駿河你們留在這裡偵察，開機關的事就交給我們兩個閒人吧。",
 			typewriter = {
@@ -489,8 +489,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

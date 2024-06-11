@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_daozhong",
 			dir = 1,
 			say = "우… 진행도 85%라니… 하지만 아직 신호를 추적하지 못했다냥……",
+			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이런 전개라면, 이건 \"그 자식들\"이 벌린 일이 분명해… 진행도가 가득 차면 그때 어떤 일이 벌어지는지 확인해보지.",
 			typewriter = {
 				speed = 0.05,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "하지만 벌써 마지막 상대인가……",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "누굴 보내야 좋을까?",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "막막하다면 연장자의 조언을 들어보는 것도 어때.",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "하하~ 그대와는 확실히 즐거운 대화가 가능할 것 같다~",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "막막할 때는, 역시 \"선배\"의 말을 듣는 게 좋겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "\"후배\"를 상대하는 것이니 만큼 \"1대1의 공정함\"에 연연하지 말고 즐겁게 전투할 수 있도록 해주시게, 지휘관 전하~",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "후배들…이라니…",
 			typewriter = {
 				speed = 0.05,

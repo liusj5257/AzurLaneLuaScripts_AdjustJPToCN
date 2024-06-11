@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 3,
 	name = "危机回避！",
 	init_effect = "jinengchufablue",
+	time = 3,
 	picture = "",
 	desc = "3s危机回避！",
 	stack = 1,
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				group = 104021,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		},
 		{

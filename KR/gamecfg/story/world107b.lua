@@ -1,18 +1,18 @@
 return {
-	id = "WORLD107B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD107B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "잠시만, 잠깐만 멈춰봐! 정찰기에 이상한 행동을 하는 함대 발견!",
-			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "우리와 정 반대야. 버뮤다 해역으로 전진하고 있어. 우리가 있는지 모르는 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "대공 작전 능력이 약한 것은 메탈 블러드의 특징이지.",
 			typewriter = {
 				speed = 0.05,
@@ -163,11 +163,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "명령 확인. 지휘부에 정보를 발송합니다.",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "NA 해역의 상황은 이미 복잡해. 여기서 충돌한다면 지휘부의 방침에도 어긋나.",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "버뮤다 해역에 이상 현상이 발생하고 있는 것은 사실이니까, 메탈 블러드 함대의 목적 역시 그것 일지도 모르지...",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "함재기를 보내 경고하는 건 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "항로 변경해. 그리고 메탈 블러드 함대에 경고한다.",
 			typewriter = {
 				speed = 0.05,
@@ -280,11 +280,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/21/tb-21",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "명령 확인. 목표, 메탈 블러드 함대로 설정. 현재 최적의 교전 항로 설정 중————",
-			voice = "event:/tb/21/tb-21",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

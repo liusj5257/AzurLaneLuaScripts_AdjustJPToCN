@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANWEIFANGXINMIMANSHI9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANWEIFANGXINMIMANSHI9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 1,
 			sequence = {
 				{
@@ -18,16 +18,16 @@ return {
 			}
 		},
 		{
-			mode = 5,
 			cpkPath = "story_4329",
+			mode = 5,
 			bgm = "story-musicanniversary-gorgeous"
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
+			side = 2,
 			bgmDelay = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "パーティー会場にて",
 			flashout = {
 				dur = 1,
@@ -53,10 +53,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "武蔵",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら、我らが指揮官の登場ね",
 			painting = {
 				alpha = 0.3,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン·エリザベス",
+			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう下僕、待たせるじゃない！",
 			painting = {
 				alpha = 0.3,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン·エリザベス",
+			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こんな豪華なパーティーに下僕がいないなんて…楽しくないじゃない！",
 			painting = {
 				alpha = 0.3,
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アヴローラ",
+			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうですね～。指揮官がいませんとみんな寂しがりますよ",
 			painting = {
 				alpha = 0.3,
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アヴローラ",
+			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よかったらお飲み物をお持ちしましょうか？",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "ビスマルク",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もうみんな盛り上がっているわ。指揮官",
 			painting = {
 				alpha = 0.3,
@@ -157,10 +157,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "ビスマルク",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こういう雰囲気は…悪くない。指揮官も楽しんでいくといい",
 			painting = {
 				alpha = 0.3,
@@ -172,12 +172,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャン·バール",
+			side = 2,
 			bgName = "bg_chengbaoqingdian_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "至らないところがあったら、大目に見てくれ。…はぁ",
 			painting = {
 				alpha = 0.3,
@@ -189,12 +189,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャン·バール",
+			side = 2,
 			bgName = "bg_chengbaoqingdian_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オレがこんなセリフを言うのはらしくない？それは…そうだが…",
 			painting = {
 				alpha = 0.3,
@@ -206,12 +206,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャン·バール",
+			side = 2,
 			bgName = "bg_chengbaoqingdian_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふっ、お前がさせたようなものだ。引き続き楽しんでいってくれ",
 			painting = {
 				alpha = 0.3,
@@ -226,10 +226,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "エセックス",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官！私もみんなとパーティーを楽しんでいます！",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "エセックス",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まだまだ盛り上がりそうですね！このあとはどんなイベントがあるんでしょう？",
 			painting = {
 				alpha = 0.3,
@@ -262,10 +262,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "エンタープライズ",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どんなものだろうと、指揮官が一緒にいてくれて、導いてくれれば問題ないさ。",
 			painting = {
 				alpha = 0.3,
@@ -280,10 +280,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "エンタープライズ",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…と、このパーティーへの発言としては重苦しすぎたな",
 			painting = {
 				alpha = 0.3,
@@ -298,10 +298,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_chengbaoqingdian_cg2",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "エンタープライズ",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とにかく特別な日、記念すべき日だ――指揮官、おめでとう",
 			painting = {
 				alpha = 0.3,

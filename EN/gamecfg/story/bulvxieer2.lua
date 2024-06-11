@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"All-Love Assault!\n\n<size=45>2. Rain or Shine</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "It's a dark, rainy day at the port...",
+			side = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "It's a dark, rainy day at the port...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "As I turn the corner leading to my office, I bump into Blücher. She's been waiting here for me.",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "\"Let me guess. You want me to take you on that date you decided on.\"",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "She and I go on a stroll around the port in the rain.",
 			typewriter = {
@@ -280,17 +280,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "Then, we pass by the Iron Blood dormitory and come across a friendly face.",
 			typewriter = {
@@ -308,14 +308,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Morning, Eugen! Whatcha doing? Going for a walk?",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Morning, Eugen! Whatcha doing? Going for a walk?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,14 +326,14 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Well, if it isn't the Commander and my favorite loudmouth.",
 			hidePaintEquip = true,
+			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Well, if it isn't the Commander and my favorite loudmouth.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,8 +359,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -434,9 +434,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_main_day",
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_main_day",
 			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

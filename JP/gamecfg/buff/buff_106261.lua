@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -400
+					number = -400,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -460
+					number = -460,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -520
+					number = -520,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -600
+					number = -600,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -660
+					number = -660,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -720
+					number = -720,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -800
+					number = -800,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -860
+					number = -860,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -920
+					number = -920,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -253,15 +253,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -1000
+					number = -1000,
+					attr = "dodgeRate"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 8,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "航速下降、机动降低",
 	stack = 1,
@@ -287,8 +287,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = -400
+				number = -400,
+				attr = "dodgeRate"
 			}
 		}
 	}

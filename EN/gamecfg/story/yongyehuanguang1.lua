@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YONGYEHUANGUANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "Royal Islands -  Several days prior",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			nameColor = "#a9f548",
+			say = "Royal Islands -  Several days prior",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "—That concludes our report regarding the Northern Parliament's war efforts. It roughly lines up with the information they released, but I'd like to hear your opinions.",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "I thought that capturing the Iceberg Stronghold would suppress Siren activity, but it instead seems to have sent them into a rampage... What an unforeseen disaster...",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "Hmm... Up until now, the Northern Parliament has done well in containing the Sirens to the Arctic...",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "Indeed. Should they be defeated, the Sirens would flood outward, threatening not only the Union-held side of the Northern Pacific, but also the Royal Islands.",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "As if I would allow that!",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I agree. In other words, can I take it that the Royal Navy has no objections to supporting the Northern Parliament?",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Allow Sister Sara to explain! ...According to the intel, the Iron Blood seems to be moving their forces to the Barents Sea, so please be careful when passing through that area!",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "They're seriously after the Polar route...",
 			typewriter = {
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Hmph! Bring it on! If that's how they want to do things, we'll be sure to show them some Royal Navy \"hospitality!\"",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,8 +246,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Elly~ Are you serious about that...?!",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "...Ahem. In that case, we'll provide the supplies as agreed upon. One more issue though, regarding the commander's situation...",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Right. I received a message from the Northern Parliament, and they seem to want to extend the commander's stay...",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "Sigh... What a time to be making such a request.",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Of course we're opposed to that! After we deliver the relief supplies, the war situation over there should improve, and there won't be any reason for Commander to stay in that walk-in freezer of a country!",
 			typewriter = {
@@ -363,8 +363,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Y'know, actually if they're going to be difficult, why don't we take a fleet from SD City's Naval Headquarters and retrieve Commander ourselves?",
 			typewriter = {
@@ -380,8 +380,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "Isn't SD City already too tied up dealing with the Sakura Empire to handle something like that?",
 			typewriter = {
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "I have a better idea, so listen up. Why don't we just have our transport fleet escort the commander back to the Eagle Union?",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -455,8 +455,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I have no objections.",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "Yes... I'll be sure to make the proper arrangements.",
 			typewriter = {
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>[Bill: Regarding the Leasing of Equipment and Supplies]</size>",
@@ -548,8 +548,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

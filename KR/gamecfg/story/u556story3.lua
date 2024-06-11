@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"기사의 맹세!\n\n<size=45>지휘관, 찾았다!</size>",
@@ -20,8 +20,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "미, 미안해……",
 			effects = {
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "자료는 아카시에게 확실히 전해줬어. 그런데 돌아오는 길에 U-81랑 애들이 숨바꼭질을 하는 걸 보니……",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "그만 나도 같이 놀고 싶어져서, 지금 일하는 중인 걸 까먹어버렸어……",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "다음에는 절대로 아무일 없을 거야! 미안해!！",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "아, 맞다! 내일은 비번인 날이지? 지휘관도 같이 숨바꼭질 할래? 맨날 일만 하면 건강에 안 좋다구.",
 			typewriter = {
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "U-556의 뛰어난 화제 전환 기술에 넘어간 나는, 잠수함들과 함께 숨바꼭질 대회에 참가하게 됐다.",
 			effects = {
 				{
@@ -134,13 +134,13 @@ return {
 			}
 		},
 		{
-			actor = 408010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "그러면 제비뽑기로 술래를 정할게~!",
 			bgm = "story-1",
+			actor = 408010,
+			nameColor = "#a9f548",
+			say = "그러면 제비뽑기로 술래를 정할게~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,8 +154,8 @@ return {
 			actor = 408040,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "하나~, 두울~",
 			subActors = {
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "후훗, 내가 술래네!",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "다 찾아낼 거야! 그럼, 60, 59……",
 			typewriter = {
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "자, 어디에 숨을까……",
 			typewriter = {
 				speed = 0.05,
@@ -259,14 +259,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "집무실로 돌아와 문을 닫았다. 아마 방 안에 숨을 때는 문을 잠가서는 안된다는 규칙이 있었지……?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -396,14 +396,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_105",
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
 			say = "…………바닷속……이라고!?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -557,9 +557,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -572,12 +572,12 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "……저기, 지휘관, 혹시 못 찾을 거라 생각한 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -604,13 +604,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
+			dir = 1,
 			say = "……그렇게 숨바꼭질 1회차는 종료되었다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -654,8 +654,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "다들 너무 찾기 어려운 곳에 숨었다니까!",
 			typewriter = {
@@ -668,8 +668,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -697,8 +697,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "하지만 왜 지휘관밖에 못 찾은 거야? 그것도 한 번에.",
 			typewriter = {
@@ -714,8 +714,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "……히히히. 이거 아무래도 두 사람, 최근 무슨 썸씽이라도 있는 거 아니야아~?",
 			typewriter = {

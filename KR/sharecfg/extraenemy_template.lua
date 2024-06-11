@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.extraenemy_template = {
 	{
-		mail_title = "world_boss_title_1",
 		name = "女仆据点",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 1,
 		background = "",
+		mail_title = "world_boss_title_1",
 		reward = {
 			8931
 		},
@@ -19,12 +19,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_1",
 		name = "埃塞克斯",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 2,
 		background = "",
+		mail_title = "world_boss_title_1",
 		reward = {
 			90631,
 			90632,
@@ -55,12 +55,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_4",
 		name = "骏河",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 3,
 		background = "",
+		mail_title = "world_boss_title_4",
 		reward = {
 			91770,
 			91771,
@@ -91,12 +91,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_5",
 		name = "黛朵",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 4,
 		background = "",
+		mail_title = "world_boss_title_5",
 		reward = {
 			92511,
 			92512,
@@ -127,12 +127,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_1",
 		name = "埃塞克斯",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 5,
 		background = "",
+		mail_title = "world_boss_title_1",
 		reward = {
 			93436,
 			93437,
@@ -163,12 +163,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_6",
 		name = "布里斯托尔",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 6,
 		background = "",
+		mail_title = "world_boss_title_6",
 		reward = {
 			96809,
 			96810,
@@ -199,12 +199,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_7",
 		name = "霞飞",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 7,
 		background = "",
+		mail_title = "world_boss_title_7",
 		reward = {
 			97648,
 			97649,
@@ -235,12 +235,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_8",
 		name = "阿尔比恩 ",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 8,
 		background = "",
+		mail_title = "world_boss_title_8",
 		reward = {
 			98343,
 			98344,
@@ -271,12 +271,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_9",
 		name = "古比雪夫",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 9,
 		background = "",
+		mail_title = "world_boss_title_9",
 		reward = {
 			99061,
 			99062,
@@ -307,12 +307,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_10",
 		name = "戈里齐亚",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 10,
 		background = "",
+		mail_title = "world_boss_title_10",
 		reward = {
 			900075,
 			900076,
@@ -343,12 +343,12 @@ pg.extraenemy_template = {
 		}
 	},
 	{
-		mail_title = "world_boss_title_11",
 		name = "寰昌",
 		hp = 10000,
 		mail_content = "world_boss_content_1",
 		id = 11,
 		background = "",
+		mail_title = "world_boss_title_11",
 		reward = {
 			901395,
 			901396,

@@ -5,7 +5,7 @@ slot0.ON_SELECT = "EquipmentSkinMediator:ON_SELECT"
 slot0.ON_PREVIEW = "EquipmentSkinMediator:ON_PREVIEW"
 slot0.ON_EQUIP_FORM_SHIP = "EquipmentSkinMediator:ON_EQUIP_FORM_SHIP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_EQUIP, function (slot0)
 		uv0:sendNotification(EquipmentMediator.NO_UPDATE)
 		uv0:sendNotification(GAME.EQUIP_EQUIPMENTSKIN_TO_SHIP, {
@@ -92,11 +92,11 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
 end

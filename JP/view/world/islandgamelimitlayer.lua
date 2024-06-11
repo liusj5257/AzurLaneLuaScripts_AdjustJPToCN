@@ -6,11 +6,11 @@ slot1 = "island_game_limit_help"
 slot2 = "island_game_limit_num"
 slot3 = "island_act_tips1"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IslandGameLimitUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot2 = ActivityConst.ISLAND_GAME_ID
 	slot0.itemConfig = Item.getConfigData(pg.activity_template[slot2].config_client.item_id)
 	slot0.num = getProxy(MiniGameProxy):GetHubByHubId(pg.activity_template[slot2].config_id).count or 0
@@ -21,7 +21,7 @@ function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.showWindow(slot0, slot1)
+slot0.showWindow = function(slot0, slot1)
 	if not slot0.allWindows[slot1] then
 		slot2 = LoadAndInstantiateSync("ui", slot1)
 
@@ -36,7 +36,7 @@ function slot0.showWindow(slot0, slot1)
 	end
 end
 
-function slot0.prepareWindow(slot0, slot1)
+slot0.prepareWindow = function(slot0, slot1)
 	onButton(slot0, findTF(slot1, "ad"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -54,7 +54,7 @@ function slot0.prepareWindow(slot0, slot1)
 	setText(findTF(slot1, "ad/clickClose"), i18n(uv2))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

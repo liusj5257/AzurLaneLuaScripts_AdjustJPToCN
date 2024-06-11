@@ -6,7 +6,7 @@ slot1 = {
 	16854
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.bg = slot0:findTF("AD")
@@ -30,7 +30,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.GetActTask(slot0)
+slot0.GetActTask = function(slot0)
 	slot2 = getProxy(TaskProxy)
 	slot3 = nil
 	slot4 = false

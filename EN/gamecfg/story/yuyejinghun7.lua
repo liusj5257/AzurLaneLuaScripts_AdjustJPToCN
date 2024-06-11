@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "Essex",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "......",
 			typewriter = {
@@ -155,11 +155,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_115",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "After a while, the creepy growling up and goes away.",
 			typewriter = {
@@ -167,17 +167,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -375,9 +375,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "???",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Goodness me~ Sorry for frightening you. The castle's power lines are quite old, and we frequently get outages when it rains.",
 			typewriter = {
@@ -390,9 +390,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "???",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "And it certainly doesn't look like the rain is letting up anytime soon... That aside, I take it you're the investigator my father hired?",
 			typewriter = {
@@ -417,9 +417,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "That I am. It sounds like he hasn't told you much of anything... Well, given the state our family is in...",
 			typewriter = {
@@ -456,9 +456,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Incidentally, I've heard that you're something of an expert on the occult, and have helped the police solve a few paranormal cases before.",
 			typewriter = {
@@ -467,11 +467,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "I've been reading a few books on the subject lately, and I'm quite hooked, actually~",
@@ -485,9 +485,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Would you mind telling me a bit about those cases~?",
 			typewriter = {
@@ -531,9 +531,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Obviously, you can't talk about cases you can't even remember, so you try to evade the subject. Roll a D100... 72. Yes, unfortunately, your attempt ends in failure.",
 			typewriter = {
@@ -546,9 +546,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There is no crack in Golden Hind's smile, yet the look in her eyes suggests a slight distaste.",
 			typewriter = {
@@ -561,10 +561,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Oh, you're asking about the disappearances, right?",
 			typewriter = {
@@ -573,13 +573,13 @@ return {
 			}
 		},
 		{
-			actorName = "Golden Hind",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "I know nothing about them~ You can't expect someone with so many servants to remember each one, right?",
 			typewriter = {
@@ -592,10 +592,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "I'd much rather talk about you, Investigator~",
 			typewriter = {
@@ -714,9 +714,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "As interesting as that was, I'd like something more substantial and detailed~",
 			typewriter = {
@@ -725,11 +725,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "You know, like a specific thing you saw on the scene, or a fact omitted from public records.",
@@ -743,9 +743,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Wait, I see now. Experts highly value their own research, so you can't share it with someone you don't think is sincere – is that it?",
 			typewriter = {
@@ -758,9 +758,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "Hai Tien",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Golden Hind shows a regretful smile, then produces a small sculpture without a word.",
 			typewriter = {
@@ -768,17 +768,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1024,11 +1024,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Do you have a problem with my sculpture, Investigator?",

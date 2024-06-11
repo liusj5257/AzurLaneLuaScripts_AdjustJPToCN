@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIGUANQIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "In a sea area close to Port...",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "In a sea area close to Port...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -256,17 +256,17 @@ return {
 			}
 		},
 		{
-			actor = 101170,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "... Is someone there...?",
 			bgm = "story-1",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "... Is someone there...?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -294,8 +294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Abfffft... *glug* *glug* Someone... help meeeeEEEE!! Anyone!! I'm, I'm drowningggg!!",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -353,8 +353,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "*gurgle* *gurgle* *blub* ... (Huh? Come to think of it, I'm an AI, so do I even need to breathe?)",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "SPLAAAAASHH~!!",
 			typewriter = {
 				speed = 0.05,
@@ -423,9 +423,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "In a blur, Laffey dove into the water and pulled out a mysterious figure clad in pink and white.",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Thank youuuuuuu! You saved my life~!",
 			typewriter = {
@@ -470,8 +470,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -483,8 +483,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Huh...? Laffey-chan?!",
 			typewriter = {
@@ -500,8 +500,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Ahh, I'm so happy! I never thought I'd get to meet the real Laffey-chan! *huuugs*",
 			typewriter = {
@@ -514,8 +514,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,8 +559,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Ehhhhh?! You're kidding!? We overcame so many hardships together! Did you forget?!",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -631,15 +631,15 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "Have you calmed down a bit?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -683,8 +683,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "I was just thinking about how much I wanted to meet all of you in person~!",
 			typewriter = {
@@ -713,12 +713,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "Talking about the \"fourth wall\" again...?",
 			side = 0,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Talking about the \"fourth wall\" again...?",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -893,11 +893,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900179,
+			nameColor = "#a9f548",
 			say = "Heh heh heh~ since you're all so curious, I'll have to show you for myself! Jakajakajaka~jan!",
 			typewriter = {
 				speed = 0.05,
@@ -909,8 +909,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.3,
 					x = 0,
@@ -922,8 +922,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Huh...? How strange, nothing happened at all... Let me try this again! Hiya! *slap!* Hiya! *bang!*",
 			typewriter = {
@@ -936,8 +936,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_ourdoor",
 			dir = 1,
 			say = "BOOOOMM~!! Pshhhhhhhh~!",
@@ -1047,11 +1047,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			dir = 1,
 			say = "--------BADOOOOM!!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1110,13 +1110,13 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ayanami! Are you all uninjured?",
 			bgm = "story-1",
+			actor = 303110,
+			nameColor = "#a9f548",
+			say = "Ayanami! Are you all uninjured?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1130,10 +1130,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "TA-KAO-CHWAAAAN~!! THANK YOUUUUUU~! *glomps*",
+			dir = 1,
+			actor = 900179,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1215,8 +1215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "HELPFUL CAT GODDESS!! TIMES OF NEED!! COME!!! ━━━━ლ(´ڡ`ლ)━━━━!!",
 			typewriter = {
@@ -1229,11 +1229,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Unya?! Don't hug me all of a sudden, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -1245,8 +1245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1255,15 +1255,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "We've hypothesized that this \"random word generator\" connects a multitude of worlds together, or so it seems.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1336,11 +1336,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Eh!? A Mirror Sea?! Inside that box?!",
 			typewriter = {
 				speed = 0.05,
@@ -1352,8 +1352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1365,8 +1365,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "What?! Isn't this like one of those light novels where I can't get home unless the bug gets fixed?",
 			typewriter = {
@@ -1395,11 +1395,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "You can project yourself inside just by thinking about it. Like this.",
 			typewriter = {
 				speed = 0.05,
@@ -1411,8 +1411,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -1484,12 +1484,12 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900179,
+			nameColor = "#a9f548",
 			say = "Mmhmm! Thanks, everyone. Let's set out then~! Hip, hip, hooray~!",
 			typewriter = {
 				speed = 0.05,
@@ -1501,8 +1501,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0

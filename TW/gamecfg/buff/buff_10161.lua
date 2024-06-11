@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 2000
+					restoreRatio = 2000,
+					number = 0.5
 				}
 			},
 			{
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 2330
+					restoreRatio = 2330,
+					number = 0.5
 				}
 			},
 			{
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 2660
+					restoreRatio = 2660,
+					number = 0.5
 				}
 			},
 			{
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 2990
+					restoreRatio = 2990,
+					number = 0.5
 				}
 			},
 			{
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 3320
+					restoreRatio = 3320,
+					number = 0.5
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 3650
+					restoreRatio = 3650,
+					number = 0.5
 				}
 			},
 			{
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 3980
+					restoreRatio = 3980,
+					number = 0.5
 				}
 			},
 			{
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 4310
+					restoreRatio = 4310,
+					number = 0.5
 				}
 			},
 			{
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 4640
+					restoreRatio = 4640,
+					number = 0.5
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					number = 0.5,
-					restoreRatio = 5000
+					restoreRatio = 5000,
+					number = 0.5
 				}
 			},
 			{
@@ -249,9 +249,9 @@ return {
 			}
 		}
 	},
-	time = 10,
 	name = "最强之盾",
 	init_effect = "jinengchufablue",
+	time = 10,
 	picture = "",
 	desc = "承受全体主力舰队受到的50%伤害",
 	stack = 1,
@@ -273,8 +273,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				number = 0.5,
-				restoreRatio = 2000
+				restoreRatio = 2000,
+				number = 0.5
 			}
 		},
 		{

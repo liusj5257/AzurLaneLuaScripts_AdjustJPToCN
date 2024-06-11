@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_354 = {}
 slot1 = slot0.word_template_354
 
-function temp()
+temp = function()
 	uv0["徒"] = {
 		["弟"] = {
 			["会"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["季"] = {
 		["三"] = {
 			["保"] = {
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["左"] = {
 		["坤"] = {
 			this = true
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["省"] = {
 		["权"] = {
 			["柄"] = {

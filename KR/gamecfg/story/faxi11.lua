@@ -1,17 +1,17 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI11",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "level-french2",
 			say = "카사블랑카, 툴롱… 비극은 지나갔습니다. 교국의 기사들은 신앙과 맹세를 지키기 위해 자기 희생을 택했습니다.",
+			dir = 1,
+			bgm = "level-french2",
 			effects = {
 				{
 					active = true,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "희생은 위대할지니, 자유는 위대할지니.",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "적이 사악한 거인 골리앗처럼, 검과 창의 폭력으로 엄습한다면,",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "성자 다윗처럼, 만군의 주, 위대하신 분의 이름을 받들어 대적할 뿐!",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "자유의 힘이 깨어나, ",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "성스러운 깃발 아래 정의가 모였으니,",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이 새로운 시대에서, 우리는 반드시 영광을 되찾아 보입시다!",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그 추기경으로부터 받은 이 '이름', 그리고 이 주홍빛 옷에 맹세코, 모든 국민에게 자유를!",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "'위대한 아버지와 성령의 가호가 있기를'",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "스스로 침몰했을 터인 비시아의 동포들까지 구한 지휘관에게 지고의 축복을 내립니다……",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -185,8 +185,8 @@ return {
 		{
 			actor = 801010,
 			side = 0,
-			dir = 1,
 			say = "추격전은 르 팡타스크급의 18번이죠. 빨리 지시를!",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

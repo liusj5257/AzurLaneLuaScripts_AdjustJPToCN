@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			bgm = "story-thehierophantV",
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "―――!!!!",
-			bgm = "story-thehierophantV",
 			flashN = {
 				color = {
 					1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "영향에서 벗어나 움직일 수 있게 된 함선들이 전력을 다해 '하이로펀트'에게 함포를 퍼붓고 있다.",
@@ -74,10 +74,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'하이로펀트'가 지휘관님을 향해 돌진하고 있습니다!",
 			painting = {
 				alpha = 0.3,
@@ -92,10 +92,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…어서 막아야 해요!!",
 			painting = {
 				alpha = 0.3,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "무수히 쏟아지는 포격이 무색하게 '하이로펀트'의 속도는 전혀 줄어들 기색이 없었다.",
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "시시각각 거리가 가까워지는 것이 눈에 보일 정도였다.",
@@ -151,10 +151,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "헬레나, 뭘 꾸물대고 있어!!",
 			painting = {
 				alpha = 0.3,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "'하이로펀트'가 홀장을 휘두르자, 다시 드론 사이로 빛의 그물이 만들어졌다.",
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "이번에는 피할 수 없겠다고, 머릿속으로 최악의 결말을 떠올린 그 순간.",
@@ -234,13 +234,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_underheaven_cg10",
+			stopbgm = true,
+			dialogueBgAlpha = 0.6,
+			bgm = "theme-thetowerXVI",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
-			bgm = "theme-thetowerXVI",
-			stopbgm = true,
 			hidePaintObj = true,
 			say = "―――!!!!",
 			flashN = {
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -330,8 +330,8 @@ return {
 			expression = 2,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			bgName = "star_level_bg_504",
 			actor = 9702010,
 			nameColor = "#ffa500",
@@ -346,8 +346,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -700,10 +700,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			actor = 605010,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
+			hidePaintObj = true,
 			say = "저 거대한 의장에 공격을 빗맞힐 염려도 없고 말이죠.",
 			typewriter = {
 				speed = 0.05,
@@ -714,10 +714,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			actor = 605010,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
+			hidePaintObj = true,
 			say = "공격이 어디까지 통할지는 잘 모르겠지만요…",
 			typewriter = {
 				speed = 0.05,
@@ -744,8 +744,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -756,8 +756,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -780,8 +780,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -792,8 +792,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -804,8 +804,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -816,14 +816,14 @@ return {
 			}
 		},
 		{
-			actor = 900357,
 			nameColor = "#BDBDBD",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
 			side = 2,
-			say = "\"▅■분리▆▅\"",
+			bgName = "star_level_bg_504",
 			bgm = "theme-threat-typeV",
+			actor = 900357,
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "\"▅■분리▆▅\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,8 +836,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -883,8 +883,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "속도를 높이기 위해서인지, '하이로펀트'의 몸체가 공중에서 급속도로 가속했다.",
@@ -909,8 +909,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "동료들이 반응하기도 전에 전광석화와도 같은 기세로 이쪽 상공에 도착한 그녀를 막을 수 있는 것은 이제 아무것도 없다.",
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "갑판에 있는 시나노를 제외하고는 말이다.",
@@ -934,11 +934,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			soundeffect = "event:/ui/fengling",
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "……어딜!",
-			soundeffect = "event:/ui/fengling",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,15 +949,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			say = "몰아치는 폭풍… 그리고 희미한 풍경 소리…",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -970,12 +970,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "―――!!!!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1039,8 +1039,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "내 공격이…… 명중한 건가…?!",
 			painting = {
@@ -1053,8 +1053,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "얼마 전 꾼 꿈과는 다르게, 풍경 소리가 아직도 귓가에서 계속 울리고 있다.",
@@ -1064,8 +1064,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "이쪽으로 돌진하던 '하이로펀트'의 몸체는 기총의 공격을 받고 움직임을 멈췄다.",
@@ -1078,8 +1078,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "먹힌 모양이군…… 그렇다면……!",
 			painting = {
@@ -1107,8 +1107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "'하이로펀트'가 둘로…?! 지휘관…!!",
 			painting = {
@@ -1121,8 +1121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "마치 그림자가 빠져나간 것처럼, '하이로펀트'의 몸에서 또 다른 '하이로펀트'가 나타났다.",
@@ -1132,8 +1132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "유령처럼 벽을 뚫은 '하이로펀트'는 순식간에 내 코앞까지 접근했다.",
@@ -1145,8 +1145,8 @@ return {
 		{
 			actor = 900357,
 			side = 2,
-			nameColor = "#BDBDBD",
 			hidePaintObj = true,
+			nameColor = "#BDBDBD",
 			blackBg = true,
 			say = "\"▅■분신▆▅\"",
 			typewriter = {
@@ -1154,8 +1154,8 @@ return {
 				speedUp = 0.01
 			},
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -1175,8 +1175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "맹렬한 부유감과 함께 의식이 어둠 속으로 가라앉았다.",

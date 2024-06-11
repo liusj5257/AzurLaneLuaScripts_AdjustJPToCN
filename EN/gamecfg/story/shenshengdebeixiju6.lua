@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU6",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU6",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-italy",
 			say = "The following day - Prior to Sardegna's plan",
+			side = 2,
+			dir = 1,
+			bgm = "battle-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 900197,
 			dir = 1,
+			actor = 900197,
 			say = "Zara... I kind of get what she's trying to say, but what a strange person...",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "Yeah, I can manage. Maybe those Royal Navy folks are just wired differently. Let's just act like we totally understand so she won't laugh at us like we're country bumpkins.",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 2,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Right...",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			actor = 601020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "I'm level 10! Please allow me to search for them!",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Psst, Zara... Do you think Carabiniere can actually communicate with her?",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Who knows?",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ffde38",
-			dir = 1,
 			say = "Just pretend not to hear them...",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

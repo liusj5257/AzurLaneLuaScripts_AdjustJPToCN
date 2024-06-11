@@ -1,6 +1,6 @@
 slot0 = class("RawData2ThemeConvertor")
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	if slot2 then
 		return slot0
 	elseif pg.furniture_data_template[slot0] then
@@ -18,7 +18,7 @@ function slot1(slot0, slot1, slot2)
 	end
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	slot2 = (slot0.shipId or 0) == 1
 	slot3 = {}
 	slot4 = ipairs
@@ -39,7 +39,7 @@ function slot2(slot0, slot1)
 	})
 end
 
-function slot3(slot0, slot1, slot2)
+slot3 = function(slot0, slot1, slot2)
 	assert(pg.furniture_data_template[slot1], slot1)
 
 	slot4 = (pg.furniture_data_template[slot1] or {}).count or 0
@@ -67,7 +67,7 @@ function slot3(slot0, slot1, slot2)
 	return false
 end
 
-function slot4(slot0, slot1, slot2, slot3, slot4)
+slot4 = function(slot0, slot1, slot2, slot3, slot4)
 	for slot8, slot9 in ipairs(slot0) do
 		if uv0(slot9.parent, slot2, slot9.isNewStyle) and slot9:SameChildPosition(slot3, slot4) and uv0(slot1, slot9.configId, slot9.isNewStyle) then
 			return slot9
@@ -75,7 +75,7 @@ function slot4(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot5(slot0, slot1, slot2, slot3, slot4)
+slot5 = function(slot0, slot1, slot2, slot3, slot4)
 	for slot8, slot9 in ipairs(slot0) do
 		if uv0(slot9.parent, slot2, slot9.isNewStyle) and slot9:SameChildPosition(slot3, slot4) and uv0(slot1, slot9.configId, true) then
 			return slot9
@@ -83,7 +83,7 @@ function slot5(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.GenFurnitures(slot0, slot1)
+slot0.GenFurnitures = function(slot0, slot1)
 	slot2 = slot1.floor
 	slot3 = slot1.mapSize
 	slot4 = slot1.skipCheck
@@ -107,7 +107,7 @@ function slot0.GenFurnitures(slot0, slot1)
 		end
 	end
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		slot1 = {}
 
 		for slot5, slot6 in pairs(slot0:GetChildList()) do
@@ -156,7 +156,7 @@ function slot0.GenFurnitures(slot0, slot1)
 		end
 	end
 
-	function slot9(slot0, slot1, slot2)
+	slot9 = function(slot0, slot1, slot2)
 		for slot6, slot7 in ipairs(slot0) do
 			if slot7.id == slot1 then
 				slot7:SetParent(slot2)
@@ -187,7 +187,7 @@ function slot0.GenFurnitures(slot0, slot1)
 	return slot10
 end
 
-function slot0.CheckFurnitures(slot0, slot1, slot2)
+slot0.CheckFurnitures = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot1) do
@@ -209,7 +209,7 @@ function slot0.CheckFurnitures(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CollectionClearIdList(slot0, slot1, slot2, slot3)
+slot0.CollectionClearIdList = function(slot0, slot1, slot2, slot3)
 	if slot2:AnyChild() then
 		for slot7, slot8 in ipairs(slot2:GetChildIdList()) do
 			CollectionClearIdList(slot1, slot3[slot8], slot3)

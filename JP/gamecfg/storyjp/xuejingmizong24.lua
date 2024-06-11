@@ -4,29 +4,29 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "theme-merkuriameta",
 			side = 2,
 			bgName = "bg_xuejing_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――――！！",
 			soundeffect = "event:/battle/boom2",
+			bgm = "theme-merkuriameta",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――――！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			say = "爆発とともに、ドロイドがまた一体消滅した。",
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			say = "戦闘開始から30分。戦況はすでに味方が圧倒的に有利に進んでいる。",
@@ -98,8 +98,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 701110,
 			dir = 1,
+			actor = 701110,
 			nameColor = "#A9F548FF",
 			say = "「パーミャチ・メルクーリヤ」のニセモノ、結構弱いです！",
 			painting = {
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 701110,
 			dir = 1,
+			actor = 701110,
 			nameColor = "#A9F548FF",
 			say = "オグネヴォイたちの火力に手も足も出ないみたいですね！",
 			painting = {
@@ -132,8 +132,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 701120,
 			dir = 1,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			say = "この大人数で囲んで叩いているからな！指揮官の戦術指揮とわたしの大活躍のおかげでもあるけど！",
 			painting = {
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 701110,
 			dir = 1,
+			actor = 701110,
 			nameColor = "#A9F548FF",
 			say = "え！でも敵の親玉なんですよね！こんなに弱くていいんですか？",
 			painting = {
@@ -165,9 +165,9 @@ return {
 		{
 			actor = 701120,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "まあ、たしかに世界博覧会で飛んでたやつと比べればちょっとインパクトがないかもしれないけど…",
 			painting = {
 				alpha = 0.3,
@@ -182,8 +182,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 701110,
 			dir = 1,
+			actor = 701110,
 			nameColor = "#A9F548FF",
 			say = "あの時は審判廷の矢でブスりと倒されましたしねー！",
 			painting = {
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 701110,
 			dir = 1,
+			actor = 701110,
 			nameColor = "#A9F548FF",
 			say = "……やっぱり今回のはインパクトがないですね",
 			painting = {
@@ -215,9 +215,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "（ドロイドを盾にするのはともかく、あの「META」自身はダメージをものともしていません）",
 			painting = {
 				alpha = 0.3,
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "（普通に考えれば自滅でしかありませんが…この戦い方、クロンシュタットの報告書で見た覚えがあります）",
 			painting = {
@@ -249,8 +249,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "（自らの損傷を顧みず、むしろそうさせることで精神を蝕む「ボノム・リシャール」と名乗る存在――）",
 			painting = {
@@ -265,9 +265,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "（まさか、今回も……）",
 			painting = {
 				alpha = 0.3,
@@ -281,9 +281,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "「パーミャチ・メルクーリヤ」…なぜそこまで執念に突き動かされているのですか？",
 			painting = {
 				alpha = 0.3,
@@ -298,8 +298,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "過去を振り返るのもいい。思い出に浸るのもいい。なぜ今を、未来を塗り替えようとしているのですか？",
 			painting = {
@@ -314,9 +314,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "どんな辛い戦いを経験したとしても、少なくともあなたは生き延びました",
 			painting = {
 				alpha = 0.3,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "でしたら散っていった仲間たちの思いと希望を背負って、生き続け、戦い続けるべきだと思います",
 			painting = {
@@ -347,9 +347,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "仲間たちはあなたの今の姿を望んでいるのですか？",
 			painting = {
 				alpha = 0.3,
@@ -364,8 +364,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "あなたは仲間たちを…いいえ、あなた自身の過去を踏みにじっているに過ぎません",
 			painting = {
@@ -381,8 +381,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "はははは！執念？クーちゃんが執念に突き動かされるように見える？",
 			painting = {
@@ -398,8 +398,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "ちがーう！わたしがこうしているのは、散っていった仲間たちがこう望んでいるから！",
 			painting = {
@@ -415,8 +415,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "あははは、あはははははは♪",
 			painting = {
@@ -432,8 +432,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "――――――――――！！！！",
 			painting = {
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			say = "通信機から少女の声とは思えぬ「何か」の声が鳴り響く。",
 			typewriter = {
@@ -465,17 +465,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -486,8 +486,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 701110,
 			dir = 1,
+			actor = 701110,
 			nameColor = "#A9F548FF",
 			say = "はわわわわわ…声が…声が耳元に響いているようですー！",
 			painting = {
@@ -503,8 +503,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 701120,
 			dir = 1,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			say = "なんだか寒くなってきてない？！なってるよね…？",
 			painting = {
@@ -520,8 +520,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705080,
 			dir = 1,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			say = "鎖（ツェーピ）に結露が…ソユーズ、向こうの損傷が回復しているみたいよ！",
 			painting = {
@@ -537,8 +537,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "そうはさせません…！",
 			painting = {
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
-			say = "――――！！",
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			say = "憑き物に動かされている少女に、ソユーズが砲撃を放った。",
 			typewriter = {
@@ -611,8 +611,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			say = "しかし放たれた砲弾はまるで引き寄せられるかのように、途中で海に落ち――",
 			typewriter = {
@@ -621,8 +621,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			say = "落下地点を中心に海面が急速に凍りつき始めた。",
 			typewriter = {
@@ -631,8 +631,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_3",
 			say = "あまりにも早い海面凍結に、艦船たちは次々と動きを封じられた。",
 			typewriter = {
@@ -643,9 +643,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "……これが目的だったのですね",
 			painting = {
 				alpha = 0.3,
@@ -660,8 +660,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "最初からこうするつもりで、自ら攻撃されようとしていたんですね…",
 			painting = {
@@ -677,8 +677,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あはは、こうでもしないと「本質」への接続が果たせないもの",
 			painting = {
@@ -694,8 +694,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "それが果たされれば、わたしは本当の過去を知ることができるわ",
 			painting = {
@@ -711,8 +711,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "おっ。これよこれ！「戦線」のこと、昔アイツからちょっとだけ分けてもらっただけだけど",
 			painting = {
@@ -727,9 +727,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "今はまるで……あの場所にいたように感じるわ",
 			painting = {
 				alpha = 0.3,
@@ -744,8 +744,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あははは…カケラから見えるわ……なるほどなるほど～",
 			painting = {
@@ -761,8 +761,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あのシェルターってただの終末バンカーじゃなかったんだ～",
 			painting = {
@@ -778,8 +778,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "「戦線」から回収した資料を復元して作った装置も中に……でしょ？",
 			painting = {
@@ -795,8 +795,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "そうでないとあの場所にあるわけないもの～。ね？ソユーズ？",
 			painting = {
@@ -811,9 +811,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -828,8 +828,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あははは、本当に笑っちゃう！",
 			painting = {
@@ -842,8 +842,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -855,8 +855,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "クーちゃんが執念に突き動かされてると言う割に、あんたもなかなかやるじゃない！",
 			painting = {
@@ -872,8 +872,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "「曙光」…「曙光計画」こそいっちばん大きい執念よ！",
 			painting = {
@@ -889,8 +889,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あれを「希望」だと思ったら大間違いよ！…「曙光計画」こそが破滅への急行便なんだから！",
 			painting = {
@@ -906,8 +906,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "それも～、近づいただけで不幸になるやつ！",
 			painting = {
@@ -923,8 +923,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "クーちゃんが色々教えたげる？この計画に関わった人は最後どうなったと思う？",
 			painting = {
@@ -937,8 +937,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -950,8 +950,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "興味がなくても教えちゃうけど♪",
 			painting = {
@@ -966,9 +966,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "計画の立案者は～実験装置の検証時に連れていた艦隊と一緒にまるごと行方不明！",
 			painting = {
 				alpha = 0.3,
@@ -983,8 +983,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "それで計画は凍結して、別の計画の付属品にされちゃった！",
 			painting = {
@@ -1000,8 +1000,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "んで、その計画が起動した時――全ての艦隊、そして最後の海軍上将（アドミラル）は全員犠牲になっちゃったの！一人残らずね！",
 			painting = {
@@ -1014,8 +1014,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1027,8 +1027,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "「最後の光がかき消されるまで、頑張って戦って」",
 			painting = {
@@ -1044,8 +1044,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "だから生き伸びるチャンスを他のヒトに譲ってまで、みんな死ぬまで戦ったわ！",
 			painting = {
@@ -1061,8 +1061,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "これが「曙光計画」よ！これが伝承された「執念」なの！",
 			painting = {
@@ -1078,8 +1078,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あんたたちももしかしてこれをやりたいの？",
 			painting = {
@@ -1094,9 +1094,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "勝手に自己犠牲して、生き残った者に全てを背負わせて",
 			painting = {
 				alpha = 0.3,
@@ -1111,8 +1111,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "アンチエックスのように、「余燼」のように……散った者の願望を乗せられて永遠に苦しみ続けるように！",
 			painting = {
@@ -1128,8 +1128,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あいつらは今どうなってる？知ってるでしょ？",
 			painting = {
@@ -1142,8 +1142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1154,9 +1154,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "こんな悲劇しか生み出せない繰り返しはとっくに止めるべきよ！",
 			painting = {
 				alpha = 0.3,
@@ -1171,8 +1171,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "もし逃げれる道が与えられても、逃げちゃダメって道理はないでしょ？",
 			painting = {
@@ -1188,8 +1188,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "あなたがそれを選んだのでしたらそれもいいでしょう。ですが…",
 			painting = {
@@ -1204,9 +1204,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "今のあなたを見てると、やはり私はそれは選べません",
 			painting = {
 				alpha = 0.3,
@@ -1221,8 +1221,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "セイレーンに支配される運命から逃れるために、別のセイレーンに支配される運命に逃げ込んでは、何も変わりません――",
 			painting = {
@@ -1238,8 +1238,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あははは、違うよソユーズ！アンチエックスだって違いがあるわ",
 			painting = {
@@ -1254,9 +1254,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "ほら、わたしたちだって「ヒトはみんな同じ」なんて言わないでしょ？アンチエックスも同じよ？",
 			painting = {
 				alpha = 0.3,
@@ -1271,8 +1271,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "バカで命令に従うことしか知らない下層端末はもちろん倒すわ。でもアビータは違うの",
 			painting = {
@@ -1288,8 +1288,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "アビータたちはとにかく面白くて…特に「アイツ」はすごく面白いの！",
 			painting = {
@@ -1304,9 +1304,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "クーちゃんはね、別にアビータの手下でもなくて、あくまで協力関係ってだけ",
 			painting = {
 				alpha = 0.3,
@@ -1321,8 +1321,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "お互い認め合っていて、「答え」を一緒に探してるわけ！",
 			painting = {
@@ -1338,8 +1338,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "その答えが「逃げる」ということですか？",
 			painting = {
@@ -1355,8 +1355,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "進んで自殺することよりは何倍もマシ！",
 			painting = {
@@ -1372,8 +1372,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "私たちは自殺するつもりも、滅びの道を歩むつもりもありません",
 			painting = {
@@ -1388,9 +1388,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "未知の海を探索し、未来の航路を拓く――これこそがヒトの尊き精神であり、ヒトがここまで進化してきた理由です",
 			painting = {
 				alpha = 0.3,
@@ -1405,8 +1405,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "たとえ座礁したり、嵐に飲み込まれたりしても、その苦い経験も教訓として後のヒトの糧になります",
 			painting = {
@@ -1421,9 +1421,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "「曙光計画」はたしかに失敗したのかもしれません。ですが私たちは学ぶことができます",
 			painting = {
 				alpha = 0.3,
@@ -1438,8 +1438,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "計画を改善し、誤ちを繰り返さないように用心して実行する――",
 			painting = {
@@ -1455,8 +1455,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "失敗して屍になろうとも、いつか乗り越えるヒトが現れると信じて頑張り続ければ……",
 			painting = {
@@ -1472,8 +1472,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "減らず口を……",
 			painting = {
@@ -1489,8 +1489,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "運命も、未来も、輪廻はいつか終わりがくるわ",
 			painting = {
@@ -1506,8 +1506,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "あんたたちの未来はもう決定されたわ。わたしはそれを見たの",
 			painting = {
@@ -1523,8 +1523,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "その未来にはいいものはちっとも、これぽっちも、微塵もない！",
 			painting = {
@@ -1540,8 +1540,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#C3ABFF",
 			say = "素晴らしい日々が存在するのは過去にだけ！",
 			painting = {
@@ -1554,8 +1554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1567,8 +1567,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "いいえ、私たちの選択、私たちの未来は私たち自身が決めます",
 			painting = {
@@ -1581,11 +1581,11 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 705020,
+			nameColor = "#A9F548FF",
 			say = "あなたに決める資格などありません！",
 			painting = {
 				alpha = 0.3,
@@ -1602,27 +1602,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
-			say = "耳障りな笑い声を遮ろうと、仲間たちに声をかけようとした瞬間――",
 			bgm = "story-darkplan",
+			say = "耳障りな笑い声を遮ろうと、仲間たちに声をかけようとした瞬間――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1655,8 +1655,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "……パーミャチが言ってたのは彼女が見た記憶、つまり「現実」の一つに過ぎない",
 			painting = {
@@ -1671,9 +1671,9 @@ return {
 		{
 			actor = 9702010,
 			side = 2,
-			bgName = "bg_port_chongdong",
 			nameColor = "#FFC960",
 			dir = 1,
+			bgName = "bg_port_chongdong",
 			say = "「現実」は必ずしも「真実」とは限らないの",
 			painting = {
 				alpha = 0.3,
@@ -1688,8 +1688,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "私に言えるのは、「信じて疑わない現実は真実へと変わる」ってことだけよ",
 			painting = {
@@ -1716,8 +1716,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "今は深く考えないほうがいいわ。まだ戦いは終わってないから",
 			painting = {
@@ -1733,8 +1733,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "精神干渉防御を張った以上、あの「声」に影響されることはないはずよ",
 			painting = {
@@ -1771,9 +1771,9 @@ return {
 		{
 			actor = 9702010,
 			side = 2,
-			bgName = "bg_port_chongdong",
 			nameColor = "#FFC960",
 			dir = 1,
+			bgName = "bg_port_chongdong",
 			say = "……そう。たしかに「塔」の力を使えば海を一瞬で凍らせることもできるけど",
 			painting = {
 				alpha = 0.3,
@@ -1788,8 +1788,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "パーミャチがやったのはあくまで表面を凍らせただけよ",
 			painting = {
@@ -1805,8 +1805,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "つまりただの手品、恐れる必要はなにもない",
 			painting = {
@@ -1822,8 +1822,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "あの子は元々、みんなが思っているほど強くはないもの",
 			painting = {
@@ -1839,8 +1839,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "………指揮官が持っている戦力なら勝利は間違いなしよ",
 			painting = {
@@ -1856,8 +1856,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
 			say = "さあ、引き続き戦闘指揮をお願い",
 			painting = {

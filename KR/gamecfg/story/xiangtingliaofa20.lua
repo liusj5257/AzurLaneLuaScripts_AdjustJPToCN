@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA20",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-6",
 			say = "버뮤다 삼각·제3함대 교전 구역",
+			side = 2,
+			dir = 1,
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "단순히 숫자로만 보면 우리는 이번 전투에서 압도적으로 열세입니다",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "엔터프라이즈 선배님이 계신 양동 방향은 대체 어떤 상황일지…",
 			typewriter = {
 				speed = 0.05,
@@ -115,9 +115,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "자, 잠깐만! 갑자기 뭘 적는 건가!",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "신경 쓸 필요 없어요, 형식적인 항해 기록이니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -157,9 +157,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "\"설령 적군의 엄중한 포위 속에서도, 에식스의 마음속에서는 여전히 엔터프라이즈 선배의 안전을 염려하고 있다\"…?!!",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "크윽…..!",
 			typewriter = {
 				speed = 0.05,
@@ -199,9 +199,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "우, 우리쪽 요격 전술도 신중하게 준비해야지!",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "알겠어요, 나중에 에식스가 활약하는 자태도 잘 기록해줄 테니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "세이렌에게 자유의 무게를 알게 해줘야지요!",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "이 점을, 세이렌이 친히 깨닫게 해주겠어!",
 			typewriter = {
 				speed = 0.05,

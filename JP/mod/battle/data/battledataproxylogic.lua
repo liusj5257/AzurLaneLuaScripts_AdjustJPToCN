@@ -7,30 +7,30 @@ slot5 = ys.Battle.BattleDataFunction
 slot6 = ys.Battle.BattleAttr
 slot7 = ys.Battle.BattleVariable
 
-function slot0.SetupCalculateDamage(slot0, slot1)
+slot0.SetupCalculateDamage = function(slot0, slot1)
 	slot0._calculateDamage = slot1 or uv0.CreateContextCalculateDamage()
 end
 
-function slot0.SetupDamageKamikazeAir(slot0, slot1)
+slot0.SetupDamageKamikazeAir = function(slot0, slot1)
 	slot0._calculateDamageKamikazeAir = slot1 or uv0.CalculateDamageFromAircraftToMainShip
 end
 
-function slot0.SetupDamageKamikazeShip(slot0, slot1)
+slot0.SetupDamageKamikazeShip = function(slot0, slot1)
 	slot0._calculateDamageKamikazeShip = slot1 or uv0.CalculateDamageFromShipToMainShip
 end
 
-function slot0.SetupDamageCrush(slot0, slot1)
+slot0.SetupDamageCrush = function(slot0, slot1)
 	slot0._calculateDamageCrush = slot1 or uv0.CalculateCrashDamage
 end
 
-function slot0.ClearFormulas(slot0)
+slot0.ClearFormulas = function(slot0)
 	slot0._calculateDamage = nil
 	slot0._calculateDamageKamikazeAir = nil
 	slot0._calculateDamageKamikazeShip = nil
 	slot0._calculateDamageCrush = nil
 end
 
-function slot0.HandleBulletHit(slot0, slot1, slot2)
+slot0.HandleBulletHit = function(slot0, slot1, slot2)
 	if not slot2 then
 		assert(false, "HandleBulletHit, but no vehicleData")
 
@@ -63,7 +63,7 @@ function slot0.HandleBulletHit(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
+slot0.HandleDamage = function(slot0, slot1, slot2, slot3, slot4)
 	if slot2:GetIFF() == uv0.FOE_CODE and slot2:IsShowHPBar() then
 		slot0:DispatchEvent(ys.Event.New(uv1.HIT_ENEMY, slot2))
 	end
@@ -153,7 +153,7 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 	return slot14, slot15
 end
 
-function slot0.HandleMeteoDamage(slot0, slot1, slot2)
+slot0.HandleMeteoDamage = function(slot0, slot1, slot2)
 	slot3 = uv0.GetMeteoDamageRatio(#slot2)
 
 	for slot7, slot8 in ipairs(slot2) do
@@ -161,36 +161,43 @@ function slot0.HandleMeteoDamage(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleDirectDamage(slot0, slot1, slot2, slot3, slot4)
-	slot6 = slot1:GetAttrByName("id")
-	slot7 = slot1:UpdateHP(slot2 * -1, {
+slot0.HandleDirectDamage = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = nil
+
+	if slot3 then
+		slot5 = slot3:GetAttrByName("id")
+	end
+
+	slot7 = slot1:GetAttrByName("id")
+	slot8 = slot1:UpdateHP(slot2 * -1, {
 		isMiss = false,
 		isCri = false,
 		isHeal = false,
-		damageReason = slot4
+		damageReason = slot4,
+		srcID = slot5
 	})
-	slot8 = slot1:IsAlive()
+	slot9 = slot1:IsAlive()
 
 	if slot3 then
-		slot0:DamageStatistics(slot3:GetAttrByName("id"), slot6, -slot7)
+		slot0:DamageStatistics(slot5, slot7, -slot8)
 
-		if not slot8 then
-			slot0:KillCountStatistics(slot9, slot6)
+		if not slot9 then
+			slot0:KillCountStatistics(slot5, slot7)
 		end
 	end
 
-	if not slot8 then
-		slot10 = true
+	if not slot9 then
+		slot11 = true
 
-		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot9 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot9 ~= uv0.UnitType.FUNNEL_UNIT and slot9 ~= uv0.UnitType.UAV_UNIT then
-			slot10 = false
+		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot10 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot10 ~= uv0.UnitType.FUNNEL_UNIT and slot10 ~= uv0.UnitType.UAV_UNIT then
+			slot11 = false
 		end
 
-		slot0:obituary(slot1, slot10, slot3)
+		slot0:obituary(slot1, slot11, slot3)
 	end
 end
 
-function slot0.obituary(slot0, slot1, slot2, slot3)
+slot0.obituary = function(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in pairs(slot0._unitList) do
 		if slot8 ~= slot1 then
 			if slot8:GetIFF() == slot1:GetIFF() then
@@ -220,7 +227,7 @@ function slot0.obituary(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.HandleAircraftMissDamage(slot0, slot1, slot2)
+slot0.HandleAircraftMissDamage = function(slot0, slot1, slot2)
 	if slot2 == nil then
 		return
 	end
@@ -241,7 +248,7 @@ function slot0.HandleAircraftMissDamage(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleShipMissDamage(slot0, slot1, slot2)
+slot0.HandleShipMissDamage = function(slot0, slot1, slot2)
 	if slot2 == nil then
 		return
 	end
@@ -272,14 +279,14 @@ function slot0.HandleShipMissDamage(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleCrashDamage(slot0, slot1, slot2)
+slot0.HandleCrashDamage = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0._calculateDamageCrush(slot1, slot2)
 
 	slot0:HandleDirectDamage(slot1, slot3, slot2, uv0.UnitDeathReason.CRUSH)
 	slot0:HandleDirectDamage(slot2, slot4, slot1, uv0.UnitDeathReason.CRUSH)
 end
 
-function slot0.HandleBuffPlacer(slot0, slot1, slot2)
+slot0.HandleBuffPlacer = function(slot0, slot1, slot2)
 	slot5 = false
 
 	if uv0.GetBuffTemplate(slot0.buff_id).effect_list[1].type == "BattleBuffDOT" then
@@ -298,7 +305,7 @@ function slot0.HandleBuffPlacer(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleDOTPlace(slot0, slot1, slot2)
+slot0.HandleDOTPlace = function(slot0, slot1, slot2)
 	slot3 = slot0.arg_list
 	slot4 = uv0.DOT_CONFIG[slot3.dotType]
 	slot5 = slot1:GetAttrByName(slot4.hit)
@@ -310,7 +317,7 @@ function slot0.HandleDOTPlace(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.HandleShipCrashDamageList(slot0, slot1, slot2)
+slot0.HandleShipCrashDamageList = function(slot0, slot1, slot2)
 	for slot7, slot8 in pairs(slot1:GetHostileCldList()) do
 		if not table.contains(slot2, slot7) then
 			slot1:RemoveHostileCld(slot7)
@@ -321,7 +328,7 @@ function slot0.HandleShipCrashDamageList(slot0, slot1, slot2)
 		if slot3[slot8] == nil then
 			slot9 = nil
 
-			function slot9()
+			slot9 = function()
 				uv0:HandleCrashDamage(uv0._unitList[uv1], uv2)
 			end
 
@@ -335,7 +342,7 @@ function slot0.HandleShipCrashDamageList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleShipCrashDecelerate(slot0, slot1, slot2)
+slot0.HandleShipCrashDecelerate = function(slot0, slot1, slot2)
 	if slot2 == 0 and slot1:IsCrash() then
 		slot1:SetCrash(false)
 	elseif slot2 > 0 and not slot1:IsCrash() then
@@ -343,15 +350,15 @@ function slot0.HandleShipCrashDecelerate(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleWallHitByBullet(slot0, slot1, slot2)
+slot0.HandleWallHitByBullet = function(slot0, slot1, slot2)
 	return slot1:GetCldFunc()(slot2)
 end
 
-function slot0.HandleWallHitByShip(slot0, slot1, slot2)
+slot0.HandleWallHitByShip = function(slot0, slot1, slot2)
 	slot1:GetCldFunc()(slot2)
 end
 
-function slot0.HandleWallDamage(slot0, slot1, slot2)
+slot0.HandleWallDamage = function(slot0, slot1, slot2)
 	if slot2:GetIFF() == uv0.FOE_CODE and slot2:IsShowHPBar() then
 		slot0:DispatchEvent(ys.Event.New(uv1.HIT_ENEMY, slot2))
 	end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"妹の成長期？！\n\n<size=45>五 妹の決意</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "艦隊の仕事が一旦落ち着き、ようやく一息つけるようになった頃。",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ヴィンセンスを構ってあげられなかった分を穴埋めしていこう――",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今日のヴィンセンスはいつもと少し違う。まずは話を聞いてみよう。",
 			typewriter = {
 				speed = 0.05,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "指揮官……どうしたら、秘書艦って、どうすれば上手くやれる？",
 			typewriter = {
 				speed = 0.05,
@@ -174,11 +174,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "ヴィンセンスは今までに見たことのない真剣な表情を見せた",
 			typewriter = {
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "ふと、ちょっと過保護な姉たちのことを思い出す。",
 			typewriter = {
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "そもそも、最初からヴィンセンスもインディアナポリスもこの母港では戦力としてそれぞれの立ち位置があるはず。",
 			typewriter = {
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "ヴィンセンスが今以上に有能になっても、彼女たちがヴィンセンスの面倒を見ることには変わりないはずだ。",
 			typewriter = {
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "お勉強……？分かった！おー！",
 			typewriter = {
 				speed = 0.05,

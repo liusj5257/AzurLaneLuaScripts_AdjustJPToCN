@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"동생의 변화\n\n<size=45>1. 동생의 우울</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·이글 유니온 기숙사",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·이글 유니온 기숙사",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "다시 한 번 빈센스의 초대를 받아 기숙사에 들렀다.",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			say = "왜 아스토리아 언니도 이렇게 된 거야……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "왜 아스토리아 언니도 이렇게 된 거야……",
+			actor = 103100,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "빈센스는 어쩔 수 없다는 듯이 아스토리아가 먹여주는 케이크를 받아 먹었다.",
 			typewriter = {
 				speed = 0.05,
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "지휘관, Help me…",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "아스토리아가 빈센스를 보고 짓는 웃음은…… 행복의 웃음?",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "아스토리아의 캐릭터가 조금 변한 느낌인데……?",
 			typewriter = {
 				speed = 0.05,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "아스토리아는 말을 하면서 빈센스를 품에 꼭 안았다.",
 			typewriter = {
 				speed = 0.05,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "약간, 아스토리아도 포틀랜드처럼 변할 가능성이 보이는데……？",
 			typewriter = {
 				speed = 0.05,

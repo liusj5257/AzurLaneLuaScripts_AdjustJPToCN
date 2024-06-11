@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUANGJINDEMIBAO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUANGJINDEMIBAO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"황금의 보물\n\n<size=45>황금의 보물·상편</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날?·항구",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날?·항구",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "푸링~♪ 오늘도 전력을 다해서! 푸링푸링~♪",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "이... 이건!?",
 			dialogShake = {
 				speed = 0.09,
@@ -130,15 +130,15 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "푸링? 황금!? 언니처럼 금빛으로 반짝이는 색!?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -211,12 +211,12 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "좋아! 내가 전설 속의 보물을 푸링해주겠어! 푸링!",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

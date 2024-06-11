@@ -52,7 +52,7 @@ slot0.REPORT_TYPE_BOSS = 2
 slot0.BASE_EVENT_TYPE_COMMON = 1
 slot0.BASE_EVENT_TYPE_ELITE = 2
 
-function slot0.MAX_REPORT_CNT()
+slot0.MAX_REPORT_CNT = function()
 	return pg.guildset.operation_report_max.key_value
 end
 
@@ -64,7 +64,7 @@ slot0.MISSION_MAX_FLEET_CNT = 4
 slot0.RECOMMAND_SHIP = 0
 slot0.CANCEL_RECOMMAND_SHIP = 1
 
-function slot0.MISSION_BOSS_MAX_CNT()
+slot0.MISSION_BOSS_MAX_CNT = function()
 	return pg.guildset.operation_daily_boss_count.key_value
 end
 
@@ -96,7 +96,7 @@ slot0.TYPE_TO_GROUP = {
 	[slot0.TYPE_CATBOX_TIME_COST_SSR] = 9
 }
 
-function slot0.GET_TECHNOLOGY_GROUP_DESC(slot0, slot1, slot2)
+slot0.GET_TECHNOLOGY_GROUP_DESC = function(slot0, slot1, slot2)
 	slot3 = slot0[1]
 	slot4 = "<color=" .. COLOR_GREEN .. ">" .. slot2 .. "</color>"
 
@@ -129,7 +129,7 @@ function slot0.GET_TECHNOLOGY_GROUP_DESC(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GET_TECHNOLOGY_DESC(slot0, slot1)
+slot0.GET_TECHNOLOGY_DESC = function(slot0, slot1)
 	slot1 = "<color=" .. COLOR_GREEN .. ">" .. slot1 .. "</color>"
 
 	if slot0[1] == GuildConst.TYPE_GOLD_MAX then

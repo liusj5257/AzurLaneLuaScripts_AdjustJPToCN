@@ -1,10 +1,10 @@
 slot0 = class("WorldHelpLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldHelpUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtTitle = slot1:Find("title")
 	slot1 = slot0.rtTitle
@@ -92,7 +92,7 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.setCurGroup(slot0, slot1)
+slot0.setCurGroup = function(slot0, slot1)
 	slot2 = {}
 
 	if slot0.curGroupId then
@@ -127,7 +127,7 @@ function slot0.setCurGroup(slot0, slot1)
 	end)
 end
 
-function slot0.setCurPage(slot0, slot1)
+slot0.setCurPage = function(slot0, slot1)
 	slot0.curPageIndex = slot1
 	slot3 = slot0.rtMain
 
@@ -145,7 +145,7 @@ function slot0.setCurPage(slot0, slot1)
 	end)
 end
 
-function slot0.getPageIndex(slot0, slot1)
+slot0.getPageIndex = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.pageList) do
 		if slot6.id == slot1 then
 			return slot5
@@ -155,7 +155,7 @@ function slot0.getPageIndex(slot0, slot1)
 	return 1
 end
 
-function slot0.pageAnim(slot0, slot1, slot2)
+slot0.pageAnim = function(slot0, slot1, slot2)
 	LeanTween.cancel(go(slot0.rtScroll))
 
 	slot3 = GetOrAddComponent(slot0.rtScroll, "CanvasGroup")
@@ -166,7 +166,7 @@ function slot0.pageAnim(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.toggleAnim(slot0, slot1, slot2)
+slot0.toggleAnim = function(slot0, slot1, slot2)
 	LeanTween.cancel(slot1.gameObject)
 
 	slot3 = GetComponent(slot1, typeof(LayoutElement))
@@ -191,7 +191,7 @@ function slot0.toggleAnim(slot0, slot1, slot2)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 
 	slot1 = nil
@@ -221,7 +221,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0.rtScroll))
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end

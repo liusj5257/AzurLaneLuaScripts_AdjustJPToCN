@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 450
+					number = 450,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 450
+					number = 450,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -40,8 +40,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 520
+					number = 520,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -50,8 +50,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 520
+					number = 520,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -73,8 +73,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 600
+					number = 600,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -83,8 +83,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 600
+					number = 600,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -106,8 +106,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 700
+					number = 700,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -116,8 +116,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 700
+					number = 700,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -139,8 +139,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 770
+					number = 770,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 770
+					number = 770,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -172,8 +172,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 850
+					number = 850,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -182,8 +182,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 850
+					number = 850,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -205,8 +205,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 950
+					number = 950,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -215,8 +215,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 950
+					number = 950,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -238,8 +238,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1020
+					number = 1020,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -248,8 +248,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1020
+					number = 1020,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -271,8 +271,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1100
+					number = 1100,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -281,8 +281,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1100
+					number = 1100,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -304,8 +304,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1200
+					number = 1200,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -314,8 +314,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1200
+					number = 1200,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -329,14 +329,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 16952,
+	time = 0,
 	picture = "",
 	desc = "提高属性",
 	stack = 1,
-	id = 16952,
+	color = "yellow",
 	icon = 16950,
 	last_effect = "",
 	blink = {
@@ -353,8 +353,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 450
+				number = 450,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -363,8 +363,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 450
+				number = 450,
+				attr = "attackRating"
 			}
 		},
 		{

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>權限驗證中————————————</size>",
@@ -35,10 +35,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_1100",
 			paintingNoise = true,
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "star_level_bg_1100",
 			bgm = "bsm-2",
 			actor = 107030,
 			nameColor = "#a9f548",
@@ -65,8 +65,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "終於在凌晨時分，我抵達了指定區域。",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "艦載機在夜幕中穿行著，掠過宛如星空一般的海面。",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "心中縈繞著這個念頭，我加快了搜索步調。",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "飛龍似乎依靠自身動力前進了一段距離，最終還是倒在了她們稍遠處的地方。",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "因為距離過遠，我無法分辨具體型號。",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "難道塞壬打算替我們完成最後的收尾工作嗎，一瞬間我產生了這樣的想法。",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "我也將艦載機隱藏在雲層之中，靜靜觀察著事態的變化。",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "然後……衝擊出現了。",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "紅黑色的衝擊將塞壬人型單位擊出數十米遠。當然，這也可能是它主動採取迴避手段的表現。",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "衝擊波影響的範圍極廣，我的艦載機雖然因為距離過遠倖免於難，但是更近一些的塞壬量產型艦隊就沒這麼好運了。",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "奇怪的是，處於衝擊正中心位置的{namecode:91}與{namecode:92}卻好像沒有受到任何影響。",
 			typewriter = {
@@ -432,8 +432,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "不過…………我認為，她應該是艦船。",
 			typewriter = {
@@ -449,8 +449,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "而且我對她有一種彷彿曾經在哪裡見過的熟悉感。",
 			typewriter = {
@@ -466,8 +466,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "究竟是為什麼呢………………",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "數據解析異常————————————",
 			typewriter = {
@@ -500,9 +500,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "播放中斷————————————",
 			typewriter = {

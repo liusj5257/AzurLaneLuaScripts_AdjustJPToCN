@@ -2,16 +2,16 @@ return {
 	uiEffect = "",
 	name = "战列-后勤-命中I",
 	cd = 0,
-	painting = 1,
-	id = 433810,
 	picture = "0",
 	aniEffect = "",
 	desc = "战列-后勤-命中I",
+	painting = 1,
+	id = 433810,
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipType"

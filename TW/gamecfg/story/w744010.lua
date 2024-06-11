@@ -1,13 +1,13 @@
 return {
-	id = "W744010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W744010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "選擇光柱顏色 與 擴散強度",
 			typewriter = {
 				speed = 0.05,

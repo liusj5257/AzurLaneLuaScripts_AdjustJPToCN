@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 110350,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110350,
+	color = "red",
 	icon = 110350,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				attr = "luck",
+				number = 4,
 				target = "TargetSelf",
-				number = 4
+				attr = "luck"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.5,
-				target = "TargetSelf",
 				skill_id = 110350,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

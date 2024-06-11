@@ -1,18 +1,18 @@
 slot0 = class("MedalCollectionTemplateMediator", import("view.base.ContextMediator"))
 slot0.MEMORYBOOK_UNLOCK = "MEMORYBOOK_UNLOCK"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:BindEvent()
 	slot0.viewComponent:UpdateActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
 end
 
-function slot0.BindEvent(slot0)
+slot0.BindEvent = function(slot0)
 	slot0:bind(uv0.MEMORYBOOK_UNLOCK, function (slot0, ...)
 		uv0:sendNotification(GAME.MEMORYBOOK_UNLOCK, ...)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_OPERATION_DONE,
 		GAME.MEMORYBOOK_UNLOCK_DONE,
@@ -21,7 +21,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_ADDED or slot2 == ActivityProxy.ACTIVITY_UPDATED then

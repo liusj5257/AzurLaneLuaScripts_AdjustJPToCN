@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE301",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE301",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>\"Odd-Colored Seas - WHITE\"</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 10100010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-nep",
 			dir = -1,
 			say = "Stage 2 cleared, easy breezy! Looks like we'll have this situation under control in no time!",
+			bgm = "level-nep",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,13 +33,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "On the contrary. As if things would be that simple.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "On the contrary. As if things would be that simple.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,8 +102,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "That may be the case but... what if, that alone isn't enough?",
 			typewriter = {
 				speed = 0.05,
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Mm, correct. We still need a lot more data.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "Mm, correct. We still need a lot more data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,13 +147,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "That's also a problem, but... in order to re-open the wormholes, we need to collect data from the CPU clones.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "That's also a problem, but... in order to re-open the wormholes, we need to collect data from the CPU clones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "That's correct. For the time being, please continue to investigate the Mirror Seas and suppress any CPU clones you encounter. Well then, until later.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "That's correct. For the time being, please continue to investigate the Mirror Seas and suppress any CPU clones you encounter. Well then, until later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,8 +248,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "... She's a bit like our commander.",
 			typewriter = {
 				speed = 0.05,
@@ -336,16 +336,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "Tester α",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "... It appears that someone from that other dimension is interfering as well.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "To think that they would be able to not only destroy the Firewall, but also investigate the existence of the Mirror Seas...",
 			typewriter = {
 				speed = 0.05,
@@ -387,12 +387,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "... They are a force to be reckoned with, perhaps on the same level as us... No, maybe even greater?",
 			typewriter = {
 				speed = 0.05,
@@ -404,12 +404,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "Hehe... Well then, let us determine just who the superior one is...",
 			typewriter = {
 				speed = 0.05,

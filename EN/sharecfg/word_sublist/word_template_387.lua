@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_387 = {}
 slot1 = slot0.word_template_387
 
-function temp()
+temp = function()
 	uv0["娜"] = {
 		["奥"] = {
 			["米"] = {
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["粪"] = {
 		["坑"] = {
 			["先"] = {
@@ -60,7 +60,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宽"] = {
 		["衣"] = {
 			["帝"] = {
@@ -208,7 +208,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ⅱ"] = {
 		["Ⅹ"] = {
 			["大"] = {
@@ -243,7 +243,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["芃"] = {
 		["李"] = {
 			["圆"] = {
@@ -255,7 +255,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["壬"] = {
 		["皿"] = {
 			["大"] = {
@@ -271,7 +271,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["怛"] = {
 		["籁"] = {
 			["喇"] = {

@@ -1,15 +1,15 @@
 slot0 = class("LimitChallengeProxy", import(".NetProxy"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:initData()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.passTimeDict = {}
 	slot0.awardedDict = {}
 end
 
-function slot0.setTimeDataFromServer(slot0, slot1)
+slot0.setTimeDataFromServer = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot6.key
 		slot8 = slot6.value
@@ -20,7 +20,7 @@ function slot0.setTimeDataFromServer(slot0, slot1)
 	end
 end
 
-function slot0.setAwardedDataFromServer(slot0, slot1)
+slot0.setAwardedDataFromServer = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot6.key
 		slot8 = slot6.value > 0
@@ -31,7 +31,7 @@ function slot0.setAwardedDataFromServer(slot0, slot1)
 	end
 end
 
-function slot0.setPassTime(slot0, slot1, slot2)
+slot0.setPassTime = function(slot0, slot1, slot2)
 	if not slot0.passTimeDict[slot1] then
 		slot0.passTimeDict[slot1] = slot2
 	elseif slot2 < slot3 then
@@ -41,15 +41,15 @@ function slot0.setPassTime(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setAwarded(slot0, slot1)
+slot0.setAwarded = function(slot0, slot1)
 	slot0.awardedDict[slot1] = true
 end
 
-function slot0.getPassTimeByChallengeID(slot0, slot1)
+slot0.getPassTimeByChallengeID = function(slot0, slot1)
 	return slot0.passTimeDict[slot1]
 end
 
-function slot0.getMissAwardChallengeIDLIst(slot0)
+slot0.getMissAwardChallengeIDLIst = function(slot0)
 	slot1 = {}
 
 	for slot7, slot8 in ipairs(LimitChallengeConst.GetCurMonthConfig().stage) do
@@ -63,11 +63,11 @@ function slot0.getMissAwardChallengeIDLIst(slot0)
 	return slot1
 end
 
-function slot0.isAwardedByChallengeID(slot0, slot1)
+slot0.isAwardedByChallengeID = function(slot0, slot1)
 	return slot0.awardedDict[slot1]
 end
 
-function slot0.isLevelUnlock(slot0, slot1)
+slot0.isLevelUnlock = function(slot0, slot1)
 	if slot1 == 1 then
 		return true
 	end

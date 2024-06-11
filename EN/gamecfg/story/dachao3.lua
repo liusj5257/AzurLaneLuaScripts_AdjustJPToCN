@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Gentle and Sweet Ooshio!\n\n<size=45>Fate or Miracle?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I finished my work for the morning and was taking some sweet time to relax.",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Ooshio left a small box right in front of me. Opening it revealed appetizing biscuits and cookies in various shapes, all lined up nicely inside.",
 			typewriter = {
 				speed = 0.05,
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Only half of it?",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Being curious, I decided to follow Ooshio.",
 			typewriter = {
 				speed = 0.05,
@@ -150,15 +150,15 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "We're here, Commander~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "The place Ooshio had taken me to was a room in the Sakura Empire's dormitory.",
 			typewriter = {
 				speed = 0.05,
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "Yup♪ Told me, \"I'm curious who's getting these snacks,\" so we went here together~",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yup♪ Told me, \"I'm curious who's getting these snacks,\" so we went here together~",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -277,9 +277,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Yuudachi was sleeping soundly on her futon. Ooshio opened the box and took out a biscuit which she put on Yuudachi's nose.",
 			typewriter = {
 				speed = 0.05,
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "*Sniff, sniff*... Woof! I smell snacks! Where?! Where are the snacks?!",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "Μornin', Yuudachi~ I done gotten you some snacks~",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Μornin', Yuudachi~ I done gotten you some snacks~",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "W-wait, you mean...?!",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Yuudachi was as excited as a dog seeing its owner come home when she started munching on Ooshio's snacks.",
 			typewriter = {
 				speed = 0.05,
@@ -401,12 +401,12 @@ return {
 			}
 		},
 		{
-			actor = 301150,
+			say = "Those two share some kind of strange fate... But I'm sure that's nothing you need to worry about, Commander.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Those two share some kind of strange fate... But I'm sure that's nothing you need to worry about, Commander.",
+			actor = 301150,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -421,12 +421,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "Hey now, Shigure, don't say that kinda misleadin' stuff to the Commander~",
 			typewriter = {
 				speed = 0.05,

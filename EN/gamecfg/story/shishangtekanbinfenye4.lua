@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANBINFENYE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANBINFENYE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Resplendent Night\n\n<size=45>4 Today's Horoscope</size>",
@@ -49,11 +49,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Under a night sky littered with shining stars, one Constellation wearing her restaurant uniform beckons to me.",
@@ -75,9 +75,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			bgName = "star_level_bg_145",
 			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -91,17 +91,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Maybe a little... But Commander, don't you think the night sky here has its own unique flavor?",
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But they look so close here. As if you could take the whole galaxy into your hands if you just reach out...",
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Constellation points up at a particular star.",
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			withoutActorName = true,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Constellation is always so excited to talk about the stars. She gets more talkative than ever.",
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yep. Isn't it just full of romance, Commander?",
@@ -403,11 +403,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ahem... Commander, what would you like to drink tonight?",
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 104011,
 			side = 2,
-			bgName = "star_level_bg_145",
 			spine = true,
 			dir = 1,
+			bgName = "star_level_bg_145",
+			actor = 104011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Thanks for waiting~ Here's the drink you ordered, aaand...",
@@ -438,17 +438,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

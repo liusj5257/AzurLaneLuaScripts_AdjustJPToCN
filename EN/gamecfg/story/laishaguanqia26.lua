@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_ryza_2",
+			bgm = "ryza-az-pv",
 			stopbgm = true,
 			say = "Mirror Sea - In the past",
-			bgm = "ryza-az-pv",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "A good final area needs traps, crazy gimmicks, and of course, a super-strong guardian!",
 			painting = {
@@ -74,10 +74,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "For all the noise you made about making this place safe, these ruins are anything but.",
 			painting = {
 				alpha = 0.3,
@@ -91,9 +91,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			actor = 900233,
 			actorName = "Purity",
 			say = "You hafta raise the difficulty at some point, or else winning won't feel good at all!",
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "They can use their new power to the fullest and enjoy an action-packed ruin-scavenging adventure to their hearts' content!",
 			painting = {
@@ -191,10 +191,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hrmmm... But these riggings don't seem like something that can be made through alchemy, do they?",
 			painting = {
 				alpha = 0.3,
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "I thought you believed that nothing is impossible with alchemy!",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hm? Are you that well-versed in alchemy already?",
 			painting = {
 				alpha = 0.3,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "I'll just make it look like a cauldron so nobody can tell the difference... Mweheheh...",
 			painting = {
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "Purity",
 			say = "After all... What's an adventure without treasure?",
 			painting = {

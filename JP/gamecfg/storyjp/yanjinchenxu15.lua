@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU15",
 	scripts = {
 		{
-			bgName = "bg_firedust_5",
 			stopbgm = true,
 			spacing = 50,
-			mode = 1,
-			asideType = 4,
+			bgName = "bg_firedust_5",
 			bgmDelay = 1,
 			bgm = "theme-vichy-revelation",
+			mode = 1,
+			asideType = 4,
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,15 +64,15 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
 		{
-			bgName = "bg_firedust_6",
 			mode = 1,
+			bgName = "bg_firedust_6",
 			sequence = {
 				{
 					"",
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "インプラカブル",
+			side = 1,
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "インプラカブル",
+			side = 1,
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "インプラカブル",
+			side = 1,
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "インプラカブル",
+			side = 1,
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			say = "赤い海に黒い倒影が映っている。見上げれば、日食のような黒い円孔が空にかかっている。",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "インプラカブル",
+			side = 1,
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_6",
 			hidePaintObj = true,
 			say = "インプラカブルが周りを見ると、そこは聖堂の島の風景ではなく、代わりに水平線の彼方に多くの建物が見えている。",
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここは本来私たちが足を踏み入れるべきではない場所――聖堂の「下層」かしら？",
 			painting = {
 				alpha = 0.3,
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "リシュリュー枢機卿、説明してもらえる？",
 			painting = {
 				alpha = 0.3,
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここはケルゲレン聖堂の「下層」だと思います",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そして、セイレーンの鏡面海域の「本体」でしょ？",
 			painting = {
 				alpha = 0.3,
@@ -251,12 +251,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "流石にアイリスやヴィシア、上層部でもこんな場所を作れるはずがない",
 			painting = {
 				alpha = 0.3,
@@ -271,10 +271,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここは間違いなくセイレーンの領域――しかも活性化したばかりじゃなくて普段から存在しているものね",
 			painting = {
 				alpha = 0.3,
@@ -289,10 +289,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。おそらくは",
 			painting = {
 				alpha = 0.3,
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すべての浄化装置を起動し、聖堂の島を復元すれば問題なくなるんじゃなかったの？",
 			painting = {
 				alpha = 0.3,
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "申し訳ございません。私にとっても完全に予想外です…おそらくは装置の誤作動か……",
 			painting = {
 				alpha = 0.3,
@@ -341,10 +341,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それともこの状況は最初からセイレーンが仕込んでいた罠か……！",
 			painting = {
 				alpha = 0.3,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私の失念でした…聖堂の島にある鏡面海域はあくまで上層構造のどこかにあると思い込んで……",
 			painting = {
 				alpha = 0.3,
@@ -376,10 +376,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しょうがないわ。セイレーンとの戦いで意表を突かれることなんて多々あることだから",
 			painting = {
 				alpha = 0.3,
@@ -394,10 +394,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ところで枢機卿、ここの構造はあなたの知っている下層の構造と合致しているの？",
 			painting = {
 				alpha = 0.3,
@@ -417,10 +417,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あまり自信があるわけではありませんが、できる限りのことをしましょう",
 			painting = {
 				alpha = 0.3,
@@ -435,10 +435,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…しかし、私たちはなんでこんな場所に送られたのかしら？",
 			painting = {
 				alpha = 0.3,
@@ -453,10 +453,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "セイレーン…ううん、上層部の口封じ？",
 			painting = {
 				alpha = 0.3,
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "可能性は低いと思います。本当にこの場所を知られたくなければ、私とベアルンが浄化を行っているときに仕掛けてくるはず",
 			painting = {
 				alpha = 0.3,
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……今はそう信じるしかないわね",
 			painting = {
 				alpha = 0.3,
@@ -505,10 +505,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それでこの「下層」は確か「駒」の回収と処分を行う場所なのよね？",
 			painting = {
 				alpha = 0.3,
@@ -523,10 +523,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "口封じじゃなければ、処分扱いとして処理されたのかしら？",
 			painting = {
 				alpha = 0.3,
@@ -541,10 +541,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私の知識が正しければ、この場所自体は浄化装置とは関係がないはずです",
 			painting = {
 				alpha = 0.3,
@@ -556,12 +556,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "むしろ元々の「下層」はほかの区画とほぼ完全に遮断されており、進入方法は私どころか、ベアルンも知らないことです",
 			painting = {
 				alpha = 0.3,
@@ -576,10 +576,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私が恐れているのは、インプラカブルの言う通り、ここが罠だった時の……",
 			painting = {
 				alpha = 0.3,
@@ -591,12 +591,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その時は間違いなく卑劣な出来事として忘れられないでしょうね",
 			painting = {
 				alpha = 0.3,
@@ -622,10 +622,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "量産艦の護衛艦隊が引き揚げられると、絶対に誰かがこの施設に近づく――",
 			painting = {
 				alpha = 0.3,
@@ -640,10 +640,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "近づいてきたのが量産艦だと「駒」でいとも簡単に片付けられるし、そしたら今度は艦船による調査隊が訪れる――",
 			painting = {
 				alpha = 0.3,
@@ -655,12 +655,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それがロイヤルだと浄化装置を起動できなくて、鏡面海域も脱出できない――",
 			painting = {
 				alpha = 0.3,
@@ -675,10 +675,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もし来たのがアイリスで、最後の浄化を完了させると、こうして「下層」に転送されるとか？",
 			painting = {
 				alpha = 0.3,
@@ -696,12 +696,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………………早速私の持っている情報が役に立つようです",
 			painting = {
 				alpha = 0.3,
@@ -713,12 +713,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ん？どうしたの？早速暴走した「駒」の大群でも？",
 			painting = {
 				alpha = 0.3,
@@ -733,10 +733,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それどころではありません。ここの制御が完全に失われているようです",
 			painting = {
 				alpha = 0.3,
@@ -748,12 +748,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……早く行きましょう。このままでは皆まとめて――",
 			painting = {
 				alpha = 0.3,
@@ -768,8 +768,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -784,8 +784,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -797,8 +797,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			actor = 201360,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -813,8 +813,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -826,10 +826,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロボット……ナイト？？",
 			painting = {
 				alpha = 0.3,
@@ -841,8 +841,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			say = "ヒーローの緊急通信で、状況の分析に夢中になっていたインプラカブルたちは現実に引き戻された。",
@@ -852,8 +852,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			say = "水平線から駆逐艦の少女が必死に主機の出力を上げ、背後に迫る巨大な脅威から全速力で逃げている。",
@@ -863,8 +863,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			say = "巨大なロボットナイト――黒い装甲を纏い、天秤を思わせる艤装を手にしている「ソレ」は、まるで黙示録の騎士のような恐ろしい存在感を発している。",
@@ -877,10 +877,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 807010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……………「審判型武装機構・Vert」",
 			painting = {
 				alpha = 0.3,
@@ -892,12 +892,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "間違いありません。「四騎士」の一体です…！",
 			painting = {
 				alpha = 0.3,
@@ -909,12 +909,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤルネイビー、迎撃を……",
 			painting = {
 				alpha = 0.3,
@@ -929,10 +929,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ダメです！インプラカブルさん、今の私たちでは勝ち目がありません！戦っちゃいけません！",
 			painting = {
 				alpha = 0.3,
@@ -944,12 +944,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ベアルン、この近くにまだ作動している「概念錨」はない？！早く案内しなさい！",
 			painting = {
 				alpha = 0.3,
@@ -964,10 +964,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 807010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "かしこまりました！すぐ探します！",
 			painting = {
 				alpha = 0.3,
@@ -979,8 +979,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -992,10 +992,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれはなんなの？セイレーンの「駒」とか人型個体？",
 			painting = {
 				alpha = 0.3,
@@ -1010,10 +1010,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんなものじゃありません！とにかく逃げますよ！",
 			painting = {
 				alpha = 0.3,
@@ -1025,12 +1025,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "安全な場所に逃げれたら、「騎士」の正体も対策も教えますから！",
 			painting = {
 				alpha = 0.3,
@@ -1045,10 +1045,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アイリスを…私を信じて！",
 			painting = {
 				alpha = 0.3,
@@ -1063,10 +1063,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……分かったわ。元々はアイリスの施設だし…道案内を頼むわよ！",
 			painting = {
 				alpha = 0.3,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAOFENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAOFENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Full Steam Ahead!\n\n<size=45>6 One for All</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "Port - Exercise Area",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			nameColor = "#a9f548",
+			say = "Port - Exercise Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Everyone who can fight, please get into combat position! Suruga will lead the evacuation!",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,10 +97,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I know what I'm doing, don't worry! Right, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "We got word of a fleet of mass-produced ships appearing in a sector close to the exercise area.",
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "I mobilized all of the shipgirls in the area, ordered a reload from training ammo to live ammo, and called for reinforcements to aid with the evacuation.",
@@ -181,10 +181,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I've fulfilled all my friends' expectations of me as the secretary! Now it's time foooor... Full steam ahead!",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Shimakaze relayed my orders and swapped ammunition, then prepared to charge at the mass-produced ships. I yelled for her to halt.",
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What? Oh, right! M-my bad!",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Luckily, she got the message right away.",
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "The same for me! Do not forget I'm ready to fight as well!",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Everyone was counting on Shimakaze and me. It was time for us to show them our teamwork.",
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hmm... Okay! We'll capture this area first and hold it until everyone's been evacuated!",
 			typewriter = {
 				speed = 0.05,
@@ -360,12 +360,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Abukuma! Akatsuki! Smokescreens, please!",
 			typewriter = {
 				speed = 0.05,
@@ -377,8 +377,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -403,11 +403,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "Acknowledged! Deploying smokescreen!",
 			effects = {
 				{
@@ -425,9 +425,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "Shimakaze issued clear orders to all the shipgirls while they got into combat positions.",
 			effects = {
@@ -446,12 +446,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Inazuma! Ikazuchi! Follow me! We're going to hit them where it hurts!",
 			typewriter = {
 				speed = 0.05,
@@ -479,13 +479,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Gotcha! Let's dunk on these scrubs!",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			nameColor = "#a9f548",
+			say = "Gotcha! Let's dunk on these scrubs!",
 			flashN = {
 				color = {
 					1,
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,

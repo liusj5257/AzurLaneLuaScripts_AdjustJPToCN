@@ -1,15 +1,15 @@
 return {
-	id = "W700101",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700101",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Orders received. Commencing practice battle against Arbiter: Strength VIII. ",
 			typewriter = {
 				speed = 0.05,
@@ -24,8 +24,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Please proceed towards the opponent.",
 			typewriter = {
 				speed = 0.05,

@@ -68,12 +68,12 @@ setmetatable(slot5, {
 	frameCount = 1,
 	time = 0,
 	fixedDeltaTime = 0,
+	timeScale = 1,
 	unscaledTime = 0,
-	deltaTime = 0,
 	timeSinceLevelLoad = 0,
 	realtimeSinceStartup = 0,
 	unscaledDeltaTime = 0,
-	timeScale = 1,
+	deltaTime = 0,
 	fixedTime = 0,
 	__index = function (slot0, slot1)
 		if uv0(uv1, slot1) then

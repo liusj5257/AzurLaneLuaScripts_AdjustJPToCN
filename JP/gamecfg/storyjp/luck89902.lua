@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK89902",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK89902",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "成せたのは指揮官の努力なり",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "見守り、尽くさん――輝き、温もり、愛情のために",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 899020,
 			dir = 1,
+			actor = 899020,
 			say = "シャンパーニュと指揮官が踏み出す先は、続く道なり",
 			typewriter = {
 				speed = 0.05,

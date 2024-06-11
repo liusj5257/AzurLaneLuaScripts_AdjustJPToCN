@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 10,
 			side = 2,
-			bgName = "star_level_bg_159",
 			factiontag = "文学少女なKP",
 			dir = 1,
+			bgName = "star_level_bg_159",
 			bgm = "theme-ijndailymeeting",
 			actor = 502070,
 			nameColor = "#A9F548FF",
@@ -26,17 +26,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "役：メイド長だよー！",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官がダイスロールで失敗するのを見ながらNPCを演じるの、とっても大変だったよ！",
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "役：長女",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "私も～",
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "LCKカンストなKP",
 			dir = 1,
+			actor = 301160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "だからロールを全部雪風様に任せたほうがよかったのだ～",
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "急に代わり頼まれたKP",
 			dir = 1,
+			actor = 401020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ゲームバランスが崩壊しますからダメです。ええ",
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "真面目なKP後輩",
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあ、他の細かいところもそうですが、謎のままにしたほうがいいと思います",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "役：名状しがたいなにか",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そしてドッキリさせるのが大好きな幽霊船が演出担当だったからな！",
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "真面目なKP先輩",
 			dir = 1,
+			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まだまだ改善できるところはあるな",
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

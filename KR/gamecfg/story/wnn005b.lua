@@ -19,9 +19,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "是否要进行修整，恢复所有出战舰队耐久与状态？（仅可使用一次）",
 			typewriter = {
 				speed = 0.05,

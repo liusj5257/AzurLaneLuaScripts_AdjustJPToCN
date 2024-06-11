@@ -1,16 +1,16 @@
 slot0 = class("WeekPtTask", import(".Task"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.isWeekTask = true
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.weekly_task_template
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	slot3 = slot0:bindConfigTable()[slot0.configId]
 
 	assert(slot3, slot0.configId)
@@ -38,11 +38,11 @@ function slot0.getConfig(slot0, slot1)
 	end
 end
 
-function slot0.GetAward(slot0)
+slot0.GetAward = function(slot0)
 	return slot0:getConfig("award_display")[1]
 end
 
-function slot0.IsFinished(slot0)
+slot0.IsFinished = function(slot0)
 	return slot0:isFinish()
 end
 

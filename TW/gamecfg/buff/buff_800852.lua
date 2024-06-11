@@ -12,8 +12,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 1500,
 					time = 5,
+					rant = 1500,
 					target = "TargetSelf",
 					index = {
 						1
@@ -35,8 +35,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 1610,
 					time = 5,
+					rant = 1610,
 					target = "TargetSelf",
 					index = {
 						1
@@ -58,8 +58,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 1720,
 					time = 5,
+					rant = 1720,
 					target = "TargetSelf",
 					index = {
 						1
@@ -81,8 +81,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 1830,
 					time = 5,
+					rant = 1830,
 					target = "TargetSelf",
 					index = {
 						1
@@ -104,8 +104,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 1940,
 					time = 5,
+					rant = 1940,
 					target = "TargetSelf",
 					index = {
 						1
@@ -127,8 +127,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 2050,
 					time = 5,
+					rant = 2050,
 					target = "TargetSelf",
 					index = {
 						1
@@ -150,8 +150,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 2160,
 					time = 5,
+					rant = 2160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -173,8 +173,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 2270,
 					time = 5,
+					rant = 2270,
 					target = "TargetSelf",
 					index = {
 						1
@@ -196,8 +196,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 2380,
 					time = 5,
+					rant = 2380,
 					target = "TargetSelf",
 					index = {
 						1
@@ -219,8 +219,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 800853,
-					rant = 2500,
 					time = 5,
+					rant = 2500,
 					target = "TargetSelf",
 					index = {
 						1
@@ -232,12 +232,12 @@ return {
 	desc_get = "",
 	name = "主炮连射-阿尔及利亚META",
 	init_effect = "",
+	id = 800852,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800852,
+	color = "red",
 	icon = 800852,
 	last_effect = "",
 	effect_list = {
@@ -248,8 +248,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 800853,
-				rant = 1500,
 				time = 5,
+				rant = 1500,
 				target = "TargetSelf",
 				index = {
 					1

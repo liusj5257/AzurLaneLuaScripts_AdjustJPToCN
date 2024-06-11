@@ -1,17 +1,17 @@
 return {
-	id = "WORLD205C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD205C",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 203030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-french1",
 			dir = 1,
 			say = "ケント選手、目がチカチカする…",
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,14 +107,14 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "つ、疲れた…ウォースパイト様、あちらです…！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -157,8 +157,8 @@ return {
 			actor = 900285,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = ".............................................",
 			typewriter = {
 				speed = 0.05,
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			actor = 205040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "では私から……はぁああ！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 205040,
+			nameColor = "#a9f548",
+			say = "では私から……はぁああ！！",
 			flashN = {
 				color = {
 					1,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,10 +333,10 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 205020,
 			say = "いずれにしてもあのセイレーンが鎮座している以上ここから先の探索は危険よ。一旦出直して……",
 			effects = {
 				{
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -419,11 +419,11 @@ return {
 			}
 		},
 		{
-			actor = 900285,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
+			actor = 900285,
 			dir = 1,
+			actorName = "？？？",
 			say = "フン………………",
 			effects = {
 				{
@@ -441,10 +441,10 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "セイレーンが…いなくなった？",
 			flashout = {
 				dur = 0.15,
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

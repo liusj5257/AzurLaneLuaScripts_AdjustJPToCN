@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA25",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
+			side = 2,
+			soundeffect = "event:/battle/boom2",
 			bgm = "ryza-az-theme",
+			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "SHREEEE!",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 		{
 			actor = 101490,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			say = "It's down! We beat it!",
 			painting = {
 				alpha = 0.3,
@@ -95,8 +95,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900030,
 			dir = 1,
+			actor = 10900030,
 			nameColor = "#A9F548FF",
 			say = "Whew... That was a tough fight. The transformation partway through really gave me a shock.",
 			painting = {
@@ -112,8 +112,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900040,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
 			say = "That was by far the strongest opponent we've fought here.",
 			painting = {
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
 			say = "We've become quite the coordinated team, haven't we, Miss Ryza?",
 			painting = {
@@ -146,8 +146,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "Heheh, you betcha! That's what happens when you adventure together!",
 			painting = {
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "Oh! There's a teleporter up ahead! I think that's how we'll send you home!",
 			painting = {
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			say = "Probably, yes, if our past experiences are anything to go on.",
 			painting = {
@@ -207,8 +207,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "One final hurdle, then we can go home...",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "Conveniently, someone wrote down instructions for how to operate it! I will boot it up right away!",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "...What? That didn't work?",
 			painting = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "Let me try again, just to make sure...",
 			painting = {
@@ -275,8 +275,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900030,
 			dir = 1,
+			actor = 10900030,
 			nameColor = "#A9F548FF",
 			say = "I had a feeling it wouldn't be so easy. Do you think it's broken?",
 			painting = {
@@ -292,8 +292,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "Whaaaaat?! Broken? Does that mean all our hard work was all for nothing?!",
 			painting = {
@@ -309,8 +309,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900020,
 			dir = 1,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "We were just one step away...",
 			painting = {
@@ -326,8 +326,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "When you're only one step away from the finish line, take that step! I've handled plenty of ancient relics before, so let me take a look at that!",
 			painting = {
@@ -343,8 +343,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "I see... I think I can fix this, but I'll need a lot more information about the Sirens and their tech.",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
 			say = "If that's all you need, you could come back with us to our port. You'll find all the information on the Sirens you could ever want in our archives.",
 			painting = {
@@ -376,9 +376,9 @@ return {
 		{
 			actor = 207050,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			say = "Now that the Mirror Sea's guardian has been defeated, our communications with the port have been restored. We'll at least be able to leave this place.",
 			painting = {
 				alpha = 0.3,
@@ -393,8 +393,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
 			say = "You shouldn't have to worry about the gateway disappearing either. Even after the Mirror Sea is lifted, the physical facilities should still remain since we never destroyed the control device.",
 			painting = {
@@ -410,8 +410,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "Really? You're inviting me back to your port? I've been wanting to check it out ever since Alfredo mentioned it!",
 			painting = {
@@ -424,8 +424,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,8 +437,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "Are you sure it's okay for us to just drop in unannounced though?",
 			painting = {
@@ -454,8 +454,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
 			say = "I'm more than sure. In fact, I can promise you that our friends will welcome you with open arms.",
 			painting = {
@@ -471,8 +471,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 601080,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
 			say = "I'm sure our local technical geniuses like Ingraham, Akashi, and da Vinci will be happy to help, too! The teleporter will be good as new in no time.",
 			painting = {
@@ -488,8 +488,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "Wow. Sounds like you've got some great friends back at port.",
 			painting = {
@@ -505,8 +505,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "...Girls, what do you think?",
 			painting = {
@@ -522,8 +522,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900040,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
 			say = "Everything happens for a reason. A stay at a friendly port could be nice.",
 			painting = {
@@ -539,8 +539,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900030,
 			dir = 1,
+			actor = 10900030,
 			nameColor = "#A9F548FF",
 			say = "It's also the only way we'll get back home, so I support the idea.",
 			painting = {
@@ -556,8 +556,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900050,
 			dir = 1,
+			actor = 10900050,
 			nameColor = "#A9F548FF",
 			say = "I may learn something important by seeing what plants grow there, so...",
 			painting = {
@@ -573,8 +573,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900020,
 			dir = 1,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "Heehee. I'm fine with postponing our goodbyes for a while.",
 			painting = {
@@ -589,9 +589,9 @@ return {
 		{
 			actor = 10900010,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			say = "So it's unanimous. Alright, we're going on yet another adventure, this time to Azur Lane's home port!",
 			painting = {
 				alpha = 0.3,

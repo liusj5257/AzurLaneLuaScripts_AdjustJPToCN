@@ -1,6 +1,6 @@
 slot0 = class("SkinAtlasPaintingView")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.parentTF = slot0._tf.parent
@@ -17,24 +17,24 @@ function slot0.Ctor(slot0, slot1)
 	slot0.isEnter = false
 end
 
-function slot0.IsEnter(slot0)
+slot0.IsEnter = function(slot0)
 	return slot0.isEnter
 end
 
-function slot0.Enter(slot0)
+slot0.Enter = function(slot0)
 	slot0.isEnter = true
 
 	slot0:ShowOrHideGo(false)
 	slot0:EnableDragAndZoom()
 end
 
-function slot0.ShowOrHideGo(slot0, slot1)
+slot0.ShowOrHideGo = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.hideGos) do
 		setActive(slot6, slot1)
 	end
 end
 
-function slot0.EnableDragAndZoom(slot0)
+slot0.EnableDragAndZoom = function(slot0)
 	slot0.isEnableDrag = true
 	slot1 = slot0.parentTF.gameObject
 	slot2 = slot0.zoom
@@ -86,11 +86,11 @@ function slot0.EnableDragAndZoom(slot0)
 	Input.multiTouchEnabled = true
 end
 
-function slot0.IslimitYPos(slot0)
+slot0.IslimitYPos = function(slot0)
 	return false
 end
 
-function slot0.Exit(slot0)
+slot0.Exit = function(slot0)
 	if slot0.isEnter then
 		slot0.isEnter = false
 
@@ -102,7 +102,7 @@ function slot0.Exit(slot0)
 	end
 end
 
-function slot0.DisableDragAndZoom(slot0)
+slot0.DisableDragAndZoom = function(slot0)
 	if slot0.isEnableDrag then
 		slot1 = slot0.event
 
@@ -114,13 +114,13 @@ function slot0.DisableDragAndZoom(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.isEnter then
 		slot0:Exit()
 	end
 end
 
-function slot0.Screen2Local(slot0, slot1)
+slot0.Screen2Local = function(slot0, slot1)
 	slot4 = LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, GameObject.Find("UICamera"):GetComponent("Camera"))
 
 	return Vector3(slot4.x, slot4.y, 0)

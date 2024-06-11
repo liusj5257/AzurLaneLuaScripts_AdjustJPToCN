@@ -1,7 +1,7 @@
 return {
-	time = 5,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 5,
 	picture = "",
 	desc = "无敌",
 	stack = 1,
@@ -24,8 +24,8 @@ return {
 			},
 			arg_list = {
 				group = 14503,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 			},
 			arg_list = {
 				group = 14503,
-				attr = "immuneDirectHit",
-				number = 1
+				number = 1,
+				attr = "immuneDirectHit"
 			}
 		}
 	}

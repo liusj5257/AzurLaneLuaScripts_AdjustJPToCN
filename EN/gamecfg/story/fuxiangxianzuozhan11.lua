@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Floating Fortress - Area between D11 and D12 defense lines",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-6",
+			say = "Floating Fortress - Area between D11 and D12 defense lines",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "That's right. However, such meager forces as you faced before would hardly classify as training, so I threw in some extra Pawns.",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Heh, keep 'em coming! I'll knock down whatever you throw at me!",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,8 +151,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "There's one more thing you should be mindful of.",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Therefore, all defense areas beyond D12 are off limits.",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "So, we shouldn't enter them even to pursue a training target?",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "I'm going to maintain these security measures at least until I can determine the source of the communication abnormality.",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Woah, isn't that overkill? What if an allied fleet happens to wander into the wrong neighborhood?",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "This is perfectly normal. Observers from the outside will see this as another Siren \"Mirror Sea.\" If anything, it would be abnormal for them not to encounter any resistance.",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Good point. Well, how about we get the show on the road then with this next exercise?",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "Can you try not being hyperactive for once?",
 			typewriter = {
@@ -377,9 +377,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
 			blackBg = true,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "...C'mon, we've wasted enough time here. Let's hurry it up!",
 			typewriter = {

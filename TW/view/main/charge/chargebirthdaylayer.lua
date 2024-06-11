@@ -1,32 +1,32 @@
 slot0 = class("ChargeBirthdayLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChargeBirthdayUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 	slot0:initUIText()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 end
 
-function slot0.initUIText(slot0)
+slot0.initUIText = function(slot0)
 	slot0.inputSC.text = ""
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.window = slot0:findTF("window")
 	slot0.inputField = slot0:findTF("birthday_input_panel/InputField", slot0.window)
@@ -36,7 +36,7 @@ function slot0.findUI(slot0)
 	slot0.closeBtn = slot0:findTF("top/btnBack", slot0.window)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:closeView()
 	end)

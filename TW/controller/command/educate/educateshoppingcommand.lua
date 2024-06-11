@@ -1,6 +1,6 @@
 slot0 = class("EducateShoppingCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody() and slot2.callback
 	slot5 = getProxy(EducateProxy):GetShopProxy()
 	slot6 = slot5:GetShopWithId(slot2.shopId)

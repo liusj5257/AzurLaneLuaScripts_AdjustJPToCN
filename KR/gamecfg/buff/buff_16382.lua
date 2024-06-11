@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 350
+					number = 350,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 400
+					number = 400,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 450
+					number = 450,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 500
+					number = 500,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 550
+					number = 550,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 600
+					number = 600,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 650
+					number = 650,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 700
+					number = 700,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 750
+					number = 750,
+					attr = "torpedoPower"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 800
+					number = 800,
+					attr = "torpedoPower"
 				}
 			}
 		}
 	},
-	time = 8,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "blue",
+	id = 16382,
+	time = 8,
 	picture = "",
 	desc = "雷击提高",
 	stack = 1,
-	id = 16382,
+	color = "blue",
 	icon = 16380,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 350
+				number = 350,
+				attr = "torpedoPower"
 			}
 		}
 	}

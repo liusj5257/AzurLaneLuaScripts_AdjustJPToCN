@@ -9,7 +9,7 @@ slot0.ON_PURCHASE_SUPPLY = "GuildOfficeMediator:ON_PURCHASE_SUPPLY"
 slot0.GET_SUPPLY_AWARD = "GuildOfficeMediator:GET_SUPPLY_AWARD"
 slot0.REFRES_DONATE_LIST = "GuildOfficeMediator:REFRES_DONATE_LIST"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.REFRES_DONATE_LIST, function (slot0, slot1)
 	end)
 	slot0:bind(uv0.UPDATE_WEEKLY_TASK, function (slot0)
@@ -42,7 +42,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getRawData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.TRIGGER_TASK_DONE,
 		GAME.GUILD_COMMIT_DONATE_DONE,
@@ -61,7 +61,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GuildProxy.GUILD_UPDATED then
@@ -73,7 +73,7 @@ function slot0.handleNotification(slot0, slot1)
 
 		slot4:UpdateContribution()
 
-		function slot4()
+		slot4 = function()
 		end
 
 		if slot3.awards and #slot3.awards > 0 then

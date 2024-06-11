@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-78,
 				20,
@@ -52,8 +52,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 101,
 					conditionType = 1,
 					preWaves = {
@@ -63,8 +63,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 10070261,
-							reinforceDelay = 2,
 							score = 0,
+							reinforceDelay = 2,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -77,9 +77,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 10070202,
-							moveCast = true,
-							delay = 3,
 							score = 0,
+							delay = 3,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -92,9 +92,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10070202,
-							moveCast = true,
-							delay = 3,
 							score = 0,
+							delay = 3,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -111,8 +111,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 535305,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								532208

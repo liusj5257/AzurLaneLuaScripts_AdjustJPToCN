@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
-			say = "旧王城の廃墟・王宮。",
 			bgm = "story-mmorpg",
+			say = "旧王城の廃墟・王宮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,11 +32,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "指揮官、本当に王宮の廃墟で本当に十分な金貨を見つけられると思っているんですか？",
 			painting = {
@@ -129,9 +129,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_500",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			bgName = "star_level_bg_500",
 			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "皆さん、あそこの壁に光っている石が…！",
@@ -144,17 +144,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まさか…隠し部屋があるとでもいうのですか？",
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "仕掛けが作動し、重厚な壁がゆっくりと動き始め、裏から長い歳月に封じられた書斎を覗かせた。",
 			typewriter = {
@@ -189,17 +189,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "空気から古びた匂いがし、床には埃まみれの絨毯が敷かれている。魔力で作動する照明は機能しているものの、その光は仄暗い。",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "奥にある書斎机の上には、金色の魔法のスフィアが静かに浮かんでいる。",
 			typewriter = {
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "この魔法は……経年劣化を防ぐ宮廷魔法で…",
 			painting = {
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "スフィアに触れると、魔法陣が解除され、数百年間守られてきたものを一行の前に現出させた。",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "一束の文書と手紙が一通出てきた。",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "吸血鬼の公爵",
 			dir = 1,
@@ -300,17 +300,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -375,12 +375,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "吸血鬼の公爵",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "一ヶ月前、奇妙な病気が、我が一族の間で広まり始めた",
 			painting = {
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "吸血鬼の公爵",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "でも、この病気にかかった吸血鬼は一族との絆を少しずつ忘れ、別の声に従うようになることが分かった",
 			painting = {
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "吸血鬼の公爵",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "今この瞬間、吸血鬼による「裏切り」で、私の愛する王都は燃えている",
 			painting = {
@@ -543,12 +543,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "吸血鬼の公爵",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "真実が隠されたこの隠し部屋を守れるかもしれない",
 			painting = {
@@ -580,12 +580,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "吸血鬼の公爵",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "机の上に「永夜の闇」を解く術式と、吸血鬼を滅ぼす術式の書があるわ",
 			painting = {
@@ -617,12 +617,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "吸血鬼の公爵",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "正しい道を貫き、私の眷属を解放してほしい――",
 			painting = {
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "手紙の字は徐々に乱雑になり、ここで途切れている。",
 			typewriter = {
@@ -644,17 +644,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -662,11 +662,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…吸血鬼一族は裏切ったのではなく…魔王に操られていただけ…",
@@ -699,11 +699,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はあ…この真実を笑って受け入れられはしませんね",
@@ -786,11 +786,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…「3つ」の要塞を早く落とさないといけませんよ",
@@ -804,27 +804,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			say = "隠し部屋を出て、見つけた旧王国の金貨を全てテンペスタ海賊団に渡した。",
 			bgm = "theme-tempest-up",
+			say = "隠し部屋を出て、見つけた旧王国の金貨を全てテンペスタ海賊団に渡した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -832,11 +832,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			say = "こ、こんなに…？",
 			painting = {
@@ -867,11 +867,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			say = "偉大なる冒険者は…もぉ本当に太っ腹ね～",
 			painting = {
@@ -938,8 +938,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_525",
 			nameColor = "#A9F548FF",
 			say = "「システム：新スキル【海潮のホーン SSS】を獲得しました」",
@@ -957,8 +957,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_525",
 			nameColor = "#A9F548FF",
 			say = "「システム：現在学習可能なスキルの上限に達しました。スキルを入れ替えるか、獲得したスキルを放棄してください」",
@@ -1012,8 +1012,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "「走行」スキルのボタンを押し、所持スキルの入れ替えを行った――",
 			typewriter = {

@@ -1,6 +1,6 @@
 slot0 = class("AprilFoolDiscoveryRePage", import(".AprilFoolDiscoveryPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.bulin = slot0.bg:Find("bulin")
@@ -12,7 +12,7 @@ function slot0.OnInit(slot0)
 	slot0._funcsLink = {}
 end
 
-function slot0.AddFunc(slot0, slot1)
+slot0.AddFunc = function(slot0, slot1)
 	table.insert(slot0._funcsLink, slot1)
 
 	if #slot0._funcsLink > 1 then
@@ -22,7 +22,7 @@ function slot0.AddFunc(slot0, slot1)
 	slot0:PlayFuncsLink()
 end
 
-function slot0.PlayFuncsLink(slot0)
+slot0.PlayFuncsLink = function(slot0)
 	slot1 = false
 	slot2 = nil
 
@@ -39,7 +39,7 @@ function slot0.PlayFuncsLink(slot0)
 	end)()
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	return uv0.super.OnDataSetting(slot0) or (function ()
 		if uv0.activity.data1 == 1 and uv0.activity.data3 == 1 then
 			uv0.activity.data3 = 0
@@ -54,7 +54,7 @@ function slot0.OnDataSetting(slot0)
 	end)()
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = pg.activity_event_picturepuzzle[slot0.activity.id]
 
 	assert(slot1, "Can't Find activity_event_picturepuzzle 's ID : " .. slot0.activity.id)
@@ -134,7 +134,7 @@ slot1 = {
 	"unlock"
 }
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot2 = #slot0.activity.data2_list == #slot0.keyList
 
 	if (slot0.activity.data1 >= 1 and "activity_bg_aprilfool_final" or "activity_bg_aprilfool_discovery") ~= slot0.bgName then
@@ -215,11 +215,11 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 end
 
-function slot0.GetLinkStage(slot0)
+slot0.GetLinkStage = function(slot0)
 	return slot0.activity:getConfig("config_client").lastChapter
 end
 

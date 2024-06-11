@@ -242,11 +242,11 @@ return {
 	uiEffect = "",
 	name = "芙米露露",
 	cd = 0,
+	picture = "0",
+	desc = "耐久回复",
 	painting = 1,
 	id = 103110,
-	picture = "0",
 	castCV = "skill",
-	desc = "耐久回复",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

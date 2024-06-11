@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"聽妳說喜歡\n\n<size=45>五　觀看演習</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "港區·演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "演習當天，與傑維斯一起來到了現場。",
 			typewriter = {
 				speed = 0.05,
@@ -67,10 +67,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "雅努斯應該沒問題吧…",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -180,16 +180,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_story_nepu1",
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "終於結束了…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -300,9 +300,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			optionFlag = 1,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 1,
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -317,8 +317,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

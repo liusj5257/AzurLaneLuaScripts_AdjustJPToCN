@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE11",
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "하디",
 			nameColor = "#a9f548",
+			actorName = "하디",
 			bgName = "bg_story_naerweike",
-			side = 0,
-			dir = 1,
-			bgm = "battle-boss-1",
 			say = "끝입니다!",
+			dir = 1,
+			side = 0,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,10 +37,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			say = "…!! 하디!",
+			dir = 1,
 			actor = 201200,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "…!! 하디!",
 			actorPosition = {
 				x = -1500,
 				y = 0
@@ -55,8 +55,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 2250
@@ -64,12 +64,12 @@ return {
 			}
 		},
 		{
-			actor = 201200,
 			nameColor = "#a9f548",
 			side = 0,
-			say = "우윽!?",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 201200,
+			say = "우윽!?",
 			flashN = {
 				color = {
 					1,
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201160,
 			dir = 1,
+			actor = 201160,
 			say = "헌터!!",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "큭, 지원군!? 빨리 퇴각을…!",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -1500
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			side = 1,
 			hideOther = true,
-			actor = 401020,
 			dir = -1,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "만만찮은 상대네…… 그래, 아군이 안 왔으면 당할 뻔했어.",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 401020,
 			dir = -1,
+			actor = 401020,
 			say = "아니, 한스의 판단은 정확했어. 무모하게 쫓는 것보다 아군과 합류하는 편이 나아.",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 401020,
 			dir = -1,
+			actor = 401020,
 			say = "그리 머지않아 제2파가 올 거야. 확실하게 대비해야 해.",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

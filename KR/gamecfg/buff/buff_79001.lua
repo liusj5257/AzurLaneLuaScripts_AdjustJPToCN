@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "血量召唤",
 	time = 0,
-	color = "red",
+	name = "血量召唤",
+	init_effect = "",
+	id = 79001,
 	picture = "",
 	desc = "战斗对象的血量下降到X%时，召唤特殊怪物",
 	stack = 1,
-	id = 79001,
+	color = "red",
 	icon = 73500,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetSelf",
-				minTargetNumber = 1,
+				skill_id = 79001,
 				targetMaxHPRatio = 0.99,
-				target = "TargetSelf",
-				skill_id = 79001
+				minTargetNumber = 1,
+				target = "TargetSelf"
 			}
 		}
 	}

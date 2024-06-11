@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17483,
 	time = 1,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17483,
+	color = "blue",
 	icon = 17480,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 17481,
 				nationality = 5,
+				skill_id = 17481,
 				check_target = {
 					"TargetNationalityFriendly",
 					"TargetShipTypeFriendly"
@@ -60,9 +60,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				nationality = 5,
 				maxTargetNumber = 0,
 				skill_id = 17482,
-				nationality = 5,
 				check_target = {
 					"TargetNationalityFriendly",
 					"TargetShipTypeFriendly"

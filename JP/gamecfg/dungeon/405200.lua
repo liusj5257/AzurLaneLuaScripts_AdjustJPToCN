@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -82,8 +82,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 4011,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								11,
 								0,
@@ -96,8 +96,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4001,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -109,8 +109,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4002,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -122,8 +122,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4011,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								11,
 								0,
@@ -148,8 +148,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 4009,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -162,8 +162,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4019,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -176,8 +176,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4019,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -190,8 +190,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4009,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -208,8 +208,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 314086,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								314522
@@ -234,8 +234,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 4010,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -248,8 +248,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4003,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -262,8 +262,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4012,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -276,8 +276,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4003,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -290,8 +290,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4010,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -330,8 +330,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
@@ -341,8 +341,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 4017,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -371,8 +371,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 4029,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -385,8 +385,8 @@ return {
 						},
 						{
 							monsterTemplateID = 4029,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -403,8 +403,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 314085,
+							delay = 0,
 							totalNumber = 3,
 							weaponID = {
 								314521

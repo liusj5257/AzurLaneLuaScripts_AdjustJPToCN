@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Class Z VI\n\n<size=45>Let's Dash! </size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "To become a part of their life... Okay! First up is...",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "To become a part of their life... Okay! First up is...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "Long Island! Let's have a challenge!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "Eh?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Eh?",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -151,15 +151,15 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "I... I lost...?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "Heheh, a promise is a promise~",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Heheh, a promise is a promise~",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -236,15 +236,15 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "What is it~ Something fun~?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "Mhm. I was in too much of a rush before. If it's San Diego, I have to start with something more basic.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Mhm. I was in too much of a rush before. If it's San Diego, I have to start with something more basic.",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -321,15 +321,15 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "I'm sorry, Z23, I just wanted to joke around with you a bit...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -354,12 +354,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "Don't worry about it... However, that \"Taboo Double Trouble\" of yours... Miss Sara sure has some flair.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Don't worry about it... However, that \"Taboo Double Trouble\" of yours... Miss Sara sure has some flair.",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -502,15 +502,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "All right! This time, I'll definitely be able to succeed!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

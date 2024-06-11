@@ -10,14 +10,14 @@ slot8 = "tuozhuai2"
 slot9 = "dead"
 slot10 = Vector3(0, 0, -1)
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._charTpl = slot1
 	slot0._event = slot2
 
 	slot0:initChar()
 end
 
-function slot0.initChar(slot0)
+slot0.initChar = function(slot0)
 	if slot0.char then
 		return
 	end
@@ -53,7 +53,7 @@ function slot0.initChar(slot0)
 	}
 end
 
-function slot0.setInGround(slot0, slot1)
+slot0.setInGround = function(slot0, slot1)
 	slot0.inGround = slot1
 
 	if not slot0.inGround then
@@ -65,7 +65,7 @@ function slot0.setInGround(slot0, slot1)
 	end
 end
 
-function slot0.setOutLandPoint(slot0, slot1)
+slot0.setOutLandPoint = function(slot0, slot1)
 	slot0.outlandPoint = slot1
 	slot2 = slot0.outlandPoint.lb
 	slot3 = slot0.outlandPoint.lt
@@ -78,7 +78,7 @@ function slot0.setOutLandPoint(slot0, slot1)
 	slot0.outlandPoint.exrb = Vector2(slot5.x, slot5.y + slot6)
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	if slot0.timeToOver and slot0.timeToOver > 0 then
 		slot0.timeToOver = slot0.timeToOver - CastleGameVo.deltaTime
 
@@ -95,7 +95,7 @@ function slot0.step(slot0)
 	slot0:checkPlayerOutScreen()
 end
 
-function slot0.getPoint(slot0)
+slot0.getPoint = function(slot0)
 	if slot0.charTf then
 		return nil
 	end
@@ -103,7 +103,7 @@ function slot0.getPoint(slot0)
 	return slot0.charTf.anchoredPosition
 end
 
-function slot0.updatePosition(slot0)
+slot0.updatePosition = function(slot0)
 	slot1 = slot0.charTf.anchoredPosition
 	slot2 = slot0.zPos.anchoredPosition
 	slot1.x = slot1.x + slot0.speed.x * CastleGameVo.deltaTime
@@ -120,14 +120,14 @@ function slot0.updatePosition(slot0)
 	slot0.zPos.anchoredPosition = slot2
 end
 
-function slot0.updateDirect(slot0, slot1)
+slot0.updateDirect = function(slot0, slot1)
 	if slot1.x ~= 0 and slot0.charTf.localScale.x ~= (slot0.speed.x > 0 and 1 or -1) then
 		slot0.charTf.localScale = Vector3(slot2, 1, 1)
 		slot0.charDirect = slot2
 	end
 end
 
-function slot0.checkOutland(slot0, slot1, slot2)
+slot0.checkOutland = function(slot0, slot1, slot2)
 	if slot0.outlandPoint then
 		slot5 = slot0.outlandPoint.rt
 		slot6 = slot0.outlandPoint.rb
@@ -180,7 +180,7 @@ function slot0.checkOutland(slot0, slot1, slot2)
 	return true, slot1
 end
 
-function slot0.updateSpeed(slot0)
+slot0.updateSpeed = function(slot0)
 	if slot0.addSpeedTime and slot0.addSpeedTime > 0 then
 		slot0.addSpeedTime = slot0.addSpeedTime - CastleGameVo.deltaTime
 
@@ -220,7 +220,7 @@ function slot0.updateSpeed(slot0)
 	end
 end
 
-function slot0.updateAnim(slot0)
+slot0.updateAnim = function(slot0)
 	slot1 = nil
 
 	if slot0.action ~= (not slot0.inGround and uv0 or slot0.inBubble and uv1 or slot0.fail and uv2 or math.max(math.abs(slot0.speed.x), math.abs(slot0.speed.y)) > 120 and uv3 or slot2 > 0 and uv4 or uv5) then
@@ -228,7 +228,7 @@ function slot0.updateAnim(slot0)
 	end
 end
 
-function slot0.setScore(slot0, slot1)
+slot0.setScore = function(slot0, slot1)
 	slot3 = slot1.data.time
 
 	if slot0.addSpeed <= slot1.data.speed then
@@ -238,14 +238,14 @@ function slot0.setScore(slot0, slot1)
 	slot0.addSpeedTime = slot3
 end
 
-function slot0.setPlayerFail(slot0)
+slot0.setPlayerFail = function(slot0)
 	slot0.fail = true
 	slot0.timeToOver = 1
 
 	slot0:playerDead()
 end
 
-function slot0.setContent(slot0, slot1, slot2)
+slot0.setContent = function(slot0, slot1, slot2)
 	slot0._content = slot1
 
 	setParent(slot0.charTf, slot0._content, true)
@@ -257,11 +257,11 @@ function slot0.setContent(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getPoint(slot0)
+slot0.getPoint = function(slot0)
 	return slot0.charTf.anchoredPosition
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0.charTf.anchoredPosition = uv0
 	slot0.zPos.anchoredPosition = Vector2(0, uv0.y)
 
@@ -278,16 +278,16 @@ function slot0.start(slot0)
 	slot0:changeAnimAction(slot0.anim, uv1, 0)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
-function slot0.checkPlayerOutScreen(slot0)
+slot0.checkPlayerOutScreen = function(slot0)
 	if math.abs(slot0.zPos.anchoredPosition.y) > 2000 then
 		slot0._event:emit(CastleGameView.GAME_OVER)
 	end
 end
 
-function slot0.setInBubble(slot0, slot1)
+slot0.setInBubble = function(slot0, slot1)
 	slot0.inBubble = slot1
 
 	if slot1 then
@@ -297,7 +297,7 @@ function slot0.setInBubble(slot0, slot1)
 	end
 end
 
-function slot0.getActionAble(slot0)
+slot0.getActionAble = function(slot0)
 	if not slot0.inGround then
 		return false
 	end
@@ -313,16 +313,16 @@ function slot0.getActionAble(slot0)
 	return true
 end
 
-function slot0.press(slot0, slot1)
+slot0.press = function(slot0, slot1)
 end
 
-function slot0.playerDead(slot0)
+slot0.playerDead = function(slot0)
 	slot0.action = uv0
 
 	slot0.anim:GetAnimationState():SetAnimation(0, uv0, false)
 end
 
-function slot0.changeAnimAction(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.changeAnimAction = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.action = slot2
 
 	slot1:SetActionCallBack(nil)
@@ -344,11 +344,11 @@ function slot0.changeAnimAction(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.getChar(slot0)
+slot0.getChar = function(slot0)
 	return slot0.char
 end
 
-function slot0.getTfs(slot0)
+slot0.getTfs = function(slot0)
 	return {
 		slot0.charTf
 	}

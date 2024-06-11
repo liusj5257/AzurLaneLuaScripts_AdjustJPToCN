@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 600000,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600000,
+	color = "yellow",
 	icon = 600000,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onBeforeFatalDamage"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				minTargetNumber = 1,
 				skill_id = 600001,
-				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
 				},
@@ -43,9 +43,9 @@ return {
 				"onBeforeFatalDamage"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				minTargetNumber = 1,
 				skill_id = 600000,
-				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
 				},
@@ -60,9 +60,9 @@ return {
 				"onBeforeFatalDamage"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				minTargetNumber = 1,
 				skill_id = 600000,
-				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
 				},
@@ -77,9 +77,9 @@ return {
 				"onBeforeFatalDamage"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				minTargetNumber = 1,
 				skill_id = 600000,
-				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
 				},

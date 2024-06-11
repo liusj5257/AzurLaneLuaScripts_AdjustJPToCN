@@ -1,12 +1,12 @@
 return {
-	id = "W890110",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W890110",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン実験場と思われるエリアで作戦目標を達成すると、色々と報酬がもらえるようだ。",
 			typewriter = {
 				speed = 0.05,

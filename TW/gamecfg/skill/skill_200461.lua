@@ -2,16 +2,16 @@ return {
 	uiEffect = "",
 	name = "2023黑阿尔及利亚 特殊点燃",
 	cd = 0,
-	painting = "aerjiliya_alter",
-	id = 200461,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "aerjiliya_alter",
+	id = 200461,
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHarm",
 				"TargetLowestHP"

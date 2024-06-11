@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG14",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"潮風と夏の無人島\n\n<size=45>安全第一？</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
-			say = "島の調査と開拓がせっせと進行していく中——",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "level02",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "島の調査と開拓がせっせと進行していく中——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "無人島・周辺海域",
@@ -99,10 +99,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "西側も異常ありません。もう少し先の海域を確認して参ります",
 			painting = {
 				alpha = 0.3,
@@ -117,10 +117,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "南側も異常ありませんね。各艦予定通り行動の継続を",
 			painting = {
 				alpha = 0.3,
@@ -135,10 +135,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 902010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "リシュリュー様、何度も見回ったし、そろそろ大丈夫じゃない？",
 			painting = {
 				alpha = 0.3,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -163,10 +163,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 903020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうはいかないわよ。謎の無人島だもの",
 			painting = {
 				alpha = 0.3,
@@ -257,10 +257,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 808010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "海の中なら私と量産艦が隈なく調査しているから大丈夫～。こっちも異常なーし",
 			painting = {
 				alpha = 0.3,
@@ -274,9 +274,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			paintingNoise = true,
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			actor = 902010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -291,8 +291,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,10 +304,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（ふふふ。今のところは特にこれといった気になることはありませんね）",
 			painting = {
 				alpha = 0.3,
@@ -322,10 +322,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（資源がやや豊富すぎるな気もするけど…）",
 			painting = {
 				alpha = 0.3,
@@ -340,10 +340,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ともあれ、こんな素晴らしい島を見つけられたのは、アイリスのご加護あってのことでしょう",
 			painting = {
 				alpha = 0.3,
@@ -358,10 +358,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "次からの見回りは量産艦に任せましょう。私たちもみんなの開拓作業を手伝いに行きますわ",
 			painting = {
 				alpha = 0.3,
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アイリス一行",
+			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

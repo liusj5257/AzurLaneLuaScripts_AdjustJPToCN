@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항 패션 컬렉션: 색다른 일상\n\n<size=45>3 바다 위의 해프닝</size>",
@@ -17,28 +17,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
+			bgm = "story-richang-5",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "맑은 하늘 아래, 수면에서 콘고는 서핑보드를 부여잡고 파도를 기다리고 있다.",
-			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――우선은 패들링이었지? 서핑보드 위에 엎드려서 몸을 중심에 안착시키고, 복근 힘으로 상체를 지탱한다고 했지.",
 			typewriter = {
@@ -99,13 +99,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――음…… 혹시 팁 같은 거 있어?",
 			typewriter = {
@@ -152,13 +152,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――안정적으로 선다니… 어려울 것 같아.",
 			typewriter = {
@@ -224,13 +224,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――아하, 포인트는 우아, 정확, 매끄러움……",
 			typewriter = {
@@ -354,9 +354,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -367,17 +367,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -494,9 +494,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -507,17 +507,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -544,11 +544,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "정말 한순간도 방심해선 안 되겠네요……",
@@ -596,13 +596,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(……이거 큰일인데. 콘고의 서핑 슈트가 핀에 걸려서……)",
 			typewriter = {
@@ -679,8 +679,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -689,11 +689,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지, 지휘관님! 보시면 안 돼요……",
@@ -707,8 +707,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -718,9 +718,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -731,17 +731,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -768,11 +768,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이, 이런 우아하지 못한 꼴을 보여드리게 될 줄은……",
@@ -805,11 +805,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "비밀로 해주시면 답례로……",

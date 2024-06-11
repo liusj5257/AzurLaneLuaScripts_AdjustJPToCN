@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"여름의 \"서프라이즈\"\n\n<size=45>1. 극지의 에스키모?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날의 모항",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날의 모항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "엣? 벤슨 언니도 에스키모를 만나보지 못한 거야!?",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "그럼 금방이면 지휘실에서 볼 수 있겠네. 어떤 모습의 동료일까...",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "에...? 나무 뒤에서 울부짖는 소리가!?",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_113",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "두두두둥~! 두두두둥~!",
 			dialogShake = {
 				speed = 0.08,
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "또 이상한 북 소리가 들렸어...!",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -342,8 +342,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,8 +361,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "(침 꼴깍)",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "짜자자잔~ 내가 바로 로열 네이비의 트라이벌급 구축함 에스키모야. 오늘부터 모항 비서함의 업무를 맡게 되었지. 잘 부탁해~",
 			dialogShake = {
 				speed = 0.08,
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "자칭 에스키모라는 소녀가 나무 뒤에서 나타났어!",
 			effects = {
 				{
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "근데 극지방 스타일의 두꺼운 겉옷에 설지 장비도 풀 세팅했어. 멋지다.",
 			typewriter = {
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "이름이랑은 달리 에너지가 넘치는 사람이네. 후훗, 금방 재밌는 일이 일어날 것 같은 기분이야~",
 			typewriter = {
 				speed = 0.05,

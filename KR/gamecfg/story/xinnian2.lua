@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 307030,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "에헴! 그럼 지금부터 연말 대청소를 시작하겠어요!",
 			typewriter = {
 				speed = 0.05,
@@ -32,13 +32,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "사쿠라 엠파이어의 여러분",
 			dir = 1,
+			actor = 0,
+			actorName = "사쿠라 엠파이어의 여러분",
 			say = "와아!",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			actor = 301140,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:16}",
 			dir = -1,
+			actorName = "{namecode:16}",
 			say = "오우! 아다다다다다! 단숨에 정리해주지!",
 			typewriter = {
 				speed = 0.05,
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "아아아앗! 방금 다 정리했는데……",
 			side = 0,
 			nameColor = "#92fc63",
-			actorName = "{namecode:34}",
 			dir = 1,
-			say = "아아아앗! 방금 다 정리했는데……",
+			actor = 301330,
+			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -88,8 +88,8 @@ return {
 			actor = 307020,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "후우… 전장의 '청소' 보다, 모항의 청소가 더 피곤하군……",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			actor = 307010,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:91}",
 			dir = 1,
+			actorName = "{namecode:91}",
 			say = "후후후… 평소에도 주의하고 있긴 하지만, 역시 정월엔 더욱더 신경써야겠지…… 지휘관님의 모항에 있는 '해충' 을 이번 기회에……",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			actor = 307020,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "아카기 언니, 오늘 임무는 평범한 정리정돈…… 부디 폭주는 참아주십시오……",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			actor = 307010,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:91}",
 			dir = 1,
+			actorName = "{namecode:91}",
 			say = "카가, 안심히. 지휘관님에겐 폐를 끼치지 않도록 조심하고 있으니까. 그 '해충' 들이 지휘관님의 곁에만 가지 않는다면야……",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			actor = 307030,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "뭔가 위험한 발언이 들렸는데……",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			actor = 307020,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "너는 분명 메탈 블러드의……",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			actor = 307030,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "아, 오이겐 씨, 안녕. 지금 사쿠라 엠파이어 숙소에서 1년에 한 번 하는 대청소를 하고 있거든.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			actor = 307010,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:91}",
 			dir = -1,
+			actorName = "{namecode:91}",
 			say = "뭐…라고? 지휘관님의 주위도 '청소' 하지 않으면 안 되겠네…… 후후후, 지휘관님, 지금 아카기가 곁으로 가겠어요……",
 			typewriter = {
 				speed = 0.05,
@@ -243,10 +243,10 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			actorShadow = true,
-			actorName = "{namecode:93}&{namecode:92}",
 			side = 0,
+			actorName = "{namecode:93}&{namecode:92}",
+			actor = 307030,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#92fc63",
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "계략으로 아카기를 꾀어내어 이쪽의 전력을 약화시키다니, 역시 메탈 블러드군.",
 			side = 1,
 			nameColor = "#92fc63",
-			actorName = "{namecode:92}",
 			dir = 1,
-			say = "계략으로 아카기를 꾀어내어 이쪽의 전력을 약화시키다니, 역시 메탈 블러드군.",
+			actor = 307020,
+			actorName = "{namecode:92}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -308,8 +308,8 @@ return {
 			actor = 307030,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:93}",
 			dir = -1,
+			actorName = "{namecode:93}",
 			say = "우으… 아카기 선배는 지휘관만 얽히면 바로 단순해진다니깐……",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			actor = 303120,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:67}",
 			dir = -1,
+			actorName = "{namecode:67}",
 			say = "어머, 청소할 곳이 꽤 남아 있는데, 아카기는 왜 벌써 가는 거지……",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			actor = 307030,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "어? 괜찮아?",
 			typewriter = {
 				speed = 0.05,

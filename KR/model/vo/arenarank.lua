@@ -1,6 +1,6 @@
 slot0 = class("Arenarank", import(".PlayerAttire"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.id = slot1.id
@@ -11,7 +11,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.rank = slot1.rank or 0
 end
 
-function slot0.getPainting(slot0)
+slot0.getPainting = function(slot0)
 	slot2 = nil
 
 	if pg.ship_skin_template[slot0.skinId] then
@@ -21,7 +21,7 @@ function slot0.getPainting(slot0)
 	return slot2 or "unknown"
 end
 
-function slot0.setRank(slot0, slot1)
+slot0.setRank = function(slot0, slot1)
 	slot0.rank = slot1
 end
 

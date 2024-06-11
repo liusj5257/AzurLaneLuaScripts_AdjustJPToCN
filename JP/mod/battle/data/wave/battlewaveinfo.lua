@@ -11,7 +11,7 @@ slot2.STATE_ACTIVE = "STATE_ACTIVE"
 slot2.STATE_PASS = "STATE_PASS"
 slot2.STATE_FAIL = "STATE_FAIL"
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._preWaves = {}
@@ -19,11 +19,11 @@ function slot2.Ctor(slot0)
 	slot0._branchWaves = {}
 end
 
-function slot2.IsReady(slot0)
+slot2.IsReady = function(slot0)
 	return slot0:IsPreWavesFinished()
 end
 
-function slot2.IsFlagsPass(slot0)
+slot2.IsFlagsPass = function(slot0)
 	if not slot0._blockFlags or not next(slot0._blockFlags) then
 		return true
 	end
@@ -41,7 +41,7 @@ function slot2.IsFlagsPass(slot0)
 	return true
 end
 
-function slot2.IsPreWavesFinished(slot0)
+slot2.IsPreWavesFinished = function(slot0)
 	slot1 = #slot0._preWaves
 	slot2 = nil
 
@@ -72,11 +72,11 @@ function slot2.IsPreWavesFinished(slot0)
 	return slot2
 end
 
-function slot2.IsFinish(slot0)
+slot2.IsFinish = function(slot0)
 	return slot0:GetState() == uv0.STATE_PASS or slot0:GetState() == uv0.STATE_FAIL
 end
 
-function slot2.DoBranch(slot0)
+slot2.DoBranch = function(slot0)
 	for slot4, slot5 in ipairs(slot0._branchWaves) do
 		if not slot0._branchWaveIDs[slot5:GetIndex()] or slot5:GetState() ~= uv0.STATE_PASS then
 			if slot6 or slot5:GetState() ~= uv0.STATE_FAIL then
@@ -96,17 +96,17 @@ function slot2.DoBranch(slot0)
 	slot0:DoWave()
 end
 
-function slot2.DoWave(slot0)
+slot2.DoWave = function(slot0)
 	slot0._state = uv0.STATE_ACTIVE
 end
 
-function slot2.AddMonster(slot0)
+slot2.AddMonster = function(slot0)
 end
 
-function slot2.RemoveMonster(slot0)
+slot2.RemoveMonster = function(slot0)
 end
 
-function slot2.SetWaveData(slot0, slot1)
+slot2.SetWaveData = function(slot0, slot1)
 	slot0._index = slot1.waveIndex
 	slot0._isKeyWave = slot1.key
 	slot0._logicType = slot1.conditionType or uv0.LOGIC_AND
@@ -118,56 +118,56 @@ function slot2.SetWaveData(slot0, slot1)
 	slot0._state = uv0.STATE_DEACTIVE
 end
 
-function slot2.SetCallback(slot0, slot1, slot2)
+slot2.SetCallback = function(slot0, slot1, slot2)
 	slot0._spawnFunc = slot1
 	slot0._airFunc = slot2
 end
 
-function slot2.AppendBranchWave(slot0, slot1)
+slot2.AppendBranchWave = function(slot0, slot1)
 	slot0._branchWaves[#slot0._branchWaves + 1] = slot1
 end
 
-function slot2.AppendPreWave(slot0, slot1)
+slot2.AppendPreWave = function(slot0, slot1)
 	slot0._preWaves[#slot0._preWaves + 1] = slot1
 end
 
-function slot2.AppendPostWave(slot0, slot1)
+slot2.AppendPostWave = function(slot0, slot1)
 	slot0._postWaves[#slot0._postWaves + 1] = slot1
 end
 
-function slot2.IsKeyWave(slot0)
+slot2.IsKeyWave = function(slot0)
 	return slot0._isKeyWave
 end
 
-function slot2.GetPostWaves(slot0)
+slot2.GetPostWaves = function(slot0)
 	return slot0._postWaves
 end
 
-function slot2.GetIndex(slot0)
+slot2.GetIndex = function(slot0)
 	return slot0._index
 end
 
-function slot2.GetType(slot0)
+slot2.GetType = function(slot0)
 	return slot0._type
 end
 
-function slot2.GetState(slot0)
+slot2.GetState = function(slot0)
 	return slot0._state
 end
 
-function slot2.GetPreWaveIDs(slot0)
+slot2.GetPreWaveIDs = function(slot0)
 	return slot0._preWaveIDs
 end
 
-function slot2.GetBranchWaveIDs(slot0)
+slot2.GetBranchWaveIDs = function(slot0)
 	return slot0._branchWaveIDs
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
-function slot2.doPass(slot0)
+slot2.doPass = function(slot0)
 	if not slot0:IsFinish() then
 		slot0._state = uv0.STATE_PASS
 
@@ -175,7 +175,7 @@ function slot2.doPass(slot0)
 	end
 end
 
-function slot2.doFail(slot0)
+slot2.doFail = function(slot0)
 	if not slot0:IsFinish() then
 		slot0._state = uv0.STATE_FAIL
 

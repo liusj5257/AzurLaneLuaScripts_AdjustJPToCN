@@ -1,41 +1,41 @@
 slot0 = class("LaunchBallGameMenuUI")
 slot0.player_item = {
 	{
-		skill_1_desc = "launch_ball_hatsuduki_skill_1_desc",
-		name = "Hatsuduki",
-		skill_1 = "launch_ball_hatsuduki_skill_1",
-		skill_2 = "launch_ball_hatsuduki_skill_2",
 		id = 1,
-		skill_2_desc = "launch_ball_hatsuduki_skill_2_desc"
+		name = "Hatsuduki",
+		skill_1_desc = "launch_ball_hatsuduki_skill_1_desc",
+		skill_2_desc = "launch_ball_hatsuduki_skill_2_desc",
+		skill_1 = "launch_ball_hatsuduki_skill_1",
+		skill_2 = "launch_ball_hatsuduki_skill_2"
 	},
 	{
-		skill_1_desc = "launch_ball_shinano_skill_1_desc",
-		name = "Shinano",
-		skill_1 = "launch_ball_shinano_skill_1",
-		skill_2 = "launch_ball_shinano_skill_2",
 		id = 2,
-		skill_2_desc = "launch_ball_shinano_skill_2_desc"
+		name = "Shinano",
+		skill_1_desc = "launch_ball_shinano_skill_1_desc",
+		skill_2_desc = "launch_ball_shinano_skill_2_desc",
+		skill_1 = "launch_ball_shinano_skill_1",
+		skill_2 = "launch_ball_shinano_skill_2"
 	},
 	{
-		skill_1_desc = "launch_ball_yura_skill_1_desc",
-		name = "Yura",
-		skill_1 = "launch_ball_yura_skill_1",
-		skill_2 = "launch_ball_yura_skill_2",
 		id = 3,
-		skill_2_desc = "launch_ball_yura_skill_2_desc"
+		name = "Yura",
+		skill_1_desc = "launch_ball_yura_skill_1_desc",
+		skill_2_desc = "launch_ball_yura_skill_2_desc",
+		skill_1 = "launch_ball_yura_skill_1",
+		skill_2 = "launch_ball_yura_skill_2"
 	},
 	{
-		skill_1_desc = "launch_ball_shimakaze_skill_1_desc",
-		name = "Shimakaze",
-		skill_1 = "launch_ball_shimakaze_skill_1",
-		skill_2 = "launch_ball_shimakaze_skill_2",
 		id = 4,
-		skill_2_desc = "launch_ball_shimakaze_skill_2_desc"
+		name = "Shimakaze",
+		skill_1_desc = "launch_ball_shimakaze_skill_1_desc",
+		skill_2_desc = "launch_ball_shimakaze_skill_2_desc",
+		skill_1 = "launch_ball_shimakaze_skill_1",
+		skill_2 = "launch_ball_shimakaze_skill_2"
 	}
 }
 slot0.skill_detail_desc = "launch_ball_skill_desc"
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 	slot0.menuUI = findTF(slot0._tf, "ui/menuUI")
@@ -146,7 +146,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:selectPlayer(nil)
 end
 
-function slot0.selectPlayer(slot0, slot1)
+slot0.selectPlayer = function(slot0, slot1)
 	for slot5 = 1, #slot0.players do
 		if slot0.players[slot5].data.id == slot1 then
 			setActive(findTF(slot0.players[slot5].tf, "ad/select"), true)
@@ -172,7 +172,7 @@ function slot0.selectPlayer(slot0, slot1)
 	end
 end
 
-function slot0.showSkillPanel(slot0, slot1)
+slot0.showSkillPanel = function(slot0, slot1)
 	slot3 = i18n(slot1.skill_1_desc)
 	slot4 = i18n(slot1.skill_2)
 	slot5 = i18n(slot1.skill_2_desc)
@@ -198,11 +198,11 @@ function slot0.showSkillPanel(slot0, slot1)
 	end
 end
 
-function slot0.show(slot0, slot1)
+slot0.show = function(slot0, slot1)
 	setActive(slot0.menuUI, slot1)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.mgHubData = slot1
 	slot2 = slot0:getGameUsedTimes(slot1)
 	slot3 = slot0:getGameTimes(slot1)
@@ -240,7 +240,7 @@ function slot0.update(slot0, slot1)
 	setActive(findTF(slot0.menuUI, "btnStart/tip"), slot3 > 0)
 end
 
-function slot0.CheckGet(slot0)
+slot0.CheckGet = function(slot0)
 	setActive(findTF(slot0.menuUI, "got"), false)
 
 	if slot0:getUltimate(slot0.mgHubData) and slot2 ~= 0 then
@@ -261,15 +261,15 @@ function slot0.CheckGet(slot0)
 	end
 end
 
-function slot0.getGameTimes(slot0, slot1)
+slot0.getGameTimes = function(slot0, slot1)
 	return slot1.count
 end
 
-function slot0.getGameUsedTimes(slot0, slot1)
+slot0.getGameUsedTimes = function(slot0, slot1)
 	return slot1.usedtime
 end
 
-function slot0.getUltimate(slot0, slot1)
+slot0.getUltimate = function(slot0, slot1)
 	return slot1.ultimate
 end
 

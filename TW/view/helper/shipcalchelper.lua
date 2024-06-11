@@ -1,6 +1,6 @@
 slot0 = class("ShipCalcHelper")
 
-function slot0.CalcDestoryRes(slot0)
+slot0.CalcDestoryRes = function(slot0)
 	slot1 = {}
 	slot2 = 0
 	slot3 = 0
@@ -51,7 +51,7 @@ function slot0.CalcDestoryRes(slot0)
 	return slot2, slot3, slot1, slot4
 end
 
-function slot0.GetEliteAndHightLevelShips(slot0)
+slot0.GetEliteAndHightLevelShips = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -66,7 +66,7 @@ function slot0.GetEliteAndHightLevelShips(slot0)
 	return slot1, slot2
 end
 
-function slot0.GetEliteAndHightLevelAndResOverflow(slot0, slot1)
+slot0.GetEliteAndHightLevelAndResOverflow = function(slot0, slot1)
 	slot2 = _.map(slot0, function (slot0)
 		assert(uv0[slot0], slot0)
 

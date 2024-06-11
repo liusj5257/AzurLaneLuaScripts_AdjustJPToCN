@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					rant = 7000,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.01
+					number = 0.01,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -33,8 +33,8 @@ return {
 				},
 				arg_list = {
 					rant = 7330,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.02
+					number = 0.02,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -58,8 +58,8 @@ return {
 				},
 				arg_list = {
 					rant = 7660,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.03
+					number = 0.03,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 				},
 				arg_list = {
 					rant = 7990,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.04
+					number = 0.04,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 				},
 				arg_list = {
 					rant = 8320,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.05
+					number = 0.05,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 				},
 				arg_list = {
 					rant = 8650,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.06
+					number = 0.06,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -158,8 +158,8 @@ return {
 				},
 				arg_list = {
 					rant = 8980,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.07
+					number = 0.07,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 				},
 				arg_list = {
 					rant = 9310,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.08
+					number = 0.08,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -208,8 +208,8 @@ return {
 				},
 				arg_list = {
 					rant = 9640,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.09
+					number = 0.09,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 				},
 				arg_list = {
 					rant = 10000,
-					target = "TargetSelf",
-					skill_id = 17590
+					skill_id = 17590,
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -243,20 +243,20 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmeng",
-					number = 0.1
+					number = 0.1,
+					attr = "CRI_TAG_EHC_suweiaitongmeng"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 17590,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17590,
+	color = "red",
 	icon = 17590,
 	last_effect = "",
 	effect_list = {
@@ -267,8 +267,8 @@ return {
 			},
 			arg_list = {
 				rant = 7000,
-				target = "TargetSelf",
-				skill_id = 17590
+				skill_id = 17590,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -277,8 +277,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "CRI_TAG_EHC_suweiaitongmeng",
-				number = 0.01
+				number = 0.01,
+				attr = "CRI_TAG_EHC_suweiaitongmeng"
 			}
 		}
 	}

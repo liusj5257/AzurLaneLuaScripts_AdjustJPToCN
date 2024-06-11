@@ -1,14 +1,14 @@
 return {
-	once = true,
-	mode = 2,
-	id = "FUYINGYINGHUA13",
-	continueBgm = true,
 	fadeType = 1,
+	mode = 2,
+	continueBgm = true,
+	once = true,
+	id = "FUYINGYINGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"Never lose faith.\" ...That is what Great Veteran Mikasa told me.</size>",
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -74,27 +74,27 @@ return {
 			}
 		},
 		{
-			bgm = "story-6",
-			side = 2,
 			bgName = "bg_xinnong_cg3",
-			say = "A few days prior, in a Mirror Sea...",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
+			bgm = "story-6",
+			say = "A few days prior, in a Mirror Sea...",
 			effects = {
 				{
 					active = false,
 					name = "logo_sakura"
 				},
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -119,9 +119,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
+			dir = 1,
 			say = "The remnants of facilities that should not possibly exist in this era, cleaved apart cleanly by a flurry of masterful strokes, told a self-evident story.",
 			effect = {
 				{
@@ -139,9 +139,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
+			side = 2,
+			dir = 1,
 			say = "The Sirens had created yet another Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "...Purification complete. Moving towards the next location.",
 			typewriter = {
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "...I have nothing to say to you.",
 			typewriter = {
@@ -330,11 +330,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "...So you came to learn more about her plans. Get lost, that has nothing to do with you.",
 			typewriter = {
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "...Are you done running your trap?",
 			typewriter = {
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "What...?!",
 			typewriter = {
@@ -560,11 +560,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -577,11 +577,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "If the overreliance upon these \"gods\" brings calamity to the world, I suppose it would be well-deserved.",
 			typewriter = {
@@ -648,9 +648,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
+			side = 2,
+			dir = 1,
 			say = "(The communication cuts off)",
 			typewriter = {
 				speed = 0.05,
@@ -662,11 +662,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "Wait, come back!",
 			typewriter = {
@@ -679,11 +679,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -696,11 +696,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "Once again, it seems like I must walk the tortuous path...!",
 			typewriter = {

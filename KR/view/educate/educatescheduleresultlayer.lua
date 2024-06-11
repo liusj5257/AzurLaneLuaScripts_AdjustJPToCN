@@ -1,10 +1,10 @@
 slot0 = class("EducateScheduleResultLayer", import(".base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateScheduleResultUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 	slot0.inAnimPlaying = true
@@ -30,7 +30,7 @@ function slot0.init(slot0)
 	})
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:_close()
 	end, SFX_CANCEL)
@@ -40,7 +40,7 @@ function slot0.didEnter(slot0)
 	slot0.resResult = {}
 	slot0.drops = {}
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			table.insert(uv0.drops, slot5)
 
@@ -84,7 +84,7 @@ function slot0.didEnter(slot0)
 	slot0:updateResPanel()
 end
 
-function slot0.updatePersonalPanel(slot0)
+slot0.updatePersonalPanel = function(slot0)
 	slot1 = EducateHelper.IsShowNature()
 
 	setActive(slot0.personalTF, slot1)
@@ -107,7 +107,7 @@ function slot0.updatePersonalPanel(slot0)
 	end
 end
 
-function slot0.updateMajorPanel(slot0)
+slot0.updateMajorPanel = function(slot0)
 	for slot4 = 1, slot0.majorArrTF.childCount do
 		slot5 = slot0.majorArrTF:GetChild(slot4 - 1)
 		slot6 = slot0.majorIds[slot4]
@@ -132,7 +132,7 @@ function slot0.updateMajorPanel(slot0)
 	end
 end
 
-function slot0.updateMinorPanel(slot0)
+slot0.updateMinorPanel = function(slot0)
 	for slot4 = 1, slot0.minorArrTF.childCount do
 		slot5 = slot0.minorArrTF:GetChild(slot4 - 1)
 		slot6 = slot0.minorIds[slot4]
@@ -154,7 +154,7 @@ function slot0.updateMinorPanel(slot0)
 	end
 end
 
-function slot0.updateResPanel(slot0)
+slot0.updateResPanel = function(slot0)
 	for slot4 = 1, #slot0.resIds do
 		slot5 = slot0.resTF:GetChild(slot4 - 1)
 		slot6 = slot0.resIds[slot4]
@@ -174,7 +174,7 @@ function slot0.updateResPanel(slot0)
 	end
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	if slot0.inAnimPlaying then
 		return
 	end
@@ -182,11 +182,11 @@ function slot0._close(slot0)
 	slot0.anim:Play("anim_educate_result_out")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	getProxy(EducateProxy):OnNextWeek()
 	slot0.animEvent:SetEndEvent(nil)
 

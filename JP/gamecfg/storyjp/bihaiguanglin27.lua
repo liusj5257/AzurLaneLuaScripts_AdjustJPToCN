@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN27",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "中心部の天守を囲む水路に波はなく、まるで鏡のように来訪者たちの姿を照らしている。",
 			dir = 1,
 			bgm = "theme-longgong",
+			nameColor = "#a9f548",
+			say = "中心部の天守を囲む水路に波はなく、まるで鏡のように来訪者たちの姿を照らしている。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "これからの決戦にまるで似つかわしくない静寂が一行を包み込んだ。",
@@ -82,8 +82,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "ここはセイレーンの施設ですから深く考えないでいいですよ",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "さて次はお宝かそれとも施設の自爆スイッチか、はたまたこの竜宮城をもう一度浮上させられる装置か？",
 			typewriter = {
@@ -113,14 +113,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "中心部の建物に近づき、手分けして探索すると、島風たちが今までの仕掛けと似たような構造の台座を発見した。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "ここだけ、雰囲気が周りと違いますね……",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "それにあの封印された建物に、誰かいるような…",
 			typewriter = {
@@ -182,10 +182,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "この台座こそ竜宮城の制御装置ですね？むむむ、ここは一体どうすれば……",
 			typewriter = {
 				speed = 0.05,
@@ -216,10 +216,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうですね！…ってあわわ！刀の鞘が台座に触れて――",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,12 +241,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "――――――！！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "奥の建物から機械音が響き、一行のいる場所が揺れたが、またたく間に収まった。",
@@ -314,8 +314,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "島風、大丈夫！？変なことが起きなくてよかった……まったく、台座に触れないでって言ったじゃない！",
 			typewriter = {
@@ -331,10 +331,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "申し訳ございません駿河殿、島風、ちょっと不注意で……",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "何奴！？",
 			typewriter = {
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "――――――！！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -483,8 +483,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "封印を破壊した！？",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "中心部から現れた「艦船」が、一行に話しかけることも襲うこともなく、大きくあくびをした。",
@@ -533,8 +533,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "セイレーンの「駒」？でもなんだか雰囲気が違う…",
 			typewriter = {
@@ -550,10 +550,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あのーどちらさまですか？もしかして島風たちと同じくここに囚われた人ですか？",
 			typewriter = {
 				speed = 0.05,
@@ -568,8 +568,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（いきなり近寄って話しかけるなバカ！襲われたらどうするのよ！）",
 			typewriter = {
@@ -601,8 +601,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "お前らこそなんだ？城を勝手に荒らしただけでなく、我を眠りから起こしたのか？（キリッ",
 			typewriter = {
@@ -618,10 +618,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ひぃ！？ごめんなさい！島風たちはてっきりここはセイレーンの拠点だと思ったもので…弁償しますから許してください！",
 			typewriter = {
 				speed = 0.05,
@@ -633,8 +633,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,8 +662,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "良い良い。そんなことより――我を起こしたってことは、覚悟が出来てるのだろうな",
 			typewriter = {
@@ -679,10 +679,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "か、覚悟！？すみませんすみません、島風がここから脱出しようと思ったばかりに…",
 			typewriter = {
 				speed = 0.05,
@@ -694,8 +694,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -707,8 +707,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "なんだこの小僧は…しょうがない。こいつだけでなくお前ら全員に「試練」に参加してもらう！",
 			typewriter = {
@@ -724,10 +724,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "試練…ですか？",
 			typewriter = {
 				speed = 0.05,
@@ -742,8 +742,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "なんだ、竜宮城から帰りたいのだろ？ならば試練に参加せい。わからんのか？",
 			typewriter = {
@@ -814,8 +814,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -827,8 +827,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "島風、ここは私が交渉します。…試練の内容はなんですか？",
 			typewriter = {
@@ -844,8 +844,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "おっ、お前がリーダーか",
 			typewriter = {
@@ -861,8 +861,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "重桜所属、利根型巡洋艦の筑摩、この子は私の仲間です",
 			typewriter = {
@@ -878,8 +878,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "試練というのは、もしや…あなたに戦いで勝つことですか？",
 			typewriter = {
@@ -943,8 +943,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "……それだけですか？",
 			typewriter = {
@@ -960,8 +960,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "なにが言いたい？",
 			typewriter = {
@@ -977,8 +977,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "私達が勝てばこの竜宮城の「お宝」、そして制御装置を引き渡してくれる、そういう話ではなかったのですか？",
 			typewriter = {
@@ -994,8 +994,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "何を言ってるかよくわからんが、まずは我に勝つことだな",
 			typewriter = {
@@ -1011,8 +1011,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "…どうやらこれ以上この方から情報を引き出すには、一度戦うしかなさそうですね",
 			typewriter = {
@@ -1025,11 +1025,11 @@ return {
 			}
 		},
 		{
-			actor = 303060,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303060,
+			nameColor = "#a9f548",
 			say = "（駿河さん、今水上機で偵察しましたけど、「台座」は全部で4つあります）",
 			typewriter = {
 				speed = 0.05,
@@ -1041,8 +1041,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1070,8 +1070,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#ff5c5c",
 			say = "小声で何ぼそぼそ言ってるか！そっちが来ないならこっちから行くぞ！ふん！！",
 			typewriter = {
@@ -1103,10 +1103,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "頑張って、駿河殿ー！",
 			typewriter = {
 				speed = 0.05,
@@ -1118,8 +1118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1131,9 +1131,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "何他人事のように応援しはじめてるのよ！一緒に戦いなさいよ！",
 			typewriter = {
@@ -1146,8 +1146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

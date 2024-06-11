@@ -1,21 +1,13 @@
-slot0 = class("MainLiveAreaPage", import("...base.BaseSubView"))
+slot0 = class("MainLiveAreaPage", import("view.base.BaseSubView"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3)
-	slot0:bind(NewMainScene.OPEN_LIVEAREA, function (slot0)
-		uv0:ExecuteAction("Show")
-	end)
-end
-
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MainLiveAreaUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0._bg = slot0:findTF("bg")
 
-	setText(slot0:findTF("day/Text", slot0._bg), i18n("word_harbour"))
-	setText(slot0:findTF("night/Text", slot0._bg), i18n("word_harbour"))
+	setText(slot0:findTF("bg/Text", slot0._bg), i18n("word_harbour"))
 
 	slot0.timeCfg = pg.gameset.main_live_area_time.description
 	slot0._academyBtn = slot0:findTF("school_btn")
@@ -36,7 +28,7 @@ function slot0.OnLoaded(slot0)
 	}))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._commanderBtn, function ()
 		uv0:emit(NewMainMediator.GO_SCENE, SCENE.COMMANDERCAT, {
 			fromMain = true,
@@ -71,7 +63,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
 		weight = LayerWeightConst.SECOND_LAYER
@@ -95,6 +87,12 @@ function slot0.Show(slot0)
 		slot0._educateBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1.level, "SelectDorm3DMediator") then
+		slot0._dormBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
+	else
+		slot0._dormBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
+	end
+
 	slot0:UpdateTime()
 
 	slot0.timer = Timer.New(function ()
@@ -104,31 +102,28 @@ function slot0.Show(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.UpdateTime(slot0)
-	slot3 = pg.TimeMgr.GetInstance():GetServerHour() < 12
-
-	setActive(slot0:findTF("AM", slot0._bg), slot3)
-	setActive(slot0:findTF("PM", slot0._bg), not slot3)
+slot0.UpdateTime = function(slot0)
+	GetSpriteFromAtlasAsync("ui/MainUISecondaryPanel_atlas", pg.TimeMgr.GetInstance():GetServerHour() < 12 and "am" or "pm", function (slot0)
+		uv0:findTF("bg/AMPM"):GetComponent(typeof(Image)).sprite = slot0
+	end)
 
 	slot4 = slot0:getDayOrNight(slot2) == "day"
+	slot0:findTF("bg", slot0._bg):GetComponent(typeof(Image)).sprite = LoadSprite("bg/" .. (slot4 and "bg_livingarea_day" or "bg_livingarea_night"), "")
+	slot0:findTF("bg", slot0._islandBtn):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/MainUISecondaryPanel_atlas", slot4 and "island_build_day" or "island_build_night")
 
-	setActive(slot0:findTF("day", slot0._bg), slot4)
-	setActive(slot0:findTF("night", slot0._bg), not slot4)
-	setActive(slot0:findTF("day", slot0._islandBtn), slot4)
-	setActive(slot0:findTF("night", slot0._islandBtn), not slot4)
 	setText(slot0:findTF("date", slot0._bg), slot1:CurrentSTimeDesc("%Y/%m/%d", true))
 
-	slot6 = slot1:CurrentSTimeDesc(":%M", true)
+	slot8 = slot1:CurrentSTimeDesc(":%M", true)
 
 	if slot2 > 12 then
 		slot2 = slot2 - 12
 	end
 
-	setText(slot0:findTF("time", slot0._bg), slot2 .. slot6)
+	setText(slot0:findTF("time", slot0._bg), slot2 .. slot8)
 	setText(slot0:findTF("date/week", slot0._bg), EducateHelper.GetWeekStrByNumber(slot1:GetServerWeek()))
 end
 
-function slot0.getDayOrNight(slot0, slot1)
+slot0.getDayOrNight = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.timeCfg) do
 		if slot6[1][1] <= slot1 and slot1 < slot7[2] then
 			return slot6[2]
@@ -138,7 +133,7 @@ function slot0.getDayOrNight(slot0, slot1)
 	return "day"
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0:isShowing() then
 		uv0.super.Hide(slot0)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
@@ -151,7 +146,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

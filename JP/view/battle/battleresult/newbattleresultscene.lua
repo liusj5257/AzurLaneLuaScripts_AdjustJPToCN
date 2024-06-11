@@ -1,10 +1,10 @@
 slot0 = class("NewBattleResultScene", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewBattleResultEmptyUI"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0._parentTf = slot0._tf.parent
 
 	slot0:InitData()
@@ -28,7 +28,7 @@ function slot0.didEnter(slot0)
 	end, 0.2)
 end
 
-function slot0.Adjustion(slot0)
+slot0.Adjustion = function(slot0)
 	slot1 = GetComponent(slot0._tf, typeof(AspectRatioFitter))
 	slot1.enabled = true
 	slot1.aspectRatio = pg.CameraFixMgr.GetInstance().targetRatio
@@ -38,7 +38,7 @@ function slot0.Adjustion(slot0)
 	end)
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	if getProxy(SettingsProxy):IsDisplayResultPainting() then
 		return
 	end
@@ -50,7 +50,7 @@ function slot1(slot0)
 	end
 end
 
-function slot0.InitData(slot0)
+slot0.InitData = function(slot0)
 	slot0.pages = NewBattleResultSystem2Pages[slot0.contextData.system] or {
 		NewBattleResultGradePage,
 		NewBattleResultDisplayAwardPage,
@@ -70,16 +70,16 @@ function slot0.InitData(slot0)
 	slot0.contextData.buffShips = NewBattleResultDataExtender.GetShipBuffs(slot0.contextData.system)
 end
 
-function slot0.CloseCamera(slot0)
+slot0.CloseCamera = function(slot0)
 	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
 end
 
-function slot0.Vibrate(slot0)
+slot0.Vibrate = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_AUTO_BATTLE)
 	LuaHelper.Vibrate()
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot2 = {}
 	slot0.history = {}
 
@@ -103,7 +103,7 @@ function slot0.SetUp(slot0, slot1)
 	end)
 end
 
-function slot0.DestroyHistory(slot0)
+slot0.DestroyHistory = function(slot0)
 	for slot4, slot5 in ipairs(slot0.history) do
 		if not isa(slot5, NewBattleResultStatisticsPage) then
 			slot5:Destroy()
@@ -111,8 +111,8 @@ function slot0.DestroyHistory(slot0)
 	end
 end
 
-function slot0.GoBack(slot0)
-	function slot1()
+slot0.GoBack = function(slot0)
+	slot1 = function()
 		uv0.backSceneHandler = NewBattleResultBackSceneHandler.New(uv0.contextData)
 
 		uv0.backSceneHandler:Execute()
@@ -125,10 +125,10 @@ function slot0.GoBack(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.camEventId then

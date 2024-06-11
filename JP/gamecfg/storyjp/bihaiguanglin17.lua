@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN17",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "重桜にて",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-pacific",
+			nameColor = "#a9f548",
+			say = "重桜にて",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
 			say = "筑摩や山風たちまでも竜宮城と一緒に消えたのか！？",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "その竜宮城、本当に消えたのか？",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……艦載機を送ったところ、跡型もなく…",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "鉄血のほうからも、同じ連絡が…",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "幸先が悪いな…鉄血への訪問、大したことが無いと思っていたが",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
 			say = "余に本島より援軍を出すべきだと申したのか？",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "妾も様子を観たが…海中の竜宮城の様子は…少なくともセイレーンの罠とは考えにくいと…",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "されど、要件は……「指揮官」に関して…",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "重桜と鉄血も等しく導いていく、「指揮官」……",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "どうか、お二方に、ご助力のほどを……",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
 			say = "信濃の頼みとあらば、余は喜んで――",
 			typewriter = {
@@ -255,8 +255,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "いや長門、ここは我に任せてくれないか",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "……信濃が指揮官のことをどこまで知ってるかは分からぬが、一つだけ大事なことをまず述べておこう",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "大事な…こと……？",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
 			say = "そうだ。指揮官はなにゆえ各陣営の艦船を率いることができるかについてだ",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "我に任せてくれと言ったであろう。コホン、信濃の知っての通り、我ら艦船はメンタルキューブから生み出されている",
 			typewriter = {
@@ -340,8 +340,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "そのメンタルキューブについて、人類は前の大戦より研究を進めてきたが、大した成果を得られていないのが現状だ",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "……まあ艤装や、メンタルキューブのエネルギーを利用する兵器はその副産物と言えるな",
 			typewriter = {
@@ -374,8 +374,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
 			say = "うむ。メンタルキューブの軍事利用もその一つだ",
 			typewriter = {
@@ -391,8 +391,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "実は、このメンタルキューブ――実は艦船と関係しているだけではないのだ",
 			typewriter = {
@@ -408,8 +408,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
 			say = "……！我もそれは初耳なのだが…！？",
 			typewriter = {
@@ -425,8 +425,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "そう驚くな。この話はそこまで踏み入ったことではない",
 			typewriter = {
@@ -442,8 +442,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "メンタルキューブは「ヒトの思いを具現化」するとされているが、具体的にどうなっているかは誰も分からぬ",
 			typewriter = {
@@ -459,8 +459,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "――少なくとも、上層部から開示されている情報ではな",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "だが、メンタルキューブから生み出された我らの力をより強くできる、いわゆる「キューブ適性」を持つたった一人の存在、それが指揮官だ",
 			typewriter = {
@@ -493,8 +493,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "キューブ、適性……",
 			typewriter = {
@@ -510,8 +510,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "もっとも、キューブ適性とはなんなのか、これもやはりキューブの機能と同じく、はっきりとは分かっておらぬ",
 			typewriter = {
@@ -527,8 +527,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "ここからが重要だ。我は指揮官がこの「キューブ適性」だけの存在とは思わぬ",
 			typewriter = {
@@ -544,8 +544,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "出自や過去がどうであれ、我々艦船にヒトと同じように接し、信頼し、そして大切にしてくれている――それが指揮官を指揮官足らしめるところだ",
 			typewriter = {
@@ -561,8 +561,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
 			say = "三笠大先輩…………",
 			typewriter = {
@@ -578,8 +578,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "今の世界情勢はかつてなく混迷している、他の陣営だけでなく我が重桜にも各々の思いで動いている艦船がいる",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "前の大戦で一度団結した「アズールレーン」をもう一度結成し、すべての艦船を一丸に取りまとめるのは、指揮官しか――",
 			typewriter = {
@@ -644,8 +644,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "………わかった。下がってよろしい…",
 			typewriter = {
@@ -661,8 +661,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "どうやら今日はここまでだな。まあ、この話の続きはまた今度にしてもよかろう",
 			typewriter = {
@@ -678,8 +678,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……一つ、最後に…指揮官は今、いずこに……？",
 			typewriter = {
@@ -695,8 +695,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "たしか北方連合から帰還したあと、すぐ「再現」の戦いに参加していたそうだが……",
 			typewriter = {
@@ -712,9 +712,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305110,
 			dir = 1,
 			blackBg = true,
+			actor = 305110,
 			nameColor = "#a9f548",
 			say = "そうだ。今はあのニュージャージーたちとPH基地にいるはずだ",
 			typewriter = {

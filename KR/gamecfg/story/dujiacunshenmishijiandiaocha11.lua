@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리조트 신비 사건 조사\n\n<size=45>요괴와 귀신</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "'요괴 극단'의 공연이 개장하기 전에 일어난 또 다른 이야기――",
+			nameColor = "#A9F548FF",
+			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			bgm = "stopbgm",
+			say = "'요괴 극단'의 공연이 개장하기 전에 일어난 또 다른 이야기――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "청소도 거의 막바지에 접어들자, 유라 일행은 방으로 돌아가 잠시 휴식을 취하기로 했다.",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "이변이 일어날 것이라고는 조금도 생각하지 못한 채……",
@@ -51,28 +51,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "xinnong-3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "만쥬 온천 마을, 여관 본관",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 302215,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "얼음을 녹이는 쿨뷰티",
 			dir = 1,
+			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "설마 방금 진동이랑 관련이 있는 건… 시나노 씨 상태를 보고 올게요.",
@@ -157,9 +157,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_517",
 			factiontag = "순박한 학교 친구 갸루",
 			dir = 1,
+			bgName = "star_level_bg_517",
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -173,17 +173,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 301041,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "주워가 주세요",
 			dir = 1,
+			actor = 301041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으아… '요괴 극단'의 소문은 진짜였나 봐… 정말 요괴가 있는 거야…?",
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "'또 다른 유라'가 손을 뻗어 무언가를 잡았다. 그러자 으스스한 목소리가 사라졌다.",
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 302231,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "온천 만쥬 너무 좋아!",
 			dir = 1,
+			actor = 302231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응? 어디 보자… 뭘 들고 있는 거야? 사카와 눈에는 아무것도 안 보여.",
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 302070,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "지금은 유라예요",
 			dir = 1,
+			actor = 302070,
 			nameColor = "#A9F548FF",
 			say = "그럼… 이 아이는 어떻게 할까요? 여기 그대로 두면 지휘관님께 민폐를 끼칠 것 같은데…",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "자주 고장나는 통신기",
 			hidePaintObj = true,

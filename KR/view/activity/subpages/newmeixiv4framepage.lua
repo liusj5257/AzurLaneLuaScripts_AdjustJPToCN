@@ -1,6 +1,6 @@
 slot0 = class("NewMeixiV4framePage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	setActive(slot0.displayBtn, false)
 	setActive(slot0.awardTF, false)
@@ -35,7 +35,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 	slot2 = GetOrAddComponent(slot0.phases[1], typeof(CanvasGroup))
 
@@ -63,11 +63,11 @@ function slot0.Switch(slot0, slot1)
 	slot0:UpdateAwardGot()
 end
 
-function slot0.UpdateAwardGot(slot0)
+slot0.UpdateAwardGot = function(slot0)
 	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), not slot0.ptData:CanGetNextAward() and slot0.inPhase2)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setActive(slot0.battleBtn, isActive(slot0.battleBtn) and pg.TimeMgr.GetInstance():inTime(slot0.activity:getConfig("config_client")))
 	slot0:UpdateAwardGot()

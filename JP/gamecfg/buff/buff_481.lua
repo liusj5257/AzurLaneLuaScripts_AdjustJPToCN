@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 5,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "暴击下降+道具命中",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAircraftCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = -0.1
+				number = -0.1,
+				attr = "cri"
 			}
 		},
 		{
@@ -25,8 +25,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = -0.1
+				number = -0.1,
+				attr = "cri"
 			}
 		},
 		{

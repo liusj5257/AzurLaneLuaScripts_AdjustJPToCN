@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Appeal",
 			say = "母港・ライブ海域中央ステージ",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Appeal",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -48,8 +48,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			say = "特にニセモノには絶対に負けないかんね♪",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -101,13 +101,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "舞台裏",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "赤城、みんな、大変なことになったにゃ！",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			nameColor = "#a9f548",
 			say = "これは…どういうこと？！",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "まずいにゃ！エネルギーがどんどん増えているにゃ！",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "明石もよくわからないにゃ…",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "ライブを始めてから、元々異常だったエネルギー反応がどんどん増えるにゃ",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "ガスコーニュまで…つまりこのままどうなってしまうの？",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "エネルギーが暴走したら……ここに元々埋め込んだ機械はともかく",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "うぅ…ステージだけじゃなく母港まで木っ端微塵になるにゃ！",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,8 +333,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "じゃ、じゃあライブを止めるように連絡しないと…！",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "今のインターバルでも上がっていたから止めたとしても爆発するにゃ！",
 			typewriter = {
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,8 +377,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "エネルギー暴走リスクの軽減方法を提案",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
 			say = "単純明快な作戦だな。というより、一緒にライブするようリハーサルをやっておいてよかったな",
 			typewriter = {
@@ -472,11 +472,11 @@ return {
 			}
 		},
 		{
-			actor = 401236,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401236,
+			nameColor = "#a9f548",
 			say = "そうですね…皆の努力は決して無駄にはなりません！",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -498,14 +498,14 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "次は艦船のみんなと一緒にステージに上がるのかな？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -533,8 +533,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			say = "うん…でないと、みんな爆発する",
 			typewriter = {
 				speed = 0.05,
@@ -549,8 +549,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			say = "爆発……？",
 			typewriter = {
 				speed = 0.05,
@@ -565,8 +565,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			say = "ドッカーンってなる特別な演出ってことじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -581,8 +581,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "残念ながら違いますね…実はこういう事情が……",
 			typewriter = {
 				speed = 0.05,
@@ -678,8 +678,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301057,
 			dir = 1,
+			actor = 301057,
 			say = "…皆を巻き込むつもりはなかったです。その…",
 			typewriter = {
 				speed = 0.05,
@@ -694,8 +694,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			say = "元々私達が皆をここに連れてきたせいで…ごめんなさい",
 			typewriter = {
 				speed = 0.05,
@@ -797,8 +797,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -884,9 +884,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10700010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "この世界でのラストステージ、みんなで最高に輝くために！",
 			effects = {
 				{

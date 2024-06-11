@@ -6,14 +6,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "？？？",
+			nameColor = "#FEF15E",
 			bgm = "ryza-az-theme",
 			actor = 401466,
-			nameColor = "#FEF15E",
+			actorName = "？？？",
 			hidePaintObj = true,
+			bgName = "star_level_bg_158",
 			say = "「冬が過ぎ、春が訪れ、万物が蘇る」",
 			painting = {
 				alpha = 0.3,
@@ -24,17 +24,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -47,9 +47,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "？？？",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "「神々の名の下に、この世界に祝福を――」",
 			painting = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			hidePaintObj = true,
 			say = "とある村。その大通りの向こうから歌声が聞こえてくる。",
@@ -75,12 +75,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
+			nameColor = "#FEF15E",
+			bgName = "star_level_bg_158",
 			portrait = 401466,
 			actorName = "吟遊詩人",
-			nameColor = "#FEF15E",
 			hidePaintObj = true,
 			say = "「良き季節に訪れる、始まりの旅先」",
 			painting = {
@@ -92,17 +92,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -115,9 +115,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
+			nameColor = "#FEF15E",
 			portrait = 401466,
 			actorName = "吟遊詩人",
-			nameColor = "#FEF15E",
 			hidePaintObj = true,
 			say = "「桃花の香りは馨しく、その素敵な居住地に人を誘う」",
 			painting = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "歌声……？",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "旅の吟遊詩人ね…この村に初めて訪れてきたみたい",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えへへ、いい歌～",
@@ -184,13 +184,13 @@ return {
 			}
 		},
 		{
-			actorName = "綾波",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
 			actor = 301059,
-			nameColor = "#A9F548FF",
+			actorName = "綾波",
 			hidePaintObj = true,
 			say = "綾波たちの村は最高です――と褒めているみたいです",
 			painting = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "吟遊詩人さん！ありがとう！",
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "村の酒場ならもっと盛り上がるよ！案内する？",
@@ -241,12 +241,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_158",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "あ……こほん。感謝する。美しいお嬢様方",
 			painting = {
@@ -258,17 +258,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -281,9 +281,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "通りすがりの吟遊詩人である私は、この地に留まるつもりはない",
 			painting = {
@@ -301,9 +301,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "なぜなら――",
 			painting = {
@@ -321,9 +321,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「迫りくるは闇」",
 			painting = {
@@ -341,9 +341,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「善良なる村人よ、速やかに離れるが良し」",
 			painting = {
@@ -361,9 +361,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「この笛の音に続き、豊かなサンクチュアリへ行け」",
 			painting = {
@@ -376,13 +376,13 @@ return {
 			}
 		},
 		{
-			actorName = "綾波",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
 			actor = 301059,
-			nameColor = "#A9F548FF",
+			actorName = "綾波",
 			hidePaintObj = true,
 			say = "……闇って…？",
 			painting = {
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "日が落ちるにはまだ早いよ？",
@@ -418,9 +418,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "うっ……確かに、ここは世界から隔絶された桃源郷",
 			painting = {
@@ -438,9 +438,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "その様子では「魔王」のことも知らないだろう",
 			painting = {
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……魔王…ラフィーのうちにある本に書いてる……",
@@ -476,9 +476,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "おとぎ話や伝説の本にある魔王ではない",
 			painting = {
@@ -491,13 +491,13 @@ return {
 			}
 		},
 		{
-			actorName = "吟遊詩人",
+			nameColor = "#FEF15E",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
 			actor = 401466,
-			nameColor = "#FEF15E",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "ふぅ……一日留まる理由ができた",
 			painting = {
@@ -515,9 +515,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "この村の酒場はどこ？",
 			painting = {
@@ -535,9 +535,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "？？？",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "今夜、あなたたちは吟遊詩人の歌を必要とするだろう",
 			painting = {
@@ -550,11 +550,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "村人？",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はいはーい！吟遊詩人さん、こっちだよー！",

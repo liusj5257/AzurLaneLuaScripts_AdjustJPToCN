@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-6",
 			say = "유니온·뉴욕항 외곽 이 순간",
+			side = 2,
+			dir = 1,
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "예상보다 1분 35초 일찍 도착했군, 전투력 평가를 수정해야겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "유니온 고급 순양함, 볼티모어급, 만재 배수량 17000톤, 203MM 주포 9문, 뛰어난 대공 전투력…특징은 정의의 사자라 자만함────",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "…정보에 따르면 유니온의 방어 함대 기함, 네가 바로 이곳의 최강의 전함이로군, 너만 쓰러뜨리면 임무는 끝난다",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "너흰 고작 무기야, 전쟁과 살육에 쓰이는 무기지.",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "명령만 내려오면 과거의 맹우조차 망설임없이 포격해야 하는…",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "그런 무기가 정의를 논하다니？",
 			typewriter = {
 				speed = 0.05,
@@ -211,13 +211,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 0,
-			withoutActorName = true,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "쾅───",
+			withoutActorName = true,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "쾅───",
 			flashN = {
 				color = {
 					1,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "大洋联邦 维修舰回血光环",
 	time = 0,
-	color = "blue",
+	name = "大洋联邦 维修舰回血光环",
+	init_effect = "",
+	id = 200237,
 	picture = "",
 	desc = "定期回复周围友军血量",
 	stack = 1,
-	id = 200237,
+	color = "blue",
 	icon = 200237,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200237,
 				time = 3,
-				target = "TargetSelf",
-				skill_id = 200237
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.035
+					number = 0.035,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.045
+					number = 0.045,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.055
+					number = 0.055,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.065
+					number = 0.065,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.075
+					number = 0.075,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_SMKZE",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_SMKZE"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 14851,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14851,
+	color = "red",
 	icon = 14850,
 	last_effect = "",
 	effect_list = {
@@ -157,8 +157,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_SMKZE",
-				number = 0.035
+				number = 0.035,
+				attr = "DMG_TAG_EHC_SMKZE"
 			}
 		}
 	}

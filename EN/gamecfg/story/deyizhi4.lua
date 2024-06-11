@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Cloudy Mask\n\n<size=45>Chapter 4: Devastated</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Office work hours have begun but Deutschland still hasn't shown up, so I decided to head to the Iron Blood dorm to look for her.",
 			typewriter = {
 				speed = 0.05,
@@ -27,14 +27,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
-			bgName = "bg_story_room",
+			stopbgm = true,
 			dir = 1,
+			bgName = "bg_story_room",
 			say = "Iron Blood Dormitory",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,13 +55,13 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You're here, slave? What do you want?",
 			bgm = "story-2",
+			actor = 403040,
+			nameColor = "#a9f548",
+			say = "You're here, slave? What do you want?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I opened the door to Deutschland's room to find her all by herself, huddled up in a corner.",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Now I'm worried about her...",
 			typewriter = {
 				speed = 0.05,
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "They say I'm powerful, which makes me think I actually am, until I'm convinced I'm superior to everyone and act high and mighty...",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			actor = 403040,
 			nameColor = "#a9f548",
 			bgName = "bg_story_room",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			say = "... She brushed my hand away.",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "Don't touch me!",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "And you're like them. You made me your secretary just so you could laugh at me when I screw up, didn't you?",
 			typewriter = {
 				speed = 0.05,
@@ -271,9 +271,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I don't think she'll listen to anything I say in her current state.",
 			typewriter = {
 				speed = 0.05,

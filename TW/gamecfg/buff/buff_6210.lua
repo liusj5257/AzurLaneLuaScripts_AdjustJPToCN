@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "超重弹",
 	time = 0,
-	color = "yellow",
+	name = "超重弹",
+	init_effect = "",
+	id = 6210,
 	picture = "",
 	desc = "提高暴击率",
 	stack = 1,
-	id = 6210,
+	color = "yellow",
 	icon = 6210,
 	last_effect = "",
 	effect_list = {

@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "……————",
-			side = 2,
-			bgm = "story-5",
-			dir = 1,
-			blackBg = true,
 			soundeffect = "event:/battle/boom1",
+			side = 2,
+			say = "……————",
+			blackBg = true,
+			dir = 1,
+			bgm = "story-5",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -439,15 +439,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 405020,
+			nameColor = "#ff0000",
 			say = "... What an unpredictable lady...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动 B3/D3机制弹条",
 	time = 20,
+	name = "公海舰队活动 B3/D3机制弹条",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8964,
-				target = "TargetSelf",
 				time = 15,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

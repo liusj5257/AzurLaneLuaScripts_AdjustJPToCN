@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLOGUANQIA29",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"... Molds.\" \"... Emotions.\" \"... Intimations.\"</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -43,8 +43,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,18 +68,18 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
+			actorName = "Tester?",
 			side = 2,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-6",
 			actor = 900011,
-			actorName = "Tester?",
+			nameColor = "#ff5c5c",
+			blackBg = true,
 			say = "And with this, the Resistance will have their hands tied behind their backs. Well done, Fubu– I mean, my \"Advisor.\"",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Advisor?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Advisor?",
 			say = "Don't worry. Those fools have no way to break the barriers created by your energy generator.",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +127,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "However, this Mirror Sea's control unit has a tendency to disobey me.",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Advisor?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Advisor?",
 			say = "Is that because... full authorization has not been granted yet?",
 			typewriter = {
 				speed = 0.05,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "Look there. This device has not fully acknowledged me. Me, Tester, the manipulator of space and time! The one who rules these seas!",
 			typewriter = {
 				speed = 0.05,
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Advisor?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Advisor?",
 			say = "This must be the result of a prior faulty experiment. If you activate more of its functions, surely authorization will be restored.",
 			typewriter = {
 				speed = 0.05,
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "Most likely. In that case, I will leave the defense of the perimeters to you, \"Advisor.\"",
 			typewriter = {
 				speed = 0.05,
@@ -212,15 +212,15 @@ return {
 			}
 		},
 		{
-			say = "After teaming up to defeat the fake Ookami Mio, Azur Lane and the Hololive members found themselves hindered again by some sort of barrier.",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
+			say = "After teaming up to defeat the fake Ookami Mio, Azur Lane and the Hololive members found themselves hindered again by some sort of barrier.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -245,9 +245,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
+			dir = 1,
 			say = "At that time, Hololive's Natsuiro Matsuri proposed a completely unprecedented strategy.",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "We'll just go underneath it!",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "There's no way we'll be able to get through the water! The barrier also extends underneath the surface, so it's a dead end!",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "That's why we're not going underwater. We're going to be going underground.",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "Wait, what... No way... You're kidding, right?",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -404,8 +404,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "If you dig over there, you'll probably just end up in \"the cemetery\"...",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "Ahem! ... That's just how Shion describes it! Its actual name is \"Dark Hololive.\" It's a secret base filled with all sorts of traps.",
 			typewriter = {
@@ -454,8 +454,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "But it's a haunted mansion!!",
 			typewriter = {
@@ -468,8 +468,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -481,8 +481,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "(Ignore)",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "In other words, if we use the secret passageway that was originally located underneath the seabed, we should be able to pass through the barrier!",
 			typewriter = {
@@ -544,11 +544,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
-			bgName = "bg_story_holosaba1",
 			side = 2,
+			bgName = "bg_story_holosaba1",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purity",
 			say = "Hmm, if it's the Tessy that I know... No, she wouldn't extend the barrier all the way into the lava.",
 			typewriter = {
@@ -577,11 +577,11 @@ return {
 			}
 		},
 		{
-			actor = 10500040,
 			side = 2,
-			bgName = "bg_story_holosaba1",
 			black = true,
+			bgName = "bg_story_holosaba1",
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "That settles it! Our objective is to get to Dark Hololive! Let's begin the operation!",
 			typewriter = {

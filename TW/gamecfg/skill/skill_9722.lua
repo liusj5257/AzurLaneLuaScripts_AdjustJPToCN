@@ -8,10 +8,10 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -23,27 +23,27 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_RAID",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 20006
 						},
 						{
-							switchType = 1,
+							switchParam = 3.5,
 							dive = "STATE_FLOAT",
 							switchTo = 2,
 							index = 1,
-							switchParam = 3.5,
+							switchType = 1,
 							addWeapon = {
 								892811
 							}
 						},
 						{
-							index = 2,
 							switchParam = 12,
 							switchTo = 3,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								892806,
@@ -55,9 +55,9 @@ return {
 							}
 						},
 						{
-							index = 3,
 							switchParam = 80,
 							switchTo = 0,
+							index = 3,
 							switchType = 1,
 							addWeapon = {},
 							removeWeapon = {}
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -82,27 +82,27 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_RAID",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 20006
 						},
 						{
-							switchType = 1,
+							switchParam = 3.5,
 							dive = "STATE_FLOAT",
 							switchTo = 2,
 							index = 1,
-							switchParam = 3.5,
+							switchType = 1,
 							addWeapon = {
 								892811
 							}
 						},
 						{
-							index = 2,
 							switchParam = 12,
 							switchTo = 3,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								892805,
@@ -114,9 +114,9 @@ return {
 							}
 						},
 						{
-							index = 3,
 							switchParam = 80,
 							switchTo = 0,
+							index = 3,
 							switchType = 1,
 							addWeapon = {},
 							removeWeapon = {}

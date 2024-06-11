@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "story-4",
 			actor = 302210,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "祭儀の島へようこそ、鉄血来訪団の皆様",
-			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "阿賀野型軽巡能代、祭儀の主催委員として皆様をお待ちしておりました",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "レッドアクシズの盟友として、お誘いいただき誠に光栄でございます",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "もちろんです。では、これより宿泊先にご案内させていただき……",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "それはあくまで重桜のメンバーが参加するもので、鉄血の皆様にはそのようなことを強要いたしません",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "それは……",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "……主催側として客人をもてなすのは当然です。そこまで仰るのでしたら、お望みどおりにいたしましょう",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "軽巡能代、恐れ入りますが鉄血の皆様のお相手をさせていただきます",
 			typewriter = {
 				speed = 0.05,

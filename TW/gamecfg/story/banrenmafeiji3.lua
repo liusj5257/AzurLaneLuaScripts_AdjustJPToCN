@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"盛夏的半人馬座\n\n<size=45>三　皇家方舟的夏日</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "看來半人馬妳還不理解這一點呢，妳這麼漂亮沒有穿泳裝來太可惜了。",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#a9f548",
+			say = "看來半人馬妳還不理解這一點呢，妳這麼漂亮沒有穿泳裝來太可惜了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,10 +55,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "嗯，畢竟我也才剛加入艦隊，這方面的準備也還沒有——",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "欸，不是嚮導嗎？",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -116,15 +116,15 @@ return {
 			}
 		},
 		{
-			actor = 101251,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101251,
+			nameColor = "#a9f548",
 			say = "薩拉托加，站住啦！！！把我的飲料還給我！！",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 107031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107031,
+			nameColor = "#a9f548",
 			say = "嘻嘻嘻，妳叫我站住我就會站住嗎~~~",
 			typewriter = {
 				speed = 0.05,
@@ -175,16 +175,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 2250
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "不愧是薩拉托加前輩呢！",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "嗯？那是……",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？那是……",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "啊，是皇家方舟前輩，好英氣的泳裝呢。",
 			typewriter = {
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "努喔喔喔喔！驅逐妹妹們在沙灘上的安全，就由本人皇家方舟來守護！！",
 			effects = {
 				{
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "喏，如妳所見…雖然台詞和動作都挺帥氣的啦——",
 			effects = {
 				{
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
+			say = "哦哦！皇家方舟前輩好帥！",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦！皇家方舟前輩好帥！",
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "沙灘！藍天！碧海！還有嬉戲的驅逐妹妹們！夏天真是太棒了！",
 			effects = {
 				{
@@ -447,8 +447,8 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 206040,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "皇家方舟前輩，妳好！",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "嗯？咳、咳咳，是半人馬嗎，哦，和標槍？真是稀罕的組合啊？",
 			typewriter = {
 				speed = 0.05,
@@ -485,8 +485,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -562,8 +562,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯…我才剛加入艦隊，還沒有來得及做這方面的準備——",
 			typewriter = {
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -618,15 +618,15 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "哈啊！顧著聊天差點忘了正事，我還要欣賞、不對是守護沙灘上的驅逐妹妹們呢！",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -651,8 +651,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -661,12 +661,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "啊哈哈，那我們就先不打擾了",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			actor = 201212,
 			dir = 1,
-			say = "啊哈哈，那我們就先不打擾了",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -687,8 +687,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -700,8 +700,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "皇家方舟前輩，要加油哦！",
 			typewriter = {

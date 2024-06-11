@@ -1,10 +1,10 @@
 slot0 = class("TargetCatchupPanel3", import(".BaseTargetCatchupPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TargetCatchupPanel3"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.tecID = 3
 
 	slot0:initData()

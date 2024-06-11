@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME6",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -348,8 +348,8 @@ return {
 		{
 			say = "数日後、お茶会にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -558,11 +558,11 @@ return {
 			}
 		},
 		{
-			say = "同じ時刻、暁は――",
 			blackBg = true,
+			say = "同じ時刻、暁は――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			say = "【S71°W100°】",
 			blackBg = true,
+			say = "【S71°W100°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,12 +599,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "雪と氷の大陸……やっぱり間違えていないわ！北方連合！響、安心して、お姉ちゃんはもうすぐだよ！",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAILUNNA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAILUNNA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"スイート・デイは二人の雨模様\n\n<size=45>一 ヘレナが、キャンディー？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "早朝・執務室前",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "早朝・執務室前",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "執務室に入ろうと近くまで来ると、扉の前によく知っている彼女がいた。",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "ごめんなさい、執務室に入るのは指揮官が来てからがいいかと思って…",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そういえば、今日はヘレナの秘書艦勤務初日だった…にしても、やけに分厚いノートを抱えているな。",
 			typewriter = {
 				speed = 0.05,
@@ -111,15 +111,15 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102050,
+			nameColor = "#a9f548",
 			say = "はい、まずは書類の整理ね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -144,9 +144,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そう言いながら、ヘレナは分厚いノートを机の上で開いた。",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ノートには綺麗な字がみっちりと並んでいる。それだけでなく、カラフルな付箋までつけてあった。",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "…？あっ指揮官、これが気になるの？",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "仲間の経験談を参考にしたほうが心強いというか…",
 			typewriter = {
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "この石橋を叩いて渡る感じ…確かにヘレナらしい…",
 			typewriter = {
 				speed = 0.05,
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102050,
+			nameColor = "#a9f548",
 			say = "いけない。指揮官、飲み物をまだ用意してなかったわ。お茶とコーヒー、どっちがいい？",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "普通、ね…分かった。すぐ用意してくるわ",
 			typewriter = {
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "一瞬困った顔をしたヘレナは、ノートを何ページか捲って、そのまま外に出た。",
 			typewriter = {
 				speed = 0.05,
@@ -305,13 +305,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "そして彼女は、電子天秤を手にして戻ってきた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -339,8 +339,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "これで精確に量れるわ…",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "……よし。指揮官、お茶をどうぞ",
 			typewriter = {
@@ -386,9 +386,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かに…ちょうどいい濃さだった",
 			typewriter = {
 				speed = 0.05,
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "この様子じゃ、ヘレナが料理する時は…キッチンはまるで理科室のようになっていたり…？",
 			typewriter = {
 				speed = 0.05,
@@ -430,9 +430,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "書類の整理も、お茶の準備も、ヘレナは立派にできていた。ただ…",
 			typewriter = {
 				speed = 0.05,
@@ -460,11 +460,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "もう…なんで書類を届けに来なくちゃいけないのよ…",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "書類に目を通していると、セントルイスとホノルルがやってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -535,8 +535,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "その、借りて来た調理器具を返さないといけないから…ちょっとお先に…",
 			typewriter = {
@@ -552,8 +552,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102130,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "あら、行っちゃった…",
 			typewriter = {
@@ -582,9 +582,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それはそうなのだが、ちょっと気を使いすぎるところが…",
 			typewriter = {
 				speed = 0.05,
@@ -612,9 +612,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "キャンディー？",
 			typewriter = {
 				speed = 0.05,
@@ -629,8 +629,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102130,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
 			say = "そう。甘いけど、ちょっと歯にくっつきそうな…？",
 			typewriter = {

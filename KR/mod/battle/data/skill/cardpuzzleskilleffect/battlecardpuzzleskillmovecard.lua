@@ -5,7 +5,7 @@ slot2 = class("BattleCardPuzzleSkillMoveCard", slot0.Battle.BattleCardPuzzleSkil
 slot0.Battle.BattleCardPuzzleSkillMoveCard = slot2
 slot2.__name = "BattleCardPuzzleSkillMoveCard"
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._moveFrom = slot0._tempData.arg_list.move_from or 0
@@ -18,7 +18,7 @@ function slot2.Ctor(slot0, slot1)
 	slot0._op = slot0._tempData.arg_list.shuffle or 1
 end
 
-function slot2.MoveCardAfterCast(slot0)
+slot2.MoveCardAfterCast = function(slot0)
 	if slot0._moveID or slot0._moveLabel then
 		return uv0.super.MoveCardAfterCast(slot0)
 	else
@@ -26,7 +26,7 @@ function slot2.MoveCardAfterCast(slot0)
 	end
 end
 
-function slot2.SkillEffectHandler(slot0)
+slot2.SkillEffectHandler = function(slot0)
 	slot1 = slot0._card:GetClient()
 	slot2 = slot1:GetCardPileByIndex(slot0._moveTo)
 	slot3 = slot1:GetCardPileByIndex(slot0._moveFrom)

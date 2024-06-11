@@ -1,13 +1,13 @@
 return {
-	id = 14931,
 	name = "炮击",
 	cd = 0,
+	id = 14931,
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHarm",
 				"TargetShipTag"

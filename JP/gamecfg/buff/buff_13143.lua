@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13142,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "后排队友受伤计数触发",
 	stack = 10,
-	id = 13142,
+	color = "red",
 	icon = 13140,
 	last_effect = "",
 	effect_list = {
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 13142,
+				target = "TargetSelf",
 				countType = 13141
 			}
 		},
@@ -62,8 +62,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 13142,
+				target = "TargetSelf",
 				countType = 13142
 			}
 		}

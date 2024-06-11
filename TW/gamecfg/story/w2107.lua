@@ -1,12 +1,12 @@
 return {
-	id = "W2107",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2107",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "離開後將無法再次返回該處海域，是否確認離開？",
 			painting = {
 				alpha = 0.3,

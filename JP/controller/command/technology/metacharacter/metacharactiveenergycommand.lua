@@ -1,6 +1,6 @@
 slot0 = class("MetaCharActiveEnergyCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(BayProxy):getShipById(slot1:getBody().shipId) then
 		return
 	end
@@ -82,7 +82,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.updateStar(slot0, slot1, slot2, slot3)
+slot0.updateStar = function(slot0, slot1, slot2, slot3)
 	slot1.configId = slot3
 
 	for slot8, slot9 in ipairs(pg.ship_data_template[slot1.configId].buff_list) do

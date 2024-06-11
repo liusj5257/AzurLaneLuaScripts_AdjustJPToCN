@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_zhuguang_4",
+			side = 2,
+			bgm = "battle-ucnf",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "괌 일행은 더 이상 바다라고 정의하기 어려운 광활한 수면 위를 달리고 있다.",
-			bgm = "battle-ucnf",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "미지의 세력이 보낸 식별 신호가 몇 차례 더 바뀌고, 라피도 같은 방법으로 응답했다.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "비록 양측이 서로의 신호를 인식하지는 못했지만, 어느 정도 호흡이 이루어진 듯했다.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "마침내... 또 하나의 인공섬을 지나친 뒤 모두가 찾아 헤매던 함대가 눈 앞에 나타났다.",
@@ -200,9 +200,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "현실은 언제나 말도 안되는 일 투성. 아무리 믿기지 않아도 수백 척의 군함으로 이루어진 함대가 점점 더 가까워지고 있었다.",
@@ -238,8 +238,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "udf_qingxun",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -256,9 +256,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "udf_zhongxun",
 					time = 3,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -275,9 +275,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "udf_zhanlie",
 					time = 3,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -294,9 +294,9 @@ return {
 					}
 				},
 				{
-					delay = 1.8,
 					name = "udf_hangmu",
 					time = 3,
+					delay = 1.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			nameColor = "#FEF15E",
@@ -460,11 +460,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "...맞은편에서 통신을 시도하고 있어.",
 			painting = {
@@ -479,27 +479,27 @@ return {
 		{
 			portrait = 900404,
 			side = 2,
-			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
-			nameColor = "#FEF15E",
 			actorName = "？？？",
+			bgName = "bg_zhuguang_4",
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "전방에 있는 함대는 들으십시오. 여긴 이사회 소속 제5특별파견함대입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -649,9 +649,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -665,17 +665,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -799,11 +799,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...5 분류의 위협은 뭘 의미하는 걸까요?",
@@ -877,9 +877,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -970,9 +970,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -987,8 +987,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1096,9 +1096,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1113,8 +1113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1144,9 +1144,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1161,8 +1161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1192,9 +1192,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1209,8 +1209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1219,11 +1219,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "어디 덤벼보시지... 라피는 하나도 안 두려워.",
 			painting = {

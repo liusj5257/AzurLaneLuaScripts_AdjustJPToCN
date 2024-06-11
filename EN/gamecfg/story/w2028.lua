@@ -1,12 +1,12 @@
 return {
-	id = "W2028",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2028",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Only one of these switches is the right one. There must be some way to narrow down our options...",
 			typewriter = {
 				speed = 0.05,

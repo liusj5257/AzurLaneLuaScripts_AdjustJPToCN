@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_24 = {}
 slot1 = slot0.word_template_24
 
-function temp()
+temp = function()
 	uv0["歯"] = {
 		["科"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["自"] = {
 		["動"] = {
 			["相"] = {
@@ -575,7 +575,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["射"] = {
 		["精"] = {
 			this = true,
@@ -730,7 +730,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["社"] = {
 		["會"] = {
 			this = true,
@@ -826,7 +826,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["謝"] = {
 		["礼"] = {
 			this = true
@@ -856,7 +856,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["手"] = {
 		["淫"] = {
 			this = true,
@@ -1199,7 +1199,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["出"] = {
 		["会"] = {
 			this = true

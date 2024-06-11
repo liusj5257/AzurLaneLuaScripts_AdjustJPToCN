@@ -16,11 +16,11 @@ slot8 = {
 	"word_wall"
 }
 
-function slot9(slot0)
+slot9 = function(slot0)
 	return i18n(uv0[slot0])
 end
 
-function slot10(slot0, slot1, slot2)
+slot10 = function(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		if not uv0() then
 			return
@@ -40,23 +40,23 @@ function slot10(slot0, slot1, slot2)
 	end)(slot1, false)
 end
 
-function slot0.forceGC(slot0)
+slot0.forceGC = function(slot0)
 	return true
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewBackYardShopUI"
 end
 
-function slot0.SetDorm(slot0, slot1)
+slot0.SetDorm = function(slot0, slot1)
 	slot0.dorm = slot1
 end
 
-function slot0.SetPlayer(slot0, slot1)
+slot0.SetPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.PlayerUpdated(slot0, slot1)
+slot0.PlayerUpdated = function(slot0, slot1)
 	slot0:SetPlayer(slot1)
 	slot0:UpdateRes()
 
@@ -65,7 +65,7 @@ function slot0.PlayerUpdated(slot0, slot1)
 	end
 end
 
-function slot0.DormUpdated(slot0, slot1)
+slot0.DormUpdated = function(slot0, slot1)
 	slot0:SetDorm(slot1)
 
 	if slot0.pageType then
@@ -73,13 +73,13 @@ function slot0.DormUpdated(slot0, slot1)
 	end
 end
 
-function slot0.FurnituresUpdated(slot0, slot1)
+slot0.FurnituresUpdated = function(slot0, slot1)
 	if slot0.pageType then
 		slot0.pages[slot0.pageType]:ExecuteAction("FurnituresUpdated", slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.pageContainer = slot0:findTF("pages")
 	slot0.adpter = slot0:findTF("adpter")
 	slot0.btnTpl = slot0:findTF("adpter/tag/list/tpl")
@@ -108,7 +108,7 @@ function slot0.init(slot0)
 	slot0.contextData.themeAllMsgBox = BackYardThemeMsgBoxForAllPage.New(slot0._tf, slot0.event)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.contextData.onDeattch then
 			uv0.contextData.onDeattch()
@@ -140,7 +140,7 @@ function slot0.didEnter(slot0)
 	getProxy(SettingsProxy):UpdateNewThemeValue()
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	slot0.goldTxt.text = slot0.player:getResource(PlayerConst.ResDormMoney)
 	slot0.gemTxt.text = slot0.player:getTotalGem()
 end
@@ -156,7 +156,7 @@ slot11 = {
 	"7"
 }
 
-function slot0.InitPageFooter(slot0)
+slot0.InitPageFooter = function(slot0)
 	slot0.btns = {}
 
 	for slot4, slot5 in ipairs(slot0.pages) do
@@ -217,11 +217,11 @@ function slot0.InitPageFooter(slot0)
 	setActive(slot0.btnTpl, false)
 end
 
-function slot0.UpdateSpecialPageFooter(slot0)
+slot0.UpdateSpecialPageFooter = function(slot0)
 	setActive(slot0.btns[5]:Find("new"), getProxy(SettingsProxy):IsTipNewGemFurniture())
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.isOverlay = false
 
 	slot0.contextData.filterPanel:Destroy()

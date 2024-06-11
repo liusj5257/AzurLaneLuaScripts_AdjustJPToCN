@@ -4,17 +4,17 @@ slot0.STATE_WAIT = 2
 slot0.STATE_LOCK = 3
 slot0.STATE_FETCHED = 4
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
 	slot0.star = slot1.star
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.storeup_data_template
 end
 
-function slot0.getStarCount(slot0, slot1)
+slot0.getStarCount = function(slot0, slot1)
 	slot2 = 0
 	slot6 = "char_list"
 
@@ -27,7 +27,7 @@ function slot0.getStarCount(slot0, slot1)
 	return slot2
 end
 
-function slot0.getNextAwardIndex(slot0, slot1)
+slot0.getNextAwardIndex = function(slot0, slot1)
 	slot2 = 1
 
 	if slot1[slot0.id] then
@@ -37,11 +37,11 @@ function slot0.getNextAwardIndex(slot0, slot1)
 	return slot2
 end
 
-function slot0.isFetchAll(slot0, slot1)
+slot0.isFetchAll = function(slot0, slot1)
 	return (slot1[slot0.id] or 0) >= #slot0:getConfig("level")
 end
 
-function slot0.canGetRes(slot0, slot1, slot2)
+slot0.canGetRes = function(slot0, slot1, slot2)
 	slot5 = slot0:getStarCount(slot1)
 	slot6 = false
 
@@ -56,7 +56,7 @@ function slot0.canGetRes(slot0, slot1, slot2)
 	return false, slot6
 end
 
-function slot0.getState(slot0, slot1, slot2)
+slot0.getState = function(slot0, slot1, slot2)
 	slot3 = slot2[slot0.id]
 	slot4, slot5 = slot0:canGetRes(slot1, slot2)
 	slot6 = slot0:isFetchAll(slot2)
@@ -70,7 +70,7 @@ function slot0.getState(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getAwardState(slot0, slot1, slot2, slot3)
+slot0.getAwardState = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2[slot0.id] or 0
 	slot6 = slot0:getConfig("award_display")
 
@@ -81,7 +81,7 @@ function slot0.getAwardState(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.containShipGroup(slot0, slot1)
+slot0.containShipGroup = function(slot0, slot1)
 	return _.any(slot0:getConfig("award_display"), function (slot0)
 		if slot0[1] == DROP_TYPE_SHIP and Ship.New({
 			configId = slot0[2]

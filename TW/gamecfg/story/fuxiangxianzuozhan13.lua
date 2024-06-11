@@ -1,17 +1,17 @@
 return {
-	id = "FUXIANGXIANZUOZHAN13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN13",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 407030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-heroines-image",
 			dir = 1,
 			say = "敵方十分謹慎……突襲結束後對於我們的反擊沒有過多糾纏，短時間內就分散撤離了。",
+			bgm = "battle-heroines-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "不行，無法全部追擊……我沒能追蹤到敵方母艦的位置，妳那邊怎麼樣？",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "沒有發現敵方母艦。不過……倒是發現了更多重櫻量產型艦隊。彼得，看來出現問題的不是幾批飛機，或者幾艘航艦棋子而已。",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "我也是這麼想的，沒想到預感成真……",
 			typewriter = {
 				speed = 0.05,

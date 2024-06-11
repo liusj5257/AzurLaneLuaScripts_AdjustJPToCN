@@ -1,7 +1,7 @@
 slot0 = class("SleeplessCityPage", import(".TemplatePage.PtTemplatePage"))
 slot0.COLOR = "#BD3F40"
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.getBtn, function ()
 		slot0 = {}
@@ -42,7 +42,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:OnUpdateFlush()
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = slot0.activity:getConfig("config_client").story
 
 	if slot0.level and checkExist(slot1, {

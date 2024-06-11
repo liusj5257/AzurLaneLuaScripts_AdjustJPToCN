@@ -1,6 +1,6 @@
 slot0 = class("CookGameJudgesController")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._sceneTf = findTF(slot1, "scene")
 	slot0._sceneBackground = findTF(slot1, "scene_background")
 	slot0._sceneFrontTf = findTF(slot1, "scene_front")
@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	setActive(slot0._tpl, false)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.initFlag = true
 	slot0._judgeDatas = {}
 
@@ -48,13 +48,13 @@ function slot0.init(slot0)
 	slot0._gameData.judges = slot0.judges
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 	for slot5 = 1, #slot0.judges do
 		slot0.judges[slot5]:changeSpeed(slot1)
 	end
 end
 
-function slot0.serverIndex(slot0, slot1, slot2, slot3)
+slot0.serverIndex = function(slot0, slot1, slot2, slot3)
 	if slot1 and slot1 < #slot0.judges then
 		slot0.judges[slot1]:server(slot2, slot3)
 	else
@@ -62,7 +62,7 @@ function slot0.serverIndex(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.onJudgeClick(slot0, slot1)
+slot0.onJudgeClick = function(slot0, slot1)
 	for slot5 = 1, #slot0.judges do
 		if slot5 == slot1 then
 			slot6 = slot0.judges[slot5]
@@ -82,7 +82,7 @@ function slot0.onJudgeClick(slot0, slot1)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	if not slot0.initFlag then
 		slot0:init()
 	end
@@ -92,25 +92,25 @@ function slot0.start(slot0)
 	end
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	for slot5 = 1, #slot0.judges do
 		slot0.judges[slot5]:step(slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	for slot4 = 1, #slot0.judges do
 		slot0.judges[slot4]:clear()
 	end
 end
 
-function slot0.extend(slot0)
+slot0.extend = function(slot0)
 	if slot0.jiujiuAnim then
 		slot0.jiujiuAnim:SetTrigger("extend")
 	end
 end
 
-function slot0.timeUp(slot0)
+slot0.timeUp = function(slot0)
 	if slot0.jiujiuAnim then
 		slot0.jiujiuAnim:SetTrigger("time_up")
 	end

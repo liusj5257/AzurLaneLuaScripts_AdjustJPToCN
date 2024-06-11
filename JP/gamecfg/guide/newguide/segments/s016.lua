@@ -4,8 +4,8 @@ return {
 		{
 			alpha = 0.367,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 223.26,
 				posX = -136.21,
 				text = ({
@@ -13,8 +13,8 @@ return {
 				})[1]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
 				triggerType = {
 					1
 				},

@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 2,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 2,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -44,8 +44,8 @@ return {
 			},
 			arg_list = {
 				group = 16010,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		}
 	}

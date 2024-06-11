@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fourth Movement\n\n<size=45>Passion, Joy, and Suffering</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
 			actor = 408040,
 			nameColor = "#ffde38",
+			blackBg = true,
 			say = "Captain Bismarck! Captain Bismarck, please wait!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,12 +60,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
+			say = "Ah, the little submarine. Good morning to you.",
 			side = 1,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "Ah, the little submarine. Good morning to you.",
+			actor = 405010,
+			nameColor = "#ffde38",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,10 +82,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "Hey, um! Your performance yesterday was absolutely fantastic, and I will never ever in my whole life forget it!",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,10 +109,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 		{
 			expression = 3,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "A-also! Captain Bismarck, I was hoping I could ask you for a small little favor!",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,10 +185,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "Like in one of my fairy tales! \"Starting today, U-556 shall gallop across the seas, much like the honorable knight Sir Parzival did!\" ... H-how does that sound?",
 			typewriter = {
 				speed = 0.05,
@@ -202,10 +202,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "Congratulations. Do your utmost in servitude to Iron Blood.",
 			typewriter = {
 				speed = 0.05,
@@ -235,10 +235,10 @@ return {
 		{
 			expression = 3,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "I was hoping you could give me your blessings! If so, I'd be able to push myself to my absolute limits in my missions on the front!",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,10 +262,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -295,10 +295,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "Look! It's a water handstand!",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -1000
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "U-556 did a backflip and plunged deep below the water.",
 			typewriter = {
@@ -335,10 +335,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "... Pffft...",
 			typewriter = {
 				speed = 0.05,
@@ -350,8 +350,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The strange yet humorous trick was able to bring a smile even to Bismarck's lips.",
 			typewriter = {
@@ -392,10 +392,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "Pardon, I'm just a little awestruck by how different you are to everyone else I've met.",
 			typewriter = {
 				speed = 0.05,
@@ -409,10 +409,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "I've heard from some people that you're really reserved and hard to approach, Captain Bismarck...",
 			typewriter = {
 				speed = 0.05,
@@ -426,10 +426,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "But that's not the case at all... You don't have trouble talking even to a submarine like me! In fact, you're actually really friendly!",
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The thought of it made Bismarck's smile disappear. She turned to U-556, whose head was poking out of the water, to say her goodbyes.",
 			typewriter = {
@@ -473,10 +473,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "I've heard your wish. Now then, if you'll excuse me.",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Bismarck departed, leaving U-556 all to herself.",
 			typewriter = {
@@ -502,13 +502,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Then, on the following day...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -551,10 +551,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "Well...",
 			typewriter = {
 				speed = 0.05,
@@ -568,10 +568,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "Captain Bismarck promised she'd come back to give her blessings, but she's still not back yet...",
 			typewriter = {
 				speed = 0.05,
@@ -601,10 +601,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "Yeah... you're right. I'll have to prove myself in battle, that way Captain Bismarck will one day bestow me with the Knight's Cross with Oak Leaves...",
 			typewriter = {
 				speed = 0.05,
@@ -618,10 +618,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "That's it! The Knight's Cross with Oak Leaves! That's only fitting for me, Parzival of The Seas!",
 			typewriter = {
 				speed = 0.05,
@@ -649,8 +649,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "U-556 noticed there were Manjuu gathering just within her sight. Then, a familiar face approached her...",
@@ -666,12 +666,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "One of our newest Iron Blood comrades will soon head into her first battle.",
 			bgm = "bsm-7",
+			actor = 405010,
+			nameColor = "#ffde38",
+			say = "One of our newest Iron Blood comrades will soon head into her first battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,10 +700,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "Now I, Bismarck, as the representative of the Iron Blood fleet, shall offer her my blessings!",
 			typewriter = {
 				speed = 0.05,
@@ -787,12 +787,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "Captain Bismarck...!",
 			typewriter = {
 				speed = 0.05,
@@ -819,12 +819,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "Captain Bismarck, i-if you'll please forgive me, I have one more favor to ask...",
 			typewriter = {
 				speed = 0.05,
@@ -836,12 +836,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "My, you're a greedy child. What favor do you ask of me?",
 			typewriter = {
 				speed = 0.05,
@@ -853,12 +853,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "Please... allow me to call you \"Lord\"!",
 			typewriter = {
 				speed = 0.05,
@@ -870,12 +870,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "... Huh?",
 			typewriter = {
 				speed = 0.05,
@@ -902,12 +902,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "It's to express my gratitude and respect for you! ... Um, may I please call you \"Lord Bismarck\"?",
 			typewriter = {
 				speed = 0.05,
@@ -919,12 +919,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "Well... I suppose why not.",
 			typewriter = {
 				speed = 0.05,
@@ -936,12 +936,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "L-Lord Bismarck! I'm incredibly grateful!",
 			typewriter = {
 				speed = 0.05,
@@ -953,12 +953,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "(... Dear me...) ",
 			typewriter = {
 				speed = 0.05,
@@ -985,12 +985,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "Ah, also, I was hoping I could give you this before I depart, Lord Bismarck!",
 			typewriter = {
 				speed = 0.05,
@@ -1017,12 +1017,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "What's this...?",
 			typewriter = {
 				speed = 0.05,
@@ -1034,12 +1034,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "It's a certificate of sponsorship which I wrote yesterday!",
 			typewriter = {
 				speed = 0.05,
@@ -1051,12 +1051,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "I hereby pledge always to protect Lord Bismarck, no matter when and no matter where!",
 			typewriter = {
 				speed = 0.05,
@@ -1083,12 +1083,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "Ah, sorry, I forgot! I have to sortie now! ... Lord Bismarck, I must take my leave!",
 			typewriter = {
 				speed = 0.05,
@@ -1100,12 +1100,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "We'll have to talk more next time! ... U-556, weighing anchor!",
 			typewriter = {
 				speed = 0.05,
@@ -1132,12 +1132,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "So she has a little sister... Isn't that nice...",
 			typewriter = {
 				speed = 0.05,
@@ -1149,12 +1149,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -1166,12 +1166,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "I wonder if Tirpitz is okay...",
 			typewriter = {
 				speed = 0.05,
@@ -1214,18 +1214,18 @@ return {
 			}
 		},
 		{
-			bgm = "bsm-1",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			seDelay = 2,
 			dir = 1,
 			bgmDelay = 2,
-			soundeffect = "event:/battle/boom2",
-			actor = 204010,
 			nameColor = "#a9f548",
+			bgm = "bsm-1",
+			actor = 204010,
 			say = "I am Renown, battlecruiser of the Royal Navy's Force H! I am here because of your ambush on our ships! Cease your meaningless resistance at once!",
+			seDelay = 2,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1285,10 +1285,10 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ffde38",
-			actor = 405010,
 			dir = -1,
-			say = "Gah...! These new recruits of theirs...!",
 			soundeffect = "event:/battle/boom2",
+			actor = 405010,
+			say = "Gah...! These new recruits of theirs...!",
 			flashN = {
 				color = {
 					1,
@@ -1349,8 +1349,8 @@ return {
 			actor = 405010,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = -1,
+			nameColor = "#ffde38",
 			say = "... It seems there's one thing you've forgotten.",
 			typewriter = {
 				speed = 0.05,
@@ -1380,8 +1380,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "I'm afraid I'll have to deal with you! Engines, full speed ahead!",
 			typewriter = {
 				speed = 0.05,
@@ -1426,9 +1426,9 @@ return {
 			actor = 207020,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "Swordfishes, launch! Capture Bismarck!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

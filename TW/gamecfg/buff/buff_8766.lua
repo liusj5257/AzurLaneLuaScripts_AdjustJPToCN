@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "偶像大师联动 fever 回血BUFF",
 	time = 0,
-	color = "blue",
+	name = "偶像大师联动 fever 回血BUFF",
+	init_effect = "",
+	id = 8766,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8766,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{

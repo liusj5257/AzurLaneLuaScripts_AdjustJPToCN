@@ -1,6 +1,6 @@
 slot0 = class("BuyFurnitureCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.type
 	slot5 = getProxy(DormProxy)
@@ -36,7 +36,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	function slot9()
+	slot9 = function()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(19006, {
@@ -92,7 +92,7 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.UpdateLinkActivity(slot0, slot1)
+slot0.UpdateLinkActivity = function(slot0, slot1)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LINK_COLLECT) and not slot3:isEnd() then
 		slot8 = slot3.id
 

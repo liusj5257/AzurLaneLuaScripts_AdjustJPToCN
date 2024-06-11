@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ff5c5c",
 			side = 2,
 			bgName = "bg_hms_3",
-			say = "？？？·？？？",
 			dir = 1,
 			bgm = "bsm-5",
+			nameColor = "#ff5c5c",
+			say = "？？？·？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "아드미랄 히퍼",
+			side = 1,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 오이겐",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
+			side = 1,
 			bgName = "bg_hms_3",
-			actorName = "아드미랄 히퍼",
 			dir = 1,
+			actorName = "아드미랄 히퍼",
 			say = "하! 오로라 행동 같은 이렇게 중요한 작전에서 너에게 기함 지휘를 맡기는데, 내가 어떻게 조급하지 않을 수가 있어!",
 			dialogShake = {
 				speed = 0.09,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 오이겐",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 오이겐",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "도이칠란트",
+			side = 2,
 			bgName = "bg_hms_3",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = " 드디어 출항할 수 있게 됐나…너무 느려, 오이겐! 나 이미 더 이상 못기다리겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "그나이제나우",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "샤른호르스트",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아드미랄 그라프 슈피",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아드미랄 그라프 슈피",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 오이겐",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 오이겐",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 오이겐",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "프린츠 오이겐",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,

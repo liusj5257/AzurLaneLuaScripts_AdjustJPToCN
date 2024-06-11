@@ -1,17 +1,17 @@
 return {
-	id = "SHENGYONGQU3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "そう言えばまだ確認していませんでしたが、どうしてアイリスはここを作戦目標にしたのか、理由をまだ教えていただいていませんね",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "そうですね。では情報共有をいたしましょう",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ヴィシアとの和解、それは言うまでもなく、アイリスの至上目標であり、ロイヤルの方々にもそれは説明していたはずです",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "そして今回の作戦の目標は、我がアイリスの正統性の証明である「聖堂」の確保にあります",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "本当はヴィシアと目的は同じはずですが…",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "はい。この聖堂はあくまでアイリスのものです。本当はロイヤルの手をお借りすることなく済ませるべきでしたが、向こうには鉄血がついています",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "ええ。そうです。出発時にお伝えしておらず申し訳ございません",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "アイリスとヴィシアのため。今一度お力をお貸しください――",
 			typewriter = {
 				speed = 0.05,

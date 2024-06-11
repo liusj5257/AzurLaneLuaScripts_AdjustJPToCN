@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 100
+					number = 100,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 100
+					number = 100,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 130
+					number = 130,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 130
+					number = 130,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 160
+					number = 160,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 160
+					number = 160,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 200
+					number = 200,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 200
+					number = 200,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 230
+					number = 230,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 230
+					number = 230,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 260
+					number = 260,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 260
+					number = 260,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 300
+					number = 300,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 300
+					number = 300,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 330
+					number = 330,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 330
+					number = 330,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 360
+					number = 360,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 360
+					number = 360,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 400
+					number = 400,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -253,15 +253,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 400
+					number = 400,
+					attr = "dodgeRate"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 3,
@@ -283,8 +283,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 100
+				number = 100,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -294,8 +294,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 100
+				number = 100,
+				attr = "dodgeRate"
 			}
 		}
 	}

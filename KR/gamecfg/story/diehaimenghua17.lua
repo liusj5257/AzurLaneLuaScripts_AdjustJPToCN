@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 303180,
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "별다른 저항은 없네. 운이 좋아~",
 			bgm = "bsm-3",
+			actor = 303180,
+			nameColor = "#a9f548",
+			say = "별다른 저항은 없네. 운이 좋아~",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "미안, 조금 긴장해서…",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -112,8 +112,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "폭풍전야의 고요함이네. 나도 조금 숨이 막히는 기분이야.",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "방금 짬이 있을 때 마음을 진정시키는 꽃차를 준비했어요. 꽃의 종류가 조금 부족하기는 하지만… 괜찮다면 드세요!",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "…수고가 많아.",
 			typewriter = {
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "모두가 한두 마디씩 띄엄띄엄 말을 주고 받으면서 무거운 분위기를 해소하려고 애썼다.",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "모두들, 수상한 적 선봉 함대가 이쪽을 향해 접근하고 있다네.",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "그리고 방금 전, 특수 기동함대와 연락이 끊겼어…… 이글 유니온 쪽에서 상황을 조사하고 있지.",
 			typewriter = {
@@ -227,9 +227,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "안 좋은 예감이 들어. 모두 조심하게.",
 			typewriter = {

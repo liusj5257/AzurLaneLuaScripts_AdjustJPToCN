@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			bgm = "level02",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 408080,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "2隻目の補給艦も撃破。U-110はサメだぞ。がおー",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -102,8 +102,8 @@ return {
 			say = "………ぷくぷく",
 			action = {
 				{
-					type = "move",
 					y = -1000,
+					type = "move",
 					delay = 0.5,
 					dur = 2,
 					x = 0
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -146,19 +146,19 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			say = "アマゾンの威嚇射撃を受け、浅く潜ったU-110は海から顔を出した。",
+			withoutActorName = true,
 			dir = 1,
 			actor = 408080,
-			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "アマゾンの威嚇射撃を受け、浅く潜ったU-110は海から顔を出した。",
 			actorPosition = {
 				x = 0,
 				y = -1000
 			},
 			action = {
 				{
-					type = "move",
 					y = 1000,
+					type = "move",
 					delay = 2,
 					dur = 1,
 					x = 0
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "いきなり",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -237,8 +237,8 @@ return {
 			say = "U-110はサメだぞー。怖いぞー",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -257,9 +257,9 @@ return {
 		{
 			actor = 408080,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "U-110は背ビレ（？）を揺らしてアマゾンたちを威嚇（？）した。",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			say = "………何言ってるんだこいつら……",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,9 +388,9 @@ return {
 		{
 			actor = 408080,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "U-110はサメの咆哮（？）をブルドッグに放った。",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "にんにくっ子じゃない。サメだぞー",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			say = "ん？",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U471",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U471",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Days of Tranquility\n\n<size=45>1.Sound of the Waves</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "A warm breeze – notably warmer than normal – greeted me when I stepped outside.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "A warm breeze – notably warmer than normal – greeted me when I stepped outside.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "It was a wonderful day. The sun was out, the skies were clear. I decided to make the most of it and go for a walk to the pier.",
@@ -66,15 +66,15 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "…………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "Upon arriving there, I found U-47. She sat there, feet hanging off the pier and dipping into the water, just enjoying the solitude.",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "That's when she noticed I was there. She turned around to face me.",
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "\"What are you doing out here all by yourself?\"",
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "I sharpened my ears and listened in. The sound of the waves washing onto the shore gave me a sense of peace and quiet.",
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "For a moment, I forgot all about the stress of my job. I sat down next to U-47 and appreciated the calming sound.",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "After a while of silently gazing out at the sea, U-47 turned and looked at me with a puzzled look.",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "I've gotta go now, though. Submarine meeting thing around this hour. See you later.",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "She bluntly announced her departure, then got up to leave.",
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "Right as she started walking, she suddenly stopped in place and began to pose me a question.",
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "\"Quiet? It's pretty far from the dorms, so I suppose so...?\"",
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "I see... Good to know.",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "She gave a concise response, then resumed her walking and left the pier.",
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "She seemed uninterested in me from start to finish, but I didn't get the impression that she disliked me.",
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,

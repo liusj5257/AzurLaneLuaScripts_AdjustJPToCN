@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "I56XIAOFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "I56XIAOFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"角落的向日葵\n\n<size=45>二 誤會與交友</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_103",
 			bgm = "story-1",
 			actor = 308051,
 			nameColor = "#a9f548",
 			say = "噫！！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					x = 0,
@@ -66,10 +66,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "哇啊！？我、我有這麼可怕嗎…",
+			dir = -1,
+			actor = 308041,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "沒、沒什麼，只、只是覺得這邊草叢挺涼快的而已…——",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = -1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "啊…是168和哈曼呀，今天還是一如既往呢…",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = -1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "妳這是在…觀察她們嗎？",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "……嗯。",
 			typewriter = {
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 308041,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 308041,
+			nameColor = "#a9f548",
 			say = "啊，我知道了！原來是這樣啊。",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,8 +197,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "欸，什麼？",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = -1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "因為伊56妳出任務總是一個人，而且在校園裡也是一個人，還以為妳不喜歡和別人交流——",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "欸，我確實……",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = -1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "不要害羞啦，嘿嘿，就讓我來做妳的第一個朋友…怎麼樣？",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "欸？！不、不用，我沒……",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 308041,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 308041,
+			nameColor = "#a9f548",
 			say = "就這麼決定了，從今天開始，我們就是好朋友啦！",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 900
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "唔唔唔……",
 			typewriter = {
 				speed = 0.05,
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "唔唔……胸部……呼吸……",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -417,10 +417,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "啊，抱歉抱歉！我一不小心就…",
+			dir = -1,
+			actor = 308041,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -451,8 +451,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -467,11 +467,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "我跳！",
 			dialogShake = {
 				speed = 0.09,
@@ -488,11 +488,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "噫！！！",
 			typewriter = {
 				speed = 0.05,
@@ -504,8 +504,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

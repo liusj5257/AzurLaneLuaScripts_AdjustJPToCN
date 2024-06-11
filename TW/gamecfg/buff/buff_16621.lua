@@ -11,9 +11,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -41,9 +41,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -71,9 +71,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -101,9 +101,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -131,9 +131,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -161,9 +161,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -191,9 +191,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -221,9 +221,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -251,9 +251,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -281,9 +281,9 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleBuffAddBuff",
 				trigger = {
 					"onAttach"
 				},
@@ -299,9 +299,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "回血",
 	time = 0.5,
+	name = "回血",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleBuffAddBuff",
 			trigger = {
 				"onAttach"
 			},

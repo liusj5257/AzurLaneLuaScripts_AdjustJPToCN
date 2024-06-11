@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"タレントキャスターセクレタリー！\n\n<size=45>二 作業力、ゼロ？！</size>",
@@ -19,16 +19,16 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（はあ…この量…今日は徹夜を避けられないな…）",
 			bgm = "story-richang-11",
+			say = "（はあ…この量…今日は徹夜を避けられないな…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "テーブルに積まれた書類の山を見て、思わず考え込んでしまった。",
@@ -41,10 +41,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれ、指揮官？まだ帰り支度しないの？",
 			painting = {
 				alpha = 0.3,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "そう尋ねてきたのはグアム――数日前に当番に手を上げたばかりの秘書艦だ。",
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "仕事初日に一日分の書類仕事を半日でこなしたため、とてつもなく有能なのかと思ったが――",
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "上がる前に軽くチェックしてみたら、なんと9割がやり直さなきゃならないという有様だった。",
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "まぁ初日だし、仕事に慣れてないのも仕方ないと思ったが、2日目も3日目も状況はさほど変わらなかった。",
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "4日目となった今では、自分が放置していたこともあって、溜まった書類仕事がとんでもない量になっている…",
@@ -138,10 +138,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え？指揮官、晩ご飯を食べないの？",
 			painting = {
 				alpha = 0.3,
@@ -168,10 +168,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そっか…じゃ指揮官、頑張ってね♥fight！",
 			painting = {
 				alpha = 0.3,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "励ましてくれた秘書艦の後ろ姿を眺めながら大きく息をした。",
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "晩ご飯は……あとで考えよう。",
@@ -217,27 +217,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task",
 			say = "トントン——ドアをノックする音が、深夜の静寂を破った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -272,10 +272,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good Evening！美少女艦船のグアムちゃんが深夜に会いに来てくれて、すっごくワクワクしたよね？",
 			painting = {
 				alpha = 0.3,
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -312,10 +312,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Certainly…指揮官がちゃんとご飯を食べたか、確認しに来たんだよ～♪",
 			painting = {
 				alpha = 0.3,
@@ -330,10 +330,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あー、やっぱりご飯を食べた気配はゼロね。絶対に忘れてると思ってこれを用意したよ——",
 			painting = {
 				alpha = 0.3,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "グアムは手に持っている袋をテーブルに置いた。香りと熱気が漂ってきた。",
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これ、最近母港でメッチャ人気の重桜弁当だよ♡普段並んでも買えないやつ！",
 			painting = {
 				alpha = 0.3,
@@ -376,10 +376,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "タレント特権ってことかな？撮影が終わるのが遅いから大して並ばずに買えたよ！",
 			painting = {
 				alpha = 0.3,
@@ -391,12 +391,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "早く一緒に食べよう！深夜のアツアツ弁当の美味しさは格別よ～",
 			painting = {
 				alpha = 0.3,
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "椅子から引っ張り出そうとしてくるグアム。彼女はふとテーブルにある書類の山に目が止まった。",
@@ -422,10 +422,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれ？これって…",
 			painting = {
 				alpha = 0.3,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "隠そうと思ったが時すでに遅し。グアムは作業中の書類をそのまま取り上げてしまった。",
@@ -451,10 +451,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、これって…昼間あたしが作業してた書類じゃない？",
 			painting = {
 				alpha = 0.3,
@@ -469,10 +469,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そしてこれも…昨日やってたもの…",
 			painting = {
 				alpha = 0.3,
@@ -487,10 +487,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…もしかしてこの書類の山、ぜんぶあたしが作業したもの！？",
 			painting = {
 				alpha = 0.3,
@@ -502,8 +502,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -515,10 +515,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…これってつまり、指揮官が最近ずっと残業してるのは、ぜんぶあたしのせい？",
 			painting = {
 				alpha = 0.3,
@@ -530,8 +530,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -553,10 +553,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こんな大事なこともっと早く教えてくれればよかったのに！書類仕事ってテキトウにごまかせばいいと思ってたから…",
 			painting = {
 				alpha = 0.3,
@@ -568,12 +568,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だって、書類仕事って…元を言えば大人のツゴウってやつでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -612,10 +612,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "作業を増やしちゃって本当にゴメン！うう…指揮官、今からやり直すね！",
 			painting = {
 				alpha = 0.3,
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "言葉が終わらぬうちに、グアムは書類の山から資料を一束取り上げ、自分の席に戻り作業を始めようと――",
@@ -717,27 +717,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task",
 			say = "眠れない夜が続く——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

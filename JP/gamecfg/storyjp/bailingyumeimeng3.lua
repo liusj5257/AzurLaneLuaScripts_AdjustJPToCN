@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BAILINGYUMEIMENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BAILINGYUMEIMENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オフィス・ドリーム\n\n<size=45>ドリーム・テンペスタ</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>どうやらこれは、夢の中の出来事のようだ。</size>",
@@ -35,13 +35,13 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "有限会社「アズールレーンテック」・本社ビルのオフィスにて",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			bgm = "theme-schoolfuture",
+			side = 2,
 			bgmDelay = 1,
-			say = "有限会社「アズールレーンテック」・本社ビルのオフィスにて",
+			bgm = "theme-schoolfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_169",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_169",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -374,11 +374,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_169",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_169",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -595,11 +595,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_169",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -614,11 +614,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_169",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

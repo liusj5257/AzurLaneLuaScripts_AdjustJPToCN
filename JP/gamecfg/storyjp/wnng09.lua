@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在普通海域中可以使用潜艇支援了！",
 			typewriter = {
 				speed = 0.05,

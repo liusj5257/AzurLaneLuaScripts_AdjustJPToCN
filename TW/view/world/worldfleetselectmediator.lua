@@ -6,7 +6,7 @@ slot0.OnSelectEliteCommander = "WorldFleetSelectMediator.OnSelectEliteCommander"
 slot0.OnCommanderFormationOp = "WorldFleetSelectMediator.OnCommanderFormationOp"
 slot0.OnCommanderSkill = "WorldFleetSelectMediator.OnCommanderSkill"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OnSelectShip, function (slot0, slot1, slot2, slot3)
 		slot4 = tobool(slot2[slot3])
 		slot5 = {}
@@ -24,9 +24,9 @@ function slot0.register(slot0)
 		slot6, slot7, slot8 = uv0:GetDockCallbackFuncs(slot2, slot3, slot5)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			useBlackBlock = true,
 			selectedMin = 0,
+			useBlackBlock = true,
+			selectedMax = 1,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = slot4,
 			teamFilter = slot1,
@@ -163,7 +163,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setCommanderPrefabs(getProxy(CommanderProxy):getPrefabFleet())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.WORLD_ACTIVATE_DONE,
 		GAME.WORLD_FLEET_REDEPLOY_DONE,
@@ -172,7 +172,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.WORLD_ACTIVATE_DONE then
@@ -202,7 +202,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.GetDockCallbackFuncs(slot0, slot1, slot2, slot3)
+slot0.GetDockCallbackFuncs = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(BayProxy)
 
 	return function (slot0, slot1)
@@ -238,7 +238,7 @@ function slot0.GetDockCallbackFuncs(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.SetFleetSuccess(slot0)
+slot0.SetFleetSuccess = function(slot0)
 	slot1 = {
 		inPort = true
 	}

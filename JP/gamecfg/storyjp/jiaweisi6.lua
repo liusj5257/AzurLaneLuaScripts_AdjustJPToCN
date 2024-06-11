@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"好きを伝えよう！\n\n<size=45>六　隠された本音</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ジャーヴィスと演習海域から出ようとしたとき、演習を終えたジェーナスが走ってきた。",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "ジャーヴィスと演習海域から出ようとしたとき、演習を終えたジェーナスが走ってきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官にジャーヴィス…演習の結果を見に来たのですか？",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "う、うん、その通り",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -442,8 +442,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -471,8 +471,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
 			say = "どうやら、ジェーナスも彼女なりにジャーヴィスを気遣っているようだ。",
 			typewriter = {
 				speed = 0.05,

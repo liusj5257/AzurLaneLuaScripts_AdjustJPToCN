@@ -1,14 +1,14 @@
 return {
-	init_effect = "",
-	name = "2023 关岛活动 战争堡垒机甲精英 次数盾",
 	time = 0,
-	last_effect = "ATdun_full",
+	name = "2023 关岛活动 战争堡垒机甲精英 次数盾",
+	init_effect = "",
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "",
 	stack = 1,
 	id = 200724,
 	icon = 200724,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun_full",
 	effect_list = {
 		{
 			type = "BattleBuffFixDamage",

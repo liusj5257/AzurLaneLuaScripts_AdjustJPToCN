@@ -6,19 +6,19 @@ return {
 			style = {
 				text = "座標一覧の画面では、ほかの指揮官から援軍要請を受けたMETA戦を確認できます。",
 				mode = 2,
-				posY = -310.7,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -310.7,
 				posX = -685.5
 			},
 			ui = {
 				path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossDetailUI(Clone)/list_btn",
 				fingerPos = {
-					posX = 118.8,
+					rotateY = 0,
 					posY = -39.94,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 118.8
 				}
 			}
 		},
@@ -27,9 +27,9 @@ return {
 			style = {
 				text = "ほかの指揮官が開放したMETA戦はここです。",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 0,
 				posX = 92.62
 			}
 		},
@@ -38,9 +38,9 @@ return {
 			style = {
 				text = "これらの戦闘に参加すると、与えたダメージに応じてすぐ報酬を入手できます。",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 0,
 				posX = 92.62
 			}
 		},
@@ -49,9 +49,9 @@ return {
 			style = {
 				text = "また、参加するには「挑戦ポイント」を1消費します。挑戦ポイントは毎日0時にリセットされます。",
 				mode = 2,
-				posY = 312.35,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 312.35,
 				posX = 380.71,
 				ui = {
 					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossChallengeUI(Clone)/point"
@@ -63,9 +63,9 @@ return {
 			style = {
 				text = "META戦以外にも新しいコンテンツが開放されました。メイン画面に戻って確認しましょう。",
 				mode = 2,
-				posY = 330.98,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 330.98,
 				posX = 709.1
 			},
 			ui = {
@@ -74,11 +74,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 62.5,
+					rotateY = 0,
 					posY = -45.3,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 62.5
 				}
 			}
 		}

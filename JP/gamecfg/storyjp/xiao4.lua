@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ニンジャ暁参上！\n\n<size=45>四　みんなでワイワイ？・下</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "雷に誘われ、雷と電、そして暁と一緒にロング・アイランドから借りてきたらしい格闘ゲームをやっていた。",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "雷に誘われ、雷と電、そして暁と一緒にロング・アイランドから借りてきたらしい格闘ゲームをやっていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "あわわ！？しまった！？",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "よーし、いくよー！",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			say = "よーし、いくよー！",
 			flashN = {
 				color = {
 					1,
@@ -137,13 +137,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "→↘↓↙←→+BD・↓+C・C・↓↙←→+CD、↘←↙↓↘→←↓↙+BC、→↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P！",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			say = "→↘↓↙←→+BD・↓+C・C・↓↙←→+CD、↘←↙↓↘→←↓↙+BC、→↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P！",
 			flashN = {
 				color = {
 					1,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "K.O.  また雷と電に負けた。",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "暁と一緒に雷に挑んだ結果は0:10のボロ負けだった。",
 			typewriter = {
 				speed = 0.05,
@@ -254,15 +254,15 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "はあ……なるほどね！ゲームは楽しいよね！",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "ハマるとよくありませんよ。……暁姉さんも雷に言ってあげてください",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ハマるとよくありませんよ。……暁姉さんも雷に言ってあげてください",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "大丈夫ですよ。知らない方が幸せな時もあるって電は思っています。指揮官さんもそう思いませんか？",
 			typewriter = {
 				speed = 0.05,
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "そうなの……？……ちょっと疲れたから、先に帰るね……",
 			typewriter = {
 				speed = 0.05,
@@ -425,10 +425,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 1,
 					x = 1500,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "電のフォローは効果を発揮しなかったようだ。",
 			typewriter = {
 				speed = 0.05,

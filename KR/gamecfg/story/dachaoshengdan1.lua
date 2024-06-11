@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"크리스마스 선물 대작전!\n\n<size=45>一 크리스마스 전의 곤란함? </size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "음…… 예복은 괜찮은 선택일지 모르지만……",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#92fc63",
+			say = "음…… 예복은 괜찮은 선택일지 모르지만……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "아니지 아냐. 폐하께서 예복이 부족할리가 있나? 게다가 충분히 정교하거나 근엄하지 않아.",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "우와아! 아…… 안녕하세요, 워스파이트 선배. 제……제가 방해한 건가요?!",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우와아! 아…… 안녕하세요, 워스파이트 선배. 제……제가 방해한 건가요?!",
+			actor = 201100,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "으아! 선……선배, 무슨 말씀을요. 감사받을 만한 일이 아닌걸요!",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "에……엣! 지금 당장 나가는 건가요! 조금 정……정리를 해야 하는데……",
 			typewriter = {
 				speed = 0.05,

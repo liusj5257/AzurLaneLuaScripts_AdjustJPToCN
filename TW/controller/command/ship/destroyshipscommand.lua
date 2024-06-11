@@ -1,6 +1,6 @@
 slot0 = class("DestroyShipsCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.shipIds
 	slot4 = slot2.destroyEquipment or false
@@ -91,7 +91,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.CheckShareSkin(slot0, slot1)
+slot0.CheckShareSkin = function(slot0, slot1)
 	if not slot1.propose then
 		return
 	end

@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT14-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT14-1",
+	fadein = 1,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "제가 가겠습니다.",
-			bgm = "level-uta",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			say = "아뇨, 여기는 저 혼자 맡겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			say = "저 혼자서 원거리에서 화력을 집중시켜 공격을 진행, 적의 주의를 끌겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "사라나……조심해.",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			say = "네, 알겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			say = "알겠습니다. 그럼, 다녀오겠습니다.",
 			typewriter = {
 				speed = 0.05,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU25-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU25-1",
 	scripts = {
 		{
-			nameColor = "#ffa500",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_firedust_7",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
 			actor = 900353,
-			stopbgm = true,
+			nameColor = "#ffa500",
 			say = "「赤の騎士」の居場所を確認！皆大丈夫？",
 			flashin = {
 				delay = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "平気よ。祈りの効果はどうやらまだ続いているみたいね",
 			painting = {
@@ -54,8 +54,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "しかしさすがは「戦争」を司る者ね…量産型の護衛が分厚いわ",
 			painting = {
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "そりゃそうでしょ！だってこの鏡面海域でずっと戦っていたんだもの！",
 			painting = {
@@ -87,9 +87,9 @@ return {
 		{
 			actor = 900353,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "でも安心して、赤の騎士は本体もかなーり強いんだから！",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "それってどういう意味で安心するのかしら？",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "ん？ちゃんと励ましのつもりで言ったよ？強いのと戦うのって楽しいじゃん！",
 			painting = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "はぁ…それってあなた以外にとって励ましにならないわ",
 			painting = {

@@ -1,6 +1,6 @@
 slot0 = class("MainRightPanel", import(".MainBasePanel"))
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 	slot0.memoryBtn = findTF(slot0._tf, "memoryButton")
 	slot0.collectionBtn = findTF(slot0._tf, "collectionButton")
 	slot0.rankBtn = findTF(slot0._tf, "rankButton")
@@ -13,7 +13,7 @@ function slot0.OnSetUp(slot0)
 	slot0.startPos = slot0.memoryBtn.anchoredPosition
 end
 
-function slot0.OnRegist(slot0)
+slot0.OnRegist = function(slot0)
 	onButton(slot0, slot0.memoryBtn, function ()
 		uv0:emit(NewMainMediator.GO_SCENE, SCENE.MEDIA_COLLECTION_ENTRANCE)
 	end, SFX_MAIN)
@@ -56,15 +56,15 @@ function slot0.OnRegist(slot0)
 	end, SFX_MAIN)
 end
 
-function slot0.GetDirection(slot0)
+slot0.GetDirection = function(slot0)
 	return Vector2(1, 0)
 end
 
-function slot0.OnFresh(slot0)
+slot0.OnFresh = function(slot0)
 	slot0:RefreshRankBtn()
 end
 
-function slot0.RefreshRankBtn(slot0)
+slot0.RefreshRankBtn = function(slot0)
 	slot2 = pg.open_systems_limited[6].level <= getProxy(PlayerProxy):getRawData().level
 
 	if not slot0.isOpenRank or slot0.isOpenRank ~= slot2 then
@@ -78,7 +78,7 @@ function slot0.RefreshRankBtn(slot0)
 	end
 end
 
-function slot0.OnUpdatePlayer(slot0)
+slot0.OnUpdatePlayer = function(slot0)
 	slot0:RefreshRankBtn()
 end
 

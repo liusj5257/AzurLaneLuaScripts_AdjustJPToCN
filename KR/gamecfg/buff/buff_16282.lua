@@ -7,8 +7,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.1,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -34,8 +34,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.111,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -61,8 +61,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.122,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -88,8 +88,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.133,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -115,8 +115,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.144,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -142,8 +142,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.155,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -169,8 +169,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.166,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -196,8 +196,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.177,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -223,8 +223,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.188,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -250,8 +250,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.2,
+					attr = "damageRatioBullet",
 					index = {
 						1,
 						2
@@ -269,9 +269,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -285,8 +285,8 @@ return {
 				"onAircraftCreate"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = 0.1,
+				attr = "damageRatioBullet",
 				index = {
 					1,
 					2

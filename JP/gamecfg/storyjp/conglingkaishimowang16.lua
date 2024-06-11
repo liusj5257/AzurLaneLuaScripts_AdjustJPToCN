@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "ヴァンパイアハンターのシェフィールドの足取りに従い、枯れ木と廃墟の中を進んだ。",
 			bgm = "battle-highseasfleet-reborn",
+			say = "ヴァンパイアハンターのシェフィールドの足取りに従い、枯れ木と廃墟の中を進んだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうした者はあっけなく壊滅していきました……",
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それこそが私がみなさんの中に見出した可能性であり、私がみなさんを助けることを選んだ理由なのです",
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "シェフィールドの視線を追っていくと、そこには荒れ果てた廃墟のみ佇んでいた。",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "遠目で遺跡を探索し続けると、雄壮な城壁跡に思わず興味を引かれた。",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "城壁の大部分は崩れ落ちているものの、それでもいくつかの部分は未だ誇らしげに聳え立っている。",
 			typewriter = {
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "シェフィ、またはぐれた冒険者を連れてきたのですか？",
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……余計なことは言わないでください",
@@ -441,27 +441,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
-			say = "廃墟の中にある魔法に守られた入口をくぐり、ヴァンパイアハンターたちの拠点に入った。",
 			bgm = "theme-clemenceau",
+			say = "廃墟の中にある魔法に守られた入口をくぐり、ヴァンパイアハンターたちの拠点に入った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			say = "湿っぽい地下空間だと思っていたが、意外と広くて快適そうだ。",
 			typewriter = {
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_163",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっきから気になってたけど、ここで随分と長く生活してたってことは…もしかして結構年を取ってる？",
 			painting = {
 				alpha = 0.3,
@@ -534,11 +534,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふふふ、そういう聞き方をしてくるのは下調べをしていないか、王国にこちらの情報がほとんど伝わっていないかですね",
@@ -589,11 +589,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はい……その通りです",
@@ -626,11 +626,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "実は遥か昔、吸血鬼と人間は平和に共存していました",
@@ -701,11 +701,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そして時が流れ、やがて地図上には「旧王都の遺跡」という名前だけが残りました",
@@ -738,11 +738,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "市民、衛兵、メイド、商人、職人……王城陥落まで、我々にはそれぞれ違う身分がありましたが…",
@@ -775,11 +775,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我々は誓いました。我々と吸血鬼のどちらかが完全に滅ぶまで戦い続けると――",
@@ -811,11 +811,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "王都が移転する大混乱の中で、この部分の歴史は完全に失われてしまいました…",
 			painting = {
@@ -846,11 +846,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふっ、魔王にそんな力があれば見張りの長城などで阻まれませんよ",
@@ -900,11 +900,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "数百年も生きられないのは「普通の」人間です",
@@ -937,11 +937,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "その神々の加護のおかげで、我々は今まで生きながらえてきたのです",
@@ -974,11 +974,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "混乱の最初に命を落としたのであればいいものの――",
@@ -1011,11 +1011,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "王都を陥落させたという手柄で裏切り者の吸血鬼たちは喜んで魔王の陣営に加わり、今や魔王軍の幹部にまで上り詰めていることを思うと……",
@@ -1089,11 +1089,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……ま、まさか、今の話を聞いて探索しようと言うのですか？",
@@ -1126,11 +1126,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あそこは王都陥落の日からアンデッドたちの本拠地になっていて、我々でさえ簡単には近づけないんです。",
@@ -1192,11 +1192,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "一理あります。あなたの強運をもってすれば、本当に見つけられるかもしれません",
@@ -1229,11 +1229,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "今日はもう遅いので、どうぞゆっくり休んでください。明日の朝、一緒に旧王城の廃墟へ「宝探し」と行きましょう！",

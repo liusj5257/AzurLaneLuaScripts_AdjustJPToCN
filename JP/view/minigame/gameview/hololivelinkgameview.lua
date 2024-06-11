@@ -10,28 +10,28 @@ slot0.CARD_STATE_NORMAL = 0
 slot0.CARD_STATE_LINKED = 1
 slot0.CARD_STATE_BLANK = 2
 slot0.NAME_TO_INDEX = {
-	Kawakaze = 7,
+	mio = 4,
 	shion = 5,
 	aqua = 2,
 	fubuki = 0,
 	Purifier = 8,
-	mio = 4,
+	Kawakaze = 7,
 	matsuri = 1,
 	sora = 6,
 	ayame = 3
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "HoloLiveLinkGameUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.miniGameData = slot0:GetMGData()
 	slot0.linkGameID = slot0.miniGameData:GetRuntimeData("curLinkGameID")
 	slot0.bestScoreTable = slot0.miniGameData:GetRuntimeData("elements")
@@ -55,14 +55,14 @@ function slot0.didEnter(slot0)
 	slot0:SetState(uv0.GAME_STATE_BEGIN)
 end
 
-function slot0.OnSendMiniGameOPDone(slot0)
+slot0.OnSendMiniGameOPDone = function(slot0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0.backBtn)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0.countDown))
 
 	for slot4 = 0, slot0.layout.childCount - 1 do
@@ -76,10 +76,10 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.backBtn = slot0:findTF("ForNotchPanel/BackBtn")
 	slot0.helpBtn = slot0:findTF("ForNotchPanel/HelpBtn")
 	slot0.resetBtn = slot0:findTF("ResetBtn")
@@ -99,7 +99,7 @@ function slot0.findUI(slot0)
 	slot0.resultRestartBtn = slot0:findTF("RestartBtn", slot1)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
@@ -119,7 +119,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.showResultPanel(slot0, slot1)
+slot0.showResultPanel = function(slot0, slot1)
 	if not slot1 then
 		SetActive(slot0.resultPanel, false)
 
@@ -130,7 +130,7 @@ function slot0.showResultPanel(slot0, slot1)
 	SetActive(slot0.resultPanel, true)
 end
 
-function slot0.playStory(slot0)
+slot0.playStory = function(slot0)
 	if slot0.miniGameData:GetConfigCsvLine(slot0.linkGameID).story == "" then
 		slot0:showResultPanel(true)
 	elseif not pg.NewStoryMgr.GetInstance():IsPlayed(slot2[1]) then
@@ -140,7 +140,7 @@ function slot0.playStory(slot0)
 	end
 end
 
-function slot0.SetState(slot0, slot1)
+slot0.SetState = function(slot0, slot1)
 	if slot0.state ~= slot1 then
 		slot0.state = slot1
 
@@ -154,7 +154,7 @@ function slot0.SetState(slot0, slot1)
 	end
 end
 
-function slot0.GameBegin(slot0)
+slot0.GameBegin = function(slot0)
 	slot0.cards = {}
 	slot1 = slot0:setIconList()
 	slot2 = 0
@@ -259,8 +259,8 @@ function slot0.GameBegin(slot0)
 	end)):setRepeat(4):setLoopType(LeanTweenType.punch):setOnCompleteOnRepeat(true):setEase(LeanTweenType.easeOutSine)
 end
 
-function slot0.GameLoop(slot0)
-	function slot1(slot0)
+slot0.GameLoop = function(slot0)
+	slot1 = function(slot0)
 		slot1 = 0
 		slot2 = 0
 
@@ -282,7 +282,7 @@ function slot0.GameLoop(slot0)
 		end
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		for slot4 = 1, #slot0 - 1 do
 			slot5 = slot0[slot4]
 
@@ -466,7 +466,7 @@ function slot0.GameLoop(slot0)
 	slot0.countTimer.func()
 end
 
-function slot0.GameEnd(slot0)
+slot0.GameEnd = function(slot0)
 	slot0.countTimer:Stop()
 
 	slot0.countTimer = nil
@@ -499,7 +499,7 @@ function slot0.GameEnd(slot0)
 	end
 end
 
-function slot0.LinkLink(slot0, slot1, slot2)
+slot0.LinkLink = function(slot0, slot1, slot2)
 	assert(slot1.row ~= slot2.row or slot1.column ~= slot2.column)
 	assert(slot1.id == slot2.id)
 
@@ -552,7 +552,7 @@ function slot0.LinkLink(slot0, slot1, slot2)
 	end
 end
 
-function slot0.IterateByOneSnap(slot0, slot1, slot2, slot3, slot4)
+slot0.IterateByOneSnap = function(slot0, slot1, slot2, slot3, slot4)
 	for slot8 = 1, #slot3 do
 		slot13 = slot4
 		slot14 = slot1
@@ -571,7 +571,7 @@ function slot0.IterateByOneSnap(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3, slot4)
+slot0.FindDirectLinkPoint = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
 	for slot9 = slot2.row - 1, 0, -1 do
@@ -689,7 +689,7 @@ function slot0.FindDirectLinkPoint(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.setIconList(slot0)
+slot0.setIconList = function(slot0)
 	slot1 = {}
 	slot2 = slot0:GetMGData()
 	slot3 = slot2:GetRuntimeData("curLinkGameID")
@@ -719,7 +719,7 @@ function slot0.setIconList(slot0)
 	return slot1
 end
 
-function slot0.FormatRecordTime(slot0, slot1)
+slot0.FormatRecordTime = function(slot0, slot1)
 	return (math.floor(slot1 / 60000) >= 10 and slot2 or "0" .. slot2) .. "'" .. (math.floor(slot1 % 60000 / 1000) >= 10 and slot3 or "0" .. slot3) .. "'" .. (math.floor(slot1 % 1000 / 10) >= 10 and slot4 or "0" .. slot4)
 end
 

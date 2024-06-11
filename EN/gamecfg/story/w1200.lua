@@ -1,12 +1,12 @@
 return {
-	id = "W1200",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1200",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Cache has been successfully salvaged.",
 			typewriter = {
 				speed = 0.05,

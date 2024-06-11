@@ -5,29 +5,29 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA7",
 	scripts = {
 		{
-			actor = 0,
-			side = 2,
 			bgName = "bg_project_tb_room1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Alright, that's all the ingredients chopped up.",
+			side = 2,
 			bgm = "qe-ova-12",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Alright, that's all the ingredients chopped up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "Despite all this being virtual, I can feel the texture of the ingredients and smell them as though they were real.",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "I remember the fee I paid to Akashi to develop this device, and my eyes start to water.",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "That's when I feel something tugging on the sleeve of my shirt.",
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "It's TB.",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "She does not even pretend to react, she simply stares at me without a word.",
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-doubt2",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-doubt2",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "She extends her arms like she expects a hug.",
@@ -183,9 +183,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "On one hand, the kitchen is a dangerous place for a young girl. On the other hand, she'll never grow if she doesn't get to do anything.",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "I bring in a kiddy stool and add some stability to it so she can safely stand on it.",
@@ -225,9 +225,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-talking3",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "She holds up a potato I have yet to dice and makes a gesture I don't quite understand.",
@@ -256,9 +256,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-laugh2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "I try my best to make sense of what she's trying to say.",
@@ -287,9 +287,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-angry",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "That's my guess at what she means by \"red before thing.\" I messed up and burned it. Maybe she liked it despite that?",
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "She answers with a nod.",
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer11",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer11",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "There is no change in her tone of voice, but somehow, I can tell that she's excited.",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "I get out a box of child-sized cooking utensils and hand her a knife.",
@@ -415,27 +415,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_room1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_room1",
 			say = "With TB's help, if you could call it that, the stew came together beautifully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -443,8 +443,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "Picking up a spoon, I scoop up some food and offer to feed her.",
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "However, she ignores the food and instead takes her own cutlery and mimics what I just did, albeit unnaturally.",
@@ -489,8 +489,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "Just as I start to get uncharacteristically emotional from witnessing her growth, I once again feel a tugging on my sleeve.",
@@ -500,14 +500,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Aaahh.",
 			voice = "event:/educate/tb/educate-tb-story-1-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Aaahh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,17 +517,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "TB moves a forkful of broccoli in front of my mouth.",
@@ -558,14 +558,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Mouth. Open.",
 			voice = "event:/educate/tb/educate-tb-story-1-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Mouth. Open.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,8 +576,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "Though she makes no facial expression, she looks very happy.",
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "She's imitating a mother feeding her child. Maybe this feeding behavior is her way of trying to understand something.",
@@ -598,14 +598,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Aaahh.",
 			voice = "event:/educate/tb/educate-tb-story-1-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Aaahh.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "Seeing that I didn't do as she asked, she tries to spur me on again.",
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "I open my mouth comically wide and chomp down on the broccoli.",
@@ -650,27 +650,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_room1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_room1",
 			say = "Our fun little mealtime comes to a close not long after.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

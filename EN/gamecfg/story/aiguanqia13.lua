@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA13",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA13",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Kizuna AI",
 			dir = 1,
+			actorName = "Kizuna AI",
 			say = "Huh? I found a weird box!",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 6,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "Kizuna AI",
 			say = "Pay attention to your surroundings! We're not the only ones who saw this box drop so there must be enemies nearby!",
 			typewriter = {

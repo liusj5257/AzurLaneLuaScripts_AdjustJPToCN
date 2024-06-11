@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "main-arbitrationsystem-theme",
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ちょっと止まって！水平線の向こうに誰かがいるわ",
-			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,9 +205,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "思い出しました。あのアーク・ロイヤルさんは捉えるだけでもすごく大変でしたから…",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "私たちに気づいていなかったらいいけど…っ！？",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "悪くない案ですけど、残念ながら一歩遅かったですね",
 			typewriter = {
@@ -294,14 +294,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "ちょうどいいタイミングです。あなたたちならきっと間に合ってくれると思ってました",
-			bgm = "battle-ashes-theme",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "一体どういうことだ？このところ神出鬼没で一人で何かこそこそとやってると思ったら、これを企んでたのか…",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "その上、今の相手はアビータです。ちょっとした策を講じることも必要になるでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "しかし、高雄はできるだけ接触は避けるようにって……",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "接触してしまったのはお互い様です。今更それを持ち出したってもう遅い",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "……好きにしろ",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "我々が来たことで、余燼の二人に一悶着あったらしい。",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "しかしそれもすぐに収まって、観念したアーク・ロイヤルはこちらに目を向けてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -464,9 +464,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "…「コードG」が気になっているというのはあなたか",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 1,
 			say = "……",
 			typewriter = {
@@ -504,10 +504,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 9707020,
-			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 1,
+			actor = 9707020,
+			nameColor = "#ffa500",
 			say = "未知なる敵性存在と会話する気はない、か",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "「余燼」のアーク・ロイヤル…か",
 			typewriter = {
@@ -535,10 +535,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 9707020,
-			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 2,
+			actor = 9707020,
+			nameColor = "#ffa500",
 			say = "ああ、いかにも",
 			typewriter = {
 				speed = 0.05,
@@ -553,8 +553,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "なるほど、これがその指揮官か…百聞は一見に如かずだな",
 			typewriter = {
 				speed = 0.05,
@@ -584,8 +584,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "陛——",
 			typewriter = {
 				speed = 0.05,
@@ -600,8 +600,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "……っ。そうだ。だが同じアーク・ロイヤルでも、あなたが知っているアーク・ロイヤルとは限らない",
 			typewriter = {
 				speed = 0.05,
@@ -616,8 +616,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "…私に言えるのはそれだけだ",
 			typewriter = {
 				speed = 0.05,
@@ -647,8 +647,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "彼女はいつもこうだから、気にしないでください。むしろ彼女のように振舞ったほうがいいかもしれませんね",
 			typewriter = {
 				speed = 0.05,
@@ -663,8 +663,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "話を戻すけど、ここでの出来事を見る限り、あなたたちはアンチエックスの盟友ってわけじゃなさそうですね",
 			typewriter = {
 				speed = 0.05,
@@ -678,9 +678,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "どうですか？ぼくたちとここは一時休戦して、一緒にこの「危機」を乗り越えるというのは",
 			typewriter = {
 				speed = 0.05,
@@ -776,8 +776,8 @@ return {
 			expression = 6,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "もちろん、協力を申し出たのはこちらですから、承知の上です",
 			typewriter = {
 				speed = 0.05,
@@ -792,8 +792,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "それだけ自信があるってことかしら。あなたちとは戦いではなく対話で解決したい、と方針を決めたのは指揮官よ",
 			typewriter = {
 				speed = 0.05,
@@ -808,8 +808,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "……………そうですか。だがあなたたちは自分たちで思っているほど信頼に値しない、とだけ言っておきます",
 			typewriter = {
 				speed = 0.05,
@@ -824,8 +824,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "まあ、たまたまここでアンチエックスと出くわし、やむを得ず共同戦線を張るなら、こちらとしては問題ないとだけ",
 			typewriter = {
 				speed = 0.05,
@@ -837,8 +837,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アビータ・TemperanceXⅣ",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -853,8 +853,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アビータ・HermitⅨ",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -869,8 +869,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アビータ・StrengthVIII",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -885,8 +885,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アビータ・HermitⅨ",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -901,9 +901,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
+			dir = 1,
 			say = "どうやらここは「余燼」と協力するしかなさそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -915,9 +915,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
+			dir = 1,
 			say = "全艦、アビータを目標に、攻撃を開始せよ！",
 			typewriter = {
 				speed = 0.05,

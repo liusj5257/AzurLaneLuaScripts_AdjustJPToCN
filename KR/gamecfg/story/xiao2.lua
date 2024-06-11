@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"닌자의 길\n\n<size=45>닌자 수행?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날, 인적이 드문 교정 안뜰의 어느 공터에서 아카츠키와 쿠로시오를 발견했다.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날, 인적이 드문 교정 안뜰의 어느 공터에서 아카츠키와 쿠로시오를 발견했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 301270,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301270,
+			nameColor = "#92fc63",
 			say = "핫!",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 75,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "쿠로시오가 높게 뛰어올라, 화려하게 공중회전하고 가볍게 착지했다.",
 			typewriter = {
 				speed = 0.05,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "대, 대단해……!",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			actor = 301270,
+			say = "쿠노이치의 수행의 기본입니다. 연습하면 아카츠키도 이정도는 할 수 있을 거에요.",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "쿠노이치의 수행의 기본입니다. 연습하면 아카츠키도 이정도는 할 수 있을 거에요.",
+			actor = 301270,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,11 +128,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "오오! 그럼 당장…… 하아아아!-- 우아아!?",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
 					x = 0,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "공중에서 자세가 무너진 아카츠키를 쿠로시오가 가볍게 멈춰 세웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "하아아아! 엥? 우아아아!?",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 75,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					x = 0,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "머리를 아래로 향하고 떨어지는 아카츠키를 쿠로시오가 다시 한 번 멈춰 세웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "으윽……다, 다시 한 번!",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
 					x = 22.5,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "이번엔 반드시 성공적으로… 하앗! 우와아앗?!!?",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 75,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -284,9 +284,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "이번에는 아카츠키를 쿠로시오가 공주님 안기로 받아주었다.",
 			typewriter = {
 				speed = 0.05,
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
+			say = "미안하네……소인의 수행 부족이오……",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "미안하네……소인의 수행 부족이오……",
+			actor = 301090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "미, 미안하오……",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

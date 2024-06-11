@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"아브로라와 유쾌한 동료들\n\n<size=45>2. 그리운 고향</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "아브로라에게서 지난번 연습 전투에 관한 것을 물어보았다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "아브로라에게서 지난번 연습 전투에 관한 것을 물어보았다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,13 +82,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "아브로라는 투명한 액체가 담긴 스테인리스 컵 두 개를 가져왔다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "노스 유니온의 특산품이라…… 역시 그걸 말하는 건가.",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "방금 아브로라가 열었던 그 유리병에 쓰여져 있던 것을 잘못 보지 않았다면 역시……",
 			typewriter = {
 				speed = 0.05,
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "지휘관님, 드세요.",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "눈 앞에 놓인 투명하고 깨끗한 물과 다름 없는 액체를——",
 			typewriter = {
 				speed = 0.05,
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "지휘관님, 괜찮으세요?",
 			typewriter = {
 				speed = 0.05,
@@ -325,12 +325,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "지휘관님, 괜찮으세요?",
 			typewriter = {
 				speed = 0.05,
@@ -374,15 +374,15 @@ return {
 			}
 		},
 		{
-			say = "아브로라는 자신의 이야기를 하기 시작했다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "아브로라는 자신의 이야기를 하기 시작했다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "노스 유니온의 동료들 이야기를 하는 동안, 아브로라는 즐거움을 감추지 않았다.",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -431,9 +431,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "노스 유니온과 세이렌의 전투에 관한 이야기를 하는 아브로라의 눈빛은 결연하기 그지 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -445,9 +445,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그리고 노스 유니온의 풍경에 대해 이야기 할 때, 그 눈에 가득찬 것은 그리움이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -459,9 +459,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이야기가 끝날때 쯤, 보드카 병은 거의 다 비어 있었다.",
 			typewriter = {
 				speed = 0.05,

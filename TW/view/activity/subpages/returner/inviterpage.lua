@@ -1,7 +1,7 @@
 slot0 = class("InviterPage")
 slot0.REFRESH_TIME = 1800
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._event = slot2
@@ -34,7 +34,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	onButton(slot0, slot0.getBtn, function ()
 		uv0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 			activity_id = uv0.activity.id,
@@ -78,7 +78,7 @@ function slot0.Init(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.activity = slot1
 	slot2 = pg.TimeMgr.GetInstance():GetServerTime()
 
@@ -98,7 +98,7 @@ function slot0.Update(slot0, slot1)
 	slot0:UpdateReturners()
 end
 
-function slot0.getTotalPt(slot0, slot1)
+slot0.getTotalPt = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.returners) do
@@ -108,7 +108,7 @@ function slot0.getTotalPt(slot0, slot1)
 	return slot2 + slot1
 end
 
-function slot0.UpdateData(slot0)
+slot0.UpdateData = function(slot0)
 	slot0.isPush = slot0.activity.data2_list[1] == 1
 	slot0.code = getProxy(PlayerProxy):getRawData().id
 	slot0.fetchList = slot1.data1_list
@@ -142,7 +142,7 @@ function slot0.UpdateData(slot0)
 	setActive(slot0.pushDisBtn, not slot0.isPush and #slot0.returners >= 3)
 end
 
-function slot0.UpdateUI(slot0)
+slot0.UpdateUI = function(slot0)
 	slot0.codeTxt.text = slot0.code
 	slot0.ptTxt.text = slot0.pt .. "/" .. slot0.nextTarget
 
@@ -163,11 +163,11 @@ function slot0.UpdateUI(slot0)
 	slot0:UpdateTasks(pg.activity_template_headhunting[slot0.activity.id].tasklist)
 end
 
-function slot0.getTask(slot0, slot1)
+slot0.getTask = function(slot0, slot1)
 	return getProxy(TaskProxy):getTaskById(slot1) or slot2:getFinishTaskById(slot1)
 end
 
-function slot0.UpdateTasks(slot0, slot1)
+slot0.UpdateTasks = function(slot0, slot1)
 	if slot0.isPush then
 		slot3 = slot0.activity:getDayIndex()
 		slot4 = getProxy(TaskProxy)
@@ -200,7 +200,7 @@ function slot0.UpdateTasks(slot0, slot1)
 	end
 end
 
-function slot0.UpdateTaskTF(slot0, slot1)
+slot0.UpdateTaskTF = function(slot0, slot1)
 	setActive(slot0.taskLockPanel, false)
 	setActive(slot0.taskPanel, true)
 
@@ -231,7 +231,7 @@ function slot0.UpdateTaskTF(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	LoadSpriteAsync("qicon/" .. slot1:getPainting(), function (slot0)
 		if not IsNil(uv0) then
 			uv0:GetComponent(typeof(Image)).sprite = slot0
@@ -240,7 +240,7 @@ function slot1(slot0, slot1)
 	UIItemList.New(slot0:Find("starts"), slot0:Find("starts/tpl")):align(slot1:getStar())
 end
 
-function slot0.UpdateReturners(slot0)
+slot0.UpdateReturners = function(slot0)
 	slot1 = slot0.returners
 
 	slot0.returnerList:make(function (slot0, slot1, slot2)
@@ -260,7 +260,7 @@ function slot0.UpdateReturners(slot0)
 	slot0.returnerList:align(2)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	slot0.bg.sprite = nil

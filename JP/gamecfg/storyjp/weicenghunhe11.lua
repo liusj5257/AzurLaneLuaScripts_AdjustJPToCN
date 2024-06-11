@@ -1,21 +1,21 @@
 return {
-	id = "WEICENGHUNHE11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "hunhe-battle",
+			side = 2,
 			dir = 1,
 			say = "運河要塞？・外洋？",
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "無理だよ。この霧の中じゃ直掩機の発着もギリギリだから",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "鏡面海域でも聞いたことないよ、こんなの",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "つまり私たち、霧の中で完璧に迷い込んだってわけね",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "「この霧がただの霧じゃなくセイレーンの仕業。そしてボルチモアもエンタープライズさんもこの霧の中で行方不明になった可能性が高い」",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "艦載機が使えないってことは、つまりぼくが活躍する番！先頭の偵察なら任せて！",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -225,9 +225,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ああちょっと！敵に狙われるわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -252,8 +252,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "ん？でも敵が攻撃してきたら居場所がばれるんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "（この子、ポジティブというかバカというか…）",
 			typewriter = {
 				speed = 0.05,
@@ -283,11 +283,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "はいはい！じゃあこっちの直掩機もつけてやるから、気をつけて！",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "大丈夫大丈夫！ぼく、こういう時は結構やるんだから！",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2500

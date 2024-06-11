@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动B3 BOSS 第一波 浮游炮召唤 自爆",
 	time = 0,
-	color = "yellow",
+	name = "2022美系活动B3 BOSS 第一波 浮游炮召唤 自爆",
+	init_effect = "",
+	id = 200270,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200270,
+	color = "yellow",
 	icon = 8636,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78300,
 				time = 14,
 				rant = 10000,
-				skill_id = 78300
+				target = "TargetSelf"
 			}
 		}
 	}

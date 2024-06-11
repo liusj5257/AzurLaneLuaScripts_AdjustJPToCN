@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 25,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 15810,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15810,
+	color = "red",
 	icon = 15810,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 15812,
-				time = 20,
 				target = "TargetSelf",
+				time = 20,
 				quota = 1
 			}
 		},
@@ -50,8 +50,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 15810
+				skill_id = 15810,
+				target = "TargetSelf"
 			}
 		}
 	}

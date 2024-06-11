@@ -1,11 +1,11 @@
 slot0 = class("MainGuildSequence")
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.ignores = {}
 	slot0.refreshTime = pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	if not getProxy(GuildProxy):getRawData() then
 		slot1()
 
@@ -35,7 +35,7 @@ function slot0.Execute(slot0, slot1)
 	end
 end
 
-function slot0.RefreshEvent(slot0, slot1, slot2, slot3)
+slot0.RefreshEvent = function(slot0, slot1, slot2, slot3)
 	if slot1:GetUnlockMission() and (not slot2 or slot4.id ~= slot2.id) then
 		pg.m02:sendNotification(GAME.GUILD_REFRESH_MISSION, {
 			force = true,
@@ -51,7 +51,7 @@ function slot0.RefreshEvent(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.Notify(slot0, slot1)
+slot0.Notify = function(slot0, slot1)
 	pg.GuildMsgBoxMgr.GetInstance():Notification({
 		condition = function ()
 			slot2, slot3 = getProxy(GuildProxy):getRawData():GetActiveEvent():AnyMissionFirstFleetCanFroamtion()
@@ -74,7 +74,7 @@ function slot0.Notify(slot0, slot1)
 	})
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.ignores = {}
 	slot0.refreshTime = nil
 end

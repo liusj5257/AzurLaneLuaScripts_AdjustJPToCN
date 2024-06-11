@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN14",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_600",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "At that moment, you sense Adventure Galley's gaze fixating on you.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,9 +55,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Oh, f-forgive me! It's just... You remind me so much of an old friend of mine... Morgan, Golden Hind's betrothed.",
 			typewriter = {
@@ -70,9 +70,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "(whisper) It's because you're both so good-looking...",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Investigator... I know this is sudden, but... I-I have fallen hopelessly in love with you!",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "If that's what you want... Okay. Come with me.",
 			typewriter = {
@@ -326,11 +326,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "Essex",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "The next thing you know, the two of you have reached the kitchen.",
 			typewriter = {
@@ -338,17 +338,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -447,9 +447,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Daaarling... where are you going?",
 			typewriter = {
@@ -634,11 +634,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Oh, Investigator, my sweetheart... I love you. No one else can have you. I will make you mine...",
@@ -652,9 +652,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Wait... I think Golden Hind said... Something, something... Sacrifice? Hmm.",
 			typewriter = {
@@ -667,9 +667,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "No matter. She can always find another person to offer... Hehehehe...",
 			typewriter = {
@@ -678,11 +678,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Chef",
-			side = 2,
+			actor = 9600061,
 			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Let's be together forever, you and I!",
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -750,8 +750,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "So, she turned me into dinner?",
 			bgm = "theme-ijndailymeeting",
+			say = "So, she turned me into dinner?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,28 +852,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
+			blackBg = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			blackBg = true,
 			say = "Chop-chop, like she did with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -885,8 +885,8 @@ return {
 			side = 2,
 			actorName = "Hai Tien",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
 			blackBg = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Heehee~ Oh, you.",
 			typewriter = {

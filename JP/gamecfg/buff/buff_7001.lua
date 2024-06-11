@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "精英怪-急速",
 	time = 0,
+	name = "精英怪-急速",
+	init_effect = "",
 	picture = "",
 	desc = "精英怪-急速",
 	stack = 1,
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				group = 0,
-				mul = 2000,
-				add = 0
+				add = 0,
+				mul = 2000
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				group = 0,
-				attr = "loadSpeed",
-				number = 10000
+				number = 10000,
+				attr = "loadSpeed"
 			}
 		},
 		{

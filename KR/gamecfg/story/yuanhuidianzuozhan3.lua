@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "메탈 블러드 실험장· 장기말 제조실",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "메탈 블러드 실험장· 장기말 제조실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "블뤼허와 Z16은 장기말 제조실이라고 표시된 곳에 도착 후 시선을 사로잡는 광경에 깜짝 놀랐다.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "무수히 많은 구역으로 나누어진 제조실은 전부 장기말로 가득 차 있었고, '낯익은 얼굴'들이 조용히 서 있는 모습은 마치 하나의 클론 군대 같았다.",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "눈앞의 광경에 흥분을 감추지 못한 Z16이 깡충깡충 Z2의 장기말 앞으로 뛰어가 그들 중 하나를 향해 손을 내밀어 인사를 건넸다.",
@@ -391,9 +391,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 401160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나 지금 장기말한테 혼난 거야?! 근데 일리 있는 말이네…. 역시 오이겐이야!",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

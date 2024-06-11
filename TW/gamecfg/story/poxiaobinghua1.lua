@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方聯合某處·會議室",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp3",
+			say = "北方聯合某處·會議室",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -83,8 +83,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "很不巧，蘇維埃聯盟已經在昨天起程去聖彼得堡開會了，現在這裡由我負責。",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "啊……又到這個時期了啊。不過現在各處戰線都那麼緊張，她不出席也無所謂吧？",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "讓我猜猜，這次緊急調我回來是因為帶指揮官去“密室”的時候終於到了？",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "其並不是一些同志過去帶有主觀偏見所認定的單純為白鷹利益服務的白鷹指揮官，而是一位放下了陣營偏見切實為全人類生存所奮鬥的、真正能夠代表碧藍航線這一組織成立初衷的人。",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "指揮官確實配得上同志這一稱號，加上我們觀察到的其引發的與“密室”資料紀錄之中相似的特殊現象……",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "事關重大，蘇維埃聯盟本來計劃親自帶指揮官過去，可是聖彼得堡的會議實在推不掉，這件事就只好靠我們來辦了。",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "既然如此，等到會議結束之後再帶指揮官去不就好了嗎，再怎麼說也不用急於這一兩天吧？",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "嗯……不知道妳有沒有發現，最近歐羅巴的局勢十分奇怪。斯卡帕灣襲擊發生後，預想中皇家與鐵血間的激烈衝突沒有發生，兩邊反而都陷入了詭異的平靜之中。",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "這一點我也覺得有些奇怪，妳懷疑皇家和鐵血達成了什麼交易？",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "不好說。鐵血的行動方式實在令人難以琢磨，再加上一個皇家……總之，因為局勢緩和，她們重新提出了將指揮官接走的申請。",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "切，真是不依不饒啊……",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "有情報顯示她們已經開始進行實質的準備工作了。因為我們已經沒有了任何拖延理由，一旦迎接艦隊到達，之後的事情會變得很麻煩。",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "唔……知道她們具體的準備進度嗎？",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "航線尚不清楚，但是最快將會在本週內抵達。",
 			typewriter = {
@@ -385,8 +385,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "這也太快了吧！那現在確實是需要爭分奪秒的時候了，妳們的計劃是什麼？",
 			typewriter = {
@@ -402,8 +402,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "協同出擊。極地塞壬好像也終於發現了我們留下指揮官的目的，明明長久以來都對“密室”不管不問，最近卻重新發動了進攻。",
 			typewriter = {
@@ -419,8 +419,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "行動開始後我會負責吸引極地塞壬的注意力，這期間由妳負責護送指揮官前往“密室”完成任務。",
 			typewriter = {
@@ -436,8 +436,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "指揮官很快就要離開，塞壬的進攻也在加緊，這可能是唯一的機會了，任務必須要成功。",
 			typewriter = {
@@ -450,11 +450,11 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "放心，保證完成任務。",
 			typewriter = {
 				speed = 0.05,
@@ -466,8 +466,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「玲，妳知道如何設計一場有趣的尋寶遊戲嗎？」</size>",
@@ -506,12 +506,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

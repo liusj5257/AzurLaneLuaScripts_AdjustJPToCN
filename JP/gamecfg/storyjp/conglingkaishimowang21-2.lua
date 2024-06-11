@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
+			soundeffect = "event:/battle/boom2",
 			bgm = "login-2022401us",
 			say = "――――！！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = "main1",
 			say = "ふん、その程度で、完璧で究極な吸血鬼であるヴァンパイアを閉じ込めるつもり？",
 			painting = {
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 201233,
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "出でよ、我が使い魔たちよ！身の程知らず共に、永遠の解放を与えなさい！",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウィングド饅頭スライム一団",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "ピョピョピョーーー！！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 1.7,
 					name = "props/story_youyishilaimu",
+					time = 1.7,
 					path = {
 						{
 							-1500,
@@ -219,9 +219,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 201233,
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "ふん、隙がないわね～",
@@ -234,17 +234,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "勇者パーティーの指揮官…先に汝から始末するわ！",
 			painting = {
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2500
@@ -280,25 +280,25 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "指揮官",
+			nameColor = "#A9F548FF",
 			say = "――引っかかったな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "こちらに向かって真っ直ぐ突進してきたヴァンパイアだが――メイドが消える前に仕掛けた罠にかかった！",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "そして——時間が止まった。",
 			typewriter = {
 				speed = 0.05,
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "うぅ体が…動かない…",
 			painting = {
@@ -377,17 +377,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これで——おわりだああ！",
 			painting = {
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "ヤ！ラ！レ！ターッ！",
 			painting = {
@@ -429,27 +429,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "魔王軍の３つの拠点がすべて破壊された。",
 			bgm = "story-mmorpg",
+			say = "魔王軍の３つの拠点がすべて破壊された。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "「光明の加護」の力で呪いを退け、再び荒れの大地に命をもたらした。",
 			typewriter = {
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ヴァンパイアハンターはずっと皆様の盟友です",
@@ -561,11 +561,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なので、しばらくは会えないでしょう",
@@ -617,13 +617,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "二人",
+			side = 0,
 			bgName = "star_level_bg_176",
-			hidePaintObj = true,
+			hideOther = true,
 			actor = 202084,
 			nameColor = "#A9F548FF",
-			side = 0,
+			hidePaintObj = true,
 			say = "ヴァンパイアハンターは必ずや駆けつけます！",
 			subActors = {
 				{
@@ -640,8 +640,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

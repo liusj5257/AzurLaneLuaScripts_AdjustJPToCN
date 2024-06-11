@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "最适化武装",
 	init_effect = "",
+	id = 12170,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12170,
+	color = "red",
 	icon = 12150,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 1012161,
 				minWeaponNumber = 1,
+				skill_id = 1012161,
 				check_weapon = true,
 				weapon_group = {
 					24000,
@@ -43,8 +43,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 12153,
 				maxWeaponNumber = 0,
+				skill_id = 12153,
 				check_weapon = true,
 				weapon_group = {
 					24000,
@@ -60,8 +60,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 12150,
+				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
 				},

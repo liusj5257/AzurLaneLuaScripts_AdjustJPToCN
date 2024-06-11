@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -247,8 +247,8 @@ return {
 		{
 			say = "その後、お茶会にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,8 +276,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "このお菓子すごく美味しいわ！誰が作ったの？",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "姉妹の絆が感じられる味ですね。",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "電、こっちを見ないでよ……もうわかった！エディンバラに「すこーん」の作り方を教えてもらうよ！――ここまで美味しく作れるかはわからないけど！",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "大丈夫、雷が上手く作れるようになるまで、電はずっと待っていますよ。",
 			typewriter = {
 				speed = 0.05,
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			say = "同じ時刻、暁は――",
 			blackBg = true,
+			say = "同じ時刻、暁は――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			say = "【N28°E167°】",
 			blackBg = true,
+			say = "【N28°E167°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "重桜の北方、こんなに暖かいなんて……北方連合⁉恐るべし！",
 			typewriter = {
 				speed = 0.05,

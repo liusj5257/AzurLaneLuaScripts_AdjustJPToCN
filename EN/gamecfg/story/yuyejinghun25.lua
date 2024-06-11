@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			bgm = "qe-ova-15",
 			actorName = "Essex",
+			bgm = "qe-ova-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "At long last, you and Royal Fortune arrive in the study. You lock the door tightly, sealing out all danger on the other side.",
 			typewriter = {
@@ -139,10 +139,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Her favourite books, eh? They should all be in the same bookcase. Let's see... There!",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "Hai Tien",
 			bgName = "star_level_bg_515",
 			factiontag = "Bookworm GM",
-			actorName = "Hai Tien",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You stand before the bookcase.",
@@ -214,17 +214,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -558,9 +558,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yes, it would seem one of her own works ended up as a prop.",
 			typewriter = {
@@ -573,9 +573,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "(Self-Proclaimed) Great Detective GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Bristol",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Whoa... That prose is so, like, poetic!",
 			typewriter = {
@@ -588,9 +588,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Aaahhh! Um, you astutely notice that Royal Fortune has come to a stop! You suspect she has found something of note!",
 			typewriter = {
@@ -608,9 +608,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You decide to immediately throw that book aside and go have a look!",
 			typewriter = {
@@ -623,9 +623,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Phew... You check your half of the bookcase one more time, but nothing jumps out at you.",
 			typewriter = {
@@ -638,9 +638,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Then, you astutely notice that Royal Fortune has come to a stop. You suspect she has found something of note.",
 			typewriter = {
@@ -704,10 +704,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Back when his wife was still alive, it was warm in the castle. Not cold, like it is now.",
 			typewriter = {
 				speed = 0.05,
@@ -718,10 +718,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The lady was a compassionate, cheerful person, and had a smile that made the sun shine brighter when she was here.",
 			typewriter = {
 				speed = 0.05,
@@ -732,10 +732,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This place was always full of life and laughter... that is, until she fell ill and was taken from us.",
 			typewriter = {
 				speed = 0.05,
@@ -746,10 +746,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "After that, Lord Manjuu devoted himself to charity and medical work, and he didn't give his family the attention they needed.",
 			typewriter = {
 				speed = 0.05,
@@ -798,10 +798,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Passed away abruptly, much like Lady Manjuu... Golden Hind never recovered from it. Her bereaved father only made her days more miserable.",
 			typewriter = {
 				speed = 0.05,
@@ -812,10 +812,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "One day it got too much for her, so she joined a religious group in hopes of finding solace.",
 			typewriter = {
 				speed = 0.05,
@@ -826,10 +826,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But, well... that group was up to very shady business. São Martinho joined later, as well as Adventure Galley, and it changed them both drastically.",
 			typewriter = {
 				speed = 0.05,
@@ -839,11 +839,11 @@ return {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "Bristol",
 			bgName = "star_level_bg_515",
 			factiontag = "(Self-Proclaimed) Great Detective GM",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "Bristol",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "BANG! BANG! BANG! BANG! BANG! THUD!",
 			typewriter = {
@@ -851,17 +851,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -886,10 +886,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, crap! They've found us...",
 			typewriter = {
 				speed = 0.05,
@@ -900,10 +900,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Investigator... I leave Whydah and all the rest to you.",
 			typewriter = {
 				speed = 0.05,
@@ -927,10 +927,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whydah gave me this lantern and told me to hang on to it... but I think you'll need it more than me.",
 			typewriter = {
 				speed = 0.05,
@@ -954,10 +954,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "Royal Fortune",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now go... Save us!",
 			typewriter = {
 				speed = 0.05,

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.3
+					number = -0.3,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.3
+					number = -0.3,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.3
+					number = -0.3,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.6
+					number = -0.6,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.6
+					number = -0.6,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.6
+					number = -0.6,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -82,8 +82,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.9
+					number = -0.9,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.9
+					number = -0.9,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.9
+					number = -0.9,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -120,12 +120,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 600181,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600181,
+	color = "yellow",
 	icon = 600181,
 	last_effect = "",
 	effect_list = {
@@ -136,8 +136,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.9
+				number = -0.9,
+				attr = "injureRatioByCannon"
 			}
 		},
 		{
@@ -147,8 +147,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.9
+				number = -0.9,
+				attr = "injureRatioByAir"
 			}
 		},
 		{
@@ -158,8 +158,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.9
+				number = -0.9,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

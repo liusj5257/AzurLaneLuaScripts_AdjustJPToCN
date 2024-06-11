@@ -1,8 +1,8 @@
 return {
-	id = "GWORLD200A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "GWORLD200A",
 	skipTip = false,
 	fadein = 1.5,
 	scripts = {
@@ -10,9 +10,9 @@ return {
 			actor = 202190,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-richang",
 			dir = 1,
 			say = "함대 지휘권 승격을 확인했습니다. 이제부터 작전 중 동시에 지휘할 수 있는 함대가 늘어납니다.",
+			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

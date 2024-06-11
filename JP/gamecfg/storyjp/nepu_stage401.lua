@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE401",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE401",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>『異色海域PURPLE』</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 10100010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-nep",
 			dir = -1,
 			say = "……とか何とか、ブランたちがいーすんに無茶振りされたのが昨日のこと",
+			bgm = "level-nep",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "見える、酷使される未来が……残業代、請求するです",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "おおっ……空母以上の包容力……です！",
 			typewriter = {
 				speed = 0.05,

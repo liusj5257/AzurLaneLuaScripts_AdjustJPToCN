@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG9-2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG9-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 1,
-			bgm = "nagato-map",
 			say = "叮叮——",
+			side = 1,
+			dir = 1,
+			bgm = "nagato-map",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			actorName = "{namecode:91}",
 			side = 2,
+			dir = -1,
 			say = "太好了！！聽到了嗎，姐姐就要升任旗艦了，姐姐！！！",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 		{
 			actor = 305050,
 			nameColor = "#a9f548",
+			dir = -1,
 			withoutActorName = true,
 			side = 2,
-			dir = -1,
 			say = "突然，{namecode:74}的語氣變得沉重了起來，剛才還在歡呼雀躍的人群也開始逐漸安靜了下來。",
 			typewriter = {
 				speed = 0.05,

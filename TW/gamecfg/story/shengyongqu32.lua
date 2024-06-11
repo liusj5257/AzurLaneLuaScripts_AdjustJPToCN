@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU32",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，又解決一件大事。本王還有急事要返回皇家本島，大家就請便了哦。",
 			bgm = "bsm-7",
+			nameColor = "#a9f548",
+			say = "很好，又解決一件大事。本王還有急事要返回皇家本島，大家就請便了哦。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -42,10 +42,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900198,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呼…漫長的談判終於順利結束了。我也要趕回薩丁帝國做進一步的安排，就在這裡告別吧。",
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "俾斯麥閣下，希望鐵血可以認真遵守協定的內容。對抗塞壬的戰爭遠沒有結束，碧藍航線內部經不起任何分裂和對抗。",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "請放心，黎胥留卿。這份協議毫無疑問將會鞏固碧藍航線內部和歐羅巴大陸的穩定。",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "如果真的是這樣就太好了。我還要向教廷匯報協議成功簽訂的事，就不繼續耽誤妳的時間了。",
 			typewriter = {
@@ -140,17 +140,17 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
-			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "黎胥留、黎胥留！妳突然發什麼呆呢。",
+			bgName = "bg_guild_blue",
 			bgm = "hunhe-story",
+			actor = 205010,
+			nameColor = "#a9f548",
+			say = "黎胥留、黎胥留！妳突然發什麼呆呢。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "抱歉，伊莉莎白。我回憶起了一些過去的事，稍微有些觸景生情了吧…",
 			typewriter = {
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "都是那個鐵血突然冒出來的什麼…腓特烈大帝？的錯啦！ ！",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "提起來就火大！發起這個話題是本王不對…不說這個了！",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -413,8 +413,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "哈…哈哈…腓特烈大帝啊，我會重點記住這個名字的。",
 			typewriter = {
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "也希望妳能達成自己的額外目標哦，黎胥留~",
 			typewriter = {
 				speed = 0.05,

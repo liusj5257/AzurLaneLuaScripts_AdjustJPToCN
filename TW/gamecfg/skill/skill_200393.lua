@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "DOA联动复刻 EX2 进入狂暴",
 	cd = 0,
-	icon = 200393,
-	id = 200393,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	id = 200393,
+	icon = 200393,
 	effect_list = {
 		{
 			type = "BattleSkillPhaseJump",

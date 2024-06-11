@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_85 = {}
 slot1 = slot0.word_template_85
 
-function temp()
+temp = function()
 	uv0["吊"] = {
 		["死"] = {
 			["鬼"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["钓"] = {
 		["鱼"] = {
 			["岛"] = {
@@ -81,7 +81,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["釣"] = {
 		["魚"] = {
 			["島"] = {
@@ -93,7 +93,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["調"] = {
 		["教"] = {
 			this = true,
@@ -108,7 +108,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["爹"] = {
 		this = {
 			this = true
@@ -135,7 +135,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蝶"] = {
 		["舞"] = {
 			["按"] = {
@@ -149,7 +149,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丁"] = {
 		["丙"] = {
 			["诺"] = {

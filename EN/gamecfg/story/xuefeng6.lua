@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUEFENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUEFENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Call me Yukikaze the Great!\"\n\n<size=45>Chapter 6: Yukikaze and the Amusement Park (Pt 2)</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Amusement Park - Ferris Wheel",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "Amusement Park - Ferris Wheel",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Commander... thanks...",
 			typewriter = {
@@ -45,9 +45,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Yukikaze, that haunted house really took a lot out of you... Maybe I shouldn't have....",
 			typewriter = {
 				speed = 0.05,
@@ -55,11 +55,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "C-Commander, it's not your fault!",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 37.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					number = 1
@@ -81,11 +81,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Truthfully, I was never good with the scary stuff... But since you wanted to go, I couldn't just say no...",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 15,
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "I wasn't trying to act tough... much...",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -135,9 +135,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			options = {
 				{
 					content = "Come to think of it, Yukikaze doesn't normally seem to turn down other peoples' requests either."
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Are you saying that I'm acting tough all the time?",
 			typewriter = {
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "That's not it! It's just that...",
 			typewriter = {
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Everyone is placing their faith in me, so that's why Yukikaze the Great has to help them!",
 			typewriter = {
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "It's not like... I want to be better friends with them or anything...",
 			typewriter = {
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Ehehe... murr...",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.75,
 					x = 37.5,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Hmm... I suppose I can try to be more honest like you said, Commander...",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.75,
 					x = 37.5,
@@ -285,11 +285,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Ack...! What did you make Yukikaze the Great say just now...?",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 2
@@ -311,12 +311,12 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "F-forget you ever heard anything! ... I definitely didn't say anything just now! Nothing at all!",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 2

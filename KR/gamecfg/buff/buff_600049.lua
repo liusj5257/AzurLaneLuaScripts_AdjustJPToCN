@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.4
+					number = -0.4,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.6
+					number = -0.6,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.8
+					number = -0.8,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -54,12 +54,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 600049,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600049,
+	color = "yellow",
 	icon = 600040,
 	last_effect = "",
 	effect_list = {
@@ -70,8 +70,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

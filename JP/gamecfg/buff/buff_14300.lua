@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "掩护救援",
 	init_effect = "",
+	id = 14300,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14300,
+	color = "blue",
 	icon = 14300,
 	last_effect = "",
 	effect_list = {
@@ -63,8 +63,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 14301,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

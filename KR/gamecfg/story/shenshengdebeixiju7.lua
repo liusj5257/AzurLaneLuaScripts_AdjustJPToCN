@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU7",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU7",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-italy",
 			say = "저녁 19:30:00",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,12 +19,12 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "무, 무슨 일이죠? 어디서 공격이?",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 203070,
+			nameColor = "#a9f548",
+			say = "무, 무슨 일이죠? 어디서 공격이?",
 			flashN = {
 				color = {
 					1,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(그 때, 요크와 로열 함대는 이미 제국 잠수함에게 사방을 포위당했다는 것을 깨달았다.)",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "미안해. 정말 임무에 필요해서 그래. 그러니까…",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 1,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "에, 에?",
 			typewriter = {
 				speed = 0.05,
@@ -292,12 +292,12 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "가라, 마탄포——Fee Diana!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 203070,
+			nameColor = "#a9f548",
+			say = "가라, 마탄포——Fee Diana!",
 			flashN = {
 				color = {
 					1,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(포화 소리와 함께 거대한 붉은 폭죽이 눈부신 빛을 내며 수십 해리에 달하는 밤하늘을 밝혔다.)",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 1,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "뭐, 뭐죠?! 주포에 폭죽이 장전되어 있었단 건가요?!",
 			typewriter = {
 				speed = 0.05,
@@ -404,14 +404,14 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "(에취——)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -439,8 +439,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "적색 신호인가… 아쉽네. 맹우로 남을 수 있는 기회가 아직 있다고 생각했는데——",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "워스파이트",
 			dir = 1,
+			actorName = "워스파이트",
 			say = "알았어. 직접 전선에 와줘서 고마워, 일러스트리어스.",
 			typewriter = {
 				speed = 0.05,
@@ -486,13 +486,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "상황이 좋지 않아요. 작전이 노출됐어요. 얼른 주력 함대에게 알리도록 해요!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -517,10 +517,10 @@ return {
 			}
 		},
 		{
+			say = "폭발음",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "폭발음",
 			flashN = {
 				color = {
 					1,

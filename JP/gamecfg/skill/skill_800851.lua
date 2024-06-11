@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "主炮连射",
 	cd = 0,
+	picture = "0",
+	desc = "主炮额外1轮攻击",
 	painting = 1,
 	id = 800851,
-	picture = "0",
 	castCV = "skill",
-	desc = "主炮额外1轮攻击",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				weaponType = "OtherWeapon"
 			}

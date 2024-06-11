@@ -1,15 +1,15 @@
 return {
-	id = "W900200",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W900200",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Confirming results: Commander, you've made partial progress with your victory against the defenses of this Abyssal Zone.",
 			typewriter = {
 				speed = 0.05,

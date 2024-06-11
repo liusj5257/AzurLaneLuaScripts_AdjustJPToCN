@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUOYESHENGDAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUOYESHENGDAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"クリスマスパーティー！\n\n<size=45>四 甘いお菓子と言えば</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102182,
-			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "やっぱり寒い日はカロリー、つまり糖分で乗り越えないとね♪　デューイもケーキ、どう？",
 			bgm = "story-1",
+			actor = 102182,
+			nameColor = "#a9f548",
+			say = "やっぱり寒い日はカロリー、つまり糖分で乗り越えないとね♪　デューイもケーキ、どう？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 102182,
 			dir = 1,
+			actor = 102182,
 			nameColor = "#a9f548",
 			say = "デューイは真面目だよね～大丈夫、これを食べたら出発するよ♪",
 			typewriter = {
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "戻ってきたっすよ～",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 102182,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102182,
+			nameColor = "#a9f548",
 			say = "んじゃあ甘いものでもどう？ケーキ？サンデー？どっち？",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,14 +197,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_100",
 			actor = 102182,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "うんうん、ジンジャークッキーがおいしくなるコツね？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -248,8 +248,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 102182,
 			dir = 1,
+			actor = 102182,
 			nameColor = "#a9f548",
 			say = "簡単よ！糖分を倍にすれば甘さも倍！美味しさもたぶん倍になるかな？",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 101022,
 			dir = 1,
+			actor = 101022,
 			nameColor = "#a9f548",
 			say = "甘いものが本当にお好きなんですねっ",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 102182,
 			dir = 1,
+			actor = 102182,
 			nameColor = "#a9f548",
 			say = "クリスマスはスイーツが定番よ！だからパーティーもどんどん甘いものを出していけばいいんじゃないかな～と私は思う！",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,8 +319,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "定番の糖分マシマシね…うん、なんかピンときたっす！",
 			typewriter = {
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "あ、クリスマスパーティーのケーキを運ぶの手伝うから、あとでジンジャークッキーの試食をお願いしてもいいっすか？",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -362,8 +362,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 102182,
 			dir = 1,
+			actor = 102182,
 			nameColor = "#a9f548",
 			say = "もちろん♪甘いものさえあれば喜んで♪",
 			typewriter = {
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "よぉし、最高のクッキーを作って、最高のクリスマスパーティーにすっぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,9 +405,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 101022,
 			dir = 1,
 			blackBg = true,
+			actor = 101022,
 			nameColor = "#a9f548",
 			say = "あっ、デューイも手伝いますっ",
 			typewriter = {

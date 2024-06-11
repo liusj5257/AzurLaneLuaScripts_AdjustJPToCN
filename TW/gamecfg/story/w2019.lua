@@ -1,15 +1,15 @@
 return {
-	id = "W2019",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2019",
+	skipTip = false,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "神秘商人",
 			dir = 1,
+			actorName = "神秘商人",
 			say = "喵？你問我是誰喵！？我只是一個冒著危險向一線作戰人員提供補給售賣的神秘商人喵！所以要不要來買點東西喵？",
 			painting = {
 				alpha = 0.3,
@@ -27,12 +27,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "神秘商人",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312010,
+			actorName = "神秘商人",
 			say = "偶爾也會有這種時候喵…歡迎再次光臨喵~！",
 			typewriter = {
 				speed = 0.05,

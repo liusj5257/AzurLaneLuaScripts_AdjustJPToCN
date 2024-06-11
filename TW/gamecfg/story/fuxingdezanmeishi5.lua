@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI5",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -39,10 +39,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "來的正好，省下我們尋找的功夫了。",
 			typewriter = {
 				speed = 0.05,
@@ -54,12 +54,12 @@ return {
 			}
 		},
 		{
-			actor = 602010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "托里切利，立刻通知周邊艦隊避讓，敵人就交給我們來解決吧。",
 			typewriter = {
 				speed = 0.05,
@@ -74,10 +74,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 608010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒問題————",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊，等一下。記得跟周邊所有船隻說清楚，是薩丁帝國海軍正在為它們提供保護哦！",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 608010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "是是是……",
 			typewriter = {
 				speed = 0.05,

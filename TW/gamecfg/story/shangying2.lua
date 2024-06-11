@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春天的賞櫻大會\n\n<size=45>二  邀約</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "那我就去邀請一下大家吧",
 			bgm = "story-1",
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "那我就去邀請一下大家吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "啊啦，{namecode:95}和{namecode:96}，來得正好",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			actorName = "{namecode:95}&{namecode:96}",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307060,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "啊哈哈…突然叫住妳們不好意思，只是想問問妳們要不要一起來賞櫻花而已",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈…突然叫住妳們不好意思，只是想問問妳們要不要一起來賞櫻花而已",
+			actor = 307030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "有糖吃嗎？{namecode:33}也要吃糖！",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "有糖吃嗎？{namecode:33}也要吃糖！",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "讓人忍不住想叫一聲{namecode:93}老師呢…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "讓人忍不住想叫一聲{namecode:93}老師呢…",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

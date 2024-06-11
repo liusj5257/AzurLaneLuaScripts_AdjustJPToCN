@@ -7,8 +7,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.1
+					number = -0.1,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.111
+					number = -0.111,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.122
+					number = -0.122,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.133
+					number = -0.133,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.144
+					number = -0.144,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.155
+					number = -0.155,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.166
+					number = -0.166,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.177
+					number = -0.177,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.188
+					number = -0.188,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_suweiaitongmengyulei",
-					number = -0.2
+					number = -0.2,
+					attr = "CRI_TAG_EHC_suweiaitongmengyulei"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

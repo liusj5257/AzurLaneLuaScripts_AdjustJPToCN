@@ -1,10 +1,10 @@
 slot0 = class("GetCommanderResultPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GetCommanderResultUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.treePanel = CommanderTreePage.New(slot0._tf, slot0.event)
 	slot0.uiList = UIItemList.New(slot0:findTF("frame/list"), slot0:findTF("frame/list/tpl"))
 	slot0.uiList1 = UIItemList.New(slot0:findTF("frame/list1"), slot0:findTF("frame/list/tpl"))
@@ -12,7 +12,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/Text"), i18n("word_click_to_close"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.paintings = {}
 
 	onButton(slot0, slot0._tf, function ()
@@ -20,12 +20,12 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:UpdateCommanders(slot1)
 end
 
-function slot0.UpdateCommanders(slot0, slot1)
+slot0.UpdateCommanders = function(slot0, slot1)
 	slot0.uiList:align(0)
 	slot0.uiList1:align(0)
 
@@ -39,7 +39,7 @@ function slot0.UpdateCommanders(slot0, slot1)
 	slot2:align(#slot1 <= 5 and #slot1 or 10)
 end
 
-function slot0.UpdateCommander(slot0, slot1, slot2)
+slot0.UpdateCommander = function(slot0, slot1, slot2)
 	if slot1 then
 		slot6 = slot1:getPainting()
 		slot7 = slot2:Find("info/mask/paint")
@@ -63,7 +63,7 @@ function slot0.UpdateCommander(slot0, slot1, slot2)
 	setActive(slot2:Find("info"), slot1)
 end
 
-function slot0.UpdateTalent(slot0, slot1, slot2)
+slot0.UpdateTalent = function(slot0, slot1, slot2)
 	slot4 = UIItemList.New(slot2:Find("info/talent"), slot2:Find("info/talent/tpl"))
 
 	slot4:make(function (slot0, slot1, slot2)
@@ -77,7 +77,7 @@ function slot0.UpdateTalent(slot0, slot1, slot2)
 	slot4:align(#slot1:getTalents())
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.treePanel then
 		slot0.treePanel:Destroy()
 

@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 150
+					number = 150,
+					attr = "airPower"
 				}
 			},
 			{
@@ -20,8 +20,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 180
+					number = 180,
+					attr = "airPower"
 				}
 			},
 			{
@@ -47,8 +47,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -62,8 +62,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 210
+					number = 210,
+					attr = "airPower"
 				}
 			},
 			{
@@ -74,8 +74,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -89,8 +89,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 250
+					number = 250,
+					attr = "airPower"
 				}
 			},
 			{
@@ -101,8 +101,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -116,8 +116,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 280
+					number = 280,
+					attr = "airPower"
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 310
+					number = 310,
+					attr = "airPower"
 				}
 			},
 			{
@@ -155,8 +155,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -170,8 +170,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 350
+					number = 350,
+					attr = "airPower"
 				}
 			},
 			{
@@ -182,8 +182,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -197,8 +197,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 390
+					number = 390,
+					attr = "airPower"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -224,8 +224,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 430
+					number = 430,
+					attr = "airPower"
 				}
 			},
 			{
@@ -236,8 +236,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -251,8 +251,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 500
+					number = 500,
+					attr = "airPower"
 				}
 			},
 			{
@@ -263,20 +263,20 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
-					skill_id = 16792
+					skill_id = 16792,
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 16793,
+	time = 0,
 	picture = "",
 	desc = "提高航空属性",
 	stack = 3,
-	id = 16793,
+	color = "red",
 	icon = 16790,
 	last_effect = "",
 	blink = {
@@ -294,8 +294,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 150
+				number = 150,
+				attr = "airPower"
 			}
 		},
 		{
@@ -306,8 +306,8 @@ return {
 			},
 			arg_list = {
 				quota = 3,
-				target = "TargetSelf",
-				skill_id = 16792
+				skill_id = 16792,
+				target = "TargetSelf"
 			}
 		}
 	}

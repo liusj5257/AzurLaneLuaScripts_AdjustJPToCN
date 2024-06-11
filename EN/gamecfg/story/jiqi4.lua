@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIQI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIQI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"I'm Not A Baby!\n\n<size=45>Chapter 4 - Mistakes Were Made!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Nearby Waters",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "Port - Nearby Waters",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "... Oh, hey, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "... What we're doing? Just a friendly competition between us subs. Loser has to buy Oxy-cola for everyone else.",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "And it's looking like Cavalla's the loser this time.",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "... drinks? Hey, where's Cavalla?",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "No? Maybe she just kept going past the buoys that indicate the extent of the exercise area?",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "(Whispering) Oops. I probably shouldn't have moved those around to confuse people...",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "That'd be big trouble! C'mon, Commander, we gotta find her!",
 			typewriter = {
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
+			dir = 1,
 			say = "Exercise Area",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -301,13 +301,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Bah! You win!",
 			soundeffect = "event:/battle/plane",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "Bah! You win!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "Pwah!",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 1000,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 0
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "Huh?!",
 			typewriter = {
 				speed = 0.05,
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -440,8 +440,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "I made it here first! Heheh, Albacore, Dace, you know what that means! It's time to buy me some Ox... y... cola...?",
 			typewriter = {
@@ -470,13 +470,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sis, this time, I will protect you! Stay back, pesky sub!",
 			soundeffect = "event:/battle/plane",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "Sis, this time, I will protect you! Stay back, pesky sub!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,8 +490,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "W-wait, where am I?",
 			typewriter = {
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "I-I'm so confused!",
 			typewriter = {
 				speed = 0.05,
@@ -526,17 +526,17 @@ return {
 			}
 		},
 		{
-			actor = 307050,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "I see... So Cavalla went beyond the boundary buoys and ended up here.",
 			bgm = "story-1",
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "I see... So Cavalla went beyond the boundary buoys and ended up here.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -564,8 +564,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "I made such a stupid mistake...",
 			typewriter = {
@@ -581,8 +581,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "I'm so sorry!",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -621,11 +621,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Y-yeah, I shouldn't have... Sorry, Cavalla!",
 			typewriter = {
 				speed = 0.05,
@@ -637,8 +637,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -663,10 +663,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 108020,
 			actorName = "Albacore & Dace",
@@ -692,8 +692,8 @@ return {
 			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "And when did you all show up?!",
 			effects = {
 				{

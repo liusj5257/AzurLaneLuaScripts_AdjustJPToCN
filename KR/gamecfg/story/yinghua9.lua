@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINGHUA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"인간과 접촉해선 안 된다. 무녀의 신격을 손상시킨다.",
@@ -25,16 +25,16 @@ return {
 			}
 		},
 		{
-			say = "……",
 			blackBg = true,
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'…이 몸도 모두와 같이 싸우고 싶다! 노력하고 있는 모두와 달리, 우리만이 뒤에서 대기하고 있는 건, 너무나도 불공평하지 않나…!'",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'이 몸은… 나와 무츠는 최대 최강의 전함이지 않나! …부탁하네! 모두의 발목을 잡는 일은 절대 없을 테니!'",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'안 된다!'",
 			typewriter = {
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'사쿠라 엠파이어의 수호자, 세계 제일의 최강 전함이 전선에서 만에 하나 어떻게 되기라도 한다면, 사쿠라 엠파이어의 민중에게 뭐라 변명할 수 있겠는가!'",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'하지만……'",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'지나친 자신은 몸을 망치는 법이다.'",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'우리의 지시대로 움직이는 것이야말로 사쿠라 엠파이어를 위한 공헌인 것이다. 알고 있는 것이냐?'",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "'그렇다. 그대는 지금까지 해왔던 것 처럼 움직여 주면 된다.'",
 			typewriter = {
@@ -113,15 +113,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "무츠",
 			dir = 1,
 			bgm = "newyear",
+			actor = 305050,
+			say = "무츠",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

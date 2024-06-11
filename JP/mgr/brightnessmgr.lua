@@ -9,8 +9,8 @@ slot1.BrightnessMode = {
 	MANUAL_IOS = 2
 }
 
-function slot1.Init(slot0, slot1)
-	GlobalClickEventMgr.Inst.OnClick:AddListener(function ()
+slot1.Init = function(slot0, slot1)
+	GlobalClickEventMgr.Inst:AddPointerDownFunc(function ()
 		if not uv0.manulStatus then
 			return
 		end
@@ -26,7 +26,7 @@ function slot1.Init(slot0, slot1)
 	slot1()
 end
 
-function slot1.AwakeForAWhile(slot0)
+slot1.AwakeForAWhile = function(slot0)
 	if not slot0:IsPermissionGranted() then
 		slot0:ExitManualMode()
 
@@ -37,7 +37,7 @@ function slot1.AwakeForAWhile(slot0)
 	slot0:SetDelayTask()
 end
 
-function slot1.SetDelayTask(slot0)
+slot1.SetDelayTask = function(slot0)
 	slot0:ClearTask()
 
 	slot0.task = Timer.New(function ()
@@ -47,7 +47,7 @@ function slot1.SetDelayTask(slot0)
 	slot0.task:Start()
 end
 
-function slot1.ClearTask(slot0)
+slot1.ClearTask = function(slot0)
 	if not slot0.task then
 		return
 	end
@@ -57,7 +57,7 @@ function slot1.ClearTask(slot0)
 	slot0.task = nil
 end
 
-function slot1.EnterManualMode(slot0)
+slot1.EnterManualMode = function(slot0)
 	if slot0.manulStatus then
 		return
 	end
@@ -70,7 +70,7 @@ function slot1.EnterManualMode(slot0)
 	slot0.manulStatus = true
 end
 
-function slot1.ExitManualMode(slot0)
+slot1.ExitManualMode = function(slot0)
 	if not slot0.manulStatus then
 		return
 	end
@@ -81,11 +81,11 @@ function slot1.ExitManualMode(slot0)
 	slot0.manulStatus = false
 end
 
-function slot1.IsPermissionGranted(slot0)
+slot1.IsPermissionGranted = function(slot0)
 	return BrightnessHelper.IsHavePermission()
 end
 
-function slot1.RequestPremission(slot0, slot1)
+slot1.RequestPremission = function(slot0, slot1)
 	BrightnessHelper.SetScreenBrightness(BrightnessHelper.GetValue())
 
 	if slot1 then
@@ -95,7 +95,7 @@ function slot1.RequestPremission(slot0, slot1)
 	end
 end
 
-function slot1.SetScreenNeverSleep(slot0, slot1)
+slot1.SetScreenNeverSleep = function(slot0, slot1)
 	if tobool(slot1) then
 		if slot0.sleepTimeOutCounter == 0 then
 			Screen.sleepTimeout = SleepTimeout.NeverSleep

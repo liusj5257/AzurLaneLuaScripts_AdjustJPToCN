@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>もっとだ…！</size>",
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -55,8 +55,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -80,17 +80,17 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
-			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "しつこいわね！みんな、回避に専念して！",
+			bgName = "bg_xiangting_1",
 			bgm = "airRaidAlarm",
+			actor = 207040,
+			nameColor = "#a9f548",
+			say = "しつこいわね！みんな、回避に専念して！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -125,13 +125,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "北東より敵機！対空火力を維持し、旗艦と指揮官の安全を守れ！",
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "北東より敵機！対空火力を維持し、旗艦と指揮官の安全を守れ！",
 			flashN = {
 				color = {
 					1,
@@ -179,11 +179,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "何度でもかかってこーーーーい！",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -205,9 +205,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "ユニオン・NPシティ ",
 			typewriter = {
 				speed = 0.05,
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "――港は炎と煙に包まれていた。",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "住居、倉庫、バンカーとドック……セイレーンの攻撃に巻き込まれ、炎上し、爆発する様々な人類の建造物と、",
 			typewriter = {
 				speed = 0.05,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "赤黒く染まった空に跋扈しているセイレーンの艦載機のその様は",
 			typewriter = {
 				speed = 0.05,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "まるで人類の力が如何に脆いものなのかを嘲笑っているかのようだった――",
 			typewriter = {
 				speed = 0.05,
@@ -275,9 +275,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "…………………",
 			typewriter = {
 				speed = 0.05,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "大丈夫よ！ボルチモアはここで防衛線を張ってて！",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -361,15 +361,15 @@ return {
 			}
 		},
 		{
-			say = "数刻前――",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "数刻前――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -432,9 +432,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "数日前に、ユニオン本土で開催する重要会議の召集を受けた。",
 			typewriter = {
 				speed = 0.05,
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "こうして艦隊を率いて、ユニオン本土に向かっているわけだが――",
 			typewriter = {
 				speed = 0.05,
@@ -476,11 +476,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "お！もう出迎えが来たのね！",
 			typewriter = {
 				speed = 0.05,
@@ -492,8 +492,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -502,12 +502,12 @@ return {
 			}
 		},
 		{
-			actor = 207040,
+			say = "あら、美しい私たちを出迎えてくれるのなら、こっちも優雅に挨拶しないとね！",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、美しい私たちを出迎えてくれるのなら、こっちも優雅に挨拶しないとね！",
+			actor = 207040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -570,9 +570,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "（エンタープライズの緊急任務の件はまだみんなに伝えていないな…）",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "はは、遠くからでも声が聞こえたぜ。ホーネット",
 			typewriter = {
@@ -652,8 +652,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "このNPシティでのみんなの案内は私が担当することになっている",
 			typewriter = {
@@ -698,15 +698,15 @@ return {
 			}
 		},
 		{
-			say = "思い出づくり、か…",
-			side = 2,
 			bgName = "bg_xiangting_1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "airRaidAlarm",
+			say = "思い出づくり、か…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -737,9 +737,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_1",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -751,11 +751,11 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

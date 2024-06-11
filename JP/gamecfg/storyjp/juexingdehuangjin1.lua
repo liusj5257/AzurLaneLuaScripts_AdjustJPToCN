@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_599",
+			bgm = "theme-seaandsun-soft",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "薄暗い部屋の中、暖炉で薪が静かにパチッ、パチッと音を出している。",
-			bgm = "theme-seaandsun-soft",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "部屋の主は静かにロッキングチェアにもたれかけていて――",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "腕の中にうずまくっている猫をなでながら、消えゆく夕焼けを眺めている。",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "なぜか、遠い昔の出来事が頭の中によぎる。",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "そう、はるか昔――",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "自分の運命を変えた瞬間。",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "最大最悪な事件が起きたあの日のことを――",
@@ -99,13 +99,13 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			asideType = 1,
+			stopbgm = true,
 			flashin = {
-				delay = 0,
 				dur = 1,
 				black = true,
+				delay = 0,
 				alpha = {
 					1,
 					0
@@ -119,28 +119,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
+			bgm = "login-2022401us",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あの日は今日と同じく、夕日に空が染まった、普通の休日だった。",
-			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "「アイアンクローの悪魔」が予兆もなく、突如出現するまでは。",
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "「アイアンクローの悪魔」は5分間だけ出現したが、島全体に甚大な「被害」をもたらした。",
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "スイーツ屋は全滅させられただけでなく、120個の倉庫にあったお菓子の備蓄までも一掃された。",
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そ、そんなプリン…",
 			painting = {
 				alpha = 0.3,
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一足遅かったかプリン…",
 			painting = {
 				alpha = 0.3,
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こんな重い罪を犯したのはいったい何者プリン！",
 			painting = {
 				alpha = 0.3,
@@ -271,12 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なんで「アイアンクローの悪魔」なのプリン…？",
 			painting = {
 				alpha = 0.3,
@@ -418,12 +418,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "恐ろしい力の持ち主だプリン…",
 			painting = {
 				alpha = 0.3,
@@ -435,12 +435,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妹たちもいない…",
 			painting = {
 				alpha = 0.3,
@@ -452,12 +452,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "このわたしだけじゃ…",
 			painting = {
 				alpha = 0.3,
@@ -469,12 +469,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どうにもならないプリン…",
 			painting = {
 				alpha = 0.3,
@@ -489,10 +489,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "黄金（ゴールデン）の神",
+			nameColor = "#FEF15E",
 			bgm = "login_0401",
 			actor = 202110,
-			nameColor = "#FEF15E",
+			actorName = "黄金（ゴールデン）の神",
 			hidePaintObj = true,
 			say = "本当にどうにもならないの？",
 			typewriter = {
@@ -500,17 +500,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -518,8 +518,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "絶望に打ちひしがれる試作型ブリ。しかし彼女の目の前に、金色の影が現れた。",
@@ -529,12 +529,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、あなた…もしかして…ゴールデンの神プリン⁉",
 			painting = {
 				alpha = 0.3,
@@ -549,10 +549,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "黄金（ゴールデン）の神",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "その通り！私はゴールデンの神です！",
 			typewriter = {
 				speed = 0.05,
@@ -563,10 +563,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "黄金（ゴールデン）の神",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "思い出せ。あなたの力を",
 			typewriter = {
 				speed = 0.05,
@@ -577,10 +577,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "黄金（ゴールデン）の神",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "ゴールデンの力を",
 			typewriter = {
 				speed = 0.05,
@@ -591,10 +591,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "黄金（ゴールデン）の神",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "ゴールデンの時代から伝わってきた、ゴールデンの一族の力を！",
 			typewriter = {
 				speed = 0.05,
@@ -602,12 +602,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ゴールデンの力、プリン…",
 			painting = {
 				alpha = 0.3,
@@ -619,12 +619,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "分かったプリン！",
 			painting = {
 				alpha = 0.3,
@@ -636,12 +636,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "きっとゴールデンの時代から伝わってきたゴールデンメカ、試作型スーパードリルMKIIのことプリン！",
 			painting = {
 				alpha = 0.3,
@@ -653,12 +653,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "起動パスワードを忘れてしまったから、倉庫にずっと置きっぱなしだったけどプリン…",
 			painting = {
 				alpha = 0.3,
@@ -670,12 +670,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "プリン！でもパスワードさえ見つければ、「アイアンクローの悪魔」を倒せる！",
 			painting = {
 				alpha = 0.3,
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "ゴールデンの神は微笑みながらうなずき、その姿を消した。",
@@ -698,8 +698,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "こうして試作型ブリMkⅡは悪魔を倒すためパスワード探しの旅に出た。彼女に待ち受けるのは、果たして…！",

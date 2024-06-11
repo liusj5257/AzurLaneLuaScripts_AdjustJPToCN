@@ -1,14 +1,14 @@
 slot0 = class("CastlePtPage", import(".TemplatePage.PtTemplatePage"))
 slot0.MAIN_ID = ActivityConst.CASTLE_ACT_ID
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0:findTF("main_btn", slot0.bg), function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CASTLE_MAIN)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot0.mainAct = getProxy(ActivityProxy):getActivityById(uv0.MAIN_ID)

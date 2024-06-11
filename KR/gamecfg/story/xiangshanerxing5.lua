@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
+			bgm = "blueocean-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "다음 날, 벽람항로 임시 시설 바깥",
-			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "눈부신 아침 해를 올려다보니 나도 모르게 하품이 나왔다.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = " '헬레나'의 '정신 간섭' 후에는 결국 생각을 하느라 잠을 거의 못 잤다.",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -133,20 +133,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "동료의 안내를 받아, 하나가 된 아이리스의 암부 조직 '심판정'의 본부 지하로 왔다.",
 			bgm = "theme-vichy-church",
+			say = "동료의 안내를 받아, 하나가 된 아이리스의 암부 조직 '심판정'의 본부 지하로 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "여기는 방 배치도에도 나와있지 않은 넓은 공간……",
@@ -159,10 +159,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "어머, 지휘관. 심판정 본부에 온 걸 환영해. 오늘은 무슨 바람이 불어서 여길 다 왔대?",
 			painting = {
 				alpha = 0.3,
@@ -201,10 +201,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "그럴 리가. 내가 어떻게 지휘관의 의도를 간파하겠어.",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "좋든 나쁘든 지휘관의 행동은 이목을 끌어. 만약 아이리스에서 무슨 일이라도 생기면 다른 진영에 설명할 방법이 없거든.",
 			painting = {
 				alpha = 0.3,
@@ -273,10 +273,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "후후후, 이글 유니온의 멤피스는 냄새를 너무 잘 맡는다니까. ",
 			painting = {
 				alpha = 0.3,
@@ -291,10 +291,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "심판정의 함대는 어디까지나 아비터의 영향을 받은 마르코 폴로를 '도와주는 듯이' 움직였지.",
 			painting = {
 				alpha = 0.3,
@@ -309,10 +309,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "쉽게 말하면 그저 연기일 뿐이야.",
 			painting = {
 				alpha = 0.3,
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "……수상해 할 건 하나도 없어. 후후후…",
 			painting = {
 				alpha = 0.3,
@@ -380,10 +380,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -398,10 +398,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FEF15E",
 			actor = 905020,
+			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "……'거짓된 신 사건' 때도 당신은 모두를 믿어줬지.",
 			painting = {
 				alpha = 0.3,
@@ -413,12 +413,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "물론 도와주고말고. '그녀'를 만나고 가도록 해.",
 			painting = {
 				alpha = 0.3,
@@ -433,10 +433,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그게 첫 번째 부탁 맞지? 다음은……",
 			painting = {
 				alpha = 0.3,
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응? 지휘관, 재미난 생각을 하고 있네.",
 			painting = {
 				alpha = 0.3,
@@ -492,10 +492,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래, 좋아. 심판정의 '일하는 모습'을 보여주지.",
 			painting = {
 				alpha = 0.3,
@@ -510,10 +510,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하지만 우선 세부적인 요건부터 좀 들려주겠어, 지휘관?",
 			painting = {
 				alpha = 0.3,

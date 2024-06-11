@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.05
+					number = 0.05,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.061
+					number = 0.061,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.072
+					number = 0.072,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.083
+					number = 0.083,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.094
+					number = 0.094,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.105
+					number = 0.105,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.116
+					number = 0.116,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.127
+					number = 0.127,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.138
+					number = 0.138,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 				},
 				arg_list = {
 					group = 14240,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.15
+					number = 0.15,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 14241,
+	time = 0,
 	picture = "",
 	desc = "受到穿甲弹的伤害降低",
 	stack = 1,
-	id = 14241,
+	color = "blue",
 	icon = 14241,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 			},
 			arg_list = {
 				group = 14240,
-				attr = "damageReduceFromAmmoType_2",
-				number = 0.05
+				number = 0.05,
+				attr = "damageReduceFromAmmoType_2"
 			}
 		}
 	}

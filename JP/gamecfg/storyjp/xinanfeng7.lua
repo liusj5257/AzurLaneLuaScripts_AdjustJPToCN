@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINANFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XINANFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"リベッチオ、全力でがんばるよ！\n\n<size=45>七 頑張れ！リベッチオ</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "母港・広場",
 			side = 2,
 			bgName = "star_level_bg_113",
 			bgmDelay = 2,
-			say = "母港・広場",
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,10 +57,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いつの間にか今日で最後か…明日からちょっと楽しよ～",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えへへ、指揮官さんと一緒に過ごせるのは嬉しいけど、秘書艦は本当に大変だったもん",
 			painting = {
 				alpha = 0.3,
@@ -93,10 +93,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ずっと働いているとたまには休みたくなるでしょ？指揮官さんもサボりたいとか、思う時ない？",
 			painting = {
 				alpha = 0.3,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,10 +178,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ！あそこにいるのはマエストラーレ…？",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こんにちはー！みんなお疲れ様ー！",
 			painting = {
 				alpha = 0.3,
@@ -223,10 +223,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっ…指揮官さんにリベッチオ、お、お疲れ様です！",
 			painting = {
 				alpha = 0.3,
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "お疲れ様、です",
 			painting = {
 				alpha = 0.3,
@@ -255,12 +255,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "リベッチオもお疲れ様です",
 			painting = {
 				alpha = 0.3,
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こんにちは…指揮官とリベッチオも…お茶会タイム？",
 			painting = {
 				alpha = 0.3,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もうラフィー！指揮官はまだ仕事中よ！",
 			painting = {
 				alpha = 0.3,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃ…今度いっしょに…",
 			painting = {
 				alpha = 0.3,
@@ -326,10 +326,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "みんなでお茶会に行くの？",
 			painting = {
 				alpha = 0.3,
@@ -341,12 +341,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい。ジャベリンから一緒にロイヤルのお茶会に行かない？って言われてね",
 			painting = {
 				alpha = 0.3,
@@ -361,10 +361,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いいね！楽しんできて！マエストラーレも頑張って！",
 			painting = {
 				alpha = 0.3,
@@ -379,10 +379,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、ありがとう…",
 			painting = {
 				alpha = 0.3,
@@ -394,21 +394,21 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			say = "その後・執務室",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -423,10 +423,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふん、リベッチオの秘書艦作戦は大成功だね！",
 			painting = {
 				alpha = 0.3,
@@ -441,10 +441,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "お仕事も頑張ったし、マエストラーレにもお友達を紹介できたし、リベッチオは偉いでしょ！",
 			painting = {
 				alpha = 0.3,
@@ -469,10 +469,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えへへ～お茶を淹れてくるね～",
 			painting = {
 				alpha = 0.3,
@@ -487,10 +487,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "秘書艦リベッチオからの最後のお茶、ちゃんと飲んでね！",
 			painting = {
 				alpha = 0.3,
@@ -529,10 +529,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わわ！間違えてた！？ごめんなさい！",
 			painting = {
 				alpha = 0.3,
@@ -547,10 +547,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どどどうしようティーパックも切れちゃったし…許してー！",
 			painting = {
 				alpha = 0.3,
@@ -562,9 +562,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
+			blackBg = true,
 			say = "どうやらまだまだ成長途上、といったところかな――",
 			typewriter = {
 				speed = 0.05,

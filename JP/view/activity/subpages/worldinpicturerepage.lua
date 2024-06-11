@@ -1,6 +1,6 @@
 slot0 = class("WorldInPictureRePage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.item = slot0:findTF("items/item", slot0.bg)
 	slot0.items = slot0:findTF("items", slot0.bg)
@@ -11,7 +11,7 @@ function slot0.OnInit(slot0)
 	slot0.tip = slot0:findTF("AD/tip")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.help, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -26,7 +26,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.miniGameAct = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE)
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot4 = slot0:findTF("item", slot2)
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
@@ -59,7 +59,7 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	setText(slot0:findTF("progressText", slot2), "<color=#789143>" .. slot9 .. "</color><color=#a3876f>/" .. slot10 .. "</color>")
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setActive(slot0.tip, slot0.miniGameAct and not slot1:isEnd() and slot1:readyToAchieve())
 end

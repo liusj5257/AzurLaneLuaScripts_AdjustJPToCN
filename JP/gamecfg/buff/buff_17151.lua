@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "回复效果",
 	time = 3,
+	name = "回复效果",
+	init_effect = "",
 	picture = "",
 	desc = "回复效果",
 	stack = 1,
@@ -25,9 +25,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				target = "TargetSelf",
-				initialCD = true,
 				skill_id = 17151,
+				initialCD = true,
+				target = "TargetSelf",
 				time = 1
 			}
 		},

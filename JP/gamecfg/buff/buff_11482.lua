@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -41,8 +41,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.061
+					number = -0.061,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -52,8 +52,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -74,8 +74,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.072
+					number = -0.072,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -85,8 +85,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -107,8 +107,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.083
+					number = -0.083,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -140,8 +140,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.094
+					number = -0.094,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -151,8 +151,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -173,8 +173,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.105
+					number = -0.105,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -184,8 +184,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -206,8 +206,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.116
+					number = -0.116,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -217,8 +217,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -239,8 +239,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.127
+					number = -0.127,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -250,8 +250,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -272,8 +272,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.138
+					number = -0.138,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -283,8 +283,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -305,8 +305,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.15
+					number = -0.15,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -316,8 +316,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 11482,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -332,12 +332,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufablue",
+	id = 11482,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11482,
+	color = "red",
 	icon = 11480,
 	last_effect = "",
 	blink = {
@@ -355,8 +355,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -366,8 +366,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 11482,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动 空间净化系统",
 	time = 20,
-	color = "yellow",
+	name = "2022美系活动 空间净化系统",
+	init_effect = "",
+	id = 200243,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200243,
+	color = "yellow",
 	icon = 200243,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200244,
-				target = "TargetSelf",
 				time = 7,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

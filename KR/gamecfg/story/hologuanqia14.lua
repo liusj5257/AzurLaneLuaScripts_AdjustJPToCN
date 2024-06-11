@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "저기 하얀 건물이 바로 holomart야. 평소 창고에 물건을 잔뜩 두기 때문에 보급품을 얻기 딱 좋은 장소지!",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,9 +40,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이런 저런 일이 있어서 자기 소개가 늦었네!",
 			flashout = {
 				dur = 0.5,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "메이드지만 집안일은 잘 못해. 하지만 게임이라면 엄청 잘 한다구!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "hololive 서버의 보급품에는 식량, 물, 약품, 광물이 있지.",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "하지만 제일 중요한 건, 바로 TNT야!",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "흐흥, 나는 비상시를 위해서 서버 구석구석에 TNT를 잔뜩 묻어뒀다구.",
 			typewriter = {
 				speed = 0.05,
@@ -196,9 +196,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "그러니 이 TNT는 굉장히 강력한 전략 물자야. 반드시 모아와야 한다구!!!!!!!!!!!!!!!!!!!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 		{
 			actor = 301490,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "식량과 약품은 말할 것도 없고, 광물 역시 세이렌이 장비를 만드는데 필요한 재료일테지만… TNT는?",
 			flashout = {
 				dur = 0.5,
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "아이돌 회사인가…",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "TNT는 여기서 설명하기에는 조금 복잡해. 어쨌든 여기서 TNT는 가장 흔하게 쓰이는 폭파 아이템이야. 저쪽에 있는 건물들은 거의 다 TNT의 작품이지",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "문제 없어~ 나츠이로 마츠리, 전속력으로 출항!",
 			typewriter = {
 				speed = 0.05,

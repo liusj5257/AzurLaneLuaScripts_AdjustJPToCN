@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "黑声望二阶段跨射lv3",
 	cd = 0,
-	painting = 0,
-	id = 200049,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200049,
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 2970072,
 				emitter = "BattleBulletEmitter"

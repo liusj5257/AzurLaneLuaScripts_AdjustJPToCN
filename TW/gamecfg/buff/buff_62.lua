@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "轻巡竞技场加成",
 	time = 0,
+	name = "轻巡竞技场加成",
+	init_effect = "",
 	picture = "",
 	desc = "额外提升伤害15%",
 	stack = 1,
@@ -19,8 +19,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.15
+				number = 0.15,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -29,8 +29,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.2
+				number = -0.2,
+				attr = "injureRatio"
 			}
 		}
 	}

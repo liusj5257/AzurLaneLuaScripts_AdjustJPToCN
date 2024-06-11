@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA51",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA51",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Purifier went and disappeared at some point.",
 			bgm = "holo-tokiwa",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "Purifier went and disappeared at some point.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "I wonder if it's really all over this time...",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "Because they were a comrade who fought alongside us. Even if it's another Siren, if they're a good guy, they you should be friends with them.",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "Once we leave this area, we'll need to find a way back.",
 			typewriter = {
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba2",
+			dir = 1,
 			say = "Beep Beep Beep!",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "Zuikaku? Zuikaku, are you alright?",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "That's good! Your communications must have finally been restored! Is everyone in the fleet alright?",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "For several days? What do you mean?",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "Is that so...? Has it really been that long since we've lost contact with you...?",
 			typewriter = {
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "E-Eh?",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "Is it possible that this phenomenon resulted in a different flow of time inside the Mirror Sea compared to outside of it?",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "That's impossible, nya. The laws of space would be broken, nya.",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "Come to think of it, the people around you are...",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Comrades who arrived from another world - isn't this a common trope, nya?",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Well, if you mumble about the Siren equipment that was left in the area the Mirror Sea appeared in, it'll work out somehow!",
 			typewriter = {
@@ -448,8 +448,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "Guys, hurry up and come back~ Everyone's worried about you, you know?",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "Ah, and one more thing...",
 			typewriter = {
@@ -482,9 +482,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
 			blackBg = true,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "You guys did a great job. And, welcome to our world~",
 			typewriter = {

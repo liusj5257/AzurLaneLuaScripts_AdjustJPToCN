@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "手元にある森で採った新鮮なりんごを一個取り出して、子狐に渡した。",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "子狐はあっという間にりんごを平らげたが、もっとほしそうにかわいそうな目でこちらに見上げてきた。",
 			typewriter = {
 				speed = 0.05,

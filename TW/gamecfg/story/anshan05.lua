@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ANSHAN05",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ANSHAN05",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鞍山的繪圖日記\n\n<size=45>五　鞍山的繪圖本</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "好…這裡塗上這個顏色——",
 			bgm = "story-china",
+			actor = 501010,
+			nameColor = "#a9f548",
+			say = "好…這裡塗上這個顏色——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,11 +34,11 @@ return {
 			}
 		},
 		{
-			actor = 501040,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "撫順&長春&太原",
-			side = 0,
+			actor = 501040,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "最後一張畫~完成啦~",
@@ -66,10 +66,10 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			actorName = "平海&寧海",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 502030,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "完成啦~",
@@ -123,12 +123,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "鞍山姐…原來才是最投入的那個人嗎",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "鞍山姐…原來才是最投入的那個人嗎",
+			actor = 501030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -239,12 +239,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
+			say = "逸仙！妳怎麼來了",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "逸仙！妳怎麼來了",
+			actor = 502020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -499,14 +499,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "眾人",
 			say = "喔喔喔~~",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

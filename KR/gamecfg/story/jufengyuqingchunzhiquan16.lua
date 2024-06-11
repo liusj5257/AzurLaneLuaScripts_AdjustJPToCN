@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "위다와의 협공으로 잔향 함대는 기세를 잃고 철수했다.",
 			bgm = "story-temepest-1",
+			say = "위다와의 협공으로 잔향 함대는 기세를 잃고 철수했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "갑자기 나타난 원군을 보고 의아해하던 동료들은 그 원군의 정체를 보자마자 의혹을 풀었다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "골든 하인드 왈 '위대한 위다 님'은 신세계 해역에서 활약하는 해적 함선이라고 한다.",
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하하하! 왜 이렇게 귀여워!",
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당연하지~♪",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "골든 하인드는 왠지 평소보다 자랑스러운 미소를 띠었다.",
@@ -183,27 +183,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_jufengv1_4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_jufengv1_4",
 			say = "잠시간의 소동 후……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그럼 같이 문제를 해결하면 되잖아?",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "메리가 웅크려 앉으려는 순간, 위다는 황급히 옆에 놓인 상자 위로 뛰어 올라갔다.",
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그나저나 잔향 함대가 이렇게 순순히 물러날 줄은 몰랐어.",
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이거… 집에 가서 아빠랑 엄마한테 고자질하려는 거 아니야?!",
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "음… 로열 포춘은 오히려 좀 이성적으로 굴 필요가 있을 것 같은데~",
@@ -466,9 +466,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_jufengv1_4",
 			factiontag = "투자자",
 			dir = 1,
+			bgName = "bg_jufengv1_4",
 			bgm = "story-temepest-2",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
@@ -483,17 +483,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -520,11 +520,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "골든 하인드, 왜 그래? 갑자기 입을 꾹 닫고…",
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "골든 하인드의 촉수가 가리킨 방향으로 눈을 돌리자, 그곳에는 거대한 검은 그림자가 있었다.",
@@ -597,8 +597,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "수평선을 떠도는 해무를 검게 물들일 정도로 거대한 '무언가'가 조금씩 모습을 드러낸다.",
@@ -608,8 +608,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "이 세계의 어느 전함보다도 훨씬 크고, 굳이 비교하자면 폴리스의 가장 큰 배조차도 작아 보이게 만들 정도의 거구였다.",
@@ -716,11 +716,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐, 무리도 아니지. 폴리스의 갤리온보다도 훨씬 큰 저 배는 아무리 봐도 만만한 상대가 아니야.",
@@ -753,10 +753,10 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "명예 리더",
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하아… '우리' 위다?",
@@ -766,8 +766,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -804,8 +804,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "자기 체격보다 훨씬 큰 코트 주머니에서 위다는 낡았지만 정교하게 만들어진 상자를 꺼냈다.",
@@ -888,8 +888,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "자기 머리보다 몇 사이즈는 더 큰 모자를 한 손에 들고, 위다는 상자를 안고 바다 쪽으로 사라졌다.",
@@ -918,11 +918,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래, 우리도 어린이의 꿈을 이뤄주기 위해 노력해야겠지. 지휘관, 지휘 잘 부탁해.",
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "좋아, 우리도 간다!",
@@ -974,8 +974,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모두",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

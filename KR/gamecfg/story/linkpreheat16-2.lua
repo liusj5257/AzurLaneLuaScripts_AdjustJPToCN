@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT16-2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT16-2",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "쿠온 일행의 세계의 기술을 사용한 거울해역은 거의 다 사라졌다냥.",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,8 +144,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "그런 무서운 길은 상상도 하고 싶지 않은 거에요.",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "들어올 땐 쉬웠지만 나갈 땐 아니란……대사가 적힌 책을 루루티에가 보여줬던 것 같은데 말이죠.",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "어머머, 그건 참 큰일이네요……갑자기 돌아가기 싫어졌어요.",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "찬성.",
 			typewriter = {
 				speed = 0.05,
@@ -389,12 +389,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#92fc63",
 			side = 0,
-			hideOther = true,
+			actor = 201210,
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
 			actorName = "<벽람항로> 일행",
 			say = "어서오세요~!",
 			subActors = {

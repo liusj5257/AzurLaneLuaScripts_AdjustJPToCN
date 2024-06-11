@@ -1,12 +1,12 @@
 slot0 = class("CommanderBuildPoolPanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderBuildPoolUI"
 end
 
 slot1 = 10
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.buildPoolList = UIItemList.New(slot0._tf:Find("frame/bg/content/list"), slot0._tf:Find("frame/bg/content/list/1"))
 	slot1 = slot0._tf:Find("frame/bg/content/queue/list1/pos")
 	slot0.posListTop = UIItemList.New(slot0._tf:Find("frame/bg/content/queue/list1"), slot1)
@@ -25,7 +25,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/bg/content/queue/title/Text"), i18n("commander_use_box_queue"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -58,10 +58,10 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.AutoSelect(slot0)
+slot0.AutoSelect = function(slot0)
 	slot1 = slot0.pools
 
-	function slot2()
+	slot2 = function()
 		slot0 = nil
 
 		for slot4, slot5 in pairs(uv0.counts) do
@@ -80,7 +80,7 @@ function slot0.AutoSelect(slot0)
 	end
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0 = slot2
 	slot0.selected = {}
 	slot0.pools = slot1
@@ -121,7 +121,7 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0.isShow = true
 end
 
-function slot0.ReduceCount(slot0, slot1, slot2, slot3)
+slot0.ReduceCount = function(slot0, slot1, slot2, slot3)
 	assert(slot2 == 1 or slot2 == 0 or slot2 == -1)
 
 	slot5 = slot0.counts[slot1] + slot2
@@ -138,12 +138,12 @@ function slot0.ReduceCount(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.poolId2Sprite(slot0, slot1)
+slot0.poolId2Sprite = function(slot0, slot1)
 	return slot0.sprites[slot1]
 end
 
-function slot0.UpdatePos(slot0)
-	function slot1(slot0, slot1)
+slot0.UpdatePos = function(slot0)
+	slot1 = function(slot0, slot1)
 		slot3 = slot1:Find("icon")
 
 		if uv0.selected[slot0] then
@@ -176,13 +176,13 @@ function slot0.UpdatePos(slot0)
 	slot0.selectedTxt.text = #slot0.selected .. "/" .. uv0
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0._tf, false)
 
 	slot0.isShow = false
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_155 = {}
 slot1 = slot0.word_template_155
 
-function temp()
+temp = function()
 	uv0["借"] = {
 		["你"] = {
 			["一"] = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["斤"] = {
 		["平"] = {
 			this = true
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["今"] = {
 		["后"] = {
 			["打"] = {
@@ -232,7 +232,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["金"] = {
 		["伯"] = {
 			["帆"] = {
@@ -726,7 +726,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["津"] = {
 		["品"] = {
 			this = true
@@ -736,7 +736,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["筋"] = {
 		["肉"] = {
 			["勃"] = {
@@ -764,7 +764,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["仅"] = {
 		["凭"] = {
 			this = true

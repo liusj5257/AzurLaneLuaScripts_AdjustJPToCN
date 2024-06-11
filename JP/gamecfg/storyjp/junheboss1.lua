@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHEBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHEBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"交錯する新たな波\n\n<size=45>一　最終演習するが</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "cw-story",
+			say = "母港・演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "周知の通り、以前ロイヤル・ユニオン陣営でも開催されたように、ただの合同演習ではありますが……",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "皆様にとってはいきなり登場した新顔なので、ご迷惑をおかけするとは思いますが",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "この戦艦「駿河」、艦隊のために微力を尽くさせていただければと存じます",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "この合同演習を最後までみんなでやりきりましょう！",
 			effects = {
@@ -174,13 +174,13 @@ return {
 		{
 			actor = 305110,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うむ、良い発破だ。我が呼びつけた甲斐があったな",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "はっはっはー！この雪風様にかかれば、指揮官の艦隊なんて鎧袖一触なのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -291,8 +291,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "それは困りますわ。せっかくの合同演習、この大鳳も敵役として指揮官様とはじっくり楽しみたいですわ",
 			typewriter = {
@@ -337,8 +337,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "………",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "ふーん、いいですわ。指揮官様のために最善を尽くすようにね",
 			typewriter = {
@@ -403,8 +403,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "………",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "は、はい、善処させていただきます",
 			typewriter = {
@@ -434,12 +434,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "すまぬ、苦労をかけるな",
 			typewriter = {
 				speed = 0.05,

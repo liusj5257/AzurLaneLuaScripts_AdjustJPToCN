@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>우리는 먼 길을 떠났다. 서광이 보이는 줄 알았지만,</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -43,8 +43,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,16 +70,16 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_italy_cg1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-italy",
 			actor = 605020,
 			nameColor = "#ffde38",
+			bgName = "bg_italy_cg1",
 			say = "이건… 말도 안돼.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			say = "연소, 폭발… 연기로 자욱한 밤의 타란토 항이 새빨갛게 물들었다.",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "연소, 폭발… 연기로 자욱한 밤의 타란토 항이 새빨갛게 물들었다.",
 			flashN = {
 				color = {
 					1,
@@ -169,8 +169,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "어떻게 이럴수가....",
 			dialogShake = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
+			dir = 1,
 			say = "대공포가 불을 뿜고 있었지만, 소드피쉬의 공습을 막기에는 역부족이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "밤에 함재기로 공습을 가하다니…",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
+			dir = 1,
 			say = "지옥을 방불케 하는 광경이었다. 아니, 이곳이 바로 지옥이겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			say = "3일 전, ——영원의 성",
-			side = 2,
 			bgName = "bg_story_italy",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "3일 전, ——영원의 성",
 			effects = {
 				{
 					active = false,
@@ -246,8 +246,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "이곳은 지중해입니다. 세이렌 함대가 나타나다니요…? 확실히 확인하셨습니까?",
 			typewriter = {
 				speed = 0.05,
@@ -289,11 +289,11 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#ffde38",
 			say = "3번 확인했습니다. 제국 해역의 남부에 수많은 세이렌이 집결하고 있습니다! ",
 			typewriter = {
 				speed = 0.05,
@@ -305,8 +305,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -318,10 +318,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "세이렌이 이 깊은 곳 까지 들어오게 하다니… 메탈 블러드는 대체 무엇을 하고 있는 거죠?!",
 			typewriter = {
 				speed = 0.05,
@@ -336,10 +336,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "여러번 강조했듯, 모든 작전의 전제 조건은 지중해의 안전을 지키는 것입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -354,10 +354,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "비시아 성좌를 지킨다는 명목으로 세이렌 함대가 경계를 넘더니, 아직도 감히…",
 			typewriter = {
 				speed = 0.05,
@@ -388,10 +388,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "자매여, 당신이었군요.",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "불평으로는 문제를 해결할 수 없어, ‘총 기함님’.",
 			typewriter = {
@@ -423,8 +423,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "한때 제국의 해군력은 뒤쳐진 적이 있었지만, 지금은 그렇지 않지.",
 			typewriter = {
@@ -440,8 +440,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "우리는 유럽에서 가장 선진화된 무기와 지중해에서 가장 강력한 함대를 가지고 있어.",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "생명과 문화, 예술과 전쟁을 모두 탄생시킨 이 영원의 땅은",
 			typewriter = {
@@ -490,8 +490,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "정말로 로물루스의 영광을 다시 재현하게 될거야.",
 			typewriter = {
@@ -507,8 +507,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "——진정한 의미의 재현, 말이지.",
 			typewriter = {
@@ -524,10 +524,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "하지만…",
 			typewriter = {
 				speed = 0.05,
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -576,8 +576,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "로열 네이비의 태도를 걱정하는 것, 알고 있어. 비시아 성좌의 일로 그 야심이 드러났지.",
 			typewriter = {
@@ -593,8 +593,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "하지만 계속 앉아서 기다리기만 한다면, 우리도 비시아 성좌의 전함처럼 로열의 도마 위에 오르게 될거야.",
 			typewriter = {
@@ -610,8 +610,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "이번 세이렌의 침입, 우리에게 있어서는 위협이지만 기회이기도 해.",
 			typewriter = {
@@ -643,8 +643,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "그리고 로열은 우리 자매들에 대해 여전히 추측하는 정도에 머물러 있지.",
 			typewriter = {
@@ -660,8 +660,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "어때, 차라리…",
 			typewriter = {
@@ -677,8 +677,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "우리가 제일 잘 하는 연극, 한번 해보지 않겠어?",
 			typewriter = {

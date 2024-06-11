@@ -1,12 +1,12 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "减伤光环",
 	time = 0,
-	color = "red",
+	name = "减伤光环",
+	init_effect = "jinengchufablue",
+	id = 12682,
 	picture = "",
 	desc = "减伤光环",
 	stack = 1,
-	id = 12682,
+	color = "red",
 	icon = 12682,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				quota = 1,
 				targetMaxHPRatio = 0.2,
+				quota = 1,
 				hpUpperBound = 0.2,
 				skill_id = 12681,
 				check_target = {

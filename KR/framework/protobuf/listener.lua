@@ -7,7 +7,7 @@ slot1 = {
 	end
 }
 
-function NullMessageListener()
+NullMessageListener = function()
 	return uv0
 end
 
@@ -24,7 +24,7 @@ slot2 = {
 	__index = slot2
 }
 
-function Listener(slot0)
+Listener = function(slot0)
 	return uv0({
 		__mode = "v",
 		_parent_message = slot0,

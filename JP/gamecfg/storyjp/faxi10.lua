@@ -1,19 +1,19 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI10",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
-			actor = 107040,
-			side = 2,
-			bgm = "story-french2",
-			say = "ドーントレス、もう一回攻撃よ！",
-			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "story-french2",
+			actor = 107040,
+			say = "ドーントレス、もう一回攻撃よ！",
 			flashN = {
 				color = {
 					1,
@@ -58,8 +58,8 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			dir = 1,
 			say = "もういいよ。この子はもう、動けない。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -80,8 +80,8 @@ return {
 			say = "動け！…動け！！動けよ！！",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 22.5,
 					number = 2
@@ -117,8 +117,8 @@ return {
 			say = "なぜだ！なぜオレを完成させなかった！！",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 22.5,
 					number = 2
@@ -176,15 +176,15 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900055,
+			stopbgm = true,
 			say = "リシュリュー姉、オレたち別のドックに移されることになったって聞いたけど、それは本当か！？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -344,15 +344,15 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
-			say = "……オレの兵装は最初から完全ではなかった。",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-french2",
+			actor = 905010,
+			say = "……オレの兵装は最初から完全ではなかった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/noice",
-			say = "――（ザザザ……）"
+			say = "――（ザザザ……）",
+			soundeffect = "event:/ui/noice"
 		},
 		{
 			actor = 107040,
@@ -453,8 +453,8 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			dir = 1,
 			say = "…「鉄血の機動艦隊、高速で南下中。全員戦闘用意」…今？",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/noice",
-			say = "――（ザザザ……）"
+			say = "――（ザザザ……）",
+			soundeffect = "event:/ui/noice"
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "「ヴィシア聖座に所属する全艦隊に告ぐ。本部より緊急連絡」",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,8 +513,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "「ヴィシア聖座に所属するすべての軍艦はアズールレーンに合流せよ。ヴィシア聖座・勢力識別解除・再現終了」",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "「汝らに大いなる父と聖霊の加護があらんこと」",
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,12 +593,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "くっ…！ヴィシア聖座旗艦ジャン・バールが全艦に告ぐ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -630,8 +630,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "ここは落ちた！異教徒たちは祖国に進出してくるだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -643,8 +643,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "鉄血や帝国の連中がオレたちを陥れようとしているだけでなく、",
 			typewriter = {
 				speed = 0.05,
@@ -656,8 +656,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "本部までもが我々ヴィシア聖座を壊そうとしている！",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "オレは絶対に、それを認めない！",
 			typewriter = {
 				speed = 0.05,
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "ケビール港……ダンケルクたちが敵対していないのにも関わらず、アズールレーンから攻撃された時点で、既に答えは見えていた！",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "そんな偽善者どもに、オレたちは絶対に従わない！",
 			typewriter = {
 				speed = 0.05,
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "ヴィシア聖座は今存亡の危機に直面している――我々の周りには敵だらけだ。だからどうした！",
 			typewriter = {
 				speed = 0.05,
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "命令を下す！全艦、直ちに自沈せよ！",
 			typewriter = {
 				speed = 0.05,
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "――定命あるものには死がある。汝悲しむことなかれよう。これぞ嘘偽りない輪廻の摂理。",
 			typewriter = {
 				speed = 0.05,
@@ -747,8 +747,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "いつかは、違う自分に目覚めるだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "それでも神には感謝したいと思う。素晴らしい国をくれてありがとう…と。",
 			typewriter = {
 				speed = 0.05,
@@ -773,8 +773,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "この命を幸せにしてくれてありがとう。",
 			typewriter = {
 				speed = 0.05,
@@ -786,8 +786,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "そして天国の海に迎えてくれてありがとう。",
 			typewriter = {
 				speed = 0.05,
@@ -799,8 +799,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "この栄光がすべてのアイリスを継ぐものに伝わることを願おう。",
 			typewriter = {
 				speed = 0.05,
@@ -812,8 +812,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "ヴイシア聖座。アイリスの国の正義·激情·愛情を表すもの――",
 			typewriter = {
 				speed = 0.05,
@@ -825,8 +825,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "「大いなる父と聖霊の加護があらんこと」",
 			typewriter = {
 				speed = 0.05,
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "ヴィシア……いいや……アイリスの第二旗艦。ジャン·バール……",
 			typewriter = {
 				speed = 0.05,
@@ -853,9 +853,9 @@ return {
 		{
 			actor = 105190,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			say = "なんでこんなことを。",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
 					active = false,
@@ -874,8 +874,8 @@ return {
 		{
 			actor = 905010,
 			side = 1,
-			dir = 1,
 			say = "昔アイリスとロイヤルが盟約を結んでいてな。アイリスは決して鉄血と帝国に降りることはない……オレたちヴィシア聖座もアイリスの一部だから、道理を貫くまでだ",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1045,15 +1045,15 @@ return {
 			}
 		},
 		{
-			actor = 900054,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900054,
+			stopbgm = true,
 			say = "そういえば、私たちの「名前」の意味……知っていますか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

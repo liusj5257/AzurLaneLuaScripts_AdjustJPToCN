@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.1
+					number = 0.1,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.111
+					number = 0.111,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.122
+					number = 0.122,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.133
+					number = 0.133,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.144
+					number = 0.144,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.155
+					number = 0.155,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.166
+					number = 0.166,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.177
+					number = 0.177,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.188
+					number = 0.188,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.2
+					number = 0.2,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 15071,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15071,
+	color = "red",
 	icon = 15070,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.1
+				number = 0.1,
+				attr = "criDamage"
 			}
 		}
 	}

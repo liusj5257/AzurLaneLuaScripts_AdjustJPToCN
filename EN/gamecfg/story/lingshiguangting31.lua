@@ -1,19 +1,19 @@
 return {
-	id = "LINGSHIGUANGTING31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING31",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 205010,
-			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "I can hardly believe Purifier actually didn't attack us.",
 			bgm = "battle-boss-camelot",
+			actor = 205010,
+			nameColor = "#a9f548",
+			say = "I can hardly believe Purifier actually didn't attack us.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Me neither. Her fleet is simply advancing on the tornado.",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Yes, then she ran off all of a sudden, saying something about \"taking on that thing\" by herself.",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "She may have been talking about the tornado. I don't think it's part of the Sirens' plans.",
 			typewriter = {
@@ -164,15 +164,15 @@ return {
 			}
 		},
 		{
-			actor = 207120,
 			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207120,
+			nameColor = "#a9f548",
 			say = "Another tornado?! Did it split off from the other one?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -216,8 +216,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Enemies are pouring out of it as well! Your Majesty, take the others and retreat while I draw their attention!",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Do you have a bloody death wish? You can't take on all of them by yourself!",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -433,10 +433,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_9",
 			side = 0,
+			bgName = "bg_camelot_9",
+			hideOther = true,
 			dir = 1,
 			actor = 299010,
 			actorName = "Neptune & Monarch & Cheshire",
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			actor = 299010,
 			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 299010,
+			nameColor = "#a9f548",
 			say = "Personally, I'm quite eager to claim some tonnage for my record! Heehee♪",
 			typewriter = {
 				speed = 0.05,

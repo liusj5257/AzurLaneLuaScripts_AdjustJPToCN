@@ -72,12 +72,12 @@ return {
 	desc_get = "每隔20秒，有30.0%(满级60.0%)的概率发动，提高自身20.0%(满级40.0%)装填，持续10秒",
 	name = "快速装填",
 	init_effect = "",
+	id = 2001,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每隔20秒，有$1的概率发动，提高自身$2装填，持续10秒",
 	stack = 1,
-	id = 2001,
+	color = "red",
 	icon = 2000,
 	last_effect = "",
 	effect_list = {
@@ -88,8 +88,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 2002,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		}
 	}

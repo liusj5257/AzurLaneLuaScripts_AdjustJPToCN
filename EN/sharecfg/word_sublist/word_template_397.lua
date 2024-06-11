@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_397 = {}
 slot1 = slot0.word_template_397
 
-function temp()
+temp = function()
 	uv0["逸"] = {
 		["是"] = {
 			["圣"] = {
@@ -34,7 +34,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["亓"] = {
 		["因"] = {
 			["祸"] = {
@@ -54,7 +54,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蛋"] = {
 		["吵"] = {
 			["饭"] = {
@@ -66,7 +66,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["辉"] = {
 		["者"] = {
 			["自"] = {
@@ -91,7 +91,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["种"] = {
 		["花"] = {
 			["闽"] = {
@@ -180,7 +180,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["胱"] = {
 		["奠"] = {
 			this = true
@@ -190,7 +190,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["脏"] = {
 		["搞"] = {
 			["丽"] = {

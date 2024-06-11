@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK39903",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK39903",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "現在無論是戰鬥還是別的，北風都感覺更加得心應手了。",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "僅僅靠北風一個人的力量是難以做到的…",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399030,
 			dir = 1,
+			actor = 399030,
 			say = "指揮官，你會陪著北風……一起的吧？",
 			typewriter = {
 				speed = 0.05,

@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
+			bgm = "theme-aostelab",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "擬似空間「NYシティ」 実験エリア",
-			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "漆黒の装甲を纏う異型の獣が水平線より接近してくる。",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "獣の背中には巨大なタンクが装着されており、中から液状の物質が気化して妖しい煙となり、辺りを覆おうとする。",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "正面の装甲板はさながら騎士の兜のような形を表し、その上には――",
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "黒い装束を身にまとっている少女が座っている。",
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -209,8 +209,8 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "兵装設計部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "プリンストン",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（普通に挨拶してきた？！）",
 			painting = {
@@ -228,9 +228,9 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 107230,
 			actorName = "プリンストン",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（なんだかセイレーンのイメージからだいぶ違うような…）",
 			painting = {
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ラフィーⅡ",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "兵装設計部",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "ーーーー！！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ラフィーⅡ",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "兵装設計部",
 			dir = 1,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -383,8 +383,8 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "兵装設計部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "プリンストン",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（どうしよう…なんだか親近感すら感じてきた…）",
 			painting = {
@@ -402,9 +402,9 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 107230,
 			actorName = "プリンストン",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（一体どういうこと？外で戦ったアビータたちはこんな風に話しかけてくることはなかったよね？）",
 			painting = {
@@ -417,12 +417,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "ーーーー！！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ラフィーⅡ",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "兵装設計部",
 			dir = 1,
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Devil・XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "うん。ラフィー、殲滅形態……！",
 			painting = {

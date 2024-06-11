@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 6 - Childe of the Fleet</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Plaza",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Plaza",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "I was on patrol with my secretary, Centaur.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Although, honestly, by this point, Centaur was capable of handling this particular duty on her own.",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "But she insisted it was bad for my health to sit too long, so she forced me to come out with her.",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 206040,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "Oh, yes, indeed! And good morning to you, Elder Hood!",
+			dir = -1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -132,8 +132,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Oh my no, you flatter me.",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Yes! I can't say I know much about tea, but it was delicious!",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Thank you very much.~",
 			typewriter = {
@@ -212,15 +212,15 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "Hey! It's Centaur!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "Are you working again, Centaur...?",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Are you working again, Centaur...?",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "I won't let you down!",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Of course. I'll play with you later today.",
 			typewriter = {
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "No candy for Comainder!",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -379,9 +379,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I felt ever so slightly spurned...",
 			typewriter = {
 				speed = 0.05,
@@ -389,13 +389,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "While she was still calling everyone \"Elder,\" Centaur's interactions with the rest of the fleet had become much less awkward.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -425,9 +425,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Oh, that? I suppose it's because \"Elder\" has a new meaning for me~~",
 			typewriter = {

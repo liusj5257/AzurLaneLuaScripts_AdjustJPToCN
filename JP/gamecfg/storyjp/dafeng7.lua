@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"その女、賢妻につき\n\n<size=45>七 大鳳の消失・下</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "大鳳が部屋にやってくるときの香り、部屋を掃除するときの物音、そして用意してくれる朝食の匂いもなかった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,9 +48,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……大鳳？",
 			typewriter = {
 				speed = 0.05,
@@ -58,15 +58,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "指揮官、どうかしました？顔色がすごく悪いのですが…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -107,13 +107,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "執務室に入っても、いつも机の上に丁寧にまとめられている書類もなかった。休暇を取った連絡もない。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,19 +136,19 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			say = "指揮官！？よかった……早く来て！た、大鳳が――",
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "指揮官！？よかった……早く来て！た、大鳳が――",
 			actorPosition = {
 				x = 1500,
 				y = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = -675
@@ -166,14 +166,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ごめん！わたし、昨日「雑誌で献身的になりすぎると嫌われる可能性もあるぞって」、大鳳に冗談を言っちゃったんだけど、",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ただの冗談だからってその時は何も思わなかったんだけど、その後あの子、急に自分の部屋に引きこもって出て来てくれなくなっちゃったの……",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "お願い指揮官！大鳳を部屋から連れ出して！指揮官だけが頼りなんだ！",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -244,13 +244,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			say = "心当たりはあった。",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
+			say = "心当たりはあった。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -343,8 +343,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "今にも泣きそうな声だった。",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -431,8 +431,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…————",
 			typewriter = {
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "こちらが答え終わるのを待つことなく、ドアが力強く開かれた。",
 			typewriter = {
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actorScale = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			actorScale = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "<size=45>指揮官様あああああ！！！</size>",
 			dialogShake = {
 				speed = 0.09,
@@ -479,8 +479,8 @@ return {
 					}
 				},
 				{
-					type = "move",
 					y = -225,
+					type = "move",
 					delay = 0.01,
 					dur = 0.2,
 					x = 0
@@ -488,9 +488,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "飛び込んできた大鳳を受け止めた。大鳳も、自分も知っている――",
 			typewriter = {
 				speed = 0.05,

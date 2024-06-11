@@ -1,6 +1,6 @@
 slot0 = class("AsideStoryPlayer", import(".StoryPlayer"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.hrzList = UIItemList.New(slot0:findTF("aside", slot0.asidePanel), slot0:findTF("aside/aside_txt_tpl", slot0.asidePanel))
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.dataTxt = slot0:findTF("aside_sign_date", slot0.asidePanel)
 end
 
-function slot0.OnReset(slot0, slot1, slot2, slot3)
+slot0.OnReset = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.asidePanel, true)
 	setActive(slot0.curtain, true)
 	setActive(slot0.hrzList.container, false)
@@ -25,7 +25,7 @@ function slot0.OnReset(slot0, slot1, slot2, slot3)
 	slot3()
 end
 
-function slot0.OnInit(slot0, slot1, slot2, slot3)
+slot0.OnInit = function(slot0, slot1, slot2, slot3)
 	if slot1:ShouldHideBGAlpha() then
 		slot0.color = slot0.mainImg.color
 		slot0.mainImg.color = Color.New(1, 1, 1, 0)
@@ -45,7 +45,7 @@ function slot0.OnInit(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.GetAsideList(slot0, slot1)
+slot0.GetAsideList = function(slot0, slot1)
 	slot2 = nil
 
 	if slot1 == AsideStep.ASIDE_TYPE_HRZ then
@@ -61,7 +61,7 @@ function slot0.GetAsideList(slot0, slot1)
 	return slot2
 end
 
-function slot0.PlayAside(slot0, slot1, slot2)
+slot0.PlayAside = function(slot0, slot1, slot2)
 	slot4 = slot0:GetAsideList(slot1:GetAsideType())
 
 	slot0:UpdateLayoutPaddingAndSpacing(slot1, slot4.container)
@@ -91,7 +91,7 @@ function slot0.PlayAside(slot0, slot1, slot2)
 	parallelAsync({}, slot2)
 end
 
-function slot0.PlayBubbleAside(slot0, slot1, slot2)
+slot0.PlayBubbleAside = function(slot0, slot1, slot2)
 	slot3 = slot0:GetAsideList(slot1:GetAsideType())
 
 	slot0:UpdateLayoutPaddingAndSpacing(slot1, slot3.container)
@@ -118,7 +118,7 @@ function slot0.PlayBubbleAside(slot0, slot1, slot2)
 
 			slot2 = GetOrAddComponent(slot1, typeof(Typewriter))
 
-			function slot2.endFunc()
+			slot2.endFunc = function()
 				uv0()
 			end
 
@@ -130,7 +130,7 @@ function slot0.PlayBubbleAside(slot0, slot1, slot2)
 	seriesAsync(slot6, slot2)
 end
 
-function slot0.UpdateLayoutPaddingAndSpacing(slot0, slot1, slot2)
+slot0.UpdateLayoutPaddingAndSpacing = function(slot0, slot1, slot2)
 	slot4 = slot1:ShouldUpdatePadding()
 
 	if slot1:ShouldUpdateSpacing() or slot4 then
@@ -150,7 +150,7 @@ function slot0.UpdateLayoutPaddingAndSpacing(slot0, slot1, slot2)
 	end
 end
 
-function slot0.PlayDateSign(slot0, slot1, slot2)
+slot0.PlayDateSign = function(slot0, slot1, slot2)
 	if not slot1:GetDateSign() then
 		slot2()
 
@@ -168,7 +168,7 @@ function slot0.PlayDateSign(slot0, slot1, slot2)
 	setAnchoredPosition(slot0.dataTxt, Vector3(slot6[1], slot6[2], 0))
 end
 
-function slot0.OnWillClear(slot0, slot1, slot2, slot3)
+slot0.OnWillClear = function(slot0, slot1, slot2, slot3)
 	if slot0.color then
 		slot0.mainImg.color = slot0.color
 	end
@@ -183,7 +183,7 @@ function slot0.OnWillClear(slot0, slot1, slot2, slot3)
 	slot0.spacing = nil
 end
 
-function slot0.ResetPaddingAndSpacing(slot0, slot1, slot2, slot3)
+slot0.ResetPaddingAndSpacing = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
 
 	if slot2 then
@@ -195,7 +195,7 @@ function slot0.ResetPaddingAndSpacing(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnEnd(slot0)
+slot0.OnEnd = function(slot0)
 end
 
 return slot0

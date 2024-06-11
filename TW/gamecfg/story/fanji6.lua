@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"笑容之下的真心\n\n<size=45>六 耀眼的笑容</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "把工作暫時交給了聲望，外出尋找反擊。既然她說要去演習海域，那她現在應該還在港口——",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "把工作暫時交給了聲望，外出尋找反擊。既然她說要去演習海域，那她現在應該還在港口——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "果然，在棧橋發現了正在眺望演習海域的反擊的身影。",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "指揮官？",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "目光相對的瞬間，反擊驚愕地瞪大雙眼，但很快又恢復了一貫的笑容。",
 			typewriter = {
 				speed = 0.05,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "嘿！指揮官，怎麼能留下姐姐一個人工作，來這裡偷懶呀？快回去快回去啦！",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "反擊似乎還是老樣子。但既然已經注意到了她的反常，就得想辦法弄清她的真正意圖。",
 			typewriter = {
 				speed = 0.05,
@@ -144,9 +144,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "這不僅僅是為了港區和聲望著想，也是為了她自己。",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "堅持著自己的想法，繼續盯著她看。",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "輕輕地碰了碰反擊的手。反擊瞬間吃了一驚，但馬上又垂下頭，撇開目光。",
 			typewriter = {
 				speed = 0.05,
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "終於，她喃喃說道——",
 			typewriter = {
 				speed = 0.05,
@@ -296,9 +296,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "立刻表示了否定。",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "拿出了幾張密密麻麻寫滿了字的紙，遞到了她面前。",
 			typewriter = {
 				speed = 0.05,
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "那正是——和聲望一起為反擊製作的，秘書艦事務工作專用手冊。",
 			typewriter = {
 				speed = 0.05,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "準確的說，是由聲望提案，自己給出創意，在反擊至今為止所有努力的基礎之上寫成的。",
 			typewriter = {
 				speed = 0.05,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "聲望在文書工作方面的能力明顯優於反擊。若只考慮效率的話，確實沒有製作手冊的必要。",
 			typewriter = {
 				speed = 0.05,
@@ -430,9 +430,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "不過，並非任何事情都只有聲望才能做得到。",
 			typewriter = {
 				speed = 0.05,
@@ -444,9 +444,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "反擊是秘書艦。而且，重要的是，我更希望聲望和反擊都能留在我身邊。",
 			typewriter = {
 				speed = 0.05,
@@ -458,11 +458,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "嗯……謝謝你，指揮官！ 很抱歉給你添麻煩了！",
 			typewriter = {
 				speed = 0.05,
@@ -474,8 +474,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

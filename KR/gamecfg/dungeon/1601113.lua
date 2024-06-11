@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -134,9 +134,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 15401001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -149,9 +149,9 @@ return {
 						},
 						{
 							monsterTemplateID = 15401102,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -160,9 +160,9 @@ return {
 						},
 						{
 							monsterTemplateID = 15401001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -187,8 +187,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 15401103,
-							reinforceDelay = 6,
 							score = 0,
+							reinforceDelay = 6,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -201,9 +201,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 15401002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -216,9 +216,9 @@ return {
 						},
 						{
 							monsterTemplateID = 15401003,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								3,
 								0,
@@ -231,9 +231,9 @@ return {
 						},
 						{
 							monsterTemplateID = 15401003,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								3,
 								0,
@@ -246,9 +246,9 @@ return {
 						},
 						{
 							monsterTemplateID = 15401002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -287,9 +287,9 @@ return {
 						{
 							deadFX = "chuansong",
 							score = 0,
-							monsterTemplateID = 15401304,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 15401304,
 							corrdinate = {
 								-5,
 								0,
@@ -304,19 +304,19 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
 									dive = "STATE_RAID",
-									switchTo = 31,
-									index = 0,
 									switchParam = 1.5,
+									index = 0,
+									switchType = 1,
+									switchTo = 31,
 									setAI = 70086,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									index = 31,
 									switchParam = 3,
 									switchTo = 32,
+									index = 31,
 									switchType = 1,
 									addWeapon = {
 										851101
@@ -324,9 +324,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 32,
 									switchParam = 1,
 									switchTo = 33,
+									index = 32,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -334,9 +334,9 @@ return {
 									}
 								},
 								{
-									index = 33,
 									switchParam = 2,
 									switchTo = 34,
+									index = 33,
 									switchType = 1,
 									addWeapon = {
 										851101
@@ -344,9 +344,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 34,
 									switchParam = 2,
 									switchTo = 35,
+									index = 34,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -354,9 +354,9 @@ return {
 									}
 								},
 								{
-									index = 35,
 									switchParam = 2,
 									switchTo = 36,
+									index = 35,
 									switchType = 1,
 									addWeapon = {
 										851101
@@ -364,10 +364,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 1.5,
 									switchTo = 37,
 									index = 36,
-									switchParam = 1.5,
+									switchType = 1,
 									setAI = 70126,
 									addWeapon = {},
 									removeWeapon = {
@@ -375,65 +375,65 @@ return {
 									}
 								},
 								{
-									switchType = 1,
-									dive = "STATE_FLOAT",
-									switchTo = 1,
-									index = 37,
 									switchParam = 0.5,
+									dive = "STATE_FLOAT",
+									index = 37,
+									switchType = 1,
+									switchTo = 1,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 3,
 									switchTo = 2,
 									index = 1,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										851102
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 16,
 									switchTo = 3,
 									index = 2,
-									switchParam = 16,
+									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
 										851102
 									}
 								},
 								{
-									index = 3,
 									switchType = 1,
 									switchTo = 4,
+									index = 3,
 									switchParam = 5,
 									addWeapon = {
 										851106
 									}
 								},
 								{
-									index = 4,
 									switchType = 1,
 									switchTo = 5,
+									index = 4,
 									switchParam = 2,
 									addWeapon = {
 										851107
 									}
 								},
 								{
-									index = 5,
 									switchType = 1,
 									switchTo = 6,
+									index = 5,
 									switchParam = 13,
 									addWeapon = {
 										851108
 									}
 								},
 								{
-									index = 6,
 									switchType = 1,
 									switchTo = 1,
+									index = 6,
 									switchParam = 1,
 									removeWeapon = {
 										851106,
@@ -456,9 +456,9 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -467,27 +467,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -496,19 +496,19 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						}
@@ -525,9 +525,9 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15401305,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -536,27 +536,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15401305,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -565,27 +565,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -594,27 +594,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -623,27 +623,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 4,
 							monsterTemplateID = 15401305,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -652,27 +652,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 4,
 							monsterTemplateID = 15401305,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -681,27 +681,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8,
 							monsterTemplateID = 15401305,
+							delay = 8,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -710,27 +710,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8,
 							monsterTemplateID = 15401305,
+							delay = 8,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -739,27 +739,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8.5,
 							monsterTemplateID = 15401305,
+							delay = 8.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -768,27 +768,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8.5,
 							monsterTemplateID = 15401305,
+							delay = 8.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -797,27 +797,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9,
 							monsterTemplateID = 15401305,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -826,27 +826,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9,
 							monsterTemplateID = 15401305,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -855,27 +855,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9.5,
 							monsterTemplateID = 15401305,
+							delay = 9.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -884,19 +884,19 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						}
@@ -913,9 +913,9 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15401305,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -924,27 +924,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15401305,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -953,27 +953,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -982,27 +982,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1011,27 +1011,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 4,
 							monsterTemplateID = 15401305,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1040,27 +1040,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 4,
 							monsterTemplateID = 15401305,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1069,27 +1069,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8,
 							monsterTemplateID = 15401305,
+							delay = 8,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1098,27 +1098,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8,
 							monsterTemplateID = 15401305,
+							delay = 8,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1127,27 +1127,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8.5,
 							monsterTemplateID = 15401305,
+							delay = 8.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1156,27 +1156,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8.5,
 							monsterTemplateID = 15401305,
+							delay = 8.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1185,27 +1185,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9,
 							monsterTemplateID = 15401305,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1214,27 +1214,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9,
 							monsterTemplateID = 15401305,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1243,27 +1243,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9.5,
 							monsterTemplateID = 15401305,
+							delay = 9.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1272,19 +1272,19 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						}
@@ -1301,9 +1301,9 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15401305,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1312,27 +1312,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15401305,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1341,27 +1341,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1370,27 +1370,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1399,27 +1399,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 4,
 							monsterTemplateID = 15401305,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1428,27 +1428,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 4,
 							monsterTemplateID = 15401305,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1457,27 +1457,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8,
 							monsterTemplateID = 15401305,
+							delay = 8,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1486,27 +1486,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8,
 							monsterTemplateID = 15401305,
+							delay = 8,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1515,27 +1515,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8.5,
 							monsterTemplateID = 15401305,
+							delay = 8.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1544,27 +1544,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8.5,
 							monsterTemplateID = 15401305,
+							delay = 8.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1573,27 +1573,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9,
 							monsterTemplateID = 15401305,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1602,27 +1602,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9,
 							monsterTemplateID = 15401305,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1631,27 +1631,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9.5,
 							monsterTemplateID = 15401305,
+							delay = 9.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1660,19 +1660,19 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						}
@@ -1689,9 +1689,9 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15401305,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1700,27 +1700,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15401305,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1729,27 +1729,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1758,27 +1758,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 2,
 							monsterTemplateID = 15401305,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1787,27 +1787,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 4,
 							monsterTemplateID = 15401305,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1816,27 +1816,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 4,
 							monsterTemplateID = 15401305,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1845,27 +1845,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8,
 							monsterTemplateID = 15401305,
+							delay = 8,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1874,27 +1874,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8,
 							monsterTemplateID = 15401305,
+							delay = 8,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1903,27 +1903,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8.5,
 							monsterTemplateID = 15401305,
+							delay = 8.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1932,27 +1932,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 8.5,
 							monsterTemplateID = 15401305,
+							delay = 8.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1961,27 +1961,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9,
 							monsterTemplateID = 15401305,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -1990,27 +1990,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9,
 							monsterTemplateID = 15401305,
+							delay = 9,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -2019,27 +2019,27 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						},
 						{
 							score = 0,
-							moveCast = true,
-							delay = 9.5,
 							monsterTemplateID = 15401305,
+							delay = 9.5,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -2048,19 +2048,19 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70157
 								},
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									switchTo = 0,
 									index = 1,
-									switchType = 1
+									switchParam = 180
 								}
 							}
 						}

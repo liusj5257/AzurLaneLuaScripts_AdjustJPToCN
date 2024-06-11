@@ -17,13 +17,13 @@ slot8.STATE_PRECAST_FINISH = "STATE_PRECAST_FINISH"
 slot8.STATE_ATTACK = "ATTACK"
 slot8.STATE_OVER_HEAT = "OVER_HEAT"
 
-function slot8.Ctor(slot0, slot1)
+slot8.Ctor = function(slot0, slot1)
 	slot0._client = slot1
 
 	slot0:init()
 end
 
-function slot8.init(slot0)
+slot8.init = function(slot0)
 	slot0._crewUnitList = {}
 	slot0._hitFXResIDList = {}
 	slot0._currentState = uv0.STATE_DISABLE
@@ -31,32 +31,32 @@ function slot8.init(slot0)
 	slot0._range = 0
 end
 
-function slot8.AppendCrewUnit(slot0, slot1)
+slot8.AppendCrewUnit = function(slot0, slot1)
 	slot0._crewUnitList[slot1] = true
 	slot0._currentState = uv0.STATE_READY
 
 	slot0:flush()
 end
 
-function slot8.RemoveCrewUnit(slot0, slot1)
+slot8.RemoveCrewUnit = function(slot0, slot1)
 	slot0._crewUnitList[slot1] = nil
 
 	slot0:flush()
 end
 
-function slot8.SwitchHost(slot0, slot1)
+slot8.SwitchHost = function(slot0, slot1)
 	slot0._host = slot1
 end
 
-function slot8.GetCrewUnitList(slot0)
+slot8.GetCrewUnitList = function(slot0)
 	return slot0._crewUnitList
 end
 
-function slot8.GetRange(slot0)
+slot8.GetRange = function(slot0)
 	return slot0._range
 end
 
-function slot8.flush(slot0)
+slot8.flush = function(slot0)
 	slot0._range = 0
 	slot0._interval = 0
 	slot1 = 0
@@ -71,13 +71,13 @@ function slot8.flush(slot0)
 	slot0._interval = slot0._interval / slot1
 end
 
-function slot8.Update(slot0)
+slot8.Update = function(slot0)
 	if slot0._client:IsAAActive() and slot0._currentState == uv0.STATE_READY and slot0:CompareDistance(slot0:FilterRange(slot0:FilterTarget())) then
 		slot0:Fire(slot2)
 	end
 end
 
-function slot8.FilterTarget(slot0)
+slot8.FilterTarget = function(slot0)
 	slot2 = {}
 	slot3 = slot0._host:GetIFF()
 	slot4 = 1
@@ -92,7 +92,7 @@ function slot8.FilterTarget(slot0)
 	return slot2
 end
 
-function slot8.FilterRange(slot0, slot1)
+slot8.FilterRange = function(slot0, slot1)
 	for slot5 = #slot1, 1, -1 do
 		if slot0:IsOutOfRange(slot1[slot5]) then
 			table.remove(slot1, slot5)
@@ -102,11 +102,11 @@ function slot8.FilterRange(slot0, slot1)
 	return slot1
 end
 
-function slot8.IsOutOfRange(slot0, slot1)
+slot8.IsOutOfRange = function(slot0, slot1)
 	return slot0._range < slot0:getTrackingHost():GetDistance(slot1)
 end
 
-function slot8.CompareDistance(slot0, slot1)
+slot8.CompareDistance = function(slot0, slot1)
 	slot2 = 999999
 	slot3 = nil
 
@@ -120,11 +120,11 @@ function slot8.CompareDistance(slot0, slot1)
 	return slot3
 end
 
-function slot8.getTrackingHost(slot0)
+slot8.getTrackingHost = function(slot0)
 	return slot0._host
 end
 
-function slot8.Fire(slot0, slot1)
+slot8.Fire = function(slot0, slot1)
 	if slot0._currentState == slot0.DISABLE then
 		return
 	end
@@ -134,17 +134,17 @@ function slot8.Fire(slot0, slot1)
 	slot0._client:ConsumeAACounter()
 end
 
-function slot8.EnterCoolDown(slot0)
+slot8.EnterCoolDown = function(slot0)
 	slot0._currentState = slot0.STATE_OVER_HEAT
 
 	slot0:AddCDTimer(slot0._interval)
 end
 
-function slot8.GetCurrentState(slot0)
+slot8.GetCurrentState = function(slot0)
 	return slot0._currentState
 end
 
-function slot8.AddCDTimer(slot0, slot1)
+slot8.AddCDTimer = function(slot0, slot1)
 	slot0:RemoveCDTimer()
 
 	slot0._cdTimer = pg.TimeMgr.GetInstance():AddBattleTimer("weaponTimer", -1, slot1, function ()
@@ -154,13 +154,13 @@ function slot8.AddCDTimer(slot0, slot1)
 	end, true)
 end
 
-function slot8.RemoveCDTimer(slot0)
+slot8.RemoveCDTimer = function(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._cdTimer)
 
 	slot0._cdTimer = nil
 end
 
-function slot8.Dispose(slot0)
+slot8.Dispose = function(slot0)
 	slot0:RemoveCDTimer()
 
 	slot0._crewUnitList = nil

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"특별훈련·에식스급\n\n<size=45>3 막간의 경청자</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107070,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "헬로~! 수고했어!",
 			bgm = "story-1",
+			actor = 107070,
+			nameColor = "#92fc63",
+			say = "헬로~! 수고했어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "가, 감사합니다!",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "감사합니다.",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "죄, 죄송해요. 거기까지는 생각 안 하고 있었어요.",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "연습의 중요성, 그리고 자신의 실력을 보여줄 수 있는 천재일우의 기회이므로, 전력으로 도전하는 수 밖에 없었습니다! ……감상이라면 이 정도네요.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "후후, 에식스는 호넷 씨와 다르게 성실하니까요.",
 			typewriter = {
@@ -313,15 +313,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "하아, 하아…… 호넷 씨!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -365,8 +365,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "아까 호넷 씨가 말했던 엔터프라이즈 씨의 버릇에 대해 좀 자세하게 가르쳐주지 않겠어요?",
 			typewriter = {
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "아! 아하하하…… 기다리게 해서 미안! 지금 갈게!",
 			typewriter = {
 				speed = 0.05,
@@ -475,16 +475,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 3
 				},
 				{
-					type = "move",
 					y = 45,
+					type = "move",
 					delay = 0.6,
 					dur = 1,
 					x = 3750
@@ -495,8 +495,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "크흠! 호넷 씨를 잡아 둬서 죄송해요!",
 			typewriter = {
@@ -637,12 +637,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -655,8 +655,8 @@ return {
 		},
 		action = {
 			{
-				type = "shake",
 				y = 45,
+				type = "shake",
 				delay = 0,
 				dur = 0.15,
 				x = 0,

@@ -62,12 +62,12 @@ return {
 	desc_get = "每20秒，有40.0%(满级70.0%)概率触发护盾，每个护盾阻挡10发子弹，护盾持续10秒",
 	name = "不破之盾",
 	init_effect = "",
+	id = 10390,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每20秒，有$1概率触发护盾，每个护盾阻挡10发子弹，护盾持续10秒",
 	stack = 1,
-	id = 10390,
+	color = "blue",
 	icon = 10390,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 10391,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

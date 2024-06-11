@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戦え！ロイヤルメイド隊\n\n<size=45>二　側面の二人</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域・北の防衛線",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "演習海域・北の防衛線",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ふぅ……なんとか持ちこたえましたぁ……",
 			typewriter = {
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 203030,
+			say = "Exhausted！もうクタクタだ～",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Exhausted！もうクタクタだ～",
+			actor = 203030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -96,8 +96,8 @@ return {
 			expression = 8,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "きっとメイド長たちの防衛線が一番大変だろうけど、まさか側面の防衛線もここまで大変になるなんて……",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "あははは…でも、味方と戦うのはたとえ演習でもちょっと緊張しません？",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "「全力でかかってこーい！」とか、 「Come on！お前たちの力はそんなもんじゃないだろ？」とか",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ケント、あとでみんなに叱られちゃいますよ……",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 10,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "はあ…私はただ雲さんを観察したりサボったりしたかっただけなのにぃ……",
 			typewriter = {
@@ -251,12 +251,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			actorShadow = true,
+			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 202190,
 			actorName = "？？？",
 			say = "サフォーク。ロイヤルメイドたる者がサボったりしてはいけませんよ",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "いたっ！だ、誰ですか空砲でデコピンしたのは！あれ、あなたは…",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -347,10 +347,10 @@ return {
 			expression = 14,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "ニューカッスルさ～ん！",
+			dir = 1,
+			actor = 203040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -394,8 +394,8 @@ return {
 			expression = 7,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ベルファストさんは有能ですけど、やっぱり親しみやすさ的にはニューカッスルさんが一番ですよー",
 			typewriter = {
@@ -408,11 +408,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "あ！ずるい！私も！",
 			typewriter = {
 				speed = 0.05,
@@ -424,8 +424,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
 					x = 0,
@@ -437,8 +437,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "ニューカッスルさんの匂い……（くんくん",
 			typewriter = {
@@ -451,8 +451,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -496,8 +496,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "はーい。モチベーションがちょっと上がりました",
 			typewriter = {
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "ではお任せします。私はほかの防衛線を見回りますから、またあとでね",
 			typewriter = {
 				speed = 0.05,

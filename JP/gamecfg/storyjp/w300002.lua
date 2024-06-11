@@ -1,12 +1,12 @@
 return {
-	id = "W300002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W300002",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "情報開放任務で獲得できる情報をすべて開放しました。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "お疲れさまでした。新しい情報の実装はショップにて確認できます",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	id = "W1203",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1203",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Enemy signals have completely disappeared from this sector...",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot1, slot2, slot3, slot4, slot5 = nil
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if IsNil(slot0.Find(slot0, "base")) then
 		return
 	end
@@ -40,7 +40,7 @@ function slot1(slot0, slot1)
 	end
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	if IsNil(slot0.Find(slot0, "desc")) then
 		return
 	end
@@ -54,23 +54,23 @@ function slot3(slot0, slot1)
 	setText(slot2.Find(slot2, "Text"), slot1.desc)
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	uv0(slot0, slot1)
 	uv1(slot0, slot1)
 end
 
-function slot4(slot0, slot1, slot2)
+slot4 = function(slot0, slot1, slot2)
 	removeAllChildren(slot0)
 	uv0(slot0, slot1, slot2)
 end
 
-function slot5(slot0, slot1, slot2)
+slot5 = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		uv0(cloneTplTo(slot1, slot0), slot7)
 	end
 end
 
-function updateSpWeaponInfo(slot0, slot1, slot2)
+updateSpWeaponInfo = function(slot0, slot1, slot2)
 	uv0(slot0.Find(slot0, "attrs"), slot0.Find(slot0, "attr_tpl"), slot1.attrs)
 
 	slot4 = {}
@@ -153,7 +153,7 @@ function updateSpWeaponInfo(slot0, slot1, slot2)
 	setActive(slot3, false)
 end
 
-function slot6(slot0)
+slot6 = function(slot0)
 	slot1 = slot0:GetConfigAttributes()
 	slot2 = slot0:GetBaseAttributes()
 
@@ -171,7 +171,7 @@ function slot6(slot0)
 	}
 end
 
-function slot7(slot0, slot1)
+slot7 = function(slot0, slot1)
 	slot2 = {
 		attrs = {}
 	}

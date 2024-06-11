@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"悪戯ハロウィン\n\n<size=45>一 迷子お化けを探し出そう！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102091,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "ジャジャーン！",
 			bgm = "story-1",
+			actor = 102091,
+			nameColor = "#a9f548",
+			say = "ジャジャーン！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 306051,
+			say = "すごい大きさやな……",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "すごい大きさやな……",
+			actor = 306051,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -162,10 +162,10 @@ return {
 			}
 		},
 		{
-			actor = 301051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "綾波&祥鳳",
@@ -269,10 +269,10 @@ return {
 			}
 		},
 		{
-			actor = 301051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "綾波＆陽炎",
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "ウサウサ星からやってきた黒い魔女ベイリー、華麗に登場！",
 			effects = {
 				{
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102091,
+			nameColor = "#a9f548",
 			say = "おお！早速魔女さんのお出ましか！ちょっとこれを頼めないかな……",
 			effects = {
 				{
@@ -340,8 +340,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -353,8 +353,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "いいよ！このウサウサ魔女ベイリーにお任せ！",
 			typewriter = {
@@ -367,14 +367,14 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actorName = "みんな",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			actorName = "みんな",
+			actor = 301051,
+			nameColor = "#a9f548",
 			say = "おおお！",
 			subActors = {
 				{

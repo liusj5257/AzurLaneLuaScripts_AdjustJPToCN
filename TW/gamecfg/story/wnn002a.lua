@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "到达了直布罗陀港，前往茗处接收任务。",
 			typewriter = {
 				speed = 0.05,

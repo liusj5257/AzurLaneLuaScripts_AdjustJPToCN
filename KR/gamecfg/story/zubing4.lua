@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"전진하라! 아시가라!\n\n<size=45>뭘 위해 싸우는가, 아시가라?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날 - 연습전 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "어느 날 - 연습전 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,15 +98,15 @@ return {
 			}
 		},
 		{
-			actor = 205070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205070,
+			nameColor = "#92fc63",
 			say = "내 기억이 틀리지 않다면, 그대는 사쿠라 엠파이어의 아시가라지 않은가?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -134,10 +134,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "네? 아, 네!",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -186,10 +186,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "(이건…아마 칭찬하는 거겠지.)",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "고, 고맙습니다.",
 			typewriter = {
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 5,
 			side = 0,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "(이, 이건 대체 무슨 의미지? 내가 노력한 이유를 물어보는 건가…?)",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "아 그건, 연습전이긴 하지만 사쿠라 엠파이어를 대표하는 일원으로 나온 이상……",
 			typewriter = {
@@ -318,10 +318,10 @@ return {
 		{
 			expression = 6,
 			side = 0,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "(뭐…뭐라는 거야??)",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "듀크 오브 요크는 프린스 오브 웨일즈와 함께 자리를 떠났다.",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "(휴…살았다……)",
 			typewriter = {
@@ -424,12 +424,12 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "(내가 늘 마음에 두는 존재……를 말하는 건가?)",
 			typewriter = {
 				speed = 0.05,

@@ -3,11 +3,11 @@ slot1 = import("..ship.FormationUI")
 slot0.FORM_EDIT = "EDIT"
 slot0.FORM_PREVIEW = "PREVIEW"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PreCombatUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:CommonInit()
 
 	slot1 = slot0:findTF("middle")
@@ -27,7 +27,7 @@ function slot0.init(slot0)
 	slot0:Register()
 end
 
-function slot0.SetFleets(slot0, slot1)
+slot0.SetFleets = function(slot0, slot1)
 	slot0._fleetVOs = {}
 	slot0._fleetIDList = {}
 
@@ -54,13 +54,13 @@ function slot0.SetFleets(slot0, slot1)
 	end
 end
 
-function slot0.SetCurrentFleet(slot0, slot1)
+slot0.SetCurrentFleet = function(slot0, slot1)
 	slot0._currentFleetVO = slot0._fleetVOs[slot1 or slot0._fleetIDList[1]]
 
 	slot0._formationLogic:SetFleetVO(slot0._currentFleetVO)
 end
 
-function slot0.UpdateFleetView(slot0, slot1)
+slot0.UpdateFleetView = function(slot0, slot1)
 	slot0:displayFleetInfo()
 	slot0._formationLogic:UpdateGridVisibility()
 	slot0._formationLogic:ResetGrid(TeamType.Submarine, slot0._currentForm ~= uv0.FORM_EDIT)
@@ -72,15 +72,15 @@ function slot0.UpdateFleetView(slot0, slot1)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		slot0 = {}
 
 		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					zIndex = -100,
 					hideNo = false,
+					zIndex = -100,
 					content = i18n("battle_preCombatLayer_save_confirm"),
 					onYes = function ()
 						uv0:emit(PreCombatMediator.ON_COMMIT_EDIT, function ()
@@ -111,8 +111,8 @@ function slot0.didEnter(slot0)
 		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					zIndex = -100,
 					hideNo = false,
+					zIndex = -100,
 					content = i18n("battle_preCombatLayer_save_march"),
 					onYes = function ()
 						uv0:emit(PreCombatMediator.ON_COMMIT_EDIT, function ()
@@ -176,7 +176,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.getNextFleetID(slot0)
+slot0.getNextFleetID = function(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in ipairs(slot0._fleetIDList) do
@@ -190,7 +190,7 @@ function slot0.getNextFleetID(slot0)
 	return slot0._fleetIDList[slot1 + 1]
 end
 
-function slot0.getPrevFleetID(slot0)
+slot0.getPrevFleetID = function(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in ipairs(slot0._fleetIDList) do
@@ -204,7 +204,7 @@ function slot0.getPrevFleetID(slot0)
 	return slot0._fleetIDList[slot1 - 1]
 end
 
-function slot0.displayFleetInfo(slot0)
+slot0.displayFleetInfo = function(slot0)
 	slot1 = slot0._currentFleetVO:GetPropertiesSum()
 
 	setActive(slot0._popup, true)
@@ -214,7 +214,7 @@ function slot0.displayFleetInfo(slot0)
 	setText(slot0._fleetNumText, slot0._currentFleetVO.id - 10)
 end
 
-function slot0.SetFleetStepper(slot0)
+slot0.SetFleetStepper = function(slot0)
 	if slot0._currentForm == uv0.FORM_EDIT then
 		SetActive(slot0._nextPage, false)
 		SetActive(slot0._prevPage, false)
@@ -224,7 +224,7 @@ function slot0.SetFleetStepper(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.eventTriggers then
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
 			ClearEventTrigger(slot4)

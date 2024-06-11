@@ -7,7 +7,7 @@ slot0.ON_AUTO = "ChapterPreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "ChapterPreCombatMediator:ON_SUB_AUTO"
 slot0.GET_CHAPTER_DROP_SHIP_LIST = "ChapterPreCombatMediator:GET_CHAPTER_DROP_SHIP_LIST"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.GET_CHAPTER_DROP_SHIP_LIST, {
 			chapterId = slot1,
@@ -77,21 +77,21 @@ function slot0.register(slot0)
 	slot0:display()
 end
 
-function slot0.onAutoBtn(slot0, slot1)
+slot0.onAutoBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-function slot0.onAutoSubBtn(slot0, slot1)
+slot0.onAutoSubBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_SUB, {
 		isActiveSub = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.BEGIN_STAGE_ERRO,
@@ -99,7 +99,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
@@ -122,7 +122,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.display(slot0)
+slot0.display = function(slot0)
 	slot0.viewComponent:updateChapter(getProxy(ChapterProxy):getActiveChapter())
 end
 

@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508M",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508M",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900285,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "SailAwayJustice-inst",
 			dir = 1,
 			say = "I've finished running the combat simulation. We're almost at our limit.",
+			bgm = "SailAwayJustice-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

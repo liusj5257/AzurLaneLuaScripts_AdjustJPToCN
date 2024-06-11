@@ -6,16 +6,16 @@ slot0.Battle.BattleAircraftCharacterFactory = slot2
 slot2.__name = "BattleAircraftCharacterFactory"
 slot2.BOMB_FX_NAME = "feijibaozha"
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot2.MakeCharacter(slot0)
+slot2.MakeCharacter = function(slot0)
 	return uv0.Battle.BattleAircraftCharacter.New()
 end
 
-function slot2.MakeModel(slot0, slot1)
-	function slot2(slot0)
+slot2.MakeModel = function(slot0, slot1)
+	slot2 = function(slot0)
 		uv0:AddModel(slot0)
 		uv0:InitWeapon()
 		uv0:CameraOrthogonal(uv2.Battle.BattleCameraUtil.GetInstance():GetCamera())
@@ -35,21 +35,21 @@ function slot2.MakeModel(slot0, slot1)
 	end)
 end
 
-function slot2.MakeBloodBar(slot0, slot1)
+slot2.MakeBloodBar = function(slot0, slot1)
 	slot2 = nil
 
 	slot1:AddHPBar((not slot1:GetUnitData():IsPlayerAircraft() or slot0:GetHPBarPool():GetHPBar(uv0.Battle.BattleHPBarManager.HP_BAR_FRIENDLY)) and slot0:GetHPBarPool():GetHPBar(uv0.Battle.BattleHPBarManager.HP_BAR_FOE))
 	slot1:UpdateHPBarPosition()
 end
 
-function slot2.SetHPBarWidth(slot0, slot1, slot2)
+slot2.SetHPBarWidth = function(slot0, slot1, slot2)
 	slot3 = 40
 	slot4 = slot1.transform
 	slot4.sizeDelta = Vector2(slot3, slot4.rect.height)
 	slot6.sizeDelta = Vector2(slot3 - slot2 or 0, slot4:Find("blood").transform.rect.height)
 end
 
-function slot2.MakeShadow(slot0, slot1)
+slot2.MakeShadow = function(slot0, slot1)
 	slot1:AddShadow()
 	slot1:UpdateShadow()
 end

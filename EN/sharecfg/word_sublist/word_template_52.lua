@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_52 = {}
 slot1 = slot0.word_template_52
 
-function temp()
+temp = function()
 	uv0["别"] = {
 		["怪"] = {
 			["我"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瘪"] = {
 		["三"] = {
 			this = true
@@ -85,7 +85,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["癟"] = {
 		["三"] = {
 			this = true
@@ -95,7 +95,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宾"] = {
 		["馆"] = {
 			["服"] = {
@@ -122,7 +122,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["滨"] = {
 		["崎"] = {
 			["亚"] = {
@@ -136,7 +136,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["賓"] = {
 		["館"] = {
 			["女"] = {
@@ -153,7 +153,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["氷"] = {
 		["室"] = {
 			["真"] = {

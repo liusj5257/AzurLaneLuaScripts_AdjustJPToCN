@@ -1,6 +1,6 @@
 slot0 = class("AnniversarySixInvitationPage", import("...base.BaseActivityPage"))
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if slot0.ptData then
 		slot0.ptData:Update(slot0.activity)
 	else
@@ -8,7 +8,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtMarks = slot1:Find("AD/progress")
 	slot1 = slot0._tf
@@ -49,7 +49,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1, slot2 = slot0.ptData:GetResProgress()
 	slot3 = slot0.ptData:CanGetAward()
 	slot5 = slot0._tf:Find("AD/btn_list")

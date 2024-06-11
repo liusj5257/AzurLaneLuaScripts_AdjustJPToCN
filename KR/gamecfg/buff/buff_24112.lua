@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 24112,
 	picture = "",
 	desc = "检查是否为特殊兵装版本",
 	stack = 1,
-	id = 24112,
+	color = "red",
 	icon = 20100,
 	last_effect = "",
 	effect_list = {

@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -96,8 +96,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 1001,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								22,
 								0,
@@ -110,8 +110,8 @@ return {
 						},
 						{
 							monsterTemplateID = 1001,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								22,
 								0,
@@ -136,8 +136,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 1030,
-							moveCast = true,
 							delay = 3,
+							moveCast = true,
 							corrdinate = {
 								11,
 								0,
@@ -150,8 +150,8 @@ return {
 						},
 						{
 							monsterTemplateID = 1009,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								11,
 								0,
@@ -164,8 +164,8 @@ return {
 						},
 						{
 							monsterTemplateID = 1009,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								11,
 								0,
@@ -178,8 +178,8 @@ return {
 						},
 						{
 							monsterTemplateID = 1030,
-							moveCast = true,
 							delay = 3,
+							moveCast = true,
 							corrdinate = {
 								11,
 								0,
@@ -204,9 +204,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 1012,
+							team = 1,
 							reinforceDelay = 5,
 							delay = 0,
-							team = 1,
 							moveCast = true,
 							corrdinate = {
 								22,
@@ -218,8 +218,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 1001,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -232,8 +232,8 @@ return {
 						},
 						{
 							monsterTemplateID = 1001,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,

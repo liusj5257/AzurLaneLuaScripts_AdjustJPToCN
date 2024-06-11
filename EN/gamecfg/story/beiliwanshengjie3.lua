@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Trick or Treat, Halloween!\n\n<size=45>III 「A Witch Scared of Ghosts」</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "How much longer...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,13 +50,13 @@ return {
 			}
 		},
 		{
-			actor = 302040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "What's wrong, Isuzu? Are you worried about Miss ghost that Shouhou was telling you about?",
 			dir = -1,
 			blackBg = true,
 			bgm = "story-1",
+			actor = 302040,
+			nameColor = "#a9f548",
+			say = "What's wrong, Isuzu? Are you worried about Miss ghost that Shouhou was telling you about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,12 +69,12 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "Eh? Nagara? How did you know——",
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Eh? Nagara? How did you know——",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -108,9 +108,9 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "I, I really can't do it, ghosts are just too much for me...",
 			typewriter = {
@@ -174,9 +174,9 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Hmm... yeah, That's true...",
 			typewriter = {
@@ -205,13 +205,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			say = "Back to present...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "Ack! I found a new Witch~ Hey!",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.1,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Wow! You, you scared the heck outa me.",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -324,9 +324,9 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			say = "Huh? ...So it turned out to be Bailey, you are... the witch?",
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "Huh? ...So it turned out to be Bailey, you are... the witch?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -360,8 +360,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "Hey, let me tell ya, I just heard that Miss ghost is actually in the warehouse!",
 			typewriter = {
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "Then why don't you join me and we'll head to the warehouse together. Let's go~",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 302051,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "Yes, yes! Together!",
 			typewriter = {
@@ -438,11 +438,11 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			actorName = "{namecode:48}",
 			dir = 1,
 			blackBg = true,
 			actor = 302051,
-			actorName = "{namecode:48}",
+			nameColor = "#a9f548",
 			say = "(If I got someone to come along... then I'll be less afraid!)",
 			typewriter = {
 				speed = 0.05,

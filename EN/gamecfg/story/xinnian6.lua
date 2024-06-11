@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -18,8 +18,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "Phew... All right, the New Year Soba is coming out nicely...",
 			typewriter = {
 				speed = 0.05,
@@ -31,12 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 301331,
+			say = "It smells really good...",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:34}",
 			dir = 1,
-			say = "It smells really good...",
+			actor = 301331,
+			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -54,8 +54,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "Ah, watch out, Yuudachi! Don't fall into the pot!",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			actor = 301141,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:16}",
 			dir = 1,
+			actorName = "{namecode:16}",
 			say = "This one seems yummy too! Gimme seconds!",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "Calm down, there's more than enough left.",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "Souryuu, you really are quite talented~ Oh my, is Kaga here too?",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			actor = 307022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "Being able to enjoy a moment of peace every now and then isn't so bad.",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "That's not something I hear from you every day, Kaga. Oh, by the way, where's Akagi?",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			actor = 307022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "She spouted something like \"I need to pamper Commander, who is always so hard working,\" and then ran off again.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "Oh my... Looks like Commander will have no shortage of troubles this New Year as well...",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 307022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "I suppose this is \"the weight of love.\" Well, since it's the New Year, we might as well let Akagi cut loose a bit.",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "Speaking of \"cutting loose,\" I think these two have gone a bit overboard.",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "I'll turn a blind eye on Eugen... But why is that girl from the Eagle Union here?",
 			typewriter = {
 				speed = 0.05,
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			say = "I ran into her at the store, nya. She seemed quite interested in our New Year's customs, so I brought her along, nya.",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "I ran into her at the store, nya. She seemed quite interested in our New Year's customs, so I brought her along, nya.",
+			actor = 312011,
+			actorName = "{namecode:98}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -284,8 +284,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "Ah, what a waste. She's wearing such a cute outfit... but give her some drinks and she turns into a puddle of mush.",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			actor = 307022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "A New Year's drinking party, huh? Haha... I haven't gotten fired up in a while.",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "Oh my, I can already see what happens next...",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			actor = 301331,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:34}",
 			dir = 1,
+			actorName = "{namecode:34}",
 			say = "Li... quor? Is that edible...?",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			actor = 312011,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "That would be the name of a miserable end for adults who have cast away too much. It's not something a good kid like you needs to know about, nya.",
 			typewriter = {
 				speed = 0.05,

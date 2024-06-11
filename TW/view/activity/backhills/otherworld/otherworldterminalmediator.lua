@@ -2,7 +2,7 @@ slot0 = class("OtherworldTerminalMediator", import("view.base.ContextMediator"))
 slot0.ON_GET_PT_ALL_AWARD = "OtherworldTerminalMediator.ON_GET_PT_AWARD"
 slot0.ON_BUFF_LIST_CHANGE = "OtherworldTerminalMediator.ON_BUFF_LIST_CHANGE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_GET_PT_ALL_AWARD, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACT_NEW_PT, {
 			cmd = 4,
@@ -19,14 +19,14 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		GAME.ACT_NEW_PT_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then

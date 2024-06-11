@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIAHAIBAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIAHAIBAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"碧海的偶像\n\n<size=45>三 小小的插曲</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107034,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "哦哦哦，雷達的反應越來越強烈了呢！",
 			bgm = "story-1",
+			actor = 107034,
+			nameColor = "#a9f548",
+			say = "哦哦哦，雷達的反應越來越強烈了呢！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "……而且變得非常刺耳，不愧是{namecode:98}的發明，總有一些奇怪的地方非常氣人。",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "指揮官，我們快……",
 			typewriter = {
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 105200,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105200,
+			nameColor = "#a9f548",
 			say = "海豹是什麼科的動物？",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "不愧是指揮官！",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,9 +222,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "那是豹子啦！正確答案是——海豹就是海豹科的哦~",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 107034,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 107034,
+			nameColor = "#a9f548",
 			say = "正確答案是——海豹科哦~",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "……異常敷衍地被放過了。",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "……噗，沒想到妳們會這麼投入啊！？",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 105200,
 			dir = 1,
+			actor = 105200,
 			nameColor = "#a9f548",
 			say = "姐姐覺得沒意思嗎？",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "先不說這個，準備都完成了嗎？",
 			typewriter = {
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "薩拉似乎在和她們聊些奇怪的東西，難道……",
 			typewriter = {
 				speed = 0.05,
@@ -468,9 +468,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107034,
 			dir = 1,
 			blackBg = true,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "好啦好啦，指揮官，我們趕緊繼續前進吧！",
 			typewriter = {

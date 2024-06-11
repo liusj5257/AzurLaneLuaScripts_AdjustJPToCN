@@ -29,14 +29,14 @@ return {
 	{
 		time = 15
 	},
-	init_effect = "",
-	name = "正面装甲",
 	time = 5,
-	color = "blue",
+	name = "正面装甲",
+	init_effect = "",
+	id = 4050,
 	picture = "",
 	desc = "正面装甲",
 	stack = 1,
-	id = 4050,
+	color = "blue",
 	icon = 4050,
 	last_effect = "",
 	effect_list = {
@@ -47,9 +47,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 12,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

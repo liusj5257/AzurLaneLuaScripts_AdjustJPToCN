@@ -1,18 +1,18 @@
 return {
-	id = "HUAPOHAIKONGZHIYI5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 107230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ここも片付いたわ。そろそろ本隊に合流して……",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "重桜の艦載機よ！みんな迎撃準備を！",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "まさか、近くに敵の航空艦隊が…",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -110,14 +110,14 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#ff5c5c",
 			say = "………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			say = "うふふ…どう壊してあげようかしら…",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 战斗BUFF 缓回效果LV1",
 	time = 0,
-	color = "red",
+	name = "2022莱莎联动 战斗BUFF 缓回效果LV1",
+	init_effect = "",
+	id = 200156,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200156,
+	color = "red",
 	icon = 200156,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200156,
 				target = "TargetSelf",
-				time = 5,
-				skill_id = 200156
+				time = 5
 			}
 		}
 	}

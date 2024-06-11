@@ -1,10 +1,10 @@
 slot0 = class("BackYardFurnitureMsgBoxPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FurnitureMsgboxPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.nameTxt = slot0:findTF("frame/name"):GetComponent(typeof(Text))
 	slot0.themeTxt = slot0:findTF("frame/theme/Text"):GetComponent(typeof(Text))
 	slot0.descTxt = slot0:findTF("frame/desc"):GetComponent(typeof(Text))
@@ -42,8 +42,8 @@ function slot0.OnLoaded(slot0)
 	setActive(slot0.rawIcon, false)
 end
 
-function slot0.OnInit(slot0)
-	function slot1()
+slot0.OnInit = function(slot0)
+	slot1 = function()
 		slot0 = {}
 
 		for slot4 = 1, uv0.count do
@@ -92,11 +92,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.PlayerUpdated(slot0, slot1)
+slot0.PlayerUpdated = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.SetUp(slot0, slot1, slot2, slot3)
+slot0.SetUp = function(slot0, slot1, slot2, slot3)
 	slot0.dorm = slot2
 	slot0.furniture = slot1
 	slot0.count = 1
@@ -120,7 +120,7 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	setActive(slot0.gemPurchaseIcon, true)
 end
 
-function slot0.UpdateSkinType(slot0)
+slot0.UpdateSkinType = function(slot0)
 	slot2 = Goods.ExistFurniture(Goods.FurnitureId2Id(slot0.furniture.id))
 
 	setActive(slot0.shipTr, slot2)
@@ -134,7 +134,7 @@ function slot0.UpdateSkinType(slot0)
 	end
 end
 
-function slot0.UpdateMainInfo(slot0)
+slot0.UpdateMainInfo = function(slot0)
 	slot1 = slot0.furniture
 	slot0.nameTxt.text = HXSet.hxLan(slot1:getConfig("name"))
 	slot0.themeTxt.text = slot1:GetThemeName()
@@ -175,7 +175,7 @@ function slot0.UpdateMainInfo(slot0)
 	end
 end
 
-function slot0.UpdateEnergy(slot0, slot1)
+slot0.UpdateEnergy = function(slot0, slot1)
 	LoadSpriteAtlasAsync("ui/CourtyardUI_atlas", "express_" .. slot0.dorm:_GetComfortableLevel(), function (slot0)
 		if uv0.exited then
 			return
@@ -191,7 +191,7 @@ function slot0.UpdateEnergy(slot0, slot1)
 	slot0.energyAdditionTxt.text = " +" .. slot4
 end
 
-function slot0.UpdatePrice(slot0)
+slot0.UpdatePrice = function(slot0)
 	slot1 = slot0.furniture
 	slot0.gemCount.text = slot1:getPrice(PlayerConst.ResDiamond) * slot0.count
 	slot0.goldCount.text = slot1:getPrice(PlayerConst.ResDormMoney) * slot0.count
@@ -207,7 +207,7 @@ function slot0.UpdatePrice(slot0)
 	slot0:UpdateEnergy(slot4)
 end
 
-function slot0.UpdateIcon(slot0)
+slot0.UpdateIcon = function(slot0)
 	slot0.icon.sprite = GetSpriteFromAtlas("furnitureicon/" .. slot0.furniture:getConfig("icon"), "")
 
 	slot0.icon:SetNativeSize()
@@ -229,14 +229,14 @@ function slot0.UpdateIcon(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	slot0.isShowing = true
 
 	uv0.super.Show(slot0)
 	SetParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.isShowing = false
 
 	uv0.super.Hide(slot0)
@@ -249,7 +249,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.isShowing then
 		slot0:Hide()
 	end

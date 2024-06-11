@@ -1,6 +1,6 @@
 slot0 = class("CardPairFXPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.startBtn = slot0:findTF("StartBtn", slot0.bg)
 	slot0.slider = slot0:findTF("Slider", slot0.bg)
@@ -8,16 +8,16 @@ function slot0.OnInit(slot0)
 	slot0.gotImg = slot0:findTF("GotImg", slot0.bg)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.startBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CARD_PAIRS)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	setActive(slot0.gotImg, slot0.activity.data1 == 1)
 	setActive(slot0.heartImg, slot1 ~= 1)
 

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15990,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15990,
+	color = "red",
 	icon = 15990,
 	last_effect = "",
 	effect_list = {
@@ -36,8 +36,8 @@ return {
 			},
 			arg_list = {
 				maxTargetNumber = 2,
-				minTargetNumber = 2,
 				skill_id = 15991,
+				minTargetNumber = 2,
 				check_target = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -65,8 +65,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				maxTargetNumber = 2,
 				time = 10,
+				maxTargetNumber = 2,
 				skill_id = 15994,
 				check_target = {
 					"TargetAllHelp",
@@ -81,8 +81,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				maxTargetNumber = 2,
 				time = 10,
+				maxTargetNumber = 2,
 				skill_id = 15991,
 				check_target = {
 					"TargetAllHelp",
@@ -97,8 +97,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				skill_id = 15990
 			}
 		},
@@ -108,9 +108,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 15990,
 				time = 10,
-				target = "TargetSelf",
-				skill_id = 15990
+				target = "TargetSelf"
 			}
 		}
 	}

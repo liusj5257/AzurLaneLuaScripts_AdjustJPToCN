@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN18",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "竜宮城・外堀 ",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
+			nameColor = "#a9f548",
+			say = "竜宮城・外堀 ",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "量産艦の弾幕をかいくぐりながら、駿河たちは仕掛けのある建物へと進んでいく。",
@@ -51,8 +51,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "火力を集中できれば、あのバリアをまとう敵もなんとかできそうですね",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "駿河さんの火力が頼もしいです～これは帰ったら上申して勲章を与えてもらうべきですね",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "いいえ、私なんてそんなに活躍したわけでは……",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（そういう目立つことは他の人にさせなさいよっ！こっちは好きでこういうことをやっているわけじゃないんだから！）",
 			typewriter = {
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（ああずっと撃ちっぱなしで疲れたわー…誰か助けて…）",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -30,
+					type = "move",
 					delay = 0.2,
 					dur = 1,
 					x = 0
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -161,8 +161,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "あら、この声は………",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -188,8 +188,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "とんでもなく棒読みですけど！",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "……わかりましたわ。あっちよ",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "封印の術式の痕跡がありますね。もしかしてあの建物に誰かが囚われているのでしょうか",
 			typewriter = {
@@ -255,8 +255,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "私達以外にもこの竜宮城に囚われた人がいるのですね",
 			typewriter = {
@@ -272,9 +272,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
 			blackBg = true,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "駿河さん、助けに行きましょう！",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

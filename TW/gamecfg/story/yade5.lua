@@ -1,32 +1,32 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YADE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YADE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
-					"“好孩子”的偷懒时间\n\n<size=45>五　突如其来的忙碌</size>",
+					"「好孩子」的偷懶時間\n\n<size=45>突如其來的忙碌</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "港区·指挥室",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,13 +47,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "呼……这样一来上午的工作就告一段落了。",
+			hidePaintObj = true,
+			say = "呼……這樣一來上午的工作就告一段落了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,11 +67,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "那就和往常一样，进入我们的“偷懒时间”吧——",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "那就和往常一樣，進入我們的「偷懶時間」吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,25 +82,25 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "（敲门声）",
 			soundeffect = "event:/ui/knockdoor2",
+			say = "（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#A9F548FF",
-			say = "抱歉打扰了。指挥官，有紧急事态。",
+			hidePaintObj = true,
+			say = "抱歉打擾了。指揮官，有緊急事態。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,11 +114,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "科研部门遇到了一些状况，光凭{namecode:37}和达·芬奇有些控制不住局面，所以我就来呼叫援军了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "科研部門遇到了一些狀況，光憑夕張和達文西有些控制不住局面，所以我就來呼叫援軍了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,11 +132,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "你现在方便么，能立即出发么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "你現在方便吧，能立即出發嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "有些抱歉地看向了{namecode:491}——",
+			say = "有些抱歉地看向了亞德——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,11 +161,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "既然是紧急事态，那就快去吧？计划放在之后就好。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "既然是緊急事態，那就快去吧？計劃放在之後就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,11 +179,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "不对，我也跟你一起去好了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不對，我也跟你一起去好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,11 +197,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "要是涉及到通讯模块之类的，我说不定能帮上大忙哦？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "要是涉及到通訊模組之類的，我說不定能幫上大忙哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,27 +212,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_148",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总算处理完了科研部门那边的紧急事态……",
+			bgName = "star_level_bg_148",
+			say = "總算處理完了科研部門那邊的緊急事態……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -240,13 +240,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#A9F548FF",
-			say = "指挥官，能占用你一点时间吗？这边遇到了一点状况……",
+			hidePaintObj = true,
+			say = "指揮官，能佔用你一點時間嗎？這邊遇到了一點狀況……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,12 +259,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_outdoor",
 			actor = 301290,
-			say = "找到指挥官了！是紧急事态，请、请帮帮{namecode:18}！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "找到指揮官了！是緊急事態，請、請幫幫島風！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,17 +274,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -299,12 +299,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_166",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_166",
 			actor = 205050,
-			say = "指挥官，不好意思啊，这边有点事情希望你能帮个忙……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官，不好意思啊，這邊有點事情希望你能幫個忙……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,17 +314,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -332,27 +332,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于将今天的突发状况全部解决后，拖着疲惫的身躯回到了指挥室……",
+			bgName = "bg_story_task",
+			say = "終於將今天的突發狀況全部解決後，拖著疲憊的身軀回到了指揮室……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -363,11 +363,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "真是祸不单行啊，今天连着遇到这么多难题，还好指挥官全部解决了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "真是禍不單行啊，今天連著遇到這麼多難題，還好指揮官全部解決了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,11 +381,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "没有因为这段时间的偷懒而退步，很了不起哦。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "沒有因為這段時間的偷懶而退步，很了不起。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,11 +399,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "当然了，也有我在身边提供了不少支持的原因就是了～",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "當然了，也有我在身邊提供了不少支持的原因就是了～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,11 +417,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "唉……天已经完全黑了，今天的“偷懒计划”也彻底泡汤，只能换个时间了~",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "唉…天色已經完全黑了，今天的「偷懶計畫」也徹底泡湯，只能換個時間了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,11 +435,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官不用自责哦？要是觉得计划泡汤而过意不去，可就本末倒置了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官不用自責哦？要是覺得計畫泡湯而過意不去，可就本末倒置了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,11 +453,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "对了对了，指挥官的休假日也近了吧？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "對了對了，指揮官的休假日也近了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,13 +473,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "作为与你共度了那么多偷懒时光的秘书舰以及共犯，借走你一天的假期不过分吧？",
+			hidePaintObj = true,
+			say = "作為與你共度了那麼多偷懶時光的秘書艦以及共犯，借走你一天的假期不過分吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,11 +493,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼呼~和“偷懒计划”一样，只要交给{namecode:491}就好了哦。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "呼呼~和「偷懶計畫」一樣，只要交給亞德就好了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,11 +511,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "敬请期待吧~",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "敬請期待吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

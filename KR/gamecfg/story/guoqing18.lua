@@ -27,12 +27,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
-			dir = -1,
 			say = "보는 바와 같이. 애초에 여긴 신께서 하사한 \"성역\", 여기선 우리는 무한한 힘을 발휘할 수 있단다.",
+			actorName = "{namecode:91}",
+			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "우수한 영혼을 계속 바치기만 한다면… ‘그 분’도 곧……",
 			shake = {
 				speed = 1,
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "닥쳐!!! 녀석의 이름을 입에 올리지 마!",
 			shake = {
 				speed = 1,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "이 녀석이고 저 녀석이고 그 혐오스러운 이름을!! 나 아카기가! 그런 녀석한테 침몰....... 아아아아아아!!",
 			shake = {
 				speed = 1,

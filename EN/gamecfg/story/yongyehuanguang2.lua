@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "Upon receiving the relief supplies from the Eagle Union, the Royal Navy quickly assembled their transport and escort fleets.",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Their mission was to pass through the Barents Sea's polar night - in other words, the extremely disadvantageous task of running a convoy through prolonged darkness. However, the Northern Parliament's request had to be prioritized.",
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Fortunately, the winds were favorable when the fleet departed from the Royal Islands.",
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Belfast",
+			side = 0,
 			bgName = "bg_hms_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "It's about time to depart. Hermione, have you finished your preparations?",
 			bgm = "story-richang",
+			nameColor = "#a9f548",
+			say = "It's about time to depart. Hermione, have you finished your preparations?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hermione",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Belfast",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_hms_1",
-			actorName = "Edinburgh & Sheffield",
 			dir = 1,
+			actorName = "Edinburgh & Sheffield",
 			say = "Understood!",
 			dialogShake = {
 				speed = 0.09,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hermione",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Belfast",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hermione",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Belfast",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_hms_1",
-			actorName = "Edinburgh",
 			dir = 1,
+			actorName = "Edinburgh",
 			say = "Gosh, Bel, what do you mean by that? I'm perfectly capable of looking after myself!",
 			dialogShake = {
 				speed = 0.09,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Belfast",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hermione",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hermione",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Sheffield",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Edinburgh",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hermione",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Edinburgh",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Belfast",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hermione",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Edinburgh",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Sheffield",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Sheffield",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Belfast",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Sheffield",
+			side = 1,
 			bgName = "bg_hms_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "...Glory to the Queen.",
 			typewriter = {
 				speed = 0.05,

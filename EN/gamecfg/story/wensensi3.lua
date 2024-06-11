@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Sister's Growth Spurt?!\n\n<size=45>Chapter 3: My Sister's Thoughts</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Eagle Union Dorms",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Eagle Union Dorms",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Since the time she first invited me, Vincennes and I had some time to get to know each other better, and we started to grow closer.",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "However, Vincennes only seemed to have two settings - napping, and spacing out.",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 103070,
+			say = "... ... ... Mhm...",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "... ... ... Mhm...",
+			actor = 103070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "Although Indy has it much worse than me...",
 			typewriter = {
 				speed = 0.05,

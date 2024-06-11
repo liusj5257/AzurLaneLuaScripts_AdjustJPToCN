@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"雪見温泉の招待状\n\n<size=45>五 雪融けのデート</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "霧に覆われた露天温泉。その隣の青石に座り、雪融けを眺めながら待つ少女がいた。",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "霧に覆われた露天温泉。その隣の青石に座り、雪融けを眺めながら待つ少女がいた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 702071,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "約束通りね。同志指揮官",
 			painting = {
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "ヴォロシーロフと一緒に露天温泉を楽しむ。",
 			painting = {
@@ -176,17 +176,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "湯の熱さと、肩に寄り添ってきた彼女から伝わってくる熱意で、心まで温まった。",
 			painting = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 702071,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "それともお湯が熱すぎたのかしら？なんだか顔が赤く見えるわ",
 			painting = {
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "こちらが言い訳する間もなく、彼女は体を寄せてきて、心配そうにのぞき込んできた。",
 			painting = {
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			optionFlag = 2,
 			actor = 702071,
 			nameColor = "#A9F548FF",
@@ -448,12 +448,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "しっかりと握りしめてきた彼女の手から、ほんのりと暖かい体温が感じ取れる。",
 			painting = {

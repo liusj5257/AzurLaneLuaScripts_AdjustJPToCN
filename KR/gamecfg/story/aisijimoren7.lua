@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"여름의 \"서프라이즈\"\n\n<size=45>7. 에스키모의 즐거움</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "소녀들의 즐겁게 웃고 떠드는 사이에, 어느덧 해가 저물 시간이 되었다.",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "소녀들의 즐겁게 웃고 떠드는 사이에, 어느덧 해가 저물 시간이 되었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "무더운 여름에 잠깐의 겨울을 만들어 낸다는 생각은 대단하다고 하지 않을 수 없다.",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "아, 재밌다~ 지휘관 어때, 즐거워?",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "난 여기 남아서 마무리 작업을 해야하니까. 수영장을 원상태로 돌려놔야지~",
 			typewriter = {
 				speed = 0.05,
@@ -140,13 +140,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_twilight",
+			side = 2,
+			dir = 1,
 			say = "마무리 작업은 예상보다 훨씬 많은 시간이 걸렸다. 에스키모는 이걸 혼자 준비했단 말인가.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "좋아하는 물고기? 음--------------",
 			typewriter = {
 				speed = 0.05,
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "...... 왜 갑자기 그런 걸 묻는 거지?",
 			typewriter = {
 				speed = 0.05,
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "앞으로도 모항에 있는 모든 사람들이 즐거워할 수 있는 많은 일들을 계속할 생각이야!",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

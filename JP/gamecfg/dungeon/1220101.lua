@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-80,
 				20,
@@ -83,9 +83,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 12100101,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -98,8 +98,8 @@ return {
 						},
 						{
 							monsterTemplateID = 12100107,
-							reinforceDelay = 7,
 							score = 0,
+							reinforceDelay = 7,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -110,8 +110,8 @@ return {
 						},
 						{
 							monsterTemplateID = 12100107,
-							reinforceDelay = 7,
 							score = 0,
+							reinforceDelay = 7,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -122,9 +122,9 @@ return {
 						},
 						{
 							monsterTemplateID = 12100101,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -139,9 +139,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 12100106,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -173,9 +173,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 12100101,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								15,
 								0,
@@ -188,9 +188,9 @@ return {
 						},
 						{
 							monsterTemplateID = 12100107,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -199,9 +199,9 @@ return {
 						},
 						{
 							monsterTemplateID = 12100101,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -214,9 +214,9 @@ return {
 						},
 						{
 							monsterTemplateID = 12100101,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								15,
 								0,
@@ -233,8 +233,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 609010,
+							delay = 0,
 							totalNumber = 3,
 							weaponID = {
 								609004
@@ -259,8 +259,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 12100108,
-							reinforceDelay = 7,
 							score = 0,
+							reinforceDelay = 7,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -271,8 +271,8 @@ return {
 						},
 						{
 							monsterTemplateID = 12100108,
-							reinforceDelay = 7,
 							score = 0,
+							reinforceDelay = 7,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -285,9 +285,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 12100102,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -352,9 +352,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 12100101,
-							moveCast = true,
-							delay = 0,
 							score = 10,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								20,
 								0,
@@ -367,9 +367,9 @@ return {
 						},
 						{
 							monsterTemplateID = 12100101,
-							moveCast = true,
-							delay = 0,
 							score = 10,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -382,9 +382,9 @@ return {
 						},
 						{
 							monsterTemplateID = 12100101,
-							moveCast = true,
-							delay = 0,
 							score = 10,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								20,
 								0,
@@ -401,8 +401,8 @@ return {
 							interval = 10,
 							onceNumber = 6,
 							formation = 10006,
-							delay = 0,
 							templateID = 609020,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								609005

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>那是，再次迎來紛爭的海域</size>",
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -35,8 +35,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,12 +60,12 @@ return {
 			}
 		},
 		{
-			say = "某日·港區周邊海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "某日·港區周邊海域",
 			effects = {
 				{
 					active = false,
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "真是的，怎麼偏偏在這個節骨眼上發生這種事……！",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "………………！",
 			dialogShake = {
 				speed = 0.08,
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "謝菲，這是…？！難道…怎麼可能！",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,15 +249,15 @@ return {
 			}
 		},
 		{
-			say = "同一時刻，港區·臨時事務所",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "同一時刻，港區·臨時事務所",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,11 +282,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "來到我們港區的偶像……就是這幾位喵！",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -308,13 +308,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "大、大家好！我是765事務所所屬的偶像天海春香！請多多關照！",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "大、大家好！我是765事務所所屬的偶像天海春香！請多多關照！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,13 +325,13 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "同上，是偶像雙海亞美哦！",
 			hidePaintEquip = true,
+			actor = 10700070,
+			nameColor = "#a9f548",
+			say = "同上，是偶像雙海亞美哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -352,13 +352,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我是真美！大家好呀～",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "我是真美！大家好呀～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,11 +372,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "等等，為什麼就開始一本正經地做起自我介紹了啊！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -416,11 +416,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "好啦好啦……自我介紹也是必要的啦。別這麼著急…",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,11 +434,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "說的對。為了理清現在的狀況——",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,13 +449,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "先讓大家彼此認識下也比較好吧。",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "先讓大家彼此認識下也比較好吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,13 +530,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的。我是765事務所的如月千早。",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "是的。我是765事務所的如月千早。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,13 +547,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "和水瀨小姐、梓、和律子——大家都是同一個事務所的夥伴。",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "和水瀨小姐、梓、和律子——大家都是同一個事務所的夥伴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,11 +567,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "真美幾個，剛才在拍電影宣傳照呢，眼前突然變得一片空白——",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,11 +585,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "回過神後就來到這裡了…大概就是這樣。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,8 +600,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -738,13 +738,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "請問一下，這到底是怎麼回事？",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "請問一下，這到底是怎麼回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,8 +824,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "哎呀，是希佩爾姐姐？",
 			typewriter = {
@@ -841,9 +841,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403010,
 			dir = 1,
 			blackBg = true,
+			actor = 403010,
 			nameColor = "#a9f548",
 			say = "“演出海域”現在可是一片混亂呢——",
 			typewriter = {

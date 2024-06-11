@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Class Z I\n\n<size=45>Troublesome Kids Come From The Port</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "Academy Port",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			bgm = "story-1",
+			say = "Academy Port",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 402010,
+			say = "*Sigh*... What should we do...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "*Sigh*... What should we do...",
+			actor = 402010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -176,10 +176,10 @@ return {
 			}
 		},
 		{
-			actor = 402030,
 			actorShadow = true,
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 402030,
 			actorName = "Königsberg&Köln",
 			hideOther = true,
 			nameColor = "#a9f548",

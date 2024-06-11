@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"그것은…연애의 계절\n\n<size=45>6 여전히…… 날 좋아해?</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_main_twilight",
 			bgm = "story-1",
 			actor = 202261,
 			nameColor = "#a9f548",
 			say = "나, 나는……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "갑작스러운 상황에 글래고스는 동요했다. 만약 평소였다면, 서로 부끄러운 마음에 급히 이 상황에서 벗어나려고 할 게 뻔하였다.",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "가, 갑자기 왜 그래. 너답지 않은걸?",
 			typewriter = {
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "솔직한 눈빛, 글래스고의 속마음을 꿰뚫어 보는 듯한 느낌.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "아…안 돼…",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "응…… 안 된다고. 우리는 동급생일 뿐만 아니라, 난 너의 메이드인걸.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "그, 그리고 나… 이런 성격…… 상냥하지 못 한 성격이니까… 어떻게 해야 할지…",
 			typewriter = {
@@ -149,9 +149,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "「하지만 난 좋아해. 글래스고.」",
 			typewriter = {
 				speed = 0.05,
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "직설적인 고백 탓에 글래스고의 눈은 더욱 커졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "아, 안 된다고 했잖아! 여…역시 이전과 같은 거리를 유지하는 게 좋겠어…!",
 			typewriter = {
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 202261,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202261,
+			nameColor = "#a9f548",
 			say = "만약 더 가까워진다면…… 넌 날 싫어하게 될 거야!!",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "글래스고는 청소도구를 놓고 도망치듯 달려갔다. 하지만——",
 			typewriter = {
 				speed = 0.05,
@@ -250,9 +250,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "곁을 스쳐 가는 글래스고를 따스한 손길로 팔을 껴안았다——마치 달리기 시합의 결승전에 도착한 것처럼.",
 			typewriter = {
 				speed = 0.05,
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "글래스고는 벗어날 수 없어, 그저 두 눈을 바라보고 있을 뿐이다.",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "놓… 놓아줘……",
 			typewriter = {
@@ -298,8 +298,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "이 사랑… 받아드릴 자신이 없어…… 분명 차가운 말들로 비호감이 될 거야…",
 			typewriter = {
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "그렇지만 글래스고를 껴안은 팔은 여전히 굳건했고 그런 거 \"신경 안 써\" 라는 확고한 마음이 가득했다.",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "정말 괜찮아…? 이렇게 귀엽지 않은 나를, 여전히 ……좋아해…? 여전히… 나와 함께 있고 싶어?",
 			typewriter = {
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "언제 흘렸는지 모르는 눈물을 닦는 글래스고, 촉촉한 그녀의 두 눈을 바라보며 확신해 찬 고개를 끄덕였다.",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "주인님…",
 			typewriter = {

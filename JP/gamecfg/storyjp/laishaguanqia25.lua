@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA25",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
+			side = 2,
+			soundeffect = "event:/battle/boom2",
 			bgm = "ryza-az-theme",
+			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "――――――！",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 		{
 			actor = 101490,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			say = "いやったーー！！勝ったぁーー！！",
 			painting = {
 				alpha = 0.3,
@@ -95,8 +95,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900030,
 			dir = 1,
+			actor = 10900030,
 			nameColor = "#A9F548FF",
 			say = "ふぅ…なかなか手強い相手でした。まさか途中で変身するとは…。さすがに予想外です",
 			painting = {
@@ -112,8 +112,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900040,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
 			say = "この地で出会った中で一番手強い相手だったな",
 			painting = {
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
 			say = "ライザさん。私たち、いつの間にかうまく連携が取れるようになっていましたわね",
 			painting = {
@@ -146,8 +146,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "えへへ、だてにみんなと一緒に冒険してきたわけじゃないからね",
 			painting = {
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "おおっ！島風、前方にぽつんと立っている「扉」を発見しました！あれが皆さんを元の世界に送り届ける装置ですよね！",
 			painting = {
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			say = "今までの話からするとそうなるわね",
 			painting = {
@@ -207,8 +207,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "この扉を通れば、家に帰れる…",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "ご親切に操作方法も隣に書いてありますね！島風、今起動して――",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "あれ？なにも起こらない？",
 			painting = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "もう一回、起動してっと……",
 			painting = {
@@ -275,8 +275,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900030,
 			dir = 1,
+			actor = 10900030,
 			nameColor = "#A9F548FF",
 			say = "やっぱり何も起こりませんね……もしかして壊れているのでしょうか？",
 			painting = {
@@ -292,8 +292,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "ええええ！？！？だったら大変じゃないですかー！！",
 			painting = {
@@ -309,8 +309,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900020,
 			dir = 1,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "あと一歩のはずなのに…",
 			painting = {
@@ -326,8 +326,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "あと一歩なら乗り越えるまでだよ！遺跡の遺物なら何度も見たり触ったりしてきたし、とりあえずちょっと確認させて",
 			painting = {
@@ -343,8 +343,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "ふむふむ……これならなんとかなりそうかな。でもセイレーンについてもっと色々知っておかないとダメかも",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
 			say = "それなら、私たちと一緒に母港に戻りません？",
 			painting = {
@@ -376,9 +376,9 @@ return {
 		{
 			actor = 207050,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			say = "母港の資料室ならセイレーンに関する資料がたくさんありますわ。遺跡の守護者を倒してから母港との通信も回復しましたし、もう鏡面海域から出られると思いますので",
 			painting = {
 				alpha = 0.3,
@@ -393,8 +393,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
 			say = "転送装置のことなら心配ないでしょう。制御装置を破壊しなかったためか、鏡面海域が解除されても施設が残っていますから。恐らくその扉も残り続けるはずですわ",
 			painting = {
@@ -410,8 +410,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "いいの！？実は母港の話を初めて聞いた時から気になってたんだよ",
 			painting = {
@@ -424,8 +424,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,8 +437,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "でも大丈夫？急にあたしたちが行ったら、迷惑じゃない？",
 			painting = {
@@ -454,8 +454,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#A9F548FF",
 			say = "お気になさらず。母港の仲間たちも皆さんのことを歓迎してくださると保証しますわ",
 			painting = {
@@ -471,8 +471,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 601080,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
 			say = "母港に戻ったらイングラハムに明石、それにダ・ヴィンチ先生にも助けてもらえるしね！転送装置の修理なんてあっという間だよ！",
 			painting = {
@@ -488,8 +488,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "へえ……母港の仲間たちってすごく頼もしいんだね",
 			painting = {
@@ -505,8 +505,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "――みんなはどうかな？",
 			painting = {
@@ -522,8 +522,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900040,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
 			say = "こうなったのも、何か理由があるのだろう。しばらく留まるのも悪くない",
 			painting = {
@@ -539,8 +539,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900030,
 			dir = 1,
+			actor = 10900030,
 			nameColor = "#A9F548FF",
 			say = "自分たちの家に帰るためでもありますし、私も賛成です",
 			painting = {
@@ -556,8 +556,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900050,
 			dir = 1,
+			actor = 10900050,
 			nameColor = "#A9F548FF",
 			say = "母港の植物に触れれば、なにか手掛かりが見つかるかもしれない…",
 			painting = {
@@ -573,8 +573,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900020,
 			dir = 1,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "ふふ、まだ別れの挨拶は考えなくてもいいね",
 			painting = {
@@ -589,9 +589,9 @@ return {
 		{
 			actor = 10900010,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			say = "異論はなさそうだね。じゃあみんな、アズールレーンの母港に向けて新たな冒険に出発――！",
 			painting = {
 				alpha = 0.3,

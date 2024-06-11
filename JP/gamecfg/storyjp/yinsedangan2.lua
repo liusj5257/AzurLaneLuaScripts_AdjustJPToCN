@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>アクセス権限確認中―――</size>",
@@ -82,8 +82,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「さらに、安全海域だったエリアにも、セイレーンによる船団襲撃が発生した」",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「いずれも数隻程度の規模だったが、上層部はセイレーンによる大規模攻勢の前兆であると推測」",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そうそう。そういうところはちゃんと慎重にやったほうがいいわね",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "こちらに艦隊戦力を振り分けたのもこの攻勢に備えるためだったわね…",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "あのときは「再現」のことだと知らなかったし、指揮官も現場にいなかったから",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "確かみんなバタバタしてたっけ？",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "了解しました。記録ログの再生を終了します",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "次の記録ログの検索・解析を開始します",
 			typewriter = {

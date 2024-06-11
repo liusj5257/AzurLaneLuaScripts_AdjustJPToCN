@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_334 = {}
 slot1 = slot0.word_template_334
 
-function temp()
+temp = function()
 	uv0["鷹"] = {
 		["眼"] = {
 			["派"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["硬"] = {
 		["直"] = {
 			["圖"] = {
@@ -36,7 +36,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["憂"] = {
 		["鬱"] = {
 			["的"] = {
@@ -52,7 +52,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["尤"] = {
 		["比"] = {
 			["亞"] = {

@@ -4,12 +4,12 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "所詮は「スペアデータ」に残されている「ログ」を使ったシミュレーション…「なぞる」ことしかならないのね…",
 			shake = {
 				speed = 1,
@@ -25,12 +25,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "戦争、矛盾、憎悪、果たしてどんなものを産み出してくれるか？",
 			shake = {
 				speed = 1,
@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "ふふふ…「今度」は失望させないでほしいわ……",
 			shake = {
 				speed = 1,

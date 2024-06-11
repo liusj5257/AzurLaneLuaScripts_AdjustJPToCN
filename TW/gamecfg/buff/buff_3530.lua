@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.045
+					number = 0.045,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.052
+					number = 0.052,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.077
+					number = 0.077,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.085
+					number = 0.085,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.095
+					number = 0.095,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.102
+					number = 0.102,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.11
+					number = 0.11,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "torpedoSpeedExtra",
-					number = -1
+					number = -1,
+					attr = "torpedoSpeedExtra"
 				}
 			},
 			{
@@ -233,20 +233,20 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.12
+					number = 0.12,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "缓速鱼雷",
 	init_effect = "jinengchufared",
-	color = "blue",
+	id = 3530,
+	time = 0,
 	picture = "",
 	desc = "鱼雷速度降低.伤害提高",
 	stack = 1,
-	id = 3530,
+	color = "blue",
 	icon = 3530,
 	last_effect = "",
 	blink = {
@@ -263,8 +263,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoSpeedExtra",
-				number = -1
+				number = -1,
+				attr = "torpedoSpeedExtra"
 			}
 		},
 		{
@@ -273,8 +273,8 @@ return {
 				"onTorpedoWeaponBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.045
+				number = 0.045,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 slot0 = class("EducateTriggerEndCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody() and slot2.callback
 	slot5 = pg.child_ending[slot2.id].performance
 

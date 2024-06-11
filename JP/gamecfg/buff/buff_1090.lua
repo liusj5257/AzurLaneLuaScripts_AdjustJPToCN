@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 300
+					number = 300,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 300
+					number = 300,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 380
+					number = 380,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 380
+					number = 380,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 460
+					number = 460,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 460
+					number = 460,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 560
+					number = 560,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 560
+					number = 560,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 680
+					number = 680,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 680
+					number = 680,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 800
+					number = 800,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 800
+					number = 800,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 950
+					number = 950,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 950
+					number = 950,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1100
+					number = 1100,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1100
+					number = 1100,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1300
+					number = 1300,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1300
+					number = 1300,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1500
+					number = 1500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -253,20 +253,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1500
+					number = 1500,
+					attr = "loadSpeed"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "水雷战队",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 1090,
+	time = 0,
 	picture = "",
 	desc = "提高雷击、装填属性",
 	stack = 1,
-	id = 1090,
+	color = "yellow",
 	icon = 1090,
 	last_effect = "",
 	blink = {
@@ -284,8 +284,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 300
+				number = 300,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -295,8 +295,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 300
+				number = 300,
+				attr = "loadSpeed"
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG12",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "bgm-royalnavy",
 			actor = 206060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ヒッパーたち、本隊から離脱して速力のある艦を引き連れてこちらに向かっているわね",
-			bgm = "bgm-royalnavy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "シェフィの言う通りよ。ハウたちの位置に移動しつつ戦うわ",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "一捻りには――できなさそうな相手ね。ふぅ…",
 			typewriter = {
 				speed = 0.05,

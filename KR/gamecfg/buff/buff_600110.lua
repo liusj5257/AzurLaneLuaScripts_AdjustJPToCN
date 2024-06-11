@@ -18,8 +18,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 0.01,
+					target = "TargetSelf",
 					skill_id = 600133
 				}
 			},
@@ -30,8 +30,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 600111,
-					target = "TargetSelf",
-					time = 0.2
+					time = 0.2,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 0.01,
+					target = "TargetSelf",
 					skill_id = 600132
 				}
 			},
@@ -67,8 +67,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 600111,
-					target = "TargetSelf",
-					time = 0.2
+					time = 0.2,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -92,8 +92,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 0.01,
+					target = "TargetSelf",
 					skill_id = 600131
 				}
 			},
@@ -104,8 +104,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 600111,
-					target = "TargetSelf",
-					time = 0.2
+					time = 0.2,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -117,9 +117,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -144,8 +144,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 0.01,
+				target = "TargetSelf",
 				skill_id = 600131
 			}
 		},
@@ -156,8 +156,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 600111,
-				target = "TargetSelf",
-				time = 0.2
+				time = 0.2,
+				target = "TargetSelf"
 			}
 		}
 	}

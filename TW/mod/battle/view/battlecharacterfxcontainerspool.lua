@@ -5,17 +5,17 @@ slot0.Battle.BattleCharacterFXContainersPool = singletonClass("BattleCharacterFX
 slot0.Battle.BattleCharacterFXContainersPool.__name = "BattleCharacterFXContainersPool"
 slot2 = slot0.Battle.BattleCharacterFXContainersPool
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 end
 
-function slot2.Init(slot0)
+slot2.Init = function(slot0)
 	slot0._pool = {}
 	slot0._templateContainer = GameObject("characterFXContainerPoolParent")
 	slot0._templateContainerTf = slot0._templateContainer.transform
 	slot0._templateContainerTf.position = Vector3(-10000, -10000, 0)
 end
 
-function slot2.Pop(slot0, slot1, slot2)
+slot2.Pop = function(slot0, slot1, slot2)
 	slot3 = slot1.localEulerAngles
 	slot2 = slot2 or {
 		{
@@ -73,7 +73,7 @@ function slot2.Pop(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot2.Push(slot0, slot1)
+slot2.Push = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot6.transform
 
@@ -87,7 +87,7 @@ function slot2.Push(slot0, slot1)
 	slot0._pool[#slot0._pool + 1] = slot1
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	for slot4, slot5 in ipairs(slot0._pool) do
 		for slot9, slot10 in ipairs(slot5) do
 			Object.Destroy(slot10)

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1000
+					number = 1000,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -28,8 +28,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -43,8 +43,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1110
+					number = 1110,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -53,8 +53,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -64,8 +64,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -79,8 +79,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1220
+					number = 1220,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -100,8 +100,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -115,8 +115,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1330
+					number = 1330,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -125,8 +125,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -136,8 +136,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -151,8 +151,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1440
+					number = 1440,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -172,8 +172,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -187,8 +187,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1550
+					number = 1550,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -197,8 +197,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -208,8 +208,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1660
+					number = 1660,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -244,8 +244,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -259,8 +259,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1770
+					number = 1770,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -269,8 +269,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -280,8 +280,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -295,8 +295,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1880
+					number = 1880,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -305,8 +305,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -316,8 +316,8 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
@@ -331,8 +331,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 2000
+					number = 2000,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -341,8 +341,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -352,22 +352,22 @@ return {
 				},
 				arg_list = {
 					quota = 3,
-					target = "TargetSelf",
 					killer = "self",
+					target = "TargetSelf",
 					skill_id = 13782
 				}
 			}
 		}
 	},
-	desc_get = "",
 	name = "恶毒μ",
 	init_effect = "jinengchufared",
+	id = 13782,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
+	desc_get = "",
 	stack = 1,
-	id = 13782,
+	color = "red",
 	icon = 13780,
 	last_effect = "",
 	blink = {
@@ -384,8 +384,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 1000
+				number = 1000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -394,8 +394,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -405,8 +405,8 @@ return {
 			},
 			arg_list = {
 				quota = 3,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				skill_id = 13782
 			}
 		}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Knight's Promise\n\n<size=45>Chapter 6 - A Vow of Pride</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -61,9 +61,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -75,9 +75,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "U-556 balled up in her chair, burying her head in her knees.",
 			typewriter = {
 				speed = 0.05,
@@ -89,9 +89,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The silence dragged on for what seemed like forever, until she finally spoke up.",
 			typewriter = {
 				speed = 0.05,
@@ -106,11 +106,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			bgm = "story-2",
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "You know, don't you, Commander? I told you before, Bismarck and I made a \"Promise.\"",
-			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "No matter where she is: on the water, under water, on land, or in the air, I swore to protect her from anything that tries to hurt her.",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "But like, isn't that kind of a crazy promise? A submarine is gonna protect a battleship? How is that supposed to work...? Ahaha.",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "I just keep using the promise as an excuse to go bother Lord Bismarck every day...",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "I'm a pain in the ass.",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Whatever. Lord Bismarck is always telling us to change our bad habits. I'll just have to work that much harder on my missions. I mean of course, if Bismarck ever needed it I'd be there to help. I'd like to take some of the pressure off her.",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "No... I'm the one who should apologize.",
 			typewriter = {
@@ -226,11 +226,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			bgm = "story-2",
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Lord Bismarck? Why are you here?",
-			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,10 +254,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 405010,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "I've actually been here for quite a while. I was worried about you. It seems my words may have troubled you, and for that I apologize.",
+			dir = 1,
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -275,8 +275,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "No, no, you didn't do anything wrong. It's my fault for being such a brat and bothering you all the time.",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -318,8 +318,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "In fact, I've always loved spending time with you. When we're together, I feel the burden of leadership lifted from my shoulders. For that short time, I get to relish the pleasure of chatting with a dear friend.",
 			typewriter = {
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Bismarck suddenly stood up ramrod straight and loudly cleared her throat.",
 			typewriter = {
 				speed = 0.05,
@@ -413,8 +413,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "U-556! On the honor of the Parzival name, and before Neptune, lord of the seas, do you swear:",
 			typewriter = {
@@ -430,8 +430,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "That you will provide any assistance to me in a time of need, no matter where I may be, even at risk to your own life and limb?",
 			typewriter = {
@@ -444,9 +444,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "U-556 sat in stunned silence until a glittering smile flashed across her face.",
 			typewriter = {
 				speed = 0.05,
@@ -461,9 +461,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Yes! I swear anywhere, anytime, from any threat, U-556 will protect you!",
 			typewriter = {

@@ -2,7 +2,7 @@ slot0 = class("ServerLoginCommand", pm.SimpleCommand)
 slot0.LoginLastTime = 0
 slot0.LoginSafeLock = 0
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	assert(isa(slot2, Server), "should be an instance of Server")
@@ -14,7 +14,7 @@ function slot0.execute(slot0, slot1)
 		slot7 = PLATFORM_LOCAL
 	end
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		slot1 = pg.ConnectionMgr.GetInstance()
 
 		slot1:Send(10022, {

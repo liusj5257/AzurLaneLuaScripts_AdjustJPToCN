@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305050,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "난 이번 연습의 심판을 맡게 된 연합 함대 기함, 나가토라고 한다!",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 		{
 			actor = 305050,
 			nameColor = "#92fc63",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "연함 함대 기함 나가토는 연설을 잠시 멈추곤, 연습 훈련에 참가한 함선소녀들을 둘러보았다.",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 			}
 		},
 		{
-			actorName = "모두",
 			nameColor = "#92fc63",
-			side = 2,
+			actorName = "모두",
 			dir = 1,
+			side = 2,
 			say = "!!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "나가토님을 이어…연합 함대의 기함이 된다고?!",
 			typewriter = {
 				speed = 0.05,

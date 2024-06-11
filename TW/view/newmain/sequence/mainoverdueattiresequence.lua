@@ -1,6 +1,6 @@
 slot0 = class("MainOverDueAttireSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	if #getProxy(AttireProxy):getExpiredChaces() > 0 then
 		slot0:Display(AttireExpireDisplayPage, slot3, slot1)
 	else
@@ -8,10 +8,10 @@ function slot0.Execute(slot0, slot1)
 	end
 end
 
-function slot0.Display(slot0, slot1, slot2, slot3)
+slot0.Display = function(slot0, slot1, slot2, slot3)
 	slot0.page = slot1.New(pg.UIMgr.GetInstance().UIMain)
 
-	function slot0.page.Hide()
+	slot0.page.Hide = function()
 		uv0:Clear()
 		uv1()
 	end
@@ -19,7 +19,7 @@ function slot0.Display(slot0, slot1, slot2, slot3)
 	slot0.page:ExecuteAction("Show", slot2)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.page then
 		slot0.page:Destroy()
 
@@ -27,7 +27,7 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 

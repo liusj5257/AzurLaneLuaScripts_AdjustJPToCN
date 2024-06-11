@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第七話　『それじゃ、またねー♪』</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actorName = "イストワール",
+			say = "……さて、なんだか遊んでばかりだった気がしないでもないですが、ちゃんと調査もしてくれたようですね。みなさん、おつかれさまでした",
 			side = 2,
 			bgName = "bg_story_school",
-			withoutPainting = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			bgm = "story-nepu1",
 			actor = 0,
-			nameColor = "#a9f548",
-			say = "……さて、なんだか遊んでばかりだった気がしないでもないですが、ちゃんと調査もしてくれたようですね。みなさん、おつかれさまでした",
+			actorName = "イストワール",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,14 +36,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "イストワール",
 			say = "おかげでゲイムギョウ界とこの次元との関係性、その親和性も大体把握することができました。今後はいつでも自由にアクセス可能となるでしょう",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
+			say = "……何を言っているの？そういうわけにもいかないわ",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "……何を言っているの？そういうわけにもいかないわ",
+			actor = 10100030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -106,14 +106,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "イストワール",
 			say = "そういうことです。これからは好きな時に来られるんですから、みなさん一度こちらに帰ってきてください。ネプテューヌさんもですよ",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "一時はどうなることかと思ったけど……何とかなったわね。これもみんなのおかげよ。色々と手伝ってくれてありがとうね",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "一時はどうなることかと思ったけど……何とかなったわね。これもみんなのおかげよ。色々と手伝ってくれてありがとうね",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "せっかく仲良くなれたのに……残念です",
 			typewriter = {
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "……ねぷねぷ、ゴクゴク飲んでた。綾波たちと味覚が一緒？",
 			typewriter = {
@@ -434,14 +434,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "イストワール",
 			say = "ではみなさん、そろそろワームホールを潜ってください",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,14 +452,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "イストワール",
 			say = "これ以上、次元の壁に穴が開いたままの状態は、良くありません。お別れが済んだら、一旦閉じておきます",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,14 +470,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "イストワール",
 			say = "こちらに用がある時は、また開けますから心配しないでください",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,12 +504,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "こちらこそ、感謝の言葉もありません。ありがとうございました、ノワールさん",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "こちらこそ、感謝の言葉もありません。ありがとうございました、ノワールさん",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "綾波も楽しかった、です。バイバイ、ノワール",
 			typewriter = {
@@ -557,11 +557,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "うん、べーるおねえちゃん、アメさんやくそくー！",
 			typewriter = {
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "まってる……ばいばい、べーるおねえちゃん",
 			typewriter = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "ばいばーい♪",
 			typewriter = {

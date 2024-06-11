@@ -1,6 +1,6 @@
 slot0 = class("CommanderCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.infoTF = slot0._tf:Find("info")
@@ -32,14 +32,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0.lockTr = slot0._tf:Find("lock")
 end
 
-function slot0.clearSelected(slot0)
+slot0.clearSelected = function(slot0)
 	setActive(slot0.mark1, false)
 	setActive(slot0.mark2, false)
 	setActive(slot0.expUp, false)
 	slot0:UpdateCommanderName(slot0.commanderVO, false)
 end
 
-function slot0.selectedAnim(slot0)
+slot0.selectedAnim = function(slot0)
 	if LeanTween.isTweening(slot0.infoTF) then
 		LeanTween.cancel(slot0.infoTF)
 	end
@@ -50,7 +50,7 @@ function slot0.selectedAnim(slot0)
 	slot0:UpdateCommanderName(slot0.commanderVO, true)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	if not IsNil(slot0.lockTr) then
 		setActive(slot0.lockTr, false)
 	end
@@ -71,7 +71,7 @@ function slot0.update(slot0, slot1)
 	setActive(slot0.tip, slot1 and slot1.id ~= 0 and slot1:getTalentPoint() > 0 and not LOCK_COMMANDER_TALENT_TIP)
 end
 
-function slot0.updateCommander(slot0)
+slot0.updateCommander = function(slot0)
 	slot1 = slot0.commanderVO
 
 	slot0:UpdateCommanderName(slot1, false)
@@ -85,7 +85,7 @@ function slot0.updateCommander(slot0)
 	end
 end
 
-function slot0.UpdateCommanderName(slot0, slot1, slot2)
+slot0.UpdateCommanderName = function(slot0, slot1, slot2)
 	if not slot1 or slot1.id == 0 then
 		return
 	end
@@ -97,8 +97,8 @@ function slot0.UpdateCommanderName(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ShortenString(slot0, slot1, slot2)
-	function slot3(slot0)
+slot0.ShortenString = function(slot0, slot1, slot2)
+	slot3 = function(slot0)
 		if not slot0 then
 			return 0, 1
 		elseif slot0 > 240 then
@@ -140,13 +140,13 @@ function slot0.ShortenString(slot0, slot1, slot2)
 	return string.sub(slot1, 1, slot6 - 1) .. ".."
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	if LeanTween.isTweening(slot0.infoTF) then
 		LeanTween.cancel(slot0.infoTF)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:clear()
 end
 

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "新生重樱联合",
 	time = 0.1,
-	color = "blue",
+	name = "新生重樱联合",
+	init_effect = "",
+	id = 10912,
 	picture = "",
 	desc = "50%减伤",
 	stack = 1,
-	id = 10912,
+	color = "blue",
 	icon = 10912,
 	last_effect = "",
 	effect_list = {
@@ -17,9 +17,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
+				number = -0.5,
 				target = "TargetSelf",
-				number = -0.5
+				attr = "injureRatio"
 			}
 		}
 	}

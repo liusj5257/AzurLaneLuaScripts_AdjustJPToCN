@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "大神ミオ",
+			side = 2,
 			stopbgm = true,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
 			say = "周りは見慣れた壁と天井",
 			flashin = {
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神ミオ",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神ミオ",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神ミオ",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神ミオ",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神ミオ",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "holo-fff-inst",
 			side = 2,
-			say = "ドカ――――ン！",
 			dir = 1,
 			blackBg = true,
-			bgm = "holo-fff-inst",
+			soundeffect = "event:/battle/boom2",
+			say = "ドカ――――ン！",
 			flashN = {
 				color = {
 					1,
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "無理だあああああ！この状況でどうやって落ち着けるんだ！",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -197,10 +197,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "ミオ！そこにいるのはミオなの？",
+			dir = -1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -218,8 +218,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "フブキ？！無事でよかった！",
 			typewriter = {
@@ -235,11 +235,11 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "ここからすぐ離れないと。セイレーンの量産型艦隊が近づいてるよ！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -290,8 +290,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "セ…セイレーン？",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,8 +333,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "フブキは…意外に冷静だなぁ…って、一体どうなってるの？艦隊ってどういうこと？",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "ミオ、落ち着いて。辺り一面の海、セイレーンの艦隊…",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "きっと私たちは何かの原因で、ホロサーバーと一緒にこのアズールレーンの世界にやって来た。しかも戦闘の真っただ中に…",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "セイレーンの艦隊…アズールレーン世界の海を侵略した、あのセイレーン！？",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "というか私たち、異世界に！？大変だ！！",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,11 +428,11 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "くそ…私の白上艦隊がここにいれば、こいつらをすぐ片付けてーー",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -483,9 +483,9 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "江風ちゃん、瑞鶴ちゃん…私だって指揮官だったのに…",
 			typewriter = {

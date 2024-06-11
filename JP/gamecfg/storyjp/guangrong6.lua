@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"栄光なる間奏曲\n\n<size=45>その六　彼女にとっての栄光・上</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はあ、はあ……これで一段落、ね……",
 			bgm = "story-1",
+			actor = 207060,
+			nameColor = "#a9f548",
+			say = "はあ、はあ……これで一段落、ね……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "約半分の仕事を終えたところで、グロリアスは疲れた様子のまま大きな艤装にもたれてた。",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "本来はアーデントとアカスタにも来てほしくはなかったのに、あの子たちはどうしてもって言いますし…",
 			typewriter = {
 				speed = 0.05,
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "グロリアスは精一杯強がった。こうなったら――",
 			typewriter = {
 				speed = 0.05,
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "たとえ指揮官の命令でも……それは……！",
 			typewriter = {
 				speed = 0.05,

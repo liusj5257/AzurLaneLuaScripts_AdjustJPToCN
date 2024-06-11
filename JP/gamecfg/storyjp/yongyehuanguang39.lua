@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG39",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG39",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "マルタ島・宴会会場",
 			side = 2,
 			bgName = "bg_italy_cg6",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "マルタ島・宴会会場",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
+			dir = 1,
 			say = "ロイヤルとアイリスの共同主催による宴会では、とある艦船が出席することになっていた――",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "地中海に美味しい紅茶、そして美しいレディたち――ロイヤルの宴会に参加するなんて久しぶりだわ",
 			typewriter = {
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "ご参加いただきありがとうございます。リットリオ様",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "こちらこそ、お誘いいただき感謝するわ枢機卿。あなたのおかげでアイリスも新しいステージに上がったようで",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "アイリス教国はアズールレーンの一員として、引き続きセイレーンへの抗戦を続けるつもりです。サディア帝国は…",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "ああ、それならヴェネトといろいろ努力しているが、元老院は難儀なんでね。すぐに鞍替えできるような状況ではないわ",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "なのでこちらも帰路は惚れさせた子から夜間攻撃されないよう気をつけないとね。ふふふ",
 			typewriter = {
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 207031,
 			nameColor = "#a9f548",
-			bgName = "bg_italy_cg6",
 			side = 2,
+			bgName = "bg_italy_cg6",
 			dir = 1,
+			actor = 207031,
 			stopbgm = true,
 			say = "……あぅ",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "エリザベス様が…！そのようなことに……",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "鉄血がなぜそのような場所に……また戦局が大きく変わるわね…",
 			typewriter = {
@@ -327,15 +327,15 @@ return {
 			}
 		},
 		{
-			say = "ユニオン・NYシティ",
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "ユニオン・NYシティ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -363,8 +363,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "エンタープライズ、ワシントン！今の連絡って……",
 			typewriter = {
@@ -380,8 +380,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "ああ、状況を把握した。鉄血艦隊があのスカパ・フローを狙っていたとはな",
 			typewriter = {
@@ -397,8 +397,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "あそこはただの泊地じゃないのに…",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "今ころロイヤルはどうなっているのかな…",
 			typewriter = {
@@ -428,8 +428,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -457,8 +457,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "サラトガちゃんでもそこまでは分からないな…",
 			typewriter = {
@@ -471,12 +471,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "とにかく警戒態勢を敷こう。各ユニオン艦船に連絡して、敵の奇襲に備えよう…！",
 			typewriter = {
 				speed = 0.05,

@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_503",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sea of Stars - Accessway",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,11 +33,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Every block in the Sea of Stars has a codename based on a constellation family.",
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So, that's what it means when you hear something like the \"Hercules Rigging Design Department.\"",
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Meanwhile, our lovely presenter here, Guam, is a part of the Secret Service Block's Special Operations Force. She's basically a glorified mercenary.",
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And the Directive Block, Heavenly Waters, is associated with medicine, intelligence, decision-making, and the like.",
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I'm sure you'll pick up on the individual names in due time.",
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh, she's not actually a part of any specific department. She's more like an advisor to the administrative board.",
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You won't find her here, though. She's away on a confidential mission, and it might be months before we hear from her again.",
@@ -406,11 +406,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Although she didn't say how frequently I could broadcast... Ahahah...",
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -644,11 +644,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I'm not breaking any rules, if that's what you think. In institutions like this, you can just apply to use equipment if nobody else is using it.",
@@ -700,11 +700,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's in the Galactic Core of the Command Block. Onward! To the World of the Future!",
@@ -737,11 +737,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You're going to love it, trust me.",
@@ -793,27 +793,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_503",
 			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -821,11 +821,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Phew. This route should be safe...",
@@ -844,8 +844,8 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Constellation",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Looking for me, Guam?",
 			painting = {
@@ -877,8 +877,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -927,9 +927,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -944,8 +944,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -992,11 +992,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But, someone here seems to have forgotten that I'm in charge of staffing Type II rigging research projects?",
@@ -1086,11 +1086,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Nice to meet you, Princeton, Louisville, and Laffey. My name is Constellation.",
@@ -1104,11 +1104,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I've customized a simulation for you all. You can ask TB about the fine details.",
@@ -1179,11 +1179,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That's okay, I've entered your data into the system already. You can do all the formalities later.",
@@ -1254,11 +1254,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			bgName = "star_level_bg_503",
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, she's gone...",
@@ -1271,17 +1271,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

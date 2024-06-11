@@ -1,12 +1,12 @@
 return {
-	icon = 600025,
 	name = "",
 	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 600025,
-	picture = "",
+	icon = 600025,
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -25,8 +25,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 600026,
-				target = "TargetSelf",
-				time = 27
+				time = 27,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 600014,
-				target = "TargetSelf",
-				time = 25
+				time = 25,
+				target = "TargetSelf"
 			}
 		}
 	}

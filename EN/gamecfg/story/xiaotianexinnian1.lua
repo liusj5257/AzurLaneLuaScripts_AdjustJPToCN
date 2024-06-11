@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"New Year's Blessings\n\n<size=45>Chapter 1 Kitchen Commotion</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_room",
-			say = " ",
 			dir = 1,
 			bgmDelay = 2,
+			blackBg = true,
 			bgm = "main-newyear",
+			say = " ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 301141,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301141,
+			nameColor = "#a9f548",
 			say = "Woof! I smell mochi! Let's eat, right now! ...But I don't wanna leave the kotatsu, it's too comfy...",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -201,15 +201,15 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "Oh, shoot! I got it on my clothes!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "I told you to be careful! Why would you mix it so hard?",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I told you to be careful! Why would you mix it so hard?",
+			actor = 301590,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#a9f548",
 			say = "I'm not finished with them yet! And I'm only making one set anyway...",
 			typewriter = {
 				speed = 0.05,
@@ -328,8 +328,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.4,
 					x = 22.5,
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#a9f548",
 			say = "Fine, fine! I get it! *Sigh*, why should I have to pay for Isokaze's mistake...",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -382,14 +382,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 301601,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Tadah! Look at these cute clothes! They fit me perfectly!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -494,12 +494,12 @@ return {
 			}
 		},
 		{
-			actor = 301601,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301601,
+			nameColor = "#a9f548",
 			say = "Okay, then it's time for us to withdraw! We'll be back to help again when the zouni is ready!",
 			typewriter = {
 				speed = 0.05,

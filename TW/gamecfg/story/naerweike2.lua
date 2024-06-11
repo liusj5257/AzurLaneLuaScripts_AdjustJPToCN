@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401180,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "level02",
 			dir = -1,
 			say = "我回來了！",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "情報有誤嗎……總之，辛苦了。",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "我剛才說了，問題在於之後……預定到達的兩艘補給艦隻到達了一艘，我們現在缺乏足夠的補給返航，而且……",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "她們……馬上就會來的。",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "有力氣說大話的話，還是先養精蓄銳吧。",
 			typewriter = {
 				speed = 0.05,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 401180,
 			nameColor = "#a9f548",
 			side = 2,
-			hideOther = true,
+			actor = 401180,
 			dir = -1,
+			hideOther = true,
 			actorName = "Z驅們",
 			say = "是！",
 			subActors = {

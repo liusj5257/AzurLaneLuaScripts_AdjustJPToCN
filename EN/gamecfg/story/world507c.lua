@@ -1,13 +1,13 @@
 return {
-	id = "WORLD507C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507C",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Around half the wrecks in this area have sunk beneath the surface, and we found traces of algae. They must've been floating here for quite some time.",
 			typewriter = {
 				speed = 0.05,

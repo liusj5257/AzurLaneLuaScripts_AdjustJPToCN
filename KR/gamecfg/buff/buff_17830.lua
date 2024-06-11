@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 17830,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17830,
+	color = "yellow",
 	icon = 17830,
 	last_effect = "",
 	effect_list = {
@@ -47,8 +47,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17835,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

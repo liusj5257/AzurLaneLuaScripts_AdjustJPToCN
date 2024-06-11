@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0,
 	mode = 2,
-	id = "LINKPREHEAT9-1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINKPREHEAT9-1",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "……여기가 오호츠크 해역의 최심부…",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "여기……우리가 처음 떨어졌던 장소 아냐?",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "듣고 보니……본적이 있는 것 같기도 하고……아닌 것 같기도 하고……",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "다르다기보단……이 묘한 분위기, 어디선가 느껴본 적 있는 거 같은데?",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "몽환연무……",
 			typewriter = {
 				speed = 0.05,
@@ -273,10 +273,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "그 결계의 독특한 공기가, 이 해역에 퍼져있습니다.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "그 결계의 독특한 공기가, 이 해역에 퍼져있습니다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -294,8 +294,8 @@ return {
 			actor = 900021,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "띵동~! 뭐 그 정도면 정답이라고 해줄까나~?",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "뭐 그정도면 정답이라니, 그건 무슨 말일까나?",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			actor = 900021,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "그럼 답을 한 번 맞춰보자고. 여기는 확실히 거울해역, 그것도 너희 세계의 '몽환연무' 인지 뭔지하는 결계의 테크놀러지를 빌려 쓴 게 맞아!",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			actor = 900021,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "하지만……너희 세계에서 조금 방해가 들어와서 말이지……",
 			typewriter = {
 				speed = 0.05,
@@ -373,8 +373,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "우리 세계에서? 그건 대체……?",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "혹시……주인님?",
 			typewriter = {
 				speed = 0.05,
@@ -404,10 +404,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "저희가 위급한 상황에 처했을 때, 주인님이라면 틀림없이 전력을 다해 당신들의 방해할 것입니다.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "저희가 위급한 상황에 처했을 때, 주인님이라면 틀림없이 전력을 다해 당신들의 방해할 것입니다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -440,8 +440,8 @@ return {
 			actor = 900021,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "그 녀석이 누군지 우린 알 필요도 없고 알고 싶지도 않아! 게다가 여기서 하는 실험에는 전혀 관계없다고! 우리가 필요로 하는 건 데이터! 샘플! 실험기록!",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			actor = 900021,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "자, 우리를 위해 발버둥쳐보라고! 그러기 위해 이 무대를 '세팅' 한 거니까 말야!",
 			typewriter = {
 				speed = 0.05,

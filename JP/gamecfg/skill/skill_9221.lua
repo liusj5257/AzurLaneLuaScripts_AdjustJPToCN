@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "龙宫机关-水 武器LV3",
 	cd = 0,
-	painting = "mibao_shui",
-	id = 9221,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "mibao_shui",
+	id = 9221,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -15,8 +15,8 @@ return {
 				emitter = "BattleBulletEmitter",
 				weapon_id = 820003,
 				attack_attribute_convert = {
-					attr_type = "fleetGS",
 					A = 80,
+					attr_type = "fleetGS",
 					B = 400
 				}
 			}

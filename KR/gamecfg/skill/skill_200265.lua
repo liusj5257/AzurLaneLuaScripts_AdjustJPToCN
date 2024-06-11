@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2022美系活动D1 BOSS浮游炮召唤 二阶段",
 	cd = 0,
-	painting = 0,
-	id = 200265,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200265,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -22,19 +22,19 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 3,
 							switchTo = 1,
 							index = 0,
-							switchParam = 3,
+							switchType = 1,
 							setAI = 75021,
 							addBuff = {
 								200267
 							}
 						},
 						{
-							index = 1,
 							switchParam = 1,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3043005,
@@ -43,9 +43,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
 							switchParam = 400,
 							switchTo = 1,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3043006
@@ -70,19 +70,19 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 3,
 							switchTo = 1,
 							index = 0,
-							switchParam = 3,
+							switchType = 1,
 							setAI = 75022,
 							addBuff = {
 								200267
 							}
 						},
 						{
-							index = 1,
 							switchParam = 1,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3043005,
@@ -91,9 +91,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
 							switchParam = 400,
 							switchTo = 1,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3043006

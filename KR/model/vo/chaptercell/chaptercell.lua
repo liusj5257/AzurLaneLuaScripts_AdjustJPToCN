@@ -1,6 +1,6 @@
 slot0 = class("ChapterCell", import(".LevelCellData"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.walkable = true
 	slot0.forbiddenDirections = ChapterConst.ForbiddenNone
 	slot0.row = slot1.pos.row
@@ -21,7 +21,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.updateFlagList(slot0, slot1)
+slot0.updateFlagList = function(slot0, slot1)
 	slot0.flagList = slot0.flagList or {}
 
 	table.clear(slot0.flagList)
@@ -31,41 +31,41 @@ function slot0.updateFlagList(slot0, slot1)
 	end
 end
 
-function slot0.GetFlagList(slot0)
+slot0.GetFlagList = function(slot0)
 	return slot0.flagList
 end
 
-function slot0.GetWeatherFlagList(slot0)
+slot0.GetWeatherFlagList = function(slot0)
 	return _.filter(slot0:GetFlagList(), function (slot0)
 		return tobool(pg.weather_data_template[slot0])
 	end)
 end
 
-function slot0.checkHadFlag(slot0, slot1)
+slot0.checkHadFlag = function(slot0, slot1)
 	return table.contains(slot0.flagList, slot1)
 end
 
-function slot0.Line2Name(slot0, slot1)
+slot0.Line2Name = function(slot0, slot1)
 	return "chapter_cell_" .. slot0 .. "_" .. slot1
 end
 
-function slot0.Line2QuadName(slot0, slot1)
+slot0.Line2QuadName = function(slot0, slot1)
 	return "chapter_cell_quad_" .. slot0 .. "_" .. slot1
 end
 
-function slot0.Line2MarkName(slot0, slot1, slot2)
+slot0.Line2MarkName = function(slot0, slot1, slot2)
 	return "chapter_cell_mark_" .. slot0 .. "_" .. slot1 .. "#" .. slot2
 end
 
-function slot0.MinMaxLine2QuadName(slot0, slot1, slot2, slot3)
+slot0.MinMaxLine2QuadName = function(slot0, slot1, slot2, slot3)
 	return "chapter_cell_quad_" .. slot0 .. "_" .. slot1 .. "_" .. slot2 .. "_" .. slot3
 end
 
-function slot0.Line2RivalName(slot0, slot1, slot2)
+slot0.Line2RivalName = function(slot0, slot1, slot2)
 	return "rival_" .. slot1 .. "_" .. slot2
 end
 
-function slot0.LineAround(slot0, slot1, slot2)
+slot0.LineAround = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7 = -slot2, slot2 do
@@ -82,7 +82,7 @@ function slot0.LineAround(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.SetWalkable(slot0, slot1)
+slot0.SetWalkable = function(slot0, slot1)
 	slot0.walkable = tobool(slot1)
 
 	if type(slot1) == "boolean" then
@@ -92,7 +92,7 @@ function slot0.SetWalkable(slot0, slot1)
 	end
 end
 
-function slot0.IsWalkable(slot0)
+slot0.IsWalkable = function(slot0)
 	return slot0.walkable
 end
 

@@ -1,15 +1,15 @@
 return {
-	id = "WORLD202B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD202B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA 해역 북동쪽·로열 네이비 주력 함대",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "치익——————",
@@ -113,8 +113,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "후드, LD 사령부에 긴급 구조신호가 들어왔어요. 발신자는 신호를 보내고 바로 연락이 두절되었습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "아군 정찰 함대에서 보낸 것으로 추정하지만, 구체적으로 어디인지는 알아내지 못했어요.",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "위급한 상황이니 구조 신호가 접수된 좌표를 보낼게요. 바로 움직여주세요.",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "이 위치는... 이상하네, 여기에 함대를 보낸 적은 없는데요. 이런 시기에 민간 함대가 있을 리는 없고...",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "네, 바로 확인하겠습니다. 뉴캐슬, 통신 종료.",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205070,
 			dir = 1,
+			actor = 205070,
 			say = "그 해역은 이글 유니온의 작전 구역일 텐데, 거기서 무슨 일을 당한 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "후드, 조금 느리더라도 안전을 위해서 제가 일부 주력함대를 이끌고 지원을 가도 괜찮을까요?",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "중심부의 상황이 복잡하고 거울 해역에서 세이렌의 습격을 받을 수 있어. 내가 포미더블과 함께 가지.",
 			typewriter = {
 				speed = 0.05,

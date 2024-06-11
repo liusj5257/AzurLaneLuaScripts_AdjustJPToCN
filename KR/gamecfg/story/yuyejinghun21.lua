@@ -1,37 +1,37 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 11,
 			side = 2,
-			bgName = "star_level_bg_146",
 			factiontag = "역할: 차녀",
-			actorName = "위다",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
 			bgm = "story-richang-10",
 			actor = 9600051,
-			nameColor = "#A9F548FF",
+			actorName = "위다",
 			say = "윽, 또 죽었네…… 역시 언니가 없으면 안 되겠어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -158,9 +158,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_146",
 			factiontag = "성실한 마스터 후배",
-			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "혼자서는 어쩔 수 없는 일도 도와주는 사람만 있다면 의외로 손쉽게 해낼 수 있습니다.",
@@ -169,17 +169,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

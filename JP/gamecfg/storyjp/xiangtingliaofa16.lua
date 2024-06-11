@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGTINGLIAOFA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「たしか『モビー・ディック』という名の子がいたかしら、白鯨…白いクジラの」</size>",
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "作戦海域「バミューダ」",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "作戦海域「バミューダ」",
 			flashN = {
 				color = {
 					1,
@@ -89,11 +89,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 107090,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "くっ……やっぱりセイレーンの罠だったというの！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -144,8 +144,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ヴィクトリアス！シャングリラ！",
 			typewriter = {
@@ -158,13 +158,13 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "特別編成艦隊との連絡が途絶えたわ！",
 			soundeffect = "event:/battle/boom2",
+			actor = 207040,
+			nameColor = "#a9f548",
+			say = "特別編成艦隊との連絡が途絶えたわ！",
 			flashN = {
 				color = {
 					1,
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			say = "―――――――――",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "―――――――――",
 			flashN = {
 				color = {
 					1,
@@ -296,15 +296,15 @@ return {
 			}
 		},
 		{
-			say = "NYシティ・埠頭",
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "NYシティ・埠頭",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -681,11 +681,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_xiangting_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "いわば発展途上というか、発生の中心がはっきりと見えていて、戦闘の影響も限定的よ",
 			typewriter = {
 				speed = 0.05,
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -787,11 +787,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_xiangting_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "それでは各員、ご武運を！",
 			typewriter = {
 				speed = 0.05,

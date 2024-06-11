@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 15920,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15920,
+	color = "red",
 	icon = 15920,
 	last_effect = "",
 	effect_list = {
@@ -47,8 +47,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				time = 1,
+				target = "TargetSelf",
 				skill_id = 15921,
 				check_target = {
 					"TargetAllFoe",
@@ -66,8 +66,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				time = 1,
+				target = "TargetSelf",
 				skill_id = 15921,
 				check_target = {
 					"TargetAllHelp",

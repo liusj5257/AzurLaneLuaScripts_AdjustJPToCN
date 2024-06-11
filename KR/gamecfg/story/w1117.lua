@@ -1,12 +1,12 @@
 return {
-	id = "W1117",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1117",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "에너지 매트릭스가 활성화 되었습니다. 주변 해역 안전.",
 			typewriter = {
 				speed = 0.05,

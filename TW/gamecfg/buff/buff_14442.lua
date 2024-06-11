@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 50
+					number = 50,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 50
+					number = 50,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 50
+					number = 50,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 100
+					number = 100,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 100
+					number = 100,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 100
+					number = 100,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -82,8 +82,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 150
+					number = 150,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 150
+					number = 150,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 150
+					number = 150,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 200
+					number = 200,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -130,8 +130,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 200
+					number = 200,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -141,8 +141,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 200
+					number = 200,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -156,8 +156,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 250
+					number = 250,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -167,8 +167,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 250
+					number = 250,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -178,8 +178,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 250
+					number = 250,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -193,8 +193,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 300
+					number = 300,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -204,8 +204,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 300
+					number = 300,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -215,8 +215,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 300
+					number = 300,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -230,8 +230,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 350
+					number = 350,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -241,8 +241,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 350
+					number = 350,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -252,8 +252,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 350
+					number = 350,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -267,8 +267,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 400
+					number = 400,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -278,8 +278,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 400
+					number = 400,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 400
+					number = 400,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -304,8 +304,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 450
+					number = 450,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -315,8 +315,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 450
+					number = 450,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -326,8 +326,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 450
+					number = 450,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -341,8 +341,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -352,8 +352,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 500
+					number = 500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -363,20 +363,20 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 500
+					number = 500,
+					attr = "loadSpeed"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 14442,
+	time = 0,
 	picture = "",
 	desc = "提高炮击、雷击、装填属性",
 	stack = 3,
-	id = 14442,
+	color = "red",
 	icon = 14442,
 	last_effect = "",
 	blink = {
@@ -394,8 +394,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 50
+				number = 50,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -405,8 +405,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 50
+				number = 50,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -416,8 +416,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 50
+				number = 50,
+				attr = "loadSpeed"
 			}
 		}
 	}

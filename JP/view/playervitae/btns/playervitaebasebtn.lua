@@ -2,7 +2,7 @@ slot0 = class("PlayerVitaeBaseBtn")
 slot0.HRZ_TYPE = 1
 slot0.VEC_TYPE = 2
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.type = slot2 or uv0.HRZ_TYPE
 	slot0.tpl = slot1
 
@@ -17,11 +17,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:Hide()
 end
 
-function slot0.IsHrzType(slot0)
+slot0.IsHrzType = function(slot0)
 	return slot0.type == uv0.HRZ_TYPE
 end
 
-function slot0.NewGo(slot0)
+slot0.NewGo = function(slot0)
 	slot1, slot2 = slot0:GetBgName()
 	slot3 = slot0.tf:GetComponent(typeof(Image))
 	slot3.sprite = LoadSprite("ui/" .. slot1, slot2)
@@ -32,7 +32,7 @@ function slot0.NewGo(slot0)
 	return slot0.tf
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.on = findTF(slot0.tf, "on")
@@ -47,11 +47,11 @@ function slot0.Load(slot0, slot1)
 	slot0.isLoaded = true
 end
 
-function slot0.IsActive(slot0)
+slot0.IsActive = function(slot0)
 	return false
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		slot0:Hide()
 
@@ -74,7 +74,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot0:UpdatePosition()
 end
 
-function slot0.UpdatePosition(slot0)
+slot0.UpdatePosition = function(slot0)
 	if slot0:IsHrzType() then
 		slot0:UpdatePositionForHrz()
 	else
@@ -82,16 +82,16 @@ function slot0.UpdatePosition(slot0)
 	end
 end
 
-function slot0.SwitchToVecLayout(slot0)
+slot0.SwitchToVecLayout = function(slot0)
 	slot1 = slot0.startPos
 	slot0.tf.anchoredPosition = Vector2(slot1.x, (slot0.index - 1) * (slot0.tf.sizeDelta.y + 20) + slot1.y)
 end
 
-function slot0.IsOverlap(slot0, slot1)
+slot0.IsOverlap = function(slot0, slot1)
 	return slot1 < slot0.tf.localPosition.x + slot0.tf.rect.width * 0.5
 end
 
-function slot0.UpdatePositionForHrz(slot0)
+slot0.UpdatePositionForHrz = function(slot0)
 	slot1 = slot0.startPos
 	slot2 = slot0.index
 	slot3 = 0
@@ -109,14 +109,14 @@ function slot0.UpdatePositionForHrz(slot0)
 	slot0.tf.anchoredPosition = Vector2((slot2 - 1) * (slot3 + slot4) + slot1.x, slot1.y)
 end
 
-function slot0.UpdatePositionForVec(slot0)
+slot0.UpdatePositionForVec = function(slot0)
 	slot1 = slot0.startPos
 	slot0.tf.anchorMax = Vector2(0, 1)
 	slot0.tf.anchorMin = Vector2(0, 1)
 	slot0.tf.anchoredPosition = Vector2(slot1.x, (slot0.index - 1) * (slot0.tf.sizeDelta.y + 20) + slot1.y)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if slot0:IsHrzType() then
 		slot0.block.anchoredPosition = slot1 and Vector2(-33, 0) or Vector2(-96, 0)
 	else
@@ -128,7 +128,7 @@ function slot1(slot0, slot1)
 	end
 end
 
-function slot0.InitBtn(slot0)
+slot0.InitBtn = function(slot0)
 	slot0.flag = slot0:GetDefaultValue()
 
 	onButton(slot0, slot0.tf, function ()
@@ -142,7 +142,7 @@ function slot0.InitBtn(slot0)
 	slot0:UpdateBtnState(false, slot0.flag)
 end
 
-function slot0.UpdateBtnState(slot0, slot1, slot2)
+slot0.UpdateBtnState = function(slot0, slot1, slot2)
 	setActive(slot0.on, not slot1)
 	setActive(slot0.off, not slot1)
 
@@ -157,15 +157,15 @@ function slot0.UpdateBtnState(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0.tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0.tf, false)
 end
 
-function slot0.ShowOrHide(slot0, slot1)
+slot0.ShowOrHide = function(slot0, slot1)
 	if slot1 then
 		slot0:Show()
 	else
@@ -173,7 +173,7 @@ function slot0.ShowOrHide(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.isLoaded then
 		pg.DelegateInfo.Dispose(slot0)
 		Object.Destroy(slot0.tf.gameObject)
@@ -182,25 +182,25 @@ function slot0.Dispose(slot0)
 	slot0:OnDispose()
 end
 
-function slot0.GetBgName(slot0)
+slot0.GetBgName = function(slot0)
 	assert(false, "overwrite me !!!")
 end
 
-function slot0.GetDefaultValue(slot0)
+slot0.GetDefaultValue = function(slot0)
 	assert(false, "overwrite me !!!")
 end
 
-function slot0.OnSwitch(slot0, slot1)
+slot0.OnSwitch = function(slot0, slot1)
 	assert(false, "overwrite me !!!")
 end
 
-function slot0.OnSwitchDone(slot0)
+slot0.OnSwitchDone = function(slot0)
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 end
 
-function slot0.setParent(slot0, slot1, slot2)
+slot0.setParent = function(slot0, slot1, slot2)
 	SetParent(slot0.tf, slot1)
 	slot0.tf:SetSiblingIndex(slot2)
 end

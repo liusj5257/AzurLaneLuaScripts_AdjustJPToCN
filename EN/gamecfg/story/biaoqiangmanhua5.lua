@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIAOQIANGMANHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Javelin's Monthly Manga\n\n<size=45>Chapter 5 - What the Heck is This...</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 401230,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "...... What the heck is this...",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "...... What the heck is this...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "W-well, so much was going on that I didn't know how to continue... and then I left my sketchbook in the classroom...",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -270,10 +270,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			actor = 101170,
 			dir = 1,
 			hideOther = true,
 			actorName = "Everyone",
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"Please look forward to Javelin and friends' next work!\"",
 			typewriter = {
@@ -337,12 +337,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "But what if they don't see this message on time? You never know with extended maintenance...",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "But what if they don't see this message on time? You never know with extended maintenance...",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -407,10 +407,10 @@ return {
 		{
 			actor = 301120,
 			side = 0,
-			hideOther = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
+			nameColor = "#a9f548",
 			say = "We'd love to see you there!",
 			subActors = {
 				{

@@ -1,15 +1,15 @@
 return {
-	id = "W1023",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1023",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Siren device has been successfully neutralized. Commencing component analysis...",
 			typewriter = {
 				speed = 0.05,
@@ -23,9 +23,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Warning: The device's built-in alarm has activated, and a Siren fleet is approaching.",
 			typewriter = {
 				speed = 0.05,

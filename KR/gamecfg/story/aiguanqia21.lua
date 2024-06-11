@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA21",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA21",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
@@ -22,12 +22,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "거대화 키즈나 아이",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "아윽… 큭…",
+			actorName = "거대화 키즈나 아이",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -59,12 +59,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "거대화 키즈나 아이",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "아파…앗",
+			actorName = "거대화 키즈나 아이",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -96,12 +96,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "거대화 키즈나 아이",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "우윽! 으아아!",
+			actorName = "거대화 키즈나 아이",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -133,12 +133,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			say = "우와아아아아아아아아아아아아아아아아아아아아아아아!!!",
+			actorScale = 3.5,
 			actorName = "거대화 키즈나 아이",
 			actor = 10400010,
-			dir = 1,
 			nameColor = "#ff5c5c",
-			actorScale = 3.5,
-			say = "우와아아아아아아아아아아아아아아아아아아아아아아아!!!",
 			flashN = {
 				color = {
 					1,
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 1650,
+					type = "move",
 					delay = 0,
 					dur = 2,
 					x = 0
@@ -197,8 +197,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "다들… 고마워…… 폐 끼쳐서, 미안……!",
 			flashN = {
 				color = {
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "쿠구구구구구구구구구구구구구궁………!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#ff5c5c",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			actor = 10400010,
 			actorName = "가짜 키즈나 아이들",
 			say = "………",
@@ -503,8 +503,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "(에에에!? 엄청 오랜만인데, 할 수 있을까…!?)되, 될지 안 될지는 모르지만, 해볼게! 으음… 끄으으으으응…… 에잇!!!",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			expression = 1,
 			side = 0,
 			hideOther = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			actor = 10400010,
 			actorName = "가짜 키즈나 아이들",
 			say = "！！！",
@@ -568,8 +568,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -596,8 +596,8 @@ return {
 			expression = 6,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "뭐, 뭔가 해냈다~~~~~~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -627,8 +627,8 @@ return {
 			expression = 6,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "! 이 에러는…",
 			typewriter = {
 				speed = 0.05,
@@ -640,8 +640,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 메시지",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			say = "플레이어를 모항까지 전송합니다. 안전한 위치까지 이동하여 전송에 대비해주시기 바랍니다.",
@@ -655,8 +655,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……눈부신 빛이 소녀들을 상냥하게 감쌌다.",
 			flashN = {
 				color = {
@@ -688,8 +688,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……단 한 명, 키즈나 아이를 제외하고.",
 			typewriter = {
 				speed = 0.05,
@@ -716,8 +716,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -729,8 +729,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 5,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "미안해. 이 버츄얼 거울 해역을 제어해서 모두를 전송하려면, 내가 여기 남아 있어야 해.",
 			typewriter = {
 				speed = 0.05,
@@ -760,8 +760,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 3,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "여기까지 함께 해줘서, 정말 고마워. 모두와 보낸 시간은 평생 잊지 못할 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -806,8 +806,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 3,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "모두는 꼭 원래 장소로 돌려보낼 테니까.",
 			typewriter = {
 				speed = 0.05,
@@ -837,8 +837,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 4,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "슈퍼 AI니까!",
 			typewriter = {
 				speed = 0.05,
@@ -850,8 +850,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……'안녕'.",
 			typewriter = {
@@ -864,11 +864,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			actor = 201210,
 			say = "아이쨔아아아아아아아아아아아아아아아!!!",
 			flashN = {
 				color = {

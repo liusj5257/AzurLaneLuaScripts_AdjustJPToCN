@@ -2,8 +2,8 @@ pg = pg or {}
 pg.class_upgrade_template = {
 	{
 		store = 100000,
-		time = 900,
 		proficency_cost_per_min = 55,
+		time = 900,
 		user_level = 55,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -17,8 +17,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 110000,
-		time = 3600,
 		proficency_cost_per_min = 60,
+		time = 3600,
 		user_level = 60,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -32,8 +32,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 120000,
-		time = 7200,
 		proficency_cost_per_min = 65,
+		time = 7200,
 		user_level = 65,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -47,8 +47,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 130000,
-		time = 14400,
 		proficency_cost_per_min = 70,
+		time = 14400,
 		user_level = 70,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -62,8 +62,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 140000,
-		time = 28800,
 		proficency_cost_per_min = 75,
+		time = 28800,
 		user_level = 75,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -77,8 +77,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 150000,
-		time = 43200,
 		proficency_cost_per_min = 80,
+		time = 43200,
 		user_level = 80,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -92,8 +92,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 160000,
-		time = 64800,
 		proficency_cost_per_min = 85,
+		time = 64800,
 		user_level = 85,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -107,8 +107,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 170000,
-		time = 86400,
 		proficency_cost_per_min = 90,
+		time = 86400,
 		user_level = 90,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -122,8 +122,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 180000,
-		time = 172800,
 		proficency_cost_per_min = 95,
+		time = 172800,
 		user_level = 95,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -137,8 +137,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 200000,
-		time = 7200,
 		proficency_cost_per_min = 100,
+		time = 7200,
 		user_level = 100,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -152,8 +152,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 210000,
-		time = 7200,
 		proficency_cost_per_min = 105,
+		time = 7200,
 		user_level = 105,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,
@@ -167,8 +167,8 @@ pg.class_upgrade_template = {
 	},
 	{
 		store = 220000,
-		time = 0,
 		proficency_cost_per_min = 110,
+		time = 0,
 		user_level = 110,
 		proficency_to_exp_rant = 100,
 		item_id = 16501,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 10,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "标记-来自图林根的易伤",
 	stack = 1,
@@ -26,8 +26,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = -800
+				number = -800,
+				attr = "dodgeRate"
 			}
 		}
 	}

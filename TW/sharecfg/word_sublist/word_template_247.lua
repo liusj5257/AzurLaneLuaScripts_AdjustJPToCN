@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_247 = {}
 slot1 = slot0.word_template_247
 
-function temp()
+temp = function()
 	uv0["電"] = {
 		["視"] = {
 			["流"] = {
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["叼"] = {
 		["你"] = {
 			this = true,
@@ -38,7 +38,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["釣"] = {
 		["魚"] = {
 			["島"] = {
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["動"] = {
 		["亂"] = {
 			this = true

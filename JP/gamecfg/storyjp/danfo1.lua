@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"デンバーの母港クエスト！\n\n<size=45>一 作業依頼（クエスト）お受けします</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102150,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "先日、母港内でのちょっとした作業を誰かに頼めるようにできないか、という要望が議題にあがった",
 			bgm = "story-1",
+			actor = 102150,
+			nameColor = "#a9f548",
+			say = "先日、母港内でのちょっとした作業を誰かに頼めるようにできないか、という要望が議題にあがった",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "……ということで。このたび母港内にて、作業を頼めるシステム――作業依頼掲示板（クエストボード）が設立された。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "さっそく現在、掲示板にはいろんな子たちの作業依頼書がずらりと画鋲で打ち付けられていた。",
 			typewriter = {
 				speed = 0.05,
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "デンバーと隣に並んで同じく依頼書を眺めてみると、『依頼完了』のスタンプが押されていた依頼書がちらほらあった。",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "まだ設立して時間も経ってないのにもう依頼を達成させた子がいるとは驚きだ。一体誰がこんなに早く……。",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "依頼を受けた子の名前を見てみる――すると、まさかのデンバーの姉であるクリーブランドであった！",
 			typewriter = {
 				speed = 0.05,
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "……さすがは姉貴といったところさ。私も海上の騎士の身として見習わねば！",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "デンバーの言う通り他にも依頼完了の紙が並び、そのすべてにクリーブランドの名が刻まれている…！",
 			typewriter = {
 				speed = 0.05,

@@ -4,7 +4,7 @@ slot0.ON_MOVE = "MonopolyGame:ON_MOVE"
 slot0.ON_TRIGGER = "MonopolyGame:ON_TRIGGER"
 slot0.ON_AWARD = "MonopolyGame:ON_AWARD"
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:bind(MonopolyCar2Page.ON_START, function (slot0, slot1, slot2)
 		pg.m02:sendNotification(GAME.MONOPOLY_OP, {
 			activity_id = slot1,
@@ -34,10 +34,10 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if slot0.gameUI then
 		slot0.gameUI:updataActivity(slot0.activity)
 	else
@@ -47,7 +47,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

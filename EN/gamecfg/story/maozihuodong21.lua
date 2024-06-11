@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			bgm = "bgm-cccp",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 705010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Ahahaha! Behold the glory of our revolyutsiya!",
-			bgm = "bgm-cccp",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "Is that one of the Sirens' \"Pieces?\" Ahaha!",
 			typewriter = {
 				speed = 0.05,
@@ -107,10 +107,10 @@ return {
 			}
 		},
 		{
+			say = "BOOOOM!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "BOOOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -161,8 +161,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "Did I miss my first salvo? Well, try this on for size!",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -216,15 +216,15 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 107030,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Hey, what the heck was with that salvo?! You could've hit us with that!",
 			bgm = "xinnong-3",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "Hey, what the heck was with that salvo?! You could've hit us with that!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "Gyaahh! I was about to betray the Azur Lane! ...Unforgivable!",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "I get that it's better to be safe than sorry, but did you really have to fire live ammunition? Do you guys often fire at each other here?",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "I guess you have a point... We don't do that...",
 			typewriter = {
 				speed = 0.05,
@@ -329,9 +329,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Gaaahhh!!",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -401,8 +401,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "Indeed. But that means, in the commander's absence, the one leading this fleet was...",
 			typewriter = {
 				speed = 0.05,
@@ -416,9 +416,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Yeah, we have a veteran here in Saratoga!",
 			typewriter = {
 				speed = 0.05,
@@ -430,8 +430,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -443,8 +443,8 @@ return {
 			expression = 4,
 			side = 2,
 			actor = 107030,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "You're looking at her right now!",
 			effects = {
 				{
@@ -469,9 +469,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I'm the one who has been leading the Eagle Union's fleet in Commander's absence.",
 			effects = {
 				{
@@ -489,8 +489,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -502,8 +502,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "Eh? You're a carrier? How come you're so much smaller than Hornet over there?",
 			typewriter = {
 				speed = 0.05,
@@ -517,9 +517,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = ".........Ruuuuude!!",
 			typewriter = {
 				speed = 0.05,
@@ -531,8 +531,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,8 +559,8 @@ return {
 			expression = 2,
 			side = 2,
 			actor = 701030,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Seriously, I'm sorry!!",
 			effects = {
 				{

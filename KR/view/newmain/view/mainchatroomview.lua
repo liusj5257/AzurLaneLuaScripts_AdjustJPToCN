@@ -1,7 +1,7 @@
 slot0 = class("MainChatRoomView", import("view.base.BaseEventLogic"))
 slot1 = 4
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot2)
 	pg.DelegateInfo.New(slot0)
 
@@ -20,7 +20,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:RegisterEvent(slot2)
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	slot0:bind(NewMainScene.ON_REMOVE_LAYER, function (slot0, slot1)
 		uv0:OnRemoveLayer(slot1)
 	end)
@@ -44,7 +44,7 @@ function slot0.RegisterEvent(slot0, slot1)
 	slot0:UpdateBtnState()
 end
 
-function slot0.SwitchState(slot0)
+slot0.SwitchState = function(slot0)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n(slot0.hideChatFlag and slot0.hideChatFlag == 1 and "show_chat_warning" or "hide_chat_warning"),
 		onYes = function ()
@@ -57,7 +57,7 @@ function slot0.SwitchState(slot0)
 	})
 end
 
-function slot0.UpdateBtnState(slot0)
+slot0.UpdateBtnState = function(slot0)
 	slot1 = slot0.hideChatFlag and slot0.hideChatFlag == 1
 
 	setActive(slot0.enableBtn, slot1)
@@ -70,29 +70,29 @@ function slot0.UpdateBtnState(slot0)
 	slot0.btn.enabled = not slot1
 end
 
-function slot0.OnRemoveLayer(slot0, slot1)
+slot0.OnRemoveLayer = function(slot0, slot1)
 	if slot1.mediator == NotificationMediator then
 		slot0:Update()
 	end
 end
 
-function slot0.OnUpdateChatMsg(slot0)
+slot0.OnUpdateChatMsg = function(slot0)
 	slot0:Update()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0:Update()
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	slot0:Update()
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	slot0.lposX = nil
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0.hideChatFlag and slot0.hideChatFlag == 1 then
 		return
 	end
@@ -100,7 +100,7 @@ function slot0.Update(slot0)
 	slot0:UpdateMessages(getProxy(ChatProxy):GetAllTypeChatMessages(uv0))
 end
 
-function slot0.InstantiateMsgTpl(slot0, slot1)
+slot0.InstantiateMsgTpl = function(slot0, slot1)
 	for slot6 = #slot0.items + 1, slot1 do
 		table.insert(slot0.items, Object.Instantiate(slot0.items[1], slot0.items[1].parent))
 	end
@@ -110,7 +110,7 @@ function slot0.InstantiateMsgTpl(slot0, slot1)
 	end
 end
 
-function slot0.UpdateMessages(slot0, slot1)
+slot0.UpdateMessages = function(slot0, slot1)
 	slot0:InstantiateMsgTpl(#slot1)
 
 	for slot5 = 1, #slot1 do
@@ -123,7 +123,7 @@ function slot0.UpdateMessages(slot0, slot1)
 	slot0.empty.text = PLATFORM_CODE == PLATFORM_JP and #slot1 <= 0 and "ログはありません" or ""
 end
 
-function slot0.UpdateMessage(slot0, slot1, slot2)
+slot0.UpdateMessage = function(slot0, slot1, slot2)
 	setActive(slot1, true)
 
 	findTF(slot1, "channel"):GetComponent("Image").sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot2.type) .. "_1920")
@@ -147,7 +147,7 @@ function slot0.UpdateMessage(slot0, slot1, slot2)
 	end
 end
 
-function slot0.MatchEmoji(slot0, slot1, slot2)
+slot0.MatchEmoji = function(slot0, slot1, slot2)
 	slot3 = false
 	slot5 = false
 
@@ -170,13 +170,13 @@ function slot0.MatchEmoji(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	for slot4, slot5 in ipairs(slot0.items) do
 		setActive(slot5, false)
 	end
 end
 
-function slot0.Fold(slot0, slot1, slot2)
+slot0.Fold = function(slot0, slot1, slot2)
 	slot0.lposX = slot0.lposX or slot0._tf.localPosition.x
 	slot3 = slot1 and slot0.lposX + 1200 or slot0.lposX
 
@@ -187,7 +187,7 @@ function slot0.Fold(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:disposeEvent()
 	pg.DelegateInfo.Dispose(slot0)
 end

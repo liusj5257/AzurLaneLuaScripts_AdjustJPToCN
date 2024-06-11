@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29492,
 	picture = "",
 	desc = "主炮每进行10次攻击，触发专属弹幕-黛朵II",
 	stack = 1,
-	id = 29492,
+	color = "red",
 	icon = 29490,
 	last_effect = "",
 	effect_list = {
@@ -30,10 +30,10 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				skill_id = 29492,
 				target = "TargetSelf",
 				countType = 29490,
+				maxTargetNumber = 0,
+				skill_id = 29492,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -50,9 +50,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 29493,
 				target = "TargetSelf",
 				countType = 29490,
+				skill_id = 29493,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

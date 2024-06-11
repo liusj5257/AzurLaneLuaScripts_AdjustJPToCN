@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA26",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "轟——————！",
 			bgm = "bgm-cccp",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "轟——————！",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "嘖……第二主炮受損，艦隊受損情況如何？！",
 			typewriter = {
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "雷鳴數座副炮受損，總體狀況還過得去。我也問題不大，只是彈藥消耗有些厲害。",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "洪亮受損嚴重，已經撤離至二線，摩爾曼斯克與我主炮、雷達、動力系統均有不同程度受損，不過還能繼續戰鬥。",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "因為目標是一直長期處於我們控制之下的水下“密室”，我們這次的量產型艦隊本來也不是為瞭如此硬仗準備的啊……",
 			typewriter = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "這麼下去可不妙。別說前往並守衛撤離點了，再維持戰線四個小時都很困難。",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "真沒想到會出現這種情況，明明已經連每一個冰塊都探查過了……居然會隱藏著這種規模的敵人………………",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "這次行動是北方聯合的失誤，我們願意為此承擔全部責任。但是指揮官同志絕對不能因此犧牲在這裡。",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "基洛夫、雷鳴，你們護送指揮官同志一同前往另一處軌道下的控制室。其餘各艦，包括我在內均成為指揮艦的盾牌，不惜代價也要將指揮官護送出去。",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "只能採用這樣的戰術了嗎……即便是這樣也不能保證成功哦？",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "我們已經也沒有更好選擇了……我也贊同這個計劃，指揮官同志，執行吧。",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "呵，抱歉了指揮官同志，就算你拒絕我們也要這麼做。指揮官同志不是可以犧牲在這裡的人。",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
 			say = "在另一處軌道下方，也許什麼都沒有……",
@@ -288,8 +288,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "什麼？！怎麼會這樣…………您從剛才回收的資料中看到了這裡的結構嗎？！",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
 			say = "算是吧。",
@@ -320,8 +320,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "可惡，現在已經沒有重新分析和尋找鏡面海域控制裝置的時間和能力了…………",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,8 +347,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "非常抱歉，指揮官同志。",
 			typewriter = {
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_cccpv2_7",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "從這裡撤離的路線在哪裡？",
 			effects = {
@@ -410,8 +410,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "………………",
@@ -443,9 +443,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_cccpv2_10",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "…………大家仔細看中間的建築群，是不是光芒比剛才減弱了一些？",
 			effects = {
@@ -467,8 +467,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "好像是有一點……難道說我們要一直戰鬥到光芒徹底熄滅為止嗎……？",
 			typewriter = {
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
 			say = "恐怕是這樣。",
@@ -499,8 +499,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "按照現在消失的速度，不知道還要戰鬥多久啊……",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "如果不考慮撤離只是單純拖延時間的話，可選的戰術就變多了，也許真的能堅持下去也說不定……",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
 			say = "……………………",
@@ -586,8 +586,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "我們也是，指揮官同志。",
 			typewriter = {
@@ -603,8 +603,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "各艦注意，直到光芒消散前為止，盡情戰鬥吧！",
 			typewriter = {

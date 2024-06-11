@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN12",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "海霧海域・謎の量産艦",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgm = "xinnong-3",
+			hidePaintObj = true,
+			say = "海霧海域・謎の量産艦",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -24,9 +24,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -57,10 +57,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "通信機で発信してみたけど、特に反応はなかったわ",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官、ここからはどうすれば……",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "アーチャーフィッシュは何をやってるの？",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "しーっ、ちょっと機関の音がないか聞いているよ",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そっかー、潜水艦は耳がいいもんね～",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,10 +156,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まあなにも成果はなかったよ。なーんにも聞こえない",
 			typewriter = {
 				speed = 0.05,
@@ -174,10 +174,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "なんだか錨を下ろしてどっかで停泊しているみたいな雰囲気よね…",
 			typewriter = {
 				speed = 0.05,
@@ -192,10 +192,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "つまんなくて死んでしまいそう……",
 			typewriter = {
 				speed = 0.05,
@@ -210,10 +210,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "通信機がまた何かを受信したよ！",
 			typewriter = {
 				speed = 0.05,
@@ -228,10 +228,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……！！",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -256,10 +256,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "「飛龍ヨリ報告スル。AF基地ヘノ爆撃ニ成功」",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "「作戦目標未達。第二次攻撃ノ要ヲ認ム」",
 			typewriter = {
 				speed = 0.05,
@@ -292,10 +292,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "さっきも同じ内容のがあったけど、やっぱり状況報告…かしら",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "AF基地への爆撃って…アレンちゃんが言ってたのは連中の仕業だよね",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -368,10 +368,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "となると「再現」ね…この通信機での声もその一部…？",
 			typewriter = {
 				speed = 0.05,
@@ -386,10 +386,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "じゃあ問題なのは、どうしていきなりあたしたちをここに連れてきたか？",
 			typewriter = {
 				speed = 0.05,
@@ -401,12 +401,12 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まさか、鏡面海域でセイレーンの「演習」…あるいは「再現」を特等席で観戦させまぁす！",
 			typewriter = {
 				speed = 0.05,
@@ -421,10 +421,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "なんて、セイレーンがそんな「親切」なことをするはずがないよね！ははは",
 			typewriter = {
 				speed = 0.05,
@@ -454,10 +454,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それにしても…セイレーンはどうしてこちらの通信を真似ているの？",
 			typewriter = {
 				speed = 0.05,
@@ -543,12 +543,12 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "へー、そうやって「再現」しながら、上層部には「重桜の艦載機がAF基地を襲った」という事実だけを伝えさせる",
 			typewriter = {
 				speed = 0.05,
@@ -563,10 +563,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まあ、そう簡単には騙されないと思うけど…",
 			typewriter = {
 				speed = 0.05,
@@ -581,10 +581,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "相手が相手なので、こちらも重桜とセイレーンの関係を考えなくちゃならないってことね",
 			typewriter = {
 				speed = 0.05,
@@ -611,12 +611,12 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大変なんだよね…プリンちゃんって",
 			typewriter = {
 				speed = 0.05,
@@ -661,16 +661,16 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "プリンちゃん、ちょっとストップ！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				},
 				{
 					active = true,
@@ -687,8 +687,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -700,16 +700,16 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "今まで話してきたのは、あくまで「あたしたちに伝わっている通信」がそのままセイレーンの行動を反映しているって仮定でしょ？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				},
 				{
 					active = false,
@@ -729,10 +729,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "こっちが何の情報も掴んでいない以上、そういう推測は自分を悩ませるだけだって！",
 			typewriter = {
 				speed = 0.05,
@@ -744,8 +744,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -757,10 +757,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官、また通信機が「駒」の通信を受信しているよ",
 			typewriter = {
 				speed = 0.05,
@@ -775,10 +775,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（さて、この「戦況」がどこまで進んでいるのか？）",
 			typewriter = {
 				speed = 0.05,
@@ -790,13 +790,13 @@ return {
 			}
 		},
 		{
-			actor = 900317,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 900317,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（自分で考えるなって言ったものの、やっぱ気になるわね…もし「ユニオン役」が「駒」じゃなくて艦船だったら…）",
 			typewriter = {
 				speed = 0.05,

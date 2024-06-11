@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG39",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG39",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Malta Island - Banquet Venue",
 			side = 2,
 			bgName = "bg_italy_cg6",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "Malta Island - Banquet Venue",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
+			dir = 1,
 			say = "A certain ship was supposed to attend a joint banquet hosted by the Royal Navy and Iris Libre—",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "Enjoying fine tea overlooking the Méditerranée, and even finer ladies... Ah, how long it's been since I've indulged in a Royal Navy banquet.",
 			typewriter = {
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Thank you for attending, Littorio.",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "The pleasure is mine, Cardinal. I've heard that the Church of the Iris Orthodoxy has blossomed once more under your leadership. Congratulations.",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "As a member of Azur Lane, Iris Libre will continue to fight against the Sirens. As for Sardegna...",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "Well, Veneto and I are working hard to change things, but you know how the Senate is. Nothing's going to happen overnight unfortunately.",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "Thanks for the warning. I wouldn't want to get attacked at night by the woman who stole my heart... Or would I? Hehe~",
 			typewriter = {
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 207031,
 			nameColor = "#a9f548",
-			bgName = "bg_italy_cg6",
 			side = 2,
+			bgName = "bg_italy_cg6",
 			dir = 1,
+			actor = 207031,
 			stopbgm = true,
 			say = "No...",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Queen Elizabeth...! We can't just sit here...",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffff4d",
 			say = "What is the Iron Blood doing there...? This is going to turn the rules of engagement on its head again...",
 			typewriter = {
@@ -343,15 +343,15 @@ return {
 			}
 		},
 		{
-			say = "Eagle Union - NY City",
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "Eagle Union - NY City",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -379,8 +379,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Enterprise, Washington! I just heard the news...",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Yes. I've pieced together what happened. It seems like the Iron Blood was targeting Scapa Flow this whole time.",
 			typewriter = {
@@ -413,8 +413,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "What could they possibly be after? There's not even a base over there...",
 			typewriter = {
@@ -430,8 +430,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "I wonder what's going to happen with the Royal Navy...",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -473,8 +473,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "That's way over Sister Sara's head...",
 			typewriter = {
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "For now, just stay alert. Contact all our ships, and be on the lookout for enemy attacks.",
 			typewriter = {
 				speed = 0.05,

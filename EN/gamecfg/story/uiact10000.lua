@@ -6,8 +6,8 @@ return {
 		{
 			actor = 204020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "After sailing halfway across the world, we’ve finally reached the Far East again.",
 			shake = {
 				speed = 1,
@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = 0,
 			say = "The sea breeze here is not quite the same as the Atlantic Ocean... yes, it seems to have a taste of sourness in the air~",
+			dir = 0,
+			actor = 205060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -48,8 +48,8 @@ return {
 		{
 			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "This isn't my first time here... Last time, I upheld the prestige of the Royal Navy alongside my elder sister ship Hood..",
 			shake = {
 				speed = 1,
@@ -67,8 +67,8 @@ return {
 		{
 			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "…",
 			shake = {
 				speed = 1,
@@ -86,8 +86,8 @@ return {
 		{
 			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "Oh...I'm sorry, I didn't mean to deliberately bring it up",
 			shake = {
 				speed = 1,
@@ -105,8 +105,8 @@ return {
 		{
 			actor = 205060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "The Sakura Empire is sneaking around. For the sake of the Royal Navy's honor, they shall be stopped without advancing an inch in this area.",
 			shake = {
 				speed = 1,
@@ -124,8 +124,8 @@ return {
 		{
 			actor = 204020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 0,
+			nameColor = "#a9f548",
 			say = "Understood, advance forward fleet ---- \"Let's go find some trouble!\"",
 			shake = {
 				speed = 1,

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -247,8 +247,8 @@ return {
 		{
 			say = "回到茶會中——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,8 +276,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "這個點心好好吃，是誰做的？",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "這個味道……怎麼說呢，嗯，真是滿溢著姐妹之情……",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "{namecode:14}，不要這麼看著我啦……好啦，我知道了，我會向愛丁堡學司康餅的做法啦——雖然不一定能做得這麼好吃",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "沒關係，在姐姐的烘焙技藝登堂入室前，我會一直等待下去的！",
 			typewriter = {
 				speed = 0.05,
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
 			blackBg = true,
+			say = "此刻的{namecode:11}……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			say = "【北緯28°東經167°】",
 			blackBg = true,
+			say = "【北緯28°東經167°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "重櫻的北邊也這麼溫暖嗎……溫室效應，好可怕！",
 			typewriter = {
 				speed = 0.05,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900193,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "巴爾的摩？",
 			dir = 1,
-			say = "……",
 			bgm = "battle-boss-4",
+			actor = 900193,
+			actorName = "巴爾的摩？",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 0,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "可悲的人偶，和妳醜陋的塞壬造物主一同沉入冰冷的海底吧！",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "啊……",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這個地方總感覺讓人十分的不自在，而且…",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "（腦海中會偶爾聽到隻言片語的對話…）",
 			typewriter = {
 				speed = 0.05,
@@ -158,10 +158,10 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "難道指揮官被“塞壬”的歌聲迷惑了~？明明薩拉妹妹就在這裡的說！",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "儀表的度數還在增長，情況刻不容緩，繼續前進吧。",
 			typewriter = {
 				speed = 0.05,

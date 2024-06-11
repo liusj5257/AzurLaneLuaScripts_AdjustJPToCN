@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Science Rules!\n\n<size=45>Chapter 4 - A Real Experiment?</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301050,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "... Yuubari?",
 			bgm = "story-1",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "... Yuubari?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "R-really!? Can she do that!?",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "Oh gosh, I'm so sorry!",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,8 +156,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "Phew... Thank you, Yuubari!",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "Yep, hit the nail on the head!",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Is it even possible, though!?",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "But is it edible!?",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 408050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 408050,
+			nameColor = "#a9f548",
 			say = "Heck yeah!",
 			typewriter = {
 				speed = 0.05,

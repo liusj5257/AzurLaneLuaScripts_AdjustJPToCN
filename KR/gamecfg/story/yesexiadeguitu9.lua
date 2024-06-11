@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205030,
 			nameColor = "#ffff4d",
 			side = 2,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "쯧, 밤에 구축함과 얽히면 좋은 일이 없다니까……",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "후후후, 어뢰 명중! 넬슨의 항속이 절반으로 줄었어!",
 			typewriter = {
 				speed = 0.05,
@@ -189,14 +189,14 @@ return {
 			}
 		},
 		{
-			actor = 900236,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900236,
+			nameColor = "#a9f548",
 			say = "응! 드디어 끝이야. 긴 밤이었다~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "아직 툴롱항에 들어가지 못했어요. 방심하기에는 일러요.",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "네네네. 알았다고. 그런데 왠지 오늘 타르투가 계속 설교하는 느낌인데?",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "지난번 장난에 대한 복수에요.",
 			typewriter = {
 				speed = 0.05,
@@ -271,9 +271,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이봐, 뭐가 장난에 대한 복수야! 타르투! 제대로 말 하라고!",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -298,8 +298,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "흔들지 말아요. 듣고 있으니까…",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "후후, 자. 집에 돌아가자.",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………………………………………",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이렇게 소녀들의 웃음소리로 한밤 중의 항해도 끝을 맺었다…",
 			typewriter = {
 				speed = 0.05,
@@ -353,16 +353,16 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff5c5c",
 			say = "관찰 종료—— 후후… 이것도 하나의 '가능성'인가.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

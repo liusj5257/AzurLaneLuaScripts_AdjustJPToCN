@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"小小的騎士誓言！\n\n<size=45>五　多此一舉？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "隨著時間的推移，U-556秘書艦的工作也完成得越來越出色。",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "指揮官，明天就是休息日了！上次指揮官答應過陪我玩的，不如明天一起去海邊玩怎樣？！",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "嘿嘿，我很期待呢！",
 			typewriter = {
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "明天就好好放鬆一下吧。",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_task",
+			stopbgm = true,
 			dir = 1,
 			say = "…嗯？",
 			effects = {
@@ -151,9 +151,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "這個是……從演習艦隊發來的求救訊號？",
 			effects = {
 				{
@@ -171,9 +171,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "現在位於演習海域的是…俾斯麥帶領鐵血艦隊…莫非出了什麼意外？",
 			typewriter = {
 				speed = 0.05,
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "指揮官？發生什麼了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "欸？",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "俾斯麥姐姐她們莫非……",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "我和俾斯麥姐姐約好了，不管發生了什麼事都會保護她……指揮官，請下達出擊命令吧！",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "演習現階段本應該禁止使用無線電聯絡的，看來確實需要去那片區域看看。",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "立即啟動緊急備案，集結待命中的夥伴同U-556一起趕往演習海域",
 			typewriter = {
 				speed = 0.05,
@@ -286,14 +286,14 @@ return {
 			}
 		},
 		{
-			say = "港區周邊·演習海域",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			bgm = "story-6",
+			say = "港區周邊·演習海域",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -321,8 +321,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "俾斯麥姐姐，一定要平安無事啊……",
 			typewriter = {
@@ -337,14 +337,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_battle_night",
 			actor = 408040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "欸？…俾斯麥姐姐……還有歐根小姐？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
+			say = "指揮官這是？還有U-556和各位也在…出什麼事了？",
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官這是？還有U-556和各位也在…出什麼事了？",
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -402,10 +402,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_battle_night",
-			actor = 408040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "太好了……姐姐妳沒事實在是太好了！",
+			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "到底發生了什麼事，指揮官？",
 			typewriter = {
@@ -437,9 +437,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "總之大家平安無事就好。",
 			typewriter = {
 				speed = 0.05,
@@ -451,17 +451,17 @@ return {
 			}
 		},
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "原來如此……觸發了求救系統嗎。",
 			bgm = "story-2",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "原來如此……觸發了求救系統嗎。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -502,9 +502,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "看來是虛驚一場。以防萬一回頭讓科研部門徹底檢查一下這個系統吧。",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "比起那些~兩位沒事實在是太好了呢~！",
 			typewriter = {
@@ -536,10 +536,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_night",
-			actor = 405010,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "U-556，雖然我們是有過那樣的約定，不過再艱難的情況，我都可以自己應對，妳不必擔心我。",
+			dir = 1,
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -589,8 +589,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "啊。這樣嗎，姐姐……",
 			typewriter = {
@@ -606,8 +606,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "對呢，大姐可是鐵血最強的戰艦，我在擔心什麼呢……哈哈……",
 			typewriter = {
@@ -636,9 +636,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "U-556看起來十分失落……",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {

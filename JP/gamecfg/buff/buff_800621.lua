@@ -169,14 +169,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 800621,
+	time = 0,
 	picture = "",
 	desc = "增伤效果",
 	stack = 1,
-	id = 800621,
+	color = "red",
 	icon = 800620,
 	last_effect = "",
 	blink = {

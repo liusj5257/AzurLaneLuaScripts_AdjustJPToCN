@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>다시금 전투를 맞이하는 바다,</size>",
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -35,8 +35,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,12 +60,12 @@ return {
 			}
 		},
 		{
-			say = "어느 날·모항 주변 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "어느 날·모항 주변 해역",
 			effects = {
 				{
 					active = false,
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "젠장, 어째서 하필 이 결정적인 때에 이런 일이 일어나는 거야……!",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "………………！",
 			dialogShake = {
 				speed = 0.08,
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "셰피, 이건…!? 설마 … 말도 안 돼!",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,15 +249,15 @@ return {
 			}
 		},
 		{
-			say = "같은 시각, 모항·임시 사무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "같은 시각, 모항·임시 사무실",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,11 +282,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "우리 모항에 온 아이돌들…… 바로 이 분들이다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -308,13 +308,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "모, 모두 안녕하세요! 전 765 사무실 소속의 아이돌 아마미 하루카입니다! 잘 부탁드립니다!",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "모, 모두 안녕하세요! 전 765 사무실 소속의 아이돌 아마미 하루카입니다! 잘 부탁드립니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,13 +325,13 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "나도 같아, 그리고 난 아이돌 후타미 마미야!",
 			hidePaintEquip = true,
+			actor = 10700070,
+			nameColor = "#a9f548",
+			say = "나도 같아, 그리고 난 아이돌 후타미 마미야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -352,13 +352,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "난 아미! 다들 반가워~",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "난 아미! 다들 반가워~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,11 +372,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "잠깐, 왜 이렇게 진지하게 자기소개만 하는 거야!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -416,11 +416,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "자, 자…… 자기소개도 필요한 거니까요. 조급해하지 마세요…",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,11 +434,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "맞는 말입니다. 지금 상황을 정리하기 위해선——",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,13 +449,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "먼저 서로 알아가는 것도 좋겠죠.",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "먼저 서로 알아가는 것도 좋겠죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,13 +530,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "맞아요. 전 765 사무실의 키사라기 치하야입니다.",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "맞아요. 전 765 사무실의 키사라기 치하야입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,13 +547,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "미나세 씨, 아즈사, 리츠코—— 모두 같은 사무실의 동료죠.",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "미나세 씨, 아즈사, 리츠코—— 모두 같은 사무실의 동료죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,11 +567,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "마미랑 몇몇은 방금 영화 포스터 촬영 중이었는데, 눈 앞이 갑자기 새하얗게 변했어——",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,11 +585,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "정신을 차려 보니까 이곳에 와있더라고…",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,8 +600,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -738,13 +738,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "실례지만, 이건 어떻게 된 일이죠?",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "실례지만, 이건 어떻게 된 일이죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,8 +824,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "어머, 히퍼 언니?",
 			typewriter = {
@@ -841,9 +841,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403010,
 			dir = 1,
 			blackBg = true,
+			actor = 403010,
 			nameColor = "#a9f548",
 			say = "「공연 해역」은 지금 혼란 그 자체야——",
 			typewriter = {

@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 2,
+			blackBg = true,
 			say = "One day, in the port area...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			nameColor = "#a9f548",
 			say = "Commander nii-chan... why are you looking for Unicorn?...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -92,13 +92,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 2,
-			withoutPainting = true,
 			say = "A few minutes, in the command room...",
+			mode = 2,
+			blackBg = true,
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,8 +128,8 @@ return {
 			nameColor = "#a9f548",
 			say = "Unicorn... reporting in... is there anything you need from Unicorn, Onii-chan?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -154,16 +154,16 @@ return {
 			}
 		},
 		{
-			actor = 105030,
 			side = 0,
 			bgName = "bg_story_star0",
-			mode = 3,
 			bgspeed = 2,
 			blackBg = true,
+			actor = 105030,
+			mode = 3,
 			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -189,8 +189,8 @@ return {
 			nameColor = "#a9f548",
 			say = "Is this…?  A Ticket?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -231,9 +231,9 @@ return {
 		{
 			actor = 0,
 			nameColor = "#a9f548",
+			say = "（……）",
 			side = 2,
 			withoutPainting = true,
-			say = "（……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

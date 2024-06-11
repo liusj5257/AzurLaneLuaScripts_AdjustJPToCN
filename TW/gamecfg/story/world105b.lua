@@ -1,19 +1,19 @@
 return {
-	id = "WORLD105B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/38/tb-38",
+			dir = 1,
 			bgm = "story-richang",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "分析模組同步中：指揮官，前方海域發現多處敵方訊號，推測為塞壬攔截艦隊。",
-			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -51,11 +51,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/15/tb-15",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "是的，我可以通過整合各艦的情報數據，對於戰場情況提供實時分析。",
-			voice = "event:/tb/15/tb-15",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦隊調整隊形，準備迎敵。",
 			typewriter = {
 				speed = 0.05,

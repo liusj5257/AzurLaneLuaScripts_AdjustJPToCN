@@ -1,35 +1,35 @@
 slot0 = class("PlayerVitaeLive2dBtn", import(".PlayerVitaeBaseBtn"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 	slot0:Load(slot0.tf)
 	setActive(slot0.tf, true)
 end
 
-function slot0.InitBtn(slot0)
+slot0.InitBtn = function(slot0)
 end
 
-function slot0.GetBgName(slot0)
+slot0.GetBgName = function(slot0)
 	slot1, slot2 = nil
 
-	return slot0:IsHrzType() and "commonUI_atlas" or "admiralui_atlas", slot0.ship and slot0.ship:GetSkinConfig().spine_use_live2d == 1 and (slot0:IsHrzType() and "spine_painting_bg" or "sp") or slot0:IsHrzType() and "live2d_bg" or "l2d"
+	return slot0:IsHrzType() and "share/btn_l2d_atlas" or "admiralui_atlas", slot0.ship and slot0.ship:GetSkinConfig().spine_use_live2d == 1 and (slot0:IsHrzType() and "spine_painting_bg" or "sp") or slot0:IsHrzType() and "live2d_bg" or "l2d"
 end
 
-function slot0.IsActive(slot0)
+slot0.IsActive = function(slot0)
 	return true
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	uv0.super.Update(slot0, slot1, slot2, slot3)
 	slot0:NewGo()
 	slot0:RequesetLive2dRes()
 end
 
-function slot0.RequesetLive2dRes(slot0)
+slot0.RequesetLive2dRes = function(slot0)
 	slot0:StartCheckUpdate(HXSet.autoHxShiftPath("live2d/" .. string.lower(slot0.ship:getPainting()), nil, true))
 end
 
-function slot0.StartCheckUpdate(slot0, slot1)
+slot0.StartCheckUpdate = function(slot0, slot1)
 	if BundleWizard.Inst:GetGroupMgr("L2D").state == DownloadState.None or slot3 == DownloadState.CheckFailure then
 		slot2:CheckD()
 	end
@@ -45,7 +45,7 @@ function slot0.StartCheckUpdate(slot0, slot1)
 		slot0:UpdateBtnState(true, false)
 		removeOnButton(slot0.tf)
 	else
-		slot5 = PathMgr.FileExists(PathMgr.getAssetBundle(slot1))
+		slot5 = checkABExist(slot1)
 
 		slot0:ShowOrHide(slot5)
 
@@ -70,17 +70,17 @@ function slot0.StartCheckUpdate(slot0, slot1)
 	end
 end
 
-function slot0.GetDefaultValue(slot0)
+slot0.GetDefaultValue = function(slot0)
 	return getProxy(SettingsProxy):getCharacterSetting(slot0.ship.id, SHIP_FLAG_L2D)
 end
 
-function slot0.OnSwitch(slot0, slot1)
+slot0.OnSwitch = function(slot0, slot1)
 	getProxy(SettingsProxy):setCharacterSetting(slot0.ship.id, SHIP_FLAG_L2D, slot1)
 
 	return true
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	if slot0.live2dTimer then
 		slot0.live2dTimer:Stop()
 
@@ -88,7 +88,7 @@ function slot0.OnDispose(slot0)
 	end
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	uv0.super.Load(slot0, slot1)
 
 	if slot0:IsHrzType() then

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"센토와 선배님들\n\n<size=45>너무 진지한 센토</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 광장",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 광장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "비서함인 센토와 함께 모항을 순찰한다.",
 			typewriter = {
 				speed = 0.05,
@@ -75,10 +75,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 206040,
-			dir = -1,
-			nameColor = "#92fc63",
 			say = "후드 선배님, 좋은 아침입니다! 말씀하시는대로, 지금 지휘관님과 함께 순찰 중입니다.",
+			dir = -1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -160,8 +160,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "네, 후드 선배님! 꼭 참가하도록 하겠습니다!",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "센토는 로열 네이비의 선배들에게 잘 하고 있는 것 같네.",
 			typewriter = {
 				speed = 0.05,
@@ -194,15 +194,15 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#92fc63",
 			say = "지히간, 저기, 누구였더라……사탕 줄게~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "무츠키, 함대에 이제 들어온 센토 씨야…",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "무츠키, 함대에 이제 들어온 센토 씨야…",
+			actor = 301330,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -263,9 +263,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "센토는 두 사람에게 90도로 인사를 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301330,
+			nameColor = "#92fc63",
 			say = "에에에?! 키사라기랑 무츠키가 서, 선배……?",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
+			say = "네! 제게 있어 두 분은 존경해야 할 선배님이십니다!",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "네! 제게 있어 두 분은 존경해야 할 선배님이십니다!",
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -376,8 +376,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "네, 신경쓰실 거 없습니다!",
 			typewriter = {
@@ -390,12 +390,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "우으……역시 좀 이상해……",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우으……역시 좀 이상해……",
+			actor = 301330,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

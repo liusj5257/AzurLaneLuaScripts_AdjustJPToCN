@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"바닷바람과 여름날의 무인도\n\n<size=45>16 화창한 날의 다과회</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "맑은 하늘 아래, 다과회가 한창 흥겹게 진행되고 있다——",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "맑은 하늘 아래, 다과회가 한창 흥겹게 진행되고 있다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg3",
 			mode = 1,
+			bgName = "bg_summerisland_cg3",
 			sequence = {
 				{
 					"",
@@ -56,17 +56,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴저지",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴저지",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "얏센",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "얏센",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벨파스트",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "나가토",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벨파스트",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벨파스트",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "고마워~",
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그치, 그치~ 사쿠라 엠파이어가 휴양 온천을 짓고 있으니, 이 몸도 빠질 수야 없지~",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퀸 엘리자베스",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그건 당연하지! 이 몸께서 그런 이치도 모를 리 없잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "얏센",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "나가토",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴저지",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴저지",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴저지",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "나가토",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "뉴저지",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "각 진영이 힘을 합친 덕분에 휴양지 건설이 빠르게 추진되고 있었다.",
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "이 기간 동안 로열 포춘을 보지 못한 것을 제외하곤 무인도의 모든 것이 정상이었다.",
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "그러고보니… 이렇게 뜨거운 분위기 속 한 가지 잊은 게 있는 것 같은데….",
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "하지만 그게 무엇인지는…",
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴저지",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴저지",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "뉴저지에 손에 이끌려 자리에서 일어나는 순간, 잊혀졌던 기억이 되살아났다.",
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "이 작전의 원래 목적은 분명 보물찾기였던 것 같은데…?",

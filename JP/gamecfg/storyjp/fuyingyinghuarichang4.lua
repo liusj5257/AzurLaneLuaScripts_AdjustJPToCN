@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUARICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUYINGYINGHUARICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"あけおめ2020\n\n<size=45>四 お正月特訓？</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_outdoor",
 			bgm = "newyear2",
 			actor = 302081,
 			nameColor = "#a9f548",
 			say = "はああああ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "いい感じだ。だがもっと早く振れる――こうだ！",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 302081,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302081,
+			nameColor = "#a9f548",
 			say = "…っ！？流石は霧島さん…ならば！",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "はは！こっちも本気にならないとな！",
 			typewriter = {
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "木刀がぶつかる音がしばらく響き続けた。",
 			typewriter = {
 				speed = 0.05,
@@ -137,15 +137,15 @@ return {
 			}
 		},
 		{
-			actor = 302040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302040,
+			nameColor = "#a9f548",
 			say = "鬼怒ったら、お正月ぐらい部活の練習をしなくていいのに",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "別に私がお正月にわざわざ練習させてるわけじゃないよ？",
 			typewriter = {
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 302040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302040,
+			nameColor = "#a9f548",
 			say = "あ、そうだよね。みんなで裏山のお社に行かないかって誘いに来たよ。霧島さんもどう？",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "そういえば確かにまだ初詣に行ってないな…よし乗った。で、いつ出発する？",
 			typewriter = {
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 302081,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302081,
+			nameColor = "#a9f548",
 			say = "（せめて今日のノルマのあとにしてくれないか…）",
 			typewriter = {
 				speed = 0.05,

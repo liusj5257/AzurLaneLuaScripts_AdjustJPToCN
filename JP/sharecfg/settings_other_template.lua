@@ -3,8 +3,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "",
-		type = 2,
 		alignment = 0,
+		type = 2,
 		id = 1,
 		title = "艦名変更を反映",
 		desc = "（ON状態）他指揮官の艦船につけられた独自の名前を表示する"
@@ -12,8 +12,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "AUTO_BATTLE_LABEL",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 2,
 		title = "戦闘終了通知",
 		desc = "（ON状態）自律戦闘モードで戦闘終了時、端末バイブレーション機能で通知する"
@@ -21,8 +21,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "RARE_SHIP_VIBRATE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 3,
 		title = "バイブレーション",
 		desc = "（ON状態）レアリティSSR以上の艦船入手時、端末バイブレーション機能で通知する"
@@ -30,8 +30,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "DISPLAY_SHIP_GET_EFFECT",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 4,
 		title = "入手済艦の入手演出",
 		desc = "（OFF状態）図鑑に登録済みのレアリティR以下の艦船入手時、入手演出をスキップする"
@@ -39,8 +39,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "SHOW_TOUCH_EFFECT",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 5,
 		title = "タッチエフェクト表示",
 		desc = "（ON状態）画面タップ時、タップ時演出を表示する"
@@ -48,8 +48,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "BG_FIT_MODE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 6,
 		title = "ﾛｰﾄﾞ画面のｱｽ比自動適応",
 		desc = "（ON状態）ロード画面のアスペクト比に端末の画面設定を適用させる"
@@ -57,8 +57,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "BATTLE_HIDE_BG",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 7,
 		title = "衣装背景の戦闘時非表示",
 		desc = "（ON状態）戦闘時衣装の背景が一部表示されなくなる"
@@ -66,8 +66,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "BATTLE_EXPOSE_LINE",
-		type = 0,
 		alignment = 1,
+		type = 0,
 		id = 8,
 		title = "空母発見範囲を表示",
 		desc = [[
@@ -114,8 +114,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "AUTOFIGHT_BATTERY_SAVEMODE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 9,
 		title = "自動攻略省エネ化",
 		desc = "自動攻略モード開始20秒後、端末画面の明るさを低減させます"
@@ -123,8 +123,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "AUTOFIGHT_DOWN_FRAME",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 10,
 		title = "自動攻略fpsﾀﾞｳﾝ",
 		desc = "自動攻略省エネ化モードでは、ゲームのfpsを低下させます"
@@ -132,8 +132,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "ALLOW_FIREND_VISIT_BACKYARD_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 11,
 		title = "友達の寮舎訪問を許可",
 		desc = "ONにすると、友達が自分の寮舎を訪問できる"
@@ -141,8 +141,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "SHOW_FIREND_BACKYARD_SHIP_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 12,
 		title = "寮舎で友達の秘書艦を表示",
 		desc = "ONにすると、自分の寮舎画面で来訪した（寮舎表示をONにした）友達の秘書艦が表示される"
@@ -150,8 +150,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "SHOW_MY_BACKYARD_SHIP_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 13,
 		title = "友達の寮舎で秘書艦を表示",
 		desc = "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる"
@@ -159,8 +159,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 14,
 		title = "兵装高速変更確認表示",
 		desc = "（ON状態）装備高速変更時に確認画面が表示される"
@@ -168,8 +168,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "GYRO_ENABLE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 15,
 		title = "L2Dジャイロセンサー",
 		desc = "ONに設定すると、一部L2Dアニメーションはジャイロセンサーの動作によって挙動が異なります"
@@ -177,8 +177,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "SHIP_NAME_COLOR",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 16,
 		title = "ケッコン済艦船名特殊表示",
 		desc = "ONにすると、ドックでケッコン済みの艦船の名前の文字色が変更されます"
@@ -186,8 +186,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "BATTLERESULT_DISPAY_PAINTING",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 17,
 		title = "戦闘結果演出リッチ化",
 		desc = "ONにすると、戦闘結果画面の一部演出がリッチ化されます"
@@ -195,11 +195,38 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "LIVE2D_STATUS_SAVE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 18,
 		title = "L2D設定保存",
 		desc = "ONにすると、メイン画面のL2D着せ替えの演出設定が保存され、またメイン画面遷移時の【ログイン】【母港帰還】演出が再生されなくなります"
+	},
+	{
+		default = 1,
+		name = "USAGE_NEW_MAINUI",
+		alignment = 0,
+		type = 0,
+		id = 19,
+		title = "メイン画面新UIを適用",
+		desc = "ONにすると、メイン画面は新しいUIが適用されます"
+	},
+	{
+		default = 1,
+		name = "MAINUI_NEVER_SLEEP",
+		alignment = 0,
+		type = 0,
+		id = 20,
+		title = "メイン画面滞在中に省エネモードを起動させない",
+		desc = "ONにすると、メイン画面滞在中スリープモードになりません"
+	},
+	{
+		default = 0,
+		name = "MAINUI_RESET_L2D",
+		alignment = 0,
+		type = 0,
+		id = 21,
+		title = "L2Dリセットボタン表示",
+		desc = "ONにすると、メイン画面にL2D演出リセットボタンが表示されます"
 	},
 	all = {
 		1,
@@ -219,6 +246,9 @@ pg.settings_other_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21
 	}
 }

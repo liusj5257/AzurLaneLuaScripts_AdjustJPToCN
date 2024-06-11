@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "最终剧情战用敌方小自杀buff",
 	time = 0,
-	color = "yellow",
+	name = "最终剧情战用敌方小自杀buff",
+	init_effect = "",
+	id = 78302,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 78302,
+	color = "yellow",
 	icon = 8636,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78300,
 				time = 8,
 				rant = 10000,
-				skill_id = 78300
+				target = "TargetSelf"
 			}
 		}
 	}

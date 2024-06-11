@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGHAIJINGLEI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGHAIJINGLEI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"靜海驚雷\n\n<size=45>五 如魚得水</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
 			side = 2,
 			bgName = "bg_port_chuanwu2",
+			bgm = "main-arbitrationsystem-theme",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "？？？·？？？",
-			bgm = "main-arbitrationsystem-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			say = "在這座所處方位不明的設施中，兩個身影正在昏暗的燈光下交流著。",
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "量產型的生產我已經見過無數次了。",
 			painting = {
 				alpha = 0.3,
@@ -77,10 +77,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過……以高階塞壬數據為藍本製造的量產型，我還是第一次見到……",
 			painting = {
 				alpha = 0.3,
@@ -95,10 +95,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我一直以為這種事只有在它們自己的特殊工廠裡才能做到呢。",
 			painting = {
 				alpha = 0.3,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -125,10 +125,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這樣的強度……還叫簡易版本嗎？",
 			painting = {
 				alpha = 0.3,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -167,10 +167,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我還沒有天真到那種程度。只是感慨一下罷了……靠我們自己肯定做不到這種事。",
 			painting = {
 				alpha = 0.3,
@@ -185,10 +185,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過說真的，妳還是去好好休息一下吧……妳的身體狀態，怎麼看都不太妙。",
 			painting = {
 				alpha = 0.3,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯。測試者、淨化者、清除者、構建者……每一個都可以說“栩栩如生”。",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "只不過我有一個問題。",
 			painting = {
 				alpha = 0.3,
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -271,12 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……沒錯，真是什麼都瞞不過妳。",
 			painting = {
 				alpha = 0.3,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -339,10 +339,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "原來如此，可是這樣一來……數量上就少了一個。",
 			painting = {
 				alpha = 0.3,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			say = "空氣中的光影重新組合，在紀伊面前形成了一個她從未見過的塞壬人型。",
@@ -392,10 +392,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這個是……？",
 			painting = {
 				alpha = 0.3,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a020f0",
+			actorName = "？？？",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
 			actorName = "？？？",
+			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,

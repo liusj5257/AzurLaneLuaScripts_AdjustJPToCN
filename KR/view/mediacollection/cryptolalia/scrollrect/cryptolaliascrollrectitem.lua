@@ -2,11 +2,11 @@ slot0 = class("CryptolaliaScrollRectItem")
 slot1 = Vector3(490, -35, 0)
 slot2 = Vector3(297, 297, 0)
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	return uv1 + uv0 * (slot0.midIndex - slot1)
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.initIndex = slot3
@@ -18,18 +18,18 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:SetPosition(uv0(slot0, slot3))
 end
 
-function slot0.Interactable(slot0, slot1)
+slot0.Interactable = function(slot0, slot1)
 	slot0.img.raycastTarget = slot1
 
 	setActive(slot0.text, not slot1)
 end
 
-function slot0.CanInteractable(slot0)
+slot0.CanInteractable = function(slot0)
 	return slot0.img.raycastTarget
 end
 
-function slot0.UpdateIndexWithAnim(slot0, slot1, slot2, slot3)
-	function slot5(slot0, slot1)
+slot0.UpdateIndexWithAnim = function(slot0, slot1, slot2, slot3)
+	slot5 = function(slot0, slot1)
 		LeanTween.moveLocal(uv0._go, slot0, 0.594):setEase(LeanTweenType.easeInOutCirc):setOnComplete(System.Action(slot1))
 	end
 
@@ -45,23 +45,23 @@ function slot0.UpdateIndexWithAnim(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.UpdateIndex(slot0, slot1)
+slot0.UpdateIndex = function(slot0, slot1)
 	slot0.index = slot1
 	slot0._go.name = slot1
 
 	slot0:SetPosition(uv0(slot0, slot1))
 end
 
-function slot0.UpdateIndexSilence(slot0, slot1)
+slot0.UpdateIndexSilence = function(slot0, slot1)
 	slot0.index = slot1
 	slot0._go.name = slot1
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	slot0:UpdateIndex(slot0:GetIndex())
 end
 
-function slot0.ClearAnimation(slot0)
+slot0.ClearAnimation = function(slot0)
 	if LeanTween.isTweening(slot0._go) then
 		LeanTween.cancel(slot0._go)
 	end
@@ -69,33 +69,33 @@ function slot0.ClearAnimation(slot0)
 	slot0:SetPosition(uv0(slot0, slot0.index))
 end
 
-function slot0.GetIndex(slot0)
+slot0.GetIndex = function(slot0)
 	return slot0.index
 end
 
-function slot0.GetInitIndex(slot0)
+slot0.GetInitIndex = function(slot0)
 	return slot0.initIndex
 end
 
-function slot0.IsMidIndex(slot0)
+slot0.IsMidIndex = function(slot0)
 	return slot0:GetIndex() == slot0.midIndex
 end
 
-function slot0.UpdateSprite(slot0, slot1)
+slot0.UpdateSprite = function(slot0, slot1)
 	slot0.img.sprite = slot1
 
 	slot0.img:SetNativeSize()
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	slot0._tf.localPosition = slot1
 end
 
-function slot0.GetPosition(slot0)
+slot0.GetPosition = function(slot0)
 	return slot0._tf.localPosition
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:ClearAnimation()
 end
 

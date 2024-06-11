@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 350
+					number = 350,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 350
+					number = 350,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -29,8 +29,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.05
+					number = 0.05,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -44,8 +44,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 400
+					number = 400,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -55,8 +55,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 400
+					number = 400,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.061
+					number = 0.061,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -80,8 +80,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 450
+					number = 450,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -91,8 +91,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 450
+					number = 450,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -101,8 +101,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.072
+					number = 0.072,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -116,8 +116,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 500
+					number = 500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -127,8 +127,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.083
+					number = 0.083,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -152,8 +152,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 550
+					number = 550,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 550
+					number = 550,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -173,8 +173,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.094
+					number = 0.094,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -188,8 +188,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 600
+					number = 600,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -199,8 +199,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 600
+					number = 600,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.105
+					number = 0.105,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -224,8 +224,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 650
+					number = 650,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -235,8 +235,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 650
+					number = 650,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -245,8 +245,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.116
+					number = 0.116,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -260,8 +260,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 700
+					number = 700,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -271,8 +271,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 700
+					number = 700,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -281,8 +281,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.127
+					number = 0.127,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -296,8 +296,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 750
+					number = 750,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 750
+					number = 750,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -317,8 +317,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.138
+					number = 0.138,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -332,8 +332,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 800
+					number = 800,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -343,8 +343,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 800
+					number = 800,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -353,15 +353,15 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.15
+					number = 0.15,
+					attr = "criDamage"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -383,8 +383,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 350
+				number = 350,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -394,8 +394,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 350
+				number = 350,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -404,8 +404,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.05
+				number = 0.05,
+				attr = "criDamage"
 			}
 		}
 	}

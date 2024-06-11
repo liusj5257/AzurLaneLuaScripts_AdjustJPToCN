@@ -29,14 +29,14 @@ return {
 	{
 		time = 10
 	},
-	init_effect = "",
-	name = "",
 	time = 1,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 19333,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19333,
+	color = "red",
 	icon = 19330,
 	last_effect = "",
 	effect_list = {

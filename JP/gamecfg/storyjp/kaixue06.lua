@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE06",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE06",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"桜華爛漫新学期\n\n<size=45>その六　放課後のHRタイム</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			bgm = "story-1",
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "では…今日のHRをはじめるわ。",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,13 +35,13 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			say = "蒼龍姉様は教壇に立っても凛々しいですね！",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "蒼龍姉様は教壇に立っても凛々しいですね！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "うぅ…この前のテスト、解答用紙に名前書くの忘れてた……",
 			typewriter = {
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "みんな揃ったのね…まずは吹雪！",
 			typewriter = {
@@ -106,11 +106,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "は、はい！？",
 			typewriter = {
@@ -123,19 +123,19 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "学力は全く問題ないのに、いつも変な所を間違えるわね…",
 			typewriter = {
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "名前を書き忘れたり、マークシートが一行ズレたり…",
 			typewriter = {
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "な、なんでだろう……",
 			typewriter = {
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "まあ今後気をつけてちょうだい。こればかりは補習で治るものではないわね…",
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "次はZ1！",
 			typewriter = {
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "…と、飛龍も！",
 			typewriter = {
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "はい！？な、なんでしょう？",
 			typewriter = {
@@ -266,19 +266,19 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "昼の時言ったわよね。元気過ぎる問題児には「学園のルール」そのものから教える必要があるわ！",
 			typewriter = {
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "HRが終わったら説教するから、心の準備でもしておきなさい！",
 			typewriter = {
@@ -308,14 +308,14 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actorName = "Z1&{namecode:94}",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			actorName = "Z1&{namecode:94}",
+			actor = 307041,
+			nameColor = "#a9f548",
 			say = "はぁ……",
 			subActors = {
 				{

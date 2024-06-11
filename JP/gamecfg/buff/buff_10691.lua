@@ -159,14 +159,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "铁血之鹰",
 	time = 0,
-	color = "red",
+	name = "铁血之鹰",
+	init_effect = "",
+	id = 10691,
 	picture = "",
 	desc = "装备效率提高",
 	stack = 1,
-	id = 10691,
+	color = "red",
 	icon = 10691,
 	last_effect = "",
 	effect_list = {

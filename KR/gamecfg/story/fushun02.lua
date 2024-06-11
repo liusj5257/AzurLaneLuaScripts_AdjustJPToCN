@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN02",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSHUN02",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"푸슌의 대모험\n\n<size=45>제2장 - 용건은 게임기 수리?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "창춘! 이거 봐봐!",
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#92fc63",
+			say = "창춘! 이거 봐봐!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "우와아… 푸슌 언니, 진짜 간거야? 그 오래된 창고에……",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우와아… 푸슌 언니, 진짜 간거야? 그 오래된 창고에……",
+			actor = 501030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -214,15 +214,15 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#92fc63",
 			say = "이건… 휴대용 게임기?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "롱 아일랜드한테 물어보면 될 거라고 창춘이 말했어!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "롱 아일랜드한테 물어보면 될 거라고 창춘이 말했어!",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

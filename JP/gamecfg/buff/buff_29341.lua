@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29341,
 	picture = "",
 	desc = "进入战斗后，触发专属弹幕-大青花鱼I",
 	stack = 1,
-	id = 29341,
+	color = "red",
 	icon = 29340,
 	last_effect = "",
 	effect_list = {
@@ -19,8 +19,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 29341
+				skill_id = 29341,
+				target = "TargetSelf"
 			}
 		}
 	}

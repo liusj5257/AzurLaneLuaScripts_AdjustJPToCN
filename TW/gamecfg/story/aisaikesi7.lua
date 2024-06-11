@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"前輩與心結\n\n<size=45>七　與你一起的日常</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "艦隊的事情雖然紛繁複雜，但在和艾塞克斯兩人的配合下，許多事情都變得簡單起來。",
 			typewriter = {
 				speed = 0.05,
@@ -104,15 +104,15 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "……有人敲門嗎？請進！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,12 +137,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "打擾了。",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "打擾了。",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -160,8 +160,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "啊，前輩！有什麼事情嗎？",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "請稍等…指揮官，委託單好像在你手旁的那堆文件裡。",
 			typewriter = {
 				speed = 0.05,
@@ -228,12 +228,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "…呵呵，艾塞克斯有點變了呢，和指揮官之間的默契也越來越好了",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…呵呵，艾塞克斯有點變了呢，和指揮官之間的默契也越來越好了",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -266,14 +266,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107090,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "我的變化嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "也許是和指揮官待在一起久了吧。從成為秘書艦起，無論是訓練還是和其他人的交流，指揮官都幫了我很多呢…",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "我也和指揮官，變得越來越親密了呢……",
 			typewriter = {
@@ -356,8 +356,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "指揮官，其實我——",
 			typewriter = {
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "（推門）那個，還有件事忘了說——",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（推門）那個，還有件事忘了說——",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -393,8 +393,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -410,8 +410,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
 			say = "艾塞克斯的表情，不知為何看起來有些可怕。還保持著推門動作的企業則顯得有些尷尬。",

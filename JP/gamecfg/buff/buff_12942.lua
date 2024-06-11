@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 250
+					number = 250,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 250
+					number = 250,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 250
+					number = 250,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -37,8 +37,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 250
+					number = 250,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -47,8 +47,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.05,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -64,8 +64,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 300
+					number = 300,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -74,8 +74,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 300
+					number = 300,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -84,8 +84,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 300
+					number = 300,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -94,8 +94,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 300
+					number = 300,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.066,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -121,8 +121,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 350
+					number = 350,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -131,8 +131,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 350
+					number = 350,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -141,8 +141,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 350
+					number = 350,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -151,8 +151,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 350
+					number = 350,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.082,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -178,8 +178,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 400
+					number = 400,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -188,8 +188,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 400
+					number = 400,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -198,8 +198,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 400
+					number = 400,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -208,8 +208,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 400
+					number = 400,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.1,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -235,8 +235,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 450
+					number = 450,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -245,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 450
+					number = 450,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -255,8 +255,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 450
+					number = 450,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -265,8 +265,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 450
+					number = 450,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -275,8 +275,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.116,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -292,8 +292,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -302,8 +302,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -312,8 +312,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 500
+					number = 500,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -322,8 +322,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 500
+					number = 500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -332,8 +332,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.132,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -349,8 +349,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 550
+					number = 550,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -359,8 +359,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 550
+					number = 550,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -369,8 +369,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 550
+					number = 550,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -379,8 +379,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 550
+					number = 550,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -389,8 +389,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.15,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -406,8 +406,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 600
+					number = 600,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -416,8 +416,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 600
+					number = 600,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -426,8 +426,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 600
+					number = 600,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -436,8 +436,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 600
+					number = 600,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -446,8 +446,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.166,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -463,8 +463,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 650
+					number = 650,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -473,8 +473,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 650
+					number = 650,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -483,8 +483,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 650
+					number = 650,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -493,8 +493,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 650
+					number = 650,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -503,8 +503,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.182,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -520,8 +520,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 700
+					number = 700,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -530,8 +530,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 700
+					number = 700,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -540,8 +540,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 700
+					number = 700,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -550,8 +550,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 700
+					number = 700,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -560,8 +560,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.2,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -569,9 +569,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "黛朵QE",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 5,
@@ -592,8 +592,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 250
+				number = 250,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -602,8 +602,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 250
+				number = 250,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -612,8 +612,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 250
+				number = 250,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -622,8 +622,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 250
+				number = 250,
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -632,8 +632,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 0.05,
+				attr = "cri",
 				index = {
 					1
 				}

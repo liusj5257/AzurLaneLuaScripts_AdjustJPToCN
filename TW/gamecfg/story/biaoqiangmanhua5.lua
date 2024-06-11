@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIAOQIANGMANHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"月刊漫畫Javelin\n\n<size=45>五　這是什麼！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 401230,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……這是什麼",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "……這是什麼",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "那、那是…因為畫到一半突然不知道要怎麼編下去了…後面就這樣把素描本忘在社團活動室了…",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -270,10 +270,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			actor = 101170,
 			dir = 1,
 			hideOther = true,
 			actorName = "全員",
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "敬請期待標槍的新作品！",
 			typewriter = {
 				speed = 0.05,

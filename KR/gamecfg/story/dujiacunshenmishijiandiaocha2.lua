@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리조트 신비 사건 조사\n\n<size=45>평화로운 온천 마을</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "만쥬 온천 마을, 여관 본관",
 			bgm = "cw-story",
+			say = "만쥬 온천 마을, 여관 본관",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 302231,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "온천 만쥬 너무 좋아!",
 			dir = 1,
+			actor = 302231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "방 청소도 다 끝났어. 먼지 하나 없이 깨끗해♪",
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "순박한 학교 친구 갸루",
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "간식이랑 마실 거 준비도 끝났고, 매점 준비도 완벽해! 후후후… 이번 바캉스로 한몫 단단히 챙겨야지♪",
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 302215,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "얼음을 녹이는 쿨뷰티",
 			dir = 1,
+			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "여관 매점이라…",
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "순박한 학교 친구 갸루",
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래? '도저히 빠질 수 없는 일이 있느니 뭐니 해서 어쩔 수 없이 양보해 주겠다'고 하던데…",
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "노시로, 절차에는 차질이 없도록…",
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 302070,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "지금은 유라예요",
 			dir = 1,
+			actor = 302070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "시마카제는 온천 마을을 순찰하는 중입니다. 스루가는… 걱정이 된 건지 같이 따라갔고요.",
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "순찰… 괜찮다, 두 사람에게 맡기도록 하지….",
@@ -336,28 +336,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_in",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "만쥬 온천 마을, 거리",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "깡총깡총!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "너무 수상하지 않아요, 스루가 공?!",
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "주목 받기 싫은 수재",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응…? 뭐가…?",
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "깡총깡총!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "대낮인데 거리에 불이 켜져 있잖아요!",
@@ -514,8 +514,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "주목 받기 싫은 수재",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "대체 뭐가 수상한 건데… 어휴, 그래. 수상하다, 수상해.",
@@ -565,8 +565,8 @@ return {
 			mode = 1,
 			movableNode = {
 				{
-					time = 2,
 					name = "story_denglonggui",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 8
@@ -629,8 +629,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -639,11 +639,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "주목 받기 싫은 수재",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…이번엔 또 뭐야.",
@@ -714,28 +714,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "xinnong-3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "한편, 여관 본관에서는……",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -743,8 +743,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "노인을 공경하라",
 			nameColor = "#A9F548FF",
@@ -764,8 +764,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "캇파",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "낯가림을 고치기 위한 노력",
 			nameColor = "#A9F548FF",
@@ -785,8 +785,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "설녀",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -806,8 +806,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "바다허깨비",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "연장자의 실력을 무시하지 마라",
 			nameColor = "#A9F548FF",
@@ -827,14 +827,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "요괴의 정체는…… 그대들……?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -845,8 +845,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "너구리 요괴",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "내심 꽤 신난 모양",
 			nameColor = "#A9F548FF",
@@ -866,8 +866,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "너구리 요괴",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "내심 꽤 신난 모양",
 			nameColor = "#A9F548FF",
@@ -887,14 +887,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "온천 마을에 결계가 쳐져 있길래…",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,8 +924,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "등불 귀신",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "온천에서 파티임다!",
 			nameColor = "#A9F548FF",
@@ -945,8 +945,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "노인을 공경하라",
 			nameColor = "#A9F548FF",
@@ -966,11 +966,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "억지로… 묶어두겠다면야……",
 			painting = {
@@ -1017,8 +1017,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "노인을 공경하라",
 			nameColor = "#A9F548FF",
@@ -1038,8 +1038,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "캇파",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "낯가림을 고치기 위한 노력",
 			nameColor = "#A9F548FF",
@@ -1059,8 +1059,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "바다허깨비",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "연장자의 실력을 무시하지 마라",
 			nameColor = "#A9F548FF",
@@ -1080,8 +1080,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "너구리 요괴",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "내심 꽤 신난 모양",
 			nameColor = "#A9F548FF",
@@ -1119,8 +1119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -1140,8 +1140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -1161,8 +1161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -1182,14 +1182,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "……괜찮다.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1200,8 +1200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -1221,8 +1221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -1242,8 +1242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",

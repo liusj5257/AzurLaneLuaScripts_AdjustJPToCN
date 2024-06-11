@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春天的賞櫻大會\n\n<size=45>六  花見酒</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 305030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "噗哈～果然說到賞櫻花，就少不了這個呢～",
 			bgm = "story-1",
+			actor = 305030,
+			nameColor = "#a9f548",
+			say = "噗哈～果然說到賞櫻花，就少不了這個呢～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 305040,
+			say = "{namecode:76}姐的喝法還是那麼豪爽呢，那我也——",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:76}姐的喝法還是那麼豪爽呢，那我也——",
+			actor = 305040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
+			say = "重櫻的風俗嗎…真是不錯呢",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "重櫻的風俗嗎…真是不錯呢",
+			actor = 403030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			actor = 306030,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 306030,
+			nameColor = "#a9f548",
 			say = "那邊也是另一番的熱鬧場景呢～",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

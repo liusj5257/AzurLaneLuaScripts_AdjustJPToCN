@@ -6,21 +6,21 @@ slot3 = class("BattleAirFightCommand", slot0.Battle.BattleSingleDungeonCommand)
 slot0.Battle.BattleAirFightCommand = slot3
 slot3.__name = "BattleAirFightCommand"
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.AddEvent(slot0, ...)
+slot3.AddEvent = function(slot0, ...)
 	uv0.super.AddEvent(slot0, ...)
 	slot0._dataProxy:RegisterEventListener(slot0, uv1.COMMON_DATA_INIT_FINISH, slot0.onBattleDataInitFinished)
 end
 
-function slot3.RemoveEvent(slot0, ...)
+slot3.RemoveEvent = function(slot0, ...)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.COMMON_DATA_INIT_FINISH)
 	uv1.super.RemoveEvent(slot0, ...)
 end
 
-function slot3.DoPrologue(slot0)
+slot3.DoPrologue = function(slot0)
 	pg.UIMgr.GetInstance():Marching()
 	slot0._uiMediator:SeaSurfaceShift(1, 15, nil, function ()
 		uv0._uiMediator:OpeningEffect(function ()
@@ -43,7 +43,7 @@ function slot3.DoPrologue(slot0)
 	slot0._uiMediator:ShowAirFightScoreBar()
 end
 
-function slot3.initWaveModule(slot0)
+slot3.initWaveModule = function(slot0)
 	slot0._waveUpdater = uv0.Battle.BattleWaveUpdater.New(function (slot0, slot1, slot2)
 		uv0._dataProxy:SpawnMonster(slot0, slot1, slot2, uv1.Battle.BattleConfig.FOE_CODE)
 	end, nil, function ()
@@ -60,7 +60,7 @@ function slot3.initWaveModule(slot0)
 	end, nil)
 end
 
-function slot3.onBattleDataInitFinished(slot0)
+slot3.onBattleDataInitFinished = function(slot0)
 	slot0._dataProxy:AirFightInit()
 
 	for slot5, slot6 in ipairs(slot0._userFleet:GetScoutList()) do
@@ -68,7 +68,7 @@ function slot3.onBattleDataInitFinished(slot0)
 	end
 end
 
-function slot3.RegisterUnitEvent(slot0, slot1, ...)
+slot3.RegisterUnitEvent = function(slot0, slot1, ...)
 	uv0.super.RegisterUnitEvent(slot0, slot1, ...)
 
 	if slot1:GetUnitType() == uv1.Battle.BattleConst.UnitType.PLAYER_UNIT then
@@ -76,7 +76,7 @@ function slot3.RegisterUnitEvent(slot0, slot1, ...)
 	end
 end
 
-function slot3.UnregisterUnitEvent(slot0, slot1, ...)
+slot3.UnregisterUnitEvent = function(slot0, slot1, ...)
 	if slot1:GetUnitType() == uv0.Battle.BattleConst.UnitType.PLAYER_UNIT then
 		slot1:UnregisterEventListener(slot0, uv1.UPDATE_HP)
 	end
@@ -91,7 +91,7 @@ slot3.ShipType2Point = {
 }
 slot3.BeenHitDecreasePoint = 10
 
-function slot3.onWillDie(slot0, slot1)
+slot3.onWillDie = function(slot0, slot1)
 	slot2 = slot1.Dispatcher
 	slot4 = slot2:GetTemplate().type
 
@@ -100,7 +100,7 @@ function slot3.onWillDie(slot0, slot1)
 	end
 end
 
-function slot3.onPlayerHPUpdate(slot0, slot1)
+slot3.onPlayerHPUpdate = function(slot0, slot1)
 	if slot1.Data.dHP <= 0 then
 		slot0._dataProxy:DecreaseAirFightScore(uv0.BeenHitDecreasePoint * -slot1.Data.dHP)
 	end

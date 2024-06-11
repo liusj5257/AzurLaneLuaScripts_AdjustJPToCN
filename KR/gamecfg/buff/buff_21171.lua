@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行24次攻击，触发全弹发射-谷物女神级I"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 21171,
 	picture = "",
 	desc = "主炮每进行24次攻击，触发全弹发射-谷物女神级I",
 	stack = 1,
-	id = 21171,
+	color = "red",
 	icon = 20000,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 21171,
+				target = "TargetSelf",
 				countType = 21170
 			}
 		}

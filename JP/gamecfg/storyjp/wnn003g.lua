@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "使用舰队指令模块-舰队部署，可以部署潜艇编队进入NA海域。",
 			typewriter = {
 				speed = 0.05,

@@ -10,7 +10,7 @@ slot7 = class("BattleCldSystem")
 slot0.Battle.BattleCldSystem = slot7
 slot7.__name = "BattleCldSystem"
 
-function slot7.Ctor(slot0, slot1)
+slot7.Ctor = function(slot0, slot1)
 	slot0._proxy = slot1
 
 	slot0:InitCldTree()
@@ -19,7 +19,7 @@ function slot7.Ctor(slot0, slot1)
 	slot0._foeCode = slot1:GetFoeCode()
 end
 
-function slot7.Dispose(slot0)
+slot7.Dispose = function(slot0)
 	slot0._proxy = nil
 	slot0._shipTree = nil
 	slot0._foeShipTree = nil
@@ -36,7 +36,7 @@ function slot7.Dispose(slot0)
 	slot0._wallTree = nil
 end
 
-function slot7.InitCldTree(slot0)
+slot7.InitCldTree = function(slot0)
 	slot1, slot2, slot3, slot4 = slot0._proxy:GetTotalBounds()
 	slot5 = Vector3(slot3, 0, slot2)
 	slot6 = Vector3(slot4, 0, slot1)
@@ -66,7 +66,7 @@ function slot7.InitCldTree(slot0)
 	slot0._wallTree = pg.ColliderTree.New("wall", slot5, slot6, 2)
 end
 
-function slot7.UpdateShipCldTree(slot0, slot1)
+slot7.UpdateShipCldTree = function(slot0, slot1)
 	slot2 = slot1:GetSpeed()
 	slot3 = slot1:GetCldBox()
 	slot4 = nil
@@ -100,30 +100,32 @@ function slot7.UpdateShipCldTree(slot0, slot1)
 	slot4:Update(slot3)
 end
 
-function slot7.HandlePlayerShipCld(slot0, slot1, slot2)
-	if slot2:GetCldData().Active == false then
+slot7.HandlePlayerShipCld = function(slot0, slot1, slot2)
+	if slot2:GetCldData().Active == false or slot3.ImmuneCLD == true then
 		return
 	end
 
 	slot5 = {}
 
 	for slot9 = 1, #slot1 do
-		if slot1[slot9].data.Active == false then
-			-- Nothing
-		elseif slot10.UID == slot2:GetUniqueID() then
-			-- Nothing
-		elseif slot3.IFF == slot10.IFF then
-			-- Nothing
-		elseif slot3.Surface == slot10.Surface then
-			slot5[#slot5 + 1] = slot10.UID
+		if slot1[slot9].data.Active ~= false then
+			if slot10.ImmuneCLD == true then
+				-- Nothing
+			elseif slot10.UID == slot2:GetUniqueID() then
+				-- Nothing
+			elseif slot3.IFF == slot10.IFF then
+				-- Nothing
+			elseif slot3.Surface == slot10.Surface then
+				slot5[#slot5 + 1] = slot10.UID
+			end
 		end
 	end
 
 	slot0._proxy:HandleShipCrashDamageList(slot2, slot5)
 end
 
-function slot7.HandleEnemyShipCld(slot0, slot1, slot2)
-	if slot2:GetCldData().Active == false then
+slot7.HandleEnemyShipCld = function(slot0, slot1, slot2)
+	if slot2:GetCldData().Active == false or slot3.ImmuneCLD == true then
 		return
 	end
 
@@ -131,28 +133,30 @@ function slot7.HandleEnemyShipCld(slot0, slot1, slot2)
 	slot5 = {}
 
 	for slot10 = 1, #slot1 do
-		if slot1[slot10].data.Active == false then
-			-- Nothing
-		elseif slot11.UID == slot2:GetUniqueID() then
-			-- Nothing
-		elseif slot3.IFF ~= slot11.IFF then
-			-- Nothing
-		elseif not slot11.FriendlyCld then
-			-- Nothing
-		elseif slot3.Surface == slot11.Surface then
-			slot5[#slot5 + 1] = slot4 - slot0:GetShip(slot11.UID):GetPosition()
+		if slot1[slot10].data.Active ~= false then
+			if slot11.ImmuneCLD == true then
+				-- Nothing
+			elseif slot11.UID == slot2:GetUniqueID() then
+				-- Nothing
+			elseif slot3.IFF ~= slot11.IFF then
+				-- Nothing
+			elseif not slot11.FriendlyCld then
+				-- Nothing
+			elseif slot3.Surface == slot11.Surface then
+				slot5[#slot5 + 1] = slot4 - slot0:GetShip(slot11.UID):GetPosition()
+			end
 		end
 	end
 
 	slot3.distList = slot5
 end
 
-function slot7.surfaceFilterCount(slot0, slot1)
+slot7.surfaceFilterCount = function(slot0, slot1)
 	slot2 = slot0:GetCldData()
 	slot3 = 0
 
 	for slot8 = 1, #slot1 do
-		if slot1[slot8].data.Active == true and slot9.UID ~= slot0:GetUniqueID() and slot2.IFF ~= slot9.IFF and slot2.Surface == slot9.Surface then
+		if slot1[slot8].data.Active == true and slot9.ImmuneCLD == false and slot9.UID ~= slot0:GetUniqueID() and slot2.IFF ~= slot9.IFF and slot2.Surface == slot9.Surface then
 			slot3 = slot3 + 1
 		end
 	end
@@ -160,7 +164,7 @@ function slot7.surfaceFilterCount(slot0, slot1)
 	return slot3
 end
 
-function slot7.UpdateAircraftCld(slot0, slot1)
+slot7.UpdateAircraftCld = function(slot0, slot1)
 	slot2 = slot1:GetSpeed()
 	slot3 = slot1:GetCldBox()
 	slot4 = nil
@@ -175,15 +179,15 @@ function slot7.UpdateAircraftCld(slot0, slot1)
 	slot0._aircraftTree:Update(slot1:GetCldBox())
 end
 
-function slot7.HandleBulletCldWithAircraft(slot0, slot1, slot2)
+slot7.HandleBulletCldWithAircraft = function(slot0, slot1, slot2)
 	for slot7 = 1, #slot1 do
-		if slot1[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true then
+		if slot1[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true and slot8.ImmuneCLD == false then
 			slot0._proxy:HandleBulletHit(slot0:GetBullet(slot8.UID), slot2)
 		end
 	end
 end
 
-function slot7.UpdateBulletCld(slot0, slot1)
+slot7.UpdateBulletCld = function(slot0, slot1)
 	slot3 = slot1:GetCldBox()
 	slot4 = slot1:GetCldData().IFF
 	slot5, slot6 = nil
@@ -211,7 +215,7 @@ function slot7.UpdateBulletCld(slot0, slot1)
 	slot5:Update(slot3)
 end
 
-function slot7.getBulletCldShipList(slot0, slot1, slot2)
+slot7.getBulletCldShipList = function(slot0, slot1, slot2)
 	slot3 = slot1:GetCldBox()
 	slot4 = nil
 
@@ -237,11 +241,11 @@ function slot7.getBulletCldShipList(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot7.HandleBulletCldWithShip(slot0, slot1, slot2)
+slot7.HandleBulletCldWithShip = function(slot0, slot1, slot2)
 	slot4 = slot2:GetType()
 
 	for slot8 = 1, #slot1 do
-		if slot1[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true then
+		if slot1[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true and slot9.ImmuneCLD == false then
 			slot10 = slot0:GetShip(slot9.UID)
 			slot12 = slot10:IsImmuneCommonBulletCLD()
 
@@ -256,7 +260,7 @@ function slot7.HandleBulletCldWithShip(slot0, slot1, slot2)
 	end
 end
 
-function slot7.UpdateAOECld(slot0, slot1)
+slot7.UpdateAOECld = function(slot0, slot1)
 	slot2 = slot1:GetCldBox()
 	slot5 = slot1:GetCldData().IFF
 	slot6 = slot1:OpponentAffected() and slot5 * -1 or slot5
@@ -292,7 +296,7 @@ function slot7.UpdateAOECld(slot0, slot1)
 	end
 end
 
-function slot7.getAreaCldShipList(slot0, slot1, slot2)
+slot7.getAreaCldShipList = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot1:GetAreaType() == uv0.AreaType.COLUMN or slot1:GetAnchorPointAlignment() == Vector3.zero then
@@ -310,27 +314,29 @@ function slot7.getAreaCldShipList(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot7.HandleAreaCldWithVehicle(slot0, slot1, slot2)
+slot7.HandleAreaCldWithVehicle = function(slot0, slot1, slot2)
 	slot1:ClearCLDList()
 
 	slot3 = slot1:GetCldData()
 	slot4 = slot1:OpponentAffected()
 
 	for slot9 = 1, #slot2 do
-		slot12 = slot0:GetShip(slot2[slot9].data.UID)
-		slot13 = true
+		if slot2[slot9].data.Active == true and slot10.ImmuneCLD == false then
+			slot12 = slot0:GetShip(slot10.UID)
+			slot13 = true
 
-		if slot1:GetDiveFilter() and table.contains(slot11, slot12:GetCurrentOxyState()) then
-			slot13 = false
-		end
+			if slot1:GetDiveFilter() and table.contains(slot11, slot12:GetCurrentOxyState()) then
+				slot13 = false
+			end
 
-		if slot13 and not slot1:IsOutOfAngle(slot12) then
-			slot1:AppendCldObj(slot10)
+			if slot13 and not slot1:IsOutOfAngle(slot12) then
+				slot1:AppendCldObj(slot10)
+			end
 		end
 	end
 end
 
-function slot7.HandleAreaCldWithAircraft(slot0, slot1, slot2)
+slot7.HandleAreaCldWithAircraft = function(slot0, slot1, slot2)
 	slot1:ClearCLDList()
 
 	slot3 = slot1:GetCldData()
@@ -343,13 +349,13 @@ function slot7.HandleAreaCldWithAircraft(slot0, slot1, slot2)
 	end
 end
 
-function slot7.HandleAreaCldWithBullet(slot0, slot1, slot2)
+slot7.HandleAreaCldWithBullet = function(slot0, slot1, slot2)
 	for slot7 = 1, #slot2 do
 		slot1:AppendCldObj(slot2[slot7].data)
 	end
 end
 
-function slot7.UpdateWallCld(slot0, slot1)
+slot7.UpdateWallCld = function(slot0, slot1)
 	slot2 = slot1:GetCldBox()
 
 	if slot1:GetCldObjType() == slot1.CLD_OBJ_TYPE_BULLET then
@@ -363,19 +369,19 @@ function slot7.UpdateWallCld(slot0, slot1)
 	end
 end
 
-function slot7.HandleWallCldWithBullet(slot0, slot1, slot2)
+slot7.HandleWallCldWithBullet = function(slot0, slot1, slot2)
 	for slot7 = 1, #slot2 do
-		if slot2[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true and not slot0._proxy:HandleWallHitByBullet(slot1, slot0:GetBullet(slot8.UID)) then
+		if slot2[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true and slot8.ImmuneCLD == false and not slot0._proxy:HandleWallHitByBullet(slot1, slot0:GetBullet(slot8.UID)) then
 			return
 		end
 	end
 end
 
-function slot7.HandleWllCldWithShip(slot0, slot1, slot2)
+slot7.HandleWllCldWithShip = function(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot8 = 1, #slot2 do
-		if slot2[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true then
+		if slot2[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true and slot9.ImmuneCLD == false then
 			if slot0:GetShip(slot9.UID):GetCurrentOxyState() ~= uv1.DIVE then
 				table.insert(slot4, slot10)
 			end
@@ -385,7 +391,7 @@ function slot7.HandleWllCldWithShip(slot0, slot1, slot2)
 	slot0._proxy:HandleWallHitByShip(slot1, slot4)
 end
 
-function slot7.InsertToBulletCldTree(slot0, slot1, slot2)
+slot7.InsertToBulletCldTree = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot2:GetCldData().IFF == slot0._foeCode then
@@ -397,15 +403,15 @@ function slot7.InsertToBulletCldTree(slot0, slot1, slot2)
 	slot3:Insert(slot2:GetCldBox())
 end
 
-function slot7.InsertToAOECldTree(slot0, slot1, slot2)
+slot7.InsertToAOECldTree = function(slot0, slot1, slot2)
 	slot0:GetAOETree(slot1):Insert(slot2:GetCldBox())
 end
 
-function slot7.InsertToWallCldTree(slot0, slot1)
+slot7.InsertToWallCldTree = function(slot0, slot1)
 	slot0:GetWallTree():Insert(slot1:GetCldBox())
 end
 
-function slot7.InsertToShipCldTree(slot0, slot1)
+slot7.InsertToShipCldTree = function(slot0, slot1)
 	slot3 = nil
 
 	if slot1:GetCldData().IFF == slot0._foeCode then
@@ -417,39 +423,39 @@ function slot7.InsertToShipCldTree(slot0, slot1)
 	slot3:Insert(slot1:GetCldBox())
 end
 
-function slot7.InsertToAircraftCldTree(slot0, slot1)
+slot7.InsertToAircraftCldTree = function(slot0, slot1)
 	slot0._aircraftTree:Insert(slot1:GetCldBox())
 end
 
-function slot7.GetBulletTree(slot0, slot1)
+slot7.GetBulletTree = function(slot0, slot1)
 	return slot0._bulletTreeList[slot1]
 end
 
-function slot7.GetFoeBulletTree(slot0, slot1)
+slot7.GetFoeBulletTree = function(slot0, slot1)
 	return slot0._foeBulleetTreeList[slot1]
 end
 
-function slot7.GetAOETree(slot0, slot1)
+slot7.GetAOETree = function(slot0, slot1)
 	return slot0._AOETreeList[slot1]
 end
 
-function slot7.GetWallTree(slot0, slot1)
+slot7.GetWallTree = function(slot0, slot1)
 	return slot0._wallTree
 end
 
-function slot7.GetShipTree(slot0)
+slot7.GetShipTree = function(slot0)
 	return slot0._shipTree
 end
 
-function slot7.GetFoeShipTree(slot0)
+slot7.GetFoeShipTree = function(slot0)
 	return slot0._foeShipTree
 end
 
-function slot7.GetAircraftTree(slot0)
+slot7.GetAircraftTree = function(slot0)
 	return slot0._aircraftTree
 end
 
-function slot7.DeleteShipLeaf(slot0, slot1)
+slot7.DeleteShipLeaf = function(slot0, slot1)
 	if slot1:GetCldData().IFF == slot0._foeCode then
 		slot0.DeleteCldLeaf(slot0:GetFoeShipTree(), slot1)
 	elseif slot2 == slot0._friendlyCode then
@@ -457,7 +463,7 @@ function slot7.DeleteShipLeaf(slot0, slot1)
 	end
 end
 
-function slot7.DeleteBulletLeaf(slot0, slot1)
+slot7.DeleteBulletLeaf = function(slot0, slot1)
 	if slot1:GetCldData().IFF == slot0._foeCode then
 		slot0.DeleteCldLeaf(slot0:GetFoeBulletTree(slot1:GetEffectField()), slot1)
 	elseif slot2 == slot0._friendlyCode then
@@ -465,70 +471,70 @@ function slot7.DeleteBulletLeaf(slot0, slot1)
 	end
 end
 
-function slot7.DeleteCldLeaf(slot0, slot1)
+slot7.DeleteCldLeaf = function(slot0, slot1)
 	slot0:Remove(slot1:GetCldBox())
 end
 
-function slot7.GetShip(slot0, slot1)
+slot7.GetShip = function(slot0, slot1)
 	return slot0._proxy:GetUnitList()[slot1]
 end
 
-function slot7.GetAircraft(slot0, slot1)
+slot7.GetAircraft = function(slot0, slot1)
 	return slot0._proxy:GetAircraftList()[slot1]
 end
 
-function slot7.GetBullet(slot0, slot1)
+slot7.GetBullet = function(slot0, slot1)
 	return slot0._proxy:GetBulletList()[slot1]
 end
 
-function slot7.GetAOE(slot0, slot1)
+slot7.GetAOE = function(slot0, slot1)
 	return slot0._proxy:GetAOEList()[slot1]
 end
 
-function slot7.InitShipCld(slot0, slot1)
+slot7.InitShipCld = function(slot0, slot1)
 	slot0:InsertToShipCldTree(slot1)
 end
 
-function slot7.DeleteShipCld(slot0, slot1)
+slot7.DeleteShipCld = function(slot0, slot1)
 	slot1:DeactiveCldBox()
 	slot0:DeleteShipLeaf(slot1)
 end
 
-function slot7.InitAircraftCld(slot0, slot1)
+slot7.InitAircraftCld = function(slot0, slot1)
 	slot0:InsertToAircraftCldTree(slot1)
 end
 
-function slot7.DeleteAircraftCld(slot0, slot1)
+slot7.DeleteAircraftCld = function(slot0, slot1)
 	slot1:DeactiveCldBox()
 	slot0.DeleteCldLeaf(slot0:GetAircraftTree(), slot1)
 end
 
-function slot7.InitBulletCld(slot0, slot1)
+slot7.InitBulletCld = function(slot0, slot1)
 	slot0:InsertToBulletCldTree(slot1:GetEffectField(), slot1)
 end
 
-function slot7.DeleteBulletCld(slot0, slot1)
+slot7.DeleteBulletCld = function(slot0, slot1)
 	slot1:DeactiveCldBox()
 	slot0:DeleteBulletLeaf(slot1)
 end
 
-function slot7.ShiftBulletCld(slot0, slot1)
+slot7.ShiftBulletCld = function(slot0, slot1)
 end
 
-function slot7.InitAOECld(slot0, slot1)
+slot7.InitAOECld = function(slot0, slot1)
 	slot0:InsertToAOECldTree(slot1:GetFieldType(), slot1)
 end
 
-function slot7.DeleteAOECld(slot0, slot1)
+slot7.DeleteAOECld = function(slot0, slot1)
 	slot1:DeactiveCldBox()
 	slot0.DeleteCldLeaf(slot0:GetAOETree(slot1:GetFieldType()), slot1)
 end
 
-function slot7.InitWallCld(slot0, slot1)
+slot7.InitWallCld = function(slot0, slot1)
 	slot0:InsertToWallCldTree(slot1)
 end
 
-function slot7.DeleteWallCld(slot0, slot1)
+slot7.DeleteWallCld = function(slot0, slot1)
 	slot1:DeactiveCldBox()
 
 	if slot0:GetWallTree() then

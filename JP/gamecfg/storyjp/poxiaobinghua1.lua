@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方連合・某所",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp3",
+			say = "北方連合・某所",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -83,8 +83,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "ソユーズなら会合のためピッツバーグに向かっている。今ここを取り仕切っているのは私だ",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "またこの時期がやってきたのか。しかし、あのソユーズ殿が抜け出してしまったなら戦線は大丈夫か？キーロフ？",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "…ということは、同志指揮官を「あの場所」に連れて行く任務は私が肩代わりしないといけないわけか",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "陣営を越えた艦船たちを率いる度量、そして海を取り戻すために尽力するところがアズールレーンの設立目的と一番合致している",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "……そして何よりも、ソユーズとアヴローラさん曰く、メンタルキューブとの親和性や「あの場所」で観測された現象",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "本来はソユーズ自らが連れて行くつもりだったようだが、彼女がピッツバーグの会合に参加している以上、私たちでやるしかないな",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "そこは解せんな。別にこの2～3日にやらねばならないというわけでもあるまい？",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "私も同意見だったが、各陣営…特に四大陣営が反攻作戦に転じた場合、同志指揮官の存在も必要になる",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "………鉄血と重桜までも同志指揮官の参加を要請するとでも？",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "いや、そうとは限らない。しかしロイヤルとユニオンからの圧も高まっていくのが現実だ",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "いつまでも愛しき指揮官様を北方連合で遊ばせていてはならない、と",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "というか、既に指揮官を迎える艦隊がこちらに向かってるという情報もあるな。そうなったら解放しないと",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "…………はっ。いつ到着する？",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "今週中。",
 			typewriter = {
@@ -385,8 +385,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "……切羽詰まってるじゃないか。で、私がすべきことは？",
 			typewriter = {
@@ -402,8 +402,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "同志指揮官を「あの場所」に連れて行ってくれ。セイレーンのほうは私の極地艦隊で対処する――やつらも私たちの目的が分かってきて急に防衛を固めているようだ",
 			typewriter = {
@@ -419,8 +419,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "キーロフ、あなたもベラルーシアと一緒に指揮官の護衛に参加して",
 			typewriter = {
@@ -436,8 +436,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "最後のチャンス…どうやら全員本気を出さないとだめみたいね",
 			typewriter = {
@@ -450,11 +450,11 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "分かってるって",
 			typewriter = {
 				speed = 0.05,
@@ -466,8 +466,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「レイ、お宝探しのゲームはどうやって作るか知ってるかい？」</size>",
@@ -506,12 +506,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

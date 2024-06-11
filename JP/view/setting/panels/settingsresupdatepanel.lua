@@ -1,18 +1,18 @@
 slot0 = class("SettingsResUpdatePanel", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsResUpdate"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("Settings_title_resUpdate")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / DOWNLOAD"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.tpl = slot0._tf:Find("Tpl")
 	slot0.containerTF = slot0._tf:Find("list")
 	slot0.iconTF = slot0._tf:Find("Icon")
@@ -56,7 +56,7 @@ function slot0.OnInit(slot0)
 	})
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
 	if slot0:IsLoaded() then

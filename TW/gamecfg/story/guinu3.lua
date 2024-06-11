@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"凜冽如惡鬼\n\n<size=45>三  卻非惡鬼</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "與鬼怒一同來到了港區後山的瀑布前——",
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "與鬼怒一同來到了港區後山的瀑布前——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "雖然有點在意鬼怒對阿武隈耳語了什麼，但還是毅然走向了瀑布的方向。",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "指揮官，聽好了——不管發生什麼事都不要分心，不要再像遇到虎頭蜂時那樣失態了。",
 			typewriter = {
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "下定決心進入瀑布後，冰冷而強大的水流瞬間沖刷下來，全身都籠罩在巨大的轟鳴聲中。",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "記住，不管發生什麼事都不要分心哦！",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "鬼怒再三叮囑著這個……是有什麼用意嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "阿武隈，別說些多餘的話。",
 			typewriter = {
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "知道了知道了。咦~？好~像~有~大~魚~咬~鉤~了~？",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "阿武隈突然機械般地念叨起了什麼來。",
 			typewriter = {
 				speed = 0.05,
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "哇~啊~這~條~魚~力~氣~好~大，要~拽~不~住~了——",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -334,8 +334,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "別分心，指揮官。",
 			typewriter = {
@@ -364,9 +364,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "阿武隈落進了河裡——這怎麼看都是故意掉下去的吧……",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "心裡雖然明知這是演技，身體還是先一步行動了。",
 			typewriter = {
 				speed = 0.05,
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "啊……指揮官真的來救我了。",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,8 +421,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "同伴的安危確實很重要……但是身為指揮者這麼不經思考的行動只會起到反效果！",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -448,8 +448,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "冷靜觀察，在阿武隈落水的時候我就在她身邊待機，你應該對我下達救援命令，而不是莽撞的以身涉險。",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……既然是指揮官的判斷，我不會再繼續多說什麼……不過，修行失敗了，重來！",
 			effects = {
@@ -488,8 +488,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "（接受了惡鬼的試煉，卻沒有變成真正的惡鬼。作為指揮者來說略顯不足，可是作為人來說……呵呵。）",
 			effects = {

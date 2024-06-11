@@ -12,12 +12,12 @@ return {
 	desc_get = "高爆弹伤害提高15.0%(满级25.0%)，造成起火概率提高1.2%(满级3.0%)",
 	name = "燃烧号令",
 	init_effect = "",
+	id = 1010610,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "高爆弹伤害提高$1，造成起火概率提高$2",
 	stack = 1,
-	id = 1010610,
+	color = "red",
 	icon = 10610,
 	last_effect = "",
 	effect_list = {
@@ -46,8 +46,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 1010611,
 				time = 1,
+				skill_id = 1010611,
 				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",

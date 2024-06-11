@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE34",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE34",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "A sea, dyed a dark red by flames and smoke. Tarnished by wanton violence and destruction.",
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
 			bgm = "airRaidAlarm",
+			say = "A sea, dyed a dark red by flames and smoke. Tarnished by wanton violence and destruction.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -41,9 +41,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "Tattered flags floated in the water. Debris and bodies alike were strewn everywhere unceremoniously.",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#ffa500",
 			say = "Where... am I?",
 			typewriter = {
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "They are still fighting. Among them are faces that she recognizes, and some that she doesn't.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#ffa500",
 			say = "...the different factions...",
 			typewriter = {
@@ -103,9 +103,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "But, it is not Sirens that they raise their weapons against.",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#ffa500",
 			say = "The enemy... is mass-produced ships from the Northern Parliament...?",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#ffa500",
 			say = "No... They look similar, but the weapons and design are completely different...",
 			typewriter = {
@@ -151,9 +151,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "One by one, the humans fall before the hands of the ships. They kneel. They sink. Into nothingness.",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#ffa500",
 			say = "I must help them...!",
 			typewriter = {
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "But her body would not obey her.",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#ffa500",
 			say = "...Up in the sky... are those meteors?",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#ffa500",
 			say = "They're so beautiful...",
 			typewriter = {
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
-			bgName = "bg_cccp_7",
-			stopbgm = true,
-			dir = 1,
 			side = 2,
+			dir = 1,
+			stopbgm = true,
+			bgName = "bg_cccp_7",
+			actor = 900227,
 			nameColor = "#ffa500",
 			say = "Indeed. Welcome back. I'm glad that you're all safe.",
 			flashout = {
@@ -266,9 +266,9 @@ return {
 			expression = 4,
 			side = 2,
 			actor = 107060,
-			nameColor = "#ffa500",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#ffa500",
 			say = "Gaaaahhh?!",
 			effects = {
 				{
@@ -293,10 +293,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 107060,
-			nameColor = "#ffa500",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#ffa500",
 			say = "*gasp*... Was I dreaming...?",
 			typewriter = {
 				speed = 0.05,

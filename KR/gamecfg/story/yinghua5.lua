@@ -1,14 +1,14 @@
 return {
 	fadeOut = 2,
 	mode = 2,
-	id = "YINGHUA5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"인간과 접촉해선 안 된다. 무녀의 신격을 손상시킨다.",
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			say = "……",
 			blackBg = true,
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,10 +35,10 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			bgm = "story-2",
+			say = "무츠, 보아라. 다음 의식은 이 자세로 하는 것이 어떻겠느냐?",
 			dir = 1,
 			blackBg = true,
-			say = "무츠, 보아라. 다음 의식은 이 자세로 하는 것이 어떻겠느냐?",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,9 +51,9 @@ return {
 		{
 			actor = 305060,
 			side = 0,
+			say = "응? 잠깐 그대로 있어 봐~ 으~음, 조금 바보 같나? 손을 똑바로 뻗어보는 게 어때?",
 			dir = 1,
 			blackBg = true,
-			say = "응? 잠깐 그대로 있어 봐~ 으~음, 조금 바보 같나? 손을 똑바로 뻗어보는 게 어때?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			say = "흉내 내보았지만, 그 미소는 어색하기만 하다.",
 			blackBg = true,
+			say = "흉내 내보았지만, 그 미소는 어색하기만 하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

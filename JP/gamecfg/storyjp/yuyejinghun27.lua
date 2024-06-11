@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN27",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_515",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "決意をしたロイヤル・フォーチュンは身を翻し、書斎から出ていきました。扉の向こうからの音が一段と騒がしくなり、彼女は長くは持たないでしょう",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -534,11 +534,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_130",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
 			bgm = "theme-shallowoftheworld",
-			actorName = "海天",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ランプの放つかすかな光を借りて、前へと進み続ける探索者。どれほど歩いたか、気が付くとあなたはある玄室に入ってしまい、眼の前に不気味に瞬く魔法陣が現れました",
 			typewriter = {
@@ -546,17 +546,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -782,9 +782,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "その台詞を口にした瞬間、あなたの良心は痛みだしました。ええ",
 			typewriter = {
@@ -797,9 +797,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "城主饅頭こそが一連の事件の黒幕だというのに、あなたときたら報酬が手に入るとばかり",
 			typewriter = {
@@ -812,9 +812,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ですが、ちっぽけな報酬で、あなたの鋼のような精神は揺るがないでしょう",
 			typewriter = {
@@ -923,11 +923,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_161",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
 			bgm = "story-richang-10",
-			actorName = "海天",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたはやがて隠し部屋の出口を見つけ出し、キャッスルから脱出しました",
 			typewriter = {
@@ -935,17 +935,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1149,8 +1149,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -1160,8 +1160,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			effects = {
 				{
 					active = true,

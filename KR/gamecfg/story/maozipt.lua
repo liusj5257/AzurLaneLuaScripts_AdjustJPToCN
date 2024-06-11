@@ -1,18 +1,18 @@
 return {
-	id = "MAOZIPT",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIPT",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-2",
 			actor = 701030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "지휘관 동지, 노스 유니온의 전시 정보국에 온 것을 환영해. 후후, 재미있는 곳이라고!",
-			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "해독 시간이 오래 걸리면 어떡하냐고? 걱정하지 마~ 우리 동지들의 효율은 엄청나니까!",
 			typewriter = {
 				speed = 0.05,

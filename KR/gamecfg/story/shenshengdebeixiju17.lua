@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU17",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU17",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>다시 어두운 숲으로 돌아와버렸다.</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>베르길리우스,</size>",
@@ -59,11 +59,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "번쩍(폭발)",
-			dir = 1,
 			bgm = "battle-italy",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "번쩍(폭발)",
 			flashN = {
 				color = {
 					1,
@@ -113,9 +113,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "폴라!!",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900197,
 			dir = 1,
+			actor = 900197,
 			say = "세계 최강의 장갑을 자랑하는 차라급 중순양함은 이렇게 쉽게 지지 않아…",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "제국의 중순양함… 역시 언니 말 대로 튼튼하네요. 마음에 안들어요.",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "워스파이트",
 			dir = 1,
+			actorName = "워스파이트",
 			say = "포미더블, 여기는 나에게 맡겨. 명령을 기억해.",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "으… ‘자정 12:00 전 까지 칼리브리아의 보석을 차지할 것.’",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "늦어선 안돼. 어서 오리온과 함께 출발해. 너희의 항속은 나보다 빠르니까 늦지 마.",
 			typewriter = {
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -40,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 0,
@@ -288,10 +288,10 @@ return {
 			}
 		},
 		{
+			say = "(용감하게 앞으로 나선 워스파이트는 포미더블을 대신해 포격을 막았다.)",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "(용감하게 앞으로 나선 워스파이트는 포미더블을 대신해 포격을 막았다.)",
 			flashN = {
 				color = {
 					1,
@@ -342,8 +342,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "너희의 상대는 나야. 포미더블에게 손가락 하나 댈 생각 하지 마!",
 			typewriter = {
@@ -374,8 +374,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "아니… 그저 포미더블이 화를 내면 나도 무사하지 못해.",
 			typewriter = {
@@ -391,8 +391,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "에?",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "[기함님, 동생을 잘 부탁드려요. 첫 출진이랍니다. 만약 무슨 일이 일어나도 양해해주세요.]",
 			typewriter = {
 				speed = 0.05,
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "[——일러스트리어스 배상]",
 			typewriter = {
 				speed = 0.05,
@@ -430,8 +430,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "워스파이트는 자신이 받은 전보를 생각하면서 몸서리를 쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -446,8 +446,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "워스파이트",
 			dir = 1,
+			actorName = "워스파이트",
 			say = "별거 아냐. 자, 함포로 공평하게 대결해보자고! Belli dura despicio!",
 			typewriter = {
 				speed = 0.05,

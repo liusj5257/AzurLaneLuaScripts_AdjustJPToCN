@@ -1,10 +1,10 @@
 slot0 = class("DOALinkIslandMediator", import("..TemplateMV.BackHillMediatorTemplate"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:BindEvent()
 end
 
-function slot0.BindEvent(slot0)
+slot0.BindEvent = function(slot0)
 	slot0:bind(uv0.GO_SCENE, function (slot0, slot1, ...)
 		uv0:sendNotification(GAME.GO_SCENE, slot1, ...)
 	end)
@@ -16,14 +16,14 @@ function slot0.BindEvent(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SEND_MINI_GAME_OP_DONE,
 		ActivityProxy.ACTIVITY_UPDATED
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SEND_MINI_GAME_OP_DONE then

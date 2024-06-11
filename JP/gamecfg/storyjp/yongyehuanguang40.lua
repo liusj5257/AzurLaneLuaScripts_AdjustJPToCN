@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG40",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG40",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 2,
-			side = 2,
-			say = "北方連合にて",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			bgm = "bsm-2",
+			say = "北方連合にて",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -65,10 +65,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "セイレーンの動きと鉄血はシンクロしすぎている。偶然の結果とは思えないな",
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "前線に最速で届けている。損傷していた輸送船の修理も始めているぞ",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "流石にセイレーンと戦うための物資に鉄血は手を出さなかったな",
 			typewriter = {
 				speed = 0.05,

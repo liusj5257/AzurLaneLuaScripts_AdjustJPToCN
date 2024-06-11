@@ -16,8 +16,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -39,8 +39,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.111
+					number = -0.111,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -62,8 +62,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.122
+					number = -0.122,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -85,8 +85,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.133
+					number = -0.133,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.144
+					number = -0.144,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -131,8 +131,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.155
+					number = -0.155,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -154,8 +154,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.166
+					number = -0.166,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -177,8 +177,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.177
+					number = -0.177,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -200,8 +200,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.188
+					number = -0.188,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -223,20 +223,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.2
+					number = -0.2,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "red",
+	id = 17311,
+	time = 0,
 	picture = "",
 	desc = "增加一门100%效率的防空武器",
 	stack = 1,
-	id = 17311,
+	color = "red",
 	icon = 14280,
 	last_effect = "",
 	blink = {
@@ -262,8 +262,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

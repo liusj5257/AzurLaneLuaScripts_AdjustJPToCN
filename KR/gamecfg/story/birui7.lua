@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"의전함의 연회\n\n<size=45>여흥은 달 밝은 밤에</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "연회는 대성황 속에 막을 내렸다.",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "연회는 대성황 속에 막을 내렸다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,17 +130,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "후우…이렇게 끝났네요.",
 			bgm = "story-2",
+			actor = 304020,
+			nameColor = "#92fc63",
+			say = "후우…이렇게 끝났네요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#92fc63",
 			say = "후후♪ 그래도 전 역시 모두가 왁자지껄 웃고 즐길 수 있는 연회가 제일 좋답니다.",
 			typewriter = {
 				speed = 0.05,
@@ -315,9 +315,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "구름 한 점 없는 밤하늘에 은색으로 밝게 빛나는 달빛이 모항을 비추었다. 오늘 밤은 달이 유난히 더 아름답구나.",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +325,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "좀 전의 연회에서 히에이와 함께 추었던 춤이 머릿속에서 떠나질 않는다.",
 			typewriter = {
 				speed = 0.05,
@@ -335,15 +335,15 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#92fc63",
 			say = "여흥의 댄스…말씀이세요? 연회는 이미 끝났다고요. 게다가 음악도……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = " \"……괜찮아. 연회가 끝난 다음을 즐기는 게 바로 '여흥' 이란 거니까.\"",
 			typewriter = {
 				speed = 0.05,

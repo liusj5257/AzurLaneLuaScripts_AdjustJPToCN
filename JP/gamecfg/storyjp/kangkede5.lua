@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KANGKEDE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KANGKEDE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シュガリーコンコード\n\n<size=45>五　決心</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日。母港の視察が終わった直後――",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日。母港の視察が終わった直後――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふぅ……歩いて疲れた～指揮官にちょっと足をマッサージしてほしいな～なんて♪",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "あははは～やっぱり指揮官は上手いよね～♪",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "でも毎回こんな感じでやってると、きっといつか飽きちゃうなー。",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "同じ人の作ったスイーツをずっと食べ続けたらきっと飽きちゃうのと同じね",
 			typewriter = {
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "コンコードが話題をスイーツのほうに誘導したようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "それで、この前の「糖分補給連合」活動の時から考えてたけど……",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "指揮官もダンケルクさんに作ってもらったものばかり食べてもしょうがないと思っているよね？",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "私もたまにはお菓子とかスイーツとか作りたいんだよね～そして指揮官に試食してほしいなぁって♪",
 			typewriter = {
@@ -191,9 +191,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "コンコードの期待にあふれる視線に流され、今度彼女の作ったお菓子の試食をすることを了承した。",
 			typewriter = {
 				speed = 0.05,
@@ -205,15 +205,15 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "おお！コンコードがやる気を出しているのを見ると、わたしもホッとするよ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -273,8 +273,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "だから今回は本気だって！",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -332,8 +332,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふふん～任せなさいって♪",
 			typewriter = {
@@ -362,12 +362,12 @@ return {
 			}
 		},
 		{
-			actor = 102180,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
 			blackBg = true,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "コンコードのキラキラとした目には熱い情熱が輝いていた。",
 			typewriter = {

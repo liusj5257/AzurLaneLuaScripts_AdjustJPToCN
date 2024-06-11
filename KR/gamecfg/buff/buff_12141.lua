@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.04,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -22,8 +22,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.04,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -37,8 +37,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 450
+					number = 450,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -51,8 +51,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.056,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -66,8 +66,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.056,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -81,8 +81,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 520
+					number = 520,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -95,8 +95,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.072,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -110,8 +110,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.072,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -125,8 +125,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 600
+					number = 600,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -139,8 +139,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.088,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -154,8 +154,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.088,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -169,8 +169,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 700
+					number = 700,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.104,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -198,8 +198,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.104,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -213,8 +213,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 770
+					number = 770,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -227,8 +227,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.12,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -242,8 +242,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.12,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -257,8 +257,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 850
+					number = 850,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -271,8 +271,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.14,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -286,8 +286,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.14,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -301,8 +301,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 950
+					number = 950,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -315,8 +315,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.16,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -330,8 +330,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.16,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -345,8 +345,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1020
+					number = 1020,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -359,8 +359,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.18,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -374,8 +374,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.18,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -389,8 +389,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1100
+					number = 1100,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -403,8 +403,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.2,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -418,8 +418,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.2,
+					attr = "cri",
 					index = {
 						1,
 						2,
@@ -433,20 +433,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1200
+					number = 1200,
+					attr = "loadSpeed"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "铁血领主",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 12141,
+	time = 0,
 	picture = "",
 	desc = "提高装填、123槽暴击率",
 	stack = 1,
-	id = 12141,
+	color = "yellow",
 	icon = 12140,
 	last_effect = "",
 	blink = {

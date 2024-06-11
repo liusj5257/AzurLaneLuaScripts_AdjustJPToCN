@@ -1,12 +1,12 @@
 return {
-	id = "W890120",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W890120",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン実験場に侵入すると、艦船が保有している装置（エネルギー供給装置など）が失われるようだ。",
 			typewriter = {
 				speed = 0.05,

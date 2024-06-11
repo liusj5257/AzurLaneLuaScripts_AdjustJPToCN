@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"另一個領導者？\n\n<size=45>五　領導者課程</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204030,
-			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "是的，喬治妳總是太耀眼了，導致會連陛下的光芒蓋過",
 			bgm = "story-1",
+			actor = 204030,
+			nameColor = "#a9f548",
+			say = "是的，喬治妳總是太耀眼了，導致會連陛下的光芒蓋過",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			say = "有個性還是很好的。嗯",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "有個性還是很好的。嗯",
+			actor = 205050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "也就是說……",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			say = "一瞬間，氣氛似乎變得肅殺（？）了起來。",
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "（原、原來是這麼嚴重的問題嗎……）",
 			typewriter = {
 				speed = 0.05,
@@ -246,13 +246,13 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，當然是開玩笑了。只不過，為了要解決我們指揮官的疑慮，這裡只能——",
 			bgm = "story-1",
+			actor = 204030,
+			nameColor = "#a9f548",
+			say = "呵呵，當然是開玩笑了。只不過，為了要解決我們指揮官的疑慮，這裡只能——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,9 +263,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "胡德從座位上站起來，側身到一旁，朝著廚房的威爾斯和這邊分別優雅的行了一個禮",
 			typewriter = {
 				speed = 0.05,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "這種了解，不應該是旁觀，也不應該僅從指揮官與秘書艦的關係來進行",
 			typewriter = {
 				speed = 0.05,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "喬治五世的弱點——",
 			typewriter = {
 				speed = 0.05,
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "指揮官，能拜託你為喬治做飯嗎？",
 			typewriter = {
 				speed = 0.05,

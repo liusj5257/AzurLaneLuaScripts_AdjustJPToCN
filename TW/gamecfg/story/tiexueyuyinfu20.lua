@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU20",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_bsm_2",
-			actorName = "鐵必制",
 			dir = 1,
-			say = "喂！那邊的那個小不點，不許在港區海域胡鬧，立刻報上所屬！！",
 			bgm = "bsm-5",
+			actorName = "鐵必制",
+			say = "喂！那邊的那個小不點，不許在港區海域胡鬧，立刻報上所屬！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			actorName = "鐵必制",
 			nameColor = "#ff5c5c",
+			actorName = "鐵必制",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			actorName = "鐵必制",
 			nameColor = "#ff5c5c",
+			actorName = "鐵必制",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			actorName = "鐵必制",
 			nameColor = "#ff5c5c",
+			actorName = "鐵必制",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
+			dir = 1,
 			say = "（只見U-556一個倒身翻滾潛入了港口的水裡，還是那套滑稽的動作）",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_bsm_2",
-			actorName = "鐵必制",
 			dir = 1,
+			actorName = "鐵必制",
 			say = "妳——別跑！！",
 			effects = {
 				{
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
+			dir = 1,
 			say = "（鐵必制頭冒青筋，對著水底下的U-556大吼著）",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ff5c5c",
 			say = "嘻嘻，今天又是556的勝利——",
 			effects = {
 				{

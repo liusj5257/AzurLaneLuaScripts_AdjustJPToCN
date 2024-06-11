@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ナイト＆アワード\n\n<size=45>その一　突然のお誘い</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "それは、秘書艦からの、突然のお誘いだった――",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "それは、秘書艦からの、突然のお誘いだった――",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "指揮官、バスケの試合に参加してみない？",
 			typewriter = {
 				speed = 0.05,
@@ -54,16 +54,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "兄貴って呼ぶなぁ！……って、指揮官がするんじゃなくて、監督として私のチームに参加してほしいのさ！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.12,
 					x = 0,
 					number = 2
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "カネノナルキはお金を実らせたりしないはずだが…ひとまず黙って引き受けよう。\t",
 			typewriter = {
 				speed = 0.05,
@@ -153,16 +153,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "……引き受けてくれるのか？やったー！さっすがは指揮官、話がわかる！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.08,
 					x = 0,
 					number = 1
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "バスケ大会の話を一旦締めて、クリーブランドはテキパキと仕事を始める。こういう律儀なところはなんとも彼女らしい。",
 			typewriter = {
 				speed = 0.05,

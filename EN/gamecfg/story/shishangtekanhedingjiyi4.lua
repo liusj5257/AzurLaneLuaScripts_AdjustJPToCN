@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANHEDINGJIYI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANHEDINGJIYI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection! Part 1\n\n<size=45>4 Blossoming Melody</size>",
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "As I approached the room, I heard a Sakura Empire instrument's melody, interspersed with sighs.",
 			bgm = "newyear2",
+			say = "As I approached the room, I heard a Sakura Empire instrument's melody, interspersed with sighs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "I just can't make it work... *sigh*...",
@@ -47,11 +47,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Oh? Commander? Why are you here...?",
@@ -65,11 +65,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "Because you heard my music...?",
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Urk... I'm sorry. You shouldn't have to hear such unskilled play...",
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "But it's odd.",
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I'm trying to play the way I learned, but for some reason, I can't stop playing off-tune...",
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "With a light grunt, Kashino struggled to pick up her instrument again.",
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Her fingering and posture didn't seem especially wrong, so there was only one possibility.",
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			live2d = "expedition",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
 			dir = 1,
 			optionFlag = 1,
 			actor = 319013,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "expedition",
 			say = "Hm? Do you think you can figure out what I'm getting wrong? Thank you!",
 			painting = {
 				alpha = 0.3,
@@ -202,14 +202,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
 			dir = 1,
 			optionFlag = 1,
 			actor = 319013,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "Umm, wait just a second...!",
 			painting = {
 				alpha = 0.3,
@@ -221,14 +221,14 @@ return {
 			}
 		},
 		{
-			hidePaintObj = true,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
 			withoutActorName = true,
 			optionFlag = 1,
 			actor = 319013,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "Kashino righted her posture, with much difficulty, and began playing a tune.",
 			typewriter = {
 				speed = 0.05,
@@ -236,14 +236,14 @@ return {
 			}
 		},
 		{
-			hidePaintObj = true,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
 			withoutActorName = true,
 			optionFlag = 1,
 			actor = 319013,
 			nameColor = "#A9F548FF",
-			live2d = true,
+			hidePaintObj = true,
 			say = "Once it was over...",
 			typewriter = {
 				speed = 0.05,
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
-			side = 2,
-			bgName = "star_level_bg_172",
 			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_172",
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "Oddly, I think I'm playing better now that you're watching me!",
@@ -268,17 +268,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -286,11 +286,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Hmm, but it's still a little off... Why could that be?",
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Commander, um, can you offer any advice...?",
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Am I simply not skilled enough? Have I not practiced enough?",
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Oh? Then...?",
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Further away? Like this? I'll try!",
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "...Hwuh?",
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I-I don't know why, but it's a lot better now!",
@@ -448,11 +448,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "Incredible, Commander!",
@@ -466,11 +466,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "B-but it is harder to play like this...",
@@ -484,11 +484,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Is there no way to solve this problem?",
@@ -514,11 +514,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I looked at the perplexed Kashino, and then at the instrument she struggled to hold.",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			live2d = true,
 			withoutActorName = true,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As long as she didn't move the two \"obstacles\" between her and the instrument, she'd continue to struggle.",
@@ -554,11 +554,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "Aww... C-Commander?",
@@ -572,11 +572,11 @@ return {
 			}
 		},
 		{
-			actor = 319013,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_172",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Help meee!",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"벚꽃놀이 대소동\n\n<size=45>제6장 - 꽃을 바라보며 한잔</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 305030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "…푸하~ 역시 벚꽃놀이엔 이게 있어야지~",
 			bgm = "story-1",
+			actor = 305030,
+			nameColor = "#92fc63",
+			say = "…푸하~ 역시 벚꽃놀이엔 이게 있어야지~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 305040,
+			say = "언니는 여전히 술 마시는 게 호쾌하다니까~ 자 그럼 나도…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "언니는 여전히 술 마시는 게 호쾌하다니까~ 자 그럼 나도…",
+			actor = 305040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
+			say = "사쿠라 엠파이어의 풍습인가…나쁘지 않군.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "사쿠라 엠파이어의 풍습인가…나쁘지 않군.",
+			actor = 403030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			actor = 306030,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
+			actor = 306030,
+			nameColor = "#92fc63",
 			say = "어라? 저쪽도 시끌벅적하네요……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "皇家同盟",
 	cd = 0,
+	picture = "0",
+	desc = "皇家同盟",
 	painting = 1,
 	id = 10540,
-	picture = "0",
 	castCV = "skill",
-	desc = "皇家同盟",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,18 +17,18 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 10542
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerMainFleet",
 				"TargetNationality"
@@ -41,9 +41,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerVanguardFleet",
 				"TargetNationality"

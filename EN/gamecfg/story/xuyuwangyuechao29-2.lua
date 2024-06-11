@@ -1,38 +1,38 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO29-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO29-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Unzen faced the rampaging beast anew and tightened her grip on her twin swords. A new power flowed into them and coalesced around her blades, giving them a new form.",
 			bgm = "theme-unzen",
+			say = "Unzen faced the rampaging beast anew and tightened her grip on her twin swords. A new power flowed into them and coalesced around her blades, giving them a new form.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She recalled the sight of her own countless failures in past dreams.",
-			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "Her swords hadn't been broken yet, and she now had others by her side.",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "Her swords hadn't been broken yet, and she now had others by her side.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,17 +42,17 @@ return {
 			bgName = "bg_yunxian_cg3_hx",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "Light gathered around her, creating many swords with the power of the concept of cleansing.",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "They created a wall of flashing steel around the shipgirls, repelling any shadows that dared encroach.",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Unzen",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Unzen",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "She channeled all her focus into a single point as she continued parrying and warding off the darkness, drawing ever nearer to the core.",
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "No matter what attacks the enemy threw at her, she knew that she was not alone.",
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "Shimanto and Ibuki had been beside her this entire time.",
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "Lights from bursts of flame and glints of steel continued to dance and weave together, never wavering while she was yet to complete her work.",
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Shimanto",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Unzen!",
 			painting = {
 				alpha = 0.3,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Shimanto",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We're not going to be able to hold out much longer!",
 			painting = {
 				alpha = 0.3,
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ibuki",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Unzen!",
 			painting = {
 				alpha = 0.3,
@@ -219,12 +219,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ibuki",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Lady Unzen, you'll have to go the rest of the way yourself!",
 			painting = {
 				alpha = 0.3,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "Shimanto's shikigami dragon had already caught on fire, yet it still tried to throw itself in the way of the enemy.",
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ibuki",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ugh... My blade's about to give out...",
 			painting = {
 				alpha = 0.3,
@@ -264,8 +264,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "Ibuki cast a single glance at the notches that the shadow's teeth had left in her dulled blade, before anointing it once more in the flames of battle without hesitation.",
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Unzen",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Unzen",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "Heart of Watatsumi",
 			dir = 1,

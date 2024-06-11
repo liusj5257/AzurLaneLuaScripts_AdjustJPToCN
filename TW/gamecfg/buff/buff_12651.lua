@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -29,8 +29,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -44,8 +44,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 610
+					number = 610,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -55,8 +55,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 720
+					number = 720,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -91,8 +91,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -101,8 +101,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -116,8 +116,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 830
+					number = 830,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -127,8 +127,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 940
+					number = 940,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -173,8 +173,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -188,8 +188,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1050
+					number = 1050,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -199,8 +199,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -224,8 +224,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1160
+					number = 1160,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -235,8 +235,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -245,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -260,8 +260,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1270
+					number = 1270,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -271,8 +271,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -281,8 +281,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -296,8 +296,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1380
+					number = 1380,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -317,8 +317,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
@@ -332,8 +332,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1500
+					number = 1500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -343,8 +343,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -10000
+					number = -10000,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -353,20 +353,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "首轮主炮后效果",
 	init_effect = "",
-	color = "red",
+	id = 12651,
+	time = 0,
 	picture = "",
 	desc = "首轮主炮后效果",
 	stack = 1,
-	id = 12651,
+	color = "red",
 	icon = 12650,
 	last_effect = "",
 	blink = {
@@ -384,8 +384,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -395,8 +395,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -10000
+				number = -10000,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -405,8 +405,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_2",
-				number = 0.1
+				number = 0.1,
+				attr = "DMG_TAG_EHC_T_2"
 			}
 		}
 	}

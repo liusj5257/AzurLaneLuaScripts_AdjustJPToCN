@@ -1,6 +1,6 @@
 slot0 = class("CommanderLearnTalentCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.talentId
 	slot5 = slot2.replaceid or 0

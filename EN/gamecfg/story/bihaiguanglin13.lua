@@ -1,18 +1,18 @@
 return {
-	id = "BIHAIGUANGLIN13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
-			nameColor = "#a9f548",
-			say = "KABOOOOM!",
+			bgm = "battle-boss-longgong",
 			dir = 1,
 			bgmDelay = 0.5,
-			bgm = "battle-boss-longgong",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -65,8 +65,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "I'm sure that last shot landed, but I barely even felt anything...",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "Having that said, I don't think our attacks are exactly having the desired effects either.",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "I can't tell if we're going to have any success with the direct attack approach, so let's try to avoid them for now and continue scouting ahead.",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(Well duh, not everyone can charge headlong into the enemy like Shimakaze. Of course it's better to avoid fighting whenever possible.)",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(But is this really the right way of doing things...? While I'm in the back overanalyzing everything, Shimakaze's group is already about to break through...)",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "It's so nice that Chikuma has a nice grasp over things with her \"eyes.\" I'm glad I'm on this team instead...",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(Oh, crap! I let my tongue slip...)",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "Err, it's nothing! I just was thinking out loud...",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "If you have any suggestions, I'm all ears. Naturally, you bring plenty of your own expertise that I cannot hope to match~",
 			typewriter = {
 				speed = 0.05,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I'm flattered, but err, I think things are better this way!",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

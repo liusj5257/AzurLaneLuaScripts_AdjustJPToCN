@@ -1,12 +1,12 @@
 slot0 = class("UserProxy", import(".NetProxy"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.userIsLogined = false
 	slot0.gateways = {}
 	slot0.canSwitchGateway = false
 end
 
-function slot0.setLastLogin(slot0, slot1)
+slot0.setLastLogin = function(slot0, slot1)
 	assert(isa(slot1, User), "should be an instance of User")
 
 	if slot1.type == 1 then
@@ -38,7 +38,7 @@ function slot0.setLastLogin(slot0, slot1)
 	end
 end
 
-function slot0.getLastLoginUser()
+slot0.getLastLoginUser = function()
 	slot0 = tonumber(PlayerPrefs.GetString("user.type"))
 	slot2 = PlayerPrefs.GetString("user.arg2")
 	slot3 = PlayerPrefs.GetString("user.arg3")
@@ -57,12 +57,12 @@ function slot0.getLastLoginUser()
 	return nil
 end
 
-function slot0.saveTranscode(slot0, slot1)
+slot0.saveTranscode = function(slot0, slot1)
 	PlayerPrefs.SetString("transcode", slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.getTranscode(slot0)
+slot0.getTranscode = function(slot0)
 	if PlayerPrefs.GetString("transcode") then
 		return slot1
 	end
@@ -70,39 +70,39 @@ function slot0.getTranscode(slot0)
 	return ""
 end
 
-function slot0.clearTranscode(slot0)
+slot0.clearTranscode = function(slot0)
 	PlayerPrefs.DeleteKey("transcode")
 end
 
-function slot0.SetLoginedFlag(slot0, slot1)
+slot0.SetLoginedFlag = function(slot0, slot1)
 	slot0.userIsLogined = slot1
 end
 
-function slot0.GetLoginedFlag(slot0)
+slot0.GetLoginedFlag = function(slot0)
 	return slot0.userIsLogined
 end
 
 slot1 = "#cacheGatewayFlag#"
 
-function slot0.SetDefaultGateway(slot0)
+slot0.SetDefaultGateway = function(slot0)
 	if not slot0.gateways[PLATFORM] then
 		slot0.gateways[PLATFORM] = GatewayInfo.New(NetConst.GATEWAY_HOST, NetConst.GATEWAY_PORT, NetConst.PROXY_GATEWAY_HOST, NetConst.PROXY_GATEWAY_PORT)
 	end
 end
 
-function slot0.ShouldSwitchGateway(slot0, slot1, slot2)
+slot0.ShouldSwitchGateway = function(slot0, slot1, slot2)
 	return slot0:GetCacheGatewayFlag(slot2) ~= slot1
 end
 
-function slot0.GetGateWayByPlatform(slot0, slot1)
+slot0.GetGateWayByPlatform = function(slot0, slot1)
 	return slot0.gateways[slot1]
 end
 
-function slot0.SetGatewayForPlatform(slot0, slot1, slot2)
+slot0.SetGatewayForPlatform = function(slot0, slot1, slot2)
 	slot0.gateways[slot1] = slot2
 end
 
-function slot0.GetCacheGatewayFlag(slot0, slot1)
+slot0.GetCacheGatewayFlag = function(slot0, slot1)
 	if not slot0.cachePlatform then
 		slot0.cachePlatform = PlayerPrefs.GetInt(uv0 .. slot1, PLATFORM)
 	end
@@ -110,17 +110,17 @@ function slot0.GetCacheGatewayFlag(slot0, slot1)
 	return slot0.cachePlatform
 end
 
-function slot0.GetCacheGatewayInServerLogined(slot0)
+slot0.GetCacheGatewayInServerLogined = function(slot0)
 	return slot0.cachePlatform or PLATFORM
 end
 
-function slot0.SetCacheGatewayFlag(slot0, slot1)
+slot0.SetCacheGatewayFlag = function(slot0, slot1)
 	if slot0.cachePlatform ~= slot1 then
 		slot0.cachePlatform = slot1
 	end
 end
 
-function slot0.SaveCacheGatewayFlag(slot0, slot1)
+slot0.SaveCacheGatewayFlag = function(slot0, slot1)
 	if not slot0.canSwitchGateway then
 		return
 	end
@@ -131,15 +131,15 @@ function slot0.SaveCacheGatewayFlag(slot0, slot1)
 	end
 end
 
-function slot0.GetReversePlatform(slot0)
+slot0.GetReversePlatform = function(slot0)
 	return slot0.cachePlatform == PLATFORM_IPHONEPLAYER and PLATFORM_ANDROID or PLATFORM_IPHONEPLAYER
 end
 
-function slot0.ActiveGatewaySwitcher(slot0)
+slot0.ActiveGatewaySwitcher = function(slot0)
 	slot0.canSwitchGateway = true
 end
 
-function slot0.ShowGatewaySwitcher(slot0)
+slot0.ShowGatewaySwitcher = function(slot0)
 	return slot0.canSwitchGateway
 end
 

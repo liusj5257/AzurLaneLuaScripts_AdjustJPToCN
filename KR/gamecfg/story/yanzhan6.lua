@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANZHAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANZHAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나이트 오브 로열 네이비\n\n<size=45>폐하의 배려?</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202120,
-			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "오늘 드실 홍차입니다. 맛있게 드십시오.",
 			bgm = "story-1",
+			actor = 202120,
+			nameColor = "#92fc63",
+			say = "오늘 드실 홍차입니다. 맛있게 드십시오.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 2.15,
 					dur = 0.3,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "……그, 그렇습니까?",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "……그, 그렇습니까?",
+			actor = 205020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "……따, 딱히 외롭지는 않으니까 말야! 살짝 신경 써준 것 뿐이라구!!",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "…네, 네?!",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.1,
 					x = 0,
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "워스파이트, 왜 그래?",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -368,12 +368,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "아, 아닙니다, 아무것도 아닙니닷!",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아, 아닙니다, 아무것도 아닙니닷!",
+			actor = 205020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#92fc63",
 			say = "그간 강녕하셨사옵니까. 폐하, 워스파이트 님.",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					dur = 0.3,
 					x = 0,
 					number = 1

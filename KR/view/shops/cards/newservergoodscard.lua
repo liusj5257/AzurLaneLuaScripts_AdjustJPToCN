@@ -1,6 +1,6 @@
 slot0 = class("NewServerGoodsCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0._tr = slot1.transform
@@ -23,7 +23,7 @@ function slot0.Ctor(slot0, slot1)
 	setText(slot0._tr:Find("item/count_contain/label"), i18n("activity_shop_exchange_count"))
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.shop = slot2
 
 	if slot1 ~= slot0.commodity then
@@ -38,14 +38,14 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0.cntTxt.text = slot0.commodity:GetCanPurchaseCnt() .. "/" .. slot0.commodity:GetCanPurchaseMaxCnt()
 
 	setActive(slot0.sellOutMaskTF, not slot0.commodity:CanPurchase())
 	setActive(slot0.levelMaskTF, not slot0.commodity:IsOpening(slot0.shop:GetStartTime()))
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	if string.match(slot0.commodity:GetDesc().name, "(%d+)") then
 		setText(slot0.nameTF, shortenString(slot2, 5))
 	else
@@ -61,13 +61,13 @@ function slot0.Init(slot0)
 
 	GetImageSpriteFromAtlasAsync(slot1.icon, "", slot0.itemIconTF)
 
-	slot4 = ItemRarity.Rarity2Print(slot1.rarity or 1)
+	slot4 = slot1.rarity or ItemRarity.Gray
 
-	setImageSprite(slot0.itemIconBgTF, GetSpriteFromAtlas("weaponframes", "bg" .. slot4))
-	setImageColor(slot0.itemIconFrameTF, shipRarity2FrameColor(slot4 + 1))
+	setImageSprite(slot0.itemIconBgTF, GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot4)))
+	setImageColor(slot0.itemIconFrameTF, Color.NewHex(ItemRarity.Rarity2FrameHexColor(slot4)))
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

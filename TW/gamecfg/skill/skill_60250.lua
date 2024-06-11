@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "HP回复",
 	cd = 0,
-	painting = 1,
-	id = 60250,
 	picture = "0",
 	desc = "回复",
+	painting = 1,
+	id = 60250,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,23 +16,23 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetNationality"
 			},
 			arg_list = {
-				maxHPRatio = 0.05,
-				nationality = 109
+				nationality = 109,
+				maxHPRatio = 0.05
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 60281
 			}

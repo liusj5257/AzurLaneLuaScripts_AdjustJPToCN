@@ -1,15 +1,15 @@
 return {
-	id = "W1014",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1014",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Scanning complete. There are still uncollected rewards in this zone. Please collect them all before leaving this zone.",
 			typewriter = {
 				speed = 0.05,

@@ -15,8 +15,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"「重生吧，我的半身——巨龍機甲·鐵爪！」",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"就這樣持續著，彷彿直至時間的盡頭。",
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"至於這場戰鬥的結果？",
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"次回——《試作型布里MKII之死》",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"「特別說明」",

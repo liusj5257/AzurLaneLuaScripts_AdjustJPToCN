@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHEBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHEBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"交錯する新たな波\n\n<size=45>三　指揮艦のカリスマ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "cw-story",
+			say = "母港・演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "やられたのだ――！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "ここまでか…雪風、味方防衛線まで後退せよ！あとはこちらと大鳳でフォローします！",
 			typewriter = {
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "人使いが荒いですわね…！雪風、今よ！",
 			typewriter = {
@@ -128,14 +128,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 900200,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "なんとか指揮官艦隊の猛攻を凌いだけど…しかしこのままではジリ貧になるのは確実ですね…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -179,8 +179,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "しょうがないですわ。指揮官の率いる艦隊と本気で戦うには、こちらの戦力にいくら演習補正とやらをつけたって限度がありますもの",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "確かに、こうも戦況が一辺倒となるとみんなのやる気が削られるのね…かといってあの雪風の言ってた拗ね手は使うわけにはいかないのね…",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "…………………………",
 			typewriter = {
@@ -275,15 +275,15 @@ return {
 			}
 		},
 		{
-			actor = 900200,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "大鳳さん、雪風さん、一つだけ打開策があります",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "この状況で何か打開策があるとても言うの？",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "雪風さんが突っ込むのではなく、指揮官の搭乗艦をこちらの本陣まで誘い込み、全員で一気に叩く",
 			typewriter = {
@@ -393,8 +393,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "砲撃でも爆撃でもなんでもいいから、とにかく旗艦をやるのよ！わかったわね！",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "あら、大鳳さんなら確実にわかると思ってましたが…索敵、頼めますか？",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "なっ！？……言うじゃありませんか駿河、この大鳳、頼まれてあげますわよ！",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "感謝します。詳しい指示は後で伝えるから、今は指揮官に誘い込まれたと気づかれないようにお願いね",
 			typewriter = {
@@ -474,12 +474,12 @@ return {
 			}
 		},
 		{
-			actor = 900200,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "――駿河艦隊、出撃！",
 			typewriter = {
 				speed = 0.05,

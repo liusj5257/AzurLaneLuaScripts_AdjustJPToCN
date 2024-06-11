@@ -7,12 +7,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "story-richang-flexible",
-			actor = 1002,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room1",
+			bgm = "story-richang-flexible",
+			tbActor = true,
+			actor = 1002,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Hey, look...",
 			typewriter = {
@@ -20,17 +20,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TB points at the clouds outside the window.",
@@ -52,10 +52,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1002,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "A star... A fish... A horse...",
 			typewriter = {
@@ -67,10 +67,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1002,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "An aircraft carrier... A battleship...",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "I look in the direction she's pointing, and...",
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "She's right! They DO look like those things! Why did Akashi make them like that?",

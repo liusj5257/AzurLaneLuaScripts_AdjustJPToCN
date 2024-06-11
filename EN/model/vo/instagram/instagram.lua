@@ -3,7 +3,7 @@ slot0.TYPE_PLAYER_COMMENT = 1
 slot0.TYPE_NPC_COMMENT = 2
 slot1 = pg.activity_ins_language
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 
@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.isRead = slot1.is_read == 1
 end
 
-function slot0.InitByServer(slot0, slot1)
+slot0.InitByServer = function(slot0, slot1)
 	slot0.text = slot1.text
 	slot0.picture = slot1.picture
 	slot0.time = slot1.time
@@ -64,7 +64,7 @@ function slot0.InitByServer(slot0, slot1)
 	end
 end
 
-function slot0.InitByConfig(slot0, slot1)
+slot0.InitByConfig = function(slot0, slot1)
 	slot2 = slot0:getConfig("message_persist")
 
 	assert(uv0[slot2], slot2)
@@ -99,7 +99,7 @@ function slot0.InitByConfig(slot0, slot1)
 	end
 end
 
-function slot0.GetLasterUpdateTime(slot0)
+slot0.GetLasterUpdateTime = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.discussList) do
@@ -113,33 +113,33 @@ function slot0.GetLasterUpdateTime(slot0)
 	return slot1[1] or 0
 end
 
-function slot0.AnyCommentUnread(slot0)
+slot0.AnyCommentUnread = function(slot0)
 	return _.any(slot0.discussList, function (slot0)
 		return slot0:AnyReplyTimeOut()
 	end)
 end
 
-function slot0.GetAllReply(slot0)
+slot0.GetAllReply = function(slot0)
 	return slot0.allReply
 end
 
-function slot0.IsReaded(slot0)
+slot0.IsReaded = function(slot0)
 	return slot0.isRead
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_ins_template
 end
 
-function slot0.GetIcon(slot0)
+slot0.GetIcon = function(slot0)
 	return slot0:getConfig("sculpture")
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetSortIndex(slot0)
+slot0.GetSortIndex = function(slot0)
 	slot1 = slot0:bindConfigTable()
 
 	if slot1[slot1.all[1]].order then
@@ -149,15 +149,15 @@ function slot0.GetSortIndex(slot0)
 	end
 end
 
-function slot0.GetImage(slot0)
+slot0.GetImage = function(slot0)
 	return slot0.picture
 end
 
-function slot0.GetContent(slot0)
+slot0.GetContent = function(slot0)
 	return HXSet.hxLan(slot0.text)
 end
 
-function slot0.GetLikeCnt(slot0)
+slot0.GetLikeCnt = function(slot0)
 	if slot0.good > 999 then
 		return "999+"
 	else
@@ -165,19 +165,19 @@ function slot0.GetLikeCnt(slot0)
 	end
 end
 
-function slot0.IsLiking(slot0)
+slot0.IsLiking = function(slot0)
 	return slot0.isLike
 end
 
-function slot0.UpdateIsLike(slot0)
+slot0.UpdateIsLike = function(slot0)
 	slot0.isLike = 1
 end
 
-function slot0.GetPushTime(slot0)
+slot0.GetPushTime = function(slot0)
 	return InstagramTimeStamp(slot0.time)
 end
 
-function slot0.GetCanDisplayComments(slot0)
+slot0.GetCanDisplayComments = function(slot0)
 	slot1 = {}
 	slot2 = 0
 
@@ -192,7 +192,7 @@ function slot0.GetCanDisplayComments(slot0)
 	return slot1, slot2
 end
 
-function slot0.GetFastestRefreshTime(slot0)
+slot0.GetFastestRefreshTime = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.discussList) do
@@ -210,15 +210,15 @@ function slot0.GetFastestRefreshTime(slot0)
 	end
 end
 
-function slot0.GetOptionComment(slot0)
+slot0.GetOptionComment = function(slot0)
 	return slot0.optionDiscuss
 end
 
-function slot0.CanOpenComment(slot0)
+slot0.CanOpenComment = function(slot0)
 	return #slot0.optionDiscuss > 0
 end
 
-function slot0.ShouldShowTip(slot0)
+slot0.ShouldShowTip = function(slot0)
 	return not slot0:IsReaded() or slot0:AnyCommentUnread()
 end
 

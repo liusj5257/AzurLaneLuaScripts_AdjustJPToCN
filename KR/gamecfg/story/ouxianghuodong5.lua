@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "라이브 종료",
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
-			say = "라이브 종료",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "사인을 받아둬야 하지 않을까… 두 사람이 슈퍼스타가 되기 전에 말이야. 에헤헤.",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -208,15 +208,15 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "장비 테스트 및 가창 행동 종료.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -308,8 +308,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			nameColor = "#a9f548",
 			say = "실질적인 승리의 포즈……",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			nameColor = "#a9f548",
 			say = "언니, 안샨 일행도 왔어!",
 			typewriter = {
@@ -342,8 +342,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 502023,
 			dir = 1,
+			actor = 502023,
 			nameColor = "#a9f548",
 			say = "모두들……!",
 			typewriter = {
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_120",
+			dir = 1,
 			say = "첫 번째 배틀이 끝난 뒤, 아카기는 조용히 자신의 새로운 장비를 바라보았다.",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "아카기? 왜 그래?",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_120",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "…………모두의, '감정'……",
 			typewriter = {

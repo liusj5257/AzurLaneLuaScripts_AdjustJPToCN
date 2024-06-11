@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"If you had allies who'd sortie with you and watch your back...\"</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"One Little Incident\n\n<size=45>Chapter 3: Comrades in Arms</size>",
@@ -39,12 +39,12 @@ return {
 			}
 		},
 		{
-			say = "Port - Exercise Area",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "Port - Exercise Area",
 			effects = {
 				{
 					active = false,
@@ -52,8 +52,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "By the way, I do joint exercises with the Scharnhorst sisters every week.",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Not only that, but we cover each other during real battles as well.",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "...Alright.",
 			typewriter = {
 				speed = 0.05,
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Maybe my battle buddies would know what the Commander really meant by \"what you want to do.\"",
 			typewriter = {
 				speed = 0.05,
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Scharnhorst or Gneisenau, who would be better to ask...",
 			typewriter = {
 				speed = 0.05,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#a9f548",
 			say = "What I want to do?",
 			typewriter = {
 				speed = 0.05,
@@ -267,12 +267,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#a9f548",
 			say = "Would you be surprised if I told you I wanna get stronger and defeat even fiercer enemies?",
 			typewriter = {
 				speed = 0.05,
@@ -284,12 +284,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#a9f548",
 			say = "Never step down, no matter who you're dealing with – that's my style.",
 			typewriter = {
 				speed = 0.05,
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 404020,
+			nameColor = "#a9f548",
 			say = "\"What I want to do\"... That's a good question.",
 			typewriter = {
 				speed = 0.05,
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 404020,
+			nameColor = "#a9f548",
 			say = "At present, my goals are to be of assistance to the Commander, and to keep my reckless sister in check.",
 			typewriter = {
 				speed = 0.05,
@@ -412,9 +412,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Yeah... As long as I'm surrounded by people I know and not all alone, like back then, I'll be fine...",
 			typewriter = {
 				speed = 0.05,
@@ -426,9 +426,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,

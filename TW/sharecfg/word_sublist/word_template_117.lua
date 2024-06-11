@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_117 = {}
 slot1 = slot0.word_template_117
 
-function temp()
+temp = function()
 	uv0["被"] = {
 		["干"] = {
 			this = true
@@ -35,7 +35,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吞"] = {
 		["精"] = {
 			this = true,
@@ -55,7 +55,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["诱"] = {
 		["色"] = {
 			u = {
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.m = {
 		m = {
 			["美"] = {

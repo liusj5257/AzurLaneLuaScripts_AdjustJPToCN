@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "休憩スペース",
 			side = 2,
 			bgName = "bg_port_dakaer",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-IJNdailymeeting",
+			hidePaintObj = true,
+			say = "休憩スペース",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "鉄血の浮島要塞にて最新技術のデモンストレーションをご覧いただきたい、ということみたいね",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "あの祭儀の島の一件での交換条件としては上々だけれど、タイミングがちょっと悪いわね",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "今私達が大々的に鉄血に向かうわけにはいきませんわ",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "そうよ。セイレーンの監視と例の情報の取得は最優先、加賀にはそれに専念してほしいわ",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,8 +218,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "いいえ、それには及ばないわ。大事な盟友の招待ですもの、ここはきちんと義理立てておきましょう",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "人選を変更せざるを得ないわね。鉄血が大したものを見せてくれるとは思いませんけど…",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "これしきのことであの方々の手を煩わせてはなりませんわ",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "ええ、本島の方々にも動いてはもらいますけど、私達のことに探りを入れてくるようなことになっては――",
 			typewriter = {
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "あ、あの！三笠大先輩はどうですか？",
 			typewriter = {
 				speed = 0.05,
@@ -379,8 +379,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "三笠大先輩はどうですかって…本気で言っていますの？",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "なりませんわ。あの方こそ一番いろんなところに首を突っ込みそうですもの",
 			typewriter = {
@@ -442,8 +442,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "翔鶴たちもダメよ。三笠大先輩と同じく面倒ですわ",
 			typewriter = {
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "そ、そうですか…なんだか心を読まれた気分です…うぅ…",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,8 +485,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "無理して発言する必要はありませんわ。あら、神通？",
 			typewriter = {
@@ -534,8 +534,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "（確かに、あの信濃なら何か余計なことをしでかす恐れは少ないわね）",
 			typewriter = {
@@ -567,8 +567,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "こちらも次の行動へ移りましょう",
 			typewriter = {
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「祭儀の島では「余燼」の出現など、トラブルが発生しつつもワタツミの儀式にて\n「最優先確保物資」を赤城から回収」</size>",
@@ -607,8 +607,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「………」</size>",
@@ -637,12 +637,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

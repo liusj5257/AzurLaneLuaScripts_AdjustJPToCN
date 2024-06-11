@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 审判机甲-战争 战争突刺！",
 	time = 0,
-	color = "yellow",
+	name = "2023英系活动 审判机甲-战争 战争突刺！",
+	init_effect = "",
+	id = 200345,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200345,
+	color = "yellow",
 	icon = 200345,
 	last_effect = "",
 	effect_list = {

@@ -1,14 +1,14 @@
 slot0 = class("ObjectBomb", import("view.miniGame.gameView.RyzaMiniGame.object.TargetObject"))
 
-function slot0.FirePassability(slot0)
+slot0.FirePassability = function(slot0)
 	return 0
 end
 
-function slot0.InTimeRiver(slot0)
+slot0.InTimeRiver = function(slot0)
 	return true
 end
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	slot0.cooldown = slot1.cooldown or 3
 	slot0.power = slot1.power
 
@@ -22,7 +22,7 @@ function slot0.InitUI(slot0, slot1)
 	})
 end
 
-function slot0.InitRegister(slot0, slot1)
+slot0.InitRegister = function(slot0, slot1)
 	slot0:Register("burn", function ()
 		uv0:Burning()
 	end, {
@@ -33,7 +33,7 @@ function slot0.InitRegister(slot0, slot1)
 	})
 end
 
-function slot0.Burning(slot0)
+slot0.Burning = function(slot0)
 	if slot0.burst then
 		return
 	else
@@ -63,7 +63,7 @@ function slot0.Burning(slot0)
 	slot0:Destroy()
 end
 
-function slot0.TimeUpdate(slot0, slot1)
+slot0.TimeUpdate = function(slot0, slot1)
 	if slot0.cooldown > 0 then
 		if slot0.cooldown > 2.87 and slot0.cooldown - slot1 <= 2.87 then
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3("ui-ryza-minigame-blasting fuse")
@@ -77,7 +77,7 @@ function slot0.TimeUpdate(slot0, slot1)
 	end
 end
 
-function slot0.SetHide(slot0, slot1)
+slot0.SetHide = function(slot0, slot1)
 	slot0.hide = slot1
 end
 

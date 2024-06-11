@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAYUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAYUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Language of the Flowers\n\n<size=45>Chapter 4 A Maiden's True Feelings</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-7",
 			bgName = "star_level_bg_103",
 			say = "Now that I think about it, I originally planned to keep visiting the garden room because I was curious about how the flowers I planted were faring.",
-			bgm = "story-richang-7",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "I find myself heading back once more, both for that purpose and to uphold the promise I made with Hanazuki last time.",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_142",
 			say = "As the gentle fragrance of flowers once again caresses my cheeks, I can hear Hanazuki's softly-singing voice in my ears.",
 			typewriter = {
@@ -64,17 +64,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -91,11 +91,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "Flowers, o flowers~ How the world changes~",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,11 +115,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "In the three days since we last met~",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,20 +138,20 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			bgName = "star_level_bg_142",
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "Oh, Commander! Are you here to see how the flowers are growing?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_142",
 			say = "I go on a stroll with Hanazuki through the sea of flowers, surrounded by warm sunlight and a fragrant breeze.",
 			typewriter = {
@@ -289,17 +289,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -316,11 +316,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "Commander, the jasmine and lilacs you planted are growing well.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,9 +337,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "Hanazuki points to a number of lush, green plants. Of course, it's still too early for flowers to bloom.",
 			typewriter = {
 				speed = 0.05,
@@ -356,11 +356,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "Thanks to you, these children were born into this world...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Even though flowers are different from us in many ways, they can also be quite similar to us.",
 			hidePaintEquip = true,
+			actor = 301820,
+			nameColor = "#A9F548FF",
+			say = "Even though flowers are different from us in many ways, they can also be quite similar to us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,11 +403,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "Some grow up and bloom in the blink of an eye, whereas others look plain but actually have incredible potential to shine.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,11 +427,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "When the right time comes, each and every one will blossom beautifully.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,11 +511,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "By the way, would you like something to drink? I have some floral tea for you today. It's great for helping you unwind and relax.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,11 +535,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "...Oh, umm, but before that...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,9 +556,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "Hanazuki holds out a single beautiful tickseed sunflower. Its petals, illuminated beneath the sun's rays, seem to shine even brighter than usual.",
 			typewriter = {
 				speed = 0.05,
@@ -572,9 +572,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "Come to think about it, she mentioned something about the \"language of flowers\" the other day.",
 			typewriter = {
 				speed = 0.05,
@@ -588,9 +588,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "I looked into it a bit, and this one in particular should mean...",
 			typewriter = {
 				speed = 0.05,

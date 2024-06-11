@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ハロウィンの遭遇\n\n<size=45>二 妖精姫の安眠地</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "ハロウィンの夜に別格の存在感を放つ古城がすぐそこにある。",
 			bgm = "battle-highseasfleet-reborn",
+			say = "ハロウィンの夜に別格の存在感を放つ古城がすぐそこにある。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "城の塔の先端にある十字架は月明かりでまるで輝きを放っているように見える……中には一体どんな存在が住んでいるのだろう。",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "そう思いながら、古城の扉を押し開けて――",
 			typewriter = {
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 206071,
 			side = 2,
 			bgName = "star_level_bg_162",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "ヒトの身で、夜の裔たる私の安眠地に踏み入るなんて――",
 			hidePaintEquip = true,
+			actor = 206071,
+			nameColor = "#A9F548FF",
+			say = "ヒトの身で、夜の裔たる私の安眠地に踏み入るなんて――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,11 +85,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "招かれざるモータルよ、あなたは私の永久なる夢を邪魔する理由がおありで？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "血色の玉座に座り、サキュバスともヴァンパイアともとれる仮装を身につけたアルビオンが来訪者である自分を迎え入れた。",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "普段のアルビオンとは雰囲気がだいぶ違う。となるとここは――",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "それはもちろん――",
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "アルビオンからグラスを渡され、中身の真紅の液体は月の光に照らされ、まるで宝石のような輝きを見せた。",
 			typewriter = {
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "もしかして……ワイン？",
 			typewriter = {
@@ -307,11 +307,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "いえ、ワインと色合いが似ているだけでただのグレープジュースですよ",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,11 +325,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "甘くてスッキリとした味で、ハロウィンの雰囲気にぴったりだと思います",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,11 +343,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "ええと、では、しき…コホン。アルビオンの眷属よ、共にこの甘美なる夜を過ごすと約束したからには……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,11 +371,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "ま、まあ、どうせ演技ですし、もう少しアルビオンに付き合って頂いて……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,11 +389,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "例えば、跪いて忠誠を誓って、そのあとは……やっぱり大丈夫です……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,11 +407,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "なんでもないですっ！今のは忘れてください…っ！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1

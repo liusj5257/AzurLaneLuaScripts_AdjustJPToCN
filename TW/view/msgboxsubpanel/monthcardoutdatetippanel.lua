@@ -1,6 +1,6 @@
 slot0 = class("MonthCardOutDateTipPanel", import(".MsgboxSubPanel"))
 
-function slot0.SetMonthCardEndDateLocal()
+slot0.SetMonthCardEndDateLocal = function()
 	if not getProxy(PlayerProxy):getRawData() or not slot0.id then
 		return
 	end
@@ -13,7 +13,7 @@ function slot0.SetMonthCardEndDateLocal()
 	PlayerPrefs.Save()
 end
 
-function slot0.GetMonthCardEndDate()
+slot0.GetMonthCardEndDate = function()
 	if not getProxy(PlayerProxy):getRawData() or not slot0.id then
 		return 0
 	end
@@ -21,7 +21,7 @@ function slot0.GetMonthCardEndDate()
 	return PlayerPrefs.GetInt("MonthCardEndDate" .. slot0.id, 0)
 end
 
-function slot0.SetMonthCardTipDate(slot0)
+slot0.SetMonthCardTipDate = function(slot0)
 	if not slot0 then
 		return
 	end
@@ -34,7 +34,7 @@ function slot0.SetMonthCardTipDate(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetMonthCardTipDate()
+slot0.GetMonthCardTipDate = function()
 	if not getProxy(PlayerProxy):getRawData() or not slot0.id then
 		return 0
 	end
@@ -42,7 +42,7 @@ function slot0.GetMonthCardTipDate()
 	return PlayerPrefs.GetInt("MonthCardTipDate" .. slot0.id, 0)
 end
 
-function slot0.SetMonthCardTagDate()
+slot0.SetMonthCardTagDate = function()
 	if not getProxy(PlayerProxy):getRawData() or not slot0.id then
 		return
 	end
@@ -51,7 +51,7 @@ function slot0.SetMonthCardTagDate()
 	PlayerPrefs.Save()
 end
 
-function slot0.GetShowMonthCardTag()
+slot0.GetShowMonthCardTag = function()
 	if not getProxy(PlayerProxy):getRawData() or not slot0.id then
 		return false
 	end
@@ -67,8 +67,8 @@ function slot0.GetShowMonthCardTag()
 	return PlayerPrefs.GetInt("MonthCardTagDate" .. slot0.id, 0) < slot2
 end
 
-function slot0.TryShowMonthCardTipPanel(slot0)
-	function slot1()
+slot0.TryShowMonthCardTipPanel = function(slot0)
+	slot1 = function()
 		if uv0 then
 			uv0()
 		end
@@ -111,16 +111,16 @@ function slot0.TryShowMonthCardTipPanel(slot0)
 	slot1()
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Msgbox4MonthCardTip"
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	uv0.super.Init(slot0)
 	setText(slot0._tf:Find("NameText"), pg.ship_data_statistics[312011].name)
 end
 
-function slot0.UpdateView(slot0, slot1)
+slot0.UpdateView = function(slot0, slot1)
 	slot0:PreRefresh(slot1)
 
 	rtf(slot0.viewParent._window).sizeDelta = Vector2.New(960, 685)

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"祈願與祝福之宴\n\n<size=45>二　重逢的舉杯</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·宴會場地",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "港區·宴會場地",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "前面就說過了吧，不用這麼拘謹，叫我俾斯麥就好，Z23",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "是、是！俾斯麥…小姐！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 405011,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
-			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "在鐵血艦隊的簇擁之下，身著禮服的俾斯麥向這邊走來",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "指揮官今天能來參加我們鐵血主辦的宴會，不勝感謝",
 			typewriter = {
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "與平時不同，今天的俾斯麥聲音中透露著一股威嚴",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107071,
 			dir = 1,
+			actor = 107071,
 			nameColor = "#a9f548",
 			say = "哎呀，難得的放鬆機會嘛，那麼拘謹豈不是太無趣了～你說是吧，指揮官～",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107071,
 			dir = 1,
+			actor = 107071,
 			nameColor = "#a9f548",
 			say = "實際上我還特意準備了這個呢！嘿嘿，慶祝用的香檳酒～",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107051,
 			dir = 1,
+			actor = 107051,
 			nameColor = "#a9f548",
 			say = "那麼就…為了這美好的重逢與邂逅，乾杯吧！",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "眾人",
+			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "乾杯～",
 			typewriter = {
 				speed = 0.05,

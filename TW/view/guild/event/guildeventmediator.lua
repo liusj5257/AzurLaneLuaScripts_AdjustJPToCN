@@ -24,7 +24,7 @@ slot0.ON_CLEAR_BOSS_FLEET_INVAILD_SHIP = "GuildEventMediator:ON_CLEAR_BOSS_FLEET
 slot0.ON_CMD_SKILL = "GuildEventMediator:ON_CMD_SKILL"
 slot0.COMMANDER_FORMATION_OP = "GuildEventMediator:COMMANDER_FORMATION_OP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.COMMANDER_FORMATION_OP, function (slot0, slot1)
 		uv0:OnComanderOP(slot1)
 	end)
@@ -174,7 +174,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetGuild(getProxy(GuildProxy):getData())
 end
 
-function slot0.StartBossBattle(slot0)
+slot0.StartBossBattle = function(slot0)
 	if not getProxy(GuildProxy):getRawData():GetActiveEvent() or slot2 and slot2:IsExpired() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_battle_is_end"))
 
@@ -204,10 +204,10 @@ function slot0.StartBossBattle(slot0)
 	slot10 = {}
 
 	for slot14, slot15 in ipairs(slot4:GetDownloadResShips()) do
-		PaintingConst.AddPaintingNameWithFilteMap(slot10, slot15)
+		PaintingGroupConst.AddPaintingNameWithFilteMap(slot10, slot15)
 	end
 
-	PaintingConst.PaintingDownload({
+	PaintingGroupConst.PaintingDownload({
 		isShowBox = true,
 		paintingNameList = slot10,
 		finishFunc = function ()
@@ -218,7 +218,7 @@ function slot0.StartBossBattle(slot0)
 	})
 end
 
-function slot0.SelectBossBattleCommander(slot0, slot1, slot2, slot3)
+slot0.SelectBossBattleCommander = function(slot0, slot1, slot2, slot3)
 	if not slot0.contextData.editBossFleet then
 		slot0.contextData.editBossFleet = {}
 	end
@@ -260,7 +260,7 @@ function slot0.SelectBossBattleCommander(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.OnDockSelectCommander(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.OnDockSelectCommander = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if not getProxy(CommanderProxy):getCommanderById(slot5[1]) then
 		slot6()
 
@@ -295,7 +295,7 @@ function slot0.OnDockSelectCommander(slot0, slot1, slot2, slot3, slot4, slot5, s
 	slot6()
 end
 
-function slot0.SwopCommanderForBossBattle(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+slot0.SwopCommanderForBossBattle = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	if not slot0.contextData.editBossFleet[slot6.id] then
 		slot0.contextData.editBossFleet[slot6.id] = Clone(slot1:GetFleetByIndex(slot6.id))
 		slot6 = slot0.contextData.editBossFleet[slot6.id]
@@ -314,7 +314,7 @@ function slot0.SwopCommanderForBossBattle(slot0, slot1, slot2, slot3, slot4, slo
 	})
 end
 
-function slot0.RecommShipsForBossBattle(slot0, slot1)
+slot0.RecommShipsForBossBattle = function(slot0, slot1)
 	if not slot0.contextData.editBossFleet then
 		slot0.contextData.editBossFleet = {}
 	end
@@ -336,7 +336,7 @@ function slot0.RecommShipsForBossBattle(slot0, slot1)
 
 	slot0.contextData.editBossFleet[slot1]:RemoveAll()
 
-	function slot10(slot0, slot1)
+	slot10 = function(slot0, slot1)
 		if slot0 == TeamType.Main then
 			table.insert(uv0, slot1)
 		elseif slot0 == TeamType.Vanguard then
@@ -361,7 +361,7 @@ function slot0.RecommShipsForBossBattle(slot0, slot1)
 	slot13 = 0
 	slot14 = 0
 
-	function slot15(slot0, slot1)
+	slot15 = function(slot0, slot1)
 		if not uv1:ExistSameKindShip(uv0[GuildAssaultFleet.GetRealId(slot0)]) then
 			uv1:AddUserShip(GuildAssaultFleet.GetUserId(slot0), slot2)
 
@@ -421,7 +421,7 @@ function slot0.RecommShipsForBossBattle(slot0, slot1)
 	end
 end
 
-function slot0.SelectBossBattleShip(slot0, slot1, slot2, slot3)
+slot0.SelectBossBattleShip = function(slot0, slot1, slot2, slot3)
 	if not slot0.contextData.editBossFleet then
 		slot0.contextData.editBossFleet = {}
 	end
@@ -532,7 +532,7 @@ function slot0.SelectBossBattleShip(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.OnSelectShips(slot0, slot1, slot2, slot3)
+slot0.OnSelectShips = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3:GetShipList()
 	slot0.contextData.editFleet = Clone(slot3)
 	slot6 = getProxy(BayProxy):getData()
@@ -567,7 +567,7 @@ function slot0.OnSelectShips(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.OnCheckMissionShip(slot0, slot1, slot2)
+slot0.OnCheckMissionShip = function(slot0, slot1, slot2)
 	slot3 = getProxy(GuildProxy):getData()
 	slot5 = slot3:getMemberById(getProxy(PlayerProxy):getRawData().id)
 	slot6 = slot5:GetAssaultFleet()
@@ -613,7 +613,7 @@ function slot0.OnCheckMissionShip(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.OnSelectMissionShips(slot0, slot1, slot2, slot3)
+slot0.OnSelectMissionShips = function(slot0, slot1, slot2, slot3)
 	if not slot0.contextData.missionShips then
 		slot0.contextData.missionShips = Clone(slot3)
 	end
@@ -650,7 +650,7 @@ function slot0.OnSelectMissionShips(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.OnComanderOP(slot0, slot1)
+slot0.OnComanderOP = function(slot0, slot1)
 	if slot1.data.type == LevelUIConst.COMMANDER_OP_RENAME then
 		slot0:sendNotification(GAME.SET_COMMANDER_PREFAB_NAME, {
 			id = slot2.id,
@@ -701,7 +701,7 @@ function slot0.OnComanderOP(slot0, slot1)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GuildProxy.GUILD_UPDATED,
@@ -729,7 +729,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

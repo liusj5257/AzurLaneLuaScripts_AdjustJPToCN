@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI09",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI09",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 905010,
 			side = 1,
-			bgm = "story-french1",
-			dir = 1,
 			say = "よくここまで来たな！侵略者ども！",
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,10 +193,10 @@ return {
 		{
 			actor = 105190,
 			side = 0,
-			actorName = "マサチューセッツ&ジャン·バール",
-			say = "<size=60>大洋の向こうの「最強戦艦」！いざ尋常に勝負！！</size>",
 			dir = 1,
 			bgm = "story-masazhusai",
+			actorName = "マサチューセッツ&ジャン·バール",
+			say = "<size=60>大洋の向こうの「最強戦艦」！いざ尋常に勝負！！</size>",
 			subActors = {
 				{
 					actor = 905010,

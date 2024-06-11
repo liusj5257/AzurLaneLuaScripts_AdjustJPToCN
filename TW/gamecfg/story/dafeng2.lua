@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"“獻身”的大鳳\n\n<size=45>二 秘書艦的工作(?)·下</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…朦朧間聞到了一股香味",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
-			side = 2,
-			dir = 1,
-			nameColor = "#a9f548",
 			withoutActorName = true,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
 			blackBg = true,
+			actor = 307070,
 			say = "……",
 			flashN = {
 				color = {
@@ -105,17 +105,17 @@ return {
 			}
 		},
 		{
-			actor = 307070,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "指揮官大人終於醒了~大鳳剛剛還在煩惱要怎麼叫醒熟睡的您呢",
 			bgm = "story-1",
+			actor = 307070,
+			nameColor = "#a9f548",
+			say = "指揮官大人終於醒了~大鳳剛剛還在煩惱要怎麼叫醒熟睡的您呢",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "環視四下，看來是自己的房間。",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "雖然不知道大鳳是怎麼進來的……但是還是先洗漱吧",
 			typewriter = {
 				speed = 0.05,
@@ -185,14 +185,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 307070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "今天的早餐是和食，希望能合指揮官大人的胃口呢~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "感受到大鳳期待的目光",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "對了，在指揮官大人安睡的時候，大鳳順便幫指揮官大人打掃了房間",
 			typewriter = {
@@ -275,10 +275,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "(小聲)可惜並沒有更多的發現呢……",
 			typewriter = {
 				speed = 0.05,
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……？",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "這個不是很簡單嗎？指揮官把門鎖上了，所以我就配了把鑰匙呢",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "這也是身為秘書艦應該做的事情嘛",
 			typewriter = {

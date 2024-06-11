@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "「仙哲」の術式が発動すると、一行の目の前の光景が変わっていった。",
 			bgm = "story-unzen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "「仙哲」の術式が発動すると、一行の目の前の光景が変わっていった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -33,13 +33,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_2",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_2",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "長門さま、今です！封印の中へ！",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -59,25 +59,25 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "大地が砕け、黒い気配が濁流となって噴き出す。",
 			bgm = "theme-sakuraholyplace",
+			hidePaintObj = true,
+			say = "大地が砕け、黒い気配が濁流となって噴き出す。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -252,28 +252,28 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "危険を直感で察知し、武蔵は刀を手に長門のそばに駆け寄る。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "災いをもたらす闇靄が艦船たちを飲み干そうと迫ってくる中、長門は言われた通り「ワタツミ」との接触に集中した。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,14 +364,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "紫電一閃。小さな少女の背中を掴もうとする黒い気配がかき消された。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -517,11 +517,11 @@ return {
 			bgName = "bg_yunxian_3",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
-			oldPhoto = true,
 			soundeffect = "event:/battle/boom2",
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			oldPhoto = true,
 			say = "主砲、斉射用意――！",
 			painting = {
 				alpha = 0.3,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -584,14 +584,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "右舵！急旋回！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -653,13 +653,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_3",
+			withoutActorName = true,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "武蔵は艤装をすべて具現化させ、補強された砲塔装甲で「獣」の牙に対抗し――",
 			typewriter = {
 				speed = 0.05,
@@ -686,8 +686,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -717,8 +717,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -741,11 +741,11 @@ return {
 			bgName = "bg_yunxian_3",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
-			oldPhoto = true,
 			soundeffect = "event:/battle/boom2",
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			oldPhoto = true,
 			say = "主砲、斉射用意――！",
 			painting = {
 				alpha = 0.3,
@@ -796,8 +796,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -832,8 +832,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -882,14 +882,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "やってくれる…これでは正面切って戦えないわね…！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,8 +938,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -955,10 +955,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			say = "武蔵が刀を振るうよりも先に、放たれた斬撃が黒い気配を両断した。",
 			flashN = {
@@ -1001,8 +1001,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1013,8 +1013,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1025,14 +1025,14 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "姿が見えぬと思ったら、しっかり頑張ってくれているようね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,28 +1062,28 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "「仙哲」の支援を確認した武蔵は護衛の対象となる少女に声をかけた。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
 			side = 2,
+			bgName = "bg_yunxian_3",
 			withoutActorName = true,
+			hidePaintEquip = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "そして前方の航路を塞がる闇靄に向き直し、刀を構え――",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1133,8 +1133,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_33 = {}
 slot1 = slot0.word_template_33
 
-function temp()
+temp = function()
 	uv0["全"] = {
 		["国"] = {
 			["人"] = {
@@ -97,7 +97,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["三"] = {
 		["个"] = {
 			["代"] = {
@@ -476,7 +476,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["国"] = {
 		["家"] = {
 			["新"] = {
@@ -698,7 +698,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["魔"] = {
 		["门"] = {
 			["教"] = {

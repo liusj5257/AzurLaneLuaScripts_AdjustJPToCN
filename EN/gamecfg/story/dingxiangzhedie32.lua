@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE32",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
-			stopbgm = true,
-			say = "Sakura Empire - Musashi's Estate",
 			bgmDelay = 2,
 			bgm = "story-mayrain",
+			stopbgm = true,
+			say = "Sakura Empire - Musashi's Estate",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg0",
 			say = "A girl bearing a striking resemblance to Jintsuu leisurely swept the courtyard.",
 			typewriter = {
@@ -41,11 +41,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actorName = "Jintsuu META",
+			nameColor = "#a020f0",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900331,
-			nameColor = "#a020f0",
+			actorName = "Jintsuu META",
 			say = "...I see. A one-in-a-million escape.",
 			painting = {
 				alpha = 0.3,
@@ -60,11 +60,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actorName = "Jintsuu META",
+			nameColor = "#a020f0",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900331,
-			nameColor = "#a020f0",
+			actorName = "Jintsuu META",
 			say = "Things are just fine on my end. Don't fuss over me.",
 			painting = {
 				alpha = 0.3,
@@ -79,11 +79,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actorName = "Jintsuu META",
+			nameColor = "#a020f0",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900331,
-			nameColor = "#a020f0",
+			actorName = "Jintsuu META",
 			say = "I have to sympathize with poor Vestal.",
 			painting = {
 				alpha = 0.3,
@@ -98,11 +98,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actorName = "Jintsuu META",
+			nameColor = "#a020f0",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900331,
-			nameColor = "#a020f0",
+			actorName = "Jintsuu META",
 			say = "Musashi is coming. I'll call you back.",
 			painting = {
 				alpha = 0.3,
@@ -114,13 +114,13 @@ return {
 			}
 		},
 		{
-			actor = 900330,
-			side = 2,
 			bgName = "bg_wuzang_bg0",
-			nameColor = "#A9F548FF",
+			side = 2,
 			dir = 1,
-			say = "You do so enjoy the company of your little birds, don't you?",
 			hidePaintEquip = true,
+			actor = 900330,
+			nameColor = "#A9F548FF",
+			say = "You do so enjoy the company of your little birds, don't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,17 +130,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -151,11 +151,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actorName = "Jintsuu META",
+			nameColor = "#a020f0",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900331,
-			nameColor = "#a020f0",
+			actorName = "Jintsuu META",
 			say = "Apologies. I tend to get a little distracted when it's this nice out.",
 			painting = {
 				alpha = 0.3,
@@ -170,11 +170,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actorName = "Jintsuu META",
+			nameColor = "#a020f0",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900331,
-			nameColor = "#a020f0",
+			actorName = "Jintsuu META",
 			say = "Musashi... To what do I owe the pleasure?",
 			painting = {
 				alpha = 0.3,
@@ -189,11 +189,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "I purchased an omikuji fortune on a whim.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,11 +207,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actorName = "Jintsuu META",
+			nameColor = "#a020f0",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900331,
-			nameColor = "#a020f0",
+			actorName = "Jintsuu META",
 			say = "A fortune? Is there some reason for that?",
 			painting = {
 				alpha = 0.3,
@@ -226,11 +226,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "I'm looking for some insight into myself and my plans.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,13 +241,13 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900330,
+			nameColor = "#A9F548FF",
 			say = "As for the result...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,13 +258,13 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900330,
+			nameColor = "#A9F548FF",
 			say = "\"Lightning strikes the garden grass.\"",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,13 +275,13 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900330,
+			nameColor = "#A9F548FF",
 			say = "\"Flame erupts toward the heavens.\"",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,13 +292,13 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900330,
+			nameColor = "#A9F548FF",
 			say = "\"Alas, the single-minded pursuit of wealth...\"",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,13 +309,13 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "\"...Will only close the door to prosperity.\"",
 			hidePaintEquip = true,
+			actor = 900330,
+			nameColor = "#A9F548FF",
+			say = "\"...Will only close the door to prosperity.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,11 +329,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "Clearly, the situation demands prudence on my part.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1

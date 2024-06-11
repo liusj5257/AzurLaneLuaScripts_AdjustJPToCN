@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "航空副油箱T1",
 	time = 0,
-	color = "yellow",
+	name = "航空副油箱T1",
+	init_effect = "",
+	id = 6071,
 	picture = "",
 	desc = "舰载机耐久增加10点",
 	stack = 1,
-	id = 6071,
+	color = "yellow",
 	icon = 6071,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "hiveExtraHP",
-				number = 50
+				number = 50,
+				attr = "hiveExtraHP"
 			}
 		}
 	}

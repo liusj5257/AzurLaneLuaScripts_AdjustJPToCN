@@ -1,14 +1,14 @@
 return {
-	id = "BIHAIGUANGLIN33-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "Dragon Palace - Heart",
 			typewriter = {
 				speed = 0.05,
@@ -20,9 +20,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "While Shimakaze searched for the mechanism's pedestal, Suruga's group was fighting a fierce battle against the defender of the castle.",
 			typewriter = {
 				speed = 0.05,
@@ -36,11 +36,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 307120,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Even though Hakuryuu and I are both supposed to be aircraft carriers, I've never seen anyone fight like that before!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -93,8 +93,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "Doesn't it seem like each one of her blows are as powerful as Odin's?!",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			say = "Oh, um... Thank you so much, Miss Eugen! You've been protecting us this entire time...",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(The same with Odin! Between her and Eugen, they've fired a total of one single shot since we found them! Who are these people...?!)",
 			typewriter = {
 				speed = 0.05,
@@ -215,9 +215,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "(And I sure hope Shimakaze doesn't mess up... If she figures out some way of bungling this, I'm going to be livid...)",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "Suruga, we're making our stand here! Buy her as much time as possible!",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "If Shimakaze can activate that mechanism, we'll surely have an opening!",
 			typewriter = {
 				speed = 0.05,

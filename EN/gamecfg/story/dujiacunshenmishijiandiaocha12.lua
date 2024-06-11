@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Spiriting-Away Incident?\n\n<size=45>Run Like a Rabbit</size>",
@@ -17,47 +17,47 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			say = "This is a small story from before the Youkai Troupe performed their play...",
-			hidePaintObj = true,
-			blackBg = true,
 			bgm = "stopbgm",
+			hidePaintObj = true,
+			side = 2,
+			blackBg = true,
+			say = "This is a small story from before the Youkai Troupe performed their play...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_in",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Onsen Resort - ???",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Hippity Hoppity!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Suruga! Look! Right there!",
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_in",
 			hidePaintObj = true,
 			say = "Shimakaze looked all around, but Suruga was nowhere to be found.",
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Chouchinobake",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Chouchinobake",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Hippity Hoppity!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hm? Are you talking to me?",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Chouchinobake",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
@@ -232,8 +232,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Chouchinobake",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Chouchinobake",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
@@ -278,8 +278,8 @@ return {
 			mode = 1,
 			movableNode = {
 				{
-					time = 2,
 					name = "story_denglonggui",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 8
@@ -361,8 +361,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 2500
@@ -370,10 +370,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kappa",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "Wants to Cure Her Social Anxiety",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "O-okay... I'll be on my way...",
@@ -390,17 +390,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kappa",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Wants to Cure Her Social Anxiety",
 			nameColor = "#A9F548FF",
@@ -467,8 +467,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,10 +477,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yuki-Onna",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "This is Her Acting Master Plan",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Why, thank you for letting me know, little bunbun.",
@@ -497,17 +497,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yuki-Onna",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -555,10 +555,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "Wants You to Respect Your Elders",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Who do you take me for? A granny? Hmph. Go and tell–",
@@ -575,17 +575,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -612,8 +612,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
@@ -643,11 +643,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
-			bgName = "bg_village_in",
 			factiontag = "Hippity Hoppity!",
 			dir = 1,
+			bgName = "bg_village_in",
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "*pant*... *pant*... That was the last one.",
@@ -660,17 +660,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -735,8 +735,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Ol' Unreliable",
 			hidePaintObj = true,
@@ -796,8 +796,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1003,11 +1003,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Hippity Hoppity!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I just know the guests are going to love whatever they come up with!",
@@ -1040,8 +1040,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 2500
@@ -1049,10 +1049,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			hidePaintObj = true,
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The girls at the time had no idea what their plan would turn into.",
 			effects = {
 				{
@@ -1065,17 +1065,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1083,8 +1083,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "Because what began as an innocent surprise would go on to become a major incident...",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"來自{namecode:146}的溫柔\n\n<size=45>三　奇妙的緣分</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "午餐時間，結束了一上午的工作，伸了伸懶腰。",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "打開點心盒，裡面放著各種形狀的餅乾和小蛋糕，看起來十分誘人。",
 			typewriter = {
 				speed = 0.05,
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "只有一半？",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "好奇的跟著拿起點心盒的{namecode:146}，向指揮室外走去。",
 			typewriter = {
 				speed = 0.05,
@@ -150,15 +150,15 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "我們到了唷指揮官。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "跟著{namecode:146}來到的地方，是重櫻生活區的某個房間",
 			typewriter = {
 				speed = 0.05,
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "哈哈，指揮官想知道小點心是要送給誰的，解釋起來比較麻煩，所以就直接帶指揮官過來了。",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，指揮官想知道小點心是要送給誰的，解釋起來比較麻煩，所以就直接帶指揮官過來了。",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -277,9 +277,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "{namecode:146}走到睡眠中的{namecode:16}旁，用盒中的餅乾在{namecode:16}的鼻子下擦了一下。",
 			typewriter = {
 				speed = 0.05,
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "聞…聞……！是餅乾的香味！在哪裡？！",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "{namecode:16}醬起床了哦！我帶來了點心給妳。",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:16}醬起床了哦！我帶來了點心給妳。",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "這……這是！！",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "說完，激動地{namecode:16}狼吞虎咽的吃起了點心。",
 			typewriter = {
 				speed = 0.05,
@@ -401,12 +401,12 @@ return {
 			}
 		},
 		{
-			actor = 301150,
+			say = "指揮官不要見怪哦，她們之間的關係可是奇妙的很呢。",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官不要見怪哦，她們之間的關係可是奇妙的很呢。",
+			actor = 301150,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -421,12 +421,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "真是的，請不要說這種會讓指揮官誤會的話啦！",
 			typewriter = {
 				speed = 0.05,

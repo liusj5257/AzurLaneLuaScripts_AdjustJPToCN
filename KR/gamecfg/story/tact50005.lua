@@ -57,8 +57,8 @@ return {
 			actor = 303040,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:56}",
 			say = "나도 도와줄게!",
+			actorName = "{namecode:56}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			actorName = "{namecode:53}&{namecode:55}",
 			side = 0,
-			hideOther = true,
+			actor = 303030,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#92fc63",
 			say = "라져!",
 			subActors = {

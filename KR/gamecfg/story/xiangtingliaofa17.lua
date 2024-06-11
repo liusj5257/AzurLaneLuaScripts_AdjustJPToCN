@@ -9,9 +9,9 @@ return {
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "여섯…일곱..아냐, 이 이상의 세이렌 함대들이 포위해오고 있어!",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

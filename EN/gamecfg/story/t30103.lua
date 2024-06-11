@@ -7,13 +7,13 @@ return {
 	fadeType = 2,
 	scripts = {
 		{
-			actor = 307020,
 			side = 2,
-			nameColor = "#ff0000",
 			mode = 2,
+			nameColor = "#ff0000",
+			soundeffect = "event:/battle/boom2",
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "Graaaaghhh!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -60,12 +60,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			mode = 2,
+			soundeffect = "event:/battle/boom2",
+			actor = 307010,
 			nameColor = "#ff0000",
 			say = "Kaga! Kagaaaaaaaaaa!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -112,10 +112,10 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
-			actorName = "{namecode:92}",
 			mode = 2,
+			actorName = "{namecode:92}",
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "To let my guard down... at such a critical time...",
 			shake = {
@@ -132,10 +132,10 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
-			actorName = "{namecode:92}",
 			mode = 2,
+			actorName = "{namecode:92}",
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = " ...Akagi... Sister...",
 			shake = {
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
+			bgName = "bg_story_8",
 			bgspeed = 2,
 			blackBg = true,
-			bgName = "bg_story_8",
 			say = "Some things in this world can only be described as divine providence...",
 			typewriter = {
 				speed = 0.02,

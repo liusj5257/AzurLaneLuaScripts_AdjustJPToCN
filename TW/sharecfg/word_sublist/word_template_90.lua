@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_90 = {}
 slot1 = slot0.word_template_90
 
-function temp()
+temp = function()
 	uv0["１"] = {
 		["８"] = {
 			["歲"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["9"] = {
 		["9"] = {
 			["9"] = {
@@ -241,7 +241,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["幹"] = {
 		["炮"] = {
 			this = true
@@ -809,7 +809,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["摸"] = {
 		["阴"] = {
 			["蒂"] = {

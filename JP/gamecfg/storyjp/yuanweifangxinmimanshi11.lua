@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANWEIFANGXINMIMANSHI11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANWEIFANGXINMIMANSHI11",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"パーティー・ウィズ・アイリス\n\n<size=45>ほろ酔いどころじゃない後輩空母</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
+			blackBg = true,
+			bgm = "story-richang-5",
 			stopbgm = true,
 			hidePaintObj = true,
 			say = "部屋の中から、衣擦れの音がする……",
-			blackBg = true,
-			bgm = "story-richang-5",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,11 +49,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 107092,
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 107092,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "し……指揮官、もうちょっと待っててくださいっ。まだ振り返らないで！",
 			painting = {
 				alpha = 0.3,
@@ -67,11 +67,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 107092,
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 107092,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よいしょ……まさか一人でドレスを着るのは……こんなに大変だなんて……",
 			painting = {
 				alpha = 0.3,
@@ -85,11 +85,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 107092,
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 107092,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ああ！ちょっと落ちた！もぉ…！",
 			painting = {
 				alpha = 0.3,
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "エセックス",
-			bgName = "star_level_bg_107",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_107",
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官…も、もういいですよ？",
 			painting = {
 				alpha = 0.3,
@@ -122,17 +122,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "エセックス",
+			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "エセックスのドレス姿……ですっ。どうぞご覧ください！",
 			painting = {
 				alpha = 0.3,
@@ -159,20 +159,20 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107092,
 			say = "ど、どうですか？",
+			bgName = "star_level_bg_107",
+			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			actorPosition = {
 				x = -1000,
 				y = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 1000
@@ -187,17 +187,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -208,10 +208,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "似合っていますか？",
 			painting = {
 				alpha = 0.3,
@@ -252,16 +252,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,16 +313,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -334,10 +334,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほ、本当はキレイとか、可愛いとか言われたい時もあります…よ？",
 			painting = {
 				alpha = 0.3,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "ぼそぼそと何かをつぶやいていたエセックスは歩き出そうとしたが、酔ったままなせいか、またフラフラと倒れそうになった。",
@@ -363,10 +363,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うっ……気持ち悪い、やっぱり飲み過ぎてしまいました……",
 			painting = {
 				alpha = 0.3,
@@ -381,10 +381,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう、何でドレスってこんなに長いんですか～？邪魔なんですけどぉ……",
 			painting = {
 				alpha = 0.3,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "さっきより少しはマシになったみたいで、ひとまず安心……？",
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "酔い覚ましの処置は何にもやっていないのに、酒ってこんな早めに覚めるものか？",
@@ -421,10 +421,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、あの、ちょっと助けてもらえますか？",
 			painting = {
 				alpha = 0.3,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "フラフラしているエセックスに手を差し伸べた。",
@@ -447,8 +447,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "せっかく新しく着替えたドレスだ。せめてみんなに披露して――ん？！",
@@ -461,10 +461,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えへへ……へへ……捕まえました♪",
 			painting = {
 				alpha = 0.3,
@@ -476,8 +476,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -489,10 +489,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官～正直に教えてください。このドレス…どう思いますかぁ？",
 			painting = {
 				alpha = 0.3,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "エセックスにしがみつかれた。酒が入っているためか凄まじい力だ…！",
@@ -532,10 +532,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えへ……へへ……",
 			painting = {
 				alpha = 0.3,
@@ -547,8 +547,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -560,10 +560,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "良かった……指揮官に褒められて……",
 			painting = {
 				alpha = 0.3,
@@ -578,10 +578,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "エンタープライズ先輩が相手でも……エセックス、負けませんからぁ……",
 			painting = {
 				alpha = 0.3,
@@ -596,10 +596,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも……先輩のドレス姿も……やっぱりキレイですね……えへへ……",
 			painting = {
 				alpha = 0.3,
@@ -614,10 +614,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官も……そう思いませんか？",
 			painting = {
 				alpha = 0.3,
@@ -629,8 +629,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "エセックスはこちらに顔を向けて、微笑んでみせた。",
@@ -640,8 +640,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "文字通り目と鼻の先の距離。エセックスからワインの香りが漂ってくる。",
@@ -654,10 +654,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107092,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今日の……指揮官は……いつもより魅力的ですね……♪",
 			painting = {
 				alpha = 0.3,
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "酔いが少し醒めたかと思いきや、そんなことはなかった。",
@@ -680,8 +680,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "こんな状態で会場に放り出すのはさすがに無理だ。",
@@ -691,8 +691,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "放っておくわけにもいかないし……もう少し付き合ってあげるか…",

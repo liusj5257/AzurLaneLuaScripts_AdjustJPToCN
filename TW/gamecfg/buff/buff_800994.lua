@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	time = 10,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 800994,
+	time = 10,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800994,
+	color = "yellow",
 	icon = 800990,
 	last_effect = "",
 	blink = {
@@ -34,8 +34,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.08
+				number = 0.08,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

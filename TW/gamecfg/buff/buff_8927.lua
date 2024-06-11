@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "毛系V3 EX空袭反制 监听我方舰船是否发动空袭/雷击",
 	time = 0,
+	name = "毛系V3 EX空袭反制 监听我方舰船是否发动空袭/雷击",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 8927,
-	picture = "",
-	last_effect = "",
 	icon = 8927,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

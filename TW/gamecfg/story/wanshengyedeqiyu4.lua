@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"萬聖夜的「奇遇」\n\n<size=45>四　萬聖節的魔女</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "此刻，正站在魔女的占卜屋前——",
 			bgm = "battle-highseasfleet-reborn",
+			say = "此刻，正站在魔女的占卜屋前——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "萬聖節和魔女是絕佳的搭配，但是港區的“魔女”，究竟會是誰呢……？",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "試著敲一敲門好了。",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "萬聖節的魔女？",
+			side = 2,
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			say = "請進，深夜的來訪者。",
@@ -76,14 +76,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "深夜來拜訪此地，應該是迷失在萬聖之夜的探索者吧？",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "深夜來拜訪此地，應該是迷失在萬聖之夜的探索者吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,17 +93,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "曼非斯昏暗的帳篷裡煙霧繚繞，唯一能看清的只有桌子上發著微光的水晶球，顯得一切都朦朧又夢幻。",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "是用來占卜的水晶球嗎？沒想到曼非斯還有這樣的技術……",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "其實是……",
 			typewriter = {
@@ -217,14 +217,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯…………原來如此。",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗯…………原來如此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "然後，這位女性是指曼非斯？",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "咦……？難道這個占卜，不只是做做樣子而已嗎？",
 			typewriter = {
@@ -343,14 +343,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "信則有不信則無嘛。",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "信則有不信則無嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "曼非斯突然摘下了自己寬大的魔女帽。",
 			typewriter = {
@@ -390,14 +390,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "還有掃把你要嗎，關鍵時刻可以用來防身哦？",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "還有掃把你要嗎，關鍵時刻可以用來防身哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "怎麼突然變得這麼正經……是占卜出了什麼問題嗎？",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "等等…………你是指港區裡混進來了陌生人？ ！",
 			typewriter = {
@@ -452,14 +452,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯。不光是占卜的結果，我之前在街上閒逛的時候也實際看到那個陌生人了。",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗯。不光是占卜的結果，我之前在街上閒逛的時候也實際看到那個陌生人了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,8 +470,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "這可是緊急情況，她究竟是怎麼混過警衛系統的需要好好調查一下……不會是乘虛而入的塞壬吧？ ！",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "……可愛的海盜女士？",
 			typewriter = {
@@ -528,8 +528,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "……事不宜遲，與其漫無目的地踱步，不如去找這位悠閒的“不速之客”一探究竟吧。",
 			typewriter = {

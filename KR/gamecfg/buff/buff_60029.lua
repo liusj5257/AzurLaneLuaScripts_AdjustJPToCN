@@ -1,7 +1,7 @@
 return {
-	init_effect = "jiasuBUFF",
-	name = "测试-定身",
 	time = 0,
+	name = "测试-定身",
+	init_effect = "jiasuBUFF",
 	picture = "",
 	desc = "定身效果(无法移动)",
 	stack = 1,

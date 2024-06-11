@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"天使とのランデブー\n\n<size=45>四 「約束」の真実</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "コインを使い果たすまでクレーンゲームに挑んだあと、ジョッフルと一緒に道沿いのベンチに腰掛けた。",
 			bgm = "story-richang-6",
+			say = "コインを使い果たすまでクレーンゲームに挑んだあと、ジョッフルと一緒に道沿いのベンチに腰掛けた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "いまだに試練の敗北から抜け出せていない天使は、「指揮官」ぬいぐるみを持ち上げて顔を隠している。",
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "運…ですか",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官が最後に助けてくださらなかったら、成果なしでしたね",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ああ、気を使って「運」で誤魔化さなくても問題ありません…今のはきっとジョッフルに与えられた罰の一つなのでしょう",
 			painting = {
 				alpha = 0.3,
@@ -217,10 +217,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい、貴方に嘘をつきました",
 			painting = {
 				alpha = 0.3,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "昨夜、貴方と大事な約束を交わした、という事実は最初からありませんでした",
 			painting = {
 				alpha = 0.3,
@@ -252,10 +252,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今朝執務室に行ったのも、もしご在室でしたらお出かけに誘おうと思っただけ…",
 			painting = {
 				alpha = 0.3,
@@ -267,12 +267,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そこで、少し寝ぼけている貴方を見て、つい出来心でイタズラしてしまいました",
 			painting = {
 				alpha = 0.3,
@@ -287,10 +287,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正直に申し上げますと、あの時のリアクションはなんとも面白かったものです。…ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -341,10 +341,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "申し訳ございません。懺悔させてくださいませ",
 			painting = {
 				alpha = 0.3,
@@ -359,10 +359,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "罪を裁く者であるにも関わらず、大罪を犯してしまいました",
 			painting = {
 				alpha = 0.3,
@@ -401,10 +401,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ジョッフルの初心は「指揮官とデートすること」…「贖罪」になりそうにないと思いますが？",
 			painting = {
 				alpha = 0.3,
@@ -443,10 +443,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…いくらかは理にかなっているようですね",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "では、贖罪の決意を示すためにも、これからのデートは全力で臨ませていただきます",
 			painting = {
 				alpha = 0.3,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "天使は立ち上がり、こちらの目の前に歩き手を差し伸べてきた。",
@@ -502,10 +502,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろんです。贖罪のデートですので…手始めに、手を繋ぐところから始めたほうが望ましいかと",
 			painting = {
 				alpha = 0.3,
@@ -517,8 +517,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "…ジョッフルの手を取り、彼女の明らかに軽やかになった足取りについて商店街を後にした。",

@@ -8,11 +8,11 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900028,
 			side = 0,
 			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900028,
+			nameColor = "#a9f548",
 			say = "All planes, take off! Target the enemy carrier: Lexington!",
 			shake = {
 				speed = 1,
@@ -28,11 +28,11 @@ return {
 			}
 		},
 		{
-			actor = 900027,
 			side = 1,
 			actorName = "{namecode:95}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900027,
+			nameColor = "#a9f548",
 			say = "You should leave some planes behind! Don't underestimate the enemy!",
 			shake = {
 				speed = 1,
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 900028,
 			side = 0,
 			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900028,
+			nameColor = "#a9f548",
 			say = "Those Eagle Union newbies don't stand a chance against my Rei planes! This'll be a quick and easy victory!",
 			shake = {
 				speed = 1,
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 900027,
 			side = 1,
 			actorName = "{namecode:95}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900027,
+			nameColor = "#a9f548",
 			say = "... Enemy spotted! Recon planes, scramble! Don't let them get close!",
 			shake = {
 				speed = 1,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 900028,
 			side = 0,
 			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900028,
+			nameColor = "#a9f548",
 			say = "H-how can that be?!",
 			shake = {
 				speed = 1,
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 900027,
 			side = 1,
 			actorName = "{namecode:95}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900027,
+			nameColor = "#a9f548",
 			say = "Go take cover in the storm! I'll draw the enemy's attention!",
 			shake = {
 				speed = 1,
@@ -128,11 +128,11 @@ return {
 			}
 		},
 		{
-			actor = 900028,
 			side = 0,
 			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900028,
+			nameColor = "#a9f548",
 			say = "But sis...!",
 			shake = {
 				speed = 1,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 900027,
 			side = 1,
 			actorName = "{namecode:95}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900027,
+			nameColor = "#a9f548",
 			say = "There's no time! We've already lost Shouhou, we can't afford to lose more people!",
 			shake = {
 				speed = 1,
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 900027,
 			side = 1,
 			actorName = "{namecode:95}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900027,
+			nameColor = "#a9f548",
 			say = "I will always protect you. But next time, don't underestimate the enemy...",
 			shake = {
 				speed = 1,
@@ -188,13 +188,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
+			hideOther = true,
 			nameColor = "#a9f548",
+			soundeffect = "event:/battle/boom2",
 			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Shoukaku...! I'll never, ever let that happen to you again...!",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 1,
 				alpha = {

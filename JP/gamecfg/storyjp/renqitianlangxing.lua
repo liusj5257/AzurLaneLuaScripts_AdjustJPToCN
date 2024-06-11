@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQITIANLANGXING",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQITIANLANGXING",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"SPストーリー\n\n<size=45>ハプニング！？</size>",
@@ -17,18 +17,18 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			side = 2,
-			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu1",
 			bgm = "story-1",
 			actor = 202200,
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			say = "…ご主人様！誇らしきご主人様！？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "日差しに波の音、見知らぬ海岸の風景が目の前に広がっていた。",
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "よかった…！誇らしきご主人様、ご無事で……！",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "それは突然の出来事だった。",
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "航路の状況確認のため、とある長距離航海に参加した自分は嵐に遭遇した。",
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "元々この程度の嵐で遭難するはずがないのだが…運の悪いことにセイレーンのはぐれ量産艦と遭遇して戦闘になり、その後――",
@@ -159,8 +159,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "コホン。…ご主人様がご搭乗されていた量産艦は、嵐の中で突進してきたセイレーン艦と衝突してしまいました",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "………………",
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "シリアスと二人で孤島に遭難、燃料切れのため量産艦で母港に帰還できず、今は救助信号を発し仲間たちの救援を待つ、と…",
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "どうか誇らしきご主人さま、この卑しいメイドに罰をお与えくださいませ…！",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "涙目になったロイヤルメイド・シリアス。そう言われたが……",
@@ -278,14 +278,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu1",
 			actor = 202200,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様、テントの用意ができました！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "枝や浮材を使い、いざというときに備えるテントが出来た。",
@@ -338,8 +338,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様、寝床の用意ができました！",
 			typewriter = {
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -362,8 +362,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "拾い集めた柔らかい雑草とシーツで即席のベッドが出来た。",
@@ -380,8 +380,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様、お風呂の用意ができました！",
 			typewriter = {
@@ -394,8 +394,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "漂着した燃料ドラム缶で即席の風呂が出来た。",
@@ -409,14 +409,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "遭難に備えて携帯していた食料品で食事を済ませ、シリアスが用意してくれたありがたいお風呂に入る。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -460,8 +460,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "ことの発端と言えば、シリアスが誇らしきご主人様を守りきれなかったせいなのに、お手を煩わせてしまうなんて…",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "実際、シリアスがいなければ短い時間でここまで色々用意することが出来なかった。なにせこれらのことを一人でやろうとすれば流石に骨が折れる",
@@ -489,8 +489,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "幸い護衛任務に慣れているシリアスはスタミナも膂力も騎士隊並で、殆どの力仕事を協力してもらえるのは大変助かった。",
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "もっとも、何かドジをしてしまいトラブルに巻き込まれることを考えると、どうしても彼女一人でやらせるわけにはいかなかった。",
@@ -522,8 +522,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様、お湯加減のほうはいかがですか？",
 			typewriter = {
@@ -568,8 +568,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "ドラム缶風呂に浸かりながら、シリアスのどこか寂しげな声が伝わってくる。",
@@ -583,8 +583,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "確かに、ロイヤルメイド隊の中でシリアスのメイドとしての能力はお世辞にも高いとは言えない。",
@@ -601,8 +601,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "最初に誇らしきご主人様の量産艦がセイレーンと衝突した際、もし誇らしきご主人様に何かあってしまったらと不安でどうしようもなくて…",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "シリアスが考えている、満足させられそうなご奉仕がどういうものなのか、ちょっとだけわかった気がする。",
@@ -662,8 +662,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "この環境でそれを実現するのは流石に無理だ。",
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "それでも、必死に頑張って、それを叶えようとする彼女の気持ちをきちんと受け止めたい。",
@@ -711,8 +711,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "ありがとうございます、誇らしきご主人様！！ああ、シリアス、なんて幸せなのでしょう……",
 			typewriter = {
@@ -725,8 +725,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -738,8 +738,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "卑しくて不出来なメイドであるにも関わらず、誇らしきご主人様のお情けで、「お気持ち」だけでも満足したと仰っていただけるなんて…",
 			typewriter = {
@@ -755,8 +755,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "お気持ち…いいえ、シリアス自身を誇らしきご主人様にお捧げする所存でございます…！",
 			typewriter = {
@@ -772,8 +772,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "誇らしきご主人様、どうか何でもこのシリアスに仰ってくださいませ！",
 			typewriter = {
@@ -786,8 +786,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "若干反応が過剰な気がしなくはないが、お言葉に甘えてもう少しお湯の温度を――あれ？",
@@ -804,8 +804,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "あっ…！誇らしきご主人様、仲間たちの救援隊です！助かりました！！",
 			typewriter = {
@@ -818,8 +818,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -828,8 +828,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			say = "よし、これで無事仲間たちの元に戻れる……その前に、まずは服を着ないと。",
@@ -843,11 +843,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "…………ああ！！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -864,11 +864,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "申し訳ございません、誇らしきご主人様！！シリアスのミスでご主人様の服…服は……お風呂の燃料に………",
 			typewriter = {
 				speed = 0.05,
@@ -880,8 +880,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -893,8 +893,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "うぅ…誇らしきご主人様、どうかこの卑しいシリアスに躾けてくださいませ…！",
 			typewriter = {
@@ -907,8 +907,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			blackBg = true,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>“換句話說，要學會分享！ ”</size>",
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"港灣\n\n<size=45>二　偶遇</size>",
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			say = "港區",
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區",
 			effects = {
 				{
 					active = false,
@@ -48,8 +48,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,9 +70,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "微風舒爽，正是適合散步的天氣。",
 			typewriter = {
 				speed = 0.05,
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#a9f548",
 			say = "我想做的事情？",
 			effects = {
 				{
@@ -122,9 +122,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "雖然在這裡邊吃著零食邊散步讓人非常安心，但是這應該不是我的“願望”。",
 			effects = {
 				{
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "嗯？這個新口味的魚乾意外的很好吃……",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "不是指揮喵，而是普通的貓。",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "貓",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "貓",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "貓",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "貓先生慢慢地走了過來，吃起了我手中的魚乾。它看起來很高興的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "貓",
 			dir = 1,
+			actorName = "貓",
 			say = "喵！",
 			dialogShake = {
 				speed = 0.09,
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "什麼啊，原來是貓嗎。",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "什麼啊，原來是貓嗎。",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -465,11 +465,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "對了！施佩，我和妳說啊，昨天的演習，皇家的那幫傢伙——",
 			typewriter = {
 				speed = 0.05,
@@ -481,8 +481,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -491,9 +491,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "結果最後一路聽著姐姐的抱怨回到了宿舍。",
 			typewriter = {
 				speed = 0.05,

@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-80,
 				20,
@@ -70,17 +70,17 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchParam = 1.5,
+									switchType = 1,
 									switchTo = 11,
 									index = 0,
-									switchType = 1,
+									switchParam = 1.5,
 									setAI = 20006
 								},
 								{
-									index = 11,
 									switchParam = 0.1,
-									switchTo = 1,
+									index = 11,
 									switchType = 1,
+									switchTo = 1,
 									addWeapon = {},
 									removeWeapon = {},
 									addBuff = {
@@ -88,10 +88,10 @@ return {
 									}
 								},
 								{
-									index = 1,
 									switchParam = 12,
-									switchTo = 2,
+									index = 1,
 									switchType = 1,
+									switchTo = 2,
 									addWeapon = {},
 									removeWeapon = {},
 									addBuff = {
@@ -99,10 +99,10 @@ return {
 									}
 								},
 								{
-									index = 2,
 									switchParam = 1,
-									switchTo = 30,
+									index = 2,
 									switchType = 1,
+									switchTo = 30,
 									addWeapon = {},
 									removeWeapon = {},
 									removeBuff = {
@@ -111,9 +111,9 @@ return {
 									}
 								},
 								{
-									index = 3,
 									switchParam = 17,
 									switchTo = 4,
+									index = 3,
 									switchType = 1,
 									addWeapon = {
 										3045020
@@ -121,9 +121,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 4,
 									switchParam = 1,
 									switchTo = 1,
+									index = 4,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -131,10 +131,10 @@ return {
 									}
 								},
 								{
-									index = 30,
 									switchType = 1,
-									switchTo = 31,
 									switchParam = 2,
+									switchTo = 31,
+									index = 30,
 									addWeapon = {
 										3045003
 									},
@@ -143,10 +143,10 @@ return {
 									}
 								},
 								{
-									index = 31,
 									switchType = 1,
 									switchTo = 32,
 									switchParam = 2,
+									index = 31,
 									addBuff = {
 										200306
 									},
@@ -155,81 +155,81 @@ return {
 									}
 								},
 								{
-									index = 32,
 									switchType = 1,
 									switchTo = 34,
+									index = 32,
 									switchParam = 2,
 									addBuff = {
 										200306
 									}
 								},
 								{
-									index = 34,
 									switchType = 1,
 									switchTo = 35,
+									index = 34,
 									switchParam = 1,
 									addBuff = {
 										200312
 									}
 								},
 								{
-									index = 35,
 									switchType = 1,
 									switchTo = 36,
+									index = 35,
 									switchParam = 1,
 									addBuff = {
 										200312
 									}
 								},
 								{
-									index = 36,
 									switchType = 1,
 									switchTo = 37,
+									index = 36,
 									switchParam = 1,
 									addBuff = {
 										200312
 									}
 								},
 								{
-									index = 37,
 									switchType = 1,
 									switchTo = 38,
+									index = 37,
 									switchParam = 1,
 									addBuff = {
 										200312
 									}
 								},
 								{
-									index = 38,
 									switchType = 1,
 									switchTo = 41,
+									index = 38,
 									switchParam = 8,
 									addBuff = {
 										200312
 									}
 								},
 								{
-									index = 41,
 									switchType = 1,
 									switchTo = 42,
+									index = 41,
 									switchParam = 2,
 									addBuff = {
 										200318
 									}
 								},
 								{
-									index = 42,
 									switchType = 1,
 									switchTo = 43,
+									index = 42,
 									switchParam = 2,
 									addBuff = {
 										200318
 									}
 								},
 								{
-									index = 43,
 									switchType = 1,
 									switchTo = 3,
+									index = 43,
 									switchParam = 6,
 									addBuff = {
 										200318

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_261 = {}
 slot1 = slot0.word_template_261
 
-function temp()
+temp = function()
 	uv0["紅"] = {
 		["燈"] = {
 			["區"] = {
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["洪"] = {
 		["傳"] = {
 			this = true
@@ -74,7 +74,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["黌"] = {
 		this = {
 			this = true
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鱟"] = {
 		this = {
 			this = true

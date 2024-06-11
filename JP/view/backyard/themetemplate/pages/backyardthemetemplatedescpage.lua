@@ -18,15 +18,15 @@ slot4 = {
 	}
 }
 
-function slot5(slot0)
+slot5 = function(slot0)
 	return uv0[slot0]
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardThemeTemplateDescPage"
 end
 
-function slot0.ThemeTemplateUpdate(slot0, slot1)
+slot0.ThemeTemplateUpdate = function(slot0, slot1)
 	if slot0.template and slot0.template.id == slot1.id then
 		slot0.template = slot1
 
@@ -34,15 +34,15 @@ function slot0.ThemeTemplateUpdate(slot0, slot1)
 	end
 end
 
-function slot0.UpdateDorm(slot0, slot1)
+slot0.UpdateDorm = function(slot0, slot1)
 	slot0.dorm = slot1
 end
 
-function slot0.PlayerUpdated(slot0, slot1)
+slot0.PlayerUpdated = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.adpter = slot0:findTF("adpter")
 	slot0.frame = slot0:findTF("adpter/frame")
 	slot0.icon = slot0:findTF("adpter/frame/icon"):GetComponent(typeof(Image))
@@ -65,7 +65,7 @@ function slot0.OnLoaded(slot0)
 	slot0.idLabel.text = i18n("word_theme") .. "ID:"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.copyBtn, function ()
 		if uv0.player then
 			UniPasteBoard.SetClipBoardString(uv0.template.id)
@@ -74,7 +74,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
+slot0.SetUp = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.pageType = slot1
 	slot0.template = slot2
 	slot0.dorm = slot3
@@ -85,7 +85,7 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 	slot0:Show()
 end
 
-function slot0.RefreshSortBtn(slot0)
+slot0.RefreshSortBtn = function(slot0)
 	slot1, slot2 = nil
 
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM then
@@ -98,14 +98,14 @@ function slot0.RefreshSortBtn(slot0)
 	slot0.sortFlag = slot2
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0:UpdateWindow()
 	slot0:UpdatePlayer()
 	slot0:UpdateLikeInfo()
 	slot0["Update" .. slot0.pageType](slot0)
 end
 
-function slot0.Update1(slot0)
+slot0.Update1 = function(slot0)
 	onButton(slot0, slot0.btn1, function ()
 		uv0.contextData.infoPage:ExecuteAction("SetUp", uv0.template, uv0.dorm, uv0.player)
 	end, SFX_PANEL)
@@ -127,7 +127,7 @@ function slot0.Update1(slot0)
 	slot0.btn2Txt.text = i18n("courtyard_label_place_pnekey")
 end
 
-function slot0.Update2(slot0)
+slot0.Update2 = function(slot0)
 	slot1 = slot0.template
 
 	onButton(slot0, slot0.btn1, function ()
@@ -149,7 +149,7 @@ function slot0.Update2(slot0)
 	slot0.btn2Txt.text = slot2 and i18n("courtyard_label_cancel_share") or i18n("courtyard_label_share")
 end
 
-function slot0.Update3(slot0)
+slot0.Update3 = function(slot0)
 	slot0:Update1()
 
 	slot0.timeTxt.text = i18n("backyard_theme_template_collection_cnt") .. getProxy(DormProxy):GetThemeTemplateCollectionCnt() .. "/" .. BackYardConst.MAX_COLLECTION_CNT
@@ -157,7 +157,7 @@ function slot0.Update3(slot0)
 	slot0.btn2Txt.text = i18n("courtyard_label_place_pnekey")
 end
 
-function slot0.UpdatePlayer(slot0)
+slot0.UpdatePlayer = function(slot0)
 	if not slot0.template:ExistPlayerInfo() then
 		slot0:emit(NewBackYardThemeTemplateMediator.GET_TEMPLATE_PLAYERINFO, slot0.pageType, slot0.template)
 	else
@@ -206,7 +206,7 @@ function slot0.UpdatePlayer(slot0)
 	end
 end
 
-function slot0.UpdateLikeInfo(slot0)
+slot0.UpdateLikeInfo = function(slot0)
 	slot1 = slot0.template
 	slot0.heartTxt.text = i18n("backyard_theme_word_like") .. slot1:GetLikeCnt()
 	slot0.collectionTxt.text = i18n("backyard_theme_word_collection") .. slot1:GetCollectionCnt()
@@ -241,7 +241,7 @@ function slot0.UpdateLikeInfo(slot0)
 	setActive(slot0.collectionSel, slot1:IsCollected() or slot2)
 end
 
-function slot0.UpdateWindow(slot0)
+slot0.UpdateWindow = function(slot0)
 	slot1 = true
 
 	if slot0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
@@ -261,7 +261,7 @@ function slot0.UpdateWindow(slot0)
 	setActive(slot0.collection, slot1)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	slot0.isShowing = true
 
 	uv0.super.Show(slot0)
@@ -272,14 +272,14 @@ function slot0.Show(slot0)
 	})
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.isShowing = false
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.adpter, slot0._tf)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.isShowing then
 		slot0:Hide()
 	end

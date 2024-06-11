@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行9次攻击，触发全弹发射-絮弗伦级I"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 28221,
 	picture = "",
 	desc = "主炮每进行9次攻击，触发全弹发射-絮弗伦级I",
 	stack = 1,
-	id = 28221,
+	color = "red",
 	icon = 20200,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 28221,
+				target = "TargetSelf",
 				countType = 28220
 			}
 		}

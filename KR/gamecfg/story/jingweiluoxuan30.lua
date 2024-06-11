@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN30",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-AF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
+			bgm = "battle-AF",
+			hidePaintObj = true,
 			say = "펑————————!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:93}·META",
+			hidePaintObj = true,
 			say = "——————！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:199}",
+			side = 0,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "쯧... 내 포격을 맞고도 무사하다는 게 말이 돼?!",
 			typewriter = {
 				speed = 0.05,
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "이런 방식의 작전이라지만 META는 결국 META인가.",
 			typewriter = {
 				speed = 0.05,
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:199}",
+			side = 0,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이봐——! 우리 레이더도 업그레이드 해줬는데, 주포나 화기를 업그레이드 해줄 방법은 없는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -136,12 +136,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "조르지 마. 조정 중이야.",
 			typewriter = {
 				speed = 0.05,
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "시간이 빠듯하지만 나도 비밀스러운 기술을 가지고 있거든.",
 			typewriter = {
 				speed = 0.05,
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "침입 개시——완료.",
 			typewriter = {
 				speed = 0.05,
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "지휘관, 이제 다시 괴물을 공격하라고 명령해.",
 			typewriter = {
 				speed = 0.05,
@@ -204,12 +204,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "모든 파라미터는 내가 수정할 테니 너희는 마음껏 날뛰어.",
 			typewriter = {
 				speed = 0.05,
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "너희의 실력을 보여달라고.",
 			typewriter = {
 				speed = 0.05,

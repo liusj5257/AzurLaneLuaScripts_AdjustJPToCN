@@ -1,16 +1,16 @@
 return {
-	id = "HUAPOHAIKONGZHIYI7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "瑞鶴，大鳳剛剛被一枚魚雷命中，不過沒受到太大損傷，很快就能繼續戰鬥了。",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,15 +92,15 @@ return {
 			}
 		},
 		{
-			say = "塞班島西側海域 普林斯頓艦隊",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "塞班島西側海域 普林斯頓艦隊",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "伯明罕，剛才妳說我和蒙彼利埃比較像是嗎...？",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "啊...！那個只是隨口一說，妳不用在意。",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "仔細想了想，我現在對克里夫蘭級的各位都還不太了解呢，妳能向我介紹一下嗎？",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "唔......全部介紹起來可是要稍微花一些時間哦？",
 			typewriter = {
@@ -212,8 +212,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "首先是我們的大姐頭，克里夫蘭。永遠被陽光和自信所包圍著，見過她帥氣身姿的人都會留下深刻的印象。",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "然後是哥倫比亞，她比起大姐來要更隨性一些，而且總是泡泡糖不離身。",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "蒙彼利埃的話，妳之前也見到過了。她非常崇拜大姐頭，一直以大姐頭為目標，追隨著大姐頭的腳步前行。",
 			typewriter = {
@@ -292,15 +292,15 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107230,
+			nameColor = "#a9f548",
 			say = "（蒙彼利埃是以克里夫蘭為目標，追隨著克里夫蘭的腳步前行，我的話，就是薩拉托加前輩了吧...）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -328,9 +328,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
 			blackBg = true,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "（呵呵，這麼看來，應該真的和她很聊得來呢。）",
 			typewriter = {

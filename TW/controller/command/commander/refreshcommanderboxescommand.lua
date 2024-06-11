@@ -1,6 +1,6 @@
 slot0 = class("RefreshCommanderBoxesCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = getProxy(CommanderProxy)
 	slot4 = pg.ConnectionMgr.GetInstance()

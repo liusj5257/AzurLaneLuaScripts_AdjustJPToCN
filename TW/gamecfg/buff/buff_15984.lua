@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.05
+					number = 0.05,
+					attr = "cri"
 				}
 			},
 			{
@@ -31,8 +31,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.061
+					number = 0.061,
+					attr = "cri"
 				}
 			},
 			{
@@ -55,8 +55,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.072
+					number = 0.072,
+					attr = "cri"
 				}
 			},
 			{
@@ -79,8 +79,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.083
+					number = 0.083,
+					attr = "cri"
 				}
 			},
 			{
@@ -103,8 +103,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.094
+					number = 0.094,
+					attr = "cri"
 				}
 			},
 			{
@@ -127,8 +127,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.105
+					number = 0.105,
+					attr = "cri"
 				}
 			},
 			{
@@ -151,8 +151,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.116
+					number = 0.116,
+					attr = "cri"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.127
+					number = 0.127,
+					attr = "cri"
 				}
 			},
 			{
@@ -199,8 +199,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.138
+					number = 0.138,
+					attr = "cri"
 				}
 			},
 			{
@@ -223,8 +223,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.15
+					number = 0.15,
+					attr = "cri"
 				}
 			},
 			{
@@ -239,14 +239,14 @@ return {
 			}
 		}
 	},
-	time = 15,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 15984,
+	time = 15,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15984,
+	color = "red",
 	icon = 15984,
 	last_effect = "",
 	blink = {
@@ -263,8 +263,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.05
+				number = 0.05,
+				attr = "cri"
 			}
 		},
 		{

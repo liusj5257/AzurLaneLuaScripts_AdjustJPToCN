@@ -5,9 +5,9 @@ return {
 			style = {
 				text = "Here you'll find all the Operation Siren resources you have.",
 				mode = 2,
-				posY = 200,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 200,
 				posX = 0
 			},
 			showSign = {
@@ -26,9 +26,9 @@ return {
 			style = {
 				text = "Action Points are needed to enter unexplored zones and to issue orders.",
 				mode = 2,
-				posY = 275.49,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 275.49,
 				posX = 2.13
 			},
 			showSign = {
@@ -51,9 +51,9 @@ return {
 			style = {
 				text = "All Operation Supply Coins and Special Item Tokens you earn during the operation can be spent on items in the port shop.",
 				mode = 2,
-				posY = 304.6,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 304.6,
 				posX = 702.27
 			},
 			showSign = {

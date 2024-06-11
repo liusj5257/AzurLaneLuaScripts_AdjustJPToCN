@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 60100,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60100,
+	color = "red",
 	icon = 60100,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 60101,
-				target = "TargetSelf",
 				nationality = 2,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetNationality"

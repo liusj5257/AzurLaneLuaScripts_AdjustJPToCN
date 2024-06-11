@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第一話　『別次元へのワームホール？』</size>",
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "イストワールからの連絡通りね。どうやら空間をねじ曲げたワームホールみたいだけど…なぜこんなところに急にできたのかしら？",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "イストワールからの連絡通りね。どうやら空間をねじ曲げたワームホールみたいだけど…なぜこんなところに急にできたのかしら？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#a9f548",
 			say = "ねぷぅーーーーーー！？",
 			flashout = {
 				dur = 1,
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "のわぁーーーーーー！？",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "のわぁーーーーーー！？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "──ドッポォォォォォォン！！",
 			typewriter = {
 				speed = 0.05,
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100060,
+			nameColor = "#a9f548",
 			say = "女神になって飛べばいいじゃない",
 			flashout = {
 				dur = 0.5,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100050,
+			nameColor = "#a9f548",
 			say = "ふぅ…ひとまず、何とかなったわね",
 			flashout = {
 				dur = 0.5,
@@ -480,9 +480,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "──ズドォォォォォォン！！",
 			typewriter = {
 				speed = 0.05,
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			nameColor = "#ff0000",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10100050,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -555,11 +555,11 @@ return {
 			}
 		},
 		{
-			actor = 10100060,
 			nameColor = "#ff0000",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10100060,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -575,8 +575,8 @@ return {
 			hideOther = true,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 10100060,
 			dir = 1,
+			actor = 10100060,
 			nameColor = "#a9f548",
 			say = "なに、あれ……私たちが、いる？",
 			typewriter = {
@@ -749,17 +749,17 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "……というわけでね、わたしたち酷い目に遭ったんだよ！",
 			bgm = "story-nepu1",
+			actor = 10100010,
+			nameColor = "#a9f548",
+			say = "……というわけでね、わたしたち酷い目に遭ったんだよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -784,12 +784,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "はあ…そうなの……",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はあ…そうなの……",
+			actor = 101170,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1060,12 +1060,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "何やら騒々しいですね──新しく配属された方たちですか？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "何やら騒々しいですね──新しく配属された方たちですか？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -1144,11 +1144,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/alarm",
+			say = "──ウィーン！ウィーン！ウィーン！",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "──ウィーン！ウィーン！ウィーン！",
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1171,12 +1171,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "緊急出撃？まさか……敵襲！？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "緊急出撃？まさか……敵襲！？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1191,11 +1191,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "みんな、ここにいたですか…探したです",
 			typewriter = {
@@ -1208,11 +1208,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "本部より緊急入電、です。学園近海に突如、鏡面海域が発生…至急、偵察部隊を派遣することになったです。ニーミちゃん、お願いするです",
 			typewriter = {
@@ -1273,15 +1273,15 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#a9f548",
 			say = "……ありゃー、みんな行っちゃったね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1306,12 +1306,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "鏡面海域がなんとか……気になること言ってたわね",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "鏡面海域がなんとか……気になること言ってたわね",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1358,16 +1358,16 @@ return {
 			}
 		},
 		{
-			actor = 900076,
 			actorName = "？？？",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 900076,
 			nameColor = "#a9f548",
 			say = "……追いついたと思ったら、もういない……はあ、落ち着きのない",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1392,13 +1392,13 @@ return {
 			}
 		},
 		{
-			actor = 900077,
+			say = "あのお二人に落ち着け、という方が難しい気がいたしますわ",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900077,
 			actorName = "？？？",
-			say = "あのお二人に落ち着け、という方が難しい気がいたしますわ",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

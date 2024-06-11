@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "闪乱联动更换BGM",
 	time = 0,
-	color = "red",
+	name = "闪乱联动更换BGM",
+	init_effect = "",
+	id = 60470,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60470,
+	color = "red",
 	icon = 60470,
 	last_effect = "",
 	effect_list = {

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_22 = {}
 slot1 = slot0.word_template_22
 
-function temp()
+temp = function()
 	uv0["卡"] = {
 		["斯"] = {
 			["特"] = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["富"] = {
 		["兰"] = {
 			["克"] = {
@@ -44,7 +44,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["艾"] = {
 		["森"] = {
 			["豪"] = {
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拿"] = {
 		["破"] = {
 			["仑"] = {

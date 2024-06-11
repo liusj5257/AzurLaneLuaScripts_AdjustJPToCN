@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-1",
+			say = "며칠 뒤, 어느 해역.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 1,
-			say = "며칠 뒤, 어느 해역.",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "그래서 결국, 사쿠라 엠파이어의 축제는 실패로 돌아갔네~",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401020,
+			nameColor = "#a9f548",
 			say = "정말이지, 오이겐이 취해서 곯아 떨어지는 바람에 무슨 일이 있었는지 하나도 못 보지 않았습니까.",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "(붉어짐) 내가 언제 취했어. 연기였어, 연기라고!",
 			dialogShake = {
 				speed = 0.09,
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "(붉어짐) 돌아가면 이 얘기는 금지야!",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			withoutActorName = true,
-			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "Z2는 정종을 가득 실은 메탈 블러드의 중순양함을 곁눈질로 보며 한숨을 내쉬었다.",
 			typewriter = {
@@ -218,15 +218,15 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 30,
+					type = "move",
 					delay = 0.25,
 					dur = 0.5,
 					x = 0
 				},
 				{
-					type = "move",
 					y = -50,
+					type = "move",
 					delay = 0.75,
 					dur = 0.7,
 					x = 0
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "어쨌든 사쿠라 엠파이어 내부의 파벌이나 새로운 함선에 대한 정보는 이미 얻었어.",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,16 +292,16 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "프린츠 오이겐, 잠시만요.",
 			bgm = "xinnong-3",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "프린츠 오이겐, 잠시만요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
+			say = "어라, 아카기와 카가 아니야? 이렇게 멀리까지 배웅해주지 않아도 되는데.",
 			side = 1,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "어라, 아카기와 카가 아니야? 이렇게 멀리까지 배웅해주지 않아도 되는데.",
+			actor = 403030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "단도직입적으로 말하죠. 메탈 블러드와 세이렌에 대한 더 많은 자료가 필요해요.",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.035
+					number = 0.035,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.04
+					number = 0.04,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -82,8 +82,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.045
+					number = 0.045,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -119,8 +119,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.05
+					number = 0.05,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -156,8 +156,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.055
+					number = 0.055,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -230,8 +230,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.065
+					number = 0.065,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -267,8 +267,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -304,8 +304,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.075
+					number = 0.075,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -341,8 +341,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.08
+					number = 0.08,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -369,9 +369,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "鬼神☆百鬼",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "伤害上升",
 	stack = 3,

@@ -4,13 +4,13 @@ slot0.Battle.BattleAntiSeaBulletFactory = singletonClass("BattleAntiSeaBulletFac
 slot0.Battle.BattleAntiSeaBulletFactory.__name = "BattleAntiSeaBulletFactory"
 slot1 = slot0.Battle.BattleAntiSeaBulletFactory
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0._tmpTimerList = {}
 end
 
-function slot1.NeutralizeBullet(slot0)
+slot1.NeutralizeBullet = function(slot0)
 	for slot4, slot5 in pairs(slot0._tmpTimerList) do
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot5)
 
@@ -18,7 +18,7 @@ function slot1.NeutralizeBullet(slot0)
 	end
 end
 
-function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
+slot1.CreateBullet = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = slot2:GetTemplate().hit_type
 	slot8 = slot0:GetDataProxy()
 
@@ -37,7 +37,7 @@ function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot12 = slot7.range
 	slot13, slot14, slot15 = nil
 
-	function slot16()
+	slot16 = function()
 		if uv0 then
 			slot0 = nil
 			slot1 = uv1:GetPosition():Clone()

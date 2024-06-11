@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「幻想と真実の二重奏」-日常編\n\n<size=45>五 ツンデレについて</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・学園",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・学園",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "こちょこちょ！",
 			typewriter = {
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 403010,
+			say = "は！？触っていいって許した覚えはないけど！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "は！？触っていいって許した覚えはないけど！",
+			actor = 403010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -87,8 +87,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,8 +100,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "わ、まったく同じ反応だ！",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "わたしとお友達になってくれますか？",
 			typewriter = {
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "オイゲン、いつの間に！？こそこそ盗み聞きするんじゃないっての！",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "は？あんたとは関係ないから、どっか行きなさいよ！",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "……オイゲン！",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			say = "なるほどなるほど～！そうですよねー！オイゲンとそういう会話をしますよねー！くぅ～、解釈一致～！",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -430,9 +430,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "おおっ、これはチャンスです！もちろん一緒に行きますよ～！",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

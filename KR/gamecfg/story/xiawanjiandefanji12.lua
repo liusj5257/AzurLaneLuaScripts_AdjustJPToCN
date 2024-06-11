@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401020,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-boss-1",
 			dir = 1,
 			say = "역시 구축함이 전함에게 도전하는 것은 무리인 건가요....",
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 205020,
 			side = 2,
 			hideOther = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "여기까지다. 메탈 블러드의 구축함. 용감히 잘 싸웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -53,10 +53,10 @@ return {
 			}
 		},
 		{
+			say = "펑-------------!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑-------------!",
 			flashN = {
 				color = {
 					1,
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"천사와의 밀회\n\n<size=45>3 인형뽑기라는 이름의 '시련'</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "예배당을 뒤로하고 조프르와 함께 모항의 상점가로 왔다.",
 			bgm = "story-richang-6",
+			say = "예배당을 뒤로하고 조프르와 함께 모항의 상점가로 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "상점가의 가장 눈에 띄는 곳에는 어느새 고양이 발이 그려진 인형뽑기 기계가 몇 대나 설치되어 있었다.",
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "뽑기 기계를 보고 무언가 떠올랐는지, 조프르는 발을 멈췄다.",
@@ -63,10 +63,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이건…?",
 			painting = {
 				alpha = 0.3,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "…아이리스의 전투 천사도 인형뽑기 기계는 처음 보는 모양이다.",
@@ -140,10 +140,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…네.",
 			painting = {
 				alpha = 0.3,
@@ -182,10 +182,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "처음에는 여기… 그 다음에는 이걸 누르면…… 알겠어요.",
 			painting = {
 				alpha = 0.3,
@@ -224,10 +224,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "대충 뽑는 방법은 파악했어요. 슬슬 도전해도 될까요?",
 			painting = {
 				alpha = 0.3,
@@ -251,27 +251,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_171",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_171",
 			say = "돈을 말도 안 되게 비싼 게임 코인으로 바꾸고, 조프르와 함께 오늘 첫 번째 '시련'에 도전하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -282,10 +282,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "위치를 조정한 다음… 타이밍을 노려서…",
 			painting = {
 				alpha = 0.3,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "내려간 집게는 인형을 거의 들어올릴 수 있을 정도까지 갔지만, 결국은 놓치고 말았다.",
@@ -311,10 +311,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…이렇게 어려울 줄은 몰랐어요.",
 			painting = {
 				alpha = 0.3,
@@ -329,10 +329,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 다시 한 번 해봐도 될까요?",
 			painting = {
 				alpha = 0.3,
@@ -370,10 +370,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이렇게 많은 기회를 주시니, 어떻게든 전과를 올려야겠네요.",
 			painting = {
 				alpha = 0.3,
@@ -385,12 +385,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
-			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -401,17 +401,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -422,10 +422,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이건 하늘이 조프르에게 내린 시련… 쉽게 포기할 수는 없어요.",
 			painting = {
 				alpha = 0.3,
@@ -439,11 +439,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_171",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -454,17 +454,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -475,10 +475,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "한 번만 더…!",
 			painting = {
 				alpha = 0.3,
@@ -490,27 +490,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_171",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_171",
 			say = "버킷에 담긴 코인은 서서히 바닥났고, 결국 조프르는 '시련'을 이겨내지 못했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

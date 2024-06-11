@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_yuanhuidian",
 			stopbgm = true,
+			bgName = "bg_yuanhuidian",
+			bgm = "story-6",
 			actor = 401160,
 			nameColor = "#A9F548FF",
 			say = "Enemy reinforcements spotted!",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			expression = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
+			expression = 1,
 			side = 2,
 			actor = 403020,
 			say = "Gee-heesh! So that's how Zeppelin's rigging looks in action!",
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			expression = 8,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
+			expression = 8,
 			side = 2,
 			actor = 401160,
 			say = "Impressive! Powerful! But she still can't compare to the one-and-only... ME!",

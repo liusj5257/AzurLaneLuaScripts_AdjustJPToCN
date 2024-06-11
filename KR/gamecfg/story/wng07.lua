@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "系统指令：202",
 			typewriter = {
 				speed = 0.05,
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "个体识别ID：TYPE-001：202",
 			typewriter = {
 				speed = 0.05,
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "初始化系统进程……",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "舰载雷达显示………………上线……",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "数据链路网络………………上线……",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "上下行任务树………………上线……",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "智能操作界面………………上线……",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "全球作战辅助系统………………已启动。",
 			typewriter = {
 				speed = 0.05,

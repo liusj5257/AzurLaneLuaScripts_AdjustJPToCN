@@ -1,6 +1,6 @@
 slot0 = class("GuildGetAssaultFleetCommand", import(".GuildEventBaseCommand"))
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().callback
 
 	if not getProxy(GuildProxy):ShouldRequestForamtion() then

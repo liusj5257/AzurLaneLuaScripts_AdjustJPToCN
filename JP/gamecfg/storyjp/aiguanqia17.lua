@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA17",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA17",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 403038,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "プリンちゃん",
 			dir = 1,
+			actorName = "プリンちゃん",
 			say = "そこまでよ、キズナアイのところまでは行かせないわ",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "しょうちゃん",
 			dir = 1,
+			actorName = "しょうちゃん",
 			say = "うふふ♪私たちはキズナアイを守るためにここにいるんですよ",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "チュンチュン",
 			dir = -1,
+			actorName = "チュンチュン",
 			say = "あ、アイさんには指一本触れさせはしませんよ＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "高雄ちゃん",
 			dir = 1,
+			actorName = "高雄ちゃん",
 			say = "人呼んで「キズナアイ艦隊」……見・参！",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "高雄ちゃん",
 			say = "そ、そこは触れないでいてくれ……",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "プリンちゃん",
 			dir = 1,
+			actorName = "プリンちゃん",
 			say = "さあね？なんにせよ私たちの「指揮官」……キズナアイを倒されるわけにはいかないわ。やるつもりならそれ相応の覚悟で来なさい。",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "プリンちゃん",
 			dir = 1,
+			actorName = "プリンちゃん",
 			say = "それはできない相談ね",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "高雄ちゃん",
 			dir = 1,
+			actorName = "高雄ちゃん",
 			say = "アイ殿は今、この世界の破壊を望んでおられる。拙者たちはキズナアイ艦隊として、それを全力で手助けするだけだ",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "チュンチュン",
 			dir = -1,
+			actorName = "チュンチュン",
 			say = "う、運命はそう決まってますよ＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "しょうちゃん",
 			dir = 1,
+			actorName = "しょうちゃん",
 			say = "あら？それなら今回は特別に見逃してあげましょうか？…なんて、今のは冗談です♪絶対に逃がしませんよ？",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,8 +384,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "チュンチュン",
 			dir = -1,
+			actorName = "チュンチュン",
 			say = "アイさんには近づけさせません！",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "高雄ちゃん",
 			say = "拙者たちの追従を逃れながらほかの艦と戦えるとでも思っておるのか！",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

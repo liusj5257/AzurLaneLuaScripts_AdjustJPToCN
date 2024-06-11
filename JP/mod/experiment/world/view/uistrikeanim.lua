@@ -2,32 +2,32 @@ slot0 = class("UIStrikeAnim", import(".UIAnim"))
 slot0.Fields = {
 	spineAnim = "userdata",
 	prefab = "string",
-	aniEvent = "userdata",
+	painting = "userdata",
 	char = "userdata",
+	aniEvent = "userdata",
 	transform = "userdata",
-	playing = "boolean",
 	onTrigger = "function",
 	onStart = "function",
+	playing = "boolean",
 	onEnd = "function",
 	skelegraph = "userdata",
-	painting = "userdata",
 	shipVO = "table"
 }
 slot0.EventLoaded = "UIStrikeAnim.EventLoaded"
 
-function slot0.Setup(slot0, slot1, slot2)
+slot0.Setup = function(slot0, slot1, slot2)
 	slot0.prefab = slot1
 	slot0.shipVO = slot2
 end
 
-function slot0.LoadBack(slot0)
+slot0.LoadBack = function(slot0)
 	if slot0.transform and slot0.painting and slot0.char then
 		slot0:Init()
 		slot0:DispatchEvent(uv0.EventLoaded)
 	end
 end
 
-function slot0.Load(slot0)
+slot0.Load = function(slot0)
 	PoolMgr.GetInstance():GetUI(slot0.prefab, true, function (slot0)
 		if uv0 == uv1.prefab then
 			uv1.transform = slot0.transform
@@ -40,7 +40,7 @@ function slot0.Load(slot0)
 	slot0:ReloadShip(slot0.shipVO)
 end
 
-function slot0.ReloadShip(slot0, slot1)
+slot0.ReloadShip = function(slot0, slot1)
 	slot0.shipVO = slot1
 	slot0.aniEvent = nil
 	slot0.painting = nil
@@ -65,7 +65,7 @@ function slot0.ReloadShip(slot0, slot1)
 	end)
 end
 
-function slot0.UnloadShipVO(slot0)
+slot0.UnloadShipVO = function(slot0)
 	slot1 = slot0.shipVO
 
 	retPaintingPrefab(slot0.transform:Find("mask/painting"), slot1:getPainting())
@@ -76,16 +76,16 @@ function slot0.UnloadShipVO(slot0)
 	slot0.char = nil
 end
 
-function slot0.Play(slot0, slot1)
+slot0.Play = function(slot0, slot1)
 	slot0.playing = true
 
-	function slot0.onStart(slot0)
+	slot0.onStart = function(slot0)
 		uv0.spineAnim:SetAction("attack", 0)
 
 		uv0.skelegraph.freeze = true
 	end
 
-	function slot0.onTrigger(slot0)
+	slot0.onTrigger = function(slot0)
 		uv0.skelegraph.freeze = false
 
 		uv0.spineAnim:SetActionCallBack(function (slot0)
@@ -102,7 +102,7 @@ function slot0.Play(slot0, slot1)
 	slot0:Update()
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	slot0.playing = false
 
 	slot0:Update()
@@ -114,7 +114,7 @@ function slot0.Stop(slot0)
 	slot0:UnloadShipVO()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	setActive(slot0.transform, false)
 
 	slot3 = slot0.transform:Find("ship")

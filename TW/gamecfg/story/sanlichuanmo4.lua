@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"{namecode:82}前輩的收藏大公開\n\n<size=45>四　新生{namecode:82}博物館，開放！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "嗚哇…這就是傳說中的——",
 			bgm = "story-1",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "嗚哇…這就是傳說中的——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.2,
 					x = 0,
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "重建的收藏室！",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "重建的收藏室！",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:82}",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:71}",
+			side = 0,
 			bgName = "bg_sanli_cg_1",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "重建的速度前所未有的快……今晚宴會的規模也升級吧！",
+			dir = 1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:95}",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:82}",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,12 +176,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "這是高興的淚水呀，小{namecode:33}",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "這是高興的淚水呀，小{namecode:33}",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "好啦，各位……往日的榮光已成過去，今天也要為了新時代而倍加努力！",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啦，各位……往日的榮光已成過去，今天也要為了新時代而倍加努力！",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "就讓我來為這博物館正式揭幕吧——我按！",
 			effects = {
 				{
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "轟隆隆……",
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			effects = {
 				{
 					active = false,
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "為……為什麼按下按鈕後，屋子又開始震動了！",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -346,12 +346,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "屋子……屋子又要崩壞了？",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "屋子……屋子又要崩壞了？",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "那是…新的收藏櫃？",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是…新的收藏櫃？",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -418,9 +418,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "嶄新的收藏櫃裡擺放著的是——",
 			typewriter = {
 				speed = 0.05,
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "那是…船模？啊，是{namecode:82}前輩的船模！",
 			typewriter = {
 				speed = 0.05,
@@ -444,8 +444,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.7,
 					dur = 0.2,
 					x = 0,
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "咦？！這個竟然是秘密收藏的按鈕嗎！！",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -512,11 +512,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "這種把丟臉的一面展示在後輩面前的感覺…難道就是所謂的“羞恥play”嗎！？",
 			typewriter = {
 				speed = 0.05,
@@ -528,8 +528,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -75,
+					type = "move",
 					delay = 1.2,
 					dur = 0.3,
 					x = 0
@@ -553,12 +553,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "哇~{namecode:82}前輩的模型，好帥！",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇~{namecode:82}前輩的模型，好帥！",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

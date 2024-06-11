@@ -1,19 +1,19 @@
 return {
-	id = "YONGYEHUANGUANG32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG32",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "xinnong-4",
 			actor = 201330,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "再装填完了！全弾発射です！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "手応えがあったわ！どうやらオブストラクターの機動性と防御力もそこまでじゃないみたい",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "エディンバラはやっぱりエディンバラだわ……",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "ごめんなさい。急に聞いた私も悪かったわ。…イカルス？どうしたの？",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "なんでもありませんっ！多分私の思い違いかな…",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "はい！ええとですね…北方連合の防衛線すら突破できるようなセイレーンなのに、火力がちょっと低すぎないですか？",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "確かにオブストラクターのような面倒な敵もいますし、防御力とか全体的に性能が上がってますけど…",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "言われてみれば……",
 			typewriter = {
 				speed = 0.05,
@@ -258,10 +258,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
-			actorName = "通信機",
+			side = 2,
 			dir = 1,
+			actorName = "通信機",
 			say = "――愚鈍にして弱小、無知蒙昧な個体たちよ、この我を随分と待たせるな！",
 			dialogShake = {
 				speed = 0.09,
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "震えよ！竦めよ！我が暗き深淵から出でし恐怖に怖れおののけ！――",
@@ -301,9 +301,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 201330,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "通信機から声が！？",
 			effects = {
 				{
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "……決まったぜ。やっぱり登場はこうカッコよく決めねぇとなァ！",
@@ -351,10 +351,10 @@ return {
 			}
 		},
 		{
-			actorName = "通信機",
 			nameColor = "#ff5c5c",
-			side = 2,
+			actorName = "通信機",
 			dir = 1,
+			side = 2,
 			say = "め。迷惑連絡だと……！？ナメやがって！！",
 			dialogShake = {
 				speed = 0.09,
@@ -374,8 +374,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "あんたがセイレーンの指揮個体と見ていいわね",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "そうだ！我が領域に踏み入る愚か者よ、今貴様らを全て永久に凍てつかせてやる！",
@@ -417,10 +417,10 @@ return {
 			}
 		},
 		{
-			actorName = "通信機",
 			nameColor = "#ff5c5c",
-			side = 2,
+			actorName = "通信機",
 			dir = 1,
+			side = 2,
 			say = "あははは！今日はたくさん新しい玩具を用意してやったから今に見てろよ！",
 			dialogShake = {
 				speed = 0.09,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "——————————",
@@ -455,8 +455,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "こ、声が消えました…",
 			typewriter = {
 				speed = 0.05,
@@ -471,8 +471,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "今のってジャマイカなら意味分かるのかしら…？",
 			typewriter = {
 				speed = 0.05,
@@ -487,8 +487,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "こんなわけの分からない連絡をいきなり送ってくるなんて迷惑連絡としか言いようないわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -502,9 +502,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "みんな、こいつにしっかりロイヤルのマナーを叩き込んでやるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -516,8 +516,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

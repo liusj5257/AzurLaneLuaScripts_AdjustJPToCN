@@ -1,12 +1,12 @@
 return {
-	id = "W1004",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1004",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "素材を装置に使用すれば、海域の走査を行うことができそうだ",
 			typewriter = {
 				speed = 0.05,

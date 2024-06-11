@@ -1,6 +1,6 @@
 slot0 = class("StarSeaFacilityPage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data3
 
 	slot0:PlayStory()

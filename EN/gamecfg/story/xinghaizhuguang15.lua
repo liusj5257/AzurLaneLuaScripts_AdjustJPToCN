@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 900335,
 			side = 2,
 			bgName = "bg_zhuguang_3",
+			bgm = "theme-thedevilxv",
+			actor = 900335,
 			nameColor = "#FEF15E",
 			say = "Sorry I couldn't catch up with you sooner. I suddenly remembered a bunch of stuff at once.",
-			bgm = "theme-thedevilxv",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "You're not a simulation... are you?",
 			painting = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "We're going to take you down... no matter what it takes.",
 			painting = {
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "I-I don't know. I just arrived at the Sea of Stars, so...",
 			painting = {
@@ -363,8 +363,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "Yeah, the communications system sent me some coordinates. Glowy coordinates...",
 			painting = {
@@ -587,11 +587,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "You're off the hook this time, Devil. Let's go, Princeton.",
 			painting = {

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU20",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_bsm_2",
-			actorName = "티르피츠",
 			dir = 1,
-			say = "거기 당신, 모항의 해역에선 장난치면 안 돼. 어디 소속이지?",
 			bgm = "bsm-5",
+			actorName = "티르피츠",
+			say = "거기 당신, 모항의 해역에선 장난치면 안 돼. 어디 소속이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			actorName = "티르피츠",
 			nameColor = "#ff5c5c",
+			actorName = "티르피츠",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			actorName = "티르피츠",
 			nameColor = "#ff5c5c",
+			actorName = "티르피츠",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			actorName = "티르피츠",
 			nameColor = "#ff5c5c",
+			actorName = "티르피츠",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
+			dir = 1,
 			say = "장비로 아주 잠깐 몸을 띄우더니, U-556는 첨벙~하고 백 텀블링을 하며 바다로 뛰어들었다.）",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_bsm_2",
-			actorName = "티르피츠",
 			dir = 1,
+			actorName = "티르피츠",
 			say = "…………정말!!",
 			effects = {
 				{
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
+			dir = 1,
 			say = "티르피츠는 확성기를 손에 들고 U-556에게 주의를 주기 시작했다.）",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ff5c5c",
 			say = "티르피츠 씨, 차가운 사람이라고 들었는데, 저런 표정도 짓는구나……",
 			effects = {
 				{

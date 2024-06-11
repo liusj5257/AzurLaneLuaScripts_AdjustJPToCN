@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAYUE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAYUE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"言の葉、空に舞う花びら\n\n<size=45>二 花に囲まれて</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "お花見当日",
-			blackBg = true,
+			nameColor = "#A9F548FF",
 			bgm = "story-richang-7",
+			blackBg = true,
+			say = "お花見当日",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_142",
 			say = "香りがしてきたところで角を曲がると、花に囲まれるガーデンハウスが目に入った。",
 			typewriter = {
@@ -54,17 +54,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "そこには花に水やりをしている花月の姿があった。…が、どうやらなにかに思い悩んでいるようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -97,11 +97,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "ここにジャスミンを置いたほうがいいのか、それともライラック？…うぅ、悩ましいです…",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,11 +121,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "ジャスミンなら、指揮官さんと一緒に見学しているときに、「ジャスミンティーでもいかがでしょう」と提案できますし…",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,11 +145,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "ライラックのあの香りも、お花見の雰囲気に合ってなかなか捨てがたいですし…",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,11 +169,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "あ、でもお花見なのに、香りばかりが目立ってしまうのも変ですよね…ジャスミンにしないにしてもライラックがありますし…でもそれでバリエーションが減ったら…",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,11 +193,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "うぅ、選べません…そうだ、いっそのことバラにするのも…あっ、それだとちょっとあからさますぎるかな…",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,20 +222,20 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			bgName = "star_level_bg_142",
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "はっ！し、指揮官さん、もういらしたのですか…！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,11 +257,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "い、いらっしゃいませ！どうぞこちらにお掛けください。今からお茶を用意してきますねっ",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,9 +278,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "水やりしているそれはジャスミン？",
 			typewriter = {
 				speed = 0.05,
@@ -297,11 +297,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "ジャスミンって…あぅ、指揮官さん…も、もしかして花月が迷っていたのを聞いていたんですか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,11 +321,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "実はまだ迷っていまして…指揮官さんはどれがいいと思いますか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,9 +342,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "「どれもいい」と言いかけたが、これでは彼女は恐らく悩み続けるだろうと思いとどまった。",
 			typewriter = {
 				speed = 0.05,
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "花月が飾るべき花は――",
 			typewriter = {
 				speed = 0.05,
@@ -488,9 +488,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "こうなったら、全部植えてみて比べるとか…",
 			typewriter = {
 				speed = 0.05,
@@ -507,11 +507,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "植えるのですか？それじゃあお花見どころじゃなくなりますよ…？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,9 +528,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "なんだかこれからもここに通う気がするし、自分の手で種をまいた花の様子を見るのも悪くないかも。",
 			typewriter = {
 				speed = 0.05,
@@ -546,20 +546,20 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			bgName = "star_level_bg_142",
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "こ、これからもお越しいただけるんですか？！よかった…ええと、た、たしかに花の成長を見守るのは面白いですよねっ！はい！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -581,11 +581,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "少々お待ちください！今種をお持ちしますね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1

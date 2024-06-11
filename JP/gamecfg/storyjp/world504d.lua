@@ -1,18 +1,18 @@
 return {
-	id = "WORLD504D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504D",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指揮官様、周辺海域のセイレーン戦力は全て排除できました",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "艦載機の掃討には少々時間がかかりましたけど、味方の航空戦力の全力出撃の前では敵じゃありませんわ",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 207010,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "ああ、艦載機を放つキャリアを叩きさえすれば、あの艦載機たちの脅威ももはやないようなものだ",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			actor = 206060,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "では、次の作戦エリアに移動するわ。大金星を手に入れられるように頑張って…ね",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "さっきのはイーグルとパーシュース…？ロイヤルは極地にいる艦隊も動かしたのか？",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

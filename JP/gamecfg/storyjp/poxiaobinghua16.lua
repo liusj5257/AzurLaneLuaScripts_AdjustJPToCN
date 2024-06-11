@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "同志指揮官、大丈夫か？",
 			bgm = "deepblue-image",
+			actor = 705040,
+			nameColor = "#a9f548",
+			say = "同志指揮官、大丈夫か？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "………どうやら急に気を失っていたようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "空気が薄くなったせいだろうな。艦隊は今「光の都市」に向かっているぞ",
 			typewriter = {
@@ -55,9 +55,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "あれ？さっきまでは別の場所にいたような…",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "その通りだ。あの都市まで進もうとした直後、急に皆が離れ離れになったが今は合流できている",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "そして幸いなことに同志指揮官をこの潜水艦のデッキで発見できたというわけだ",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "気にするな。むしろこんな危険な場所に連れてきた私たちのほうこそ詫びなければ",
 			typewriter = {
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "指揮を任された以上、艦船…彼女たちと一緒にいたいものだ。",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "指揮官だけじゃないわ。私たちもさっき一瞬目眩に襲われたの",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "まだフラフラする…なんだったのさっきのは…",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "鏡面海域だからって一言で片づけては何だが、流石にどこからかもわからない攻撃を放置したままではいられないな",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "……あっ。これは……",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "氷山が復元されている？",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "でもそれを操っているのが変にうねうねしている機械だよね！",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "上手く利用できればもしかしたらここの防衛機構を倒してくれそうだ",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "まあ、何回も利用したら敵も我々に気づいてしまうがな",
 			typewriter = {
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "気をつけて進むことだ。同志指揮官、采配は慎重に頼むぞ",
 			typewriter = {
 				speed = 0.05,

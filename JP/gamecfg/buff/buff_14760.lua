@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 14760,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14760,
+	color = "blue",
 	icon = 14760,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 14765,
 				nationality = 3,
+				skill_id = 14765,
 				check_target = {
 					"TargetNationalityFriendly",
 					"TargetShipTypeFriendly"
@@ -57,9 +57,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				nationality = 3,
 				maxTargetNumber = 0,
 				skill_id = 14761,
-				nationality = 3,
 				check_target = {
 					"TargetNationalityFriendly",
 					"TargetShipTypeFriendly"

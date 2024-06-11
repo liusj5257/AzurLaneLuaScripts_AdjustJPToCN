@@ -1,12 +1,12 @@
 return {
 	fadeOut = 1.5,
-	mode = 2,
-	noWaitFade = true,
 	once = true,
 	fadeType = 1,
+	fadein = 1.5,
+	mode = 2,
+	noWaitFade = true,
 	id = "ZHONGQIU4",
 	updateOnBegin = 1,
-	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107030,
@@ -193,14 +193,14 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Sis, let's make them together! Let's see who can make them better!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -310,13 +310,13 @@ return {
 		{
 			actor = 107030,
 			side = 2,
+			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "Yeah! I'm done at last - yay, was I the slowest? With help from others, I thought could've at least finished in the middle...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

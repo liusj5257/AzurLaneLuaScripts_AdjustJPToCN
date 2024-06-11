@@ -1,12 +1,12 @@
 return {
-	id = "W820011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W820011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "異常海流によってこれ以上艦隊を前進させることができなくなった。一旦出直そう。",
 			typewriter = {
 				speed = 0.05,

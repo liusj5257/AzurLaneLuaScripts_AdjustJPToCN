@@ -7,17 +7,17 @@ slot0.Battle.BattleCannonBulletFactory = singletonClass("BattleCannonBulletFacto
 slot0.Battle.BattleCannonBulletFactory.__name = "BattleCannonBulletFactory"
 slot4 = slot0.Battle.BattleCannonBulletFactory
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot4.MakeBullet(slot0)
+slot4.MakeBullet = function(slot0)
 	return uv0.Battle.BattleCannonBullet.New()
 end
 
 slot5 = Quaternion.Euler(-90, 0, 0)
 
-function slot4.onBulletHitFunc(slot0, slot1, slot2)
+slot4.onBulletHitFunc = function(slot0, slot1, slot2)
 	slot3 = uv0.GetDataProxy()
 	slot5 = slot0:GetBulletData():GetTemplate()
 	slot6 = nil
@@ -74,7 +74,7 @@ function slot4.onBulletHitFunc(slot0, slot1, slot2)
 	end
 end
 
-function slot4.onBulletMissFunc(slot0)
+slot4.onBulletMissFunc = function(slot0)
 	slot1 = slot0:GetBulletData()
 	slot2 = slot1:GetTemplate()
 	slot3, slot4 = uv0.GetFXPool():GetFX(slot0:GetMissFXID())
@@ -83,7 +83,7 @@ function slot4.onBulletMissFunc(slot0)
 	uv1.Battle.PlayBattleSFX(slot1:GetMissSFX())
 end
 
-function slot4.MakeModel(slot0, slot1, slot2, slot3, slot4)
+slot4.MakeModel = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0:GetDataProxy()
 	slot6 = slot1:GetBulletData()
 

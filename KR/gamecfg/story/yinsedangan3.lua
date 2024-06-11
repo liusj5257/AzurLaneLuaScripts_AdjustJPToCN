@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>권한 인증 중————</size>",
@@ -82,8 +82,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "폭발의 흔적뿐 아니라 알갱이와 같은 결정이 장비의 틈과 요크타운의 몸에 잔뜩 붙어 있었지...",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "이런 이상한 현상이 주변에 있던 알갱이가 붙은 것인지, 아니면 사진을 찍을 때 있던 얼룩인지 알 수는 없다.",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "……………………",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "전세는 굳혀졌다. 우리의 승리야.",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "그래서 전선 함대가 자리를 비운 상태니까...",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "데이터 분석 완료————————————",
 			typewriter = {
@@ -238,9 +238,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "재생 종료————————————",
 			typewriter = {

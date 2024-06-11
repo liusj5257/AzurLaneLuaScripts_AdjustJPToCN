@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 408080,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "이렇게 많은 어뢰를 가져오다니, 악마네.",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "...음... U556는 아직 안 왔나——",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 		{
 			actor = 201010,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "잠깐——!?",
 			dialogShake = {
 				speed = 0.09,
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "응응. 재미있는 정보를 공유해 줘서 고마워.",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			say = "너도 피장파장이잖아!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -291,8 +291,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "불독은 손가락을 뻗어 이미 물속에 머리가 반쯤 들어간 U-110을 가리켰다.",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "말 다 했으니까 U-110은 돌아가도 돼?",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			say = "우리가 널 돌려보낼 것 같아?!!!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "안 돼?",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			say = "...안 돼! 참 나, 왜 조금도 긴장하지 않는 거야?",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

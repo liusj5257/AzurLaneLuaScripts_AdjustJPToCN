@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 剧情战 BOSS剧情杀",
 	time = 5,
+	name = "2023云仙活动 剧情战 BOSS剧情杀",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,10 +15,10 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				time = 0.1,
-				number = 999999,
+				k = 0,
 				dotType = 1,
-				k = 0
+				time = 0.1,
+				number = 999999
 			}
 		},
 		{

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "属性变更",
 	time = 0,
+	name = "属性变更",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.3
+				number = -0.3,
+				attr = "injureRatioByCannon"
 			}
 		}
 	}

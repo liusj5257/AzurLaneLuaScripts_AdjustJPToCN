@@ -21,9 +21,9 @@ return {
 		{
 			actor = 303110,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = -1,
 			say = "That's why I...",
+			dir = -1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

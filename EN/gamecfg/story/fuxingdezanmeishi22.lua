@@ -1,17 +1,17 @@
 return {
-	id = "FUXINGDEZANMEISHI22",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXINGDEZANMEISHI22",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 602010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "blueocean-image",
 			dir = 1,
 			say = "That's the end of them.",
+			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			say = "Allow me to handle the skies. I shall support you while scouting ahead to the best of my abilities.",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "Of course, just don't overextend yourself now.",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 602010,
 			dir = 1,
+			actor = 602010,
 			say = "Yawn. I can't be bothered to keep track of how many enemies we've defeated by now.",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 601050,
 			dir = 1,
+			actor = 601050,
 			say = "You heard her! Last one there's a rotten egg, Maestrale!",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "We've made significant progress through the labyrinth now, all thanks to Aquila's eyes in the skies.",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "But, though we've traveled a great distance, we have nothing to show for it... It might be time I took a good look around to see what's here.",
 			typewriter = {
 				speed = 0.05,
@@ -180,10 +180,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 605010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Be careful, Littorio. The Sirens' deployments don't bode well for us.",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "I'm well aware. Rest assured, I'm not about to let myself get overconfident just from a few victories against measly Pawns.",
 			typewriter = {
 				speed = 0.05,
@@ -213,10 +213,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 605010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Good. If Gioberti and the Mirror Sea control device are at the center of the labyrinth, then their defenses should start ramping up significantly pretty soon.",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "Even if they do, have no worries. Our forces are strong, and should we need to retreat, the exit is right behind our backs.",
 			typewriter = {
 				speed = 0.05,
@@ -246,9 +246,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 605020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "All you need do, my dear Eternal Flagship, is continue calmly issuing orders like normal.",
 			effects = {
 				{
@@ -266,10 +266,10 @@ return {
 			}
 		},
 		{
-			actorName = "Narration",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "Narration",
 			dir = 1,
+			side = 2,
 			say = "The Sardegnian fleet's venture into the labyrinth continued...",
 			dialogShake = {
 				speed = 0.09,

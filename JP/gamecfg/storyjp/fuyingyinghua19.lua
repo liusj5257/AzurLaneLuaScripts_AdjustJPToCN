@@ -1,16 +1,16 @@
 return {
-	once = true,
-	mode = 2,
-	id = "FUYINGYINGHUA19",
 	continueBgm = true,
+	mode = 2,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "闇に包まれた海の上で、二人の少女が疾走る。",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,12 +21,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "江風！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 305050,
+			say = "江風！",
 			flashN = {
 				color = {
 					1,
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン戦艦による一斉射が江風を夾叉（きょうさ）した。",
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "砲撃一閃。一度夾叉した砲撃は今度は外れることなく――",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "江風ではなく、長門が召喚した量産型の戦艦に着弾した。",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			say = "何をほざいておる！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,8 +248,8 @@ return {
 			say = "神子さま！？",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -273,8 +273,8 @@ return {
 			say = "余は長門！重桜の戦艦・長門である！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "敵を仕留め損ねて、動きを一瞬止めた量産型セイレーンに対して、長門は己の主砲を放った",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "―――――！！",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "強力な主砲による斉射――それも重桜を守りし神子のものとなると、敵を撃破するのには十分すぎる威力を有していた。",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "あたりは一瞬にして火の海と化し、セイレーンによる包囲も綻びを見せていた。",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "長門は手を伸ばし、傷ついた江風を半ば曳航する形で脱出を急ぐ。",
 			typewriter = {
 				speed = 0.05,
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……が、増援に現れたセイレーンの主砲がその前に二人を再び捉えてしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -474,23 +474,9 @@ return {
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			say = "神子さま、自分のことはいいです！放っといてください！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "そんな江風の嘆願を無視し、長門は必死に巨大な艤装を駆使し、セイレーンの砲撃を回避しながら追撃をかわそうとする。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +487,22 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			say = "そんな江風の嘆願を無視し、長門は必死に巨大な艤装を駆使し、セイレーンの砲撃を回避しながら追撃をかわそうとする。",
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			dir = 1,
 			say = "一方、セイレーンは数の暴力を活かし、長門の行き先を塞ぎ、砲撃で進路を変えさせ、ゆっくりと包囲網を縮めていく。",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "二人の前に、まさに危機が立ちはだかっていた。",
 			typewriter = {
 				speed = 0.05,
@@ -557,9 +557,9 @@ return {
 			}
 		},
 		{
+			say = "——",
 			soundeffect = "event:/battle/plane",
 			bgm = "story-7",
-			say = "——",
 			flashN = {
 				color = {
 					1,
@@ -598,10 +598,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "爆撃機による急降下爆撃で、進路を妨げていたセイレーンは鉄くずへと化した。",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -659,12 +659,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "江風を失ったら長門様、きっと悲しむからね――！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 307060,
+			say = "江風を失ったら長門様、きっと悲しむからね――！",
 			flashN = {
 				color = {
 					1,
@@ -707,8 +707,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "瑞鶴の放った爆撃機は二人を危機から救った。",
 			typewriter = {
 				speed = 0.05,
@@ -720,14 +720,14 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "瑞鶴さん、っ…感謝する…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -752,8 +752,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1250,
+					type = "move",
 					delay = 1.5,
 					dur = 0.25,
 					x = 0
@@ -761,8 +761,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "感謝の言葉を述べると、江風は瑞鶴の胸に倒れ込んでしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -986,8 +986,8 @@ return {
 			say = "もちろん！長門様、祭儀の島で三笠様が待っているよ！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

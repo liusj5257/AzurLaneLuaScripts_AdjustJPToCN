@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"선배와의 앙금\n\n<size=45>선배</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(똑똑)",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "?! 서, 선배?! 자, 잠깐 물을 좀 가져올게요!",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -134,10 +134,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107090,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "그럼 차라도?! 차 좀 드시겠어요?!",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -226,15 +226,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#92fc63",
 			say = "대충 이런 식이야. 에식스도 참가해 볼래?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			say = "꼭 참가하겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -351,14 +351,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107090,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "라고, 선배를 상대로 기세등등하게 말해버렸지만, 상대는 그 유명한 엔터프라이즈 선배……",
 			flashout = {
-				black = true,
 				dur = 1.5,
+				black = true,
 				alpha = {
 					0,
 					1

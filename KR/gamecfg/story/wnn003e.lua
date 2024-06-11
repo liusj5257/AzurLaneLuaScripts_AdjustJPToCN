@@ -7,8 +7,8 @@ return {
 			actor = 312010,
 			side = 2,
 			paintingNoise = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "在当前区域中央检测到了强烈的塞壬波动，请指挥官前往调查！",
 			typewriter = {
 				speed = 0.05,

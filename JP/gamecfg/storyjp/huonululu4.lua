@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"拗ねやすい彼女の小さなお話\n\n<size=45>四　ホノルルは心配性？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・中庭",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・中庭",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ヘレナとホノルルを見かけた。",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			say = "ヘレナちゃん、どうしたの？",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ヘレナちゃん、どうしたの？",
+			actor = 102120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "私って本当バカね……",
 			typewriter = {
 				speed = 0.05,
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "……！？",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -332,11 +332,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "ホノルルはため息をした。",
 			typewriter = {
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "……ヘレナちゃんのことが心配なのよ。でも…大丈夫？って聞くことすら、いつも上手く出来ないなんて、私って本当にバカだよね……",
 			typewriter = {
 				speed = 0.05,
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "ホノルルがまた顔をそらした。でも今回は恥ずかしさがあっても不機嫌そうには見えなかった。",
 			typewriter = {
@@ -420,12 +420,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "指揮官、あなたに相談しても……いいの？",
 			typewriter = {
 				speed = 0.05,

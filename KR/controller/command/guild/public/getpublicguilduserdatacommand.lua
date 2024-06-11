@@ -1,6 +1,6 @@
 slot0 = class("GetPublicGuildUserDataCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	seriesAsync({
@@ -16,7 +16,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.CreatePublicGuild(slot0, slot1)
+slot0.CreatePublicGuild = function(slot0, slot1)
 	slot2 = pg.ConnectionMgr.GetInstance()
 
 	slot2:Send(62100, {
@@ -27,7 +27,7 @@ function slot0.CreatePublicGuild(slot0, slot1)
 	end)
 end
 
-function slot0.InitPublicGuild(slot0, slot1)
+slot0.InitPublicGuild = function(slot0, slot1)
 	slot2 = pg.ConnectionMgr.GetInstance()
 
 	slot2:Send(60102, {

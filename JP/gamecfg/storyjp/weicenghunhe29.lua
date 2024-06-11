@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE29",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_6",
-			bgm = "hunhe-battle",
 			say = "運河要塞？・外洋？",
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_6",
+			dir = 1,
 			say = "霧が薄くなっていく中、イントレピッドたちが次々と現れるセイレーンの大群相手に激戦を繰り広げていた。",
 			typewriter = {
 				speed = 0.05,
@@ -36,9 +36,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_6",
+			dir = 1,
 			say = "敵の攻勢が確かに強くなったものの、海霧で全力出せずにいた空母たちもまた猛威を振るい始める。",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "バンカー・ヒル",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "エセックス",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "エセックス",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イントレピッド",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "エセックス",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "エセックス",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イントレピッド",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "エセックス",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "バンカー・ヒル",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "バンカー・ヒル",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イントレピッド",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "バンカー・ヒル",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イントレピッド",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イントレピッド",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -276,15 +276,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 107110,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "あ！そういえばさっきから霧が少しずつ薄くなってきているわね",
 			bgm = "hunhe-eagle",
+			actor = 107110,
+			nameColor = "#a9f548",
+			say = "あ！そういえばさっきから霧が少しずつ薄くなってきているわね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -301,9 +301,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "バンカー・ヒル、偵察機で霧の濃度を調べられない？見晴らしの良さ程度でいいから！",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "霧が一箇所から発生するのなら、薄くなる時に濃度が均等には変化しないはず！",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "そうよ！つまり発生源の方向を特定できるってことよ！",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "よし、次はどうやって敵の中枢艦に接近するかだけど……",
 			typewriter = {
 				speed = 0.05,
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 107170,
 			dir = 1,
+			hideOther = true,
 			actorName = "バンカー・ヒル&エセックス",
 			say = "時間がないから、とにかく突っ込め！",
 			subActors = {
@@ -448,9 +448,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "えええ！？",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -475,8 +475,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "……ふふ、やっぱりみんなエセックス級だね！",
 			typewriter = {
 				speed = 0.05,
@@ -490,11 +490,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "さあ、偵察機、かっとべ！敵の中枢艦に私たちを導いて！",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

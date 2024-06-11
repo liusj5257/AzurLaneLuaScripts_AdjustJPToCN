@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "浮島要塞C4",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "浮島要塞C4",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "こ、こんなに大きな基地を隠しているとは…！それにこの感覚…もしやセイレーンの鏡面海域技術を使っているのですか！？",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "あれはこの鏡面海域が作り出した艦載機……？",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "モータルに代わってこの遠見の目で確認してやろう――うん、重桜の艦載機ね",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "あれは量産型の「駒」が装備するもので、「駒」も含めてこの秘密基地での訓練でよく出てきたりはするね",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "あー、あれはただのデータ検証用で、別に特別な意味はないよ！",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "鏡面海域だからこそ、自分の陣営の艦の戦力を知っておかなくちゃ、ですね！感心しました！",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "……それにしても、すごく迫力のある演習ですね…まるで本当に戦っているような…",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "そうでしょーすごいでしょー……あ、あれ？普段はそんなに大きな演習弾を",
 			typewriter = {
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			say = "――――！！",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！",
 			flashN = {
 				color = {
 					1,
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 401280,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401280,
+			nameColor = "#a9f548",
 			say = "こちらに向かって撃ってきました！？",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -325,8 +325,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "バカな！ポンコツ量産感の分際でこのグレートデーモンである我にあわわわわ！？",
 			typewriter = {
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			say = "――――！！",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！",
 			flashN = {
 				color = {
 					1,
@@ -394,8 +394,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "ほ、本当に撃ってきた！？",
 			typewriter = {
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,8 +421,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "て、鉄血の演習はここまでやるのでありますか！？",
 			typewriter = {
@@ -470,8 +470,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "なるほど！ご教示感謝します！",
 			typewriter = {
@@ -487,8 +487,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "（て、適当に流しちゃいましたね……オイゲンさん……）",
 			typewriter = {
@@ -536,8 +536,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "オイゲンはどうやってこの秘密基地の機密ルートを知ったんだ…？！",
 			typewriter = {
@@ -582,12 +582,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "さて、私たちならどんなスコアを叩き出せるのでしょうね",
 			typewriter = {
 				speed = 0.05,

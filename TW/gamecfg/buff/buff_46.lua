@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "绝地反击",
 	time = 0,
-	color = "red",
+	name = "绝地反击",
+	init_effect = "",
+	id = 46,
 	picture = "",
 	desc = "每隔15秒触发绝地反击效果",
 	stack = 1,
-	id = 46,
+	color = "red",
 	icon = 46,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 46,
 				target = "TargetSelf",
-				time = 15,
-				skill_id = 46
+				time = 15
 			}
 		},
 		{

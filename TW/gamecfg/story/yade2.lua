@@ -1,32 +1,32 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YADE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YADE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
-					"“好孩子”的偷懒时间\n\n<size=45>二　偷懒计划开始！</size>",
+					"「好孩子」的偷懶時間\n\n<size=45>偷懶計畫開始！</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "次日，迎来了{namecode:491}所说的第一次“偷懒计划”。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "隔日，迎來了亞德所說的第一次「偷懶計畫」。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,13 +47,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "让你久等了～",
+			hidePaintObj = true,
+			say = "讓你久等了～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "映入眼帘的是进入房间的{namecode:491}，以及……一大袋零食？",
+			say = "映入眼簾的是進入房間的亞德，以及……一大袋零食？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,11 +78,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "第一次的“偷懒计划”就从最简单的主题开始——",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "第一次的「偷懶計畫」就從最簡單的主題開始——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,11 +96,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "“罪恶感MAX，想吃多少就吃多少的零食会”！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "「罪惡感MAX，想吃多少就吃多少的零食會」！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,13 +116,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "不是说要一口气全部吃完哦？",
+			hidePaintObj = true,
+			say = "不是說要一口氣全部吃完哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,11 +136,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "要是只拿一两种零食，又正好是指挥官不喜欢的，{namecode:491}不就成坏孩子了嘛。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "要是只拿一兩種零食，又剛好是指揮官不喜歡的，亞德不就是壞孩子了嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,11 +154,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官先从这些里面选一个吧？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官先從這些裡面選一個吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			},
 			options = {
 				{
-					content = "脆脆角小饼干",
+					content = "脆脆角小餅乾",
 					flag = 1
 				},
 				{
@@ -177,20 +177,20 @@ return {
 					flag = 2
 				},
 				{
-					content = "小鲨鱼软糖",
+					content = "小鯊魚軟糖",
 					flag = 3
 				}
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "指挥官喜欢这个么？这个是上次{namecode:432}给我推荐的。",
+			hidePaintObj = true,
+			say = "指揮官喜歡這個嗎？這個是上次施佩推薦給我的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我觉得{namecode:432}喜欢它的原因，大概不在于味道，而是因为可以戴起来玩吧？",
+			say = "我覺得施佩喜歡它的原因，大概不在於味道，而是因為可以戴起來玩吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像这个样子——“嗷呜”",
+			say = "就像這個樣子——「嗷嗚~」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "{namecode:491}将左手五指套上饼干，做了个“张牙舞爪”的动作。",
+			say = "亞德將左手五指套上餅乾，做了個「張牙舞爪」的動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:443}曾经和我说，黑巧克力是成熟的象征与大人的选择。",
+			say = "Z24曾經跟我說，黑巧克力是成熟的象徵與大人的選擇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼~然后当她直接整块丢进嘴巴后，那一脸“好苦！”的表情可是很有趣哦。",
+			say = "呼呼呼~然後當她直接整塊丟進嘴巴後，那一臉「好苦！」的表情可是很有趣哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,14 +299,14 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "当然，这点苦味对指挥官来说，肯定不算什么就是了。",
+			hidePaintObj = true,
+			say = "當然，這點苦味對指揮官來說，肯定不算什麼就是了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小鲨鱼软糖——这个指挥官一看就知道是谁喜欢的吧？",
+			say = "小鯊魚軟糖——這個指揮官一看就知道是誰喜歡的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，就是{namecode:420}哦。这个是上次和她一起破译了别人出的小难题后得到的赠礼。",
+			say = "沒錯，就是U-110哦。這是上次和她一起破解了別人出的小難題後得到的贈禮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 406030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "软糖看起来和成熟的指挥官不是很搭呢，难道这就是所谓的“反差感”？",
+			say = "軟糖看起來和成熟的指揮官不是很搭呢，難道這就是所謂的「反差感」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,14 +379,14 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "可能会有点甜，先试试吧～",
+			hidePaintObj = true,
+			say = "可能會有點甜，先試試吧～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,11 +397,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "那就先尝一块试试——",
+			say = "那就先嚐一塊試試——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,10 +411,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊，等一下。",
 			painting = {
 				alpha = 0.3,
@@ -429,11 +429,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "{namecode:491}说过，“指挥官什么都不用准备，只要等{namecode:491}安排就好~”对吧？自然“吃”也包括在内。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "亞德說過，「指揮官什麼都不用準備，只要等亞德安排就好~」對吧？自然「吃」也包括在內。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,11 +447,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官，张开嘴？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官，張開嘴？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,24 +462,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "张开嘴……？难道说……",
+			say = "張開嘴……？難道說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "乖乖张嘴就好————",
+			hidePaintObj = true,
+			say = "乖乖張嘴就好————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "那就——",
@@ -501,27 +501,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……味道还不错……",
+			bgName = "bg_story_task_2",
+			say = "嗯……味道還不錯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -532,11 +532,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "“味道还不错”——对吧？那就再来一块？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "「味道還不錯」——對吧？那就再來一塊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,10 +550,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊——",
 			painting = {
 				alpha = 0.3,
@@ -568,11 +568,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼呼……有种投喂小动物的感觉呢～",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "呼呼……有種投餵小動物的感覺呢～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "对了，指挥官口渴了吗？{namecode:491}还准备了罐装的果汁和汽水，指挥官想要哪一个？",
+			hidePaintObj = true,
+			say = "對了，指揮官口渴了嗎？亞德還準備了罐裝的果汁和汽水，指揮官想要哪一個？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -618,11 +618,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "OK～那{namecode:491}就喝另一个～",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "OK～那亞德就喝另一個～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,13 +633,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "顺便也帮{namecode:491}开一下易拉罐吧？",
+			hidePaintObj = true,
+			say = "順便也幫亞德開一下易拉罐吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,11 +650,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "“咔咔”两声，两罐饮料应声打开。",
+			say = "「咔咔」兩聲，兩罐飲料應聲打開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,11 +664,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "谢啦，指挥官真好～",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "謝啦，指揮官真好～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,11 +682,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼——光是吃零食，喝饮料还是有些不够呢……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "呼——光是吃零食，喝飲料還是有些不夠呢…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,11 +700,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "要不再聊点有趣的事吧？比如指挥室是不是真的和传闻的那样藏着点东西之类的？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不然再聊點有趣的事吧？例如指揮室是不是真的跟傳聞的那樣藏著點東西之類的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,11 +718,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "哈哈，只是打个比方而已。{namecode:491}是好孩子，不会追问指挥官的隐私的。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "哈哈，只是打個比方而已。亞德是好孩子，不會追問指揮官的隱私的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,13 +733,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "在找到想说的话题之前，先让零食把嘴巴占满～",
+			hidePaintObj = true,
+			say = "在找到想說的話題之前，先讓零食把嘴巴佔滿～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,11 +753,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "指挥官，来，张嘴——",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官，來，張開嘴巴——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -771,11 +771,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "偷懒的时间还有很多，慢慢享受吧～",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "偷懶的時間還有很多，慢慢享受吧～",
 			painting = {
 				alpha = 0.3,
 				time = 1

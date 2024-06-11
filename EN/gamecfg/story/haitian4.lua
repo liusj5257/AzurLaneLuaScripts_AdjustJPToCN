@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>4 A Short Story</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "Hai Tien walks next to me with a sprightly spring in her step, wearing the semblance of a flower crown that I had crafted on her head.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "As I follow her, I also wear the ring of grass she had made for me on my left hand.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "We continue to pass through a tiny trail in the forest, and eventually arrive at a pleasant clearing that seems perfect for camping.",
@@ -69,10 +69,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, shall we pitch the tent? I'd be glad to help out.",
 			painting = {
 				alpha = 0.3,
@@ -96,8 +96,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "Though this is the first time camping for both of us, we still manage to get the tent set up without any difficulty.",
@@ -122,10 +122,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, is there anything else I can help with?",
 			painting = {
 				alpha = 0.3,
@@ -164,10 +164,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well then, I'll leave it to you.",
 			painting = {
 				alpha = 0.3,
@@ -179,27 +179,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_520",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_520",
 			say = "As I go to set up the tarp, I suddenly hear Hai Tien's voice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -210,10 +210,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No, not like that! The emotion here is completely off! There needs to be more intimacy in your expression!",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, yes, that's it! That's exactly how you should be looking at your crush!",
 			painting = {
 				alpha = 0.3,
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "Curiosity gets the better of me, and I stop what I'm doing to head back to where Hai Tien is–",
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "At some point, a whole bunch of squirrels had lined up in front of her.",
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "And Hai Tien is... enthusiastically teaching them to act.",
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "When I listen in a bit more, I notice that the content of her \"playbook\" seems to be from the novel she was working on before.",
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Squirrel",
+			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Squirrel",
+			side = 2,
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -326,10 +326,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're doing great~ That's exactly the emotion you want! Next, the storm scene is about to start!",
 			painting = {
 				alpha = 0.3,
@@ -344,10 +344,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hold your lover tight, and let her feel your heartbeat–",
 			painting = {
 				alpha = 0.3,
@@ -371,8 +371,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "There's a certain magic to her fairytale-like story that puts a wide smile on my face.",
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "The question is, how is Hai Tien able to teach the lines to the squirrels? Does she know how to communicate with them...?",

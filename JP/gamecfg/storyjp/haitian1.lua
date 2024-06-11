@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"いざ出発！閃きを求める旅へ\n\n<size=45>一 スランプ状態</size>",
@@ -14,28 +14,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "母港・執務室",
-			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -46,10 +46,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さん、今週の予定表となります。ご確認をお願いいたします",
 			painting = {
 				alpha = 0.3,
@@ -61,8 +61,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "最近就任した秘書艦――海天から今週のスケジュールと任務リストを手渡された。",
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "みっちり詰め込まれたスケジュールには細かい備考が添えられ、任務リストにも明確な優先順位が見て取れ――全てが理路整然としている。",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "しかし――",
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "書類作成に夢中な少女は、手渡した書類の中に何枚か「特殊」な紙切れが挟まっていたことに気づいていないようだ。",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "ここは――",
@@ -241,10 +241,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え？それはどういう…",
 			painting = {
 				alpha = 0.3,
@@ -259,10 +259,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ま、まさか海天、秘書艦としてあまりにも役に立っていなくて、指揮官さんの顰蹙を買ったのでしょうか…？",
 			painting = {
 				alpha = 0.3,
@@ -301,10 +301,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ…そこまでおっしゃるのでしたら、お言葉に甘えさせていただきますね",
 			painting = {
 				alpha = 0.3,
@@ -318,11 +318,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……かくかくしかじか",
 			painting = {
 				alpha = 0.3,
@@ -333,17 +333,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -354,10 +354,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "と、小説の執筆時にスランプに陥ってしまって、満足のいくようなお話が全然書けなくなって…",
 			painting = {
 				alpha = 0.3,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "海天は途方に暮れたかのように頭を振った。",
@@ -395,10 +395,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それも試してみたのですが、これといった効果がなく…",
 			painting = {
 				alpha = 0.3,

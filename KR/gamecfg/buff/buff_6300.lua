@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "高效燃油",
 	time = 0,
-	color = "yellow",
+	name = "高效燃油",
+	init_effect = "",
+	id = 6300,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6300,
+	color = "yellow",
 	icon = 6300,
 	last_effect = "",
 	effect_list = {

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 701080,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼~♪",
 			bgm = "deepblue-image",
+			actor = 701080,
+			nameColor = "#a9f548",
+			say = "哼哼哼~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "洪亮看起來心情很好的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -55,9 +55,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "雷鳴則和之前一樣，就算見到璀璨的都市出現後也是一副冷冰冰的感覺。",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "從剛才開始感覺指揮官的視線又移動上來了……有事？",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "雷鳴，不要總是這麼冷冰冰的嘛，態度再親切一些才能更好地和他人相處哦~",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "沒有冷冰冰，只是普通的態度而已。況且這次只是一次護衛行動，不是用來交流感情的旅遊。嗯，就這樣。",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "真是的，雷鳴總是這樣~算啦，指揮官同志如果有不懂的地方，我替你翻譯雷鳴的話就好~",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 8,
 			side = 0,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "哼……隨便妳了。",
 			typewriter = {
@@ -190,9 +190,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "妳和雷鳴的關係真好啊。",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "當然關係還是一樣好啦，對吧，雷鳴~~~",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 7,
 			side = 0,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "是是是……所以這個漫長的擁抱可以結束了嗎……",
 			typewriter = {
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 701080,
 			side = 1,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 701080,
+			nameColor = "#a9f548",
 			say = "不要~好不容易才能見妳一次，讓我再抱一會吧~指揮官同志也一起要來嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -287,8 +287,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_cccpv2_6",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "………………（冷漠）",
 			typewriter = {
@@ -301,9 +301,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
+			dir = 1,
 			say = "感受到雷鳴冰冷刺骨的視線後……嗯，還是返回艦橋看看吧。",
 			typewriter = {
 				speed = 0.05,
@@ -315,15 +315,15 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702040,
+			nameColor = "#a9f548",
 			say = "很好……我們的推測完全正確，果然在大約是之前控制室冰山的位置上發現了一個設施入口！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "唔……我們是從控制室裡的“大門”來到這裡的，如果再一次穿越這裡“大門”真的能原路返回嗎？",
 			typewriter = {
@@ -368,9 +368,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_cccpv2_6",
-			actor = 702040,
 			dir = 1,
 			blackBg = true,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "這種事情，一會試一試就知道了吧~！",
 			typewriter = {

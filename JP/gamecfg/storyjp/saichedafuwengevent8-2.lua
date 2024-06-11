@@ -1,8 +1,8 @@
 return {
-	id = "SAICHEDAFUWENGEVENT8-2",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "SAICHEDAFUWENGEVENT8-2",
+	skipTip = false,
 	scripts = {
 		{
 			say = "換装された最新エンジンが火を噴くぜ！2マス前進！"

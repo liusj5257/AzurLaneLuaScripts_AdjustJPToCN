@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOTELAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOTELAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"인디짱의 스마일을 위해!\n\n<size=45>7. 동경의 행복</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·항구",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·항구",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 103060,
+			say = "함대, 순조롭게 복귀~ 후아~~~ 인디짱, 나 왔어!!",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "함대, 순조롭게 복귀~ 후아~~~ 인디짱, 나 왔어!!",
+			actor = 103060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,16 +82,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.1,
 					dur = 0.5,
 					x = -800
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 103070,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103070,
+			nameColor = "#a9f548",
 			say = "꺼헉...... 언니...... 너무 세게 안았어......",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = -30,
@@ -125,12 +125,12 @@ return {
 			}
 		},
 		{
-			actor = 103060,
+			say = "원래 오늘은 인디짱을 위해 실력을 발휘했어야 하는데~",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "원래 오늘은 인디짱을 위해 실력을 발휘했어야 하는데~",
+			actor = 103060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "지휘관...... 이렇게 되는 거였어......?",
 			typewriter = {
 				speed = 0.05,
@@ -439,11 +439,11 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "좋아요! 특별히 지휘관에게\"인디짱 팬클럽 회원 1호\"의 칭호를 드릴게요!",
 			typewriter = {
 				speed = 0.05,
@@ -455,8 +455,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -513,11 +513,11 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "이제 알았어요, 인디짱에게 행복한 웃음을 짓게 하기 위해선, 저도 즐거운 모습으로 지내야 한다는 걸...!",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -571,9 +571,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "포틀랜드는 조금 쑥스러운 듯한 웃음을 내비치며 감사하다는 말을 전했다.",
 			typewriter = {
 				speed = 0.05,

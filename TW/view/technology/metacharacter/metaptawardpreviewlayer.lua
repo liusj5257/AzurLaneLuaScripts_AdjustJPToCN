@@ -1,10 +1,10 @@
 slot0 = class("MetaPTAwardPreviewLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MetaPTAwardPreviewUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initUITextTips()
 	slot0:initData()
 	slot0:findUI()
@@ -12,7 +12,7 @@ function slot0.init(slot0)
 	slot0:initScrollList()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
@@ -20,24 +20,24 @@ function slot0.didEnter(slot0)
 	slot0:updateScrollList()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.initUITextTips(slot0)
+slot0.initUITextTips = function(slot0)
 	setText(slot0:findTF("Panel/AwardTpl/PointLight/PointTipText"), i18n("meta_pt_point"))
 	setText(slot0:findTF("Panel/AwardTpl/PointGray/PointTipText"), i18n("meta_pt_point"))
 	setText(slot0:findTF("Panel/AwardTpl/GetText"), i18n("meta_award_get"))
 	setText(slot0:findTF("Panel/AwardTpl/GotText"), i18n("meta_award_got"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.curMetaProgressVO = slot0.contextData.metaProgressVO
 	slot0.ptData = slot0.curMetaProgressVO.metaPtData
 	slot0.itemNum = #slot0.ptData.dropList
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot1 = slot0:findTF("Panel")
 	slot2 = slot0:findTF("PT", slot1)
@@ -54,13 +54,13 @@ function slot0.findUI(slot0)
 	slot0.leftW = GetComponent(slot0.awardContainerTF, "HorizontalLayoutGroup").padding.left
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
 end
 
-function slot0.initScrollList(slot0)
+slot0.initScrollList = function(slot0)
 	slot0.awardUIItemList = UIItemList.New(slot0.awardContainerTF, slot0.awardTpl)
 	slot1 = slot0.awardUIItemList
 
@@ -80,7 +80,7 @@ function slot0.initScrollList(slot0)
 	end)
 end
 
-function slot0.updateScrollList(slot0)
+slot0.updateScrollList = function(slot0)
 	slot1, slot2, slot3 = slot0.curMetaProgressVO.metaPtData:GetLevelProgress()
 
 	slot0.awardUIItemList:align(slot2)
@@ -93,7 +93,7 @@ function slot0.updateScrollList(slot0)
 	end
 end
 
-function slot0.updateAwardTpl(slot0, slot1, slot2)
+slot0.updateAwardTpl = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF("Item", slot1)
 	slot4 = slot0:findTF("mask", slot3)
 	slot5 = slot0:findTF("Got", slot4)
@@ -160,7 +160,7 @@ function slot0.updateAwardTpl(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updatePTInfo(slot0)
+slot0.updatePTInfo = function(slot0)
 	setImageSprite(slot0.ptIcon, LoadSprite(slot0.curMetaProgressVO:getPtIconPath()))
 	setText(slot0.ptNumText, slot0.ptData.count)
 end

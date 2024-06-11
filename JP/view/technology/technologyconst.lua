@@ -54,7 +54,7 @@ slot0.TECH_NATION_ATTRS = {
 	AttributeType.AntiSub
 }
 
-function slot0.GetNationSpriteByIndex(slot0)
+slot0.GetNationSpriteByIndex = function(slot0)
 	return GetSpriteFromAtlas(uv0.AtlasName, uv0.NationResName[slot0] .. "01"), GetSpriteFromAtlas(uv0.AtlasName, uv0.NationResName[slot0] .. "02")
 end
 
@@ -102,11 +102,11 @@ slot0.TypeResName = {
 	"type_all_"
 }
 
-function slot0.GetTypeSpriteByIndex(slot0)
+slot0.GetTypeSpriteByIndex = function(slot0)
 	return GetSpriteFromAtlas(uv0.AtlasName, uv0.TypeResName[slot0] .. "01"), GetSpriteFromAtlas(uv0.AtlasName, uv0.TypeResName[slot0] .. "02")
 end
 
-function slot0.ClassToGroupIDList()
+slot0.ClassToGroupIDList = function()
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(pg.fleet_tech_ship_template.all) do
@@ -122,7 +122,7 @@ function slot0.ClassToGroupIDList()
 	return slot0
 end
 
-function slot0.GetOrderClassList()
+slot0.GetOrderClassList = function()
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(pg.fleet_tech_ship_class.all) do
@@ -143,8 +143,8 @@ end
 slot0.MetaClassConfig = nil
 slot0.MotClassConfig = nil
 
-function slot0.CreateMetaClassConfig()
-	if uv0.MetaClassConfig and uv0.MotClassConfig then
+slot0.CreateMetaClassConfig = function()
+	if uv0.MetaClassConfig or uv0.MotClassConfig then
 		return
 	end
 
@@ -249,7 +249,7 @@ function slot0.CreateMetaClassConfig()
 	end
 end
 
-function slot0.GetOrderMetaClassList(slot0)
+slot0.GetOrderMetaClassList = function(slot0)
 	slot1 = {}
 	slot3 = {}
 
@@ -277,7 +277,7 @@ function slot0.GetOrderMetaClassList(slot0)
 	return slot1
 end
 
-function slot0.GetOrderMotClassList(slot0)
+slot0.GetOrderMotClassList = function(slot0)
 	slot1 = {}
 	slot3 = {}
 
@@ -305,7 +305,7 @@ function slot0.GetOrderMotClassList(slot0)
 	return slot1
 end
 
-function slot0.GetMetaClassConfig(slot0, slot1)
+slot0.GetMetaClassConfig = function(slot0, slot1)
 	slot3 = uv0.MetaClassConfig[slot0].ships
 	slot4 = nil
 
@@ -319,7 +319,7 @@ function slot0.GetMetaClassConfig(slot0, slot1)
 	}
 end
 
-function slot0.GetMotClassConfig(slot0, slot1)
+slot0.GetMotClassConfig = function(slot0, slot1)
 	slot3 = uv0.MotClassConfig[slot0].ships
 	slot4 = nil
 
@@ -333,7 +333,7 @@ function slot0.GetMotClassConfig(slot0, slot1)
 	}
 end
 
-function slot0.GetShipTypeByGroupID(slot0)
+slot0.GetShipTypeByGroupID = function(slot0)
 	return pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot0][1]].type
 end
 

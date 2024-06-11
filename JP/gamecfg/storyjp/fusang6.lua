@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"素桜流しの日のあとで\n\n<size=45>六  失意の雨</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "母港·執務室",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "母港·執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "夕方になると外はすっかり嵐に見舞われ、執務室の窓は横殴りの雨が叩きつけるように当たっている。",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "執務室のドアをノックする音が響くと、入ってきたのは最上であった。",
@@ -241,11 +241,11 @@ return {
 			}
 		},
 		{
-			actor = 302100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302100,
+			nameColor = "#a9f548",
 			say = "ううん、一度お願いしたかったから。ええと、それじゃ失礼するね。あまり三隈を待たせては悪いから",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			},
 			ction = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そうして去っていった最上を見送ってから、扶桑は少し疲れたようにほぅっと息を吐いた。",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そこまで言いかけてから、突然扶桑は軽く首を振ってみせると、気を取り直したように笑みを浮かべた。",
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "突然の扶桑からの恥ずかしい要求に戸惑いながらも、言われた通りに口を開いて団子を頬張った。",
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

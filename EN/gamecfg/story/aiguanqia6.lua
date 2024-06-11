@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA6",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA6",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -38,8 +38,8 @@ return {
 			actor = 10400010,
 			side = 1,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "I’m so glad nobody got hurt~!",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "But... hmm, it’s a bit weird watching yourself get beat up after all.",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "Ah! Is this maybe some kind of power rushing through me?! I feel like I’m transforming...!",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "Everyone, look closely~ Traaaans... form~!",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "MENACING...!",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "Kizuna AI",
 			say = "*hums* Hehe~♪ All right, everyone! Full speed ahead~!",
 			typewriter = {

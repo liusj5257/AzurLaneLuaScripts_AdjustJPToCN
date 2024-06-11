@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_395 = {}
 slot1 = slot0.word_template_395
 
-function temp()
+temp = function()
 	uv0["翠"] = {
 		["鞑"] = {
 			["靼"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["卒"] = {
 		["习"] = {
 			["延"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["颐"] = {
 		["."] = {
 			["{"] = {
@@ -120,7 +120,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遨"] = {
 		["."] = {
 			["{"] = {
@@ -176,7 +176,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["扳"] = {
 		["."] = {
 			["{"] = {
@@ -248,7 +248,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["弑"] = {
 		["."] = {
 			["{"] = {
@@ -304,7 +304,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["忒"] = {
 		["\\"] = {
 			s = {

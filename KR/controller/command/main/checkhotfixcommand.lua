@@ -1,6 +1,6 @@
 slot0 = class("CheckHotfixCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if slot1:getBody().mediatorName and (string.find(slot2, "Combat") or string.find(slot2, "Battle")) then
 		return
 	end

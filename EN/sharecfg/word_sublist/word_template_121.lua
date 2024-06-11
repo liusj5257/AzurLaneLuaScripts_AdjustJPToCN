@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_121 = {}
 slot1 = slot0.word_template_121
 
-function temp()
+temp = function()
 	uv0["含"] = {
 		["屌"] = {
 			this = true
@@ -38,7 +38,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["韩"] = {
 		["东"] = {
 			["方"] = {
@@ -92,7 +92,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["韓"] = {
 		["東"] = {
 			["方"] = {
@@ -115,7 +115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["喊"] = {
 		["派"] = {
 			this = true
@@ -125,7 +125,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闞"] = {
 		this = {
 			this = true
@@ -135,7 +135,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["汉"] = {
 		["奸"] = {
 			["卖"] = {
@@ -149,7 +149,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["汗"] = {
 		["滴"] = {
 			["妹"] = {

@@ -1,16 +1,16 @@
 slot0 = class("GameRoomPileGameView", import("..BaseMiniGameView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GameRoomPileGameUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("overview/back")
 end
 
 slot1 = 7
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
@@ -41,7 +41,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.PackData(slot0)
+slot0.PackData = function(slot0)
 	slot2 = slot0:GetMGData():GetRuntimeData("elements") and slot1[1] or 0
 
 	if slot0:getGameRoomData() then
@@ -55,10 +55,10 @@ function slot0.PackData(slot0)
 	}
 end
 
-function slot0.OnGetAwardDone(slot0, slot1)
+slot0.OnGetAwardDone = function(slot0, slot1)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.controller:onBackPressed() then
 		return
 	end
@@ -66,7 +66,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.controller:Dispose()
 end
 

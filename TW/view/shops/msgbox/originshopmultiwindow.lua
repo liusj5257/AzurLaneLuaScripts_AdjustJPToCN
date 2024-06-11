@@ -1,10 +1,10 @@
 slot0 = class("OriginShopMultiWindow", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShopsUIMsgbox"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.topItem = slot0:findTF("item/panel_bg")
 	slot0.ownerTF = slot0.topItem:Find("left/own")
 	slot0.detailTF = slot0.topItem:Find("left/detail")
@@ -25,7 +25,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("actions/confirm_button/label"), i18n("shop_word_exchange"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Close()
 	end, SFX_PANEL)
@@ -37,7 +37,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Open(slot0, slot1, slot2)
+slot0.Open = function(slot0, slot1, slot2)
 	slot0.opening = true
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
@@ -45,7 +45,7 @@ function slot0.Open(slot0, slot1, slot2)
 	slot0:Show()
 end
 
-function slot0.InitWindow(slot0, slot1, slot2)
+slot0.InitWindow = function(slot0, slot1, slot2)
 	slot3, slot4, slot5 = nil
 
 	if isa(slot1, WorldNShopCommodity) then
@@ -97,7 +97,7 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.Close(slot0)
+slot0.Close = function(slot0)
 	if slot0.opening then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 		slot0:Hide()
@@ -106,7 +106,7 @@ function slot0.Close(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.opening then
 		slot0:Close()
 	end

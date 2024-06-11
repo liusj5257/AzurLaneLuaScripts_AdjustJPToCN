@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.2
+					number = 0.2,
+					attr = "cri"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.216
+					number = 0.216,
+					attr = "cri"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.232
+					number = 0.232,
+					attr = "cri"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.248
+					number = 0.248,
+					attr = "cri"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.264
+					number = 0.264,
+					attr = "cri"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.28
+					number = 0.28,
+					attr = "cri"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.296
+					number = 0.296,
+					attr = "cri"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.314
+					number = 0.314,
+					attr = "cri"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.332
+					number = 0.332,
+					attr = "cri"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.35
+					number = 0.35,
+					attr = "cri"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "暴击率提高",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "1号位暴击率提高",
 	stack = 1,

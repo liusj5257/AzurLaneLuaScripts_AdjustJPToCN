@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 902171,
+	time = 0,
 	picture = "",
 	desc = "强化效率&追加防空炮",
 	stack = 1,
-	id = 902171,
+	color = "yellow",
 	icon = 902170,
 	last_effect = "",
 	blink = {

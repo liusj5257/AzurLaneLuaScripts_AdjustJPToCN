@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN28",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg13",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "大棋盤·赤城控制區第九回合",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg13",
 			say = "伴隨著回合開始的提示，和煦的微風拂過了棋盤的每一個角落，也拂過了赤城的各位侍從。",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg13",
 			say = "觸發的事件卡名為「神木之風」，在每一名侍從開始行動和結束時，會分別獲得一次恢復效果。",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "可惜深雪沒機會體驗了……我還是不明白，赤城大人，武藏大人剛剛為什麼會突然對深雪發動攻擊啊？",
 			painting = {
@@ -108,8 +108,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "嗯。既然，長門和三笠鐵了心要把她卡住，那除此之外就沒有其他辦法了。",
 			painting = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "呵呵，把旗風消滅掉確實也是可選項之一。",
 			painting = {
@@ -158,8 +158,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "我還挺想看看如果旗風退場了，大前輩接下來要再選誰進去頂著呢~",
 			painting = {
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "前輩，艦載機飛過中心區域時會遭受干擾，旗風現在的狀態還很好，我們不一定能將她一舉拿下。",
 			painting = {
@@ -208,8 +208,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "無妨，反正大前輩也差不多能猜到我想做什麼了，意思到了就行。",
 			painting = {
@@ -273,8 +273,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "嗯，加油哦，山城，之後中心據點的攻略還需要妳呢！",
 			painting = {

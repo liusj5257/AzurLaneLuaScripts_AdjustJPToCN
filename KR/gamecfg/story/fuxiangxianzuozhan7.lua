@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "메탈 블러드 부도 요새·D12 방어 모듈",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-6",
+			say = "메탈 블러드 부도 요새·D12 방어 모듈",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,11 +43,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "이번에는 \"로열 네이비\"인가, 훈련이 정말 다채롭네.",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,8 +77,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "에헤헤, 그치 그치? 페터, 돌아오지 않으면 휴식 시간이 끝난다고?",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "요새의 책임자는 힘들구나...",
 			typewriter = {
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "응, 알았어. 다들 준비됐어? 다음 전투를 시작하자!",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

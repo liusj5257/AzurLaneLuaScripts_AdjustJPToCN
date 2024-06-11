@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"\"When strife befalls our home, I shall hoist our proud flag high.\"",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			say = "Vichya Dominion - Naval Port",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-french1",
+			say = "Vichya Dominion - Naval Port",
 			effects = {
 				{
 					active = false,
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "They say man is bound to unknowingly repeat history forever. Maybe they're not entirely wrong.",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "I wish they'd at least keep up the pretense of neutrality. We don't want to get into an all-out war...",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "What can you do? What's done is done.",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "What's up with you lately anyway, Algérie? I rarely see you this serious.",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "As opposed to what? Do I normally come across as a jokester?",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Haha, of course not. I guess I'm just used to seeing you always be elegant and composed, in control of any situation.",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Don't tease me like that. Given the importance of this operation, I think it deserves at least a little gravitas.",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Can't argue with that. On that note, can you guess why I'm here?",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Knowing you, I'm sure you already have a hunch.",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -311,8 +311,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "And you're part of the group tasked with staging an assault on them?",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Dang, it's scary how on-point that guess is... Nothing gets past you, huh?",
 			typewriter = {
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -355,8 +355,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "It's not hard to figure out the broad strokes when you're involved. But what, exactly, are you going to do?",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "We've pinpointed one of their naval arteries based on the movements of their capital ships. That's the one we'll strike.",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "The plan is to cut off their supply lines and render their strongest ships inoperable. Fairly waterproof, if you ask me.",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Do we have the Royal Navy backing us?",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "What did they say?",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "\"Based upon the current situation, we do not have the ability to commit our forces to unplanned operations before the arrival of additional support.\"",
 			typewriter = {
@@ -489,8 +489,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "\"Please consider your operation plans carefully and do not act hastily.\"",
 			typewriter = {
@@ -522,8 +522,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "I know this plan's fairly urgent, but surely they didn't have to send a strategist like you to the front lines...",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Haha, it's best to not overthink things. The top brass operates in mysterious ways, and a lot of that is going to be beyond us.",
 			typewriter = {
@@ -556,8 +556,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "...Fair enough. I guess it really is up to us.",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "We'll be fine! After all, we're the best out there when it comes to taking care of business!",
 			typewriter = {
@@ -590,8 +590,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Approach danger with a cool head, and lead cautiously! We've got a formula for success, and just have to follow through with it!",
 			typewriter = {
@@ -607,8 +607,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "As a strategist, I tried to put together a plan with the greatest chance for success...",
 			typewriter = {
@@ -621,8 +621,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -634,8 +634,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "But ultimately, an operation like this isn't something a single person can come up with.",
 			typewriter = {
@@ -651,8 +651,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "And besides–– maybe I prefer slugging it out rather than planning from behind the scenes~?",
 			typewriter = {
@@ -700,8 +700,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "Understood. I'm looking forward to seeing what you're capable of, Miss Strategist. Hehe~",
 			typewriter = {
@@ -717,8 +717,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "Haha, you're gonna make me blush...",
 			typewriter = {
@@ -731,8 +731,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -744,8 +744,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "If you like it so much, maybe I'll call you that instead of Foch from now on~",
 			typewriter = {

@@ -1,6 +1,6 @@
 slot0 = class("MainReceiveBossRushAwardsSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) or slot1:isEnd() or not slot1:HasAwards() then

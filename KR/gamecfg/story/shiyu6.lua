@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"걱정 많은 그녀는 진지해\n\n<size=45>6. 문 뒤의 위험</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "결국, 시구레와 함께 유다치가 사라졌던 도리이로 돌아왔다. 역시나 흔적은 찾아볼 수 없었다.",
 			side = 2,
 			bgName = "star_level_bg_129",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "결국, 시구레와 함께 유다치가 사라졌던 도리이로 돌아왔다. 역시나 흔적은 찾아볼 수 없었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -114,13 +114,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_129",
+			side = 2,
+			dir = 1,
 			say = "——시구레와 함께 얼마 간 청소를 한 후……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -209,9 +209,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "시구레는 말하면서 문을 밀었는데, 이때——",
 			typewriter = {
 				speed = 0.05,
@@ -223,9 +223,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "——딸깍딸깍!!",
 			dialogShake = {
 				speed = 0.09,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "꺅!! 바, 방금 그건 무슨 소리야!?",
 			effects = {
 				{
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "소리는 창고 깊숙한 곳에서 전해져 오는 것 같았다.",
 			typewriter = {
 				speed = 0.05,
@@ -300,9 +300,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "귀를 쫑긋했지만 어떤 소리도 들을 수 없었다. 하지만 방금 그 소리는 절대 환청이 아니었다.",
 			typewriter = {
 				speed = 0.05,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "놀랜 시구레를 진정시키기 위해, 그녀의 손을 꽉 잡았다.",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "잠깐만——바보 지휘관! 이런 때에 무슨 생각을 하는 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "불안했던 마음이 좀 풀릴 줄 알았는데… 설마 화나게 한 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "시구레랑 손을 잡고, 다른 한 손으로 같이 문 손잡이를 잡았다.",
 			typewriter = {
 				speed = 0.05,
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "간다——하나, 둘, 셋!",
 			effects = {
 				{
@@ -436,13 +436,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "기세등등하게 문을 열었고, 유령——은 전혀 존재하지 않았다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -489,11 +489,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "바, 바보 유다치!? 너가 어떻게 여기에!?",
 			typewriter = {
 				speed = 0.05,
@@ -505,8 +505,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -547,11 +547,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "진짜… 화도 안 난다… 하아… 이 자식…",
 			typewriter = {
 				speed = 0.05,
@@ -563,8 +563,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 0.8,
 					dur = 1,
 					x = 0

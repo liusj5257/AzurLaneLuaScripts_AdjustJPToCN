@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"騎士姫の憂鬱\n\n<size=45>二 頑張るトリオンファン</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港·執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港·執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,9 +101,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "秘書艦に注意された……",
 			typewriter = {
 				speed = 0.05,
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "参加者一覧にざっと目を通し、いくつか指摘した。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -236,15 +236,15 @@ return {
 			}
 		},
 		{
-			say = "午後·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "午後·演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "トリオンファンの活躍もあって、アイリス勢がいい成績を収めた。",
 			typewriter = {
 				speed = 0.05,
@@ -394,9 +394,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "トリオンファンは一瞬だけ思い出に浸り、そして――",
 			typewriter = {
 				speed = 0.05,

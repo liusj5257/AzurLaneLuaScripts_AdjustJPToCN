@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT10-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT10-1",
+	fadein = 1,
 	scripts = {
 		{
-			actor = 10300010,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "그렇다면……내게 맡겨달랄까나!",
 			dir = 1,
 			bgm = "level-uta",
+			actor = 10300010,
+			nameColor = "#92fc63",
+			say = "그렇다면……내게 맡겨달랄까나!",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "발이 빠른 나라면, 저 녀석들을 유인하며 도망치는 것쯤은 식은 죽 먹기라고.",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "여차하면……비장의 수단도 있으니까 말야.",
 			typewriter = {
 				speed = 0.05,

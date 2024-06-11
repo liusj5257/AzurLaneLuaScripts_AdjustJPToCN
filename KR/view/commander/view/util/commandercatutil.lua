@@ -1,6 +1,6 @@
 slot0 = class("CommanderCatUtil")
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	for slot7, slot8 in pairs(getProxy(FleetProxy):GetRegularFleets()) do
 		for slot12, slot13 in pairs(slot8:getCommanders()) do
 			slot1[slot13.id].sub = slot8:isSubmarineFleet()
@@ -10,7 +10,7 @@ function slot1(slot0, slot1)
 	end
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 
 	assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2) and not slot3:isEnd())
@@ -27,7 +27,7 @@ function slot2(slot0, slot1)
 	end
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	assert(slot0.chapterId)
 
 	for slot7, slot8 in pairs(getProxy(ChapterProxy):getChapterById(slot0.chapterId):getEliteFleetCommanders()) do
@@ -39,7 +39,7 @@ function slot3(slot0, slot1)
 	end
 end
 
-function slot4(slot0, slot1)
+slot4 = function(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 
 	assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot3:isEnd())
@@ -56,7 +56,7 @@ function slot4(slot0, slot1)
 	end
 end
 
-function slot5(slot0, slot1)
+slot5 = function(slot0, slot1)
 	slot3 = getProxy(GuildProxy):getRawData():GetActiveEvent()
 
 	assert(slot3)
@@ -72,7 +72,7 @@ function slot5(slot0, slot1)
 	end
 end
 
-function slot6(slot0, slot1)
+slot6 = function(slot0, slot1)
 	slot2, slot3 = nowWorld():BuildFormationIds()
 
 	if slot0.fleets then
@@ -95,7 +95,7 @@ function slot6(slot0, slot1)
 	end
 end
 
-function slot7(slot0, slot1)
+slot7 = function(slot0, slot1)
 	slot2 = slot0.fleets
 
 	assert(slot2)
@@ -111,7 +111,7 @@ function slot7(slot0, slot1)
 	end
 end
 
-function slot8(slot0, slot1)
+slot8 = function(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 
 	for slot7, slot8 in pairs(_.map({
@@ -131,7 +131,7 @@ function slot8(slot0, slot1)
 	end
 end
 
-function slot9(slot0, slot1)
+slot9 = function(slot0, slot1)
 	slot2 = getProxy(FleetProxy)
 
 	assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSSINGLE) and not slot3:isEnd())
@@ -148,7 +148,7 @@ function slot9(slot0, slot1)
 	end
 end
 
-function slot0.GetCommanderList(slot0)
+slot0.GetCommanderList = function(slot0)
 	slot2 = getProxy(CommanderProxy):getData()
 
 	if CommanderCatScene.FLEET_TYPE_COMMON == slot0.fleetType then
@@ -200,7 +200,7 @@ function slot0.GetCommanderList(slot0)
 	return slot5
 end
 
-function slot0.GetSkillExpAndCommanderExp(slot0, slot1)
+slot0.GetSkillExpAndCommanderExp = function(slot0, slot1)
 	slot2 = 0
 	slot3 = 0
 	slot4 = getProxy(CommanderProxy)
@@ -214,7 +214,7 @@ function slot0.GetSkillExpAndCommanderExp(slot0, slot1)
 	return math.floor(slot3), math.floor(slot2)
 end
 
-function slot0.AnySSRCommander(slot0)
+slot0.AnySSRCommander = function(slot0)
 	slot1 = getProxy(CommanderProxy)
 
 	if _.any(slot0, function (slot0)
@@ -226,7 +226,7 @@ function slot0.AnySSRCommander(slot0)
 	return false
 end
 
-function slot0.CalcCommanderConsume(slot0)
+slot0.CalcCommanderConsume = function(slot0)
 	slot1 = getProxy(CommanderProxy)
 	slot2 = 0
 
@@ -241,13 +241,13 @@ function slot0.CalcCommanderConsume(slot0)
 	return math.floor(slot2)
 end
 
-function slot0.SetActive(slot0, slot1)
+slot0.SetActive = function(slot0, slot1)
 	slot2 = GetOrAddComponent(slot0, typeof(CanvasGroup))
 	slot2.alpha = slot1 and 1 or 0
 	slot2.blocksRaycasts = slot1
 end
 
-function slot0.CommanderInChapter(slot0)
+slot0.CommanderInChapter = function(slot0)
 	if getProxy(ChapterProxy):getActiveChapter() then
 		for slot6, slot7 in pairs(slot1.fleets) do
 			if _.any(_.values(slot7:getCommanders()), function (slot0)
@@ -261,7 +261,7 @@ function slot0.CommanderInChapter(slot0)
 	return false
 end
 
-function slot0.GetAllTalentNames()
+slot0.GetAllTalentNames = function()
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(pg.commander_ability_group.all) do
@@ -276,8 +276,8 @@ function slot0.GetAllTalentNames()
 	return slot0
 end
 
-function slot0.ShortenString(slot0, slot1)
-	function slot2(slot0)
+slot0.ShortenString = function(slot0, slot1)
+	slot2 = function(slot0)
 		if not slot0 then
 			return 0, 1
 		elseif slot0 > 240 then

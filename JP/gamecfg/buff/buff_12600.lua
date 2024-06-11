@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 12600,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12600,
+	color = "red",
 	icon = 12600,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 12605,
 				minWeaponNumber = 1,
+				skill_id = 12605,
 				check_weapon = true,
 				weapon_group = {
 					95000,
@@ -43,8 +43,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 12607,
 				maxWeaponNumber = 0,
+				skill_id = 12607,
 				check_weapon = true,
 				weapon_group = {
 					95000,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULISITUOERBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULISITUOERBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"An Exercise Gone Slightly Wrong\n\n<size=45>1. A Miscommunication</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One day, at the port...",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "One day, at the port...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hm? What's up, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -76,10 +76,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What's this? A mission briefing?",
 			typewriter = {
 				speed = 0.05,
@@ -94,10 +94,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'm still on vacation, though. You'll have to find someone else.",
 			typewriter = {
 				speed = 0.05,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...The mission's not for me?",
 			typewriter = {
 				speed = 0.05,
@@ -135,10 +135,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "So what's this about then? I hope you're not here just to mess with me.",
 			typewriter = {
 				speed = 0.05,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Ingraham unrolled the sheet of paper and began reading it with a doubtful look.",
 			typewriter = {
 				speed = 0.05,
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "\"...Members of the fleet will participate in a combat scenario designed to test their improvisation skills...\"",
 			typewriter = {
 				speed = 0.05,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "\"...There will be no radio contact between participants. The addressee, Bristol of the Allen M. Sumner class, is to link up with the attackers near the abandoned naval facility...\"",
 			typewriter = {
 				speed = 0.05,
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ah, I get it now.",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Once Ingraham finished reading the mission briefing, she cocked her head slightly as she looked at me.",
 			typewriter = {
 				speed = 0.05,
@@ -233,10 +233,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Bristol hasn't come back yet, and you've got an important meeting to attend soon...",
 			typewriter = {
 				speed = 0.05,
@@ -248,12 +248,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Basically, you want me to send her this on your behalf, am I right?",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Don't sweat it. A few minutes of my time is no big deal.",
 			typewriter = {
 				speed = 0.05,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'll relay the message right away. You go on and head to your meeting, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Ingraham made off for the communications room with a thorough grasp of the mission's outline.",
 			typewriter = {
 				speed = 0.05,
@@ -320,9 +320,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Bristol has a tendency to jump to conclusions. I decided it was best to let her sister, Ingraham, explain the mission to her than try and potentially fail myself.",
 			typewriter = {
 				speed = 0.05,
@@ -334,9 +334,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "At any rate, the job was done. I hurried back to my office to prepare for my meeting.",
 			typewriter = {
 				speed = 0.05,
@@ -348,16 +348,16 @@ return {
 			}
 		},
 		{
-			actor = 101480,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Testing, testing. 1, 2, 3... This is Ingraham. Do you hear me, Bristol?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -385,10 +385,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ingraham? Fancy hearing from you outside our regularly scheduled contact times. What's up?",
 			typewriter = {
 				speed = 0.05,
@@ -403,10 +403,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Just relaying orders for you. The Commander was in a big rush, so I'm doing it instead.",
 			typewriter = {
 				speed = 0.05,
@@ -418,12 +418,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ahem... Change of plans. You are to head to the naval base ruins at once and link up with the attackers. I'll send you the coordinates.",
 			typewriter = {
 				speed = 0.05,
@@ -438,10 +438,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "There. Did you copy that, Bristol? ...Bristol?",
 			typewriter = {
 				speed = 0.05,
@@ -453,9 +453,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The only thing Ingraham heard back over the radio was the sound of faint static.",
 			typewriter = {
 				speed = 0.05,
@@ -470,10 +470,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Crap. The line must've cut right as she answered. Oh well, I've done my job. Back to enjoying my time off.",
 			typewriter = {
 				speed = 0.05,
@@ -485,15 +485,15 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "Meanwhile, on the other end of the line...",
 			dir = 1,
+			oldPhoto = true,
 			bgm = "xinnong-3",
+			say = "Meanwhile, on the other end of the line...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -575,8 +575,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -680,8 +680,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -728,8 +728,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -776,8 +776,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -786,13 +786,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "If the port is under attack, the enemy is without a doubt monitoring our radio channels!",
 			typewriter = {
 				speed = 0.05,
@@ -842,13 +842,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Okay, so... There's no way she'd send unciphered orders over the radio if she knew someone was listening in...",
 			typewriter = {
 				speed = 0.05,
@@ -879,8 +879,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -889,8 +889,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Bristol unfastened the lantern from her rigging and held it high, lighting up her surroundings... in broad daylight.",
@@ -904,13 +904,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Whew... The glow of my lantern's helping me calm down.",
 			typewriter = {
 				speed = 0.05,
@@ -941,13 +941,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...Is this really right? Isn't this the location of that abandoned naval base?",
 			typewriter = {
 				speed = 0.05,
@@ -997,8 +997,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1007,13 +1007,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All right, time to swooce!",
 			typewriter = {
 				speed = 0.05,
@@ -1025,8 +1025,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

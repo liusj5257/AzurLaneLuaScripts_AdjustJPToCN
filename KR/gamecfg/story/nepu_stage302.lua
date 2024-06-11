@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE302",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE302",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -89,8 +89,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "그거…… 왠지 알 것 같아요.",
 			typewriter = {
 				speed = 0.05,
@@ -147,13 +147,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "여러분, 수고하셨습니다. 새로운 정보의 입수가 완료되었습니다.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "여러분, 수고하셨습니다. 새로운 정보의 입수가 완료되었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,13 +164,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "……하지만, 아직 조금 모자란 것 같아요. 조금만 더, 거울해역의 데이터를 수집하여 주시기 바랍니다.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "……하지만, 아직 조금 모자란 것 같아요. 조금만 더, 거울해역의 데이터를 수집하여 주시기 바랍니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,13 +196,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "조금만 더, 진짜 조금만 더 모으면 됩니다! 구체적으로 말씀드리자면, 앞으로 한 스테이지 정도? 그거면 컴플리트 되니까요.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "조금만 더, 진짜 조금만 더 모으면 됩니다! 구체적으로 말씀드리자면, 앞으로 한 스테이지 정도? 그거면 컴플리트 되니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,13 +213,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "그런고로, 잘 부탁드려요오~",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "그런고로, 잘 부탁드려요오~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

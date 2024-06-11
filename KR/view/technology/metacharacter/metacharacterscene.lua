@@ -2,8 +2,8 @@ slot0 = class("MetaCharacterScene", import("...base.BaseUI"))
 slot0.PAGES = {
 	REPAIR = 3,
 	ENERGY = 1,
-	TACTICS = 2,
-	SYN = 4
+	SYN = 4,
+	TACTICS = 2
 }
 slot0.PAGES_EVENTS = {
 	MetaCharacterMediator.ON_ENERGY,
@@ -17,11 +17,11 @@ slot0.SCALE_ON_PITCH = {
 }
 slot0.ON_SKILL = "MetaCharacterScene:ON_SKILL"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MetaCharacterUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	Input.multiTouchEnabled = false
 
 	slot0:initUITextTips()
@@ -32,19 +32,19 @@ function slot0.init(slot0)
 	slot0:initBannerList()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:overLayPanel(true)
 	slot0:updateStart()
 	slot0:autoOpenFunc()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	Input.multiTouchEnabled = true
 
 	slot0:overLayPanel(false)
 end
 
-function slot0.initUITextTips(slot0)
+slot0.initUITextTips = function(slot0)
 	slot1 = slot0:findTF("HidePanel/ScrollPanel/ListPanel/BannerTpl/ForScale")
 
 	setText(slot0:findTF("Empty/ActType/TipText", slot1), i18n("meta_syn_rate"))
@@ -56,7 +56,7 @@ function slot0.initUITextTips(slot0)
 	setText(slot0:findTF("HidePanel/ActTimeTip/Tip"), i18n("meta_acttime_limit"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.metaProgressVOList = {}
 	slot0.curMetaGroupID = nil
 	slot0.curMetaProgress = nil
@@ -69,7 +69,7 @@ function slot0.initData(slot0)
 	slot0.indexDatas = {}
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.shipImg = slot0:findTF("HidePanel/ShipImg")
 	slot0.shipNameImg = slot0:findTF("HidePanel/NameImg")
 	slot0.noCharTF = slot0:findTF("BG/NoCharacter")
@@ -125,7 +125,7 @@ function slot0.findUI(slot0)
 	slot0.synToggleLock = slot0:findTF("SynLock", slot0.toggleBtnsTF)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.curPageIndex then
 			uv0:enterMenuPage(false)
@@ -223,7 +223,7 @@ function slot0.addListener(slot0)
 		uv0:switchPage(uv1.PAGES.TACTICS)
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		if not isActive(uv0.synBtnLock) then
 			uv0.isMainOpenLayerTag = true
 
@@ -259,20 +259,20 @@ function slot0.addListener(slot0)
 	end
 end
 
-function slot0.resetToggleList(slot0)
+slot0.resetToggleList = function(slot0)
 	for slot4, slot5 in ipairs(slot0.toggleList) do
 		setActive(slot0:findTF("On", slot5), false)
 		setActive(slot0:findTF("Off", slot5), true)
 	end
 end
 
-function slot0.initMetaProgressList(slot0)
+slot0.initMetaProgressList = function(slot0)
 	slot0.metaProgressVOList = slot0:getMetaProgressListForShow()
 
 	slot0:fillMetaProgressList()
 end
 
-function slot0.fillMetaProgressList(slot0)
+slot0.fillMetaProgressList = function(slot0)
 	if #slot0.metaProgressVOList < 5 then
 		for slot4 = #slot0.metaProgressVOList + 1, 5 do
 			table.insert(slot0.metaProgressVOList, false)
@@ -280,7 +280,7 @@ function slot0.fillMetaProgressList(slot0)
 	end
 end
 
-function slot0.initBannerList(slot0)
+slot0.initBannerList = function(slot0)
 	slot0.scrollUIItemList = UIItemList.New(slot0.bannerContainer, slot0.bannerTpl)
 	slot1 = slot0.scrollUIItemList
 
@@ -292,7 +292,7 @@ function slot0.initBannerList(slot0)
 	end)
 end
 
-function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
+slot0.updateBannerTF = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2
 	slot5 = slot0:findTF("ForScale", slot2)
 	slot6 = slot0:findTF("WillCome", slot5)
@@ -456,7 +456,7 @@ function slot0.updateBannerTF(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.changeBannerOnClick(slot0, slot1, slot2)
+slot0.changeBannerOnClick = function(slot0, slot1, slot2)
 	slot3 = slot1:GetComponent("LayoutElement")
 	slot4 = slot0:findTF("ForScale", slot1)
 
@@ -475,7 +475,7 @@ function slot0.changeBannerOnClick(slot0, slot1, slot2)
 	setActive(slot0:findTF("SelectedTag", slot4), slot2)
 end
 
-function slot0.updateBannerShipName(slot0, slot1)
+slot0.updateBannerShipName = function(slot0, slot1)
 	slot2 = slot0:findTF("ForScale", slot1)
 	slot4 = isActive(slot0:findTF("SelectedTag", slot2))
 	slot5 = nil
@@ -493,13 +493,13 @@ function slot0.updateBannerShipName(slot0, slot1)
 	setActive(slot0:findTF("Active/BuildType/Text", slot2), not slot4)
 end
 
-function slot0.updateBannerUIList(slot0)
+slot0.updateBannerUIList = function(slot0)
 	slot0.bannerTFList = {}
 
 	slot0.scrollUIItemList:align(#slot0.metaProgressVOList)
 end
 
-function slot0.updateStart(slot0)
+slot0.updateStart = function(slot0)
 	slot1 = false
 
 	for slot5, slot6 in ipairs(slot0.metaProgressVOList) do
@@ -528,7 +528,7 @@ function slot0.updateStart(slot0)
 	end
 end
 
-function slot0.resetBannerListScale(slot0)
+slot0.resetBannerListScale = function(slot0)
 	for slot4, slot5 in ipairs(slot0.bannerTFList) do
 		slot6 = slot5:GetComponent("LayoutElement")
 
@@ -539,7 +539,7 @@ function slot0.resetBannerListScale(slot0)
 	end
 end
 
-function slot0.updateMain(slot0, slot1)
+slot0.updateMain = function(slot0, slot1)
 	slot3 = slot0:getCurMetaProgressVO():isUnlocked()
 
 	setActive(slot0.menuPanel, slot3)
@@ -580,11 +580,11 @@ function slot0.updateMain(slot0, slot1)
 	})
 end
 
-function slot0.TryPlayGuide(slot0)
+slot0.TryPlayGuide = function(slot0)
 	pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0024")
 end
 
-function slot0.updateActTimePanel(slot0)
+slot0.updateActTimePanel = function(slot0)
 	slot1 = slot0:getCurMetaProgressVO()
 	slot3 = slot1:isInAct()
 
@@ -600,7 +600,7 @@ function slot0.updateActTimePanel(slot0)
 	end
 end
 
-function slot0.updatePTPanel(slot0, slot1)
+slot0.updatePTPanel = function(slot0, slot1)
 	slot2 = slot0:getCurMetaProgressVO()
 	slot3 = slot2:getSynRate()
 	slot4 = tonumber(tostring(slot3 * 100))
@@ -722,7 +722,7 @@ function slot0.updatePTPanel(slot0, slot1)
 	end
 end
 
-function slot0.updateRedPoints(slot0)
+slot0.updateRedPoints = function(slot0)
 	slot1 = slot0:getCurMetaProgressVO()
 	slot2 = slot1.id
 
@@ -783,27 +783,27 @@ function slot0.updateRedPoints(slot0)
 	end
 end
 
-function slot0.getCurMetaProgressVO(slot0)
+slot0.getCurMetaProgressVO = function(slot0)
 	return slot0.metaProgressVOList[slot0.curMetaIndex]
 end
 
-function slot0.refreshBannerTF(slot0)
+slot0.refreshBannerTF = function(slot0)
 	slot0:updateBannerTF(slot0:getCurMetaProgressVO(), slot0.bannerTFList[slot0.curMetaIndex], slot0.curMetaIndex)
 end
 
-function slot0.enterMenuPage(slot0, slot1)
+slot0.enterMenuPage = function(slot0, slot1)
 	setActive(slot0.hidePanel, not slot1)
 	setActive(slot0.indexBtn, not slot1)
 	setActive(slot0.toggleBtnsTF, slot1)
 end
 
-function slot0.switchPage(slot0, slot1)
+slot0.switchPage = function(slot0, slot1)
 	if not slot0.curPageIndex then
 		triggerToggle(slot0.toggleList[slot1], true)
 	end
 end
 
-function slot0.backFromRepair(slot0)
+slot0.backFromRepair = function(slot0)
 	setActive(slot0.menuPanel, false)
 
 	slot1 = slot0:managedTween(LeanTween.alpha, nil, slot0.shipImg, 1, 0.3)
@@ -815,7 +815,7 @@ function slot0.backFromRepair(slot0)
 	end))
 end
 
-function slot0.backFromNotRepair(slot0)
+slot0.backFromNotRepair = function(slot0)
 	setActive(slot0.menuPanel, false)
 
 	slot5 = slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), MetaCharacterConst.UIConfig[slot0:getCurMetaProgressVO().id][1], 0.3)
@@ -827,7 +827,7 @@ function slot0.backFromNotRepair(slot0)
 	end))
 end
 
-function slot0.autoOpenFunc(slot0)
+slot0.autoOpenFunc = function(slot0)
 	if slot0.contextData.autoOpenShipConfigID then
 		slot1 = MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0.contextData.autoOpenShipConfigID)
 		slot3 = 0
@@ -868,7 +868,7 @@ function slot0.autoOpenFunc(slot0)
 	end
 end
 
-function slot0.openIndexLayer(slot0)
+slot0.openIndexLayer = function(slot0)
 	if not slot0.indexDatas then
 		slot0.indexDatas = {}
 	end
@@ -896,24 +896,24 @@ function slot0.openIndexLayer(slot0)
 		groupList = {
 			{
 				dropdown = false,
-				titleTxt = "indexsort_type",
 				titleENTxt = "indexsort_typeeng",
+				titleTxt = "indexsort_type",
 				tags = {
 					"typeIndex"
 				}
 			},
 			{
 				dropdown = false,
-				titleTxt = "indexsort_rarity",
 				titleENTxt = "indexsort_rarityeng",
+				titleTxt = "indexsort_rarity",
 				tags = {
 					"rarityIndex"
 				}
 			},
 			{
 				dropdown = false,
-				titleTxt = "indexsort_extraindex",
 				titleENTxt = "indexsort_indexeng",
+				titleTxt = "indexsort_extraindex",
 				tags = {
 					"extraIndex"
 				}
@@ -935,11 +935,11 @@ function slot0.openIndexLayer(slot0)
 	})
 end
 
-function slot0.isDefaultStatus(slot0)
+slot0.isDefaultStatus = function(slot0)
 	return (not slot0.indexDatas.typeIndex or slot0.indexDatas.typeIndex == ShipIndexConst.TypeAll) and (not slot0.indexDatas.rarityIndex or slot0.indexDatas.rarityIndex == ShipIndexConst.RarityAll) and (not slot0.indexDatas.extraIndex or slot0.indexDatas.extraIndex == ShipIndexConst.MetaExtraAll)
 end
 
-function slot0.overLayPanel(slot0, slot1)
+slot0.overLayPanel = function(slot0, slot1)
 	if slot1 == true then
 		pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 			groupName = LayerWeightConst.GROUP_META
@@ -949,7 +949,7 @@ function slot0.overLayPanel(slot0, slot1)
 	end
 end
 
-function slot0.getMetaProgressListForShow(slot0)
+slot0.getMetaProgressListForShow = function(slot0)
 	slot1 = {}
 	slot3, slot4, slot5 = nil
 
@@ -985,7 +985,7 @@ function slot0.getMetaProgressListForShow(slot0)
 	return slot1
 end
 
-function slot0.filteMetaProgressList(slot0)
+slot0.filteMetaProgressList = function(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0:getMetaProgressListForShow()) do
@@ -1000,7 +1000,7 @@ function slot0.filteMetaProgressList(slot0)
 	return slot2
 end
 
-function slot0.getOneStepPTAwardLevelAndCount(slot0)
+slot0.getOneStepPTAwardLevelAndCount = function(slot0)
 	slot1 = slot0:getCurMetaProgressVO()
 	slot2 = slot1.metaPtData:GetResProgress()
 	slot3 = slot1.metaPtData.targets

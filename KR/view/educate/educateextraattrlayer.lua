@@ -1,22 +1,22 @@
 slot0 = class("EducateExtraAttrLayer", import(".base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateExtraAttrUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.char = getProxy(EducateProxy):GetCharData()
 	slot0.attrList = slot0.char:GetAttrIdsByType(EducateChar.ATTR_TYPE_PERSONALITY)
 	slot0.selectedIndex = 0
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.windowTF = slot0:findTF("window")
 	slot0.attrUIList = UIItemList.New(slot0:findTF("content", slot0.windowTF), slot0:findTF("content/tpl", slot0.windowTF))
 	slot0.avatarTF = slot0:findTF("avatar", slot0.windowTF)
@@ -24,7 +24,7 @@ function slot0.findUI(slot0)
 	slot0.sureBtn = slot0:findTF("sure_btn", slot0.windowTF)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.sureBtn, function ()
 		if uv0.selectedIndex == 0 then
 			return
@@ -42,7 +42,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData(),
 		weight = slot0:getWeightFromData() + 1
@@ -69,7 +69,7 @@ function slot0.didEnter(slot0)
 	slot0:updateView()
 end
 
-function slot0.updateView(slot0)
+slot0.updateView = function(slot0)
 	slot0.attrUIList:align(#slot0.attrList)
 
 	slot1 = slot0.char:GetPaintingName()
@@ -77,7 +77,7 @@ function slot0.updateView(slot0)
 	setText(slot0.curPersonalText, "当前主导个性：" .. pg.child_attr[slot0.char:GetPersonalityId()].name)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 

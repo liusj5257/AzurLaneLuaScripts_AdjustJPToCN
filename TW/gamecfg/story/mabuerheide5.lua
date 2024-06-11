@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"太陽般的辣妹\n\n<size=45>五  開玩笑的</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_106",
-			say = "跟隨馬布爾黑德來到和海岸邊——",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "跟隨馬布爾黑德來到和海岸邊——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "指揮官你看！這裡有很好看的貝殼呢。",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "其實衝到這片海岸的貝殼裡，偶爾會有一種粉色的——",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "接過馬布爾黑德遞來的粉色海螺，過於完美的造型給人一種想要貼上耳朵的衝動……",
@@ -128,8 +128,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "這是在做什麼呢，指揮官—？",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "馬布爾黑德突然開始流利地科普了起來……",
@@ -192,8 +192,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "——嗯，大概就是這樣的感覺吧，粉紅噪聲本來是具有分形樣式的波形……啊！",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,8 +219,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "…………開，開玩笑的哦？",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "握著海螺的馬布爾黑德似乎是感到了害羞，微微地吐了吐舌頭。",
@@ -268,8 +268,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "說、說起來，這海螺仔細一看，顏色和我漸變的髮色一樣呢。",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "我才沒有轉移話題！這可是和我髮色一樣的貝殼哦？",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "也就是意味著，收到這份禮物的指揮官，要像珍惜我一樣珍惜這個海螺才行。",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "馬布爾黑德這次用雙手小心翼翼將海螺遞了過來——",
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,

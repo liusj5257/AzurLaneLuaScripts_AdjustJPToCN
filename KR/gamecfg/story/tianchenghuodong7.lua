@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 304050,
 			nameColor = "#92fc63",
 			side = 0,
-			stopbgm = true,
 			dir = -1,
+			stopbgm = true,
 			say = "무슨 일인지 다들 서두르고 있는 것 같네요…아침부터 무슨 일이람?",
 			typewriter = {
 				speed = 0.05,
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "이제 왔는가, 아마기. 조금 안 좋은 일이 있어서 그러네만, 잠깐 같이 가도록 하지.",
 			typewriter = {
 				speed = 0.05,
@@ -57,17 +57,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#92fc63",
-			bgName = "bg_story_tiancheng2",
-			actorName = "{namecode:92}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "하!? 너는 멍청이냐?",
+			bgName = "bg_story_tiancheng2",
 			bgm = "story-tiancheng",
+			actorName = "{namecode:92}",
+			say = "하!? 너는 멍청이냐?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:91}",
 			nameColor = "#92fc63",
+			actorName = "{namecode:91}",
 			bgName = "bg_story_tiancheng2",
 			side = 0,
 			dir = 1,
@@ -201,8 +201,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:92}",
 			nameColor = "#92fc63",
+			actorName = "{namecode:92}",
 			bgName = "bg_story_tiancheng2",
 			side = 1,
 			dir = 1,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "――딱!",
 			dialogShake = {
 				speed = 0.09,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:92}",
 			nameColor = "#92fc63",
+			actorName = "{namecode:92}",
 			bgName = "bg_story_tiancheng2",
 			side = 1,
 			dir = 1,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "좀 전까지 서로 살기를 내뿜으며 말다툼을 했던 두 사람은, 갑자기 나타난 맹렬한 살기 앞에 순식간에 침묵했다.",
 			typewriter = {
 				speed = 0.05,
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -304,9 +304,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "――딱!",
 			dialogShake = {
 				speed = 0.09,
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "아마기는 살벌히 웃으며 두 사람의 손을 강제로 움켜잡게 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "아마기의 꿀밤을 맞아 머리에 혹이 난 카가와 아카기는, 싫은 티를 내며 반강제적으로 악수를 할 수 밖에 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -383,9 +383,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "그때, 자리에 있던 모두는 생각했다, '이 여자, 무섭구나……'",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "자비로운 미소에 감춰진 강철의 괴수로부터 느껴지는 살기를 느낀 사람들은, 그 사실을 확실히 머릿속에 각인하게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -415,9 +415,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "아카기와 카가에 눈엔 눈물이 그렁그렁 맺혔다.",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "두 사람은 화가 아직 다 풀리지 않았는지, 꼭 붙잡은 손을 점점 더 세게 쥐었지만,",
 			typewriter = {
 				speed = 0.05,
@@ -459,9 +459,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "아마기의 무언의 살기에 압도당해, 결국 서로 등을 돌리곤 각기 다른 방향으로 걸어갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -493,9 +493,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "이들을 구경하던 이들도 하나 둘 씩 자리를 떠나고,",
 			typewriter = {
 				speed = 0.05,
@@ -503,9 +503,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "마지막엔 아마기만이 그 자리에 남아 조용히 생각에 잠겼다.",
 			typewriter = {
 				speed = 0.05,

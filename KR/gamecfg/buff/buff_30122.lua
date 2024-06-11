@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行10次攻击，触发"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 30122,
 	picture = "",
 	desc = "主炮每进行10次攻击，触发",
 	stack = 1,
-	id = 30122,
+	color = "red",
 	icon = 30120,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 30122,
+				target = "TargetSelf",
 				countType = 30120
 			}
 		}

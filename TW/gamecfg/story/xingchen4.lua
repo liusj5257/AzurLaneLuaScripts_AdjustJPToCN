@@ -6,8 +6,8 @@ return {
 	occlusion = 0.8,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"小小的勇氣\n\n<size=45>四  給星塵的信</size>",
@@ -19,8 +19,8 @@ return {
 			bgName = "bg_story_star2",
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -9,7 +9,7 @@ slot0.CHAT_BUBBLE_TYPE_EMPTY = 0
 slot0.CHAT_BUBBLE_TYPE_1 = 1
 slot0.CHAT_BUBBLE_TYPE_2 = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.tid = slot1.tid
 
 	uv0.super.Ctor(slot0, {
@@ -23,13 +23,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.isSpecial = false
 end
 
-function slot0.SetSkinId(slot0, slot1)
+slot0.SetSkinId = function(slot0, slot1)
 	slot0.skinId = slot1
 
 	slot0:SetIsSpecial(true)
 end
 
-function slot0.FilterSkinId(slot0, slot1)
+slot0.FilterSkinId = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -45,31 +45,31 @@ function slot0.FilterSkinId(slot0, slot1)
 	end
 end
 
-function slot0.UpdateBubble(slot0, slot1)
+slot0.UpdateBubble = function(slot0, slot1)
 	slot0.bubble = slot1
 end
 
-function slot0.ClearBubble(slot0)
+slot0.ClearBubble = function(slot0)
 	slot0.bubble = 0
 end
 
-function slot0.GetBubble(slot0)
+slot0.GetBubble = function(slot0)
 	return slot0.bubble
 end
 
-function slot0.HasBubble(slot0)
+slot0.HasBubble = function(slot0)
 	return slot0.bubble ~= 0
 end
 
-function slot0.UpdateSpeechBubble(slot0, slot1)
+slot0.UpdateSpeechBubble = function(slot0, slot1)
 	slot0.speechBubble = slot1
 end
 
-function slot0.SetIsSpecial(slot0, slot1)
+slot0.SetIsSpecial = function(slot0, slot1)
 	slot0.isSpecial = slot1
 end
 
-function slot0.IsSpecial(slot0)
+slot0.IsSpecial = function(slot0)
 	return slot0.isSpecial
 end
 

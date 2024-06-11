@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 19,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 1011941,
 				target = "TargetSelf",
-				time = 6,
-				skill_id = 1011941
+				time = 6
 			}
 		}
 	}

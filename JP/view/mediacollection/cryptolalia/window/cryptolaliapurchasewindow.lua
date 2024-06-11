@@ -1,10 +1,10 @@
 slot0 = class("CryptolaliaPurchaseWindow", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CryptolaliaPurchaseWindowui"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.icon = slot0:findTF("window/cover/icon"):GetComponent(typeof(Image))
 	slot0.signature = slot0:findTF("window/cover/signature"):GetComponent(typeof(Image))
 	slot0.name = slot0:findTF("window/cover/name"):GetComponent(typeof(Text))
@@ -20,7 +20,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.exchangeBtn:Find("Text"), i18n("cryptolalia_exchange"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -39,7 +39,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.TOP_LAYER
@@ -74,12 +74,12 @@ function slot0.Show(slot0, slot1)
 	triggerToggle(slot0.ticketToggle, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.exited = true
 end
 

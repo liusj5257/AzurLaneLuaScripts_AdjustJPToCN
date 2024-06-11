@@ -9,8 +9,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -150
+					number = -150,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -21,8 +21,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -150
+					number = -150,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -150
+					number = -150,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -166
+					number = -166,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -61,8 +61,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -166
+					number = -166,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -73,8 +73,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -166
+					number = -166,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -89,8 +89,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -182
+					number = -182,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -101,8 +101,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -182
+					number = -182,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -182
+					number = -182,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -129,8 +129,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -198
+					number = -198,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -141,8 +141,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -198
+					number = -198,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -153,8 +153,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -198
+					number = -198,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -169,8 +169,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -214
+					number = -214,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -181,8 +181,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -214
+					number = -214,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -214
+					number = -214,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -209,8 +209,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -230
+					number = -230,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -221,8 +221,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -230
+					number = -230,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -230
+					number = -230,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -249,8 +249,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -246
+					number = -246,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -261,8 +261,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -246
+					number = -246,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -273,8 +273,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -246
+					number = -246,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -289,8 +289,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -264
+					number = -264,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -301,8 +301,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -264
+					number = -264,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -313,8 +313,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -264
+					number = -264,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -329,8 +329,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -282
+					number = -282,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -341,8 +341,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -282
+					number = -282,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -353,8 +353,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -282
+					number = -282,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -369,8 +369,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = -300
+					number = -300,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -381,8 +381,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -300
+					number = -300,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -393,15 +393,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = -300
+					number = -300,
+					attr = "antiSubPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 10,
@@ -424,8 +424,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -150
+				number = -150,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -436,8 +436,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -150
+				number = -150,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -448,8 +448,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiSubPower",
-				number = -150
+				number = -150,
+				attr = "antiSubPower"
 			}
 		}
 	}

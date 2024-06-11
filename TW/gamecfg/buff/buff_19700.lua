@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 19700,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19700,
+	color = "red",
 	icon = 19700,
 	last_effect = "",
 	effect_list = {
@@ -47,9 +47,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 19700,
 				time = 10,
-				target = "TargetSelf",
-				skill_id = 19700
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -68,8 +68,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 19702,
 				minWeaponNumber = 1,
+				skill_id = 19702,
 				check_weapon = true,
 				label = {
 					"MG",

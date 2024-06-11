@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 维内托",
 	time = 8,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 维内托",
+	init_effect = "",
+	id = 200876,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200876,
+	color = "yellow",
 	icon = 200876,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.3
+				number = 0.3,
+				attr = "damageRatioBullet"
 			}
 		},
 		{

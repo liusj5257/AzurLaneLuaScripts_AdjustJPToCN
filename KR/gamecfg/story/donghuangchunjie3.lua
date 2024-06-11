@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"시끌벅적 설날 축제\n\n<size=45>제3장 - 새해를 알리는 굉음?!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 이스트 글림 숙소의 정원",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "모항 - 이스트 글림 숙소의 정원",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "좋아! 폭죽☆완성! 역시 내 손솜씨는 끝내준다니까!",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "와~이! 이 푸슌의 신년 특제 초대형 폭죽의 위력을 보시게나~!",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 3750
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			say = "(쿠우우우우우웅!!!)",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "(쿠우우우우우웅!!!)",
 			flashN = {
 				color = {
 					1,
@@ -197,15 +197,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#92fc63",
 			say = "뭐, 뭐야, 지금 소리는!? 아니, 푸슌! 또 뭔가 저질렀지!?",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#92fc63",
 			say = "우우우으, 푸슌 언니 폭죽 너무 무서워요! ……죄송해요, 안샨 언니, 푸슌 언니를 말리지 못해서……",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_102",
 			side = 2,
+			bgName = "star_level_bg_102",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "윽…… 머리가 어질어질해요……",
 			typewriter = {
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "뭐야, 적습인가!?",
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "뭐야, 적습인가!?",
+			actor = 107060,
+			nameColor = "#92fc63",
 			actorPosition = {
 				x = 1500,
 				y = 0
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = -1500
@@ -537,12 +537,12 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 107020,
+			nameColor = "#92fc63",
 			say = "나도 문제없어. 이런 건 처음이다보니, 혹시 우리들이 실례를 범해도 이해해주세요.",
 			typewriter = {
 				speed = 0.05,

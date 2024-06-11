@@ -1,12 +1,12 @@
 return {
-	init_effect = "heiyilishabai_linyu",
-	name = "2023伊丽莎白meta 领域",
 	time = 0,
-	color = "yellow",
+	name = "2023伊丽莎白meta 领域",
+	init_effect = "heiyilishabai_linyu",
+	id = 200359,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200359,
+	color = "yellow",
 	icon = 200359,
 	last_effect = "",
 	effect_list = {}

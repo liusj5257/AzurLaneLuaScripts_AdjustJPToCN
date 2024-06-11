@@ -6,9 +6,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			bgm = "theme-ucnf-image",
 			actor = 108080,
 			nameColor = "#A9F548FF",
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "역시… 예상대로야. 우릴 이곳으로 데려온 '이상한 표적'이 이 근처에 있어.",
@@ -78,27 +78,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_zhuguang_4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_zhuguang_4",
 			say = "잠시 후, 금속 물체를 품에 안은 어린 소녀가 수면 위로 떠올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -277,27 +277,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_zhuguang_4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_zhuguang_4",
 			say = "컨스텔레이션은 플래셔로부터 인양된 물건을 받아 자세히 살펴보았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으음... 이 물건은 구조적으로 두 부분으로 나누어져 있어.",
@@ -323,11 +323,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "받침대의 두께는 약 10cm, 본체의 길이는 약 30cm로… 신호 송신 장치인 것처럼 보여.",
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어때, 그래서 뭐 알아낸 거라도 있어?",
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만 외관상으로는 바다 위에 떠 있어야 할 신호 송신 장치인 것 같은데.… 마치 좌표처럼.",
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "항로 안내 좌표… 어쩌면 우리가 이곳에 모인 이유일지도 모르겠네.",
@@ -490,11 +490,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흥미롭네... 은하수의 가상 세계가 닫혀있지 않은 걸까...?",
@@ -527,11 +527,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "우리가 왜 이곳에 오게 됐는지... 짐작가는 부분이 있어, 물론 단지 추측일 뿐이지만...",
@@ -545,11 +545,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "일단 실마리가 잡혔으니 이제 알아내야 할 문제는 여기가 어디인가야.",
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "샌 재신토, 정찰 데이터는?",
@@ -581,11 +581,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네, 결론부터 말하자면... 이 해역과 주변 섬에는 아무것도 없어요.",
@@ -599,11 +599,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "물에는 물고기가 없고, 섬에도 동물이 없었어요. 식물과 곤충도 마찬가지구요.",
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그리고 저기 멀리 산처럼 보이는 지역은 사실 일종의 폐기물이 쌓여 만들어진 '쓰레기 더미'였어요.",
@@ -635,11 +635,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "섬 역시 모두 인공으로 만들어진 섬들이에요.",
@@ -653,11 +653,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그 외에도 대형 부유섬 여러 개를 발견했는데... 모두 세이렌 스타일이었어요.",
@@ -804,8 +804,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "괌이 갑자기 몸을 숙여 바닷물을 한 움큼 떠서 단숨에 마셨다.",
@@ -872,11 +872,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...난 단지 내 추측을 검증해보려고 했을 뿐이야.",
@@ -890,11 +890,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "샌 재신토, 조금 전 함재기로 이 지역을 정찰했었지? 여기가 바다라고 확신할 수 있어?",
@@ -908,11 +908,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그... 렇죠? 왜 그런 질문을 하는 거죠?",
@@ -945,11 +945,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐!? 나도 한번 먹어볼래...",
@@ -965,9 +965,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -981,17 +981,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1058,9 +1058,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			bgName = "bg_zhuguang_4",
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1074,17 +1074,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1092,11 +1092,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "역시... 염분은 물론 그 어떤 미네랄도 발견되지 않았군.",
@@ -1167,8 +1167,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1179,11 +1179,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "라피의 IFF 시스템이... 이상한 신호를 받았어...",
 			painting = {
@@ -1233,11 +1233,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "IFF 시스템이라... 그렇다면 적어도 목표물은 레이더 범위 안에 있다는 소리인데...",
@@ -1270,11 +1270,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "미지의 함대는 맞지만 세이렌은 아닐 거야.",
@@ -1288,11 +1288,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "세이렌이 우릴 식별하기 위한 시도를 하는 걸 본적이 없거든.",
@@ -1306,11 +1306,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "...신호가 또 감지되었어. 이번엔 다른 코드야. 하지만... 여전히 식별할 수 없어.",
 			painting = {
@@ -1361,11 +1361,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_4",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "괌의 말이 맞아. 세이렌은 우릴 두고 적인지 아군인지 식별하려고 하진 않을 거야.",

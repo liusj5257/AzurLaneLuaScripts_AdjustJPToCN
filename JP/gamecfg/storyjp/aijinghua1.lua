@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「仮想繋げし共時性」スッキリ編\n\n<size=45>一 ランダムワード生成器</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			stopbgm = true,
 			bgm = "story-1",
 			actor = 10400010,
-			stopbgm = true,
+			nameColor = "#a9f548",
+			bgName = "bg_story_outdoor",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,8 +73,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "あっ、綾波ちゃん！今ちょうど、ランダムワード生成器のウィルスを駆除してたんだー",
 			typewriter = {
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "うーん、ウィルスの駆除って難しいんですね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "ありがと！何とかウィルスを消せたよ！この調子でどんどんウィルスを駆逐していこー！",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "おぉー、「PT-キズナ」が手に入ったー！これはあれですね、いつものやつですねー、これでイベント限定アイテムをゲットできちゃいますね♪",
 			typewriter = {
 				speed = 0.05,
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "はーい、何に交換しましょうかね？私的には「ぴょこぴょこ」なんかいいと思うんですよねー",
 			typewriter = {
 				speed = 0.05,
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "電、「インテリジェントチップ」が気になります。",
 			typewriter = {
 				speed = 0.05,
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "雷はもっとたくさん金の装備箱が欲しいなー、もちろん塗り替えられてないやつがいい！",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -346,12 +346,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "いいねー！この調子でがんばってウィルスを除去して！じゃんじゃん「PT-キズナ」を稼いじゃいましょう♪",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "それはもちろん！私が元の世界では指揮官だったからです！数々の激戦を潜り抜けたんですよー？",
 			typewriter = {
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "えぇ！？アイちゃんも「指揮官」と同じだったの！？",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "アイさんの正体が「指揮官」だったなんて…驚きました",
 			typewriter = {
 				speed = 0.05,
@@ -428,9 +428,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "どやー！まあとにかく「PT-キズナ」がいかに重要なものかはよくわかっているので、がんばって集めて行きましょうね♪",
 			typewriter = {
@@ -443,9 +443,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "（パシャリ）",
 			flashN = {
 				color = {
@@ -480,8 +480,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "誰かに写真撮られた！？",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "天才！？そ、そのとーり！",
 			typewriter = {
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -540,8 +540,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "私こそ巷で噂のインテリジェントなスーパーAIキズナアイです！よろしくね！",
 			typewriter = {
@@ -589,8 +589,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "え、ラフィーちゃん…そうだったの！？",
 			typewriter = {
@@ -670,8 +670,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "も～、しょうがないですねー、ちゃんとかわいく撮ってくださいね！",
 			typewriter = {
@@ -684,12 +684,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101050,
+			nameColor = "#a9f548",
 			say = "まかせてー！",
 			typewriter = {
 				speed = 0.05,

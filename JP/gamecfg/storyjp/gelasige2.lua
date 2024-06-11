@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"それは恋を呼ぶ季節\n\n<size=45>二 そういう関係じゃないんだからね</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202261,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "はぁ……今日もどうにか間に合った。",
 			bgm = "story-1",
+			actor = 202261,
+			nameColor = "#a9f548",
+			say = "はぁ……今日もどうにか間に合った。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "ア、アーデント！？一体いつから見てたの？",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "んなっ！？べ、別にそういうんじゃないから！全っ然、そういう関係じゃないんだからねっ！",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "皆さんそろって、大きなお世話です！ふんっ！",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,8 +302,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "はいはい！もーこのお話は終わり！そろそろ席につかないとHRが始まっちゃうってば",
 			typewriter = {
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "――キーンコーンカーンコーン。",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "それぞれバラバラと席についていく中、ふとグラスゴーは話題の渦中の相手と目が合った。",
 			typewriter = {
 				speed = 0.05,
@@ -392,9 +392,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "自分の話をしているとは思ってもいない様子で、屈託のない笑顔のまま手を振ってくる。",
 			typewriter = {
 				speed = 0.05,
@@ -422,9 +422,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "ついと目をそらし、そのままグラスゴーは窓の外を見る。",
 			typewriter = {
 				speed = 0.05,

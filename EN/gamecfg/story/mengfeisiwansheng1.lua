@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Halloween Chaos!\n\n<size=45>Chapter 1: Everything According to Plan</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 404020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "I've compiled all of the food, supplies, and other materials we'll be needing onto this list. Please take it to Akashi, we need it filled post haste.",
 			bgm = "story-1",
+			actor = 404020,
+			nameColor = "#a9f548",
+			say = "I've compiled all of the food, supplies, and other materials we'll be needing onto this list. Please take it to Akashi, we need it filled post haste.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Thank you, Gneisenau. You've been a great help.",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Oh my! You do go on!",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "Aye! Halloween candy! You can let yours truly take care of that.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Oh! Yes! Thank you very much for volunteering, Edinburgh. We've got a lot of kids running around here who certainly can't go without their candy.",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "Hehehe... what do you think? I designed it myself. When I finished it ahead of time, I figured I might as well put it on.",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "(Let's not talk about how Bel actually put it together for me.)",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Heh~ You have good taste.",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "Right? Hmph, if only Bel could see. She said she's too busy with her Head Maid duties to join us... is it really so hard to make some time for me?",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Seems like there are several problems here...",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "I'd like to celebrate a holiday with my sister, you know. It's not like they come around often~",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "(I understand where she's coming from though...)",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Oh? You like this sort of thing, Gneisenau? I had no idea...",
 			typewriter = {
@@ -372,10 +372,10 @@ return {
 			}
 		},
 		{
-			actor = 202112,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 202112,
 			dir = 1,
 			hideOther = true,
 			actorName = "Edinburgh & Memphis",
@@ -418,16 +418,16 @@ return {
 			}
 		},
 		{
-			actor = 900202,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900202,
+			nameColor = "#a9f548",
 			say = "Hee hee hee... Halloween candy, huh? ... I think things are going to get interesting...!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

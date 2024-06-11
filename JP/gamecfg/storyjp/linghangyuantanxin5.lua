@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
 			bgm = "qe-ova-1",
+			tbActor = true,
 			actor = 1010,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}、ほんとうにダメですか？",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "TBは真剣な眼差しでこっちを見つめている。",
@@ -66,10 +66,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1010,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "「成長期のこどもには自由に支配できるお金が必要だと思います」",
 			typewriter = {
@@ -81,10 +81,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1010,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "「貨幣や経済システムへの認識を深めるのにも役立ちます」",
 			typewriter = {
@@ -108,10 +108,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1010,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}はこどもからお年玉やお小遣いを「預かっておく」と言って取り上げて、それをつい使ってしまうオトナですか？",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "お小遣いのことで、またしてもTBに言い負かされてしまった……",

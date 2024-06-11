@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -68,8 +68,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "말차를 맛보면, 다른 음료도 맛있게 느껴질 거에요.",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "그렇구나! 이카즈치도 벨파스트가 우려준 홍차를 마시고 싶어!",
 			typewriter = {
 				speed = 0.05,
@@ -112,13 +112,13 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			withoutPainting = true,
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "？？？",
 			dir = 1,
+			actor = 205010,
+			actorName = "？？？",
 			say = "잠~까~안!!",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			say = "한편, 아카츠키는……",
 			blackBg = true,
+			say = "한편, 아카츠키는……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			say = "【N34°E140°】",
 			blackBg = true,
+			say = "【N34°E140°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "혼자선 역시 좀…… 아냐… 아카츠키는 닌자인걸… 혼자라도 굴하지 않아! 노스 유니온, 소인이 상대해주겠소!",
 			typewriter = {
 				speed = 0.05,

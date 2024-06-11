@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG24",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG24",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			actorName = "？？？",
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "\"오르페우스의 리라 소리가 울려퍼지자 세이렌은 그 아름다운 선율에 매료되어 자신의 노래를 잊었습니다.\"",
 			typewriter = {
 				speed = 0.05,
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
 			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
 			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
 			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
 			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
 			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
 			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
 			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
 			blackBg = true,

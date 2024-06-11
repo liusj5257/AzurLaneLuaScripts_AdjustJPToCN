@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Enter: Akatsuki, The Ninja!\n\n<size=45>Chapter 5 - The Sudden Darkness</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I suppose I'll have to work overtime to finish all my fleet paperwork today.",
 			typewriter = {
 				speed = 0.05,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "Let us work hard and get through it together, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "At least Akatsuki seems motivated.",
 			typewriter = {
 				speed = 0.05,
@@ -140,15 +140,15 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "That's the final report! We're finished!",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Looking out through the window, we noticed it was now late into the night.",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "What the...?!",
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The lights in the office went out all of a sudden. It was pitch black.",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Suddenly, I felt that someone was holding onto me.",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Akatsuki was trembling.",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,

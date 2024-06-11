@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULIZHISHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULIZHISHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"布里之誓\n\n<size=45>一 布里三結義？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日，在結束了一天的辛勤工作後，布里們進入了甜甜的夢境…….",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "某日，在結束了一天的辛勤工作後，布里們進入了甜甜的夢境…….",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,16 +50,16 @@ return {
 			}
 		},
 		{
-			actor = 502010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "古話說，時勢造英雄。現在這個世道正是英雄們前去建功立業之時呢。",
 			bgm = "level02",
+			actor = 502010,
+			nameColor = "#a9f548",
+			say = "古話說，時勢造英雄。現在這個世道正是英雄們前去建功立業之時呢。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "為什麼在這裡唉聲嘆氣burin？是有什麼不開心的事情嗎burin？",
 			typewriter = {
@@ -133,11 +133,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "哇！居、居然是科技箱T5buli！",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "喂，那是我的東西burin！",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "廢話少說，吃我一錘burin——",
 			typewriter = {
@@ -267,10 +267,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 100000,
 			actorName = "泛用型布里&特裝型布里MKIII ",
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "說的是欸buli！既然這樣，我願意和姐姐患難相隨，生死與共buli！",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -361,9 +361,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "三隻布里來到桃樹下，舉起手中的武器向天發誓道：",
 			typewriter = {
 				speed = 0.05,
@@ -375,10 +375,10 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 100000,
 			dir = 1,
 			hideOther = true,
 			actorName = "布里三姐妹",

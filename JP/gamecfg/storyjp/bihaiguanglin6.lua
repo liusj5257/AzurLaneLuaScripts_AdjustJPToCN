@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_2",
-			say = "竜宮城・外堀",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "竜宮城・外堀",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うぅ…待機せずここまで深く入るなんて畏れ多いことを…",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大丈夫だよ！ここには誰もいないから！ほら！",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,10 +82,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "おーーーーーーーー！！",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_2",
 			dir = 1,
 			say = "山風の気合十分な叫び声が城内に響いた。",
@@ -120,10 +120,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "や、山風！もし誰かを起こしたら……",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_2",
 			dir = 1,
 			say = "……しかし何も起こらなかった。",
@@ -163,10 +163,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "山風たち以外誰もいないでしょ？多分ここはもう廃棄されてるのかな…",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_daofeng_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -197,8 +197,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "こちら筑摩です。竜宮城の入り口らしき場所に到着しました。葛城、島風、応答お願い",
 			typewriter = {
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "筑摩殿！？それに由良殿に駿河殿も！これは一体……",
 			typewriter = {
 				speed = 0.05,
@@ -268,10 +268,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "わわ、申し訳ございません筑摩殿！わたしたちは何をすればいいでしょう！",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（まずは合流でしょ？全く、こういうどう見ても怪しい施設はセイレーンの仕業だっつーの）",
 			typewriter = {
@@ -357,10 +357,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "申し訳ございません！ちょっとだけ探検しようと思ってたんですが…",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -385,10 +385,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "気づいたら結構進んでしまったみたいで……いますぐ入り口に戻ります！",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "この施設が本当にセイレーンの施設でしたら、多分外から砲撃して破壊する、というのは無理でしょうね",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "……とにかく情報を集めるのが最優先です。一度皆で合流しましょ？",
 			typewriter = {
@@ -506,13 +506,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_2",
-			stopbgm = true,
 			dir = 1,
-			say = "ーー！！！",
 			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
+			say = "ーー！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -528,12 +528,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_2",
-			bgm = "battle-longgong",
-			dir = 1,
 			say = "何の予兆もなく、「竜宮城」が猛烈に揺れだした。",
+			dir = 1,
+			bgm = "battle-longgong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,10 +547,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "わわわ！？地震！？",
 			typewriter = {
 				speed = 0.05,
@@ -562,8 +562,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -593,8 +593,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "ししし沈んでいるって！？文字通り「竜宮城」になるのはいいけどうちは空母であって潜水艦じゃないから潜れないわよ！",
 			typewriter = {
@@ -610,10 +610,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それ以前にいくら島風の速力でも入口まで戻るのは無理ですよ！",
 			typewriter = {
 				speed = 0.05,
@@ -646,8 +646,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "結界？なんのことかよくわからないけどとにかく今は入り口まで急がないと全員溺れてしま――あら、そう言えば沈んでいるのに水位が上がってないわね",
 			typewriter = {
@@ -663,8 +663,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "つまるところこの竜宮城がまるごと潜ってるってこと？！いやそうなると筑摩たちが巻き込まれてしまうんじゃない！",
 			typewriter = {
@@ -680,8 +680,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "そうなりますわね…駿河さん、由良、竜宮城に入るしか無いですね…っ！",
 			typewriter = {

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 605060,
 			nameColor = "#ffde38",
 			side = 1,
-			bgm = "battle-italy",
 			dir = 1,
 			say = "These damned Sirens! How were they allowed to get this far?",
+			bgm = "battle-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 605060,
 			dir = 1,
+			actor = 605060,
 			say = "Whatever, just be quiet and focus on the mission! We're here to fight Sirens, not to philosophize!",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 605050,
 			dir = 1,
+			actor = 605050,
 			say = "I'm just assessing the status quo. It goes without saying that the enemy... shall be annihilated.",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			expression = 1,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 605060,
 			dir = 1,
+			actor = 605060,
 			say = "Open fire, everyone! Don't let those Siren bastards advance a step farther!",
 			typewriter = {
 				speed = 0.05,

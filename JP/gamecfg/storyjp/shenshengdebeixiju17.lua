@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU17",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU17",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「それは太陽も沈黙する荒涼なる闇、祈りも届かない絶望の窪み」</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「焔の海で身を焼かれようと、その歩みは止まることを知らず」</size>",
@@ -61,12 +61,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			bgm = "battle-italy",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 603020,
-			dir = 1,
 			nameColor = "#ff5c5c",
 			say = "ポーラ、大丈夫？",
-			bgm = "battle-italy",
 			flashN = {
 				color = {
 					1,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900197,
 			dir = 1,
+			actor = 900197,
 			say = "重巡最高クラスの装甲を持つザラ級は簡単には負けないわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "サディアの子、イラストリアス姉さんが言ってた通り粘り強い子が多いですわね",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ウォースパイト",
 			dir = 1,
+			actorName = "ウォースパイト",
 			say = "ここは私に任せなさい。陛下の命令は第一よ、そちらに集中して",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "かしこまりました。「本日0時に指定海域に到着し、『カラブリアの宝石』を探索しなさい」ってね",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "その通り。オリオンと一緒に貴方達の「演目」を果たしなさい",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -40,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 0,
@@ -275,10 +275,10 @@ return {
 			}
 		},
 		{
+			say = "ウォースパイトの妨害でザラの攻撃が射線から大きく外れた。",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "ウォースパイトの妨害でザラの攻撃が射線から大きく外れた。",
 			flashN = {
 				color = {
 					1,
@@ -329,8 +329,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "このオールド・レディを無視するとはいい度胸ね",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "ふふ、あの子とは一緒にいないほうが戦いやすいわ",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "なんですって…？",
 			typewriter = {
 				speed = 0.05,
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "（イラストリアスに妹の面倒を見てほしいと言われたけど、さっきの戦いを見た限り、彼女と護衛艦だけでも十分戦えるわ）",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "（……というより、戦いでさっきのようにキレられたら色々とダメージを受けてしまうのよ……主に精神的な意味で……）",
 			typewriter = {
 				speed = 0.05,
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "（うん。これでいいわ。あとで合流しましょう）",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ウォースパイト",
 			dir = 1,
+			actorName = "ウォースパイト",
 			say = "なんでもないわ。さあ、お互いの艦砲で勝負するわよ！Belli dura despicio！",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 3,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 99,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 600085,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "votefes-start",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Port - Office",
-			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And that sums it up for how both teams' recruiting efforts are going.",
 			painting = {
 				alpha = 0.3,
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll let you know right away if there are any membership changes.",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "I breathe a weary sigh, then spot a shadowy figure quietly entering my office.",
@@ -118,10 +118,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, making two rivals join up is no easy feat, even if it's in their shared interest.",
 			painting = {
 				alpha = 0.3,
@@ -136,10 +136,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Think of it this way – them being on the same team is proof that they're getting along.",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "On a similar subject... There have been rumors going around.",
 			painting = {
 				alpha = 0.3,
@@ -184,10 +184,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They're saying there have been more... unusual attempts to recruit people, beyond reaching out.",
 			painting = {
 				alpha = 0.3,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -224,10 +224,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh?",
 			painting = {
 				alpha = 0.3,
@@ -242,10 +242,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Things like enticing Laffey with a memory foam pillow, or Queen Elizabeth using her royal authority to forbid her subjects from joining the blue team.",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Some are willing to play dirty if it means they'll win that wish, I suppose.",
 			painting = {
 				alpha = 0.3,
@@ -278,10 +278,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now I'm starting to feel tempted to pick a side, too.",
 			painting = {
 				alpha = 0.3,
@@ -308,10 +308,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee, I'm only kidding. Don't be so alarmed.",
 			painting = {
 				alpha = 0.3,
@@ -326,10 +326,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Besides, the recruitment deadline is drawing near.",
 			painting = {
 				alpha = 0.3,
@@ -343,11 +343,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_104",
 			actor = 201216,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So, have you all decided which team you're gonna join?",
 			painting = {
 				alpha = 0.3,
@@ -358,17 +358,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -379,10 +379,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301057,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I haven't yet.",
 			painting = {
 				alpha = 0.3,
@@ -397,10 +397,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401236,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right back at you, Javelin. Have you decided?",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201216,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nope... That's why I'm asking.",
 			painting = {
 				alpha = 0.3,
@@ -433,10 +433,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101176,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've been losing sleep because of Tem from the blue team. She kept telling me to join...",
 			painting = {
 				alpha = 0.3,
@@ -451,10 +451,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201216,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She has? Has she also tried to tempt you with a memory foam pillow?",
 			painting = {
 				alpha = 0.3,
@@ -469,10 +469,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101176,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nope. But I do want one of those...",
 			painting = {
 				alpha = 0.3,
@@ -487,10 +487,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101176,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I caved in and said I'd join just so I could get some sleep.",
 			painting = {
 				alpha = 0.3,
@@ -505,10 +505,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301057,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If that was the price for sleep, I'd pay it, too.",
 			painting = {
 				alpha = 0.3,
@@ -520,12 +520,12 @@ return {
 			}
 		},
 		{
-			actor = 201216,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's fair.",
 			painting = {
 				alpha = 0.3,
@@ -540,10 +540,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401236,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Laffey, you shouldn't have said yes so casually. You should've told her to stop bothering you first.",
 			painting = {
 				alpha = 0.3,
@@ -558,10 +558,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401236,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Just for that, I'm joining team red. When I win, I'll make her apologize for disturbing your sleep.",
 			painting = {
 				alpha = 0.3,
@@ -576,10 +576,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201216,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? Is joining them just to spite the other team really such a good idea?",
 			painting = {
 				alpha = 0.3,
@@ -594,10 +594,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301057,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's not such a big deal. I wouldn't worry about it.",
 			painting = {
 				alpha = 0.3,

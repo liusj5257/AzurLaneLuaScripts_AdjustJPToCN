@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"항구탈출 대작전!\n\n<size=45>5 작전 실패…?</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 407010,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그러니까, 경이 만든 괴상한 광선 조사 장치 실험 중에, 우연히 이 아이들이 태어났다는 건가.",
 			bgm = "story-1",
+			actor = 407010,
+			nameColor = "#92fc63",
+			say = "그러니까, 경이 만든 괴상한 광선 조사 장치 실험 중에, 우연히 이 아이들이 태어났다는 건가.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#92fc63",
 			say = "우, 우리는 터무니 없는 착각을 했었다…… 밉다, 내 미숙함이…!",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "아, 알았다냥! 미안하다냐아앙!",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#92fc63",
 			say = "저와 같은 '히에이' ……이대로라면 요리 실력도 분명 늘겠죠……",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#92fc63",
 			say = "이럴 수는… 메탈 블러드 최초의 항공모함인데, 설마 배가 '두 척' 있다…고…!?",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -373,15 +373,15 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 304060,
+			nameColor = "#92fc63",
 			say = "이걸로 한 건 해결이네요…… 우리들, 이 모항에서 잘 지낼 수 있을까요……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -486,17 +486,17 @@ return {
 			}
 		},
 		{
-			actor = 307090,
 			actorName = "？？？",
-			blackBg = true,
 			side = 2,
 			dir = 1,
 			stopngm = true,
+			blackBg = true,
+			actor = 307090,
 			nameColor = "#92fc63",
 			say = "——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 307090,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 307090,
+			actorName = "？？？",
 			say = "물론이에요. 후후후……",
 			typewriter = {
 				speed = 0.05,

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA29",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900307,
-			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "研究が進んでいるようだな。アンジュ博士",
 			bgm = "blueocean-image",
+			actor = 900307,
+			nameColor = "#ffff4d",
+			say = "研究が進んでいるようだな。アンジュ博士",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,11 +42,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 900308,
+			nameColor = "#ffff4d",
 			say = "そうね。ようやく例の「覚醒」の手がかりを見つけたわ",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,12 +152,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900308,
+			nameColor = "#ffff4d",
 			say = "ええ、メンタルキューブの適正がある人間…その存在を実証できれば――",
 			typewriter = {
 				speed = 0.05,

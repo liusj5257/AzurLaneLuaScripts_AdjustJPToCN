@@ -1,13 +1,13 @@
 slot0 = class("BackYardSystemTheme", import(".BackYardSelfThemeTemplate"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.level = 1
 	slot0.order = slot0:getConfig("order")
 end
 
-function slot0.GetRawPutList(slot0)
+slot0.GetRawPutList = function(slot0)
 	slot0:CheckLevel()
 
 	slot1 = getProxy(DormProxy):getRawData().level
@@ -25,7 +25,7 @@ function slot0.GetRawPutList(slot0)
 	return slot0.putInfo
 end
 
-function slot0.CheckLevel(slot0)
+slot0.CheckLevel = function(slot0)
 	if slot0.level ~= getProxy(DormProxy):getRawData().level then
 		slot0.furnitruesByIds = nil
 		slot0.putInfo = nil
@@ -33,7 +33,7 @@ function slot0.CheckLevel(slot0)
 	end
 end
 
-function slot0.GetAllFurniture(slot0)
+slot0.GetAllFurniture = function(slot0)
 	slot0:CheckLevel()
 	uv0.super.GetAllFurniture(slot0)
 
@@ -44,13 +44,13 @@ function slot0.GetAllFurniture(slot0)
 	return slot0.furnitruesByIds
 end
 
-function slot0.GetWarpFurnitures(slot0)
+slot0.GetWarpFurnitures = function(slot0)
 	slot0:CheckLevel()
 
 	return uv0.super.GetWarpFurnitures(slot0)
 end
 
-function slot0.CheckData(slot0)
+slot0.CheckData = function(slot0)
 	slot1 = getProxy(DormProxy):getRawData()
 	slot2 = {}
 	slot3 = {}
@@ -93,11 +93,11 @@ function slot0.CheckData(slot0)
 	return slot4
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.backyard_theme_template
 end
 
-function slot0.IsOverTime(slot0)
+slot0.IsOverTime = function(slot0)
 	slot1 = pg.furniture_shop_template
 
 	return _.all(slot0:getConfig("ids"), function (slot0)
@@ -105,11 +105,11 @@ function slot0.IsOverTime(slot0)
 	end)
 end
 
-function slot0.GetFurnitures(slot0)
+slot0.GetFurnitures = function(slot0)
 	return slot0:getConfig("ids")
 end
 
-function slot0.HasDiscount(slot0)
+slot0.HasDiscount = function(slot0)
 	return _.any(slot0:GetFurnitures(), function (slot0)
 		slot1 = Furniture.New({
 			id = slot0
@@ -119,7 +119,7 @@ function slot0.HasDiscount(slot0)
 	end)
 end
 
-function slot0.GetDiscount(slot0)
+slot0.GetDiscount = function(slot0)
 	slot2 = _.map(slot0:GetFurnitures(), function (slot0)
 		return Furniture.New({
 			id = slot0
@@ -134,7 +134,7 @@ function slot0.GetDiscount(slot0)
 	end)) / slot4 * 100
 end
 
-function slot0.IsPurchased(slot0, slot1)
+slot0.IsPurchased = function(slot0, slot1)
 	slot5 = "ids"
 
 	for slot5, slot6 in ipairs(slot0:getConfig(slot5)) do
@@ -146,27 +146,27 @@ function slot0.IsPurchased(slot0, slot1)
 	return true
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetDesc(slot0)
+slot0.GetDesc = function(slot0)
 	return slot0:getConfig("desc")
 end
 
-function slot0.IsSystem(slot0)
+slot0.IsSystem = function(slot0)
 	return true
 end
 
-function slot0.getName(slot0)
+slot0.getName = function(slot0)
 	return slot0:GetName()
 end
 
-function slot0.getIcon(slot0)
+slot0.getIcon = function(slot0)
 	return slot0:getConfig("icon")
 end
 
-function slot0.isUnLock(slot0, slot1)
+slot0.isUnLock = function(slot0, slot1)
 	return slot0:getConfig("deblocking") <= slot1.level
 end
 

@@ -1,28 +1,28 @@
 slot0 = class("ShamShopPage", import(".BaseShopPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShamShop"
 end
 
-function slot0.GetPaintingCommodityUpdateVoice(slot0)
+slot0.GetPaintingCommodityUpdateVoice = function(slot0)
 end
 
-function slot0.CanOpen(slot0, slot1, slot2)
+slot0.CanOpen = function(slot0, slot1, slot2)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.level, "ShamShop")
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.dayTxt = slot0:findTF("time/day"):GetComponent(typeof(Text))
 	slot0.nanoTxt = slot0:findTF("res_nano/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setText(slot0._tf:Find("time"), i18n("title_limit_time"))
 	setText(slot0._tf:Find("time/text"), i18n("shops_rest_day"))
 	setText(slot0._tf:Find("time/text_day"), i18n("word_date"))
 end
 
-function slot0.OnUpdateItems(slot0)
+slot0.OnUpdateItems = function(slot0)
 	if not slot0.items[ChapterConst.ShamMoneyItem] then
 		slot0.nanoTxt.text = 0
 	else
@@ -30,7 +30,7 @@ function slot0.OnUpdateItems(slot0)
 	end
 end
 
-function slot0.OnUpdateCommodity(slot0, slot1)
+slot0.OnUpdateCommodity = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in pairs(slot0.cards) do
@@ -46,7 +46,7 @@ function slot0.OnUpdateCommodity(slot0, slot1)
 	end
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = ActivityGoodsCard.New(slot1)
 
 	onButton(slot0, slot2.tr, function ()
@@ -66,7 +66,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -76,20 +76,20 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:update(slot0.displays[slot1 + 1])
 end
 
-function slot0.OnUpdateAll(slot0)
+slot0.OnUpdateAll = function(slot0)
 	slot0:InitCommodities()
 	slot0:OnSetUp()
 end
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 	slot0.dayTxt.text = string.format("%02d", slot0.shop:getRestDays())
 end
 
-function slot0.OnPurchase(slot0, slot1, slot2)
+slot0.OnPurchase = function(slot0, slot1, slot2)
 	slot0:emit(NewShopsMediator.ON_SHAM_SHOPPING, slot1.id, slot2)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

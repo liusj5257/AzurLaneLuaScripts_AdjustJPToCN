@@ -3,14 +3,14 @@ slot1 = pg.ship_skin_expression
 slot2 = pg.ship_skin_expression_ex
 slot3 = false
 
-function slot4(...)
+slot4 = function(...)
 	if uv0 and IsUnityEditor then
 		print(...)
 	end
 end
 
-function slot5(slot0, slot1, slot2, slot3)
-	function slot5()
+slot5 = function(slot0, slot1, slot2, slot3)
+	slot5 = function()
 		slot1 = nil
 
 		if uv0[uv1] and slot0 ~= "" then
@@ -24,7 +24,7 @@ function slot5(slot0, slot1, slot2, slot3)
 		return slot1
 	end
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		if uv0.main_ex and slot1 ~= "" then
 			slot2 = nil
 
@@ -42,7 +42,7 @@ function slot5(slot0, slot1, slot2, slot3)
 		return nil
 	end
 
-	function slot7()
+	slot7 = function()
 		if not string.split(uv0, "_")[2] then
 			return nil
 		end
@@ -63,7 +63,7 @@ function slot5(slot0, slot1, slot2, slot3)
 	return slot8
 end
 
-function slot0.GetExpression(slot0, slot1, slot2, slot3)
+slot0.GetExpression = function(slot0, slot1, slot2, slot3)
 	uv0("name:", slot0, " - kind:", slot1, " - favor:", slot2)
 
 	if not uv1[slot0] then
@@ -87,11 +87,11 @@ function slot0.GetExpression(slot0, slot1, slot2, slot3)
 	return slot5
 end
 
-function slot0.SetExpression(slot0, slot1, slot2, slot3, slot4)
+slot0.SetExpression = function(slot0, slot1, slot2, slot3, slot4)
 	return uv0.UpdateExpression(slot0, slot1, uv0.GetExpression(slot1, slot2, slot3, slot4))
 end
 
-function slot0.UpdateExpression(slot0, slot1, slot2)
+slot0.UpdateExpression = function(slot0, slot1, slot2)
 	if not tf(slot0):Find("face") then
 		return false, nil
 	end
@@ -113,7 +113,7 @@ function slot0.UpdateExpression(slot0, slot1, slot2)
 	return true, slot2
 end
 
-function slot0._UpdateExpression(slot0, slot1, slot2)
+slot0._UpdateExpression = function(slot0, slot1, slot2)
 	setImageSprite(slot0, GetSpriteFromAtlas("paintingface/" .. slot1, slot2))
 	setActive(slot0, true)
 
@@ -128,11 +128,11 @@ function slot0._UpdateExpression(slot0, slot1, slot2)
 	end
 end
 
-function slot0.DefaultFaceless(slot0)
+slot0.DefaultFaceless = function(slot0)
 	return uv0[slot0] and slot1.default ~= ""
 end
 
-function slot0.GetDefaultFace(slot0)
+slot0.GetDefaultFace = function(slot0)
 	return uv0[slot0].default
 end
 

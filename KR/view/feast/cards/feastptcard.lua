@@ -3,7 +3,7 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.binder = slot2
 	slot0._go = slot1
 	slot0._tf = slot1.transform
@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	setText(slot0.gotBtn:Find("Text"), i18n("feast_task_pt_got"))
 end
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	slot0.indexTxt.text = i18n("feast_task_pt_level", slot2)
 
 	updateDrop(slot0.award, slot1:GetDrop(slot2))
@@ -38,7 +38,7 @@ function slot0.Flush(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

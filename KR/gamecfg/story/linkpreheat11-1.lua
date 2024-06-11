@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT11-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT11-1",
+	fadein = 1,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300030,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "그럼……제가 가겠습니다.",
-			bgm = "level-uta",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "이…코코포처럼 강하고 튼튼한 함선 장비가 있으면……저, 저 정도의 적을 유인한다 해도……저, 저 스스로 지킬 수 있을 거에요.",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "그러니까 이 작전은, 제가 적임자라고……생각해요.",
 			typewriter = {
 				speed = 0.05,
@@ -155,10 +155,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "그 때는 작전을 중지하고 바로 그쪽으로 가도록 하죠.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "그 때는 작전을 중지하고 바로 그쪽으로 가도록 하죠.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "네……고맙습니다.",
 			typewriter = {
 				speed = 0.05,

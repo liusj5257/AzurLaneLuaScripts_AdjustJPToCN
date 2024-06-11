@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ffde38",
-			actorName = "Vittorio Veneto",
-			say = "Cesare, how did your battle with the Sirens go?",
+			side = 2,
 			dir = 1,
 			bgm = "battle-boss-italy",
+			actorName = "Vittorio Veneto",
+			say = "Cesare, how did your battle with the Sirens go?",
 			effects = {
 				{
 					active = true,
@@ -29,10 +29,10 @@ return {
 			}
 		},
 		{
-			actor = 605060,
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
+			actor = 605060,
 			say = "Nothing but small fry devoid of any thought. Not even worth mentioning.",
 			effects = {
 				{
@@ -95,10 +95,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffde38",
-			actorName = "Vittorio Veneto",
+			side = 2,
 			dir = 1,
+			actorName = "Vittorio Veneto",
 			say = "You've all done well. Cesare, could you guide everyone to La Spezia? You've all earned some time to rest and recover.",
 			effects = {
 				{
@@ -116,10 +116,10 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
+			actor = 603020,
 			say = "We could definitely use it. Should I expect a celebratory party waiting for us?",
 			effects = {
 				{
@@ -140,8 +140,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "... Wait... What's that in the distance...?",
 			typewriter = {
 				speed = 0.05,
@@ -153,10 +153,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			say = "……",
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			effects = {
 				{
 					active = true,
@@ -169,10 +169,10 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			nameColor = "#ffde38",
 			side = 2,
 			dir = 1,
+			actor = 603020,
 			say = "Eternal Flagship, did you request aerial support from Iron Blood?",
 			effects = {
 				{
@@ -193,8 +193,8 @@ return {
 			actor = 605050,
 			side = 2,
 			expression = 1,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "No, that's not Iron Blood... Those are Royal Navy aircraft.",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Should we prepare for anti-air measures?",
 			typewriter = {
 				speed = 0.05,
@@ -225,8 +225,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 900197,
 			dir = 1,
+			actor = 900197,
 			say = "It's probably fine. They've already left our range.",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Typical Royal Navy fashion. They're more annoying than flies. Anyway... Cesare, your orders?",
 			typewriter = {
 				speed = 0.05,
@@ -272,8 +272,8 @@ return {
 			expression = 6,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "……",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0.UNLOCK_SLOT = "UNLOCK_SLOT"
 slot0.OPEN_INFO = "OPEN_INFO"
 slot0.OPEN_CHUANWU = "NewYearHotSpringMediator:Open chuanwu"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.UNLOCK_SLOT, function (slot0, slot1)
 		slot2 = uv0.activity
 		slot2, slot3 = slot2:GetUpgradeCost()
@@ -13,8 +13,8 @@ function slot0.register(slot0)
 			content = i18n("hotspring_expand", slot3),
 			contextSprites = {
 				{
-					name = "wenquanbi",
-					path = "props/wenquanbi"
+					path = "props/wenquanbi",
+					name = "wenquanbi"
 				}
 			},
 			onYes = function ()
@@ -52,7 +52,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.OnSelShips(slot0, slot1, slot2)
+slot0.OnSelShips = function(slot0, slot1, slot2)
 	slot0:addSubLayers(Context.New({
 		viewComponent = DockyardScene,
 		mediator = DockyardMediator,
@@ -83,7 +83,7 @@ function slot0.OnSelShips(slot0, slot1, slot2)
 	}))
 end
 
-function slot0.GetSelectedShipIds(slot0, slot1)
+slot0.GetSelectedShipIds = function(slot0, slot1)
 	slot2 = slot1 and slot1.id or -1
 	slot3 = {}
 
@@ -96,7 +96,7 @@ function slot0.GetSelectedShipIds(slot0, slot1)
 	return slot3
 end
 
-function slot0.OnShip(slot0, slot1, slot2, slot3)
+slot0.OnShip = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = ShipStatus.ShipStatusCheck("inBackyard", slot1, function (slot0)
 		uv0()
 	end)
@@ -104,7 +104,7 @@ function slot0.OnShip(slot0, slot1, slot2, slot3)
 	return slot4, slot5
 end
 
-function slot0.OnSelected(slot0, slot1, slot2, slot3)
+slot0.OnSelected = function(slot0, slot1, slot2, slot3)
 	slot5 = slot0.activity
 	slot4 = Clone(slot5:GetShipIds())
 	slot7 = slot0.activity
@@ -183,7 +183,7 @@ function slot0.OnSelected(slot0, slot1, slot2, slot3)
 	slot3()
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		ActivityProxy.ACTIVITY_UPDATED,
@@ -193,7 +193,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == nil then
@@ -214,7 +214,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA18",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
+			actorName = "？？？",
 			dir = 1,
 			bgm = "battle-executor-type1",
 			actor = 900307,
-			actorName = "？？？",
+			nameColor = "#ffff4d",
 			say = "この案でいけば確かに上手くいくかもしれん",
 			typewriter = {
 				speed = 0.05,
@@ -26,12 +26,12 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_cccpv2_7",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900307,
 			actorName = "？？？",
 			say = "だが、作戦を完遂するには撹乱装置が稼働し続けることが必須だ。その間に人員の撤収と防衛を並行して行うとすると…",
 			typewriter = {
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_cccpv2_7",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900307,
 			actorName = "？？？",
 			say = "……………",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
 			dir = 1,
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 2,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
 			say = "……ああ。しかし演算機械の損傷状況も無視できん。軍の協力はありがたいが、残った戦力で果たしてどれだけ時間を稼げるか",
 			typewriter = {
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 2,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
 			say = "「曙光」が潰えれば、時間跳躍装置の作動も止まる。「楔」に送り届けた端末の数が足りなければ演算の結果に影響を及ぼしてしまうのだ",
 			typewriter = {
@@ -113,12 +113,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_cccpv2_7",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "……私も時間稼ぎを手伝うわ",
 			typewriter = {
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 0,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
 			say = "……アンジュ博士？",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "あの子たちに言葉を送り届けてたら、もう向こうに気づかれちゃった",
 			typewriter = {
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "だから私から向こうに接触すれば、きっと向こうの注意を引きつけられるはずよ。その間に将軍の作戦をやるといいわ",
 			typewriter = {
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 0,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
 			say = "……死ぬぞ",
 			typewriter = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "ふぅ…あんな大失敗をやらかしたし、生き残ってもどうせ責任を負わされるんでしょ？せめて自分のできることをやり尽くしたいわ",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 0,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
 			say = "分かった。君のKAN-SENたちは好きに連れていけばいい。だが可能ならコードGだけは私のアンチエックスと同行させてほしい",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "問題ないわ。エンタープライズだけでなく、生き残ったみんなをあんたのところに預けるわ",
 			typewriter = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "ただし、合流地点はできるだけNYシティより遠くに設定して。決して戻らせないように",
 			typewriter = {
@@ -271,11 +271,11 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 0,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
 			say = "…そうか。お前がいないと、私だけで彼女たちを上手く制御できる自信はないな",
 			typewriter = {
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "そこは聡明で冷徹な審判者サマらしく、あの子たちに大義と責任を叩き込んでおくしかないんじゃない？",
 			typewriter = {
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "……あんなことが起こったとはいえ、私たちの目的は一緒よ。そしてあなたのやっていることは正しいと思うわ",
 			typewriter = {
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "彼女たちにはそれを受け入れる時間が足りなかったけど、きっといつかあなたのことを分かってくれると思うわ",
 			typewriter = {
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
-			bgName = "bg_cccpv2_7",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_7",
 			dir = 1,
 			blackBg = true,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "ええ、きっとそうよ――",
 			typewriter = {

@@ -1,10 +1,10 @@
 slot0 = class("MetaCharacterBreakout", import("..BaseVO"))
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.ship_meta_breakout
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.needLevel = slot0:getConfig("level")
@@ -27,23 +27,23 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.getConsume(slot0)
+slot0.getConsume = function(slot0)
 	return slot0.needGold, slot0.needItems
 end
 
-function slot0.getLimited(slot0)
+slot0.getLimited = function(slot0)
 	return slot0.needLevel, slot0.needRepairRate
 end
 
-function slot0.hasNextInfo(slot0)
+slot0.hasNextInfo = function(slot0)
 	return slot0.nextBreakInfo ~= nil
 end
 
-function slot0.getNextInfo(slot0)
+slot0.getNextInfo = function(slot0)
 	return slot0.nextBreakInfo
 end
 
-function slot0.getWeaponIds(slot0)
+slot0.getWeaponIds = function(slot0)
 	return slot0.weaponIds
 end
 

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 净化者",
 	time = 0.1,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 净化者",
+	init_effect = "",
+	id = 200890,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200890,
+	color = "yellow",
 	icon = 200890,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				minTargetNumber = 1,
 				skill_id = 200889,
-				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"

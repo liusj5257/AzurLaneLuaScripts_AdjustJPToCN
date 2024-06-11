@@ -1,8 +1,8 @@
 return {
-	id = "GWORLD200A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "GWORLD200A",
 	skipTip = false,
 	fadein = 1.5,
 	scripts = {
@@ -10,9 +10,9 @@ return {
 			actor = 202190,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-richang",
 			dir = 1,
 			say = "You have now received authorisation to sortie up to four fleets in Operation Siren.",
+			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

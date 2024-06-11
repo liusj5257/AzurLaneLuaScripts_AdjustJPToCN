@@ -1,13 +1,13 @@
 slot0 = class("MainEducateCharPainting", import(".MainMeshImagePainting"))
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	uv1 = pg.AssistantInfo
 end
 
-function slot0.OnLoad(slot0, slot1)
+slot0.OnLoad = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0.super.OnLoad(uv1, slot0)
@@ -18,16 +18,16 @@ function slot0.OnLoad(slot0, slot1)
 	end)
 end
 
-function slot0.OnFirstTimeTriggerEvent(slot0)
+slot0.OnFirstTimeTriggerEvent = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 	slot2, slot3, slot4 = ChineseCalendar.GetCurrYearMonthDay(slot1:GetServerTime())
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		uv0:DisplayWord(slot0)
 		getProxy(SettingsProxy):RecordTipDay(uv1, uv2, uv3)
 	end
 
-	function slot6()
+	slot6 = function()
 		return getProxy(SettingsProxy):IsTipDay(uv0, uv1, uv2)
 	end
 
@@ -54,7 +54,7 @@ function slot0.OnFirstTimeTriggerEvent(slot0)
 	end
 end
 
-function slot0.ExistImportantActivity(slot0)
+slot0.ExistImportantActivity = function(slot0)
 	slot2 = getProxy(ActivityProxy)
 
 	return _.any(pg.gameset.secretary_special_ship_event_type.description, function (slot0)
@@ -62,7 +62,7 @@ function slot0.ExistImportantActivity(slot0)
 	end)
 end
 
-function slot0.InitTellTimeService(slot0)
+slot0.InitTellTimeService = function(slot0)
 	slot0:RemoveTellTimeTimer()
 
 	if GetNextHour(1) - pg.TimeMgr.GetInstance():GetServerTime() >= 86400 then
@@ -72,7 +72,7 @@ function slot0.InitTellTimeService(slot0)
 	end
 end
 
-function slot0.AddTellTimeTimer(slot0, slot1, slot2)
+slot0.AddTellTimeTimer = function(slot0, slot1, slot2)
 	slot0.tellTimeTimer = Timer.New(function ()
 		if uv0.chatting then
 			uv0.waitForCharEnd = uv1
@@ -87,7 +87,7 @@ function slot0.AddTellTimeTimer(slot0, slot1, slot2)
 	slot0.tellTimeTimer:Start()
 end
 
-function slot0.RemoveTellTimeTimer(slot0)
+slot0.RemoveTellTimeTimer = function(slot0)
 	if slot0.tellTimeTimer then
 		slot0.tellTimeTimer:Stop()
 
@@ -95,11 +95,11 @@ function slot0.RemoveTellTimeTimer(slot0)
 	end
 end
 
-function slot0.DisplayTellTimeWord(slot0, slot1)
+slot0.DisplayTellTimeWord = function(slot0, slot1)
 	slot0:DisplayWord(EducateCharWordHelper.WORD_KEY_TELL_TIME .. tonumber(string.split(pg.TimeMgr.GetInstance():STimeDescC(slot1, "%Y:%m:%d:%H:%M:%S"), ":")[4]))
 end
 
-function slot0.TriggerPersonalTask(slot0)
+slot0.TriggerPersonalTask = function(slot0)
 	if slot0.isFoldState then
 		return
 	end
@@ -107,10 +107,10 @@ function slot0.TriggerPersonalTask(slot0)
 	slot0:TriggerInterActionTask()
 end
 
-function slot0.OnLongPress(slot0)
+slot0.OnLongPress = function(slot0)
 end
 
-function slot0.OnDisplayWorld(slot0, slot1)
+slot0.OnDisplayWorld = function(slot0, slot1)
 	if EducateCharWordHelper.GetExpression(slot0.ship.educateCharId, slot1) and slot2 ~= "" then
 		ShipExpressionHelper.UpdateExpression(findTF(slot0.container, "fitter"):GetChild(0), slot0.paintingName, slot2)
 	else
@@ -118,7 +118,7 @@ function slot0.OnDisplayWorld(slot0, slot1)
 	end
 end
 
-function slot0.OnDisplayWordEnd(slot0)
+slot0.OnDisplayWordEnd = function(slot0)
 	slot0:RemoveDelayTellTimeTimer()
 
 	if slot0.waitForCharEnd then
@@ -136,7 +136,7 @@ function slot0.OnDisplayWordEnd(slot0)
 	end
 end
 
-function slot0.RemoveDelayTellTimeTimer(slot0)
+slot0.RemoveDelayTellTimeTimer = function(slot0)
 	if slot0.delayTellTimeTimer then
 		slot0.delayTellTimeTimer:Stop()
 
@@ -144,13 +144,13 @@ function slot0.RemoveDelayTellTimeTimer(slot0)
 	end
 end
 
-function slot0.GetWordAndCv(slot0, slot1, slot2)
+slot0.GetWordAndCv = function(slot0, slot1, slot2)
 	slot3, slot4, slot5 = EducateCharWordHelper.GetWordAndCV(slot1.educateCharId, slot2)
 
 	return slot3, slot4, slot5
 end
 
-function slot0.PlayCV(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayCV = function(slot0, slot1, slot2, slot3, slot4)
 	if not EducateCharWordHelper.RawGetCVKey(slot0.ship.educateCharId) or slot5 == "" then
 		slot4()
 
@@ -160,7 +160,7 @@ function slot0.PlayCV(slot0, slot1, slot2, slot3, slot4)
 	slot0.cvLoader:Load(slot5, slot3, 0, slot4)
 end
 
-function slot0.CollectIdleEvents(slot0, slot1)
+slot0.CollectIdleEvents = function(slot0, slot1)
 	slot2 = {}
 
 	if getProxy(EventProxy):hasFinishState() and slot1 ~= "event_complete" then
@@ -170,7 +170,7 @@ function slot0.CollectIdleEvents(slot0, slot1)
 			table.insert(slot2, "mission_complete")
 		end
 
-		if getProxy(MailProxy):GetAttachmentCount() > 0 and slot1 ~= "mail" then
+		if getProxy(MailProxy):GetUnreadCount() > 0 and slot1 ~= "mail" then
 			table.insert(slot2, "mail")
 		end
 
@@ -186,7 +186,7 @@ function slot0.CollectIdleEvents(slot0, slot1)
 	return slot2
 end
 
-function slot0.FilterExistEvents(slot0, slot1)
+slot0.FilterExistEvents = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot1) do
@@ -198,11 +198,11 @@ function slot0.FilterExistEvents(slot0, slot1)
 	return slot2
 end
 
-function slot0.CollectTouchEvents(slot0)
+slot0.CollectTouchEvents = function(slot0)
 	return slot0:FilterExistEvents(uv0.PaintingTouchEvents)
 end
 
-function slot0.EnableOrDisableMove(slot0, slot1)
+slot0.EnableOrDisableMove = function(slot0, slot1)
 	uv0.super.EnableOrDisableMove(slot0, slot1)
 
 	if slot1 then
@@ -215,7 +215,7 @@ function slot0.EnableOrDisableMove(slot0, slot1)
 	end
 end
 
-function slot0.OnPuase(slot0)
+slot0.OnPuase = function(slot0)
 	uv0.super.OnPuase(slot0)
 
 	slot0.waitForCharEnd = nil
@@ -224,14 +224,14 @@ function slot0.OnPuase(slot0)
 	slot0:RemoveDelayTellTimeTimer()
 end
 
-function slot0.OnResume(slot0)
+slot0.OnResume = function(slot0)
 	uv0.super.OnResume(slot0)
 	slot0:RemoveTellTimeTimer()
 	slot0:RemoveDelayTellTimeTimer()
 	slot0:InitTellTimeService()
 end
 
-function slot0.OnUnload(slot0)
+slot0.OnUnload = function(slot0)
 	uv0.super.OnUnload(slot0)
 
 	slot0.waitForCharEnd = nil
@@ -240,7 +240,7 @@ function slot0.OnUnload(slot0)
 	slot0:RemoveDelayTellTimeTimer()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
 	slot0.waitForCharEnd = nil

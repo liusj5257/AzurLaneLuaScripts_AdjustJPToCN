@@ -4,11 +4,11 @@ slot0.Battle.BattleDirectHitWeaponUnit = class("BattleDirectHitWeaponUnit", slot
 slot0.Battle.BattleDirectHitWeaponUnit.__name = "BattleDirectHitWeaponUnit"
 slot1 = slot0.Battle.BattleDirectHitWeaponUnit
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.Spawn(slot0, slot1, slot2)
+slot1.Spawn = function(slot0, slot1, slot2)
 	slot3 = uv0.super.Spawn(slot0, slot1, slot2)
 
 	slot3:SetDirectHitUnit(slot2)

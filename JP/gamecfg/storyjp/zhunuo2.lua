@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "ふはあああ…………",
 			shake = {
 				speed = 1,
@@ -93,8 +93,8 @@ return {
 			hideOther = true,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201030,
 			dir = 1,
+			actor = 201030,
 			say = "グロリアスさんありがとう！でもやることはきちんとやらないとね。アカスタ、私たちにはレーダーが積まれていないから、敵を早く発見できるように前へ出たほうがいいよ？",
 			typewriter = {
 				speed = 0.05,
@@ -121,14 +121,14 @@ return {
 			}
 		},
 		{
-			actor = 201030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201030,
+			nameColor = "#a9f548",
 			say = "グロリアスさんの速度は17ノット、風力は2から3ぐらい、風向きは南東…視界良好……ちょっと遅い気がするけど、順調だよね…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,8 +190,8 @@ return {
 			actor = 201020,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "アーデント＆アカスタ",
 			dir = -1,
+			actorName = "アーデント＆アカスタ",
 			say = "はい！",
 			typewriter = {
 				speed = 0.05,

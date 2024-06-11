@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_306 = {}
 slot1 = slot0.word_template_306
 
-function temp()
+temp = function()
 	uv0["邪"] = {
 		["挡"] = {
 			this = true
@@ -105,7 +105,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鞋"] = {
 		["崇"] = {
 			["拜"] = {
@@ -117,7 +117,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["写"] = {
 		["真"] = {
 			this = true
@@ -127,7 +127,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["寫"] = {
 		["真"] = {
 			this = true
@@ -137,7 +137,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["谢"] = {
 		["伏"] = {
 			["瞻"] = {
@@ -159,7 +159,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["辛"] = {
 		["灝"] = {
 			["年"] = {
@@ -193,7 +193,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["新"] = {
 		["版"] = {
 			["三"] = {

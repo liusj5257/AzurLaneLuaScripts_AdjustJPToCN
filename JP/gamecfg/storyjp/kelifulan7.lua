@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ナイト＆アワード\n\n<size=45>その七　最高の優勝賞</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "母港・体育館",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "母港・体育館",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "「カネニナルキ」――金のなる木の盆栽を抱えているクリーブランドは上機嫌だ。",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "クリーブランドが真っ赤になった。",
 			typewriter = {
 				speed = 0.05,
@@ -112,15 +112,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "金のことはいいんだとしても、せっかくのチャンスだったのに指揮官に格好いい所を見せられなかったし……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "クリーブランドの髪をかるーくわしゃわしゃする。",
 			typewriter = {
 				speed = 0.05,
@@ -219,16 +219,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "かかかかかかか可愛い！？！？！？",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -244,16 +244,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "あ、あぅ、あああ……私が可愛い…カワイイ……きゃっ……あうあう……….////",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 30,
@@ -270,17 +270,17 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "って、兄貴って呼ぶなあ～！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 2

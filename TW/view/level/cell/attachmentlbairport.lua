@@ -2,11 +2,11 @@ slot0 = class("AttachmentLBAirport", import("view.level.cell.StaticCellView"))
 slot0.StateOutControl = 1
 slot0.StateUnderControl = 2
 
-function slot0.GetOrder(slot0)
+slot0.GetOrder = function(slot0)
 	return ChapterConst.CellPriorityAttachment
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot1 = slot0.extraFlagList
 
 	if IsNil(slot0.go) then

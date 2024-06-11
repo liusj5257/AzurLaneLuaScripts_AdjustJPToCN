@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"혼돈의 핼러윈 나이트\n\n<size=45>1. 질서 정연한 준비</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 404020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "필요한 물자, 음식 그리고 다른 재료 목록은 제가 다 맞춰봤어요. 바로 아카시한테 주문하면 돼요.",
 			bgm = "story-1",
+			actor = 404020,
+			nameColor = "#a9f548",
+			say = "필요한 물자, 음식 그리고 다른 재료 목록은 제가 다 맞춰봤어요. 바로 아카시한테 주문하면 돼요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "역시 그나이제나우네. 큰 도움이 되었어, 고마워.",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "아이고, 그렇게 칭찬해 주다니 고마운걸.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "으흠! 핼러윈 사탕 준비는 에든버러님에게 맡겨!",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "아, 응! 에든버러한테도 고마워. 그럼 사탕 준비 부탁할게! 항구 지역에 사탕을 좋아하는 애들이 많으니까...",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "헤헤헷~ 어때? 괜찮지? 내가 직접 디자인한 거야! 다 만들어서 그냥 먼저 입어버렸지~",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "(실제로 만든 건 벨파스트지만...)",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "헷~ 안목이 제법인데~",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "그럼~ 흥, 벨파스트 녀석, 또 메이드팀 일을 핑계로 나랑 같이 핼러윈 파티에 가는 걸 거절했어... 가끔 시간 좀 내서 언니랑 놀아주면 어디가 덧나나~",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "아하하... 정말 쉽지 않은 상대네.",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "내 말이, 내 말이!",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "(벨파스트 아가씨도 고생 많이 했는데...)",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "앗? 그나이제나우도 이런 거에 관심있어? 좀 의외네...",
 			typewriter = {
@@ -372,10 +372,10 @@ return {
 			}
 		},
 		{
-			actor = 202112,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 202112,
 			dir = 1,
 			hideOther = true,
 			actorName = "에든버러&멤피스",
@@ -418,16 +418,16 @@ return {
 			}
 		},
 		{
-			actor = 900202,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900202,
+			nameColor = "#a9f548",
 			say = "헤헷... 핼러윈 사탕인가?... 이제 재미있는 일이 생기겠다!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

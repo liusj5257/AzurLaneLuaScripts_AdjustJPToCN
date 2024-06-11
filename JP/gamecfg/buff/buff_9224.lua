@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "龙宫机关-水 BUFF判断LV4 步骤3",
 	time = 10,
-	color = "yellow",
+	name = "龙宫机关-水 BUFF判断LV4 步骤3",
+	init_effect = "",
+	id = 9224,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9224,
+	color = "yellow",
 	icon = 9224,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 9224,
 				time = 8,
 				rant = 10000,
-				skill_id = 9224
+				target = "TargetSelf"
 			}
 		}
 	}

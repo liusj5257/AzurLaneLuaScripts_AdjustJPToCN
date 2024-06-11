@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163811,
 					supportTarget = {
@@ -22,10 +22,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163851,
 					supportTarget = {
@@ -42,9 +42,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -57,10 +57,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163812,
 					supportTarget = {
@@ -77,10 +77,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163852,
 					supportTarget = {
@@ -97,9 +97,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -112,10 +112,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163813,
 					supportTarget = {
@@ -132,10 +132,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163853,
 					supportTarget = {
@@ -152,9 +152,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -167,10 +167,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163814,
 					supportTarget = {
@@ -187,10 +187,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163854,
 					supportTarget = {
@@ -207,9 +207,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -222,10 +222,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163815,
 					supportTarget = {
@@ -242,10 +242,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163855,
 					supportTarget = {
@@ -262,9 +262,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -277,10 +277,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163816,
 					supportTarget = {
@@ -297,10 +297,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163856,
 					supportTarget = {
@@ -317,9 +317,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -332,10 +332,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163817,
 					supportTarget = {
@@ -352,10 +352,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163857,
 					supportTarget = {
@@ -372,9 +372,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -387,10 +387,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163818,
 					supportTarget = {
@@ -407,10 +407,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163858,
 					supportTarget = {
@@ -427,9 +427,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -442,10 +442,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163819,
 					supportTarget = {
@@ -462,10 +462,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163859,
 					supportTarget = {
@@ -482,9 +482,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -497,10 +497,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmNearest",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmNearest",
 				arg_list = {
 					weapon_id = 163820,
 					supportTarget = {
@@ -517,10 +517,10 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillFireSupport",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFireSupport",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weapon_id = 163860,
 					supportTarget = {
@@ -537,9 +537,9 @@ return {
 				}
 			},
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},
@@ -552,10 +552,10 @@ return {
 	uiEffect = "",
 	name = "关岛弹幕",
 	cd = 0,
-	painting = "guandao",
-	id = 17362,
 	picture = "0",
 	desc = "关岛弹幕",
+	painting = "guandao",
+	id = 17362,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -566,10 +566,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFireSupport",
-			casterAniEffect = "",
-			target_choise = "TargetHarmNearest",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFireSupport",
+			target_choise = "TargetHarmNearest",
 			arg_list = {
 				weapon_id = 163811,
 				supportTarget = {
@@ -586,10 +586,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillFireSupport",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandom",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFireSupport",
+			target_choise = "TargetHarmRandom",
 			arg_list = {
 				weapon_id = 163851,
 				supportTarget = {
@@ -606,9 +606,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},

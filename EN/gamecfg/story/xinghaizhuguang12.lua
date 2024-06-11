@@ -43,20 +43,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "Unknown Simulation - Unknown Location",
 			bgm = "theme-ucnf-beacon",
+			say = "Unknown Simulation - Unknown Location",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "A pure white light blinded Constellation. When her vision returned, a landscape covered in ice and snow unfolded before her.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "Beyond the horizon was a colossal structure made of metal and ice, towering toward the clouds.",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "Surrounding it were shards of ice, decorating it. This was the Crown.",
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Reality Lens connection is stable... I've safely entered the abnormal data.",
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -306,11 +306,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
-			bgName = "bg_hms_0",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			bgName = "bg_hms_0",
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I think... this Crown isn't the same as the one we're familiar with.",
@@ -323,17 +323,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -341,11 +341,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "For sure. It has energy surging inside of it. It almost looks like it's alive.",
@@ -587,11 +587,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Active, inactive... It's not active right now, and yet it's also running...",
@@ -605,11 +605,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What if it's an artificial Singularity, like Iron Blood's Tower of Midgard?",
@@ -623,11 +623,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Like, it's not active at this very moment, but it was at some point in the past, and we didn't know about it...",
@@ -641,11 +641,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You're saying this data is from the time the Crown WAS active?",
@@ -754,13 +754,13 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
+			say = "KRRRGGHHH!",
 			side = 2,
 			bgName = "bg_hms_0",
-			hidePaintObj = true,
+			soundeffect = "event:/battle/boom1",
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			seDelay = 0.5,
-			say = "KRRRGGHHH!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,8 +772,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "A booming rumble broke the silence of the night, interrupting Constellation's train of thought.",
@@ -802,11 +802,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_hms_0",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Good lord... Constellation, look! A black tornado!",
@@ -820,8 +820,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "A storm formed from pure malice appeared out of nowhere in the distance.",
@@ -831,8 +831,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "Not long after the initial rumble subsided, a dark barrier stretched from the seas to the heavens.",
@@ -842,8 +842,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
 			say = "Dark clouds rapidly spread across the ocean and the sky, leeching the light even from the energy in the Crown's heart.",
@@ -891,27 +891,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_starsea_core_3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_starsea_core_3",
 			say = "Meanwhile, inside the Sea of Stars control room...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -995,8 +995,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_3",
 			hidePaintObj = true,
 			say = "Warning sirens blared while the control room was flooded with error messages, painting it a strobing red.",
@@ -1025,8 +1025,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1206,8 +1206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

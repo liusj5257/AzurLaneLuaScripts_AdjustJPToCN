@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"기행의 사프란\n\n<size=45>2 동료의 고민</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날, 연습 해역.",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날, 연습 해역.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "에식스, 안녕하세요.",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "에식스, 안녕하세요.",
+			actor = 107380,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "이쪽에서 인사를 건네기도 전에 샹그릴라가 이야기를 꺼냈다.",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "에? 어떻게 그걸……?",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
+			dir = -1,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "듣고 보니, 확실히 지금의 반응은 좀 신경이 쓰인다.",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "그건 유니온의 항공 대항 연습 때문인가요?",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "(작은 목소리로) 독심술이라도 쓰는 건지 매번 놀랍네……",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "(작은 목소리로) 에식스가 저런 표정을 짓는 건, 엔터프라이즈 선배 때문일 것이 확실하니깐요. 후후후.",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "크, 크흠! 대단한 일은 아니에요. 실은…….(이러쿵저러쿵)",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -257,15 +257,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "그렇군요…… 다음 연습 때에 엔터프라이즈 선배를 이기거나, 적어도 놀라게라도 해줄 수 있을 작전……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,8 +293,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "저라도 괜찮다면 함께 생각해볼래요?",
 			typewriter = {
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			say = "진짜?! ……크, 크흠!",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -367,14 +367,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107380,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "적을 알고 나를 알면, 백전백승'.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,8 +402,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "고전적이기는 하지만, 상대가 엔터프라이즈 선배씩이나 되면 더욱 그렇죠.",
 			typewriter = {
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "좀 비겁할 지도 모르지만, 이번에는 엔터프라이즈 선배 대책의 특훈이라도 짜보기로 할까요.",
 			typewriter = {
@@ -468,8 +468,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "아, 지휘관님도 원하시면 견학하셔도 괜찮아요. 비밀리에 하는 것도 아니니까요.",
 			typewriter = {

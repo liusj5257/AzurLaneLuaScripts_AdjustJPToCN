@@ -1,19 +1,19 @@
 return {
-	id = "WORLD105C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105C",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/41/tb-41",
+			dir = 1,
 			bgm = "story-richang",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "分析模組同步中：敵方艦隊肅清，但是在遠方區域發現塞壬艦隊的增援跡象，請不要放鬆警惕。",
-			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "唔，確實有種不同尋常的氣息啊。這才剛進入百慕達海域邊緣，塞壬就派艦隊熱情迎接我們了。",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "百慕達中的秘密......",
 			typewriter = {
 				speed = 0.05,
@@ -98,12 +98,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
 			actor = 107060,
 			nameColor = "#a9f548",
+			bgName = "bg_banama_2",
 			say = "這些幻影，究竟是什麼東西…？",
 			effects = {
 				{
@@ -155,8 +155,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "什麼地方，什麼時候的記錄？",
 			typewriter = {
@@ -217,13 +217,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "企業？妳是想到什麼了嗎？",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "story-richang",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "企業？妳是想到什麼了嗎？",
 			effects = {
 				{
 					active = false,

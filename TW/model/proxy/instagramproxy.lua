@@ -2,12 +2,12 @@ slot0 = class("InstagramProxy", import(".NetProxy"))
 slot1 = pg.activity_ins_language
 slot2 = pg.activity_ins_npc_template
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.caches = {}
 	slot0.messages = {}
 	slot0.allReply = {}
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		slot1 = slot0.npc_reply_persist
 
 		if type(slot0.npc_reply_persist) == "string" then
@@ -46,11 +46,11 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.GetAllReply(slot0)
+slot0.GetAllReply = function(slot0)
 	return slot0.allReply
 end
 
-function slot0.InitLocalConfigs(slot0)
+slot0.InitLocalConfigs = function(slot0)
 	if #slot0.caches > 0 then
 		for slot4, slot5 in ipairs(slot0.caches) do
 			slot6 = Instagram.New(slot5)
@@ -61,7 +61,7 @@ function slot0.InitLocalConfigs(slot0)
 	slot0.caches = {}
 end
 
-function slot0.GetMessages(slot0)
+slot0.GetMessages = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.messages) do
@@ -71,23 +71,23 @@ function slot0.GetMessages(slot0)
 	return slot1
 end
 
-function slot0.ExistMessage(slot0)
+slot0.ExistMessage = function(slot0)
 	return table.getCount(slot0.messages) > 0
 end
 
-function slot0.GetData(slot0)
+slot0.GetData = function(slot0)
 	return slot0.messages
 end
 
-function slot0.GetMessageById(slot0, slot1)
+slot0.GetMessageById = function(slot0, slot1)
 	return slot0.messages[slot1]
 end
 
-function slot0.AddMessage(slot0, slot1)
+slot0.AddMessage = function(slot0, slot1)
 	slot0.messages[slot1.id] = slot1
 end
 
-function slot0.UpdateMessage(slot0, slot1)
+slot0.UpdateMessage = function(slot0, slot1)
 	if not slot0.messages[slot1.id] then
 		slot0:AddMessage(slot1)
 	else
@@ -95,17 +95,17 @@ function slot0.UpdateMessage(slot0, slot1)
 	end
 end
 
-function slot0.ShouldShowTip(slot0)
+slot0.ShouldShowTip = function(slot0)
 	return _.any(slot0:GetMessages(), function (slot0)
 		return slot0:ShouldShowTip()
 	end)
 end
 
-function slot0.ExistMsg(slot0)
+slot0.ExistMsg = function(slot0)
 	return slot0.messages and table.getCount(slot0.messages) > 0 or slot0.caches and #slot0.caches > 0
 end
 
-function slot0.ExistGroup(slot0, slot1)
+slot0.ExistGroup = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.messages) do
 		if slot6:getConfig("group_id") == slot1 then
 			return true

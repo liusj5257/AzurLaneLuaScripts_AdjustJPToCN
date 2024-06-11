@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUXIAN040101",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUXIAN040101",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level",
 			say = "――ソロモン海。海で駆ける一群の艦船がいた。",
+			side = 2,
+			dir = 1,
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "重巡洋艦、そして空母。巨大な鋼鉄の艨艟たちが威風堂々と進軍するその姿は、今にも大海戦が行われるような空気に包まれている。",
 			typewriter = {
 				speed = 0.05,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "その一隻の甲板に、フネを操る、ヒトの形をした少女たちがいた。",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "……ふぅ……",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "ふは…おっ、エンプラ姉、よく寝れた？",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ああ、体の調子もだいぶ回復したな",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "にしても、こんなに早く駆り出されるとは思わなかったね…",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "どういうこと？",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "前の作戦からまだ2ヶ月も経ってないでしょ？基地に戻って補給した…と言っても、艦載機の修理をほぼ待たずしての連戦になるからね",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "確かにそうなるな。レッドアクシズが相手だと、セイレーン以上の損害が出る――正直、あまり戦いたくない相手だ",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "そう言いながら、エンタープライズは自分を「起こした」相手――ヨークタウンから預かったハクトウワシを見やった。",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "その子……ヨークタウン姉さんの…",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "――「きっとそのうち回復してまた会える」だな",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "そう！って、流石に聞き飽きたかな？",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -396,8 +396,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -409,8 +409,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "「サ島周辺海域で展開中の敵艦隊を撃破し、補給路を確保せよ」とのことだが、敵というのはレッドアクシズを想定しているな",
 			typewriter = {
 				speed = 0.05,
@@ -467,8 +467,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -495,8 +495,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "そこは把握している。…よし、作戦準備だ！",
 			typewriter = {
 				speed = 0.05,
@@ -508,10 +508,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "みんな",
+			side = 2,
 			dir = 1,
+			actorName = "みんな",
 			say = "うん！",
 			dialogShake = {
 				speed = 0.09,

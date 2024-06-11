@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"正月の祝福\n\n<size=45>六 夕餉は盛り上がる方向で</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301601,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "わぁ！おそばと雑煮だ！やっとご飯が食べれるよ！",
 			bgm = "main-newyear",
+			actor = 301601,
+			nameColor = "#a9f548",
+			say = "わぁ！おそばと雑煮だ！やっとご飯が食べれるよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 205062,
 			dir = 1,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "んん……！とても柔らかそうなのに中々食いちぎれないこの食感……",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102132,
 			dir = 1,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "心配しないで、ヘレナ。クリーブランドがそう簡単に怪我するわけないでしょ？考えすぎよ",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102051,
 			dir = 1,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "でも……",
 			typewriter = {
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "へい！戻ってきたぜ！",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102132,
 			dir = 1,
+			actor = 102132,
 			nameColor = "#a9f548",
 			say = "うふふ、だから大丈夫だって言ったじゃない？クリーブランド、ちょうどいいわ。この「オソバ」って、冷めたら美味しくなくなるらしいわよ？",
 			typewriter = {
@@ -284,15 +284,15 @@ return {
 			}
 		},
 		{
-			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307031,
+			nameColor = "#a9f548",
 			say = "ほかの陣営の皆もすっかりコタツに馴染んでいますね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "そうにゃ！ここにいるみんなに年賀状を配るのを忘れてたにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 201103,
 			dir = 1,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "これはお花……？可愛い！ありがとうございます！",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102051,
 			dir = 1,
+			actor = 102051,
 			nameColor = "#a9f548",
 			say = "この絵は……あっ、幸せを象徴する青い鳥ね！ありがとう。大事にさせてもらうわ",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 101263,
 			dir = 1,
+			actor = 101263,
 			nameColor = "#a9f548",
 			say = "エルドリッジ、ビリビリの模様、かわいい。好き",
 			typewriter = {
@@ -471,9 +471,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102141,
 			dir = 1,
 			blackBg = true,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "だ、大丈夫です！こ、このままでも……////",
 			typewriter = {

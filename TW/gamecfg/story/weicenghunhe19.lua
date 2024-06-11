@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE19",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE19",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "hunhe-battle",
+			say = "巴拿馬要塞西側·外海 稍早之前",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
-			say = "巴拿馬要塞西側·外海 稍早之前",
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_1",
+			dir = 1,
 			say = "伴隨著迷霧的出現，越來越密集的塞壬艦隊向要塞發動了進攻。",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_1",
+			dir = 1,
 			say = "不過……",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "很好，就和計劃中的一樣，由駐防艦隊吸引火力，配合要塞防禦消滅敵人。",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "物資保障檢查…沒問題！就算再打上幾個月也能堅持的住。",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "哼，放馬過來吧塞壬。今天巴拿馬要塞就是你們的葬身之處…",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "卡薩布蘭卡，Nice作戰計劃~沒想到塞壬艦隊這麼浩大的攻勢就這麼被輕鬆化解了啊",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "只是在負責後勤沒有什麼前線作戰經驗的我…作戰計劃被大家採用是我的榮幸！",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "沒想到會單一到這種程度啊…",
 			typewriter = {
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			say = "轟-----！",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟-----！",
 			flashN = {
 				color = {
 					1,
@@ -270,8 +270,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "？ ！ ！發生什麼事了？ ！",
 			typewriter = {
@@ -303,8 +303,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "塞壬艦隊突然開始無視前線艦隊的阻攔，徑直向要塞方向開火了！",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "我們的企圖被發現了？ ！能重新吸引它們的注意嗎？",
 			typewriter = {
@@ -337,11 +337,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "不行，阻止不了。塞壬完全無視了我們的任何攻擊，就算會被摧毀也毫不反擊，簡直像自殺襲擊一樣。",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -408,8 +408,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "……為了達成戰鬥目標不惜犧牲參戰全員嗎！這種戰鬥方式我絕對不能認同…！",
 			typewriter = {
@@ -457,11 +457,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "繼續被動防禦下去，要塞很快就撐不住了哦！怎麼樣，要改變戰術嗎？",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -528,8 +528,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "如果塞壬的命令是不惜一切代價摧毀巴拿馬要塞的話，我們要做的事就很簡單了…",
 			typewriter = {
@@ -542,11 +542,11 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107170,
+			nameColor = "#a9f548",
 			say = "不惜一切代價，保護巴拿馬要塞的安全。由我們主動出擊，在塞壬接近要塞前消滅它們！",
 			effects = {
 				{

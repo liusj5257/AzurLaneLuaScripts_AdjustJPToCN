@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN8",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "ブリストル",
 			bgName = "star_level_bg_115",
+			bgm = "theme-highseasfleet-reborn",
 			factiontag = "伝説的な探索者KP",
 			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
-			actorName = "ブリストル",
 			hidePaintObj = true,
 			say = "ザラザラ～@#￥%……&…………シャアアア——！！",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -98,9 +98,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "海天",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ロール100、23…成功です。あなたは咄嗟にゴールデン・ハインドが身に纏っている、華やかなウェディングドレスを褒めることにしました。",
 			typewriter = {
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "このウェディングドレス…本当に美しいと思う？",
@@ -180,9 +180,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "……探索者、あなたは綺麗な顔をしていると言われたことは？",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "…（小声）まあ、設定的に指揮官さまと同じなのね～",
@@ -295,9 +295,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "…このウェディングドレス、実は大事なヒトが選んでくれたものなのよ～。なんだか懐かしくなって袖を通してみたの♡",
 			typewriter = {
@@ -310,9 +310,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "それよりさっきの質問にまだ答えてもらってないわ～。あの神像を見たわね？あなたの秘密を聞かせてくれるかしら？",
 			typewriter = {
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "やっと…やっと理解者に出会えたわ～！",
@@ -398,9 +398,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "あぁ、親愛なる探索者！まさしく「オカルトマスター」の名にふさわしい造詣の深さ、見聞の広さ！私、感服したわ～♡",
 			typewriter = {
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "探索者、実は一つ見て欲しいものがあるの…もしかするとキャッスルの失踪事件に何か関係があるかもしれないわ",
@@ -439,9 +439,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "中庭までついて来てちょうだい",
 			typewriter = {
@@ -454,10 +454,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "文学少女なKP",
-			oldPhoto = true,
-			nameColor = "#FF9B93",
-			bgm = "story-oldcastle-carnival",
 			actorName = "海天",
+			oldPhoto = true,
+			bgm = "story-oldcastle-carnival",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "中庭に入った瞬間、あなたは地面に書かれた黄色い光を放っている魔法陣と、そしてその後ろに鎮座する奇妙な外見をした巨大な石像を目にしました",
 			typewriter = {
@@ -465,17 +465,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -487,9 +487,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "文学少女なKP",
+			actorName = "海天",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "海天",
 			hidePaintObj = true,
 			say = "フードらしきものから生えた歪んだ触手がこちらに伸ばしてきて、闇に引きずり込もうとしている…気がします",
 			typewriter = {
@@ -502,9 +502,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "文学少女なKP",
+			actorName = "海天",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "海天",
 			hidePaintObj = true,
 			say = "指一本動かせず…冷や汗が背筋を伝い、体がぷるぷると震え出します。あなたは必死で落ち着きを取り戻そうと足掻きました…",
 			typewriter = {
@@ -517,9 +517,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "文学少女なKP",
+			actorName = "海天",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "海天",
 			hidePaintObj = true,
 			say = "ロール100、78…失敗しました。一目見ただけで、あなたは果てしない恐怖と混乱に囚われてしまいました…",
 			typewriter = {
@@ -532,10 +532,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "役：長女",
-			oldPhoto = true,
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#FF9B93",
+			oldPhoto = true,
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "やっと見つけたわ…我が主を満足させられる生贄…",
 			typewriter = {
@@ -548,10 +548,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "役：長女",
-			oldPhoto = true,
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#FF9B93",
+			oldPhoto = true,
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "これでやっと愛しきアナタを連れ戻せるわ…もう、二度と離れることなく…",
 			typewriter = {
@@ -564,9 +564,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "文学少女なKP",
+			actorName = "海天",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "海天",
 			hidePaintObj = true,
 			say = "意識を失ったあなたは祭壇に供されてしまい、そして……",
 			typewriter = {
@@ -579,9 +579,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "文学少女なKP",
+			actorName = "海天",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "海天",
 			hidePaintObj = true,
 			say = "残念ながら、探索者は冷たい死に連れ去られてしまいました……",
 			typewriter = {
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -606,8 +606,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――つまり、ゴールデン・ハインドが演じるお嬢様は邪教の信者で、自分が供物にされたってこと？",
 			bgm = "theme-ijndailymeeting",
+			say = "――つまり、ゴールデン・ハインドが演じるお嬢様は邪教の信者で、自分が供物にされたってこと？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

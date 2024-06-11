@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-2-4",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg10",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-1",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-2-4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Can't you give me more, nya? Even just a teensy-weensy bit, nya?",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "She looks almost ready to start crying. It's tugging on my heartstrings something fierce.",
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "That word at the end of her sentences, though...",
@@ -62,14 +62,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg10",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "The teacher said, \"Use this word when your guardian won't do as you ask, nya.\"",
 			voice = "event:/educate/tb/educate-tb-story-2-5",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "The teacher said, \"Use this word when your guardian won't do as you ask, nya.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "She grabs my sleeve and tugs on it while she pleads.",
@@ -91,14 +91,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg10",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Please give me more, nya...",
 			voice = "event:/educate/tb/educate-tb-story-2-6",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Please give me more, nya...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,14 +121,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg10",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I win, nya!",
 			voice = "event:/educate/tb/educate-tb-story-2-7",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I win, nya!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "Oh boy... Akashi has some explaining to do.",
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "Because this is NOT the kind of stuff you should be teaching a kid!",

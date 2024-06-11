@@ -8,10 +8,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 400,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -20,8 +20,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -38,10 +38,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 460,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -50,8 +50,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -68,10 +68,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 520,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -98,10 +98,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 600,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -110,8 +110,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -128,10 +128,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 660,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -140,8 +140,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -158,10 +158,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 720,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -170,8 +170,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -188,10 +188,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 800,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -218,10 +218,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 860,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -230,8 +230,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -248,10 +248,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 920,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -260,8 +260,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -278,10 +278,10 @@ return {
 				},
 				arg_list = {
 					quota = 6,
-					skill_id = 103020,
+					target = "TargetSelf",
 					time = 5,
 					rant = 1000,
-					target = "TargetSelf"
+					skill_id = 103020
 				}
 			},
 			{
@@ -290,8 +290,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -302,12 +302,12 @@ return {
 	desc_get = "",
 	name = "十姊妹",
 	init_effect = "",
+	id = 103020,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "受到攻击时,有概率触发一轮特殊弹幕",
 	stack = 1,
-	id = 103020,
+	color = "red",
 	icon = 103020,
 	last_effect = "",
 	effect_list = {
@@ -318,10 +318,10 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				skill_id = 103020,
+				target = "TargetSelf",
 				time = 5,
 				rant = 1000,
-				target = "TargetSelf"
+				skill_id = 103020
 			}
 		},
 		{
@@ -330,8 +330,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					-1
 				}

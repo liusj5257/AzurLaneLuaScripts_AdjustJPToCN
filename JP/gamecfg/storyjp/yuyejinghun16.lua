@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			bgm = "qe-ova-15",
 			actorName = "エセックス",
+			bgm = "qe-ova-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "木の板でできた壁とはいえ、その重さは相当なものです",
 			typewriter = {
@@ -49,9 +49,9 @@ return {
 		{
 			portrait = 202080,
 			side = 2,
+			actorName = "シェフィールド",
 			bgName = "star_level_bg_600",
 			factiontag = "考証担当KP",
-			actorName = "シェフィールド",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "宴会ホールにはテーブルとチェアが山程あり、その他にも箱に積まれている大量の食器、ティッシュ、クラッカーなどの雑貨が置かれています",
@@ -60,17 +60,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -198,27 +198,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_600",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_600",
 			say = "しばらくして――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

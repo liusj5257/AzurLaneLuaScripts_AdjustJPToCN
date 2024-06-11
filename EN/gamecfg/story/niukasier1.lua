@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Paean for Peace\n\n<size=45>Interim Head Maid</size>",
@@ -17,10 +17,10 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "Listen closely, Belfast and I will be leaving our posts today!",
@@ -88,17 +88,17 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "Commander, is something amiss?",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 202190,
+			nameColor = "#a9f548",
+			say = "Commander, is something amiss?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "I was pulled back to my senses by the sound of Newcastle's voice.",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "Newcastle handed me a neatly-organized report.",
 			typewriter = {
 				speed = 0.05,
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "I would personally recommend the tea, but if you'd prefer something else, I'd be glad to prepare it.",
 			typewriter = {
 				speed = 0.05,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "As you wish.",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Before I could blink, a tray with a tea set appeared upon my desk. The fragrance and warmth of the black tea wrapped around my senses.",
 			typewriter = {
 				speed = 0.05,
@@ -283,9 +283,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "From her demeanor as a maid to her experience with secretary work, there was nothing \"former\" about her.",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "克莱蒙梭剧情战 锁血BUFF",
 	time = 0,
+	name = "克莱蒙梭剧情战 锁血BUFF",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_333 = {}
 slot1 = slot0.word_template_333
 
-function temp()
+temp = function()
 	uv0["预"] = {
 		["测"] = {
 			["彩"] = {
@@ -34,7 +34,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["欲"] = {
 		["海"] = {
 			["奇"] = {
@@ -193,7 +193,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["御"] = {
 		["の"] = {
 			["二"] = {
@@ -231,7 +231,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["飫"] = {
 		this = {
 			this = true
@@ -241,7 +241,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["愈"] = {
 		["搓"] = {
 			["愈"] = {
@@ -255,7 +255,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["禦"] = {
 		["の"] = {
 			["二"] = {
@@ -271,7 +271,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鵒"] = {
 		this = {
 			this = true

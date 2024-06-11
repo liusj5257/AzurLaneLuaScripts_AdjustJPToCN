@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "美系V4 彩蛋倒计时",
 	time = 0,
-	color = "yellow",
+	name = "美系V4 彩蛋倒计时",
+	init_effect = "",
+	id = 8873,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8873,
+	color = "yellow",
 	icon = 8873,
 	last_effect = "",
 	effect_list = {

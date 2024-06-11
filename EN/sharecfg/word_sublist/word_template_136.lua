@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_136 = {}
 slot1 = slot0.word_template_136
 
-function temp()
+temp = function()
 	uv0["混"] = {
 		[" "] = {
 			["沌"] = {
@@ -59,7 +59,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["溷"] = {
 		this = {
 			this = true
@@ -69,7 +69,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["耠"] = {
 		this = {
 			this = true
@@ -79,7 +79,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["锪"] = {
 		this = {
 			this = true
@@ -89,7 +89,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["劐"] = {
 		this = {
 			this = true
@@ -99,7 +99,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鍃"] = {
 		this = {
 			this = true
@@ -109,7 +109,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["活"] = {
 		["动"] = {
 			["管"] = {

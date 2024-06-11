@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "過去　重桜・武蔵の居所",
 			bgm = "deepblue-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "過去　重桜・武蔵の居所",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -57,13 +57,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_508",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -71,13 +71,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_508",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "信濃が神木の異変に関係があるとでも？",
 			painting = {
 				alpha = 0.3,
@@ -89,13 +89,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_508",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "いいえ、おそらくは私達の「源」――リュウコツの影響だと思います",
 			typewriter = {
 				speed = 0.05,
@@ -106,10 +106,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "信濃特有のものではありませんが、簡単には直せる問題ではありませんね",
 			typewriter = {
@@ -118,13 +118,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_508",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まさかとは思うが、天城も……",
 			painting = {
 				alpha = 0.3,
@@ -136,13 +136,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_508",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "…………ですが…",
 			typewriter = {
 				speed = 0.05,
@@ -153,10 +153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "例え治療することができなくても、施せる手はまだあるはずです",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -180,10 +180,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "「大神木」の聖域に…",
 			typewriter = {
@@ -192,13 +192,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_508",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "武蔵さん、長門さまを連れて一度お越しいただけますでしょうか",
 			typewriter = {
 				speed = 0.05,
@@ -209,10 +209,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "今こうして武蔵さんと話してはいますが、私の本体はあの聖域から離れられません",
 			typewriter = {
@@ -221,13 +221,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_508",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "故に大事な話も、できれば聖域にて話させていただきたいのです",
 			typewriter = {
 				speed = 0.05,
@@ -238,10 +238,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "大神木のもとであれば、お二人にはすべてをお話しましょう",
 			typewriter = {
@@ -250,13 +250,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_508",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「仙哲」、汝の要望は分かったが…",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "御狐（神子）の名を引き継いだ長門さまは唯一無二の力を有しています",
 			typewriter = {
@@ -305,10 +305,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "そこに武蔵さんが護衛を勤めれば安心できるというものです",
 			typewriter = {
@@ -320,10 +320,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "神木「重桜」を守護する「みこ」とあなた……",
 			typewriter = {
@@ -335,10 +335,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "（私がいなくなっても、この瑞穂の水天を守ってくださるでしょう）",
 			typewriter = {

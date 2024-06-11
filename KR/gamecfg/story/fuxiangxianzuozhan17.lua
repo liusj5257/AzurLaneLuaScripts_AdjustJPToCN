@@ -1,18 +1,18 @@
 return {
-	id = "FUXIANGXIANZUOZHAN17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN17",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-executor-type1",
 			actor = 407030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "\"메탈 블러드\"와 \"사르데냐\"의 혼합 함대가 접근 중이야. 숫자도 늘어났어... 해역 상황이 점점 더 안 좋아지는데.",
-			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "양산형에 오류가 발생한 거니까 이 둘을 함께 싸우게 하면 어떨까?",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "그런 실험을 하기는 했지만 네가 오기 전 일이라서... 이 거울 해역에 있던 세이렌 함대 간이라면 가능했지.",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "이미 생성된 함대기 때문에 명령 목표를 바꿀 수는 없어.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "그러니까 우리의 업그레이드가 지금까지 핵심은 건드리지 않았다는 얘기네... 어쩐지, 세이렌이 너무 쉽게 일을 친다 했어.",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "...지금까지도 세이렌의 기술을 빌려서 사용하고 있는 거니까.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "하지만 사전에 명령을 해야 한다니... 우리도 도움이 필요하지 않을까?",
 			typewriter = {
 				speed = 0.05,

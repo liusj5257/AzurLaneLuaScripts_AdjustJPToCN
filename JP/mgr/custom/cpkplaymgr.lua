@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.CpkPlayMgr = singletonClass("CpkPlayMgr")
-this = pg.CpkPlayMgr
+slot0 = pg.CpkPlayMgr
 
-function this.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0._onPlaying = false
 	slot0._mainTF = nil
 	slot0._closeLimit = nil
@@ -13,7 +13,7 @@ function this.Ctor(slot0)
 	slot0._stopGameBGM = false
 end
 
-function this.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0._onPlaying = false
 	slot0._mainTF = nil
 	slot0._closeLimit = nil
@@ -24,11 +24,11 @@ function this.Reset(slot0)
 	slot0._timer = nil
 end
 
-function this.OnPlaying(slot0)
+slot0.OnPlaying = function(slot0)
 	return slot0._onPlaying
 end
 
-function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
+slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._onPlaying = true
@@ -36,7 +36,11 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 
 	pg.UIMgr.GetInstance():LoadingOn()
 
-	function slot10()
+	slot10 = function()
+		if uv0.debugTimer then
+			uv0.debugTimer:Stop()
+		end
+
 		if not uv0._mainTF then
 			return
 		end
@@ -53,7 +57,7 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 		end
 	end
 
-	function slot11()
+	slot11 = function()
 		onButton(uv0, uv0._mainTF, function ()
 			if uv0 then
 				uv1()
@@ -119,13 +123,26 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 				return
 			end
 
+			uv0._parentTF = uv0._parentTF or GameObject.Find("UICamera/Canvas")
+
+			setParent(slot0, uv0._parentTF)
+
 			uv0._mainTF = slot0
 
 			pg.UIMgr.GetInstance():OverlayPanel(uv0._mainTF.transform, uv1)
 
 			uv0._criUsm = tf(uv0._mainTF):Find("usm"):GetComponent("CriManaEffectUI")
 			uv0._criCpk = tf(uv0._mainTF):Find("usm"):GetComponent("CriManaCpkUI")
+			uv0._usmImg = tf(uv0._mainTF):Find("usm"):GetComponent("Image")
 			uv0._animator = uv0._mainTF:GetComponent("Animator")
+
+			if uv0._criUsm then
+				uv0._criUsm.renderMode = ReflectionHelp.RefGetField(typeof("CriManaMovieMaterial+RenderMode"), "Always", nil)
+			end
+
+			if uv0._usmImg and uv0._usmImg.color.a == 0 then
+				uv0._usmImg.color = Color.New(1, 1, 1, 0.1)
+			end
 
 			uv2()
 		end)
@@ -134,7 +151,7 @@ function this.PlayCpkMovie(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 	end
 end
 
-function this.checkBgmStop(slot0, slot1)
+slot0.checkBgmStop = function(slot0, slot1)
 	if slot0._onPlaying and slot1.numAudioStreams and slot2 > 0 then
 		pg.BgmMgr.GetInstance():StopPlay()
 
@@ -142,7 +159,7 @@ function this.checkBgmStop(slot0, slot1)
 	end
 end
 
-function this.DisposeCpkMovie(slot0)
+slot0.DisposeCpkMovie = function(slot0)
 	if slot0._onPlaying then
 		if slot0._mainTF then
 			pg.UIMgr.GetInstance():UnOverlayPanel(slot0._mainTF.transform, slot0._tf)

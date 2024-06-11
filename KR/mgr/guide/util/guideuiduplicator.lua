@@ -1,11 +1,11 @@
 slot0 = class("GuideUIDuplicator")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.caches = {}
 	slot0.root = slot1
 end
 
-function slot0.Duplicate(slot0, slot1, slot2)
+slot0.Duplicate = function(slot0, slot1, slot2)
 	slot3 = Object.Instantiate(slot1, slot0.root).transform
 
 	setActive(slot3, true)
@@ -20,11 +20,11 @@ function slot0.Duplicate(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	return slot0:GetComponent(typeof(Button)) ~= nil or slot0:GetComponent(typeof(Toggle)) ~= nil or slot0:GetComponent(typeof(EventTriggerListener)) ~= nil
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	slot1 = slot0:GetComponent(typeof(Button))
 
 	for slot6 = 1, slot0:GetComponentsInChildren(typeof(Button)).Length do
@@ -40,9 +40,13 @@ function slot2(slot0)
 			slot9.enabled = false
 		end
 	end
+
+	if slot3 then
+		setToggleEnabled(slot0, true)
+	end
 end
 
-function slot3(slot0)
+slot3 = function(slot0)
 	if LeanTween.isTweening(slot0.gameObject) then
 		LeanTween.cancel(slot0.gameObject)
 	end
@@ -54,7 +58,7 @@ function slot3(slot0)
 	end)
 end
 
-function slot0.InitDuplication(slot0, slot1, slot2, slot3)
+slot0.InitDuplication = function(slot0, slot1, slot2, slot3)
 	if slot1:GetComponent(typeof(CanvasGroup)) then
 		slot4.alpha = 1
 	end
@@ -92,7 +96,7 @@ function slot0.InitDuplication(slot0, slot1, slot2, slot3)
 	slot1.sizeDelta = slot2.sizeDelta
 end
 
-function slot0.UpdateSettings(slot0, slot1, slot2, slot3)
+slot0.UpdateSettings = function(slot0, slot1, slot2, slot3)
 	if slot3.customPosition then
 		slot0:SetCustomPosition(slot1, slot2, slot3)
 	else
@@ -104,7 +108,7 @@ function slot0.UpdateSettings(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.SetCustomPosition(slot0, slot1, slot2, slot3)
+slot0.SetCustomPosition = function(slot0, slot1, slot2, slot3)
 	if slot3.pos then
 		slot1.localPosition = Vector3(slot3.pos.x, slot3.pos.y, slot3.pos.z or 0)
 	elseif slot3.isLevelPoint then
@@ -119,14 +123,14 @@ function slot0.SetCustomPosition(slot0, slot1, slot2, slot3)
 	slot1.eulerAngles = slot3.eulerAngles and Vector3(slot3.eulerAngles[1], slot3.eulerAngles[2], slot3.eulerAngles[3]) or Vector3(0, 0, 0)
 end
 
-function slot4(slot0, slot1, slot2, slot3)
+slot4 = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.root:InverseTransformPoint(slot2.transform.position)
 	slot1.localPosition = Vector3(slot4.x, slot4.y, 0)
 	slot5 = slot2.transform.localScale
 	slot1.localScale = Vector3(slot5.x, slot5.y, slot5.z)
 end
 
-function slot5(slot0, slot1, slot2)
+slot5 = function(slot0, slot1, slot2)
 	slot3, slot4 = nil
 	slot4 = slot2.image.isRelative and (slot2.image.target == "" and slot0 or slot0:Find(slot2.image.target)) or GameObject.Find(slot2.image.target)
 
@@ -149,7 +153,7 @@ function slot5(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Syn(slot0, slot1, slot2, slot3)
+slot0.Syn = function(slot0, slot1, slot2, slot3)
 	slot0:RemoveTimer()
 
 	slot0.timer = Timer.New(function ()
@@ -164,7 +168,7 @@ function slot0.Syn(slot0, slot1, slot2, slot3)
 	slot0.timer.func()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -172,7 +176,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.caches and #slot0.caches > 0 then
 		for slot4, slot5 in ipairs(slot0.caches) do
 			Object.Destroy(slot5.gameObject)

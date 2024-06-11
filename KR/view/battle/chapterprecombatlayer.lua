@@ -4,15 +4,15 @@ slot2 = {
 	[99.0] = true
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChapterPreCombatUI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._popup = slot0:findTF("right/popup")
 	slot0._costText = slot0:findTF("right/popup/Text")
@@ -87,7 +87,7 @@ function slot0.init(slot0)
 	slot0:Register()
 end
 
-function slot0.uiStartAnimating(slot0)
+slot0.uiStartAnimating = function(slot0)
 	setAnchoredPosition(slot0.topPanel, {
 		y = 100
 	})
@@ -100,7 +100,7 @@ function slot0.uiStartAnimating(slot0)
 	shiftPanel(slot0.topPanel, nil, 0, slot2, slot1, true, true, nil, )
 end
 
-function slot0.uiExitAnimating(slot0)
+slot0.uiExitAnimating = function(slot0)
 	slot1 = 0
 	slot2 = 0.3
 
@@ -109,7 +109,7 @@ function slot0.uiExitAnimating(slot0)
 	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, slot2, slot1, true, true, nil, )
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
 		slot1 = uv0
@@ -180,7 +180,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.Register(slot0)
+slot0.Register = function(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddHeroInfoModify(function (slot0, slot1, slot2)
@@ -275,10 +275,10 @@ function slot0.Register(slot0)
 	end)
 end
 
-function slot0.setPlayerInfo(slot0, slot1)
+slot0.setPlayerInfo = function(slot0, slot1)
 end
 
-function slot0.updateChapter(slot0, slot1)
+slot0.updateChapter = function(slot0, slot1)
 	slot0.chapter = slot1
 	slot2 = slot0.chapter.fleet
 
@@ -287,11 +287,11 @@ function slot0.updateChapter(slot0, slot1)
 	slot0:updateView(true)
 end
 
-function slot0.setSubFlag(slot0, slot1)
+slot0.setSubFlag = function(slot0, slot1)
 	slot0.subUseable = slot1 or false
 end
 
-function slot0.updateView(slot0, slot1)
+slot0.updateView = function(slot0, slot1)
 	slot0._formationLogic:ResetGrid(TeamType.Vanguard, true)
 	slot0._formationLogic:ResetGrid(TeamType.Main, true)
 	SetActive(slot0._gridTFs[TeamType.Main][1]:Find("flag"), true)
@@ -310,7 +310,7 @@ function slot0.updateView(slot0, slot1)
 	slot0:displayFleetInfo()
 end
 
-function slot0.updateStageView(slot0, slot1)
+slot0.updateStageView = function(slot0, slot1)
 	slot2 = pg.expedition_data_template[slot1]
 
 	assert(slot2, "expedition_data_template not exist: " .. slot1)
@@ -374,7 +374,7 @@ function slot0.updateStageView(slot0, slot1)
 	end)
 	slot8:align(math.min(#slot6, 6))
 
-	function slot9(slot0, slot1)
+	slot9 = function(slot0, slot1)
 		if type(slot0) == "table" then
 			setActive(slot1, true)
 			setWidgetText(slot1, i18n(PreCombatLayer.ObjectiveList[slot0[1]], slot0[2]))
@@ -407,8 +407,8 @@ function slot0.updateStageView(slot0, slot1)
 	end
 end
 
-function slot0.updateBattleFleetView(slot0)
-	function slot1(slot0, slot1)
+slot0.updateBattleFleetView = function(slot0)
+	slot1 = function(slot0, slot1)
 		removeAllChildren(slot0)
 
 		for slot5 = 1, 3 do
@@ -436,7 +436,7 @@ function slot0.updateBattleFleetView(slot0)
 	slot1(slot0._fleet:Find("vanguard"), slot2:getShipsByTeam(TeamType.Vanguard, true))
 end
 
-function slot0.displayFleetInfo(slot0)
+slot0.displayFleetInfo = function(slot0)
 	slot1 = slot0.chapter.fleet
 	slot2 = slot0.chapter
 	slot3 = slot1:getCommanders()
@@ -500,7 +500,7 @@ function slot0.displayFleetInfo(slot0)
 	end
 end
 
-function slot0.updateStrategyIcon(slot0)
+slot0.updateStrategyIcon = function(slot0)
 	slot2 = _.detect(slot0.chapter.fleet:getStrategies(), function (slot0)
 		return slot0.id == ChapterConst.StrategyRepair
 	end)
@@ -551,7 +551,7 @@ function slot0.updateStrategyIcon(slot0)
 	slot9:align(#slot7)
 end
 
-function slot0.displayStrategyInfo(slot0, slot1)
+slot0.displayStrategyInfo = function(slot0, slot1)
 	slot0.strategyPanel = slot0.strategyPanel or StrategyPanel.New(slot0.strategyInfo)
 
 	slot0.strategyPanel:attach(slot0)
@@ -560,7 +560,7 @@ function slot0.displayStrategyInfo(slot0, slot1)
 		weight = LayerWeightConst.SECOND_LAYER
 	})
 
-	function slot0.strategyPanel.onConfirm()
+	slot0.strategyPanel.onConfirm = function()
 		slot2 = pg.strategy_data_template[uv1.id]
 
 		if not uv0.chapter.fleet:canUseStrategy(uv1) then
@@ -575,19 +575,19 @@ function slot0.displayStrategyInfo(slot0, slot1)
 		uv0:hideStrategyInfo()
 	end
 
-	function slot0.strategyPanel.onCancel()
+	slot0.strategyPanel.onCancel = function()
 		uv0:hideStrategyInfo()
 	end
 end
 
-function slot0.hideStrategyInfo(slot0)
+slot0.hideStrategyInfo = function(slot0)
 	if slot0.strategyPanel then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.strategyPanel._tf)
 		slot0.strategyPanel:detach()
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 		slot0:hideStrategyInfo()
@@ -597,7 +597,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.strategyPanel and slot0.strategyPanel._go and isActive(slot0.strategyPanel._go) then
 		slot0:hideStrategyInfo()
 	end

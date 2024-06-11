@@ -16,25 +16,25 @@ slot10.OP_ADD_TO = "add"
 slot10.OP_SHUFFLE_TO = "shuffle"
 slot10.NOT_INIT_SHUFFLE = 0
 
-function slot10.Ctor(slot0, slot1, slot2)
+slot10.Ctor = function(slot0, slot1, slot2)
 	slot0._cardPuzzleComponent = slot1
 	slot0._indexID = slot2
 
 	slot0:init()
 end
 
-function slot10.GetIndexID(slot0)
+slot10.GetIndexID = function(slot0)
 	return slot0._indexID
 end
 
-function slot10.Dispose(slot0)
+slot10.Dispose = function(slot0)
 end
 
-function slot10.GetCardList(slot0)
+slot10.GetCardList = function(slot0)
 	return slot0._cardList
 end
 
-function slot10.init(slot0)
+slot10.init = function(slot0)
 	slot0._cardList = {}
 
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)

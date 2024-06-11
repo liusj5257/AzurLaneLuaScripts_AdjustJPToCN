@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_210",
 			dir = 1,
 			say = "Inside a virtual space...",
@@ -24,12 +24,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			bgName = "star_level_bg_210",
+			bgm = "story-1",
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Hai Domo~! I'm Kizuna AI!",
-			bgm = "story-1",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "With that said, today I'm planning to do a broadcast of something you might not have seen me play for a while - Azur Lane!",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "What if.. they were doing a collaboration with me! Just kidding~!",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Even though I've always said that I wanted to do a collab, it'll happen one day!  We'll just have to wait and see to find out when that is!!",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Anyway, let's not worry about that and play some Azur Lane~! Takao-chaan~! Did you miss me!?",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Here we go~ Jakajakajaka~jan!",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Huh? Why is this thing starting to glow...?",
 			flashN = {
@@ -264,8 +264,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "What the heck is this?!?! UWOOOAAAAAaaaahhhhh!!!",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -288,14 +288,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			stopbgm = true,
 			say = "CRAAAASSHHHHHH--!!!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -323,11 +323,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			bgm = "level",
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "Huh?! HUUHH?!!",
-			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -348,9 +348,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "The intelligent super A.I., Kizuna AI, who found herself thrown into the middle of a vast and boundless sea, let out a cry.",
 			typewriter = {
 				speed = 0.05,

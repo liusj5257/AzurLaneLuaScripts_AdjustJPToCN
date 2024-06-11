@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "姐姐气质",
 	cd = 0,
+	picture = "0",
+	desc = "姐姐气质",
 	painting = 1,
 	id = 10030,
-	picture = "0",
 	castCV = "skill",
-	desc = "姐姐气质",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipTag"

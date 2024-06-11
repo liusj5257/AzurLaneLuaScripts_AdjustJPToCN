@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YURENJIE3-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YURENJIE3-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"만우절 이벤트 스토리\n\n<size=45>3 시련의 땅</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
-			bgmDelay = 2,
 			say = "부린 자매의 전폭적인 협력으로 시련의 관문은 모두 위험 없이 해결되었다.",
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgmDelay = 2,
+			bgm = "login-2022401us",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "보물상자가 열리는 순간 강렬한 무지개빛이 하늘로 치솟아 위쪽 석벽까지 관통했다.",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "*아이템 「슈퍼 레인보우 망치 1호」를 획득했습니다*",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -135,9 +135,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "빛이 너무 강해 푸링! 거대한 힘이 느껴져 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			say = "드디어 \"슈퍼 레인보우 망치 1호\"를 얻었다 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "부린 자매들이 환호하고 있을 때, 부서진 석벽 입구에서 불청객이 뛰쳐들어왔다——",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "공포의 대마왕?",
 			say = "어떤 도둑놈이 감히 여기까지 쳐들어와서 소란이냐!?",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "공포의 대마왕?",
 			say = "호오~ 또 \"슈퍼 레인보우 망치 1호\"를 찾아온 모험가였군.",
 			painting = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "공포의 대마왕?",
 			say = "유감이지만, 이 보물을 가져가고 싶다면 나를 뛰어넘어야 한다!",
 			painting = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -287,9 +287,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "받아라, \"슈퍼 레인보우 망치 1호\"다 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,9 +313,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "어떻게 된 거야 푸링!? \"슈퍼 레인보우 망치 1호\"가 반응을 안 해 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,8 +340,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "공포의 대마왕?",
 			say = "후훗, 안타깝게도 \"슈퍼 레인보우 망치 1호\"는 에너지를 충전해야만 사용할 수 있는 무기지~",
 			painting = {
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#A9F548FF",
 			side = 0,
-			hideOther = true,
 			dir = 1,
+			actor = 100000,
+			hideOther = true,
 			actorName = "범용형 부린&시제형 부린 MKII",
 			say = "간닷 푸링! 간닷 푸링!",
 			subActors = {
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

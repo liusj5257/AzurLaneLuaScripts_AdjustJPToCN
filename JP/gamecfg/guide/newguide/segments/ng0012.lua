@@ -8,10 +8,10 @@ return {
 						"有新的战斗机制出现了！点击帮助按钮查看！"
 					})[1],
 					style = {
-						alpha = 0.4,
-						mode = 1,
-						dir = 1,
 						posY = -110,
+						mode = 1,
+						alpha = 0.4,
+						dir = 1,
 						posX = 0
 					}
 				}

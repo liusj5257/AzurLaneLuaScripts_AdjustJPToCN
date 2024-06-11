@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			say = "It's not been that long, yet the beach is again buried under garbage brought in by the tide.",
 			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgm = "main-SeaAndSun",
-			say = "It's not been that long, yet the beach is again buried under garbage brought in by the tide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "This pile of waste is an eyesore getting between the natural beauty of the sky and the sea.",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "偶像二期灯光特效",
 	time = 0,
-	color = "yellow",
+	name = "偶像二期灯光特效",
+	init_effect = "",
+	id = 8750,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8750,
+	color = "yellow",
 	icon = 8750,
 	last_effect = "",
 	effect_list = {

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港區·臨時事務所",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "港區·臨時事務所",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "怎，怎麼樣…？",
 			typewriter = {
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 101176,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actor = 101176,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "拉菲·{namecode:6}",
 			say = "噢噢……",
@@ -92,8 +92,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "很適合妳哦，千早小姐！",
 			effects = {
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "如果能找到隧道，說不定大家就能回去了對吧！",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "啊，不過……我還有個在意的地方……",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "之前我們的冒牌貨是在小船的舞台上進行表演，這次要換成更大的舞台了吧？",
 			typewriter = {
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "我們也覺得，在所有人都能出場的大舞台上演出更好！",
 			typewriter = {
 				speed = 0.05,
@@ -374,8 +374,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -403,8 +403,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "…雖然為各位製作了艦裝，但你們其實不用勉強自己“戰鬥”的。",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "不，請讓我們一起參加演出。",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "如果我們的歌曲和舞蹈能幫上大家……請務必讓我們幫忙。",
 			typewriter = {
@@ -483,11 +483,11 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700020,
+			nameColor = "#a9f548",
 			say = "我們保證不做危險的事。所以，請讓我們也參加演唱會吧！",
 			typewriter = {
 				speed = 0.05,
@@ -499,8 +499,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "全員",
 			dir = 1,
+			actorName = "全員",
 			say = "噢噢——！",
 			effects = {
 				{
@@ -547,11 +547,11 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700050,
+			nameColor = "#a9f548",
 			say = "歌曲和舞蹈的練習，演唱會的彩排，與各位艦船的合作，“μ兵裝”的使用方法學習，還不能忘了搭建演唱會舞台……",
 			effects = {
 				{
@@ -572,8 +572,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "要做的事情有好多呢～",
 			typewriter = {
@@ -586,12 +586,12 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
 			say = "哼哼，令人躍躍欲試啊♪",
 			typewriter = {
 				speed = 0.05,

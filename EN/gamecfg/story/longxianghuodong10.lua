@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 306060,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "Ugh... so this is... all I could do...",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "I suppose... even in defeat... I was able to be of some use to everyone...",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1,
 					x = 2250
@@ -63,14 +63,14 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "Is it over...?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -159,14 +159,14 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "So in the end, they took out Ryuujou...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -240,12 +240,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
-			say = "Shoukaku, wait! I've just been alerted that Jintsuu's division has been intercepted by the enemy!",
 			dir = 1,
 			bgm = "battle-boss-2",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "Shoukaku, wait! I've just been alerted that Jintsuu's division has been intercepted by the enemy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

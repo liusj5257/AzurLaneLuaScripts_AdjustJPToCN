@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING43",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING43",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "모든 진영은 이번 사건을 세이렌의 상위 개체인 아비터에 의한 음모와 습격으로 결론짓고 있어.",
 			painting = {
 				alpha = 0.3,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관의 발안으로 마르코 폴로와 클레망소 두 명 및 관계자에 대해서는 '세이렌에 의한 음모는 발견하지 못했다'며, 근신 처분만 내려졌어.",
 			painting = {
 				alpha = 0.3,
@@ -88,10 +88,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이걸로 다 잘 해결된 거…려나?",
 			painting = {
 				alpha = 0.3,
@@ -145,10 +145,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "베네토, 마르코 폴로는 아직 못 찾았다고 그랬지?",
 			painting = {
 				alpha = 0.3,
@@ -163,10 +163,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……이미 시간이 꽤 흘렀으니, 어쩌면……",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응~",
 			painting = {
 				alpha = 0.3,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "통신을 끊고 베네토는 크게 한숨을 내쉬었다.",
@@ -234,10 +234,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 아이가 이 정도로는 가라앉지 않을 거란 거 잘 알지? 아니면… 찾으면 또 그거대로 일이 성가셔질 거 같아서 고민하는 거야?",
 			painting = {
 				alpha = 0.3,
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -301,10 +301,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "통신? 베네토, 네 쪽으로 온 거 같은데?",
 			painting = {
 				alpha = 0.3,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "클레망소와의 통신이 끊어진 후, 베네토는 수색 활동 중인 사르데냐 함대 동료들에게 재차 연락을 취했다.",
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "놀랍도록 어색한 연기조로 명령을 내린 후, 베네토는 콧노래를 흥얼거리며 귀항할 준비를 시작했다.",
@@ -455,10 +455,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……잠깐. 방금 클레망소 쪽에서 희미하게 '확보'랑 '혼수 상태'라는 말이 들린 것 같은데……",
 			painting = {
 				alpha = 0.3,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Sister's Growth Spurt?!\n\n<size=45>Chapter 1: My Sister's Daily Routine</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 103100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Commander, wanna come over to play this weekend?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "One day, I suddenly received an invitation from Vincennes. That weekend, I found myself in front of the gates to the Union's dorm...",
 			effects = {
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Eagle Union Dorms",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "Port - Eagle Union Dorms",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I stepped inside the dorm and saw Vincennes, sound asleep in Quincy's lap.",
 			typewriter = {
 				speed = 0.05,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "Zzzz.... huh? Ugh... five more minutes...",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Vincennes fell asleep again, mid sentence.",
 			typewriter = {
 				speed = 0.05,
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103090,
+			nameColor = "#a9f548",
 			say = "I'm sorry, Commander, Vincennes is just always like this...",
 			typewriter = {
 				speed = 0.05,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Is there no option to help her become more reliable?",
 			typewriter = {
 				speed = 0.05,
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Just as I was thinking about where I would even be able to lie down, Quincy smiled at me and gently patted her unoccupied leg.",
 			typewriter = {
 				speed = 0.05,

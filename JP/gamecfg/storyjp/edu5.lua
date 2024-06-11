@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "EDU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "EDU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"守られし悪しき剣\n\n<size=45>五 疲れには癒しを</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
+			side = 2,
+			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ある日。外回りの仕事を終え、ル・マランと執務室に戻ると――",
-			bgm = "story-richang-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,10 +49,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もうだめ、無理……動けません",
 			painting = {
 				alpha = 0.3,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "部屋に入った途端、ル・マランはふかふかソファに吸い込まれていった。",
@@ -75,12 +75,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "体力ゲージもやる気ゲージも空っぽです…長く苦しい戦いでした…",
 			painting = {
 				alpha = 0.3,
@@ -95,10 +95,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "つまり今はちっとも動けません。絶対に仕事を任せないようにしてください",
 			painting = {
 				alpha = 0.3,
@@ -113,10 +113,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でないと、ル・マランがノロノロでだらだらな仕事姿になりますよ……",
 			painting = {
 				alpha = 0.3,
@@ -131,10 +131,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はあ……足が重い…腕も……",
 			painting = {
 				alpha = 0.3,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "明日起きたら絶対痛くなりますよね…うぅ…病欠したい……",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ。明日のことは明日考えることにして",
 			painting = {
 				alpha = 0.3,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今は寝かせてください………",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "息も絶え絶えな様子からすると、どうやら今日は本当に疲れているようだ。",
@@ -238,13 +238,13 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うぅ………",
 			painting = {
 				alpha = 0.3,
@@ -294,13 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うぅ………",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ん？指揮官がマッサージしてくれている……？",
 			painting = {
 				alpha = 0.3,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うっ。これはあまりよろしくないような……",
 			painting = {
 				alpha = 0.3,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも気持ちいい……",
 			painting = {
 				alpha = 0.3,
@@ -386,10 +386,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "気持ちいいからいいっか………",
 			painting = {
 				alpha = 0.3,
@@ -401,12 +401,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Zzzzzzzzzzz",
 			painting = {
 				alpha = 0.3,
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "マッサージの気持ちよさに、ウトウトしていたル・マランはやがて夢の世界に渡った。",

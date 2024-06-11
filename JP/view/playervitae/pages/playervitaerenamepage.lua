@@ -1,10 +1,10 @@
 slot0 = class("PlayerVitaeRenamePage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PlayerVitaeRenamePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.content = slot0:findTF("frame/border/tip"):GetComponent(typeof(Text))
 	slot0.confirmBtn = slot0:findTF("frame/queren")
 	slot0.cancelBtn = slot0:findTF("frame/cancel")
@@ -17,7 +17,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.cancelBtn:Find("Image"), i18n("word_cancel"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:emit(PlayerVitaeMediator.ON_CHANGE_PLAYER_NAME, getInputText(uv0.inputField))
 		setInputText(uv0.inputField, "")
@@ -31,14 +31,14 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot2 = Drop.Create(slot1:getModifyNameComsume())
 	slot0.content.text = i18n("player_name_change_windows_tip", slot2:getName(), slot2:getOwnedCount() .. "/" .. slot2.count)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

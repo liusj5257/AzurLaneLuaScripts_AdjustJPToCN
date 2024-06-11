@@ -1,21 +1,21 @@
 slot0 = class("WSCommand", import(".WSBaseCommand"))
 slot1 = nil
 
-function slot0.Bind(slot0)
+slot0.Bind = function(slot0)
 	uv0 = slot0
 end
 
-function slot0.Unbind()
+slot0.Unbind = function()
 	uv0 = nil
 end
 
-function slot0.OpCall(slot0, slot1)
+slot0.OpCall = function(slot0, slot1)
 	slot1(function ()
 		uv0:OpDone()
 	end)
 end
 
-function slot0.OpSwitchMap(slot0, slot1, slot2)
+slot0.OpSwitchMap = function(slot0, slot1, slot2)
 	slot2 = defaultValue(slot2, function ()
 		uv0:OpInteractive()
 	end)
@@ -80,22 +80,22 @@ function slot0.OpSwitchMap(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OpOpenLayer(slot0, slot1)
+slot0.OpOpenLayer = function(slot0, slot1)
 	slot0:OpDone()
 	uv0:emit(WorldMediator.OnOpenLayer, slot1)
 end
 
-function slot0.OpOpenScene(slot0, slot1, ...)
+slot0.OpOpenScene = function(slot0, slot1, ...)
 	slot0:OpDone()
 	uv0:emit(WorldMediator.OnOpenScene, slot1, ...)
 end
 
-function slot0.OpChangeScene(slot0, slot1, ...)
+slot0.OpChangeScene = function(slot0, slot1, ...)
 	slot0:OpDone()
 	uv0:emit(WorldMediator.OnChangeScene, slot1, ...)
 end
 
-function slot0.OpInteractive(slot0, slot1)
+slot0.OpInteractive = function(slot0, slot1)
 	if nowWorld().forceLock then
 		return
 	end
@@ -155,7 +155,7 @@ function slot0.OpInteractive(slot0, slot1)
 				uv1:AddAutoInfo("message", i18n("autofight_entrust", slot3))
 				slot0()
 			else
-				function slot4()
+				slot4 = function()
 					uv0:OpInteractive()
 				end
 
@@ -336,7 +336,7 @@ function slot0.OpInteractive(slot0, slot1)
 	end)
 end
 
-function slot0.OpReqDiscover(slot0)
+slot0.OpReqDiscover = function(slot0)
 	if #nowWorld():GetActiveMap():CheckDiscover() > 0 then
 		_.each(slot2, function (slot0)
 			slot1 = uv0:GetCell(slot0.row, slot0.column)
@@ -361,7 +361,7 @@ function slot0.OpReqDiscover(slot0)
 	slot0:OpDone("OpReqDiscoverDone")
 end
 
-function slot0.OpReqDiscoverDone(slot0, slot1)
+slot0.OpReqDiscoverDone = function(slot0, slot1)
 	slot3 = nowWorld():GetActiveMap()
 	slot4 = {}
 
@@ -385,7 +385,7 @@ function slot0.OpReqDiscoverDone(slot0, slot1)
 	end)
 end
 
-function slot0.OpAnim(slot0, slot1, slot2)
+slot0.OpAnim = function(slot0, slot1, slot2)
 	slot3 = uv0
 
 	slot3:DoAnim(slot1, function ()
@@ -394,7 +394,7 @@ function slot0.OpAnim(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpReadyToMove(slot0)
+slot0.OpReadyToMove = function(slot0)
 	slot0:OpDone()
 
 	if #uv0.wsMap.map:GetFleet():GetBuffsByTrap(WorldBuff.TrapDisturbance) > 0 then
@@ -450,7 +450,7 @@ function slot0.OpReadyToMove(slot0)
 	uv0:CheckGuideSLG(slot2, slot3)
 end
 
-function slot0.OpLongMoveFleet(slot0, slot1, slot2, slot3)
+slot0.OpLongMoveFleet = function(slot0, slot1, slot2, slot3)
 	slot0:OpDone()
 
 	slot4 = nowWorld()
@@ -495,7 +495,7 @@ function slot0.OpLongMoveFleet(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OpReqMoveFleet(slot0, slot1, slot2, slot3)
+slot0.OpReqMoveFleet = function(slot0, slot1, slot2, slot3)
 	slot4 = nowWorld()
 	slot5 = slot4:GetActiveMap()
 
@@ -563,7 +563,7 @@ function slot0.OpReqMoveFleet(slot0, slot1, slot2, slot3)
 	slot0:OpDone()
 end
 
-function slot0.OpReqMoveFleetDone(slot0, slot1)
+slot0.OpReqMoveFleetDone = function(slot0, slot1)
 	slot2 = {}
 	slot4 = uv0.wsMap.map
 	slot5 = slot4:GetFleet()
@@ -601,14 +601,14 @@ function slot0.OpReqMoveFleetDone(slot0, slot1)
 	end)
 end
 
-function slot0.OpMoveFleet(slot0, slot1, slot2)
+slot0.OpMoveFleet = function(slot0, slot1, slot2)
 	slot2 = uv0:DoTopBlock(slot2)
 	slot3 = uv0.wsMap
 	slot5 = slot3:GetFleet(slot3.map:GetFleet(slot1.id))
 	slot6 = slot5.fleet
 	slot8 = slot3:MovePath(slot5, slot1.path, slot1.pos, WorldConst.DirType2, slot3.map:GetCell(slot6.row, slot6.column):GetTerrain() == WorldMapCell.TerrainWind)
 
-	function slot9(slot0, slot1)
+	slot9 = function(slot0, slot1)
 		slot2 = uv0.stepOps[slot0]
 
 		assert(slot2, "step op not exist: " .. slot0)
@@ -686,7 +686,7 @@ function slot0.OpMoveFleet(slot0, slot1, slot2)
 	uv0.wsMapRight:UpdateCompassRotation(slot1.path[1])
 end
 
-function slot0.OpMoveAttachment(slot0, slot1, slot2)
+slot0.OpMoveAttachment = function(slot0, slot1, slot2)
 	slot3 = uv0
 	slot2 = slot3:DoTopBlock(slot2)
 	slot3 = uv0.wsMap
@@ -713,20 +713,20 @@ function slot0.OpMoveAttachment(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpReqRound(slot0)
+slot0.OpReqRound = function(slot0)
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
 		op = WorldConst.OpReqRound
 	}))
 end
 
-function slot0.OpReqRoundDone(slot0, slot1)
+slot0.OpReqRoundDone = function(slot0, slot1)
 	slot0:OpActions(slot1.childOps, function ()
 		uv0:Apply()
 		uv1:OpInteractive(true)
 	end)
 end
 
-function slot0.OpActions(slot0, slot1, slot2)
+slot0.OpActions = function(slot0, slot1, slot2)
 	slot0:OpDone()
 	seriesAsync(_.map(slot1 or {}, function (slot0)
 		return function (slot0)
@@ -735,7 +735,7 @@ function slot0.OpActions(slot0, slot1, slot2)
 	end), slot2)
 end
 
-function slot0.OpAction(slot0, slot1, slot2)
+slot0.OpAction = function(slot0, slot1, slot2)
 	slot0:OpDone()
 
 	slot3 = {}
@@ -816,7 +816,7 @@ function slot0.OpAction(slot0, slot1, slot2)
 	seriesAsync(slot3, slot2)
 end
 
-function slot0.OpEvent(slot0, slot1, slot2)
+slot0.OpEvent = function(slot0, slot1, slot2)
 	slot0:OpDone()
 
 	slot3 = nowWorld()
@@ -1006,17 +1006,17 @@ function slot0.OpEvent(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpReqEvent(slot0, slot1)
+slot0.OpReqEvent = function(slot0, slot1)
 	uv0:emit(WorldMediator.OnMapOp, slot1)
 end
 
-function slot0.OpReqEventDone(slot0, slot1)
+slot0.OpReqEventDone = function(slot0, slot1)
 	slot0:OpTriggerEvent(slot1, function ()
 		uv0:OpInteractive(true)
 	end)
 end
 
-function slot0.OpEventOp(slot0, slot1)
+slot0.OpEventOp = function(slot0, slot1)
 	slot0:OpDone()
 
 	slot2 = uv0
@@ -1030,7 +1030,7 @@ function slot0.OpEventOp(slot0, slot1)
 	end)
 end
 
-function slot0.OpTriggerEvent(slot0, slot1, slot2)
+slot0.OpTriggerEvent = function(slot0, slot1, slot2)
 	slot0:OpDone()
 
 	slot3 = nowWorld()
@@ -1268,7 +1268,7 @@ function slot0.OpTriggerEvent(slot0, slot1, slot2)
 	seriesAsync(slot4, slot2)
 end
 
-function slot0.OpReqRetreat(slot0, slot1)
+slot0.OpReqRetreat = function(slot0, slot1)
 	slot3 = nowWorld():GetActiveMap():GetCell(slot1.row, slot1.column)
 
 	assert(slot3:ExistEnemy())
@@ -1279,7 +1279,7 @@ function slot0.OpReqRetreat(slot0, slot1)
 	}))
 end
 
-function slot0.OpReqRetreatDone(slot0, slot1)
+slot0.OpReqRetreatDone = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
@@ -1291,7 +1291,7 @@ function slot0.OpReqRetreatDone(slot0, slot1)
 	end)
 end
 
-function slot0.OpTransport(slot0, slot1, slot2)
+slot0.OpTransport = function(slot0, slot1, slot2)
 	slot0:OpDone()
 
 	slot3 = nowWorld()
@@ -1306,7 +1306,7 @@ function slot0.OpTransport(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OpReqTransport(slot0, slot1, slot2, slot3)
+slot0.OpReqTransport = function(slot0, slot1, slot2, slot3)
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
 		op = WorldConst.OpReqTransport,
 		id = slot1.id,
@@ -1318,13 +1318,13 @@ function slot0.OpReqTransport(slot0, slot1, slot2, slot3)
 	}))
 end
 
-function slot0.OpReqTransportDone(slot0, slot1)
+slot0.OpReqTransportDone = function(slot0, slot1)
 	seriesAsync({}, function ()
 		uv0:OpSwitchMap(uv1)
 	end)
 end
 
-function slot0.OpReqSub(slot0, slot1)
+slot0.OpReqSub = function(slot0, slot1)
 	assert(nowWorld():CanCallSubmarineSupport())
 
 	uv0.subCallback = slot1
@@ -1335,7 +1335,7 @@ function slot0.OpReqSub(slot0, slot1)
 	}))
 end
 
-function slot0.OpReqSubDone(slot0, slot1)
+slot0.OpReqSubDone = function(slot0, slot1)
 	slot2 = nowWorld()
 	slot4 = slot2.staminaMgr
 
@@ -1360,7 +1360,7 @@ function slot0.OpReqSubDone(slot0, slot1)
 	end)
 end
 
-function slot0.OpReqJumpOut(slot0, slot1, slot2)
+slot0.OpReqJumpOut = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if not slot2 then
@@ -1383,7 +1383,7 @@ function slot0.OpReqJumpOut(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpReqJumpOutDone(slot0, slot1)
+slot0.OpReqJumpOutDone = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot1.skipDisplay then
@@ -1401,14 +1401,14 @@ function slot0.OpReqJumpOutDone(slot0, slot1)
 	end)
 end
 
-function slot0.OpReqSwitchFleet(slot0, slot1)
+slot0.OpReqSwitchFleet = function(slot0, slot1)
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
 		op = WorldConst.OpReqSwitchFleet,
 		id = slot1.id
 	}))
 end
 
-function slot0.OpReqSwitchFleetDone(slot0, slot1)
+slot0.OpReqSwitchFleetDone = function(slot0, slot1)
 	slot2 = nowWorld()
 
 	slot2:GetActiveMap():UpdateFleetIndex(table.indexof(slot2.fleets, slot2:GetFleet(slot1.id)))
@@ -1416,7 +1416,7 @@ function slot0.OpReqSwitchFleetDone(slot0, slot1)
 	slot0:OpInteractive()
 end
 
-function slot0.OpStory(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.OpStory = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = pg.NewStoryMgr.GetInstance()
 
 	slot7:PlayForWorld(slot1, slot4, function (slot0, slot1)
@@ -1425,7 +1425,7 @@ function slot0.OpStory(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, slot2, false, tobool(slot4), slot3)
 end
 
-function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
+slot0.OpTriggerSign = function(slot0, slot1, slot2, slot3)
 	assert(slot2:IsSign())
 	slot0:OpDone()
 
@@ -1491,7 +1491,7 @@ function slot0.OpTriggerSign(slot0, slot1, slot2, slot3)
 	seriesAsync({}, slot3)
 end
 
-function slot0.OpShowMarkOverview(slot0, slot1, slot2)
+slot0.OpShowMarkOverview = function(slot0, slot1, slot2)
 	uv0:emit(WorldMediator.OnOpenLayer, Context.New({
 		mediator = WorldOverviewMediator,
 		viewComponent = WorldOverviewLayer,
@@ -1506,7 +1506,7 @@ function slot0.OpShowMarkOverview(slot0, slot1, slot2)
 	}))
 end
 
-function slot0.OpFocusTargetEntrance(slot0, slot1)
+slot0.OpFocusTargetEntrance = function(slot0, slot1)
 	slot0:OpDone()
 
 	slot2 = {}
@@ -1522,7 +1522,7 @@ function slot0.OpFocusTargetEntrance(slot0, slot1)
 	end)
 end
 
-function slot0.OpShowOrderPanel(slot0)
+slot0.OpShowOrderPanel = function(slot0)
 	slot0:OpDone()
 
 	slot1 = nowWorld()
@@ -1534,7 +1534,7 @@ function slot0.OpShowOrderPanel(slot0)
 	})
 end
 
-function slot0.OpShowScannerPanel(slot0, slot1, slot2)
+slot0.OpShowScannerPanel = function(slot0, slot1, slot2)
 	slot0:OpDone()
 	uv0:ShowSubView("ScannerPanel", {
 		nowWorld():GetActiveMap(),
@@ -1545,7 +1545,7 @@ function slot0.OpShowScannerPanel(slot0, slot1, slot2)
 	})
 end
 
-function slot0.OpMoveCamera(slot0, slot1, slot2, slot3)
+slot0.OpMoveCamera = function(slot0, slot1, slot2, slot3)
 	slot3 = uv0:DoTopBlock(slot3)
 	slot4 = {}
 
@@ -1594,7 +1594,7 @@ function slot0.OpMoveCamera(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.OpMoveCameraTarget(slot0, slot1, slot2, slot3)
+slot0.OpMoveCameraTarget = function(slot0, slot1, slot2, slot3)
 	slot3 = uv0:DoTopBlock(slot3)
 
 	if not slot1 then
@@ -1624,7 +1624,7 @@ function slot0.OpMoveCameraTarget(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.OpShakePlane(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.OpShakePlane = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = uv0.wsDragProxy
 
 	slot6:ShakePlane(slot1, slot2, slot3, slot4, function ()
@@ -1636,7 +1636,7 @@ function slot0.OpShakePlane(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-function slot0.OpAttachmentAnim(slot0, slot1, slot2)
+slot0.OpAttachmentAnim = function(slot0, slot1, slot2)
 	slot3 = slot1.attachment
 	slot4 = uv0.wsMap
 	slot4 = slot4:GetAttachment(slot3.row, slot3.column, slot3.type)
@@ -1652,7 +1652,7 @@ function slot0.OpAttachmentAnim(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpFleetAnim(slot0, slot1, slot2)
+slot0.OpFleetAnim = function(slot0, slot1, slot2)
 	slot3 = uv0.wsMap.map
 	slot4 = uv0.wsMap
 	slot4 = slot4:GetFleet(slot3:GetFleet(slot1.id))
@@ -1668,7 +1668,7 @@ function slot0.OpFleetAnim(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpFlash(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.OpFlash = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = uv0.rtTop
 	slot6 = slot6:Find("flash")
 
@@ -1691,7 +1691,7 @@ function slot0.OpFlash(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)).uniqueId)
 end
 
-function slot0.OpReqBox(slot0, slot1, slot2)
+slot0.OpReqBox = function(slot0, slot1, slot2)
 	assert(slot2 and slot2.type == WorldMapAttachment.TypeBox)
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
 		op = WorldConst.OpReqBox,
@@ -1700,17 +1700,17 @@ function slot0.OpReqBox(slot0, slot1, slot2)
 	}))
 end
 
-function slot0.OpReqBoxDone(slot0, slot1)
+slot0.OpReqBoxDone = function(slot0, slot1)
 	slot1:Apply()
 	slot0:OpInteractive()
 end
 
-function slot0.OpSetInMap(slot0, slot1, slot2)
+slot0.OpSetInMap = function(slot0, slot1, slot2)
 	slot0:OpDone()
 	uv0:SetInMap(slot1, slot2)
 end
 
-function slot0.OpSwitchInMap(slot0, slot1)
+slot0.OpSwitchInMap = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
@@ -1731,7 +1731,7 @@ function slot0.OpSwitchInMap(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.OpSwitchOutMap(slot0, slot1)
+slot0.OpSwitchOutMap = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
@@ -1751,7 +1751,7 @@ function slot0.OpSwitchOutMap(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.OpSwitchInWorld(slot0, slot1)
+slot0.OpSwitchInWorld = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
@@ -1771,7 +1771,7 @@ function slot0.OpSwitchInWorld(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.OpSwitchOutWorld(slot0, slot1)
+slot0.OpSwitchOutWorld = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
@@ -1791,7 +1791,7 @@ function slot0.OpSwitchOutWorld(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.OpRedeploy(slot0)
+slot0.OpRedeploy = function(slot0)
 	slot0:OpDone()
 
 	slot1 = nowWorld()
@@ -1824,7 +1824,7 @@ function slot0.OpRedeploy(slot0)
 	end
 end
 
-function slot0.OpKillWorld(slot0)
+slot0.OpKillWorld = function(slot0)
 	slot1 = getProxy(ContextProxy)
 
 	slot1:getContextByMediator(WorldMediator).onRemoved = function ()
@@ -1838,14 +1838,14 @@ function slot0.OpKillWorld(slot0)
 	end, true)
 end
 
-function slot0.OpReqMaintenance(slot0, slot1)
+slot0.OpReqMaintenance = function(slot0, slot1)
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
 		op = WorldConst.OpReqMaintenance,
 		id = slot1
 	}))
 end
 
-function slot0.OpReqMaintenanceDone(slot0, slot1)
+slot0.OpReqMaintenanceDone = function(slot0, slot1)
 	slot1:Apply()
 
 	slot2 = nowWorld()
@@ -1876,13 +1876,13 @@ function slot0.OpReqMaintenanceDone(slot0, slot1)
 	end)
 end
 
-function slot0.OpReqVision(slot0)
+slot0.OpReqVision = function(slot0)
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
 		op = WorldConst.OpReqVision
 	}))
 end
 
-function slot0.OpReqVisionDone(slot0, slot1)
+slot0.OpReqVisionDone = function(slot0, slot1)
 	slot1:Apply()
 
 	slot2 = nowWorld()
@@ -1894,7 +1894,7 @@ function slot0.OpReqVisionDone(slot0, slot1)
 	slot0:OpInteractive()
 end
 
-function slot0.OpReqPressingMap(slot0)
+slot0.OpReqPressingMap = function(slot0)
 	slot1 = nowWorld():GetActiveMap()
 
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
@@ -1904,7 +1904,7 @@ function slot0.OpReqPressingMap(slot0)
 	}))
 end
 
-function slot0.OpReqPressingMapDone(slot0, slot1, slot2)
+slot0.OpReqPressingMapDone = function(slot0, slot1, slot2)
 	slot3 = slot2
 
 	if nowWorld():GetMap(slot1.arg1):CheckMapPressingDisplay() then
@@ -1946,7 +1946,7 @@ function slot0.OpReqPressingMapDone(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpReqEnterPort(slot0)
+slot0.OpReqEnterPort = function(slot0)
 	slot1 = nowWorld()
 
 	if slot1:GetActiveMap():GetPort():IsOpen(slot1:GetRealm(), slot1:GetProgress()) then
@@ -1958,19 +1958,19 @@ function slot0.OpReqEnterPort(slot0)
 	end
 end
 
-function slot0.OpReqEnterPortDone(slot0, slot1)
+slot0.OpReqEnterPortDone = function(slot0, slot1)
 	slot1:Apply()
 	uv0:OpenPortLayer()
 end
 
-function slot0.OpReqCatSalvage(slot0, slot1)
+slot0.OpReqCatSalvage = function(slot0, slot1)
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
 		op = WorldConst.OpReqCatSalvage,
 		id = slot1 or nowWorld():GetActiveMap():CheckFleetSalvage()
 	}))
 end
 
-function slot0.OpReqCatSalvageDone(slot0, slot1, slot2)
+slot0.OpReqCatSalvageDone = function(slot0, slot1, slot2)
 	slot3 = slot2
 
 	if not nowWorld().isAutoFight then
@@ -1985,23 +1985,23 @@ function slot0.OpReqCatSalvageDone(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpReqSkipBattle(slot0, slot1)
+slot0.OpReqSkipBattle = function(slot0, slot1)
 	uv0:emit(WorldMediator.OnMapOp, uv0:NewMapOp({
 		op = WorldConst.OpReqSkipBattle,
 		id = slot1
 	}))
 end
 
-function slot0.OpReqSkipBattleDone(slot0, slot1)
+slot0.OpReqSkipBattleDone = function(slot0, slot1)
 	slot1:Apply()
 	slot0:OpInteractive()
 end
 
-function slot0.OpPlaySound(slot0, slot1, slot2)
+slot0.OpPlaySound = function(slot0, slot1, slot2)
 	uv0:PlaySound(slot1, slot2)
 end
 
-function slot0.OpGuide(slot0, slot1, slot2, slot3)
+slot0.OpGuide = function(slot0, slot1, slot2, slot3)
 	slot0:OpDone()
 
 	if slot4:PlayGuide(WorldGuider.GetInstance():SpecialCheck(slot1), slot2 == 1 and true or false, slot3) then
@@ -2009,7 +2009,7 @@ function slot0.OpGuide(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OpTaskGoto(slot0, slot1)
+slot0.OpTaskGoto = function(slot0, slot1)
 	slot0:OpDone()
 
 	if nowWorld():GetTaskProxy():getTaskById(slot1):GetFollowingAreaId() then
@@ -2098,7 +2098,7 @@ function slot0.OpTaskGoto(slot0, slot1)
 	end
 end
 
-function slot0.OpShowAllFleetHealth(slot0, slot1)
+slot0.OpShowAllFleetHealth = function(slot0, slot1)
 	slot0:OpDone()
 
 	if uv0:GetInMap() then
@@ -2110,15 +2110,15 @@ function slot0.OpShowAllFleetHealth(slot0, slot1)
 	return existCall(slot1)
 end
 
-function slot0.OpAutoSubmitTask(slot0, slot1)
+slot0.OpAutoSubmitTask = function(slot0, slot1)
 	uv0:emit(WorldMediator.OnAutoSubmitTask, slot1)
 end
 
-function slot0.OpAutoSubmitTaskDone(slot0, slot1)
+slot0.OpAutoSubmitTaskDone = function(slot0, slot1)
 	slot0:OpInteractive()
 end
 
-function slot0.OpTrapGravityAnim(slot0, slot1, slot2)
+slot0.OpTrapGravityAnim = function(slot0, slot1, slot2)
 	slot3 = uv0
 
 	slot3:ClearMoveQueue()
@@ -2132,7 +2132,7 @@ function slot0.OpTrapGravityAnim(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OpAutoFightSeach(slot0)
+slot0.OpAutoFightSeach = function(slot0)
 	slot0:OpDone()
 
 	slot2 = nowWorld():GetActiveMap()
@@ -2173,7 +2173,7 @@ function slot0.OpAutoFightSeach(slot0)
 			}
 			slot10 = slot2:FindAttachments(WorldMapAttachment.TypeEvent)
 
-			function slot11(slot0)
+			slot11 = function(slot0)
 				if slot0[1] and PlayerPrefs.GetInt(slot0[1], 0) == 0 then
 					return false
 				else
@@ -2231,7 +2231,7 @@ function slot0.OpAutoFightSeach(slot0)
 	end
 end
 
-function slot0.OpAutoSwitchMap(slot0, slot1)
+slot0.OpAutoSwitchMap = function(slot0, slot1)
 	slot0:OpDone()
 
 	slot2 = nowWorld()
@@ -2244,7 +2244,7 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 		[WorldSwitchPlanningLayer.MODE_DIFFICULT] = function ()
 			slot0 = underscore.values(uv0.entranceDic)
 
-			function slot5(slot0)
+			slot5 = function(slot0)
 				return slot0.id
 			end
 
@@ -2330,7 +2330,7 @@ function slot0.OpAutoSwitchMap(slot0, slot1)
 				}
 			end)
 
-			function slot6(slot0)
+			slot6 = function(slot0)
 				return slot0[1].id
 			end
 

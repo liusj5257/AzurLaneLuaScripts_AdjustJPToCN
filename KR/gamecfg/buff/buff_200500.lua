@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023古立特联动复刻 TSS3 新条茜 怪兽变身",
 	time = 1,
-	id = 200500,
+	name = "2023古立特联动复刻 TSS3 新条茜 怪兽变身",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200500,
 	last_effect = "",
 	effect_list = {
 		{
@@ -25,9 +25,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				skill_id = 200500,
 				time = 0.5,
-				target = "TargetSelf",
-				skill_id = 200500
+				target = "TargetSelf"
 			}
 		},
 		{

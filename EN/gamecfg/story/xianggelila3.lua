@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Saffron Travelogue\n\n<size=45>Clash of Minds</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Later, at the Exercise Area...",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "Later, at the Exercise Area...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Shangri-La's and Essex's special training was under way.",
 			typewriter = {
 				speed = 0.05,
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "Well, based on the data I gathered from the previous exercise...",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Well, based on the data I gathered from the previous exercise...",
+			actor = 107380,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,8 +119,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "However, if you avoid direct confrontation and team up on her, you may stand a good chance at defeating her.",
 			typewriter = {
@@ -149,15 +149,15 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "I see... So I can gain the upper hand by splitting my forces like this?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Right! I've got a feeling like this will actually wo–",
 			typewriter = {
@@ -215,9 +215,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Before Essex can finish, a third party appeared out of the blue.",
 			typewriter = {
 				speed = 0.05,
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Howdy!",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "H-Hornet?! What brings you here?",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,8 +284,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Hornet, please, don't startle us like that.",
 			typewriter = {
@@ -346,15 +346,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Huh, interesting... It's a solid plan all right, but I feel it's based a little too much on numbers and data.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -382,10 +382,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Data is the basis for all theories. For that matter, isn't Enterprise's ability also based on empirical data?",
+			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -419,8 +419,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "...It seems we fundamentally disagree on this topic. Perhaps we could have a mock battle to see whose methodology is superior.",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Best Pictures!\n\n<size=45>5. 비밀 취재 시리즈・상</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "35번째 사진은 야간의 모래사장이었다....... 그 곳에 서있는 것은 매우 밝게 웃고 있는 새러토가와——",
 			typewriter = {
 				speed = 0.05,
@@ -27,17 +27,17 @@ return {
 			}
 		},
 		{
-			actor = 107030,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "♪～♪～♪",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#92fc63",
+			say = "♪～♪～♪",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			say = "새러토가...... 또 추가 훈련하네...... 아이돌 되는 건 정말 어렵구나......",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "새러토가...... 또 추가 훈련하네...... 아이돌 되는 건 정말 어렵구나......",
+			actor = 101050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "(찰칵!)",
 			typewriter = {
 				speed = 0.05,
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "그리들리야?",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그리들리야?",
+			actor = 107030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#92fc63",
 			say = "좋아, 이리 와! 스마일~",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101050,
+			nameColor = "#92fc63",
 			say = "와와!",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 2
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "(찰칵!)",
 			typewriter = {
 				speed = 0.05,
@@ -364,13 +364,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "매우 경직된 웃음을 띈 그리들리였다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

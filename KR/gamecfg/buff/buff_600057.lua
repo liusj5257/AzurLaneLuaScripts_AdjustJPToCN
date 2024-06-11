@@ -1,7 +1,7 @@
 return {
-	time = 8,
 	name = "",
 	init_effect = "",
+	time = 8,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -24,8 +24,8 @@ return {
 			},
 			arg_list = {
 				group = 9051,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 			},
 			arg_list = {
 				group = 9051,
-				attr = "immuneDirectHit",
-				number = 1
+				number = 1,
+				attr = "immuneDirectHit"
 			}
 		}
 	}

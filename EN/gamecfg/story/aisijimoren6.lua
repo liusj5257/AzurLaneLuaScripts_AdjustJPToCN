@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Summer Surprise\n\n<size=45>6 Summer's Wintry Wonderland</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Indoor Pool, the next day",
 			side = 2,
 			bgName = "bg_story_houshandong",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Indoor Pool, the next day",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "Eskimo's advertising must've been a big success yesterday, because I saw a ton of people headed towards the same destination - the indoor pool.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "Hm? I could hear joyous laughter coming from the other side of the door. Whatever Eskimo prepared must be pretty good.",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "Well, time to see for myself what's on the other side of the door. 3... 2... 1...",
 			typewriter = {
 				speed = 0.05,
@@ -106,15 +106,15 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "This is the big surprise I've been working hard to prepare for all of you! So, what do you think? Let's have a blast!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "Woooow, it's snowing! There's so much of it, even though we're in the middle of summer! Look, Benson, let's have a snowball fight!",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 101370,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101370,
+			nameColor = "#a9f548",
 			say = "Yeah, yeah! Lemme help too!",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,9 +223,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "When I opened that door, a frigid blast of wind hit me in the face, as if I had just stepped into the middle of winter.",
 			typewriter = {
 				speed = 0.05,
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "Inside the pool was... Wait, I couldn't even see where the pool was supposed to be in the first place.",
 			typewriter = {
 				speed = 0.05,
@@ -251,9 +251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "Instead, a pure white snowfield spread out in front of me, and there were even a few igloos spread around the pool area.",
 			typewriter = {
 				speed = 0.05,
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "Hehe, whaddya think, Commander? Pretty awesome, isn't it?",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "And this is the result! I rented a snow machine from Akashi, kept it running here for a day, and voilà! A wintry wonderland!",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -339,9 +339,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "She really is quite the force of nature. And if Akashi is involved, then that means...",
 			typewriter = {
 				speed = 0.05,
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "If you get tired from playing in the snow, come by to relax and enjoy some hot drinks and snacks!",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "She never lets a business opportunity pass her up...",
 			typewriter = {
 				speed = 0.05,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "*splat*!",
 			typewriter = {
 				speed = 0.05,
@@ -423,9 +423,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "A snowball suddenly whizzed by me, missing me by only a tiny bit.",
 			typewriter = {
 				speed = 0.05,
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201110,
+			nameColor = "#a9f548",
 			say = "Sorry about that, my aim was a little off there!",
 			typewriter = {
 				speed = 0.05,
@@ -453,8 +453,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,12 +511,12 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "C'mon, Commander! Let's enjoy the snow while it lasts!",
 			typewriter = {
 				speed = 0.05,

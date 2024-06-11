@@ -191,7 +191,7 @@ slot0.EQUIPMENT_ADDITION = 0
 slot0.TECHNOLOGY_ADDITION = 1
 slot0.CORE_ADDITION = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1.gameObject)
 
 	slot0.skillContainer = findTF(slot0._tf, "skills/content")
@@ -252,7 +252,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.attach(slot0, slot1)
+slot0.attach = function(slot0, slot1)
 	uv0.super.attach(slot0, slot1)
 
 	slot2 = slot0.attrs
@@ -266,11 +266,11 @@ function slot0.attach(slot0, slot1)
 	end)
 end
 
-function slot0.enableEvent(slot0, slot1)
+slot0.enableEvent = function(slot0, slot1)
 	slot0:emit(ShipViewConst.SET_CLICK_ENABLE, slot1)
 end
 
-function slot0.flush(slot0, slot1)
+slot0.flush = function(slot0, slot1)
 	assert(slot1, "shipVO can not be nil")
 
 	slot0.shipDataTemplate = pg.ship_data_template[slot1.configId]
@@ -287,7 +287,7 @@ function slot0.flush(slot0, slot1)
 	setActive(slot0.evalueToggle, slot2)
 end
 
-function slot0.updateEvalues(slot0)
+slot0.updateEvalues = function(slot0)
 	if not slot0.additionValues then
 		return
 	end
@@ -313,7 +313,7 @@ function slot0.updateEvalues(slot0)
 	end
 end
 
-function slot0.updateShipAttrs(slot0)
+slot0.updateShipAttrs = function(slot0)
 	slot0.additionValues = {
 		[uv0.EQUIPMENT_ADDITION] = {},
 		[uv0.TECHNOLOGY_ADDITION] = {},
@@ -370,7 +370,7 @@ function slot0.updateShipAttrs(slot0)
 	slot0:updateEvalues()
 end
 
-function slot0.updateSKills(slot0)
+slot0.updateSKills = function(slot0)
 	slot1 = slot0.shipVO
 
 	for slot6 = #Clone(slot0.shipDataTemplate.buff_list_display) + 1, 3 do
@@ -410,7 +410,7 @@ function slot0.updateSKills(slot0)
 	slot3:align(#slot2)
 end
 
-function slot0.updateSkillTF(slot0, slot1, slot2, slot3)
+slot0.updateSkillTF = function(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "skill")
 	slot5 = findTF(slot1, "lock")
 	slot6 = findTF(slot1, "unknown")
@@ -432,7 +432,7 @@ function slot0.updateSkillTF(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateLevelInfo(slot0)
+slot0.updateLevelInfo = function(slot0)
 	slot1 = slot0.shipVO
 
 	setText(slot0.levelTxt, slot1.level)
@@ -451,7 +451,7 @@ function slot0.updateLevelInfo(slot0)
 	slot0:UpdateExpTip(slot1)
 end
 
-function slot0.UpdateExpTip(slot0, slot1)
+slot0.UpdateExpTip = function(slot0, slot1)
 	setActive(slot0.expTip, not slot1:isReachNextMaxLevel() and not (slot1.maxLevel <= slot1.level))
 	onButton(slot0, slot0.expTip, function ()
 		if uv0:isActivityNpc() then
@@ -467,7 +467,7 @@ function slot0.UpdateExpTip(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.updateMaxLevel(slot0, slot1)
+slot0.updateMaxLevel = function(slot0, slot1)
 	if slot1:isReachNextMaxLevel() then
 		SetActive(slot0.outline, true)
 		setActive(slot0.levelTip, true)
@@ -514,7 +514,7 @@ function slot0.updateMaxLevel(slot0, slot1)
 	slot0:removeLevelUpTip()
 end
 
-function slot0.removeLevelUpTip(slot0)
+slot0.removeLevelUpTip = function(slot0)
 	SetActive(slot0.outline, false)
 	setActive(slot0.levelTip, false)
 
@@ -529,7 +529,7 @@ function slot0.removeLevelUpTip(slot0)
 	removeOnButton(slot0.levelBg)
 end
 
-function slot0.doLeveUpAnim(slot0, slot1, slot2, slot3)
+slot0.doLeveUpAnim = function(slot0, slot1, slot2, slot3)
 	slot0:removeLevelUpTip()
 	slot0:enableEvent(false)
 
@@ -591,7 +591,7 @@ function slot0.doLeveUpAnim(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
+slot0.doAttrAnim = function(slot0, slot1, slot2, slot3)
 	slot4 = intProperties(slot1:getShipProperties())
 	slot5, slot6 = slot1:getEquipmentProperties()
 	slot7 = intProperties(slot2:getShipProperties())
@@ -691,7 +691,7 @@ function slot0.doAttrAnim(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.scaleAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.scaleAnim = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = LeanTween.scale(go(slot1), slot3, slot4)
 	slot7 = slot7:setFrom(slot2)
 
@@ -704,7 +704,7 @@ function slot0.scaleAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end))
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	triggerToggle(slot0.evalueToggle, false)
 
 	if LeanTween.isTweening(go(slot0.levelSlider)) then

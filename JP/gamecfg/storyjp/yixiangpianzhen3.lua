@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YIXIANGPIANZHEN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YIXIANGPIANZHEN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"分極する空想の因果\n\n<size=45>三 出発</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "50回にも及ぶの演算シーケンス改修で、「リアリティレンズ」の動作をようやく安定化させることができた。",
 			bgmDelay = 2,
 			bgm = "theme-starsea-explo",
+			nameColor = "#A9F548FF",
+			say = "50回にも及ぶの演算シーケンス改修で、「リアリティレンズ」の動作をようやく安定化させることができた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "そろそろ研究の次の段階――アンカレッジのリュウコツにある「不安定な情報要素」の正体を調べる番だ。",
 			typewriter = {
@@ -59,10 +59,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官……ええと、本当に大丈夫ですか？",
 			painting = {
 				alpha = 0.3,
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -87,10 +87,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "テストするときならまだしも、「リアリティレンズ」で艦船のイメージと接続するのはぶっつけ本番よ？",
 			painting = {
 				alpha = 0.3,
@@ -105,10 +105,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それに、一度接続が始まったら、指揮官の意識はずっと「夢を見続ける」ことになりますし…",
 			painting = {
 				alpha = 0.3,
@@ -123,10 +123,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いくら「星の海」の設備が先進的でも、故障したりトラブルが起きたりしないという保証はありません",
 			painting = {
 				alpha = 0.3,
@@ -141,10 +141,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それに、アンカレッジちゃんの中の「よくわからないもの」に指揮官が触れることで、何が起きるかは私たちにも分からないんです",
 			painting = {
 				alpha = 0.3,
@@ -159,10 +159,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "用意した「緊急事態発生時の予備計画」でも対応できるかどうかは…",
 			painting = {
 				alpha = 0.3,
@@ -177,10 +177,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官の体はエンタープライズちゃんほど頑丈じゃありませんから、大丈夫と言われても素直に安心できませんよ",
 			painting = {
 				alpha = 0.3,
@@ -192,12 +192,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私も同じね。時期尚早というか、もう少し検証を重ねて、万全に準備してから実行してもいいのよ？",
 			painting = {
 				alpha = 0.3,
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "仲間の心配はもちろん分かる。",
 			typewriter = {
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "確かに演算シーケンスはまだ改修する余地があるが、だからといって時間をかければ全て解決できるとは限らない。",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "これまでの実験で「リアリティレンズ」で生じうるリスクを十分に知ることができた。",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "そしてこれらのリスクは容易に排除できないこともわかっている。",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "下手すれば数年は優にかかるような調整を待つよりは、今すぐ実行したほうがいい。",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "ビスマルクの前例もあるし、リュウコツの不調が艦船に与える悪影響は未知数であり、決して軽視できるものではないのだ。",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "なにより、自分もいつまでも「星の海」にい続けるわけではない。",
 			typewriter = {
@@ -292,10 +292,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そう？じゃあ決まりね。これから「リアリティレンズ」の最終確認を行うわ",
 			painting = {
 				alpha = 0.3,
@@ -310,10 +310,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヘレナたちも呼んできますね。予備計画と行動手順をもうちょっとチェックしませんと",
 			painting = {
 				alpha = 0.3,
@@ -328,10 +328,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "緊急事態が起きたとしても、指揮官とアンカレッジちゃんの安全を絶対に守ります…！",
 			painting = {
 				alpha = 0.3,
@@ -343,8 +343,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "どこまでも頼もしい仲間たちだ。",
 			typewriter = {

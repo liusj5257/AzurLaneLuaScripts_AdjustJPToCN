@@ -1,15 +1,15 @@
 return {
-	id = "W806003",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W806003",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "일부 해무와 거대 유빙이 사라졌다. 바다표범을 계속 찾자!",
 			typewriter = {
 				speed = 0.05,

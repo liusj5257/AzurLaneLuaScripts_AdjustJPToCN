@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 5,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -26,8 +26,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_1",
-				number = 0.12
+				number = 0.12,
+				attr = "DMG_FROM_TAG_1_T_1"
 			}
 		},
 		{
@@ -37,8 +37,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_T_1",
-				number = 0.12
+				number = 0.12,
+				attr = "DMG_FROM_TAG_2_T_1"
 			}
 		},
 		{
@@ -48,8 +48,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_2",
-				number = 0.12
+				number = 0.12,
+				attr = "DMG_FROM_TAG_1_T_2"
 			}
 		},
 		{
@@ -59,8 +59,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_T_2",
-				number = 0.12
+				number = 0.12,
+				attr = "DMG_FROM_TAG_2_T_2"
 			}
 		},
 		{
@@ -70,8 +70,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_20",
-				number = 0.12
+				number = 0.12,
+				attr = "DMG_FROM_TAG_1_T_20"
 			}
 		},
 		{
@@ -81,8 +81,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_T_20",
-				number = 0.12
+				number = 0.12,
+				attr = "DMG_FROM_TAG_2_T_20"
 			}
 		}
 	}

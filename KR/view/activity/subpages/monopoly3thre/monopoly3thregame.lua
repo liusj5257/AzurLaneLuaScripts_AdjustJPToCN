@@ -15,7 +15,7 @@ slot14 = "dafuweng_run"
 slot15 = "dafuweng_touch"
 slot16 = 35
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._binder = slot1
 	slot0._tf = slot2
 	slot0._event = slot3
@@ -26,7 +26,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0:initEvent()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.leftCount = 0
 	slot0.mapIds = pg.activity_event_monopoly[slot0._configId].map
 	slot0.inAnimatedFlag = false
@@ -52,7 +52,7 @@ function slot0.initData(slot0)
 	slot0.awardsTimer:Start()
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.char = findTF(slot0._tf, "map/char")
 
 	setActive(slot0.char, false)
@@ -117,7 +117,7 @@ function slot0.initUI(slot0)
 	slot0.randomMoveTiemr:Start()
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	onButton(slot0._binder, slot0.btnAutoStart, function ()
 		setActive(uv0.btnCancelAuto, true)
 
@@ -161,7 +161,7 @@ function slot0.initEvent(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.addAwards(slot0, slot1)
+slot0.addAwards = function(slot0, slot1)
 	if not slot0.awardTfs then
 		slot0.awardTfs = {}
 	end
@@ -179,7 +179,7 @@ function slot0.addAwards(slot0, slot1)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	if slot0.inAnimatedFlag then
 		return
 	end
@@ -211,7 +211,7 @@ function slot0.start(slot0)
 	end)
 end
 
-function slot0.checkPlayerRandomMove(slot0)
+slot0.checkPlayerRandomMove = function(slot0)
 	if not slot0.model or slot0.inAnimatedFlag then
 		return
 	end
@@ -242,7 +242,7 @@ function slot0.checkPlayerRandomMove(slot0)
 	end)
 end
 
-function slot0.checkCountStory(slot0, slot1)
+slot0.checkCountStory = function(slot0, slot1)
 	slot2 = slot0.useCount
 
 	if _.detect(slot0.activity:getDataConfig("story") or {}, function (slot0)
@@ -254,7 +254,7 @@ function slot0.checkCountStory(slot0, slot1)
 	end
 end
 
-function slot0.changeAnimeState(slot0, slot1, slot2)
+slot0.changeAnimeState = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0.btnStart:GetComponent(typeof(Image)).raycastTarget = false
 		slot0.btnAutoStart:GetComponent(typeof(Image)).raycastTarget = false
@@ -282,7 +282,7 @@ function slot0.changeAnimeState(slot0, slot1, slot2)
 	end
 end
 
-function slot0.checkCharActive(slot0)
+slot0.checkCharActive = function(slot0)
 	if slot0.anim then
 		if slot0.effectId and slot0.effectId > 0 then
 			slot0:changeAnimeState(true)
@@ -302,7 +302,7 @@ function slot0.checkCharActive(slot0)
 	end
 end
 
-function slot0.firstUpdata(slot0, slot1)
+slot0.firstUpdata = function(slot0, slot1)
 	slot0:activityDataUpdata(slot1)
 	slot0:updataUI()
 	slot0:updataChar()
@@ -314,12 +314,12 @@ function slot0.firstUpdata(slot0, slot1)
 	end
 end
 
-function slot0.updataActivity(slot0, slot1)
+slot0.updataActivity = function(slot0, slot1)
 	slot0:activityDataUpdata(slot1)
 	slot0:updataUI()
 end
 
-function slot0.checkLastBonus(slot0)
+slot0.checkLastBonus = function(slot0)
 	if (not slot0.lastBonusFlag or slot0.lastBonusFlag == 0) and slot0.useCount and slot0.lastBonusTimes <= slot0.useCount then
 		slot1 = slot0._event
 
@@ -347,7 +347,7 @@ function slot0.checkLastBonus(slot0)
 	return false
 end
 
-function slot0.activityDataUpdata(slot0, slot1)
+slot0.activityDataUpdata = function(slot0, slot1)
 	slot0.activity = slot1
 	slot0.totalCnt = math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.activity.data1) / 86400) * slot0.activity:getDataConfig("daily_time") + slot0.activity.data1_list[1]
 	slot0.useCount = slot0.activity.data1_list[2]
@@ -373,7 +373,7 @@ function slot0.activityDataUpdata(slot0, slot1)
 	slot0.lastBonusFlag = slot0.activity.data2_list[3]
 end
 
-function slot0.checkStep(slot0, slot1)
+slot0.checkStep = function(slot0, slot1)
 	if slot0.step > 0 then
 		slot2 = slot0._event
 
@@ -400,7 +400,7 @@ function slot0.checkStep(slot0, slot1)
 	end
 end
 
-function slot0.updataUI(slot0)
+slot0.updataUI = function(slot0)
 	setText(slot0.labelLeftRpCount, "" .. slot0.leftAwardCnt)
 
 	if LeanTween.isTweening(go(slot0.btnRp)) then
@@ -432,14 +432,14 @@ function slot0.updataUI(slot0)
 	setText(slot0.labelLeftCount, slot0.leftCount)
 end
 
-function slot0.updataChar(slot0)
+slot0.updataChar = function(slot0)
 	if not isActive(slot0.char) then
 		SetActive(slot0.char, true)
 		slot0.char:SetAsLastSibling()
 	end
 end
 
-function slot0.checkEffect(slot0, slot1)
+slot0.checkEffect = function(slot0, slot1)
 	if slot0.effectId > 0 then
 		slot2 = pg.activity_event_monopoly_event[slot0.effectId].story
 		slot3 = slot0:getActionName(slot0.pos)
@@ -480,7 +480,7 @@ function slot0.checkEffect(slot0, slot1)
 	end
 end
 
-function slot0.triggerEfect(slot0, slot1)
+slot0.triggerEfect = function(slot0, slot1)
 	slot2 = slot0._event
 
 	slot2:emit(Monopoly3thRePage.ON_TRIGGER, slot0.activity.id, function (slot0, slot1)
@@ -499,7 +499,7 @@ function slot0.triggerEfect(slot0, slot1)
 	end)
 end
 
-function slot0.moveCharWithPaths(slot0, slot1, slot2, slot3)
+slot0.moveCharWithPaths = function(slot0, slot1, slot2, slot3)
 	if not slot1 or #slot1 <= 0 then
 		if slot3 then
 			slot3()
@@ -543,7 +543,7 @@ function slot0.moveCharWithPaths(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.createCell(slot0, slot1)
+slot0.createCell = function(slot0, slot1)
 	slot4 = tf(instantiate(go(slot0.tplCell)))
 	slot4.localPosition = Vector3(slot1, 0, 0)
 	findTF(slot4, "icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/activityuipage/monopoly3thre_atlas", pg.activity_event_monopoly_map[slot0.mapIds[slot0.pos]].icon)
@@ -554,7 +554,7 @@ function slot0.createCell(slot0, slot1)
 	table.insert(slot0.mapCells, slot4)
 end
 
-function slot0.updateMap(slot0, slot1)
+slot0.updateMap = function(slot0, slot1)
 	for slot5 = 1, #slot0.mapCells do
 		slot6 = slot0.mapCells[slot5].anchoredPosition
 		slot6.x = slot6.x - slot1
@@ -588,7 +588,7 @@ function slot0.updateMap(slot0, slot1)
 	end
 end
 
-function slot0.changeCharAction(slot0, slot1, slot2, slot3)
+slot0.changeCharAction = function(slot0, slot1, slot2, slot3)
 	if slot0.actionName == slot1 and slot0.actionName ~= uv0 then
 		return
 	end
@@ -622,7 +622,7 @@ function slot0.changeCharAction(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.getActionName(slot0, slot1)
+slot0.getActionName = function(slot0, slot1)
 	if pg.activity_event_monopoly_map[slot0.mapIds[slot1]].icon == "icon_1" then
 		return uv0
 	elseif slot3 == "icon_2" then
@@ -640,10 +640,10 @@ function slot0.getActionName(slot0, slot1)
 	return uv0
 end
 
-function slot0.onHide(slot0)
+slot0.onHide = function(slot0)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	if slot0.model then
 		PoolMgr.GetInstance():ReturnSpineChar(uv0, slot0.model)
 	end

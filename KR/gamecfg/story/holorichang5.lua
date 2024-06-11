@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"환상과 진실의 이중주-일상 편\n\n<size=45>5. 소위 말하는 츤데레</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항-학원",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항-학원",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "콕콕!",
 			typewriter = {
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 403010,
+			say = "하아? 만져도 된다고 허락한 적은 없는데?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "하아? 만져도 된다고 허락한 적은 없는데?",
+			actor = 403010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -87,8 +87,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,8 +100,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "와, 똑같은 소리!",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "친구해도 돼?",
 			typewriter = {
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "오이겐, 대체 어디서 나온 거야. 몰래 엿듣지 말란 말야!",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "네가 상관할 일은 아니잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#a9f548",
 			say = "오——이——겐——",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			say = "과연! 오이겐이랑은 이런 대화를 하는구나.",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -430,9 +430,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "오오, 이건 좋은 기회! 당연히 같이 가지~",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

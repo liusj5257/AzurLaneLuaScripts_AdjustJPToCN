@@ -3,11 +3,11 @@ slot0.BIND_LOTTERY_ACT_ID = ActivityConst.OTHER_WORLD_TERMINAL_LOTTERY_ID
 slot0.config = pg.guardian_template
 slot0.GUARDIAN_SELECT_CNT = 4
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TerminalGuardianPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0._tf.name = tostring(OtherworldTerminalLayer.PAGE_GUARDIAN)
 	slot0.mainViewTF = slot0:findTF("frame/view")
 	slot0.mainViewUIList = UIItemList.New(slot0:findTF("content", slot0.mainViewTF), slot0:findTF("content/tpl", slot0.mainViewTF))
@@ -35,7 +35,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("right/content/tpl/active/Text", slot0.selectViewTF), i18n("guardian_active_tip"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0.BIND_LOTTERY_ACT_ID)
 
 	assert(slot0.activity, "not exist bind lottery act, id" .. uv0.BIND_LOTTERY_ACT_ID)
@@ -62,14 +62,14 @@ function slot0.OnInit(slot0)
 	slot0:CloseSelectView()
 end
 
-function slot0.ChangeActiveIds(slot0)
+slot0.ChangeActiveIds = function(slot0)
 	slot0:emit(OtherworldTerminalMediator.ON_BUFF_LIST_CHANGE, {
 		actId = uv0.BIND_LOTTERY_ACT_ID,
 		ids = slot0.activeIds
 	})
 end
 
-function slot0.InitMainViewUI(slot0)
+slot0.InitMainViewUI = function(slot0)
 	slot1 = slot0.mainViewUIList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -98,11 +98,11 @@ function slot0.InitMainViewUI(slot0)
 	end)
 end
 
-function slot0.UpdateMainView(slot0)
+slot0.UpdateMainView = function(slot0)
 	slot0.mainViewUIList:align(uv0.GUARDIAN_SELECT_CNT)
 end
 
-function slot0.InitSelectViewUI(slot0)
+slot0.InitSelectViewUI = function(slot0)
 	slot1 = slot0.selectViewUIList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -133,7 +133,7 @@ function slot0.InitSelectViewUI(slot0)
 	end)
 end
 
-function slot0.UpdateSelectViewUI(slot0)
+slot0.UpdateSelectViewUI = function(slot0)
 	slot1 = slot0.selectedId or slot0.allIds[1]
 	slot4 = table.contains(slot0.activeIds, slot1)
 	slot5 = uv0.config[slot1].type == 2 and not table.contains(slot0.unlcokIds, slot1)
@@ -160,7 +160,7 @@ function slot0.UpdateSelectViewUI(slot0)
 	slot0.selectViewUIList:align(#slot0.allIds)
 end
 
-function slot0.UpdateView(slot0, slot1)
+slot0.UpdateView = function(slot0, slot1)
 	if slot1 then
 		slot0.activity = slot1
 	end
@@ -175,19 +175,19 @@ function slot0.UpdateView(slot0, slot1)
 	slot0:UpdateSelectViewUI()
 end
 
-function slot0.OpenSelectView(slot0)
+slot0.OpenSelectView = function(slot0)
 	setActive(slot0.mainViewTF, false)
 	setActive(slot0.selectViewTF, true)
 	slot0:UpdateSelectViewUI()
 end
 
-function slot0.CloseSelectView(slot0)
+slot0.CloseSelectView = function(slot0)
 	setActive(slot0.mainViewTF, true)
 	setActive(slot0.selectViewTF, false)
 	slot0:UpdateMainView()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

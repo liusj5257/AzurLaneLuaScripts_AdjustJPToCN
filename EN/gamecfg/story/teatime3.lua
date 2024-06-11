@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -247,8 +247,8 @@ return {
 		{
 			say = "Back at the tea party——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,8 +276,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "This snack is delicious, who made this?",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "This snack tastes… how should I put it—— right. You can taste all love and effort from you sisters.",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "{namecode:14}, don't look at me that way, enough I get it already, I'll learn how to bake scones the way Edinburgh makes it—— Even though I might not be able to make it as tasty.",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "It’s ok, I can wait, not matter how long it takes for you to learn to bake this!",
 			typewriter = {
 				speed = 0.05,
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			say = "At the same time, {namecode:11}...",
 			blackBg = true,
+			say = "At the same time, {namecode:11}...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			say = "[North Latitude 28° East Longitude 167°]",
 			blackBg = true,
+			say = "[North Latitude 28° East Longitude 167°]",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "Should the northern side of the Sakura Empire be this warm… might be caused by greenhouse effects, scary!",
 			typewriter = {
 				speed = 0.05,

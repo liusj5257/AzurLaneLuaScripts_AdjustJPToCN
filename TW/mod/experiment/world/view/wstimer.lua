@@ -1,20 +1,20 @@
 slot0 = class("WSTimer", import("...BaseEntity"))
 slot0.Fields = {
-	tweens = "table",
+	inMapTweens = "table",
 	inMapTimers = "table",
-	timers = "table",
-	inMapTweens = "table"
+	tweens = "table",
+	timers = "table"
 }
 slot0.Listeners = {}
 
-function slot0.Setup(slot0)
+slot0.Setup = function(slot0)
 	slot0.inMapTimers = {}
 	slot0.timers = {}
 	slot0.inMapTweens = {}
 	slot0.tweens = {}
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:ClearInMapTweens()
 	slot0:ClearInMapTimers()
 	slot0:ClearTweens()
@@ -22,7 +22,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.AddInMapTimer(slot0, slot1, slot2, slot3, slot4)
+slot0.AddInMapTimer = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = Timer.New(slot1, slot2, slot3, slot4)
 
 	table.insert(slot0.inMapTimers, slot5)
@@ -30,7 +30,7 @@ function slot0.AddInMapTimer(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.RemoveInMapTimer(slot0, slot1)
+slot0.RemoveInMapTimer = function(slot0, slot1)
 	slot1:Stop()
 
 	for slot5, slot6 in ipairs(slot0.inMapTimers) do
@@ -40,7 +40,7 @@ function slot0.RemoveInMapTimer(slot0, slot1)
 	end
 end
 
-function slot0.ClearInMapTimers(slot0)
+slot0.ClearInMapTimers = function(slot0)
 	for slot4, slot5 in ipairs(slot0.inMapTimers) do
 		slot5:Stop()
 	end
@@ -48,7 +48,7 @@ function slot0.ClearInMapTimers(slot0)
 	slot0.inMapTimers = {}
 end
 
-function slot0.AddTimer(slot0, slot1, slot2, slot3, slot4)
+slot0.AddTimer = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = Timer.New(slot1, slot2, slot3, slot4)
 
 	table.insert(slot0.timers, slot5)
@@ -56,7 +56,7 @@ function slot0.AddTimer(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.RemoveTimer(slot0, slot1)
+slot0.RemoveTimer = function(slot0, slot1)
 	slot1:Stop()
 
 	for slot5, slot6 in ipairs(slot0.timers) do
@@ -66,7 +66,7 @@ function slot0.RemoveTimer(slot0, slot1)
 	end
 end
 
-function slot0.ClearTimers(slot0)
+slot0.ClearTimers = function(slot0)
 	for slot4, slot5 in ipairs(slot0.timers) do
 		slot5:Stop()
 	end
@@ -74,12 +74,12 @@ function slot0.ClearTimers(slot0)
 	slot0.timers = {}
 end
 
-function slot0.AddInMapTween(slot0, slot1)
+slot0.AddInMapTween = function(slot0, slot1)
 	assert(slot1 and type(slot1) == "number")
 	table.insert(slot0.inMapTweens, slot1)
 end
 
-function slot0.RemoveInMapTween(slot0, slot1)
+slot0.RemoveInMapTween = function(slot0, slot1)
 	assert(slot1 and type(slot1) == "number")
 	LeanTween.cancel(slot1)
 
@@ -92,7 +92,7 @@ function slot0.RemoveInMapTween(slot0, slot1)
 	end
 end
 
-function slot0.ClearInMapTweens(slot0)
+slot0.ClearInMapTweens = function(slot0)
 	for slot4, slot5 in ipairs(slot0.inMapTweens) do
 		LeanTween.cancel(slot5)
 	end
@@ -100,12 +100,12 @@ function slot0.ClearInMapTweens(slot0)
 	slot0.inMapTweens = {}
 end
 
-function slot0.AddTween(slot0, slot1)
+slot0.AddTween = function(slot0, slot1)
 	assert(slot1 and type(slot1) == "number")
 	table.insert(slot0.tweens, slot1)
 end
 
-function slot0.RemoveTween(slot0, slot1)
+slot0.RemoveTween = function(slot0, slot1)
 	assert(slot1 and type(slot1) == "number")
 	LeanTween.cancel(slot1)
 
@@ -116,7 +116,7 @@ function slot0.RemoveTween(slot0, slot1)
 	end
 end
 
-function slot0.ClearTweens(slot0)
+slot0.ClearTweens = function(slot0)
 	for slot4, slot5 in ipairs(slot0.tweens) do
 		LeanTween.cancel(slot5)
 	end

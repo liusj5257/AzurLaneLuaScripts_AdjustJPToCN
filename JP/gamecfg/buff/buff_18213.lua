@@ -169,14 +169,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 18213,
 	picture = "",
 	desc = "主炮装备效率提高",
 	stack = 1,
-	id = 18213,
+	color = "red",
 	icon = 18210,
 	last_effect = "",
 	effect_list = {

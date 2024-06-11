@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA40",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA40",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			actorName = "시 온",
-			actor = 10500060,
 			dir = 1,
+			bgm = "holo-control",
+			actor = 10500060,
 			nameColor = "#ff5c5c",
 			say = "사람이 말 하면 끝까지 들으란 말야, 이 초딩…",
-			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 1,
 					dur = 0.7,
 					x = 0
@@ -35,9 +35,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "누가 초딩이야! 바보 멍청이! 메~~~롱~~~~",
 			flashout = {
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "바이바이, 솔직한 시온쨩.",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "뭘 감동하고 있어! 속는 거라고!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "하아?! 그건 적이잖아! 적이 약해야 즐겁잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "어쨌든 소라 선배를 빼곤 모두들 공개 처형을 당하는것 같다…",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "아하하… 어쨌든 모두 방송에서 보여줬던 면이니까.",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "지금까지 내가 나오질 않았네. 대체 어떻게 나오려나. 조금 무서워지기 시작했어…",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리",
 			dir = 1,
+			actorName = "퓨리",
 			say = "음…… 설마 내 성격도 퓨리파이어의 일부분일까?",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리",
 			dir = 1,
+			actorName = "퓨리",
 			say = "그래그래~ 하지만 지금은 너희와 뜨거운 우정을 나누고 있으니까 이런 전개도 괜찮은 거지~?",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "희망이 보여!",
 			typewriter = {
 				speed = 0.05,

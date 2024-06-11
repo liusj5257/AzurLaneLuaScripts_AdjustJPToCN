@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "增援2",
 	init_effect = "",
+	name = "增援2",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999954,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -15,8 +15,8 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
-				maxTargetNumber = 0,
 				skill_id = 999954,
+				maxTargetNumber = 0,
 				ship_type_list = {
 					3
 				}
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
-				maxTargetNumber = 0,
 				skill_id = 999955,
+				maxTargetNumber = 0,
 				ship_type_list = {
 					2
 				}

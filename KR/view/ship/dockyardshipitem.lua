@@ -10,7 +10,7 @@ slot0.SKILL_COLOR = {
 }
 slot1 = 0.8
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.hideTagFlags = slot2 or {}
@@ -68,7 +68,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	TweenItemAlphaAndWhite(slot0.go)
 
 	if slot0.proposeModel then
@@ -101,13 +101,13 @@ function slot0.update(slot0, slot1)
 	end
 end
 
-function slot0.updateDetail(slot0, slot1)
+slot0.updateDetail = function(slot0, slot1)
 	slot0.detailType = slot1
 
 	slot0:flushDetail()
 end
 
-function slot0.updateSelected(slot0, slot1)
+slot0.updateSelected = function(slot0, slot1)
 	slot0.selected = slot1
 
 	slot0.selectedGo:SetActive(slot0.selected)
@@ -123,7 +123,7 @@ function slot0.updateSelected(slot0, slot1)
 	end
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	if tobool(slot0.shipVO) then
 		if not slot1:getConfigTable() then
 			return
@@ -216,7 +216,7 @@ function slot0.flush(slot0)
 	slot0.btn.targetGraphic = slot2 and slot0.imageFrame or slot0.imageQuit
 end
 
-function slot0.CheckHeartState(slot0)
+slot0.CheckHeartState = function(slot0)
 	if tobool(slot0.shipVO) then
 		slot2, slot3 = slot0.shipVO:getIntimacyIcon()
 
@@ -232,7 +232,7 @@ slot2 = {
 	30
 }
 
-function slot0.updateNpcTfPosY(slot0)
+slot0.updateNpcTfPosY = function(slot0)
 	if isActive(slot0.npc) then
 		slot1 = 1
 
@@ -250,7 +250,7 @@ function slot0.updateNpcTfPosY(slot0)
 	end
 end
 
-function slot0.UpdateUser(slot0, slot1)
+slot0.UpdateUser = function(slot0, slot1)
 	if slot0.userIconFrame.childCount > 0 then
 		slot2 = slot0.userIconFrame:GetChild(0).gameObject
 
@@ -304,7 +304,7 @@ function slot0.UpdateUser(slot0, slot1)
 	})
 end
 
-function slot0.flushDetail(slot0)
+slot0.flushDetail = function(slot0)
 	if tobool(slot0.shipVO) and uv0.DetailType0 < slot0.detailType then
 		slot3 = slot1:getShipProperties()
 		slot4 = {
@@ -388,13 +388,13 @@ function slot0.flushDetail(slot0)
 	slot0:UpdateRecommandTag(slot1)
 end
 
-function slot0.UpdateRecommandTag(slot0, slot1)
+slot0.UpdateRecommandTag = function(slot0, slot1)
 	if slot1 and slot0.tagRecommand then
 		setActive(slot0.tagRecommand, defaultValue(slot1.guildRecommand, false))
 	end
 end
 
-function slot0.canModAttr(slot0, slot1, slot2, slot3)
+slot0.canModAttr = function(slot0, slot1, slot2, slot3)
 	if slot1:isBluePrintShip() then
 		return slot1:getBluePrint():isMaxIntensifyLevel()
 	elseif slot1:isMetaShip() then
@@ -410,7 +410,7 @@ function slot0.canModAttr(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateBlackBlock(slot0, slot1)
+slot0.updateBlackBlock = function(slot0, slot1)
 	slot2 = false
 
 	if slot0.shipVO then
@@ -440,7 +440,7 @@ function slot0.updateBlackBlock(slot0, slot1)
 	end
 end
 
-function slot0.updateWorld(slot0)
+slot0.updateWorld = function(slot0)
 	if slot0.shipVO:getFlag("inWorld") then
 		slot2 = WorldConst.FetchWorldShip(slot1.id)
 
@@ -459,7 +459,7 @@ function slot0.updateWorld(slot0)
 	end
 end
 
-function slot0.UpdateExpBuff(slot0)
+slot0.UpdateExpBuff = function(slot0)
 	setActive(slot0.expBuff, false)
 	setActive(slot0.expBuff, slot0.activityProxy:getBuffShipList()[slot0.shipVO:getGroupId()] ~= nil)
 
@@ -474,7 +474,7 @@ function slot0.UpdateExpBuff(slot0)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 
 	if slot0.selectedTwId then
@@ -484,7 +484,7 @@ function slot0.clear(slot0)
 	end
 end
 
-function slot0.updateIntimacy(slot0, slot1)
+slot0.updateIntimacy = function(slot0, slot1)
 	if not slot0.shipVO then
 		return
 	end
@@ -511,7 +511,7 @@ function slot0.updateIntimacy(slot0, slot1)
 	slot0:updateNpcTfPosY()
 end
 
-function slot0.updateIntimacyEnergy(slot0, slot1)
+slot0.updateIntimacyEnergy = function(slot0, slot1)
 	slot2 = slot0.tr:Find("content/energy")
 
 	setActive(slot0.tr:Find("content/energy"), slot0.shipVO and slot1)

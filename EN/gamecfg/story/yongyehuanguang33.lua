@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG33",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG33",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "I've been waiting for you. Congratulations on breaking through those mass-produced ships.",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "There's no need to commit resources to clean up riffraff let through by the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "...Excuse me?",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,8 +152,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "Midget?! ...Edinburgh, this was the one who was at the Iceberg Stronghold, right?",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "Th-that huge thing on her back isn't a cannon...?",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "(I'm glad it's not some powerful secret weapon, but that's a bit of a let-down...)",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "(Ahhhhhh!! Just what am I thinking about?! Ahaha...)",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 		{
 			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "SCREW YOU, SHITHEADS!!!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,10 +354,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "KABOOM—!!",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOM—!!",
 			effects = {
 				{
 					active = false,

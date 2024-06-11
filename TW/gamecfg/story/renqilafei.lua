@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQILAFEI",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQILAFEI",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"荣耀殿堂\n\n<size=45>午睡的场所</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_1100",
-			say = "Zzz…………",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "Zzz…………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			say = "Zzzzz…Zzzzzzz…ZZZZZZZZ……",
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_1100",
 			side = 2,
+			bgName = "star_level_bg_1100",
 			dir = 1,
+			actor = 101170,
 			actorName = "？？？",
 			say = "戳戳…",
 			typewriter = {
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_1100",
 			side = 2,
+			bgName = "star_level_bg_1100",
 			dir = 1,
+			actor = 101170,
 			actorName = "？？？",
 			say = "指挥官…工作时间到了……戳戳……",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ーーー？！",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "在短暂的挣扎后，决定顺从脸部的压力坐起身来——",
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "仿佛出于惯性，即便在起身之后面前的拉菲依然继续用食指戳了几下。",
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "这下起来了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "这样…那拉菲，困了……",
 			typewriter = {
 				speed = 0.05,
@@ -219,12 +219,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "快起来…到工作时间了……",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "这下该起来了…那拉菲，困了……",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "话音未落，拉菲就已经全身陷入了沙发之中。",
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "要说拉菲为什么会在指挥室里……",
@@ -301,9 +301,9 @@ return {
 		{
 			actor = 101170,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指挥官，知道哪里适合睡午觉吗……？",
 			flashout = {
 				dur = 0.5,
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "拉菲，在找新的午睡地点……",
 			effects = {
 				{
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "倒是知道港区有个由喜欢午睡的同伴们创建的社团ーー“午睡部”。",
 			effects = {
@@ -379,9 +379,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "不过平时的活动地点大多是学院的草坪、图书馆或是多媒体教室之类的地方……怎么突然找起了新地点？",
 			effects = {
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "跟社团的活动地点，没什么关系……",
 			effects = {
 				{
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "拉菲，想知道指挥官会选在哪里。",
 			effects = {
 				{
@@ -444,9 +444,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "这个嘛，一时间也没什么太好的想法……",
 			effects = {
@@ -465,10 +465,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "于是，找不到午睡地点的拉菲就一直待在了指挥室中。",
 			flashout = {
 				dur = 0.5,
@@ -517,8 +517,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "倒不是说不喜欢拉菲在这里睡午觉，只不过就这么放她在沙发里也不是个办法…",
@@ -532,8 +532,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "（咚咚）",
@@ -611,8 +611,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "几下不明显的敲门声后，午睡部（？）的成员突然一个接一个的连续不断闯入（？）了指挥室。",
@@ -626,8 +626,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "大概是{namecode:24}幸运地猜到了拉菲的位置，然后顺势把这里当成午觉部的新活动地点了吧……",
@@ -641,8 +641,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "……真没办法，今天就稍微忍耐一下吧。正当这么想着的时候——",
@@ -656,11 +656,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "（扯扯，扯扯）",
 			typewriter = {
 				speed = 0.05,
@@ -672,8 +672,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 45,
@@ -698,11 +698,11 @@ return {
 			}
 		},
 		{
-			actor = 101310,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101310,
+			nameColor = "#a9f548",
 			say = "尼古拉斯是雕像，所以拉菲扯我也…哇…？！",
 			typewriter = {
 				speed = 0.05,
@@ -714,8 +714,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -772,11 +772,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "（扯扯，扯扯）",
 			typewriter = {
 				speed = 0.05,
@@ -788,8 +788,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 45,
@@ -798,8 +798,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "不知何时睡醒的拉菲以一股柔软但不容置疑的气势将午觉部的众人全部赶出了（？）指挥室ーー",
@@ -845,8 +845,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "又睡过去了…！不过，如果只有拉菲的话，把这里当成她的专属午睡地点也不是不可以？",
@@ -860,8 +860,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

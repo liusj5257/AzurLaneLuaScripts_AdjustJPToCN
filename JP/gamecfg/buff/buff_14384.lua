@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.08
+					number = 0.08,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.092
+					number = 0.092,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.104
+					number = 0.104,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.12
+					number = 0.12,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.132
+					number = 0.132,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.144
+					number = 0.144,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.16
+					number = 0.16,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.172
+					number = 0.172,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.184
+					number = 0.184,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.2
+					number = 0.2,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -233,15 +233,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					type = "airAssist",
-					number = -0.1
+					number = -0.1,
+					type = "airAssist"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "伤害提高+提速",
 	stack = 1,
@@ -262,8 +262,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.08
+				number = 0.08,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -272,8 +272,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				type = "airAssist",
-				number = -0.1
+				number = -0.1,
+				type = "airAssist"
 			}
 		}
 	}

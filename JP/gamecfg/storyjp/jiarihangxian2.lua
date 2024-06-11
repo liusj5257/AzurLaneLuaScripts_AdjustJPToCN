@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "bg_map_doa",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "…見えてきた！あれが明石の報告にあった島かな？",
 			bgm = "doa_story1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "…見えてきた！あれが明石の報告にあった島かな？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,8 +42,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -132,13 +132,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_map_doa",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_doa",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "はい、説明は難しいんですけど…目が覚めたら、いきなり、みんなとここに…",
 			typewriter = {
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_map_doa",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "え！かすみさんって明石の知り合いなんですか？",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,9 +356,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_doa",
-			actor = 900302,
 			dir = 1,
 			blackBg = true,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "…本当に書いてあった通り…あの、とりあえず、わたしたちのところに来ていただけませんか？あとで、詳しく説明しますから…",
 			typewriter = {

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-5",
 			dir = 1,
 			say = "Why, hello! There you are, Tirpitz!",
+			bgm = "story-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

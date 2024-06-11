@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"假日航線-日常篇\n\n<size=45>四 重櫻的閒談</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "不管怎麼說，想到傳說中的“大天狗”就活生生的在眼前，還是很讓人激動啊~",
 			bgm = "doa_story1",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "不管怎麼說，想到傳說中的“大天狗”就活生生的在眼前，還是很讓人激動啊~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "無妨，年輕一輩就該有年輕一輩的活力~",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "不過，“重櫻”的方方面面，確實都給人一種十分熟悉的感覺呢。",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "之前跟幾位重櫻的小小“忍者”們，也進行了一番有趣的交流~",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "“茶道”…啊，啊哈哈，確實就像是在原本的故鄉一樣呀~",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "是呢，穗香好像在跟巫女們學習神樂舞，似乎已經跳得有模有樣的了~",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "這邊還是有些獨特的東西，比如這個能讓人在海上航行，發揮戰力的“艦裝”。",
 			typewriter = {
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "女天狗前輩真的很厲害啊，演習的時候也是，和{namecode:95}姐兩個人都差點被前輩的氣勢壓倒了呢！",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "我也玩得很盡興哦，呵呵，妳們倆還是挺不錯的~",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "雖然來到這裡是意外，不過最後還是度過了一段快樂的時間呢，無論是演習比賽也好，沙灘排球也好~",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "重櫻的各位關係果然都很好呢~",
 			typewriter = {
@@ -394,8 +394,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "呵呵，不妨再同去享受一回溫泉吧~？",
 			typewriter = {
@@ -408,14 +408,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "因女神<Venus>們的到來而產生的波瀾終將告一段落，而港區的生活，還將繼續下去——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

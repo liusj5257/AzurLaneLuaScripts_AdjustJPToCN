@@ -4,7 +4,7 @@ slot0.Fields = {
 	hpRant = "number"
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.hpRant = slot1.hp_rant
 end

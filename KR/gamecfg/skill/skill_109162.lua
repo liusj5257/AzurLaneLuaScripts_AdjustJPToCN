@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 109162,
 	picture = "0",
 	desc = "",
+	painting = 0,
+	id = 109162,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,20 +16,20 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "serri_spw_off",
 				operation = -1
 			}
 		},
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "serri_spw_on",
 				operation = 1

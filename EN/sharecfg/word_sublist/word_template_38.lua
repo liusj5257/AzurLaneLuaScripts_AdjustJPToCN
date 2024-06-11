@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_38 = {}
 slot1 = slot0.word_template_38
 
-function temp()
+temp = function()
 	uv0["肅"] = {
 		["清"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["腋"] = {
 		["臭"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["膣"] = {
 		this = {
 			this = true
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["舐"] = {
 		this = {
 			this = true
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["賣"] = {
 		["淫"] = {
 			this = true
@@ -94,7 +94,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["趙"] = {
 		["紫"] = {
 			["陽"] = {
@@ -142,7 +142,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["魏"] = {
 		["京"] = {
 			["生"] = {

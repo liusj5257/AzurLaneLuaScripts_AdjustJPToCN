@@ -6,8 +6,8 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "可、可恶，难道是我爱的力量不够吗……",
 			shake = {
 				speed = 1,
@@ -43,8 +43,8 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#D6341D",
 			dir = -1,
+			nameColor = "#D6341D",
 			say = "哼，反正这些外国人就算做了巧克力也只会让指挥官一头雾水而已，到最后还是只有我{namecode:91}的祈愿会得到聆听，这次就先放过妳好了，呵呵呵呵呵呵…",
 			shake = {
 				speed = 1,

@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 501020,
 			side = 2,
+			dir = 1,
+			bgm = "ryza-az-battle",
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
 			say = "これでトドメー！",
-			bgm = "ryza-az-battle",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -20,17 +20,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,9 +40,9 @@ return {
 		{
 			actor = 501020,
 			nameColor = "#A9F548FF",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "くらえ！勇者の剣！",
 			painting = {
 				alpha = 0.3,
@@ -54,10 +54,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "――――！！！",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "テテテテッテッテーテッテテー♪",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "ノリノリな勝利BGMが響く中、キング饅頭スライムが光の粒となって消えた。",
 			typewriter = {
 				speed = 0.05,
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "戦闘勝利ぃ！撫順パーティー、コンビネーションが完璧ぃ！",
 			painting = {
@@ -148,9 +148,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 236031,
 			factiontag = "見習いプリースト",
 			dir = 1,
+			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふぅ……お兄ちゃんがいきなりあんなに強い魔物と遭遇してるなんて……",
@@ -166,9 +166,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 202341,
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうよ！設計者はご主人さまを謀っているよね！",
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "本来であればこのキング饅頭スライムは、今のレベルじゃ絶対に勝てっこない！",
 			painting = {
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しかーし！撫順は企画の参加者としてのボーナスがある！",
 			painting = {
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ずばりこの伝説の勇者が使う「勇者の剣」！",
 			painting = {
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これさえあれば、キング饅頭スライム程度ばっさばっさ倒せる！",
 			painting = {
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "インチキじゃないよ！せめてスタッフのみが知っているイースターエッグって言って！",
 			painting = {
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "でも変だね……指揮官と合流するクエストが終わったのに、新しいクエストが出てこない…",
 			painting = {
@@ -338,11 +338,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ぎくっ。そ、そうかも……",
 			painting = {
@@ -357,9 +357,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 202341,
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "制作に関わったんじゃないの？",
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そ、そのへんはあえて触れてないから……！",
 			painting = {
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "予め全部知ってしまったら、自分で遊んだときに新鮮さを感じなくなるでしょ！",
 			painting = {
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "でしょでしょー！",
 			painting = {
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "いいね！指揮官はもうノリノリだね！",
 			painting = {
@@ -463,11 +463,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こほん！パーティーの「指揮官」だから、ここは指揮官の言う通りにしよう！",
 			painting = {
@@ -480,11 +480,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しかーし！パーティー名はあくまで「勇者撫順の冒険者パーティー」で決まりね！",
 			painting = {
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

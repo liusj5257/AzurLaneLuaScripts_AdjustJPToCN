@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAOFENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAOFENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"急がば回れ！\n\n<size=45>六　日進月歩</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "演習海域",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			nameColor = "#a9f548",
+			say = "演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "戦える人だけ配置について下さい！避難の誘導は駿河が行いますから！",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,10 +97,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大丈夫だってば！ね、指揮官殿！",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "……演習海域の近くにまたはぐれ量産艦が現れたとの連絡で、その対処に向かっている。",
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "演習中の仲間たちを集め、弾薬を模擬弾から実弾へと変えて、そして避難と援軍要請を粛々と行う――",
@@ -181,10 +181,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "秘書艦として、仲間たちの期待に全力でお応えしました！では島風、全速力で――わわ！？指揮官殿、どうかしました？？",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "連絡と兵装調整を終え、颯爽と量産艦の前に出て行こうとする島風を、強く呼び止めた。",
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あ……！そ、そうでした！",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "すぐに意図が伝わったらしい。",
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "それがしのことも、忘れてもらっては困るでござる！",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "頼もしい面々を前に、指揮官と秘書艦の連携を見せてやらねば。",
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ふむふむ……了解です！避難を開始した皆さんが安全圏へ脱出するまで、敵をここに釘付けにします！",
 			typewriter = {
 				speed = 0.05,
@@ -360,12 +360,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "阿武隈さんと暁さんで目くらましを！",
 			typewriter = {
 				speed = 0.05,
@@ -377,8 +377,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -403,11 +403,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "合点承知の助！心得た！",
 			effects = {
 				{
@@ -425,9 +425,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "周囲の一隻一隻に、島風は的確な指示を与え、全員が持ち場へ向かう。",
 			effects = {
@@ -446,12 +446,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "雷と電、そして島風の三隻の連携で弱ったところを総攻撃！",
 			typewriter = {
 				speed = 0.05,
@@ -479,13 +479,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "じぇっとすとりーむ……ふぁいあ！",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			nameColor = "#a9f548",
+			say = "じぇっとすとりーむ……ふぁいあ！",
 			flashN = {
 				color = {
 					1,
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,

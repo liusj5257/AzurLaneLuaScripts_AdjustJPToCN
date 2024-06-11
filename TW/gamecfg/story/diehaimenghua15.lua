@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			stopbgm = true,
-			actorName = "{namecode:182}",
 			dir = 1,
 			blackBg = true,
+			actorName = "{namecode:182}",
 			say = "可以聽到海浪的聲音，這裡依然是海面上，不過…",
 			flashin = {
 				delay = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -65,14 +65,14 @@ return {
 			}
 		},
 		{
-			actor = 302210,
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "信濃大人，我們就要到達集結地了。",
 			bgm = "bsm-3",
+			actor = 302210,
+			nameColor = "#a9f548",
+			say = "信濃大人，我們就要到達集結地了。",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "哇啊…前方停在水面上的那些，都是參加這次行動的艦隊嗎？！",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "一路經歷這麼多戰鬥過來還能保持精力旺盛的，說不定只有妳了哦。",
 			typewriter = {
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "哎~別這樣陰沉沉的嘛~既然馬上就要反擊了，大家都打起精神來，打起精神來~",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "汝等的艦裝，都還有不少破損之處呢……",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "唉…現在物資嚴重不足，外表上就不能追求太多啦。",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "不過裝備破損對於戰鬥的影響已經被控制在最小限度了，請您放心。",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
+			nameColor = "#a9f548",
 			say = "（眾人眼神中盡是難以掩蓋的疲憊，大戰前艦裝依然帶有破損…這裡究竟是發生了什麼事……？）",
 			typewriter = {
 				speed = 0.05,

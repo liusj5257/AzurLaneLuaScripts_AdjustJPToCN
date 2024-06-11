@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"이과 시험시간!\n\n<size=45>이과는, 무한하다</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "와...... 여기가 바로 유바리와 아카시의 실험실인가요......",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "와...... 여기가 바로 유바리와 아카시의 실험실인가요......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,15 +84,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "잘 들어, 너는 시작부터 성분을 잘못 골랐어. 그래서 그렇게 변한거야. 이러면 어떨까?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "그, 그렇구나!",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "이런 방법이 있었군......",
 			typewriter = {
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "…………얼마 후",
 			typewriter = {
 				speed = 0.05,
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "아우...... 진짜로, 먹을 수 있어......",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "서, 선생님이라고 부르게 해줘! 유바리 선생님!",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "아하하.... 난처하네, 정리하고 다시 오는 걸 깜빡햇네...",
 			typewriter = {
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "쾰른",
 			dir = 1,
+			actorName = "쾰른",
 			say = "누가 실험실을 이렇게 어지럽피워놓은 거야?",
 			effects = {
 				{
@@ -420,8 +420,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408050,
 			dir = 1,
+			actor = 408050,
 			nameColor = "#a9f548",
 			say = "저, 저 먼저 갈께요!",
 			effects = {
@@ -440,8 +440,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 2500

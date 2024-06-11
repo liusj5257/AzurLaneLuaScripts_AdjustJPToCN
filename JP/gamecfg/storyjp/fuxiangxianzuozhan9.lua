@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN9",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "blueocean-image",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "――――――！！",
 			dir = 1,
-			bgm = "blueocean-image",
+			soundeffect = "event:/battle/boom2",
+			say = "――――――！！",
 			flashN = {
 				color = {
 					1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "キング・ジョージ5世？",
+			side = 1,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "じゃあ次は例の女王陛下とイラストリアスを3人ずつ追加しようか？",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "すいませんでした今のは聞かなかったことにしてください！",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "調子に乗りやすい奴め",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "いいえ、残りは午後に回すわ。時間が惜しいけどむやみに挑むより休憩を取って能率を上げたほうがマシよ",
 			typewriter = {
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "やった！じゃあ食堂に行ってくる！",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "‥……みんな行ったわね。ペーター、まださっきの通信異常のことに悩んでる？",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "誰かが接触を試みていた。セイレーンかもしれないし、アズールレーンかもしれない……いいえ、アズールレーンの技術では無理ね",
 			typewriter = {
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 407030,
+			nameColor = "#a9f548",
 			say = "恩に着るわ。ヴェーザー",
 			typewriter = {
 				speed = 0.05,

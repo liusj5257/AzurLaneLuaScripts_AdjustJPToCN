@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "ジャベリンはどうしてここに？",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,15 +84,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 10500040,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "フブキ！ミオ！無事でよかった！",
 			bgm = "holo-matsuri",
+			actor = 10500040,
+			nameColor = "#a9f548",
+			say = "フブキ！ミオ！無事でよかった！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "うん。まつりちゃんも無事でよかったです（棒）",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "そう、まつりはホロライブで一番清楚なJKーー夏色まつりだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "であなたは江風ちゃんだよね？うんうん、知ってる！ねえ、尻尾触っていい？ハグしていい？ちょっとデートしてもいいかな？",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "このメカのこと？ピュリっちからもらったよ",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "うん、ピュリっちだよ。危ない時にまつりとあくあちゃんを助けてくれて、装備まで作ってくれたよ",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "そうだよ、超かわいい美少女だよ！",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "今ピュリっちとあくあちゃんと一緒にレジスタンス基地に残って防衛を固めてて、まつりとジャベリンちゃんは仲間探しに出かけてるわよ",
 			typewriter = {
 				speed = 0.05,

@@ -7,7 +7,7 @@ slot5 = Vector2(0, 1)
 slot6 = Vector2(0, -1)
 slot7 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._tf = slot1
 	slot0._event = slot2
@@ -23,7 +23,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._sceneHeight = uv0.scene_height
 end
 
-function slot0.setRuleData(slot0, slot1)
+slot0.setRuleData = function(slot0, slot1)
 	slot0._bgTplName = slot1.tpl
 	slot0._layerType = slot1.layer
 	slot0._showType = slot1.show
@@ -42,7 +42,7 @@ function slot0.setRuleData(slot0, slot1)
 	slot0._content = findTF(slot0._layerContent, slot1.content)
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:createGrid(0, 0, true)
 	slot0:createGrid(0, 0, true)
 	slot0:createGrid(0, 0, true)
@@ -51,12 +51,12 @@ function slot0.start(slot0)
 	slot0:updateGrid()
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot0:checkEmptyGrid()
 	slot0:updateGrid()
 end
 
-function slot0.updateGrid(slot0)
+slot0.updateGrid = function(slot0)
 	for slot4 = #slot0._bgGrids, 1, -1 do
 		slot5 = slot0._bgGrids[slot4]
 		slot6 = slot5.w
@@ -94,10 +94,10 @@ function slot0.updateGrid(slot0)
 	end
 end
 
-function slot0.checkEmptyGrid(slot0)
+slot0.checkEmptyGrid = function(slot0)
 end
 
-function slot0.checkPrepareCreate(slot0, slot1)
+slot0.checkPrepareCreate = function(slot0, slot1)
 	slot2 = {}
 	slot3 = slot1.w
 	slot4 = slot1.h
@@ -122,7 +122,7 @@ function slot0.checkPrepareCreate(slot0, slot1)
 	return slot2
 end
 
-function slot0.checkPrepare(slot0, slot1, slot2, slot3)
+slot0.checkPrepare = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = slot0:getDirecWH(slot1, slot2, slot3)
 
 	assert(not slot0:getGrid(slot4, slot5) or not slot0:getPrepareGrid(slot4, slot5), "创建了两个相同位置的grid,请检查代码")
@@ -137,7 +137,7 @@ function slot0.checkPrepare(slot0, slot1, slot2, slot3)
 	return nil
 end
 
-function slot0.getPrepareGrid(slot0, slot1, slot2)
+slot0.getPrepareGrid = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0._bgPrepareGrids do
 		if slot0._bgPrepareGrids[slot6].w == slot1 and slot7.h == slot2 then
 			return slot7
@@ -147,7 +147,7 @@ function slot0.getPrepareGrid(slot0, slot1, slot2)
 	return nil
 end
 
-function slot0.createPrepareGrid(slot0, slot1)
+slot0.createPrepareGrid = function(slot0, slot1)
 	for slot5 = 1, #slot1 do
 		slot6 = slot1[slot5]
 
@@ -155,11 +155,11 @@ function slot0.createPrepareGrid(slot0, slot1)
 	end
 end
 
-function slot0.getDirecWH(slot0, slot1, slot2, slot3)
+slot0.getDirecWH = function(slot0, slot1, slot2, slot3)
 	return slot1 + slot3.x, slot2 + slot3.y
 end
 
-function slot0.getGrid(slot0, slot1, slot2)
+slot0.getGrid = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0._bgGrids do
 		if slot0._bgGrids[slot6].w == slot1 and slot7.h == slot2 then
 			return slot7
@@ -169,7 +169,7 @@ function slot0.getGrid(slot0, slot1, slot2)
 	return nil
 end
 
-function slot0.createGrid(slot0, slot1, slot2, slot3)
+slot0.createGrid = function(slot0, slot1, slot2, slot3)
 	if not slot0._bgDic[slot1] then
 		slot0._bgDic[slot1] = {}
 	end
@@ -196,7 +196,7 @@ function slot0.createGrid(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.removeGrid(slot0, slot1)
+slot0.removeGrid = function(slot0, slot1)
 	if slot1.tf then
 		GetComponent(slot1.tf, typeof(CanvasGroup)).alpha = 0
 
@@ -208,7 +208,7 @@ function slot0.removeGrid(slot0, slot1)
 	slot0._bgDic[slot1.w][slot1.h] = nil
 end
 
-function slot0.getBgTf(slot0)
+slot0.getBgTf = function(slot0)
 	slot1 = nil
 
 	if slot0._bgTfPool and #slot0._bgTfPool > 0 then
@@ -222,14 +222,14 @@ function slot0.getBgTf(slot0)
 	return slot1
 end
 
-function slot0.stop(slot0)
+slot0.stop = function(slot0)
 end
 
-function slot0.setMoveAmount(slot0, slot1)
+slot0.setMoveAmount = function(slot0, slot1)
 	slot0._moveAmount = slot1
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0._moveAmount = Vector2(0, 0)
 
 	for slot4 = #slot0._bgGrids, 1, -1 do
@@ -250,7 +250,7 @@ function slot0.clear(slot0)
 	slot0._bgDic = {}
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

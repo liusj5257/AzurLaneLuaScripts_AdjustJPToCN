@@ -8,30 +8,30 @@ slot3.__name = "BattleAOEScaleableComponent"
 slot3.FILL = 1
 slot3.EXPEND = 2
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._area = slot1
 
 	slot0._area:AppendComponent(slot0)
 
 	slot2 = slot0._area.Settle
 
-	function slot0._area.Settle()
+	slot0._area.Settle = function()
 		uv0:updateScale()
 		uv1(uv0._area)
 	end
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._area = nil
 	slot0._referenceUnit = nil
 end
 
-function slot3.SetReferenceUnit(slot0, slot1)
+slot3.SetReferenceUnit = function(slot0, slot1)
 	slot0._referenceUnit = slot1
 	slot0._referencePoint = Clone(slot1:GetPosition())
 end
 
-function slot3.ConfigData(slot0, slot1, slot2)
+slot3.ConfigData = function(slot0, slot1, slot2)
 	if slot1 == uv0.FILL then
 		slot0.updateScale = uv0.doFill
 		slot0._upperBound = slot2.upperBound
@@ -50,7 +50,7 @@ function slot3.ConfigData(slot0, slot1, slot2)
 	end
 end
 
-function slot3.doFill(slot0)
+slot3.doFill = function(slot0)
 	slot2 = slot0._area:GetIFF()
 	slot3 = math.abs(slot0._upperBound - slot0._lowerBound)
 	slot4 = slot0._frontOffset * 2
@@ -67,7 +67,7 @@ function slot3.doFill(slot0)
 	slot0._area:SetPosition(slot0._referencePoint)
 end
 
-function slot3.doExpend(slot0)
+slot3.doExpend = function(slot0)
 	if pg.TimeMgr.GetInstance():GetCombatTime() - slot0._expendStartTime < slot0._expendDuration then
 		slot2 = slot0._area:GetWidth()
 		slot3 = slot0._area:GetHeight()

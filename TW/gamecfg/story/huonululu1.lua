@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"有關火奴魯魯的二三事\n\n<size=45>一　愛生氣的火奴魯魯？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "火奴魯魯正站在文件架前整理資料",
 			typewriter = {
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "…………（沉默著別開視線）",
 			typewriter = {
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "…………（沉默著點頭）",
 			typewriter = {
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "…………（沉默著離開位置）",
 			typewriter = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "…………（沉默著前去確認）",
 			typewriter = {
@@ -212,13 +212,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "由火奴魯魯擔任秘書艦也有一段時間了，彼此也稍微熟悉了些。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,9 +239,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "雖然工作都能好好完成，但總有種她在生氣的感覺。",
 			typewriter = {
 				speed = 0.05,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "雖然有點話中帶刺，倒也確實沒有在生氣的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "硬要說的話，更像是單純的不擅長交流？",
 			typewriter = {
 				speed = 0.05,

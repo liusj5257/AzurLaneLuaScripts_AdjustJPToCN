@@ -21,9 +21,9 @@ return {
 		{
 			actor = 303110,
 			side = 1,
-			nameColor = "#92fc63",
-			dir = -1,
 			say = "인정하기 싫지만...... 우리 수상함을 웃도는 전과다. 소인은 확실히 기지항공대의 힘을 얕보았네.",
+			dir = -1,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

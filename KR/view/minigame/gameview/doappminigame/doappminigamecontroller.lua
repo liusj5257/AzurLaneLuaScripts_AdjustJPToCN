@@ -1,19 +1,19 @@
 slot0 = class("DOAPPMiniGameController")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.binder = slot1
 
 	slot0:InitTimer()
 	slot0:InitGameUI(slot2)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	for slot6 = 0, slot0:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
 		slot2[slot6].speed = slot1
 	end
 end
 
-function slot0.InitTimer(slot0)
+slot0.InitTimer = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:OnTimer(DOAPPGameConfig.TIME_INTERVAL)
 	end, DOAPPGameConfig.TIME_INTERVAL, -1)
@@ -25,7 +25,7 @@ function slot0.InitTimer(slot0)
 	end
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	slot1 = {
 		"E",
 		"S",
@@ -55,7 +55,7 @@ slot2 = {
 	"Dodge"
 }
 
-function slot0.InitGameUI(slot0, slot1)
+slot0.InitGameUI = function(slot0, slot1)
 	slot0.rtViewport = slot1:Find("Viewport")
 	slot0.rtBg = slot0.rtViewport:Find("MainContent/bg")
 	slot0.rtCharacter = slot0.rtViewport:Find("MainContent/character")
@@ -99,7 +99,7 @@ slot3 = {
 	"Luna"
 }
 
-function slot0.SetCharacter(slot0, slot1)
+slot0.SetCharacter = function(slot0, slot1)
 	slot0.rtTarget = cloneTplTo(slot0.rtCharacter:Find(slot1), slot0.rtPlayContent:Find("front"), slot1)
 	slot3 = slot0.rtTarget:Find("Image"):GetComponent(typeof(DftAniEvent))
 
@@ -170,18 +170,18 @@ function slot0.SetCharacter(slot0, slot1)
 	slot0.rtEffectObject = slot0.rtPlayContent:Find("middle/EffectObject")
 end
 
-function slot4(slot0, slot1)
+slot4 = function(slot0, slot1)
 	for slot6 = slot0:Find("point").childCount, 1, -1 do
 		triggerToggle(slot2:GetChild(slot6 - 1), slot6 <= slot1)
 	end
 end
 
-function slot0.UpdatePoint(slot0)
+slot0.UpdatePoint = function(slot0)
 	uv0(slot0.rtPoint, slot0.myPoint)
 	uv0(slot0.rtPointOther, slot0.otherPoint)
 end
 
-function slot0.UpdateReady(slot0, slot1)
+slot0.UpdateReady = function(slot0, slot1)
 	onNextTick(function ()
 		if uv0 == uv1.rtTarget then
 			setActive(uv1.rtBtns, true)
@@ -212,7 +212,7 @@ function slot0.UpdateReady(slot0, slot1)
 	quickPlayAnimator(slot1:Find("Image"), "Idle")
 end
 
-function slot0.PlayEffect(slot0, slot1)
+slot0.PlayEffect = function(slot0, slot1)
 	setAnchoredPosition(slot0.rtEffectObject, {
 		x = slot0.deltaMove * 10
 	})
@@ -220,7 +220,7 @@ function slot0.PlayEffect(slot0, slot1)
 	slot0.effectCountdownDic[slot1] = DOAPPGameConfig.EFFECT_COUNTDOWN[slot1]
 end
 
-function slot0.AfterSelect(slot0)
+slot0.AfterSelect = function(slot0)
 	if slot0.selectAction and slot0.otherSelectAction then
 		setActive(slot0.rtFloatUI, false)
 		switch((slot0.selectAction - slot0.otherSelectAction + 3) % 3, {
@@ -306,7 +306,7 @@ function slot0.AfterSelect(slot0)
 	end
 end
 
-function slot0.ReadyPoint(slot0)
+slot0.ReadyPoint = function(slot0)
 	if slot0.readyPointCount > 0 then
 		slot0.readyPointCount = 0
 
@@ -340,7 +340,7 @@ function slot0.ReadyPoint(slot0)
 	end
 end
 
-function slot0.GetResultInfo(slot0, slot1)
+slot0.GetResultInfo = function(slot0, slot1)
 	if slot1 then
 		return slot0.rtOtherTarget.name, slot0.otherPoint, slot0.result * -1
 	else
@@ -348,7 +348,7 @@ function slot0.GetResultInfo(slot0, slot1)
 	end
 end
 
-function slot0.ResetGame(slot0)
+slot0.ResetGame = function(slot0)
 	slot0.timeCount = DOAPPGameConfig.ALL_TIME
 
 	setText(slot0.textTime, string.format("%02ds", slot0.timeCount))
@@ -390,13 +390,13 @@ function slot0.ResetGame(slot0)
 	slot0.effectCountdownDic = {}
 end
 
-function slot0.ReadyGame(slot0, slot1)
+slot0.ReadyGame = function(slot0, slot1)
 	slot0:SetCharacter(slot1.name)
 	slot0:UpdatePoint()
 	slot0:PauseGame()
 end
 
-function slot0.StartGame(slot0)
+slot0.StartGame = function(slot0)
 	slot0.isStart = true
 
 	slot0:UpdateReady(slot0.rtTarget)
@@ -404,7 +404,7 @@ function slot0.StartGame(slot0)
 	slot0:ResumeGame()
 end
 
-function slot0.EndGame(slot0, slot1)
+slot0.EndGame = function(slot0, slot1)
 	slot0.isStart = false
 
 	slot0:PauseGame()
@@ -414,21 +414,21 @@ function slot0.EndGame(slot0, slot1)
 	slot0.binder:openUI("result")
 end
 
-function slot0.ResumeGame(slot0)
+slot0.ResumeGame = function(slot0)
 	slot0.isPause = false
 
 	slot0.timer:Start()
 	uv0(slot0.rtViewport, 1)
 end
 
-function slot0.PauseGame(slot0)
+slot0.PauseGame = function(slot0)
 	slot0.isPause = true
 
 	slot0.timer:Stop()
 	uv0(slot0.rtViewport, 0)
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	slot0.timeCount = slot0.timeCount - slot1
 
 	setText(slot0.textTime, string.format("%02ds", slot0.timeCount))
@@ -512,7 +512,7 @@ function slot0.OnTimer(slot0, slot1)
 	end
 
 	if not slot0.blockMoveBg then
-		function slot2(slot0, slot1)
+		slot2 = function(slot0, slot1)
 			setAnchoredPosition(slot0, {
 				x = math.clamp(slot2 + (uv0.deltaMove - slot0.anchoredPosition.x / slot1 > 0 and 1 or -1) * uv1 / DOAPPGameConfig.BG_MOVE_TIME, unpack(slot2 < uv0.deltaMove and {
 					slot2,
@@ -534,7 +534,7 @@ function slot0.OnTimer(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

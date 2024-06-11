@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIDIFENGBAO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIDIFENGBAO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "落雪覆蓋的冰面上，補給船隊正沿著破冰船開闢出的航路如一條長龍向遠方駛去",
 			bgm = "bgm-cccp3",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "落雪覆蓋的冰面上，補給船隊正沿著破冰船開闢出的航路如一條長龍向遠方駛去",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_jidifengbao_map",
 			say = "極地之中的戰事雖然從未停止，但像如今這般大規模的資源調用也實屬罕見。",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_jidifengbao_map",
 			say = "通訊器滋滋響了幾聲，隨後傳出一個熟悉的聲音。",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
 			say = "「鐵拳」分隊必不辱使命！",
 			painting = {
@@ -386,8 +386,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "「鐮鼬」分隊明白。",
 			painting = {
@@ -523,9 +523,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 900218,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "請各作戰分隊提前就位，祝各位旗開得勝！",
 			typewriter = {
 				speed = 0.05,
@@ -541,10 +541,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 900218,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "通報結束。",
 			typewriter = {
 				speed = 0.05,

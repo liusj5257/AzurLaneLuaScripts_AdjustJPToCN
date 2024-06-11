@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU13",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>그 어두운 숲의 출구에서, 세 마리의 야수가 나의 길을 막아섰다.</size>",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -64,8 +64,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -89,15 +89,15 @@ return {
 			}
 		},
 		{
-			say = "로열 본섬",
-			side = 2,
 			bgName = "bg_italy_cg4",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "로열 본섬",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "빅토리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			actorName = "빅토리어스",
 			dir = 1,
+			actorName = "빅토리어스",
 			say = "아아아아, 포미더블. 일러스트리어스 언니에게 이르지 마.",
 			dialogShake = {
 				speed = 0.09,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "빅토리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "빅토리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			actorName = "일러스트리어스",
 			dir = 1,
+			actorName = "일러스트리어스",
 			say = "아니예요! 콜록—— ",
 			dialogShake = {
 				speed = 0.09,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "(붉어진 얼굴로 하마터면 홍차를 뿜을 뻔했다.)",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -392,12 +392,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "——지중해로 휴가를 떠나지 않겠어요?",
 			typewriter = {
 				speed = 0.05,

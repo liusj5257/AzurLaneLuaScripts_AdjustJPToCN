@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"战斗！皇家女仆队！\n\n<size=45>三　闪耀的谢菲</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演习海域——南方侧翼防线",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "演习海域——南方侧翼防线",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,14 +94,14 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 0,
+			actorShadow = true,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			actorShadow = true,
-			actorName = "？？？",
 			say = "谢菲，一个人在这边有些寂寞了吗？",
+			actor = 202190,
+			actorName = "？？？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "？！…原来是纽卡斯尔姐姐，好久不见。",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,
@@ -382,12 +382,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "是，姐姐。",
 			typewriter = {
 				speed = 0.05,

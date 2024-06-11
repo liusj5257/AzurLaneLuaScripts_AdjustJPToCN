@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.weekly_task_template = {
 	[10001] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
-		desc = "【1/7】艦隊出征，獲得1次勝利",
+		target_id = "0",
 		id = 10001,
 		target_num = 1,
-		level = 1,
+		desc = "【1/7】艦隊出征，獲得1次勝利",
 		award_display = {
 			8,
 			59012,
@@ -15,13 +15,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10002] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
-		desc = "【2/7】艦隊出征，獲得5次勝利",
+		target_id = "0",
 		id = 10002,
 		target_num = 5,
-		level = 1,
+		desc = "【2/7】艦隊出征，獲得5次勝利",
 		award_display = {
 			8,
 			59012,
@@ -29,13 +29,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10003] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
-		desc = "【3/7】艦隊出征，獲得10次勝利",
+		target_id = "0",
 		id = 10003,
 		target_num = 10,
-		level = 1,
+		desc = "【3/7】艦隊出征，獲得10次勝利",
 		award_display = {
 			8,
 			59012,
@@ -43,13 +43,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10004] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
-		desc = "【4/7】艦隊出征，獲得20次勝利",
+		target_id = "0",
 		id = 10004,
 		target_num = 20,
-		level = 1,
+		desc = "【4/7】艦隊出征，獲得20次勝利",
 		award_display = {
 			8,
 			59012,
@@ -57,13 +57,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10005] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
-		desc = "【5/7】艦隊出征，獲得50次勝利",
+		target_id = "0",
 		id = 10005,
 		target_num = 50,
-		level = 1,
+		desc = "【5/7】艦隊出征，獲得50次勝利",
 		award_display = {
 			8,
 			59012,
@@ -71,13 +71,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10006] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
-		desc = "【6/7】艦隊出征，獲得100次勝利",
+		target_id = "0",
 		id = 10006,
 		target_num = 100,
-		level = 1,
+		desc = "【6/7】艦隊出征，獲得100次勝利",
 		award_display = {
 			8,
 			59012,
@@ -85,13 +85,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10007] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 20,
 		target_id_for_client = 0,
-		desc = "【7/7】艦隊出征，獲得200次勝利",
+		target_id = "0",
 		id = 10007,
 		target_num = 200,
-		level = 1,
+		desc = "【7/7】艦隊出征，獲得200次勝利",
 		award_display = {
 			8,
 			59012,
@@ -99,13 +99,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10011] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
-		desc = "【1/6】擊沉任意敵人50艘",
+		target_id = "0",
 		id = 10011,
 		target_num = 50,
-		level = 1,
+		desc = "【1/6】擊沉任意敵人50艘",
 		award_display = {
 			8,
 			59012,
@@ -113,13 +113,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10012] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
-		desc = "【2/6】擊沉任意敵人100艘",
+		target_id = "0",
 		id = 10012,
 		target_num = 100,
-		level = 1,
+		desc = "【2/6】擊沉任意敵人100艘",
 		award_display = {
 			8,
 			59012,
@@ -127,13 +127,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10013] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
-		desc = "【3/6】擊沉任意敵人200艘",
+		target_id = "0",
 		id = 10013,
 		target_num = 200,
-		level = 1,
+		desc = "【3/6】擊沉任意敵人200艘",
 		award_display = {
 			8,
 			59012,
@@ -141,13 +141,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10014] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
-		desc = "【4/6】擊沉任意敵人500艘",
+		target_id = "0",
 		id = 10014,
 		target_num = 500,
-		level = 1,
+		desc = "【4/6】擊沉任意敵人500艘",
 		award_display = {
 			8,
 			59012,
@@ -155,13 +155,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10015] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
-		desc = "【5/6】擊沉任意敵人1000艘",
+		target_id = "0",
 		id = 10015,
 		target_num = 1000,
-		level = 1,
+		desc = "【5/6】擊沉任意敵人1000艘",
 		award_display = {
 			8,
 			59012,
@@ -169,13 +169,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10016] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 11,
 		target_id_for_client = 0,
-		desc = "【6/6】擊沉任意敵人2000艘",
+		target_id = "0",
 		id = 10016,
 		target_num = 2000,
-		level = 1,
+		desc = "【6/6】擊沉任意敵人2000艘",
 		award_display = {
 			8,
 			59012,
@@ -183,13 +183,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10021] = {
-		target_id = "0",
+		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
-		desc = "【1/5】後宅補給存糧5000",
+		target_id = "0",
 		id = 10021,
 		target_num = 5000,
-		level = 8,
+		desc = "【1/5】後宅補給存糧5000",
 		award_display = {
 			8,
 			59012,
@@ -197,13 +197,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10022] = {
-		target_id = "0",
+		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
-		desc = "【2/5】後宅補給存糧10000",
+		target_id = "0",
 		id = 10022,
 		target_num = 10000,
-		level = 8,
+		desc = "【2/5】後宅補給存糧10000",
 		award_display = {
 			8,
 			59012,
@@ -211,13 +211,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10023] = {
-		target_id = "0",
+		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
-		desc = "【3/5】後宅補給存糧20000",
+		target_id = "0",
 		id = 10023,
 		target_num = 20000,
-		level = 8,
+		desc = "【3/5】後宅補給存糧20000",
 		award_display = {
 			8,
 			59012,
@@ -225,13 +225,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10024] = {
-		target_id = "0",
+		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
-		desc = "【4/5】後宅補給存糧50000",
+		target_id = "0",
 		id = 10024,
 		target_num = 50000,
-		level = 8,
+		desc = "【4/5】後宅補給存糧50000",
 		award_display = {
 			8,
 			59012,
@@ -239,13 +239,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10025] = {
-		target_id = "0",
+		level = 8,
 		sub_type = 60,
 		target_id_for_client = 0,
-		desc = "【5/5】後宅補給存糧100000",
+		target_id = "0",
 		id = 10025,
 		target_num = 100000,
-		level = 8,
+		desc = "【5/5】後宅補給存糧100000",
 		award_display = {
 			8,
 			59012,
@@ -253,13 +253,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10031] = {
-		target_id = "0",
+		level = 40,
 		sub_type = 170,
 		target_id_for_client = 0,
-		desc = "【1/3】訓練指揮喵1隻",
+		target_id = "0",
 		id = 10031,
 		target_num = 1,
-		level = 40,
+		desc = "【1/3】訓練指揮喵1隻",
 		award_display = {
 			8,
 			59012,
@@ -267,13 +267,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10032] = {
-		target_id = "0",
+		level = 40,
 		sub_type = 170,
 		target_id_for_client = 0,
-		desc = "【2/3】訓練指揮喵5隻",
+		target_id = "0",
 		id = 10032,
 		target_num = 5,
-		level = 40,
+		desc = "【2/3】訓練指揮喵5隻",
 		award_display = {
 			8,
 			59012,
@@ -281,13 +281,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10033] = {
-		target_id = "0",
+		level = 40,
 		sub_type = 170,
 		target_id_for_client = 0,
-		desc = "【3/3】訓練指揮喵7隻",
+		target_id = "0",
 		id = 10033,
 		target_num = 7,
-		level = 40,
+		desc = "【3/3】訓練指揮喵7隻",
 		award_display = {
 			8,
 			59012,
@@ -295,13 +295,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10041] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 30,
 		target_id_for_client = 0,
-		desc = "【1/4】建造艦船1次",
+		target_id = "0",
 		id = 10041,
 		target_num = 1,
-		level = 1,
+		desc = "【1/4】建造艦船1次",
 		award_display = {
 			8,
 			59012,
@@ -309,13 +309,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10042] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 30,
 		target_id_for_client = 0,
-		desc = "【2/4】建造艦船5次",
+		target_id = "0",
 		id = 10042,
 		target_num = 5,
-		level = 1,
+		desc = "【2/4】建造艦船5次",
 		award_display = {
 			8,
 			59012,
@@ -323,13 +323,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10043] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 30,
 		target_id_for_client = 0,
-		desc = "【3/4】建造艦船7次",
+		target_id = "0",
 		id = 10043,
 		target_num = 7,
-		level = 1,
+		desc = "【3/4】建造艦船7次",
 		award_display = {
 			8,
 			59012,
@@ -337,13 +337,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10044] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 30,
 		target_id_for_client = 0,
-		desc = "【4/4】建造艦船10次",
+		target_id = "0",
 		id = 10044,
 		target_num = 10,
-		level = 1,
+		desc = "【4/4】建造艦船10次",
 		award_display = {
 			8,
 			59012,
@@ -351,13 +351,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10051] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
-		desc = "【1/5】累計消耗石油1000",
+		target_id = "0",
 		id = 10051,
 		target_num = 1000,
-		level = 1,
+		desc = "【1/5】累計消耗石油1000",
 		award_display = {
 			8,
 			59012,
@@ -365,13 +365,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10052] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
-		desc = "【2/5】累計消耗石油2000",
+		target_id = "0",
 		id = 10052,
 		target_num = 2000,
-		level = 1,
+		desc = "【2/5】累計消耗石油2000",
 		award_display = {
 			8,
 			59012,
@@ -379,13 +379,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10053] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
-		desc = "【3/5】累計消耗石油3000",
+		target_id = "0",
 		id = 10053,
 		target_num = 3000,
-		level = 1,
+		desc = "【3/5】累計消耗石油3000",
 		award_display = {
 			8,
 			59012,
@@ -393,13 +393,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10054] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
-		desc = "【4/5】累計消耗石油5000",
+		target_id = "0",
 		id = 10054,
 		target_num = 5000,
-		level = 1,
+		desc = "【4/5】累計消耗石油5000",
 		award_display = {
 			8,
 			59012,
@@ -407,13 +407,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10055] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 121,
 		target_id_for_client = 0,
-		desc = "【5/5】累計消耗石油7500",
+		target_id = "0",
 		id = 10055,
 		target_num = 7500,
-		level = 1,
+		desc = "【5/5】累計消耗石油7500",
 		award_display = {
 			8,
 			59012,
@@ -421,13 +421,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10061] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 23,
 		target_id_for_client = 0,
-		desc = "【1/4】艦隊出征，以A評價通關1次",
+		target_id = "0",
 		id = 10061,
 		target_num = 1,
-		level = 1,
+		desc = "【1/4】艦隊出征，以A評價通關1次",
 		award_display = {
 			8,
 			59012,
@@ -435,13 +435,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10062] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 23,
 		target_id_for_client = 0,
-		desc = "【2/4】艦隊出征，以A評價通關10次",
+		target_id = "0",
 		id = 10062,
 		target_num = 10,
-		level = 1,
+		desc = "【2/4】艦隊出征，以A評價通關10次",
 		award_display = {
 			8,
 			59012,
@@ -449,13 +449,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10063] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 23,
 		target_id_for_client = 0,
-		desc = "【3/4】艦隊出征，以A評價通關20次",
+		target_id = "0",
 		id = 10063,
 		target_num = 20,
-		level = 1,
+		desc = "【3/4】艦隊出征，以A評價通關20次",
 		award_display = {
 			8,
 			59012,
@@ -463,13 +463,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10064] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 23,
 		target_id_for_client = 0,
-		desc = "【4/4】艦隊出征，以A評價通關50次",
+		target_id = "0",
 		id = 10064,
 		target_num = 50,
-		level = 1,
+		desc = "【4/4】艦隊出征，以A評價通關50次",
 		award_display = {
 			8,
 			59012,
@@ -477,13 +477,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10071] = {
-		target_id = "0",
+		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
-		desc = "【1/5】完成科研1次",
+		target_id = "0",
 		id = 10071,
 		target_num = 1,
-		level = 30,
+		desc = "【1/5】完成科研1次",
 		award_display = {
 			8,
 			59012,
@@ -491,13 +491,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10072] = {
-		target_id = "0",
+		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
-		desc = "【2/5】完成科研3次",
+		target_id = "0",
 		id = 10072,
 		target_num = 3,
-		level = 30,
+		desc = "【2/5】完成科研3次",
 		award_display = {
 			8,
 			59012,
@@ -505,13 +505,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10073] = {
-		target_id = "0",
+		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
-		desc = "【3/5】完成科研5次",
+		target_id = "0",
 		id = 10073,
 		target_num = 5,
-		level = 30,
+		desc = "【3/5】完成科研5次",
 		award_display = {
 			8,
 			59012,
@@ -519,13 +519,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10074] = {
-		target_id = "0",
+		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
-		desc = "【4/5】完成科研10次",
+		target_id = "0",
 		id = 10074,
 		target_num = 10,
-		level = 30,
+		desc = "【4/5】完成科研10次",
 		award_display = {
 			8,
 			59012,
@@ -533,13 +533,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10075] = {
-		target_id = "0",
+		level = 30,
 		sub_type = 110,
 		target_id_for_client = 0,
-		desc = "【5/5】完成科研20次",
+		target_id = "0",
 		id = 10075,
 		target_num = 20,
-		level = 30,
+		desc = "【5/5】完成科研20次",
 		award_display = {
 			8,
 			59012,
@@ -547,13 +547,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10081] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
-		desc = "【1/5】艦船強化1次",
+		target_id = "0",
 		id = 10081,
 		target_num = 1,
-		level = 1,
+		desc = "【1/5】艦船強化1次",
 		award_display = {
 			8,
 			59012,
@@ -561,13 +561,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10082] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
-		desc = "【2/5】艦船強化5次",
+		target_id = "0",
 		id = 10082,
 		target_num = 5,
-		level = 1,
+		desc = "【2/5】艦船強化5次",
 		award_display = {
 			8,
 			59012,
@@ -575,13 +575,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10083] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
-		desc = "【3/5】艦船強化10次",
+		target_id = "0",
 		id = 10083,
 		target_num = 10,
-		level = 1,
+		desc = "【3/5】艦船強化10次",
 		award_display = {
 			8,
 			59012,
@@ -589,13 +589,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10084] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
-		desc = "【4/5】艦船強化20次",
+		target_id = "0",
 		id = 10084,
 		target_num = 20,
-		level = 1,
+		desc = "【4/5】艦船強化20次",
 		award_display = {
 			8,
 			59012,
@@ -603,13 +603,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10085] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 34,
 		target_id_for_client = 0,
-		desc = "【5/5】艦船強化50次",
+		target_id = "0",
 		id = 10085,
 		target_num = 50,
-		level = 1,
+		desc = "【5/5】艦船強化50次",
 		award_display = {
 			8,
 			59012,
@@ -617,13 +617,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10091] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 40,
 		target_id_for_client = 0,
-		desc = "【1/3】裝備強化1次",
+		target_id = "0",
 		id = 10091,
 		target_num = 1,
-		level = 1,
+		desc = "【1/3】裝備強化1次",
 		award_display = {
 			8,
 			59012,
@@ -631,13 +631,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10092] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 40,
 		target_id_for_client = 0,
-		desc = "【2/3】裝備強化5次",
+		target_id = "0",
 		id = 10092,
 		target_num = 5,
-		level = 1,
+		desc = "【2/3】裝備強化5次",
 		award_display = {
 			8,
 			59012,
@@ -645,13 +645,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10093] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 40,
 		target_id_for_client = 0,
-		desc = "【3/3】裝備強化10次",
+		target_id = "0",
 		id = 10093,
 		target_num = 10,
-		level = 1,
+		desc = "【3/3】裝備強化10次",
 		award_display = {
 			8,
 			59012,
@@ -659,13 +659,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10101] = {
-		target_id = "0",
+		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
-		desc = "【1/5】完成3個「每日挑戰」關卡",
+		target_id = "0",
 		id = 10101,
 		target_num = 3,
-		level = 10,
+		desc = "【1/5】完成3個「每日挑戰」關卡",
 		award_display = {
 			8,
 			59012,
@@ -673,13 +673,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10102] = {
-		target_id = "0",
+		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
-		desc = "【2/5】完成9個「每日挑戰」關卡",
+		target_id = "0",
 		id = 10102,
 		target_num = 9,
-		level = 10,
+		desc = "【2/5】完成9個「每日挑戰」關卡",
 		award_display = {
 			8,
 			59012,
@@ -687,13 +687,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10103] = {
-		target_id = "0",
+		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
-		desc = "【3/5】完成15個「每日挑戰」關卡",
+		target_id = "0",
 		id = 10103,
 		target_num = 15,
-		level = 10,
+		desc = "【3/5】完成15個「每日挑戰」關卡",
 		award_display = {
 			8,
 			59012,
@@ -701,13 +701,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10104] = {
-		target_id = "0",
+		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
-		desc = "【4/5】完成21個「每日挑戰」關卡",
+		target_id = "0",
 		id = 10104,
 		target_num = 21,
-		level = 10,
+		desc = "【4/5】完成21個「每日挑戰」關卡",
 		award_display = {
 			8,
 			59012,
@@ -715,13 +715,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10105] = {
-		target_id = "0",
+		level = 10,
 		sub_type = 26,
 		target_id_for_client = 0,
-		desc = "【5/5】完成27個「每日挑戰」關卡",
+		target_id = "0",
 		id = 10105,
 		target_num = 27,
-		level = 10,
+		desc = "【5/5】完成27個「每日挑戰」關卡",
 		award_display = {
 			8,
 			59012,
@@ -729,13 +729,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10111] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 71,
 		target_id_for_client = 0,
-		desc = "【1/4】進行戰術訓練1次",
+		target_id = "0",
 		id = 10111,
 		target_num = 1,
-		level = 1,
+		desc = "【1/4】進行戰術訓練1次",
 		award_display = {
 			8,
 			59012,
@@ -743,13 +743,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10112] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 71,
 		target_id_for_client = 0,
-		desc = "【2/4】進行戰術訓練5次",
+		target_id = "0",
 		id = 10112,
 		target_num = 5,
-		level = 1,
+		desc = "【2/4】進行戰術訓練5次",
 		award_display = {
 			8,
 			59012,
@@ -757,13 +757,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10113] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 71,
 		target_id_for_client = 0,
-		desc = "【3/4】進行戰術訓練10次",
+		target_id = "0",
 		id = 10113,
 		target_num = 10,
-		level = 1,
+		desc = "【3/4】進行戰術訓練10次",
 		award_display = {
 			8,
 			59012,
@@ -771,13 +771,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10114] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 71,
 		target_id_for_client = 0,
-		desc = "【4/4】進行戰術訓練15次",
+		target_id = "0",
 		id = 10114,
 		target_num = 15,
-		level = 1,
+		desc = "【4/4】進行戰術訓練15次",
 		award_display = {
 			8,
 			59012,
@@ -785,13 +785,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10121] = {
-		target_id = "0",
+		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
-		desc = "【1/5】執行軍事委託5次",
+		target_id = "0",
 		id = 10121,
 		target_num = 5,
-		level = 12,
+		desc = "【1/5】執行軍事委託5次",
 		award_display = {
 			8,
 			59012,
@@ -799,13 +799,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10122] = {
-		target_id = "0",
+		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
-		desc = "【2/5】執行軍事委託10次",
+		target_id = "0",
 		id = 10122,
 		target_num = 10,
-		level = 12,
+		desc = "【2/5】執行軍事委託10次",
 		award_display = {
 			8,
 			59012,
@@ -813,13 +813,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10123] = {
-		target_id = "0",
+		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
-		desc = "【3/5】執行軍事委託20次",
+		target_id = "0",
 		id = 10123,
 		target_num = 20,
-		level = 12,
+		desc = "【3/5】執行軍事委託20次",
 		award_display = {
 			8,
 			59012,
@@ -827,13 +827,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10124] = {
-		target_id = "0",
+		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
-		desc = "【4/5】執行軍事委託30次",
+		target_id = "0",
 		id = 10124,
 		target_num = 30,
-		level = 12,
+		desc = "【4/5】執行軍事委託30次",
 		award_display = {
 			8,
 			59012,
@@ -841,13 +841,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10125] = {
-		target_id = "0",
+		level = 12,
 		sub_type = 80,
 		target_id_for_client = 0,
-		desc = "【5/5】執行軍事委託50次",
+		target_id = "0",
 		id = 10125,
 		target_num = 50,
-		level = 12,
+		desc = "【5/5】執行軍事委託50次",
 		award_display = {
 			8,
 			59012,
@@ -855,13 +855,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10131] = {
-		target_id = "1",
+		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
-		desc = "【1/5】獲得5次軍事演習勝利",
+		target_id = "1",
 		id = 10131,
 		target_num = 5,
-		level = 15,
+		desc = "【1/5】獲得5次軍事演習勝利",
 		award_display = {
 			8,
 			59012,
@@ -869,13 +869,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10132] = {
-		target_id = "1",
+		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
-		desc = "【2/5】獲得10次軍事演習勝利",
+		target_id = "1",
 		id = 10132,
 		target_num = 10,
-		level = 15,
+		desc = "【2/5】獲得10次軍事演習勝利",
 		award_display = {
 			8,
 			59012,
@@ -883,13 +883,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10133] = {
-		target_id = "1",
+		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
-		desc = "【3/5】獲得20次軍事演習勝利",
+		target_id = "1",
 		id = 10133,
 		target_num = 20,
-		level = 15,
+		desc = "【3/5】獲得20次軍事演習勝利",
 		award_display = {
 			8,
 			59012,
@@ -897,13 +897,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10134] = {
-		target_id = "1",
+		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
-		desc = "【4/5】獲得30次軍事演習勝利",
+		target_id = "1",
 		id = 10134,
 		target_num = 30,
-		level = 15,
+		desc = "【4/5】獲得30次軍事演習勝利",
 		award_display = {
 			8,
 			59012,
@@ -911,13 +911,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10135] = {
-		target_id = "1",
+		level = 15,
 		sub_type = 27,
 		target_id_for_client = 1,
-		desc = "【5/5】獲得50次軍事演習勝利",
+		target_id = "1",
 		id = 10135,
 		target_num = 50,
-		level = 15,
+		desc = "【5/5】獲得50次軍事演習勝利",
 		award_display = {
 			8,
 			59012,
@@ -925,13 +925,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10141] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 31,
 		target_id_for_client = 0,
-		desc = "【1/4】艦船退役1次",
+		target_id = "0",
 		id = 10141,
 		target_num = 1,
-		level = 1,
+		desc = "【1/4】艦船退役1次",
 		award_display = {
 			8,
 			59012,
@@ -939,13 +939,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10142] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 31,
 		target_id_for_client = 0,
-		desc = "【2/4】艦船退役3次",
+		target_id = "0",
 		id = 10142,
 		target_num = 3,
-		level = 1,
+		desc = "【2/4】艦船退役3次",
 		award_display = {
 			8,
 			59012,
@@ -953,13 +953,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10143] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 31,
 		target_id_for_client = 0,
-		desc = "【3/4】艦船退役5次",
+		target_id = "0",
 		id = 10143,
 		target_num = 5,
-		level = 1,
+		desc = "【3/4】艦船退役5次",
 		award_display = {
 			8,
 			59012,
@@ -967,13 +967,13 @@ pg.weekly_task_template = {
 		}
 	},
 	[10144] = {
-		target_id = "0",
+		level = 1,
 		sub_type = 31,
 		target_id_for_client = 0,
-		desc = "【4/4】艦船退役10次",
+		target_id = "0",
 		id = 10144,
 		target_num = 10,
-		level = 1,
+		desc = "【4/4】艦船退役10次",
 		award_display = {
 			8,
 			59012,
@@ -981,12 +981,12 @@ pg.weekly_task_template = {
 		}
 	},
 	[10151] = {
-		desc = "【1/5】通關3次「困難副本」",
+		level = 10,
 		sub_type = 21,
 		target_id_for_client = 0,
 		id = 10151,
 		target_num = 3,
-		level = 10,
+		desc = "【1/5】通關3次「困難副本」",
 		award_display = {
 			8,
 			59012,
@@ -1044,12 +1044,12 @@ pg.weekly_task_template = {
 		}
 	},
 	[10152] = {
-		desc = "【2/5】通關6次「困難副本」",
+		level = 10,
 		sub_type = 21,
 		target_id_for_client = 0,
 		id = 10152,
 		target_num = 6,
-		level = 10,
+		desc = "【2/5】通關6次「困難副本」",
 		award_display = {
 			8,
 			59012,
@@ -1107,12 +1107,12 @@ pg.weekly_task_template = {
 		}
 	},
 	[10153] = {
-		desc = "【3/5】通關9次「困難副本」",
+		level = 10,
 		sub_type = 21,
 		target_id_for_client = 0,
 		id = 10153,
 		target_num = 9,
-		level = 10,
+		desc = "【3/5】通關9次「困難副本」",
 		award_display = {
 			8,
 			59012,
@@ -1170,12 +1170,12 @@ pg.weekly_task_template = {
 		}
 	},
 	[10154] = {
-		desc = "【4/5】通關12次「困難副本」",
+		level = 10,
 		sub_type = 21,
 		target_id_for_client = 0,
 		id = 10154,
 		target_num = 12,
-		level = 10,
+		desc = "【4/5】通關12次「困難副本」",
 		award_display = {
 			8,
 			59012,
@@ -1233,12 +1233,12 @@ pg.weekly_task_template = {
 		}
 	},
 	[10155] = {
-		desc = "【5/5】通關15次「困難副本」",
+		level = 10,
 		sub_type = 21,
 		target_id_for_client = 0,
 		id = 10155,
 		target_num = 15,
-		level = 10,
+		desc = "【5/5】通關15次「困難副本」",
 		award_display = {
 			8,
 			59012,

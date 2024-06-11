@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"싸워라! 로열 메이드대\n\n<size=45>빛나는 셰필드</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "연습 해역 - 남쪽 방어선",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "연습 해역 - 남쪽 방어선",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,14 +94,14 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 0,
+			actorShadow = true,
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			actorShadow = true,
-			actorName = "？？？",
 			say = "셰피, 혼자 있어서 좀 적적해졌나요?",
+			actor = 202190,
+			actorName = "？？？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#92fc63",
 			say = "?!… 뉴캐슬씨, 오랜만입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,
@@ -382,12 +382,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#92fc63",
 			say = "네…또 뵙겠습니다. 뉴캐슬씨.",
 			typewriter = {
 				speed = 0.05,

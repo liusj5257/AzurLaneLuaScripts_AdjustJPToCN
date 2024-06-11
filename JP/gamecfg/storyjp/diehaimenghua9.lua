@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			bgm = "battle-boss-4",
-			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「妾の力…汝が見下せるものにあらず……しかし……っ……」",
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "テスター",
 			say = "ふん、まさか「信濃」がこの程度とはね",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "テスター",
 			say = "大和型から改造された装甲空母、重桜の機動艦隊の希望なのにこの程度のデータしか取れないなんて",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「テスターは何度も観たはず……なにゆえ……」",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "テスター",
 			say = "「何度も観た」？ふふふ、それはこっちのセリフよ",
 			typewriter = {
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "テスター",
 			say = "私達の演算は無数の「楔」、そしてデータによって成り立っているのよ。「夢」でしか見れないあなたとはわけが違うわ",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "信濃さん！危ない！早く後退して！",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（…いいえ、妾は知っている…テスターが油断しているこの一瞬にこそ、弱点が――）",
 			typewriter = {
@@ -192,14 +192,14 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "テスター",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900011,
 			nameColor = "#ff5c5c",
 			say = "…あら、まさかここを狙うなんて",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -250,8 +250,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "テスターの主砲が破損した…！",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……ええ、次は…汝らの動力の源……）",
 			typewriter = {
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_mirror",
-			say = "――――――――！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――――――！！",
 			flashN = {
 				color = {
 					1,
@@ -337,8 +337,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……！？せ、潜水艦からの攻撃……！？）",
 			typewriter = {
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "テスター",
 			say = "「再現」テスト完了。この場所に来てくれてよかったわ――信濃、あなた一人の力では決して重桜の未来を変えられないの",
 			typewriter = {
@@ -368,11 +368,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "テスター",
 			say = "……データ収集完了。そしてこの時間軸のあなたも――何も変わらないわよ",
 			typewriter = {
@@ -385,17 +385,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_underwater",
-			actorName = "{namecode:182}",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "（……嗚呼、此度の夢でも、妾……）",
+			bgName = "bg_underwater",
 			bgm = "bsm-2",
+			actorName = "{namecode:182}",
+			say = "（……嗚呼、此度の夢でも、妾……）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -468,9 +468,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_underwater",
+			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {

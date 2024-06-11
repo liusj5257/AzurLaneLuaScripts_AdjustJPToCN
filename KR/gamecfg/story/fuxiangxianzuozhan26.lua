@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN26",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "메탈 블러드 부도 요새·D12 방어 모듈",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "메탈 블러드 부도 요새·D12 방어 모듈",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,8 +59,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "페터, 거울 해역이 사라지고 있어. 뭘 한 거야?!",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "에? 그건 중앙 모듈에서 통제하는 건데. 난 아무것도... 중앙 통제 섬의 거울 해역 생성기에 문제가 생긴 건가?! 하지만 왜 이런 때에...",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "...정찰 상황이 변했어. 해역 내에 \"메탈 블러드\"와 \"사쿠라 엠파이어\" 함대가 전부 사라졌어.",
 			typewriter = {
@@ -126,8 +126,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "정찰기를 속여 넘길 수 있는 것은 우리의 기술일 거야...",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "프린츠 오이겐이 직접 가짜 메탈 블러드 함대와 사쿠라 엠파이어 함대를 만들었군... 그러니까 저 프린츠 오이겐은 진짜지.",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "그렇군... 이제 알겠어. 대단하네, 오이겐. 이런 상황에서 작전을 세우다니...",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "하지만 우리는 그런 소식을 듣지 못하고 계획대로 훈련을 진행한 거야. 물론, 시스템에 침입한 세이렌은 모든 계획을 확실하게 알고 있었지.",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "이미 했지만 우리 통신 시스템이 세이렌에게 당해서 고장난 것처럼 들렸을 거야. 사실은 통제를 받고 있던 거지만.",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "그걸 알아차린 프린츠 오이겐이 이 모든 것을 계획했던 거야. 결국 마지막에 세이렌의 진짜 위치를 밝혀낸 거고...",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "오이겐, 정말 대단하네... 세이렌의 농간이라고는 생각했지만 이렇게 복잡할 줄은 몰랐어.",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "하지만 잠시만... 바깥은 그렇다 쳐도, 우리 통신은 멀쩡했잖아.",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "오이겐을 쫓아간 하인리히는 계속 거기에 있었는데... 설마 알고 있었던 건가?",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "후후, 그런 것 같네... 우리의 목표 지점도 아마 하인리히가 알려줬을 거야.",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "만약 이 정보가 통신기를 통해서 새어나갔다면 분명 숨었을 거야. 그렇게 되면 다시 찾기가 번거로웠을 거고.",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "그렇다면 하인리히가 완벽하게 임무를 수행했다는 거네. 아까 보고에서는 아무런 위화감도 느끼지 못했는데...",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "잠시만, 뭔가 변했어! 컴파일러가 들킨 뒤 싸우는 것이 아니라 요새 밖으로 이동하고 있어. 도망치는 건가...?",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "최고 기밀인 메탈 블러드의 기지에 침입자가 생겼는데... 이렇게 놓치면 체면이 말이 아니겠지?",
 			typewriter = {
@@ -457,16 +457,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_fuxiangxian_4",
-			actorName = "페터 슈트라서",
+			side = 2,
 			dir = 1,
-			say = "해역에 있는 모든 메탈 블러드, 그리고 우리의 동맹 사쿠라 엠파이어와 샤르데나 제국에게 알린다.",
+			bgName = "bg_fuxiangxian_4",
 			bgm = "bsm-9",
+			actorName = "페터 슈트라서",
+			say = "해역에 있는 모든 메탈 블러드, 그리고 우리의 동맹 사쿠라 엠파이어와 샤르데나 제국에게 알린다.",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "페터 슈트라서",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "페터 슈트라서",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "페터 슈트라서",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "페터 슈트라서",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -555,12 +555,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "페터 슈트라서",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "꿈도 꾸지 마... 페터 슈트라서, 통신 종료.",
 			typewriter = {
 				speed = 0.05,

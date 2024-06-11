@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA13",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA13",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10400030,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "키즈나 아이",
 			dir = 1,
+			actorName = "키즈나 아이",
 			say = "오? 수상해 보이는 상자 발견!",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 6,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "주위도 경계해야 해!? 하늘에서 떨어진 상자 주변에는 대기 타고 있는 적들이 잔뜩 있는 법이니까!!",
 			typewriter = {

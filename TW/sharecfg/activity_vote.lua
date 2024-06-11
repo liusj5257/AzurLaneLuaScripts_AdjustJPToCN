@@ -1,20 +1,20 @@
 pg = pg or {}
 pg.activity_vote = {
 	[29] = {
-		same_rank_by_id = 0,
 		name = "預選賽",
 		ticket_period = 480,
 		type = 1,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "預選賽僅顯示得票排名，排名前240名的角色晉級小組賽",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 240,
-		id = 29,
+		same_rank_by_id = 0,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 240,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 29,
 		time_vote = {
 			{
 				{
@@ -987,20 +987,20 @@ pg.activity_vote = {
 		}
 	},
 	[30] = {
-		same_rank_by_id = 20,
 		name = "小組賽A",
 		ticket_period = 200,
 		type = 3,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "小組賽排名前5的角色直接晉級決賽，第6至15名將進入決勝復活賽",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 5,
-		id = 30,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 5,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 30,
 		time_vote = {
 			{
 				{
@@ -1236,20 +1236,20 @@ pg.activity_vote = {
 		}
 	},
 	[31] = {
-		same_rank_by_id = 20,
 		name = "小組賽B",
 		ticket_period = 200,
 		type = 3,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "小組賽排名前5的角色直接晉級決賽，第6至15名將進入決勝復活賽",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 5,
-		id = 31,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 5,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 31,
 		time_vote = {
 			{
 				{
@@ -1485,20 +1485,20 @@ pg.activity_vote = {
 		}
 	},
 	[32] = {
-		same_rank_by_id = 20,
 		name = "小組賽C",
 		ticket_period = 200,
 		type = 3,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "小組賽排名前5的角色直接晉級決賽，第6至15名將進入決勝復活賽",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 5,
-		id = 32,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 5,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 32,
 		time_vote = {
 			{
 				{
@@ -1734,20 +1734,20 @@ pg.activity_vote = {
 		}
 	},
 	[33] = {
-		same_rank_by_id = 20,
 		name = "小組賽D",
 		ticket_period = 200,
 		type = 3,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "小組賽排名前5的角色直接晉級決賽，第6至15名將進入決勝復活賽",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 5,
-		id = 33,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 5,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 33,
 		time_vote = {
 			{
 				{
@@ -1983,20 +1983,20 @@ pg.activity_vote = {
 		}
 	},
 	[35] = {
-		same_rank_by_id = 20,
 		name = "決勝復活賽",
 		ticket_period = 160,
 		type = 4,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "決勝復活賽排名前15的角色將晉級決賽",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 15,
-		id = 35,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 15,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 35,
 		time_vote = {
 			{
 				{
@@ -2227,20 +2227,20 @@ pg.activity_vote = {
 		}
 	},
 	[36] = {
-		same_rank_by_id = 20,
 		name = "決賽",
 		ticket_period = 280,
 		type = 5,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "晉級決賽的35個角色，將進行為期7天的決賽投票",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 0,
-		id = 36,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 0,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 36,
 		time_vote = {
 			{
 				{
@@ -2490,20 +2490,20 @@ pg.activity_vote = {
 		}
 	},
 	[37] = {
-		same_rank_by_id = 20,
 		name = "趣味投票一",
 		ticket_period = 0,
 		type = 7,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "",
-		help_text = "",
 		sub_type = 1,
 		ticket_id_period = 59826,
-		next_round_number = 0,
-		id = 37,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 0,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 37,
 		time_vote = {
 			{
 				{
@@ -2596,20 +2596,20 @@ pg.activity_vote = {
 		}
 	},
 	[38] = {
-		same_rank_by_id = 20,
 		name = "趣味投票二",
 		ticket_period = 0,
 		type = 7,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "",
-		help_text = "",
 		sub_type = 2,
 		ticket_id_period = 59826,
-		next_round_number = 0,
-		id = 38,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 0,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 38,
 		time_vote = {
 			{
 				{
@@ -2714,20 +2714,20 @@ pg.activity_vote = {
 		}
 	},
 	[39] = {
-		same_rank_by_id = 20,
 		name = "趣味投票三",
 		ticket_period = 0,
 		type = 7,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "",
-		help_text = "",
 		sub_type = 3,
 		ticket_id_period = 59826,
-		next_round_number = 0,
-		id = 39,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 0,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 39,
 		time_vote = {
 			{
 				{

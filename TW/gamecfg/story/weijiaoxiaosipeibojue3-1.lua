@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 102200,
 			side = 2,
-			nameColor = "#A9F548FF",
-			say = "抓住妳了！搶奪甜點的犯人！",
 			dir = 1,
 			bgm = "login-2022401us",
+			actor = 102200,
+			nameColor = "#A9F548FF",
+			say = "抓住妳了！搶奪甜點的犯人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -20,8 +20,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "小施佩",
 			say = "我是不會把甜點交出來的喲。",
 			painting = {
@@ -80,8 +80,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "小施佩",
 			say = "鐵血也不止是啤酒和香腸，明明甜點也很重要……但是很少有人注意到這一點。",
 			painting = {
@@ -97,8 +97,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "小施佩",
 			say = "……所以我制定了一個計劃，一個可以把大海變成甜點的偉大計劃！",
 			painting = {
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "小施佩",
 			say = "現在已經進行到最後一步了……",
 			painting = {

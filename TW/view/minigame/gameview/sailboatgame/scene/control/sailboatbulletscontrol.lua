@@ -1,7 +1,7 @@
 slot0 = class("SailBoatBulletsControl")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._tf = slot1
 	slot0._event = slot2
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._content = findTF(slot0._tf, "scene_front/content")
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	for slot4 = #slot0._bullets, 1, -1 do
 		slot5 = table.remove(slot0._bullets, slot4)
 
@@ -21,7 +21,7 @@ function slot0.start(slot0)
 	slot0._bulletStep = uv0.bullet_step
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	for slot5 = #slot0._bullets, 1, -1 do
 		slot0._bullets[slot5]:step(slot1)
 	end
@@ -84,11 +84,11 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.returnBullet(slot0, slot1)
+slot0.returnBullet = function(slot0, slot1)
 	table.insert(slot0._bulletPool, slot1)
 end
 
-function slot0.createBullet(slot0, slot1)
+slot0.createBullet = function(slot0, slot1)
 	slot2 = nil
 
 	if #slot0._bulletPool > 0 then
@@ -105,7 +105,7 @@ function slot0.createBullet(slot0, slot1)
 	return slot2
 end
 
-function slot0.onEventCall(slot0, slot1, slot2)
+slot0.onEventCall = function(slot0, slot1, slot2)
 	if slot1 == SailBoatGameEvent.BOAT_EVENT_FIRE then
 		slot3 = slot0:createBullet(slot2.bullet_id)
 
@@ -115,10 +115,10 @@ function slot0.onEventCall(slot0, slot1, slot2)
 	end
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
 return slot0

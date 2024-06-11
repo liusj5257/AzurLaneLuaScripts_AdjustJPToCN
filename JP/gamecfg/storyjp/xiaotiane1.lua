@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春風の十字星\n\n<size=45>その一  とある朝のアクシデント</size>",
@@ -18,14 +18,14 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "ふ、ふぇ――！？ない！？ど、どうしよう…！？",
 			side = 2,
-			bgm = "story-1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			bgm = "story-1",
+			actor = 201101,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "ふ、ふぇ――！？ない！？ど、どうしよう…！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,13 +36,13 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			withoutPainting = true,
 			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 201101,
 			nameColor = "#a9f548",
 			say = "こ、これしかないの――！？",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,15 +53,15 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#a9f548",
 			say = "し、シグニット！？ なんでそんな格好してんの…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "このプロポーション…ま、まさに暴力よ！暴力…暴力反対！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "このプロポーション…ま、まさに暴力よ！暴力…暴力反対！",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#a9f548",
 			say = "え？ベランダに干してた服がなくなった？しかも全部？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "それは災難だよね…でも……（ジ――）",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それは災難だよね…でも……（ジ――）",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

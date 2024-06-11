@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"聖誕禮物大作戰！\n\n<size=45>五　厭戰的心意！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "剛才……有些言重了。其實，我們是想向有經驗的妳請教如何幫大家選擇禮物。",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "剛才……有些言重了。其實，我們是想向有經驗的妳請教如何幫大家選擇禮物。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			say = "花時間？這是哪裡的話。這些禮物都是我剛剛回港路過商店時買的，怎麼會花很多時間呢？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "花時間？這是哪裡的話。這些禮物都是我剛剛回港路過商店時買的，怎麼會花很多時間呢？",
+			actor = 107061,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "心意……心意嗎……我似乎明白了。重要的送禮物時的心意，而不是禮物的價值！",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "如果不介意的話，請……請前輩試試看！如果適合前輩的話……咱也……會很高興的！",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107061,
+			nameColor = "#a9f548",
 			say = "皇家的聖誕節……想必會很溫馨吧，哈哈哈！",
 			typewriter = {
 				speed = 0.05,

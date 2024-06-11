@@ -10,15 +10,15 @@ return {
 				},
 				fingerPos = {
 					posY = -90,
-					posX = -90,
-					rotateY = 180
+					rotateY = 180,
+					posX = -90
 				}
 			},
 			style = {
 				text = "You can select any stage you've already cleared before!~",
 				mode = 1,
-				posY = 230,
 				dir = 1,
+				posY = 230,
 				posX = 540
 			}
 		}

@@ -1,18 +1,18 @@
 return {
-	id = "WEICENGHUNHE20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE20",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_underwater",
-			say = "Canal Stronghold? - Out at sea?",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			nameColor = "#a9f548",
+			say = "Canal Stronghold? - Out at sea?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
 			say = "Right before Intrepid and the others arrived at the Canal Stronghold...",
@@ -50,8 +50,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "Finally... I finally got them off my tail... I've got to hurry up and tell everyone about the Siren situation!",
 			typewriter = {
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
+			dir = 1,
 			say = "―――・―――・―――",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "This sound...!",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_4",
 			dir = 1,
 			say = "The sea shimmered with specks of mysterious light as a multitude of shadows approached the stronghold. Underneath them were countless Siren submarines.",
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_4",
+			dir = 1,
 			say = "The mass-produced Sirens, moving like a school of fish, was an undeniably terrifying sight.",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bluegill",
+			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -148,9 +148,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_4",
+			dir = 1,
 			say = "Even though the stronghold was not far away along the coast, Bluegill saw no way to break through the Siren encirclement.",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bluegill",
+			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bluegill",
+			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bluegill",
+			side = 2,
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -210,13 +210,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_underwater",
+			side = 2,
+			dir = 1,
 			say = "Concealed behind a reef, the small hunter carefully took aim.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -241,11 +241,11 @@ return {
 			}
 		},
 		{
-			actor = 108040,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108040,
+			nameColor = "#a9f548",
 			say = "That one must be the flagship! ",
 			typewriter = {
 				speed = 0.05,
@@ -264,8 +264,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "If I can take it out, I'll be able to disrupt their command chain, and victory will be ours!",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "Okay! This one's called the Victory Snipe!",
 			typewriter = {
@@ -303,17 +303,17 @@ return {
 			}
 		},
 		{
-			actor = 108040,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108040,
+			nameColor = "#a9f548",
 			say = "W-wait! Huh? Why is there a thick mist covering the ocean?!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "What's going on... Woooooahhh!",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "Aaaaaahhhhh!",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 40,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
+			dir = 1,
 			say = "Bluegill's vision turned white as a raging torrent consumed her, as if a washing machine was tossing her around.",
 			typewriter = {
 				speed = 0.05,
@@ -392,13 +392,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
+			dir = 1,
 			say = "After a while, when the waters finally calmed down...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -432,8 +432,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			nameColor = "#a9f548",
 			say = "Owwie... Huh? Where'd the Siren fleet go? Where am I...?",
 			typewriter = {
@@ -450,11 +450,11 @@ return {
 			}
 		},
 		{
-			actor = 108040,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108040,
+			nameColor = "#a9f548",
 			say = "Wait... Is that Intrepid over there?!",
 			typewriter = {
 				speed = 0.05,

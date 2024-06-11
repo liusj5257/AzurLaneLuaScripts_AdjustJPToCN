@@ -123,14 +123,14 @@ return {
 			}
 		},
 		{
-			actor = 301114,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301114,
+			nameColor = "#a9f548",
 			say = "なるほどね！「きたかぜとたいよう」にすればいいよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA42",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA42",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "We're almost at the last stop.",
 			dir = 1,
 			bgm = "holo-fbk",
+			nameColor = "#a9f548",
+			say = "We're almost at the last stop.",
 			effects = {
 				{
 					active = true,
@@ -45,9 +45,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Rice ball?! Ohnoohnoohnoohno! Underneath the rice ball is a lake of magma!",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Huh? This isn't the destination that's marked on the map...? Matsuri, you told me you were completely sure about the specificatio... Wahhhhhh!",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Was it a trap laid out by the Sirens?! Wait, how are we supposed to escape from this high speed rotating... awawawa!",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "Zuikaku!",
 			dialogShake = {
 				speed = 0.09,
@@ -139,8 +139,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Ey everyone, don't panic, and grab hooold of my rigging~",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Aaaahhhhh!",
@@ -167,16 +167,16 @@ return {
 			}
 		},
 		{
-			actor = 10500070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Purity's rigging!",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "holo-inochi-inst",
+			actor = 10500070,
+			nameColor = "#a9f548",
+			say = "Purity's rigging!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -210,8 +210,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Even though I have memory loss, I still remember how to take this bad boy out~ Weeell, I never expected to be useful in a pinch, though~",
 			typewriter = {
 				speed = 0.05,
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actor = 900021,
+			actorName = "Purity",
 			say = "Ahahaha! It's fine to keep singing my praises!",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 40,
@@ -297,8 +297,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "Everyone's safe! But you know, that train, it's completely submerged in the magma...",
 			typewriter = {
 				speed = 0.05,
@@ -342,9 +342,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "The Sora inside the mural is equipped with her rigging!",
 			typewriter = {
 				speed = 0.05,
@@ -356,8 +356,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -369,8 +369,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "The Matsuri on the wall, is well-developed in certain places...",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "I feel like it's strange to just treat them as \"enemies.\"",
 			typewriter = {
 				speed = 0.05,
@@ -431,8 +431,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "Nay, these were merely past fragments of ourselves, so there is no reason to be so considerate of us.",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "Well, thinking on the bright side, if we defeat the Boss of the Sirens, everything will return back to normal, so if we try hard, we should be able to avoid battles.",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "I lost my way for a little bit, but... no longer. If I have no choice but to defeat them in order to take everyone back safely... I'll do it!",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "Heehee, a strategy like this? Too easy~. When you think that it will be impossible, just leave it to the Amazing Aqua!",
 			typewriter = {
 				speed = 0.05,
@@ -510,8 +510,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "I... eh, Matsuri?",
 			typewriter = {
 				speed = 0.05,
@@ -526,8 +526,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Yeup, I think I might have an idea!",
 			typewriter = {
 				speed = 0.05,

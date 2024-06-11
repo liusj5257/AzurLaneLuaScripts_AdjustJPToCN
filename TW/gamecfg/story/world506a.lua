@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD506A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD506A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900227,
 			stopbgm = true,
-			bgName = "bg_burningsea_1",
+			side = 2,
 			actorName = "企業·META",
 			dir = 1,
-			side = 2,
+			bgName = "bg_burningsea_1",
+			actor = 900227,
 			nameColor = "#ffa500",
 			say = "認得我是誰嗎？",
 			flashin = {
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "看來心智還算正常。長話短說，現在的戰況如何？",
 			typewriter = {
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "這裡果然已經進行到塞壬的終盤清算階段了……",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "渴望復仇嗎？",
 			typewriter = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "呵，妳還不夠了解你現在擁有的力量。",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "火炬雖熄，餘燼尚存。",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "重新介紹一下，我是企業，但並非妳所熟知的企業。皇家方舟，要來加入餘燼麼？",
 			typewriter = {
@@ -254,15 +254,15 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "指揮官大人，您醒了。感覺好些了嗎？",
 			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "指揮官大人，您醒了。感覺好些了嗎？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "頭暈噁心……我們現在是在……",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "奇異點的內部空間……看起來就像噩夢之中的大海一樣……",
 			typewriter = {
 				speed = 0.05,
@@ -385,12 +385,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "感覺艦內好像少了什麼聲音……對了，領航員小姐呢？",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "又是原因不明只針對領航員系統的定向干擾……",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "那就暫時辛苦妳們了，我感覺還需要，再休息一下……",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			stopbgm = true,
 			say = "勇敢，剛才收到急性的報告，對方的增援出現了。",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "對方應該也已經察覺到我們的目的，會攔截我們的……",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "這不是早就已經知道了的事嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "事到如今，就算獵人妳突然怕了，我也不會管妳哦？",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "……是呢。那就……出發吧？",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "嗯，開始撤退吧。",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "……嗯，在無憂無慮的時候，會覺得……它很美麗。",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "那我就稍微期待一下，妳所說的雪景吧。",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "……嗯，就這麼約好了。",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "好！那就出發吧！",
 			typewriter = {
 				speed = 0.05,

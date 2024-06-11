@@ -1,10 +1,10 @@
 slot0 = class("SculpturePresentedPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SculpturePresentedUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.container = slot0:findTF("frame/container")
 	slot0.sendBtn = slot0:findTF("frame/btn")
 
@@ -14,10 +14,10 @@ function slot0.OnLoaded(slot0)
 	})
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3)
+slot0.Show = function(slot0, slot1, slot2, slot3)
 	slot0:Clear()
 	uv0.super.Show(slot0)
 
@@ -38,7 +38,7 @@ function slot0.Show(slot0, slot1, slot2, slot3)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, "story-richang-8")
 end
 
-function slot0.LoadSculpture(slot0, slot1)
+slot0.LoadSculpture = function(slot0, slot1)
 	slot2 = slot0.activity
 	slot4 = PoolMgr.GetInstance()
 
@@ -59,24 +59,24 @@ function slot0.LoadSculpture(slot0, slot1)
 	end)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.sendBtn, function ()
 		uv0:emit(SculptureScene.OPEN_GRATITUDE_PAGE, uv0.id)
 	end, SFX_PANEL)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.charGo then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.charName, slot0.charGo)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Clear()
 end
 

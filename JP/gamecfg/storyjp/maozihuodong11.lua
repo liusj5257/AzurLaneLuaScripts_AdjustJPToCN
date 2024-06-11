@@ -1,17 +1,17 @@
 return {
-	id = "MAOZIHUODONG11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-cccp3",
 			dir = 1,
 			say = "人型セイレーンの編隊が接近！",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "この敵さえ倒せばあとは一息つける――",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……！？セイレーンから…光が！？",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "ちょっと、避けなさい！！！",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "パーミャチ・メルクーリヤが――",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			}
 		},
 		{
-			actor = 105140,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105140,
+			nameColor = "#a9f548",
 			say = "はあああああああ！！！！",
 			flashout = {
 				dur = 0.5,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			say = "電光石火――セイレーン艦から発射された電気兵器の攻撃を、サウスダコタが艤装で防御した。",
 			side = 2,
 			bgName = "bg_cccp_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "電光石火――セイレーン艦から発射された電気兵器の攻撃を、サウスダコタが艤装で防御した。",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "サウスダコタ",
+			side = 1,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "パーミャチ・メルクーリヤ",
+			side = 0,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
+			dir = 1,
 			say = "どうやら敵からの攻撃を、パーミャチ・メルクーリヤ――そしてサウスダコタが防いでくれたようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
+			dir = 1,
 			say = "あの砲撃、サウスダコタはともかく、パーミャチがまともに食らったらただでは済まないな…",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "パーミャチ・メルクーリヤ",
+			side = 0,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "サウスダコタ",
+			side = 1,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "なになに？何が起きたの？！サウスダコタ、大丈夫？",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,9 +324,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そんなの聞いたことないよ！セイレーンの新兵器？",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "北方連合の海域にいるセイレーン、今までとはやっぱり違うようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "北方連合の海域にいるセイレーン、今までとはやっぱり違うようだ。",
 			painting = {
 				alpha = 0.3,

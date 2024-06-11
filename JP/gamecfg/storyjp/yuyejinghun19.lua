@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "エセックス",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しばらく休憩して、あなたは体力が回復し探索を再開しました",
 			typewriter = {
@@ -59,9 +59,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_156",
 			factiontag = "真面目なKP後輩",
-			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたは暗い廊下で、ウィダーの部屋とコレクションルームの間を何往復もしました",
@@ -70,17 +70,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -186,9 +186,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "海天",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたはドアノブを回そうとしましたが、鍵がかかっていて動きません",
 			typewriter = {
@@ -214,9 +214,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "海天",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ロール100、89。失敗です。あなたは使い慣れたピッキングスキルで扉を開けようとしましたが…中々うまくいきません",
 			typewriter = {
@@ -377,11 +377,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_146",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "story-richang-10",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "部屋に入ると、ウィダーはすぐさまあなたの後ろの扉を閉めて鍵をかけました",
 			typewriter = {
@@ -389,17 +389,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -957,8 +957,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -981,11 +981,11 @@ return {
 			}
 		},
 		{
-			actor = 9600051,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "役：次女",
-			side = 2,
+			actor = 9600051,
 			actorName = "ウィダー",
 			say = "もういい……絶対ひとりでもクリアしてやる…！",
 			typewriter = {

@@ -21,7 +21,7 @@ slot0.BLUEPRINT_ATTRS = {
 	AttributeType.Reload
 }
 
-function slot0.id2Name(slot0)
+slot0.id2Name = function(slot0)
 	return AttributeType.Type2Name(uv0.ID_TO_ATTR[slot0])
 end
 

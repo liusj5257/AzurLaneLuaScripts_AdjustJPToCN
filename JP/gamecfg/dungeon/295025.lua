@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 120,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -64,9 +64,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 294105,
+							moveCast = true,
 							score = 0,
 							delay = 0,
-							moveCast = true,
 							affix = true,
 							corrdinate = {
 								-10,
@@ -79,10 +79,10 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 72,
 									switchTo = 1,
 									index = 0,
-									switchParam = 72,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										2009000,
@@ -93,10 +93,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 8,
 									switchTo = 2,
 									index = 1,
-									switchParam = 8,
+									switchType = 1,
 									setAI = 100000,
 									removeWeapon = {
 										2009000,
@@ -110,10 +110,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 120,
 									switchTo = 2,
 									index = 2,
-									switchParam = 120,
+									switchType = 1,
 									setAI = 20006,
 									removeWeapon = {
 										2009230
@@ -139,8 +139,8 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							prefab = "shandian_wuyun",
 							life_time = 20,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-50,
@@ -152,8 +152,8 @@ return {
 							}
 						},
 						{
-							prefab = "shandian_wuyun",
 							life_time = 20,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-40,
@@ -165,8 +165,8 @@ return {
 							}
 						},
 						{
-							prefab = "shandian_wuyun",
 							life_time = 20,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-60,
@@ -178,8 +178,8 @@ return {
 							}
 						},
 						{
-							behaviours = 10003,
 							life_time = 20,
+							behaviours = 10003,
 							coordinate = {
 								-50,
 								0,
@@ -206,8 +206,8 @@ return {
 							interval = 16,
 							onceNumber = 5,
 							formation = 10008,
-							delay = 0,
 							templateID = 2200920,
+							delay = 0,
 							totalNumber = 10,
 							weaponID = {},
 							attr = {

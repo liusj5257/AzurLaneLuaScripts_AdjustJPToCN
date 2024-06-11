@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "自爆船冲撞自杀buff加速等效果",
 	time = 10,
+	name = "自爆船冲撞自杀buff加速等效果",
+	init_effect = "",
 	picture = "",
 	desc = "自爆船冲撞自杀buff加速等效果",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				group = 8003,
-				mul = 2500,
-				add = 0
+				add = 0,
+				mul = 2500
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 			},
 			arg_list = {
 				group = 60037,
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		}
 	}

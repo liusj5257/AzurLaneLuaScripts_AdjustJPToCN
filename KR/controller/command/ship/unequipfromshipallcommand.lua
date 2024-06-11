@@ -1,6 +1,6 @@
 slot0 = class("UnEquipFromShipAllCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if getProxy(BayProxy):getShipById(slot1:getBody().shipId) == nil then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
 
@@ -40,7 +40,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.fun(slot0, slot1, slot2, slot3, slot4)
+slot0.fun = function(slot0, slot1, slot2, slot3, slot4)
 	if slot3 < slot2 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_unequip_all_success"))
 		slot0:sendNotification(GAME.UNEQUIP_FROM_SHIP_DONE, slot1)
@@ -60,8 +60,8 @@ function slot0.fun(slot0, slot1, slot2, slot3, slot4)
 	slot7 = pg.ConnectionMgr.GetInstance()
 
 	slot7:Send(12006, {
-		equip_id = 0,
 		type = 0,
+		equip_id = 0,
 		ship_id = slot1.id,
 		pos = slot2
 	}, 12007, function (slot0)

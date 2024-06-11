@@ -6,18 +6,18 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			portrait = 118020,
-			bgm = "story-richang-11",
 			actorName = "괌",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_503",
+			portrait = 118020,
 			say = "카메라 위치… ok",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "괌",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "매개 변수 조정 완료… ok",
 			painting = {
@@ -73,9 +73,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "괌",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "촬영 모드… 시작",
 			painting = {
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -106,17 +106,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래도, 어… 모두가 이 프로그램을 볼 때는 아침일 거야!",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지금은 새벽 4시 10분입니다. 평소 분주한 격납고는 현재 텅텅 비어 있죠! 어쩌면 음산한 귀신이 숨어있을지도 모르겠네요!",
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "시청자 여러분도 지금쯤 이해하셨겠죠-?",
@@ -354,9 +354,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 103260,
 			actorName = "노샘프턴Ⅱ",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하아… 괌, 우리의 본래 목적을 잊은 건 아니겠지?",
 			painting = {
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그럴리가~ 픽업하러 이곳에 온 거잖아, 헤헤.",
@@ -520,11 +520,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "틀림없이 항상 진지하게 구는 언니가 갑자기 호기심 가득한 소녀로 변신하는 순간을 포착할 수 있을 거라나 뭐라나.",
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "물론~ 공정한 거래였어!",
@@ -634,9 +634,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -650,17 +650,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -674,11 +674,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이게 겨우 격납고에 들어왔다니… 산 속 격납고치곤 규모가 너무 큰거 아니야…?",
@@ -711,11 +711,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "라피, 잘 따라오고 있지? 여기서 길을 잃어버리면 골치 아파질 거야.",
@@ -729,11 +729,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응…",
@@ -766,11 +766,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "벽도 처음 보는 재질이야, 설마… 최첨단 건축 자재같은 건가?",
@@ -803,11 +803,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "마침 저 앞에 사람이 있으니 한 번 물어봐야겠다… 저기——",
@@ -935,11 +935,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			bgName = "star_level_bg_503",
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "루이빌의 목소리야. 네가 데리러 온 사람도 도착한 모양이야.",
@@ -952,17 +952,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흐음... 소리를 들으니 이제 곧 모퉁이에서 돌아나올 것 같아.",
@@ -1013,12 +1013,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			soundeffect = "event:/battle/firework",
 			say = "파바팡—— (축하 폭죽 폭발음)",
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,11 +1028,11 @@ return {
 			expression = 7,
 			side = 0,
 			bgName = "star_level_bg_503",
-			hideOther = true,
-			dir = 1,
-			actorName = "루이빌&프린스턴",
-			actor = 103270,
 			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 103270,
+			hideOther = true,
+			actorName = "루이빌&프린스턴",
 			say = "꺄아아아악——! 무슨 상황이지…!?",
 			pos = {
 				x = -300
@@ -1056,8 +1056,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1104,11 +1104,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네! 전 인디펜던스급 2번함 프리스턴이에요. NY사령부에서 전근되어 오늘부로 별의 바다 기지 소속이랍니다.",
@@ -1201,12 +1201,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			hideOther = true,
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			hideOther = true,
 			actorName = "괌&노샘프턴Ⅱ",
 			bgName = "star_level_bg_503",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "네! 아니요.",
 			subActors = {
@@ -1228,8 +1228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1241,12 +1241,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			bgName = "star_level_bg_503",
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_503",
 			hideOther = true,
 			actorName = "괌&노샘프턴Ⅱ",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "굉장히 중요한 프로그램이에요! 괌의 취미용 영상이라고 할 수 있죠.",
 			subActors = {
@@ -1267,12 +1267,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			bgName = "star_level_bg_503",
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_503",
 			hideOther = true,
 			actorName = "괌&노샘프턴Ⅱ",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "촬영에 협조해주시면 감사하겠습니다! 괌은 신경 쓸 필요 없어요. 우린 어서 가요.",
 			subActors = {
@@ -1387,11 +1387,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...그렇다면, 질문이 하나 있어요.",
@@ -1519,11 +1519,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런데 공교롭게도 알래스카 언니는 지금 공무로 출장 중이어서 당분간 별의 바다에 없답니다.",
@@ -1575,11 +1575,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이렇게 실망한 모습이라니… 설마 새러토가와 알래스카 언니 때문에 이곳에 온 건가요?",
@@ -1593,11 +1593,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그, 그건 아니에요… 이곳에 온 건 순전히 인디펜던트급 II형 의장의 실행 가능성 검토에 협조하라는 명령을 받았기 때문이랍니다.",
@@ -1630,11 +1630,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이건 제가 자료를 받고 정리한 질문들이에요.",
@@ -1667,8 +1667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1772,11 +1772,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "촬영과 기록은 괌이 담당할 테니, 길 안내와 설명은 노샘프턴한테 맡길게.",
@@ -1809,9 +1809,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
 			asideType = 1,
+			blackBg = true,
 			bgm = "theme-ucnf-image",
 			effects = {
 				{
@@ -1855,8 +1855,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

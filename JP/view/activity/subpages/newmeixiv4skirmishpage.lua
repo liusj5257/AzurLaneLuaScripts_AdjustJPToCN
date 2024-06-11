@@ -1,6 +1,6 @@
 slot0 = class("NewMeixiV4SkirmishPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.battleBtn = slot0:findTF("battle_btn", slot0.bg)
 	slot0.progressBar = slot0:findTF("progress/bar", slot0.bg)
@@ -11,13 +11,13 @@ function slot0.OnInit(slot0)
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0:initTaskData()
 
 	return updateActivityTaskStatus(slot0.activity)
 end
 
-function slot0.initTaskData(slot0)
+slot0.initTaskData = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskGroup = pg.activity_template[ActivityConst.NEWMEIXIV4_SKIRMISH_ID].config_data
 	slot0.taskList = {}
@@ -32,7 +32,7 @@ function slot0.initTaskData(slot0)
 	slot0:SetCurIndex()
 end
 
-function slot0.SetClearNum(slot0)
+slot0.SetClearNum = function(slot0)
 	slot0.clearTaskNum = 0
 
 	for slot4, slot5 in ipairs(slot0.taskList) do
@@ -44,7 +44,7 @@ function slot0.SetClearNum(slot0)
 	end
 end
 
-function slot0.SetCurIndex(slot0)
+slot0.SetCurIndex = function(slot0)
 	slot0.curTaskIndex = 1
 
 	for slot4, slot5 in ipairs(slot0.taskList) do
@@ -62,7 +62,7 @@ function slot0.SetCurIndex(slot0)
 	slot0.curTaskIndex = slot0.curTaskIndex + slot0.clearTaskNum
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.battleBtn, function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.NEWMEIXIV4_SKIRMISH, {
 			taskList = uv0.taskList
@@ -81,7 +81,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.uilist:align(#slot0.taskList)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0:SetCurIndex()
 	setText(slot0.curNum, string.format("%02d", slot0.curTaskIndex))
 	setText(slot0.curSection, "POSITION " .. string.format("%02d", slot0.curTaskIndex))
@@ -93,7 +93,7 @@ function slot0.OnUpdateFlush(slot0)
 	}
 end
 
-function slot0.IsShowRed()
+slot0.IsShowRed = function()
 	slot0 = getProxy(TaskProxy)
 	slot3 = {}
 
@@ -103,7 +103,7 @@ function slot0.IsShowRed()
 		end
 	end
 
-	function slot4()
+	slot4 = function()
 		for slot3, slot4 in ipairs(uv0) do
 			if uv1:getTaskById(slot4) or uv1:getFinishTaskById(slot4) then
 				return slot3 - 1

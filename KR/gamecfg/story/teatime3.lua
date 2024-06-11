@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -247,8 +247,8 @@ return {
 		{
 			say = "그 후, 다과회에서",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,8 +276,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "이 과자 되게 맛있어! 누가 만든 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "자매의 정이 느껴지는 맛이네요.",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "이나즈마, 그렇게 보지 마…… 알았다고! 에든버러에게 '스콘' 만드는 법을 배울게! ……이것처럼 맛있게 만들 수 있을진 모르겠지만! ",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:14}",
 			dir = -1,
+			actorName = "{namecode:14}",
 			say = "괜찮아요, 이카즈치가 맛있게 만들 수 있을 때까지, 이나즈마는 기다릴 거에요.",
 			typewriter = {
 				speed = 0.05,
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			say = "한편, 아카츠키는……",
 			blackBg = true,
+			say = "한편, 아카츠키는……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			say = "【N28°E167°】",
 			blackBg = true,
+			say = "【N28°E167°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "사쿠라 엠파이어의 북쪽, 이렇게 따뜻할 줄은……노스 유니온?! 겁먹을까 보냐!",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIGUANQIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区附近海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "港区附近海域",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -256,17 +256,17 @@ return {
 			}
 		},
 		{
-			actor = 101170,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "……有人在那……？",
 			bgm = "story-1",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "……有人在那……？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -294,8 +294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "啊噗噜噜噜、救、救命噗噜噜噜噜！要、要淹死了！",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -353,8 +353,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "噗噜噜噜噜……（咦？说起来我是AI应该不用呼吸才对吧！）",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "哗——！",
 			typewriter = {
 				speed = 0.05,
@@ -423,9 +423,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "拉菲全速前进，把穿着粉白色衣服的神秘人从海里捞了出来。",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "谢谢妳呜呜呜！救了我一命——！",
 			typewriter = {
@@ -470,8 +470,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -483,8 +483,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "……拉菲酱！？",
 			typewriter = {
@@ -500,8 +500,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "好高兴——！没想到居然能遇到真正的拉菲酱——！（抱",
 			typewriter = {
@@ -514,8 +514,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,8 +559,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "诶诶诶！骗人的吧！？难道妳忘了吗！和我一起越过重重磨难的那些日子！",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -631,15 +631,15 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "…冷静下来了吗？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -683,8 +683,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "本来就想着总有一天要见到真正的大家～这下算是实现愿望了呢！",
 			typewriter = {
@@ -713,12 +713,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "“第四面墙”之类的……？",
 			side = 0,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "“第四面墙”之类的……？",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -893,11 +893,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900179,
+			nameColor = "#a9f548",
 			say = "哼哼哼～既然都说到这份上了，就给妳们演示一下吧！锵咔锵咔锵咔～锵！",
 			typewriter = {
 				speed = 0.05,
@@ -909,8 +909,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.3,
 					x = 0,
@@ -922,8 +922,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "……诶？奇怪了，没有生成…我重来一次哦！嘿！（晃）嘿！（摇）",
 			typewriter = {
@@ -936,8 +936,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_ourdoor",
 			dir = 1,
 			say = "砰！",
@@ -1047,11 +1047,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			dir = 1,
 			say = "咚！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1110,13 +1110,13 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:6}，各位，没事吧？",
 			bgm = "story-1",
+			actor = 303110,
+			nameColor = "#a9f548",
+			say = "{namecode:6}，各位，没事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1130,10 +1130,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "{namecode:66}酱～～～～！谢谢～～～～！（抱",
+			dir = 1,
+			actor = 900179,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1215,8 +1215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "困难时刻提供帮助的猫神大人出现了━━━━ლ(´ڡ`ლ)━━━━!!",
 			typewriter = {
@@ -1229,11 +1229,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "呼喵！？不要突然抱过来喵！",
 			typewriter = {
 				speed = 0.05,
@@ -1245,8 +1245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1255,15 +1255,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "她说这个“随机单词生成器”似乎能连接到许多不同的空间",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1336,11 +1336,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "诶！？镜、镜面海域吗？！这个箱子里！？",
 			typewriter = {
 				speed = 0.05,
@@ -1352,8 +1352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1365,8 +1365,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "妳说什么！这是不把BUG修好就回不去的套路吗！？",
 			typewriter = {
@@ -1395,11 +1395,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "直接钻进去就好了哦。就像这样",
 			typewriter = {
 				speed = 0.05,
@@ -1411,8 +1411,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -1484,12 +1484,12 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900179,
+			nameColor = "#a9f548",
 			say = "嗯！谢谢～那就出击～！嘿、嘿、喔～！",
 			typewriter = {
 				speed = 0.05,
@@ -1501,8 +1501,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0

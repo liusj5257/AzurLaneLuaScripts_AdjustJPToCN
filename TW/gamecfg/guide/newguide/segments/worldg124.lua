@@ -21,11 +21,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 64.54,
+					rotateY = 0,
 					posY = -44.8,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 64.54
 				}
 			}
 		},
@@ -37,11 +37,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		},
@@ -56,11 +56,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		},
@@ -73,9 +73,9 @@ return {
 			style = {
 				text = "潛艇編隊的彈藥歸零後，將無法在當前海域中呼叫潛艇支援。",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 0,
 				posX = 0
 			},
 			showSign = {

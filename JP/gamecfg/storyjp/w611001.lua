@@ -1,12 +1,12 @@
 return {
-	id = "W611001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W611001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン要塞の掃討に成功した。セイレーン転送装置かエリア移動（マップ間際に艦隊を移動しマップ外側をタップ）でここから脱出しよう。",
 			painting = {
 				alpha = 0.3,

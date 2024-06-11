@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "偶像大师联动 fever 镜头效果",
 	time = 3,
-	color = "blue",
+	name = "偶像大师联动 fever 镜头效果",
+	init_effect = "",
+	id = 8761,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8761,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{

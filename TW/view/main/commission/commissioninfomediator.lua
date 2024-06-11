@@ -15,7 +15,7 @@ slot0.GET_CLASS_RES = "CommissionInfoMediator:GET_CLASS_RES"
 slot0.FINISH_CLASS_ALL = "CommissionInfoMediator:FINISH_CLASS_ALL"
 slot0.GO_META_BOSS = "CommissionInfoMediator:GO_META_BOSS"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 	slot0:bind(uv0.GO_META_BOSS, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.WORLDBOSS)
@@ -98,12 +98,12 @@ function slot0.register(slot0)
 	slot0:Notify()
 end
 
-function slot0.Notify(slot0)
+slot0.Notify = function(slot0)
 	slot0.viewComponent:NotifyIns(getProxy(InstagramProxy), getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM))
 	slot0.viewComponent:UpdateLinkPanel()
 end
 
-function slot0.continueClass(slot0, slot1, slot2, slot3)
+slot0.continueClass = function(slot0, slot1, slot2, slot3)
 	slot5 = getProxy(BayProxy):getShipById(slot1)
 
 	if table.getCount(getProxy(BagProxy):getItemsByType(Item.LESSON_TYPE) or {}) <= 0 then
@@ -121,7 +121,7 @@ function slot0.continueClass(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.HARVEST_RES_DONE,
@@ -133,7 +133,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
@@ -246,7 +246,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.HandleClassMaxLevel(slot0, slot1, slot2, slot3, slot4)
+slot0.HandleClassMaxLevel = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = i18n("tactics_end_to_learn", slot1:getName(), getSkillName(slot3), slot4)
 
 	if _.all(slot1:getSkillList(), function (slot0)

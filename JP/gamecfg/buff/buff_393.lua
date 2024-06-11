@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 6,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 393,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 393,
+	color = "yellow",
 	icon = 393,
 	last_effect = "Darkness",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = 0.08
+				number = 0.08,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

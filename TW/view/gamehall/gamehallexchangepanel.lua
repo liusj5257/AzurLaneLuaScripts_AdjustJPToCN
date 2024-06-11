@@ -1,6 +1,6 @@
 slot0 = class("GameHallExchangePanel")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 	slot0._parentTf = slot2
 	slot0._event = slot3
@@ -57,7 +57,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	setActive(findTF(slot0._tf, "top/bg/infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
 end
 
-function slot0.exchangeCoin(slot0)
+slot0.exchangeCoin = function(slot0)
 	if slot0.coinCount == 0 then
 		return
 	end
@@ -68,7 +68,7 @@ function slot0.exchangeCoin(slot0)
 	})
 end
 
-function slot0.coinCountChange(slot0)
+slot0.coinCountChange = function(slot0)
 	if slot0.coinCount < 0 then
 		slot0.coinCount = 0
 	end
@@ -92,7 +92,7 @@ function slot0.coinCountChange(slot0)
 	setText(slot0.disCountText, slot3 .. "%OFF")
 end
 
-function slot0.getDiscount(slot0, slot1)
+slot0.getDiscount = function(slot0, slot1)
 	if slot1 <= 0 then
 		slot1 = 1
 	end
@@ -104,7 +104,7 @@ function slot0.getDiscount(slot0, slot1)
 	return 0
 end
 
-function slot0.getPriceByCount(slot0, slot1)
+slot0.getPriceByCount = function(slot0, slot1)
 	for slot5 = #slot0.gameCoinGold, 1, -1 do
 		if slot0.gameCoinGold[slot5][1] < slot1 then
 			return slot6[2]
@@ -114,7 +114,7 @@ function slot0.getPriceByCount(slot0, slot1)
 	return 0
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot0.coinCount = 0
 	slot0.myCoinCount = getProxy(GameRoomProxy):getCoin()
 	slot0.myGold = getProxy(PlayerProxy):getRawData().gold
@@ -124,7 +124,7 @@ function slot0.updateUI(slot0)
 	slot0:coinCountChange()
 end
 
-function slot0.setVisible(slot0, slot1)
+slot0.setVisible = function(slot0, slot1)
 	if slot1 then
 		slot0.bulrFlag = true
 
@@ -139,11 +139,11 @@ function slot0.setVisible(slot0, slot1)
 	slot0:updateUI()
 end
 
-function slot0.getVisible(slot0)
+slot0.getVisible = function(slot0)
 	return isActive(slot0._tf)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	if slot0.bulrFlag == true then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 

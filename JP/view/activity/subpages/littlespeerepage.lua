@@ -5,7 +5,7 @@ slot0.IMAGE_MAX_SCALE = Vector3(2, 2, 2)
 slot0.TEXT_ANI_TIME = 0.3
 slot0.TEXT_MAX_SCALE = Vector3(3, 3, 3)
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.heartTpl = slot0:findTF("HeartTpl", slot0.bg)
@@ -19,7 +19,7 @@ function slot0.OnInit(slot0)
 	slot0.performReBtn = slot0:findTF("perform_re_btn", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
 	slot1 = slot0.activity
@@ -74,7 +74,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.inGetProcess = false
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2 = slot0.ptData:GetLevelProgress()
@@ -110,7 +110,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnGetBtnClick(slot0)
+slot0.OnGetBtnClick = function(slot0)
 	if slot0.inGetProcess then
 		return
 	end

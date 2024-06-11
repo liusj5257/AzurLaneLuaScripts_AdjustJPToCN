@@ -1,12 +1,12 @@
 slot0 = class("WorldMediaCollectionMemoryGroupLayer", import(".WorldMediaCollectionSubLayer"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionMemoryGroupUI"
 end
 
 slot0.PAGE_ACTIVITY = 2
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 
@@ -15,11 +15,11 @@ function slot0.OnInit(slot0)
 	end)
 	slot0.memoryGroupList = slot0:findTF("GroupRect"):GetComponent("LScrollRect")
 
-	function slot0.memoryGroupList.onInitItem(slot0)
+	slot0.memoryGroupList.onInitItem = function(slot0)
 		uv0:onInitMemoryGroup(slot0)
 	end
 
-	function slot0.memoryGroupList.onUpdateItem(slot0, slot1)
+	slot0.memoryGroupList.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateMemoryGroup(slot0 + 1, slot1)
 	end
 
@@ -110,17 +110,17 @@ function slot0.OnInit(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	setActive(slot0.memoryTogGroup, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0.memoryTogGroup, false)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.SwitchMemoryFilter(slot0, slot1)
+slot0.SwitchMemoryFilter = function(slot0, slot1)
 	if slot1 == 1 then
 		slot0.memoryFilterIndex = {
 			true,
@@ -140,7 +140,7 @@ function slot0.SwitchMemoryFilter(slot0, slot1)
 	end
 end
 
-function slot0.MemoryFilter(slot0)
+slot0.MemoryFilter = function(slot0)
 	table.clear(slot0.memoryGroups)
 
 	slot2 = not _.all(slot0.memoryFilterIndex, function (slot0)
@@ -166,7 +166,7 @@ function slot0.MemoryFilter(slot0)
 	setActive(slot0.memoryActivityTogGroup, slot2)
 end
 
-function slot0.onInitMemoryGroup(slot0, slot1)
+slot0.onInitMemoryGroup = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -179,7 +179,7 @@ function slot0.onInitMemoryGroup(slot0, slot1)
 	end, SOUND_BACK)
 end
 
-function slot0.onUpdateMemoryGroup(slot0, slot1, slot2)
+slot0.onUpdateMemoryGroup = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -202,7 +202,7 @@ function slot0.onUpdateMemoryGroup(slot0, slot1, slot2)
 	end) .. "/" .. #slot3.memories)
 end
 
-function slot0.Return2MemoryGroup(slot0)
+slot0.Return2MemoryGroup = function(slot0)
 	if not slot0.contextData.memoryGroup then
 		return
 	end
@@ -220,7 +220,7 @@ function slot0.Return2MemoryGroup(slot0)
 	slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, slot0:GetIndexRatio(slot2))
 end
 
-function slot0.SwitchReddotMemory(slot0)
+slot0.SwitchReddotMemory = function(slot0)
 	slot1 = 0
 	slot2 = getProxy(PlayerProxy):getRawData().id
 
@@ -239,7 +239,7 @@ function slot0.SwitchReddotMemory(slot0)
 	slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, slot0:GetIndexRatio(slot1))
 end
 
-function slot0.GetIndexRatio(slot0, slot1)
+slot0.GetIndexRatio = function(slot0, slot1)
 	slot2 = 0
 
 	if slot1 > 0 then
@@ -251,7 +251,7 @@ function slot0.GetIndexRatio(slot0, slot1)
 	return slot2
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	setAnchoredPosition(slot0:findTF("GroupRect"), {
 		x = WorldMediaCollectionScene.WorldRecordLock() and 0 or slot0.rectAnchorX
 	})
@@ -263,7 +263,7 @@ function slot0.UpdateView(slot0)
 	end
 end
 
-function slot0.UpdateActivityBar(slot0)
+slot0.UpdateActivityBar = function(slot0)
 	for slot4, slot5 in ipairs(slot0.memoryActivityToggles) do
 		slot6 = slot0.activityFilter == slot4
 

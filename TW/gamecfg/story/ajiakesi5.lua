@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"我的美好回憶\n\n<size=45>五 可愛的小豬仔</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "醒來時，發現自己躺在房間的床上。",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "醒來時，發現自己躺在房間的床上。",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "頭很暈。看來是感冒了。",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "阿賈克斯換下敷在額頭的濕毛巾，還端來了碗粥（和勺子）。",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "來，張嘴吧？啊——。",
 			typewriter = {
 				speed = 0.05,
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "好了，再來一次，啊～？",
 			typewriter = {
 				speed = 0.05,
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "要快點好起來哦，小豬仔♡",
 			typewriter = {
 				speed = 0.05,

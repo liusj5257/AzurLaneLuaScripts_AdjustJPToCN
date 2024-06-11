@@ -2,11 +2,11 @@ slot0 = class("SelectSkinLayer", import(".SkinAtlasScene"))
 slot0.MODE_SELECT = 1
 slot0.MODE_VIEW = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SelectSkinUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.SECOND_LAYER
@@ -15,11 +15,11 @@ function slot0.init(slot0)
 	slot0.msgBox = SelectSkinMsgbox.New(slot0._tf, slot0.event)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 end
 
-function slot0.GetSkinList(slot0, slot1, slot2)
+slot0.GetSkinList = function(slot0, slot1, slot2)
 	slot3 = slot0.contextData.selectableSkinList or {}
 	slot4 = {}
 
@@ -34,7 +34,7 @@ function slot0.GetSkinList(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.SortDisplay(slot0, slot1)
+slot0.SortDisplay = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		if slot0:GetTimeLimitWeight() == slot1:GetTimeLimitWeight() then
 			if slot0:GetOwnWeight() == slot1:GetOwnWeight() then
@@ -48,7 +48,7 @@ function slot0.SortDisplay(slot0, slot1)
 	end)
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = SelectSkinCard.New(slot1)
 
 	onButton(slot0, slot2._tf, function ()
@@ -62,7 +62,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 	end
@@ -72,7 +72,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot0.cards[slot2]:Update(slot4:ToShipSkin(), slot1 + 1, slot4:IsTimeLimit(), slot4:OwnSkin())
 end
 
-function slot0.Check(slot0, slot1)
+slot0.Check = function(slot0, slot1)
 	if getProxy(ShipSkinProxy):hasSkin(slot1.id) then
 		return
 	end
@@ -98,7 +98,7 @@ function slot0.Check(slot0, slot1)
 	})
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0.msgBox:Destroy()
 	uv0.super.willExit(slot0)

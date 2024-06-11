@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_112 = {}
 slot1 = slot0.word_template_112
 
-function temp()
+temp = function()
 	uv0["裤"] = {
 		["袜"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["买"] = {
 		["春"] = {
 			this = true,
@@ -114,7 +114,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["免"] = {
 		["费"] = {
 			["成"] = {
@@ -255,7 +255,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["捏"] = {
 		["弄"] = {
 			this = true

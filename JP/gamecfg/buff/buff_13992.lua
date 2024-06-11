@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "魔王之庇护",
 	time = 0,
+	name = "魔王之庇护",
+	init_effect = "",
 	picture = "",
 	desc = "z驱触发效果",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				quota = 1,
 				skill_id = 13992,
+				quota = 1,
 				target = {
 					"TargetSelf"
 				}

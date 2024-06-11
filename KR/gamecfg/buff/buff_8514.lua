@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "潘多拉的魔盒",
 	time = 0,
+	name = "潘多拉的魔盒",
+	init_effect = "",
 	picture = "",
 	desc = "潘多拉的魔盒",
 	stack = 1,
@@ -17,9 +17,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -53,9 +53,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING15",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
 			blackBg = true,
 			sequence = {
@@ -54,10 +54,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "上層部が裏で運び出した骨董品を保存する倉庫――",
 			painting = {
 				alpha = 0.3,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "トリチェリ、どう思う？",
 			painting = {
 				alpha = 0.3,
@@ -128,10 +128,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "勘弁してくれ。あの子を捕まえるのは骨が折れる",
 			painting = {
 				alpha = 0.3,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とにかくトリチェリ、君の勘が頼りだ",
 			painting = {
 				alpha = 0.3,
@@ -188,10 +188,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヴェネトと私はずっと前から怪しいと思っていたが、どう頑張っても手がかりが見つからなかった",
 			painting = {
 				alpha = 0.3,
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そこでトリチェリ、君にはこの場所を一度調べてもらって――",
 			painting = {
 				alpha = 0.3,
@@ -272,30 +272,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "リットリオが踵を返し倉庫から出ようとしたその瞬間――",
 			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "リットリオが踵を返し倉庫から出ようとしたその瞬間――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -303,9 +303,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			nameColor = "#ff5c5c",

@@ -1,19 +1,19 @@
 return {
-	id = "WORLD304E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304E",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900286,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "只依靠一種型號代行者有點不太夠嗎，那再稍微再增加點......",
 			bgm = "xinnong-2",
+			actor = 900286,
+			nameColor = "#ff5c5c",
+			say = "只依靠一種型號代行者有點不太夠嗎，那再稍微再增加點......",
 			flashin = {
 				delay = 0.1,
 				dur = 0.1,
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900287,
+			actorName = "？？？",
 			say = "XIV，發現G的行蹤了.......妳這是在？別玩了，快回來。",
 			typewriter = {
 				speed = 0.05,
@@ -52,10 +52,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900286,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900286,
+			nameColor = "#ff5c5c",
 			say = "終於抓到了嗎......代行者XIV「Purification」，隱匿。",
 			typewriter = {
 				speed = 0.05,
@@ -67,16 +67,16 @@ return {
 			}
 		},
 		{
-			actor = 105140,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "敵人的攻擊突然全部停止了，不對！連敵人本身都消失了？",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			actor = 105140,
+			nameColor = "#a9f548",
+			say = "敵人的攻擊突然全部停止了，不對！連敵人本身都消失了？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "這就是我剛才想說的能被這些奇怪塞壬近身的複雜原因......",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "現在親眼見到也不得不相信了，這些塞壬可能真的使用了某種光學隱身技術.......這就是仲裁機關嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -160,11 +160,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/26/tb-26",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "狀態更新中：系統故障已經排除完畢，與主機的連接已恢復，請問是否要將作戰記錄發送至司令部？",
-			voice = "event:/tb/26/tb-26",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,8 +208,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "不對勁......大家有在海面上看到任何戰鬥中被破壞的敵人殘骸嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "只要建立了前哨站，我們就可以進行就地維護了。大家再堅持一下，繼續前進！",
 			typewriter = {
 				speed = 0.05,

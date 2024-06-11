@@ -1,31 +1,31 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YADE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YADE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
-					"“好孩子”的偷懒时间\n\n<size=45>六　补偿的时间</size>",
+					"「好孩子」的偷懶時間\n\n<size=45>補償的時間</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_133",
-			say = "港区·室外泳池",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#A9F548FF",
+			say = "港區·室外泳池",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,10 +49,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "早呀指挥官，能按时赴约是好孩子呢。",
+			say = "早呀指揮官，能準時赴約是個好孩子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,10 +66,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "{namecode:491}因为忍耐不住夏天的酷热，就先换好泳装独享泳池了。",
+			say = "亞德因為忍耐不住夏天的酷熱，就先換好泳裝獨享泳池了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,10 +83,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "指挥官，要不要先来根冰棍解解暑？",
+			say = "指揮官，要不要先來根冰棒解解暑？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,8 +100,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
 			say = "我舔～",
 			painting = {
@@ -114,21 +114,21 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
-			say = "{namecode:491}将刚舔过一口的冰棍递了过来——",
+			say = "亞德將剛舔過一口的冰棒遞了過來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "接过",
+					content = "接過",
 					flag = 1
 				},
 				{
-					content = "犹豫",
+					content = "猶豫",
 					flag = 2
 				}
 			}
@@ -137,11 +137,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
 			optionFlag = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "不给你～",
+			say = "不給你～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,11 +155,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
 			optionFlag = 2,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "不想要吗？",
+			say = "不想要嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,10 +173,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "别的冰棍放在泳池边上的箱子里，想吃的时候自己拿就行了哦。",
+			say = "別的冰棒放在泳池邊的箱子裡，想吃的時候自己拿就行了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,10 +189,10 @@ return {
 		{
 			actor = 406031,
 			side = 2,
-			bgName = "star_level_bg_133",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "对了，我最近听到了一个传闻。",
+			bgName = "star_level_bg_133",
+			say = "對了，我最近聽到了一個傳聞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,10 +206,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "说是指挥官其实很擅长游泳，甚至厉害到能和潜艇们一较高下的地步了。",
+			say = "說是指揮官其實很擅長游泳，甚至厲害到能和潛艇們一較高下的地步了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,10 +223,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "不介意的话，能让{namecode:491}见识一下吗？",
+			say = "不介意的話，能讓亞德見識一下嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,10 +240,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "也不用那么快，慢慢推着{namecode:491}的游泳圈在泳池里前进就行~",
+			say = "也不用那麼快，慢慢推著亞德的游泳圈在泳池裡前進就行~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,10 +254,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
-			say = "传闻好像有些过于夸张了！",
+			say = "傳聞好像有些過於誇張了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,10 +269,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
-			say = "不过只是推着游泳圈在水里前进的话——",
+			say = "不過只是推著游泳圈在水裡前進的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,11 +281,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_133",
 			actor = 406031,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对、对、就是这样～",
+			say = "對、對、就是這樣～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,17 +295,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -316,10 +316,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "奖励你一块西瓜，籽已经挑掉了，啊——",
+			say = "獎勵你一塊西瓜，籽已經挑掉了，啊——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,10 +333,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "就像给推车加燃料一样的感觉，真有趣，呼呼～",
+			say = "就像幫推車加燃料一樣的感覺，真有趣，呼呼～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,10 +350,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "趁现在拍个照好了，指挥官，看手机镜头——",
+			say = "趁現在拍個照好了，指揮官，看手機鏡頭——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,11 +367,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			soundeffect = "event:/ui/kuaimen",
+			actor = 406031,
 			nameColor = "#A9F548FF",
 			say = "三、二、一、茄子～",
-			soundeffect = "event:/ui/kuaimen",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,10 +400,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "要不这就发个juus……还是算了，先存在《和指挥官的偷懒时间》里吧。",
+			say = "不然就來發個juus……還是算了，先存在《和指揮官的偷懶時間》裡吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,10 +417,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "嗯？指挥官，速度慢下来了哦，是游累了吗？",
+			say = "嗯？指揮官，速度慢下來了哦，是游累了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,10 +439,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "要不要回泳池边休息一下？除了冰棍以外，我还准备了别的零食。",
+			say = "要不要回泳池邊休息一下？除了冰棒以外，我還準備了別的零食。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,10 +456,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_133",
-			actor = 406031,
 			dir = 1,
+			actor = 406031,
 			nameColor = "#A9F548FF",
-			say = "反正指挥官今天一整天都是{namecode:491}的，时间还有很长，慢慢来就行～",
+			say = "反正指揮官今天一整天都是亞德的，時間還有很長，慢慢來就行～",
 			painting = {
 				alpha = 0.3,
 				time = 1

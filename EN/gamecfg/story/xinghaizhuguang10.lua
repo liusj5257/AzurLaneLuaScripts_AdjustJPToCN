@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
+			bgm = "theme-aostelab",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "NY City Simulation - Testing Area",
-			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "A hulking beast clad in black armor approached from the horizon.",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "There was a massive tank hung on the beast's back, filled with a liquid substance that vaporized into a red steam that blanketed the area.",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "At its front was an armored protrusion, like a knight's helmet...",
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "And atop it sat a little girl wearing a black, frilly dress.",
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -209,8 +209,8 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Princeton",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(She's talking to us, like a civilized person?)",
 			painting = {
@@ -228,9 +228,9 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 107230,
 			actorName = "Princeton",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(That's unlike what I've come to expect from the Sirens...)",
 			painting = {
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Laffey II",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Laffey II",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -383,8 +383,8 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Princeton",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(I don't like this... I'm starting to feel kinship with a Siren.)",
 			painting = {
@@ -402,9 +402,9 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 107230,
 			actorName = "Princeton",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(Why is she so different? I don't think we've fought any Arbiter as talkative as her before.)",
 			painting = {
@@ -417,12 +417,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Laffey II",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Devil XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "Good. Engaging Annihilation Mode!",
 			painting = {

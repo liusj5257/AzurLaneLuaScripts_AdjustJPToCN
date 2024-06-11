@@ -1,6 +1,6 @@
 slot0 = class("RenameShipCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.name
 
@@ -35,7 +35,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	function slot8()
+	slot8 = function()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(12034, {

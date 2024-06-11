@@ -6,11 +6,11 @@ slot3 = {
 	COMPOSE = 1
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ItemInfoUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = slot0:getWeightFromData()
 	})
@@ -69,7 +69,7 @@ function slot0.init(slot0)
 	slot0.operateMaxButton = slot0.operatePanel:Find("count/max")
 end
 
-function slot0.setDrop(slot0, slot1)
+slot0.setDrop = function(slot0, slot1)
 	if slot1.type == DROP_TYPE_SHIP then
 		slot0:setItemInfo(slot1, slot0.itemTF)
 	elseif slot1.type == DROP_TYPE_ITEM then
@@ -81,7 +81,7 @@ function slot0.setDrop(slot0, slot1)
 	end
 end
 
-function slot0.setItemInfo(slot0, slot1, slot2)
+slot0.setItemInfo = function(slot0, slot1, slot2)
 	updateDrop(slot2:Find("left/IconTpl"), setmetatable({
 		count = 0
 	}, {
@@ -98,11 +98,11 @@ function slot0.setItemInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateItemCount(slot0, slot1)
+slot0.updateItemCount = function(slot0, slot1)
 	slot0.countTF.text = slot1
 end
 
-function slot0.setItem(slot0, slot1)
+slot0.setItem = function(slot0, slot1)
 	slot0:setItemInfo(slot1, slot0.itemTF)
 
 	slot0.itemVO = slot1:getSubClass()
@@ -186,7 +186,7 @@ function slot0.setItem(slot0, slot1)
 	end
 end
 
-function slot0.closeView(slot0)
+slot0.closeView = function(slot0)
 	if slot0.playing then
 		return
 	end
@@ -194,7 +194,7 @@ function slot0.closeView(slot0)
 	uv0.super.closeView(slot0)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	if slot0:findTF("OpenBox(Clone)") then
 		SetActive(slot1, false)
 	end
@@ -305,7 +305,7 @@ function slot0.didEnter(slot0)
 	end)()
 end
 
-function slot0.UpdateCount(slot0, slot1)
+slot0.UpdateCount = function(slot0, slot1)
 	if slot0.operateMode == uv0.COMPOSE then
 		if not slot0.itemVO:getConfig("target_id") or slot2 <= 0 then
 			return false
@@ -317,7 +317,7 @@ function slot0.UpdateCount(slot0, slot1)
 	end
 end
 
-function slot0.SetOperateCount(slot0, slot1)
+slot0.SetOperateCount = function(slot0, slot1)
 	if slot0.operateMode == uv0.COMPOSE then
 		if not slot0.itemVO:getConfig("target_id") or slot2 <= 0 then
 			return
@@ -338,7 +338,7 @@ function slot0.SetOperateCount(slot0, slot1)
 	end
 end
 
-function slot0.UpdateComposeCount(slot0)
+slot0.UpdateComposeCount = function(slot0)
 	slot1 = slot0.operateCount
 
 	setText(slot0.operateValue, slot1)
@@ -354,7 +354,7 @@ function slot0.UpdateComposeCount(slot0)
 
 	slot6 = #slot2
 
-	function slot7(slot0, slot1, slot2)
+	slot7 = function(slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -375,7 +375,7 @@ function slot0.UpdateComposeCount(slot0)
 	setActive(slot0.keepFateTog, false)
 end
 
-function slot0.UpdateResolvePanel(slot0)
+slot0.UpdateResolvePanel = function(slot0)
 	slot1 = slot0.operateCount
 
 	setText(slot0.operateValue, slot1)
@@ -392,7 +392,7 @@ function slot0.UpdateResolvePanel(slot0)
 
 	slot7 = #slot3
 
-	function slot8(slot0, slot1, slot2)
+	slot8 = function(slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -420,7 +420,7 @@ function slot0.UpdateResolvePanel(slot0)
 	setButtonEnabled(slot0.operateBtns.Resolve, slot1 > 0)
 end
 
-function slot0.UpdateBlueprintResolveNum(slot0)
+slot0.UpdateBlueprintResolveNum = function(slot0)
 	slot1 = slot0.itemVO.count
 
 	if slot0.itemVO:getConfig("type") == Item.BLUEPRINT_TYPE then
@@ -435,7 +435,7 @@ function slot0.UpdateBlueprintResolveNum(slot0)
 	slot0.operateMax = slot1
 end
 
-function slot0.UpdateSpeedUpResolveNum(slot0)
+slot0.UpdateSpeedUpResolveNum = function(slot0)
 	slot1 = slot0.itemVO.count
 
 	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
@@ -443,7 +443,7 @@ function slot0.UpdateSpeedUpResolveNum(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.leftEventTrigger then
 		ClearEventTrigger(slot0.leftEventTrigger)
 	end
@@ -455,7 +455,7 @@ function slot0.willExit(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.PlayOpenBox(slot0, slot1, slot2)
+slot0.PlayOpenBox = function(slot0, slot1, slot2)
 	if not slot1 or slot1 == "" then
 		slot2()
 

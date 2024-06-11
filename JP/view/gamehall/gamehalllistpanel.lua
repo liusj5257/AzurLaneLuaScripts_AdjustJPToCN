@@ -1,7 +1,7 @@
 slot0 = class("GameHallListPanel")
 slot1 = false
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 	slot0.content = findTF(slot0._tf, "ad/viewport/content")
@@ -46,7 +46,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setVisible(slot0, slot1)
+slot0.setVisible = function(slot0, slot1)
 	setActive(slot0._tf, slot1)
 
 	if slot1 and getProxy(GameRoomProxy):ticketMaxTip() and not GameRoomProxy.ticket_remind then
@@ -63,11 +63,11 @@ function slot0.setVisible(slot0, slot1)
 	end
 end
 
-function slot0.getVisible(slot0)
+slot0.getVisible = function(slot0)
 	return isActive(slot0._tf)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG22",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bsm-2",
+			say = "Location unknown - Time unknown",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "Location unknown - Time unknown",
+			bgm = "bsm-2",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,12 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			actorShadow = true,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			nameColor = "#ff5c5c",
 			say = "Data compilation complete. And so, another legacy has been documented.",
 			typewriter = {
 				speed = 0.05,
@@ -48,12 +48,12 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			actorShadow = true,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "Only took us like a million years. Sure, it's a task from the depths of the repository, but does it really take that much computing power?",
 			typewriter = {
 				speed = 0.05,
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			side = 2,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			nameColor = "#ff5c5c",
 			say = "There's more to art than the final product, you know. Reproducibility is an important element as well.",
 			typewriter = {
 				speed = 0.05,
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			side = 2,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			nameColor = "#ff5c5c",
 			say = "Or are you saying that there's some error within our database?",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			expression = 2,
 			actorShadow = true,
 			side = 2,
-			actor = 900233,
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
 			nameColor = "#ff5c5c",
 			say = "Ugh, I forgot how pointless it is to argue with you. Whatever, forget I said anything.",
 			typewriter = {
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			side = 2,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			nameColor = "#ff5c5c",
 			say = "Oh, you're dropping the topic? Shame. I was hoping to hear about your little vacation.",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			expression = 1,
 			actorShadow = true,
 			side = 2,
-			actor = 900233,
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
 			nameColor = "#ff5c5c",
 			say = "My what now?",
 			typewriter = {
@@ -152,12 +152,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			side = 2,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			nameColor = "#ff5c5c",
 			say = "Conductor saw you. Said you were really enjoying yourself. You thought we wouldn't find out?",
 			typewriter = {
 				speed = 0.05,
@@ -172,9 +172,9 @@ return {
 			expression = 2,
 			actorShadow = true,
 			side = 2,
-			actor = 900233,
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
 			nameColor = "#ff5c5c",
 			say = "...…",
 			typewriter = {
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			side = 2,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			nameColor = "#ff5c5c",
 			say = "Would you look at the time, I need to get back to work. Don't worry, I'll keep your little misbehavior a secret. I've nothing to gain from reporting it.",
 			typewriter = {
 				speed = 0.05,
@@ -207,9 +207,9 @@ return {
 			expression = 3,
 			actorShadow = true,
 			side = 2,
-			actor = 900233,
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
 			nameColor = "#ff5c5c",
 			say = "...Uh-huh. Got it.",
 			typewriter = {

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_305 = {}
 slot1 = slot0.word_template_305
 
-function temp()
+temp = function()
 	uv0["逍"] = {
 		["遥"] = {
 			["游"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["硝"] = {
 		["化"] = {
 			["丙"] = {
@@ -101,7 +101,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["销"] = {
 		["魂"] = {
 			this = true,
@@ -734,7 +734,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嘵"] = {
 		this = {
 			this = true
@@ -744,7 +744,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["銷"] = {
 		["魂"] = {
 			["洞"] = {
@@ -898,7 +898,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["校"] = {
 		["服"] = {
 			["美"] = {
@@ -952,7 +952,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["歇"] = {
 		["逼"] = {
 			this = true

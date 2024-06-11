@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX BOSS攻击百分比移除发射器血量",
 	time = 5,
-	color = "blue",
+	name = "2023英系活动 EX BOSS攻击百分比移除发射器血量",
+	init_effect = "",
+	id = 200278,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200278,
+	color = "blue",
 	icon = 200278,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 4,
+				target = "TargetSelf",
 				skill_id = 200281
 			}
 		},
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 4.1,
+				target = "TargetSelf",
 				skill_id = 200279
 			}
 		}

@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING22",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "セントヘレナ島。審判廷要塞から出撃したアイリスの艦隊がこの海域に集結した。",
 			bgm = "theme-richelieu",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "セントヘレナ島。審判廷要塞から出撃したアイリスの艦隊がこの海域に集結した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "リシュリューの目の前で、自由アイリス教国を象徴する無数の旗がはためいている。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "そして自由アイリス教国でもヴィシア聖座でもなく、一つだった頃の「アイリス」の旗印もそこにあった。",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "リシュリューの心は晴れやかで、この掲げられた旗印に鼓舞されたかのように闘志に満ち溢れている。",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "遠方の海を眺めると、霧の中にいつの間にか「扉」が現れていた。",
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "コンパイラーが残した、不安定ながらも作動し続ける微粒子転送装置。",
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "その先にあるのは穏やかな海ではなく、焔と硝煙に満ちる戦場の光景――",
@@ -106,10 +106,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（テリブル、審判廷の要塞で探していたのはこれなのよね）",
 			painting = {
 				alpha = 0.3,
@@ -124,10 +124,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（でも審判廷はなぜセイレーン技術をここまで扱えているの…？）",
 			painting = {
 				alpha = 0.3,
@@ -142,10 +142,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（クレマンソー、あなたは一体どこまでこの状況に関わっているの…）",
 			painting = {
 				alpha = 0.3,
@@ -157,12 +157,12 @@ return {
 			}
 		},
 		{
-			actor = 902020,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 902020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "リシュリューさま、そろそろ時間です",
 			painting = {
 				alpha = 0.3,
@@ -177,10 +177,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。そうですね…ようやく…",
 			painting = {
 				alpha = 0.3,
@@ -195,10 +195,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……………",
 			painting = {
 				alpha = 0.3,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "簡素な演説台に立ち、リシュリューは深呼吸してマイクのスイッチを入れた。",
@@ -224,10 +224,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――アイリスの同胞たちよ",
 			painting = {
 				alpha = 0.3,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "自由アイリス教国――その指導者たる存在の声に艦船たちは静かに耳を傾ける。",
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "聴衆の数はそう多くない。しかしみんな共に戦ってきた――もしくはこれから共に戦っていく――仲間たちだ。",
@@ -264,10 +264,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "同胞たちよ、その扉の先を見るのです",
 			painting = {
 				alpha = 0.3,
@@ -279,12 +279,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そこにあるのは、怨敵に蹂躙されし青き航路",
 			painting = {
 				alpha = 0.3,
@@ -299,10 +299,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そこにあるのは、危機に晒されたアイリスの大地と空",
 			painting = {
 				alpha = 0.3,
@@ -317,10 +317,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "敵の数は多く、世界博覧会で現れた異変は今も我らの世界を蝕んでいます",
 			painting = {
 				alpha = 0.3,
@@ -335,10 +335,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "戦局は厳しい。指揮官も、アイリスの艦船たちも、アズールレーンの艦船たちは戦い続けています",
 			painting = {
 				alpha = 0.3,
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そしてもちろん、ヴィシアの艦船たちも…。",
 			painting = {
 				alpha = 0.3,
@@ -370,10 +370,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "仲間たちはまさに、私たちの助けを必要としています",
 			painting = {
 				alpha = 0.3,
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "海霧の「扉」の向こうの光景は、転送準備が整うにつれてどんどん鮮明になっている。",
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "艦砲が放つ爆炎、異形の敵、空から降りてくる巨大な機械、白く染まっていく海。",
@@ -410,10 +410,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "自由アイリス教国、ヴィシア聖座は元々一つの存在",
 			painting = {
 				alpha = 0.3,
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「アイリス教国」として存在していました",
 			painting = {
 				alpha = 0.3,
@@ -445,10 +445,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかし、「再現」によって同胞たちが分かたれ、陰謀によってお互い刃を向けるようになりました",
 			painting = {
 				alpha = 0.3,
@@ -460,12 +460,12 @@ return {
 			}
 		},
 		{
-			actor = 805010,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こんな現状は決して我々が望んだものではなく",
 			painting = {
 				alpha = 0.3,
@@ -480,10 +480,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ましてやアイリスのあるべき姿ではないのです",
 			painting = {
 				alpha = 0.3,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "一拍置いて、再び仲間たちの姿を見渡し――",
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			say = "そして演説台に立てている、普段掲げていない戦旗に手を伸ばす。",
@@ -520,10 +520,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
 			dir = 1,
-			actorName = "リシュリュー",
 			nameColor = "#A9F548FF",
+			actorName = "リシュリュー",
+			hidePaintObj = true,
 			say = "「再現」が果たされてから、ロイヤルで旗を揚げた時から共に戦ってくれる仲間たち",
 			painting = {
 				alpha = 0.3,
@@ -534,8 +534,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -552,12 +552,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そして、この大義ある戦いの途中から加勢してくれた仲間たち",
 			painting = {
 				alpha = 0.3,
@@ -572,10 +572,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私は、枢機卿リシュリューは、共に戦った時間の長さであなたたちを区別しません",
 			painting = {
 				alpha = 0.3,
@@ -587,12 +587,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「あるべきアイリスのために戦う」",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "同じ志に基づいて私たちはここにいるのですから",
 			painting = {
 				alpha = 0.3,
@@ -625,10 +625,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私たちは、アイリスの海が汚されるのを座視するわけにはいきません！",
 			painting = {
 				alpha = 0.3,
@@ -643,10 +643,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私たちは、決して仲間たちが苦しんでいるのを無視しません！",
 			painting = {
 				alpha = 0.3,
@@ -661,10 +661,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "誇り高き戦士たちは、セイレーンにも「再現」にも、ありとあらゆるアイリスに仇なす敵に決して屈しません！",
 			painting = {
 				alpha = 0.3,
@@ -679,10 +679,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "扉の向こうにいるのが人類の文明を滅ぼす災いだとしても、私たちのやることは一つ",
 			painting = {
 				alpha = 0.3,
@@ -697,10 +697,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "抗い、そしてアイリスの名の下で最後まで戦い続けます！",
 			painting = {
 				alpha = 0.3,
@@ -715,10 +715,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "枢機卿リシュリュー、この神聖なる旗印に誓います",
 			painting = {
 				alpha = 0.3,
@@ -730,12 +730,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この命が尽きるまで仲間たちと共に戦い続け",
 			painting = {
 				alpha = 0.3,
@@ -750,10 +750,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "敵を倒し、栄光ある勝利を愛する故郷に捧げると――！",
 			painting = {
 				alpha = 0.3,
@@ -765,12 +765,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さあ！同胞たちよ！出撃する時です！",
 			painting = {
 				alpha = 0.3,
@@ -785,10 +785,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "リシュリュー",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "全艦、抜錨！光あるアイリスへ――帰還せよ！！",
 			effects = {
 				{
@@ -806,10 +806,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			say = "艦船たちの主機が放つ轟音は、まるで万雷の拍手の如く。",
 			effects = {
 				{
@@ -823,8 +823,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			say = "「アイリス」の偉大なる遠征が今、始まった。",
@@ -834,8 +834,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -867,20 +867,20 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			bgm = "story-clemenceau-judgement",
 			say = "ヴィシア・アイリス艦隊と異形の敵の交戦が続く。",
+			bgm = "story-clemenceau-judgement",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			say = "水面に残っている残骸の数は、艦船たちが無数の敵を撃破してきたことを物語っている。",
@@ -890,8 +890,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			say = "それでも――艦船たちの必死の努力を以てしても――異形の攻勢を完全に阻止することはできなかった。",
@@ -901,8 +901,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			say = "視界内の最後の敵を粉砕したが、ジャン・バールは海面に膝をつき、周りの傷ついた仲間たちを見渡した。",
@@ -912,8 +912,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			say = "継戦能力はもう限界に達している。次の一波が来れば全滅するだろう。",
@@ -923,12 +923,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "……くそ……",
 			painting = {
 				alpha = 0.3,
@@ -940,12 +940,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "やけになるな…ジャン・バール……",
 			painting = {
 				alpha = 0.3,
@@ -957,12 +957,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "お前の選択は間違っていないはずだ…",
 			painting = {
 				alpha = 0.3,
@@ -974,12 +974,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "だが…この結果はなんだ…オレのせいでみんな……",
 			painting = {
 				alpha = 0.3,
@@ -1048,12 +1048,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "（そうだな……どうすれば……）",
 			painting = {
 				alpha = 0.3,
@@ -1065,12 +1065,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "（クレマンソーがおかしくなった。指揮官たちも会場の敵に足止めされている……どうすればいいんだ……）",
 			painting = {
 				alpha = 0.3,
@@ -1082,8 +1082,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			say = "通信機でアイリスの同胞に後退を伝えると、ジャン・バールは呆然と海面に座り込んだ。",
@@ -1093,22 +1093,22 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_underheaven_cg7",
 			bgm = "story-french2",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1122,12 +1122,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "諦めないで、ジャン・バール",
 			painting = {
 				alpha = 0.3,
@@ -1139,12 +1139,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "ねえ……さん……？",
 			painting = {
 				alpha = 0.3,
@@ -1156,12 +1156,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "くっ…最期の走馬灯か……あの黒い太陽のような幻覚か……",
 			painting = {
 				alpha = 0.3,
@@ -1173,12 +1173,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "指揮官はここにいない。そんなに都合よく姉さんがいるわけないだろう……",
 			painting = {
 				alpha = 0.3,
@@ -1190,12 +1190,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「私たちは導く存在、どんな時でも決して希望を失ってはいけません」",
 			painting = {
 				alpha = 0.3,
@@ -1207,12 +1207,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「私たちが諦めれば、ヒトの輝かしい未来は閉ざされてしまいます」",
 			painting = {
 				alpha = 0.3,
@@ -1224,12 +1224,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「だから戦い続けましょう。最後の光がかき消されるまで――」",
 			painting = {
 				alpha = 0.3,
@@ -1241,12 +1241,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "あいつの受け売りか？姉さんも変わっちまったな…幻覚ならもっと優しい姉さんにしてほしいところだが――",
 			painting = {
 				alpha = 0.3,
@@ -1258,12 +1258,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_underheaven_cg7",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――！！！！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1309,8 +1309,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			say = "砲撃の轟音が響き、静かだった海を再び戦闘の喧騒で包み込んだ。",
@@ -1320,8 +1320,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			say = "「神の痕」より生み出された異形の敵が、再び水平線に現れた。",
@@ -1331,8 +1331,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			say = "しかし、その攻撃はジャン・バールたちに向けられたものではなかった。",
@@ -1345,10 +1345,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
+			actorName = "ヴォークラン",
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "ヴォークラン",
+			hidePaintObj = true,
 			say = "ジャン・バールさん！援軍だ！援軍がやってきた！",
 			painting = {
 				alpha = 0.3,
@@ -1363,10 +1363,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
+			actorName = "ヴォークラン",
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "ヴォークラン",
+			hidePaintObj = true,
 			say = "海霧から、アイリスのみんなと審判廷の戦闘天使たちが出てきた！！",
 			painting = {
 				alpha = 0.3,
@@ -1381,10 +1381,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
+			actorName = "ヴォークラン",
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "ヴォークラン",
+			hidePaintObj = true,
 			say = "敵が逃げている！助かったよ！ジャン・バールさん！！",
 			painting = {
 				alpha = 0.3,
@@ -1399,10 +1399,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
+			actorName = "ダンケルク",
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "ダンケルク",
+			hidePaintObj = true,
 			say = "ふぅ……もう沈む覚悟をしていたけど…いいタイミングね…",
 			painting = {
 				alpha = 0.3,
@@ -1417,10 +1417,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
+			actorName = "ダンケルク",
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "ダンケルク",
+			hidePaintObj = true,
 			say = "でも審判廷の戦闘天使がいるってことは…クレマンソーのあれは演技だったの？",
 			painting = {
 				alpha = 0.3,
@@ -1432,8 +1432,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			say = "何もかもわからないことだらけだった。",
@@ -1443,8 +1443,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			say = "審判廷が攻撃を仕掛けさせたのなら、なぜ今更助けてくるのか？",
@@ -1454,12 +1454,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "どういうことだ…アイリスと、審判廷が…？",
 			painting = {
 				alpha = 0.3,
@@ -1471,12 +1471,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "それにさっき聞いた姉さんの声…まさか……",
 			painting = {
 				alpha = 0.3,
@@ -1488,12 +1488,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "遅くなってごめんなさい。ジャン・バール",
 			painting = {
 				alpha = 0.3,
@@ -1505,12 +1505,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「どんなに絶望的な状況になっても、希望を失ってはなりません」",
 			painting = {
 				alpha = 0.3,
@@ -1522,12 +1522,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「でなければ、希望が訪れるその瞬間を掴み取れませんから」",
 			painting = {
 				alpha = 0.3,
@@ -1539,12 +1539,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "……枢機卿リシュリュー……何をしに来た",
 			painting = {
 				alpha = 0.3,
@@ -1556,12 +1556,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "まさかオレをからかいに来たんじゃないだろうな…",
 			painting = {
 				alpha = 0.3,
@@ -1573,12 +1573,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ううん。私は大事な人を助けに来たんですよ",
 			painting = {
 				alpha = 0.3,
@@ -1590,12 +1590,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "姉さんと呼びかけてくれた、大事な妹を",
 			painting = {
 				alpha = 0.3,
@@ -1607,12 +1607,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "……………",
 			painting = {
 				alpha = 0.3,
@@ -1624,12 +1624,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "時々、もっと姉さんと呼んでほしいなって思うんです",
 			painting = {
 				alpha = 0.3,
@@ -1641,12 +1641,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "例えば今みたいな感動的な再会の時とか…ですね",
 			painting = {
 				alpha = 0.3,
@@ -1658,12 +1658,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ね・え・さ・んって、もし呼んでくれたら……",
 			painting = {
 				alpha = 0.3,
@@ -1675,12 +1675,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ffff4d",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "ジャン·バール",
+			hidePaintObj = true,
 			say = "………っ……姉さん",
 			dialogShake = {
 				speed = 0.08,
@@ -1697,12 +1697,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ごめんなさい。やっぱり調子に乗りすぎましたね",
 			painting = {
 				alpha = 0.3,
@@ -1714,12 +1714,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "敵がまだ残っていますし、手短に本題に入りましょう",
 			painting = {
 				alpha = 0.3,
@@ -1731,12 +1731,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "コンパイラーが残した転送装置を使いましたけど、思ったより時間がかかりました",
 			painting = {
 				alpha = 0.3,
@@ -1748,12 +1748,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "世界博覧会の状況はテリブルから聞いています。これからは指揮官の応援に向かいます",
 			painting = {
 				alpha = 0.3,
@@ -1765,12 +1765,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ただ、これはあくまでアイリス陣営の決定であり、私にはヴィシアに命令する権限はありません",
 			painting = {
 				alpha = 0.3,
@@ -1782,12 +1782,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ジャン・バール、一緒に来てくれますか？",
 			painting = {
 				alpha = 0.3,
@@ -1799,12 +1799,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "…「聖座の冠」を手に入れたやつからヴィシアからの追放を言い渡された",
 			painting = {
 				alpha = 0.3,
@@ -1816,12 +1816,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "今ここにいるのはヴィシア艦隊ではなく、単なるさすらい者だ",
 			painting = {
 				alpha = 0.3,
@@ -1833,12 +1833,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ジャン・バール……それって……",
 			painting = {
 				alpha = 0.3,
@@ -1850,8 +1850,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			say = "立ち上がり、深呼吸して通信機のスイッチを入れる。",
@@ -1860,17 +1860,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1878,12 +1878,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "マルコ・ポーロに追放された艦船たちに告ぐ！こちらは戦艦ジャン・バールだ！",
 			painting = {
 				alpha = 0.3,
@@ -1895,12 +1895,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これより自由アイリス教国艦隊と合流し、枢機卿リシュリューと共にアイリスのために戦う！",
 			painting = {
 				alpha = 0.3,
@@ -1912,12 +1912,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オレはもうみんなに命令する立場じゃない",
 			painting = {
 				alpha = 0.3,
@@ -1929,12 +1929,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それでも…オレと一緒に、アイリスを汚すこの憎き化け物たちを駆逐してくれ！！",
 			painting = {
 				alpha = 0.3,
@@ -1949,10 +1949,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 807020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ジャン・バールさん……！",
 			painting = {
 				alpha = 0.3,
@@ -1986,10 +1986,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 904010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "当然よ。例え追放されても、みんなジャン・バールについていくわ",
 			painting = {
 				alpha = 0.3,
@@ -2001,12 +2001,12 @@ return {
 			}
 		},
 		{
-			actor = 902010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アルジェリーに続いてジャン・バールもやっと素直になったのね",
 			painting = {
 				alpha = 0.3,
@@ -2018,12 +2018,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………ようやく、か……",
 			painting = {
 				alpha = 0.3,
@@ -2035,12 +2035,12 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_underheaven_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうだな………",
 			painting = {
 				alpha = 0.3,
@@ -2055,17 +2055,17 @@ return {
 			bgName = "bg_underheaven_cg8",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -2079,8 +2079,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			say = "戦闘でボロボロになったヴィシアの旗を横に置き、ジャン・バールはリシュリューに片膝をついた。",
@@ -2090,8 +2090,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			say = "すると、リシュリューは手に持っているアイリスの旗印をジャン・バールの肩にかけた。",
@@ -2101,12 +2101,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アイリス教国枢機卿リシュリューがここに宣言します",
 			painting = {
 				alpha = 0.3,
@@ -2118,12 +2118,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不当に剥奪された、ジャン・バールのアイリス教国艦隊における身分・階級をすべて回復します",
 			painting = {
 				alpha = 0.3,
@@ -2135,12 +2135,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここにいるヴィシア所属の艦船たち全員も同様です",
 			painting = {
 				alpha = 0.3,
@@ -2152,12 +2152,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一緒に戦ってください。ジャン・バール",
 			painting = {
 				alpha = 0.3,
@@ -2169,12 +2169,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……………",
 			painting = {
 				alpha = 0.3,
@@ -2186,12 +2186,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アイリスの神聖なる御意志のままに",
 			painting = {
 				alpha = 0.3,
@@ -2203,12 +2203,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ジャン·バール",
+			side = 1,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "枢機卿リシュリュー、我が姉妹艦の命じるがままに",
 			painting = {
 				alpha = 0.3,
@@ -2220,12 +2220,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………おかえり、ジャン・バール",
 			painting = {
 				alpha = 0.3,
@@ -2237,12 +2237,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "リシュリュー",
+			side = 0,
 			bgName = "bg_underheaven_cg8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "遅くなってごめんね",
 			painting = {
 				alpha = 0.3,
@@ -2254,8 +2254,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			say = "艦船たちの歓声が轟く。",
@@ -2265,8 +2265,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			say = "誰も気づかない戦場の一角で、一部始終を見届けたガスコーニュは静かに去っていった。",

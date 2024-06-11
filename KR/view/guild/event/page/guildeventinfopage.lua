@@ -1,10 +1,10 @@
 slot0 = class("GuildEventInfoPage", import(".GuildEventBasePage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildEventInfoPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.icon = slot0:findTF("frame/icon"):GetComponent(typeof(Image))
 	slot0.goBtn = slot0:findTF("frame/go_btn")
@@ -29,7 +29,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/cnt/progress/label"), i18n("guild_join_event_progress_label"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -68,8 +68,8 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.JoinEvent(slot0)
-	function slot1()
+slot0.JoinEvent = function(slot0)
+	slot1 = function()
 		slot0, slot1 = uv0.activeEvent:GetMainMissionCntAndFinishCnt()
 
 		if slot1 ~= 0 then
@@ -94,12 +94,12 @@ function slot0.JoinEvent(slot0)
 	end
 end
 
-function slot0.Refresh(slot0, slot1, slot2)
+slot0.Refresh = function(slot0, slot1, slot2)
 	slot0:UpdateData(slot1, slot2, slot0.extraData)
 	slot0:UpdateBtnState()
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 	slot0.gevent = slot0.extraData.gevent
 	slot1 = slot0.gevent
 	slot0.icon.sprite = GetSpriteFromAtlas("guildevent/i_" .. slot1.id, "")
@@ -117,7 +117,7 @@ function slot0.OnShow(slot0)
 	slot0:UpdateBtnState()
 end
 
-function slot0.UpdateBtnState(slot0)
+slot0.UpdateBtnState = function(slot0)
 	slot0.activeEvent = slot0.guild:GetActiveEvent()
 
 	setActive(slot0.goBtn, not slot0.activeEvent)
@@ -133,7 +133,7 @@ function slot0.UpdateBtnState(slot0)
 	end
 end
 
-function slot0.UpdateAwards(slot0, slot1)
+slot0.UpdateAwards = function(slot0, slot1)
 	slot0.awardList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -151,7 +151,7 @@ function slot0.UpdateAwards(slot0, slot1)
 	slot0.awardList:align(#slot1:GetDisplayAward())
 end
 
-function slot0.UpdateMissions(slot0, slot1)
+slot0.UpdateMissions = function(slot0, slot1)
 	slot0.missionList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot2:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("GuildEventIcon", uv0[slot1 + 1])

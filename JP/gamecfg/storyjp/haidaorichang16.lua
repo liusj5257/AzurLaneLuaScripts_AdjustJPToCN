@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"潮風と夏の無人島\n\n<size=45>青空のお茶会</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "晴れ渡る空の下、艦船たちのお茶会は大盛況を見せた――",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "晴れ渡る空の下、艦船たちのお茶会は大盛況を見せた――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg3",
 			mode = 1,
+			bgName = "bg_summerisland_cg3",
 			sequence = {
 				{
 					"",
@@ -56,17 +56,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニュージャージー",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニュージャージー",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "逸仙",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "逸仙",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ベルファスト",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ベルファスト",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ベルファスト",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "デザートを受け取り、ベルファストに礼を言った。",
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン・エリザベス",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン・エリザベス",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン・エリザベス",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン・エリザベス",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン・エリザベス",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン・エリザベス",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろんよ！重桜が温泉地を開発しているって言うし、こっちも引けを取るわけにはいかないじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クイーン・エリザベス",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それぐらい、下僕に言われなくてもわかるわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "逸仙",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニュージャージー",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニュージャージー",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニュージャージー",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ニュージャージー",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "各陣営が力を合わせたおかげで、島の開発はどんどん進んでいる。",
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "しばらくロイヤル・フォーチュンを見かけていないこと以外、すべて順調と言えるが―",
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "どこもかしこも盛り上がりを見せている中、どうも引っかかることがある。",
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "何かを忘れているような……何か……",
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィットリオ·ヴェネト",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニュージャージー",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニュージャージー",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "ニュージャージーに引っ張られ、席から立った瞬間、引っかかっていた「何か」を思い出した。",
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "…………今回の旅の目的は、「宝探し」じゃなかったっけ……？",

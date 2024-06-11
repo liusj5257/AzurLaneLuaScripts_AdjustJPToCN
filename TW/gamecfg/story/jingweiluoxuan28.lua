@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN28",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -41,12 +41,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "究竟是從什麼地方冒出來的…我這就開始索敵！",
 			typewriter = {
 				speed = 0.05,
@@ -61,10 +61,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "不需要，我有更簡單的方法哦。",
 			typewriter = {
@@ -80,10 +80,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "侵入開始，模組性能調整中—完成。",
 			typewriter = {
@@ -99,10 +99,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "怎麼樣，看到了嗎？",
 			typewriter = {
@@ -118,10 +118,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "噢噢，看到了！現在螢幕上出現了一個超清晰的強敵訊號！妳又幫我們升級了次雷達麼！",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,13 +143,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "只是暫時性的而已哦。",
 			typewriter = {
 				speed = 0.05,
@@ -209,10 +209,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "META。",
 			typewriter = {
@@ -228,10 +228,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "並非餘燼，更並非飛龍，發動襲擊的只是單純的META。",
 			typewriter = {
@@ -262,10 +262,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "餘燼是組織，META是本質。",
 			typewriter = {
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…這麼說來，妳也可以被歸類為META？",
 			typewriter = {
 				speed = 0.05,
@@ -298,10 +298,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "是。",
 			typewriter = {
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……這就有趣了。",
 			typewriter = {
 				speed = 0.05,
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "META能夠輕鬆的躲避我們的追蹤，卻能輕易被妳的雷達發現。",
 			typewriter = {
 				speed = 0.05,
@@ -351,10 +351,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不僅如此，妳甚至能通過某種方式使得與你同隊的我們也暫時獲得了對META的追蹤能力。",
 			typewriter = {
 				speed = 0.05,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "簡直就像對META作戰的熟練專家一樣啊~明明妳也是META？",
 			typewriter = {
 				speed = 0.05,
@@ -386,10 +386,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "……………………",
 			typewriter = {
@@ -405,10 +405,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "…這個問題現在不重要吧？",
 			typewriter = {
@@ -421,12 +421,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那要取決於妳對重要的定義了~",
 			typewriter = {
 				speed = 0.05,
@@ -441,10 +441,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不過至少META並不是鐵板一塊，而妳是站在我們這邊的，我這麼理解可以嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -459,10 +459,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "META是本質，並非組織。我是指揮官的友軍…這一點我可以向妳們保證。",
 			typewriter = {
@@ -475,12 +475,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那進入最後一個問題——為什麼我們已經能夠追蹤META的雷達上還是看不到妳啊？！",
 			typewriter = {
 				speed = 0.05,
@@ -495,10 +495,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "不要問蠢話。",
 			typewriter = {
@@ -514,10 +514,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嘿嘿嘿，知道妳想保持神秘感啦！",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -539,12 +539,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "強敵正在高速逼近。既然妳是站在我們這邊的，妳也會同我們一起迎擊的吧？",
 			typewriter = {
 				speed = 0.05,
@@ -559,10 +559,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "當然，這正是我此行的目的。",
 			typewriter = {
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "妳們的強大我早有耳聞…此次能與妳並肩戰鬥是我的榮幸！",
 			typewriter = {
 				speed = 0.05,
@@ -595,11 +595,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			blackBg = true,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "不…能再次與你並肩戰鬥是我的榮幸，紐澤西。",
 			typewriter = {

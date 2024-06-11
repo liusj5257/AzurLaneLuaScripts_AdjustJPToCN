@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level03",
+			say = "這裡是阿非利加大陸的離島，因為地處偏遠，戰火與紛爭都很少波及到這裡。",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "這裡是阿非利加大陸的離島，因為地處偏遠，戰火與紛爭都很少波及到這裡。",
+			bgm = "level03",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,9 +31,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "森林的蔥綠和風蝕的赤紅是這裡的標誌性顏色，一提到這裡，首先想到的可能是猢猻木和企鵝吧。",
 			typewriter = {
 				speed = 0.05,
@@ -45,9 +45,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "不過，正如所有事物都擁有的兩面性一樣，危險，往往就隱藏在平靜的表象之下。",
 			typewriter = {
 				speed = 0.05,
@@ -59,9 +59,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "此時此刻，一隻遠道而來的聯合艦隊正穿過寧靜的海峽，向著離島的方向駛去。",
 			typewriter = {
 				speed = 0.05,
@@ -73,9 +73,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_2",
+			dir = 1,
 			say = "阿非利加·莫三比克海峽",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "命運女神",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "光輝",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "貝亞恩",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "光輝",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,8 +199,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "光輝",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎胥留",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_2",
+			dir = 1,
 			say = "黎胥留閉上眼睛，微微苦笑了一下。",
 			typewriter = {
 				speed = 0.05,
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "光輝",
+			side = 2,
 			bgName = "bg_qiongding_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "我們也衷心希望統一的鳶尾教國能快點回來，為此，包括皇家在內整個碧藍航線都會堅定的站在妳身邊哦，樞機主教黎胥留。",
 			typewriter = {
 				speed = 0.05,

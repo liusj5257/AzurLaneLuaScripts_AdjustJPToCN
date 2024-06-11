@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 600074,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 600074,
 	effect_list = {
 		{
-			type = "BattleSkillDamage",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillDamage",
+			target_choise = "TargetSelf",
 			arg_list = {
 				rate = 0.2
 			}

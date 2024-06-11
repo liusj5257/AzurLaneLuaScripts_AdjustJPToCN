@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 6942,
 	picture = "",
 	desc = "煌翼炎龙",
 	stack = 1,
-	id = 6942,
+	color = "blue",
 	icon = 6900,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 38
+				number = 38,
+				attr = "loadSpeed"
 			}
 		}
 	}

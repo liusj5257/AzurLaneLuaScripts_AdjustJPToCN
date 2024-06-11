@@ -1,10 +1,10 @@
 slot0 = class("NenjuuMiniGameView", import("view.miniGame.BaseMiniGameView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NenjuuMiniGameUI"
 end
 
-function slot0.openUI(slot0, slot1)
+slot0.openUI = function(slot0, slot1)
 	if slot0.status then
 		setActive(slot0.rtTitlePage:Find(slot0.status), false)
 	end
@@ -46,7 +46,7 @@ function slot0.openUI(slot0, slot1)
 	})
 end
 
-function slot0.updateMainUI(slot0)
+slot0.updateMainUI = function(slot0)
 	slot1 = slot0:GetMGHubData()
 	slot2 = slot1:getConfig("reward_need")
 	slot5 = math.min(slot1.usedtime + 1, slot1.usedtime + slot1.count)
@@ -75,7 +75,7 @@ function slot0.updateMainUI(slot0)
 	slot0:checkGet()
 end
 
-function slot0.checkGet(slot0)
+slot0.checkGet = function(slot0)
 	if slot0:GetMGHubData().ultimate == 0 then
 		if slot1.usedtime < slot1:getConfig("reward_need") then
 			return
@@ -89,7 +89,7 @@ function slot0.checkGet(slot0)
 	end
 end
 
-function slot0.initPageUI(slot0)
+slot0.initPageUI = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtTitlePage = slot1:Find("TitlePage")
 	slot1 = slot0.rtTitlePage
@@ -200,7 +200,7 @@ function slot0.initPageUI(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.initLeveUI(slot0)
+slot0.initLeveUI = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtLevel = slot1:Find("LevelPage")
 	slot1 = slot0.rtLevel
@@ -240,7 +240,7 @@ slot1 = {
 	}
 }
 
-function slot0.UpdateOpreationPage(slot0, slot1)
+slot0.UpdateOpreationPage = function(slot0, slot1)
 	slot2 = slot0.rtLevel:Find("Opreation")
 
 	setText(slot2:Find("point/Text"), NenjuuGameConfig.ParsingElements(slot0:GetMGData():GetRuntimeData("elements") or {}).count)
@@ -355,7 +355,7 @@ function slot0.UpdateOpreationPage(slot0, slot1)
 	triggerToggle(slot2:Find("toggles/" .. slot1), true)
 end
 
-function slot2(slot0, slot1, slot2)
+slot2 = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(NenjuuGameConfig.ABILITY_LIST) do
 		if slot0[slot7] then
 			slot1 = slot1 + slot2[slot7]
@@ -365,7 +365,7 @@ function slot2(slot0, slot1, slot2)
 	return slot1
 end
 
-function slot0.openReadyPage(slot0)
+slot0.openReadyPage = function(slot0)
 	slot1 = NenjuuGameConfig.ParsingElements(slot0:GetMGData():GetRuntimeData("elements") or {})
 	slot2 = NenjuuGameConfig.GetStageConfig("Spring23Level_" .. slot0.stageIndex)
 
@@ -432,7 +432,7 @@ function slot0.openReadyPage(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.openRatePage(slot0)
+slot0.openRatePage = function(slot0)
 	slot1 = NenjuuGameConfig.ParsingElements(slot0:GetMGData():GetRuntimeData("elements") or {})
 	slot2 = NenjuuGameConfig.GetStageConfig("Spring23Level_" .. slot0.stageIndex)
 
@@ -495,7 +495,7 @@ function slot0.openRatePage(slot0)
 	end) + 1, #NenjuuGameConfig.ABILITY_LIST))
 end
 
-function slot0.initControllerUI(slot0)
+slot0.initControllerUI = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("Controller/top")
 
@@ -507,7 +507,7 @@ function slot0.initControllerUI(slot0)
 	end)
 end
 
-function slot0.SaveDataChange(slot0, slot1)
+slot0.SaveDataChange = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, slot1.high)
@@ -533,7 +533,7 @@ function slot0.SaveDataChange(slot0, slot1)
 	slot0:StoreDataToServer(slot2)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initPageUI()
 	slot0:initLeveUI()
 	slot0:initControllerUI()
@@ -544,7 +544,7 @@ function slot0.didEnter(slot0)
 	slot0:openUI("main")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	switch(slot0.status, {
 		main = function ()
 			if isActive(uv0.rtLevel:Find("Opreation")) then
@@ -585,7 +585,7 @@ function slot0.onBackPressed(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

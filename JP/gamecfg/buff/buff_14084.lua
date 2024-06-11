@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "提高航速",
 	stack = 1,

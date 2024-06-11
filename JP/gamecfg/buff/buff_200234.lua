@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "大洋联邦 防空快艇防空光环",
 	time = 0,
-	color = "yellow",
+	name = "大洋联邦 防空快艇防空光环",
+	init_effect = "",
+	id = 200234,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200234,
+	color = "yellow",
 	icon = 200234,
 	last_effect = "fangkongRing01",
 	effect_list = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -25,16 +25,16 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "준비는 아직입니까?! 적이 반격해오고 있습니다!",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			actor = 307040,
+			nameColor = "#92fc63",
+			say = "준비는 아직입니까?! 적이 반격해오고 있습니다!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			nameColor = "#92fc63",
 			side = 2,
-			say = "크아아아아아!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 307020,
+			say = "크아아아아아!!",
 			flashN = {
 				color = {
 					1,
@@ -197,16 +197,16 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:91}",
 			side = 2,
-			nameColor = "#92fc63",
-			say = "카가! 카가아아아아아아!!",
+			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#92fc63",
+			say = "카가! 카가아아아아아아!!",
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>……………………</size>",
@@ -294,15 +294,15 @@ return {
 			}
 		},
 		{
-			say = "……확실히…예전 이야기였지……",
 			side = 2,
 			bgName = "bg_story_tiancheng1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-tiancheng",
+			say = "……확실히…예전 이야기였지……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -323,8 +323,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#92fc63",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "앗!",
 			dialogShake = {
 				speed = 0.09,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "에잇, 한 판 더 둬!",
 			typewriter = {
 				speed = 0.05,
@@ -466,12 +466,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#92fc63",
 			say = "아아아아!!",
 			dialogShake = {
 				speed = 0.09,
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			nameColor = "#92fc63",
 			say = "아마기 언니 11연승~!",
 			typewriter = {
 				speed = 0.05,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -521,8 +521,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -537,8 +537,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -553,8 +553,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -569,8 +569,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -585,8 +585,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -601,14 +601,14 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#92fc63",
 			say = "나가토 언니, 무츠가 조금 알아봤는데…이번 참가자들은 다들 승부욕이 대단하대! 기대된다!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

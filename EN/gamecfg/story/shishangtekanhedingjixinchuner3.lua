@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Spring Festival II\n\n<size=45>3 Moonlit Boat Ride</size>",
@@ -14,14 +14,14 @@ return {
 			}
 		},
 		{
-			live2d = "main2",
+			hidePaintObj = true,
 			side = 2,
-			bgName = "bg_night",
 			dir = 1,
+			bgName = "bg_night",
 			bgm = "china-party",
 			actor = 199032,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main2",
 			say = "Teacher, look...!",
 			painting = {
 				alpha = 0.3,
@@ -32,17 +32,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Up in the sky... It's the moon...!",
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Pretty...",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "Anchorage, poised on the bow of the boat, leans forward and points up at the moon.",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "It peeks out of thick clouds blown about by the wind.",
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "Our boat floats atop the lake, which reflects the moonlight and lights above like a mural of stars.",
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "The moon's all shiny and pretty...!",
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "I relax and watch Anchorage go crazy over the beautiful moon.",
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Yeah...! Anchorage is having fun...!",
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Boat rides with Teacher are fun!",
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "The boat's rocking and bustling...",
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "It's neat!",
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "And my new clothes...",
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "You gave them to Anchorage... I love them!",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Anchorage has a present for you, too...!",
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "It's the moon!",
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "The moon in the sky... is for you!",
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Hehe... This time... Anchorage can teach you!",
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Take the moon... like this!",
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "Anchorage stands up and reaches out toward the moon.",
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "It looks as if she's taken it into her right hand.",
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "Join me, Teacher!",
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "Anchorage beckons, so I reach out my hand as well.",
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "Outstretched toward the night sky, our hands touch each other and encircle the moon.",
@@ -480,11 +480,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "We did it... We grabbed the moon!",
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "It's yours, Teacher...!",
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Do you like it...?",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "There's only one answer to that question.",
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Hehe... Me, too!",
@@ -569,11 +569,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Anchorage loves you, Teacher!",

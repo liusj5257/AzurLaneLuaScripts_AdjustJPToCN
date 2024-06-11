@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"素直になれないキモチ\n\n<size=45>三  聞き返してるんじゃないわよ！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……結局、そのままの足で執務室まで来てしまったわね",
 			bgm = "story-1",
+			actor = 205030,
+			nameColor = "#a9f548",
+			say = "……結局、そのままの足で執務室まで来てしまったわね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,15 +84,15 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "指揮官、いるなら返事くらいしなさいよ――って",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………。",
 			typewriter = {
 				speed = 0.05,
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――！",
 			typewriter = {
 				speed = 0.05,
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "うわっ！し、指揮官！？",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "疲れがたまっていたせいか、知らぬ間にうとうとしてしまっていたらしい……。",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "横にはいつの間にかネルソンがやってきていたらしい。ずいぶんと驚いているがどうしたのだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "あ、え、えーっと……その",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 1,
 					x = 30,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――っ！！",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "突然ネルソンに急かされ、慌てて寝ぼけ眼をこすりながら書類仕事を再開する。",
 			typewriter = {
 				speed = 0.05,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……？",
 			typewriter = {
 				speed = 0.05,
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "もしかしてまた怒っているのか…と思いながらペンを走らせると、ネルソンはデスクのそばを離れていく。",
 			typewriter = {
 				speed = 0.05,
@@ -425,9 +425,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そして――なぜかネルソンは突然隣に椅子を持ってくると、その場にどかっと座って言った。",
 			typewriter = {
 				speed = 0.05,
@@ -471,9 +471,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "いつものネルソンだったことに気づき、手伝ってほしいところを伝えた。",
 			typewriter = {
 				speed = 0.05,

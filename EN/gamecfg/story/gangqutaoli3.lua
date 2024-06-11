@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Escape from the Port?\n\n<size=45>Chapter 3 - An Angel's Aid?!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202180,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Good day. I am the Edinburg-class light cruiser and maid-in-training, Belfast. ",
 			bgm = "story-1",
+			actor = 202180,
+			nameColor = "#a9f548",
+			say = "Good day. I am the Edinburg-class light cruiser and maid-in-training, Belfast. ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -22.5,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "P-pleased to meet you. I am Hiei, a battlecruiser of the Sakura Empire.",
 			typewriter = {
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "We were kidnapped by the commander, and want to find out how to escape from here!",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "That's hard to say... but in any case, we'd like to see the ocean. Could you show us the way?",
 			typewriter = {
@@ -209,15 +209,15 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "This is the academy. Right now, classes are in session, so everyone is in class.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "(Everyone attending classes together... how peaceful...)",
 			typewriter = {
@@ -307,15 +307,15 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "If we keep going straight here, we'll see the Sakura shrine. People go there to pray during the New Year.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "(Huh? Hiei is shaking... why?)",
 			typewriter = {
@@ -439,14 +439,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 407020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Ahhh, I'm beat...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "Hmm? Didn't your port visit start at the docks?",
 			typewriter = {
 				speed = 0.05,

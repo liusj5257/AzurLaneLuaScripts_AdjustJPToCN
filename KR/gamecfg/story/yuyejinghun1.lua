@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -11,38 +11,38 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "――…………………",
-			blackBg = true,
 			bgm = "stopbgm",
+			blackBg = true,
+			say = "――…………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――여, 여기는 어디지……?",
+			side = 2,
 			bgm = "theme-highseasfleet-reborn",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――여, 여기는 어디지……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "눈을 뜨니, 그곳에는 처음 보는 천장이 있었다.",
@@ -61,8 +61,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "고풍스러운 인테리어에 은은한 조명, 세월이 느껴지는 가구… 그리고 테이블 위에 놓인 검은 상자처럼 보이는 '무언가'.",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "검은 상자에서 브리스톨의 목소리가 들려왔다.",
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "브리스톨은 갑자기 이야기를 읊조리기 시작했다. …그렇지만 상황이 상황인지라 전혀 머릿속에 들어오지 않는다.",
@@ -621,8 +621,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "불길한 단어가 들려 물어보려 했지만, 통신기에서는 아무런 응답이 없다.",

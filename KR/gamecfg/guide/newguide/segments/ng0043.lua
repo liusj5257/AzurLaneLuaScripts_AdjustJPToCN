@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "투표 시작까지 아직 시간이 남았습니다. 다른 구역을 한 번 둘러보는 건 어때요? (힌트: ! 표시 구역 클릭)",
 				mode = 1,
-				posY = 250,
 				dir = -1,
+				posY = 250,
 				posX = -92,
 				uiFunc = function ()
 					slot0 = {}

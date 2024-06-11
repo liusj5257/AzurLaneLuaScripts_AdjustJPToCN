@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"탄환과, 사랑을 담아\n\n<size=45>5. 휴일의 약속</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "모항-자신의 방",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#92fc63",
+			side = 2,
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "적, 적의 습격?!!",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "적, 적의 습격?!!",
+			bgm = "story-1",
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#92fc63",
 			say = "눈을 뜨자 보이는 것은 셰필드의 차가운 얼굴이었다. 방금 그 소리는 셰필드가 쏜 총소리인 것 같다.",
 			typewriter = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그렇다면……",
 			typewriter = {
 				speed = 0.05,
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#92fc63",
 			say = "주인님의 방도 분명 주인님처럼 난잡할 테니 한번 제대로 청소를 해야겠지요.",
 			effects = {
 				{
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "분명 그런 말을 했던 것 같기도 하다.",
 			effects = {
 				{
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…어쩐지 뭔가 냄새가 나더라니.",
 			typewriter = {
 				speed = 0.05,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……셰필드는 그렇게 말했지만 역시나 맛있는 아침이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "거실에서 청소하던 셰필드는 이쪽을 흘끗 보더니 다시 할 일을 하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -338,9 +338,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…역시 셰필드야. 방이 완전 새롭게 변신했다.",
 			typewriter = {
 				speed = 0.05,
@@ -390,12 +390,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#92fc63",
 			say = "편하게 셰피라고 불러주세요.",
 			typewriter = {
 				speed = 0.05,

@@ -1,15 +1,15 @@
 return {
-	id = "WORLD105A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-richang",
 			say = "企業、巴爾的摩、北卡羅來納.......這次攻略百慕達海域的艦隊總有種似曾相識的感覺啊。",
+			side = 2,
+			dir = 1,
+			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

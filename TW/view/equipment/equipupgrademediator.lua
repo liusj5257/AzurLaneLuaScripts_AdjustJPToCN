@@ -3,7 +3,7 @@ slot0.EQUIPMENT_UPGRDE = "EquipUpgradeMediator:EQUIPMENT_UPGRDE"
 slot0.REPLACE_EQUIP = "EquipUpgradeMediator:REPLACE_EQUIP"
 slot0.ON_ITEM = "EquipUpgradeMediator:ON_ITEM"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.bagProxy = getProxy(BagProxy)
 	slot1 = slot0.bagProxy
 	slot2 = slot0.viewComponent
@@ -23,9 +23,9 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_ITEM, function (slot0, slot1)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			yesText = "text_confirm",
 			hideNo = true,
 			content = "",
-			yesText = "text_confirm",
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = {
 				type = DROP_TYPE_ITEM,
@@ -45,7 +45,7 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.UPGRADE_EQUIPMENTS_DONE,
 		BagProxy.ITEM_UPDATED,
@@ -53,7 +53,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.UPGRADE_EQUIPMENTS_DONE then

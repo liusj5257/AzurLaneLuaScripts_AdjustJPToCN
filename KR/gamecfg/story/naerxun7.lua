@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"솔직하지 못한 마음\n\n<size=45>7. 난 언제라도 기대하고 있을 거야!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "과로로 쓰러진 며칠 뒤——",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "과로로 쓰러진 며칠 뒤——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "몸 상태가 많이 나아졌다. 마침 연습의 날이니까 가서 지켜보도록 할까.",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "먼발치에서 지켜보고 있던 시선을 알아차린 넬슨이 혼자 편대를 이탈해 다가왔다... 연습에는 문제없는 거지?!",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "다시 업무에 복귀했을 때 분명 그 자리에 있었을 텐데...",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "하고 싶은 말을 하지 못한 듯 넬슨은 조급해 보였다.",
 			typewriter = {
 				speed = 0.05,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "불과 몇 마디 만에 넬슨은 귀밑까지 빨갛게 달아올랐다.",
 			typewriter = {
 				speed = 0.05,
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "자존심이 강한 넬슨은 솔직하게 자신이 하고 싶은 말을 하지 못하고 항상 투덜거렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -278,9 +278,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "처음에는 다들 당황하지만, 그래도 넬슨의 상냥함을 알게 된다면 이렇게 사랑스러운 사람은 없을 것이라고 생각하게 된다.",
 			typewriter = {
 				speed = 0.05,
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "연, 연습하러 갈래! 잘 보고 있어, 지휘관!",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000

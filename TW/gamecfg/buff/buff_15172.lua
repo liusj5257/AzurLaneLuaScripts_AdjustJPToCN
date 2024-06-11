@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.05
+					number = -0.05,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.061
+					number = -0.061,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -126,8 +126,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.072
+					number = -0.072,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.083
+					number = -0.083,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -244,8 +244,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.094
+					number = -0.094,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -303,8 +303,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.105
+					number = -0.105,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -362,8 +362,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.116
+					number = -0.116,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -421,8 +421,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.127
+					number = -0.127,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -480,8 +480,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.138
+					number = -0.138,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -539,8 +539,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = -0.15
+					number = -0.15,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -589,9 +589,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 2,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "伤害降低",
 	stack = 1,
@@ -606,8 +606,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.05
+				number = -0.05,
+				attr = "damageRatioBullet"
 			}
 		},
 		{

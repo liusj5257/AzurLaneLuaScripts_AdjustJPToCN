@@ -6,9 +6,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			bgName = "star_level_bg_525",
 			bgm = "theme-tempest-up",
 			actor = 9600050,
 			nameColor = "#FEF15E",
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "저쪽 지휘관이 두르고 있는 기운… 익숙하지 않아?",
 			painting = {
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#FEF15E",
 			say = "이건 다 오해야!",
 			painting = {
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "우린 원래 가끔 사소한 악행만 저지르는 자유로운 해적이었어.",
 			painting = {
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "한창 밥을 먹는데 갑자기 거리에 소동이 벌어진 거야.",
 			painting = {
@@ -464,11 +464,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "음… 뭐랄까… 눈물을 자아내는 불쌍한 이벤트인데…",
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런데 좀… 웃기다고 해야 하나…",
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐, 그래도 용사니까 의협심을 발휘해야지!",
@@ -518,11 +518,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "돈이면 해결되는 거지? 얼마 전 요새에서 꽤 받았으니까…",
@@ -536,11 +536,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "자, 이 정도면 충분해?",
@@ -554,8 +554,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "자신 있는 표정으로 푸슌은 한 자루의 금화를 꺼내 털썩 바닥에 내려놓았다.",
 			typewriter = {
@@ -582,11 +582,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#FEF15E",
 			say = "글쎄… 이런 화폐는 본 적도 없는걸~",
 			painting = {
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "가, 가짜 돈?! 이건 왕성에서 사용되고 있는 진짜 금화라고!",
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

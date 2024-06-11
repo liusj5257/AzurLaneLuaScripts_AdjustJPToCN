@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "After the battle ended, we were formally invited to partake in the victory celebration at Sentinel Bastion.",
 			bgm = "story-mmorpg",
+			say = "After the battle ended, we were formally invited to partake in the victory celebration at Sentinel Bastion.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "This place serves as the center of operations for the wall's defenders. Yet, once upon a time, it was no more than an unremarkable little village.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "That changed when the Demon King Army assaulted the walls of the old castle, decimating it.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "Following its destruction, the heads of the last royal family of the old dynasty beseeched the goddesses for help. With their aid, this great wall was built, dividing the land in two.",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "It was thanks to this wall that the kingdom of humanity survived, narrowly escaping ruination at the hands of the Demon King Army.",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "Then, the Royal Capital was rebuilt, and the kingdom managed to prosper once more.",
 			typewriter = {
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "Little by little, this place – the beating heart of the great wall – became a second capital, growing into what is now known as Sentinel Bastion.",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "This brings us to today, where the streets are littered with colorful decor and the people cheer loudly.",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "To celebrate humanity's victory in an important battle.",
 			typewriter = {
@@ -112,27 +112,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
-			say = "Sentinel Bastion - Banquet Hall",
 			bgm = "qe-ova-15",
+			say = "Sentinel Bastion - Banquet Hall",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You should! I haven't even told you the most shocking detail yet...",
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You know the legendary hero's sword? All this time, it was actually shaped like a fish!",
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 801030,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Second-Rate Mage",
 			dir = 1,
+			actor = 801030,
 			nameColor = "#A9F548FF",
 			say = "Shaped like a fish? Come on, nobody's gonna believe that! You're just making it up!",
 			painting = {
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Am not! You think I would lie about something so lame?",
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -517,11 +517,11 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Knight Guard",
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
 			say = "I somehow don't believe that! Besides, a knight like me doesn't tire after one mere day of combat!",
 			painting = {
@@ -534,11 +534,11 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Knight Guard",
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
 			say = "I appreciate the thought, but please find someone else to give your drink.",
 			painting = {
@@ -588,8 +588,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -598,8 +598,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "A fun and friendly atmosphere hangs in the banquet air.",
 			typewriter = {
@@ -607,17 +607,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -625,8 +625,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "Prim and proper knights mingle and chat with laid-back adventurers, all having a good time.",
 			typewriter = {
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "And then there's me and the thought in the back of my mind that prevents me from really enjoying myself.",
 			typewriter = {
@@ -753,8 +753,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "It seems if I can't find fun at the banquet, the fun will find me.",
 			typewriter = {
@@ -877,29 +877,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			factiontag = "Commander",
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "Commander",
+			bgm = "story-richang-9",
+			actor = 0,
 			nameColor = "#A9F548FF",
 			say = "Urgh... What happened?",
-			bgm = "story-richang-9",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -919,8 +919,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "I feel something warm and soft against my head.",
 			typewriter = {
@@ -929,8 +929,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "Something smells nice, too...",
 			typewriter = {
@@ -1111,11 +1111,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "At any rate, it's good that you're safe. I have something important to discuss, so I'll go and gather your party members.",
 			painting = {
@@ -1128,27 +1128,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
-			say = "Sometime later, in Sentinel Bastion's assembly room...",
 			bgm = "story-musicanniversary-gorgeous",
+			say = "Sometime later, in Sentinel Bastion's assembly room...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1174,11 +1174,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Additionally, your party shall be granted permits to freely pass through Sentinel Bastion.",
 			painting = {
@@ -1209,11 +1209,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Later, you may also visit our armory and pick any weapons you'd like.",
 			painting = {
@@ -1226,11 +1226,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Wait, what was that about permits?",
@@ -1244,11 +1244,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Do you need a PERMIT to go off and kill the Demon King?",
@@ -1280,11 +1280,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "The Wasteland is dangerous, and our kingdom needs every warrior it can get. We cannot simply let people wander toward pointless deaths.",
 			painting = {
@@ -1297,11 +1297,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh... Good thing we decided to help defend the wall.",
@@ -1315,11 +1315,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Our journey to slay the Demon King would've been over without those permits.",
@@ -1351,11 +1351,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ahahahaha...",
@@ -1369,11 +1369,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Ahem... On behalf of Her Majesty, I would like to thank you all for your bravery in that battle.",
 			painting = {
@@ -1452,11 +1452,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "Fighting Angel",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "Commander, given your numerous successes already, it has been determined that you have the latent ability to lead the party that shall slay the Demon King.",
 			painting = {
@@ -1505,9 +1505,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
+			side = 2,
 			say = "Joffre the Fighting Angel offers a prayer, and a golden light illuminates the surroundings.",
 			typewriter = {
 				speed = 0.05,
@@ -1525,9 +1525,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_599",
+			nameColor = "#A9F548FF",
 			actorName = "Adventure Interface",
 			say = "\"Notification: You have obtained the skill Blessing of Light. Rank: SSS.\"",
 			typewriter = {
@@ -1572,11 +1572,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Thus, the ceremony has concluded, and my work for the night is done.",
 			painting = {
@@ -1625,28 +1625,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "blackbg",
+			bgm = "story-darkplan",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sentinel Bastion - Guest Room",
-			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1654,8 +1654,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "blackbg",
 			hidePaintObj = true,
 			say = "It's late in the night, and a woman stands alone in a pitch-black room.",
@@ -1703,11 +1703,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "blackbg",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But while the Blessing of Light protects your mind, it won't be enough for the party to defeat the Demon King.",
@@ -1740,11 +1740,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "blackbg",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Oh, seems my spell didn't completely put you to sleep, little one.",
@@ -1796,11 +1796,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "blackbg",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You should feel stronger once you wake up.",

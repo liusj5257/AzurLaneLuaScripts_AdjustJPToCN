@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN35",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			say = "重桜・某所　数ヶ月前",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
+			nameColor = "#a9f548",
+			say = "重桜・某所　数ヶ月前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ffff4d",
 			say = "オイゲンさん、今日はごきげんですね？",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ffff4d",
 			say = "このままではいつ鉄血に戻れるか分からないですね、ええ",
 			typewriter = {
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#ffff4d",
-			bgName = "bg_xinnong_cg1",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
+			actor = 403030,
 			stopbgm = true,
 			say = "………？",
 			typewriter = {
@@ -230,16 +230,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 0.5,
+			bgName = "bg_xinnong_cg1",
 			bgm = "theme-longgong",
 			actor = 305080,
 			nameColor = "#a9f548",
 			say = "待たれよ、鉄血の客人さん",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -299,8 +299,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305080,
 			dir = 1,
+			actor = 305080,
 			nameColor = "#a9f548",
 			say = "貴様はどうも勘違いしているな。私は赤城の使いなどではない",
 			typewriter = {
@@ -345,12 +345,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "祭儀の島でオイゲンさんとZ2さんがしたことも全部知っている方ですよ",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭儀の島でオイゲンさんとZ2さんがしたことも全部知っている方ですよ",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -416,8 +416,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305080,
 			dir = 1,
+			actor = 305080,
 			nameColor = "#a9f548",
 			say = "あまり待たせるでないわ",
 			typewriter = {
@@ -430,12 +430,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ffff4d",
 			say = "りょーかい。鬼が出るか蛇が出るか、会ってみようじゃない",
 			typewriter = {
 				speed = 0.05,

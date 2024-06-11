@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_334 = {}
 slot1 = slot0.word_template_334
 
-function temp()
+temp = function()
 	uv0["鬱"] = {
 		["慕"] = {
 			["明"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鸳"] = {
 		["鸯"] = {
 			["浴"] = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["冤"] = {
 		["民"] = {
 			["大"] = {
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鴛"] = {
 		["鴦"] = {
 			["浴"] = {
@@ -58,7 +58,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["元"] = {
 		["旦"] = {
 			["没"] = {
@@ -111,7 +111,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["员"] = {
 		["工"] = {
 			["砍"] = {
@@ -140,7 +140,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["袁"] = {
 		["纯"] = {
 			["清"] = {

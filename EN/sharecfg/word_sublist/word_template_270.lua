@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_270 = {}
 slot1 = slot0.word_template_270
 
-function temp()
+temp = function()
 	uv0["伺"] = {
 		["服"] = {
 			["器"] = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["松"] = {
 		["坂"] = {
 			["纱"] = {
@@ -118,7 +118,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宋"] = {
 		["爱"] = {
 			["荣"] = {
@@ -168,7 +168,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["送"] = {
 		["上"] = {
 			["女"] = {
@@ -210,7 +210,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["藪"] = {
 		this = {
 			this = true
@@ -220,7 +220,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苏"] = {
 		["波"] = {
 			this = true
@@ -338,7 +338,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["酥"] = {
 		["软"] = {
 			["振"] = {

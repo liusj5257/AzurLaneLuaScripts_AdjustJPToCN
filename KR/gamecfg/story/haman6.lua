@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"허먼 관찰일기\n\n<size=45>6. 여보세요, 해군 사령부인가요!?</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 101240,
 			side = 2,
 			bgName = "bg_story_room",
-			bgm = "story-1",
-			dir = 1,
 			say = "응… 우연히 지휘관을 만나서 허먼 얘기를 하고… 그리고…",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,10 +62,10 @@ return {
 			},
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			}
 		},
@@ -82,10 +82,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 45,
 					dur = 0.2,
-					type = "shake",
-					y = 45
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -112,17 +112,17 @@ return {
 			},
 			action = {
 				{
-					number = 3,
+					y = 45,
 					dur = 0.15,
-					type = "shake",
-					y = 45
+					number = 3,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "허먼은 눈물을 흘리면서 해군 사령부로 전화를 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			actor = 107050,
 			side = 0,
 			bgName = "bg_story_room",
-			dir = 1,
 			say = "…봐요. 지휘관님도 허먼이 걱정돼서 오지 않았나요?",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -222,17 +222,17 @@ return {
 			}
 		},
 		{
-			actor = 101250,
-			side = 2,
 			bgName = "bg_story_room",
-			hideOther = true,
+			side = 2,
+			actor = 101250,
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
 			say = "……으으……",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.3,
 					x = 30,
 					number = 3

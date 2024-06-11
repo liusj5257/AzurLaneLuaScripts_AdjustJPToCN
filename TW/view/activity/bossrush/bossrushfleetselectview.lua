@@ -5,15 +5,15 @@ slot1 = {
 	main = 2
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BossRushFleetSelectUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:InitUI()
 end
 
-function slot0.InitUI(slot0)
+slot0.InitUI = function(slot0)
 	slot1 = slot0._tf:Find("Panel")
 	slot0.tfFleets = {
 		[FleetType.Normal] = slot0:findTF("Panel/Fleet/Normal"),
@@ -65,7 +65,7 @@ function slot0.InitUI(slot0)
 	setText(slot0._tf:Find("Panel/Fleet/Submarine/submarine/Item/Ship/EnergyWarn/Text"), i18n("series_enemy_mood"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnGo, function ()
 		for slot3 = 1, #uv0.contextData.fleets - 1 do
 			if uv0.contextData.fleets[slot3]:isLegalToFight() ~= true then
@@ -137,7 +137,7 @@ function slot0.didEnter(slot0)
 	slot4 = Color.white
 	slot5 = Color.New(1, 1, 1, 0.5)
 
-	function slot6(slot0, slot1)
+	slot6 = function(slot0, slot1)
 		setActive(slot0:Find("Selected"), slot1)
 		setTextColor(slot0:Find("Text"), slot1 and uv0 or uv1)
 	end
@@ -193,7 +193,7 @@ function slot0.didEnter(slot0)
 		end
 	end)
 
-	function slot10(slot0)
+	slot10 = function(slot0)
 		if type(slot0) ~= "table" then
 			return {}
 		end
@@ -256,7 +256,7 @@ slot2 = {
 	[99.0] = true
 }
 
-function slot0.ShowDropDetail(slot0, slot1)
+slot0.ShowDropDetail = function(slot0, slot1)
 	if Item.getConfigData(slot1.id) and uv0[slot2.type] then
 		slot4 = {}
 
@@ -278,25 +278,25 @@ function slot0.ShowDropDetail(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.onCancelHard(slot0)
+slot0.onCancelHard = function(slot0)
 	slot0:emit(BossRushFleetSelectMediator.ON_UPDATE_CUSTOM_FLEET)
 	slot0:closeView()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:onCancelHard()
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.setHardShipVOs(slot0, slot1)
+slot0.setHardShipVOs = function(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-function slot0.initAddButton(slot0, slot1, slot2, slot3)
+slot0.initAddButton = function(slot0, slot1, slot2, slot3)
 	slot6 = {}
 	slot7 = {}
 
@@ -373,7 +373,7 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.updateEliteFleets(slot0)
+slot0.updateEliteFleets = function(slot0)
 	slot1 = slot0.contextData.seriesData
 	slot2 = slot0.contextData.fleetIndex
 	slot3 = slot0.contextData.fleets[slot2]
@@ -480,7 +480,7 @@ function slot0.updateEliteFleets(slot0)
 	end)
 end
 
-function slot0.initCommander(slot0, slot1, slot2)
+slot0.initCommander = function(slot0, slot1, slot2)
 	slot3 = slot1:GetRawCommanderIds()
 
 	for slot7 = 1, 2 do

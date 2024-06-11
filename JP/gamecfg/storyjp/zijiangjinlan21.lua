@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・7ターン目（赤城）",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "艦載機で偵察した情報を報告します。中心拠点の外部の敵の状況は概ね判明し、いつでも突撃できます",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "山城と龍鳳は後退し、大先輩が中心拠点を攻めるエリアを開けてあげて",
 			painting = {
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "よ、ようやくですね…山城、量産艦との戦いを頑張りました……",
 			painting = {
 				alpha = 0.3,
@@ -126,8 +126,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "それでもまだ損傷も残り弾薬もずいぶんと余裕がありますわ。後退しても拠点の兵力の牽制を忘れないで",
 			painting = {
@@ -159,8 +159,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "深雪はそのまま待機よ。大先輩と長門たちの動きを逐一報告してもらうわ",
 			painting = {
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "どんな敵が待っているか…武蔵が何を企んでいるか、見させてもらうわ…！",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "演習海域にて・7ターン目（三笠）",
 			typewriter = {
@@ -233,17 +233,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -270,8 +270,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "うむ、赤城にもついに長門と我の覚悟が伝わったようだな",
 			painting = {
@@ -287,8 +287,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "覚悟が伝わった…というのは、「あなたと戦うつもりはなく、大人しく中心拠点に集中しなさい」ということでしょうか？",
 			painting = {
@@ -368,8 +368,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "霧島、金剛、悪いがお主たちは中心拠点の斥候をやってもらえないか？敵の情報が必要だ",
 			painting = {
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "あれ？じゃ、じゃあ大先輩と鬼怒たちはどこに行くっすか？",
 			painting = {
@@ -418,8 +418,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "我は長門と合流しに行く。中心拠点を攻めなくとも、周りの拠点さえ総取りすれば長門は勝てる",
 			painting = {

@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
+			nameColor = "#A9F548FF",
 			actorName = "System",
 			bgm = "login-2022401jp",
 			say = "JAVELIN performed ENDLESS SLASH! DARK LORD took 100,000,000 DMG! DARK LORD was defeated!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			actorName = "System",
 			say = "You received DARK LORD'S TREASURY KEY!",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 201217,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "Oh my gosh... This has to be the legendary weapon that only the chosen one can wield!",
 			painting = {
 				alpha = 0.3,
@@ -133,8 +133,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 201217,
 			dir = 1,
+			actor = 201217,
 			say = "It looks fishy... but it has the best attack stat I've ever seen!",
 			painting = {
 				alpha = 0.3,
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 201217,
 			dir = 1,
+			actor = 201217,
 			say = "Heheh, I think I'm gonna hang on to this!",
 			painting = {
 				alpha = 0.3,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "And so the Demon King was defeated and the world was at peace.",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "THE END",
 			typewriter = {

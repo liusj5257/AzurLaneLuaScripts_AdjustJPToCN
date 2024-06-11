@@ -1,12 +1,12 @@
 return {
-	init_effect = "Bossbomb",
-	name = "2023伊丽莎白meta 领域崩溃反噬",
 	time = 0,
-	color = "blue",
+	name = "2023伊丽莎白meta 领域崩溃反噬",
+	init_effect = "Bossbomb",
+	id = 200364,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200364,
+	color = "blue",
 	icon = 200364,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				group = 200364,
-				attr = "injureRatio",
-				number = 0.5
+				number = 0.5,
+				attr = "injureRatio"
 			}
 		},
 		{

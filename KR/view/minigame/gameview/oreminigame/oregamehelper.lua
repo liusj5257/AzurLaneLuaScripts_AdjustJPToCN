@@ -1,6 +1,6 @@
 slot0 = class("OreGameHelper")
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot3 = slot0.x * 90 + 90
 
 	if slot0.y * 90 + 90 < 90 then
@@ -37,7 +37,7 @@ slot3 = {
 	STAND = Vector2(0, 0)
 }
 
-function slot4(slot0)
+slot4 = function(slot0)
 	if slot0.x == 0 and slot0.y == 0 then
 		return "STAND"
 	end
@@ -57,7 +57,7 @@ function slot4(slot0)
 	return "STAND"
 end
 
-function slot0.GetEightDirVector(slot0)
+slot0.GetEightDirVector = function(slot0)
 	return uv1[uv0(slot0)]
 end
 
@@ -68,7 +68,7 @@ slot5 = {
 	"S"
 }
 
-function slot0.GetFourDirLabel(slot0)
+slot0.GetFourDirLabel = function(slot0)
 	if slot0.x == 0 and slot0.y == 0 then
 		return "STAND"
 	end
@@ -88,7 +88,7 @@ function slot0.GetFourDirLabel(slot0)
 	return "STAND"
 end
 
-function slot0.CheckRemovable(slot0)
+slot0.CheckRemovable = function(slot0)
 	if OreGameConfig.RANGE_X[1] <= slot0.x and slot0.x <= OreGameConfig.RANGE_X[2] and OreGameConfig.RANGE_Y[1] <= slot0.y and slot0.y <= OreGameConfig.RANGE_Y[2] then
 		if OreGameConfig.BAN_Y[1] <= slot0.y then
 			return true
@@ -100,11 +100,11 @@ function slot0.CheckRemovable(slot0)
 	return false
 end
 
-function slot0.GetBeziersPoints(slot0, slot1, slot2, slot3)
+slot0.GetBeziersPoints = function(slot0, slot1, slot2, slot3)
 	return slot0:Clone():Mul((1 - slot3) * (1 - slot3)):Add(slot2:Clone():Mul(2 * slot3 * (1 - slot3))):Add(slot1:Clone():Mul(slot3 * slot3))
 end
 
-function slot0.GetOreIDWithWeight(slot0)
+slot0.GetOreIDWithWeight = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0) do
@@ -121,7 +121,7 @@ function slot0.GetOreIDWithWeight(slot0)
 	end
 end
 
-function slot0.GetAABBWithTF(slot0, slot1)
+slot0.GetAABBWithTF = function(slot0, slot1)
 	slot2 = slot0.rect.width
 	slot3 = slot0.rect.height
 	slot4 = slot0.anchoredPosition

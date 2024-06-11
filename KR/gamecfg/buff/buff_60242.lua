@@ -1,7 +1,7 @@
 return {
-	time = 50,
 	name = "神秘的羽衣",
 	init_effect = "jinengchufablue",
+	time = 50,
 	picture = "",
 	desc = "回避率提升",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.03
+				number = 0.03,
+				attr = "dodgeRateExtra"
 			}
 		}
 	}

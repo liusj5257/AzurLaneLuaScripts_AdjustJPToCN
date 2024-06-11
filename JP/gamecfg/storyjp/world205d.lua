@@ -1,18 +1,18 @@
 return {
-	id = "WORLD205D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD205D",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 14,
 			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			actor = 203040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "最後の敵も倒しました！",
-			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "はい！",

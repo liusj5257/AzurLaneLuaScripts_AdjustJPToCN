@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "奋起之鹤",
 	cd = 0,
-	painting = "ruihe",
-	id = 8616,
 	picture = "0",
 	desc = "",
+	painting = "ruihe",
+	id = 8616,
 	aniEffect = {
 		effect = "jineng",
 		offset = {

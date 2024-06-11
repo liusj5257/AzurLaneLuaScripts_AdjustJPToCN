@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 304050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = -1,
 			say = "So this is what has become of the areas occupied by the Sirens... I passed through here scarcely half a month ago, and now...",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "The Sirens' movements are unpredictable. Who could have foreseen them attacking the same place where we just held our wargames?",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "Great news. Though I'm not sold on their combat ability, at least these little flying critters are great at reconnaissance. Hehe...",
 			typewriter = {
 				speed = 0.05,

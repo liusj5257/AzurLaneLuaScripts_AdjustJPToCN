@@ -4,10 +4,10 @@ slot0.Fields = {
 	expiredTime = "number"
 }
 
-function slot0.Setup(slot0)
+slot0.Setup = function(slot0)
 end
 
-function slot0.IsValid(slot0)
+slot0.IsValid = function(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() <= slot0.expiredTime
 end
 

@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.spweapon_upgrade = {
 	{
-		upgrade_use_pt = 20,
-		create_use_gold = 700,
 		create_use_pt = 250,
-		id = 1,
 		upgrade_use_gold = 20,
 		upgrade_supply_pt = 150,
+		upgrade_use_pt = 20,
+		id = 1,
+		create_use_gold = 700,
 		create_use_item = {
 			{
 				15014,
@@ -22,12 +22,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 30,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 2,
 		upgrade_use_gold = 40,
 		upgrade_supply_pt = 162,
+		upgrade_use_pt = 30,
+		id = 2,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -38,12 +38,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 40,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 3,
 		upgrade_use_gold = 60,
 		upgrade_supply_pt = 180,
+		upgrade_use_pt = 40,
+		id = 3,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -54,12 +54,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 50,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 4,
 		upgrade_use_gold = 80,
 		upgrade_supply_pt = 204,
+		upgrade_use_pt = 50,
+		id = 4,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -70,12 +70,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 60,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 5,
 		upgrade_use_gold = 100,
 		upgrade_supply_pt = 234,
+		upgrade_use_pt = 60,
+		id = 5,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -86,12 +86,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 80,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 6,
 		upgrade_use_gold = 120,
 		upgrade_supply_pt = 270,
+		upgrade_use_pt = 80,
+		id = 6,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -102,12 +102,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 110,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 7,
 		upgrade_use_gold = 140,
 		upgrade_supply_pt = 318,
+		upgrade_use_pt = 110,
+		id = 7,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -118,12 +118,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 150,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 8,
 		upgrade_use_gold = 160,
 		upgrade_supply_pt = 384,
+		upgrade_use_pt = 150,
+		id = 8,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -134,12 +134,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 200,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 9,
 		upgrade_use_gold = 180,
 		upgrade_supply_pt = 474,
+		upgrade_use_pt = 200,
+		id = 9,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -150,12 +150,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 260,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10,
 		upgrade_use_gold = 200,
 		upgrade_supply_pt = 594,
+		upgrade_use_pt = 260,
+		id = 10,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -166,12 +166,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	{
-		upgrade_use_pt = 750,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 11,
 		upgrade_use_gold = 1000,
 		upgrade_supply_pt = 750,
+		upgrade_use_pt = 750,
+		id = 11,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {
 			{
@@ -187,12 +187,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[21] = {
-		upgrade_use_pt = 60,
-		create_use_gold = 2800,
 		create_use_pt = 2000,
-		id = 21,
 		upgrade_use_gold = 40,
 		upgrade_supply_pt = 1200,
+		upgrade_use_pt = 60,
+		id = 21,
+		create_use_gold = 2800,
 		create_use_item = {
 			{
 				15014,
@@ -208,12 +208,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[22] = {
-		upgrade_use_pt = 90,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 22,
 		upgrade_use_gold = 80,
 		upgrade_supply_pt = 1236,
+		upgrade_use_pt = 90,
+		id = 22,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -224,12 +224,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[23] = {
-		upgrade_use_pt = 120,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 23,
 		upgrade_use_gold = 120,
 		upgrade_supply_pt = 1290,
+		upgrade_use_pt = 120,
+		id = 23,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -240,12 +240,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[24] = {
-		upgrade_use_pt = 150,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 24,
 		upgrade_use_gold = 160,
 		upgrade_supply_pt = 1362,
+		upgrade_use_pt = 150,
+		id = 24,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -256,12 +256,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[25] = {
-		upgrade_use_pt = 180,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 25,
 		upgrade_use_gold = 200,
 		upgrade_supply_pt = 1452,
+		upgrade_use_pt = 180,
+		id = 25,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -272,12 +272,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[26] = {
-		upgrade_use_pt = 240,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 26,
 		upgrade_use_gold = 240,
 		upgrade_supply_pt = 1560,
+		upgrade_use_pt = 240,
+		id = 26,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -288,12 +288,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[27] = {
-		upgrade_use_pt = 330,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 27,
 		upgrade_use_gold = 280,
 		upgrade_supply_pt = 1704,
+		upgrade_use_pt = 330,
+		id = 27,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -304,12 +304,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[28] = {
-		upgrade_use_pt = 450,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 28,
 		upgrade_use_gold = 320,
 		upgrade_supply_pt = 1902,
+		upgrade_use_pt = 450,
+		id = 28,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -320,12 +320,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[29] = {
-		upgrade_use_pt = 600,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 29,
 		upgrade_use_gold = 360,
 		upgrade_supply_pt = 2172,
+		upgrade_use_pt = 600,
+		id = 29,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -336,12 +336,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[30] = {
-		upgrade_use_pt = 780,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 30,
 		upgrade_use_gold = 400,
 		upgrade_supply_pt = 2532,
+		upgrade_use_pt = 780,
+		id = 30,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -352,12 +352,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[31] = {
-		upgrade_use_pt = 0,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 31,
 		upgrade_use_gold = 0,
 		upgrade_supply_pt = 3000,
+		upgrade_use_pt = 0,
+		id = 31,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -368,12 +368,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[101] = {
-		upgrade_use_pt = 240,
-		create_use_gold = 10000,
 		create_use_pt = 3000,
-		id = 101,
 		upgrade_use_gold = 200,
 		upgrade_supply_pt = 1800,
+		upgrade_use_pt = 240,
+		id = 101,
+		create_use_gold = 10000,
 		create_use_item = {
 			{
 				15014,
@@ -389,12 +389,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[102] = {
-		upgrade_use_pt = 360,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 102,
 		upgrade_use_gold = 400,
 		upgrade_supply_pt = 1944,
+		upgrade_use_pt = 360,
+		id = 102,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -405,12 +405,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[103] = {
-		upgrade_use_pt = 480,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 103,
 		upgrade_use_gold = 600,
 		upgrade_supply_pt = 2160,
+		upgrade_use_pt = 480,
+		id = 103,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -421,12 +421,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[104] = {
-		upgrade_use_pt = 600,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 104,
 		upgrade_use_gold = 800,
 		upgrade_supply_pt = 2448,
+		upgrade_use_pt = 600,
+		id = 104,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -437,12 +437,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[105] = {
-		upgrade_use_pt = 720,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 105,
 		upgrade_use_gold = 1000,
 		upgrade_supply_pt = 2808,
+		upgrade_use_pt = 720,
+		id = 105,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -453,12 +453,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[106] = {
-		upgrade_use_pt = 960,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 106,
 		upgrade_use_gold = 1200,
 		upgrade_supply_pt = 3240,
+		upgrade_use_pt = 960,
+		id = 106,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -469,12 +469,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[107] = {
-		upgrade_use_pt = 1320,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 107,
 		upgrade_use_gold = 1400,
 		upgrade_supply_pt = 3816,
+		upgrade_use_pt = 1320,
+		id = 107,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -485,12 +485,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[108] = {
-		upgrade_use_pt = 1800,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 108,
 		upgrade_use_gold = 1600,
 		upgrade_supply_pt = 4608,
+		upgrade_use_pt = 1800,
+		id = 108,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -501,12 +501,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[109] = {
-		upgrade_use_pt = 2400,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 109,
 		upgrade_use_gold = 1800,
 		upgrade_supply_pt = 5688,
+		upgrade_use_pt = 2400,
+		id = 109,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -517,12 +517,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[110] = {
-		upgrade_use_pt = 3120,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 110,
 		upgrade_use_gold = 2000,
 		upgrade_supply_pt = 7128,
+		upgrade_use_pt = 3120,
+		id = 110,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -533,12 +533,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[111] = {
-		upgrade_use_pt = 0,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 111,
 		upgrade_use_gold = 0,
 		upgrade_supply_pt = 9000,
+		upgrade_use_pt = 0,
+		id = 111,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -549,12 +549,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10001] = {
-		upgrade_use_pt = 120,
-		create_use_gold = 10000,
 		create_use_pt = 3000,
-		id = 10001,
 		upgrade_use_gold = 200,
 		upgrade_supply_pt = 900,
+		upgrade_use_pt = 120,
+		id = 10001,
+		create_use_gold = 10000,
 		create_use_item = {
 			{
 				15014,
@@ -570,12 +570,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10002] = {
-		upgrade_use_pt = 180,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10002,
 		upgrade_use_gold = 400,
 		upgrade_supply_pt = 972,
+		upgrade_use_pt = 180,
+		id = 10002,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -586,12 +586,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10003] = {
-		upgrade_use_pt = 240,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10003,
 		upgrade_use_gold = 600,
 		upgrade_supply_pt = 1080,
+		upgrade_use_pt = 240,
+		id = 10003,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -602,12 +602,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10004] = {
-		upgrade_use_pt = 300,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10004,
 		upgrade_use_gold = 800,
 		upgrade_supply_pt = 1224,
+		upgrade_use_pt = 300,
+		id = 10004,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -618,12 +618,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10005] = {
-		upgrade_use_pt = 360,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10005,
 		upgrade_use_gold = 1000,
 		upgrade_supply_pt = 1404,
+		upgrade_use_pt = 360,
+		id = 10005,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -634,12 +634,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10006] = {
-		upgrade_use_pt = 480,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10006,
 		upgrade_use_gold = 1200,
 		upgrade_supply_pt = 1620,
+		upgrade_use_pt = 480,
+		id = 10006,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -650,12 +650,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10007] = {
-		upgrade_use_pt = 660,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10007,
 		upgrade_use_gold = 1400,
 		upgrade_supply_pt = 1908,
+		upgrade_use_pt = 660,
+		id = 10007,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -666,12 +666,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10008] = {
-		upgrade_use_pt = 900,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10008,
 		upgrade_use_gold = 1600,
 		upgrade_supply_pt = 2304,
+		upgrade_use_pt = 900,
+		id = 10008,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -682,12 +682,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10009] = {
-		upgrade_use_pt = 1200,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10009,
 		upgrade_use_gold = 1800,
 		upgrade_supply_pt = 2844,
+		upgrade_use_pt = 1200,
+		id = 10009,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -698,12 +698,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10010] = {
-		upgrade_use_pt = 1560,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10010,
 		upgrade_use_gold = 2000,
 		upgrade_supply_pt = 3564,
+		upgrade_use_pt = 1560,
+		id = 10010,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {
@@ -714,12 +714,12 @@ pg.spweapon_upgrade = {
 		}
 	},
 	[10011] = {
-		upgrade_use_pt = 0,
-		create_use_gold = 0,
 		create_use_pt = 0,
-		id = 10011,
 		upgrade_use_gold = 0,
 		upgrade_supply_pt = 4500,
+		upgrade_use_pt = 0,
+		id = 10011,
+		create_use_gold = 0,
 		create_use_item = {},
 		upgrade_use_item = {},
 		reset_use_item = {

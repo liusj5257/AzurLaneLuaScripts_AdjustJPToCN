@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_cccpv2_11",
-			say = ".........",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			nameColor = "#a9f548",
+			say = ".........",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "Where am I...? Back to the place where I first inserted the Wisdom Cube into the console...?",
@@ -59,8 +59,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_11",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = ".........Zzzzzz....",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_11",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "............zzZZZ",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "The others are scattered across the hall, collapsed around the floor in deep slumber. None of them appear to be injured.",
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "Their rigging is unblemished as if no battle had taken place, and their breaths were soft and quiet like dreaming children.",
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "But what about the city of light? I remembered passing through the Gate, and...",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "I looked towards the place we had passed through. The passageway to the city of light had been closed off, a wall of ice with a surface that resembled a cracked mirror in its place.",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "I remembered searching around a mysterious facility, and interacting with some kind of terminal. I remember fighting against the Reenactment of a Siren foe... but then what happened...? My memory might be a little fuzzy because I just woke up...",
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "—\"Please fight until the last light has faded.\"",
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "...What happened at the end of that battle?",
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "In my hand was a small box of materials collected from the facility. Above all else, my friends were safe and sound.",
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "Let's not worry about anything else right now.",
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			blackBg = true,

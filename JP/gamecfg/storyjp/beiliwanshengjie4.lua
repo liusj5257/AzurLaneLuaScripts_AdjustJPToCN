@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"悪戯ハロウィン\n\n<size=45>四 面倒くさがりの魔女</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205040,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "姉様、母港で迷子になったお化けの話を聞きました？",
 			bgm = "story-1",
+			actor = 205040,
+			nameColor = "#a9f548",
+			say = "姉様、母港で迷子になったお化けの話を聞きました？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 205030,
+			say = "クリーブランドから聞いたのね。こんな見え見えのイタズラなんて……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "クリーブランドから聞いたのね。こんな見え見えのイタズラなんて……",
+			actor = 205030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "そ、そんな恥ずかしい格好をするわけないじゃない…",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 205040,
+			say = "ちょうどここに魔女のコスチュームがありまして……",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ちょうどここに魔女のコスチュームがありまして……",
+			actor = 205040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "これってどこから――せ、せめて自分で着替えさせてよ！",
 			typewriter = {
 				speed = 0.05,
@@ -198,16 +198,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -216,15 +216,15 @@ return {
 			}
 		},
 		{
-			actor = 205031,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205031,
+			nameColor = "#a9f548",
 			say = "くっ…！災難だったわ……ロドニーのやつ一体何を考えているの！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,8 +252,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "「三人の善き魔女」って…どうせ子供の悪戯に決まってるわ。適当にぶらついてすぐに帰るとするか……",
 			typewriter = {
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "あ！三人目の魔女発見だ！",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "誰！？……ってベイリーちゃんと五十鈴じゃない…",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,8 +322,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302051,
 			dir = 1,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "ネルソンさんもお化けさんを探している「善き魔女」なの？",
 			typewriter = {
@@ -339,8 +339,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "え？ま、まあそうね",
 			typewriter = {
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "（しまった！つい流されてしまった）",
 			typewriter = {
@@ -373,8 +373,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302051,
 			dir = 1,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "ふぅ……これで三人揃ったね…よかったぁ……",
 			typewriter = {
@@ -403,12 +403,12 @@ return {
 			}
 		},
 		{
-			actor = 205031,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205031,
+			nameColor = "#a9f548",
 			say = "（この子たちも放っておけないし…とりあえずついていくしかないわね）",
 			typewriter = {
 				speed = 0.05,

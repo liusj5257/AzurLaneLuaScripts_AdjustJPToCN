@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 408080,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "爆雷、多い……ロイヤルのキチク……",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "……っ。U-556まだ来ないかなー",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 		{
 			actor = 201010,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "え？",
 			dialogShake = {
 				speed = 0.09,
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "ふむふむ。情報ありがとー",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			say = "あんたも全然ないくせに！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -291,8 +291,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ブルドッグはまた潜ろうとしているU-110を指差した。",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "話が終わったからもう帰っていい？",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			say = "そんなわけないでしょ？",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "なんで？",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			say = "ああもうどいつもこいつも緊張感ないわ！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
-			say = "パーティーが森の奥深くに進んでいくにつれ、果てしない樹海の中の道はますます複雑になっていった。",
 			bgm = "theme-camelot",
+			say = "パーティーが森の奥深くに進んでいくにつれ、果てしない樹海の中の道はますます複雑になっていった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "しかし、情報収集と分析スキルのおかげで、自分の端末は道が分岐する場所で常に正しい道筋を示している。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "藪を通り抜けた先に、開けた林間の空き地が現れた。",
 			typewriter = {
@@ -54,10 +54,10 @@ return {
 		{
 			portrait = 131171,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "伝説の大魔法使い",
 			dir = 1,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_518",
 			actorName = "ラフィー",
 			say = "すぴー…Zzzzzzzz",
 			painting = {
@@ -69,17 +69,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どうだろ…みんなはどう思う？",
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふむ……本物の大魔法使い、というわけか",
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "で、なんで無防備で芝生で寝てるの？…こんなのパーティーに入れて本当に役に立つの？",
@@ -278,9 +278,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "伝説の大魔法使い",
 			dir = 1,
+			bgName = "star_level_bg_518",
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -294,17 +294,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -407,11 +407,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふむ。やっぱり役に立ちそうにない…",
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "スキルが発動すると、大魔法使いに関する情報が端末に流れ込んできた。",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "「大魔法使い・ラフィー、種族：ウサウサ星人」",
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "「千年前に魔王を斬り殺したと言われる伝説の勇者パーティーの一員」",
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "「現在のステータス：呪いに囚われている」",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "「呪いの名称：「怠惰の呪い」」",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "「前代の魔王が残した呪い。呪いの対象者を過去の繰り返しの中に閉じ込め、その理性が完全に負の感情に呑み込まれるまで続く」",
@@ -560,8 +560,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "「解呪方法：不明」",
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まさかそんなことがあったなんて…",
@@ -609,11 +609,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "魔王は千年前に討伐されているのに、呪いは今も続いている",
@@ -627,11 +627,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "千年間ずっと呪いに苦しめられ続けているのか…",
@@ -695,11 +695,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官！ラフィーの眠ってるマットの隣に皿が置かれてるよ！もしかして誰かが定期的にご飯を届けてくれてるんじゃない？",
@@ -732,8 +732,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "よく観察してみると、周囲には食べ物が乗っている皿だけでなく、治療用のポーションもいくつか置かれている。",
 			typewriter = {
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あれ？王都で会った鋼鉄教会のメカニック？",
@@ -778,11 +778,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "いきなり現れて…もしかして指揮官をストーカーしてるの？！",
@@ -798,9 +798,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			bgName = "star_level_bg_518",
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -814,17 +814,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -851,11 +851,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "奥の様子は見ての通り危険だから…ちょっと気になってついて来ただけ",
@@ -939,11 +939,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "自分なりに解呪を頑張ってもいるみたいだけど…",
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「次は絶対大丈夫」って言ってはいたけども…",
@@ -1013,11 +1013,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "近くの村にいる、大魔法使いの呪いを解呪しようとする薬師……ヒントは十分だね",
@@ -1031,11 +1031,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官、私たちも見に行こう！",
@@ -1049,8 +1049,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

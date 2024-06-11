@@ -1,13 +1,13 @@
 slot0 = class("TowerClimbingPlayer")
 slot1 = 0.6
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.map = slot1
 	slot0.player = slot2
 	slot0.action = ""
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot2 = slot0.player
 
 	TowerClimbingResMgr.GetPlayer(slot2:GetShipName(), function (slot0)
@@ -18,7 +18,7 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.OnLoaded(slot0, slot1)
+slot0.OnLoaded = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.rigbody = slot0._go:GetComponent(typeof(UnityEngine.Rigidbody2D))
@@ -74,42 +74,42 @@ function slot0.OnLoaded(slot0, slot1)
 	setActive(slot1, true)
 end
 
-function slot0.AdjustVel(slot0, slot1)
+slot0.AdjustVel = function(slot0, slot1)
 	slot0.rigbody.velocity = slot0.rigbody.velocity + slot1
 end
 
-function slot0.Jump(slot0, slot1)
+slot0.Jump = function(slot0, slot1)
 	slot2 = slot0.rigbody.velocity
 	slot0.rigbody.velocity = Vector2(slot0.rigbody.velocity.x, slot1)
 end
 
-function slot0.MoveLeft(slot0, slot1)
+slot0.MoveLeft = function(slot0, slot1)
 	slot0:SetAction("walk")
 
 	slot0._tf.localScale = Vector3(-uv0, uv0, 1)
 	slot0.rigbody.velocity = Vector2(-slot1, slot0.rigbody.velocity.y)
 end
 
-function slot0.MoveRight(slot0, slot1)
+slot0.MoveRight = function(slot0, slot1)
 	slot0:SetAction("walk")
 
 	slot0._tf.localScale = Vector3(uv0, uv0, 1)
 	slot0.rigbody.velocity = Vector2(slot1, slot0.rigbody.velocity.y)
 end
 
-function slot0.BeInjured(slot0, slot1)
+slot0.BeInjured = function(slot0, slot1)
 	slot0.rigbody.velocity = slot0.rigbody.velocity + slot1
 end
 
-function slot0.Idle(slot0)
+slot0.Idle = function(slot0)
 	slot0:SetAction("stand2")
 end
 
-function slot0.Dead(slot0)
+slot0.Dead = function(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.Invincible(slot0, slot1)
+slot0.Invincible = function(slot0, slot1)
 	slot2 = slot0._tf:GetComponent("SkeletonGraphic")
 
 	if slot1 then
@@ -144,11 +144,11 @@ function slot0.Invincible(slot0, slot1)
 	slot2.color = Color.New(1, 1, 1, 1)
 end
 
-function slot0.ChangePosition(slot0, slot1)
+slot0.ChangePosition = function(slot0, slot1)
 	slot0._tf.anchoredPosition = slot0.map.blockContainer:InverseTransformVector(slot0.map.groundContainer:TransformVector(slot1))
 end
 
-function slot0.BeFatalInjured(slot0, slot1)
+slot0.BeFatalInjured = function(slot0, slot1)
 	slot0.spineAnim:SetActionCallBack(function (slot0)
 		if slot0 == "finish" then
 			uv0.spineAnim:SetActionCallBack(nil)
@@ -161,7 +161,7 @@ function slot0.BeFatalInjured(slot0, slot1)
 	slot0.spineAnim:SetAction(slot0.action, 0)
 end
 
-function slot0.SetAction(slot0, slot1)
+slot0.SetAction = function(slot0, slot1)
 	if slot0.action == slot1 then
 		return
 	end
@@ -171,7 +171,7 @@ function slot0.SetAction(slot0, slot1)
 	slot0.spineAnim:SetAction(slot1, 0)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.spineAnim:SetActionCallBack(nil)
 
 	if LeanTween.isTweening(slot0._go) then

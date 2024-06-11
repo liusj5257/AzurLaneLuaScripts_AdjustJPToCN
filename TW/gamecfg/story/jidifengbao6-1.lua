@@ -1,13 +1,13 @@
 return {
-	id = "JIDIFENGBAO6-1",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO6-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			typewriterTime = 0.05,
+			mode = 1,
 			asideType = 3,
 			sequence = {
 				{
@@ -27,13 +27,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 701030,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "天氣好像變得更惡劣了……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,10 +57,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "距離北極點越近，天氣就愈發惡劣呢。",
 			painting = {
 				alpha = 0.3,
@@ -74,10 +74,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "明明這裡都不算鏡面海域內，也不知道清除者的氣象武器究竟是什麼原理。",
 			painting = {
 				alpha = 0.3,
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "糟糕，東北方向發現清除者！",
 			painting = {
 				alpha = 0.3,
@@ -120,10 +120,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "借助風雪和電磁干擾的掩護已經接近到這個位置了？！",
 			painting = {
 				alpha = 0.3,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,10 +147,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "北極點要塞就在前方，不用繼續規避了",
 			painting = {
 				alpha = 0.3,
@@ -164,10 +164,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "集中火力，消滅它！",
 			painting = {
 				alpha = 0.3,

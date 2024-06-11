@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"私の素晴らしい記憶\n\n<size=45>その二 栄光の意味</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 203080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "エイジャックス、お前というやつは…！ ",
 			bgm = "story-1",
+			actor = 203080,
+			nameColor = "#a9f548",
+			say = "エイジャックス、お前というやつは…！ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "私は正論を言っただけですよ。真正面から戦うより夜戦で挑んだ方が勝率が高いですもの。",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "私は正論を言っただけですよ。真正面から戦うより夜戦で挑んだ方が勝率が高いですもの。",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
+			say = "エクセターとエイジャックスは相変わらず言い争っている。",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "エクセターとエイジャックスは相変わらず言い争っている。",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
+			say = "エイジャックスの作戦案は驚くほど合理的かつ正確である。とはいえ、合理的すぎるがゆえに一部の名誉や格式を重んじる子とはどうも反りが合わないらしい。",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "エイジャックスの作戦案は驚くほど合理的かつ正確である。とはいえ、合理的すぎるがゆえに一部の名誉や格式を重んじる子とはどうも反りが合わないらしい。",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
+			say = "なにより相手が反論すればするほど本人がついつい煽るため、結果的にややこしくなることも多い…",
 			side = 1,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "なにより相手が反論すればするほど本人がついつい煽るため、結果的にややこしくなることも多い…",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,15 +163,15 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "エクセター先輩にはちゃんと謝りましたわよ。いつものことですので。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "まあ、それも指揮官がそこで止めに入ってくれることを織り込んだ作戦ですけど♪",
 			typewriter = {
 				speed = 0.05,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "……だから好きですわ。うふふ♪",
 			typewriter = {
 				speed = 0.05,

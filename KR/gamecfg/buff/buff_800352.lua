@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 800352,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800352,
+	color = "red",
 	icon = 800350,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				bulletRange = 125,
 				weaponRange = 125,
+				bulletRange = 125,
 				index = {
 					2
 				}

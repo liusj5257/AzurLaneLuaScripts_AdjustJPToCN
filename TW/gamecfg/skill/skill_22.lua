@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "轻航空中支援Lv3",
 	cd = 0,
-	painting = 0,
-	id = 22,
 	picture = "0",
 	aniEffect = "",
 	desc = "轻航空中支援Lv3",
+	painting = 0,
+	id = 22,
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				weapon_id = 54002
 			}

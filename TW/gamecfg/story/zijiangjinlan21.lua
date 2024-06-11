@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·赤城控制區第七回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "太好了，赤城前輩準備的事件「技術革新」終於觸發了！本回合，擁有最多艦載機武器的我們將處於巨大的優勢中。",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "山城後退至E6，把三笠進攻中心據點的通道留出來。",
 			painting = {
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "欸~~救命呀~~~我已經在中間吃了好幾輪傷害了，快不行了！",
 			painting = {
 				alpha = 0.3,
@@ -126,8 +126,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "別以為我看不到妳的狀態欄，技能一個沒用過，損傷也還不到三成，給我老實的待在裡面。",
 			painting = {
@@ -159,8 +159,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "深雪的話，很不幸，妳的所有撤離通道都被封死了，暫時先待在原地，等待後續指令。",
 			painting = {
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "呵呵，總之，中心據點的戰鬥就由我們先打響吧~",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "大棋盤·赤城控制區第七回合",
 			typewriter = {
@@ -233,17 +233,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -270,8 +270,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "金剛，妳覺得赤城為什麼要讓山城撤退，把E5這個接觸點留空給我們？",
 			painting = {
@@ -287,8 +287,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "也許是因為我們徹底控制了邊界，她害怕過於冒進導致山城也像神通深雪那樣陷入死地？",
 			painting = {
@@ -368,8 +368,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "霧島進入E5保持與中心據點的接觸，之後與金剛一同對位於中心區域的塔進行一輪試探性進攻。",
 			painting = {
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "欸？我不參與嗎？大前輩，這個邊界據點只靠妳們打不掉啊……？",
 			painting = {
@@ -418,8 +418,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "這正是關鍵。在我們結束之後，邊界據點就能讓長門用最小的代價將其收下。",
 			painting = {

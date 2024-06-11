@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_endingsong_14",
+			bgm = "bsm-2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Somewhere, in an unknown location...",
-			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -107,9 +107,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_endingsong_14",
 			paintingNoise = true,
-			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -123,17 +123,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -292,10 +292,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...What is this? Documents?",
 			painting = {
 				alpha = 0.3,
@@ -401,10 +401,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've not even thought about it yet. What does it matter?",
 			painting = {
 				alpha = 0.3,
@@ -531,10 +531,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll... BZZZ... set up... BZZZ... and when it's... BZZZ...",
 			painting = {
 				alpha = 0.3,
@@ -565,8 +565,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_endingsong_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

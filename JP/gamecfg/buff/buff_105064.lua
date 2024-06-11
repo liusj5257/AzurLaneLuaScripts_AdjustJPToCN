@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 50
+					number = 50,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 65
+					number = 65,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 80
+					number = 80,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 100
+					number = 100,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 115
+					number = 115,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 130
+					number = 130,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 150
+					number = 150,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 165
+					number = 165,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 180
+					number = 180,
+					attr = "attackRating"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 200
+					number = 200,
+					attr = "attackRating"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 105064,
+	time = 0,
 	picture = "",
 	desc = "本场命中上升",
 	stack = 3,
-	id = 105064,
+	color = "blue",
 	icon = 105060,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 50
+				number = 50,
+				attr = "attackRating"
 			}
 		}
 	}

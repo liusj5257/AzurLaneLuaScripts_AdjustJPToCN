@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 450
+					number = 450,
+					attr = "airPower"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 520
+					number = 520,
+					attr = "airPower"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 600
+					number = 600,
+					attr = "airPower"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 700
+					number = 700,
+					attr = "airPower"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 770
+					number = 770,
+					attr = "airPower"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 850
+					number = 850,
+					attr = "airPower"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 950
+					number = 950,
+					attr = "airPower"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1020
+					number = 1020,
+					attr = "airPower"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1100
+					number = 1100,
+					attr = "airPower"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1200
+					number = 1200,
+					attr = "airPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 105063,
+	time = 0,
 	picture = "",
 	desc = "本场航空上升4.5-12%",
 	stack = 1,
-	id = 105063,
+	color = "blue",
 	icon = 105060,
 	last_effect = "",
 	blink = {
@@ -163,8 +163,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 450
+				number = 450,
+				attr = "airPower"
 			}
 		}
 	}

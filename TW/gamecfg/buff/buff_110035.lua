@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 110035,
 	time = 2,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110035,
+	color = "red",
 	icon = 110030,
 	last_effect = "",
 	effect_list = {
@@ -28,10 +28,10 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetAllHarm",
+				skill_id = 110033,
 				quota = 1,
-				target = "TargetSelf",
 				maxTargetNumber = 1,
-				skill_id = 110033
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -41,10 +41,10 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
+				skill_id = 110034,
 				check_target = "TargetAllHarm",
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 110034
+				target = "TargetSelf"
 			}
 		}
 	}

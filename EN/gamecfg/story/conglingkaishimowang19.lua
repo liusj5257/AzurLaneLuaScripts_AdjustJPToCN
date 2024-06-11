@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "Casting the spell written on the paper, we swiftly dispelled the Neverending Night and entered the Eastern Fortress.",
 			bgm = "story-oldcastle-carnival",
+			say = "Casting the spell written on the paper, we swiftly dispelled the Neverending Night and entered the Eastern Fortress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "The vampires who reside here have no idea that their protective spell has been neutralized. We quickly overwhelm them with little resistance.",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Vampire Gatekeeper",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "...Oh, it's all coming to me now.",
 			painting = {
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Vampire Gatekeeper",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "I can't believe how long it's been...",
 			painting = {
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Vampire Gatekeeper",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "Take care of the western fortress first.",
 			painting = {
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Vampire Gatekeeper",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "If you're lucky, she might just come to see you in person.",
 			painting = {

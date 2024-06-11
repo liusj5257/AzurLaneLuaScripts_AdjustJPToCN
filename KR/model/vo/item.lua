@@ -27,7 +27,7 @@ slot0.SPWEAPON_MATERIAL_TYPE = 24
 slot0.METALESSON_TYPE = 25
 slot0.SKIN_ASSIGNED_TYPE = 26
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	assert(not slot1.type or slot1.type == DROP_TYPE_VITEM or slot1.type == DROP_TYPE_ITEM)
 
 	slot0.id = slot1.id
@@ -39,15 +39,15 @@ function slot0.Ctor(slot0, slot1)
 	slot0:InitConfig()
 end
 
-function slot0.CanOpen(slot0)
+slot0.CanOpen = function(slot0)
 	return slot0:getConfig("type") == uv0.EQUIPMENT_BOX_TYPE_5 or slot1 == uv0.EQUIPMENT_SKIN_BOX or slot1 == uv0.GOLD_BOX_TYPE or slot1 == uv0.OIL_BOX_TYPE or slot1 == uv0.GIFT_BOX or slot1 == uv0.GUILD_OPENABLE
 end
 
-function slot0.IsShipExpType(slot0)
+slot0.IsShipExpType = function(slot0)
 	return slot0:getConfig("type") == uv0.EXP_BOOK_TYPE
 end
 
-function slot0.getConfigData(slot0)
+slot0.getConfigData = function(slot0)
 	slot2 = nil
 
 	if underscore.any({
@@ -72,61 +72,61 @@ function slot0.getConfigData(slot0)
 	return slot2
 end
 
-function slot0.InitConfig(slot0)
+slot0.InitConfig = function(slot0)
 	slot0.cfg = uv0.getConfigData(slot0.configId)
 
 	assert(slot0.cfg, string.format("without item config from id_%d", slot0.id))
 end
 
-function slot0.getConfigTable(slot0)
+slot0.getConfigTable = function(slot0)
 	return slot0.cfg
 end
 
-function slot0.CanInBag(slot0)
+slot0.CanInBag = function(slot0)
 	return tobool(pg.item_data_statistics[slot0])
 end
 
-function slot0.couldSell(slot0)
+slot0.couldSell = function(slot0)
 	return table.getCount(slot0:getConfig("price")) > 0
 end
 
-function slot0.isEnough(slot0, slot1)
+slot0.isEnough = function(slot0, slot1)
 	return slot1 <= slot0.count
 end
 
-function slot0.consume(slot0, slot1)
+slot0.consume = function(slot0, slot1)
 	slot0.count = slot0.count - slot1
 end
 
-function slot0.isDesignDrawing(slot0)
+slot0.isDesignDrawing = function(slot0)
 	return slot0:getConfig("type") == 9
 end
 
-function slot0.isVirtualItem(slot0)
+slot0.isVirtualItem = function(slot0)
 	return slot0:getConfig("type") == 0
 end
 
-function slot0.isEquipmentSkinBox(slot0)
+slot0.isEquipmentSkinBox = function(slot0)
 	return slot0:getConfig("type") == uv0.EQUIPMENT_SKIN_BOX
 end
 
-function slot0.isBluePrintType(slot0)
+slot0.isBluePrintType = function(slot0)
 	return slot0:getConfig("type") == uv0.BLUEPRINT_TYPE
 end
 
-function slot0.isTecSpeedUpType(slot0)
+slot0.isTecSpeedUpType = function(slot0)
 	return slot0:getConfig("type") == uv0.TEC_SPEEDUP_TYPE
 end
 
-function slot0.IsMaxCnt(slot0)
+slot0.IsMaxCnt = function(slot0)
 	return slot0:getConfig("max_num") <= slot0.count
 end
 
-function slot0.IsDoaSelectCharItem(slot0)
+slot0.IsDoaSelectCharItem = function(slot0)
 	return slot0.id == uv0.DOA_SELECT_CHAR_ID
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	if slot1 == "display" and uv0.super.getConfig(slot0, "combination_display") and #slot2 > 0 then
 		return slot0:CombinationDisplay(slot2)
 	end
@@ -134,7 +134,7 @@ function slot0.getConfig(slot0, slot1)
 	return uv0.super.getConfig(slot0, slot1)
 end
 
-function slot0.StaticCombinationDisplay(slot0)
+slot0.StaticCombinationDisplay = function(slot0)
 	return i18n("skin_gift_desc", table.concat(_.map(slot0, function (slot0)
 		slot1 = string.format("%0.1f", slot0[2] / 100)
 		slot3 = ""
@@ -158,11 +158,11 @@ function slot0.StaticCombinationDisplay(slot0)
 	end), ";"))
 end
 
-function slot0.CombinationDisplay(slot0, slot1)
+slot0.CombinationDisplay = function(slot0, slot1)
 	return uv0.StaticCombinationDisplay(slot1)
 end
 
-function slot0.InTimeLimitSkinAssigned(slot0)
+slot0.InTimeLimitSkinAssigned = function(slot0)
 	if uv0.getConfigData(slot0).type ~= uv0.SKIN_ASSIGNED_TYPE then
 		return false
 	end
@@ -170,7 +170,7 @@ function slot0.InTimeLimitSkinAssigned(slot0)
 	return getProxy(ActivityProxy):IsActivityNotEnd(slot1.usage_arg[1])
 end
 
-function slot0.GetValidSkinList(slot0)
+slot0.GetValidSkinList = function(slot0)
 	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
 
 	slot1 = slot0:getConfig("usage_arg")
@@ -182,7 +182,7 @@ function slot0.GetValidSkinList(slot0)
 	end
 end
 
-function slot0.IsAllSkinOwner(slot0)
+slot0.IsAllSkinOwner = function(slot0)
 	assert(slot0:getConfig("type") == uv0.SKIN_ASSIGNED_TYPE)
 
 	slot1 = getProxy(ShipSkinProxy)
@@ -192,7 +192,7 @@ function slot0.IsAllSkinOwner(slot0)
 	end)
 end
 
-function slot0.GetOverflowCheckItems(slot0, slot1)
+slot0.GetOverflowCheckItems = function(slot0, slot1)
 	slot1 = slot1 or 1
 	slot2 = {}
 
@@ -239,11 +239,11 @@ function slot0.GetOverflowCheckItems(slot0, slot1)
 	return slot2
 end
 
-function slot0.IsSkinShopDiscountType(slot0)
+slot0.IsSkinShopDiscountType = function(slot0)
 	return slot0:getConfig("usage") == ItemUsage.SKIN_SHOP_DISCOUNT
 end
 
-function slot0.CanUseForShop(slot0, slot1)
+slot0.CanUseForShop = function(slot0, slot1)
 	if slot0:IsSkinShopDiscountType() then
 		if not slot0:getConfig("usage_arg") or type(slot2) ~= "table" then
 			return false
@@ -257,7 +257,7 @@ function slot0.CanUseForShop(slot0, slot1)
 	return false
 end
 
-function slot0.GetConsumeForSkinShopDiscount(slot0, slot1)
+slot0.GetConsumeForSkinShopDiscount = function(slot0, slot1)
 	if slot0:IsSkinShopDiscountType() then
 		slot4 = Goods.Create({
 			shop_id = slot1
@@ -269,11 +269,11 @@ function slot0.GetConsumeForSkinShopDiscount(slot0, slot1)
 	end
 end
 
-function slot0.getName(slot0)
+slot0.getName = function(slot0)
 	return slot0.name or slot0:getConfig("name")
 end
 
-function slot0.getIcon(slot0)
+slot0.getIcon = function(slot0)
 	return slot0:getConfig("Icon")
 end
 

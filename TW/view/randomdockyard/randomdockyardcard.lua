@@ -1,6 +1,6 @@
 slot0 = class("RandomDockYardCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.npcTr = findTF(slot0._tf, "content/dockyard/npc")
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1)
 	ClearTweenItemAlphaAndWhite(slot0._go)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	TweenItemAlphaAndWhite(slot0._go)
 
 	if not slot0.ship or slot0.ship.id ~= slot1.id then
@@ -24,7 +24,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:UpdateSelected(slot2)
 end
 
-function slot0.UpdateSelected(slot0, slot1)
+slot0.UpdateSelected = function(slot0, slot1)
 	setActive(slot0.selected, slot1)
 
 	if not slot1 then
@@ -38,7 +38,7 @@ function slot0.UpdateSelected(slot0, slot1)
 	end
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot1 = slot0.ship
 
 	flushShipCard(slot0._tf, slot1)
@@ -47,7 +47,7 @@ function slot0.Flush(slot0)
 	slot0.lockTr.gameObject:SetActive(slot1:GetLockState() == Ship.LOCK_STATE_LOCK)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	ClearTweenItemAlphaAndWhite(slot0._go)
 	slot0:UpdateSelected(false)
 end

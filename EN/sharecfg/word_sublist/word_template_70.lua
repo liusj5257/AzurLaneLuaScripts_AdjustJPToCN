@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_70 = {}
 slot1 = slot0.word_template_70
 
-function temp()
+temp = function()
 	uv0["穿"] = {
 		["戴"] = {
 			["坐"] = {
@@ -34,7 +34,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["传"] = {
 		["奇"] = {
 			["私"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["傳"] = {
 		["染"] = {
 			["性"] = {
@@ -89,7 +89,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["床"] = {
 		["前"] = {
 			["看"] = {
@@ -133,7 +133,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["创"] = {
 		["世"] = {
 			["之"] = {
@@ -218,7 +218,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吹"] = {
 		["得"] = {
 			["你"] = {
@@ -311,7 +311,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["锤"] = {
 		["子"] = {
 			["情"] = {

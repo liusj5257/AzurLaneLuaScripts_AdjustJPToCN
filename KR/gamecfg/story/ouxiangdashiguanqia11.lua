@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Thinking",
 			say = "모항·공연 해역",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Thinking",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,9 +52,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "으흠으흠…… 그랬군…… 그러니까, 이제 단숨에 무대까지 돌진하면 되는 거지!?",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -91,8 +91,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,9 +118,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10700060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "원래의 세계를 향해! 아미가 꼭 승리할 거야♪",
 			effects = {
 				{
@@ -140,9 +140,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아미, 아직 승리를 단언하긴 일러요. 우선 눈앞의 \"모조품\"에 집중하세요!",
 			effects = {
 				{
@@ -193,8 +193,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			say = "고마워요～ 오늘은 아주 긴 하루가 될 것 같네요.",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			say = "오늘 콘서트는 지휘관님이 쭉 보고 계신다고요~ 시작부터 전력을 다하면 나중에 힘이 부칠 수도 있어요~",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10700030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "잠깐, 언제부터 보고 있는 거야!? 듣지 못했다고!",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			say = "(지휘관님이 보고 계시다는 건 함선들에게 괜찮은 자극이 될 수 있을지도…)",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			say = "……!",
 			typewriter = {
 				speed = 0.05,

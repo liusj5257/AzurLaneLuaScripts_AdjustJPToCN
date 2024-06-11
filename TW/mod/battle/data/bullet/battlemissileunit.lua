@@ -14,13 +14,13 @@ slot7.TYPE_COORD = 1
 slot7.TYPE_RANGE = 2
 slot7.TYPE_TARGET = 3
 
-function slot7.Ctor(slot0, ...)
+slot7.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0._state = slot0.STATE_LAUNCH
 end
 
-function slot7.SetTemplateData(slot0, slot1)
+slot7.SetTemplateData = function(slot0, slot1)
 	uv0.super.SetTemplateData(slot0, slot1)
 	slot0:ResetVelocity(0)
 
@@ -28,32 +28,32 @@ function slot7.SetTemplateData(slot0, slot1)
 	slot0._targetType = slot2.aimType or uv0.TYPE_TARGET
 end
 
-function slot7.GetPierceCount(slot0)
+slot7.GetPierceCount = function(slot0)
 	return 1
 end
 
-function slot7.RegisterOnTheAir(slot0, slot1)
+slot7.RegisterOnTheAir = function(slot0, slot1)
 	slot0._onTheHighest = slot1
 end
 
-function slot7.SetExplodePosition(slot0, slot1)
+slot7.SetExplodePosition = function(slot0, slot1)
 	slot0._explodePos = slot1:Clone()
 	slot0._explodePos.y = uv0.BombDetonateHeight
 end
 
-function slot7.GetExplodePostion(slot0)
+slot7.GetExplodePostion = function(slot0)
 	return slot0._explodePos
 end
 
 slot8 = 1 / slot0.Battle.BattleConfig.viewFPS
 
-function slot7.SetSpawnPosition(slot0, slot1)
+slot7.SetSpawnPosition = function(slot0, slot1)
 	uv0.super.SetSpawnPosition(slot0, slot1)
 
 	slot0._verticalSpeed = slot0:GetTemplate().extra_param.launchVrtSpeed
 end
 
-function slot7.Update(slot0, slot1)
+slot7.Update = function(slot0, slot1)
 	uv0.super.Update(slot0, slot1)
 
 	if slot0._state == slot0.STATE_LAUNCH and slot1 > slot0:GetTemplate().extra_param.launchRiseTime + slot0._timeStamp then
@@ -61,7 +61,7 @@ function slot7.Update(slot0, slot1)
 	end
 end
 
-function slot7.CompleteRise(slot0)
+slot7.CompleteRise = function(slot0)
 	slot0._state = slot0.STATE_ATTACK
 	slot0._gravity = 0
 
@@ -78,18 +78,18 @@ function slot7.CompleteRise(slot0)
 	slot0:calcSpeed()
 end
 
-function slot7.IsOutRange(slot0)
+slot7.IsOutRange = function(slot0)
 	return slot0._state == slot0.STATE_ATTACK and slot0._position.y <= uv0.BombDetonateHeight
 end
 
-function slot7.OutRange(slot0, slot1)
+slot7.OutRange = function(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv1.EXPLODE, {
 		UID = slot1
 	}))
 	uv2.super.OutRange(slot0)
 end
 
-function slot7.GetMissileTargetPosition(slot0)
+slot7.GetMissileTargetPosition = function(slot0)
 	if slot0._targetType == uv0.TYPE_RANGE then
 		return slot0:aimRange()
 	elseif slot0._targetType == uv0.TYPE_COORD then
@@ -99,13 +99,13 @@ function slot7.GetMissileTargetPosition(slot0)
 	end
 end
 
-function slot7.aimRange(slot0)
+slot7.aimRange = function(slot0)
 	slot1 = slot0._range
 
 	return Vector3(slot0._spawnPos.x + slot0._range * slot0:GetIFF(), 0, 0)
 end
 
-function slot7.aimCoord(slot0)
+slot7.aimCoord = function(slot0)
 	slot1 = slot0:GetTemplate().extra_param
 	slot3 = slot1.missileZ
 
@@ -116,7 +116,7 @@ function slot7.aimCoord(slot0)
 	return Vector3(slot2, 0, slot3)
 end
 
-function slot7.aimTarget(slot0)
+slot7.aimTarget = function(slot0)
 	if not slot0:GetWeapon():GetHost() or not slot2:IsAlive() then
 		return slot0:aimCoord()
 	end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "BIAOQIANGMANHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Javelin's Monthly Manga\n\n<size=45>Chapter 4 - Javelin, to the Final Battle!</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,14 +49,14 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			bgm = "story-5",
+			actor = 900183,
 			actorName = "？？？",
 			say = "<So we meet again, Javelin... Don't think that you can escape from my magnetism again, nya.>",
-			bgm = "story-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "<Indeed! Yuubari's modified wisdom cube simulates the ability to reflect an oriented consciousness into reality, and I was manifested from your deepest desires...>",
 			typewriter = {
@@ -100,10 +100,10 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
+			actor = 900183,
 			dir = 1,
 			actorName = "？？？",
 			say = "<I AM... MEOWFFICER J! NYAHAHA!>",
@@ -123,11 +123,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "You're the one who sent this letter!",
 			effects = {
 				{
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "<Exactly right. I am the embodiment of your heart's true desires, your destiny, your very existence! Nyahaha!>",
 			typewriter = {
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Eeek!",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 35,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#ff5c5c",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "<Nyahahaha! Defeat me here and transcend your limits, nya! Otherwise, you will never grow again!>",
 			typewriter = {
@@ -205,9 +205,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "\"With a roar, the Meowfficer rained fierce attacks upon Javelin and the others.\"",
 			typewriter = {
 				speed = 0.05,
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			say = "(KABOOOM!!)",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "(KABOOOM!!)",
 			flashN = {
 				color = {
 					1,
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#ff5c5c",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "<I-impossible! Nyagh... Even with the power that Master Yuubari granted me... I was defeated so easily...? Nyargh...>",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Got it! Strike Mode activated, maximum output! Take THIS!!!",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2000
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			side = 2,
+			actor = 900183,
 			say = "<NYAAAAAAGGHHHHHH!!!>",
 			flashN = {
 				color = {
@@ -414,8 +414,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -424,16 +424,16 @@ return {
 			}
 		},
 		{
-			actor = 401460,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 401460,
+			nameColor = "#a9f548",
 			say = "... Did you see that, Graf?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"The peace and tranquility of the port was protected once more.\"",
 			typewriter = {
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"We're counting on you, Javelin! The fate of Azur Lane rests within your hands!\"",
 			typewriter = {
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"Written By: Z1, San Diego, et. al\"",
 			typewriter = {

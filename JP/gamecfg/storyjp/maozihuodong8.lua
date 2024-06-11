@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900186,
 			side = 2,
 			bgName = "bg_cccp_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "これで最後ね。みんな、おつかれー！",
 			bgm = "bgm-cccp2",
+			actor = 900186,
+			nameColor = "#a9f548",
+			say = "これで最後ね。みんな、おつかれー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "新型って言えるか正直ちょっと微妙だけどな…もしかするとこの要塞で数十年寝かされてた可能性も…",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "大量に倒すまで！",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "（たしかに、この程度はまだこの艦隊でも対処可能ね…）",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "そうそう！まずは戦ってみないとわからないってことよ！",
 			typewriter = {

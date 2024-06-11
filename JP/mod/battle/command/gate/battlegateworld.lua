@@ -2,7 +2,7 @@ slot0 = class("BattleGateWorld")
 ys.Battle.BattleGateWorld = slot0
 slot0.__name = "BattleGateWorld"
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	slot2 = nowWorld()
 
 	if BeginStageCommand.DockOverload() then
@@ -74,7 +74,7 @@ function slot0.Entrance(slot0, slot1)
 	end)
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	if slot1.CheaterVertify() then
 		return
 	end

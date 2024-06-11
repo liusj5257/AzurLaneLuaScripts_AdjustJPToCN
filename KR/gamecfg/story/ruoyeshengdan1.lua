@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUOYESHENGDAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUOYESHENGDAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"크리스마스 이브 진저브레드 이야기\n\n<size=45>一 크리스마스 진저브레드의 레시피</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_100",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_100",
 			bgm = "story-1",
 			actor = 199012,
 			nameColor = "#a9f548",
 			say = "재료 비율...딱 맞고! 오븐 조절...완벽! 헤헷, 이번 진저브레드는 분명 잘 될 거임다!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "랄랄라~ 난 짱이라네~",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "아 샌디에이고, 지금 저녁 때 있을 크리스마스 파티 준비를 하고 있는데, 이게...",
 			typewriter = {
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "킁킁... 이건, 크리스마스 진저브레드! 냄새 엄청 좋다!",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "(우물) 음... (우물) 맛있어! 하나 더!",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
+			dir = 1,
 			say = "샌디에이고는 단숨에 진저브레드를 마구 먹어치웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "배터지겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "그럼 다행인데... 아 아니지, 그걸 묻는 것이 아니고, 맛은 어떻슴까?",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "흠...... 역시 어딘가 부족하단 말임다...",
 			typewriter = {
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "샌디에이고는 전혀 알 수 없지만 말이야!",
 			typewriter = {
 				speed = 0.05,
@@ -428,8 +428,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -441,8 +441,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "하하... 그래도, 확실히 좋은 아이디어임다! 다른 몇 사람에게도 물어봐야겠슴다! 그런김에 다른 진영 동료들에게도 파티 참석 여부를 확인해보겠슴다.",
 			typewriter = {
@@ -455,12 +455,12 @@ return {
 			}
 		},
 		{
-			actor = 102081,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102081,
+			nameColor = "#a9f548",
 			say = "화이팅~ (전혀 듣지 않고 있다.)",
 			typewriter = {
 				speed = 0.05,

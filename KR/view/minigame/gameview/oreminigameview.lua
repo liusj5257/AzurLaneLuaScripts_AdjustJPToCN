@@ -1,18 +1,18 @@
 slot0 = class("OreMiniGameView", import("view.miniGame.MiniGameTemplateView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "OreMiniGameUI"
 end
 
-function slot0.getGameController(slot0)
+slot0.getGameController = function(slot0)
 	return OreMiniGameController
 end
 
-function slot0.getShowSide(slot0)
+slot0.getShowSide = function(slot0)
 	return false
 end
 
-function slot0.initPageUI(slot0)
+slot0.initPageUI = function(slot0)
 	uv0.super.initPageUI(slot0)
 
 	slot3 = slot0.rtTitlePage
@@ -44,7 +44,7 @@ function slot0.initPageUI(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.updateMainUI(slot0)
+slot0.updateMainUI = function(slot0)
 	uv0.super.updateMainUI(slot0)
 
 	slot2 = pg.activity_template[ActivityConst.ISLAND_GAME_ID].config_client.item_id
@@ -52,7 +52,7 @@ function slot0.updateMainUI(slot0)
 	setText(slot0.rtTitlePage:Find("main/res_bar"):Find("num"), slot0:GetMGHubData().count)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.gameController:willExit()
 end
 

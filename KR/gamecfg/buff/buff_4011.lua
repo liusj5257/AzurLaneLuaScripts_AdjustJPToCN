@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔20秒，有25%的概率发动，降低全队受到伤害的5.0%(满级15.0%)，持续8秒，同技能效果不叠加",
 	name = "防御号令",
 	init_effect = "",
+	id = 4011,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "每隔20秒，有25%的概率发动，降低全队受到伤害的$1，持续8秒，同技能效果不叠加",
 	stack = 1,
-	id = 4011,
+	color = "yellow",
 	icon = 4010,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 4012,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		}
 	}

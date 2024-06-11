@@ -1,6 +1,6 @@
 slot0 = class("WorldPortShoppingCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if slot1:getBody().goods.count <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 

@@ -50,11 +50,11 @@ slot0.AttachEnemyTypes = {
 	slot0.AttachChampion
 }
 
-function slot0.IsEnemyAttach(slot0)
+slot0.IsEnemyAttach = function(slot0)
 	return table.contains(uv0.AttachEnemyTypes, slot0)
 end
 
-function slot0.IsBossCell(slot0)
+slot0.IsBossCell = function(slot0)
 	if slot0.attachment == uv0.AttachBoss then
 		return true
 	end
@@ -70,7 +70,7 @@ function slot0.IsBossCell(slot0)
 	return slot1.type == uv0.ExpeditionTypeBoss or slot1.type == uv0.ExpeditionTypeMulBoss
 end
 
-function slot0.GetDestroyFX(slot0)
+slot0.GetDestroyFX = function(slot0)
 	if not pg.expedition_data_template[slot0.attachmentId] or slot1.SLG_destroy_FX == "" then
 		return "huoqiubaozha"
 	else
@@ -177,7 +177,7 @@ slot0.TraitNone = 0
 slot0.TraitLurk = 1
 slot0.TraitVirgin = 2
 
-function slot0.NeedMarkAsLurk(slot0)
+slot0.NeedMarkAsLurk = function(slot0)
 	if slot0.flag ~= ChapterConst.CellFlagActive then
 		return false
 	end
@@ -201,7 +201,7 @@ function slot0.NeedMarkAsLurk(slot0)
 	end
 end
 
-function slot0.NeedEasePathCell(slot0)
+slot0.NeedEasePathCell = function(slot0)
 	if slot0.attachment == uv0.AttachNone then
 		return true
 	elseif slot0.attachment == uv0.AttachAmbush then
@@ -235,7 +235,7 @@ function slot0.NeedEasePathCell(slot0)
 	return false
 end
 
-function slot0.NeedClearStep(slot0)
+slot0.NeedClearStep = function(slot0)
 	if slot0.attachment == uv0.AttachAmbush and slot0.flag == ChapterConst.CellFlagAmbush then
 		return true
 	end
@@ -260,13 +260,13 @@ slot0.AchieveType4 = 4
 slot0.AchieveType5 = 5
 slot0.AchieveType6 = 6
 
-function slot0.IsAchieved(slot0)
+slot0.IsAchieved = function(slot0)
 	slot1 = false
 
 	return (slot0.type == uv0.AchieveType4 or slot0.type == uv0.AchieveType5) and slot0.count >= 1 or slot0.config <= slot0.count
 end
 
-function slot0.GetAchieveDesc(slot0, slot1)
+slot0.GetAchieveDesc = function(slot0, slot1)
 	slot2 = false
 
 	if _.detect(slot1.achieves, function (slot0)
@@ -371,7 +371,7 @@ slot0.Status2Stg = setmetatable({}, {
 })
 slot0.Buff2Stg = {}
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if slot1.buff_id == 0 then
 		return
 	end
@@ -385,7 +385,7 @@ end
 
 slot0.HpGreen = 3000
 
-function slot0.GetAmbushDisplay(slot0)
+slot0.GetAmbushDisplay = function(slot0)
 	slot1, slot2 = nil
 
 	if not slot0 then
@@ -421,11 +421,11 @@ slot0.ShipStepDuration = 0.5
 slot0.ShipStepQuickPlayScale = 0.5
 slot0.ShipMoveTailLength = 2
 
-function slot0.GetRepairParams()
+slot0.GetRepairParams = function()
 	return 1, 3, 100
 end
 
-function slot0.GetShamRepairParams()
+slot0.GetShamRepairParams = function()
 	return 1, 3, 100
 end
 
@@ -451,9 +451,9 @@ slot0.EnemySize = {
 	3,
 	[96.0] = 100,
 	[98.0] = 100,
-	[97.0] = 100,
-	[95.0] = 98,
 	[99.0] = 99,
+	[95.0] = 98,
+	[97.0] = 100,
 	[94.0] = 99
 }
 slot0.EnemyPreference = {
@@ -472,9 +472,9 @@ slot0.EnemyPreference = {
 	1,
 	[96.0] = 1,
 	[98.0] = 9,
-	[97.0] = 100,
-	[95.0] = 8,
 	[99.0] = 99,
+	[95.0] = 8,
+	[97.0] = 100,
 	[94.0] = 99
 }
 slot0.ShamMoneyItem = 59900
@@ -554,23 +554,23 @@ slot0.AirDominance = {
 	}
 }
 
-function slot0.IsAtelierMap(slot0)
+slot0.IsAtelierMap = function(slot0)
 	return slot0:getConfig("on_activity") == ActivityConst.RYZA_MAP_ACT_ID
 end
 
 slot0.AUTOFIGHT_STOP_REASON = {
 	DOCK_OVERLOADED = 2,
-	SETTLEMENT = 7,
+	OIL_LACK = 3,
 	SHIP_ENERGY_LOW = 6,
 	MANUAL = 1,
 	GOLD_MAX = 4,
 	BATTLE_FAILED = 5,
-	UNKNOWN = 0,
-	OIL_LACK = 3
+	SETTLEMENT = 7,
+	UNKNOWN = 0
 }
 chapter_skip_battle = PlayerPrefs.GetInt("chapter_skip_battle") or 0
 
-function switch_chapter_skip_battle()
+switch_chapter_skip_battle = function()
 	chapter_skip_battle = 1 - chapter_skip_battle
 
 	PlayerPrefs.SetInt("chapter_skip_battle", chapter_skip_battle)

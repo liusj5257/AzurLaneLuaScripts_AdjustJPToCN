@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"크리스마스 선물 대작전!\n\n<size=45>2. 사쿠라 엠파이어의 제안</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
 			bgmDelay = 2,
+			actorName = "{namecode:146}",
 			bgm = "story-1",
 			actor = 301641,
-			actorName = "{namecode:146}",
+			nameColor = "#92fc63",
+			bgName = "star_level_bg_104",
 			say = "{namecode:142}쨩, 서두르지 마라! 쪼매만, 쪼매만 더 기다리면 금방 고를 수 있다!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,9 +59,9 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#92fc63",
 			dir = -1,
+			say = "더 기다리라니! 선물 하나 고르는데 왜 두시간 씩이나 필요한 거야!",
 			actor = 301591,
 			actorName = "{namecode:142}",
-			say = "더 기다리라니! 선물 하나 고르는데 왜 두시간 씩이나 필요한 거야!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "응? 사쿠라 엠파이어의 구축함들이잖아. 말다툼하는 건가?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 301641,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 301641,
 			actorName = "{namecode:146}",
 			say = "어라, 로열의 전함과 구축함 딸내미! 니들도 선물 사러 왔나?",
 			typewriter = {
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "아……안녕하세요……",
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아……안녕하세요……",
+			actor = 201100,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 301641,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 0,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 301641,
 			actorName = "{namecode:146}",
 			say = "오? 징하게 고민하고 있나. {namecode:146}가 도와줄 만한 게 있으면 말만 해라!",
 			typewriter = {
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 301591,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 1,
+			bgName = "star_level_bg_104",
 			dir = -1,
+			actor = 301591,
 			actorName = "{namecode:142}",
 			say = "자기 선물도 못 골랐으면서 남을 도와주겠다니, 굉장하네!",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -368,11 +368,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "선배…… 그러면…… 선물을 받았을 때의 즐거움과 놀라움이 사라져 버려요.",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -442,12 +442,12 @@ return {
 			}
 		},
 		{
-			actor = 301641,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,
+			actor = 301641,
 			actorName = "{namecode:146}",
 			say = "잘가래이, 전함 딸내미!",
 			typewriter = {

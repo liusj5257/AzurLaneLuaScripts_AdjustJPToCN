@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KENTE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KENTE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"GO！肯特選手！\n\n<size=45>七 永遠在一起！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "肯特擔任秘書艦以來，已經經過了有一段時間。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "肯特擔任秘書艦以來，已經經過了有一段時間。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "與一開始相比，如今已經對彼此都有了更深的了解。",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "所以能夠明白， 一旦告訴肯特那件事，她一定會——",
 			typewriter = {
 				speed = 0.05,
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "――Wonderful！！我已經坐不住啦！唔…抱歉指揮官！我先去看看！",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "莽撞的部分還是一如既往，肯特激動地衝向了“某個地方”。",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "也好，跟著她一起去看看吧。",
 			typewriter = {
 				speed = 0.05,
@@ -132,13 +132,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "被已經先到的肯特發現了，只見她用力地揮舞著手臂，笑得十分開心。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "HEY！指揮官！這裡就是新的指揮室嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "沒錯，其實就是把指揮室從舊樓搬到了新樓。",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "總體的佈局並沒有太多改變，只是新的指揮室裡，不但有肯特專用的座位，還有廚房和縫紉設備。",
 			typewriter = {
 				speed = 0.05,
@@ -217,9 +217,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "以及——她的小夥伴老虎。",
 			typewriter = {
 				speed = 0.05,
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "指揮官會想要和肯特選手一直在一起嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "和肯特一起開心地笑了起來——想必今天也會是個手忙腳亂，又讓人快活的一天吧。",
 			typewriter = {
 				speed = 0.05,
@@ -303,12 +303,12 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "要永遠永遠和肯特選手在一起哦！指揮官！",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

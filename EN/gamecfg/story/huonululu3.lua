@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"An Easily Flustered Girl's Story\n\n<size=45>Chapter 3 - You've Got a Friend in Me!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Honolulu, Leander, and I went to a café that I frequent.",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Honolulu, Leander, and I went to a café that I frequent.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 202010,
+			say = "Not at all, it's my pleasure.",
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Not at all, it's my pleasure.",
+			actor = 202010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "... But why are YOU here, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "Honolulu averted her gaze from me. She seemed displeased.",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "The 3 of us sat down and enjoyed some good cake and afternoon tea.",
 			typewriter = {
 				speed = 0.05,
@@ -188,15 +188,15 @@ return {
 			}
 		},
 		{
-			actor = 202010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202010,
+			nameColor = "#a9f548",
 			say = "... Ah, that reminds me: it seems you don't socialize much with other girls, Honolulu. Is there a reason for that?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			say = "B-beautiful...? Me...?",
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "B-beautiful...? Me...?",
+			actor = 102120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -355,9 +355,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "Hearing that, Honolulu's expression turned bright red and she began acting fidgety. Maybe nobody has ever praised her so much before.",
 			typewriter = {
 				speed = 0.05,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "I knew it was a good idea to invite Honolulu.",
 			typewriter = {
 				speed = 0.05,

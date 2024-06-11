@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "华盛顿条约",
 	time = 0,
-	color = "blue",
+	name = "华盛顿条约",
+	init_effect = "",
+	id = 6761,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6761,
+	color = "blue",
 	icon = 6761,
 	last_effect = "",
 	effect_list = {

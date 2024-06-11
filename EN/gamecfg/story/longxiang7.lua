@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Light Carrier Ryuujou, Moving Out!\n\n<size=45>Chapter 7: Bravery! Commander, I love you!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Academy - Behind the School",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Academy - Behind the School",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "After I finished work, Ryuujou called me to meet her behind the school, saying \"Milord, I have something important to tell you.\"",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "But she's the secretary ship, so why can't she just say it in the office...?",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "... .... ... ... ... ... ... ... ... ...",
 			typewriter = {
@@ -99,9 +99,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "The awkward atmosphere grew thicker.",
 			typewriter = {
 				speed = 0.05,
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "Uh... uh... um...! Th-thank you for taking time outside your business hours to see me!",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "A-actually, there is something that's been on my mind for a long time that I've wanted to discuss with you!",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Milord, I would like you to make miso soup for me every day!",
 			effects = {
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Ryuujou, blushing from ear to ear, fumbled over her words as she hastily tried to explain what she meant.",
 			effects = {
 				{
@@ -194,8 +194,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "A-anyway, ever since you saw me at the cafeteria, I've been worried about that day and night!",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "To be honest, Saratoga told me \"If you confess behind the school building, Commander will slam you into the wall and all your worries will be washed away by the pounding of your hearts,\" so that's how this ended up happening...",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Haah... haah... this kind of stuff... between a man and a woman... I can't deal with it after all...",
 			typewriter = {
@@ -268,9 +268,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Even though there was so much that I wanted to shake my head at, her true feelings were undeniable.",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "That's why... please accept my feelings! Milord, this humble Ryuujou will gladly face any challenge for your sake!",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.15,
 					x = 0,
@@ -324,8 +324,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Commander, I love you!",
 			typewriter = {

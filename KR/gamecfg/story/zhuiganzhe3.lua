@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「아가씨」와 함께하는 시간\n\n<size=45>3 호기심과 케이크</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "——체이서가 다른 진영으로 간 첫 날.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "——체이서가 다른 진영으로 간 첫 날.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "여기가 비시아의 생활 구역이구나! 얼른 들어가자.",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "체이서는 조용히 문을 열고 들어갔다.",
@@ -83,15 +83,15 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "오~ 실내 스타일이 역시 로열이랑 많이 다르네.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "체이서는 흥분하며 사방을 관찰했다, 이때——",
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "응? 낯선 여자 아이네, 그리고... 지휘관?",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "......아, 네가 바로 로열에서 온 자매지? 난 됭케르크야. 네 이름 알려줄래?",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "응, 오늘 계획은 우리 진영의 연습전과 수업 참관이야.",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "그외에는... 환영 이벤트의 일환으로 내가 특별 케이크를 준비했어. 기대해 줘, 후후~",
 			typewriter = {
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "케이크! 정말 최고다! 내가 여기 좋은 찻잎을 준비했으니까 최고로 맛있는 홍차를 보여줄게.",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "됭케르크는 조금 피곤해 보이는 발걸음으로 뒤를 향해 걸어갔다. 체이서는 자연스럽게 따라갔다.",
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "여기서 기다리는 게 낫지 않을까... 라고 생각했지만, 점점 멀어지는 두 사람을 보니, 우선 따라가는 게 좋겠다——",
@@ -289,14 +289,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 206050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "어어엇, 엄청 피곤해 보이는데?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "음, 지휘관이랑 체이서 둘다 따라온 거야?...... 입구에서 잠깐 기다리라는 말을 깜박했네.",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "무슨 일 있어? 설마 나랑 지휘관이 때를 잘못 찾아와서 방해한 건지...",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "그런 건 아니고, 어제 일이 늦게 끝나서. 원래 디저트 좀 먹으면서 쉬자고 하고싶었는데...",
 			typewriter = {
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "그럼 딱이잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "체이서는 말을 끝내고, 내 귓가에 대고 작게 말했다.",
@@ -464,8 +464,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "(... 원래 비시아는 모두 진지하고 성실한 사람들인 줄 알았는데, 이런 상황도 있구나)",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "체이서는 가볍게 웃고, 됭케르크를 향해 활기 가득하게 물었다.",
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "그리 익숙하지 않은 곳에서도 어색하지 않았다. 그리고 왕성한 호기심은 체이서의 성격 때문인건가?",
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

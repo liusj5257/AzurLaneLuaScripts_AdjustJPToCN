@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401210,
 			nameColor = "#ff5c5c",
 			side = 1,
-			bgm = "battle-boss-1",
 			dir = 1,
 			say = "유조선 호위는, 틸레들이 어디 있는지 모르겠고……",
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -95,9 +95,9 @@ return {
 		{
 			actor = 401210,
 			side = 1,
+			dir = 1,
 			hideOther = true,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "……아니, 벌써 눈앞까지 와 있잖아!!",
 			subActors = {
 				{

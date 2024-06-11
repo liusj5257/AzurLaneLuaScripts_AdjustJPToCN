@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 301057,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "졌다. 하지만 즐거웠어요.",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -124,8 +124,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,14 +134,14 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "전투 과정 중에서 μ장비의 성능과 표준 성능의 차이 발견.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,8 +169,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "평소의 장비와는 다른 느낌이라 그런가, 이거 참. 뭐라고 해야 할지, 미묘하게 편한 느낌이긴 한데…",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "동의합니다. 저희는 함선입니다. 장비 간에 차이는 없는 것이 맞습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -200,9 +200,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "가스코뉴의 전투 패턴은 리허설 때와 차이가 없는 것으로 판단.",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "음… 가스코뉴의 전투 패턴에는 변화가 없었지만, 장비를 사용할 때 느낌이 달랐다는 거지?",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "그렇다.",
 			typewriter = {
 				speed = 0.05,
@@ -379,8 +379,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "방금 전 전투에서도 감정 모듈에 억제를 진행.",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "하지만 감정 모듈의 활성화 정도가 평상시보다 높은 것을 확인.",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "윽, 머리 아파……",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "그렇다는 것은 가스코뉴도 즐거웠다는 뜻이군요.",
 			typewriter = {
 				speed = 0.05,
@@ -473,8 +473,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "설명 방식에 사과를 표함. 미안합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -489,8 +489,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "테스트 과정에서 감정 모듈 개방이 필요한 경우 존재 시,",
 			typewriter = {
 				speed = 0.05,
@@ -505,8 +505,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "가스코뉴에게 지시를.",
 			typewriter = {
 				speed = 0.05,

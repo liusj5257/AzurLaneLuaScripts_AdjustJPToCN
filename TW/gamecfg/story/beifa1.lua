@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEIFA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEIFA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"明日的淑女\n\n<size=45>一 幼小的訪客</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "某日·港區",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "某日·港區",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "？？？",
 			say = "嗯…這裡就是“港區”嗎？",
 			typewriter = {
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "？？？",
 			say = "比想像中的還要大好多——",
 			typewriter = {
@@ -62,19 +62,19 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
 			actorName = "？？？",
 			say = "好！去找{namecode:98}姐姐說的“指揮官”報到吧～",
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			},
 			typewriter = {
@@ -87,15 +87,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "殿下，這些是準備交給指揮官的資料，沒有缺吧？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "那是當然啦！本王做事怎麼會有差池～",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "那是當然啦！本王做事怎麼會有差池～",
+			actor = 205010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "？？？",
 			say = "啊…",
 			typewriter = {
@@ -173,10 +173,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "厭戰&伊莉莎白女王",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
+			hideOther = true,
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "貝爾法斯特？",
 			say = "貴安，兩位姐姐，我是貝法。請問妳們知道“指揮官”在哪裡嗎？",
 			typewriter = {
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "貝、貝貝貝貝爾法斯特縮水了啊啊啊啊啊啊！",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "貝、貝貝貝貝爾法斯特縮水了啊啊啊啊啊啊！",
+			actor = 205010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "喵！原來在這裡喵！真是的，都說了不可以亂跑了喵！",
 			typewriter = {
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
+			say = "啊…被{namecode:98}姐姐找到了",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…被{namecode:98}姐姐找到了",
+			actor = 202180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 1,
+			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "事、事情是這樣的喵——",
 			typewriter = {

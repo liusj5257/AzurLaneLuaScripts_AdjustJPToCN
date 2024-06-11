@@ -4,11 +4,11 @@ slot0.PAGE_DEFAULT = 1
 slot0.PAGE_NATIVE_SHIPS = 2
 slot0.PAGE_RANDOM_SHIPS = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PlayerVitaeUI"
 end
 
-function slot0.GetBGM(slot0)
+slot0.GetBGM = function(slot0)
 	slot2 = getProxy(SettingsProxy):IsBGMEnable()
 
 	if slot0:GetFlagShip():IsBgmSkin() and slot2 then
@@ -18,13 +18,13 @@ function slot0.GetBGM(slot0)
 	end
 end
 
-function slot0.OnPlayerNameChange(slot0)
+slot0.OnPlayerNameChange = function(slot0)
 	if slot0.detailPage and slot0.detailPage:GetLoaded() then
 		slot0.detailPage:OnPlayerNameChange(slot0:GetPlayer())
 	end
 end
 
-function slot0.OnShipSkinChanged(slot0, slot1)
+slot0.OnShipSkinChanged = function(slot0, slot1)
 	slot0:UpdatePainting()
 
 	if slot0.shipsPage and slot0.shipsPage:GetLoaded() and slot0.shipsPage:isShowing() then
@@ -32,27 +32,33 @@ function slot0.OnShipSkinChanged(slot0, slot1)
 	end
 end
 
-function slot0.ReloadPanting(slot0, slot1)
+slot0.ReloadPanting = function(slot0, slot1)
 	if slot0.displaySkinID and slot0.displaySkinID == slot1 then
-		setPaintingPrefabAsync(slot0.painting, slot0:GetFlagShip():getPainting(), "kanban")
+		slot0:ReturnPainting()
+
+		slot3 = slot0:GetFlagShip():getPainting()
+
+		setPaintingPrefabAsync(slot0.painting, slot3, "kanban")
+
+		slot0.paintingName = slot3
 	end
 end
 
-function slot0.RefreshShips(slot0)
+slot0.RefreshShips = function(slot0)
 	if slot0.shipsPage and slot0.shipsPage:GetLoaded() and slot0.shipsPage:isShowing() then
 		slot0.shipsPage:RefreshShips()
 	end
 end
 
-function slot0.GetPlayer(slot0)
+slot0.GetPlayer = function(slot0)
 	return getProxy(PlayerProxy):getRawData()
 end
 
-function slot0.GetFlagShip(slot0)
+slot0.GetFlagShip = function(slot0)
 	return slot0:GetPlayer():GetFlagShip()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.backBtn = slot0:findTF("top/frame/back")
 	slot0.mainViewCg = slot0:findTF("adapt"):GetComponent(typeof(CanvasGroup))
@@ -114,7 +120,7 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.shipsPage:GetLoaded() and uv0.shipsPage:isShowing() then
 			uv0.shipsPage:Hide()
@@ -158,12 +164,12 @@ function slot0.didEnter(slot0)
 	slot0:checkShowResetL2dBtn()
 end
 
-function slot0.UpdateReplaceTip(slot0)
+slot0.UpdateReplaceTip = function(slot0)
 	setActive(slot0.replaceBtnTip, getProxy(SettingsProxy):ShouldEducateCharTip())
 end
 
-function slot0.DoEnterAnimation(slot0)
-	function slot1(slot0)
+slot0.DoEnterAnimation = function(slot0)
+	slot1 = function(slot0)
 		slot1 = slot0.anchoredPosition3D
 		slot0.anchoredPosition3D = Vector3(slot1.x - 1200, slot1.y, 0)
 
@@ -187,7 +193,7 @@ function slot0.DoEnterAnimation(slot0)
 	end)(slot0.topFrame)
 end
 
-function slot0.ShowOrHideMainView(slot0, slot1)
+slot0.ShowOrHideMainView = function(slot0, slot1)
 	slot0.mainViewCg.alpha = slot1 and 1 or 0
 	slot0.mainViewCg.blocksRaycasts = slot1
 	slot0.detailCg.alpha = slot1 and 1 or 0
@@ -199,7 +205,7 @@ function slot0.ShowOrHideMainView(slot0, slot1)
 	end
 end
 
-function slot0.UpdatePainting(slot0, slot1)
+slot0.UpdatePainting = function(slot0, slot1)
 	slot2 = slot0:GetFlagShip()
 	slot3 = false
 	slot4 = {}
@@ -223,7 +229,14 @@ function slot0.UpdatePainting(slot0, slot1)
 	end
 
 	if not slot0.displaySkinID or slot0.displaySkinID ~= slot2.skinId or slot1 then
-		setPaintingPrefabAsync(slot0.painting, slot2:getPainting(), "kanban")
+		slot0:ReturnPainting()
+
+		slot5 = slot2:getPainting()
+
+		setPaintingPrefabAsync(slot0.painting, slot5, "kanban")
+
+		slot0.paintingName = slot5
+
 		setActive(slot0.switchSkinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot2) and not isa(slot2, VirtualEducateCharShip))
 
 		slot0.displaySkinID = slot2.skinId
@@ -234,11 +247,19 @@ function slot0.UpdatePainting(slot0, slot1)
 	slot0:checkShowResetL2dBtn()
 end
 
-function slot0.updateSwitchSkinBtnTag(slot0)
-	setActive(slot0.switchSkinBtnTag, #PaintingConst.GetPaintingNameListByShipVO(slot0:GetFlagShip()) > 0)
+slot0.ReturnPainting = function(slot0)
+	if slot0.paintingName then
+		retPaintingPrefab(slot0.painting, slot0.paintingName)
+	end
+
+	slot0.paintingName = nil
 end
 
-function slot0.onBackPressed(slot0)
+slot0.updateSwitchSkinBtnTag = function(slot0)
+	setActive(slot0.switchSkinBtnTag, #PaintingGroupConst.GetPaintingNameListByShipVO(slot0:GetFlagShip()) > 0)
+end
+
+slot0.onBackPressed = function(slot0)
 	if slot0.shipsPage and slot0.shipsPage:GetLoaded() and slot0.shipsPage:isShowing() then
 		triggerButton(slot0.backBtn)
 
@@ -254,14 +275,14 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.checkShowResetL2dBtn(slot0)
+slot0.checkShowResetL2dBtn = function(slot0)
 	if slot0:GetFlagShip() and slot1:GetSkinConfig().spine_use_live2d == 1 then
 		setActive(slot0.btnLive2dReset, false)
 
 		return
 	end
 
-	if not PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1:getPainting()), nil, true))) then
+	if not checkABExist(HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1:getPainting()), nil, true)) then
 		setActive(slot0.btnLive2dReset, false)
 
 		return
@@ -277,7 +298,9 @@ function slot0.checkShowResetL2dBtn(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
+	slot0:ReturnPainting()
+
 	if LeanTween.isTweening(slot0.painting.gameObject) then
 		LeanTween.cancel(slot0.painting.gameObject)
 	end

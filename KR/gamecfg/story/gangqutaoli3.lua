@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"항구탈출 대작전!\n\n<size=45>3 하늘의 도움!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202180,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "평안하신지요. 에든버러급 경순양함, 로열 메이드대의 견습 메이드, 벨파스트입니다.",
 			bgm = "story-1",
+			actor = 202180,
+			nameColor = "#92fc63",
+			say = "평안하신지요. 에든버러급 경순양함, 로열 메이드대의 견습 메이드, 벨파스트입니다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -22.5,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#92fc63",
 			say = "처, 처음 뵙겠습니다. 사쿠라 엠파이어의 순양전함, 히에이라고 합니다.",
 			typewriter = {
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "세 사람",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#92fc63",
 			say = "우리는 이곳의 지휘관에게 유괴된 함선으로, 이 모항에서 탈출하려다 길을 잃은 참이다.",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#92fc63",
 			say = "그건 어떨지… 아무튼, 저희들은 바다를 보고 싶은데, 안내해주실 수 있으신가요…?",
 			typewriter = {
@@ -209,15 +209,15 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#92fc63",
 			say = "여기는 대강당입니다. 지금은 수업 중이어서 다들 교실에 있답니다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#92fc63",
 			say = "(다들, 사이좋게 수업받고 있어…… 무척 평화로워 보여……)",
 			typewriter = {
@@ -307,15 +307,15 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#92fc63",
 			say = "여길 지나면 뒷산의 사쿠라 엠파이어 신사가 나옵니다. 설날에는 다들 정월 첫 인사를 드리러 오죠.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#92fc63",
 			say = "(응? 히에이, 엄청 떨고 있는데…… 왜지?)",
 			typewriter = {
@@ -439,14 +439,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 407020,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "지, 지쳤어……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202180,
+			nameColor = "#92fc63",
 			say = "?? 손님들께 모항을 견학시켜드리며 부두까지 안내해드리는 게 아니었나요…?",
 			typewriter = {
 				speed = 0.05,

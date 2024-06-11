@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"半人馬與港區的“前輩”們\n\n<size=45>七　真正的同伴</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "半人馬說起了有關“前輩”的新含義。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "半人馬說起了有關“前輩”的新含義。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,8 +65,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "在這段時間裡，我近距離接觸了許多前輩，知道了許多前輩們在戰場之外的另一面。",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "就算是指揮官，也會有喊著不想工作和打瞌睡的時候。",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "是的，這樣才正常，雖然大家有各自的想法，偶爾也會有些爭執……",
 			typewriter = {
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "而現在的我也是這支艦隊的一員，所以我不再只是尊敬大家，更是喜歡上了大家。",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "指揮官，不要突然問這種問題啦……我當然也喜歡指揮官啦~",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "半人馬的臉紅了一下。",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "總之呢，一開始的我，是因為尊敬經歷過大戰的各位而稱呼大家為前輩。",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "啊哈哈，雖然說起來有點不好意思，其實主要原因還是我已經叫習慣了呢~",
 			typewriter = {
@@ -260,9 +260,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "還真是說複雜也複雜，說簡單也簡單啊…",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "說了這麼多我的事，也該輪到指揮官了呢。",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "雖然擔任了這麼久的秘書艦，我已經相當了解指揮官了。",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "不過果然還是想聽指揮官親口和我說說自己的事呢…一些小秘密，或者沒有對人說過的想法什麼的。",
 			typewriter = {
@@ -324,9 +324,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嘻嘻，能告訴我更多…你的事情嗎？指揮官…前輩？",
 			typewriter = {

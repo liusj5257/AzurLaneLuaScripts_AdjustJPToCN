@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023关岛活动EX 二阶段召唤物3",
 	time = 2,
-	color = "blue",
+	name = "2023关岛活动EX 二阶段召唤物3",
+	init_effect = "",
+	id = 200748,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200748,
+	color = "blue",
 	icon = 200748,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200748,
 				time = 0.2,
-				target = "TargetSelf",
-				skill_id = 200748
+				target = "TargetSelf"
 			}
 		}
 	}

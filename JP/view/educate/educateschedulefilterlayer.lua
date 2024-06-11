@@ -1,6 +1,6 @@
 slot0 = class("EducateScheduleFilterLayer", import(".base.EducateBaseUI"))
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot1 = Clone(slot0)
 
 	table.remove(slot1, 1)
@@ -55,11 +55,11 @@ slot0.FILTER_CONFIG = {
 	}
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateScheduleIndexUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
@@ -86,7 +86,7 @@ function slot0.init(slot0)
 	setText(slot0:findTF("reset_btn/Text", slot0.windowTF), i18n("word_reset"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("sure_btn", slot0.windowTF), function ()
 		if uv0.contextData.callback then
 			uv0.contextData.callback(uv0.contextData.indexDatas)
@@ -119,7 +119,7 @@ function slot0.didEnter(slot0)
 	})
 end
 
-function slot0.initDropdownPanel(slot0)
+slot0.initDropdownPanel = function(slot0)
 	slot1 = slot0.dropdownUIList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -145,7 +145,7 @@ function slot0.initDropdownPanel(slot0)
 	end)
 end
 
-function slot0.initFilters(slot0)
+slot0.initFilters = function(slot0)
 	slot0.contextData.indexDatas = slot0.contextData.indexDatas or {}
 	slot0.uiList = {}
 
@@ -160,7 +160,7 @@ function slot0.initFilters(slot0)
 	end
 end
 
-function slot0.initNormal(slot0, slot1, slot2, slot3)
+slot0.initNormal = function(slot0, slot1, slot2, slot3)
 	slot5 = UIItemList.New(slot0:findTF("content/container", slot3), slot0.itemTpl)
 
 	slot5:make(function (slot0, slot1, slot2)
@@ -206,7 +206,7 @@ function slot0.initNormal(slot0, slot1, slot2, slot3)
 	slot0.uiList[slot1] = slot5
 end
 
-function slot0.initDropdown(slot0, slot1, slot2, slot3)
+slot0.initDropdown = function(slot0, slot1, slot2, slot3)
 	slot5 = UIItemList.New(slot0:findTF("content/container", slot3), slot0.itemTpl)
 
 	slot5:make(function (slot0, slot1, slot2)
@@ -261,25 +261,25 @@ function slot0.initDropdown(slot0, slot1, slot2, slot3)
 	slot0.uiList[slot1] = slot5
 end
 
-function slot0.showDropdownPanel(slot0, slot1)
+slot0.showDropdownPanel = function(slot0, slot1)
 	setAnchoredPosition(slot0:findTF("dropdown", slot0.dropdownPanel), slot1)
 	setActive(slot0.dropdownPanel, true)
 	slot0.dropdownUIList:align(#slot0.dropdownCfg.options[slot0.dropdownCfgIndex] - 1)
 end
 
-function slot0.closeDropdownPanel(slot0)
+slot0.closeDropdownPanel = function(slot0)
 	setActive(slot0.dropdownPanel, false)
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	slot0.anim:Play("anim_educate_scheduleindex_out")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end

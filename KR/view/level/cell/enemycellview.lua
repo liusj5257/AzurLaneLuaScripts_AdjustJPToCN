@@ -1,18 +1,18 @@
 slot0 = class("EnemyCellView")
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0._extraEffectList = {}
 end
 
-function slot0.SetPoolType(slot0, slot1)
+slot0.SetPoolType = function(slot0, slot1)
 	slot0.poolType = slot1
 end
 
-function slot0.GetPoolType(slot0)
+slot0.GetPoolType = function(slot0)
 	return slot0.poolType
 end
 
-function slot0.ClearExtraEffects(slot0)
+slot0.ClearExtraEffects = function(slot0)
 	for slot4, slot5 in pairs(slot0._extraEffectList) do
 		if not IsNil(slot5) then
 			Destroy(slot5)
@@ -22,7 +22,7 @@ function slot0.ClearExtraEffects(slot0)
 	table.clear(slot0._extraEffectList)
 end
 
-function slot0.LoadExtraEffects(slot0, slot1)
+slot0.LoadExtraEffects = function(slot0, slot1)
 	if slot1 and #slot1 > 0 then
 		slot3 = slot0:GetLoader()
 
@@ -38,7 +38,7 @@ function slot0.LoadExtraEffects(slot0, slot1)
 	end
 end
 
-function slot0.RefreshEnemyTplIcons(slot0, slot1, slot2)
+slot0.RefreshEnemyTplIcons = function(slot0, slot1, slot2)
 	if not slot0.tf:Find("random_buff_container") then
 		return
 	end
@@ -61,7 +61,7 @@ function slot0.RefreshEnemyTplIcons(slot0, slot1, slot2)
 
 	slot10 = slot0.line.row
 
-	function slot9(slot0)
+	slot9 = function(slot0)
 		return slot0 == ChapterConst.FlagWeatherFog
 	end
 
@@ -78,7 +78,7 @@ function slot0.RefreshEnemyTplIcons(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0:ClearExtraEffects()
 end
 

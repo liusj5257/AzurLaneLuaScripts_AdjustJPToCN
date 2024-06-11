@@ -1,12 +1,12 @@
 return {
-	id = "W214001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W214001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "에너지 매트릭스 복원 후, 구역 봉쇄 해제 가능.",
 			typewriter = {
 				speed = 0.05,

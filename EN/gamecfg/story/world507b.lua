@@ -1,13 +1,13 @@
 return {
-	id = "WORLD507B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The wrecks in this area are still burning, suggesting these Sirens were taken out fairly recently.",
 			typewriter = {
 				speed = 0.05,

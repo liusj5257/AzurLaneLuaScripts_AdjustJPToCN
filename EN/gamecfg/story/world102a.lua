@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD102A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD102A",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			bgName = "bg_story_newyork",
 			dir = 1,
 			say = "NY City / Fleet Rally Point",
@@ -34,11 +34,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			bgm = "level03",
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Commander, Miss Enterprise, thank you for answering our call.",
-			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Now that we all have gathered, I would like to lend your ears for but a minute.",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Decades after the Siren invasion, humanity has managed to push the Sirens back into an uneasy equilibrium, though at a great cost...",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Since then, there have been no major changes on the battlefield. Time passed, and now, the Eagle Union and the Royal Navy... Nay, the Azur Lane, is on the verge of launching another counterattack.",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "All this time, we've been trying to study the Sirens, learning about their characteristics and patterns, about their identity and their goals. Sometimes alongside each other, sometimes in spite of each other.",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Even so, we still have not uncovered their true purpose, and there are many voices opposed to this operation...",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "It is for that reason that we are gathered here today – to execute the plan jointly devised by our navies.",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,8 +210,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "While I would've liked to have the Sakura Empire and Iron Blood with us as we undertake this operation, our hopes for a united front do not seem like they'll be realized.",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "However, our true enemy is the Sirens.",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Through this operation, we will demonstrate our power to and uphold our commitment to the survival of humanity.",
 			typewriter = {
@@ -281,17 +281,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
-			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "That was a great speech, Hood. We wish you good luck....",
+			bgName = "bg_story_newyork",
 			bgm = "story-richang",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "That was a great speech, Hood. We wish you good luck....",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -331,8 +331,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Thank you. We wish you the best of luck as well. Apropos of nothing, I've heard headquarters assigned a “digital assistant” to you...",
 			typewriter = {
@@ -345,9 +345,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
+			dir = 1,
 			say = "She must mean that white-haired hologram girl who appeared with my mission orders.",
 			typewriter = {
 				speed = 0.05,
@@ -369,12 +369,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "...Are you trying to remember, or just imagining pervy stuff, Commander? Hehe~~",
 			typewriter = {
 				speed = 0.05,
@@ -389,9 +389,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 204030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Indeed it is. We, too, were quite surprised when she appeared on the screen. She is quite the cute adjutant, though.",
 			typewriter = {
@@ -403,11 +403,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 900284,
 			dir = 1,
+			voice = "event:/tb/6/tb-6",
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "Greetings, I am TB, your digital assistant. It is my pleasure to be working with you.",
-			voice = "event:/tb/6/tb-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,9 +424,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
+			dir = 1,
 			say = "She’s supposedly an artificial intelligence, but her mannerisms feel too lifelike to just have been programmed...",
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Oh, and Commander, since this operation is gonna be pretty massive in scope, you might wanna make use of the map to keep track of far-away fleets!",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "you're up, TB!",
 			typewriter = {
 				speed = 0.05,

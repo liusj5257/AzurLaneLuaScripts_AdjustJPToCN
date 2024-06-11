@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"한여름의 사수자리\n\n<size=45>여름의 비밀병기?</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "핑하이, 시구레! 너희도 수박 가지러 온 거야?",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#92fc63",
+			say = "핑하이, 시구레! 너희도 수박 가지러 온 거야?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			say = "응! 수박, 맛있어!",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "응! 수박, 맛있어!",
+			actor = 502031,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 301151,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 301151,
+			nameColor = "#92fc63",
 			say = "재블린? 맞아. 그쪽은 신입한테 모항 안내 중?",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "안녕하세요! 시구레 선배님, 핑하이 선배님.",
 			typewriter = {
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			say = "흥! 선배라고까지 불러줬으니, 앞으론 이 시구레 님께서 잘 보살펴주도록 하지!",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "흥! 선배라고까지 불러줬으니, 앞으론 이 시구레 님께서 잘 보살펴주도록 하지!",
+			actor = 301151,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#92fc63",
 			say = "지, 진짜?! ",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -277,12 +277,12 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			say = "글쎄? 야마시로 언니랑 놀러 갈 시간이니까, 궁금하면 나중에 나한테 물어봐~",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "글쎄? 야마시로 언니랑 놀러 갈 시간이니까, 궁금하면 나중에 나한테 물어봐~",
+			actor = 301151,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -332,8 +332,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = " ‘스쿨미즈’ 란 심오한 것이군요……",
 			typewriter = {
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#92fc63",
 			say = "설마 사쿠라 엠파이어에 이런 비밀병기가 있었을 줄이야……",
 			typewriter = {
 				speed = 0.05,
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -375,8 +375,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "재블린 선배님……?",
 			typewriter = {
@@ -389,11 +389,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#92fc63",
 			say = "나, 난 괜찮아! 다른 것도 소개해줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -405,8 +405,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -431,13 +431,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			say = "봐봐~",
 			side = 0,
 			bgName = "star_level_bg_106",
-			actor = 201212,
+			hideOther = true,
 			dir = 1,
+			actor = 201212,
 			nameColor = "#92fc63",
-			say = "봐봐~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -463,8 +463,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "과연 후드 선배님이시네요. 앉아만 있는데도 화보 같아요.",
 			typewriter = {
@@ -477,12 +477,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "그래도 올해 새로 들어온 아이리스랑 뷔시아도 수영복을 준비했다고 하고, 메탈 블러드도 다른 수영복들이 나왔으니까……응응, 올해도 좋은 승부가 되겠어.",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그래도 올해 새로 들어온 아이리스랑 뷔시아도 수영복을 준비했다고 하고, 메탈 블러드도 다른 수영복들이 나왔으니까……응응, 올해도 좋은 승부가 되겠어.",
+			actor = 201212,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -510,8 +510,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "저기……재블린 선배님께서 말씀하시는 ‘승부’ 라는 건 대체……?",
 			typewriter = {
@@ -543,8 +543,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "아, 네!",
 			typewriter = {
@@ -557,8 +557,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -583,11 +583,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#92fc63",
 			say = "전쟁이야!",
 			effects = {
 				{
@@ -608,10 +608,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
-			nameColor = "#92fc63",
 			say = "그, 그런 건가요?!?!",
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -632,8 +632,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -693,9 +693,9 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "그, 그렇군요……",
 			typewriter = {

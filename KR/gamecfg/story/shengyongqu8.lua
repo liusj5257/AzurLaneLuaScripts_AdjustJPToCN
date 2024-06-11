@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU8",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level03",
 			say = "모잠비크 해협·비시아 성좌 통제구역 밖",
+			side = 2,
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "세이렌의 봉쇄를 성공적으로 돌파했습니다. 이제 성당으로 가는 길까지 세이렌의 방해는 없을 것입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "강력한 세이렌도 없었네요. 숫자로 밀어 붙이려면 역시 이정도 수준 밖에 되지 않는군요.",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "에?! 봐봐! 방금 날아간 세이렌 함재기가 성당 쪽의 대공 포격에 격추됐어!",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "엑… 아무리 세이렌이라도 비시아 성좌의 제어구역에 들어가면 봐주지 않는 군요.",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "이것은 환상이겠지요. 메탈 블러드의 허락을 받은 비시아 성좌가 마지막 존엄을 유지하고 있다는 환상.",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "침락자를 철저히 몰아내고 아이리스 교국을 재건해야 그들도 진정한 자유를 얻을 수 있어요!",
 			dialogShake = {
 				speed = 0.09,
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "……이런, 까딱 잘못하다 연설을 할 뻔 했군요.",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,

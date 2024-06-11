@@ -1,6 +1,6 @@
 slot0 = class("LevelAwardPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.award = slot0:findTF("scroll/award")
 	slot0.content = slot0:findTF("scroll/content")
@@ -9,11 +9,11 @@ function slot0.OnInit(slot0)
 	slot0.pageSignUpTF = slot0:findTF("sign_up")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.config = pg.activity_level_award[slot0.activity:getConfig("config_id")]
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.award, false)
 
 	for slot4 = 1, #slot0.config.front_drops do
@@ -26,7 +26,7 @@ function slot0.OnFirstFlush(slot0)
 
 		slot15 = slot0:findTF("limit_label/labelLevel", slot7)
 
-		GetImageSpriteFromAtlasAsync("ui/activityuipage/level_award_atlas", tostring(slot5[1]) .. ".png", slot15, true)
+		GetImageSpriteFromAtlasAsync("ui/activityuipage/level_award_atlas", tostring(slot5[1]), slot15, true)
 
 		for slot15 = 2, #slot5 do
 			slot16 = cloneTplTo(slot11, slot10)
@@ -56,7 +56,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	for slot4 = 1, #slot0.config.front_drops do
 		slot6 = slot0:findTF("award" .. tostring(slot4), slot0.content)
 		slot7 = slot0:findTF("btnAchieve", slot6)
@@ -73,7 +73,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

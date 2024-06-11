@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 BOSS技能 极天·黑洞",
 	time = 1,
-	color = "red",
+	name = "2022莱莎联动 BOSS技能 极天·黑洞",
+	init_effect = "",
+	id = 200122,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200122,
+	color = "red",
 	icon = 200122,
 	last_effect = "",
 	effect_list = {

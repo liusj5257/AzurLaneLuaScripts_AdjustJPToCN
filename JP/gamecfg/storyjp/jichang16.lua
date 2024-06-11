@@ -1,18 +1,18 @@
 return {
-	id = "JICHANG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "song09",
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "「μ兵装」出力、高水準に到達を確認。引き続き兵装テストを行う",
-			bgm = "song09",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "これならまだローンたちとはギリギリ五分だっての",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701050,
 			dir = 1,
+			actor = 701050,
 			say = "あっそ。こちらはまだ慣らし運転よ。絶対にギャフンって言わせてやるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701050,
 			dir = 1,
+			actor = 701050,
 			say = "（そう、同志ちゃんにも「タシュケントは心配いらないでしょ？」って…！）",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "感情モジュールの開放を承認",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "ガスコーニュ、主（メートル）のために歌うよ！",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			say = "ああ！一緒に盛り上げようじゃない！",
 			typewriter = {
 				speed = 0.05,

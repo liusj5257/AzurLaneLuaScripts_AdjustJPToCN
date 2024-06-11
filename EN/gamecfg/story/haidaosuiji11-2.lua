@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "You gave the godlike manjuu your answer.",
 			typewriter = {
 				speed = 0.05,
@@ -13,8 +13,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "River God Manjuu",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "Is that so? Was it really the silver one?",
 			typewriter = {
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "River God Manjuu",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "...Actually, to be frank with thee, I forgot which one it was.",
 			typewriter = {
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "River God Manjuu",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "No matter. In light of thy sincerity, I shall give thee the silver manjuu. Treat the little peep well!",
 			typewriter = {

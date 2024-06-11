@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK29903",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK29903",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 299030,
 			dir = 1,
+			actor = 299030,
 			say = "喵哈哈哈哈！柴郡，感覺變得更厲害了！",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 299030,
 			dir = 1,
+			actor = 299030,
 			say = "接下來的路，我們也會一起走下去的，對吧~？",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 299030,
 			dir = 1,
+			actor = 299030,
 			say = "嘿嘿，其實不用問我也知道答案的啦！好~繼續努力加油啦！我抱~",
 			typewriter = {
 				speed = 0.05,

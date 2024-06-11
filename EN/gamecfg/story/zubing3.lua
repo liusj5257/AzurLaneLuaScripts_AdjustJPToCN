@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Ashigara, Advance!\n\n<size=45>Chapter 3: Ashigara, Strike!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Some time later... Ashigara's voice could be heard as one walked from the Academy back to the Command Office.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Some time later... Ashigara's voice could be heard as one walked from the Academy back to the Command Office.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 303090,
 			say = "Hiya!",
 			flashN = {
 				color = {
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			actor = 303070,
+			say = "Good, you have a nice tempo!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Good, you have a nice tempo!",
+			actor = 303070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 303070,
+			say = "You're wide open!",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You're wide open!",
+			actor = 303070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -216,8 +216,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "What...?!",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Clang!",
 			typewriter = {
 				speed = 0.05,
@@ -250,15 +250,15 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303070,
+			nameColor = "#a9f548",
 			say = "Let's call it here for today's training. Ashigara, you've improved a lot.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,10 +286,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "W-wait, Myoukou... I can keep going-",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -323,8 +323,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "...I understand.",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Nachi, thank you!",
 			typewriter = {
@@ -421,8 +421,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Ehh? H-how did you know...",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -512,8 +512,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Myoukou, Nachi... I understand now! Because I also don't want to cause further trouble for Commander, I'll do my best!",
 			typewriter = {

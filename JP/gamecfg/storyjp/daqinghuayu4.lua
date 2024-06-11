@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"サブマリン・トラップ！\n\n<size=45>四　「悪魔」との契約</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ここ数日（わざとじゃないのを含めて）何回も観察してみたが、アルバコアは母港のみんなにイタズラをしていないどころか、すごく仲良くやっていることがわかった。",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "人間関係に問題はないようで逆に安心した。",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官！",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "妙に子供じみた喋り方で質問してきた。",
 			typewriter = {
 				speed = 0.05,
@@ -119,9 +119,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "悪い予感がする。こいつ一体何を企んでいるんだ……！",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官、もしかして――ここ最近はアルバコアのことをストーキングしてた？",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "あーやっぱりーそうなんだー。",
 			typewriter = {
@@ -177,9 +177,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官～ウソはダメだよ～",
 			typewriter = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "いずれにしても、（裏で観察していたことが）アルバコアにバレてたことは確実だ。",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "へへへ～このことが母港のみんなに知られたら～",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "「ふん！やっぱりヘンタイ指揮官だな！」「そ、そんな、閣下はどうしてこんなことを…！まさか私と……」「指揮官様はやっぱりバラバラにしてそばに置いたほうがいいですわ……」",
 			typewriter = {
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "アルバコアは何人か仲間の声を真似てみた。",
 			typewriter = {
 				speed = 0.05,
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "とにかく、指揮官は何をすればいいと思う？",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "なるほど……この前の話は置いといて、人間関係について心配してくれてるんだね。",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "一つは…今あたしちょっと疲れてるから、指揮官の太ももで午後はまるごと昼寝させてほしいな～…そしたらあたしまた元気になれるかも！",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "もう一つは…保留！思いついたらまた教えてあげる！へっへっへ～",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.4,
 					x = 22.5,
@@ -354,8 +354,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "うん？午後はお仕事？ふむふむ……あたしは知らないぞ～",
 			typewriter = {

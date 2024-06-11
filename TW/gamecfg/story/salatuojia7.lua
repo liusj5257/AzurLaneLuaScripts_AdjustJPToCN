@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Best Pictures!\n\n<size=45>七 最重要的寶物</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，這是我的照片！？指揮官莫非妳——",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "哇，這是我的照片！？指揮官莫非妳——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "太可疑了~那妳是找誰拿來的~？",
 			typewriter = {
 				speed = 0.05,
@@ -61,12 +61,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "……不用問也知道吧。我們港區能拍到這些的除了她沒有別人了。",
 			typewriter = {
 				speed = 0.05,
@@ -78,12 +78,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "欸！不會吧——！是指揮官拍的嗎——！",
 			typewriter = {
 				speed = 0.05,
@@ -95,12 +95,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "……不可能啦。指揮官才拍不了這樣的照片呢。",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "薩拉托加一邊說著，一邊伸手奪過了那最後一張照片。",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "照片上是開心地一起走著的薩拉托加和指揮官。",
 			typewriter = {
 				speed = 0.05,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……這麼說來，之前那些好像都是薩拉托加和別人的照片。",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "薩拉托拉的聲音越來越小。",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "薩拉托加的臉上掛著和照片上同樣的，帶著一點淘氣，又十分開心的微笑。",
 			typewriter = {
 				speed = 0.05,

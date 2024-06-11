@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023海盗活动 传奇旗舰Lv1",
 	time = 3,
+	name = "2023海盗活动 传奇旗舰Lv1",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

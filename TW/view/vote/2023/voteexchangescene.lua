@@ -1,10 +1,10 @@
 slot0 = class("VoteExchangeScene", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "VoteExchangeUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.closeBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
 	slot0.dailyTask = slot0:findTF("left/task/slider/bar")
 	slot0.dailyTaskTxt = slot0:findTF("left/task/Text"):GetComponent(typeof(Text))
@@ -25,7 +25,7 @@ function slot0.init(slot0)
 	setText(slot0.emptyTr:Find("Image/Text"), i18n("vote_lable_task_list_is_empty"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	assert(slot0.contextData.voteGroup)
 	onButton(slot0, slot0.dailyTaskGoBtn, function ()
 		uv0:emit(VoteExchangeMediator.GO_TASK)
@@ -40,18 +40,18 @@ function slot0.didEnter(slot0)
 	slot0:Flush()
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0:UpdateDailyTask()
 	slot0:UpdateTitle()
 	slot0:UpdateTicket()
 	slot0:UpdateTaskList()
 end
 
-function slot0.UpdateTitle(slot0)
+slot0.UpdateTitle = function(slot0)
 	slot0.timeTxt.text = slot0.contextData.voteGroup:getConfig("name") .. " " .. slot0.contextData.voteGroup:getTimeDesc()
 end
 
-function slot0.GetActivity(slot0)
+slot0.GetActivity = function(slot0)
 	slot2 = nil
 
 	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
@@ -65,7 +65,7 @@ function slot0.GetActivity(slot0)
 	return slot2
 end
 
-function slot0.UpdateTicket(slot0)
+slot0.UpdateTicket = function(slot0)
 	if slot0:GetActivity() then
 		slot0.totalCntTxt.text = slot1.data3 .. "/" .. slot0.contextData.voteGroup:getConfig("ticket_period")
 	else
@@ -73,7 +73,7 @@ function slot0.UpdateTicket(slot0)
 	end
 end
 
-function slot0.GetTaskList(slot0)
+slot0.GetTaskList = function(slot0)
 	if slot0:GetActivity() and slot0.contextData.voteGroup:getConfig("ticket_period") <= slot1.data3 then
 		return {}
 	end
@@ -95,11 +95,11 @@ function slot0.GetTaskList(slot0)
 	return slot2
 end
 
-function slot0.GetDailyTaskList(slot0)
+slot0.GetDailyTaskList = function(slot0)
 	return slot0.contextData.voteGroup:getConfig("task_daily")
 end
 
-function slot0.UpdateDailyTask(slot0)
+slot0.UpdateDailyTask = function(slot0)
 	slot1 = 0
 	slot2 = getProxy(TaskProxy)
 
@@ -114,7 +114,7 @@ function slot0.UpdateDailyTask(slot0)
 	setFillAmount(slot0.dailyTask, slot1 / #slot0.dailyTaskList)
 end
 
-function slot0.UpdateTaskList(slot0)
+slot0.UpdateTaskList = function(slot0)
 	slot0.uiItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateTaskCard(uv0.taskList[slot1 + 1], slot2)
@@ -128,7 +128,7 @@ function slot0.UpdateTaskList(slot0)
 	setActive(slot0.taskContainer, not slot1)
 end
 
-function slot0.UpdateTaskCard(slot0, slot1, slot2)
+slot0.UpdateTaskCard = function(slot0, slot1, slot2)
 	slot3 = UIItemList.New(slot2:Find("content"), slot2:Find("content/extend_tpl"))
 
 	slot3:make(function (slot0, slot1, slot2)
@@ -140,7 +140,7 @@ function slot0.UpdateTaskCard(slot0, slot1, slot2)
 	slot0:UpdateTaskDesc(slot1[1], slot2:Find("info"))
 end
 
-function slot0.UpdateTaskDesc(slot0, slot1, slot2)
+slot0.UpdateTaskDesc = function(slot0, slot1, slot2)
 	slot3 = getProxy(TaskProxy):getTaskById(slot1) or getProxy(TaskProxy):getFinishTaskById(slot1)
 
 	assert(slot3, slot1)
@@ -175,11 +175,11 @@ function slot0.UpdateTaskDesc(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

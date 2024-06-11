@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"速科夫的一天\n\n<size=45>七 指揮官的速科夫</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 808010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "唔……指揮官，早上好。",
 			bgm = "story-1",
+			actor = 808010,
+			nameColor = "#a9f548",
+			say = "唔……指揮官，早上好。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "速科夫罕見地焦急了起來。",
 			typewriter = {
 				speed = 0.05,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "但是，指揮官沒有我幫忙也這麼能幹，這樣我不就沒有做秘書艦的價值了嗎……",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "剛才還急得要哭出來了的速科夫，現在又露出了平常的笑容。",
 			typewriter = {
 				speed = 0.05,

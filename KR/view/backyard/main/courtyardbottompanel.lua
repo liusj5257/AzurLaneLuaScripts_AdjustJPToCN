@@ -1,10 +1,10 @@
 slot0 = class("CourtYardBottomPanel", import(".CourtYardBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "main/bottomPanel"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.granaryBtn = slot0:findTF("bottomleft/feed_btn")
 	slot0.stockBar = slot0:findTF("progress", slot0.granaryBtn):GetComponent(typeof(Slider))
 	slot0.stockTimeTxt = slot0:findTF("time", slot0.granaryBtn):GetComponent(typeof(Text))
@@ -28,7 +28,7 @@ function slot0.init(slot0)
 	setText(slot0.templateBtn:Find("Text"), i18n("courtyard_label_template"))
 end
 
-function slot0.OnRegister(slot0)
+slot0.OnRegister = function(slot0)
 	onButton(slot0, slot0.stampBtn, function ()
 		getProxy(TaskProxy):dealMingshiTouchFlag(7)
 	end, SFX_PANEL)
@@ -62,11 +62,11 @@ function slot0.OnRegister(slot0)
 	slot0:UpdateShopTip()
 end
 
-function slot0.OnVisitRegister(slot0)
+slot0.OnVisitRegister = function(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.OnFlush(slot0, slot1)
+slot0.OnFlush = function(slot0, slot1)
 	slot2 = slot0.dorm
 
 	if bit.band(slot1 or bit.bor(BackYardConst.DORM_UPDATE_TYPE_UPDATEFOOD, BackYardConst.DORM_UPDATE_TYPE_LEVEL, BackYardConst.DORM_UPDATE_TYPE_SHIP, BackYardConst.DORM_UPDATE_TYPE_USEFOOD, BackYardConst.DORM_UPDATE_TYPE_EXTENDFOOD), BackYardConst.DORM_UPDATE_TYPE_UPDATEFOOD) > 0 or bit.band(slot1, BackYardConst.DORM_UPDATE_TYPE_USEFOOD) > 0 or bit.band(slot1, BackYardConst.DORM_UPDATE_TYPE_EXTENDFOOD) > 0 then
@@ -96,7 +96,7 @@ function slot0.OnFlush(slot0, slot1)
 	slot0:UpdateFloor()
 end
 
-function slot0.PlayBackYardThemeTemplate(slot0)
+slot0.PlayBackYardThemeTemplate = function(slot0)
 	if getProxy(DormProxy):getRawData():IsMaxLevel() and not pg.NewStoryMgr.GetInstance():GetPlayedFlag(90021) then
 		_BackyardMsgBoxMgr:Show({
 			modal = true,
@@ -111,7 +111,7 @@ function slot0.PlayBackYardThemeTemplate(slot0)
 	end
 end
 
-function slot0.UpdateTrainBtn(slot0)
+slot0.UpdateTrainBtn = function(slot0)
 	if slot0.contextData.floor == 1 then
 		slot0.trainBtnLabel.text = i18n("courtyard_label_train")
 		slot0.trainBtnTxt.text = slot0.dorm:GetStateShipCnt(Ship.STATE_TRAIN) .. "/" .. slot0.dorm.exp_pos
@@ -121,17 +121,17 @@ function slot0.UpdateTrainBtn(slot0)
 	end
 end
 
-function slot0.UpdateShopTip(slot0)
+slot0.UpdateShopTip = function(slot0)
 	setActive(slot0.shopTip, getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture())
 end
 
-function slot0.OnRemoveLayer(slot0, slot1)
+slot0.OnRemoveLayer = function(slot0, slot1)
 	if slot1 == NewBackYardShopMediator then
 		slot0:UpdateShopTip()
 	end
 end
 
-function slot0.CalcStockLeftTime(slot0)
+slot0.CalcStockLeftTime = function(slot0)
 	slot0:RemoveTimer()
 
 	slot0.stockTimeTxt.text = ""
@@ -154,7 +154,7 @@ function slot0.CalcStockLeftTime(slot0)
 	slot0.timer.func()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	slot0.stockTimeTxt.text = ""
 
 	if slot0.timer then
@@ -164,7 +164,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.GetMoveY(slot0)
+slot0.GetMoveY = function(slot0)
 	return {
 		{
 			slot0._tf,
@@ -173,14 +173,14 @@ function slot0.GetMoveY(slot0)
 	}
 end
 
-function slot0.UpdateFloor(slot0, slot1)
+slot0.UpdateFloor = function(slot0, slot1)
 	SetActive(slot0.granaryBtn, slot0:IsInner() and getProxy(DormProxy).floor == 1)
 	slot0:UpdateTrainBtn()
 	setActive(slot0.icon1, getProxy(DormProxy).floor == 1)
 	setActive(slot0.icon2, getProxy(DormProxy).floor == 2)
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0:RemoveTimer()
 end
 

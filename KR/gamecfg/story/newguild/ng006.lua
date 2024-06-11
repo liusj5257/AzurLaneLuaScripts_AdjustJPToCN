@@ -7,16 +7,16 @@ return {
 				say = {
 					text = "우선은 '주문' 를 눌러 냥박스를 손에 넣는 거다냥!",
 					style = {
-						alpha = 0.4,
-						mode = 1,
-						dir = -1,
 						posY = 172,
+						mode = 1,
+						alpha = 0.4,
+						dir = -1,
 						posX = -337
 					}
 				},
 				ui = {
-					scale = 0.667,
 					customSize = true,
+					scale = 0.667,
 					path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/main/right_panel/commanders/box/reserve_btn"
 				}
 			}
@@ -24,8 +24,8 @@ return {
 		{
 			action = {
 				ui = {
-					scale = 0.667,
 					customSize = true,
+					scale = 0.667,
 					path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/buy_panel/frame/bg1/Button"
 				}
 			}
@@ -34,8 +34,8 @@ return {
 			finish = true,
 			action = {
 				ui = {
-					scale = 0.667,
 					customSize = true,
+					scale = 0.667,
 					path = "/OverlayCamera/Overlay/UIMain/box_msg_panel/frame/confirm_btn"
 				}
 			}
@@ -55,8 +55,8 @@ return {
 		{
 			action = {
 				ui = {
-					scale = 0.667,
 					customSize = true,
+					scale = 0.667,
 					path = "/UICamera/Canvas/UIMain/CommandRoomUI(Clone)/buy_panel/bg",
 					fingerPos = {
 						posY = -385,

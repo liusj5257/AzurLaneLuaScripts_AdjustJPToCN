@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "毛系V2 璀璨FLAG",
 	time = 3,
-	color = "yellow",
+	name = "毛系V2 璀璨FLAG",
+	init_effect = "",
+	id = 8840,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8840,
+	color = "yellow",
 	icon = 8840,
 	last_effect = "",
 	effect_list = {

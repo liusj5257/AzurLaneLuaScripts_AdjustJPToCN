@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19500,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19500,
+	color = "red",
 	icon = 19500,
 	last_effect = "",
 	effect_list = {
@@ -41,8 +41,8 @@ return {
 			arg_list = {
 				fleetPos = "Leader",
 				minTargetNumber = 1,
-				skill_id = 19501,
 				nationality = 6,
+				skill_id = 19501,
 				check_target = {
 					"TargetFleetIndex",
 					"TargetNationalityFriendly"
@@ -56,9 +56,9 @@ return {
 			},
 			arg_list = {
 				fleetPos = "Leader",
+				nationality = 6,
 				maxTargetNumber = 0,
 				skill_id = 19502,
-				nationality = 6,
 				check_target = {
 					"TargetFleetIndex",
 					"TargetNationalityFriendly"

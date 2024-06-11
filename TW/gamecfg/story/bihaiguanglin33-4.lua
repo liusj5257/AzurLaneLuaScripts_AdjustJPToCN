@@ -1,8 +1,8 @@
 return {
-	id = "BIHAIGUANGLIN33-4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			say = "我們在護盾裡不會受到影響，白龍可就不一樣了~",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "切……",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "快看，白龍終於開始進行迴避動作了……",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "我說白龍，和我們交手下來妳沒覺得哪里奇怪嗎。比如在裝備設計上……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "對啊！尤其是艦載機的部分，妳跟我一樣都是符咒式吧？！",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "失憶……說起來確實，吾沒有來龍宮城之前的記憶。",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "但是這依然不能證明吾與汝等口中重櫻有任何關係。",
 			typewriter = {
 				speed = 0.05,

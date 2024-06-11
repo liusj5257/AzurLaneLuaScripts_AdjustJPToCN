@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_40 = {}
 slot1 = slot0.word_template_40
 
-function temp()
+temp = function()
 	uv0["挨"] = {
 		["球"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["譪"] = {
 		["件"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["艾"] = {
 		["可"] = {
 			["米"] = {
@@ -129,7 +129,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["爱"] = {
 		["爱"] = {
 			["情"] = {
@@ -430,7 +430,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瑷"] = {
 		["液"] = {
 			this = true
@@ -440,7 +440,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["安"] = {
 		["倍"] = {
 			["晋"] = {
@@ -870,7 +870,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["按"] = {
 		["摩"] = {
 			["按"] = {

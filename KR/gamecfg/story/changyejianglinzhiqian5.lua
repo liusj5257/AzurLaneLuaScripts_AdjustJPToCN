@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 1,
-			say = "NA 해역, 안전 항로",
 			bgm = "blueocean-image",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "NA 해역, 안전 항로",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "세이렌 반격 작전 완수, 그리고 메탈 블러드의 '재현'에서 컴파일러를 격퇴한 후, NA 해역의 항로 상황은 크게 개선되었다.",
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "내가 '별의 바다'에서 리얼리티 렌즈 실험을 돕고 있는 동안 항로 몇 개가 통행을 위해 다시 열린 모양이다.",
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "'Ⅱ'형 의장 연구도 일단락되어, 드디어 세계박람회에 참가할 기회가 왔지만……",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "재개된 항로는 육지 근처 항로가 대부분이라, 사르데냐 엠파이어로 향하는 원양 항해에 나서려면 호위 함대를 충분히 편성할 필요가 있다.",
@@ -85,10 +85,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "부드러운 바람에 잔잔한 바다… 여행하기 좋은 날씨네.",
 			painting = {
 				alpha = 0.3,
@@ -100,12 +100,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나저나 정말 시간이 가는 게 정말 빨라. 박람회도 곧 폐막이고.",
 			painting = {
 				alpha = 0.3,
@@ -120,10 +120,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "개막식에는 늦었지만, 적어도 폐막식만큼은 마음껏 즐기고 싶어.",
 			painting = {
 				alpha = 0.3,
@@ -138,10 +138,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관 생각은――",
 			painting = {
 				alpha = 0.3,
@@ -156,10 +156,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "헬레나, 지휘관이 가지고 있는 서류 좀 빼앗아 줘!",
 			painting = {
 				alpha = 0.3,
@@ -174,10 +174,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "정말! 모처럼 쉬려고 온 여행인데! 업무 보는 건 규정 시간 내에만 해달라구!",
 			painting = {
 				alpha = 0.3,
@@ -189,12 +189,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "애초에 휴가 중에 일하는 건 이상하잖아?",
 			painting = {
 				alpha = 0.3,
@@ -209,10 +209,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "헬레나, 잘한다! 더 말해줘! 지휘관이 어떤 변명을 할지 어디 들어 보자구.",
 			painting = {
 				alpha = 0.3,
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 모처럼 쉬러 온 거니까, 일은 잠시 잊는 게 어때…?",
 			painting = {
 				alpha = 0.3,
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "…………………",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -289,10 +289,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "타협안으로 휴가 중에 작업할 수 있는 시간도 정해 뒀는데…",
 			painting = {
 				alpha = 0.3,
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……그것도 어려울 것 같아… 지휘관, 고생이 많네.",
 			painting = {
 				alpha = 0.3,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通讯器",
+			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -336,10 +336,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "여기는 이글 유니온 소속, 전함 뉴저지!",
 			painting = {
 				alpha = 0.3,
@@ -354,10 +354,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사르데냐 엠파이어로 향하는 지휘관! NA 해역에서 호위는 내가 이끄는 분함대가 담당할 거야!",
 			painting = {
 				alpha = 0.3,
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "컴파일러 전투가 끝나고 별로 오래되지는 않았을 텐데, 뉴저지와는 오래만인 것 같은 느낌이다.",
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "한동안 연락도 뜸했으니, 근황에 대해 물어보자.",
@@ -413,10 +413,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "완전 괜찮지! 그렇긴 하지만……",
 			painting = {
 				alpha = 0.3,
@@ -431,10 +431,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "솔직히 말하면 요새 좀 한가하긴 해.",
 			painting = {
 				alpha = 0.3,
@@ -468,10 +468,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "저기…… 지금 공공회선인 건 알고 있지?",
 			painting = {
 				alpha = 0.3,
@@ -505,10 +505,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "요새는 순찰을 해도 세이렌 양산형 하나 안 나오는 거 있지?",
 			painting = {
 				alpha = 0.3,
@@ -523,10 +523,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그것도 10일 연속으로 말이야!",
 			painting = {
 				alpha = 0.3,
@@ -541,10 +541,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇게 우글거리던 세이렌이 진짜로 줄었구나~하고, 컴파일러를 쓰러트린 지금 겨우 실감이 나더라구!",
 			painting = {
 				alpha = 0.3,
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "……뉴저지의 이야기를 듣자니, 세이렌이 무슨 멸종 위기종처럼 느껴지는군….",
@@ -570,10 +570,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "정말이라니깐?",
 			painting = {
 				alpha = 0.3,
@@ -588,10 +588,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "적이 너무 없으니까 매일 하는 업무도 보고서 확인이랑 정기 순찰, 그리고 바다를 멍하니 바라보는 것뿐이라……",
 			painting = {
 				alpha = 0.3,
@@ -625,10 +625,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우리 함선들은 바다의 평화를 되찾기 위해 세이렌이랑 싸우고 있는 거잖아.",
 			painting = {
 				alpha = 0.3,
@@ -640,12 +640,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "평화로운 게 바다의 원래 모습이라고 해야 하나… 바람직한 일 아니야?",
 			painting = {
 				alpha = 0.3,
@@ -657,12 +657,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 딱히 NA 해역 전역에서 세이렌이 모조리 사라진 건 아니야.",
 			painting = {
 				alpha = 0.3,
@@ -677,10 +677,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "스캐퍼플로 식전에서 로열 네이비 함대를 습격한 세이렌도 있었잖아. 그건 결국 어디서 온 거야?",
 			painting = {
 				alpha = 0.3,
@@ -695,10 +695,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "역시, 멤피스! 갑자기 핵심을 찌르네.",
 			painting = {
 				alpha = 0.3,
@@ -732,10 +732,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "로열 네이비 함대에게 격퇴된 후로 행방이 묘연해.",
 			painting = {
 				alpha = 0.3,
@@ -769,10 +769,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다음에 나타나면 반드시 거점까지 몰아붙여서, 다 쓰러트려 주겠어!",
 			painting = {
 				alpha = 0.3,
@@ -784,8 +784,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "방금 이야기는 기억해 두는 편이 좋겠군.",
@@ -795,8 +795,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通讯器",
+			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -829,10 +829,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사르데냐 엠파이어로 향하는 이번 항해에는 우리도 참여한다.",
 			painting = {
 				alpha = 0.3,
@@ -847,10 +847,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이동 중 호위는 이글 유니온뿐만 아니라, 우리 로열 네이비 함대도 있으니 걱정 마라. 후후후.",
 			painting = {
 				alpha = 0.3,
@@ -1045,8 +1045,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "좀 과한 것 같기는 하지만, 두 사람에게는 진심으로 감사하고 있다.",
@@ -1078,10 +1078,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나저나 사르데냐 엠파이어 주변 항로에는 무리에서 떨어진 세이렌이 종종 나타난다고 해.",
 			painting = {
 				alpha = 0.3,
@@ -1096,10 +1096,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇다는 건 이 NA 해역보다는 훨씬 위험하다는 거잖아?",
 			painting = {
 				alpha = 0.3,
@@ -1152,10 +1152,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "한껏 사심이 들어간 느낌인데…",
 			painting = {
 				alpha = 0.3,
@@ -1221,10 +1221,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뭐, 이글 유니온에는 에식스네도 있으니까 뉴저지도 그만 포기하고 NA 해역 순찰이나 계속해 줘.",
 			painting = {
 				alpha = 0.3,

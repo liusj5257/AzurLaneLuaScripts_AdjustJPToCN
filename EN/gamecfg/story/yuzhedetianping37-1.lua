@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_cg9",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "I could see the false God's form clearly through the monitor on my command vessel.",
 			bgm = "story-thehierophantV",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I could see the false God's form clearly through the monitor on my command vessel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -36,11 +36,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "Memphis META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "This isn't working. Our attacks aren't going to breach those defenses.",
 			painting = {
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -70,8 +70,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "Memphis META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "I have a guess as to why. It's only a guess, but...",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "Memphis META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "Based on what I know, I think that girl is Arbiter: The Hierophant V.",
 			painting = {
@@ -106,11 +106,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "Memphis META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "That said, my database doesn't recognize her as The Hierophant, no matter what data or parameters I feed it.",
 			painting = {
@@ -128,8 +128,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "Memphis META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "Either that appearance is some sort of disguise... or something is using The Hierophant's vessel.",
 			painting = {
@@ -145,11 +145,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "Memphis META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "If the latter is true, then THAT must be the true identity of Marco Polo's false God.",
 			painting = {
@@ -167,8 +167,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "I agree.",
 			painting = {
@@ -186,8 +186,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "The Ashes have fought against The Hierophant a number of times before. She is one of the few Arbiters who can be reasoned with.",
 			painting = {
@@ -203,11 +203,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "{namecode:191}",
-			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "I have all the reason to believe that something is taking advantage of her powers and mass-production capabilities.",
 			painting = {
@@ -225,8 +225,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "But beyond that, there's something deeply unsettling about all of this...",
 			painting = {
@@ -244,8 +244,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "Not just the false God. But the Gazers as well, the swarms of enemies, and the white substance...",
 			painting = {
@@ -263,8 +263,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "Where I'm from, just about everything is a bad omen. But, even that has varying degrees.",
 			painting = {
@@ -280,11 +280,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "{namecode:191}",
-			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "All I can say is... I'm afraid you guys have opened a terrible door that can't be shut again.",
 			painting = {
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -336,11 +336,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "Marseillaise",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Commander, when will we launch our all-out attack?",
 			painting = {
@@ -356,11 +356,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "Marseillaise",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That girl has something very important to the Orthodoxy. We must take it back from her.",
 			painting = {
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -390,8 +390,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Jean Bart",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yeah. The Crown of the Holy See. We thought Marco Polo took it with her into the sea, but it seems that the monster took it.",
 			painting = {
@@ -407,11 +407,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "Marseillaise",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Marco Polo can be judged at a later time. More urgently, we must stop the Crown from being corrupted.",
 			painting = {
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -493,10 +493,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			say = "It was her. The figure that had appeared countless times in my nightmares.",
 			effects = {
@@ -514,11 +514,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "Memphis",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Commander? What's wrong?! You look pale...",
 			painting = {
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,

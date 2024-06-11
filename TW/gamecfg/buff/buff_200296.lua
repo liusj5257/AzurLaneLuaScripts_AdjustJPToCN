@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 第三波 成功应对机制",
 	time = 1,
-	color = "yellow",
+	name = "2023英系活动 EX 第三波 成功应对机制",
+	init_effect = "",
+	id = 200296,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200296,
+	color = "yellow",
 	icon = 200296,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 0.1,
+				target = "TargetSelf",
 				skill_id = 200282
 			}
 		},

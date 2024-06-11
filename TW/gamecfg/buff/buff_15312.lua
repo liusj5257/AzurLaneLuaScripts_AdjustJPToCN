@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "点燃缩减效果",
 	time = 0,
+	name = "点燃缩减效果",
+	init_effect = "",
 	picture = "",
 	desc = "点燃缩减效果",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 5000
+				number = 5000,
+				attr = "igniteReduce"
 			}
 		}
 	}

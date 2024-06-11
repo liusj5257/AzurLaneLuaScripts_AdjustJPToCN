@@ -1,14 +1,14 @@
 slot0 = class("FushunAdventureView", import("..BaseMiniGameView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FushunAdventureUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return FushunAdventureGameConst.BGM_NAME
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.game = FushunAdventureGame.New(slot0._go, slot0:GetMGHubData(), slot0:GetMGData())
 
 	slot0.game:SetOnShowResult(function (slot0)
@@ -31,7 +31,7 @@ function slot0.didEnter(slot0)
 	slot0:CheckAaward()
 end
 
-function slot0.CheckAaward(slot0)
+slot0.CheckAaward = function(slot0)
 	slot1 = slot0:GetMGHubData()
 	slot3 = slot1.usedtime
 	slot4 = slot1:getConfig("reward_need")
@@ -45,7 +45,7 @@ function slot0.CheckAaward(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.game then
 		slot0.game:Dispose()
 
@@ -53,13 +53,13 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.OnSendMiniGameOPDone(slot0)
+slot0.OnSendMiniGameOPDone = function(slot0)
 	if slot0.game then
 		slot0.game:RefreshLevels()
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.game and slot0.game:IsStarting() then
 		slot0.game:ShowPauseMsgbox()
 	end

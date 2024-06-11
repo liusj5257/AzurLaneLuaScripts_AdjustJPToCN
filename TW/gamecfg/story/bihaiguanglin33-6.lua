@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU30-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU30-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			say = "轟————————！",
+			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "看來確實如此呢，汝等確實武藝非凡。",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "但是真正壓倒吾的不是汝等的力量，而是吾本應守護的龍宮城。",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "不論如何，在戰勝之後，吾會如約放妳們離開的。",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "不止於此吧，龍宮城的守護者應該不會反悔自己說過的話吧？",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "說過的話……？呃……",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "“僅憑汝等要是真贏了吾，看上城中什麼獎勵隨便拿走便是。”，妳當時是這麼說的吧。",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "好像確實有這件事，唉……大意了。",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "行吧，我白龍說話算話，妳們看上什麼直接拿走就是了。",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（不妙，這個人真的超惡劣……）",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 301290,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "欸？由我來真的可以嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -308,8 +308,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "島風級驅逐艦島風，參上！",
 			typewriter = {
 				speed = 0.05,

@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "击败了塞壬守卫，可以通过传送门离开深渊海域。",
 			typewriter = {
 				speed = 0.05,

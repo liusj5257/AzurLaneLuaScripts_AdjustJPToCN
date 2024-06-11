@@ -1,6 +1,6 @@
 slot0 = class("ProposeRegiesterShipCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(BayProxy):getShipById(slot1:getBody().shipId) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_error_noShip", slot3))
 

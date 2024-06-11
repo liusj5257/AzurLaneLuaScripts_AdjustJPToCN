@@ -1,13 +1,13 @@
 return {
-	id = "SHENGYONGQU26-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU26-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "비시아 성좌·성당",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "비시아 성좌의 목적은 성당을 사수하는 것입니다. 아마 여기가 최후의 방어선이겠지요. 모든 힘을 쏟아 붓지 않을 이유가 없어요.",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "…충성스럽고 두려움을 모르는 아이리스의 기사라는 사실을 증명했으니, 우리도 어쩔 수 없이 칼을 마주 댈 수밖에요.",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "하지만 이들과 싸우는 것이 우리의 사명이지요. 잔 다르크, 알제리 일행도 이해할 거라고 믿어요.",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "……다시 한번 설득해보겠어요.",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "잔 다르크, 이번에 설득할 것은 우리 자신이에요.",
 			typewriter = {
 				speed = 0.05,

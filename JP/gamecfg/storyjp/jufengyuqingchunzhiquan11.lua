@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
+			blackBg = true,
+			bgm = "wedding",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……",
-			blackBg = true,
-			bgm = "wedding",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "…………",
@@ -55,17 +55,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.25,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_church",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えっと、本当にいいんだよね？",
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_church",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "わたしと一緒にいるのって結構大変だと思うよ？あとでやっぱなしとかダメだからね？",
@@ -153,10 +153,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_church",
 			hidePaintObj = true,
+			side = 2,
 			say = "―――！！！",
 			typewriter = {
 				speed = 0.05,
@@ -170,21 +170,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_jufengv1_cg2",
+			mode = 1,
 			bgm = "theme-seaandsun-image",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -203,12 +203,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "海の新星",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "おーい！！何やってるの！？",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "おーい！！何やってるの！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg2",
 			hidePaintObj = true,
 			say = "目を開けると、そこには乱暴に船室の扉を開けるロイヤル・フォーチュンの姿があった。",
@@ -235,12 +235,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "投資者",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "見ての通り、指揮官さまの世話をしているところよ～",
-			actor = 9600030,
-			actorName = "ゴールデン・ハインド",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ゴールデン・ハインド",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "見ての通り、指揮官さまの世話をしているところよ～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,11 +254,11 @@ return {
 			portrait = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "？？？？",
+			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しーっ。声を抑えて。指揮官が目覚めたばかりだから――",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,12 +270,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "海の新星",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（小声）は、はぁい……",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,12 +291,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "海の新星",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（大声）ってちがーう！！",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,12 +312,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "海の新星",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こいつはわたしのクルーだから！わたしが世話するの！",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,12 +333,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "海の新星",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それとメアリー・セレスト！",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,12 +354,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "海の新星",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "いくらあなたが超有名な幽霊船でも、ちょっとそこどいて！",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "いくらあなたが超有名な幽霊船でも、ちょっとそこどいて！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,17 +373,17 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -402,12 +402,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "投資者",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ゴールデン・ハインド",
+			actor = 9600030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あらぁ～",
-			actor = 9600030,
-			actorName = "ゴールデン・ハインド",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,12 +423,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "投資者",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ゴールデン・ハインド",
+			actor = 9600030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "幽霊船にすごく会いたがっている子がいるって指揮官さまから聞いてたけど～",
-			actor = 9600030,
-			actorName = "ゴールデン・ハインド",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,12 +444,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "投資者",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "誰のことだったかしら～♪",
-			actor = 9600030,
+			withoutPainting = true,
 			actorName = "ゴールデン・ハインド",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "誰のことだったかしら～♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,12 +465,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "海の新星",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう会いたくなくなったの！",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,12 +486,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "海の新星",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "むかつくー！ぷん！",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "むかつくー！ぷん！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg3",
 			hidePaintObj = true,
 			say = "モーニングコールにしてはちょっとやかましすぎた…",
@@ -524,12 +524,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "投資者",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "はいはい。ロイヤル・フォーチュンはここに座って～",
-			actor = 9600030,
-			actorName = "ゴールデン・ハインド",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ゴールデン・ハインド",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "はいはい。ロイヤル・フォーチュンはここに座って～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,11 +540,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
-			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			bgName = "bg_jufengv1_2",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ご親切なことね！ぷんすか！",
@@ -557,17 +557,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -575,8 +575,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			say = "ロイヤル・フォーチュンは勢いよくベッドに腰を降ろし、こっちのもう片方の手を握った。",
@@ -610,8 +610,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -641,11 +641,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "やっぱり「無敵の桂冠」が理由もなく狙ってくるはずないじゃん！もぉ全部ゴールデン・ハインドが変なこと言い出したせいだよ！",
@@ -678,8 +678,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -690,8 +690,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -702,8 +702,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -733,11 +733,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "見ているわよ！",
@@ -751,8 +751,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -763,11 +763,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "私の名前はメアリー・セレスト",
@@ -800,11 +800,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "メアリーが嵐…台風の目に案内してくれたわよ",
@@ -843,11 +843,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "礼なら大丈夫。勇敢な指揮官とその仲間たちは助かるべくして助かっただけさ",
@@ -880,11 +880,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたのような勇者は偉大な航海をなすべき――だからこっちはただやるべきことをやっただけさ",
@@ -948,11 +948,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "私は幽霊船だよ？…怖がったりしないの…？",
@@ -972,11 +972,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "いや、指揮官がいい人なのは分かってるけど、でもお世辞とかなら……",
@@ -990,11 +990,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "別にお世辞なんて言ってないわよ？",
@@ -1027,11 +1027,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これは正真正銘、本気で本気のクルーへの招待――旅路には君も欠かせない！",
@@ -1064,11 +1064,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（小声）早くフォローしてよ！",
@@ -1149,12 +1149,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――！！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1200,8 +1200,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			say = "船室の窓の外から砲撃の轟音が聞こえてきた。",
@@ -1249,11 +1249,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "サン・マルチーニョが交戦中よ。私たちも早く行きましょ～",

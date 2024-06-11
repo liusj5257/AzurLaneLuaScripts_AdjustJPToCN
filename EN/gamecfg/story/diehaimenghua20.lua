@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA20",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "nagato-boss",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			bgName = "bg_story_bsmlevel",
-			mode = 1,
 			dir = 1,
 			bgmDelay = 1,
+			bgm = "nagato-boss",
+			bgName = "bg_story_bsmlevel",
+			mode = 1,
 			say = "————",
-			soundeffect = "event:/battle/boom2",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -71,9 +71,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Pummelled by a hail of cannonfire, the steel colossus finally reels, staggered for the first time.",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(I feel power coursing through me... At this rate, we can win...!)",
 			typewriter = {
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "However, even if one enemy collapsed, another would swell from the depths to take its place, a veritable wall of black steel.",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "——It is not enough.",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(I am the hope of the Sakura Empire. The hope of her people. I am their deliverance.)",
 			typewriter = {
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "But the flames of resistance flickered in the storm and sputtered out. Be it after mere moments or after eons, Shinano stood alone upon the surface of the ocean.",
 			typewriter = {
 				speed = 0.05,
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "——One fragment is still missing.",
 			typewriter = {
 				speed = 0.05,
@@ -207,13 +207,13 @@ return {
 			}
 		},
 		{
-			actorName = "█ █ █ █",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █",
 			dir = 1,
-			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊ ▊▇ ▊▇ ▊▇",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#BDBDBD",
+			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊ ▊▇ ▊▇ ▊▇",
 			flashN = {
 				color = {
 					1,
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "bg_white",
-			actorName = "{namecode:182}",
+			side = 2,
 			dir = 1,
+			actorName = "{namecode:182}",
+			bgName = "bg_white",
 			nameColor = "#a9f548",
 			say = "(This was... the fate of \"Shinano\" within this world...)",
 			flashout = {
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 1,
 			bgName = "bg_white",
+			mode = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {
 				dur = 0.5,

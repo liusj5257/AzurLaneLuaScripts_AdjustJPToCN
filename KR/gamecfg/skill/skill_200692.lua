@@ -1,8 +1,8 @@
 return {
-	id = 200692,
-	name = "2023 闪乱联动 T5 召唤小怪",
 	cd = 0,
+	name = "2023 闪乱联动 T5 召唤小怪",
 	painting = 0,
+	id = 200692,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -19,17 +19,17 @@ return {
 					buffList = {},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchParam = 300,
+							switchType = 1,
 							switchTo = 0,
 							index = 1,
-							switchType = 1,
+							switchParam = 300,
 							setAI = 70149
 						}
 					}
@@ -51,17 +51,17 @@ return {
 					buffList = {},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchParam = 300,
+							switchType = 1,
 							switchTo = 0,
 							index = 1,
-							switchType = 1,
+							switchParam = 300,
 							setAI = 70150
 						}
 					}
@@ -83,17 +83,17 @@ return {
 					buffList = {},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchParam = 300,
+							switchType = 1,
 							switchTo = 0,
 							index = 1,
-							switchType = 1,
+							switchParam = 300,
 							setAI = 90024
 						}
 					}

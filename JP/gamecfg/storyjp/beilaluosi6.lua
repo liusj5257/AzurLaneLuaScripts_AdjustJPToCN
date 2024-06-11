@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"颯爽の「白」\n\n<size=45>六 清々しい朝</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = " なるほど、キューブをエネルギー源とする動力機関…面白い",
+			bgName = "star_level_bg_1100",
 			bgm = "story-1",
+			actorName = "？？？",
+			say = " なるほど、キューブをエネルギー源とする動力機関…面白い",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "同志指揮官はそろそろ起きたかな？",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_109",
 			actor = 705040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "おはよう同志指揮官。二日酔いの薬でも用意したほうがいいか？",
 			flashout = {
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "手に持っていた分厚い本をテーブルに置くと、ベラルーシアはいつも通り颯爽とした雰囲気で朝の挨拶をした。",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "どうやら昨晩は酒の力に勝てず、そのまま彼女の部屋のソファで寝込んでしまったようだ……",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "本当に申し訳ない。同志指揮官があの場で泥酔しないように自分も頑張って飲み続け、あのシチュエーションを上手く作り出してはみたが",
 			typewriter = {
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "あのまま飲み続けるのは翌日の仕事に影響が出るし、ベラルーシアに（あの場に限って言えば）助けられたのは事実だ。",
 			typewriter = {
 				speed = 0.05,
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "……それに、仲間たちと楽しい時間を過ごすことができてむしろ彼女に感謝したいところだ。",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "時間は5時、駆逐艦の子たちはまだ寝ている、ガングートたちは言うまでもない…ダッシュすれば他の陣営の子たちにも見られずに済む",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "賭けをしよう。同志指揮官は私と一緒にここから執務室へ行くのではなく、一度自室に戻ることを選ぶはずだ",
 			typewriter = {
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "いずれにしても、この状況はちょっとまずい。ここは素直に提案を飲めるしかなさそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "よし、じゃあ決まりだな。支度は手短に済まそう",
 			typewriter = {
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "ベラルーシアはベッドから立ち上がり、手を差し伸べてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -368,12 +368,12 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "star_level_bg_109",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "同志指揮官がなぜ慕われているか、ようやく分かったぞ。ふふ",
 			typewriter = {
 				speed = 0.05,

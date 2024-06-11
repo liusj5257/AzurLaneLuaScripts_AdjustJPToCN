@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "仙人饅頭？に答えを教えた。",
 			typewriter = {
 				speed = 0.05,
@@ -13,8 +13,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "仙人饅頭？",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "「本当に金の饅頭ピョ？」",
 			typewriter = {
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "仙人饅頭？",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "「………………実のところ、ワシも落ちたのがどの饅頭か忘れたピョ」",
 			typewriter = {
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "仙人饅頭？",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "「まあいいピョ。あなたの誠実さを褒め称えて、金の饅頭を授けてやるピョ。大事にするがよいピョ！」",
 			typewriter = {

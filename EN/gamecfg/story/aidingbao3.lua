@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uniquely \"Me\"\n\n<size=45>3 An Afternoon of Sighs</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Courtyard",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Courtyard",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "Ehhhh? D-don't you think your standards are a bit too high, Sheffield?",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,8 +144,8 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = ".........",
 			typewriter = {
@@ -158,10 +158,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			hideOther = true,
 			dir = 1,
 			actor = 202080,
 			actorName = "Sheffield＆Suffolk",
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Ehh?! If the two of you are going to come in, don't just sneak back out again!",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -277,8 +277,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "P-please take your time. As much of it as you need...",
 			typewriter = {
@@ -291,15 +291,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "...I see. In other words, you're worried about dragging the Commander down with your clumsiness.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "But, what you described doesn't seem out of the ordinary for you.",
 			typewriter = {
@@ -341,11 +341,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "So ruthless! ...Ugh, but at this rate, my own opinion aside, even Bel's going to have a lower assessment of me...",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Ah, um, it's because I'm a warm-up for Belfast, right? The Commander is probably going to appoint Belfast as the secretary ship soon!",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -412,8 +412,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "There's no way the Commander would do something like that!",
 			typewriter = {
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "I'm sure of it! After all, why would someone as clumsy and dumb as me get chosen?",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -535,8 +535,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "That's right! Just like how Kent is athletic and good at sports, and I'm often in charge of the weather forecast because of my good eyesight––",
 			typewriter = {
@@ -568,8 +568,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "Knowing how to watch the clouds counts, right?",
 			typewriter = {
@@ -617,8 +617,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "Noooooo! I don't want to be lectured! At least shorten it a bit... Waaah...",
 			typewriter = {
@@ -631,12 +631,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Uniquely me... Does something like that really exist?",
 			typewriter = {
 				speed = 0.05,

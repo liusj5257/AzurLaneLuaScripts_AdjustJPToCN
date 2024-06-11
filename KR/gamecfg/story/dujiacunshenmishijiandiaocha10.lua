@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리조트 신비 사건 조사\n\n<size=45>공연 상연 전에</size>",
@@ -17,40 +17,40 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "'요괴 극단'의 공연이 개장하기 전에 일어난 또 다른 이야기――",
+			nameColor = "#A9F548FF",
+			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			bgm = "stopbgm",
+			say = "'요괴 극단'의 공연이 개장하기 전에 일어난 또 다른 이야기――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "battle-xinnong-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "만쥬 온천 마을, 어느 곳",
-			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "언제나 졸린 표정의 시나노……. 그것은 꿈 먹는 요괴 바쿠도 마찬가지지만, 시나노의 말속에서는 드물게 엄격한 감정이 느껴진다.",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "미동도 하지 않은 채로 석상처럼 잠들고 싶었지만, 이대로라면 안심하고 잠을 잘 수가 없다.",
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "꿈 먹는 요괴 바쿠",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "바쿠는 조각상이 되고 싶어",
 			nameColor = "#A9F548FF",
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "아카시… 목적은 불순하지만, 결과적으로는 좋은 일이라는 것을…… 지휘관도 동료들도 다들 반드시 알아줄 거다.",
 			painting = {

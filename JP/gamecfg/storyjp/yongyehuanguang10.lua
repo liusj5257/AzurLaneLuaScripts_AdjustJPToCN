@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			actor = 206060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "情報によると、北方連合は危機に瀕していて、指揮官までも前線に駆り出してるみたいね",
-			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "…今は北方連合の戦況より身近な心配をしたほうが良さそうよ",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "先行している量産艦が敵の大艦隊を発見したそうよ。……時化みたいわね",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "大勢いるってこと。ティルピッツにシャルンホルスト姉妹、ドイッチュラントとアドミラル・グラーフ・シュペー……",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "あとはプリンツ・オイゲンとアドミラル・ヒッパー、量産艦山盛り、これは大物が釣れたわね…",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,8 +220,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "そうね…まっすぐこちらに向かっているわ",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "ってことは、通信傍受…もしくはこちらの作戦は最初から敵に筒抜けだったってことね",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "逃げてもしょうがないし、ここは主力艦隊を呼び寄せて一気に敵艦隊を叩くしかないんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "陛下の計画通り、鉄血主力艦隊を撃破するわよ…！",
 			typewriter = {
 				speed = 0.05,

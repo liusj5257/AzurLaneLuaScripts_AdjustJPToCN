@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MAOZIHUODONG30",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			say = "Somewhere in the Northern Parliament... ",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "bgm-cccp2",
+			say = "Somewhere in the Northern Parliament... ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = 705050,
 			side = 2,
 			bgName = "bg_cccp_8",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#a9f548",
 			say = "I'm glad you decided to stay with us for a bit longer.",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_8",
-			actor = 701020,
 			dir = 1,
 			blackBg = true,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "Hehe... Commander, it's cold outside, but warm in here. Want some hot chocolate?",
 			effects = {
@@ -98,15 +98,15 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_cccp_8",
-			actor = 702020,
 			dir = 1,
 			blackBg = true,
+			bgName = "bg_cccp_8",
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "We might not have as much variety as you do in the Eagle Union, but I can assure you, the taste is unbeatable~",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -134,9 +134,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_8",
-			actor = 702020,
 			dir = 1,
 			blackBg = true,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "What are you fantasizing about? Of course it wasn't I who made this for you~♪",
 			typewriter = {
@@ -166,15 +166,15 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			bgName = "bg_cccp_8",
-			actor = 702030,
 			dir = 1,
 			blackBg = true,
+			bgName = "bg_cccp_8",
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "Indeed. The fight against the Sirens is only going to escalate and get drawn out from here, so we'll continue to request aid from the other factions.",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -214,16 +214,16 @@ return {
 			}
 		},
 		{
-			actor = 701040,
-			side = 2,
 			bgName = "bg_cccp_8",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actor = 701040,
+			nameColor = "#a9f548",
 			say = "This is where Tashkent and company go to relax.",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -251,9 +251,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			actor = 701040,
 			dir = 1,
 			blackBg = true,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "Pretty nice scenery, right? ...Right. Come on, take a seat. Let's have a chat, shall we?",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The members of the Northern Parliament introduced me to a variety of different places.",
 			effects = {
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The whole experience was different from what I had experienced anywhere else.",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "And today, Sovetskaya Rossiya would take me to meet a certain \"important person\"...",
 			typewriter = {
@@ -329,15 +329,15 @@ return {
 			}
 		},
 		{
-			actor = 900226,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900226,
+			nameColor = "#a9f548",
 			say = "\"We've received your reports and data.\"",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "——！！",
 			typewriter = {
@@ -408,15 +408,15 @@ return {
 			}
 		},
 		{
-			actor = 705050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#a9f548",
 			say = "Comrade, this way please.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -441,9 +441,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_white",
+			side = 2,
+			dir = 1,
 			say = "Light poured into the room from the window.",
 			flashout = {
 				dur = 1,
@@ -470,9 +470,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_white",
+			dir = 1,
 			say = "When my eyes adjusted, I saw a woman clad in white standing inside the room, her garb resembling that of the other members of the Northern Parliament fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -484,9 +484,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_white",
+			dir = 1,
 			say = "The deliberate and dignified words she spoke seemed to echo directly into my mind.",
 			typewriter = {
 				speed = 0.05,
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 900218,
 			side = 2,
 			bgName = "bg_white",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
+			nameColor = "#a9f548",
 			say = "\"Commander, would you join the Northern Parliament?\"",
 			typewriter = {
 				speed = 0.05,

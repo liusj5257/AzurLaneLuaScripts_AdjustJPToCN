@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 俾斯麦Z",
 	time = 3,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 俾斯麦Z",
+	init_effect = "",
+	id = 200855,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200855,
+	color = "yellow",
 	icon = 200855,
 	last_effect = "",
 	effect_list = {

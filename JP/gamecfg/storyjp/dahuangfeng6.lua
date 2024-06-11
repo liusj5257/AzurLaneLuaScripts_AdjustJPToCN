@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"サンシャイン・デュエル！\n\n<size=45>六　私が私であること</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "翌日 演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			say = "翌日 演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "母港の演習海域。それぞれの特訓を経て、スタンバイしているホーネットと瑞鶴。",
@@ -61,12 +61,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "そして、ついに開戦の合図…信号弾が打ち上げられた。",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "そして、ついに開戦の合図…信号弾が打ち上げられた。",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "その瞬間、放たれた矢のごとく、二人は動いた——演習が始まった。",
@@ -99,14 +99,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 107070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "はぁ…はぁ…やっぱり、楽に勝てる相手じゃないわね…！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "しかしその努力はこっちも同じよ！「グレイゴースト」にも、あなたにも勝つためにね！",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "序盤はエンタープライズの予測通り、優位に立ったホーネットだったが、瑞鶴が戦い方を調整したことで少しずつ追い詰められていた。",
@@ -223,8 +223,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "確かにずっとエンプラ姉を追っかけてきたし、マネちゃってるところもあるけど…",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "ただ背中を見たりマネたりしているだけじゃないよ！私は私！ヨークタウン級の末っ子、颯爽と輝くホーネット様よ！",
 			effects = {
 				{
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "……そうこなくちゃ！さぁ、あなたにしかできない戦いを見せて！",
 			effects = {
 				{
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "再び主機の出力を奮起させ、瑞鶴に向けて高速で接近しようとするホーネット。",
 			effects = {
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "電光石火。瑞鶴の攻撃を間一髪で避けたホーネットは体勢を変え、そのまま懐に潜り込み――",
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "なん、だと…！？",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -359,12 +359,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "――――！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！",
 			flashN = {
 				color = {
 					1,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "見事に瑞鶴に命中させたホーネットに、演習の趨勢は一気に傾いた。",
@@ -432,8 +432,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "あはは～やっりぃ！作戦大成功！",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -458,9 +458,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
+			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			say = "「エンプラ姉の技をあえて真似して、それをブラフにする」――",
 			effects = {
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -507,8 +507,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "エンプラ姉に「特訓」させたのは、そのため……",
 			typewriter = {
@@ -524,8 +524,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "確かにエンプラ姉に拘っているあの瑞鶴なら、ひっかかってくれるかも…",
 			typewriter = {
@@ -541,8 +541,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "そっか…指揮官、私がエンプラ姉の妹だからってエンプラ姉に特訓させたんじゃないんだ…",
 			typewriter = {
@@ -558,8 +558,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "「姉を真似るのは悪いことじゃなく、むしろ単なるコピーキャットにならないで、エンプラ姉の力を吸収し、自分の力として使って戦えばいい」",
 			typewriter = {
@@ -575,8 +575,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "なるほど…早く言ってくれればいいのに！そんなに回りくどい言い方じゃ指揮官らしくも、私らしくもないじゃない！",
 			typewriter = {
@@ -589,8 +589,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -602,8 +602,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "ついさっきまで後ろ向きになっちゃったけど、指揮官は何も見なかった！見なかったよね！くっ…ホーネット様の黒歴史だー！",
 			dialogShake = {
@@ -623,9 +623,9 @@ return {
 		{
 			actor = 307060,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あえてエンタープライズの技を使ってブラフにするなんて…私が拘りすぎたせいで負けちゃったのか",
 			effects = {
 				{
@@ -674,11 +674,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "しかし勝負はまだこれから！こんな不意打ちは二度と効かないと知れ！",
 			typewriter = {
 				speed = 0.05,
@@ -690,8 +690,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -716,11 +716,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "なんだって？！",
 			typewriter = {
 				speed = 0.05,
@@ -732,8 +732,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -758,11 +758,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "なら技に頼らず地力で勝負するまで！さあ、かかってくるがいい、ホーネット！",
 			effects = {
 				{
@@ -796,11 +796,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "ホーネットと瑞鶴の対抗演習は、まだまだ続くのであった————",
 			effects = {
 				{

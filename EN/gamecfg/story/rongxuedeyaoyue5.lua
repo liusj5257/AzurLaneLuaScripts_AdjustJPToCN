@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Invitation of Melting Snow\n\n<size=45>Thawing in the Snow</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "In a misty open-air hot spring, there's a girl sitting on the blue-tinted stones, watching the snow around her melt.",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "In a misty open-air hot spring, there's a girl sitting on the blue-tinted stones, watching the snow around her melt.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 702071,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "There you are. Glad you kept your word, Comrade Commander.",
 			painting = {
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "Voroshilov and I have a great time in the hot spring.",
 			painting = {
@@ -176,17 +176,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "While the water warms my body, her touch warms my heart. I almost feel like I'm going to overheat.",
 			painting = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 702071,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "Maybe the water is just a touch too hot? It would explain why you're blushing.",
 			painting = {
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "I don't get the chance to explain myself before she starts clinging to me with a look of concern.",
 			painting = {
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			optionFlag = 2,
 			actor = 702071,
 			nameColor = "#A9F548FF",
@@ -448,12 +448,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "She holds my hand. It feels even warmer than the water.",
 			painting = {

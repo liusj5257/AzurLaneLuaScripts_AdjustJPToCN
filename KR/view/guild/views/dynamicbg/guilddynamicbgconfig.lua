@@ -491,8 +491,8 @@ return {
 	},
 	furnitures = {
 		{
-			mode = 1,
 			name = "chair",
+			mode = 1,
 			interactionDir = -1,
 			position = {
 				17,
@@ -512,8 +512,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			name = "chair1",
+			mode = 1,
 			interactionDir = -1,
 			position = {
 				31,

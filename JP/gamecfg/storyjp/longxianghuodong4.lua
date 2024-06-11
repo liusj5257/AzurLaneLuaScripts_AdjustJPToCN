@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG4",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level",
 			dir = -1,
 			say = "……飛行場からの空襲警報か。これは龍驤の攻撃隊だな。サラトガ、どうする？",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,11 +12,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 64.54,
+					rotateY = 0,
 					posY = -44.8,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 64.54
 				}
 			}
 		},
@@ -31,11 +31,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		}

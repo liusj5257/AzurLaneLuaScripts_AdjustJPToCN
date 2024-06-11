@@ -1,10 +1,10 @@
 slot0 = class("CommanderQuicklyToolPage", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderQuicklyToolPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close_btn")
 	slot0.cancelBtn = slot0:findTF("frame/cancel_btn")
 	slot0.confirmBtn = slot0:findTF("frame/confirm_btn")
@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/content/time/label"), i18n("commander_box_quickly_tool_tip_3"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -72,7 +72,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 	uv0.super.Show(slot0)
 
@@ -87,19 +87,19 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0:UpdateValue(slot0.maxCnt)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	setParent(slot0._tf, slot0._parentTf)
 end
 
-function slot0.UpdateValue(slot0, slot1)
+slot0.UpdateValue = function(slot0, slot1)
 	slot0.value = slot1
 	slot0.valueTxt.text = slot1
 
 	slot0:AddTimer(getProxy(CommanderProxy):getBoxById(slot0.boxId):getFinishTime() - slot0.costM * slot1 * 60)
 end
 
-function slot0.CalcMaxUsageCnt(slot0)
+slot0.CalcMaxUsageCnt = function(slot0)
 	if getProxy(CommanderProxy):getBoxById(slot0.boxId):getFinishTime() - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
 		return math.ceil(slot4 / slot0.cost)
 	else
@@ -107,7 +107,7 @@ function slot0.CalcMaxUsageCnt(slot0)
 	end
 end
 
-function slot0.AddTimer(slot0, slot1)
+slot0.AddTimer = function(slot0, slot1)
 	slot0:RemoveTimer()
 
 	slot0.timer = Timer.New(function ()
@@ -124,7 +124,7 @@ function slot0.AddTimer(slot0, slot1)
 	slot0.timer.func()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -132,12 +132,12 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:RemoveTimer()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveTimer()
 end
 

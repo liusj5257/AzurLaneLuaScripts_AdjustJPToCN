@@ -6,11 +6,11 @@ slot1 = slot0.Battle.BattleJammingWave
 slot1.JAMMING_ENGAGE = 1
 slot1.JAMMING_DODGE = 2
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.DoWave(slot0)
+slot1.DoWave = function(slot0)
 	uv0.super.DoWave(slot0)
 
 	if uv1.Battle.BattleDataProxy.GetInstance():GetInitData().KizunaJamming and table.contains(slot3, uv0.JAMMING_ENGAGE) then

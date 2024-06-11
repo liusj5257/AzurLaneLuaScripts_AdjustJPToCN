@@ -1,17 +1,17 @@
 return {
-	id = "LINGSHIGUANGTING34",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING34",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？？ ·林中城堡",
 			side = 2,
 			bgName = "bg_camelot_8",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-richard",
+			say = "？？？？ ·林中城堡",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -143,12 +143,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_8",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900322,
+			nameColor = "#ffff4d",
 			say = "呵呵呵，就讓我們在某一天再相見吧~大姐姐們~",
 			typewriter = {
 				speed = 0.05,

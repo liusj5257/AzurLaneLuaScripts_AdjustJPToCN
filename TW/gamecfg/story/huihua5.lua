@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUIHUA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUIHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"特別慶典·開幕！\n\n<size=45>五　艾塞克斯與企業</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_school",
 			bgm = "story-1",
 			actor = 107090,
 			nameColor = "#a9f548",
 			say = "…結果還是沒能勝過前輩——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,12 +53,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "艾塞克斯，不甘心嗎？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "艾塞克斯，不甘心嗎？",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "企業前輩……",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 408011,
 			dir = 1,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "那是當然，我們鐵血是不會放過任何觀察學習的機會的！",
 			typewriter = {
@@ -236,11 +236,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "剛才也看到{namecode:96}她們了！沒想到重櫻的航母們也有好多來參加了呢！",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "（嘁，偏偏還和那個“灰色幽靈”打招呼了…）跟我沒關係……",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "我對這種沒什麼興趣呢。",
 			typewriter = {
@@ -305,10 +305,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 107090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "（沒想到不同陣營的同僚也能這麼自然地交流對話…莫非…）",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "不過，交朋友什麼的，我還是有點——",
 			typewriter = {
@@ -369,13 +369,13 @@ return {
 			}
 		},
 		{
-			actor = 301013,
+			say = "啊！不用那麼拘謹啦！妳眼前不就是嘛？",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
-			say = "啊！不用那麼拘謹啦！妳眼前不就是嘛？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -393,8 +393,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "欸？",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "等等，不要隨便就給我加人啊！",
 			typewriter = {
@@ -440,8 +440,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -453,8 +453,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "有什麼不好嘛，人多不是更熱鬧嘛！",
 			typewriter = {
@@ -486,8 +486,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……嘁，隨妳喜歡吧。",
 			typewriter = {
@@ -500,12 +500,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			actorScale = 0.6,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "找到了喵！剛才用煙霧彈搗亂的傢伙喵！",
 			effects = {
 				{
@@ -523,8 +523,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -540,8 +540,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					number = 3
@@ -557,8 +557,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					number = 3
@@ -569,8 +569,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "哇哇！糟了！{namecode:98}居然追過來了！",
 			effects = {
@@ -589,8 +589,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -602,8 +602,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 408011,
 			dir = 1,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "看著好兇！妳到底搞了什麼啊！",
 			typewriter = {
@@ -616,8 +616,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -626,11 +626,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "快逃囉！！！",
 			typewriter = {
 				speed = 0.05,
@@ -642,8 +642,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.2,
 					dur = 0.8,
 					x = -2250
@@ -654,8 +654,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "欸！？！？！？！",
 			typewriter = {
@@ -668,8 +668,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

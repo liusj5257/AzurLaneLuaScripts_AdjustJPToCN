@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -218,8 +218,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "綾波はここ、です。",
 			typewriter = {
 				speed = 0.05,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "うわぁぁぁ！あ、綾波！？",
+			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -250,9 +250,9 @@ return {
 			},
 			shake = {
 				speed = 10,
-				number = 2,
+				y = 10,
 				x = 0,
-				y = 10
+				number = 2
 			}
 		},
 		{
@@ -289,8 +289,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "鳳翔さんのところに行って、頼んだものを受け取ってきたのです",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "鳳翔さんに作ってもらって、みんなにプレゼントしようと思ったのですが…時間がなくて、一着しかないのです…",
 			typewriter = {
 				speed = 0.05,
@@ -393,10 +393,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorShadow = true,
-			actorName = "{namecode:6}&Z23",
 			side = 0,
+			actorName = "{namecode:6}&Z23",
+			hideOther = true,
 			dir = 1,
 			actor = 301050,
 			nameColor = "#a9f548",
@@ -434,16 +434,16 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			withoutPainting = true,
 			side = 0,
-			nameColor = "#a9f548",
-			say = "えへへへ、よいではないか～よいではないか～",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "えへへへ、よいではないか～よいではないか～",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -468,14 +468,14 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			withoutPainting = true,
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:6}",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			actorName = "{namecode:6}",
 			say = "ラフィーの肌…すべすべ――",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,13 +486,13 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			withoutPainting = true,
 			side = 0,
+			dir = 1,
+			blackBg = true,
+			actor = 101170,
 			nameColor = "#a9f548",
 			say = "かゆ…さむ――",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,13 +503,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			withoutPainting = true,
 			side = 0,
+			dir = 1,
+			blackBg = true,
+			actor = 401230,
 			nameColor = "#a9f548",
 			say = "なんかちょっと変だけど…まぁいいか――",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,14 +520,14 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "変身完了～ラフィーちゃん、どう？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -567,12 +567,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "でも、可愛いです。",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:6}",
 			dir = 1,
-			say = "でも、可愛いです。",
+			actor = 301050,
+			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -620,8 +620,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "次は、みんなの分を用意するのです。",
 			typewriter = {
 				speed = 0.05,
@@ -681,8 +681,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "うん、まずはアニメ鑑賞、です。",
 			typewriter = {
 				speed = 0.05,
@@ -694,10 +694,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorShadow = true,
-			actorName = "みんな",
 			side = 0,
+			actorName = "みんな",
+			hideOther = true,
 			actor = 401230,
 			nameColor = "#a9f548",
 			say = "……",

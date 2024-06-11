@@ -7,8 +7,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.05
+					number = 0.05,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.05
+					number = 0.05,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.05
+					number = 0.05,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.05
+					number = 0.05,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.05
+					number = 0.05,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.05
+					number = 0.05,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.05
+					number = 0.05,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.05
+					number = 0.05,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.15
+					number = 0.15,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.1
+					number = 0.1,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.15
+					number = 0.15,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.1
+					number = 0.1,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.15
+					number = 0.15,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.1
+					number = 0.1,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.15
+					number = 0.15,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.1
+					number = 0.1,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.15
+					number = 0.15,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.1
+					number = 0.1,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRIDMG_TAG_EHC_xiafeihp",
-					number = 0.25
+					number = 0.25,
+					attr = "CRIDMG_TAG_EHC_xiafeihp"
 				}
 			},
 			{
@@ -233,15 +233,15 @@ return {
 					"onAircraftCreate"
 				},
 				arg_list = {
-					attr = "CRI_TAG_EHC_xiafeihp",
-					number = 0.2
+					number = 0.2,
+					attr = "CRI_TAG_EHC_xiafeihp"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "jinengchufared",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

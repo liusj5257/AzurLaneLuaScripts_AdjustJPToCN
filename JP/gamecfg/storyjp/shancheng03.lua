@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENG03",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHANCHENG03",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "寒中水泳…この前、正月に身体をお清めしたときは結構大変だったな……",
 			typewriter = {
 				speed = 0.05,
@@ -35,8 +35,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "……最近は…ちょっと怠けてるかも……",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "殿様が夏に贈ってくれた水着……",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			actor = 305020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "確かにここに置いてたはず……",
 			typewriter = {
 				speed = 0.05,
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			actorName = "{namecode:79}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "あれ？ない……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

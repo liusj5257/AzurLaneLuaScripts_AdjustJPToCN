@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 502023,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "It's finally time for us to make our grand debut! All right, slow and easy...",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			say = "Sis, I'm hungry... Can I grab something to eat first?",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 502033,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "As many as I can stomach...?! All right, I'll do it!",
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502023,
 			dir = 1,
+			actor = 502023,
 			say = "That's the spirit! We have to blow everyone away with our performance...!",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 502023,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "(We're representing the entire Dragon Empery! We can't afford to put on an unsightly performance that would cause everyone back home to lose face!)",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,8 +136,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			say = "Sis, Polaris is here!",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502023,
 			dir = 1,
+			actor = 502023,
 			say = "Well met, Polaris! We challenge you to a battle!",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

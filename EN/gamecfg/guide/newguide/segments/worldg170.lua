@@ -5,8 +5,8 @@ return {
 			style = {
 				text = "You've just unlocked a new feature. Return to the Home Screen to check it out.",
 				mode = 2,
-				posY = 353.64,
 				dir = -1,
+				posY = 353.64,
 				posX = -530.04
 			},
 			ui = {
@@ -15,11 +15,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -75.74,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = -131.7,
-					rotateY = 0
+					posX = -75.74
 				}
 			}
 		},
@@ -27,8 +27,8 @@ return {
 			style = {
 				text = "You've unlocked META Showdown. Team up with other commanders to take down these powerful foes!",
 				mode = 2,
-				posY = -269.2,
 				dir = -1,
+				posY = -269.2,
 				posX = 446.3
 			},
 			ui = {
@@ -37,11 +37,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -10,
+					rotateY = 0,
 					posY = 10,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = -10
 				}
 			}
 		},
@@ -58,8 +58,8 @@ return {
 			style = {
 				text = "Defeat a variety of enemies to obtain a Data Logger. You can hold a maximum of 1 Data Logger. After obtaining it, go here to analyze.",
 				mode = 2,
-				posY = -46.31,
 				dir = -1,
+				posY = -46.31,
 				posX = 393.9
 			},
 			ui = {
@@ -68,11 +68,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 31.1,
+					rotateY = 0,
 					posY = 16.19,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 31.1
 				}
 			}
 		},
@@ -80,8 +80,8 @@ return {
 			style = {
 				text = "Each challenge will use 1 attempt, and your attempts will naturally recover over time.",
 				mode = 2,
-				posY = 330.6,
 				dir = -1,
+				posY = 330.6,
 				posX = 464.57
 			}
 		},
@@ -89,8 +89,8 @@ return {
 			style = {
 				text = "The leaderboard shows how much you and other players have dealt to the boss.",
 				mode = 2,
-				posY = 110.29,
 				dir = -1,
+				posY = 110.29,
 				posX = 465.2
 			}
 		},
@@ -98,8 +98,8 @@ return {
 			style = {
 				text = "You may collect your rewards after defeating a boss.",
 				mode = 2,
-				posY = -220.5,
 				dir = 1,
+				posY = -220.5,
 				posX = 200.7
 			}
 		},
@@ -107,8 +107,8 @@ return {
 			style = {
 				text = "Foes in META Showdown are mighty, and you can use the \"Request Support\" function to call for assistance.",
 				mode = 2,
-				posY = -404.9,
 				dir = 1,
+				posY = -404.9,
 				posX = 178.9
 			}
 		},
@@ -116,8 +116,8 @@ return {
 			style = {
 				text = "You can see the requests other players have sent you in the Boss List menu.",
 				mode = 2,
-				posY = -431.9,
 				dir = -1,
+				posY = -431.9,
 				posX = -426.01
 			}
 		},
@@ -125,8 +125,8 @@ return {
 			style = {
 				text = "Now, continue the battle against the META!",
 				mode = 2,
-				posY = -423,
 				dir = 1,
+				posY = -423,
 				posX = 381.23
 			},
 			ui = {
@@ -135,11 +135,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 47.2,
+					rotateY = 0,
 					posY = -6.09,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 47.2
 				}
 			}
 		}

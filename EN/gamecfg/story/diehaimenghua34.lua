@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA34",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306090,
 			dir = 1,
+			bgm = "battle-boss-tiancheng",
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "A submarine fleet is approaching us from the east! They're sending planes at us too!",
-			bgm = "battle-boss-tiancheng",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "So that's what they were after, huh? Drawing Shinano away to try to pick us off one by one.",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Damn it, Suruga's just flat out better at the strategizing... Guess I'll have to do things the same way as always.",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Everyone, you're all doing great.",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "What's there to thank us for? It's fun getting some good exercise like this, considering how little happens these days~☆",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "All right, everyone, let's hurry back and return to port! We'll be throwing a welcoming party for our new friends from Sardegna!",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Hehe~ That sounds fun, doesn't it, Shinano?",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "......I wish you the best of luck. May your future be blessed with happiness, o dreaming butterfly.",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "And please take good care of Akagi and Kaga.",
 			typewriter = {
@@ -214,9 +214,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_xinnong2_2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_xinnong2_2",
 			bgm = "bsm-2",
 			actor = 307080,
 			nameColor = "#a9f548",
@@ -264,8 +264,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(And the power to unite our sundered world... to end the fighting... The one who can avert this future of ruin... is the \"Commander\"...)",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(If you are with me, then surely, this memory...)",
 			typewriter = {
@@ -298,9 +298,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(...will be more than just a dream...)",
 			typewriter = {
@@ -313,9 +313,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_white",
+			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {

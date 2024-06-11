@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Émile, the Dancing Angel\n\n<size=45>Chapter 3 - Hidden Talent</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Commander's Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -61,17 +61,17 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 22.5,
 					dur = 0.1,
-					type = "shake",
-					y = 22.5
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "... For the third time this week? Really?",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.4,
 					x = 15,
 					number = 2
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
+			say = "Huh? How is that thanks to me?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Huh? How is that thanks to me?",
+			actor = 802010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Suddenly, Shiranui popped up.",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = -1,
 			say = "Please, you need not be so humble. I, too, am indebted to you.",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "Please, I'm not THAT amazing! Still, if you think my contributions matter so much, then how about I watch both of your stores for a while? Would that be okay, Commander?",
 			typewriter = {
 				speed = 0.05,

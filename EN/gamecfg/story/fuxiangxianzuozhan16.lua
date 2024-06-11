@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Floating Fortress C4",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "Floating Fortress C4",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "H-how did you conceal a base this massive?! Unless... Are you using Siren technology to create a Mirror Sea?!",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "What are those...? Planes produced by the Mirror Sea?",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "Out of the way, mortal. I shall use my all-seeing eyes to verify... Yes, these are Sakura Empire aircraft.",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "They're just planes launched by some mass-produced Pawns. We use 'em all the time for practice purposes, you see.",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Hey, we just use 'em as sparring partners, that's all! No funny business, promise!",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "Hmm... You make a good point! And, given that this is a Mirror Sea, the copies created are very accurate to their originals! I'm impressed!",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "Speaking of the copies... They certainly are fighting fiercely. To an outsider, it looks more like a real battle than a training program...",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Right? Pretty sweet, huh? Hang on a sec... Do we usually use practice rounds this big? Doesn't look–",
 			typewriter = {
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 401280,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401280,
+			nameColor = "#a9f548",
 			say = "Eek! I think they fired that one at us on purpose!",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -325,8 +325,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "What?! Those shapeshifting hunks of scrap would DARE threaten me, the Crimson Fiend? Why, I ought to–",
 			typewriter = {
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -394,8 +394,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "Aaahh! Th-they really are shooting at us!",
 			typewriter = {
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,8 +421,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "D-does Iron Blood take their training THIS seriously?!",
 			typewriter = {
@@ -470,8 +470,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "Very interesting! I can't help but admire your dedication!",
 			typewriter = {
@@ -487,8 +487,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "(Goodness, Eugen really has a pokerface like nobody else does...)",
 			typewriter = {
@@ -536,8 +536,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "Hang on a sec! How come you know about the backdoor route, huh?!",
 			typewriter = {
@@ -582,12 +582,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "Now, let's see how high we can score on this training program they've got.",
 			typewriter = {
 				speed = 0.05,

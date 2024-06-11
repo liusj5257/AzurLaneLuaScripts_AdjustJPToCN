@@ -4,11 +4,11 @@ slot0.Battle.BattleBuffShiftWeapon = class("BattleBuffShiftWeapon", slot0.Battle
 slot0.Battle.BattleBuffShiftWeapon.__name = "BattleBuffShiftWeapon"
 slot1 = slot0.Battle.BattleBuffShiftWeapon
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._detachID = slot0._tempData.arg_list.detach_id
 	slot0._attachID = slot0._tempData.arg_list.weapon_id
 	slot0._detachLabel = slot0._tempData.arg_list.detach_labelList
@@ -16,11 +16,11 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._initCD = slot0._tempData.arg_list.initial_over_heat
 end
 
-function slot1.onAttach(slot0, slot1, slot2)
+slot1.onAttach = function(slot0, slot1, slot2)
 	slot0:shiftWeapon(slot1)
 end
 
-function slot1.shiftWeapon(slot0, slot1)
+slot1.shiftWeapon = function(slot0, slot1)
 	if not slot0:removeWeapon(slot1) or slot2:IsFixedWeapon() and not slot0._fixedEnabled then
 		return
 	end
@@ -48,7 +48,7 @@ function slot1.shiftWeapon(slot0, slot1)
 	end
 end
 
-function slot1.removeWeapon(slot0, slot1)
+slot1.removeWeapon = function(slot0, slot1)
 	slot2 = nil
 
 	if slot0._detachID then

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"솔직하지 못한 마음\n\n<size=45>1. 너에게 기대가 커</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·항구",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·항구",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,13 +98,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "모항·지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "...에?",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "영원히 끝나지 않을 것 같은 서류더미에 파묻혀 있느라 근처로 다가온 넬슨을 알아차리지 못했다.",
 			typewriter = {
 				speed = 0.05,
@@ -205,9 +205,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "무언가 기분이 좋지 않은 것 같다... 일단 서류더미는 미뤄두고 먼저 넬슨의 보고를 듣는 것이 좋지 않을까...?",
 			typewriter = {
 				speed = 0.05,
@@ -251,9 +251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "저렇게 말하지만... 이 정도 양은 어떻게 봐도 저녁까지 할 수 있는 것이 아니다.",
 			typewriter = {
 				speed = 0.05,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "그럼, 저녁에 다시 올게.",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "넬슨은 쾅 소리를 내며 지휘실의 문을 닫고 사라졌다.",
 			typewriter = {
 				speed = 0.05,

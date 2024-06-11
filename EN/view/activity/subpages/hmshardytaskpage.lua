@@ -1,13 +1,13 @@
 slot0 = class("HMSHardyTaskPage", import(".TemplatePage.PassChaptersTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.notGetBtn = slot0:findTF("not_get_btn", slot0.bg)
 	slot0.goHuntBtn = slot0:findTF("gohunt_btn", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.goHuntBtn, function ()
 		uv0:emit(ActivityMediator.SELECT_ACTIVITY, pg.activity_const.HMS_Hunter_PT_ID.act_id)
@@ -26,7 +26,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = slot0.taskVO
 	slot1 = slot1:getConfig("award_display")[1]
 

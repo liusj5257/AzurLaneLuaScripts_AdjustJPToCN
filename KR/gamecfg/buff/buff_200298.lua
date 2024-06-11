@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX BOSS被反噬永久增加受到的伤害",
 	time = 0,
-	color = "yellow",
+	name = "2023英系活动 EX BOSS被反噬永久增加受到的伤害",
+	init_effect = "",
+	id = 200298,
 	picture = "",
 	desc = "",
 	stack = 50,
-	id = 200298,
+	color = "yellow",
 	icon = 200298,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.05
+				number = 0.05,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -8,15 +8,15 @@ return {
 			style = {
 				text = "TB育成で解放したスチルは「回想」でいつでも閲覧できます",
 				mode = 2,
-				posY = -369.3,
-				char = 1,
 				dir = -1,
+				char = 1,
+				posY = -369.3,
 				delay = 0.5,
 				posX = -517,
 				ui = {
+					pathIndex = -1,
 					lineMode = 2,
-					path = "OverlayCamera/Overlay/UIMain/EducateCollectEntranceUI(Clone)/anim_root/content/memory_btn",
-					pathIndex = -1
+					path = "OverlayCamera/Overlay/UIMain/EducateCollectEntranceUI(Clone)/anim_root/content/memory_btn"
 				}
 			}
 		},
@@ -26,14 +26,14 @@ return {
 			style = {
 				text = "TB育成で解放したストーリーは「思い出」で閲覧できます",
 				mode = 2,
-				posY = -349.6,
-				char = 1,
 				dir = 1,
+				char = 1,
+				posY = -349.6,
 				posX = 406,
 				ui = {
+					pathIndex = -1,
 					lineMode = 2,
-					path = "OverlayCamera/Overlay/UIMain/EducateCollectEntranceUI(Clone)/anim_root/content/review_btn",
-					pathIndex = -1
+					path = "OverlayCamera/Overlay/UIMain/EducateCollectEntranceUI(Clone)/anim_root/content/review_btn"
 				}
 			}
 		}

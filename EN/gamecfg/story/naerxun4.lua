@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Virtue of Being Earnest\n\n<size=45>4.We're Done Talking Here!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One beautiful, sunny day...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "One beautiful, sunny day...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "Oh my, Commander, to think I'd run into you here~",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "Hehe~ I see you remembered what Commander told you~",
 			typewriter = {
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "When I asked where the two of them were headed, they told me they were heading to the Eagle Union dorms to hold a meeting on an upcoming mission.",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "We were about to hash out the finer details of the mission. If you're not too busy, we'd greatly appreciate your input~",
 			typewriter = {
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Even though I had just come back from doing much the same, I couldn't really turn down an invitation to a meeting concerning a mission I personally was involved with.",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "Commander, you've really been working yourself to the bone recently, haven't you?",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "I'll be making some iced tea before the meeting starts. You should use that time to relax and rest up~",
 			typewriter = {
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "Ahem! It's decided! We're done talking here!",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Nelson picked up her pace after hurriedly cutting off the conversation.",
 			typewriter = {
 				speed = 0.05,

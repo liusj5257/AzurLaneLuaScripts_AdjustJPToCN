@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "마왕군의 무기고를 제압하고 템페스타 해적단과 작별한 후, 일행은 그 여세를 몰아 계속 전진한다.",
 			bgm = "story-mmorpg",
+			say = "마왕군의 무기고를 제압하고 템페스타 해적단과 작별한 후, 일행은 그 여세를 몰아 계속 전진한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "얼마 후, 마왕성에 이르는 마지막 장애물인 보급소에 도달했다.",
 			typewriter = {
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "마왕이 나타나기 전까지는 왕국에서 두 번째로 큰 도시였다는데…",
 			painting = {
@@ -97,9 +97,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "견습 프리스트",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -113,17 +113,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.25,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = false,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응응~ 유우를 타고 하늘을 나니까 기분 최고더라!",
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "위에서 보니까 경치가 아주 멋지던데!",
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아, 맞다! 지휘관, 중요한 걸 발견했어!",
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "보급소에 주둔하던 마물 대군이 도망치고 있더라고!",
@@ -276,27 +276,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "마왕 보급소, 영주의 방",
 			bgm = "story-oldcastle-carnival",
+			say = "마왕 보급소, 영주의 방",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "쿵————",
 			typewriter = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "대마족! 어딨어! 용사 푸슌이 쓰러뜨리러 왔다!",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어라, 지휘관… 아무도 없는데?",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그러고 보니 오는 도중에 방해하는 마물도 없었지. 여기 대마족도 도망친 건가…",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
-			bgName = "star_level_bg_156",
+			oldPhoto = true,
 			factiontag = "마녀 아이돌",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
@@ -459,17 +459,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -577,8 +577,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "마녀 아이돌",
 			dir = 1,
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "마녀 아이돌",
 			dir = 1,
@@ -675,8 +675,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "마녀 아이돌",
 			dir = 1,
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_156",
 			factiontag = "마녀 아이돌",
 			dir = 1,
@@ -735,9 +735,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "프리스트",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -751,17 +751,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "음… 꼼수에는 도가 튼 마족인 것 같네…",

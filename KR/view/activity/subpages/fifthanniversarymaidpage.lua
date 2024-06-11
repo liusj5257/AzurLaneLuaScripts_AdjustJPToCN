@@ -1,6 +1,6 @@
 slot0 = class("FifthAnniversaryMaidPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.countTF = slot0:findTF("count", slot0.bg)
 	slot0.item = slot0:findTF("item", slot0.bg)
@@ -8,13 +8,13 @@ function slot0.OnInit(slot0)
 	slot0.itemList = UIItemList.New(slot0.items, slot0.item)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskList = slot0.activity:getConfig("config_data")
 	slot0.totalCnt = #slot0.taskList
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.usedCnt = slot0.activity:getData1()
 	slot0.unlockCnt = pg.TimeMgr.GetInstance():DiffDay(slot0.activity:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1
 	slot0.unlockCnt = slot0.totalCnt < slot0.unlockCnt and slot0.totalCnt or slot0.unlockCnt
@@ -50,7 +50,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.taskList) do
@@ -88,7 +88,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.itemList:align(#slot0.taskList)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

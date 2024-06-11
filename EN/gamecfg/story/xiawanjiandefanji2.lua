@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401180,
 			nameColor = "#ff5c5c",
 			side = 0,
-			bgm = "level02",
 			dir = 1,
 			say = "Um... Z9 and Z11 have been following behind us. Z17 is here, and Z12 is over there... but Z19 is still missing.",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "If that's the case, then she has no idea we're retreating.",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "And we're almost out of ammunition. What a bother...",
 			typewriter = {
 				speed = 0.05,

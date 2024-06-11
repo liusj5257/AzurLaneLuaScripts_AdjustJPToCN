@@ -12,21 +12,21 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19687,
 	time = 1,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19687,
+	color = "red",
 	icon = 19687,
 	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
 			pop = {
+				displayID = 19684,
 				painting = 1,
 				castCV = "skill",
-				displayID = 19684,
 				trigger = {
 					"onAttach"
 				},
@@ -43,9 +43,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 19680,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 19680,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -61,9 +61,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 19684,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 19684,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -79,9 +79,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 19685,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 19685,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

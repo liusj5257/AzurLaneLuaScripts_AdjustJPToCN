@@ -6,11 +6,11 @@ slot4 = 3
 slot5 = 0.5
 slot6 = 11
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipMainScene"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return {
 		anim = true,
 		showType = PlayerResUI.TYPE_ALL,
@@ -18,7 +18,7 @@ function slot0.ResUISettings(slot0)
 	}
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot2 = getProxy(BayProxy)
 	slot3 = slot2:getShipById(slot0.contextData.shipId)
 
@@ -43,7 +43,7 @@ function slot0.preload(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	slot0:GetShareData():SetPlayer(slot1)
@@ -53,11 +53,11 @@ function slot0.setPlayer(slot0, slot1)
 	end
 end
 
-function slot0.setShipList(slot0, slot1)
+slot0.setShipList = function(slot0, slot1)
 	slot0.shipList = slot1
 end
 
-function slot0.setShip(slot0, slot1)
+slot0.setShip = function(slot0, slot1)
 	slot0:GetShareData():SetShipVO(slot1)
 
 	slot2 = false
@@ -86,13 +86,13 @@ function slot0.setShip(slot0, slot1)
 	slot0.shipEquipView:ActionInvoke("UpdateUI")
 end
 
-function slot0.equipmentChange(slot0)
+slot0.equipmentChange = function(slot0)
 	if slot0.shipDetailView then
 		slot0.shipDetailView:ActionInvoke("UpdateUI")
 	end
 end
 
-function slot0.setToggleEnable(slot0)
+slot0.setToggleEnable = function(slot0)
 	for slot4, slot5 in pairs(slot0.togglesList) do
 		setActive(slot5, slot0:checkToggleActive(slot4))
 	end
@@ -101,7 +101,7 @@ function slot0.setToggleEnable(slot0)
 	SetActive(slot0.metaToggle, slot0.shipVO:isMetaShip())
 end
 
-function slot0.checkToggleActive(slot0, slot1)
+slot0.checkToggleActive = function(slot0, slot1)
 	if slot1 == ShipViewConst.PAGE.DETAIL then
 		return true
 	elseif slot1 == ShipViewConst.PAGE.EQUIPMENT then
@@ -117,7 +117,7 @@ function slot0.checkToggleActive(slot0, slot1)
 			return false
 		else
 			slot3 = nil
-			slot3 = (PaintingConst.IsPaintingNeedCheck() or false) and PaintingConst.CalcPaintingListSize(PaintingConst.GetPaintingNameListByShipVO(slot0.shipVO)) > 0
+			slot3 = (PaintingGroupConst.IsPaintingNeedCheck() or false) and PaintingGroupConst.CalcPaintingListSize(PaintingGroupConst.GetPaintingNameListByShipVO(slot0.shipVO)) > 0
 
 			return not slot3
 		end
@@ -126,40 +126,40 @@ function slot0.checkToggleActive(slot0, slot1)
 	end
 end
 
-function slot0.setSkinList(slot0, slot1)
+slot0.setSkinList = function(slot0, slot1)
 	slot0.shipFashionView:ActionInvoke("SetSkinList", slot1)
 end
 
-function slot0.updateLock(slot0)
+slot0.updateLock = function(slot0)
 	slot0.shipDetailView:ActionInvoke("UpdateLock")
 end
 
-function slot0.updatePreferenceTag(slot0)
+slot0.updatePreferenceTag = function(slot0)
 	slot0.shipDetailView:ActionInvoke("UpdatePreferenceTag")
 end
 
-function slot0.updateFashionTag(slot0)
+slot0.updateFashionTag = function(slot0)
 	slot0.shipDetailView:ActionInvoke("UpdateFashionTag")
 end
 
-function slot0.closeRecordPanel(slot0)
+slot0.closeRecordPanel = function(slot0)
 	slot0.shipDetailView:ActionInvoke("CloseRecordPanel")
 end
 
-function slot0.updateRecordEquipments(slot0, slot1)
+slot0.updateRecordEquipments = function(slot0, slot1)
 	slot0.shipDetailView:UpdateRecordEquipments(slot1)
 	slot0.shipDetailView:UpdateRecordSpWeapons(slot1)
 end
 
-function slot0.setModPanel(slot0, slot1)
+slot0.setModPanel = function(slot0, slot1)
 	slot0.modPanel = slot1
 end
 
-function slot0.setMaxLevelHelpFlag(slot0, slot1)
+slot0.setMaxLevelHelpFlag = function(slot0, slot1)
 	slot0.maxLevelHelpFlag = slot1
 end
 
-function slot0.checkMaxLevelHelp(slot0)
+slot0.checkMaxLevelHelp = function(slot0)
 	if not slot0.maxLevelHelpFlag and slot0.shipVO and slot0.shipVO:isReachNextMaxLevel() then
 		slot0:openHelpPage()
 
@@ -169,7 +169,7 @@ function slot0.checkMaxLevelHelp(slot0)
 	end
 end
 
-function slot0.GetShareData(slot0)
+slot0.GetShareData = function(slot0)
 	if not slot0.shareData then
 		slot0.shareData = ShipViewShareData.New(slot0.contextData)
 
@@ -185,16 +185,16 @@ function slot0.GetShareData(slot0)
 	return slot0.shareData
 end
 
-function slot0.hasFashion(slot0)
+slot0.hasFashion = function(slot0)
 	return slot0.shareData:HasFashion()
 end
 
-function slot0.DisplayRenamePanel(slot0, slot1)
+slot0.DisplayRenamePanel = function(slot0, slot1)
 	slot0.shipChangeNameView:Load()
 	slot0.shipChangeNameView:ActionInvoke("DisplayRenamePanel", slot1)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initShip()
 	slot0:initPages()
 	slot0:initEvents()
@@ -204,7 +204,7 @@ function slot0.init(slot0)
 	Input.multiTouchEnabled = false
 end
 
-function slot0.initShip(slot0)
+slot0.initShip = function(slot0)
 	slot0.shipInfo = slot0:findTF("main/character")
 
 	setActive(slot0.shipInfo, true)
@@ -246,7 +246,7 @@ function slot0.initShip(slot0)
 	})
 end
 
-function slot0.initPages(slot0)
+slot0.initPages = function(slot0)
 	ShipViewConst.currentPage = nil
 	slot0.background = slot0:findTF("background")
 
@@ -344,7 +344,7 @@ function slot0.initPages(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.initEvents(slot0)
+slot0.initEvents = function(slot0)
 	slot0:bind(ShipViewConst.SWITCH_TO_PAGE, function (slot0, slot1)
 		uv0:gotoPage(slot1)
 	end)
@@ -389,7 +389,7 @@ function slot0.initEvents(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:addRingDragListenter()
 	onButton(slot0, slot0:findTF("top/back_btn", slot0.common), function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
@@ -411,7 +411,7 @@ function slot0.didEnter(slot0)
 
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.common)
 
-	function slot4()
+	slot4 = function()
 		uv0:openHelpPage(ShipViewConst.currentPage)
 	end
 
@@ -467,7 +467,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.openHelpPage(slot0, slot1)
+slot0.openHelpPage = function(slot0, slot1)
 	if slot1 == ShipViewConst.PAGE.EQUIPMENT then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -507,8 +507,8 @@ function slot0.openHelpPage(slot0, slot1)
 	end
 end
 
-function slot0.showAwakenCompleteAni(slot0, slot1)
-	function slot2()
+slot0.showAwakenCompleteAni = function(slot0, slot1)
+	slot2 = function()
 		uv0.awakenAni:SetActive(true)
 
 		uv0.awakenPlay = true
@@ -551,7 +551,7 @@ function slot0.showAwakenCompleteAni(slot0, slot1)
 	end
 end
 
-function slot0.updatePreference(slot0, slot1)
+slot0.updatePreference = function(slot0, slot1)
 	setScrollText(slot0.shipName:Find("nameRect/name_mask/Text"), slot0.shipVO:getName())
 	setText(slot0:findTF("english_name", slot0.shipName), slot1:getConfigTable().english_name)
 	setActive(slot0.nameEditFlag, slot1.propose and not slot1:IsXIdol())
@@ -583,7 +583,7 @@ function slot0.updatePreference(slot0, slot1)
 	setImageSprite(slot0:findTF("type", slot0.shipName), slot8, true)
 end
 
-function slot0.doUpgradeMaxLeveAnim(slot0, slot1, slot2, slot3)
+slot0.doUpgradeMaxLeveAnim = function(slot0, slot1, slot2, slot3)
 	slot0.inUpgradeAnim = true
 	slot4 = slot0.shipDetailView
 
@@ -596,7 +596,7 @@ function slot0.doUpgradeMaxLeveAnim(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.addRingDragListenter(slot0)
+slot0.addRingDragListenter = function(slot0)
 	slot1 = GetOrAddComponent(slot0._tf, "EventTriggerListener")
 	slot2 = nil
 	slot3 = 0
@@ -630,7 +630,7 @@ function slot0.addRingDragListenter(slot0)
 	end)
 end
 
-function slot0.showEnergyDesc(slot0)
+slot0.showEnergyDesc = function(slot0)
 	if slot0.energyTimer then
 		return
 	end
@@ -651,7 +651,7 @@ function slot0.showEnergyDesc(slot0)
 	slot0.energyTimer:Start()
 end
 
-function slot0.displayShipWord(slot0, slot1, slot2)
+slot0.displayShipWord = function(slot0, slot1, slot2)
 	if ShipViewConst.currentPage == ShipViewConst.PAGE.EQUIPMENT or ShipViewConst.currentPage == ShipViewConst.PAGE.UPGRADE then
 		rtf(slot0.chat).localScale = Vector3.New(0, 0, 1)
 
@@ -708,7 +708,7 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 
 		slot9 = uv0
 
-		function slot10()
+		slot10 = function()
 			if uv0.chatFlag then
 				if uv0.chatani1Id then
 					LeanTween.cancel(uv0.chatani1Id)
@@ -751,13 +751,13 @@ function slot0.displayShipWord(slot0, slot1, slot2)
 	end
 end
 
-function slot0.StopPreVoice(slot0)
+slot0.StopPreVoice = function(slot0)
 	if slot0.preVoiceContent ~= nil then
 		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0.preVoiceContent)
 	end
 end
 
-function slot0.startChatTimer(slot0)
+slot0.startChatTimer = function(slot0)
 	if slot0.chatFlag then
 		return
 	end
@@ -775,7 +775,7 @@ function slot0.startChatTimer(slot0)
 	slot0.chatTimer:Start()
 end
 
-function slot0.hideShipWord(slot0)
+slot0.hideShipWord = function(slot0)
 	if slot0.chatFlag then
 		if slot0.chatani1Id then
 			LeanTween.cancel(slot0.chatani1Id)
@@ -796,7 +796,7 @@ function slot0.hideShipWord(slot0)
 	slot0:StopPreVoice()
 end
 
-function slot0.gotoPage(slot0, slot1)
+slot0.gotoPage = function(slot0, slot1)
 	if slot1 == ShipViewConst.PAGE.FASHION then
 		slot0:checkPaintingRes(function ()
 			uv0:switchToPage(uv1)
@@ -806,8 +806,8 @@ function slot0.gotoPage(slot0, slot1)
 	end
 end
 
-function slot0.switchToPage(slot0, slot1, slot2)
-	function slot3(slot0, slot1)
+slot0.switchToPage = function(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1)
 		setActive(uv0.detailContainer, false)
 
 		if slot0 == ShipViewConst.PAGE.DETAIL then
@@ -892,7 +892,7 @@ function slot0.switchToPage(slot0, slot1, slot2)
 		setActive(uv0.helpBtn, slot2)
 	end
 
-	function switchHandler()
+	switchHandler = function()
 		if uv0 == ShipViewConst.currentPage and uv1 then
 			uv2(uv0, true)
 		elseif uv0 ~= ShipViewConst.currentPage then
@@ -920,7 +920,7 @@ function slot0.switchToPage(slot0, slot1, slot2)
 	end
 end
 
-function slot0.blurPage(slot0, slot1, slot2)
+slot0.blurPage = function(slot0, slot1, slot2)
 	slot3 = pg.UIMgr.GetInstance()
 
 	if slot1 == ShipViewConst.PAGE.DETAIL then
@@ -938,7 +938,7 @@ function slot0.blurPage(slot0, slot1, slot2)
 	end
 end
 
-function slot0.switchPainting(slot0)
+slot0.switchPainting = function(slot0)
 	setActive(slot0.shipInfo, not ShipViewConst.IsSubLayerPage(ShipViewConst.currentPage))
 	setActive(slot0.shipName, not ShipViewConst.IsSubLayerPage(ShipViewConst.currentPage))
 
@@ -963,7 +963,7 @@ function slot0.switchPainting(slot0)
 	end)):setEase(LeanTweenType.easeInOutSine)
 end
 
-function slot0.setPreOrNext(slot0, slot1, slot2)
+slot0.setPreOrNext = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0.isRight = true
 	else
@@ -981,7 +981,7 @@ function slot0.setPreOrNext(slot0, slot1, slot2)
 	end
 end
 
-function slot0.loadPainting(slot0, slot1, slot2)
+slot0.loadPainting = function(slot0, slot1, slot2)
 	slot1 = MainMeshImagePainting.StaticGetPaintingName(slot1)
 
 	if slot0.isLoading == true then
@@ -1053,7 +1053,7 @@ function slot0.loadPainting(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.getPaintingFromTable(slot0, slot1)
+slot0.getPaintingFromTable = function(slot0, slot1)
 	if slot0.tablePainting == nil then
 		print("self.tablePainting为空")
 
@@ -1071,7 +1071,7 @@ function slot0.getPaintingFromTable(slot0, slot1)
 	end
 end
 
-function slot0.loadSkinBg(slot0, slot1, slot2, slot3, slot4)
+slot0.loadSkinBg = function(slot0, slot1, slot2, slot3, slot4)
 	if not slot0.bgEffect then
 		slot0.bgEffect = {}
 	end
@@ -1187,11 +1187,11 @@ function slot0.loadSkinBg(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.getInitmacyWords(slot0)
+slot0.getInitmacyWords = function(slot0)
 	return "feeling" .. Mathf.Clamp(slot0.shipVO:getIntimacyLevel(), 1, 5)
 end
 
-function slot0.paintView(slot0)
+slot0.paintView = function(slot0)
 	if LeanTween.isTweening(slot0.chat.gameObject) then
 		LeanTween.cancel(slot0.chat.gameObject)
 
@@ -1290,7 +1290,7 @@ function slot0.paintView(slot0)
 		uv0:hidePaintView()
 	end, SFX_CANCEL)
 
-	function uv0.hidePaintView(slot0, slot1)
+	uv0.hidePaintView = function(slot0, slot1)
 		if not slot1 and not uv0 then
 			return
 		end
@@ -1345,7 +1345,7 @@ function slot0.paintView(slot0)
 	end))
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.inUpgradeAnim then
 		return
 	end
@@ -1388,7 +1388,7 @@ function slot0.onBackPressed(slot0)
 	triggerButton(slot0:findTF("top/back_btn", slot0.common))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	Input.multiTouchEnabled = true
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.chat, slot0.character)
@@ -1449,22 +1449,22 @@ function slot0.willExit(slot0)
 	slot0.shareData = nil
 end
 
-function slot0.RefreshShipExpItemUsagePage(slot0)
+slot0.RefreshShipExpItemUsagePage = function(slot0)
 	if slot0.expItemUsagePage and slot0.expItemUsagePage:GetLoaded() and slot0.expItemUsagePage:isShowing() then
 		slot0.expItemUsagePage:Flush(slot0.shipVO)
 	end
 end
 
-function slot0.OnWillLogout(slot0)
+slot0.OnWillLogout = function(slot0)
 	if slot0.inPaintingView then
 		slot0:hidePaintView(true)
 	end
 end
 
-function slot0.checkPaintingRes(slot0, slot1)
-	PaintingConst.PaintingDownload({
+slot0.checkPaintingRes = function(slot0, slot1)
+	PaintingGroupConst.PaintingDownload({
 		isShowBox = true,
-		paintingNameList = PaintingConst.GetPaintingNameListByShipVO(slot0.shipVO),
+		paintingNameList = PaintingGroupConst.GetPaintingNameListByShipVO(slot0.shipVO),
 		finishFunc = slot1
 	})
 end

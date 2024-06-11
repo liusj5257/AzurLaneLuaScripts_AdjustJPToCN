@@ -7,14 +7,14 @@ slot4 = class("BattleManualAAMissileUnit", slot0.Battle.BattleManualTorpedoUnit)
 slot0.Battle.BattleManualAAMissileUnit = slot4
 slot4.__name = "BattleManualAAMissileUnit"
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0._strikeMode = nil
 	slot0._strikeModeData = nil
 end
 
-function slot4.createMajorEmitter(slot0, slot1, slot2, slot3)
+slot4.createMajorEmitter = function(slot0, slot1, slot2, slot3)
 	slot6 = uv2.Battle[slot3 or uv0.EMITTER_NORMAL].New(function (slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4, uv2.INTERNAL)
 
@@ -55,15 +55,15 @@ function slot4.createMajorEmitter(slot0, slot1, slot2, slot3)
 	return slot6
 end
 
-function slot4.IsStrikeMode(slot0)
+slot4.IsStrikeMode = function(slot0)
 	return slot0._strikeMode
 end
 
-function slot4.IsAttacking(slot0)
+slot4.IsAttacking = function(slot0)
 	return slot0._currentState == uv0.STATE_ATTACK
 end
 
-function slot4.Update(slot0)
+slot4.Update = function(slot0)
 	slot0:UpdateReload()
 
 	if slot0:IsStrikeMode() then
@@ -71,7 +71,7 @@ function slot4.Update(slot0)
 	end
 end
 
-function slot4.EnterStrikeMode(slot0)
+slot4.EnterStrikeMode = function(slot0)
 	slot0._strikeMode = true
 	slot0._strikeModeData = {
 		fxName = slot0._preCastInfo.fx
@@ -80,7 +80,7 @@ function slot4.EnterStrikeMode(slot0)
 	slot0:MarkTarget()
 end
 
-function slot4.MarkTarget(slot0)
+slot4.MarkTarget = function(slot0)
 	slot0:updateMovementInfo()
 
 	if slot0._strikeModeData.aimingTarget == slot0:Tracking() then
@@ -110,7 +110,7 @@ function slot4.MarkTarget(slot0)
 	slot0._strikeModeData.aimingFX = slot5
 end
 
-function slot4.CancelStrikeMode(slot0)
+slot4.CancelStrikeMode = function(slot0)
 	if slot0._strikeModeData.aimingTarget and slot0._strikeModeData.aimingFX and uv0.Battle.BattleState.GetInstance():GetSceneMediator():GetCharacter(slot0._strikeModeData.aimingTarget:GetUniqueID()) then
 		slot2:RemoveFX(slot0._strikeModeData.aimingFX)
 	end
@@ -119,11 +119,11 @@ function slot4.CancelStrikeMode(slot0)
 	slot0._strikeModeData = nil
 end
 
-function slot4.Tracking(slot0)
+slot4.Tracking = function(slot0)
 	return uv0.TargetWeightiest(slot0, nil, slot0:GetFilteredList())[1]
 end
 
-function slot4.Fire(slot0)
+slot4.Fire = function(slot0)
 	slot0._strikeMode = nil
 
 	uv0.Battle.BattleWeaponUnit.Fire(slot0, slot0._strikeModeData.aimingTarget)
@@ -131,7 +131,7 @@ function slot4.Fire(slot0)
 	return true
 end
 
-function slot4.DoAttack(slot0, slot1, ...)
+slot4.DoAttack = function(slot0, slot1, ...)
 	if slot1 == nil or not slot1:IsAlive() or slot0:outOfFireRange(slot1) then
 		slot1 = nil
 
@@ -146,13 +146,13 @@ function slot4.DoAttack(slot0, slot1, ...)
 	uv0.Battle.BattleWeaponUnit.DoAttack(slot0, slot1, ...)
 end
 
-function slot4.Prepar(slot0)
+slot4.Prepar = function(slot0)
 	slot0._currentState = slot0.STATE_PRECAST
 
 	slot0:EnterStrikeMode()
 end
 
-function slot4.Cancel(slot0)
+slot4.Cancel = function(slot0)
 	slot0._currentState = slot0.STATE_READY
 
 	slot0:CancelStrikeMode()

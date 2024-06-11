@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN18-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN18-3",
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "battle-siren-centraltower",
 			actor = 405050,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			say = "All guns, straight ahead! Fire!",
 			painting = {
 				alpha = 0.3,
@@ -31,9 +31,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
+			side = 2,
 			say = "Again and again, the sound of cannon fire rang out across the vast ocean. The very surface of the water seemed to be evaporating from their fierce assault.",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "I've broken through its armor! A few more volleys should do it!",
 			painting = {
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "What was that?!",
 			painting = {
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "We're getting flanked?!",
 			painting = {
@@ -150,9 +150,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_bsmre_5",
 			actor = 9708010,
 			actorName = "{namecode:515}？",
 			say = "It's the unidentified enemy, Lord Bismarck! We're under attack!",
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -179,8 +179,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405030,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#A9F548FF",
 			say = "Bastard... How'd it get this close to us?!",
 			painting = {
@@ -196,8 +196,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "What even is that thing? I still can't tell from this distance–",
 			painting = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "Gneisenau! Watch out!!",
 			painting = {
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Geryon",
+			side = 2,
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
 			say = "Graaaar...",
@@ -245,9 +245,9 @@ return {
 		{
 			actor = 405050,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_bsmre_5",
 			say = "Urgh...! What's with this insane firepower?! How are we supposed to––",
 			painting = {
 				alpha = 0.3,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "No, this won't be our end! Everyone, get behind me!!",
 			painting = {
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Geryon",
+			side = 2,
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
 			say = "ROOOAAAR!",
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
+			side = 2,
 			say = "Bismarck mounted her rigging and flew forward, turning herself into the wall separating her friends from the enemy.",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
 			say = "Moments before impact, she saw her life flash before her eyes. Even Geryon let out a warning cry.",
 			typewriter = {
@@ -332,8 +332,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "We shall fight! Until the last light has faded!",
 			painting = {
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			stopbgm = true,
 			say = "Was it an explosion tearing through her body? A blunt force battering her around? Or a massive shockwave trying to turn her inside out? Even Bismarck herself could not tell.",
@@ -367,17 +367,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
 			say = "All she knew was that countless waves of pure malice were crashing into her, threatening to tear her asunder, forming crystalline black deposits on Geryon's wings.",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
 			say = "Beneath its unrelenting onslaught, even her massive rigging seemed like little more than a dingy rowboat trapped in a hurricane.",
 			typewriter = {
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
 			say = "Yet, she and her friends continued to cling on for dear life.",
 			typewriter = {
@@ -421,8 +421,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
 			say = "Though the boat was tossed around mercilessly by the storm and waves, it never capsized.",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
 			say = "As the shock from the initial attack wore off, the deposits on Geryon's wings faded away like dust in the wind.",
 			typewriter = {
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
 			say = "The storm died down, and the seas were calm once more.",
 			typewriter = {
@@ -453,13 +453,13 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_bsmre_5",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgmDelay = 2,
+			stopbgm = true,
 			bgm = "battle-siren-centraltower",
 			actor = 406030,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
+			bgName = "bg_bsmre_5",
 			say = "*pant*... *pant*... Phew...",
 			painting = {
 				alpha = 0.3,
@@ -470,17 +470,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,8 +491,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
 			say = "I thought we were all done for...",
 			painting = {
@@ -505,8 +505,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -518,8 +518,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 401990,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
 			say = "Is... Is it over? Please tell me it's over!",
 			painting = {
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -545,10 +545,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Arbiter, the Sirens, and that strange enemy are all just... gone.",
 			painting = {
 				alpha = 0.3,
@@ -563,10 +563,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We probably would be too, were it not for Geryon. Good boy.",
 			painting = {
 				alpha = 0.3,
@@ -578,8 +578,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Geryon",
+			side = 2,
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
 			say = "RAAAWR♪",
@@ -591,9 +591,9 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_bsmre_5",
 			say = "Holy crap... Not even an Arbiter's vessel could survive whatever that was...",
 			painting = {
 				alpha = 0.3,
@@ -607,9 +607,9 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_bsmre_5",
 			say = "But considering how dumb its tactics were, maybe that's to be expected.",
 			painting = {
 				alpha = 0.3,
@@ -639,11 +639,11 @@ return {
 			}
 		},
 		{
-			actor = 9708010,
 			nameColor = "#ffa500",
-			bgName = "bg_bsmre_5",
 			side = 2,
+			bgName = "bg_bsmre_5",
 			dir = 1,
+			actor = 9708010,
 			actorName = "U-556 META?",
 			say = "So, what now? Do we use the gate? The red sea will reach the tower if it expands again!",
 			painting = {
@@ -658,9 +658,9 @@ return {
 		{
 			actor = 405030,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_bsmre_5",
 			say = "I'd say so. It's not like there's anything else we can do, and it feels like the way forward.",
 			painting = {
 				alpha = 0.3,
@@ -674,9 +674,9 @@ return {
 		{
 			actor = 405050,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_bsmre_5",
 			say = "And go into the upside-down city, you mean?",
 			painting = {
 				alpha = 0.3,
@@ -691,8 +691,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "It's a risky gamble... Or so I'd say, but we truly don't have any other option.",
 			painting = {
@@ -708,8 +708,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "Let's go. Back to the tower, everyone.",
 			painting = {
@@ -722,11 +722,11 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
-			side = 2,
 			bgName = "bg_bsmre_5",
-			nameColor = "#ffa500",
+			side = 2,
 			dir = 1,
+			actor = 9704010,
+			nameColor = "#ffa500",
 			say = "(How did she block that attack? Not even one of the Ashes could...)",
 			painting = {
 				alpha = 0.3,
@@ -737,17 +737,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -758,8 +758,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "(No matter how advanced her Zwei rigging is, it cannot possibly be immune to corruption.)",
 			painting = {
@@ -775,8 +775,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "Bismarck, I must know... What is the Zwei rigging, exactly?",
 			painting = {
@@ -792,8 +792,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "I once fell because I used the Black Cube and tasted the powers of \"META.\" Zwei is the power that goes beyond my past limitations.",
 			painting = {
@@ -809,8 +809,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "It is the power that will lead Iron Blood forwards.",
 			painting = {

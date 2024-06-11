@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"경항공모함 류조 참전!\n\n<size=45>3. 전념! 그러나 그녀의 걸음은 멈추지 않으니</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 창고 작업장",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 창고 작업장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "의뢰 보수로 받은 자재를 점검하는 두 사람.",
 			typewriter = {
 				speed = 0.05,
@@ -91,10 +91,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "그렇군요. 네, 다음 거 보시죠.",
+			dir = 1,
+			actor = 306060,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "그렇군요. 이것도 부탁드릴게요.",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "음. 남은 건 두 개……이번에도 대성공이네요!",
 			typewriter = {
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#92fc63",
 			say = "네 그럼 잘 부탁드립……그건 비서함인 제가 할 일이잖습니까!",
 			typewriter = {
 				speed = 0.05,
@@ -207,8 +207,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -217,14 +217,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "이러쿵 저러쿵해도 순조롭게 업무를 마친 두 사람이었으나……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "준요, 미리 말해두겠습니다만 주군을 납치…한다던지 하는 짓은 하면 안 됩니다.",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "………………",
 			typewriter = {
@@ -329,10 +329,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 306060,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 306060,
+			nameColor = "#92fc63",
 			say = "(작은 목소리로)……주군과, 데이트라……",
 			typewriter = {
 				speed = 0.05,
@@ -346,10 +346,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 306060,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 306060,
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 대체 어떤 느낌일까……",
 			typewriter = {
 				speed = 0.05,

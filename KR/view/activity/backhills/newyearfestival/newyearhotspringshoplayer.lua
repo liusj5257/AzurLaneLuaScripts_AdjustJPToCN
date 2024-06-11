@@ -1,10 +1,10 @@
 slot0 = class("NewYearHotSpringShopLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewYearHotSpringShopUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.goodsContainer = slot0._tf:Find("Box/Container/Goods")
 	slot0.chat = slot0._tf:Find("Box/Bubble")
 	slot0.chatAnimator = GetComponent(slot0.chat, typeof(Animator))
@@ -26,11 +26,11 @@ function slot0.init(slot0)
 	slot0.contentText = slot0.msgbox:Find("window/msg_panel/content"):GetComponent("RichText")
 end
 
-function slot0.SetShop(slot0, slot1)
+slot0.SetShop = function(slot0, slot1)
 	slot0.shop = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf:Find("Top/Back"), function ()
 		uv0:closeView()
 	end, SOUND_BACK)
@@ -77,7 +77,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.ShowEnterMsg(slot0)
+slot0.ShowEnterMsg = function(slot0)
 	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING) or slot1:isEnd() then
 		slot0:DisplayChat({
 			"hotspring_shop_end"
@@ -102,12 +102,12 @@ function slot0.ShowEnterMsg(slot0)
 	})
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	setText(slot0._tf:Find("Top/Ticket/TicketText"), getProxy(PlayerProxy):getRawData()[id2res(slot0.shop:getResId())] or 0)
 	slot0:UpdateGoods()
 end
 
-function slot0.UpdateGoods(slot0)
+slot0.UpdateGoods = function(slot0)
 	slot1 = _.values(slot0.shop.goods)
 
 	table.sort(slot1, function (slot0, slot1)
@@ -139,7 +139,7 @@ function slot0.UpdateGoods(slot0)
 	end)
 end
 
-function slot0.CheckRes(slot0, slot1, slot2)
+slot0.CheckRes = function(slot0, slot1, slot2)
 	if not slot1:canPurchase() then
 		slot0:DisplayChat({
 			"hotspring_shop_exchanged"
@@ -162,7 +162,7 @@ function slot0.CheckRes(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.Purchase(slot0, slot1, slot2, slot3, slot4)
+slot0.Purchase = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ShowMsgbox({
 		content = i18n("hotspring_shop_exchange", slot1:getConfig("resource_num") * slot2, slot1:getConfig("num") * slot2, slot3),
 		onYes = function ()
@@ -173,7 +173,7 @@ function slot0.Purchase(slot0, slot1, slot2, slot3, slot4)
 	})
 end
 
-function slot0.OnClickCommodity(slot0, slot1, slot2)
+slot0.OnClickCommodity = function(slot0, slot1, slot2)
 	if not slot0:CheckRes(slot1, 1) then
 		return
 	end
@@ -184,18 +184,18 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 	}):getConfig("name"), slot2)
 end
 
-function slot0.OnPurchase(slot0, slot1, slot2)
+slot0.OnPurchase = function(slot0, slot1, slot2)
 	slot0:emit(NewYearHotSpringShopMediator.ON_ACT_SHOPPING, slot0.shop.activityId, 1, slot1.id, slot2)
 end
 
-function slot0.OnShoppingDone(slot0)
+slot0.OnShoppingDone = function(slot0)
 	slot0:DisplayChat({
 		"hotspring_shop_success1",
 		"hotspring_shop_success2"
 	})
 end
 
-function slot0.ShowMsgbox(slot0, slot1)
+slot0.ShowMsgbox = function(slot0, slot1)
 	setActive(slot0.msgbox, true)
 
 	slot0.contentText.text = slot1.content
@@ -207,7 +207,7 @@ function slot0.ShowMsgbox(slot0, slot1)
 	end, SFX_CONFIRM)
 end
 
-function slot0.DisplayChat(slot0, slot1)
+slot0.DisplayChat = function(slot0, slot1)
 	slot0:HideChat()
 	onNextTick(function ()
 		uv0.chatTween = LeanTween.delayedCall(go(uv0.chat), 10, System.Action(function ()
@@ -230,7 +230,7 @@ function slot0.DisplayChat(slot0, slot1)
 	end)
 end
 
-function slot0.HideChat(slot0)
+slot0.HideChat = function(slot0)
 	if slot0.chatTween then
 		slot0.chatAnimator:ResetTrigger("Pop")
 		slot0.chatAnimator:SetTrigger("Shrink")
@@ -241,7 +241,7 @@ function slot0.HideChat(slot0)
 	end
 end
 
-function slot0.LoadingOn(slot0)
+slot0.LoadingOn = function(slot0)
 	if slot0.animating then
 		return
 	end
@@ -251,7 +251,7 @@ function slot0.LoadingOn(slot0)
 	pg.UIMgr.GetInstance():LoadingOn(false)
 end
 
-function slot0.LoadingOff(slot0)
+slot0.LoadingOff = function(slot0)
 	if not slot0.animating then
 		return
 	end
@@ -261,7 +261,7 @@ function slot0.LoadingOff(slot0)
 	slot0.animating = false
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0:HideChat()
 	slot0.role:Dispose()

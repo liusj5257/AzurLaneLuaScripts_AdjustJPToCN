@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 107131,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 107131,
+	color = "blue",
 	icon = 107130,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteShorten",
-				number = 3
+				number = 3,
+				attr = "igniteShorten"
 			}
 		},
 		{

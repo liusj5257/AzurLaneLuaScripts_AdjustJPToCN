@@ -22,14 +22,14 @@ slot1 = {
 	}
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tplContent = slot1
 	slot0._event = slot2
 	slot0.remindPool = {}
 	slot0.reminds = {}
 end
 
-function slot0.setContent(slot0, slot1)
+slot0.setContent = function(slot0, slot1)
 	if not slot1 then
 		print("地板的容器不能为nil")
 
@@ -39,13 +39,13 @@ function slot0.setContent(slot0, slot1)
 	slot0._content = slot1
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	for slot4 = #slot0.reminds, 1, -1 do
 		slot0:returnRemind(table.remove(slot0.reminds, slot4))
 	end
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	for slot4 = #slot0.reminds, 1, -1 do
 		if slot0.reminds[slot4].removeTime and slot5.removeTime > 0 then
 			slot5.removeTime = slot5.removeTime - CastleGameVo.deltaTime
@@ -59,7 +59,7 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.addRemind(slot0, slot1, slot2, slot3)
+slot0.addRemind = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getRemindByType(slot3)
 	slot4.removeTime = CastleGameVo.item_ready_time
 
@@ -71,7 +71,7 @@ function slot0.addRemind(slot0, slot1, slot2, slot3)
 	table.insert(slot0.reminds, slot4)
 end
 
-function slot0.getRemindByType(slot0, slot1)
+slot0.getRemindByType = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6 = 1, #slot0.remindPool do
@@ -97,7 +97,7 @@ function slot0.getRemindByType(slot0, slot1)
 	end
 end
 
-function slot0.returnRemind(slot0, slot1)
+slot0.returnRemind = function(slot0, slot1)
 	setActive(slot1.tf, false)
 
 	slot1.removeTime = nil
@@ -105,7 +105,7 @@ function slot0.returnRemind(slot0, slot1)
 	table.insert(slot0.remindPool, slot1)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
 return slot0

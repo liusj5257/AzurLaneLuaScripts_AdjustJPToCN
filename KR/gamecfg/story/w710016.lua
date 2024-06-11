@@ -1,12 +1,12 @@
 return {
-	id = "W710016",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710016",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "记忆一片混乱",
 			typewriter = {
 				speed = 0.05,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "是否放入黑方舟的记忆体尝试修复？",
 			typewriter = {
 				speed = 0.05,

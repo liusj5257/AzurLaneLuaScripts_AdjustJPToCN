@@ -4,11 +4,11 @@ slot0.Battle.BattleTriggerBulletFactory = singletonClass("BattleTriggerBulletFac
 slot0.Battle.BattleTriggerBulletFactory.__name = "BattleTriggerBulletFactory"
 slot1 = slot0.Battle.BattleTriggerBulletFactory
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.OutRangeFunc(slot0)
+slot1.OutRangeFunc = function(slot0)
 	slot1 = slot0:GetTemplate()
 	slot2 = slot1.hit_type
 	slot3 = slot1.extra_param.multy or 1
@@ -46,8 +46,8 @@ function slot1.OutRangeFunc(slot0)
 	slot4:RemoveBulletUnit(slot0:GetUniqueID())
 end
 
-function slot1.onBulletHitFunc(slot0, slot1, slot2)
+slot1.onBulletHitFunc = function(slot0, slot1, slot2)
 end
 
-function slot1.CreateBulletAlert(slot0)
+slot1.CreateBulletAlert = function(slot0)
 end

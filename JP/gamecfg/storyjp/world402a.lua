@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD402A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD402A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307020,
-			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "ダカールが見えてきたな。予定通りヴィシアが艦隊を外してくれている",
 			bgm = "bsm-7",
+			actor = 307020,
+			nameColor = "#a9f548",
+			say = "ダカールが見えてきたな。予定通りヴィシアが艦隊を外してくれている",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,14 +68,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_port_dakaer",
 			actor = 401020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ダカールへようこそお越しくださいました。駆逐艦のゲオルク・ティーレです。こちらでお待ちしておりました",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "あんた一人なのか？",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "本題に入りましょう。どうぞこちらへ",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -184,15 +184,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "鉄血の実験…科学者の血が騒ぐ…ワクワク",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "（重桜のため尽力するといたしましょう）",
 			typewriter = {
 				speed = 0.05,

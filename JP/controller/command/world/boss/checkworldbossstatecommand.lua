@@ -1,13 +1,13 @@
 slot0 = class("CheckWorldBossStateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.bossId
 	slot4 = slot2.callback
 	slot5 = tonumber(slot2.time or 0)
 	slot6 = slot2.failedCallback
 
-	function slot7()
+	slot7 = function()
 		slot5 = uv1
 
 		for slot5, slot6 in ipairs(getProxy(ChatProxy):GetMessagesByUniqueId(uv0 .. "_" .. slot5)) do

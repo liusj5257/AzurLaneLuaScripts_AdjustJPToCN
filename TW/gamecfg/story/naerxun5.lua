@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"無法坦率的心意\n\n<size=45>五  給我點反應啊！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·白鷹生活區",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·白鷹生活區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 105100,
 			dir = 1,
+			actor = 105100,
 			nameColor = "#a9f548",
 			say = "當然沒問題！天氣這麼熱，會議還沒開始就感覺口渴得不行了！",
 			typewriter = {
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "靠著羅德尼的冰紅茶稍稍平復了燥熱與口渴後，演習前的作戰會議正式開始了。",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 105110,
 			dir = 1,
+			actor = 105110,
 			nameColor = "#a9f548",
 			say = "還真是開門見山啊…不過，這種積極討論的態度，我並不討厭。",
 			typewriter = {
@@ -194,13 +194,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "BIG SEVEN的討論一開始就十分熱烈，彷彿讓室溫都升高了幾度。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,9 +225,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "羅德尼會前準備的冰紅茶真是幫大忙了…",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "不算泛用性特別高的戰術。但強大的戰列艦編隊在特定場合下，也確實可以作為突破局面的方案…",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "既然是作戰方案，就需要一個名字。",
 			typewriter = {
 				speed = 0.05,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "納爾遜突然伸出手指——",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,
@@ -407,11 +407,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "哎……？喂、喂！大家給我點反應啊！難得我親自給作戰命名一次呢！",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "像五根手指一樣分別突出撕裂敵人的戰術，是不是叫“納爾遜之爪”會更加貼切呢……",
 			typewriter = {
 				speed = 0.05,

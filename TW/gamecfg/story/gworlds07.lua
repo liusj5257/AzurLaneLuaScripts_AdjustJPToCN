@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDS07",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDS07",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "大型作戰已經重置！請重新派遣艦隊前往海域中進行新一輪作戰行動！",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("CourtYardFurnitureFactory")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.poolMgr = slot1
 	slot0.caches = {}
 	slot0.jobs = {}
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	end))
 end
 
-function slot0.Make(slot0, slot1)
+slot0.Make = function(slot0, slot1)
 	slot2 = slot0.poolMgr:GetFurniturePool():Dequeue()
 	slot3 = nil
 
@@ -26,7 +26,7 @@ function slot0.Make(slot0, slot1)
 	return slot3
 end
 
-function slot0.GetIdleJob(slot0)
+slot0.GetIdleJob = function(slot0)
 	for slot4, slot5 in ipairs(slot0.jobs) do
 		if not slot5:IsWorking() then
 			return slot5
@@ -34,7 +34,7 @@ function slot0.GetIdleJob(slot0)
 	end
 end
 
-function slot0.OnJobFinish(slot0)
+slot0.OnJobFinish = function(slot0)
 	table.remove(slot0.caches, 1)
 
 	if #slot0.caches > 0 then
@@ -48,7 +48,7 @@ function slot0.OnJobFinish(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.caches = nil
 
 	for slot4, slot5 in pairs(slot0.jobs) do

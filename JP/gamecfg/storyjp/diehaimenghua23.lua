@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA23",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			bgm = "xinnong-3",
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（この「世界」もまた、妾の知っている「世界」のいずれとも異なる…）",
-			bgm = "xinnong-3",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（フネとして生まれ、そして戦いで沈む）",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（艦船は「メンタルキューブ」から生まれる存在… されどセイレーンの影に怯えぬ「世界」でも、艦船たちは生活している…）",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（メンタルキューブ、セイレーンとの戦いの折に発見され、セイレーンとの関わりを疑う者もいるが…）",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（もしや、その関わり、最初から偽りだと申すか……）",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……そう思ふのは、早計かもしれない…ここは「夢」、いわば、セイレーンが操る「世界」の一部やもしれぬ…）",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……セイレーンが己の存在を敢えて隠した、という推理も……んっ……）",
 			typewriter = {
@@ -152,15 +152,15 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "雪風様の帰還なのだ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -185,8 +185,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "あーはっはっは、大人の雪風様はいつも元気なのだ！あんたたちのようにそう簡単に眠くならないのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "そうなのか？雪風様が偵察したときはいなかったのだぞ？",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -423,12 +423,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_xinnong2_2",
-			soundeffect = "event:/ui/fengling",
-			dir = 1,
 			say = "――これは罠だ。",
+			dir = 1,
+			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,9 +455,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
+			dir = 1,
 			say = "――回航計画はすでに解読されている。すべては敵の手中にある。",
 			typewriter = {
 				speed = 0.05,
@@ -469,14 +469,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
+			bgm = "xinnong-3",
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			soundeffect = "event:/ui/fengling",
 			dir = 1,
+			soundeffect = "event:/ui/fengling",
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「磯風、控えよ……」",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,11 +487,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "信濃さん？",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -513,12 +513,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
+			nameColor = "#a9f548",
 			say = "「狼の群れに遭遇しないよう…早よう…回避を……」",
 			typewriter = {
 				speed = 0.05,

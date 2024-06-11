@@ -1,6 +1,6 @@
 slot0 = class("RectOriginsCom")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.skinWidth = 0.01
 	slot0.dstBetweenRays = 0.3
 	slot0.horizontalRayCount = 0
@@ -16,7 +16,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.initFlag = false
 end
 
-function slot0.calculateRaySpacing(slot0)
+slot0.calculateRaySpacing = function(slot0)
 	slot1 = slot0._collider.bounds
 
 	slot1:Expand(slot0.skinWidth * -2)
@@ -32,7 +32,7 @@ function slot0.calculateRaySpacing(slot0)
 	slot0.verticalRaySpacing = slot1.size.x / (slot0.verticalRayCount - 1)
 end
 
-function slot0.updateRaycastOrigins(slot0)
+slot0.updateRaycastOrigins = function(slot0)
 	if not slot0.initFlag then
 		slot0.initFlag = true
 
@@ -60,7 +60,7 @@ function slot0.updateRaycastOrigins(slot0)
 	slot0.center.z = slot1.center.z
 end
 
-function slot0.createDebugImg(slot0, slot1, slot2)
+slot0.createDebugImg = function(slot0, slot1, slot2)
 	slot3 = slot0._collider.bounds
 
 	slot3:Expand(slot0.skinWidth * -2)

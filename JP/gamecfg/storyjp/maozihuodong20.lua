@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-3",
 			say = "セイレーン要塞周辺・ユニオン艦隊",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "ん？さっきからセイレーン艦隊の勢いが弱まってるわね",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "大変だ！それ、指揮官を追うために兵力を向かわせてるなら……",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900186,
 			dir = 1,
+			actor = 900186,
 			say = "あまり想像できないけどね……鏡面海域になったせいで、アヴローラさんたちとの通信も回復していないし…",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900188,
 			dir = 1,
+			actor = 900188,
 			say = "となると、セイレーン要塞に向かう？",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "そうね。そのほうが手っ取り早いわね。指揮官の追手を引き付けられるし",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "それしか手がないわね…早く行こう！",
 			typewriter = {
 				speed = 0.05,

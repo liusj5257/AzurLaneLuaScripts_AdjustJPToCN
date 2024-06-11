@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "玉米灯笼",
 	init_effect = "",
-	color = "red",
+	id = 6511,
+	time = 0,
 	picture = "",
 	desc = "受到伤害下降",
 	stack = 1,
-	id = 6511,
+	color = "red",
 	icon = 6511,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.04
+				number = -0.04,
+				attr = "injureRatio"
 			}
 		}
 	}

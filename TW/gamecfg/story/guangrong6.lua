@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"榮光的間奏曲\n\n<size=45>六 於她而言的榮光·上</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈……總算告一段落了……",
 			bgm = "story-1",
+			actor = 207060,
+			nameColor = "#a9f548",
+			say = "哈……總算告一段落了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "大約完成一半進度以後，光榮疲憊地靠在巨大的艤裝上。",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "其實本來我連熱心和阿卡司塔也不想讓她們來，怎麼說她們都不聽……",
 			typewriter = {
 				speed = 0.05,
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "光榮極力地在逞強。既然這樣——",
 			typewriter = {
 				speed = 0.05,
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "就算是指揮官的命令……我也……！",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 剧情战2 敌方定时触发",
 	time = 3,
-	color = "yellow",
+	name = "2023英系活动 剧情战2 敌方定时触发",
+	init_effect = "",
+	id = 200354,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200354,
+	color = "yellow",
 	icon = 200354,
 	last_effect = "",
 	effect_list = {

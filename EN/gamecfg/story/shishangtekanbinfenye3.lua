@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANBINFENYE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANBINFENYE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Resplendent Night\n\n<size=45>3 A Back-Alley Encounter</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "The alleys behind the restaurant are, in a word, labyrinthine. I take a single wrong turn by accident, and I end up unable to find my way back.",
 			bgm = "bar-soft",
+			say = "The alleys behind the restaurant are, in a word, labyrinthine. I take a single wrong turn by accident, and I end up unable to find my way back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "Just before I give up and accept that I'm lost, though, I hear a voice from the room next to me.",
@@ -40,10 +40,10 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = "main1",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main1",
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Commander? What are you doing here?",
@@ -52,17 +52,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
 			withoutActorName = true,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I turn to look. There, I see Cleveland in the restaurant uniform with a jacket sloppily thrown on top.",
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
 			withoutActorName = true,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The room is illuminated by colorful lightning. The TV at her feet displays the word \"PAUSED\" in big letters.",
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
 			withoutActorName = true,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I look again at Cleveland, who's holding a controller in her hands. It finally makes sense: she's slacking off and playing video games instead of working.",
@@ -118,10 +118,10 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = "main3",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main3",
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ah... Heheh, Commander, are you... lost?",
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "The corridors here are pretty complex. Don't blame yourself for getting lost.",
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Hm? What about my outfit?",
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "I figure you can tell at a glance, no? Heheh, I promised to help out in the restaurant today.",
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Now, welcome to my little secret base~",
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "\"As a special service, would you like me to introduce you to our special drink menu?♪\"",
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "\"You don't want a drink? Okay... What kind of 'service' would you like, then?♡\"",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Heheh, what do you think? Did I get the vibe just right?",
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "A girly vibe, of course!",
@@ -331,14 +331,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
 			optionFlag = 2,
 			actor = 102097,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "Huh? Was that not good enough?!",
 			painting = {
 				alpha = 0.3,
@@ -350,14 +350,14 @@ return {
 			}
 		},
 		{
-			live2d = "touch",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
 			optionFlag = 3,
 			actor = 102097,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "touch",
 			say = "Aaaah! Stop calling me that!",
 			painting = {
 				alpha = 0.3,
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Geez. If this isn't girly, then what is?",
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "...Even if it's not quite right, you think it's good enough?",
@@ -405,11 +405,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "Ahahaha... Not sure how I feel about that appraisal...",
@@ -423,11 +423,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "*sigh*... Well, whatever!",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Anyway, this is my secret base. I came to take a break before the restaurant opened.",
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "It's been busy, but I figured I might as well make time for some light gaming.",
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Are you free right now? If you want, we could game together.",
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "If you're lost... Beat me, and I'll show you the way back to the restaurant!",
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "Heheh. If you lose...",
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "You'll have a hard time making it to the restaurant~",
@@ -561,11 +561,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "Now, bring it on!",

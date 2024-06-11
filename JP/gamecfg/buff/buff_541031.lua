@@ -1,12 +1,12 @@
 return {
-	time = 0.1,
-	name = "弹仓整备",
 	init_effect = "",
+	name = "弹仓整备",
+	time = 0.1,
+	picture = "",
+	desc = "弹仓整备",
 	stack = 1,
 	id = 541031,
-	picture = "",
 	last_effect = "",
-	desc = "弹仓整备",
 	effect_list = {
 		{
 			type = "BattleCardPuzzleFleetBuffAddFleetAttr",
@@ -14,8 +14,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "CardEnergy",
-				number = 1
+				number = 1,
+				attr = "CardEnergy"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIRICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIRICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"바다에 울려퍼지는 아이돌 노래-스테이지 편\n\n<size=45>1. 아이돌에 관하여</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·길가",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·길가",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,11 +53,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "후후, 가끔 이렇게 여유롭게 산책하는 것도 괜찮네요~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,13 +68,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "맞아요. 여긴 우리의 세계와 완전히 달라서 풍경을 아무리 봐도 질리지 않아요. 그런데, 오늘 여기 사람이 되게 많네요?",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "맞아요. 여긴 우리의 세계와 완전히 달라서 풍경을 아무리 봐도 질리지 않아요. 그런데, 오늘 여기 사람이 되게 많네요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,11 +88,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "어머, 그러고 보니, 확실히…… 무슨 행사라도 있는 걸까요?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,11 +106,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "잘 모르겠어요… 다들 정원 중앙으로 가는 것 같네요……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "아, 아즈사 씨, 치하야 씨! 뭐하고 계세요?",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,13 +147,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "안녕하세요, 재블린 씨, 우린 그냥 산책 중이에요. 하나 물어볼게요, 정원 중앙 쪽에 무슨 행사가 있는 건가요? 다들 저쪽으로 가는 것 같던데.",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "안녕하세요, 재블린 씨, 우린 그냥 산책 중이에요. 하나 물어볼게요, 정원 중앙 쪽에 무슨 행사가 있는 건가요? 다들 저쪽으로 가는 것 같던데.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,11 +183,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "혹시, 함선들의 공연 같은 건가요?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,11 +217,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "원래는 이곳에도 아이돌이 있고 콘서트도 열리는 군요.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,13 +232,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_103",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700040,
-			side = 2,
-			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아, 저희도 참관하게 해주세요~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "그럼 제가 데려다 줄게요! 거의 시작하려 하니까 서둘러야 해요!",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -274,16 +274,16 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
-			side = 2,
 			bgName = "star_level_bg_113",
-			say = "모항·특별 공연 현장",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idol-WISHNESS-inst",
+			stopbgm = true,
+			say = "모항·특별 공연 현장",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -308,11 +308,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "다행이다~ 늦지도 않았고 자리까지 있네요!",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -334,13 +334,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "사람 정말 많네요…… 분명히 엄청 유명한 사람이겠죠?",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "사람 정말 많네요…… 분명히 엄청 유명한 사람이겠죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,11 +354,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "어엇, 무대에 누가 올라왔어요……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,15 +369,15 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "예~! 모두들~ 오늘 이곳을 찾아와주셔서 고마워~~!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "가장 뜨거운 무대를 보여줄테니까! 끝까지 잘 들어야 해!",
 			effects = {
 				{
@@ -453,8 +453,8 @@ return {
 			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "좋아~~ Let's music! 같이 달려 보자~!",
 			dialogShake = {
 				speed = 0.08,
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_113",
-			actorName = "새러토가",
 			dir = 1,
+			actorName = "새러토가",
 			say = "「이어서 다음은 새러토가——! 뭐? 안 보인다고? 흐흥~ 내가 과연 어디 있을지 맞혀보라고~」",
 			effects = {
 				{
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "새러토가",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "새러토가",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -531,11 +531,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "짜잔! 관중석이야!",
 			effects = {
 				{
@@ -553,8 +553,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -566,8 +566,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "새러토가가 준비한 서프라이즈~! 놀랐지~?",
 			effects = {
@@ -618,11 +618,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "이런 행사를, 나 은하계 제일 슈퍼 미소녀 벤슨이 전혀 모르고 있었다니!!",
 			typewriter = {
 				speed = 0.05,
@@ -634,8 +634,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -644,11 +644,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "그렇다면~ 나도 참가할래! 토끼별 미소녀 아이돌·벤슨, 깜짝 등장!!",
 			effects = {
 				{
@@ -668,15 +668,15 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_113",
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
+			bgName = "star_level_bg_113",
+			hidePaintEquip = true,
 			nameColor = "#a9f548",
 			say = "이건……",
-			hidePaintEquip = true,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -710,11 +710,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "우와……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,11 +744,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "이런 공연은 정말 처음 봐요… 아이돌과 관중 모두 같이 즐거워하는 것 같아요.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,13 +759,13 @@ return {
 			}
 		},
 		{
-			actor = 10700040,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "하하, 저까지도 무대로 올라가고 싶네요~",
 			hidePaintEquip = true,
+			actor = 10700040,
+			nameColor = "#a9f548",
+			say = "하하, 저까지도 무대로 올라가고 싶네요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,11 +811,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,6 +1,6 @@
 slot0 = class("VoteFunRaceShipsPageForRank", import("..FinalsRece.VoteFinalsRaceShipsPageForRank"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	if slot0.contextData.voteGroup:IsFunMetaRace() then
 		return "FinalsRaceShipsRankForMeta"
 	elseif slot1:IsFunSireRace() then

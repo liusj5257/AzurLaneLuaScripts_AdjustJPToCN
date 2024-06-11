@@ -1,12 +1,12 @@
 return {
-	time = 5,
-	name = "2023古立特联动复刻 TSS4 公主 二阶段随机弹幕",
 	init_effect = "",
+	name = "2023古立特联动复刻 TSS4 公主 二阶段随机弹幕",
+	time = 5,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200510,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkillRandom",

@@ -1,12 +1,12 @@
 return {
-	id = "W1500",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1500",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "戰鬥勝利，全體艦隊的士氣恢復了。",
 			typewriter = {
 				speed = 0.05,

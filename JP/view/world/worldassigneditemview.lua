@@ -1,10 +1,10 @@
 slot0 = class("WorldAssignedItemView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "StoreHouseItemAssignedView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("operate")
 	slot0.ulist = UIItemList.New(slot1:Find("got/bottom/list"), slot1:Find("got/bottom/list/tpl"))
@@ -33,6 +33,8 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 	pressPersistTrigger(slot0.rightArr, 0.5, function (slot0)
 		if not uv0.itemVO then
+			slot0()
+
 			return
 		end
 
@@ -42,6 +44,8 @@ function slot0.OnInit(slot0)
 	end, nil, true, true, 0.1, SFX_PANEL)
 	pressPersistTrigger(slot0.leftArr, 0.5, function (slot0)
 		if not uv0.itemVO then
+			slot0()
+
 			return
 		end
 
@@ -68,17 +72,17 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	setActive(slot0._tf, false)
 end
 
-function slot0.updateValue(slot0)
+slot0.updateValue = function(slot0)
 	setText(slot0.valueText, slot0.count)
 
 	slot1 = slot0.ulist
@@ -92,7 +96,7 @@ function slot0.updateValue(slot0)
 	end)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.count = 1
 	slot0.selectedIndex = nil
 	slot0.selectedItem = nil

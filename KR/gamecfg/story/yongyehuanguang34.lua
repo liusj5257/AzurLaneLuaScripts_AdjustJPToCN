@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG34",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG34",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "폭격과 뇌격, 교란 공격. 스캐빈저의 전투 전략은 보고서의 기록과 거의 일치했다. 다만....",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "엄청 놀라운 위력이에요…. 이 빛무리…농담이 아니었어요!",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "찰과상이고 보조 포탑이 몇 개 없어진 것 뿐이야.이카로스, 에든버러! 즉시 양산형 함대를 이끌고 뒤로 물러나. 이 위력은 찰과상일지라도 너희들은 힘들어.",
 			typewriter = {
 				speed = 0.05,
@@ -84,12 +84,12 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			say = "네\n 네！",
 			hideOther = true,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			aactorName = "에든버러&이카로스",
-			say = "네\n 네！",
 			subActors = {
 				{
 					actor = 202110,
@@ -111,8 +111,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "그리고 바로…최대한 빨리 저것을 대응할 작전을 생각해내봐…",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = " 장거리를 포기라…잠깐. 너…몸싸움을 말하는거야?!",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "이런 때에 나서는 것은 바로 지휘 함대의 사람으로서 당연히 지켜야할 의무잖아?",
 			typewriter = {
 				speed = 0.05,

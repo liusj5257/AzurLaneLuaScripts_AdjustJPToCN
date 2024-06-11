@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA30",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "原來如此…妾身開始理解這個夢境了。",
 			bgm = "bsm-2",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "原來如此…妾身開始理解這個夢境了。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "沒有敵人和戰爭，各大陣營其樂融融，此處港區宛如理想之地一般。",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "如此的話，也許能在這裡……",
 			typewriter = {
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "真的…找到了………",
+			bgName = "bg_xinnong2_7",
 			bgm = "main-newyear",
+			actorName = "{namecode:182}",
+			say = "真的…找到了………",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_7",
+			dir = 1,
 			say = "一片櫻色的花瓣在眼前緩緩落下，向著風吹來的方向望去，絢爛的櫻花樹下停留著一個蒼紅色的身影。",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:161}",
 			dir = 1,
+			actorName = "{namecode:161}",
 			say = "那還真是過獎了，咳咳……",
 			dialogShake = {
 				speed = 0.09,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "天城，汝沒事吧！",
 			dialogShake = {
 				speed = 0.09,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "那些不是夢…！汝才是…這裡才是…存在於妾身的腦海之中，頃刻之間就會消散的夢境……",
 			dialogShake = {
 				speed = 0.09,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "…哎？！",
 			dialogShake = {
 				speed = 0.09,
@@ -503,12 +503,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "好啦~時間也差不多了，出發出發~",
 			typewriter = {
 				speed = 0.05,

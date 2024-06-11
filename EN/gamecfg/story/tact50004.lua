@@ -20,8 +20,8 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			nameColor = "#a9f548",
 			say = "Um, when Australia came here, perhaps there was an error in delegating the next in command?",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			actorName = "Quincy & Vincennes",
 			side = 0,
-			hideOther = true,
+			actor = 103090,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Roger that!",
 			subActors = {

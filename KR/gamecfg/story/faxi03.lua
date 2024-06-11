@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI03",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI03",
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 904010,
 			actorShadow = true,
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "왔구나… 로열 네이비 여러분.",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 		{
 			actor = 904010,
 			side = 1,
-			dir = 1,
 			say = "…외람된 말씀이오나, 호교기사단은 타국의 지도를 받을 의향은 없습니다.",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -280,8 +280,8 @@ return {
 		{
 			actor = 204030,
 			side = 0,
-			dir = -1,
 			say = "그렇다면, 그 증거로 무장을 해제해주시지 않겠어요?",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

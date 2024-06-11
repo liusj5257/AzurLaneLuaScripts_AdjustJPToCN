@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEIJIAO09",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEIJIAO09",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -118,13 +118,13 @@ return {
 		{
 			actor = 202030,
 			side = 2,
+			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "In reality, Cumberland was the only one behind us. I lied about Ark Royal and Renown, you see. Ahahah...",
 			flashout = {
-				dur = 1.2,
 				black = true,
+				dur = 1.2,
 				alpha = {
 					0,
 					1

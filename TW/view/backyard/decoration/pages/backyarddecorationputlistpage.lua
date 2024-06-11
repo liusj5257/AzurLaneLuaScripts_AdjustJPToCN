@@ -1,11 +1,11 @@
 slot0 = class("BackYardDecorationPutlistPage", import(".BackYardDecorationBasePage"))
 slot0.SELECTED_FURNITRUE = "BackYardDecorationPutlistPage:SELECTED_FURNITRUE"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardPutListPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0:bind(BackYardDecrationLayer.INNER_SELECTED_FURNITRUE, function (slot0, slot1)
 		uv0:Selected(slot1)
 	end)
@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/title/Text"), i18n("courtyard_label_putlist_title"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
@@ -28,7 +28,7 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	function slot1()
+	slot1 = function()
 		if uv0.timer then
 			uv0.timer:Stop()
 
@@ -36,13 +36,13 @@ function slot0.OnInit(slot0)
 		end
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		uv0.timer = Timer.New(slot0, 0.8, 1)
 
 		uv0.timer:Start()
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		slot1 = uv0.change2ScrPos(uv1.scrollRectTF:Find("content"), slot0.position)
 		slot2 = nil
 
@@ -104,7 +104,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.ClearMark(slot0)
+slot0.ClearMark = function(slot0)
 	slot0.selectedId = nil
 
 	for slot4, slot5 in pairs(slot0.cards) do
@@ -112,7 +112,7 @@ function slot0.ClearMark(slot0)
 	end
 end
 
-function slot0.Selected(slot0, slot1)
+slot0.Selected = function(slot0, slot1)
 	slot0:ClearMark()
 
 	for slot5, slot6 in pairs(slot0.cards) do
@@ -126,15 +126,15 @@ function slot0.Selected(slot0, slot1)
 	slot0.selectedId = slot1
 end
 
-function slot0.change2ScrPos(slot0, slot1)
+slot0.change2ScrPos = function(slot0, slot1)
 	return LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, GameObject.Find("UICamera"):GetComponent("Camera"))
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot0.cards[slot1] = BackYardDecorationPutCard.New(slot1)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -144,7 +144,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot0.displays[slot1 + 1], slot0.selectedId)
 end
 
-function slot0.OnDisplayList(slot0)
+slot0.OnDisplayList = function(slot0)
 	slot0.displays = {}
 	slot3 = {}
 
@@ -166,7 +166,7 @@ function slot0.OnDisplayList(slot0)
 	slot0.scrollRect:SetTotalCount(#slot0.displays)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 
 	slot2 = LeanTween.value(slot0._bg.gameObject, slot0._bg.anchoredPosition.x, 0, 0.4)
@@ -187,10 +187,10 @@ function slot0.Show(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot6 = 0.4
 
-	function slot5()
+	slot5 = function()
 		uv0.super.Hide(uv1)
 
 		if uv1.OnShow then
@@ -209,11 +209,11 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDormUpdated(slot0)
+slot0.OnDormUpdated = function(slot0)
 	slot0:OnDisplayList()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 

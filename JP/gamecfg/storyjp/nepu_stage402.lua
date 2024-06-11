@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE402",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE402",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -71,13 +71,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "はい、皆さんお疲れさまでした",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "イストワール",
 			dir = 1,
+			actor = 0,
+			actorName = "イストワール",
 			withoutPainting = true,
-			say = "はい、皆さんお疲れさまでした",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,13 +103,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "そういうことになりますね。鏡面海域での情報、皆さんのコピーが持っていたデータ……一通り集め終わりました",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "イストワール",
 			dir = 1,
+			actor = 0,
+			actorName = "イストワール",
 			withoutPainting = true,
-			say = "そういうことになりますね。鏡面海域での情報、皆さんのコピーが持っていたデータ……一通り集め終わりました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,13 +120,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "これでゲイムギョウ界とそちらの次元を繋げるワームホールも作れます。いつでも帰ってこられますよ",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "イストワール",
 			dir = 1,
+			actor = 0,
+			actorName = "イストワール",
 			withoutPainting = true,
-			say = "これでゲイムギョウ界とそちらの次元を繋げるワームホールも作れます。いつでも帰ってこられますよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,8 +219,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "そんなすぐに帰らなくても……もう少し、学園にいてもいい、です",
 			typewriter = {
 				speed = 0.05,
@@ -337,30 +337,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
-			nameColor = "#a9f548",
-			actorName = "イストワール",
-			dir = 1,
-			withoutPainting = true,
 			say = "はい、なるべく早く帰ってきてください",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "イストワール",
 			dir = 1,
+			actor = 0,
+			actorName = "イストワール",
 			withoutPainting = true,
-			say = "ですが、こちらの次元──来ようと思えば、いつでも来られますよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,10 +354,27 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
-			actorShadow = true,
+			say = "ですが、こちらの次元──来ようと思えば、いつでも来られますよ？",
+			side = 2,
 			nameColor = "#a9f548",
+			dir = 1,
+			actor = 0,
+			actorName = "イストワール",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorShadow = true,
 			side = 0,
+			nameColor = "#a9f548",
+			actor = 10100010,
 			dir = -1,
 			hideOther = true,
 			actorName = "ネプテューヌ＆ノワール",
@@ -398,10 +398,10 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
+			actor = 10100030,
 			dir = 1,
 			hideOther = true,
 			actorName = "ブラン＆ベール",
@@ -434,13 +434,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "今回の一件でゲイムギョウ界とこちらの次元に親和性が発見できましたからね。次元を繋ぐワームホールはいつでも開くことができます",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "イストワール",
 			dir = 1,
+			actor = 0,
+			actorName = "イストワール",
 			withoutPainting = true,
-			say = "今回の一件でゲイムギョウ界とこちらの次元に親和性が発見できましたからね。次元を繋ぐワームホールはいつでも開くことができます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,13 +451,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "なので、お別れは一時のお話です。会おうと思えば、明日にだって来られちゃいますから、別れを惜しむことはありませんよ",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "イストワール",
 			dir = 1,
+			actor = 0,
+			actorName = "イストワール",
 			withoutPainting = true,
-			say = "なので、お別れは一時のお話です。会おうと思えば、明日にだって来られちゃいますから、別れを惜しむことはありませんよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,8 +580,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "……うん、みんなが来るのを待ってるです",
 			typewriter = {
 				speed = 0.05,
@@ -623,16 +623,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "テスターα",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "経過観察を続けていたら……予期せぬことになったわね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -657,12 +657,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "テスターα",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスターα",
 			say = "別次元からの来訪者たちが、そのまま居着く可能性……？考えたこともなかったわ。あまつさえ、新たな戦力として加わるなんて……",
 			typewriter = {
 				speed = 0.05,
@@ -674,12 +674,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "テスターα",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスターα",
 			say = "これも私たちの求めた、もうひとつの辿り着くべき未来への可能性……それを示唆するものなのかしら……？",
 			typewriter = {
 				speed = 0.05,
@@ -691,12 +691,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "テスターα",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスターα",
 			say = "……フフフ、これもまた一興…というわけね",
 			typewriter = {
 				speed = 0.05,
@@ -708,12 +708,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "テスターα",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスターα",
 			say = "……もう少し、このままで……彼女たちを観察することにしましょう",
 			typewriter = {
 				speed = 0.05,
@@ -725,12 +725,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "テスターα",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスターα",
 			say = "気長にね…………",
 			typewriter = {
 				speed = 0.05,

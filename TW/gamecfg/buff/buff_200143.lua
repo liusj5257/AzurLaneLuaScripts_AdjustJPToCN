@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 极天·黑洞弹条",
 	time = 3,
-	color = "red",
+	name = "2022莱莎联动 极天·黑洞弹条",
+	init_effect = "",
+	id = 200143,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200143,
+	color = "red",
 	icon = 200143,
 	last_effect = "",
 	effect_list = {

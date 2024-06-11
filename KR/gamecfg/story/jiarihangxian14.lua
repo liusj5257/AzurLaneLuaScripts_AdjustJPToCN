@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "하하하~ 다시! 좀 더 즐겨보자!",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "괜찮다! 보아하니 미카사의 말이 맞구나. 기대할만한 후배다!",
 			flashN = {
 				color = {
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
+			actor = 307060,
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:96}&{namecode:95}",
@@ -141,8 +141,8 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "여기까지냥! ! 겹겹이 제한된 무장으로 이렇게까지 싸울 수 있을줄 몰랐다냥……",
 			flashin = {
 				delay = 0.2,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "뇨텐구가 즐거워 보이네. 쇼카쿠와 즈이카쿠도 전투에서 얻은 게 있어 보이고. 보아하니 선택을 잘 한 것 같아. 미카사에게 감사해야겠는걸.",
 			typewriter = {
 				speed = 0.05,

@@ -2,27 +2,27 @@ slot0 = class("HoloLiveLinkLinkSelectScene", import("view.base.BaseUI"))
 slot0.HOLOLIVE_LINKGAME_HUB_ID = 3
 slot0.HOLOLIVE_LINKGAME_ID = 7
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "HoloLiveLinkGameSelectUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:initUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateProgressBar()
 	slot0:updateAwardPanel()
 	slot0:updateEntranceList()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.lightPointTFList = {}
 	slot0.lightLineTFList = {}
 	slot0.entranceTFList = {}
@@ -30,7 +30,7 @@ function slot0.initData(slot0)
 	slot0:updateData()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.forNotchPanel = slot0:findTF("ForNotchPanel")
 	slot0.backBtn = slot0:findTF("BackBtn", slot0.forNotchPanel)
 	slot0.helpBtn = slot0:findTF("HelpBtn", slot0.forNotchPanel)
@@ -44,7 +44,7 @@ function slot0.findUI(slot0)
 	slot0.entranceContainer = slot0:findTF("EntranceContainer")
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	setActive(slot0.getAwardBtn, false)
 	setActive(slot0.gotAwardBtn, false)
 	eachChild(slot0.lightPointContainer, function (slot0)
@@ -67,12 +67,12 @@ function slot0.initUI(slot0)
 	end
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	function slot4()
+	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.hololive_lianliankan.tip
@@ -91,7 +91,7 @@ function slot0.addListener(slot0)
 	end
 end
 
-function slot0.updateProgressBar(slot0)
+slot0.updateProgressBar = function(slot0)
 	if math.min(slot0.linkGameHub.usedtime, 7) > 0 then
 		for slot5 = 1, slot1 do
 			setActive(slot0.lightPointTFList[slot5], true)
@@ -107,7 +107,7 @@ function slot0.updateProgressBar(slot0)
 	end
 end
 
-function slot0.updateAwardPanel(slot0)
+slot0.updateAwardPanel = function(slot0)
 	setText(slot0.progressText, slot0.linkGameHub.usedtime > 7 and 7 or slot1)
 
 	if slot0.linkGameHub.ultimate > 0 then
@@ -132,7 +132,7 @@ function slot0.updateAwardPanel(slot0)
 	end
 end
 
-function slot0.updateEntranceList(slot0)
+slot0.updateEntranceList = function(slot0)
 	slot1 = slot0.linkGameHub.usedtime
 
 	for slot5 = 1, 8 do
@@ -164,19 +164,19 @@ function slot0.updateEntranceList(slot0)
 	end
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.miniGameProxy = getProxy(MiniGameProxy)
 	slot0.linkGameHub = slot0.miniGameProxy:GetHubByHubId(uv0.HOLOLIVE_LINKGAME_HUB_ID)
 	slot0.linkGameData = slot0.miniGameProxy:GetMiniGameData(uv0.HOLOLIVE_LINKGAME_ID)
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot0:updateProgressBar()
 	slot0:updateAwardPanel()
 	slot0:updateEntranceList()
 end
 
-function slot0.isTip()
+slot0.isTip = function()
 	if getProxy(MiniGameProxy):GetHubByHubId(uv0.HOLOLIVE_LINKGAME_HUB_ID).ultimate == 0 and slot1.usedtime >= 7 then
 		return true
 	elseif slot1.count > 0 then

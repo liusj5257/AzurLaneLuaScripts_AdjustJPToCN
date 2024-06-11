@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 800498,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800498,
+	color = "red",
 	icon = 800490,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 800
+				number = 800,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 800
+				number = 800,
+				attr = "cannonPower"
 			}
 		}
 	}

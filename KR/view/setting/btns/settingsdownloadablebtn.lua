@@ -1,13 +1,13 @@
 slot0 = class("SettingsDownloadableBtn")
 
-function slot0.InitTpl(slot0, slot1)
+slot0.InitTpl = function(slot0, slot1)
 	slot0._tf = cloneTplTo(slot1.tpl, slot1.container, slot0:GetDownloadGroup())
 	slot0._go = slot0._tf.gameObject
 
 	setImageSprite(slot0._tf:Find("icon"), slot1.iconSP)
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0:InitTpl(slot1)
 	pg.DelegateInfo.New(slot0)
 
@@ -24,14 +24,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0:InitPrefsBar()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	setSlider(slot0.loadProgress, 0, 1, 0)
 	setActive(slot0.loadDot, false)
 	setActive(slot0.loadLoading, false)
 	slot0:Check()
 end
 
-function slot0.InitPrefsBar(slot0)
+slot0.InitPrefsBar = function(slot0)
 	slot0.prefsBar = findTF(slot0._tf, "PrefsBar")
 
 	setText(findTF(slot0.prefsBar, "Text"), i18n("setting_group_prefs_tip"))
@@ -55,7 +55,7 @@ function slot0.InitPrefsBar(slot0)
 	slot0.hideTip = false
 end
 
-function slot0.Check(slot0)
+slot0.Check = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:UpdateDownLoadState()
 	end, 0.5, -1)
@@ -76,7 +76,7 @@ function slot0.Check(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateDownLoadState(slot0)
+slot0.UpdateDownLoadState = function(slot0)
 	slot4, slot5, slot6, slot7, slot8 = nil
 	slot9 = false
 
@@ -144,7 +144,7 @@ function slot0.UpdateDownLoadState(slot0)
 	setActive(slot0.loadLabelNew, slot3 == DownloadState.CheckToUpdate)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0.timer then
@@ -154,15 +154,15 @@ function slot0.Dispose(slot0)
 	end
 end
 
-function slot0.GetDownloadGroup(slot0)
+slot0.GetDownloadGroup = function(slot0)
 	assert(false, "overwrite me !!!")
 end
 
-function slot0.GetLocaltion(slot0, slot1, slot2)
+slot0.GetLocaltion = function(slot0, slot1, slot2)
 	assert(false, "overwrite me !!!")
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	assert(false, "overwrite me !!!")
 end
 

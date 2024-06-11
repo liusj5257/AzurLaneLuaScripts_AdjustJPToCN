@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_320 = {}
 slot1 = slot0.word_template_320
 
-function temp()
+temp = function()
 	uv0["膃"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["晚"] = {
 		["年"] = {
 			["周"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["綰"] = {
 		this = {
 			this = true
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["萬"] = {
 		["里"] = {
 			this = true

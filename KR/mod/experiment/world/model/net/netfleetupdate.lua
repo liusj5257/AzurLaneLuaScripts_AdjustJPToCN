@@ -4,16 +4,16 @@ slot0.Fields = {
 	buffs = "table"
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.buffs = WorldConst.ParsingBuffs(slot1.buff_list)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 
-function slot0.GetBuffsByTrap(slot0, slot1)
+slot0.GetBuffsByTrap = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.buffs) do

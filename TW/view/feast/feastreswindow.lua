@@ -1,10 +1,10 @@
 slot0 = class("FeastResWindow", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FeastResWindow"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.icon = slot0:findTF("frame/item/icon"):GetComponent(typeof(Image))
 	slot0.name = slot0:findTF("frame/name/Text"):GetComponent(typeof(Text))
 	slot0.desc = slot0:findTF("frame/Text"):GetComponent(typeof(Text))
@@ -15,13 +15,13 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/title"), i18n("feast_res_window_title"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.id = slot1
@@ -29,7 +29,7 @@ function slot0.Show(slot0, slot1)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1 = pg.activity_workbench_item[slot0.id]
 	slot0.icon.sprite = LoadSprite("props/" .. slot1.icon)
 	slot2 = slot0.icon
@@ -45,7 +45,7 @@ function slot0.UpdateView(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

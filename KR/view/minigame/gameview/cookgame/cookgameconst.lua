@@ -186,70 +186,70 @@ slot0.enemy2_char = "enemy2Char"
 slot0.enemy_pet = "enemy_pet"
 slot0.char_instiate_data = {
 	[slot0.player_char] = {
-		bound = "playerBox/collider",
 		parent = "scene",
+		bound = "playerBox/collider",
 		tf_name = slot0.player_char,
 		init_pos = Vector2(-500, 0)
 	},
 	[slot0.parter_char] = {
-		bound = "playerBox/collider",
 		parent = "scene",
+		bound = "playerBox/collider",
 		tf_name = slot0.parter_char,
 		init_pos = Vector2(-300, -300)
 	},
 	[slot0.parter_pet] = {
-		bound = "playerBox/collider",
 		parent = "scene",
+		bound = "playerBox/collider",
 		tf_name = slot0.parter_pet,
 		init_pos = Vector2(-400, -400)
 	},
 	[slot0.enemy1_char] = {
-		bound = "enemyBox/collider",
 		parent = "scene",
+		bound = "enemyBox/collider",
 		tf_name = slot0.enemy1_char,
 		init_pos = Vector2(500, 10)
 	},
 	[slot0.enemy2_char] = {
-		bound = "enemyBox/collider",
 		parent = "scene",
+		bound = "enemyBox/collider",
 		tf_name = slot0.enemy2_char,
 		init_pos = Vector2(300, -310)
 	},
 	[slot0.enemy_pet] = {
-		bound = "enemyBox/collider",
 		parent = "scene",
+		bound = "enemyBox/collider",
 		tf_name = slot0.enemy_pet,
 		init_pos = Vector2(400, -410)
 	}
 }
 slot0.char_battle_data = {
 	{
-		name = "Albacore",
 		base_speed = 210,
+		name = "Albacore",
 		speed_able = false,
 		double_able = false,
 		id = 1,
 		ac_able = true
 	},
 	{
-		name = "august",
 		base_speed = 300,
+		name = "august",
 		speed_able = false,
 		double_able = false,
 		id = 2,
 		ac_able = false
 	},
 	{
-		name = "elbe",
 		base_speed = 240,
+		name = "elbe",
 		speed_able = false,
 		double_able = true,
 		id = 3,
 		ac_able = false
 	},
 	{
-		name = "hakuryu",
 		base_speed = 240,
+		name = "hakuryu",
 		speed_able = true,
 		double_able = false,
 		id = 4,
@@ -257,8 +257,8 @@ slot0.char_battle_data = {
 		ac_able = false
 	},
 	{
-		name = "howe",
 		base_speed = 240,
+		name = "howe",
 		speed_able = false,
 		double_able = false,
 		id = 5,
@@ -275,8 +275,8 @@ slot0.char_battle_data = {
 		ac_able = false
 	},
 	{
-		name = "noshiro",
 		base_speed = 240,
+		name = "noshiro",
 		speed_able = false,
 		double_able = false,
 		id = 7,
@@ -285,8 +285,8 @@ slot0.char_battle_data = {
 		weight = 1
 	},
 	{
-		name = "pnelope",
 		base_speed = 240,
+		name = "pnelope",
 		speed_able = false,
 		double_able = false,
 		id = 8,
@@ -294,11 +294,11 @@ slot0.char_battle_data = {
 		ac_able = false
 	},
 	{
-		id = 9,
+		score_added = true,
 		name = "Laffey",
 		speed_able = false,
 		double_able = false,
-		score_added = true,
+		id = 9,
 		base_speed = 240,
 		ac_able = false,
 		effect = {
@@ -308,8 +308,8 @@ slot0.char_battle_data = {
 		}
 	},
 	{
-		name = "Janus",
 		base_speed = 240,
+		name = "Janus",
 		speed_able = false,
 		double_able = false,
 		id = 10,
@@ -317,8 +317,8 @@ slot0.char_battle_data = {
 		ac_able = false
 	},
 	{
-		name = "Flandre",
 		base_speed = 240,
+		name = "Flandre",
 		speed_able = false,
 		double_able = false,
 		id = 11,
@@ -326,21 +326,21 @@ slot0.char_battle_data = {
 		ac_able = false
 	},
 	{
-		ac_able = false,
 		name = "constellation",
 		speed_able = false,
 		double_able = false,
-		id = 12,
-		base_speed = 240,
 		weight = 2,
+		ac_able = false,
+		base_speed = 240,
+		id = 12,
 		puzzle = true,
 		effect = {
 			"EF_Skill"
 		}
 	},
 	{
-		name = "manjuu",
 		base_speed = 240,
+		name = "manjuu",
 		speed_able = false,
 		double_able = false,
 		id = 101,

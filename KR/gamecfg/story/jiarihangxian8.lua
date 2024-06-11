@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "오래 기다렸다냥! 두 번째 전투가 곧 시작된다냥!",
 			dir = 1,
 			bgm = "doa_boss",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "오래 기다렸다냥! 두 번째 전투가 곧 시작된다냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -50,8 +50,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "이런 식으로 언니와 \"합동 작전\"을 하다니. 어떻게 해야 할 지 모르겠어… 어쨌든 힘내보자, 언니!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "미사키, 조심해야 해. 다치면 안 돼!",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "걱정 마, 언니~ 아카시 씨도 말했었잖아. 모두 살상력이 없는 특수한 탄약이라고~",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "말, 말은 그렇게 했지만, 조심하는 게 좋을지도……",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -244,8 +244,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "아~ 그래? 내 생각엔 꽤 말이 잘 통할 거 같은 느낌이야~",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

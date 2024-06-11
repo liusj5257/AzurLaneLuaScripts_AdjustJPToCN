@@ -4,7 +4,7 @@ slot0.TASK_GO = "activity task go "
 slot0.SHOW_DETAIL = "activity task show detail"
 slot0.SHOW_SUBMIT_WINDOW = "AnniversaryIslandSpringTask2023Mediator:SHOW_SUBMIT_WINDOW"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.SUBMIT_TASK, function (slot0, slot1)
 		uv0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
 			act_id = slot1.actId,
@@ -38,7 +38,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		AnniversaryIslandSpringTask2023Mediator.SUBMIT_TASK,
 		GAME.SUBMIT_AVATAR_TASK_DONE,
@@ -46,7 +46,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == AnniversaryIslandSpringTask2023Mediator.SUBMIT_TASK then
@@ -76,7 +76,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

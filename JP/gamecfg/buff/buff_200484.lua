@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023意大利共斗 EX难度 召唤大型沙尘龙卷-四周封锁",
 	time = 3,
-	id = 200484,
+	name = "2023意大利共斗 EX难度 召唤大型沙尘龙卷-四周封锁",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200484,
 	last_effect = "",
 	effect_list = {
 		{

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "克莱蒙梭活动剧情战 克莱蒙梭剧情战迪贝路空袭总控BUFF",
 	time = 6,
+	name = "克莱蒙梭活动剧情战 克莱蒙梭剧情战迪贝路空袭总控BUFF",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

@@ -1,6 +1,6 @@
 slot0 = class("ShipEvaluation", import(".BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.ship_group_id
 	slot0.hearts = slot1.heart_count
 	slot0.evaCount = slot1.discuss_count
@@ -9,8 +9,8 @@ function slot0.Ctor(slot0, slot1)
 
 	for slot5, slot6 in ipairs(slot1.discuss_list) do
 		table.insert(slot0.evas, {
-			hot = false,
 			izan = false,
+			hot = false,
 			id = slot6.id,
 			good_count = slot6.good_count,
 			bad_count = slot6.bad_count,
@@ -22,7 +22,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:sortEvas()
 end
 
-function slot0.sortEvas(slot0)
+slot0.sortEvas = function(slot0)
 	slot0.evas = _.sort(slot0.evas, function (slot0, slot1)
 		if slot0.good_count - slot0.bad_count == slot1.good_count - slot1.bad_count then
 			return slot1.id < slot0.id

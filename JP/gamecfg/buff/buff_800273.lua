@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 106081,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 106081,
+	color = "red",
 	icon = 106080,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_MGE",
-				number = 0.08
+				number = 0.08,
+				attr = "DMG_TAG_EHC_MGE"
 			}
 		}
 	}

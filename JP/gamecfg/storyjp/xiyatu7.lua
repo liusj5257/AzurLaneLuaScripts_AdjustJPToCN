@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIYATU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIYATU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オール陣営パーティーナイト！\n\n<size=45>七 いつもと違う朝…？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "執務室・いつもとちょっと違う朝",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "執務室・いつもとちょっと違う朝",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "…………にはならなかった。",
 			typewriter = {
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、おはようっす！",
 			painting = {
 				alpha = 0.3,
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,10 +92,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まだ朝食を食べてないなら一緒にどうっすか？",
 			painting = {
 				alpha = 0.3,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "サディア風の料理が盛り付けられているトレーが執務机に置かれた。",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "またもシアトルから押し付けられるように渡された風味豊かな朝食だが……",
 			typewriter = {
@@ -142,10 +142,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうっすよ！ヴェネトとダ・ヴィンチたちが東煌屋台に触発されて屋台を開いたっす！",
 			painting = {
 				alpha = 0.3,
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,10 +170,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかも「ピザパリパリ石窯ロボ」という新発明も。やっぱりパーティーをやると皆なにかしらのインスピレーションが得られるっすね！",
 			painting = {
 				alpha = 0.3,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官も盛り上がるパーティーをどんどんをやりたくならないっすか？",
 			painting = {
 				alpha = 0.3,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "やるかどうかはともかく、皆で盛り上がるのはいいことだ。",
 			typewriter = {
@@ -212,12 +212,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうなんすよ！指揮官があたしのパーティーを気に入ってくれたなら嬉しいっす！…ん？",
 			painting = {
 				alpha = 0.3,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,10 +242,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほかにも気に入ってくれたことがあったんすか？",
 			painting = {
 				alpha = 0.3,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "それは――",
 			typewriter = {
@@ -296,13 +296,13 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あたしがパーティーを主催する手腕が気に入ったって意味っすね…？",
 			painting = {
 				alpha = 0.3,
@@ -374,10 +374,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ま、待って！言わなくていいからちょっと気持ちの整理をさせてほしいっす！ええと、ええと……",
 			painting = {
 				alpha = 0.3,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -402,10 +402,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すぐ戻ってくるっす！",
 			painting = {
 				alpha = 0.3,
@@ -417,8 +417,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.6,
 					x = -2500
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "……数分後。",
 			typewriter = {
@@ -435,17 +435,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -456,10 +456,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ただいまっす！ふぅ…気持ちの整理はバッチリっす！",
 			painting = {
 				alpha = 0.3,
@@ -471,8 +471,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,10 +484,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あたしも君のことが気に入ってるっす！パーティー会場を回ったときいつもより楽しかったし！",
 			painting = {
 				alpha = 0.3,
@@ -499,12 +499,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃあ、今日はパーティーの準備以外にやることが一つ増えたっすね！",
 			painting = {
 				alpha = 0.3,
@@ -519,10 +519,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "つまりデー………",
 			painting = {
 				alpha = 0.3,
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "シアトルが飛び込んでくる前に話を遮った。",
 			typewriter = {
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "デートはOKだが、それは仕事のあとだ。",
 			typewriter = {
@@ -557,10 +557,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

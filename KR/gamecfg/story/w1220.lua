@@ -1,12 +1,12 @@
 return {
-	id = "W1220",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1220",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "항구의 상황에 변화가 발생했다...",
 			typewriter = {
 				speed = 0.05,

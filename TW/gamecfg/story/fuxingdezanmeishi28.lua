@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI28",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "唔……另一艘看風格也許是北方聯合的驅逐艦，具體是誰我認不清…………",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "問題在於北方聯合的驅逐艦為什麼會出現在這裡，而且還和我們的藝術品運輸艦隊在一起…………",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "其他情況呢，敵方的規模怎麼樣？",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "並不多，只靠兩艘驅逐艦配合量產型應付起來應該沒有問題。",
 			typewriter = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "不過……在她們航線與我們航線的中間有一個被海霧覆蓋的巨大區域，我無法進行有效偵察。",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 602010,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
 			say = "神話中血腥殘暴的牛頭怪米諾陶洛斯所居住的區域，不知道塞壬在那些迷霧裡隱藏了什麼“驚喜”。",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "如果讓文琴佐在我們之前開進去就危險了。天鷹，想辦法提醒她們減速，其餘諸艦做好決戰準備。",
 			typewriter = {
@@ -215,9 +215,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
 			blackBg = true,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "讓我們清空迷宮中心區域開啟匯合道路，完成本次行動的目標吧！",
 			typewriter = {

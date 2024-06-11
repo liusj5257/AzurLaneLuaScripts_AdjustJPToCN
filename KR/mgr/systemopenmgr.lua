@@ -4,14 +4,14 @@ slot0 = pg.SystemOpenMgr
 slot1 = true
 slot2 = pg.open_systems_limited
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	print("initializing SystemOpenMgr manager...")
 	slot1()
 end
 
 slot3 = pm.Facade.sendNotification
 
-function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
+pm.Facade.sendNotification = function(slot0, slot1, slot2, slot3)
 	if uv0 and slot1 == GAME.LOAD_SCENE and slot2.context.mediator then
 		slot5 = slot2.context.mediator.__cname
 
@@ -45,7 +45,7 @@ function pm.Facade.sendNotification(slot0, slot1, slot2, slot3)
 	uv1(slot0, slot1, slot2, slot3)
 end
 
-function slot4(slot0)
+slot4 = function(slot0)
 	slot2 = uv0[14].name
 
 	if uv0[14].level == slot0 then
@@ -61,7 +61,7 @@ function slot4(slot0)
 	end
 end
 
-function slot0.isOpenSystem(slot0, slot1, slot2)
+slot0.isOpenSystem = function(slot0, slot1, slot2)
 	if slot2 == "EquipmentTransformTreeMediator" and LOCK_EQUIPMENT_TRANSFORM then
 		return false
 	end
@@ -79,7 +79,7 @@ function slot0.isOpenSystem(slot0, slot1, slot2)
 	end
 end
 
-function slot5(slot0)
+slot5 = function(slot0)
 	for slot5, slot6 in pairs(_.sort(uv0.all, function (slot0, slot1)
 		return uv0[slot1].level < uv0[slot0].level
 	end)) do
@@ -89,7 +89,7 @@ function slot5(slot0)
 	end
 end
 
-function slot0.notification(slot0, slot1)
+slot0.notification = function(slot0, slot1)
 	if not uv0 then
 		return
 	end
@@ -110,7 +110,7 @@ function slot0.notification(slot0, slot1)
 	end
 end
 
-function slot0.doSystemGuide(slot0, slot1)
+slot0.doSystemGuide = function(slot0, slot1)
 	if IsUnityEditor and not ENABLE_GUIDE then
 		return
 	end

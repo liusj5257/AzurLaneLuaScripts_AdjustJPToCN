@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "额外命中下降",
 	time = 4,
+	name = "额外命中下降",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "accuracyRateExtra",
-				number = -0.3
+				number = -0.3,
+				attr = "accuracyRateExtra"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 331,
-				time = 2,
 				target = "TargetSelf",
+				time = 2,
 				quota = 1
 			}
 		},

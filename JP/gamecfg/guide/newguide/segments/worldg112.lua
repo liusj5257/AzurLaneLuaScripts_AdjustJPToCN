@@ -14,9 +14,9 @@ return {
 			style = {
 				text = "ここはセイレーン要塞の支配権を表す「拠点」の数が表示されます",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 0,
 				posX = 508.1
 			},
 			showSign = {
@@ -36,9 +36,9 @@ return {
 			style = {
 				text = "セイレーン拠点を占拠すればするほど、セイレーンの支配力が弱体化します。0になるとエリアを奪還できます。",
 				mode = 2,
-				posY = 191.14,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 191.14,
 				posX = -250.05
 			},
 			showSign = {

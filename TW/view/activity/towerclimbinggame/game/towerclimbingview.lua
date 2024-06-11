@@ -1,6 +1,6 @@
 slot0 = class("TowerClimbingView")
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	slot3 = GetOrAddComponent(slot0, "EventTriggerListener")
 
 	slot3:AddPointDownFunc(function (slot0, slot1)
@@ -15,20 +15,20 @@ function slot1(slot0, slot1, slot2)
 	end)
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	slot1 = GetOrAddComponent(slot0, "EventTriggerListener")
 
 	slot1:RemovePointDownFunc()
 	slot1:RemovePointUpFunc()
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.controller = slot1
 end
 
-function slot0.SetUI(slot0, slot1)
+slot0.SetUI = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.overView = findTF(slot0._tf, "overview")
@@ -56,7 +56,7 @@ function slot0.SetUI(slot0, slot1)
 	slot0:ResetParams()
 end
 
-function slot0.OnEnter(slot0, slot1)
+slot0.OnEnter = function(slot0, slot1)
 	setActive(slot0.overView, true)
 	setActive(slot0.gameView, false)
 	onButton(slot0, slot0.helpBtn, function ()
@@ -66,7 +66,7 @@ function slot0.OnEnter(slot0, slot1)
 		})
 	end, SFX_PANEL)
 
-	function slot5()
+	slot5 = function()
 		uv0:ShowQuitPanel()
 	end
 
@@ -81,7 +81,7 @@ function slot0.OnEnter(slot0, slot1)
 	end
 end
 
-function slot0.DoEnter(slot0, slot1)
+slot0.DoEnter = function(slot0, slot1)
 	setActive(slot0.overView, false)
 	setActive(slot0.gameView, true)
 
@@ -113,7 +113,7 @@ function slot0.DoEnter(slot0, slot1)
 	slot0.timer.func()
 end
 
-function slot0.OnStartGame(slot0)
+slot0.OnStartGame = function(slot0)
 	uv0(slot0.jumpBtn, function ()
 		uv0.controller:PlayerJump()
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
@@ -133,7 +133,7 @@ function slot0.OnStartGame(slot0)
 	end)
 end
 
-function slot0.OnSlip(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.OnSlip = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = GetOrAddComponent(slot1, "EventTriggerListener")
 	slot7 = GameObject.Find("UICamera")
 	slot7 = slot7:GetComponent("Camera")
@@ -170,7 +170,7 @@ function slot0.OnSlip(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-function slot0.ClearSlip(slot0, slot1)
+slot0.ClearSlip = function(slot0, slot1)
 	slot2 = GetOrAddComponent(slot1, "EventTriggerListener")
 
 	slot2:RemovePointDownFunc()
@@ -178,7 +178,7 @@ function slot0.ClearSlip(slot0, slot1)
 	slot2:RemoveDragFunc()
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:AddDebugInput()
 
 	slot0.hrzOffse = slot0.leftOffse + slot0.rightOffse
@@ -186,7 +186,7 @@ function slot0.Update(slot0)
 	slot0.controller:OnStickChange(slot0.hrzOffse)
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if IsUnityEditor then
 		if Input.GetKeyDown(KeyCode.A) then
 			slot0.leftOffse = -0.06
@@ -211,25 +211,25 @@ function slot0.AddDebugInput(slot0)
 	end
 end
 
-function slot0.OnCreateMap(slot0, slot1, slot2)
+slot0.OnCreateMap = function(slot0, slot1, slot2)
 	slot0.map = TowerClimbingMap.New(slot0, slot1)
 
 	slot0.map:Init(slot2)
 end
 
-function slot0.ResetParams(slot0)
+slot0.ResetParams = function(slot0)
 	slot0.leftOffse = 0
 	slot0.rightOffse = 0
 	slot0.hrzOffse = 0
 end
 
-function slot0.OnEndGame(slot0, slot1, slot2, slot3)
+slot0.OnEndGame = function(slot0, slot1, slot2, slot3)
 	slot0:ResetParams()
 	removeOnButton(slot0.jumpBtn)
 	slot0:ShowResultPanel(slot1, slot2, slot3)
 end
 
-function slot0.OnExitGame(slot0)
+slot0.OnExitGame = function(slot0)
 	setActive(slot0.overView, true)
 	setActive(slot0.gameView, false)
 
@@ -238,7 +238,7 @@ function slot0.OnExitGame(slot0)
 	end
 end
 
-function slot0.ShowQuitPanel(slot0)
+slot0.ShowQuitPanel = function(slot0)
 	slot0:ActivePanel(slot0.quitPanel, true)
 	onButton(slot0, slot0.quitPanelCconfirmBtn, function ()
 		uv0:ActivePanel(uv0.quitPanel, false)
@@ -249,7 +249,7 @@ function slot0.ShowQuitPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.ShowResultPanel(slot0, slot1, slot2, slot3)
+slot0.ShowResultPanel = function(slot0, slot1, slot2, slot3)
 	slot0:ActivePanel(slot0.resultPanel, true)
 
 	slot0.resultPanelScoreTxt.text = slot1
@@ -266,11 +266,11 @@ function slot0.ShowResultPanel(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.SetHighScore(slot0, slot1)
+slot0.SetHighScore = function(slot0, slot1)
 	slot0.highScores = slot1
 end
 
-function slot0.ActivePanel(slot0, slot1, slot2)
+slot0.ActivePanel = function(slot0, slot1, slot2)
 	if slot2 then
 		pg.UIMgr.GetInstance():BlurPanel(slot1)
 	else
@@ -280,7 +280,7 @@ function slot0.ActivePanel(slot0, slot1, slot2)
 	setActive(slot1, slot2)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.inDownCnt then
 		return true
 	end
@@ -301,7 +301,7 @@ function slot0.onBackPressed(slot0)
 	return false
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 

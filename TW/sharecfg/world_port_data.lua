@@ -2,10 +2,10 @@ pg = pg or {}
 pg.world_port_data = {
 	{
 		port_bg = "port_niuyue",
+		id = 1,
 		name = "紐約",
 		port_camp = 1,
 		port_entrance_icon = "port_niuyue",
-		id = 1,
 		scan_desc = "一處白鷹所屬的重要港口。",
 		open_condition = {
 			{
@@ -20,10 +20,10 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_liwupu",
+		id = 2,
 		name = "利物浦",
 		port_camp = 1,
 		port_entrance_icon = "port_liwupu",
-		id = 2,
 		scan_desc = "一處皇家所屬的重要港口。",
 		open_condition = {
 			{
@@ -38,10 +38,10 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_zhibuluotuo",
+		id = 3,
 		name = "直布羅陀",
 		port_camp = 1,
 		port_entrance_icon = "port_zhibuluotuo",
-		id = 3,
 		scan_desc = "一處皇家所屬的重要港口。",
 		open_condition = {
 			{
@@ -56,10 +56,10 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_shenbidebao",
+		id = 4,
 		name = "聖彼得堡",
 		port_camp = 1,
 		port_entrance_icon = "port_shenbidebao",
-		id = 4,
 		scan_desc = "一處北方聯合所屬的重要港口。",
 		open_condition = {
 			{
@@ -74,10 +74,10 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_jier",
+		id = 5,
 		name = "基爾",
 		port_camp = 2,
 		port_entrance_icon = "port_jier",
-		id = 5,
 		scan_desc = "一處鐵血所屬的重要港口。",
 		open_condition = {
 			{
@@ -92,10 +92,10 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_talantuo",
+		id = 6,
 		name = "塔蘭托",
 		port_camp = 2,
 		port_entrance_icon = "port_talantuo",
-		id = 6,
 		scan_desc = "一處薩丁帝國所屬的重要港口。",
 		open_condition = {
 			{
@@ -110,10 +110,10 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_buleisite",
+		id = 7,
 		name = "布雷斯特",
 		port_camp = 2,
 		port_entrance_icon = "port_buleisite",
-		id = 7,
 		scan_desc = "一處維希教廷所屬的重要港口。",
 		open_condition = {
 			{
@@ -128,10 +128,10 @@ pg.world_port_data = {
 	},
 	{
 		port_bg = "port_dakaer",
+		id = 8,
 		name = "達卡",
 		port_camp = 2,
 		port_entrance_icon = "port_dakaer",
-		id = 8,
 		scan_desc = "一處維希教廷所屬的重要港口。",
 		open_condition = {
 			{
@@ -146,10 +146,10 @@ pg.world_port_data = {
 	},
 	[20] = {
 		port_bg = "port_zuozhangangkou",
+		id = 20,
 		name = "作戰港口",
 		port_camp = 1,
 		port_entrance_icon = "",
-		id = 20,
 		scan_desc = "參與作戰的艦隊在此集結",
 		open_condition = {
 			{
@@ -164,10 +164,10 @@ pg.world_port_data = {
 	},
 	[30] = {
 		port_bg = "port_zuozhangangkou",
+		id = 30,
 		name = "核心區前哨站",
 		port_camp = 1,
 		port_entrance_icon = "",
-		id = 30,
 		scan_desc = "參與作戰的艦隊在此集結",
 		open_condition = {
 			{
@@ -182,10 +182,10 @@ pg.world_port_data = {
 	},
 	[100] = {
 		port_bg = "port_chuanwu1",
+		id = 100,
 		name = "海域補給商店",
 		port_camp = 0,
 		port_entrance_icon = "",
-		id = 100,
 		scan_desc = "",
 		open_condition = {
 			{
@@ -200,10 +200,10 @@ pg.world_port_data = {
 	},
 	[301] = {
 		port_bg = "port_chongdong",
+		id = 301,
 		name = "蟲洞商店",
 		port_camp = 0,
 		port_entrance_icon = "",
-		id = 301,
 		scan_desc = "",
 		open_condition = {
 			{

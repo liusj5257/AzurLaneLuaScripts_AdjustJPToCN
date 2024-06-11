@@ -16,30 +16,30 @@ slot1.ICON_BY_INDEX = {
 	"meteor"
 }
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0.eventTriggers = {}
 end
 
-function slot1.ConfigCallback(slot0, slot1, slot2, slot3, slot4)
+slot1.ConfigCallback = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._downFunc = slot1
 	slot0._upFunc = slot2
 	slot0._cancelFunc = slot3
 	slot0._emptyFunc = slot4
 end
 
-function slot1.SetActive(slot0, slot1)
+slot1.SetActive = function(slot0, slot1)
 	SetActive(slot0._skin, slot1)
 end
 
-function slot1.SetJam(slot0, slot1)
+slot1.SetJam = function(slot0, slot1)
 	SetActive(slot0._jam, slot1)
 	SetActive(slot0._icon, not slot1)
 	SetActive(slot0._progress, not slot1)
 end
 
-function slot1.SwitchIcon(slot0, slot1)
+slot1.SwitchIcon = function(slot0, slot1)
 	slot0._iconIndex = slot1
 	slot2 = uv0.ICON_BY_INDEX[slot1]
 
@@ -47,14 +47,14 @@ function slot1.SwitchIcon(slot0, slot1)
 	setImageSprite(slot0._filled, LoadSprite("ui/CombatUI_atlas", "filled_combined_" .. slot2))
 end
 
-function slot1.SwitchIconEffect(slot0, slot1)
+slot1.SwitchIconEffect = function(slot0, slot1)
 	slot2 = uv0.ICON_BY_INDEX[slot1]
 
 	setImageSprite(slot0._filledEffect, LoadSprite("ui/CombatUI_atlas", "filled_effect_" .. slot2), true)
 	setImageSprite(slot0._jam, LoadSprite("ui/CombatUI_atlas", "skill_jam_" .. slot2), true)
 end
 
-function slot1.ConfigSkin(slot0, slot1)
+slot1.ConfigSkin = function(slot0, slot1)
 	slot0._skin = slot1
 	slot0._btn = slot1:Find("ActCtl")
 	slot0._block = slot1:Find("ActCtl/block").gameObject
@@ -83,11 +83,11 @@ function slot1.ConfigSkin(slot0, slot1)
 	end)
 end
 
-function slot1.GetSkin(slot0)
+slot1.GetSkin = function(slot0)
 	return slot0._skin
 end
 
-function slot1.Enabled(slot0, slot1)
+slot1.Enabled = function(slot0, slot1)
 	slot2 = GetComponent(slot0._btn, "EventTriggerListener")
 	slot3 = GetComponent(slot0._block, "EventTriggerListener")
 	slot0.eventTriggers[slot2] = true
@@ -96,7 +96,7 @@ function slot1.Enabled(slot0, slot1)
 	slot3.enabled = slot1
 end
 
-function slot1.Disable(slot0)
+slot1.Disable = function(slot0)
 	if slot0._cancelFunc then
 		slot0._cancelFunc()
 	end
@@ -107,26 +107,26 @@ function slot1.Disable(slot0)
 	GetComponent(slot0._block, "EventTriggerListener").enabled = false
 end
 
-function slot1.OnSelected(slot0)
+slot1.OnSelected = function(slot0)
 	SetActive(slot0._unSelect, false)
 	SetActive(slot0._selected, true)
 end
 
-function slot1.OnUnSelect(slot0)
+slot1.OnUnSelect = function(slot0)
 	SetActive(slot0._selected, false)
 	SetActive(slot0._unSelect, true)
 end
 
-function slot1.OnFilled(slot0)
+slot1.OnFilled = function(slot0)
 	SetActive(slot0._filled, true)
 	SetActive(slot0._unfill, false)
 end
 
-function slot1.OnfilledEffect(slot0)
+slot1.OnfilledEffect = function(slot0)
 	SetActive(slot0._filledEffect, true)
 end
 
-function slot1.OnOverLoadChange(slot0)
+slot1.OnOverLoadChange = function(slot0)
 	if slot0._progressInfo:IsOverLoad() then
 		slot0._block:SetActive(true)
 		slot0:OnUnfill()
@@ -140,20 +140,20 @@ function slot1.OnOverLoadChange(slot0)
 	end
 end
 
-function slot1.OnUnfill(slot0)
+slot1.OnUnfill = function(slot0)
 	SetActive(slot0._filled, false)
 	SetActive(slot0._unfill, true)
 end
 
-function slot1.SetProgressActive(slot0, slot1)
+slot1.SetProgressActive = function(slot0, slot1)
 	slot0._progress.gameObject:SetActive(slot1)
 end
 
-function slot1.SetTextActive(slot0, slot1)
+slot1.SetTextActive = function(slot0, slot1)
 	SetActive(slot0._count, slot1)
 end
 
-function slot1.SetProgressInfo(slot0, slot1)
+slot1.SetProgressInfo = function(slot0, slot1)
 	slot0._progressInfo = slot1
 
 	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_TOTAL_CHANGE, slot0.OnTotalChange)
@@ -164,7 +164,7 @@ function slot1.SetProgressInfo(slot0, slot1)
 	slot0:OnOverLoadChange()
 end
 
-function slot1.OnCountChange(slot0)
+slot1.OnCountChange = function(slot0)
 	slot0._countTxt.text = string.format("%d/%d", slot0._progressInfo:GetCount(), slot0._progressInfo:GetTotal())
 
 	if slot0._progressInfo:GetCurrentWeaponIconIndex() ~= slot0._iconIndex then
@@ -173,7 +173,7 @@ function slot1.OnCountChange(slot0)
 	end
 end
 
-function slot1.OnTotalChange(slot0, slot1)
+slot1.OnTotalChange = function(slot0, slot1)
 	if slot0._progressInfo:GetTotal() <= 0 then
 		slot0._block:SetActive(true)
 
@@ -193,7 +193,7 @@ function slot1.OnTotalChange(slot0, slot1)
 	end
 end
 
-function slot1.SetControllerActive(slot0, slot1)
+slot1.SetControllerActive = function(slot0, slot1)
 	if slot0._isActive == slot1 then
 		return
 	end
@@ -247,7 +247,7 @@ function slot1.SetControllerActive(slot0, slot1)
 	slot2:RemovePointExitFunc()
 end
 
-function slot1.InitialAnima(slot0, slot1)
+slot1.InitialAnima = function(slot0, slot1)
 	SetActive(slot0._btn, false)
 
 	slot0._leanID = LeanTween.delayedCall(slot1, System.Action(function ()
@@ -256,7 +256,7 @@ function slot1.InitialAnima(slot0, slot1)
 	end))
 end
 
-function slot1.Update(slot0)
+slot1.Update = function(slot0)
 	slot1 = slot0._progressInfo:GetCurrent()
 	slot2 = slot0._progressInfo:GetMax()
 
@@ -265,11 +265,11 @@ function slot1.Update(slot0)
 	end
 end
 
-function slot1.updateProgressBar(slot0)
+slot1.updateProgressBar = function(slot0)
 	slot0._progressBar.fillAmount = slot0._progressInfo:GetCurrent() / slot0._progressInfo:GetMax()
 end
 
-function slot1.Dispose(slot0)
+slot1.Dispose = function(slot0)
 	if slot0.eventTriggers then
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
 			ClearEventTrigger(slot4)

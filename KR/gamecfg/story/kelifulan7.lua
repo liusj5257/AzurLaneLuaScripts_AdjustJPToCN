@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"기사와 포상\n\n<size=45>7. 최고의 우승 상품</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "항구·체육관",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "항구·체육관",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "“요전수”——비취나무 화분을 품에 안은 채, 기뻐서 어쩔 줄 모르는 클리블랜드.",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "클리블랜드의 얼굴이 온통 새빨개졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -112,15 +112,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "돈은 아무 것도 아니야. 단지 지휘관 앞에서 활약할 수 있는 어렵게 찾아온 기회였어. 결국 또 망쳐 버렸고......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "클리블랜드의 머리를 살며시 쓰다듬는다.",
 			typewriter = {
 				speed = 0.05,
@@ -219,16 +219,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "귀, 귀여운!!!????????",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -244,16 +244,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "아, 아...... 내가....... 귀....... 귀엽....... 아.....///(얼굴 빨개짐)",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 30,
@@ -270,17 +270,17 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "혀, 형님이라고 부르지마~!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 2

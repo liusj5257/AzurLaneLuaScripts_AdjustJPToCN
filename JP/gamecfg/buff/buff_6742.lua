@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "开拓者勋章",
 	time = 0,
-	color = "red",
+	name = "开拓者勋章",
+	init_effect = "",
+	id = 6742,
 	picture = "",
 	desc = "造成伤害上升",
 	stack = 1,
-	id = 6742,
+	color = "red",
 	icon = 6742,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.1
+				number = 0.1,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

@@ -9,9 +9,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 30,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -45,9 +45,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 30,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -81,9 +81,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 30,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -117,9 +117,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 30,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -153,9 +153,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 30,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -203,9 +203,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 50,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -239,9 +239,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 50,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -275,9 +275,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 50,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -311,9 +311,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 50,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -347,9 +347,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 50,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -397,9 +397,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 70,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -433,9 +433,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 70,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -469,9 +469,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 70,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -505,9 +505,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 70,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -541,9 +541,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "shield02",
 					count = 70,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -588,14 +588,14 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
-	name = "",
 	init_effect = "",
+	name = "",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 600104,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			id = 1,
@@ -605,9 +605,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 70,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -641,9 +641,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 70,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -677,9 +677,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 70,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -713,9 +713,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 70,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -749,9 +749,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 70,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

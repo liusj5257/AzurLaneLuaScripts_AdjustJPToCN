@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD200A",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WORLD200A",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "リバープール・作戦会議室",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
+			say = "リバープール・作戦会議室",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,8 +35,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "じゃあ指揮官、エンタープライズ、そしてロイヤルのみんな、セイレーン作戦頑張りましょー！",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "ええ、ロイヤル艦隊もすぐ行動を開始しますわ",
 			typewriter = {
@@ -66,15 +66,15 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "「セイレーン作戦」、とうとう始まりましたわ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "通信ご苦労よ。フッド",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,10 +301,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_guild_blue",
 			side = 0,
+			bgName = "bg_guild_blue",
+			hideOther = true,
 			dir = 1,
 			actor = 205020,
 			actorName = "ウォースパイト&フッド",
@@ -362,8 +362,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "すみません陛下。上層部から指揮官に送られた、「TB」という存在をご存知ですか？",
 			typewriter = {
@@ -456,12 +456,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "…じゃあひとまずこれで！セイレーン作戦、ロイヤルの栄光のために頑張りなさい！",
 			typewriter = {
 				speed = 0.05,

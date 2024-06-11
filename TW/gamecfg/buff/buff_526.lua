@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "破甲debuff-武藏",
 	time = 8,
+	name = "破甲debuff-武藏",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.05
+				number = 0.05,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -1,13 +1,13 @@
 return {
-	id = "SHENGYONGQU1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			say = "Am I... dreaming?",
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
+			actor = 900055,
 			dir = 1,
 			blackBg = true,
 			say = "Flagship of the Vichya Dominion, Jean Bart, calls for the attention of the fleet!",
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I was defeated. For the sake of whatever pride we had left, I ordered my friends to sink themselves.",
 			effects = {
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Battleship Jean Bart sank at Casablanca on that day... That should have been the case.",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Yet, I am conscious, and something feels wrong.",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "My consciousness, which should have returned to nothingness, still continues to \"exist\" in some way.",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "So, is this heaven, or is this hell? Perhaps that is the wrong question.",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "As a ship, perhaps another destination awaits me...",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "At least I can confidently say this infinite black void all around me is nothing like what's described in the Iris Orthodoxy.",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
+			actor = 900055,
 			dir = 1,
 			blackBg = true,
 			say = "\"...All that comes into being must also cease to be. Grieve not over the passage of life, for that is the truth of the providence of rebirth.\"",
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Within the darkness of the void, only my consciousness offers any illumination... Strangely, when I try to call out, a voice echoes back to me.",
 			effects = {
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "However, I am forced to accept that even as a ship, I am scarcely different from any other mortal being.",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The Vichya Dominion... Iris Libre... and my sister, Richelieu...",
 			typewriter = {
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...All the things that I hold dear, now so distant from me.",
 			dialogShake = {
@@ -471,8 +471,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...If only I could meet everyone again...",
 			typewriter = {
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			bgm = "bsm-2",
+			side = 2,
+			say = "Vitals stable. D'accord. You should be regaining your five senses soon enough.",
 			dir = 1,
 			blackBg = true,
-			say = "Vitals stable. D'accord. You should be regaining your five senses soon enough.",
+			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +501,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...That voice... Who are you...?",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Who I am is of little importance. What matters is you, Jean Bart.",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "What matters... is me...?",
 			typewriter = {
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Indeed. Now that you're coming to your senses, shall I explain the situation to you?",
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Now think, where do you last remember yourself?",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Casablanca... Yeah, that should be the place where I sank.",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "That's right. You ordered the fleet to preserve the Vichya's autonomy, for everyone to sink themselves so that they would not become pawns of the Iron Blood or the Royal Navy.",
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Yeah, I remember that clearly...",
 			typewriter = {
@@ -617,8 +617,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "But your decision was nothing but an escape. Your sinking cannot change the cowardice of the Senate, the Royal Navy's treachery, or the fracturing of the Iris Orthodoxy.",
@@ -632,8 +632,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "However, one can say that your efforts were brave, comical, or tragic. Future generations are sure to reflect upon it in different ways.",
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "But you already knew that, didn't you? Your history... Even knowing that, you'd make the same choice, wouldn't you?",
@@ -662,8 +662,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "The life of Jean Bart, the battleship, ended at Casablanca. But Jean Bart, the person, has yet to take the first step of her new life...",
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...You can close the channel now.",
 			typewriter = {
@@ -691,8 +691,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...What a load of crap. Le Terrible...",
 			dialogShake = {
@@ -710,8 +710,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Now I remember it clearly. I tried to sink myself back then, but I was rescued.",
 			typewriter = {
@@ -724,8 +724,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Which I guess means that I'm awaiting my recovery while listening to your blathering... right?",
 			typewriter = {
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "I'm pleased to see that you're as sharp as ever, Miss Jean Bart.",
@@ -753,8 +753,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "I too was in the same situation, but I recovered just earlier. Algérie entrusted me to take care of you.",
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Jean Bart, do you truly believe that you are in the clutches of death?",
@@ -783,8 +783,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...Yes, that is what I chose. I know that my body rests at the bottom of the ocean, and only my consciousness has wandered here. There is no doubt that I have crossed to the other side.",
 			typewriter = {
@@ -797,8 +797,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "But as a ship... is it necessarily finality that awaits you on the other side?",
@@ -812,8 +812,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...What do you mean?",
 			typewriter = {
@@ -826,8 +826,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Nothing in particular, Miss Jean Bart.",
@@ -841,8 +841,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Reflect upon everything you've left unfinished. Reflect upon all the anger you've yet to vent.",
@@ -856,8 +856,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Reflect upon your faith, and upon the power that belongs to you.",
@@ -871,8 +871,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Now arise, my \"Sleeping Beauty.\" The wondrous Iris skies await you.",
@@ -886,8 +886,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"Lift your head to the heavens, and look closely at the clouds that rise high over you.\"</size>",
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

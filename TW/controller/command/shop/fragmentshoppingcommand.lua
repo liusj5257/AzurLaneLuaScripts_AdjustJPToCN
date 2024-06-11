@@ -2,7 +2,7 @@ slot0 = class("FragmentShoppingCommand", pm.SimpleCommand)
 slot0.FRAG_SHOP = 2
 slot0.FRAG_NORMAL_SHOP = 3
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.type
 	slot7 = getProxy(PlayerProxy):getRawData()

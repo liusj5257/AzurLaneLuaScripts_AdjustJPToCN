@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 10,
 			side = 2,
-			bgName = "star_level_bg_159",
 			factiontag = "하이티엔",
 			dir = 1,
+			bgName = "star_level_bg_159",
 			bgm = "theme-ijndailymeeting",
 			actor = 502070,
 			nameColor = "#A9F548FF",
@@ -26,17 +26,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "로열 포춘",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관이 주사위 판정에서 실패하는 걸 보면서 NPC를 연기하는 거… 너무 힘들더라!",
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "골든 하인드",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "나도~",
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "유키카제",
 			dir = 1,
+			actor = 301160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "주사위 굴리는 역할을 이 유키카제 님한테 맡겼으면 훨씬 잘 굴러갔을 거다~",
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "Z2",
 			dir = 1,
+			actor = 401020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "게임 밸런스가 깨지면 안 되잖아요…",
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "에식스",
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐, 다른 세부적인 부분도 그렇지만, 어느 정도는 수수께끼로 남겨두는 편이 좋겠네요.",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "메리 셀러스트",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "깜짝 놀라게 해 주는 게 특기인 유령선이 연출을 담당했으니 오싹한 게 당연하지!",
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "엔터프라이즈",
 			dir = 1,
+			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런 부분은 좀 개선해야겠어.",
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

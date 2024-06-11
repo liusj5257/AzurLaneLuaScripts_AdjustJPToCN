@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUANGJIA4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUANGJIA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第四話  反抗</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
-			say = "あれは…再生装置の映像に登場してたロボット――AT（アーマードトルーパー）！",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-1",
+			actor = 303030,
+			say = "あれは…再生装置の映像に登場してたロボット――AT（アーマードトルーパー）！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -217,16 +217,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 1,
 			bgName = "bg_night",
-			say = "…ぐふっ、イタイにゃ…。なんで雪風には当たらずに明石に弾が当たるんだにゃ～。",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 312010,
+			say = "…ぐふっ、イタイにゃ…。なんで雪風には当たらずに明石に弾が当たるんだにゃ～。",
 			flash = {
+				wait = 0.2,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.2,
 				number = 1,
 				alpha = {
 					0,
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -408,8 +408,8 @@ return {
 			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
-			dir = 1,
 			say = "しまった。追いつかれた。しょ…翔鶴姉ぇ…。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -424,12 +424,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???(通信)",
+			side = 0,
 			bgName = "bg_night",
-			withoutPainting = true,
-			dir = 1,
 			say = "「爆撃機を放ったら3時方向に避けろ。こちらで攻撃隊を落とす。」",
+			dir = 1,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,15 +455,15 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 2,
 			bgName = "bg_night",
 			actorName = "テスターβ",
+			actor = 900011,
 			nameColor = "#D6341DFF",
 			say = "なん…だと！？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -548,12 +548,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???(通信)",
+			side = 0,
 			bgName = "bg_night",
-			withoutPainting = true,
-			dir = 1,
 			say = "「今のうちに敵の前衛を蹴散らせ。こっちの残弾数はいつまでも保たない。」",
+			dir = 1,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,8 +582,8 @@ return {
 			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
-			dir = 1,
 			say = "ふん、まずはニセモノ退治ってことね。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -628,15 +628,15 @@ return {
 			}
 		},
 		{
-			actor = 301160,
-			side = 2,
 			bgName = "bg_night",
-			say = "所詮ニセモノ、この雪風様と戦うには百年早いのだ！",
+			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 301160,
+			say = "所詮ニセモノ、この雪風様と戦うには百年早いのだ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -653,8 +653,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -674,8 +674,8 @@ return {
 			actor = 312010,
 			side = 1,
 			bgName = "bg_night",
-			dir = 1,
 			say = "やっぱり、雪風ハ沈マズ…だったにゃ。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -720,11 +720,11 @@ return {
 			}
 		},
 		{
-			say = "敵の罠。死線に堕とされた彼女たち。新たな敵の出現は全ての希望を消し去ってゆく。次回「絶望」。彼の放つ一撃は重い。",
 			blackBg = true,
+			say = "敵の罠。死線に堕とされた彼女たち。新たな敵の出現は全ての希望を消し去ってゆく。次回「絶望」。彼の放つ一撃は重い。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

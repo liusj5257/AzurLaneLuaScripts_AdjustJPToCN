@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN20",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "신호탄이 발사되자, 방금까지 조용했던 바다가 갑자기 소란스러워지기 시작했다.",
 			bgm = "story-temepest-2",
+			say = "신호탄이 발사되자, 방금까지 조용했던 바다가 갑자기 소란스러워지기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "촉수가 돋아난 배의 잔해가 한 척씩 차례로 해수면으로 떠올라 일행을 덮쳤다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "그렇지만 그 공격은 닿기도 전에 메리 셀러스트의 '의장'에 모두 저지당했다.",
@@ -61,11 +61,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "내 '의장'이자 벗인 '아르고'야.",
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아니, 저런 게 있으면 있다고 해야지!",
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아하하, 말하면 충격받을 거 같아서…",
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그럼 이제 우린 어떡해? 그냥 메리가 싸우는 걸 손 놓고 보기만 하면 되는 거야?",
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "저 녀석들… 아르고가 낸 '흠집' 정도는 그 부분을 통째로 재생시켜서 막아내고 있어.",
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇군! 소라게처럼 말이지?",
@@ -330,11 +330,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이대로 계속 싸우면 끝이 없을 거야! 저 재생을 어떻게든 멈추던가, 더디게 만들어야 해!",
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "미안, 조금만 멀리 떨어져 있을게…… (후다닥)",
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐? 정말?",
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "생각해 봐, 난 유령선이잖아? 모습을 감추는 게 주특기인…",
@@ -511,11 +511,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아하하하… 그렇구나~",
@@ -548,11 +548,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아하! 이기면 내가 본고장의 바르바코아를 맛보여 줄게!",
@@ -618,11 +618,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "발사, 발사!!",
@@ -636,13 +636,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_1",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――――!!!!",
 			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
+			say = "――――!!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,8 +688,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "로열 포춘이 발사한 포탄보다 빨리, 다른 방향에서 포탄이 빗방울처럼 쏟아져 괴물에게 직격했다.",
@@ -699,8 +699,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "물기둥이 치솟으며 사방에 물이 흩뿌려지는 소리와 함께, 반파된 잔해에 서식하던 수생 생물이 잘 구워지는 소리가 들려왔다.",
@@ -729,11 +729,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그나저나 누군가 나 말고도 포격을 날렸던 것 같은데…?",
@@ -761,11 +761,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "정말이네! 우릴 쫓아오는 건가?",
@@ -792,20 +792,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
-			say = "여전히 혼란스러운 로열 포춘의 귀에 해역 어딘가에서부터 울려 퍼지는 분노의 소리가 들려왔다.",
 			bgm = "battle-temepest-1",
+			say = "여전히 혼란스러운 로열 포춘의 귀에 해역 어딘가에서부터 울려 퍼지는 분노의 소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "바닷속에서 보랏빛 그림자가 튀어 오르더니, 거센 파도를 일으켰다.",
@@ -815,8 +815,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "원망으로 가득 찬 눈빛으로 이쪽을 노려보는 소녀… 아마도 그녀가 바로 '어드벤처 갤리'이리라.",
@@ -845,11 +845,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아! '어드벤처 갤리' 맞지? 딱 내가 상상한 대로네!",
@@ -863,8 +863,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "어드벤처 갤리는 자신의 이름을 부른 쪽을 향해 천천히 고개를 돌렸다.",
@@ -874,11 +874,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "은거자",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…………?",
@@ -930,8 +930,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "소음을 일으킨 원흉을 앞에 두고 어드벤처 갤리의 표정은 점점 흐려져 갔다.",
@@ -955,8 +955,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -979,8 +979,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1008,8 +1008,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "안타깝게 숙면을 방해받은 갤리는 분노의 포효를 내질렀다.",
@@ -1057,8 +1057,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_1",
 			hidePaintObj = true,
 			say = "커다란 쇠발톱을 휘두르며, 그녀는 '위대한 로열 포춘호'를 향해 그대로 돌진해 왔다.",
@@ -1120,11 +1120,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "bg_jufengv1_1",
 			factiontag = "은거자",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "좋아! 아주 좋아!",

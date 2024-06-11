@@ -2,26 +2,26 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 600083,
 	picture = "",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 600083,
 	effect_list = {
 		{
-			type = "BattleSkillAddFleetBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddFleetBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				fleet_buff_id = 600090
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerMainFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerMainFleet",
 			arg_list = {
 				buff_id = 600092
 			}

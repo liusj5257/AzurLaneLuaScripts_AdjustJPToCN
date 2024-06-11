@@ -1,17 +1,17 @@
 return {
-	id = "SHENGYONGQU15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "聖堂の島・外周海域",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "level-french2",
+			say = "聖堂の島・外周海域",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,11 +31,11 @@ return {
 			}
 		},
 		{
-			say = "――――！！！",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "（ごめんなさいアルジェリー、いくら量産艦を強化したとはいえ、正面切って戦ってこちらが負けるはずがありませんわ）",
 			typewriter = {
@@ -119,8 +119,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "イラストリアスさん、ベアルン、先程言った通りアルジェリーの艤装機関部を攻撃し、無力化を狙ってください",
 			typewriter = {
@@ -133,13 +133,13 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "はい、聖なる光の導きのままに～ふふふ",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,13 +150,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_qiongding_1",
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 807010,
-			side = 2,
-			bgName = "bg_qiongding_1",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "善処します。イラストリアス様、護衛は私めにおまかせを",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,15 +167,15 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "…！この対空砲火は…！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -203,11 +203,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 807010,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "どうやら建物に隠された対空砲によるものですね。一筋縄ではいかないようです",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -274,8 +274,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "このまま戦線を押し切ります！勢いはこちらに！",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "ヴィシアの艦隊、後退し始めました！",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "本当だ。みんな散り散りに……",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,8 +371,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "アルジェリーがそう簡単に撤退するかしら…これは私たちを誘い込む罠ですね",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 201120,
 			dir = 1,
+			actor = 201120,
 			nameColor = "#a9f548",
 			say = "イラストリアスさん、私たちはどうします？",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "数なら敵のほうが有利です。こちらも戦力を分散するとかえって防衛施設との連携で各個撃破される危険性がありますね",
 			typewriter = {
@@ -504,8 +504,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "リシュリューさん、ご命令を",
 			typewriter = {
@@ -521,8 +521,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "……全艦、進路を聖堂のほうに切り替えて",
 			typewriter = {
@@ -554,8 +554,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "前衛艦隊も後退し、追撃せず本隊と合流してください。これより聖堂を目標に移動を開始します",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "（目的が聖堂を守ることならこっちの動きを無視できないはずです。アルジェリー、話の続きはそこでしましょう）",
 			typewriter = {
@@ -585,8 +585,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

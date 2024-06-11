@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"미소 뒤의 진심\n\n<size=45>2 자매와 지휘관</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "리펄스가 비서함 일을 시작한 지 이틀째……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "리펄스가 비서함 일을 시작한 지 이틀째……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "리나운은 질문을 던지면서 책상 위에 쌓인 산더미 같은 서류(잘 정리되어 있긴 했다)에게 시선을 돌렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "맥이 빠진 것 같은 리펄스를 본 리나운은 책상에 앉아 서류 더미에 시선을 돌렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "언니가 도와준다고? 다행이다!",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,15 +232,15 @@ return {
 			}
 		},
 		{
-			actor = 204010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204010,
+			nameColor = "#a9f548",
 			say = "지휘관님, 로열 네이비에 배급할 장비입니다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "디테일한 부분을 짚어주는 리나운의 도움을 받아 서류가 점점 줄어들기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -311,9 +311,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "고개를 들자 잠시 청소를 멈추고 이쪽을 바라보는 리펄스와 눈이 마주쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +325,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "나와 눈이 마주친 리펄스는 황급히 온 힘을 다해서 청소를 하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "지휘관이랑 언니는 정말 찰떡궁합이네. 나도 모르게 바라보고 있었잖아~",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "리펄스는 가볍게 손에 쥔 대걸레를 두드리고 얼렁뚱땅 넘어갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -475,9 +475,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "리펄스는 웃으면서 청소를 하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -489,9 +489,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "언제가 됐건 리나운은 항상 구김살 없이 밝은 모습이다. 하지만 다른 쪽으로 생각하면 그 웃음 속에서 리나운의 진심을 파악하기는 어려워 보인다.",
 			typewriter = {
 				speed = 0.05,

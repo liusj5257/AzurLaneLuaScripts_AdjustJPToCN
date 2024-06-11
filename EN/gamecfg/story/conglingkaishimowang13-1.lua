@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
-			say = "Swarms of flying monsters hang in the sky like dark clouds. They descend upon the wall with the force of a squall.",
 			bgm = "battle-boss-camelot",
+			say = "Swarms of flying monsters hang in the sky like dark clouds. They descend upon the wall with the force of a squall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			say = "Swords and magic and machinery and armor clashed and collided with one another.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "jiulaimu_quzhu",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -60,9 +60,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_qingxun",
 					time = 3,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -79,9 +79,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "jiulaimu_hangmu",
 					time = 3,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -98,9 +98,9 @@ return {
 					}
 				},
 				{
-					delay = 1.8,
 					name = "jiulaimu_zhanlie",
 					time = 3,
+					delay = 1.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			say = "By the time we arrive, there is already a heated battle unfolding in the air above the wall.",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "jiulaimu_qingxun",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -147,9 +147,9 @@ return {
 					}
 				},
 				{
-					delay = 0.3,
 					name = "jiulaimu_qingxun",
 					time = 3,
+					delay = 0.3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -166,9 +166,9 @@ return {
 					}
 				},
 				{
-					delay = 0.8,
 					name = "jiulaimu_quzhu",
 					time = 3,
+					delay = 0.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -185,9 +185,9 @@ return {
 					}
 				},
 				{
-					delay = 1.6,
 					name = "jiulaimu_hangmu",
 					time = 3,
+					delay = 1.6,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -204,9 +204,9 @@ return {
 					}
 				},
 				{
-					delay = 0.8,
 					name = "jiulaimu_zhanlie",
 					time = 3,
+					delay = 0.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Knight Guard",
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
 			say = "This is going to be a fierce battle...",
 			painting = {
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 901130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Knight Guard",
 			dir = 1,
+			actor = 901130,
 			nameColor = "#A9F548FF",
 			say = "Let them come! We are knights of the Royal Army! We shall not falter!",
 			painting = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Knight Banneret",
 			dir = 1,
+			actor = 903020,
 			nameColor = "#A9F548FF",
 			say = "Hold the line! Let not a single monster through!",
 			painting = {
@@ -312,18 +312,18 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "renqitoupiao_daoguang",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_545",
 			factiontag = "Knight Banneret",
 			dir = 1,
+			bgName = "star_level_bg_545",
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "Hey! Sorry I'm late!",
@@ -336,17 +336,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Knight Banneret",
 			dir = 1,
+			actor = 903020,
 			nameColor = "#A9F548FF",
 			say = "The wall's entire raison d'etre is to protect our people against the Demon King Army.",
 			painting = {
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Knight Banneret",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "At any rate, that problem has been dealt with. Now it's time to deal with this one.",
 			painting = {
@@ -622,11 +622,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Knight Banneret",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "The Dragonlord? Heh, I like a challenge.",
 			painting = {
@@ -659,9 +659,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_545",
 			factiontag = "Dragonlord",
 			dir = 1,
+			bgName = "star_level_bg_545",
 			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "Mwahahahaha☆",
@@ -674,17 +674,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -836,11 +836,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "Dragonlord",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "Mwaha☆ They're so desperate, they're relying on adventurers to defend their wall now!",
 			painting = {
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -943,11 +943,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Roger! I've been waiting for an excuse to draw my sword!",

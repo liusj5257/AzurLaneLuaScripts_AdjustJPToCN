@@ -5,8 +5,8 @@ return {
 	id = "LINGHANGYUANHAOGANDU2",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Convergence of Hearts\n\n<size=45>2 The Power of Wishing</size>",
@@ -17,14 +17,14 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "bg_project_tb_room1",
-			tbActor = true,
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-laugh1",
+			bgName = "bg_project_tb_room1",
 			bgm = "qe-ova-10",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			voice = "event:/educate/tb/educate-tb-1-laugh1",
 			say = "Hm-hmm-hm-hmm♪",
 			painting = {
 				alpha = 0.3,
@@ -35,17 +35,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-shy",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-shy",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -90,8 +90,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TB's language and reasoning skills have slowly improved, in no small part thanks to her interaction with the outside world.",
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "She has reached the point of relative fluency by now.",
@@ -115,9 +115,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-shock2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -147,9 +147,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-doubt3",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer4",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer4",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -210,9 +210,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-doubt2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer14",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer14",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -261,9 +261,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer2",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -281,9 +281,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer3",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-angry",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-angry",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer16",
 			side = 2,
 			bgName = "bg_project_tb_room1",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-1-answer16",
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "I think she's trying to say \"fulfilling.\"",
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TB was cut off from her database prior to her entry into this virtual town, but it seems she carried something with her...",
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "Her wish to develop a personality. It's still somewhere inside her.",
@@ -384,9 +384,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-answer1",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -404,9 +404,9 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-1-laugh1",
+			dir = 1,
+			tbActor = true,
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

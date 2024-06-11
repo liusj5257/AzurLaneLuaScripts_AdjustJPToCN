@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGJIE4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WANSHENGJIE4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "すまん、今は緊急事態じゃ――吾輩の作った南瓜焼菓子を見たか？",
 			typewriter = {
 				speed = 0.05,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 306051,
+			say = "うちは見てへんのやけど……どないした？",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:87}",
 			dir = 1,
-			say = "うちは見てへんのやけど……どないした？",
+			actor = 306051,
+			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -55,8 +55,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "陽炎の焼いたパンプキンパイ、消えまひた……",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "全く恨めしいのじゃ！……妹たちに一番美味しい焼菓子を食べさせようと、吾輩は３週間も頑張ったのじゃぞ！まさか焼き上げたばかりに盗まれたとは……",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "パイが焼き上がった後、陽炎が着替えるために部屋に戻っていた間、妾はずっとここでぼーーーーっとしておりました。――そしていつの間に……",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "そうなのじゃ。吾輩が着替え終わった時には全部なくなっていたのじゃ――",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "全部ではございませんよ。一個だけ、妾がいただきました。美味しゅうございました（じゅるり",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "おおお本当じゃな！この姉にウソを言うのは禁止じゃぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:87}",
 			dir = 1,
+			actorName = "{namecode:87}",
 			say = "っちゅうことは、部屋にいたのは二人だけなんやな？",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:87}",
 			dir = 1,
+			actorName = "{namecode:87}",
 			say = "クリーブランドか！？",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "「通りかかった」なのにずっとそこにいたのか…",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "じ――――",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			actor = 301051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "クリーブランドじゃないです。この格好でパイは隠せないのです。",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "海の騎士と名乗るなら、他人の部屋をあまり「通りがかりすぎ」のではなくて……？",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "ハロウィンの準備は十分でございます。姉ぇの分はなくとも……",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "ぬいの分からず屋！何が「姉ぇの分はなくとも」じゃ！妹たちは吾輩の焼菓子を首を長くして待っているのじゃぞ！今すぐもう一度作って…",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "もうすぐで夜なので時間的には無理でございます。それにこの前の試作品はみな食べてしまいました……",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "こ、今回のが一番良い出来だったのじゃぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "ハロウィンはパイ焼きで費やしたら勿体のうございます…みんなが姉ぇを待っておりますよ。",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "ぐぬぬ……もはや作り直しはできぬか…此度の屈辱、この陽炎、忘れぬぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "祥鳳、綾波、クリーブランド……そして大うつけ姉ぇ、良い祝日を……",
 			typewriter = {
 				speed = 0.05,
@@ -446,15 +446,15 @@ return {
 			}
 		},
 		{
-			actor = 306051,
 			actorName = "{namecode:87}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 306051,
+			nameColor = "#a9f548",
 			say = "クリーブランド、ヘレナはなぜ一緒に来ておらへん？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -501,8 +501,8 @@ return {
 			actor = 301051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "それで陽炎たちの寮の前で休んでだのです？",
 			typewriter = {
 				speed = 0.05,
@@ -529,17 +529,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "よぉし、これでバッチリ！うん……本当にバッチリだよね？",
 			side = 2,
-			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			actor = 307060,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "よぉし、これでバッチリ！うん……本当にバッチリだよね？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

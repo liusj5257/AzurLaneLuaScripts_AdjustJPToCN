@@ -9,7 +9,7 @@ slot0.OPEN_RES = "SixthAnniversaryIslandMediator.OPEN_RES"
 slot0.DISPLAY_NODES = "SixthAnniversaryIslandMediator.DISPLAY_NODES"
 slot0.DISPLAY_SHOP = "SixthAnniversaryIslandMediator.DISPLAY_SHOP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(ActivityProxy)
 	slot2 = slot0.viewComponent
 
@@ -115,7 +115,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.initNotificationHandleDic(slot0)
+slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[GAME.ISLAND_EVENT_TRIGGER_DONE] = function (slot0, slot1)
 			slot3 = {}

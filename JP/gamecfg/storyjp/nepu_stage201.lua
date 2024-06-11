@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE201",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE201",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>『異色海域GREEN』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "というわけで──明石が一晩でやってみせたにゃ！",
 			bgm = "level-nep",
+			actor = 312010,
+			actorName = "{namecode:98}",
+			say = "というわけで──明石が一晩でやってみせたにゃ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "むむむ…聞き捨てならないな。私も技術協力したのに……",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:37}",
 			dir = 1,
-			say = "むむむ…聞き捨てならないな。私も技術協力したのに……",
+			actor = 302010,
+			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,8 +102,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "にゃにゃにゃ！人に向けちゃいけないにゃ！？",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			actor = 302010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:37}",
 			dir = 1,
+			actorName = "{namecode:37}",
 			say = "艤装はみんなの思うままにコントロールできるよ…だから、不注意で発射されることはないけど……こっち向けんな！？",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "そういうのは別料金になりますにゃ",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "資金で払ってくれるなら外装も用意できるにゃ。お値段はこんな感じで……",
 			typewriter = {
 				speed = 0.05,
@@ -298,16 +298,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "テスターα",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "事情はわからないけど、彼女たちはまだ全力を出せていない……私たちの知らない、未知の可能性を秘めているようね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "テスターα",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスターα",
 			say = "そして、この次元に順応し、新たな力も獲得しつつある……",
 			typewriter = {
 				speed = 0.05,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "テスターα",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスターα",
 			say = "フフフ……予想以上に面白いことになってきたわね",
 			typewriter = {
 				speed = 0.05,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "テスターα",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスターα",
 			say = "見てみたいわ、彼女たちの更なる可能性……もう少し、経過観察しましょう",
 			typewriter = {
 				speed = 0.05,

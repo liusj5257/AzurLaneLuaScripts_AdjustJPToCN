@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动EX 极天·黑洞 蓄力期间监听",
 	time = 0,
-	color = "red",
+	name = "2022莱莎联动EX 极天·黑洞 蓄力期间监听",
+	init_effect = "",
+	id = 200135,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200135,
+	color = "red",
 	icon = 200135,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.8
+				number = -0.8,
+				attr = "injureRatio"
 			}
 		},
 		{

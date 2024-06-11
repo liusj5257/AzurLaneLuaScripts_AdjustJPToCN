@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"쥬르네 쉬르쿠프\n\n<size=45>쉬르쿠프의 점심</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 식당",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 식당",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "지휘관, 고기 완자하고 문어 비엔나, 그리고 이거…… 응, 이것도, 이것도! 줘!",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = "1",
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "어머, 오늘도 지휘관하고 같이 점심이야? 사이 좋네.",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = "2",
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "후후, 그러네. 아, 오늘은 과자를 좀 만들었어. 먹고 싶으면 나중에 또 와.",
 			typewriter = {
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "정말? 잘됐다~ 지휘관, 일 끝나면 됭케르크네에 과자 먹으러 가자!",
 			typewriter = {
 				speed = 0.05,
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -304,9 +304,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "확실히 쉬르쿠프는 평소에는 늘어진 것 처럼 보여도……",
 			typewriter = {
 				speed = 0.05,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "전투나 임무에 대해서는 나쁜 소문은 커녕 오히려 평가가 아주 좋다고 들었다.",
 			typewriter = {
 				speed = 0.05,

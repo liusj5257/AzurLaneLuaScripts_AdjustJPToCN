@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_buqu",
-				number = 0.105
+				number = 0.105,
+				attr = "DMG_FROM_TAG_1_buqu"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_buqu",
-				number = 0.105
+				number = 0.105,
+				attr = "DMG_FROM_TAG_2_buqu"
 			}
 		}
 	}

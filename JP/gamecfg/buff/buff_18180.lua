@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "北风2",
 	init_effect = "",
+	id = 18180,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 18180,
+	color = "red",
 	icon = 18180,
 	last_effect = "",
 	effect_list = {
@@ -50,8 +50,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 18180,
+				target = "TargetSelf",
 				countType = 18180
 			}
 		}

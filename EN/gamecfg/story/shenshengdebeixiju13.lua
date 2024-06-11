@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU13",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>At the edge of that gloomy forest, three beasts blocked my path</size>",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -64,8 +64,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -89,15 +89,15 @@ return {
 			}
 		},
 		{
-			say = "The Royal Islands",
-			side = 2,
 			bgName = "bg_italy_cg4",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "The Royal Islands",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Victorious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Formidable",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			actorName = "Victorious",
 			dir = 1,
+			actorName = "Victorious",
 			say = "Hey, Formidable, I didn't appreciate that extra comment!",
 			dialogShake = {
 				speed = 0.09,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Victorious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Victorious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Formidable",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			actorName = "Illustrious",
 			dir = 1,
+			actorName = "Illustrious",
 			say = "Heavens, no! *cough* *cough*",
 			dialogShake = {
 				speed = 0.09,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "Illustrious turned bright red and nearly spilled her tea.",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Formidable",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -392,12 +392,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Could I interest the two of you in a trip to the Mediterranean?",
 			typewriter = {
 				speed = 0.05,

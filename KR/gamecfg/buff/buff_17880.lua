@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17880,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17880,
+	color = "red",
 	icon = 17880,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				skill_id = 17880,
 				target = "TargetSelf",
+				skill_id = 17880,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -45,9 +45,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				maxTargetNumber = 1,
 				skill_id = 17881,
-				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

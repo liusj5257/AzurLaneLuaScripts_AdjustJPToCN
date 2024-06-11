@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「Schmelzen」\n\n<size=45>四　出撃</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある海域",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "ある海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "ティルピッツが旗艦を担当した、海域パトロール艦隊の航行中にて――",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 401190,
+			say = "集中してください！このタイミングに敵が現れたらどうするんですか？",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "集中してください！このタイミングに敵が現れたらどうするんですか？",
+			actor = 401190,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -140,15 +140,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "そろそろ折り返しポイントに到着よ。母港へ帰還する準備でもしてちょうだい。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,10 +173,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 401190,
 			actorName = "Z19&Z20&Z21",
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			actor = 401190,
+			say = "レーダーに敵反応！セイレーンの駆逐艦隊です！",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "レーダーに敵反応！セイレーンの駆逐艦隊です！",
+			actor = 401190,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			bgName = "bg_story_nepu1",
 			say = "大口径砲による猛烈な砲撃がしばらく続いた。",
+			bgName = "bg_story_nepu1",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 401190,
+			say = "ティルピッツさんからの支援砲撃です…敵艦隊全滅確認！",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ティルピッツさんからの支援砲撃です…敵艦隊全滅確認！",
+			actor = 401190,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -410,16 +410,16 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "（私…一体……）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

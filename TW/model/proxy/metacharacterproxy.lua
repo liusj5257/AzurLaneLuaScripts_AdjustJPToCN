@@ -2,7 +2,7 @@ slot0 = class("MetaCharacterProxy", import(".NetProxy"))
 slot0.METAPROGRESS_UPDATED = "MetaCharacterProxy:METAPROGRESS_UPDATED"
 slot1 = pg.ship_strengthen_meta
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.data = {}
 	slot0.metaProgressVOList = {}
 	slot0.metaTacticsInfoTable = nil
@@ -98,7 +98,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.getMetaProgressVOList(slot0)
+slot0.getMetaProgressVOList = function(slot0)
 	for slot4, slot5 in ipairs(slot0.metaProgressVOList) do
 		slot5:setDataBeforeGet()
 	end
@@ -106,7 +106,7 @@ function slot0.getMetaProgressVOList(slot0)
 	return slot0.metaProgressVOList
 end
 
-function slot0.getMetaProgressVOByID(slot0, slot1)
+slot0.getMetaProgressVOByID = function(slot0, slot1)
 	slot2 = slot0.data[slot1]
 
 	assert(slot2, "progressVO is null:" .. slot1)
@@ -118,7 +118,7 @@ function slot0.getMetaProgressVOByID(slot0, slot1)
 	return slot2
 end
 
-function slot0.setAllProgressPTData(slot0, slot1)
+slot0.setAllProgressPTData = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot6.group_id
 		slot8 = slot0.data[slot7]
@@ -128,17 +128,17 @@ function slot0.setAllProgressPTData(slot0, slot1)
 	end
 end
 
-function slot0.updateRedTag(slot0, slot1)
+slot0.updateRedTag = function(slot0, slot1)
 	if slot0.redTagTable[slot1][1] == true then
 		slot0.redTagTable[slot1][2] = true
 	end
 end
 
-function slot0.getRedTag(slot0, slot1)
+slot0.getRedTag = function(slot0, slot1)
 	return slot0.redTagTable[slot1][2] == false and slot2[1] == true
 end
 
-function slot0.isHaveVaildMetaProgressVO(slot0)
+slot0.isHaveVaildMetaProgressVO = function(slot0)
 	for slot5, slot6 in ipairs(slot0:getMetaProgressVOList()) do
 		if slot6:isShow() then
 			return true
@@ -148,7 +148,7 @@ function slot0.isHaveVaildMetaProgressVO(slot0)
 	return false
 end
 
-function slot0.setMetaTacticsInfo(slot0, slot1)
+slot0.setMetaTacticsInfo = function(slot0, slot1)
 	slot0.metaTacticsInfoTable = slot0.metaTacticsInfoTable or {}
 	slot2 = slot1.ship_id
 
@@ -161,7 +161,7 @@ function slot0.setMetaTacticsInfo(slot0, slot1)
 	end
 end
 
-function slot0.addExpToMetaTacticsInfo(slot0, slot1)
+slot0.addExpToMetaTacticsInfo = function(slot0, slot1)
 	if slot0.metaTacticsInfoTable[slot1.ship_id] then
 		slot3:updateExp(slot1)
 		slot3:printInfo()
@@ -170,7 +170,7 @@ function slot0.addExpToMetaTacticsInfo(slot0, slot1)
 	end
 end
 
-function slot0.switchMetaTacticsSkill(slot0, slot1, slot2)
+slot0.switchMetaTacticsSkill = function(slot0, slot1, slot2)
 	if slot0.metaTacticsInfoTable[slot1] then
 		slot3:switchSkill(slot2)
 		slot3:printInfo()
@@ -179,7 +179,7 @@ function slot0.switchMetaTacticsSkill(slot0, slot1, slot2)
 	end
 end
 
-function slot0.unlockMetaTacticsSkill(slot0, slot1, slot2, slot3)
+slot0.unlockMetaTacticsSkill = function(slot0, slot1, slot2, slot3)
 	slot0.metaTacticsInfoTable = slot0.metaTacticsInfoTable or {}
 
 	if slot0.metaTacticsInfoTable[slot1] then
@@ -201,7 +201,7 @@ function slot0.unlockMetaTacticsSkill(slot0, slot1, slot2, slot3)
 	slot4:printInfo()
 end
 
-function slot0.requestMetaTacticsInfo(slot0, slot1, slot2)
+slot0.requestMetaTacticsInfo = function(slot0, slot1, slot2)
 	if #(slot1 or getProxy(BayProxy):getMetaShipIDList()) == 0 then
 		return
 	end
@@ -217,7 +217,7 @@ function slot0.requestMetaTacticsInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getMetaTacticsInfoByShipID(slot0, slot1)
+slot0.getMetaTacticsInfoByShipID = function(slot0, slot1)
 	if not slot0.metaTacticsInfoTable then
 		return MetaTacticsInfo.New()
 	end
@@ -225,13 +225,13 @@ function slot0.getMetaTacticsInfoByShipID(slot0, slot1)
 	return slot0.metaTacticsInfoTable[slot1] or MetaTacticsInfo.New()
 end
 
-function slot0.printAllMetaTacticsInfo(slot0)
+slot0.printAllMetaTacticsInfo = function(slot0)
 	for slot4, slot5 in pairs(slot0.metaTacticsInfoTable) do
 		slot5:printInfo()
 	end
 end
 
-function slot0.setMetaTacticsInfoOnStart(slot0)
+slot0.setMetaTacticsInfoOnStart = function(slot0)
 	if slot0.startRecordTag then
 		return
 	end
@@ -254,7 +254,7 @@ function slot0.setMetaTacticsInfoOnStart(slot0)
 	end
 end
 
-function slot0.getMetaTacticsInfoOnEnd(slot0)
+slot0.getMetaTacticsInfoOnEnd = function(slot0)
 	if not slot0.metaTacticsInfoTableOnStart then
 		return false
 	end
@@ -293,12 +293,12 @@ function slot0.getMetaTacticsInfoOnEnd(slot0)
 	return slot1
 end
 
-function slot0.clearMetaTacticsInfoRecord(slot0)
+slot0.clearMetaTacticsInfoRecord = function(slot0)
 	slot0.metaTacticsInfoTableOnStart = nil
 	slot0.startRecordTag = false
 end
 
-function slot0.setMetaSkillLevelMaxInfo(slot0, slot1, slot2)
+slot0.setMetaSkillLevelMaxInfo = function(slot0, slot1, slot2)
 	slot4 = slot2.skill_id
 	slot6 = slot2.skill_exp
 	slot7 = slot2.day_exp
@@ -326,15 +326,15 @@ function slot0.setMetaSkillLevelMaxInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getMetaSkillLevelMaxInfoList(slot0)
+slot0.getMetaSkillLevelMaxInfoList = function(slot0)
 	return slot0.metaSkillLevelMaxInfoList or {}
 end
 
-function slot0.clearMetaSkillLevelMaxInfoList(slot0)
+slot0.clearMetaSkillLevelMaxInfoList = function(slot0)
 	slot0.metaSkillLevelMaxInfoList = nil
 end
 
-function slot0.tryRemoveMetaSkillLevelMaxInfo(slot0, slot1, slot2)
+slot0.tryRemoveMetaSkillLevelMaxInfo = function(slot0, slot1, slot2)
 	if slot0.metaSkillLevelMaxInfoList and #slot0.metaSkillLevelMaxInfoList > 0 then
 		slot3 = nil
 
@@ -355,7 +355,7 @@ function slot0.tryRemoveMetaSkillLevelMaxInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setLastMetaSkillExpInfo(slot0, slot1, slot2)
+slot0.setLastMetaSkillExpInfo = function(slot0, slot1, slot2)
 	slot4 = slot2.skill_id
 	slot6 = slot2.skill_exp
 	slot7 = slot2.day_exp
@@ -370,11 +370,11 @@ function slot0.setLastMetaSkillExpInfo(slot0, slot1, slot2)
 	})
 end
 
-function slot0.getLastMetaSkillExpInfoList(slot0)
+slot0.getLastMetaSkillExpInfoList = function(slot0)
 	return slot0.lastMetaSkillExpInfoList or {}
 end
 
-function slot0.clearLastMetaSkillExpInfoList(slot0)
+slot0.clearLastMetaSkillExpInfoList = function(slot0)
 	slot0.lastMetaSkillExpInfoList = nil
 end
 

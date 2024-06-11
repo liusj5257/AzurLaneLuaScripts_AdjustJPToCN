@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_137 = {}
 slot1 = slot0.word_template_137
 
-function temp()
+temp = function()
 	uv0["雪"] = {
 		["腿"] = {
 			["玉"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["潮"] = {
 		["喷"] = {
 			this = true
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["堕"] = {
 		["淫"] = {
 			this = true
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["胸"] = {
 		["濤"] = {
 			["乳"] = {

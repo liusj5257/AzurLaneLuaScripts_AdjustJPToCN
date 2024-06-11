@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ローザ・ストーリア\n\n<size=45>三 世話焼かれる指揮官</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "科学研究室の経費については……",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（トントン）",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "どうも～",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "トレントさん？",
 			typewriter = {
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ザラが珍しく驚く顔を見せた。",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "よかった～指揮官もいますね～",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "重桜の美味しいご飯を食べさせてくれて、ありがとうございます",
 			typewriter = {
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "あれ？食堂に連れて行っただけでは…",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "そこで、仕事の時間なら執務室にいるんじゃないかなーっておもいました！",
 			typewriter = {
@@ -210,9 +210,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そりゃ執務室にいるよな…",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "というわけで…えい！",
 			typewriter = {
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "！？",
 			typewriter = {
 				speed = 0.05,
@@ -255,13 +255,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "トレントはこちらの顔を胸に抱き寄せた",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -289,8 +289,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "いい子いい子、うんうん、よくできました～",
 			typewriter = {
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "なんだか幸せな気分になった。",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "トレントさん、今は執務中よ？いくらなんでもそれは――うぉ！？",
 			typewriter = {
@@ -334,14 +334,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "トレントはザラの顔を胸に抱き寄せた。",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "ザラもありがとうね～カラビニエーレちゃんの件はよくできました～",
 			typewriter = {
@@ -377,14 +377,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 603010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "じゃあ失礼しますわ。お仕事頑張ってくださ～い",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（パタン）",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "あ、相変わらずマイペースな方ね…こればかりは私でもうまく相手できないわ",
 			typewriter = {
@@ -440,9 +440,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……ザラにこんなことを言わせるとは…これは要注意人物に違いないな…",
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "……指揮官はトレントさんにああされて嬉しそうね。私もしてあげよっか？",
 			typewriter = {
@@ -471,9 +471,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ん？",
 			typewriter = {
 				speed = 0.05,
@@ -501,9 +501,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "！（今度はザラに抱きつかれた）",
 			typewriter = {
 				speed = 0.05,
@@ -518,8 +518,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "顔が真っ赤ね。トレントのと私のと、どっちがいいか言ってみなさい？",
 			typewriter = {

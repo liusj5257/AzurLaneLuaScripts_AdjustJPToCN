@@ -1,10 +1,10 @@
 slot0 = class("SuperBulinPopView", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SuperBulinPopView"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.bulinAnim = slot0._tf:Find("Bulin"):GetComponent("SpineAnimUI")
 
 	slot0.bulinAnim:SetActionCallBack(nil)
@@ -43,7 +43,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI06",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI06",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 204010,
 			side = 0,
-			bgm = "level03",
-			dir = 1,
 			say = "로열 네이비의 리나운이 동맹 함대에 연락 드립니다! 지금부터 귀 함대에 합류하겠습니다!",
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

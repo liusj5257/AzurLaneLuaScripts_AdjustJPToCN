@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「ともに港から出撃してくれて、背中を預けてくれる味方がいて」</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"小さな出来事\n\n<size=45>三　戦友たち</size>",
@@ -39,15 +39,15 @@ return {
 			}
 		},
 		{
-			say = "母港・演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "母港・演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "そういえば、シャルンホルスト姉妹たちとの共同訓練は毎週やっているよね。",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "それだけでなく、実戦の時でもお互い助け合っている。",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "一緒に戦ってくれる仲間なら、指揮官が言ってた「やりたいこと」の本当の意味がわかるかもしれない。",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "シャルンホルストさんとグナイゼナウさん、どちらに聞いたほうが――",
 			typewriter = {
 				speed = 0.05,
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#a9f548",
 			say = "私のやりたいこと？",
 			typewriter = {
 				speed = 0.05,
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#a9f548",
 			say = "もちろん強くなって、もっと強い敵を倒すことよ",
 			typewriter = {
 				speed = 0.05,
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#a9f548",
 			say = "どんな敵が相手でも引かないのは私の流儀だわ",
 			typewriter = {
 				speed = 0.05,
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 404020,
+			nameColor = "#a9f548",
 			say = "「やりたいこと」ですか。……いい質問ですね",
 			typewriter = {
 				speed = 0.05,
@@ -327,12 +327,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 404020,
+			nameColor = "#a9f548",
 			say = "目下の目標は指揮官の補佐と、暴走しがちな姉さんの制御ですね",
 			typewriter = {
 				speed = 0.05,
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

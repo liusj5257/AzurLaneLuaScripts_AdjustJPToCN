@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29461,
 	picture = "",
 	desc = "主武器每进行12次攻击，触发专属弹幕-谢菲尔德μI",
 	stack = 1,
-	id = 29461,
+	color = "red",
 	icon = 29460,
 	last_effect = "",
 	effect_list = {
@@ -30,8 +30,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29461,
+				target = "TargetSelf",
 				countType = 29460
 			}
 		}

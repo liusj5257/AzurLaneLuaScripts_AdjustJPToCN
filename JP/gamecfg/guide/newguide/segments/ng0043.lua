@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "「！」がついている施設をタップして様子を見てみよう！",
 				mode = 1,
-				posY = 250,
 				dir = -1,
+				posY = 250,
 				posX = -92,
 				uiFunc = function ()
 					slot0 = {}

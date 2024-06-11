@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023黑神通 战斗较长时间后开始变得脆弱",
 	time = 46,
+	name = "2023黑神通 战斗较长时间后开始变得脆弱",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

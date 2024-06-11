@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAOFENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAOFENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Full Steam Ahead!\n\n<size=45>5 Double Bunny Trouble</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_108",
-			say = "City - Amusement Park",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "City - Amusement Park",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "After how successful our museum trip was, I decided to take Shimakaze out to see another one of the city's attractions.",
@@ -69,10 +69,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Holy smoke! I see we're visiting an amusement park this time! This is going to be awesome!",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "We'd only just arrived, and she was already bubbling with excitement. Things were off to a good start.",
@@ -112,10 +112,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All right then, time to conduct our \"inspection tour\"! I'll catch up with you later!",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,10 +146,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Gotta go fast!",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 1,
 					x = 2500
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "And just like that, she ran off on her own.",
@@ -187,15 +187,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_108",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "La-de-dum~♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ooh, so this place is a house of mirrors! Everywhere I look there's a funny-looking clone of me!",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_108",
 			side = 2,
+			bgName = "star_level_bg_108",
 			dir = 1,
+			actor = 101170,
 			actorName = "???",
 			say = "...",
 			typewriter = {
@@ -267,10 +267,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Whoa! Now this is a truly wacky take on my appearance!",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,10 +311,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Whuah?! Did... Did the mirror just speak?! I must've entered a haunted house instead...",
 			dialogShake = {
 				speed = 0.08,
@@ -347,12 +347,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...Oh! It's you! Laffey from the Eagle Union!",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -374,8 +374,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "Finally, with the guidance of a Manjuu park employee, I managed to catch up with Shimakaze.",
@@ -408,10 +408,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Aaahhh! Noooo! My heart can't handle hauntings, or scary stuff in generaaaaal!",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "And what a strange situation I found her in...",
@@ -448,15 +448,15 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_108",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "Thanks for treating me to lunch. I guess it's lucky I happened to come here today...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -484,10 +484,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "No, thank you for gracing me with your presence! I'm simply honored to meet one of the Eagle Union's most renowned destroyers!",
 			typewriter = {
 				speed = 0.05,
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_108",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "Well, sure... Who's paying, by the way...?",
 			typewriter = {
 				speed = 0.05,
@@ -521,8 +521,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			blackBg = true,

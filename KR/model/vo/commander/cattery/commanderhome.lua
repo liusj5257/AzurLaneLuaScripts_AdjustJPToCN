@@ -1,6 +1,6 @@
 slot0 = class("CommanderHome", import("...BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.level = slot1.level
 	slot0.configId = slot0.level
 	slot0.exp = slot1.exp
@@ -26,25 +26,25 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.commander_home
 end
 
-function slot0.GetLevel(slot0)
+slot0.GetLevel = function(slot0)
 	return slot0.level
 end
 
-function slot0.GetMaxLevel(slot0)
+slot0.GetMaxLevel = function(slot0)
 	slot1 = slot0:bindConfigTable()
 
 	return slot1.all[#slot1.all]
 end
 
-function slot0.IsMaxLevel(slot0)
+slot0.IsMaxLevel = function(slot0)
 	return slot0:GetMaxLevel() <= slot0.level
 end
 
-function slot0.AddExp(slot0, slot1)
+slot0.AddExp = function(slot0, slot1)
 	slot0.exp = slot0.exp + slot1
 
 	while slot0:CanUpgrade() do
@@ -54,7 +54,7 @@ function slot0.AddExp(slot0, slot1)
 	end
 end
 
-function slot0.UpdateExpAndLevel(slot0, slot1, slot2)
+slot0.UpdateExpAndLevel = function(slot0, slot1, slot2)
 	if slot0.level < slot1 then
 		slot0:LevelUp(slot1)
 	end
@@ -62,12 +62,12 @@ function slot0.UpdateExpAndLevel(slot0, slot1, slot2)
 	slot0.exp = slot2
 end
 
-function slot0.LevelUp(slot0, slot1)
+slot0.LevelUp = function(slot0, slot1)
 	slot0.level = slot1
 	slot0.configId = slot1
 end
 
-function slot0.CanUpgrade(slot0)
+slot0.CanUpgrade = function(slot0)
 	if slot0:GetNextLevelExp() <= slot0.exp and not slot0:IsMaxLevel() then
 		return true
 	end
@@ -75,41 +75,41 @@ function slot0.CanUpgrade(slot0)
 	return false
 end
 
-function slot0.GetNextLevelExp(slot0)
+slot0.GetNextLevelExp = function(slot0)
 	return slot0:getConfig("home_exp")
 end
 
-function slot0.GetPrevLevelExp(slot0)
+slot0.GetPrevLevelExp = function(slot0)
 	return slot0:bindConfigTable()[slot0.level - 1] and slot1[slot0.level - 1].home_exp or 0
 end
 
-function slot0.GetCatteries(slot0)
+slot0.GetCatteries = function(slot0)
 	return slot0.catterys
 end
 
-function slot0.GetCatteryById(slot0, slot1)
+slot0.GetCatteryById = function(slot0, slot1)
 	return slot0.catterys[slot1]
 end
 
-function slot0.GetAllLevel(slot0)
+slot0.GetAllLevel = function(slot0)
 	return slot0:bindConfigTable().all
 end
 
-function slot0.IsHeadLevel(slot0, slot1)
+slot0.IsHeadLevel = function(slot0, slot1)
 	return slot0:GetAllLevel()[1] == slot1
 end
 
-function slot0.isTailLevel(slot0, slot1)
+slot0.isTailLevel = function(slot0, slot1)
 	slot2 = slot0:GetAllLevel()
 
 	return slot2[#slot2] == slot1
 end
 
-function slot0.GetLevelConfig(slot0, slot1)
+slot0.GetLevelConfig = function(slot0, slot1)
 	return slot0:bindConfigTable()[slot1]
 end
 
-function slot0.GetTargetExpForLevel(slot0, slot1)
+slot0.GetTargetExpForLevel = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = 1, slot1 - 1 do
@@ -119,15 +119,15 @@ function slot0.GetTargetExpForLevel(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetClean(slot0)
+slot0.GetClean = function(slot0)
 	return slot0.clean
 end
 
-function slot0.IncCleanValue(slot0)
+slot0.IncCleanValue = function(slot0)
 	slot0.clean = slot0.clean + slot0:getConfig("flower")[1]
 end
 
-function slot0.ReduceClean(slot0)
+slot0.ReduceClean = function(slot0)
 	slot1 = false
 	slot2 = slot0:getConfig("flower")[2]
 
@@ -140,7 +140,7 @@ function slot0.ReduceClean(slot0)
 	end
 end
 
-function slot0.GetCleanLevel(slot0)
+slot0.GetCleanLevel = function(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0:getConfig("flower")[3]) do
@@ -152,15 +152,15 @@ function slot0.GetCleanLevel(slot0)
 	return slot2
 end
 
-function slot0.GetOwnStyles(slot0)
+slot0.GetOwnStyles = function(slot0)
 	return slot0:getConfig("nest_appearance")
 end
 
-function slot0.GetMaxCatteryCnt(slot0)
+slot0.GetMaxCatteryCnt = function(slot0)
 	return slot0:getConfig("nest_number")
 end
 
-function slot0.GetCatteriesCommanders(slot0)
+slot0.GetCatteriesCommanders = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0:GetCatteries()) do
@@ -172,7 +172,7 @@ function slot0.GetCatteriesCommanders(slot0)
 	return slot1
 end
 
-function slot0.ResetCatteryOP(slot0)
+slot0.ResetCatteryOP = function(slot0)
 	for slot5, slot6 in pairs(slot0:GetCatteries()) do
 		if slot6:ExistCommander() then
 			slot6:ResetOP()
@@ -180,11 +180,11 @@ function slot0.ResetCatteryOP(slot0)
 	end
 end
 
-function slot0.GetFeedCommanderExp(slot0)
+slot0.GetFeedCommanderExp = function(slot0)
 	return slot0:getConfig("feed_level")[2]
 end
 
-function slot0.AnyCatteryExistOP(slot0)
+slot0.AnyCatteryExistOP = function(slot0)
 	for slot4, slot5 in pairs(slot0:GetCatteries()) do
 		if not slot5:IsLocked() and (slot5:ExiseFeedOP() or slot5:ExistPlayOP() or slot5:ExistCleanOP()) then
 			return true
@@ -194,7 +194,7 @@ function slot0.AnyCatteryExistOP(slot0)
 	return false
 end
 
-function slot0.AnyCatteryCanUse(slot0)
+slot0.AnyCatteryCanUse = function(slot0)
 	for slot4, slot5 in pairs(slot0:GetCatteries()) do
 		if slot5:GetState() == Cattery.STATE_EMPTY then
 			return true
@@ -204,15 +204,15 @@ function slot0.AnyCatteryCanUse(slot0)
 	return false
 end
 
-function slot0.GetFeedLevel(slot0)
+slot0.GetFeedLevel = function(slot0)
 	return slot0:getConfig("feed_level")[1]
 end
 
-function slot0.GetPlayLevel(slot0)
+slot0.GetPlayLevel = function(slot0)
 	return slot0:getConfig("teast_level")[1]
 end
 
-function slot0.GetExistCommanderCattertCnt(slot0)
+slot0.GetExistCommanderCattertCnt = function(slot0)
 	slot1 = 0
 
 	for slot6, slot7 in pairs(slot0:GetCatteries()) do
@@ -224,7 +224,7 @@ function slot0.GetExistCommanderCattertCnt(slot0)
 	return slot1
 end
 
-function slot0.CommanderInHome(slot0, slot1)
+slot0.CommanderInHome = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot0:GetCatteries()) do
 		if slot7:GetCommanderId() == slot1 then
 			return true
@@ -234,7 +234,7 @@ function slot0.CommanderInHome(slot0, slot1)
 	return false
 end
 
-function slot0.ShouldSettleCattery(slot0)
+slot0.ShouldSettleCattery = function(slot0)
 	for slot5, slot6 in pairs(slot0:GetCatteries()) do
 		if slot6:ExistCommander() and slot6:ExistCacheExp() then
 			return true

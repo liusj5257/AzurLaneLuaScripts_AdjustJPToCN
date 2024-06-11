@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "全弹发射附加鱼雷",
 	time = 0,
-	color = "red",
+	name = "全弹发射附加鱼雷",
+	init_effect = "",
+	id = 13192,
 	picture = "",
 	desc = "全弹发射附加鱼雷",
 	stack = 1,
-	id = 13192,
+	color = "red",
 	icon = 13190,
 	last_effect = "",
 	effect_list = {
@@ -39,8 +39,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 13192,
+				target = "TargetSelf",
 				countType = 13190
 			}
 		}

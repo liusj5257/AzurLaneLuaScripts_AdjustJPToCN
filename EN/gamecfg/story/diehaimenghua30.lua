@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA30",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "(No titanic enemies... No threats... No conflicts...)",
 			bgm = "bsm-2",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "(No titanic enemies... No threats... No conflicts...)",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(...and no Crimson Axis... Nay, this is a peaceful world in which even Azur Lane is rendered unnecessary...)",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Alas, this is the \"truth\" that I sought... the future that avoids ruination... in which both humanity and the Sakura Empire find salvation...)",
 			typewriter = {
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "(At last, the final fragment that I sought...)",
+			bgName = "bg_xinnong2_7",
 			bgm = "main-newyear",
+			actorName = "{namecode:182}",
+			say = "(At last, the final fragment that I sought...)",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_7",
+			dir = 1,
 			say = "Suddenly, the wind picked up, carrying a flurry of cherry blossoms that seemed to dye the entire landscape. Shinano turned her head, and saw... a girl who \"should not have been.\"",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:161}",
 			dir = 1,
+			actorName = "{namecode:161}",
 			say = "The Shinano in front of me must surely be from a distant, distant place— *cough* *cough*...",
 			dialogShake = {
 				speed = 0.09,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "(......!)",
 			dialogShake = {
 				speed = 0.09,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "(This... is just a dream... All I am here to do is to collect these fragments and seek the future...)",
 			dialogShake = {
 				speed = 0.09,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -466,11 +466,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "...Do I...?",
 			dialogShake = {
 				speed = 0.09,
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Come with me then. Surely what you're looking for lies ahead.",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	id = "W221000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W221000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "적 함대를 격파하고, 세이렌 방어선 돌파.",
 			typewriter = {
 				speed = 0.05,

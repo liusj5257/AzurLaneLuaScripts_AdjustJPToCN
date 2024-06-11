@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "喂，标枪，这场战斗结束后，我们去约会吧！",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,9 +39,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "居然被飒爽地拒绝了……但是，正是这样的妳才更加迷人啊~",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			say = "和正在呼吸的某个女高中生呢。",
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "和正在呼吸的某个女高中生呢。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -141,8 +141,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "嗯，不过目击了出轨现场的情况之后，很想说不认识并且毫不留情地把她丢在这里……",
 			typewriter = {
 				speed = 0.05,
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "啊哈哈，吹雪的想法也不是不能理解，不过，还是拜托妳们去支援她们了！",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

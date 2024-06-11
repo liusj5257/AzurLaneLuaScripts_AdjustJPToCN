@@ -1,12 +1,12 @@
 return {
-	id = "W1114",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1114",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海面上出現了塞壬隱藏的資源！",
 			typewriter = {
 				speed = 0.05,

@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行12次攻击，触发全弹发射-得梅因级I"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 20271,
 	picture = "",
 	desc = "主炮每进行12次攻击，触发全弹发射-得梅因级I",
 	stack = 1,
-	id = 20271,
+	color = "red",
 	icon = 20200,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 20271,
+				target = "TargetSelf",
 				countType = 20270
 			}
 		}

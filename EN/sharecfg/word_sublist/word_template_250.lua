@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_250 = {}
 slot1 = slot0.word_template_250
 
-function temp()
+temp = function()
 	uv0["润"] = {
 		["色"] = {
 			["美"] = {
@@ -25,7 +25,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["若"] = {
 		["林"] = {
 			["菜"] = {
@@ -107,7 +107,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["撒"] = {
 		["尿"] = {
 			this = true
@@ -163,7 +163,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["萨"] = {
 		["达"] = {
 			["姆"] = {
@@ -265,7 +265,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["薩"] = {
 		["達"] = {
 			["姆"] = {
@@ -284,7 +284,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["塞"] = {
 		["白"] = {
 			this = true
@@ -382,7 +382,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赛"] = {
 		["车"] = {
 			["风"] = {

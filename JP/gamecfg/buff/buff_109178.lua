@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 2,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 109178,
 	picture = "",
 	desc = "处理精灵消耗",
 	stack = 1,
-	id = 109178,
+	color = "red",
 	icon = 109170,
 	last_effect = "",
 	effect_list = {

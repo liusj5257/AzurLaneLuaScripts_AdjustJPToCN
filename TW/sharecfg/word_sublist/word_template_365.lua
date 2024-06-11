@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_365 = {}
 slot1 = slot0.word_template_365
 
-function temp()
+temp = function()
 	uv0["蠢"] = {
 		["猪"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["废"] = {
 		["物"] = {
 			this = true
@@ -26,7 +26,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["妳"] = {
 		["老"] = {
 			["母"] = {
@@ -70,7 +70,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["仆"] = {
 		["街"] = {
 			this = true

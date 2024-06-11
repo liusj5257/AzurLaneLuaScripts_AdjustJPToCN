@@ -1,18 +1,18 @@
 return {
-	id = "HUAPOHAIKONGZHIYI2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI2",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level",
 			actor = 107230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "前方發現了小股重櫻艦隊，應該是島嶼的駐防艦隊吧。",
-			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "周邊沒有發現其他敵人，也沒有收到重櫻主力艦隊的情報......嗯，把它們吃下吧。",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

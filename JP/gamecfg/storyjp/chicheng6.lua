@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ヒガンバナの恋\n\n<size=45>その六　闇の中の告白</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "指揮官様は赤城の言うことを聞いていればいいの……赤城を悲しませてはダメ……",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "指揮官様は赤城の言うことを聞いていればいいの……赤城を悲しませてはダメ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "そう言って赤城が体をこちらに寄せてくる、そしてそのまま――",
 			typewriter = {
@@ -76,13 +76,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "…………！？",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			actor = 0,
+			nameColor = "#a9f548",
+			say = "…………！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "包丁で切れた指を赤城が咥えた。",
 			typewriter = {
@@ -103,15 +103,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "指揮官様を傷つけるなんて…赤城はそんなことをしませんわ。たとえ指揮官様が敵になろうとも――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "指先の感触はほのかに涼しい。",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "既に何度も聞いた言葉にもかかわらず、赤城の本気が伝わってくる。",
 			typewriter = {
@@ -230,14 +230,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 0,
-			optionFlag = 1,
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			say = "……",
 			withoutPainting = true,
+			side = 0,
+			blackBg = true,
+			dir = 1,
+			optionFlag = 1,
+			actor = 0,
+			nameColor = "#a9f548",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,12 +248,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "――指揮官様が赤城に頼るだけではなく、「赤城も指揮官様に」と……",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（ぺこり）",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "赤城に強く抱きしめられた。",
 			typewriter = {

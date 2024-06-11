@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023古立特联动复刻 TSS2 宝多六花 突破边界线",
 	time = 0,
-	id = 200493,
+	name = "2023古立特联动复刻 TSS2 宝多六花 突破边界线",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200493,
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				group = 8002,
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		}
 	}

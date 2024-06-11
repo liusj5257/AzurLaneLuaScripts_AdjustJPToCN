@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "清扫工作",
 	time = 0,
-	color = "red",
+	name = "清扫工作",
+	init_effect = "",
+	id = 17730,
 	picture = "",
 	desc = "主炮每进行20次攻击，触发增益效果",
 	stack = 1,
-	id = 17730,
+	color = "red",
 	icon = 17730,
 	last_effect = "",
 	effect_list = {
@@ -39,8 +39,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 17730,
+				target = "TargetSelf",
 				countType = 17730
 			}
 		},

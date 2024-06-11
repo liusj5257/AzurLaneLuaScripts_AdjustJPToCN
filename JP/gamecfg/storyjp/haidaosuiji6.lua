@@ -4,8 +4,8 @@ return {
 	fadeOut = 1,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "島を探検していると、なにやら不気味な洞窟を見つけた。",
 			typewriter = {
 				speed = 0.05,
@@ -13,8 +13,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "心なしか、中で何かが光っているように見える。",
 			typewriter = {
 				speed = 0.05,
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャベリン",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "ちょっと怖いですね…猛獣の住処だったりするのかな…？",
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ラフィー",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "意外なものを見つけられるかも…ふかふかの抱き枕とか…",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "綾波",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "こんな山奥に抱き枕はさすがにないです…あ。洞窟ってことはゲームでよく見かけるボーナスがあるかもです。宝箱とか",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Z23",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "野生動物が生活している痕跡は見当たりませんし、もう長い間荒れていたと思いますよ。指揮官、どうします？",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "ノーリスクノーリターン…あなたが下した判断は――",
 			typewriter = {
 				speed = 0.05,

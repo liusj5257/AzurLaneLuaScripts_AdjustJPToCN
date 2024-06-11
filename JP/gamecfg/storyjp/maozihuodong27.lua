@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG27",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG27",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 1,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "無駄無駄無駄！あいつがコンストラクトしたこの要塞ではあたしを絶対に倒せないんだよ！",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900188,
 			dir = 1,
+			actor = 900188,
 			say = "あの攻撃、照準装置だけでなく視界にも影響するよ！",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "艦載機もダメ！攻撃が全然当たらない！",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 7,
 			side = 0,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "なら当てることを諦めればいいわ！",
 			typewriter = {
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "…！！",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "こっちは火力が上回っているわ！撃ち続けて、手応えがあり次第集中砲火すれば当たるわよ！",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "ああ！北方連合の戦い方を思い知らせてやる！",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "制圧射撃、ぶっ放すわよ！",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツカヤ・ロシア",
+			side = 2,
 			bgName = "bg_cccp_4",
 			nameColor = "#a9f548",
 			dir = 1,

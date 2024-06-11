@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "霞飞共斗一阶段过场锁血",
 	time = 0,
-	color = "blue",
+	name = "霞飞共斗一阶段过场锁血",
+	init_effect = "",
+	id = 8993,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8993,
+	color = "blue",
 	icon = 8993,
 	last_effect = "",
 	effect_list = {

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.05
+					number = -0.05,
+					type = 23
 				}
 			},
 			{
@@ -32,8 +32,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.072
+					number = -0.072,
+					type = 23
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.094
+					number = -0.094,
+					type = 23
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.116
+					number = -0.116,
+					type = 23
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.138
+					number = -0.138,
+					type = 23
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.16
+					number = -0.16,
+					type = 23
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.182
+					number = -0.182,
+					type = 23
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.204
+					number = -0.204,
+					type = 23
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.226
+					number = -0.226,
+					type = 23
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.25
+					number = -0.25,
+					type = 23
 				}
 			},
 			{
@@ -239,9 +239,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 50,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "准备速度提高",
 	stack = 1,

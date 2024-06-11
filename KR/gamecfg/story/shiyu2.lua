@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"걱정 많은 그녀는 진지해\n\n<size=45>2. 야마시로 언니를 위해서라면</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301150,
-			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "으아…… 생각했던 것보다 더 심각한데……！",
 			bgm = "story-1",
+			actor = 301150,
+			nameColor = "#a9f548",
+			say = "으아…… 생각했던 것보다 더 심각한데……！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "시구레가 말한 것처럼, 본전으로 향하는 참배길은 잔가지와 낙엽으로 가득했다.",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "비뚤어진 나무가 길을 막지 않은 것은 불행 중 다행이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "참배길의 상황을 본 후, 시구레는 급하게 본전으로 내달렸다——————",
 			typewriter = {
 				speed = 0.05,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "——시구레, 그리고…… 나리? 여기에 어떻게!?",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "야마시로는 빗자루를 들고 서있었다. 낙엽과 나뭇가지를 청소하는 중인 것 같았다.",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "야마시로에게 모항 내 재난 피해 상황을 확인하던 도중에 시구레를 만나 이곳에 오게 됐다고 설명했다.",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "인력도 모자르니, 여기서 청소를 도와줘야겠다——",
 			typewriter = {
 				speed = 0.05,
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "야마시로가 급하게 몸을 본전 쪽으로 돌리다가, 자신의 기모노 자락을 밟았다.",
 			typewriter = {
 				speed = 0.05,
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "조심해——!",
 			effects = {
 				{
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "넘어지는 궤적을 예측이라도 하듯 시구레가 야마시로에게 달려가 아슬아슬한 위기를 넘겼다.",
 			effects = {
 				{
@@ -420,9 +420,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "역시 오랜 시간을 함께한 동료다. 시구레는 야마시로에게 일어난 돌발 상황에 대한 대처가 완벽했다.",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103060,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "애틀란타, 들어봐봐~ 우리 인디가 말이지………",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,14 +38,14 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 304020,
+			nameColor = "#92fc63",
 			say = "역시 와줬군요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,14 +115,14 @@ return {
 			}
 		},
 		{
-			actor = 102060,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102060,
+			nameColor = "#92fc63",
 			say = "상대는 전의가 넘치는 것 같네.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -162,8 +162,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUIHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUIHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Ceremonial Gala\n\n<size=45>Chapter 3: Taihou and Albacore</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Dormitory",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Dormitory",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "I have my materials and my tools. Almost ready to start sewing.",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Now, how about the Manjuus I borrowed from Akashi...",
 			typewriter = {
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "The Manjuus gathered up their assigned tools, eager to begin.",
 			typewriter = {
 				speed = 0.05,
@@ -106,11 +106,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "Ahahaha! When I think of my darling Commander getting seduced by my ravishing outfit oh... Oh! OH! How I LOVE it!",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -132,20 +132,20 @@ return {
 			}
 		},
 		{
-			actor = 108020,
+			say = "Need a hand?",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Need a hand?",
+			actor = 108020,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
 				y = -750
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 0
@@ -164,8 +164,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Aaah! A-A-A-A-Albacore?!",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Uuuuuuughhh...",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1500,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -217,8 +217,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "... Oops. I just wanted to scare you. Didn't mean to konk you out.",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Heyyy, Taihou. Wakey waaakeeeyyy!",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -258,15 +258,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
 			say = "30 Minutes Later",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -290,11 +290,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			bgm = "story-1",
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "... Where, where am I...? I had this terrible dream about Albacore in my room...",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,20 +305,20 @@ return {
 			}
 		},
 		{
-			actor = 108020,
+			say = "Oh, that wasn't a dream. I'm really here~",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, that wasn't a dream. I'm really here~",
+			actor = 108020,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
 				y = -750
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 0
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "Uuuuuuughhh...",
 			typewriter = {
 				speed = 0.05,
@@ -350,8 +350,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -300,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -362,8 +362,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Hey, don't go back to sleep. Manjuus, do me a favor and grab a glass of water.",
 			typewriter = {
@@ -379,10 +379,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 307070,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "What are you doing here? Get out of my room!",
+			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -397,8 +397,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -426,8 +426,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "... Hang out? Since when are we friends? Since when do we not hate each other?",
 			typewriter = {
@@ -459,8 +459,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "... Fine. Whatever. I really couldn't care less. The past is the past. Water under the bridge.",
 			typewriter = {
@@ -492,10 +492,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorScale = 1.1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "Don't you dare pester my Commander, unless you want your throat sl–",
 			effects = {
 				{
@@ -513,11 +513,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Heyyyy now! Didn't we just agree to be friends?!",
 			effects = {
 				{
@@ -535,8 +535,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -545,13 +545,13 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "This has nothing to do with back then. This is about protecting my dear, sweet, beloved Commander...",
 			soundeffect = "event:/battle/plane",
+			actor = 307070,
+			nameColor = "#a9f548",
+			say = "This has nothing to do with back then. This is about protecting my dear, sweet, beloved Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,8 +581,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Okay okay! I get it! I won't steal away the Commander!",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -608,8 +608,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Call back your planes already! You're scaring the Manjuus.",
 			typewriter = {
@@ -622,8 +622,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -635,8 +635,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Phew... You gave me a heart attack.",
 			typewriter = {
@@ -684,8 +684,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "And you know at a big event like that, there's a pretty good chance of running into the Commander~",
 			typewriter = {
@@ -701,8 +701,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Oh... i-is that right? I might be able to stand going with you...",
 			typewriter = {
@@ -715,12 +715,12 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Yaaaaay~",
 			typewriter = {
 				speed = 0.05,
@@ -732,8 +732,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,

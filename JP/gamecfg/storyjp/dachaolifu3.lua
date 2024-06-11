@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOLIFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOLIFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シンプルパーティー？\n\n<size=45>三 それぞれの楽しみ方</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "もちろん、パーティーの楽しみ方は飲むだけではなかった――",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "もちろん、パーティーの楽しみ方は飲むだけではなかった――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 301143,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301143,
+			nameColor = "#a9f548",
 			say = "お肉！お肉食べるぞ！はむはむはむはむ――うぉおお！お肉パーティー最高おお！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 307051,
 			dir = 1,
+			actor = 307051,
 			nameColor = "#a9f548",
 			say = "……はあ、夕立ったらお肉に目がないわね…",
 			typewriter = {
@@ -111,14 +111,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_115",
 			actor = 408041,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "47発見！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "どうしたのですか？せっかくの鉄血主催のパーティーだし、手伝うとまではいかなくてもみんなと楽しんだほうがいいですよ",
 			typewriter = {
@@ -163,10 +163,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 408022,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……面倒だからパスよ。そっちは適当で",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 408041,
 			dir = 1,
+			actor = 408041,
 			nameColor = "#a9f548",
 			say = "ええ！でもパーティーは人が多いほうが楽しいらしいよ！ほら、美味しいものでも食べ回りに行こうよ！",
 			typewriter = {
@@ -214,10 +214,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 408022,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はあ…本当はここにひとりでいたいのに…",
 			typewriter = {
 				speed = 0.05,
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 408041,
 			dir = 1,
+			actor = 408041,
 			nameColor = "#a9f548",
 			say = "へへへ！そう言わないで！",
 			typewriter = {
@@ -248,14 +248,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_115",
 			actor = 499011,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "平和な母港に心温まるパーティー、そして笑い合う仲間たち…素晴らしいですけど…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 499011,
 			dir = 1,
+			actor = 499011,
 			nameColor = "#a9f548",
 			say = "ちょっとだけ、面白みがなく感じますね…",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 199011,
 			dir = 1,
+			actor = 199011,
 			nameColor = "#a9f548",
 			say = "ローンどうしたんすか？なんか今すっごーい微妙そうな顔してたっすよ？",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 199011,
 			dir = 1,
+			actor = 199011,
 			nameColor = "#a9f548",
 			say = "いやぁ～鉄血主催の宴会だからもうちょっとこう…ハイになってもいいっすよ？",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 499011,
 			dir = 1,
+			actor = 499011,
 			nameColor = "#a9f548",
 			say = "……あ、シアトルに伊吹？ふふ、みんな来てくれたんですね～",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 399012,
 			dir = 1,
+			actor = 399012,
 			nameColor = "#a9f548",
 			say = "お、おはようございます…すみません、伊吹、「ぱーてぃー」というのは初めてでして",
 			typewriter = {
@@ -400,9 +400,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 499011,
 			dir = 1,
 			blackBg = true,
+			actor = 499011,
 			nameColor = "#a9f548",
 			say = "そうですね～みんな自分なりの楽しみ方がありますから～シアトル、伊吹、会場の案内をご一緒してもいいでしょうか？",
 			typewriter = {

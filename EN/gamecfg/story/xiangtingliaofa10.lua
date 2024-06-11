@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 102230,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Damn it... Is this really the end?",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -90,8 +90,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "Man, they sure dumped a ton of dirty work in my lap this time. Hey, what's-your-name, Burnie-sham? You still with me? Heellloooo? Come on, get up!",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 102070,
 			side = 0,
-			nameColor = "#a9f548",
-			say = "P-please stay away from us!",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
+			actor = 102070,
+			nameColor = "#a9f548",
+			say = "P-please stay away from us!",
 			flashN = {
 				color = {
 					1,
@@ -163,8 +163,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "Whoa, there! Didn't your mom teach you not to point guns at people, little girl? Especially in your state! Look at you, you're barely able to see me through those tears!",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "Tell you what: plead for your lives like you mean it and I might just spare you~",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "After all, you're so insignificant that your fates aren't worth the brain cells it takes to remember!",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "Juneau... Don't worry about me, just get out of here...!",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -267,8 +267,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101020,
 			dir = 1,
+			actor = 101020,
 			say = "Juneau! Baltimore! Thank goodness, you're still okay!",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
+			say = "Aha~ Bingo! You showed up right on schedule, just like Observer predicted~",
 			side = 1,
 			nameColor = "#ff5c5c",
-			actorName = "Purifier",
 			dir = 1,
-			say = "Aha~ Bingo! You showed up right on schedule, just like Observer predicted~",
+			actor = 900021,
+			actorName = "Purifier",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -373,8 +373,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "The lead actors haven't assembled yet... but you chumps are going to get front row seats!!",
 			typewriter = {
 				speed = 0.05,

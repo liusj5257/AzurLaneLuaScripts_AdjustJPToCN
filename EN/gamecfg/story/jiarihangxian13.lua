@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "JIARIHANGXIAN13",
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "We've had a wonderful show so far, haven't we, nya? Now it's time to close it off... with the final round, nya!",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,10 +62,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 312010,
 			say = "The red team! The demon of legend, Nyotengu!",
 			effects = {
 				{
@@ -85,9 +85,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10600060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hehehe, I've been waiting for this moment.",
 			effects = {
 				{
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -163,8 +163,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "Hoh, what a lively one. Let us see if you live up to my expectations, hehehe.",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
+			actor = 307060,
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:96}&{namecode:95}",
@@ -267,10 +267,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 312010,
 			say = "Oh boy... Um, final round, start, nya!",
 			effects = {
 				{

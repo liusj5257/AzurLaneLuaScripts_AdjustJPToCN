@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUIHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUIHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"스페셜 파티\n\n<size=45>에식스의 고민</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 대강당",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 대강당",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,12 +94,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "에식스님? 네, 이쪽은 문제없습니다. 나머지는 저희 로열 메이드대에 맡겨주십시오.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "에식스님? 네, 이쪽은 문제없습니다. 나머지는 저희 로열 메이드대에 맡겨주십시오.",
+			actor = 202120,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "고마워요. 후… 대강당이 이렇게까지 변한 걸 보니, 역시 감동스럽네요……",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#92fc63",
 			say = "에식스님, 요 며칠 간 여러모로 도움을 주신 점, 다시 한번 감사드립니다.",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "그런가요…갑자기 그렇게 말씀해주셔도 사실 별로 갈 곳도 없으니, 역시 연습전 해역에……",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "이 목소리는……!?",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -424,10 +424,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "엔터프라이즈 선배, 지금 뭐라고……",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -477,8 +477,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "전단지? 이것은……",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "「항공모함 그룹에는 특별 게스트 '엔터프라이즈' 가 참가한다냥! 결승전은 VS 엔터프라이즈다냥!」",
 			typewriter = {
@@ -556,12 +556,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#92fc63",
 			say = "어때? 참가하고 싶어지지 않나?",
 			typewriter = {
 				speed = 0.05,

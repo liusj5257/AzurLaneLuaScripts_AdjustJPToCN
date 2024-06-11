@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑反击BOSS战 监听BUFF",
 	time = 0,
+	name = "黑反击BOSS战 监听BUFF",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 8985,
-	picture = "",
-	last_effect = "",
 	icon = 8985,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

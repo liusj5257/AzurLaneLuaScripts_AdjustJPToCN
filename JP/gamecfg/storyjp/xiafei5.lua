@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"天使とのランデブー\n\n<size=45>五 天使とカモメ</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "手を繋いだまま適当に歩いていると、いつの間にか埠頭近くまでたどり着いた。",
 			bgm = "story-richang-8",
+			say = "手を繋いだまま適当に歩いていると、いつの間にか埠頭近くまでたどり着いた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,10 +29,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "下まで降りて、潮風に当たってみましょう",
 			painting = {
 				alpha = 0.3,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "群れをなしたカモメがぱさぱさと水面から飛び立ち、跳ね上げた水しぶきが四方に飛び散った。",
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "それを見たジョッフルは即座に背中の翼を広げ、飛んでくる水しぶきを防いでくれた。",
@@ -90,8 +90,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "眩しい日差しの中で翼を広げた少女を前にして、思わず感嘆を漏らした。",
@@ -104,10 +104,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そのように呼ばれてはいますね",
 			painting = {
 				alpha = 0.3,
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ところで、指揮官は「本物」の天使はどんな姿をしていると思いますか？",
 			painting = {
 				alpha = 0.3,
@@ -163,10 +163,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……？今の結論に至った理由を聞かせていただいてもいいでしょうか？",
 			painting = {
 				alpha = 0.3,
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私は…",
 			painting = {
 				alpha = 0.3,
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "最後まで聞いてほしい、とジョッフルの唇に自分の指を当てた。",
@@ -293,10 +293,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -311,10 +311,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、今の発言…まるで愛の告白みたいですね",
 			painting = {
 				alpha = 0.3,
@@ -329,10 +329,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ですが…ふふ、そう言っていただけてとても嬉しいです",
 			painting = {
 				alpha = 0.3,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "ほんのり笑みを見せ、天使はそっとこちらに近づき、自分の肩に頭を寄せてきた。",
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "さきほど飛び去ったカモメの群れが再び戻ってきて、二羽ずつ番いをなし、寄り添い合っている。",
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "――まるで今の……自分とジョッフルのように。",

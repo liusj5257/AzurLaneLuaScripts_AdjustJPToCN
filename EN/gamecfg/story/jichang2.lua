@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "Port - Exercise Area",
 			dir = 1,
 			bgm = "level",
+			nameColor = "#a9f548",
+			say = "Port - Exercise Area",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,8 +51,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "You might have an idea of what it's about from the title alone. \"Operation: Muse System.\"",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "Basically, there will be other teams using the same... no, it's possible that other teams may have more powerful equipment than us.",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "...Of course, there will also be units that do not utilize the Muse System.",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "These girls were about to take on an unprecedented operation. Tension rises as sparks fly through the air, as the hour of battle nears... Or so it should be, yet these girls do not appear to be affected at all.",
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "I-I guess you're right... ahaha. Sorry, I guess I was a bit too nervous.",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Sounds about the same as what I heard. It's just I got my info from Sara.",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "By the way, the head maid has already obtained Her Majesty's permission to use the mass-produced ships.",
 			typewriter = {
@@ -514,8 +514,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Holo targets?",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "I-I think I'd receive orders to be scuttled for that...",
 			typewriter = {
@@ -644,8 +644,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "That's right! Everyone, let's head over to the exercise area!",
 			typewriter = {
@@ -658,8 +658,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -671,9 +671,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "All right. Everyone, please follow me.",
 			typewriter = {

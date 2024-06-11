@@ -1,8 +1,8 @@
 return {
-	id = "SAICHEDAFUWENGEVENT5-3",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "SAICHEDAFUWENGEVENT5-3",
+	skipTip = false,
 	scripts = {
 		{
 			say = "You found something while the mysterious purple phantom of the racetrack shows up! You received 20 T3 Gear Parts!",

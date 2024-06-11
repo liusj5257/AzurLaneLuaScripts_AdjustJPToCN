@@ -12,12 +12,12 @@ return {
 	desc_get = "天袭者起飞计时",
 	name = "",
 	init_effect = "",
+	id = 16213,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16213,
+	color = "red",
 	icon = 16213,
 	last_effect = "",
 	effect_list = {
@@ -38,9 +38,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 16210,
 				time = 12,
-				target = "TargetSelf",
-				skill_id = 16210
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 16216,
-				target = "TargetSelf",
-				time = 12
+				time = 12,
+				target = "TargetSelf"
 			}
 		}
 	}

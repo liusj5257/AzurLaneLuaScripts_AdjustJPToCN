@@ -1,7 +1,7 @@
 slot0 = class("NavTacticsDockyardScene", import("view.ship.DockyardScene"))
 slot1 = 7
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.toggleTr = slot0:findTF("toggle_nav")
@@ -11,10 +11,10 @@ function slot0.init(slot0)
 	setActive(slot0.toggleTr, true)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 
-	function slot1()
+	slot1 = function()
 		slot0 = uv0.isShowRecent
 
 		setActive(uv0.toggleOnTr, slot0)
@@ -49,17 +49,17 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.GetCard(slot0, slot1)
+slot0.GetCard = function(slot0, slot1)
 	return NavTacticsDockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)
 end
 
-function slot0.OnClickCard(slot0, slot1)
+slot0.OnClickCard = function(slot0, slot1)
 	if slot1.shipVO then
 		uv0.super.OnClickCard(slot0, slot1)
 	end
 end
 
-function slot0.onUpdateItem(slot0, slot1, slot2)
+slot0.onUpdateItem = function(slot0, slot1, slot2)
 	uv0.super.onUpdateItem(slot0, slot1, slot2)
 
 	if slot0.isShowRecent and slot1 + 1 <= uv1 then
@@ -67,7 +67,7 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnRecentShips(slot0, slot1)
+slot0.OnRecentShips = function(slot0, slot1)
 	slot0.recentShips = slot1
 
 	if #slot0.recentShips > 0 then
@@ -75,7 +75,7 @@ function slot0.OnRecentShips(slot0, slot1)
 	end
 end
 
-function slot0.updateShipCount(slot0, slot1)
+slot0.updateShipCount = function(slot0, slot1)
 	if slot0.isShowRecent and #slot0.recentShips > 0 then
 		for slot5 = #slot0.recentShips + 1, uv0 do
 			table.insert(slot0.shipVOs, 1, false)
@@ -91,7 +91,7 @@ function slot0.updateShipCount(slot0, slot1)
 	end
 end
 
-function slot0.CollectionRecentShips(slot0)
+slot0.CollectionRecentShips = function(slot0)
 	slot1 = {}
 
 	for slot6 = #getProxy(NavalAcademyProxy):GetRecentShips(), 1, -1 do
@@ -107,7 +107,7 @@ function slot0.CollectionRecentShips(slot0)
 	return slot1
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	uv0.super.willExit(slot0)
 	setActive(slot0.toggleTr, false)
 end

@@ -1,7 +1,7 @@
 return {
-	init_effect = "xuanyun",
-	name = "公海舰队活动 塔干扰-旋涡",
 	time = 0,
+	name = "公海舰队活动 塔干扰-旋涡",
+	init_effect = "xuanyun",
 	picture = "",
 	desc = "减速",
 	stack = 1,

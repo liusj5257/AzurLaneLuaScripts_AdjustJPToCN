@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 同盟",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 同盟",
+	init_effect = "",
+	id = 200867,
 	picture = "",
 	desc = "",
 	stack = 10,
-	id = 200867,
+	color = "yellow",
 	icon = 200867,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 200
+				number = 200,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 200
+				number = 200,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 200
+				number = 200,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 200
+				number = 200,
+				attr = "airPower"
 			}
 		},
 		{
@@ -61,8 +61,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 200
+				number = 200,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -72,8 +72,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 200
+				number = 200,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -83,8 +83,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 200
+				number = 200,
+				attr = "dodgeRate"
 			}
 		}
 	}

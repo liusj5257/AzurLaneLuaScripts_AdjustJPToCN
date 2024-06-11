@@ -1,18 +1,18 @@
 slot0 = class("SettingsAgreementPanle", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsAgreement"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("Settings_title_agreement")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / VIEW AGREEMENT"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("private"), function ()
@@ -26,7 +26,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 end
 
 return slot0

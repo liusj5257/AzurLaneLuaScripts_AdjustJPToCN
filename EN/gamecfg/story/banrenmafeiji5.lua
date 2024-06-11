@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Midsummer Sagittarius\n\n<size=45>Chapter 5 - The Iron Blood Front</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 206040,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Elder Javelin, the Elders from the Iron Blood have arrived.",
 			bgm = "story-1",
+			actor = 206040,
+			nameColor = "#a9f548",
+			say = "Elder Javelin, the Elders from the Iron Blood have arrived.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "Oh, you're right!",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "They're all dressed up in swimsuits as well!",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,12 +92,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "Last year, Eugen was the only one who wore a swimsuit...",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -112,12 +112,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "Heeey! Over here~!",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Heeey! Over here~!",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.08,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Elder Z25, Elder Z46, it is a pleasure to meet you both.",
 			typewriter = {
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 401251,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 401251,
+			nameColor = "#a9f548",
 			say = "Hwuh? P-p-pleased to meet you...",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.08,
 					x = 0,
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Zweifü, Viersechs, you can have some of my food as well!",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -323,12 +323,12 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			say = "Do I look like the type that enjoys group activities?",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Do I look like the type that enjoys group activities?",
+			actor = 407011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 407011,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 407011,
+			nameColor = "#a9f548",
 			say = "Fine... Mmf!! What is this exquisite sweetness...!",
 			typewriter = {
 				speed = 0.05,
@@ -391,8 +391,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -433,12 +433,12 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			say = "So you're the carrier who's gained quite the notoriety for calling everyone your \"Elder...\"",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "So you're the carrier who's gained quite the notoriety for calling everyone your \"Elder...\"",
+			actor = 405021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -488,8 +488,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "(whispers) Elder Javelin, these two Elders seem to be very nice people.",
 			typewriter = {
@@ -502,12 +502,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "(whispers) That's right... They may seem hard to approach at first, but they're actually very nice.",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "(whispers) That's right... They may seem hard to approach at first, but they're actually very nice.",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -538,12 +538,12 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			say = "Eugen seems to have planted some strange ideas in her head. She's been going on and on about \"the optimal method of seducing Commander with a swimsuit\" and ran off to find Eugen as soon as she arrived at the beach.",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Eugen seems to have planted some strange ideas in her head. She's been going on and on about \"the optimal method of seducing Commander with a swimsuit\" and ran off to find Eugen as soon as she arrived at the beach.",
+			actor = 405021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -622,11 +622,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Tirpitz, are you actually the sporty type?",
 			typewriter = {
 				speed = 0.05,
@@ -638,8 +638,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -664,12 +664,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "No, no! I just thought that was a great idea since we had all these sweets to eat! Let's all play some volleyball~!",
 			typewriter = {
 				speed = 0.05,
@@ -681,8 +681,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,

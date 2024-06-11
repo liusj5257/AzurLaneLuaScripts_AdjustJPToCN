@@ -24,9 +24,9 @@ return {
 			style = {
 				text = "點擊一片地圖外區域，可以進入作戰總覽介面。",
 				mode = 2,
-				posY = -160,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -160,
 				posX = 450
 			},
 			showSign = {
@@ -67,9 +67,9 @@ return {
 			style = {
 				text = "在作戰總覽中，點擊地圖內亮起的海域。",
 				mode = 2,
-				posY = -300,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -300,
 				posX = 200
 			},
 			showSign = {
@@ -113,9 +113,9 @@ return {
 			style = {
 				text = "點擊進入海域，即可完成區域移動。紅色光柱為主線任務海域，不斷壓制普通海域，向著主線任務進發吧！",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 0,
 				posX = 300
 			}
 		},
@@ -124,9 +124,9 @@ return {
 			style = {
 				text = "請點擊此處返回作戰海域中。",
 				mode = 2,
-				posY = 245.23,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 245.23,
 				posX = -552.4
 			},
 			ui = {
@@ -135,11 +135,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -76.32,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 238.9,
-					rotateY = 0
+					posX = -76.32
 				}
 			}
 		},

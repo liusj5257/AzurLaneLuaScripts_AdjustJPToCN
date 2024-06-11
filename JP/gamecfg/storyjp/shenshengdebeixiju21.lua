@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU21",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "ロイヤル本島",
 			side = 2,
 			bgName = "bg_italy_cg4",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "ロイヤル本島",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーミダブル",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "フォーミダブルは紅茶を優雅に飲みながら、自慢気に二人の姉に報告していた",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーミダブル",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーミダブル",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "3人の平和な時が続く。",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィクトリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィクトリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーミダブル",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーミダブル",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴィクトリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			actorName = "クイーン・エリザベス",
 			dir = 1,
+			actorName = "クイーン・エリザベス",
 			say = "こっちのセリフよ！あんたたち、私に隠れてお茶会してるなんてどういうこと！？",
 			dialogShake = {
 				speed = 0.09,
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg4",
+			dir = 1,
 			say = "小さな女王陛下は従者を連れて登場した。",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ベルファスト",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "もしよろしければ、私たちのお土産話でも聞いてくださいませ～",
 			typewriter = {
 				speed = 0.05,

@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE19",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE19",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "hunhe-battle",
+			say = "파나마 요새 서쪽·외해, 조금 전",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
-			say = "파나마 요새 서쪽·외해, 조금 전",
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_1",
+			dir = 1,
 			say = "안개가 점점 짙어지면서 점점 더 많은 세이렌 함대가 요새를 공격하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_1",
+			dir = 1,
 			say = "하지만……",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "좋아요. 주둔함대로 적을 유인해 요새의 지원 포격으로 처리한다, 계획대로군요.",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "비축해둔 물자 역시… 문제없어요! 이대로라면 몇 달은 버틸 수 있겠군요.",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "흥. 덤벼보시죠, 세이렌. 파나마 요새가 여러분의 무덤이 될 테니까요.",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "세이렌 함대의 거센 공세를 이렇게 가볍게 받아치다니! 나이스한 작전이었어, 카사블랑카.",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "저는 병참 보조를 책임지고 있기에 전방에서의 경험은 없지만… 제 작전을 채택해주셔서 영광이에요.",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "이렇게 단순할 줄이야…",
 			typewriter = {
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			say = "펑------!",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑------!",
 			flashN = {
 				color = {
 					1,
@@ -270,8 +270,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "?!! 무슨 일이죠?!",
 			typewriter = {
@@ -303,8 +303,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "세이렌 함대가 최전선 함대의 저지를 무시하고 요새를 공격했어!",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "우리 계획을 알아차린 건가요?! 어떻게서든 그들의 시선을 끌 방법은 없나요?",
 			typewriter = {
@@ -337,11 +337,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "안돼, 할 수 없어. 세이렌이 우리의 공격을 전부 무시하고 있어. 격침당해도 반격하지 않아. 자살 특공대나 마찬가지야.",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -408,8 +408,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "너무해… 그런 명령을 내리다니! 자신의 함대라도 장기말로 쓴다는 건가…",
 			typewriter = {
@@ -457,11 +457,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "계속 방어만 한다면 요새가 버틸 수 없을 거야! 어떡하지, 전술을 바꿀까?",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -528,8 +528,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "세이렌이 모든 것을 바쳐서라도 파나마 요새를 파괴하겠다면 이쪽도 더 간단해져…",
 			typewriter = {
@@ -542,11 +542,11 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107170,
+			nameColor = "#a9f548",
 			say = "모든 것을 바쳐서 파나마 요새를 보호하면 되니까. 이번에는 이쪽에서 먼저 공격한다. 요새로 접근하는 세이렌을 전부 처리해!",
 			effects = {
 				{

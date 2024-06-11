@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"着せ替え特集　春節2023　②\n\n<size=45>一 闇夜彩る華灯</size>",
@@ -14,14 +14,14 @@ return {
 			}
 		},
 		{
-			live2d = "main2",
+			hidePaintObj = true,
 			side = 2,
-			bgName = "star_level_bg_128",
 			dir = 1,
+			bgName = "star_level_bg_128",
 			bgm = "main-chunjie3",
 			actor = 206072,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main2",
 			say = "「東風夜に吹かば、火樹銀花（かじゅぎんか）咲き誇らん」",
 			painting = {
 				alpha = 0.3,
@@ -32,17 +32,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "「落英繽紛（らくえいひんぷん）散りゆくは、星雨の如し。高車駟馬（こうしゃしば）道行かば、香り靡かれし」",
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "「悠々たりし笛声、皓々たりし月光、闇夜彩る華灯、滝昇る鯉の如く空を舞う」",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "ベランダに佇み、銀髪の少女は静かに詩を詠んでいる。",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "夜風に軽やかに舞う薄紗、曖昧な夜色に溶け込んだ華やかな灯火も、彼女の輝きの前では霞んで見えた。",
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "指揮官…先ほどから静かにされていて、どうかしましたか？",
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もしや…詠み間違えてしまったでしょうか…？",
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "う、美しいだなんて…",
@@ -174,11 +174,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それは畏れ多いです…",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "ほんの少し伏せ目になり、アルビオンはこちらに礼を述べた。",
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "誘ったのは彼女自身にもかかわらず、相当緊張しているようだ。",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "ここにいて…指揮官は退屈とかしてませんか…？",
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もし退屈でしたら、その…街をぶらぶらしませんか？",
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "賑やかですし、き、きっと楽しいものも…",
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "アルビオンは一生懸命提案しながらも、ますますガチガチになった…早く彼女の緊張をほぐさないと。",
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "あっ、これは海天先輩が贈ってくださった詩です",
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もし今夜、指揮官と二人きりになることがあったら…",
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "煌びやかな夜景を背景に歌ってみるといいかも、とか…",
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "でも…海天先輩はこの詩には後半があるとも言ってました",
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それを指揮官に教えてもらってこそ、趣をうまく添えられると…",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "それが…よくわからなかったんです…",
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "ええと…文からは…賑やかな街の雰囲気が感じ取れるので、祝日か何かの行事が書かれているんだと思います",
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それから、華やかな街の景色に、花火に彩られた夜空…",
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それと、飾られたカラフルな灯籠に…夜遊を楽しむたくさんの人々…",
@@ -513,11 +513,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "…まるで今の母港のようですね。ふふ",
@@ -567,11 +567,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "きれい…",
@@ -609,11 +609,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "作者の揺れ動く心情が伝わってきました…",
@@ -627,11 +627,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "談笑も歓声も、他人事のように遠く…",
@@ -645,11 +645,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ただかの人を捜し求め、喧騒の中を渡り歩くも…杳として知れない…",
@@ -663,11 +663,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ふと振り向くと、消え入りそうな明かりの元、やっと思い人の姿があったと…",
@@ -693,11 +693,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "し、指揮官…///",
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "い、いいえ…よければ、アルビオンと一緒に、ここに残ってください",
@@ -741,11 +741,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "街には街の華やかさがありますが、ここにはここの情緒があります",
@@ -759,11 +759,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "それに…ベランダの外の花がちょうど咲き頃ですし",
@@ -777,11 +777,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "屋内のお茶も…香り高く…",
@@ -795,11 +795,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ちょうどできましたね。指揮官、どうぞ",
@@ -813,11 +813,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "このお茶で、仕切り直しはいかがでしょう――",

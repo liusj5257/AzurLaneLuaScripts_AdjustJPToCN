@@ -1,16 +1,16 @@
 slot0 = class("WorldBossHPAwardPanel", import("view.base.BaseSubView"))
 
-function slot0.Ctor(slot0, ...)
+slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.buffer = FuncBuffer.New()
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldBossHPAwardWindow"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setText(slot0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
 
 	slot0.itemList = slot0:findTF("window/panel/viewport/list")
@@ -25,17 +25,17 @@ function slot0.OnInit(slot0)
 	slot0.buffer:ExcuteAll()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.UpdateView(slot0, slot1)
+slot0.UpdateView = function(slot0, slot1)
 	slot0:Show()
 
 	slot2 = slot1:GetHP()

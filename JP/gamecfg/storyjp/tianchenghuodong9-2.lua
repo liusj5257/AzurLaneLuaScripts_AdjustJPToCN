@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG9-2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG9-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 1,
-			bgm = "nagato-map",
 			say = "……",
+			side = 1,
+			dir = 1,
+			bgm = "nagato-map",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			actorName = "{namecode:91}",
 			side = 2,
+			dir = -1,
 			say = "姉さまが…これで連合艦隊の旗艦に……！",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 		{
 			actor = 305050,
 			nameColor = "#a9f548",
+			dir = -1,
 			withoutActorName = true,
 			side = 2,
-			dir = -1,
 			say = "長門の声が一気に低くなった。",
 			typewriter = {
 				speed = 0.05,

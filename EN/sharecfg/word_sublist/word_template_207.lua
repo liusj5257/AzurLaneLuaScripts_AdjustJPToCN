@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_207 = {}
 slot1 = slot0.word_template_207
 
-function temp()
+temp = function()
 	uv0["苗"] = {
 		["独"] = {
 			this = true
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["妙"] = {
 		["美"] = {
 			["人"] = {
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["灭"] = {
 		["掉"] = {
 			["所"] = {
@@ -200,7 +200,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["滅"] = {
 		["族"] = {
 			this = true
@@ -210,7 +210,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["民"] = {
 		["办"] = {
 			["真"] = {
@@ -623,7 +623,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["緡"] = {
 		this = {
 			this = true
@@ -633,7 +633,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闵"] = {
 		["行"] = {
 			["倒"] = {

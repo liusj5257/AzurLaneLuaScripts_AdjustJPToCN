@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"가르쳐줘! Z23 선생님!\n\n<size=45>제1장　문제아는 부두로부터――</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "모항 - 학원",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			bgm = "story-1",
+			say = "모항 - 학원",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 402010,
+			say = "흠…… 저도 좋은 방도는 안 떠오르네요……",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "흠…… 저도 좋은 방도는 안 떠오르네요……",
+			actor = 402010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -176,10 +176,10 @@ return {
 			}
 		},
 		{
-			actor = 402030,
 			actorShadow = true,
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 402030,
 			actorName = "쾨니히스베르크 & 쾰른",
 			hideOther = true,
 			nameColor = "#a9f548",

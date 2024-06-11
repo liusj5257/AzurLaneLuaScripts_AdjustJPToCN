@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TONGHUASENLIN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TONGHUASENLIN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -39,17 +39,17 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Good mornyan, Commander!",
 			bgm = "bar-soft",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "Good mornyan, Commander!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Akashi came into my office on my day off.",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Already I could tell where this was going...",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Hehehe... You're just aching to try it now, aren't you, nya?",
 			typewriter = {
 				speed = 0.05,
@@ -214,12 +214,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Great, nya! I knew we could count on you, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "I'm afraid it's now or never, nya. Everyone's already prepped and waiting for you over by the set, nya.",
 			typewriter = {
 				speed = 0.05,
@@ -280,13 +280,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_158",
+			side = 2,
+			dir = 1,
 			say = "After arriving at the place Akashi pointed me to, I was greeted by Enterprise of the Royal Maids.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_158",
-			actor = 202320,
 			dir = 1,
+			actor = 202320,
 			nameColor = "#a9f548",
 			say = "This is the Forest of Fables, where our tale is set. You are a lone person who has gotten lost in these woods. That's it – that's the premise.",
 			typewriter = {
@@ -360,9 +360,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
+			dir = 1,
 			say = "I couldn't see anything resembling an \"entrance,\" as Enterprise called it, only a straight path that continued into the forest.",
 			typewriter = {
 				speed = 0.05,
@@ -390,9 +390,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
+			dir = 1,
 			say = "\"Wait, am I not getting a communicator this time around?\"",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_158",
-			actor = 202320,
 			dir = 1,
+			actor = 202320,
 			nameColor = "#a9f548",
 			say = "Correct. Staff members will join your party during this adventure, and they will essentially try to guide you down the right path.",
 			typewriter = {

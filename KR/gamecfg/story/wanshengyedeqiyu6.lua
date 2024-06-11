@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"할로윈 밤의 '기묘한 만남'\n\n<size=45>6.폭풍의 밤</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "battle-highseasfleet-reborn",
 			bgName = "star_level_bg_162",
 			say = "먹자골목——",
-			bgm = "battle-highseasfleet-reborn",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "먹자골목은 대형 이벤트마다 빠지지 않는 필수코스로 이날 핼러윈 파티도 예외는 아니었다.",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "먹자골목에서는 진영마다 포장마차를 준비했어. 시간과 장소의 구애를 받아 대부분은 간단한 간식 종류에 불과하지만.",
 			typewriter = {
@@ -151,14 +151,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 102091,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "맛있게 먹어~ 그리고 이건 지휘관에게 특별히 드리는 음식이니 맛있게 먹으라고~",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,14 +169,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그런데 지휘관, 여기 처음 보는 여성분은….",
 			hidePaintEquip = true,
+			actor = 102091,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그런데 지휘관, 여기 처음 보는 여성분은….",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "...클리블랜드에게 '상황이 좀 복잡해'라는 느낌의 눈길을 보낸다.",
 			typewriter = {
@@ -197,14 +197,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그렇구나…. 그럼 난 방해하지 않을 테니까, 둘이서 마음껏 할로윈을 즐겨~",
 			hidePaintEquip = true,
+			actor = 102091,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그렇구나…. 그럼 난 방해하지 않을 테니까, 둘이서 마음껏 할로윈을 즐겨~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "로열 포춘이 갑자기 허리춤에서 금화 몇 닢을 꺼내더니 멋지게 탁자 위에 내려놓았다.",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "손으로 들어보니 묵직한 게… 진짜 황금 같은데…?",
 			typewriter = {
@@ -254,14 +254,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그야 당연하지, 내가 해적이긴 하지만 정직함도 매우 중요하니까!",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그야 당연하지, 내가 해적이긴 하지만 정직함도 매우 중요하니까!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,8 +275,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "동작 그만—————",
 			painting = {
@@ -297,9 +297,9 @@ return {
 		{
 			actor = 105021,
 			side = 2,
-			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_162",
 			say = "해적! 지휘관 씨를 놔줘!",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "어, 그게… 어, 난 그냥 할로윈 분장을 한 것뿐이야. 아니다, 중요한 건 그게 아니고, 어서 지휘관씨를 놓아줘!",
 			painting = {
@@ -353,14 +353,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "내가 왜? 내가 먼저 찜했으니까 내 거야. 이건 해적으로서의 내 행동 규칙이라구!",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "내가 왜? 내가 먼저 찜했으니까 내 거야. 이건 해적으로서의 내 행동 규칙이라구!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,8 +393,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "내가 묻고 싶은 질문이라구. 너 누구야? 대체 무슨 목적으로 모항에 들어와서 지휘관 씨에게 접근하는 거지?",
 			painting = {
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "큰일 났다. 오클라호마가 로열 포춘이 위험한 침입자라고 오해하고 있는 것 같아.",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "사실————",
@@ -441,9 +441,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "그렇구나… 위험한 침입자가 아니라… 정체불명의 침입자라는 거네?",
 			painting = {
@@ -455,17 +455,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -476,9 +476,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "무슨 차이가 있는지는 잘 모르겠지만… 지휘관 씨가 괜찮다면 나도 괜찮아.",
 			painting = {
@@ -494,9 +494,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "미안. 로열 포춘 아가씨, 조금 전에는 내가 충동적으로 행동한 것 같아.",
 			painting = {
@@ -531,9 +531,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "칭찬해줘서 고마워… 그럼 사과의 의미로 내가 만든 호박파이를 먹어보는 건 어때? 요즘 배우고 있는 건데, 엄청 달거든.",
 			painting = {
@@ -566,8 +566,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -576,8 +576,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "밝은 달 아래 두 해적 아가씨와 함께 모항 벤치에 앉아 할로윈 호박파이를 나눠 먹고 있다.",
@@ -610,9 +610,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "어때? 내 솜씨, 나쁘지 않지?",
 			painting = {
@@ -648,9 +648,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "아하하, 그건 안 돼, 난 평생 지휘관 씨와 함께하기로 마음먹었거든.",
 			painting = {
@@ -705,13 +705,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			soundeffect = "event:/battle/boom2",
 			say = "힝… 무, 무서운 전투력이야! 안 되겠다, 긴급 대피해야겠어!",
 			painting = {
 				alpha = 0.3,
@@ -762,12 +762,12 @@ return {
 			}
 		},
 		{
-			actor = 105021,
 			side = 2,
 			bgName = "star_level_bg_162",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 105021,
+			nameColor = "#A9F548FF",
 			say = "…에? 난 아직 공격을 시작하지도 않았는데?",
 			painting = {
 				alpha = 0.3,
@@ -808,9 +808,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 2,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "잠깐, 잠깐, 잠깐! 빨리 지휘관을 내려놔!",
 			painting = {
@@ -829,8 +829,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "한바탕 폭주 뒤, 로열 포춘과 함께 행사장 가장자리 어느 한적한 구석에 도착했다.",
@@ -839,17 +839,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -877,8 +877,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -887,8 +887,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "…지금 당장 오클라호마에게 제대로 설명하는 게 좋을 것 같아. 그렇지 않으면 곧 모든 함대가 로열 포춘 당신을 체포하러 출동할 테니까!",
@@ -937,8 +937,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "보물을 찾는다고 하지 않았나?",
@@ -968,8 +968,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "…그렇게 급한 거야?",
 			typewriter = {
@@ -978,14 +978,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "응, 반드시 지켜야 하는 몇 가지 규칙이 있거든. 이 일에 있어선 나도 어쩔 수 없어.",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "응, 반드시 지켜야 하는 몇 가지 규칙이 있거든. 이 일에 있어선 나도 어쩔 수 없어.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,8 +996,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "정말 짧은 만남이네, 그럼 나중에 다시 만날 기회가 있을까?",
 			typewriter = {
@@ -1006,14 +1006,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "누가 알겠어? 하지만 모두가 바다에서 활약하는 이상 만나는 건 시간과 확률 문제이지 않을까?",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "누가 알겠어? 하지만 모두가 바다에서 활약하는 이상 만나는 건 시간과 확률 문제이지 않을까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,14 +1043,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "나는 한 명의 사자로 바람을 타고 왔다가 바람을 타고 떠나는 거야. 갖고 싶은 건 가져가고 남기고 싶은 건 남기지.",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "나는 한 명의 사자로 바람을 타고 왔다가 바람을 타고 떠나는 거야. 갖고 싶은 건 가져가고 남기고 싶은 건 남기지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1080,8 +1080,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "그래… 만약 그런 날이 온다면, 해안 방어력을 대폭 강화해야 할 것 같네.",
 			typewriter = {
@@ -1109,8 +1109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1138,8 +1138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "그렇다면, 언제든지 환영이야.",
 			typewriter = {
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "자신을 로열 포춘이라고 소개한 소녀가 가볍게 수면을 밟으며 밤과 안개 속으로 사라졌다.",
 			typewriter = {
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "흔적도 없이 왔다 가는 게 정말 해적다운 퇴장 방식이네.",
 			typewriter = {
@@ -1213,8 +1213,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "할로윈에 이런 불가사의한 일이 생길 줄은 몰랐는데, 다시 만났을 땐 제대로 된 설명을 듣고 싶군.",
 			typewriter = {
@@ -1223,8 +1223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "그전에 오늘 밤의 기이한 만남은 소중한 추억으로 간직해야겠다——",
 			typewriter = {

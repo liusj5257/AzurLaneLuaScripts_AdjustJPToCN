@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUNJIEYOUYUANSHEYINGHUI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUNJIEYOUYUANSHEYINGHUI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"春節遊園撮影会\n\n<size=45>二 ケミカルポーション？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・東煌風庭園セット",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie3",
+			say = "母港・東煌風庭園セット",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,10 +53,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_102",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 506010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（鉄血のU-73さん、確か写真の撮影場所はこの前の部屋でしたわね……）",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_102",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 506010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（あら、このハーブの匂いは……）",
 			typewriter = {
 				speed = 0.05,
@@ -86,15 +86,15 @@ return {
 			}
 		},
 		{
-			actor = 408052,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408052,
+			nameColor = "#a9f548",
 			say = "春節おめでとう、鎮海さん！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -122,10 +122,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 506010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "春節おめでとうございます。U-73さん、このセットは一体……",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 408052,
 			dir = 1,
+			actor = 408052,
 			nameColor = "#a9f548",
 			say = "オリエンタルな雰囲気にサイエンティックな調度品、これこそクラシックモダン――",
 			typewriter = {
@@ -173,10 +173,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 506010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まあ、この組み合わせは確かに意外な目新しさがありますわね",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 408052,
 			dir = 1,
+			actor = 408052,
 			nameColor = "#a9f548",
 			say = "聞いて驚けよー。この実験道具、実は撮影用のレプリカではなく本物なんだ",
 			typewriter = {
@@ -208,10 +208,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_102",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 506010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "じゃあ部屋中に充満しているハーブの匂いもやはり…",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 408052,
 			dir = 1,
+			actor = 408052,
 			nameColor = "#a9f548",
 			say = "お姉ちゃん謹製、春節の濃縮蒸留ケミカルティー！",
 			typewriter = {
@@ -243,10 +243,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_102",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 506010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "中々モダンな趣のあるものですね。うん",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 408052,
 			dir = 1,
+			actor = 408052,
 			nameColor = "#a9f548",
 			say = "ハーブを何種類か混ぜただけだけど、添加物一切なしのレシピだもん",
 			typewriter = {
@@ -310,10 +310,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 506010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "楽しみにしていますわ",
 			typewriter = {
 				speed = 0.05,
@@ -344,10 +344,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 502080,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "U-73さん、撮影機材の準備ができたよー！そっちは大丈夫ー？",
 			typewriter = {
 				speed = 0.05,
@@ -362,9 +362,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 408052,
 			dir = 1,
 			blackBg = true,
+			actor = 408052,
 			nameColor = "#a9f548",
 			say = "もう準備バッチリよ！それじゃあ写真を撮ろうじゃない♪",
 			typewriter = {

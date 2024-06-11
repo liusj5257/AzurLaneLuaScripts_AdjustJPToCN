@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U476",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U476",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Days of Tranquility\n\n<size=45>6.Free Rein</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "It was the day of the mock battle. The participants were gathering.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "It was the day of the mock battle. The participants were gathering.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "Hey! There you are! You showed up after all!",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,11 +129,11 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
-			dir = 1,
-			actorName = "U-81 & U-557",
-			hideOther = true,
 			nameColor = "#a9f548",
+			dir = 1,
+			hideOther = true,
+			actor = 408010,
+			actorName = "U-81 & U-557",
 			say = "…………？",
 			subActors = {
 				{
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			soundeffect = "event:/ui/alarm",
-			dir = 1,
 			say = "Then, a siren rang out in the vicinity of the submarines. That was the signal that the mock battle had begun.",
+			dir = 1,
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "Okay, so! U-47, you go on ahead and find targets to ambush!",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "You've got free rein as the lone wolf, and we'll do our best to support you!",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "U-47 whispered to herself. She balled her hand into a fist and looked onward.",
@@ -388,14 +388,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "The mock battle concluded, and the trio's strategy was a resounding success.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,

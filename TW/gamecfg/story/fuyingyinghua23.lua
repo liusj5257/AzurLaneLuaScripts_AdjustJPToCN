@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA23",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "終於找到妳了，沒有收到邀請函卻不請自來的客人~",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "“不速之客”緩緩轉過了身面對{namecode:95}與{namecode:96}",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "在下是誰並不重要…在下來到此地只有兩個目的",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "一是阻止觀察者和其他人奪走神石，這一點…妳們已經看到了",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "二是…",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "——摧毀神石",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "ふふふ、まだじゃ！こんなものではなかろう！",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "よいのう！三笠殿の言う通り、期待できそうな後輩たちじゃ！",
 			flashN = {
 				color = {
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
+			actor = 307060,
 			hideOther = true,
 			dir = 1,
 			actorName = "瑞鶴＆翔鶴",
@@ -141,8 +141,8 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "そこまでにゃ！",
 			flashin = {
 				delay = 0.2,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "女天狗は満足しているようだし、翔鶴と瑞鶴も戦いからなにか得るものがあったみたいだ。アドバイスをくれた三笠には感謝しないとな。",
 			typewriter = {
 				speed = 0.05,

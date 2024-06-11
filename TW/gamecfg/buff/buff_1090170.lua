@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "穿甲防护·最上",
 	init_effect = "",
+	id = 1090170,
 	time = 15,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1090170,
+	color = "red",
 	icon = 4110,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 1090170,
 				target = "TargetSelf",
-				time = 10,
-				skill_id = 1090170
+				time = 10
 			}
 		},
 		{

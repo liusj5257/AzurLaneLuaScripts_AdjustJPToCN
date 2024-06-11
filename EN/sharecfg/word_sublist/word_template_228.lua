@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_228 = {}
 slot1 = slot0.word_template_228
 
-function temp()
+temp = function()
 	uv0["期"] = {
 		["货"] = {
 			["开"] = {
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["欺"] = {
 		["行"] = {
 			["霸"] = {
@@ -80,7 +80,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["漆"] = {
 		["黑"] = {
 			["将"] = {
@@ -100,7 +100,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["齐"] = {
 		B = {
 			["短"] = {
@@ -127,7 +127,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["其"] = {
 		["美"] = {
 			["仁"] = {
@@ -141,7 +141,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["骑"] = {
 		["马"] = {
 			["射"] = {
@@ -170,7 +170,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["棋"] = {
 		["牌"] = {
 			["游"] = {

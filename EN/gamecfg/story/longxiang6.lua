@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Light Carrier Ryuujou, Moving Out!\n\n<size=45>Chapter 6: Enemies! The identity of the legendary idol is...?!</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_school",
 			bgm = "story-1",
 			actor = 306060,
 			nameColor = "#a9f548",
 			say = "I wonder what Milord is doing right now...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,13 +53,13 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ta-da! Carrier-based aircraft surprise attack!",
 			soundeffect = "event:/battle/plane",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "Ta-da! Carrier-based aircraft surprise attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Haah...",
 			typewriter = {
@@ -97,12 +97,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "U-um... Ryuujou? Your reaction today was so lame...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "U-um... Ryuujou? Your reaction today was so lame...",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -120,8 +120,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Saratoga... I'm not really in the mood for your pranks today, sorry.",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Even though we're all in the same fleet now, it's not so easy to just open my heart!",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -212,8 +212,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "As the secretary ship, I can't condone such an egregious attempt to rob Milord of precious working time!",
 			typewriter = {
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "In other words, Saratoga, you're my rival!",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -271,8 +271,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Eh?",
 			typewriter = {
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "I understand now. In other words, Ryuujou wants to show off her appeal to Commander.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I understand now. In other words, Ryuujou wants to show off her appeal to Commander.",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -308,8 +308,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Wha?!",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -367,8 +367,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "I-I don't need to do such a thing...",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
 					x = 60,
@@ -410,9 +410,9 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 306060,
 			dir = 1,
 			blackBg = true,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "Saratoga...",
 			typewriter = {

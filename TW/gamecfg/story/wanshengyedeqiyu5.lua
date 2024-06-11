@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"萬聖夜的「奇遇」\n\n<size=45>五　不速之客</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "遠離主題公園的海岸邊，一個黑色的身影獨自站在那裡。",
 			bgm = "battle-highseasfleet-reborn",
+			say = "遠離主題公園的海岸邊，一個黑色的身影獨自站在那裡。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "請問……",
 			typewriter = {
@@ -55,13 +55,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "噓——",
 			painting = {
@@ -74,13 +74,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "你聽見了嗎，來自大海的悲鳴。",
 			painting = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "你是指海浪的聲音……？",
 			typewriter = {
@@ -106,11 +106,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "是大海的悲鳴啊，悲鳴！",
 			painting = {
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "海盜打扮的少女走進燈光下，有些不滿地盯著我看。",
 			typewriter = {
@@ -143,13 +143,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "話說，你哪位啊？",
 			painting = {
@@ -171,12 +171,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "哦~你就是這裡的姑娘們都在談論的指揮官啊。",
 			painting = {
@@ -189,14 +189,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "初次見面，我就是乘風破浪而來，為了尋找世間所有美好之物而遊歷四方的，充滿謎團的，可愛又迷人的——",
 			painting = {
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "……沒人攔截的原因，恐怕是妳這身海盜的衣服恰好隱藏在了萬聖節的鬼怪之中了吧。",
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "在這之前，首先應該解釋一下妳的身份問題吧？",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "……看來也沒有更好的辦法了。如果只是想玩的話，歡迎妳，海盜小姐。",
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "不過隱藏在會場中的寶藏……這裡恐怕沒有這樣的東西吧。",
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "接過傳單，上面寫著「最先找到會場內寶藏之人，將會獲得一週的甜點免費暢享券喵~」",
@@ -513,9 +513,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
+			side = 2,
 			optionFlag = 1,
 			say = "皇家幸運突然抽出腰間的佩刀，高舉過頭頂，一邊喊著口號一邊跑遠了。",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "…………絕對不能放著她不管，還是趕緊跟上去吧。",

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_138 = {}
 slot1 = slot0.word_template_138
 
-function temp()
+temp = function()
 	uv0["痴"] = {
 		["乳"] = {
 			this = true
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["姫"] = {
 		["辱"] = {
 			this = true
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嫐"] = {
 		["屄"] = {
 			this = true
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["足"] = {
 		["脚"] = {
 			["交"] = {

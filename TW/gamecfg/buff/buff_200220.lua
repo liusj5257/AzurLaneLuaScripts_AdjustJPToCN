@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "黑亚利桑那 扩散的哀伤",
 	time = 0,
+	name = "黑亚利桑那 扩散的哀伤",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200220,
 				time = 0.05,
-				target = "TargetSelf",
-				skill_id = 200220
+				target = "TargetSelf"
 			}
 		}
 	}

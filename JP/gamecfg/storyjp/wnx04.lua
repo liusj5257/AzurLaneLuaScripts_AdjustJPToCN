@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "通过了战前测试，前往下一海域学习大型作战基础操作。",
 			typewriter = {
 				speed = 0.05,

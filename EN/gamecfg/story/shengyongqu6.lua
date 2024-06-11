@@ -1,13 +1,13 @@
 return {
-	id = "SHENGYONGQU6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The Basilica Isle",
 			flashin = {
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "While the combined forces of the Royal Navy and Iris Libre were engaging the Sirens...",
 			typewriter = {
@@ -43,14 +43,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_qiongding_3",
-			actorName = "Vauquelin",
 			dir = 1,
 			bgmDelay = 0.5,
-			say = "The Iris-Royal Navy forces have entered the waters around the Basilica and are now engaging the Sirens there!",
 			bgm = "bgm-cccp2",
+			actorName = "Vauquelin",
+			say = "The Iris-Royal Navy forces have entered the waters around the Basilica and are now engaging the Sirens there!",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Algérie",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Algérie",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Vauquelin",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Vauquelin",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Vauquelin",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Algérie",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Algérie",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_qiongding_3",
-			actorName = "Vauquelin",
 			dir = 1,
+			actorName = "Vauquelin",
 			say = "Ooh, I wanna hear about it!",
 			dialogShake = {
 				speed = 0.09,
@@ -283,8 +283,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Vauquelin",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Vauquelin",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Algérie",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_3",
+			dir = 1,
 			say = "La Galissonnière looked over into the distance, where she saw a figure on the horizon.",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "La Galissonnière",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -489,8 +489,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Algérie",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Algérie",
+			side = 2,
 			bgName = "bg_qiongding_3",
 			nameColor = "#ffff4d",
 			dir = 1,

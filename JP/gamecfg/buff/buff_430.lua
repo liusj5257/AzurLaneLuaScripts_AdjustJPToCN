@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "减速",
 	time = 5,
+	name = "减速",
+	init_effect = "",
 	picture = "",
 	desc = "6s减速",
 	stack = 1,
@@ -60,8 +60,8 @@ return {
 			},
 			arg_list = {
 				rant = 5000,
-				skill_id = 430,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 430
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 slot0 = class("BackYardShopBasePage", import("....base.BaseSubView"))
 
-function slot0.PlayerUpdated(slot0, slot1)
+slot0.PlayerUpdated = function(slot0, slot1)
 	slot0.player = slot1
 
 	slot0:OnPlayerUpdated()
 end
 
-function slot0.DormUpdated(slot0, slot1)
+slot0.DormUpdated = function(slot0, slot1)
 	slot0.dorm = slot1
 
 	slot0:OnDormUpdated()
 end
 
-function slot0.FurnituresUpdated(slot0, slot1)
+slot0.FurnituresUpdated = function(slot0, slot1)
 	slot2 = slot0.dorm:GetPurchasedFurnitures()
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -23,7 +23,7 @@ function slot0.FurnituresUpdated(slot0, slot1)
 	end
 end
 
-function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
+slot0.SetUp = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:Show()
 
 	slot0.pageType = slot1
@@ -37,35 +37,35 @@ function slot0.SetUp(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActiveViaLayer(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActiveViaLayer(slot0._tf, false)
 end
 
-function slot0.ShowFurnitureMsgBox(slot0, slot1)
+slot0.ShowFurnitureMsgBox = function(slot0, slot1)
 	slot0.contextData.furnitureMsgBox:ExecuteAction("SetUp", slot1, slot0.dorm, slot0.player)
 end
 
-function slot0.ShowThemeVOMsgBox(slot0, slot1)
+slot0.ShowThemeVOMsgBox = function(slot0, slot1)
 	slot0.contextData.themeMsgBox:ExecuteAction("SetUp", slot1, slot0.dorm, slot0.player)
 end
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 end
 
-function slot0.OnPlayerUpdated(slot0)
+slot0.OnPlayerUpdated = function(slot0)
 end
 
-function slot0.OnDisplayUpdated(slot0, slot1)
+slot0.OnDisplayUpdated = function(slot0, slot1)
 end
 
-function slot0.OnCardUpdated(slot0, slot1)
+slot0.OnCardUpdated = function(slot0, slot1)
 end
 
-function slot0.OnDormUpdated(slot0)
+slot0.OnDormUpdated = function(slot0)
 end
 
 return slot0

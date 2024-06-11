@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "神射手",
 	time = 1,
+	name = "神射手",
+	init_effect = "",
 	picture = "",
 	desc = "使得非装备武器发射的子弹暴击率提高100%",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					-1
 				}

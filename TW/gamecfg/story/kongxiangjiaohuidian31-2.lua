@@ -1,25 +1,25 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN31-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN31-2",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			say = "在烏爾里希的指揮下，眾人將代行者艦隊與管理機分隔開來。",
 			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgm = "story-bismark-determination",
-			say = "在{namecode:464}的指挥下，众人将代行者舰队与管理机分隔开来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "{namecode:435}则在革律翁与{namecode:416}的掩护下快速突进着。",
+			nameColor = "#A9F548FF",
+			say = "俾斯麥則在革律翁與U-556的掩護下快速突進著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,9 +29,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
 			dir = 1,
-			say = ">指令已确认，开始执行预设案A。",
+			actorName = "仲裁者·赫米忒·IX？",
+			say = ">指令已確認，開始執行預設方案A。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,10 +45,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐，赫米忒开始进攻了！",
+			actor = 9708010,
+			actorName = "U-556·META？",
+			say = "俾斯麥姐姐，赫米忒開始進攻了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,8 +62,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "革律翁！",
 			painting = {
 				alpha = 0.3,
@@ -75,9 +75,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "革律翁收拢双翼，组成护盾抵挡住了来袭的攻击。",
+			nameColor = "#A9F548FF",
+			say = "革律翁收攏雙翼，組成護盾抵擋住了來襲的攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,9 +87,9 @@ return {
 			actor = 9708010,
 			nameColor = "#ffa500",
 			side = 2,
-			actorName = "{namecode:515}？",
 			dir = 1,
-			say = "漂亮，{namecode:435}姐姐~！",
+			actorName = "U-556·META？",
+			say = "漂亮，俾斯麥姊姊~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,9 +103,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
 			dir = 1,
-			say = ">目标强度超出预期，正在更改为预设方案B。",
+			actorName = "仲裁者·赫米忒·IX？",
+			say = ">目標強度超出預期，正在更改為預設方案B。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,9 +119,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
 			dir = 1,
-			say = ">机关系统IX=XV连协支援机制，输入功率20%——",
+			actorName = "仲裁者·赫米忒·IX？",
+			say = ">機關系統IX=XV連協支援機制，輸入功率20%——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,10 +132,10 @@ return {
 			}
 		},
 		{
+			side = 2,
 			nameColor = "#ffa500",
-			side = 2,
 			actorName = "革律翁",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
+			say = "▂▃▄▅▆▇███*憤怒地咆哮*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			say = "双翼再次展开，强大的气流裹挟着巨浪冲向敌人。",
+			side = 2,
+			say = "雙翼再次展開，強大的氣流裹挾著巨浪沖向敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,13 +168,13 @@ return {
 			}
 		},
 		{
-			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
 			dir = 1,
-			say = ">…………",
 			soundeffect = "event:/battle/boom2",
+			actor = 900355,
+			actorName = "仲裁者·赫米忒·IX？",
+			say = ">…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,9 +227,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
 			dir = 1,
-			say = ">更正，输入功率调整为70%。",
+			actorName = "仲裁者·赫米忒·IX？",
+			say = ">更正，輸入功率調整為70%。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,10 +243,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "呜啊，姐姐，敌人好像突然变得好危险……！",
+			actor = 9708010,
+			actorName = "U-556·META？",
+			say = "嗚啊，姐姐，敵人好像突然變得好危險……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:416}，水下的敌人就交给你了。",
+			say = "U-556，水下的敵人就交給妳了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,9 +285,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "在我给你下一个指令之前，不要上浮。",
+			actor = 405050,
+			say = "在我給妳下一個指令之前，不要上浮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,8 +301,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "去吧！",
 			painting = {
 				alpha = 0.3,
@@ -317,9 +317,9 @@ return {
 			actor = 9708010,
 			nameColor = "#ffa500",
 			side = 2,
-			actorName = "{namecode:515}？",
 			dir = 1,
-			say = "好的，{namecode:435}姐姐！",
+			actorName = "U-556·META？",
+			say = "好的，俾斯麥姐姐！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,10 +333,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "你在水面上一定要小心！",
+			actor = 9708010,
+			actorName = "U-556·META？",
+			say = "妳在水面上一定要小心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "{namecode:416}·META钻入水下，下一秒，革律翁便以肉眼难以捕捉的速度，向赫米特冲去。",
+			nameColor = "#A9F548FF",
+			say = "U-556·META鑽入水下，下一秒，革律翁便以肉眼難以捕捉的速度，向赫米特衝去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,9 +359,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
+			dir = 1,
 			actor = 405050,
-			dir = 1,
-			say = "……革律翁，解除安全协议Nr.1。",
+			say = "……革律翁，解除安全協議Nr.1。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "主炮发射！",
+			say = "主炮發射！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,63 +387,63 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "革律翁的主炮对准目标并在同时激发，火炮的烟气遮蔽了视野。",
+			nameColor = "#A9F548FF",
+			say = "革律翁的主炮對準目標並在同時啟動，火炮的煙氣遮蔽了視野。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "赫米忒向后一个闪身躲避，炮弹在她身后的位置落水爆炸。",
+			nameColor = "#A9F548FF",
+			say = "赫米忒向後一個閃身躲避，炮彈在她身後的位置落水爆炸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "紧接着，炮火的烟尘中此时透出一个明亮的红点，一道炽热的光柱撕开烟幕。",
+			nameColor = "#A9F548FF",
+			say = "緊接著，炮火的煙塵中此時透出一個明亮的紅點，一道熾熱的光柱撕開煙幕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "赫米忒躲闪不及，只能用舰装阻挡。",
+			nameColor = "#A9F548FF",
+			say = "赫米忒閃避不及，只能用艦裝阻擋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "光柱所行之处，空气灼烧。",
+			nameColor = "#A9F548FF",
+			say = "光柱所行之處，空氣灼燒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "海面之上，水汽蒸腾。",
+			nameColor = "#A9F548FF",
+			say = "海面之上，水汽蒸騰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "但被强化后的赫米忒管理机，似乎依然并无大碍。",
+			nameColor = "#A9F548FF",
+			say = "但被強化後的赫米忒管理機，似乎依然並無大礙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,25 +453,9 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
 			dir = 1,
-			say = ">目标强度超出预期，正在更改为预设方案C。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900355,
-			nameColor = "#ff5c5c",
-			side = 2,
 			actorName = "仲裁者·赫米忒·IX？",
-			dir = 1,
-			say = ">机关系统IX=XV连协支援机制，输入功率100%.",
+			say = ">目標強度超出預期，正在更改為預設方案C。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,9 +469,25 @@ return {
 			actor = 900355,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "仲裁者·赫米忒·IX？",
 			dir = 1,
-			say = ">机关系统IX=XV连协支援接入-「迪贝路处理核心」，输入功率3%。",
+			actorName = "仲裁者·赫米忒·IX？",
+			say = ">機關系統IX=XV連協支援機制，輸入功率100%.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900355,
+			nameColor = "#ff5c5c",
+			side = 2,
+			dir = 1,
+			actorName = "仲裁者·赫米忒·IX？",
+			say = ">機關系統IX=XV連協支援接取-「迪貝路處理核心」，輸入功率3%。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,9 +501,9 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "呵呵，我曾去地狱徘徊了一圈……",
+			actor = 405050,
+			say = "呵呵，我曾經去地獄徘徊了一圈……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,9 +517,9 @@ return {
 			expression = 5,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "现在，是时候使用这份从地狱中带来的力量了！",
+			actor = 405050,
+			say = "現在，是時候使用這份從地獄帶來的力量了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,9 +533,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "革律翁，解除安全协议Nr.2、Nr.3、Nr.7",
+			actor = 405050,
+			say = "革律翁，解除安全協議Nr.2、Nr.3、Nr.7",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,11 +546,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "革律翁",
-			nameColor = "#ffa500",
+			side = 2,
 			dir = 1,
-			say = "▁▂▃▄▅▆▇███*极其猛烈的咆哮*██▌██▌██▌██▌",
+			nameColor = "#ffa500",
+			say = "▂▃▄▅▆▇███*極度猛烈的咆哮*██▌██▌██▌██▌",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,10 +574,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 405050,
 			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "让我们开始狩猎吧——",
+			say = "讓我們開始狩獵吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1

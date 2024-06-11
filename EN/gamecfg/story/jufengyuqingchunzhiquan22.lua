@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Mirror Sea - Heart of the Fountain of Youth",
 			bgm = "battle-boss-4",
+			say = "Mirror Sea - Heart of the Fountain of Youth",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "Once I regain my footing from that stomach-churning spin, it dawns on me that we're no longer in Shipwreck Point.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "The sea is still, the Great Royal Fortune resting in it. Aboard her, our adversary stares us down.",
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "How rude. In this sea, a storm's beckoning is the greatest invitation.",
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "This vessel of mine activated at the wrong time, but I've always believed this was it setting me up to do the right thing.",
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Now that I've found you, I'm fully convinced of it.",
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Hah! Who would've thought the Black Wolves' flag and a stupid myth would lead you right to me?",
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "That's the providence of fate for you! Ahahahahah!",
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "How astute of you. I did.",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "That bunch of overly curious adventurers served me well.",
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "If they hadn't hoarded all those artifacts from the past, this vessel separated from her mainframe may never have known about her important duty.",
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "And now, I have you. The final piece.",
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "You're the key to obtaining the wisdom fate has in store for me.",
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "The wisdom that'll elevate me to the status of Creator – to the status of God over this world.",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "With what? That pathetic fleet of yours?",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "There is nothing they can do to harm me.",
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "Tester scoffs and reaches for the activation lever of the Pawn creator next to her.",
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "Mary – who was also transported here – fires her cannons as she charges towards us.",
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "She is. It would've been annoying to deal with that ability of hers.",
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "But not anymore. It doesn't matter now.",
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Nor does it matter how much you struggle, for it's all in vain.",
@@ -442,11 +442,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "All will perish once I complete the instruction nested in the deepest parts of me.",
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Listen carefully. Do you hear it? The grinding of misaligned gears.",
@@ -470,11 +470,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "That's the sound of war... The sound of the experiments commencing anew!",
@@ -484,11 +484,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "...What are you laughing for?",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Trying to play cool, are you? Be a dear and hold still while I wipe that smug grin off your face, \"Commander.\"",
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "...What are you talking about?",
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Automatic Warning System",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "WHAT?!",

@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULIZHISHI2-4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "BULIZHISHI2-4",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-1",
 			say = "Finally, after enduring wave after wave of unrelenting attacks, Purifier showed an opening.",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,8 +36,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -46,10 +46,10 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 100010,
 			say = "Taste this – my drill that pierces the heavens, bulin!",
 			effects = {
 				{
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			say = "And my hammer that strikes down the stars, bulin!",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			say = "Gaghh! How is this possible?! How could a bunch of glorified resources defeat me?!",
 			typewriter = {
 				speed = 0.05,
@@ -114,10 +114,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "Purifier was hit with a huge explosion. Once the smoke of it cleared, she ran away with her tail between her legs.",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "Purifier was hit with a huge explosion. Once the smoke of it cleared, she ran away with her tail between her legs.",
 			effects = {
 				{
 					active = false,
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 100000,
+			hideOther = true,
 			dir = 1,
+			actor = 100000,
 			actorName = "All Bulins",
 			say = "We did it, bulin! We beat the big baddie, bulin!",
 			dialogShake = {
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "With their combined powers, the three Bulins put a stop to the Siren's invasion, and the world enjoyed a brief period of peace.",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "And while the world could breathe easy now, the Bulins' quest had only just begun.",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "What is the next challenge that awaits them in their dreams?",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Find out in the next episode! To be continued.",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_298 = {}
 slot1 = slot0.word_template_298
 
-function temp()
+temp = function()
 	uv0["嘻"] = {
 		["弄"] = {
 			["春"] = {
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["犠"] = {
 		["母"] = {
 			["妹"] = {
@@ -54,7 +54,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["习"] = {
 		j = {
 			i = {
@@ -1162,7 +1162,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["袭"] = {
 		["近"] = {
 			["平"] = {
@@ -1174,7 +1174,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["習"] = {
 		["包"] = {
 			this = true,
@@ -1348,7 +1348,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["媳"] = {
 		["婦"] = {
 			["伸"] = {
@@ -1385,7 +1385,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["覡"] = {
 		this = {
 			this = true

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIBEIERFASITE",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIBEIERFASITE",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"명예의 전당\n\n<size=45>완벽한 메이드</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "……님, 주인님.",
 			typewriter = {
 				speed = 0.05,
@@ -43,18 +43,18 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			optionFlag = 1,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "좋은 오후입니다, 주인님.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -79,18 +79,18 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			optionFlag = 2,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "애프터눈 티 시간이 됐습니다, 주인님.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "눈을 뜨자마자 보인 것은, 메이드장의 아름다운 얼굴이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "벨파스트의 무릎 베개에 만족하셨는지요?",
 			typewriter = {
 				speed = 0.05,
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……？！",
 			dialogShake = {
 				speed = 0.09,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "벨파스트의 입꼬리가 미묘하게 올라갔다. 어쩌면, 이런 대화 자체가 그녀를 기분 좋게하는 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "벨파스트가 갑자기 이상한 질문을 던졌다. 설마, 오늘이 무슨 기념일인데 내가 잊었나!?",
 			typewriter = {
 				speed = 0.05,
@@ -296,9 +296,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "벨파스트가 미소를 내비쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "농담인지 진지한 건지 모를 어조로 벨파스트가 말했다.",
 			typewriter = {
 				speed = 0.05,
@@ -468,9 +468,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "벨파스트는 고개를 기울이며 생각에 잠겼다.",
 			typewriter = {
 				speed = 0.05,
@@ -482,9 +482,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "잠시 후, 그녀의 한결같은 표정으로 돌아왔다——",
 			typewriter = {
 				speed = 0.05,
@@ -512,9 +512,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "벨파스트는 몸을 일으켜 정리하고, 애프터눈 티 준비를 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -542,9 +542,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "벨파스트는 우아한 움직임으로 테이블을 펼치고 파라솔을 세웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -572,9 +572,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "벨파스트는 말하면서 마술처럼 정교한 케이크 한 접시와 홍차 한 주전자, 그리고 다기 세트를 내놓았다.",
 			typewriter = {
 				speed = 0.05,
@@ -586,9 +586,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "늦여름 초가을의 서늘한 오후, 미풍에 흩날리는 은빛의 긴 머리카락은 설렘을 자아냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -664,9 +664,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그녀의 시선을 따라 바라보니, 푸른 바다의 수평선 너머로, 동료들의 모습이 어렴풋이 보이는 것 같았다.",
 			typewriter = {
 				speed = 0.05,
@@ -710,9 +710,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "벨파스트는 우아하게 다가오며 가볍게 예를 갖추고 찻잔을 들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -724,9 +724,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "완벽한 메이드의 자태로 잔에 홍차를 채웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -754,12 +754,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "주인님과 함께하는 꿈같은 시간들이 영원히 이어지길 기원합니다——",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_356 = {}
 slot1 = slot0.word_template_356
 
-function temp()
+temp = function()
 	uv0["隹"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["追"] = {
 		["查"] = {
 			["国"] = {
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["椎"] = {
 		["名"] = {
 			["林"] = {
@@ -65,7 +65,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["窀"] = {
 		this = {
 			this = true
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["准"] = {
 		["军"] = {
 			["事"] = {
@@ -97,7 +97,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["捉"] = {
 		["奸"] = {
 			["在"] = {
@@ -117,7 +117,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["倬"] = {
 		this = {
 			this = true

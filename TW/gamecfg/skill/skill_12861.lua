@@ -332,11 +332,11 @@ return {
 	uiEffect = "",
 	name = "龙凤1",
 	cd = 0,
+	picture = "0",
+	desc = "耐久回复",
 	painting = 0,
 	id = 12861,
-	picture = "0",
 	castCV = "",
-	desc = "耐久回复",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

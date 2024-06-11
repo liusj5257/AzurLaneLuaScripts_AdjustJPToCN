@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"笑容之下的真心\n\n<size=45>二 姐妹與指揮官</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "在反擊開始擔任秘書艦後的第二天——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "在反擊開始擔任秘書艦後的第二天——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "聲望一邊問著，一邊把目光投向了辦公桌上堆積成山的文件(雖然疊得很整齊)。",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "看著有些沮喪的反擊，聲望坐到了辦公桌前，面對著這堆文件山。",
 			typewriter = {
 				speed = 0.05,
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "姐姐要來幫忙嗎？太好了！",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,15 +232,15 @@ return {
 			}
 		},
 		{
-			actor = 204010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204010,
+			nameColor = "#a9f548",
 			say = "指揮官，這些是要分配給皇家的武器設備——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "有聲望幫忙核對細節，需要處理的文件很有效率地漸漸減少了。",
 			typewriter = {
 				speed = 0.05,
@@ -311,9 +311,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "抬起頭的時候，正巧與停下打掃，呆看著我們的反擊對上了目光。",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +325,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "意識到自己被看著的反擊，急忙用力地繼續拖起地來。",
 			typewriter = {
 				speed = 0.05,
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "指揮官和姐姐的配合實在是天衣無縫啊，一不小心就看呆了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "反擊輕輕地敲了敲手中的拖把棍，呼嚨了過去。",
 			typewriter = {
 				speed = 0.05,
@@ -475,9 +475,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "反擊微微一笑，又開始了自己的打掃作業。",
 			typewriter = {
 				speed = 0.05,
@@ -489,9 +489,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "無論何時，反擊都是一幅無憂無慮的、充滿陽光的模樣。 但換個角度想，如果要透過笑容看出她真正的想法就有些難了。",
 			typewriter = {
 				speed = 0.05,

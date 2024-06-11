@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"After the Flowers Bloomed\n\n<size=45>4 Promise</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305010,
-			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "\"I am bringing Milord over to the vacant lot.\" Is that better, Milord?",
 			bgm = "story-1",
+			actor = 305010,
+			nameColor = "#a9f548",
+			say = "\"I am bringing Milord over to the vacant lot.\" Is that better, Milord?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "I gave Fusou some general tips while we headed towards the vacant lot, and at least she managed to write complete sentences.",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "Fusou's words suddenly trailed off as she stopped and looked into the distance.",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "I followed her gaze into the distance – In the mountains behind the shrine, cherry blossoms bloomed in profusion like a sea of pink clouds.",
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "Time seemed to fly as we talked, and we soon arrived at the empty lot. The torii gates marking the entrance of the shrine were just a stone's throw away.",
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "Is this place suitable for the depot you wished to build?",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "I wasn't expecting the sudden date invitiation... but excitement crept through me and I could only nod slowly.",
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "Oh, it's you, Commander. And Fusou as well, huh?",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "That I did. By the way, what are the two of you doing at this empty lot...",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "*ring* *ring* *ring*",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "Eep!",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "Fusou suddenly clung to me, perhaps surprised by the sudden noise from my phone.",
@@ -443,8 +443,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "Um, Fusou... I think you should consider unhanding the commander soon...",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "Fusou, whose body had been closely stuck to mine, started to pull away gently. It seemed as if her ears were red.",
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "With those words, Fusou passed through the torii gate with Ryuuhou.",
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,

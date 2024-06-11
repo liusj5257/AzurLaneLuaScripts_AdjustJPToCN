@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA20",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "瑞鶴さん！？ここは危険です！早く島に……あれ？",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,9 +37,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg7",
+			dir = 1,
 			say = "長門を見た祭儀の主催担当たちは驚きながらも一礼をした。",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "霞",
+			hidePaintObj = true,
 			say = "神子さま……霞、初めて見た……",
 			typewriter = {
 				speed = 0.05,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "龍鳳",
+			hidePaintObj = true,
 			say = "そのお姿…セイレーンから神子さまをお守りできず、誠に申し訳ございません…！",
 			typewriter = {
 				speed = 0.05,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "龍鳳",
+			hidePaintObj = true,
 			say = "神子さまが参加されるとは知らず、護衛の用意をできなかったこと、何卒ご容赦のほどを……",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "長門",
 			dir = 1,
+			actorName = "長門",
 			say = "良い。余のワガママを江風に強引に付き合ってもらっただけだ。お主らのせいではない",
 			typewriter = {
 				speed = 0.05,
@@ -121,8 +121,8 @@ return {
 			actor = 305140,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "駿河",
 			dir = 1,
+			actorName = "駿河",
 			say = "長門様がご参加されるのは良かったです！万が一のことを考えるとどうしようかと思いました……",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "長門",
 			dir = 1,
+			actorName = "長門",
 			say = "え？お主ら、どうする気だったのだ…？",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			actor = 305140,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "駿河",
 			dir = 1,
+			actorName = "駿河",
 			say = "はい、信濃さんがもし儀式を執り行えない場合は、山城さんを代役にすると……",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "江風",
 			dir = 1,
+			actorName = "江風",
 			say = "はい、航行するだけなら、なんとか…",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "長門",
 			dir = 1,
+			actorName = "長門",
 			say = "祭儀の島に急ぐぞ。",
 			typewriter = {
 				speed = 0.05,
@@ -228,13 +228,13 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			actorName = "江風",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "セイレーンの「駒」…こんなときに…！",
 			soundeffect = "event:/battle/boom2",
+			actor = 301490,
+			nameColor = "#a9f548",
+			say = "セイレーンの「駒」…こんなときに…！",
 			flashN = {
 				color = {
 					1,
@@ -280,8 +280,8 @@ return {
 			actor = 306070,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "龍鳳",
 			dir = 1,
+			actorName = "龍鳳",
 			say = "ここは私たちにお任せください。長門様は早く島へ",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "長門",
 			dir = 1,
+			actorName = "長門",
 			say = "うむ、任せたぞ！",
 			typewriter = {
 				speed = 0.05,

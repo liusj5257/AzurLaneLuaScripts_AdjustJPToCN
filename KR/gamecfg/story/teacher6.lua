@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"가르쳐줘! Z23 선생님!\n\n<size=45>제6장 ——달려라! Z23!——</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "진심으로 가까워지고… 이해해준다…는 거지! 좋아! 그럼 우선…",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "진심으로 가까워지고… 이해해준다…는 거지! 좋아! 그럼 우선…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "롱·아일랜드 씨! 저와 승부해주세요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "엥?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "엥?",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -151,15 +151,15 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "져, 졌다……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "후훗, 얌전히 약속을 지키시지요!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "후훗, 얌전히 약속을 지키시지요!",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -236,15 +236,15 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "뭐야 뭐야~? 재밌는 거~?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "죄송해요, 저번엔 너무 어려웠었죠… 샌디에이고 씨라면, 이 정도의 수준의 문제부터 풀어보는 게 좋을 거라 생각해요!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "죄송해요, 저번엔 너무 어려웠었죠… 샌디에이고 씨라면, 이 정도의 수준의 문제부터 풀어보는 게 좋을 거라 생각해요!",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -321,15 +321,15 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Z23쨩 미안, 저번에 장난쳤던 건 고의가 아니었어…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -354,12 +354,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "아뇨, 괜찮아요. 하지만… '금단의 더블 장난' 이라니… 역시 새러토가 씨네요!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "아뇨, 괜찮아요. 하지만… '금단의 더블 장난' 이라니… 역시 새러토가 씨네요!",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -502,15 +502,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "좋아! 잘 됐어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

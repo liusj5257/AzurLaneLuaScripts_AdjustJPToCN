@@ -1,15 +1,15 @@
 return {
-	id = "HOLOGUANQIA24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-fff-inst",
 			say = "The following day",
+			side = 2,
+			dir = 1,
+			bgm = "holo-fff-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 10500050,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 10500050,
 			dir = 1,
+			hideOther = true,
 			actorName = "Gammadion Gang",
 			say = "Go ahead, teacher!",
 			subActors = {
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Go ahead, teacher!",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "So yeah, everyone's been talking about \"solving the mystery of the Mirror Sea\" and stuff. If you wanna do that, just get to the foundation of it.",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actor = 900021,
+			actorName = "Purity",
 			say = "You heard me. I don't mean foundation as in the bottom of this ocean sector or whatever, but the foundation behind the very concept of the Mirror Sea. Don't ask why, I just know.",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "Hmm... The foundation of the Hololive Server... Maybe she means the Hololive Headquarters? Would make sense, as we're all part of Hololive.",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "We did find a massive maze that wasn't there yesterday, though.",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "I appreciate the courtesy, but I want to go into battle too.",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "And I wanna go with Fubuki! Besides, I made the labyrinth in the first place and know where all the traps are. I'll be your guide!",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "Okay, then I'm going–",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Aww, I was just going to swear on my name that I'd find the headquarters building before anyone else.",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "Now, now, it's equally important to keep everything running, Aqua.",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Can I go? Please! Pretty please!",
 			typewriter = {
 				speed = 0.05,
@@ -497,11 +497,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actor = 900021,
+			actorName = "Purity",
 			say = "Bawww...",
 			typewriter = {
 				speed = 0.05,
@@ -513,8 +513,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -538,10 +538,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Everyone",
+			side = 2,
 			dir = 1,
+			actorName = "Everyone",
 			say = "Yeeeeah!",
 			dialogShake = {
 				speed = 0.09,

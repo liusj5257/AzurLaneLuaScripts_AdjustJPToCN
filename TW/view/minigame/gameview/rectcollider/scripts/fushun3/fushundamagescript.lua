@@ -1,6 +1,6 @@
 slot0 = class("FuShunDamageScript", import("..RectBaseScript"))
 
-function slot0.onInit(slot0)
+slot0.onInit = function(slot0)
 	slot0._loop = false
 	slot0._active = false
 	slot0._weight = 3
@@ -9,16 +9,16 @@ function slot0.onInit(slot0)
 	slot0._name = "FuShunDamageScript"
 end
 
-function slot0.onStep(slot0)
+slot0.onStep = function(slot0)
 end
 
-function slot0.onLateStep(slot0)
+slot0.onLateStep = function(slot0)
 end
 
-function slot0.onActive(slot0)
+slot0.onActive = function(slot0)
 end
 
-function slot0.onTrigger(slot0)
+slot0.onTrigger = function(slot0)
 end
 
 return slot0

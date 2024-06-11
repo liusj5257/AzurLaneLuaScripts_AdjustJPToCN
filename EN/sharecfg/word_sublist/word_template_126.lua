@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_126 = {}
 slot1 = slot0.word_template_126
 
-function temp()
+temp = function()
 	uv0["轰"] = {
 		["退"] = {
 			["百"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["弘"] = {
 		["强"] = {
 			this = true
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["红"] = {
 		["5"] = {
 			this = true
@@ -307,7 +307,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宏"] = {
 		["志"] = {
 			this = true
@@ -324,7 +324,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["洪"] = {
 		["傳"] = {
 			this = true
@@ -399,7 +399,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["紅"] = {
 		["5"] = {
 			this = true
@@ -428,7 +428,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鸿"] = {
 		["图"] = {
 			["记"] = {

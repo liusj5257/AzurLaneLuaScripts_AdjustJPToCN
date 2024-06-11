@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "龍宮城·外環區",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "龍宮城·外環區",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -90,8 +90,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "幫助武藏大人處理神社事務的助手……噗。看來葛城順勢對驅逐艦們誇下了海口啊。",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "她的知識和能力是貨真價實的……不會有問題。",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "就算是在結界中行動受限，正規航母到底還是正規航母啊……",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "見到那麼大的風浪換條路就是了……居然會迎頭撞上去。",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "此言差矣，遇到困難就退縮可不行哦~現在可是在競速比賽中，繞路的話不知道要繞到什麼時候呢。",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "沒想到妳真的會這麼有興致參與島風的競速比賽啊…",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "因為是件有趣的事嘛~懷著有趣的心情做有趣的事，更容易收穫有趣的情報哦。",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（被困海底，對外失聯……有趣的心情究竟是從哪裡來的啊！）",
 			typewriter = {
@@ -319,9 +319,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（果然不行……沒有幹勁！不管遇到什麼都好…快點結束吧……）",
 			typewriter = {

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_338 = {}
 slot1 = slot0.word_template_338
 
-function temp()
+temp = function()
 	uv0["鏨"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赃"] = {
 		["款"] = {
 			["洗"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["臧"] = {
 		["献"] = {
 			["甫"] = {
@@ -58,7 +58,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遭"] = {
 		["人"] = {
 			["强"] = {
@@ -80,7 +80,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["早"] = {
 		["就"] = {
 			["已"] = {
@@ -174,7 +174,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["澡"] = {
 		["资"] = {
 			this = true
@@ -184,7 +184,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["繰"] = {
 		this = {
 			this = true

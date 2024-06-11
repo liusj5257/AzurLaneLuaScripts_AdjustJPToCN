@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fight On, Royal Maids!\n\n<size=45>The Instructor's Tactics</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu2",
 			bgm = "battle-boss-5",
 			actor = 202100,
 			nameColor = "#a9f548",
 			say = "Kent, Suffolk, take advantage of your heavier armor to secure our supply routes.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "Make sure to resupply now, as this will be our last opportunity. Double-check to make sure you won't run out of ammo.",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "The preparations for our final line of defense are complete.",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "...So this is going to be the last battle...",
 			typewriter = {
@@ -139,8 +139,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "That's right. Keep fighting... until Master and I are the only ones standing...",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "And then Master will have no choice but to accept me...",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "Don't overdo it.",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "...But...",
 			typewriter = {
@@ -207,8 +207,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "I'm not sure you'll listen to any of this, but I'm going to say it anyway.",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "When you're standing in front of the Master, know that all the maids have been supporting you so that you could fight without reservations.",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "You simply need to do your part, and give it your all. If you do that, Master will look upon you favorably.",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "Even if you aren't able to produce the results that you want, neither Master, nor any of us, will cast you aside.",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "......Understood!",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,14 +301,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 202040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "They're coming. Master's fleet...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -352,9 +352,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Will fight with everything she has, for Master's sake!",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

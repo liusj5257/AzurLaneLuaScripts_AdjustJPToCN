@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_yuanhuidian",
 			stopbgm = true,
+			bgName = "bg_yuanhuidian",
+			bgm = "story-6",
 			actor = 401160,
 			nameColor = "#A9F548FF",
 			say = "블뤼허, 전방에 적 지원군을 발견했어!",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			expression = 1,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
+			expression = 1,
 			side = 2,
 			actor = 403020,
 			say = "?! 저, 저 엄청난 의장은 뭐지!?!",
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			expression = 8,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
+			expression = 8,
 			side = 2,
 			actor = 401160,
 			say = "멋지다…. 그리고 엄청 강해 보여! 나한테도 저런 의장이 있었으면….",

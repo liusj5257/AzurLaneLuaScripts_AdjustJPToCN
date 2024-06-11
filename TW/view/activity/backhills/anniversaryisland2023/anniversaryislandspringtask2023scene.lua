@@ -1,13 +1,13 @@
 slot0 = class("AnniversaryIslandSpringTask2023Scene", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AnniversaryIslandSpringTask2023UI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.taskListRect = GetComponent(slot0._tf:Find("TaskList/ScrollView"), "LScrollRect")
 
-	function slot0.taskListRect.onUpdateItem(slot0, slot1)
+	slot0.taskListRect.onUpdateItem = function(slot0, slot1)
 		uv0:UpdateTaskListItem(slot0, slot1)
 	end
 
@@ -15,7 +15,7 @@ function slot0.init(slot0)
 	setActive(slot0._tf:Find("Top/Help"), false)
 end
 
-function slot0.BuildTaskVOs(slot0)
+slot0.BuildTaskVOs = function(slot0)
 	slot1 = getProxy(ActivityProxy)
 	slot1 = slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING_2)
 	slot3 = slot1:GetConfigID()
@@ -48,7 +48,7 @@ function slot0.BuildTaskVOs(slot0)
 	}))
 end
 
-function slot0.UpdateTaskListItem(slot0, slot1, slot2)
+slot0.UpdateTaskListItem = function(slot0, slot1, slot2)
 	slot3 = tf(slot2)
 	slot4 = slot0.taskVOs[slot1 + 1]
 	slot6 = pg.task_data_template[slot4:GetConfigID()]
@@ -95,7 +95,7 @@ function slot0.UpdateTaskListItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf:Find("Top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -112,11 +112,11 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0.taskListRect:SetTotalCount(#slot0.taskVOs)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

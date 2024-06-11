@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.activity_event_building = {
 	{
-		id = 1,
 		name = "쥬쥬카페",
+		id = 1,
 		desc = "항구 CAFF, 판매: 로열 커피, 노스 유니온 식빵, 샤르데냐 피자.",
 		buff = {
 			13,
@@ -27,8 +27,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 2,
 		name = "쥬쥬만두",
+		id = 2,
 		desc = "뜨끈뜨끈한 만두. 정통 이스트 글림의 풍미. 손님 하나 드실래요?",
 		buff = {
 			16,
@@ -53,8 +53,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 3,
 		name = "쥬쥬버거",
+		id = 3,
 		desc = "해피 세트: 버거, 콜라, 감자튀김",
 		buff = {
 			19,
@@ -79,8 +79,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 4,
 		name = "쥬쥬화과자",
+		id = 4,
 		desc = "사쿠라 엠파이어 풍미의 전통 화과자 가게. 절찬 판매 중.",
 		buff = {
 			22,
@@ -105,8 +105,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 5,
 		name = "쥬쥬서점",
+		id = 5,
 		desc = "만화, 소설, 사전... 시험 교과서 기간 한정 반값 세일 중",
 		buff = {
 			13,
@@ -131,8 +131,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 6,
 		name = "쥬쥬 게임실",
+		id = 6,
 		desc = "최신 게임 뿐만 아니라, 게임보다 더 자극적인...... 최신 컴퓨터도 팝니다!",
 		buff = {
 			16,
@@ -157,8 +157,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 7,
 		name = "쥬쥬 피규어",
+		id = 7,
 		desc = "다음 뽑기는 반드시 원하는 대로!",
 		buff = {
 			19,
@@ -183,8 +183,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 8,
 		name = "쥬쥬 카페",
+		id = 8,
 		desc = "일하고 남은 시간, 맛있는 JUJU 커피 한 잔 하실래요?",
 		buff = {
 			22,
@@ -209,8 +209,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 9,
 		name = "회전목쥬",
+		id = 9,
 		desc = "최고 속도에 도달했을 때, 어쩌면 정말 날 수 있을지도?",
 		buff = {
 			13,
@@ -235,8 +235,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 10,
 		name = "롤러코스터쥬",
+		id = 10,
 		desc = "스피드, 열정, 그리고 하늘을 나는 기분!",
 		buff = {
 			16,
@@ -261,8 +261,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 11,
 		name = "번지드롭쥬",
+		id = 11,
 		desc = "낙하의 즐거움을 만끽해요!",
 		buff = {
 			19,
@@ -287,8 +287,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 12,
 		name = "쥬쥬 바이킹",
+		id = 12,
 		desc = "파도를 타는 느낌을 좋아하나요?",
 		buff = {
 			22,
@@ -313,8 +313,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 13,
 		name = "쥬쥬 서핑",
+		id = 13,
 		desc = "파도와 함께 춤을!",
 		buff = {
 			13,
@@ -339,8 +339,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 14,
 		name = "쥬쥬 다이빙",
+		id = 14,
 		desc = "물보라가 작을수록 높은 점수를!",
 		buff = {
 			16,
@@ -365,8 +365,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 15,
 		name = "슬라이드 월드",
+		id = 15,
 		desc = "긴장감 넘치는 슬라이드 투어!",
 		buff = {
 			19,
@@ -391,8 +391,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 16,
 		name = "쥬쥬 폭포",
+		id = 16,
 		desc = "물줄기의 충격을 느껴봐!",
 		buff = {
 			22,
@@ -417,8 +417,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 17,
 		name = "로열 네이비 찻집",
+		id = 17,
 		desc = "차 AND 카페! 로열 네이비 찻집 <Queen's Tea>! 여왕이 직접 감독하고 설계한 로열 찻집의 기획으로 형세를 역전시키겠다! 흐흠!",
 		buff = {
 			49,
@@ -459,8 +459,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 18,
 		name = "메탈 블러드 카페",
+		id = 18,
 		desc = "전통 커피를 기반으로 새롭게 개발한 음료와 음식들. 창의력이 셀링 포인트다…——음, 좋은 생각이라고 볼 수 있다…",
 		buff = {
 			54,
@@ -501,8 +501,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 19,
 		name = "메인 빌딩",
+		id = 19,
 		desc = "열심히 공부해 나날이 발전해요.",
 		buff = {
 			13,
@@ -527,8 +527,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 20,
 		name = "점술집",
+		id = 20,
 		desc = "오늘의 운세를 알아볼까요?",
 		buff = {
 			16,
@@ -553,8 +553,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 21,
 		name = "공연 무대",
+		id = 21,
 		desc = "자유시간에는 누구나 무대에 오를 수 있어요!",
 		buff = {
 			19,
@@ -579,8 +579,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 22,
 		name = "축제 상가",
+		id = 22,
 		desc = "마음껏 골라보세요——",
 		buff = {
 			22,
@@ -605,8 +605,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 23,
 		name = "생활 구역",
+		id = 23,
 		desc = "国服六周年后山建筑",
 		buff = {
 			126,
@@ -639,8 +639,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 24,
 		name = "무인도 제작대",
+		id = 24,
 		desc = "国服六周年后山建筑",
 		buff = {
 			130,
@@ -673,8 +673,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 25,
 		name = "쥬쥬 탐험대",
+		id = 25,
 		desc = "国服六周年后山建筑",
 		buff = {
 			134,
@@ -707,8 +707,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 26,
 		name = "식사 구역",
+		id = 26,
 		desc = "国服六周年后山建筑",
 		buff = {
 			138,
@@ -741,8 +741,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 27,
 		name = "무인도 거점",
+		id = 27,
 		desc = "国服六周年后山据点",
 		buff = {
 			110,

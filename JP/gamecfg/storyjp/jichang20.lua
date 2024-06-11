@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港・ライブ会場",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "song08",
+			say = "母港・ライブ会場",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 206035,
 			dir = 1,
+			actor = 206035,
 			nameColor = "#a9f548",
 			say = "ユニコーン、イラストリアス姉ちゃんを応援しに行く！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 201234,
 			dir = 1,
+			actor = 201234,
 			nameColor = "#a9f548",
 			say = "いいわよ～イラストリアスがダンスしているところ、近くで見たいし♪",
 			typewriter = {
@@ -130,15 +130,15 @@ return {
 			}
 		},
 		{
-			actor = 401463,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401463,
+			nameColor = "#a9f548",
 			say = "友人との連絡は済んだ。次なる戦場――「ステージ」と呼ばれる戦場へ行こう",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			nameColor = "#a9f548",
 			say = "ごめんごめん！ニーミにちょっとつかまっちゃって…",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401463,
 			dir = 1,
+			actor = 401463,
 			nameColor = "#a9f548",
 			say = "魔眼使いも蠱惑の魔眼に魅了されることはあるのか？",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			nameColor = "#a9f548",
 			say = "ほぇ？",
 			typewriter = {
@@ -246,15 +246,15 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 801010,
+			nameColor = "#a9f548",
 			say = "女王陛下のご厚意に感謝します。またウォースパイト様、設営のご協力に感謝しますわ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 205022,
 			dir = 1,
+			actor = 205022,
 			nameColor = "#a9f548",
 			say = "礼には及ばないわ。しかしまさかル・マランがもう一度ステージに立ってくれるとは思わなかったわね",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "ふふふ、あの子妙に律儀なところがありますから",
 			typewriter = {
@@ -345,15 +345,15 @@ return {
 			}
 		},
 		{
-			actor = 201099,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201099,
+			nameColor = "#a9f548",
 			say = "やだよ…みんなすごい衣装用意しているし、私たち……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 101264,
 			dir = 1,
+			actor = 101264,
 			nameColor = "#a9f548",
 			say = "コメットたちの衣装も、かわいい",
 			typewriter = {
@@ -475,15 +475,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_jichang_5",
-			actorName = "タシュケント(μ兵装)",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "タシュケント(μ兵装)",
 			say = "皆が、ここに集まってきてる…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -508,8 +508,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アルバコア(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ローン(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -540,8 +540,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ローン(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -588,12 +588,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_jichang_5",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "おおお！！",
 			dialogShake = {
 				speed = 0.09,

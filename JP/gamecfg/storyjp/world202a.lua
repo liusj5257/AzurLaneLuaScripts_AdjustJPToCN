@@ -1,15 +1,15 @@
 return {
-	id = "WORLD202A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD202A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA海域北東・ロイヤル担当作戦エリア",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,8 +78,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "エディンバラ、ケント、そっちは順調か？",
 			typewriter = {
 				speed = 0.05,
@@ -93,9 +93,9 @@ return {
 		{
 			paintingNoise = false,
 			side = 2,
+			dir = 1,
 			actor = 203030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Easy！セイレーンが想像以上に弱いから、作戦目標の達成が早くなりそうよ！",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "思ったより上手くいっているわね。サフォークとノーフォークは？",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202110,
 			dir = 1,
+			actor = 202110,
 			say = "サフォークとノーフォークはさっき撃退したセイレーンのザコの追撃をやっているよ？攻撃したらすぐ散り散りに逃げ出し始めるの",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "そうか。他の隊からも同じ報告が上がっているな…どうやらセイレーンの指揮系統が本当に機能していないようだ",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "ユニオンのほうもこれで楽に戦えているといいがな",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "……にしても、サフォークが率先して敵を追撃するなんて珍しいわね",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202110,
 			dir = 1,
+			actor = 202110,
 			say = "「早く敵を倒してエリアを確保したらサボ…じゃなくてカモメさん観察したいですぅー」みたいなことつぶやきましたような…",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -231,9 +231,9 @@ return {
 		{
 			paintingNoise = false,
 			side = 2,
+			dir = 1,
 			actor = 202110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ま、まあ動機はともかく、サフォークは本当に頑張っていますよ！はい！",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -258,8 +258,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "ははは。分かってるわ。引き続き作戦頑張ってちょうだい",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202110,
 			dir = 1,
+			actor = 202110,
 			say = "……ケント、私たちも頑張ろ？",
 			typewriter = {
 				speed = 0.05,

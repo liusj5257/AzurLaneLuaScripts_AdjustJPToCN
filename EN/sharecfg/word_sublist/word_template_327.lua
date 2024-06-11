@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_327 = {}
 slot1 = slot0.word_template_327
 
-function temp()
+temp = function()
 	uv0["鷹"] = {
 		["眼"] = {
 			["派"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["莹"] = {
 		["穴"] = {
 			this = true
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["营"] = {
 		["业"] = {
 			["执"] = {
@@ -47,7 +47,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赢"] = {
 		["翻"] = {
 			["天"] = {
@@ -77,7 +77,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["应"] = {
 		["开"] = {
 			["生"] = {
@@ -116,7 +116,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["映"] = {
 		["山"] = {
 			["红"] = {
@@ -142,7 +142,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["硬"] = {
 		["币"] = {
 			["出"] = {

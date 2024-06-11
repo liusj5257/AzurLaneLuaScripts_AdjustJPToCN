@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Cloudy Mask\n\n<size=45>Chapter 6: The Truth, Pt. 2</size>",
@@ -17,18 +17,18 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			hideOther = true,
 			side = 0,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
-			hideOther = true,
+			actor = 405020,
 			nameColor = "#a9f548",
 			say = "It's all because of that name... \"Lützow.\"",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,8 +64,8 @@ return {
 			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Indeed. I don't know how it came to be, but she isn't just Deutschland of the Iron Blood, she was also born as Lützow of the Northern Parliament.",
 			subActors = {
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "Huh?! How do they know that...?!",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -115,8 +115,8 @@ return {
 			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "And not the Lützow who fought in the Great War, the one the Northern Parliament refloated...",
 			subActors = {
@@ -140,8 +140,8 @@ return {
 			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Her history haunts her. So she tried desperately to make herself out as the ideal image of Iron Blood so we'd accept her.",
 			subActors = {
@@ -181,8 +181,8 @@ return {
 			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Sure, she had a thing with the Northern Parliament, but she's still Deutschland. She's one of us.",
 			subActors = {
@@ -206,8 +206,8 @@ return {
 			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "And we wanted to make her feel like a part of the team, but since she's kinda sensitive, we agreed to be nice to her.",
 			subActors = {
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "So basically, they were simply doing their best not to hurt or upset her.",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Which is why we kept this a secret from her and accepted her into the Iron Blood.",
 			subActors = {
@@ -282,8 +282,8 @@ return {
 			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "That's right. Above all else, she is one of us. But ironically, all our cautiousness and special treatment wound up hurting her in the end...",
 			subActors = {
@@ -307,8 +307,8 @@ return {
 			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "I think she's fine the way she is right now... but I guess she should come to terms with herself, at least a little.",
 			subActors = {
@@ -332,8 +332,8 @@ return {
 			actor = 401010,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "It might leave her feeling blue for a while, but maybe we should tell her the truth?",
 			subActors = {
@@ -357,8 +357,8 @@ return {
 			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "I say we do. It's a shame to lose the arrogant Deutschland we know, but it's time she accepts herself for who she is.",
 			subActors = {
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Deutschland whispers while her shoulders tremble. Her voice lacks its signature impactful tone, instead sounding frail.",
 			typewriter = {
 				speed = 0.05,
@@ -421,15 +421,15 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 404020,
+			nameColor = "#a9f548",
 			say = "In conclusion, we should tell Deutschland the truth.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -454,12 +454,12 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			say = "But how do we go about telling her that...",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "But how do we go about telling her that...",
+			actor = 403050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -490,9 +490,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I let go of Deutschland. She walks over to open the door, then steps into the salon.",
 			typewriter = {
 				speed = 0.05,
@@ -532,9 +532,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "After a brief silence, the girl raises her voice and speaks her mind.",
 			typewriter = {
 				speed = 0.05,

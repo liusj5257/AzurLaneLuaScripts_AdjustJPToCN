@@ -6,7 +6,7 @@ slot1.DEBUG = false
 slot1.ADAPT_TAG = "(Adapt)"
 slot1.RECYCLE_ADAPT_TAG = "recycleAdapt"
 
-function slot1.Init(slot0, slot1)
+slot1.Init = function(slot0, slot1)
 	slot0.baseParent = tf(GameObject.Find("UICamera/Canvas"))
 	slot0.uiOrigin = tf(instantiate(tf(GameObject.Find("UICamera/Canvas/UIMain"))))
 	slot0.uiOrigin.name = "UIOrigin"
@@ -32,7 +32,7 @@ function slot1.Init(slot0, slot1)
 	end
 end
 
-function slot1.CreateRefreshHandler(slot0)
+slot1.CreateRefreshHandler = function(slot0)
 	if not slot0.luHandle then
 		slot0.luHandle = LateUpdateBeat:CreateListener(slot0.Refresh, slot0)
 
@@ -40,7 +40,7 @@ function slot1.CreateRefreshHandler(slot0)
 	end
 end
 
-function slot1.ClearRefreshHandler(slot0)
+slot1.ClearRefreshHandler = function(slot0)
 	if slot0.luHandle then
 		LateUpdateBeat:RemoveListener(slot0.luHandle)
 
@@ -48,12 +48,12 @@ function slot1.ClearRefreshHandler(slot0)
 	end
 end
 
-function slot1.Refresh(slot0)
+slot1.Refresh = function(slot0)
 	slot0:LayerSortHandler()
 	slot0:ClearRefreshHandler()
 end
 
-function slot1.Add2Overlay(slot0, slot1, slot2, slot3)
+slot1.Add2Overlay = function(slot0, slot1, slot2, slot3)
 	slot3.type = slot1
 	slot3.ui = slot2
 	slot3.pbList = slot3.pbList or {}
@@ -75,7 +75,7 @@ function slot1.Add2Overlay(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.DelFromOverlay(slot0, slot1, slot2)
+slot1.DelFromOverlay = function(slot0, slot1, slot2)
 	slot0:Log("ui：" .. slot1.gameObject.name .. " 去除了ui层级管理")
 
 	if slot0:DelList(slot1) ~= nil then
@@ -94,7 +94,7 @@ function slot1.DelFromOverlay(slot0, slot1, slot2)
 	slot0:CreateRefreshHandler()
 end
 
-function slot1.DelList(slot0, slot1)
+slot1.DelList = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6 = #slot0.storeUIs, 1, -1 do
@@ -110,7 +110,7 @@ function slot1.DelList(slot0, slot1)
 	return slot2
 end
 
-function slot1.ClearBlurData(slot0, slot1)
+slot1.ClearBlurData = function(slot0, slot1)
 	if slot1 == nil then
 		return
 	end
@@ -133,7 +133,7 @@ function slot1.ClearBlurData(slot0, slot1)
 	end
 end
 
-function slot1.LayerSortHandler(slot0)
+slot1.LayerSortHandler = function(slot0)
 	slot0:switchOriginParent()
 	slot0:SortStoreUIs()
 
@@ -181,7 +181,7 @@ function slot1.LayerSortHandler(slot0)
 			slot9 = slot17
 		end
 
-		function slot31()
+		slot31 = function()
 			uv0:ShowOrHideTF(uv1, true)
 
 			if uv2 ~= nil then
@@ -197,7 +197,7 @@ function slot1.LayerSortHandler(slot0)
 			end
 		end
 
-		function slot32()
+		slot32 = function()
 			uv0:SetToOrigin(uv1, uv2, uv3, uv4.interactableAlways)
 
 			if uv5 or uv6 then
@@ -263,7 +263,7 @@ function slot1.LayerSortHandler(slot0)
 	end
 end
 
-function slot1.SetSpecificParent(slot0, slot1, slot2)
+slot1.SetSpecificParent = function(slot0, slot1, slot2)
 	SetParent(slot1, slot2, false)
 
 	slot3 = GetOrAddComponent(slot1, typeof(CanvasGroup))
@@ -271,7 +271,7 @@ function slot1.SetSpecificParent(slot0, slot1, slot2)
 	slot3.blocksRaycasts = true
 end
 
-function slot1.SetToOverlayParent(slot0, slot1, slot2, slot3)
+slot1.SetToOverlayParent = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	if slot2 == LayerWeightConst.OVERLAY_UI_ADAPT then
@@ -299,7 +299,7 @@ function slot1.SetToOverlayParent(slot0, slot1, slot2, slot3)
 	slot5.blocksRaycasts = true
 end
 
-function slot1.SetToOrigin(slot0, slot1, slot2, slot3, slot4)
+slot1.SetToOrigin = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = nil
 
 	if slot2 == LayerWeightConst.OVERLAY_UI_ADAPT then
@@ -326,7 +326,7 @@ function slot1.SetToOrigin(slot0, slot1, slot2, slot3, slot4)
 	slot6.blocksRaycasts = slot4
 end
 
-function slot1.SortStoreUIs(slot0)
+slot1.SortStoreUIs = function(slot0)
 	slot0:Log("-----------------------------------------")
 
 	slot1 = {}
@@ -357,11 +357,11 @@ function slot1.SortStoreUIs(slot0)
 	slot0:Log("-----------------------------------------")
 end
 
-function slot1.ShowOrHideTF(slot0, slot1, slot2)
+slot1.ShowOrHideTF = function(slot0, slot1, slot2)
 	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = slot2 and 1 or 0
 end
 
-function slot1.SetVisibleViaLayer(slot0, slot1, slot2)
+slot1.SetVisibleViaLayer = function(slot0, slot1, slot2)
 	setActiveViaLayer(slot1, slot2)
 
 	for slot6, slot7 in pairs(slot0.storeUIs) do
@@ -373,7 +373,7 @@ function slot1.SetVisibleViaLayer(slot0, slot1, slot2)
 	end
 end
 
-function slot1.switchOriginParent(slot0)
+slot1.switchOriginParent = function(slot0)
 	if slot0.lvCamera.enabled then
 		slot0.uiOrigin:SetParent(slot0.lvParent, false)
 
@@ -385,7 +385,7 @@ function slot1.switchOriginParent(slot0)
 	end
 end
 
-function slot1.GetAdaptObj(slot0)
+slot1.GetAdaptObj = function(slot0)
 	slot1 = nil
 
 	if #slot0.adaptPool > 0 then
@@ -411,7 +411,7 @@ function slot1.GetAdaptObj(slot0)
 	return slot1
 end
 
-function slot1.CheckRecycleAdaptObj(slot0, slot1, slot2)
+slot1.CheckRecycleAdaptObj = function(slot0, slot1, slot2)
 	slot3 = slot0:GetAdaptObjFromUI(slot1)
 
 	if slot2 ~= nil then
@@ -432,7 +432,7 @@ function slot1.CheckRecycleAdaptObj(slot0, slot1, slot2)
 	end
 end
 
-function slot1.GetAdaptObjFromUI(slot0, slot1)
+slot1.GetAdaptObjFromUI = function(slot0, slot1)
 	if slot1.parent ~= nil and slot1.parent.name == slot0:GetAdatpObjName(slot1) then
 		return slot1.parent
 	end
@@ -440,11 +440,11 @@ function slot1.GetAdaptObjFromUI(slot0, slot1)
 	return nil
 end
 
-function slot1.GetAdatpObjName(slot0, slot1)
+slot1.GetAdatpObjName = function(slot0, slot1)
 	return slot1.name .. uv0.ADAPT_TAG
 end
 
-function slot1.Log(slot0, slot1)
+slot1.Log = function(slot0, slot1)
 	if not uv0.DEBUG then
 		return
 	end

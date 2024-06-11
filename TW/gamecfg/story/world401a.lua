@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD401A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD401A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			bgm = "story-italy",
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "前方就是塔蘭托港了，嗯？這些在港口裡飄蕩的旗幟......皇家的艦隊居然已經先到了嗎。",
-			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,14 +27,14 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			bgName = "bg_port_talantuo",
 			actor = 605020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "這還真是...沒想到女王陛下已經先到了，接待不周還請恕罪。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,8 +78,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "陛下您的心情好像不是很好啊，路上發生什麼不愉快的事了嗎？",
 			typewriter = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#ffff4d",
 			say = "發生了什麼不愉快的事嗎...........？！妳還真問得出來啊！我可是從皇家本島出發之後，一路先到了聖彼得堡，然後到了基爾港，然後到了土倫港，最後才來到妳們塔蘭托港的！",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#ffff4d",
 			say = "妳......！",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#ffff4d",
 			say = "感謝赤城閣下指出我們的不足之處，我們一定會著手進行改進，爭取讓類似白鷹獲悉AF詳情那樣精彩的情報戰再發生幾次。",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "唉...妳們都冷靜一點~這次大家不是都抱有和平的意願才會齊聚塔蘭托的嘛，就不要像這樣針鋒相對了。",
 			typewriter = {
@@ -309,9 +309,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
 			blackBg = true,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "腓特烈大帝也在趕來這裡的路上，在那之前請各位放寬身心，盡情享受一下薩丁風情吧~",
 			typewriter = {

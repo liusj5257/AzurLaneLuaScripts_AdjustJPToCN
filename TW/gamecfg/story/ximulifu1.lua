@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"祈願與祝福之宴\n\n<size=45>一　祝宴的邀請</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 401234,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401234,
+			nameColor = "#a9f548",
 			say = "指揮官，準備好了嗎？我們要出發囉？",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "指揮官是工作太累迷糊了嗎？是宴會呀！",
 			typewriter = {
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "啊，說起來……",
 			typewriter = {
 				speed = 0.05,
@@ -99,9 +99,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "數天前，指揮室",
 			effects = {
 				{
@@ -138,8 +138,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "畢竟是我們的女王大人和鐵血一起決定要辦的",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205050,
+			nameColor = "#a9f548",
 			say = "指揮官要是不來的話，豈不是太過掃興",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "期待在宴會上與指揮官共舞一曲呢，呵呵，開個玩笑",
 			typewriter = {
@@ -209,9 +209,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			say = "想起來了嗎？真是的，還好我來找你了",
 			flashout = {
@@ -264,8 +264,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "指揮官要是遲到或者缺席的話，事情可就難辦了",
 			typewriter = {

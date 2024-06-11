@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI9",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107060,
-			side = 2,
-			bgm = "battle-boss-4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "どうやらうまく抜け出せたようだな",
 			soundeffect = "event:/battle/plane",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "どうやらうまく抜け出せたようだな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

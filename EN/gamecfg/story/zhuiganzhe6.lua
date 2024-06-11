@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Moments with the Young Miss\n\n<size=45>6 An Ungraceful Attempt?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "The combined enthusiasm of both Chaser and Akatsuki pushed us to a demonstration of Sakura Empire ninjutsu techniques, courtesy of the latter.",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "The combined enthusiasm of both Chaser and Akatsuki pushed us to a demonstration of Sakura Empire ninjutsu techniques, courtesy of the latter.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "I think Long Island once said that ninjas can run on water!",
 			typewriter = {
@@ -83,9 +83,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Akatsuki sped up and did three loops around the water.",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "And you can use like that “katon” jutsu power to throw some fireballs!",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "Easily!",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Akatsuki sounded her main gun. A low-powered training round hit the target and popped into a small fireball.",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "And you can vanish in a puff of smoke!",
 			typewriter = {
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Akatsuki put up a smoke screen... huh?",
 			typewriter = {
 				speed = 0.05,
@@ -217,9 +217,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "As Chaser said, the ships can use these rather fantastical techniques with the power of their riggings.",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "The art of seduction?",
 			typewriter = {
@@ -264,10 +264,10 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 0,
+			bgName = "bg_main_day",
+			actor = 301090,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:66}＆{namecode:11}",
@@ -290,8 +290,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "My right arm pressed against something soft...",
 			typewriter = {
 				speed = 0.05,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "...Chaser had snuggled herself up against me.",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "Ah-Ahem!",
 			typewriter = {
@@ -364,8 +364,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "Oh... Sorry! That’s not quite right, is it?",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "She released my arm... And that was the most shocking thing Chaser had done over the past few days.",
 			typewriter = {
 				speed = 0.05,
@@ -402,12 +402,12 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "What’s the next item on our agenda, Miss Takao?",
 			typewriter = {
 				speed = 0.05,

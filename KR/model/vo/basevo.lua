@@ -1,12 +1,12 @@
 slot0 = class("BaseVO")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot1) do
 		slot0[slot5] = slot6
 	end
 end
 
-function slot0.display(slot0, slot1, slot2)
+slot0.display = function(slot0, slot1, slot2)
 	if slot1 == "loaded" or not slot2 then
 		return
 	end
@@ -32,18 +32,18 @@ function slot0.display(slot0, slot1, slot2)
 	print(slot3)
 end
 
-function slot0.clone(slot0)
+slot0.clone = function(slot0)
 	return Clone(slot0)
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 end
 
-function slot0.GetConfigID(slot0)
+slot0.GetConfigID = function(slot0)
 	return slot0.configId
 end
 
-function slot0.getConfigTable(slot0)
+slot0.getConfigTable = function(slot0)
 	slot1 = slot0:bindConfigTable()
 
 	assert(slot1, "should bindConfigTable() first: " .. slot0.__cname)
@@ -51,7 +51,7 @@ function slot0.getConfigTable(slot0)
 	return slot1[slot0.configId]
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	assert(slot0:getConfigTable() ~= nil, "Config missed, type -" .. slot0.__cname .. " configId: " .. tostring(slot0.configId))
 
 	return slot2[slot1]

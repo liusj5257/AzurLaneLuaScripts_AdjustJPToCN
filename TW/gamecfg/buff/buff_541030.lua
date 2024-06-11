@@ -1,12 +1,12 @@
 return {
-	time = 8,
-	name = "弹仓整备",
 	init_effect = "",
+	name = "弹仓整备",
+	time = 8,
+	picture = "",
+	desc = "弹仓整备",
 	stack = 1,
 	id = 541030,
-	picture = "",
 	last_effect = "",
-	desc = "弹仓整备",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttrRatio",
@@ -15,8 +15,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 2500
+				number = 2500,
+				attr = "loadSpeed"
 			}
 		}
 	}

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "",
-	color = "yellow",
+	id = 9654,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9654,
+	color = "yellow",
 	icon = 9654,
 	last_effect = "EVDdowm",
 	blink = {

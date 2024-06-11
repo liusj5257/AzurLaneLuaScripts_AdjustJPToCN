@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_guild_blue",
-			bgm = "hunhe-story",
-			dir = 1,
 			say = "巴拿馬要塞·會議室",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "呵啊唔……等得好無聊啊。結果企業到最後也沒有來呢……",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "也許是看著巴拿馬的風景入迷了，或者太累了在途中多休息了一會兒吧。",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "企業一直都那麼緊繃著神經，如果能在這裡稍微放鬆一下也不錯嘛。",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "那麼會議現在結束，駐防分配就這麼決定了。",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
 			say = "嘿嘿，包在我身上~不光是防禦設施，風景介紹也包在我身上囉~",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "唔，我果然還是不太放心企業前輩，我去稍微找找看！",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "（艾塞克斯還是老樣子，每次遇到和企業前輩有關的事，就會變得沉不住氣啊）",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "交給我吧，艾塞克斯。妳現在剛剛接手東側的指揮，還是先去熟悉一下要塞比較好哦。",
 			typewriter = {
@@ -222,14 +222,14 @@ return {
 			}
 		},
 		{
-			actor = 107110,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107110,
+			nameColor = "#a9f548",
 			say = "企業前輩~企業前輩~妳在哪兒呢。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -267,8 +267,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "我帶來了馬布爾黑德推薦的巴拿馬特製的咖啡很提神哦，來一杯吧。",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "……咦？",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "這裡是無畏，企業前輩，收到請回話。",
 			typewriter = {
 				speed = 0.05,
@@ -312,12 +312,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			soundeffect = "event:/ui/noice",
 			actorName = "通訊器",
+			side = 2,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "……………",
-			dir = 1,
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,8 +331,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "這個時候通訊器突然壞了…？應該不會這麼倒霉吧。",
 			typewriter = {
 				speed = 0.05,
@@ -346,9 +346,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "果然沒壞……也就是說！",
 			dialogShake = {
 				speed = 0.09,
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "全體人員注意，要塞周邊海域發現塞壬襲擊跡象。",
 			actorName = "通訊器",
+			side = 2,
+			dir = 1,
 			nameColor = "#a9f548",
 			bgm = "airRaidAlarm",
-			dir = 1,
-			say = "全體人員注意，要塞周邊海域發現塞壬襲擊跡象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "敵方艦隊正在從兩側遠海同時向要塞方向接近。請各戰鬥人員迅速歸位，準備戰鬥。",
@@ -398,9 +398,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "在這個時候發動襲擊！ ？ …剛才來的時候連個影子都沒有，從哪兒冒出來這麼多啊！ ！",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

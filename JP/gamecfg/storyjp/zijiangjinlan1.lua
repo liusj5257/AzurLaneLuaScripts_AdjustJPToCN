@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "――ここは重桜の聖地、貴き裔がおわす場所。",
 			bgm = "story-mayrain",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "――ここは重桜の聖地、貴き裔がおわす場所。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "天を突くほどの楼閣、その最上層の露台で黒髪の女性が目下の雲海を見やっていた。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "朝霧にも阻まれぬ、燦々とした陽の光が廊下の木床に彼女の影を落とした。",
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "白き重雲の遠方に潜む雷雨の兆し。それを察したかのように、万籟が止んだその瞬間、風ひとつない静寂が辺りを包んだ。",
@@ -86,10 +86,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この結界の中なら影響を受けないとはいえ…外は荒天になるでしょうね",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "黒髪の女性が屋内に戻ろうとしたそのとき、かすかに鳥の鳴き声が聞こえてきた。",
@@ -111,10 +111,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ツバメ…？もしや嵐を避けようと……",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "手を伸ばしてみると、結界に迷い込んだ弱きもの――小さなツバメが手にとまった。",
@@ -136,10 +136,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "安全な場所を探して迷い込んだのか？だとすると迂闊ね",
 			typewriter = {
 				speed = 0.05,
@@ -150,10 +150,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "季節の変わり目は天気も荒れ、好天も急に崩れたりするもの。備えなしにただ逃げ回るばかりでは長生きもできまい",
 			typewriter = {
 				speed = 0.05,
@@ -164,10 +164,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この結界の中の楼閣は汝（そなた）のような弱きものを庇護するためのものではないことを心得ておるのか？",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "人語が通じたかのように、ツバメはうなずいたかのような動きを見せた。",
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "黒髪の女性、連合艦隊旗艦の座を拝領した大和型の一人、戦艦・武蔵は振り返った。",
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "屋内には他に誰もいない。しかしもう一人の声はどこからか発せられていた。",
@@ -237,10 +237,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "景色に触れたのみで深い意味などないわ。それより、客人はもう来ているの？",
 			painting = {
 				alpha = 0.3,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "分かったわ",
 			painting = {
 				alpha = 0.3,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "最上層の屋内に再び静寂が戻り、武蔵が軽く手を揺らすと、とまっていたツバメは雲海へと羽ばたいていった。",
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "（トントン）",
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "武蔵さん、失礼します。赤城さんたちはもう結界の外まで来ていて、今若月ちゃんが案内しています",
 			painting = {
 				alpha = 0.3,
@@ -324,10 +324,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "分かったわ。汝も応接室にて準備を。すぐ向かうわ",
 			painting = {
 				alpha = 0.3,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "かしこまりました！",
 			painting = {
 				alpha = 0.3,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -376,10 +376,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "最初に来たのは赤城、汝なのね",
 			painting = {
 				alpha = 0.3,
@@ -394,10 +394,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "弱きものを庇護せぬこの結界なれど……",
 			painting = {
 				alpha = 0.3,
@@ -412,10 +412,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妾が代わりに嵐から守ってあげるわ。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			bgm = "story-maystorm",
 			sequence = {
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

@@ -14,9 +14,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "黑基洛夫BOSS战 本体召唤BUFF",
 	time = 0,
+	name = "黑基洛夫BOSS战 本体召唤BUFF",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -31,8 +31,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.6
+				number = -0.6,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -62,8 +62,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200707,
-				target = "TargetSelf",
-				time = 0.2
+				time = 0.2,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -73,8 +73,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200708,
-				target = "TargetSelf",
-				time = 0.2
+				time = 0.2,
+				target = "TargetSelf"
 			}
 		}
 	}

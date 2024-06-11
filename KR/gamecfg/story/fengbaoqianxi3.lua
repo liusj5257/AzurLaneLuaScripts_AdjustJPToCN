@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102150,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level02",
 			dir = 1,
 			say = "에헤헤, 화물 안전하게 도착~",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "모두 호위하느라 수고했어!",
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +61,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "회의 준비를 위한거야..물자 배치, 방어 배치 조정 자료 보고, 인원 연락 사항..준비할게 산더미야!",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "지금 사령부에 일손이 부족해서, 내가 올 수 밖에 없었어...내 주말...ㅠㅠ",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,8 +118,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "엔터프라이즈, 원래 계획대로 충돌 해역의 크리블랜드와 합류해서 호위 지휘관 함대로 이동하는거 맞지?",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "호위 함대에 관해서, 사령부에서 이미 지휘관과 플랜을 새로 짰어, 걱정은 할 필요 없어.",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "기타 상황은 나도 잘 몰라, 어쨋든 우선 문서를 봐봐.",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "만약 위험 구역에서 작전 진행한다면, 반드시 장비랑 물자 보급에 주의해.",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "후후, 열렬한 분위기 때문에 나도 모르게 좀 업됐나봐~",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "그럼, 사령부의 지령은 전달 완료한 걸로 하고, 난 다른 업무가 있어서 먼저 가볼게.",
 			typewriter = {
 				speed = 0.05,
@@ -326,14 +326,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "음..작전 계획에 따르면, 세이렌 위협 등급 4의 해역으로 가서 정찰 임무를 진행해야해.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -403,14 +403,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			stopbgm = true,
+			side = 2,
 			dir = 1,
+			stopbgm = true,
 			say = "하하하~ 조심하라고",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

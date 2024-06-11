@@ -1,12 +1,12 @@
 return {
-	time = 8,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 15034,
+	time = 8,
 	picture = "",
 	desc = "承受先锋队伍受到的50%伤害",
 	stack = 1,
-	id = 15034,
+	color = "blue",
 	icon = 15030,
 	last_effect = "",
 	blink = {

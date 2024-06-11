@@ -189,14 +189,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 10,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108122,
 	picture = "",
 	desc = "NANTOKABEAM",
 	stack = 1,
-	id = 108122,
+	color = "red",
 	icon = 108110,
 	last_effect = "",
 	effect_list = {

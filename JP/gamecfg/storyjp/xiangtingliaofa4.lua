@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107070,
-			side = 2,
-			bgm = "story-6",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "ここで好き勝手はさせないわよ！",
 			soundeffect = "event:/battle/plane",
+			side = 2,
+			dir = 1,
+			bgm = "story-6",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "ここで好き勝手はさせないわよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "このまま水平線まで飛んでけ――――！！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "このまま水平線まで飛んでけ――――！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -67,8 +67,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "で、こっちの助けはもう要らないかな？",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

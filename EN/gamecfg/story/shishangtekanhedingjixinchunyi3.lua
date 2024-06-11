@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Spring Festival I\n\n<size=45>3 Prancing Tiger Welcomes the Spring</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "I walk down the festive street under the light of lanterns and fireworks.",
 			bgm = "main-chunjie-pv",
+			say = "I walk down the festive street under the light of lanterns and fireworks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "With a roar, a very odd creature jumps out from the shadows and locks her arm around mine.",
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "The shipgirl – no, tiger – blocking my path continues to roar, shaking her huge \"head\" gleefully from side to side.",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "Or... No. That is clearly a lion's head. Is this one of those ligers I've heard about?",
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "(Guess I'll have to find another way...)",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "Within the beast's gaping maw, I see Hu Pen grinning proudly.",
@@ -466,10 +466,10 @@ return {
 			portrait = 501050,
 			side = 2,
 			bgName = "star_level_bg_127",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Lung Wu",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hu Pen! Quit slacking off and come back to practice!",
 			painting = {
 				alpha = 0.3,
@@ -500,8 +500,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "Hu Pen dons her lion head once again.",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "With that, the lion-tiger hybrid scampers energetically back to Lung Wu.",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "(Seems like our New Year's festival has an exciting new program coming up.)",

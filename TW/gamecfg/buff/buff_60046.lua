@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "治疗光环",
 	time = 1,
+	name = "治疗光环",
+	init_effect = "",
 	picture = "",
 	desc = "治疗光环-治疗",
 	stack = 1,

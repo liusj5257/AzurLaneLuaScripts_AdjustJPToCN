@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"크리스마스 선물 대작전!\n\n<size=45>3. 크리스마스의 어둠(상)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항-이글 유니온 구역",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항-이글 유니온 구역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "어……어쨌든! 작년처럼 어색한 언니에게 선물을 받는 건 사양이야! 언니가 모항에 없는 지금 빨리……",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "똑똑똑 문 두드리는 소리",
 			typewriter = {
 				speed = 0.05,
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "으악! 설마 언니가 돌아온 건 아니겠지!",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "말……말없이 여자아이의 방에 가다니…… 괜찮을까요……",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#92fc63",
 			say = "부끄러워하지 않아도 돼! 우리 유니온은 오픈 앤 프리니까! 따라와!",
 			typewriter = {
 				speed = 0.05,

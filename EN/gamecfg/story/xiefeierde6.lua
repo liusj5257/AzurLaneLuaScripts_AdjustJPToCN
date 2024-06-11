@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Loaded with Lead and Love\n\n<size=45>Chapter 6 - A Maid's Feelings (Part 1)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Commander's personal quarters",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Commander's personal quarters",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "Good morning, Master. Breakfast is ready, so please get rinsed. I mean, washed.",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "But I did! Since you've been helping me around the house so much, I look forward to seeing you even on the weekends.",
 			typewriter = {
 				speed = 0.05,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"I just want to be able to stay with you like this.\"",
 			typewriter = {
 				speed = 0.05,
@@ -164,14 +164,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "Days later, Port - Commander's personal quarters",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I found myself awake earlier than usual. What's the time...? Seems like I can afford to go back to sleep...",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I could hazily hear a conversation occuring in the hallway outside my room...",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Newcastle",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Sheffield",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Newcastle",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Sheffield",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Newcastle",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I seemed to have overheard quite a difficult conversation.",
 			typewriter = {

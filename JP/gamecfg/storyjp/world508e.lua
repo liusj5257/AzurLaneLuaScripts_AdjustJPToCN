@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508E",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "さすがは「余燼」の戦闘力ですね…！一隻だけでこちらの何隻分も攻撃力があるなんて…",
-			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "でもなんとかアーク・ロイヤルが抜けた分を補えたわ",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "（これはいい情報ね。あとで指揮官へのレポートに書き足さないと）",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "でも向こうのアビータの実力は底が見えないです。気を抜いたら勝てないとかそれ以前に、気を抜かなくても私たちだけじゃ勝てないですね",
 			typewriter = {
 				speed = 0.05,
@@ -101,14 +101,14 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900287,
+			nameColor = "#ff5c5c",
 			say = "実験対象の艦隊は予測値以上の戦力を発揮。有意義な情報と判断",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1

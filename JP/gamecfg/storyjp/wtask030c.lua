@@ -1,12 +1,12 @@
 return {
-	id = "WTask030C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask030C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "港に来襲したセイレーン艦隊を撃破！任務完了！",
 			typewriter = {
 				speed = 0.05,

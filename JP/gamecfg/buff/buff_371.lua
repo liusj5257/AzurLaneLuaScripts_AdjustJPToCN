@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "苍龙META 特殊航空点燃",
 	time = 6.1,
+	name = "苍龙META 特殊航空点燃",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -15,13 +15,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "airPower",
-				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
-				number = 521,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0
+				number = 521
 			}
 		},
 		{

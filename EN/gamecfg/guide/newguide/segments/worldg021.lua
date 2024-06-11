@@ -24,9 +24,9 @@ return {
 			style = {
 				text = "Tap an area outside the map boundary to go to the Operation Overview.",
 				mode = 2,
-				posY = -160,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -160,
 				posX = 450
 			},
 			showSign = {
@@ -67,9 +67,9 @@ return {
 			style = {
 				text = "Next, select the zone you wish to travel to, then tap Enter Zone to go to it.",
 				mode = 2,
-				posY = -300,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -300,
 				posX = 200
 			},
 			showSign = {
@@ -113,9 +113,9 @@ return {
 			style = {
 				text = "The zones highlighted in red advance the story. Make your way to the target zone and seize control over minor zones along the way.",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 0,
 				posX = 300
 			}
 		},
@@ -124,9 +124,9 @@ return {
 			style = {
 				text = "Tap here to return to current sector",
 				mode = 2,
-				posY = 245.23,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 245.23,
 				posX = -552.4
 			},
 			ui = {
@@ -135,11 +135,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -76.32,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 238.9,
-					rotateY = 0
+					posX = -76.32
 				}
 			}
 		},

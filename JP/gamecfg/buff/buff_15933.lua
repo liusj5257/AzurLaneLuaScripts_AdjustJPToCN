@@ -7,8 +7,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.1
+					absorb = 0.1,
+					number = 0.7
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.111
+					absorb = 0.111,
+					number = 0.7
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.122
+					absorb = 0.122,
+					number = 0.7
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.133
+					absorb = 0.133,
+					number = 0.7
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.144
+					absorb = 0.144,
+					number = 0.7
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.155
+					absorb = 0.155,
+					number = 0.7
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.166
+					absorb = 0.166,
+					number = 0.7
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.177
+					absorb = 0.177,
+					number = 0.7
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.188
+					absorb = 0.188,
+					number = 0.7
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.7,
-					absorb = 0.2
+					absorb = 0.2,
+					number = 0.7
 				}
 			}
 		}
 	},
-	time = 8,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 8,
 	picture = "",
 	desc = "承受目标受到的30%伤害",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				number = 0.7,
-				absorb = 0.1
+				absorb = 0.1,
+				number = 0.7
 			}
 		}
 	}

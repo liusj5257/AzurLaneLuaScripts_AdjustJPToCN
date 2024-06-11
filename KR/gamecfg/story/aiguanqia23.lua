@@ -1,16 +1,16 @@
 return {
-	id = "AIGUANQIA23",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA23",
+	fadein = 1.5,
 	scripts = {
 		{
-			say = "모항 - 로열 네이비 숙소 근처",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "모항 - 로열 네이비 숙소 근처",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#92fc63",
 			say = "아이쨔~~~~~~~~~~앙!!!???",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,17 +170,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "여차여차해서, 랜덤 워드 생성기가 내 3D 모델을 베이스로 카피를 만든 모양이어서 말야, 나도 조금 전에 정신이 들어서 깜짝 놀란 참이었어~",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#92fc63",
+			say = "여차여차해서, 랜덤 워드 생성기가 내 3D 모델을 베이스로 카피를 만든 모양이어서 말야, 나도 조금 전에 정신이 들어서 깜짝 놀란 참이었어~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "응! 원래 세계에 있는 나랑은 언제든지 기억을 공유할 수 있으니, 그러니까 동일 인물! 설정상 문제없음! 응!",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "버츄얼이니까요! 뭐든 할 수 있다구요!",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "앞으로도, 키즈나 아이를 잘 부탁드려요!",
 			typewriter = {

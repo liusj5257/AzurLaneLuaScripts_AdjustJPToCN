@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG40",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG40",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 2,
-			side = 2,
-			say = "At the Northern Parliament",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			bgm = "bsm-2",
+			say = "At the Northern Parliament",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -65,10 +65,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "The movements of the Iron Blood and the Sirens were too synchronized. Don't believe it's a coincidence for a second.",
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "The front lines received the bulk of the aid. We're also starting to repair the damaged transports.",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "As expected, the Iron Blood would not dare sabotage the supplies needed to fight the Sirens.",
 			typewriter = {
 				speed = 0.05,

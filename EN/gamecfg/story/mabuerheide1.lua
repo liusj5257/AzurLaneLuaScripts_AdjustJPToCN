@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Light Up My Day\n\n<size=45>1 Guess Who!</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "It was a sunny day. The port was enveloped in a pleasant warmth.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "It was a sunny day. The port was enveloped in a pleasant warmth.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "*yawn*... Man, I always get so sleepy when it's warm. Almost makes me wanna go tan.",
 			typewriter = {
@@ -100,15 +100,15 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "Heyo, Commander! Guess who!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			say = "Someone approached me from behind and covered my eyes with her hands, then prompted me to guess her name.",
@@ -151,8 +151,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "C'mon, timer's ticking away. Get it right, and you might just win a prize, or whatevs!",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "San Diego? No. Hint: I'm not a redhead. 5 seconds left to get it right! 4... 3... 2... 1... Sorry, time's up!",
 			typewriter = {
@@ -200,14 +200,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102270,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "The disappointment is real. How come you don't remember the trendiest girl in port? That's, like, punishable in my book.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -232,8 +232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Marblehead pouted at me, then softly poked my left hand with her index finger.",
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "So, I hereby sentence you to a manicure, performed by me, personally!",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "Memphis might be the queen of nails, but I can still do a solid job. Now gimme your hand, and we'll get those nails lookin' worthy of a Juustagram header.",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "She grabbed my hand, but then suddenly paused as though her train of thought just changed tracks.",
@@ -347,11 +347,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "...You've gotta plan something important? All the more reason to get some fresh air!",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -376,8 +376,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "C'mon. You won't get any work done by staying glued to your desk. A quick breather will do you good!",
 			effects = {
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "She was very insistent on this, so I yielded and agreed to go outside with her.",
 			effects = {
 				{

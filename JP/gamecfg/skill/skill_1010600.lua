@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "万夜·忉利天 +",
 	cd = 0,
+	picture = "0",
+	desc = "鱼雷额外1轮",
 	painting = 1,
 	id = 1010600,
-	picture = "0",
 	castCV = "skill",
-	desc = "鱼雷额外1轮",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,20 +17,20 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1,
 				weaponType = "TorpedoWeapon"
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 1010602
 			}

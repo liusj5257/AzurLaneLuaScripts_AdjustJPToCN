@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO08",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO08",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900070,
+			say = "I wonder... if all the stars in the night sky are the lights of different civilizations, just as you said...",
 			side = 0,
 			stopbgm = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900070,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "I wonder... if all the stars in the night sky are the lights of different civilizations, just as you said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,177 +23,177 @@ return {
 		{
 			actor = 900070,
 			nameColor = "#a9f548",
-			side = 0,
-			withoutPainting = true,
-			dir = 1,
-			blackBg = true,
 			say = "Could they be just like us... Laughing and crying together the same way humans do?",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900070,
-			side = 1,
-			actorName = "???",
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
-			say = "That's right. We're not so alone in the universe after all.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900070,
-			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
 			dir = 1,
 			blackBg = true,
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "That's right. We're not so alone in the universe after all.",
+			side = 1,
+			actorName = "???",
+			dir = 1,
+			blackBg = true,
+			actor = 900070,
+			nameColor = "#a9f548",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900070,
+			nameColor = "#a9f548",
 			say = "...I see. Then, do you think I'll ever get a chance to meet them? There are so many things I'd like to ask.",
+			side = 0,
+			dir = 1,
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900070,
-			side = 1,
-			actorName = "???",
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			say = "One day, you will. I'm sure of it.",
+			side = 1,
+			actorName = "???",
+			dir = 1,
+			blackBg = true,
+			actor = 900070,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900070,
-			side = 1,
-			actorName = "???",
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			say = "Just like the name given to you suggests, we humans will always keep forging ahead, no matter how tough the going gets. That's what it means to be enterprising.",
+			side = 1,
+			actorName = "???",
+			dir = 1,
+			blackBg = true,
+			actor = 900070,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900070,
-			side = 1,
-			actorName = "???",
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			say = "Speaking of which, I don't think I've ever asked you, but... Enterprise, do you like your name?",
+			side = 1,
+			actorName = "???",
+			dir = 1,
+			blackBg = true,
+			actor = 900070,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900070,
-			side = 1,
-			actorName = "???",
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			say = "Yes, of course.",
+			side = 1,
+			actorName = "???",
+			dir = 1,
+			blackBg = true,
+			actor = 900070,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 900070,
-			side = 1,
-			actorName = "???",
-			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			say = "Then...",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900070,
 			side = 1,
 			actorName = "???",
+			dir = 1,
+			blackBg = true,
+			actor = 900070,
 			nameColor = "#a9f548",
-			dir = 1,
-			blackBg = true,
 			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			say = "How about we make a promise?",
+			side = 1,
+			actorName = "???",
+			dir = 1,
+			blackBg = true,
+			actor = 900070,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			withoutPainting = true,
-			side = 1,
-			dir = 1,
-			blackBg = true,
 			say = "…",
+			side = 1,
+			dir = 1,
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			withoutPainting = true,
-			side = 1,
-			dir = 1,
-			blackBg = true,
 			say = "……",
+			side = 1,
+			dir = 1,
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			withoutPainting = true,
-			side = 1,
-			dir = 1,
-			blackBg = true,
 			say = "Memory module playback has been interrupted. Attempt to restart?",
+			side = 1,
+			dir = 1,
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			withoutPainting = true,
-			side = 1,
-			dir = 1,
-			blackBg = true,
 			say = "……",
+			side = 1,
+			dir = 1,
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			withoutPainting = true,
+			say = "I...",
 			side = 1,
 			dir = 1,
 			blackBg = true,
-			say = "I...",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.3
+					number = 0.3,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -66,8 +66,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.111
+					number = 0.111,
+					attr = "cri"
 				}
 			},
 			{
@@ -77,8 +77,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.322
+					number = 0.322,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.122
+					number = 0.122,
+					attr = "cri"
 				}
 			},
 			{
@@ -124,8 +124,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.344
+					number = 0.344,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -160,8 +160,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.133
+					number = 0.133,
+					attr = "cri"
 				}
 			},
 			{
@@ -171,8 +171,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.366
+					number = 0.366,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -207,8 +207,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.144
+					number = 0.144,
+					attr = "cri"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.388
+					number = 0.388,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -254,8 +254,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.155
+					number = 0.155,
+					attr = "cri"
 				}
 			},
 			{
@@ -265,8 +265,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.41
+					number = 0.41,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -301,8 +301,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.166
+					number = 0.166,
+					attr = "cri"
 				}
 			},
 			{
@@ -312,8 +312,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.432
+					number = 0.432,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -348,8 +348,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.177
+					number = 0.177,
+					attr = "cri"
 				}
 			},
 			{
@@ -359,8 +359,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.454
+					number = 0.454,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -395,8 +395,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.188
+					number = 0.188,
+					attr = "cri"
 				}
 			},
 			{
@@ -406,8 +406,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.476
+					number = 0.476,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -442,8 +442,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.2
+					number = 0.2,
+					attr = "cri"
 				}
 			},
 			{
@@ -453,8 +453,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.5
+					number = 0.5,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -469,14 +469,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "腓特烈",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 19232,
+	time = 0,
 	picture = "",
 	desc = "额外增加暴击、暴击伤害",
 	stack = 1,
-	id = 19232,
+	color = "red",
 	icon = 19230,
 	last_effect = "",
 	blink = {
@@ -505,8 +505,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.1
+				number = 0.1,
+				attr = "cri"
 			}
 		},
 		{
@@ -516,8 +516,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.3
+				number = 0.3,
+				attr = "criDamage"
 			}
 		},
 		{

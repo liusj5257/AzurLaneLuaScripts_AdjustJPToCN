@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_5 = {}
 slot1 = slot0.word_template_5
 
-function temp()
+temp = function()
 	uv0["江"] = {
 		["泽"] = {
 			["民"] = {
@@ -166,7 +166,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["尉"] = {
 		["健"] = {
 			["行"] = {
@@ -178,7 +178,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["胡"] = {
 		["锦"] = {
 			["涛"] = {
@@ -294,7 +294,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["温"] = {
 		["家"] = {
 			["宝"] = {

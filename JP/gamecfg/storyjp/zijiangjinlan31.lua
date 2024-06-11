@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN31",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "演習海域にて・10ターン目（赤城）",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg14",
 			say = "演習の参加者――「部下」の艦船が減るとともに、演習海域の空も暗くなっていく。",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg14",
 			say = "偽りの空だと知りつつも、闇に覆われた海がもたらす暗く重たい雰囲気で、艦船たちは演習が終盤に差し掛かっていることを実感した。",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "やつの狙いはまだ不明だが…もしかしたらこの演習場となにか関係があるのか？",
 			painting = {
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "思えばこの演習で武蔵さんはもっぱら赤城さんと大先輩の「部下」を攻撃していたようですね。今の艦載機だってあんなに距離があるのに強引に飛ばしちゃって",
 			painting = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "でもおかげさまで向こうの陣形が乱れているわ。私たちにとっての好機ね",
 			painting = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "大先輩はおそらく予見していたでしょうけど、それでも中央拠点を攻める準備は遅れたはずよ",
 			painting = {
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "直接戦闘にならなければ耐久にまだ余裕がある私が多少は役に立ちます。赤城さんたちはその間に中央拠点の攻撃を",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "…………構わないわ。もともと「誰でもいい」から",
 			painting = {
@@ -289,8 +289,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "加賀？",
 			painting = {
@@ -306,8 +306,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "ああ。龍鳳だと塔からの攻撃で戦闘不能にされる可能性がある。リスクはできるだけ減らしたほうがいい",
 			painting = {
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "…………分かったわ。行きなさい",
 			painting = {
@@ -356,8 +356,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "そろそろ終盤ね。次こそ総攻撃を仕掛けるわ",
 			painting = {

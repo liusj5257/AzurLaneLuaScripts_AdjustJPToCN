@@ -1,16 +1,16 @@
 return {
-	id = "XIAWANJIANDEFANJI11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI11",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "펑-------------!",
-			dir = 1,
 			bgm = "battle-boss-1",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "펑-------------!",
 			flashN = {
 				color = {
 					1,
@@ -75,9 +75,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "오...... 워스파이트... 드이어 왔구나...! (쓰러짐)",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 1,
 					dur = 0.8,
 					x = 0
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "워스파이트, 메탈 블러드 해군은 로열처럼 항복하지 않습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "네. 메탈 블러드 해군은 끝까지 싸울 겁니다.",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "“악인”은 “악인”의 각오가 있죠. 변명같은 건 없습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

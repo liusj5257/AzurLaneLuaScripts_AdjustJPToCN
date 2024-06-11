@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "くっ…「本部に緊急連絡、セイレーン及び正体不明の超兵器の奇襲を受け、一時的に艦隊陣形の崩壊が発生、",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,17 +177,17 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			actorName = "ピュリファイアー",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900021,
 			nameColor = "#ff0000",
 			say = "おかしいね。ここまで大きな「特異点」ができたのに、「あの子」が現れないなんて…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -212,12 +212,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "ピュリファイアー",
 			say = "「プロトタイプ」――いちど会ってみたいなぁ～",
 			typewriter = {
 				speed = 0.05,
@@ -229,12 +229,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "ピュリファイアー",
 			say = "ま、とりあえずオブサーバーに送信送信っと～",
 			typewriter = {
 				speed = 0.05,

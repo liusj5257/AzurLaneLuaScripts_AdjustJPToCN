@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Mysterious Rabbit Alien?!\n\n<size=45>VII 「The Real Rabbit Alien」</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 101270,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Hey...Commander, Bailey thinks that you misunderstood her.",
 			bgm = "story-2",
+			actor = 101270,
+			nameColor = "#a9f548",
+			say = "Hey...Commander, Bailey thinks that you misunderstood her.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "…………？！",
 			typewriter = {
 				speed = 0.05,
@@ -148,9 +148,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "…It seems that Bailey has become so mature from her words.",
 			typewriter = {
 				speed = 0.05,
@@ -174,11 +174,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Indeed, nyaa~ Scientifically speaking, the universe is still vastly unexplored!",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Such an idealistic idea...",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Although, seeing the smile on Bailey’s face, almost makes people think that everything she’s said must be real.",
 			typewriter = {
 				speed = 0.05,
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 101360,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101360,
+			nameColor = "#a9f548",
 			say = "Bailey, the meteor shower has begun!",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,

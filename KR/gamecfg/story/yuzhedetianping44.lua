@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING44",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING44",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,12 +31,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			bgm = "theme-underheaven",
 			say = "거울 해역 안에 있는 '지중해'는 다시 '신의 흔적'으로 뒤덮였다.",
+			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

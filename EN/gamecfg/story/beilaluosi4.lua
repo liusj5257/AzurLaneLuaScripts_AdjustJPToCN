@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"White Gallantry\n\n<size=45>4 Belorussiya, As a Person</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "While we still had all the Northern Parliament girls gathered in one place, I decided to chat them up. At the same time, I asked what they think about Belorussiya.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "While we still had all the Northern Parliament girls gathered in one place, I decided to chat them up. At the same time, I asked what they think about Belorussiya.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "In fact, she might've thrown this party today because I told her I wanted to get together with everyone and have a drink!",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "That \"everyone\" includes you, Comrade! I won't take no for an answer! Hahaha!",
 			typewriter = {
@@ -102,14 +102,14 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 702060,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Belorussiya is a very good person~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,8 +137,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "You say that about everyone. Is there even such a thing as a \"bad person\" to you?",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Hmm... Now that you mention it, nope~",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Surprise... Look, the commander isn't simply asking if she's good or bad, it's about the details. What's she like? How do you approach her? What sets her apart from others in battle?",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Also, the commander wants to hear it from us. Not from Belorussiya.",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "No. That girl is on another level. If you asked her about herself, she'd probably play mindgames with you rather than tell the truth.",
 			typewriter = {
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "\"That's what I thought, too. It's why I'm asking you all instead.\"",
 			typewriter = {
 				speed = 0.05,
@@ -283,14 +283,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 705050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "What's the matter, Comrade Commander? You look a tad ill to me.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -318,8 +318,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "...Asking around about Belorussiya? Ah, I see. So you both had the same idea.",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "That girl has a strong and accurate intuition, but she is not one to pass on gathering concrete information to supplement it.",
 			typewriter = {
@@ -387,9 +387,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "\"She's brought bets up a few times before, yeah. Why shouldn't I accept them?\"",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Because she only makes bets she is absolutely certain she will win.",
 			typewriter = {
@@ -421,8 +421,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Oh, sorry, it just came to me that your glass is empty. We can't have that now, can we?",
 			typewriter = {

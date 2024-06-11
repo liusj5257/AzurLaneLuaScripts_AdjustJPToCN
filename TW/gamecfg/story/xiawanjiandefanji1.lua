@@ -1,18 +1,18 @@
 return {
-	id = "XIAWANJIANDEFANJI1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401020,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "真是棘手…皇家的增援火力稍微有點超乎想像呢。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			actor = 401020,
+			nameColor = "#ff5c5c",
+			say = "真是棘手…皇家的增援火力稍微有點超乎想像呢。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -80,8 +80,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "果然這種情況就連Z18也笑不出來了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "是呢。",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "只是想這麼做。",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "要是Z1在的話，這種時候應該能給大家打氣吧。我不像Z1那麼陽光，就只能做這種事了。",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "嗯…",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "我還是小看妳了…",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "嗯…我也要打起精神來了。",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "大家按照命令，準備撤退。",
 			typewriter = {
 				speed = 0.05,

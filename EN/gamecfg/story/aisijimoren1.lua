@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Summer Surprise\n\n<size=45>1 The Arctic Eskimo?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One day at port...",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "One day at port...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "Huh? You haven't met her either, Benson?",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "So, we'll be able to meet her if we head to the office? I wonder what kind of person she is...",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "Huh?! A voice came from behind those trees!",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_113",
-			actorName = "???",
 			dir = 1,
+			actorName = "???",
 			say = "Badumdumdum!",
 			dialogShake = {
 				speed = 0.08,
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "Wait, now someone's drumming?!",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -342,8 +342,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,8 +361,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "*gulp*",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Tadaaaah! Tribal-class destroyer, Eskimo, will be serving as secretary starting today! It's a pleasure to meetcha!",
 			dialogShake = {
 				speed = 0.08,
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "Woah, a girl calling herself Eskimo leapt out from behind the tree!",
 			effects = {
 				{
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "But she does have thick clothes from the frozen North! How cool!",
 			typewriter = {
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "Huh, she's pretty cheerful. Not quite what I was expecting, hehe. Looks like things will be getting a lot livelier around here~",
 			typewriter = {
 				speed = 0.05,

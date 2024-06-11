@@ -1,15 +1,15 @@
 return {
-	id = "W1008",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1008",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "설비 운행 중.........",
 			typewriter = {
 				speed = 0.05,
@@ -23,9 +23,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "경고: 숨어 있는 세이렌 함대 발견.",
 			typewriter = {
 				speed = 0.05,

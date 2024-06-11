@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"足柄、すゝめ！\n\n<size=45>七 足柄、踏み出せ！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 303090,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……",
 			bgm = "story-2",
+			actor = 303090,
+			nameColor = "#a9f548",
+			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（な、なにか言わないと…うぅ……）",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 303090,
 			nameColor = "#a9f548",
 			say = "顔が真っ赤のままの足柄が隣に無言で座っている。",
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "………………………",
 			typewriter = {
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "この無言の空気、一体なにをどうすれば……",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "とおもいきや――",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "指揮官殿！で、デートしてください！",
 			typewriter = {
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……えっ。",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "わわわ私今何言ってるんでしょうか！？",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -177,8 +177,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "申し訳ございません今の忘れてください！",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,8 +210,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……！？",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "だ、大丈夫です！無理に私のわがままに合わせてくれなくても私――",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "…そ、そうですね！私も指揮官殿のことを知りたいですし…",
 			typewriter = {
@@ -264,9 +264,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "何回もフォローして、ようやく足柄の緊張がほぐれた。",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "じゃあ……じゃあ約束……ですよ？",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			stopbgm = true,
+			nameColor = "#a9f548",
 			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "青葉",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "急に部屋の扉が開き、何人かが重なるように倒れ込んできた。",
 			dialogShake = {
 				speed = 0.09,
@@ -331,13 +331,13 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ぐぬぬ…肝心な時に……",
 			bgm = "story-1",
+			actor = 301300,
+			nameColor = "#a9f548",
+			say = "ぐぬぬ…肝心な時に……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

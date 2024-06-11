@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Duelling Sunshine!\n\n<size=45>5 Enty's Sister</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port—Office, Nighttime",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port—Office, Nighttime",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I see... Hornet is set to spar with Zuikaku in my place.",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Well, it's not exactly in my place. We both fight differently, and if Zuikaku didn't accept her on her own merits, she wouldn't be sparring with her in the first place.",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Yeah, I know. Leave the training to me.",
 			typewriter = {
@@ -115,14 +115,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Practice Area—Noon, the Following Day",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "E-Enty?! Weren't you supposed to come back tonight?!",
 			dialogShake = {
 				speed = 0.08,
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I hurried back as soon as I heard you were sparring with Zuikaku.",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Even if you hurried back, I can't believe you'd be back half a day early... You're amazing as always, Enty...",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Oh. If you're back, you should spar with Zuikaku yourself—",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "No. You're the one who's supposed to be sparring with her today. And since she's accepted your invitation, it'd be rude to change at the last minute.",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -265,8 +265,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Enty...",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "The Commander's advice to you was \"special training.\" Well, let's get on with it then.",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Zuikaku's the type who won't take any opponent lightly. Unless you focus, you're going to be tuckered out for the rest of your vacation.",
 			effects = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "...Got it, Enty!",
 			effects = {
 				{
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -353,14 +353,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_main_twilight",
 			actor = 107070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Whew, it's already this late...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -388,8 +388,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Zuikaku might be strong, but you're probably so much stronger! With these measures under my belt, tomorrow should be a piece of cake.",
 			typewriter = {
@@ -421,8 +421,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "You might start off strong with these measures, but you'll need to adapt to the battle with your own strength to close it out.",
 			typewriter = {
@@ -467,8 +467,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "After seeing Enterprise off, Hornet stared off into the horizon.",
@@ -485,8 +485,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Sigh... I went through so much special training today. I just hope it sticks...",
 			typewriter = {
@@ -502,8 +502,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "In the end, I had to rely on Enty...",
 			typewriter = {
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "With a bitter smile on her face, Hornet lowered her head and pulled her hat down to hide her face.",
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "And, as if she remembered something, she raised her head and turned to look behind her.",
@@ -549,8 +549,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "The reason Enty came back early has to be because I talked to the Commander about my bout with Zuikaku, right?",
 			typewriter = {
@@ -566,8 +566,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "I wonder what the special training the Commander had in mind was...",
 			typewriter = {
@@ -580,8 +580,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "She looked as if she was thinking that in the end, she was only Enterprise's replacement.",
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "It was an expression I was seeing for the first time since having come to know her.",
@@ -610,8 +610,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "My advice for Hornet, who was troubled by the weight of being called Enterprise's sister, was...",
@@ -625,8 +625,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			blackBg = true,

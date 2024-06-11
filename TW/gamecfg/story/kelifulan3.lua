@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "幾天後·體育館",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "幾天後·體育館",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			actorScale = 0.6,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "哈……哈……對不起我來晚了！",
 			effects = {
 				{
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -68,8 +68,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -85,8 +85,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 3,
 					dur = 0.1,
 					number = 3
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "正當大家為了籃球對抗賽奮力練習的時候，身為隊長的克里夫蘭竟然意外地遲到了。",
 			effects = {
 				{
@@ -126,30 +126,30 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "咕嘟咕嘟…哈！其實是剛才過來的路上——",
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					number = 1
@@ -165,15 +165,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "欸欸！聖地牙哥害得宿舍後院裡長滿了小麥！ ？ ……那不是正好可以補貼糧食……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,16 +230,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "行了行了！大家一起動手收割總行了吧，別再叫我克爹了！",
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -255,15 +255,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "所以就給白鷹宿舍幫忙去了……實在抱歉！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -288,9 +288,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "克里夫蘭雙手合十道著歉。一起在艦隊待久了，總覺得對這些也早就習以為常了",
 			typewriter = {
 				speed = 0.05,
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 102150,
+			say = "多謝大姐頭！真體貼！",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "多謝大姐頭！真體貼！",
+			actor = 102150,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 102100,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102100,
+			nameColor = "#a9f548",
 			say = "大姐頭太遲鈍啦～海倫娜的便當雖然不錯，偶爾也想嚐嚐克里夫蘭的手藝啊，是吧指揮官？",
 			typewriter = {
 				speed = 0.05,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "真，真的嗎？那我下次問問海倫娜吧……是因為指揮官想吃我才做的哦！",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Port - Main Area",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "Port - Main Area",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 10400010,
 			stopbgm = true,
 			say = "Huuuh? Reaaally~?!",
 			typewriter = {
@@ -161,14 +161,14 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "………",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			actor = 101170,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "Everyone",
-			say = "………",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -206,11 +206,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			bgm = "ai-fb-inst",
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Eh heh heh, I've come back, safe and sound~!",
-			bgm = "ai-fb-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,14 +221,14 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "HUHHH----?!?!",
 			side = 2,
 			bgName = "bg_story_school",
 			actorName = "Everyone",
 			dir = 1,
+			actor = 101170,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "HUHHH----?!?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -268,15 +268,15 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "I'll give you the TL;DR! I'm originally an A.I., so I was a virtual existence to begin with. Therefore, it doesn't make any difference if I'm swallowed up by virtual space. Does that sound about right?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "(Well, they probably wouldn't understand if I told them the truth, so I guess this will have to do)",
 			typewriter = {
@@ -353,8 +353,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Javelin-chan, sorry for making you worry about me.",
 			typewriter = {
@@ -399,12 +399,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "Well, things aren't quite done here but, I'm relieved...",
 			typewriter = {
 				speed = 0.05,

@@ -5,7 +5,7 @@ slot2 = class("BattleCardPuzzleSkillActiveCard", slot0.Battle.BattleCardPuzzleSk
 slot0.Battle.BattleCardPuzzleSkillActiveCard = slot2
 slot2.__name = "BattleCardPuzzleSkillActiveCard"
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._activeFrom = slot0._tempData.arg_list.active_from or 0
@@ -14,7 +14,7 @@ function slot2.Ctor(slot0, slot1)
 	slot0._activeAll = slot0._tempData.arg_list.active_all
 end
 
-function slot2.SkillEffectHandler(slot0)
+slot2.SkillEffectHandler = function(slot0)
 	slot2 = slot0._card:GetClient():GetCardPileByIndex(slot0._activeFrom)
 	slot3 = {
 		value = slot0._activeID or slot0._activeLabel,

@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "呵呵呵~再來！還可以更盡興一些！",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "不錯！看來{namecode:82}說得沒錯，確實是值得期待的後輩！",
 			flashN = {
 				color = {
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
+			actor = 307060,
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:96}&{namecode:95}",
@@ -141,8 +141,8 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "到此為止喵！！沒想到以重重限制的武裝還能戰鬥到這個地步喵……",
 			flashin = {
 				delay = 0.2,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "女天狗似乎打得十分盡興，{namecode:96}和{namecode:95}也從戰鬥中有所收穫得樣子，看來這次是選對人了，要感謝{namecode:82}才是。",
 			typewriter = {
 				speed = 0.05,

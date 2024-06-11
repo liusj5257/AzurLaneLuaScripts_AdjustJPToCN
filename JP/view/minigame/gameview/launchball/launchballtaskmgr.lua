@@ -13,7 +13,7 @@ slot0.type_trigger_skill_time = 303
 slot0.type_player_target_round = 400
 slot0.type_player_round = 401
 
-function slot0.CheckTaskUpdate(slot0)
+slot0.CheckTaskUpdate = function(slot0)
 	slot3 = nil
 
 	if LaunchBallActivityMgr.GetPlayerZhuanshuIndex(slot0.player) and not LaunchBallActivityMgr.CheckZhuanShuAble(ActivityConst.MINIGAME_ZUMA, slot2) then
@@ -93,7 +93,7 @@ function slot0.CheckTaskUpdate(slot0)
 	end
 end
 
-function slot0.GetRedTip()
+slot0.GetRedTip = function()
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.MINIGAME_ZUMA_TASK) and not slot0:isEnd() then
 		slot2 = getProxy(TaskProxy)
 

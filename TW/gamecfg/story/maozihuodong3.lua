@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "經過一段時間的航行，艦隊成功抵達了阿申留防線的海軍基地。",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "唔？曙光小姐？妳不是應該在負責協調皇家的援助物資嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "哦？嗯嗯~你就是指揮了上次紐約港防禦戰的傳說中的指揮官吧~？嚯~嗯~不錯不錯",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "聽說上次你剛到港口沒來得及休息就遭到了突然襲擊？真是挺慘的呢，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "不過在這裡就可以安心的休息了。那座冰雪要塞在我們接近到一定範圍之前，是絕對不會主動攻擊的。",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "沒事的！妳看，現在支援不是來了嗎~",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102100,
 			dir = 1,
+			actor = 102100,
 			say = "不過這裡風景倒是挺不錯，和波特蘭她們調查的一樣。雖然有點冷，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "呀~抱歉抱歉，都怪某個指揮官在路上發呆呢！",
 			typewriter = {
 				speed = 0.05,
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "唔…？怪我嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "欸…？北方聯合的夥伴，就只有妳們兩位嗎？",
 			typewriter = {
 				speed = 0.05,

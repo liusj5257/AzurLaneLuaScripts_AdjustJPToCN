@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103160,
-			side = 0,
-			bgm = "story-6",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "Guh...! There's no armor that won't split open eventually! Let's see your insides!",
 			soundeffect = "event:/battle/boom2",
+			side = 0,
+			dir = 1,
+			bgm = "story-6",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "Guh...! There's no armor that won't split open eventually! Let's see your insides!",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "Oh no, I'm so scared~ By the by, while you've been messing around here, NY back there's been having a city-wide barbecue party! You should go check it out!",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "HUH?!",
 			typewriter = {
 				speed = 0.05,
@@ -133,10 +133,10 @@ return {
 			}
 		},
 		{
+			say = "BOOOOOOOOOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "BOOOOOOOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -187,8 +187,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "My engines...?! Argh... did she teleport behind me?!",
 			typewriter = {
 				speed = 0.05,
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "You'll have an eternity in hell to think about that one, Siren scum!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "You'll have an eternity in hell to think about that one, Siren scum!!",
 			flashN = {
 				color = {
 					1,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "Nice shot, Juneau!",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "I felt confident leaving the cleanup work in the hands of Juneau and the others. We had to press forward to the next destination... NY Harbor.",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "However, Purifier's words weighed heavily upon my mind. What did she mean by \"lead actors?\"",
 			typewriter = {
 				speed = 0.05,

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.035
+					number = -0.035,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 610
+					number = 610,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.045
+					number = -0.045,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 720
+					number = 720,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 830
+					number = 830,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.055
+					number = -0.055,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 940
+					number = 940,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1050
+					number = 1050,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.065
+					number = -0.065,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1160
+					number = 1160,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.07
+					number = -0.07,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1270
+					number = 1270,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.075
+					number = -0.075,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1380
+					number = 1380,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -253,21 +253,21 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1500
+					number = 1500,
+					attr = "antiAirPower"
 				}
 			}
 		}
 	},
-	desc_get = "减伤",
 	name = "",
 	init_effect = "",
+	id = 108021,
 	time = 20,
-	color = "yellow",
 	picture = "",
 	desc = "",
+	desc_get = "减伤",
 	stack = 1,
-	id = 108021,
+	color = "yellow",
 	icon = 108020,
 	last_effect = "",
 	blink = {
@@ -285,8 +285,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.035
+				number = -0.035,
+				attr = "injureRatioByCannon"
 			}
 		},
 		{
@@ -296,8 +296,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 500
+				number = 500,
+				attr = "antiAirPower"
 			}
 		}
 	}

@@ -1,16 +1,16 @@
 return {
 	lose_condition = 1,
 	win_condition = 1,
-	id = 6908,
-	type = 1,
 	map_id = 10005,
+	type = 1,
+	id = 6908,
 	stages = {
 		{
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 303,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -69,9 +69,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 999508,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-20,
 								0,
@@ -79,27 +79,27 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 2,
+									switchType = 1,
 									dive = "STATE_RAID",
 									switchTo = 120,
 									index = 0,
-									switchType = 1,
+									switchParam = 2,
 									setAI = 20006
 								},
 								{
-									switchParam = 999,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									index = 1,
-									switchType = 1,
+									switchParam = 999,
 									setAI = 20006
 								}
 							}
 						},
 						{
 							monsterTemplateID = 999508,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-20,
 								0,
@@ -107,27 +107,27 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 2,
+									switchType = 1,
 									dive = "STATE_RAID",
 									switchTo = 120,
 									index = 0,
-									switchType = 1,
+									switchParam = 2,
 									setAI = 20006
 								},
 								{
-									switchParam = 999,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									index = 1,
-									switchType = 1,
+									switchParam = 999,
 									setAI = 20006
 								}
 							}
 						},
 						{
 							monsterTemplateID = 999508,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-20,
 								0,
@@ -135,18 +135,18 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 2,
+									switchType = 1,
 									dive = "STATE_RAID",
 									switchTo = 120,
 									index = 0,
-									switchType = 1,
+									switchParam = 2,
 									setAI = 20006
 								},
 								{
-									switchParam = 999,
+									switchType = 1,
 									dive = "STATE_FLOAT",
 									index = 1,
-									switchType = 1,
+									switchParam = 999,
 									setAI = 20006
 								}
 							}

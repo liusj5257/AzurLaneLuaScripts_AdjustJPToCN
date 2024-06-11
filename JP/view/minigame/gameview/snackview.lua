@@ -9,24 +9,24 @@ slot0.Bubble_Fade_Time = 0.5
 slot0.Order_Num = 3
 slot0.Snack_Num = 9
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Snack"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:initList()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initTime()
 	slot0:updateSDModel()
 	slot0:setState(uv0.States_Before)
 end
 
-function slot0.OnGetAwardDone(slot0, slot1)
+slot0.OnGetAwardDone = function(slot0, slot1)
 	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE then
 		if slot0:GetMGHubData().ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime then
 			pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
@@ -40,7 +40,7 @@ function slot0.OnGetAwardDone(slot0, slot1)
 	end
 end
 
-function slot0.OnSendMiniGameOPDone(slot0)
+slot0.OnSendMiniGameOPDone = function(slot0)
 	slot0:updateCount()
 	pg.m02:sendNotification(GAME.MODIFY_MINI_GAME_DATA, {
 		id = MiniGameDataCreator.ShrineGameID,
@@ -50,7 +50,7 @@ function slot0.OnSendMiniGameOPDone(slot0)
 	})
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.state == uv0.States_Before then
 		slot0:emit(uv0.ON_BACK_PRESSED)
 
@@ -74,7 +74,7 @@ function slot0.onBackPressed(slot0)
 	})
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 	end
@@ -87,7 +87,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot1 = slot0:findTF("ForNotch")
 	slot0.backBtn = slot0:findTF("BackBtn", slot1)
 	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
@@ -113,7 +113,7 @@ function slot0.findUI(slot0)
 	slot0.spineCharContainer = slot0:findTF("SpineChar", slot2)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.state = nil
 	slot0.orderIDList = {}
 	slot0.selectedIDList = {}
@@ -125,14 +125,14 @@ function slot0.initData(slot0)
 	slot0.selectedSnackTFList = {}
 end
 
-function slot0.initTime(slot0)
+slot0.initTime = function(slot0)
 	slot0.orginMemoryTime = slot0:GetMGData():getConfig("simple_config_data").memory_time
 	slot0.orginSelectTime = slot0:GetMGData():getConfig("simple_config_data").select_time
 	slot0.countTime = nil
 	slot0.leftTime = slot0.orginSelectTime
 end
 
-function slot0.initTimer(slot0, slot1)
+slot0.initTimer = function(slot0, slot1)
 	if slot0.state == uv0.States_Memory then
 		slot0.countTime = slot0.orginMemoryTime
 	elseif slot0.state == uv0.States_Select then
@@ -144,7 +144,7 @@ function slot0.initTimer(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.initList(slot0)
+slot0.initList = function(slot0)
 	for slot4 = 1, uv0.Order_Num do
 		slot0.selectedTFList[slot4] = slot0.selectedContainer:GetChild(slot4 - 1)
 	end
@@ -154,7 +154,7 @@ function slot0.initList(slot0)
 	end
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -165,7 +165,7 @@ function slot0.addListener(slot0)
 		})
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		uv0:setState(uv1.States_Memory)
 	end
 
@@ -203,7 +203,7 @@ function slot0.addListener(slot0)
 	end
 end
 
-function slot0.updateSDModel(slot0)
+slot0.updateSDModel = function(slot0)
 	slot1 = getProxy(PlayerProxy)
 	slot3 = getProxy(BayProxy)
 	slot4 = slot3:getShipById(slot1:getData().character)
@@ -225,7 +225,7 @@ function slot0.updateSDModel(slot0)
 	end)
 end
 
-function slot0.updateSelectedList(slot0, slot1)
+slot0.updateSelectedList = function(slot0, slot1)
 	slot1 = slot1 or {}
 
 	for slot5 = 1, uv0.Order_Num do
@@ -244,7 +244,7 @@ function slot0.updateSelectedList(slot0, slot1)
 	end
 end
 
-function slot0.updateSnackList(slot0, slot1)
+slot0.updateSnackList = function(slot0, slot1)
 	for slot5 = 1, uv0.Snack_Num do
 		slot6 = slot0.snackContainer:GetChild(slot5 - 1)
 
@@ -256,11 +256,11 @@ function slot0.updateSnackList(slot0, slot1)
 	end
 end
 
-function slot0.updateCount(slot0)
+slot0.updateCount = function(slot0)
 	setText(slot0.countText, slot0:GetMGHubData().count)
 end
 
-function slot0.updateSelectedOrderTag(slot0, slot1)
+slot0.updateSelectedOrderTag = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.selectedSnackTFList) do
 		slot7 = slot0:findTF("SelectedTag", slot6)
 
@@ -272,13 +272,13 @@ function slot0.updateSelectedOrderTag(slot0, slot1)
 	end
 end
 
-function slot0.updateSnackInteractable(slot0, slot1)
+slot0.updateSnackInteractable = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.snackTFList) do
 		setButtonEnabled(slot6, slot1)
 	end
 end
 
-function slot0.onStateChange(slot0)
+slot0.onStateChange = function(slot0)
 	if slot0.state == uv0.States_Before then
 		setActive(slot0.selectedContainer, false)
 		setActive(slot0.startBtn, true)
@@ -300,7 +300,7 @@ function slot0.onStateChange(slot0)
 			slot0:updateSnackList(slot0.snackIDList)
 			slot0:updateSnackInteractable(false)
 
-			function slot1()
+			slot1 = function()
 				uv0.countTime = uv0.countTime - 1
 
 				setText(uv0.considerTimeText, uv0.countTime)
@@ -357,7 +357,7 @@ function slot0.onStateChange(slot0)
 	end
 end
 
-function slot0.openResultView(slot0)
+slot0.openResultView = function(slot0)
 	slot0.packageData = {
 		orderIDList = slot0.orderIDList,
 		selectedIDList = slot0.selectedIDList,
@@ -402,7 +402,7 @@ function slot0.openResultView(slot0)
 	slot0.snackResultView:Load()
 end
 
-function slot0.randFetch(slot0, slot1, slot2)
+slot0.randFetch = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
@@ -417,7 +417,7 @@ function slot0.randFetch(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.setState(slot0, slot1)
+slot0.setState = function(slot0, slot1)
 	if slot0.state == slot1 then
 		return
 	end

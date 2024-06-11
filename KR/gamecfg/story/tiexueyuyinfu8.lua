@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>작은 친구</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
 			actor = 408040,
 			nameColor = "#ffde38",
+			blackBg = true,
 			say = "비스마르크님, 비스마르크님, 기다려주세요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,12 +60,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
+			say = "잠수함인가. 음, 안녕.",
 			side = 1,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "잠수함인가. 음, 안녕.",
+			actor = 405010,
+			nameColor = "#ffde38",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,10 +82,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "저기! 그러니까, 비스마르크님의 어제 연설이 너무 멋져서, 이 U-556, 평생 잊지못할 것 같아요!",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,10 +109,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 		{
 			expression = 3,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "그, 그러니까요! 비스마르크님! 한가지만 부탁드려도 될까요!",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,10 +185,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "제가 좋아하는 동화 풍으로 말하면요! 그러니까, '오늘부터 이 U-556, 고귀한 기사 퍼시발 경처럼, 바다를 종횡무진한다!' ……어, 어떤가요?",
 			typewriter = {
 				speed = 0.05,
@@ -202,10 +202,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "축하한다. 메탈 블러드를 위해 진력하도록.",
 			typewriter = {
 				speed = 0.05,
@@ -235,10 +235,10 @@ return {
 		{
 			expression = 3,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "비스마르크님께서 출진을 축복해주시면 이 U-556, 더욱 분골쇄신해서 힘낼 수 있을 것 같아요!",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,10 +262,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -295,10 +295,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "에잇! 물구나무 잠항!",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -1000
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "풍덩~하고, U-556은 백 텀블링을 하며 바다로 뛰어들었다.",
 			typewriter = {
@@ -335,10 +335,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "…………후훗.",
 			typewriter = {
 				speed = 0.05,
@@ -350,8 +350,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "애매하다고 정평이 난 특기에, 비스마르크도 그만 미소를 띄우고 만다.",
 			typewriter = {
@@ -392,10 +392,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "아니, 뭔가 다른 아이들과 달라서 조금 감탄했어.",
 			typewriter = {
 				speed = 0.05,
@@ -409,10 +409,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "비스마르크님, 엄청 위엄있어서 다가가기 힘들다고 들었지만……",
 			typewriter = {
 				speed = 0.05,
@@ -426,10 +426,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "전혀 그렇지 않아요… 잠수함인 저랑도 대화해주시고, 사실은 친절한 분이시군요!",
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "마음 속으로는 그렇게 생각하면서도, 비스마르크는 미소를 거두고 바닷속에서 얼굴을 내밀고 있는 U-556에게 작별을 고했다.",
 			typewriter = {
@@ -473,10 +473,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "너의 바람, 확실히 들었다. 그럼.",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "U-556은 홀로 바다에 남겨졌다.",
 			typewriter = {
@@ -502,13 +502,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "다음 날……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -551,10 +551,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "응…………",
 			typewriter = {
 				speed = 0.05,
@@ -568,10 +568,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "비스마르크님께서 출진을 축복해주신다고 약속하셨는데, 아직 안 오시네…",
 			typewriter = {
 				speed = 0.05,
@@ -601,10 +601,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "응… 그렇네. 전과를 올려서, 언젠가 비스마르크님에게 곡엽 훈장을 받아서……",
 			typewriter = {
 				speed = 0.05,
@@ -618,10 +618,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "그래! 동경의 대상인 곡엽 기사 훈장! 그거야말로 이 바다의 퍼시발인 U-556에게 어울려! 후훙!",
 			typewriter = {
 				speed = 0.05,
@@ -649,8 +649,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "시선 끝에 쥬쥬들이 모여있는 것을 깨닫는다. 그리고……",
@@ -666,12 +666,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "우리 메탈 블러드 함대의 새로운 동료가, 지금 첫 출진에 도전하려 한다.",
 			bgm = "bsm-7",
+			actor = 405010,
+			nameColor = "#ffde38",
+			say = "우리 메탈 블러드 함대의 새로운 동료가, 지금 첫 출진에 도전하려 한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,10 +700,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "자아, 새로운 용사여! 이 비스마르크는 메탈 블러드 함대를 대표하여, 그대에게 출진의 축복을 내리노라!",
 			typewriter = {
 				speed = 0.05,
@@ -787,12 +787,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "비스마르크님…!",
 			typewriter = {
 				speed = 0.05,
@@ -819,12 +819,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "비스마르크님, 부, 분에 넘치지만, 또 하나 부탁드릴 게……",
 			typewriter = {
 				speed = 0.05,
@@ -836,12 +836,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "욕심많은 아이네. 무슨 부탁이니?",
 			typewriter = {
 				speed = 0.05,
@@ -853,12 +853,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "그게…… '언니'라고 부르게 해주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -870,12 +870,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "………응?",
 			typewriter = {
 				speed = 0.05,
@@ -902,12 +902,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "네! 감사와 존경을 담아… 그러니까, '비스마르크 언니'라고 불러도 괜찮을까요!",
 			typewriter = {
 				speed = 0.05,
@@ -919,12 +919,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "뭐어…… ",
 			typewriter = {
 				speed = 0.05,
@@ -936,12 +936,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "응, 좋아.",
 			typewriter = {
 				speed = 0.05,
@@ -953,12 +953,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "비, 비스마르크 언니! 감사합니다!",
 			typewriter = {
 				speed = 0.05,
@@ -970,12 +970,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "……읏///",
 			typewriter = {
 				speed = 0.05,
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "앗, 비스마르크 언니, 출격 전에 이걸 전해드리겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -1034,12 +1034,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "이건……?",
 			typewriter = {
 				speed = 0.05,
@@ -1051,12 +1051,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "어제 적은 맹세의 증명서입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -1068,12 +1068,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "그럼, 맹세합니다! ……언제 어디서나 비스마르크 언니를 지키겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -1100,12 +1100,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "아! 죄송합니다! 지금은 출격해야겠네요! ……비스마르크 언니, 먼저 가보겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -1117,12 +1117,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "다음에 또 잘 부탁드립니다! U-556, 발진!",
 			typewriter = {
 				speed = 0.05,
@@ -1149,12 +1149,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "동생, 인가… 나쁘지 않네……",
 			typewriter = {
 				speed = 0.05,
@@ -1166,12 +1166,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -1183,12 +1183,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "비스마르크",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "티르피츠는 무사할까………",
 			typewriter = {
 				speed = 0.05,
@@ -1235,18 +1235,18 @@ return {
 			}
 		},
 		{
-			bgm = "bsm-1",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			seDelay = 2,
 			dir = 1,
 			bgmDelay = 2,
-			soundeffect = "event:/battle/boom2",
-			actor = 204010,
 			nameColor = "#a9f548",
+			bgm = "bsm-1",
+			actor = 204010,
 			say = "로열 네이비 H 부대 소속…… 순양전함 리나운, 귀함의 요격 명령에 따라 도착했습니다! 무의미한 저항은 멈춰주세요!",
+			seDelay = 2,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1306,10 +1306,10 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ffde38",
-			actor = 405010,
 			dir = -1,
-			say = "큭…! 증원인가…!",
 			soundeffect = "event:/battle/boom2",
+			actor = 405010,
+			say = "큭…! 증원인가…!",
 			flashN = {
 				color = {
 					1,
@@ -1370,8 +1370,8 @@ return {
 			actor = 405010,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = -1,
+			nameColor = "#ffde38",
 			say = "……아무래도 하나 간과하고 있는 모양이군.",
 			typewriter = {
 				speed = 0.05,
@@ -1401,8 +1401,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "미안하지만, 농락해주마! 전속력으로 전진!",
 			typewriter = {
 				speed = 0.05,
@@ -1447,9 +1447,9 @@ return {
 			actor = 207020,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "소드피쉬대, 발진! 비스마르크를 잡는 거다!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

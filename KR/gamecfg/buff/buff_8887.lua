@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "海伦娜共斗 加速移动",
 	time = 0,
-	color = "blue",
+	name = "海伦娜共斗 加速移动",
+	init_effect = "",
+	id = 8887,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8887,
+	color = "blue",
 	last_effect = "heihailunna_shadow",
 	effect_list = {
 		{

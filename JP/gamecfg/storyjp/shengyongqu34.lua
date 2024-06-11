@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU34",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-italy",
+			say = "地中海・マルタ島",
 			side = 2,
 			bgName = "bg_italy_cg6",
 			dir = 1,
-			say = "地中海・マルタ島",
+			bgm = "battle-boss-italy",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,12 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "曇天に枯れ草、ガソリンに軍艦……プロペラにエンジンの音",
 			typewriter = {
 				speed = 0.05,
@@ -51,10 +51,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "お茶請けにするには風情がないでしょうが、ロイヤルの前線基地では高望みできないですわね",
 			typewriter = {
 				speed = 0.05,
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_italy_cg6",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "テリブル姉さま！テリブル姉さまですか？",
 			dialogShake = {
 				speed = 0.09,
@@ -87,12 +87,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "私ですよ？あら、我がエレガントなる賢妹（けんまい）ではありませんか。お元気でなによりです",
 			typewriter = {
 				speed = 0.05,
@@ -139,10 +139,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ええ、少し気持ちの整理と調べ物をしていましたわ",
 			typewriter = {
 				speed = 0.05,
@@ -157,10 +157,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "しかし…いざロイヤルと共に戦うことになると、やはりちょっと気がかりがありますわね",
 			typewriter = {
 				speed = 0.05,
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そこはよしなさい我が賢妹よ。この愚姉でもとっくに聞いたことを、何も言い出す必要はありませんわ",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +224,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "アルジェリーさんに頼まれた、ジャン・バール様の回復の件をリシュリュー様に伝える手はずになっていますの",
 			typewriter = {
 				speed = 0.05,
@@ -242,10 +242,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "リシュリュー様はもう聖堂に出立されているでしょうか？",
 			typewriter = {
 				speed = 0.05,
@@ -257,12 +257,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "いささか急すぎる、と思わなくもないですが、あの姉に動いてもらいませんと、あの妹の方も動きづらくなりますね",
 			typewriter = {
 				speed = 0.05,
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ううん、こっちの話。お仕事の話はまたリシュリュー様が戻ってきてからにしましょう",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "今重要なのは――",
 			typewriter = {
 				speed = 0.05,
@@ -328,10 +328,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ただいま、我が愛しい妹ル・トリオンファン",
 			typewriter = {
 				speed = 0.05,
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 801010,
+			nameColor = "#a9f548",
 			say = "まあ…姉さま…",
 			dialogShake = {
 				speed = 0.09,
@@ -367,10 +367,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "おやおや、アイリスの騎士姫がその泣きそうな顔をするのではありませんよ。ここはお茶でも飲んで……",
 			typewriter = {
 				speed = 0.05,
@@ -382,12 +382,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………っ",
 			typewriter = {
 				speed = 0.05,

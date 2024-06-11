@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -11,38 +11,38 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "............",
-			blackBg = true,
 			bgm = "stopbgm",
+			blackBg = true,
+			say = "............",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Wh-where am I...?",
+			side = 2,
 			bgm = "theme-highseasfleet-reborn",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Wh-where am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "When I wake up, I'm greeted by an unfamiliar room.",
@@ -61,8 +61,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "Old-fashioned furnishings, faint light, old furniture... and something that looks like a black box on the table.",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "Bristol's voice comes from the black box.",
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "Bristol suddenly starts telling a grandiose story, but I'm hardly in a state to take it in.",
@@ -621,8 +621,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "I wanted to ask about that concerning remark, but the communicator has already gone dead silent.",

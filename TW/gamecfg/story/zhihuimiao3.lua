@@ -1,8 +1,8 @@
 return {
-	id = "ZHIHUIMIAO3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "ZHIHUIMIAO3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
@@ -20,10 +20,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "好了喵！準備迎接你的第一名指揮喵夥伴喵！",
 			flashout = {
 				dur = 1,

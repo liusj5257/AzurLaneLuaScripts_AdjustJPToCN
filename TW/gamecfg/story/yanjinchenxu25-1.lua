@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU25-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU25-1",
 	scripts = {
 		{
-			nameColor = "#ffa500",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_firedust_7",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
 			actor = 900353,
-			stopbgm = true,
+			nameColor = "#ffa500",
 			say = "已經能看到戰爭機甲的本體了，諸位狀態如何？",
 			flashin = {
 				delay = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "祈禱的力量還在生效，我們都沒受傷。",
 			painting = {
@@ -54,8 +54,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "但是這一路上……敵人也太多了！",
 			painting = {
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "既然妳想消滅人家，總得允許人家自我防衛啊。",
 			painting = {
@@ -87,9 +87,9 @@ return {
 		{
 			actor = 900353,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "不過放心，雖然戰爭的軍隊很多，但是它本體也是很強的。",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "？",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "嗯？我是在激勵妳們呢，面對強大敵人的時候不是會更容易燃起鬥志嗎？",
 			painting = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "不會激勵可以不激勵……！",
 			painting = {

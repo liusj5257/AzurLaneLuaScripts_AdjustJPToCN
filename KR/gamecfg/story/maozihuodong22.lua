@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG22",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 705010,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "하하하하! 보기보다 하는걸! 이글 유니온의 구——",
 			bgm = "bgm-cccp",
+			actor = 705010,
+			nameColor = "#a9f548",
+			say = "하하하하! 보기보다 하는걸! 이글 유니온의 구——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "항공모함! 흥, 너희도 꽤 하는데. 노스 유니온의 함대도 다시 보게 됐어…",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "지휘관과 이미 만나서 다음 작전을 전달받은 거야?",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "확실히 말하면 이글 유니온과 만난 뒤에 다음 작전을 정하기로 했지. 하하하……",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "? 왜 그러지, 키로프?",
 			typewriter = {

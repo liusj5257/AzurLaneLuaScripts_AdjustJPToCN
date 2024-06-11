@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-4",
 			say = "Barents Sea - Royal Navy Escort Fleet",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "Um, first it says, \"all ships are to sail west.\"",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "And next, \"drop off the cargo at the Northern Parliament's nearest port.\"",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "And finally, \"disband the fleet?\"",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "I heard that auroras can interfere with electronic communications. Do you think something like that is going on?",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "We have no idea if there are submarines patrolling that way, but I can say for a fact that the Iron Blood's carriers won't let us pass safely.",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "I may not be in a position to say this, but maybe it would be best to disregard this order...",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "Regardless of whether this is true or not, we have a mission from Her Majesty—",
 			typewriter = {
 				speed = 0.05,
@@ -225,8 +225,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "—and that is to safely deliver the cargo to the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "\"The main fleet and supporting fleet are to turn around and fight the Iron Blood?\" That has to be some kind of mistake...",
 			typewriter = {
 				speed = 0.05,
@@ -272,8 +272,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "Yes. As a member of the Royal Navy, our top priority is to carry out the Queen's orders. Don't be fooled by this kind of disinformation.",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "Her Majesty would never order us to abandon the convoy. Everyone, let's continue!",
 			typewriter = {
 				speed = 0.05,
@@ -301,11 +301,11 @@ return {
 			}
 		},
 		{
-			actor = 202170,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 202170,
 			dir = 1,
+			hideOther = true,
 			actorName = "Jamaica&Eagle",
 			say = "All right!",
 			subActors = {

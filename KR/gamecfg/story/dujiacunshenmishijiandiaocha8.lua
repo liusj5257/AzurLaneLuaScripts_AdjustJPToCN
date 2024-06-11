@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			actorName = "극중 내레이션",
-			stopbgm = true,
 			bgm = "cw-story",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			hidePaintObj = true,
 			say = "\"찬란한 여름날… 맑은 하늘… 높이 떠오른 태양……\"",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,10 +43,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 101490,
 			actorName = "수수께끼의 목소리 A",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "해설자가 바뀐 것 같은데?!",
 			typewriter = {
 				speed = 0.05,
@@ -57,10 +57,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301890,
 			actorName = "수수께끼의 목소리 B",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "주연도 바뀌었어. 후후훗, 이번 주인공은 지휘관이라던데? 이번에는 우리가 관람객이 되는 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 501020,
 			actorName = "수수께끼의 목소리 C",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼, 너무 큰 소리로 떠들면 안 되겠네!",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 307080,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"……그럼, 계속하지……\"",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"숲속 길을 나아가는 군세… 그 수장인 지휘관은 가마 속에서 휴식을 취하고 있었나니……\"",
 			typewriter = {
@@ -111,28 +111,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――여기는… 가마 속인가? 설마 이번 공연은 사극인 건가…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,10 +143,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그러하다… 지휘관은 지금 호화로운 가마 속… 셀 수 없는 골동품들에 둘러싸여 있지……\"",
 			typewriter = {
@@ -194,10 +194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "발 빠른 측근",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "보, 보고드립니다! 전선의 전투는 순조롭게 진행되고 있습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -234,10 +234,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301900,
 			actorName = "의기양양한 측근",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그런데 적군 녀석들, 항복하기는커녕 오히려 저항해 올 줄이야…! 아무래도 직접 깨닫게 해주는 수밖에 없겠군!",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "발 빠른 측근",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우리 군대를 응원하려고 미리 술과 식량을 마련해 기다리고 있던 듯합니다!",
 			typewriter = {
 				speed = 0.05,
@@ -288,10 +288,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301900,
 			actorName = "의기양양한 측근",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "변화의 흐름을 받아들일 줄 아는 농민들이로고. 주군, 잠시 길을 멈추고 휴식하시는 건 어떤가?",
 			typewriter = {
 				speed = 0.05,
@@ -302,10 +302,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301820,
 			actorName = "우아한 측근",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러게요… 꽤 덥기도 하고, 지금은 마을 사람들의 호의를 받아들여 잠시 쉬도록 하죠.",
 			typewriter = {
 				speed = 0.05,
@@ -316,10 +316,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301820,
 			actorName = "우아한 측근",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "휴식 장소는… 음, 산기슭에 있는 평지는 어떤가요? 넓지는 않지만, 본진을 두기에는 충분할 것 같군요.",
 			typewriter = {
 				speed = 0.05,
@@ -352,11 +352,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "극중 내레이션",
 			optionFlag = 1,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"대군은 본진을 설치하고, 마을 사람들이 보내준 맛있는 술과 음식을 맛보며 휴식을 취했다……\"",
 			typewriter = {
@@ -394,11 +394,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "극중 내레이션",
 			optionFlag = 2,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"대군은 본진을 설치하고, 마을 사람들이 보내준 맛있는 술과 음식을 맛보며 휴식을 취했다……\"",
 			typewriter = {
@@ -433,27 +433,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_111",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_111",
 			say = "다음 순간, 무대는 거대 가마에서 거대 병영으로 옮겨졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			say = "눈앞에는 먹음직스러운 음식들이 놓여 있었고, 주위에는 도검, 서적, 가보… 그리고 반려동물?이 놓여 있었다.",
@@ -538,10 +538,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 107030,
 			actorName = "매력적인 무희",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "일리가 있네! 그럼, 나리께서는 우리에게 무엇을 하시려나~♥ 응?",
 			typewriter = {
 				speed = 0.05,
@@ -552,10 +552,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 107030,
 			actorName = "매력적인 무희",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "왜 아까부터 저쪽만 보는 거야! 보라구, 대본에서도 나더러 '매력적인 무희'라잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -590,13 +590,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
+			soundeffect = "event:/ui/dalei",
 			bgm = "musashi-2",
+			actor = 307080,
 			actorName = "극중 내레이션",
 			paintingNoise = true,
-			soundeffect = "event:/ui/dalei",
-			actor = 307080,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"화기애애한 분위기는 천둥에 의해 중단되었고……\"",
 			typewriter = {
@@ -604,17 +604,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -647,10 +647,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_508",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"잠시 후, 본진에는 폭우가 쏟아졌다……\"",
 			typewriter = {
@@ -722,10 +722,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "발 빠른 측근",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아니, 방금까지는 그렇게 맑았는데 이렇게 갑자기 비가 오다니, 정말 안타깝군요.",
 			typewriter = {
 				speed = 0.05,
@@ -796,11 +796,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "극중 내레이션",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"쏟아지는 빗속, 기병들로 이루어진 군세는 산꼭대기에서 공격 진형을 갖추고 있다……\"",
 			typewriter = {
@@ -808,17 +808,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -928,28 +928,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -970,11 +970,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "극중 내레이션",
 			optionFlag = 1,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"설정이라고는 하지만 연출에 미비한 점이 있군…… 너그러이 봐주길 바란다…\"",
 			typewriter = {
@@ -986,10 +986,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			actorName = "극중 내레이션",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그런 설도 있다고 들은 적이 있다……\"",
 			typewriter = {
@@ -1001,10 +1001,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"크흠… 서둘러 준비한 탓에 기병 장비는 고르지 못했으나……\"",
 			typewriter = {
@@ -1016,10 +1016,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 307080,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"주군의 명령을 완수하려는 끝없는 투지를 가진 용맹스러운 자만이 이 자리에 모였다……\"",
 			typewriter = {
 				speed = 0.05,
@@ -1030,10 +1030,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "귀여운 주군",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "서방님이 밑에서 기다리고 있다구우~♪",
 			typewriter = {
 				speed = 0.05,
@@ -1044,10 +1044,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "귀여운 주군",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다들~! 전투 준비~!",
 			typewriter = {
 				speed = 0.05,
@@ -1058,10 +1058,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "귀여운 주군",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "목표는…… 서방님 단 한 사람~!",
 			typewriter = {
 				speed = 0.05,
@@ -1069,11 +1069,11 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――폭우로 주변에 있는 군사들은 지원에 나서지 못할 것 같군……",
 			effects = {
 				{
@@ -1086,17 +1086,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1116,8 +1116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "벌써 병영 밖에서는 적군의 외침이 들려오고 있다.",
@@ -1127,8 +1127,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "…얼마 지나지 않아 병영의 장막이 걷히고, 적의 주군이 빠른 속도로 달려왔다.",
@@ -1153,10 +1153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "귀여운 주군",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "서·방·니임~! 이젠 도망 못 가~~!",
 			typewriter = {
 				speed = 0.05,
@@ -1167,10 +1167,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "귀여운 주군",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "서방님~~~~~!!",
 			typewriter = {
 				speed = 0.05,
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "적의 주군은 무기 하나 없이 고양이와도 같은 몸놀림으로 달려들었다.",
@@ -1191,11 +1191,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actorName = "극중 내레이션",
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			bgm = "cw-story",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"전쟁이 끝나고 평화가 찾아왔다.\"",
 			typewriter = {
@@ -1203,17 +1203,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1223,11 +1223,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "극중 내레이션",
 			blackBg = true,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"요괴 극단의 공연은… 이것으로 막을 내린다……\"",
 			typewriter = {
@@ -1255,12 +1255,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "고생이 끊이지 않는 비서",
 			dir = 1,
 			blackBg = true,
+			actor = 102160,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "공연이 끝난 지가 언젠데 왜 아직도 그러고 있는 거야…",
 			painting = {
@@ -1292,12 +1292,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "고생이 끊이지 않는 비서",
 			dir = 1,
 			blackBg = true,
+			actor = 102160,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "처음부터 있었거든!",
 			painting = {

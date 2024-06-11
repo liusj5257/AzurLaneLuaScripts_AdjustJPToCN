@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「仮想繋げし共時性」-日常編\n\n<size=45>七 みんなとの繋がり、キズナを求めて</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・重桜お祭り会場",
 			side = 2,
 			bgName = "star_level_bg_114",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "母港・重桜お祭り会場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -197,8 +197,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "は、はい！ありがとうございます！",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "おぉ、たこ焼き！いいねー、でも私、AIだから食べれないんだよねー、あれ？でも今はアズレンの世界にいるし食べられるのかな？うーん…？",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "よーし、ぜんぶの屋台制覇しちゃうぞー！",
 			typewriter = {
@@ -309,15 +309,15 @@ return {
 			}
 		},
 		{
-			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400011,
+			nameColor = "#a9f548",
 			say = "天才AIの私にかかれば金魚を救うことなんて造作もないですよー！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -406,15 +406,15 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 399010,
+			nameColor = "#a9f548",
 			say = "もうすぐ花火大会が始まりますよ。みなさんあちらに集まっています",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -506,8 +506,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "ヘレナさん、またあとでね！プリンちゃんも飲みすぎは注意だよー！お持ち帰りされちゃうぞー！……私に",
 			typewriter = {
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "キレイだなぁ…これだけ長くこっちにいちゃうとさ、いつか帰るその日がなんだかつらくなっちゃうよね……",
 			typewriter = {
@@ -620,8 +620,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#a9f548",
 			say = "（花火は鮮やかに咲いて散っていくけど、みんなと一緒に花火を見たことは忘れない。離れ離れになったとしても、芽生えたキズナはきっと…ずっと残るよね！）",
 			typewriter = {
@@ -650,9 +650,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "（パシャリ）",
 			flashN = {
 				color = {
@@ -686,14 +686,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_114",
 			actor = 10400011,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ということで、これであなたもKizunerの一員！「A.I.Channel」で検索！チャンネル登録よろしくお願いしますね！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -750,12 +750,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "隙あらば宣伝を欠かさない……バーチャルユーチューバーの鑑ですね",
 			typewriter = {
 				speed = 0.05,

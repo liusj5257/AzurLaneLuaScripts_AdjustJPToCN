@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"“獻身”的大鳳\n\n<size=45>七 大鳳的消失(?)·下</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "這天起床後，沒有看到早餐",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,9 +48,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……大鳳？",
 			typewriter = {
 				speed = 0.05,
@@ -58,15 +58,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "指揮官？怎麼了？臉色這麼差？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -107,13 +107,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "來到指揮室，也沒有看到那熟悉的身影……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,19 +136,19 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			say = "指揮官！太好了，你在這裡，快跟我來！大鳳她、大鳳她——",
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "指揮官！太好了，你在這裡，快跟我來！大鳳她、大鳳她——",
 			actorPosition = {
 				x = 1500,
 				y = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = -675
@@ -166,14 +166,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "對不起，指揮官…昨天原本只是開玩笑對大鳳說，太過獻身會導致別人的反感什麼的，還給她找了一些雜誌的報導",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "當時也沒覺得有什麼，沒想到那之後她就把自己關在房間裡不出來了……",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "指揮官，大概只有你的話她聽得進去了…拜託了，指揮官，請把大鳳從房間裡帶出來吧！",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -244,13 +244,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			say = "大鳳的房門緊閉著",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
+			say = "大鳳的房門緊閉著",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -343,8 +343,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "大鳳的話裡帶上了一絲哭腔。",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -431,8 +431,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…————",
 			typewriter = {
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "還沒等話說完，房門就打開了",
 			typewriter = {
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actorScale = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			actorScale = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "<size=45>指揮官大人！！！</size>",
 			dialogShake = {
 				speed = 0.09,
@@ -479,8 +479,8 @@ return {
 					}
 				},
 				{
-					type = "move",
 					y = -225,
+					type = "move",
 					delay = 0.01,
 					dur = 0.2,
 					x = 0
@@ -488,9 +488,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "大鳳撲進了懷裡……",
 			typewriter = {
 				speed = 0.05,
@@ -498,9 +498,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "看來不管是大鳳還是自己都知道——",
 			typewriter = {
 				speed = 0.05,

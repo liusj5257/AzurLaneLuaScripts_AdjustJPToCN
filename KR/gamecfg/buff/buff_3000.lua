@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "快速起飞",
 	time = 0,
-	color = "red",
+	name = "快速起飞",
+	init_effect = "",
+	id = 3000,
 	picture = "",
 	desc = "空中支援立刻冷却",
 	stack = 1,
-	id = 3000,
+	color = "red",
 	icon = 3000,
 	last_effect = "",
 	effect_list = {

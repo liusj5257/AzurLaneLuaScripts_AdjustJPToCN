@@ -3,7 +3,7 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.lockTF = slot0.tr:Find("lock")
@@ -29,14 +29,14 @@ function slot0.Ctor(slot0, slot1)
 	setText(slot0.tr:Find("add/Text"), i18n("rect_ship_card_tpl_add"))
 end
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	slot0.shipVO = slot1
 	slot0.isLocked = slot2
 
 	slot0:flush()
 end
 
-function slot0.getState(slot0)
+slot0.getState = function(slot0)
 	if slot0.isLocked then
 		return uv0
 	elseif slot0.shipVO then
@@ -46,7 +46,7 @@ function slot0.getState(slot0)
 	end
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	slot1 = slot0:getState()
 
 	if slot0.otherBg then
@@ -91,7 +91,7 @@ function slot0.flush(slot0)
 	setActive(slot0.content, slot1 == uv1)
 end
 
-function slot0.updateProps(slot0, slot1)
+slot0.updateProps = function(slot0, slot1)
 	for slot5 = 0, 2 do
 		slot6 = slot0.propsTr:GetChild(slot5)
 
@@ -106,7 +106,7 @@ function slot0.updateProps(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	if slot0.shipVO then
 		retPaintingPrefab(slot0.paintingTr, slot1:getPainting())
 	end

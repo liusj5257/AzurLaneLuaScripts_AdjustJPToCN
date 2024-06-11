@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Paean for Peace\n\n<size=45>Prank Time?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I was quietly working with Newcastle, who was seated on the couch.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "She might be rather boring, but... she shouldn't have any trouble supporting my servant.",
 			effects = {
 				{
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Why did Queen Elizabeth describe her as \"boring\"...?",
 			effects = {
 				{
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "Phew...",
 			typewriter = {
 				speed = 0.05,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -213,14 +213,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "Unsatisfied, I decided to try again, but she shrugged off that attempt as well. I tried to get her attention in a variety of other ways, but failed each time.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -283,13 +283,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
 			say = "KABOOM!!",
-			dir = 1,
-			optionFlag = 1,
-			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -301,10 +301,10 @@ return {
 			}
 		},
 		{
-			optionFlag = 1,
+			blackBg = true,
 			side = 2,
 			dir = 1,
-			blackBg = true,
+			optionFlag = 1,
 			say = "The sound of a loud explosion from the R&D Department tore through the office, sending me to my knees as my vision went black.",
 			typewriter = {
 				speed = 0.05,
@@ -312,18 +312,18 @@ return {
 			}
 		},
 		{
-			optionFlag = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgmDelay = 1,
+			side = 2,
+			dir = 1,
+			optionFlag = 1,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 202190,
 			nameColor = "#a9f548",
 			say = "Commander, are you all right?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "Now, was this a happy little accident... or was this what you were aiming for all along?",
 			typewriter = {
 				speed = 0.05,
@@ -387,12 +387,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "You may stay there as long as you want... but you'll have to make up for it with overtime afterwards.",
 			typewriter = {
 				speed = 0.05,

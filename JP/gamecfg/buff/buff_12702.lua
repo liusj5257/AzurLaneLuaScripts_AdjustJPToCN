@@ -269,14 +269,14 @@ return {
 			}
 		}
 	},
-	time = 8,
 	name = "克利夫兰1",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 12701,
+	time = 8,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12701,
+	color = "red",
 	icon = 12700,
 	last_effect = "",
 	blink = {

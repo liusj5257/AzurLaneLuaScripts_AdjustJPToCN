@@ -29,9 +29,9 @@ return {
 	{
 		time = 5
 	},
-	time = 2,
 	name = "小赤城2单体无敌",
 	init_effect = "jinengchufablue",
+	time = 2,
 	picture = "",
 	desc = "完全闪避",
 	stack = 1,
@@ -54,8 +54,8 @@ return {
 			},
 			arg_list = {
 				group = 12081,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		}
 	}

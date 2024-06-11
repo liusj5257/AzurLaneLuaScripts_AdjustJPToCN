@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_230 = {}
 slot1 = slot0.word_template_230
 
-function temp()
+temp = function()
 	uv0["汔"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["弃"] = {
 		["欓"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["汽"] = {
 		q = {
 			i = {
@@ -138,7 +138,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["契"] = {
 		["约"] = {
 			["法"] = {
@@ -152,7 +152,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["氣"] = {
 		["動"] = {
 			["鋼"] = {
@@ -187,7 +187,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["碛"] = {
 		this = {
 			this = true
@@ -197,7 +197,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["噐"] = {
 		["具"] = {
 			["表"] = {

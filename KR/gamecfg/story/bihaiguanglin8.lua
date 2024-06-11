@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN8",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,10 +38,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "카츠라기공은 정말 믿음직해요. 따라가면 길을 잃을 일이 없겠죠? 역시 정규 항공모함 다워요!",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "흐흥~ 치쿠마에게도 정찰기는 있지만 정규 항공모함인 나와 비교하면 아직 멀었지!",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "후후후~ 진짜 버려진 곳이 맞는 것 같은데.",
 			typewriter = {
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "맞아요, 시마카제도 느꼈어요!",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "이상하네... 해저 결계 속에 파도가 거세질 이유가 없잖아.",
 			typewriter = {
@@ -179,12 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그렇군요...! 그렇다면 저 파도는 기관이겠죠? 그렇다면 기관을 뚫어야 해요!",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "불타오르는 느낌인데!",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -226,10 +226,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "시마카제도 의욕이 넘쳐요!",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			nameColor = "#a9f548",
 			say = "하지만 이렇게 큰 파도라니... 어떻게 넘어가죠?",
 			typewriter = {
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "더 빠르게 움직이면 돼요!",
 			typewriter = {
 				speed = 0.05,
@@ -278,10 +278,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "육중한 적의 양산형은 우리에게 별 위협이 되지 않아요. 오히려 풍랑을 줄여줄 뿐이죠.",
 			typewriter = {
 				speed = 0.05,
@@ -296,10 +296,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "적진을 유연하게 누비다 가속하면 앞으로 돌진할 수 있어요!",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "재미있을 것 같은데? 하지만 그런 전술은 너희 구축함에게는 알맞지만 나 같은 정규 항공모함에게는 사용할 수 없어.",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "하지만 함재기로 너희를 호위할 테니 엄호는 맡겨줘!",
 			typewriter = {
@@ -348,10 +348,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "고마워요, 카츠라기공!",
 			typewriter = {
 				speed = 0.05,
@@ -363,13 +363,13 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "노도와 같은 파도도 저를 막을 수는 없어요! 시마카제, 갑니다!",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

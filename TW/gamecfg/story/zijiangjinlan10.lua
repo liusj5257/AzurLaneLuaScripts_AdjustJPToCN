@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg6",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·三笠控制區第三回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,17 +36,17 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 302080,
+			nameColor = "#A9F548FF",
 			say = "羽黑，注意到剛剛赤城發動的指揮卡了嗎？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "如果她還準備了類似指揮卡的話，下回合赤城就能拿下區域據點，屆時，她將以7分的積分暫居第一。",
 			painting = {
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "連續三回合只有進攻沒有休整，真是兇猛的作戰策略啊。",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "接下來肯定會有什麼大動作……",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "明明長門大人在第一回合完全是一副等武藏大人先動手的架勢，沒想到突然轉為進攻了。",
 			painting = {
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "正因如此，妳我這般不斷進行猜測，才能帶來更多樂趣啊。",
 			painting = {
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg6",
 			say = "在眾人分析局勢之時，大棋盤上又出現了新的變化。",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "大家注意，三笠前輩的命令來了，請抬頭看天空。",
 			painting = {
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg6",
 			say = "眾人抬頭望去，只見一面巨大的旗幟如山岳般高懸於空中，即便是如此濃霧，也無法將之徹底掩蓋。",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "這個是大前輩Z字旗的超級誇張版本……？！真壯觀啊。",
 			painting = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "好啊，我們終於也有指揮卡的協助了！",
 			painting = {
@@ -426,8 +426,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "全員攻擊提升，受到傷害降低，我們在休整了一個回合之後終於要有所行動了吧？",
 			painting = {
@@ -475,8 +475,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "看起確實如此。不過大前輩應該是這麼想的——既然暫時看不出赤城的意圖，不如先順著她的棋路伺機而動。",
 			painting = {
@@ -492,8 +492,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "原來還有這一層的考慮，不愧是三笠大前輩……！",
 			painting = {

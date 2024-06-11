@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KASABULANKA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KASABULANKA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ラブロマンスは突然に\n\n<size=45>五　友人からの忠告</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 106550,
 			nameColor = "#a9f548",
 			say = "指揮官、この後のご予定ですが――え？この後に御来客があるのですか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "私の管理しているスケジュールには何も――はぁ、急に決まったのですが……",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "私とバターンの二人よ",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "カサブランカ、先日ぶりですね",
 			typewriter = {
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "あ、あなたたちだったんですか……",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -149,8 +149,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（私の様子を伺っているみたい……まさか先日の一件で、変な心配をかけさせてしまっているかもしれませんね……）",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "それにしても、二人はなぜ指揮官に？",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "簡単な話よ。今度私たち二人で模擬戦の演習を行うの。それで、指揮官はその作戦立案役ってこと",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "では指揮官、さっそくですが本題に入りましょう",
 			typewriter = {
@@ -216,14 +216,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 106550,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "（指揮官とプリンストンはお互い一理ありますものの、結局作戦会議はどうにも決め手に欠けていて、結局まとまらないまま時間だけが過ぎていった）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -251,8 +251,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "このままだと埒が明かないわね……カサブランカ、ごめん、やっぱりアドバイスをお願い",
 			typewriter = {
@@ -284,8 +284,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（元々これは指揮官とプリンストンたちとの作戦で、秘書艦である私が口を挟む余地はありません）",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "大丈夫ですよ。カサブランカ、指揮官の秘書艦をやっているのでしょう？",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "…分かりました。指揮官、僭越ですが私からも意見させてください",
 			typewriter = {
@@ -350,14 +350,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107230,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "折衷案だけどこれで解決ね。指揮官、カサブランカは真面目だから根を詰めすぎるところがあるわ。絶対に無理させないようにしてね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -385,8 +385,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "そうです。この前も溜息をつきながら「切なさ」がどうって悩んでいて――",
 			typewriter = {
@@ -402,8 +402,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "ゴ、ゴホン！私は本当に問題ありませんので、皆さんお気になさらないでください！",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -445,8 +445,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（本来は艦船と指揮官の立場上、そんなことをするべきではないはず…）",
 			typewriter = {
@@ -459,12 +459,12 @@ return {
 			}
 		},
 		{
-			actor = 106550,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106550,
+			nameColor = "#a9f548",
 			say = "（ああ、私は一体、指揮官とどう接すればいいのでしょうか）",
 			typewriter = {
 				speed = 0.05,

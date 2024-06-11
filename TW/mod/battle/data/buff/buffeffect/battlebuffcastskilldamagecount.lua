@@ -6,23 +6,23 @@ slot0.Battle.BattleBuffCastSkillDamageCount.__name = "BattleBuffCastSkillDamageC
 slot2 = slot0.Battle.BattleBuffCastSkillDamageCount
 slot2.FX_TYPE = slot0.Battle.BattleBuffEffect.FX_TYPE_CASTER
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot2.SetArgs(slot0, slot1, slot2)
+slot2.SetArgs = function(slot0, slot1, slot2)
 	slot0._level = slot2:GetLv()
 	slot0._skillTable = slot0._tempData.arg_list.damage_attr_list
 	slot0._attrTable = {}
 end
 
-function slot2.onTakeDamage(slot0, slot1, slot2, slot3)
+slot2.onTakeDamage = function(slot0, slot1, slot2, slot3)
 	if slot3.damageAttr then
 		slot0._attrTable[slot4] = (slot0._attrTable[slot4] or 0) + slot3.damage
 	end
 end
 
-function slot2.onRemove(slot0, slot1, slot2, slot3)
+slot2.onRemove = function(slot0, slot1, slot2, slot3)
 	slot4 = 0
 	slot5 = nil
 
@@ -48,7 +48,7 @@ function slot2.onRemove(slot0, slot1, slot2, slot3)
 	slot0._skill:Cast(slot1, slot0._commander)
 end
 
-function slot2.Interrupt(slot0)
+slot2.Interrupt = function(slot0)
 	uv0.super.Interrupt(slot0)
 
 	if slot0._skill then
@@ -56,7 +56,7 @@ function slot2.Interrupt(slot0)
 	end
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	uv0.super.Clear(slot0)
 
 	if slot0._skill then

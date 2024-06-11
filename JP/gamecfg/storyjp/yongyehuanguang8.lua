@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ff5c5c",
 			side = 2,
 			bgName = "bg_hms_3",
-			say = "？？？",
 			dir = 1,
 			bgm = "bsm-5",
+			nameColor = "#ff5c5c",
+			say = "？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "アドミラル・ヒッパー",
+			side = 1,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・オイゲン",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
+			side = 1,
 			bgName = "bg_hms_3",
-			actorName = "アドミラル・ヒッパー",
 			dir = 1,
+			actorName = "アドミラル・ヒッパー",
 			say = "あんたが作戦の指揮を取ってんだから心配してやってんの",
 			dialogShake = {
 				speed = 0.09,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・オイゲン",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・オイゲン",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ドイッチュラント",
+			side = 2,
 			bgName = "bg_hms_3",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "ようやく出撃できるのかしら？もう待ちきれないわ！",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = " グナイゼナウ",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "シャルンホルスト",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アドミラル・グラーフ・シュペー",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ティルピッツ",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・オイゲン",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・オイゲン",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・オイゲン",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・オイゲン",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,

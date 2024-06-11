@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_373 = {}
 slot1 = slot0.word_template_373
 
-function temp()
+temp = function()
 	uv0["旧"] = {
 		["金"] = {
 			["山"] = {
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兒"] = {
 		["童"] = {
 			["節"] = {
@@ -49,7 +49,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["己"] = {
 		["巳"] = {
 			["年"] = {
@@ -61,7 +61,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["娛"] = {
 		["樂"] = {
 			["圈"] = {
@@ -79,7 +79,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["缾"] = {
 		["反"] = {
 			["鹿"] = {
@@ -93,7 +93,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瓶"] = {
 		["反"] = {
 			["鹿"] = {
@@ -114,7 +114,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["7"] = {
 		["4"] = {
 			["的"] = {

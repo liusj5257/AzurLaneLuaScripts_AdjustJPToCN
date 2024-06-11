@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港脱出作戦！\n\n<size=45>一　ここはどこ？</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "これは、小さき鋼の勇者たちの冒険譚（エーポス）である――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "母港・倉庫の一室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "母港・倉庫の一室",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 407020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 407020,
 			actorName = "？？？",
 			say = "だから、我らはきっと誘拐されているのだぞ！",
 			typewriter = {
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 407020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 407020,
 			actorName = "？？？",
 			say = "卿もそう思ってるのだな！比叡！",
 			typewriter = {
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			actor = 304060,
+			say = "ほ、本当かな……指揮官様が比叡たちをゆ…誘拐？する理由がわかりませんし…",
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
 			actorName = "？？？",
-			say = "ほ、本当かな……指揮官様が比叡たちをゆ…誘拐？する理由がわかりませんし…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "うぅ……指揮官様の部下として着任したと思いましたけど、一体何がどうなったかよくわからないですね…",
 			typewriter = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "もしかして指揮官様は比叡をずっとそばにいさせようとして誘拐したのかもしれません！",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "むむ…まさかそんな手があるとは…！よろしい！卿も自分が置かれている状況がわかったようだな！",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "……なんだっていい！この母港から脱出するチャンスだ！我は征くぞ！",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "ツェッペリンちゃん！……って、置いていかないでくださいよ！",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "ふん、この鉄血の最初の空母であるグラーフ・ツェッペリンの力、今こそ見せ……痛っ！",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "なによ！ここから出てまっすぐ行ったら壁じゃない！あの工作艦、謀ってくれたな…！!",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "……これは道がわかるまで時間がかかりそうですね……",
 			typewriter = {
 				speed = 0.05,

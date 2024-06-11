@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_395 = {}
 slot1 = slot0.word_template_395
 
-function temp()
+temp = function()
 	uv0["謀"] = {
 		["殺"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["販"] = {
 		["毒"] = {
 			this = true
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["賭"] = {
 		["博"] = {
 			this = true
@@ -59,7 +59,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["強"] = {
 		["姦"] = {
 			this = true,

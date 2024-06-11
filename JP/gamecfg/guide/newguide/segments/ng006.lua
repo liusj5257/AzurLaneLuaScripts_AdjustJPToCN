@@ -4,8 +4,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 0,
 				text = ({

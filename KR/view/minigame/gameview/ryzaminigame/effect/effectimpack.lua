@@ -1,6 +1,6 @@
 slot0 = class("EffectImpack", import("view.miniGame.gameView.RyzaMiniGame.effect.TargetEffect"))
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	slot2 = slot0._tf
 	slot2 = slot2:Find("Lockon")
 	slot2 = slot2:GetComponent(typeof(DftAniEvent))

@@ -1,6 +1,6 @@
 slot0 = class("BeachGuardChar")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 	slot0._config = slot2
 	slot0._event = slot3
@@ -55,7 +55,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	GetOrAddComponent(slot0.pos, typeof(CanvasGroup)).blocksRaycasts = false
 end
 
-function slot0.setParent(slot0, slot1, slot2, slot3)
+slot0.setParent = function(slot0, slot1, slot2, slot3)
 	setParent(slot0._tf, slot1)
 
 	slot0._tf.anchoredPosition = slot3 or Vector2(0, 0)
@@ -64,20 +64,20 @@ function slot0.setParent(slot0, slot1, slot2, slot3)
 	setActive(slot0._tf, true)
 end
 
-function slot0.getId(slot0)
+slot0.getId = function(slot0)
 	return slot0:getConfig("id")
 end
 
-function slot0.overLife(slot0)
+slot0.overLife = function(slot0)
 	slot0.hp = 0
 	slot0.def = 0
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	return slot0._config[slot1]
 end
 
-function slot0.prepareData(slot0)
+slot0.prepareData = function(slot0)
 	if slot0.defFlag then
 		slot0:setStatusIndex(1)
 	else
@@ -110,15 +110,15 @@ function slot0.prepareData(slot0)
 	slot0.buffs = {}
 end
 
-function slot0.SetSiblingIndex(slot0, slot1)
+slot0.SetSiblingIndex = function(slot0, slot1)
 	slot0._tf:SetSiblingIndex(slot1)
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:prepareData()
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	if slot0.timeToPool > 0 then
 		slot0.timeToPool = slot0.timeToPool - slot1
 
@@ -225,7 +225,7 @@ function slot0.step(slot0, slot1)
 	slot0._position = nil
 end
 
-function slot0.addCraft(slot0)
+slot0.addCraft = function(slot0)
 	slot0.craftNum = slot0.craftNum + 1
 
 	if slot0.craftNum > 3 then
@@ -239,15 +239,15 @@ function slot0.addCraft(slot0)
 	end
 end
 
-function slot0.getPointWorld(slot0)
+slot0.getPointWorld = function(slot0)
 	return slot0.point.position
 end
 
-function slot0.getSpeed(slot0, slot1)
+slot0.getSpeed = function(slot0, slot1)
 	return slot0.move.x * slot1, slot0.move.y * slot1
 end
 
-function slot0.moveChar(slot0, slot1, slot2)
+slot0.moveChar = function(slot0, slot1, slot2)
 	if slot1 == 0 and slot2 == 0 then
 		return
 	end
@@ -258,7 +258,7 @@ function slot0.moveChar(slot0, slot1, slot2)
 	slot0._tf.anchoredPosition = slot3
 end
 
-function slot0.getSkillDistance(slot0)
+slot0.getSkillDistance = function(slot0)
 	if not slot0.skillDistane then
 		slot0.skillDistane = 0
 
@@ -272,19 +272,19 @@ function slot0.getSkillDistance(slot0)
 	return slot0.skillDistane
 end
 
-function slot0.inBulletBound(slot0)
+slot0.inBulletBound = function(slot0)
 	return slot0._tf.anchoredPosition.x < BeachGuardConst.enemy_bullet_width
 end
 
-function slot0.setTarget(slot0, slot1)
+slot0.setTarget = function(slot0, slot1)
 	slot0.targetChar = slot1
 end
 
-function slot0.getTarget(slot0, slot1)
+slot0.getTarget = function(slot0, slot1)
 	return slot0.targetChar
 end
 
-function slot0.dead(slot0)
+slot0.dead = function(slot0)
 	slot0:overLife()
 	slot0.animator:SetTrigger("dead")
 
@@ -292,7 +292,7 @@ function slot0.dead(slot0)
 	slot0.recycle = false
 end
 
-function slot0.useSkill(slot0, slot1)
+slot0.useSkill = function(slot0, slot1)
 	if not slot0:isAlife() then
 		return
 	end
@@ -320,15 +320,15 @@ function slot0.useSkill(slot0, slot1)
 	slot1.cd = slot2.cd
 end
 
-function slot0.setRecycleFlag(slot0, slot1)
+slot0.setRecycleFlag = function(slot0, slot1)
 	slot0.recycle = slot1
 end
 
-function slot0.getRecycleFlag(slot0)
+slot0.getRecycleFlag = function(slot0)
 	return slot0.recycle
 end
 
-function slot0.damage(slot0, slot1)
+slot0.damage = function(slot0, slot1)
 	if BeachGuardConst.ignore_damage then
 		slot1 = 0
 	end
@@ -353,7 +353,7 @@ function slot0.damage(slot0, slot1)
 	end
 end
 
-function slot0.isAlife(slot0)
+slot0.isAlife = function(slot0)
 	if slot0.def and slot0.def > 0 then
 		return true
 	end
@@ -365,24 +365,24 @@ function slot0.isAlife(slot0)
 	return false
 end
 
-function slot0.setStatusIndex(slot0, slot1)
+slot0.setStatusIndex = function(slot0, slot1)
 	slot0.animator:SetInteger("wait_index", slot1)
 	slot0.animator:SetInteger("damage_index", slot1)
 end
 
-function slot0.setCamp(slot0, slot1)
+slot0.setCamp = function(slot0, slot1)
 	slot0.camp = slot1
 end
 
-function slot0.getCamp(slot0)
+slot0.getCamp = function(slot0)
 	return slot0.camp
 end
 
-function slot0.getAnimPos(slot0)
+slot0.getAnimPos = function(slot0)
 	return slot0.animTf.position
 end
 
-function slot0.createUseData(slot0, slot1)
+slot0.createUseData = function(slot0, slot1)
 	slot2 = {
 		skill = slot1
 	}
@@ -409,7 +409,7 @@ function slot0.createUseData(slot0, slot1)
 	return slot2
 end
 
-function slot0.getAtkRate(slot0)
+slot0.getAtkRate = function(slot0)
 	slot1 = 1
 
 	for slot5 = 1, #slot0.buffs do
@@ -425,7 +425,7 @@ function slot0.getAtkRate(slot0)
 	return slot1
 end
 
-function slot0.getSpeedRate(slot0)
+slot0.getSpeedRate = function(slot0)
 	slot1 = 1
 
 	for slot5 = 1, #slot0.buffs do
@@ -441,7 +441,7 @@ function slot0.getSpeedRate(slot0)
 	return slot1
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0:prepareData()
 	setActive(slot0._tf, false)
 
@@ -449,19 +449,19 @@ function slot0.clear(slot0)
 	slot0.targetChar = nil
 end
 
-function slot0.getDistance(slot0)
+slot0.getDistance = function(slot0)
 	return slot0._config.distance or 0
 end
 
-function slot0.setLineIndex(slot0, slot1)
+slot0.setLineIndex = function(slot0, slot1)
 	slot0._lineIndex = slot1
 end
 
-function slot0.getLineIndex(slot0)
+slot0.getLineIndex = function(slot0)
 	return slot0._lineIndex
 end
 
-function slot0.getPos(slot0)
+slot0.getPos = function(slot0)
 	if not slot0._anchoredPosition then
 		slot0._anchoredPosition = slot0._tf.anchoredPosition
 	end
@@ -469,15 +469,15 @@ function slot0.getPos(slot0)
 	return slot0._anchoredPosition
 end
 
-function slot0.setGridIndex(slot0, slot1)
+slot0.setGridIndex = function(slot0, slot1)
 	slot0._gridIndex = slot1
 end
 
-function slot0.getGridIndex(slot0, slot1)
+slot0.getGridIndex = function(slot0, slot1)
 	return slot0._gridIndex
 end
 
-function slot0.getWorldPos(slot0)
+slot0.getWorldPos = function(slot0)
 	if not slot0._position then
 		slot0._position = slot0._tf.position
 	end
@@ -485,11 +485,11 @@ function slot0.getWorldPos(slot0)
 	return slot0._position
 end
 
-function slot0.getCollider(slot0)
+slot0.getCollider = function(slot0)
 	return slot0.collider
 end
 
-function slot0.checkCollider(slot0, slot1, slot2)
+slot0.checkCollider = function(slot0, slot1, slot2)
 	if not slot0:isAlife() then
 		return
 	end
@@ -501,7 +501,7 @@ function slot0.checkCollider(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.checkBulletCollider(slot0, slot1)
+slot0.checkBulletCollider = function(slot0, slot1)
 	if not slot0:isAlife() then
 		return
 	end
@@ -513,11 +513,11 @@ function slot0.checkBulletCollider(slot0, slot1)
 	return false
 end
 
-function slot0.setRaycast(slot0, slot1)
+slot0.setRaycast = function(slot0, slot1)
 	GetComponent(findTF(slot0._tf, "click"), typeof(Image)).raycastTarget = slot1
 end
 
-function slot0.addBuff(slot0, slot1)
+slot0.addBuff = function(slot0, slot1)
 	slot3 = slot0:getOrCreateBuff(slot1.id)
 	slot3.time = slot1.time
 	slot3.times = slot3.times + 1
@@ -539,7 +539,7 @@ function slot0.addBuff(slot0, slot1)
 	end
 end
 
-function slot0.removeBuff(slot0, slot1)
+slot0.removeBuff = function(slot0, slot1)
 	for slot5 = #slot0.buffs, 1, -1 do
 		if slot0.buffs[slot5] == slot1 then
 			slot0:disposeBuff(table.remove(slot0.buffs, slot5))
@@ -547,7 +547,7 @@ function slot0.removeBuff(slot0, slot1)
 	end
 end
 
-function slot0.disposeBuff(slot0, slot1)
+slot0.disposeBuff = function(slot0, slot1)
 	if #slot1.effectTfs > 0 then
 		for slot5 = 1, #slot1.effectTfs do
 			Destroy(slot1.effectTfs[slot5])
@@ -565,7 +565,7 @@ function slot0.disposeBuff(slot0, slot1)
 	slot1.triggerEffectTfs = {}
 end
 
-function slot0.getOrCreateBuff(slot0, slot1)
+slot0.getOrCreateBuff = function(slot0, slot1)
 	for slot5 = 1, #slot0.buffs do
 		if slot0.buffs[slot5].config.id == slot1 then
 			return slot0.buffs[slot5]
@@ -625,7 +625,7 @@ function slot0.getOrCreateBuff(slot0, slot1)
 	return slot2
 end
 
-function slot0.getScore(slot0)
+slot0.getScore = function(slot0)
 	return slot0._config.score or 0
 end
 

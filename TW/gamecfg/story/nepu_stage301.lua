@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE301",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE301",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>『异色海域WHITE』</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 10100010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-nep",
 			dir = -1,
 			say = "第二关，顺利过关！这回的事件看来马上就能解决了吧！？",
+			bgm = "level-nep",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,13 +33,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "怎么可能有这种好事…",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "怎么可能有这种好事…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,8 +102,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "啊，莫非是……打倒的冒牌货还不够多？",
 			typewriter = {
 				speed = 0.05,
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "嗯，正确。数据还完全不够呢",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "嗯，正确。数据还完全不够呢",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,13 +147,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "也有这个问题，不过……这边刚才已经确认了，打开虫洞需要更多冒牌女神的数据",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "也有这个问题，不过……这边刚才已经确认了，打开虫洞需要更多冒牌女神的数据",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "就是这样……麻烦大家继续侦查镜面海域，讨伐冒牌女神们吧。再见",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "就是这样……麻烦大家继续侦查镜面海域，讨伐冒牌女神们吧。再见",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,8 +248,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "……有点像我们的指挥官呢",
 			typewriter = {
 				speed = 0.05,
@@ -336,16 +336,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "测试者α",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "……那些人的次元有人干扰了呢",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试者α",
 			say = "打破这边的信息屏障，不光是实验数据，连镜面海域的存在都能调查出来……",
 			typewriter = {
 				speed = 0.05,
@@ -387,12 +387,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试者α",
 			say = "……不能小看对面的实力，这是和我们同等……不，在我们之上……？",
 			typewriter = {
 				speed = 0.05,
@@ -404,12 +404,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "测试者α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试者α",
 			say = "呼呼……好啊，就让我来会会妳吧……",
 			typewriter = {
 				speed = 0.05,

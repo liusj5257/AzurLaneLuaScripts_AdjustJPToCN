@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"애정 공세!\n\n<size=45>4. 모항보다 더 먼 곳</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-2",
 			bgName = "bg_story_task_2",
 			say = "또 어느 하루의 지휘실——",
-			bgm = "story-richang-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "근무일이었지만, 근무 시간이었지만, 그러나……",
 			typewriter = {
@@ -55,14 +55,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "음…… 퇴근하고 지휘관이랑 어디가서 데이트할까?",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "음…… 퇴근하고 지휘관이랑 어디가서 데이트할까?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,9 +319,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
 			optionFlag = 4,
+			bgName = "bg_story_task_2",
 			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "……데이트에 관한 한 블뤼허는 실로 놀라운 열정을 가지고 있다고 하지 않을 수가 없다.",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "물론, 그녀에게서 전해지는 강한 애정 역시 동시에 느껴졌다.",
 			typewriter = {
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "어느덧 나도 모르게...... 그녀에게 다소 영향을 받았는지도 모르겠다.",
 			typewriter = {
@@ -447,8 +447,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "모항의 스키장에 가자는 건가?",
 			typewriter = {
@@ -457,14 +457,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "아니 아니 아냐~ 더 멀리 떨어진 곳!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "아니 아니 아냐~ 더 멀리 떨어진 곳!",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG24",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			actor = 408050,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "また会えたわね。いきなり探知されたけど",
-			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "一度撃退されたのにわざわざ顔を出してくれるとはな",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			say = "（まあ、そこはあんたたちの対潜能力次第だけどね）",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "（浮上している子以外にもたくさんいますね…！ここは踏ん張り所よハーマイオニー）",
 			typewriter = {
 				speed = 0.05,

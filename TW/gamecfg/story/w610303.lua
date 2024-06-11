@@ -1,15 +1,15 @@
 return {
-	id = "W610303",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610303",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "分析模組同步中：指揮官，水面之下依然存在有物資訊號，是否繼續進行打撈作業？",
 			painting = {
 				alpha = 0.3,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"크리스마스 선물 대작전!\n\n<size=45>6. 크리스마스의 전사, 전진! </size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "저녁-모항의 상점",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-christmas",
+			say = "저녁-모항의 상점",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#92fc63",
 			say = "이제 남은 것은 폐하께 드릴 특별 선물이네!",
 			typewriter = {
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 201102,
+			say = "엔터프라이즈가 방금 ‘선물에 중요한 것은 종류가 아닌 마음’이라고 했는데요……",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "엔터프라이즈가 방금 ‘선물에 중요한 것은 종류가 아닌 마음’이라고 했는데요……",
+			actor = 201102,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 201102,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201102,
+			nameColor = "#92fc63",
 			say = "그렇다면! 저……저도 여왕 폐하께서 분명 좋아하실 거라고 생각해요!",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -145,15 +145,15 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 205021,
+			nameColor = "#92fc63",
 			say = "그런데 큰일이네…… 선물이 너무 많아서 우리 둘이 들고갈 수가 없어!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 201102,
+			say = "윽…… 모두에게 줄 음식…… 너무 많이 샀네요……",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "윽…… 모두에게 줄 음식…… 너무 많이 샀네요……",
+			actor = 201102,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -201,8 +201,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_night",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#92fc63",
 			say = "젠장…… 여기까지 왔는데 정말 방법이 없는건가?",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_night",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 205021,
+			nameColor = "#92fc63",
 			say = "엔터프라이즈?! 그리고 뒤에는…… 니콜라스인가?",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 201102,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 201102,
+			nameColor = "#92fc63",
 			say = "살았어요…… 그렇다면 이 선물을 생활 지역으로 옮겨요!",
 			typewriter = {
 				speed = 0.05,

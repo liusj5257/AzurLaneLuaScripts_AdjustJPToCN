@@ -1,14 +1,14 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "DONGHUO01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO01",
 	occlusion = 2,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"나타난 모든 적을 파괴하면 평화가 돌아올 거라고 생각하고 있었다.\"</size>",
@@ -45,21 +45,21 @@ return {
 			}
 		},
 		{
-			side = 0,
+			say = "여기가 '수수께끼의 신호'가 가리킨 해역… 아무래도 우리가 늦은 것 같아.",
 			actorName = "헬레나",
 			bgName = "bg_story_wing1",
-			nameColor = "#92fc63",
+			side = 0,
 			dir = 1,
+			nameColor = "#92fc63",
 			bgm = "story-6",
-			say = "여기가 '수수께끼의 신호'가 가리킨 해역… 아무래도 우리가 늦은 것 같아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 0,
 			actorName = "노스캐롤라이나",
+			side = 0,
 			bgName = "bg_story_wing1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "헬레나",
+			side = 0,
 			bgName = "bg_story_wing1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "워싱턴",
+			side = 0,
 			bgName = "bg_story_wing1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "노스캐롤라이나",
+			side = 0,
 			bgName = "bg_story_wing2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "워싱턴",
+			side = 0,
 			bgName = "bg_story_wing2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "워싱턴",
+			side = 0,
 			bgName = "bg_story_wing2",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "워싱턴",
+			side = 0,
 			bgName = "bg_story_wing2",
 			nameColor = "#92fc63",
 			dir = 1,

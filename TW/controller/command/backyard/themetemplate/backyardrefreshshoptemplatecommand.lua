@@ -1,6 +1,6 @@
 slot0 = class("BackYardRefreshShopTemplateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.type
 	slot5 = slot2.force
@@ -19,7 +19,7 @@ function slot0.execute(slot0, slot1)
 		return
 	end
 
-	function slot9(slot0, slot1)
+	slot9 = function(slot0, slot1)
 		slot2 = {}
 		slot3 = ipairs
 		slot4 = slot0.theme_id_list or {}
@@ -61,14 +61,14 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	function slot10(slot0)
+	slot10 = function(slot0)
 		uv0:sendNotification(GAME.BACKYARD_GET_IMG_MD5, {
 			type = BackYardConst.THEME_TEMPLATE_TYPE_SHOP,
 			callback = slot0
 		})
 	end
 
-	function slot11(slot0)
+	slot11 = function(slot0)
 		seriesAsync({
 			function (slot0)
 				uv0(uv1, slot0)

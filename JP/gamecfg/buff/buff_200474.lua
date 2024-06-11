@@ -7,14 +7,14 @@ return {
 	{},
 	{},
 	{},
-	time = 0.2,
-	name = "2023黑阿尔及利亚 监听点燃有TAG的敌人",
 	init_effect = "",
+	name = "2023黑阿尔及利亚 监听点燃有TAG的敌人",
+	time = 0.2,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200474,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

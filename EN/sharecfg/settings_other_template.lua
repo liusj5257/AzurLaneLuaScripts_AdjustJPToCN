@@ -3,8 +3,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "",
-		type = 2,
 		alignment = 0,
+		type = 2,
 		id = 1,
 		title = "Custom Ship Names",
 		desc = "When toggled ON, displays the custom names that other commanders have given their ships."
@@ -12,8 +12,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "AUTO_BATTLE_LABEL",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 2,
 		title = "Combat End Notification",
 		desc = "When toggled ON, your device will vibrate after completing a battle in Auto mode."
@@ -21,8 +21,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "RARE_SHIP_VIBRATE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 3,
 		title = "New Ship Notification",
 		desc = "When toggled ON, your device will vibrate when obtaining a ship of SR rarity or higher."
@@ -30,8 +30,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "DISPLAY_SHIP_GET_EFFECT",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 4,
 		title = "Duplicate Ship Display",
 		desc = "When toggled OFF, skips the acquisition screen when obtaining a Rare or Common ship already registered in your collection."
@@ -39,8 +39,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "SHOW_TOUCH_EFFECT",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 5,
 		title = "Display Tap Marker",
 		desc = "When toggled ON, displays a sparkle effect when you tap on the screen."
@@ -48,8 +48,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "BG_FIT_MODE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 6,
 		title = "Auto-Adjust Load Screen Aspect Ratio",
 		desc = "When toggled ON, your device's aspect ratio will be automatically applied to the display of loading screens."
@@ -57,8 +57,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "BATTLE_HIDE_BG",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 7,
 		title = "Hide Skin Backgrounds",
 		desc = "When toggled ON, hides the background art of skins during combat."
@@ -66,8 +66,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "BATTLE_EXPOSE_LINE",
-		type = 0,
 		alignment = 1,
+		type = 0,
 		id = 8,
 		title = "Display CV Detection Line",
 		desc = [[
@@ -100,8 +100,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 0,
 		name = "AUTOFIGHT_BATTERY_SAVEMODE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 9,
 		title = "Auto-Search Battery Saver",
 		desc = "When toggled ON, reduces screen brightness 20 seconds after starting Auto-Search."
@@ -109,8 +109,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 0,
 		name = "AUTOFIGHT_DOWN_FRAME",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 10,
 		title = "Auto-Search FPS Reduction",
 		desc = "When toggled ON, reduces game FPS when battery saver mode is active."
@@ -118,8 +118,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 1,
 		name = "ALLOW_FIREND_VISIT_BACKYARD_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 11,
 		title = "Allow Dorm Visitors",
 		desc = "When toggled ON, your friends will be able to visit your Dorm."
@@ -127,8 +127,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 0,
 		name = "SHOW_FIREND_BACKYARD_SHIP_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 12,
 		title = "Display Visitor Secretary",
 		desc = "When toggled ON, displays the secretary of friends visiting your Dorm."
@@ -136,8 +136,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 0,
 		name = "SHOW_MY_BACKYARD_SHIP_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 13,
 		title = "Display Secretary when Visiting",
 		desc = "When toggled ON, your friends will be able to see your secretary ship after you visit their Dorm."
@@ -145,8 +145,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 14,
 		title = "Display Quick-Switch Prompt ",
 		desc = "When toggled ON, gives a confirmation prompt when you're quick-switching gear. "
@@ -154,8 +154,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 1,
 		name = "GYRO_ENABLE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 15,
 		title = "L2D Gyroscope Functionality",
 		desc = "When toggled ON, some L2D animations will react to your device's gyroscopic sensor."
@@ -163,8 +163,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 1,
 		name = "SHIP_NAME_COLOR",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 16,
 		title = "Change Oathed Ship Name Color",
 		desc = "When toggled ON, changes the font color of the names of oathed ships."
@@ -172,8 +172,8 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 1,
 		name = "BATTLERESULT_DISPAY_PAINTING",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 17,
 		title = "Display Battle Result Cutscene",
 		desc = "When toggled ON, battle result screen will show extra cutscene."
@@ -181,11 +181,38 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 	{
 		default = 0,
 		name = "LIVE2D_STATUS_SAVE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 18,
 		title = "Fixed L2D Settings",
 		desc = "When toggled ON, the display state of L2D skins on the home screen will be set to standby, and the \"Login\" and \"Return to Port\" animations will no longer play when navigating to the home screen."
+	},
+	{
+		default = 1,
+		name = "USAGE_NEW_MAINUI",
+		alignment = 0,
+		type = 0,
+		id = 19,
+		title = "Use New Main Menu UI",
+		desc = "When toggled ON, the main menu will use the new user interface."
+	},
+	{
+		default = 1,
+		name = "MAINUI_NEVER_SLEEP",
+		alignment = 0,
+		type = 0,
+		id = 20,
+		title = "No Sleep Mode On Main Menu",
+		desc = "When toggled ON, sleep mode will not be triggered while you are on the main menu."
+	},
+	{
+		default = 0,
+		name = "MAINUI_RESET_L2D",
+		alignment = 0,
+		type = 0,
+		id = 21,
+		title = "Show L2D Reset Button",
+		desc = "When toggled ON, a L2D reset button will appear on the main menu."
 	},
 	all = {
 		1,
@@ -205,6 +232,9 @@ The Detection Gauge will not decrease in Exercise Battles. Additionally, once th
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21
 	}
 }

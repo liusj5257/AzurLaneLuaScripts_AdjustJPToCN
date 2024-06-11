@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023伊丽莎白meta 亚空间人形 免疫非meta攻击 死亡触发层数积累",
 	time = 0,
-	color = "yellow",
+	name = "2023伊丽莎白meta 亚空间人形 免疫非meta攻击 死亡触发层数积累",
+	init_effect = "",
+	id = 200360,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200360,
+	color = "yellow",
 	icon = 200360,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 10000
+				number = 10000,
+				attr = "igniteReduce"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "hammerDamageRatio",
-				number = -1
+				number = -1,
+				attr = "hammerDamageRatio"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "hammerDamagePrevent",
-				number = 1
+				number = 1,
+				attr = "hammerDamagePrevent"
 			}
 		},
 		{
@@ -49,8 +49,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_notmeta",
-				number = -1
+				number = -1,
+				attr = "DMG_FROM_TAG_1_notmeta"
 			}
 		},
 		{
@@ -59,8 +59,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_notmeta",
-				number = -1
+				number = -1,
+				attr = "DMG_FROM_TAG_2_notmeta"
 			}
 		},
 		{
@@ -69,8 +69,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_3_notmeta",
-				number = -1
+				number = -1,
+				attr = "DMG_FROM_TAG_3_notmeta"
 			}
 		},
 		{
@@ -79,8 +79,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_4_notmeta",
-				number = -1
+				number = -1,
+				attr = "DMG_FROM_TAG_4_notmeta"
 			}
 		},
 		{
@@ -89,8 +89,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_5_notmeta",
-				number = -1
+				number = -1,
+				attr = "DMG_FROM_TAG_5_notmeta"
 			}
 		},
 		{
@@ -101,8 +101,8 @@ return {
 			},
 			arg_list = {
 				group = 1,
-				attr = "immuneAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneAreaLimit"
 			}
 		},
 		{
@@ -112,8 +112,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		},
 		{

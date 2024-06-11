@@ -1,31 +1,31 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHIZHEYUZHIZHU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHIZHEYUZHIZHU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
-					"智者与蜘蛛\n\n<size=45>六　涟漪</size>",
+					"智者與蜘蛛\n\n<size=45>六 漣漪</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			say = "铁血浮岛要塞群·A1浮岛-重樱使馆区",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-shallowoftheworld",
+			nameColor = "#A9F548FF",
+			say = "鐵血浮島要塞群·A1浮島-重櫻使館區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,11 +49,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "没想到真的敲开了。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "沒想到真的敲開了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,13 +64,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "你那么大声的敲门！敲不开才很奇怪吧！",
+			hidePaintObj = true,
+			say = "妳那麼大聲的敲門！敲不開才很奇怪吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,13 +86,13 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "……不，你是今晚我唯一一个敲开门的人。",
+			hidePaintObj = true,
+			say = "……不，妳是今晚我唯一一個敲開門的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,13 +103,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "…………哎？出什么事了么！",
+			hidePaintObj = true,
+			say = "…………哎？出什麼事了嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,11 +128,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "嗯，但出了什么事……我不清楚。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "嗯，但出了什麼事……我不清楚。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,13 +143,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "没敲开其他人的门也就是说……整座基地只有我们两个人没受到影响？",
+			hidePaintObj = true,
+			say = "沒敲開其他人的門也就是說……整個基地只有我們兩個人沒受到影響？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,28 +163,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "也许，这次异常现象是针对“铁血”这个阵营的概念进行的攻击。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9704010,
-			side = 2,
-			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#ffa500",
-			say = "所以只有我和你没受到影响。",
+			hidePaintObj = true,
+			say = "也許，這次異常現像是針對「鐵血」這個陣營的概念所進行的攻擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,13 +178,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "对“铁血”阵营的概念进行的攻击……？",
+			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "所以只有我和妳沒受到影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,13 +195,30 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "这种夸张的事有可能实现么？",
+			hidePaintObj = true,
+			say = "對「鐵血」陣營的概念進行的攻擊……？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_fuxiangxian_2",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "這種誇張的事有可能達成嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,11 +232,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "不要小看塞壬的仲裁机关。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "不要小看塞壬的仲裁機關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,11 +250,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "亦或是游离在世界之外的其他危险存在……",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "亦或是遊離在世界之外的其他危險存在……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,13 +265,13 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "今天中午，{namecode:464}问我有没有做过噩梦的时候，我没有完全说实话。",
+			hidePaintObj = true,
+			say = "今天中午，烏爾里希問我有沒有做過惡夢的時候，我沒有完全說實話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,11 +285,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "因为我有种感觉……不去深究在噩梦中的体会才是最好的。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "因為我有種感覺……不去深究在惡夢中的體會才是最好的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,11 +303,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "而且那些感觉就像一阵风，只要让它吹过去，就没事了。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "而且那些感覺就像一陣風，只要讓它吹過去，就沒事了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,11 +321,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我原本是这么想的……但这次好像没有这么简单。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "我原本是這麼想的……但這次好像沒有這麼簡單。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,11 +339,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "那些感觉好像是盯着{namecode:464}来的。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "那些感覺好像是盯著烏爾里希來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,13 +354,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等、等等……我完全不理解你说的“那些感觉”指的是什么？",
+			hidePaintObj = true,
+			say = "等等、等等……我完全不懂妳說的「那些感覺」指的是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,11 +379,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "无法用语言形容……你要经历过META化之后才理解。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "無法用言語形容……妳要經歷過META化之後才理解。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,11 +397,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "那是不属于这个世界，却又能在你的心中激起微小涟漪的……“感觉”。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "那是不屬於這個世界，卻又能在妳的心中激起微小漣漪的……「感覺」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,13 +412,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……就像幽灵从身边经过一样？",
+			hidePaintObj = true,
+			say = "……就像幽靈從身邊經過一樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,11 +432,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……无法形容。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "……無法形容。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,11 +450,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "不过，这次袭击是针对铁血的，或者更精确一点——是针对{namecode:464}一个人的。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "不過，這次襲擊是只針對鐵血，或者更精確一點——是針對烏爾里希一個人的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,11 +468,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我们不去深究，就不会有事。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "我們不去深究，就不會有事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,13 +483,13 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "可以回去睡觉了。",
+			hidePaintObj = true,
+			say = "可以回去睡覺了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,12 +500,12 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			actor = 307060,
-			side = 2,
-			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哈啊？！！",
 			painting = {
 				alpha = 0.3,
@@ -528,13 +528,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "你、你在开玩笑吧！同伴有难怎么能坐视不理呢！",
+			hidePaintObj = true,
+			say = "妳、妳在開玩笑吧！同伴有難怎麼坐視不理！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,28 +554,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我又不是她们的同伴……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9704010,
-			side = 2,
-			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#ffa500",
-			say = "此处的铁血对我来说只是幻影……我与这里唯一的纽带只有{namecode:435}罢了。",
+			hidePaintObj = true,
+			say = "我又不是她們的同伴……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,13 +569,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "好好好~那你在最开始发现问题的时候就可以尽管去睡觉。",
+			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "這裡的鐵血對我來說只是幻影……我與這裡唯一的連結只有俾斯麥罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,13 +586,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "现在全副武装地来找我做什么？",
+			hidePaintObj = true,
+			say = "好好好~那妳在最開始發現問題的時候就可以直接去睡覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,13 +603,30 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "难道不是打算去救人的么~？",
+			hidePaintObj = true,
+			say = "現在全副武裝地來找我做什麼？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_fuxiangxian_2",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "難道不是打算去救人的嗎~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,10 +640,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -655,13 +655,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "欸~那就算帮我一个忙，跟我一起来解决这场危机吧！",
+			hidePaintObj = true,
+			say = "欸~那就算幫我一個忙，跟我一起來解決這場危機吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,13 +672,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			actor = 9704010,
-			side = 2,
-			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#ffa500",
-			say = "好，我们走。",
+			hidePaintObj = true,
+			say = "好，我們走。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,12 +689,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "噗……",
 			painting = {
 				alpha = 0.3,
@@ -706,13 +706,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "那让我想想……既然是针对{namecode:464}阁下的袭击，我们先从她那里———",
+			hidePaintObj = true,
+			say = "那讓我想想……既然是針對烏爾里希閣下的攻擊，我們先從她那裡———",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,24 +723,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_2",
-			say = "滴————————",
 			soundeffect = "event:/ui/alarm",
+			say = "滴————————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "……欸？！刚刚出现的是什么声音？",
+			hidePaintObj = true,
+			say = "……欸？！剛出現的是什麼聲音？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,13 +756,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "浮岛要塞的什么模块开始运作了么？",
+			hidePaintObj = true,
+			say = "浮島要塞的什麼模組開始運作了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,11 +776,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……出现异常的是米德加尔特之塔的方向。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "……出現異常的是米德加爾特之塔的方向。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,11 +794,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "米德加尔特之塔……启动了。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "米德加爾特之塔……啟動了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

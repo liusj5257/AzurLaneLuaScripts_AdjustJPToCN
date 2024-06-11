@@ -6,13 +6,13 @@ slot0.Battle.BattleBombBulletUnit = class("BattleBombBulletUnit", slot0.Battle.B
 slot0.Battle.BattleBombBulletUnit.__name = "BattleBombBulletUnit"
 slot3 = slot0.Battle.BattleBombBulletUnit
 
-function slot3.Ctor(slot0, slot1, slot2)
+slot3.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._randomOffset = Vector3.zero
 end
 
-function slot3.InitSpeed(slot0)
+slot3.InitSpeed = function(slot0)
 	if slot0._barrageLowPriority then
 		slot0._yAngle = slot0._baseAngle + slot0._barrageAngle
 	else
@@ -24,17 +24,17 @@ function slot3.InitSpeed(slot0)
 	slot0.updateSpeed = uv0.doNothing
 end
 
-function slot3.Update(slot0)
+slot3.Update = function(slot0)
 	if slot0._exist then
 		uv0.super.Update(slot0)
 	end
 end
 
-function slot3.GetPierceCount(slot0)
+slot3.GetPierceCount = function(slot0)
 	return 1
 end
 
-function slot3.IsOutRange(slot0, slot1)
+slot3.IsOutRange = function(slot0, slot1)
 	if not slot0._exist then
 		return false
 	end
@@ -50,14 +50,14 @@ function slot3.IsOutRange(slot0, slot1)
 	end
 end
 
-function slot3.OutRange(slot0)
+slot3.OutRange = function(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv1.EXPLODE, {
 		UID = unitUniqueID
 	}))
 	uv2.super.OutRange(slot0)
 end
 
-function slot3.SetSpawnPosition(slot0, slot1)
+slot3.SetSpawnPosition = function(slot0, slot1)
 	uv0.super.SetSpawnPosition(slot0, slot1)
 
 	if slot0._barragePriority then
@@ -76,7 +76,7 @@ function slot3.SetSpawnPosition(slot0, slot1)
 	end
 end
 
-function slot3.SetExplodePosition(slot0, slot1)
+slot3.SetExplodePosition = function(slot0, slot1)
 	if slot0:GetTemplate().extra_param.targetFixX and slot2.targetFixZ then
 		slot0._explodePos = Vector3(slot2.targetFixX, 0, slot2.targetFixZ)
 	else
@@ -90,7 +90,7 @@ function slot3.SetExplodePosition(slot0, slot1)
 	slot0._explodePos.y = uv0.BombDetonateHeight
 end
 
-function slot3.SetTemplateData(slot0, slot1)
+slot3.SetTemplateData = function(slot0, slot1)
 	uv0.super.SetTemplateData(slot0, slot1)
 
 	slot2 = slot0:GetTemplate().extra_param
@@ -130,11 +130,11 @@ function slot3.SetTemplateData(slot0, slot1)
 	slot0._hitInterval = slot1.hit_type.interval or 0.2
 end
 
-function slot3.DealDamage(slot0)
+slot3.DealDamage = function(slot0)
 	slot0._nextDamageTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._hitInterval
 end
 
-function slot3.CanDealDamage(slot0)
+slot3.CanDealDamage = function(slot0)
 	if not slot0._nextDamageTime then
 		slot0._nextDamageTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._tempData.extra_param.alert_duration
 
@@ -144,12 +144,12 @@ function slot3.CanDealDamage(slot0)
 	end
 end
 
-function slot3.HideBullet(slot0)
+slot3.HideBullet = function(slot0)
 	slot0._position.x = 0
 	slot0._position.y = 100
 	slot0._position.z = 0
 end
 
-function slot3.GetExplodePostion(slot0)
+slot3.GetExplodePostion = function(slot0)
 	return slot0._explodePos
 end

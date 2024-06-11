@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ナイト＆アワード\n\n<size=45>その二　騎士団結成！</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "夕方・体育館の一隅",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "夕方・体育館の一隅",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "デンバー&モントピリア",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "おー！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 1
@@ -80,16 +80,16 @@ return {
 			}
 		},
 		{
-			actor = 102100,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102100,
+			nameColor = "#a9f548",
 			say = "……プッ。…おー！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 1
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "どうやら既にクリーブランド級軽巡洋艦の四人でチームを組んだらしい。",
 			typewriter = {
 				speed = 0.05,
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "……了解しました。姉貴が命令するなら、私一人でも相手チーム全員を倒してみせます。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			say = "ちがーう！相手を倒すんじゃなくて、バスケで勝つんだぞ！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ちがーう！相手を倒すんじゃなくて、バスケで勝つんだぞ！",
+			actor = 102090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -248,16 +248,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "……なっ！？///",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 15,
 					number = 2
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "クリーブランドは真っ赤になった。",
 			typewriter = {
 				speed = 0.05,
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 102140,
+			say = "わかりました。……おい、クリーブ姉貴はお前にアピールするためわざわざここまでしてやったのだ。これからは姉貴から5メートル以上離れるんじゃないぞ。姉貴のカワイイ姿を全て心に刻んでおけ。",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "わかりました。……おい、クリーブ姉貴はお前にアピールするためわざわざここまでしてやったのだ。これからは姉貴から5メートル以上離れるんじゃないぞ。姉貴のカワイイ姿を全て心に刻んでおけ。",
+			actor = 102140,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -319,17 +319,17 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "そうじゃなーーーーい！！人の話はちゃんと聞けーー！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 2

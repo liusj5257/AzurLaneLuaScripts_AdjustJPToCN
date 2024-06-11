@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102100,
 			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 102100,
 			nameColor = "#a9f548",
 			say = "적 반응 소멸. 이제 한 숨 돌릴 수 있겠어.",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "아하하… 요새 중심에 가까워질 수록 세이렌 함대가 더 강해지거든. 지금은 애피타이저일 뿐이랄까?",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "어라? 방어선을 하나 뚫을 때마다 더 강해지는 적이라니… 느낌이… 조금…",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "마왕성인가… 피가 끓어오르는데. 목표는 마왕의 방. 출발! 이라는 걸까?",
 			typewriter = {

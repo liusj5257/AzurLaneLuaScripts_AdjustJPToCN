@@ -1,12 +1,12 @@
 return {
-	id = "W700202",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700202",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You've already completed this Arbiter Battle. Re-enter this zone to start a practice battle against the Arbiter on Hard difficulty. No rewards will be given.",
 			typewriter = {
 				speed = 0.05,

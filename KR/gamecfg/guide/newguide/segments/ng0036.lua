@@ -19,8 +19,8 @@ return {
 			style = {
 				text = "터치하여 단독/협동 출격 전환",
 				mode = 1,
-				posY = -136.5,
 				dir = 1,
+				posY = -136.5,
 				posX = 118.24,
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/BossRushFleetSelectUI(Clone)/Panel/Info/Modes"

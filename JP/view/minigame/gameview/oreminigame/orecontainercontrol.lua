@@ -1,21 +1,21 @@
 slot0 = class("OreContainerControl")
 slot0.BREAK_MOVE_TIME = 0.5
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.binder = slot1
 	slot0._tf = slot2
 
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0:AddListener()
 
 	slot0.deliverSpeed = 50
 	slot0.mainTF = slot0._tf:Find("Container_1/break")
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	slot1 = slot0.binder
 
 	slot1:bind(OreGameConfig.EVENT_DELIVER, function (slot0, slot1)
@@ -35,7 +35,7 @@ slot0.DeliveOffsetY = {
 	-16
 }
 
-function slot0.PlayDeliverAnim(slot0, slot1, slot2, slot3)
+slot0.PlayDeliverAnim = function(slot0, slot1, slot2, slot3)
 	slot0.mainTF = slot0._tf:Find("Container_" .. slot1 .. "/deliver")
 
 	setAnchoredPosition(slot0.mainTF, {
@@ -60,7 +60,7 @@ slot0.moveRata = {
 	1.5
 }
 
-function slot0.PlayHitAnim(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayHitAnim = function(slot0, slot1, slot2, slot3, slot4)
 	if slot1 == OreAkashiControl.STATUS_NULL then
 		return
 	end
@@ -102,7 +102,7 @@ function slot0.PlayHitAnim(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0.deliverTime = nil
 	slot0.breakTime = nil
 	slot0.oreTFs = nil
@@ -113,7 +113,7 @@ function slot0.Reset(slot0)
 	setAnchoredPosition(slot0.mainTF, Vector2(0, 0))
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	if slot0.deliverTime then
 		setAnchoredPosition(slot0.mainTF, {
 			x = slot0.mainTF.anchoredPosition.x,

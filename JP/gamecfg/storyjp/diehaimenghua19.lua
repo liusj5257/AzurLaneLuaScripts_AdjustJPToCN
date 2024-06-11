@@ -1,15 +1,15 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			mode = 1,
 			bgName = "bg_xinnong2_5",
+			mode = 1,
+			bgmDelay = 1,
 			bgm = "nagato-boss",
 			flashin = {
 				delay = 0.5,
@@ -28,9 +28,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
+			dir = 1,
 			say = "「敵」は文字通り「波」となってやってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
+			dir = 1,
 			say = "それは「海」そのものをも超越し、まるでこの星のいかなる存在をも蹂躙できる破壊の嵐を放つ「獣」。",
 			typewriter = {
 				speed = 0.05,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#696969",
+			side = 2,
 			bgName = "bg_xinnong2_5",
-			actorName = "█ █ █ █",
 			dir = 1,
+			actorName = "█ █ █ █",
 			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ■■■■▋▌▊▎▇",
 			dialogShake = {
 				speed = 0.09,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,9 +125,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
+			dir = 1,
 			say = "天を突くほど巨大な、鋼鉄を思わせる黒光りする巨体がゆっくりと圧殺しにきているように見えた。",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#696969",
+			side = 2,
 			bgName = "bg_xinnong2_5",
-			actorName = "█ █ █ █",
 			dir = 1,
+			actorName = "█ █ █ █",
 			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ■■■■▋▌▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊▊▊",
 			dialogShake = {
 				speed = 0.09,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "千代田",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "樫野",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "千歳",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -224,13 +224,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_5",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（重桜を…みんなを…人類を守るのが妾の定め…）",
 			soundeffect = "event:/battle/plane",
+			nameColor = "#a9f548",
+			say = "（重桜を…みんなを…人類を守るのが妾の定め…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -257,12 +257,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_5",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "（精魂果つるまで、戦おう……！）",
 			typewriter = {
 				speed = 0.05,

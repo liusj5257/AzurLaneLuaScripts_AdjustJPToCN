@@ -1,15 +1,15 @@
 return {
-	id = "W1014",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1014",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "분석 모듈 동기화 중: 지휘관님, 해역에 회수하지 않은 확보 보상이 있습니다. 회수 작업 진행 후 이탈을 권장합니다.",
 			typewriter = {
 				speed = 0.05,

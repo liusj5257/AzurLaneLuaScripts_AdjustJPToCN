@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304050,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "{namecode:74}大人。",
 			flashin = {
 				delay = 1,
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			say = "是{namecode:161}啊，突然造訪所為何事？",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "是{namecode:161}啊，突然造訪所為何事？",
+			actor = 305050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,10 +62,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "{namecode:161}有事相求…",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "希望撤銷對{namecode:92}的退役處理。",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "除非有人能夠替代她",
 			typewriter = {
 				speed = 0.05,
@@ -177,10 +177,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "可能…很長一段時間內重櫻還需要由您來帶領前進……",
 			typewriter = {
 				speed = 0.05,
@@ -242,10 +242,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "然後，重新舉辦一次艦隊演習…這是我..咳….咳咳…",
 			typewriter = {
 				speed = 0.05,
@@ -291,10 +291,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "感謝{namecode:74}大人的理解..",
 			typewriter = {
 				speed = 0.05,
@@ -324,10 +324,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "憑她們兩人的資質和悟性，將來一定能成為重櫻的核心力量…請{namecode:74}大人放心…咳…",
 			typewriter = {
 				speed = 0.05,
@@ -357,10 +357,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "感謝…那麼，我就出發了——",
 			typewriter = {
 				speed = 0.05,

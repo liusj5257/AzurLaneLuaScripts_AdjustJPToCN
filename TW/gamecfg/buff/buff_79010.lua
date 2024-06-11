@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "超重",
 	time = 0,
-	color = "yellow",
+	name = "超重",
+	init_effect = "",
+	id = 79010,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 79010,
+	color = "yellow",
 	icon = 8661,
 	last_effect = "",
 	effect_list = {
@@ -42,8 +42,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageEnhanceProjectile",
-				number = 10
+				number = 10,
+				attr = "damageEnhanceProjectile"
 			}
 		}
 	}

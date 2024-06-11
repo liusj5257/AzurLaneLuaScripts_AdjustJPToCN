@@ -1,6 +1,6 @@
 slot0 = class("ChatBubbleWorldBoss")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.tf = tf(slot1)
 	slot0.interactable = defaultValue(slot2, true)
 	slot0.nameTF = findTF(slot0.tf, "desc/name"):GetComponent("Text")
@@ -21,7 +21,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	setActive(slot0.chatframeUnsel, false)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	if slot0.data == slot1 then
 		return
 	end
@@ -116,12 +116,12 @@ function slot0.update(slot0, slot1)
 	slot0.chatContent.text = i18n("world_boss_ad", slot1.args.bossName, slot1.args.level)
 end
 
-function slot0.SetGray(slot0)
+slot0.SetGray = function(slot0)
 	setActive(slot0.chatframeSel, false)
 	setActive(slot0.chatframeUnsel, true)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	removeOnButton(slot0.chatframe)
 
 	if slot0.circle.childCount > 0 then

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN19",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "xinnong-2",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			say = "————————！",
 			dir = 1,
-			bgm = "xinnong-2",
+			soundeffect = "event:/battle/boom2",
+			say = "————————！",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "敵艦からの砲撃です！演習弾の威力ではありません！",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "ここにいる人たち、実弾演習でも……きゃああ！？",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			say = "————————！",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "————————！",
 			flashN = {
 				color = {
 					1,
@@ -159,8 +159,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "演習用の「駒」だな！我に楯突くものは沈むのみだと教えてやる！",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,11 +186,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "お、落ち着いてニーシェ！演習用の「駒」は実弾を使いませんし、いきなり攻撃してくるようなこともありません！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -241,8 +241,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "じゃあなんだというのだ？オイゲン、説明を求む！",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "おーい、おいげーん！",
 			effects = {
@@ -281,8 +281,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "なんか呼ばれた気がするわ。何か用？",
 			effects = {
@@ -304,8 +304,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "オイゲンさん、いつの間にあんな距離に…",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "もう何をやってるのだー！こちらは演習用の「駒」に実弾を撃たれてるのだぞ！",
 			typewriter = {
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "ごめんごめん、もうちょっと時間がほしいわ。今重桜の子たちの通信を聞かせてもらってるの",
 			typewriter = {
@@ -383,8 +383,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "とにかく回避行動を取り続けてちょうだい。その距離なら当たらないわ",
 			typewriter = {
@@ -418,8 +418,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "じゃあ私の座標まで誘導してきて、なんとかするわ",
 			typewriter = {
@@ -453,8 +453,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "あとでわかるわ。今は回避運動に集中して",
 			typewriter = {
@@ -470,9 +470,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
 			blackBg = true,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "ライプツィヒちゃんなら倒れてそう…りょ、了解しました！",
 			typewriter = {

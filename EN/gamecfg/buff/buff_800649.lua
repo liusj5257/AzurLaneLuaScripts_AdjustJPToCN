@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -54,8 +54,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -90,8 +90,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -126,8 +126,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -162,8 +162,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -198,8 +198,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -234,8 +234,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -270,8 +270,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -306,8 +306,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -342,8 +342,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},
@@ -362,12 +362,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 800649,
 	time = 3,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800649,
+	color = "red",
 	icon = 800649,
 	last_effect = "",
 	effect_list = {
@@ -389,8 +389,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				time = 0.5,
 				target = "TargetSelf",
+				time = 0.5,
 				skill_id = 800641
 			}
 		},

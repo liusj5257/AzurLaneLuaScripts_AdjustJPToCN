@@ -1,12 +1,12 @@
 return {
-	id = "W863003",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W863003",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "未被激活的灯塔..在正下方可以放置能源矩阵。",
 			typewriter = {
 				speed = 0.05,

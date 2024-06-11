@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "意大利V2 我方陆基航空支援D3",
 	cd = 0,
-	painting = "yidali_ljhk",
-	id = 8867,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "yidali_ljhk",
+	id = 8867,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -15,8 +15,8 @@ return {
 				emitter = "BattleBulletEmitter",
 				weapon_id = 789002,
 				attack_attribute_convert = {
-					attr_type = "fleetGS",
 					A = 80,
+					attr_type = "fleetGS",
 					B = 400
 				}
 			}

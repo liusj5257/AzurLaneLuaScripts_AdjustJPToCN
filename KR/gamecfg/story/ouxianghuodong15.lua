@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "장비 테스트 해역",
 			side = 2,
 			bgName = "bg_ouxianglevel",
 			dir = 1,
-			say = "장비 테스트 해역",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_ouxianglevel",
-			actorName = "모두들",
 			dir = 1,
+			actorName = "모두들",
 			say = "오오오오!",
 			dialogShake = {
 				speed = 0.09,
@@ -91,11 +91,11 @@ return {
 			}
 		},
 		{
-			actor = 301014,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301014,
+			nameColor = "#a9f548",
 			say = "세계를 뒤흔들어 놓을 특형 아이돌 후부키, 등장! 풀 파워의 후부키는 누구에게도 지지 않아!",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 301014,
 			dir = 1,
+			actor = 301014,
 			nameColor = "#a9f548",
 			say = "아, 특형 구축함의 모두도 응원하러 와줬네! 이봐~ 아야나미~! 이카즈치, 이나즈마~! 힘낼게~!",
 			typewriter = {
@@ -201,13 +201,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "엘드릿지…! 또 강적이 나온 것 같네!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "남은 두 번의 라이브, 조금 더 버틸 수 있으면 좋겠군요.",
 			typewriter = {
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 403070,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
 			say = "흥, 잘 됐잖아! 가자!",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

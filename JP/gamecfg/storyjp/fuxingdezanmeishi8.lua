@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI8",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			bgName = "bg_italyv2_1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-italy",
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ありがとうございます。もうすぐでエーゲ海に入りそうですね…",
 			typewriter = {
 				speed = 0.05,
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ついさっきリットリオさんからセイレーンと交戦中との連絡がありましたわ",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "航路にいる船は全部退避させたね！",
 			typewriter = {
 				speed = 0.05,
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "リットリオ、上手くやりましたね",
 			typewriter = {
 				speed = 0.05,
@@ -106,10 +106,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（あの「リットリオの艦隊が」って強調されてたところはちょっと余計かもしれませんけど）",
 			typewriter = {
 				speed = 0.05,
@@ -121,12 +121,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "鏡面海域を上手く攻略できたら、今度上層部に具申してこのセイレーンの出現警報を活用したいです",
 			typewriter = {
 				speed = 0.05,
@@ -141,10 +141,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "私達だけならまだしも民間の船も関わりますから、上層部との調整が難しそうですね…",
 			typewriter = {
 				speed = 0.05,
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "その時はそのときです",
 			typewriter = {
 				speed = 0.05,
@@ -176,10 +176,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "リベッチオ、リットリオたちの座標はこの先で間違いありませんね",
 			typewriter = {
 				speed = 0.05,
@@ -194,10 +194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はい！リットリオさんたちとの最後の通信はこの先の海域からだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -212,10 +212,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ほかのみんなとも連絡したけど、全員つながらなくて…！",
 			typewriter = {
 				speed = 0.05,
@@ -230,10 +230,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "通信の妨害、気象状況の変化、そしてこの「神隠し」……航路に元々いた船は大丈夫ですか？",
 			typewriter = {
 				speed = 0.05,
@@ -248,10 +248,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "リットリオさんの通信のおかげで退避していましたら、全員無事のはずです",
 			typewriter = {
 				speed = 0.05,
@@ -266,10 +266,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あとはこちらも鏡面海域に突入して……",
 			typewriter = {
 				speed = 0.05,
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ふふふ、ヴェネトさん？このアクィラのことを忘れたりしていませんか？",
 			typewriter = {
 				speed = 0.05,
@@ -298,12 +298,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あ。そう言えば今は空母のアクィラもいますね。私としたことが……",
 			typewriter = {
 				speed = 0.05,
@@ -318,10 +318,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "アクィラ、艦載機を座標のある海域に飛ばしてもらえませんか？",
 			typewriter = {
 				speed = 0.05,

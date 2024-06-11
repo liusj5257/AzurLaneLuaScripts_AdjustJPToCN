@@ -3,15 +3,15 @@ slot1 = require("string")
 slot2 = require("math")
 slot4 = require("socket.core")
 
-function slot4.connect4(slot0, slot1, slot2, slot3)
+slot4.connect4 = function(slot0, slot1, slot2, slot3)
 	return uv0.connect(slot0, slot1, slot2, slot3, "inet")
 end
 
-function slot4.connect6(slot0, slot1, slot2, slot3)
+slot4.connect6 = function(slot0, slot1, slot2, slot3)
 	return uv0.connect(slot0, slot1, slot2, slot3, "inet6")
 end
 
-function slot4.bind(slot0, slot1, slot2)
+slot4.bind = function(slot0, slot1, slot2)
 	if slot0 == "*" then
 		slot0 = "0.0.0.0"
 	end
@@ -58,7 +58,7 @@ end
 
 slot4.try = slot4.newtry()
 
-function slot4.choose(slot0)
+slot4.choose = function(slot0)
 	return function (slot0, slot1, slot2)
 		if uv0.type(slot0) ~= "string" then
 			slot2 = slot1

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN28",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -41,12 +41,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "相変わらず敵艦の反応がないわ！これはさっきと同じくセイレーンのステルス能力…？",
 			typewriter = {
 				speed = 0.05,
@@ -61,10 +61,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "違うわ。私に任せて！",
 			typewriter = {
@@ -80,10 +80,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "ハッキング、クローキングモジュール！これで…！",
 			typewriter = {
@@ -99,10 +99,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "これで「彼女」のことが見えるはずよ！",
 			typewriter = {
@@ -118,10 +118,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "サンキュー！はっきりと見えてるわ！…って、一隻だけ！？",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,13 +143,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "はい、それだけキューブの…「META」のポテンシャルが強いわ",
 			typewriter = {
 				speed = 0.05,
@@ -209,10 +209,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "私達の作り出したキューブの性質が成すもの、それが「META」よ",
 			typewriter = {
@@ -228,10 +228,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "つまり私達のキューブに封印されている禁断の力にして、呪い――",
 			typewriter = {
@@ -262,10 +262,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "私達は「META」であり、そして一部の……フネが「余燼」に参加している",
 			typewriter = {
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "つまりあなたが「余燼」ではないのは、そういう意味…",
 			typewriter = {
 				speed = 0.05,
@@ -298,10 +298,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "………ええ",
 			typewriter = {
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（ボルチモアとエンタープライズたちが遭遇した「余燼」もレーダーに補足されない力を持っていた）",
 			typewriter = {
 				speed = 0.05,
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（指揮官の話だと重桜の祭儀の島を襲った「余燼」も姿を見せるまで誰も気づかなかった。それこそが彼女たちの共通の力なの？）",
 			typewriter = {
 				speed = 0.05,
@@ -351,10 +351,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（だから「ヘレナ」はその「META」の偽装を破れる技術を持っているわけね）",
 			typewriter = {
 				speed = 0.05,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…もしかして、同じ「META」の仲間を探している…？",
 			typewriter = {
 				speed = 0.05,
@@ -386,10 +386,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
@@ -405,10 +405,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "それは今あなたが知るべきではないことよ",
 			typewriter = {
@@ -421,12 +421,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "いいわよ。別に無理してまで聞きたいわけじゃないし、あなたが本気で逃げようとしたらあたしたちじゃ捕まえられないし",
 			typewriter = {
 				speed = 0.05,
@@ -441,10 +441,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "一つだけ、あんたの言ってた「指揮官の味方」ってのはこの場限りなのかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -459,10 +459,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "…違うわ。私は指揮官の味方……ええ、ずっと",
 			typewriter = {
@@ -475,12 +475,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "なら一緒に来ればいいじゃない。何かが起きたら指揮官がなんとかしてくれるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -495,10 +495,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "……そんなの…できない",
 			typewriter = {
@@ -514,10 +514,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "無理強いはしないわ。あんたがそう決めているのなら",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -539,12 +539,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "で、例の「彼女」を倒せば、この鏡面海域を解除できるってのは本当なのよね？",
 			typewriter = {
 				speed = 0.05,
@@ -559,10 +559,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "はい、保証するわ",
 			typewriter = {
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "じゃあ支援を頼むよ！どれだけ強いのか見せてもらおうじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -595,11 +595,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			blackBg = true,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "……はい！",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"理科実験タイム！\n\n<size=45>三　夢はひろがりんぐ！</size>",
@@ -20,11 +20,11 @@ return {
 			actor = 408051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "演習用の模擬弾をキャンディにする実験――どう？聞いてワクワクしない？",
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "演習用の模擬弾をキャンディにする実験――どう？聞いてワクワクしない？",
 			effects = {
 				{
 					active = true,
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "なんか…ツッコミどころが多すぎてどう反応すればいいかわからない…",
 			effects = {
 				{
@@ -82,8 +82,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "うんうん！夢がひろがりんぐよ！この白衣の姿を見てもわからないのか！",
 			typewriter = {
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "細かいところはいいから！",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "なんでみんなも本気に考え始めてるの……",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "その夢、確かに聞き入れた。ムフフ、ここからは夕張の出番ね",
 			typewriter = {
 				speed = 0.05,

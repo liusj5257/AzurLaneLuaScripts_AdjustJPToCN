@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "敌方支援弹幕",
 	time = 5,
-	color = "blue",
+	name = "敌方支援弹幕",
+	init_effect = "",
+	id = 59171,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 59171,
+	color = "blue",
 	icon = 59170,
 	last_effect = "",
 	effect_list = {

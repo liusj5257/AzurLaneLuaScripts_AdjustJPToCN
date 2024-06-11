@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA19",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA19",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "*CLICK!*",
 			dialogShake = {
 				speed = 0.09,

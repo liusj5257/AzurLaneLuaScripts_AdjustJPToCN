@@ -1,6 +1,6 @@
 slot0 = class("ChangePlayerNameCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.type or 1
 	slot5 = slot2.onSuccess
@@ -35,7 +35,7 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.ModifyNameByItem(slot0, slot1, slot2, slot3)
+slot0.ModifyNameByItem = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = slot1:canModifyName()
 
 	if not slot4 then
@@ -80,7 +80,7 @@ function slot0.ModifyNameByItem(slot0, slot1, slot2, slot3)
 
 	slot10 = pg.gameset.player_name_cold_time.key_value
 
-	function slot11()
+	slot11 = function()
 		pg.ConnectionMgr.GetInstance():Send(11007, {
 			type = 1,
 			name = uv0
@@ -112,7 +112,7 @@ function slot0.ModifyNameByItem(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.ForceModifyName(slot0, slot1, slot2, slot3)
+slot0.ForceModifyName = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(PlayerProxy)
 	slot5 = pg.ConnectionMgr.GetInstance()
 

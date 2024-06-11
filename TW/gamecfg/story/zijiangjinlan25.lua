@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "大棋盤·赤城控制區第八回合",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "唔啊啊啊啊啊阿，要被擊沉了要被擊沉了要被擊沉了！",
 			painting = {
 				alpha = 0.3,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "這就是危機四伏的戰爭哦。局勢瞬息萬變，稍有不慎便會粉身碎骨。",
 			painting = {
@@ -143,8 +143,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "大前輩是真敢應邀，但我的策略可不是隨便觀察幾下就能理解的。",
 			painting = {
@@ -192,8 +192,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "本回合的事件卡是「天晴浪高」，按效果所說，在本回合內所有戰列艦得到強化的同時，所有驅逐艦會獲得減益。",
 			painting = {
@@ -225,8 +225,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "真是個喜歡沉湎於過去的人……也不看看現在是什麼時代了。",
 			painting = {
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "赤城，接下來要繼續進攻中心據點嗎？",
 			painting = {
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "不，中心據點接下來會有點麻煩，現在還不是時候。",
 			painting = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "首先把陣型收回來，觀察一下局勢再做決定。深雪，妳的情況如何？",
 			painting = {
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "嗯……看來她們鐵了心是要卡住妳了。妳先安心待在那裡，等到三笠的止戈效果結束後我另有安排。",
 			painting = {
@@ -328,8 +328,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "遵命。",
 			painting = {
@@ -361,8 +361,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "也不是不能打，就是打的話，又要麻煩妳去當先鋒吸引火力了哦？",
 			painting = {
@@ -410,8 +410,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "嗯，儘管放心包在我身上！團隊回復的事就交給我的「櫻綻鳳華」吧~",
 			painting = {

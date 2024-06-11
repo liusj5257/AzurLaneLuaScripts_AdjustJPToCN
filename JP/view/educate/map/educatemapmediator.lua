@@ -4,7 +4,7 @@ slot0.ON_MAP_SITE_OPERATE = "EducateMapMediator.ON_MAP_SITE_OPERATE"
 slot0.ON_OPEN_SHOP = "EducateMapMediator.ON_OPEN_SHOP"
 slot0.ON_ADD_TASK_PROGRESS = "EducateMapMediator.ON_ADD_TASK_PROGRESS"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SPECIAL_EVENT_TRIGGER, function (slot0, slot1)
 		uv0:sendNotification(GAME.EDUCATE_TRIGGER_SPEC_EVENT, {
 			siteId = slot1.siteId,
@@ -35,7 +35,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		EducateProxy.RESOURCE_UPDATED,
 		EducateProxy.ATTR_UPDATED,
@@ -53,7 +53,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == EducateProxy.RESOURCE_UPDATED then

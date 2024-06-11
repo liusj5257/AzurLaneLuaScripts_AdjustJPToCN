@@ -1,24 +1,24 @@
 slot0 = class("OreCollisionMgr")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.binder = slot1
 	slot0.oreMap = {}
 	slot0.enemyMap = {}
 end
 
-function slot0.SetAkashiObject(slot0, slot1)
+slot0.SetAkashiObject = function(slot0, slot1)
 	slot0.akashiControl = slot1
 end
 
-function slot0.AddOreObject(slot0, slot1, slot2)
+slot0.AddOreObject = function(slot0, slot1, slot2)
 	slot0.oreMap[slot1] = slot2
 end
 
-function slot0.RemoveOreObject(slot0, slot1, slot2)
+slot0.RemoveOreObject = function(slot0, slot1, slot2)
 	slot0.oreMap[slot1] = nil
 end
 
-function slot0.AddEnemyObject(slot0, slot1, slot2, slot3)
+slot0.AddEnemyObject = function(slot0, slot1, slot2, slot3)
 	if not slot0.enemyMap[slot1] then
 		slot0.enemyMap[slot1] = {}
 	end
@@ -26,17 +26,17 @@ function slot0.AddEnemyObject(slot0, slot1, slot2, slot3)
 	slot0.enemyMap[slot1][slot2] = slot3
 end
 
-function slot0.RemoveEnemyObject(slot0, slot1, slot2, slot3)
+slot0.RemoveEnemyObject = function(slot0, slot1, slot2, slot3)
 	slot0.enemyMap[slot1][slot2] = nil
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0.oreMap = {}
 	slot0.enemyMap = {}
 	slot0.oreTarget = ""
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	slot3 = slot0.aabb
 	slot4 = slot1.aabb
 	slot6 = math.abs(slot3[2][2] - slot3[1][2]) / 2 + math.abs(slot4[2][2] - slot4[1][2]) / 2
@@ -51,7 +51,7 @@ function slot1(slot0, slot1)
 	return false
 end
 
-function slot2(slot0, slot1, slot2)
+slot2 = function(slot0, slot1, slot2)
 	switch(slot0, {
 		W = function ()
 			return uv0.x < uv1.x
@@ -70,7 +70,7 @@ function slot2(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.GetCarryOreTarget(slot0)
+slot0.GetCarryOreTarget = function(slot0)
 	slot1, slot2 = nil
 	slot3 = OreGameConfig.CARRY_RADIUS
 	slot4 = OreGameConfig.CARRY_LOOKAT_RADIUS
@@ -98,7 +98,7 @@ function slot0.GetCarryOreTarget(slot0)
 	return slot1 or ""
 end
 
-function slot0.UpdateOreStatus(slot0)
+slot0.UpdateOreStatus = function(slot0)
 	if slot0.oreTarget ~= slot0:GetCarryOreTarget() then
 		slot0.oreTarget = slot1
 
@@ -108,7 +108,7 @@ function slot0.UpdateOreStatus(slot0)
 	end
 end
 
-function slot0.UpdateAkashiCollision(slot0)
+slot0.UpdateAkashiCollision = function(slot0)
 	if slot0.akashiControl:IsInvincible() then
 		return
 	end
@@ -129,7 +129,7 @@ function slot0.UpdateAkashiCollision(slot0)
 	end
 end
 
-function slot0.UpdateEnemyCollision(slot0)
+slot0.UpdateEnemyCollision = function(slot0)
 	for slot4, slot5 in pairs(slot0.enemyMap) do
 		slot6 = {}
 
@@ -161,7 +161,7 @@ function slot0.UpdateEnemyCollision(slot0)
 	end
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	slot0:UpdateOreStatus()
 	slot0:UpdateAkashiCollision()
 	slot0:UpdateEnemyCollision()

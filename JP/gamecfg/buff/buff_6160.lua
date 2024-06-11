@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "灭火器T3",
 	time = 0,
-	color = "blue",
+	name = "灭火器T3",
+	init_effect = "",
+	id = 6160,
 	picture = "",
 	desc = "起火概率降低30%，持续时间缩短6秒，起火伤害降低20%，同类效果取最大值，不可叠加",
 	stack = 1,
-	id = 6160,
+	color = "blue",
 	icon = 6160,
 	last_effect = "",
 	effect_list = {

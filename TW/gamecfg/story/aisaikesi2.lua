@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"前輩與心結\n\n<size=45>二　“後輩”們的偶遇</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "按照定好的行程，和艾塞克斯開始了港區的日常巡邏",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "按照定好的行程，和艾塞克斯開始了港區的日常巡邏",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -81,10 +81,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "前、“前輩”！？妳是皇家的…半人馬嗎",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯！艾塞克斯前輩你們是在巡邏港區嗎？真是辛苦了呢~",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "是、是啊。這不過是身為港區管理者和秘書艦應該做的事情，沒什麼辛苦的",
 			typewriter = {
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嘻嘻，艾塞克斯前輩真是認真呢，那我就不打擾你們了~",
 			typewriter = {
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "半人馬打完招呼就離開了",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "那就是傳說中把大家都喊作“前輩”的…",
 			typewriter = {
@@ -203,13 +203,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "港區·重櫻生活區",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -233,8 +233,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "重櫻嗎…換句話說“那傢伙”也在這裡——",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "…果然出現了！",
 			typewriter = {
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "咳、咳咳，重櫻的瑞鶴嗎，妳好",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "（這就是被當作企業前輩“勁敵”的那個——“幸運之鶴”！）",
 			typewriter = {
@@ -323,12 +323,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "嗯？欸？怎麼一直盯著我？我的臉上沾了什麼東西嗎？！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯？欸？怎麼一直盯著我？我的臉上沾了什麼東西嗎？！",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -407,12 +407,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "嗯哼，那我就不打擾啦，拜拜~",
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "嗯哼，那我就不打擾啦，拜拜~",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.5,
 					dur = 1,
 					x = -2250
@@ -438,10 +438,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 107090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "…瑞鶴，一直想要贏過前輩的那個人",
 			typewriter = {
 				speed = 0.05,

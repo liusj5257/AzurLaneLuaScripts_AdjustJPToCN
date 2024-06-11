@@ -1,13 +1,13 @@
 return {
-	id = "JIDIFENGBAO6-1",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO6-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			typewriterTime = 0.05,
+			mode = 1,
 			asideType = 3,
 			sequence = {
 				{
@@ -27,13 +27,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 701030,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "天気がどんどん悪くなってるね……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,10 +57,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "北極点に近づくほど悪くなっているわ",
 			painting = {
 				alpha = 0.3,
@@ -74,10 +74,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 702030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "鏡面海域じゃないはずなのに、気象兵器というやつは本当にどこまでも厄介ね。一体どういう原理なのかしら",
 			painting = {
 				alpha = 0.3,
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほ、北東にオミッターらしき個体が接近中です！",
 			painting = {
 				alpha = 0.3,
@@ -120,10 +120,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雪とジャミングに隠れてもうここまで接近してきてたの？！",
 			painting = {
 				alpha = 0.3,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,10 +147,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "北極点の要塞はもうすぐだ。無理に避けなくてもいい",
 			painting = {
 				alpha = 0.3,
@@ -164,10 +164,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 900266,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900266,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "火力を集中して退けるぞ！",
 			painting = {
 				alpha = 0.3,

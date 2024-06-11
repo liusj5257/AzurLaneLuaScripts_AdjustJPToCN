@@ -15,7 +15,7 @@ slot1 = {
 	}
 }
 
-function slot0.Flag2Filter(slot0, slot1)
+slot0.Flag2Filter = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(uv0) do
@@ -29,11 +29,11 @@ function slot0.Flag2Filter(slot0, slot1)
 	return slot2
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildOfficeLogPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.uilist = UIItemList.New(slot0:findTF("frame/window/sliders/list/content"), slot0:findTF("frame/window/sliders/list/content/tpl"))
 
 	setText(slot0:findTF("frame/window/top/bg/infomation/title"), i18n("guild_log_title"))
@@ -46,7 +46,7 @@ function slot0.OnLoaded(slot0)
 	}
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("frame/window/top/btnBack"), function ()
@@ -59,7 +59,7 @@ function slot0.OnInit(slot0)
 		uv0:Close()
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		uv0:SelectAll()
 	end
 
@@ -78,7 +78,7 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.SelectAll(slot0)
+slot0.SelectAll = function(slot0)
 	slot0.flags = 0
 
 	for slot4, slot5 in pairs(slot0.btns) do
@@ -91,7 +91,7 @@ function slot0.SelectAll(slot0)
 	slot0:Filter()
 end
 
-function slot0.UnSelectFlag(slot0, slot1, slot2)
+slot0.UnSelectFlag = function(slot0, slot1, slot2)
 	setActive(slot2:Find("sel"), false)
 
 	if bit.bxor(slot0.flags, bit.lshift(1, slot1)) == 0 then
@@ -103,8 +103,8 @@ function slot0.UnSelectFlag(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SelectFlag(slot0, slot1, slot2)
-	function slot4()
+slot0.SelectFlag = function(slot0, slot1, slot2)
+	slot4 = function()
 		setActive(uv0:Find("sel"), true)
 		setActive(uv1.btnAll:Find("sel"), false)
 
@@ -124,7 +124,7 @@ function slot0.SelectFlag(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.guild = slot1
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
@@ -134,7 +134,7 @@ function slot0.Show(slot0, slot1)
 	slot0.allFlags = slot0.flags
 end
 
-function slot0.Filter(slot0)
+slot0.Filter = function(slot0)
 	slot0.displays = {}
 	slot3 = slot0:Flag2Filter(slot0.flags)
 
@@ -152,12 +152,12 @@ function slot0.Filter(slot0)
 	slot0.uilist:align(#slot0.displays)
 end
 
-function slot0.Close(slot0)
+slot0.Close = function(slot0)
 	setActive(slot0._tf, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Close()
 end
 

@@ -1,29 +1,29 @@
 slot0 = class("BasePanel")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	assert(slot1)
 
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 
-	function slot0.emit()
+	slot0.emit = function()
 		assert(false, "can not emit event beforce attach to a parent ui.")
 	end
 
 	slot0:init()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 end
 
-function slot0.attach(slot0, slot1)
+slot0.attach = function(slot0, slot1)
 	assert(slot1)
 
 	slot0.exited = false
 	slot0.parent = slot1
 	slot0.contextData = slot1.contextData
 
-	function slot0.emit(slot0, slot1, ...)
+	slot0.emit = function(slot0, slot1, ...)
 		if slot0.parent then
 			slot0.parent:emit(slot1, ...)
 		end
@@ -33,7 +33,7 @@ function slot0.attach(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 end
 
-function slot0.detach(slot0)
+slot0.detach = function(slot0)
 	if not slot0.exited then
 		setActive(slot0._go, false)
 		pg.DelegateInfo.Dispose(slot0)
@@ -45,13 +45,13 @@ function slot0.detach(slot0)
 	end
 end
 
-function slot0.findTF(slot0, slot1, slot2)
+slot0.findTF = function(slot0, slot1, slot2)
 	assert(slot0._tf, "transform should exist")
 
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-function slot0.getTpl(slot0, slot1, slot2)
+slot0.getTpl = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF(slot1, slot2)
 
 	slot3:SetParent(slot0._tf, false)
@@ -60,7 +60,7 @@ function slot0.getTpl(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
 return slot0

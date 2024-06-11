@@ -1,17 +1,17 @@
 return {
-	id = "MAOZIHUODONG4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG4",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 105140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "…太安靜了，SK-2雷達也沒有什麼異常動態…明知敵人就在前面，這麼安靜的戰場真讓人發毛。",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "因為我們現在依然還在安全距離啦~",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "嗚哇…周邊的塞壬艦隊真的像在休眠一樣，就算偵察機直接在上方飛過也毫無反應啊…",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "嘿嘿~如果是這樣的話…就這樣直接用艦載機進行超遠距離攻擊怎麼樣！",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "大黃蜂Good Job！心動不如行動～薩拉妹妹，轟炸機出動！",
 			typewriter = {
 				speed = 0.05,
@@ -101,10 +101,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/bbattle/plane",
 			say = "隨著薩拉托加的一聲令下，一個編隊的轟炸機就啟程向著敵人的方向飛去。",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/bbattle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "就算沒有戰鬥機護航，也平安無事的飛到了休眠的塞壬艦隊上方，然後直接投下了炸彈！",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哼哼哼，得手了！！",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "就在薩拉托加準備歡呼的時候時，要塞的防禦被突然激活了。投擲的炸彈被憑空出現的護盾擋住，轟炸機編隊則被兇猛的防空火力毫不留情的全部擊落了。 ",
 			typewriter = {
 				speed = 0.05,
@@ -169,9 +169,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "欸…什？！麼？！",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "大家注意，前方就要進入塞壬要塞的警戒範圍了哦！",
 			typewriter = {
 				speed = 0.05,

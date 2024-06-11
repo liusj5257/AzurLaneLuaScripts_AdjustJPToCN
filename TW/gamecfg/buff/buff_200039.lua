@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑声望蓄力主炮 失败次数监听",
 	time = 0,
-	color = "yellow",
+	name = "黑声望蓄力主炮 失败次数监听",
+	init_effect = "",
+	id = 200039,
 	picture = "",
 	desc = "",
 	stack = 99,
-	id = 200039,
+	color = "yellow",
 	icon = 200039,
 	last_effect = "",
 	effect_list = {
@@ -65,8 +65,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.15
+				number = -0.15,
+				attr = "injureRatio"
 			}
 		}
 	}

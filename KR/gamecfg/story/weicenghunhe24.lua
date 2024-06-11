@@ -1,20 +1,20 @@
 return {
-	id = "WEICENGHUNHE24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE24",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "hunhe-battle",
 			say = "파나마 요새 동쪽?· 안개 속",
+			dir = 1,
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -27,8 +27,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "일촉즉발의 상황에 나타난 블루길은 거대한 파도에 삼켜진 인트레피드를 구해냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그리고 거대한 파도는 갑자기 나타났던 것처럼 갑자기 사라졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -55,9 +55,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "콜록… 콜록…… 덕분에 살았어.",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,8 +82,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "인트레피드, 괜찮나요?",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "괜찮아. 물을 좀 먹은 것뿐이야… 콜록콜록…",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			say = "정찰 중에 세이렌 함대를 만나서 조금 늦어졌기도 했고… 세이렌의 동향을 보고하려고 했는데, 모두가 이미 교전 중이었더라고!",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "잠시만, 엔진 소리가 들려…",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "또 세이렌의 공격인가 보네요. 상대해주도록 하죠.！",
 			typewriter = {
 				speed = 0.05,
@@ -204,10 +204,10 @@ return {
 			}
 		},
 		{
+			say = "펑---!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑---!",
 			flashN = {
 				color = {
 					1,
@@ -257,9 +257,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "저기~ 다들 무사해? 들리면 대답해줘~ 저기!!!",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "리, 리노?! 왜 거기에 있죠?",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -309,9 +309,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "마블헤드잖아?!!",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -335,9 +335,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "내 말이! 방금 그 152mm 포탄은 무슨 일이야… 하마터면 얼굴에 맞을 뻔했잖아!",
 			dialogShake = {
 				speed = 0.09,
@@ -357,8 +357,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "어라? 이상하네요. 분, 분명히 세이렌이 퇴각하면서 쏜 포탄이겠죠? 에헷~☆",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "에?! 너희가 서쪽에 온 거 아니야?",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "안개 속에서 거대한 파도를 만났어. 하지만 아무리 거대한 파도라고 우리를 요새 서쪽으로 떠밀지는 못할 텐데…",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "아~ 브레머튼, 카사블랑카, 벙커힐! 여기야! 내가 누굴 찾았는지 알아 맞춰봐!。",
 			typewriter = {
 				speed = 0.05,
@@ -435,9 +435,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "서쪽 함대가 전부 여기에?!",
 			dialogShake = {
 				speed = 0.09,
@@ -457,8 +457,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "요, 잠시 못 본 사이에 다들… 잘 지났나 보네. 헤헤.",
 			typewriter = {
 				speed = 0.05,
@@ -473,8 +473,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "갑자기 나타나고 또 갑자기 사라지는 파도 이후에 운하 양쪽에 있던 함대가 만나다니… 자연 현상은 아닌 것 같네요.",
 			typewriter = {
 				speed = 0.05,
@@ -489,8 +489,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "그렇다면 역시… 안개 내부는 연결되어 있다는 걸까요?",
 			typewriter = {
 				speed = 0.05,
@@ -520,8 +520,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "그렇다면 여기는 대체 어디야? 동쪽이야, 아니면 서쪽이야…?",
 			typewriter = {
 				speed = 0.05,
@@ -566,8 +566,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "볼티모어 일행도 안개에 갇혀있을지 몰라… 이 안개 장치를 파괴하기만 하면 다들 돌아올 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -581,11 +581,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "그렇다면 지체하지 말고 출발하자. 어디로 가야 하지? 그래, 적이 가장 많은 곳으로 가자!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

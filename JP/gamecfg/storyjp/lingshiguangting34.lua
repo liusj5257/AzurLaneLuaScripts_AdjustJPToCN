@@ -1,17 +1,17 @@
 return {
-	id = "LINGSHIGUANGTING34",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING34",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？・城のダイニングルーム",
 			side = 2,
 			bgName = "bg_camelot_8",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-richard",
+			say = "？？？・城のダイニングルーム",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -143,12 +143,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_8",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900322,
+			nameColor = "#ffff4d",
 			say = "いつかまたどこかで会おうね、お姉さん♪",
 			typewriter = {
 				speed = 0.05,

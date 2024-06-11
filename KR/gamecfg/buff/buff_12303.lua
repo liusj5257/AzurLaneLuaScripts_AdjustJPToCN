@@ -29,9 +29,9 @@ return {
 	{
 		stack = 10
 	},
-	time = 0,
 	name = "确捷1",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "炮击提高",
 	stack = 5,
@@ -53,8 +53,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 100
+				number = 100,
+				attr = "cannonPower"
 			}
 		}
 	}

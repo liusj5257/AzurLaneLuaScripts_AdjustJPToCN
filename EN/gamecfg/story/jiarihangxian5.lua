@@ -1,15 +1,15 @@
 return {
-	id = "JIARIHANGXIAN5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "doa_boss",
 			say = "Now that the preparations are complete, the long-awaited festival finally begins.",
+			side = 2,
+			dir = 1,
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,8 +98,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600030,
 			dir = 1,
+			actor = 10600030,
 			say = "Heheh, we're up first, it seems! Let's go get 'em!",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10600040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Kasumi! Monica! We're all cheering you on, so do your best~!",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "Oh? The enemy appears to be... a group of super cute girls!",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "Takao, your swimsuit is way too cute!",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10600030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Well, let's get started! Best of luck to you!",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,10 +280,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 312010,
 			say = "Well then... Begin, nya!",
 			effects = {
 				{

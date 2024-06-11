@@ -3,7 +3,7 @@ slot1 = {}
 slot2 = tolua.typeof
 slot3 = tolua.findtype
 
-function typeof(slot0)
+typeof = function(slot0)
 	slot2 = nil
 
 	if uv0(slot0) == "table" then

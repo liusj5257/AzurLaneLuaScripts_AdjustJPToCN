@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 8: Sakura War Dance</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305030,
-			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "So you've come, travellers from afar.",
 			bgm = "nagato-map",
+			actor = 305030,
+			nameColor = "#a9f548",
+			say = "So you've come, travellers from afar.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "It's Ise and Hyuuga this time! Surely that means...",
 			typewriter = {
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 305040,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305040,
+			nameColor = "#a9f548",
 			say = "Very perceptive. You are about to be treated to a traditional Sakura Empire war dance.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Hm? Why are you looking at me with that strange expression...",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Hmmm... You leave me with no choice then. Ay shall demonstrate my greatness as an Oni goddess for which Ay am renowned!",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			nameColor = "#a9f548",
 			say = "How long will you be able to stand before the unleashed power of my true form?!",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,10 +220,10 @@ return {
 			}
 		},
 		{
-			actor = 305030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_tiancheng6",
 			side = 0,
+			bgName = "bg_story_tiancheng6",
+			actor = 305030,
 			dir = 1,
 			hideOther = true,
 			actorName = "Ise&Hyuuga",
@@ -248,14 +248,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_tiancheng6",
 			actor = 900214,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "No way! Since when was Ayame such a powerful character?! She's fighting those two battle maniacs on equal footing?!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "Whew... L-let's all make sure we never make Ayame angry...",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "*huff* *huff*... Sweaty girls intertwining around each other... *huff*",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "MATSURI!",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,8 +344,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "So this is the Sakura Empire's \"war dance\"... Ahaha, I see. We certainly do have some cultural differences.",
 			typewriter = {
@@ -358,15 +358,15 @@ return {
 			}
 		},
 		{
-			actor = 305030,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305030,
+			nameColor = "#a9f548",
 			say = "Not bad at alll.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -410,8 +410,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Aah... Phew... that was exhausting!",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Ay... have returned... from hell...",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "Ay hail from... the Demon Realm...",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -503,9 +503,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900215,
 			dir = 1,
 			blackBg = true,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "I brought a thermos cup. Here, have some tea~",
 			typewriter = {

@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201110,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "level02",
 			dir = 1,
 			say = "연락이 닿았어! 에스키모는 메탈 블러드 구축함 주력과 마주쳐서 현재 전투 중이라고해. 우리의 빠른 지원을 바라고 있어!!",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

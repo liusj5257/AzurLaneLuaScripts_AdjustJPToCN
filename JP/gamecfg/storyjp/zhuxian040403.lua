@@ -1,18 +1,18 @@
 return {
-	id = "ZHUXIAN040403",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "ZHUXIAN040403",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 107060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "流石に翔鶴型のニセモノともなると戦闘力も上がるか…だが…！",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エンタープライズの放った矢に貫かれ、ニセモノの艦船は爆発とともに姿を消した。",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "しかし、今の敵はさっきこちらを襲ってきた攻撃隊と比べて、精度も練度もかなり劣っていると見た",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "この程度の敵なら、よほどの数ならまだしも、同じ程度の数であればアストリアたちもシカゴも遅れを取ることはなかったはず",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "やっぱりこの海域にレッドアクシズの艦隊も展開している、と見るべきか……",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +86,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……！新手か！",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -110,14 +110,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#ff5c5c",
 			say = "まさかユニオンの空母のニセモノにまで出くわすとはね…でも実力なら大したことないわ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -221,13 +221,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_suoluomen_1",
+			dir = 1,
 			say = "破壊された量産艦から立ち昇る炎に包まれ、熱気を帯びた嵐が巻き起きようとする黄昏の海。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_suoluomen_1",
+			dir = 1,
 			say = "ユニオンと重桜の空母がついに対峙する。",
 			effects = {
 				{
@@ -301,11 +301,11 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#ff5c5c",
+			side = 0,
 			bgName = "bg_suoluomen_1",
-			actorName = "瑞鶴",
 			dir = 1,
+			actorName = "瑞鶴",
 			say = "………………",
 			effects = {
 				{
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_suoluomen_1",
+			dir = 1,
 			say = "遠く離れていても感じ取れる強者の視線。一触即発の戦い。",
 			effects = {
 				{
@@ -366,11 +366,11 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#ff5c5c",
+			side = 0,
 			bgName = "bg_suoluomen_1",
-			actorName = "瑞鶴",
 			dir = 1,
+			actorName = "瑞鶴",
 			say = "（あれが…エンタープライズ……例えニセモノでも、こんな強そうな雰囲気をたたえているなんて……！）",
 			effects = {
 				{
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_suoluomen_1",
+			dir = 1,
 			say = "交わす言葉は不要。一目だけで相手のただならぬ気配を察知できた。",
 			effects = {
 				{
@@ -408,9 +408,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_suoluomen_1",
+			dir = 1,
 			say = "お互い、相手に聞こえない声で、自分を戒め、戦闘態勢へ――",
 			effects = {
 				{
@@ -428,8 +428,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エンタープライズ",
+			side = 1,
 			bgName = "bg_suoluomen_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_suoluomen_2",
-			actorName = "瑞鶴",
 			dir = 1,
+			actorName = "瑞鶴",
 			say = "エンタープライズ…相手にとって不足なし！",
 			effects = {
 				{
@@ -466,9 +466,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_suoluomen_2",
+			dir = 1,
 			say = "今、戦いが始まろうとしている。",
 			effects = {
 				{
@@ -486,11 +486,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_suoluomen_2",
-			actorName = "瑞鶴",
 			dir = 1,
+			actorName = "瑞鶴",
 			say = "重桜五航戦、空母瑞鶴――",
 			effects = {
 				{
@@ -508,11 +508,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_suoluomen_2",
-			actorName = "エンタープライズ",
 			dir = 1,
+			actorName = "エンタープライズ",
 			say = "TaskForce61、G16、エンタープライズ――",
 			effects = {
 				{
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_suoluomen_2",
-			actorName = "二人",
 			dir = 1,
+			actorName = "二人",
 			say = "参る！！\n 前進！！",
 			effects = {
 				{
@@ -558,10 +558,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "――！！！！",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――！！！！",
 			effects = {
 				{
 					active = false,
@@ -569,8 +569,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -635,8 +635,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "なに？！",
 			typewriter = {
 				speed = 0.05,
@@ -663,8 +663,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -676,8 +676,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "エンプラ姉！周りの量産艦が突然一斉にこちらに接近してきた！",
 			typewriter = {
 				speed = 0.05,
@@ -722,8 +722,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "落ち着け！攻撃してくるのは味方ではなくセイレーンだ！",
 			typewriter = {
 				speed = 0.05,
@@ -750,8 +750,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -763,8 +763,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "なんだこの分からず屋！エンプラ姉！このままではレッドアクシズとセイレーンを見分けられないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -806,8 +806,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -834,8 +834,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "……分かった！",
 			typewriter = {
 				speed = 0.05,

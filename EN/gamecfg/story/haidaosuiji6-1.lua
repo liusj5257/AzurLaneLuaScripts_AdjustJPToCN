@@ -5,8 +5,8 @@ return {
 	fadein = 1,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "After a long walk through the snaking cave, you eventually find wooden boards and stones with clear signs of handicraft.",
 			typewriter = {
 				speed = 0.05,
@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ayanami",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "It seems this cave was once used for storage.",
 			typewriter = {
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Laffey",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "And there's no fluffy pillows to be found. Sad...",
 			typewriter = {
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:408}",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "What were you expecting? Please use your common sense, Laffey.",
 			typewriter = {
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "A surprising find – you obtained a small quantity of crafting materials!",
 			typewriter = {
 				speed = 0.05,

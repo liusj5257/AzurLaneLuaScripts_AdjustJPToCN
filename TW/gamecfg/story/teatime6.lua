@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME6",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -348,8 +348,8 @@ return {
 		{
 			say = "回到茶會中——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -558,11 +558,11 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
 			blackBg = true,
+			say = "此刻的{namecode:11}……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			say = "【南緯71°西經100°】",
 			blackBg = true,
+			say = "【南緯71°西經100°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,12 +599,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "被冰雪覆蓋的大陸……果然地圖沒錯，這裡就是北方聯合！{namecode:12}，放心吧，姐姐已經來了！",
 			typewriter = {
 				speed = 0.05,

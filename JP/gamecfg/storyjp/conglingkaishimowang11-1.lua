@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
-			say = "見張りの要塞へと続く大通りで、激しい戦闘が繰り広げられている。",
 			bgm = "theme-richelieu",
+			say = "見張りの要塞へと続く大通りで、激しい戦闘が繰り広げられている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "―――",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2,
 					name = "jiulaimu_zhanlie",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "退け―――！！",
 			painting = {
@@ -97,8 +97,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2,
 					name = "jiulaimu_zhanlie",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -115,9 +115,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -134,9 +134,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -153,9 +153,9 @@ return {
 					}
 				},
 				{
-					delay = 1.8,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 1.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "よし。私が魔物に引き付けますから、二人は村人を守りながら避難を！",
 			painting = {
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "……ほかに手はありません。命令に従ってください！",
 			painting = {
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "一方、戦場の向こうでは――",
 			typewriter = {
@@ -307,17 +307,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あそこで戦っているのは王国軍か？",

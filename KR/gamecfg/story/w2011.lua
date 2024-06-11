@@ -1,12 +1,12 @@
 return {
-	id = "W2011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "최소 두 함대가 동시에 활성화를 진행해야 합니다...",
 			typewriter = {
 				speed = 0.05,

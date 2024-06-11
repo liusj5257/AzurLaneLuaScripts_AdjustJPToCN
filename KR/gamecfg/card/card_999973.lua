@@ -5,8 +5,8 @@ return {
 	effect_list = {
 		{
 			{
-				type = "BattleCardPuzzleSkillAddBuff",
 				caster = "Leader",
+				type = "BattleCardPuzzleSkillAddBuff",
 				target_choise = {
 					"TargetSelf"
 				},

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"항만\n\n<size=45>7 온화</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "이른 새벽·지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "이른 새벽·지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "흥, 하, 하지만, 역시 내가 고른게 더 좋다!",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "솔직히 말하자면...... 뭐라고 해야할지 전혀 알 수 없었다. 방금 전부터, 언니가 내게 옷을 갈아입게했고.",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "내 머리 속은 혼란으로 가득했다. 무게감이 없으니 손도 어떻게 둬야 할지 몰랐다.",
 			typewriter = {
 				speed = 0.05,
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이 때 지휘관이 다가왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -256,9 +256,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "지휘관은 이 말만 하고 도이칠란트의 옆으로 돌아갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "어이, 하인. 동생한테 뭐라고 한거야! 반칙할 생각하지마라!",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -376,9 +376,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그런거였구나. 내가 원한건...... 원래 이렇게 간단한 거였어.",
 			typewriter = {
 				speed = 0.05,
@@ -390,9 +390,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "나의 불안, 나의 의혹, 나의 두려움은, 사실 가볍게 건드리기만 하면, 무너뜨릴 수 있었어.",
 			typewriter = {
 				speed = 0.05,
@@ -404,9 +404,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "내가 관심을 받고 있다고, 누군가 나와 친구가 되길 원한다고 누군가 나에게 알려주기만 한다면",
 			typewriter = {
 				speed = 0.05,
@@ -482,9 +482,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "지휘관, 나쁜 심보의 에이잭스, 도이칠란트 언니, 그리고 메탈 블러드의, 함대의 모두들——",
 			typewriter = {
 				speed = 0.05,
@@ -496,9 +496,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이런 중요한 사람들을 지키기 위해 싸우는 것이야 말로, 전투 이외에 모든 것을 가졌다는 것을 보여준다.",
 			typewriter = {
 				speed = 0.05,

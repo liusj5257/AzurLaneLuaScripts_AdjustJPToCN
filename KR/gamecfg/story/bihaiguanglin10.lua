@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
-			bgName = "bg_daofeng_3",
-			nameColor = "#a9f548",
+			bgm = "map-longgong",
 			dir = 1,
 			bgmDelay = 1,
+			soundeffect = "event:/battle/boom2",
+			bgName = "bg_daofeng_3",
+			nameColor = "#a9f548",
 			say = "펑————————!",
-			bgm = "map-longgong",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "거대한 소리와 함께 건물 밖을 둘러싸고 있던 결계가 깨졌다.",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "불가사의한 소리가 끝나자 건물의 빛이 사라지며 맹렬했던 파도가 멈췄다.",
@@ -122,10 +122,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어라? 파도가 정말 멈췄어요. 저 말이 맞나 봐요!",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "흐흥~ 가까이 와서 보니까 되게 이상하게 생긴 무대네.",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			nameColor = "#a9f548",
 			say = "적의 함정 속에 있으니까 함부로 행동하지 않는 게 좋아요, 야마카제...",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "맞아, 너무 가까이 가지 마! 아직 결계의 영향력이 남아있을 수 있어. 어쨌든 내가 먼저 조사해 볼게.",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "에?! 그렇게 위험한 거야? 큰일 날 뻔했다...",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,10 +218,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "카츠라기공이 결계에 조예가 있을 줄은 몰랐어요.",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "무사시 님은 여러 일로 바쁘니까 모든 것을 신경 쓸 수 없거든. 신사와 관련된 일은 대부분 내가 처리하고 있어~",
 			typewriter = {
@@ -253,10 +253,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "오오! 카츠라기공, 정말 대단해요!",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "당연하지, 난 정규 항공모함인걸?",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -298,10 +298,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "하지만 왜 카츠라기공은 유라공처럼 무녀복을 입지 않는 건가요?",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "그건... 윽! 유라는 내 일을 돕는 책임자 거든! 그러니까 무녀복은 유라만 입으면 돼.",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "뭔가 수상한 기운이 느껴지는데...",
 			typewriter = {
@@ -366,9 +366,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
 			blackBg = true,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "더 살펴봐야 할 건 없는 것 같아. 어서 가자. 시합은 아직 끝나지 않았어!",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

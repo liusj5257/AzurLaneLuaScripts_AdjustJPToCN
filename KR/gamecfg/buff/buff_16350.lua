@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16350,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16350,
+	color = "yellow",
 	icon = 16350,
 	last_effect = "",
 	effect_list = {
@@ -50,8 +50,8 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				maxHPRatio = 0.25,
-				countType = 16350
+				countType = 16350,
+				maxHPRatio = 0.25
 			}
 		},
 		{
@@ -61,8 +61,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 16350,
+				target = "TargetSelf",
 				countType = 16350
 			}
 		},

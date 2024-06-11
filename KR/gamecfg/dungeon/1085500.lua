@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-80,
 				20,
@@ -91,9 +91,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 10095002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -106,9 +106,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -121,9 +121,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -148,9 +148,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 10095001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -163,9 +163,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095010,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-15,
 								0,
@@ -174,9 +174,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -201,9 +201,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 10095002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -216,9 +216,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -231,9 +231,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -258,8 +258,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 10095011,
-							reinforceDelay = 7,
 							score = 0,
+							reinforceDelay = 7,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -272,9 +272,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 10095001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -287,9 +287,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -314,9 +314,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 10095002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -329,9 +329,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095103,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -344,9 +344,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095103,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -363,8 +363,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 550310,
+							delay = 0,
 							totalNumber = 3,
 							weaponID = {
 								551060
@@ -402,10 +402,10 @@ return {
 					spawn = {
 						{
 							score = 0,
-							reinforceDelay = 6,
 							monsterTemplateID = 10095500,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 6,
 							corrdinate = {
 								-15,
 								0,
@@ -418,10 +418,10 @@ return {
 						},
 						{
 							score = 0,
-							reinforceDelay = 6,
 							monsterTemplateID = 10095501,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 6,
 							corrdinate = {
 								-15,
 								0,
@@ -436,9 +436,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 10095103,
-							moveCast = true,
-							delay = 3,
 							score = 10,
+							delay = 3,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -451,9 +451,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095103,
-							moveCast = true,
-							delay = 3,
 							score = 10,
+							delay = 3,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -466,9 +466,9 @@ return {
 						},
 						{
 							monsterTemplateID = 10095103,
-							moveCast = true,
-							delay = 3,
 							score = 10,
+							delay = 3,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,

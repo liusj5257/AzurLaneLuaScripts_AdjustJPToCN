@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_84 = {}
 slot1 = slot0.word_template_84
 
-function temp()
+temp = function()
 	uv0["點"] = {
 		["心"] = {
 			["車"] = {
@@ -20,7 +20,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["电"] = {
 		["表"] = {
 			["倒"] = {
@@ -223,7 +223,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["電"] = {
 		["话"] = {
 			this = true
@@ -259,7 +259,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["刁"] = {
 		["近"] = {
 			["平"] = {
@@ -377,7 +377,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["叼"] = {
 		["近"] = {
 			["平"] = {
@@ -403,7 +403,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["貂"] = {
 		["禅"] = {
 			["艳"] = {
@@ -421,7 +421,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["屌"] = {
 		this = {
 			this = true

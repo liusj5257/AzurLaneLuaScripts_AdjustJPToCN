@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "뱀파이어 헌터 셰필드를 따라 고목과 폐허 속을 나아갔다.",
 			bgm = "battle-highseasfleet-reborn",
+			say = "뱀파이어 헌터 셰필드를 따라 고목과 폐허 속을 나아갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "말할 것도 없이 속수무책으로 당하고 말았지요.",
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그것이 바로 제가 여러분에게서 찾은 가능성이고, 돕기로 결정한 이유입니다.",
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "셰필드의 시선을 쫓아가니, 그곳에는 황폐한 폐허만이 서 있었다.",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "먼발치에서 유적을 계속 탐색하고 있자니, 이 웅장한 성벽 터에 나도 모르게 관심이 생겼다.",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "성벽의 대부분은 무너져 내렸지만, 그래도 몇 부분은 여전히 우뚝 솟아 있다.",
 			typewriter = {
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "셰피, 또 잃어버린 모험자를 데리고 온 겁니까?",
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……쓸데없는 말은 삼가주시지요.",
@@ -441,27 +441,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
-			say = "폐허 속 마법으로 지켜지는 입구를 지나 뱀파이어 헌터들의 거점으로 들어갔다.",
 			bgm = "theme-clemenceau",
+			say = "폐허 속 마법으로 지켜지는 입구를 지나 뱀파이어 헌터들의 거점으로 들어갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			say = "눅눅한 지하 공간일 줄로만 알았는데, 의외로 꽤 넓고 쾌적하다.",
 			typewriter = {
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_163",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아까부터 궁금했는데, 여기서 꽤 오래 살았다는건… 보기보다 나이를 꽤 먹은 건가?",
 			painting = {
 				alpha = 0.3,
@@ -534,11 +534,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "후후후, 아무래도 조사가 미흡하셨던 모양이군요. 아니면 왕국에 이쪽 정보가 거의 알려지지 않은 것일 수도 있고요.",
@@ -589,11 +589,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네… 맞습니다.",
@@ -626,11 +626,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "사실 먼 옛날, 흡혈귀와 인간은 평화롭게 공존하고 있었지요.",
@@ -701,11 +701,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그리고 시간이 흘러, 지도 상에는 '옛 왕성의 유적'이라는 이름만이 남았지요.",
@@ -738,11 +738,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "시민, 위병, 하녀, 상인, 장인… 왕성이 함락되기 전까지는 다들 다른 신분이었지만…",
@@ -775,11 +775,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "저희는 맹세했습니다. 저희와 흡혈귀 중 하나가 완전히 사라질 때까지 계속 싸우겠다고…",
@@ -811,11 +811,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "왕성이 이전되는 대혼란 속에서 이 역사는 완전히 상실되고 말았지요…",
 			painting = {
@@ -846,11 +846,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "훗, 마왕에게 그런 힘이 있었다면 저런 장성으로는 막을 수 없었겠지요.",
@@ -900,11 +900,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "수백 년을 살지 못하는 건 '보통' 인간에게 해당되는 말이지요.",
@@ -937,11 +937,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그 신들의 가호 덕분에 지금까지 살 수 있었지요.",
@@ -974,11 +974,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "혼란이 닥치기 시작했을 때 목숨을 잃었더라면 좋았을 텐데…",
@@ -1011,11 +1011,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "왕성을 함락시킨 공로로 배신자 흡혈귀들은 기꺼이 마왕 진영에 가담했지요. 지금은 마왕군 간부까지 오른 걸 생각하면…",
@@ -1089,11 +1089,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…서, 설마 방금 이야기를 듣고 탐색하시려는 겁니까?",
@@ -1126,11 +1126,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그곳은 왕성이 함락된 날부터 언데드의 본거지가 되어, 저희도 쉽게 접근할 수 없습니다.",
@@ -1192,11 +1192,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "일리 있는 말씀입니다. 당신의 강한 운만 있다면 정말 찾을 수 있을지도 모르겠군요.",
@@ -1229,11 +1229,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "오늘은 이미 늦었으니 다들 푹 쉬시길… 내일 아침이 밝는 대로 함께 옛 왕성의 폐허로 '보물을 찾으러' 갑시다.",

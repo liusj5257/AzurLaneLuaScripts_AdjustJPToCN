@@ -1,10 +1,10 @@
 slot0 = class("EducateSiteDetailPanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateSiteDetailUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setActive(slot0._tf, false)
 
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
@@ -41,7 +41,7 @@ function slot0.OnInit(slot0)
 	})
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
 		uv0:onClose()
 	end, SFX_PANEL)
@@ -60,7 +60,7 @@ function slot0.addListener(slot0)
 	slot0.optionIds = {}
 end
 
-function slot0.checkSpecEvent(slot0, slot1, slot2)
+slot0.checkSpecEvent = function(slot0, slot1, slot2)
 	if #getProxy(EducateProxy):GetEventProxy():GetSiteSpecEvents(slot1) > 0 then
 		slot0:emit(EducateMapMediator.ON_SPECIAL_EVENT_TRIGGER, {
 			siteId = slot1,
@@ -72,11 +72,11 @@ function slot0.checkSpecEvent(slot0, slot1, slot2)
 	end
 end
 
-function slot0.showSpecEvent(slot0, slot1, slot2, slot3, slot4)
+slot0.showSpecEvent = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = EducateHelper.GetDialogueShowDrops(slot3)
 	slot7 = EducateHelper.GetCommonShowDrops(slot3)
 
-	function slot8()
+	slot8 = function()
 		if #uv0 > 0 then
 			uv1:emit(EducateBaseUI.EDUCATE_ON_AWARD, {
 				items = uv0,
@@ -99,7 +99,7 @@ function slot0.showSpecEvent(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.showSiteDetailById(slot0, slot1)
+slot0.showSiteDetailById = function(slot0, slot1)
 	if slot0.siteId == slot1 then
 		return
 	end
@@ -112,7 +112,7 @@ function slot0.showSiteDetailById(slot0, slot1)
 	end)
 end
 
-function slot0.addTaskProgress(slot0)
+slot0.addTaskProgress = function(slot0)
 	slot2 = {}
 	slot3 = {}
 	slot4 = {}
@@ -162,7 +162,7 @@ function slot0.addTaskProgress(slot0)
 	end
 end
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	if slot1[2] == -1 then
 		LoadImageSpriteAtlasAsync("ui/educatecommonui_atlas", "res_-1", findTF(slot0, "Image"), true)
 		setText(findTF(slot0, "Text"), i18n("child_random_ops_drop"))
@@ -183,7 +183,7 @@ function slot1(slot0, slot1, slot2)
 	end
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	slot2 = ""
 
 	if slot1[1] == EducateConst.DROP_TYPE_ATTR then
@@ -196,7 +196,7 @@ function slot2(slot0, slot1)
 	setText(findTF(slot0, "Text"), "-" .. slot1[3])
 end
 
-function slot0.updateOptionItem(slot0, slot1, slot2)
+slot0.updateOptionItem = function(slot0, slot1, slot2)
 	GetOrAddComponent(slot2, "CanvasGroup").alpha = 1
 	slot2.name = tostring(slot1 + 1)
 	slot3 = slot0.optionVOs[slot1 + 1]
@@ -269,7 +269,7 @@ function slot0.updateOptionItem(slot0, slot1, slot2)
 	})
 end
 
-function slot0.showDetailPanel(slot0)
+slot0.showDetailPanel = function(slot0)
 	slot0:addTaskProgress()
 	setActive(slot0.windowTF, true)
 	setText(slot0.nameTF, slot0.config.name)
@@ -281,7 +281,7 @@ function slot0.showDetailPanel(slot0)
 	slot0.optionUIList:align(#slot0.optionVOs)
 end
 
-function slot0.showSitePerform(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.showSitePerform = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = EducateHelper.GetDialogueShowDrops(slot4)
 	slot7 = EducateHelper.GetDialogueShowDrops(slot5)
 	slot8 = table.mergeArray(EducateHelper.GetCommonShowDrops(slot4), EducateHelper.GetCommonShowDrops(slot5))
@@ -322,11 +322,11 @@ function slot0.showSitePerform(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.anim:Play("anim_educate_sitedatail_out")
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -352,7 +352,7 @@ function slot0.Show(slot0, slot1)
 	EducateTipHelper.ClearNewTip(EducateTipHelper.NEW_SITE, slot0.siteId)
 end
 
-function slot0.onClose(slot0)
+slot0.onClose = function(slot0)
 	if #slot0.siteQueue > 1 then
 		table.remove(slot0.siteQueue, #slot0.siteQueue)
 		slot0:showSiteDetailById(slot0.siteQueue[#slot0.siteQueue])
@@ -361,7 +361,7 @@ function slot0.onClose(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "命中提高",
 	init_effect = "",
-	color = "red",
+	id = 70800,
+	time = 0,
 	picture = "",
 	desc = "命中提高50%",
 	stack = 1,
-	id = 70800,
+	color = "red",
 	icon = 70800,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 5000
+				number = 5000,
+				attr = "attackRating"
 			}
 		}
 	}

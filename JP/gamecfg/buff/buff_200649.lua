@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023 闪乱联动 地脉机关-绚",
 	time = 0,
+	name = "2023 闪乱联动 地脉机关-绚",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

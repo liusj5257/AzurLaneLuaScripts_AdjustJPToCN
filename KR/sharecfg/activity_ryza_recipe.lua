@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.activity_ryza_recipe = {
 	{
-		display = "채집하기 더 편리하게 개조된 낫. 바람처럼 조용하고 가볍게 풀을 벨 수 있다.",
 		rarity = 3,
+		display = "채집하기 더 편리하게 개조된 낫. 바람처럼 조용하고 가볍게 풀을 벨 수 있다.",
 		name = "사일런트 낫",
 		type = 3,
-		id = 1,
 		item_num = 1,
+		id = 1,
 		icon = "props/ryza_item_4",
 		item_id = {
 			1001,
@@ -26,12 +26,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "개조을 거쳐 예리함과 무게를 꼼꼼히 조절했다. 목재와 장작 채집 시 일반 도끼보다 수월하다.",
 		rarity = 3,
+		display = "개조을 거쳐 예리함과 무게를 꼼꼼히 조절했다. 목재와 장작 채집 시 일반 도끼보다 수월하다.",
 		name = "골든 액스",
 		type = 3,
-		id = 2,
 		item_num = 1,
+		id = 2,
 		icon = "props/ryza_item_3",
 		item_id = {
 			1001,
@@ -52,12 +52,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "밤 로드의 강화 버전. 앞쪽 보옥이 푸른색으로 바뀌어 암석과 수정을 더 효율적으로 파괴할 수 있다.",
 		rarity = 3,
+		display = "밤 로드의 강화 버전. 앞쪽 보옥이 푸른색으로 바뀌어 암석과 수정을 더 효율적으로 파괴할 수 있다.",
 		name = "블루밤 로드",
 		type = 3,
-		id = 3,
 		item_num = 1,
+		id = 3,
 		icon = "props/ryza_item_2",
 		item_id = {
 			1001,
@@ -78,12 +78,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "낚싯대의 강화 버전. 강화를 거쳐 물고기들이 경계심을 풀고 접근한다.",
 		rarity = 3,
+		display = "낚싯대의 강화 버전. 강화를 거쳐 물고기들이 경계심을 풀고 접근한다.",
 		name = "신성한 낚싯대",
 		type = 3,
-		id = 4,
 		item_num = 1,
+		id = 4,
 		icon = "props/ryza_item_1",
 		item_id = {
 			1001,
@@ -105,12 +105,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "강력한 악력과 추력을 지닌 세이렌 기계팔. 강렬한 레이저도 발사할 수 있다——연금술 소재를 채취하는 데 사용하면 좋을 것 같은데?",
 		rarity = 3,
+		display = "강력한 악력과 추력을 지닌 세이렌 기계팔. 강렬한 레이저도 발사할 수 있다——연금술 소재를 채취하는 데 사용하면 좋을 것 같은데?",
 		name = "레이저 커터",
 		type = 3,
-		id = 5,
 		item_num = 1,
+		id = 5,
 		icon = "props/ryza_item_5",
 		item_id = {
 			1001,
@@ -128,12 +128,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[10] = {
-		display = "라이잘린 슈타우트가 사용하는 무기.\n강한 빛을 발하는 지팡이. 아무것도 하지 않아도 눈부신 빛을 유지한다. 그 빛을 받으면 착용자와 주위 사람들까지 마음이 밝아지는 것 같다고 한다.",
 		rarity = 4,
+		display = "라이잘린 슈타우트가 사용하는 무기.\n강한 빛을 발하는 지팡이. 아무것도 하지 않아도 눈부신 빛을 유지한다. 그 빛을 받으면 착용자와 주위 사람들까지 마음이 밝아지는 것 같다고 한다.",
 		name = "스파클 레버리에",
 		type = 1,
-		id = 10,
 		item_num = 1,
+		id = 10,
 		icon = "equips/10360",
 		item_id = {
 			21,
@@ -154,12 +154,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[20] = {
-		display = "클라우디아 발렌츠가 사용하는 무기.\n쏜 화살이 어둠 속에서 별처럼 빛난다고 해서 붙여진 이름이다. 어둠 속에서 이 활로 쏜 화살이 날아오면 간담이 서늘해질 것이다.",
 		rarity = 4,
+		display = "클라우디아 발렌츠가 사용하는 무기.\n쏜 화살이 어둠 속에서 별처럼 빛난다고 해서 붙여진 이름이다. 어둠 속에서 이 활로 쏜 화살이 날아오면 간담이 서늘해질 것이다.",
 		name = "아스트룸 녹스",
 		type = 1,
-		id = 20,
 		item_num = 1,
+		id = 20,
 		icon = "equips/10380",
 		item_id = {
 			21,
@@ -180,12 +180,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[30] = {
-		display = "파트리샤 아벨하임이 사용하는 무기.\n검이 의지를 가지고 스스로 사용자를 선택한다고 한다. 고결한 혼을 지니고 있지 않으면, 아무리 뛰어난 실력자라도 다룰 수 없다.",
 		rarity = 4,
+		display = "파트리샤 아벨하임이 사용하는 무기.\n검이 의지를 가지고 스스로 사용자를 선택한다고 한다. 고결한 혼을 지니고 있지 않으면, 아무리 뛰어난 실력자라도 다룰 수 없다.",
 		name = "에델 슈발트",
 		type = 1,
-		id = 30,
 		item_num = 1,
+		id = 30,
 		icon = "equips/10400",
 		item_id = {
 			21,
@@ -207,12 +207,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[40] = {
-		display = "릴라 디자이어스가 사용하는 무기.\n일찍이 오렌족이 사용하던 전통 무기 중 하나. 장비 시 주위 자연에 깃든 정령들이 힘을 준다고 한다.",
 		rarity = 4,
+		display = "릴라 디자이어스가 사용하는 무기.\n일찍이 오렌족이 사용하던 전통 무기 중 하나. 장비 시 주위 자연에 깃든 정령들이 힘을 준다고 한다.",
 		name = "오렌 헬딘",
 		type = 1,
-		id = 40,
 		item_num = 1,
+		id = 40,
 		icon = "equips/10420",
 		item_id = {
 			21,
@@ -236,12 +236,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[50] = {
-		display = "세리 글로스가 사용하는 무기.\n”꽃의 현자”라 불렸던 인물이 착용했다는 팔찌. 착용자가 길을 걷기만 해도 주위의 꽃이 만개하기 때문에”꽃의 현자”의 주변은 언제나 꽃밭이었다고 한다.",
 		rarity = 4,
+		display = "세리 글로스가 사용하는 무기.\n”꽃의 현자”라 불렸던 인물이 착용했다는 팔찌. 착용자가 길을 걷기만 해도 주위의 꽃이 만개하기 때문에”꽃의 현자”의 주변은 언제나 꽃밭이었다고 한다.",
 		name = "그랜 플로라시온",
 		type = 1,
-		id = 50,
 		item_num = 1,
+		id = 50,
 		icon = "equips/10440",
 		item_id = {
 			21,
@@ -263,12 +263,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[60] = {
-		display = "칼라 이데아스가 사용하는 무기.\n괴상한 모양의 전투용 망치. 평평한 부분 반대쪽의 조형물은 순전히 멋을 내기 위한 것이다.",
 		rarity = 4,
+		display = "칼라 이데아스가 사용하는 무기.\n괴상한 모양의 전투용 망치. 평평한 부분 반대쪽의 조형물은 순전히 멋을 내기 위한 것이다.",
 		name = "엘더 릴리",
 		type = 1,
-		id = 60,
 		item_num = 1,
+		id = 60,
 		icon = "equips/10460",
 		item_id = {
 			21,
@@ -292,12 +292,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[70] = {
-		display = "강력한 위력의 화속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		rarity = 4,
+		display = "강력한 위력의 화속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		name = "프람",
 		type = 1,
-		id = 70,
 		item_num = 1,
+		id = 70,
 		icon = "equips/89420",
 		item_id = {
 			3,
@@ -322,12 +322,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[80] = {
-		display = "강력한 위력의 빙속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		rarity = 4,
+		display = "강력한 위력의 빙속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		name = "레헤른",
 		type = 1,
-		id = 80,
 		item_num = 1,
+		id = 80,
 		icon = "equips/89440",
 		item_id = {
 			3,
@@ -352,12 +352,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[90] = {
-		display = "강력한 위력의 뇌속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		rarity = 4,
+		display = "강력한 위력의 뇌속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		name = "플래직",
 		type = 1,
-		id = 90,
 		item_num = 1,
+		id = 90,
 		icon = "equips/89460",
 		item_id = {
 			3,
@@ -382,12 +382,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[100] = {
-		display = "강력한 위력의 풍속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		rarity = 4,
+		display = "강력한 위력의 풍속성 폭탄. 사용 시 적에게 대미지를 입힐 수 있다.",
 		name = "루프트",
 		type = 1,
-		id = 100,
 		item_num = 1,
+		id = 100,
 		icon = "equips/89480",
 		item_id = {
 			3,
@@ -411,12 +411,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[110] = {
-		display = "세게 두드리면 대지도 심하게 흔들리게 하는 망치. 땅이 흔들릴 때 공기의 진동과 하늘에서 울리는 소리가 창세의 모습을 연상시킨다고 해서 붙여진 이름이다.",
 		rarity = 4,
+		display = "세게 두드리면 대지도 심하게 흔들리게 하는 망치. 땅이 흔들릴 때 공기의 진동과 하늘에서 울리는 소리가 창세의 모습을 연상시킨다고 해서 붙여진 이름이다.",
 		name = "창세의 망치",
 		type = 1,
-		id = 110,
 		item_num = 1,
+		id = 110,
 		icon = "equips/89580",
 		item_id = {
 			3,
@@ -442,12 +442,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[120] = {
-		display = "총신이 필요 없는 탄환. 표적을 향해 발사하면 탄알이 상공에서 선회하다가 곧장 전진하여 적중하는 순간 폭발한다.",
 		rarity = 4,
+		display = "총신이 필요 없는 탄환. 표적을 향해 발사하면 탄알이 상공에서 선회하다가 곧장 전진하여 적중하는 순간 폭발한다.",
 		name = "버블 탄환",
 		type = 1,
-		id = 120,
 		item_num = 1,
+		id = 120,
 		icon = "equips/89600",
 		item_id = {
 			3,
@@ -476,12 +476,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[130] = {
-		display = "사용 후 적의 방어력을 떨어뜨릴 수 있는 강력한 폭탄.",
 		rarity = 4,
+		display = "사용 후 적의 방어력을 떨어뜨릴 수 있는 강력한 폭탄.",
 		name = "N/A",
 		type = 1,
-		id = 130,
 		item_num = 1,
+		id = 130,
 		icon = "equips/89560",
 		item_id = {
 			3,
@@ -507,12 +507,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[140] = {
-		display = "강력한 위력의 아이템. 사용 시 적의 속성을 낮출 수 있지만, 사용자의 체력이 차감된다.",
 		rarity = 4,
+		display = "강력한 위력의 아이템. 사용 시 적의 속성을 낮출 수 있지만, 사용자의 체력이 차감된다.",
 		name = "아포칼립스",
 		type = 1,
-		id = 140,
 		item_num = 1,
+		id = 140,
 		icon = "equips/89540",
 		item_id = {
 			3,
@@ -546,12 +546,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[150] = {
-		display = "엷고 신비로운 색깔 천으로 된 우의. 펼치면 모든 공격으로부터 몸을 보호할 수 있다.",
 		rarity = 4,
+		display = "엷고 신비로운 색깔 천으로 된 우의. 펼치면 모든 공격으로부터 몸을 보호할 수 있다.",
 		name = "신비한 우의",
 		type = 1,
-		id = 150,
 		item_num = 1,
+		id = 150,
 		icon = "equips/89520",
 		item_id = {
 			3,
@@ -583,12 +583,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[160] = {
-		display = "온갖 병과 상처를 치료해, 죽은 사람조차 소생시킬 정도라는 초강력 약. 연금술사 중에서도 만들 수 있는 사람은 극히 소수이며, 연금술의 정점 중 하나라 불린다.",
 		rarity = 4,
+		display = "온갖 병과 상처를 치료해, 죽은 사람조차 소생시킬 정도라는 초강력 약. 연금술사 중에서도 만들 수 있는 사람은 극히 소수이며, 연금술의 정점 중 하나라 불린다.",
 		name = "엘릭시르제",
 		type = 1,
-		id = 160,
 		item_num = 1,
+		id = 160,
 		icon = "equips/89500",
 		item_id = {
 			3,
@@ -618,12 +618,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[170] = {
-		display = "생각이 음의 형태로 표현되는 하모니카. 듣는 이에게 다양한 힘을 부여할 수 있다.",
 		rarity = 4,
+		display = "생각이 음의 형태로 표현되는 하모니카. 듣는 이에게 다양한 힘을 부여할 수 있다.",
 		name = "에너지아니카",
 		type = 1,
-		id = 170,
 		item_num = 1,
+		id = 170,
 		icon = "equips/89620",
 		item_id = {
 			3,
@@ -643,12 +643,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[180] = {
-		display = "아틀리에 스타일 장비스킨 1가지 랜덤 획득 가능",
 		rarity = 4,
+		display = "아틀리에 스타일 장비스킨 1가지 랜덤 획득 가능",
 		name = "장비스킨 상자(연금공방)",
 		type = 2,
-		id = 180,
 		item_num = 10,
+		id = 180,
 		icon = "props/appearanceboxlaisha",
 		item_id = {
 			2,
@@ -674,12 +674,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[190] = {
-		display = "연금술에 의해 네 개의 열쇠가 융합되어 형성된 도어 카드와 같은 장치. 코어 구역 대문의 홈과 완벽하게 맞아드는 것 같다.",
 		rarity = 3,
+		display = "연금술에 의해 네 개의 열쇠가 융합되어 형성된 도어 카드와 같은 장치. 코어 구역 대문의 홈과 완벽하게 맞아드는 것 같다.",
 		name = "유적 열쇠·핵심 구역",
 		type = 2,
-		id = 190,
 		item_num = 1,
+		id = 190,
 		icon = "props/ryza_item_31",
 		item_id = {
 			1001,
@@ -694,12 +694,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[200] = {
-		display = "유적에서 회수한 소재로 제작한 정교한 조형물. 놀라움으로 가득한 비밀 유적 군도에서의 모험——「연금술사와 비밀 유적 군도」 이벤트 기념\n「……음, 이것도 나무통이네!」",
 		rarity = 4,
+		display = "유적에서 회수한 소재로 제작한 정교한 조형물. 놀라움으로 가득한 비밀 유적 군도에서의 모험——「연금술사와 비밀 유적 군도」 이벤트 기념\n「……음, 이것도 나무통이네!」",
 		name = "유적 모험의 증명",
 		type = 2,
-		id = 200,
 		item_num = 1,
+		id = 200,
 		icon = "furnitureicon/chuanmo/lianjinxunzhangicon",
 		item_id = {
 			5,
@@ -727,12 +727,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[210] = {
-		display = "작은 병에 연금술로 인공 제작한 만든 요정의 힘이 봉인되어 있다. 모든 속성에 적응할 수 있지만 사용하기 쉽지 않다.",
 		rarity = 2,
+		display = "작은 병에 연금술로 인공 제작한 만든 요정의 힘이 봉인되어 있다. 모든 속성에 적응할 수 있지만 사용하기 쉽지 않다.",
 		name = "스피릿 보틀",
 		type = 4,
-		id = 210,
 		item_num = -1,
+		id = 210,
 		icon = "props/ryza_item_21",
 		item_id = {
 			1001,
@@ -745,12 +745,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[220] = {
-		display = "연금술 조합에 자주 나타나는 기본 시약. 붉은색 액체이며 화속성 소재와 궁합이 좋다.",
 		rarity = 3,
+		display = "연금술 조합에 자주 나타나는 기본 시약. 붉은색 액체이며 화속성 소재와 궁합이 좋다.",
 		name = "중화제 적",
 		type = 4,
-		id = 220,
 		item_num = -1,
+		id = 220,
 		icon = "props/ryza_item_22",
 		item_id = {
 			1001,
@@ -764,12 +764,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[230] = {
-		display = "연금술 조합에 자주 나타나는 기본 시약. 푸른색 액체이며 빙속성 소재와 궁합이 좋다.",
 		rarity = 3,
+		display = "연금술 조합에 자주 나타나는 기본 시약. 푸른색 액체이며 빙속성 소재와 궁합이 좋다.",
 		name = "중화제 청",
 		type = 4,
-		id = 230,
 		item_num = -1,
+		id = 230,
 		icon = "props/ryza_item_23",
 		item_id = {
 			1001,
@@ -783,12 +783,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[240] = {
-		display = "연금술 조합에 자주 나타나는 기본 시약. 노란색 액체이며 뇌속성 소재와 궁합이 좋다.",
 		rarity = 3,
+		display = "연금술 조합에 자주 나타나는 기본 시약. 노란색 액체이며 뇌속성 소재와 궁합이 좋다.",
 		name = "중화제 황",
 		type = 4,
-		id = 240,
 		item_num = -1,
+		id = 240,
 		icon = "props/ryza_item_25",
 		item_id = {
 			1001,
@@ -802,12 +802,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[250] = {
-		display = "연금술 조합에 자주 나타나는 기본 시약. 초록색 액체이며 풍속성 소재와 궁합이 좋다.",
 		rarity = 3,
+		display = "연금술 조합에 자주 나타나는 기본 시약. 초록색 액체이며 풍속성 소재와 궁합이 좋다.",
 		name = "중화제 녹",
 		type = 4,
-		id = 250,
 		item_num = -1,
+		id = 250,
 		icon = "props/ryza_item_24",
 		item_id = {
 			1001,
@@ -821,12 +821,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[260] = {
-		display = "네 가지 엘리먼트 코어로 만들어진 최고 수준의 소재 중 하나. 조합을 실시할 때 필요한 속성 적성이 뛰어나 고도의 조합 시 유용하다.",
 		rarity = 4,
+		display = "네 가지 엘리먼트 코어로 만들어진 최고 수준의 소재 중 하나. 조합을 실시할 때 필요한 속성 적성이 뛰어나 고도의 조합 시 유용하다.",
 		name = "크리스털 엘리먼트",
 		type = 4,
-		id = 260,
 		item_num = -1,
+		id = 260,
 		icon = "props/ryza_item_26",
 		item_id = {
 			1001,
@@ -841,12 +841,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[270] = {
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 포격, 항공, 뇌장 속성 증가 효과 획득",
 		rarity = 4,
+		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 포격, 항공, 뇌장 속성 증가 효과 획득",
 		name = "공격력 향상 코어",
 		type = 2,
-		id = 270,
 		item_num = 2,
+		id = 270,
 		icon = "props/ryza_item_34",
 		item_id = {
 			1001,
@@ -865,12 +865,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[280] = {
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 대미지 감소 효과 획득",
 		rarity = 4,
+		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 대미지 감소 효과 획득",
 		name = "방어력 향상 코어",
 		type = 2,
-		id = 280,
 		item_num = 3,
+		id = 280,
 		icon = "props/ryza_item_35",
 		item_id = {
 			1001,
@@ -889,12 +889,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[290] = {
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 내구도 회복 효과 획득",
 		rarity = 4,
+		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 내구도 회복 효과 획득",
 		name = "자동 회복 코어",
 		type = 2,
-		id = 290,
 		item_num = 3,
+		id = 290,
 		icon = "props/ryza_item_36",
 		item_id = {
 			1001,
@@ -913,12 +913,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[300] = {
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 함선의 내구도가 20% 이하일 경우 회복 효과 획득",
 		rarity = 4,
+		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 함선의 내구도가 20% 이하일 경우 회복 효과 획득",
 		name = "긴급 회복 코어",
 		type = 2,
-		id = 300,
 		item_num = 3,
+		id = 300,
 		icon = "props/ryza_item_37",
 		item_id = {
 			1001,
@@ -937,12 +937,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[310] = {
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 공격 탄막 지원 효과 획득",
 		rarity = 4,
+		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 공격 탄막 지원 효과 획득",
 		name = "화력 지원 코어",
 		type = 2,
-		id = 310,
 		item_num = 3,
+		id = 310,
 		icon = "props/ryza_item_38",
 		item_id = {
 			1001,
@@ -961,12 +961,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[320] = {
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 부상 탄막 지원 효과 획득",
 		rarity = 4,
+		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 부상 탄막 지원 효과 획득",
 		name = "부상 지원 코어",
 		type = 2,
-		id = 320,
 		item_num = 3,
+		id = 320,
 		icon = "props/ryza_item_39",
 		item_id = {
 			1001,
@@ -985,12 +985,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[330] = {
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 경험치 상승 효과 획득",
 		rarity = 4,
+		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 경험치 상승 효과 획득",
 		name = "경험치 향상 코어",
 		type = 2,
-		id = 330,
 		item_num = 3,
+		id = 330,
 		icon = "props/ryza_item_40",
 		item_id = {
 			1001,
@@ -1009,12 +1009,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[340] = {
-		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 호감도 상승 효과 획득",
 		rarity = 4,
+		display = "[연금술사와 유적 군도] 제어 센터에서 사용 가능. 사용 후, 이벤트 해역에서 호감도 상승 효과 획득",
 		name = "호감도 향상 코어",
 		type = 2,
-		id = 340,
 		item_num = 1,
+		id = 340,
 		icon = "props/ryza_item_41",
 		item_id = {
 			1001,
@@ -1033,12 +1033,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[350] = {
-		display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
 		rarity = 3,
+		display = "특수 장비 강화석, 주로 특수 장비의 제작, 강화, 돌파에 사용된다.",
 		name = "특수 장비 강화석T2",
 		type = 2,
-		id = 350,
 		item_num = 100,
+		id = 350,
 		icon = "props/15016",
 		item_id = {
 			2,

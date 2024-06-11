@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "对后排增伤",
 	init_effect = "",
-	color = "red",
+	id = 59130,
+	time = 0,
 	picture = "",
 	desc = "对后排伤害提高50%",
 	stack = 1,
-	id = 59130,
+	color = "red",
 	icon = 59130,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_4",
-				number = 0.2
+				number = 0.2,
+				attr = "DMG_TAG_EHC_T_4"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_5",
-				number = 0.2
+				number = 0.2,
+				attr = "DMG_TAG_EHC_T_5"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_6",
-				number = 0.2
+				number = 0.2,
+				attr = "DMG_TAG_EHC_T_6"
 			}
 		},
 		{
@@ -53,8 +53,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_7",
-				number = 0.2
+				number = 0.2,
+				attr = "DMG_TAG_EHC_T_7"
 			}
 		},
 		{
@@ -63,8 +63,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_10",
-				number = 0.2
+				number = 0.2,
+				attr = "DMG_TAG_EHC_T_10"
 			}
 		},
 		{
@@ -73,8 +73,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_12",
-				number = 0.2
+				number = 0.2,
+				attr = "DMG_TAG_EHC_T_12"
 			}
 		},
 		{
@@ -83,8 +83,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_13",
-				number = 0.2
+				number = 0.2,
+				attr = "DMG_TAG_EHC_T_13"
 			}
 		},
 		{
@@ -93,8 +93,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_21",
-				number = 0.2
+				number = 0.2,
+				attr = "DMG_TAG_EHC_T_21"
 			}
 		}
 	}

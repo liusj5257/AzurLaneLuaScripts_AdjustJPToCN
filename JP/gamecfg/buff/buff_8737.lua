@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "信浓活动梦境力量支援弹幕——BUFF效果2",
 	time = 30,
-	color = "blue",
+	name = "信浓活动梦境力量支援弹幕——BUFF效果2",
+	init_effect = "",
+	id = 8737,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8737,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8734,
-				target = "TargetSelf",
 				time = 20,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

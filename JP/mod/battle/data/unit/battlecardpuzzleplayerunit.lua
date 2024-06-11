@@ -11,11 +11,11 @@ slot0.Battle.BattleCardPuzzlePlayerUnit = class("BattleCardPuzzlePlayerUnit", sl
 slot0.Battle.BattleCardPuzzlePlayerUnit.__name = "BattleCardPuzzlePlayerUnit"
 slot9 = slot0.Battle.BattleCardPuzzlePlayerUnit
 
-function slot9.Ctor(slot0, slot1, slot2)
+slot9.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 end
 
-function slot9.UpdateHP(slot0, slot1, slot2)
+slot9.UpdateHP = function(slot0, slot1, slot2)
 	if not slot0:IsAlive() then
 		return
 	end
@@ -101,12 +101,12 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 	return slot1
 end
 
-function slot9.UpdateHPAction(slot0, slot1)
+slot9.UpdateHPAction = function(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_COMMON_HP, slot1))
 	uv2.super.UpdateHPAction(slot0, slot1)
 end
 
-function slot9.SetTemplate(slot0, slot1, slot2, slot3)
+slot9.SetTemplate = function(slot0, slot1, slot2, slot3)
 	slot0._tmpID = slot1
 	slot0._tmpData = Clone(uv0.GetPuzzleShipDataTemplate(slot0._tmpID))
 	slot0._tmpData.scale = 100
@@ -131,47 +131,47 @@ function slot9.SetTemplate(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot9.GetTemplate(slot0)
+slot9.GetTemplate = function(slot0)
 	return slot0._tmpData
 end
 
-function slot9.InitCurrentHP(slot0)
+slot9.InitCurrentHP = function(slot0)
 end
 
-function slot9.InitFleetCurrentHP(slot0, slot1)
+slot9.InitFleetCurrentHP = function(slot0, slot1)
 	slot0:TriggerBuff(uv0.BuffEffectType.ON_HP_RATIO_UPDATE, {})
 end
 
-function slot9.SetCurrentHP(slot0, slot1)
+slot9.SetCurrentHP = function(slot0, slot1)
 end
 
-function slot9.GetCurrentHP(slot0)
+slot9.GetCurrentHP = function(slot0)
 	return slot0._fleetCardPuzzleComponent:GetCurrentCommonHP()
 end
 
-function slot9.GetMaxHP(slot0)
+slot9.GetMaxHP = function(slot0)
 	return slot0._fleetCardPuzzleComponent:GetTotalCommonHP()
 end
 
-function slot9.GetHP(slot0)
+slot9.GetHP = function(slot0)
 	return slot0:GetCurrentHP(), slot0:GetMaxHP()
 end
 
-function slot9.GetHPRate(slot0)
+slot9.GetHPRate = function(slot0)
 	return slot0:GetCurrentHP() / slot0:GetMaxHP()
 end
 
-function slot9.SetFleetVO(slot0, slot1)
+slot9.SetFleetVO = function(slot0, slot1)
 	uv0.super.SetFleetVO(slot0, slot1)
 
 	slot0._fleetCardPuzzleComponent = slot1:GetCardPuzzleComponent()
 end
 
-function slot9.LeaderSetting(slot0)
+slot9.LeaderSetting = function(slot0)
 	slot0._warningValue = 1
 end
 
-function slot9.SetMainFleetUnit(slot0, slot1)
+slot9.SetMainFleetUnit = function(slot0, slot1)
 	slot0._isMainFleetUnit = true
 
 	slot0:SetMainUnitStatic(true)
@@ -179,10 +179,10 @@ function slot9.SetMainFleetUnit(slot0, slot1)
 	slot0._mainUnitWarningValue = 1
 end
 
-function slot9.CheckWeaponInitial(slot0)
+slot9.CheckWeaponInitial = function(slot0)
 end
 
-function slot9.setWeapon(slot0)
+slot9.setWeapon = function(slot0)
 	for slot5, slot6 in ipairs(slot0._tmpData.default_equip) do
 		if slot6 ~= 0 then
 			for slot11, slot12 in ipairs(uv0.GetWeaponDataFromID(slot6)) do

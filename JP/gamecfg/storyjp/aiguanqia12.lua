@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA12",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA12",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301050,
@@ -53,8 +53,8 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "キズナアイ",
 			dir = 1,
+			actorName = "キズナアイ",
 			say = "みんなー、なんか見つけたよー！えーっと、これは…何かのスイッチかな？",
 			typewriter = {
 				speed = 0.05,
@@ -96,10 +96,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/ui/boat_drag",
 			say = "ポチッ",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/boat_drag",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "あわわ！間違えて押しちゃった！？",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 201210,
 			dir = 1,
+			hideOther = true,
 			actorName = "みんな",
 			say = "……………",
 			subActors = {
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "（爆発……は起きなかった）",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "や、やったー！これで奥へ進めるね！",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 301120,
 			dir = 1,
+			hideOther = true,
 			actorName = "全员",
 			say = "ジトーーーーー",
 			subActors = {
@@ -287,8 +287,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "み、みんなごめんってば～！許して～！",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

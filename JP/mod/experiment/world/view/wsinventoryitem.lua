@@ -1,13 +1,13 @@
 slot0 = class("WSInventoryItem")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.bg = findTF(slot1, "bg")
 	slot0.countTF = findTF(slot1, "bg/icon_bg/count")
 	slot0.nameTF = findTF(slot1, "bg/name")
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.itemVO = slot1
 
 	updateWorldItem(rtf(slot0.bg), slot1)
@@ -18,10 +18,10 @@ function slot0.update(slot0, slot1)
 	setText(slot0.nameTF, shortenString(getText(findTF(slot0.bg, "name")), 5))
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

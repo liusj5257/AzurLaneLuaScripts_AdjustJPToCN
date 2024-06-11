@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 800361,
+	time = 0,
 	picture = "",
 	desc = "提高雷击属性",
 	stack = 1,
-	id = 800361,
+	color = "red",
 	icon = 800360,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 1000
+				number = 1000,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 1000
+				number = 1000,
+				attr = "antiAirPower"
 			}
 		}
 	}

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIONGYINGDEXUSHIGE32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIONGYINGDEXUSHIGE32",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "異常鏡面海域·水下",
+			bgName = "bg_underwater",
 			bgm = "battle-roma-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "異常鏡面海域·水下",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,10 +45,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "咚——咚————",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "咚——咚————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,17 +322,17 @@ return {
 			nameColor = "#A9F548FF",
 			say = "呼~救援結束，羅馬大人已經安全進入救援艇。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -383,10 +383,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "咚——————",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "咚——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,10 +474,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "咚——————",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "咚——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,21 +587,21 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "伴隨著海面上的大劇場、亦或是海面下巨型裝置的崩壞，所有幽靈船與幽靈雄鷹都在轉瞬間失去了蹤跡。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -668,9 +668,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我這是…………",
 			painting = {
 				alpha = 0.3,
@@ -685,9 +685,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我好像做了一場漫長的夢…………",
 			painting = {
 				alpha = 0.3,
@@ -750,9 +750,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這個是，似乎被塞壬換掉的亞歷山大圖書館地磚仿品……",
 			painting = {
 				alpha = 0.3,
@@ -767,9 +767,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "果然與此異常事態有關嗎…",
 			painting = {
 				alpha = 0.3,
@@ -800,9 +800,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳帶來的那些東西是……？",
 			painting = {
 				alpha = 0.3,
@@ -849,9 +849,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……聽起來還真是個精彩的故事。",
 			painting = {
 				alpha = 0.3,
@@ -962,9 +962,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸……？",
 			painting = {
 				alpha = 0.3,
@@ -1011,10 +1011,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "咔嚓——————",
 			soundeffect = "event:/ui/kuaimen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "咔嚓——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1025,12 +1025,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾弗雷多·奧里亞尼",
+			side = 2,
 			bgName = "bg_white",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘿嘿嘿，阿爾弗雷多隊，任務圓滿完成，該回家了！",
 			flashout = {
 				dur = 0.5,

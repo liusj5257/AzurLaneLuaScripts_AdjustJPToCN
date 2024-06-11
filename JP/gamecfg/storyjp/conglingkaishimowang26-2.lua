@@ -26,17 +26,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "くっ…私は勇者…こんな所で倒れるわけには…",
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_156",
 			nameColor = "#A9F548FF",
 			say = "「システム：【鋼鉄の加護 SSS】及び【光明の加護SSS】、有効化」",
@@ -447,11 +447,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "魔王",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main2",
 			say = "…メガフレイムドラゴンを倒したのは…まぐれではなかったというの！？",
@@ -496,11 +496,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "魔王",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "勇者パーティーの中で最強なのはあなた…指揮官ですわ！",
@@ -514,8 +514,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "――……",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "――……",
 			typewriter = {
@@ -565,11 +565,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "魔王",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "待って、話し合いましょう…？",
@@ -602,11 +602,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "魔王",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "もう、近づかないで————！",

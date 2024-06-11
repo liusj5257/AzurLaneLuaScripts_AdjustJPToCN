@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_368 = {}
 slot1 = slot0.word_template_368
 
-function temp()
+temp = function()
 	uv0["再"] = {
 		["奸"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遗"] = {
 		["精"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["挨"] = {
 		["球"] = {
 			this = true
@@ -36,7 +36,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["渣"] = {
 		["波"] = {
 			["波"] = {

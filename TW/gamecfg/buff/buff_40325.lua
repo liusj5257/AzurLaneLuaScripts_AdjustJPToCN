@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "指挥喵触发特殊弹幕",
 	time = 0,
-	color = "yellow",
+	name = "指挥喵触发特殊弹幕",
+	init_effect = "",
+	id = 40325,
 	picture = "",
 	desc = "该入口提供战外挂载到战内",
 	stack = 1,
-	id = 40325,
+	color = "yellow",
 	icon = 40325,
 	last_effect = "",
 	effect_list = {

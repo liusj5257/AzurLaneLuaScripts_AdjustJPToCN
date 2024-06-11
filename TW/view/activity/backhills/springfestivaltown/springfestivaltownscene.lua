@@ -1,10 +1,10 @@
 slot0 = class("SpringFestivalTownScene", import("..TemplateMV.BackHillTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SpringFestivalTownUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return "story-china"
 end
 
@@ -15,7 +15,7 @@ slot0.edge2area = {
 	["4_4"] = "_front"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.top = slot0:findTF("top")
 	slot0._closeBtn = slot0:findTF("top/return_btn")
 	slot0._homeBtn = slot0:findTF("top/return_main_btn")
@@ -59,7 +59,7 @@ function slot0.init(slot0)
 	end), Color(0, 0, 0, 0), Color(1, 1, 0, 0), 1.5):setLoopPingPong(-1)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = getProxy(MiniGameProxy)
 
 	onButton(slot0, slot0._closeBtn, function ()
@@ -122,7 +122,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1, slot2 = nil
 
 	setActive(slot0._upper:Find("danianshou/tip"), getProxy(ActivityProxy):getActivityById(ActivityConst.BEAT_MONSTER_NIAN_2020) and slot2:readyToAchieve())
@@ -135,15 +135,15 @@ function slot0.UpdateView(slot0)
 	slot0:UpdateDieDieleCnt(slot5)
 end
 
-function slot0.UpdateDieDieleCnt(slot0, slot1)
+slot0.UpdateDieDieleCnt = function(slot0, slot1)
 	slot0.usableTxt.text = "X" .. slot1.count
 	slot0.diedieleTxt.text = slot1.usedtime .. "/" .. slot1:getConfig("reward_need")
 end
 
-function slot0.TryPlayStory(slot0)
+slot0.TryPlayStory = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.effectReq:Stop()
 
 	slot0.mapeffect = nil

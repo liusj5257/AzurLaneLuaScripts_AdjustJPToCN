@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-control",
 			say = "鏡面海域が作った偽物を退治し、ホロライブとアズールレーンのメンバーたちはその後、無事に合流した。",
+			side = 2,
+			dir = 1,
+			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "回収した物資をレジスタンスのアジトに運び、みんなはそのままアジトで一晩過ごすことにした。",
 			typewriter = {
 				speed = 0.05,
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			say = "ホロライブレジスタンス基地にて",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
+			say = "ホロライブレジスタンス基地にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			nameColor = "#a9f548",
 			say = "偽物のあくあが倒された瞬間に光となって消えた？",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "これって…「ホロサーバー」の「テレポートコマンド」じゃない？",
 			typewriter = {
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
-			bgName = "bg_story_holosaba1",
 			side = 2,
+			bgName = "bg_story_holosaba1",
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリっち？",
 			say = "ちっ、やっかいね……テスっちがこの「ホロサーバー」の機能を掌握してんじゃないの？",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "大丈夫よ！戦うと聞いて、あやめちゃんとシオンは最初は嫌そうだったけど、戦ってみたらやる気になってたし！",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			nameColor = "#a9f548",
 			say = "あ、あれは敵だもの！敵なら全力で倒すのは当然でしょ！",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "そ、そうだよ！あくあちゃんも結構はしゃいでたから、別にいいじゃん！",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "エモい卍組の友情だよなー",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "セイレーンとの戦いは、あなた達のこの世界では日常なの？",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "あははは、つまり敵をどんどん倒して、セイレーンの陰謀を挫けばいいってことよ！",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -426,12 +426,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "というわけで、明日から頑張るぞ！みんな、今日は早く休もう！",
 			typewriter = {
 				speed = 0.05,
@@ -443,8 +443,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

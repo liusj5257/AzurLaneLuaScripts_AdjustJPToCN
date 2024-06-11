@@ -2,8 +2,8 @@ pg = pg or {}
 pg.activity_template_headhunting = {
 	[300] = {
 		man_num = 2,
-		pt = 124,
 		id = 300,
+		pt = 124,
 		level = 15,
 		target = {
 			25,
@@ -193,8 +193,8 @@ pg.activity_template_headhunting = {
 	},
 	[369] = {
 		man_num = 2,
-		pt = 135,
 		id = 369,
+		pt = 135,
 		level = 1,
 		target = {
 			25,
@@ -399,8 +399,8 @@ pg.activity_template_headhunting = {
 	},
 	[590] = {
 		man_num = 2,
-		pt = 156,
 		id = 590,
+		pt = 156,
 		level = 1,
 		target = {
 			25,
@@ -605,8 +605,8 @@ pg.activity_template_headhunting = {
 	},
 	[687] = {
 		man_num = 2,
-		pt = 168,
 		id = 687,
+		pt = 168,
 		level = 1,
 		target = {
 			25,
@@ -811,8 +811,8 @@ pg.activity_template_headhunting = {
 	},
 	[990] = {
 		man_num = 2,
-		pt = 204,
 		id = 990,
+		pt = 204,
 		level = 1,
 		target = {
 			25,
@@ -1017,8 +1017,8 @@ pg.activity_template_headhunting = {
 	},
 	[4111] = {
 		man_num = 2,
-		pt = 220,
 		id = 4111,
+		pt = 220,
 		level = 1,
 		target = {
 			25,
@@ -1223,8 +1223,8 @@ pg.activity_template_headhunting = {
 	},
 	[4416] = {
 		man_num = 2,
-		pt = 264,
 		id = 4416,
+		pt = 264,
 		level = 1,
 		target = {
 			25,
@@ -1429,8 +1429,8 @@ pg.activity_template_headhunting = {
 	},
 	[4526] = {
 		man_num = 2,
-		pt = 279,
 		id = 4526,
+		pt = 279,
 		level = 1,
 		target = {
 			25,
@@ -1635,8 +1635,8 @@ pg.activity_template_headhunting = {
 	},
 	[4876] = {
 		man_num = 2,
-		pt = 353,
 		id = 4876,
+		pt = 353,
 		level = 1,
 		target = {
 			25,
@@ -1841,8 +1841,8 @@ pg.activity_template_headhunting = {
 	},
 	[5011] = {
 		man_num = 2,
-		pt = 371,
 		id = 5011,
+		pt = 371,
 		level = 1,
 		target = {
 			25,
@@ -2045,10 +2045,216 @@ pg.activity_template_headhunting = {
 			19262
 		}
 	},
+	[5349] = {
+		man_num = 2,
+		id = 5349,
+		pt = 412,
+		level = 1,
+		target = {
+			25,
+			50,
+			75,
+			100,
+			125,
+			150,
+			175,
+			200,
+			225,
+			250,
+			275,
+			300,
+			325,
+			350,
+			375,
+			400,
+			425,
+			450,
+			475,
+			500,
+			550,
+			600,
+			650,
+			700,
+			750,
+			800,
+			850,
+			900,
+			950,
+			1000
+		},
+		drop_client = {
+			{
+				1,
+				2,
+				300
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				2,
+				54006,
+				3
+			},
+			{
+				2,
+				30305,
+				5
+			},
+			{
+				2,
+				50005,
+				2
+			},
+			{
+				1,
+				2,
+				500
+			},
+			{
+				2,
+				50006,
+				2
+			},
+			{
+				2,
+				42050,
+				1
+			},
+			{
+				2,
+				42050,
+				4
+			},
+			{
+				2,
+				54006,
+				5
+			},
+			{
+				2,
+				50005,
+				3
+			},
+			{
+				2,
+				54034,
+				5
+			},
+			{
+				1,
+				2,
+				400
+			},
+			{
+				2,
+				30310,
+				5
+			},
+			{
+				2,
+				54006,
+				4
+			},
+			{
+				2,
+				42050,
+				2
+			},
+			{
+				15,
+				300,
+				1
+			},
+			{
+				14,
+				300,
+				1
+			},
+			{
+				2,
+				42050,
+				4
+			},
+			{
+				2,
+				30309,
+				5
+			},
+			{
+				2,
+				15003,
+				4
+			},
+			{
+				2,
+				54006,
+				3
+			},
+			{
+				1,
+				2,
+				400
+			},
+			{
+				2,
+				42050,
+				3
+			},
+			{
+				2,
+				50006,
+				2
+			},
+			{
+				1,
+				1,
+				3000
+			},
+			{
+				2,
+				15003,
+				4
+			},
+			{
+				2,
+				20001,
+				3
+			},
+			{
+				2,
+				42050,
+				4
+			},
+			{
+				2,
+				30307,
+				5
+			}
+		},
+		tasklist = {
+			20111,
+			20112,
+			20113,
+			20114,
+			20115,
+			20116,
+			20117,
+			20118,
+			20119,
+			20120,
+			20121,
+			20122,
+			20123,
+			20124
+		}
+	},
 	[30210] = {
 		man_num = 2,
-		pt = 135,
 		id = 30210,
+		pt = 135,
 		level = 1,
 		target = {
 			25,
@@ -2253,8 +2459,8 @@ pg.activity_template_headhunting = {
 	},
 	[30472] = {
 		man_num = 2,
-		pt = 156,
 		id = 30472,
+		pt = 156,
 		level = 1,
 		target = {
 			25,
@@ -2459,8 +2665,8 @@ pg.activity_template_headhunting = {
 	},
 	[30827] = {
 		man_num = 2,
-		pt = 204,
 		id = 30827,
+		pt = 204,
 		level = 1,
 		target = {
 			25,
@@ -2665,8 +2871,8 @@ pg.activity_template_headhunting = {
 	},
 	[30847] = {
 		man_num = 2,
-		pt = 264,
 		id = 30847,
+		pt = 264,
 		level = 1,
 		target = {
 			25,
@@ -2871,8 +3077,8 @@ pg.activity_template_headhunting = {
 	},
 	[30875] = {
 		man_num = 2,
-		pt = 353,
 		id = 30875,
+		pt = 353,
 		level = 1,
 		target = {
 			25,
@@ -3086,6 +3292,7 @@ pg.activity_template_headhunting = {
 		4526,
 		4876,
 		5011,
+		5349,
 		30210,
 		30472,
 		30827,

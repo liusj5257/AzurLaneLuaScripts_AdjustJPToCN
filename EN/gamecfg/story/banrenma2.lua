@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 2 - Centaur Pushes It</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Plaza",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Plaza",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "I was on patrol with my secretary, Centaur.",
 			typewriter = {
 				speed = 0.05,
@@ -75,10 +75,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 206040,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "Good morning, Elder Hood! Indeed, we're making our appointed rounds.",
+			dir = -1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -160,8 +160,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Yes, Elder Hood! I wouldn't miss it for the world!",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "It seemed Centaur had no problem dealing with her \"Elders\" of the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
@@ -194,15 +194,15 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "Comainder, and, um, you, Ms., um... have a candy~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "Mutsuki, that's Centaur. She's new to the fleet.",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Mutsuki, that's Centaur. She's new to the fleet.",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -263,9 +263,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Centaur gave a deep bow to the two destroyers.",
 			typewriter = {
 				speed = 0.05,
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301330,
+			nameColor = "#a9f548",
 			say = "Huuuuh?! Elder...?",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
+			say = "Indeed. As far as I'm concerned, you two are honoured Elders worthy of my respect.",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Indeed. As far as I'm concerned, you two are honoured Elders worthy of my respect.",
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -376,8 +376,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Yes, please don't mind me.",
 			typewriter = {
@@ -390,12 +390,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "Errmmm... But I still think it's kinda weird...",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Errmmm... But I still think it's kinda weird...",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

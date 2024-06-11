@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA36",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "나도 그래!",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "에에?! 네, 네!",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "…카시노, 운송하고 있는 것은 무엇이지?",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "제가 운송하는 것이요…? 일부는 평범한 보급 물자고, 일부는 야마토님을 위해서 준비한 특별 보급품이에요.",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "임무는 누가 내린 것이지? 아카기, 나가토? 아니면 무사시?",
 			typewriter = {
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 319010,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 319010,
+			nameColor = "#a9f548",
 			say = "음… 상부에서 임무를 받았지만 구체적으로 누가 내린 것인지는 저도 잘… 아마도 작전 물자의 배급을 책임지는 카가 아닐까요.",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -201,8 +201,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "카가인가… 알겠다.",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "(시, 시나노님이 원래 이런 성격이었나…!)",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "(아아아아니. 방금 전까지만 해도 나가토님 같이 꿈쩍도 하지 않는 느낌이었어… 자고 일어났더니 사람이 180도 바뀐 것 같다고…!)",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -272,8 +272,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "(설마… 뭔가 악몽이라도 꾼 건가…?)",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "걱정 말고 맡겨 줘.",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "흐흥~ 지금의 우리는 주력 함대와 맞먹는 전투력을 갖췄다고! 어떤 적이 와도 지지 않아!",
 			typewriter = {
@@ -355,8 +355,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "…앞에 세이렌의 매복이 있다. 방심하지 않는 편이 좋아.",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "엣, 세이렌의 매복?!! 이 항로에는 벌써 한참동안 세이렌의 습격이 일어나지 않은 곳인데…",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -415,8 +415,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "그런 일이 있구나… 시나노, 믿을게. 위협이 숨어있다면 가만히 둘 수는 없지. 작전 명령을 내려줘.",
 			typewriter = {
@@ -431,9 +431,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
+			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			say = "시나노, 자신을 믿어요. 그리고 동료를 믿으세요. 당신의 앞날이 순조롭길 빌어요.",
 			flashout = {
@@ -469,10 +469,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			bgName = "bg_xinnong2_1",
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "거울 해역으로 들어가면 모두 대형을 갖추고 전투 준비를 하도록.",
 			flashout = {

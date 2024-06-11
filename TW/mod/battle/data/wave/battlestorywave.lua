@@ -4,17 +4,17 @@ slot0.Battle.BattleStoryWave = class("BattleStoryWave", slot0.Battle.BattleWaveI
 slot0.Battle.BattleStoryWave.__name = "BattleStoryWave"
 slot1 = slot0.Battle.BattleStoryWave
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.SetWaveData(slot0, slot1)
+slot1.SetWaveData = function(slot0, slot1)
 	uv0.super.SetWaveData(slot0, slot1)
 
 	slot0._storyID = slot0._param.id
 end
 
-function slot1.DoWave(slot0)
+slot1.DoWave = function(slot0)
 	uv0.super.DoWave(slot0)
 
 	slot1 = true
@@ -53,12 +53,12 @@ function slot1.DoWave(slot0)
 	end
 end
 
-function slot1.doPass(slot0, slot1)
+slot1.doPass = function(slot0, slot1)
 	uv0.Battle.BattleDataProxy.GetInstance():AddWaveFlag(slot1)
 	uv1.super.doPass(slot0)
 end
 
-function slot1.doFail(slot0, slot1)
+slot1.doFail = function(slot0, slot1)
 	uv0.Battle.BattleDataProxy.GetInstance():AddWaveFlag(slot1)
 	uv1.super.doFail(slot0)
 end

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16102,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16102,
+	color = "red",
 	icon = 16100,
 	last_effect = "",
 	effect_list = {
@@ -29,9 +29,9 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 1,
-				hpLowerBound = 0.5,
+				hpSigned = 0,
 				skill_id = 16103,
-				hpSigned = 0
+				hpLowerBound = 0.5
 			}
 		},
 		{
@@ -42,9 +42,9 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.5,
-				hpLowerBound = 0,
+				hpSigned = 0,
 				skill_id = 16104,
-				hpSigned = 0
+				hpLowerBound = 0
 			}
 		}
 	}

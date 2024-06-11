@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TUOLICHAILI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TUOLICHAILI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"햇빛이 빛나는 밖\n\n<size=45>6. 뜻밖의 관심</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "며칠 후──",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-8",
+			nameColor = "#A9F548FF",
+			say = "며칠 후──",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "업무 상황이 점차 좋아지고, 토리첼리도 차차 비서함의 직무에 적응했다.",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "서류 정리같은 일도 꽤 능숙하게 해낼 수 있게 되었다.",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "가끔 뇌 회로가 전파에 맞지 않는 느낌이 들기도 하지만, 전반적으로 이미 훌륭한 비서함이라 할 수 있다.",
 			typewriter = {
@@ -79,10 +79,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래, 그렇게 많이 칭찬해줘도 괜찮아~",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "토리첼리는 칭찬을 바라는 모양새로 머리를 붙여왔다.",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			optionFlag = 1,
 			say = "토리첼리는 모처럼 부끄러워하는 얼굴을 보였다.",
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "그러고 보니, 전에 일이 순조롭지 못했던 건 토리첼리 지분이 크단 말이지…….",
 			typewriter = {
@@ -196,10 +196,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그, 그런 일은 넘기고 잊어버려!",
 			painting = {
 				alpha = 0.3,
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -224,10 +224,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "크흠…… 화제를 돌리는 게 좋겠어. 지휘관, 이걸 봐!",
 			painting = {
 				alpha = 0.3,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "토리첼리가 아주 커다란 선물 상자를 건넸다.",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "조금 놀랐다. 이럴 때 토리첼리에게 선물을 받을 줄이야……. 정말 예상하지 못한 친절이었다.",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "안에는 정교한 측정기가 들어 있었다. 서류를 위에 올려놓을 수 있는 듯했다.",
 			typewriter = {
@@ -278,10 +278,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관한테 주는 거야! 나, 나 생각해 봤는데, 지휘관이 지금 가장 필요로 하는 건 업무를 도와주는 물건이잖아?",
 			painting = {
 				alpha = 0.3,
@@ -296,10 +296,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다빈치한테 부탁해서 문서 태그를 자동으로 분류하는 작은 작업대를 만들었어!",
 			painting = {
 				alpha = 0.3,
@@ -314,10 +314,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이러면 지휘관의 서류 정리가 더 빨라지겠지? 그럼 나랑 더 오래 같이 있어줄 수도 있고, 후후후~",
 			painting = {
 				alpha = 0.3,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "확실히 꽤 쓸모 있어 보인다. 하지만…… 문서를 분류하고 자료를 정리하는 건 토리첼리의 업무였는데?",
 			typewriter = {
@@ -342,10 +342,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "맞아~ 그러니까 난 이제 쉬어도 된다는 거지. 하, 농땡이가 최고야~ 조용한 구석에 가서 혼자 있어야지~",
 			painting = {
 				alpha = 0.3,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "………그러니까 사실 내 업무량은 하나도 안 줄었다는 거네.",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "휴. 역시 칭찬을 해주도록 할까──",
 			typewriter = {
@@ -380,10 +380,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우후후~~~",
 			painting = {
 				alpha = 0.3,
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

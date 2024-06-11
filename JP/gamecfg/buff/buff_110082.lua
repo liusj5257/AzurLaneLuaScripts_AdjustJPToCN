@@ -1,12 +1,12 @@
 return {
-	time = 1,
 	name = "灭火",
 	init_effect = "",
-	color = "blue",
+	id = 110082,
+	time = 1,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110082,
+	color = "blue",
 	icon = 110080,
 	last_effect = "",
 	blink = {

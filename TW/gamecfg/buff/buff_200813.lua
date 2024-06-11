@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024罗德尼meta 高维行走 监听",
 	time = 0,
-	color = "yellow",
+	name = "2024罗德尼meta 高维行走 监听",
+	init_effect = "",
+	id = 200813,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200813,
+	color = "yellow",
 	icon = 200813,
 	last_effect = "",
 	effect_list = {

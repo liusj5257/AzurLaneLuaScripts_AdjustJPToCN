@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"私の素晴らしい記憶\n\n<size=45>その六 強がりと本音・上</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はくしょん！……",
 			bgm = "story-2",
+			actor = 202030,
+			nameColor = "#a9f548",
+			say = "はくしょん！……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "布団の中のエイジャックスは顔が紅潮しており、体温計は高熱を示している。",
 			typewriter = {
 				speed = 0.05,
@@ -48,9 +48,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "元より人間の構造と違うとはいえ、風邪も引く時は引くらしい。",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "どうやら自分が主導権を握っていないと不服な様子。",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "濡れタオルをそっとエイジャックスのおでこに敷いてあげる。",
 			typewriter = {
 				speed = 0.05,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "あなた……なんで……",
 			typewriter = {
 				speed = 0.05,

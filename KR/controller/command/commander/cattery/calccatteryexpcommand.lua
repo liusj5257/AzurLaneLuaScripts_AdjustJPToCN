@@ -1,6 +1,6 @@
 slot0 = class("CalcCatteryExpCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot5 = slot1:getBody().isPeriod
 
 	if not getProxy(CommanderProxy):GetCommanderHome() then
@@ -21,7 +21,7 @@ function slot0.execute(slot0, slot1)
 	})
 end
 
-function slot0.CalcExp(slot0, slot1, slot2, slot3)
+slot0.CalcExp = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2 / 3600
 	slot6 = nil
 
@@ -38,7 +38,7 @@ function slot0.CalcExp(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.AddCommanderExp(slot0, slot1, slot2)
+slot0.AddCommanderExp = function(slot0, slot1, slot2)
 	slot3 = slot2
 
 	if getProxy(CommanderProxy):getCommanderById(slot1):isMaxLevel() then

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_399 = {}
 slot1 = slot0.word_template_399
 
-function temp()
+temp = function()
 	uv0["洒"] = {
 		["哥"] = {
 			["儿"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蝗"] = {
 		["冥"] = {
 			["痔"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["矛"] = {
 		["按"] = {
 			["嘤"] = {
@@ -49,7 +49,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["坎"] = {
 		["特"] = {
 			["\\"] = {
@@ -71,7 +71,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ξ"] = {
 		["病"] = {
 			["毒"] = {
@@ -83,7 +83,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闷"] = {
 		["声"] = {
 			["发"] = {
@@ -115,7 +115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蛇"] = {
 		["灰"] = {
 			["主"] = {

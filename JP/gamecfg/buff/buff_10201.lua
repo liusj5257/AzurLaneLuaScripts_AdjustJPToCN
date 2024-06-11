@@ -1,7 +1,7 @@
 return {
-	time = 3,
 	name = "LuckyE",
 	init_effect = "jinengchufared",
+	time = 3,
 	picture = "",
 	desc = "buff触发器",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 10201
+				skill_id = 10201,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 10202
+				skill_id = 10202,
+				target = "TargetSelf"
 			}
 		}
 	}

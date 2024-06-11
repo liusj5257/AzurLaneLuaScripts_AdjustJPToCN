@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -301,11 +301,11 @@ return {
 			}
 		},
 		{
-			say = "同じ時刻、暁は――",
 			blackBg = true,
+			say = "同じ時刻、暁は――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			say = "【N21°E158°】",
 			blackBg = true,
+			say = "【N21°E158°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "熱い…服もびしょびしょだよ……うん、早く進みすぎちゃったのかな…うん？ほの…るる…？どういうこと？まあいいわ、このまま進んだらときっと大丈夫！",
 			typewriter = {
 				speed = 0.05,

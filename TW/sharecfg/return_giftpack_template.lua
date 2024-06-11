@@ -2,8 +2,8 @@ pg = pg or {}
 pg.return_giftpack_template = {
 	{
 		pack_type_1 = "",
-		pack_data = 1,
 		id = 1,
+		pack_data = 1,
 		level = {
 			{
 				10,
@@ -19,8 +19,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 2,
 		id = 2,
+		pack_data = 2,
 		level = {
 			{
 				10,
@@ -36,8 +36,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 3,
 		id = 3,
+		pack_data = 3,
 		level = {
 			{
 				10,
@@ -53,8 +53,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 4,
 		id = 4,
+		pack_data = 4,
 		level = {
 			{
 				10,
@@ -70,8 +70,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 5,
 		id = 5,
+		pack_data = 5,
 		level = {
 			{
 				10,
@@ -87,8 +87,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 6,
 		id = 6,
+		pack_data = 6,
 		level = {
 			{
 				10,
@@ -104,8 +104,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 7,
 		id = 7,
+		pack_data = 7,
 		level = {
 			{
 				10,
@@ -121,8 +121,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 8,
 		id = 8,
+		pack_data = 8,
 		level = {
 			{
 				10,
@@ -138,8 +138,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 9,
 		id = 9,
+		pack_data = 9,
 		level = {
 			{
 				10,
@@ -155,8 +155,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 10,
 		id = 10,
+		pack_data = 10,
 		level = {
 			{
 				10,
@@ -172,8 +172,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 11,
 		id = 11,
+		pack_data = 11,
 		level = {
 			{
 				10,
@@ -189,8 +189,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 12,
 		id = 12,
+		pack_data = 12,
 		level = {
 			{
 				10,
@@ -206,8 +206,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 13,
 		id = 13,
+		pack_data = 13,
 		level = {
 			{
 				10,
@@ -223,8 +223,8 @@ pg.return_giftpack_template = {
 	},
 	{
 		pack_type_1 = "",
-		pack_data = 14,
 		id = 14,
+		pack_data = 14,
 		level = {
 			{
 				10,

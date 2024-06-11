@@ -1,12 +1,12 @@
 return {
-	time = 8,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 1090212,
+	time = 8,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1090212,
+	color = "blue",
 	icon = 4070,
 	last_effect = "",
 	blink = {
@@ -25,8 +25,8 @@ return {
 			},
 			arg_list = {
 				group = 1090212,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		}
 	}

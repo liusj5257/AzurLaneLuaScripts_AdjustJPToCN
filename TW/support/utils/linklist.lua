@@ -6,26 +6,26 @@ slot1.Head = nil
 slot1.Tail = nil
 slot1.Count = 0
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 end
 
-function slot1.Clear(slot0)
+slot1.Clear = function(slot0)
 	slot0.Head = nil
 	slot0.Tail = nil
 	slot0.Count = 0
 end
 
-function slot1.NewNode(slot0, slot1)
+slot1.NewNode = function(slot0, slot1)
 	return {
 		Data = slot1
 	}
 end
 
-function slot1.IsEmpty(slot0)
+slot1.IsEmpty = function(slot0)
 	return slot0.Count == 0
 end
 
-function slot1.AddBefore(slot0, slot1, slot2)
+slot1.AddBefore = function(slot0, slot1, slot2)
 	if slot1 == nil then
 		return nil
 	end
@@ -49,7 +49,7 @@ function slot1.AddBefore(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot1.AddAfter(slot0, slot1, slot2)
+slot1.AddAfter = function(slot0, slot1, slot2)
 	if slot1 == nil then
 		return nil
 	end
@@ -73,11 +73,11 @@ function slot1.AddAfter(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot1.AddFirst(slot0, slot1)
+slot1.AddFirst = function(slot0, slot1)
 	return slot0:AddNodeFirst(slot0:NewNode(slot1))
 end
 
-function slot1.AddNodeFirst(slot0, slot1)
+slot1.AddNodeFirst = function(slot0, slot1)
 	if slot0.Head ~= nil then
 		slot0.Head.Before = slot1
 	end
@@ -95,11 +95,11 @@ function slot1.AddNodeFirst(slot0, slot1)
 	return slot1
 end
 
-function slot1.AddLast(slot0, slot1)
+slot1.AddLast = function(slot0, slot1)
 	return slot0:AddNodeLast(slot0:NewNode(slot1))
 end
 
-function slot1.AddNodeLast(slot0, slot1)
+slot1.AddNodeLast = function(slot0, slot1)
 	if slot0.Tail ~= nil then
 		slot0.Tail.Next = slot1
 	end
@@ -117,7 +117,7 @@ function slot1.AddNodeLast(slot0, slot1)
 	return slot1
 end
 
-function slot1.CopyTo(slot0, slot1, slot2)
+slot1.CopyTo = function(slot0, slot1, slot2)
 	if slot1 == nil then
 		return
 	end
@@ -136,7 +136,7 @@ function slot1.CopyTo(slot0, slot1, slot2)
 	end
 end
 
-function slot1.Find(slot0, slot1)
+slot1.Find = function(slot0, slot1)
 	slot2 = slot0.Head
 
 	for slot6 = 1, slot0.Count do
@@ -150,7 +150,7 @@ function slot1.Find(slot0, slot1)
 	return nil
 end
 
-function slot1.FindLast(slot0, slot1)
+slot1.FindLast = function(slot0, slot1)
 	slot2 = slot0.Tail
 
 	for slot6 = 1, slot0.Count do
@@ -164,15 +164,15 @@ function slot1.FindLast(slot0, slot1)
 	return nil
 end
 
-function slot1.RemoveFirst(slot0)
+slot1.RemoveFirst = function(slot0)
 	slot0:Remove(slot0.Head)
 end
 
-function slot1.RemoveLast(slot0)
+slot1.RemoveLast = function(slot0)
 	slot0:Remove(slot0.Tail)
 end
 
-function slot1.Remove(slot0, slot1)
+slot1.Remove = function(slot0, slot1)
 	if slot1 == nil then
 		return
 	end
@@ -196,7 +196,7 @@ function slot1.Remove(slot0, slot1)
 	slot0.Count = slot0.Count - 1
 end
 
-function slot1.RemoveData(slot0, slot1)
+slot1.RemoveData = function(slot0, slot1)
 	slot2 = slot0:Find(slot1)
 
 	slot0:Remove(slot2)
@@ -204,7 +204,7 @@ function slot1.RemoveData(slot0, slot1)
 	return slot2
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	if slot1 == nil then
 		return slot0.Head
 	else
@@ -212,11 +212,11 @@ function slot2(slot0, slot1)
 	end
 end
 
-function slot1.Iterator(slot0)
+slot1.Iterator = function(slot0)
 	return uv0, slot0
 end
 
-function slot1.Show(slot0)
+slot1.Show = function(slot0)
 	print("-------- list ++ begin --------")
 
 	for slot4 in slot0:Iterator() do

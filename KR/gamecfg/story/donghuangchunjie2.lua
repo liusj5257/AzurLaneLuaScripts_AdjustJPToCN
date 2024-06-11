@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"시끌벅적 설날 축제\n\n<size=45>제2장 - 옛 창고의 신발견</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 학원광장",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "모항 - 학원광장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#92fc63",
 			say = "아으…… 푸슌 언니, 대체 어디서 화약을……?",
 			typewriter = {
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "훗훙…… 실은 나도 잘 모르거든! 일단 누군가에게 물어보자!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "훗훙…… 실은 나도 잘 모르거든! 일단 누군가에게 물어보자!",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#92fc63",
 			say = "아야나미랑 라피, 유구레의 새로운 옷…… 다들 귀여워요…",
 			typewriter = {
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "예상보다도 시간이 걸렸어요…… 하지만 설날 때까지 시간 맞췄으니, 괜찮아요.",
 			typewriter = {
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "……요 전의 축제에 쓴 불꽃놀이용 화약이라면, 옛 창고에 있을 거예요.",
 			typewriter = {
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "오오! 옛 창고인가! 헤헤헤, 설마 이렇게 빨리 찾을 줄은~",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,8 +313,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101173,
 			dir = 1,
+			actor = 101173,
 			nameColor = "#92fc63",
 			say = "폭죽이…… 뭐야?",
 			typewriter = {
@@ -413,13 +413,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "모항 - 옛 창고",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "아야나미는 본 적 있어요. '주사위 판'…… 인가요?",
 			typewriter = {
@@ -527,11 +527,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "엥? 이거 '세뱃돈마블' 판이잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -543,8 +543,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -553,10 +553,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			hideOther = true,
 			dir = 1,
 			actor = 101173,
 			actorName = "라피＆아야나미＆푸슌",
@@ -588,8 +588,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#92fc63",
 			say = "푸슌 언니, 폭죽 말고, 다 같이 이걸……",
 			typewriter = {
@@ -602,11 +602,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "좋아, 그럼 폭죽을 만들고 나서, 다 같이 이걸로 놀자! 헤헷, 이런 게임은 잘하거든!",
 			typewriter = {
 				speed = 0.05,
@@ -618,8 +618,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -628,10 +628,10 @@ return {
 			}
 		},
 		{
-			actor = 101173,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 101173,
 			dir = 1,
 			hideOther = true,
 			actorName = "라피＆아야나미",
@@ -657,9 +657,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 501041,
 			dir = 1,
 			blackBg = true,
+			actor = 501041,
 			nameColor = "#92fc63",
 			say = "엣, 에에에에~~!?",
 			typewriter = {
@@ -672,8 +672,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,

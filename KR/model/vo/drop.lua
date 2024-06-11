@@ -1,6 +1,6 @@
 slot0 = class("Drop", import(".BaseVO"))
 
-function slot0.Create(slot0)
+slot0.Create = function(slot0)
 	slot2, slot3, slot4 = unpack(slot0)
 
 	return uv0.New({
@@ -10,9 +10,8 @@ function slot0.Create(slot0)
 	})
 end
 
-function slot0.Change(slot0)
+slot0.Change = function(slot0)
 	if not getmetatable(slot0) then
-		warning("no change drop")
 		setmetatable(slot0, uv0)
 
 		slot0.class = uv0
@@ -25,7 +24,7 @@ function slot0.Change(slot0)
 	return slot0
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	assert(not getmetatable(slot1), "drop data should not has metatable")
 
 	for slot5, slot6 in pairs(slot1) do
@@ -35,7 +34,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:InitConfig()
 end
 
-function slot0.InitConfig(slot0)
+slot0.InitConfig = function(slot0)
 	if not uv0.inited then
 		uv0.InitSwitch()
 	end
@@ -44,19 +43,19 @@ function slot0.InitConfig(slot0)
 	slot0.cfg = switch(slot0.type, uv0.ConfigCase, uv0.ConfigDefault, slot0)
 end
 
-function slot0.getConfigTable(slot0)
+slot0.getConfigTable = function(slot0)
 	return slot0.cfg
 end
 
-function slot0.getName(slot0)
+slot0.getName = function(slot0)
 	return slot0.name or slot0:getConfig("name")
 end
 
-function slot0.getIcon(slot0)
+slot0.getIcon = function(slot0)
 	return slot0:getConfig("icon")
 end
 
-function slot0.getCount(slot0)
+slot0.getCount = function(slot0)
 	if slot0.type == DROP_TYPE_OPERATION or slot0.type == DROP_TYPE_LOVE_LETTER then
 		return 1
 	else
@@ -64,35 +63,35 @@ function slot0.getCount(slot0)
 	end
 end
 
-function slot0.getOwnedCount(slot0)
+slot0.getOwnedCount = function(slot0)
 	return switch(slot0.type, uv0.CountCase, uv0.CountDefault, slot0)
 end
 
-function slot0.getSubClass(slot0)
+slot0.getSubClass = function(slot0)
 	return switch(slot0.type, uv0.SubClassCase, uv0.SubClassDefault, slot0)
 end
 
-function slot0.getDropRarity(slot0)
+slot0.getDropRarity = function(slot0)
 	return switch(slot0.type, uv0.RarityCase, uv0.RarityDefault, slot0)
 end
 
-function slot0.DropTrans(slot0, ...)
+slot0.DropTrans = function(slot0, ...)
 	return switch(slot0.type, uv0.TransCase, uv0.TransDefault, slot0, ...)
 end
 
-function slot0.AddItemOperation(slot0)
+slot0.AddItemOperation = function(slot0)
 	return switch(slot0.type, uv0.AddItemCase, uv0.AddItemDefault, slot0)
 end
 
-function slot0.MsgboxIntroSet(slot0, ...)
+slot0.MsgboxIntroSet = function(slot0, ...)
 	return switch(slot0.type, uv0.MsgboxIntroCase, uv0.MsgboxIntroDefault, slot0, ...)
 end
 
-function slot0.UpdateDropTpl(slot0, ...)
+slot0.UpdateDropTpl = function(slot0, ...)
 	return switch(slot0.type, uv0.UpdateDropCase, uv0.UpdateDropDefault, slot0, ...)
 end
 
-function slot0.InitSwitch()
+slot0.InitSwitch = function()
 	uv0.inited = true
 	uv0.ConfigCase = {
 		[DROP_TYPE_RESOURCE] = function (slot0)
@@ -240,10 +239,26 @@ function slot0.InitSwitch()
 		end,
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			return pg.drop_data_restore[slot0.id]
+		end,
+		[DROP_TYPE_DORM3D_FURNITURE] = function (slot0)
+			slot1 = pg.dorm3d_furniture_template[slot0.id]
+			slot0.desc = slot1.desc
+
+			return slot1
+		end,
+		[DROP_TYPE_DORM3D_GIFT] = function (slot0)
+			slot0.desc = ""
+
+			return pg.dorm3d_gift[slot0.id]
+		end,
+		[DROP_TYPE_DORM3D_SKIN] = function (slot0)
+			slot0.desc = ""
+
+			return pg.dorm3d_resource[slot0.id]
 		end
 	}
 
-	function uv0.ConfigDefault(slot0)
+	uv0.ConfigDefault = function(slot0)
 		if DROP_TYPE_USE_ACTIVITY_DROP < slot0.type then
 			return pg.activity_drop_type[slot1].relevance and pg[slot2][slot0.id]
 		end
@@ -317,7 +332,7 @@ function slot0.InitSwitch()
 		end
 	}
 
-	function uv0.CountDefault(slot0)
+	uv0.CountDefault = function(slot0)
 		if DROP_TYPE_USE_ACTIVITY_DROP < slot0.type then
 			return getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot1].activity_id):getVitemNumber(slot0.id)
 		else
@@ -349,47 +364,56 @@ function slot0.InitSwitch()
 		end
 	}
 
-	function uv0.SubClassDefault(slot0)
+	uv0.SubClassDefault = function(slot0)
 		assert(false, string.format("drop type %d without subClass", slot0.type))
 	end
 
 	uv0.RarityCase = {
 		[DROP_TYPE_RESOURCE] = function (slot0)
-			return slot0:getConfig("rarity") + 1
+			return slot0:getConfig("rarity")
 		end,
 		[DROP_TYPE_ITEM] = function (slot0)
-			return slot0:getConfig("rarity") + 1
+			return slot0:getConfig("rarity")
 		end,
 		[DROP_TYPE_EQUIP] = function (slot0)
-			return slot0:getConfig("rarity")
+			return slot0:getConfig("rarity") - 1
 		end,
 		[DROP_TYPE_SHIP] = function (slot0)
-			return slot0:getConfig("rarity")
+			return slot0:getConfig("rarity") - 1
 		end,
 		[DROP_TYPE_FURNITURE] = function (slot0)
-			return slot0:getConfig("comfortable") + 1
+			return slot0:getConfig("rarity")
 		end,
 		[DROP_TYPE_SKIN] = function (slot0)
-			return ItemRarity.SSR
+			return ItemRarity.Gold
 		end,
 		[DROP_TYPE_SKIN_TIMELIMIT] = function (slot0)
-			return ItemRarity.SSR
+			return ItemRarity.Gold
 		end,
 		[DROP_TYPE_VITEM] = function (slot0)
-			return slot0:getConfig("rarity") + 1
+			return slot0:getConfig("rarity")
 		end,
 		[DROP_TYPE_WORLD_ITEM] = function (slot0)
 			return slot0:getConfig("rarity")
 		end,
 		[DROP_TYPE_BUFF] = function (slot0)
-			return ItemRarity.Gold
+			return ItemRarity.Purple
 		end,
 		[DROP_TYPE_COMMANDER_CAT] = function (slot0)
+			return slot0:getConfig("rarity") - 1
+		end,
+		[DROP_TYPE_DORM3D_FURNITURE] = function (slot0)
 			return slot0:getConfig("rarity")
+		end,
+		[DROP_TYPE_DORM3D_SKIN] = function (slot0)
+			return ItemRarity.Gold
+		end,
+		[DROP_TYPE_WORLD_COLLECTION] = function (slot0)
+			return ItemRarity.Gold
 		end
 	}
 
-	function uv0.RarityDefault(slot0)
+	uv0.RarityDefault = function(slot0)
 		return 1
 	end
 
@@ -498,7 +522,7 @@ function slot0.InitSwitch()
 		end
 	}
 
-	function uv0.TransDefault(slot0)
+	uv0.TransDefault = function(slot0)
 		return slot0
 	end
 
@@ -803,10 +827,20 @@ function slot0.InitSwitch()
 			end
 		end,
 		[DROP_TYPE_COMMANDER_CAT] = function (slot0)
+		end,
+		[DROP_TYPE_DORM3D_GIFT] = function (slot0)
+			getProxy(ApartmentProxy):changeGiftCount(slot0.id, slot0.count)
+		end,
+		[DROP_TYPE_DORM3D_SKIN] = function (slot0)
+			slot1 = getProxy(ApartmentProxy)
+			slot2 = slot1:getApartment(slot0:getConfig("ship_group"))
+
+			slot2:addSkin(slot0.id)
+			slot1:updateApartment(slot2)
 		end
 	}
 
-	function uv0.AddItemDefault(slot0)
+	uv0.AddItemDefault = function(slot0)
 		if DROP_TYPE_USE_ACTIVITY_DROP < slot0.type then
 			slot1 = getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot0.type].activity_id)
 
@@ -915,7 +949,7 @@ function slot0.InitSwitch()
 		end
 	}
 
-	function uv0.MsgboxIntroDefault(slot0, slot1, slot2)
+	uv0.MsgboxIntroDefault = function(slot0, slot1, slot2)
 		if DROP_TYPE_USE_ACTIVITY_DROP < slot0.type then
 			setText(slot2, slot0:getConfig("display"))
 		else
@@ -942,7 +976,7 @@ function slot0.InitSwitch()
 			updateShip(slot1, slot0.ship, slot2)
 		end,
 		[DROP_TYPE_FURNITURE] = function (slot0, slot1, slot2)
-			updateFurniture(slot1, slot0.id, slot2)
+			updateFurniture(slot1, slot0, slot2)
 		end,
 		[DROP_TYPE_STRATEGY] = function (slot0, slot1, slot2)
 			slot2.isWorldBuff = slot0.isWorldBuff
@@ -1028,11 +1062,20 @@ function slot0.InitSwitch()
 			updateBuff(slot1, slot0.id, slot2)
 		end,
 		[DROP_TYPE_COMMANDER_CAT] = function (slot0, slot1, slot2)
-			updateCommander(slot1, slot0.id, slot2)
+			updateCommander(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_DORM3D_FURNITURE] = function (slot0, slot1, slot2)
+			updateDorm3dFurniture(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_DORM3D_GIFT] = function (slot0, slot1, slot2)
+			updateDorm3dGift(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_DORM3D_SKIN] = function (slot0, slot1, slot2)
+			updateDorm3dSkin(slot1, slot0, slot2)
 		end
 	}
 
-	function uv0.UpdateDropDefault(slot0, slot1, slot2)
+	uv0.UpdateDropDefault = function(slot0, slot1, slot2)
 		warning(string.format("without dropType %d in updateDrop", slot0.type))
 	end
 end

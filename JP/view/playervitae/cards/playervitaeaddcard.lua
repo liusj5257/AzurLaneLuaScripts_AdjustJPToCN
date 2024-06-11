@@ -1,6 +1,6 @@
 slot0 = class("PlayerVitaeAddCard", import(".PlayerVitaeBaseCard"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.line1 = slot1:Find("line1")
 	slot1 = slot0._tf
@@ -21,7 +21,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdate(slot0, slot1, slot2, slot3, slot4)
+slot0.OnUpdate = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot4 == PlayerVitaeShipsPage.RANDOM_FLAG_SHIP_PAGE
 	slot0.canCilick = not slot5
 
@@ -30,18 +30,18 @@ function slot0.OnUpdate(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.txt, not slot5)
 end
 
-function slot0.EditCard(slot0, slot1)
+slot0.EditCard = function(slot0, slot1)
 	slot0.inEdit = slot1
 
 	setActive(slot0.mask, slot1)
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	uv0.super.Disable(slot0)
 	slot0:EditCard(false)
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0:Disable()
 end
 

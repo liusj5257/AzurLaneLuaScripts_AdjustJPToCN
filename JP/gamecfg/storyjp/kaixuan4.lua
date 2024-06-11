@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"騎士姫の憂鬱\n\n<size=45>四 落ち込むトリオンファン</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "トリオンファンと一緒に母港の見回りをしている。",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "トリオンファンと一緒に母港の見回りをしている。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "なんだかやる気がいっぱいなトリオンファンだった。",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "エレバスとテラーに出会った。",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			actor = 213010,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			dir = -1,
 			say = "トリオンファンさん、ありがとう。トリオンファンさんと一緒に出撃するようになってから、テラーもなんだか自信をつけられたようで…",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -187,14 +187,14 @@ return {
 			}
 		},
 		{
-			actor = 213010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 213010,
 			say = "ごめんなさい。日光が強すぎるとテラーの体に悪いから、お礼は改めて…テラー、お菓子でも食べに行きましょう？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "エレバスとテラーがいなくなった。",
 			typewriter = {
 				speed = 0.05,
@@ -263,14 +263,14 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 107020,
 			say = "あら、トリオンファンちゃん？指揮官と母港の見回り？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -313,8 +313,8 @@ return {
 			actor = 107030,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			dir = 1,
 			say = "え？えええ！バレた！？指揮官にドッキリを仕掛けようと思ってたのに～",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -404,14 +404,14 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 801010,
 			say = "落ち着いている、ところ…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -436,9 +436,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -450,9 +450,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "ル·トリオンファンは少し落ち込んだ。",
 			typewriter = {
 				speed = 0.05,

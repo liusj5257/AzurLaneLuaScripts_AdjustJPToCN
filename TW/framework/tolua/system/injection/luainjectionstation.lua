@@ -9,7 +9,7 @@ slot7 = getmetatable
 slot8 = nil
 slot9 = require("Framework.tolua.System.Injection.InjectionBridgeInfo")
 
-function slot10(slot0)
+slot10 = function(slot0)
 	if uv1(uv0(slot0), uv2) ~= 1 then
 		uv3("Can't Inject")
 	end
@@ -17,13 +17,13 @@ function slot10(slot0)
 	return slot1
 end
 
-function slot11()
+slot11 = function()
 	if uv0 == nil then
 		uv0 = LuaInterface.LuaInjectionStation
 	end
 end
 
-function slot12(slot0, slot1)
+slot12 = function(slot0, slot1)
 	slot2 = slot0.__index
 	slot3 = {}
 
@@ -35,7 +35,7 @@ function slot12(slot0, slot1)
 		end
 	end
 
-	function slot0.__index(slot0, slot1)
+	slot0.__index = function(slot0, slot1)
 		if uv0(uv1, slot1) ~= nil then
 			return slot2
 		end
@@ -52,14 +52,14 @@ function slot12(slot0, slot1)
 	end
 end
 
-function InjectByModule(slot0, slot1)
+InjectByModule = function(slot0, slot1)
 	slot2 = uv0(slot0)
 
 	InjectByName(slot2[".name"], slot1)
 	uv1(slot2, slot1)
 end
 
-function InjectByName(slot0, slot1)
+InjectByName = function(slot0, slot1)
 	uv0()
 
 	if uv1(uv2, slot0) == nil then

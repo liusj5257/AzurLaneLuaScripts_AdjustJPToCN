@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "襲来した敵の数は多くないものの、シカゴとバッグレイだけではやはり戦力的に心もとない。敵の遊撃をかわし、敵の主力艦隊にたどりついた時、二人はもう満身創痍だった。",
 			typewriter = {

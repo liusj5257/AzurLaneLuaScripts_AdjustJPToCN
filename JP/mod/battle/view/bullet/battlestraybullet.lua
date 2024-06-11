@@ -5,11 +5,11 @@ slot0.Battle.BattleStrayBullet = class("BattleStrayBullet", slot0.Battle.BattleB
 slot0.Battle.BattleStrayBullet.__name = "BattleStrayBullet"
 slot2 = slot0.Battle.BattleStrayBullet
 
-function slot2.Ctor(slot0, slot1, slot2)
+slot2.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 end
 
-function slot2.SetSpawn(slot0, slot1)
+slot2.SetSpawn = function(slot0, slot1)
 	uv0.super.SetSpawn(slot0, slot1)
 
 	slot0._targetPos = Clone(slot0._bulletData:GetExplodePostion())
@@ -21,7 +21,7 @@ function slot2.SetSpawn(slot0, slot1)
 	slot0.updateSpeed = uv0._doStray
 end
 
-function slot2._doStray(slot0)
+slot2._doStray = function(slot0)
 	slot1 = slot0._targetPos
 
 	if slot0._step > 0 and slot1 and not slot1:EqualZero() then

@@ -4,7 +4,7 @@ slot1 = singletonClass("BattleMissileFactory", slot0.Battle.BattleBombBulletFact
 slot1.__name = "BattleMissileFactory"
 slot0.Battle.BattleMissileFactory = slot1
 
-function slot1.MakeModel(slot0, slot1, slot2)
+slot1.MakeModel = function(slot0, slot1, slot2)
 	slot3 = slot1:GetBulletData()
 
 	if slot0:GetBulletPool():InstFX(slot1:GetModleID()) then
@@ -18,7 +18,7 @@ function slot1.MakeModel(slot0, slot1, slot2)
 	slot0:GetSceneMediator():AddBullet(slot1)
 end
 
-function slot1.CreateBulletAlert(slot0)
+slot1.CreateBulletAlert = function(slot0)
 	slot1 = slot0:GetTemplate()
 
 	if slot0:GetIFF() == uv0.GetDataProxy():GetFriendlyCode() then

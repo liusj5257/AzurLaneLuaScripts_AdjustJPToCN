@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_267 = {}
 slot1 = slot0.word_template_267
 
-function temp()
+temp = function()
 	uv0["双"] = {
 		["胞"] = {
 			["胎"] = {
@@ -213,7 +213,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雙"] = {
 		["胞"] = {
 			["胎"] = {
@@ -273,7 +273,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["爽"] = {
 		["电"] = {
 			["影"] = {
@@ -301,7 +301,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["谁"] = {
 		["操"] = {
 			["我"] = {
@@ -644,7 +644,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["水"] = {
 		["泊"] = {
 			["梁"] = {
@@ -940,7 +940,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["氺"] = {
 		["猓"] = {
 			["机"] = {
@@ -957,7 +957,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["稅"] = {
 		["力"] = {
 			this = true

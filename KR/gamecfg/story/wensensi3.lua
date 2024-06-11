@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"동생의 변화\n\n<size=45>3. 동생의 생각</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·이글 유니온 기숙사",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·이글 유니온 기숙사",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "처음 초대를 받은 이후로 얼마정도 시간이 지나 빈센스와의 관계도 훨씬 좋아졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "아무래도 빈센스에게 같이 논다는 것은 자거나 멍 때리기 두 가지 선택지 밖에 없는 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "(노크 소리)",
 			typewriter = {
 				speed = 0.05,
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 103070,
+			say = "…………응.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "…………응.",
+			actor = 103070,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "인디쨩에 비하면 우리 언니들은 평범하긴 하지만.",
 			typewriter = {
 				speed = 0.05,

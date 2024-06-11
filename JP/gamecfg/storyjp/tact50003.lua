@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "シカゴたちの南方艦隊と違い、北方艦隊にはニューオリンズ級――アストリア、クインシー、ヴィンセンスの3隻が配属されている。",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 		{
 			actor = 103100,
 			side = 1,
-			nameColor = "#a9f548",
 			say = "パトロールつまんない…疲れる……エンタープライズたちがいるのになんでパトロールするの……？",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -270,12 +270,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "――その時、三姉妹の姿が探照灯に照らし出された。",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -312,8 +312,8 @@ return {
 		{
 			actor = 103080,
 			side = 0,
-			nameColor = "#a9f548",
 			say = "違う！これは……！敵襲！クインシー、ヴィンセンス、戦闘準備よ！",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

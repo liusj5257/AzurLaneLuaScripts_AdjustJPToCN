@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
 	name = "精英损管",
 	time = 0,
+	init_effect = "",
+	picture = "",
+	desc = "精英损管",
 	stack = 1,
 	id = 512051,
-	picture = "",
 	last_effect = "",
-	desc = "精英损管",
 	blink = {
 		0,
 		0.7,
@@ -23,8 +23,8 @@ return {
 			},
 			arg_list = {
 				group = 512050,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

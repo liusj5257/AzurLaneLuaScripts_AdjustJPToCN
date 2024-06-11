@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			bgm = "story-mmorpg",
 			side = 2,
 			bgName = "star_level_bg_545",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			say = "――――！！！",
-			bgm = "story-mmorpg",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,17 +54,17 @@ return {
 				number = 2
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,9 +165,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
+			side = 2,
 			say = "ブリュッヒャーはドラゴンに無様に引きずられ、流れ星のように遠くの黒雲の中に消えていった。",
 			typewriter = {
 				speed = 0.05,
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ちぇー、ドラゴンの鱗が厚すぎたせいで逃げられちゃった…",
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "挑発で彼女を誘い出し、そしてすかさず完璧な連携で撃破する",
 			painting = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "あなたたちのパーティーなら……いつか本当に魔王を倒して、世界に平和をもたらせるかもしれません",
 			painting = {
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "神聖教会聖女",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "一日も早く、あなた方が魔王を倒す日が訪れることを楽しみにしています",
 			painting = {
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "神聖教会聖女",
 			dir = 1,
 			optionFlag = 2,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "では勝利の祝祭で改めてお話ししましょう。指揮官",
 			painting = {

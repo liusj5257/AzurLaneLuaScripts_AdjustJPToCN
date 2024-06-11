@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "6CRH穿甲弹",
 	time = 3,
-	color = "yellow",
+	name = "6CRH穿甲弹",
+	init_effect = "",
+	id = 6961,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6961,
+	color = "yellow",
 	icon = 6960,
 	last_effect = "",
 	effect_list = {

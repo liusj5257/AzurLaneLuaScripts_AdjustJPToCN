@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO12",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900012,
 			stopbgm = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
 			actorName = "옵저버",
 			say = " '코드 G'가 거울 해역을 이탈한 것 같네. 반응이 사라졌어.",
 			typewriter = {
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "옵저버",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "옵저버",
 			say = "같은 '인자'를 가지고 있기 때문이겠지. 그녀는 언젠가 또 우리들을 만나러 올 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "옵저버",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "옵저버",
 			say = "분명 인간들이 하던 말 중에는…",
 			typewriter = {
 				speed = 0.05,
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "옵저버",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "옵저버",
 			say = " '강자는 늘 고독하다' 라는 말이 있지…",
 			typewriter = {
 				speed = 0.05,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "옵저버",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "옵저버",
 			say = " '코드 G'… 당신은 계속 강자로 남아있으면 돼. 후후후후…",
 			typewriter = {
 				speed = 0.05,

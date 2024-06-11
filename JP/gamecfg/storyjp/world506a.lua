@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD506A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD506A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900227,
 			stopbgm = true,
-			bgName = "bg_burningsea_1",
+			side = 2,
 			actorName = "エンタープライズ(META)",
 			dir = 1,
-			side = 2,
+			bgName = "bg_burningsea_1",
+			actor = 900227,
 			nameColor = "#ffa500",
 			say = "私のことがわかるか？",
 			flashin = {
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "エンタープライズ(META)",
 			say = "メンタルバイバスは正常のようだ。手短に教えてくれ。今の戦況は？",
 			typewriter = {
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "エンタープライズ(META)",
 			say = "セイレーンによる枝の切り取り、か",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "エンタープライズ(META)",
 			say = "………あなたは「復讐」を望むか？",
 			typewriter = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "エンタープライズ(META)",
 			say = "……まだ自分の力を理解していないようだな",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "エンタープライズ(META)",
 			say = "灯火が消えても、余燼は残る",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "エンタープライズ(META)",
 			say = "私は「エンタープライズ」。もっとも、あなたが知っているエンタープライズではないが………「アーク・ロイヤル」、私と一緒に来るか？",
 			typewriter = {
@@ -254,15 +254,15 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "ご主人様、気が付きましたか？ご気分はいかがでしょうか？",
 			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "ご主人様、気が付きましたか？ご気分はいかがでしょうか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "軽くめまいがするが、なんとか体を起こせた。",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "特異点の内部………周りを見渡すと、まるで戦火で荒廃した海のようだ",
 			typewriter = {
 				speed = 0.05,
@@ -385,12 +385,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ふとTBの存在を思い出す。",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "相変わらず特異点は鏡面海域以上に厄介だ……",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ベルファストに言われたとおり、すこし目をつむって静養することにした。",
 			typewriter = {
 				speed = 0.05,

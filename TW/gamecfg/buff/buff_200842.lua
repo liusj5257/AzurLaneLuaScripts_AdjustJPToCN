@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 圣女贞德前排护盾",
 	time = 5,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 圣女贞德前排护盾",
+	init_effect = "",
+	id = 200842,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200842,
+	color = "yellow",
 	icon = 200842,
 	last_effect = "Shield",
 	effect_list = {
@@ -29,11 +29,7 @@ return {
 				skill_id = 13302,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						type = "BattleBuffShield",
-						op = "lessequal"
-					}
+					"BattleBuffShield<=0"
 				}
 			}
 		},
@@ -46,11 +42,7 @@ return {
 				skill_id = 200842,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						type = "BattleBuffShield",
-						op = "great"
-					}
+					"BattleBuffShield>0"
 				}
 			}
 		}

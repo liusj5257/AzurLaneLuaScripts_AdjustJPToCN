@@ -1,34 +1,34 @@
 slot0 = class("WorldMapOp", import("...BaseEntity"))
 slot0.Fields = {
-	updateAttachmentCells = "table",
+	terrainUpdates = "table",
 	fleetUpdates = "table",
-	anim = "string",
+	drops = "table",
 	callbacksWhenApplied = "table",
-	op = "number",
+	destMapId = "number",
 	salvageUpdates = "table",
 	hiddenAttachments = "table",
 	path = "table",
-	hiddenCells = "table",
-	depth = "number",
-	stepOps = "table",
-	staminaUpdate = "table",
-	arg1 = "number",
 	duration = "number",
+	depth = "number",
+	updateAttachmentCells = "table",
+	childOps = "table",
+	arg1 = "number",
+	anim = "string",
 	arg2 = "number",
 	effect = "table",
 	applied = "boolean",
 	skipDisplay = "boolean",
-	destMapId = "number",
+	op = "number",
 	id = "number",
 	trap = "number",
 	routine = "function",
 	updateCarryItems = "table",
 	entranceId = "number",
 	pos = "table",
-	childOps = "table",
-	drops = "table",
+	hiddenCells = "table",
+	stepOps = "table",
 	locations = "table",
-	terrainUpdates = "table",
+	staminaUpdate = "table",
 	attachment = "table",
 	shipUpdates = "table",
 	fleetAttachUpdates = "table",
@@ -36,7 +36,7 @@ slot0.Fields = {
 	destGridId = "number"
 }
 
-function slot0.Apply(slot0)
+slot0.Apply = function(slot0)
 	assert(not slot0.applied, "current op has been applied.")
 
 	slot0.applied = true
@@ -239,7 +239,7 @@ function slot0.Apply(slot0)
 	end
 end
 
-function slot0.ApplyAttachmentUpdate(slot0)
+slot0.ApplyAttachmentUpdate = function(slot0)
 	slot1 = getProxy(WorldProxy)
 	slot3 = nowWorld():GetActiveMap()
 
@@ -262,7 +262,7 @@ function slot0.ApplyAttachmentUpdate(slot0)
 	end
 end
 
-function slot0.ApplyNetUpdate(slot0)
+slot0.ApplyNetUpdate = function(slot0)
 	slot1 = getProxy(WorldProxy)
 	slot3 = nowWorld():GetActiveMap()
 
@@ -308,7 +308,7 @@ function slot0.ApplyNetUpdate(slot0)
 	end
 end
 
-function slot0.AddCallbackWhenApplied(slot0, slot1)
+slot0.AddCallbackWhenApplied = function(slot0, slot1)
 	if not slot0.callbacksWhenApplied then
 		slot0.callbacksWhenApplied = {}
 	end

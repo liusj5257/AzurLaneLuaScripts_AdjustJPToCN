@@ -1,16 +1,16 @@
 slot0 = class("GameRoomCoinLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GameRoomCoinUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.totalCount = 0
 	slot0.curCount = 0
 	slot0.maxCoin = 0
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.window = findTF(slot0._tf, "ad/window")
 	slot0.text = findTF(slot0._tf, "ad/window/text")
 	slot1 = slot0.contextData.position
@@ -47,17 +47,17 @@ function slot0.didEnter(slot0)
 	slot0:updateUI()
 end
 
-function slot0.changeVisible(slot0, slot1)
+slot0.changeVisible = function(slot0, slot1)
 	setActive(slot0.window, slot1)
 	slot0:updateUI()
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot0:updateCoin()
 	slot0:updateCount()
 end
 
-function slot0.updateCoin(slot0)
+slot0.updateCoin = function(slot0)
 	slot0.totalCount = getProxy(GameRoomProxy):getCoin() or 0
 
 	if slot0.totalCount < slot0.curCount then
@@ -65,7 +65,7 @@ function slot0.updateCoin(slot0)
 	end
 end
 
-function slot0.updateCount(slot0)
+slot0.updateCount = function(slot0)
 	if slot0.maxCoin < slot0.curCount then
 		slot0.curCount = slot0.maxCoin
 	end
@@ -82,10 +82,10 @@ function slot0.updateCount(slot0)
 	slot0:emit(GameRoomCoinMediator.CHANGE_COIN_NUM, slot0.curCount)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

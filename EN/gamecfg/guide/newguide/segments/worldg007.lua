@@ -7,8 +7,8 @@ return {
 				"EnterPort"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
 				triggerType = {
 					1
 				},
@@ -37,9 +37,9 @@ return {
 			style = {
 				text = "Tap the missions button to bring up the list of available missions! There will be more missions for you to take on as you progress the story!",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {
@@ -62,9 +62,9 @@ return {
 			style = {
 				text = "The item lineup in the store changes regularly, so don’t forget to give it a look whenever you dock in a port!",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {
@@ -87,9 +87,9 @@ return {
 			style = {
 				text = "Here at the dock you can repair your ships or update your fleet composition!",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {

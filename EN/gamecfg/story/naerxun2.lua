@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Virtue of Being Earnest\n\n<size=45>2.Stop Seeing Right Through Me!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "The day after Nelson returned from her mission...",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "The day after Nelson returned from her mission...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "Huh?!... R-Rodney?! Right back at you! It's dangerous to randomly yell at people if they're lost in thought!",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "Nothing random about it. I'm just heading back after reporting on our successful operation~",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "Yup, nice and slow around the shoulders~ ",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "Teehee~",
 			typewriter = {
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Without even waiting for a reply, Nelson rushed off, leaving Rodney behind.",
 			typewriter = {
 				speed = 0.05,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "Sigh... maybe I should make an effort to praise the commander next time I'm at the office...",
 			typewriter = {
 				speed = 0.05,

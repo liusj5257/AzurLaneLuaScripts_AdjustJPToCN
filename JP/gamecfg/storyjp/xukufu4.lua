@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ジュルネ・シュルクーフ！\n\n<size=45>四 シュルクーフのお昼</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港·食堂",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港·食堂",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "指揮官、肉団子とタコウィンナー、あとこれ……うん、これもこれも！ちょうだい！",
 			typewriter = {
 				speed = 0.05,
@@ -164,11 +164,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "本当？よかった～指揮官、お仕事が終わったら、ダンケルクの所に行ってお菓子食べに行こうよ！",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -301,9 +301,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かにシュルクーフは普段、だらけてるように見えるけど……",
 			typewriter = {
 				speed = 0.05,
@@ -311,9 +311,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "戦闘や任務については悪い噂どころか、むしろ評価が上々だと聞く。",
 			typewriter = {
 				speed = 0.05,

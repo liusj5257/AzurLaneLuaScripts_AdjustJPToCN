@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 信仰加护-Royal",
 	time = 0,
-	color = "yellow",
+	name = "2023英系活动 信仰加护-Royal",
+	init_effect = "",
+	id = 200339,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200339,
+	color = "yellow",
 	icon = 200339,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 300
+				number = 300,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 300
+				number = 300,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 300
+				number = 300,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 300
+				number = 300,
+				attr = "airPower"
 			}
 		},
 		{
@@ -61,8 +61,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 300
+				number = 300,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -72,8 +72,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 300
+				number = 300,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -83,8 +83,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 300
+				number = 300,
+				attr = "dodgeRate"
 			}
 		}
 	}

@@ -9,9 +9,9 @@ return {
 			style = {
 				text = "セイレーン実験場の謎を解くにはギミックを突破しなければなりません",
 				mode = 2,
-				posY = -100,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -100,
 				posX = 300
 			},
 			showSign = {
@@ -34,9 +34,9 @@ return {
 			style = {
 				text = "離脱を選択すれば実験場から脱出可能です。実験場のギミックが復元してしまいます",
 				mode = 2,
-				posY = -100,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -100,
 				posX = 500
 			},
 			showSign = {

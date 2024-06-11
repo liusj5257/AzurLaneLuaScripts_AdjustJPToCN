@@ -1,6 +1,6 @@
 slot0 = class("ReturnerAwardWindow", import(".PtAwardWindow"))
 
-function slot1(slot0, slot1, slot2, slot3)
+slot1 = function(slot0, slot1, slot2, slot3)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -33,7 +33,7 @@ function slot1(slot0, slot1, slot2, slot3)
 	slot0.UIlist:align(#slot1)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot7 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot1.resId

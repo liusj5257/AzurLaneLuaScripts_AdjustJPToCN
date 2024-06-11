@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "在島上探險時迷失了道路，不知走到了森林深處的哪片角落。",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "在這裡，似乎生長著許多顏色怪異的巨大發光蘑菇。你決定——",
 			typewriter = {
 				speed = 0.05,

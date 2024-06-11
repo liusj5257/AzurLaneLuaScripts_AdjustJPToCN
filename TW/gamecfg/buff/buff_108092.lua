@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "为六花提供支援武装标记",
 	time = 0,
+	name = "为六花提供支援武装标记",
+	init_effect = "",
 	picture = "",
 	desc = "标记-DRILL",
 	stack = 1,

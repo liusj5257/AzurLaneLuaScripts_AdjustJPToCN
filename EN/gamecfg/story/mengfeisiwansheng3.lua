@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Halloween Chaos!\n\n<size=45>Chapter 3: The Same Old Prank</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
-			actorName = "Pumpkin?",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "......",
+			bgName = "bg_night",
 			bgm = "story-1",
+			actorName = "Pumpkin?",
+			say = "......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_night",
-			actorName = "Pumpkin?",
 			dir = 1,
+			actorName = "Pumpkin?",
 			say = "KABOOM!!",
 			dialogShake = {
 				speed = 0.09,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 101421,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			actor = 101421,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "Everyone",
 			say = "Whaaaa?!",
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "You thought it was a pumpkin. BUT IT WAS ME, ABERCROMBIE! Ahahaha! Gotcha, didn't I?",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 213041,
 			dir = 1,
+			actor = 213041,
 			nameColor = "#a9f548",
 			say = "Sorry! Hey, Smalley, are you alright?",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 101421,
 			dir = 1,
+			actor = 101421,
 			nameColor = "#a9f548",
 			say = "Yes. But I lost the candy and my delivery service is ruined.",
 			typewriter = {
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301411,
 			actorName = "Jiangshi?",
 			say = "I'll help... with the candy.",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 301411,
 			dir = 1,
+			actor = 301411,
 			nameColor = "#a9f548",
 			say = "Hip~ Hop~ Here. The Candy.",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301411,
+			nameColor = "#a9f548",
 			say = "Yes. Mikazuki is a jiangshi. Hip~ Hop~ Give me taiyaki.",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 101120,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101120,
+			nameColor = "#a9f548",
 			say = "Damn right you're helping, Abercrombie! This is all your fault to begin with!",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,13 +421,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "......",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -548,10 +548,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
+			hideOther = true,
 			dir = 1,
 			actor = 101090,
 			actorName = "Everyone",
@@ -586,17 +586,17 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			stopbgm = true,
 			side = 2,
-			actor = 900202,
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
+			actor = 900202,
 			nameColor = "#a9f548",
 			say = "Hehehe... Infiltration successful...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

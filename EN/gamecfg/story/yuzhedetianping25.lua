@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING25",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			say = "A mixed fleet consisting of Sakuran and Iris forces just so happened to be nearby when Marco Polo's throne was shot out of the sky.",
 			stopbgm = true,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgm = "theme-thehierophantV",
-			say = "A mixed fleet consisting of Sakuran and Iris forces just so happened to be nearby when Marco Polo's throne was shot out of the sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "Said fleet was originally sent there to clear the surrounding area of enemies. They began their search for the wreckage once they'd confirmed the Horseman had ceased operation.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "It didn't matter whether Marco Polo had lost her mind or just been manipulated – she had to be rescued.",
@@ -45,10 +45,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 803010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I think the throne is somewhere around here! Keep your eyes peeled, everyone!",
 			painting = {
 				alpha = 0.3,
@@ -59,17 +59,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(While the whole sky darkened after that explosion, the area ahead feels even darker than its surroundings.)",
 			painting = {
 				alpha = 0.3,
@@ -98,10 +98,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(It's as though something is blocking the light... Or absorbing it, like a black hole?)",
 			painting = {
 				alpha = 0.3,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is a good time to turn on my searchlights!",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now it'll be easy to–",
 			painting = {
 				alpha = 0.3,
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "Shimakaze's searchlights lit up the sea around her – and also revealed a misty hole in space.",
@@ -159,17 +159,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.125,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.125,
 				dur = 0.125,
 				black = true,
+				delay = 0.125,
 				alpha = {
 					1,
 					0
@@ -180,10 +180,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whoa, it's pitch black! Is it... swallowing up the light?",
 			painting = {
 				alpha = 0.3,
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's just like a black hole, isn't it?",
 			painting = {
 				alpha = 0.3,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "Though the light could not pierce the darkness, it allowed everyone to clearly see its outline.",
@@ -226,10 +226,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's like an egg, jutting out of the water... Does that mean there's more of it underwater?",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I think I remember reading about a sacrament that roughly matched this thing's description.",
 			painting = {
 				alpha = 0.3,
@@ -259,12 +259,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We've already established that the unknown substance is what's creating all the enemies.",
 			painting = {
 				alpha = 0.3,
@@ -276,12 +276,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So, it's possible that this other unknown substance produces a different breed of enemy.",
 			painting = {
 				alpha = 0.3,
@@ -293,12 +293,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The clouds swallow our aircraft and spit out twisted versions of them, while the cocoons produce enemies reminiscent of mass-produced ships.",
 			painting = {
 				alpha = 0.3,
@@ -313,10 +313,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302210,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The aircraft were liquid, and the mass-produced ships were solid. Therefore, perhaps this hole creates gaseous enemies?",
 			painting = {
 				alpha = 0.3,
@@ -328,12 +328,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It would explain why your searchlights are ineffective if the gas is really, really, REALLY dense.",
 			painting = {
 				alpha = 0.3,
@@ -348,10 +348,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302210,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Assuming this thing does spawn more enemies, we should destroy it now before it becomes fully operational.",
 			painting = {
 				alpha = 0.3,
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What do you think, Shinano? Should we attack?",
 			painting = {
 				alpha = 0.3,
@@ -383,10 +383,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This one is inclined to do so... Lady Jeanne, what do you think?",
 			painting = {
 				alpha = 0.3,
@@ -401,10 +401,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "On the one hand, we should study what we're dealing with. On the other, I agree with Noshiro.",
 			painting = {
 				alpha = 0.3,
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I think that we should back off and bombard it with our aircraft.",
 			painting = {
 				alpha = 0.3,
@@ -436,10 +436,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That way, we can retreat quickly if something happens, and if Marco Polo for some reason is inside it, she'll suffer less damage than from direct cannon fire.",
 			painting = {
 				alpha = 0.3,
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So be it... Hakuryuu, prepare your bombers...",
 			painting = {
 				alpha = 0.3,
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 399050,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "On it. Been waiting too long as it is to use them.",
 			painting = {
 				alpha = 0.3,
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_underheaven_6",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -536,8 +536,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "Hakuryuu's aircraft dropped their bombs on the foggy cocoon, engulfing it in explosions.",
@@ -547,8 +547,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "The very next moment, it retaliated with a shockwave.",
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "It took everyone. Hakuryuu, Noshiro, Shinano, Jeanne... the black mist engulfed every shipgirl who stood there.",
@@ -569,8 +569,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
 			blackBg = true,
 			sequence = {
@@ -584,17 +584,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -602,13 +602,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
+			say = "Inside a strikingly decorated office room, Marco Polo sat at her desk with a defeated expression.",
 			oldPhoto = true,
 			bgm = "theme-threat-typeV",
-			say = "Inside a strikingly decorated office room, Marco Polo sat at her desk with a defeated expression.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,13 +691,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I want to restore the Empire's glory, I want to spread it all across the world, but nobody empathizes with my cause no matter the approach I take!",
 			painting = {
 				alpha = 0.3,
@@ -747,8 +747,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -759,13 +759,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This cross must be ancient. Has it always been lying on my desk?",
 			painting = {
 				alpha = 0.3,
@@ -777,8 +777,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -804,13 +804,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Huh?!",
 			effects = {
 				{
@@ -828,13 +828,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is this... a sign from God?",
 			painting = {
 				alpha = 0.3,
@@ -861,13 +861,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "He has the power to destroy the Sirens...",
 			effects = {
 				{
@@ -903,8 +903,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_501",
-			oldPhoto = true,
 			dir = 1,
+			oldPhoto = true,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

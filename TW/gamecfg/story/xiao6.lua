@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"忍者修行之路？\n\n<size=45>六　黑暗之中</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			say = "在這黑暗中，不知道過去了多久。時間彷彿也慢了下來。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,21 +45,21 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "……",
 			actorName = "{namecode:11}",
+			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-2",
 			dir = 1,
 			blackBg = true,
-			say = "……",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "感覺{namecode:11}抱得更緊了。",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "對了，光顧著注意{namecode:11}的狀態，忘記了一件重要的事情。面前的桌面上，沒記錯的話應該放了一個手電筒。",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "原本被緊緊抱住的觸感消失了。",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:11}",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "{namecode:11}迫不及待地打開了手電筒。",
 			typewriter = {
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			actor = 102060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 102060,
 			stopbgm = true,
 			say = "欸？",
 			typewriter = {
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "面前猝不及防地出現了一個人。",
 			typewriter = {
 				speed = 0.05,
@@ -245,11 +245,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "呀啊！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -271,9 +271,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "{namecode:11}嚇得暈了過去。",
 			typewriter = {
 				speed = 0.05,
@@ -281,13 +281,13 @@ return {
 			}
 		},
 		{
-			actor = 102060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我，我只是剛好路過指揮室，擔心這裡的情況所以進來看看……沒，沒事吧！",
 			bgm = "story-1",
+			actor = 102060,
+			nameColor = "#a9f548",
+			say = "我，我只是剛好路過指揮室，擔心這裡的情況所以進來看看……沒，沒事吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,9 +298,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "結果為了照顧到{namecode:11}醒來，在來電之後還折騰了一小會。",
 			typewriter = {
 				speed = 0.05,

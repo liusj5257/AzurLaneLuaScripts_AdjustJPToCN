@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"セントーと先輩たち\n\n<size=45>一　憧れの先輩へ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・埠頭",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・埠頭",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			actor = 206010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "私のターン！ドロー！",
 			soundeffect = "event:/battle/plane",
+			actor = 206010,
+			nameColor = "#a9f548",
+			say = "私のターン！ドロー！",
 			effects = {
 				{
 					active = true,
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "ハーミーズ、今日も絶好調。",
 			effects = {
 				{
@@ -101,13 +101,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
+			dir = 1,
 			say = "そういえば、ドックの壁の向こうから視線が……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,8 +137,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "し、指揮官、おはようございます！",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -164,8 +164,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ええと、私、怪しいことはなにも……！ただ……",
 			typewriter = {
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "セントーの視線を追うと、そこには一人でドロー練習をやっているハーミーズがいた。",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "指揮官、助けていただけますでしょうか…",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "えええ！？",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -298,10 +298,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "あの、ハーミーズ先輩……",
+			dir = -1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -335,8 +335,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "は、はい！",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "予想外に気さくな先輩にセントーはほっとした。",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "え、ええ？",
 			subActors = {
@@ -426,16 +426,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2250
@@ -443,9 +443,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "セントーはハーミーズに引っ張ってどこかへ連れて行かれた。",
 			typewriter = {
 				speed = 0.05,

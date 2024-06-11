@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动 塔干扰-燃烧",
 	time = 0,
+	name = "公海舰队活动 塔干扰-燃烧",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				time = 3,
 				dotType = 1,
 				currentHPRatio = 0.01,
-				time = 3,
 				k = 0
 			}
 		}

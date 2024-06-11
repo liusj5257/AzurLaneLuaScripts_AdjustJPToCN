@@ -1,20 +1,20 @@
 slot0 = class("GameRoomSnackView", import(".GameRoomBaseSnackView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GameRoomSnackUI"
 end
 
-function slot0.OnSendMiniGameOPDone(slot0)
+slot0.OnSendMiniGameOPDone = function(slot0)
 	slot0:updateCount()
 end
 
-function slot0.OnGetAwardDone(slot0)
+slot0.OnGetAwardDone = function(slot0)
 	if slot0.coinLayerVisible then
 		slot0:openCoinLayer(true)
 	end
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	uv0.super.addListener(slot0)
 
 	if slot0:getGameRoomData() then
@@ -29,7 +29,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateSDModel(slot0)
+slot0.updateSDModel = function(slot0)
 	slot1 = getProxy(PlayerProxy)
 	slot2 = slot1:getData()
 	slot3 = getProxy(BayProxy)
@@ -51,7 +51,7 @@ function slot0.updateSDModel(slot0)
 	end)
 end
 
-function slot0.updateSelectedList(slot0, slot1)
+slot0.updateSelectedList = function(slot0, slot1)
 	slot1 = slot1 or {}
 
 	for slot5 = 1, uv0.Order_Num do
@@ -70,7 +70,7 @@ function slot0.updateSelectedList(slot0, slot1)
 	end
 end
 
-function slot0.updateSnackList(slot0, slot1)
+slot0.updateSnackList = function(slot0, slot1)
 	for slot5 = 1, uv0.Snack_Num do
 		slot6 = slot0.snackContainer:GetChild(slot5 - 1)
 
@@ -82,7 +82,7 @@ function slot0.updateSnackList(slot0, slot1)
 	end
 end
 
-function slot0.updateSelectedOrderTag(slot0, slot1)
+slot0.updateSelectedOrderTag = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.selectedSnackTFList) do
 		slot7 = slot0:findTF("SelectedTag", slot6)
 
@@ -94,7 +94,7 @@ function slot0.updateSelectedOrderTag(slot0, slot1)
 	end
 end
 
-function slot0.openResultView(slot0)
+slot0.openResultView = function(slot0)
 	slot0.packageData = {
 		orderIDList = slot0.orderIDList,
 		selectedIDList = slot0.selectedIDList,

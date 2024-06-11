@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "main-arbitrationsystem-theme",
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Stop for a sec! I see people on the horizon!",
-			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,9 +205,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Oh dear, it's her... Now I remember what a nightmare it was to capture her.",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "They don't know we're here yet, so now's a good time to–",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "Pass by unnoticed? Sorry, but it's too late for that.",
 			typewriter = {
@@ -294,14 +294,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "You came at just the right time. I knew I could count on you to show up when I needed it.",
-			bgm = "battle-ashes-theme",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "What's the meaning of this, Hiryuu? I know you've been sneaking off on your own for a while now. Suppose you've made some new friends, huh?",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "And let's not forget we're up against Arbiters here. I'm not afraid to pull a few strings to gain an advantage over them.",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "I'm aware, but remember what Takao said about minimising contact with outsiders?",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "It's a little late for that now. They found me before I found them.",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "Hmph... Whatever you bloody well say.",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "A small argument broke out between the Ashes members just as we got here.",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Ark Royal conceded the argument with a sigh, then directed her gaze at me.",
 			typewriter = {
 				speed = 0.05,
@@ -464,9 +464,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "...So you're the one. The Commander she – \"Code G\" – is so fond of.",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 1,
 			say = "......",
 			typewriter = {
@@ -504,10 +504,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 9707020,
-			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 1,
+			actor = 9707020,
+			nameColor = "#ffa500",
 			say = "Not in the mood for a conversation, eh.",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "\"And you're Ark Royal... Member of the Ashes.\"",
 			typewriter = {
@@ -535,10 +535,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 9707020,
-			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 2,
+			actor = 9707020,
+			nameColor = "#ffa500",
 			say = "The very same.",
 			typewriter = {
 				speed = 0.05,
@@ -553,8 +553,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "You're... an interesting one, Commander. I've heard the tales about you.",
 			typewriter = {
 				speed = 0.05,
@@ -584,8 +584,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "Your High––",
 			typewriter = {
 				speed = 0.05,
@@ -600,8 +600,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "...Yes, I am. Mind you, I may not necessarily be the Ark Royal you know.",
 			typewriter = {
 				speed = 0.05,
@@ -616,8 +616,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "...You don't need to know anything more than that.",
 			typewriter = {
 				speed = 0.05,
@@ -647,8 +647,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Please don't take offense, she's always like this. Having said that, perhaps you should take a leaf out of her book.",
 			typewriter = {
 				speed = 0.05,
@@ -663,8 +663,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Getting back on topic... Based on all your actions up to this point, it's safe to say you in fact are not allied with Antiochus.",
 			typewriter = {
 				speed = 0.05,
@@ -678,9 +678,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "That being the case, I'd like to propose a temporary truce between us. Together, we can get out of this sticky situation. What do you say?",
 			typewriter = {
 				speed = 0.05,
@@ -776,8 +776,8 @@ return {
 			expression = 6,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "We won't stop you from taking notes. After all, we're the ones asking for help here.",
 			typewriter = {
 				speed = 0.05,
@@ -792,8 +792,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "You sound sure we won't learn anything useful. We never wanted to fight you, you know. We just wanted to understand you. That's what the Commander wanted all along.",
 			typewriter = {
 				speed = 0.05,
@@ -808,8 +808,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "I see... Be that as it may, you aren't as trustworthy as you'd like to think you are. That's all I'll say on the matter.",
 			typewriter = {
 				speed = 0.05,
@@ -824,8 +824,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "At any rate, I'm certainly not opposed to occasionally teaming up to defeat a common enemy. Like now.",
 			typewriter = {
 				speed = 0.05,
@@ -837,8 +837,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: Temperance XIV",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -853,8 +853,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Hermit IX",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -869,8 +869,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: Strength VIII",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -885,8 +885,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Arbiter: The Hermit IX",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -901,9 +901,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
+			dir = 1,
 			say = "Doesn't look like we have much choice here but to join forces with the Ashes...",
 			typewriter = {
 				speed = 0.05,
@@ -915,9 +915,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
+			dir = 1,
 			say = "\"All ships! Target the Arbiters! Open fire!\"",
 			typewriter = {
 				speed = 0.05,

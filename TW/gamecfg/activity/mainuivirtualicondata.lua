@@ -1,7 +1,7 @@
 return {
 	{
-		Image = "doa_virtual_buff",
 		IsVirtualIcon = true,
+		Image = "doa_virtual_buff",
 		CheckExist = function ()
 			if not getProxy(ActivityProxy):getActivityById(ActivityConst.DOA_PT_ID) then
 				return false

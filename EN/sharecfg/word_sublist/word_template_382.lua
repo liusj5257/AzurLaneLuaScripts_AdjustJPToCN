@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_382 = {}
 slot1 = slot0.word_template_382
 
-function temp()
+temp = function()
 	uv0["羣"] = {
 		P = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["隂"] = {
 		b = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["灋"] = {
 		["\\"] = {
 			["輪"] = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["韃"] = {
 		["子"] = {
 			this = true
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.z = {
 		t = {
 			["验"] = {
@@ -221,7 +221,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["喫"] = {
 		["中"] = {
 			["國"] = {
@@ -237,7 +237,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["潤"] = {
 		["之"] = {
 			this = true

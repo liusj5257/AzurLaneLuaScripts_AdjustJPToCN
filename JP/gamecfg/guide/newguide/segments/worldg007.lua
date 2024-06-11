@@ -7,8 +7,8 @@ return {
 				"EnterPort"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
 				triggerType = {
 					1
 				},
@@ -37,9 +37,9 @@ return {
 			style = {
 				text = "「任務」をタップすれば港からの任務を確認できます。ストーリーが進めば請けれる任務の種類も増加します。",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {
@@ -62,9 +62,9 @@ return {
 			style = {
 				text = "ショップではアイテムを販売しています！商品のラインナップは時間が経てると更新されますので、こまめにチェックするといいでしょう",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {
@@ -87,9 +87,9 @@ return {
 			style = {
 				text = "ドックでは艦船の耐久を回復したり、艦隊編成を変更したりすることが可能です。",
 				mode = 2,
-				posY = 191.87,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 191.87,
 				posX = 9.1
 			},
 			showSign = {

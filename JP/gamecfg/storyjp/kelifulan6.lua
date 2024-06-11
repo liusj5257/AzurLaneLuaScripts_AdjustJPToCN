@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ナイト＆アワード\n\n<size=45>その六　奮発激励！</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "体育館の休憩室。クリーブランドたちは弱音こそ吐かないが、総じて暗い顔をしている。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "体育館の休憩室。クリーブランドたちは弱音こそ吐かないが、総じて暗い顔をしている。",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "プンプンするクリーブランドに続いて、みんなの顔も少しずつ明るくなった。",
 			typewriter = {
 				speed = 0.05,
@@ -124,16 +124,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "ええい！試合はまだ終わっていないぞ！「海上騎士団」の底力を見せてやれ！！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -149,18 +149,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "デンバー＆モントピリア",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "おおお！！！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -201,17 +201,17 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			actorName = "{namecode:63}",
-			bgName = "star_level_bg_103",
 			side = 2,
 			dir = -1,
+			bgName = "star_level_bg_103",
+			bgm = "battle-boss-6",
+			actor = 303070,
 			nameColor = "#a9f548",
 			say = "このままでは押し切られるぞ！なんとしてもパスを止めるのだ！",
-			bgm = "battle-boss-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			actor = 302120,
+			say = "くっ！連携された途端にこっちの戦術が…！",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302120,
 			actorName = "{namecode:38}",
-			say = "くっ！連携された途端にこっちの戦術が…！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "（ガチャーン！！！）",
 			typewriter = {
 				speed = 0.05,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "試合終了を知らせるホイッスルの音と同時に、クリーブランドによる猛烈なダンクが炸裂した。",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "勝利を決めたクリーブランドはそのままこっちに飛びかかってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "――勝利の喜びを共に分かち合った少女は体こそ華奢だが、その抱擁はどこまでも力強かった。",
 			typewriter = {
 				speed = 0.05,

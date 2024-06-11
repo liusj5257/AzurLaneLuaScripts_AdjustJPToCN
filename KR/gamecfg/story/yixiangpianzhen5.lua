@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YIXIANGPIANZHEN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YIXIANGPIANZHEN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"이방성 편광\n\n<size=45>5. 기록 공간</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "???·???",
 			bgm = "story-2",
+			say = "???·???",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "앵커리지…? TB?",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "………….",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "여전히 자유롭게 움직일 수 있다는 건 현재 연결 상태가 안정적이라는 뜻이야.",
 			typewriter = {
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "지금 상황은 어쩌면 데이터가 과하게 쏟아지면서 생겨난 것일지도 모르겠어….",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "응. 흰색으로 둘러싸인 텅 빈 공간이지만 일단 한번 탐색해 보자——",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "순간, 멀지 않은 곳에 문이 보였다.",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "문 주변에는 아무런 지지대도 없었고, 그저 공중에 문 하나만 우뚝 솟아 있었다.",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "문 옆에는... 앵커리지?",
 			typewriter = {
@@ -149,10 +149,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "선생님… 와줬구나!",
 			painting = {
 				alpha = 0.3,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "여긴…?",
 			typewriter = {
@@ -187,10 +187,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "앵커리지의… 꿈이야! 문 안에… 재미있는 이야기가 있어!",
 			painting = {
 				alpha = 0.3,
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			actor = 199030,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…선생님과 공유하고 싶어!",
 			painting = {
 				alpha = 0.3,
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "앵커리지의 꿈…?",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "이상하다…. 이전의 교실이 이미 앵커리지의 꿈 속이었는데.",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "여긴 혹시 꿈속 앵커리지가 꿈꾸던 장면인 걸까…?",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "……….",
 			typewriter = {
@@ -268,10 +268,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……응! 선생님… 가봐!",
 			painting = {
 				alpha = 0.3,
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "앵커리지가 문을 가리켰다. 나보고 문을 밀고 들어가라는 뜻인 것 같다.",
 			typewriter = {
@@ -312,10 +312,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "앵커리지는… 이번에는… 안 가!",
 			painting = {
 				alpha = 0.3,
@@ -330,10 +330,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "선생님… 처음 왔으니까, 공유해 줄게… 선생님……!",
 			painting = {
 				alpha = 0.3,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "그렇다면, 들어가 보자.",
 			typewriter = {
@@ -355,13 +355,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			stopbgm = true,
-			say = "…… 문을 밀었다.",
+			nameColor = "#A9F548FF",
 			bgmDelay = 0.5,
 			bgm = "theme-arbitrator-tower",
+			stopbgm = true,
+			say = "…… 문을 밀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,8 +374,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -383,8 +383,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "아니, 정확히 말하면 손이 문에 닿는 순간, 커다란 목소리가 머리 속에 전해져 울렸다.",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			say = "………방금 목소리는 대체!?",
@@ -447,12 +447,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_aircraft_future",
 			nameColor = "#a020f0",
 			stopbgm = true,
-			oldPhoto = true,
+			actor = 900332,
 			actorName = "？？",
 			say = "………….",
 			typewriter = {
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
-			bgm = "theme-dailyfuture",
 			say = "흰 공간이 사라지고 어두운 방과 그 가운데 서있는 여성이 대신 나타났다.",
+			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "？？",
 			say = "너무 급해, 조급해 하지마. 난 한 편의 기록일 뿐이야. 음…… 자주적인 능력이 있는 기록이랄까?",
 			painting = {
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "？？",
 			say = "그래, 아무튼 천천히 설명해 줄게.",
 			painting = {
@@ -523,12 +523,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "？？",
 			say = "먼저, \"내가 누구인가\"에 대한 문제. 네가 이 형상의 원래 모습의 이름을 묻는 거라면, 그녀의 이름은 안제.",
 			painting = {
@@ -541,12 +541,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "？？",
 			say = "나는, 「리플레이어」라고 알면 돼.",
 			painting = {
@@ -559,12 +559,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "이곳은…… 정보로 구성된 공간이야.",
 			painting = {
@@ -577,12 +577,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "음…… 「성정 큐브 네트워크」의 틈새에 존재하는 정보로 구성된 공간이랄까?",
 			painting = {
@@ -595,12 +595,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "이렇게 말하면 이해할 수 있겠어? 모르겠다고 해도 상관 없어. 아무튼 여긴 탐지되지 않는 공간이야.",
 			painting = {
@@ -613,12 +613,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "원래대로라면 이렇게 일찍 너에게 발견되지도 말았어야 했고……",
 			painting = {
@@ -631,11 +631,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aircraft_future",
+			side = 2,
 			oldPhoto = true,
 			dir = 1,
+			bgName = "bg_aircraft_future",
 			say = "……\"이렇게 일찍 발견되지 말았어야 했다\"?",
 			painting = {
 				alpha = 0.3,
@@ -647,12 +647,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "그래…… 뭐랄까……이 기록은 「지금의 너」에게는 아직 이르다고 할까?",
 			painting = {
@@ -665,12 +665,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "네가 여기 온 것은 아마도…… 버그 같은 현상이려나?",
 			painting = {
@@ -683,12 +683,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "됐어…… 안제는 항상——\"무작위성이 항상 나쁜 결과를 초래하지는 않는다\"고 믿었지.",
 			painting = {
@@ -701,12 +701,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "지금 이 상황은 어떤 확률로 허락된 인연이라고 생각하면 돼.",
 			painting = {
@@ -719,12 +719,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "물론 이 정보 공간의 존재는 이 아이에게 절대적으로 무해하니 걱정하지는 마.",
 			painting = {
@@ -737,12 +737,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "\"내가 뭘 알고 있는지\"에 대해서는…… 안제가 당시의 내 안에 무엇을 넣었느냐에 달려 있어.",
 			painting = {
@@ -755,12 +755,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "음………… 어디 보자…… 아……",
 			painting = {
@@ -773,12 +773,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "……음………… 이런.",
 			painting = {
@@ -791,12 +791,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "이 기록에는 과도한 감정 데이터만 들어간 것 같고 정보라고 할 만한 것은 아무것도 없어!",
 			painting = {
@@ -819,12 +819,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "안제는 나를 만들 때, 단지 어느 순간, 어느 장소에서 너를 다시 만나게 해주고 싶은…… 그런 느낌 뿐이었어.",
 			painting = {
@@ -837,12 +837,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "아니…… 이 감정 데이터는 너무나도 모호해.",
 			painting = {
@@ -855,12 +855,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "어느 순간 어디선가 널 다시 만나고 싶다는 의미로 해석하는 것도 맞는 것 같은데……?",
 			painting = {
@@ -873,12 +873,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "……어쩌면 안제의 이 형상 자체를 바로 이 기록을 통해 너에게 전해주고 싶은 것일 수도 있어.",
 			painting = {
@@ -891,12 +891,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "그녀는…… 네가 그녀를 기억해주길 바래. 설령 이미 아무 기억이 나지 않는다고 해도, 이미 너가 아니라고 해도.",
 			painting = {
@@ -909,12 +909,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "구체적인 건 나도 모르겠어…… 난 단지 리플레이어일 뿐이니까.",
 			painting = {
@@ -927,11 +927,11 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_aircraft_future",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "………….",
 			painting = {
 				alpha = 0.3,
@@ -949,12 +949,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "몰라, 기록에 존재하지 않는 정보를 줄 수는 없어.",
 			painting = {
@@ -967,12 +967,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "내가 감정적으로 생각할 수 있는 것처럼 보이지만, 이것은 단지 위장일 뿐이야.",
 			painting = {
@@ -985,12 +985,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "나의 본질은 단지 명령에 따라 행동하는 프로그램일 뿐이니까.",
 			painting = {
@@ -1003,15 +1003,15 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			nameColor = "#a020f0",
 			side = 2,
-			bgName = "bg_aircraft_future",
-			stopbgm = true,
+			oldPhoto = true,
 			dir = 1,
-			actorName = "리플레이어",
+			stopbgm = true,
+			bgName = "bg_aircraft_future",
 			bgm = "theme-threat-typeV",
 			actor = 900332,
-			nameColor = "#a020f0",
+			actorName = "리플레이어",
 			say = "잠깐………… 무언가 이곳으로 접근하고 있어.",
 			painting = {
 				alpha = 0.3,
@@ -1023,8 +1023,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1033,12 +1033,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
-			bgName = "bg_aircraft_future",
+			side = 2,
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			bgName = "bg_aircraft_future",
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "무언가가 널 따라왔어!",
 			painting = {
@@ -1047,8 +1047,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1067,9 +1067,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
+			side = 2,
 			oldPhoto = true,
 			say = "뭐지……? TB인가?",
 			typewriter = {
@@ -1084,8 +1084,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			say = "TB는 확실히 여기 들어와서도 나랑 계속 동기화되긴 했는데 아까부터 반응이 없었어.",
@@ -1095,8 +1095,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			say = "그리고 여긴 탐지되지 않는 공간이라고 하지 않았나?",
@@ -1106,12 +1106,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "………………………………",
 			painting = {
@@ -1124,12 +1124,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "리플레이어",
 			say = "경고: 제V형 위협의 접근이 감지되었습니다. 안전 협의에 따라 이 기록 공간은 자동 소멸됩니다.",
 			painting = {
@@ -1144,11 +1144,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_1104",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "선생님!",
 			painting = {
 				alpha = 0.3,
@@ -1160,8 +1160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1194,10 +1194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "얼른… 여기서 나가자!",
 			painting = {
 				alpha = 0.3,
@@ -1209,8 +1209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1219,9 +1219,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
+			side = 2,
 			say = "사방이 다시 하얀 빛으로 뒤덮였고 앵커리지도 내 앞의 허공에서 나타났다.",
 			typewriter = {
 				speed = 0.05,
@@ -1235,8 +1235,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "하지만, 달려오는 앵커리지에게 손가락이 닿기도 전에 전에 없던 현기증이 머릿속을 가득 채웠다.",
 			typewriter = {
@@ -1245,8 +1245,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "높게 윙윙거리는 소리가 마치 나의 모든 뇌세포에서 울부짖는 것 같았고, 지각은 빠르게 나의 몸에서 빠져 나가고 있었다.",
 			typewriter = {
@@ -1257,11 +1257,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_1104",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "선생님…! 조심해…! 안 돼…!!!",
 			painting = {
 				alpha = 0.3,
@@ -1273,8 +1273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1289,9 +1289,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
+			side = 2,
 			say = "………….",
 			typewriter = {
 				speed = 0.05,
@@ -1305,8 +1305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "또…… 중력을 잃은 느낌이다……",
 			typewriter = {

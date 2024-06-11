@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "活动buff-建筑效果-战斗减伤提高",
 	time = 0,
-	color = "yellow",
+	name = "活动buff-建筑效果-战斗减伤提高",
+	init_effect = "",
+	id = 511,
 	picture = "",
 	desc = "舰队减伤提高",
 	stack = 1,
-	id = 511,
+	color = "yellow",
 	icon = 511,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatio"
 			}
 		}
 	}

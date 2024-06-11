@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA37",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA37",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 303180,
-			side = 2,
 			bgName = "bg_mirror",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "やばっ、鏡面海域の発生だけでなく、敵の配置も言い当てるなんて…！",
 			bgm = "story-6",
+			actor = 303180,
+			nameColor = "#a9f548",
+			say = "やばっ、鏡面海域の発生だけでなく、敵の配置も言い当てるなんて…！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "なんで本島からわざわざ出迎えの艦隊を派遣したかが納得できたよ…",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "本当に危なかったです……",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "いいえ、この力は不安定…幾度も使えるものでは…むしろ皆を巻き込んでしまい、お詫び申す……",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "そんなことないよ！信濃さんがいなければみんな待ち伏せされて全滅だったわ…！",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "本島にこれほど近い距離でセイレーンが出現するなんて…信濃さんと積荷、やはり狙われてるのね",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……護衛に感謝を申す",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "しかし、敵の待ち伏せを見破ったのはいいけど、あの規模の大艦隊の包囲は輸送艦隊を抱えながら突破できるものじゃないわね",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "樫野はいいが、足の遅い輸送艦をどうやって守り切るか…悩ましい！",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "あとしばし待てば…テスターの艦隊が現れると思ふ",
 			typewriter = {
@@ -200,9 +200,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "指揮ユニットさえ倒せば……",
 			typewriter = {

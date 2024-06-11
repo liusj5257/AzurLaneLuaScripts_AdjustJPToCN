@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Science Rules!\n\n<size=45>Chapter 1 - An Afternoon, One Day</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "It was a clear afternoon...",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "It was a clear afternoon...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "KA-BOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
+			say = "KA-BOOM!",
 			flashN = {
 				color = {
 					1,
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "W-was that an explosion!?",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Yeah!",
 			typewriter = {
 				speed = 0.05,

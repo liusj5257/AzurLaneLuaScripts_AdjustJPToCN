@@ -6,18 +6,18 @@ slot0.Battle.BattleCardPuzzleFleetBuffAddFleetAttr = slot2
 slot2.__name = "BattleCardPuzzleFleetBuffAddFleetAttr"
 slot2.FX_TYPE = slot0.Battle.BattleBuffEffect.FX_TYPE_MOD_ATTR
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	slot0._tempData = Clone(slot1)
 	slot0._type = slot0._tempData.type
 
 	slot0:SetActive()
 end
 
-function slot2.GetEffectType(slot0)
+slot2.GetEffectType = function(slot0)
 	return uv0.FX_TYPE
 end
 
-function slot2.SetArgs(slot0, slot1, slot2)
+slot2.SetArgs = function(slot0, slot1, slot2)
 	uv0.super.SetArgs(slot0, slot1, slot2)
 
 	slot0._group = slot0._tempData.arg_list.group or slot0._fleetBuff:GetID()
@@ -32,7 +32,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	slot0._numberBase = slot0._number
 end
 
-function slot2.onRemove(slot0)
+slot2.onRemove = function(slot0)
 	if slot0._cache then
 		slot0._number = 0
 	end
@@ -40,19 +40,19 @@ function slot2.onRemove(slot0)
 	slot0:onTrigger()
 end
 
-function slot2.GetGroup(slot0)
+slot2.GetGroup = function(slot0)
 	return slot0._group
 end
 
-function slot2.GetNumber(slot0)
+slot2.GetNumber = function(slot0)
 	return slot0._number * slot0._fleetBuff:GetStack()
 end
 
-function slot2.IsSameAttr(slot0, slot1)
+slot2.IsSameAttr = function(slot0, slot1)
 	return slot0._attr == slot1
 end
 
-function slot2.onTrigger(slot0)
+slot2.onTrigger = function(slot0)
 	slot1 = slot0._cardPuzzleComponent
 
 	if slot0._cache then

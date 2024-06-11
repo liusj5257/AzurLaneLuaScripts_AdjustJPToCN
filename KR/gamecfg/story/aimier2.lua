@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"무희 천사 에밀\n\n<size=45>황금의 우정?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "에든버러는 에밀에게 용건이 있는 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			actor = 202110,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "에밀이라면 후다닥 해치워버릴 수 있다고~ 나, 이래 봬도 사람 보는 눈은 있으니까!",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "두 사람은 언제 이렇게나 친해진 걸까…？",
 			typewriter = {
 				speed = 0.05,
@@ -160,13 +160,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "에든버러의 말대로, 에밀은 오늘치 비서함 업무를 척척 해치웠다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,

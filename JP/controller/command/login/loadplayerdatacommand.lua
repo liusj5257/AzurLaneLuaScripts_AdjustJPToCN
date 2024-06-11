@@ -1,6 +1,6 @@
 slot0 = class("LoadPlayerDataCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.isNewPlayer
 
@@ -58,6 +58,10 @@ function slot0.execute(slot0, slot1)
 	if not LOCK_EDUCATE_SYSTEM then
 		slot0.facade:registerProxy(EducateProxy.New())
 	end
+
+	slot5 = slot0.facade
+
+	slot5:registerProxy(ApartmentProxy.New())
 
 	slot5 = pg.ConnectionMgr.GetInstance()
 

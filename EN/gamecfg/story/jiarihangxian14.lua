@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "Hehehe, that's not enough! That much won't do!",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "Ooh, majestic... Just as Mikasa said, you young'uns don't disappoint!",
 			flashN = {
 				color = {
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
+			actor = 307060,
 			hideOther = true,
 			dir = 1,
 			actorName = "{namecode:96}&{namecode:95}",
@@ -141,8 +141,8 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Aaand, stop!",
 			flashin = {
 				delay = 0.2,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Nyotengu appears content, and Shoukaku and Zuikaku seem to have learned something from this battle. I'll have to thank Mikasa for her great advice.",
 			typewriter = {
 				speed = 0.05,

@@ -21,15 +21,15 @@ slot0.ObjectiveList = {
 	"battle_result_defeat_all_enemys"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BattleResultUI"
 end
 
-function slot0.setRivalVO(slot0, slot1)
+slot0.setRivalVO = function(slot0, slot1)
 	slot0.rivalVO = slot1
 end
 
-function slot0.setRank(slot0, slot1, slot2)
+slot0.setRank = function(slot0, slot1, slot2)
 	slot0.player = slot1
 	slot0.season = slot2
 
@@ -47,11 +47,11 @@ function slot0.setRank(slot0, slot1, slot2)
 	slot0.calcPlayerProgress = slot0.calcPlayerRank
 end
 
-function slot0.setShips(slot0, slot1)
+slot0.setShips = function(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	setText(slot0._playerName, "<color=#FFFFFF>" .. slot0.player.name .. "</color><size=32> / C O M M A N D E R</size>")
@@ -74,12 +74,12 @@ function slot0.setPlayer(slot0, slot1)
 	end
 end
 
-function slot0.setExpBuff(slot0, slot1, slot2)
+slot0.setExpBuff = function(slot0, slot1, slot2)
 	slot0.expBuff = slot1
 	slot0.shipBuff = slot2
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._grade = slot0:findTF("grade")
 	slot0._levelText = slot0:findTF("chapterName/Text22", slot0._grade)
 	slot0.clearFX = slot0:findTF("clear")
@@ -148,7 +148,7 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.customsLang(slot0)
+slot0.customsLang = function(slot0)
 	setText(findTF(slot0._confirmBtn, "Text"), i18n("battle_result_confirm"))
 	setText(findTF(slot0._bg, "jieuan01/tips/dianjijixu/bg20"), i18n("battle_result_continue"))
 	setText(findTF(slot0._atkTpl, "result/dmg_count_label"), i18n("battle_result_dmg"))
@@ -158,7 +158,7 @@ function slot0.customsLang(slot0)
 	setText(findTF(slot0._conditions, "bg17"), i18n("battle_result_targets"))
 end
 
-function slot0.setGradeLabel(slot0)
+slot0.setGradeLabel = function(slot0)
 	slot1 = {
 		"d",
 		"c",
@@ -199,7 +199,7 @@ function slot0.setGradeLabel(slot0)
 	end
 end
 
-function slot0.displayerCommanders(slot0, slot1)
+slot0.displayerCommanders = function(slot0, slot1)
 	slot0.commanderExps = slot0.contextData.commanderExps or {}
 	slot2 = getProxy(CommanderProxy)
 
@@ -224,7 +224,7 @@ function slot0.displayerCommanders(slot0, slot1)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:setStageName()
 	slot0:customsLang()
 
@@ -271,7 +271,7 @@ function slot0.didEnter(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.setStageName(slot0)
+slot0.setStageName = function(slot0)
 	if slot0.contextData.system and slot0.contextData.system == SYSTEM_DUEL then
 		if slot0.rivalVO then
 			setText(slot0._levelText, slot0.rivalVO.name)
@@ -283,12 +283,12 @@ function slot0.setStageName(slot0)
 	end
 end
 
-function slot0.rankAnimaFinish(slot0)
+slot0.rankAnimaFinish = function(slot0)
 	SetActive(slot0:findTF("main/conditions"), true)
 
 	slot3 = pg.expedition_data_template[slot0.contextData.stageId]
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		if type(slot0) == "table" then
 			uv1:setCondition(i18n(uv0.ObjectiveList[slot0[1]], slot0[2]), uv0.objectiveCheck(slot0[1], uv1.contextData))
 		end
@@ -310,7 +310,7 @@ function slot0.rankAnimaFinish(slot0)
 	slot0._stateFlag = uv0.STATE_REPORT
 end
 
-function slot0.objectiveCheck(slot0, slot1)
+slot0.objectiveCheck = function(slot0, slot1)
 	if slot0 == 1 or slot0 == 4 or slot0 == 8 then
 		return slot1.score > 1
 	elseif slot0 == 2 or slot0 == 3 then
@@ -324,7 +324,7 @@ function slot0.objectiveCheck(slot0, slot1)
 	end
 end
 
-function slot0.setCondition(slot0, slot1, slot2)
+slot0.setCondition = function(slot0, slot1, slot2)
 	slot3 = cloneTplTo(slot0._conditionTpl, slot0._conditionContainer)
 
 	setActive(slot3, false)
@@ -354,7 +354,7 @@ function slot0.setCondition(slot0, slot1, slot2)
 	end
 end
 
-function slot0.showRewardInfo(slot0)
+slot0.showRewardInfo = function(slot0)
 	slot0._stateFlag = uv0.STATE_REWARD
 
 	if slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX then
@@ -473,8 +473,8 @@ function slot0.showRewardInfo(slot0)
 	end)()
 end
 
-function slot0.displayBG(slot0)
-	function slot1()
+slot0.displayBG = function(slot0)
+	slot1 = function()
 		uv0:displayShips()
 		uv0:displayPlayerInfo()
 		uv0:displayerCommanders()
@@ -498,7 +498,7 @@ function slot0.displayBG(slot0)
 	end, uv0.DURATION_MOVE)
 end
 
-function slot0.displayPlayerInfo(slot0)
+slot0.displayPlayerInfo = function(slot0)
 	slot1 = slot0:calcPlayerProgress()
 
 	SetActive(slot0._leftPanel, true)
@@ -517,7 +517,7 @@ function slot0.displayPlayerInfo(slot0)
 	end)).id)
 end
 
-function slot0.calcPlayerExp(slot0)
+slot0.calcPlayerExp = function(slot0)
 	slot1 = slot0.contextData.oldPlayer
 	slot2 = slot1.level
 	slot3 = slot0.player.level
@@ -535,14 +535,14 @@ function slot0.calcPlayerExp(slot0)
 	return slot4
 end
 
-function slot0.calcPlayerRank(slot0)
+slot0.calcPlayerRank = function(slot0)
 	slot1 = slot0.contextData.oldRank
 	slot2 = slot1.score
 
 	return slot0.season.score - slot1.score
 end
 
-function slot0.displayShips(slot0)
+slot0.displayShips = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0.shipVOs) do
@@ -714,7 +714,7 @@ function slot0.displayShips(slot0)
 	end
 end
 
-function slot0.stopVoice(slot0)
+slot0.stopVoice = function(slot0)
 	if slot0._currentVoice then
 		slot0._currentVoice:PlaybackStop()
 
@@ -722,7 +722,7 @@ function slot0.stopVoice(slot0)
 	end
 end
 
-function slot0.setAtkAnima(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+slot0.setAtkAnima = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot12 = slot0:findTF("result", slot1):GetComponent(typeof(DftAniEvent))
 
 	setText(slot0:findTF("result/atk", slot1), 0)
@@ -778,7 +778,7 @@ function slot0.setAtkAnima(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 		setActive(slot8, true)
 	end
 
-	function slot13()
+	slot13 = function()
 		uv0:GetComponent(typeof(Image)).fillAmount = uv1
 
 		setText(uv2, uv3)
@@ -798,7 +798,7 @@ function slot0.setAtkAnima(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot
 	table.insert(slot0._atkFuncs[slot2], slot13)
 end
 
-function slot0.skipAtkAnima(slot0, slot1)
+slot0.skipAtkAnima = function(slot0, slot1)
 	if slot0._atkFuncs[slot1] then
 		for slot5, slot6 in ipairs(slot0._atkFuncs[slot1]) do
 			slot6()
@@ -808,7 +808,7 @@ function slot0.skipAtkAnima(slot0, slot1)
 	end
 end
 
-function slot0.showPainting(slot0)
+slot0.showPainting = function(slot0)
 	slot1, slot2, slot3 = nil
 
 	SetActive(slot0._painting, true)
@@ -859,7 +859,7 @@ function slot0.showPainting(slot0)
 	end))
 end
 
-function slot0.hidePainting(slot0)
+slot0.hidePainting = function(slot0)
 	SetActive(slot0._chat, false)
 
 	slot0._chat.transform.localScale = Vector3.New(0, 0, 0)
@@ -877,7 +877,7 @@ function slot0.hidePainting(slot0)
 	end))
 end
 
-function slot0.skip(slot0)
+slot0.skip = function(slot0)
 	for slot4, slot5 in ipairs(slot0._delayLeanList) do
 		LeanTween.cancel(slot5)
 	end
@@ -934,7 +934,7 @@ function slot0.skip(slot0)
 	end
 end
 
-function slot0.playSubExEnter(slot0)
+slot0.playSubExEnter = function(slot0)
 	slot0._stateFlag = uv0.STATE_SUB_DISPLAY
 
 	if slot0._subFirstExpCard then
@@ -949,7 +949,7 @@ function slot0.playSubExEnter(slot0)
 	end
 end
 
-function slot0.showRightBottomPanel(slot0)
+slot0.showRightBottomPanel = function(slot0)
 	SetActive(slot0._skipBtn, false)
 	SetActive(slot0._rightBottomPanel, true)
 	SetActive(slot0._subToggle, slot0._subFirstExpCard ~= nil)
@@ -980,7 +980,7 @@ function slot0.showRightBottomPanel(slot0)
 	end
 end
 
-function slot0.showStatistics(slot0)
+slot0.showStatistics = function(slot0)
 	setActive(slot0._leftPanel, false)
 	slot0:enabledStatisticsGizmos(false)
 	SetActive(slot0._atkBG, true)
@@ -1001,7 +1001,7 @@ function slot0.showStatistics(slot0)
 	end))
 end
 
-function slot0.closeStatistics(slot0)
+slot0.closeStatistics = function(slot0)
 	setActive(slot0._leftPanel, true)
 	slot0:skipAtkAnima(slot0._atkContainerNext)
 	slot0:skipAtkAnima(slot0._atkContainer)
@@ -1020,12 +1020,12 @@ function slot0.closeStatistics(slot0)
 	end))
 end
 
-function slot0.enabledStatisticsGizmos(slot0, slot1)
+slot0.enabledStatisticsGizmos = function(slot0, slot1)
 	setActive(slot0:findTF("gizmos/xuxian_down", slot0._main), slot1)
 	setActive(slot0:findTF("gizmos/xuxian_middle", slot0._main), slot1)
 end
 
-function slot0.PlayAnimation(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.PlayAnimation = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = LeanTween.value(slot1.gameObject, slot2, slot3, slot4)
 	slot7 = slot7:setDelay(slot5)
 
@@ -1034,11 +1034,11 @@ function slot0.PlayAnimation(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end))
 end
 
-function slot0.SetSkipFlag(slot0, slot1)
+slot0.SetSkipFlag = function(slot0, slot1)
 	slot0.skipFlag = slot1
 end
 
-function slot0.initMetaBtn(slot0)
+slot0.initMetaBtn = function(slot0)
 	slot0.metaBtn = slot0:findTF("MetaBtn", slot0._main)
 
 	setActive(slot0.metaBtn, getProxy(MetaCharacterProxy):getLastMetaSkillExpInfoList() and #slot1 > 0 or false)
@@ -1063,7 +1063,7 @@ function slot0.initMetaBtn(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.metaExpView then
 		slot0.metaExpView:closePanel()
 
@@ -1085,7 +1085,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in ipairs(slot0._shipResultCardList) do
 		slot5:Dispose()
 	end

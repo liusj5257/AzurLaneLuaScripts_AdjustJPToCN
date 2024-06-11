@@ -1,14 +1,14 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI05",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI05",
 	occlusion = 2,
 	scripts = {
 		{
-			actorName = "???",
 			stopbgm = true,
+			actorName = "???",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			dir = 1,
 			blackBg = true,
 			say = "Hm? Well, that's certainly true on paper.",
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			dir = 1,
 			blackBg = true,
 			say = "If that is the case, then we were made to be nothing more than instruments of death.",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			dir = 1,
 			blackBg = true,
 			say = "I wouldn't say that. See, no matter what era it is, humans always cling to heroes to maintain their faith. They can't survive without it.",
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			dir = 1,
 			blackBg = true,
 			say = "In other words, we're supposed to be their heroes?",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			dir = 1,
 			blackBg = true,
 			say = "Not yet, anyway. At least not until you're able to move... Heehee~",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			dir = 1,
 			blackBg = true,
 			say = "Richelieu! You're mocking me again! But just you wait... I'm going to surpass you soon enough!",
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			dir = 1,
 			blackBg = true,
 			say = "I'll be looking forward to it. By the way, do you know what our names mean?",
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			dir = 1,
 			blackBg = true,
 			say = "Huh?",
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			dir = 1,
 			blackBg = true,
 			say = "Yes, the name that we inherited from a warship. It represents the great expectations that humanity has for us.",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			dir = 1,
 			blackBg = true,
 			say = "Hmm... what was my name based upon again?",
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			dir = 1,
 			blackBg = true,
 			say = "Seems like... a mighty pirate ship... Suits you well, doesn't it?",
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			dir = 1,
 			blackBg = true,
 			say = "Huuh?! You're mocking me again! I won't let you get away with it a third time!",
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			dir = 1,
 			blackBg = true,
 			say = "All right, all right. But remember... whether you will be a glorious hero who protects the land, or an instrument of death and destruction... is a decision only you can make.",
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			dir = 1,
 			blackBg = true,
 			say = "... ...",
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			dir = 1,
 			blackBg = true,
 			say = "Don't do anything that will tarnish your noble name...",
@@ -248,15 +248,15 @@ return {
 			}
 		},
 		{
-			actor = 905010,
+			say = "Another dream... How laughable.",
 			side = 2,
 			bgName = "bg_story_faxi2",
-			withoutPainting = true,
 			dir = 1,
-			say = "Another dream... How laughable.",
+			actor = 905010,
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,9 +284,9 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
-			withoutPainting = true,
-			dir = 1,
 			say = "So what if the strongest battleship on the seas, the loftiest Templar Knight, has had to rely on the powers of others... Hmph.",
+			dir = 1,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,9 +300,9 @@ return {
 			actor = 905010,
 			side = 2,
 			bgName = "bg_story_faxi2",
-			withoutPainting = true,
-			dir = 1,
 			say = "... And just what exactly is wrong with that? Foolish sister...",
+			dir = 1,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

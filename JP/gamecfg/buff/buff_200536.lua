@@ -1,12 +1,12 @@
 return {
-	time = 3,
-	name = "2023克莱蒙梭活动 联合舰队效果",
 	init_effect = "",
+	name = "2023克莱蒙梭活动 联合舰队效果",
+	time = 3,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200536,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -16,8 +16,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200537,
-				target = "TargetAllHelp",
 				nationality = 1,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -32,8 +32,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200537,
-				target = "TargetAllHelp",
 				nationality = 2,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -48,8 +48,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200537,
-				target = "TargetAllHelp",
 				nationality = 3,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -64,8 +64,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200537,
-				target = "TargetAllHelp",
 				nationality = 4,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -80,8 +80,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200537,
-				target = "TargetAllHelp",
 				nationality = 5,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -96,8 +96,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200537,
-				target = "TargetAllHelp",
 				nationality = 6,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -112,8 +112,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200537,
-				target = "TargetAllHelp",
 				nationality = 7,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"

@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "骑士之剑 +",
 	init_effect = "",
+	id = 1005083,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1005083,
+	color = "blue",
 	icon = 5080,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 1005081,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

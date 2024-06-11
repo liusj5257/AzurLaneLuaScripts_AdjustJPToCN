@@ -1,16 +1,16 @@
 return {
 	lose_condition = 1,
 	win_condition = 1,
-	id = 10805480,
-	type = 1,
 	map_id = 10008,
+	type = 1,
+	id = 10805480,
 	stages = {
 		{
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -103,9 +103,9 @@ return {
 							monsterTemplateID = 11011,
 							worldbuff = 1,
 							score = 0,
-							reinforceDelay = 7,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 7,
 							corrdinate = {
 								5,
 								0,
@@ -116,9 +116,9 @@ return {
 							monsterTemplateID = 11014,
 							worldbuff = 1,
 							score = 0,
-							reinforceDelay = 7,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 7,
 							corrdinate = {
 								5,
 								0,
@@ -249,8 +249,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 320020,
+							delay = 0,
 							totalNumber = 3,
 							weaponID = {
 								320009
@@ -275,8 +275,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
@@ -289,9 +289,9 @@ return {
 							monsterTemplateID = 1105006,
 							worldbuff = 1,
 							score = 0,
-							reinforceDelay = 6,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 6,
 							corrdinate = {
 								-5,
 								0,
@@ -390,8 +390,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 2,
 							templateID = 320010,
+							delay = 2,
 							totalNumber = 14,
 							weaponID = {
 								320008

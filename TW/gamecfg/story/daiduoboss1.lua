@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戰鬥！皇家女僕隊2nd\n\n<size=45>一　第二次作戰開始</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 205010,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "貝法，聽好了！這次的任務，只許成功不許失敗！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -89,14 +89,14 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 0.5,
-			say = "陛下是這麼說的…",
+			bgName = "bg_story_nepu2",
 			bgm = "level02",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "陛下是這麼說的…",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202210,
 			dir = 1,
+			actor = 202210,
 			nameColor = "#a9f548",
 			say = "沒事沒事，也不是第一次進行這種任務了，放輕鬆點上就好了~",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "話雖如此，畢竟是陛下的指示，還是得盡全力才行啊",
 			typewriter = {
@@ -228,14 +228,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 202040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "沒想到剛來港區就要以這樣的方式面對指揮官……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "黛朵，是不是要像這孩子一樣被無情拋棄了……",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "放心吧，其實這是陛下對女僕隊的指示",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "就是說…作為女僕隊的後援，在聯合演習上扮演主人的對手…嗎？",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "更重要的…這是黛朵證明自己是“無論何種情況下都能滿足主人任何要求”的好機會…！",
 			typewriter = {
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 202040,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202040,
+			nameColor = "#a9f548",
 			say = "明白了…！為了陛下，為了主人！黛朵一定會全力以赴的…！",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -386,15 +386,15 @@ return {
 			}
 		},
 		{
-			actor = 202260,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202260,
+			nameColor = "#a9f548",
 			say = "姐姐…簡直是魔鬼",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-5",
 			mode = 1,
+			bgm = "battle-boss-5",
 			effects = {
 				{
 					active = true,
@@ -492,8 +492,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

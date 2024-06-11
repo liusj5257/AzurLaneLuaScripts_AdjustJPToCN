@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Prayer for Peace\n\n<size=45>Chapter 2: A Toast to our Gathering</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Banquet Hall",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "Port - Banquet Hall",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "... Didn't I tell you before? There's no reason to be so formal around me. \"Bismarck\" will do just fine.",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "Y-yes ma'am! Bismarck... ma'am!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 405011,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
 			withoutActorName = true,
-			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "The impeccably-dressed Bismarck had just entered the venue, surrounded by a small crowd of adoring Iron Blood ships. She had broken away from the crowd to greet us.",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "Commander, well met. I'm grateful that you were able to join us tonight.",
 			typewriter = {
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "She sounded like she was trying to sound more dignified on purpose.",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107071,
 			dir = 1,
+			actor = 107071,
 			nameColor = "#a9f548",
 			say = "Heheh! It's not every day we get to have a big party like this, so we've gotta enjoy it while we can! Isn't that right, Commander?",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107071,
 			dir = 1,
+			actor = 107071,
 			nameColor = "#a9f548",
 			say = "As a matter of fact, I brought just the thing for the occasion! Let's kick things off right with some champagne~!",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107051,
 			dir = 1,
+			actor = 107051,
 			nameColor = "#a9f548",
 			say = "Thank you. In that case, I suppose I'll have the honors. Cheers!",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Cheers!",
 			typewriter = {
 				speed = 0.05,

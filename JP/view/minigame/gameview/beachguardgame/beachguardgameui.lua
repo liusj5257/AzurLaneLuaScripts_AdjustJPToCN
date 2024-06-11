@@ -1,6 +1,6 @@
 slot0 = class("BeachGuardGameUI")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 	slot0._event = slot3
 	slot0._gameData = slot2
@@ -55,7 +55,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.bossRate = findTF(slot0.gameUI, "ad/bossRate")
 end
 
-function slot0.cancelRecycle(slot0)
+slot0.cancelRecycle = function(slot0)
 	slot0.recycleFlag = false
 
 	setActive(slot0.btnRecycle, true)
@@ -63,7 +63,7 @@ function slot0.cancelRecycle(slot0)
 	slot0._event:emit(BeachGuardGameView.RECYCLES_CHAR, false)
 end
 
-function slot0.show(slot0, slot1)
+slot0.show = function(slot0, slot1)
 	slot0.recycleFlag = false
 
 	setActive(slot0.btnRecycle, true)
@@ -71,7 +71,7 @@ function slot0.show(slot0, slot1)
 	setActive(slot0.gameUI, slot1)
 end
 
-function slot0.firstUpdate(slot0, slot1)
+slot0.firstUpdate = function(slot0, slot1)
 	slot2 = slot1.chapter
 	slot3 = BeachGuardConst.chapter_data[slot2]
 	slot0.enemyTime = BeachGuardConst.chapater_enemy[slot2].time
@@ -107,7 +107,7 @@ function slot0.firstUpdate(slot0, slot1)
 	slot0:update()
 end
 
-function slot0.update(slot0)
+slot0.update = function(slot0)
 	slot1 = slot0.runningData.goodsNum
 	slot2 = slot0.runningData.sceneChars
 
@@ -145,7 +145,7 @@ function slot0.update(slot0)
 	setText(slot0.goodsNum, slot1)
 end
 
-function slot0.updateGoods(slot0, slot1, slot2)
+slot0.updateGoods = function(slot0, slot1, slot2)
 	if slot1 and slot1 > 0 then
 		setActive(slot0.goodsAdd, false)
 		setText(findTF(slot0.goodsAdd, "text"), "+" .. tostring(slot1))
@@ -153,7 +153,7 @@ function slot0.updateGoods(slot0, slot1, slot2)
 	end
 end
 
-function slot0.createCharCard(slot0)
+slot0.createCharCard = function(slot0)
 	for slot4 = 1, #slot0.showCards do
 		slot5 = slot4
 		slot8 = nil
@@ -234,7 +234,7 @@ function slot0.createCharCard(slot0)
 	end
 end
 
-function slot0.getCardFromPool(slot0, slot1)
+slot0.getCardFromPool = function(slot0, slot1)
 	for slot5 = #slot0.cardPool, 1, -1 do
 		if slot0.cardPool[slot5].config.id == slot1 then
 			return table.remove(slot0.cardPool, slot5)
@@ -244,7 +244,7 @@ function slot0.getCardFromPool(slot0, slot1)
 	return nil
 end
 
-function slot0.resetChaCard(slot0)
+slot0.resetChaCard = function(slot0)
 	for slot4 = 1, #slot0.cards do
 		slot5 = slot0.cards[slot4].tf
 
@@ -262,12 +262,12 @@ function slot0.resetChaCard(slot0)
 	end
 end
 
-function slot0.setEnemyComming(slot0)
+slot0.setEnemyComming = function(slot0)
 	setActive(slot0.enemyComming, false)
 	setActive(slot0.enemyComming, true)
 end
 
-function slot0.setDragCallback(slot0, slot1)
+slot0.setDragCallback = function(slot0, slot1)
 end
 
 return slot0

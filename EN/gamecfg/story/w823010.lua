@@ -1,12 +1,12 @@
 return {
-	id = "W823010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W823010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "This Siren Data Logging Tower seems to be out of order.",
 			typewriter = {
 				speed = 0.05,

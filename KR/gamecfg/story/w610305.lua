@@ -1,15 +1,15 @@
 return {
-	id = "W610305",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610305",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "지령 수행 중: 가라앉은 물자 인양 중......경고: 세이렌 함대의 매복 조우.",
 			typewriter = {
 				speed = 0.05,

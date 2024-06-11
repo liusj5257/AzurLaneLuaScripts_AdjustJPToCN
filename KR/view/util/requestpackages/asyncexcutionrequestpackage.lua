@@ -1,6 +1,6 @@
 slot0 = class("AsyncExcutionRequestPackage", import(".RequestPackage"))
 
-function slot0.__call(slot0, ...)
+slot0.__call = function(slot0, ...)
 	if slot0.stopped then
 		return
 	end
@@ -12,7 +12,7 @@ function slot0.__call(slot0, ...)
 	slot0:Excute(...)
 end
 
-function slot0.Resume(slot0)
+slot0.Resume = function(slot0)
 	slot0.suspended = nil
 
 	if slot0.ready then
@@ -27,22 +27,22 @@ function slot0.Resume(slot0)
 	end
 end
 
-function slot0.Suspend(slot0)
+slot0.Suspend = function(slot0)
 	slot0.suspended = true
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.ready = true
 	slot0.funcs = slot1
 	slot0.suspended = nil
 	slot0.resume = nil
 end
 
-function slot0.Insert(slot0, slot1)
+slot0.Insert = function(slot0, slot1)
 	table.insert(slot0.funcs, slot1)
 end
 
-function slot0.Excute(slot0, ...)
+slot0.Excute = function(slot0, ...)
 	assert(slot0.ready)
 
 	if not slot0.ready then

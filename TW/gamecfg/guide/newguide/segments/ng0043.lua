@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "距離投票開始還有時間，再去其他區域逛逛吧！（提示：點擊帶有！的區域）",
 				mode = 1,
-				posY = 250,
 				dir = -1,
+				posY = 250,
 				posX = -92,
 				uiFunc = function ()
 					slot0 = {}

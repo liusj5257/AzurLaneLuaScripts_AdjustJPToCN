@@ -1,6 +1,6 @@
 slot0 = class("SaratogaPermanentSkinPage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	onButton(slot0, slot0.battleBtn, function ()
 		uv0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)

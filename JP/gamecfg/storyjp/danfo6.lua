@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"デンバーの母港クエスト！\n\n<size=45>六 いざ激突！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "時間になってバスケットコートまでやってくると、どこで聞いたのかギャラリーがそこそこ集まっている。",
 			side = 2,
 			bgName = "star_level_bg_112",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "時間になってバスケットコートまでやってくると、どこで聞いたのかギャラリーがそこそこ集まっている。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 101150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101150,
+			nameColor = "#a9f548",
 			say = "ががが頑張って……！デンバー！",
 			effects = {
 				{
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303070,
+			nameColor = "#a9f548",
 			say = "普段は見に来たりはしないが、川内とデンバーの試合とあれば話は別だ",
 			effects = {
 				{
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "わいわいと盛り上がるギャラリーの中、川内はやってきたデンバーを見ながら包帯の着いた人差し指でボールを回す。",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "コイントスで先行が川内になると、そのまますぐに勝負の火ぶたが切って落とされた――！",
 			typewriter = {
 				speed = 0.05,
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "すばやいドリブルでゴール前に突っ込んでいく川内。対するデンバーは左右どちらに出るかを見計らう。",
 			typewriter = {
 				speed = 0.05,
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "くるっと鮮やかにデンバーのマークを躱し、正確なフォームでシュートを決める。川内の1点リードだ。",
 			typewriter = {
 				speed = 0.05,
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "今度は私からね！行くよ！",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "デンバーはボールを持ったその位置からシュートを――３Pラインから見事にネットに入り2点獲得。",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "得意なポジションはシューティングガードだからね…！",
 			effects = {
 				{
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 302120,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302120,
+			nameColor = "#a9f548",
 			say = "くぅ……っ！なら俺が押し切ってやるよ！！",
 			effects = {
 				{
@@ -372,9 +372,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "一進一退の攻防が続き、デンバー対川内の現在のポイントは8対9。拮抗しているかのようだが――",
 			typewriter = {
 				speed = 0.05,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "距離をとりシュートをするデンバーの作戦は、徹底的な川内のマークによって徐々に塞がれつつあった。",
 			typewriter = {
 				speed = 0.05,
@@ -432,11 +432,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "まだ負けない…！ううん、この試合、負けるわけにはいかないっ！",
 			typewriter = {
 				speed = 0.05,
@@ -448,8 +448,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,9 +474,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "手に巻いている包帯を解く川内、そして果てしない青空を見上げるデンバー。",
 			typewriter = {
 				speed = 0.05,
@@ -488,11 +488,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "指揮官、姉貴、見ていてください！デンバーが輝ける瞬間を…！",
 			effects = {
 				{

@@ -1,6 +1,6 @@
 slot0 = class("ItemCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.bg = findTF(slot1, "bg")
 	slot0.countTF = findTF(slot1, "bg/icon_bg/count"):GetComponent(typeof(Text))
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.itemVO = slot1
 
 	if not IsNil(slot0.timeLimitTag) then
@@ -24,7 +24,7 @@ function slot0.update(slot0, slot1)
 	slot0.nameTF.text = slot0:ShortenString(slot1:getConfig("name"), 6)
 end
 
-function slot0.ShortenString(slot0, slot1, slot2)
+slot0.ShortenString = function(slot0, slot1, slot2)
 	slot3 = 1
 	slot4 = 0
 	slot5 = 0
@@ -51,11 +51,11 @@ function slot0.ShortenString(slot0, slot1, slot2)
 	return string.sub(slot1, 1, slot5 - 1) .. ".."
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

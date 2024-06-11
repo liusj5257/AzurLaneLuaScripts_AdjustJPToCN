@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"{namecode:71}的宴會\n\n<size=45>四 準備</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "最後還是幫忙{namecode:71}一起準備宴會了…",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "最後還是幫忙{namecode:71}一起準備宴會了…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,13 +82,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "港區·商店",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
+			say = "拜託妳幫忙調度的東西，都準備好了吧~{namecode:98}？",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "拜託妳幫忙調度的東西，都準備好了吧~{namecode:98}？",
+			actor = 304020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "呼喵？！這個是…邀請函喵？{namecode:98}也要參加宴會喵？",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -271,15 +271,15 @@ return {
 			}
 		},
 		{
-			actor = 304010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304010,
+			nameColor = "#a9f548",
 			say = "所以說不用再來叫我們一次了嘛……放心吧，我們一定會準時參加的",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,12 +320,12 @@ return {
 			}
 		},
 		{
-			actor = 304030,
+			say = "哈啊…{namecode:73}妳不要又“添亂”就好了",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈啊…{namecode:73}妳不要又“添亂”就好了",
+			actor = 304030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -388,16 +388,16 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			blaclBg = true,
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 304020,
 			nameColor = "#a9f548",
 			say = "這樣事前準備就差不多了呢。宴會準備也要靠你多多幫忙了，指揮官♪",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1

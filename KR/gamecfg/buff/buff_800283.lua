@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

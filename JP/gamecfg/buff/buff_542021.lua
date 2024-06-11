@@ -1,12 +1,12 @@
 return {
-	time = 0.1,
-	name = "极限充能",
 	init_effect = "",
+	name = "极限充能",
+	time = 0.1,
+	picture = "",
+	desc = "极限充能",
 	stack = 1,
 	id = 542021,
-	picture = "",
 	last_effect = "",
-	desc = "极限充能",
 	effect_list = {
 		{
 			type = "BattleCardPuzzleFleetBuffAddFleetAttr",
@@ -14,8 +14,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "CardEnergy",
-				number = -1
+				number = -1,
+				attr = "CardEnergy"
 			}
 		}
 	}

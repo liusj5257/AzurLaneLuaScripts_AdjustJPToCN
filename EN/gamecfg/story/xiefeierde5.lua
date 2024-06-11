@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Loaded with Lead and Love\n\n<size=45>Chapter 5 - Weekend Rendezvous</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Port - Commander's personal quarters",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "E-enemy attack?!!",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "E-enemy attack?!!",
+			bgm = "story-1",
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "When I opened my eyes, I could see Sheffield's cold expression in front of me, her gun still smoking. So that was the sound...",
 			typewriter = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Wait, when...",
 			typewriter = {
 				speed = 0.05,
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "Commander, I figured that your room was as sloppy and disorganised as you are. Therefore, I will need to clean it.",
 			effects = {
 				{
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Come to think of it, I did ask her to help me clean...",
 			effects = {
 				{
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "So that explains the pleasant smell from earlier...",
 			typewriter = {
 				speed = 0.05,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Even though she said all that stuff, the food was still delicious.",
 			typewriter = {
 				speed = 0.05,
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She only shot me a glance from across the living room",
 			typewriter = {
 				speed = 0.05,
@@ -338,9 +338,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Well, I have to admit, this place looks brand new.",
 			typewriter = {
 				speed = 0.05,
@@ -374,12 +374,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "Since we are spending quite a bit of time together, Master, you should also call me \"Sheffy\" for the sake of convenience. Saves a syllable.",
 			typewriter = {
 				speed = 0.05,

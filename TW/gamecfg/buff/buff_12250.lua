@@ -12,12 +12,12 @@ return {
 	desc_get = "先锋领舰时自身减伤、小海小圣常驻减伤",
 	name = "未经磨练的骑士",
 	init_effect = "",
+	id = 12250,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "先锋领舰时自身减伤、小海小圣常驻减伤",
 	stack = 1,
-	id = 12250,
+	color = "blue",
 	icon = 12250,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 12251,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

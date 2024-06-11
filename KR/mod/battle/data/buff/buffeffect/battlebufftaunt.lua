@@ -5,18 +5,18 @@ slot2 = class("BattleBuffTaunt", slot0.Battle.BattleBuffEffect)
 slot0.Battle.BattleBuffTaunt = slot2
 slot2.__name = "BattleBuffTaunt"
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._tauntActive = false
 end
 
-function slot2.SetArgs(slot0, slot1, slot2)
+slot2.SetArgs = function(slot0, slot1, slot2)
 	slot0._guardTargetFilter = slot0._tempData.arg_list.guardTarget
 	slot0._handleCloak = slot1:GetCloak() ~= nil
 end
 
-function slot2.onTrigger(slot0, slot1, slot2, slot3)
+slot2.onTrigger = function(slot0, slot1, slot2, slot3)
 	if not slot0._handleCloak then
 		return
 	end
@@ -34,11 +34,11 @@ function slot2.onTrigger(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.onRemove(slot0, slot1, slot2, slot3)
+slot2.onRemove = function(slot0, slot1, slot2, slot3)
 	slot0:releaseExpose(slot1)
 end
 
-function slot2.forceToExpose(slot0, slot1)
+slot2.forceToExpose = function(slot0, slot1)
 	if not slot0._handleCloak then
 		return
 	end
@@ -50,7 +50,7 @@ function slot2.forceToExpose(slot0, slot1)
 	slot2:UpdateTauntExpose(true)
 end
 
-function slot2.releaseExpose(slot0, slot1)
+slot2.releaseExpose = function(slot0, slot1)
 	if not slot0._handleCloak then
 		return
 	end

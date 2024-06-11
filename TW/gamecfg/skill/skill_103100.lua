@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67671,
@@ -19,10 +19,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67672,
@@ -36,10 +36,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67673,
@@ -53,10 +53,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67674,
@@ -70,10 +70,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67675,
@@ -87,10 +87,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67676,
@@ -104,10 +104,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67677,
@@ -121,10 +121,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67678,
@@ -138,10 +138,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67679,
@@ -155,10 +155,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetShipTag",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetShipTag",
 				arg_list = {
 					delay = 0.1,
 					weapon_id = 67680,
@@ -172,11 +172,11 @@ return {
 	uiEffect = "",
 	name = "双影无双",
 	cd = 0,
+	picture = "0",
+	desc = "双影无双",
 	painting = 1,
 	id = 103100,
-	picture = "0",
 	castCV = "skill",
-	desc = "双影无双",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -187,10 +187,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetShipTag",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetShipTag",
 			arg_list = {
 				delay = 0.1,
 				weapon_id = 67671,

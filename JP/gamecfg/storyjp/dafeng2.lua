@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"その女、賢妻につき\n\n<size=45>二 秘書艦のお仕事？下</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……いい匂いだ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
-			side = 2,
-			dir = 1,
-			nameColor = "#a9f548",
 			withoutActorName = true,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
 			blackBg = true,
+			actor = 307070,
 			say = "……（もそもそ）",
 			flashN = {
 				color = {
@@ -105,17 +105,17 @@ return {
 			}
 		},
 		{
-			actor = 307070,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "おはようございます指揮官様。大鳳、先程まで指揮官様をどう起こせばいいかずっと悩んでいたのですよ？",
 			bgm = "story-1",
+			actor = 307070,
+			nameColor = "#a9f548",
+			say = "おはようございます指揮官様。大鳳、先程まで指揮官様をどう起こせばいいかずっと悩んでいたのですよ？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "あたりを見回したところ、どうやらここは自分の部屋だという事がわかった。",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "部屋の鍵がかかっているのに一体どうやって入ったんだろう……気にはなるが、とりあえず朝支度をすることにした",
 			typewriter = {
 				speed = 0.05,
@@ -185,14 +185,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 307070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "今日の朝食は和食にしました。お口に合えばいいのですが",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "大鳳からキラキラとした視線を感じる。",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "そういえばさっき指揮官様が寝ている間、大鳳がお部屋をお掃除させていただきましたわ",
 			typewriter = {
@@ -275,10 +275,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "（小声）めぼしいものは発見できませんでしたけど……",
 			typewriter = {
 				speed = 0.05,
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "どういうこと？そもそも――",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "簡単じゃありませんか。指揮官様は部屋に鍵をかけ、そして大鳳がその鍵を作っただけのことですわよ",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "……ふふふ、秘書艦として当然のことじゃありませんか",
 			typewriter = {

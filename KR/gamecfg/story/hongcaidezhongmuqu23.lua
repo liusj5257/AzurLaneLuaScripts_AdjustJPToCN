@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGCAIDEZHONGMUQU23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGCAIDEZHONGMUQU23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA 해역·스캐퍼플로 근해",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-highseasfleet",
+			say = "NA 해역·스캐퍼플로 근해",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관, 스캐퍼플로 밖에서 메탈 블러드의 총기함인 프리드리히의 흔적이 발견됐어.",
 			typewriter = {
 				speed = 0.05,
@@ -52,10 +52,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "사쿠라 엠파이어 함대가 신원 미상의 메탈 블러드 함대와 함께 지휘관이 있는 방향으로 천천히 전진하고 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "다카르항의 사쿠라 엠파이어도 결국 전투에 합류했군...",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "근데 갑자기 나타난 신원 미상의 함대라면…? 설마 이게 바로 프리드리히가 시간을 끌었던 이유인가.",
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 705050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관 동지… 곧… 도착…",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "뭐지…? 통신 교란인가?",
 			typewriter = {
 				speed = 0.05,
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "엘드릿지, 무슨 문제라도 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...통신 시스템, 이상 없음. 지휘관, 교란은 없어.",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "그렇다면 문제가 발생한 건 노스 유니온 쪽이라는 건데…",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "세이렌…? NA 해역의 세이렌이라면 핵심 지역이 함락되면서 거의 다 정리되지 않았나?",
 			typewriter = {
 				speed = 0.05,
@@ -218,10 +218,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "세이렌들이 대체 어디서 튀어나온 건지는 나도 잘 모르겠어…",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "노스 유니온 함대가 가장 먼저 피해를 보았고 세부 사항은 검토 중이야!",
 			typewriter = {
 				speed = 0.05,
@@ -346,9 +346,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "조급해할 필요 없어. 우선 몸조심해. 주변 호위 함대는 편대의 안전을 최우선으로 한다!",
 			typewriter = {
 				speed = 0.05,
@@ -363,10 +363,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105130,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "명령 확인. 지금 바로 항로를 조정할게.",
 			typewriter = {
 				speed = 0.05,
@@ -381,10 +381,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "젠장… 지휘관, 제시간에 항공 함대가 있는 곳에 도착하지 못할 것 같아. 갑자기 다수 인간형 세이렌의 정예 부대가 우리의 항로를 가로막고 있어!",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "각 함대는 전진 속도를 늦춰. 스캐퍼플로로 먼저 전진하지 마.",
 			typewriter = {
 				speed = 0.05,
@@ -410,9 +410,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "항로를 가로막힌 함대는 가까운 곳에 있는 동료와 합류하여 주변의 적과 거울 해역을 처리하고 자체적으로 행동 목표를 결정하도록.",
 			typewriter = {
 				speed = 0.05,
@@ -427,10 +427,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "대체 어떻게 된 거지… 이렇게 많은 거울 해역은 분명 오래전부터 설정된 걸 텐데…",
 			typewriter = {
 				speed = 0.05,
@@ -476,9 +476,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "만약 출동할 수 있는 함대가 있다면 즉시 지원 요청을 해줘.",
 			typewriter = {
 				speed = 0.05,
@@ -490,9 +490,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "로열에서 조국의 안전을 위해 근처에 일부 함대를 남겨두었을 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -523,9 +523,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "조지아, 그쪽 상황은 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -540,10 +540,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 199020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관, 난 지금 전장을 관찰하는 중이야.",
 			typewriter = {
 				speed = 0.05,
@@ -593,9 +593,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "이해했어. 지금 당장 항공 함대에게 집중 수색을 맡기도록 하지.",
 			typewriter = {
 				speed = 0.05,
@@ -607,9 +607,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "엔터프라이즈, 새러토가. 들려?",
 			typewriter = {
 				speed = 0.05,
@@ -621,12 +621,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "통신기",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -638,9 +638,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "안개 때문에 이미 연락이 끊긴 건가…",
 			typewriter = {
 				speed = 0.05,
@@ -655,10 +655,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이글 유니온에서 가장 크고 가장 강한 블랙 드래곤, 뉴저지 등장!",
 			typewriter = {
 				speed = 0.05,
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "뉴저지, 마침 잘 왔네. 그쪽의 상황은 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -706,10 +706,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "비록 함대의 절반은 거울 해역으로 인해 일시적으로 연락이 끊긴 상황이지만, 내가 나머지 모두를 데리고 이곳으로 왔지!",
 			typewriter = {
 				speed = 0.05,
@@ -724,10 +724,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107090,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관님, 컴파일러의 정찰은 저희에게 맡기세요. 최단 시간 안에 찾아내고 말테니까요!",
 			typewriter = {
 				speed = 0.05,
@@ -739,9 +739,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "큰 도움이 되네.",
 			typewriter = {
 				speed = 0.05,
@@ -775,10 +775,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "내가 볼 땐 세이렌이 우리가 공격하기만을 기다렸던 것 같아. 메탈 블러드 함대는 이 틈에 전부 철수해버렸고 말이야.",
 			typewriter = {
 				speed = 0.05,
@@ -841,10 +841,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107110,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관, 컴파일러의 위치가 확인됐어!",
 			typewriter = {
 				speed = 0.05,
@@ -897,10 +897,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "뉴저지 함대, 전속력으로 출동~!",
 			typewriter = {
 				speed = 0.05,
@@ -912,9 +912,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -926,9 +926,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "세이렌이 이번 작전에 끼어들지도 모른다는 건 이미 사전에 예상한 부분이다.",
 			typewriter = {
 				speed = 0.05,
@@ -940,9 +940,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "그래서 많은 수의 함대를 이끌고, 은하수에서 조지아와 엘드릿지까지 데려온 건데…",
 			typewriter = {
 				speed = 0.05,

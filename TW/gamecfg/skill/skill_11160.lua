@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "达克里特的阴霾",
 	cd = 0,
+	picture = "0",
+	desc = "达克里特的阴霾",
 	painting = 1,
 	id = 11160,
-	picture = "0",
 	castCV = "skill",
-	desc = "达克里特的阴霾",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,19 +17,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHarm",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHarm",
 			arg_list = {
 				buff_id = 11161
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 11162
 			}

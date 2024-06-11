@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.08
+				number = 0.08,
+				attr = "criDamage"
 			}
 		}
 	}

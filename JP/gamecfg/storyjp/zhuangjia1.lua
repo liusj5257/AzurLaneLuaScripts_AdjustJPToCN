@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUANGJIA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUANGJIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第一話　邂逅</size>",
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			blackBg = true,
 			say = "なるほど、そのデータを「観測」する必要性があるようね。",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			blackBg = true,
 			say = "この世界の量子情報を「夢」として「あの宇宙」に融合・投影できれば……",
 			typewriter = {
@@ -70,15 +70,15 @@ return {
 			}
 		},
 		{
-			say = "母港・倉庫",
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・倉庫",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
+			actor = 312010,
 			say = "ふんふんふ～ん。たっなおろし・棚卸し～。",
 			typewriter = {
 				speed = 0.05,
@@ -115,16 +115,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -207,14 +207,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 312010,
 			say = "ケホッ、ケホッ。中はホコリっぽいにゃ～。さて明石は今から棚卸しするにゃ。指揮官、探索してもいいけどあんまり奥まで入らない方がいいにゃ。",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -241,16 +241,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.1,
 					x = 0,
@@ -262,8 +262,8 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			withoutPainting = true,
 			say = "………",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,19 +285,19 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "………",
 			side = 2,
+			blackBg = true,
+			actor = 0,
 			stopbgm = true,
 			withoutPainting = true,
-			blackBg = true,
-			say = "………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -375,9 +375,9 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			withoutPainting = true,
-			blackBg = true,
 			say = "………",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,20 +399,20 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "おお！指揮官発見だにゃ～。まったくどこに行っていたんだにゃ。",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			actor = 312010,
+			say = "おお！指揮官発見だにゃ～。まったくどこに行っていたんだにゃ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					x = 0,
@@ -537,11 +537,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
+			say = "わっ、ビックリした･･･いきなり後ろから声掛けないでよ。",
 			side = 0,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "わっ、ビックリした･･･いきなり後ろから声掛けないでよ。",
+			actor = 403030,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,8 +556,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -626,12 +626,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "全員",
 			bgName = "bg_story_outdoor",
-			withoutPainting = true,
+			side = 2,
 			dir = 1,
 			say = "『装甲騎兵ボトムズ』！",
+			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,13 +642,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
-			bgmDelay = 2,
 			bgName = "bg_night",
 			say = "…その夜…",
+			bgmDelay = 2,
+			bgm = "story-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -789,8 +789,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -814,13 +814,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-5",
-			soundeffect = "event:/ui/alarm",
 			bgName = "bg_night",
 			say = "緊急事態発生、緊急事態発生。全員第一級戦闘配備。繰り返す。全員第一級戦闘配備。",
+			bgm = "story-5",
+			soundeffect = "event:/ui/alarm",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -892,12 +892,12 @@ return {
 			}
 		},
 		{
-			bgm = "story-5",
-			blackBg = true,
 			say = "急襲される母港。ドス黒い思惑が彼女らを悪辣な罠へと誘い出す。その先にあるのは生か死か、彼女らの死闘が始まる。次回「急襲」。因縁の敵がやってくる。",
+			blackBg = true,
+			bgm = "story-5",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

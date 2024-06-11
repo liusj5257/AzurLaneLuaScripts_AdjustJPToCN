@@ -1,12 +1,12 @@
 return {
-	time = 8,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 800022,
+	time = 8,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
-	id = 800022,
+	color = "red",
 	icon = 800020,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

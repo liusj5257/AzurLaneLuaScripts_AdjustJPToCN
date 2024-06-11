@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "龙凤大回复",
 	init_effect = "",
+	id = 12921,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 2,
-	id = 12921,
+	color = "yellow",
 	icon = 12860,
 	last_effect = "",
 	effect_list = {
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				quota = 3,
-				target = "TargetSelf",
-				skill_id = 12860
+				skill_id = 12860,
+				target = "TargetSelf"
 			}
 		}
 	}

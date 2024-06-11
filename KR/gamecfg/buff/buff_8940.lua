@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "意大利SP 侵扰者召唤电击装置",
 	time = 10,
+	name = "意大利SP 侵扰者召唤电击装置",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 8940
+				skill_id = 8940,
+				target = "TargetSelf"
 			}
 		}
 	}

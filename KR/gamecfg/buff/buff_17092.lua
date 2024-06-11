@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_3"
 				}
 			},
 			{
@@ -37,8 +37,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_T_3"
 				}
 			},
 			{
@@ -47,8 +47,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_9"
 				}
 			},
 			{
@@ -57,8 +57,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_T_9"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_11"
 				}
 			},
 			{
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_T_11"
 				}
 			},
 			{
@@ -87,8 +87,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_18"
 				}
 			},
 			{
@@ -97,112 +97,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.05
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.059
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.059
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_T_18"
 				}
 			}
 		}
@@ -215,8 +111,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -225,8 +121,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			},
 			{
@@ -235,8 +131,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_1_T_3"
 				}
 			},
 			{
@@ -245,8 +141,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_2_T_3"
 				}
 			},
 			{
@@ -255,8 +151,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_1_T_9"
 				}
 			},
 			{
@@ -265,8 +161,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_2_T_9"
 				}
 			},
 			{
@@ -275,8 +171,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_1_T_11"
 				}
 			},
 			{
@@ -285,8 +181,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_2_T_11"
 				}
 			},
 			{
@@ -295,8 +191,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.068
+					number = -0.059,
+					attr = "DMG_FROM_TAG_1_T_18"
 				}
 			},
 			{
@@ -305,112 +201,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.068
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.08
-				}
-			},
-			{
-				type = "BattleBuffAddAttr",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.08
+					number = -0.059,
+					attr = "DMG_FROM_TAG_2_T_18"
 				}
 			}
 		}
@@ -423,8 +215,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -433,8 +225,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			},
 			{
@@ -443,8 +235,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_1_T_3"
 				}
 			},
 			{
@@ -453,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_2_T_3"
 				}
 			},
 			{
@@ -463,8 +255,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_1_T_9"
 				}
 			},
 			{
@@ -473,8 +265,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_2_T_9"
 				}
 			},
 			{
@@ -483,8 +275,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_1_T_11"
 				}
 			},
 			{
@@ -493,8 +285,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_2_T_11"
 				}
 			},
 			{
@@ -503,8 +295,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_1_T_18"
 				}
 			},
 			{
@@ -513,8 +305,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.089
+					number = -0.068,
+					attr = "DMG_FROM_TAG_2_T_18"
 				}
 			}
 		}
@@ -527,8 +319,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -537,8 +329,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			},
 			{
@@ -547,8 +339,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_T_3"
 				}
 			},
 			{
@@ -557,8 +349,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_T_3"
 				}
 			},
 			{
@@ -567,8 +359,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_T_9"
 				}
 			},
 			{
@@ -577,8 +369,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_T_9"
 				}
 			},
 			{
@@ -587,8 +379,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_T_11"
 				}
 			},
 			{
@@ -597,8 +389,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_T_11"
 				}
 			},
 			{
@@ -607,8 +399,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_T_18"
 				}
 			},
 			{
@@ -617,8 +409,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.098
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_T_18"
 				}
 			}
 		}
@@ -631,8 +423,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -641,8 +433,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			},
 			{
@@ -651,8 +443,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_1_T_3"
 				}
 			},
 			{
@@ -661,8 +453,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_2_T_3"
 				}
 			},
 			{
@@ -671,8 +463,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_1_T_9"
 				}
 			},
 			{
@@ -681,8 +473,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_2_T_9"
 				}
 			},
 			{
@@ -691,8 +483,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_1_T_11"
 				}
 			},
 			{
@@ -701,8 +493,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_2_T_11"
 				}
 			},
 			{
@@ -711,8 +503,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_1_T_18"
 				}
 			},
 			{
@@ -721,8 +513,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.11
+					number = -0.089,
+					attr = "DMG_FROM_TAG_2_T_18"
 				}
 			}
 		}
@@ -735,8 +527,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -745,8 +537,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			},
 			{
@@ -755,8 +547,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_1_T_3"
 				}
 			},
 			{
@@ -765,8 +557,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_2_T_3"
 				}
 			},
 			{
@@ -775,8 +567,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_1_T_9"
 				}
 			},
 			{
@@ -785,8 +577,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_2_T_9"
 				}
 			},
 			{
@@ -795,8 +587,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_1_T_11"
 				}
 			},
 			{
@@ -805,8 +597,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_2_T_11"
 				}
 			},
 			{
@@ -815,8 +607,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_1_T_18"
 				}
 			},
 			{
@@ -825,8 +617,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.122
+					number = -0.098,
+					attr = "DMG_FROM_TAG_2_T_18"
 				}
 			}
 		}
@@ -839,8 +631,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -849,8 +641,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			},
 			{
@@ -859,8 +651,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_1_T_3"
 				}
 			},
 			{
@@ -869,8 +661,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_2_T_3"
 				}
 			},
 			{
@@ -879,8 +671,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_1_T_9"
 				}
 			},
 			{
@@ -889,8 +681,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_2_T_9"
 				}
 			},
 			{
@@ -899,8 +691,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_1_T_11"
 				}
 			},
 			{
@@ -909,8 +701,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_2_T_11"
 				}
 			},
 			{
@@ -919,8 +711,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_1_T_18"
 				}
 			},
 			{
@@ -929,8 +721,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.134
+					number = -0.11,
+					attr = "DMG_FROM_TAG_2_T_18"
 				}
 			}
 		}
@@ -943,8 +735,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			},
 			{
@@ -953,8 +745,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_2",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_2_T_2"
 				}
 			},
 			{
@@ -963,8 +755,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_3",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_1_T_3"
 				}
 			},
 			{
@@ -973,8 +765,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_3",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_2_T_3"
 				}
 			},
 			{
@@ -983,8 +775,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_9",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_1_T_9"
 				}
 			},
 			{
@@ -993,8 +785,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_9",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_2_T_9"
 				}
 			},
 			{
@@ -1003,8 +795,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_11",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_1_T_11"
 				}
 			},
 			{
@@ -1013,8 +805,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_11",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_2_T_11"
 				}
 			},
 			{
@@ -1023,8 +815,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_18",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_1_T_18"
 				}
 			},
 			{
@@ -1033,20 +825,228 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_T_18",
-					number = -0.15
+					number = -0.122,
+					attr = "DMG_FROM_TAG_2_T_18"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_1_T_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_2_T_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_1_T_3"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_2_T_3"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_1_T_9"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_2_T_9"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_1_T_11"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_2_T_11"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_1_T_18"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.134,
+					attr = "DMG_FROM_TAG_2_T_18"
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_1_T_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_2_T_2"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_1_T_3"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_2_T_3"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_1_T_9"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_2_T_9"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_1_T_11"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_2_T_11"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_1_T_18"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = -0.15,
+					attr = "DMG_FROM_TAG_2_T_18"
+				}
+			}
+		}
+	},
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 17092,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17092,
+	color = "blue",
 	icon = 17090,
 	last_effect = "",
 	effect_list = {
@@ -1056,8 +1056,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_2",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_2"
 			}
 		},
 		{
@@ -1066,8 +1066,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_T_2",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_2_T_2"
 			}
 		},
 		{
@@ -1076,8 +1076,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_3",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_3"
 			}
 		},
 		{
@@ -1086,8 +1086,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_T_3",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_2_T_3"
 			}
 		},
 		{
@@ -1096,8 +1096,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_9",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_9"
 			}
 		},
 		{
@@ -1106,8 +1106,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_T_9",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_2_T_9"
 			}
 		},
 		{
@@ -1116,8 +1116,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_11",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_11"
 			}
 		},
 		{
@@ -1126,8 +1126,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_T_11",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_2_T_11"
 			}
 		},
 		{
@@ -1136,8 +1136,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_18",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_18"
 			}
 		},
 		{
@@ -1146,8 +1146,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_T_18",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_2_T_18"
 			}
 		}
 	}

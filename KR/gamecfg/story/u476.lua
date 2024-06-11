@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U476",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U476",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"상냥하고 조용한, 그리고 따뜻한\n\n<size=45>6. 외로운 늑대</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "——연습 당일.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "——연습 당일.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "아! 왔다! U-47, 여기야!",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,11 +129,11 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
-			dir = 1,
-			actorName = "U-81&U-557",
-			hideOther = true,
 			nameColor = "#a9f548",
+			dir = 1,
+			hideOther = true,
+			actor = 408010,
+			actorName = "U-81&U-557",
 			say = "…………？",
 			subActors = {
 				{
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			soundeffect = "event:/ui/alarm",
-			dir = 1,
 			say = "그리고 호루라기 소리와 함께 연습이 시작되었다.",
+			dir = 1,
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "U-47, 먼저 들어가서 매복해!",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "혼자가 편하다고 했잖아? 평소처럼 해. 우리가 맞춰 줄게!",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "U-47은 무언가 골똘히 생각하며 물속으로 들어갔다.",
@@ -388,14 +388,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "——연습이 끝났다. 세 사람의 작전도 원만하게 성공했다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,

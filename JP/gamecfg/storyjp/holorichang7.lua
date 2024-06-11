@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「幻想と真実の二重奏」-日常編\n\n<size=45>七 神楽の舞について</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 900210,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "みんな、揃いました？",
 			bgm = "holo-sora",
+			actor = 900210,
+			nameColor = "#a9f548",
+			say = "みんな、揃いました？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "シオンのやつ、絶対寝過ごしてる～",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "聞いてるわよ、あくあちゃん！",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "もう……ちょっと道を迷っただけよ！シオンがいつも寝過ごすって思ったら大間違いだからね！",
 			typewriter = {
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "こども扱いしないで……って、そら先輩か、ならいいっか。",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "ようやく見物の時間か、待ち遠しいな～",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "重桜区……ケモミミ駆逐艦……えへへ、えへへへ……",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "……そら先輩、みんなが揃ったようです～",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "じゃあ、あんまり重桜の人たちを待たせないよう、すぐ出発しよっか。",
 			typewriter = {
@@ -246,17 +246,17 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "長門様の居城へようこそ",
 			bgm = "nagato-map",
+			actor = 301490,
+			nameColor = "#a9f548",
+			say = "長門様の居城へようこそ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,8 +284,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "あ、江風ちゃん！！！",
 			typewriter = {
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -359,8 +359,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "ありがとうございます。わたしたち、迷惑をかけていませんか……？",
 			typewriter = {
@@ -405,15 +405,15 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "皆さん、長旅、大変お疲れさまでした。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -441,8 +441,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "あれ、どうして扶桑さんがここに？",
 			typewriter = {
@@ -503,11 +503,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "重桜の神楽の舞、ぜひご覧になっていただきたく存じます！",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -563,14 +563,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_tiancheng6",
 			actor = 900215,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "素敵な踊り……。心まで浄化されたようだね～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -614,8 +614,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "まつりちゃん……どうしてなにも言わないんですか？　生きてますか？",
 			typewriter = {
@@ -631,8 +631,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -648,8 +648,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "まつりちゃんどうしたの、ボーっとして？",
 			typewriter = {
@@ -665,8 +665,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "……そら先輩、まつりちゃんのことは気にしなくていいです。平常運転ですから。",
 			typewriter = {
@@ -698,8 +698,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "もちろん、ものすごーく気に入っているよ！",
 			typewriter = {
@@ -712,8 +712,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -722,12 +722,12 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "では、次の演目は――",
 			typewriter = {
 				speed = 0.05,

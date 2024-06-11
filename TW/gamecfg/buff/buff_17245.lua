@@ -9,8 +9,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -35,8 +35,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -61,8 +61,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -87,8 +87,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -139,8 +139,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -165,8 +165,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -191,8 +191,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -217,8 +217,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -243,8 +243,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 17247,
-					time = 1,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					time = 1
 				}
 			},
 			{
@@ -259,14 +259,14 @@ return {
 			}
 		}
 	},
-	time = 0,
-	name = "",
 	init_effect = "",
+	name = "",
+	time = 0,
+	picture = "",
+	desc = "持续伤害+减速",
 	stack = 1,
 	id = 17245,
-	picture = "",
 	last_effect = "",
-	desc = "持续伤害+减速",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -276,8 +276,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17247,
-				time = 1,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 1
 			}
 		},
 		{

@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE19",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE19",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "hunhe-battle",
+			say = "運河要塞・湾内",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
-			say = "運河要塞・湾内",
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_1",
+			dir = 1,
 			say = "霧に乗じて、セイレーンの艦隊が運河要塞に接近してくる。",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_1",
+			dir = 1,
 			say = "しかし――",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "計画通り、艦隊機動で敵火力を引き付けて、要塞の支援砲撃で敵を撃退します",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "幸い要塞の物資備蓄は十分ありますから、今の敵勢なら数ヶ月は持ちこたえられるでしょう",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "攻めてくるセイレーンは…決して生きて帰しません！",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "ナイス発破！カサブランカは凄いね～まさかあんなに手際よく輸送船を退避させるなんて",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "いいえ、輸送船団のエスコートこそ自分の領分です。むしろ提案を聞いていただきありがとうございます！",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "まさかここまでとは……",
 			typewriter = {
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			say = "――！",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――！",
 			flashN = {
 				color = {
 					1,
@@ -270,8 +270,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "？！これはもしかして…",
 			typewriter = {
@@ -303,8 +303,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "それが…こっちを無視して要塞にまっすぐ向かってるよ！",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "こちらの計画がバレたのですか？！なんとか量産型の注意を引き付けられませんか？",
 			typewriter = {
@@ -337,11 +337,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "ダメ、向こうは被害を無視して突っ込んでる。どうやら向こうも本気で要塞を狙っているみたいね…",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -408,8 +408,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "戦闘員を使い捨てにするなどまさにヴィランの所業！リノとしては許すわけにはいかない！",
 			typewriter = {
@@ -457,11 +457,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "そうね。このまま要塞に突っ込まれ続けたら防衛施設の被害は無視できないね。バンカー・ヒル、どうする？",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -528,8 +528,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "艦船と比べれば、要塞の火力の方が脅威的。だから向こうは量で押し寄せることにした",
 			typewriter = {
@@ -542,11 +542,11 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107170,
+			nameColor = "#a9f548",
 			say = "全力を挙げて敵本陣を叩き、これ以上援軍を湧かせなければいい…！",
 			effects = {
 				{

@@ -1,19 +1,19 @@
 return {
-	id = "WORLD304B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/41/tb-41",
+			dir = 1,
 			bgm = "xinnong-3",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Numerous hostiles have been detected. Proceed with caution.",
-			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,11 +41,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Update to data processing program required. Calculating time requirement...",
 			voice = "event:/tb/19/tb-19",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "Update to data processing program required. Calculating time requirement...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,11 +58,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Complete. This signal type will be treated as a form of Siren jamming. Reboot required to update definitions...",
 			voice = "event:/tb/40/tb-40",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "Complete. This signal type will be treated as a form of Siren jamming. Reboot required to update definitions...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,11 +75,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/24/tb-24",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Complete. System jamming has been detected. Initiating anti-jamming program.",
-			voice = "event:/tb/24/tb-24",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Transferring interference pattern data to headquarters...",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,8 +125,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "Error: Data package could not be sent. Connection with headquarters could not be established.",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "Connection to mainframe has been lost. Resuming in offline mode.",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Dammit! Not again!",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "I apologize for the inconvenience.",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "I can't help but wonder: what are the Sirens trying to achieve with this jamming?",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Essex, what do we do if we don't run into any Sirens soon?",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "I will say though, it's bizarre that we've come this close to the center of the NA Ocean and hardly done any fighting at all.",
 			typewriter = {
 				speed = 0.05,

@@ -9,9 +9,9 @@ return {
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "うわぁ…どんどん趣味が悪くなってるわね……",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 900194,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "ホーネット？",
 			dir = 1,
+			actorName = "ホーネット？",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,12 +1,12 @@
 return {
-	id = "W2028",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2028",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "何個もスイッチが出てきているが、どうやら正解は一つだけのようだ。",
 			typewriter = {
 				speed = 0.05,

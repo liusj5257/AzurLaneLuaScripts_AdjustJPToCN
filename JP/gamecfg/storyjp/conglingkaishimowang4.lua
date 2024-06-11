@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
-			say = "ウルスプ村――起源を意味するウルシュプルグ（Ursprung）によって名付けられた。",
 			bgm = "story-mmorpg",
+			say = "ウルスプ村――起源を意味するウルシュプルグ（Ursprung）によって名付けられた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "ここは、終わりなき樹海を抜けた先の道を辿った冒険者が目にする最初の村。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "名は体を表すとはこういうことだろう。",
 			typewriter = {
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "ウルプス村の村長",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "近頃は魔王軍による攻撃が日増しに頻繁になり、戦線は緊迫した状況にあって…",
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "ウルプス村の村長",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "物資だけじゃなく、村の若者もほとんど徴兵されておっての…残っているのはわしのような年寄りだけじゃ",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――…………",
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "ウルプス村の村長",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "突っ立ってどうしたのじゃ？もうくえすとを伝えたじゃろ？",
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "サブクエストは…？",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もしかしてサブクエストまで手が回ってなかったりして？",
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "ウルプス村の村長",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…（小声）いいから。この村にはエクストラ任務とか隠しアイテムとか何もないから、早く行った行った",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なんだって！？もう追い出されるの？",
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これでも勇者パーティーだよ！少しは敬ってくれたっていいじゃない！",
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,11 +381,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "ウルプス村の村長",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "き、君たちのような勇者パーティーは多いときで一日に十数組は見ていたぞ",
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふん、ならばこの伝説の「勇者の剣」を見るがいい！これを持っているってことは、撫順が王国で唯一無二にして最強の勇者を意味するってこと！",
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なんだと！たかがNPCの分際で偉そうに！懲らしめてやる！",
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…え？攻撃できない？",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "むむむ……ブリストルめ………",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "王都に行く！行けばいいんでしょー！",
@@ -548,10 +548,10 @@ return {
 		{
 			portrait = 101491,
 			side = 2,
-			bgName = "star_level_bg_155",
 			factiontag = "ウルプス村の村長",
 			dir = 1,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_155",
 			actorName = "ブリストル",
 			say = "幸運を祈るぞ。勇敢なる冒険者達よ",
 			painting = {
@@ -563,17 +563,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

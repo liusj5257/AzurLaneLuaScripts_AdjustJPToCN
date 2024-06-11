@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI10",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -39,10 +39,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……真是比聽到的情報還要誇張的景象，這就是所謂鏡面海域中的氣象奇觀嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -102,10 +102,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哇——————實、實在是太誇張了！",
 			typewriter = {
 				speed = 0.05,
@@ -120,10 +120,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那些海面上的牆難道是……迷宮？！那個神話中大迷宮的再現嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "克諾索斯迷宮……而且是以一個比神話誇張的多的方式進行了再現。塞壬的科技力還是一如既往的驚人……",
 			typewriter = {
 				speed = 0.05,
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這些迷宮也許只是海市蜃樓之類的障眼法……天鷹，讓艦載機接近迷宮外牆調查一下。",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "其他人立刻檢查電子儀器狀態並仔細偵察周邊環境。",
 			typewriter = {
 				speed = 0.05,
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "眾人",
+			side = 0,
 			bgName = "bg_italyv2_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "是！",
 			dialogShake = {
 				speed = 0.09,

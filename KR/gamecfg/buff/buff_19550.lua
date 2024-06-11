@@ -7,9 +7,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 5,
-					target = "TargetSelf"
+					time = 5
 				}
 			}
 		}
@@ -22,9 +22,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 5,
-					target = "TargetSelf"
+					time = 5
 				}
 			}
 		}
@@ -37,9 +37,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 5,
-					target = "TargetSelf"
+					time = 5
 				}
 			}
 		}
@@ -52,9 +52,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 4,
-					target = "TargetSelf"
+					time = 4
 				}
 			}
 		}
@@ -67,9 +67,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 4,
-					target = "TargetSelf"
+					time = 4
 				}
 			}
 		}
@@ -82,9 +82,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 4,
-					target = "TargetSelf"
+					time = 4
 				}
 			}
 		}
@@ -97,9 +97,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 3,
-					target = "TargetSelf"
+					time = 3
 				}
 			}
 		}
@@ -112,9 +112,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 3,
-					target = "TargetSelf"
+					time = 3
 				}
 			}
 		}
@@ -127,9 +127,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 2,
-					target = "TargetSelf"
+					time = 2
 				}
 			}
 		}
@@ -142,9 +142,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					target = "TargetSelf",
 					skill_id = 19550,
-					time = 2,
-					target = "TargetSelf"
+					time = 2
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19550,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19550,
+	color = "red",
 	icon = 19550,
 	last_effect = "",
 	effect_list = {
@@ -167,9 +167,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				skill_id = 19550,
-				time = 5,
-				target = "TargetSelf"
+				time = 5
 			}
 		}
 	}

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16722,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 10,
-	id = 16722,
+	color = "red",
 	icon = 16722,
 	last_effect = "",
 	effect_list = {
@@ -50,8 +50,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 16720,
+				target = "TargetSelf",
 				countType = 16720
 			}
 		},
@@ -62,10 +62,10 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
+				target = "TargetSelf",
+				countType = 16720,
 				quota = 1,
 				skill_id = 16722,
-				countType = 16720,
-				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"

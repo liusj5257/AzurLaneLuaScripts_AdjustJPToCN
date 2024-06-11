@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023关岛活动 UDF维修中心回血光环",
 	time = 0,
-	color = "yellow",
+	name = "2023关岛活动 UDF维修中心回血光环",
+	init_effect = "",
+	id = 200740,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200740,
+	color = "yellow",
 	icon = 200740,
 	last_effect = "fangkongRing02",
 	effect_list = {

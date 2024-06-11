@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD9901A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD9901A",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "分析儀",
+			side = 2,
 			stopbgm = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "數據解析中————————————",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "分析儀",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "分析儀",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -64,16 +64,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "會議開始，本日我們來探討一下頗具爭議的現象：「META」",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "META，即「元」。",
 			typewriter = {
 				speed = 0.05,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "根據我們的了解，META是一種趨勢，也是一種性質。是變化的過程，也是變化的結果。",
 			typewriter = {
 				speed = 0.05,
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "當事物的性質向著META進行變化時，這一過程被稱為META化。",
 			typewriter = {
 				speed = 0.05,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "心智魔方可以META化。基於META化的心智魔方可以誕生出META化的艦船。",
 			typewriter = {
 				speed = 0.05,
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "艦船亦可以META化，基於自身心智魔方的META化轉變為META化的艦船。",
 			typewriter = {
 				speed = 0.05,
@@ -183,12 +183,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "基於META化心智魔方建造出的META化艦船，其META化程度是不可逆的，至少目前沒有發現任何逆轉的方式。",
 			typewriter = {
 				speed = 0.05,
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "基於艦船轉化為的META化艦船，其META化在一定限度內是可逆的，目前擁有多種成熟的處理方式。",
 			typewriter = {
 				speed = 0.05,
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "心智魔方META化的盡頭，就是「元魔方」。",
 			typewriter = {
 				speed = 0.05,
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "而艦船META化的盡頭，則是————",
 			typewriter = {
 				speed = 0.05,
@@ -251,12 +251,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#000000",
-			actorName = "■■■",
-			bgNoise = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "■■■",
+			bgNoise = true,
 			say = "嗯？外部干擾又出現了，這裡應該是地下————",
 			typewriter = {
 				speed = 0.05,
@@ -268,15 +268,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "分析儀",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "分析儀",
 			say = "數據解析異常————————————",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "分析儀",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,

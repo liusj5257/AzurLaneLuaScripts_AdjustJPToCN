@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
-			say = "Sleepless City - Block 13, Abandoned Arcade",
 			bgm = "story-antarctica-serious",
+			say = "Sleepless City - Block 13, Abandoned Arcade",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "We hide out in several places for nearly an hour until we finally arrive at a safe house.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "It's an abandoned arcade. Svirepy, the Artist, seems to know a lot about this place.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "Apparently looking for a change of pace, she continues to fiddle with a barely-operating crane game.",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "...She keeps trying, but she fails to win anything.",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "Realizing the tokens in her pocket have run out, she turns around to face me.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "She shrugs and leans against a shelf covered in graffiti.",
 			typewriter = {
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Artist",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "Ahem. I'd prefer if you used my pseudonym, though.",
 			painting = {
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Artist",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "Hahaha, close enough! Let's make it simpler – I'M the rules here.",
 			painting = {
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Artist",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "But that breaks a rule, and that's lame as hell.",
 			painting = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Artist",
 			dir = 1,
 			optionFlag = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "I'm no exception!",
 			painting = {
@@ -308,12 +308,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Artist",
 			dir = 1,
 			optionFlag = 2,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "Ahahaha! C'mon, I gotta leave some canvas for other artists.",
 			painting = {
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Artist",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "Most of all, I was born and raised in this city. I love it like I love myself.",
 			painting = {
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_145",
 			nameColor = "#FEF15E",
 			say = "Aww, you got me...",
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "While Svirepy talks about her ideals, she suddenly becomes alert and yells at the arcade door.",
 			typewriter = {
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "When she does, the dusty door opens with a creak.",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "From it appears a girl wearing detective clothes and holding bread in her mouth.",
 			typewriter = {
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Private Detective",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "Don't be so tense~ As you can see, I'm just a private detective...",
 			painting = {
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Private Detective",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "The rules of this city need to be changed from the bottom up!",
 			painting = {
@@ -545,11 +545,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Private Detective",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "Don't be surprised. You're more famous in this city than you think.",
 			painting = {
@@ -580,8 +580,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "The oddly familiar private detective Volga takes a bite of her bread before turning serious.",
 			typewriter = {
@@ -590,11 +590,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Private Detective",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "...I come with an invitation.",
 			painting = {
@@ -631,11 +631,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Private Detective",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "I-I wonder... Can I take that as a yes, though?",
 			painting = {
@@ -666,11 +666,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Private Detective",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "This means I lost my bet, though... It's your victory, subordinate of the Queen.",
 			painting = {
@@ -696,8 +696,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "A voice, full of firm resolve, was accompanied by the appearance of another girl from the door.",
 			typewriter = {
@@ -755,11 +755,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "Private Detective",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "Oh, and I'll get rid of any trace that we met here~",
 			painting = {

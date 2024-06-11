@@ -1,16 +1,16 @@
 return {
-	id = "YONGYEHUANGUANG37",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG37",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp3",
+			say = "無数の氷柱が外力によって海面から抜き出され、先端が空へと続く巨大な構造体を形成している。",
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = "無数の氷柱が外力によって海面から抜き出され、先端が空へと続く巨大な構造体を形成している。",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "そこは北方連合・特異点「王冠」――そして現在セイレーンの北極圏内における最大の拠点の一つ。",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "そして、その拠点から生み出された無尽蔵のセイレーンに抗い続けている人類の守り手たちもまた存在している。",
 			typewriter = {
 				speed = 0.05,
@@ -129,9 +129,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "北方連合で目にした戦局は確かに厳しかった。そして、艦船たちもまた、今この瞬間に自分を必要としている",
 			typewriter = {
 				speed = 0.05,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "なら、彼女を率いる存在として、あともう少しだけ――",
 			typewriter = {
 				speed = 0.05,
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_3",
-			actorName = "みんな",
 			dir = 1,
+			actorName = "みんな",
 			say = "γpa！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -184,15 +184,15 @@ return {
 			}
 		},
 		{
-			actor = 900218,
 			side = 2,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
+			nameColor = "#ffff4d",
 			say = "「「「一緒に、戦いましょう。同志指揮官」」」",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

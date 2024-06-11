@@ -1,10 +1,10 @@
 slot0 = class("NewYearSnackResultView", import(".SnackResultView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewYearSnackResult"
 end
 
-function slot0.updateView(slot0)
+slot0.updateView = function(slot0)
 	slot1 = slot0:calculateEXValue()
 
 	if slot0.contextData.countTime > 0 then

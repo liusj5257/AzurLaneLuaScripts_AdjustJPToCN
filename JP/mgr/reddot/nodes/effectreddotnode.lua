@@ -1,6 +1,6 @@
 slot0 = class("EffectRedDotNode", import(".RedDotNode"))
 
-function slot0.SetData(slot0, slot1)
+slot0.SetData = function(slot0, slot1)
 	if IsNil(slot0.gameObject) or not isActive(slot0.gameObject) then
 		return
 	end
@@ -24,7 +24,7 @@ function slot0.SetData(slot0, slot1)
 	end
 end
 
-function slot0.StartAnimation(slot0, slot1)
+slot0.StartAnimation = function(slot0, slot1)
 	slot0:RemoveTimer()
 
 	slot1:GetComponent(typeof(Animator)).enabled = true
@@ -40,7 +40,7 @@ function slot0.StartAnimation(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -48,11 +48,11 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Remove(slot0)
+slot0.Remove = function(slot0)
 	slot0:RemoveTimer()
 end
 
-function slot0.Puase(slot0)
+slot0.Puase = function(slot0)
 	slot0:RemoveTimer()
 end
 

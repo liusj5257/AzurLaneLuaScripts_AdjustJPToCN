@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "ユニオン・NYシティ",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-designfleet",
+			say = "ユニオン・NYシティ",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
+			dir = 1,
 			say = "「再現」について上層部からの連絡を受けたあと、サラトガは会議室に一人で対策を思案していた。",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
+			dir = 1,
 			say = "各陣営の間の連絡不足による非常事態のリスク、セイレーンの急襲、指揮官の対応……",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
+			dir = 1,
 			say = "数時間後、ついに決心をしたサラトガが行動に出た。",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "正直あまり良くないけど、これ以上の方法はないわね…",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "………………",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "少なくとも、今以上に変な事態にはならないからね！",
 			typewriter = {
@@ -157,9 +157,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
+			dir = 1,
 			say = "セキュリティ対策が厳重に施された通信機を取り出し、サラトガはとあるチャンネルに向けて発信をし始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "通信回線確認しました。情報セキュリティ確認が完了しました。",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "通信者の権限を確認中ーーーーーー",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "ユニオン所属、空母サラトガと確認しました",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "権限確認が完了しました。ご指示ください",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "TBちゃん、「星の海」にいるアラスカに繋いで",
 			typewriter = {
@@ -259,9 +259,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そろそろ指揮官にユニオンの秘密を見せないとね…ふふふ♪",
 			typewriter = {

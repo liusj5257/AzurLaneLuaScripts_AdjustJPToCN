@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufared",
-	name = "指挥喵天赋-一发入魂",
 	time = 0,
+	name = "指挥喵天赋-一发入魂",
+	init_effect = "jinengchufared",
 	picture = "",
 	desc = "战列战巡的子弹暴击率提高3%",
 	stack = 2,

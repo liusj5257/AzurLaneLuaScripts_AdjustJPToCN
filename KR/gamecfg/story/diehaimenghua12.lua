@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 302080,
-			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "젠장, 여기까지인가…!",
 			bgm = "xinnong-4",
+			actor = 302080,
+			nameColor = "#a9f548",
+			say = "젠장, 여기까지인가…!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "이, 이건 대체……",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "……죄송합니다, 시나노님.",
 			typewriter = {
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "양산형 전함은… 한 발이다. 해안 보루 역시… 단 한 발이다. 구축함, 경순양함, 경항공모함… 맞기만 하면 한 발이다.",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "이것은 전투라고 불릴 수 없는 전투였다. 하지만, 나약한 방어선이라도 계속 버티고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -192,15 +192,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "후후후… 좋아요… 이 정도의 기록이라면, 이 정도의 영혼이어야죠!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "마음껏 싸우세요. 그리고 폐허 위에서 춤을 추는 거예요!",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,14 +251,14 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			actorName = "？？？",
-			bgName = "bg_xinnong_cg2",
 			side = 2,
+			bgName = "bg_xinnong_cg2",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900192,
 			nameColor = "#ffa500",
 			say = "…………방해하지 마.",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "언니, 조심해!",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,15 +1,15 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			mode = 1,
 			bgName = "bg_xinnong2_5",
+			mode = 1,
+			bgmDelay = 1,
 			bgm = "nagato-boss",
 			flashin = {
 				delay = 0.5,
@@ -28,9 +28,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
+			dir = 1,
 			say = "敵人伴隨著一波又一波滔天的巨浪襲來",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
+			dir = 1,
 			say = "狂風呼嘯著，彷彿巨獸的咆哮。海浪翻滾著，彷彿巨獸的利爪。",
 			typewriter = {
 				speed = 0.05,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#BDBDBD",
+			side = 2,
 			bgName = "bg_xinnong2_5",
-			actorName = "█ █ █ █",
 			dir = 1,
+			actorName = "█ █ █ █",
 			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ■■■■▋▌▊▎▇",
 			dialogShake = {
 				speed = 0.09,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,9 +125,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_5",
+			dir = 1,
 			say = "自天際線而來，利用波峰之後隱藏著身形而快速接近著的，巨影…",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#BDBDBD",
+			side = 2,
 			bgName = "bg_xinnong2_5",
-			actorName = "█ █ █ █",
 			dir = 1,
+			actorName = "█ █ █ █",
 			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ■■■■▋▌▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊▊▊",
 			dialogShake = {
 				speed = 0.09,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:104}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:188}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:103}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -224,13 +224,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "航空隊全數起飛，準備對巨獸進行討伐作戰！",
 			soundeffect = "event:/battle/plane",
+			nameColor = "#a9f548",
+			say = "航空隊全數起飛，準備對巨獸進行討伐作戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -257,12 +257,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_5",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "願火炬之光常明！",
 			typewriter = {
 				speed = 0.05,

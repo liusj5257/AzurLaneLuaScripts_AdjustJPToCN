@@ -1,12 +1,12 @@
 return {
-	id = "W1010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "装置が停止した。これ以上有益な情報を手に入れなさそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

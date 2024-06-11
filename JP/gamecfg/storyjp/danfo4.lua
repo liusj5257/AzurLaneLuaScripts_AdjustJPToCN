@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"デンバーの母港クエスト！\n\n<size=45>四 騎士の姉と妹</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "デンバーが依頼（クエスト）をこなしている際、時々新しいメンバーもパーティーに加わることがある。",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "デンバーが依頼（クエスト）をこなしている際、時々新しいメンバーもパーティーに加わることがある。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "例えば、厳格で自立心が強い軽巡洋艦、「バーミンガム」の場合は――",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "……デンバー。指揮官とは配属の時に挨拶している。紹介はいらない",
 			typewriter = {
@@ -131,14 +131,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 102230,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "……クリーブランド姉貴が認めるだけの実力があるというのか。しかし私はデンバーのように甘くない",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "ここはもう一度試させてもらう、と言わんばかりにまっすぐな視線を投げられた瞬間に――",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 102230,
 			actorName = "バーミンガム・デンバー",
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "へへ、皆依頼をやっているみたいだな！",
 			typewriter = {
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "そう言いながらクリーブランドは、ちょうど終わらせてきたばかりの依頼書にぽんとスタンプを押した。",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "ん？ああ、別にたいしたものじゃないよ。学園の教室の掃除依頼さ",
 			typewriter = {
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "掃除依頼……やはりクリーブランド姉貴はすごい！",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -312,8 +312,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "………そうだな。私も同感だ",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "？？ただ科学部の予備倉庫になる予定の教室の掃除をしただけだぞ？",
 			typewriter = {
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "デンバーの騎士…いや、勇者の心が再び燃え上がった。",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "（小声）すまない指揮官、いつもこんな感じか？",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "（小声）世話を焼かせたな。……感謝する",
 			typewriter = {
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "熱弁するデンバーと固まってしまったクリーブランドをよそに、バーミンガムが半分呆れたように感謝してくれた。",
 			typewriter = {
 				speed = 0.05,

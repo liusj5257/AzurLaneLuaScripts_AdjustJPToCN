@@ -1,12 +1,12 @@
 return {
-	time = 30,
-	name = "信浓活动梦境力量支援弹幕 难度4",
 	init_effect = "",
+	name = "信浓活动梦境力量支援弹幕 难度4",
+	time = 30,
+	picture = "",
+	desc = "15秒第一波并提升我方5%炮击，20秒第二波并提升我方5%雷击，25秒第三波并提升我方5%航空",
 	stack = 1,
 	id = 8743,
-	picture = "",
 	last_effect = "",
-	desc = "15秒第一波并提升我方5%炮击，20秒第二波并提升我方5%雷击，25秒第三波并提升我方5%航空",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -15,10 +15,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8740,
 				time = 15,
 				rant = 10000,
-				skill_id = 8740
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -38,10 +38,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8741,
 				time = 18,
 				rant = 10000,
-				skill_id = 8741
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -61,10 +61,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8742,
 				time = 25,
 				rant = 10000,
-				skill_id = 8742
+				target = "TargetSelf"
 			}
 		},
 		{

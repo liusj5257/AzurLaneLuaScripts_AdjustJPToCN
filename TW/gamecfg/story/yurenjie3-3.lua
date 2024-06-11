@@ -4,10 +4,10 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
+			side = 2,
 			say = "在“超級彩虹錘1號”的攻擊面前，魔王很快萌生了退意——",
+			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,8 +17,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐怖大魔王？",
 			say = "這不公平！我要撤退了！",
 			painting = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -71,10 +71,10 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "讓魔王見識一下彩虹之力burin！！！",
 			painting = {
 				alpha = 0.3,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_megaburin",
+			nameColor = "#A9F548FF",
 			actorName = "布里三姐妹",
 			say = "這一擊，砸穿大地呀buli！\n這一擊，突破天際呀purin！\n這一擊，擊墜星辰呀burin！",
 			typewriter = {
@@ -149,9 +149,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
+			side = 2,
 			say = "以“超級彩虹錘1號”的七彩虹光為引導，布里姐妹的力量匯聚到了一起，化為了點亮星辰的白色光芒。",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "——轟！！！",
 			soundeffect = "event:/battle/boom2",
+			say = "——轟！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "………………",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "………………………………",
 			typewriter = {
@@ -250,14 +250,14 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			nameColor = "#A9F548FF",
-			bgName = "bg_unnamearea_1",
 			side = 2,
 			dir = 1,
+			bgName = "bg_unnamearea_1",
+			bgm = "story-richang-1",
+			actor = 100010,
 			stopbgm = true,
 			say = "魔王消失了，我們贏啦purin！",
-			bgm = "story-richang-1",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,8 +274,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,8 +296,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "burin？“超級彩虹錘1號”好像完全不亮了burin！",
 			painting = {
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,9 +322,9 @@ return {
 		{
 			actor = 100000,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "壞、壞了buli…………",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "唔~沒關係，當做紀念品就好burin！剛剛感覺到，好像我們在一起的力量比“超級彩虹錘1號”還強burin！",
 			painting = {
@@ -353,8 +353,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -365,9 +365,9 @@ return {
 		{
 			actor = 100020,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "還是慶祝勝利更重要，我們去吃烤肉吧burin！",
 			painting = {
 				alpha = 0.3,
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#A9F548FF",
-			bgName = "bg_unnamearea_1",
 			side = 0,
 			dir = 1,
+			actor = 100000,
+			bgName = "bg_unnamearea_1",
 			hideOther = true,
 			actorName = "泛用型布里&试作型布里MKII",
 			say = "好耶buli！\n好耶purin！",
@@ -405,8 +405,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,9 +421,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
+			side = 2,
 			say = "就這樣，布里姐妹們享受了一頓完美的烤肉大餐。",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "至於那傳說本身，也許還會繼續是個傳說吧——",
 			typewriter = {

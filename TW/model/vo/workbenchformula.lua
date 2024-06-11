@@ -1,37 +1,33 @@
 slot0 = class("WorkBenchFormula", import("model.vo.BaseVO"))
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_workbench_recipe
 end
 
-function slot0.Ctor(slot0, ...)
+slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.times = slot0.times or 0
 	slot0.unlock = true
 end
 
-function slot0.GetConfigID(slot0)
-	return slot0.configId
-end
-
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetIconPath(slot0)
+slot0.GetIconPath = function(slot0)
 	return slot0:getConfig("icon")
 end
 
-function slot0.GetLockLimit(slot0)
+slot0.GetLockLimit = function(slot0)
 	return FilterVarchar(slot0:getConfig("recipe_lock"))
 end
 
-function slot0.GetLockDesc(slot0)
+slot0.GetLockDesc = function(slot0)
 	return slot0:getConfig("lock_display")
 end
 
-function slot0.BuildFromActivity(slot0)
+slot0.BuildFromActivity = function(slot0)
 	slot0.unlock = (function ()
 		if uv0:GetLockLimit() and slot0[1] == 1 then
 			slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2)
@@ -50,31 +46,31 @@ function slot0.BuildFromActivity(slot0)
 	slot0.times = slot2:GetFormulaUseCount(slot0:GetConfigID())
 end
 
-function slot0.IsUnlock(slot0)
+slot0.IsUnlock = function(slot0)
 	return slot0.unlock
 end
 
-function slot0.GetMaxLimit(slot0)
+slot0.GetMaxLimit = function(slot0)
 	return slot0:getConfig("item_num")
 end
 
-function slot0.SetUsedCount(slot0, slot1)
+slot0.SetUsedCount = function(slot0, slot1)
 	slot0.times = slot1
 end
 
-function slot0.GetUsedCount(slot0)
+slot0.GetUsedCount = function(slot0)
 	return slot0.times
 end
 
-function slot0.IsAvaliable(slot0)
+slot0.IsAvaliable = function(slot0)
 	return slot0:GetMaxLimit() <= 0 or slot0:GetUsedCount() < slot0:GetMaxLimit()
 end
 
-function slot0.GetProduction(slot0)
+slot0.GetProduction = function(slot0)
 	return slot0:getConfig("item_id")
 end
 
-function slot0.GetMaterials(slot0)
+slot0.GetMaterials = function(slot0)
 	return slot0:getConfig("recipe")
 end
 

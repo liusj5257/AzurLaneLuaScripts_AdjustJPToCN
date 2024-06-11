@@ -19,13 +19,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.15
+					number = -0.15,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.01
+					number = 0.01,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -64,13 +64,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.166
+					number = -0.166,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.02
+					number = 0.02,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -109,13 +109,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.182
+					number = -0.182,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.03
+					number = 0.03,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -154,13 +154,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.198
+					number = -0.198,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -173,8 +173,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.04
+					number = 0.04,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -199,13 +199,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.214
+					number = -0.214,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -218,8 +218,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.05
+					number = 0.05,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -244,13 +244,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.23
+					number = -0.23,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -263,8 +263,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -289,13 +289,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.246
+					number = -0.246,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -308,8 +308,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -334,13 +334,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.264
+					number = -0.264,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -353,8 +353,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.08
+					number = 0.08,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -379,13 +379,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.282
+					number = -0.282,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -398,8 +398,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.09
+					number = 0.09,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
@@ -424,13 +424,13 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.3
+					number = -0.3,
+					attr = "injureRatio"
 				},
 				pop = {
-					painting = 1,
 					castCV = "skill",
 					displayID = 15940,
+					painting = 1,
 					trigger = {
 						"onAttach"
 					}
@@ -443,15 +443,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.1
+					number = 0.1,
+					attr = "damageRatioBullet"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -484,13 +484,13 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.15
+				number = -0.15,
+				attr = "injureRatio"
 			},
 			pop = {
-				painting = 1,
 				castCV = "skill",
 				displayID = 15940,
+				painting = 1,
 				trigger = {
 					"onAttach"
 				}
@@ -503,8 +503,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.01
+				number = 0.01,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

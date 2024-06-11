@@ -1,6 +1,6 @@
 slot0 = class("AnniversaryUSFiveLoginPage", import(".TemplatePage.LoginTemplatePage"))
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	slot1 = slot0.itemList

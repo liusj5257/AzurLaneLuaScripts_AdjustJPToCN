@@ -2,17 +2,17 @@ slot0 = class("NewBattleResultDisplayPaintingsPage", import("view.base.BaseSubVi
 slot1 = 6
 slot2 = 295
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewBattleResultDisplayPaintingsPages"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.slots = {
 		slot0:findTF("tpl")
 	}
 end
 
-function slot0.StaticGetFinalExpandPosition(slot0)
+slot0.StaticGetFinalExpandPosition = function(slot0)
 	if slot0 <= uv0 then
 		return uv1.StaticGetExpandPosition(slot0, uv0 - 1)
 	else
@@ -20,18 +20,18 @@ function slot0.StaticGetFinalExpandPosition(slot0)
 	end
 end
 
-function slot0.StaticGetExpandPosition(slot0, slot1)
+slot0.StaticGetExpandPosition = function(slot0, slot1)
 	slot3 = slot1 % 2 ~= 0
 	slot4 = nil
 
 	return ((slot0 > 6 and slot0 % 2 == 0 or slot0 <= 6) and (slot3 and Vector2(-730, 72) or Vector2(-457, -72)) or slot3 and Vector2(-751, -72) or Vector2(-437, 72)) + Vector2(590, 0) * (math.ceil(slot1 / 2) - 1)
 end
 
-function slot0.GetExpandPosition(slot0, slot1, slot2)
+slot0.GetExpandPosition = function(slot0, slot1, slot2)
 	return uv0.StaticGetExpandPosition(slot1, slot2)
 end
 
-function slot0.GetShrinkPosition(slot0, slot1, slot2)
+slot0.GetShrinkPosition = function(slot0, slot1, slot2)
 	slot3 = slot0:GetExpandPosition(slot1, slot2)
 	slot4 = slot2 % 2 ~= 0
 	slot5 = Vector2(-125, -936)
@@ -43,7 +43,7 @@ function slot0.GetShrinkPosition(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0:Show()
 
 	slot0.displayShips = slot0:ReSortFleetShips()
@@ -72,7 +72,7 @@ function slot0.SetUp(slot0, slot1)
 	end)
 end
 
-function slot0.ReSortFleetShips(slot0)
+slot0.ReSortFleetShips = function(slot0)
 	slot4, slot5, slot6, slot7 = NewBattleResultUtil.SeparateMvpShip(slot0.contextData.oldMainShips, slot0.contextData.statistics.mvpShipID, slot0.contextData.statistics._flagShipID)
 	slot8 = {}
 
@@ -91,7 +91,7 @@ function slot0.ReSortFleetShips(slot0)
 	return slot8
 end
 
-function slot0.InitSubFleetShips(slot0, slot1)
+slot0.InitSubFleetShips = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -129,7 +129,7 @@ function slot0.InitSubFleetShips(slot0, slot1)
 	end)
 end
 
-function slot0.DisplaySubFleet(slot0, slot1)
+slot0.DisplaySubFleet = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -185,7 +185,7 @@ function slot0.DisplaySubFleet(slot0, slot1)
 	end)
 end
 
-function slot0.EffectSlots(slot0, slot1)
+slot0.EffectSlots = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.slots) do
 		if not IsNil(slot6) then
 			setActive(slot6:Find("effect"), slot1)
@@ -193,7 +193,7 @@ function slot0.EffectSlots(slot0, slot1)
 	end
 end
 
-function slot0.MoveMainFleetShips(slot0, slot1)
+slot0.MoveMainFleetShips = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -234,7 +234,7 @@ function slot0.MoveMainFleetShips(slot0, slot1)
 	end, 0.05)
 end
 
-function slot0.DisplayMainFleet(slot0, slot1)
+slot0.DisplayMainFleet = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -293,7 +293,7 @@ function slot0.DisplayMainFleet(slot0, slot1)
 	end)
 end
 
-function slot0.InitMainFleetShips(slot0, slot1)
+slot0.InitMainFleetShips = function(slot0, slot1)
 	for slot7 = 2, math.min(uv0, #slot0.displayShips) do
 		table.insert(slot0.slots, Object.Instantiate(slot0.slots[1], slot0.slots[1].parent))
 	end
@@ -317,7 +317,7 @@ function slot0.InitMainFleetShips(slot0, slot1)
 	parallelAsync(slot4, slot1)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.exited = true
 
 	if slot0:isShowing() then

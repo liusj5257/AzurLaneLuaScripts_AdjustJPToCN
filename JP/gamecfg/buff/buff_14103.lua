@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 600
+					number = 600,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 720
+					number = 720,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 840
+					number = 840,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1000
+					number = 1000,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1120
+					number = 1120,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1240
+					number = 1240,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1400
+					number = 1400,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1560
+					number = 1560,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1720
+					number = 1720,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 2000
+					number = 2000,
+					attr = "antiSubPower"
 				}
 			}
 		}
 	},
-	time = 50,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 50,
 	picture = "",
 	desc = "反潜提高",
 	stack = 1,
@@ -173,8 +173,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiSubPower",
-				number = 600
+				number = 600,
+				attr = "antiSubPower"
 			}
 		}
 	}

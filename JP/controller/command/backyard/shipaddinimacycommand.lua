@@ -1,6 +1,6 @@
 slot0 = class("ShipAddInimacyCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = pg.ConnectionMgr.GetInstance()
 
 	slot3:Send(19011, {
@@ -23,6 +23,7 @@ function slot0.execute(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shipAddInimacy_ok", slot2:getName()))
 			end
 
+			getProxy(DormProxy):UpdateInimacyAndMoney()
 			uv1:sendNotification(GAME.BACKYARD_ADD_INTIMACY_DONE, {
 				id = uv0
 			})

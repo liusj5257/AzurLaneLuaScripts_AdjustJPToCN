@@ -1,19 +1,19 @@
 return {
-	id = "JICHANG14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG14",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "「μ兵裝」實驗暨偶像演唱會大賽還在進行中！",
 			bgm = "azumaster-ins",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "「μ兵裝」實驗暨偶像演唱會大賽還在進行中！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "港區・演習海域",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "不去過分在意「偶像活動作為工作」這一點的話，妳們的表現一定能更好。",
 			typewriter = {
 				speed = 0.05,
@@ -159,10 +159,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 202280,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "謝菲，剛才的話有點難懂……",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "這樣無論是舞蹈還是唱歌都可以對上拍子。",
 			typewriter = {
 				speed = 0.05,
@@ -207,10 +207,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "尤其是塔什干！",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +224,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這樣，我知道了。",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "（居然沒有人來吐槽啊…感覺真微妙）",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "啊，順便提下，我們也一樣遇到了惡毒和{namecode:97}她們，所以其實並不是給妳們單獨做培訓啦。",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "畢竟主人最不希望看到的事情，就是半途而廢。",
 			typewriter = {
 				speed = 0.05,
@@ -304,9 +304,9 @@ return {
 		{
 			actor = 103250,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "謝謝妳們，我們也正煩惱這件事呢。",
 			typewriter = {
 				speed = 0.05,
@@ -320,9 +320,9 @@ return {
 		{
 			actor = 207110,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "將「感情」融入到歌曲中，這件事確實很困難……",
 			typewriter = {
 				speed = 0.05,
@@ -351,9 +351,9 @@ return {
 		{
 			actor = 202280,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "{namecode:91}？",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			say = "一邊是，對締結羈絆的伙伴的感恩之情，以及讓這種情感變得聖潔的高潔之心。",
 			typewriter = {
 				speed = 0.05,
@@ -414,8 +414,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "（從{namecode:91}嘴裡說出來的這話，非常地有說服力呢……）",
 			typewriter = {
 				speed = 0.05,

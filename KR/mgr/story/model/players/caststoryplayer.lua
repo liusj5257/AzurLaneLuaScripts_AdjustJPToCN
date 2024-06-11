@@ -1,6 +1,6 @@
 slot0 = class("CastStoryPlayer", import(".StoryPlayer"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.tpls = {
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.layoutContainer = slot0.castPanel:Find("Image")
 end
 
-function slot0.OnReset(slot0, slot1, slot2, slot3)
+slot0.OnReset = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.castPanel, true)
 	setAnchoredPosition(slot0.layoutContainer, {
 		x = 0,
@@ -21,7 +21,7 @@ function slot0.OnReset(slot0, slot1, slot2, slot3)
 	slot3()
 end
 
-function slot0.OnEnter(slot0, slot1, slot2, slot3)
+slot0.OnEnter = function(slot0, slot1, slot2, slot3)
 	seriesAsync({
 		function (slot0)
 			uv0:SetLayout(uv1, slot0)
@@ -35,7 +35,7 @@ function slot0.OnEnter(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.SetLayout(slot0, slot1, slot2)
+slot0.SetLayout = function(slot0, slot1, slot2)
 	removeAllChildren(slot0.layoutContainer)
 
 	slot0.layoutContainer:GetComponent(typeof(VerticalLayoutGroup)).spacing = slot1:GetSpacing()
@@ -50,11 +50,11 @@ function slot0.SetLayout(slot0, slot1, slot2)
 	slot2()
 end
 
-function slot0.InitLayoutForType1(slot0, slot1, slot2)
+slot0.InitLayoutForType1 = function(slot0, slot1, slot2)
 	setText(slot1, slot2.text)
 end
 
-function slot0.InitLayoutForType2(slot0, slot1, slot2)
+slot0.InitLayoutForType2 = function(slot0, slot1, slot2)
 	slot5 = slot1:GetComponent(typeof(LayoutElement))
 	slot1:Find("image"):GetComponent(typeof(Image)).sprite = LoadSprite("bg/" .. slot2.path)
 
@@ -68,7 +68,7 @@ function slot0.InitLayoutForType2(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InitLayoutForType3(slot0, slot1, slot2)
+slot0.InitLayoutForType3 = function(slot0, slot1, slot2)
 	slot4 = slot2.column
 	slot5 = slot1:GetComponent(typeof(GridLayoutGroup))
 	slot5.constraintCount = slot4
@@ -98,10 +98,10 @@ function slot0.InitLayoutForType3(slot0, slot1, slot2)
 	slot9:align(#slot2.names)
 end
 
-function slot0.InitLayoutForType4(slot0, slot1, slot2)
+slot0.InitLayoutForType4 = function(slot0, slot1, slot2)
 end
 
-function slot0.StartAnimation(slot0, slot1, slot2)
+slot0.StartAnimation = function(slot0, slot1, slot2)
 	slot0:PlayAnimation(slot1:GetPlayTime(), slot2)
 	onButton(slot0, slot0._tf, function ()
 		removeOnButton(uv0._tf)
@@ -109,7 +109,7 @@ function slot0.StartAnimation(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.PlayAnimation(slot0, slot1, slot2)
+slot0.PlayAnimation = function(slot0, slot1, slot2)
 	slot0:TweenValue(slot0.layoutContainer, getAnchoredPosition(slot0.layoutContainer).y, slot0.castPanel.rect.height + slot0.layoutContainer.sizeDelta.y, slot1, 0, function (slot0)
 		setAnchoredPosition(uv0.layoutContainer, {
 			y = slot0
@@ -120,12 +120,12 @@ function slot0.PlayAnimation(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.SpeedUp(slot0, slot1, slot2)
+slot0.SpeedUp = function(slot0, slot1, slot2)
 	slot0:CancelTween(slot0.layoutContainer)
 	slot0:PlayAnimation(slot1 * 0.2, slot2)
 end
 
-function slot0.RegisetEvent(slot0, slot1)
+slot0.RegisetEvent = function(slot0, slot1)
 	uv0.super.RegisetEvent(slot0, slot1)
 	triggerButton(slot0._go)
 end

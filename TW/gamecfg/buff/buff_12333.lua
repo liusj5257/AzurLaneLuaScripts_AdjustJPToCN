@@ -9,8 +9,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -50
+					number = -50,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -21,8 +21,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -50
+					number = -50,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -37,8 +37,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -62
+					number = -62,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -49,8 +49,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -62
+					number = -62,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -65,8 +65,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -74
+					number = -74,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -77,8 +77,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -74
+					number = -74,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -93,8 +93,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -90
+					number = -90,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -105,8 +105,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -90
+					number = -90,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -121,8 +121,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -105
+					number = -105,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -105
+					number = -105,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -120
+					number = -120,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -120
+					number = -120,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -177,8 +177,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -140
+					number = -140,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -189,8 +189,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -140
+					number = -140,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -205,8 +205,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -158
+					number = -158,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -217,8 +217,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -158
+					number = -158,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -176
+					number = -176,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -245,8 +245,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -176
+					number = -176,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -261,8 +261,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = -200
+					number = -200,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -273,20 +273,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = -200
+					number = -200,
+					attr = "dodgeRate"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "恶毒2",
 	time = 20,
-	color = "red",
+	name = "恶毒2",
+	init_effect = "",
+	id = 12333,
 	picture = "",
 	desc = "",
 	stack = 9,
-	id = 12333,
+	color = "red",
 	icon = 12330,
 	last_effect = "",
 	effect_list = {}

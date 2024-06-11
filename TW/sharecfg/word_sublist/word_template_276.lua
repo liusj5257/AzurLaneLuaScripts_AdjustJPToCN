@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_276 = {}
 slot1 = slot0.word_template_276
 
-function temp()
+temp = function()
 	uv0["開"] = {
 		["苞"] = {
 			this = true
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["凱"] = {
 		["奧"] = {
 			["勒"] = {
@@ -78,7 +78,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["砍"] = {
 		["翻"] = {
 			["一"] = {
@@ -97,7 +97,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["看"] = {
 		["中"] = {
 			["國"] = {

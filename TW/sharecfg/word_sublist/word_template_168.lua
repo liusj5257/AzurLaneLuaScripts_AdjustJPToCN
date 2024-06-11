@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_168 = {}
 slot1 = slot0.word_template_168
 
-function temp()
+temp = function()
 	uv0["哪"] = {
 		["里"] = {
 			["有"] = {
@@ -48,7 +48,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["套"] = {
 		["弄"] = {
 			["花"] = {
@@ -62,7 +62,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["第"] = {
 		["一"] = {
 			["次"] = {
@@ -80,7 +80,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["进"] = {
 		["口"] = {
 			["气"] = {

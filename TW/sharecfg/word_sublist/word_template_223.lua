@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_223 = {}
 slot1 = slot0.word_template_223
 
-function temp()
+temp = function()
 	uv0.W = {
 		E = {
 			B = {
@@ -71,7 +71,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.y = {
 		u = {
 			m = {
@@ -202,7 +202,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.z = {
 		h = {
 			e = {
@@ -433,7 +433,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.I = {
 		N = {
 			C = {

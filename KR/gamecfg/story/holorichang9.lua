@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"환상과 진실의 이중주-일상 편\n\n<size=45>9. 사쿠라 엠파이어 시찰단(하)</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "나가토님---- 아무래도 낮잠을 주무시는 것 같군…",
 			bgm = "holo-tokiwa",
+			actor = 301490,
+			nameColor = "#a9f548",
+			say = "나가토님---- 아무래도 낮잠을 주무시는 것 같군…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900130,
 			dir = 1,
+			actor = 900130,
 			nameColor = "#a9f548",
 			say = "카와카제……? 벌써 도착했는가. 아직 낮잠을 자는 중인데……",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "귀여워!",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "이, 이 무슨 귀여운 생물체! 아니, 천사, 천사야!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "음, 확실히…… 이번에는 마츠리쨩의 의견에 동의할 수밖에 없겠네……",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900130,
 			dir = 1,
+			actor = 900130,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900130,
 			dir = 1,
+			actor = 900130,
 			nameColor = "#a9f548",
 			say = "―――――?! 너희는 누구지?!",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,15 +190,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "방금 무례는 정말로 미안했다. 사쿠라 엠파이어의 무녀로서 사과하도록 하지.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "아냐, 아냐. 높으신 분이라고 생각했는데, 덕분에 친밀감이 느껴졌어.",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "옆집 여동생 같은 느낌이랄까~",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "스--------",
 			typewriter = {
@@ -290,15 +290,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "그렇구나. 야마시로와 후소의 카구라의 춤, 그리고 이세와 휴가의 연무.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -358,8 +358,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "괜찮아, 괜찮아. 즐거웠는걸. 그러니 너무 마음에 담아두지 마~",
 			typewriter = {
@@ -391,8 +391,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "나가토님은 같이 놀지 않아?",
 			typewriter = {
@@ -424,8 +424,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "나가토쨩, 우리랑 같이 나가보지 않을래?",
 			typewriter = {
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "나가토 언니, 왜 무츠에게 모두가 온다는 걸 알려주지 않은 거야! 무츠에게는 왜 환영 준비를 시키지 않은 거야! 무츠도 열심히 준비했는데!",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -512,11 +512,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "아아아…… 네가 그렇게 말한다면.",
 			typewriter = {
 				speed = 0.05,
@@ -528,8 +528,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "잘 됐다~",
 			typewriter = {
 				speed = 0.05,
@@ -554,8 +554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -598,14 +598,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_111",
 			actor = 900214,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "……무츠라는 아이도 대단한 사람이겠지? 시온하고 별 다를게 없어 보이는데.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -649,8 +649,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "그리고 너보다 훨씬 더 귀엽다.",
 			typewriter = {
@@ -666,8 +666,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "하아?! 아닐걸! 적어도 똑같이 귀여울 거라고! 그리고 아마도 시온이 조금 더 귀여워!",
 			typewriter = {
@@ -680,8 +680,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -754,11 +754,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			say = "응, 알고 있어! 그게 나가토의 매력이니까, 그런 아이를 쓸쓸하게 두어서는 안 되지!",
 			typewriter = {
 				speed = 0.05,
@@ -770,8 +770,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -796,9 +796,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
+			dir = 1,
 			say = "높은 벽 안에서 소녀의 웃음소리가 울려 퍼졌다.",
 			typewriter = {
 				speed = 0.05,

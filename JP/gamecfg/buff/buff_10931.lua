@@ -139,9 +139,9 @@ return {
 			}
 		}
 	},
-	time = 8,
 	name = "威光",
 	init_effect = "jinengchufablue",
+	time = 8,
 	picture = "",
 	desc = "承受全体主力舰队受到的伤害",
 	stack = 1,

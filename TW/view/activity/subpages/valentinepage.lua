@@ -1,12 +1,12 @@
 slot0 = class("ValentinePage", import(".TemplatePage.LoginTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.title = slot0:findTF("day", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	slot1 = slot0.itemList
@@ -34,7 +34,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data1
 
 	setText(slot0.title, slot0.nday)

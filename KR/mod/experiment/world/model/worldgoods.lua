@@ -1,14 +1,14 @@
 slot0 = class("WorldGoods", import("...BaseEntity"))
 slot0.Fields = {
 	config = "table",
-	item = "table",
 	count = "number",
-	id = "number",
-	moneyItem = "table"
+	item = "table",
+	moneyItem = "table",
+	id = "number"
 }
 slot0.EventUpdateCount = "WorldGoods.EventUpdateCount"
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1.goods_id
 	slot0.config = pg.world_goods_data[slot0.id]
 
@@ -27,7 +27,7 @@ function slot0.Setup(slot0, slot1)
 	})
 end
 
-function slot0.UpdateCount(slot0, slot1)
+slot0.UpdateCount = function(slot0, slot1)
 	if slot0.count ~= slot1 then
 		slot0.count = slot1
 
@@ -35,7 +35,7 @@ function slot0.UpdateCount(slot0, slot1)
 	end
 end
 
-function slot0.sortFunc(slot0, slot1)
+slot0.sortFunc = function(slot0, slot1)
 	if slot0.config.priority == slot1.config.priority then
 		return slot0.id < slot1.id
 	else

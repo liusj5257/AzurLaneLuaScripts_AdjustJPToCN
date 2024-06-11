@@ -1,7 +1,7 @@
 return {
-	time = 60,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 60,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = "airAssist",
-				number = -0.2
+				number = -0.2,
+				type = "airAssist"
 			}
 		},
 		{

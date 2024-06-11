@@ -1,17 +1,17 @@
 return {
-	id = "HUANGJINDEMIBAO2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUANGJINDEMIBAO2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 100000,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-1",
 			dir = 1,
 			say = "여기가 모든 단서들이 가리키는 \"그 곳\"인가? 푸링...?",
+			bgm = "battle-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "콰과과과과과과광——",
 			dialogShake = {
 				speed = 0.09,
@@ -72,8 +72,8 @@ return {
 		{
 			actor = 100010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "그렇다면 나를 꺾어봐라! 진정한 강자만이 진정한 보물을 가질 자격이 있는 법! 푸링!",
 			dialogShake = {
 				speed = 0.09,

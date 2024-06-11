@@ -2,14 +2,14 @@ return {
 	{
 		desc = "战斗开始时，若队伍中存在其他μ兵装舰船，自身主炮效率提高5%；主炮每进行9次攻击，触发专属弹幕-欧根亲王(μ兵装)I"
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 30221,
 	picture = "",
 	desc = "战斗开始时，若队伍中存在其他μ兵装舰船，自身主炮效率提高5%；主炮每进行9次攻击，触发专属弹幕-欧根亲王(μ兵装)I",
 	stack = 1,
-	id = 30221,
+	color = "red",
 	icon = 30220,
 	last_effect = "",
 	effect_list = {
@@ -20,8 +20,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				skill_id = 30223,
 				target = "TargetSelf",
+				skill_id = 30223,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -50,8 +50,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 30221,
+				target = "TargetSelf",
 				countType = 30220
 			}
 		}

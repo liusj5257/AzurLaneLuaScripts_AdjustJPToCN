@@ -1,10 +1,10 @@
 slot0 = class("Msgbox4SpweaponConfirm", import(".MsgboxSubPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Msgbox4SpweaponConfirm"
 end
 
-function slot0.OnRefresh(slot0, slot1)
+slot0.OnRefresh = function(slot0, slot1)
 	if slot1.op == SpWeapon.CONFIRM_OP_DISCARD then
 		setText(slot0._tf:Find("Desc"), i18n("spweapon_ui_change_attr_text1"))
 		setText(slot0._tf:Find("Tip"), i18n("spweapon_ui_change_attr_text2"))

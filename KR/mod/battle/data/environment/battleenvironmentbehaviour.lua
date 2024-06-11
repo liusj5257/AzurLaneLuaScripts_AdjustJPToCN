@@ -10,17 +10,17 @@ slot3.STATE_READY = "STATE_READY"
 slot3.STATE_OVERHEAT = "STATE_OVERHEAT"
 slot3.STATE_EXPIRE = "STATE_EXPIRE"
 
-function slot3.Ctor(slot0, slot1, slot2)
+slot3.Ctor = function(slot0, slot1, slot2)
 	slot0._cldUnitList = {}
 end
 
-function slot3.SetUnitRef(slot0, slot1)
+slot3.SetUnitRef = function(slot0, slot1)
 	assert(slot1, "Shounld Bind A Unit")
 
 	slot0._unit = slot1
 end
 
-function slot3.SetTemplate(slot0, slot1)
+slot3.SetTemplate = function(slot0, slot1)
 	slot0._tmpData = slot1
 
 	if slot0._tmpData.delay then
@@ -37,7 +37,7 @@ function slot3.SetTemplate(slot0, slot1)
 	slot0._diveFilter = slot0._tmpData.diveFilter or {}
 end
 
-function slot3.UpdateCollideUnitList(slot0, slot1)
+slot3.UpdateCollideUnitList = function(slot0, slot1)
 	if #slot0._diveFilter ~= 0 then
 		slot2 = #slot1
 
@@ -59,7 +59,7 @@ function slot3.UpdateCollideUnitList(slot0, slot1)
 	slot0._cldUnitList = slot1
 end
 
-function slot3.OnUpdate(slot0)
+slot3.OnUpdate = function(slot0)
 	slot0:updateDelay()
 	slot0:updateReload()
 	slot0:updateLifeTime()
@@ -69,20 +69,20 @@ function slot3.OnUpdate(slot0)
 	end
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._cldUnitList = nil
 	slot0._tmpData = nil
 	slot0._CDstartTime = nil
 end
 
-function slot3.OnCollide(slot0, slot1)
+slot3.OnCollide = function(slot0, slot1)
 end
 
-function slot3.GetCurrentState(slot0)
+slot3.GetCurrentState = function(slot0)
 	return slot0._state
 end
 
-function slot3.updateDelay(slot0)
+slot3.updateDelay = function(slot0)
 	if slot0._delayStartTime and slot0._tmpData.delay + slot0._delayStartTime <= pg.TimeMgr.GetInstance():GetCombatTime() then
 		slot0._delayStartTime = nil
 
@@ -90,7 +90,7 @@ function slot3.updateDelay(slot0)
 	end
 end
 
-function slot3.updateReload(slot0)
+slot3.updateReload = function(slot0)
 	if slot0._CDstartTime then
 		if slot0:getReloadFinishTimeStamp() <= pg.TimeMgr.GetInstance():GetCombatTime() then
 			slot0:handleCoolDown()
@@ -100,7 +100,7 @@ function slot3.updateReload(slot0)
 	end
 end
 
-function slot3.updateLifeTime(slot0)
+slot3.updateLifeTime = function(slot0)
 	if slot0._liftStartTime and slot0._liftStartTime + slot0._tmpData.life_time <= pg.TimeMgr.GetInstance():GetCombatTime() then
 		slot0._state = uv0.STATE_EXPIRE
 
@@ -108,23 +108,23 @@ function slot3.updateLifeTime(slot0)
 	end
 end
 
-function slot3.getReloadFinishTimeStamp(slot0)
+slot3.getReloadFinishTimeStamp = function(slot0)
 	return slot0._tmpData.reload_time + slot0._CDstartTime
 end
 
-function slot3.handleCoolDown(slot0)
+slot3.handleCoolDown = function(slot0)
 	slot0._state = uv0.STATE_READY
 	slot0._CDstartTime = nil
 end
 
-function slot3.doBehaviour(slot0)
+slot3.doBehaviour = function(slot0)
 	if slot0._tmpData.reload_time then
 		slot0._CDstartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 		slot0._state = uv0.STATE_OVERHEAT
 	end
 end
 
-function slot3.doExpire(slot0)
+slot3.doExpire = function(slot0)
 	slot0._state = uv0.STATE_EXPIRE
 end
 
@@ -139,6 +139,6 @@ slot3.BehaviourClassEnum = {
 	[slot1.EnviroumentBehaviour.SHAKE_SCREEN] = "BattleEnvironmentBehaviourShakeScreen"
 }
 
-function slot3.CreateBehaviour(slot0)
+slot3.CreateBehaviour = function(slot0)
 	return uv0.Battle[uv1.BehaviourClassEnum[slot0.type]].New()
 end

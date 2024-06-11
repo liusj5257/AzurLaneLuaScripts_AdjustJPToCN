@@ -1,6 +1,6 @@
 slot0 = class("NewFrameTemplatePage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.battleBtn = slot0:findTF("battle_btn", slot0.bg)
 	slot0.getBtn = slot0:findTF("get_btn", slot0.bg)
@@ -16,7 +16,7 @@ function slot0.OnInit(slot0)
 	slot0.gotTag = slot0:findTF("AD/switcher/phase2/Image/got")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.avatarConfig = pg.activity_event_avatarframe[slot0.activity:getConfig("config_id")]
 
 	if slot0.avatarConfig.start_time == "stop" then
@@ -26,7 +26,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.battleBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
 	end, SFX_PANEL)
@@ -53,7 +53,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if slot0.avatarConfig.target < slot0.activity.data1 then
 		slot1 = slot2 or slot1
 	end
@@ -73,7 +73,7 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.target, not slot5)
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 
 	setToggleEnabled(slot0.switchBtn, false)

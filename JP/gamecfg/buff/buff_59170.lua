@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "敌方支援弹幕",
 	time = 0,
-	color = "blue",
+	name = "敌方支援弹幕",
+	init_effect = "",
+	id = 59170,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 59170,
+	color = "blue",
 	icon = 59170,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 59171,
-				target = "TargetSelf",
-				time = 30
+				time = 30,
+				target = "TargetSelf"
 			}
 		}
 	}

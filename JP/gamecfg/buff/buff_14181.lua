@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -20,8 +20,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.05
+					number = 0.05,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -47,8 +47,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.066
+					number = 0.066,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -61,8 +61,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -74,8 +74,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.082
+					number = 0.082,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -88,8 +88,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -101,8 +101,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.1
+					number = 0.1,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -115,8 +115,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -128,8 +128,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.116
+					number = 0.116,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -142,8 +142,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -155,8 +155,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.132
+					number = 0.132,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -169,8 +169,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -182,8 +182,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.15
+					number = 0.15,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -196,8 +196,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.166
+					number = 0.166,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -236,8 +236,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.182
+					number = 0.182,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
@@ -250,8 +250,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -263,20 +263,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageToArmorRateEnhance_1",
-					number = 0.2
+					number = 0.2,
+					attr = "damageToArmorRateEnhance_1"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 14181,
 	picture = "",
 	desc = "主炮射程提升，对轻甲伤害提高",
 	stack = 1,
-	id = 14181,
+	color = "red",
 	icon = 14180,
 	last_effect = "",
 	effect_list = {
@@ -286,8 +286,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				bulletRange = 75,
 				weaponRange = 75,
+				bulletRange = 75,
 				index = {
 					1
 				}
@@ -299,8 +299,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_1",
-				number = 0.05
+				number = 0.05,
+				attr = "damageToArmorRateEnhance_1"
 			}
 		}
 	}

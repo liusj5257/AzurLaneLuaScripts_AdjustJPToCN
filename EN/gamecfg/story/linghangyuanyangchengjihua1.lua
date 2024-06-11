@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Port - Office",
-			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "TB and I engage in a staredown through the computer screen.",
@@ -59,10 +59,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Synchronizing analysis module. Unable to grasp the information surrounding the concept of \"personality.\"",
 			painting = {
 				alpha = 0.3,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "TB brought up a very tricky subject just the other day. She said that she feels she lacks a personality.",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "My first thought was to provide her with some texts on the subject so she could figure it out for herself, which seemingly wasn't enough.",
@@ -130,10 +130,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Database entry: \"personality\" typically refers to the collection of traits unique to an individual, or to an individual's particular way of thinking.",
 			painting = {
 				alpha = 0.3,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Just then, a daring idea crosses my mind.",
@@ -214,10 +214,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Digital assistants such as I generally do not have periods matching the criteria of \"being a kid.\"",
 			painting = {
 				alpha = 0.3,
@@ -313,10 +313,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I believe the existence of a link is possible. However, this theory has no supporting evidence. It is merely a logical inference based on the conversation thus far.",
 			painting = {
 				alpha = 0.3,
@@ -398,10 +398,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Orders received. System entering special standby mode. I will reinitialize only upon your explicit orders.",
 			painting = {
 				alpha = 0.3,

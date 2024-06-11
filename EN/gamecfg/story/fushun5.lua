@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Mysteries and Danger!\n\n<size=45>5 A Mystery Unveiled!</size>",
@@ -14,24 +14,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
-			say = "The two of us proceed through the hidden corridor together.",
 			bgm = "story-richang-9",
+			say = "The two of us proceed through the hidden corridor together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? Is it just me, or are the temperature and humidity changing...?",
 			painting = {
 				alpha = 0.3,
@@ -43,12 +43,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, I think we're going underground.",
 			painting = {
 				alpha = 0.3,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "*beep beep!*",
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, do you hear something?",
 			painting = {
 				alpha = 0.3,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "Fu Shun whispers to me. I find myself tensing up a little.",
@@ -123,12 +123,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahem... I mean, it's a real hidden passage. Even I'm gonna get a little nervous...",
 			painting = {
 				alpha = 0.3,
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wait! Th-this is bad! Something's rushing at us from up ahead!",
 			painting = {
 				alpha = 0.3,
@@ -157,12 +157,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Green... eyes?! Aaah... Is it a ghost?!",
 			painting = {
 				alpha = 0.3,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "There's a trembling voice in the darkness—Ingraham's voice.",
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh... The green-eyed thing was just Ingraham's little helper robot.",
 			painting = {
 				alpha = 0.3,
@@ -218,10 +218,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Phew... It's just Fu Shun and the Commander. I thought YOU were scary ghosts.",
 			painting = {
 				alpha = 0.3,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "After a moment, everyone calms down, and Ingraham questions us.",
@@ -259,10 +259,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Why did the two of you come to the factory's underground warehouse?",
 			painting = {
 				alpha = 0.3,
@@ -277,10 +277,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So late at night, at that...",
 			painting = {
 				alpha = 0.3,
@@ -292,12 +292,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, to us, you're the mysterious one for walking around this factory all alone in the middle of the night.",
 			painting = {
 				alpha = 0.3,
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I just came to look for any materials that were forgotten during the move. They're planning to demolish the building, after all.",
 			painting = {
 				alpha = 0.3,
@@ -329,10 +329,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Taking inventory at this time of night won't get in anyone's way.",
 			painting = {
 				alpha = 0.3,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yep. Tomorrow, I'll be supervising the blasting process.",
 			painting = {
 				alpha = 0.3,
@@ -373,12 +373,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I get it now... You've been here taking inventory every night, and that's why Chang Chun thought you were the mystery of the abandoned factory...",
 			painting = {
 				alpha = 0.3,
@@ -393,10 +393,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Mystery of the abandoned factory? Come again?",
 			painting = {
 				alpha = 0.3,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nothing. Don't worry about it! Heheh!",
 			painting = {
 				alpha = 0.3,
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oookay, that marks the end of our search! The mystery is unveiled to be none other than Ingraham!",
 			painting = {
 				alpha = 0.3,
@@ -454,12 +454,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nope! Quite the opposite, in fact! Today was a ton of fun!",
 			painting = {
 				alpha = 0.3,
@@ -471,12 +471,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Having fun exploring is what satisfies me! The results and truth don't matter one bit!",
 			painting = {
 				alpha = 0.3,
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "An abandoned factory, mysteries and legends, walking through the darkness with just a flashlight... That's where the real fun lies!",
 			painting = {
 				alpha = 0.3,
@@ -520,10 +520,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Speaking of, my work here is very nearly done. Do you have any more business here?",
 			painting = {
 				alpha = 0.3,
@@ -538,10 +538,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If not, let's go back together.",
 			painting = {
 				alpha = 0.3,
@@ -553,12 +553,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay! Heheh~ It's the perfect time at night for me to share some of my own stories of the port's mysteries!",
 			painting = {
 				alpha = 0.3,
@@ -570,12 +570,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What do you say? Want to hear some crazy true stories about the port?",
 			painting = {
 				alpha = 0.3,
@@ -590,10 +590,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "W-well, not really... Let's keep quiet and watch our steps, instead...",
 			painting = {
 				alpha = 0.3,
@@ -605,8 +605,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "Thus, the three of us quietly proceed through the passage...",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "...Until we hear an odd sound on the other end.",
@@ -639,12 +639,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You heard that, too, Commander? It was like a click, and then... nothing?",
 			painting = {
 				alpha = 0.3,
@@ -659,10 +659,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Did my robot malfunction? No... That sound was unfamiliar.",
 			painting = {
 				alpha = 0.3,
@@ -677,10 +677,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "C-could it be... one of those mysteries you were talking about?!",
 			painting = {
 				alpha = 0.3,
@@ -704,8 +704,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "I look to Fu Shun. For some reason, she's looking down and fiddling with her phone.",
@@ -718,10 +718,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101480,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Fu Shun? Are you sending a message, or...?",
 			painting = {
 				alpha = 0.3,
@@ -733,12 +733,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hm? Oh, did you say something?",
 			painting = {
 				alpha = 0.3,
@@ -750,12 +750,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That was just a random noise. Nothing to worry about!",
 			painting = {
 				alpha = 0.3,
@@ -767,12 +767,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, everyone! Let's go home already! There's nothing to investigate here!",
 			painting = {
 				alpha = 0.3,
@@ -784,12 +784,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_517",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, Ingraham! Let's get going!",
 			painting = {
 				alpha = 0.3,
@@ -825,8 +825,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "The adventure of the mystery of the abandoned factory ends confusingly and unsatisfactorily.",
@@ -836,8 +836,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "Is that just the nature of a mystery—that sometimes, some questions simply go unanswered?",

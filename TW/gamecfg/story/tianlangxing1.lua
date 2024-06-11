@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"天狼星改造計畫\n\n<size=45>一 身為女僕……</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "偶然得到貝爾法斯特的推薦，任命了原來在女僕隊中負責警備工作的天狼星為秘書艦",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "如果有什麼天狼星能做的，請您儘管開口。雖然遠不及女僕長能幹，但是天狼星會全力以赴，定不負您的期待！",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "試著把工作交給這位舉止颯爽、努力上進的女僕……",
 			typewriter = {
 				speed = 0.05,
@@ -111,15 +111,15 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "…………？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "天狼星疑惑地歪了歪頭。",
 			typewriter = {
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "十分抱歉……昨天以為主人已經過目，就擅自處理了……",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "我、我這就去找！",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 2250
@@ -229,9 +229,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "天狼星慌慌張張地跪在堆成小山的廢紙堆前翻找起來。",
 			typewriter = {
 				speed = 0.05,
@@ -243,15 +243,15 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "不好意思主人，打掃要從哪裡開始比較好……？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,15 +276,15 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "非常抱歉，泡茶一直是由女僕隊的其他夥伴負責的，天狼星沒有做過……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.4,
 					x = 22.5,
@@ -319,13 +319,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "作為護衛（Secret Service）的她確實無懈可擊，\n但是在普通事務方面卻是僅僅及格的水準，實在很難令人開口誇讚。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -369,8 +369,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "請……請懲罰犯了錯誤的女僕吧！",
 			typewriter = {
@@ -383,9 +383,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "天狼星深深低頭，拼命道歉。",
 			typewriter = {
 				speed = 0.05,

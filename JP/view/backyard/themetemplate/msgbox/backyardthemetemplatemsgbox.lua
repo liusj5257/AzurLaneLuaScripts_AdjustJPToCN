@@ -2,11 +2,11 @@ slot0 = class("BackYardThemeTemplateMsgBox", import("....base.BaseSubView"))
 slot0.TYPE_TEXT = 1
 slot0.TYPE_IMAGE = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardThemeTemplateMsgBox"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.frame = slot0:findTF("window1")
 	slot0.content = slot0:findTF("window1/content"):GetComponent(typeof(Text))
 	slot0.frame1 = slot0:findTF("window2")
@@ -21,7 +21,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("title"), i18n("words_information"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -41,7 +41,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0.onYes = slot1.onYes
 	slot0.onCancel = slot1.onCancel
 	slot0.cancelBtnTxt.text = slot1.cancelTxt or i18n("word_cancel")
@@ -65,12 +65,12 @@ function slot0.SetUp(slot0, slot1)
 	slot0:Show()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	SetParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if not IsNil(slot0.icon.texture) then
 		Object.Destroy(slot0.icon.texture)
 
@@ -81,7 +81,7 @@ function slot0.Hide(slot0)
 	SetParent(slot0._tf, slot0._parentTF)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

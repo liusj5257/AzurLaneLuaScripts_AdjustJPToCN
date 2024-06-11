@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.activity_event_turning = {
 	{
+		type = 1,
 		id = 1,
 		total_num = 7,
-		type = 1,
 		groupid_list = {
 			1050001,
 			1050004,
@@ -69,9 +69,9 @@ pg.activity_event_turning = {
 		}
 	},
 	{
+		type = 2,
 		id = 2,
 		total_num = 7,
-		type = 2,
 		groupid_list = {
 			1100001,
 			1100002,
@@ -137,9 +137,9 @@ pg.activity_event_turning = {
 		}
 	},
 	{
+		type = 1,
 		id = 3,
 		total_num = 0,
-		type = 1,
 		groupid_list = {},
 		task_table = {
 			{
@@ -191,9 +191,65 @@ pg.activity_event_turning = {
 		story_list = {},
 		story_task = {}
 	},
+	{
+		type = 1,
+		id = 4,
+		total_num = 0,
+		groupid_list = {},
+		task_table = {
+			{
+				20162
+			},
+			{
+				20163
+			},
+			{
+				20164
+			},
+			{
+				20165
+			},
+			{
+				20166
+			},
+			{
+				20167
+			},
+			{
+				20168
+			},
+			{
+				20169
+			},
+			{
+				20170
+			},
+			{
+				20171
+			},
+			{
+				20172
+			},
+			{
+				20173
+			},
+			{
+				20174
+			},
+			{
+				20175
+			},
+			{
+				20176
+			}
+		},
+		story_list = {},
+		story_task = {}
+	},
 	all = {
 		1,
 		2,
-		3
+		3,
+		4
 	}
 }

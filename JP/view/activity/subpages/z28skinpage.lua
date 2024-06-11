@@ -1,6 +1,6 @@
 slot0 = class("Z28SkinPage", import(".NewYearSnackPage"))
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0.activity:getConfig("config_id"))
 	slot0.needCount = slot2:getConfig("reward_need")
 	slot0.leftCount = slot2.count
@@ -9,7 +9,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.curDay = slot0.leftCount + slot0.playedCount
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.progressUIItemList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -52,15 +52,15 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.progressUIItemList:align(slot0.needCount)
 	slot0:tryGetFinalAward()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.tryGetFinalAward(slot0)
+slot0.tryGetFinalAward = function(slot0)
 	slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0.activity:getConfig("config_id"))
 	slot5 = slot2.ultimate > 0
 

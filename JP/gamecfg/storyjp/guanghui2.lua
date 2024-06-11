@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ご令嬢の小さな提案\n\n<size=45>二 お悩み相談</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "仕事が終わって執務室を出ると、イラストリアスが扉の前で待っていた",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "仕事が終わって執務室を出ると、イラストリアスが扉の前で待っていた",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "快く了承すると、せっかくなので自分にも何か手伝えることはないかと尋ねてみることにした。",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "問題ないと告げると、さっそくイラストリアスとともにお茶会に必要なものを探しに行くことにした。",
 			typewriter = {
 				speed = 0.05,
@@ -142,13 +142,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "どうにかこうにか上り坂を通って、白いテーブルと二脚のイスを絶景スポットにまで運んでくることができた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "思っていたよりもずいぶん骨が折れる仕事だったと思いながら、持ってきたイスに二人とも腰をかける。",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "イラストリアスは何やら物思いにふけっているようだ",
 			typewriter = {
 				speed = 0.05,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "慌ただしかった時期だったので返事をしそびれてしまい、どうしようかと悩んでいたのです",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 		{
 			actor = 207050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "誘っていただいてうれしいのですけど、その日はロッ…音楽を嗜む予定がありますわ――",
 			effects = {
 				{
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "――と、こんな感じで断られてしまっていたんです",
 			effects = {
 				{
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "この休憩中に、リットリオへの返事とフォーミダブルを説得する言葉を一緒に考えようと提案した。",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "さりげなくイスを寄せてくるイラストリアス。腕が密着しそうな距離感に思わずどきっとする。",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 slot0 = class("SettingsSecondPasswordPanle", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsSecondPassWord"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("Settings_title_Secpw")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / SECOND-TIER PASSWORD"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.helpBtn = findTF(slot0._tf, "btnhelp")
 	slot0.closeBtn = findTF(slot0._tf, "options/close")
 	slot0.openBtn = findTF(slot0._tf, "options/open")
@@ -23,11 +23,11 @@ function slot0.OnInit(slot0)
 	slot0:RegisterEvent()
 end
 
-function slot0.SetData(slot0)
+slot0.SetData = function(slot0)
 	slot0.rawdata = getProxy(SecondaryPWDProxy):getRawData()
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -45,7 +45,7 @@ function slot0.RegisterEvent(slot0)
 	end, SFX_UI_TAG)
 	onButton(slot0, slot0.openBtn, function ()
 		if uv0.rawdata.state <= 0 then
-			function slot0()
+			slot0 = function()
 				slot0 = pg.SecondaryPWDMgr.GetInstance()
 
 				slot0:SetPassword(function ()
@@ -69,7 +69,7 @@ function slot0.RegisterEvent(slot0)
 	end, SFX_UI_TAG)
 end
 
-function slot0.UpdateBtnState(slot0)
+slot0.UpdateBtnState = function(slot0)
 	slot1 = slot0.rawdata.state > 0
 
 	setActive(slot0.closeBtn:Find("on"), not slot1)
@@ -79,7 +79,7 @@ function slot0.UpdateBtnState(slot0)
 	pg.m02:sendNotification(NewSettingsMediator.ON_SECON_PWD_STATE_CHANGE)
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 	slot0:UpdateBtnState()
 end
 

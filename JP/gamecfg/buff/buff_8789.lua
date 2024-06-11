@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2020德系活动 欧根亲王 不破之盾",
 	init_effect = "",
+	name = "2020德系活动 欧根亲王 不破之盾",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 8789,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			id = 1,
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -52,9 +52,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -88,9 +88,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -124,9 +124,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -160,9 +160,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -196,9 +196,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 2,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -232,9 +232,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 2,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -268,9 +268,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 2,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -304,9 +304,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 2,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -340,9 +340,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 2,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{

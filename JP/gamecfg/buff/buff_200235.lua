@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "大洋联邦 无人机母舰指挥光环",
 	time = 0,
-	color = "blue",
+	name = "大洋联邦 无人机母舰指挥光环",
+	init_effect = "",
+	id = 200235,
 	picture = "",
 	desc = "提高友军造成的伤害",
 	stack = 1,
-	id = 200235,
+	color = "blue",
 	icon = 200235,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.1
+				number = 0.1,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

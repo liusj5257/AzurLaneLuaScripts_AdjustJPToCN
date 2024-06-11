@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "减速前摇",
 	time = 1,
+	name = "减速前摇",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

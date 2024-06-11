@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏の日の「サプライズ」\n\n<size=45>六　真夏の銀世界</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "翌日　母港・屋内プール　",
 			side = 2,
 			bgName = "bg_story_houshandong",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "翌日　母港・屋内プール　",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "昨日エスキモーのプロモーションが功を奏したか、道中で同じ目的地に向かってる人を多く見かけた。",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "扉の向こうから伝わってきた笑い声から察するに、どうやらエスキモーが準備したサプライズは上々のようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "3、2、1、扉を開けると――",
 			typewriter = {
 				speed = 0.05,
@@ -106,15 +106,15 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "これが、みんなに準備したビッグサプライズ！どう？一緒に心ゆくまで楽しもう！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "雪、雪だよ！わあーベンソン姉見て！夏なのに雪がこんなに…雪合戦しよう～",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 101370,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101370,
+			nameColor = "#a9f548",
 			say = "うんうん！わたしも手伝う！",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,9 +223,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "室内に入ると、まるで真冬のような冷たい風に襲われた。",
 			typewriter = {
 				speed = 0.05,
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "プールの中…いや、そもそもプール自体が見えなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -251,9 +251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "降り積もる雪で覆い隠されたのかはともかく、そこにはかまくらのような小屋がいくつも建てられていた。",
 			typewriter = {
 				speed = 0.05,
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "えへへ、どうだ指揮官！びっくりした？びっくりしたよね！",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "だから見てよこれ～！屋内プールで下準備をして、明石の人工降雪機を借りてきて…一日稼働させたら銀世界の出来上がり！",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -339,9 +339,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "凄い行動力だ。でも、やはり明石も一枚噛んでいたか…",
 			typewriter = {
 				speed = 0.05,
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "遊び疲れても、小屋に入れば熱々の飲み物と食べ物を楽しめるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "ビジネスセンスに満ち溢れている…",
 			typewriter = {
 				speed = 0.05,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "ドン！",
 			typewriter = {
 				speed = 0.05,
@@ -423,9 +423,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_houshandong",
+			dir = 1,
 			say = "プール側から雪玉が急に一つ投げ飛ばされてきた。幸い外れたが。",
 			typewriter = {
 				speed = 0.05,
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201110,
+			nameColor = "#a9f548",
 			say = "惜しい！ちょっと外れちゃったー",
 			typewriter = {
 				speed = 0.05,
@@ -453,8 +453,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,12 +511,12 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_houshandong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "行こう、指揮官。今日は丸一日、銀世界を楽しもう！",
 			typewriter = {
 				speed = 0.05,

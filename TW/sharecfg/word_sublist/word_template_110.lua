@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_110 = {}
 slot1 = slot0.word_template_110
 
-function temp()
+temp = function()
 	uv0.a = {
 		["4"] = {
 			u = {
@@ -250,7 +250,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["酥"] = {
 		["穴"] = {
 			this = true
@@ -281,7 +281,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["厕"] = {
 		["所"] = {
 			["盗"] = {
@@ -303,7 +303,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["盗"] = {
 		["撮"] = {
 			this = true

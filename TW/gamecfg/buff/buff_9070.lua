@@ -1,12 +1,12 @@
 return {
-	time = 3,
 	name = "防空模式-LV8",
 	init_effect = "jinengchufablue",
-	color = "yellow",
+	id = 9070,
+	time = 3,
 	picture = "",
 	desc = "自身防空提高，炮击降低",
 	stack = 1,
-	id = 9070,
+	color = "yellow",
 	icon = 9070,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -2460
+				number = -2460,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -35,8 +35,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 3540
+				number = 3540,
+				attr = "antiAirPower"
 			}
 		}
 	}

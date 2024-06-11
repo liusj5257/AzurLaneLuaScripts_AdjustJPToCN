@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGSHIGUANGTING33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINGSHIGUANGTING33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "The Royal Navy fought fiercely, successfully repelling every foe the black tornado threw at them, leaving only wrecks that vanished into the mist.",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-camelot",
+			say = "The Royal Navy fought fiercely, successfully repelling every foe the black tornado threw at them, leaving only wrecks that vanished into the mist.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "However, while no enemies had made it through the gate, they kept coming in wave after wave.",
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Man, THIS is reinvigorating. I've been dying to blow off some steam for a long time!",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "You've got that right. This exhilarating swordplay is what all Royal Knights strive for.",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "I know. If you're left aching for more, what do you say we have a duel later?",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "We'll see. We could be here for a while. For now, just focus on the targets in front of you!",
 			typewriter = {
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOM!",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -417,8 +417,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "Put a sock in it, you half-pint of shit! Turn around and face me!",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -444,8 +444,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "Mama never taught ya not to walk out on a girl while she's talking? Well, I'm back!",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "Thought you'd get rid of me that easily? You ain't the only one with an endless supply of replacement hardware!",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "Now bend over! You're gonna pay for what ya did to my test site!",
 			typewriter = {
@@ -495,8 +495,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "Purifier's returned? I thought she got destroyed back there!",
 			typewriter = {
@@ -512,8 +512,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "She can come back as long as she has a spare vessel! It's why she never stays dead no matter what we do!",
 			typewriter = {
@@ -545,8 +545,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "The coordinates... Yes, they're stable! Now's our chance!",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "Delete the coordinates to Camelot as soon as everyone is back in Scapa Flow! Do NOT let her trace us!",
 			typewriter = {
@@ -576,9 +576,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "The queen ordered the retreat. One by one, the girls sprinted through to safety.",
 			typewriter = {
 				speed = 0.05,
@@ -590,9 +590,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
+			dir = 1,
 			say = "When the last one made it past the giant gate, the power was cut, erasing almost all trace it had ever existed in the Mirror Sea.",
 			flashin = {
 				delay = 1,
@@ -619,9 +619,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
+			dir = 1,
 			say = "Its prey having escaped its clutches, the black tornado lost interest in the place and quickly disappeared off into nothingness.",
 			effects = {
 				{

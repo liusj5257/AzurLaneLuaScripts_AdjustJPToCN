@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN18",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――작은 아가씨…? 컬렉션 방……?",
+			side = 2,
 			bgm = "qe-ova-15",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――작은 아가씨…? 컬렉션 방……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -75,9 +75,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네, 어떻게 쓰실 건가요? 소리로 위협하실 건가요?",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_600",
 			factiontag = "성실한 마스터 후배",
-			actorName = "에식스",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시 후, 벽 너머에서 들려오는 소리가 사라졌습니다.",
@@ -112,17 +112,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -170,11 +170,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
-			nameColor = "#A9F548FF",
-			factiontag = "성실한 마스터 후배",
-			blackBg = true,
-			bgm = "stopbgm",
 			actorName = "에식스",
+			blackBg = true,
+			factiontag = "성실한 마스터 후배",
+			bgm = "stopbgm",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "계단이 생각보다 길어, 끝까지 오르기까지 시간이 많이 소모되었습니다.",
 			typewriter = {
@@ -182,17 +182,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -202,11 +202,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 아무도 모르게 무사히 2층에 도착했습니다.",
 			typewriter = {
@@ -214,17 +214,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

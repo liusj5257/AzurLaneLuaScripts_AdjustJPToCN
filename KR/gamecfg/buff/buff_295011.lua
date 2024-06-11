@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 潜艇基准线",
 	time = 3,
-	color = "yellow",
+	name = "2024异世界冒险 潜艇基准线",
+	init_effect = "",
+	id = 295011,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 295011,
+	color = "yellow",
 	icon = 295011,
 	last_effect = "",
 	effect_list = {

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "ユニオンからの支援物資が届き、ロイヤルの輸送船団と護衛船団の編成がすぐさま行われた。",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "一日中太陽が沈んだ状態――つまり極夜のバレンツ海を通るのは輸送任務では好ましくないことだが、北方連合の要請を優先せざるを得なかった。",
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "幸いにも、ロイヤル本島からの出航時は好天に恵まれていた。",
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = " ベルファスト",
+			side = 0,
 			bgName = "bg_hms_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そろそろ出航の時間になりますが、ハーマイオニー、準備はよろしいでしょうか",
 			bgm = "story-richang",
+			nameColor = "#a9f548",
+			say = "そろそろ出航の時間になりますが、ハーマイオニー、準備はよろしいでしょうか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハーマイオニー",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = " ベルファスト",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_hms_1",
-			actorName = "エディンバラ&シェフィールド",
 			dir = 1,
+			actorName = "エディンバラ&シェフィールド",
 			say = "はい！",
 			dialogShake = {
 				speed = 0.09,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハーマイオニー",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = " ベルファスト",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハーマイオニー",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = " ベルファスト",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_hms_1",
-			actorName = "エディンバラ",
 			dir = 1,
+			actorName = "エディンバラ",
 			say = "もうベルったら、いくら私でもやるときはやるからね！",
 			dialogShake = {
 				speed = 0.09,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = " ベルファスト",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハーマイオニー",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハーマイオニー",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "シェフィールド",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エディンバラ",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハーマイオニー",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エディンバラ",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = " ベルファスト",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハーマイオニー",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "エディンバラ",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "シェフィールド",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "シェフィールド",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = " ベルファスト",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "シェフィールド",
+			side = 1,
 			bgName = "bg_hms_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "…女王陛下に栄光を",
 			typewriter = {
 				speed = 0.05,

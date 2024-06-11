@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-2",
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "하하하. 악마의 눈에서 온 깊은 어둠을 맛보았나! 곧 넌 악마의 제물이 될 거야. 진정한 두려움을 체험할 준비해!",
-			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			say = " 앗! 이 힘은…설마 태생적 흡혈귀의 힘?!",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "…네가 아드미랄 히퍼지? 처음 보는군. 난 로열 네이비 소속 항공모함 퍼시어스다. 메탈 블러드 함대여! 투항한다면…",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -205,12 +205,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "쳇.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202080,
+			say = "쳇.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

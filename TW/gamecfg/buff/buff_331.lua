@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "命中下降效果降低",
 	time = 0,
+	name = "命中下降效果降低",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "accuracyRateExtra",
-				number = 0.15
+				number = 0.15,
+				attr = "accuracyRateExtra"
 			}
 		}
 	}

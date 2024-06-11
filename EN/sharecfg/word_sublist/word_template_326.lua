@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_326 = {}
 slot1 = slot0.word_template_326
 
-function temp()
+temp = function()
 	uv0["桜"] = {
 		["井"] = {
 			["涼"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["婴"] = {
 		["儿"] = {
 			["被"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["罂"] = {
 		["粟"] = {
 			this = true
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["樱"] = {
 		["唇"] = {
 			this = true
@@ -102,7 +102,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嬰"] = {
 		["兒"] = {
 			["湯"] = {
@@ -114,7 +114,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["罌"] = {
 		["粟"] = {
 			this = true
@@ -124,7 +124,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["櫻"] = {
 		["井"] = {
 			["莉"] = {

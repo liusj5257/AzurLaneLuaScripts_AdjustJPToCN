@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG10",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			bgName = "bg_jichang_1",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 1,
+			bgName = "bg_jichang_1",
 			bgm = "idol-WISHNESS-inst",
 			actor = 312010,
 			nameColor = "#a9f548",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "首先是，上屆比賽中最強的，裝備了「μ兵裝」的組合，「Polaris」喵！",
 			typewriter = {
 				speed = 0.05,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "未能理解介紹的意思，請求解釋。",
 			effects = {
 				{
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 101253,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101253,
+			nameColor = "#a9f548",
 			say = "嗚，好羞恥啊……別再拍了，你這個變態！！",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -338,8 +338,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "（小聲）指揮官，你在看著我嗎……",
 			typewriter = {
@@ -419,10 +419,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103250,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大家，請多關照了！",
 			typewriter = {
 				speed = 0.05,
@@ -450,12 +450,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "獨角獸，妳一個人沒問題吧？",
 			typewriter = {
 				speed = 0.05,
@@ -467,12 +467,12 @@ return {
 			}
 		},
 		{
-			actor = 206035,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206035,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗯，沒事。光輝姐姐也要加油哦？",
 			typewriter = {
 				speed = 0.05,
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗯嗯，我們一起加油吧。",
 			typewriter = {
 				speed = 0.05,
@@ -501,12 +501,12 @@ return {
 			}
 		},
 		{
-			actor = 701050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "剛剛那個介紹，有些熱情過頭了吧？",
 			typewriter = {
 				speed = 0.05,
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			actor = 108050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這樣才更有意思嘛！",
 			typewriter = {
 				speed = 0.05,
@@ -535,12 +535,12 @@ return {
 			}
 		},
 		{
-			actor = 202280,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "各位，差不多到賽前準備的時間了。",
 			typewriter = {
 				speed = 0.05,
@@ -552,13 +552,13 @@ return {
 			}
 		},
 		{
-			actor = 103250,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊啊，我們出發吧！",
 			typewriter = {
 				speed = 0.05,

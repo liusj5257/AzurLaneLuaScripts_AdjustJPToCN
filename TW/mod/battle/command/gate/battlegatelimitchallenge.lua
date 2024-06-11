@@ -3,7 +3,7 @@ ys.Battle.BattleGateLimitChallenge = slot0
 slot0.__name = "BattleGateLimitChallenge"
 slot0.BattleSystem = SYSTEM_LIMIT_CHALLENGE
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	if not slot1.LegalFleet(FleetProxy.CHALLENGE_FLEET_ID) then
 		return
 	end
@@ -66,7 +66,7 @@ function slot0.Entrance(slot0, slot1)
 	end)
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	slot2 = pg.battle_cost_template[uv0.BattleSystem]
 	slot4 = getProxy(BayProxy)
 	slot5 = slot0.statistics._battleScore

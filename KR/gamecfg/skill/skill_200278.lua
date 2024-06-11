@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023英系活动 EX BOSS召唤发射器",
 	cd = 0,
-	painting = 0,
-	id = 200278,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200278,
 	effect_list = {
 		{
 			type = "BattleSkillEditCustomWarning",
@@ -20,10 +20,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -41,9 +41,9 @@ return {
 							switchParam = 1.5
 						},
 						{
-							index = 1,
 							switchParam = 12,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3055003
@@ -51,9 +51,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
 							switchParam = 300,
 							switchTo = 1,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3055005
@@ -65,10 +65,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -86,9 +86,9 @@ return {
 							switchParam = 2.5
 						},
 						{
-							index = 1,
 							switchParam = 11,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3055003
@@ -96,9 +96,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
 							switchParam = 300,
 							switchTo = 1,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3055005
@@ -110,10 +110,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -131,9 +131,9 @@ return {
 							switchParam = 3.5
 						},
 						{
-							index = 1,
 							switchParam = 10,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3055003
@@ -141,9 +141,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
 							switchParam = 300,
 							switchTo = 1,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3055005

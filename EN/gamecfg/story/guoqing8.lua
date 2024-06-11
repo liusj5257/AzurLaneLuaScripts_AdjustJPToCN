@@ -8,11 +8,11 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900028,
 			side = 0,
 			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900028,
+			nameColor = "#a9f548",
 			say = "Sis, check it out! This is the key to the Sanctuary!",
 			shake = {
 				speed = 1,
@@ -28,11 +28,11 @@ return {
 			}
 		},
 		{
-			actor = 900027,
 			side = 1,
 			actorName = "{namecode:95}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900027,
+			nameColor = "#a9f548",
 			say = "The key... But how did you find it?",
 			shake = {
 				speed = 1,
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 900028,
 			side = 0,
 			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900028,
+			nameColor = "#a9f548",
 			say = "Heheh, that would be thanks to Akatsuki's intel! Surely you believe me this time, right?",
 			shake = {
 				speed = 1,
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 900027,
 			side = 1,
 			actorName = "{namecode:95}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900027,
+			nameColor = "#a9f548",
 			say = "If it really is the key, then we have to act now... Have everyone mobilize immediately!",
 			shake = {
 				speed = 1,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 900028,
 			side = 0,
 			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 900028,
+			nameColor = "#a9f548",
 			say = "This time we'll expose their plan for what it really is!",
 			shake = {
 				speed = 1,
@@ -108,14 +108,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "Now that I think about it, maybe this trap was also part of their plan...",
 			flashout = {
-				dur = 1.5,
 				black = true,
+				dur = 1.5,
 				alpha = {
 					0,
 					1

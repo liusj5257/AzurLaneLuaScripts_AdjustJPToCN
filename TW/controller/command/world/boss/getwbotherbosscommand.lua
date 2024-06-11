@@ -1,6 +1,6 @@
 slot0 = class("GetWBOtherBossCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = {}
 
 	if slot1:getBody().type == WorldBoss.OTHER_BOSS_TYPE_FRIEND then

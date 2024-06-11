@@ -1,12 +1,12 @@
 return {
-	id = "W860010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W860010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Using the colored devices scattered around this zone lets us change obstacles marked with the same-colored symbols.",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Move the obstacles to clear a path to the Energy Matrix storage platform.",
 			typewriter = {
 				speed = 0.05,

@@ -9,11 +9,11 @@ slot7 = 1
 slot8 = 2
 slot9 = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "VoteScheduleUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
 	slot0.raceTpl = slot0:findTF("res/raceTpl")
 	slot0.layoutTpl = slot0:findTF("res/layoutTpl")
@@ -43,7 +43,7 @@ function slot0.init(slot0)
 	slot0.spacing = slot0.container:GetComponent(typeof(VerticalLayoutGroup)).spacing
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
@@ -63,7 +63,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.RequestFinishedVoteGroup(slot0, slot1)
+slot0.RequestFinishedVoteGroup = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(pg.activity_vote.all) do
@@ -77,7 +77,7 @@ function slot0.RequestFinishedVoteGroup(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0.voteIdList = slot0:GetVoteIdList()
 	slot0.displayList = slot0:GenDisplayList(slot0.voteIdList)
 
@@ -103,10 +103,10 @@ function slot0.SetUp(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.PlayAnimation(slot0, slot1)
+slot0.PlayAnimation = function(slot0, slot1)
 	slot2 = 1
 
-	function slot3(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1, slot2)
 		slot3 = slot0:GetComponent(typeof(CanvasGroup))
 
 		LeanTween.value(slot0.gameObject, 0, 1, 0.333):setOnUpdate(System.Action_float(function (slot0)
@@ -142,13 +142,13 @@ function slot0.PlayAnimation(slot0, slot1)
 	end)
 end
 
-function slot0.ScrollTo(slot0, slot1)
+slot0.ScrollTo = function(slot0, slot1)
 	setAnchoredPosition(slot0.container, {
 		y = (slot0.LayoutHeight + slot0.spacing) * (slot1 - 1) - 170
 	})
 end
 
-function slot0.ClearLines(slot0)
+slot0.ClearLines = function(slot0)
 	for slot4, slot5 in ipairs(slot0.lineTpls) do
 		Object.Destroy(slot5[1].gameObject)
 	end
@@ -156,7 +156,7 @@ function slot0.ClearLines(slot0)
 	slot0.lineTpls = {}
 end
 
-function slot10(slot0, slot1, slot2)
+slot10 = function(slot0, slot1, slot2)
 	if slot0 == slot1 then
 		return slot2
 	else
@@ -166,13 +166,13 @@ function slot10(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateLinesPosition(slot0)
+slot0.UpdateLinesPosition = function(slot0)
 	for slot4, slot5 in ipairs(slot0.lineTpls) do
 		setAnchoredPosition(slot5[1], uv0(slot5[2], slot0.lineContainer, slot5[3]))
 	end
 end
 
-function slot0.GetVoteIdList(slot0)
+slot0.GetVoteIdList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.activity_vote.all) do
@@ -186,7 +186,7 @@ function slot0.GetVoteIdList(slot0)
 	return slot1
 end
 
-function slot0.GenDisplayList(slot0, slot1)
+slot0.GenDisplayList = function(slot0, slot1)
 	slot2 = {}
 
 	if #slot1 <= 4 then
@@ -270,7 +270,7 @@ function slot0.GenDisplayList(slot0, slot1)
 	return slot2
 end
 
-function slot0.InitScheduleList(slot0)
+slot0.InitScheduleList = function(slot0)
 	slot0.animationNodes = {}
 	slot1 = {}
 
@@ -320,7 +320,7 @@ function slot0.InitScheduleList(slot0)
 	return slot3
 end
 
-function slot0.GenRaceList(slot0, slot1, slot2, slot3, slot4)
+slot0.GenRaceList = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = nil
 	slot6 = (not slot4 or UIItemList.New(slot1:Find("content"), slot0.raceTpl1)) and UIItemList.New(slot1:Find("content"), slot0.raceTpl)
 
@@ -344,7 +344,7 @@ function slot0.GenRaceList(slot0, slot1, slot2, slot3, slot4)
 	return false
 end
 
-function slot0.GetRaceState(slot0, slot1)
+slot0.GetRaceState = function(slot0, slot1)
 	if pg.TimeMgr.GetInstance():inTime(pg.activity_vote[slot1].time_vote) then
 		return uv0
 	elseif pg.TimeMgr.GetInstance():parseTimeFromConfig(slot2.time_vote[2]) <= pg.TimeMgr.GetInstance():GetServerTime() then
@@ -354,7 +354,7 @@ function slot0.GetRaceState(slot0, slot1)
 	end
 end
 
-function slot0.UpdateRace(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateRace = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:UpdateRaceState(slot1, pg.activity_vote[slot2.id], slot3)
 
 	slot0.animationNodes[slot2.id] = {
@@ -363,7 +363,7 @@ function slot0.UpdateRace(slot0, slot1, slot2, slot3, slot4)
 	}
 end
 
-function slot11(slot0, slot1)
+slot11 = function(slot0, slot1)
 	if slot1 == uv0 then
 		return "border_close"
 	elseif slot0.type == VoteConst.RACE_TYPE_FINAL then
@@ -373,7 +373,7 @@ function slot11(slot0, slot1)
 	end
 end
 
-function slot12(slot0, slot1)
+slot12 = function(slot0, slot1)
 	if slot1 == uv0 then
 		return "frame_title_close"
 	elseif slot0.type == VoteConst.RACE_TYPE_FINAL then
@@ -393,7 +393,7 @@ function slot12(slot0, slot1)
 	end
 end
 
-function slot13(slot0, slot1)
+slot13 = function(slot0, slot1)
 	if slot0.type == VoteConst.RACE_TYPE_FUN then
 		if slot0.sub_type == VoteConst.RACE_SUBTYPE_SIRE then
 			return "icon_sire"
@@ -407,7 +407,7 @@ function slot13(slot0, slot1)
 	return nil
 end
 
-function slot0.UpdateRaceState(slot0, slot1, slot2, slot3)
+slot0.UpdateRaceState = function(slot0, slot1, slot2, slot3)
 	slot1:Find("border"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/VoteScheduleUI_atlas", uv0(slot2, slot3))
 	slot1:Find("title"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/VoteScheduleUI_atlas", uv1(slot2, slot3))
 	slot4 = uv2(slot2, slot3)
@@ -448,7 +448,7 @@ function slot0.UpdateRaceState(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateRaceRank(slot0, slot1, slot2, slot3)
+slot0.UpdateRaceRank = function(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		setActive(slot3, false)
 
@@ -462,7 +462,7 @@ function slot0.UpdateRaceRank(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.UpdateRaceLink(slot0, slot1, slot2, slot3)
+slot0.UpdateRaceLink = function(slot0, slot1, slot2, slot3)
 	slot5 = nil
 
 	if slot2.dir == uv0 and slot3 then
@@ -530,11 +530,11 @@ function slot0.UpdateRaceLink(slot0, slot1, slot2, slot3)
 	return slot5
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

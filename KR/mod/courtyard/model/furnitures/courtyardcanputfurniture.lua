@@ -1,21 +1,21 @@
 slot0 = class("CourtYardCanPutFurniture", import(".CourtYardFurniture"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.childs = {}
 	slot0.placeableArea = CourtYardFurniturePlaceableArea.New(slot1, slot0, Vector4(35, 35, 0, 0))
 end
 
-function slot0.GetPlaceableArea(slot0)
+slot0.GetPlaceableArea = function(slot0)
 	return slot0.placeableArea
 end
 
-function slot0.GetChilds(slot0)
+slot0.GetChilds = function(slot0)
 	return slot0.childs
 end
 
-function slot0.AnyNotRotateChilds(slot0)
+slot0.AnyNotRotateChilds = function(slot0)
 	if #slot0.childs > 0 then
 		return _.any(slot0.childs, function (slot0)
 			return isa(slot0, CourtYardFurniture) and slot0:DisableRotation()
@@ -25,7 +25,7 @@ function slot0.AnyNotRotateChilds(slot0)
 	return false
 end
 
-function slot0.GetCanputonPosition(slot0)
+slot0.GetCanputonPosition = function(slot0)
 	slot1 = slot0:GetPosition()
 
 	if slot0:GetDirection() == 1 then
@@ -39,20 +39,20 @@ function slot0.GetCanputonPosition(slot0)
 	end
 end
 
-function slot0.CanPutChildInPosition(slot0, slot1, slot2)
+slot0.CanPutChildInPosition = function(slot0, slot1, slot2)
 	return table.contains(slot0:AllowDepthType(), slot1:GetDeathType()) and slot0:GetLevel() < slot1:GetLevel() and _.all(slot1:GetAreaByPosition(slot2), function (slot0)
 		return uv0.placeableArea:LegalPosition(slot0)
 	end)
 end
 
-function slot0.AllowDepthType(slot0)
+slot0.AllowDepthType = function(slot0)
 	return {
 		CourtYardConst.DEPTH_TYPE_MAT,
 		CourtYardConst.DEPTH_TYPE_FURNITURE
 	}
 end
 
-function slot0.AddChild(slot0, slot1)
+slot0.AddChild = function(slot0, slot1)
 	slot0:SetDirty()
 	slot1:SetParent(slot0)
 	table.insert(slot0.childs, slot1)
@@ -60,18 +60,18 @@ function slot0.AddChild(slot0, slot1)
 	slot1:SetPosition(slot1:GetPosition())
 end
 
-function slot0.RemoveChild(slot0, slot1)
+slot0.RemoveChild = function(slot0, slot1)
 	slot0:SetDirty()
 	slot1:SetParent(nil)
 	table.removebyvalue(slot0.childs, slot1)
 	slot0.placeableArea:RemoveItem(slot1)
 end
 
-function slot0.AreaWithInfo(slot0, slot1, slot2, slot3, slot4)
+slot0.AreaWithInfo = function(slot0, slot1, slot2, slot3, slot4)
 	return slot0.placeableArea:AreaWithInfo(slot1, slot2, slot3, slot4)
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	slot2 = slot0:GetPosition()
 
 	uv0.super.SetPosition(slot0, slot1)
@@ -94,7 +94,7 @@ function slot0.SetPosition(slot0, slot1)
 	end
 end
 
-function slot0.Rotate(slot0)
+slot0.Rotate = function(slot0)
 	slot1 = slot0:GetPosition()
 
 	uv0.super.Rotate(slot0)
@@ -120,7 +120,7 @@ function slot0.Rotate(slot0)
 	end
 end
 
-function slot0.CanRotateChild(slot0, slot1)
+slot0.CanRotateChild = function(slot0, slot1)
 	slot2 = false
 
 	slot0:RemoveChild(slot1)
@@ -136,7 +136,7 @@ function slot0.CanRotateChild(slot0, slot1)
 	return slot2
 end
 
-function slot0.ToTable(slot0)
+slot0.ToTable = function(slot0)
 	slot1 = uv0.super.ToTable(slot0)
 	slot2 = {}
 	slot3 = slot0:GetPosition()

@@ -1,12 +1,12 @@
 return {
-	id = "W1013",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1013",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "설비를 계속 사용 가능한 것 같다...",
 			typewriter = {
 				speed = 0.05,

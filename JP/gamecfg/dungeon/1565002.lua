@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-80,
 				20,
@@ -57,9 +57,9 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 15105002,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-25,
 								0,
@@ -74,17 +74,17 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 3.5,
 									switchTo = 1,
 									index = 0,
-									switchParam = 3.5,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {}
 								},
 								{
-									index = 1,
 									switchParam = 8,
 									switchTo = 2,
+									index = 1,
 									switchType = 1,
 									addWeapon = {
 										820802
@@ -92,9 +92,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 2,
 									switchParam = 10,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									addWeapon = {
 										820803,
@@ -106,10 +106,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 3.5,
 									switchTo = 4,
 									index = 3,
-									switchParam = 3.5,
+									switchType = 1,
 									setAI = 20003,
 									addWeapon = {},
 									removeWeapon = {
@@ -119,10 +119,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 12,
 									switchTo = 5,
 									index = 4,
-									switchParam = 12,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										820805,
@@ -130,9 +130,9 @@ return {
 									}
 								},
 								{
-									index = 5,
 									switchParam = 11,
 									switchTo = 6,
+									index = 5,
 									switchType = 1,
 									addWeapon = {
 										820807
@@ -143,9 +143,9 @@ return {
 									}
 								},
 								{
-									index = 6,
 									switchParam = 10,
 									switchTo = 7,
+									index = 6,
 									switchType = 1,
 									addWeapon = {
 										820801
@@ -155,9 +155,9 @@ return {
 									}
 								},
 								{
-									index = 7,
 									switchParam = 12,
 									switchTo = 8,
+									index = 7,
 									switchType = 1,
 									addWeapon = {
 										820808
@@ -167,9 +167,9 @@ return {
 									}
 								},
 								{
-									index = 8,
 									switchParam = 10,
 									switchTo = 9,
+									index = 8,
 									switchType = 1,
 									addWeapon = {
 										820810,
@@ -182,9 +182,9 @@ return {
 									}
 								},
 								{
-									index = 9,
 									switchParam = 1,
 									switchTo = 1,
+									index = 9,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {

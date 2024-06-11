@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT7",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT7",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10300010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-uta",
 			dir = 1,
 			say = "ルルティエー！助けに来たよーッ！",
+			bgm = "battle-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "こっちの台詞",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "それは私たちの言葉です。ルルティエさんにもしもがあれば、私たちは主様にどう謝ればいいかわかりません",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "それは私たちの言葉です。ルルティエさんにもしもがあれば、私たちは主様にどう謝ればいいかわかりません",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -90,8 +90,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "フミルィルさま、ウルゥルさま、サラァナさま……ありがとうございます。ご心配をおかけしてしまいました",
 			typewriter = {
 				speed = 0.05,

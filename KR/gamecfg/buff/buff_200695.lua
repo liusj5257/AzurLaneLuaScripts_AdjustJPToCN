@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 腓特烈·卡尔激光",
 	time = 10,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 腓特烈·卡尔激光",
+	init_effect = "",
+	id = 200695,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200695,
+	color = "yellow",
 	icon = 200695,
 	last_effect = "",
 	effect_list = {

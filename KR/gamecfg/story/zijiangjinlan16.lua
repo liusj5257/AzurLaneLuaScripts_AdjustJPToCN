@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "장기판 경기장·미카사 통제 구역 제4 라운드",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "우리와 나가토님 사이의 연결점을 손에 넣겠다는 의도 같군….",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "대선배님이 발동한 사건 카드의 효과를 완벽하게 이용한 장거리 기동이야.",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "…우린 아직 진영 거점을 손에 넣지도 못했는데…, 이런 상황에서 양쪽에서 공격 당한다면 상황이 너무 나빠짐다!",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "걱정 마세요. 미카사 선배에겐 지금 상황에 대비할 수 있는 지휘 카드가 많이 있을 테니까요.",
 			painting = {
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg9",
 			say = "콘고의 말이 채 끝나기도 전에, 먼 곳의 한 경계선 거점이 감옥과 같은 짙은 회색 안개로 뒤덮였다.",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "역시, 미카사 선배가 그 카드를 사용했어요!",
 			painting = {
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "…봉쇄된 건 EF34가 아니라 중심 구역과 다소 거리가 있는 EF12야, 대체 뭐지?",
 			painting = {
@@ -231,8 +231,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "하지만 저들과 우리의 실력이 비슷한 상황에서 적이 둘로 나눠진다면 오히려 양쪽에서 압박 받는 상황이 될 수도 있어.",
 			painting = {
@@ -344,8 +344,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "대선배님답게 실수따윈 용납하지 않는 확실한 작전임다….",
 			painting = {
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "그치만 무사시님 쪽이 진영 거점을 점령하는 데 3라운드나 걸렸으니까, 우리도 그정도 걸리지 않겠슴까?",
 			painting = {
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "아쉽지만 이번 라운드의 이동 횟수는 낭비하게 될 거 같슴다…. 대선배님의 사건 카드를 오히려 우리가 제대로 활용하지 못하게 됐슴다.",
 			painting = {
@@ -427,8 +427,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "벌써 4라운드가 되었으니 이제 사용할 때도 된 것 같아요!",
 			painting = {
@@ -444,8 +444,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "공격은 나 콘고급 '영광의 함선'에게 맡겨주세요. 이곳을 손에 넣은 뒤엔 침입하는는 적이 더 깊숙히 파고들지 못하도록 모두 거점 EF34를 향해 이동하는 거예요!",
 			painting = {

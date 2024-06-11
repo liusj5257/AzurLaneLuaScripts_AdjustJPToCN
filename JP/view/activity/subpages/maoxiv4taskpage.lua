@@ -1,6 +1,6 @@
 slot0 = class("MaoxiV4TaskPage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data3
 
 	if slot0.activity:getConfig("config_client").firstStory then
@@ -16,7 +16,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.uilist:align(#slot0.taskGroup[slot0.nday])
 end
 
-function slot0.PlayStory(slot0)
+slot0.PlayStory = function(slot0)
 	slot1 = slot0.activity:getConfig("config_client").story
 	slot2 = slot0.nday - 1
 

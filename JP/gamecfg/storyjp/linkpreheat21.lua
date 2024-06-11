@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT21",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅-日常編\n\n<size=45>その四　おねえさまへ…</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204030,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "始めまして、異世界の皆さま方──本日、応援に参上いたしましたロイヤルネイビーの栄光、フッドでございます。こちらは私の付き添いで……",
 			bgm = "story-uta",
+			actor = 204030,
+			nameColor = "#a9f548",
+			say = "始めまして、異世界の皆さま方──本日、応援に参上いたしましたロイヤルネイビーの栄光、フッドでございます。こちらは私の付き添いで……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "えっと……う、うち……シグニットいいます。その、あの……よろしゅうお願いします……",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "えっと……う、うち……シグニットいいます。その、あの……よろしゅうお願いします……",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "あらあら、また姉妹のように仲が良さそうなお二人のご登場ですね。親近感が湧いてしまいます",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "そう……かな？",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "でも……ああいう御二人を見ていると、クオンさまとネコネさまのようにも見えますよ？",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "もうちょっと自然じゃないかな……ねえ、ネコネ？",
 			typewriter = {
@@ -236,12 +236,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "フ、フッド姉さん、そないにうちのことを……あ、あれ？なんか近い……",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "フ、フッド姉さん、そないにうちのことを……あ、あれ？なんか近い……",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "ふぇぇぇ……フッド姉さん、近い近い！そんなピッタリくっつかれると、うち恥ずかしい……",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "あ、あの！いくら女の子同士だからって、ひ、人前でくっつきすぎるのはいかがなものかと……！？",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "微妙なお年頃",
 			typewriter = {
@@ -377,10 +377,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "女とはいつまでも乙女心を忘れぬもの……お母様がよく仰っておられました",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -571,12 +571,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			say = "戦場において兵糧の補給は決して疎かにしてはいけないもの……良い働きをしましたね、シグニットちゃん",
 			side = 0,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "戦場において兵糧の補給は決して疎かにしてはいけないもの……良い働きをしましたね、シグニットちゃん",
+			actor = 204030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -674,8 +674,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……なんだろう、シグニットちゃんを見てると他人の気がしないかも。",
 			typewriter = {
@@ -784,11 +784,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			withoutActorName = true,
-			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "──キラーン！",
 			typewriter = {
@@ -836,8 +836,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "禁句",
 			typewriter = {
@@ -853,10 +853,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "その単語を言い終えた瞬間、ウィツァルネミテアの怒りに匹敵するものが解き放たれると感知しました。どうぞお控えください",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -906,9 +906,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
 			blackBg = true,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……本当、カルラお母……お姉様を思い出すなぁ……",
 			typewriter = {

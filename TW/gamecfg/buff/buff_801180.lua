@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 801180,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 801180,
+	color = "red",
 	icon = 801180,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 801180,
 				target = "TargetSelf",
-				time = 20,
-				skill_id = 801180
+				time = 20
 			}
 		},
 		{
@@ -37,8 +37,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "CRI_TAG_EHC_MetaVampireskill",
 				number = 1,
+				attr = "CRI_TAG_EHC_MetaVampireskill",
 				index = {
 					801180
 				}

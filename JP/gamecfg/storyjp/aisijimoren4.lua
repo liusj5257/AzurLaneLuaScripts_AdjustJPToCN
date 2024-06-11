@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏の日の「サプライズ」\n\n<size=45>四　下準備・その二</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "数日後　母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "数日後　母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ここ数日、エスキモーがこそこそと何か準備を進めているらしい。この間の「秘密」と関係あることかもしれない。",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "にしては、秘書艦の仕事もきちんとこなしている。元気だ…",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "エスキモーは鼻歌まじりに、これっぽっちも秘密なんぞ持っていないような素振りでルンルンと働いている。",
 			typewriter = {
 				speed = 0.05,
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "やはり気になる…",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "普段は大雑把に見えるところもあるが、こういうことになるとしっかりしている。",
 			typewriter = {
 				speed = 0.05,
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "ね？助けてくれるよね？お願い、指揮官！",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "屋内プールか…夏だし、みんな基本は海に泳ぎに行ってるから、屋内プールは持て余していたところだ。",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "まあ、一日なら…",
 			typewriter = {
 				speed = 0.05,
@@ -282,11 +282,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "うおっしゃ！やった！！指揮官ありがとう！",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "エスキモーみたいに元気いっぱいな子ですら、一日貸し切りにしなければ準備ができないほどのサプライズ…か。少しは期待できそうだ。",
 			typewriter = {
 				speed = 0.05,

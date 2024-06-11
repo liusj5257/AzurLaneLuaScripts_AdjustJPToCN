@@ -1,16 +1,16 @@
 return {
-	id = "TIEXUEYUYINFU11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "TIEXUEYUYINFU11",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			bgm = "bsm-1",
-			dir = -1,
 			say = "————",
+			side = 2,
+			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			bgm = "bsm-1",
 			flashN = {
 				color = {
 					1,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "저항을 멈춰라. 폐하의 이름에 따라, 당신을 로열에 연행하여 벽람항로를 배신한 심판을 받게 하마……",
 			typewriter = {
 				speed = 0.05,
@@ -86,10 +86,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "당신들 벽람항로에 날 심판할 권리 따윈 없어.",
+			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = 1,
-			say = "당신들 벽람항로에 날 심판할 권리 따윈 없어.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "그보다 킹 조지 5세 당신, 사실은 나와 전함으로서 싸워보고 싶을 뿐 아냐? 후드를 상처입혔는지 어쨌는지랑은 상관없이.",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "……우아함이니 영광이니, 쓸데없는 이상과 신조를 위해 자신의 바람을 억누르는 그 위선이야말로, 내가 경멸하는 이유야.",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "하하하, 과연 메탈 블러드의 리더, 잘 알아맞혔군.",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "마지막으로 한 번 더 묻겠다만……",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -257,8 +257,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "지근탄인가!? 흥, 초탄인데도 제법이군…!",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "그렇다면 원하는 대로……",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "전 함대, 포격 준비! 로열 네이비의 영광을 위해, 쏴라!",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

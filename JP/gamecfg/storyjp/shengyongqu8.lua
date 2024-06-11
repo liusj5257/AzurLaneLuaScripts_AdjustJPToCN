@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU8",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level03",
 			say = "聖堂の島・外周海域",
+			side = 2,
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "セイレーンの防衛線を突破しました！聖堂と私たちの間に阻むものはもはや存在しません！",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "量産型のセイレーン程度、聖堂からの火力支援なしでは問題にならないでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "あ！あのセイレーンの艦載機、対空砲に撃墜された！？",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "鉄血のセイレーンでも、聖堂に近づくと攻撃されてますね",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "（ジャン・バールはまだ向こうにいる以上、アルジェリーたちも…ですが……）",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "大いなる父よ、どうか私たちにご加護を――自由なるアイリスが、もう一度一つになるために！",
 			dialogShake = {
 				speed = 0.09,
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "……あっ。すみません、急に驚かせてしまいましたね",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,

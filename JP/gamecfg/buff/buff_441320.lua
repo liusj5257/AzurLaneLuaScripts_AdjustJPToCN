@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "航母-指挥-航空II",
 	time = 0,
-	color = "yellow",
+	name = "航母-指挥-航空II",
+	init_effect = "",
+	id = 441320,
 	picture = "",
 	desc = "该入口提供战外挂载到战内",
 	stack = 1,
-	id = 441320,
+	color = "yellow",
 	icon = 441320,
 	last_effect = "",
 	effect_list = {

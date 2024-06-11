@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "护盾",
 	cd = 0,
+	picture = "0",
+	desc = "生成护盾",
 	painting = 1,
 	id = 1011523,
-	picture = "0",
 	castCV = "skill",
-	desc = "生成护盾",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerVanguardFleet",
 				"TargetNationality",
@@ -39,9 +39,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetSelf"

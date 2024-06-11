@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "I56XIAOFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "I56XIAOFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"隅っこのヒマワリ\n\n<size=45>四 lasst uns gehen！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 408070,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "U-101？どうした？そんなに急いで",
 			bgm = "story-1",
+			actor = 408070,
+			nameColor = "#a9f548",
+			say = "U-101？どうした？そんなに急いで",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "んまあ、なんか面白いもんないかなーって。そっちも混ざる？",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "ごめん今急いでるから！また今度ね！",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "そう！回遊魚の大群がこのあたりに通るからそれを見ようと思って！",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "すごくキレイだけど時期逃したらまた来年まで待たないといけないからね…",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "面白そうだしあたしも！",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "伊56、どうします？",
 			typewriter = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "わ、わたしは…ええと……",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -263,8 +263,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "わたし、伊56と一緒に見たかったです……",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "……ッ！（ガタッ",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "（このシチュエーション…い、いけるかも……）",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "ふふん、こういうときのために特別改装したからね！",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "（そういえばわたし、行くって言ってないはずだよね…？）",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "（どうしてこうなっちゃったの――！？）",
 			typewriter = {
@@ -429,9 +429,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
 			blackBg = true,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "じゃあみんなで出発ね！lasst uns gehen！",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

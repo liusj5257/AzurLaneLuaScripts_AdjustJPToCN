@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU9",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU9",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-5",
 			say = "ロイヤル艦隊、セイレーン捜索の出発直前",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,8 +97,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "………………",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "もしヨークが本当に赤い信号弾を撃ったら、イラストリアス、あなたはどうする？",
 			typewriter = {

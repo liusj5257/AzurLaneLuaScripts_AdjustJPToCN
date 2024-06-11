@@ -7,10 +7,10 @@ return {
 	desc = "烟雾中",
 	effect_list = {
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "smokeboom",
 				operation = 1

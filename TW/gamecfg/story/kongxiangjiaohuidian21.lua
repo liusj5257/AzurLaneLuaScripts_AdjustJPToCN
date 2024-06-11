@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN21",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_bsmre_6",
-			bgm = "theme-bismark-reborn",
-			stopbgm = true,
-			bgmDelay = 2,
-			say = "轰————————————！",
+			side = 2,
 			soundeffect = "event:/battle/boom2",
+			bgmDelay = 2,
+			bgm = "theme-bismark-reborn",
+			bgName = "bg_bsmre_6",
+			stopbgm = true,
+			say = "轟————————————！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,30 +68,30 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "{namecode:435}与革律翁一前一后护卫着众人在红色的水面上快速移动着。",
+			say = "俾斯麥與革律翁一前一後護衛著眾人在紅色的水面上快速移動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "似乎是发现一行人并没有受到“红区”的影响而失去战斗力。",
+			say = "似乎是發現一行人並沒有受到「紅區」的影響而失去戰鬥力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "塞壬在损失了一部分追击舰队后，就停止了攻势。",
+			say = "塞壬在損失了一部分追擊艦隊後，就停止了攻勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "呼……多谢啦，革律翁~",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "呼……多謝啦，革律翁~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,33 +116,33 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "革律翁",
+			side = 2,
 			bgName = "bg_bsmre_6",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愉快地轻哼*██▌",
+			say = "▂▃▄▅▆▇███*愉快地輕哼*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			side = 2,
 			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "革律翁抖落双翼上的灰烬，返回了{namecode:435}的身边。",
+			say = "革律翁抖落雙翼上的灰燼，返回了俾斯麥的身邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "辛苦了，革律翁…………嗯？",
 			painting = {
 				alpha = 0.3,
@@ -154,10 +154,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "革律翁凝视着{namecode:435}，似乎在传递着什么信息。",
+			say = "革律翁凝視著俾斯麥，似乎在傳遞著什麼訊息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,11 +167,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "你也感受到了么，混在海域中的那一丝不同寻常的气息。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "你也感受到了嗎，混在海域中的那一絲不同尋常的氣息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,10 +182,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "革律翁微微低下头，像是在表示赞同。",
+			say = "革律翁微微低下頭，像是在表示贊同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,11 +195,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "不同寻常的气息……？{namecode:435}大人，您有了什么发现么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不同尋常的氣息……？俾斯麥大人，您有了什麼發現嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,11 +213,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯。在这片海域活动的，不止有我们。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗯。在這片海域活動的，不只我們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,13 +228,13 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "至少还有另一个META曾在此战斗过。",
+			hidePaintObj = true,
+			say = "至少還有另一個META曾在此戰鬥過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,10 +248,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哎？！",
 			painting = {
 				alpha = 0.3,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,10 +273,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "众人本能地将目光投向了{namecode:434}·META。",
+			say = "眾人本能地將目光投向了格奈森瑙·META。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,62 +286,62 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……应该指的是，除了我…………之外的吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "啊哈哈，说的也是……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不过你这方面的感觉不是一向很准么，没察觉到么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9704010,
-			side = 2,
-			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#ffa500",
-			say = "整片海域都是META化侵蚀的气息，我没分辨出来其中混入的不同。",
+			hidePaintObj = true,
+			say = "……應該指的是，除了我…………之外的吧。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_bsmre_6",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "啊哈哈，說的也是……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_bsmre_6",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不過妳這方面的感覺不是一向很準嗎，沒察覺到嗎？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_bsmre_6",
+			dir = 1,
+			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "整片海域都是META化侵蝕的氣息，我沒分辨出來其中混入的差異。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,11 +355,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "况且……我又不是你们的META信标记录仪。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "況且……我又不是你們的META信標紀錄儀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,11 +373,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "既然有这么方便的仪器，用那个测一测如何？",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "既然有這麼方便的儀器，用那個測一測如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,13 +388,13 @@ return {
 			}
 		},
 		{
-			actor = 401990,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
-			say = "……很遗憾。",
+			hidePaintObj = true,
+			say = "……很遺憾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,11 +408,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "因为集结得很突然，我们谁都没带这个……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "因為集結得很突然，我們都沒有帶那個……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,11 +426,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "等等……那{namecode:435}大人是怎么……？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "等等……那俾斯麥大人是怎麼……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,11 +444,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "是依靠革律翁完成的。它已经确认完毕了——并没有发现与其相符的记录。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "是依靠革律翁完成的。它已經確認完畢了——並沒有發現與其相符的紀錄。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,13 +459,13 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "可以认定，这个META对于我们来说是完全未知的。",
+			hidePaintObj = true,
+			say = "可以認定，這個META對我們來說是完全未知的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,11 +479,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "咦？！确认完毕是指……革律翁本身还有拥有信标记录仪的功能么？！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "咦？！確認完畢是指……革律翁本身還擁有信標紀錄儀的功能嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,11 +497,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "没错。因为是专门针对META的特化舰装，信标记录仪自然是必备功能之一。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "沒錯。因為是專門針對META的特化艦裝，信標紀錄儀自然是必備功能之一。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,11 +515,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "太厉害了…………再次直观认识到了我的雷吉纳和革律翁的差距。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "太厲害了…………再次直觀認識到了我的雷格奈和革律翁的差距。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,10 +533,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "未知的META……",
 			painting = {
 				alpha = 0.3,
@@ -551,11 +551,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "这样也许，之前的黑色冲击也能解释了。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "這樣也許，之前的黑色衝擊也能解釋了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,13 +566,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "咦？！怎么说……难道{namecode:434}小姐有办法做出那种冲击么？",
+			hidePaintObj = true,
+			say = "咦？！怎麼說……難道格奈森瑙小姐有辦法做出那種衝擊嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,8 +583,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -593,12 +593,12 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "不能。",
 			painting = {
 				alpha = 0.3,
@@ -613,11 +613,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "我只是…………见到过。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "我只是…………見過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,11 +631,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "在META化的同伴，怀着必死的决心战斗到最后一刻时……",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "在META化的同伴，懷著必死的決心戰鬥到最後一刻時……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,13 +646,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_bsmre_6",
+			dir = 1,
 			actor = 307060,
-			side = 2,
-			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……抱歉，勾起你不好的回忆了。",
+			hidePaintObj = true,
+			say = "……抱歉，勾起妳不好的回憶了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,13 +663,13 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "…………没事。但是，我们刚刚经历了多次冲击。",
+			hidePaintObj = true,
+			say = "…………沒事。但是，我們剛剛經歷了多次衝擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,11 +683,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "也就说明，如果存在这个正在战斗的META的话，战斗力也许相当的强。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "也就說明，如果有這個正在戰鬥的META的話，戰鬥力也許相當的強。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,11 +701,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "相当强的META，难道会是余烬？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "相當強的META，難道會是餘燼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,13 +716,13 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "……余烬的话，确实存在这么强的人。",
+			hidePaintObj = true,
+			say = "……餘燼的話，確實存在這麼強的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,11 +736,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "而且在战斗的时候也不会在意像我们这种“附带损伤”。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "而且在戰鬥的時候也不會在意像我們這種「附帶損傷」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,11 +754,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……如果是余烬的话，或许还有交涉的可能！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……如果是餘燼的話，或許還有交涉的可能！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -772,11 +772,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "既然明确知道要对抗仲裁机关，将如此强大的战斗力拉过来也许能逆转局面。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "既然明確知道要對抗仲裁機關，將如此強大的戰鬥力拉過來也許能逆轉局面。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,11 +790,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "而且……如果是余烬的话，也许能打听到{namecode:441}的消息……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "而且……如果來的是餘燼的話，也許能打聽到腓特烈的消息……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,12 +805,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那些幻象自然也就————",
 			painting = {
 				alpha = 0.3,
@@ -825,10 +825,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -840,13 +840,13 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "（冲击不是来自于某个元魔方装置，而是某个强大的META在海域中战斗……？）",
+			hidePaintObj = true,
+			say = "（衝擊不是來自於某個元魔方裝置，而是某個強大的META在海域中戰鬥……？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,11 +860,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "（那红色海水中的侵蚀气息来源又是哪里呢……）",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "（那紅色海水中的侵蝕氣息來源又是哪裡呢……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,13 +875,13 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "……必须找到这个META才行！",
+			hidePaintObj = true,
+			say = "……必須找到這個META才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,11 +895,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}阁下，立刻下令展开搜索吧！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "俾斯麥閣下，立刻下令展開搜索吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -915,12 +915,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……嗯？啊……好的。",
 			painting = {
 				alpha = 0.3,
@@ -935,11 +935,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不论其最终是敌人还是盟友，至少我们不能放任这样一个不稳定因素在我们周围游荡。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不論其最終是敵人還是盟友，至少我們不能放任這樣一個不穩定因素在我們周圍遊蕩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -953,11 +953,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "不过，要等到了安全区域之后再说——首先前往米德加尔特之塔的控制室吧。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不過，要等到了安全區域之後再說——先前往米德加爾特之塔的控制室。",
 			painting = {
 				alpha = 0.3,
 				time = 1

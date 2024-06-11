@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "結論を",
 			bgm = "bsm-2",
+			actor = 900136,
+			nameColor = "#ff5c5c",
+			say = "結論を",
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -83,10 +83,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "……時間軸の跳躍ではなく、「枝切り」…",
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +116,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "はい",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "引き続き観察して。実験への干渉は中止、隠蔽行動は継続。「コードG」はほかのアビータが対処する",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "この時間軸における自然演算システムに観測できない情報が大量発生。慎重に",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,

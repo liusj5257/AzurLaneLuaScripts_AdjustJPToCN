@@ -1,52 +1,52 @@
 slot0 = class("CommonBuff", import(".BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.timestamp = slot1.timestamp
 end
 
-function slot0.IsActiveType(slot0)
+slot0.IsActiveType = function(slot0)
 	return false
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.benefit_buff_template
 end
 
-function slot0.checkShow(slot0)
+slot0.checkShow = function(slot0)
 	return slot0:getConfig("hide") ~= 1
 end
 
-function slot0.BackYardExpUsage(slot0)
+slot0.BackYardExpUsage = function(slot0)
 	return slot0:getConfig("benefit_type") == BuffUsageConst.DORM_EXP
 end
 
-function slot0.BattleUsage(slot0)
+slot0.BattleUsage = function(slot0)
 	return slot0:getConfig("benefit_type") == BuffUsageConst.BATTLE
 end
 
-function slot0.RookieBattleExpUsage(slot0)
+slot0.RookieBattleExpUsage = function(slot0)
 	return slot0:getConfig("benefit_type") == BuffUsageConst.ROOKIEBATTLEEXP
 end
 
-function slot0.ShipModExpUsage(slot0)
+slot0.ShipModExpUsage = function(slot0)
 	return slot0:getConfig("benefit_type") == BuffUsageConst.SHIP_MOD_EXP
 end
 
-function slot0.BackyardEnergyUsage(slot0)
+slot0.BackyardEnergyUsage = function(slot0)
 	return slot0:getConfig("benefit_type") == BuffUsageConst.DORM_ENERGY
 end
 
-function slot0.GetRookieBattleExpMaxLevel(slot0)
+slot0.GetRookieBattleExpMaxLevel = function(slot0)
 	return slot0:getConfig("benefit_condition")[3]
 end
 
-function slot0.isActivate(slot0)
+slot0.isActivate = function(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() <= slot0.timestamp
 end
 
-function slot0.getLeftTime(slot0)
+slot0.getLeftTime = function(slot0)
 	return slot0.timestamp - pg.TimeMgr.GetInstance():GetServerTime()
 end
 

@@ -1,15 +1,15 @@
 return {
-	id = "LUCK89903",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK89903",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 899030,
 			dir = 1,
+			actor = 899030,
 			say = "The simple bard who chronicles the Champion's epic is now under the very Champion's protection...",
 			painting = {
 				alpha = 0.3,
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 899030,
 			dir = 1,
+			actor = 899030,
 			say = "As long as you continue to move forward, my Champion, I will always remain by your side. Let us weave our tale into the annals of history, together.",
 			painting = {
 				alpha = 0.3,
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 899030,
 			dir = 1,
+			actor = 899030,
 			say = "After all, this paean now sings the story of a Champion and bard's journey together.",
 			painting = {
 				alpha = 0.3,

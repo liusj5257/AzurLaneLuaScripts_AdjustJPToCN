@@ -14,7 +14,7 @@ slot5 = {
 	__index = slot4
 }
 
-function slot4.New(slot0, slot1, slot2, slot3)
+slot4.New = function(slot0, slot1, slot2, slot3)
 	assert(slot1 > 0, "定时器间隔不能小于等于0！：" .. slot1)
 
 	return uv0({
@@ -27,7 +27,7 @@ function slot4.New(slot0, slot1, slot2, slot3)
 	}, uv1)
 end
 
-function slot4.Start(slot0)
+slot4.Start = function(slot0)
 	assert(slot0.running == false, "对已经启动的定时器执行启动！")
 
 	slot0.running = true
@@ -40,7 +40,7 @@ function slot4.Start(slot0)
 	uv0:AddListener(slot0.handle)
 end
 
-function slot4.Reset(slot0, slot1, slot2, slot3, slot4)
+slot4.Reset = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.duration = slot2 or slot0.duration
 
 	assert(slot0.duration > 0, "定时器间隔不能小于等于0！：" .. slot0.duration)
@@ -53,11 +53,11 @@ function slot4.Reset(slot0, slot1, slot2, slot3, slot4)
 	slot0.paused = nil
 end
 
-function slot4.SetScale(slot0, slot1)
+slot4.SetScale = function(slot0, slot1)
 	slot0.scale = slot1
 end
 
-function slot4.Stop(slot0)
+slot4.Stop = function(slot0)
 	if not slot0.running then
 		return
 	end
@@ -71,15 +71,15 @@ function slot4.Stop(slot0)
 	end
 end
 
-function slot4.Pause(slot0)
+slot4.Pause = function(slot0)
 	slot0.paused = true
 end
 
-function slot4.Resume(slot0)
+slot4.Resume = function(slot0)
 	slot0.paused = nil
 end
 
-function slot4.Update(slot0)
+slot4.Update = function(slot0)
 	if not slot0.running or slot0.paused then
 		return
 	end
@@ -113,7 +113,7 @@ slot7 = {
 	__index = slot6
 }
 
-function slot6.New(slot0, slot1, slot2)
+slot6.New = function(slot0, slot1, slot2)
 	return uv1({
 		running = false,
 		func = slot0,
@@ -123,14 +123,14 @@ function slot6.New(slot0, slot1, slot2)
 	}, uv2)
 end
 
-function slot6.Reset(slot0, slot1, slot2, slot3)
+slot6.Reset = function(slot0, slot1, slot2, slot3)
 	slot0.func = slot1
 	slot0.duration = slot2
 	slot0.loop = slot3
 	slot0.count = uv0.frameCount + slot2
 end
 
-function slot6.Start(slot0)
+slot6.Start = function(slot0)
 	if not slot0.handle then
 		slot0.handle = uv0:CreateListener(slot0.Update, slot0)
 	end
@@ -140,7 +140,7 @@ function slot6.Start(slot0)
 	slot0.running = true
 end
 
-function slot6.Stop(slot0)
+slot6.Stop = function(slot0)
 	slot0.running = false
 
 	if slot0.handle then
@@ -148,7 +148,7 @@ function slot6.Stop(slot0)
 	end
 end
 
-function slot6.Update(slot0)
+slot6.Update = function(slot0)
 	if not slot0.running then
 		return
 	end
@@ -174,7 +174,7 @@ slot9 = {
 	__index = slot8
 }
 
-function slot8.New(slot0, slot1, slot2)
+slot8.New = function(slot0, slot1, slot2)
 	return uv0({
 		running = false,
 		duration = slot1,
@@ -184,7 +184,7 @@ function slot8.New(slot0, slot1, slot2)
 	}, uv1)
 end
 
-function slot8.Start(slot0)
+slot8.Start = function(slot0)
 	if not slot0.handle then
 		slot0.handle = uv0:CreateListener(slot0.Update, slot0)
 	end
@@ -194,14 +194,14 @@ function slot8.Start(slot0)
 	uv0:AddListener(slot0.handle)
 end
 
-function slot8.Reset(slot0, slot1, slot2, slot3)
+slot8.Reset = function(slot0, slot1, slot2, slot3)
 	slot0.duration = slot2
 	slot0.loop = slot3 or 1
 	slot0.func = slot1
 	slot0.time = slot2
 end
 
-function slot8.Stop(slot0)
+slot8.Stop = function(slot0)
 	slot0.running = false
 
 	if slot0.handle then
@@ -209,7 +209,7 @@ function slot8.Stop(slot0)
 	end
 end
 
-function slot8.Update(slot0)
+slot8.Update = function(slot0)
 	if not slot0.running then
 		return
 	end

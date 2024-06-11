@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"特別演習・超空強襲波\n\n<size=45>一　エセックス、試練の海へ</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "今回の特別演習は、敵空母の航空攻撃への対応、そして敵空母そのものへの即応反撃――この2つの状況を想定したものだ",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "今回の特別演習は、敵空母の航空攻撃への対応、そして敵空母そのものへの即応反撃――この2つの状況を想定したものだ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "えっと、つまり私たちの中で敵役をやる子も必要ってこと？",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "えっと、つまり私たちの中で敵役をやる子も必要ってこと？",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "そういうことだ",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "私？この艦隊に配属されたばかりの私でいいのでしょうか…？",
 			typewriter = {
@@ -229,10 +229,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 107220,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107220,
+			nameColor = "#a9f548",
 			say = "（そしてこの演習を機に、私の実力をみんなに…！）",
 			typewriter = {
 				speed = 0.05,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "はい！！",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,
@@ -398,15 +398,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -450,8 +450,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "今回の演習では記録係だけど、私もエンタープライズさんからは「必要ならエセックスを助けるように」と言われています。エセックス、本当に私の助けは必要ないですか？",
 			typewriter = {
@@ -496,14 +496,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
-			say = "知らせてくれてありがとう。…艦載機、全機発進！",
 			soundeffect = "event:/battle/plane",
+			actor = 107090,
+			nameColor = "#ff5c5c",
+			say = "知らせてくれてありがとう。…艦載機、全機発進！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

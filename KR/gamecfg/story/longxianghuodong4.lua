@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG4",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107060,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level",
 			dir = -1,
 			say = "……비행장에서 공습 경보인가. 이건 류조의 공습인 것 같군. 새러토가, 어떻게 할래?",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

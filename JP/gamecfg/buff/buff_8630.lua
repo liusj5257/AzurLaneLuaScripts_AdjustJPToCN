@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "防空船标记",
 	time = 0,
-	color = "yellow",
+	name = "防空船标记",
+	init_effect = "",
+	id = 8630,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8630,
+	color = "yellow",
 	icon = 8630,
 	last_effect = "fangkongRing02",
 	effect_list = {}

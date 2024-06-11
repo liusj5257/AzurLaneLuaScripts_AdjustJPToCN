@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_152 = {}
 slot1 = slot0.word_template_152
 
-function temp()
+temp = function()
 	uv0["组"] = {
 		["装"] = {
 			["5"] = {
@@ -51,7 +51,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["捷"] = {
 		["克"] = {
 			C = {
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Q = {
 		Q = {
 			["卖"] = {
@@ -170,7 +170,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["长"] = {
 		["期"] = {
 			["低"] = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Tales From the Count's Castle\n\n<size=45>3 Neverending Stalemate</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "To nobody's surprise, the game ended in a draw.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "To nobody's surprise, the game ended in a draw.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Nothing has changed, it would seem.",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Alas, so not even you can break the eternal curse within this tablet.",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Drinking every drop of blood you have to offer may quench our thirst, but it does naught to dispel our grievance.",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "\"I've changed my mind, human. Submit to Emden and become our pet. You will be granted eternal life and experience boundless pleasure as our pet.\"",
 			typewriter = {
 				speed = 0.05,
@@ -123,10 +123,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You may instead try one more time if you wish, my darling human. But, if you fail, I'm afraid your last moments shall be spent atop a dinner plate.",
 			typewriter = {
 				speed = 0.05,
@@ -138,12 +138,12 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "\"The choice is obvious. Now make it.\"",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "To give up, or press on. The pressure was mounting on me. I answered...",
 			typewriter = {
 				speed = 0.05,
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "So you chose submission. Humans really are deplorably weak.",
 			typewriter = {
 				speed = 0.05,
@@ -216,13 +216,13 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "\"Your induction into the family comes later. For now, just rest your head on Emden's chest and be whisked away to sleep♥\"",
 			typewriter = {
 				speed = 0.05,
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,14 +296,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "When I woke up, both Emden and Yorck were nowhere to be seen. The stone tablet was gone, replaced by a ruby necklace.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -384,9 +384,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			blackBg = true,
-			dir = 1,
 			optionFlag = 1,
+			dir = 1,
+			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -505,16 +505,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
+			bgName = "star_level_bg_156",
 			actor = 403111,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "The match is over... Emden is the victor.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -539,13 +539,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Fascinating. You knew you could not win, so you conceded victory.",
 			typewriter = {
 				speed = 0.05,
@@ -576,13 +576,13 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "As Emden promised, you shall be granted passage through this place.",
 			typewriter = {
 				speed = 0.05,
@@ -628,13 +628,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "This relic is the Cursed Blood Necklace. Remember its name, for it will surely be of use.",
 			typewriter = {
 				speed = 0.05,
@@ -646,11 +646,11 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
+			blackBg = true,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			blackBg = true,
+			optionFlag = 2,
 			say = "The doors to my front gave way to a corridor. It seemed I'd passed the first trial.",
 			typewriter = {
 				speed = 0.05,

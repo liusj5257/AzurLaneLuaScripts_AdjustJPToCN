@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU6",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU6",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-italy",
 			say = "다음 날 16:00:00  (세이렌 합동 수사 함대 C3를 향해)",
+			side = 2,
+			dir = 1,
+			bgm = "battle-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 900197,
 			dir = 1,
+			actor = 900197,
 			say = "언니… 이 사람 이상해. 못 알아 듣겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "쉿… 아마도, 로열의 함선들은 두뇌 회로가 조금 이상한 것 같네요. 너무 놀라지 말아요. 얕보일지도 모르니까.",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 2,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "응…응.",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			actor = 601020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "저는 Lv. 10입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 2,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "언니… 카라비니에레는 왜 말이 통하는거지?(작은 소리)",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 1,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "못 들은 걸로 하세요. 알겠죠?",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ffde38",
-			dir = 1,
 			say = "못 들은 걸로 해요.",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

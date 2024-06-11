@@ -1,30 +1,30 @@
 slot0 = class("RefluxSignView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RefluxSignUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateUI()
 	slot0:tryAutoSign()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.OnBackPress(slot0)
+slot0.OnBackPress = function(slot0)
 	slot0:Hide()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.refluxProxy = getProxy(RefluxProxy)
 	slot0.dayAwardList = slot0:getAllAwardList()
 	slot0.totalSignCount = #pg.return_sign_template.all
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot1 = slot0:findTF("DayImg")
 	slot0.daySpriteList = {}
 
@@ -74,16 +74,16 @@ function slot0.initUI(slot0)
 	slot0.tplWidth = slot0.dayTpl:GetComponent(typeof(LayoutElement)).preferredWidth
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	setText(slot0.signCountText, slot0.refluxProxy.signCount)
 	slot0.dayUIItemList:align(slot0.totalSignCount)
 	slot0:autoScroll(slot0.refluxProxy.signCount)
 end
 
-function slot0.updateOutline(slot0)
+slot0.updateOutline = function(slot0)
 end
 
-function slot0.getAllAwardList(slot0)
+slot0.getAllAwardList = function(slot0)
 	slot1 = {}
 	slot2 = slot0.refluxProxy.returnLV
 
@@ -101,7 +101,7 @@ function slot0.getAllAwardList(slot0)
 	return slot1
 end
 
-function slot0.getLevelIndex(slot0, slot1, slot2)
+slot0.getLevelIndex = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		slot9 = slot7[2]
 
@@ -111,13 +111,13 @@ function slot0.getLevelIndex(slot0, slot1, slot2)
 	end
 end
 
-function slot0.tryAutoSign(slot0)
+slot0.tryAutoSign = function(slot0)
 	if slot0.refluxProxy:isCanSign() then
 		pg.m02:sendNotification(GAME.REFLUX_SIGN)
 	end
 end
 
-function slot0.autoScroll(slot0, slot1)
+slot0.autoScroll = function(slot0, slot1)
 	slot3 = 0
 	slot0.scrollSC.horizontalNormalizedPosition = math.clamp(slot1 == 1 and 0 or slot1 == slot0.dayContainerTF.childCount and 1 or slot1 / slot0.dayContainerTF.childCount, 0, 1)
 end

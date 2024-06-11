@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"妹妹的變化\n\n<size=45>一 妹妹的日常</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 103100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "指揮官，休息日來一起來玩嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "某天，突然收到了文森尼斯的邀請，於是在休息日來到了白鷹宿舍——",
 			effects = {
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			say = "港區·白鷹宿舍",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "港區·白鷹宿舍",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "踏入房間，映入眼簾的是正躺在昆西的大腿上睡覺的文森尼斯",
 			typewriter = {
 				speed = 0.05,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "唔……嗯？讓我再睡會……",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "文森尼斯說著又睡了過去。",
 			typewriter = {
 				speed = 0.05,
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103090,
+			nameColor = "#a9f548",
 			say = "抱歉呢，指揮官，文森尼斯她就是這樣的孩子。",
 			typewriter = {
 				speed = 0.05,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "並沒有讓文森尼斯變得能幹的選項啊…",
 			typewriter = {
 				speed = 0.05,
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "說是一起午睡，不過這邊躺在哪……正想這個的時候，昆西輕輕拍了拍自己空著的另一條腿",
 			typewriter = {
 				speed = 0.05,

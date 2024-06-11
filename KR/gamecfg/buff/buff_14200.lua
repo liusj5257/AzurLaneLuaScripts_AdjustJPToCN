@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 14200,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14200,
+	color = "red",
 	icon = 14200,
 	last_effect = "",
 	effect_list = {
@@ -26,10 +26,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 14200,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				index = {
 					1
 				},
@@ -45,10 +45,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 14200,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				index = {
 					1
 				},
@@ -64,10 +64,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 14201,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				index = {
 					1
 				},
@@ -83,8 +83,8 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
-				countTarget = 2,
 				killer = "self",
+				countTarget = 2,
 				countType = 14200
 			}
 		},
@@ -95,8 +95,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 14202,
+				target = "TargetSelf",
 				countType = 14200
 			}
 		}

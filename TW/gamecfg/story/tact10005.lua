@@ -42,11 +42,11 @@ return {
 			}
 		},
 		{
-			actor = 900017,
 			side = 1,
-			actorName = "{namecode:70}",
-			nameColor = "#ff0000",
 			say = "恩，這個時間點，大洋的另一頭，一航戰、二航戰和五航戰的姐妹們也應該已經開始行動了",
+			actorName = "{namecode:70}",
+			actor = 900017,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

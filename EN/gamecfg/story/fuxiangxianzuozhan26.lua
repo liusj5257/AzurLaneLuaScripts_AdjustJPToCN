@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN26",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Floating Fortress - D12 defense line",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "Floating Fortress - D12 defense line",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,8 +59,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "It's... going away?",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Oh, Eugen, what have you done... I never told you to destroy the generator.",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "Strasser, the identification signal's changed. The Sakura and Iron Blood shipgirls have all made it out.",
 			typewriter = {
@@ -126,8 +126,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Them, plus additional stragglers in the form of some mass-produced ships.",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "I am amazed. We lost control over our facilities due to the Sirens' jamming, and they then caused our stationed mass-produced units to go berserk...",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "We managed to reclaim control over the airfields and lead them into a carefully coordinated ambush to take them all out in one fell swoop...",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "The unexplained communications anomaly, our inability to radio back to Europa, those mass-produced ships going haywire, and the Sakura fleet appearing from nowhere...",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "They manipulated our comms and radar, too. We couldn't tell friend from foe or Pawn from the real deal.",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "And if we hadn't realized sooner, we might have actually fallen for the Sirens' scheme. But the stalling that kept them at D13 allowed us to launch an attack just in time.",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "It was all thanks to the antics of one person that the Sirens were sure they had us fooled up to the last minute...",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "...It was thanks to Heinrich.",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "I wonder if she actually knows how much she contributed, or if she even knows what happened at all.",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Believe me, she's not as foolish as you may think.",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "It's possible that the only reason she hasn't scurried off already is because Heinrich upheld the illusion that we've turned on each other.",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "Well, she played us like a fiddle, if that was her intention. Personally, I find it hard to believe that her brain is that galactic...",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "...I'm picking up movements... Huh. The Siren's headed toward us, rather than trying to flee?",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Toward the secret facility?! She must be stopped at any cost! Weser, if our comms are back online, then connect me to Eugen and everyone else in the area!",
 			typewriter = {
@@ -457,16 +457,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_fuxiangxian_4",
-			actorName = "Peter Strasser",
+			side = 2,
 			dir = 1,
-			say = "Attention, all ships! This is Iron Blood carrier Peter Strasser! I request the assistance of all Iron Blood, Sardegna, and Sakura Empire forces in the area!",
+			bgName = "bg_fuxiangxian_4",
 			bgm = "bsm-9",
+			actorName = "Peter Strasser",
+			say = "Attention, all ships! This is Iron Blood carrier Peter Strasser! I request the assistance of all Iron Blood, Sardegna, and Sakura Empire forces in the area!",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Peter Strasser",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Peter Strasser",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Peter Strasser",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Peter Strasser",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -555,12 +555,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Peter Strasser",
+			side = 2,
 			bgName = "bg_fuxiangxian_4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Stop and destroy the Siren mastermind – Compiler!",
 			typewriter = {
 				speed = 0.05,

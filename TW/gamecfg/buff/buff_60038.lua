@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-随机技能-暗影幻灵",
 	time = 0,
+	name = "测试-随机技能-暗影幻灵",
+	init_effect = "",
 	picture = "",
 	desc = "召唤一个幽灵",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 60021,
 				time = 10,
-				target = "TargetSelf",
-				skill_id = 60021
+				target = "TargetSelf"
 			}
 		}
 	}

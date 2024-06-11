@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"速科夫的一天\n\n<size=45>一 清晨的速科夫</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "港區·臥室",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "story-1",
+			say = "港區·臥室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "朦朧之中，感覺鼻子癢癢的…",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "忍不住打了一個大噴嚏，頓時睡意全消…",
 			flashN = {
 				color = {
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "眼前是拿著不知哪裡找來的麥稈的速科夫。",
 			typewriter = {
 				speed = 0.05,
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "那指揮官夢到和我幹什麼了呀？",
 			typewriter = {
 				speed = 0.05,
@@ -258,13 +258,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "幾分鐘後…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

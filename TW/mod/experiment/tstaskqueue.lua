@@ -1,7 +1,7 @@
 slot0 = class("TSTaskQueue")
 slot0.MTPF = 0.03333333333333333
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.maxTimePerFrame = math.min(slot1, uv0.MTPF)
 	slot0.taskPool = {}
 	slot0.taskQueue = {}
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.updateHandle = UpdateBeat:CreateListener(slot0.Update, slot0)
 end
 
-function slot0.Enqueue(slot0, slot1)
+slot0.Enqueue = function(slot0, slot1)
 	assert(type(slot1) == "function", "job should be a function")
 
 	slot2 = #slot0.taskPool > 0 and table.remove(slot0.taskPool, #slot0.taskPool) or TSTask.New()
@@ -24,7 +24,7 @@ function slot0.Enqueue(slot0, slot1)
 	end
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if not slot0.running then
 		return
 	end
@@ -48,11 +48,11 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.IsBusy(slot0)
+slot0.IsBusy = function(slot0)
 	return slot0.running
 end
 
-function slot0.Clear(slot0, slot1)
+slot0.Clear = function(slot0, slot1)
 	for slot5 = #slot0.taskQueue, 1, -1 do
 		slot6 = slot0.taskQueue[slot5]
 

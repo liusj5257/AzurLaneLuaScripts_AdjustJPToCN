@@ -1,15 +1,15 @@
 return {
-	id = "WORLD500B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD500B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "blueocean-image",
 			say = "멤피스와, 셰필드...?",
+			side = 2,
+			dir = 1,
+			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "셰필드는 항상 로열 메이드대 다른 인원과 다른 신비한 분위기를 가지고 있어서 고맙군. 무슨 말을 하고 있는 거지?",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "회의가 끝났으니 멤피스와 셰필드가 사적인 대화를 나누고 있을지도 모르니 방해하지 말아야겠다.",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "어, 들켰네.",
 			typewriter = {
@@ -87,14 +87,14 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "그럼 부탁해요. 전 갈 곳이 있어서 이만...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "셰필드는 고개도 돌리지 않고 가버리네…",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "지휘관, 오늘 하루도 수고했어~ 지금 산책 중이야?",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "바람 좀 쐬려고… 무슨 얘길 하고 있었어?",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "지휘관에게 비밀로 할 일은 아니지만 확실한 결론이 나면 얘기해 줄게.",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "오늘 회의에서 있었던 일과 관련이 있는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "비슷한가… 아무리 그래도 오늘은 너무했어.",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그러니까. 원래는 총공격을 위한 회의였는데, 막상 와보니 META와 세이렌 연구 토론회라니.",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그럴 것 같았다니?",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "이번 작전이 시작된 이후 지금까지 전투는 순조롭게 진행되고 있어. 세이렌도, 새로 나타난 잔불도, 우리는 모두 연거푸 승리하고 있지.",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "즐겁다라… 분명 매번 잔불 쪽에서 싸움을 회피해서 우리가 무사히 돌아올 수 있는 거 아니었어?",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "잔불의 실력과 위압감은… 아무리 들어도 직접 경험해 보지 않으면 실감 나지 않을 테니까.",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "이런 분위기에 힘입어 그나마 차분했던 각지의 사령부에서도 세이렌에 대해 연구하자는 말이 계속 나오고 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "심지어 \"세이렌의 전투력은 말할 필요도 없으니 지휘부는 연구 임무를 전투 임무보다 우선 순위에 둬야 한다.\"라는 말도 나왔어.",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "일이 이렇게까지 심각할 줄은 몰랐는데...",
 			typewriter = {
 				speed = 0.05,
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "세이렌으로부터 바다를 되찾고 싶어—— 우리 함선은 이 한 가지 소원뿐이야.",
 			typewriter = {
 				speed = 0.05,
@@ -467,8 +467,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "지휘부와 각 지역 사령부에서도 그렇게 생각하겠지?",
 			typewriter = {
 				speed = 0.05,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "셰필드가 특별히 알리러 여기까지 온걸 보면, 엘리자베스도 이미 이 상황에 대해 알고 있다는 뜻이야… 우리가 이 일을 해결했으면 하는 걸까?",
 			typewriter = {
 				speed = 0.05,
@@ -570,9 +570,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "와아아, 셰피?! 갑자기 놀래키지 마… 아까 이미 갔던 거 아니었어?",
 			typewriter = {
 				speed = 0.05,
@@ -584,8 +584,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그러고 보니 요즘 회의에서 한 번도 엘리자베스를 본 적이 없는데…. 대체 무슨 일을 꾸미고 있는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그럴 수도 있겠는데…",
 			typewriter = {
 				speed = 0.05,
@@ -740,8 +740,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,

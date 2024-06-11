@@ -5,17 +5,17 @@ slot0.DURATION_GRADE_LAST = 1.5
 slot0.DURATION_MOVE = 0.7
 slot0.DURATION_WIN_SCALE = 0.7
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BattleResultUI"
 end
 
-function slot0.setPlayer(slot0)
+slot0.setPlayer = function(slot0)
 end
 
-function slot0.setShips(slot0)
+slot0.setShips = function(slot0)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._grade = slot0:findTF("grade")
 	slot0._levelText = slot0:findTF("chapterName/Text22", slot0._grade)
 	slot0.clearFX = slot0:findTF("clear")
@@ -69,7 +69,7 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setText(slot0._levelText, pg.expedition_data_template[slot0.contextData.stageId].name)
 
 	slot3 = rtf(slot0._grade)
@@ -94,11 +94,11 @@ function slot0.didEnter(slot0)
 	slot0:showPainting()
 end
 
-function slot0.rankAnimaFinish(slot0)
+slot0.rankAnimaFinish = function(slot0)
 	slot0._stateFlag = BattleResultLayer.STATE_REPORTED
 end
 
-function slot0.showPainting(slot0)
+slot0.showPainting = function(slot0)
 	slot1, slot2, slot3 = nil
 
 	SetActive(slot0._painting, true)
@@ -136,7 +136,7 @@ function slot0.showPainting(slot0)
 	end))
 end
 
-function slot0.skip(slot0)
+slot0.skip = function(slot0)
 	if slot0._stateFlag == BattleResultLayer.STATE_RANK_ANIMA then
 		-- Nothing
 	elseif slot0._stateFlag == BattleResultLayer.STATE_REPORTED then
@@ -144,11 +144,11 @@ function slot0.skip(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0._skipBtn)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0._tf))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)

@@ -1,12 +1,12 @@
 return {
-	time = 0.5,
-	name = "2023古立特联动复刻 TSS4 公主 一阶段",
 	init_effect = "",
+	name = "2023古立特联动复刻 TSS4 公主 一阶段",
+	time = 0.5,
+	picture = "",
+	desc = "",
 	stack = 99,
 	id = 200505,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -16,9 +16,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 200508,
+				nationality = 99,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				nationality = 99,
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -33,9 +33,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 200506,
+				nationality = 99,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				nationality = 99,
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"

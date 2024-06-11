@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"盛夏的半人馬座\n\n<size=45>六　夕陽之下</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 2,
+			blackBg = true,
 			bgm = "story-2",
 			actor = 206040,
 			nameColor = "#a9f548",
 			say = "海邊的夕陽真是美麗啊",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,10 +55,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 206040,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "呼，結果沙灘排球比賽因為中途參加的人越來越多，變成持續了一整個下午的大型活動……稍微有些累了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 206040,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "原來經歷過大戰的前輩們，也會度過這樣的一天……",
 			typewriter = {
 				speed = 0.05,
@@ -121,10 +121,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 206040,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "果然加入艦隊是正確的選擇，在這裡，我能夠近距離地接觸到各種各樣的前輩們，從大家身上學習和平時代誕生的我所缺少的東西……",
 			typewriter = {
 				speed = 0.05,
@@ -136,16 +136,16 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "喂，半人馬~~",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#a9f548",
+			say = "喂，半人馬~~",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
+			say = "啊，標槍前輩。",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，標槍前輩。",
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -219,8 +219,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯，是的，我也在回味今天。",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "對我來說，今天是十分有意義的一天呢。",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "嗯，今天學到了許多戰鬥之外的東西呢，比如前輩們的生活態度之類的。",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "欸，排球比賽不是已經結束了嗎？我看前輩們也都散了。",
 			typewriter = {
@@ -399,8 +399,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "咦，好多姐妹在搬箱子一樣的東西，那些是……？",
 			typewriter = {
@@ -429,11 +429,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "是專門為了歡迎自由和維希的新同伴，還有妳的加入而準備的哦！",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -458,8 +458,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "……原來白天說的就是這個啊。",
 			typewriter = {
@@ -472,11 +472,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "啊，讓巴爾和敦克爾克姐姐那邊也來了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "我們也別站在這裡發呆了，趕緊過去吧，半人馬。",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我們也別站在這裡發呆了，趕緊過去吧，半人馬。",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -518,11 +518,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "美好的時光才剛剛開始呢。",
 			typewriter = {
 				speed = 0.05,
@@ -534,8 +534,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -547,8 +547,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "說的是呢，現在還不是回味的時候……",
 			typewriter = {
@@ -564,9 +564,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "值得回味的時光，才剛剛開始呢。",
 			typewriter = {

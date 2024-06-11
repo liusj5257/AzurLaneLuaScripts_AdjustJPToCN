@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 剧情战2 我方强化特效",
 	time = 6,
-	color = "yellow",
+	name = "2023英系活动 剧情战2 我方强化特效",
+	init_effect = "",
+	id = 200351,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200351,
+	color = "yellow",
 	icon = 200351,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200357,
-				target = "TargetSelf",
-				time = 4.5
+				time = 4.5,
+				target = "TargetSelf"
 			}
 		}
 	}

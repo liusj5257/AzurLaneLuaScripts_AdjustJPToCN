@@ -1,12 +1,12 @@
 return {
-	id = "AIRICHANG2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIRICHANG2",
+	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」日常編\n\n<size=45>二 人工智能会梦见电子海豚吗？</size>",
@@ -15,13 +15,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "？？？·荒废的都市",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,13 +46,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "能看到荒废的建筑物，而且非常暗，的说",
 			dir = -1,
 			blackBg = true,
 			bgm = "story-1",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "能看到荒废的建筑物，而且非常暗，的说",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "呜哇…有种会出现真正幽灵的气氛呢～",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "呜哇…有种会出现真正幽灵的气氛呢～",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "绊爱",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			actorName = "绊爱",
 			say = "这里究竟是哪里呢…话说衣服什么时候变了！？",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（喔喔喔——！嗷嗷嗷——！）",
 			typewriter = {
@@ -117,9 +117,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "啊啊啊啊啊啊！！！！！",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "呜哇啊啊啊啊啊啊啊！！！看起来就很可怕的人出现了～～～～！！！",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "大家都冷静一点。把那里的武器捡起来。靠这些武器，生存下去…的说！",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "大家都冷静一点。把那里的武器捡起来。靠这些武器，生存下去…的说！",
+			actor = 301050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -207,9 +207,9 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "居然对这种状况完全不为所动！？总、总之了解了！",
 			typewriter = {
@@ -222,16 +222,16 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			actorName = "绊爱",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			nameColor = "#a9f548",
 			say = "来啊来啊！尽管放马过来吧——！！！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（砰！砰！哒哒哒哒哒哒哒哒哒！）",
 			typewriter = {
@@ -286,12 +286,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "嘿嘿嘿～幽灵是无敌的～！不过还是有点累了呢，去那边的研究所一样的建筑里休息一下吧～",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嘿嘿嘿～幽灵是无敌的～！不过还是有点累了呢，去那边的研究所一样的建筑里休息一下吧～",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（喔喔喔喔喔———咔！！！）",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "啊啊啊啊啊啊啊啊！！这是什么鬼！？",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -397,9 +397,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "什么嘛～原来只是“最终BOSS”吗，啊哈哈哈哈～",
 			typewriter = {
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "攻势好猛烈～个头又大，一般的攻击完全没办法把它打倒啊～！",
 			effects = {
 				{
@@ -461,9 +461,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "啊！这种时候就要靠火箭筒了吧！！！",
 			typewriter = {
@@ -479,9 +479,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "好、好重！？",
 			typewriter = {
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "绊爱",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			actorName = "绊爱",
 			say = "交给我了！去吧——！嘿呀——————！！！",
 			typewriter = {
 				speed = 0.05,
@@ -527,8 +527,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（砰咚————！！！）",
 			dialogShake = {
@@ -546,15 +546,15 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "……“干掉了！？”的说",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -582,9 +582,9 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "啊，{namecode:6}酱，说这种话的话——{namecode:6}酱，说这种话的话",
 			typewriter = {
@@ -632,9 +632,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "啊啊啊啊啊啊啊啊————！果然是FLAG————！！！",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -657,8 +657,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（呜喔哦哦哦哦哦哦哦————！！！）",
 			typewriter = {
@@ -690,9 +690,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "怎、怎么会这样…大家都消失了啦……",
 			typewriter = {
@@ -707,15 +707,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actorName = "绊爱",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actorName = "绊爱",
+			actor = 10400040,
 			nameColor = "#a9f548",
 			say = "呜…对不起…大家……都是因为我…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -743,9 +743,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "绊爱",
 			say = "——嗯？",
 			typewriter = {
@@ -758,11 +758,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "系统消息",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "要继续吗？",
 			typewriter = {
 				speed = 0.05,

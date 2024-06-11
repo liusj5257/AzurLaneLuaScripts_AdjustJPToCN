@@ -1,24 +1,24 @@
 slot0 = class("MonthlyShop", import(".BaseShop"))
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.goods = {}
 end
 
 slot0.GoodsType = nil
 
-function slot0.IsSameKind(slot0, slot1)
+slot0.IsSameKind = function(slot0, slot1)
 	return isa(slot1, MonthlyShop)
 end
 
-function slot0.GetCommodityById(slot0, slot1)
+slot0.GetCommodityById = function(slot0, slot1)
 	return slot0:getGoodsById(slot1)
 end
 
-function slot0.GetCommodities(slot0)
+slot0.GetCommodities = function(slot0)
 	return slot0:getSortGoods()
 end
 
-function slot0.isOpen(slot0)
+slot0.isOpen = function(slot0)
 	if not slot0.id then
 		return false
 	end
@@ -33,7 +33,7 @@ function slot0.isOpen(slot0)
 	return slot1
 end
 
-function slot0.getRestDays(slot0)
+slot0.getRestDays = function(slot0)
 	if not slot0.id then
 		return 0
 	end
@@ -53,7 +53,7 @@ function slot0.getRestDays(slot0)
 	return math.max(os.date("%d", os.time(slot3)) - slot2.day + 1, 1)
 end
 
-function slot0.GetRestTime(slot0)
+slot0.GetRestTime = function(slot0)
 	if not slot0.id then
 		return 0
 	end
@@ -77,14 +77,14 @@ function slot0.GetRestTime(slot0)
 	return math.max(os.time(slot3) - slot1:GetServerTime(), 0)
 end
 
-function slot0.getSortGoods(slot0)
+slot0.getSortGoods = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.goods) do
 		table.insert(slot1, slot6)
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		return math.floor(slot0 * 0.1)
 	end
 
@@ -95,7 +95,7 @@ function slot0.getSortGoods(slot0)
 		slot5 = slot1:getConfig("order") + slot1.id / 100000
 		slot6 = getProxy(CollectionProxy)
 
-		function slot8(slot0)
+		slot8 = function(slot0)
 			return not slot0:canPurchase()
 		end
 
@@ -123,15 +123,15 @@ function slot0.getSortGoods(slot0)
 	return slot1
 end
 
-function slot0.getGoodsCfg(slot0, slot1)
+slot0.getGoodsCfg = function(slot0, slot1)
 	return pg.activity_shop_template[slot1]
 end
 
-function slot0.getGoodsById(slot0, slot1)
+slot0.getGoodsById = function(slot0, slot1)
 	return slot0.goods[slot1]
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.month_shop_template
 end
 

@@ -34,7 +34,7 @@ slot9 = {
 	end
 }
 
-function slot10(slot0, slot1)
+slot10 = function(slot0, slot1)
 	return uv0({
 		func = slot0,
 		obj = slot1
@@ -54,7 +54,7 @@ slot11 = {
 	end
 }
 
-function slot12(slot0, slot1)
+slot12 = function(slot0, slot1)
 	return uv0({
 		func = slot0,
 		obj = slot1
@@ -65,7 +65,7 @@ slot13 = {
 	__index = slot13
 }
 
-function slot13.Add(slot0, slot1, slot2)
+slot13.Add = function(slot0, slot1, slot2)
 	uv0(slot1)
 
 	slot1 = (not slot0.keepSafe or uv1(slot1, slot2)) and uv2(uv1(slot1, slot2), slot2)
@@ -76,9 +76,9 @@ function slot13.Add(slot0, slot1, slot2)
 		end)
 
 		return {
-			_prev = 0,
 			_next = 0,
 			removed = true,
+			_prev = 0,
 			value = slot1
 		}
 	else
@@ -86,7 +86,7 @@ function slot13.Add(slot0, slot1, slot2)
 	end
 end
 
-function slot13.Remove(slot0, slot1, slot2)
+slot13.Remove = function(slot0, slot1, slot2)
 	for slot6, slot7 in uv0(slot0.list) do
 		if slot7.func == slot1 and slot7.obj == slot2 then
 			if slot0.lock then
@@ -102,16 +102,16 @@ function slot13.Remove(slot0, slot1, slot2)
 	end
 end
 
-function slot13.CreateListener(slot0, slot1, slot2)
+slot13.CreateListener = function(slot0, slot1, slot2)
 	return {
-		_prev = 0,
 		_next = 0,
 		removed = true,
+		_prev = 0,
 		value = (not slot0.keepSafe or uv0(slot1, slot2)) and uv1(uv0(slot1, slot2), slot2)
 	}
 end
 
-function slot13.AddListener(slot0, slot1)
+slot13.AddListener = function(slot0, slot1)
 	uv0(slot1)
 
 	if slot0.lock then
@@ -123,7 +123,7 @@ function slot13.AddListener(slot0, slot1)
 	end
 end
 
-function slot13.RemoveListener(slot0, slot1)
+slot13.RemoveListener = function(slot0, slot1)
 	uv0(slot1)
 
 	if slot0.lock then
@@ -135,11 +135,11 @@ function slot13.RemoveListener(slot0, slot1)
 	end
 end
 
-function slot13.Count(slot0)
+slot13.Count = function(slot0)
 	return slot0.list.length
 end
 
-function slot13.Clear(slot0)
+slot13.Clear = function(slot0)
 	slot0.list:clear()
 
 	slot0.opList = {}
@@ -148,7 +148,7 @@ function slot13.Clear(slot0)
 	slot0.current = nil
 end
 
-function slot13.Dump(slot0)
+slot13.Dump = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in uv0(slot0.list) do
@@ -164,7 +164,7 @@ function slot13.Dump(slot0)
 	uv1("all function is:", slot1)
 end
 
-function slot13.__call(slot0, ...)
+slot13.__call = function(slot0, ...)
 	slot0.lock = true
 
 	for slot6, slot7 in uv0(slot0.list) do
@@ -189,7 +189,7 @@ function slot13.__call(slot0, ...)
 	end
 end
 
-function event(slot0, slot1)
+event = function(slot0, slot1)
 	return uv0({
 		lock = false,
 		name = slot0,
@@ -209,23 +209,23 @@ slot16 = LateUpdateBeat
 slot17 = FixedUpdateBeat
 slot18 = CoUpdateBeat
 
-function Update(slot0, slot1)
+Update = function(slot0, slot1)
 	uv0:SetDeltaTime(slot0, slot1)
 	uv1()
 end
 
-function LateUpdate()
+LateUpdate = function()
 	uv0()
 	uv1()
 	uv2:SetFrameCount()
 end
 
-function FixedUpdate(slot0)
+FixedUpdate = function(slot0)
 	uv0:SetFixedDelta(slot0)
 	uv1()
 end
 
-function PrintEvents()
+PrintEvents = function()
 	uv0:Dump()
 	uv1:Dump()
 end

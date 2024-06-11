@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH基地・臨時指揮所",
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "blueocean-image",
+			hidePaintObj = true,
+			say = "PH基地・臨時指揮所",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -81,10 +81,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ふふん、好きなんでしょ？こういうの",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あたしなりにちょっと調べておいたけど、まあ再現できるのはこの程度までかな？",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あっ、あたしはニュージャージー、アイオワ級戦艦よ。",
 			typewriter = {
 				speed = 0.05,
@@ -159,10 +159,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それとも「ユニオン最大最強のブラックドラゴン様！」のほうが覚えやすいかな？ははは♪",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…コホン。というわけで戦艦ニュージャージー、これより指揮官の指揮下に入るわ。どうぞよろしく",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "というわけで指揮官、最初の指示はなに？",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,10 +311,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "逆に聞くけど、この私を出撃させたい？前にサラトガが「再現」に挑んでいたときに出撃できなかったのは残念だったわ",
 			typewriter = {
 				speed = 0.05,
@@ -329,10 +329,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まあ、この私が出なければならないって状況になりそうだから指揮官がここに派遣されてきたんでしょ？",
 			typewriter = {
 				speed = 0.05,
@@ -362,10 +362,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "先日の戦いもかなり厳しかったし、指揮官が来てくれればもう安心！ってね",
 			typewriter = {
 				speed = 0.05,
@@ -395,10 +395,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "セイレーンの動きを予測するのはナンセンスって言うじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -413,10 +413,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "もしかしたら、今までのは全部指揮官を誘い出すための罠！ってこともあるかもしれないね",
 			typewriter = {
 				speed = 0.05,
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はい、冗談はここまでにして…指揮官から特に指示がなければ、このまま哨戒艦隊を連れて基地周辺の海域を見回ってくるわ",
 			typewriter = {
 				speed = 0.05,
@@ -463,10 +463,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それじゃあ、また後で！…ってまだ何か聞きたいことでもある？",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -503,12 +503,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ん？普通に状況を説明するためだけど？",
 			typewriter = {
 				speed = 0.05,
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "探しもの？",
 			typewriter = {
 				speed = 0.05,
@@ -591,10 +591,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "んっしょ…AF基地の説明資料がさっき落ちてて…",
 			typewriter = {
 				speed = 0.05,
@@ -624,10 +624,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（小声）ついでに映画のディスクも一緒に……んっしょ…",
 			typewriter = {
 				speed = 0.05,
@@ -639,8 +639,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -682,10 +682,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ごめん、ちょっと好みがバレちゃうから探させて…",
 			typewriter = {
 				speed = 0.05,
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -722,12 +722,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あら、指揮官。もうニュージャージーには会えた？あの子どこに行ったのかしら…",
 			typewriter = {
 				speed = 0.05,
@@ -742,10 +742,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ここにいるわよ！タイコ、いいタイミングで来た！ちょっと手伝って――",
 			typewriter = {
 				speed = 0.05,
@@ -772,12 +772,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はいはい、分かったわ。申し遅れましたけど…私はエセックス級のタイコンデロガ、よろしくね、指揮官",
 			typewriter = {
 				speed = 0.05,
@@ -792,10 +792,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あーちょっとこの机を動かさないといけなそうだし、ここは私達に任せてもらえないかしら？",
 			typewriter = {
 				speed = 0.05,

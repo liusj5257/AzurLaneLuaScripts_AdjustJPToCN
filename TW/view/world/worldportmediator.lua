@@ -7,7 +7,7 @@ slot0.OnReqPort = "WorldPortMediator.OnReqPort"
 slot0.OnBuyGoods = "WorldPortMediator.OnBuyGoods"
 slot0.OnBuyNShopGoods = "WorldPortMediator.OnBuyNShopGoods"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OnOpenBay, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
 			selectedMax = 1,
@@ -58,7 +58,7 @@ function slot0.register(slot0)
 	slot0:CheckTaskNotify(slot1:GetTaskProxy())
 end
 
-function slot0.initNotificationHandleDic(slot0)
+slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[PlayerProxy.UPDATED] = function (slot0, slot1)
 			slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
@@ -73,7 +73,7 @@ function slot0.initNotificationHandleDic(slot0)
 	}
 end
 
-function slot0.CheckTaskNotify(slot0, slot1)
+slot0.CheckTaskNotify = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot1:getTasks()) do
 		if slot7:getState() == WorldTask.STATE_ONGOING and slot7.config.complete_condition == WorldConst.TaskTypeArrivePort then
 			slot8 = WBank:Fetch(WorldMapOp)

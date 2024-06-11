@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "自爆船冲撞自杀buff_大世界月度Boss特供版",
 	time = 1,
+	name = "自爆船冲撞自杀buff_大世界月度Boss特供版",
+	init_effect = "",
 	picture = "",
 	desc = "自爆船冲撞自杀buff",
 	stack = 1,

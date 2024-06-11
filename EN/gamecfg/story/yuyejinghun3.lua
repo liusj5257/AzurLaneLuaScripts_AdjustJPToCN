@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -11,10 +11,10 @@ return {
 			side = 2,
 			actorName = "Z2",
 			factiontag = "Impromptu Replacement GM",
+			bgm = "theme-highseasfleet-reborn",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As you may have already realized, which rooms you search are also decided by dice rolls.",
-			bgm = "theme-highseasfleet-reborn",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

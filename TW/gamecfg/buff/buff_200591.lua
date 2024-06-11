@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 信仰之河 B面",
 	time = 0,
+	name = "2023云仙活动 信仰之河 B面",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -25,9 +25,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				time = 20,
-				skill_id = 200591,
-				target = "TargetSelf"
+				skill_id = 200591
 			}
 		}
 	}

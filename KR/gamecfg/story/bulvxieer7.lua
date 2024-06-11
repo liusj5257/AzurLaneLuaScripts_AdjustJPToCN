@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"애정 공세!\n\n<size=45>7. 새로운 하루, 새로운 데이트</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-1",
 			bgName = "bg_story_task_2",
 			say = "모항·지휘실",
-			bgm = "story-richang-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			optionFlag = 3,
 			say = "아냐…… 농담이었어.",
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "기념 선물이라…… 뭘 기념한다는 거야?",
 			typewriter = {
@@ -227,14 +227,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "음………… 어디 보자. 맞다, 지휘관과의 결혼 100일 기념!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "음………… 어디 보자. 맞다, 지휘관과의 결혼 100일 기념!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "그래, 업무 시작하자.",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "그랬군…… 블뤼허의 속마음에서 주판 소리가 들려오는 듯 했다.",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "블뤼허의 뜨거운 공세에 어떻게 대처해야 할지 고민하고 있을 때 이미 금빛 머리카락이 눈앞에 와 있었다——",
 			typewriter = {
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "얼굴에 촉촉한 입술 자국이 남았다.",
 			typewriter = {
@@ -428,14 +428,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "이제 일 해야지, 일~",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "이제 일 해야지, 일~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,8 +465,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "…… 지금 갑자기 일을 시작하자고?",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "…… 갑자기 머리가 좀 어지러웠다. 정신도 잘 집중이 되지 않았다.",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "…… 그렇게 할 수밖에 없을 것 같다.",
 			typewriter = {

@@ -1,10 +1,10 @@
 slot0 = class("GuildMissionBossFormationPage", import(".GuildEventBasePage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildBossFormationPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.descTxt = slot0:findTF("frame/bottom/target/scrollrect/Text"):GetComponent(typeof(Text))
 	slot0.awardList = UIItemList.New(slot0:findTF("frame/bottom/award/list"), slot0:findTF("frame/bottom/award/list/item"))
@@ -28,19 +28,19 @@ function slot0.OnLoaded(slot0)
 	slot0.shipCards = {}
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3)
+slot0.Show = function(slot0, slot1, slot2, slot3)
 	uv0.super.Show(slot0, slot1, slot2, slot3)
 
 	Input.multiTouchEnabled = false
 end
 
-function slot0.Hide(slot0, slot1)
+slot0.Hide = function(slot0, slot1)
 	uv0.super.Hide(slot0, slot1)
 
 	Input.multiTouchEnabled = true
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.nextBtn, function ()
 		uv0:UpdateFleet(GuildBossMission.SUB_FLEET_ID)
 	end, SFX_PANEL)
@@ -80,7 +80,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateMission(slot0, slot1, slot2)
+slot0.UpdateMission = function(slot0, slot1, slot2)
 	slot0.bossMission = slot1
 
 	if slot2 then
@@ -88,17 +88,17 @@ function slot0.UpdateMission(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnBossCommanderFormationChange(slot0)
+slot0.OnBossCommanderFormationChange = function(slot0)
 	slot0.fleet = slot0.contextData.editBossFleet[slot0.fleet.id]
 
 	slot0:UpdateCommanders(slot0.fleet)
 end
 
-function slot0.OnBossCommanderPrefabFormationChange(slot0)
+slot0.OnBossCommanderPrefabFormationChange = function(slot0)
 	slot0:UpdateCommanders(slot0.fleet)
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 	slot0.isOpenCommander = slot0:CheckCommanderPanel()
 	slot0.guild = slot0.guild
 
@@ -126,7 +126,7 @@ function slot0.OnShow(slot0)
 	slot0:UpdateSubToggle()
 end
 
-function slot0.GetFleet(slot0, slot1)
+slot0.GetFleet = function(slot0, slot1)
 	slot2 = nil
 
 	if slot0.contextData.editBossFleet then
@@ -136,7 +136,7 @@ function slot0.GetFleet(slot0, slot1)
 	return slot2 or slot0.bossMission:GetFleetByIndex(slot1)
 end
 
-function slot0.UpdateSubToggle(slot0)
+slot0.UpdateSubToggle = function(slot0)
 	slot1 = slot0:GetFleet(GuildBossMission.SUB_FLEET_ID)
 	slot3 = slot0:GetFleet(GuildBossMission.MAIN_FLEET_ID):IsLegal()
 
@@ -144,7 +144,7 @@ function slot0.UpdateSubToggle(slot0)
 	setActive(slot0._autoToggle, AutoBotCommand.autoBotSatisfied() and slot3)
 end
 
-function slot0.OnSwitch(slot0, slot1, slot2, slot3)
+slot0.OnSwitch = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("on")
 	slot5 = slot1:Find("off")
 
@@ -160,11 +160,11 @@ function slot0.OnSwitch(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.CheckCommanderPanel(slot0)
+slot0.CheckCommanderPanel = function(slot0)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommanderCatMediator") and not LOCK_COMMANDER
 end
 
-function slot0.UpdateDesc(slot0)
+slot0.UpdateDesc = function(slot0)
 	slot1 = slot0.bossMission
 	slot0.descTxt.text = i18n("guild_boss_fleet_desc")
 
@@ -187,7 +187,7 @@ function slot0.UpdateDesc(slot0)
 	slot0.titleTxt.text = slot1:GetName()
 end
 
-function slot0.UpdateFleet(slot0, slot1)
+slot0.UpdateFleet = function(slot0, slot1)
 	slot3 = nil
 	slot3 = (not slot0.contextData.editBossFleet or not slot0.contextData.editBossFleet[slot1] or slot0.contextData.editBossFleet[slot1]) and slot0.bossMission:GetFleetByIndex(slot1)
 	slot0.fleet = slot3
@@ -202,13 +202,13 @@ function slot0.UpdateFleet(slot0, slot1)
 	slot0:UpdateSubToggle()
 end
 
-function slot0.UpdateCommanders(slot0, slot1)
+slot0.UpdateCommanders = function(slot0, slot1)
 	if slot0.isOpenCommander then
 		slot0.commanderPage:ExecuteAction("Update", slot1, getProxy(CommanderProxy):getPrefabFleet())
 	end
 end
 
-function slot0.UpdateShips(slot0, slot1)
+slot0.UpdateShips = function(slot0, slot1)
 	slot0:ClearShips()
 
 	slot3 = {}
@@ -239,7 +239,7 @@ function slot0.UpdateShips(slot0, slot1)
 	setActive(slot0.subGrids, not slot6)
 end
 
-function slot0.UpdateMainFleetShips(slot0, slot1, slot2)
+slot0.UpdateMainFleetShips = function(slot0, slot1, slot2)
 	for slot6 = 1, 3 do
 		slot0:UpdateShip(slot6, slot0.grids:Find(slot6), TeamType.Main, slot1[slot6])
 	end
@@ -249,13 +249,13 @@ function slot0.UpdateMainFleetShips(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateSubFleetShips(slot0, slot1)
+slot0.UpdateSubFleetShips = function(slot0, slot1)
 	for slot5 = 1, 3 do
 		slot0:UpdateShip(slot5, slot0.subGrids:Find(slot5), TeamType.Submarine, slot1[slot5])
 	end
 end
 
-function slot0.UpdateShip(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateShip = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot2:Find("Image")
 
 	if slot4 then
@@ -312,7 +312,7 @@ function slot0.UpdateShip(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot5, not slot4)
 end
 
-function slot0.GetNearestCard(slot0, slot1)
+slot0.GetNearestCard = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.shipCards) do
 		if slot6:GetSoltIndex() ~= slot1:GetSoltIndex() and slot6.teamType == slot1.teamType and Vector2.Distance(slot1:GetLocalPosition(), slot6:GetLocalPosition()) <= 50 then
 			return slot6
@@ -322,12 +322,12 @@ function slot0.GetNearestCard(slot0, slot1)
 	return nil
 end
 
-function slot0.SwopCardSolt(slot0, slot1, slot2)
+slot0.SwopCardSolt = function(slot0, slot1, slot2)
 	slot1:RefreshPosition(slot2:GetSoltIndex(), true)
 	slot2:RefreshPosition(slot1:GetSoltIndex(), false)
 end
 
-function slot0.RefreshFleet(slot0)
+slot0.RefreshFleet = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.shipCards) do
@@ -353,7 +353,7 @@ function slot0.RefreshFleet(slot0)
 	slot0.fleet:ResortShips(slot1)
 end
 
-function slot0.ClearShips(slot0)
+slot0.ClearShips = function(slot0)
 	for slot4, slot5 in ipairs(slot0.shipCards) do
 		slot5:Dispose()
 	end
@@ -361,13 +361,13 @@ function slot0.ClearShips(slot0)
 	slot0.shipCards = {}
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 	slot0:ClearShips()
 	slot0.commanderPage:Destroy()
 end
 
-function slot0.Scr2Lpos(slot0, slot1)
+slot0.Scr2Lpos = function(slot0, slot1)
 	return LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, GameObject.Find("OverlayCamera"):GetComponent("Camera"))
 end
 

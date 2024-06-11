@@ -1,7 +1,7 @@
 slot0 = class("WorldPlaceGroup")
 slot1 = pg.world_collection_place_group
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot1.id
 	slot0.config = uv0[slot0.configId]
@@ -18,38 +18,38 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.isUnlockAll(slot0)
+slot0.isUnlockAll = function(slot0)
 	return _.all(_.values(slot0.pacles), function (slot0)
 		return slot0:isUnlock()
 	end)
 end
 
-function slot0.existPlace(slot0, slot1)
+slot0.existPlace = function(slot0, slot1)
 	return _.any(_.values(slot0.pacles), function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.getPlace(slot0, slot1)
+slot0.getPlace = function(slot0, slot1)
 	assert(slot0.pacles[slot1])
 
 	return slot0.pacles[slot1]
 end
 
-function slot0.unlockPlace(slot0, slot1)
+slot0.unlockPlace = function(slot0, slot1)
 	assert(slot0.pacles[slot1])
 	slot0.pacles[slot1]:setUnlock(true)
 end
 
-function slot0.getPlaces(slot0)
+slot0.getPlaces = function(slot0)
 	return slot0.pacles
 end
 
-function slot0.getTitle(slot0)
+slot0.getTitle = function(slot0)
 	return slot0.config.title
 end
 
-function slot0.getProgress(slot0)
+slot0.getProgress = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.pacles) do
@@ -61,7 +61,7 @@ function slot0.getProgress(slot0)
 	return slot1
 end
 
-function slot0.getTotalProgress(slot0)
+slot0.getTotalProgress = function(slot0)
 	return table.getCount(slot0.pacles)
 end
 

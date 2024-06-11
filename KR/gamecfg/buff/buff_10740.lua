@@ -62,12 +62,12 @@ return {
 	desc_get = "炮击有4%概率发动，8秒内自身机动提升20.0%(满级50.0%)",
 	name = "历战之躯",
 	init_effect = "",
+	id = 10740,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "炮击有4%概率发动，8秒内自身机动提升$1",
 	stack = 1,
-	id = 10740,
+	color = "blue",
 	icon = 10740,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 400,
-				target = "TargetSelf",
 				skill_id = 10740,
+				target = "TargetSelf",
 				time = 5
 			}
 		}

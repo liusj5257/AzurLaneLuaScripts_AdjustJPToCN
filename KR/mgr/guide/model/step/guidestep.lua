@@ -11,7 +11,7 @@ slot0.DIALOGUE_WHITE = 2
 slot0.HIGH_TYPE_LINE = 1
 slot0.HIGH_TYPE_GAMEOBJECT = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.delay = slot1.delay
 	slot0.waitScene = slot1.waitScene
 	slot0.code = slot1.code
@@ -25,11 +25,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.isWorld = defaultValue(slot1.isWorld, true)
 end
 
-function slot0.UpdateIsWorld(slot0, slot1)
+slot0.UpdateIsWorld = function(slot0, slot1)
 	slot0.isWorld = slot1
 end
 
-function slot0.IsMatchWithCode(slot0, slot1)
+slot0.IsMatchWithCode = function(slot0, slot1)
 	if not slot0:GetMatchCode() then
 		return true
 	end
@@ -45,35 +45,35 @@ function slot0.IsMatchWithCode(slot0, slot1)
 	return false
 end
 
-function slot0.GetMatchCode(slot0)
+slot0.GetMatchCode = function(slot0)
 	return slot0.code
 end
 
-function slot0.GetDelay(slot0)
+slot0.GetDelay = function(slot0)
 	return slot0.delay or 0
 end
 
-function slot0.GetAlpha(slot0)
+slot0.GetAlpha = function(slot0)
 	return slot0.alpha or 0.4
 end
 
-function slot0.ShouldWaitScene(slot0)
+slot0.ShouldWaitScene = function(slot0)
 	return slot0.waitScene and slot0.waitScene ~= ""
 end
 
-function slot0.GetWaitScene(slot0)
+slot0.GetWaitScene = function(slot0)
 	return slot0.waitScene
 end
 
-function slot0.ShouldShowDialogue(slot0)
+slot0.ShouldShowDialogue = function(slot0)
 	return slot0.styleData ~= nil
 end
 
-function slot0.GetDialogueType(slot0)
+slot0.GetDialogueType = function(slot0)
 	return slot0.styleData.mode
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	slot2 = "char"
 
 	if slot1.char and slot1.char == 1 then
@@ -85,7 +85,7 @@ function slot1(slot0, slot1)
 	return slot2
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	if slot1.charPos then
 		return Vector2(slot1.charPos[1], slot1.charPos[2])
 	elseif slot1.dir == 1 then
@@ -95,14 +95,14 @@ function slot2(slot0, slot1)
 	end
 end
 
-function slot3(slot0)
+slot3 = function(slot0)
 	slot1 = nil
 	slot1 = (not slot0.charScale or Vector2(slot0.charScale[1], slot0.charScale[2])) and Vector2(1, 1)
 
 	return slot0.dir == 1 and slot1 or Vector3(-slot1.x, slot1.y, 1)
 end
 
-function slot0.GenStyleData(slot0, slot1)
+slot0.GenStyleData = function(slot0, slot1)
 	if not slot1 then
 		return nil
 	end
@@ -122,12 +122,12 @@ function slot0.GenStyleData(slot0, slot1)
 	}
 end
 
-function slot0.GetStyleData(slot0)
+slot0.GetStyleData = function(slot0)
 	return slot0.styleData
 end
 
-function slot0.GenHighLightData(slot0, slot1)
-	function slot2(slot0)
+slot0.GenHighLightData = function(slot0, slot1)
+	slot2 = function(slot0)
 		slot1 = uv0:GenSearchData(slot0)
 		slot1.type = slot0.lineMode or uv1.HIGH_TYPE_GAMEOBJECT
 
@@ -151,48 +151,54 @@ function slot0.GenHighLightData(slot0, slot1)
 	return slot3
 end
 
-function slot0.ShouldHighLightTarget(slot0)
+slot0.ShouldHighLightTarget = function(slot0)
 	return #slot0.highLightData > 0
 end
 
-function slot0.GetHighLightTarget(slot0)
+slot0.GetHighLightTarget = function(slot0)
 	return slot0.highLightData
 end
 
-function slot0.ExistTrigger(slot0)
+slot0.ExistTrigger = function(slot0)
 	return slot0:GetType() == uv0.TYPE_FINDUI or slot1 == uv0.TYPE_STORY
 end
 
-function slot0.ShouldGoScene(slot0)
+slot0.ShouldGoScene = function(slot0)
 	return slot0.sceneName and slot0.sceneName ~= ""
 end
 
-function slot0.GetSceneName(slot0)
+slot0.GetSceneName = function(slot0)
 	return slot0.sceneName
 end
 
-function slot0.ShouldTriggerOtherTarget(slot0)
+slot0.ShouldTriggerOtherTarget = function(slot0)
 	return slot0.otherTriggerTarget ~= nil
 end
 
-function slot0.GetOtherTriggerTarget(slot0)
+slot0.GetOtherTriggerTarget = function(slot0)
 	return slot0:GenSearchData(slot0.otherTriggerTarget)
 end
 
-function slot0.GenSearchData(slot0, slot1)
+slot0.GenSearchData = function(slot0, slot1)
 	if not slot1 then
 		return nil
 	end
 
+	slot2 = slot1.path
+
+	if slot1.dynamicPath then
+		slot2 = slot1.dynamicPath()
+	end
+
 	return {
-		path = slot1.path,
+		path = slot2,
 		delay = slot1.delay,
 		pathIndex = slot1.pathIndex,
 		conditionData = slot1.conditionData
 	}
 end
 
-function slot0.GenSpriteSearchData(slot0, slot1)
+slot0.GenSpriteSearchData = function(slot0, slot1)
 	if not slot1 then
 		return nil
 	end
@@ -204,23 +210,23 @@ function slot0.GenSpriteSearchData(slot0, slot1)
 	return slot2
 end
 
-function slot0.ShouldCheckBaseUI(slot0)
+slot0.ShouldCheckBaseUI = function(slot0)
 	return slot0.baseUI ~= nil
 end
 
-function slot0.GetBaseUI(slot0)
+slot0.GetBaseUI = function(slot0)
 	return slot0.baseUI
 end
 
-function slot0.ShouldCheckSpriteUI(slot0)
+slot0.ShouldCheckSpriteUI = function(slot0)
 	return slot0.spriteUI ~= nil
 end
 
-function slot0.GetSpriteUI(slot0)
+slot0.GetSpriteUI = function(slot0)
 	return slot0.spriteUI
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	assert(false, "overwrite me!!!")
 end
 

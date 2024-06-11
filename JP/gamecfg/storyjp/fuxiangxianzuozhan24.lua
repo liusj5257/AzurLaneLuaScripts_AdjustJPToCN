@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN24",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "おっ、来たわね",
 			bgm = "xinnong-2",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "おっ、来たわね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,9 +42,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			say = "鉄血の、重桜の、サディアの、そしてセイレーンの艦載機が、空をも埋め尽くす数の大編隊で現れた――",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			say = "飛行機が目標座標上空に到達したその瞬間――一機、また一機と制御を失い、爆発…もしくは海に突っ込んでいった。",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "ではこちらも、フリードリヒの言う通り「詰め」を…",
 			effects = {
 				{
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "U-37、聞こえているかしら？",
 			dialogShake = {
 				speed = 0.09,
@@ -196,8 +196,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "聞こえているよオイゲン。どうすればいい？",
 			effects = {
@@ -219,8 +219,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "目の前にある装置を全部魚雷なり爆弾なり使って破壊しなさい",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "え、ええ！？破壊するの？？この秘密基地そのものを…！？",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "ええ、そうよ。簡単にセイレーンに制御を奪われる施設が安心して使えるとでも？",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "了解！",
 			typewriter = {
@@ -345,9 +345,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "次の一手はどう出る？セイレーン",
 			typewriter = {

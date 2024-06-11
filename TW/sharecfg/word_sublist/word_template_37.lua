@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_37 = {}
 slot1 = slot0.word_template_37
 
-function temp()
+temp = function()
 	uv0["法"] = {
 		["轮"] = {
 			this = true,
@@ -146,7 +146,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["打"] = {
 		["倒"] = {
 			["共"] = {
@@ -185,7 +185,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["台"] = {
 		["独"] = {
 			this = true,
@@ -317,7 +317,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["圣"] = {
 		["战"] = {
 			this = true

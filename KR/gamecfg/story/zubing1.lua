@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"전진하라! 아시가라!\n\n<size=45>싸워라! 아시가라!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날 - 연습전 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "어느 날 - 연습전 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "오늘은 사쿠라 엠파이어 중순양함의 합동 연습전 날이다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#92fc63",
 			say = "\"노려라 모항~! 오늘도 고군분투, 우리 사쿠라 엠파이어 수뢰전대!\" 뉴스 제목은 이렇게 쓰면 되겠네♪",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -146,15 +146,15 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "……뭐?……뭐?……뭐?……뭐?…흠……뭐?……뭐?……뭐?……뭐?…흠하!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,9 +184,9 @@ return {
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 303090,
 			say = "！！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "이얍!",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.2,
 					dur = 1,
 					x = 3750
@@ -320,14 +320,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu1",
 			actor = 303090,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "후우……이걸로 끝인가요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -371,8 +371,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "지, 진짜로요?! 저, 정말 다행…이네요.",
 			typewriter = {
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -398,8 +398,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "다음엔 더 열심히 하겠습니다!",
 			typewriter = {

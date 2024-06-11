@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_35 = {}
 slot1 = slot0.word_template_35
 
-function temp()
+temp = function()
 	uv0["訳"] = {
 		["あ"] = {
 			["り"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["友"] = {
 		["達"] = {
 			["紹"] = {
@@ -56,7 +56,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["誘"] = {
 		["拐"] = {
 			this = true
@@ -80,7 +80,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遊"] = {
 		["進"] = {
 			this = true
@@ -112,7 +112,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["裸"] = {
 		this = {
 			this = true
@@ -253,7 +253,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["乱"] = {
 		["交"] = {
 			this = true,
@@ -341,7 +341,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["李"] = {
 		["洪"] = {
 			["志"] = {

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA19",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA19",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-fff-inst",
 			dir = 1,
 			say = "どうしてこんなことに…！",
+			bgm = "holo-fff-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "湊あくあ？",
 			dir = 1,
+			actorName = "湊あくあ？",
 			say = "残念だけど、アズールレーンのZ23、ここで死んでもらうわ。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			say = "ちょっと待ってあくあちゃん、そこまでしなくていいんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			say = "それにうしろにいるセイレーン…確かフブキちゃんから聞いた気がする。この世界の敵だって。",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "湊あくあ？",
 			dir = 1,
+			actorName = "湊あくあ？",
 			say = "慌てないで、そら先輩。この敵を始末してから説明するから",
 			typewriter = {
 				speed = 0.05,

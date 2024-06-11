@@ -4,11 +4,11 @@ slot0.Battle.BattleBuffOverHealingShield = class("BattleBuffOverHealingShield", 
 slot0.Battle.BattleBuffOverHealingShield.__name = "BattleBuffOverHealingShield"
 slot1 = slot0.Battle.BattleBuffOverHealingShield
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list
 	slot0._shieldDuration = slot0._tempData.arg_list.shield_duration
 	slot0._shieldRate = slot0._tempData.arg_list.shield_rate
@@ -16,7 +16,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._shieldList = {}
 end
 
-function slot1.onOverHealing(slot0, slot1, slot2, slot3)
+slot1.onOverHealing = function(slot0, slot1, slot2, slot3)
 	if math.ceil(slot3.overHealing * slot0._shieldRate) > 0 then
 		table.insert(slot0._shieldList, {
 			timeStamp = pg.TimeMgr.GetInstance():GetCombatTime(),
@@ -27,7 +27,7 @@ function slot1.onOverHealing(slot0, slot1, slot2, slot3)
 	slot0:updateLabelTag(slot1)
 end
 
-function slot1.onUpdate(slot0, slot1, slot2)
+slot1.onUpdate = function(slot0, slot1, slot2)
 	slot3 = #slot0._shieldList
 	slot5 = pg.TimeMgr.GetInstance():GetCombatTime() - slot0._shieldDuration
 
@@ -42,7 +42,7 @@ function slot1.onUpdate(slot0, slot1, slot2)
 	slot0:updateLabelTag(slot1)
 end
 
-function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
+slot1.onTakeDamage = function(slot0, slot1, slot2, slot3)
 	slot4 = #slot0._shieldList
 
 	if slot0:damageCheck(slot3) and slot4 > 0 then
@@ -73,7 +73,7 @@ function slot1.onTakeDamage(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.updateLabelTag(slot0, slot1)
+slot1.updateLabelTag = function(slot0, slot1)
 	if #slot0._shieldList <= 0 then
 		for slot5, slot6 in ipairs(slot0._shieldLabel) do
 			slot1:RemoveLabelTag(slot6)

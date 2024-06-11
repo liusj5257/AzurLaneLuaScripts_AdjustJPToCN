@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uncharted Summer\n\n<size=45>Tea by the Sea</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "Beneath a clear blue sky, a lively tea party is taking place.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Beneath a clear blue sky, a lively tea party is taking place.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg3",
 			mode = 1,
+			bgName = "bg_summerisland_cg3",
 			sequence = {
 				{
 					"",
@@ -56,17 +56,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "New Jersey",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "New Jersey",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yat Sen",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yat Sen",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Belfast",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Nagato",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Belfast",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Belfast",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "\"Thanks, Belfast.\"",
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Exactly! However, we must pick up the pace, lest the Sakura Empire steal the show with their hot spring.",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Queen Elizabeth",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You say that like I haven't already, servant!",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yat Sen",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Nagato",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "New Jersey",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "New Jersey",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "New Jersey",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Nagato",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "New Jersey",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "This island resort project is materializing rapidly thanks to everyone's hard work.",
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "Aside from the fact I haven't seen Royal Fortune for a while, everything is going swimmingly.",
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "But, I feel as though I've forgotten something amidst all this hustle and bustle...",
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "The question is, what?",
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Vittorio Veneto",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "New Jersey",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "New Jersey",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "New Jersey drags me out of my seat, and that's when I remember it.",
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "The reason we came here to begin with was to look for treasure.",

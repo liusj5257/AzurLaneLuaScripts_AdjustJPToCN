@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIYIXIAN",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIYIXIAN",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"荣耀殿堂\n\n<size=45>一剪梅</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_102",
-			say = "会议结束后，在返回途中遇见了一个熟悉的身影。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			nameColor = "#a9f548",
+			say = "会议结束后，在返回途中遇见了一个熟悉的身影。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "微风中，逸仙正悠然站在路旁，欣赏着一朵朵正在盛开的梅花。",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "花枝随风微摇，纵使尚未接近树旁，却已经能感受到一丝丝逸散而来的清香了。",
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "而此刻，沉迷赏花的她似乎还未注意到正从旁接近的我。",
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "指挥官，午安。",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			optionFlag = 2,
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "……指挥官？午安。",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "（确实已经到这个季节了啊，居然完全没有注意到……）",
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "（最近是否有点忙碌过度了呢。）",
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "指挥官，工作已经结束了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "船么……",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "一时间不知道该如何回答……",
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "不知是否是错觉，逸仙的目光有些躲闪，脸颊上也有些微微泛起的红晕。",
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "一股寒风吹来，刮乱了逸仙秀丽的长发。",
@@ -492,8 +492,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "逸仙稍稍握紧手中的伞，整理了一下散乱的长发。",
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "站立在被风卷起的花海之中的她，显得格外楚楚动人。",
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "要不然我跟您一起回去好了，如果之后的工作有我能帮到的地方的话——",
 			typewriter = {
 				speed = 0.05,
@@ -576,8 +576,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "她没有说话，只是默默闭上了双眼。",
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			say = "又是一阵风吹过，紧接着，由几种味道混合的香气在口鼻之中绽放。",

@@ -1,16 +1,16 @@
 return {
-	id = "WORLD300A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD300A",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "NA Ocean - Sector under Eagle Union jurisdiction",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "NA Ocean - Sector under Eagle Union jurisdiction",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Our task is to clear out zone C, which is in the Northwest sector, and then establish two Outposts for the final offensive.",
 			typewriter = {
 				speed = 0.05,
@@ -69,9 +69,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "The Eagle Union is far stronger than it was last time we saw the Sirens. Let's show them how much we've improved!",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "Yep. The whereabouts of Tirpitz's fleet is still unknown, and we don't even know whether they're Pawns or not, which is a big, security-threatening question mark...",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "I don't get it. Why would an Iron Blood fleet waltz into OUR area of operations anyway?",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "Well, investigate as much as we can. Our primary goal is to secure this zone.",
 			typewriter = {
 				speed = 0.05,

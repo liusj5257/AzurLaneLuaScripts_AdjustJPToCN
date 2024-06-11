@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"After the Flowers Bloomed\n\n<size=45>7 A Small Blessing</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_twilight",
-			say = "A few days after the storm passed...",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "A few days after the storm passed...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "As expected, all the cherry blossoms had been ripped from the branches, muddied and strewn across the ground.",
@@ -69,8 +69,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "Commander, will you be staying here today as well?",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "I told Ryuuhou that I'd come back later, and went by myself to the trail where Fusou and I were supposed to go on our date.",
@@ -114,14 +114,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "The cherry grove had been hit just as hard as the trail leading to it. The road was covered with broken branches and twigs.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "An idea came to mind as I looked over the cherry tree branch in my hand, and I rushed back towards the office.",
@@ -209,14 +209,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Days later...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Fusou quietly slipped into the office after knocking.",
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Fusou stared blankly at the branches I had stuck into the vase.",
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "While cleaning, Yoizuki had found some branches with buds that had not yet bloomed.",
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "I figured that if I watered them quickly enough, there was a chance that they might still bloom. My bet had paid off, and fresh cherry blossoms were now gracing the office.",
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Fusou clutched her chest, her eyes fixated on the beautiful cherry blossoms.",
@@ -492,8 +492,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "I reached out and took Fusou's hands, unable to look away from her gentle, moist eyes.",
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Whatever misfortunes awaited us in the future, I still wanted to see Fusou smile, rain or shine.",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

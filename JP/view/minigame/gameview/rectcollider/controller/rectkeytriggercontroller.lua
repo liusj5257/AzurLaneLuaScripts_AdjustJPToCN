@@ -1,6 +1,6 @@
 slot0 = class("RectKeyTriggerController")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._keyInfo = slot1
 
 	if not slot0.handle then
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if Application.isEditor then
 		if Input.GetKeyDown(KeyCode.A) then
 			slot0._keyInfo:setKeyPress(KeyCode.A, true)
@@ -46,7 +46,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.destroy(slot0)
+slot0.destroy = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 

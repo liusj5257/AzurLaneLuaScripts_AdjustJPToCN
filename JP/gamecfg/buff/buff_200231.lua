@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "大洋联邦 导弹巡洋舰防空光环",
 	time = 0,
-	color = "blue",
+	name = "大洋联邦 导弹巡洋舰防空光环",
+	init_effect = "",
+	id = 200231,
 	picture = "",
 	desc = "减少受到的航空伤害",
 	stack = 1,
-	id = 200231,
+	color = "blue",
 	icon = 200231,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.15
+				number = -0.15,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

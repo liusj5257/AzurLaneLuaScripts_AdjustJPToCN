@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行10次攻击，触发专属弹幕-M2II",
 	name = "专属弹幕-M2II",
 	init_effect = "",
+	id = 30022,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行10次攻击，触发专属弹幕-M2II",
 	stack = 1,
-	id = 30022,
+	color = "red",
 	icon = 30020,
 	last_effect = "",
 	effect_list = {
@@ -33,10 +33,10 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				skill_id = 30022,
 				target = "TargetSelf",
 				countType = 30020,
+				maxTargetNumber = 0,
+				skill_id = 30022,
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -53,9 +53,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 30023,
 				target = "TargetSelf",
 				countType = 30020,
+				skill_id = 30023,
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"

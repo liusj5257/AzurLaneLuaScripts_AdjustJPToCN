@@ -1,12 +1,12 @@
 return {
-	id = "W213000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W213000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Initiated reconnaissance over the zone.",
 			typewriter = {
 				speed = 0.05,

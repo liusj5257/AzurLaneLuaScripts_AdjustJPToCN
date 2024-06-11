@@ -10,12 +10,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "story-richang-flexible",
-			actor = 1009,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			bgm = "story-richang-flexible",
+			tbActor = true,
+			actor = 1009,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}、これを飲んでみたいかも…",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "TBは広告でグラスに注がれた金色の液体を指して、キラキラと期待に満ちた眼差しを向けてくる。",
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "だが、この「飲み物」は俗に言うと「オトナ向け」のものだ…",
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "待って、このTBのデータは「オトナ」へアップデートしたいのかな…？",
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "……とにかく、今のTBにはまだ早い。",
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "結局、グラスにジュースを注いで何とかごまかせた。",

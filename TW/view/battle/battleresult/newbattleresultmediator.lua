@@ -8,7 +8,7 @@ slot0.REENTER_STAGE = "NewBattleResultMediator:REENTER_STAGE"
 slot0.CHALLENGE_SHARE = "NewBattleResultMediator:ON_CHALLENGE_SHARE"
 slot0.CHALLENGE_DEFEAT_SCENE = "NewBattleResultMediator:CHALLENGE_DEFEAT_SCENE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.GET_NEW_SHIP, function (slot0, slot1, slot2, slot3)
 		uv0:addSubLayers(Context.New({
 			mediator = NewShipMediator,
@@ -64,7 +64,7 @@ function slot0.register(slot0)
 	slot0:sendNotification(uv0.ON_ENTER_BATTLE_RESULT)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		NewBattleResultMediator.SET_SKIP_FLAG,
@@ -74,7 +74,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then

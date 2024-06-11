@@ -6,14 +6,14 @@ slot0.Battle.CardPuzzleHandPool = class("CardPuzzleHandPool")
 slot3 = slot0.Battle.CardPuzzleHandPool
 slot3.__name = "CardPuzzleHandPool"
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 
 	slot0:init()
 	pg.DelegateInfo.New(slot0)
 end
 
-function slot3.SetCardPuzzleComponent(slot0, slot1)
+slot3.SetCardPuzzleComponent = function(slot0, slot1)
 	slot0._cardPuzzleInfo = slot1
 	slot0._hand = slot0._cardPuzzleInfo:GetHand()
 
@@ -26,7 +26,7 @@ function slot3.SetCardPuzzleComponent(slot0, slot1)
 	slot0:onUpdateCards()
 end
 
-function slot3.onUpdateCards(slot0, slot1)
+slot3.onUpdateCards = function(slot0, slot1)
 	slot2 = slot0._hand:GetCardList()
 
 	for slot6 = 1, slot0._hand.MAX_HAND do
@@ -34,13 +34,13 @@ function slot3.onUpdateCards(slot0, slot1)
 	end
 end
 
-function slot3.onUpdateFleetAttr(slot0, slot1)
+slot3.onUpdateFleetAttr = function(slot0, slot1)
 	for slot5 = 1, slot0._hand.MAX_HAND do
 		slot0._cardList[slot5]:UpdateTotalCost()
 	end
 end
 
-function slot3.init(slot0)
+slot3.init = function(slot0)
 	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0._cardList = {}
@@ -48,16 +48,16 @@ function slot3.init(slot0)
 	slot0._cardTpl = slot0._go.transform:Find("card_tpl")
 end
 
-function slot3.updateHandCard(slot0)
+slot3.updateHandCard = function(slot0)
 	for slot4, slot5 in ipairs(slot0._cardList) do
 		slot5:updateCardView()
 	end
 end
 
-function slot3.sort(slot0)
+slot3.sort = function(slot0)
 end
 
-function slot3.instCardView(slot0)
+slot3.instCardView = function(slot0)
 	slot2 = uv0.Battle.CardPuzzleHandCardButton.New(go(cloneTplTo(slot0._cardTpl, slot0._cardContainer)))
 
 	table.insert(slot0._cardList, slot2)
@@ -68,7 +68,7 @@ function slot3.instCardView(slot0)
 	return slot2
 end
 
-function slot3.test(slot0, slot1)
+slot3.test = function(slot0, slot1)
 	slot0._testContainer = slot1
 
 	LoadAndInstantiateAsync("UI", "CardTowerCardCombat", function (slot0)
@@ -103,7 +103,7 @@ function slot3.test(slot0, slot1)
 	end, true, true)
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._cardTpl = nil
 	slot0._cardContainer = nil
 	slot0._cardList = nil

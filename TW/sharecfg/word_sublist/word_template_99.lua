@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_99 = {}
 slot1 = slot0.word_template_99
 
-function temp()
+temp = function()
 	uv0["日"] = {
 		["本"] = {
 			A = {
@@ -169,7 +169,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["就"] = {
 		["去"] = {
 			["诱"] = {
@@ -202,7 +202,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["浴"] = {
 		["室"] = {
 			["自"] = {
@@ -251,7 +251,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.B = {
 		l = {
 			o = {

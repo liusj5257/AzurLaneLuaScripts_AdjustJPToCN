@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "单纵阵突入",
 	time = 0,
-	color = "yellow",
+	name = "单纵阵突入",
+	init_effect = "",
+	id = 101,
 	picture = "",
 	desc = "炮击和雷击提高15%，机动降低10%",
 	stack = 1,
-	id = 101,
+	color = "yellow",
 	icon = 101,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 1500
+				number = 1500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 1500
+				number = 1500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = -1000
+				number = -1000,
+				attr = "dodgeRate"
 			}
 		}
 	}

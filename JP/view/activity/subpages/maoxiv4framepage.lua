@@ -1,7 +1,7 @@
 slot0 = class("MaoxiV4FramePage", import(".TemplatePage.NewFrameTemplatePage"))
 slot0.COLOR = "#1895ff"
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.switchBtns = {
@@ -10,13 +10,13 @@ function slot0.OnInit(slot0)
 	}
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	setActive(slot0.switchBtns[1], false)
 	setActive(slot0.switchBtns[2], true)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if slot0.avatarConfig.target < slot0.activity.data1 then
 		slot1 = slot2 or slot1
 	end
@@ -36,7 +36,7 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.target, not slot5 and slot0.inPhase2)
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 
 	setToggleEnabled(slot0.switchBtn, false)

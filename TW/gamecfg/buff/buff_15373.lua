@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15373,
 	time = 3,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15373,
+	color = "red",
 	icon = 15373,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 15371,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 15371,
 				index = {
 					1
 				},
@@ -44,9 +44,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 15370,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 15370,
 				index = {
 					1
 				},

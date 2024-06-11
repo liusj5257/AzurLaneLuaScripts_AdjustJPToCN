@@ -1,18 +1,18 @@
 slot0 = class("GuildEventReportLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildEventReportUI"
 end
 
-function slot0.SetReports(slot0, slot1)
+slot0.SetReports = function(slot0, slot1)
 	slot0.reports = slot1
 end
 
-function slot0.OnGetReportRankList(slot0, slot1)
+slot0.OnGetReportRankList = function(slot0, slot1)
 	slot0.rankPage:ExecuteAction("Show", slot1)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.scrollrect = slot0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
 	slot0.getAll = slot0:findTF("frame/get_all")
 	slot0.gotAll = slot0:findTF("frame/get_all/gray")
@@ -29,7 +29,7 @@ function slot0.init(slot0)
 	slot0.rankPage = GuildBossRankPage.New(slot0._tf, slot0.event)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr:GetInstance():BlurPanel(slot0._tf)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
@@ -53,11 +53,11 @@ function slot0.didEnter(slot0)
 		uv0:emit(GuildEventReportMediator.ON_SUBMIT_REPORTS, slot0)
 	end, SFX_PANEL)
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -65,7 +65,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateGetAllBtn()
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.GET_GUILD_REPORT, {
 		callback = function (slot0)
 			uv0:SetReports(slot0)
@@ -74,7 +74,7 @@ function slot0.preload(slot0, slot1)
 	})
 end
 
-function slot0.UpdateReports(slot0, slot1)
+slot0.UpdateReports = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		for slot10, slot11 in pairs(slot0.cards) do
 			if slot11.report.id == slot6 then
@@ -86,20 +86,20 @@ function slot0.UpdateReports(slot0, slot1)
 	slot0:UpdateGetAllBtn()
 end
 
-function slot0.UpdateGetAllBtn(slot0)
+slot0.UpdateGetAllBtn = function(slot0)
 	setActive(slot0.gotAll, #slot0.displays == 0 or _.all(slot0.displays, function (slot0)
 		return not slot0:CanSubmit()
 	end))
 end
 
-function slot0.SetTotalCount(slot0)
+slot0.SetTotalCount = function(slot0)
 	slot0.displays = {}
 
 	for slot4, slot5 in pairs(slot0.reports) do
 		table.insert(slot0.displays, slot5)
 	end
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		if slot0.state == 0 then
 			return 1
 		elseif slot0.state == 1 then
@@ -117,7 +117,7 @@ function slot0.SetTotalCount(slot0)
 	slot0.cntTxt.text = #slot0.displays .. "/" .. GuildConst.MAX_REPORT_CNT()
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = GuildReportCard.New(slot1, slot0)
 
 	if not slot0.cards then
@@ -139,7 +139,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -149,11 +149,11 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot0.displays[slot1 + 1])
 end
 
-function slot0.ShowReportRank(slot0, slot1)
+slot0.ShowReportRank = function(slot0, slot1)
 	slot0:emit(GuildEventReportMediator.GET_REPORT_RANK, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.cards then

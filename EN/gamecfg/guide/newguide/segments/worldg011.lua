@@ -18,13 +18,13 @@ return {
 			style = {
 				text = "Please keep an eye on your Action Points (AP).",
 				mode = 2,
-				posY = 186.01,
 				dir = -1,
+				posY = 186.01,
 				posX = -365.53
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/top_stage/stamina",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/top_stage/stamina",
 				triggerType = {
 					5
 				},

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIXILI",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIXILI",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"特别小故事\n\n<size=45>夏夜祭典的美味回忆</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301140,
-			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指挥官，我要吃那边的肉串！",
 			bgm = "story-1",
+			actor = 301140,
+			nameColor = "#a9f548",
+			say = "指挥官，我要吃那边的肉串！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "哦哦哦！炒面看起来也好好吃！！",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,9 +120,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "…陪着{namecode:16}参加重樱主办的夏日祭典，不过{namecode:16}完全深陷在各种祭典的美味之中…",
 			typewriter = {
 				speed = 0.05,
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "看着{namecode:16}兴奋的模样，感觉自己也莫名情绪高涨了起来",
 			typewriter = {
 				speed = 0.05,
@@ -250,13 +250,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_114",
+			side = 2,
+			dir = 1,
 			say = "…最后还是给{namecode:16}追加了肉串",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "有这么多其他阵营的人来参加重樱的祭典，感觉好不可思议啊",
 			typewriter = {
 				speed = 0.05,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "忍不住摸了摸{namecode:16}的头——",
 			typewriter = {
 				speed = 0.05,
@@ -423,11 +423,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "呣…都说过不要把我当小孩子——唔…嘿、嘿嘿…",
 			typewriter = {
 				speed = 0.05,
@@ -439,8 +439,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -481,13 +481,13 @@ return {
 			}
 		},
 		{
-			actor = 301140,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_114",
 			dir = 1,
-			withoutActorName = true,
-			nameColor = "#a9f548",
 			actorScale = 1.6,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "{namecode:16}一边说着一边凑上来舔了下脸颊",
 			actorPosition = {
 				x = 0,
@@ -503,9 +503,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "！？",
 			dialogShake = {
 				speed = 0.09,
@@ -538,9 +538,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "似乎没有意识到自己做了件十分大胆的事情…不过这也算是符合她的风格吧……",
 			typewriter = {
 				speed = 0.05,
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "啊！指挥官，好像烟花大会快要开始了！！我们快过去看看！！",
 			typewriter = {
 				speed = 0.05,
@@ -568,8 +568,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -578,13 +578,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_114",
+			side = 2,
+			dir = 1,
 			say = "和{namecode:16}来到了相对开阔的地方，烟花已经开始放了",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -609,11 +609,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/firework",
+			say = "（砰—砰——）",
 			side = 2,
 			bgName = "star_level_bg_114",
 			dir = 1,
-			say = "（砰—砰——）",
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -656,9 +656,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "即使是烟花，似乎也能想象成吃的东西。",
 			typewriter = {
 				speed = 0.05,
@@ -670,13 +670,13 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有那朵—…呼啊……",
 			soundeffect = "event:/battle/firework",
+			actor = 301140,
+			nameColor = "#a9f548",
+			say = "还有那朵—…呼啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,9 +687,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "{namecode:16}忽然打了一个大大的哈欠，看起来，是精力终于消耗完，开始困了。",
 			typewriter = {
 				speed = 0.05,
@@ -717,9 +717,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "虽然嘴上逞强，不过{namecode:16}已经开始揉起了眼睛",
 			typewriter = {
 				speed = 0.05,
@@ -753,9 +753,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "才刚坐下来没多久，{namecode:16}就将身体整个靠过来在大腿上打起了呼噜",
 			typewriter = {
 				speed = 0.05,
@@ -783,9 +783,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "甚至说起了梦话",
 			typewriter = {
 				speed = 0.05,
@@ -813,9 +813,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "……究竟是在做什么梦呢",
 			typewriter = {
 				speed = 0.05,
@@ -827,11 +827,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/firework",
+			say = "（砰—砰——）",
 			side = 2,
 			bgName = "star_level_bg_114",
 			dir = 1,
-			say = "（砰—砰——）",
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,9 +842,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "五彩的烟花映照着{namecode:16}安睡的侧脸",
 			typewriter = {
 				speed = 0.05,
@@ -872,9 +872,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "{namecode:16}一边说着梦话，一边露出了幸福的笑容",
 			typewriter = {
 				speed = 0.05,

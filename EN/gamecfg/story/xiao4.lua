@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Enter: Akatsuki, The Ninja!\n\n<size=45>Chapter 4 - A Friendly Gathering (Part 2)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Ikazuchi and Inazuma invited Akatsuki and me to come and play a game, Fleet Fighter V, that they had borrowed from Long Island.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Ikazuchi and Inazuma invited Akatsuki and me to come and play a game, Fleet Fighter V, that they had borrowed from Long Island.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "W-what in the?! Oh no!",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "Alright, let's wreck some face!",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			say = "Alright, let's wreck some face!",
 			flashN = {
 				color = {
 					1,
@@ -137,13 +137,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "→↘↓↙←→+BD↓+CC↓↙←→+CD, ↘←↙↓↘→←↓↙+BC, →↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P!",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			say = "→↘↓↙←→+BD↓+CC↓↙←→+CD, ↘←↙↓↘→←↓↙+BC, →↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P!",
 			flashN = {
 				color = {
 					1,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "K.O., flawless victory. Inazuma and Ikazuchi defeated us again.",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "The final score was 10-0 for Ikazuchi.",
 			typewriter = {
 				speed = 0.05,
@@ -254,15 +254,15 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "Phew... I see! Games can be really fun!",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "However, it's not good to get addicted to them. Please tell her about the dangers of getting hooked on gaming, Akatsuki.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "However, it's not good to get addicted to them. Please tell her about the dangers of getting hooked on gaming, Akatsuki.",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "I'm certain she's all right. Sometimes it's best not to worry about things like this. I'm sure the Commander agrees.",
 			typewriter = {
 				speed = 0.05,
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "Is it...? ... I'm feeling somewhat tired, so I think I'll go home now...",
 			typewriter = {
 				speed = 0.05,
@@ -425,10 +425,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 1,
 					x = 1500,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "It seems like Inazuma's attempt to reassure Akatsuki didn't have any effect.",
 			typewriter = {
 				speed = 0.05,

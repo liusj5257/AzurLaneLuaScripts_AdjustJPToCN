@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_122 = {}
 slot1 = slot0.word_template_122
 
-function temp()
+temp = function()
 	uv0["捍"] = {
 		["卫"] = {
 			["粤"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["悍"] = {
 		["妇"] = {
 			["岗"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["撖"] = {
 		this = {
 			this = true
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["漢"] = {
 		["奸"] = {
 			this = true
@@ -49,7 +49,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["夯"] = {
 		this = {
 			this = true
@@ -59,7 +59,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["行"] = {
 		["贿"] = {
 			["黑"] = {
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["杭"] = {
 		["州"] = {
 			["富"] = {

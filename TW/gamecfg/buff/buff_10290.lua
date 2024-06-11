@@ -13,8 +13,8 @@ return {
 				},
 				arg_list = {
 					rant = 4000,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -34,8 +34,8 @@ return {
 				},
 				arg_list = {
 					rant = 4300,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -55,8 +55,8 @@ return {
 				},
 				arg_list = {
 					rant = 4600,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -76,8 +76,8 @@ return {
 				},
 				arg_list = {
 					rant = 4900,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -97,8 +97,8 @@ return {
 				},
 				arg_list = {
 					rant = 5200,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -118,8 +118,8 @@ return {
 				},
 				arg_list = {
 					rant = 5500,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -139,8 +139,8 @@ return {
 				},
 				arg_list = {
 					rant = 5800,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -160,8 +160,8 @@ return {
 				},
 				arg_list = {
 					rant = 6200,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -181,8 +181,8 @@ return {
 				},
 				arg_list = {
 					rant = 6600,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -202,8 +202,8 @@ return {
 				},
 				arg_list = {
 					rant = 7000,
-					target = "TargetSelf",
 					skill_id = 10291,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -212,12 +212,12 @@ return {
 	desc_get = "主炮开火时，有40.0%(满级70.0%)概率朝自己前方发射一轮专属弹幕(威力依据技能等级)，所有主力舰队角色装填提高20.0%(满级40.0%)，持续8秒",
 	name = "皇家舰队的荣耀",
 	init_effect = "",
+	id = 10290,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮开火时，有$1概率朝自己前方发射一轮专属弹幕(威力依据技能等级)，所有主力舰队角色装填提高$2，持续8秒",
 	stack = 1,
-	id = 10290,
+	color = "red",
 	icon = 10290,
 	last_effect = "",
 	effect_list = {
@@ -228,8 +228,8 @@ return {
 			},
 			arg_list = {
 				rant = 4000,
-				target = "TargetSelf",
 				skill_id = 10291,
+				target = "TargetSelf",
 				time = 12
 			}
 		}

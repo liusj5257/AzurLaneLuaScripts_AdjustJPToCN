@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Lunar New Year!\n\n<size=45>Chapter 4 - Peaceful Game</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 501020,
-			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Oh, I landed on Community Chest! \"Bank error in your favor. Collect 200 bucks.\"",
 			bgm = "main-chunjie",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "Oh, I landed on Community Chest! \"Bank error in your favor. Collect 200 bucks.\"",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.15,
 					x = 0,
@@ -65,8 +65,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "Geesh... Your luck is out of this world, Fu Shun...",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "You don't have to work and you can relax... B-but there's much more to the Lunar New Year than just that!",
 			typewriter = {
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "Port - Plaza",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,8 +276,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "Master graciously offered me this elegant dress, however, I'm afraid that wearing it is rather...",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 206042,
 			dir = 1,
+			actor = 206042,
 			nameColor = "#a9f548",
 			say = "Embarrassing, isn't it...",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "If the people of the Dragon Empery celebrate Lunar New Year in these clothes, then we should not be ashamed of wearing them either.",
 			typewriter = {
@@ -340,12 +340,12 @@ return {
 			}
 		},
 		{
-			actor = 202221,
+			say = "I concur.",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I concur.",
+			actor = 202221,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -379,8 +379,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 206042,
 			dir = 1,
+			actor = 206042,
 			nameColor = "#a9f548",
 			say = "Not at all, it is an honour to be of service to you!",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "Hmph, no need to thank me.",
 			typewriter = {
@@ -429,9 +429,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 202121,
 			dir = 1,
 			blackBg = true,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "...What a truly fascinating holiday the Lunar New Year is.",
 			typewriter = {

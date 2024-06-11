@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Spiriting-Away Incident?\n\n<size=45>Before the Play</size>",
@@ -17,40 +17,40 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "This is a small story from before the Youkai Troupe performed their play...",
+			nameColor = "#A9F548FF",
+			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			bgm = "stopbgm",
+			say = "This is a small story from before the Youkai Troupe performed their play...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "battle-xinnong-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Onsen Resort - ???",
-			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "The sleepy Shinano questioned the also sleepy Dream-Eater Baku with a sharp tone she seldom ever employs.",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "This shook the Dream-Eater Baku in a way that made it impossible to nap, even though she wanted to.",
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "So what seemed like an act of greed on Akashi's part was actually for the greater good... I am sure the guests will adore the youkai...",
 			painting = {

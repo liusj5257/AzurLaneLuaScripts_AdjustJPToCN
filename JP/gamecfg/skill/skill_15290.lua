@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "喀琅施塔得弹幕I",
 	cd = 0,
-	painting = 0,
-	id = 15290,
 	picture = "0",
 	desc = "喀琅施塔得弹幕I",
+	painting = 0,
+	id = 15290,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,10 +16,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 15292
 			}

@@ -2,11 +2,11 @@ slot0 = class("SecondaryPasswordLayer", import("..base.BaseUI"))
 slot0.SetView = 1
 slot0.InputView = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SecondaryPasswordUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.window = slot0:findTF("window")
 	slot0.setView = slot0:findTF("sliders/set", slot0.window)
 	slot0.inputView = slot0:findTF("sliders/input", slot0.window)
@@ -64,7 +64,7 @@ function slot0.init(slot0)
 	slot0:InitInteractable()
 end
 
-function slot0.InitInteractable(slot0)
+slot0.InitInteractable = function(slot0)
 	_.each(slot0.btngroup, function (slot0)
 		onButton(uv0, slot0, function ()
 			slot0 = (uv0:GetSiblingIndex() + 1) % 10
@@ -83,7 +83,7 @@ function slot0.InitInteractable(slot0)
 
 				setActive(slot4:Find("space"), false)
 
-				function slot3()
+				slot3 = function()
 					setText(uv0, "")
 					setActive(uv1.digitGroup[uv2]:Find("filled"), true)
 				end
@@ -105,7 +105,7 @@ function slot0.InitInteractable(slot0)
 
 			setActive(slot3:Find("highlight"), true)
 
-			function slot2()
+			slot2 = function()
 				setActive(uv0:Find("highlight"), false)
 			end
 
@@ -137,7 +137,7 @@ function slot0.InitInteractable(slot0)
 
 		setActive(slot2:Find("highlight"), true)
 
-		function slot1()
+		slot1 = function()
 			setActive(uv0.btndelete:Find("highlight"), false)
 		end
 
@@ -243,7 +243,7 @@ end
 
 slot1 = 69
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	if slot0.contextData.parent then
 		setParent(slot0._tf, slot0.contextData.parent)
 	else
@@ -274,7 +274,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateInputSlider()
 end
 
-function slot0.UpdateInputSlider(slot0)
+slot0.UpdateInputSlider = function(slot0)
 	slot0:ClearInputTimers()
 
 	slot1 = slot0.inputMode
@@ -291,7 +291,7 @@ function slot0.UpdateInputSlider(slot0)
 	end
 end
 
-function slot0.ClearInputTimers(slot0)
+slot0.ClearInputTimers = function(slot0)
 	for slot4 = 1, 12 do
 		if slot0.timers["input" .. slot4] then
 			slot0.timers["input" .. slot4]:Stop()
@@ -301,7 +301,7 @@ function slot0.ClearInputTimers(slot0)
 	end
 end
 
-function slot0.ClearAllTimers(slot0)
+slot0.ClearAllTimers = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		if slot5 then
 			slot5:Stop()
@@ -311,14 +311,14 @@ function slot0.ClearAllTimers(slot0)
 	slot0.timers = {}
 end
 
-function slot0.ClearInputs(slot0)
+slot0.ClearInputs = function(slot0)
 	slot0.inputs = ""
 
 	slot0:SetInputPos(0)
 	slot0:UpdateInputSlider()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	if slot0.mode == uv0.InputView then
 		slot0:UpdateInputView()
 	else
@@ -328,7 +328,7 @@ end
 
 slot2 = nil
 
-function slot3(slot0)
+slot3 = function(slot0)
 	slot1 = pg.SecondaryPWDMgr.GetInstance()
 	uv0 = uv0 or {
 		[slot1.UNLOCK_SHIP] = function (slot0)
@@ -369,7 +369,7 @@ function slot3(slot0)
 	return uv0[slot0]
 end
 
-function slot0.UpdateInputView(slot0)
+slot0.UpdateInputView = function(slot0)
 	slot3 = slot0.inputView:Find("line1/tip")
 
 	setText(slot3, getProxy(SecondaryPWDProxy):getRawData().notice)
@@ -377,34 +377,34 @@ function slot0.UpdateInputView(slot0)
 	setText(slot0.inputView:Find("line1/tip1"), uv0(slot0.contextData.type) and slot5(slot0) or "")
 end
 
-function slot0.UpdateConfirmButton(slot0)
+slot0.UpdateConfirmButton = function(slot0)
 	slot0.btnconfirm:GetComponent(typeof(Button)).interactable = #slot0.inputs == #slot0.digitGroup
 
 	setActive(slot0.btnconfirm:Find("gray"), #slot0.inputs ~= #slot0.digitGroup)
 end
 
-function slot0.UpdateSetView(slot0)
+slot0.UpdateSetView = function(slot0)
 	setActive(slot0.tipseterror, not slot0.inputnone)
 end
 
-function slot0.SetInputPos(slot0, slot1)
+slot0.SetInputPos = function(slot0, slot1)
 	slot0.inputPos = slot1
 
 	slot0:SetInputXian(slot1 + 1)
 	slot0:UpdateConfirmButton()
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:willExit()
 	setActive(slot0._tf, false)
 end
 
-function slot0.Resume(slot0)
+slot0.Resume = function(slot0)
 	slot0:didEnter()
 	setActive(slot0._tf, true)
 end
 
-function slot0.SetInputXian(slot0, slot1)
+slot0.SetInputXian = function(slot0, slot1)
 	if slot0.inputMode and slot1 > 0 and slot1 <= #slot0.digitGroup then
 		setParent(slot0.selectFrame, slot0.digitGroup[slot1])
 	else
@@ -412,7 +412,7 @@ function slot0.SetInputXian(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 	slot0:ClearAllTimers()
 end

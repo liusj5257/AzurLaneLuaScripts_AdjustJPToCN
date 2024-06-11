@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template = {}
 slot1 = slot0.word_template
 
-function temp()
+temp = function()
 	uv0["屏"] = {
 		["蔽"] = {
 			["词"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["니"] = {
 		["미"] = {
 			this = true,
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["닝"] = {
 		["기"] = {
 			["미"] = {
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["개"] = {
 		["스"] = {
 			["키"] = {
@@ -115,7 +115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["샙"] = {
 		["새"] = {
 			this = true
@@ -125,7 +125,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["십"] = {
 		["쉐"] = {
 			this = true
@@ -145,7 +145,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["씹"] = {
 		["새"] = {
 			this = true
@@ -161,7 +161,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["썅"] = {
 		this = {
 			this = true
@@ -174,7 +174,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쌍"] = {
 		["년"] = {
 			this = true
@@ -193,7 +193,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["창"] = {
 		["녀"] = {
 			this = true
@@ -203,7 +203,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["씨"] = {
 		["바"] = {
 			this = true
@@ -292,7 +292,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["띠"] = {
 		["발"] = {
 			this = true
@@ -343,7 +343,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["시"] = {
 		["발"] = {
 			this = true
@@ -397,7 +397,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["싯"] = {
 		["팔"] = {
 			this = true
@@ -407,7 +407,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쉬"] = {
 		["발"] = {
 			this = true
@@ -470,7 +470,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쓰"] = {
 		["벌"] = {
 			this = true
@@ -491,7 +491,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쒸"] = {
 		["발"] = {
 			this = true
@@ -551,7 +551,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["스"] = {
 		["펄"] = {
 			this = true
@@ -564,7 +564,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["새"] = {
 		["끼"] = {
 			this = true
@@ -580,7 +580,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쌔"] = {
 		["키"] = {
 			this = true
@@ -593,7 +593,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쎄"] = {
 		["끼"] = {
 			this = true
@@ -603,7 +603,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["세"] = {
 		["끼"] = {
 			this = true
@@ -613,7 +613,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["색"] = {
 		["끼"] = {
 			this = true
@@ -638,7 +638,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["때"] = {
 		["끼"] = {
 			this = true
@@ -648,7 +648,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["지"] = {
 		["랄"] = {
 			this = true,
@@ -667,7 +667,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["찌"] = {
 		["랄"] = {
 			this = true
@@ -677,7 +677,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["미"] = {
 		["친"] = {
 			this = true,
@@ -707,7 +707,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["섹"] = {
 		["스"] = {
 			this = true
@@ -726,7 +726,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쎅"] = {
 		["스"] = {
 			this = true
@@ -745,7 +745,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쌕"] = {
 		["스"] = {
 			this = true
@@ -764,7 +764,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쉑"] = {
 		["스"] = {
 			this = true
@@ -783,7 +783,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쇅"] = {
 		["스"] = {
 			this = true
@@ -802,7 +802,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쒝"] = {
 		["스"] = {
 			this = true
@@ -818,7 +818,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쐑"] = {
 		["스"] = {
 			this = true
@@ -837,7 +837,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["빠"] = {
 		["구"] = {
 			["리"] = {
@@ -852,7 +852,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["좆"] = {
 		["나"] = {
 			this = true
@@ -874,7 +874,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쪼"] = {
 		["까"] = {
 			["튼"] = {
@@ -886,7 +886,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["젓"] = {
 		["같"] = {
 			["은"] = {
@@ -909,7 +909,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["좃"] = {
 		["까"] = {
 			this = true
@@ -925,7 +925,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["조"] = {
 		["까"] = {
 			this = true
@@ -935,7 +935,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["젖"] = {
 		["까"] = {
 			this = true
@@ -948,7 +948,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["저"] = {
 		["까"] = {
 			this = true
@@ -958,7 +958,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["좇"] = {
 		this = {
 			this = true
@@ -968,7 +968,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["자"] = {
 		["지"] = {
 			this = true
@@ -984,7 +984,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["애"] = {
 		["미"] = {
 			this = true,
@@ -1008,7 +1008,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["보"] = {
 		["지"] = {
 			this = true
@@ -1021,7 +1021,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["씺"] = {
 		this = {
 			this = true
@@ -1031,7 +1031,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["씝"] = {
 		this = {
 			this = true
@@ -1041,7 +1041,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["씞"] = {
 		this = {
 			this = true
@@ -1051,7 +1051,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["귀"] = {
 		["두"] = {
 			this = true
@@ -1061,7 +1061,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ㅇ"] = {
 		["ㅐ"] = {
 			["자"] = {
@@ -1104,7 +1104,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["아"] = {
 		["가"] = {
 			["리"] = {
@@ -1127,7 +1127,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["대"] = {
 		["갈"] = {
 			this = true
@@ -1142,7 +1142,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["눈"] = {
 		["깔"] = {
 			this = true
@@ -1152,7 +1152,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["짜"] = {
 		["져"] = {
 			this = true
@@ -1162,7 +1162,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["닥"] = {
 		["쳐"] = {
 			this = true
@@ -1175,7 +1175,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["닭"] = {
 		["쳐"] = {
 			this = true
@@ -1188,7 +1188,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["족"] = {
 		["밥"] = {
 			this = true
@@ -1198,7 +1198,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["구"] = {
 		["려"] = {
 			this = true
@@ -1211,7 +1211,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["뒤"] = {
 		["져"] = {
 			this = true
@@ -1221,7 +1221,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쳐"] = {
 		["먹"] = {
 			this = true,
@@ -1234,7 +1234,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["까"] = {
 		["발"] = {
 			["리"] = {
@@ -1255,7 +1255,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["죽"] = {
 		["어"] = {
 			this = true
@@ -1265,7 +1265,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["허"] = {
 		["접"] = {
 			this = true
@@ -1275,7 +1275,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["뽀"] = {
 		["작"] = {
 			this = true
@@ -1285,7 +1285,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.g = {
 		m = {
 			this = true
@@ -1314,7 +1314,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.G = {
 		M = {
 			this = true
@@ -1362,7 +1362,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["음"] = {
 		["탕"] = {
 			this = true
@@ -1375,7 +1375,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["월"] = {
 		["경"] = {
 			this = true
@@ -1385,7 +1385,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["정"] = {
 		["자"] = {
 			this = true
@@ -1401,7 +1401,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["유"] = {
 		["방"] = {
 			this = true
@@ -1414,7 +1414,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["안"] = {
 		["마"] = {
 			["봉"] = {
@@ -1426,7 +1426,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.s = {
 		m = {
 			["녀"] = {
@@ -1440,7 +1440,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["강"] = {
 		["간"] = {
 			this = true
@@ -1450,7 +1450,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["간"] = {
 		["살"] = {
 			this = true
@@ -1463,7 +1463,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["남"] = {
 		["노"] = {
 			this = true
@@ -1473,7 +1473,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["전"] = {
 		["라"] = {
 			this = true
@@ -1483,7 +1483,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["육"] = {
 		["봉"] = {
 			this = true
@@ -1496,7 +1496,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["수"] = {
 		["음"] = {
 			this = true
@@ -1509,7 +1509,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["숙"] = {
 		["부"] = {
 			this = true
@@ -1519,7 +1519,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["륜"] = {
 		["간"] = {
 			this = true
@@ -1529,7 +1529,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["성"] = {
 		["교"] = {
 			this = true
@@ -1548,7 +1548,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["신"] = {
 		["음"] = {
 			this = true
@@ -1558,7 +1558,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["발"] = {
 		["기"] = {
 			this = true
@@ -1568,7 +1568,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["항"] = {
 		["문"] = {
 			this = true
@@ -1578,7 +1578,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["거"] = {
 		["유"] = {
 			this = true
@@ -1588,7 +1588,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ｇ"] = {
 		["Ｍ"] = {
 			this = true
@@ -1598,7 +1598,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["매"] = {
 		["음"] = {
 			this = true
@@ -1608,7 +1608,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["이"] = {
 		["기"] = {
 			["야"] = {
@@ -1620,7 +1620,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["노"] = {
 		["무"] = {
 			["현"] = {
@@ -1635,7 +1635,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["놈"] = {
 		["현"] = {
 			this = true
@@ -1645,7 +1645,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ㅆ"] = {
 		["ㅂ"] = {
 			this = true
@@ -1660,7 +1660,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["병"] = {
 		["신"] = {
 			this = true,
@@ -1675,7 +1675,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ㅂ"] = {
 		["ㅅ"] = {
 			this = true
@@ -1688,7 +1688,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ㅈ"] = {
 		["ㅈ"] = {
 			this = true
@@ -1698,7 +1698,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["존"] = {
 		["나"] = {
 			this = true
@@ -1708,7 +1708,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["잠"] = {
 		["지"] = {
 			this = true
@@ -1718,7 +1718,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["짬"] = {
 		["지"] = {
 			this = true
@@ -1728,7 +1728,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["소"] = {
 		["라"] = {
 			["넷"] = {
@@ -1740,7 +1740,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["초"] = {
 		["대"] = {
 			["남"] = {
@@ -1752,7 +1752,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.j = {
 		i = {
 			["랄"] = {
@@ -1764,7 +1764,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.z = {
 		i = {
 			["랄"] = {
@@ -1776,7 +1776,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["똥"] = {
 		["꼬"] = {
 			this = true

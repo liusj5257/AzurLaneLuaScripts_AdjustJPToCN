@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUANGJIA2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUANGJIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第二話　急襲</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_night",
-			say = "なんてこと･･･周りが炎の海になってる･･･。翔鶴姉は…！？",
 			dir = 1,
 			bgm = "story-5",
+			actor = 307060,
+			say = "なんてこと･･･周りが炎の海になってる･･･。翔鶴姉は…！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,16 +71,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "指揮官、こっちから打って出て、敵の行動を阻止することを具申するわ！",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			say = "指揮官、こっちから打って出て、敵の行動を阻止することを具申するわ！",
+			actor = 307060,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "全員",
+			side = 2,
 			bgName = "bg_night",
-			withoutPainting = true,
 			say = "了解！",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,14 +169,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 107060,
 			say = "指揮官、全員発進準備完了した。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
+			say = "ここにいる6隻だけで出撃するのか！",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			say = "ここにいる6隻だけで出撃するのか！",
+			actor = 301160,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -220,8 +220,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -260,8 +260,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 22.5,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 30,
@@ -325,10 +325,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 0,
 			bgName = "bg_night",
+			side = 0,
 			dir = -1,
+			actor = 312010,
 			say = "よし！出撃して名誉ある転進をするんだにゃ。",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -356,11 +356,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "全員",
+			side = 2,
 			bgName = "bg_night",
-			withoutPainting = true,
 			say = "はい！",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,13 +371,13 @@ return {
 			}
 		},
 		{
-			side = 2,
-			actorName = "???",
 			bgName = "bg_night",
+			actorName = "???",
+			side = 2,
 			say = "あらあら、やっぱり、慌てて出てくるのね。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			side = 2,
+			actorName = "???",
 			bgName = "bg_night",
 			say = "ナビゲーター、砲撃用意…あの子たちが出てきた瞬間を狙いなさい。",
 			typewriter = {
@@ -434,8 +434,8 @@ return {
 			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
-			dir = 1,
 			say = "言われなくてもっ！",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			side = 2,
+			actorName = "???",
 			bgName = "bg_night",
 			say = "砲撃開始、さぁ追い散らしてあげなさい。",
 			typewriter = {
@@ -464,16 +464,16 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_night",
-			say = "地平線の向こうから撃ってきた！？",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
+			actor = 303030,
+			say = "地平線の向こうから撃ってきた！？",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -490,8 +490,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.05,
 					x = 0,
@@ -500,12 +500,12 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_night",
-			say = "のわっっと、危ない。でもこんな弾には当たらないのだ。",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
+			actor = 301160,
+			say = "のわっっと、危ない。でもこんな弾には当たらないのだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,16 +516,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					number = 1
 				},
 				{
-					value = -5,
-					type = "rotate",
 					delay = 0,
+					type = "rotate",
+					value = -5,
 					dur = 0.15,
 					number = 2
 				}
@@ -577,8 +577,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 37.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			side = 2,
+			actorName = "???",
 			bgName = "bg_night",
 			say = "来たわね。エサたち……。",
 			typewriter = {
@@ -619,8 +619,8 @@ return {
 			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
-			dir = 1,
 			say = "一斉急降下で海面を爆撃して、前面にウォーターカーテンを作った！",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -695,8 +695,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -735,13 +735,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "テスターβ",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
+			bgm = "battle-boss-4",
+			actor = 900011,
 			nameColor = "#D6341DFF",
 			say = "そうよ。半年ぐらいかしら？この時を待っていたわ。",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,11 +752,11 @@ return {
 			}
 		},
 		{
-			say = "抗えない過去。悪辣な罠を携えた使者たちが彼女たちの心をえぐり出す。ワルツを踊るのは絶望か希望か？次回「自責」。彼女らを包む夜風は冷たい。",
 			blackBg = true,
+			say = "抗えない過去。悪辣な罠を携えた使者たちが彼女たちの心をえぐり出す。ワルツを踊るのは絶望か希望か？次回「自責」。彼女らを包む夜風は冷たい。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

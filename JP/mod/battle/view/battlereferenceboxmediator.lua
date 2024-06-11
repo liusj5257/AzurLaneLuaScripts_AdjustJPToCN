@@ -7,11 +7,11 @@ slot4 = class("BattleReferenceBoxMediator", slot0.MVC.Mediator)
 slot0.Battle.BattleReferenceBoxMediator = slot4
 slot4.__name = "BattleReferenceBoxMediator"
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot4.Initialize(slot0)
+slot4.Initialize = function(slot0)
 	uv0.super.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(uv1.Battle.BattleDataProxy.__name)
@@ -29,7 +29,7 @@ function slot4.Initialize(slot0)
 	slot0:initUnitEvent()
 end
 
-function slot4.ActiveUnitBoxes(slot0, slot1)
+slot4.ActiveUnitBoxes = function(slot0, slot1)
 	if slot1 and not slot0._unitBoxActive then
 		slot0._unitBoxActive = true
 
@@ -41,7 +41,7 @@ function slot4.ActiveUnitBoxes(slot0, slot1)
 	end
 end
 
-function slot4.ActiveBulletBoxes(slot0, slot1)
+slot4.ActiveBulletBoxes = function(slot0, slot1)
 	if slot1 and not slot0._bulletBoxActive then
 		slot0:initBulletEvent()
 
@@ -54,7 +54,7 @@ function slot4.ActiveBulletBoxes(slot0, slot1)
 	end
 end
 
-function slot4.ActiveUnitDetail(slot0, slot1)
+slot4.ActiveUnitDetail = function(slot0, slot1)
 	SetActive(slot0._detailContainer, slot1)
 
 	if slot1 and not slot0._detailViewActive then
@@ -78,7 +78,7 @@ function slot4.ActiveUnitDetail(slot0, slot1)
 	end
 end
 
-function slot4.Update(slot0)
+slot4.Update = function(slot0)
 	for slot4, slot5 in pairs(slot0._dataProxy:GetUnitList()) do
 		if slot0._unitBoxList[slot4] then
 			slot6.transform.localPosition = slot5:GetPosition()
@@ -106,17 +106,17 @@ function slot4.Update(slot0)
 	end
 end
 
-function slot4.initUnitEvent(slot0)
+slot4.initUnitEvent = function(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.ADD_UNIT, slot0.onAddUnit)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_UNIT, slot0.onRemoveUnit)
 end
 
-function slot4.disInitUnitEvent(slot0)
+slot4.disInitUnitEvent = function(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.ADD_UNIT)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_UNIT)
 end
 
-function slot4.onAddUnit(slot0, slot1)
+slot4.onAddUnit = function(slot0, slot1)
 	slot2 = slot1.Data.type
 	slot3 = slot1.Data.unit
 
@@ -133,7 +133,7 @@ function slot4.onAddUnit(slot0, slot1)
 	end
 end
 
-function slot4.createBox(slot0, slot1)
+slot4.createBox = function(slot0, slot1)
 	slot2, slot3, slot4 = nil
 	slot3 = slot1:GetIFF() == 1 and "_friendly" or "_foe"
 
@@ -159,13 +159,13 @@ function slot4.createBox(slot0, slot1)
 	return slot2
 end
 
-function slot4.createExistBoxes(slot0)
+slot4.createExistBoxes = function(slot0)
 	for slot4, slot5 in pairs(slot0._dataProxy:GetUnitList()) do
 		slot0._unitBoxList[slot4] = slot0:createBox(slot5)
 	end
 end
 
-function slot4.createDetail(slot0, slot1)
+slot4.createDetail = function(slot0, slot1)
 	slot2 = uv0.Battle.BattleUnitDetailView.New()
 	slot3 = slot1:GetIFF()
 	slot5 = slot0._sceneMediator:InstantiateCharacterComponent("CharacterDetailContainer/detailPanel")
@@ -179,7 +179,7 @@ function slot4.createDetail(slot0, slot1)
 	return slot2
 end
 
-function slot4.onRemoveUnit(slot0, slot1)
+slot4.onRemoveUnit = function(slot0, slot1)
 	slot2 = slot1.Data.type
 
 	if slot0._unitBoxActive then
@@ -191,55 +191,55 @@ function slot4.onRemoveUnit(slot0, slot1)
 	end
 end
 
-function slot4.removeBox(slot0, slot1)
+slot4.removeBox = function(slot0, slot1)
 	GameObject.Destroy(slot0._unitBoxList[slot1])
 
 	slot0._unitBoxList[slot1] = nil
 end
 
-function slot4.removeDetail(slot0, slot1)
+slot4.removeDetail = function(slot0, slot1)
 	slot0._detailViewList[slot1]:Dispose()
 
 	slot0._detailViewList[slot1] = nil
 end
 
-function slot4.removeAllBoxes(slot0)
+slot4.removeAllBoxes = function(slot0)
 	for slot4, slot5 in pairs(slot0._dataProxy:GetUnitList()) do
 		slot0:removeBox(slot4)
 	end
 end
 
-function slot4.removeAllDetail(slot0)
+slot4.removeAllDetail = function(slot0)
 	for slot4, slot5 in pairs(slot0._detailViewList) do
 		slot0:removeDetail(slot4)
 	end
 end
 
-function slot4.initBulletEvent(slot0)
+slot4.initBulletEvent = function(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.REMOVE_BULLET, slot0.onRemoveBullet)
 end
 
-function slot4.disInitBulletEvent(slot0)
+slot4.disInitBulletEvent = function(slot0)
 	slot0._dataProxy:UnregisterEventListener(slot0, uv0.REMOVE_BULLET)
 end
 
-function slot4.onRemoveBullet(slot0, slot1)
+slot4.onRemoveBullet = function(slot0, slot1)
 	slot0:removeBulletBox(slot1.Data.UID)
 end
 
-function slot4.removeBulletBox(slot0, slot1)
+slot4.removeBulletBox = function(slot0, slot1)
 	GameObject.Destroy(slot0._bulletBoxList[slot1])
 
 	slot0._bulletBoxList[slot1] = nil
 end
 
-function slot4.removeAllBulletBoxes(slot0)
+slot4.removeAllBulletBoxes = function(slot0)
 	for slot4, slot5 in pairs(slot0._bulletBoxList) do
 		slot0:removeBulletBox(slot4)
 	end
 end
 
-function slot4.createBulletBox(slot0, slot1)
+slot4.createBulletBox = function(slot0, slot1)
 	slot2 = nil
 	slot2 = (slot1:GetIFF() ~= 1 or slot0._sceneMediator:InstantiateCharacterComponent("Cube_friendly")) and slot0._sceneMediator:InstantiateCharacterComponent("Cube_foe")
 
@@ -256,14 +256,14 @@ function slot4.createBulletBox(slot0, slot1)
 	return slot2
 end
 
-function slot4.createWallBox(slot0, slot1)
+slot4.createWallBox = function(slot0, slot1)
 	slot2 = slot0:createBox(slot1)
 	slot0._wallBoxList[slot1:GetUniqueID()] = slot2
 
 	return slot2
 end
 
-function slot4.Dispose(slot0)
+slot4.Dispose = function(slot0)
 	slot0:disInitUnitEvent()
 
 	for slot4, slot5 in pairs(slot0._unitBoxList) do

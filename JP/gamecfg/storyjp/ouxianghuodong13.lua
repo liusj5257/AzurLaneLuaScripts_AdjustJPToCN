@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 403054,
 			dir = 1,
+			bgm = "azumaster-ins",
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "あはは、やっぱり負けたね…",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,8 +44,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "そう言われると嬉しいな。正直、私もガスコーニュさんが「ポラリス」でこうして活躍しているの、すごく不思議で…",
 			typewriter = {
@@ -61,8 +61,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "……？",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "艦船としての存在意義は戦うこと、それはもちろん分かるけど",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "でも戦うだけだと、「感情がないと」、みんなと一緒にこのイベントを楽しめないの",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "だからガスコーニュさんがこうしてポラリスのみんなと一緒に楽しんでるのを見られて、本当に良かったと思う",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "……………………",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "おかげさまで、私も自分が思ってた以上に戦えたし、ライブも頑張れたし",
 			typewriter = {
@@ -221,13 +221,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "確かに、なんだかんだ言って、今日は戦うだけじゃなくて、みんな「楽しんでいる」よな",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -255,8 +255,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "普段は演習でも、戦うときは戦うけど、こうして「ライブ」も合わせてやってると心境の変化があると思うのが自然ね",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "感情表現の「素直」の提案を検証",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "ご主人さまへの感情表現ならこのポラリスに、割と直球な方が一人いらっしゃいますね",
 			typewriter = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 307100,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307100,
+			nameColor = "#a9f548",
 			say = "なんですって？",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -348,8 +348,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxianglevel",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "あははは……",
 			typewriter = {

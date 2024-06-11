@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"元氣甜心的愛意攻勢\n\n<size=45>三　比陽光更絢爛的熱情</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_main_day",
-			hidePaintEquip = true,
 			dir = 1,
 			bgm = "story-richang-2",
+			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_main_day",
 			say = "終於等到大晴天了！今天也要跟布呂歇爾一起盡情地約會~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "休息日的第二天，一大早便被布呂歇爾找上門拉來了港區的商業街……",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "本想問她要不要趁著休息日好好休息一下的——",
 			typewriter = {
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "休息……？能有指挥官陪伴在{namecode:450}身边，对{namecode:450}来说就是最好的休息！",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "休息……？能有指挥官陪伴在{namecode:450}身边，对{namecode:450}来说就是最好的休息！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
+			side = 2,
 			say = "沒辦法，只好稍微陪陪她了。",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			say = "首先是，奶茶店———",
 			typewriter = {
@@ -152,17 +152,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指揮官，這杯是給你的喲~",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官，這杯是給你的喲~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			say = "接過布呂歇爾遞過來的奶茶嚐了一口——是全糖……好甜。",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "然後是，遊樂園——",
 			typewriter = {
@@ -283,17 +283,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -301,14 +301,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
-			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗚哇！指揮官，來陪我坐這個吧！看上去應該很刺激很好玩！",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗚哇！指揮官，來陪我坐這個吧！看上去應該很刺激很好玩！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "居然是雲霄飛車……原本以為她會選比較適合聊天的旋轉木馬呢。",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "吊橋效應——好像確實是有這樣一個詞來描述這種現象。",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "不過雲霄飛車相比颱風天的指揮艦來說……",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "最後是，電影院——",
 			typewriter = {
@@ -454,17 +454,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "嗯……但是為什麼是一部關於海難的電影呢？",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "手邊突然傳來溫柔的觸感——",
 			typewriter = {
@@ -599,8 +599,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

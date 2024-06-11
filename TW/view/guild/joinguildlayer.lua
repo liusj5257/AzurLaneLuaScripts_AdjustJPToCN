@@ -1,19 +1,19 @@
 slot0 = class("JoinGuildLayer", import("..base.BaseUI"))
 slot2 = i18n("guild_search_list_max_count", 30)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "JoinGuildUI"
 end
 
-function slot0.setGuildVOs(slot0, slot1)
+slot0.setGuildVOs = function(slot0, slot1)
 	slot0.guildVOs = slot1
 end
 
-function slot0.setPlayerVO(slot0, slot1)
+slot0.setPlayerVO = function(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.guildViewRect = slot0:findTF("add_panel/view")
 	slot0.refreshBtn = slot0:findTF("add_panel/center/refresh")
 	slot0.searchBtn = slot0:findTF("add_panel/center/search")
@@ -38,18 +38,18 @@ function slot0.init(slot0)
 	slot1 = slot0.guildViewRect
 	slot0.viewRect = slot1:GetComponent("LScrollRect")
 
-	function slot0.viewRect.onInitItem(slot0)
+	slot0.viewRect.onInitItem = function(slot0)
 		uv0:onInitItem(slot0)
 	end
 
-	function slot0.viewRect.onUpdateItem(slot0, slot1)
+	slot0.viewRect.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateItem(slot0, slot1)
 	end
 
 	slot0.items = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.refreshBtn, function ()
 		uv0:emit(JoinGuildMediator.REFRESH)
 	end, SFX_PANEL)
@@ -71,7 +71,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.openSortPanel(slot0)
+slot0.openSortPanel = function(slot0)
 	slot0.isOpenSortPanel = true
 
 	setActive(slot0.sortPanel, true)
@@ -118,7 +118,7 @@ slot3 = {
 }
 slot4 = {}
 
-function slot0.initSort(slot0)
+slot0.initSort = function(slot0)
 	for slot4, slot5 in ipairs(uv0) do
 		slot6 = cloneTplTo(slot0.sortBtnTpl, slot0.sortBtnContainer)
 
@@ -143,13 +143,13 @@ function slot0.initSort(slot0)
 	end
 end
 
-function slot0.closeSortPanel(slot0)
+slot0.closeSortPanel = function(slot0)
 	slot0.isOpenSortPanel = nil
 
 	setActive(slot0.sortPanel, false)
 end
 
-function slot0.onInitItem(slot0, slot1)
+slot0.onInitItem = function(slot0, slot1)
 	slot0.items[slot1] = GuildApplyCard.New(slot1)
 
 	onButton(slot0, slot0.items[slot1].applyBtn, function ()
@@ -163,7 +163,7 @@ function slot0.onInitItem(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.onUpdateItem(slot0, slot1, slot2)
+slot0.onUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.items[slot2] then
 		slot0:onInitItem(slot2)
 
@@ -173,7 +173,7 @@ function slot0.onUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot0.sortVOs[slot1 + 1])
 end
 
-function slot0.sortGuilds(slot0, slot1)
+slot0.sortGuilds = function(slot0, slot1)
 	slot0.sortVOs = slot0.guildVOs or {}
 
 	table.sort(slot0.sortVOs, function (slot0, slot1)
@@ -189,7 +189,7 @@ function slot0.sortGuilds(slot0, slot1)
 	setActive(slot0.listEmptyTF, #slot0.sortVOs <= 0)
 end
 
-function slot0.filter(slot0, slot1)
+slot0.filter = function(slot0, slot1)
 	slot0.sortVOs = {}
 
 	if not slot1 and not slot0.contextData.filterData or #slot2 < 2 then
@@ -218,7 +218,7 @@ function slot0.filter(slot0, slot1)
 	setActive(slot0.listEmptyTF, #slot0.sortVOs <= 0)
 end
 
-function slot0.showApply(slot0, slot1)
+slot0.showApply = function(slot0, slot1)
 	if slot1:getFaction() == GuildConst.FACTION_TYPE_BLHX then
 		slot0.page = slot0.applyBluePage
 	elseif slot2 == GuildConst.FACTION_TYPE_CSZZ then
@@ -228,13 +228,13 @@ function slot0.showApply(slot0, slot1)
 	slot0.page:ExecuteAction("Show", slot1)
 end
 
-function slot0.CloseApply(slot0)
+slot0.CloseApply = function(slot0)
 	if slot0.page and slot0.page:GetLoaded() and slot0.page:isShowing() then
 		slot0.page:Hide()
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.isOpenSortPanel then
 		slot0:closeSortPanel()
 	elseif slot0.page and slot0.page:GetLoaded() and slot0.page:isShowing() then
@@ -245,7 +245,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.applyBluePage:Destroy()
 	slot0.applyRedPage:Destroy()
 	PoolMgr.GetInstance():DestroySprite("ui/JoinGuildUI_atlas")

@@ -9,8 +9,8 @@ return {
 			style = {
 				text = "點擊一片地圖外海域，就可以打開世界地圖面板，查看對應地圖位置",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 100
 			},
 			showSign = {
@@ -65,8 +65,8 @@ return {
 			style = {
 				text = "點擊地圖外任意區域，關閉地圖",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 100
 			},
 			showSign = {

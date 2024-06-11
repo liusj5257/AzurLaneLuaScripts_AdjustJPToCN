@@ -1,6 +1,6 @@
 slot0 = class("SecondAnniversaryCollectPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.btnContainer = slot0:findTF("BtnList")
 	slot0.btn1 = slot0:findTF("1", slot0.btnContainer)
@@ -11,7 +11,7 @@ function slot0.OnInit(slot0)
 	slot0.btn6 = slot0:findTF("6", slot0.btnContainer)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.btn1, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)

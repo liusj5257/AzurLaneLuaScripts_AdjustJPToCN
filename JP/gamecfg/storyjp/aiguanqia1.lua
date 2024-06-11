@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_210",
 			dir = 1,
 			say = "とあるバーチャル空間",
@@ -24,12 +24,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			bgName = "star_level_bg_210",
+			bgm = "story-1",
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "はいどうもー！キズナアイです！",
-			bgm = "story-1",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "ということで、今日はひさしぶりにアズールレーンの実況をしていきたいと思いまーす！",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "もしかしたら……私とのコラボだったりして！なんてな！",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "ずっとコラボしたいとは言ってるんですけどねー、いつになったら！私とのコラボは開催されるのでしょうか！！",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "まあ気を取り直して、アズレンやろーっと！高雄ちゃーん！元気にしてたー！？",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "いくよ～、じゃんじゃかじゃかじゃか～～～じゃん！",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "あれ？なんか急にランダムワード生成器が光りだして……",
 			flashN = {
@@ -264,8 +264,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_210",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "なんですかこれ！！？？うわああああああああああああああぁぁぁぁぁぁ！！！",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -288,14 +288,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			stopbgm = true,
 			say = "ばっしゃーーーん！！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -323,11 +323,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			bgm = "level",
+			actor = 900179,
 			nameColor = "#a9f548",
 			say = "え！？え！！？？",
-			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -348,9 +348,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "見渡す限り何もない海の中に放り出されてしまったインテリジェントなスーパーＡＩキズナアイは海に覆われた世界の中心で叫んだ",
 			typewriter = {
 				speed = 0.05,

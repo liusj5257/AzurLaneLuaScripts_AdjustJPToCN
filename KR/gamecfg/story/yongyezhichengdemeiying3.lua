@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"영야의 성의 그림자\n\n<size=45>3. 끝없는 저주</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "역시나, 결과는 무승부였다.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "역시나, 결과는 무승부였다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "역시, 예전과 달라진 게 하나도 없잖아.",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이 바둑판의 저주는 결국 풀릴 수 없는 건가, 정말 아쉽네요.",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "하지만 이렇게 바로 당신의 피를 빨아먹는다면 잠시나마 갈증은 풀 순 있어도, 오랫동안 엠덴을 괴롭히던 지루함은 없앨 수 없어요…",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "마음을 바꿨어요~ 만약 엠덴에게 복종하고 오늘부터 영원히 애완동물로써 엠덴에게 즐거움을 선사해준다면 당신에게 평온한 삶과 인간이 꿈꾸는 영생을 줄게요~",
 			typewriter = {
 				speed = 0.05,
@@ -123,10 +123,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아니면, 다시 한번 당신에게 저와 대국할 기회를 주도록 하죠. 하지만 만약 이 기회마저 날려버린다면 당신을 기다리는 건 저의 일용할 양식이 되는 비참한 결말뿐일 거예요.",
 			typewriter = {
 				speed = 0.05,
@@ -138,12 +138,12 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "객관적으로 판단할 줄 아는 사람이야말로 현명한 거죠, 당신도 어느 쪽이 옳은 선택인지 알고 있겠죠~?",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "선택을 해야 한다는 뜻인가… 만약 잘못된 선택을 하면 굉장히 위험할 것 같은데…",
 			typewriter = {
 				speed = 0.05,
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어맛, 복종을 선택하다니. 너무 나약한 거 아니야~?",
 			typewriter = {
 				speed = 0.05,
@@ -216,13 +216,13 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "종속의 약속과 첫 포옹 의식을 준비할 시간이 필요하니 그전까진 제 품에 안겨 얌전히 꿈나라에서 기다리고 있으라구요~",
 			typewriter = {
 				speed = 0.05,
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,14 +296,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "깨어났을 땐 요르크와 엠덴은 이미 사라진 상태였고, 테이블 위엔 루비가 박힌 목걸이 하나만 놓여있었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -384,9 +384,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			blackBg = true,
-			dir = 1,
 			optionFlag = 1,
+			dir = 1,
+			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -505,16 +505,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
+			bgName = "star_level_bg_156",
 			actor = 403111,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "대국 종료. 승자는… 엠덴.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -539,13 +539,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이기려 하지 않고, 오히려 일부러 져주는 방법이라니!",
 			typewriter = {
 				speed = 0.05,
@@ -576,13 +576,13 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어쩔 수 없지만 저도 규칙에 따라야 하니까… 떠나도 좋아요, 인간 씨.",
 			typewriter = {
 				speed = 0.05,
@@ -628,13 +628,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이 목걸이는 '피의 저주'라고 불리는 목걸이야. 이 이름을 꼭 기억해, 분명 사용하게 될 일이 있을 테니까.",
 			typewriter = {
 				speed = 0.05,
@@ -646,11 +646,11 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
+			blackBg = true,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			blackBg = true,
+			optionFlag = 2,
 			say = "다른 방으로 연결된 문이 열렸다. 그럼 이 스테이지는... 클리어한 거라고 봐도 되는 건가?",
 			typewriter = {
 				speed = 0.05,

@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 307060,
 			dir = 1,
+			bgm = "holo-tokiwa",
+			hideOther = true,
 			actorName = "{namecode:96}&{namecode:158}",
 			say = "The what? The \"Hololive Resistance Base\"?",
-			bgm = "holo-tokiwa",
 			subActors = {
 				{
 					actor = 301490,
@@ -35,8 +35,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "You heard right! It's a place we made before we got transported here, and it somehow carried over. We've got plenty of items stocked, and might be able to resupply you with ammo and stuff!",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -103,10 +103,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "\"In a world where a tyrannical company rules over everyone... One group of Hololivers risk everything in their fight against evil... They are... the Resistance!\" ... Something like that?",
 			dialogShake = {
 				speed = 0.09,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "Uh... not really? I mean, you're not completely wrong, but...",
 			typewriter = {
 				speed = 0.05,
@@ -166,9 +166,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Let's just give them a straight answer, Fubuki.",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,8 +193,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "Basically, one of our friends made this place to get back at our managers. Hololive is just a fun group of people, we're not at war with anyone!",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "More or less.",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "Now that I look closer... This entire sector of the ocean has become part of the Hololive Server, but the original area has been spread out across all these islands.",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "(Guide...? Excuse me?)",
 			typewriter = {
 				speed = 0.05,

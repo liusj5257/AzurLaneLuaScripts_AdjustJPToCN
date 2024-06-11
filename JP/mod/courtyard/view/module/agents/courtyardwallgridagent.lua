@@ -1,6 +1,6 @@
 slot0 = class("CourtYardWallGridAgent", import(".CourtYardGridAgent"))
 
-function slot0.Reset(slot0, slot1)
+slot0.Reset = function(slot0, slot1)
 	table.clear(slot0.grids)
 
 	for slot5 = 1, #slot1 do
@@ -20,7 +20,7 @@ function slot0.Reset(slot0, slot1)
 	end
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	for slot5 = 1, #slot1 do
 		if slot5 % 2 == 0 then
 			slot6 = slot0.grids[slot5 * 0.5]
@@ -34,7 +34,7 @@ function slot0.Flush(slot0, slot1)
 	end
 end
 
-function slot0.UpdatePositionAndColor(slot0, slot1, slot2)
+slot0.UpdatePositionAndColor = function(slot0, slot1, slot2)
 	table.sort(slot2, function (slot0, slot1)
 		return slot0.position.x + slot0.position.y < slot1.position.x + slot1.position.y
 	end)
@@ -46,7 +46,7 @@ function slot0.UpdatePositionAndColor(slot0, slot1, slot2)
 	slot1.transform.localScale = slot3.position.y - slot3.position.x >= 1 and Vector3(-1, 1, 1) or Vector3(1, 1, 1)
 end
 
-function slot0.GetPool(slot0)
+slot0.GetPool = function(slot0)
 	return slot0:GetView().poolMgr:GetWallGridPool()
 end
 

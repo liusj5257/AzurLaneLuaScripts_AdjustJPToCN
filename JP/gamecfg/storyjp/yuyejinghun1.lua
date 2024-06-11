@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -11,38 +11,38 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "――…………………",
-			blackBg = true,
 			bgm = "stopbgm",
+			blackBg = true,
+			say = "――…………………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――こ、ここは……",
+			side = 2,
 			bgm = "theme-highseasfleet-reborn",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――こ、ここは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "目が覚めると、そこには見知らぬ天井があった。",
@@ -61,8 +61,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "古めかしい内装、仄かな照明の光、年季の入った家具…そしてテーブルにある黒い箱のような「なにか」。",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "黒い箱からブリストルの声が聞こえてきた。",
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "ブリストルが急に物語を語りだした。…が、さすがにこの状況で頭に入りそうにない。",
@@ -621,8 +621,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "不穏な言葉について聞こうと思ったが、通信機の向こうからは応答がなくなった。",

@@ -1,6 +1,6 @@
 slot0 = class("FavoriteCard")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.go = slot1
 	slot0.tr = tf(slot1)
 	slot0.charTpl = slot2
@@ -19,7 +19,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.box = slot0.tr:Find("box")
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot1 = {
 		go = slot0,
 		tr = tf(slot0)
@@ -34,7 +34,7 @@ function slot1(slot0)
 	slot1.name = slot2:GetComponent(typeof(Text))
 	slot1.unkonwn = findTF(slot1.tr, "unkonwn")
 
-	function slot1.update(slot0, slot1, slot2)
+	slot1.update = function(slot0, slot1, slot2)
 		uv0.name.text = slot1:getConfig("name")
 
 		LoadSpriteAsync("shipmodels/" .. Ship.getPaintingName(slot1.configId), function (slot0)
@@ -104,7 +104,7 @@ function slot1(slot0)
 	return slot1
 end
 
-function slot0.update(slot0, slot1, slot2, slot3)
+slot0.update = function(slot0, slot1, slot2, slot3)
 	slot0.favoriteVO = slot1
 	slot0.shipGroups = slot2
 	slot0.awards = slot3
@@ -141,7 +141,7 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	slot0:updateBound()
 end
 
-function slot0.updateBound(slot0)
+slot0.updateBound = function(slot0)
 	slot0.state = slot0.favoriteVO:getState(slot0.shipGroups, slot0.awards)
 
 	setActive(slot0.unfinish, slot0.state == Favorite.STATE_WAIT)

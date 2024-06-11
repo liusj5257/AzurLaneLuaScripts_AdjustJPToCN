@@ -1,12 +1,12 @@
 return {
-	time = 8,
-	name = "震撼弹",
 	init_effect = "",
+	name = "震撼弹",
+	time = 8,
+	picture = "",
+	desc = "震撼弹",
 	stack = 1,
 	id = 510050,
-	picture = "",
 	last_effect = "",
-	desc = "震撼弹",
 	effect_list = {
 		{
 			type = "BattleBuffFixVelocity",

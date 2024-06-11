@@ -1,15 +1,15 @@
 return {
-	id = "WORLD508H",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508H",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-arbitrator-type1",
 			say = "후방 함대의 상황은 어때!",
+			side = 2,
+			dir = 1,
+			bgm = "battle-arbitrator-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "잔불은 그때그때 대응해 간신히 버티고 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "엄청난 전투력과 방어력에 계속 해역의 중력장을 교란하고 있어. 지휘관, 전투가 더 길어지는 건 위험해.",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "한시 빨리 이 상황을 타개할 방법을 찾아야 해.",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ffff4d",
-			actor = 408020,
 			dir = 1,
+			actor = 408020,
 			actorName = "？？？",
 			say = "벽람항로의 함대… 수중에서 받는 방해가 적어 여기서 공격하면 효과적일지도 몰라.",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "당신은… 메탈 블러드의 잠수함?!",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			actor = 408020,
 			nameColor = "#ffff4d",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "맞아. 메탈 블러드 VIIB형 잠수함, U-47야.",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "메탈 블러드의 잠수함이 어떻게 여기에 나타날 수 있는 거지?",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			actor = 408020,
 			nameColor = "#ffff4d",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "정찰 임무를 수행하던 중 갑자기 나타난 정체불명의 충격에 휩쓸려 이곳으로 왔어.",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			actor = 408020,
 			nameColor = "#ffff4d",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "적이 해결되지 않으면 나도 떠날 수 없다는 판단을 내리곤 너희에게 연락을 취한 거야…",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "특이점 자체가 핵심 지역의 한복판에 위치해 있어서 정찰 임무라면 빨려 들어올 일이 없을 텐데.",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "휴전 협정은 세이렌의 위협에 대응하기 위한 것이기 때문에 메탈 블러드가 약속을 어기지는 않을 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			actor = 408020,
 			nameColor = "#ffff4d",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "이성적인 선택을 해, 지휘관.",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			actor = 408020,
 			nameColor = "#ffff4d",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "전탄 발사 준비. 아비터, Auf Wiederseen….",
 			typewriter = {
 				speed = 0.05,

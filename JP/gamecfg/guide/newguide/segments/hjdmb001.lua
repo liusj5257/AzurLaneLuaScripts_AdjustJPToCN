@@ -4,21 +4,21 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 180.11,
 				posX = 538.63,
 				text = ({
 					"ヘルプボタンで遊び方を確認しよう！"
 				})[1],
 				ui = {
-					path = "",
-					pathIndex = -1
+					pathIndex = -1,
+					path = ""
 				}
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/ActivityMainUI(Clone)/pages/AprilFoolDiscoveryRePage(Clone)/AD/help_btn",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/ActivityMainUI(Clone)/pages/AprilFoolDiscoveryRePage(Clone)/AD/help_btn",
 				triggerType = {
 					1
 				},

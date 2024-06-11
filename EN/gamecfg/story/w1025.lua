@@ -1,12 +1,12 @@
 return {
-	id = "W1025",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1025",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The device has shut down. It seems unlikely that we'll extract any more data from it.",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "There's not much else we can do here...",
 			typewriter = {
 				speed = 0.05,

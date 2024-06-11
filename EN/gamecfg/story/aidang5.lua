@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Date With Atago\n\n<size=45>Chapter 5: Engulfed by Darkness</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(Clatter... clatter... clatter...)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(BANGBANGBANGBANGBANG!!)",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(Silence...)",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(BWWWAAAAAARRRRRRRRRGGGGHHHH!!!)",
 			typewriter = {
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "! ! ! ! !",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Suddenly, Atago clamped down onto my hand, hard.",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "When I turned to look, I saw Atago burying her face in my arm, silently trembling.",
 			typewriter = {
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 303120,
-			side = 2,
-			blackBg = true,
-			nameColor = "#a9f548",
-			dir = 1,
 			optionFlag = 1,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "...!",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "In response, her grip became even tighter.",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "The things happening on the screen seemed to fade into the background. We could feel each others' temperature swell through our tightly clasped hands.",
 			typewriter = {
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 303120,
-			side = 2,
-			blackBg = true,
-			nameColor = "#a9f548",
-			dir = 1,
 			optionFlag = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "Commander...?",
 			typewriter = {
 				speed = 0.05,
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "Um... I'm not scared... I'm not scared anymore...",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					number = 1
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Sometimes stalwart, and sometimes seductive, Atago was always calm and, until now, had never shown her vulnerable side.",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "As the movie ended, I could feel her gentle breath against me as she slipped off into slumber, exhausted.",
 			typewriter = {
@@ -307,15 +307,15 @@ return {
 			}
 		},
 		{
-			say = "(One hour later...)",
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "(One hour later...)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Atago seemed to slowly be returning to her usual self.",
 			typewriter = {
 				speed = 0.05,
@@ -410,12 +410,12 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "Commander, only you know about our little secret. Make sure to treasure it, okay? Hehe~",
 			typewriter = {
 				speed = 0.05,

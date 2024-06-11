@@ -19,7 +19,7 @@ slot0.flagList = {
 	"inSupport"
 }
 
-function slot0.checkShipFlag(slot0, slot1, slot2)
+slot0.checkShipFlag = function(slot0, slot1, slot2)
 	if type(defaultValue(slot1[slot2], uv0.TAG_HIDE_BASE[slot2])) == "boolean" then
 		return not slot3 and slot0:getFlag(slot2)
 	elseif type(slot3) == "number" then
@@ -29,7 +29,7 @@ function slot0.checkShipFlag(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ShipStatusToTag(slot0, slot1)
+slot0.ShipStatusToTag = function(slot0, slot1)
 	if uv0.checkShipFlag(slot0, slot1, "inChapter") then
 		return {
 			"shipstatus",
@@ -142,8 +142,8 @@ end
 slot0.FILTER_SHIPS_FLAGS_1 = {
 	inExercise = false,
 	inChapter = true,
-	inFleet = false,
 	inSupport = true,
+	inFleet = false,
 	inPvP = false,
 	inActivity = true,
 	inTactics = false,
@@ -158,9 +158,9 @@ slot0.FILTER_SHIPS_FLAGS_1 = {
 	inAdmiral = true
 }
 slot0.FILTER_SHIPS_FLAGS_2 = {
-	inGuildBossEvent = true,
+	inElite = true,
 	inChallenge = true,
-	inBackyard = true,
+	inPvP = true,
 	inSupport = true,
 	inClass = true,
 	inActivity = true,
@@ -171,16 +171,16 @@ slot0.FILTER_SHIPS_FLAGS_2 = {
 	inExercise = true,
 	inChapter = true,
 	inFleet = true,
-	inPvP = true,
+	inGuildBossEvent = true,
 	inTactics = true,
-	inElite = true,
+	inBackyard = true,
 	inEvent = true
 }
 slot0.FILTER_SHIPS_FLAGS_3 = {
 	inExercise = false,
 	inChapter = true,
-	inFleet = false,
 	inSupport = true,
+	inFleet = false,
 	inPvP = false,
 	inActivity = true,
 	inTactics = false,
@@ -195,9 +195,9 @@ slot0.FILTER_SHIPS_FLAGS_3 = {
 	inAdmiral = false
 }
 slot0.FILTER_SHIPS_FLAGS_4 = {
-	inPvP = true,
+	inElite = true,
 	inChallenge = true,
-	inBackyard = true,
+	inGuildBossEvent = true,
 	inSupport = true,
 	inClass = true,
 	inActivity = true,
@@ -208,9 +208,9 @@ slot0.FILTER_SHIPS_FLAGS_4 = {
 	inExercise = true,
 	inChapter = true,
 	inFleet = true,
-	inGuildBossEvent = true,
+	inPvP = true,
 	inTactics = true,
-	inElite = true,
+	inBackyard = true,
 	inEvent = true
 }
 slot0.TAG_HIDE_ALL = {
@@ -247,14 +247,14 @@ slot0.TAG_HIDE_BASE = {
 	inAdmiral = false
 }
 slot0.TAG_HIDE_ACTIVITY_BOSS = {
-	inChallenge = true,
 	inChapter = true,
-	inPvP = true,
-	inFleet = true,
+	inChallenge = true,
 	inClass = true,
-	inBackyard = true,
+	inFleet = true,
+	inPvP = true,
+	inAdmiral = true,
 	inTactics = true,
-	inAdmiral = true
+	inBackyard = true
 }
 slot0.TAG_HIDE_BACKYARD = {
 	inExercise = false,
@@ -289,36 +289,36 @@ slot0.TAG_HIDE_DEFENSE = {
 	inEvent = true
 }
 slot0.TAG_HIDE_LEVEL = {
-	inBackyard = true,
+	inAdmiral = true,
 	inChallenge = true,
 	inFleet = true,
-	inClass = true,
-	inActivity = true,
-	inTactics = true,
-	inAdmiral = true
-}
-slot0.TAG_HIDE_SUPPORT = {
-	inBackyard = true,
-	inChallenge = true,
-	inClass = true,
-	inActivity = true,
-	inTactics = true,
-	inAdmiral = true
-}
-slot0.TAG_HIDE_NORMAL = {
-	inExercise = false,
-	inChallenge = true,
-	inPvP = true,
 	inClass = true,
 	inActivity = true,
 	inTactics = true,
 	inBackyard = true
 }
-slot0.TAG_HIDE_CHALLENGE = {
+slot0.TAG_HIDE_SUPPORT = {
+	inAdmiral = true,
+	inChallenge = true,
+	inClass = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_HIDE_NORMAL = {
+	inExercise = false,
+	inChallenge = true,
+	inClass = true,
 	inPvP = true,
+	inActivity = true,
+	inTactics = true,
+	inBackyard = true
+}
+slot0.TAG_HIDE_CHALLENGE = {
+	inClass = true,
 	inChapter = true,
 	inFleet = true,
-	inClass = true,
+	inPvP = true,
 	inActivity = true,
 	inTactics = true,
 	inBackyard = true,
@@ -360,15 +360,15 @@ slot0.TAG_HIDE_ADMIRAL = {
 slot0.TAG_HIDE_FORMATION = {
 	inExercise = false,
 	inChallenge = true,
-	inPvP = true,
 	inClass = true,
+	inPvP = true,
 	inActivity = true,
 	inTactics = true,
 	inBackyard = true
 }
 slot0.TAG_HIDE_WORLD = {
-	inActivity = true,
 	inChallenge = true,
+	inActivity = true,
 	inFleet = true
 }
 slot0.TAG_HIDE_DESTROY = {
@@ -389,16 +389,16 @@ slot0.STATE_CHANGE_CHECK = 1
 slot0.STATE_CHANGE_TIP = 2
 slot1 = {
 	inFleet = {
-		inEvent = 0,
-		inSupport = 1
+		inSupport = 1,
+		inEvent = 0
 	},
 	inSupport = {
-		inEvent = 0,
-		inFleet = 0
+		inFleet = 0,
+		inEvent = 0
 	},
 	inElite = {
-		inEvent = 0,
-		inElite = 0
+		inElite = 0,
+		inEvent = 0
 	},
 	inActivity = {
 		isActivityNpc = 0,
@@ -409,10 +409,10 @@ slot1 = {
 		inEvent = 0
 	},
 	inEvent = {
-		inEvent = 0,
 		inChapter = 0,
-		inSupport = 0,
+		inEvent = 0,
 		inFleet = 1,
+		inSupport = 0,
 		isActivityNpc = 0,
 		inPvP = 1
 	},
@@ -432,8 +432,8 @@ slot1 = {
 		isActivityNpc = 0
 	},
 	onPropose = {
-		inChapter = 0,
-		inEvent = 0
+		inEvent = 0,
+		inChapter = 0
 	},
 	onModify = {
 		inChapter = 0
@@ -441,8 +441,8 @@ slot1 = {
 	onDestroy = {
 		inExercise = 1,
 		inChallenge = 0,
-		inSupport = 0,
 		inFleet = 1,
+		inSupport = 0,
 		inClass = 0,
 		inActivity = 0,
 		inTactics = 1,
@@ -521,7 +521,7 @@ slot2 = {
 	}
 }
 
-function slot0.ShipStatusCheck(slot0, slot1, slot2, slot3)
+slot0.ShipStatusCheck = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = uv0.ShipStatusConflict(slot0, slot1, slot3)
 
 	if slot4 == uv0.STATE_CHANGE_FAIL then
@@ -541,7 +541,7 @@ function slot0.ShipStatusCheck(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.ShipStatusConflict(slot0, slot1, slot2)
+slot0.ShipStatusConflict = function(slot0, slot1, slot2)
 	slot3 = uv0[slot0]
 	slot2 = slot2 or {}
 
@@ -566,7 +566,7 @@ function slot0.ShipStatusConflict(slot0, slot1, slot2)
 	return uv1.STATE_CHANGE_OK
 end
 
-function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
+slot0.ChangeStatusCheckBox = function(slot0, slot1, slot2)
 	if slot0 == "inBackyard" then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("ship_vo_moveout_backyard"),
@@ -705,7 +705,7 @@ function slot0.ChangeStatusCheckBox(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.ChangeStatusTipBox(slot0, slot1)
+slot0.ChangeStatusTipBox = function(slot0, slot1)
 	if slot0 == "inElite" then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
@@ -716,7 +716,7 @@ function slot0.ChangeStatusTipBox(slot0, slot1)
 	return true
 end
 
-function slot0.canDestroyShip(slot0, slot1)
+slot0.canDestroyShip = function(slot0, slot1)
 	if slot0:isBluePrintShip() then
 		return false, i18n("blueprint_destory_tip")
 	elseif slot0:GetLockState() == Ship.LOCK_STATE_LOCK then

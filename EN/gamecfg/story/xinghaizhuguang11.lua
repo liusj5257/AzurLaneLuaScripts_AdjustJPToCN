@@ -4,29 +4,29 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "battle-hightech",
 			side = 2,
 			bgName = "bg_zhedie_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			bgm = "battle-hightech",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "......",
 			painting = {
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(That's weird. TB should appear now that the test is over.)",
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(What do we do now? Is this normal in the Sea of Stars?)",
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(No, what am I saying? There's nothing normal about our communications being down!)",
@@ -308,11 +308,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(Dammit... I've seriously got caught up in an incident on my first day here...)",
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(How are we supposed to fix this?!)",
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "......",
 			painting = {
@@ -439,11 +439,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "......",
 			painting = {
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "......",
 			painting = {

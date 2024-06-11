@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU17",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "hunhe-level",
 			say = "비시아 성좌 성당·근해",
+			side = 2,
+			dir = 1,
+			bgm = "hunhe-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "비시아 성좌 함대의 유인 작전을 무시한 연합 함대는 심장을 겨눈 화살처럼 쏜살같이 성당이 있는 방향으로 전진했다.",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "곳곳에 있는 방어 시설 때문에 어쩔 수 없이 속도를 늦추긴 했지만, 결국 연합 함대는 성당 근해에 도착할 수 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -63,9 +63,9 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "역…… 역시 아까 그건 진짜가 아니었어.(털썩)",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -90,8 +90,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "알제리 일행의 움직임은 보이지 않아요. 물론 접근해오는 비시아 성좌 함대도 없고요. 계획이 틀어져서 대책을 세우는 중일까요?",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "음…… 우리가 성당만 손에 넣는다면 싸울 이유가 없으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "알제리 언니도 역시 우리와 진짜 싸울 생각이 없는 거야. 그러니까 우리가 성당을 점령하도록 두는 거지.",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "그럴 리는 없습니다. 알제리도 교황청의 기사죠. 그들이 얼마나 완고한지 잘 알고 있지 않습니까.",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "성당의 방어 시스템은 완벽합니다. 전투력도 뛰어나니 시스템을 이용해 싸우려는 생각을 하는 것도 이상하지는 않아요.",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "그래도 요격 함대가 보여야 정상인데……",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "역시 가만히 있지는 못하는군요. 성당의 시스템에 기대서 마지막 저항을 할 생각인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "주력 함대와 항공 함대의 항로는 변하지 않습니다. 계속 전진하도록 해요. 한시라도 빨리 성당을 손에 넣어야 이 무의미한 전투를 멈출 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,8 +333,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "그렇다면 리슐리외, 일러스트리어스. 다녀오겠습니다.",
 			typewriter = {
 				speed = 0.05,

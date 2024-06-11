@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"裏表魅力MAXガール！\n\n<size=45>一　カンレキの無い女</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "凛とした雰囲気を纏いながらも、今日の彼女の喋り方はどこか重々しい。",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "心なしか、睨まれているような気さえするような……",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "……最初にお聞きしたいことがあります。",
 			typewriter = {
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "少し気圧されながらも、その内容についての発言を促した。",
 			typewriter = {
 				speed = 0.05,
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それは……答えるべきか否か……",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "はぁ……！指揮官、そんな態度なんですか……",
 			typewriter = {
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "さすがに面と向かってため息をつかれると少々ショックだが、どう返すのが正解だったのだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "ふふふ、正解はですね……",
 			typewriter = {
@@ -245,9 +245,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "まるでこちらの心の声まで見透かしたかのような駿河は、大きく息を吸い込むと……",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（がーーッ！指揮官ってば全く分かってない！ある程度駿河ちゃんのことに理解があったから採用したんじゃないのー？…いいえ、違うねッ！今のこの状況だけで明らか！）",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,8 +305,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（カンレキ無いし他の特別計画艦ってほどでもない私が急に秘書艦に抜擢されたりしたら、エコひいき？っていうか超目立つよね？私、静かに母港で暮らしたいだけなんで、目立つのは嫌いなんで！そんな初歩も気付いてもらえないなんて、もう限界きそう…）",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "……ふう。やっぱり、言うのやめます。",
 			typewriter = {
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "何故だろう、いま駿河は一言も発しなかったのに、色々言われたような気がする……。",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "さて、仕事はどれから取り掛かりましょうか？",
 			typewriter = {
@@ -367,9 +367,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "気持ちを切り替えたのか、駿河の声の調子が違っている。",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "……できる範囲で、何でもやりますから。",
 			typewriter = {

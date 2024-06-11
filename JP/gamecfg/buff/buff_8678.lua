@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "法系V2蛋船护盾",
 	time = 2,
-	color = "blue",
+	name = "法系V2蛋船护盾",
+	init_effect = "",
+	id = 8678,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8678,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8679,
-				target = "TargetSelf",
 				time = 0,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

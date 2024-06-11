@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 战斗BUFF 输出弹幕LV1",
 	time = 1,
-	color = "red",
+	name = "2022莱莎联动 战斗BUFF 输出弹幕LV1",
+	init_effect = "",
+	id = 200165,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200165,
+	color = "red",
 	icon = 200165,
 	last_effect = "",
 	effect_list = {

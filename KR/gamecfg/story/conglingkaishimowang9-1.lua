@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "왕성 서쪽, 거울 호수의 중심부에 위치한 은빛 여울 섬.",
 			bgm = "story-mmorpg",
+			say = "왕성 서쪽, 거울 호수의 중심부에 위치한 은빛 여울 섬.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "갖은 고생 끝에 겨우 만능 포션을 만들 99개의 재료를 모아 누비안에게 건넨 다음에야 용사 파티는 약사를 데리고 함께 떠날 수 있었다.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "작은 배에 몸을 싣고, 일행은 섬에 드디어 발을 디뎠다.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "하지만 섬에는 울창한 숲과 울퉁불퉁한 바위 외에는 아무것도 보이지 않았다.",
 			typewriter = {
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "음… 북쪽 탑이라는 거… 정말 여기 있는 거 맞지? 게다가 이 울창한 숲… 은빛이라곤 찾아볼 수도 없잖아.",
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "다른 섬에 잘못 내린 거 아니야?",
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그리고… 지금은 이렇게 숲으로 뒤덮여 있지만, 스승님 말로 옛날에는 사방이 얼음으로 뒤덮여 있었대. 그래서 이름도 그렇게 붙여진 거 아닐까?",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "자신만만한 얼굴로 누비안은 공터에 섰고, 그곳에 있는 시든 나무에 고개를 숙이고는 헛기침을 했다.",
 			typewriter = {
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
+			side = 2,
 			say = "그러자 멀리 보이는 하늘이 점점 흔들리기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "이윽고 검은 금속으로 이루어진 높은 탑이 모습을 드러냈다.",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "붉은빛을 발하는 검은 탑… 마, 마왕의 거점으로밖에는 안 보여…",
@@ -309,27 +309,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
-			say = "높은 탑의 꼭대기 층. 전설적인 왕궁 마법사는 마법진 한가운데의 의자에 앉아 있었다.",
 			bgm = "theme-ijndailymeeting",
+			say = "높은 탑의 꼭대기 층. 전설적인 왕궁 마법사는 마법진 한가운데의 의자에 앉아 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "여기 온 목적은 이미 알고 있어… 그만 돌아가.",
 			painting = {
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "헉?! 아직 아무 말도 안 했는데?!",
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇지만 스승님! 왜 도와주지 않는 거야? 그 대마법사는 천년 전에 마왕을 쓰러뜨리다 저주에 걸렸다구!",
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "그 사람… '지휘관'을 여기 남겨 두고, 내 제자로 키울 수 있게 해준다면, 저주를 푸는 방법을 가르쳐 줄게.",
 			painting = {
@@ -559,8 +559,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -600,11 +600,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아하하하… 그건 너무 과하지 않아? 농담이지?",
@@ -618,11 +618,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "농담 아니야! 지혜의 마녀의 제자니까 수행이 백년 단위인 것도 당연하지!",
 			painting = {
@@ -654,11 +654,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "맞아! 지휘관은 나랑 같이 마왕을 토벌하러 가야 해!",
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "내가 주는 시련을 이겨내면 주문을 푸는 방법을 알려줄게.",
 			painting = {
@@ -726,11 +726,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "보통은 그렇겠지.",
 			painting = {
@@ -761,11 +761,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "그래서 이번은 좀 뻔하지만, 전투 시련으로 정했어.",
 			painting = {

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-5",
+			say = "The Royal Islands",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
-			say = "The Royal Islands",
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 900199,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Looks like the Sardegna Fleet has begun to move.",
 			typewriter = {
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 900199,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Above La Spezia harbour.",
 			typewriter = {
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 900199,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "You're right. I'll inform Her Majesty.",
 			typewriter = {
@@ -257,15 +257,15 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "So we negotiate first, but still plan for the next phase... A well thought out strategy, so I'll allow it!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 900199,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Yes, Your Majesty!",
 			typewriter = {
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Belfast casually poured tea for the Queen as she recited her quote.",
 			typewriter = {
 				speed = 0.05,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "I was ordered by Her Majesty to deliver these words to you, Warspite, were you to bring up the Vichya incident.",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -398,11 +398,11 @@ return {
 			}
 		},
 		{
-			actor = 900199,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Very well... I have faith in Her Majesty's judgement. I shall depart immediately!",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -425,9 +425,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Warspite bowed to Queen Elizabeth, then exited the throne room.",
 			typewriter = {
 				speed = 0.05,
@@ -455,9 +455,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "I certainly hope it doesn't come to that...",
 			typewriter = {
 				speed = 0.05,

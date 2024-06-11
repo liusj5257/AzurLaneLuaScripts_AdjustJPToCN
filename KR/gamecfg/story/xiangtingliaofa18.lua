@@ -9,9 +9,9 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "이상하군, 세이렌 함대의 전투력이 예상보다 너무 낮아",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "역시나 로열 네이비의 항공모함, 이상한 곳에서 범상치 않은 집착을 가진다…",
 			typewriter = {
 				speed = 0.05,

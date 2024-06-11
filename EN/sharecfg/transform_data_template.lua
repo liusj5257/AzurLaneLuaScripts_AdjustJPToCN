@@ -138,6 +138,18 @@ pg.transform_data_template = setmetatable({
 		5309,
 		5310,
 		5311,
+		6001,
+		6002,
+		6003,
+		6004,
+		6005,
+		6006,
+		6007,
+		6008,
+		6009,
+		6010,
+		6011,
+		6012,
 		6201,
 		6202,
 		6203,
@@ -1092,17 +1104,17 @@ pg.transform_data_template = setmetatable({
 pg.base = pg.base or {}
 pg.base.transform_data_template = {
 	[501] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 501,
 		condition_id = {},
 		effect = {
 			{
@@ -1124,17 +1136,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[502] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 502,
 		condition_id = {
 			501
 		},
@@ -1158,17 +1170,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[503] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 503,
 		condition_id = {
 			501
 		},
@@ -1192,17 +1204,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[504] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 504,
 		condition_id = {
 			503
 		},
@@ -1226,17 +1238,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[505] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 505,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 505,
 		condition_id = {
 			503
 		},
@@ -1260,17 +1272,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[506] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 506,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 506,
 		condition_id = {
 			505
 		},
@@ -1294,17 +1306,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[507] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 507,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 507,
 		condition_id = {
 			505
 		},
@@ -1338,17 +1350,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[508] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 508,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2001,
+		use_gold = 1200,
+		id = 508,
 		condition_id = {
 			507
 		},
@@ -1372,17 +1384,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[509] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 509,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 509,
 		condition_id = {
 			507
 		},
@@ -1406,17 +1418,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[510] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 510,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 510,
 		condition_id = {
 			502,
 			509
@@ -1451,17 +1463,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[511] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 511,
+		descrip = "",
 		max_level = 1,
 		skin_id = 101039,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 511,
 		condition_id = {
 			508,
 			509,
@@ -1488,17 +1500,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[601] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 601,
 		condition_id = {},
 		effect = {
 			{
@@ -1520,17 +1532,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[602] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 602,
 		condition_id = {
 			601
 		},
@@ -1554,17 +1566,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[603] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 603,
 		condition_id = {
 			601
 		},
@@ -1588,17 +1600,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[604] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 604,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 604,
 		condition_id = {
 			603
 		},
@@ -1622,17 +1634,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[605] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 605,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 605,
 		condition_id = {
 			603
 		},
@@ -1656,17 +1668,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[606] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 606,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 606,
 		condition_id = {
 			605
 		},
@@ -1690,17 +1702,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[607] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 607,
 		condition_id = {
 			605
 		},
@@ -1734,17 +1746,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[608] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 608,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2001,
+		use_gold = 1200,
+		id = 608,
 		condition_id = {
 			607
 		},
@@ -1768,17 +1780,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[609] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 609,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 609,
 		condition_id = {
 			607
 		},
@@ -1802,17 +1814,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[610] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 610,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 610,
 		condition_id = {
 			602,
 			609
@@ -1847,17 +1859,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[611] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 611,
+		descrip = "",
 		max_level = 1,
 		skin_id = 101049,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 611,
 		condition_id = {
 			608,
 			609,
@@ -1884,17 +1896,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1301] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 1301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 1301,
 		condition_id = {},
 		effect = {
 			{
@@ -1916,17 +1928,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1302] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 2,
-		id = 1302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 1302,
 		condition_id = {
 			1301
 		},
@@ -1950,17 +1962,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1303] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 1303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 1303,
 		condition_id = {
 			1301
 		},
@@ -1984,17 +1996,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1304] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 1304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 1304,
 		condition_id = {
 			1303
 		},
@@ -2018,17 +2030,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1305] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 1305,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 1305,
 		condition_id = {
 			1303
 		},
@@ -2062,17 +2074,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1306] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 1306,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 1306,
 		condition_id = {
 			1304,
 			1305
@@ -2107,17 +2119,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1307] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 1307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 1307,
 		condition_id = {
 			1305
 		},
@@ -2151,17 +2163,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1308] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 4,
-		id = 1308,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 1308,
 		condition_id = {
 			1302,
 			1307
@@ -2196,17 +2208,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1309] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 1309,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 1309,
 		condition_id = {
 			1307
 		},
@@ -2240,17 +2252,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1310] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅲ",
-		star_limit = 5,
-		id = 1310,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Tp_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 1310,
 		condition_id = {
 			1309
 		},
@@ -2306,17 +2318,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1311] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 1311,
+		descrip = "",
 		max_level = 1,
 		skin_id = 101119,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 1311,
 		condition_id = {
 			1309,
 			1310
@@ -2342,17 +2354,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1312] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 1312,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_blue",
 		skill_id = 15910,
+		use_gold = 3000,
+		id = 1312,
 		condition_id = {
 			1311
 		},
@@ -2383,17 +2395,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1901] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 1901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 1901,
 		condition_id = {},
 		effect = {
 			{
@@ -2415,17 +2427,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1902] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 1902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 1902,
 		condition_id = {
 			1901
 		},
@@ -2449,17 +2461,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1903] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 1903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 1903,
 		condition_id = {
 			1901
 		},
@@ -2483,17 +2495,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1904] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 1904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 1904,
 		condition_id = {
 			1903
 		},
@@ -2517,17 +2529,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1905] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 1905,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 1905,
 		condition_id = {
 			1903
 		},
@@ -2561,17 +2573,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1906] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 1906,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 1906,
 		condition_id = {
 			1902,
 			1905
@@ -2606,17 +2618,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1907] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 1907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 1907,
 		condition_id = {
 			1905
 		},
@@ -2650,17 +2662,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1908] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 1908,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 1908,
 		condition_id = {
 			1907
 		},
@@ -2694,17 +2706,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1909] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 1909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 1909,
 		condition_id = {
 			1907
 		},
@@ -2738,17 +2750,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1910] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅲ",
-		star_limit = 5,
-		id = 1910,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Tp_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 1910,
 		condition_id = {
 			1904,
 			1909
@@ -2805,17 +2817,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1911] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 1911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 101179,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 1911,
 		condition_id = {
 			1909,
 			1910
@@ -2841,17 +2853,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[1912] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 1912,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 11210,
+		use_gold = 3000,
+		id = 1912,
 		condition_id = {
 			1911
 		},
@@ -2882,17 +2894,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2601] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 2601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 2601,
 		condition_id = {},
 		effect = {
 			{
@@ -2914,17 +2926,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2602] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 2602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 2602,
 		condition_id = {
 			2601
 		},
@@ -2948,17 +2960,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2603] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 2603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 2603,
 		condition_id = {
 			2601
 		},
@@ -2982,17 +2994,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2604] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 2604,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 2604,
 		condition_id = {
 			2603
 		},
@@ -3016,17 +3028,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2605] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 2605,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 2605,
 		condition_id = {
 			2603
 		},
@@ -3050,17 +3062,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2606] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 2606,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 2606,
 		condition_id = {
 			2602,
 			2605
@@ -3095,17 +3107,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2607] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 2607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 2607,
 		condition_id = {
 			2605
 		},
@@ -3139,17 +3151,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2608] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 2608,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_blue",
 		skill_id = 4081,
+		use_gold = 1800,
+		id = 2608,
 		condition_id = {
 			2607
 		},
@@ -3173,17 +3185,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2609] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 2609,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 2609,
 		condition_id = {
 			2607
 		},
@@ -3207,17 +3219,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2610] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 2610,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 2610,
 		condition_id = {
 			2604,
 			2609
@@ -3252,17 +3264,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2611] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 2611,
+		descrip = "",
 		max_level = 1,
 		skin_id = 101249,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 2611,
 		condition_id = {
 			2608,
 			2609,
@@ -3270,8 +3282,8 @@ pg.base.transform_data_template = {
 		},
 		effect = {
 			{
-				reload = 15,
-				antiaircraft = 35
+				antiaircraft = 35,
+				reload = 15
 			}
 		},
 		ship_id = {},
@@ -3289,17 +3301,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2701] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 2701,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 2701,
 		condition_id = {},
 		effect = {
 			{
@@ -3321,17 +3333,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2702] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 2702,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 2702,
 		condition_id = {
 			2701
 		},
@@ -3355,17 +3367,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2703] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 2703,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 2703,
 		condition_id = {
 			2701
 		},
@@ -3389,17 +3401,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2704] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 2704,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 2704,
 		condition_id = {
 			2703
 		},
@@ -3423,17 +3435,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2705] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 2705,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 2705,
 		condition_id = {
 			2703
 		},
@@ -3457,17 +3469,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2706] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 2706,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 2706,
 		condition_id = {
 			2702,
 			2705
@@ -3502,17 +3514,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2707] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 2707,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 2707,
 		condition_id = {
 			2705
 		},
@@ -3546,17 +3558,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2708] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 2708,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_blue",
 		skill_id = 4091,
+		use_gold = 1800,
+		id = 2708,
 		condition_id = {
 			2707
 		},
@@ -3580,17 +3592,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2709] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 2709,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 2709,
 		condition_id = {
 			2707
 		},
@@ -3614,17 +3626,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2710] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 2710,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 2710,
 		condition_id = {
 			2704,
 			2709
@@ -3659,17 +3671,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[2711] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 2711,
+		descrip = "",
 		max_level = 1,
 		skin_id = 101259,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 2711,
 		condition_id = {
 			2708,
 			2709,
@@ -3696,17 +3708,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3301] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 3301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 3301,
 		condition_id = {},
 		effect = {
 			{
@@ -3728,17 +3740,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3302] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 3302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 3302,
 		condition_id = {
 			3301
 		},
@@ -3762,17 +3774,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3303] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 3303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 3303,
 		condition_id = {
 			3301
 		},
@@ -3796,17 +3808,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3304] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 3304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 3304,
 		condition_id = {
 			3303
 		},
@@ -3830,17 +3842,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3305] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 3305,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 3305,
 		condition_id = {
 			3303
 		},
@@ -3864,17 +3876,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3306] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 4,
-		id = 3306,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 3306,
 		condition_id = {
 			3302,
 			3305
@@ -3899,17 +3911,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3307] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 3307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 3307,
 		condition_id = {
 			3305
 		},
@@ -3943,17 +3955,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3308] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 4,
-		id = 3308,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 3308,
 		condition_id = {
 			3307
 		},
@@ -3977,17 +3989,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3309] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 3309,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 3309,
 		condition_id = {
 			3307
 		},
@@ -4021,17 +4033,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3310] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 3310,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aa_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 3310,
 		condition_id = {
 			3304,
 			3309
@@ -4074,25 +4086,25 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3311] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 3311,
+		descrip = "Completes retrofit; ACC +10, AA +35\nAfter Retrofit, <color=#92fc63>\"Radar Scan\"</color> is upgraded to <color=#92fc63>\"Radar Scan Plus\"</color> ",
 		max_level = 1,
 		skin_id = 102059,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "Completes retrofit; ACC +10, AA +35\nAfter Retrofit, <color=#92fc63>\"Radar Scan\"</color> is upgraded to <color=#92fc63>\"Radar Scan Plus\"</color> ",
+		star_limit = 5,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 3311,
 		condition_id = {
 			3309,
 			3310
 		},
 		effect = {
 			{
-				hit = 10,
-				antiaircraft = 35
+				antiaircraft = 35,
+				hit = 10
 			}
 		},
 		ship_id = {
@@ -4115,17 +4127,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3312] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 3312,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_yellow",
 		skill_id = 13380,
+		use_gold = 3000,
+		id = 3312,
 		condition_id = {
 			3308,
 			3311
@@ -4154,17 +4166,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3501] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 3501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 3501,
 		condition_id = {},
 		effect = {
 			{
@@ -4186,17 +4198,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3502] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 3502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 3502,
 		condition_id = {
 			3501
 		},
@@ -4220,17 +4232,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3503] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 3503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 3503,
 		condition_id = {
 			3501
 		},
@@ -4254,17 +4266,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3504] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 3504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 3504,
 		condition_id = {
 			3503
 		},
@@ -4288,17 +4300,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3505] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 3505,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 3505,
 		condition_id = {
 			3503
 		},
@@ -4322,17 +4334,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3506] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 3506,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 3506,
 		condition_id = {
 			3505
 		},
@@ -4356,17 +4368,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3507] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 3507,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 3507,
 		condition_id = {
 			3505
 		},
@@ -4400,17 +4412,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3508] = {
-		use_gold = 3000,
+		level_limit = 55,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 3508,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 3508,
 		condition_id = {
 			3507
 		},
@@ -4444,17 +4456,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3509] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 3509,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 3509,
 		condition_id = {
 			3507
 		},
@@ -4488,17 +4500,17 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3510] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 3510,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 3510,
 		condition_id = {
 			3506,
 			3509
@@ -4533,14 +4545,8 @@ pg.base.transform_data_template = {
 		}
 	},
 	[3511] = {
-		use_gold = 3000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 3511,
-		max_level = 1,
-		skin_id = 102079,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete. The following changes have been applied:
 
@@ -4548,8 +4554,14 @@ ASW +30, AA +15.
 <color=#92fc63>Main Gun mount +1</color>.
 The skill <color=#92fc63>Martyr</color> will change into <color=#92fc63>Martyr+</color>.
 This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
+		max_level = 1,
+		skin_id = 102079,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 3511,
 		condition_id = {
 			3509,
 			3510
@@ -4580,17 +4592,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3601] = {
-		use_gold = 600,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 3,
-		id = 3601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 1,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 3601,
 		condition_id = {},
 		effect = {
 			{
@@ -4612,17 +4624,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3602] = {
-		use_gold = 800,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 3,
-		id = 3602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 3,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 3602,
 		condition_id = {
 			3601
 		},
@@ -4646,17 +4658,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3603] = {
-		use_gold = 1000,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 3603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 3603,
 		condition_id = {
 			3601
 		},
@@ -4680,17 +4692,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3604] = {
-		use_gold = 1500,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 3604,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 3604,
 		condition_id = {
 			3603
 		},
@@ -4724,17 +4736,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3605] = {
-		use_gold = 1800,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 3605,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 3605,
 		condition_id = {
 			3603
 		},
@@ -4768,17 +4780,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3606] = {
-		use_gold = 2000,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 3606,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 3606,
 		condition_id = {
 			3604
 		},
@@ -4812,17 +4824,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3607] = {
-		use_gold = 2500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 3607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 3607,
 		condition_id = {
 			3605
 		},
@@ -4864,17 +4876,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3608] = {
-		use_gold = 3000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 5,
-		id = 3608,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 5,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 3608,
 		condition_id = {
 			3602,
 			3607
@@ -4909,17 +4921,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3609] = {
-		use_gold = 4000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 6,
-		id = 3609,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 6,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 3609,
 		condition_id = {
 			3607
 		},
@@ -4953,17 +4965,17 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3610] = {
-		use_gold = 5000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅲ",
-		star_limit = 6,
-		id = 3610,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 6,
 		icon = "Cn_3",
 		skill_id = 0,
+		use_gold = 5000,
+		id = 3610,
 		condition_id = {
 			3606,
 			3609
@@ -5020,21 +5032,21 @@ This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]],
 		}
 	},
 	[3611] = {
-		use_gold = 7500,
-		name = "Modernization",
-		star_limit = 6,
-		id = 3611,
-		max_level = 1,
-		skin_id = 102089,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 The effects of fully retrofitting this ship:
 
 This ship will receive <color=#92fc63>Main Gun base +1</color>.
 <color=#92fc63>All Out Assault Ⅱ</color> will change to <color=#92fc63>All Out Assault - San Diego</color>. ]],
+		max_level = 1,
+		skin_id = 102089,
+		use_ship = 1,
+		star_limit = 6,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 7500,
+		id = 3611,
 		condition_id = {
 			3609,
 			3610
@@ -5065,17 +5077,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[3612] = {
-		use_gold = 5000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 6,
-		id = 3612,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 1,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 6,
 		icon = "skill_red",
 		skill_id = 11720,
+		use_gold = 5000,
+		id = 3612,
 		condition_id = {
 			3608,
 			3611
@@ -5100,17 +5112,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4401] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 4401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 4401,
 		condition_id = {},
 		effect = {
 			{
@@ -5132,17 +5144,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4402] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 4402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 4402,
 		condition_id = {
 			4401
 		},
@@ -5166,17 +5178,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4403] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 4403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 4403,
 		condition_id = {
 			4401
 		},
@@ -5200,17 +5212,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4404] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 4404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 4404,
 		condition_id = {
 			4403
 		},
@@ -5234,17 +5246,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4405] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 4405,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 4405,
 		condition_id = {
 			4403
 		},
@@ -5278,17 +5290,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4406] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Secondary Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 4406,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "sgup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 4406,
 		condition_id = {
 			4405
 		},
@@ -5312,17 +5324,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4407] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 4407,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 4407,
 		condition_id = {
 			4405
 		},
@@ -5346,17 +5358,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4408] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 4408,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 4408,
 		condition_id = {
 			4407
 		},
@@ -5380,17 +5392,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4409] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Hull Improvement Ⅲ",
-		star_limit = 5,
-		id = 4409,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_3",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 4409,
 		condition_id = {
 			4407
 		},
@@ -5434,17 +5446,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4410] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 4410,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 4410,
 		condition_id = {
 			4402,
 			4409
@@ -5479,17 +5491,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[4411] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 4411,
+		descrip = "",
 		max_level = 1,
 		skin_id = 103069,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 4411,
 		condition_id = {
 			4408,
 			4409,
@@ -5516,17 +5528,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5201] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 5201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 5201,
 		condition_id = {},
 		effect = {
 			{
@@ -5548,17 +5560,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5202] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 5202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 5202,
 		condition_id = {
 			5201
 		},
@@ -5582,17 +5594,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5203] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 5203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 5203,
 		condition_id = {
 			5201
 		},
@@ -5616,17 +5628,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5204] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 5204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 5204,
 		condition_id = {
 			5203
 		},
@@ -5650,17 +5662,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5205] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Secondary Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 5205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "sgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 5205,
 		condition_id = {
 			5203
 		},
@@ -5684,17 +5696,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5206] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 5206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 5206,
 		condition_id = {
 			5205
 		},
@@ -5718,17 +5730,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5207] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 5207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 5207,
 		condition_id = {
 			5205
 		},
@@ -5762,17 +5774,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5208] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 5208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2041,
+		use_gold = 1200,
+		id = 5208,
 		condition_id = {
 			5207
 		},
@@ -5796,17 +5808,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5209] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Secondary Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 5209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "sgup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 5209,
 		condition_id = {
 			5207
 		},
@@ -5840,17 +5852,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5210] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 5210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 5210,
 		condition_id = {
 			5202,
 			5209
@@ -5885,17 +5897,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5211] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 5211,
+		descrip = "",
 		max_level = 1,
 		skin_id = 105019,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 5211,
 		condition_id = {
 			5208,
 			5209,
@@ -5903,8 +5915,8 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		},
 		effect = {
 			{
-				hit = 15,
-				antiaircraft = 30
+				antiaircraft = 30,
+				hit = 15
 			}
 		},
 		ship_id = {},
@@ -5922,17 +5934,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5301] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 5301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 5301,
 		condition_id = {},
 		effect = {
 			{
@@ -5954,17 +5966,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5302] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 5302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 5302,
 		condition_id = {
 			5301
 		},
@@ -5988,17 +6000,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5303] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 5303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 5303,
 		condition_id = {
 			5301
 		},
@@ -6022,17 +6034,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5304] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 5304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 5304,
 		condition_id = {
 			5303
 		},
@@ -6056,17 +6068,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5305] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Secondary Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 5305,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "sgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 5305,
 		condition_id = {
 			5303
 		},
@@ -6090,17 +6102,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5306] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 5306,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 5306,
 		condition_id = {
 			5305
 		},
@@ -6124,17 +6136,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5307] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 5307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 5307,
 		condition_id = {
 			5305
 		},
@@ -6168,17 +6180,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5308] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 5308,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2041,
+		use_gold = 1200,
+		id = 5308,
 		condition_id = {
 			5307
 		},
@@ -6202,17 +6214,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5309] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Secondary Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 5309,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "sgup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 5309,
 		condition_id = {
 			5307
 		},
@@ -6246,17 +6258,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5310] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 5310,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 5310,
 		condition_id = {
 			5302,
 			5309
@@ -6291,17 +6303,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[5311] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 5311,
+		descrip = "",
 		max_level = 1,
 		skin_id = 105029,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 5311,
 		condition_id = {
 			5308,
 			5309,
@@ -6309,8 +6321,8 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		},
 		effect = {
 			{
-				hit = 10,
-				antiaircraft = 35
+				antiaircraft = 35,
+				hit = 10
 			}
 		},
 		ship_id = {},
@@ -6327,18 +6339,485 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 			50
 		}
 	},
-	[6201] = {
-		use_gold = 300,
+	[6001] = {
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 6201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 6001,
+		condition_id = {},
+		effect = {
+			{
+				durability = 70
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18021,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[6002] = {
+		level_limit = 5,
+		name = "Hit Enhancement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "rl_1",
+		skill_id = 0,
+		use_gold = 400,
+		id = 6002,
+		condition_id = {
+			6001
+		},
+		effect = {
+			{
+				hit = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18021,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[6003] = {
+		level_limit = 20,
+		name = "Main Gun Improvement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "mgup_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 6003,
+		condition_id = {
+			6001
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18021,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[6004] = {
+		level_limit = 25,
+		name = "Firepower Enhancement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "cn_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 6004,
+		condition_id = {
+			6003
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18021,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[6005] = {
+		level_limit = 35,
+		name = "Anti-Air Gun Improvement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "aaup_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 6005,
+		condition_id = {
+			6003
+		},
+		effect = {
+			{
+				equipment_proficiency_3 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18022,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[6006] = {
+		level_limit = 40,
+		name = "Anti-Air Enhancement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "aa_1",
+		skill_id = 0,
+		use_gold = 1200,
+		id = 6006,
+		condition_id = {
+			6005
+		},
+		effect = {
+			{
+				antiaircraft = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18022,
+					2
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[6007] = {
+		level_limit = 50,
+		name = "Hull Improvement Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 6007,
+		condition_id = {
+			6005
+		},
+		effect = {
+			{
+				durability = 70
+			},
+			{
+				durability = 100
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18022,
+					2
+				}
+			},
+			{
+				{
+					18022,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[6008] = {
+		level_limit = 55,
+		name = "Hit Enhancement Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "rl_2",
+		skill_id = 0,
+		use_gold = 1800,
+		id = 6008,
+		condition_id = {
+			6002,
+			6007
+		},
+		effect = {
+			{
+				hit = 5
+			},
+			{
+				hit = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18022,
+					2
+				}
+			},
+			{
+				{
+					18022,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[6009] = {
+		level_limit = 70,
+		name = "Main Gun Improvement Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "mgup_2",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 6009,
+		condition_id = {
+			6007
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18023,
+					1
+				}
+			},
+			{
+				{
+					18023,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[6010] = {
+		level_limit = 75,
+		name = "Firepower Enhancement Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "cn_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 6010,
+		condition_id = {
+			6008,
+			6009
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18023,
+					1
+				},
+				{
+					17003,
+					5
+				}
+			},
+			{
+				{
+					18023,
+					2
+				},
+				{
+					17003,
+					15
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[6011] = {
+		level_limit = 85,
+		name = "Modernization",
+		descrip = "",
+		max_level = 1,
+		skin_id = 105099,
+		use_ship = 1,
+		star_limit = 5,
+		icon = "mt_yellow",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 6011,
+		condition_id = {
+			6006,
+			6009
+		},
+		effect = {
+			{
+				antiaircraft = 20,
+				reload = 25
+			}
+		},
+		ship_id = {
+			{
+				105094,
+				105214
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18023,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[6012] = {
+		level_limit = 90,
+		name = "Tactical Learning",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "skill_red",
+		skill_id = 17980,
+		use_gold = 3000,
+		id = 6012,
+		condition_id = {
+			6011
+		},
+		effect = {
+			{
+				skill_id = 17980
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18023,
+					2
+				},
+				{
+					17003,
+					50
+				}
+			}
+		},
+		gear_score = {
+			30
+		}
+	},
+	[6201] = {
+		level_limit = 1,
+		name = "Hull Improvement Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 300,
+		id = 6201,
 		condition_id = {},
 		effect = {
 			{
@@ -6360,17 +6839,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6202] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 6202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 6202,
 		condition_id = {
 			6201
 		},
@@ -6394,17 +6873,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6203] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 6203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 6203,
 		condition_id = {
 			6201
 		},
@@ -6428,17 +6907,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6204] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 6204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 6204,
 		condition_id = {
 			6203
 		},
@@ -6462,17 +6941,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6205] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 6205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 6205,
 		condition_id = {
 			6203
 		},
@@ -6496,17 +6975,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6206] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 6206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 6206,
 		condition_id = {
 			6205
 		},
@@ -6530,17 +7009,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6207] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 6207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 6207,
 		condition_id = {
 			6205
 		},
@@ -6574,17 +7053,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6208] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Hit Enhancement Ⅱ",
-		star_limit = 4,
-		id = 6208,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 6208,
 		condition_id = {
 			6202,
 			6207
@@ -6619,17 +7098,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6209] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 6209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 6209,
 		condition_id = {
 			6207
 		},
@@ -6663,17 +7142,17 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6210] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 6210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 6210,
 		condition_id = {
 			6208,
 			6209
@@ -6716,29 +7195,29 @@ This ship will receive <color=#92fc63>Main Gun base +1</color>.
 		}
 	},
 	[6211] = {
-		use_gold = 3000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 6211,
-		max_level = 1,
-		skin_id = 105119,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete. The following changes have been applied:
 
 AA +20, RLD +25.
 This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
+		max_level = 1,
+		skin_id = 105119,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 6211,
 		condition_id = {
 			6206,
 			6209
 		},
 		effect = {
 			{
-				reload = 25,
-				antiaircraft = 20
+				antiaircraft = 20,
+				reload = 25
 			}
 		},
 		ship_id = {
@@ -6761,17 +7240,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[6212] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 6212,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 16950,
+		use_gold = 3000,
+		id = 6212,
 		condition_id = {
 			6211
 		},
@@ -6799,17 +7278,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7001] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 7001,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 7001,
 		condition_id = {},
 		effect = {
 			{
@@ -6831,17 +7310,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7002] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 7002,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 7002,
 		condition_id = {
 			7001
 		},
@@ -6865,17 +7344,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7003] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Air Elite Ⅰ",
-		star_limit = 3,
-		id = 7003,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "ffup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 7003,
 		condition_id = {
 			7001
 		},
@@ -6899,17 +7378,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7004] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 3,
-		id = 7004,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 7004,
 		condition_id = {
 			7003
 		},
@@ -6933,17 +7412,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7005] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 7005,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 7005,
 		condition_id = {
 			7003
 		},
@@ -6967,17 +7446,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7006] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 7006,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 7006,
 		condition_id = {
 			7005
 		},
@@ -7001,17 +7480,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7007] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 7007,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 7007,
 		condition_id = {
 			7005
 		},
@@ -7045,17 +7524,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7008] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 7008,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 3041,
+		use_gold = 1800,
+		id = 7008,
 		condition_id = {
 			7007
 		},
@@ -7079,17 +7558,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7009] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Air Elite Ⅱ",
-		star_limit = 5,
-		id = 7009,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "ffup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 7009,
 		condition_id = {
 			7007,
 			7008
@@ -7124,17 +7603,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7010] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 5,
-		id = 7010,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 7010,
 		condition_id = {
 			7004,
 			7009
@@ -7169,25 +7648,25 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7011] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 7011,
+		descrip = "",
 		max_level = 1,
 		skin_id = 106019,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 7011,
 		condition_id = {
 			7009,
 			7010
 		},
 		effect = {
 			{
-				antiaircraft = 20,
-				air = 25
+				air = 25,
+				antiaircraft = 20
 			}
 		},
 		ship_id = {},
@@ -7205,17 +7684,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7101] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 7101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 7101,
 		condition_id = {},
 		effect = {
 			{
@@ -7237,17 +7716,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7102] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 7102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 7102,
 		condition_id = {
 			7101
 		},
@@ -7271,17 +7750,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7103] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Bombing Elite Ⅰ",
-		star_limit = 2,
-		id = 7103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "bfup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 7103,
 		condition_id = {
 			7101
 		},
@@ -7305,17 +7784,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7104] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 2,
-		id = 7104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 7104,
 		condition_id = {
 			7103
 		},
@@ -7339,17 +7818,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7105] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 7105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 7105,
 		condition_id = {
 			7103
 		},
@@ -7373,17 +7852,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7106] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 7106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 7106,
 		condition_id = {
 			7105
 		},
@@ -7407,17 +7886,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7107] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 7107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 7107,
 		condition_id = {
 			7105
 		},
@@ -7451,17 +7930,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7108] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 7108,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_yellow",
 		skill_id = 1045,
+		use_gold = 1200,
+		id = 7108,
 		condition_id = {
 			7107
 		},
@@ -7485,17 +7964,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7109] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Bombing Elite Ⅱ",
-		star_limit = 4,
-		id = 7109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "bfup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 7109,
 		condition_id = {
 			7107,
 			7108
@@ -7530,17 +8009,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7110] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 4,
-		id = 7110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 7110,
 		condition_id = {
 			7104,
 			7109
@@ -7575,25 +8054,25 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7111] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 7111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 106029,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 7111,
 		condition_id = {
 			7109,
 			7110
 		},
 		effect = {
 			{
-				antiaircraft = 20,
-				air = 25
+				air = 25,
+				antiaircraft = 20
 			}
 		},
 		ship_id = {},
@@ -7611,17 +8090,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7201] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 7201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 7201,
 		condition_id = {},
 		effect = {
 			{
@@ -7643,17 +8122,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7202] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 7202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 7202,
 		condition_id = {
 			7201
 		},
@@ -7677,24 +8156,24 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7203] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Air Elite Ⅰ",
-		star_limit = 2,
-		id = 7203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "ffup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 7203,
 		condition_id = {
 			7201
 		},
 		effect = {
 			{
-				equipment_proficiency_1 = 0.04,
-				equipment_proficiency_2 = 0.04
+				equipment_proficiency_2 = 0.04,
+				equipment_proficiency_1 = 0.04
 			}
 		},
 		ship_id = {},
@@ -7712,17 +8191,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7204] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 2,
-		id = 7204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 7204,
 		condition_id = {
 			7203
 		},
@@ -7746,17 +8225,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7205] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Bombing Elite Ⅰ",
-		star_limit = 3,
-		id = 7205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "bfup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 7205,
 		condition_id = {
 			7203
 		},
@@ -7780,17 +8259,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7206] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 7206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 7206,
 		condition_id = {
 			7205
 		},
@@ -7814,17 +8293,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7207] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 7207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 7207,
 		condition_id = {
 			7205
 		},
@@ -7858,17 +8337,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7208] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 7208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_yellow",
 		skill_id = 1037,
+		use_gold = 1200,
+		id = 7208,
 		condition_id = {
 			7207
 		},
@@ -7892,29 +8371,29 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7209] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Air Elite Ⅱ",
-		star_limit = 4,
-		id = 7209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "ffup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 7209,
 		condition_id = {
 			7207,
 			7208
 		},
 		effect = {
 			{
-				equipment_proficiency_1 = 0.04,
-				equipment_proficiency_2 = 0.04
+				equipment_proficiency_2 = 0.04,
+				equipment_proficiency_1 = 0.04
 			},
 			{
-				equipment_proficiency_1 = 0.07,
-				equipment_proficiency_2 = 0.07
+				equipment_proficiency_2 = 0.07,
+				equipment_proficiency_1 = 0.07
 			}
 		},
 		ship_id = {},
@@ -7939,17 +8418,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7210] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 4,
-		id = 7210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 7210,
 		condition_id = {
 			7204,
 			7209
@@ -7984,25 +8463,25 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7211] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 7211,
+		descrip = "",
 		max_level = 1,
 		skin_id = 107019,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 7211,
 		condition_id = {
 			7209,
 			7210
 		},
 		effect = {
 			{
-				antiaircraft = 20,
-				air = 25
+				air = 25,
+				antiaircraft = 20
 			}
 		},
 		ship_id = {},
@@ -8020,17 +8499,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7401] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 7401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 7401,
 		condition_id = {},
 		effect = {
 			{
@@ -8052,17 +8531,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7402] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 7402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 7402,
 		condition_id = {
 			7401
 		},
@@ -8086,17 +8565,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7403] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Air Elite Ⅰ",
-		star_limit = 3,
-		id = 7403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "ffup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 7403,
 		condition_id = {
 			7401
 		},
@@ -8120,17 +8599,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7404] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 7404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 7404,
 		condition_id = {
 			7403
 		},
@@ -8154,24 +8633,24 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7405] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Bombing Elite Ⅰ",
-		star_limit = 4,
-		id = 7405,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "bfup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 7405,
 		condition_id = {
 			7403
 		},
 		effect = {
 			{
-				equipment_proficiency_3 = 0.03,
-				equipment_proficiency_2 = 0.03
+				equipment_proficiency_2 = 0.03,
+				equipment_proficiency_3 = 0.03
 			}
 		},
 		ship_id = {},
@@ -8189,17 +8668,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7406] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 4,
-		id = 7406,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 7406,
 		condition_id = {
 			7405
 		},
@@ -8223,17 +8702,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7407] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 7407,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 7407,
 		condition_id = {
 			7405
 		},
@@ -8267,17 +8746,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7408] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 7408,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 7408,
 		condition_id = {
 			7407,
 			7402
@@ -8312,28 +8791,28 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7409] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Bombing Elite Ⅱ",
-		star_limit = 5,
-		id = 7409,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "bfup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 7409,
 		condition_id = {
 			7407
 		},
 		effect = {
 			{
-				equipment_proficiency_3 = 0.03,
-				equipment_proficiency_2 = 0.03
+				equipment_proficiency_2 = 0.03,
+				equipment_proficiency_3 = 0.03
 			},
 			{
-				equipment_proficiency_3 = 0.04,
-				equipment_proficiency_2 = 0.04
+				equipment_proficiency_2 = 0.04,
+				equipment_proficiency_3 = 0.04
 			}
 		},
 		ship_id = {},
@@ -8358,17 +8837,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7410] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 5,
-		id = 7410,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 7410,
 		condition_id = {
 			7409
 		},
@@ -8410,25 +8889,25 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7411] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 7411,
+		descrip = "",
 		max_level = 1,
 		skin_id = 107039,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 7411,
 		condition_id = {
 			7409,
 			7410
 		},
 		effect = {
 			{
-				antiaircraft = 35,
-				air = 10
+				air = 10,
+				antiaircraft = 35
 			}
 		},
 		ship_id = {},
@@ -8446,17 +8925,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7412] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 7412,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 11400,
+		use_gold = 3000,
+		id = 7412,
 		condition_id = {
 			7411
 		},
@@ -8484,17 +8963,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7501] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 7501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 7501,
 		condition_id = {},
 		effect = {
 			{
@@ -8516,17 +8995,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7502] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 7502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 7502,
 		condition_id = {
 			7501
 		},
@@ -8550,24 +9029,24 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7503] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Bombing Elite Ⅰ",
-		star_limit = 2,
-		id = 7503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "bfup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 7503,
 		condition_id = {
 			7501
 		},
 		effect = {
 			{
-				equipment_proficiency_2 = 0.04,
-				equipment_proficiency_3 = 0.04
+				equipment_proficiency_3 = 0.04,
+				equipment_proficiency_2 = 0.04
 			}
 		},
 		ship_id = {},
@@ -8585,17 +9064,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7504] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 2,
-		id = 7504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 7504,
 		condition_id = {
 			7503
 		},
@@ -8619,17 +9098,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7505] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Torpedo Dive Ⅰ",
-		star_limit = 3,
-		id = 7505,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "tfup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 7505,
 		condition_id = {
 			7503
 		},
@@ -8653,17 +9132,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7506] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 7506,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 7506,
 		condition_id = {
 			7505
 		},
@@ -8687,17 +9166,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7507] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 7507,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 7507,
 		condition_id = {
 			7505
 		},
@@ -8731,17 +9210,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7508] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 7508,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_yellow",
 		skill_id = 3011,
+		use_gold = 1200,
+		id = 7508,
 		condition_id = {
 			7507
 		},
@@ -8765,29 +9244,29 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7509] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Bombing Elite Ⅱ",
-		star_limit = 4,
-		id = 7509,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "bfup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 7509,
 		condition_id = {
 			7507,
 			7508
 		},
 		effect = {
 			{
-				equipment_proficiency_2 = 0.04,
-				equipment_proficiency_3 = 0.04
+				equipment_proficiency_3 = 0.04,
+				equipment_proficiency_2 = 0.04
 			},
 			{
-				equipment_proficiency_2 = 0.07,
-				equipment_proficiency_3 = 0.07
+				equipment_proficiency_3 = 0.07,
+				equipment_proficiency_2 = 0.07
 			}
 		},
 		ship_id = {},
@@ -8812,17 +9291,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7510] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 4,
-		id = 7510,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 7510,
 		condition_id = {
 			7504,
 			7509
@@ -8857,25 +9336,25 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[7511] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 7511,
+		descrip = "",
 		max_level = 1,
 		skin_id = 107049,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 7511,
 		condition_id = {
 			7509,
 			7510
 		},
 		effect = {
 			{
-				antiaircraft = 20,
-				air = 25
+				air = 25,
+				antiaircraft = 20
 			}
 		},
 		ship_id = {},
@@ -8893,17 +9372,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8101] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 8101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 8101,
 		condition_id = {},
 		effect = {
 			{
@@ -8925,17 +9404,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8102] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 8102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 8102,
 		condition_id = {
 			8101
 		},
@@ -8959,17 +9438,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8103] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 8103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 8103,
 		condition_id = {
 			8101
 		},
@@ -8993,17 +9472,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8104] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 8104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 8104,
 		condition_id = {
 			8103
 		},
@@ -9027,17 +9506,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8105] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 8105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 8105,
 		condition_id = {
 			8103
 		},
@@ -9061,17 +9540,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8106] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 8106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 8106,
 		condition_id = {
 			8105
 		},
@@ -9095,17 +9574,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8107] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 8107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 8107,
 		condition_id = {
 			8105
 		},
@@ -9139,17 +9618,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8108] = {
-		use_gold = 1800,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 8108,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 8108,
 		condition_id = {
 			8107
 		},
@@ -9173,17 +9652,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8109] = {
-		use_gold = 2000,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 8109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 8109,
 		condition_id = {
 			8102,
 			8108
@@ -9218,14 +9697,8 @@ This ship's Big Seven skill has been upgraded to Big Seven - West Virginia.]],
 		}
 	},
 	[8110] = {
-		use_gold = 2500,
-		name = "Modernization",
-		star_limit = 5,
-		id = 8110,
-		max_level = 1,
-		skin_id = 201019,
-		use_ship = 1,
 		level_limit = 80,
+		name = "Modernization",
 		descrip = [[
 The effects of fully retrofitting this ship:
 
@@ -9234,8 +9707,14 @@ The effects of fully retrofitting this ship:
 This ship will receive <color=#92fc63>Torpedo base -1</color>
 
 <color=#92fc63>Anti-Air Gun base +1</color>]],
+		max_level = 1,
+		skin_id = 201019,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 8110,
 		condition_id = {
 			8108,
 			8109
@@ -9266,17 +9745,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8111] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 8111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_blue",
 		skill_id = 12970,
+		use_gold = 3000,
+		id = 8111,
 		condition_id = {
 			8106,
 			8110
@@ -9301,17 +9780,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8201] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 8201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 8201,
 		condition_id = {},
 		effect = {
 			{
@@ -9333,17 +9812,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8202] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 8202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 8202,
 		condition_id = {
 			8201
 		},
@@ -9367,17 +9846,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8203] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 8203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 8203,
 		condition_id = {
 			8201
 		},
@@ -9401,17 +9880,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8204] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 8204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 8204,
 		condition_id = {
 			8203
 		},
@@ -9435,17 +9914,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8205] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 8205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 8205,
 		condition_id = {
 			8203
 		},
@@ -9469,17 +9948,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8206] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 8206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 8206,
 		condition_id = {
 			8205
 		},
@@ -9503,17 +9982,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8207] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 8207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 8207,
 		condition_id = {
 			8205
 		},
@@ -9547,17 +10026,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8208] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 8208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 5051,
+		use_gold = 1800,
+		id = 8208,
 		condition_id = {
 			8207
 		},
@@ -9581,17 +10060,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8209] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 8209,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 8209,
 		condition_id = {
 			8207
 		},
@@ -9615,17 +10094,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8210] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 8210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 8210,
 		condition_id = {
 			8202,
 			8209
@@ -9660,17 +10139,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8211] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 8211,
+		descrip = "",
 		max_level = 1,
 		skin_id = 201029,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 8211,
 		condition_id = {
 			8208,
 			8209,
@@ -9678,8 +10157,8 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -9697,17 +10176,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8301] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 8301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 8301,
 		condition_id = {},
 		effect = {
 			{
@@ -9729,17 +10208,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8302] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 8302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 8302,
 		condition_id = {
 			8301
 		},
@@ -9763,17 +10242,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8303] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 8303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 8303,
 		condition_id = {
 			8301
 		},
@@ -9797,17 +10276,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8304] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 8304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 8304,
 		condition_id = {
 			8303
 		},
@@ -9831,17 +10310,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8305] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 8305,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 8305,
 		condition_id = {
 			8303
 		},
@@ -9865,17 +10344,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8306] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 8306,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 8306,
 		condition_id = {
 			8305
 		},
@@ -9899,17 +10378,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8307] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 8307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 8307,
 		condition_id = {
 			8305
 		},
@@ -9943,17 +10422,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8308] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 8308,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 1081,
+		use_gold = 1800,
+		id = 8308,
 		condition_id = {
 			8307
 		},
@@ -9977,17 +10456,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8309] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 8309,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 8309,
 		condition_id = {
 			8307
 		},
@@ -10011,17 +10490,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8310] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 8310,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 8310,
 		condition_id = {
 			8302,
 			8309
@@ -10056,17 +10535,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8311] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 8311,
+		descrip = "",
 		max_level = 1,
 		skin_id = 201039,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 8311,
 		condition_id = {
 			8308,
 			8309,
@@ -10074,8 +10553,8 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -10093,17 +10572,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8801] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 8801,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 8801,
 		condition_id = {},
 		effect = {
 			{
@@ -10125,17 +10604,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8802] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 8802,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 8802,
 		condition_id = {
 			8801
 		},
@@ -10159,17 +10638,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8803] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 2,
-		id = 8803,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 8803,
 		condition_id = {
 			8801
 		},
@@ -10193,17 +10672,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8804] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 2,
-		id = 8804,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 8804,
 		condition_id = {
 			8803
 		},
@@ -10227,17 +10706,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8805] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 8805,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 8805,
 		condition_id = {
 			8803
 		},
@@ -10261,17 +10740,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8806] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 8806,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 8806,
 		condition_id = {
 			8805
 		},
@@ -10295,17 +10774,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8807] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 8807,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 8807,
 		condition_id = {
 			8805
 		},
@@ -10339,17 +10818,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8808] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 8808,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_blue",
 		skill_id = 4081,
+		use_gold = 1200,
+		id = 8808,
 		condition_id = {
 			8807
 		},
@@ -10373,17 +10852,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8809] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 8809,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 8809,
 		condition_id = {
 			8807,
 			8808
@@ -10408,17 +10887,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8810] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 8810,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 8810,
 		condition_id = {
 			8802,
 			8809
@@ -10453,25 +10932,25 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8811] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 8811,
+		descrip = "",
 		max_level = 1,
 		skin_id = 201089,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 8811,
 		condition_id = {
 			8809,
 			8810
 		},
 		effect = {
 			{
-				torpedo = 25,
-				dodge = 20
+				dodge = 20,
+				torpedo = 25
 			}
 		},
 		ship_id = {},
@@ -10489,17 +10968,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8901] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 8901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 8901,
 		condition_id = {},
 		effect = {
 			{
@@ -10521,17 +11000,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8902] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 1,
-		id = 8902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 8902,
 		condition_id = {
 			8901
 		},
@@ -10555,17 +11034,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8903] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 8903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 8903,
 		condition_id = {
 			8901
 		},
@@ -10589,17 +11068,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8904] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 8904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 8904,
 		condition_id = {
 			8903
 		},
@@ -10623,17 +11102,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8905] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 8905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 8905,
 		condition_id = {
 			8903
 		},
@@ -10657,17 +11136,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8906] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 8906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 8906,
 		condition_id = {
 			8905
 		},
@@ -10691,17 +11170,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8907] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 8907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 8907,
 		condition_id = {
 			8905
 		},
@@ -10735,17 +11214,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8908] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 8908,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_blue",
 		skill_id = 4081,
+		use_gold = 1200,
+		id = 8908,
 		condition_id = {
 			8907
 		},
@@ -10769,17 +11248,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8909] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 8909,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 8909,
 		condition_id = {
 			8907,
 			8908
@@ -10804,17 +11283,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8910] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 8910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 8910,
 		condition_id = {
 			8902,
 			8909
@@ -10849,17 +11328,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[8911] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 8911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 201099,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 8911,
 		condition_id = {
 			8909,
 			8910
@@ -10885,17 +11364,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9001] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 9001,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 9001,
 		condition_id = {},
 		effect = {
 			{
@@ -10917,17 +11396,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9002] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 1,
-		id = 9002,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 9002,
 		condition_id = {
 			9001
 		},
@@ -10951,17 +11430,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9003] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 9003,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 9003,
 		condition_id = {
 			9001
 		},
@@ -10985,17 +11464,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9004] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 9004,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 9004,
 		condition_id = {
 			9003
 		},
@@ -11019,17 +11498,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9005] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 9005,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 9005,
 		condition_id = {
 			9003
 		},
@@ -11053,17 +11532,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9006] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 9006,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 9006,
 		condition_id = {
 			9005
 		},
@@ -11087,17 +11566,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9007] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 9007,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 9007,
 		condition_id = {
 			9005
 		},
@@ -11131,17 +11610,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9008] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 9008,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_blue",
 		skill_id = 4081,
+		use_gold = 1200,
+		id = 9008,
 		condition_id = {
 			9007
 		},
@@ -11165,17 +11644,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9009] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 9009,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 9009,
 		condition_id = {
 			9007
 		},
@@ -11199,17 +11678,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9010] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 9010,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 9010,
 		condition_id = {
 			9002,
 			9009
@@ -11244,17 +11723,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9011] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 9011,
+		descrip = "",
 		max_level = 1,
 		skin_id = 201109,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 9011,
 		condition_id = {
 			9008,
 			9009,
@@ -11281,17 +11760,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9101] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 9101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 9101,
 		condition_id = {},
 		effect = {
 			{
@@ -11313,17 +11792,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9102] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 1,
-		id = 9102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 9102,
 		condition_id = {
 			9101
 		},
@@ -11347,17 +11826,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9103] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 9103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 9103,
 		condition_id = {
 			9101
 		},
@@ -11381,17 +11860,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9104] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 9104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 9104,
 		condition_id = {
 			9103
 		},
@@ -11415,17 +11894,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9105] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 9105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 9105,
 		condition_id = {
 			9103
 		},
@@ -11449,17 +11928,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9106] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 9106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 9106,
 		condition_id = {
 			9105
 		},
@@ -11483,17 +11962,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9107] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 9107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 9107,
 		condition_id = {
 			9105
 		},
@@ -11527,17 +12006,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9108] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 9108,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_blue",
 		skill_id = 1061,
+		use_gold = 1200,
+		id = 9108,
 		condition_id = {
 			9107
 		},
@@ -11561,17 +12040,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9109] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 9109,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 9109,
 		condition_id = {
 			9107
 		},
@@ -11595,17 +12074,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9110] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 9110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 9110,
 		condition_id = {
 			9102,
 			9109
@@ -11640,17 +12119,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9111] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 9111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 201119,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 9111,
 		condition_id = {
 			9108,
 			9109,
@@ -11677,17 +12156,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9201] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 9201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 9201,
 		condition_id = {},
 		effect = {
 			{
@@ -11709,17 +12188,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9202] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 9202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 9202,
 		condition_id = {
 			9201
 		},
@@ -11743,17 +12222,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9203] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 9203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 9203,
 		condition_id = {
 			9201
 		},
@@ -11777,17 +12256,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9204] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 9204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 9204,
 		condition_id = {
 			9203
 		},
@@ -11811,17 +12290,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9205] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 9205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 9205,
 		condition_id = {
 			9203
 		},
@@ -11845,17 +12324,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9206] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 9206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 9206,
 		condition_id = {
 			9205
 		},
@@ -11879,17 +12358,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9207] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 9207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 9207,
 		condition_id = {
 			9205
 		},
@@ -11923,17 +12402,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9208] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 9208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_blue",
 		skill_id = 1061,
+		use_gold = 1800,
+		id = 9208,
 		condition_id = {
 			9207
 		},
@@ -11957,17 +12436,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9209] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 9209,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 9209,
 		condition_id = {
 			9207
 		},
@@ -11991,17 +12470,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9210] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 9210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 9210,
 		condition_id = {
 			9202,
 			9209
@@ -12036,17 +12515,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[9211] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 9211,
+		descrip = "",
 		max_level = 1,
 		skin_id = 201129,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 9211,
 		condition_id = {
 			9208,
 			9209,
@@ -12073,17 +12552,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10101] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 10101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 10101,
 		condition_id = {},
 		effect = {
 			{
@@ -12105,17 +12584,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10102] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 10102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 10102,
 		condition_id = {
 			10101
 		},
@@ -12139,17 +12618,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10103] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 10103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 10103,
 		condition_id = {
 			10101
 		},
@@ -12173,17 +12652,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10104] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 10104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 10104,
 		condition_id = {
 			10103
 		},
@@ -12207,17 +12686,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10105] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 10105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 10105,
 		condition_id = {
 			10103
 		},
@@ -12241,17 +12720,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10106] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 10106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 10106,
 		condition_id = {
 			10105
 		},
@@ -12275,17 +12754,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10107] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 10107,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 10107,
 		condition_id = {
 			10105
 		},
@@ -12309,17 +12788,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10108] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 10108,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 10108,
 		condition_id = {
 			10102,
 			10107
@@ -12354,17 +12833,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10109] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 10109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 10109,
 		condition_id = {
 			10107
 		},
@@ -12398,17 +12877,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10110] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 10110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 10110,
 		condition_id = {
 			10109
 		},
@@ -12450,25 +12929,25 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10111] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 10111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 201219,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 10111,
 		condition_id = {
 			10109,
 			10110
 		},
 		effect = {
 			{
-				torpedo = 25,
-				dodge = 20
+				dodge = 20,
+				torpedo = 25
 			}
 		},
 		ship_id = {},
@@ -12486,17 +12965,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10112] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 10112,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 10860,
+		use_gold = 3000,
+		id = 10112,
 		condition_id = {
 			10111
 		},
@@ -12524,17 +13003,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10401] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 10401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 10401,
 		condition_id = {},
 		effect = {
 			{
@@ -12556,17 +13035,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10402] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 10402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 10402,
 		condition_id = {
 			10401
 		},
@@ -12590,17 +13069,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10403] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 10403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 10403,
 		condition_id = {
 			10401
 		},
@@ -12624,17 +13103,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10404] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 10404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 10404,
 		condition_id = {
 			10403
 		},
@@ -12658,17 +13137,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10405] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 10405,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 10405,
 		condition_id = {
 			10403
 		},
@@ -12692,17 +13171,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10406] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 10406,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 10406,
 		condition_id = {
 			10405
 		},
@@ -12726,17 +13205,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10407] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 10407,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 10407,
 		condition_id = {
 			10405
 		},
@@ -12770,17 +13249,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10408] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 10408,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 4081,
+		use_gold = 1200,
+		id = 10408,
 		condition_id = {
 			10407
 		},
@@ -12804,17 +13283,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10409] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 10409,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 10409,
 		condition_id = {
 			10407,
 			10408
@@ -12849,17 +13328,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10410] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 10410,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 10410,
 		condition_id = {
 			10404,
 			10409
@@ -12894,17 +13373,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10411] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 10411,
+		descrip = "",
 		max_level = 1,
 		skin_id = 202019,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 10411,
 		condition_id = {
 			10409,
 			10410
@@ -12930,17 +13409,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10501] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 10501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 10501,
 		condition_id = {},
 		effect = {
 			{
@@ -12962,17 +13441,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10502] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 10502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 10502,
 		condition_id = {
 			10501
 		},
@@ -12996,17 +13475,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10503] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 10503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 10503,
 		condition_id = {
 			10501
 		},
@@ -13030,17 +13509,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10504] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 10504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 10504,
 		condition_id = {
 			10503
 		},
@@ -13064,17 +13543,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10505] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 10505,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 10505,
 		condition_id = {
 			10503
 		},
@@ -13098,17 +13577,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10506] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 10506,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 10506,
 		condition_id = {
 			10505
 		},
@@ -13132,17 +13611,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10507] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 10507,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 10507,
 		condition_id = {
 			10505
 		},
@@ -13176,17 +13655,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10508] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 10508,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_red",
 		skill_id = 10710,
+		use_gold = 1800,
+		id = 10508,
 		condition_id = {
 			10507
 		},
@@ -13210,17 +13689,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10509] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 10509,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 10509,
 		condition_id = {
 			10507,
 			10508
@@ -13255,17 +13734,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10510] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 10510,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 10510,
 		condition_id = {
 			10504,
 			10509
@@ -13300,17 +13779,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10511] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 10511,
+		descrip = "",
 		max_level = 1,
 		skin_id = 202029,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 10511,
 		condition_id = {
 			10509,
 			10510
@@ -13336,17 +13815,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10601] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 10601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 10601,
 		condition_id = {},
 		effect = {
 			{
@@ -13368,17 +13847,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10602] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 10602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 10602,
 		condition_id = {
 			10601
 		},
@@ -13402,17 +13881,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10603] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 10603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 10603,
 		condition_id = {
 			10601
 		},
@@ -13436,17 +13915,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10604] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 10604,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 10604,
 		condition_id = {
 			10603
 		},
@@ -13470,17 +13949,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10605] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 10605,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 10605,
 		condition_id = {
 			10603
 		},
@@ -13504,17 +13983,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10606] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 10606,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 10606,
 		condition_id = {
 			10605
 		},
@@ -13538,17 +14017,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10607] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 10607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 10607,
 		condition_id = {
 			10605
 		},
@@ -13582,17 +14061,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10608] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 10608,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_red",
 		skill_id = 10710,
+		use_gold = 1800,
+		id = 10608,
 		condition_id = {
 			10607
 		},
@@ -13616,17 +14095,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10609] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 10609,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 10609,
 		condition_id = {
 			10607,
 			10608
@@ -13661,17 +14140,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10610] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 10610,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 10610,
 		condition_id = {
 			10604,
 			10609
@@ -13706,17 +14185,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[10611] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 10611,
+		descrip = "",
 		max_level = 1,
 		skin_id = 202039,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 10611,
 		condition_id = {
 			10609,
 			10610
@@ -13742,17 +14221,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11901] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 11901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 11901,
 		condition_id = {},
 		effect = {
 			{
@@ -13774,17 +14253,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11902] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 11902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 11902,
 		condition_id = {
 			11901
 		},
@@ -13808,17 +14287,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11903] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 11903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 11903,
 		condition_id = {
 			11901
 		},
@@ -13842,17 +14321,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11904] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 11904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 11904,
 		condition_id = {
 			11903
 		},
@@ -13876,17 +14355,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11905] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 11905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 11905,
 		condition_id = {
 			11903
 		},
@@ -13910,17 +14389,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11906] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 11906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 11906,
 		condition_id = {
 			11905
 		},
@@ -13944,17 +14423,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11907] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 11907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 11907,
 		condition_id = {
 			11905
 		},
@@ -13988,17 +14467,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11908] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 11908,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 11908,
 		condition_id = {
 			11902,
 			11907
@@ -14033,17 +14512,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11909] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 11909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 11909,
 		condition_id = {
 			11907
 		},
@@ -14077,17 +14556,17 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11910] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 11910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aa_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 11910,
 		condition_id = {
 			11909,
 			11906
@@ -14130,14 +14609,8 @@ This ship will receive <color=#92fc63>Torpedo base -1</color>
 		}
 	},
 	[11911] = {
-		use_gold = 3000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 11911,
-		max_level = 1,
-		skin_id = 203019,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 The effects of fully retrofitting this ship:
 
@@ -14145,16 +14618,22 @@ The effects of fully retrofitting this ship:
 - The <color=#A9F548>Torpedo slot</color> will be converted into an <color=#A9F548>Auxiliary Weapon slot.</color>
 - You can equip <color=#92fc63>either Torpedoes or DD Guns</color> in this slot.
 - However, as a result of this conversion, <color=#A9F548>this ship will lose 1 Auxiliary Weapon base;</color> whether you equip Torpedoes or a DD Gun, <color=#A9F548>this ship will only have 1 base for the chosen weapon type.</color> ]],
+		max_level = 1,
+		skin_id = 203019,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 11911,
 		condition_id = {
 			11909,
 			11910
 		},
 		effect = {
 			{
-				antiaircraft = 30,
-				hit = 15
+				hit = 15,
+				antiaircraft = 30
 			}
 		},
 		ship_id = {
@@ -14177,17 +14656,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[11912] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 11912,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 12420,
+		use_gold = 3000,
+		id = 11912,
 		condition_id = {
 			11911
 		},
@@ -14215,17 +14694,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12001] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 12001,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 12001,
 		condition_id = {},
 		effect = {
 			{
@@ -14247,17 +14726,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12002] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 12002,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 12002,
 		condition_id = {
 			12001
 		},
@@ -14281,17 +14760,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12003] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 12003,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 12003,
 		condition_id = {
 			12001
 		},
@@ -14315,17 +14794,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12004] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 12004,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 12004,
 		condition_id = {
 			12003
 		},
@@ -14349,17 +14828,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12005] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 12005,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 12005,
 		condition_id = {
 			12003
 		},
@@ -14383,17 +14862,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12006] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 12006,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 12006,
 		condition_id = {
 			12005
 		},
@@ -14417,17 +14896,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12007] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 12007,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 12007,
 		condition_id = {
 			12005
 		},
@@ -14461,17 +14940,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12008] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 12008,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_red",
 		skill_id = 1004,
+		use_gold = 1800,
+		id = 12008,
 		condition_id = {
 			12007
 		},
@@ -14495,17 +14974,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12009] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 12009,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 12009,
 		condition_id = {
 			12007
 		},
@@ -14539,17 +15018,17 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12010] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 12010,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 12010,
 		condition_id = {
 			12004,
 			12009
@@ -14584,14 +15063,8 @@ The effects of fully retrofitting this ship:
 		}
 	},
 	[12011] = {
-		use_gold = 3000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 12011,
-		max_level = 1,
-		skin_id = 203029,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete. The following changes have been applied:
 
@@ -14599,8 +15072,14 @@ FP +25, TRP +20.
 This ship's <color=#92fc63>Torpedo gear slot</color> has changed into a <color=#92fc63>Secondary Weapon slot</color>.
 Secondary Guns can be equipped in this slot.
 This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
+		max_level = 1,
+		skin_id = 203029,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 12011,
 		condition_id = {
 			12008,
 			12009,
@@ -14632,17 +15111,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12201] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 12201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 12201,
 		condition_id = {},
 		effect = {
 			{
@@ -14664,17 +15143,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12202] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 12202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 12202,
 		condition_id = {
 			12201
 		},
@@ -14698,17 +15177,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12203] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 12203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 12203,
 		condition_id = {
 			12201
 		},
@@ -14732,17 +15211,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12204] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 12204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 12204,
 		condition_id = {
 			12203
 		},
@@ -14766,17 +15245,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12205] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 12205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 12205,
 		condition_id = {
 			12203
 		},
@@ -14800,17 +15279,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12206] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 12206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 12206,
 		condition_id = {
 			12205
 		},
@@ -14834,17 +15313,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12207] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 12207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 12207,
 		condition_id = {
 			12205
 		},
@@ -14878,17 +15357,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12208] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 12208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_red",
 		skill_id = 2011,
+		use_gold = 1800,
+		id = 12208,
 		condition_id = {
 			12207
 		},
@@ -14912,17 +15391,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12209] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 12209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 12209,
 		condition_id = {
 			12207
 		},
@@ -14956,17 +15435,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12210] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 12210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 12210,
 		condition_id = {
 			12204,
 			12209
@@ -15001,17 +15480,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12211] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 12211,
+		descrip = "",
 		max_level = 1,
 		skin_id = 203049,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 12211,
 		condition_id = {
 			12208,
 			12209,
@@ -15038,17 +15517,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12501] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 12501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 12501,
 		condition_id = {},
 		effect = {
 			{
@@ -15070,17 +15549,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12502] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 12502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 12502,
 		condition_id = {
 			12501
 		},
@@ -15104,17 +15583,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12503] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 12503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 12503,
 		condition_id = {
 			12501
 		},
@@ -15138,17 +15617,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12504] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 12504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 12504,
 		condition_id = {
 			12503
 		},
@@ -15172,17 +15651,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12505] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 12505,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 12505,
 		condition_id = {
 			12503
 		},
@@ -15206,17 +15685,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12506] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 4,
-		id = 12506,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 12506,
 		condition_id = {
 			12505
 		},
@@ -15240,17 +15719,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12507] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 12507,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 12507,
 		condition_id = {
 			12505
 		},
@@ -15284,17 +15763,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12508] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 12508,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 12508,
 		condition_id = {
 			12502,
 			12507
@@ -15329,17 +15808,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12509] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 12509,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 12509,
 		condition_id = {
 			12507
 		},
@@ -15373,17 +15852,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12510] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 12510,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 12510,
 		condition_id = {
 			12509,
 			12506
@@ -15426,17 +15905,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12511] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 12511,
+		descrip = "",
 		max_level = 1,
 		skin_id = 203079,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 12511,
 		condition_id = {
 			12509,
 			12510
@@ -15462,17 +15941,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12512] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 12512,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_yellow",
 		skill_id = 11770,
+		use_gold = 3000,
+		id = 12512,
 		condition_id = {
 			12511
 		},
@@ -15500,17 +15979,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12601] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 12601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 12601,
 		condition_id = {},
 		effect = {
 			{
@@ -15532,17 +16011,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12602] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 12602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 12602,
 		condition_id = {
 			12601
 		},
@@ -15566,17 +16045,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12603] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 12603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 12603,
 		condition_id = {
 			12601
 		},
@@ -15600,17 +16079,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12604] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 12604,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 12604,
 		condition_id = {
 			12603
 		},
@@ -15634,17 +16113,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12605] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 12605,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 12605,
 		condition_id = {
 			12603
 		},
@@ -15668,17 +16147,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12606] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 12606,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 12606,
 		condition_id = {
 			12605
 		},
@@ -15702,17 +16181,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12607] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 12607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 12607,
 		condition_id = {
 			12605
 		},
@@ -15746,17 +16225,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12608] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Hit Enhancement Ⅱ",
-		star_limit = 4,
-		id = 12608,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 12608,
 		condition_id = {
 			12602,
 			12607
@@ -15781,17 +16260,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12609] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 12609,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 12609,
 		condition_id = {
 			12607
 		},
@@ -15825,17 +16304,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12610] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 5,
-		id = 12610,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 12610,
 		condition_id = {
 			12609
 		},
@@ -15877,17 +16356,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12611] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 12611,
+		descrip = "",
 		max_level = 1,
 		skin_id = 203089,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 12611,
 		condition_id = {
 			12609,
 			12610
@@ -15913,17 +16392,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[12612] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 12612,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 10710,
+		use_gold = 3000,
+		id = 12612,
 		condition_id = {
 			12611
 		},
@@ -15951,17 +16430,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13101] = {
-		use_gold = 600,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 3,
-		id = 13101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 1,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 13101,
 		condition_id = {},
 		effect = {
 			{
@@ -15983,17 +16462,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13102] = {
-		use_gold = 800,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 3,
-		id = 13102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 3,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 13102,
 		condition_id = {
 			13101
 		},
@@ -16017,17 +16496,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13103] = {
-		use_gold = 1000,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 13103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 13103,
 		condition_id = {
 			13101
 		},
@@ -16051,17 +16530,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13104] = {
-		use_gold = 1500,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 13104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 13104,
 		condition_id = {
 			13103
 		},
@@ -16085,17 +16564,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13105] = {
-		use_gold = 1800,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 13105,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 13105,
 		condition_id = {
 			13103
 		},
@@ -16129,17 +16608,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13106] = {
-		use_gold = 2000,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 13106,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 13106,
 		condition_id = {
 			13104,
 			13105
@@ -16174,17 +16653,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13107] = {
-		use_gold = 2500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 13107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 13107,
 		condition_id = {
 			13105
 		},
@@ -16226,17 +16705,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13108] = {
-		use_gold = 3000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 5,
-		id = 13108,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 5,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 13108,
 		condition_id = {
 			13102,
 			13107
@@ -16271,17 +16750,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13109] = {
-		use_gold = 4000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 6,
-		id = 13109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 6,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 13109,
 		condition_id = {
 			13107
 		},
@@ -16315,17 +16794,17 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13110] = {
-		use_gold = 5000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 6,
-		id = 13110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 6,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 5000,
+		id = 13110,
 		condition_id = {
 			13108,
 			13109
@@ -16368,30 +16847,30 @@ This ship has <color=#92fc63>lost 1 Secondary Weapon mount</color>.]],
 		}
 	},
 	[13111] = {
-		use_gold = 7500,
-		name = "Modernization",
-		star_limit = 6,
-		id = 13111,
-		max_level = 1,
-		skin_id = 205029,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 The effects of fully retrofitting this ship:
 
 This ship becomes able to equip <color=#92fc63>ASW aircraft</color> in its <color=#92fc63>first Auxiliary gear slot</color>, 
 its <color=#92fc63>ASW stat</color> will increase, 
 and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. ]],
+		max_level = 1,
+		skin_id = 205029,
+		use_ship = 1,
+		star_limit = 6,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 7500,
+		id = 13111,
 		condition_id = {
 			13106,
 			13109
 		},
 		effect = {
 			{
-				hit = 25,
-				antiaircraft = 20
+				antiaircraft = 20,
+				hit = 25
 			}
 		},
 		ship_id = {
@@ -16414,17 +16893,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13112] = {
-		use_gold = 5000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 6,
-		id = 13112,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 1,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 6,
 		icon = "skill_yellow",
 		skill_id = 11880,
+		use_gold = 5000,
+		id = 13112,
 		condition_id = {
 			13111
 		},
@@ -16448,17 +16927,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13201] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 13201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 13201,
 		condition_id = {},
 		effect = {
 			{
@@ -16480,17 +16959,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13202] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 13202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 13202,
 		condition_id = {
 			13201
 		},
@@ -16514,17 +16993,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13203] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 13203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 13203,
 		condition_id = {
 			13201
 		},
@@ -16548,17 +17027,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13204] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 13204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 13204,
 		condition_id = {
 			13203
 		},
@@ -16582,17 +17061,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13205] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 13205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 13205,
 		condition_id = {
 			13203
 		},
@@ -16616,17 +17095,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13206] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 13206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 13206,
 		condition_id = {
 			13205
 		},
@@ -16650,17 +17129,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13207] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 13207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 13207,
 		condition_id = {
 			13205
 		},
@@ -16694,17 +17173,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13208] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 13208,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 13208,
 		condition_id = {
 			13202,
 			13207
@@ -16739,17 +17218,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13209] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 13209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 13209,
 		condition_id = {
 			13207
 		},
@@ -16783,17 +17262,17 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13210] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 13210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 13210,
 		condition_id = {
 			13208,
 			13209
@@ -16836,29 +17315,29 @@ and its skill <color=#92fc63>"Divine Marksman"</color> will receive an upgrade. 
 		}
 	},
 	[13211] = {
-		use_gold = 3000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 13211,
-		max_level = 1,
-		skin_id = 205039,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete. The following changes have been applied:
 
 AA +20, ACC +25.
 This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
+		max_level = 1,
+		skin_id = 205039,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 13211,
 		condition_id = {
 			13206,
 			13209
 		},
 		effect = {
 			{
-				hit = 25,
-				antiaircraft = 20
+				antiaircraft = 20,
+				hit = 25
 			}
 		},
 		ship_id = {
@@ -16881,17 +17360,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[13212] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 13212,
+		descrip = "Unlock Close Engagement",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "Unlock Close Engagement",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 16700,
+		use_gold = 3000,
+		id = 13212,
 		condition_id = {
 			13211
 		},
@@ -16919,17 +17398,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14001] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 14001,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 14001,
 		condition_id = {},
 		effect = {
 			{
@@ -16951,17 +17430,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14002] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 1,
-		id = 14002,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 14002,
 		condition_id = {
 			14001
 		},
@@ -16985,24 +17464,24 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14003] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Torpedo Dive Ⅰ",
-		star_limit = 2,
-		id = 14003,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "bfup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 14003,
 		condition_id = {
 			14001
 		},
 		effect = {
 			{
-				equipment_proficiency_1 = 0.03,
-				equipment_proficiency_2 = 0.03
+				equipment_proficiency_2 = 0.03,
+				equipment_proficiency_1 = 0.03
 			}
 		},
 		ship_id = {},
@@ -17020,17 +17499,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14004] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 14004,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 14004,
 		condition_id = {
 			14003
 		},
@@ -17054,17 +17533,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14005] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 14005,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 14005,
 		condition_id = {
 			14003
 		},
@@ -17088,17 +17567,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14006] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 14006,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 14006,
 		condition_id = {
 			14005
 		},
@@ -17122,17 +17601,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14007] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 14007,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 14007,
 		condition_id = {
 			14005
 		},
@@ -17166,17 +17645,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14008] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 14008,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_yellow",
 		skill_id = 12110,
+		use_gold = 1200,
+		id = 14008,
 		condition_id = {
 			14007
 		},
@@ -17200,29 +17679,29 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14009] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Torpedo Dive Ⅱ",
-		star_limit = 4,
-		id = 14009,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "bfup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 14009,
 		condition_id = {
 			14007,
 			14008
 		},
 		effect = {
 			{
-				equipment_proficiency_1 = 0.03,
-				equipment_proficiency_2 = 0.03
+				equipment_proficiency_2 = 0.03,
+				equipment_proficiency_1 = 0.03
 			},
 			{
-				equipment_proficiency_1 = 0.04,
-				equipment_proficiency_2 = 0.04
+				equipment_proficiency_2 = 0.04,
+				equipment_proficiency_1 = 0.04
 			}
 		},
 		ship_id = {},
@@ -17247,17 +17726,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14010] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 14010,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 14010,
 		condition_id = {
 			14004,
 			14009
@@ -17292,25 +17771,25 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14011] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 14011,
+		descrip = "",
 		max_level = 1,
 		skin_id = 206019,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 14011,
 		condition_id = {
 			14009,
 			14010
 		},
 		effect = {
 			{
-				antiaircraft = 35,
-				air = 10
+				air = 10,
+				antiaircraft = 35
 			}
 		},
 		ship_id = {},
@@ -17328,17 +17807,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14201] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 14201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 14201,
 		condition_id = {},
 		effect = {
 			{
@@ -17360,17 +17839,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14202] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 14202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 14202,
 		condition_id = {
 			14201
 		},
@@ -17394,17 +17873,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14203] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Air Elite Ⅰ",
-		star_limit = 3,
-		id = 14203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "ffup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 14203,
 		condition_id = {
 			14201
 		},
@@ -17428,17 +17907,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14204] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 14204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 14204,
 		condition_id = {
 			14203
 		},
@@ -17462,17 +17941,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14205] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Torpedo Dive Ⅰ",
-		star_limit = 4,
-		id = 14205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tfup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 14205,
 		condition_id = {
 			14203
 		},
@@ -17496,17 +17975,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14206] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 4,
-		id = 14206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 14206,
 		condition_id = {
 			14205
 		},
@@ -17530,17 +18009,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14207] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 14207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 14207,
 		condition_id = {
 			14205
 		},
@@ -17574,17 +18053,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14208] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 4,
-		id = 14208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 14208,
 		condition_id = {
 			14207,
 			14202
@@ -17609,17 +18088,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14209] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Air Elite Ⅱ",
-		star_limit = 5,
-		id = 14209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "ffup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 14209,
 		condition_id = {
 			14207
 		},
@@ -17653,17 +18132,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14210] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 14210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 14210,
 		condition_id = {
 			14209
 		},
@@ -17705,17 +18184,17 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14211] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 5,
-		id = 14211,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 14211,
 		condition_id = {
 			14209,
 			14210
@@ -17758,28 +18237,28 @@ This ship's Big Seven skill has been upgraded to Big Seven - Nelson.]],
 		}
 	},
 	[14212] = {
-		use_gold = 4000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 14212,
-		max_level = 1,
-		skin_id = 206039,
-		use_ship = 1,
 		level_limit = 90,
+		name = "Modernization",
 		descrip = [[
 Completing the retrofit will have the following effects:
 AA +35, AVI +10.
 This ship gains <color=#92fc63>Fighters +1</color>.
 The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63>Yuni's Aid</color>.]],
+		max_level = 1,
+		skin_id = 206039,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 14212,
 		condition_id = {
 			14211
 		},
 		effect = {
 			{
-				antiaircraft = 35,
-				air = 10
+				air = 10,
+				antiaircraft = 35
 			}
 		},
 		ship_id = {
@@ -17802,17 +18281,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14401] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 14401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 14401,
 		condition_id = {},
 		effect = {
 			{
@@ -17834,17 +18313,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14402] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 14402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 14402,
 		condition_id = {
 			14401
 		},
@@ -17868,17 +18347,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14403] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Bombing Elite Ⅰ",
-		star_limit = 3,
-		id = 14403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "bfup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 14403,
 		condition_id = {
 			14401
 		},
@@ -17902,17 +18381,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14404] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 14404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 14404,
 		condition_id = {
 			14403
 		},
@@ -17936,24 +18415,24 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14405] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Torpedo Dive Ⅰ",
-		star_limit = 4,
-		id = 14405,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tfup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 14405,
 		condition_id = {
 			14403
 		},
 		effect = {
 			{
-				equipment_proficiency_1 = 0.03,
-				equipment_proficiency_2 = 0.03
+				equipment_proficiency_2 = 0.03,
+				equipment_proficiency_1 = 0.03
 			}
 		},
 		ship_id = {},
@@ -17971,17 +18450,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14406] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 4,
-		id = 14406,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 14406,
 		condition_id = {
 			14405
 		},
@@ -18005,17 +18484,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14407] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 14407,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 14407,
 		condition_id = {
 			14405
 		},
@@ -18049,17 +18528,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14408] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 4,
-		id = 14408,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 14408,
 		condition_id = {
 			14407,
 			14402
@@ -18084,17 +18563,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14409] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Bombing Elite Ⅱ",
-		star_limit = 5,
-		id = 14409,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "bfup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 14409,
 		condition_id = {
 			14407
 		},
@@ -18128,17 +18607,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14410] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 5,
-		id = 14410,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 14410,
 		condition_id = {
 			14409
 		},
@@ -18180,25 +18659,25 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14411] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 14411,
+		descrip = "",
 		max_level = 1,
 		skin_id = 207029,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 14411,
 		condition_id = {
 			14409,
 			14410
 		},
 		effect = {
 			{
-				antiaircraft = 35,
-				reload = 10
+				reload = 10,
+				antiaircraft = 35
 			}
 		},
 		ship_id = {},
@@ -18216,17 +18695,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[14412] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 14412,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 14710,
+		use_gold = 3000,
+		id = 14412,
 		condition_id = {
 			14411
 		},
@@ -18254,17 +18733,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15501] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 15501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 15501,
 		condition_id = {},
 		effect = {
 			{
@@ -18286,17 +18765,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15502] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 15502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 15502,
 		condition_id = {
 			15501
 		},
@@ -18320,17 +18799,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15503] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 15503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 15503,
 		condition_id = {
 			15501
 		},
@@ -18354,17 +18833,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15504] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 15504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 15504,
 		condition_id = {
 			15503
 		},
@@ -18388,17 +18867,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15505] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 15505,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 15505,
 		condition_id = {
 			15503
 		},
@@ -18422,17 +18901,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15506] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 15506,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 15506,
 		condition_id = {
 			15505
 		},
@@ -18456,17 +18935,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15507] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 15507,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 15507,
 		condition_id = {
 			15505
 		},
@@ -18490,17 +18969,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15508] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 15508,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 15508,
 		condition_id = {
 			15504,
 			15507
@@ -18535,17 +19014,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15509] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 15509,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 15509,
 		condition_id = {
 			15507
 		},
@@ -18579,17 +19058,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15510] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 15510,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 15510,
 		condition_id = {
 			15506,
 			15509
@@ -18632,25 +19111,25 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15511] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 15511,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301059,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 15511,
 		condition_id = {
 			15509,
 			15510
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -18668,17 +19147,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[15512] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 15512,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_blue",
 		skill_id = 10940,
+		use_gold = 3000,
+		id = 15512,
 		condition_id = {
 			15508,
 			15511
@@ -18707,17 +19186,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16401] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 3,
-		id = 16401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 16401,
 		condition_id = {},
 		effect = {
 			{
@@ -18739,17 +19218,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16402] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 16402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 16402,
 		condition_id = {
 			16401
 		},
@@ -18773,17 +19252,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16403] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 16403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 16403,
 		condition_id = {
 			16401
 		},
@@ -18807,17 +19286,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16404] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 4,
-		id = 16404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 16404,
 		condition_id = {
 			16403
 		},
@@ -18841,17 +19320,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16405] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 16405,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 16405,
 		condition_id = {
 			16403
 		},
@@ -18885,17 +19364,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16406] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 16406,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 16406,
 		condition_id = {
 			16402,
 			16405
@@ -18930,17 +19409,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16407] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 16407,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 16407,
 		condition_id = {
 			16405
 		},
@@ -18974,17 +19453,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16408] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 16408,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 16408,
 		condition_id = {
 			16407
 		},
@@ -19018,17 +19497,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16409] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 6,
-		id = 16409,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 6,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 16409,
 		condition_id = {
 			16407
 		},
@@ -19062,17 +19541,17 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16410] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅲ",
-		star_limit = 6,
-		id = 16410,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 6,
 		icon = "Cn_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 16410,
 		condition_id = {
 			16404,
 			16409
@@ -19129,29 +19608,29 @@ The skill <color=#92fc63>Support Carrier</color> will change into <color=#92fc63
 		}
 	},
 	[16411] = {
-		use_gold = 4000,
-		name = "Modernization",
-		star_limit = 6,
-		id = 16411,
-		max_level = 1,
-		skin_id = 301149,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 After modernization is complete:
 <color=#92fc63>Torpedo base -1</color>,
 <color=#92fc63>Main Gun base +1</color>,
 <color=#92fc63>Nightmare of Solomon</color> will change to <color=#92fc63>Nightmare of Solomon+</color>,
 <color=#92fc63>All Out Assault II</color> will change to <color=#92fc63>All Out Assault III</color>.]],
+		max_level = 1,
+		skin_id = 301149,
+		use_ship = 1,
+		star_limit = 6,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 16411,
 		condition_id = {
 			16409
 		},
 		effect = {
 			{
-				torpedo = 20,
-				dodge = 25
+				dodge = 25,
+				torpedo = 20
 			}
 		},
 		ship_id = {
@@ -19174,17 +19653,17 @@ After modernization is complete:
 		}
 	},
 	[16412] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 6,
-		id = 16412,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 6,
 		icon = "skill_yellow",
 		skill_id = 14900,
+		use_gold = 3000,
+		id = 16412,
 		condition_id = {
 			16411
 		},
@@ -19212,17 +19691,17 @@ After modernization is complete:
 		}
 	},
 	[16501] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 16501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 16501,
 		condition_id = {},
 		effect = {
 			{
@@ -19244,17 +19723,17 @@ After modernization is complete:
 		}
 	},
 	[16502] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 16502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 16502,
 		condition_id = {
 			16501
 		},
@@ -19278,17 +19757,17 @@ After modernization is complete:
 		}
 	},
 	[16503] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 16503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 16503,
 		condition_id = {
 			16501
 		},
@@ -19312,17 +19791,17 @@ After modernization is complete:
 		}
 	},
 	[16504] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 16504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 16504,
 		condition_id = {
 			16503
 		},
@@ -19346,17 +19825,17 @@ After modernization is complete:
 		}
 	},
 	[16505] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 16505,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 16505,
 		condition_id = {
 			16503
 		},
@@ -19390,17 +19869,17 @@ After modernization is complete:
 		}
 	},
 	[16506] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 16506,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 16506,
 		condition_id = {
 			16502,
 			16505
@@ -19435,17 +19914,17 @@ After modernization is complete:
 		}
 	},
 	[16507] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 16507,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 16507,
 		condition_id = {
 			16505
 		},
@@ -19479,17 +19958,17 @@ After modernization is complete:
 		}
 	},
 	[16508] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 16508,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 16508,
 		condition_id = {
 			16507
 		},
@@ -19523,17 +20002,17 @@ After modernization is complete:
 		}
 	},
 	[16509] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 16509,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 16509,
 		condition_id = {
 			16507
 		},
@@ -19567,17 +20046,17 @@ After modernization is complete:
 		}
 	},
 	[16510] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅲ",
-		star_limit = 5,
-		id = 16510,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Tp_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 16510,
 		condition_id = {
 			16504,
 			16509
@@ -19634,17 +20113,17 @@ After modernization is complete:
 		}
 	},
 	[16511] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 16511,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301159,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 16511,
 		condition_id = {
 			16509
 		},
@@ -19669,17 +20148,17 @@ After modernization is complete:
 		}
 	},
 	[16512] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 16512,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_yellow",
 		skill_id = 12680,
+		use_gold = 3000,
+		id = 16512,
 		condition_id = {
 			16511
 		},
@@ -19707,17 +20186,17 @@ After modernization is complete:
 		}
 	},
 	[16701] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 16701,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 16701,
 		condition_id = {},
 		effect = {
 			{
@@ -19739,17 +20218,17 @@ After modernization is complete:
 		}
 	},
 	[16702] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 16702,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 16702,
 		condition_id = {
 			16701
 		},
@@ -19773,17 +20252,17 @@ After modernization is complete:
 		}
 	},
 	[16703] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 16703,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 16703,
 		condition_id = {
 			16701
 		},
@@ -19807,17 +20286,17 @@ After modernization is complete:
 		}
 	},
 	[16704] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 16704,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 16704,
 		condition_id = {
 			16703
 		},
@@ -19841,17 +20320,17 @@ After modernization is complete:
 		}
 	},
 	[16705] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 16705,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 16705,
 		condition_id = {
 			16703
 		},
@@ -19875,17 +20354,17 @@ After modernization is complete:
 		}
 	},
 	[16706] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 16706,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 16706,
 		condition_id = {
 			16705
 		},
@@ -19909,17 +20388,17 @@ After modernization is complete:
 		}
 	},
 	[16707] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 16707,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 16707,
 		condition_id = {
 			16705
 		},
@@ -19953,17 +20432,17 @@ After modernization is complete:
 		}
 	},
 	[16708] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 16708,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 5001,
+		use_gold = 1800,
+		id = 16708,
 		condition_id = {
 			16707
 		},
@@ -19987,17 +20466,17 @@ After modernization is complete:
 		}
 	},
 	[16709] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 16709,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 16709,
 		condition_id = {
 			16707
 		},
@@ -20021,17 +20500,17 @@ After modernization is complete:
 		}
 	},
 	[16710] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "ASW Enhancement Ⅱ ",
-		star_limit = 5,
-		id = 16710,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "as_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 16710,
 		condition_id = {
 			16709
 		},
@@ -20065,25 +20544,25 @@ After modernization is complete:
 		}
 	},
 	[16711] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 16711,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301179,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 16711,
 		condition_id = {
 			16709,
 			16710
 		},
 		effect = {
 			{
-				torpedo = 30,
-				reload = 15
+				reload = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -20101,17 +20580,17 @@ After modernization is complete:
 		}
 	},
 	[16801] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 16801,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 16801,
 		condition_id = {},
 		effect = {
 			{
@@ -20133,17 +20612,17 @@ After modernization is complete:
 		}
 	},
 	[16802] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 1,
-		id = 16802,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 16802,
 		condition_id = {
 			16801
 		},
@@ -20167,17 +20646,17 @@ After modernization is complete:
 		}
 	},
 	[16803] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 16803,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 16803,
 		condition_id = {
 			16801
 		},
@@ -20201,17 +20680,17 @@ After modernization is complete:
 		}
 	},
 	[16804] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 2,
-		id = 16804,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 16804,
 		condition_id = {
 			16803
 		},
@@ -20235,17 +20714,17 @@ After modernization is complete:
 		}
 	},
 	[16805] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 16805,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 16805,
 		condition_id = {
 			16803
 		},
@@ -20269,17 +20748,17 @@ After modernization is complete:
 		}
 	},
 	[16806] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 16806,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 16806,
 		condition_id = {
 			16805
 		},
@@ -20303,17 +20782,17 @@ After modernization is complete:
 		}
 	},
 	[16807] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 3,
-		id = 16807,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 16807,
 		condition_id = {
 			16805
 		},
@@ -20337,17 +20816,17 @@ After modernization is complete:
 		}
 	},
 	[16808] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 16808,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_yellow",
 		skill_id = 5021,
+		use_gold = 1200,
+		id = 16808,
 		condition_id = {
 			16807
 		},
@@ -20371,17 +20850,17 @@ After modernization is complete:
 		}
 	},
 	[16809] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 4,
-		id = 16809,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 16809,
 		condition_id = {
 			16807
 		},
@@ -20415,17 +20894,17 @@ After modernization is complete:
 		}
 	},
 	[16810] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 16810,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 16810,
 		condition_id = {
 			16806,
 			16809
@@ -20460,25 +20939,25 @@ After modernization is complete:
 		}
 	},
 	[16811] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 16811,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301189,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 16811,
 		condition_id = {
 			16809,
 			16810
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -20496,17 +20975,17 @@ After modernization is complete:
 		}
 	},
 	[17101] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 17101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 17101,
 		condition_id = {},
 		effect = {
 			{
@@ -20528,17 +21007,17 @@ After modernization is complete:
 		}
 	},
 	[17102] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 17102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 17102,
 		condition_id = {
 			17101
 		},
@@ -20562,17 +21041,17 @@ After modernization is complete:
 		}
 	},
 	[17103] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 17103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 17103,
 		condition_id = {
 			17101
 		},
@@ -20596,17 +21075,17 @@ After modernization is complete:
 		}
 	},
 	[17104] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 17104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 17104,
 		condition_id = {
 			17103
 		},
@@ -20630,17 +21109,17 @@ After modernization is complete:
 		}
 	},
 	[17105] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 17105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 17105,
 		condition_id = {
 			17103
 		},
@@ -20664,17 +21143,17 @@ After modernization is complete:
 		}
 	},
 	[17106] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 17106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 17106,
 		condition_id = {
 			17105
 		},
@@ -20698,17 +21177,17 @@ After modernization is complete:
 		}
 	},
 	[17107] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 17107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 17107,
 		condition_id = {
 			17105
 		},
@@ -20742,17 +21221,17 @@ After modernization is complete:
 		}
 	},
 	[17108] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 17108,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 1011,
+		use_gold = 1800,
+		id = 17108,
 		condition_id = {
 			17107
 		},
@@ -20776,17 +21255,17 @@ After modernization is complete:
 		}
 	},
 	[17109] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 17109,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 17109,
 		condition_id = {
 			17107
 		},
@@ -20810,17 +21289,17 @@ After modernization is complete:
 		}
 	},
 	[17110] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 17110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 17110,
 		condition_id = {
 			17102,
 			17109
@@ -20855,17 +21334,17 @@ After modernization is complete:
 		}
 	},
 	[17111] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 17111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301219,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 17111,
 		condition_id = {
 			17108,
 			17109,
@@ -20873,8 +21352,8 @@ After modernization is complete:
 		},
 		effect = {
 			{
-				torpedo = 30,
-				antiaircraft = 15
+				antiaircraft = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -20892,17 +21371,17 @@ After modernization is complete:
 		}
 	},
 	[17401] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 17401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 17401,
 		condition_id = {},
 		effect = {
 			{
@@ -20924,17 +21403,17 @@ After modernization is complete:
 		}
 	},
 	[17402] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 17402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 17402,
 		condition_id = {
 			17401
 		},
@@ -20958,17 +21437,17 @@ After modernization is complete:
 		}
 	},
 	[17403] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 17403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 17403,
 		condition_id = {
 			17401
 		},
@@ -20992,17 +21471,17 @@ After modernization is complete:
 		}
 	},
 	[17404] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 17404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 17404,
 		condition_id = {
 			17403
 		},
@@ -21026,17 +21505,17 @@ After modernization is complete:
 		}
 	},
 	[17405] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 17405,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 17405,
 		condition_id = {
 			17403
 		},
@@ -21060,17 +21539,17 @@ After modernization is complete:
 		}
 	},
 	[17406] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 17406,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 17406,
 		condition_id = {
 			17405
 		},
@@ -21094,17 +21573,17 @@ After modernization is complete:
 		}
 	},
 	[17407] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 17407,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 17407,
 		condition_id = {
 			17405
 		},
@@ -21138,17 +21617,17 @@ After modernization is complete:
 		}
 	},
 	[17408] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 17408,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_blue",
 		skill_id = 1061,
+		use_gold = 1800,
+		id = 17408,
 		condition_id = {
 			17407
 		},
@@ -21172,17 +21651,17 @@ After modernization is complete:
 		}
 	},
 	[17409] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 17409,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 17409,
 		condition_id = {
 			17407
 		},
@@ -21206,17 +21685,17 @@ After modernization is complete:
 		}
 	},
 	[17410] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 17410,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 17410,
 		condition_id = {
 			17402,
 			17409
@@ -21251,17 +21730,17 @@ After modernization is complete:
 		}
 	},
 	[17411] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 17411,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301249,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 17411,
 		condition_id = {
 			17408,
 			17409,
@@ -21269,8 +21748,8 @@ After modernization is complete:
 		},
 		effect = {
 			{
-				torpedo = 30,
-				antiaircraft = 15
+				antiaircraft = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -21288,17 +21767,17 @@ After modernization is complete:
 		}
 	},
 	[17501] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 17501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 17501,
 		condition_id = {},
 		effect = {
 			{
@@ -21320,17 +21799,17 @@ After modernization is complete:
 		}
 	},
 	[17502] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 17502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 17502,
 		condition_id = {
 			17501
 		},
@@ -21354,17 +21833,17 @@ After modernization is complete:
 		}
 	},
 	[17503] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 17503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 17503,
 		condition_id = {
 			17501
 		},
@@ -21388,17 +21867,17 @@ After modernization is complete:
 		}
 	},
 	[17504] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 17504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 17504,
 		condition_id = {
 			17503
 		},
@@ -21422,17 +21901,17 @@ After modernization is complete:
 		}
 	},
 	[17505] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 17505,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 17505,
 		condition_id = {
 			17503
 		},
@@ -21456,17 +21935,17 @@ After modernization is complete:
 		}
 	},
 	[17506] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 17506,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 17506,
 		condition_id = {
 			17505
 		},
@@ -21490,17 +21969,17 @@ After modernization is complete:
 		}
 	},
 	[17507] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 17507,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 17507,
 		condition_id = {
 			17505
 		},
@@ -21534,17 +22013,17 @@ After modernization is complete:
 		}
 	},
 	[17508] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 17508,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 1081,
+		use_gold = 1800,
+		id = 17508,
 		condition_id = {
 			17507
 		},
@@ -21568,17 +22047,17 @@ After modernization is complete:
 		}
 	},
 	[17509] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 17509,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 17509,
 		condition_id = {
 			17507
 		},
@@ -21602,17 +22081,17 @@ After modernization is complete:
 		}
 	},
 	[17510] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 17510,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 17510,
 		condition_id = {
 			17502,
 			17509
@@ -21647,17 +22126,17 @@ After modernization is complete:
 		}
 	},
 	[17511] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 17511,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301259,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 17511,
 		condition_id = {
 			17508,
 			17509,
@@ -21665,8 +22144,8 @@ After modernization is complete:
 		},
 		effect = {
 			{
-				torpedo = 30,
-				antiaircraft = 15
+				antiaircraft = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -21684,17 +22163,17 @@ After modernization is complete:
 		}
 	},
 	[17601] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 17601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 17601,
 		condition_id = {},
 		effect = {
 			{
@@ -21716,17 +22195,17 @@ After modernization is complete:
 		}
 	},
 	[17602] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 17602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 17602,
 		condition_id = {
 			17601
 		},
@@ -21750,17 +22229,17 @@ After modernization is complete:
 		}
 	},
 	[17603] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 17603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 17603,
 		condition_id = {
 			17601
 		},
@@ -21784,17 +22263,17 @@ After modernization is complete:
 		}
 	},
 	[17604] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 17604,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 17604,
 		condition_id = {
 			17603
 		},
@@ -21818,17 +22297,17 @@ After modernization is complete:
 		}
 	},
 	[17605] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 17605,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 17605,
 		condition_id = {
 			17603
 		},
@@ -21852,17 +22331,17 @@ After modernization is complete:
 		}
 	},
 	[17606] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 17606,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 17606,
 		condition_id = {
 			17605
 		},
@@ -21886,17 +22365,17 @@ After modernization is complete:
 		}
 	},
 	[17607] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 17607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 17607,
 		condition_id = {
 			17605
 		},
@@ -21930,17 +22409,17 @@ After modernization is complete:
 		}
 	},
 	[17608] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 17608,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 1081,
+		use_gold = 1800,
+		id = 17608,
 		condition_id = {
 			17607
 		},
@@ -21964,17 +22443,17 @@ After modernization is complete:
 		}
 	},
 	[17609] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 17609,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 17609,
 		condition_id = {
 			17607
 		},
@@ -21998,17 +22477,17 @@ After modernization is complete:
 		}
 	},
 	[17610] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 17610,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 17610,
 		condition_id = {
 			17602,
 			17609
@@ -22043,17 +22522,17 @@ After modernization is complete:
 		}
 	},
 	[17611] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 17611,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301269,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 17611,
 		condition_id = {
 			17608,
 			17609,
@@ -22061,8 +22540,8 @@ After modernization is complete:
 		},
 		effect = {
 			{
-				torpedo = 30,
-				antiaircraft = 15
+				antiaircraft = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -22080,17 +22559,17 @@ After modernization is complete:
 		}
 	},
 	[17901] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 17901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 17901,
 		condition_id = {},
 		effect = {
 			{
@@ -22112,17 +22591,17 @@ After modernization is complete:
 		}
 	},
 	[17902] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 17902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 17902,
 		condition_id = {
 			17901
 		},
@@ -22146,17 +22625,17 @@ After modernization is complete:
 		}
 	},
 	[17903] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 17903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 17903,
 		condition_id = {
 			17901
 		},
@@ -22180,17 +22659,17 @@ After modernization is complete:
 		}
 	},
 	[17904] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 17904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 17904,
 		condition_id = {
 			17903,
 			17902
@@ -22215,17 +22694,17 @@ After modernization is complete:
 		}
 	},
 	[17905] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 17905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 17905,
 		condition_id = {
 			17903
 		},
@@ -22249,17 +22728,17 @@ After modernization is complete:
 		}
 	},
 	[17906] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 4,
-		id = 17906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 17906,
 		condition_id = {
 			17905
 		},
@@ -22283,17 +22762,17 @@ After modernization is complete:
 		}
 	},
 	[17907] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 17907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 17907,
 		condition_id = {
 			17905
 		},
@@ -22327,17 +22806,17 @@ After modernization is complete:
 		}
 	},
 	[17908] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 17908,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 17908,
 		condition_id = {
 			17907,
 			17904
@@ -22372,17 +22851,17 @@ After modernization is complete:
 		}
 	},
 	[17909] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 17909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 17909,
 		condition_id = {
 			17907
 		},
@@ -22416,17 +22895,17 @@ After modernization is complete:
 		}
 	},
 	[17910] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 17910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 17910,
 		condition_id = {
 			17906,
 			17909
@@ -22461,25 +22940,25 @@ After modernization is complete:
 		}
 	},
 	[17911] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 17911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 302019,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 17911,
 		condition_id = {
 			17910,
 			17909
 		},
 		effect = {
 			{
-				antiaircraft = 25,
-				hit = 20
+				hit = 20,
+				antiaircraft = 25
 			}
 		},
 		ship_id = {},
@@ -22497,17 +22976,17 @@ After modernization is complete:
 		}
 	},
 	[17912] = {
-		use_gold = 4000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 17912,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_yellow",
 		skill_id = 12040,
+		use_gold = 4000,
+		id = 17912,
 		condition_id = {
 			17911,
 			17908
@@ -22532,17 +23011,17 @@ After modernization is complete:
 		}
 	},
 	[18301] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 18301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 18301,
 		condition_id = {},
 		effect = {
 			{
@@ -22564,17 +23043,17 @@ After modernization is complete:
 		}
 	},
 	[18302] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 18302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 18302,
 		condition_id = {
 			18301
 		},
@@ -22598,17 +23077,17 @@ After modernization is complete:
 		}
 	},
 	[18303] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 18303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 18303,
 		condition_id = {
 			18301
 		},
@@ -22632,17 +23111,17 @@ After modernization is complete:
 		}
 	},
 	[18304] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 18304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 18304,
 		condition_id = {
 			18303
 		},
@@ -22666,17 +23145,17 @@ After modernization is complete:
 		}
 	},
 	[18305] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 18305,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 18305,
 		condition_id = {
 			18303
 		},
@@ -22700,17 +23179,17 @@ After modernization is complete:
 		}
 	},
 	[18306] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 18306,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 18306,
 		condition_id = {
 			18305
 		},
@@ -22734,17 +23213,17 @@ After modernization is complete:
 		}
 	},
 	[18307] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 18307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 18307,
 		condition_id = {
 			18305
 		},
@@ -22778,17 +23257,17 @@ After modernization is complete:
 		}
 	},
 	[18308] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 18308,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 13190,
+		use_gold = 1800,
+		id = 18308,
 		condition_id = {
 			18307
 		},
@@ -22812,17 +23291,17 @@ After modernization is complete:
 		}
 	},
 	[18309] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 18309,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 18309,
 		condition_id = {
 			18307
 		},
@@ -22856,17 +23335,17 @@ After modernization is complete:
 		}
 	},
 	[18310] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 18310,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 18310,
 		condition_id = {
 			18306,
 			18309
@@ -22901,17 +23380,17 @@ After modernization is complete:
 		}
 	},
 	[18311] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 18311,
+		descrip = "",
 		max_level = 1,
 		skin_id = 302059,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 18311,
 		condition_id = {
 			18309,
 			18310
@@ -22937,17 +23416,17 @@ After modernization is complete:
 		}
 	},
 	[18601] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 18601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 18601,
 		condition_id = {},
 		effect = {
 			{
@@ -22969,17 +23448,17 @@ After modernization is complete:
 		}
 	},
 	[18602] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 18602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 18602,
 		condition_id = {
 			18601
 		},
@@ -23003,17 +23482,17 @@ After modernization is complete:
 		}
 	},
 	[18603] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 18603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 18603,
 		condition_id = {
 			18601
 		},
@@ -23037,17 +23516,17 @@ After modernization is complete:
 		}
 	},
 	[18604] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 18604,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 18604,
 		condition_id = {
 			18603
 		},
@@ -23071,17 +23550,17 @@ After modernization is complete:
 		}
 	},
 	[18605] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 18605,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 18605,
 		condition_id = {
 			18603
 		},
@@ -23105,17 +23584,17 @@ After modernization is complete:
 		}
 	},
 	[18606] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 18606,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 18606,
 		condition_id = {
 			18602,
 			18605
@@ -23140,17 +23619,17 @@ After modernization is complete:
 		}
 	},
 	[18607] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 18607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 18607,
 		condition_id = {
 			18605
 		},
@@ -23184,17 +23663,17 @@ After modernization is complete:
 		}
 	},
 	[18608] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 4,
-		id = 18608,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 18608,
 		condition_id = {
 			18607
 		},
@@ -23218,17 +23697,17 @@ After modernization is complete:
 		}
 	},
 	[18609] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 18609,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 18609,
 		condition_id = {
 			18607
 		},
@@ -23262,17 +23741,17 @@ After modernization is complete:
 		}
 	},
 	[18610] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 18610,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 18610,
 		condition_id = {
 			18604,
 			18609
@@ -23315,17 +23794,17 @@ After modernization is complete:
 		}
 	},
 	[18611] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 18611,
+		descrip = "",
 		max_level = 1,
 		skin_id = 302089,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 18611,
 		condition_id = {
 			18609,
 			18610
@@ -23351,17 +23830,17 @@ After modernization is complete:
 		}
 	},
 	[18612] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 18612,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_yellow",
 		skill_id = 12880,
+		use_gold = 3000,
+		id = 18612,
 		condition_id = {
 			18608,
 			18611
@@ -23390,17 +23869,17 @@ After modernization is complete:
 		}
 	},
 	[18701] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 18701,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 18701,
 		condition_id = {},
 		effect = {
 			{
@@ -23422,17 +23901,17 @@ After modernization is complete:
 		}
 	},
 	[18702] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 18702,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 18702,
 		condition_id = {
 			18701
 		},
@@ -23456,17 +23935,17 @@ After modernization is complete:
 		}
 	},
 	[18703] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 2,
-		id = 18703,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 18703,
 		condition_id = {
 			18701
 		},
@@ -23490,17 +23969,17 @@ After modernization is complete:
 		}
 	},
 	[18704] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 2,
-		id = 18704,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 18704,
 		condition_id = {
 			18703
 		},
@@ -23524,17 +24003,17 @@ After modernization is complete:
 		}
 	},
 	[18705] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 18705,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 18705,
 		condition_id = {
 			18703
 		},
@@ -23558,17 +24037,17 @@ After modernization is complete:
 		}
 	},
 	[18706] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 18706,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 18706,
 		condition_id = {
 			18705
 		},
@@ -23592,17 +24071,17 @@ After modernization is complete:
 		}
 	},
 	[18707] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 18707,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 18707,
 		condition_id = {
 			18705
 		},
@@ -23636,17 +24115,17 @@ After modernization is complete:
 		}
 	},
 	[18708] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 18708,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2051,
+		use_gold = 1200,
+		id = 18708,
 		condition_id = {
 			18707
 		},
@@ -23670,17 +24149,17 @@ After modernization is complete:
 		}
 	},
 	[18709] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 4,
-		id = 18709,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 18709,
 		condition_id = {
 			18707
 		},
@@ -23714,17 +24193,17 @@ After modernization is complete:
 		}
 	},
 	[18710] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 18710,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 18710,
 		condition_id = {
 			18704,
 			18709
@@ -23759,17 +24238,17 @@ After modernization is complete:
 		}
 	},
 	[18711] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 18711,
+		descrip = "",
 		max_level = 1,
 		skin_id = 302099,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 18711,
 		condition_id = {
 			18708,
 			18709,
@@ -23796,17 +24275,17 @@ After modernization is complete:
 		}
 	},
 	[18801] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 18801,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 18801,
 		condition_id = {},
 		effect = {
 			{
@@ -23828,17 +24307,17 @@ After modernization is complete:
 		}
 	},
 	[18802] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 18802,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 18802,
 		condition_id = {
 			18801
 		},
@@ -23862,17 +24341,17 @@ After modernization is complete:
 		}
 	},
 	[18803] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 18803,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 18803,
 		condition_id = {
 			18801
 		},
@@ -23896,17 +24375,17 @@ After modernization is complete:
 		}
 	},
 	[18804] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 18804,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 18804,
 		condition_id = {
 			18803
 		},
@@ -23930,17 +24409,17 @@ After modernization is complete:
 		}
 	},
 	[18805] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 18805,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 18805,
 		condition_id = {
 			18803
 		},
@@ -23964,17 +24443,17 @@ After modernization is complete:
 		}
 	},
 	[18806] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 18806,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 18806,
 		condition_id = {
 			18805
 		},
@@ -23998,17 +24477,17 @@ After modernization is complete:
 		}
 	},
 	[18807] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 18807,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 18807,
 		condition_id = {
 			18805
 		},
@@ -24042,17 +24521,17 @@ After modernization is complete:
 		}
 	},
 	[18808] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 18808,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 18808,
 		condition_id = {
 			18807
 		},
@@ -24076,17 +24555,17 @@ After modernization is complete:
 		}
 	},
 	[18809] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 18809,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 18809,
 		condition_id = {
 			18807
 		},
@@ -24120,17 +24599,17 @@ After modernization is complete:
 		}
 	},
 	[18810] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 18810,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 18810,
 		condition_id = {
 			18804,
 			18809
@@ -24173,14 +24652,8 @@ After modernization is complete:
 		}
 	},
 	[18811] = {
-		use_gold = 4000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 18811,
-		max_level = 1,
-		skin_id = 302109,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete. The following changes have been applied:
 
@@ -24190,8 +24663,14 @@ Any <color=#92fc63>Augment Modules</color> this ship can no longer equip have be
 <color=#92fc63>Main Gun Base +1</color> but <color=#92fc63>Torpedo Base -1</color>
 This ship's <color=#92fc63>All Out Assault</color> skill has changed into <color=#92fc63>All Out Assault - Retrofit</color>.
 This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no longer able to equip <color=#92fc63>sonars or depth charges</color>.]],
+		max_level = 1,
+		skin_id = 302109,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 18811,
 		condition_id = {
 			18809,
 			18810
@@ -24222,17 +24701,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[18812] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 18812,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 11220,
+		use_gold = 3000,
+		id = 18812,
 		condition_id = {
 			18811
 		},
@@ -24260,17 +24739,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19001] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 19001,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 19001,
 		condition_id = {},
 		effect = {
 			{
@@ -24292,17 +24771,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19002] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 19002,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 19002,
 		condition_id = {
 			19001
 		},
@@ -24326,17 +24805,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19003] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 19003,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 19003,
 		condition_id = {
 			19001
 		},
@@ -24360,17 +24839,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19004] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 2,
-		id = 19004,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 19004,
 		condition_id = {
 			19003
 		},
@@ -24394,17 +24873,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19005] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 19005,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 19005,
 		condition_id = {
 			19003
 		},
@@ -24428,17 +24907,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19006] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 19006,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 19006,
 		condition_id = {
 			19005
 		},
@@ -24462,17 +24941,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19007] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 19007,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 19007,
 		condition_id = {
 			19005
 		},
@@ -24506,17 +24985,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19008] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 19008,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2051,
+		use_gold = 1200,
+		id = 19008,
 		condition_id = {
 			19007
 		},
@@ -24540,17 +25019,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19009] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 4,
-		id = 19009,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 19009,
 		condition_id = {
 			19007
 		},
@@ -24584,17 +25063,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19010] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 19010,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 19010,
 		condition_id = {
 			19006,
 			19009
@@ -24629,17 +25108,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19011] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 19011,
+		descrip = "",
 		max_level = 1,
 		skin_id = 303019,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 19011,
 		condition_id = {
 			19009,
 			19010
@@ -24665,17 +25144,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19101] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 19101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 19101,
 		condition_id = {},
 		effect = {
 			{
@@ -24697,17 +25176,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19102] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 19102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 19102,
 		condition_id = {
 			19101
 		},
@@ -24731,17 +25210,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19103] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 2,
-		id = 19103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 19103,
 		condition_id = {
 			19101
 		},
@@ -24765,17 +25244,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19104] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 2,
-		id = 19104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 19104,
 		condition_id = {
 			19103
 		},
@@ -24799,17 +25278,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19105] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 19105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 19105,
 		condition_id = {
 			19103
 		},
@@ -24833,17 +25312,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19106] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 19106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 19106,
 		condition_id = {
 			19105
 		},
@@ -24867,17 +25346,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19107] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 19107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 19107,
 		condition_id = {
 			19105
 		},
@@ -24911,17 +25390,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19108] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 19108,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2051,
+		use_gold = 1200,
+		id = 19108,
 		condition_id = {
 			19107
 		},
@@ -24945,17 +25424,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19109] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 4,
-		id = 19109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 19109,
 		condition_id = {
 			19107
 		},
@@ -24989,17 +25468,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19110] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 19110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 19110,
 		condition_id = {
 			19106,
 			19109
@@ -25034,17 +25513,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19111] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 19111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 303029,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 19111,
 		condition_id = {
 			19109,
 			19110
@@ -25070,17 +25549,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19701] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 19701,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 19701,
 		condition_id = {},
 		effect = {
 			{
@@ -25102,17 +25581,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19702] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 19702,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 19702,
 		condition_id = {
 			19701
 		},
@@ -25136,17 +25615,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19703] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 19703,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 19703,
 		condition_id = {
 			19701
 		},
@@ -25170,17 +25649,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19704] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 19704,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 19704,
 		condition_id = {
 			19703
 		},
@@ -25204,17 +25683,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19705] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 19705,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 19705,
 		condition_id = {
 			19703
 		},
@@ -25238,17 +25717,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19706] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 4,
-		id = 19706,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 19706,
 		condition_id = {
 			19705
 		},
@@ -25272,17 +25751,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19707] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 19707,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 19707,
 		condition_id = {
 			19705
 		},
@@ -25316,17 +25795,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19708] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 19708,
+		descrip = "习得技能【战术指挥·巡洋舰】",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "习得技能【战术指挥·巡洋舰】",
+		star_limit = 4,
 		icon = "skill_red",
 		skill_id = 1052,
+		use_gold = 1800,
+		id = 19708,
 		condition_id = {
 			19707
 		},
@@ -25350,17 +25829,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19709] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 19709,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 19709,
 		condition_id = {
 			19707
 		},
@@ -25394,17 +25873,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19710] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 19710,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 19710,
 		condition_id = {
 			19706,
 			19709
@@ -25439,17 +25918,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[19711] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 19711,
+		descrip = "",
 		max_level = 1,
 		skin_id = 303089,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 19711,
 		condition_id = {
 			19709,
 			19710
@@ -25475,17 +25954,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20801] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 20801,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 20801,
 		condition_id = {},
 		effect = {
 			{
@@ -25507,17 +25986,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20802] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 20802,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 20802,
 		condition_id = {
 			20801
 		},
@@ -25541,17 +26020,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20803] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 20803,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 20803,
 		condition_id = {
 			20801,
 			20802
@@ -25576,17 +26055,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20804] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 20804,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 20804,
 		condition_id = {
 			20803
 		},
@@ -25610,17 +26089,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20805] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 20805,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 20805,
 		condition_id = {
 			20803
 		},
@@ -25644,17 +26123,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20806] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 20806,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 20806,
 		condition_id = {
 			20805
 		},
@@ -25678,17 +26157,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20807] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 20807,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 20807,
 		condition_id = {
 			20805
 		},
@@ -25722,17 +26201,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20808] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 20808,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 20808,
 		condition_id = {
 			20807
 		},
@@ -25766,17 +26245,17 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20809] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 20809,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 20809,
 		condition_id = {
 			20804,
 			20808
@@ -25811,14 +26290,8 @@ This ship's <color=#92fc63>ASW</color> stat has been set to 0 and she is no long
 		}
 	},
 	[20810] = {
-		use_gold = 5000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 20810,
-		max_level = 1,
-		skin_id = 305019,
-		use_ship = 0,
 		level_limit = 75,
+		name = "Modernization",
 		descrip = [[
 After modernization is complete:
 
@@ -25829,8 +26302,14 @@ When using Air Support for the first time in a battle, launch an additional barr
 <color=#92fc63>Main Gun Efficiency</color> +20%
 <color=#92fc63>Auxiliary Weapon</color> changes to <color=#92fc63>Reconnaissance</color>.
 When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retrofit</color> may use <color=#92fc63>Air Support</color>.]],
+		max_level = 1,
+		skin_id = 305019,
+		use_ship = 0,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 5000,
+		id = 20810,
 		condition_id = {
 			20808
 		},
@@ -25864,17 +26343,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20811] = {
-		use_gold = 1600,
+		level_limit = 85,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 5,
-		id = 20811,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 20811,
 		condition_id = {
 			20806,
 			20810
@@ -25899,17 +26378,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20901] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 20901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 20901,
 		condition_id = {},
 		effect = {
 			{
@@ -25931,17 +26410,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20902] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 20902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 20902,
 		condition_id = {
 			20901
 		},
@@ -25965,17 +26444,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20903] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 20903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 20903,
 		condition_id = {
 			20901,
 			20902
@@ -26000,17 +26479,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20904] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 20904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 20904,
 		condition_id = {
 			20903
 		},
@@ -26034,17 +26513,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20905] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 20905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 20905,
 		condition_id = {
 			20903
 		},
@@ -26068,17 +26547,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20906] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 20906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 20906,
 		condition_id = {
 			20905
 		},
@@ -26102,17 +26581,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20907] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 20907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 20907,
 		condition_id = {
 			20905
 		},
@@ -26146,17 +26625,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20908] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 20908,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 20908,
 		condition_id = {
 			20907
 		},
@@ -26190,17 +26669,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20909] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 20909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 20909,
 		condition_id = {
 			20904,
 			20908
@@ -26235,14 +26714,8 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Fusou Retro
 		}
 	},
 	[20910] = {
-		use_gold = 5000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 20910,
-		max_level = 1,
-		skin_id = 305029,
-		use_ship = 0,
 		level_limit = 75,
+		name = "Modernization",
 		descrip = [[
 After modernization is complete:
 
@@ -26253,8 +26726,14 @@ When using Air Support for the first time in a battle, launch an additional barr
 <color=#92fc63>Main Gun Efficiency</color> +20%
 <color=#92fc63>Auxiliary Weapon</color> changes to <color=#92fc63>Reconnaissance</color>.
 When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Yamashiro Retrofit</color> may use <color=#92fc63>Air Support</color>.]],
+		max_level = 1,
+		skin_id = 305029,
+		use_ship = 0,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 5000,
+		id = 20910,
 		condition_id = {
 			20908
 		},
@@ -26288,17 +26767,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Yamashiro R
 		}
 	},
 	[20911] = {
-		use_gold = 1600,
+		level_limit = 85,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 5,
-		id = 20911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 20911,
 		condition_id = {
 			20906,
 			20910
@@ -26323,17 +26802,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Yamashiro R
 		}
 	},
 	[21001] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 21001,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 21001,
 		condition_id = {},
 		effect = {
 			{
@@ -26355,17 +26834,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Yamashiro R
 		}
 	},
 	[21002] = {
-		use_gold = 300,
+		level_limit = 10,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 21002,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 10,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 21002,
 		condition_id = {
 			21001
 		},
@@ -26389,17 +26868,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Yamashiro R
 		}
 	},
 	[21003] = {
-		use_gold = 400,
+		level_limit = 30,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 21003,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 30,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 21003,
 		condition_id = {
 			21001
 		},
@@ -26423,17 +26902,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Yamashiro R
 		}
 	},
 	[21004] = {
-		use_gold = 500,
+		level_limit = 50,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 4,
-		id = 21004,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 500,
+		id = 21004,
 		condition_id = {
 			21003
 		},
@@ -26467,14 +26946,8 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Yamashiro R
 		}
 	},
 	[21005] = {
-		use_gold = 10000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 21005,
-		max_level = 1,
-		skin_id = 305039,
-		use_ship = 0,
 		level_limit = 70,
+		name = "Modernization",
 		descrip = [[
 After modernization is complete:
 
@@ -26482,8 +26955,14 @@ After modernization is complete:
 <color=#92fc63>Main Gun Efficiency</color> +20%
 <color=#92fc63>Auxiliary Weapon</color> changes to <color=#92fc63>Reconnaissance</color>.
 When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofit</color> may use <color=#92fc63>Air Support</color>.]],
+		max_level = 1,
+		skin_id = 305039,
+		use_ship = 0,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 10000,
+		id = 21005,
 		condition_id = {
 			21002,
 			21003
@@ -26518,17 +26997,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21006] = {
-		use_gold = 600,
+		level_limit = 75,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 5,
-		id = 21006,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 21006,
 		condition_id = {
 			21005
 		},
@@ -26552,17 +27031,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21007] = {
-		use_gold = 800,
+		level_limit = 80,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 5,
-		id = 21007,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 21007,
 		condition_id = {
 			21006
 		},
@@ -26586,17 +27065,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21008] = {
-		use_gold = 1200,
+		level_limit = 85,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 21008,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 21008,
 		condition_id = {
 			21006
 		},
@@ -26630,17 +27109,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21009] = {
-		use_gold = 1400,
+		level_limit = 90,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 21009,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 21009,
 		condition_id = {
 			21004,
 			21008
@@ -26675,17 +27154,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21010] = {
-		use_gold = 1500,
+		level_limit = 90,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 5,
-		id = 21010,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 21010,
 		condition_id = {
 			21008,
 			21009
@@ -26720,17 +27199,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21011] = {
-		use_gold = 1600,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 21011,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 11610,
+		use_gold = 1600,
+		id = 21011,
 		condition_id = {
 			21010
 		},
@@ -26754,17 +27233,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21101] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 21101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 21101,
 		condition_id = {},
 		effect = {
 			{
@@ -26786,17 +27265,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21102] = {
-		use_gold = 300,
+		level_limit = 10,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 21102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 10,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 21102,
 		condition_id = {
 			21101
 		},
@@ -26820,17 +27299,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21103] = {
-		use_gold = 400,
+		level_limit = 30,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 21103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 30,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 21103,
 		condition_id = {
 			21101
 		},
@@ -26854,17 +27333,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21104] = {
-		use_gold = 500,
+		level_limit = 50,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 4,
-		id = 21104,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 500,
+		id = 21104,
 		condition_id = {
 			21103
 		},
@@ -26898,14 +27377,8 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Ise Retrofi
 		}
 	},
 	[21105] = {
-		use_gold = 10000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 21105,
-		max_level = 1,
-		skin_id = 305049,
-		use_ship = 0,
 		level_limit = 70,
+		name = "Modernization",
 		descrip = [[
 After modernization is complete:
 
@@ -26913,8 +27386,14 @@ After modernization is complete:
 <color=#92fc63>Main Gun Efficiency</color> +20%
 <color=#92fc63>Auxiliary Weapon</color> changes to <color=#92fc63>Reconnaissance</color>.
 When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retrofit</color> may use <color=#92fc63>Air Support</color>.]],
+		max_level = 1,
+		skin_id = 305049,
+		use_ship = 0,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 10000,
+		id = 21105,
 		condition_id = {
 			21102,
 			21103
@@ -26949,17 +27428,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[21106] = {
-		use_gold = 600,
+		level_limit = 75,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 5,
-		id = 21106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 21106,
 		condition_id = {
 			21105
 		},
@@ -26983,17 +27462,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[21107] = {
-		use_gold = 800,
+		level_limit = 80,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 5,
-		id = 21107,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 21107,
 		condition_id = {
 			21106
 		},
@@ -27017,17 +27496,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[21108] = {
-		use_gold = 1200,
+		level_limit = 85,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 21108,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 21108,
 		condition_id = {
 			21106
 		},
@@ -27061,17 +27540,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[21109] = {
-		use_gold = 1400,
+		level_limit = 90,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 21109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 21109,
 		condition_id = {
 			21104,
 			21108
@@ -27106,17 +27585,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[21110] = {
-		use_gold = 1500,
+		level_limit = 90,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 5,
-		id = 21110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 21110,
 		condition_id = {
 			21108,
 			21109
@@ -27151,17 +27630,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[21111] = {
-		use_gold = 1600,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 21111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 11600,
+		use_gold = 1600,
+		id = 21111,
 		condition_id = {
 			21110
 		},
@@ -27185,17 +27664,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22201] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 22201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 22201,
 		condition_id = {},
 		effect = {
 			{
@@ -27217,17 +27696,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22202] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 22202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 22202,
 		condition_id = {
 			22201
 		},
@@ -27251,17 +27730,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22203] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Bombing Elite Ⅰ",
-		star_limit = 3,
-		id = 22203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "bfup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 22203,
 		condition_id = {
 			22201,
 			22202
@@ -27286,17 +27765,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22204] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 3,
-		id = 22204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 22204,
 		condition_id = {
 			22203
 		},
@@ -27320,17 +27799,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22205] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Torpedo Dive Ⅰ",
-		star_limit = 4,
-		id = 22205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tfup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 22205,
 		condition_id = {
 			22203
 		},
@@ -27354,17 +27833,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22206] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 22206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 22206,
 		condition_id = {
 			22205
 		},
@@ -27388,17 +27867,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22207] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 22207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 22207,
 		condition_id = {
 			22205
 		},
@@ -27432,17 +27911,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22208] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 22208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 3041,
+		use_gold = 1200,
+		id = 22208,
 		condition_id = {
 			22207
 		},
@@ -27466,17 +27945,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22209] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Bombing Elite Ⅱ",
-		star_limit = 5,
-		id = 22209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "bfup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 22209,
 		condition_id = {
 			22207,
 			22208
@@ -27511,17 +27990,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22210] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 5,
-		id = 22210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 22210,
 		condition_id = {
 			22204,
 			22209
@@ -27556,25 +28035,25 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22211] = {
-		use_gold = 2000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 22211,
+		descrip = "",
 		max_level = 1,
 		skin_id = 306059,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 22211,
 		condition_id = {
 			22209,
 			22210
 		},
 		effect = {
 			{
-				antiaircraft = 20,
-				air = 25
+				air = 25,
+				antiaircraft = 20
 			}
 		},
 		ship_id = {},
@@ -27592,17 +28071,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22601] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 22601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 22601,
 		condition_id = {},
 		effect = {
 			{
@@ -27624,17 +28103,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22602] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 22602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 22602,
 		condition_id = {
 			22601
 		},
@@ -27658,17 +28137,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22603] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Air Elite Ⅰ",
-		star_limit = 3,
-		id = 22603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "ffup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 22603,
 		condition_id = {
 			22601
 		},
@@ -27692,17 +28171,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22604] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 22604,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 22604,
 		condition_id = {
 			22603
 		},
@@ -27726,17 +28205,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22605] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Torpedo Dive Ⅰ",
-		star_limit = 4,
-		id = 22605,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "bfup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 22605,
 		condition_id = {
 			22603
 		},
@@ -27760,17 +28239,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22606] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 4,
-		id = 22606,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 22606,
 		condition_id = {
 			22605
 		},
@@ -27794,17 +28273,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22607] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 22607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 22607,
 		condition_id = {
 			22605
 		},
@@ -27838,17 +28317,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22608] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 22608,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 22608,
 		condition_id = {
 			22607,
 			22602
@@ -27883,17 +28362,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22609] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Air Elite Ⅱ",
-		star_limit = 5,
-		id = 22609,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "ffup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 22609,
 		condition_id = {
 			22607
 		},
@@ -27927,17 +28406,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22610] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 5,
-		id = 22610,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 22610,
 		condition_id = {
 			22609
 		},
@@ -27979,25 +28458,25 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22611] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 22611,
+		descrip = "",
 		max_level = 1,
 		skin_id = 307039,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 22611,
 		condition_id = {
 			22609,
 			22610
 		},
 		effect = {
 			{
-				antiaircraft = 35,
-				dodge = 10
+				dodge = 10,
+				antiaircraft = 35
 			}
 		},
 		ship_id = {},
@@ -28015,17 +28494,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22612] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 22612,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 11830,
+		use_gold = 3000,
+		id = 22612,
 		condition_id = {
 			22611
 		},
@@ -28053,17 +28532,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22701] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 22701,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 22701,
 		condition_id = {},
 		effect = {
 			{
@@ -28085,17 +28564,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22702] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 22702,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 22702,
 		condition_id = {
 			22701
 		},
@@ -28119,17 +28598,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22703] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Air Elite Ⅰ",
-		star_limit = 3,
-		id = 22703,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "ffup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 22703,
 		condition_id = {
 			22701
 		},
@@ -28153,17 +28632,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22704] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 22704,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 22704,
 		condition_id = {
 			22703
 		},
@@ -28187,17 +28666,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22705] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Bombing Elite Ⅰ",
-		star_limit = 4,
-		id = 22705,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tfup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 22705,
 		condition_id = {
 			22703
 		},
@@ -28221,17 +28700,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22706] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 4,
-		id = 22706,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 22706,
 		condition_id = {
 			22705
 		},
@@ -28255,17 +28734,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22707] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 22707,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 22707,
 		condition_id = {
 			22705
 		},
@@ -28299,17 +28778,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22708] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 22708,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 22708,
 		condition_id = {
 			22707,
 			22702
@@ -28344,17 +28823,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22709] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Air Elite Ⅱ",
-		star_limit = 5,
-		id = 22709,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "ffup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 22709,
 		condition_id = {
 			22707
 		},
@@ -28388,17 +28867,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22710] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 5,
-		id = 22710,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 22710,
 		condition_id = {
 			22709
 		},
@@ -28440,25 +28919,25 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22711] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 22711,
+		descrip = "",
 		max_level = 1,
 		skin_id = 307049,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 22711,
 		condition_id = {
 			22709,
 			22710
 		},
 		effect = {
 			{
-				antiaircraft = 35,
-				dodge = 10
+				dodge = 10,
+				antiaircraft = 35
 			}
 		},
 		ship_id = {},
@@ -28476,17 +28955,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[22712] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 22712,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 11840,
+		use_gold = 3000,
+		id = 22712,
 		condition_id = {
 			22711
 		},
@@ -28514,17 +28993,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23301] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 23301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 23301,
 		condition_id = {},
 		effect = {
 			{
@@ -28546,17 +29025,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23302] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 23302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 23302,
 		condition_id = {
 			23301
 		},
@@ -28580,17 +29059,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23303] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 23303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 23303,
 		condition_id = {
 			23301
 		},
@@ -28614,17 +29093,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23304] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 23304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 23304,
 		condition_id = {
 			23303
 		},
@@ -28648,17 +29127,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23305] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 23305,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 23305,
 		condition_id = {
 			23303
 		},
@@ -28692,17 +29171,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23306] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 4,
-		id = 23306,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 23306,
 		condition_id = {
 			23305
 		},
@@ -28736,17 +29215,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23307] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 23307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 23307,
 		condition_id = {
 			23305
 		},
@@ -28780,17 +29259,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23308] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 23308,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 23308,
 		condition_id = {
 			23307
 		},
@@ -28824,17 +29303,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23309] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 23309,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 23309,
 		condition_id = {
 			23307
 		},
@@ -28868,17 +29347,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23310] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅲ",
-		star_limit = 5,
-		id = 23310,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Tp_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 23310,
 		condition_id = {
 			23304,
 			23309
@@ -28935,17 +29414,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23311] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 23311,
+		descrip = "",
 		max_level = 1,
 		skin_id = 401019,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_yellow",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 23311,
 		condition_id = {
 			23309
 		},
@@ -28970,17 +29449,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23312] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 23312,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 12280,
+		use_gold = 3000,
+		id = 23312,
 		condition_id = {
 			23311
 		},
@@ -29008,17 +29487,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23601] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 23601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 23601,
 		condition_id = {},
 		effect = {
 			{
@@ -29040,17 +29519,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23602] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 23602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 23602,
 		condition_id = {
 			23601
 		},
@@ -29074,17 +29553,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23603] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 23603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 23603,
 		condition_id = {
 			23601
 		},
@@ -29108,17 +29587,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23604] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 3,
-		id = 23604,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 23604,
 		condition_id = {
 			23603
 		},
@@ -29152,17 +29631,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23605] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 23605,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 23605,
 		condition_id = {
 			23603
 		},
@@ -29196,17 +29675,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23606] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 4,
-		id = 23606,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 23606,
 		condition_id = {
 			23605
 		},
@@ -29240,17 +29719,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23607] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 23607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 23607,
 		condition_id = {
 			23605
 		},
@@ -29284,17 +29763,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23608] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 23608,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 23608,
 		condition_id = {
 			23607
 		},
@@ -29328,17 +29807,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23609] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 23609,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 23609,
 		condition_id = {
 			23607
 		},
@@ -29372,17 +29851,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23610] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅲ",
-		star_limit = 5,
-		id = 23610,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Cn_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 23610,
 		condition_id = {
 			23604,
 			23609
@@ -29439,17 +29918,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23611] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 23611,
+		descrip = "",
 		max_level = 1,
 		skin_id = 401239,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 23611,
 		condition_id = {
 			23609
 		},
@@ -29474,17 +29953,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23612] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 23612,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 11320,
+		use_gold = 3000,
+		id = 23612,
 		condition_id = {
 			23611
 		},
@@ -29512,17 +29991,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23901] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 23901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 23901,
 		condition_id = {},
 		effect = {
 			{
@@ -29544,17 +30023,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23902] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 23902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 23902,
 		condition_id = {
 			23901
 		},
@@ -29578,17 +30057,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23903] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 2,
-		id = 23903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 23903,
 		condition_id = {
 			23901
 		},
@@ -29612,17 +30091,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23904] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 2,
-		id = 23904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 23904,
 		condition_id = {
 			23903
 		},
@@ -29646,17 +30125,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23905] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 23905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 23905,
 		condition_id = {
 			23903
 		},
@@ -29680,17 +30159,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23906] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 23906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 23906,
 		condition_id = {
 			23905
 		},
@@ -29714,17 +30193,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23907] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 23907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 23907,
 		condition_id = {
 			23905
 		},
@@ -29758,17 +30237,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23908] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 23908,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2111,
+		use_gold = 1200,
+		id = 23908,
 		condition_id = {
 			23907
 		},
@@ -29792,17 +30271,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23909] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 4,
-		id = 23909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 23909,
 		condition_id = {
 			23907
 		},
@@ -29836,17 +30315,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23910] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 23910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 23910,
 		condition_id = {
 			23904,
 			23909
@@ -29881,17 +30360,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[23911] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 23911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 402029,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 23911,
 		condition_id = {
 			23908,
 			23909,
@@ -29918,17 +30397,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24001] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 24001,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 24001,
 		condition_id = {},
 		effect = {
 			{
@@ -29950,17 +30429,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24002] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 24002,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 24002,
 		condition_id = {
 			24001
 		},
@@ -29984,17 +30463,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24003] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 2,
-		id = 24003,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 24003,
 		condition_id = {
 			24001
 		},
@@ -30018,17 +30497,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24004] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 2,
-		id = 24004,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 24004,
 		condition_id = {
 			24003
 		},
@@ -30052,17 +30531,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24005] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 24005,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 24005,
 		condition_id = {
 			24003
 		},
@@ -30086,17 +30565,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24006] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 24006,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 24006,
 		condition_id = {
 			24005
 		},
@@ -30120,17 +30599,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24007] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 3,
-		id = 24007,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 24007,
 		condition_id = {
 			24005
 		},
@@ -30164,17 +30643,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24008] = {
-		use_gold = 1200,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 4,
-		id = 24008,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 24008,
 		condition_id = {
 			24007
 		},
@@ -30208,17 +30687,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24009] = {
-		use_gold = 1400,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 24009,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 24009,
 		condition_id = {
 			24004,
 			24008
@@ -30253,17 +30732,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24010] = {
-		use_gold = 1600,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 24010,
+		descrip = "Retrofit complete, FP +20, TRP +15\n\nWhen retrofitted, <color=#92fc63>the first Auxiliary Weapon</color> slot will be improved to allow for the equipping of <color=#92fc63>Helicopter</color> type gear. ",
 		max_level = 1,
 		skin_id = 402039,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "Retrofit complete, FP +20, TRP +15\n\nWhen retrofitted, <color=#92fc63>the first Auxiliary Weapon</color> slot will be improved to allow for the equipping of <color=#92fc63>Helicopter</color> type gear. ",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 24010,
 		condition_id = {
 			24008,
 			24009
@@ -30294,17 +30773,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24011] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 24011,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_red",
 		skill_id = 12210,
+		use_gold = 2000,
+		id = 24011,
 		condition_id = {
 			24006,
 			24010
@@ -30329,17 +30808,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24101] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 24101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 24101,
 		condition_id = {},
 		effect = {
 			{
@@ -30361,17 +30840,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24102] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 24102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 24102,
 		condition_id = {
 			24101
 		},
@@ -30395,17 +30874,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24103] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 24103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 24103,
 		condition_id = {
 			24101
 		},
@@ -30429,17 +30908,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24104] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 24104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 24104,
 		condition_id = {
 			24103
 		},
@@ -30463,17 +30942,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24105] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 24105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 24105,
 		condition_id = {
 			24103
 		},
@@ -30497,17 +30976,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24106] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 4,
-		id = 24106,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "Aa_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 24106,
 		condition_id = {
 			24105
 		},
@@ -30541,17 +31020,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24107] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 24107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 24107,
 		condition_id = {
 			24105
 		},
@@ -30585,17 +31064,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24108] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 24108,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_blue",
 		skill_id = 12290,
+		use_gold = 1800,
+		id = 24108,
 		condition_id = {
 			24107
 		},
@@ -30619,17 +31098,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24109] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 24109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 24109,
 		condition_id = {
 			24107,
 			24108
@@ -30664,17 +31143,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24110] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 24110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 24110,
 		condition_id = {
 			24104,
 			24109
@@ -30709,17 +31188,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[24111] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 24111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 402049,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 24111,
 		condition_id = {
 			24109,
 			24110
@@ -30745,17 +31224,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25301] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 5,
-		id = 25301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 25301,
 		condition_id = {},
 		effect = {
 			{
@@ -30777,17 +31256,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25302] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 5,
-		id = 25302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 25302,
 		condition_id = {
 			25301
 		},
@@ -30811,17 +31290,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25303] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 5,
-		id = 25303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 25303,
 		condition_id = {
 			25301
 		},
@@ -30845,17 +31324,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25304] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 5,
-		id = 25304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 25304,
 		condition_id = {
 			25303
 		},
@@ -30879,17 +31358,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25305] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 25305,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 25305,
 		condition_id = {
 			25303
 		},
@@ -30923,17 +31402,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25306] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25306,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 25306,
 		condition_id = {
 			25302,
 			25305
@@ -30968,17 +31447,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25307] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 25307,
 		condition_id = {
 			25305
 		},
@@ -31012,17 +31491,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25308] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Torpedo Enhancement Ⅲ",
-		star_limit = 5,
-		id = 25308,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 5,
 		icon = "Tp_3",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 25308,
 		condition_id = {
 			25307
 		},
@@ -31066,17 +31545,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25309] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 25309,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 25309,
 		condition_id = {
 			25307
 		},
@@ -31110,17 +31589,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25310] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅲ",
-		star_limit = 5,
-		id = 25310,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Cn_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 25310,
 		condition_id = {
 			25304,
 			25309
@@ -31177,24 +31656,24 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25311] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 25311,
+		descrip = "Completing the retrofit will have the following effects:\n\nTRP +30, EVA +15, Main Gun Mount +1, the ship's \"All Out Assault\" and \"An Shan Name Ship\" skills will be upgraded, she will learn the \"Azure Dragon's Dance\" skill, her Torpedo gear slot will change into a Missile gear slot, and her weapon efficiencies will change to 100%/150%/105%",
 		max_level = 1,
 		skin_id = 501019,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "Completing the retrofit will have the following effects:\n\nTRP +30, EVA +15, Main Gun Mount +1, the ship's \"All Out Assault\" and \"An Shan Name Ship\" skills will be upgraded, she will learn the \"Azure Dragon's Dance\" skill, her Torpedo gear slot will change into a Missile gear slot, and her weapon efficiencies will change to 100%/150%/105%",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 25311,
 		condition_id = {
 			25309
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {
@@ -31217,17 +31696,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25312] = {
-		use_gold = 200,
+		level_limit = 90,
 		name = "Main Fleet Mode",
-		star_limit = 5,
-		id = 25312,
+		descrip = "Can be deployed in your Main Fleet",
 		max_level = 1,
 		skin_id = 501019,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "Can be deployed in your Main Fleet",
+		star_limit = 5,
 		icon = "mode_m",
 		skill_id = 0,
+		use_gold = 200,
+		id = 25312,
 		condition_id = {
 			25311
 		},
@@ -31249,17 +31728,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25313] = {
-		use_gold = 200,
+		level_limit = 90,
 		name = "Vanguard Mode",
-		star_limit = 5,
-		id = 25313,
+		descrip = "Can be deployed in your Vanguard",
 		max_level = 1,
 		skin_id = 501019,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "Can be deployed in your Vanguard",
+		star_limit = 5,
 		icon = "mode_v",
 		skill_id = 0,
+		use_gold = 200,
+		id = 25313,
 		condition_id = {
 			25312
 		},
@@ -31281,17 +31760,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25501] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 5,
-		id = 25501,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 25501,
 		condition_id = {},
 		effect = {
 			{
@@ -31313,17 +31792,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25502] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 5,
-		id = 25502,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 25502,
 		condition_id = {
 			25501
 		},
@@ -31347,17 +31826,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25503] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 5,
-		id = 25503,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 25503,
 		condition_id = {
 			25501
 		},
@@ -31381,17 +31860,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25504] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 5,
-		id = 25504,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 25504,
 		condition_id = {
 			25503
 		},
@@ -31415,17 +31894,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25505] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 25505,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 25505,
 		condition_id = {
 			25503
 		},
@@ -31459,17 +31938,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25506] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25506,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 25506,
 		condition_id = {
 			25502,
 			25505
@@ -31504,17 +31983,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25507] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25507,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 25507,
 		condition_id = {
 			25505
 		},
@@ -31548,17 +32027,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25508] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Torpedo Enhancement Ⅲ",
-		star_limit = 5,
-		id = 25508,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 25508,
 		condition_id = {
 			25507
 		},
@@ -31602,17 +32081,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25509] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 25509,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 25509,
 		condition_id = {
 			25507
 		},
@@ -31646,17 +32125,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25510] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅲ",
-		star_limit = 5,
-		id = 25510,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Cn_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 25510,
 		condition_id = {
 			25504,
 			25509
@@ -31713,24 +32192,24 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25511] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 25511,
+		descrip = "Completing the retrofit will have the following effects:\n\nTRP +30, EVA +15, Main Gun Mount +1, the ship's \"All Out Assault\" and \"Mutual Assistance\" skills will be upgraded, she will learn the \"White Tiger's Prance\" skill, her Torpedo gear slot will change into a Missile gear slot, and her weapon efficiencies will change to 100%/150%/105%",
 		max_level = 1,
 		skin_id = 501039,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "Completing the retrofit will have the following effects:\n\nTRP +30, EVA +15, Main Gun Mount +1, the ship's \"All Out Assault\" and \"Mutual Assistance\" skills will be upgraded, she will learn the \"White Tiger's Prance\" skill, her Torpedo gear slot will change into a Missile gear slot, and her weapon efficiencies will change to 100%/150%/105%",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 25511,
 		condition_id = {
 			25509
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {
@@ -31753,17 +32232,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25512] = {
-		use_gold = 200,
+		level_limit = 90,
 		name = "Main Fleet Mode",
-		star_limit = 5,
-		id = 25512,
+		descrip = "Can be deployed in your Main Fleet",
 		max_level = 1,
 		skin_id = 501039,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "Can be deployed in your Main Fleet",
+		star_limit = 5,
 		icon = "mode_m",
 		skill_id = 0,
+		use_gold = 200,
+		id = 25512,
 		condition_id = {
 			25511
 		},
@@ -31785,17 +32264,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25513] = {
-		use_gold = 200,
+		level_limit = 90,
 		name = "Vanguard Mode",
-		star_limit = 5,
-		id = 25513,
+		descrip = "Can be deployed in your Vanguard",
 		max_level = 1,
 		skin_id = 501039,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "Can be deployed in your Vanguard",
+		star_limit = 5,
 		icon = "mode_v",
 		skill_id = 0,
+		use_gold = 200,
+		id = 25513,
 		condition_id = {
 			25512
 		},
@@ -31817,17 +32296,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25601] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 5,
-		id = 25601,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 25601,
 		condition_id = {},
 		effect = {
 			{
@@ -31849,17 +32328,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25602] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 5,
-		id = 25602,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 25602,
 		condition_id = {
 			25601
 		},
@@ -31883,17 +32362,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25603] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 5,
-		id = 25603,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 25603,
 		condition_id = {
 			25601
 		},
@@ -31917,17 +32396,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25604] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 5,
-		id = 25604,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 25604,
 		condition_id = {
 			25603
 		},
@@ -31951,17 +32430,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25605] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 25605,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 25605,
 		condition_id = {
 			25603
 		},
@@ -31995,17 +32474,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25606] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25606,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 25606,
 		condition_id = {
 			25602,
 			25605
@@ -32040,17 +32519,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25607] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25607,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 25607,
 		condition_id = {
 			25605
 		},
@@ -32084,17 +32563,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25608] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Torpedo Enhancement Ⅲ",
-		star_limit = 5,
-		id = 25608,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 25608,
 		condition_id = {
 			25607
 		},
@@ -32138,17 +32617,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25609] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 25609,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 25609,
 		condition_id = {
 			25607
 		},
@@ -32182,17 +32661,17 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25610] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅲ",
-		star_limit = 5,
-		id = 25610,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Cn_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 25610,
 		condition_id = {
 			25604,
 			25609
@@ -32249,14 +32728,8 @@ When equipping <color=#92fc63>Reconnaissance</color>, <color=#92fc63>Hyuuga Retr
 		}
 	},
 	[25611] = {
-		use_gold = 4000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 25611,
-		max_level = 1,
-		skin_id = 501049,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete. The following changes have been applied:
 
@@ -32265,15 +32738,21 @@ This ship's "All Out Assault" skill and "United As One" skill have been improved
 This ship has gained the skill "Xuanwu's Tenacity".
 This ship's Torpedo gear slot has changed into a Missile gear slot.
 This ship's weapon efficiencies have changed to 100%/150%/105%.]],
+		max_level = 1,
+		skin_id = 501049,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 25611,
 		condition_id = {
 			25609
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {
@@ -32296,17 +32775,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25612] = {
-		use_gold = 200,
+		level_limit = 90,
 		name = "Main Fleet Mode",
-		star_limit = 5,
-		id = 25612,
+		descrip = "Can be deployed in your Main Fleet",
 		max_level = 1,
 		skin_id = 501049,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "Can be deployed in your Main Fleet",
+		star_limit = 5,
 		icon = "mode_m",
 		skill_id = 0,
+		use_gold = 200,
+		id = 25612,
 		condition_id = {
 			25611
 		},
@@ -32328,17 +32807,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25613] = {
-		use_gold = 200,
+		level_limit = 90,
 		name = "Vanguard Mode",
-		star_limit = 5,
-		id = 25613,
+		descrip = "Can be deployed in your Vanguard",
 		max_level = 1,
 		skin_id = 501049,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "Can be deployed in your Vanguard",
+		star_limit = 5,
 		icon = "mode_v",
 		skill_id = 0,
+		use_gold = 200,
+		id = 25613,
 		condition_id = {
 			25612
 		},
@@ -32360,17 +32839,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25701] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 25701,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 25701,
 		condition_id = {},
 		effect = {
 			{
@@ -32392,17 +32871,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25702] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 25702,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 25702,
 		condition_id = {
 			25701
 		},
@@ -32426,24 +32905,24 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25703] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 25703,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 25703,
 		condition_id = {
 			25701
 		},
 		effect = {
 			{
-				equipment_proficiency_1 = 0.05,
-				equipment_proficiency_2 = 0.05
+				equipment_proficiency_2 = 0.05,
+				equipment_proficiency_1 = 0.05
 			}
 		},
 		ship_id = {},
@@ -32461,17 +32940,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25704] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 25704,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 25704,
 		condition_id = {
 			25703
 		},
@@ -32495,17 +32974,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25705] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 25705,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 25705,
 		condition_id = {
 			25703
 		},
@@ -32529,17 +33008,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25706] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 25706,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 25706,
 		condition_id = {
 			25702,
 			25705
@@ -32564,17 +33043,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25707] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 25707,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 25707,
 		condition_id = {
 			25705
 		},
@@ -32608,17 +33087,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25708] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 25708,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 25708,
 		condition_id = {
 			25707
 		},
@@ -32652,28 +33131,28 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25709] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 25709,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 25709,
 		condition_id = {
 			25707
 		},
 		effect = {
 			{
-				equipment_proficiency_1 = 0.05,
-				equipment_proficiency_2 = 0.05
+				equipment_proficiency_2 = 0.05,
+				equipment_proficiency_1 = 0.05
 			},
 			{
-				equipment_proficiency_1 = 0.05,
-				equipment_proficiency_2 = 0.05
+				equipment_proficiency_2 = 0.05,
+				equipment_proficiency_1 = 0.05
 			}
 		},
 		ship_id = {},
@@ -32698,17 +33177,17 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25710] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25710,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 25710,
 		condition_id = {
 			25704,
 			25709
@@ -32751,21 +33230,21 @@ This ship's weapon efficiencies have changed to 100%/150%/105%.]],
 		}
 	},
 	[25711] = {
-		use_gold = 4000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 25711,
-		max_level = 1,
-		skin_id = 502019,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete. The following changes have been applied:
 
 FP+25, AA+20
 The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92fc63>Dragon Empery Bond+</color>.]],
+		max_level = 1,
+		skin_id = 502019,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 25711,
 		condition_id = {
 			25709,
 			25710
@@ -32796,17 +33275,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25712] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 25712,
+		descrip = "习得技能【寒夜语梅】",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "习得技能【寒夜语梅】",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 16440,
+		use_gold = 3000,
+		id = 25712,
 		condition_id = {
 			25708,
 			25711
@@ -32835,17 +33314,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25801] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 25801,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 25801,
 		condition_id = {},
 		effect = {
 			{
@@ -32867,17 +33346,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25802] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 25802,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 25802,
 		condition_id = {
 			25801
 		},
@@ -32901,17 +33380,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25803] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 25803,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 25803,
 		condition_id = {
 			25801
 		},
@@ -32935,17 +33414,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25804] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 25804,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 25804,
 		condition_id = {
 			25803
 		},
@@ -32969,17 +33448,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25805] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 25805,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 25805,
 		condition_id = {
 			25803
 		},
@@ -33003,17 +33482,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25806] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 25806,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 25806,
 		condition_id = {
 			25802,
 			25805
@@ -33038,17 +33517,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25807] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 25807,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 25807,
 		condition_id = {
 			25805
 		},
@@ -33082,17 +33561,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25808] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 25808,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 25808,
 		condition_id = {
 			25807
 		},
@@ -33126,17 +33605,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25809] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 25809,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 25809,
 		condition_id = {
 			25807
 		},
@@ -33170,17 +33649,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25810] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25810,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 25810,
 		condition_id = {
 			25804,
 			25809
@@ -33223,17 +33702,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25811] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 25811,
+		descrip = "",
 		max_level = 1,
 		skin_id = 502029,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 25811,
 		condition_id = {
 			25809,
 			25810
@@ -33259,17 +33738,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25812] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 25812,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 10950,
+		use_gold = 3000,
+		id = 25812,
 		condition_id = {
 			25808,
 			25811
@@ -33298,17 +33777,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25901] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 25901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 25901,
 		condition_id = {},
 		effect = {
 			{
@@ -33330,17 +33809,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25902] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 25902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 25902,
 		condition_id = {
 			25901
 		},
@@ -33364,17 +33843,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25903] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 25903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 25903,
 		condition_id = {
 			25901
 		},
@@ -33398,17 +33877,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25904] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 25904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 25904,
 		condition_id = {
 			25903
 		},
@@ -33432,17 +33911,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25905] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 25905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 25905,
 		condition_id = {
 			25903
 		},
@@ -33466,17 +33945,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25906] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 25906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 25906,
 		condition_id = {
 			25902,
 			25905
@@ -33501,17 +33980,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25907] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 25907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 25907,
 		condition_id = {
 			25905
 		},
@@ -33545,17 +34024,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25908] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 4,
-		id = 25908,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 25908,
 		condition_id = {
 			25907
 		},
@@ -33589,17 +34068,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25909] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 25909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 25909,
 		condition_id = {
 			25907
 		},
@@ -33633,17 +34112,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25910] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 25910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 25910,
 		condition_id = {
 			25904,
 			25909
@@ -33686,17 +34165,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25911] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 25911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 502039,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 25911,
 		condition_id = {
 			25909,
 			25910
@@ -33722,17 +34201,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[25912] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 25912,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 10950,
+		use_gold = 3000,
+		id = 25912,
 		condition_id = {
 			25908,
 			25911
@@ -33761,17 +34240,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26301] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 26301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 26301,
 		condition_id = {},
 		effect = {
 			{
@@ -33793,17 +34272,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26302] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 26302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 26302,
 		condition_id = {
 			26301
 		},
@@ -33827,17 +34306,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26303] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 26303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 26303,
 		condition_id = {
 			26301
 		},
@@ -33861,17 +34340,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26304] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 26304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 26304,
 		condition_id = {
 			26303
 		},
@@ -33895,17 +34374,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26305] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 26305,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 26305,
 		condition_id = {
 			26303
 		},
@@ -33929,17 +34408,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26306] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 26306,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 26306,
 		condition_id = {
 			26302,
 			26305
@@ -33974,17 +34453,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26307] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 26307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 26307,
 		condition_id = {
 			26305
 		},
@@ -34018,17 +34497,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26308] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 26308,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 5001,
+		use_gold = 1800,
+		id = 26308,
 		condition_id = {
 			26307
 		},
@@ -34052,17 +34531,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26309] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 26309,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 26309,
 		condition_id = {
 			26307
 		},
@@ -34086,17 +34565,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26310] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 26310,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 26310,
 		condition_id = {
 			26304,
 			26309
@@ -34131,17 +34610,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26311] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 26311,
+		descrip = "",
 		max_level = 1,
 		skin_id = 101279,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 26311,
 		condition_id = {
 			26308,
 			26309,
@@ -34168,17 +34647,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26901] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 26901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 26901,
 		condition_id = {},
 		effect = {
 			{
@@ -34200,17 +34679,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26902] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 26902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 26902,
 		condition_id = {
 			26901
 		},
@@ -34234,17 +34713,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26903] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 26903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 26903,
 		condition_id = {
 			26901
 		},
@@ -34268,17 +34747,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26904] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 26904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 26904,
 		condition_id = {
 			26903
 		},
@@ -34302,17 +34781,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26905] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 26905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 26905,
 		condition_id = {
 			26903
 		},
@@ -34336,17 +34815,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26906] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 26906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 26906,
 		condition_id = {
 			26905
 		},
@@ -34370,17 +34849,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26907] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 26907,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 26907,
 		condition_id = {
 			26905
 		},
@@ -34404,17 +34883,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26908] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 26908,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_red",
 		skill_id = 11130,
+		use_gold = 1800,
+		id = 26908,
 		condition_id = {
 			26907
 		},
@@ -34438,17 +34917,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26909] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 26909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 26909,
 		condition_id = {
 			26907
 		},
@@ -34482,17 +34961,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26910] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 5,
-		id = 26910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 26910,
 		condition_id = {
 			26902,
 			26909
@@ -34527,17 +35006,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[26911] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 26911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301309,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 26911,
 		condition_id = {
 			26908,
 			26909,
@@ -34545,8 +35024,8 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		},
 		effect = {
 			{
-				hit = 10,
-				antiaircraft = 25
+				antiaircraft = 25,
+				hit = 10
 			}
 		},
 		ship_id = {},
@@ -34564,17 +35043,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27001] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 27001,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 27001,
 		condition_id = {},
 		effect = {
 			{
@@ -34596,17 +35075,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27002] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 27002,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 27002,
 		condition_id = {
 			27001
 		},
@@ -34630,17 +35109,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27003] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 27003,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 27003,
 		condition_id = {
 			27001
 		},
@@ -34664,17 +35143,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27004] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 27004,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 27004,
 		condition_id = {
 			27003
 		},
@@ -34698,17 +35177,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27005] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 27005,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 27005,
 		condition_id = {
 			27003
 		},
@@ -34732,17 +35211,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27006] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 27006,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 27006,
 		condition_id = {
 			27005
 		},
@@ -34766,17 +35245,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27007] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 27007,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 27007,
 		condition_id = {
 			27005
 		},
@@ -34800,17 +35279,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27008] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 27008,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_blue",
 		skill_id = 4071,
+		use_gold = 1800,
+		id = 27008,
 		condition_id = {
 			27007
 		},
@@ -34834,17 +35313,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27009] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 27009,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 27009,
 		condition_id = {
 			27007
 		},
@@ -34878,17 +35357,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27010] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 5,
-		id = 27010,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 27010,
 		condition_id = {
 			27002,
 			27009
@@ -34923,17 +35402,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27011] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 27011,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301319,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 27011,
 		condition_id = {
 			27008,
 			27009,
@@ -34941,8 +35420,8 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		},
 		effect = {
 			{
-				hit = 10,
-				antiaircraft = 25
+				antiaircraft = 25,
+				hit = 10
 			}
 		},
 		ship_id = {},
@@ -34960,17 +35439,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27101] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 27101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 27101,
 		condition_id = {},
 		effect = {
 			{
@@ -34992,17 +35471,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27102] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 27102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 27102,
 		condition_id = {
 			27101
 		},
@@ -35026,17 +35505,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27103] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 2,
-		id = 27103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 27103,
 		condition_id = {
 			27101
 		},
@@ -35060,17 +35539,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27104] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 2,
-		id = 27104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 27104,
 		condition_id = {
 			27103
 		},
@@ -35094,17 +35573,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27105] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 27105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 27105,
 		condition_id = {
 			27103
 		},
@@ -35128,17 +35607,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27106] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 27106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 27106,
 		condition_id = {
 			27105
 		},
@@ -35162,17 +35641,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27107] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 3,
-		id = 27107,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 27107,
 		condition_id = {
 			27105
 		},
@@ -35196,17 +35675,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27108] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 27108,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_yellow",
 		skill_id = 1011,
+		use_gold = 1200,
+		id = 27108,
 		condition_id = {
 			27107
 		},
@@ -35230,17 +35709,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27109] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 27109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 27109,
 		condition_id = {
 			27107
 		},
@@ -35274,17 +35753,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27110] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 27110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 27110,
 		condition_id = {
 			27102,
 			27109
@@ -35319,17 +35798,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27111] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 27111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301329,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 27111,
 		condition_id = {
 			27108,
 			27109,
@@ -35337,8 +35816,8 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		},
 		effect = {
 			{
-				torpedo = 25,
-				antiaircraft = 20
+				antiaircraft = 20,
+				torpedo = 25
 			}
 		},
 		ship_id = {},
@@ -35356,17 +35835,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27201] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 1,
-		id = 27201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 1,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 27201,
 		condition_id = {},
 		effect = {
 			{
@@ -35388,17 +35867,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27202] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 1,
-		id = 27202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 1,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 27202,
 		condition_id = {
 			27201
 		},
@@ -35422,17 +35901,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27203] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 2,
-		id = 27203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 2,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 27203,
 		condition_id = {
 			27201
 		},
@@ -35456,17 +35935,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27204] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 2,
-		id = 27204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 2,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 27204,
 		condition_id = {
 			27203
 		},
@@ -35490,17 +35969,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27205] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 27205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 27205,
 		condition_id = {
 			27203
 		},
@@ -35524,17 +36003,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27206] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 27206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 27206,
 		condition_id = {
 			27205
 		},
@@ -35558,17 +36037,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27207] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 3,
-		id = 27207,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 3,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 27207,
 		condition_id = {
 			27205
 		},
@@ -35592,17 +36071,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27208] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 3,
-		id = 27208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 3,
 		icon = "skill_red",
 		skill_id = 2051,
+		use_gold = 1200,
+		id = 27208,
 		condition_id = {
 			27207
 		},
@@ -35626,17 +36105,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27209] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 27209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 27209,
 		condition_id = {
 			27207
 		},
@@ -35670,17 +36149,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27210] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 27210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 27210,
 		condition_id = {
 			27202,
 			27209
@@ -35715,17 +36194,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[27211] = {
-		use_gold = 2000,
+		level_limit = 80,
 		name = "Modernization",
-		star_limit = 4,
-		id = 27211,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301339,
 		use_ship = 1,
-		level_limit = 80,
-		descrip = "",
+		star_limit = 4,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 27211,
 		condition_id = {
 			27208,
 			27209,
@@ -35733,8 +36212,8 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		},
 		effect = {
 			{
-				torpedo = 25,
-				antiaircraft = 20
+				antiaircraft = 20,
+				torpedo = 25
 			}
 		},
 		ship_id = {},
@@ -35752,17 +36231,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30101] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 30101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 30101,
 		condition_id = {},
 		effect = {
 			{
@@ -35784,17 +36263,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30102] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 2,
-		id = 30102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 30102,
 		condition_id = {
 			30101
 		},
@@ -35818,17 +36297,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30103] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 30103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 30103,
 		condition_id = {
 			30101
 		},
@@ -35852,17 +36331,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30104] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 30104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 30104,
 		condition_id = {
 			30103
 		},
@@ -35886,17 +36365,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30105] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 4,
-		id = 30105,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 30105,
 		condition_id = {
 			30103
 		},
@@ -35930,17 +36409,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30106] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 30106,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 30106,
 		condition_id = {
 			30104,
 			30105
@@ -35975,17 +36454,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30107] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 30107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 30107,
 		condition_id = {
 			30105
 		},
@@ -36019,17 +36498,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30108] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 4,
-		id = 30108,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 30108,
 		condition_id = {
 			30102,
 			30107
@@ -36064,17 +36543,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30109] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 30109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 30109,
 		condition_id = {
 			30107
 		},
@@ -36108,17 +36587,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30110] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅲ",
-		star_limit = 5,
-		id = 30110,
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Tp_3",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 30110,
 		condition_id = {
 			30109
 		},
@@ -36174,17 +36653,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30111] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 30111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 101319,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 30111,
 		condition_id = {
 			30109,
 			30110
@@ -36210,17 +36689,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30112] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 30112,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_blue",
 		skill_id = 11480,
+		use_gold = 3000,
+		id = 30112,
 		condition_id = {
 			30111
 		},
@@ -36251,17 +36730,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30801] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 30801,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 30801,
 		condition_id = {},
 		effect = {
 			{
@@ -36283,17 +36762,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30802] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 30802,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 30802,
 		condition_id = {
 			30801
 		},
@@ -36317,17 +36796,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30803] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 30803,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 30803,
 		condition_id = {
 			30801
 		},
@@ -36351,17 +36830,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30804] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 30804,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 30804,
 		condition_id = {
 			30803
 		},
@@ -36385,17 +36864,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30805] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 30805,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 30805,
 		condition_id = {
 			30803
 		},
@@ -36419,17 +36898,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30806] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 4,
-		id = 30806,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 30806,
 		condition_id = {
 			30802,
 			30805
@@ -36454,17 +36933,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30807] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 30807,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 30807,
 		condition_id = {
 			30805
 		},
@@ -36498,17 +36977,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30808] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 30808,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 5041,
+		use_gold = 1800,
+		id = 30808,
 		condition_id = {
 			30807
 		},
@@ -36532,17 +37011,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30809] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 30809,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 30809,
 		condition_id = {
 			30807,
 			30808
@@ -36577,17 +37056,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30810] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 30810,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 30810,
 		condition_id = {
 			30804,
 			30809
@@ -36622,17 +37101,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30811] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 30811,
+		descrip = "",
 		max_level = 1,
 		skin_id = 302129,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 30811,
 		condition_id = {
 			30809,
 			30810
@@ -36658,17 +37137,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30901] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 30901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 30901,
 		condition_id = {},
 		effect = {
 			{
@@ -36690,17 +37169,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30902] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 30902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 30902,
 		condition_id = {
 			30901
 		},
@@ -36724,17 +37203,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30903] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 3,
-		id = 30903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 30903,
 		condition_id = {
 			30901
 		},
@@ -36758,17 +37237,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30904] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 3,
-		id = 30904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 30904,
 		condition_id = {
 			30903
 		},
@@ -36792,17 +37271,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30905] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 30905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 30905,
 		condition_id = {
 			30903
 		},
@@ -36826,17 +37305,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30906] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 4,
-		id = 30906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 30906,
 		condition_id = {
 			30902,
 			30905
@@ -36861,17 +37340,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30907] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 30907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 30907,
 		condition_id = {
 			30905
 		},
@@ -36905,17 +37384,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30908] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 30908,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 30908,
 		condition_id = {
 			30907
 		},
@@ -36939,17 +37418,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30909] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 30909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 30909,
 		condition_id = {
 			30907
 		},
@@ -36983,17 +37462,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30910] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 30910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 30910,
 		condition_id = {
 			30904,
 			30909
@@ -37036,17 +37515,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30911] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 30911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 302139,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 30911,
 		condition_id = {
 			30909,
 			30910
@@ -37072,17 +37551,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[30912] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 30912,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_yellow",
 		skill_id = 10890,
+		use_gold = 3000,
+		id = 30912,
 		condition_id = {
 			30911
 		},
@@ -37110,17 +37589,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31801] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 31801,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 31801,
 		condition_id = {},
 		effect = {
 			{
@@ -37142,17 +37621,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31802] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 31802,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 31802,
 		condition_id = {
 			31801
 		},
@@ -37176,17 +37655,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31803] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 31803,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 31803,
 		condition_id = {
 			31801
 		},
@@ -37210,17 +37689,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31804] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 31804,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 31804,
 		condition_id = {
 			31803
 		},
@@ -37244,17 +37723,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31805] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 31805,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 31805,
 		condition_id = {
 			31803
 		},
@@ -37278,17 +37757,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31806] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 31806,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 31806,
 		condition_id = {
 			31805
 		},
@@ -37312,17 +37791,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31807] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 31807,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 31807,
 		condition_id = {
 			31805
 		},
@@ -37346,17 +37825,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31808] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 31808,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_blue",
 		skill_id = 4071,
+		use_gold = 1200,
+		id = 31808,
 		condition_id = {
 			31807
 		},
@@ -37380,17 +37859,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31809] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 31809,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 31809,
 		condition_id = {
 			31807
 		},
@@ -37424,17 +37903,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31810] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 31810,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 31810,
 		condition_id = {
 			31806,
 			31809
@@ -37477,25 +37956,25 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31811] = {
-		use_gold = 2000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 31811,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301619,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 31811,
 		condition_id = {
 			31809,
 			31810
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -37513,17 +37992,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31901] = {
-		use_gold = 200,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 31901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 200,
+		id = 31901,
 		condition_id = {},
 		effect = {
 			{
@@ -37545,17 +38024,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31902] = {
-		use_gold = 300,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 31902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 31902,
 		condition_id = {
 			31901
 		},
@@ -37579,17 +38058,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31903] = {
-		use_gold = 400,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 31903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 31903,
 		condition_id = {
 			31901
 		},
@@ -37613,17 +38092,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31904] = {
-		use_gold = 500,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 31904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 500,
+		id = 31904,
 		condition_id = {
 			31903
 		},
@@ -37647,17 +38126,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31905] = {
-		use_gold = 600,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 31905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 31905,
 		condition_id = {
 			31903
 		},
@@ -37681,17 +38160,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31906] = {
-		use_gold = 800,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 31906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 31906,
 		condition_id = {
 			31905
 		},
@@ -37715,17 +38194,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31907] = {
-		use_gold = 1000,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 31907,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 31907,
 		condition_id = {
 			31905
 		},
@@ -37749,17 +38228,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31908] = {
-		use_gold = 1200,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 31908,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_red",
 		skill_id = 2121,
+		use_gold = 1200,
+		id = 31908,
 		condition_id = {
 			31907
 		},
@@ -37783,17 +38262,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31909] = {
-		use_gold = 1400,
+		level_limit = 70,
 		name = "Torpedo Improvement Ⅱ",
-		star_limit = 5,
-		id = 31909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "tpup_2",
 		skill_id = 0,
+		use_gold = 1400,
+		id = 31909,
 		condition_id = {
 			31907
 		},
@@ -37827,17 +38306,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31910] = {
-		use_gold = 1600,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 31910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1600,
+		id = 31910,
 		condition_id = {
 			31906,
 			31909
@@ -37880,25 +38359,25 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[31911] = {
-		use_gold = 2000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 31911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 301629,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 31911,
 		condition_id = {
 			31909,
 			31910
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {},
@@ -37916,17 +38395,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34801] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 34801,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 34801,
 		condition_id = {},
 		effect = {
 			{
@@ -37948,17 +38427,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34802] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 2,
-		id = 34802,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 34802,
 		condition_id = {
 			34801
 		},
@@ -37982,17 +38461,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34803] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 34803,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 34803,
 		condition_id = {
 			34801
 		},
@@ -38016,17 +38495,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34804] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 34804,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 34804,
 		condition_id = {
 			34803
 		},
@@ -38050,17 +38529,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34805] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 34805,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 34805,
 		condition_id = {
 			34803
 		},
@@ -38084,17 +38563,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34806] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 34806,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 34806,
 		condition_id = {
 			34802,
 			34805
@@ -38129,17 +38608,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34807] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 34807,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 34807,
 		condition_id = {
 			34805
 		},
@@ -38163,17 +38642,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34808] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 34808,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 34808,
 		condition_id = {
 			34807
 		},
@@ -38207,17 +38686,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34809] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 34809,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 34809,
 		condition_id = {
 			34807
 		},
@@ -38241,17 +38720,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34810] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 34810,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_blue",
 		skill_id = 4071,
+		use_gold = 2500,
+		id = 34810,
 		condition_id = {
 			34809
 		},
@@ -38275,17 +38754,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34811] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 34811,
+		descrip = "",
 		max_level = 1,
 		skin_id = 801029,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 34811,
 		condition_id = {
 			34809,
 			34810
@@ -38311,17 +38790,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34901] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 34901,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 34901,
 		condition_id = {},
 		effect = {
 			{
@@ -38343,17 +38822,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34902] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 34902,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 34902,
 		condition_id = {
 			34901
 		},
@@ -38377,17 +38856,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34903] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 34903,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 34903,
 		condition_id = {
 			34901
 		},
@@ -38411,17 +38890,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34904] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 34904,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 34904,
 		condition_id = {
 			34903
 		},
@@ -38445,17 +38924,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34905] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 34905,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 34905,
 		condition_id = {
 			34903
 		},
@@ -38479,17 +38958,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34906] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 4,
-		id = 34906,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 34906,
 		condition_id = {
 			34902,
 			34905
@@ -38514,17 +38993,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34907] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 34907,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 34907,
 		condition_id = {
 			34905
 		},
@@ -38558,17 +39037,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34908] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 4,
-		id = 34908,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 34908,
 		condition_id = {
 			34907
 		},
@@ -38592,17 +39071,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34909] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 34909,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 34909,
 		condition_id = {
 			34907
 		},
@@ -38636,17 +39115,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34910] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 34910,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aa_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 34910,
 		condition_id = {
 			34904,
 			34909
@@ -38689,17 +39168,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34911] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 34911,
+		descrip = "",
 		max_level = 1,
 		skin_id = 802019,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 34911,
 		condition_id = {
 			34909,
 			34910
@@ -38725,17 +39204,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[34912] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 34912,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 12360,
+		use_gold = 3000,
+		id = 34912,
 		condition_id = {
 			34911
 		},
@@ -38763,17 +39242,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35101] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 35101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 35101,
 		condition_id = {},
 		effect = {
 			{
@@ -38795,17 +39274,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35102] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 2,
-		id = 35102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 35102,
 		condition_id = {
 			35101
 		},
@@ -38829,17 +39308,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35103] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 35103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 35103,
 		condition_id = {
 			35101
 		},
@@ -38863,17 +39342,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35104] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 35104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 35104,
 		condition_id = {
 			35103
 		},
@@ -38897,17 +39376,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35105] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 35105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 35105,
 		condition_id = {
 			35103
 		},
@@ -38931,17 +39410,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35106] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 35106,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 35106,
 		condition_id = {
 			35102,
 			35105
@@ -38976,17 +39455,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35107] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 35107,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 35107,
 		condition_id = {
 			35105
 		},
@@ -39010,17 +39489,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35108] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 4,
-		id = 35108,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 35108,
 		condition_id = {
 			35107
 		},
@@ -39054,17 +39533,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35109] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Motor Enhancement",
-		star_limit = 5,
-		id = 35109,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 35109,
 		condition_id = {
 			35107
 		},
@@ -39088,17 +39567,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35110] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 35110,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_blue",
 		skill_id = 4071,
+		use_gold = 2500,
+		id = 35110,
 		condition_id = {
 			35109
 		},
@@ -39122,17 +39601,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[35111] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 35111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 901019,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 35111,
 		condition_id = {
 			35109,
 			35110
@@ -39158,17 +39637,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36101] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 36101,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 36101,
 		condition_id = {},
 		effect = {
 			{
@@ -39190,17 +39669,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36102] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 36102,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 36102,
 		condition_id = {
 			36101
 		},
@@ -39224,17 +39703,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36103] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 36103,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 36103,
 		condition_id = {
 			36101
 		},
@@ -39258,17 +39737,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36104] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 36104,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 36104,
 		condition_id = {
 			36103
 		},
@@ -39292,17 +39771,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36105] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 36105,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 36105,
 		condition_id = {
 			36103
 		},
@@ -39326,17 +39805,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36106] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 36106,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 36106,
 		condition_id = {
 			36102,
 			36105
@@ -39361,17 +39840,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36107] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 36107,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 36107,
 		condition_id = {
 			36105
 		},
@@ -39405,17 +39884,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36108] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 36108,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 1004,
+		use_gold = 1800,
+		id = 36108,
 		condition_id = {
 			36107
 		},
@@ -39439,17 +39918,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36109] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Main Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 36109,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "mgup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 36109,
 		condition_id = {
 			36107,
 			36108
@@ -39484,17 +39963,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36110] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Firepower Enhancement Ⅱ",
-		star_limit = 5,
-		id = 36110,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "cn_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 36110,
 		condition_id = {
 			36104,
 			36109
@@ -39529,25 +40008,25 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[36111] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 36111,
+		descrip = "",
 		max_level = 1,
 		skin_id = 202199,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_blue",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 36111,
 		condition_id = {
 			36109,
 			36110
 		},
 		effect = {
 			{
-				reload = 15,
-				antiaircraft = 30
+				antiaircraft = 30,
+				reload = 15
 			}
 		},
 		ship_id = {},
@@ -39565,17 +40044,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37201] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 37201,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 37201,
 		condition_id = {},
 		effect = {
 			{
@@ -39597,17 +40076,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37202] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 37202,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 37202,
 		condition_id = {
 			37201
 		},
@@ -39631,17 +40110,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37203] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 37203,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 37203,
 		condition_id = {
 			37201
 		},
@@ -39665,17 +40144,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37204] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 37204,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 37204,
 		condition_id = {
 			37203
 		},
@@ -39699,24 +40178,24 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37205] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 37205,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 37205,
 		condition_id = {
 			37203
 		},
 		effect = {
 			{
-				equipment_proficiency_2 = 0.03,
-				equipment_proficiency_3 = 0.03
+				equipment_proficiency_3 = 0.03,
+				equipment_proficiency_2 = 0.03
 			}
 		},
 		ship_id = {},
@@ -39734,17 +40213,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37206] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 37206,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 37206,
 		condition_id = {
 			37202,
 			37205
@@ -39769,17 +40248,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37207] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 37207,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 37207,
 		condition_id = {
 			37205
 		},
@@ -39813,17 +40292,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37208] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 37208,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 1044,
+		use_gold = 1800,
+		id = 37208,
 		condition_id = {
 			37207
 		},
@@ -39847,29 +40326,29 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37209] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 37209,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 37209,
 		condition_id = {
 			37207,
 			37208
 		},
 		effect = {
 			{
-				equipment_proficiency_2 = 0.03,
-				equipment_proficiency_3 = 0.03
+				equipment_proficiency_3 = 0.03,
+				equipment_proficiency_2 = 0.03
 			},
 			{
-				equipment_proficiency_2 = 0.04,
-				equipment_proficiency_3 = 0.04
+				equipment_proficiency_3 = 0.04,
+				equipment_proficiency_2 = 0.04
 			}
 		},
 		ship_id = {},
@@ -39894,17 +40373,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37210] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 37210,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aa_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 37210,
 		condition_id = {
 			37204,
 			37209
@@ -39939,17 +40418,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37211] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 37211,
+		descrip = "",
 		max_level = 1,
 		skin_id = 202219,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 37211,
 		condition_id = {
 			37209,
 			37210
@@ -39975,17 +40454,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37301] = {
-		use_gold = 300,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 37301,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 300,
+		id = 37301,
 		condition_id = {},
 		effect = {
 			{
@@ -40007,17 +40486,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37302] = {
-		use_gold = 400,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 37302,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 37302,
 		condition_id = {
 			37301
 		},
@@ -40041,17 +40520,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37303] = {
-		use_gold = 600,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 37303,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 37303,
 		condition_id = {
 			37301
 		},
@@ -40075,17 +40554,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37304] = {
-		use_gold = 800,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 37304,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 37304,
 		condition_id = {
 			37303
 		},
@@ -40109,24 +40588,24 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37305] = {
-		use_gold = 1000,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 37305,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 37305,
 		condition_id = {
 			37303
 		},
 		effect = {
 			{
-				equipment_proficiency_2 = 0.03,
-				equipment_proficiency_3 = 0.03
+				equipment_proficiency_3 = 0.03,
+				equipment_proficiency_2 = 0.03
 			}
 		},
 		ship_id = {},
@@ -40144,17 +40623,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37306] = {
-		use_gold = 1200,
+		level_limit = 40,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 4,
-		id = 37306,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 37306,
 		condition_id = {
 			37302,
 			37305
@@ -40179,17 +40658,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37307] = {
-		use_gold = 1500,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 37307,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 37307,
 		condition_id = {
 			37305
 		},
@@ -40223,17 +40702,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37308] = {
-		use_gold = 1800,
+		level_limit = 55,
 		name = "Tactical Learning",
-		star_limit = 4,
-		id = 37308,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "skill_yellow",
 		skill_id = 1081,
+		use_gold = 1800,
+		id = 37308,
 		condition_id = {
 			37307
 		},
@@ -40257,29 +40736,29 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37309] = {
-		use_gold = 2000,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 37309,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 37309,
 		condition_id = {
 			37307,
 			37308
 		},
 		effect = {
 			{
-				equipment_proficiency_2 = 0.03,
-				equipment_proficiency_3 = 0.03
+				equipment_proficiency_3 = 0.03,
+				equipment_proficiency_2 = 0.03
 			},
 			{
-				equipment_proficiency_2 = 0.04,
-				equipment_proficiency_3 = 0.04
+				equipment_proficiency_3 = 0.04,
+				equipment_proficiency_2 = 0.04
 			}
 		},
 		ship_id = {},
@@ -40304,17 +40783,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37310] = {
-		use_gold = 2500,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 37310,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 37310,
 		condition_id = {
 			37304,
 			37309
@@ -40349,17 +40828,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37311] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 37311,
+		descrip = "",
 		max_level = 1,
 		skin_id = 202229,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 37311,
 		condition_id = {
 			37309,
 			37310
@@ -40385,17 +40864,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37701] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 37701,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 37701,
 		condition_id = {},
 		effect = {
 			{
@@ -40417,17 +40896,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37702] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 37702,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 37702,
 		condition_id = {
 			37701
 		},
@@ -40451,17 +40930,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37703] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Air Elite Ⅰ",
-		star_limit = 3,
-		id = 37703,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "ffup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 37703,
 		condition_id = {
 			37701
 		},
@@ -40485,17 +40964,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37704] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 37704,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 37704,
 		condition_id = {
 			37703
 		},
@@ -40519,17 +40998,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37705] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Torpedo Dive Ⅰ",
-		star_limit = 4,
-		id = 37705,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tfup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 37705,
 		condition_id = {
 			37703
 		},
@@ -40553,17 +41032,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37706] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 4,
-		id = 37706,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 37706,
 		condition_id = {
 			37705
 		},
@@ -40587,17 +41066,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37707] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 37707,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 37707,
 		condition_id = {
 			37705
 		},
@@ -40631,17 +41110,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37708] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 37708,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 37708,
 		condition_id = {
 			37707,
 			37702
@@ -40676,17 +41155,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37709] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Air Elite Ⅱ",
-		star_limit = 5,
-		id = 37709,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "ffup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 37709,
 		condition_id = {
 			37707
 		},
@@ -40720,17 +41199,17 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37710] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 37710,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "aa_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 37710,
 		condition_id = {
 			37709
 		},
@@ -40772,29 +41251,29 @@ The skill <color=#92fc63>Dragon Empery Bond</color> will change into <color=#92f
 		}
 	},
 	[37711] = {
-		use_gold = 4000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 37711,
-		max_level = 1,
-		skin_id = 107229,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete.
 AA+20, AVI+25
 
 After retrofit, this ship has gained the following: <color=#92fc63>All Fighters +1, All Torpedo Bombers +1</color>. ]],
+		max_level = 1,
+		skin_id = 107229,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 37711,
 		condition_id = {
 			37709,
 			37710
 		},
 		effect = {
 			{
-				antiaircraft = 35,
-				air = 10
+				air = 10,
+				antiaircraft = 35
 			}
 		},
 		ship_id = {
@@ -40817,17 +41296,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[37712] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 37712,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_yellow",
 		skill_id = 14630,
+		use_gold = 3000,
+		id = 37712,
 		condition_id = {
 			37711
 		},
@@ -40855,17 +41334,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42401] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 42401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 42401,
 		condition_id = {},
 		effect = {
 			{
@@ -40887,17 +41366,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42402] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Evasion Enhancement Ⅰ",
-		star_limit = 2,
-		id = 42402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "dd_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 42402,
 		condition_id = {
 			42401
 		},
@@ -40921,17 +41400,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42403] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 42403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 42403,
 		condition_id = {
 			42401
 		},
@@ -40955,17 +41434,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42404] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 42404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 42404,
 		condition_id = {
 			42403
 		},
@@ -40989,17 +41468,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42405] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 42405,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 42405,
 		condition_id = {
 			42403
 		},
@@ -41023,17 +41502,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42406] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅰ",
-		star_limit = 4,
-		id = 42406,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 42406,
 		condition_id = {
 			42405
 		},
@@ -41057,17 +41536,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42407] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Motor Enhancement",
-		star_limit = 4,
-		id = 42407,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "sp_1",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 42407,
 		condition_id = {
 			42405
 		},
@@ -41091,17 +41570,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42408] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 42408,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 42408,
 		condition_id = {
 			42404,
 			42407
@@ -41136,17 +41615,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42409] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 5,
-		id = 42409,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 42409,
 		condition_id = {
 			42407
 		},
@@ -41180,17 +41659,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42410] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 5,
-		id = 42410,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 42410,
 		condition_id = {
 			42406,
 			42409
@@ -41233,17 +41712,17 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42411] = {
-		use_gold = 3000,
+		level_limit = 85,
 		name = "Evasion Enhancement Ⅱ",
-		star_limit = 5,
-		id = 42411,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 85,
-		descrip = "",
+		star_limit = 5,
 		icon = "dd_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 42411,
 		condition_id = {
 			42409,
 			42410
@@ -41278,29 +41757,29 @@ After retrofit, this ship has gained the following: <color=#92fc63>All Fighters 
 		}
 	},
 	[42412] = {
-		use_gold = 4000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 42412,
-		max_level = 1,
-		skin_id = 301819,
-		use_ship = 1,
 		level_limit = 90,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete.
 TRP+30, EVA+15
 
 This ship's skill, "Foo and Friends", has been improved.]],
+		max_level = 1,
+		skin_id = 301819,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 42412,
 		condition_id = {
 			42408,
 			42411
 		},
 		effect = {
 			{
-				torpedo = 30,
-				dodge = 15
+				dodge = 15,
+				torpedo = 30
 			}
 		},
 		ship_id = {
@@ -41323,17 +41802,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43401] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 43401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 43401,
 		condition_id = {},
 		effect = {
 			{
@@ -41355,17 +41834,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43402] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 2,
-		id = 43402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 43402,
 		condition_id = {
 			43401
 		},
@@ -41389,17 +41868,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43403] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Main Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 43403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "mgup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 43403,
 		condition_id = {
 			43401
 		},
@@ -41423,17 +41902,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43404] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Firepower Enhancement Ⅰ",
-		star_limit = 3,
-		id = 43404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "cn_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 43404,
 		condition_id = {
 			43403
 		},
@@ -41457,17 +41936,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43405] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Torpedo Improvement Ⅰ",
-		star_limit = 4,
-		id = 43405,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "tpup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 43405,
 		condition_id = {
 			43403
 		},
@@ -41491,17 +41970,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43406] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Torpedo Enhancement Ⅱ",
-		star_limit = 4,
-		id = 43406,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "tp_2",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 43406,
 		condition_id = {
 			43402,
 			43405
@@ -41536,17 +42015,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43407] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 43407,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 43407,
 		condition_id = {
 			43405
 		},
@@ -41580,17 +42059,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43408] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Hit Enhancement Ⅰ",
-		star_limit = 4,
-		id = 43408,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "hit_1",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 43408,
 		condition_id = {
 			43407
 		},
@@ -41614,17 +42093,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43409] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 43409,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 43409,
 		condition_id = {
 			43407
 		},
@@ -41658,17 +42137,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43410] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Anti-Air Enhancement Ⅱ",
-		star_limit = 5,
-		id = 43410,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aa_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 43410,
 		condition_id = {
 			43404,
 			43409
@@ -41711,17 +42190,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43411] = {
-		use_gold = 4000,
+		level_limit = 85,
 		name = "Modernization",
-		star_limit = 5,
-		id = 43411,
+		descrip = "After Modernization, this ship will gain +35 FP and +10 AA; After Retrofit, this ship’s <color=#92fc63>Main Gun (CL)</color> slot will be replaced with a <color=#92fc63>Main Gun (DD)</color> slot.",
 		max_level = 1,
 		skin_id = 702029,
 		use_ship = 1,
-		level_limit = 85,
-		descrip = "After Modernization, this ship will gain +35 FP and +10 AA; After Retrofit, this ship’s <color=#92fc63>Main Gun (CL)</color> slot will be replaced with a <color=#92fc63>Main Gun (DD)</color> slot.",
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 43411,
 		condition_id = {
 			43409,
 			43410
@@ -41752,17 +42231,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[43412] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 43412,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_red",
 		skill_id = 14260,
+		use_gold = 3000,
+		id = 43412,
 		condition_id = {
 			43408,
 			43411
@@ -41791,17 +42270,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53401] = {
-		use_gold = 400,
+		level_limit = 1,
 		name = "Hull Improvement Ⅰ",
-		star_limit = 2,
-		id = 53401,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 1,
-		descrip = "",
+		star_limit = 2,
 		icon = "hp_1",
 		skill_id = 0,
+		use_gold = 400,
+		id = 53401,
 		condition_id = {},
 		effect = {
 			{
@@ -41823,17 +42302,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53402] = {
-		use_gold = 600,
+		level_limit = 5,
 		name = "Reload Enhancement Ⅰ",
-		star_limit = 2,
-		id = 53402,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 5,
-		descrip = "",
+		star_limit = 2,
 		icon = "rl_1",
 		skill_id = 0,
+		use_gold = 600,
+		id = 53402,
 		condition_id = {
 			53401
 		},
@@ -41857,17 +42336,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53403] = {
-		use_gold = 800,
+		level_limit = 20,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 3,
-		id = 53403,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 20,
-		descrip = "",
+		star_limit = 3,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 800,
+		id = 53403,
 		condition_id = {
 			53401
 		},
@@ -41891,17 +42370,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53404] = {
-		use_gold = 1000,
+		level_limit = 25,
 		name = "Anti-Air Enhancement Ⅰ",
-		star_limit = 3,
-		id = 53404,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 25,
-		descrip = "",
+		star_limit = 3,
 		icon = "aa_1",
 		skill_id = 0,
+		use_gold = 1000,
+		id = 53404,
 		condition_id = {
 			53403
 		},
@@ -41925,17 +42404,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53405] = {
-		use_gold = 1200,
+		level_limit = 35,
 		name = "Anti-Air Gun Improvement Ⅰ",
-		star_limit = 4,
-		id = 53405,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 35,
-		descrip = "",
+		star_limit = 4,
 		icon = "aaup_1",
 		skill_id = 0,
+		use_gold = 1200,
+		id = 53405,
 		condition_id = {
 			53403
 		},
@@ -41959,17 +42438,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53406] = {
-		use_gold = 1500,
+		level_limit = 40,
 		name = "Aviation Enhancement Ⅰ",
-		star_limit = 4,
-		id = 53406,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 40,
-		descrip = "",
+		star_limit = 4,
 		icon = "air_1",
 		skill_id = 0,
+		use_gold = 1500,
+		id = 53406,
 		condition_id = {
 			53405
 		},
@@ -41993,17 +42472,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53407] = {
-		use_gold = 1800,
+		level_limit = 50,
 		name = "Hull Improvement Ⅱ",
-		star_limit = 4,
-		id = 53407,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 50,
-		descrip = "",
+		star_limit = 4,
 		icon = "hp_2",
 		skill_id = 0,
+		use_gold = 1800,
+		id = 53407,
 		condition_id = {
 			53405
 		},
@@ -42037,17 +42516,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53408] = {
-		use_gold = 2000,
+		level_limit = 55,
 		name = "Reload Enhancement Ⅱ",
-		star_limit = 4,
-		id = 53408,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 55,
-		descrip = "",
+		star_limit = 4,
 		icon = "rl_2",
 		skill_id = 0,
+		use_gold = 2000,
+		id = 53408,
 		condition_id = {
 			53407,
 			53402
@@ -42082,17 +42561,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53409] = {
-		use_gold = 2500,
+		level_limit = 70,
 		name = "Anti-Air Gun Improvement Ⅱ",
-		star_limit = 5,
-		id = 53409,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 70,
-		descrip = "",
+		star_limit = 5,
 		icon = "Aaup_2",
 		skill_id = 0,
+		use_gold = 2500,
+		id = 53409,
 		condition_id = {
 			53407
 		},
@@ -42126,17 +42605,17 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53410] = {
-		use_gold = 3000,
+		level_limit = 75,
 		name = "Aviation Enhancement Ⅱ",
-		star_limit = 5,
-		id = 53410,
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 75,
-		descrip = "",
+		star_limit = 5,
 		icon = "air_2",
 		skill_id = 0,
+		use_gold = 3000,
+		id = 53410,
 		condition_id = {
 			53409
 		},
@@ -42178,30 +42657,30 @@ This ship's skill, "Foo and Friends", has been improved.]],
 		}
 	},
 	[53411] = {
-		use_gold = 4000,
-		name = "Modernization",
-		star_limit = 5,
-		id = 53411,
-		max_level = 1,
-		skin_id = 506019,
-		use_ship = 1,
 		level_limit = 85,
+		name = "Modernization",
 		descrip = [[
 Retrofit complete. The following changes have been applied:
 
 AA +35, AVI +25.
 <color=#92fc63>This ship's 1st weapon slot can now equip Fighters and gains +2 aircraft.</color>
 <color=#92fc63>This ship's 2nd weapon slot can equip any type of aircraft and gains +1 aircraft/mount.</color>]],
+		max_level = 1,
+		skin_id = 506019,
+		use_ship = 1,
+		star_limit = 5,
 		icon = "mt_red",
 		skill_id = 0,
+		use_gold = 4000,
+		id = 53411,
 		condition_id = {
 			53409,
 			53410
 		},
 		effect = {
 			{
-				antiaircraft = 35,
-				air = 25
+				air = 25,
+				antiaircraft = 35
 			}
 		},
 		ship_id = {
@@ -42224,17 +42703,17 @@ AA +35, AVI +25.
 		}
 	},
 	[53412] = {
-		use_gold = 3000,
+		level_limit = 90,
 		name = "Tactical Learning",
-		star_limit = 5,
-		id = 53412,
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
-		level_limit = 90,
-		descrip = "",
+		star_limit = 5,
 		icon = "skill_yellow",
 		skill_id = 17500,
+		use_gold = 3000,
+		id = 53412,
 		condition_id = {
 			53411
 		},

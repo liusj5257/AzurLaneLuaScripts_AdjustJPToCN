@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Taihou, Body and Soul\n\n<size=45>Chapter 3: Taihou's Nemesis(?)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,19 +68,19 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			say = "Surpriiiiiiise!",
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "Surpriiiiiiise!",
 			actorPosition = {
 				x = 0,
 				y = -750
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.3,
 					x = 0
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Aaaaaieeeeeee! A-A-A-Albacore?!",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Ahahahahahaa! I got'cha good, didn't I?",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I was a lot more afraid of Taihou's reaction than I was of Albacore's surprise.",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "What are you doing here?!",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			actor = 108020,
+			say = "Ahaha! I just came by to see you, Taihou. How you doing?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahaha! I just came by to see you, Taihou. How you doing?",
+			actor = 108020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -210,8 +210,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Thanks to you, I'm a little on edge right now.",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Yeah, right, so anyway, I came across this new game. If you've got time today, how about we try it out?",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "I have very important secretary ship duties today, duties that involve staying forever by my Commander's side. I don't have time to play with you–",
 			typewriter = {
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Uhh... Duh~ Just bring the Commander along with us! C'mon, c'mon!",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 22.5,
@@ -287,10 +287,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 307070,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "(This little urchin acts all sweet and innocent to manipulate my Commander...!) ",
 			typewriter = {
 				speed = 0.05,
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Fine! I'll think about it.",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Hehee. Yay! Then I'll come back to get you later. Bye bye, Taihou, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 0.5,
 					x = -2250
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "... They were getting along better than I expected.",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Getting along? With that child? I hope not.",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
 					x = 0,
@@ -394,8 +394,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Every time she comes around I get dragged off to something...",
 			typewriter = {
@@ -411,8 +411,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "And this time she's roped you into it... I can't imagine what she's planning!",
 			typewriter = {
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

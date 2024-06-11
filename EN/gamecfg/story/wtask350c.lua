@@ -1,12 +1,12 @@
 return {
-	id = "WTask350C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask350C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You’ve successfully taken out the Sirens. Mission complete!",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「我らが征く道なかば、求める暁を目にする前に</size>",
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -47,8 +47,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,16 +74,16 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_italy_cg1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-italy",
 			actor = 605020,
 			nameColor = "#ffde38",
+			bgName = "bg_italy_cg1",
 			say = "そんな…まさか…！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			say = "サディア帝国のタラント港が赤く染められていた。",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "サディア帝国のタラント港が赤く染められていた。",
 			flashN = {
 				color = {
 					1,
@@ -173,8 +173,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "私としたことが…作戦を見破れぬとは…！",
 			dialogShake = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
+			dir = 1,
 			say = "港の対空施設・対空砲が火を噴くも、ロイヤルの艦載機の勢いを阻止するには至らない",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "艦載機による夜間奇襲爆撃、とは――！！",
 			typewriter = {
@@ -223,9 +223,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
+			dir = 1,
 			say = "燃え上がる艦（フネ）たちの姿は、見るものに地獄を想起させる光景であった――",
 			typewriter = {
 				speed = 0.05,
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			say = "三日前、サディア帝都「チッタ エテールナ」",
-			side = 2,
 			bgName = "bg_story_italy",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "三日前、サディア帝都「チッタ エテールナ」",
 			effects = {
 				{
 					active = false,
@@ -250,8 +250,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#ffde38",
 			say = "はっ！本当であります！帝国の南部海域にセイレーンの大艦隊が集結しています！",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900198,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ffde38",
 			say = "セイレーンの艦隊をここまで進出させるなんて…鉄血艦隊は一体なにを考え……",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900198,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ffde38",
 			say = "（レッドアクシズへの参加は、地中海の安全を必須条件としました…）",
 			typewriter = {
@@ -355,8 +355,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900198,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ffde38",
 			say = "（ヴィシアの領域にセイレーンが現れたこと自体不審だと思いましたけど、まさかサディアにまで……）",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900198,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ffde38",
 			say = "リットリオ！",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "悩んでいても仕方がないじゃない？「総旗艦殿」？",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "なに、対応は簡単だ。帝国海軍、そしてこのリットリオをよく見るがいい",
 			typewriter = {
@@ -439,8 +439,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "エウロパ大陸における最新鋭の艦隊と装備を有する我ら",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "ヴェネト、貴方の命令一つあればーー",
 			typewriter = {
@@ -489,8 +489,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "サディアの伝説の栄光など、いとも容易く再現できるだろう",
 			typewriter = {
@@ -506,8 +506,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "――それも虚辞でもなく、真にな",
 			typewriter = {
@@ -523,8 +523,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900198,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ffde38",
 			say = "は、はあ……",
 			typewriter = {
@@ -556,8 +556,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900198,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ffde38",
 			say = "……………でも……",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "そうか、ロイヤル艦隊の動き、ヴィシアの時のような行動をしないか気がかりかね？",
 			typewriter = {
@@ -590,8 +590,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "それならなおさら気にする必要はない！いずれにしてもこっちがレッドアクシズに参加した時点で、対応が決まっているさ",
 			typewriter = {
@@ -607,8 +607,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "セイレーンの進出、私はむしろいいきっかけだと思っている",
 			typewriter = {
@@ -640,8 +640,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "ともすれば、彼女らも私たちの出方、そして「ここにいるだけの私たち」の力を測りかねている",
 			typewriter = {
@@ -657,8 +657,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "ならばここは打って出て、セイレーンを叩き力を示し――",
 			typewriter = {
@@ -674,8 +674,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "我がサディアの威光を全世界に示す好機を、この一芝居に賭けようではないか？",
 			typewriter = {

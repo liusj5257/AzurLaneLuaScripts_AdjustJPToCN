@@ -1,13 +1,13 @@
 slot0 = class("UrExchangeTaskPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.uilist = UIItemList.New(slot0:findTF("AD/task_list/content"), slot0:findTF("AD/task_list/content/tpl"))
 	slot0.getBtn = slot0:findTF("AD/get_btn")
 	slot0.gotBtn = slot0:findTF("AD/got_btn")
 	slot0.unfinishBtn = slot0:findTF("AD/unfinish_btn")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if not slot0:GetTaskById(slot0.activity:getConfig("config_data")[1][1]) then
 		pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 1,
@@ -20,13 +20,13 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot3 = _.map(slot0.activity:getConfig("config_data")[1], function (slot0)
 		return uv0:GetTaskById(slot0)
 	end)
 	slot4 = table.remove(slot3, #slot3)
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		if slot0:isFinish() and not slot0:isReceive() then
 			return 0
 		elseif slot0:isReceive() then
@@ -61,11 +61,11 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.gotBtn, slot7)
 end
 
-function slot0.GetTaskById(slot0, slot1)
+slot0.GetTaskById = function(slot0, slot1)
 	return getProxy(TaskProxy):getTaskById(slot1) or getProxy(TaskProxy):getFinishTaskById(slot1)
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	assert(slot2)
 	setText(slot1:Find("Text"), slot2:getConfig("desc"))
 

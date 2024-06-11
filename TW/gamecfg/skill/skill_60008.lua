@@ -2,11 +2,11 @@ return {
 	uiEffect = "AimEffectUI",
 	name = "海伦娜-舰队之眼",
 	cd = 0,
-	painting = 1,
-	id = 60008,
 	picture = "0",
 	aniEffect = "",
 	desc = "舰队之眼",
+	painting = 1,
+	id = 60008,
 	effect_list = {
 		{
 			target_choise = "TargetHarmRandom",

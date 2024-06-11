@@ -1,12 +1,12 @@
 return {
-	id = "W863002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W863002",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "請先找到前置的燈塔！",
 			typewriter = {
 				speed = 0.05,

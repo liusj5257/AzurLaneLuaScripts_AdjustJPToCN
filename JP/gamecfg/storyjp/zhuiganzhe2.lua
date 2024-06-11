@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お嬢様とめぐるひとときを\n\n<size=45>二 知らないお茶の新発見</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "外の暑さですっかり喉が渇いてしまった。執務室に着くなり、冷やしておいた麦茶を用意しようとすると――",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "外の暑さですっかり喉が渇いてしまった。執務室に着くなり、冷やしておいた麦茶を用意しようとすると――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,8 +70,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "え？これは紅茶ではなく麦茶？なるほど、それは聞いたことのないお茶ね。ふふ、興味がそそられるわ",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "チェイサーはコップではなくティーカップに麦茶を注ぐと、応接テーブルの前に向かい合わせで座った。",
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "先日、わたくしがクイーン・エリザベス様からあるご用命を受けたのはご存じかしら？",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "確か、この母港に所属する各陣営にロイヤルの艦船を1名出向させたいという話だった……気がする。",
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "おなじく他陣営からもロイヤルに出向する子がいるようだし、互いの連携を図る目的だと思っているけど",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そう言いながら、チェイサーはクイーン・エリザベスから預かったという手紙をよこした。",
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "いかにも高級な便せんで、かの小さな女王陛下らしいと思いながらゆっくりと内容を読み上げる。",
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "着任して日が浅いチェイサーにここに慣れてもらうためにも、下僕がちゃんとついてあげなさい！いーい？",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -271,8 +271,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "――それで、なんて書いてあったの？",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "手紙の内容をそのままチェイサーに説明する。",
@@ -303,8 +303,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "うーん、わたくしできたら一人で行きたいのだけど、あとで指揮官が何か言われるのも気が進まないわね。",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "ま、これも陛下の優しさでしょうし素直に従いましょ。もちろん指揮官がご多忙でなければだけどね？",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "問題ない、とティーカップを持ち上げる。",
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "……楽しい視察になりそうだ。",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "チェイサーはふっと微笑む。",
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そして何を思ったのか、突然ティーカップと一緒に持ってきたミルクポットを麦茶に入れ始めた！",
@@ -413,8 +413,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "どうしたの？指揮官。まさかお茶にミルクを加えると味が一層引き立つことを知らない？",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そのまま彼女はミルク麦茶にそっと口をつけた。",
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "……少し変わった味わいのお茶ね",
 			typewriter = {
@@ -459,8 +459,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

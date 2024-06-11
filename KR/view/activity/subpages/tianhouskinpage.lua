@@ -30,11 +30,11 @@ slot1 = {
 	}
 }
 
-function slot0.GetCurrentDay()
+slot0.GetCurrentDay = function()
 	return pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t").yday
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.helpBtn = slot0:findTF("help", slot0.bg)
 	slot0.gotTag = slot0:findTF("got", slot0.bg)
@@ -47,7 +47,7 @@ function slot0.OnInit(slot0)
 	slot0.playEffectBtn = slot0:findTF("fire", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.hubID = slot0.activity:getConfig("config_id")
 
 	onButton(slot0, slot0.helpBtn, function ()
@@ -79,7 +79,7 @@ function slot0.OnFirstFlush(slot0)
 	blinkAni(slot0:findTF("light", slot0.playEffectBtn), 0.5)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0.hubID)
 
 	setText(slot0.ticketText, slot2.count)
@@ -98,11 +98,11 @@ function slot0.OnUpdateFlush(slot0)
 	pg.NewStoryMgr.GetInstance():Play("TIANHOUYUYI1")
 end
 
-function slot0.TransformColor(slot0)
+slot0.TransformColor = function(slot0)
 	return Color.New(tonumber(string.sub(slot0, 1, 2), 16) / 255, tonumber(string.sub(slot0, 3, 4), 16) / 255, tonumber(string.sub(slot0, 5, 6), 16) / 255)
 end
 
-function slot0.PlayFirework(slot0, slot1)
+slot0.PlayFirework = function(slot0, slot1)
 	slot1 = slot1 or {
 		0,
 		0,
@@ -124,7 +124,7 @@ function slot0.PlayFirework(slot0, slot1)
 	slot0:PlaySE()
 end
 
-function slot0.ClearEffectFirework(slot0)
+slot0.ClearEffectFirework = function(slot0)
 	slot0:StopSE()
 
 	if slot0.fireEffect then
@@ -132,7 +132,7 @@ function slot0.ClearEffectFirework(slot0)
 	end
 end
 
-function slot0.PlaySE(slot0)
+slot0.PlaySE = function(slot0)
 	if slot0.SETimer then
 		return
 	end
@@ -151,7 +151,7 @@ function slot0.PlaySE(slot0)
 	slot0.SETimer:Start()
 end
 
-function slot0.StopSE(slot0)
+slot0.StopSE = function(slot0)
 	if slot0.SETimer then
 		pg.CriMgr.GetInstance():StopSEBattle_V3()
 		slot0.SETimer:Stop()
@@ -160,11 +160,11 @@ function slot0.StopSE(slot0)
 	end
 end
 
-function slot0.OnHideFlush(slot0)
+slot0.OnHideFlush = function(slot0)
 	slot0:ClearEffectFirework()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:ClearEffectFirework()
 end
 

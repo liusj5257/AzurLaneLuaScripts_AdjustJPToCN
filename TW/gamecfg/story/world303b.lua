@@ -1,18 +1,18 @@
 return {
-	id = "WORLD303B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD303B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-3",
 			actor = 102090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "這個場面很像塞壬的實驗場徹底摧毀之後的樣子啊...",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "塞壬在海裡建了這麼多實驗設施，又在每次和我們的戰鬥中收集數據，妳們覺得它們究竟有什麼目的啊？",
 			typewriter = {
 				speed = 0.05,
@@ -71,9 +71,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哎~它們要是願意乖乖回答問題的話，現在就不會有這麼多謎團啦！",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "這可不像通常電子元件融化後留下的結晶哦...難道是襲擊這裡的人留下的嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "妳是指“皇家方舟”嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,8 +230,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "蒙彼利埃.....周圍區域除了我們之外就是成片的殘骸，一個敵人都沒看到哦？",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -271,8 +271,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "真的哎，我的雷達上也是，密密麻麻的紅點的已經把周邊海域填滿了......",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "而且按照雷達的顯示，僅僅是在目視範圍內就有至少數十艘塞壬艦船把我們包了個水洩不通。",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "雷達上的目標還在不停改變位置哦！",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "簡直像眼睛看不到的海面幽靈一樣.......我們的炮彈，應該對幽靈不起效吧。",
 			typewriter = {
 				speed = 0.05,
@@ -350,8 +350,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "唔......好像在艾塞克斯發現皇家方舟的訊號之後，她們的電子系統也遭遇了強烈的電子嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -441,8 +441,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "先把這些情報都匯報給司令部吧......我對這件事有種不好的預感。",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULISITUOERBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULISITUOERBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"연습 신비 사건 조사\n\n<size=45>3. 암호화된 통화</size>",
@@ -19,18 +19,18 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			oldPhoto = true,
 			dir = 1,
 			bgmDelay = 2,
+			oldPhoto = true,
 			bgm = "battle-boss-4",
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
+			bgName = "bg_story_nepu2",
 			say = "내 착각인가.... 적이 점점 많아지는 것 같은데?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "쾅————————!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "쾅————————!",
 			flashN = {
 				color = {
 					1,
@@ -167,13 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어쩔 수 없어… 위험하지만 메시지를 암호화해서 연락을 취해보자!",
 			typewriter = {
 				speed = 0.05,
@@ -204,13 +204,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "통신기",
-			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "잉그레이엄의 개인 연락 채널도 한번 시도해보자…",
 			typewriter = {
 				speed = 0.05,
@@ -422,13 +422,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네가 우산 좀 가져다 주면 좋겠다고! (못 버티니까, 빨리 지원을 보내달라고!)",
 			typewriter = {
 				speed = 0.05,
@@ -479,8 +479,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -489,13 +489,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "( 잠깐 그곳에서 비를 피하면 되잖아의 뜻은 적의 공세가 맹렬하니, 잠시 대피하라는 뜻이야!)",
 			typewriter = {
 				speed = 0.05,
@@ -526,13 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "잘 이해했어! 조사원 통신 종료!",
 			typewriter = {
 				speed = 0.05,
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "근데 잉그레이엄은 계속 버려진 기지 근처에서 엄호하길 바라는 것 같아… 이곳을 굳게 지킨다면 무슨 방법이 있단 뜻인가?",
 			typewriter = {
 				speed = 0.05,
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "브리스톨은 공책을 꺼내 이렇게 적었다:",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "█년 █월 █일. 맑음(마음속은 비가 내리는 중).  모항의 반 이상이 공격당함. 전황 긴박.",
@@ -631,8 +631,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,

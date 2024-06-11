@@ -1,6 +1,6 @@
 slot0 = class("NewYear24LoginPage", import(".TemplatePage.LoginTemplatePage"))
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	slot1 = slot0.itemList
@@ -22,7 +22,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

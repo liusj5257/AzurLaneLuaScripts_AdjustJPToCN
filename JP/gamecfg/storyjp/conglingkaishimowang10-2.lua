@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -42,9 +42,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 331055,
 			factiontag = "伝説の格闘家",
 			dir = 1,
+			actor = 331055,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "必殺技、ダイナミックキック…です！",
@@ -60,9 +60,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 431232,
 			factiontag = "伝説の戦士",
 			dir = 1,
+			actor = 431232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "チャージ300％…山を割く一撃！",
@@ -78,9 +78,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 201217,
 			factiontag = "伝説の勇者",
 			dir = 1,
+			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "勇者の剣よ、真の力を見せよ――ミリオンスラッシュ！",
@@ -94,27 +94,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
-			say = "伝説の勇者パーティーの助けもあって、戦闘はあっという間に終わった。",
 			bgm = "ryza-az-theme",
+			say = "伝説の勇者パーティーの助けもあって、戦闘はあっという間に終わった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "つ、強い！これが伝説の勇者パーティーの力…！",
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それよりみんなの体が透けてきてない？",
@@ -487,11 +487,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はい……",
@@ -545,11 +545,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "勇者の剣がニセモノだから？",
@@ -582,11 +582,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ええ！？どう見ても魚なのにそれが勇者の剣！？",
@@ -679,11 +679,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…でも本物じゃないんだ……",
@@ -756,11 +756,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうだ。…そうだよ！その通り！",
@@ -774,11 +774,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ありがとう！伝説の勇者ジャベリン！",
@@ -869,27 +869,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
-			say = "伝説の勇者パーティーは風と共に消え去り、森に静寂が戻った。",
 			bgm = "story-mmorpg",
+			say = "伝説の勇者パーティーは風と共に消え去り、森に静寂が戻った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -897,11 +897,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こんなことになるとはね……",
@@ -915,11 +915,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大魔法使いをパーティーに入れる計画が見事に失敗しちゃった…",
@@ -971,11 +971,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それもそうか…",
@@ -989,11 +989,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "むっ、全く感動的なクエストだったけど……",
@@ -1007,11 +1007,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これからどこに行けばいいんだろう？",
@@ -1025,8 +1025,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "――――！！",
 			typewriter = {

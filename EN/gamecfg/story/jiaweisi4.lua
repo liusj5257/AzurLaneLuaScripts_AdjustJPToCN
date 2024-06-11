@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Nursing Honesty\n\n<size=45>4 Jervis and Janus</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
@@ -66,15 +66,15 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I-I'm coming in!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "A visitor came to my office. It was Janus, one of Jervis' sister ships.",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Janus? Are you here to talk to the Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -144,10 +144,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um, uh, y-yes!",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -172,10 +172,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Calm down. Take a deep breath.",
 			typewriter = {
 				speed = 0.05,
@@ -190,10 +190,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Huff...",
 			typewriter = {
 				speed = 0.05,
@@ -208,10 +208,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Better?",
 			typewriter = {
 				speed = 0.05,
@@ -226,10 +226,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Mhm. That helped!",
 			typewriter = {
 				speed = 0.05,
@@ -244,10 +244,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Umm, I'm here to turn in my naval exercise application!",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -272,10 +272,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I have the document right here. Please pass it on to the Commander...",
 			typewriter = {
 				speed = 0.05,
@@ -290,10 +290,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Very well. I will let you know when and where it's taking place if the Commander accepts your entry.",
 			typewriter = {
 				speed = 0.05,
@@ -308,10 +308,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Thank you. I-I'll be taking my leave now! I've got to practice for the exercise! ",
 			typewriter = {
 				speed = 0.05,
@@ -326,10 +326,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Good luck with your work, you two!",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -351,13 +351,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "After Janus had left, I felt Jervis seemed uncharacteristically tense.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I surmised it had something to do with her sister's plan to participate in the exercise.",
 			typewriter = {
 				speed = 0.05,
@@ -502,9 +502,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			optionFlag = 2,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 2,
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -519,8 +519,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

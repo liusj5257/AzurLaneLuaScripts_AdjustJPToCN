@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나의 아름다운 기억\n\n<size=45>3. 비서함의 책임</size>",
@@ -81,11 +81,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#92fc63",
 			say = "이상입니다. 오늘의 비서함 업무는 이로써 끝입니다. 지휘관, 수고하세요.",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
 			side = 2,
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "에이잭스는 일을 매우 잘한다. 하지만 그녀가 비서함일 때의 가장 큰 특징은——",
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "“잡일꾼” 범주에 속하는 일은 정말 조금도 손대지 않는다는 것이다.",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
 			side = 2,
+			nameColor = "#92fc63",
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

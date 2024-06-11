@@ -1,6 +1,6 @@
 slot0 = class("Guide")
 
-function slot0.Data2GuideStep(slot0, slot1)
+slot0.Data2GuideStep = function(slot0, slot1)
 	if slot1.hideui then
 		return GuideHideUIStep.New(slot1)
 	elseif slot1.stories then
@@ -18,7 +18,7 @@ function slot0.Data2GuideStep(slot0, slot1)
 	end
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.steps = {}
 
 	for slot5, slot6 in ipairs(slot1.events) do
@@ -32,7 +32,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.GetStepsWithCode(slot0, slot1)
+slot0.GetStepsWithCode = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.steps) do

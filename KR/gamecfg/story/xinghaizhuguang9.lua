@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_2",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "가상 세계 \"산호해\" - 임무 해역",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "플래셔, 인양 작업은 아직이야?",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_zhuguang_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -182,8 +182,8 @@ return {
 			bgName = "bg_zhuguang_2",
 			factiontag = "심해데이터분석국",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "컨스텔레이션",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "들려? 지금부터 괌 함대의 무선 침묵 상태를 해제할게. 수신 후 회신 부탁해.",
 			painting = {
@@ -881,8 +881,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_zhuguang_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -931,11 +931,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응, 나도 알아...",

@@ -1,6 +1,6 @@
 slot0 = class("ShipProfileLive2dBtn")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.manager = BundleWizard.Inst:GetGroupMgr("L2D")
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.paintingName = slot1
 	slot0.isOn = slot2
 	slot4 = HXSet.autoHxShiftPath("live2d/" .. slot1, nil, true)
@@ -32,7 +32,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:AddTimer(slot4, slot6, slot1, slot2)
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.live2dTimer then
 		slot0.live2dTimer:Stop()
 
@@ -40,7 +40,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.AddTimer(slot0, slot1, slot2, slot3, slot4)
+slot0.AddTimer = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:RemoveTimer()
 
 	if slot2 == DownloadState.CheckToUpdate or slot2 == DownloadState.UpdateFailure or slot2 == DownloadState.Updating then
@@ -52,7 +52,7 @@ function slot0.AddTimer(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.OnCheckToUpdate(slot0, slot1)
+slot0.OnCheckToUpdate = function(slot0, slot1)
 	setActive(slot0.live2dBtn, true)
 	setActive(slot0.live2dState, false)
 	setActive(slot0.live2dToggle, true)
@@ -63,15 +63,15 @@ function slot0.OnCheckToUpdate(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdating(slot0)
+slot0.OnUpdating = function(slot0)
 	setActive(slot0.live2dBtn, true)
 	setActive(slot0.live2dToggle, false)
 	setActive(slot0.live2dState, true)
 	removeOnButton(slot0.live2dBtn)
 end
 
-function slot0.OnUpdated(slot0, slot1, slot2)
-	setActive(slot0.live2dBtn, PathMgr.FileExists(PathMgr.getAssetBundle(slot1)))
+slot0.OnUpdated = function(slot0, slot1, slot2)
+	setActive(slot0.live2dBtn, checkABExist(slot1))
 	setActive(slot0.live2dState, false)
 	setActive(slot0.live2dToggle, true)
 	setActive(slot0.live2dOn, slot2)
@@ -85,21 +85,21 @@ function slot0.OnUpdated(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	if slot0.isOn then
 		triggerButton(slot0.live2dBtn)
 	end
 end
 
-function slot0.SetEnable(slot0, slot1)
+slot0.SetEnable = function(slot0, slot1)
 	setButtonEnabled(slot0.live2dBtn, slot1)
 end
 
-function slot0.AddListener(slot0, slot1)
+slot0.AddListener = function(slot0, slot1)
 	slot0.callback = slot1
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.callback = nil
 
 	slot0:RemoveTimer()

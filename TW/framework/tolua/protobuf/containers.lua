@@ -29,7 +29,7 @@ slot4 = {
 	__index = slot4
 }
 
-function RepeatedCompositeFieldContainer(slot0, slot1)
+RepeatedCompositeFieldContainer = function(slot0, slot1)
 	return uv0({
 		_listener = slot0,
 		_message_descriptor = slot1
@@ -52,7 +52,7 @@ slot5 = {
 	__index = slot5
 }
 
-function RepeatedScalarFieldContainer(slot0, slot1)
+RepeatedScalarFieldContainer = function(slot0, slot1)
 	return uv0({
 		_listener = slot0,
 		_type_checker = slot1

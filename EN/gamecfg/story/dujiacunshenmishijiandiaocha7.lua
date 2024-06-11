@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Spiriting-Away Incident?\n\n<size=45>Assemble the Fleet!</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Wants You to Respect Your Elders",
+			bgm = "map-longgong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, it's time for the intermission.",
-			bgm = "map-longgong",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
@@ -60,13 +60,13 @@ return {
 			}
 		},
 		{
-			actor = 301810,
+			actorName = "Kasumi & Hatsuzuki",
 			side = 0,
 			bgName = "bg_village_in",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			hideOther = true,
-			actorName = "Kasumi & Hatsuzuki",
+			dir = 1,
+			actor = 301810,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "- It was great. - I'll have nightmares about this!",
 			subActors = {
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
+			actorName = "Bristol & Fu Shun",
 			side = 0,
 			bgName = "bg_village_in",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			hideOther = true,
-			actorName = "Bristol & Fu Shun",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "- I can't wait for more! - Show us the next act already!",
 			subActors = {
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
@@ -169,12 +169,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_village_in",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "BOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Foo is Here Too",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...What was that?",
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_village_in",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "BOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,11 +289,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Zoinks! Is that an earthquake?!",
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Chouchinobake",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Chouchinobake",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Uh-oh! We need to stop the attack immediately!",
@@ -501,28 +501,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_out",
+			bgm = "nagato-map",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Meanwhile, outside the strange torii gate...",
-			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "The Guardian Fox",
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Expected to finish in ten minutes.",
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Bad Luck Won't Stop Her",
 			dir = 1,
+			actor = 305020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Understood, Lady Nagato!",
@@ -654,8 +654,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "Nagato, Yamashiro, and Musashi are bombarding the barrier. A group of shipgirls from all factions stood just behind them, ready to run in.",
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -689,8 +689,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -701,8 +701,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "A familiar voice calls out to me from nowhere. Then, Shimakaze appears seemingly out of thin air from beyond the torii gate.",
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "More follow a few moments later. Owari, Hatsuzuki, and Bristol with the rest of her team.",
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Geesh, you guys gathered a small army here...",
@@ -741,11 +741,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "See? I TOLD you we should've called the Commander before we went in!",
@@ -778,28 +778,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_out",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Shimakaze, in her panic, blew way past a summary and dove into a convoluted explanation...",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -807,8 +807,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "Fortunately, Shinano had come along, and she provided me with a brief overview of what had happened.",
@@ -818,11 +818,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "All we intended for was an unforgettable summer experience... We are truly sorry...",
@@ -898,11 +898,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I'll admit, it DID result in an unforgettable experience.",
@@ -935,11 +935,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Surprisingly Good with Disguises",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I wondered what form this Youkai Troupe would take, and I was not disappointed.",
@@ -953,11 +953,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Plays the Teacher a Lot",
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Speaking of them, is that where we'll meet the troupe? Just past the barrier under the torii gate?",
@@ -971,11 +971,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yes... They cannot leave the barrier in their current forms...",

@@ -1,10 +1,10 @@
 slot0 = class("ActivityBossPtAwardSubPanel", import("view.base.BaseSubPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivitybonusWindow_btnVer"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.scrollPanel = slot1:Find("window/panel")
 	slot2 = slot0._tf
@@ -43,7 +43,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateView(slot0, slot1)
+slot0.UpdateView = function(slot0, slot1)
 	slot0.ptData = slot1
 	slot2 = slot1.dropList
 	slot3 = slot1.targets
@@ -70,7 +70,7 @@ function slot0.UpdateView(slot0, slot1)
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateList = function(slot0, slot1, slot2, slot3, slot4)
 	assert(#slot1 == #slot2)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
@@ -108,11 +108,11 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 	scrollTo(slot0.scrollPanel, 0, 1 - slot3 * 166 / (#slot2 * 166 + 20 - 570))
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.OnHide(slot0)
+slot0.OnHide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.viewParent._tf)
 end
 

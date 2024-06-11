@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN36",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_battle_night",
-			stopbgm = true,
-			say = "大洋中的某处。",
 			bgmDelay = 2,
 			bgm = "theme-irisangel",
+			stopbgm = true,
+			say = "大洋中的某處。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,20 +28,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_battle_night",
-			say = "月光洒向海面，一个人影在月色中穿行。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_battle_night",
-			say = "忽然，她的速度慢了下来。",
+			say = "月光灑向海面，一個人影在月色中穿梭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,23 +39,33 @@ return {
 		},
 		{
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_battle_night",
+			say = "忽然，她的速度慢了下來。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_battle_night",
 			nameColor = "#A9F548FF",
-			say = "你已经进入维希教廷领海，请表明来意。",
+			say = "妳已經進入維希教廷領海，請表明來意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 902010,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#A9F548FF",
-			say = "阿尔及利亚，别藏了。",
+			hidePaintObj = true,
+			say = "阿爾及利亞，別藏了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,11 +79,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "什么啊，原来你早都发现我了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "什麼啊，原來妳早都發現我了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,11 +97,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "是你身手生疏了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "是妳身手生疏了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,11 +115,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "哦？这么自信的话要不要来比比看？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "哦？這麼有自信的話要不要來比比看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,11 +133,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "别——我认输。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "別——我認輸。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,11 +151,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "……嗯？等等、你受伤了？！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……嗯？等等、妳受傷了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -176,13 +176,13 @@ return {
 			}
 		},
 		{
-			actor = 902010,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#A9F548FF",
-			say = "小伤而已，回基地休整一下就好。",
+			hidePaintObj = true,
+			say = "小傷而已，回基地休整就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,11 +196,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "教廷的情况还好么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "教廷的情況還好嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,11 +214,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "该怎么说呢……暗流涌动？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "該怎麼說呢……暗潮湧動？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,11 +232,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 902010,
-			say = "那我回来的还不算晚……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "那我回來的還不算太晚……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,13 +247,13 @@ return {
 			}
 		},
 		{
-			actor = 902010,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#A9F548FF",
-			say = "克莱蒙梭大人在你来之前有什么交代么？",
+			hidePaintObj = true,
+			say = "克里蒙梭大人在妳來之前有什麼交代嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,12 +264,12 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_battle_night",
+			dir = 1,
 			actor = 903020,
-			side = 2,
-			bgName = "bg_battle_night",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "倒是有。",
 			painting = {
 				alpha = 0.3,
@@ -284,11 +284,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 903020,
-			say = "不过我们还是先回基地吧，得先处理一下你的伤才行。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不過我們還是先回基地吧，要先處理一下妳的傷才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1

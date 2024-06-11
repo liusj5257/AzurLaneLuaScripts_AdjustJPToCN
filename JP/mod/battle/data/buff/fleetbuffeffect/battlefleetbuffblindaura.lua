@@ -5,11 +5,11 @@ slot0.Battle.BattleFleetBuffBlindAura = class("BattleFleetBuffBlindAura", slot0.
 slot0.Battle.BattleFleetBuffBlindAura.__name = "BattleFleetBuffBlindAura"
 slot2 = slot0.Battle.BattleFleetBuffBlindAura
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot2.SetArgs(slot0, slot1, slot2)
+slot2.SetArgs = function(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list.target
 	slot0._aura = uv0.Battle.BattleDataProxy.GetInstance():SpawnLastingCubeArea(uv1.AOEField.SURFACE, slot1:GetIFF(), Vector3(-55, 0, 55), 180, 70, 0, function (slot0)
 		slot5 = uv0._tempData.arg_list
@@ -41,7 +41,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	end, false)
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	slot0._aura:SetActiveFlag(false)
 
 	slot0._aura = nil

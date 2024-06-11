@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN29",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "普通の量産艦ならとっくに撃破できる火力にもかかわらず、コンパイラーの装甲には傷一つついていない。",
+			bgm = "battle-seiren-theme",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
-			bgm = "battle-seiren-theme",
+			say = "普通の量産艦ならとっくに撃破できる火力にもかかわらず、コンパイラーの装甲には傷一つついていない。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -30,9 +30,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
+			dir = 1,
 			say = "ハインリヒと艤装の連携攻撃――残念ながらコンパイラーの防御モジュール―――バリアには有効打に至らなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -47,11 +47,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "か、硬い……！？",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "プリンツ・ハインリヒ",
+			side = 2,
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -131,9 +131,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
+			dir = 1,
 			say = "水面下よりコンパイラーの艤装の巨大触手がハインリヒに襲いかかった。",
 			typewriter = {
 				speed = 0.05,
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
+			dir = 1,
 			say = "間一髪で回避できたが、巨大触手のまるで重量を感じさせない動きにハインリヒは瞬く間に苦戦に強いられた。",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "コンパイラー",
+			side = 1,
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -197,13 +197,13 @@ return {
 			}
 		},
 		{
-			actorName = "プリンツ・ハインリヒ",
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
-			nameColor = "#a9f548",
+			actorName = "プリンツ・ハインリヒ",
 			dir = 1,
-			say = "の、逃さないって言ったでしょ！？…ってこの触手邪魔っ！",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "の、逃さないって言ったでしょ！？…ってこの触手邪魔っ！",
 			flashN = {
 				color = {
 					1,
@@ -254,8 +254,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "ハインリヒ、後ろに下がりなさい",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "こいつの攻撃は私たちに任せて",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "了解！！",
 			typewriter = {
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			say = "―――――！！！",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "―――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -357,8 +357,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "………………………………",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			say = "―――――！！！",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "―――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#a9f548",
 			say = "ソルダティ級駆逐艦、カラビニエ―レ、加勢するのであります！",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -528,8 +528,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "ハインリヒ、みんなが来ていますよ！",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -552,12 +552,12 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "バリアは破れそうになってる！みんな、もう少しよ！",
 			typewriter = {
 				speed = 0.05,

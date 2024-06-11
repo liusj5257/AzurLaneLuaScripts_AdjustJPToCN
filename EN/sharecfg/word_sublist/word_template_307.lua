@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_307 = {}
 slot1 = slot0.word_template_307
 
-function temp()
+temp = function()
 	uv0["鑫"] = {
 		["胖"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["信"] = {
 		["用"] = {
 			["卡"] = {
@@ -57,7 +57,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["星"] = {
 		["光"] = {
 			["伴"] = {
@@ -124,7 +124,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["刑"] = {
 		["警"] = {
 			["队"] = {
@@ -246,7 +246,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["邢"] = {
 		["铮"] = {
 			this = true
@@ -322,7 +322,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兴"] = {
 		["奋"] = {
 			["剂"] = {
@@ -383,7 +383,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["杏"] = {
 		["林"] = {
 			["春"] = {

@@ -4,20 +4,20 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "모항, 담수호",
 			bgm = "main-chunjie3",
+			say = "모항, 담수호",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "환창의 안내를 받아 호숫가에 있는 그늘막 밑으로 왔다.",
@@ -43,10 +43,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "와아! 호수에 이런 곳이 있는지는 몰랐어!",
 			painting = {
 				alpha = 0.3,
@@ -61,10 +61,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응! 낚시하기 좋은 곳이네!",
 			painting = {
 				alpha = 0.3,
@@ -79,10 +79,10 @@ return {
 			expression = 16,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…헉! 페이윈 님… 낚싯대를 가지고 오는 걸 깜빡했어!",
 			painting = {
 				alpha = 0.3,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "그렇게 말하며 환창은 어딘가에서 낚싯대를 꺼내왔다.",
@@ -134,10 +134,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "길다~!",
 			painting = {
 				alpha = 0.3,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 501060,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어라? 환창 언니는 여기 낚시하러 자주 와?",
 			painting = {
 				alpha = 0.3,
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "환창은 다시 내쪽을 힐끔힐끔 보았다.",
@@ -224,10 +224,10 @@ return {
 			expression = 15,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관도 낚싯대를 준비했네!",
 			painting = {
 				alpha = 0.3,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -252,10 +252,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "잘 보니까 그늘막 밑에 낚시 도구 말고 스토브나 냉장고까지 있어!",
 			painting = {
 				alpha = 0.3,
@@ -270,10 +270,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "즉석에서 요리도 만들 수 있고, 캠프도 할 수 있겠어!",
 			painting = {
 				alpha = 0.3,
@@ -288,10 +288,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'환창 언니'의 '점괘'는 참 대단하네요~",
 			painting = {
 				alpha = 0.3,
@@ -319,10 +319,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "여긴 분위기도 그렇지만 설비가 참 좋네요. 딱 필요한 것만 갖춘 느낌이랄까요?",
 			painting = {
 				alpha = 0.3,
@@ -337,10 +337,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "혹시 지휘관님도 여기 자주 오시는 건…?",
 			painting = {
 				alpha = 0.3,
@@ -368,10 +368,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네, '가끔' 오시는 군요~",
 			painting = {
 				alpha = 0.3,
@@ -480,10 +480,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아하…… 그런 일이 있었구나.",
 			painting = {
 				alpha = 0.3,
@@ -498,10 +498,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응? 환창 언니, 지휘관이랑 만난 날엔 한 마리도 못 낚은 거야?",
 			painting = {
 				alpha = 0.3,
@@ -542,10 +542,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "모르겠어……",
 			painting = {
 				alpha = 0.3,
@@ -560,11 +560,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 504010,
-			say = "몰라도 돼…!",
 			fontsize = 24,
+			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "몰라도 돼…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,10 +574,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼, 환창 언니! 호랑이도 낚아봐도 돼?",
 			painting = {
 				alpha = 0.3,
@@ -605,10 +605,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "페이윈도 해볼래!",
 			painting = {
 				alpha = 0.3,
@@ -629,10 +629,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "신난다! 지휘관, 고마워!",
 			painting = {
 				alpha = 0.3,
@@ -646,11 +646,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_142",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "헤헷! 페이윈 님이 꼭 대어를 낚아줄게!",
 			painting = {
 				alpha = 0.3,
@@ -661,17 +661,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -708,10 +708,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "잡았다!",
 			painting = {
 				alpha = 0.3,
@@ -726,10 +726,10 @@ return {
 			expression = 17,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나도!",
 			painting = {
 				alpha = 0.3,
@@ -741,8 +741,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "환창의 말이 끝나기도 전에 후번과 페이윈은 낚싯대를 들어 올려 커다란 물고기를 낚아 올렸다.",
@@ -755,9 +755,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "헉……?!",
 			typewriter = {
 				speed = 0.05,
@@ -786,10 +786,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "크다! 환창 언니의 점괘대로야! 좋은 재료를 낚았어!",
 			painting = {
 				alpha = 0.3,
@@ -803,11 +803,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_142",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "또 잡았다!",
 			painting = {
 				alpha = 0.3,
@@ -818,17 +818,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -862,8 +862,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "충격을 받은 환창은 서둘러 점괘를 보았다.",
@@ -954,10 +954,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "좋아!",
 			painting = {
 				alpha = 0.3,
@@ -972,10 +972,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼, 환창 언니. 호랑이랑 누가 더 큰 물고기를 낚는지 시합이야!",
 			painting = {
 				alpha = 0.3,
@@ -990,11 +990,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 504010,
-			say = "후후, 안 질 거야…",
 			fontsize = 24,
+			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "후후, 안 질 거야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,11 +1004,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 504010,
-			say = "지휘관이랑 낚시를 얼마나 했는데…… 나는 경험자라고!",
 			fontsize = 24,
+			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "지휘관이랑 낚시를 얼마나 했는데…… 나는 경험자라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,8 +1039,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "그렇게 갑자기 낚시 대회가 시작되고 말았다…",
@@ -1050,12 +1050,12 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――인공 호수 낚시 대회로 얻은 교훈은……",
 			painting = {
 				alpha = 0.3,
@@ -1066,17 +1066,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1099,9 +1099,9 @@ return {
 			portrait = 504010,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			actorName = "환창",
 			blackBg = true,
+			actorName = "환창",
+			hidePaintObj = true,
 			say = "지휘관……!!!!",
 			typewriter = {
 				speed = 0.05,

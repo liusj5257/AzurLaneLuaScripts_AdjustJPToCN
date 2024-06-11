@@ -4,13 +4,13 @@ slot0.Battle.BattleAntiAirBulletFactory = singletonClass("BattleAntiAirBulletFac
 slot0.Battle.BattleAntiAirBulletFactory.__name = "BattleAntiAirBulletFactory"
 slot1 = slot0.Battle.BattleAntiAirBulletFactory
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0._tmpTimerList = {}
 end
 
-function slot1.NeutralizeBullet(slot0)
+slot1.NeutralizeBullet = function(slot0)
 	for slot4, slot5 in pairs(slot0._tmpTimerList) do
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot5)
 
@@ -18,7 +18,7 @@ function slot1.NeutralizeBullet(slot0)
 	end
 end
 
-function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
+slot1.CreateBullet = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = slot2:GetTemplate().hit_type
 	slot8 = slot0:GetDataProxy()
 
@@ -37,7 +37,7 @@ function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot12 = slot11:GetPosition():Clone()
 	slot13 = slot7.range
 
-	function slot14(slot0)
+	slot14 = function(slot0)
 		slot1 = {}
 
 		for slot5, slot6 in ipairs(slot0) do
@@ -49,12 +49,12 @@ function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 		uv1:HandleMeteoDamage(uv2, slot1)
 	end
 
-	function slot15()
+	slot15 = function()
 		uv0:SpawnColumnArea(uv1:GetEffectField(), uv1:GetIFF(), uv2, uv3, uv4.time, uv5)
 		uv0:RemoveBulletUnit(uv1:GetUniqueID())
 	end
 
-	function slot16()
+	slot16 = function()
 		slot0 = nil
 
 		if uv0:IsAlive() and uv1 then
@@ -70,7 +70,7 @@ function slot1.CreateBullet(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	slot17, slot18 = nil
 
-	function slot18()
+	slot18 = function()
 		if uv0._tmpTimerList[uv1] ~= nil then
 			uv2()
 			uv3()

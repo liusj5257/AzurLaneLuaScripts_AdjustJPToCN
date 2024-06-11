@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301050,
@@ -53,8 +53,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			say = "Huuh... I didn't see these in the patch notes. I guess it really must be a bug after all...",
 			typewriter = {
 				speed = 0.05,

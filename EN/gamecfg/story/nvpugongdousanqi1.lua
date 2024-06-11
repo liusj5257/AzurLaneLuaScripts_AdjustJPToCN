@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NVPUGONGDOUSANQI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NVPUGONGDOUSANQI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fight On, Royal Maids! (Part 3)\n\n<size=45>1 The Third Exercise</size>",
@@ -17,18 +17,18 @@ return {
 			}
 		},
 		{
-			hidePaintEquip = true,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgm = "story-richang",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_task",
+			hidePaintEquip = true,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Do you understand, Illustrious? This exercise is a sublime opportunity to gauge the strength of our latest carriers!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,14 +59,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Both sides are to consist of three carriers each, plus a small escort fleet.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,14 +77,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Royal Maids did an exemplary job demonstrating the Royal Navy's excellence in the previous two exercises. You lot have a high standard to live up to, but I expect you'll do just fine!",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,14 +95,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 205010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "One last thing: As this is an aviation exercise, neither I nor the Commander will be in charge.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,14 +113,14 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "...Those were Her Majesty's instructions.",
 			hidePaintEquip = true,
+			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "...Those were Her Majesty's instructions.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,14 +137,14 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "The Royal Navy's exercise fleet will be centred around Centaur, Perseus, and Albion.",
 			hidePaintEquip = true,
+			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "The Royal Navy's exercise fleet will be centred around Centaur, Perseus, and Albion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"I see. It'll be hard to narrow down my picks when there are so many qualified candidates.\"",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"Is there anyone you'd recommend, Essex?\"",
 			typewriter = {
@@ -194,14 +194,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I do. The Essex class has plenty of combat experience, and I believe we'd make a worthy opponent for the Royal Navy.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,14 +212,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "If you're looking for specific names, how about Intrepid, Shangri-La, and Bunker Hill?",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "If you're looking for specific names, how about Intrepid, Shangri-La, and Bunker Hill?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "*knock knock*",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"I don't see why not. Though, Sardegna currently only has two carriers stationed here – Aquila and Impero. That leaves one slot to fill...\"",
 			typewriter = {
@@ -288,14 +288,14 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I have no issues working with someone from the Eagle Union. Essex, what do you think about an Eagle Union-Sardegna Empire joint task force?",
 			hidePaintEquip = true,
+			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I have no issues working with someone from the Eagle Union. Essex, what do you think about an Eagle Union-Sardegna Empire joint task force?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,14 +325,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Commander, if you don't have any issues then I'm in favor of it.",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Commander, if you don't have any issues then I'm in favor of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,8 +343,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"No objections here. That still leaves the question about the final carrier, though.\"",
 			typewriter = {
@@ -353,14 +353,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Intrepid might be the best fit, in my opinion.",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Intrepid might be the best fit, in my opinion.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,8 +371,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"Then Intrepid it is. Also, I'm appointing you as the task force leader, Essex.\"",
 			typewriter = {
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -448,14 +448,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay then... Illustrious, has the Royal Navy already worked out its escort fleet composition?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,14 +466,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 207030,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes. We've chosen Manchester of the Royal Maids and Janus, a trainee maid.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,14 +484,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Alright. In that case, I'm going with Reno as our light cruiser. We'll also need a destroyer...",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Alright. In that case, I'm going with Reno as our light cruiser. We'll also need a destroyer...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"There's a candidate right here. We need at least one maid per side, don't we?\"",
 			typewriter = {
@@ -550,8 +550,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"Maybe not, but I'd say you know more than enough about the Royal Navy's tactics to fill in that role.\"",
 			typewriter = {
@@ -560,8 +560,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"Essex, Illustrious, are you two on board?\"",
 			typewriter = {
@@ -570,14 +570,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I always trust your judgment, Commander!",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I always trust your judgment, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,8 +607,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"Then that settles it. Jervis, you're on the escort fleet.\"",
 			typewriter = {

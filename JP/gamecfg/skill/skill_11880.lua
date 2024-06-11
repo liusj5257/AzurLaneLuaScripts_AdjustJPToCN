@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "皇家传奇",
 	cd = 0,
+	picture = "0",
+	desc = "皇家传奇",
 	painting = 1,
 	id = 11880,
-	picture = "0",
 	castCV = "skill",
-	desc = "皇家传奇",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

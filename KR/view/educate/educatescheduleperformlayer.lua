@@ -10,16 +10,16 @@ slot2 = {
 	"2D2E2F"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateSchedulePerformUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot1 = getProxy(EducateProxy)
 	slot1 = slot1:GetCharData()
 	slot0.planCnt = slot1:GetNextWeekPlanCnt()
@@ -53,7 +53,7 @@ function slot0.initData(slot0)
 	end)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.windowsTF = slot0:findTF("anim_root/window")
 	slot0.leftTF = slot0:findTF("left", slot0.windowsTF)
 
@@ -64,7 +64,7 @@ function slot0.findUI(slot0)
 	slot0.planNameTF = slot0:findTF("name", slot0.rightTF)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:OverlayPanel(slot0._tf, {
@@ -81,7 +81,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.initDayList(slot0)
+slot0.initDayList = function(slot0)
 	slot0.dayUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			slot3 = slot1 + 1
@@ -127,11 +127,11 @@ function slot0.initDayList(slot0)
 	slot0:updateLeft()
 end
 
-function slot0.updateLeft(slot0)
+slot0.updateLeft = function(slot0)
 	slot0.dayUIList:align(6)
 end
 
-function slot0.playWeek(slot0, slot1)
+slot0.playWeek = function(slot0, slot1)
 	slot0.curDay = 1
 	slot0.curIndex = 1
 
@@ -194,10 +194,10 @@ function slot0.playWeek(slot0, slot1)
 	end)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	pg.PerformMgr.GetInstance():SetParamForUI("Default")
 

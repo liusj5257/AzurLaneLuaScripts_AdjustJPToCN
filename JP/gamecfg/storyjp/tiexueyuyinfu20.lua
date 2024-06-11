@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU20",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_bsm_2",
-			actorName = "ティルピッツ",
 			dir = 1,
-			say = "そこのあなた、母港の海域でイタズラをしないことよ。所属を言いなさい",
 			bgm = "bsm-5",
+			actorName = "ティルピッツ",
+			say = "そこのあなた、母港の海域でイタズラをしないことよ。所属を言いなさい",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			actorName = "ティルピッツ",
 			nameColor = "#ff5c5c",
+			actorName = "ティルピッツ",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			actorName = "ティルピッツ",
 			nameColor = "#ff5c5c",
+			actorName = "ティルピッツ",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			actorName = "ティルピッツ",
 			nameColor = "#ff5c5c",
+			actorName = "ティルピッツ",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
+			dir = 1,
 			say = "艤装で一瞬だけ身体を浮かし、U-556はどぼーん、とバク転して海に突っ込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_bsm_2",
-			actorName = "ティルピッツ",
 			dir = 1,
+			actorName = "ティルピッツ",
 			say = "…………ちょっと！！",
 			effects = {
 				{
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
+			dir = 1,
 			say = "ティルピッツは拡声器を片手にU-556に注意し続けた。",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ff5c5c",
 			say = "ティルピッツさん、冷たい人って聞いたのに、あんな顔もするんだ……",
 			effects = {
 				{

@@ -1,6 +1,6 @@
 slot0 = class("CourtYardBridge")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.core = slot1.core
 	slot0.isSetup = false
 	slot0.controller = slot0:System2Controller(slot1.system, slot1)
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.SetUp(slot0)
+slot0.SetUp = function(slot0)
 	if slot0.controller then
 		slot0.isSetup = true
 
@@ -21,7 +21,7 @@ function slot0.SetUp(slot0)
 	end
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if not slot0.isSetup and slot0.view:IsInit() then
 		slot0:SetUp()
 	end
@@ -31,7 +31,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.IsLoaed(slot0)
+slot0.IsLoaed = function(slot0)
 	if not slot0.controller then
 		return false
 	end
@@ -39,15 +39,15 @@ function slot0.IsLoaed(slot0)
 	return slot0.controller:IsLoaed()
 end
 
-function slot0.GetView(slot0)
+slot0.GetView = function(slot0)
 	return slot0.view
 end
 
-function slot0.GetController(slot0)
+slot0.GetController = function(slot0)
 	return slot0.controller
 end
 
-function slot0.Exit(slot0)
+slot0.Exit = function(slot0)
 	if slot0.controller then
 		slot0.controller:Dispose()
 
@@ -61,13 +61,13 @@ function slot0.Exit(slot0)
 	end
 end
 
-function slot0.SendNotification(slot0, slot1, slot2)
+slot0.SendNotification = function(slot0, slot1, slot2)
 	if slot0.core then
 		slot0.core:sendNotification(slot1, slot2)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end
@@ -75,7 +75,7 @@ function slot0.Dispose(slot0)
 	slot0:Exit()
 end
 
-function slot0.System2Controller(slot0, slot1, slot2)
+slot0.System2Controller = function(slot0, slot1, slot2)
 	if slot1 == CourtYardConst.SYSTEM_FEAST then
 		return CourtYardFeastController.New(slot0, slot2)
 	else

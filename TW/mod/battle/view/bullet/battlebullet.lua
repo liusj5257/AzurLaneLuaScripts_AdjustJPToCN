@@ -7,7 +7,7 @@ slot0.Battle.BattleBullet = class("BattleBullet", slot0.Battle.BattleSceneObject
 slot0.Battle.BattleBullet.__name = "BattleBullet"
 slot4 = slot0.Battle.BattleBullet
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 	uv1.EventListener.AttachEventListener(slot0)
 
@@ -17,7 +17,7 @@ function slot4.Ctor(slot0)
 	slot0._cacheTFPos = Vector3.zero
 end
 
-function slot4.Update(slot0, slot1)
+slot4.Update = function(slot0, slot1)
 	slot2 = slot0._bulletData:GetSpeed()
 
 	slot0._calcSpeed:Set(slot2.x, slot2.y, slot2.z)
@@ -41,18 +41,18 @@ function slot4.Update(slot0, slot1)
 	end
 end
 
-function slot4.UpdatePosition(slot0)
+slot4.UpdatePosition = function(slot0)
 	slot1 = slot0:GetPosition()
 	slot0._tf.localPosition = slot1
 
 	slot0._cacheTFPos:Set(slot1.x, slot1.y, slot1.z)
 end
 
-function slot4.DoOutRange(slot0)
+slot4.DoOutRange = function(slot0)
 	slot0:_bulletMissFunc()
 end
 
-function slot4.SetBulletData(slot0, slot1)
+slot4.SetBulletData = function(slot0, slot1)
 	slot0._bulletData = slot1
 
 	slot0._bulletData:SetStartTimeStamp(pg.TimeMgr.GetInstance():GetCombatTime())
@@ -63,43 +63,43 @@ function slot4.SetBulletData(slot0, slot1)
 	slot0:AddBulletEvent()
 end
 
-function slot4.AddBulletEvent(slot0)
+slot4.AddBulletEvent = function(slot0)
 	slot0._bulletData:RegisterEventListener(slot0, uv0.HIT, slot0.onBulletHit)
 	slot0._bulletData:RegisterEventListener(slot0, uv0.INTERCEPTED, slot0.onIntercepted)
 	slot0._bulletData:RegisterEventListener(slot0, uv0.OUT_RANGE, slot0.onOutRange)
 end
 
-function slot4.RemoveBulletEvent(slot0)
+slot4.RemoveBulletEvent = function(slot0)
 	slot0._bulletData:UnregisterEventListener(slot0, uv0.HIT)
 	slot0._bulletData:UnregisterEventListener(slot0, uv0.INTERCEPTED)
 	slot0._bulletData:UnregisterEventListener(slot0, uv0.OUT_RANGE)
 end
 
-function slot4.onBulletHit(slot0, slot1)
+slot4.onBulletHit = function(slot0, slot1)
 	slot2 = slot1.Data
 
 	slot0:_bulletHitFunc(slot1.Data.UID, slot1.Data.type)
 end
 
-function slot4.onIntercepted(slot0)
+slot4.onIntercepted = function(slot0)
 	slot1, slot2 = uv0.Battle.BattleFXPool.GetInstance():GetFX(slot0:GetBulletData():GetTemplate().hit_fx)
 
 	pg.EffectMgr.GetInstance():PlayBattleEffect(slot1, slot2:Add(slot0:GetPosition()), true)
 end
 
-function slot4.onOutRange(slot0, slot1)
+slot4.onOutRange = function(slot0, slot1)
 	slot0:DoOutRange()
 end
 
-function slot4.GetBulletData(slot0)
+slot4.GetBulletData = function(slot0)
 	return slot0._bulletData
 end
 
-function slot4.GetPosition(slot0)
+slot4.GetPosition = function(slot0)
 	return slot0._bulletData:GetPosition()
 end
 
-function slot4.Dispose(slot0)
+slot4.Dispose = function(slot0)
 	if slot0._rotateScript then
 		slot0._rotateScript:SetSpeed(Vector3.zero)
 	end
@@ -124,23 +124,23 @@ function slot4.Dispose(slot0)
 	uv0.EventListener.DetachEventListener(slot0)
 end
 
-function slot4.GetModleID(slot0)
+slot4.GetModleID = function(slot0)
 	return slot0._bulletData:GetModleID()
 end
 
-function slot4.GetFXID(slot0)
+slot4.GetFXID = function(slot0)
 	return slot0._cfgTpl.hit_fx
 end
 
-function slot4.GetMissFXID(slot0)
+slot4.GetMissFXID = function(slot0)
 	return slot0._cfgTpl.miss_fx
 end
 
-function slot4.GetTrackFXID(slot0)
+slot4.GetTrackFXID = function(slot0)
 	return slot0._cfgTpl.track_fx
 end
 
-function slot4.AddModel(slot0, slot1)
+slot4.AddModel = function(slot0, slot1)
 	if slot0._isTempGO and slot0._go == nil then
 		uv0.Battle.BattleResourceManager.GetInstance():DestroyOb(slot1)
 
@@ -178,17 +178,17 @@ function slot4.AddModel(slot0, slot1)
 	end
 end
 
-function slot4.SetAnimaSpeed(slot0, slot1)
+slot4.SetAnimaSpeed = function(slot0, slot1)
 	if slot0._skeleton then
 		slot0._skeleton.timeScale = slot1 or 1
 	end
 end
 
-function slot4.AddRotateScript(slot0)
+slot4.AddRotateScript = function(slot0)
 	slot0._rotateScript = slot0.resMgr:GetRotateScript(slot0._go)
 end
 
-function slot4.AddTempModel(slot0, slot1)
+slot4.AddTempModel = function(slot0, slot1)
 	slot0._isTempGO = true
 
 	slot0:SetGO(slot1)
@@ -198,13 +198,13 @@ function slot4.AddTempModel(slot0, slot1)
 	end
 end
 
-function slot4.AddTrack(slot0, slot1)
+slot4.AddTrack = function(slot0, slot1)
 	slot0._trackFX = slot1
 
 	LuaHelper.SetGOParentTF(slot1, slot0._tf, false)
 end
 
-function slot4.SetSpawn(slot0, slot1)
+slot4.SetSpawn = function(slot0, slot1)
 	slot2, slot3 = slot0:getHeightAdjust(slot1)
 	slot4 = slot2:Clone()
 	slot4.z = slot4.z + slot3
@@ -223,7 +223,7 @@ function slot4.SetSpawn(slot0, slot1)
 	end
 end
 
-function slot4.getHeightAdjust(slot0, slot1)
+slot4.getHeightAdjust = function(slot0, slot1)
 	if slot0._bulletData:GetTemplate().extra_param.airdrop then
 		slot3 = slot0._bulletData:GetExplodePostion()
 		slot4 = 0
@@ -260,24 +260,24 @@ function slot4.getHeightAdjust(slot0, slot1)
 	end
 end
 
-function slot4.GetZExtraOffset(slot0)
+slot4.GetZExtraOffset = function(slot0)
 	return uv0.HeightOffsetRate * (slot0 - uv0.BulletHeight)
 end
 
-function slot4.GetFactory(slot0)
+slot4.GetFactory = function(slot0)
 	return slot0._factory
 end
 
-function slot4.SetFactory(slot0, slot1)
+slot4.SetFactory = function(slot0, slot1)
 	slot0._factory = slot1
 end
 
-function slot4.SetFXFunc(slot0, slot1, slot2)
+slot4.SetFXFunc = function(slot0, slot1, slot2)
 	slot0._bulletHitFunc = slot1
 	slot0._bulletMissFunc = slot2
 end
 
-function slot4.Neutrailze(slot0)
+slot4.Neutrailze = function(slot0)
 	if slot0._bulletMissFunc then
 		slot0:_bulletMissFunc()
 	end

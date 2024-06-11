@@ -1,6 +1,6 @@
 slot0 = class("StartCampTecCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.tecID
 	slot5 = pg.TimeMgr.GetInstance():DescCDTime(pg.fleet_tech_template[slot2.levelID].time)

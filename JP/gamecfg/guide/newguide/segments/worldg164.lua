@@ -5,17 +5,17 @@ return {
 			style = {
 				text = "サルベージポイントは【オフニャ】を派遣して資源を回収できます。レアリティとレベルが高ければ報酬も良くなる可能性があります。",
 				mode = 2,
-				posY = -250,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -250,
 				posX = -300
 			}
 		},
 		{
 			alpha = 0.4,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/adapt/left_stage/other/salvage_list",
 				pathIndex = -999,
+				path = "OverlayCamera/Overlay/UIMain/top/adapt/left_stage/other/salvage_list",
 				triggerType = {
 					1
 				},
@@ -27,9 +27,9 @@ return {
 			style = {
 				text = "サルベージゲージは艦隊が行動するたびに進捗します。こちらでオフニャサルベージの進捗情報を確認できます。",
 				mode = 2,
-				posY = -250,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -250,
 				posX = -300
 			}
 		},
@@ -37,9 +37,9 @@ return {
 			style = {
 				text = "サルベージ途中いつでもオフニャを呼び戻すことができ、呼び戻すまでの進捗分の報酬を入手できます。",
 				mode = 2,
-				posY = -100,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -100,
 				posX = 500
 			},
 			showSign = {
@@ -58,9 +58,9 @@ return {
 			style = {
 				text = "ここをタップすると、サルベージで入手できるアイテム一覧を確認できます。",
 				mode = 2,
-				posY = -200,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -200,
 				posX = 0
 			},
 			showSign = {
@@ -90,9 +90,9 @@ return {
 			style = {
 				text = "ここをタップすると、オフニャサルベージのヘルプを確認できます。",
 				mode = 2,
-				posY = 100,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 100,
 				posX = 200
 			}
 		}

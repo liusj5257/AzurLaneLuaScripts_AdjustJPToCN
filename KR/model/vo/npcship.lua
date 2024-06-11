@@ -1,6 +1,6 @@
 slot0 = class("NpcShip", import(".Ship"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot2 = pg.ship_data_template[slot0.configId]
@@ -16,29 +16,29 @@ function slot0.Ctor(slot0, slot1)
 	slot0.isNpc = true
 end
 
-function slot0.getExp(slot0)
+slot0.getExp = function(slot0)
 	return 0
 end
 
-function slot0.addExp(slot0, slot1, slot2)
+slot0.addExp = function(slot0, slot1, slot2)
 end
 
-function slot0.getIntimacy(slot0)
+slot0.getIntimacy = function(slot0)
 	return pg.intimacy_template[slot0:getIntimacyLevel()].lower_bound
 end
 
-function slot0.getIntimacyLevel(slot0)
+slot0.getIntimacyLevel = function(slot0)
 	return 2
 end
 
-function slot0.setIntimacy(slot0, slot1)
+slot0.setIntimacy = function(slot0, slot1)
 end
 
-function slot0.getEnergy(slot0)
+slot0.getEnergy = function(slot0)
 	return pg.ship_data_template[slot0.configId].energy
 end
 
-function slot0.setEnergy(slot0, slot1)
+slot0.setEnergy = function(slot0, slot1)
 end
 
 return slot0

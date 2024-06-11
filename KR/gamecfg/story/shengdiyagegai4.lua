@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDIYAGEGAI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGDIYAGEGAI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"빛나라! ☆ 배틀스타~!\n\n<size=45>샌디에이고, 미래를 향해…</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "그런가, 다음 연습 시간은……으음?",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#92fc63",
+			say = "그런가, 다음 연습 시간은……으음?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "엔터프라이즈 언니!! 야호~!!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "엔터프라이즈 언니!! 야호~!!",
+			actor = 102080,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#92fc63",
 			say = "왠지 의욕이 넘치는걸! 호, 혹시 이게 '개조' 의 '필' 인가?!",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,

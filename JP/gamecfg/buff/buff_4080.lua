@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.2
+					number = 0.2,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.222
+					number = 0.222,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -78,8 +78,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.244
+					number = 0.244,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.266
+					number = 0.266,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -148,8 +148,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.288
+					number = 0.288,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.31
+					number = 0.31,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.332
+					number = 0.332,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -253,8 +253,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.354
+					number = 0.354,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -288,8 +288,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.376
+					number = 0.376,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -323,8 +323,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.4
+					number = 0.4,
+					attr = "dodgeRateExtra"
 				}
 			},
 			{
@@ -349,14 +349,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "烟雾弹",
 	init_effect = "",
-	color = "blue",
+	id = 4080,
+	time = 0,
 	picture = "",
 	desc = "提高闪避",
 	stack = 1,
-	id = 4080,
+	color = "blue",
 	icon = 4080,
 	last_effect = "",
 	blink = {
@@ -374,8 +374,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.2
+				number = 0.2,
+				attr = "dodgeRateExtra"
 			}
 		},
 		{

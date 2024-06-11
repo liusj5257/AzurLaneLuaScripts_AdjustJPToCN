@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "エセックス",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……",
 			typewriter = {
@@ -155,11 +155,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_115",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しばらくすると、不気味な唸り声が消えました。",
 			typewriter = {
@@ -167,17 +167,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -375,9 +375,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "？？？",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "あら～、ごめんね驚かせてしまって…キャッスルの電気は経年劣化してるから、雨の日になると故障が多くなるわね～",
 			typewriter = {
@@ -390,9 +390,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "？？？",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "今日だって雨がずっと降ってて止みそうにないし…それより、あなたは城主に頼まれた探索者ってことかしらぁ？",
 			typewriter = {
@@ -417,9 +417,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "ええ、しかも一番上の娘役ね。ふふ、この様子だと、城主から何も知らされていないようね…それもそうか、私の家族だもんね…",
 			typewriter = {
@@ -456,9 +456,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "そういえば、探索者は界隈で「オカルトマスター」って言われ、警察と協力して怪奇事件をいくつも解決してきたと聞いたわ",
 			typewriter = {
@@ -467,11 +467,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "私も最近…その類の本を読んでいて、とても興味があるの～",
@@ -485,9 +485,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "よかったら、あなたの冒険譚…聞かせてくれないかしらぁ♡",
 			typewriter = {
@@ -531,9 +531,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "何も思い出せないあなたは当然、何も語れません。そこであなたは話を逸らそうと試みるが――ロール100、72…ええ、残念ですが、あなたの行動は失敗に終わりました",
 			typewriter = {
@@ -546,9 +546,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドは笑顔こそ崩さなかったが、その目からは少し不快な色が伺えました。",
 			typewriter = {
@@ -561,10 +561,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "まあ～、つまり最近起きた失踪事件について聞きたいの？",
 			typewriter = {
@@ -573,13 +573,13 @@ return {
 			}
 		},
 		{
-			actorName = "ゴールデン・ハインド",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "何も分からないわ～。だって、大勢いる使用人を全員知っているわけじゃないし？",
 			typewriter = {
@@ -592,10 +592,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "ふふふ、それよりあなたのことについてもぉっと話さない～？",
 			typewriter = {
@@ -714,9 +714,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "今の話もいいけど、私、もっと色々深ーく、じっくり聞かせてほしいわ～♡",
 			typewriter = {
@@ -725,11 +725,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "…事件現場とかで目撃した出来事だったり～、知られていない裏事情だったり～…",
@@ -743,9 +743,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "あぁ、わかったわ～。通は自分の研究をとても大事にしているから、誠意のない相手には聞かせられないってことね～？",
 			typewriter = {
@@ -758,9 +758,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "海天",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドさんは申し訳なさそうに笑うと、小さい彫像を取り出しました。",
 			typewriter = {
@@ -768,17 +768,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1024,11 +1024,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "探索者、あなた…ひょっとして私の神像に何か文句でもあるの？",

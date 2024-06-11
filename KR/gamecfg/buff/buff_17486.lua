@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17486,
 	time = 8,
-	color = "",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17486,
+	color = "",
 	icon = 17470,
 	last_effect = "Darkness",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = -1000
+				number = -1000,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -29,8 +29,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = -1000
+				number = -1000,
+				attr = "dodgeRate"
 			}
 		}
 	}

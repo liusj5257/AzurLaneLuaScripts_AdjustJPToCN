@@ -1,14 +1,14 @@
 return {
-	init_effect = "",
-	name = "AT·FIELD",
 	time = 0,
-	last_effect = "ATdun",
+	name = "AT·FIELD",
+	init_effect = "",
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "AT盾血量监听",
 	stack = 1,
 	id = 30000004,
 	icon = 30000004,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

@@ -1,8 +1,8 @@
 return {
-	id = "LUCK49902",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK49902",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 499020,
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			say = "過去に残された数々の旋律――喜びも悲しみも、迷いも戸惑いも、すべてはこの瞬間で静寂になる。",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			say = "「竜骨編纂」――新しい楽譜を奏でるための必要な調律、ボウヤはやってくれるのかしら？",
 			typewriter = {
 				speed = 0.05,

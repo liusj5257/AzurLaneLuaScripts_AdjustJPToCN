@@ -1,6 +1,6 @@
 slot0 = class("SecondSummaryPage6", import(".SummaryAnimationPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0.summaryInfoVO.skinId > 0
 
 	setActive(slot0._tf:Find("skin_panel"), slot1)
@@ -15,7 +15,7 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0, slot1, slot0._tf:Find(slot0.summaryInfoVO.skinId > 0 and "skin_panel" or "un_panel"))
 end
 

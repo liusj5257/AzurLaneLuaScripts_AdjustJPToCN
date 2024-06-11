@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA29",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900307,
-			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "듣자니 너의 최근 연구에 획기적인 진전이 있다고?",
 			bgm = "blueocean-image",
+			actor = 900307,
+			nameColor = "#ffff4d",
+			say = "듣자니 너의 최근 연구에 획기적인 진전이 있다고?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,11 +42,11 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 900308,
+			nameColor = "#ffff4d",
 			say = "그래 맞아! 내 말 들어봐, 요즘 내 성정 각성의 연구 방향에 드디어 첫발을 내딛는 것 같아.……!",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,12 +152,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900308,
+			nameColor = "#ffff4d",
 			say = "성정큐브에 대해 특별한 적응력을 가진 사람에 대해서 말했던 거 기억하려나————",
 			typewriter = {
 				speed = 0.05,

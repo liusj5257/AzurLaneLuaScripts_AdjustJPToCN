@@ -1,10 +1,10 @@
 slot0 = class("GuildFirePage", import(".GuildMemberBasePage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildFirePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.fireconfirmBtn = slot0:findTF("frame/confirm_btn")
@@ -18,7 +18,7 @@ function slot0.OnLoaded(slot0)
 	slot0.circle = slot0:findTF("frame/info/shipicon/frame", slot0._tf)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.firecancelBtn, function ()
 		uv0:Hide()
 	end, SFX_CONFIRM)
@@ -27,7 +27,7 @@ function slot0.OnInit(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 	slot1 = slot0.guildVO
 	slot2 = slot0.playerVO
 	slot3 = slot0.memberVO

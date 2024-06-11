@@ -2,7 +2,7 @@ slot0 = class("BattleGateBossRush")
 ys.Battle.BattleGateBossRush = slot0
 slot0.__name = "BattleGateBossRush"
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	slot3 = getProxy(PlayerProxy)
 	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(BayProxy)
@@ -75,7 +75,7 @@ function slot0.Entrance(slot0, slot1)
 	end)
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	slot2 = pg.battle_cost_template[SYSTEM_BOSS_RUSH]
 	slot3 = getProxy(FleetProxy)
 	slot4 = getProxy(BayProxy)

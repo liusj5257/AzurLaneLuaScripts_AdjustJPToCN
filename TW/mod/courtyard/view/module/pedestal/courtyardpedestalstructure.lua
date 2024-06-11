@@ -5,7 +5,7 @@ slot3 = 2
 slot4 = 3
 slot5 = 4
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.parent = slot1
@@ -15,35 +15,35 @@ function slot0.Ctor(slot0, slot1)
 	slot0.state = uv0
 end
 
-function slot0.GetRect(slot0)
+slot0.GetRect = function(slot0)
 	return slot0.parent:GetView():GetRect()
 end
 
-function slot0.IsEditModeOrIsVisit(slot0)
+slot0.IsEditModeOrIsVisit = function(slot0)
 	return slot0.parent:GetController():IsEditModeOrIsVisit()
 end
 
-function slot0.IsEmpty(slot0)
+slot0.IsEmpty = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.IsLoading(slot0)
+slot0.IsLoading = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.IsLoaded(slot0)
+slot0.IsLoaded = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.IsExit(slot0)
+slot0.IsExit = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.IsDirty(slot0)
+slot0.IsDirty = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0:UpdateLevel(slot1)
 
 	if slot0:IsEmpty() then
@@ -55,7 +55,7 @@ function slot0.Update(slot0, slot1)
 	end
 end
 
-function slot0.UpdateLevel(slot0, slot1)
+slot0.UpdateLevel = function(slot0, slot1)
 	if slot0.level ~= slot1 then
 		slot0.isDirty = true
 	end
@@ -63,7 +63,7 @@ function slot0.UpdateLevel(slot0, slot1)
 	slot0.level = slot1
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	slot0.state = uv0
 	slot2 = ResourceMgr.Inst
 
@@ -91,19 +91,19 @@ function slot0.Load(slot0, slot1)
 	end), true, true)
 end
 
-function slot0.SetDirty(slot0)
+slot0.SetDirty = function(slot0)
 	if slot0.isDirty then
 		slot0.state = uv0
 	end
 end
 
-function slot0.ReLoad(slot0)
+slot0.ReLoad = function(slot0)
 	slot0:Load(function ()
 		uv0:Unload()
 	end)
 end
 
-function slot0.Unload(slot0)
+slot0.Unload = function(slot0)
 	if not IsNil(slot0.asset) then
 		Object.Destroy(slot0.asset)
 	end
@@ -112,17 +112,17 @@ function slot0.Unload(slot0)
 	slot0.state = uv0
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Unload()
 
 	slot0.state = uv0
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.GetAssetPath(slot0)
+slot0.GetAssetPath = function(slot0)
 	assert(false, "overwrite me !!!")
 end
 

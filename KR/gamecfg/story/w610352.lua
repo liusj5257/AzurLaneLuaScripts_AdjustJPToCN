@@ -1,12 +1,12 @@
 return {
-	id = "W610352",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610352",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "帮助光辉寻找到走失的独角兽。",
 			typewriter = {
 				speed = 0.05,

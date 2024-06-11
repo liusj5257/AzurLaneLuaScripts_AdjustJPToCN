@@ -6,12 +6,12 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "情報によると、海にお菓子が突如現れる場所こそ「アイアンクローの悪魔」の拠点だプリン…",
 			bgm = "story-battle-16bit-sfc",
+			actor = 100011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "情報によると、海にお菓子が突如現れる場所こそ「アイアンクローの悪魔」の拠点だプリン…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -30,10 +30,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この甘い香り…プリン！目標地点間近プリン！",
 			painting = {
 				alpha = 0.3,
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "ドーン——————！",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			soundeffect = "event:/battle/boom2",
+			say = "ドーン——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,10 +97,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "敵襲！？このわたしが軽ーく防いでやるプリン！",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふっふっふー、このわたしはゴールデンの化身、試作型ブリMKIIよ！",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ゴールデンは光と希望、そして正義の化身だプリン！",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どう見ても悪役はそっちのほうプリン！",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふん、鉄のおてて？悪魔の力ってそんなもんプリン？",
 			painting = {
 				alpha = 0.3,
@@ -283,10 +283,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "このわたしのスーパードリルも負けないプリン！",
 			painting = {
 				alpha = 0.3,
@@ -298,12 +298,12 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#A9F548FF",
 			side = 0,
-			hidePaintObj = true,
-			actorName = "二人",
+			hideOther = true,
 			actor = 403130,
+			actorName = "二人",
+			hidePaintObj = true,
 			say = "行け、試作型スーパードリルMKII！ 唸れ！巨竜メカ・鉄のおてて！",
 			subActors = {
 				{
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "巨竜メカ・「鉄のおてて」",
+			side = 2,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "▁▂▃▄▅▆▇███*激しい咆哮*██▌██▌██▌██▌",

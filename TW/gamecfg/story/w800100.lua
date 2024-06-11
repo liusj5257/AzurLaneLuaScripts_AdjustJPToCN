@@ -1,12 +1,12 @@
 return {
-	id = "W800100",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W800100",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "該處塞壬實驗場的謎題較為困難，是否向領航員-TB尋求幫助？ （尋求幫助後，領航員-TB會直接解開海域中的謎題）",
 			typewriter = {
 				speed = 0.05,

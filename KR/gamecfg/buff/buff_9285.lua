@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "龙宫机关-生命 BUFF判断LV5 步骤1",
 	time = 5,
-	color = "yellow",
+	name = "龙宫机关-生命 BUFF判断LV5 步骤1",
+	init_effect = "",
+	id = 9285,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9285,
+	color = "yellow",
 	icon = 9285,
 	last_effect = "",
 	effect_list = {

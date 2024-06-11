@@ -1,12 +1,12 @@
 return {
-	id = "W209010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W209010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "현재 구역의 모든 챕터 임무 완료. 다음 챕터로 이동합니다.",
 			typewriter = {
 				speed = 0.05,

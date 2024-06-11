@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT11-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT11-1",
+	fadein = 1,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "这样的话……就让我去吧",
-			bgm = "level-uta",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "只要有这个和可可啵一样又强又坚固的，叫舰装？的装备……就，就算是要对那种敌人进行佯攻，它也一定能保护我的",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "所以，这个作战，我认为还是我比较适合",
 			typewriter = {
 				speed = 0.05,
@@ -155,10 +155,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "那时我们会停止作战立刻冲过去的",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "那时我们会停止作战立刻冲过去的",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "好的……谢谢大家",
 			typewriter = {
 				speed = 0.05,

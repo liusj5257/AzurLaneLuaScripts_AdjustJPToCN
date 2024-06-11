@@ -4,23 +4,23 @@ slot0.Battle.BattleBuffShiftWeaponSkin = class("BattleBuffShiftWeaponSkin", slot
 slot0.Battle.BattleBuffShiftWeaponSkin.__name = "BattleBuffShiftWeaponSkin"
 slot1 = slot0.Battle.BattleBuffShiftWeaponSkin
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._weaponIndex = slot0._tempData.arg_list.index
 	slot0._skinID = slot0._tempData.arg_list.skin_id
 end
 
-function slot1.onAttach(slot0, slot1, slot2)
+slot1.onAttach = function(slot0, slot1, slot2)
 	slot0:shiftWeaponSkin(slot1)
 end
 
-function slot1.onRemove(slot0, slot1, slot2)
+slot1.onRemove = function(slot0, slot1, slot2)
 end
 
-function slot1.shiftWeaponSkin(slot0, slot1)
+slot1.shiftWeaponSkin = function(slot0, slot1)
 	slot2 = slot1:GetAllWeapon()
 
 	for slot6, slot7 in ipairs(slot0._indexRequire) do

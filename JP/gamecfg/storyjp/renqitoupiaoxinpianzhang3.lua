@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQITOUPIAOXINPIANZHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQITOUPIAOXINPIANZHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401230,
-			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "着きました！手前の建物は特別投票ステージです",
 			bgm = "votefes-start",
+			actor = 401230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "着きました！手前の建物は特別投票ステージです",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -24,17 +24,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん！さっそく中に入ろう！",
 			painting = {
 				alpha = 0.3,
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ちょっと待つです。綾波、異様な気配を感じたです…",
 			painting = {
 				alpha = 0.3,
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え？ここは投票会場だよ？そんな変なこと…あ、あるわけない…よね？",
 			painting = {
 				alpha = 0.3,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「よきょう」だから、お化け屋敷かも…",
 			painting = {
 				alpha = 0.3,
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんなわけないでしょ！早く中に入って見てみましょう！",
 			painting = {
 				alpha = 0.3,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,27 +147,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_148",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_148",
 			say = "Z23たちはドアを開けて建物に入ったが…何も起きなかった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おばけ、いない",
 			painting = {
 				alpha = 0.3,
@@ -192,12 +192,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほら、大丈夫だって言ったでしょう！",
 			painting = {
 				alpha = 0.3,
@@ -209,12 +209,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「余興」の準備がまだ終わっていないから…？",
 			painting = {
 				alpha = 0.3,
@@ -226,12 +226,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "また後で来るです",
 			painting = {
 				alpha = 0.3,

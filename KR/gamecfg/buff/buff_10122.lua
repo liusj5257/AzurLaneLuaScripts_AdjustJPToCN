@@ -29,9 +29,9 @@ return {
 	{
 		time = 15
 	},
-	init_effect = "",
-	name = "监听器",
 	time = 5,
+	name = "监听器",
+	init_effect = "",
 	picture = "",
 	desc = "监听器",
 	stack = 1,

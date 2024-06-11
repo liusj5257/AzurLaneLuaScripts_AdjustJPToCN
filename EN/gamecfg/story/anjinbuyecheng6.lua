@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
-			say = "Sleepless City - ??? Queen's HQ",
 			bgm = "story-antarctica-serious",
+			say = "Sleepless City - ??? Queen's HQ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "The silent Contact guides us to a fancy building.",
 			typewriter = {
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "I was surprised to learn that the mafia headquarters were located in the most lively place in the city, but we get an audience with the Queen without issue.",
 			typewriter = {
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "However...",
 			typewriter = {
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "Artist",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "What the hell?",
 			painting = {
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "Artist",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "That's not what you said before.",
 			painting = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "Artist",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "Wha?! You wanna get your ass kicked?!",
 			painting = {
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "Thus, I finally arrive at the Queen's office.",
 			typewriter = {
@@ -175,17 +175,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "As soon as I open the door, I make eye contact with her. My heart skips a beat.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "Her name naturally leaves my mouth, as if a long-dormant memory has been awakened.",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Mafia Queen",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "Isn't that sweet? You remember me.",
 			painting = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Mafia Queen",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "And you still have your old charm... You're a tough one, Commander of the security force.",
 			painting = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Mafia Queen",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "Besides... A much greater cause awaits us, no?",
 			painting = {
@@ -348,11 +348,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Mafia Queen",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "Yes. Us.",
 			painting = {
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Mafia Queen",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "Heehee♪ The resistance isn't the only group capable of launching an attack on her, you know.",
 			painting = {
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Mafia Queen",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "Oh, I wonder. Who knows, really?",
 			painting = {
@@ -529,11 +529,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Mafia Queen",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "You may lead in the light, and I will rule as Queen from the shadows. Doesn't that sound wonderful?",
 			painting = {
@@ -570,11 +570,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Mafia Queen",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "If we can right the balance of power, the Manjuu Tower won't collapse.",
 			painting = {
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			side = 2,
 			bgName = "star_level_bg_146",
+			actorName = "???",
 			nameColor = "#A9F548FF",
 			say = "Comrade Commander, get down!",
 			typewriter = {
@@ -699,17 +699,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -722,11 +722,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
-			say = "A wave of intense gunfire destroyed the glass window behind Poltava's throne.",
 			soundeffect = "event:/battle/boom2",
+			say = "A wave of intense gunfire destroyed the glass window behind Poltava's throne.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,8 +772,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "Instantly after, a flash bang was tossed into the office.",
 			typewriter = {
@@ -794,8 +794,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "I'm suddenly tied up and dragged away by some intense force.",
 			typewriter = {
@@ -803,17 +803,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -821,8 +821,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "In the midst of the white, I feel as if I've been thrown into a vacuum without gravity.",
 			typewriter = {

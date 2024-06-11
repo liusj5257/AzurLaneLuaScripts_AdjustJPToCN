@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN8",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・２ターン目（武蔵）　竜宮城の拠点",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "行きます！わ、若月の奥義――ツインブレイドブリーズ！",
 			painting = {
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			say = "―――！！",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "恥ずかしそうに技名を叫ぶと、若月は刀を大振りで振り下ろした。",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "すると、勢いよく振ったことによる風圧とともに光の斬撃が何重にも放たれ、「敵役」のテスターのスペアボディを大きくよろけさせた。",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "まるで、若月が本当に必殺技を放ったような――",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "い、今のは、若月ちゃんが……？",
 			painting = {
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "すごーい！どうやって出したの！？普段でもそれが使えたら最強だよ！",
 			painting = {
@@ -170,8 +170,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "そ、そんなこと言われても…若月はただ、この敵を倒さなきゃって思ってたらこの間見た映画のことを思い出して……",
 			painting = {
@@ -187,8 +187,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "もしかしてこれが演習場での「心象の反映」なんですか！？",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "若月の心象は…敵を倒したい一心だったの…？それとも必殺技なの………？ええと、参考にしたいから、教えて欲しい……",
 			painting = {
@@ -221,8 +221,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "ええとですね…頭の中でイメージする感じかもしれません",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "はぁあ！と斬り込んで、でもそれだけだと絶対倒せないから、じゃあ何回も斬ってみよう…そういえば最近すごくかっこいい技を見たことがあったなって気づいたら…",
 			painting = {
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "そうなんだ……わ、私もカッコいい必殺技が使えたら……",
 			painting = {
@@ -272,8 +272,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#A9F548FF",
 			say = "大丈夫よ千歳姉！",
 			painting = {
@@ -289,8 +289,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "ん？もしかして何かひらめきました？",
 			painting = {
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "さっきの爆撃もいい感じだった……当たらなかったけど、威力が上がった気が……",
 			painting = {
@@ -355,8 +355,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "なるほど…ふふふ、なら――今度は若月ちゃんに負けない「酒匂鬼神斬り」で決めさせてもらいますよ！",
 			painting = {
@@ -372,8 +372,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "楽しみにしておきなさい！この酒匂の……わわ、いけないいけないっ。ここでうっかり発動しちゃったらダメ！",
 			painting = {
@@ -389,8 +389,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "あ、そういえばこの必殺技ってやっぱり技名を叫んだほうがいいです？",
 			painting = {
@@ -406,8 +406,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "イメージしやすいように叫んだほうがいいかもしれません…ね",
 			painting = {
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "ウソ！？千歳と千代田はさっき叫んでいなかったよ！？",
 			painting = {
@@ -456,8 +456,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "なるほど！じゃあそれも考えないとね！",
 			painting = {
@@ -473,8 +473,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#A9F548FF",
 			say = "ちょっと、テスターはまだ倒しきれていないよ？緊張感がなさすぎじゃない？",
 			painting = {
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "ふと振り返ると、何故かさっきまで最前線でテスターと戦っていた若月の姿がなく、代わりに――",
 			typewriter = {
@@ -497,8 +497,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "今まで殿を担当していた涼月が若月のいた位置に現れ、体の周りに一瞬だけ「入れ替え」を示すシンボルが輝いた。",
 			typewriter = {
@@ -510,8 +510,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#A9F548FF",
 			say = "きゅ、急に何…！？あれ？皆？なんでわたしがここにいるの？",
 			painting = {
@@ -527,8 +527,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#A9F548FF",
 			say = "ええと…若月は……よかった！どこにいるのかと思ったらわたしと位置が入れ替わっただけか…！",
 			painting = {
@@ -544,8 +544,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "もしかして武蔵さんは若月がダメージを受けたのを見て、涼月と入れ替えたのかもね",
 			painting = {
@@ -561,8 +561,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#A9F548FF",
 			say = "それより今かっこいい必殺技の話をしてたよね！わたしも使ってみたい！「涼月、乱れ太刀で無双致す！」なんてね！",
 			painting = {
@@ -578,8 +578,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#A9F548FF",
 			say = "攻撃対象は空の敵がいいな～ここの敵は浮遊兵器を使ってくるから、それを一発で全滅させれたら……んーでも敵が少ないときはかっこよくないかも…",
 			painting = {
@@ -595,8 +595,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#A9F548FF",
 			say = "まあいっか！使い勝手がよかったら十分だよ！",
 			painting = {
@@ -612,8 +612,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#A9F548FF",
 			say = "さて、わたしが来たからには百人力！若月の仇、この涼月が取ってみせる！",
 			painting = {

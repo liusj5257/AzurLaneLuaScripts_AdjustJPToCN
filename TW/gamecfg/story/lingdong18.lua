@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG18",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG18",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
-			say = "哈哈~好久沒有打得這麼盡興了！心智魔方真是充滿了無窮的潛力啊——",
 			bgm = "battle-boss-6",
+			actor = 900021,
+			actorName = "淨化者",
+			say = "哈哈~好久沒有打得這麼盡興了！心智魔方真是充滿了無窮的潛力啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
+			actorName = "淨化者",
 			say = "記住，我們塞壬是妳們的敵人，是侵佔妳們海權、引發戰爭的大惡人~",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
+			actorName = "淨化者",
 			say = "我們還有更多，更強的怪物在等著妳們~努力變得更強吧，我們還會再見面的",
 			typewriter = {
 				speed = 0.05,
@@ -56,16 +56,16 @@ return {
 			}
 		},
 		{
-			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "賜予汝鮮血的消亡！回到冰冷的海底去吧——",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
+			actor = 205070,
+			nameColor = "#a9f548",
+			say = "賜予汝鮮血的消亡！回到冰冷的海底去吧——",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -236,17 +236,17 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "測試者",
-			stopbgm = true,
 			side = 2,
 			dir = -1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "故意擊落勝利的偵察機來把她吸引過來嗎——真是巧妙的計策呀",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -271,13 +271,13 @@ return {
 			}
 		},
 		{
-			actor = 900012,
+			say = "要應付關鍵點G只能這樣做了，幸好所有這一切最後都沒有產生太大的偏差",
 			side = 1,
 			actorName = "觀察者",
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "要應付關鍵點G只能這樣做了，幸好所有這一切最後都沒有產生太大的偏差",
+			actor = 900012,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -292,12 +292,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "觀察者",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "觀察者",
 			say = "能把戰損控制到一隻淨化者型以內，已經是最好的結果了",
 			typewriter = {
 				speed = 0.05,
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 0,
-			actorName = "測試者",
 			dir = -1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "測試者",
 			say = "那麼，妳也該回到新的載體了吧——淨化者",
 			typewriter = {
 				speed = 0.05,
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "淨化者",
 			say = "鏘——這一次玩得很開心哦，戰鬥經驗也跟著提升了！",
 			typewriter = {
 				speed = 0.05,
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "淨化者",
 			say = "皇家的那群孩子們已經逐步覺醒，成長得亭亭玉立了，北海區域看來暫時不用擔心啦",
 			typewriter = {
 				speed = 0.05,
@@ -360,12 +360,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "淨化者",
 			say = "快點快點，可以派我去下一個任務地點啦",
 			typewriter = {
 				speed = 0.05,
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 900012,
+			say = "下一個任務地點嗎？…",
 			side = 1,
 			actorName = "觀察者",
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "下一個任務地點嗎？…",
+			actor = 900012,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "觀察者",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "觀察者",
 			say = "——嗯…想要去賞賞櫻花嗎？",
 			typewriter = {
 				speed = 0.05,

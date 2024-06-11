@@ -6,7 +6,7 @@ slot3 = class("BattleEnvironmentBehaviourMovement", slot0.Battle.BattleEnvironme
 slot0.Battle.BattleEnvironmentBehaviourMovement = slot3
 slot3.__name = "BattleEnvironmentBehaviourMovement"
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	slot0._movebeginTime = nil
 	slot0._moveEndTime = nil
 	slot0._lastPosition = nil
@@ -16,7 +16,7 @@ function slot3.Ctor(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.SetTemplate(slot0, slot1)
+slot3.SetTemplate = function(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._route = slot1.route or {}
@@ -50,7 +50,7 @@ function slot3.SetTemplate(slot0, slot1)
 	end
 end
 
-function slot3.doBehaviour(slot0)
+slot3.doBehaviour = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	if not slot0._moveEndTime then
@@ -84,7 +84,7 @@ function slot3.doBehaviour(slot0)
 	uv0.super.doBehaviour(slot0)
 end
 
-function slot3.GenerateRandomPlayerAreaPoint(slot0)
+slot3.GenerateRandomPlayerAreaPoint = function(slot0)
 	slot1 = slot0._bounds
 	slot2 = math.random(slot1[3], slot1[4])
 	slot3 = math.random(slot1[2], slot1[1])
@@ -96,7 +96,7 @@ function slot3.GenerateRandomPlayerAreaPoint(slot0)
 	return Vector3(slot2, 0, slot3)
 end
 
-function slot3.resetRandomBound(slot0, slot1, slot2)
+slot3.resetRandomBound = function(slot0, slot1, slot2)
 	slot0._bounds[3] = slot1 - slot0._randomRangeX
 	slot0._bounds[4] = slot1 + slot0._randomRangeX
 	slot0._bounds[2] = slot2 - slot0._randomRangeZ
@@ -104,7 +104,7 @@ function slot3.resetRandomBound(slot0, slot1, slot2)
 	slot0._resetRandomRange = false
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 	table.clear(slot0)
 end

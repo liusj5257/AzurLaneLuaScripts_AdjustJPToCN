@@ -1,26 +1,26 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "鏡面海域·某處",
 			bgm = "bsm-2",
+			say = "鏡面海域·某處",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "此刻，被囚禁的公主獨自被關在無人知曉的黑暗之地。",
@@ -30,12 +30,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -50,10 +50,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……從被抓來到現在……已經過了多久呢……",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "！！……妳是什麼時候出現的？",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳……希望我相信妳嗎？",
 			painting = {
 				alpha = 0.3,
@@ -188,10 +188,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "多謝你的好意。不過，給妳任何關於我自己的資訊都會讓我覺得不舒服。",
 			painting = {
 				alpha = 0.3,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -259,10 +259,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……！",
 			painting = {
 				alpha = 0.3,
@@ -361,10 +361,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "因為這種事而開心……？",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "門？鎖？原來……是利用我的力量跨越了世界的界限……",
 			painting = {
 				alpha = 0.3,
@@ -505,10 +505,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -532,14 +532,14 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "…………",
 			bgm = "sk-az-pv1",
+			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,17 +549,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -570,10 +570,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "果然，我的力量就是這次的事件的導火線…",
 			painting = {
 				alpha = 0.3,
@@ -588,10 +588,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "但反過來說，這也意味著我的力量可能是解決這次危機的關鍵……",
 			painting = {
 				alpha = 0.3,
@@ -603,12 +603,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我得盡快逃出這裡，與飛鳥小姐她們會合……不跟大家道歉的話，我會於心不安的。",
 			painting = {
 				alpha = 0.3,
@@ -623,10 +623,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "但在這棟建築裡，忍術本身好像失效了，要想別的辦法才行……",
 			painting = {
 				alpha = 0.3,
@@ -641,10 +641,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯……不對，與其說是失效……不如說是被吸收了更為準確，看來不能依靠蠻力突破……",
 			painting = {
 				alpha = 0.3,
@@ -659,10 +659,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那麼……我必須等待適當的時機……一旦時機成熟……立刻行動……",
 			painting = {
 				alpha = 0.3,
@@ -674,28 +674,28 @@ return {
 			}
 		},
 		{
-			actor = 900232,
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900232,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵，看起來她會如計算一般行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

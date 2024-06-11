@@ -1,18 +1,18 @@
 return {
-	id = "WORLD400B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD400B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
+			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "美麗的女士們，歡迎來到地中海。我是薩丁帝國的利托里奧，諸位一路長途奔波辛苦了~",
-			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "這可能就是來自地中海的獨特魅力吧~",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "正經的說，碧藍航線那邊對於停火協議也很看重，所以最近主動降低了衝突的強度，地中海的局勢也因此平和了很多。",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "取得地中海的完全控制權，就是我們薩丁帝國的追求啊~",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "地中海是一片相對封閉的海洋，只要牢牢守住兩端的出入口，塞壬就很難派遣大部隊進入，這也是過去地中海中塞壬較少的原因。",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "不過現在嘛，一頭的蘇伊士運河如妳們所見，因為公約的關係誰也不能帶領艦隊進行直接封鎖。",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "至於另一頭，皇家原本建立了一條嚴密的封鎖線，除了試圖阻止我們出去之外，也間接阻擋了塞壬的進攻。",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "現在為了顯示出簽訂停火協議的誠意，皇家主動撤銷了封鎖線，自然也就沒人替我們守門囉。",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "接下來艦隊將會直接前往塔蘭托港，我在塔蘭托準備了美酒佳餚為各位接風，其他話就讓我們留到宴會上暢談吧~",
 			typewriter = {
 				speed = 0.05,

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2024异世界冒险 英灵效果 俾斯麦Z",
 	cd = 0,
-	painting = "bisimaiz",
-	id = 200856,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "bisimaiz",
+	id = 200856,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -27,26 +27,26 @@ return {
 							switchParam = 4
 						},
 						{
-							switchParam = 10,
+							switchType = 1,
 							switchTo = 2,
 							index = 1,
-							switchType = 1,
+							switchParam = 10,
 							setAI = 70258
 						},
 						{
-							switchType = 1,
+							switchParam = 3.5,
 							switchTo = 3,
 							index = 2,
-							switchParam = 3.5,
+							switchType = 1,
 							setAI = 20006,
 							addWeapon = {
 								3139803
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 0.5,
 							removeWeapon = {
 								3139803

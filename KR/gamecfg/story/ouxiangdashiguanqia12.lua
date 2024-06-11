@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Appeal",
 			say = "공연 해역·중앙 무대",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Appeal",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -48,8 +48,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			say = "너희의 \"모조품\"이 나타났어. 저쪽도 \"한 판 승부\"를 준비한 것 같은데.",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			say = "정말 기묘한 기분이네요… 거울을 보고 리허설하는 것 같달까요.",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700010,
 			dir = 1,
+			actor = 10700010,
 			say = "\"모조품\"의 겉모습이 우리랑 똑같기 때문인가요……?",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			say = "그 뿐만 아니라, 느낌마저도 아주 비슷해.",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			say = "하지만 본인이 아니라는 건 아주 분명하게 알 수 있어… 정말 이상한 느낌이야!",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700030,
 			dir = 1,
+			actor = 10700030,
 			say = "지금은 그런 걸 신경 쓸 때가 아니야. 무대에 정신을 집중하라고!",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			say = "이오리 말이 맞아요. 저흰——",
 			typewriter = {
 				speed = 0.05,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -237,9 +237,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "에너지 반응이 강해졌다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,8 +264,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "왠지 불길한 예감이… 셰피, 이 반응은 설마…",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700050,
 			dir = 1,
+			actor = 10700050,
 			say = "그 말은… 저희가 온 그날과 비슷한 상황처럼 변한다는 건가요?",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			say = "가능성이 커요. 호위를 담당하는 재블린들에게 무대 쪽으로 집결하라고 연락하죠.",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			say = "괜찮을까요? 호위 담당한 분들은 양산형을 유인하는 임무까지 있는데…",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 108050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "전력을 다하겠다고 했으면 모든 전력을 다 꺼내야지!",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

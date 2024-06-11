@@ -1,4 +1,4 @@
-function table.indexof(slot0, slot1, slot2)
+table.indexof = function(slot0, slot1, slot2)
 	slot3 = slot2 or 1
 
 	for slot6 = slot3, #slot0 do
@@ -10,7 +10,7 @@ function table.indexof(slot0, slot1, slot2)
 	return false
 end
 
-function table.keyof(slot0, slot1)
+table.keyof = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
 		if slot6 == slot1 then
 			return slot5
@@ -20,7 +20,7 @@ function table.keyof(slot0, slot1)
 	return nil
 end
 
-function table.removebyvalue(slot0, slot1, slot2)
+table.removebyvalue = function(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = 1
 	slot5 = #slot0
@@ -44,13 +44,13 @@ function table.removebyvalue(slot0, slot1, slot2)
 	return slot3
 end
 
-function table.removebykey(slot0, slot1)
+table.removebykey = function(slot0, slot1)
 	slot0[slot1] = nil
 
 	return slot0[slot1]
 end
 
-function table.insertto(slot0, slot1, slot2)
+table.insertto = function(slot0, slot1, slot2)
 	if checkint(slot2) <= 0 then
 		slot2 = #slot0 + 1
 	end
@@ -60,7 +60,7 @@ function table.insertto(slot0, slot1, slot2)
 	end
 end
 
-function table.isEmpty(slot0)
+table.isEmpty = function(slot0)
 	if type(slot0) == "table" then
 		return next(slot0) == nil
 	end
@@ -68,7 +68,7 @@ function table.isEmpty(slot0)
 	return true
 end
 
-function table.clear(slot0)
+table.clear = function(slot0)
 	if slot0 then
 		for slot4, slot5 in pairs(slot0) do
 			slot0[slot4] = nil
@@ -76,7 +76,7 @@ function table.clear(slot0)
 	end
 end
 
-function table.contains(slot0, slot1)
+table.contains = function(slot0, slot1)
 	if slot0 == nil then
 		return false
 	end
@@ -90,7 +90,7 @@ function table.contains(slot0, slot1)
 	return false
 end
 
-function table.equal(slot0, slot1)
+table.equal = function(slot0, slot1)
 	if type(slot0) ~= type(slot1) then
 		return false
 	end
@@ -118,7 +118,7 @@ function table.equal(slot0, slot1)
 	return true
 end
 
-function table.containsData(slot0, slot1)
+table.containsData = function(slot0, slot1)
 	if slot0 == nil then
 		return false
 	end
@@ -132,19 +132,27 @@ function table.containsData(slot0, slot1)
 	return false
 end
 
-function table.Foreach(slot0, slot1)
+table.Foreach = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
 		slot1(slot5, slot6)
 	end
 end
 
-function table.Ipars(slot0, slot1)
+table.Ipairs = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0) do
 		slot1(slot5, slot6)
 	end
 end
 
-function table.SerialIpairsAsync(slot0, slot1, slot2)
+table.IpairsCArray = function(slot0, slot1)
+	for slot5 = 0, slot0.Length - 1 do
+		v = slot0[slot5]
+
+		slot1(slot5, v)
+	end
+end
+
+table.SerialIpairsAsync = function(slot0, slot1, slot2)
 	if type(slot0) ~= "table" then
 		return
 	end
@@ -166,7 +174,7 @@ function table.SerialIpairsAsync(slot0, slot1, slot2)
 	end)()
 end
 
-function table.ParallelIpairsAsync(slot0, slot1, slot2)
+table.ParallelIpairsAsync = function(slot0, slot1, slot2)
 	if type(slot0) ~= "table" then
 		return
 	end
@@ -176,7 +184,7 @@ function table.ParallelIpairsAsync(slot0, slot1, slot2)
 	slot6 = 0
 	slot7 = 1
 
-	function slot8()
+	slot8 = function()
 		uv0 = uv0 + 1
 
 		if uv0 == uv1 then
@@ -199,7 +207,7 @@ function table.ParallelIpairsAsync(slot0, slot1, slot2)
 	slot8()
 end
 
-function table.Find(slot0, slot1)
+table.Find = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
 		if slot1(slot5, slot6) then
 			return slot6, slot5
@@ -207,7 +215,7 @@ function table.Find(slot0, slot1)
 	end
 end
 
-function table.Checkout(slot0, slot1)
+table.Checkout = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0) do
 		if slot1(slot5, slot6) ~= nil then
 			return slot7
@@ -215,7 +223,7 @@ function table.Checkout(slot0, slot1)
 	end
 end
 
-function table.getCount(slot0)
+table.getCount = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0) do
@@ -225,7 +233,7 @@ function table.getCount(slot0)
 	return slot1
 end
 
-function table.merge(slot0, slot1)
+table.merge = function(slot0, slot1)
 	if not slot1 or not slot0 then
 		return
 	end
@@ -237,10 +245,10 @@ function table.merge(slot0, slot1)
 	return slot0
 end
 
-function table.mergeArray(slot0, slot1, slot2)
+table.mergeArray = function(slot0, slot1, slot2)
 	slot3 = {}
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if not uv0 or not uv1[slot5] then
 				table.insert(uv2, slot5)
@@ -256,13 +264,13 @@ function table.mergeArray(slot0, slot1, slot2)
 	return {}
 end
 
-function table.clean(slot0)
+table.clean = function(slot0)
 	for slot4 = #slot0, 1, -1 do
 		table.remove(slot0, slot4)
 	end
 end
 
-function table.shallowCopy(slot0)
+table.shallowCopy = function(slot0)
 	if type(slot0) ~= "table" then
 		return slot0
 	end
@@ -276,7 +284,7 @@ function table.shallowCopy(slot0)
 	return slot1
 end
 
-function table.getIndex(slot0, slot1)
+table.getIndex = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0) do
 		if slot1(slot6) then
 			return slot5
@@ -284,7 +292,7 @@ function table.getIndex(slot0, slot1)
 	end
 end
 
-function table.map(slot0, slot1)
+table.map = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0) do
@@ -294,6 +302,33 @@ function table.map(slot0, slot1)
 	return slot2
 end
 
-function table.lastof(slot0)
+table.lastof = function(slot0)
 	return slot0[#slot0]
+end
+
+table.dichotomyInsert = function(slot0, slot1, slot2)
+	assert(type(defaultValue(slot2, function (slot0)
+		return slot0
+	end)) == "function")
+
+	slot3 = {}
+	slot4 = 1
+	slot5 = #slot0
+	slot6 = nil
+
+	slot7 = function(slot0)
+		uv0[slot0] = uv0[slot0] or uv1(slot0)
+
+		return uv0[slot0]
+	end
+
+	while slot4 < slot5 do
+		if slot7(slot0[math.floor((slot4 + slot5) / 2)]) < slot7(slot1) then
+			slot4 = slot8 + 1
+		else
+			slot5 = slot8
+		end
+	end
+
+	table.insert(slot0, slot4, slot1)
 end

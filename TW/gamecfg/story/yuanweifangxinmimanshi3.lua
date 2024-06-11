@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANWEIFANGXINMIMANSHI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANWEIFANGXINMIMANSHI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鳶尾芳馨瀰漫時\n\n<size=45>酒過三巡</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "宴會還沒正式開始，稍微留意下會場內外吧。",
 			bgm = "story-richang-5",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "宴會還沒正式開始，稍微留意下會場內外吧。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,27 +47,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_115",
 			say = "能感受到附近有一股熾熱的視線，稍微有些在意……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "順著感覺看過去，視線的發射者似乎並未意識到自己已經被發現了。",
@@ -89,10 +89,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "企業前輩……這套禮服，真的很適合。",
 			painting = {
 				alpha = 0.3,
@@ -107,10 +107,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘿嘿……嘿嘿嘿…………噸噸噸~",
 			painting = {
 				alpha = 0.3,
@@ -122,16 +122,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "艾塞克斯正在一邊暗中觀察遠處身著禮服的企業，一邊進行著紅酒暢飲行為。",
@@ -154,10 +154,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "贏不了的吧……那種等級……噸噸噸~——",
 			painting = {
 				alpha = 0.3,
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "艾塞克斯，妳……在做什麼？",
@@ -183,10 +183,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指、指揮官！你……你怎麼來這麼早？！",
 			painting = {
 				alpha = 0.3,
@@ -198,16 +198,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,10 +219,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "剛剛我說的話……你都聽見了？",
 			painting = {
 				alpha = 0.3,
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "（看來艾塞克斯現在並不是很清醒，需要多留意一下她）",
@@ -301,10 +301,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "盯——",
 			painting = {
 				alpha = 0.3,
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "艾塞克斯努力克制著醉意，睜大眼睛，仔細打量著我的禮服。",
@@ -330,10 +330,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這麼一看……指揮官的禮服……也……也很不錯。",
 			painting = {
 				alpha = 0.3,
@@ -348,10 +348,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……很適合你……要來先喝一點嗎？",
 			painting = {
 				alpha = 0.3,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "……妳喝太多了。要我扶妳去找企業嗎？",
@@ -377,10 +377,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我……我還沒有穿禮服啦，現在過去的話……不行的……",
 			painting = {
 				alpha = 0.3,
@@ -395,10 +395,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗚嗚嗚……你知道嗎，指揮官。",
 			painting = {
 				alpha = 0.3,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -423,10 +423,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "其實……企業前輩的禮服，是我幫忙換上的。",
 			painting = {
 				alpha = 0.3,
@@ -441,10 +441,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "畢竟企業前輩不擅長這種事嘛……",
 			painting = {
 				alpha = 0.3,
@@ -459,10 +459,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "換裝的時候，企業前輩，還有些害羞……欸嘿嘿嘿~",
 			painting = {
 				alpha = 0.3,
@@ -477,10 +477,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "然後，我就看到了……哇…………",
 			painting = {
 				alpha = 0.3,
@@ -495,10 +495,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "你懂嗎，指揮官！",
 			painting = {
 				alpha = 0.3,
@@ -516,10 +516,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
+			side = 2,
 			say = "（砰——）艾塞克斯猛然放下瓶子，直直的盯了過來。",
 			typewriter = {
 				speed = 0.05,
@@ -533,8 +533,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "懂……什麼？",
@@ -547,10 +547,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我看你是完全不懂哦……！",
 			painting = {
 				alpha = 0.3,
@@ -571,10 +571,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "當時我一看到企業前輩就覺得……啊，不用再穿禮服了……",
 			painting = {
 				alpha = 0.3,
@@ -595,10 +595,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "已經輸了啊……比不過的……",
 			painting = {
 				alpha = 0.3,
@@ -610,8 +610,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "好像大概明白了艾塞克斯消沉的原因。",
@@ -621,8 +621,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "不知道等到酒醒之後她會害羞到什麼程度……",
@@ -632,8 +632,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "還是在她做出進一步行動之前先安慰她吧。",
@@ -649,8 +649,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "妳可是艾塞克斯，未戰先怯可不是妳的風格！",
@@ -665,8 +665,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "而且我也很期待能看到妳穿著禮服的樣子。",
@@ -679,10 +679,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……！對，對哦，我可是艾塞克斯……",
 			painting = {
 				alpha = 0.3,
@@ -703,10 +703,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "禮服對決……即是對手是企業前輩我也不會認輸。",
 			painting = {
 				alpha = 0.3,
@@ -727,10 +727,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "而且……指揮官也說了……期待我的禮服……",
 			painting = {
 				alpha = 0.3,
@@ -742,8 +742,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "看起來艾塞克斯稍微清醒了一些，但不多。",
@@ -756,10 +756,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "事……事不宜遲，指揮官，走，跟我回房間……",
 			painting = {
 				alpha = 0.3,
@@ -771,8 +771,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "……回房間，做什麼？",
@@ -785,10 +785,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我看你是完全不懂哦……！",
 			painting = {
 				alpha = 0.3,
@@ -808,10 +808,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘿……嘿嘿，既然你說了「期待」，那當然要……好好回應你的期待了。",
 			painting = {
 				alpha = 0.3,
@@ -826,10 +826,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……所以第一步就是先回房間，拿禮服！",
 			painting = {
 				alpha = 0.3,
@@ -847,10 +847,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
+			side = 2,
 			say = "抵抗是徒勞的。",
 			typewriter = {
 				speed = 0.05,
@@ -864,8 +864,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "就這樣，被艾塞克斯強行架離了會場——",

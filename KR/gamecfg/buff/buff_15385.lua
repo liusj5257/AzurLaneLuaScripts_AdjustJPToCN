@@ -129,14 +129,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 3,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 15385,
 	picture = "",
 	desc = "扣除自身血量",
 	stack = 1,
-	id = 15385,
+	color = "blue",
 	icon = 15385,
 	last_effect = "",
 	effect_list = {

@@ -1,6 +1,6 @@
 slot0 = class("GameMediator", pm.Mediator)
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.GO_SCENE,
 		GAME.GO_MINI_GAME,
@@ -9,7 +9,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = nil
 

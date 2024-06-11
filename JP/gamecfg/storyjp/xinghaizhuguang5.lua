@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_2",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「星の海」コアブロック　制御室",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "制御室――「星の海」基地の中心にして、最もセキュリティが厳重なエリアの一つ。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "「リアリティレンズ」を始め、最新技術の結晶が多く集まっているため、この部屋に入れる艦船はそう多くない。",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "そして今日、データの激流を眺めるTBの隣には、ひとりの艦船の少女の姿があった――",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アンカレッジ",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "発展型艦船研究企画部",
 			dir = 1,
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アンカレッジ",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "発展型艦船研究企画部",
 			dir = 1,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アンカレッジ",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "発展型艦船研究企画部",
 			dir = 1,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アンカレッジ",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "発展型艦船研究企画部",
 			dir = 1,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -230,8 +230,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "兵装設計部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "ラフィーⅡ",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "敵艦隊、殲滅",
 			painting = {
@@ -249,9 +249,9 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "兵装設計部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 101510,
 			actorName = "ラフィーⅡ",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TB。この新艤装、気に入った",
 			painting = {
@@ -269,9 +269,9 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "兵装設計部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 101510,
 			actorName = "ラフィーⅡ",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "でも敵が少なかったから戦い足りなかった…敵をもっと出して",
 			painting = {
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -327,8 +327,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "セイレーン対策部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "ラングレーⅡ",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TB、聞こえる？",
 			painting = {
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -359,8 +359,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "セイレーン対策部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "ラングレーⅡ",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "悪いけど、シミュレーションを一時中止させてもらったわ",
 			painting = {
@@ -378,8 +378,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "セイレーン対策部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "ラングレーⅡ",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ノーザンプトンをこちらに呼び戻してもいい？ヨークタウンが臨時テストで協力してほしいそうよ",
 			painting = {
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "主端末",
 			hidePaintObj = true,
@@ -405,28 +405,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
+			bgm = "theme-aostelab",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "擬似空間「NYシティ」実験エリア",
-			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――うん。わかった",
@@ -612,11 +612,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "ラフィーも受け取った…目標、アビータボティ・デビル",
 			painting = {

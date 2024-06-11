@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "错误盾牌",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 12046,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,14 +17,14 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillProjectShelter",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillProjectShelter",
+			target_choise = "TargetNil",
 			arg_list = {
-				duration = 6,
-				effect = "shield03_1",
 				count = 99,
+				effect = "shield03_1",
+				duration = 6,
 				box = {
 					0,
 					0,

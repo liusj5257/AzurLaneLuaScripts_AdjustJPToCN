@@ -11,7 +11,7 @@ slot8.__name = "BattleColumnAreaBulletUnit"
 slot0.Battle.BattleColumnAreaBulletUnit = slot8
 slot8.AreaType = slot0.Battle.BattleConst.AreaType.COLUMN
 
-function slot8.InitCldComponent(slot0)
+slot8.InitCldComponent = function(slot0)
 	slot1 = slot0:GetTemplate().cld_box
 	slot2 = slot0:GetTemplate().cld_offset
 	slot0._cldComponent = uv0.Battle.BattleColumnCldComponent.New(slot1[1], slot1[3])
@@ -23,7 +23,7 @@ function slot8.InitCldComponent(slot0)
 	})
 end
 
-function slot8.GetBoxSize(slot0)
+slot8.GetBoxSize = function(slot0)
 	slot1 = slot0._cldComponent:GetCldBoxSize()
 
 	return Vector3(slot1.range, slot1.range, slot1.tickness)

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"After the Flowers Bloomed\n\n<size=45>1 The Lost Purse</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "In order to strengthen the fleet's operational abilities, I decided to build another supply depot in port.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "In order to strengthen the fleet's operational abilities, I decided to build another supply depot in port.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "While pacing around thinking about where to best build it, I saw a drawstring purse lying on the ground.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "I picked up the purse and shook it around, the ringing of coins coming from within. Who had dropped it?",
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "I handed the purse over to her, explaining that I had just found it on the side of the road.",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "Oh, thank goodness... I was afraid it had fallen into a gutter.",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "There's no way that dropping your purse could be considered good luck, right...?",
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "Hmm... Now that she mentioned it, I did recall seeing an empty plot of land around the shrine...",
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戦え！ロイヤルメイド隊\n\n<size=45>一　作戦開始</size>",
@@ -17,10 +17,10 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "ベル、いい？今回の任務、失敗は許さないわ！",
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "はい、仰せのままに",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はい、仰せのままに",
+			actor = 202120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
 					x = 0,
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "……………ふ、ふん！それぐらいはわかっているわ！",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "え、ええと、負けも勝ちも許さないわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "かしこまりました",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -228,15 +228,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -298,10 +298,10 @@ return {
 			expression = 14,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "ケント……はあ、はあ……走るのが早いよぉ……",
+			dir = 1,
+			actor = 203040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			say = "こちらも準備完了しました。弾薬は演習用の空砲に切り替えておりますので、武装面も心配無用です",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "こちらも準備完了しました。弾薬は演習用の空砲に切り替えておりますので、武装面も心配無用です",
+			actor = 202080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -458,10 +458,10 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			actorName = "メイドたち",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			actor = 203030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -496,11 +496,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "では、ご主人様に少し痛い目に会ってもらうとしましょう",
 			effects = {
 				{
@@ -518,19 +518,19 @@ return {
 			}
 		},
 		{
-			side = 2,
+			actorName = "？？？",
 			actorShadow = true,
-			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			side = 2,
 			stopbgm = true,
 			actor = 202190,
-			actorName = "？？？",
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
 			say = "私がいなくなった後のロイヤルメイド隊……少し楽しみです。ふふふ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "A few days later...",
 			bgm = "login-2022401us",
+			say = "A few days later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,8 +18,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 107990,
 			dir = 1,
+			actor = 107990,
 			nameColor = "#A9F548FF",
 			say = "Hey, Helena. I brought the Eagle Union girls along.",
 			painting = {
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 203100,
 			dir = 1,
+			actor = 203100,
 			nameColor = "#A9F548FF",
 			say = "And I brought my Royal Navy friends!",
 			painting = {
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 204040,
 			dir = 1,
+			actor = 204040,
 			nameColor = "#A9F548FF",
 			say = "Hello. I come bringing support and greetings from Her Majesty.",
 			painting = {
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 207090,
 			dir = 1,
+			actor = 207090,
 			nameColor = "#A9F548FF",
 			say = "In the name of love and peace, may our endeavour to prevent the candy shortage be successful.",
 			painting = {
@@ -85,9 +85,9 @@ return {
 		{
 			actor = 307090,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "The Sakura Empire is here too! Gosh, I can't believe the thief has gotten away with it for so long.",
 			painting = {
 				alpha = 0.3,
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 304060,
 			dir = 1,
+			actor = 304060,
 			nameColor = "#A9F548FF",
 			say = "As candy becomes more scarce, it'll be harder and harder for me to throw banquets...",
 			painting = {
@@ -119,8 +119,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 304070,
 			dir = 1,
+			actor = 304070,
 			nameColor = "#A9F548FF",
 			say = "The thief has even taken our yummy dangos... We've got to catch them as soon as possible!",
 			painting = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			nameColor = "#A9F548FF",
 			say = "Interesting... Thanks for the helpful info.",
 			painting = {
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			nameColor = "#A9F548FF",
 			say = "Now we know Eugen is one of the thieves, but who's the other? I can't think of any–",
 			painting = {
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -286,8 +286,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102200,
 			dir = 1,
+			actor = 102200,
 			nameColor = "#A9F548FF",
 			say = "Get over here as soon as you can! This is our chance to catch the thieves!",
 			painting = {

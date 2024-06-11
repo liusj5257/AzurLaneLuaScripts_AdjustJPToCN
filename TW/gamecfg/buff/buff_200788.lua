@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024罗德尼meta 投影亡语",
 	time = 0,
-	color = "yellow",
+	name = "2024罗德尼meta 投影亡语",
+	init_effect = "",
+	id = 200788,
 	picture = "",
 	desc = "",
 	stack = 7,
-	id = 200788,
+	color = "yellow",
 	icon = 200788,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.06
+				number = 0.06,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.04
+				number = -0.04,
+				attr = "injureRatio"
 			}
 		},
 		{

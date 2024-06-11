@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"센토와 선배님들\n\n<size=45>의외의 전개</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "비행기는 싫지만, 센토는 좋아……가, 같이 놀래…?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "비행기는 싫지만, 센토는 좋아……가, 같이 놀래…?",
+			actor = 301330,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,8 +85,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = -1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "아, 네, 그럼요.",
 			typewriter = {
@@ -99,15 +99,15 @@ return {
 			}
 		},
 		{
-			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101240,
+			nameColor = "#92fc63",
 			say = "센토, 그 전에 숨바꼭질하기로 한 거 잊어버리진 않았겠지?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,10 +135,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 206040,
-			dir = -1,
-			nameColor = "#92fc63",
 			say = "물론이죠! 심즈 선배님, 저도 무척 기대하고 있습니다!",
+			dir = -1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -169,15 +169,15 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "저, 저기…지휘관, 저, 센토 씨랑 같이 레슨을 해볼까 하는디……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -205,10 +205,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 206040,
-			dir = -1,
-			nameColor = "#92fc63",
 			say = "시그넷 선배님은 먼저 가 계셔요, 나중에 따라갈게요!",
+			dir = -1,
+			actor = 206040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -239,9 +239,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "선배 발언이 함대에 퍼진 후로, 왜인지 구축함 아이들의 센토에 대한 평가가 천정부지로 치솟고 있다는 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -299,9 +299,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "어디선가, 부러움과 질투가 섞인듯한 성인 여자의 쿨한 목소리가 울려 퍼졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -309,9 +309,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "구축함의 이야기를 해서 그런가, 설마, ‘그 사람’ 이?!",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#92fc63",
 			say = "아, 아크 로열 선배님, 좋은 아침입니다!",
 			typewriter = {

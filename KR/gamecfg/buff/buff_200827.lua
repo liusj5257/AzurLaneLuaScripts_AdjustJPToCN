@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 飞离屏幕并获得无敌BUFF",
 	time = 1,
-	color = "yellow",
+	name = "2024异世界冒险 飞离屏幕并获得无敌BUFF",
+	init_effect = "",
+	id = 200827,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200827,
+	color = "yellow",
 	icon = 200827,
 	last_effect = "",
 	effect_list = {

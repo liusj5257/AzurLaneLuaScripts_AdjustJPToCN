@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"특별훈련·에식스급\n\n<size=45>5 베스트 메모리즈</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "에식스, 샹그릴라, 인디펜던스, 그리고 특별연습에 참가한 멤버들.",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#92fc63",
+			say = "에식스, 샹그릴라, 인디펜던스, 그리고 특별연습에 참가한 멤버들.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#92fc63",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "모두",
 			dir = 1,
+			actorName = "모두",
 			say = "건배~!",
 			dialogShake = {
 				speed = 0.09,
@@ -105,15 +105,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#92fc63",
 			say = "에식스가 적 역할을 자청했을 때, 솔직히 이렇게까지 엄청난 공격을 연달아 하리라고는 생각하지 못했어. ……뭐, 덕분에 연습의 목적을 달성할 수 있었지.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "마, 맡은 바 임무를 수행했을 뿐입니다! 엔터프라이즈 선배라면 훨씬……",
 			typewriter = {
@@ -189,14 +189,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107380,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "이번 연습 중에 기록용 사진을 찍었는데, 같이 보지 않을래요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "그, 그런가요?!",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "(부끄러워!!)",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "……보기 흉한 모습을 보였어……",
 			typewriter = {
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "농땡이 안 부렸다니까!",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -413,8 +413,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "그리고 아직 찍지 않은 마지막 한장은…… 그렇지. 마지막으로 연습 참가자 전원의 단체 사진은 어떨까요?",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "우왓? 왜 내가 제일 앞에?!",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -473,8 +473,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "레드 그룹의 리더잖아, 가장 앞에 서야지. 에식스도 이쪽으로 와줘.",
 			typewriter = {
@@ -487,15 +487,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "자, 3, 2, 1……",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -520,13 +520,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "(찰칵)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -551,8 +551,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			blackNg = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "이렇게 해서 유니온의 특별연습은 막을 내렸다.",

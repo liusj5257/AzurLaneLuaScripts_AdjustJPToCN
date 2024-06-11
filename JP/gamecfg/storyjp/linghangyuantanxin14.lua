@@ -10,12 +10,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-9",
-			actor = 1300,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			bgm = "qe-ova-9",
+			tbActor = true,
+			actor = 1300,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}、{tb}、ここを埋めるの手伝ってくれない？",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -56,10 +56,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "見ての通り、宿題の観察日記ですよ？",
 			typewriter = {
@@ -83,10 +83,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "ビンゴ！そうすればTBの観察日記が一番ユニークに！TBは天才的でしょ？",
 			typewriter = {
@@ -110,10 +110,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "ん？ダメなんですか？",
 			typewriter = {
@@ -137,10 +137,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "じゃあ大丈夫ですよね！未知の未来が待っていますよー",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "結局…言われた通り、宿題を手伝ってあげた。",

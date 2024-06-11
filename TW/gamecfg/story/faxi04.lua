@@ -1,9 +1,9 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI04",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
@@ -279,14 +279,14 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
-			say = "———夢碎了",
 			bgmDelay = 3,
 			bgm = "story-french",
+			mode = 2,
+			say = "———夢碎了",
 			flashout = {
-				black = true,
 				dur = 1.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "在那一刻起，國家分崩離析，我們在一夜之間成為了赤色中軸手裡的傀儡…",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "“——放下武器吧，不許抵抗”，我們被司令部這樣命令到",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "身為天之正統、驕傲的聖教騎士…連為信仰獻身、爭取自由的機會都沒有得到就被宣告了失敗",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "二十年前，先驅者們用無數犧牲奪回了屬於我們的阿爾薩斯、洛林，一洗普法戰爭時的恥辱",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "然而，二十年後的今天，國土卻被一群可恥的叛教者們作為苟全性命的籌碼出賣給了侵略者！",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "他們在恐懼的驅使下投降了，忘記了尊嚴，使我們的國家受到奴役",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "看著鐵血的鐵騎肆無忌憚的踏過凱旋門，踏過戰神廣場…",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "這是莫大的恥辱，這是千百年來都未曾遭遇的恥辱！",
 			typewriter = {
 				speed = 0.05,
@@ -422,8 +422,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "“人可不朽，救贖可待來日；國家不得永生，救贖唯有當下”",
 			typewriter = {
 				speed = 0.05,
@@ -435,8 +435,8 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
+			mode = 2,
 			blackBg = true,
 			say = "我宣布，自由鳶尾在此刻正式成立，我們將是教廷所賦予的天之正統",
 			typewriter = {
@@ -449,14 +449,14 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
 			bgName = "bg_story_faxi1",
 			blackBg = true,
+			mode = 2,
 			say = "這面旗幟，曾經是百年戰爭期間那位聖少女所使用的標誌，代表著犧牲與自由的標誌",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bg_story_faxi1",
 			say = "我向所有的國民們發出呼喚，不論妳們身在何地，團結起來，帶著犧牲精神和對未來的嚮往",
 			typewriter = {
@@ -501,8 +501,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bg_story_faxi1",
 			say = "與我一道再次凝聚在這面旗幟之下！",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bg_story_faxi1",
 			say = "我們的祖國危在旦夕，但我們不是孤獨戰鬥，不是沒有援助！",
 			typewriter = {
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
+			mode = 2,
 			bgName = "bg_story_faxi1",
 			blackBg = true,
 			say = "在自由的世界裡，巨大的力量還在等待覺醒",
@@ -544,14 +544,14 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
-			say = "總有一天，這些力量會把敵人徹底粉碎！到那時，我們必須也必將以勝利者的姿態出現！",
 			blackBg = true,
 			BgFade = true,
+			mode = 2,
+			say = "總有一天，這些力量會把敵人徹底粉碎！到那時，我們必須也必將以勝利者的姿態出現！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -583,8 +583,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "那時，它將重新恢復昔日的自由與輝煌",
 			typewriter = {
 				speed = 0.05,
@@ -596,8 +596,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "自由終將引導人民",
 			typewriter = {
 				speed = 0.05,
@@ -609,8 +609,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "無論發生任何事，自由的火焰不能熄滅，也絕不會熄滅！",
 			typewriter = {
 				speed = 0.05,
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "因父及子及聖神之名",
 			typewriter = {
 				speed = 0.05,
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
+			mode = 2,
 			blackBg = true,
 			say = "自由鳶尾第一旗艦——黎胥留",
 			typewriter = {
@@ -660,8 +660,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -688,8 +688,8 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			dir = 1,
 			say = "真是充滿激情的演講，不愧是繼承了紅衣主教之名的新銳戰艦啊",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

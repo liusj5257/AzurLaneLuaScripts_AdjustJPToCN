@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Knights & Awards\n\n<size=45>Chapter 2 - Knights, Group Up!</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Evening - In the gymnasium",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "Evening - In the gymnasium",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,18 +44,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "Denver & Montpelier",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Yeeaah!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 1
@@ -80,16 +80,16 @@ return {
 			}
 		},
 		{
-			actor = 102100,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102100,
+			nameColor = "#a9f548",
 			say = "……Yeeaah!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 1
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "It looked like Cleveland had already assembled a team with 3 of her sister ships.",
 			typewriter = {
 				speed = 0.05,
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "... Understood. Give me the order, and I'll wipe out every opposing team by myself if I have to.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			say = "No, no, Monty! We're not shooting anyone, we're playing basketball!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "No, no, Monty! We're not shooting anyone, we're playing basketball!",
+			actor = 102090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -248,16 +248,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "... W-wha?!",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.2,
 					x = 15,
 					number = 2
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Cleveland blushed up to her ears.",
 			typewriter = {
 				speed = 0.05,
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 102140,
+			say = "That makes sense... Listen here, Cleveland's gone out of her way to captivate you. From this moment onwards, you'll need to always stay within 16 feet of her. Pay attention to everything she says and does and don't forget any of it.",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "That makes sense... Listen here, Cleveland's gone out of her way to captivate you. From this moment onwards, you'll need to always stay within 16 feet of her. Pay attention to everything she says and does and don't forget any of it.",
+			actor = 102140,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -319,17 +319,17 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "No, you guys have it all wrong! Listen to me, for crying out loud!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.2,
 					x = 0,
 					number = 2

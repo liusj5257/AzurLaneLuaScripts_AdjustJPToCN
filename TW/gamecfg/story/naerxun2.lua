@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"無法坦率的心意\n\n<size=45>二  別看穿我啊！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "翌日——",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "翌日——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "——羅、羅德尼！？像妳這樣突然搭話嚇人才更危險一點吧！",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "既沒有突然，也沒打算嚇人哦。我只是在跟指揮官匯報結束之後路過這裡而已。",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "嗯，只是簡單的肩部按摩而已。",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "呼呼呼~",
 			typewriter = {
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "不等羅德尼回覆，納爾遜就快步離開了。",
 			typewriter = {
 				speed = 0.05,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "唔……那就試著對那傢伙說一下“一直以來辛苦你了”好了……？",
 			typewriter = {
 				speed = 0.05,

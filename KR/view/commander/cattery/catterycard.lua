@@ -1,6 +1,6 @@
 slot0 = class("CatteryCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.lockTF = findTF(slot0._tf, "lock")
@@ -19,7 +19,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.expAdditionTxt = slot0.expAddition:Find("Text"):GetComponent(typeof(Text))
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.cattery = slot1
 
 	if slot1:GetState() == Cattery.STATE_LOCK then
@@ -35,7 +35,7 @@ function slot0.Update(slot0, slot1)
 	slot0:UpdateStyle()
 end
 
-function slot0.UpdateStyle(slot0)
+slot0.UpdateStyle = function(slot0)
 	if not (slot0.cattery:GetState() == Cattery.STATE_LOCK) then
 		slot4 = slot1:_GetStyle_()
 
@@ -47,7 +47,7 @@ function slot0.UpdateStyle(slot0)
 	end
 end
 
-function slot0.FlushEmpty(slot0)
+slot0.FlushEmpty = function(slot0)
 	setActive(slot0.empty, true)
 	setActive(slot0.commanderExp, false)
 	setActive(slot0.bubble, false)
@@ -55,7 +55,7 @@ function slot0.FlushEmpty(slot0)
 	slot0:InitBubble()
 end
 
-function slot0.FlushCommander(slot0)
+slot0.FlushCommander = function(slot0)
 	setActive(slot0.empty, false)
 	setActive(slot0.commanderExp, true)
 	setActive(slot0.bubble, true)
@@ -68,13 +68,13 @@ function slot0.FlushCommander(slot0)
 	slot0:InitBubble()
 end
 
-function slot0.LoadChar(slot0, slot1)
+slot0.LoadChar = function(slot0, slot1)
 	slot0.painting = slot1:getPainting()
 
 	setCommanderPaintingPrefab(slot0.char, slot0.painting, "info")
 end
 
-function slot0.ReturnChar(slot0)
+slot0.ReturnChar = function(slot0)
 	if slot0.painting then
 		retCommanderPaintingPrefab(slot0.char, slot0.painting)
 
@@ -82,7 +82,7 @@ function slot0.ReturnChar(slot0)
 	end
 end
 
-function slot0.InitBubble(slot0)
+slot0.InitBubble = function(slot0)
 	slot1 = slot0.cattery
 	slot2 = slot1:ExistCleanOP()
 
@@ -92,7 +92,7 @@ function slot0.InitBubble(slot0)
 	setActive(slot0.bubble, slot2 or slot3 or slot4)
 end
 
-function slot0.AddExpAnim(slot0, slot1, slot2)
+slot0.AddExpAnim = function(slot0, slot1, slot2)
 	slot0:RemoveTimer()
 
 	slot0.expAdditionTxt.text = slot1
@@ -108,7 +108,7 @@ function slot0.AddExpAnim(slot0, slot1, slot2)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -116,7 +116,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:ReturnChar()
 	slot0:RemoveTimer()
 end

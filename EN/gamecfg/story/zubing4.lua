@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Ashigara, Advance!\n\n<size=45>Chapter 4 - Ashigara, Why do you Fight?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One day, at the training grounds",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "One day, at the training grounds",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,15 +98,15 @@ return {
 			}
 		},
 		{
-			actor = 205070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205070,
+			nameColor = "#a9f548",
 			say = "If memory doth serve me properly, thou art Ashigara of the Sakura Empire?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -134,10 +134,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Huh? Uhh, um, yes ma'am!",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -186,10 +186,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "(Is... is she complimenting me?)",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Th-thank you very much...",
 			typewriter = {
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 5,
 			side = 0,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "(Wh-what does she mean? Is she asking about why I work hard?)",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "Um... though this is just an exercise, I am a representative of the Sakura Empire, so...",
 			typewriter = {
@@ -318,10 +318,10 @@ return {
 		{
 			expression = 6,
 			side = 0,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "(I-I've never heard these words before...)",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "Duke of York and Prince of Wales leave the training area together.",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "(Phew... I-I'm saved...)",
 			typewriter = {
@@ -424,12 +424,12 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "(Do I really have something like that...?)",
 			typewriter = {
 				speed = 0.05,

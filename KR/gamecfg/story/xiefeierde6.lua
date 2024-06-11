@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"탄환과, 사랑을 담아\n\n<size=45>6. 셰필드의 마음-상</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항-자신의 방",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항-자신의 방",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#92fc63",
 			say = "좋은 아침입니다. 주인님. 아침을 준비해두었습니다. 먼저 씻으세요.",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "셰피가 청소해주는 것에 익숙해지니까, 휴일이 되면 눈을 떴을 때 셰피를 만날 수 있다는 것에 기대가 되기 시작했다고요...",
 			typewriter = {
 				speed = 0.05,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(이런 생활이 계속되면 참 좋겠는데……)",
 			typewriter = {
 				speed = 0.05,
@@ -164,14 +164,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "며칠 뒤, 모항-자신의 방",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "평소보다 일찍 눈이 떠졌다. 시간은… 아직 많이 이른 것 같으니 조금 더 자도 되겠는데……",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "몽롱한 가운데 문밖에서 이야기하는 소리가 들려왔다——",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴캐슬",
+			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "셰필드",
+			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴캐슬",
+			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "셰필드",
+			side = 0,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뉴캐슬",
+			side = 1,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "이해하기 힘든 이야기를 들은 것 같은데……",
 			typewriter = {

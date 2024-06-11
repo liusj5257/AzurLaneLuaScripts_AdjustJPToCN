@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023关岛活动EX 二阶段半血时转三阶段",
 	time = 1,
-	color = "blue",
+	name = "2023关岛活动EX 二阶段半血时转三阶段",
+	init_effect = "",
+	id = 200743,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200743,
+	color = "blue",
 	icon = 200743,
 	last_effect = "",
 	effect_list = {

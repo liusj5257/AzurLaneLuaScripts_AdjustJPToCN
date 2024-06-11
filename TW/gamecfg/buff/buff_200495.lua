@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023古立特联动复刻 TSS2 宝多六花 古立特修正光线回血",
 	time = 0.5,
-	id = 200495,
+	name = "2023古立特联动复刻 TSS2 宝多六花 古立特修正光线回血",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200495,
 	last_effect = "",
 	effect_list = {
 		{

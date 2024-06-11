@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动EX 记忆通道 预警小怪消失",
 	time = 0,
-	color = "red",
+	name = "2022美系活动EX 记忆通道 预警小怪消失",
+	init_effect = "",
+	id = 200307,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200307,
+	color = "red",
 	icon = 200307,
 	last_effect = "",
 	effect_list = {

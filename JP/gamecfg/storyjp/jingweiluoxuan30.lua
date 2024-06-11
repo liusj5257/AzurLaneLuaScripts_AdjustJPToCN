@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN30",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-AF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
+			bgm = "battle-AF",
+			hidePaintObj = true,
 			say = "―――！！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "蒼龍·META",
+			hidePaintObj = true,
 			say = "！！",
 			dialogShake = {
 				speed = 0.08,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "ニュージャージー",
+			side = 0,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "直撃なのに無傷！？こういうのあまり好きじゃないけど！",
 			typewriter = {
 				speed = 0.05,
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "ここまでの火力でも装甲を貫けないなんて…！一体どうしたら……",
 			typewriter = {
 				speed = 0.05,
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "ニュージャージー",
+			side = 0,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうだ！この鏡面海域ってセイレーンの強さを設定できるわよね！試しに蒼龍にも試してみて！",
 			typewriter = {
 				speed = 0.05,
@@ -136,12 +136,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "ハッキング…？ううん、ここはやってみるしかないわ…",
 			typewriter = {
 				speed = 0.05,
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "（ヘレナも…お願い、手伝って……！）",
 			typewriter = {
 				speed = 0.05,
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "ミラーハッキング――よし！できた！",
 			typewriter = {
 				speed = 0.05,
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "少しの間だけ、この鏡面海域の力を使わせてもらうわっ！",
 			typewriter = {
 				speed = 0.05,
@@ -204,12 +204,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "指揮官、全力攻撃の指示を！",
 			typewriter = {
 				speed = 0.05,
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_luoxuan_8",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "私達を――勝利に導いて！！",
 			typewriter = {
 				speed = 0.05,

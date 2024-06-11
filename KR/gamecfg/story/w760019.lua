@@ -1,8 +1,8 @@
 return {
-	id = "W760019",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W760019",
+	skipTip = false,
 	scripts = {
 		{
 			dir = 1,

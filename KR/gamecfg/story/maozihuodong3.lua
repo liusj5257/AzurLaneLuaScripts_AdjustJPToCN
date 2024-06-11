@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "잠시간의 항해 이후, 알류산 방어선의 해군 기지에 도착했다.",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "에? 아브로라? 로열의 원조 물자를 관리하고 있던 것 아니야?",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "어라? 오오, 그쪽이 바로 지난번 뉴욕항 방어 작전을 지휘한 전설의 지휘관이구나? 호오~ 좋아, 좋아.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "모항에서 제대로 쉬지도 못하고 습격을 받았다지? 정말 큰일이었네. 후후~",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "하지만 여기서는 안심하고 쉬어도 좋아. 저 빙설 요새는 우리가 가까이 접근하기 전까지는 절대 공격하지 않을 테니까.",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "괜찮아! 보라고. 지원 부대가 왔으니까!",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102100,
 			dir = 1,
+			actor = 102100,
 			say = "하지만 여기 풍경은 마음에 드는걸. 조금 춥지만 말이지. 헤헤~",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "아~ 미안, 미안. 전부 어떤 지휘관이 멍을 때리는 바람에.",
 			typewriter = {
 				speed = 0.05,
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "에…? 이게 내 탓?",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "에…? 노스 유니온에서는 둘만 온 거야?",
 			typewriter = {
 				speed = 0.05,

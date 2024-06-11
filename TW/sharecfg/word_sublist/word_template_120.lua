@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_120 = {}
 slot1 = slot0.word_template_120
 
-function temp()
+temp = function()
 	uv0["快"] = {
 		["乐"] = {
 			A = {
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["撅"] = {
 		["起"] = {
 			["大"] = {
@@ -58,7 +58,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["双"] = {
 		["龙"] = {
 			["入"] = {
@@ -116,7 +116,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["馒"] = {
 		["头"] = {
 			["屄"] = {

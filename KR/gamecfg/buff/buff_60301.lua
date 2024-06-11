@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "",
-	color = "red",
+	id = 60301,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60301,
+	color = "red",
 	icon = 60300,
 	blink = {
 		1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 200
+				number = 200,
+				attr = "airPower"
 			}
 		}
 	}

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 6570,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6570,
+	color = "red",
 	icon = 6570,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 6570,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6570,
 				index = {
 					2
 				},
@@ -33,9 +33,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 6571,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6571,
 				index = {
 					3
 				},

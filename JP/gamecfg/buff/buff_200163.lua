@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 战斗BUFF 损管效果LV3",
 	time = 0,
-	color = "red",
+	name = "2022莱莎联动 战斗BUFF 损管效果LV3",
+	init_effect = "",
+	id = 200163,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200163,
+	color = "red",
 	icon = 200163,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.2,
-				target = "TargetSelf",
 				skill_id = 200163,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

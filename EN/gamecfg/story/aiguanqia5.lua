@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA5",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA5",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "Kizuna AI clone",
 			say = "... ... ...",
 			typewriter = {
@@ -90,10 +90,10 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
+			actor = 401230,
 			say = "This is... Miss AI? Everything is spinning around in front of me... I can't get a good aim!",
 			effects = {
 				{
@@ -128,9 +128,9 @@ return {
 		{
 			expression = 5,
 			side = 0,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hold up! It's clearly the fake that's doing that!",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -200,8 +200,8 @@ return {
 			actor = 10400010,
 			side = 0,
 			expression = 6,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "You have some nerves to try to hack into me! Allow this intelligent super A.I. to teach you a thing or two about hacking! We're gonna turn things around~! Have a taste of my mad gaming skills!",
 			typewriter = {
 				speed = 0.05,

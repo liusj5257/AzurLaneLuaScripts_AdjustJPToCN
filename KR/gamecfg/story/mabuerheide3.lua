@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"태양을 닮은 소녀\n\n<size=45>3. 힘내서 가자! </size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "어느 날·모항 식당",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "어느 날·모항 식당",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -102,8 +102,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "아무래도 제가 억지로 부탁한 거라서요. 너무 붙으면 좀 그렇잖아요?",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "그래요? 멤피스는요?",
 			typewriter = {
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "정말요? 의외네요. 지휘관님이 억지로 저와 어울리고 계셨다고 생각했는데!",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "설마... 지휘관님은 적극적인 타입을 좋아하시는 걸까요? 후후, 제대로 조사를 해봐야겠네요.",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "애초에 눈에 들지도 못한 저에게는 너무 어려운 일이라구요—",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "...그럼 힘내. 나도 널 응원해 줄게.",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "지휘관님이 다음번에도 저와 어울려 주셨으면 좋겠네요. 다음 만남이 기대되네요——",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,

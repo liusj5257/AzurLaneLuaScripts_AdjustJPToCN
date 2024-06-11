@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK99901",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK99901",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "檢索項：向主人表達感謝之情的方式——",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "檢索結果：給主人以感謝的擁抱",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "主、主人…這樣會讓你感到高興嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "……繼續提示，加斯科涅距離完全體還有一定距離。",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "提案，請繼續完成加斯科涅。",
 			typewriter = {
 				speed = 0.05,

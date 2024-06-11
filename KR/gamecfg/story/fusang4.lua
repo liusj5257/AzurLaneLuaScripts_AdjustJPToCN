@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"벚꽃이 흩날리던 그날 이후\n\n<size=45>4. 약속</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305010,
-			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "「지금 지휘관님과 공터로 가는 중이란다」…… 지휘관님, 이렇게 보내면 되나요?",
 			bgm = "story-1",
+			actor = 305010,
+			nameColor = "#a9f548",
+			say = "「지금 지휘관님과 공터로 가는 중이란다」…… 지휘관님, 이렇게 보내면 되나요?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "공터로 가는 길에 메일 보내는 법을 알려줬다. 이제 후소도 정상적인 메일을 보낼 수 있게 되었다.",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "후소가 갑자기 발걸음을 멈추고 고개를 들어 먼 곳을 바라봤다.",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "후소의 시선을 따라 바라보니——신사 뒷산에 만개한 벚꽃이 눈에 띄었다.",
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "얘기하며 걷다보니 어느새 목적지에 도착했다. 비어 있는 공터는 신사 입구 도리이 옆에 있었다.",
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "어때요? 이정도 크기의 땅이면 보급 창고 짓는데에 문제는 없겠죠?",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "갑작스런 데이트 신청에 조금 당황했다…… 심장의 쿵쾅거림을 느끼면서 천천히 고개를 끄덕였다.",
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "——지휘관님인가요? 후소도 있군요.",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "맞아요! 근데 이 황량한 공터에서 뭘 하고 계신 건지……?",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "——삐삐삐♪",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "꺅!",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "갑자기 울린 알림음에 놀랐는지 후소가 꽉 껴안았다……!",
@@ -443,8 +443,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "후, 후소…… 이제 그만 지휘관님을 놓아도 될 거야……",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "후소는 빠르게 붙어있던 몸을 뗐다. 착각인지 모르겠지만, 그녀의 귀가 조금 붉어보였다.",
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "말을 끝내고 후소는 류호와 함께 도리이를 통과해 멀어져갔다.",
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,

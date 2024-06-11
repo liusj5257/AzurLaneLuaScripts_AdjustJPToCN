@@ -1,7 +1,7 @@
 slot0 = class("SailBoatEquipUI")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 	uv0 = SailBoatGameVo
@@ -29,7 +29,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.hpTf = findTF(slot0._equipUI, "equip/hp")
 	slot0.btnUnEquip = findTF(slot0._equipUI, "btnUnEquip")
 
-	function slot6()
+	slot6 = function()
 		if uv0.curSelectItem then
 			uv0.unEquipFlag = true
 		else
@@ -121,13 +121,13 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:updateUI()
 end
 
-function slot0.show(slot0, slot1)
+slot0.show = function(slot0, slot1)
 	setActive(slot0._equipUI, slot1)
 	slot0:showUI()
 	slot0:updateUI()
 end
 
-function slot0.showUI(slot0)
+slot0.showUI = function(slot0)
 	slot1 = uv0.GetGameUseTimes()
 
 	if uv0.GetGameTimes() > 0 then
@@ -145,7 +145,7 @@ function slot0.showUI(slot0)
 	end
 end
 
-function slot0.checkEquipAble(slot0, slot1)
+slot0.checkEquipAble = function(slot0, slot1)
 	slot2 = 0
 	slot3 = uv0.GetGameUseTimes()
 
@@ -178,7 +178,7 @@ function slot0.checkEquipAble(slot0, slot1)
 	return true, slot6, slot2
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	for slot4 = 1, #slot0.selects do
 		slot5 = slot0.selects[slot4]
 

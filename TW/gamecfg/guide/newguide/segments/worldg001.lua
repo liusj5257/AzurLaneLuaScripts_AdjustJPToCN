@@ -18,8 +18,8 @@ return {
 			style = {
 				text = "請選擇要加入的陣營",
 				mode = 2,
-				posY = -189.51,
 				dir = -1,
+				posY = -189.51,
 				posX = 0
 			}
 		}

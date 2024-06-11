@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Thinking",
 			say = "那便是，再次迎來“鬥爭”的七色之海",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Thinking",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "那便是，守護和平世界的閃耀舞台",
 			typewriter = {
 				speed = 0.05,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "那便是，響徹大海的熱情與希望之歌",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "那便是，這個世界的“偶像”。",
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "看著由遠到近的全息影像中粉絲們的身影，少女們縱情演唱著。",
 			typewriter = {
 				speed = 0.05,
@@ -73,10 +73,10 @@ return {
 			}
 		},
 		{
-			actor = 102240,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 102240,
 			say = "大家，燃起來了嗎——！",
 			effects = {
 				{
@@ -94,10 +94,10 @@ return {
 			}
 		},
 		{
-			actor = 201234,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201234,
 			say = "不僅是μ兵裝的各位，還有我們也在哦！",
 			effects = {
 				{
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 901120,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "優雅地閃耀吧，維希…不，碧藍航線的偶像們！",
 			effects = {
 				{
@@ -137,10 +137,10 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 10700020,
 			say = "傾聽我們的歌唱吧！",
 			effects = {
 				{
@@ -158,13 +158,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "港區·臨時事務所",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "真的喵…這樣下去真的只能一起爆炸了喵？！",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "就這樣下去的話，確實…究竟該怎麼辦才好呢……",
 			typewriter = {
 				speed = 0.05,

@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_6",
+			bgm = "main-arbitrationsystem-theme",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Somewhere, in an unknown location...",
-			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "A land devoid of life came into view.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "A mechanical city expanded unimpeded while something banged incessantly, like the second hand on a clock.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "Metals and organics, the natural and the artificial, even the sea and the sky were disassembled, restructured, and rebuilt.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "Some of it went into a materials pile in the middle of the city.",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			say = "Other bits and pieces coalesced into the city itself.",
@@ -124,28 +124,28 @@ return {
 			}
 		},
 		{
-			actor = 900136,
-			side = 2,
 			bgName = "bg_camelot_6",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900136,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Empress, abandoning test site beta is strictly forbidden.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -165,28 +165,28 @@ return {
 			}
 		},
 		{
-			actor = 900191,
-			side = 2,
 			bgName = "bg_camelot_6",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900191,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Calculations show that the defense is exceedingly unlikely to succeed and thus deemed an irrational choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

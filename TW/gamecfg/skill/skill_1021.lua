@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "航空指挥·全员",
 	cd = 0,
+	picture = "0",
+	desc = "提高舰队中全员的航空属性",
 	painting = 1,
 	id = 1021,
-	picture = "0",
 	castCV = "skill",
-	desc = "提高舰队中全员的航空属性",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 1020
 			}

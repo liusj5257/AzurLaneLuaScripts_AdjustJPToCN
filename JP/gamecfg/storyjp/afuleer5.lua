@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"アヴローラと愉快な仲間たち\n\n<size=45>五、アレスティング・ワイヤー</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日・母港にて",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日・母港にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,15 +50,15 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "今日は私の出番がありませんね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "アヴローラさん！その…北方連合とユニオン……！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "は、はい！実は――",
 			typewriter = {
@@ -159,15 +159,15 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "つまりうちのソビエツカヤ・ロシアと、ユニオンのサラトガで少し意見の相違があって、いま一触即発の状態と……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "はい！どこでひらめいてしまったかわからないけど、お互いピリピリしてて…",
 			typewriter = {
@@ -227,14 +227,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 701030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "いた！まだ言い争ってる……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -262,8 +262,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "いい？空母が戦闘時、戦艦が隣で護衛しなくてどうするの？いくら火力と装甲があっても突っ込んだら無理でしょ！",
 			dialogShake = {
@@ -284,8 +284,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "空母中心的な運用を考えればそうだが、戦艦の性能を活かすなら、艦船を別の編成にすべきではないか？",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "精強な火力を誇る我々を「ピケット艦」として扱うなど、理解に苦しむ！",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "ああもう！空母が乏しい北方連合にわからないわよ！",
 			typewriter = {
@@ -335,8 +335,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "貴様、北方連合を――",
 			dialogShake = {
@@ -389,8 +389,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "アヴローラさん――",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "しかし我が北方連合の「艦船」運用はセイレーンとの戦いに長けている。それゆえ戦力がほかの陣営から正しく認識されていないのもまた事実",
 			typewriter = {
@@ -423,8 +423,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "確かに、それもそうだけどね…",
 			typewriter = {
@@ -485,14 +485,14 @@ return {
 			}
 		},
 		{
-			actor = 705050,
+			actorName = "二人",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			actorName = "二人",
+			actor = 705050,
+			nameColor = "#a9f548",
 			say = "……！",
 			effects = {
 				{

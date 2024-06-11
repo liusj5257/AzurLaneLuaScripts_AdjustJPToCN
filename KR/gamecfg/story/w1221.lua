@@ -1,12 +1,12 @@
 return {
-	id = "W1221",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1221",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "항구 근처에서 보급을 발견했다.",
 			typewriter = {
 				speed = 0.05,

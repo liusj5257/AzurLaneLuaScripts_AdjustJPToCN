@@ -1,7 +1,7 @@
 slot0 = class("AprilFoolDiscovery2024Page", import(".AprilFoolDiscoveryRePage"))
 slot1 = "goldenawake"
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.items = CustomIndexLayer.Clone2Full(slot0:findTF("AD/List"), 11)
 	slot0.selectIndex = 0
@@ -19,7 +19,7 @@ function slot0.OnInit(slot0)
 	slot0._funcsLink = {}
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	return uv0.super.OnDataSetting(slot0) or (function ()
 		if uv0.activity.data1 == 1 and uv0.activity.data3 == 1 then
 			uv0.activity.data3 = 0
@@ -34,7 +34,7 @@ function slot0.OnDataSetting(slot0)
 	end)()
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = pg.activity_event_picturepuzzle[slot0.activity.id]
 
 	assert(slot1, "Can't Find activity_event_picturepuzzle 's ID : " .. slot0.activity.id)
@@ -82,7 +82,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = slot0.activity.data1 >= 1
 	slot2 = #slot0.activity.data2_list == #slot0.keyList
 	slot3 = slot0.activity.data2_list
@@ -143,7 +143,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.UpdateSelection(slot0)
+slot0.UpdateSelection = function(slot0)
 	setText(slot0.tip, table.contains(slot0.activity.data3_list, slot0.keyList[slot0.selectIndex]) and i18n("caibulin_tip" .. slot0.selectIndex) or "")
 	slot0:CreateCDTimer()
 end

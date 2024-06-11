@@ -1,6 +1,6 @@
 slot0 = class("BeatMonsterModel")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.controller = slot1
 	slot0.fuShun = nil
 	slot0.mosterNian = nil
@@ -8,22 +8,22 @@ function slot0.Ctor(slot0, slot1)
 	slot0.actionStr = ""
 end
 
-function slot0.AddFuShun(slot0)
+slot0.AddFuShun = function(slot0)
 	slot0.fuShun = {}
 end
 
-function slot0.AddMonsterNian(slot0, slot1, slot2)
+slot0.AddMonsterNian = function(slot0, slot1, slot2)
 	slot0.mosterNian = {
 		hp = slot1,
 		maxHp = slot2
 	}
 end
 
-function slot0.UpdateMonsterHp(slot0, slot1)
+slot0.UpdateMonsterHp = function(slot0, slot1)
 	slot0.mosterNian.hp = slot1
 end
 
-function slot0.UpdateData(slot0, slot1)
+slot0.UpdateData = function(slot0, slot1)
 	slot0:UpdateMonsterHp(slot1.hp)
 
 	slot0.mosterNian.maxHp = slot1.maxHp
@@ -31,11 +31,11 @@ function slot0.UpdateData(slot0, slot1)
 	slot0:SetAttackCnt(slot1.leftCount)
 end
 
-function slot0.SetAttackCnt(slot0, slot1)
+slot0.SetAttackCnt = function(slot0, slot1)
 	slot0.attackCnt = slot1
 end
 
-function slot0.UpdateActionStr(slot0, slot1)
+slot0.UpdateActionStr = function(slot0, slot1)
 	if not slot1 or slot1 == "" then
 		slot0.actionStr = ""
 	else
@@ -43,11 +43,11 @@ function slot0.UpdateActionStr(slot0, slot1)
 	end
 end
 
-function slot0.SetStorys(slot0, slot1)
+slot0.SetStorys = function(slot0, slot1)
 	slot0.storys = slot1
 end
 
-function slot0.GetPlayableStory(slot0)
+slot0.GetPlayableStory = function(slot0)
 	if not slot0.storys or type(slot1) ~= "table" then
 		return
 	end
@@ -63,35 +63,35 @@ function slot0.GetPlayableStory(slot0)
 	end
 end
 
-function slot0.GetActionStr(slot0)
+slot0.GetActionStr = function(slot0)
 	return slot0.actionStr
 end
 
-function slot0.IsMatchAction(slot0)
+slot0.IsMatchAction = function(slot0)
 	return BeatMonsterNianConst.MatchAction(slot0.actionStr)
 end
 
-function slot0.GetMatchAction(slot0)
+slot0.GetMatchAction = function(slot0)
 	return BeatMonsterNianConst.GetMatchAction(slot0.actionStr)
 end
 
-function slot0.GetMonsterAction(slot0)
+slot0.GetMonsterAction = function(slot0)
 	return BeatMonsterNianConst.GetMonsterAction(slot0.actionStr)
 end
 
-function slot0.RandomDamage(slot0)
+slot0.RandomDamage = function(slot0)
 	return math.max(slot0.mosterNian.hp - math.random(1, 2), 0)
 end
 
-function slot0.GetMonsterMaxHp(slot0)
+slot0.GetMonsterMaxHp = function(slot0)
 	return slot0.mosterNian.maxHp
 end
 
-function slot0.GetAttackCount(slot0)
+slot0.GetAttackCount = function(slot0)
 	return slot0.attackCnt
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

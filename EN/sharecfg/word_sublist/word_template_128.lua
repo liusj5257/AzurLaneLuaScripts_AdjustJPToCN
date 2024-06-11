@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_128 = {}
 slot1 = slot0.word_template_128
 
-function temp()
+temp = function()
 	uv0["鱟"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["呼"] = {
 		["喊"] = {
 			["派"] = {
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["忽"] = {
 		["视"] = {
 			["农"] = {
@@ -71,7 +71,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["狐"] = {
 		["狸"] = {
 			["先"] = {
@@ -105,7 +105,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["湖"] = {
 		["岸"] = {
 			["護"] = {
@@ -176,7 +176,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蝴"] = {
 		["蝶"] = {
 			["逼"] = {
@@ -188,7 +188,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["觳"] = {
 		this = {
 			this = true

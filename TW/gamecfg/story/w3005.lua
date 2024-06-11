@@ -1,12 +1,12 @@
 return {
-	id = "W3005",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W3005",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "裝置運轉正常...",
 			typewriter = {
 				speed = 0.05,

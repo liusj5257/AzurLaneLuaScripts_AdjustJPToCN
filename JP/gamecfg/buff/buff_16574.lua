@@ -29,9 +29,9 @@ return {
 	{
 		time = 10
 	},
-	time = 0.1,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 0.1,
 	picture = "",
 	desc = "属性上升",
 	stack = 1,
@@ -53,8 +53,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

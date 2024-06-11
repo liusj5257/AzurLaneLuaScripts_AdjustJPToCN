@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI28",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "The escorts are with them as well! I see Gioberti and... Who's that? Someone from the Northern Parliament?",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "(Well, let's not overthink. More importantly, we need to rescue Gioberti right now!)",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "Do you see any Sirens nearby?",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "Yes...! There's some kind of humanoid figure in front of them!",
 			typewriter = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "I can't see how many mass-produced ships there are from this altitude...",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 602010,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
 			say = "Veneto, you seem to be in prime fighting form. Let's show them our unleashed might!",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "Yes. Let's get in there before something bad happens.",
 			typewriter = {
@@ -215,9 +215,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
 			blackBg = true,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "Anyone cowards that dare to steal the treasures of the Sardegna Empire will be taught a harsh lesson!",
 			typewriter = {

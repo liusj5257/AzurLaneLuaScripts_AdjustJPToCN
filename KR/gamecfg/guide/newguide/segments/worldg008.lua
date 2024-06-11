@@ -18,13 +18,13 @@ return {
 			style = {
 				text = "여러 함대 전환 가능",
 				mode = 2,
-				posY = -180.56,
 				dir = -1,
+				posY = -180.56,
 				posX = -253.47
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/left_stage/other/fleet_bar/selected",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/left_stage/other/fleet_bar/selected",
 				triggerType = {
 					1
 				},
@@ -39,13 +39,13 @@ return {
 			style = {
 				text = "제2함대 선택",
 				mode = 2,
-				posY = -103.1,
 				dir = -1,
+				posY = -103.1,
 				posX = -251.09
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/mask/list/item (1)",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/mask/list/item (1)",
 				triggerType = {
 					1
 				},
@@ -57,8 +57,8 @@ return {
 		},
 		{
 			alpha = 0,
-			delay = 0.5,
 			doNothing = true,
+			delay = 0.5,
 			code = {
 				"empty"
 			}

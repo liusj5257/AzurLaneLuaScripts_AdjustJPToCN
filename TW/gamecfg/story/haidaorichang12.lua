@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG12",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海風與夏日的無人島\n\n<size=45>椰林的“贈禮”</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "在對島嶼進行偵察時，在東側發現過一片椰子林。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "bar-soft",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "在對島嶼進行偵察時，在東側發現過一片椰子林。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "聽說皇家的女僕隊正在那裡收集製作甜點的素材，去那邊看看好了——",
@@ -58,12 +58,12 @@ return {
 			}
 		},
 		{
-			actor = 202090,
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 202090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼哼哼♪~",
 			painting = {
 				alpha = 0.3,
@@ -74,17 +74,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -95,10 +95,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊，指揮官也是來這裡收集甜點素材的嗎~",
 			painting = {
 				alpha = 0.3,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -123,10 +123,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "原來只是來觀看女僕隊工作的啊~",
 			painting = {
 				alpha = 0.3,
@@ -141,10 +141,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘿嘿……正好，指揮官一路來此辛苦了。",
 			painting = {
 				alpha = 0.3,
@@ -159,10 +159,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "要嚐嚐我們不久前才做出來的新鮮甜點嗎~",
 			painting = {
 				alpha = 0.3,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "在曼徹斯特身邊的不遠處，看到了女僕隊用來製作甜點的移動餐車。",
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "餐車的吧台上有一杯泛著紅光的飲品，和一個用椰子殼作為容器的甜點。",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "…………“大家”，也就是說兩個甜點中有一個不是曼徹斯特做的！",
@@ -215,10 +215,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一次性吃太多甜點不好，指揮官選一個吧~",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "曼徹斯特滿面笑容的將兩樣甜點拿了過來。",
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "這裡應該————",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -423,8 +423,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -435,13 +435,13 @@ return {
 			}
 		},
 		{
-			actor = 202090,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊，指揮官選的這個是天狼星做的~",
 			painting = {
 				alpha = 0.3,
@@ -453,8 +453,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -501,8 +501,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,

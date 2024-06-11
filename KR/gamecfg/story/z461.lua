@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z461",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z461",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"순백의 시\n\n<size=45>1. 탄생</size>",
@@ -42,13 +42,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_task",
 			say = "항구-지휘실",
+			bgName = "bg_story_task",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_task",
+			blackBg = true,
 			say = "적어도 그대가 나를 이 이름으로 부르는 동안 만이라도 투명한 나에게 세상의 색깔을 보여주길 바라.",
 			typewriter = {
 				speed = 0.05,

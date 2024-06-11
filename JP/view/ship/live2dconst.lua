@@ -1,42 +1,43 @@
 slot0 = class("Live2dConst")
+slot0.UnLoadL2dPating = nil
 
-function slot0.SaveL2dIdle(slot0, slot1, slot2)
+slot0.SaveL2dIdle = function(slot0, slot1, slot2)
 	PlayerPrefs.SetInt(uv0.GetL2dIdleSaveName(slot0, slot1), slot2)
 end
 
-function slot0.SaveL2dAction(slot0, slot1, slot2)
+slot0.SaveL2dAction = function(slot0, slot1, slot2)
 	PlayerPrefs.SetInt(uv0.GetL2dActionSaveName(slot0, slot1), slot2)
 end
 
-function slot0.GetL2dIdleSaveName(slot0, slot1)
+slot0.GetL2dIdleSaveName = function(slot0, slot1)
 	return "l2d_" .. tostring(slot0) .. "_" .. tostring(slot1) .. "_idle_index"
 end
 
-function slot0.GetL2dActionSaveName(slot0, slot1)
+slot0.GetL2dActionSaveName = function(slot0, slot1)
 	return "l2d_" .. tostring(slot0) .. "_" .. tostring(slot1) .. "_action_id"
 end
 
-function slot0.GetL2dSaveData(slot0, slot1)
+slot0.GetL2dSaveData = function(slot0, slot1)
 	return PlayerPrefs.GetInt(uv0.GetL2dIdleSaveName(slot0, slot1)), PlayerPrefs.GetInt(uv0.GetL2dActionSaveName(slot0, slot1))
 end
 
-function slot0.SaveDragData(slot0, slot1, slot2, slot3)
+slot0.SaveDragData = function(slot0, slot1, slot2, slot3)
 	PlayerPrefs.SetFloat(uv0.GetDragSaveName(slot0, slot1, slot2), slot3)
 end
 
-function slot0.GetDragData(slot0, slot1, slot2)
+slot0.GetDragData = function(slot0, slot1, slot2)
 	return PlayerPrefs.GetFloat(uv0.GetDragSaveName(slot0, slot1, slot2))
 end
 
-function slot0.GetDragSaveName(slot0, slot1, slot2)
+slot0.GetDragSaveName = function(slot0, slot1, slot2)
 	return "l2d_drag_" .. tostring(slot0) .. "_" .. tostring(slot1) .. "_" .. tostring(slot2) .. "_target"
 end
 
-function slot0.SetDragActionIndex(slot0, slot1, slot2, slot3)
+slot0.SetDragActionIndex = function(slot0, slot1, slot2, slot3)
 	PlayerPrefs.SetInt(uv0.GetDragActionIndexName(slot0, slot1, slot2), slot3)
 end
 
-function slot0.GetDragActionIndex(slot0, slot1, slot2)
+slot0.GetDragActionIndex = function(slot0, slot1, slot2)
 	if not PlayerPrefs.GetInt(uv0.GetDragActionIndexName(slot0, slot1, slot2)) or slot4 <= 0 then
 		slot4 = 1
 	end
@@ -44,11 +45,11 @@ function slot0.GetDragActionIndex(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.GetDragActionIndexName(slot0, slot1, slot2)
+slot0.GetDragActionIndexName = function(slot0, slot1, slot2)
 	return "l2d_drag_" .. tostring(slot0) .. "_" .. tostring(slot1) .. "_" .. tostring(slot2) .. "_action_index"
 end
 
-function slot0.ClearLive2dSave(slot0, slot1)
+slot0.ClearLive2dSave = function(slot0, slot1)
 	if not slot0 or not slot1 then
 		warning("skinId 或 shipId 不能为空")
 

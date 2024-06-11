@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春風の十字星\n\n<size=45>その三  状況調査！</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "勝手に人を疑うのはダメだよね！",
 			bgm = "story-1",
+			actor = 201110,
+			nameColor = "#a9f548",
+			say = "勝手に人を疑うのはダメだよね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "そ、そうよね！大人はちゃんと調査するよね！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そ、そうよね！大人はちゃんと調査するよね！",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -71,15 +71,15 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "あら？シグニットちゃん、冬の耐寒鍛錬ですか？風が強いから気をつけてね？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -104,12 +104,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "ち、違います！実はうち……",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ち、違います！実はうち……",
+			actor = 201101,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -166,15 +166,15 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "ううん、私も「例のあの人」を見なかったわ？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,16 +199,16 @@ return {
 			}
 		},
 		{
-			actor = 900079,
 			side = 2,
 			bgName = "bg_story_school",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
+			actor = 900079,
 			nameColor = "#a9f548",
 			say = "あっ・・・そういえば「例のあの人」なら、ついさっき部屋に戻ったのを見ました！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

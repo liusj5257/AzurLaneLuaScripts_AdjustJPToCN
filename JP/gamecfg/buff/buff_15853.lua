@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.01
+					number = 0.01,
+					attr = "cri"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.01
+					number = 0.01,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.014
+					number = 0.014,
+					attr = "cri"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.014
+					number = 0.014,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.018
+					number = 0.018,
+					attr = "cri"
 				}
 			},
 			{
@@ -115,8 +115,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.018
+					number = 0.018,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.022
+					number = 0.022,
+					attr = "cri"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.022
+					number = 0.022,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.026
+					number = 0.026,
+					attr = "cri"
 				}
 			},
 			{
@@ -211,8 +211,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.026
+					number = 0.026,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -248,8 +248,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.03
+					number = 0.03,
+					attr = "cri"
 				}
 			},
 			{
@@ -259,8 +259,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.03
+					number = 0.03,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -296,8 +296,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.035
+					number = 0.035,
+					attr = "cri"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.035
+					number = 0.035,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -344,8 +344,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.04
+					number = 0.04,
+					attr = "cri"
 				}
 			},
 			{
@@ -355,8 +355,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.04
+					number = 0.04,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -392,8 +392,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.045
+					number = 0.045,
+					attr = "cri"
 				}
 			},
 			{
@@ -403,8 +403,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.045
+					number = 0.045,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -440,8 +440,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.05
+					number = 0.05,
+					attr = "cri"
 				}
 			},
 			{
@@ -451,8 +451,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.05
+					number = 0.05,
+					attr = "criDamage"
 				}
 			},
 			{
@@ -482,12 +482,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 15853,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 15853,
+	color = "red",
 	icon = 15850,
 	last_effect = "",
 	blink = {
@@ -505,8 +505,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.01
+				number = 0.01,
+				attr = "cri"
 			}
 		},
 		{
@@ -516,8 +516,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.01
+				number = 0.01,
+				attr = "criDamage"
 			}
 		},
 		{

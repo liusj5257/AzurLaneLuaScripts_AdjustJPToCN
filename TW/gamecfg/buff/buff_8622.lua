@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "航空减伤80%",
 	time = 0,
-	color = "blue",
+	name = "航空减伤80%",
+	init_effect = "",
+	id = 8622,
 	picture = "",
 	desc = "航空减伤",
 	stack = 1,
-	id = 8622,
+	color = "blue",
 	icon = 8620,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.8
+				number = -0.8,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

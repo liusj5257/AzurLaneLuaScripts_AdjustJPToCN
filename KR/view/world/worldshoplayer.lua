@@ -6,15 +6,15 @@ slot0.optionsPath = {
 	"adapt/top/title/option"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldShopUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return "story-richang"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	for slot4, slot5 in pairs(uv0.Listeners) do
 		slot0[slot4] = function (...)
 			uv0[uv1](uv2, ...)
@@ -31,7 +31,7 @@ function slot0.init(slot0)
 	slot0.multiWindow = OriginShopMultiWindow.New(slot0._tf, slot0.event)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData()
 	})
@@ -103,7 +103,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.singleWindow:isShowing() then
 		slot0.singleWindow:Close()
 
@@ -120,14 +120,14 @@ function slot0.onBackPressed(slot0)
 	triggerButton(slot0.btnBack)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	slot0:RemoveWorldListener()
 	slot0.singleWindow:Destroy()
 	slot0.multiWindow:Destroy()
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	GetImageSpriteFromAtlasAsync(Drop.New({
@@ -137,15 +137,15 @@ function slot0.setPlayer(slot0, slot1)
 	setText(slot0.rtRes:Find("number"), slot0.player:getResource(WorldConst.ResourceID))
 end
 
-function slot0.AddWorldListener(slot0)
+slot0.AddWorldListener = function(slot0)
 	nowWorld():AddListener(World.EventUpdateShopGoods, slot0.onUpdateGoods)
 end
 
-function slot0.RemoveWorldListener(slot0)
+slot0.RemoveWorldListener = function(slot0)
 	nowWorld():RemoveListener(World.EventUpdateShopGoods, slot0.onUpdateGoods)
 end
 
-function slot0.updateGoods(slot0, slot1, slot2, slot3)
+slot0.updateGoods = function(slot0, slot1, slot2, slot3)
 	slot4 = pg.TimeMgr.GetInstance()
 	slot5 = nowWorld()
 	slot6 = slot5.expiredTime

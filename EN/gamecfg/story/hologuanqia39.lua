@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA39",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA39",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
+			bgm = "holo-control",
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "That's the end of the line for you, imposter! How dare you blow up the roller coaster that I made!",
-			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 10500060,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Sh I On",
 			dir = 1,
+			actorName = "Sh I On",
 			say = "...?",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "She has spaces between her name again! I have a bad feeling about this!",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			actorName = "Sh I On",
 			say = "... Matsuri?",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			actorName = "Sh I On",
 			say = "MatsuriMatsuriMatsuriii! Ahhhh! Ahhh! MatsuriMatsuriMatsuri! *sniff* *sniff* Haaaaah.... haaaah...!",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -101,9 +101,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Eeehhhhh? Stop! Stop that this instant!",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Oh? It's Shion this time. How cute!",
 			typewriter = {
 				speed = 0.05,
@@ -173,9 +173,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Those were truly dark times! Forget you ever saw this!",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -214,9 +214,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Neeeeee! Stop staring and help me stop this thing!",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			actorName = "Sh I On",
 			say = "You haven't had enough yet? But it's not a problem! I still... have another trump card!",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "Eh? You're going to get even cringier?!",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			actorName = "Sh I On",
 			say = "I have something to prove after all! Matsuri, you're so cute! I love you! I love you so much...",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -300,9 +300,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "EX... PLOSION ! ! ! !",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

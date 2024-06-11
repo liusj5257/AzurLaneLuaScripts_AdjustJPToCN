@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方連合・某所 ",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-6",
+			say = "北方連合・某所 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,9 +40,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "最低限の照明しか入っていない一室で、ソビエツキー・ソユーズはアヴローラたちのレポートを繰り返し確認していた。",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "意外な収穫でしたね。キーロフ",
 			typewriter = {
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "どこかに置いてある通信機から女性の加工音声が流れてきた",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "……ミコヤンが出てきたことで、もしかするとクロンシュタットたちの行方も分かるかもしれませんね",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "非常に困りますわ。向こうの誠意は伝わっていますのに",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "（「再現」とはいえ、北方連合の航路は確かに影響を受けていましたし、セイレーンとの戦況も芳しくありませんでした）",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -288,8 +288,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "そうですね。あのまま「再現」を続けていけば、鉄血に未来はありません",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "ビスマルクのあの力も、結局――",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -338,8 +338,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "それでも私はビスマルクを尊敬しています。変えようとする意志、目標、私たちと同じです",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "通信が終了したが、ソユーズは無言のまま数秒…数十秒静かに佇んでいた。",
 			typewriter = {
 				speed = 0.05,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "悔やみ、敗北感、達成感、希望、未来――無数の単語が頭の中に流れ込み、そして混じり合って混沌とした感情になっていく。",
 			typewriter = {
 				speed = 0.05,
@@ -430,9 +430,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "そんな混沌をかき分け、整理し、氷のような意志と理性で制御し、枝分かれしたものを一本にする。",
 			typewriter = {
 				speed = 0.05,
@@ -444,9 +444,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "……時は満ちた。専用の通信回線を開き、ソユーズは上層部に連絡を始め――",
 			typewriter = {
 				speed = 0.05,
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "……セイレーン施設で得られた情報並びに物的証拠に基づいて、艦隊は北極調査隊が健在している可能性が高いと判断した",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "「救援隊を編成し、北極調査隊を救出。そしてセイレーン情報の収集ならびに資材の回収を行う」",
 			typewriter = {
@@ -511,9 +511,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "「艦隊戦力の編成は、ソビエツキー・ソユーズと艦隊所属の情報部門にて行うこととする――」",
 			typewriter = {

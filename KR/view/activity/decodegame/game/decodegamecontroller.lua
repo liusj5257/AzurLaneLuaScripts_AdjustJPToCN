@@ -1,17 +1,17 @@
 slot0 = class("DecodeGameController")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.model = DecodeGameModel.New(slot0)
 	slot0.view = DecodeGameView.New(slot0)
 end
 
-function slot0.SetCallback(slot0, slot1, slot2, slot3)
+slot0.SetCallback = function(slot0, slot1, slot2, slot3)
 	slot0.exitCallBack = slot1
 	slot0.saveDataCallback = slot2
 	slot0.successCallback = slot3
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0.isIniting = true
@@ -40,7 +40,7 @@ function slot0.SetUp(slot0, slot1)
 	})
 end
 
-function slot0.ShowTip(slot0)
+slot0.ShowTip = function(slot0)
 	slot1 = slot0.model:GetUnlockMapCnt()
 	slot2 = nil
 
@@ -61,7 +61,7 @@ function slot0.ShowTip(slot0)
 	slot0.view:ShowTip(slot2)
 end
 
-function slot0.UpdateProgress(slot0, slot1)
+slot0.UpdateProgress = function(slot0, slot1)
 	slot2 = slot0.model:GetUnlockedCnt()
 	slot3 = slot0.model:GetUnlockMapCnt()
 	slot4, slot5 = slot0.model:GetPassWordProgress()
@@ -77,13 +77,13 @@ function slot0.UpdateProgress(slot0, slot1)
 	slot0.view:UpdateProgress(slot2, slot3, slot4, slot1)
 end
 
-function slot0.SwitchMap(slot0, slot1, slot2)
+slot0.SwitchMap = function(slot0, slot1, slot2)
 	if slot0.inSwitching then
 		return
 	end
 
 	if slot0.mapId ~= slot1 then
-		function slot3(slot0)
+		slot3 = function(slot0)
 			parallelAsync({
 				function (slot0)
 					if not uv0.isInDecodeMap then
@@ -150,7 +150,7 @@ function slot0.SwitchMap(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Unlock(slot0, slot1)
+slot0.Unlock = function(slot0, slot1)
 	if slot0.inSwitching then
 		return
 	end
@@ -162,7 +162,7 @@ function slot0.Unlock(slot0, slot1)
 	end
 end
 
-function slot0.EnterPassWord(slot0, slot1)
+slot0.EnterPassWord = function(slot0, slot1)
 	if not slot0.model:IsMapKey(slot1) then
 		return
 	end
@@ -201,7 +201,7 @@ function slot0.EnterPassWord(slot0, slot1)
 	end
 end
 
-function slot0.UnlockMapItem(slot0, slot1)
+slot0.UnlockMapItem = function(slot0, slot1)
 	if slot0.model.canUseCnt > 0 and not slot0.model:IsUnlock(slot1) then
 		seriesAsync({
 			function (slot0)
@@ -236,7 +236,7 @@ function slot0.UnlockMapItem(slot0, slot1)
 	end
 end
 
-function slot0.PlayStory(slot0, slot1)
+slot0.PlayStory = function(slot0, slot1)
 	if DecodeGameConst.UNLOCK_STORYID[slot0.model:GetUnlockedCnt()] then
 		pg.NewStoryMgr.GetInstance():Play(slot3, slot1)
 	else
@@ -244,7 +244,7 @@ function slot0.PlayStory(slot0, slot1)
 	end
 end
 
-function slot0.RepairMap(slot0)
+slot0.RepairMap = function(slot0)
 	seriesAsync({
 		function (slot0)
 			uv0.model:OnRepairMap()
@@ -272,11 +272,11 @@ function slot0.RepairMap(slot0)
 	})
 end
 
-function slot0.CanSwitch(slot0)
+slot0.CanSwitch = function(slot0)
 	return not slot0.inSwitching
 end
 
-function slot0.SwitchToDecodeMap(slot0, slot1)
+slot0.SwitchToDecodeMap = function(slot0, slot1)
 	if slot0.inSwitching then
 		return
 	end
@@ -288,7 +288,7 @@ function slot0.SwitchToDecodeMap(slot0, slot1)
 	end
 end
 
-function slot0.ExitDeCodeMap(slot0)
+slot0.ExitDeCodeMap = function(slot0)
 	slot0.isFirstSwitch = false
 
 	seriesAsync({
@@ -325,7 +325,7 @@ function slot0.ExitDeCodeMap(slot0)
 	})
 end
 
-function slot0.EnterDecodeMap(slot0)
+slot0.EnterDecodeMap = function(slot0)
 	slot0.isInDecodeMap = true
 	slot0.isFirstSwitch = true
 
@@ -359,7 +359,7 @@ function slot0.EnterDecodeMap(slot0)
 	})
 end
 
-function slot0.ExitGame(slot0)
+slot0.ExitGame = function(slot0)
 	if slot0.inSwitching then
 		return
 	end
@@ -369,17 +369,17 @@ function slot0.ExitGame(slot0)
 	end
 end
 
-function slot0.PlayVoice(slot0, slot1)
+slot0.PlayVoice = function(slot0, slot1)
 	if slot1 and slot1 ~= "" then
 		slot0.view:PlayVoice(slot1)
 	end
 end
 
-function slot0.GetSaveData(slot0)
+slot0.GetSaveData = function(slot0)
 	return slot0.model.unlocks
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.model:Dispose()
 	slot0.view:Dispose()
 end

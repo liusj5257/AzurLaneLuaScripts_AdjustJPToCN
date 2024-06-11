@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 发射器机制应对成功",
 	time = 2,
-	color = "blue",
+	name = "2023英系活动 EX 发射器机制应对成功",
+	init_effect = "",
+	id = 200285,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200285,
+	color = "blue",
 	icon = 200285,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 0.5,
+				target = "TargetSelf",
 				skill_id = 200282
 			}
 		},

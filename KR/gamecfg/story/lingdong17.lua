@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG17",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
-			say = "네가 여기 있다는 건 처음부터 알고 있었지마안~",
 			bgm = "story-8",
+			actor = 900021,
+			actorName = "퓨리파이어",
+			say = "네가 여기 있다는 건 처음부터 알고 있었지마안~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "이렇게 눈에 띄게 소란을 피울 줄은 몰랐어. '프로토타입'…아니, '코드 G', 대체 뭘 하고 싶은 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -55,12 +55,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
+			say = "아니 아니 아니 아니, 지금 계산해봤는데, 이 정도 사이즈의 '특이점' 이 붕괴하면, 노스 유니온의 절반이 퍼엉~! 하고 날아가 버린다구!",
 			side = 1,
 			nameColor = "#ff0000",
-			actorName = "퓨리파이어",
 			dir = 1,
-			say = "아니 아니 아니 아니, 지금 계산해봤는데, 이 정도 사이즈의 '특이점' 이 붕괴하면, 노스 유니온의 절반이 퍼엉~! 하고 날아가 버린다구!",
+			actor = 900021,
+			actorName = "퓨리파이어",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -78,8 +78,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "이 시대는 물론 우리들의 계획에 있어서도 굉장히 민폐라고! 그러니까…그만두어주지 않을래?",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "네가 그렇게 나온다면, 서브루틴의 일환으로…전력으로 멈춰주겠어!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -162,8 +162,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "아하하하! 역시 와 줬네!",
 			typewriter = {
 				speed = 0.05,
@@ -235,15 +235,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -351,12 +351,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
+			say = "뭐래~ 당신을 멈추기 위해선 이 녀석들을 부르는 게 딱이겠지!",
 			side = 1,
 			nameColor = "#ff0000",
-			actorName = "퓨리파이어",
 			dir = -1,
-			say = "뭐래~ 당신을 멈추기 위해선 이 녀석들을 부르는 게 딱이겠지!",
+			actor = 900021,
+			actorName = "퓨리파이어",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -468,8 +468,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "후후후, 그렇게 조급해하지 말라고. 어차피 그녀를 쫓아갈 수 있을 리 없잖아? 너희들의 상대는 바로 나라고.",
 			typewriter = {
 				speed = 0.05,
@@ -484,8 +484,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "뭐, 너희 덕분에 성가신 일이 해결됐으니까~",
 			typewriter = {
 				speed = 0.05,
@@ -500,8 +500,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "답례로~ 잔뜩 놀아주도록 할게!!!",
 			typewriter = {
 				speed = 0.05,

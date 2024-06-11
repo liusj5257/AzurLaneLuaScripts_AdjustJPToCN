@@ -1,6 +1,6 @@
 slot0 = class("AsyncParallelExcutionRequestPackage", import(".RequestPackage"))
 
-function slot0.__call(slot0)
+slot0.__call = function(slot0)
 	if slot0.stopped then
 		return
 	end
@@ -9,7 +9,7 @@ function slot0.__call(slot0)
 		return
 	end
 
-	function slot3()
+	slot3 = function()
 		if uv0.stopped then
 			return
 		end
@@ -30,7 +30,7 @@ function slot0.__call(slot0)
 	end
 end
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.funcs = slot1
 	slot0.final = slot2
 end

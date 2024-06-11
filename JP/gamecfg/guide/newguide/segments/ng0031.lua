@@ -7,7 +7,13 @@ return {
 				1
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/eventPanel/MainActDelegationBtn(Clone)",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/MainActDelegationBtn(Clone)"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/eventPanel/MainActDelegationBtn(Clone)"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -19,8 +25,8 @@ return {
 			style = {
 				text = "まずは母港依頼をこなして、調合素材を少し手に入れるわよ",
 				mode = 1,
-				posY = 197.47,
 				dir = 1,
+				posY = 197.47,
 				posX = 293.8
 			}
 		},
@@ -42,8 +48,8 @@ return {
 			}
 		},
 		{
-			alpha = 0.2,
 			waitScene = "RyzaTaskScene",
+			alpha = 0.2,
 			code = {
 				1
 			},
@@ -60,8 +66,8 @@ return {
 			style = {
 				text = "T5をクリアすることで任務完了よ！",
 				mode = 1,
-				posY = -212.73,
 				dir = 1,
+				posY = -212.73,
 				posX = 462.68
 			}
 		},
@@ -99,8 +105,8 @@ return {
 			style = {
 				text = "メイン画面に戻るわ",
 				mode = 1,
-				posY = 311.92,
 				dir = 1,
+				posY = 311.92,
 				posX = 495.66
 			}
 		}

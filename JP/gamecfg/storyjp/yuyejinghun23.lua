@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN23",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "海天",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "暗闇の中、さすがに近づいてくる相手の正体は視認できませんでしたが…",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -117,9 +117,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたはポケットに入ってる書斎の鍵の存在を思い出しました。もちろん、この部屋が書斎ではないのは分かっています",
 			typewriter = {
@@ -132,9 +132,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "でも強く信じれば、このヘンテコなキャッスルはもしかするとあなたの望みに応えてくれるかもしれません。はい",
 			typewriter = {
@@ -147,9 +147,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうして最後の望みを託したあなたは鍵を差し込み、回してみました",
 			typewriter = {
@@ -162,9 +162,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "残念です。ええ、あなたの想いが物理法則に勝てるはずがありません。違う部屋の扉は開けられませんでした",
 			typewriter = {
@@ -190,9 +190,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "考証担当KP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "シェフィールド",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたは拳銃を持っていることを思い出しました",
 			typewriter = {
@@ -205,9 +205,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "考証担当KP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "シェフィールド",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それもローズウッドグリップで型番M1873、銃身には精巧な模様が彫られているシングル・アクション・アーミーであると",
 			typewriter = {
@@ -220,9 +220,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "考証担当KP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "シェフィールド",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "優れた性能を誇るその拳銃は、余裕で鍵を壊せることでしょう",
 			typewriter = {
@@ -235,9 +235,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "考証担当KP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "シェフィールド",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ですが同時に、キャッスルに響き渡る発砲の音はすべての者にあなたの居場所を知らせることになります。本当にいいですか？",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "海天",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "扉を閉めて鍵をかけると、あなたは改めて「避難所」にしたこの部屋を観察し始めました",
 			typewriter = {
@@ -341,17 +341,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -560,9 +560,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#FF9B93",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "ロール100、91…残念です。あなたのわずかな意志力で足掻くも、あっけなく負けてしまいました",
 			typewriter = {
@@ -575,9 +575,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#FF9B93",
-			optionFlag = 2,
 			actorName = "Z2",
+			optionFlag = 2,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "ええ。俗にいう反抗期に似通った心理で、あなたは自分の意志を無視して、恐怖に屈しました",
 			typewriter = {
@@ -677,10 +677,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			nameColor = "#FF9B93",
 			actor = 9600021,
 			actorName = "サン・マルチーニョ",
-			nameColor = "#FF9B93",
+			hidePaintObj = true,
 			say = "なのに城主様の部屋で何をしているのかな…探索者？",
 			typewriter = {
 				speed = 0.05,
@@ -719,10 +719,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			nameColor = "#FF9B93",
 			actor = 9600021,
 			actorName = "サン・マルチーニョ",
-			nameColor = "#FF9B93",
+			hidePaintObj = true,
 			say = "礼儀のなってない客は感心しないぞ",
 			typewriter = {
 				speed = 0.05,
@@ -757,8 +757,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -772,9 +772,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "真面目なKP先輩",
-			nameColor = "#A9F548FF",
-			bgm = "theme-ijndailymeeting",
 			actorName = "エンタープライズ",
+			bgm = "theme-ijndailymeeting",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "寝室などプライベートな場所に関しては、部屋の主の同意を得てから入るようにと、サン・マルチーニョから注意されていたはずだ",
 			typewriter = {

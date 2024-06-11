@@ -13,8 +13,8 @@ return {
 			},
 			arg_list = {
 				targetRelativeCorrdinate = {
-					hrz = 45,
-					vrt = 0
+					vrt = 0,
+					hrz = 45
 				}
 			}
 		}

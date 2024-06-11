@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "方舟META弹幕减速",
 	time = 5,
+	name = "方舟META弹幕减速",
+	init_effect = "",
 	picture = "",
 	desc = "5s减速",
 	stack = 1,

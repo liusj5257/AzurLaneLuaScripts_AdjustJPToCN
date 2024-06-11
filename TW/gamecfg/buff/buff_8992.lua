@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "无法撤退TAG",
 	time = 0,
+	name = "无法撤退TAG",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 8992,
-	picture = "",
-	last_effect = "",
 	icon = 8992,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddTag",

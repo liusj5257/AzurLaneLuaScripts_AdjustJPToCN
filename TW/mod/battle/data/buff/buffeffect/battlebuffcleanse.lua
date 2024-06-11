@@ -4,18 +4,18 @@ slot1 = class("BattleBuffCleanse", slot0.Battle.BattleBuffEffect)
 slot0.Battle.BattleBuffCleanse = slot1
 slot1.__name = "BattleBuffCleanse"
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._buffIDList = slot0._tempData.arg_list.buff_id_list
 	slot0._check_target = slot0._tempData.arg_list.check_target
 	slot0._minTargetNumber = slot0._tempData.arg_list.minTargetNumber or 0
 	slot0._maxTargetNumber = slot0._tempData.arg_list.maxTargetNumber or 10000
 end
 
-function slot1.onTrigger(slot0, slot1, slot2, slot3)
+slot1.onTrigger = function(slot0, slot1, slot2, slot3)
 	uv0.super.onTrigger(slot0, slot1, slot2, slot3)
 
 	if slot0._check_target then

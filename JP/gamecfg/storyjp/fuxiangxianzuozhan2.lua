@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鉄血・浮島要塞E2",
 			side = 2,
 			bgName = "bg_guild_red_n",
 			dir = 1,
 			bgm = "bsm-5",
+			say = "鉄血・浮島要塞E2",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "（かかった時間は想定内。更新対象施設、浮島飛行場――できれば飛行船の格納施設も追加したかったけど）",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "（実戦に耐えうる飛行船は‥……うぅ……ふぅ、時間ね）",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_guild_red_n",
 			side = 0,
+			bgName = "bg_guild_red_n",
+			hideOther = true,
 			dir = 1,
 			actor = 406010,
 			actorName = "ヴェーザー&Z46",
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "浮島要塞の施設更新が終わった。本日より私と卿らの訓練項目に対空戦闘が加わるわ",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "艤装のコンディションをチェックして、３時間後、浮島B3に集合しなさい",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "例の「特訓」か？私からすれば遊んでいるだけに見えるけど…",
 			typewriter = {
@@ -272,13 +272,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			side = 2,
+			dir = 1,
 			say = "浮島要塞訓練エリアF",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "装甲艦 los！Los！",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,9 +329,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "P級装甲艦――プリンツ・ハインリヒは浮島要塞の訓練エリアで浮標を使って航行しながら射撃訓練（？）を行っていた。",
 			typewriter = {
 				speed = 0.05,
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			say = "――――――！！",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――――！！",
 			flashN = {
 				color = {
 					1,
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "ハインリヒの艤装――「アイゼンくん」と呼ばれた鋼鉄の巨獣の砲口が唸った。",
 			typewriter = {
 				speed = 0.05,
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "やった！アイゼンくん！",
 			typewriter = {
 				speed = 0.05,
@@ -441,8 +441,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -454,8 +454,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "（ちょっと照準の時間が想定より遅かったけど及第点ね。……って今は感心してる場合じゃないわ）",
 			typewriter = {
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "おっ、出てきた出てきた！射撃練習用の標的！",
 			typewriter = {
 				speed = 0.05,
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -561,8 +561,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "そう？ペーターはすごいと思わないの？",
 			typewriter = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "じゃあ驚いてもいいじゃない！ありがとうペーター！さて、次はあっちの――",
 			typewriter = {
 				speed = 0.05,
@@ -607,8 +607,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -620,8 +620,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "（しまった。またこのコのペースに乗せられちゃったわね…）",
 			typewriter = {
@@ -637,8 +637,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "ハインリヒ、このあとの点検と訓練なんだけど――",
 			typewriter = {
@@ -670,8 +670,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "（……………どうやら一度大人しくさせたほうがよさそうね）",
 			typewriter = {
@@ -687,11 +687,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "プリンツ・ハインリヒ、全弾はっし――って痛っ！",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,8 +702,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -712,11 +712,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/plane",
+			say = "ペーターの艦載機が投下したミニ訓練弾がハインリヒの頭に直撃した。",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
-			say = "ペーターの艦載機が投下したミニ訓練弾がハインリヒの頭に直撃した。",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,8 +730,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "ペーター！？なんでいきなり！？",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -754,9 +754,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "ハインリヒの問いを受け、ペーターは何も言わず懐中時計を取り出して掲げてみせた。",
 			typewriter = {
 				speed = 0.05,
@@ -803,8 +803,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "あわわわ！もう時間がない！アイゼンくん、ちょっと整備して早く整備エリアに戻ろう！！",
 			typewriter = {
@@ -820,9 +820,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
 			blackBg = true,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "浮島B3よ。このコ、私より先に行ってどうするつもりなの……",
 			typewriter = {

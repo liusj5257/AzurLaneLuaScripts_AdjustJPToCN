@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "伦敦改",
 	init_effect = "",
+	id = 12420,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12420,
+	color = "red",
 	icon = 12420,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				quota = 8,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				skill_id = 12421
 			}
 		}

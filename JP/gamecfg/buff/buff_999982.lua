@@ -1,7 +1,7 @@
 return {
-	time = 10,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 10,
 	picture = "",
 	desc = "高额减伤",
 	stack = 1,
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -1
+				number = -1,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -34,9 +34,9 @@ return {
 				"onBulletHitBefore"
 			},
 			arg_list = {
+				skill_id = 999981,
 				time = 2,
-				target = "TargetSelf",
-				skill_id = 999981
+				target = "TargetSelf"
 			}
 		}
 	}

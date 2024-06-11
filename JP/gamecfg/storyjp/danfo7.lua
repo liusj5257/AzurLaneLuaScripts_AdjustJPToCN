@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"デンバーの母港クエスト！\n\n<size=45>七 まっすぐな誓い</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_112",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_112",
 			bgm = "story-1",
 			actor = 102090,
 			nameColor = "#a9f548",
 			say = "こら、私と指揮官は上じゃなくてここで見ているぞ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "少女の決意（と雰囲気）をぶち壊した声――クリーブランドの声が鳴り響く。",
 			typewriter = {
 				speed = 0.05,
@@ -67,11 +67,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "あ、姉貴！？いつの間に？！",
 			dialogShake = {
 				speed = 0.09,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "そんなのあとで考えて！今は全力でぶつかっていけ！",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "最強の応援を受け、それまでの距離をとる作戦をやめて川内にぶつかっていくデンバー。",
 			typewriter = {
 				speed = 0.05,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "……行くよ！",
 			effects = {
 				{
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 302120,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302120,
+			nameColor = "#a9f548",
 			say = "なっ――！",
 			effects = {
 				{
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "強引な攻めを見せるデンバー。ギリギリでファールとは言い難いドリブルで川内のマークを躱した！",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "川内のマークを突破し、そのまま逆サイドの３Pラインからシュートを放つ。",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "虚をつかれた川内が呆然と見送る中、スパッと鮮やかな音を立ててデンバーのシュートが決まった。",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "湧き上がる歓声。こうして海上の騎士はまた一つ、試練を突破した（？）。",
 			effects = {
 				{
@@ -292,9 +292,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "クリーブランドとの挨拶を済ませ、デンバーは小走りでこちらに近づいてきた。",
 			effects = {
 				{
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "姉貴の声を聞いて、二人が見ていることを思ったら、すごく力が湧いてきて！",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "デンバーはそう言うと、満面の笑みを浮かべてみせる。",
 			typewriter = {
 				speed = 0.05,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "こちらが照れてしまうほどの『まっすぐな誓い』だ。その想いに応えるべく、デンバーの手を強く握った。",
 			typewriter = {
 				speed = 0.05,
@@ -462,9 +462,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "どこまでもまっすぐな想いのデンバー。彼女の試練（クエスト）は今日も続いている。",
 			typewriter = {
 				speed = 0.05,

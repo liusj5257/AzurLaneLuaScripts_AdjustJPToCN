@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022围剿小斯佩 BOSS跨射",
 	time = 3,
-	color = "blue",
+	name = "2022围剿小斯佩 BOSS跨射",
+	init_effect = "",
+	id = 200097,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200097,
+	color = "blue",
 	icon = 200097,
 	last_effect = "",
 	effect_list = {

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "毛系V3 EX空袭反制 启动BUFF",
 	time = 0,
+	name = "毛系V3 EX空袭反制 启动BUFF",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 8926,
-	picture = "",
-	last_effect = "",
 	icon = 8926,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

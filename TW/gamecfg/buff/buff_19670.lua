@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19670,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19670,
+	color = "red",
 	icon = 19670,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 19670,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				index = {
 					1
 				},
@@ -46,10 +46,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 19671,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				index = {
 					2
 				},
@@ -65,10 +65,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 19670,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				index = {
 					1
 				},
@@ -84,10 +84,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 19671,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				index = {
 					2
 				},
@@ -104,9 +104,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
+				nationality = 1,
 				exceptCaster = true,
 				skill_id = 19672,
-				nationality = 1,
 				check_target = {
 					"TargetPlayerMainFleet",
 					"TargetNationalityFriendly"

@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
+			soundeffect = "event:/battle/boom2",
 			bgm = "login-2022401us",
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = "main1",
 			say = "Hah! Is that all? Thou think this will hold back the unsurpassable vampire?",
 			painting = {
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 201233,
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "I summon thee, my minions! Give these impudent humans sweet, eternal release!",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Winged Slimejuu Herd",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "CHIRP CHIIIRP!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 1.7,
 					name = "props/story_youyishilaimu",
+					time = 1.7,
 					path = {
 						{
 							-1500,
@@ -219,9 +219,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 201233,
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Heh. Not giving me any openings, are thee?",
@@ -234,17 +234,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "I shall deal with thou first, leader of this party!",
 			painting = {
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2500
@@ -280,25 +280,25 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "Commander",
+			nameColor = "#A9F548FF",
 			say = "She's finally taken the bait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "The vampire comes charging straight toward me... and springs the trap that the maid laid before she left this world.",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "Then everything stops. Time is frozen.",
 			typewriter = {
 				speed = 0.05,
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "My... body... I can't move!",
 			painting = {
@@ -377,17 +377,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Say goodnight, vampire!",
 			painting = {
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
-			nameColor = "#FF9B93",
 			factiontag = "The Perfect & Ultimate Vampire",
 			dir = 1,
+			actor = 201233,
+			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Damn you, humaaans!",
 			painting = {
@@ -429,27 +429,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "Now, all three of the Demon King's bases have been destroyed.",
 			bgm = "story-mmorpg",
+			say = "Now, all three of the Demon King's bases have been destroyed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "My Blessing of Light repels the wretched curse, restoring life to the Wasteland.",
 			typewriter = {
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "If you ever need assistance, we will always answer your call.",
@@ -561,11 +561,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As such, I doubt we will see each other for a short while.",
@@ -617,13 +617,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "Sheffield & Seydlitz",
+			side = 0,
 			bgName = "star_level_bg_176",
-			hidePaintObj = true,
+			hideOther = true,
 			actor = 202084,
 			nameColor = "#A9F548FF",
-			side = 0,
+			hidePaintObj = true,
 			say = "We will come to your aid!",
 			subActors = {
 				{
@@ -640,8 +640,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

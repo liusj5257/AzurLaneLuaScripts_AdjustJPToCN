@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE11",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhedie_3",
-			bgm = "theme-aostelab",
-			stopbgm = true,
-			bgmDelay = 2,
-			say = "轟————————！",
+			side = 2,
 			soundeffect = "event:/battle/boom2",
+			bgmDelay = 2,
+			bgm = "theme-aostelab",
+			bgName = "bg_zhedie_3",
+			stopbgm = true,
+			say = "轟————————！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "很好。報告指揮官，我們的艦載機群已經消滅了全部全部標記目標，藍方的指揮系統已經陷入混亂。",
 			painting = {
 				alpha = 0.3,
@@ -107,10 +107,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "敵方的攻勢減弱了，我們可以乘勝追擊嗎？",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "沒問題，按照先前標記的目標威脅等級照順序依次解決。",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "一次性吃掉了藍方的主力艦隊，確實是重大的階段性勝利。",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "但奇怪的是，曼非斯那邊卻沒有做出任何回應。",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "這是一個危險訊號，表明曼非斯已經轉換了策略。",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "也許該換位思考一下，既然我們能發現藍方艦隊的弱點，那自然反過來也是可行的。",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "紅方的缺點其實相當明顯，雖然擁有強大的航空力量，但護衛力量則是壓倒性的不足。",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "而護衛艦不足，必然會導致某些問題……",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "對空方面可以用航空力量去補，但是水下方面……",
 			typewriter = {
@@ -319,10 +319,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官，本次打擊行動已經全部結束，藍方的主力艦隊已被全數消滅，我方的艦載機損失超過四成，但無一人受傷。",
 			painting = {
 				alpha = 0.3,
@@ -334,12 +334,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "目前尚未看到藍方展開反擊，請問下一步行動計畫？",
 			painting = {
 				alpha = 0.3,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "轉換作戰隊形。蘭利與約克鎮立即動身前往北安普敦與大黃蜂的所在地。",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "哈曼返回指揮艦所在位置，接替蘭利承擔指揮艦的護衛職責。",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "同時，用電子戰設備隱藏哈曼的訊號並模擬出一個正在與妳們一同行動的哈曼。",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "……這件事可以做到嗎？",
 			typewriter = {
@@ -391,12 +391,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沒問題，包在我身上吧。",
 			painting = {
 				alpha = 0.3,
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "如果我心中隱約的懷疑沒錯的話……值得一試。",
 			typewriter = {
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "約克鎮，不要忘了這場演習的勝負判斷標準哦。",
 			typewriter = {
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
-			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官，偵測到一批新的敵軍訊號，藍方看來投入了隱藏許久的後備部隊，正在向指揮艦的方向襲來。",
 			painting = {
 				alpha = 0.3,
@@ -502,8 +502,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "但是一旦暴露就沒什麼可怕的，諸位還是按照剛才的作戰方式，讓戰鬥進入第二回合吧——",
 			typewriter = {

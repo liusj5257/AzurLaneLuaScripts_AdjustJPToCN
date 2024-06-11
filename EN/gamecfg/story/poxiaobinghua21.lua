@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			say = "We stepped into another room, this one even bigger than the command room we found earlier.",
 			dir = 1,
 			bgm = "deepblue-image",
+			nameColor = "#a9f548",
+			say = "We stepped into another room, this one even bigger than the command room we found earlier.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "Hundreds of seats lined both sides of what appears to be an auditorium, its roof well over 20 or even 30 meters above the floor. At the far opposite end of the room, there was a podium.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "A few enormous monitors hanged on the wall behind it. These ones were turned off, projecting not a thing.",
@@ -105,8 +105,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "It's not hard to imagine they simply switched off the power here after they'd evacuated everyone.",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "I really hope we'll get to see her soon~",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "That can be arranged. We could throw a party as soon as she gets back.",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Ooh, a party! Wouldn't that be nice, Gremyashchy?",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "It'd be cool. Mm, that's all.",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "The commander especially should know how that feels.",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "I see how that could be off-putting, but we're all friends, aren't we? You shouldn't have to feel nervous in front of your friends.",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "\"When you're in my position, you sometimes don't have a choice. I at least know how you feel.\"",
@@ -271,8 +271,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Oh, you poor thing. It is part of your job though, so don't expect to garner too much sympathy.",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "Tallinn threw me a cold remark, but interestingly, followed it up with a friendly smile.",
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "It's easy to forget how influential you actually are from the way you talk, but I appreciate how easygoing and approachable you are.",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "\"Since my job also includes even more stressful things like negotiating with faction leaders, it helps to make a good impression on others...\"",
@@ -335,8 +335,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Now you've got me interested~ I don't think I've ever seen you giving a public speech though~",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "\"True, but I think we've gone completely off-topic at this point. Let's get back on track and have a look around the auditorium.\"",
@@ -383,8 +383,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "We're just chatting! What's wrong with that? As I was gonna say... Don't you ever wish you got more recognition for all your hard work?",
 			typewriter = {
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "I mean, I can only imagine how tough your job is. You must work day and night to make sure everything goes smoothly, right?",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "Rather than acknowledge Murmansk with a response, I instead pulled back an empty chair at a desk and examined its spine.",
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "It looked a lot like the chairs we sat in during a meeting at Naval HQ quite some time ago. They had buttons on the back that would power on the screens.",
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_cccpv2_9",
 			stopbgm = true,
 			dir = 1,
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = ".........",
 			typewriter = {
 				speed = 0.05,

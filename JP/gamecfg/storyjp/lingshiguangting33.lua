@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGSHIGUANGTING33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINGSHIGUANGTING33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "ロイヤル艦隊の奮戦により、黒い竜巻より出現した「敵」は悉く撃破されていった。",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-camelot",
+			say = "ロイヤル艦隊の奮戦により、黒い竜巻より出現した「敵」は悉く撃破されていった。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "「扉」を通過した敵はないが、しかしながら敵の波状攻撃の手は依然として激しいままだ。",
 			typewriter = {
 				speed = 0.05,
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "すっきりするようなこの気持ち…うんうん、ここまで発散できるのって本当に久しぶり！",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "楽しんでいるとも。ロイヤルナイトたるもの、やっぱり戦場で剣を振るうのが本懐でしょ？",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "そうね。それでも物足りないときは後で手合わせに付き合ってもらえる？",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "どうかな。いつ撤退すればいいかわからないし、まずは目の前の戦いに集中集中！",
 			typewriter = {
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			say = "――――！！",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！",
 			flashN = {
 				color = {
 					1,
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			say = "――――！！",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！",
 			flashN = {
 				color = {
 					1,
@@ -417,8 +417,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "無視すんじゃねぇコンチクショー！！！",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -444,8 +444,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "人が見ていない隙に逃げやがって！まだまだこっちの話は終わってないぜ！",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "こっちだって無限の艦隊とスペアボディがあるんだ！気が済むまで戦ってやるぜ！",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			nameColor = "#ffff4d",
 			say = "人の実験場をめちゃくちゃにしやがって！ゆるさねぇぞ！",
 			typewriter = {
@@ -495,8 +495,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "ピュリファイアー！竜巻に倒されたんじゃ…",
 			typewriter = {
@@ -512,8 +512,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "奴ら上位個体はスペアボディさえあれば再生できるわ！何度倒しても湧いてくるのよ！",
 			typewriter = {
@@ -545,8 +545,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "座標は安定している……今のうちに逃げるわよ！",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#a9f548",
 			say = "全艦がスカパ・フローに帰還次第「キャメロット」の座標を消す！二度と追ってこさせないわ！",
 			typewriter = {
@@ -576,9 +576,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "エリザベスの号令で、艦船たちは次々と扉を入り、そして――",
 			typewriter = {
 				speed = 0.05,
@@ -590,9 +590,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
+			dir = 1,
 			say = "最後の一隻が彼方へ消えるとともに、エネルギーの供給が中断された巨大な「扉」はまるで最初からなかったかのように鏡面海域から消失した。",
 			flashin = {
 				delay = 1,
@@ -619,9 +619,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_9",
+			dir = 1,
 			say = "黒い竜巻も、追う相手を見失い戦意がなくなったのか、しばらくすると勢いが急速に弱まっていき、やがてその姿を消した。",
 			effects = {
 				{

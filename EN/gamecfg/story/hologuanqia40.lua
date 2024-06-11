@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA40",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA40",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			actorName = "Sh I On",
-			actor = 10500060,
 			dir = 1,
+			bgm = "holo-control",
+			actor = 10500060,
 			nameColor = "#ff5c5c",
 			say = "C'mon, pay attention when people are talking to you, you grade schooler baby!",
-			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 1,
 					dur = 0.7,
 					x = 0
@@ -35,9 +35,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Who're you calling a grade schooler?! You STUPID MORONIC IDIOT!",
 			flashout = {
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Farewell, Honest Shion...",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "The hell are you bidding farewell to my clone for?! I'll destroy you!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "Huh?! We're talking about the enemy! Shouldn't you be happy that the enemy's weak?",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "For some reason, it seems that the fake versions of all of us, Miss Sora excluded, have just been the victims of public executions...",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "Ahh, that's because all of these are facets that we've broadcasted of ourselves.",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "We still haven't encountered a fake version of me... Exactly what kind of character could it be... I'm become scared to find out...",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Heeeh~ That's totally strange~ I wonder which aspect of Purifier I'm supposed to reflect~",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Yeah, yeah. But seriously, I'm totally intrigued by this~ Y'know, stuff like passionate, INTEEEEEEENSE friendship, or a burning, intense development, or somethin'?",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "I think I can sense some hope now!",
 			typewriter = {
 				speed = 0.05,

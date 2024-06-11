@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX007A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX007A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Entering allied port.",
 			typewriter = {
 				speed = 0.05,

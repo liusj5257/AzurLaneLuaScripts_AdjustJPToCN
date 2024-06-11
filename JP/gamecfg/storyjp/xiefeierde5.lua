@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"銃弾と、愛を込めて\n\n<size=45>五 お掃除代行</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "母港・自室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "て、敵襲か！？！？！？",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "て、敵襲か！？！？！？",
+			bgm = "story-1",
 			dialogShake = {
 				speed = 0.09,
 				delay = 0.5,
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#a9f548",
 			say = "シェフィールドの顔が目に映る。どうやら彼女の銃砲で起こされたようだ",
 			typewriter = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "ご主人様の部屋もさぞ執務室と同じく散らかっているに違いありません。掃除を具申します",
 			effects = {
 				{
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そういえば確かにシェフィールドに掃除をお願いした気がする。",
 			effects = {
 				{
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "さっきから妙にいい匂いがしたのはそれか。",
 			typewriter = {
 				speed = 0.05,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……彼女の言う通り、豪勢ではないものの、味自体は美味しかった。",
 			typewriter = {
 				speed = 0.05,
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -338,9 +338,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "あれこれ言われながらも、シェフィールドのおかげで部屋が綺麗に掃除された。",
 			typewriter = {
 				speed = 0.05,
@@ -374,12 +374,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "ご主人様との会話が増えていますので、呼びやすいように「シェフィ」でかまいません",
 			typewriter = {
 				speed = 0.05,

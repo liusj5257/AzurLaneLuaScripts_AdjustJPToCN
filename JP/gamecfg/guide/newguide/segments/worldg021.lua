@@ -24,9 +24,9 @@ return {
 			style = {
 				text = "マップ外の空間をタップすると、「エリア一覧」画面に切り替えられます。",
 				mode = 2,
-				posY = -160,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -160,
 				posX = 450
 			},
 			showSign = {
@@ -67,9 +67,9 @@ return {
 			style = {
 				text = "エリア一覧モードでは、艦隊をエリアに移動することが可能です",
 				mode = 2,
-				posY = -300,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -300,
 				posX = 200
 			},
 			showSign = {
@@ -113,9 +113,9 @@ return {
 			style = {
 				text = "赤く表示されているのはストーリーを進行できるエリアです。エリアを確保して、ストーリーを進めましょう。",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 0,
 				posX = 300
 			}
 		},
@@ -124,9 +124,9 @@ return {
 			style = {
 				text = "ここをタップし、メイン画面に戻ってください",
 				mode = 2,
-				posY = 245.23,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 245.23,
 				posX = -552.4
 			},
 			ui = {
@@ -135,11 +135,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -76.32,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 238.9,
-					rotateY = 0
+					posX = -76.32
 				}
 			}
 		},

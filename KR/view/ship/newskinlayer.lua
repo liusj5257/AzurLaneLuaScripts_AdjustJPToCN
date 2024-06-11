@@ -3,24 +3,24 @@ slot0.PAINT_DURATION = 0.35
 slot0.STAR_DURATION = 0.5
 slot1 = 19
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewSkinUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot3 = pg.ship_skin_template[slot0.contextData.skinId]
 	slot7 = nil
 	slot7 = (not slot3.bg_sp or slot3.bg_sp == "" or slot3.bg_sp) and (slot3.bg and #slot3.bg > 0 and slot3.bg or slot3.rarity_bg and #slot3.rarity_bg > 0 and slot3.rarity_bg)
 
-	GetSpriteFromAtlasAsync(slot7 and "bg/star_level_bg_" .. slot7 or "newshipbg/bg_" .. (ShipGroup.IsBluePrintGroup(slot4) and "0" or "") .. ShipRarity.Rarity2Print(pg.ship_data_statistics[slot3.ship_group * 10 + 1].rarity), "", slot1)
+	GetSpriteFromAtlasAsync(slot7 and "bg/star_level_bg_" .. slot7 or "newshipbg/bg_" .. shipRarity2bgPrint(pg.ship_data_statistics[slot3.ship_group * 10 + 1].rarity, ShipGroup.IsBluePrintGroup(slot4), ShipGroup.IsMetaGroup(slot4)), "", slot1)
 end
 
-function slot0.setShipVOs(slot0, slot1)
+slot0.setShipVOs = function(slot0, slot1)
 	slot0.shipVOs = slot1
 	slot0.sameShipVOs = slot0:getSameGroupShips()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._shake = slot0:findTF("shake_panel")
 	slot0._shade = slot0:findTF("shade")
 	slot0._bg = slot0._shake:Find("bg")
@@ -57,7 +57,7 @@ function slot0.init(slot0)
 	slot0.isLoadBg = false
 end
 
-function slot0.voice(slot0, slot1)
+slot0.voice = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -69,7 +69,7 @@ function slot0.voice(slot0, slot1)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1)
 end
 
-function slot0.stopVoice(slot0)
+slot0.stopVoice = function(slot0)
 	if slot0._currentVoice then
 		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(slot0._currentVoice)
 	end
@@ -77,7 +77,7 @@ function slot0.stopVoice(slot0)
 	slot0._currentVoice = nil
 end
 
-function slot0.setSkin(slot0, slot1)
+slot0.setSkin = function(slot0, slot1)
 	slot0.cg = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.cg.alpha = 0
 
@@ -85,7 +85,7 @@ function slot0.setSkin(slot0, slot1)
 
 	slot0._shade:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 1)
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot1))) then
+	if checkABExist("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot1)) then
 		slot0:playOpening(function ()
 			uv0:setSkinPri(uv1)
 		end, slot2)
@@ -94,7 +94,7 @@ function slot0.setSkin(slot0, slot1)
 	end
 end
 
-function slot0.setSkinPri(slot0, slot1)
+slot0.setSkinPri = function(slot0, slot1)
 	slot2 = slot0:loadUISync("getrole")
 	slot2.layer = LayerMask.NameToLayer("UI")
 	slot2.transform.localPosition = Vector3(0, 0, -10)
@@ -125,7 +125,7 @@ function slot0.setSkinPri(slot0, slot1)
 			uv0.isLoadBg = true
 		end)
 	else
-		GetSpriteFromAtlasAsync("newshipbg/bg_" .. (ShipGroup.IsBluePrintGroup(slot3) and "0" or "") .. ShipRarity.Rarity2Print(slot4.rarity), "", function (slot0)
+		GetSpriteFromAtlasAsync("newshipbg/bg_" .. shipRarity2bgPrint(slot4.rarity, ShipGroup.IsBluePrintGroup(slot3), ShipGroup.IsMetaGroup(slot3)), "", function (slot0)
 			setImageSprite(uv0._staticBg, slot0, true)
 
 			uv0.isLoadBg = true
@@ -161,7 +161,7 @@ function slot0.setSkinPri(slot0, slot1)
 	end))
 end
 
-function slot0.showExitTip(slot0)
+slot0.showExitTip = function(slot0)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("give_up_cloth_change"),
 		onYes = function ()
@@ -170,7 +170,7 @@ function slot0.showExitTip(slot0)
 	})
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.shipName = pg.ship_skin_template[ShipWordHelper.GetDefaultSkin(slot0.contextData.skinId)].name
 
 	onButton(slot0, slot0._viewBtn, function ()
@@ -201,7 +201,7 @@ function slot0.didEnter(slot0)
 	slot0:onSwitch(slot0.changeSkinBtn, table.getCount(slot0.sameShipVOs) > 0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if slot0.isInView then
@@ -221,7 +221,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.onSwitch(slot0, slot1, slot2)
+slot0.onSwitch = function(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		if uv0 then
 			uv1:openSelectPanel()
@@ -231,7 +231,7 @@ function slot0.onSwitch(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.getSameGroupShips(slot0)
+slot0.getSameGroupShips = function(slot0)
 	slot1 = {}
 	slot3 = pg.ship_skin_template[slot0.contextData.skinId].ship_group
 
@@ -248,7 +248,7 @@ function slot0.getSameGroupShips(slot0)
 	return slot1
 end
 
-function slot0.paintView(slot0)
+slot0.paintView = function(slot0)
 	slot1 = {}
 	slot2 = slot0._shake.childCount
 	slot3 = 0
@@ -317,7 +317,7 @@ function slot0.paintView(slot0)
 		uv0:hidePaintView()
 	end, SFX_CANCEL)
 
-	function uv0.hidePaintView(slot0, slot1)
+	uv0.hidePaintView = function(slot0, slot1)
 		if not slot1 and not uv0 then
 			return
 		end
@@ -347,13 +347,13 @@ function slot0.paintView(slot0)
 	end
 end
 
-function slot0.recyclePainting(slot0)
+slot0.recyclePainting = function(slot0)
 	if slot0._shipVO then
 		retPaintingPrefab(slot0._paintingTF, slot0._shipVO:getPainting())
 	end
 end
 
-function slot0.openSelectPanel(slot0)
+slot0.openSelectPanel = function(slot0)
 	removeAllChildren(slot0.shipContent)
 
 	slot0.isOpenSelPanel = true
@@ -435,7 +435,7 @@ function slot0.openSelectPanel(slot0)
 	end)
 end
 
-function slot0.updateShipCards(slot0)
+slot0.updateShipCards = function(slot0)
 	slot1 = pairs
 	slot2 = slot0.shipCards or {}
 
@@ -446,7 +446,7 @@ function slot0.updateShipCards(slot0)
 	end
 end
 
-function slot0.closeSelectPanel(slot0)
+slot0.closeSelectPanel = function(slot0)
 	if slot0.isOpenSelPanel then
 		slot0.isOpenSelPanel = nil
 
@@ -455,7 +455,7 @@ function slot0.closeSelectPanel(slot0)
 	end
 end
 
-function slot0.playOpening(slot0, slot1, slot2)
+slot0.playOpening = function(slot0, slot1, slot2)
 	slot3 = pg.CpkPlayMgr.GetInstance()
 
 	slot3:PlayCpkMovie(function ()
@@ -468,7 +468,7 @@ function slot0.playOpening(slot0, slot1, slot2)
 	})
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
 	pg.TipsMgr.GetInstance():ShowTips(i18n("ship_newSkinLayer_get", pg.ship_data_statistics[slot0._skinConfig.ship_group * 10 + 1].name, slot0._skinConfig.name), COLOR_GREEN)
 	slot0:recyclePainting()

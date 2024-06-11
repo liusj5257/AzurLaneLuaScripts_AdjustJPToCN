@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-tiancheng",
 			say = "空母型のセイレーンが撃破され、指揮するユニットがなくなったからか、敵機が次々と対空砲火に落とされた。",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "生き残った敵機は艦隊を奇襲するチャンスを伺うように、対空砲火が届かない高度まで逃げ込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "母港に帰還したらその対策も考えないと…専用の兵装研究も急務ですね……げほげほ！",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "天城は急に咳き込む。",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "天城、お前――",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "時間が…ありません……ここから早く、離れないと……",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "話が終わらないうちに、天城はまるで糸の切れた人形のように倒れ込み――",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "倒れる直前に、加賀に抱き抱えられた",
 			typewriter = {
 				speed = 0.05,
@@ -153,9 +153,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "おい！天城！しっかりしろ！",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -179,9 +179,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "天城！！",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "味方艦隊の指揮艦が戦闘不能になった――この大きな隙をセイレーンは逃すはずがない。",
 			typewriter = {
 				speed = 0.05,
@@ -216,10 +216,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "爆音、そして閃光――",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "倒れた天城を守るよう、加賀が盾になって爆撃機の爆弾をそのまま側面装甲で受けた。",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "げほげほ……躱せる…はずなのに…",
 			typewriter = {
 				speed = 0.05,
@@ -306,10 +306,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "ドカーン！！",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "再び現れたセイレーンの攻撃隊は執拗に加賀と天城を攻撃し続けた。",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "…くっ！手強い！",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "弾薬不足で対空砲火も手薄になり、加賀と天城の周りに次々と至近弾の水柱が出来上がる。",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "このままでは全滅だぞ…！どうすれば…！",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -423,8 +423,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "天城、私は一体どうすればいい！",
 			typewriter = {
 				speed = 0.05,
@@ -439,8 +439,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "あと…もう少し…",
 			typewriter = {
 				speed = 0.05,
@@ -454,9 +454,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "もう少しとはなんだ！おい！天城！",
 			typewriter = {
 				speed = 0.05,
@@ -468,8 +468,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "状況はまさに八方塞がり。空母との戦法をまだ十分確立出来ていなかった大艦巨砲主義の申し子たちは、航空攻撃には根本的に無力だった",
 			typewriter = {
 				speed = 0.05,
@@ -493,10 +493,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 305070,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 305070,
+			nameColor = "#a9f548",
 			say = "最初から私を探しに来なければ、お前たちは…！",
 			typewriter = {
 				speed = 0.05,
@@ -508,8 +508,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「心の弱い自分だけでなく、助けに来た仲間の命まで無駄にした」",
 			typewriter = {
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "屈辱的な結末を、今まさに受け入れようとしたその瞬間―――",
 			typewriter = {
@@ -536,10 +536,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/plane",
 			say = "それは複葉を有する、秋津（あきつ）の援軍なり――",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,8 +553,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "げほげほ…間に合いましたわね……",
 			typewriter = {
 				speed = 0.05,
@@ -566,8 +566,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "まるで曇り空をかき分けたかのように現れた複数の複葉機に、",
 			typewriter = {
 				speed = 0.05,
@@ -579,8 +579,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーンの異型なる艦載機は不意打ちされ、瞬く間に全機撃墜された。",
 			typewriter = {
 				speed = 0.05,
@@ -595,8 +595,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "こいつらは……？",
 			typewriter = {
 				speed = 0.05,
@@ -641,8 +641,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "だが一体どうやって私たちの場所を…？",
 			typewriter = {
 				speed = 0.05,
@@ -657,8 +657,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "そうですね…出発の前に、偵察機の連絡が途絶えたら、その方向に直掩隊を送るようにと……",
 			typewriter = {
 				speed = 0.05,
@@ -673,8 +673,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "私たちも空母を運用し始めていますから…セイレーンも……",
 			typewriter = {
 				speed = 0.05,
@@ -701,8 +701,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

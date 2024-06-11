@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK49903",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK49903",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			say = "There's no need to be so flustered. If you've done something that's praiseworthy, it's only right that you're praised for it. Wouldn't you agree?",
 			typewriter = {
 				speed = 0.05,

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI10",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -39,10 +39,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...들었던 정보보다 훨씬 심각하군요. 이게 바로 거울 해역의 이상 기후인 것 같습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -102,10 +102,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "와—————— 이, 이게 뭐람!",
 			typewriter = {
 				speed = 0.05,
@@ -120,10 +120,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "설마 저 벽은... 미궁? 신화 속 대미궁이 나타난 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "크노소스 미궁... 신화보다 훨씬 더 과장된 모습으로 나타났어요. 세이렌의 기술은 정말 놀랍네요...",
 			typewriter = {
 				speed = 0.05,
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이런 미궁은 신기루와 같은 것일지도 모릅니다만... 아퀼라, 함재기로 미궁 벽을 조사해보도록 하죠.",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "다른 사람들은 즉시 전자기기의 상태를 점검하고 주변 환경을 정찰하도록 합시다.",
 			typewriter = {
 				speed = 0.05,
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "모두들",
+			side = 0,
 			bgName = "bg_italyv2_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "라져!",
 			dialogShake = {
 				speed = 0.09,

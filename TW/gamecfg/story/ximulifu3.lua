@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"祈願與祝福之宴\n\n<size=45>三　與君共舞</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "宴會場的一隅——",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "宴會場的一隅——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,10 +69,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "沒什麼不好吧，挺適合妳的不是嗎，克里夫蘭？",
+			dir = 1,
+			actor = 102052,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -138,8 +138,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
 			dir = 1,
+			actor = 102052,
 			nameColor = "#a9f548",
 			say = "這可是發自內心的讚揚呀～",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 0,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102092,
+			nameColor = "#a9f548",
 			say = "嗚…我姑且也是女孩子啦……",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -181,11 +181,11 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
 			dir = 1,
+			bgm = "bsm-7",
+			actor = 102052,
 			nameColor = "#a9f548",
 			say = "這是…音樂聲？到了舞會的環節了嗎",
-			bgm = "bsm-7",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 0,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102092,
+			nameColor = "#a9f548",
 			say = "…美麗的小姐，我能請妳跳一支舞嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -25,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
 			dir = 1,
+			actor = 102052,
 			nameColor = "#a9f548",
 			say = "…噗，呵呵呵，這是我的榮幸～",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_115",
-			actor = 102052,
 			dir = 1,
 			blackBg = true,
+			actor = 102052,
 			nameColor = "#a9f548",
 			say = "妳可要好好引導我哦，帥氣的“騎士大人”～",
 			typewriter = {

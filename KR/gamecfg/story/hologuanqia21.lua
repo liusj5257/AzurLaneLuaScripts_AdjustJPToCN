@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA21",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500030,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-control",
 			dir = 1,
 			say = "이쪽은… 후부키의 흰 여우 신사가 있는 곳인데…… 아, 있다 있다! 저기!",
+			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "소라 선배!",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			say = "에, 아쿠아? 여기에도 아쿠아, 저기에도 아쿠아…… 어떻게 된 일이지?",
 			typewriter = {
 				speed = 0.05,
@@ -71,9 +71,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "저쪽이 가짜야, 소라 선배! 내가 진짜라고오!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,9 +97,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "에에에?",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "복사?",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "미나토 아쿠아(?)",
 			dir = 1,
+			actorName = "미나토 아쿠아(?)",
 			say = "내 이름은 야마다 헤르미온느. 시간과 공간의 지배자님의 명령을 받들어 너희를 기다리고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			actorName = "야마다·헤르미온느",
 			say = "필요 없다. 너희는 주인님이 주신 기회를 갖지 못할테니까.",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			actorName = "야마다·헤르미온느",
 			say = "나, 야마다 헤르미온느. 주인님의 명을 받들어 너희를 처리하겠다!",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900210,
 			dir = -1,
+			actor = 900210,
 			say = "에, 아쿠아. 이러면 안돼!",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "야마다·헤르미온느",
 			dir = 1,
+			actorName = "야마다·헤르미온느",
 			say = "막지 마, 소라 선배. 이들을 처리하는 건 내 일이야.",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = -1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "아쿠아는 그런 말 안 해!",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -353,8 +353,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "야마다·헤르미온느",
 			dir = 1,
+			actorName = "야마다·헤르미온느",
 			say = "……아쿠아, 아니, 나는 안 그런다고?",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			expression = 1,
 			side = 1,
 			actor = 10500030,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			actorName = "야마다·헤르미온느",
 			say = "아니, 해! 왜냐면 나도 미나토 아쿠아니까.",
 			effects = {
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,10 +399,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
+			actor = 307060,
 			say = "적의가 올라가는걸…… 저기, 아쿠아. 네가 못 하겠으면 보고 있으라고. 괜찮아.",
 			effects = {
 				{
@@ -423,8 +423,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "야마다 헤르미온느…… 망할 세이렌, 지옥의 암흑 ○혼, ○ 늑대, ○○○ 제조에서 살아남은 전투 메이드를 얕보지 말라고!",
 			typewriter = {
 				speed = 0.05,
@@ -438,9 +438,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "신경쓰지마. 적은 적! 마음껏 싸우라고!",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

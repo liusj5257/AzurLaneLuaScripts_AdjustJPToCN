@@ -1,12 +1,12 @@
 slot0 = class("BeginStageCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	ys.Battle.BattleGate.Gates[slot2.system].Entrance(slot2, slot0)
 end
 
-function slot0.RequestFailStandardProcess(slot0, slot1)
+slot0.RequestFailStandardProcess = function(slot0, slot1)
 	if slot1.result == 10 then
 		pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[10])
 	else
@@ -15,7 +15,7 @@ function slot0.RequestFailStandardProcess(slot0, slot1)
 	end
 end
 
-function slot0.SendRequest(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.SendRequest = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	pg.ConnectionMgr.GetInstance():Send(40001, {
 		system = slot0,
 		ship_id_list = slot1,
@@ -31,7 +31,7 @@ function slot0.SendRequest(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-function slot0.DockOverload()
+slot0.DockOverload = function()
 	if getProxy(PlayerProxy):getData():getMaxShipBag() <= getProxy(BayProxy):getShipCount() then
 		NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
@@ -41,7 +41,7 @@ function slot0.DockOverload()
 	return false
 end
 
-function slot0.LegalFleet(slot0)
+slot0.LegalFleet = function(slot0)
 	if getProxy(FleetProxy):getFleetById(slot0) == nil or slot2:isEmpty() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_fleetEmpty"))
 
@@ -59,7 +59,7 @@ function slot0.LegalFleet(slot0)
 	return true
 end
 
-function slot0.ShipVertify()
+slot0.ShipVertify = function()
 	for slot5, slot6 in pairs(getProxy(BayProxy):getRawData()) do
 		if not slot6:attrVertify() then
 			BattleVertify.playerShipVertifyFail = true

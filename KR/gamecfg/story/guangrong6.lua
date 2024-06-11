@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"영광스런 간주곡\n\n<size=45>제6장　그녀에게 영광이란 (상)</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "하아, 하아……여긴 이걸로 일단락되었네요……",
 			bgm = "story-1",
+			actor = 207060,
+			nameColor = "#92fc63",
+			say = "하아, 하아……여긴 이걸로 일단락되었네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "전체 작업량의 약 절반 정도를 마치고 나서, 글로리어스는 피곤하다는 듯이 커다란 장비에 몸을 기댔다.",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#92fc63",
 			say = "원래 아덴트와 아카스타도 와주길 바라진 않았지만, 그 아이들이 막무가내로 돕겠다고 나서는 바람에…",
 			typewriter = {
 				speed = 0.05,
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "글로리어스, 무리하게 강한 척 하는구나……그렇다면……",
 			typewriter = {
 				speed = 0.05,
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 207060,
+			nameColor = "#92fc63",
 			say = "설령 지휘관님의 명령이라도……그건……!",
 			typewriter = {
 				speed = 0.05,

@@ -19,9 +19,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "副炮射程主炮暴击率",
 	time = 0,
+	name = "副炮射程主炮暴击率",
+	init_effect = "",
 	picture = "",
 	desc = "副炮射程主炮暴击概率",
 	stack = 1,

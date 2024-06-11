@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U473",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U473",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"溫柔、安靜又溫暖\n\n<size=45>三  禮物</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 408020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官，這個給你。",
 			bgm = "story-1",
+			actor = 408020,
+			nameColor = "#a9f548",
+			say = "指揮官，這個給你。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "翌日，U-47又來了。而且這次帶來了一盒牛奶。",
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "包裝上畫了一頭威風的牛，感覺喝下去就能變強（？）",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "原來如此……心懷感謝的打開了包裝——裡面卻沒有吸管。",
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47說完話後，就開始在書架上物色著今天的閱讀目標。看來要在沒有吸管的情況下自己想辦法了……",
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "利用刀子和杯子化解了危機後，品嚐了一口——跟普通的牛奶簡直是天壤之別，實在是太美味了！",
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "目前還沒有特別需要U-47幫忙的事……不過既然有這份心的話，詢問一下她擅長的事情好了。",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "……看來暫時沒有她發揮特長的機會了。",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "在搜尋了一會後，她從書架上取下了一本書。",
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "今天最終決定的目標是————",
@@ -283,8 +283,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "《軍港紀念郵票集》",
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47拿著書來到了昨天的沙發上，然後默默開始了閱讀。",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "雖然這本書是我特意準備好混進去的，但沒想到她真的很感興趣。",
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "不……也不是說讓你開始跟我聊天的意思。我喜歡安靜，保持現狀就好。",
 			typewriter = {
 				speed = 0.05,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47沒有再多說什麼，全身心投入了閱讀之中。",
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

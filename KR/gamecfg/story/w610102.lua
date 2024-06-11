@@ -1,15 +1,15 @@
 return {
-	id = "W610102",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610102",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "분석 모듈 동기화 중: 지휘관님, 해역의 세이렌 통제력이 80% 이하로 하락하면, 해당 장치가 효력을 잃게됩니다.",
 			typewriter = {
 				speed = 0.05,

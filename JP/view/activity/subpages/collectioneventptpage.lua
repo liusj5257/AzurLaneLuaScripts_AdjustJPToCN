@@ -1,6 +1,6 @@
 slot0 = class("CollectionEventPtPage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.helpBtn = slot0:findTF("help", slot0.bg)
 	slot0.shopBtn = slot0:findTF("shop", slot0.bg)
@@ -10,11 +10,11 @@ function slot0.OnInit(slot0)
 	slot0.resNum = slot0:findTF("num", slot0.resTF):GetComponent(typeof(Text))
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.shopId = slot0.activity:getConfig("config_client").shopActID
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -37,7 +37,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.resNum.text = getProxy(PlayerProxy):getData():getResource(pg.activity_template[slot0.shopId].config_client.pt_id)
 end
 

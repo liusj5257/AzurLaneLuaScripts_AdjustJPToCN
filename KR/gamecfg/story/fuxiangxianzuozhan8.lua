@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN8",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "메탈 블러드 부도 요새·D11 방어 모듈",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
+			say = "메탈 블러드 부도 요새·D11 방어 모듈",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(이상하다, 모든 게 정상인데... 방금 통신 이상은 그저 우연인가?)",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "페터, 세이렌 함대를 격파하고 합류할게~",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "미안, 시간을 지키지 못했네.",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "괜찮아. 요새의 안전이 최우선이니까. 통신 시스템의 고장 원인은 찾았어?",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "통신 시스템은 정상이야. 뒷일은 전문 엔지니어에게 맡기자. 오늘 훈련은 어때?",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "공중전도 압박감이 커. 방금의 로열 네이비는 벽람항로 진영의 최신 데이터를 사용한 거지?",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "당연하지. 지피지기면 백전백승이라잖아?",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "하하, 벽람항로는 아직도 우리의 존재를 모르고 공중전이 메탈 블러드의 약점이라고 생각하겠지. 진실을 알게 된 뒤의 반응이 궁금하네.",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "조금 더 이렇게 두자. 때가 되면 우리의 모습을 보여주면 돼.",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "그러고 보니 우리는 계속 거울 해역 안에서 훈련을 하고 있어서... 바깥 상황이 어떤지 궁금하네.",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "맞아! Z46은 제일 먼저 이 해역에서 훈련해봤지? 그 전에는 어떤 곳에서 훈련했어?",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -416,8 +416,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "에에에?! 이런 상황에서 신비감 조성이냐고!",
 			typewriter = {
@@ -430,8 +430,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "............",
 			typewriter = {
@@ -476,9 +476,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
 			blackBg = true,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "응~!",
 			typewriter = {

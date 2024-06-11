@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "信浓活动 信浓基础航速修正",
 	time = 0,
-	color = "blue",
+	name = "信浓活动 信浓基础航速修正",
+	init_effect = "",
+	id = 8740,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8740,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{

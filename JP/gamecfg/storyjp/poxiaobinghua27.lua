@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_cccpv2_11",
-			say = "…………………………",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			nameColor = "#a9f548",
+			say = "…………………………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "ここは…メンタルキューブを嵌めた台座がある入り口…？",
@@ -59,8 +59,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_11",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "…………zZZZZZ",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_11",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "………………zZZZ",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "同行する北方連合の艦船たちが自分の周りで眠りについているようだ。",
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "艤装に大きな損傷も見当たらない。微かに聞こえる寝息も仲間たちの生還を示してくれている。",
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "たしか、数時間前に艦船たちとここから「光の都市」に入って――",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "「扉」のあった氷山の方向を眺めると、光の都市に通じる道はもはや存在せず、まるで鏡のようだった平たい表面はヒビだらけになっている。",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "謎の施設での探索、管理端末、セイレーン相手の「再現」……目覚めたばかりのためか、記憶が少し曖昧だ。",
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "――「最後の光がかき消されるまで、頑張って戦ってください」",
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "あの戦いの最後、一体何が起こったか……",
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "施設から回収できた資料が入ってる小箱が手元にある。そしてなにより、仲間たちが無事でいてくれている。",
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "今はそれ以外のことを考えないでおこう",
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			blackBg = true,

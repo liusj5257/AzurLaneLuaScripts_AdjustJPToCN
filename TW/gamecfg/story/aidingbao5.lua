@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"“我”獨一無二的價值\n\n<size=45>五  意想不到的邀請</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "幾天後——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "幾天後——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "看上去愛丁堡的秘書艦工作已經像模像樣了。",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（敲門聲）",
 			typewriter = {
 				speed = 0.05,
@@ -190,9 +190,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……舞會和舞伴是指？",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201290,
 			dir = 1,
+			actor = 201290,
 			nameColor = "#a9f548",
 			say = "本來愛丁堡要在會上跳舞的♪她跳舞特別好呢！",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "回聲？！太，太誇張了啦！",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201290,
 			dir = 1,
+			actor = 201290,
 			nameColor = "#a9f548",
 			say = "讓指揮官和愛丁堡一起跳！好主意！",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -338,11 +338,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "欸……欸欸欸欸欸！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………順勢從埃米爾手中接過了邀請函。是有備而來的？！",
 			typewriter = {
 				speed = 0.05,
@@ -389,12 +389,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "為，為什麼會變成這樣……？！",
 			typewriter = {
 				speed = 0.05,

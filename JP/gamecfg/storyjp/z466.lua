@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z466",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z466",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"白き詩\n\n<size=45>六　羈絆</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "出撃が終わった。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "量産型の敵艦十数隻。「駒」数ピース。中規模の艦隊だったが、弾薬が底尽きてしまった味方にとって、もはやそれは強敵であった。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "私は戦った。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "主砲を打つ回数数十回。砲身が過熱するまで砲弾を打ち込んだ。とにかく、満身創痍だった。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "艤装も、仮初の体につけている布切れも――色を失い、硝煙で灰色に染まっていく。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,13 +77,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_task",
 			say = "母港・執務室",
+			bgName = "bg_story_task",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			stopbgm = true,
+			blackBg = true,
 			say = "心の中で叫んでいる。違うというのなら、私に意義を与えてくれよう。",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "兵器ではない、あなたが望む私に戦う理由をくれよう。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "愛しいあなたのそばにいる私に呼ぶことのできる名前をくれよう。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			say = "私に色を、ください。",
 			blackBg = true,
+			say = "私に色を、ください。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

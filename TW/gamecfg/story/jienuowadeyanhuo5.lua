@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 903020,
-			side = 2,
 			bgName = "bg_renaya",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "福熙，又發現了一支薩丁帝國艦隊哦。",
 			bgm = "story-french1",
+			actor = 903020,
+			nameColor = "#a9f548",
+			say = "福熙，又發現了一支薩丁帝國艦隊哦。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "今晚還真是熱鬧啊……行動方向呢？",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "似乎跟我們的目的地相同。",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "不是衝著我們來的，而是和我們一樣在趕路，也就意味著……",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "薩丁帝國判斷出了我們的企圖，並且正在採取應對手段。",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "確實稍微低估了薩丁的判斷力和執行力呀……",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "不過既然應對手段是急急忙忙從外面調動艦隊回來，反過來就說明港口本身是空虛的。",
 			typewriter = {
@@ -139,8 +139,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "雖然奇襲暴露了，但是只要跑的夠快我們還有機會！",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -166,8 +166,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "這支艦隊怎麼辦？",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "我們在航速上沒有明顯優勢，既然目的地相同，遲早都要碰上吧。",
 			typewriter = {

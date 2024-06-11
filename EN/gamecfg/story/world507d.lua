@@ -1,13 +1,13 @@
 return {
-	id = "WORLD507D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507D",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "This debris doesn't appear Siren in origin. It appears man-made.",
 			typewriter = {
 				speed = 0.05,

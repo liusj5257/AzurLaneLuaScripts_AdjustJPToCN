@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAPOHAIKONGZHIYI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAPOHAIKONGZHIYI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level",
+			say = "SP島西側海域　ユニオン主力艦隊",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
-			say = "SP島西側海域　ユニオン主力艦隊",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "重桜の艦隊か、やはり攻撃を仕掛けてきたな…",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "こちらも待っていたところだ！みんな戦闘準備を！",
 			typewriter = {
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "こちらも準備できた。敵を近づかせない！",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "接近される前に迎撃隊で全部撃ち落とすつもりだが…それでも接近を許してしまった場合は対応を頼む！",
 			typewriter = {
@@ -134,9 +134,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "任せなさいって！へへ、みんなで一気に片付けようぜ！",
 			typewriter = {

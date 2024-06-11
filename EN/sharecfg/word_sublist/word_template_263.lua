@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_263 = {}
 slot1 = slot0.word_template_263
 
-function temp()
+temp = function()
 	uv0["世"] = {
 		["博"] = {
 			this = true,
@@ -298,7 +298,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["仕"] = {
 		["途"] = {
 			["风"] = {
@@ -312,7 +312,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["市"] = {
 		["府"] = {
 			["办"] = {
@@ -453,7 +453,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["势"] = {
 		["力"] = {
 			["的"] = {
@@ -467,7 +467,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["事"] = {
 		["实"] = {
 			["独"] = {
@@ -505,7 +505,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["侍"] = {
 		["從"] = {
 			["貝"] = {
@@ -530,7 +530,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["试"] = {
 		["嫖"] = {
 			["一"] = {

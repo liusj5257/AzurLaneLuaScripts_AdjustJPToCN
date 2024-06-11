@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING43",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING43",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すべての陣営は、今回の事件をセイレーンの上位個体「アビータ」による陰謀と襲撃だと結論づけている",
 			painting = {
 				alpha = 0.3,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官の発案でマルコ・ポーロ、そしてクレマンソーの2名及び関係者は「セイレーンによる陰謀を発見できなかった」として、表向きでは謹慎処分になった",
 			painting = {
 				alpha = 0.3,
@@ -88,10 +88,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "めでたしめでたし…でいいのかな？",
 			painting = {
 				alpha = 0.3,
@@ -145,10 +145,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヴェネト、マルコ・ポーロはまだ発見されていないんだっけ？",
 			painting = {
 				alpha = 0.3,
@@ -163,10 +163,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……もう時間がだいぶ経っていますから、もしかしたら――",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はぁい",
 			painting = {
 				alpha = 0.3,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "通信を切ると、ヴェネトは大きくため息をついた。",
@@ -234,10 +234,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あの子がこの程度では沈まないのを知っているだろう？それとも…見つけたら見つけたで面倒だから悩んでいるの？",
 			painting = {
 				alpha = 0.3,
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -301,10 +301,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "通信？ヴェネト、そっち宛よ",
 			painting = {
 				alpha = 0.3,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "クレマンソーとの通信を切り、ヴェネトは捜索活動中のサディア艦隊の仲間たちに改めて呼びかけた。",
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "凄まじい棒読みで命令を下し、ヴェネトは鼻歌を口ずさみながら帰航の準備をし始めた。",
@@ -455,10 +455,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……待って。さっきクレマンソーから微かに「確保」「昏睡」ってワードが聞こえたような……",
 			painting = {
 				alpha = 0.3,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 抚顺消弹斩击",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 抚顺消弹斩击",
+	init_effect = "",
+	id = 200830,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200830,
+	color = "yellow",
 	icon = 200830,
 	last_effect = "",
 	effect_list = {

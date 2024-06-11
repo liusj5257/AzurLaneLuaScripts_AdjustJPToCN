@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"疲労回復の秘訣とは⁉\n\n<size=45>三 夜通し作戦♡</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "サン・ジャシントの用意した朝食を済ませ、仕事に励んでいた。",
 			bgm = "story-richang-5",
+			say = "サン・ジャシントの用意した朝食を済ませ、仕事に励んでいた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "しかし半日が経ったというのに、処理待ちの作業はまだテーブルの半分を占めるほど積まれたままだった。",
@@ -40,10 +40,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら、もうこんな時間ですか？",
 			painting = {
 				alpha = 0.3,
@@ -55,12 +55,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう少し指揮官さんと一緒にいたかったのに、そろそろ合同演習の時間……",
 			painting = {
 				alpha = 0.3,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "サン・ジャシントは書類の山をちらりと見て、少し戸惑いの表情を見せた。",
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さんの能力を疑うつもりではないですけどぉ…こんなにあったら、いくら指揮官さんといえど時間がかかると思いますよ？",
 			painting = {
 				alpha = 0.3,
@@ -127,10 +127,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "合同練習が終わったらまた手伝いに来ますので、今のうちに一休みしてはどうですか？",
 			painting = {
 				alpha = 0.3,
@@ -145,10 +145,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "お菓子も準備してありますから、ちょうどいいお茶の時間にできますよ～。ほら指揮官さん、たまにはサボってみませんか…？",
 			painting = {
 				alpha = 0.3,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "サン・ジャシントはしゃべりながら少し腰を屈めて、こっちの耳元に唇を寄せてくる。少女の暖かい吐息が耳にかかり、とてもくすぐったく感じた。",
@@ -171,12 +171,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どう、です？",
 			painting = {
 				alpha = 0.3,
@@ -201,10 +201,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ～指揮官さんならきっとそう言うと思ってましたよ。そういうところが好きなんですから",
 			painting = {
 				alpha = 0.3,
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも一人で頑張らすぎないようにね？",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "合同練習が終わったら、また一緒にやりましょうね？",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら～指揮官さんったら、夜のお誘いだなんて♡",
 			painting = {
 				alpha = 0.3,
@@ -308,10 +308,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "秘書艦として、指揮官さんを失望させませんよ～",
 			painting = {
 				alpha = 0.3,
@@ -326,10 +326,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "楽しみにしててください♡",
 			painting = {
 				alpha = 0.3,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "バタンとドアが開き、執務室を見て呆然としているインディペンデンスが現れた。",
@@ -355,10 +355,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "2人は何て…？よ、「夜通し」って…？",
 			painting = {
 				alpha = 0.3,
@@ -373,10 +373,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん、夜通し付き合ってって♡",
 			painting = {
 				alpha = 0.3,
@@ -391,10 +391,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そ、それってまさか、夜に…",
 			painting = {
 				alpha = 0.3,
@@ -409,10 +409,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら、そこは指揮官さん次第ですね～",
 			painting = {
 				alpha = 0.3,
@@ -451,10 +451,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。秘書艦として指揮官さんのニーズに答えるのが義務ですからね",
 			painting = {
 				alpha = 0.3,
@@ -466,12 +466,12 @@ return {
 			}
 		},
 		{
-			actor = 107220,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "自ら進んで…だよな？強いられてたりしてない？",
 			painting = {
 				alpha = 0.3,
@@ -510,10 +510,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さんに「奉仕」するのは、全部私の意志によるものですよ？",
 			painting = {
 				alpha = 0.3,
@@ -528,10 +528,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それこそ、秘書艦のやるべき「オシゴト」だと思いますけどぉ～ふふ～",
 			painting = {
 				alpha = 0.3,
@@ -546,10 +546,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ま、待った！秘書艦ってあんなことまでしないといけないのか？",
 			painting = {
 				alpha = 0.3,
@@ -561,8 +561,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "顔が真っ赤になったインディペンデンスの視線が部屋中を泳ぎ、やがてサン・ジャシントの用意したお菓子に止まった。",
@@ -599,10 +599,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さんが毎日バリバリ働ける秘訣なのですよ～♡",
 			painting = {
 				alpha = 0.3,
@@ -617,10 +617,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -632,8 +632,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "インディペンデンスの戸惑いがますます深まってしまった―――",

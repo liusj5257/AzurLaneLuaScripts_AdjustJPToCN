@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "용궁·외곽 지역  기관 앞",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "용궁·외곽 지역  기관 앞",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "에?! 그게 메탈 블러드 함대의 공격이었단 말이야?! 너무 신기할 정도야.",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "바깥을 지키고 있던 봉인은 오딘 씨가 한방에 날려버렸어요...",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "하지만 기관 자체는 아직 온전해서 자세히 봐야 할 것 같아요... 저기, 프린츠 오이겐?",
 			typewriter = {
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "아, 프린츠 오이겐! 위험하니까 함부로 건드리지 말아요!",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "0.5%에 기대지 말고 얌전히 말 들어요!",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "프린츠 오이겐의 조작이 끝나자 제어 콘솔에서 기계 작동음이 울리며 불가사의한 소리가 다시 들려왔다.",
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "불가사의한 소리",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "...보물?",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -362,8 +362,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "설마 용궁의 각 기관들이 서로 연결되어 있는 건가요... 빼앗기만 하면 우리가 쓸 수 있는 거군요.",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(안 돼, 너무 피곤해요... 이런 위험인물하고는 전혀 맞지 않아요.)",
 			typewriter = {
@@ -496,8 +496,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

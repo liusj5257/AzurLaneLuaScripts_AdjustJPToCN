@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUSHUN01",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"푸슌의 대모험\n\n<size=45>제1장 - 옛 창고에서 보물 찾기</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "여기가 창춘이 말했던 창고인가. 헤헤헤~, 분명 재밌는 게 잔뜩 있을 거야!",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#92fc63",
+			say = "여기가 창춘이 말했던 창고인가. 헤헤헤~, 분명 재밌는 게 잔뜩 있을 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
+			say = "저기… 지휘관 허락 없이 들어와도 정말 괜찮은가요…?",
 			side = 1,
-			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
-			say = "저기… 지휘관 허락 없이 들어와도 정말 괜찮은가요…?",
+			actor = 501040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -166,15 +166,15 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "쿨럭쿨럭! …먼지가 많네…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
+			say = "쿨럭쿨럭! …어려운 책이 잔뜩……",
 			side = 1,
-			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
-			say = "쿨럭쿨럭! …어려운 책이 잔뜩……",
+			actor = 501040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

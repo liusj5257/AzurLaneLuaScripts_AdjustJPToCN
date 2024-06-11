@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI0",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI0",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107010,
 			side = 0,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sunny weather, gentle winds, and excellent visibility. Perfect weather for setting sail.",
 			bgm = "level02",
+			actor = 107010,
+			nameColor = "#a9f548",
+			say = "Sunny weather, gentle winds, and excellent visibility. Perfect weather for setting sail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "Ms. Wales, all the necessary preparations have been made. We shall depart on your command.",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,

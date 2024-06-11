@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_26 = {}
 slot1 = slot0.word_template_26
 
-function temp()
+temp = function()
 	uv0["辱"] = {
 		this = {
 			this = true
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["尻"] = {
 		["軽"] = {
 			this = true
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["心"] = {
 		["障"] = {
 			["児"] = {
@@ -74,7 +74,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["人"] = {
 		["體"] = {
 			["實"] = {
@@ -906,7 +906,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["性"] = {
 		["感"] = {
 			this = true,
@@ -1504,7 +1504,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["整"] = {
 		["体"] = {
 			this = true
@@ -1545,7 +1545,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赤"] = {
 		["→"] = {
 			["あ"] = {

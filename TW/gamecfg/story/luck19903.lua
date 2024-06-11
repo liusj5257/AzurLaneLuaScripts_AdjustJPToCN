@@ -1,15 +1,15 @@
 return {
-	id = "LUCK19903",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK19903",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "安克拉治……充滿力量……！老師……謝謝……！",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "壞傢伙……不害怕，老師……不用怕……！",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "安克拉治，老師……一直在一起……！",
 			typewriter = {
 				speed = 0.05,

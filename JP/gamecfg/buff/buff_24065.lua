@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 24065,
 	time = 8,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 24065,
+	color = "red",
 	icon = 17470,
 	last_effect = "",
 	blink = {
@@ -35,8 +35,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 800
+				number = 800,
+				attr = "loadSpeed"
 			}
 		}
 	}

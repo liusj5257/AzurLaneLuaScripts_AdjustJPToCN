@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_375 = {}
 slot1 = slot0.word_template_375
 
-function temp()
+temp = function()
 	uv0["卅"] = {
 		["一"] = {
 			["周"] = {
@@ -24,7 +24,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["件"] = {
 		["事"] = {
 			["九"] = {
@@ -60,7 +60,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["愿"] = {
 		["请"] = {
 			this = true
@@ -83,7 +83,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["场"] = {
 		["清"] = {
 			this = true
@@ -93,7 +93,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兵"] = {
 		["截"] = {
 			["民"] = {
@@ -107,7 +107,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["袖"] = {
 		["领"] = {
 			["生"] = {
@@ -121,7 +121,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["肆"] = {
 		["陆"] = {
 			this = true

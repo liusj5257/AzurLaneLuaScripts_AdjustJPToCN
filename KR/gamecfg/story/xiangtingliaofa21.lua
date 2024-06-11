@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA21",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "하아…드디어 끝났어.",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,10 +26,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			say = "전투 중 열악한 바다의 상황에 따른 작전 데이터를 수집했어요. 돌아가서 분석해야겠군요……",
+			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "전투 중 열악한 바다의 상황에 따른 작전 데이터를 수집했어요. 돌아가서 분석해야겠군요……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -77,8 +77,8 @@ return {
 			actor = 107380,
 			side = 0,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "수일간, 광풍이 몰아치고 파도가 거세져서 모든 기계가 고장났습니다. 만약 콜럼버스가 항해 경험이 많지 않았다면 아마 그대로 죽어버렸겠죠.",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "설마, 이미 몇 백년 전에 세이렌이 심해에 잠복하고 있었단 건가?!",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,8 +164,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "유령선, 바다괴물, 미확인 비행 물체, 바다의 여러 전설과 괴담은 모두 세이렌에게 이용되었는지도요.",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "결국, \"세이렌\"이란……대체 어떤 존재인 걸까",
 			typewriter = {
 				speed = 0.05,

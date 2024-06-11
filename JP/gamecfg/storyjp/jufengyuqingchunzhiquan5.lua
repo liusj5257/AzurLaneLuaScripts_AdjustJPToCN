@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "クリッパーが信じられない速さでセイレーン艦隊に突っ込んでは離れた",
 			bgm = "story-temepest-1",
+			say = "クリッパーが信じられない速さでセイレーン艦隊に突っ込んでは離れた",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "船尾の甲板に立つと――前からは吹き荒れる海風、後ろからは爆炎による光と熱が感じ取れる。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "爆炎の中にはこの「即席ロイヤル・フォーチュン号」の攻撃によるものもあるが…",
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "ほとんどはセイレーン艦隊のフレンドリーファイアだ。",
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "わあ！本当にうまくいってる！こっちの十倍の敵と戦っているよ！",
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_524",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,9 +162,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_524",
 			factiontag = "海の新星",
 			dir = 1,
+			bgName = "star_level_bg_524",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -178,17 +178,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "思った通り、遠方からホイッスルの音が聞こえてきた。",
@@ -253,11 +253,11 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "star_level_bg_524",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "？？",
-			say = "女神の庇護を讃えよう。ここにはまだ戦える者がいるわ～",
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "女神の庇護を讃えよう。ここにはまだ戦える者がいるわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,19 +267,19 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "star_level_bg_524",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "？？",
-			say = "さあ！我らが艦隊の旗艦に続け～！",
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "さあ！我らが艦隊の旗艦に続け～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "十数分ほどセイレーンの相手をしていると、やがてポリスの守備艦隊が出撃準備を終え、港から動き始めた。",
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "勝負は決した――",

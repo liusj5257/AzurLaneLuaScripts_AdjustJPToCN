@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "bg_map_doa",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "…看到了！那就是{namecode:98}報告裡提到的新島了吧！",
 			bgm = "doa_story1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "…看到了！那就是{namecode:98}報告裡提到的新島了吧！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,8 +42,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -132,13 +132,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_map_doa",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_doa",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "是的，具體的情況有些一言難盡…總之就是在不明所以的情況下，我和幾位同伴突然被帶到了這裡…",
 			typewriter = {
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_map_doa",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "咦？霞認識{namecode:98}嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,9 +356,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_doa",
-			actor = 900302,
 			dir = 1,
 			blackBg = true,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "唔…還真的跟那東西上寫的一樣啊…總、總之，先請各位跟我到我的夥伴們那裡吧。具體的情況，之後慢慢再聊——",
 			typewriter = {

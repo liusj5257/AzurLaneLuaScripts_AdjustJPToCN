@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "鐺鐺~下午茶，開始囉！",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "原來如此，皇家的女僕小姐又在尋根究底嗎？是那個啦——大人的原因！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "是為了使在日漸寒冷的暮秋依舊辛勤工作的大家暖和起來啦～無論大家多疲憊，{namecode:14}與熱茶都會一直在這裡等候大家的！",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "{namecode:13}才沒有總待在房間裡，{namecode:13}只是……那個，冬眠！對，{namecode:13}在冬眠啦",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "……姐姐，七分真三分假才會被人相信",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "原來如此，{namecode:13}有開電燈，所以沒問題！",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "……光輝，除了{namecode:13}姐姐，另外一位重度尼特族呢？",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "嗯……胡德小姐也沒有來？",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "請品嘗{namecode:13}姐姐的得意之作～",
 			typewriter = {
 				speed = 0.05,
@@ -280,16 +280,16 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "皇家眾人",
 			actorShadow = true,
+			hideOther = true,
 			side = 1,
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "……這個味道——！！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,8 +380,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "{namecode:11}姐姐……",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "——她留下一張紙條就出門了！",
 			typewriter = {
 				speed = 0.05,
@@ -424,16 +424,16 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "沒有{namecode:12}的茶會，我才不會參加！{namecode:12}，等著我，我一定會帶妳回來！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

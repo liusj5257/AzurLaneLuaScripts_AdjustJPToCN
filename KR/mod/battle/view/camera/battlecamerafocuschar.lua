@@ -6,15 +6,15 @@ slot0.Battle.BattleCameraFocusChar = class("BattleCameraFocusChar")
 slot0.Battle.BattleCameraFocusChar.__name = "BattleCameraFocusChar"
 slot3 = slot0.Battle.BattleCameraFocusChar
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	slot0._point = Vector3.zero
 end
 
-function slot3.SetUnit(slot0, slot1)
+slot3.SetUnit = function(slot0, slot1)
 	slot0._unit = slot1
 end
 
-function slot3.GetCameraPos(slot0)
+slot3.GetCameraPos = function(slot0)
 	slot1 = slot0._unit:GetPosition()
 
 	slot0._point:Set(slot1.x, slot1.y, slot1.z)
@@ -31,6 +31,6 @@ function slot3.GetCameraPos(slot0)
 	return slot0._point
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._unit = nil
 end

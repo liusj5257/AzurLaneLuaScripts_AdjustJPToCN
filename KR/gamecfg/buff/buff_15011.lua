@@ -29,14 +29,14 @@ return {
 	{
 		time = 8
 	},
-	init_effect = "",
-	name = "",
 	time = 6,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 15011,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15011,
+	color = "blue",
 	icon = 15011,
 	last_effect = "",
 	effect_list = {
@@ -47,9 +47,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 6,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

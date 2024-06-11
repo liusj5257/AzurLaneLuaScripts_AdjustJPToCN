@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 14030,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "爆发弹幕",
 	stack = 1,
-	id = 14030,
+	color = "red",
 	icon = 14030,
 	last_effect = "",
 	effect_list = {
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 14032,
 				target = "TargetSelf",
+				skill_id = 14032,
 				countType = 14030
 			}
 		},
@@ -62,8 +62,8 @@ return {
 			},
 			arg_list = {
 				quota = 5,
-				skill_id = 14031,
 				target = "TargetSelf",
+				skill_id = 14031,
 				countType = 14031
 			}
 		}

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 1,
-			say = "NA海域・安全航路",
 			bgm = "blueocean-image",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "NA海域・安全航路",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "セイレーンへの反攻作戦の完遂、そして鉄血の「再現」でコンパイラーを撃破した後、NA海域の航路の状況は大いに改善された。",
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "自分が「星の海」でリアリティレンズの実験に手伝っていた間に、どうやらいくつかの航路が通行を再開したらしい。",
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "「Ⅱ」型艤装の研究も一段落ついたことで、ようやく世界博覧会に参加する機会が訪れたが――",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "再開した航路は陸に近い航路がほとんどなので、サディアへの遠洋航海となれば、相応の護衛艦隊を編成する必要があるのだ。",
@@ -85,10 +85,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "穏やかな風に静かな海、旅にはちょうどいい天気ね",
 			painting = {
 				alpha = 0.3,
@@ -100,12 +100,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それにしても本当に時間が経つのが早いわね。博覧会ももう閉幕しちゃうし",
 			painting = {
 				alpha = 0.3,
@@ -120,10 +120,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "開会式には間に合わなかったけど、せめて閉幕式くらいは思いっきり楽しまないと",
 			painting = {
 				alpha = 0.3,
@@ -138,10 +138,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官はどう思う――",
 			painting = {
 				alpha = 0.3,
@@ -156,10 +156,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヘレナ、指揮官が持っている書類をぶんどってちょうだい！",
 			painting = {
 				alpha = 0.3,
@@ -174,10 +174,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう、せっかくの休暇旅行よ！仕事をするのは規定時間内だけにしなさいな！",
 			painting = {
 				alpha = 0.3,
@@ -189,12 +189,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そもそも、休暇中に仕事をするのは変よ？",
 			painting = {
 				alpha = 0.3,
@@ -209,10 +209,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヘレナ、もっと言ってあげて！指揮官がどんな言い訳をするか聞いてやるわ",
 			painting = {
 				alpha = 0.3,
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、せっかくの休みだから、仕事しないほうがいいよ…？",
 			painting = {
 				alpha = 0.3,
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "…………………",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -289,10 +289,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妥協案として休暇中の作業規定時間を決めておいたけど…",
 			painting = {
 				alpha = 0.3,
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……それも難しそうね…指揮官、お疲れ様",
 			painting = {
 				alpha = 0.3,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -336,10 +336,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こちらユニオン所属、戦艦ニュージャージー！",
 			painting = {
 				alpha = 0.3,
@@ -354,10 +354,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "サディアに向かう指揮官！NA海域での護衛はこの私が率いる分艦隊が担当するわ！",
 			painting = {
 				alpha = 0.3,
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "コンパイラー戦からそんなに経っていないはずだが、なんだかニュージャージーとは久しぶりな気がする。",
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "しばらく連絡していなかったし、最近の様子を聞いてみよう。",
@@ -413,10 +413,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "バッチリ元気よ！でも……",
 			painting = {
 				alpha = 0.3,
@@ -431,10 +431,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正直言うと、最近はちょっと暇しているわね",
 			painting = {
 				alpha = 0.3,
@@ -468,10 +468,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あの……ここは公共回線なんだけど？",
 			painting = {
 				alpha = 0.3,
@@ -505,10 +505,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここ最近、パトロールをしてもセイレーンの量産型を一隻も見なかったわ",
 			painting = {
 				alpha = 0.3,
@@ -523,10 +523,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかも十日間連続で！",
 			painting = {
 				alpha = 0.3,
@@ -541,10 +541,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今までうじゃうじゃいたセイレーンが本当に減ったなぁって、コンパイラーを倒してからようやく実感できた！",
 			painting = {
 				alpha = 0.3,
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "……ニュージャージーの話の感じだと、絶滅危惧種みたいな扱いになっているような…",
@@ -570,10 +570,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本当にそういう感じだよ？",
 			painting = {
 				alpha = 0.3,
@@ -588,10 +588,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あまりにも敵がいないから、毎日の仕事は報告書の確認に定期パトロール、あとは海を眺めながらボーっとするだけで……",
 			painting = {
 				alpha = 0.3,
@@ -625,10 +625,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私たち艦船は海の平和を取り戻すためにセイレーンと戦っているでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -640,12 +640,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "平和な海はむしろそうあるべきというか…望ましいことじゃない",
 			painting = {
 				alpha = 0.3,
@@ -657,12 +657,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それに、別にNA海域全域からセイレーンが消えたわけじゃないわ",
 			painting = {
 				alpha = 0.3,
@@ -677,10 +677,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "スカパ・フローの式典でロイヤルの艦隊を襲撃したセイレーンがいるそうじゃない。あれは結局どこから来たの？",
 			painting = {
 				alpha = 0.3,
@@ -695,10 +695,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さすがはメンフィス、いきなり核心を突いてくるわね",
 			painting = {
 				alpha = 0.3,
@@ -732,10 +732,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤル艦隊によって撃退されてから消息不明ね",
 			painting = {
 				alpha = 0.3,
@@ -769,10 +769,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今度現れたら絶対に拠点まで追い詰めて、全部倒してやるんだから！",
 			painting = {
 				alpha = 0.3,
@@ -784,8 +784,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "今の話は頭に留めておいたほうが良さそうだ。",
@@ -795,8 +795,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -829,10 +829,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "此度のサディアへの航海は我々も参加する",
 			painting = {
 				alpha = 0.3,
@@ -847,10 +847,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "道中の護衛はユニオンだけでなく、ロイヤル艦隊も頼りにするがいい。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -1045,8 +1045,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			say = "二人ともちょっと大げさな気もするが、彼女たちには心から感謝している。",
@@ -1078,10 +1078,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それより、サディア近辺の航路はまだはぐれセイレーンが現れると聞いているけど",
 			painting = {
 				alpha = 0.3,
@@ -1096,10 +1096,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それってつまりこのNA海域よりはずっと危険だってことでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -1152,10 +1152,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "思いっきり私情が入ってるわね…",
 			painting = {
 				alpha = 0.3,
@@ -1221,10 +1221,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあユニオンはエセックスたちもいるし、ニュージャージーは諦めて、引き続きNA海域の見張りをしなさいな",
 			painting = {
 				alpha = 0.3,

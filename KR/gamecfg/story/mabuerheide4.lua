@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"태양을 닮은 소녀\n\n<size=45>4. 달콤한 관계</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "모항·학원 내",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "모항·학원 내",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "——아! 마블헤드 마침 잘 왔어요. 이거 줄게요!",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "엥? 이—— 이 초콜릿 산은 어떻게 된 거죠?!",
 			typewriter = {
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "아껴뒀던 초콜릿이야! 오늘부터 다이어트 시작할 거거든!",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "너무 무리하지 말아요. 이전에도 비슷한 말을 했는데 실패했잖아요——",
 			typewriter = {
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "이번에는 성공할 거야! 어쨌든, 이거 줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -181,8 +181,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "잠시만—— 가버렸네요... 혼자서 다 먹을 수 없는데, 콩코드에게 나눠줄까——",
 			typewriter = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "아! 지휘관님! 저기요——! 여기에요!",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "길을 가고 있을 때, 갑자기 부르는 소리가 들렸다.",
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "...아! 이런, 손에 물건을 들고 있어서 지휘관님에게 맞춰보라고 할 수도 없네요!",
 			typewriter = {
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "하긴... 제가 지휘관님을 부른 거니까—— 뭐, 그것보다 지금은 초콜릿이 더 중요한 문제예요!",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "혼자서 다 먹을 수가 없는데, 지휘관님이 좀 도와주시겠어요?",
 			typewriter = {
@@ -308,14 +308,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 102270,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "――――하아, 입안을 가득 채우는 이 달콤함이라니 최고예요!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "'기분 전환을 하려고 했던 것뿐이야. '... 네에, 그러셨군요.",
 			typewriter = {
@@ -424,8 +424,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "그렇다면 저와 데이트하는 게 가장 좋은 선택지 아닐까요~?",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

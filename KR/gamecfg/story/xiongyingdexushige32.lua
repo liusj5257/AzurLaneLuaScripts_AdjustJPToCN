@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIONGYINGDEXUSHIGE32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIONGYINGDEXUSHIGE32",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "이상한 거울 해역·바닷속",
+			bgName = "bg_underwater",
 			bgm = "battle-roma-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "이상한 거울 해역·바닷속",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,10 +45,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "쿵—— 쿵————",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "쿵—— 쿵————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,17 +322,17 @@ return {
 			nameColor = "#A9F548FF",
 			say = "휴~ 구조 완료. 로마 님께서 무사히 구조선에 안착 완료.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -383,10 +383,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "쾅——————",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "쾅——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,10 +474,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "쾅——————",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "쾅——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,21 +587,21 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "바다 위 콜로세움과 수면 아래 거대한 장치가 붕괴되면서 모든 유령선과 유령 독수리는 순식간에 자취를 감췄다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -668,9 +668,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "전….",
 			painting = {
 				alpha = 0.3,
@@ -685,9 +685,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "마치 긴 꿈을 꾼 것 같아요….",
 			painting = {
 				alpha = 0.3,
@@ -750,9 +750,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이건, 아마도 세이렌에 의해 바꿔치기 당한 알렉산드리아 도서관의 타일 모조품이에요….",
 			painting = {
 				alpha = 0.3,
@@ -767,9 +767,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "역시 이번 사태와 관련이 있는 걸까요….",
 			painting = {
 				alpha = 0.3,
@@ -800,9 +800,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "저것들은 뭐죠...?",
 			painting = {
 				alpha = 0.3,
@@ -849,9 +849,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...정말 멋진 이야기, 같네요.",
 			painting = {
 				alpha = 0.3,
@@ -962,9 +962,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "에...?",
 			painting = {
 				alpha = 0.3,
@@ -1011,10 +1011,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "찰칵——————",
 			soundeffect = "event:/ui/kuaimen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "찰칵——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1025,12 +1025,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "알프레도 오리아니",
+			side = 2,
 			bgName = "bg_white",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "헤헤헤, 알프레도 팀, 임무 완료. 이제 집에 갈 시간이다!",
 			flashout = {
 				dur = 0.5,

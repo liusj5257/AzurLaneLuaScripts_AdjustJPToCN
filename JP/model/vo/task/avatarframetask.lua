@@ -15,7 +15,7 @@ slot3 = {
 slot4 = "avatar_task_ship_1"
 slot5 = "avatar_task_ship_2"
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.actId = slot1
 	slot0.configId = slot2
 	slot0.id = slot3.id
@@ -24,27 +24,27 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.submitTime = slot3.submit_time or 0
 end
 
-function slot0.IsActEnd(slot0)
+slot0.IsActEnd = function(slot0)
 	return not getProxy(ActivityProxy):getActivityById(pg.activity_event_avatarframe[slot0.configId].link_event) or slot2:isEnd()
 end
 
-function slot0.updateProgress(slot0, slot1)
+slot0.updateProgress = function(slot0, slot1)
 	slot0.progress = slot1 or 0
 end
 
-function slot0.isFinish(slot0)
+slot0.isFinish = function(slot0)
 	return slot0:getConfig("target_num") <= slot0:getProgress()
 end
 
-function slot0.getProgress(slot0)
+slot0.getProgress = function(slot0)
 	return slot0.progress or 0
 end
 
-function slot0.isReceive(slot0)
+slot0.isReceive = function(slot0)
 	return false
 end
 
-function slot0.getTaskStatus(slot0)
+slot0.getTaskStatus = function(slot0)
 	if slot0:getConfig("target_num") <= slot0.progress then
 		return 1
 	end
@@ -52,38 +52,38 @@ function slot0.getTaskStatus(slot0)
 	return 0
 end
 
-function slot0.onAdded(slot0)
+slot0.onAdded = function(slot0)
 end
 
-function slot0.updateProgress(slot0, slot1)
+slot0.updateProgress = function(slot0, slot1)
 	slot0.progress = slot1
 end
 
-function slot0.isSelectable(slot0)
+slot0.isSelectable = function(slot0)
 	return false
 end
 
-function slot0.judgeOverflow(slot0, slot1, slot2, slot3)
+slot0.judgeOverflow = function(slot0, slot1, slot2, slot3)
 	return false, false
 end
 
-function slot0.IsUrTask(slot0)
+slot0.IsUrTask = function(slot0)
 	return false
 end
 
-function slot0.GetRealType(slot0)
+slot0.GetRealType = function(slot0)
 	return 6
 end
 
-function slot0.IsOverflowShipExpItem(slot0)
+slot0.IsOverflowShipExpItem = function(slot0)
 	return false
 end
 
-function slot0.ShowOnTaskScene(slot0)
+slot0.ShowOnTaskScene = function(slot0)
 	return true
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	if not slot0.configData then
 		if not pg.activity_event_avatarframe[slot0.configId] then
 			print("avatart id = " .. slot0.configId .. " is not found")
@@ -98,8 +98,8 @@ function slot0.getConfig(slot0, slot1)
 		slot4 = Clone(slot2.award_display)
 		slot4[1][3] = slot3.award_num
 		slot0.configData = {
-			level = 1,
 			sub_type = 0,
+			level = 1,
 			item_id = slot2.pt_id,
 			desc = slot3.desc,
 			target_num = slot3.target_num,
@@ -112,7 +112,7 @@ function slot0.getConfig(slot0, slot1)
 	return slot0.configData[slot1]
 end
 
-function slot0.getTypeData(slot0, slot1, slot2)
+slot0.getTypeData = function(slot0, slot1, slot2)
 	for slot6 = 1, #uv0 do
 		for slot12, slot13 in ipairs(slot1[uv0[slot6]]) do
 			if slot13[1] == slot2 then
@@ -124,11 +124,11 @@ function slot0.getTypeData(slot0, slot1, slot2)
 	end
 end
 
-function slot0.isAvatarTask(slot0)
+slot0.isAvatarTask = function(slot0)
 	return true
 end
 
-function slot0.createData(slot0, slot1, slot2)
+slot0.createData = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot1 == uv0.type_task_level then

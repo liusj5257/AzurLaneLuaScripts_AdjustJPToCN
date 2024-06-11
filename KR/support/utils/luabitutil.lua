@@ -18,7 +18,7 @@ slot0 = {
 	"G"
 }
 
-function slot1(slot0)
+slot1 = function(slot0)
 	for slot4, slot5 in pairs(uv0) do
 		if slot5 == slot0 then
 			return slot4
@@ -28,7 +28,7 @@ function slot1(slot0)
 	return 0
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	slot3 = {}
 
 	(function (slot0, slot1)
@@ -43,7 +43,7 @@ function slot2(slot0, slot1)
 	return slot3
 end
 
-function ConvertDec2X(slot0, slot1)
+ConvertDec2X = function(slot0, slot1)
 	slot3 = ""
 
 	for slot7, slot8 in ipairs(uv0(slot0, slot1)) do
@@ -53,7 +53,7 @@ function ConvertDec2X(slot0, slot1)
 	return slot3
 end
 
-function ConvertStr2Dec(slot0, slot1)
+ConvertStr2Dec = function(slot0, slot1)
 	slot2 = {}
 	slot4 = string.len(slot0)
 

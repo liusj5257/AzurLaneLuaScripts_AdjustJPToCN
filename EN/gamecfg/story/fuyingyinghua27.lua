@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-1",
+			say = "A few days later",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 1,
-			say = "A few days later",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "So in the end, their ritual still failed?",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401020,
+			nameColor = "#a9f548",
 			say = "Thanks to a certain Prinz Inebriated, I didn't get the full details.",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "Thiele, I wasn't drunk. I was merely acting.",
 			dialogShake = {
 				speed = 0.09,
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "...Don't tell anyone about this...",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			withoutActorName = true,
-			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "Z2 and Eugen, who both knew they were going to be in deep trouble, purchased a copious amount of Sakura Empire sake on their way back.",
 			typewriter = {
@@ -218,15 +218,15 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 30,
+					type = "move",
 					delay = 0.25,
 					dur = 0.5,
 					x = 0
 				},
 				{
-					type = "move",
 					y = -50,
+					type = "move",
 					delay = 0.75,
 					dur = 0.7,
 					x = 0
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "But you know, I wouldn't call this \"leaving empty-handed.\" After all, we learned some valuable information about the \"Reborn Combined Fleet,\" the internal structure of the Sakura Empire, and even found out about their newest ship.",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,16 +292,16 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "Prinz Eugen, at least give me some time to think this over...",
 			bgm = "xinnong-3",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "Prinz Eugen, at least give me some time to think this over...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
+			say = "My my, if it isn't Akagi from the Sakura Empire? If you're here to send us off, we don't need *that* much hospitality.",
 			side = 1,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "My my, if it isn't Akagi from the Sakura Empire? If you're here to send us off, we don't need *that* much hospitality.",
+			actor = 403030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "I'll be straightforward. I want more information regarding the Iron Blood's ships, as well as everything you know about the Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

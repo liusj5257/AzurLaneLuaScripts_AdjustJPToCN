@@ -17,8 +17,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -48,8 +48,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -79,8 +79,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -110,8 +110,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -141,8 +141,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -172,8 +172,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -203,8 +203,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -234,8 +234,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -265,8 +265,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -296,8 +296,8 @@ return {
 				},
 				arg_list = {
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					skill_id = 15758,
+					target = "TargetSelf",
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -309,9 +309,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 3,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "回血",
 	stack = 1,
@@ -335,8 +335,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 15758,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

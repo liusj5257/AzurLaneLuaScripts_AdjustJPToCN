@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "노스 유니온·군항",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgm = "blueocean-image",
+			say = "노스 유니온·군항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "이게 누구야? 정말 오랜만이잖아!",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "아브로라도 이번 작전에 함께하는 거야?",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "그나저나… 이번처럼 위험한 작전을 우리 같은 '구식' 의장을 가진 둘이 진행하기엔 너무 조금 그런 거 아니야?",
 			typewriter = {
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_bsmlevel",
 			actor = 702020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "앗… 모드를 바꾸는 걸 깜빡했네.",
 			flashout = {
@@ -205,8 +205,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "완전 예상치 못한 기술들이라니까!",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "극지 함대가 사용하는 신식 의장과 비슷해 보이지만 성능 부분에선 한 수 위일 수도 있다고 생각해~",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "로열이 먼저 개발해 낸 기술이라면 자기들끼리 몰래 사용하고 있을 것 같지 않아?",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "지금 전운이 감돌고 있는 느낌인걸? 이런 강력한 기술까지 비밀에 부치다니...…",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "본인들이 원하는 무언가를 각 진영에서 얻어내기 전까진 공개할 생각이 아닌가 봐… 역시 로열은 어디까지나 로열이네.",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "너는 옛 러시아 제국, 아, 아니 전 세계적으로——",
 			typewriter = {
@@ -403,8 +403,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "예예~ 삼가겠습니다요. 그렇게까지 긴장할 필욘 없잖아.",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "——사실 자세한 내용은 나도 모른다구… 예를 들면 정확히 얼마나 오래 전인지?",
 			typewriter = {
@@ -453,8 +453,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "난 그냥 단순하게 궁금할 뿐인데… 알겠어~ 말 들을게, 더는 이 일에 대해서 궁금해하지 않겠다구.",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -554,8 +554,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "임무서에 의하면 우리가 기습할 세이렌의 시설은 메탈 블러드 통제 구역 내에 있다고 나와 있는데, 그렇다는 건 메탈 블러드와 무슨 관계가 있다는 뜻인 거야….?",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "현재 NA 해역의 휴전 협정이 적용 중인 상태인데, 만약 이번 임무가 발각되면 좀 곤란해지지 않겠어?",
 			typewriter = {
@@ -606,8 +606,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "이렇게 은밀하고 잘 알려지지 않은 곳이라면… 우린 어떻게 알게 된 거야?",
 			typewriter = {
@@ -641,8 +641,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "훌륭한 정보원이라니...",
 			typewriter = {
@@ -726,8 +726,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "이번 작전의 목표물이 세이렌 실험장이라면 나와 아브로라로는 화력이 좀 부족하지 않을까?",
 			typewriter = {
@@ -761,8 +761,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "이 정보도 역시 그 훌륭한 정보 제공자로부터 받은 거야?",
 			typewriter = {
@@ -932,8 +932,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "현재 메탈 블러드 통제 구역 내 경비가 취약하고, NA 해역에서 세이렌의 화력도 집결되지 않은 상태이니 지금처럼 작전을 수행하기에 가장 적합한 때가 없습니다.",
 			typewriter = {
@@ -1001,8 +1001,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "흐흥, 정말 보기 드문데. 소비에츠키 소유즈의 이렇게 자신감 없는 모습을 본 지가 언제인지 모르겠네.",
 			typewriter = {
@@ -1034,8 +1034,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "왜, 뭐 생각나는 거 있어?",
 			typewriter = {
@@ -1064,12 +1064,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "아무래도 이번 작전은 보통 일이 아닌 것 같으니 어서 가서 열심히 준비하죠.",
 			typewriter = {
 				speed = 0.05,

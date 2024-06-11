@@ -1,12 +1,12 @@
 return {
-	id = "W1139",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1139",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這是……塞壬在海域中設下的報警裝置？",
 			typewriter = {
 				speed = 0.05,

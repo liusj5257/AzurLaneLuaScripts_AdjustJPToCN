@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305060,
 			side = 0,
+			dir = 1,
+			bgm = "nagato-map",
 			hideOther = true,
 			actorName = "{namecode:74}&{namecode:75}",
-			dir = 1,
 			say = "嗚...果然還是輸了",
-			bgm = "nagato-map",
 			subActors = {
 				{
 					actor = 305050,
@@ -162,9 +162,9 @@ return {
 			actor = 0,
 			side = 2,
 			actorName = "眾人",
-			say = "！！什麼時候？！",
-			dir = 1,
 			withoutPainting = true,
+			dir = 1,
+			say = "！！什麼時候？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,8 +211,8 @@ return {
 		},
 		{
 			{
-				type = "shake",
 				y = 15,
+				type = "shake",
 				delay = 0,
 				dur = 0.1,
 				x = 0,

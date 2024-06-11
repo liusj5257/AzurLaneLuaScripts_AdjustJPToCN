@@ -1,12 +1,12 @@
 return {
-	time = 10,
 	name = "",
 	init_effect = "",
+	time = 10,
+	picture = "",
+	desc = "",
 	stack = 3,
 	id = 999967,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	blink = {
 		0,
 		0.7,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.3
+				number = -0.3,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "纳尔逊的旗语",
 	time = 0,
-	color = "blue",
+	name = "纳尔逊的旗语",
+	init_effect = "",
+	id = 6770,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6770,
+	color = "blue",
 	icon = 6770,
 	last_effect = "",
 	effect_list = {

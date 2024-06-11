@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU23",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level-french2",
 			say = "비시아 성좌 성당 근해·오로라의 벽 내부",
+			side = 2,
+			dir = 1,
+			bgm = "level-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "비시아 성좌의 양산형들이 이전보다 더 강해진 것 같지 않나요? 대공 화력이 크게 증가했어요.",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "저는 잘 모르겠어요. 리슐리외는 성당에 관한 질문에 답을 해주지 않거든요.",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "성당이 궁금하다면 직접 가보는 건 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "라 갈리소니에르?!!",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "요, 안녕. 레이디들? 여기서 만나다니 우연이네.",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "항공 함대가 방금 지나쳐 오면서 넘어갈 수 없다고 여겼던 곳에 우뚝 서있던 오로라의 벽이 눈부신 빛을 발하면서 사라졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -185,9 +185,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 807010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이렇게 복잡한 것을… 제어한다고요?!",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "정답이야. 역시 로열 네이비의 일러스트리어스, 똑똑하잖아? 오로라의 벽은 너희를 방해하기 위한 것인데, 설마 나를 막아 서겠어?",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "후후. 호위 함대도 없고, 함재기도 모두 전선으로 향했지-----",
 			typewriter = {
 				speed = 0.05,
@@ -273,9 +273,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "이제는 나랑 천천히 근접 포격전을 즐겨보자고!",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,

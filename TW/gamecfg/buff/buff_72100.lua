@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "对前排增伤",
 	init_effect = "",
-	color = "red",
+	id = 72100,
+	time = 0,
 	picture = "",
 	desc = "对前排伤害提高50%",
 	stack = 1,
-	id = 72100,
+	color = "red",
 	icon = 72100,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByShipType_1",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioByShipType_1"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByShipType_2",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioByShipType_2"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByShipType_3",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioByShipType_3"
 			}
 		},
 		{
@@ -53,8 +53,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByShipType_18",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioByShipType_18"
 			}
 		},
 		{
@@ -63,8 +63,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByShipType_19",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioByShipType_19"
 			}
 		}
 	}

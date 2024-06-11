@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>“너의 모든 것을 충분히 이해해줄 수 있는 사람이 있다면”</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"항만\n\n<size=45>4 동료</size>",
@@ -39,15 +39,15 @@ return {
 			}
 		},
 		{
-			say = "항구",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "항구",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			say = "오이겐 여기서 뭐해?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "오이겐 여기서 뭐해?",
+			actor = 403050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#92fc63",
 			say = "이 기회를 빌어, 오이겐의 생각을 물어볼까?",
 			typewriter = {
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 403030,
 			stopbgm = true,
 			say = "“난 특별히 하고 싶은게 없어. 그냥 모두와 여기 함께 있으면 만족해.”",
 			typewriter = {
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#92fc63",
 			say = "!!",
 			dialogShake = {
 				speed = 0.09,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#92fc63",
 			say = "내가 하려던 말인데.",
 			typewriter = {
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "히히, 네 표정 보면 알아",
 			bgm = "story-2",
+			actor = 403030,
+			nameColor = "#92fc63",
+			say = "히히, 네 표정 보면 알아",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,11 +391,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#92fc63",
 			say = "뭘 해야할지 모른다, 어떻게 해야......",
 			typewriter = {
@@ -456,15 +456,15 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#92fc63",
 			say = "크흠, 이 병도 보아하니 가볍지만은 않겠는데",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#92fc63",
 			say = "그 녀석은 나에게 마저... 그렇지?",
 			typewriter = {
 				speed = 0.05,

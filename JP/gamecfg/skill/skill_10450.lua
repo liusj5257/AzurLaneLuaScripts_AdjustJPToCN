@@ -2,19 +2,19 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillAddBuff",
-				casterAniEffect = "",
-				target_choise = "TargetSelf",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillAddBuff",
+				target_choise = "TargetSelf",
 				arg_list = {
 					buff_id = 10451
 				}
 			},
 			{
-				type = "BattleSkillWeaponFire",
-				casterAniEffect = "",
-				target_choise = "TargetHarmRandom",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillWeaponFire",
+				target_choise = "TargetHarmRandom",
 				arg_list = {
 					weaponType = "AirAssist"
 				}
@@ -24,11 +24,11 @@ return {
 	uiEffect = "",
 	name = "最后的反击",
 	cd = 0,
+	picture = "0",
+	desc = "本舰被击破时，再次发动一轮空袭",
 	painting = 1,
 	id = 10450,
-	picture = "0",
 	castCV = "skill",
-	desc = "本舰被击破时，再次发动一轮空袭",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -39,19 +39,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 10451
 			}
 		},
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandom",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetHarmRandom",
 			arg_list = {
 				weaponType = "AirAssist"
 			}

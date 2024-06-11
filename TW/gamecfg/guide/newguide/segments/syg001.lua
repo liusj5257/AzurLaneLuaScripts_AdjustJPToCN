@@ -23,7 +23,13 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/liveButton",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/live"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/liveButton"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -33,8 +39,8 @@ return {
 				}
 			},
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -269.6,
 				posX = 0,
 				text = slot0[1]
@@ -59,8 +65,8 @@ return {
 				}
 			},
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 328.3,
 				posX = 23.2,
 				text = slot0[2]
@@ -70,8 +76,8 @@ return {
 			alpha = 0.4,
 			waitScene = "CourtYardScene",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[3]
@@ -81,56 +87,56 @@ return {
 			delay = 1,
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -98.9,
 				posX = -595.6,
 				text = slot0[4],
 				ui = {
-					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomleft/train_btn",
-					lineMode = 1
+					lineMode = 1,
+					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomleft/train_btn"
 				}
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 396.81,
 				posX = 348.85,
 				text = slot0[5],
 				ui = {
-					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/topPanel/btns/topright/comfortable",
-					lineMode = 1
+					lineMode = 1,
+					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/topPanel/btns/topright/comfortable"
 				}
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -238.4,
 				posX = 562.01,
 				text = slot0[6],
 				ui = {
-					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomright/shop_btn",
-					lineMode = 1
+					lineMode = 1,
+					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomright/shop_btn"
 				}
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -222.4,
 				posX = 395.2,
 				text = slot0[7],
 				ui = {
-					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomright/decorate_btn",
-					lineMode = 1
+					lineMode = 1,
+					path = "/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main/bottomPanel/bottomright/decorate_btn"
 				}
 			}
 		},
@@ -147,8 +153,8 @@ return {
 				}
 			},
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -284.9,
 				posX = -327.5,
 				text = slot0[8]
@@ -157,8 +163,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -331.3,
 				posX = 0,
 				text = slot0[9]
@@ -167,8 +173,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 200,
 				text = slot0[10]
@@ -194,8 +200,8 @@ return {
 				}
 			},
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[11]
@@ -204,8 +210,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -108.2,
 				posX = -628.9,
 				text = slot0[12]
@@ -220,8 +226,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -1.63,
 				posX = -317.61,
 				text = slot0[13]
@@ -237,8 +243,8 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				pathIndex = 0,
+				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				triggerType = {
 					1
 				},
@@ -248,8 +254,8 @@ return {
 				}
 			},
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[14]
@@ -269,8 +275,8 @@ return {
 				}
 			},
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -198.94,
 				posX = 475.1,
 				text = slot0[15]
@@ -279,8 +285,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[16]

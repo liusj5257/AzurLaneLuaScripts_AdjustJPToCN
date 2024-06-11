@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANGHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 306060,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "ついに来たね",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "自分を犧牲にして皆に勝利をもたらせるというのなら……この龍驤、例え火の海でも喜んで進んでみせる！",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "だが！",
 			typewriter = {
 				speed = 0.05,
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_rj",
-			actorName = "龍驤",
+			side = 2,
 			dir = 1,
+			actorName = "龍驤",
 			say = "囮でも囮の意地がある！そんな簡単に倒れはせん！",
 			effects = {
 				{
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "龍驤",
+			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "龍驤",
+			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "龍驤",
+			nameColor = "#a9f548",
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,

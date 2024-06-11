@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT20",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꿈의 만남 - 일상편\n\n<size=45>좋은 욕탕이네!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "(파바바박!!! 콰~앙! 퍼~엉!)",
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
+			say = "(파바바박!!! 콰~앙! 퍼~엉!)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "주의.",
 			typewriter = {
@@ -146,10 +146,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "저기 은발 여성의 의미심장한 미소에 경계심이 생깁니다.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "으음……누구네 언니도 걸핏하면 일으키고 그러지 않나?",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "쿠온, 방금 뭐라 하지 않았나요?",
 			typewriter = {
@@ -278,13 +278,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_chuansong",
+			side = 2,
+			dir = 1,
 			say = "짜잔~!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "굉장해 굉장해! 노천 욕탕인데 이렇게 커다란 건 처음이야~! 아하하하하~!",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "래, 라피님, 욕탕에서 잠들어버리면 물에 빠져버린다고요!",
 			typewriter = {
@@ -582,8 +582,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "커다란 욕탕? 그거, 흥미있을지도",
 			typewriter = {
@@ -615,8 +615,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#92fc63",
 			say = "목욕을 좋아하고 깨끗한 걸 좋아하는 건 중요하죠.",
 			typewriter = {
@@ -741,12 +741,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "왠지 늘 마음에 담아두시는 상대가 있는 모양입니다, 말 한 마디 한 마디에서 그 마음이 느껴집니다.",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "왠지 늘 마음에 담아두시는 상대가 있는 모양입니다, 말 한 마디 한 마디에서 그 마음이 느껴집니다.",
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -812,8 +812,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "으음……험담이라고 할 건 아니지만, 해주고 싶은 말이 산더미 처럼 쌓인 사람은 한 명 있다고 할까나?",
 			typewriter = {
@@ -826,10 +826,10 @@ return {
 			}
 		},
 		{
-			actor = 10300040,
 			nameColor = "#92fc63",
-			bgName = "bg_story_chuansong",
 			side = 0,
+			bgName = "bg_story_chuansong",
+			actor = 10300040,
 			dir = 1,
 			hideOther = true,
 			actorName = "우루루＆사라나",
@@ -916,12 +916,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 307050,
+			nameColor = "#92fc63",
 			say = "저희들에겐……지휘관님 같은 분, 일지도 모르겠네.",
 			typewriter = {
 				speed = 0.05,

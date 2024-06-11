@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Port - Temporary Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "Port - Temporary Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "I, I'm not sure about this...",
 			typewriter = {
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 101176,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actor = 101176,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "Laffey & Ayanami",
 			say = "Ooooh...",
@@ -92,8 +92,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "Chihaya, that looks super, duper amazing on you!",
 			effects = {
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "We'll be able to go home then?",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "Ah, um, I do have a question though...",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "Last time, our clones performed on a small ship stage, right? But we're going to be on the main stage this time?",
 			typewriter = {
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "I think this is a great opportunity for everyone to come out on stage and deliver a dazzling performance!",
 			typewriter = {
 				speed = 0.05,
@@ -374,8 +374,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -403,8 +403,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "I know you girls have rigging now, but you don't have to force yourselves to fight...",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "I don't see it as forcing ourselves. Please let us perform as well.",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "If our songs and dances can make a difference... we want to do everything we can to help!",
 			typewriter = {
@@ -483,11 +483,11 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700020,
+			nameColor = "#a9f548",
 			say = "I swear I won't do anything to endanger myself either. So please, let us join your performance!",
 			typewriter = {
 				speed = 0.05,
@@ -499,8 +499,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "Everyone",
 			dir = 1,
+			actorName = "Everyone",
 			say = "Hooray!",
 			effects = {
 				{
@@ -547,11 +547,11 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700050,
+			nameColor = "#a9f548",
 			say = "Singing and dancing lessons, rehearsals, syncing our choreography with the shipgirls, and designing the perfect set...",
 			effects = {
 				{
@@ -572,8 +572,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "We're going to have our hands full, aren't we~?",
 			typewriter = {
@@ -586,12 +586,12 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
 			say = "Hehe... Now this gets my blood pumping~♪",
 			typewriter = {
 				speed = 0.05,

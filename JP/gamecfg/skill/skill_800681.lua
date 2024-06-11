@@ -4,9 +4,9 @@ return {
 	cd = 0,
 	effect_list = {
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
 			target_choise = {
 				"TargetAllHarm",
 				"TargetShipTag"

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "俾斯麦主炮首轮必暴",
 	time = 0,
+	name = "俾斯麦主炮首轮必暴",
+	init_effect = "",
 	picture = "",
 	desc = "俾斯麦主炮首轮必暴",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onInternalBulletCreate"
 			},
 			arg_list = {
+				number = 1,
 				group = 12121,
 				attr = "GCT",
-				number = 1,
 				index = {
 					1
 				}

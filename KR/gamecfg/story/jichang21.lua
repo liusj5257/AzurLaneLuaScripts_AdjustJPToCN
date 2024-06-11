@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "모항・학원",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-WISHNESS-inst",
+			say = "모항・학원",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "아, 별일은 아니야. 누군가 지난번에 공연한 것처럼 계속 장비를—— 그니까, 아이돌 활동을 할 생각이 없냐고 물어봤거든.",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "지난번처럼 해보고 싶은 사람이 꽤 있는 것 같아.",
 			typewriter = {
@@ -164,14 +164,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "에에!「지휘관이나 르 트리옹팡이 부탁하지 않으면 절대 하지 않겠다고」??",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 901110,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#a9f548",
 			say = "맞아요. 그때를 떠올리는 것만으로도 벌써 지친다구요……",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "(아마 르 말랭은 진짜 하기 싫은 거겠지.)",
 			typewriter = {
@@ -246,13 +246,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "(똑똑)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

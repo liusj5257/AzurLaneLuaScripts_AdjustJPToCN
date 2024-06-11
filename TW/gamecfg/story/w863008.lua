@@ -1,12 +1,12 @@
 return {
-	id = "W863008",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W863008",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "能源矩陣放置完畢，所有電力方陣都重新開始運轉了！",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "....",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "！？",
 			typewriter = {
 				speed = 0.05,

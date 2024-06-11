@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			bgName = "bg_mmorpg_cg3",
+			mode = 1,
 			bgm = "theme-shallowoftheworld",
 			sequence = {
 				{
@@ -14,17 +14,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Great Fire Dragon",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "ROOOAAARRR!",
@@ -75,8 +75,8 @@ return {
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Legendary Fighter",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Ayanami",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Its scales are really tough... Dynamic Kick: Two-Hit Combo!",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Legendary Mage",
 			dir = 1,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Legendary Warrior",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Great Fire Dragon",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "ROOOAAARRR!",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Legendary Warrior",
 			dir = 1,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Legendary Hero",
 			dir = 1,
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "The Hero",
 			dir = 1,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Potion Maker",
 			dir = 1,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Potion Maker",
 			dir = 1,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "While the battle continues on the frontlines, I monitor the situation using my status screen.",
 			typewriter = {
@@ -277,17 +277,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "In terms of strength, our party does have what it takes to defeat this great dragon.",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "It won't be so easy, though. Our opponent is clever, using other monsters to throw us off our game while it backs off to recover its health.",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "The battle has reached a complete stalemate.",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Great Fire Dragon",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "GRAAAGHH?!",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "A hail storm of explosive items descends upon the dragon. Anyone can see this is far beyond its predictions.",
 			typewriter = {
@@ -531,17 +531,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -549,8 +549,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "In a fit of panic, it dodges out of the way, missing its chance to heal itself.",
 			typewriter = {
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "And so, the precarious balance in our neck and neck battle tips in our favor. Now we just need to overwhelm them.",
 			typewriter = {
@@ -569,8 +569,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "Only a few turns later, the Great Fire Dragon has finally been soundly defeated.",
 			typewriter = {
@@ -581,9 +581,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "Legendary Warrior",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			bgm = "ryza-az-theme",
 			actor = 431232,
 			nameColor = "#A9F548FF",
@@ -598,17 +598,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -659,11 +659,11 @@ return {
 			}
 		},
 		{
-			actor = 131171,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Legendary Mage",
 			dir = 1,
+			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I feel like someone else asked the same thing once...",
@@ -715,11 +715,11 @@ return {
 			}
 		},
 		{
-			actor = 201217,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Legendary Hero",
 			dir = 1,
+			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We had two healers when we fought today, didn't we?",
@@ -794,9 +794,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Farewell, legendary heroes...",
@@ -809,17 +809,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -839,11 +839,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Wait! You're forgetting something crucial, Commander!",
@@ -869,11 +869,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The dragon's treasure! We have to loot the den first! No time for breaks!",

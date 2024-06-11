@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15180,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15180,
+	color = "red",
 	icon = 15180,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {
+				skill_id = 15180,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 15180,
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -65,9 +65,9 @@ return {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {
+				skill_id = 15181,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				skill_id = 15181,
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -103,9 +103,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				time = 20,
 				target = "TargetSelf",
+				time = 20,
+				maxTargetNumber = 0,
 				skill_id = 15182,
 				check_target = {
 					"TargetAllHelp",

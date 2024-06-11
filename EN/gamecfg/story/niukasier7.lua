@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Paean for Peace\n\n<size=45>Her Desires</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_105",
+			side = 2,
+			dir = 1,
 			say = "Queen Elizabeth said that Newcastle should hold onto her own dreams.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,9 +44,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "However, she had already found the \"peace\" that made her life satisfying.",
 			typewriter = {
 				speed = 0.05,
@@ -54,14 +54,14 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 0.2,
-			say = "\"As for my dreams, those are but trivial matters.\"",
 			bgm = "story-2",
+			actor = 202190,
+			nameColor = "#a9f548",
+			say = "\"As for my dreams, those are but trivial matters.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "But somehow...",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "Newcastle treasures her friends greatly, and they reciprocate that feeling.",
 			typewriter = {
 				speed = 0.05,
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202190,
 			say = "Thus, in order to protect her own \"peace,\" she cannot disregard the \"peace\" of her friends.",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "Newcastle quietly closed her book.",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "I heard something in her voice that was never there before - a hint of nervousness.",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "She inched her body towards mine, her eyes fixed on my own...",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "Singing the wordless paean of the peace which she desired from the bottom of her heart...",
 			typewriter = {
 				speed = 0.05,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "Commander, would you treasure me?",
 			typewriter = {
 				speed = 0.05,

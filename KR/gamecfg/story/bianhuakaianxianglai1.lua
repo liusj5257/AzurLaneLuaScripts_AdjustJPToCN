@@ -6,8 +6,8 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			bgName = "star_level_bg_600",
 			dir = 1,
+			bgName = "star_level_bg_600",
 			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#A9F548FF",
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,10 +43,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우리의 눈부신 외교 성과에 건배!",
 			painting = {
 				alpha = 0.3,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "사르데냐 사람들",
+			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			say = "남극에서 '아비터'의 계획을 저지하고, 회의는 평소보다 더 열의를 띠고 착착 진행되고 있었다. 그러던 중…",
@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이제 앞으로 사태가 어떻게 변하든 원활하게 대응할 수 있겠지.",
 			painting = {
 				alpha = 0.3,
@@ -193,10 +193,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우리가 있는 사르데냐 엠파이어의 가능성에 주목하고 있어서겠지.",
 			painting = {
 				alpha = 0.3,
@@ -211,10 +211,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "세계박람회 이후로 언니들도 이렇게 앞에 자주 나서게 됐고, 덕분에 사르데냐의 영향력도 쭉쭉 올라가고 있어.",
 			painting = {
 				alpha = 0.3,
@@ -229,10 +229,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "행운은 꼬리에 꼬리를 물고 찾아온다고들 하잖아?",
 			painting = {
 				alpha = 0.3,
@@ -247,10 +247,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어쩌면 새로운 '벽람항로'에서도 큰 발언력을 행사할 수 있을지도 몰라.",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "당연히 그래야지. 아하하하!",
 			painting = {
 				alpha = 0.3,
@@ -332,10 +332,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "건배!",
 			painting = {
 				alpha = 0.3,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "사르데냐 사람들",
+			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

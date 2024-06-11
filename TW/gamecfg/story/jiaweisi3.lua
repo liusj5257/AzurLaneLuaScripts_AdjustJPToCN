@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"聽妳說喜歡\n\n<size=45>三　小傷口</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "自從傑維斯表示要勞逸結合後，日程表上就強制插入了幾個休息時段。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "自從傑維斯表示要勞逸結合後，日程表上就強制插入了幾個休息時段。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,10 +53,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "現在工作時間結束，指揮官，你該休息了。",
 			typewriter = {
 				speed = 0.05,
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "無視此類提案繼續工作的嘗試已經在之前傑維斯的“鐵腕拖曳”下失敗了。",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "現在只好把手中的文件放到一邊，準備起身。",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "忽然，指尖傳來一陣刺痛——",
 			typewriter = {
 				speed = 0.05,
@@ -118,10 +118,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……別動！把手給我，馬上幫你處理！",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,10 +146,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "先消毒……然後包紮……還好我有帶醫療箱過來。",
 			typewriter = {
 				speed = 0.05,
@@ -164,10 +164,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗯……這樣應該就沒問題了。",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "真是的，指頭被紙張劃破這種小機率事件都能被你遇上。",
 			typewriter = {
 				speed = 0.05,
@@ -200,10 +200,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "別看紙張那麼柔軟，其實邊緣可是鋸齒狀的。",
 			typewriter = {
 				speed = 0.05,
@@ -218,10 +218,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不想下次還感受消毒的疼痛的話，還請自己當心一些。",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
 			say = "不知道為何，居然從傑維斯的語氣中聽出到了一絲期待……？",
 			typewriter = {
 				speed = 0.05,

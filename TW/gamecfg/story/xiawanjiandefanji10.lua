@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201110,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "level02",
 			dir = 1,
 			say = "聯繫到她了！愛斯基摩遭遇了鐵血驅逐主力，現在正在戰鬥中，希望我們迅速支援！！",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

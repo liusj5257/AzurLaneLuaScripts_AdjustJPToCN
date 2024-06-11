@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"渡假村神秘事件調查\n\n<size=45>異常事件調查小隊</size>",
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "兩日後的溫泉渡假村——",
 			bgm = "theme-warmwinter-daily",
+			say = "兩日後的溫泉渡假村——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "偶像度假中",
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官~我們快到站了哦！",
@@ -47,8 +47,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官~我們快到站了哦！",
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哎嘿嘿，因為我太開心了嘛~",
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "但是好奇怪，怎麼旅館門口這麼安靜？",
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "本來還以為大家會來迎接我們的呢。",
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "和噗噗在一起",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "除非……",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嚯嚯……我聞到了神秘事件出現的氣息。",
@@ -244,28 +244,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_516",
+			bgm = "cw-story",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "溫泉渡假村·主宅",
-			bgm = "cw-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "茶杯也都擺在桌子上，甚至茶壺裡的水都是溫的。",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官！快看看我找到了什麼！！！",
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "撫順誇張地指向餐桌，桌子上平放著一張與周圍格格不入的卡片。",
@@ -406,8 +406,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "明顯是從不同的紙張上剪下的單字被貼在卡片上，拼湊出一封紅黑相間的詭異信件。",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我來讀我來讀！",
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "“為歡迎汝等到來，吾等準備了世界第一的精彩演出。”",
@@ -491,11 +491,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "“期待汝等到來。”",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "最後是寫了妖怪劇團敬上……對吧，對吧！",
@@ -675,11 +675,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒錯！我、撫順、霞、初月！剛剛好四個人組成調查小隊！",
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "政委度假中",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官同志，我還是有點不放心。我可以聯絡港區呼叫支援嗎？",

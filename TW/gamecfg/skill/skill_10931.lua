@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "威光",
 	cd = 0,
+	picture = "0",
+	desc = "开灯",
 	painting = 1,
 	id = 10930,
-	picture = "0",
 	castCV = "skill",
-	desc = "开灯",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,19 +17,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerMainFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerMainFleet",
 			arg_list = {
 				buff_id = 10931
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandom",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetHarmRandom",
 			arg_list = {
 				buff_id = 10932
 			}

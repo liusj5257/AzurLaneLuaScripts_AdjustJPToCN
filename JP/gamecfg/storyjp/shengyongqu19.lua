@@ -1,18 +1,18 @@
 return {
-	id = "SHENGYONGQU19",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU19",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 6,
 			side = 2,
+			dir = -1,
+			bgm = "hunhe-battle",
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = -1,
 			say = "この大型駆逐艦ヴォークラン、簡単にやられるとは思わないことよ！ピーちゃん！",
-			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "こっちの「マホウ」を完全に回避できたのですね。ですが本番はこれから――！",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.7,
 					dur = 0.5,
 					x = -2500
@@ -63,10 +63,10 @@ return {
 			}
 		},
 		{
+			say = "―――！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "―――！",
 			flashN = {
 				color = {
 					1,
@@ -117,8 +117,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ヴォークランちゃん、ずっと距離を取ってぐるぐると回っているから、艤装の動力部を狙いづらいよ！",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "（バレたからには仕方ありません。量産型を掃討しつつ、ヴォークランを包囲します！）",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "みんな、損傷状況の報告をお願いします！",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ル・テメレール、状態良好！すごく軽微な損傷が何箇所かあるけど大丈夫！",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "こっちも大丈夫です。戦闘継続に問題ありません",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -237,8 +237,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "フォーチュンさん……",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ヴォークランちゃん、なんで…？",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "リシュリューさん、すみません――戦闘方針を変えます！急所を外すのに変更はありませんが、兵装を狙ってください！",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ロイヤルの子だって傷つけさせちゃダメですからね…！",
 			typewriter = {
 				speed = 0.05,

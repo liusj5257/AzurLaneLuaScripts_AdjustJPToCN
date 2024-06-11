@@ -1,14 +1,14 @@
 slot0 = class("GameHallScene", import("..base.BaseUI"))
 slot0.open_with_list = false
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GameHallUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initTopUI()
 	slot0:initHomeUI()
 
@@ -60,7 +60,7 @@ function slot0.didEnter(slot0)
 	slot0:updateUI()
 end
 
-function slot0.initTopUI(slot0)
+slot0.initTopUI = function(slot0)
 	slot0.btnBack = findTF(slot0._tf, "ad/topPanel/btnBack")
 	slot0.btnHome = findTF(slot0._tf, "ad/topPanel/btnHome")
 	slot0.btnHelp = findTF(slot0._tf, "ad/topPanel/btnHelp")
@@ -95,17 +95,17 @@ function slot0.initTopUI(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.openExchangePanel(slot0, slot1)
+slot0.openExchangePanel = function(slot0, slot1)
 	slot0.exchangePanel:setVisible(slot1)
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return {
 		showType = bit.bor(PlayerResUI.TYPE_OIL, PlayerResUI.TYPE_GOLD)
 	}
 end
 
-function slot0.initHomeUI(slot0)
+slot0.initHomeUI = function(slot0)
 	slot0.btnShop = findTF(slot0._tf, "ad/btnShop")
 	slot0.btnPlay = findTF(slot0._tf, "ad/btnPlay")
 
@@ -129,21 +129,21 @@ function slot0.initHomeUI(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	setActive(slot0.freeCoinTf, getProxy(GameRoomProxy):getWeekly())
 	setText(slot0.textCoin, getProxy(GameRoomProxy):getCoin())
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0.charController:step()
 end
 
-function slot0.changeTitle(slot0, slot1)
+slot0.changeTitle = function(slot0, slot1)
 	setActive(findTF(slot0._tf, "ad/topPanel/title_list"), slot1)
 	setActive(findTF(slot0._tf, "ad/topPanel/title_main"), not slot1)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.listPanel:getVisible() then
 		slot0.listPanel:setVisible(false)
 		slot0:changeTitle(false)
@@ -160,7 +160,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD401A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD401A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			bgm = "story-italy",
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "Behold, the wondrous port of Taranto. ...Ah, did the Royal Navy arrive before us?",
-			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,14 +27,14 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			bgName = "bg_port_talantuo",
 			actor = 605020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "My sincerest apologies for being absent to greet Her Majesty’s arrival.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,8 +78,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "I see... You don’t look like you came from sightseeing though. Did something happen on the way?",
 			typewriter = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#ffff4d",
 			say = "Oh, nothing out of the ordinary. Just the usual stuff with the Crimson Axis ports not allowing me to enter. It definitely wasn’t a waste of my time at all.",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#ffff4d",
 			say = "Why you...!",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#ffff4d",
 			say = "Our resources have indeed been a bit strained... but we will rectify our shortcomings. Perhaps we should consult the Eagle Union, since you said that about them as well before the events of Operation AF.",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "Now now, everyone, let’s calm down~ We’re all here for the sake of peace, so why don’t we set this aside for now?",
 			typewriter = {
@@ -309,9 +309,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
 			blackBg = true,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "We’ll begin the negotiations when the Iron Blood arrives. Until then, please enjoy everything Taranto has to offer.~",
 			typewriter = {

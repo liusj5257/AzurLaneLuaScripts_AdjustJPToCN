@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN20",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_6",
-			stopbgm = true,
-			say = "米德加尔特之塔中心的光柱闪烁着。",
 			bgmDelay = 2,
 			bgm = "theme-bismark-reborn",
+			stopbgm = true,
+			say = "米德加爾特之塔中心的光柱閃爍著。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,20 +28,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "随着装置的启动，众人再次完成了转移。",
+			say = "隨著裝置的啟動，眾人再次完成了轉移。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "但转移的目的地却并非众人所期望的空中都市。",
+			say = "但轉移的目的地卻並非眾人所期望的空中都市。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,11 +51,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "居然没有前往主机之中……？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "居然沒有前往主機之中……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,13 +66,13 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "这样一来先前用主机作为诱饵的假设就不成立了……",
+			hidePaintObj = true,
+			say = "這樣一來先前用主機當誘餌的假設就不成立了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,11 +86,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "大家快看、海域中的“红区”与“蓝区”反转了……！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "大家快看、海域中的「紅區」與「藍區」反轉了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,11 +104,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "不光如此，就连米德加尔特的光芒也……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不光如此，就連米德加爾特的光芒也……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,43 +119,43 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "众人环顾四周，眼前的景色有了巨大变化。",
+			say = "眾人環顧四周，眼前的景色有了巨大變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "不止是空中的都市消失了，就连天空、水面还有米德加尔特之塔的光芒都发生了倒转。",
+			say = "不只是空中的都市消失了，就連天空、水面還有米德加爾特之塔的光芒都發生了倒轉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "但毫无疑问的是，她们依然被困在这个神秘的空间之中。",
+			say = "但毫無疑問的是，她們依然被困在這個神祕的空間中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "和之前一样，我们的位置依然正好处于红色与蓝色水面的分界处。",
+			hidePaintObj = true,
+			say = "和之前一樣，我們的位置依然正好處於紅色與藍色水面的分界處。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,11 +169,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "麻烦的是水面反转了，想要回到米德加尔特之塔就必须穿越“红区”。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "麻煩的是水面反轉了，想要回到米德加爾特之塔就必須穿越「紅區」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,11 +187,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "{namecode:435}阁下，我认为有必要采集一下这片海域的海水样本。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "俾斯麥閣下，我認為有必要採集這片海域的海水樣本。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,13 +202,13 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "嗯……而且最好多收集几个位置。",
+			hidePaintObj = true,
+			say = "嗯……而且最好多收集幾個位置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,28 +222,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "{namecode:491}，能操纵舰载机办到么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 406030,
-			side = 2,
-			bgName = "bg_bsmre_6",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我试一下，{namecode:435}大人。",
+			say = "亞德，能操縱艦載機辦到嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,10 +237,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_bsmre_6",
-			say = "悬挂着采集容器的舰载机向在众人的注视中腾空而起，又轻巧地贴向了海面。",
+			dir = 1,
+			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "我試一下，俾斯麥大人。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_bsmre_6",
+			say = "懸掛著採集容器的艦載機向在眾人的注視中騰空而起，又輕巧地貼向了海面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,11 +267,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
-			say = "哇哦…好熟练！舰载机居然也能做这种事么！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "哇…好熟練！艦載機居然也能做這種事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,10 +295,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "惊讶到了吧~这可是坚持练习的好孩子才有的技巧哦~",
+			say = "驚訝到了吧~這可是堅持練習的好孩子才有的技巧哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,26 +309,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "一段时间后————",
+			say = "一段時間後————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -336,23 +336,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_6",
-			say = "{namecode:464}微微抬起手中的样本，借助着远处米德加尔特之塔的巨大光柱，仔细端详着。",
+			say = "烏爾里希微微抬起手中的樣本，借助遠處米德加爾特之塔的巨大光柱，仔細端詳著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "全部都是……无色透明的澄清液体。",
+			hidePaintObj = true,
+			say = "全部都是……無色透明的澄清液體。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,11 +366,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "不论是从“红区”中收集而来的，还是从“蓝区”中收集而来的……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不論是從「紅區」收集而來的，還是從「藍區」收集而來的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,13 +381,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "真的哎！可是……这也太奇怪了吧？",
+			hidePaintObj = true,
+			say = "真的哎！可是……這也太奇怪了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -411,11 +411,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "……基于现状，只能有一个解释了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……基於現狀，只能有一個解釋了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,11 +429,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "不论是“红区”还是“蓝区”，水的颜色区分只是表象。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不論是「紅區」還是「藍區」，水的顏色區分只是表象。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,11 +447,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "导致这一切的，是涉及到这个空间的、更加本质的某种“规则”。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "導致這一切的，是涉及這個空間的、更本質的某種「規則」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,13 +462,13 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "或许只有在这片海域中的时候，那些海水才会呈现出不同的两种状态。简单的取样是徒劳的。",
+			hidePaintObj = true,
+			say = "或許只有在這片海域中的時候，那些海水才會呈現出不同的兩種狀態。簡單的取樣是徒勞無功的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,11 +482,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "所以在取样后，我们只能得到纯净“海水”。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "所以取樣後，我們只能得到純淨「海水」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,13 +497,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "就像有一个巨大的投影装置把颜色打在了水面上……所以我们捞出来的水才是没有颜色的？",
+			hidePaintObj = true,
+			say = "就像有一個巨大的投影裝置把顏色打在水面上了……所以我們撈出來的水才是沒有顏色的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,11 +517,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
-			say = "可以这么简单理解。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "可以這麼簡單理解。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,13 +532,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "那这也太奇怪了……要实现这种规模的投影，这个装置本身得有多巨大啊。",
+			hidePaintObj = true,
+			say = "那這也太奇怪了……要實現這種規模的投影，這個裝置本身要有多巨大啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,13 +549,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "可是我们并没有见到类似的东西。",
+			hidePaintObj = true,
+			say = "可是我們並沒有見到類似的東西。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,13 +566,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "而且，之前{namecode:434}小姐也说过吧，那些红色的水中有META化侵蚀的气息。",
+			hidePaintObj = true,
+			say = "而且，之前格奈森瑙小姐也說過吧，那些紅色的水中有META化侵蝕的氣息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,11 +586,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "没错……不过我并没有从这些从红色区域收集的样本上感受到类似的气息。",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "沒錯……不過我並沒有從這些從紅色區域收集的樣本上感受到類似的氣息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,11 +604,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "这种情况我也是第一次见……",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "這種情況我也是第一次看到……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,11 +622,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "……或许是能赋予信息的投影。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……或許是能賦予訊息的投影。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,13 +637,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "赋予信息的投影……？",
+			hidePaintObj = true,
+			say = "賦予訊息的投影……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,13 +654,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_bsmre_6",
+			dir = 1,
 			actor = 405050,
-			side = 2,
-			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在只有一点不成熟的想法，还需要收集更多证据。",
+			hidePaintObj = true,
+			say = "現在只有一點不成熟的想法，還需要收集更多證據。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,13 +671,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "那接下来——只能继续前进下去了吧？",
+			hidePaintObj = true,
+			say = "那接下來——只能繼續前進下去了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,11 +691,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，再次向着米德加尔特之塔前进吧。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗯，再次向米德加爾特之塔前進吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,11 +709,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "等、等等{namecode:435}大人！侦测到了奇怪的信号，来源是……我们的后方？！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "等、等等俾斯麥大人！偵測到了奇怪的訊號，來源是……我們的後方？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,8 +724,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -737,11 +737,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
-			say = "……敌袭确认，鉴别型号为塞壬IV型，数量为海量！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……敵襲確認，鑑別型號為塞壬IV型，數量為海量！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,8 +752,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -765,11 +765,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "想把我们逼进去的意思么……看来它们也知道“红区”的危险性。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "想把我們逼進去的意思嗎……看來它們也知道「紅區」的危險性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,13 +780,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_bsmre_6",
+			dir = 1,
 			actor = 307060,
-			side = 2,
-			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正我们也是打算过去的，就不劳烦它们来送了~",
+			hidePaintObj = true,
+			say = "反正我們也是打算過去的，就不勞煩它們來送了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,11 +800,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "嗯，不要跟塞壬打无意义的消耗战。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗯，不要跟塞壬打無意義的消耗戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,13 +815,13 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "我们笔直前进，以最快的速度穿越“红区”。",
+			hidePaintObj = true,
+			say = "我們筆直前進，以最快的速度穿越「紅區」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,11 +835,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "在这期间，我和革律翁会全力保护大家的安全，不用担心。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "在這段期間，我和革律翁會全力保護大家的安全，不用擔心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -850,13 +850,13 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "时间紧迫，我们出发！",
+			hidePaintObj = true,
+			say = "時間緊迫，我們出發！",
 			painting = {
 				alpha = 0.3,
 				time = 1

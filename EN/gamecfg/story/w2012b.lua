@@ -1,15 +1,15 @@
 return {
-	id = "W2012B",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2012B",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Scan complete. Siren Blockade Device has been activated. Flipping correct switch to lift the blockade is recommended.",
 			typewriter = {
 				speed = 0.05,

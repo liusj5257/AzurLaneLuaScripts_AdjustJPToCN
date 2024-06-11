@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900219,
-			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "가뿐하군. 봉~! 쇄~! 돌~! 파~! 흐흥, 모든 III형 장비를 허가받고 나면, 겨우 노스 유니온 따위의 극지 함대가 어떻게 날 막겠어!",
 			bgm = "xinnong-3",
+			actor = 900219,
+			nameColor = "#ff5c5c",
+			say = "가뿐하군. 봉~! 쇄~! 돌~! 파~! 흐흥, 모든 III형 장비를 허가받고 나면, 겨우 노스 유니온 따위의 극지 함대가 어떻게 날 막겠어!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "아아아아아아! 어째 요즘 NA해역 옵저버의 눈빛을 이야기 할때마다 매우 공포스러워지는 것 같지….",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_hms_0",
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "하하하, 그럼 먼저 로열 네이비 함대들로 연습해보자고.",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"소류 씨와 함께\n\n<size=45>제7장 - 변화 (하)</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307030,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "오늘 내내 다들 신기하단 눈으로 저흴 봤었죠.",
 			bgm = "story-2",
+			actor = 307030,
+			nameColor = "#92fc63",
+			say = "오늘 내내 다들 신기하단 눈으로 저흴 봤었죠.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "오늘의 소류는 평소라면 상상도 할 수 없는 모습이었단 건 확실하다.",
 			typewriter = {
 				speed = 0.05,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#92fc63",
 			say = "소류는 안경을 살짝 올리곤, 이쪽을 바라본다.",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#92fc63",
 			say = "터무니없이 대담한 고백을 했음에도 불구하고, 소류는 조금도 부끄러워하는 기색이 없다.",
 			typewriter = {
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "지휘관님, 지난번 히류와 한 말을 아직 기억하시나요?",
 			typewriter = {
 				speed = 0.05,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#92fc63",
 			say = "내가 그녀에게 영향을 받았듯이, 그녀 또한 나 때문에 생각이 바뀐 건가……",
 			typewriter = {
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#92fc63",
 			say = "소류를 향한 마음은, 이제 와서 굳이 말로 설명할 필요도 없다. 다만, 이 흐름에서 말해야 하는 건……",
 			typewriter = {
@@ -286,11 +286,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "……훗.",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -328,12 +328,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "혹시라도 지휘관님께서 저를 한 번이라도 이기신다면, 무엇을 말씀하시든 다 들어 드릴 테니까요.",
 			typewriter = {
 				speed = 0.05,

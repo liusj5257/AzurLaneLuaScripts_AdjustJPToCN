@@ -1,6 +1,6 @@
 slot0 = class("EducateShop", import("model.vo.BaseVO"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.configId = slot0.id
 	slot0.goods = {}
@@ -12,11 +12,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:initRefreshTime()
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.child_shop
 end
 
-function slot0.initRefreshTime(slot0)
+slot0.initRefreshTime = function(slot0)
 	slot0.refreshWeeks = {}
 
 	if slot0:getConfig("goods_refresh_time") ~= -1 then
@@ -30,7 +30,7 @@ function slot0.initRefreshTime(slot0)
 	end
 end
 
-function slot0.GetShopTip(slot0)
+slot0.GetShopTip = function(slot0)
 	if #slot0.refreshWeeks == 0 then
 		return i18n("child_shop_tip2")
 	else
@@ -38,11 +38,11 @@ function slot0.GetShopTip(slot0)
 	end
 end
 
-function slot0.GetCommodities(slot0)
+slot0.GetCommodities = function(slot0)
 	return slot0:getSortGoods()
 end
 
-function slot0.GetGoods(slot0, slot1)
+slot0.GetGoods = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.goods) do
@@ -63,19 +63,19 @@ function slot0.GetGoods(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetGoodById(slot0, slot1)
+slot0.GetGoodById = function(slot0, slot1)
 	return slot0.goods[slot1]
 end
 
-function slot0.UpdateGood(slot0, slot1)
+slot0.UpdateGood = function(slot0, slot1)
 	slot0.goods[slot1.id] = slot1
 end
 
-function slot0.IsRefreshWeek(slot0, slot1)
+slot0.IsRefreshWeek = function(slot0, slot1)
 	return table.contains(slot0.refreshWeeks, slot1)
 end
 
-function slot0.IsRefreshShop(slot0, slot1)
+slot0.IsRefreshShop = function(slot0, slot1)
 	return slot0:IsRefreshWeek(EducateHelper.GetWeekIdxWithTime(slot1))
 end
 

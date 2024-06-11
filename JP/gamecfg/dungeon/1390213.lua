@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-80,
 				20,
@@ -71,9 +71,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13600121,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -86,9 +86,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13600127,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -103,9 +103,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13600121,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -130,10 +130,10 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13600128,
-							reinforceDelay = 6,
 							score = 0,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 6,
 							corrdinate = {
 								-5,
 								0,
@@ -150,9 +150,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 13600123,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								3,
 								0,
@@ -165,9 +165,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13600121,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -181,9 +181,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13600121,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -197,9 +197,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13600123,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								3,
 								0,
@@ -237,8 +237,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13600153,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							score = 0,
 							corrdinate = {
 								-5,
@@ -260,10 +260,10 @@ return {
 									switchParam = 1.5
 								},
 								{
-									switchType = 1,
+									switchParam = 2.5,
 									switchTo = 2,
 									index = 1,
-									switchParam = 2.5,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										650018,
@@ -273,9 +273,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 2,
 									switchParam = 6,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									addWeapon = {
 										650023
@@ -286,10 +286,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 1.5,
 									switchTo = 4,
 									index = 3,
-									switchParam = 1.5,
+									switchType = 1,
 									setAI = 70091,
 									addWeapon = {
 										650019,
@@ -300,9 +300,9 @@ return {
 									}
 								},
 								{
-									index = 4,
 									switchType = 1,
 									switchTo = 5,
+									index = 4,
 									switchParam = 0.5,
 									removeWeapon = {
 										650018,
@@ -311,9 +311,9 @@ return {
 									}
 								},
 								{
-									index = 5,
 									switchParam = 11,
 									switchTo = 6,
+									index = 5,
 									switchType = 1,
 									addWeapon = {
 										650020,
@@ -323,10 +323,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 1.5,
 									switchTo = 0,
 									index = 6,
-									switchParam = 1.5,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {},
 									removeWeapon = {
@@ -341,9 +341,9 @@ return {
 				},
 				{
 					triggerType = 10,
-					conditionType = 0,
 					waveIndex = 1001,
 					warning = true,
+					conditionType = 0,
 					preWaves = {
 						500,
 						102,

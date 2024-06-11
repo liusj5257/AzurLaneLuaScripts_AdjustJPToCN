@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "轮型阵护卫",
 	time = 0,
-	color = "yellow",
+	name = "轮型阵护卫",
+	init_effect = "",
+	id = 120,
 	picture = "",
 	desc = "舰队全员防空提高20%",
 	stack = 1,
-	id = 120,
+	color = "yellow",
 	icon = 120,
 	last_effect = "",
 	effect_list = {

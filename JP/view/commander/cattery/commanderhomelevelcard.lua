@@ -3,7 +3,7 @@ slot1 = "#9A9898"
 slot2 = "#a59897"
 slot3 = "#6a5a5a"
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.view = slot2
@@ -19,7 +19,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.expTxt = findTF(slot0._tf, "exp"):GetComponent(typeof(Text))
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0:Clear()
 
 	slot0.home = slot1
@@ -54,7 +54,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0.expTxt.text = setColorStr(slot2.totalExp, slot4)
 end
 
-function slot0.UpdateLockState(slot0)
+slot0.UpdateLockState = function(slot0)
 	setFillAmount(slot0.progress, 0)
 	setActive(slot0.lockTF, true)
 	onButton(nil, slot0.lockTF, function ()
@@ -62,7 +62,7 @@ function slot0.UpdateLockState(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateDoingState(slot0)
+slot0.UpdateDoingState = function(slot0)
 	slot2 = 0
 
 	if pg.commander_home[slot0.config.level - 1] then
@@ -77,7 +77,7 @@ function slot0.UpdateDoingState(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateUnlockState(slot0)
+slot0.UpdateUnlockState = function(slot0)
 	setFillAmount(slot0.progress, 1)
 	setActive(slot0.unlockTF, true)
 	setActive(slot0.descUnLockIcon, true)
@@ -86,17 +86,17 @@ function slot0.UpdateUnlockState(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.ShowDesc(slot0)
+slot0.ShowDesc = function(slot0)
 	slot0.view:ShowDescWindow(slot0.config.desc, slot0.config.level)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	removeOnButton(slot0.lockTF)
 	removeOnButton(slot0.doingTF)
 	removeOnButton(slot0.unlockTF)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 

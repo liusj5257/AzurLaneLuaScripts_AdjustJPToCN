@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN31-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN31-1",
 	scripts = {
 		{
-			stopbgm = true,
 			nameColor = "#A9F548FF",
+			stopbgm = true,
+			say = "革律翁的雙翼掀起風暴，咆哮著衝向水面的敵人。",
 			side = 2,
-			bgm = "theme-thedevilXV",
 			bgmDelay = 2,
-			say = "革律翁的双翼掀起风暴，咆哮着冲向水面的敌人。",
+			bgm = "theme-thedevilXV",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -27,9 +27,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "然而，代行者舰队并没有如预期般陷入混乱，反倒是组织起了更加猛烈的防空火力。",
+			nameColor = "#A9F548FF",
+			say = "然而，代行者艦隊並沒有如預期般陷入混亂，反倒是組織起了更猛烈的防空火力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,9 +39,9 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9704010,
 			dir = 1,
-			say = "那些代行者的状态……和之前不一样了。",
+			actor = 9704010,
+			say = "那些代行者的狀態……和之前不一樣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,9 +55,9 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
+			dir = 1,
 			actor = 405050,
-			dir = 1,
-			say = "革律翁，回到舰队中来！",
+			say = "革律翁，回到艦隊中來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,11 +70,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 9704010,
 			nameColor = "#ffa500",
-			dir = 1,
-			say = "我来掩护！",
-			soundeffect = "event:/battle/boom2",
+			say = "我來掩護！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "革律翁",
+			side = 2,
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
 			soundeffect = "event:/battle/boom2",
+			say = "▂▃▄▅▆▇███*憤怒地咆哮*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,11 +182,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			actor = 402100,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
-			say = "女灶神小姐，那些敌人怎么会……突然变成这种样子？",
+			hidePaintObj = true,
+			say = "女灶神小姐，那些敵人怎麼會……突然變成這種樣子？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,9 +206,9 @@ return {
 			expression = 2,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
-			say = "我没有确切的证据。",
+			actor = 9712010,
+			say = "我沒有確切的證據。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "不过也许和迪贝路的代行者一样，它们也受到了赫米忒管理机变化的影响。",
+			say = "不過也許和迪貝路的代行者一樣，它們也受到了赫米忒管理機變化的影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 406030,
 			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "{namecode:435}大人，我的舰载机损失惨重！",
+			say = "俾斯麥大人，我的艦載機損失慘重！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,9 +263,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 406030,
 			dir = 1,
-			say = "第一波派出去的飞机几乎无一返回。",
+			actor = 406030,
+			say = "第一波派出去的飛機幾乎無一返回。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,9 +279,9 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 406030,
 			dir = 1,
-			say = "现在舰载机光是防御舰队上空就很吃力了，我没法组织第二波进攻。",
+			actor = 406030,
+			say = "現在艦載機光是防禦艦隊上空就很吃力了，我沒辦法組織第二波進攻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那些混在敌方舰队中的迪贝路悬浮飞行器，得想办法处理一下才行！",
+			say = "那些混在敵方艦隊中的迪貝路懸浮飛行器，得想辦法處理一下才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,9 +315,9 @@ return {
 			expression = 4,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
-			say = "我知道方法，但，需要一个极其擅长电子战的人来实施。",
+			actor = 9712010,
+			say = "我知道方法，但，需要一個極度擅長電子戰的人來實施。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……啊哈哈，看来只能硬碰硬了。",
+			say = "……啊哈哈，看來只能硬碰硬了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不要忘记我们的目标，{namecode:96}小姐。",
+			say = "不要忘記我們的目標，瑞鶴小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "瘫痪赫米忒的管理机是吧，我记得呢！",
+			say = "癱瘓赫米忒的管理機是吧，我記得呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是那个管理机一直缩在后面不出来，如果不先突破防空火力网的话！",
+			say = "但是那個管理機一直縮在後面不出來，如果不先突破防空火力網的話！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -401,9 +401,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "用和之前一样的战术。",
+			actor = 405050,
+			say = "用和之前一樣的戰術。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "{namecode:464}来指挥舰队拖延时间。",
+			say = "烏爾里希來指揮艦隊拖延時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,9 +432,9 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "我去瘫痪赫米忒的管理机。",
+			actor = 405050,
+			say = "我去癱瘓赫米忒的管理機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			nameColor = "#a020f0",
 			dir = 1,
-			say = "{namecode:435}，实话实说，你的……",
+			say = "俾斯麥，實話實說，你的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,9 +463,9 @@ return {
 			expression = 2,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
-			say = "革律翁这一舰装的技术很特殊，仲裁机关也会对你相当有兴趣才对。",
+			actor = 9712010,
+			say = "革律翁這一艦裝的技術很特殊，仲裁機關也會對妳相當有興趣才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,9 +479,9 @@ return {
 			expression = 4,
 			nameColor = "#a020f0",
 			side = 2,
+			dir = 1,
 			actor = 9712010,
-			dir = 1,
-			say = "万一这是一个诱捕你的陷阱呢？",
+			say = "萬一這是一個誘捕妳的陷阱呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,9 +495,9 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "那这次事件中的陷阱也太多了一点。",
+			actor = 405050,
+			say = "那這次事件當中的陷阱也太多了一點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,9 +511,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "一路上的经历让我们出现了太多猜测、疑虑与对于未知的恐惧。",
+			actor = 405050,
+			say = "一路上的經歷讓我們出現了太多猜測、疑慮與對於未知的恐懼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "但是，世界也不是光靠阴谋与诡计推动的。",
+			say = "但是，世界也不是光靠陰謀與詭計推動的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,9 +542,9 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "既然看到了胜利的机会，就不能坐视其白白流逝。",
+			actor = 405050,
+			say = "既然看到了勝利的機會，就不能坐視其白白流逝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,9 +558,9 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "其中的风险，就由我来承受吧。",
+			actor = 405050,
+			say = "其中的風險，就由我來承受吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,9 +574,9 @@ return {
 			expression = 1,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
-			say = "……我明白了。虽然我并非战斗型，不过会尽可能为你们提供支援的。",
+			actor = 9712010,
+			say = "……我明白了。雖然我並非戰鬥型，不過會盡可能為妳們提供支援的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,9 +590,9 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
-			say = "那么后方就交给你了，女灶神小姐。",
+			actor = 405050,
+			say = "那麼後方就交給妳了，女灶神小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,10 +606,10 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐，让我跟你一起去吧！",
+			actor = 9708010,
+			actorName = "U-556·META？",
+			say = "俾斯麥姐姐，讓我跟妳一起去吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,8 +620,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -633,10 +633,10 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "这一次我绝对不会离开你了！",
+			actor = 9708010,
+			actorName = "U-556·META？",
+			say = "這次我絕對不會離開妳了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……好，我们出发！",
+			say = "……好，我們出發！",
 			painting = {
 				alpha = 0.3,
 				time = 1

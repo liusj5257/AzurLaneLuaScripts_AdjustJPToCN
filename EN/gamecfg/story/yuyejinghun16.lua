@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			bgm = "qe-ova-15",
 			actorName = "Essex",
+			bgm = "qe-ova-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Although the wall is only made of boards, it is quite heavy.",
 			typewriter = {
@@ -49,9 +49,9 @@ return {
 		{
 			portrait = 202080,
 			side = 2,
+			actorName = "Sheffield",
 			bgName = "star_level_bg_600",
 			factiontag = "History Nerd GM",
-			actorName = "Sheffield",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There are tons of tables and chairs, boxes filled with tableware, paper towels, fireworks, and other things lying around inside.",
@@ -60,17 +60,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -198,27 +198,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_600",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_600",
 			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

@@ -1,15 +1,15 @@
 return {
-	id = "WTrap317",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTrap317",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "The fleet is about to enter a whirlpool. Movement capabilities will be impaired.",
 			typewriter = {
 				speed = 0.05,

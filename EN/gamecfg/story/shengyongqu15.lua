@@ -1,17 +1,17 @@
 return {
-	id = "SHENGYONGQU15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "The Basilica Isle - Surrounding Waters",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "level-french2",
+			say = "The Basilica Isle - Surrounding Waters",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,11 +31,11 @@ return {
 			}
 		},
 		{
-			say = "*beep beep*！！！",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "*beep beep*！！！",
 			flashN = {
 				color = {
 					1,
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "(Sorry, Algérie, but no matter how much you've strengthened these mass-produced ships, there's no way we'd lose in a direct engagement.)",
 			typewriter = {
@@ -119,8 +119,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Illustrious, Béarn, as I detailed earlier, please focus on neutralizing Algérie by disabling her rigging.",
 			typewriter = {
@@ -133,13 +133,13 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "Of course. The holy light will guide us. Hehe~",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,13 +150,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_qiongding_1",
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 807010,
-			side = 2,
-			bgName = "bg_qiongding_1",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "As you command. Lady Illustrious, allow me to be your escort.",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,15 +167,15 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "Ngh...! This anti-air fire...!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -203,11 +203,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 807010,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "Looks like there are additional anti-air installations hidden on shore. They're not going to let us have a straightforward battle.",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -274,8 +274,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Don't worry, we can keep pushing forward! Momentum is on our side!",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "The Vichya fleet has begun to retreat!",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "Wow, they're all starting to scatter...",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,8 +371,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "Algérie isn't the type to retreat so easily... Surely this is a trap to lure us in.",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 201120,
 			dir = 1,
+			actor = 201120,
 			nameColor = "#a9f548",
 			say = "Illustrious, what should we do?",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "If we split up, the enemy will have the numbers advantage. Remember, there's always a risk of being focused by the artillery installations.",
 			typewriter = {
@@ -504,8 +504,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "Lady Richelieu, your orders?",
 			typewriter = {
@@ -521,8 +521,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "...All ships, we're going to switch course to the Basilica.",
 			typewriter = {
@@ -554,8 +554,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "The vanguard fleet should not pursue the enemy, and instead retreat to rejoin the main fleet. Taking the Basilica will now be our primary objective.",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "(If your goal is to protect the Basilica, then you can't ignore this move. It's your turn, Algérie.)",
 			typewriter = {
@@ -585,8 +585,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

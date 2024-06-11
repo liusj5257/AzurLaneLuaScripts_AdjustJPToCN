@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "进水9秒",
 	time = 9,
+	name = "进水9秒",
+	init_effect = "",
 	picture = "",
 	desc = "vt-18进水持续伤害",
 	stack = 1,

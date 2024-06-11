@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"백의의 천사 or 악마?\n\n<size=45>제2장 - 뱀파이어의 유혹</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 광장",
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 광장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "한 시간 뒤…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,13 +105,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "지휘관, 좋은 아침~",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "헤헷, 어때? 오늘은 평소와 좀 다른 것 같지 않아?",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "쳇, 한창 좋을 때 끼어들어서는……",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -267,12 +267,12 @@ return {
 			}
 		},
 		{
-			actor = 203010,
+			say = "뱀파이어 아가씨. 이런 일에 딱히 다른 의견은 없지만, 어느 정도는 때와 장소를 가려주시는 게 어떠실지…?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "뱀파이어 아가씨. 이런 일에 딱히 다른 의견은 없지만, 어느 정도는 때와 장소를 가려주시는 게 어떠실지…?",
+			actor = 203010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -338,8 +338,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "지휘관은? 설마 날 못 믿는 거야?",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "흥! 좋아! 다들 날 못 믿겠다면, 너희들에게 보여주도록 하지. 단지 지휘관을 유혹하기 위해서 이 옷을 입은 건 아니란 걸 말야!",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "뱀파이어는 노발대발하며 자리를 떠났다.",
 			typewriter = {
@@ -411,12 +411,12 @@ return {
 			}
 		},
 		{
-			actor = 203010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203010,
+			nameColor = "#a9f548",
 			say = "하지만 확실히 말이 좀 지나쳤던 것 같군요, 죄송합니다 각하. 나중에 뱀파이어 아가씨에겐 나중에 직접 사과하도록 하겠습니다.",
 			typewriter = {
 				speed = 0.05,

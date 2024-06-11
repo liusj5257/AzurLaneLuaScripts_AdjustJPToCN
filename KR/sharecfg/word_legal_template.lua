@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_legal_template = {}
 slot1 = slot0.word_legal_template
 
-function temp()
+temp = function()
 	uv0["合"] = {
 		["法"] = {
 			["词"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["범"] = {
 		["용"] = {
 			["형"] = {
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["시"] = {
 		["제"] = {
 			["형"] = {
@@ -128,7 +128,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["특"] = {
 		["장"] = {
 			["형"] = {
@@ -158,7 +158,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["듀"] = {
 		["이"] = {
 			this = true
@@ -183,7 +183,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["캐"] = {
 		["신"] = {
 			this = true
@@ -193,7 +193,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["다"] = {
 		["운"] = {
 			["즈"] = {
@@ -224,7 +224,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["그"] = {
 		["리"] = {
 			["들"] = {
@@ -304,7 +304,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["크"] = {
 		["레"] = {
 			["이"] = {
@@ -332,7 +332,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["맥"] = {
 		["콜"] = {
 			this = true
@@ -342,7 +342,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["모"] = {
 		["리"] = {
 			this = true,
@@ -356,6 +356,11 @@ function temp()
 					["改"] = {
 						this = true
 					}
+				}
+			},
+			["도"] = {
+				["르"] = {
+					this = true
 				}
 			}
 		},
@@ -374,7 +379,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["플"] = {
 		["레"] = {
 			["처"] = {
@@ -383,6 +388,11 @@ function temp()
 		},
 		["래"] = {
 			["셔"] = {
+				this = true
+			}
+		},
+		["뢰"] = {
+			["레"] = {
 				this = true
 			}
 		},
@@ -405,7 +415,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["찰"] = {
 		["스"] = {
 			[" "] = {
@@ -423,7 +433,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["대"] = {
 		["처"] = {
 			this = true
@@ -433,7 +443,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["얼"] = {
 		["릭"] = {
 			this = true
@@ -443,7 +453,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["푸"] = {
 		["트"] = {
 			this = true
@@ -456,7 +466,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["스"] = {
 		["펜"] = {
 			["스"] = {
@@ -535,7 +545,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["벤"] = {
 		["슨"] = {
 			this = true
@@ -545,7 +555,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["라"] = {
 		["피"] = {
 			this = true,
@@ -608,7 +618,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["심"] = {
 		["즈"] = {
 			this = true
@@ -618,7 +628,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["허"] = {
 		["먼"] = {
 			this = true,
@@ -645,7 +655,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["엘"] = {
 		["드"] = {
 			["릿"] = {
@@ -665,7 +675,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["베"] = {
 		["일"] = {
 			["리"] = {
@@ -693,7 +703,18 @@ function temp()
 		},
 		["아"] = {
 			["른"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -701,7 +722,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["래"] = {
 		["드"] = {
 			["포"] = {
@@ -715,7 +736,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["젠"] = {
 		["킨"] = {
 			["스"] = {
@@ -737,7 +758,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["니"] = {
 		["콜"] = {
 			["라"] = {
@@ -773,7 +794,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["부"] = {
 		["시"] = {
 			this = true
@@ -783,7 +804,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["헤"] = {
 		["이"] = {
 			["즐"] = {
@@ -799,7 +820,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["배"] = {
 		["시"] = {
 			this = true
@@ -809,7 +830,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["하"] = {
 		["비"] = {
 			this = true
@@ -879,7 +900,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["커"] = {
 		["크"] = {
 			this = true
@@ -889,7 +910,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["킴"] = {
 		["벌"] = {
 			["리"] = {
@@ -912,7 +933,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["멀"] = {
 		["라"] = {
 			["니"] = {
@@ -924,7 +945,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["아"] = {
 		["일"] = {
 			["윈"] = {
@@ -1220,7 +1241,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["할"] = {
 		["시"] = {
 			[" "] = {
@@ -1236,7 +1257,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쿠"] = {
 		["퍼"] = {
 			this = true
@@ -1277,7 +1298,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["알"] = {
 		["렌"] = {
 			[" "] = {
@@ -1334,6 +1355,11 @@ function temp()
 				}
 			}
 		},
+		["자"] = {
+			["스"] = {
+				this = true
+			}
+		},
 		["제"] = {
 			["리"] = {
 				this = true,
@@ -1355,7 +1381,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["잉"] = {
 		["그"] = {
 			["레"] = {
@@ -1378,7 +1404,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["브"] = {
 		["리"] = {
 			["스"] = {
@@ -1412,13 +1438,20 @@ function temp()
 					this = true
 				}
 			}
+		},
+		["렌"] = {
+			["누"] = {
+				["스"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["오"] = {
 		["마"] = {
 			["하"] = {
@@ -1510,7 +1543,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["롤"] = {
 		["리"] = {
 			this = true
@@ -1520,7 +1553,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["피"] = {
 		["닉"] = {
 			["스"] = {
@@ -1535,7 +1568,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["헬"] = {
 		["레"] = {
 			["나"] = {
@@ -1561,7 +1594,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["애"] = {
 		["틀"] = {
 			["란"] = {
@@ -1602,7 +1635,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쥬"] = {
 		["노"] = {
 			this = true,
@@ -1617,7 +1650,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["샌"] = {
 		["디"] = {
 			["에"] = {
@@ -1658,7 +1691,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["클"] = {
 		["리"] = {
 			["블"] = {
@@ -1709,7 +1742,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["컬"] = {
 		["럼"] = {
 			["비"] = {
@@ -1726,7 +1759,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["리"] = {
 		["치"] = {
 			["몬"] = {
@@ -1814,7 +1847,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["호"] = {
 		["놀"] = {
 			["룰"] = {
@@ -1847,7 +1880,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["세"] = {
 		["인"] = {
 			["트"] = {
@@ -1885,7 +1918,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["몬"] = {
 		["트"] = {
 			["필"] = {
@@ -1901,7 +1934,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["덴"] = {
 		["버"] = {
 			this = true
@@ -1911,7 +1944,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["멤"] = {
 		["피"] = {
 			["스"] = {
@@ -1934,7 +1967,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["콩"] = {
 		["코"] = {
 			["드"] = {
@@ -1946,7 +1979,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["꼬"] = {
 		["마"] = {
 			[" "] = {
@@ -2100,7 +2133,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["산"] = {
 		["후"] = {
 			["안"] = {
@@ -2112,7 +2145,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["버"] = {
 		["밍"] = {
 			["햄"] = {
@@ -2124,7 +2157,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["빌"] = {
 		["럭"] = {
 			["시"] = {
@@ -2136,7 +2169,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["마"] = {
 		["블"] = {
 			["헤"] = {
@@ -2234,7 +2267,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["보"] = {
 		["이"] = {
 			["시"] = {
@@ -2274,7 +2307,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["휴"] = {
 		["스"] = {
 			["턴"] = {
@@ -2297,7 +2330,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["펜"] = {
 		["사"] = {
 			["콜"] = {
@@ -2322,7 +2355,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["솔"] = {
 		["트"] = {
 			["레"] = {
@@ -2342,7 +2375,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["노"] = {
 		["샘"] = {
 			["프"] = {
@@ -2405,7 +2438,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["포"] = {
 		["틀"] = {
 			["랜"] = {
@@ -2452,14 +2485,25 @@ function temp()
 			}
 		},
 		["슈"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["인"] = {
 		["디"] = {
 			["애"] = {
@@ -2509,7 +2553,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["퀸"] = {
 		["시"] = {
 			this = true
@@ -2543,7 +2587,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["빈"] = {
 		["센"] = {
 			["스"] = {
@@ -2570,7 +2614,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["위"] = {
 		["치"] = {
 			["타"] = {
@@ -2585,7 +2629,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["뉴"] = {
 		["올"] = {
 			["리"] = {
@@ -2611,7 +2655,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["미"] = {
 		["니"] = {
 			["애"] = {
@@ -2707,7 +2751,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["볼"] = {
 		["티"] = {
 			["모"] = {
@@ -2740,7 +2784,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["루"] = {
 		["이"] = {
 			["빌"] = {
@@ -2762,7 +2806,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["컨"] = {
 		["스"] = {
 			["텔"] = {
@@ -2780,7 +2824,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["네"] = {
 		["바"] = {
 			["다"] = {
@@ -2797,7 +2841,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["테"] = {
 		["네"] = {
 			["시"] = {
@@ -2819,7 +2863,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["캘"] = {
 		["리"] = {
 			["포"] = {
@@ -2835,12 +2879,17 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["콜"] = {
 		["로"] = {
 			["라"] = {
 				["도"] = {
-					this = true
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
@@ -2849,7 +2898,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["메"] = {
 		["릴"] = {
 			["랜"] = {
@@ -2876,7 +2925,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["웨"] = {
 		["스"] = {
 			["트"] = {
@@ -2901,7 +2950,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["워"] = {
 		["싱"] = {
 			["턴"] = {
@@ -2927,7 +2976,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["사"] = {
 		["우"] = {
 			["스"] = {
@@ -2960,7 +3009,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["매"] = {
 		["사"] = {
 			["추"] = {
@@ -2983,7 +3032,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["앨"] = {
 		["라"] = {
 			["배"] = {
@@ -2997,7 +3046,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["롱"] = {
 		[" "] = {
 			["아"] = {
@@ -3018,7 +3067,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["카"] = {
 		["사"] = {
 			["블"] = {
@@ -3122,7 +3171,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["랭"] = {
 		["글"] = {
 			["리"] = {
@@ -3144,7 +3193,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["렉"] = {
 		["싱"] = {
 			["턴"] = {
@@ -3156,7 +3205,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["새"] = {
 		["러"] = {
 			["토"] = {
@@ -3170,7 +3219,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["레"] = {
 		["인"] = {
 			["저"] = {
@@ -3212,7 +3261,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["요"] = {
 		["크"] = {
 			this = true,
@@ -3235,7 +3284,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["엔"] = {
 		["터"] = {
 			["프"] = {
@@ -3253,7 +3302,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["와"] = {
 		["스"] = {
 			["프"] = {
@@ -3275,7 +3324,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["에"] = {
 		["식"] = {
 			["스"] = {
@@ -3352,6 +3401,9 @@ function temp()
 				}
 			}
 		},
+		["페"] = {
+			this = true
+		},
 		["기"] = {
 			["르"] = {
 				this = true
@@ -3362,7 +3414,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["타"] = {
 		["이"] = {
 			["콘"] = {
@@ -3441,7 +3493,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["벙"] = {
 		["커"] = {
 			["힐"] = {
@@ -3453,7 +3505,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["프"] = {
 		["린"] = {
 			["스"] = {
@@ -3574,7 +3626,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["바"] = {
 		["탄"] = {
 			this = true
@@ -3584,7 +3636,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["샹"] = {
 		["그"] = {
 			["릴"] = {
@@ -3603,7 +3655,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["데"] = {
 		["이"] = {
 			["스"] = {
@@ -3620,7 +3672,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["블"] = {
 		["루"] = {
 			["길"] = {
@@ -3656,7 +3708,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["괌"] = {
 		this = {
 			this = true
@@ -3666,7 +3718,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["비"] = {
 		["글"] = {
 			this = true
@@ -3711,7 +3763,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["불"] = {
 		["독"] = {
 			this = true
@@ -3721,7 +3773,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["코"] = {
 		["멧"] = {
 			this = true
@@ -3731,7 +3783,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["폭"] = {
 		["스"] = {
 			["하"] = {
@@ -3747,7 +3799,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["글"] = {
 		["로"] = {
 			["우"] = {
@@ -3780,7 +3832,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["헌"] = {
 		["터"] = {
 			this = true,
@@ -3801,7 +3853,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["재"] = {
 		["블"] = {
 			["린"] = {
@@ -3818,7 +3870,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["주"] = {
 		["노"] = {
 			this = true
@@ -3848,7 +3900,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["뱀"] = {
 		["파"] = {
 			["이"] = {
@@ -3873,7 +3925,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["저"] = {
 		["지"] = {
 			this = true
@@ -3888,7 +3940,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["머"] = {
 		["스"] = {
 			["킷"] = {
@@ -3904,7 +3956,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["이"] = {
 		["카"] = {
 			["로"] = {
@@ -3994,7 +4046,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["히"] = {
 		["어"] = {
 			["로"] = {
@@ -4038,7 +4090,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["누"] = {
 		["비"] = {
 			["안"] = {
@@ -4050,7 +4102,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["셰"] = {
 		["필"] = {
 			["드"] = {
@@ -4084,7 +4136,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["맨"] = {
 		["체"] = {
 			["스"] = {
@@ -4098,7 +4150,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["벨"] = {
 		["파"] = {
 			["스"] = {
@@ -4120,7 +4172,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["갈"] = {
 		["라"] = {
 			["테"] = {
@@ -4134,7 +4186,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["자"] = {
 		["메"] = {
 			["이"] = {
@@ -4157,7 +4209,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["퀴"] = {
 		["라"] = {
 			["소"] = {
@@ -4169,7 +4221,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["페"] = {
 		["넬"] = {
 			["로"] = {
@@ -4201,7 +4253,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["런"] = {
 		["던"] = {
 			this = true,
@@ -4216,7 +4268,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["슈"] = {
 		["롭"] = {
 			["셔"] = {
@@ -4233,7 +4285,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["켄"] = {
 		["트"] = {
 			this = true
@@ -4243,7 +4295,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["서"] = {
 		["포"] = {
 			["크"] = {
@@ -4260,7 +4312,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["도"] = {
 		["셋"] = {
 			["셔"] = {
@@ -4281,7 +4333,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["엑"] = {
 		["세"] = {
 			["터"] = {
@@ -4293,7 +4345,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["후"] = {
 		["드"] = {
 			this = true
@@ -4363,7 +4415,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["뱅"] = {
 		["가"] = {
 			["드"] = {
@@ -4375,7 +4427,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["넬"] = {
 		["슨"] = {
 			this = true,
@@ -4390,7 +4442,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["로"] = {
 		["드"] = {
 			["니"] = {
@@ -4441,7 +4493,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["킹"] = {
 		[" "] = {
 			["조"] = {
@@ -4461,7 +4513,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["安"] = {
 		["森"] = {
 			this = true
@@ -4471,7 +4523,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["밸"] = {
 		["리"] = {
 			["언"] = {
@@ -4485,7 +4537,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["유"] = {
 		["니"] = {
 			["콘"] = {
@@ -4535,7 +4587,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["센"] = {
 		["토"] = {
 			this = true
@@ -4550,7 +4602,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["체"] = {
 		["이"] = {
 			["서"] = {
@@ -4565,7 +4617,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["퍼"] = {
 		["시"] = {
 			["어"] = {
@@ -4588,7 +4640,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["일"] = {
 		["러"] = {
 			["스"] = {
@@ -4619,7 +4671,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["빅"] = {
 		["토"] = {
 			["리"] = {
@@ -4635,7 +4687,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["임"] = {
 		["플"] = {
 			["래"] = {
@@ -4656,7 +4708,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["무"] = {
 		["츠"] = {
 			["키"] = {
@@ -4701,7 +4753,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["키"] = {
 		["사"] = {
 			["라"] = {
@@ -4834,7 +4886,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["우"] = {
 		["즈"] = {
 			["키"] = {
@@ -4858,7 +4910,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["나"] = {
 		["가"] = {
 			["츠"] = {
@@ -4926,7 +4978,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["야"] = {
 		["마"] = {
 			["카"] = {
@@ -4962,7 +5014,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["진"] = {
 		["츠"] = {
 			this = true,
@@ -4983,7 +5035,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["치"] = {
 		["쿠"] = {
 			["마"] = {
@@ -5012,7 +5064,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["묘"] = {
 		["코"] = {
 			this = true
@@ -5022,7 +5074,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["운"] = {
 		["젠"] = {
 			this = true
@@ -5032,7 +5084,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["콘"] = {
 		["고"] = {
 			this = true,
@@ -5070,7 +5122,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쇼"] = {
 		["호"] = {
 			this = true
@@ -5085,7 +5137,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["류"] = {
 		["호"] = {
 			this = true
@@ -5095,7 +5147,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["소"] = {
 		["류"] = {
 			this = true,
@@ -5168,7 +5220,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["즈"] = {
 		["이"] = {
 			["카"] = {
@@ -5182,7 +5234,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Z = {
 		["1"] = {
 			this = true,
@@ -5238,7 +5290,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쾨"] = {
 		["니"] = {
 			["히"] = {
@@ -5258,7 +5310,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쾰"] = {
 		["른"] = {
 			this = true,
@@ -5273,7 +5325,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["뉘"] = {
 		["른"] = {
 			["베"] = {
@@ -5289,7 +5341,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["엠"] = {
 		["덴"] = {
 			this = true
@@ -5299,7 +5351,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["론"] = {
 		["("] = {
 			["μ"] = {
@@ -5320,7 +5372,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["샤"] = {
 		["른"] = {
 			["호"] = {
@@ -5349,7 +5401,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["뤼"] = {
 		["초"] = {
 			this = true
@@ -5359,7 +5411,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["티"] = {
 		["르"] = {
 			["피"] = {
@@ -5373,7 +5425,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["울"] = {
 		["리"] = {
 			["히"] = {
@@ -5395,7 +5447,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["튀"] = {
 		["링"] = {
 			["겐"] = {
@@ -5407,7 +5459,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.U = {
 		["-"] = {
 			["8"] = {
@@ -5491,7 +5543,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["안"] = {
 		["샨"] = {
 			this = true,
@@ -5521,7 +5573,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["창"] = {
 		["춘"] = {
 			this = true,
@@ -5536,7 +5588,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["얏"] = {
 		["센"] = {
 			this = true,
@@ -5551,7 +5603,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["닝"] = {
 		["하"] = {
 			["이"] = {
@@ -5563,7 +5615,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["핑"] = {
 		["하"] = {
 			["이"] = {
@@ -5575,7 +5627,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["차"] = {
 		["오"] = {
 			[" "] = {
@@ -5599,7 +5651,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["지"] = {
 		["안"] = {
 			this = true
@@ -5609,7 +5661,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["환"] = {
 		["창"] = {
 			this = true
@@ -5619,7 +5671,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["화"] = {
 		["지"] = {
 			["아"] = {
@@ -5642,7 +5694,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["딩"] = {
 		["안"] = {
 			this = true
@@ -5652,7 +5704,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["폼"] = {
 		["페"] = {
 			["오"] = {
@@ -5670,7 +5722,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["두"] = {
 		["카"] = {
 			[" "] = {
@@ -5696,7 +5748,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["트"] = {
 		["렌"] = {
 			["토"] = {
@@ -5728,7 +5780,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["폴"] = {
 		["라"] = {
 			this = true
@@ -5743,7 +5795,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["고"] = {
 		["리"] = {
 			["치"] = {
@@ -5757,7 +5809,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["줄"] = {
 		["리"] = {
 			["오"] = {
@@ -5777,7 +5829,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["토"] = {
 		["리"] = {
 			["첼"] = {
@@ -5802,7 +5854,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["민"] = {
 		["스"] = {
 			["크"] = {
@@ -5814,7 +5866,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["파"] = {
 		["먀"] = {
 			["티"] = {
@@ -5869,7 +5921,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["탈"] = {
 		["린"] = {
 			this = true
@@ -5879,7 +5931,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["강"] = {
 		["구"] = {
 			["트"] = {
@@ -5891,7 +5943,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["르"] = {
 		[" "] = {
 			["트"] = {
@@ -5957,7 +6009,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["잔"] = {
 		[" "] = {
 			["다"] = {
@@ -5973,7 +6025,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["기"] = {
 		["샹"] = {
 			this = true
@@ -5983,7 +6035,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["쉬"] = {
 		["프"] = {
 			["랑"] = {
@@ -6002,7 +6054,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["팽"] = {
 		["르"] = {
 			["베"] = {
@@ -6014,7 +6066,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["케"] = {
 		["르"] = {
 			["생"] = {
@@ -6026,7 +6078,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["됭"] = {
 		["케"] = {
 			["르"] = {
@@ -6040,7 +6092,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["장"] = {
 		[" "] = {
 			["바"] = {
@@ -6054,7 +6106,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["가"] = {
 		["스"] = {
 			["코"] = {
@@ -6079,7 +6131,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["조"] = {
 		["프"] = {
 			["르"] = {
@@ -6096,7 +6148,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["생"] = {
 		[" "] = {
 			["루"] = {
@@ -6110,7 +6162,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["펠"] = {
 		["릭"] = {
 			["스"] = {
@@ -6128,7 +6180,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["힌"] = {
 		["덴"] = {
 			["부"] = {
@@ -6144,7 +6196,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["상"] = {
 		[" "] = {
 			["마"] = {
@@ -6162,7 +6214,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["골"] = {
 		["든"] = {
 			[" "] = {
@@ -6180,7 +6232,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["어"] = {
 		["드"] = {
 			["벤"] = {
@@ -6200,7 +6252,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["준"] = {
 		["요"] = {
 			["·"] = {
@@ -6220,7 +6272,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["넵"] = {
 		["튠"] = {
 			this = true
@@ -6230,7 +6282,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["느"] = {
 		["와"] = {
 			["르"] = {
@@ -6242,7 +6294,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["2"] = {
 		["2"] = {
 			this = true
@@ -6255,7 +6307,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["3"] = {
 		["3"] = {
 			this = true
@@ -6265,7 +6317,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["뇨"] = {
 		["텐"] = {
 			["구"] = {
@@ -6277,7 +6329,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["신"] = {
 		["죠"] = {
 			[" "] = {
@@ -6295,7 +6347,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["핫"] = {
 		["스"] = {
 			this = true
@@ -6305,7 +6357,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["공"] = {
 		["주"] = {
 			this = true
@@ -6315,7 +6367,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["릴"] = {
 		["라"] = {
 			[" "] = {
@@ -6337,7 +6389,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["칼"] = {
 		["라"] = {
 			[" "] = {
@@ -6357,7 +6409,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["드"] = {
 		["레"] = {
 			["이"] = {
@@ -6371,7 +6423,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["앵"] = {
 		["커"] = {
 			["리"] = {

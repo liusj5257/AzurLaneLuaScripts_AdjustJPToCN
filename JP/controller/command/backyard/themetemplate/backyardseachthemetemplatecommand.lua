@@ -1,13 +1,13 @@
 slot0 = class("BackYardSeachThemeTemplateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not slot1:getBody().str or slot3 == "" then
 		slot0:sendNotification(GAME.BACKYARD_SEARCH_THEME_TEMPLATE_ERRO)
 
 		return
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		slot1 = slot0.theme
 
 		uv0:sendNotification(GAME.BACKYARD_SEARCH_THEME_TEMPLATE_DONE, {
@@ -28,7 +28,7 @@ function slot0.execute(slot0, slot1)
 		})
 	end
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		uv0:sendNotification(GAME.BACKYARD_SEARCH_THEME_TEMPLATE_ERRO)
 	end
 

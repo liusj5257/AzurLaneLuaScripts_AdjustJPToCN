@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,26 +42,26 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "うわああ疲れたああ……久しぶりに帰ってきた……",
 			bgm = "xinnong-3",
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "うわああ疲れたああ……久しぶりに帰ってきた……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -77,12 +77,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でもこれでようやく重桜に戻れたね！",
 			painting = {
 				alpha = 0.3,
@@ -94,12 +94,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "長門さまは一体なぜ急に私を呼び戻したのか知らないけど…",
 			painting = {
 				alpha = 0.3,
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあこっちもこっちで報告したいことがいっぱいあるからね",
 			painting = {
 				alpha = 0.3,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			say = "（トントン）",
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "翔鶴姉、三笠大先輩、長門さま！ただいまー！",
 			painting = {
 				alpha = 0.3,
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -173,12 +173,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……誰もいない？",
 			painting = {
 				alpha = 0.3,
@@ -190,12 +190,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……部屋を間違えたとかじゃないよね？",
 			painting = {
 				alpha = 0.3,
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "みんなそろってどこかに行ったのかな…？",
 			painting = {
 				alpha = 0.3,
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -236,12 +236,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "回線はつながるけど…誰も出ない……？",
 			painting = {
 				alpha = 0.3,
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一体どういう事……？",
 			painting = {
 				alpha = 0.3,

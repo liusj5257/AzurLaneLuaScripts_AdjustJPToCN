@@ -21,8 +21,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -50,8 +50,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -79,8 +79,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -108,8 +108,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -137,8 +137,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -166,8 +166,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -195,8 +195,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -224,8 +224,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -253,8 +253,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
@@ -282,21 +282,21 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 107020,
+					target = "TargetSelf",
 					countType = 107020
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 107020,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 107020,
+	color = "red",
 	icon = 107020,
 	last_effect = "",
 	effect_list = {
@@ -320,8 +320,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 107020,
+				target = "TargetSelf",
 				countType = 107020
 			}
 		}

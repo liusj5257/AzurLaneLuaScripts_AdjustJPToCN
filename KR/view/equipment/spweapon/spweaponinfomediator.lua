@@ -7,7 +7,7 @@ slot0.ON_UNEQUIP = "SpWeaponInfoMediator:ON_UNEQUIP"
 slot0.ON_MOVE = "SpWeaponInfoMediator:ON_MOVE"
 slot0.ON_MODIFY = "SpWeaponInfoMediator:ON_MODIFY"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:BindEvent()
 
 	if getProxy(ContextProxy):getCurrentContext().scene == SCENE.SPWEAPON_STOREHOUSE then
@@ -35,7 +35,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-function slot0.BindEvent(slot0)
+slot0.BindEvent = function(slot0)
 	slot0:bind(uv0.ON_EQUIP, function (slot0)
 		if uv0.contextData.oldShipId then
 			uv0:sendNotification(GAME.EQUIP_SPWEAPON_FROM_SHIP, {
@@ -117,13 +117,13 @@ function slot0.BindEvent(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.EQUIP_SPWEAPON_TO_SHIP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.EQUIP_SPWEAPON_TO_SHIP_DONE then

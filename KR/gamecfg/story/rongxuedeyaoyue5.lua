@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"눈 녹는 날의 초대\n\n<size=45>5 온천 데이트 이야기</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "설원, 안개가 몽롱하다. 온천의 푸른 돌 위, 보로실로프는 누군가를 기다리고 있다──",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "설원, 안개가 몽롱하다. 온천의 푸른 돌 위, 보로실로프는 누군가를 기다리고 있다──",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 702071,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "약속대로 왔구나, 지휘관 동지.",
 			painting = {
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "보로실로프와 함께 눈 덮인 소나무 숲에서의 온천을 즐겼다.",
 			painting = {
@@ -176,17 +176,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "몸속에 온기가 감도는 걸 느낄 수 있었지만, 이 온기가 온천물에서 오는 건지, 아니면 내 곁에 있는 보로실로프에게서 오는지 알 수 없었다.",
 			painting = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 702071,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "아니면 온천의 수온이 너무 높진 않아? 지휘관 동지의 얼굴이 조금 붉어진 것 같은데…….",
 			painting = {
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "내 반응을 기다리지도 않고 눈앞의 소녀는 바로 몸을 붙여왔다──",
 			painting = {
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
+			dir = 1,
 			optionFlag = 2,
 			actor = 702071,
 			nameColor = "#A9F548FF",
@@ -448,12 +448,12 @@ return {
 			}
 		},
 		{
-			actor = 702071,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 702071,
 			nameColor = "#A9F548FF",
 			say = "보로실로프는 살며시 내 손을 잡았다. 그녀의 손가락에서 온기가 느껴진다.",
 			painting = {

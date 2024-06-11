@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 2,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 800854,
-				level = 1,
 				type = 1,
+				level = 1,
 				index = {
 					1
 				}
@@ -40,8 +40,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 0.5,
 				skill_id = 800851,
+				time = 0.5,
 				target = "TargetSelf",
 				index = {
 					1

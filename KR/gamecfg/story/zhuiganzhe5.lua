@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「아가씨」와 함께하는 시간\n\n<size=45>5 다른 지역의 동경</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "노스 유니온에 이어서 체이서와 계속 각 진영과 교류를 진행했다. 시간이 빠르게 지나갔다.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "노스 유니온에 이어서 체이서와 계속 각 진영과 교류를 진행했다. 시간이 빠르게 지나갔다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "드디어 마지막 하루다. 체이서와 함께 사쿠라 엠파이어 생활 구역에 왔다. 그녀는 흥분을 참지 못한 듯 입을 열었다.",
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "지휘관은 잘 알고 있겠네. 사쿠라 엠파이어는... 무사랑 닌자가 많지?",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "이런 인식은 대부분 이글 유니온의 게임과 영화로부터 생겼을 것이다. 이때 뭐라고하면 재미가 없을 것 같아, 우선 지켜봐야겠다.",
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "지휘관 나리, 소인이 기다리고 있었네. 여기 로열의 동료는 처음 만나는군. 소인은 타카오라네.",
 			typewriter = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "와! 무사구나!? 난 체이서야, 으음, 역시 들어본 것처럼 위풍당당하네!",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,8 +144,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "음... 지휘관 나리, 그녀가 바로......",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "어멋, 미안미안, 조금 흥분했네. 그게 무사도지? 한번 봐도 돼?",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "보기만 하는 것은 괜찮소만, 칼집 없는 칼은 아주 위험하다네... 갑자기 너무 가까이 다가오지는 말게......",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "손가락을 깨물며 한껏 기대를 품은 체이서가 허둥대는 것 같아, 어서 그녀를 데리고 생활 구역으로 들어갔다.",
@@ -225,14 +225,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 303110,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "우선 원래 계획에 따라, 우리의 연습전을 참관하겠네.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "타카오의 인솔 하에 사쿠라 엠파이어의 연습 해역을 볼 수 있는 위치에 도착했다. 체이서는 해면 위의 멤버들을 보며, 갑자기 소리를 높였다.",
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "지휘관, 저 아이...... 설마 닌자야?",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "체이서가 가리킨 대상은, 아카츠키였다.",
@@ -307,8 +307,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "저 ...... 체이서 나리, 왜 무사와 닌자에 그리 관심이 많으신게요?",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "그렇소... 맞는 말이오......",
 			typewriter = {
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "이쪽에서 주목 받는 걸 느꼈는지, 아카츠키가 다가왔다.",
@@ -436,8 +436,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "아, 별일 아니오. 이 분은 오늘 지휘관 나리와 함께 참관하러온 체이서 나리라네......",
 			typewriter = {
@@ -453,8 +453,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "“닌자”에 대해 호기심이 아주 크다오——",
 			typewriter = {
@@ -467,11 +467,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "오오! 그럼 내 \"인술\"을 보여주지!",
 			effects = {
 				{
@@ -489,11 +489,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "...... 화제가 점점 멀리 돌아가고 있는 것 같다......",
 			effects = {
 				{

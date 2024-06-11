@@ -28,8 +28,8 @@ slot0.BAN_OP_TIME = 1
 slot0.DEBUG = false
 slot0.Prefabs = {
 	{
-		speActionCount = 1,
 		name = "abercrombie_N",
+		speActionCount = 1,
 		boundary = {
 			7.7,
 			0,
@@ -42,8 +42,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 0,
 		name = "abercrombie_R",
+		speActionCount = 0,
 		boundary = {
 			2.77,
 			3.6,
@@ -56,8 +56,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 0,
 		name = "abercrombie_SR",
+		speActionCount = 0,
 		boundary = {
 			2.7,
 			3.6,
@@ -70,8 +70,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 0,
 		name = "abercrombie_SRR",
+		speActionCount = 0,
 		boundary = {
 			2.7,
 			3.6,
@@ -84,8 +84,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 0,
 		name = "abercrombie_SRR_1",
+		speActionCount = 0,
 		boundary = {
 			2.7,
 			3.6,
@@ -98,8 +98,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 0,
 		name = "abercrombie_SRR_2",
+		speActionCount = 0,
 		boundary = {
 			2.7,
 			3.6,
@@ -112,8 +112,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 0,
 		name = "abercrombie_UR",
+		speActionCount = 0,
 		boundary = {
 			2.66,
 			2.18,
@@ -126,8 +126,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 1,
 		name = "antenna",
+		speActionCount = 1,
 		boundary = {
 			0,
 			-0.49,
@@ -140,8 +140,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 1,
 		name = "enterprise",
+		speActionCount = 1,
 		boundary = {
 			0,
 			0,
@@ -154,8 +154,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 2,
 		name = "formidable",
+		speActionCount = 2,
 		boundary = {
 			0,
 			0,
@@ -168,8 +168,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 1,
 		name = "hammann",
+		speActionCount = 1,
 		boundary = {
 			0,
 			0,
@@ -182,8 +182,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 3,
 		name = "illustrious",
+		speActionCount = 3,
 		boundary = {
 			0,
 			0,
@@ -196,8 +196,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 2,
 		name = "justice",
+		speActionCount = 2,
 		boundary = {
 			2.49,
 			2.12,
@@ -210,8 +210,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 2,
 		name = "laffey",
+		speActionCount = 2,
 		boundary = {
 			1,
 			0.5,
@@ -224,8 +224,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 2,
 		name = "mutsuki",
+		speActionCount = 2,
 		boundary = {
 			2.99,
 			0,
@@ -238,8 +238,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 0,
 		name = "portland",
+		speActionCount = 0,
 		boundary = {
 			0,
 			-0.5,
@@ -252,8 +252,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 1,
 		name = "pound",
+		speActionCount = 1,
 		boundary = {
 			2.99,
 			0,
@@ -266,8 +266,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 2,
 		name = "shiratsuyu",
+		speActionCount = 2,
 		boundary = {
 			0,
 			2.6,
@@ -280,8 +280,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 2,
 		name = "soup",
+		speActionCount = 2,
 		boundary = {
 			0,
 			-2.5,
@@ -294,8 +294,8 @@ slot0.Prefabs = {
 		}
 	},
 	{
-		speActionCount = 1,
 		name = "unicorn",
+		speActionCount = 1,
 		boundary = {
 			4,
 			-2.5,
@@ -309,8 +309,8 @@ slot0.Prefabs = {
 	}
 }
 slot0.HEAD = {
-	speActionCount = 0,
 	name = "abercrombie_N",
+	speActionCount = 0,
 	boundary = {
 		3.15,
 		0,

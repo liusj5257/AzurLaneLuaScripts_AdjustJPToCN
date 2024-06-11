@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA38",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA38",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-inochi-inst",
 			dir = 1,
 			say = "벌써 세 번째 입구예요…",
+			bgm = "holo-inochi-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "제트 코스터를 타기로 결정한 뒤, 일행은 세 개의 입구를 찾았지만, 세이렌이 모두 부숴둔 상태였다.",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "작전을 시작하면 꼭 세이렌이 한 발 먼저 움직이는 것 같아. 저쪽에 뭔가 군사가 있는 것 같은걸.",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "시온이 마법 폭파를 쓰면 이렇게 되는데?",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "시온… 제트 코스터는 네가 망가뜨린 것이냐?!",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "물론 아니지!!",
 			dialogShake = {
 				speed = 0.09,
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "복사된 시온…",
 			typewriter = {
 				speed = 0.05,

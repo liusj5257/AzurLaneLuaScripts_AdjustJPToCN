@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA16",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA16",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301050,
@@ -53,8 +53,8 @@ return {
 			actor = 10400040,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "키즈나 아이",
 			dir = 1,
+			actorName = "키즈나 아이",
 			say = "라져!",
 			typewriter = {
 				speed = 0.05,
@@ -66,14 +66,14 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 1,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301050,
+			nameColor = "#92fc63",
 			say = "저걸 보세요. 저런 데에 대놓고 랜덤 워드 생성기가 있어요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
+			actor = 10400040,
 			actorName = "키즈나 아이",
 			say = "와~이, 이런 곳에 랜덤 워드 생성기가~!!",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(구구구구구구구구구구구구구구구구)",
 			dialogShake = {
 				speed = 0.09,
@@ -236,8 +236,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
+			actor = 10400040,
 			actorName = "키즈나 아이",
 			say = "에!? 뭐야 이거!? 잠깐! 저리 가! 가까이 오지 마~! 싫어싫어싫어싫어싫어싫어!",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
+			actor = 10400040,
 			actorName = "키즈나 아이",
 			say = "아아아아아아아아아아아아아아아아아아아…",
 			typewriter = {
@@ -279,15 +279,15 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			dir = 1,
-			actor = 10400010,
 			withoutActorName = true,
-			nameColor = "#92fc63",
+			dir = 1,
 			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#92fc63",
 			say = "   ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1650,
+					type = "move",
 					delay = 1.5,
 					dur = 2.5,
 					x = 0
@@ -373,10 +373,10 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400010,
 			dir = 1,
-			actorName = "거대화 키즈나 아이",
 			actorScale = 3.5,
+			actor = 10400010,
+			actorName = "거대화 키즈나 아이",
 			say = "………",
 			actorPosition = {
 				x = 150,
@@ -395,10 +395,10 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400010,
 			dir = 1,
-			actorName = "거대화 키즈나 아이",
 			actorScale = 3.5,
+			actor = 10400010,
+			actorName = "거대화 키즈나 아이",
 			say = "하아…… 피곤해, 완전 피곤해~, 왜 내가 이런 데서 싸우고 있는 거지…… 애초에 난 그냥 평소처럼 영상 찍고 있었을 뿐인데, 이런 꼴 당하는 거 이상하지 않아?",
 			actorPosition = {
 				x = 150,
@@ -417,10 +417,10 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10400010,
 			dir = 1,
-			actorName = "거대화 키즈나 아이",
 			actorScale = 3.5,
+			actor = 10400010,
+			actorName = "거대화 키즈나 아이",
 			say = "왠지 갑자기 몸도 커져 버렸고…… 아니 그것보다 이대로, 이 세계를 파괴해버리면 원래 세계로 돌아갈 수 있는 거 아냐?",
 			actorPosition = {
 				x = 150,
@@ -438,12 +438,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actorName = "거대화 키즈나 아이",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "아~, 다 귀찮아~ 내 분신이 알아서 해주지 않을까나~",
+			actorName = "거대화 키즈나 아이",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(콰앙!!)",
 			effects = {
 				{
@@ -492,10 +492,10 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
+			actor = 301050,
 			say = "소용없어요. 우리 목소리도 전혀 들리지 않는 모양이에요…",
 			effects = {
 				{
@@ -603,8 +603,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

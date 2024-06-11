@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 引导发射器减伤",
 	time = 0,
-	color = "blue",
+	name = "2023英系活动 EX 引导发射器减伤",
+	init_effect = "",
+	id = 200275,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200275,
+	color = "blue",
 	icon = 200275,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -2
+				number = -2,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 10000
+				number = 10000,
+				attr = "igniteReduce"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "hammerDamageRatio",
-				number = -1
+				number = -1,
+				attr = "hammerDamageRatio"
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "hammerDamagePrevent",
-				number = 1
+				number = 1,
+				attr = "hammerDamagePrevent"
 			}
 		},
 		{

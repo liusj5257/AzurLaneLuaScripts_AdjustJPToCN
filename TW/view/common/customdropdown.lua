@@ -1,10 +1,10 @@
 slot0 = class("CustomDropdown", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IndexDropdownUI"
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	uv0.super.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.tag = slot4
@@ -19,14 +19,14 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:UpdateVirtualBtn()
 end
 
-function slot0.UpdateVirtualBtn(slot0)
+slot0.UpdateVirtualBtn = function(slot0)
 	slot0.contextData.indexDatas[slot0.tag] = slot0.contextData.indexDatas[slot0.tag] or slot0.options[1]
 	slot0.preIndex = table.indexof(slot0.options, slot0.contextData.indexDatas[slot0.tag])
 
 	setText(slot0.virtualBtnTitle, i18n(slot0.names[slot0.preIndex]))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.btnTpl = slot0:findTF("resource/tpl")
 	slot0.btnList = {}
 	slot0.greySprite = slot0:findTF("resource/grey"):GetComponent(typeof(Image)).sprite
@@ -78,11 +78,11 @@ function slot0.OnInit(slot0)
 	slot0:SelectLast()
 end
 
-function slot0.SelectLast(slot0)
+slot0.SelectLast = function(slot0)
 	slot0:UpdateBtnState()
 end
 
-function slot0.UpdateData(slot0, slot1)
+slot0.UpdateData = function(slot0, slot1)
 	slot3 = bit.band(slot0.contextData.indexDatas[slot0.tag], slot0.options[slot1]) > 0
 
 	if slot0.mode == CustomIndexLayer.Mode.AND then
@@ -104,8 +104,8 @@ function slot0.UpdateData(slot0, slot1)
 	end
 end
 
-function slot0.UpdateBtnState(slot0)
-	function slot1(slot0)
+slot0.UpdateBtnState = function(slot0)
+	slot1 = function(slot0)
 		setText(uv0.mainTitle, i18n(uv0.names[slot0]))
 		setText(uv0.virtualBtnTitle, i18n(uv0.names[slot0]))
 	end
@@ -143,7 +143,7 @@ function slot0.UpdateBtnState(slot0)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.attrs.localPosition = slot1
 	slot0.mainBtn.anchoredPosition = slot0.attrs.anchoredPosition
 	slot0.attrs.anchoredPosition = slot0.attrs.anchoredPosition + Vector2.New(0, -45)
@@ -152,12 +152,12 @@ function slot0.Show(slot0, slot1)
 	setActive(slot0.virtualBtnDropdownSign, false)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	setActive(slot0.virtualBtnDropdownSign, true)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.btnList = nil
 end
 

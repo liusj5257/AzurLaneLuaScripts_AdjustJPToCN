@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "アトランタ聞いて～うちのインディちゃんは………",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,14 +38,14 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "やっぱり来ましたね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,14 +115,14 @@ return {
 			}
 		},
 		{
-			actor = 102060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102060,
+			nameColor = "#a9f548",
 			say = "相手は結構やる気なのね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -162,8 +162,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

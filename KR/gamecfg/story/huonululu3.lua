@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"호놀룰루의 사소한 일들\n\n<size=45>절친 작전!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "호놀룰루, 리엔더와 함께 근처 식당에 오게 되었다.",
 			side = 1,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "호놀룰루, 리엔더와 함께 근처 식당에 오게 되었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 202010,
+			say = "아뇨, 저야말로 와주셔서 영광이죠.",
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아뇨, 저야말로 와주셔서 영광이죠.",
+			actor = 202010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "……근데 왜 지휘관이 여기 있는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "호놀룰루 기분나쁘다는 듯이(?) 고개를 돌렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "그렇게 우린 셋이 함께 애프터눈 티를 여유롭게 즐기게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -188,15 +188,15 @@ return {
 			}
 		},
 		{
-			actor = 202010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202010,
+			nameColor = "#92fc63",
 			say = "……그러고 보니, 호놀룰루씨는 평소에 다른 분들이랑 어울리시는 걸 잘 못 본 것 같네요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			say = "예, 예쁘다고? 내가…?",
 			side = 0,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "예, 예쁘다고? 내가…?",
+			actor = 102120,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -355,9 +355,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "이렇게 계속 칭찬을 해주니, 줄곧 토라지기만 했던 호놀룰루가 오히려 난처해 하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "역시 호놀룰루를 부르길 잘했네.",
 			typewriter = {
 				speed = 0.05,

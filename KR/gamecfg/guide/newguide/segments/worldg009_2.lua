@@ -46,30 +46,30 @@ return {
 						cachedIndex = 1,
 						signType = 6,
 						atlasName = "ui/worldui_atlas",
-						pos = "useCachePos",
-						fileName = "guidepost"
+						fileName = "guidepost",
+						pos = "useCachePos"
 					},
 					{
 						cachedIndex = 2,
 						signType = 6,
 						atlasName = "ui/worldui_atlas",
-						pos = "useCachePos",
-						fileName = "exp"
+						fileName = "exp",
+						pos = "useCachePos"
 					},
 					{
 						cachedIndex = 3,
 						signType = 6,
 						atlasName = "ui/worldui_atlas",
-						pos = "useCachePos",
-						fileName = "battle"
+						fileName = "battle",
+						pos = "useCachePos"
 					}
 				}
 			}
 		},
 		{
 			alpha = 0,
-			delay = 3,
 			doNothing = true,
+			delay = 3,
 			code = {
 				"empty"
 			}

@@ -4,7 +4,7 @@ slot0.BATCH = 2
 slot0.INFO = 3
 slot0.SEE = 4
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._parent = slot2
@@ -49,7 +49,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.Open(slot0, slot1)
+slot0.Open = function(slot0, slot1)
 	slot0.itemVO = WorldItem.New(slot1)
 
 	slot0:Update(slot0.itemVO)
@@ -57,14 +57,14 @@ function slot0.Open(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Close(slot0)
+slot0.Close = function(slot0)
 	slot0.itemVO = nil
 
 	setActive(slot0._tf, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parent)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot2 = Drop.New({
 		type = slot1.type,
 		id = slot1.id,
@@ -96,7 +96,7 @@ function slot0.Update(slot0, slot1)
 	slot0.fromItemList:align(math.max(#slot0.infoList, 3))
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Close()
 	pg.DelegateInfo.Dispose(slot0)
 end

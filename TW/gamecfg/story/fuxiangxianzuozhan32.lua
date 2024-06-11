@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN32",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鐵血浮島要塞群·E2浮島-休息區 數日後",
 			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			dir = 1,
 			bgm = "bsm-5",
+			say = "鐵血浮島要塞群·E2浮島-休息區 數日後",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "彼得·史特拉塞",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -87,11 +87,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
-			actorName = "海因里希親王",
 			dir = 1,
+			actorName = "海因里希親王",
 			say = "對了，歐根呢，歐根快來幫我！！！！！！！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "彼得·史特拉塞",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "彼得·史特拉塞",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "彼得·史特拉塞",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "彼得·史特拉塞",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "彼得·史特拉塞",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "啊啊啊啊啊……………………",
 			typewriter = {
 				speed = 0.05,

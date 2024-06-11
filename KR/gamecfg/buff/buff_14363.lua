@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "回复效果",
 	time = 10,
+	name = "回复效果",
+	init_effect = "",
 	picture = "",
 	desc = "回复效果",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 14362,
 				time = 3,
-				target = "TargetSelf",
-				skill_id = 14362
+				target = "TargetSelf"
 			}
 		}
 	}

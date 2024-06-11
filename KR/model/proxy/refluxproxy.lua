@@ -1,11 +1,11 @@
 slot0 = class("RefluxProxy", import(".NetProxy"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:initData()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.active = false
 	slot0.returnLV = 0
 	slot0.returnTimestamp = 0
@@ -18,7 +18,7 @@ function slot0.initData(slot0)
 	slot0.autoActionForbidden = false
 end
 
-function slot0.setData(slot0, slot1)
+slot0.setData = function(slot0, slot1)
 	slot0.active = slot1.active == 1
 	slot0.returnLV = slot1.return_lv
 	slot0.returnTimestamp = slot1.return_time
@@ -30,35 +30,35 @@ function slot0.setData(slot0, slot1)
 	slot0.signLastTimestamp = slot1.sign_last_time
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	slot0:on(11752, function (slot0)
 		uv0:setData(slot0)
 	end)
 end
 
-function slot0.setSignLastTimestamp(slot0, slot1)
+slot0.setSignLastTimestamp = function(slot0, slot1)
 	slot0.signLastTimestamp = slot1 or pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.addSignCount(slot0)
+slot0.addSignCount = function(slot0)
 	slot0.signCount = slot0.signCount + 1
 end
 
-function slot0.addPtAfterSubTasks(slot0, slot1)
+slot0.addPtAfterSubTasks = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0.ptNum = slot0.ptNum + pg.return_task_template[slot6.id].pt_award
 	end
 end
 
-function slot0.addPTStage(slot0)
+slot0.addPTStage = function(slot0)
 	slot0.ptStage = slot0.ptStage + 1
 end
 
-function slot0.isActive(slot0)
+slot0.isActive = function(slot0)
 	return slot0.active
 end
 
-function slot0.isCanSign(slot0)
+slot0.isCanSign = function(slot0)
 	if slot0:isActive() and not slot0.autoActionForbidden then
 		slot1 = pg.TimeMgr.GetInstance()
 		slot6 = slot1:IsSameDay(slot1:GetServerTime(), slot0.signLastTimestamp)
@@ -69,7 +69,7 @@ function slot0.isCanSign(slot0)
 	end
 end
 
-function slot0.isInRefluxTime(slot0)
+slot0.isInRefluxTime = function(slot0)
 	if slot0:isActive() then
 		if slot0.returnTimestamp + #pg.return_sign_template.all * 86400 <= pg.TimeMgr.GetInstance():GetServerTime() then
 			return false
@@ -81,7 +81,7 @@ function slot0.isInRefluxTime(slot0)
 	end
 end
 
-function slot0.setAutoActionForbidden(slot0, slot1)
+slot0.setAutoActionForbidden = function(slot0, slot1)
 	slot0.autoActionForbidden = slot1
 end
 

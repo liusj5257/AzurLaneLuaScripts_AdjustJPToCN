@@ -8,18 +8,18 @@ slot5 = class("BattleSpaceLaserWeaponUnit", slot0.Battle.BattleWeaponUnit)
 slot0.Battle.BattleSpaceLaserWeaponUnit = slot5
 slot5.__name = "BattleSpaceLaserWeaponUnit"
 
-function slot5.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
+slot5.createMajorEmitter = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot0:CreateEmitter(slot3, slot1, slot2)
 	slot0._majorEmitterList[#slot0._majorEmitterList + 1] = slot6
 
 	return slot6
 end
 
-function slot5.CreateEmitter(slot0, slot1, slot2, slot3)
+slot5.CreateEmitter = function(slot0, slot1, slot2, slot3)
 	slot4, slot5, slot6 = nil
 	slot7 = 0
 
-	function slot8(slot0, slot1, slot2, slot3, slot4)
+	slot8 = function(slot0, slot1, slot2, slot3, slot4)
 		if uv0._currentState == uv0.STATE_DISABLE then
 			return
 		end
@@ -103,6 +103,6 @@ function slot5.CreateEmitter(slot0, slot1, slot2, slot3)
 	end, slot2)
 end
 
-function slot5.SingleFire(slot0, slot1, slot2, slot3, slot4)
+slot5.SingleFire = function(slot0, slot1, slot2, slot3, slot4)
 	assert(false, "Not Support only fire for BattleSpaceLaserWeapon")
 end

@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.escort_template = {
 	[20001] = {
-		id = 20001,
 		pos_x = "0.38328125",
+		id = 20001,
 		pic = "BC",
 		pos_y = "0.5209375",
 		gardroad_reward = {
@@ -37,8 +37,8 @@ pg.escort_template = {
 		}
 	},
 	[20002] = {
-		id = 20002,
 		pos_x = "0.513046875",
+		id = 20002,
 		pic = "BD",
 		pos_y = "0.5209375",
 		gardroad_reward = {
@@ -73,8 +73,8 @@ pg.escort_template = {
 		}
 	},
 	[20003] = {
-		id = 20003,
 		pos_x = "0.641484375",
+		id = 20003,
 		pic = "BE",
 		pos_y = "0.5209375",
 		gardroad_reward = {
@@ -109,8 +109,8 @@ pg.escort_template = {
 		}
 	},
 	[20004] = {
-		id = 20004,
 		pos_x = "0.384375",
+		id = 20004,
 		pic = "BC",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -145,8 +145,8 @@ pg.escort_template = {
 		}
 	},
 	[20005] = {
-		id = 20005,
 		pos_x = "0.51328125",
+		id = 20005,
 		pic = "BD",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -181,8 +181,8 @@ pg.escort_template = {
 		}
 	},
 	[20006] = {
-		id = 20006,
 		pos_x = "0.63984375",
+		id = 20006,
 		pic = "BE",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -217,8 +217,8 @@ pg.escort_template = {
 		}
 	},
 	[20007] = {
-		id = 20007,
 		pos_x = "0.384375",
+		id = 20007,
 		pic = "BC",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -253,8 +253,8 @@ pg.escort_template = {
 		}
 	},
 	[20008] = {
-		id = 20008,
 		pos_x = "0.51328125",
+		id = 20008,
 		pic = "BD",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -289,8 +289,8 @@ pg.escort_template = {
 		}
 	},
 	[20009] = {
-		id = 20009,
 		pos_x = "0.63984375",
+		id = 20009,
 		pic = "BE",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -325,8 +325,8 @@ pg.escort_template = {
 		}
 	},
 	[20010] = {
-		id = 20010,
 		pos_x = "0.384375",
+		id = 20010,
 		pic = "BC",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -361,8 +361,8 @@ pg.escort_template = {
 		}
 	},
 	[20011] = {
-		id = 20011,
 		pos_x = "0.51328125",
+		id = 20011,
 		pic = "BD",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -397,8 +397,8 @@ pg.escort_template = {
 		}
 	},
 	[20012] = {
-		id = 20012,
 		pos_x = "0.63984375",
+		id = 20012,
 		pic = "BE",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -433,8 +433,8 @@ pg.escort_template = {
 		}
 	},
 	[20013] = {
-		id = 20013,
 		pos_x = "0.384375",
+		id = 20013,
 		pic = "BC",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -469,8 +469,8 @@ pg.escort_template = {
 		}
 	},
 	[20014] = {
-		id = 20014,
 		pos_x = "0.51328125",
+		id = 20014,
 		pic = "BD",
 		pos_y = "0.53055556",
 		gardroad_reward = {
@@ -505,8 +505,8 @@ pg.escort_template = {
 		}
 	},
 	[20015] = {
-		id = 20015,
 		pos_x = "0.63984375",
+		id = 20015,
 		pic = "BE",
 		pos_y = "0.53055556",
 		gardroad_reward = {

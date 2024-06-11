@@ -1,10 +1,10 @@
 slot0 = class("VoteAwardWindowPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "VoteAwardWindowUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.currToggle = slot0:findTF("frame/toggle/curr")
 	slot0.accToggle = slot0:findTF("frame/toggle/acc")
 	slot0.ptWindow = VoteAwardPtWindow.New(slot0._tf, slot0)
@@ -15,7 +15,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/panel/list/tpl/award/mask/Text"), i18n("vote_lable_rearch"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onToggle(slot0, slot0.currToggle, function (slot0)
 		slot1 = uv0.currPtData
 
@@ -50,7 +50,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 
 	slot0.currPtData = slot0:GenCurrPtData()
@@ -68,12 +68,12 @@ function slot0.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.GenCurrPtData(slot0)
+slot0.GenCurrPtData = function(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VOTE) and not slot1:isEnd() then
 		slot4 = {}
 		slot5 = {}
@@ -105,7 +105,7 @@ function slot0.GenCurrPtData(slot0)
 	end
 end
 
-function slot0.GenAccPtData(slot0)
+slot0.GenAccPtData = function(slot0)
 	slot1 = nil
 
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) and not slot2:isEnd() then
@@ -115,7 +115,7 @@ function slot0.GenAccPtData(slot0)
 	return slot1
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "I56XIAOFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "I56XIAOFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"角落的向日葵\n\n<size=45>三 新的夥伴？</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_103",
 			bgm = "story-1",
 			actor = 308041,
 			nameColor = "#a9f548",
 			say = "哎呀，妳是……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "嗚嗚嗚嗚嗚嗚嗚(屁股壓到我了）……我、我叫伊56",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -114,10 +114,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 408070,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "不好意思突然跳出來嚇到妳們啦",
+			dir = 1,
+			actor = 408070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -183,8 +183,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "嘿嘿，我正在尋找有趣的事呢，有沒有什麼建議分享一下呀！",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "有趣的事情…好像…沒有什麼呢，56呢？",
 			typewriter = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 408070,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408070,
+			nameColor = "#a9f548",
 			say = "吼～學校裡有什麼有趣的事呀？",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "伊26經常和U-81玩捉迷藏，也會和鰷魚會一起訓練……",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "U-73和伊19跟誰都合得來所以有點微妙，伊13經常去找航母們玩，所以她們比較……嗯……",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "然後,大青花魚則是喜歡捉弄所有人……",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "……沒想到，56妳這麼關注大家…",
 			typewriter = {
@@ -391,8 +391,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "好！下次到學校就去找大青花魚玩吧！",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 35,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -415,11 +415,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "糟了糟了糟了！要來不及了！",
 			dialogShake = {
 				speed = 0.09,
@@ -442,11 +442,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "又、又來了嗎！？！！！",
 			effects = {
 				{
@@ -464,8 +464,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

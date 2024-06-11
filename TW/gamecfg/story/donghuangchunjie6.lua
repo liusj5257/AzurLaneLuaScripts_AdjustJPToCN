@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鬧騰嬉戲東煌春節\n\n<size=45>六 熱鬧的“團聚”·下</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 501010,
-			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "那麼，就請大家盡情享用，不夠的話還可以加餐哦。",
 			bgm = "main-chunjie",
+			actor = 501010,
+			nameColor = "#a9f548",
+			say = "那麼，就請大家盡情享用，不夠的話還可以加餐哦。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107062,
 			dir = 1,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "嗯…看著這麼多人一起吃飯，心裡突然有種非常溫暖的感覺，這就是“團聚”的氛圍嗎",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "身處這種暖洋洋的氛圍裡，忽然有點想唱歌呢，不過還是先吃飯吧～",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301054,
 			dir = 1,
+			actor = 301054,
 			nameColor = "#a9f548",
 			say = "拉菲，筷子不是那樣使用的，要像這樣拿，再這樣夾……的說。",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "原來馬鈴薯還可以這樣料理…嗯，下次可以研發新的菜式了",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "不過…最後指揮官還是沒能趕得上一起吃年夜飯呢……",
 			typewriter = {
@@ -267,16 +267,16 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "呼，吃飽了吃飽了~逸仙姐的家常菜果然是最美味的！那麼接下來嘛~嘿嘿嘿……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -303,14 +303,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_102",
 			actor = 101173,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "拉菲吃得好飽…吃飽之後，就有些睏了…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -338,8 +338,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107062,
 			dir = 1,
+			actor = 107062,
 			nameColor = "#a9f548",
 			say = "既然大家都吃飽了，就來點餐後的娛樂環節吧？皇家的各位，要不要來一場強手棋對決呢？",
 			typewriter = {
@@ -355,8 +355,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "哦？這是在向我提出挑戰嗎？就算是單純的遊戲，我可也是不會輸給任何人的，來吧！",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "好像很有趣呢，也算我一份吧——",
 			typewriter = {
@@ -389,9 +389,9 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 206042,
 			dir = 1,
 			blackBg = true,
+			actor = 206042,
 			actorName = "半人馬",
 			say = "呀啊！怎、怎麼突然變黑了…",
 			typewriter = {
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "嗷嗚——",
 			typewriter = {
 				speed = 0.05,
@@ -444,10 +444,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 202121,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202121,
+			nameColor = "#a9f548",
 			say = "這聲音是……",
 			typewriter = {
 				speed = 0.05,
@@ -477,9 +477,9 @@ return {
 		{
 			actor = 501010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "不不，那個只是傳說而已啦……",
 			effects = {
 				{

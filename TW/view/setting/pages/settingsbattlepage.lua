@@ -12,11 +12,11 @@ slot10 = "skill_4_anchorY"
 slot0.CLD_RED = Color.New(0.6, 0.05, 0.05, 0.5)
 slot0.DEFAULT_GREY = Color.New(0.5, 0.5, 0.5, 0.5)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SettingsBattlePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.editPanel = slot0._tf:Find("editor")
 	slot1 = findTF(slot0._tf, "editor/buttons")
 	slot0.normalBtns = findTF(slot1, "normal")
@@ -50,7 +50,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0._tf:Find("editor/buttons/editing/cancel/Image"), i18n("settings_battle_Btn_cancel"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.editBtn, function ()
 		uv0:EditModeEnabled(true)
 	end, SFX_PANEL)
@@ -89,7 +89,7 @@ function slot0.OnInit(slot0)
 	slot0:InitInterfaceComponents()
 end
 
-function slot0.InitInterfaceComponents(slot0)
+slot0.InitInterfaceComponents = function(slot0)
 	slot0:InitInterfaceComponent(slot0.stick, slot0.eventStick, uv0, uv1, ys.Battle.BattleConfig.JOY_STICK_DEFAULT_PREFERENCE)
 
 	slot2 = ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE
@@ -119,14 +119,14 @@ function slot0.InitInterfaceComponents(slot0)
 	slot0:EditModeEnabled(false)
 end
 
-function slot0.GetScale(slot0)
+slot0.GetScale = function(slot0)
 	slot5 = nil
 	slot5 = rtf(slot0.interface).rect.width / rtf(slot0.interface).rect.height > rtf(slot0._parentTf).rect.width / rtf(slot0._parentTf).rect.height and slot2 / slot4 or slot1 / slot3
 
 	return Vector3.New(slot5, slot5, 1)
 end
 
-function slot0.InitInterfaceComponent(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.InitInterfaceComponent = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot8 = rtf(slot0._parentTf).rect.width * 0.5 + slot0.interface.localPosition.x + slot0.interface.parent.localPosition.x + slot0.interface.parent.parent.localPosition.x
 	slot9 = rtf(slot0._parentTf).rect.height * 0.5 + slot0.interface.localPosition.y + slot0.interface.parent.localPosition.y + slot0.interface.parent.parent.localPosition.y
 	slot10, slot11, slot12, slot13 = nil
@@ -155,7 +155,7 @@ function slot0.InitInterfaceComponent(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:SetInterfaceAnchor(slot1, slot3, slot4, slot5)
 end
 
-function slot0.EditModeEnabled(slot0, slot1)
+slot0.EditModeEnabled = function(slot0, slot1)
 	setActive(slot0.normalBtns, not slot1)
 	setActive(slot0.mask, not slot1)
 	setActive(slot0.editBtns, slot1)
@@ -172,7 +172,7 @@ function slot0.EditModeEnabled(slot0, slot1)
 	slot0.topLayerCg.blocksRaycasts = not slot1
 end
 
-function slot0.SetInterfaceAnchor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.SetInterfaceAnchor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6, slot7 = nil
 
 	if slot5 then
@@ -186,7 +186,7 @@ function slot0.SetInterfaceAnchor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot1.localPosition = Vector3((slot6 - 0.5) * rtf(slot0.interface).rect.width, (slot7 - 0.5) * rtf(slot0.interface).rect.height, 0)
 end
 
-function slot11(slot0)
+slot11 = function(slot0)
 	slot1 = rtf(slot0)
 	slot2 = slot1.rect
 	slot3 = slot2.width * slot1.lossyScale.x
@@ -196,7 +196,7 @@ function slot11(slot0)
 	return UnityEngine.Rect.New(slot5.x - slot3 / 2, slot5.y - slot4 / 2, slot3, slot4)
 end
 
-function slot0.CheckInterfaceIntersect(slot0)
+slot0.CheckInterfaceIntersect = function(slot0)
 	slot1 = {}
 	slot2 = false
 	slot3 = {}
@@ -236,7 +236,7 @@ function slot0.CheckInterfaceIntersect(slot0)
 	return slot2
 end
 
-function slot0.RevertInterfaceSetting(slot0, slot1)
+slot0.RevertInterfaceSetting = function(slot0, slot1)
 	slot3 = ys.Battle.BattleConfig.SKILL_BUTTON_DEFAULT_PREFERENCE
 
 	slot0:SetInterfaceAnchor(slot0.stick, uv0, uv1, ys.Battle.BattleConfig.JOY_STICK_DEFAULT_PREFERENCE, slot1)
@@ -247,7 +247,7 @@ function slot0.RevertInterfaceSetting(slot0, slot1)
 	slot0:SaveInterfaceSetting()
 end
 
-function slot0.SaveInterfaceSetting(slot0)
+slot0.SaveInterfaceSetting = function(slot0)
 	slot0:OverrideInterfaceSetting(slot0.stick, uv0, uv1)
 	slot0:OverrideInterfaceSetting(slot0.skillBtn1, uv2, uv3)
 	slot0:OverrideInterfaceSetting(slot0.skillBtn2, uv4, uv5)
@@ -255,7 +255,7 @@ function slot0.SaveInterfaceSetting(slot0)
 	slot0:OverrideInterfaceSetting(slot0.skillBtn4, uv8, uv9)
 end
 
-function slot0.OverrideInterfaceSetting(slot0, slot1, slot2, slot3)
+slot0.OverrideInterfaceSetting = function(slot0, slot1, slot2, slot3)
 	slot4 = rtf(slot0.interface).rect.width
 	slot5 = rtf(slot0.interface).rect.height
 
@@ -263,7 +263,7 @@ function slot0.OverrideInterfaceSetting(slot0, slot1, slot2, slot3)
 	PlayerPrefs.SetFloat(slot3, (slot1.localPosition.y + slot5 * 0.5) / slot5)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	ClearEventTrigger(slot0.eventStick)
 	ClearEventTrigger(slot0.eventSkillBtn1)
 	ClearEventTrigger(slot0.eventSkillBtn2)
@@ -273,12 +273,12 @@ function slot0.OnDestroy(slot0)
 	Input.multiTouchEnabled = true
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	slot0.cg.blocksRaycasts = true
 	slot0.cg.alpha = 1
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.cg.blocksRaycasts = false
 	slot0.cg.alpha = 0
 end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"정월의 축복\n\n<size=45>3 겨울의 대난투</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 도크",
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "모항 - 도크",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "하아아아! 눈덩이 일제사격이다! 받아라!",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			say = "과연 로열 네이비에서 가장 신뢰하는 맹우답군. 그렇다면, 이건 어떠냐!",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "과연 로열 네이비에서 가장 신뢰하는 맹우답군. 그렇다면, 이건 어떠냐!",
+			actor = 205060,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "아우…… 다, 당했다……",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "에, 에에……? 겨우 눈싸움인데, SG까지……",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
+			say = "클리블랜드……그렇게 세게 던지다가 어깨라도 다치면 어쩌려고…",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "클리블랜드……그렇게 세게 던지다가 어깨라도 다치면 어쩌려고…",
+			actor = 102050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "호오… 설마 여기서 로열 네이비에 이글 유니온까지 만날 줄은…… 후후후, 아무래도 이 싸움, 즐길 수 있을 것 같군.",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "호오… 설마 여기서 로열 네이비에 이글 유니온까지 만날 줄은…… 후후후, 아무래도 이 싸움, 즐길 수 있을 것 같군.",
+			actor = 307020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -413,11 +413,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301600,
 			actorName = "구축함들",
 			say = "오오―!",
 			subActors = {
@@ -444,13 +444,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
+			dir = 1,
 			say = "눈싸움이 이어진다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -475,11 +475,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "후에에에… 눈사람이 되어 버릴 것 같아……",
 			typewriter = {
 				speed = 0.05,
@@ -491,8 +491,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -565,12 +565,12 @@ return {
 			}
 		},
 		{
-			actor = 205060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 205060,
+			nameColor = "#92fc63",
 			say = "사쿠라 엠파이어의 정월인가………",
 			typewriter = {
 				speed = 0.05,

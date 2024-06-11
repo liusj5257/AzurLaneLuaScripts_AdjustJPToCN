@@ -2,7 +2,7 @@ slot0 = class("BattleGateAirFight")
 ys.Battle.BattleGateAirFight = slot0
 slot0.__name = "BattleGateAirFight"
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	slot2 = slot0.stageId
 
 	slot1:sendNotification(GAME.BEGIN_STAGE_DONE, {
@@ -12,7 +12,7 @@ function slot0.Entrance(slot0, slot1)
 	})
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE)
 
 	if ys.Battle.BattleConst.BattleScore.B <= slot0.statistics._battleScore and slot2 and not slot2:isEnd() then

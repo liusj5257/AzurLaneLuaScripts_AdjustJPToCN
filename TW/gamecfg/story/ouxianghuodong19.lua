@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG19",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "席捲全港區的大活動終於也來到了最後關頭——",
 			bgm = "azumaster-ins",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "席捲全港區的大活動終於也來到了最後關頭——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,11 +24,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "下一場戰鬥就是就是「μ兵裝」性能測試，兼今日的Live活動的最高潮了喵！ ",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "而是“之前的所有挑戰者”VS“Polaris”喵！",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

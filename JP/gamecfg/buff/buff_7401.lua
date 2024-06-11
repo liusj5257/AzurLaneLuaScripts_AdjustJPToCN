@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_4",
-					number = -0.5
+					number = -0.5,
+					attr = "DMG_FROM_TAG_1_T_4"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_5",
-					number = -0.5
+					number = -0.5,
+					attr = "DMG_FROM_TAG_1_T_5"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_6",
-					number = -0.5
+					number = -0.5,
+					attr = "DMG_FROM_TAG_1_T_6"
 				}
 			},
 			{
@@ -37,8 +37,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_7",
-					number = -0.5
+					number = -0.5,
+					attr = "DMG_FROM_TAG_1_T_7"
 				}
 			}
 		}
@@ -51,8 +51,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_4",
-					number = -0.25
+					number = -0.25,
+					attr = "DMG_FROM_TAG_1_T_4"
 				}
 			},
 			{
@@ -61,8 +61,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_5",
-					number = -0.25
+					number = -0.25,
+					attr = "DMG_FROM_TAG_1_T_5"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_6",
-					number = -0.25
+					number = -0.25,
+					attr = "DMG_FROM_TAG_1_T_6"
 				}
 			},
 			{
@@ -81,20 +81,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_T_7",
-					number = -0.25
+					number = -0.25,
+					attr = "DMG_FROM_TAG_1_T_7"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 7401,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 7401,
+	color = "blue",
 	icon = 7401,
 	last_effect = "",
 	blink = {
@@ -111,8 +111,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_4",
-				number = -0.5
+				number = -0.5,
+				attr = "DMG_FROM_TAG_1_T_4"
 			}
 		},
 		{
@@ -121,8 +121,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_5",
-				number = -0.5
+				number = -0.5,
+				attr = "DMG_FROM_TAG_1_T_5"
 			}
 		},
 		{
@@ -131,8 +131,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_6",
-				number = -0.5
+				number = -0.5,
+				attr = "DMG_FROM_TAG_1_T_6"
 			}
 		},
 		{
@@ -141,8 +141,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_T_7",
-				number = -0.5
+				number = -0.5,
+				attr = "DMG_FROM_TAG_1_T_7"
 			}
 		}
 	}

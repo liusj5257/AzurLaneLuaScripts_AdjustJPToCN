@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 3,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 0,
-				maxTargetNumber = 0,
 				skill_id = 600047,
+				maxTargetNumber = 0,
 				target = "TargetSelf",
 				check_target_gap = {
 					{
@@ -50,8 +50,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				maxTargetNumber = 1,
 				skill_id = 600048,
+				maxTargetNumber = 1,
 				target = "TargetSelf",
 				check_target_gap = {
 					{
@@ -84,8 +84,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				maxTargetNumber = 2,
 				skill_id = 600049,
+				maxTargetNumber = 2,
 				target = "TargetSelf",
 				check_target_gap = {
 					{
@@ -118,8 +118,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 3,
-				maxTargetNumber = 3,
 				skill_id = 600050,
+				maxTargetNumber = 3,
 				target = "TargetSelf",
 				check_target_gap = {
 					{
@@ -152,8 +152,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 4,
-				maxTargetNumber = 4,
 				skill_id = 600050,
+				maxTargetNumber = 4,
 				target = "TargetSelf",
 				check_target_gap = {
 					{
@@ -186,8 +186,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 5,
-				maxTargetNumber = 5,
 				skill_id = 600050,
+				maxTargetNumber = 5,
 				target = "TargetSelf",
 				check_target_gap = {
 					{

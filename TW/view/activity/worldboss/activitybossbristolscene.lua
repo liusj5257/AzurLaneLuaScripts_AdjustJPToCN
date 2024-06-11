@@ -1,15 +1,15 @@
 slot0 = class("ActivityBossBristolScene", import(".ActivityBossSceneTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivityBossBristolUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 	setText(slot0:findTF("ticket/Desc", slot0.top), i18n("word_special_challenge_ticket"))
 end
 
-function slot0.UpdateDropItems(slot0)
+slot0.UpdateDropItems = function(slot0)
 	slot1 = ipairs
 	slot2 = slot0.contextData.DisplayItems or {}
 

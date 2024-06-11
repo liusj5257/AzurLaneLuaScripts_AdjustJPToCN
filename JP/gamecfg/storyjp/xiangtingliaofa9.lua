@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 101020,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "ファラガット級駆逐艦デューイです！よろしくお願いしますっ！",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101400,
 			dir = 1,
+			actor = 101400,
 			say = "同じくファラガット級のエールウィンです。よろしくお願いします",
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +61,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 101020,
 			dir = 1,
+			actor = 101020,
 			say = "はい！…ですっ",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101400,
 			dir = 1,
+			actor = 101400,
 			say = "NYシティに寄港して確認したくても、セイレーンの艦隊が邪魔で……",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101400,
 			dir = 1,
+			actor = 101400,
 			say = "わたしたち二人では……",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -161,9 +161,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指揮官ならきっと……デューイたちを助けてくださいますよねっ！",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "ああ、指揮官なら大丈夫だ。この危機を乗り越えよう",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あ、あのっ！さっきバーミンガムさんとジュノーさんから上級個体と接触したとの連絡をキャッチしましたっ！",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -251,8 +251,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101020,
 			dir = 1,
+			actor = 101020,
 			say = "指揮官、あの二人も助けてくださいっ！",
 			typewriter = {
 				speed = 0.05,

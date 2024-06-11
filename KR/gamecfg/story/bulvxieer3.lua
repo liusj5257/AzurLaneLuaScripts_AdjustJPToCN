@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"애정 공세!\n\n<size=45>3. 햇살보다 더 화사한 열정</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_main_day",
-			hidePaintEquip = true,
 			dir = 1,
 			bgm = "story-richang-2",
+			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_main_day",
 			say = "드디어 날씨가 갰네! 데이트하기 딱 좋은 날씨다, 그치? 냐하~☆",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "휴일의 둘째 날, 이른 아침부터 블뤼허에게 끌려 모항의 쇼핑 거리에 나왔다……",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "원래 휴일이니 맘껏 푹 쉬는 게 어떠냐고 묻고 싶었지만——",
 			typewriter = {
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "휴식……? 지휘관이 블뤼허 옆에 있어 준다면, 그게 블뤼허에게 최고의 휴식이야!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "휴식……? 지휘관이 블뤼허 옆에 있어 준다면, 그게 블뤼허에게 최고의 휴식이야!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
+			side = 2,
 			say = "어쩔 수 없이 잠깐 그녀와 함께 있어줄 수밖에.",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			say = "첫 번째로, 밀크티 가게——",
 			typewriter = {
@@ -152,17 +152,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "자, 지휘관, 이건 지휘관꺼야~",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "자, 지휘관, 이건 지휘관꺼야~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			say = "블뤼허가 건넨 밀크티를 받아서 한 입——당도 100%인 건가…… 정말 달았다.",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "다음으로, 놀이공원——",
 			typewriter = {
@@ -283,17 +283,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -301,14 +301,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
-			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "우와! 지휘관, 나랑 저거 타자! 엄청 스릴 있고 재밌어 보여!",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "우와! 지휘관, 나랑 저거 타자! 엄청 스릴 있고 재밌어 보여!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "롤러코스터라니…… 이야기하기 좋은 회전목마 같은 걸 고를 줄 알았는데.",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "흔들다리 효과——확실히 이런 현상을 묘사하는 단어가 있는 것 같다.",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "하지만 롤러코스터는 태풍이 몰아치는 날의 지휘함에 비하면……",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "마지막으로, 영화관——",
 			typewriter = {
@@ -454,17 +454,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "음…… 그런데 왜 해난에 관한 영화였을까?",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "손 끝에서 갑자기 부드러운 감촉이 전해졌다——",
 			typewriter = {
@@ -599,8 +599,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

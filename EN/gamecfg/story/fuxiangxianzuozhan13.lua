@@ -1,17 +1,17 @@
 return {
-	id = "FUXIANGXIANZUOZHAN13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN13",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 407030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-heroines-image",
 			dir = 1,
 			say = "The Sakura aircraft broke formation and retreated. Did the routine module of the Pawn malfunction as well?",
+			bgm = "battle-heroines-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "It's impossible to track down all of them. Weser, were you able to locate the carrier?",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "I found an entire mass-produced Sakura fleet placed in an unplanned area, but there were no carriers present. Apparently, we're dealing with more than one device failure...",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "Inconceivable. The worst-case scenario is actually happening...",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Together with Souryuu\n\n<size=45>Chapter 2: Instruct Me, Souryuu!</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I heard that Souryuu's hobby was playing hanafuda, so I decided to learn it as a way of finding some common ground with her.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,15 +48,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Sakura Dorms",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Sakura Dorms",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -97,12 +97,12 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "Hmm... At last, the great battle that led to the country's unification!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmm... At last, the great battle that led to the country's unification!",
+			actor = 301590,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "At that time, the Imagawa clan had a numbers advantage... Oh my, Commander. What brings you here?",
 			typewriter = {
 				speed = 0.05,
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "I suppose it wouldn't hurt to listen.",
 			typewriter = {
@@ -204,15 +204,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "... Nobody could have foreseen that Imagawa Yoshimoto would be slain by Nobunaga's attack.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,15 +253,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "... All right, that concludes today's lesson.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Amazing... Souryuu's lesson was informative, but also very easy to follow.",
 			typewriter = {
 				speed = 0.05,
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#a9f548",
 			say = "Hm, hm... I see! Thank you very much, teacher!",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Something else...? I was beginning to think that Souryuu knew everything...",
 			typewriter = {
 				speed = 0.05,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "Now, did you need something?",
 			typewriter = {
 				speed = 0.05,

@@ -62,12 +62,12 @@ return {
 	desc_get = "开火时有4%几率触发，8秒内，提高队伍移动速度，先锋机动提升20.0%(满级40.0%)",
 	name = "31节伯克",
 	init_effect = "",
+	id = 10040,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "开火时有4%几率触发，8秒内，提高队伍移动速度，先锋机动提升$1",
 	stack = 1,
-	id = 10040,
+	color = "yellow",
 	icon = 10040,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 400,
-				target = "TargetSelf",
 				skill_id = 10040,
+				target = "TargetSelf",
 				time = 5
 			}
 		}

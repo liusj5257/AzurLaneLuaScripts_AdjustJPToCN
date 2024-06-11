@@ -1,27 +1,27 @@
 slot0 = class("RefluxPTView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RefluxPTUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateUI()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.OnBackPress(slot0)
+slot0.OnBackPress = function(slot0)
 	slot0:Hide()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.refluxProxy = getProxy(RefluxProxy)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.nextBtn = slot0:findTF("NextBtn")
 	slot0.countText = slot0:findTF("PTCount")
 	slot1 = slot0.countText:GetComponent(typeof(Text))
@@ -46,21 +46,21 @@ function slot0.initUI(slot0)
 	end)
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot0:updateTplList()
 	slot0:ScrollPt(slot0.refluxProxy.ptStage - 1)
 	setText(slot0.countText, slot0.refluxProxy.ptNum)
 end
 
-function slot0.updateOutline(slot0)
+slot0.updateOutline = function(slot0)
 	slot1 = slot0.countText:GetComponent(typeof(Text))
 	slot1.material = Object.Instantiate(slot1.material)
 end
 
-function slot0.updateTpl(slot0, slot1, slot2)
+slot0.updateTpl = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF("item", slot1)
 	slot8 = slot0:findTF("face", slot1)
 	slot9 = slot0:findTF("progress", slot1)
@@ -107,11 +107,11 @@ function slot0.updateTpl(slot0, slot1, slot2)
 	setImageSprite(slot8, slot0.faceSpriteList[(slot2 - 1) % 10 + 1])
 end
 
-function slot0.updateTplList(slot0)
+slot0.updateTplList = function(slot0)
 	slot0.stepUIIList:align(#pg.return_pt_template.all)
 end
 
-function slot0.updateAfterServer(slot0)
+slot0.updateAfterServer = function(slot0)
 	slot2 = slot0.refluxProxy.ptStage + 1
 	slot3 = slot2 - 1
 
@@ -126,14 +126,14 @@ function slot0.updateAfterServer(slot0)
 	slot0:ScrollPt(slot0.refluxProxy.ptStage - 1)
 end
 
-function slot0.ScrollPt(slot0, slot1, slot2, slot3)
+slot0.ScrollPt = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.tplContainerTF:GetComponent(typeof(HorizontalLayoutGroup))
 	slot5 = slot0.tpl:GetComponent(typeof(LayoutElement))
 	slot0.scrollViewTF:GetComponent(typeof(ScrollRect)).horizontalNormalizedPosition = math.clamp(math.max(slot1 * (slot5.preferredWidth + slot4.spacing) - slot0.viewportTF.rect.width * 0.5 + slot5.preferredWidth, 0) / (slot0.tplContainerTF.childCount * slot5.preferredWidth + (slot0.tplContainerTF.childCount - 1) * slot4.spacing - slot0.viewportTF.rect.width), 0, 1)
 end
 
-function slot0.onStepClick(slot0, slot1)
-	function slot2()
+slot0.onStepClick = function(slot0, slot1)
+	slot2 = function()
 		pg.m02:sendNotification(GAME.REFLUX_GET_PT_AWARD)
 	end
 
@@ -157,7 +157,7 @@ function slot0.onStepClick(slot0, slot1)
 	end
 end
 
-function slot0.getAwardForShow(slot0, slot1)
+slot0.getAwardForShow = function(slot0, slot1)
 	slot4 = slot0.refluxProxy.returnLV
 	slot5 = nil
 
@@ -178,13 +178,13 @@ function slot0.getAwardForShow(slot0, slot1)
 	}
 end
 
-function slot0.getPTMinAndMax(slot0, slot1)
+slot0.getPTMinAndMax = function(slot0, slot1)
 	slot2, slot3 = nil
 
 	return (not pg.return_pt_template[slot1 - 1] or slot6.pt_require) and 0, pg.return_pt_template[slot1].pt_require
 end
 
-function slot0.isAnyPTCanGetAward()
+slot0.isAnyPTCanGetAward = function()
 	if #pg.return_pt_template.all >= getProxy(RefluxProxy).ptStage + 1 then
 		return pg.return_pt_template[slot2].pt_require <= slot1.ptNum
 	else

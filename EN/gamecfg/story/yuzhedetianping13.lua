@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING13",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,18 +31,18 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Whoooa! Giant dandelions are falling from the sky!",
 			bgm = "story-clemenceau-judgement",
+			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Whoooa! Giant dandelions are falling from the sky!",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whatever those are, they're obviously NOT dandelions!",
 			painting = {
 				alpha = 0.3,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The area around Taranto is a mess... Worse yet, I can't get in touch with Veneto or Littorio.",
 			painting = {
 				alpha = 0.3,
@@ -108,10 +108,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Abruzzi, don't you think we should set out to battle?",
 			painting = {
 				alpha = 0.3,
@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good point... Then hopefully, someone will contact us very soon.",
 			painting = {
 				alpha = 0.3,
@@ -165,30 +165,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
-			actorName = "Communicator",
 			stopbgm = true,
-			say = "BEEP—",
 			bgm = "theme-marcopolo",
+			actorName = "Communicator",
+			hidePaintObj = true,
+			say = "BEEP—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -199,10 +199,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "This is Marco Polo. Do you read me?",
 			painting = {
 				alpha = 0.3,
@@ -217,10 +217,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh! It's you, Marco Polo!",
 			painting = {
 				alpha = 0.3,
@@ -235,10 +235,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank goodness. This is Aquila speaking. Are you still at the World Expo?",
 			painting = {
 				alpha = 0.3,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How's the situation over there? Do you have any idea what's going on?",
 			painting = {
 				alpha = 0.3,
@@ -270,10 +270,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "I had a feeling you knew something bizarre is happening.",
 			painting = {
 				alpha = 0.3,
@@ -288,10 +288,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "As you can already tell, all of Sardegna is in serious danger.",
 			painting = {
 				alpha = 0.3,
@@ -306,10 +306,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "In accordance with the state of emergency protocol, I am tasked with resolving this situation.",
 			painting = {
 				alpha = 0.3,
@@ -324,10 +324,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "Until the state of emergency is lifted, all military forces in and around Sardegna are under my command.",
 			painting = {
 				alpha = 0.3,
@@ -342,10 +342,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "Aquila, you and everyone else at Taranto are to head to the Expo immediately, prepare for battle, and wait for further instructions.",
 			painting = {
 				alpha = 0.3,
@@ -360,10 +360,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "To provide rescue and relief efforts? Understood.",
 			painting = {
 				alpha = 0.3,
@@ -375,12 +375,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Actually, wait... If I remember right, Veneto takes precedence over you on the chain of command on the state of emergency protocol...",
 			painting = {
 				alpha = 0.3,
@@ -395,10 +395,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What happened to her? Did she confer authority to you?",
 			painting = {
 				alpha = 0.3,
@@ -413,10 +413,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "Veneto this, Veneto that... It's always about her, isn't it?",
 			painting = {
 				alpha = 0.3,
@@ -431,10 +431,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "That's precisely why I've chosen this path.",
 			painting = {
 				alpha = 0.3,
@@ -449,10 +449,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "You know what? Screw all of you! Hmph!",
 			painting = {
 				alpha = 0.3,
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
@@ -479,10 +479,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hm? H-hello? Marco Polo?",
 			painting = {
 				alpha = 0.3,
@@ -497,10 +497,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Aren't you going to tell us what's going on?",
 			painting = {
 				alpha = 0.3,
@@ -616,10 +616,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Abruzzi! Da Recco! Let us prepare for battle at once!",
 			painting = {
 				alpha = 0.3,

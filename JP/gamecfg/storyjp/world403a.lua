@@ -1,17 +1,17 @@
 return {
-	id = "WORLD403A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD403A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "このエリアの敵は全て倒したのだ！",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			actor = 301160,
+			nameColor = "#a9f548",
+			say = "このエリアの敵は全て倒したのだ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

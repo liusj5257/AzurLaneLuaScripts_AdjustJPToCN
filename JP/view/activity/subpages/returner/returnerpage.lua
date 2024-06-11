@@ -1,6 +1,6 @@
 slot0 = class("ReturnerPage")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
@@ -22,7 +22,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.code ~= 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("return_have_participated_in_act"))
@@ -74,7 +74,7 @@ function slot0.Init(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.activity = slot1
 
 	slot0:UpdateData()
@@ -99,7 +99,7 @@ function slot0.Update(slot0, slot1)
 	setActive(slot0.matchedBtn, slot2)
 end
 
-function slot0.ShouldAcceptTasks(slot0)
+slot0.ShouldAcceptTasks = function(slot0)
 	if slot0.code == 0 then
 		return false
 	end
@@ -120,14 +120,14 @@ function slot0.ShouldAcceptTasks(slot0)
 	end)()
 end
 
-function slot0.AcceptTasks(slot0)
+slot0.AcceptTasks = function(slot0)
 	slot0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 		activity_id = slot0.activity.id,
 		cmd = ActivityConst.RETURN_AWARD_OP_RETURNER_GET_AWARD
 	})
 end
 
-function slot0.UpdateData(slot0)
+slot0.UpdateData = function(slot0)
 	slot1 = slot0.activity
 	slot0.config = pg.activity_template_returnner[slot1.id]
 	slot0.code = slot1.data2
@@ -138,7 +138,7 @@ function slot0.UpdateData(slot0)
 	slot0.day = pg.TimeMgr.GetInstance():DiffDay(slot1:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1
 end
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	slot3 = slot2:getConfig("award_display")[1]
 
 	updateDrop(slot1:Find("item"), {
@@ -159,7 +159,7 @@ function slot1(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateTasks(slot0)
+slot0.UpdateTasks = function(slot0)
 	slot0.taskUIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot5 = getProxy(TaskProxy):getTaskById(uv0[slot1 + 1]) or slot4:getFinishTaskById(slot3)
@@ -174,7 +174,7 @@ function slot0.UpdateTasks(slot0)
 	slot0.progress.text = slot0.taskIndex
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	slot0.bg.sprite = nil

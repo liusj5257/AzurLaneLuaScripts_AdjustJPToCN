@@ -12,12 +12,12 @@ return {
 	desc_get = "队伍中存在克利夫兰级的角色时，机队变化",
 	name = "天之骑士·原始款",
 	init_effect = "",
+	id = 11923,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "空袭时额外机队攻击，队伍中存在克利夫兰级的角色时，机队变化",
 	stack = 1,
-	id = 11923,
+	color = "yellow",
 	icon = 11920,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 11920,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -45,9 +45,9 @@ return {
 				"onAllInStrikeSteady"
 			},
 			arg_list = {
+				skill_id = 11921,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				skill_id = 11921,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

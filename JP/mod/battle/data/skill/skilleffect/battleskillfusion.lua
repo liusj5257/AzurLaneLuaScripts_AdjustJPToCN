@@ -10,7 +10,7 @@ slot3.FREEZE_POS = {
 	[-1] = Vector3(10000, 0, 58)
 }
 
-function slot3.Ctor(slot0, slot1, slot2)
+slot3.Ctor = function(slot0, slot1, slot2)
 	slot6 = slot2
 
 	uv0.super.Ctor(slot0, slot1, slot6)
@@ -44,15 +44,15 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0._duration = slot0._tempData.arg_list.duration
 end
 
-function slot3.DoDataEffect(slot0, slot1, slot2)
+slot3.DoDataEffect = function(slot0, slot1, slot2)
 	slot0:doFusion(slot1)
 end
 
-function slot3.DoDataEffectWithoutTarget(slot0, slot1, slot2)
+slot3.DoDataEffectWithoutTarget = function(slot0, slot1, slot2)
 	slot0:doFusion(slot1)
 end
 
-function slot3.doFusion(slot0, slot1)
+slot3.doFusion = function(slot0, slot1)
 	slot3 = uv0.TargetShipTag(slot1, {
 		ship_tag_list = slot0._elementTagList
 	}, uv0.TargetAllHelp(slot1))
@@ -63,8 +63,8 @@ function slot3.doFusion(slot0, slot1)
 	end
 
 	slot8 = uv1.Battle.BattleDataProxy.GetInstance():SpawnFusionUnit(slot1, {
-		name = "123",
 		shipGS = 1,
+		name = "123",
 		id = slot1.id,
 		tmpID = slot0._fusionUnitTempID,
 		skinId = slot0._fusionUnitSkinID,
@@ -144,7 +144,7 @@ function slot3.doFusion(slot0, slot1)
 	end, true)
 end
 
-function slot3.Clear(slot0)
+slot3.Clear = function(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._fusionTimer)
 	uv0.super.Clear(slot0)
 end

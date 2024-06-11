@@ -1,6 +1,6 @@
 slot0 = class("FriendRequestCard", import(".FriendCard"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.acceptBtn = slot0.tf:Find("frame/accpet_btn")
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.levelTF = slot0.tf:Find("frame/request_info/lv_bg/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.update(slot0, slot1, slot2, slot3)
+slot0.update = function(slot0, slot1, slot2, slot3)
 	uv0.super.update(slot0, slot1)
 
 	slot0.manifestoTF.text = slot3

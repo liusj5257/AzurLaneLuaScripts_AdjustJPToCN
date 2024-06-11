@@ -26,11 +26,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			nameColor = "#ff0000",
-			dir = -1,
 			say = "見ての通りよ。そもそもここはカミより授かった「聖域」、ここでは私たちは無限の力を発揮できるわ。",
+			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -51,8 +51,8 @@ return {
 		{
 			actor = 307010,
 			nameColor = "#ff0000",
-			side = 1,
 			dir = -1,
+			side = 1,
 			say = "優れた魂を捧げ続ければ、いつか「あの方」がもう一度…うふふ",
 			shake = {
 				speed = 1,
@@ -106,8 +106,8 @@ return {
 		{
 			actor = 307010,
 			nameColor = "#ff0000",
-			side = 1,
 			dir = -1,
+			side = 1,
 			say = "……黙りなさい！やつの名を口にするんじゃないわ！",
 			shake = {
 				speed = 1,
@@ -143,8 +143,8 @@ return {
 		{
 			actor = 307010,
 			nameColor = "#ff0000",
-			side = 1,
 			dir = -1,
+			side = 1,
 			say = "どいつもこいつもあの忌まわしい名を！！この私が！あんなやつに……加賀！",
 			shake = {
 				speed = 1,

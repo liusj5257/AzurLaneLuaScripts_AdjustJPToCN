@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GULITEGUANQIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GULITEGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			bgName = "star_level_bg_1100",
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Zzzzzz………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "あれ、辺りが真っ暗…私寝てた……？",
 			typewriter = {
 				speed = 0.05,
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "ふはああ…今何時…？",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "陛下のパーティー、お仕事…たまにはサボっても大丈夫よね…",
 			typewriter = {
 				speed = 0.05,
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "指揮官ももしかしたらサボってるかもしれないし…なにかあったらベルがいるし…",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "もうちょっと寝よう……",
 			typewriter = {
 				speed = 0.05,
@@ -129,14 +129,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_147",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			actorName = "？？？",
 			bgm = "ssss-az-story",
 			actor = 900233,
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
+			bgName = "star_level_bg_147",
 			say = "A、B、Cのいずれか1つの答えを選ぶアンケートがあり、4人の回答者が答えたとき、A、B、Cの3種類がすべて含まれている確率はー？",
 			flashout = {
 				dur = 1,
@@ -163,13 +163,13 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
+			actor = 900233,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "はい！分かる人いるか？いねぇのか？",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
+			dir = 1,
 			say = "この声は…？ざわざわと騒がしい…",
 			typewriter = {
 				speed = 0.05,
@@ -198,10 +198,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 102163,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "エディンバラ…エディンバラ…！もう、まさか寝てたんじゃないでしょうね…っ！",
 			typewriter = {
@@ -217,11 +217,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10800050,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "すごい…",
 			typewriter = {
 				speed = 0.05,
@@ -236,11 +236,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10800020,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "ふふ。自由なのはいいけど、先生に見つかっちゃってるっぽいかもよ？",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
+			dir = 1,
 			say = "揺らさないで…まだ眠い…",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			dir = 1,
 			actor = 900233,
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "エディンバラ！授業中に寝るんじゃなーい！",
 			dialogShake = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………ふは……こ、ここは……教室？",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "先生らしき人物",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "先生らしき人物",
 			hidePaintObj = true,
 			say = "そう、教室。いいからこの質問に答えてよ",
 			typewriter = {
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "先生らしき人物",
 			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
+			actor = 900233,
+			actorName = "先生らしき人物",
+			hidePaintObj = true,
 			say = "A、B、Cのいずれか1つの答えを選ぶアンケートがあり、4人の回答者が答えたとき、A、B、Cの3種類がすべて含まれている確率は――",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -395,13 +395,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（えっ、今のが正解だったの！？……よかった…）",
 			typewriter = {
 				speed = 0.05,
@@ -432,13 +432,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "は、はい！？答えは4/9です！",
 			typewriter = {
 				speed = 0.05,
@@ -450,8 +450,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -479,13 +479,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "は、はい！？答えは4/9です！",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -526,13 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 4,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "は、はい！？答えは4/9です！",
 			typewriter = {
 				speed = 0.05,
@@ -544,8 +544,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -573,13 +573,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 5,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "は、はい！？答えは4/9です！",
 			typewriter = {
 				speed = 0.05,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -601,13 +601,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
 			actorName = "先生らしき人物",
-			side = 2,
+			hidePaintObj = true,
 			say = "コホン！正解だ。昨日夜遅くまで頑張ったとしても授業中に寝るんじゃないぞ。座れ座れ",
 			typewriter = {
 				speed = 0.05,
@@ -622,10 +622,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "先生らしき人物",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "先生らしき人物",
 			hidePaintObj = true,
 			say = "えー次は……",
 			typewriter = {
@@ -671,12 +671,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

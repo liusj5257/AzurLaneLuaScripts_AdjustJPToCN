@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Personality, Presenter, Secretary\n\n<size=45>5.Secret Plans</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Just before she clocks out, Guam hands me a thick stack of documents with a smug look.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "I pick a few papers at random and scrutinize them thoroughly. While there are some faults, I can't find anything I would call outright incorrect. It seems her efforts to improve have paid off.",
@@ -70,10 +70,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hang on, are you asking me on a date? Because hell yeah, I'm game!",
 			painting = {
 				alpha = 0.3,
@@ -88,10 +88,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sunday, though... Gaaahhh! Why Sunday of all days?!",
 			painting = {
 				alpha = 0.3,
@@ -103,8 +103,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Her expression lights up like a midsummer day, but then the rain clouds come.",
@@ -139,10 +139,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah... I can't reschedule for it...",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That works!",
 			painting = {
 				alpha = 0.3,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, on a random note, can I ask you a favor?",
 			painting = {
 				alpha = 0.3,
@@ -204,10 +204,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'd like to use your office this Sunday.",
 			painting = {
 				alpha = 0.3,
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm gonna record something for my show! That's all I can say, 'cause the rest is top secret. You'll see for yourself when it airs.",
 			painting = {
 				alpha = 0.3,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -261,10 +261,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Don't worry, I won't make a mess of the place! Promise!",
 			painting = {
 				alpha = 0.3,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -369,10 +369,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Shweet! You're awesome, Commander!",
 			painting = {
 				alpha = 0.3,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "She throws her hands into the air and exclaims in joy. The clouds dimming her expression give way in a heartbeat, and she smiles brightly as the sun again.",
@@ -398,10 +398,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But remember, no peeking on Sunday! Got it?",
 			painting = {
 				alpha = 0.3,
@@ -416,10 +416,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Promise on your life and honor! No peeking!",
 			painting = {
 				alpha = 0.3,
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -441,27 +441,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "Guam casually submits a formal application to use the office before she wraps up her day's work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

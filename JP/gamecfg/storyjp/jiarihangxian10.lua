@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_daozhong",
 			dir = 1,
 			say = "もう待ちきれないのかにゃ？三戦目、始まるにゃ！",
+			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "マリーとほのかのタッグは、無敵なんですから！",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600020,
 			dir = 1,
+			actor = 10600020,
 			say = "はわわ、な、なんですか？",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "もう、ほのかを困らせて…マリー、燃えてきました！よろしくお願いしますね、メイド長さん！",
 			typewriter = {
 				speed = 0.05,

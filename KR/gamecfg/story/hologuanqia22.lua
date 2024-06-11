@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-control",
 			say = "야마다·헤르미온느 격파 후, 한줄기 빛이 그 주위를 감쌌다. 아마도 철수한 것 같다.",
+			side = 2,
+			dir = 1,
+			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "어쨌든 모두가 모였다. 일행은 안심하고 기지로 돌아가 푹 쉬면서 다음 계획을 세웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			say = "그날 밤, 레지스탕스 기지",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
+			say = "그날 밤, 레지스탕스 기지",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			nameColor = "#a9f548",
 			say = "결국 사라졌어?!",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "이건 설마…… hololive 서버의 전송 명령!",
 			typewriter = {
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
-			bgName = "bg_story_holosaba1",
 			side = 2,
+			bgName = "bg_story_holosaba1",
 			dir = 1,
+			actor = 900021,
 			actorName = "퓨리",
 			say = "그 테스트 몬스터가 서버 통제권을 장악하고 있으니 전송 스킬을 사용하는 것도 이상하지는 않아.",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "아야메쨩과 시온, 처음에는 고민하는 것 같더니 결국은 누구보다 신났잖아.",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			nameColor = "#a9f548",
 			say = "그, 그그그건 적을 상대하는 것이니… 당연히 봐줘서는 안되는 것이다!",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "맞… 맞아. 아쿠아 본인도 신났잖아. 상관 없는걸!",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "감동스러운 만조의 우정이네.",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "이런 전투는 여기선 평범한 거니…?",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "아하하… 카와카제의 말은 어쨌든 우리는 이길거라는 소리야.",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -426,12 +426,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "자자, 모두 그런 얼굴 하지 마. 첫 승리인데다 모두가 모였으니 제대로 축하해야 한다구!",
 			typewriter = {
 				speed = 0.05,
@@ -443,8 +443,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

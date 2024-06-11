@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.1
+					number = 0.1,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.2
+					number = 0.2,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.3
+					number = 0.3,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.4
+					number = 0.4,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.5
+					number = 0.5,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.6
+					number = 0.6,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.7
+					number = 0.7,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.8
+					number = 0.8,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 0.9
+					number = 0.9,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = 1
+					number = 1,
+					attr = "injureRatio"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "通用易伤",
 	time = 0,
+	name = "通用易伤",
+	init_effect = "",
 	picture = "",
 	desc = "受到伤害提高",
 	stack = 1,
@@ -155,8 +155,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0
+				number = 0,
+				attr = "injureRatio"
 			}
 		}
 	}

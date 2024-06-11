@@ -13,7 +13,7 @@ setmetatable({}, {
 	__mode = "kv"
 })
 
-function coroutine.start(slot0, ...)
+coroutine.start = function(slot0, ...)
 	slot1 = uv0(slot0)
 
 	if uv1() == nil then
@@ -26,7 +26,7 @@ function coroutine.start(slot0, ...)
 		slot2 = packEx(...)
 		slot3 = nil
 
-		function slot4()
+		slot4 = function()
 			uv0[uv1] = nil
 			uv2.func = nil
 			slot0, slot1 = uv3(uv1, unpackEx(uv4))
@@ -53,7 +53,7 @@ function coroutine.start(slot0, ...)
 	return slot1
 end
 
-function coroutine.wait(slot0, slot1, ...)
+coroutine.wait = function(slot0, slot1, ...)
 	slot2 = packEx(...)
 	slot3 = nil
 	slot3 = uv5.New(function ()
@@ -75,12 +75,12 @@ function coroutine.wait(slot0, slot1, ...)
 	return uv6()
 end
 
-function coroutine.step(slot0, slot1, ...)
+coroutine.step = function(slot0, slot1, ...)
 	slot2 = packEx(...)
 	slot1 = slot1 or uv0()
 	slot3 = nil
 
-	function slot4()
+	slot4 = function()
 		uv0[uv1] = nil
 		uv2.func = nil
 		slot0, slot1 = uv3(uv1, unpackEx(uv4))
@@ -108,11 +108,11 @@ function coroutine.step(slot0, slot1, ...)
 	return uv7()
 end
 
-function coroutine.www(slot0, slot1)
+coroutine.www = function(slot0, slot1)
 	slot1 = slot1 or uv0()
 	slot2 = nil
 
-	function slot3()
+	slot3 = function()
 		if not uv0.isDone then
 			return
 		end
@@ -146,7 +146,7 @@ function coroutine.www(slot0, slot1)
 	return uv7()
 end
 
-function coroutine.stop(slot0)
+coroutine.stop = function(slot0)
 	if uv0[slot0] ~= nil then
 		uv0[slot0] = nil
 

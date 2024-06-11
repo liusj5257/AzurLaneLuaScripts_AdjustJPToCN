@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 306090,
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Chitose!!",
 			bgm = "bsm-3",
+			actor = 306090,
+			nameColor = "#a9f548",
+			say = "Chitose!!",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "Chiyoda, thank goodness you're safe... You should go resupply right now.",
 			typewriter = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "Is that... our trump card over there?",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Equipment infused with the technology of the Northern Parliament. Those transport ships are carrying the special cores.",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(The munition ships... are our trump card...?)",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "Pretty impressive, isn't it? But that's nothing compared to the secret weapon that Kashino brought us, powered by Watatsumi.",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "If I remember properly, Lady Shinano was one of the architects behind this plan.",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"...Indeed...\"",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(A weapon...? Made from Watatsumi...?)",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Wisdom cubes, the vessels that collect and shape thought... combined with cognitive chips to empower this body...)",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(What makes me... any different from that weapon?)",
 			typewriter = {
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -280,8 +280,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "This is Enterprise. It's time to begin the operation. Is the Sakura Empire fleet ready?",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "We've finished assembling our forces. Now, we're just making some final adjustments to our equipment. How about on your end?",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Our task forces have been proceeding relatively smoothly. We haven't seen any enemy movements in the target area.",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 302130,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#a9f548",
 			say = "Excellent. If our plan succeeds, we may be able to crush the enemy in one fell swoop.",
 			typewriter = {
@@ -345,11 +345,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "Let's hurry up and start already! I'm itching for a fight!",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "Hehe, Yuudachi's all fired up today. Guess I can't afford to fall behind either~",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -400,8 +400,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "Enterprise, are we missing anybody?",
 			typewriter = {
@@ -417,8 +417,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "No, but Antiochus has not rallied their forces yet.",
 			typewriter = {
@@ -452,8 +452,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 207040,
 			dir = 1,
+			actor = 207040,
 			nameColor = "#a9f548",
 			say = "In any case, they're just a reserve force. It should be fine as long as they can catch up later.",
 			typewriter = {
@@ -469,8 +469,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#a9f548",
 			say = "Let's finalize our plans then. Shinano, you're in charge over here.",
 			typewriter = {
@@ -486,8 +486,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Anti... ochus... Who...?)",
 			typewriter = {
@@ -516,12 +516,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "Good. Sakura Empire fleet, the operation begins now! Set sail!",
 			typewriter = {
 				speed = 0.05,

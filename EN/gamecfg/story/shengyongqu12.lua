@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU12",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level-french1",
 			say = "The Basilica Isle - Surrounding Waters",
+			side = 2,
+			dir = 1,
+			bgm = "level-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In the midst of battle...",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "...It makes sense now! These aren't very strong, but they sure are durable! They're trying to stall us!",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "There's no spell to get rid of them all, is there... Algérie, why are you doing something like this...?",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "In other words, Algérie's plan is to wear us down?",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Most likely. In a negotiation, you must always look to strengthen your position.",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "(If they intended to annihilate us, they would've used that first message to lure us in before launching a surprise attack. I doubt they have any intent on fighting us to the bitter end.)",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "Fortunately, their numbers aren't too great, so we'll be able to conserve our strength.",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 		{
 			expression = 10,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I wonder if Algérie is going to show up soon...",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -248,8 +248,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Based on the current situation, she'll probably make her appearance before long.",
 			typewriter = {
 				speed = 0.05,

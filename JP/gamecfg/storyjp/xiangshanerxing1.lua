@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -69,10 +69,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だって定規でしっかり測ってから置いたもんね！",
 			painting = {
 				alpha = 0.3,
@@ -96,12 +96,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "サディアのおもてなしを見せるからにはこれくらいね！",
 			painting = {
 				alpha = 0.3,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ってレッコ船長、まだ仕事が終わってないよ！",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陣営大会のあとには晩餐会があって、それも宴会ホールでやるの！",
 			painting = {
 				alpha = 0.3,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だから宴会ホールの準備もしっかりしないと！",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん。……宴会ホールのほうがもっと大事ですから、適当にするわけにはいきません",
 			painting = {
 				alpha = 0.3,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とくに食材とかは……スケジュールが押しているせいでトリエステさん自ら買い出しに出かけていますよ",
 			painting = {
 				alpha = 0.3,
@@ -204,10 +204,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "無事に揃うといいんですがね……",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "確かにヘンだ！物知りのマエストラーレはどうしてだと思う？",
 			painting = {
 				alpha = 0.3,
@@ -279,10 +279,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええと…外交、でしょうか？わたしにもよくわかりません……",
 			painting = {
 				alpha = 0.3,
@@ -297,10 +297,10 @@ return {
 			portrait = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
+			actorName = "ヴィットリオ·ヴェネト",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "ヴィットリオ·ヴェネト",
+			hidePaintObj = true,
 			say = "ふふふ、大会の開催地については確かに色々と複雑な理由がありますね",
 			painting = {
 				alpha = 0.3,
@@ -315,10 +315,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			portrait = 605010,
-			dir = 1,
-			actorName = "ヴィットリオ·ヴェネト",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 605010,
+			actorName = "ヴィットリオ·ヴェネト",
 			hidePaintObj = true,
 			say = "アイリスは場所を提供し、費用も半分出してくれましたが、主催はサディアに譲ってくれましたから",
 			painting = {
@@ -334,10 +334,10 @@ return {
 			portrait = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
+			actorName = "ヴィットリオ·ヴェネト",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "ヴィットリオ·ヴェネト",
+			hidePaintObj = true,
 			say = "結果から見て、サディアが損したわけではありませんよ",
 			painting = {
 				alpha = 0.3,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なるほど……",
 			painting = {
 				alpha = 0.3,
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ、大会の日程の調整が終わったので、みんなの様子を見に来ましたよ",
 			painting = {
 				alpha = 0.3,
@@ -396,12 +396,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふ、整理整頓されていますし、飾り方もサディアの威光をよく表していて――みんな、頑張りましたね",
 			painting = {
 				alpha = 0.3,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -444,12 +444,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "先程トリエステから連絡もらいましたよ。アイリスの仲間の助けもあって買い出しは順調、と",
 			painting = {
 				alpha = 0.3,
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "明日の晩餐会は心配しなくても良さそうですね",
 			painting = {
 				alpha = 0.3,
@@ -481,10 +481,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっ、会場の準備もそろそろひと段落つきそうです",
 			painting = {
 				alpha = 0.3,
@@ -496,12 +496,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほかの陣営の来客にサディアの威光を広められる、いいおもてなしができるはずです",
 			painting = {
 				alpha = 0.3,
@@ -554,10 +554,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "主催者…挨拶……",
 			painting = {
 				alpha = 0.3,
@@ -591,10 +591,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええと、それについてはまだ色々推敲していまして…とほほ……",
 			painting = {
 				alpha = 0.3,
@@ -609,10 +609,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はあ…心配かけないでくれ…",
 			painting = {
 				alpha = 0.3,

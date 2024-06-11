@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "视野遮蔽5秒",
 	time = 1,
+	name = "视野遮蔽5秒",
+	init_effect = "",
 	picture = "",
 	desc = "视野遮蔽5秒",
 	stack = 1,

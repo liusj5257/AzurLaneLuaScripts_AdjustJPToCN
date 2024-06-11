@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Best Pictures!\n\n<size=45>3. 새러토가의 휴일</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "네 번째 사진은 휴일에도 아이돌 업무(?)를 진행하고 있는 새러토가의 모습이 담겨 있다——",
 			typewriter = {
 				speed = 0.05,
@@ -27,17 +27,17 @@ return {
 			}
 		},
 		{
-			actor = 107030,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "응! 오늘자 홍보 사진도 잘 나왔어!",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#92fc63",
+			say = "응! 오늘자 홍보 사진도 잘 나왔어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,12 +78,12 @@ return {
 			}
 		},
 		{
-			actor = 201080,
+			say = "새러토가, 저...... 크흠, 정말 찍을 수 있나요......",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "새러토가, 저...... 크흠, 정말 찍을 수 있나요......",
+			actor = 201080,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#92fc63",
 			say = "건배——!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					number = 1
@@ -204,12 +204,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "건배——! ......콜록콜록! 새러토가, 설마......",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "건배——! ......콜록콜록! 새러토가, 설마......",
+			actor = 201100,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -224,15 +224,15 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#92fc63",
 			say = "헤헤헤헷, 생강을 좀 넣었지롱♪ 장난 성공",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -345,13 +345,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "......이런.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
+			nameColor = "#92fc63",
 			withoutPainting = true,
-			say = "......이런.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,16 +362,16 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#92fc63",
-			dir = 1,
-			withoutPainting = true,
 			say = "그러고 보면, 다음 날 아침에 확실히 귀찮은 일이 있었지......",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_room",
+			actor = 0,
+			nameColor = "#92fc63",
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

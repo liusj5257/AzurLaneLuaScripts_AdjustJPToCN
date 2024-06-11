@@ -1,22 +1,22 @@
 return {
-	id = "WORLD404D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404D",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "이봐———— 언니? 유바리! 진츠, 유키카제! 어디로 간 거야?",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "이봐———— 언니? 유바리! 진츠, 유키카제! 어디로 간 거야?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "이상한데... 갑자기 모두 사라지다니.",
 			typewriter = {
 				speed = 0.05,
@@ -48,8 +48,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "세이렌이 공격해오지 않은 것은 다행인데... 하지만 기계가 전부 작동하지 않는데다 바다안개까지 이렇게 짙은 걸 보면 조난을 당했군.",
 			typewriter = {
 				speed = 0.05,
@@ -63,9 +63,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "음? 잠시만, 장비가 왜 전함의 것이지...?",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -87,11 +87,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "오랜만이에요, 카가. 좋아 보이네요. 이제는 함대를 이끌고 먼 바다에서 작전을 수행할 수 있나요?",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "아마기...?",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "내 동생은 잘 지내나요? 잘 돌봐달라고 부탁했는데, 지금은 어떤가요?",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "계속 동생의 곁을 지켜줄 수 있는 존재는 나였어요. 카가, 당신이 아니라.",
 			typewriter = {
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "이렇게 된 것은 나도 원하지 않았답니다. 함대를 이끄는 것이 당신이 아니라 나였다면, 나의 동생과 사쿠라 엠파이어도 지금과 달라졌겠죠.",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "나는...",
 			typewriter = {
 				speed = 0.05,
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "카가, 정말 실망이에요.",
 			typewriter = {
@@ -219,10 +219,10 @@ return {
 			}
 		},
 		{
+			say = "펑————————!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -272,9 +272,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "윽...!",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "여기서 당신을 없애고 동생을 만나러 가겠어요.",
 			typewriter = {
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 900298,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900298,
 			actorName = "{namecode:161}？",
 			say = "그 대단한 실력을 자랑하던 카가는 어디로 갔죠? 당신의 주포는 장식인가요?",
 			typewriter = {
@@ -332,9 +332,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "......적당히 해둬! 진짜 아마기는 이런 말을 하지 않아! 뭔지는 모르겠지만, 산산조각 내주겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 305070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "아아아아아아아!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 305070,
+			nameColor = "#a9f548",
+			say = "아아아아아아아!",
 			flashN = {
 				color = {
 					1,
@@ -409,10 +409,10 @@ return {
 			}
 		},
 		{
+			say = "펑————————!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -475,8 +475,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -503,8 +503,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			say = "에? 오항전...?",
 			typewriter = {
 				speed = 0.05,
@@ -561,8 +561,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -706,8 +706,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -764,8 +764,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "혼자서 바다 위를 떠도는 것을 보고 말을 걸려고 했는데, 갑자기 우리를 공격하더군요.",
 			typewriter = {
 				speed = 0.05,
@@ -810,8 +810,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "게다가 전자 교란까지... 평범한 자연 현상은 아니네요.",
 			typewriter = {
 				speed = 0.05,
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

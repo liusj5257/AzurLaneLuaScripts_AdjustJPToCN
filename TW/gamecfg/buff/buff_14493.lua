@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 100
+					number = 100,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 130
+					number = 130,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 160
+					number = 160,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 200
+					number = 200,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 230
+					number = 230,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 260
+					number = 260,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 300
+					number = 300,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 330
+					number = 330,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 360
+					number = 360,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 400
+					number = 400,
+					attr = "antiSubPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "莫里森",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 5,
@@ -173,8 +173,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiSubPower",
-				number = 100
+				number = 100,
+				attr = "antiSubPower"
 			}
 		}
 	}

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD402B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD402B",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "The Iron Blood doesn’t seem to be coming. Is this their idea of a joint operation?",
 			bgm = "bsm-7",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "The Iron Blood doesn’t seem to be coming. Is this their idea of a joint operation?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -85,8 +85,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "If Prinz Eugen was here, I’m sure she’d know something...",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "It’s fine, there’s no need for that. The Sakura Empire has more than enough power to complete this operation. If you’re not willing to cooperate with us, your actions are also of little concern to us.",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "Very well, I’ll start making the arrangements. Are you sure you want to leave so soon though? We scheduled a demonstration of some our technology tomorrow...",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "I’m sorry I could not meet your expectations.",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "If you’d like, please take this cutting-edge Iron Blood communication device with you.",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "Correct, it’s yours to keep. Consider it our gift.",
 			typewriter = {
@@ -356,9 +356,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "No problem. Please follow me to the resupply and maintenance area.",
 			typewriter = {

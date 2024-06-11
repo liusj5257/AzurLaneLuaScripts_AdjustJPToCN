@@ -1,6 +1,6 @@
 slot0 = class("ChapterAirSupportAIAction", import(".ChapterMissileExplodeAction"))
 
-function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+slot0.PlayAIAction = function(slot0, slot1, slot2, slot3)
 	seriesAsync({
 		function (slot0)
 			slot1 = uv0.viewComponent

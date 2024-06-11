@@ -4,7 +4,7 @@ slot2 = 2
 slot3 = 3
 slot4 = 4
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 	slot0.sceneMask = findTF(slot0._tf, "sceneMask")
@@ -64,7 +64,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:sortItems(slot0.floorItems)
 end
 
-function slot0.addRemindItems(slot0, slot1)
+slot0.addRemindItems = function(slot0, slot1)
 	for slot5 = 1, #slot1 do
 		slot6 = slot1[slot5]
 
@@ -72,7 +72,7 @@ function slot0.addRemindItems(slot0, slot1)
 	end
 end
 
-function slot0.itemChange(slot0, slot1, slot2)
+slot0.itemChange = function(slot0, slot1, slot2)
 	if slot2 then
 		if table.contains(slot0.items, slot1) then
 			return
@@ -90,7 +90,7 @@ function slot0.itemChange(slot0, slot1, slot2)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:prepareScene()
 	slot0.gameFloor:start()
 	slot0.gameChar:start()
@@ -99,7 +99,7 @@ function slot0.start(slot0)
 	slot0.gameScore:start()
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot0.gameFloor:step()
 	slot0.gameChar:step()
 	slot0.gameItem:step()
@@ -113,35 +113,35 @@ function slot0.step(slot0)
 	slot0:checkPlayerInScore()
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0.gameFloor:clear()
 	slot0.gameChar:clear()
 	slot0.gameItem:clear()
 	slot0.gameRemind:clear()
 end
 
-function slot0.stop(slot0)
+slot0.stop = function(slot0)
 end
 
-function slot0.resume(slot0)
+slot0.resume = function(slot0)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
-function slot0.prepareScene(slot0)
+slot0.prepareScene = function(slot0)
 	slot0:showContainer(true)
 	slot0:sortItems(slot0.floorItems)
 	slot0.gameChar:setContent(slot0:getContent(uv0))
 	CastleGameVo.PointFootLine(Vector2(0, 0), Vector2(0, 100), Vector2(100, 0))
 end
 
-function slot0.updateActiveFloor(slot0)
+slot0.updateActiveFloor = function(slot0)
 	slot0.gameItem:setFloorIndexs(slot0.gameFloor:getActiveIndexs())
 	slot0.gameScore:setFloor(slot0.gameFloor:getFloors())
 end
 
-function slot0.checkPlayerInScore(slot0)
+slot0.checkPlayerInScore = function(slot0)
 	if slot0.gameChar:getActionAble() then
 		slot2 = slot0.gameChar:getChar().tf.anchoredPosition
 
@@ -162,7 +162,7 @@ function slot0.checkPlayerInScore(slot0)
 	end
 end
 
-function slot0.checkPlayerInBubble(slot0)
+slot0.checkPlayerInBubble = function(slot0)
 	if slot0.gameChar:getActionAble() then
 		slot2 = slot0.gameChar:getChar().tf.anchoredPosition
 
@@ -183,7 +183,7 @@ function slot0.checkPlayerInBubble(slot0)
 	end
 end
 
-function slot0.checkPlayerBoom(slot0)
+slot0.checkPlayerBoom = function(slot0)
 	if slot0.gameChar:getActionAble() then
 		slot2 = slot0.gameChar:getChar().tf.anchoredPosition
 		slot4 = false
@@ -212,7 +212,7 @@ function slot0.checkPlayerBoom(slot0)
 	end
 end
 
-function slot0.checkPlayerCarriage(slot0)
+slot0.checkPlayerCarriage = function(slot0)
 	if slot0.gameChar:getActionAble() then
 		slot2 = slot0.gameChar:getChar().tf.anchoredPosition
 
@@ -232,7 +232,7 @@ function slot0.checkPlayerCarriage(slot0)
 	end
 end
 
-function slot0.setPlayerScore(slot0, slot1, slot2)
+slot0.setPlayerScore = function(slot0, slot1, slot2)
 	slot0.gameChar:setScore(slot1)
 	slot0.gameScore:hitScore(slot1)
 	slot0._event:emit(CastleGameView.ADD_SCORE, {
@@ -242,14 +242,14 @@ function slot0.setPlayerScore(slot0, slot1, slot2)
 	})
 end
 
-function slot0.returnPlayerBubble(slot0, slot1, slot2)
+slot0.returnPlayerBubble = function(slot0, slot1, slot2)
 	slot0.gameChar:setContent(slot0.contentTop)
 	slot0.gameChar:setInBubble(false)
 
 	slot1.char = nil
 end
 
-function slot0.setPlayerBubble(slot0, slot1, slot2)
+slot0.setPlayerBubble = function(slot0, slot1, slot2)
 	slot0.gameChar:setInBubble(true)
 	slot0.gameChar:setContent(slot1.pos, Vector3(0, 0, 0))
 
@@ -258,7 +258,7 @@ function slot0.setPlayerBubble(slot0, slot1, slot2)
 	slot0.gameItem:playerInBubble(slot1, slot2)
 end
 
-function slot0.checkPlayerInFloor(slot0)
+slot0.checkPlayerInFloor = function(slot0)
 	if slot0.gameChar:getActionAble() then
 		slot2 = slot0.gameChar:getChar().tf.anchoredPosition
 		slot4 = false
@@ -289,17 +289,17 @@ function slot0.checkPlayerInFloor(slot0)
 	end
 end
 
-function slot0.setCharFall(slot0)
+slot0.setCharFall = function(slot0)
 	slot0.gameChar:setInGround(false)
 end
 
-function slot0.insertFloorItem(slot0, slot1)
+slot0.insertFloorItem = function(slot0, slot1)
 	for slot5 = 1, #slot1 do
 		table.insert(slot0.floorItems, slot1[slot5])
 	end
 end
 
-function slot0.getContent(slot0, slot1)
+slot0.getContent = function(slot0, slot1)
 	slot2 = nil
 
 	if slot1 == uv0 then
@@ -315,7 +315,7 @@ function slot0.getContent(slot0, slot1)
 	return slot2
 end
 
-function slot0.sortItems(slot0, slot1)
+slot0.sortItems = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		if slot1.tf.anchoredPosition.y < slot0.tf.anchoredPosition.y then
 			return false
@@ -337,18 +337,18 @@ function slot0.sortItems(slot0, slot1)
 	end
 end
 
-function slot0.compareByPosition(slot0, slot1, slot2)
+slot0.compareByPosition = function(slot0, slot1, slot2)
 end
 
-function slot0.compareWithPosBound(slot0, slot1, slot2)
+slot0.compareWithPosBound = function(slot0, slot1, slot2)
 	return CastleGameVo.PointLeftLine(slot1, slot2[1], slot2[4])
 end
 
-function slot0.showContainer(slot0, slot1)
+slot0.showContainer = function(slot0, slot1)
 	setActive(slot0.sceneMask, slot1)
 end
 
-function slot0.press(slot0, slot1)
+slot0.press = function(slot0, slot1)
 	slot0.gameFloor:press(slot1)
 	slot0:sortItems(slot0.floorItems)
 end

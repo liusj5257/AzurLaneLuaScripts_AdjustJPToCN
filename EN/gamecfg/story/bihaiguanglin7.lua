@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "Shortly afterwards...",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "Shortly afterwards...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "We're pretty deep underwater, aren't we? The blessings of the sun and sky no longer reach us here...",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "I guess there really is some kind of \"seal\" around this place. Otherwise, the water would've come crashing in.",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(I thought we were goners... This sucks so bad, I want to go home already...)",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Our communications with the outside have been cut off as well... Yura, do you think this \"seal\" might actually be a Mirror Sea?",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "Who knows? It looks to me like one of those bags at a koi-scooping stall. Except millions of times larger, and we're the fish...",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "I had no idea it was possible to make something like this... Think it could be anything other than Siren technology?",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Considering how deep underwater we are, it's not even unusual for our communication to be cut off.",
 			typewriter = {
@@ -155,10 +155,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Chikuma? Suruga? Anyone! Can anyone hear me?",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "In any case, let's join up as we originally planned. The entrance obviously won't do any good for us now, so we'll have to explore around and see what we can find.",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Good, we have plenty of \"eyes\" then. Now as for how we meet up...",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Sound",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Sound",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Sound",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Sound",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Sound",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -454,8 +454,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(Whaaaat?! Is nobody going to comment on the mysterious ghostly voice giving us cryptic clues?!)",
 			typewriter = {
@@ -490,8 +490,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Absolutely not.",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Now, now. It won't hurt to have a common objective since we're all heading to the same place.",
 			typewriter = {
@@ -559,8 +559,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "You got it. Hehe, I guess that makes us Team Chikuma?",
 			typewriter = {
@@ -576,10 +576,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You're on! We'll be Team Shimakaze then!",
 			typewriter = {
 				speed = 0.05,
@@ -594,11 +594,11 @@ return {
 			paintingNoise = true,
 			side = 0,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
-			dir = 1,
-			actorName = "{namecode:208}&{namecode:207}",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 307120,
+			actorName = "{namecode:208}&{namecode:207}",
 			say = "Aye aye!",
 			subActors = {
 				{
@@ -641,9 +641,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
 			blackBg = true,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Let's get moving, Team Chikuma.",
 			typewriter = {

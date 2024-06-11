@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.062
+					number = -0.062,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.074
+					number = -0.074,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.09
+					number = -0.09,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.105
+					number = -0.105,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.12
+					number = -0.12,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.14
+					number = -0.14,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.158
+					number = -0.158,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.176
+					number = -0.176,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.2
+					number = -0.2,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 14333,
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
-	id = 14333,
+	color = "red",
 	icon = 14330,
 	last_effect = "",
 	blink = {

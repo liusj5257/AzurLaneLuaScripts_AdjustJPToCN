@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN14",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "鏡面海域・下部空間",
 			bgm = "battle-siren-centraltower",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "鏡面海域・下部空間",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			say = "ウルリッヒたちの攻撃により、U-556を取り囲むセイレーンのほとんどが引き付けられた。",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			say = "戦場の中心だった場所に残っているのは――U-556、ビスマルク、そして損傷を受けてもなお執拗に狙ってくるエンフォーサーが数体だけだ。",
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			actorName = "自律型艤装「ゲリュオン」",
+			hidePaintObj = true,
 			say = "▁▂▃▄▅▆▇█████▌",
 			typewriter = {
 				speed = 0.05,
@@ -74,10 +74,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
+			side = 2,
 			say = "ビスマルクは自律型の艤装に指示を出し、またたく間にエンフォーサーを撃退した。",
 			typewriter = {
 				speed = 0.05,
@@ -91,11 +91,11 @@ return {
 			}
 		},
 		{
-			actor = 9708010,
 			nameColor = "#ffa500",
-			bgName = "bg_bsmre_4",
 			side = 2,
+			bgName = "bg_bsmre_4",
 			dir = 1,
+			actor = 9708010,
 			actorName = "U-556(META)？",
 			say = "「あとはあなただけね？」",
 			painting = {
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			say = "「U-556」は艤装にまたがり、ビスマルクに向かって急加速した。",
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自律型艤装「ゲリュオン」",
+			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -172,12 +172,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_4",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "突進してきた海のパーシヴァルに、黒竜の如く巨大な艤装が立ちはだかった。",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			say = "先手を取れないと見たか、U-556は一転して水中へと潜り込んだ。",
@@ -237,10 +237,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ゲリュオン、自律防御を止めろ。下がっていい",
 			painting = {
 				alpha = 0.3,
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自律型艤装「ゲリュオン」",
+			side = 2,
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いい子だ。あとは私に任せて",
 			painting = {
 				alpha = 0.3,
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			say = "ビスマルクになだめられ、自律型艤装のゲリュオンはしぶしぶ後ろに下がった。",
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			say = "まるで脅威が去った後かのように、ビスマルクは戦闘態勢を解き――",
@@ -308,11 +308,11 @@ return {
 			}
 		},
 		{
-			actor = 9708010,
 			nameColor = "#ffa500",
-			bgName = "bg_bsmre_4",
 			side = 2,
 			dir = 1,
+			bgName = "bg_bsmre_4",
+			actor = 9708010,
 			actorName = "U-556(META)？",
 			say = "「隙あり！これでおわりだぁ――！！」",
 			painting = {
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -341,10 +341,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
+			side = 2,
 			say = "腕を広げて、目の前の海中から飛び出してきた存在をしっかり抱きしめ、",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			say = "突進してきた「META」の艤装、そして大切な少女の体と想いを一身に受けた。",
@@ -372,10 +372,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうだ………これで終わりだ",
 			painting = {
 				alpha = 0.3,
@@ -387,23 +387,23 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_bsm_6",
 			bgmDelay = 2,
 			bgm = "bsm-9",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			say = "少女は悪夢を見ていた――暗い海の中、大切な存在が沈んでいく夢を。",
@@ -428,8 +428,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			say = "主機を爆発寸前になるほど動かしての全力疾駆。",
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			say = "次から次へと現れる敵。刻一刻濃くなっていく黒い靄。前進を阻む逆流。",
@@ -479,8 +479,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -496,8 +496,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -508,8 +508,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -520,13 +520,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_bsm_6",
-			hidePaintObj = true,
 			actorName = "U-556",
+			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
 			say = "「ダメ…！ダメ…！！アネキ…ビスマルクのアネキを…！」",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,13 +572,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_bsm_6",
-			hidePaintObj = true,
 			actorName = "U-556",
-			say = "「……あたしを邪魔しないで！！！」",
 			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
+			say = "「……あたしを邪魔しないで！！！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,8 +624,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			say = "砕けるも再び形作られ。撃ち抜くも再び塞がれる。",
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			say = "まるであざ笑うかのように少女の前に黒い影が散っては集まり続ける。",
@@ -646,8 +646,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			say = "どんなに頑張っても届かない距離。",
@@ -657,8 +657,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -681,8 +681,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -693,8 +693,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsm_6",
 			hidePaintObj = true,
 			say = "涙で視界がぼやける。必死に伸ばした手を向けるその先から、大切な存在がどんどん遠ざかっていく。",
@@ -704,13 +704,13 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
-			side = 2,
-			bgName = "bg_underwater",
-			nameColor = "#A9F548FF",
-			bgmDelay = 2,
-			bgm = "bsm-6",
 			actorName = "？？？",
+			side = 2,
+			stopbgm = true,
+			bgmDelay = 2,
+			bgName = "bg_underwater",
+			bgm = "bsm-6",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "556。もう大丈夫だ",
 			typewriter = {
@@ -718,17 +718,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -736,8 +736,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			say = "闇の中で聞こえる優しい声。",
@@ -747,8 +747,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			say = "悪夢にうなされていた少女が目を開く。",
@@ -758,8 +758,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			say = "まばゆい光の中で、声の主が少しずつはっきりと見えるようになった。",
@@ -769,8 +769,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			say = "――夢の中では助けられなかった大切な存在。",
@@ -783,10 +783,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "「アネキ……あたし、間に合った……？」",
 			painting = {
@@ -802,10 +802,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。間に合ったわ。思い出した？",
 			painting = {
 				alpha = 0.3,
@@ -820,10 +820,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "「そう……えへへ…間に合ったんだ…………」",
 			painting = {
@@ -839,10 +839,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "「…………アネキ、あたし悪い夢を見た……」",
 			painting = {
@@ -858,10 +858,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "「夢の中でどんなに頑張っても、アネキを助けられなくて……」",
 			painting = {
@@ -877,10 +877,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "夢は夢でしかないわ。ほら、私はここにいるじゃない",
 			painting = {
 				alpha = 0.3,
@@ -895,10 +895,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "「そう……ね…ビスマルクのアネキは…あたしと一緒だ……」",
 			painting = {
@@ -914,10 +914,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underwater",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "海の……中なのに！？",
 			painting = {
@@ -930,8 +930,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -943,10 +943,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おかえり、U-556。私の海のパーシヴァル",
 			painting = {
 				alpha = 0.3,
@@ -961,10 +961,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さあ。夢から覚める時よ",
 			painting = {
 				alpha = 0.3,
@@ -976,14 +976,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "少し時間が経ち――",
 			bgm = "theme-bismark-reborn",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "少し時間が経ち――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -996,8 +996,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1008,10 +1008,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ビスマルク、こっちの戦闘は終わった。そっちは――",
 			painting = {
 				alpha = 0.3,
@@ -1026,10 +1026,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……無事終わったようだな",
 			painting = {
 				alpha = 0.3,
@@ -1041,13 +1041,13 @@ return {
 			}
 		},
 		{
-			actor = 9708010,
 			nameColor = "#ffa500",
-			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "U-556(META)？",
 			side = 2,
+			bgName = "bg_bsmre_4",
+			dir = 1,
+			actor = 9708010,
+			actorName = "U-556(META)？",
+			hidePaintObj = true,
 			say = "ウルリッヒさん！大丈夫だったの？！",
 			painting = {
 				alpha = 0.3,
@@ -1059,8 +1059,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1072,10 +1072,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こっちのセリフだ。お前こそ大丈夫か？",
 			painting = {
 				alpha = 0.3,
@@ -1087,12 +1087,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヤーデのことが分かりますの？",
 			painting = {
 				alpha = 0.3,
@@ -1107,10 +1107,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "ヤーデ…だよね？",
 			painting = {
@@ -1123,12 +1123,12 @@ return {
 			}
 		},
 		{
-			actor = 401990,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あたしは？あたしは誰か分かる？",
 			painting = {
 				alpha = 0.3,
@@ -1140,8 +1140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1150,13 +1150,13 @@ return {
 			}
 		},
 		{
-			actor = 9708010,
 			nameColor = "#ffa500",
-			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "U-556(META)？",
 			side = 2,
+			bgName = "bg_bsmre_4",
+			dir = 1,
+			actor = 9708010,
+			actorName = "U-556(META)？",
+			hidePaintObj = true,
 			say = "駆逐艦のオットーだ！",
 			painting = {
 				alpha = 0.3,
@@ -1171,10 +1171,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とりあえず敵か味方かは見分けがついたようですわ",
 			painting = {
 				alpha = 0.3,
@@ -1189,10 +1189,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも見た目が変わったままですの……",
 			painting = {
 				alpha = 0.3,
@@ -1207,10 +1207,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "やっぱり遅すぎましたか……",
 			painting = {
 				alpha = 0.3,
@@ -1225,10 +1225,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いや……断言するのにはまだ早い",
 			painting = {
 				alpha = 0.3,
@@ -1240,12 +1240,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（ゲリュオンで応急処置はしたが、しかし外部の侵食はまだ完全に消えたわけじゃない……やはり元凶を倒さなければ…）",
 			painting = {
 				alpha = 0.3,
@@ -1260,10 +1260,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -1278,10 +1278,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "だ、大丈夫よアネキ！この格好もかっこいいかも！",
 			painting = {
@@ -1294,8 +1294,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1304,13 +1304,13 @@ return {
 			}
 		},
 		{
-			actor = 9708010,
 			nameColor = "#ffa500",
-			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "U-556(META)？",
 			side = 2,
+			bgName = "bg_bsmre_4",
+			dir = 1,
+			actor = 9708010,
+			actorName = "U-556(META)？",
+			hidePaintObj = true,
 			say = "それになんだか背もちょっぴり伸びたし力も湧いてくる気がするし…うん！この力でアネキとみんなを守るから！",
 			painting = {
 				alpha = 0.3,
@@ -1325,10 +1325,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…556、浮島要塞に戻るまで万が一の時以外は戦闘に参加しないで",
 			painting = {
 				alpha = 0.3,
@@ -1340,12 +1340,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今あなたが感じている力は、かつて私が犯した過ち――黒いキューブと同質のものよ",
 			painting = {
 				alpha = 0.3,
@@ -1359,11 +1359,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_bsmre_4",
-			actorName = "U-556(META)？",
-			dir = 1,
-			actor = 9708010,
 			nameColor = "#ffa500",
+			dir = 1,
+			bgName = "bg_bsmre_4",
+			actor = 9708010,
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "そ、そうなの！？",
 			painting = {
@@ -1376,8 +1376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1389,10 +1389,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			actorName = "U-556(META)？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			nameColor = "#ffa500",
+			actorName = "U-556(META)？",
 			hidePaintObj = true,
 			say = "………アネキが言うなら…分かった！",
 			painting = {
@@ -1405,12 +1405,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これで大団円ってことかな？色々あったけどこうしてみんな揃ったみたいだし",
 			painting = {
 				alpha = 0.3,
@@ -1422,12 +1422,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ってことは……次は帰り道を探すだけね？",
 			painting = {
 				alpha = 0.3,
@@ -1439,8 +1439,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_4",
 			hidePaintObj = true,
 			say = "艦船たちは光を放っている「ミッドガルドの塔」――その中心にある「扉」からなる転送装置に向かう。",
@@ -1450,12 +1450,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "進む先は一つ。みんな、「塔」へと向かおう",
 			painting = {
 				alpha = 0.3,

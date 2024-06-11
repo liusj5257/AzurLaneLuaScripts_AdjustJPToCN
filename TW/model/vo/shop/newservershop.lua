@@ -1,6 +1,6 @@
 slot0 = class("NewServerShop", import("..BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.startTime = slot1.start_time
 	slot0.stopTime = slot1.stop_time
 	slot0.goods = {}
@@ -26,11 +26,11 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.GetPtId(slot0)
+slot0.GetPtId = function(slot0)
 	return pg.newserver_shop_template[getProxy(ActivityProxy):getActivityById(slot0.activityId):getConfig("config_data")[1]].resource_type
 end
 
-function slot0.WrapPhaseGoods(slot0, slot1, slot2, slot3)
+slot0.WrapPhaseGoods = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot1) do
@@ -45,15 +45,15 @@ function slot0.WrapPhaseGoods(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.GetStartTime(slot0)
+slot0.GetStartTime = function(slot0)
 	return slot0.startTime
 end
 
-function slot0.GetEndTime(slot0)
+slot0.GetEndTime = function(slot0)
 	return slot0.stopTime
 end
 
-function slot0.GetCommodityById(slot0, slot1)
+slot0.GetCommodityById = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.goods) do
 		for slot10, slot11 in pairs(slot6) do
 			if slot10 == slot1 then
@@ -63,7 +63,7 @@ function slot0.GetCommodityById(slot0, slot1)
 	end
 end
 
-function slot0.GetOpeningGoodsList(slot0, slot1)
+slot0.GetOpeningGoodsList = function(slot0, slot1)
 	slot2 = {}
 
 	for slot7, slot8 in pairs(slot0.goods[slot1]) do
@@ -73,11 +73,11 @@ function slot0.GetOpeningGoodsList(slot0, slot1)
 	return slot2
 end
 
-function slot0.IsOpenPhase(slot0, slot1)
+slot0.IsOpenPhase = function(slot0, slot1)
 	return slot0:GetStartTime() + slot0.phases[slot1] <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.GetPhases(slot0)
+slot0.GetPhases = function(slot0)
 	return slot0.phases
 end
 

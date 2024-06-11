@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15912,
 	time = 5,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15912,
+	color = "yellow",
 	icon = 15912,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 15910,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 15910,
 				label = {
 					"Little-Beavers"
 				}

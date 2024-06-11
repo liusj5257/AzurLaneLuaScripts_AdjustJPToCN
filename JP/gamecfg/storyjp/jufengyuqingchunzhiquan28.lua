@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN28",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "ポリス・某所",
 			bgm = "story-temepest-1",
+			say = "ポリス・某所",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,11 +112,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "star_level_bg_162",
 			factiontag = "「不信」のテンペスタ",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そんな生活、私には似合わないけど",
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "star_level_bg_162",
 			factiontag = "「不信」のテンペスタ",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "母港？棲家？心の拠り所？……なんだってありえるわ",
@@ -264,11 +264,11 @@ return {
 			}
 		},
 		{
-			actor = 9600060,
 			side = 2,
 			bgName = "star_level_bg_162",
 			factiontag = "「不信」のテンペスタ",
 			dir = 1,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官の力が必要よ",
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
 			say = "「テンペスタと若返りの泉」――完",
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

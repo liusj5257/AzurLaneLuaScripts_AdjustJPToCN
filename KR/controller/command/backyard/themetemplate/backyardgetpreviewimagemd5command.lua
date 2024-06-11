@@ -1,6 +1,6 @@
 slot0 = class("BackYardGetPreviewImageMd5Command", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
 	slot5 = getProxy(DormProxy)
@@ -44,7 +44,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.GetListByType(slot0, slot1)
+slot0.GetListByType = function(slot0, slot1)
 	slot2 = getProxy(DormProxy)
 
 	if slot1 == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
@@ -56,7 +56,7 @@ function slot0.GetListByType(slot0, slot1)
 	assert(false)
 end
 
-function slot0.DeleteByType(slot0, slot1, slot2)
+slot0.DeleteByType = function(slot0, slot1, slot2)
 	slot3 = getProxy(DormProxy)
 
 	if slot1 == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
@@ -66,7 +66,7 @@ function slot0.DeleteByType(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateMd5ByType(slot0, slot1, slot2, slot3)
+slot0.UpdateMd5ByType = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(DormProxy)
 	slot5 = nil
 

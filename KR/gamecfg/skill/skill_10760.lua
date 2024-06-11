@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "东煌之绊",
 	cd = 0,
+	picture = "0",
+	desc = "东煌之绊",
 	painting = 1,
 	id = 10760,
-	picture = "0",
 	castCV = "skill",
-	desc = "东煌之绊",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipTag"
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipTag"

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "nagato-map",
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이… 이런 게 가능하다니…?!",
-			bgm = "nagato-map",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "역시 대선배님은 이길 수 없네요… 제가 졌습니다…",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 		{
 			actor = 305110,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "아슬아슬했다. 방금 그건 나도 꽤 위험했다고. 대단한걸~",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,8 +72,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "말로는 아슬아슬했다고 하지만 쉽게 빠져나가셨잖아요… 대선배님, 반칙입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(만약 그때 피할 것을 예측했더라면…… 아니, 아니야. 그 전에 이미 위치가 유리하지 않았어.)",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "(이런… 대체 어디서부터 문제였던 거지!)",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -144,9 +144,9 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "흠흠. 실례했습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "미카사는 말을 하면서 손에 든 염주를 쥐었다.",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…사쿠라 엠파이어에 대선배님이 계셔서 정말 자랑스럽습니다.!",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN27",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_515",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "말을 끝낸 메이드는 결심을 굳히고 몸을 돌려 서재에서 나갔습니다. 문 너머에서 나는 소음이 더 심해진 걸 보니, 그녀도 오래 버티지는 못할 것 같습니다.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -534,11 +534,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "하이티엔",
 			bgName = "star_level_bg_130",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
 			bgm = "theme-shallowoftheworld",
-			actorName = "하이티엔",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "램프가 내뿜는 희미한 빛을 의지하며 계속 앞으로 나아가는 탐정. 오랜 시간이 흐른 뒤, 탐정은 자신이 어떤 석실 안으로 들어왔다는 것을 깨달았고, 눈앞에는 섬뜩하게 반짝이는 마법진이 나타났습니다.",
 			typewriter = {
@@ -546,17 +546,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -782,9 +782,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그 대사를 내뱉자, 당신의 양심이 갑자기 아파오기 시작했습니다.",
 			typewriter = {
@@ -797,9 +797,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신을 고용한 만주 경이 이 모든 사건의 흑막인데도 당신은 아직 보수를 받을 수 있을 거라 기대합니다.",
 			typewriter = {
@@ -812,9 +812,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇지만 그런 사소한 보수 따위는 당신의 강철 같은 정신을 흔들어 놓지 못했습니다.",
 			typewriter = {
@@ -923,11 +923,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "하이티엔",
 			bgName = "star_level_bg_161",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
 			bgm = "story-richang-10",
-			actorName = "하이티엔",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 겨우 숨겨진 방의 출구를 찾아내, 성에서 탈출했습니다.",
 			typewriter = {
@@ -935,17 +935,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1149,8 +1149,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -1160,8 +1160,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			effects = {
 				{
 					active = true,

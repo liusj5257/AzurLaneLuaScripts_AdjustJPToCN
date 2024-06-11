@@ -1,6 +1,6 @@
 slot0 = class("FrameTemplatePage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.battleBtn = slot0:findTF("battle_btn", slot0.bg)
 	slot0.getBtn = slot0:findTF("get_btn", slot0.bg)
@@ -15,7 +15,7 @@ function slot0.OnInit(slot0)
 	slot0.progress = slot0:findTF("AD/switcher/phase2/Image/progress")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if slot0.ptData then
 		slot0.ptData:Update(slot0.activity)
 	else
@@ -23,7 +23,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.battleBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK, {
 			page = "activity"
@@ -73,7 +73,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	setActive(slot0.getBtn, slot0.ptData:CanGetAward())
 	setActive(slot0.gotBtn, not slot0.ptData:CanGetNextAward())
 
@@ -85,7 +85,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:UpdateAwardGot()
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 	slot2 = GetOrAddComponent(slot0.phases[1], typeof(CanvasGroup))
 
@@ -113,7 +113,7 @@ function slot0.Switch(slot0, slot1)
 	slot0:UpdateAwardGot()
 end
 
-function slot0.UpdateAwardGot(slot0)
+slot0.UpdateAwardGot = function(slot0)
 	slot2 = not slot0.ptData:CanGetNextAward() and slot0.inPhase2
 
 	setActive(slot0:findTF("switcher/phase2/got", slot0.bg), slot2)
@@ -123,7 +123,7 @@ function slot0.UpdateAwardGot(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU8",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU8",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-5",
 			say = "Prior to the Royal Navy's plan",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Warspite",
 			dir = 1,
+			actorName = "Warspite",
 			say = "Illustrious! Are you coming as well?",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "I see. Well, as I was saying earlier, we are preparing a joint Royal Navy-Sardegna search party to find where the Sirens are coming from...",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Warspite",
 			dir = 1,
+			actorName = "Warspite",
 			say = "You're quite perceptive, as always. Something seemed suspicious about the plan they proposed.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "They claimed that they wanted to carry out this search operation at nighttime because the Sirens are supposedly more active then.",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 7,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "But, it just so happens that our patrol units at Malta don't operate at night. There's a possibility that they want to seize on that opportunity.",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "You... did what? In any case, we don't have any proof that the Sardegnians are actually plotting something...",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "A... woman's intuition?",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -224,8 +224,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Listen, you...",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "... What are those? Flares?",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "At that time, York happened to be passing by.",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 302080,
-			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "くっ…ここまでか…！",
 			bgm = "xinnong-4",
+			actor = 302080,
+			nameColor = "#a9f548",
+			say = "くっ…ここまでか…！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "この強さは一体何なの……！？",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "…信濃さん、すみません…！",
 			typewriter = {
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "量産艦、砲台、そして駆けつけてきた数々の艦船達は――すべて一撃で戦闘不能にされていった。",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "あまりにも圧倒的な実力差の前に戦いにすらならなかったが、それでも重桜は全力を尽くして「余燼」の攻勢を緩めようとしていた。",
 			typewriter = {
 				speed = 0.05,
@@ -192,15 +192,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "くっ…！ここまで来たら使うしかありませんわ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "これこそが私の愛の力…カミの力よ…！すべてを破壊してみせますわ！！",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,14 +251,14 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			actorName = "？？？",
-			bgName = "bg_xinnong_cg2",
 			side = 2,
+			bgName = "bg_xinnong_cg2",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900192,
 			nameColor = "#ffa500",
 			say = "…………邪魔をするな",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "――姉さま！！！",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

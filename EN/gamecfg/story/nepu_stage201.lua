@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE201",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE201",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>\"Odd-Colored Seas - GREEN\"</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "Here you have it... the fruits of Akashi's hard work last night, nya!",
 			bgm = "level-nep",
+			actor = 312010,
+			actorName = "{namecode:98}",
+			say = "Here you have it... the fruits of Akashi's hard work last night, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "pouts... Don't act like I didn't hear that. I helped with the technical stuff...",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:37}",
 			dir = 1,
-			say = "pouts... Don't act like I didn't hear that. I helped with the technical stuff...",
+			actor = 302010,
+			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,8 +102,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "Nya nya nya! Don't point those at other people!",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			actor = 302010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:37}",
 			dir = 1,
+			actorName = "{namecode:37}",
 			say = "Your ship rigging can be controlled freely with just your thoughts. As long as you don't space out, there shouldn't be any risk of misfiring... Woah, don't point those guns over here!",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "There would be an additional charge, nya.",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "You can purchase these exclusive equipment skin boxes. The pricing goes something like this...",
 			typewriter = {
 				speed = 0.05,
@@ -298,16 +298,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "Tester α",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "We don't quite understand the circumstances, but they have not been able to draw out their full power. There still appear to be possibilities that remain hidden from our understanding.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "Next, we must adapt to this dimension, and attain new power as well.",
 			typewriter = {
 				speed = 0.05,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "Hehehe... Things have gotten more interesting than I originally imagined.",
 			typewriter = {
 				speed = 0.05,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "I want to further witness the possibilities these girls contain... Let us observe them a bit longer...",
 			typewriter = {
 				speed = 0.05,

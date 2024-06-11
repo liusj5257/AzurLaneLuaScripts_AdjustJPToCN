@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Spiriting-Away Incident?\n\n<size=45>Summer, Hot Springs, and Ghost Stories</size>",
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Think about it – there are undiscovered monsters and lost treasure down there!",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sounds great... if you like being stuck inside a submarine. My vote still goes to pursuing ghost ships!",
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yeah, but we can do that right here. Shouldn't we do something, you know, different for our vacation?",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Big Sis Knight of the Sea",
 			dir = 1,
+			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The Knights of the Sea could organize a vigilante patrol.",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Hype As Always",
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Aaand... what's that got to do with vacationing?",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "The debate continues for some time, with no sign of a consensus in sight.",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Hatsuzuki pulled out a leaflet from among a pile of documents.",
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Okay. Let me just skim it and see what it's about...",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "It suddenly becomes palpable how silent it is in the office. Everyone's gaze is transfixed on the flyer in Hatsuzuki's hands.",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -466,11 +466,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It sure gets my vote if it means I get to see some sick youkai!",
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Hype As Always",
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Like from Sakuran legends? Hell yeah, I'm in!",
@@ -531,8 +531,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -579,11 +579,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Washing away one's stress and fatigue in an onsen... A splendid proposal...",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Hatsuzuki's objections are drowned in a sea of discussion in favor of the idea.",
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "To no surprise, the onsen resort plan took the vast majority of the votes, and so our next vacation destination was decided.",
@@ -638,9 +638,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

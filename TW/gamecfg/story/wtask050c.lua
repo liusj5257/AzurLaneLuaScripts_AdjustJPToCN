@@ -1,12 +1,12 @@
 return {
-	id = "WTask050C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask050C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "結束了與己方艦隊的演習，任務完成！",
 			typewriter = {
 				speed = 0.05,

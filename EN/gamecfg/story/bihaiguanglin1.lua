@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Sakura Empire Encampment",
 			side = 2,
 			bgName = "bg_port_dakaer",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-IJNdailymeeting",
+			hidePaintObj = true,
+			say = "Sakura Empire Encampment",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "I believe they said it's to return the gesture after we invited them to participate in one of our sacred rites.",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "It's a favorable trade for what we let them see at the Diadem of Light, for sure.",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Although, the timing of this invitation is inopportune. We cannot send a sizable fleet to the Iron Blood right now.",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Precisely. Monitoring the Sirens and gaining more valuable intel is our top priority. Focus on that instead, Kaga.",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,8 +218,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Who said anything about declining it? The Iron Blood is our closest ally. We can't say we're too busy for them.",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Then I suppose we have to find someone suited for the job, won't we?",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Surely you don't think they'd concern themselves with such trivial matters.",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Yes, and while it would be interesting to see them make a move, it would also place more eyes upon us–",
 			typewriter = {
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "If... If I might make a suggestion! What about sending the Great Veteran?",
 			typewriter = {
 				speed = 0.05,
@@ -379,8 +379,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "What about her, indeed? Am I supposed to laugh?",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Mikasa is completely off the table. She's too prone to sticking her nose into places it absolutely does not belong.",
 			typewriter = {
@@ -442,8 +442,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Shoukaku's merry gang? Not a snowball's chance in hell.",
 			typewriter = {
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "I see... Was it really that obvious what I was going to say...?",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,8 +485,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Better to hold your tongue than to let the world know that you are a fool. Jintsuu, care to share your wisdom with us?",
 			typewriter = {
@@ -534,8 +534,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "(Not a bad idea. Knowing her, she'd rather get her beauty sleep than try to pry where she shouldn't.)",
 			typewriter = {
@@ -567,8 +567,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "Finally... It's time to spring the next step of the plan into action.",
 			typewriter = {
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"\"Watatsumi Ritual held at the Diadem of Light, despite interference from Ashes members. Priority package from Akagi recovered.\"",
@@ -607,8 +607,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「……」</size>",
@@ -637,12 +637,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

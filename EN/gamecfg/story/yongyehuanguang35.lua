@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG35",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG35",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "Where'd all that bravado from earlier go? Are you rats only capable of scurrying around?! Ahahahaha!!",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Valiant and Howe dodged and weaved between Omitter's attacks, ruination flashing all around them as they waited for a single decisive moment.",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "...I see it! After launching her beam weapon, she stops for a moment to recharge!",
 			typewriter = {
 				speed = 0.05,
@@ -81,14 +81,14 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "...Oh? Are you admitting defeat? Why'd you suddenly stop moving?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "You might be a rotten bastard, but I'll admit that I underestimated you. You really are a high-ranking Siren.",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,9 +171,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Don't think you've won just yet...!",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 0.5,
 					x = -2500
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "At the last possible moment, Valiant barely managed to evade the path of the devastating beam, and—",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 2500
@@ -263,8 +263,8 @@ return {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "What?!",
 			dialogShake = {
 				speed = 0.09,
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_6",
+			dir = 1,
 			say = "Haaaaaaaaaah!!!",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Omitter",
+			side = 1,
 			bgName = "bg_hms_6",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Valiant",
+			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -327,9 +327,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_6",
+			dir = 1,
 			say = "Before Omitter could finish charging her weapon, Howe plunged her blade deep into the Siren's rigging.",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Howe",
+			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
+			side = 1,
 			bgName = "bg_hms_6",
-			actorName = "Omitter",
 			dir = 1,
+			actorName = "Omitter",
 			say = "How... could this be?! I'm explodinggggggraaahhhhh!!!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -378,10 +378,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "The energy stored within Omitter's rigging burst outwards violently, causing a massive explosion that erased all traces of the Siren and her equipment.",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "The energy stored within Omitter's rigging burst outwards violently, causing a massive explosion that erased all traces of the Siren and her equipment.",
 			effects = {
 				{
 					active = true,
@@ -438,8 +438,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "*cough* *cough*...Let's... just go back to exchanging fire next time... Valiant?!",
 			typewriter = {
 				speed = 0.05,
@@ -454,8 +454,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "Don't worry, she only took out one of my guns. Simple enough to get it repaired once we return home, so it's no big deal.",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "Her signal disappeared from the radar... There are only a few stragglers left!",
 			typewriter = {
 				speed = 0.05,
@@ -485,9 +485,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "All right. Let's clean up the remaining enemies.",
 			effects = {
 				{

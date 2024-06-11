@@ -509,14 +509,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "谢菲尔德1",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 12721,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12721,
+	color = "red",
 	icon = 12720,
 	last_effect = "",
 	blink = {

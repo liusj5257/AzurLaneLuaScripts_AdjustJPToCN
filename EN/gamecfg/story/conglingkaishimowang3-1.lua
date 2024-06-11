@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
-			say = "Once the blinding light recedes, a vast and lush forest unfolds before me.",
 			bgm = "theme-camelot",
+			say = "Once the blinding light recedes, a vast and lush forest unfolds before me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "I walk and wave my arms to see how it feels. I can move freely, just as though I were in the real world.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "I touch the bark of a nearby tree. It feels faintly damp and cold under my fingers.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "Birds sing overhead, and the plants and the ground under my feet smell just like the real deal.",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			recallOption = true,
 			say = "......",
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "I fumble around until I bring out the adventure interface.",
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "At the bottom of the menu, there's a button with just two words in all-caps: \"END ADVENTURE.\"",
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "So I can leave if I so want. Good to know!",
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "If this place is able to perfectly simulate touch, smell, hearing, and so on, then simulating pain should be child's play.",
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "With my heart beating a touch quickly, I turn to a tree and punch it with all my strength.",
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "Hiyah!",
@@ -263,29 +263,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			factiontag = "Commander",
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "Commander",
+			bgm = "ryza-az-battle",
+			actor = 0,
 			nameColor = "#A9F548FF",
 			say = "...Job: Commander. Level 1.",
-			bgm = "ryza-az-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "I rub my eyes and look again. Yes, I did read that right.",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "Just then, I hear a loud drumming noise coming from inside the forest.",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "At the same time, a blurb of information appears on my adventure interface.",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
 			say = "\"The Endless Woods are inhabited by an endless herd of Slimejuus.\"",
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
 			say = "\"That drumming sound came from one of their patrols, commanded by a King Slimejuu.\"",
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "I pick up the largest rock I can find and throw it with all my might at the King Slimejuu in the distance.",
@@ -602,8 +602,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "Hiyah!",
@@ -618,8 +618,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "It put a small dent in the King Slimejuu's health bar!",
@@ -637,8 +637,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "But then, it swells up with fury and starts making a beeline straight for me!",
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "I start running, but then... snap. A fallen branch cracks loudly under my foot.",
@@ -719,8 +719,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "The King Slimejuu in the distance, now aware of me, starts coming toward me at full speed.",
@@ -774,8 +774,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "SHWING!",
 			typewriter = {
@@ -817,17 +817,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -835,11 +835,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_520",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hey! Vile monster! Leave that one alone and face the hero!",
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -882,8 +882,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 500
+					number = 500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 500
+					number = 500,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 610
+					number = 610,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 610
+					number = 610,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 610
+					number = 610,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -82,8 +82,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 720
+					number = 720,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 720
+					number = 720,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 720
+					number = 720,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 830
+					number = 830,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -130,8 +130,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 830
+					number = 830,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -141,8 +141,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 830
+					number = 830,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -156,8 +156,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 940
+					number = 940,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -167,8 +167,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 940
+					number = 940,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -178,8 +178,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 940
+					number = 940,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -193,8 +193,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1050
+					number = 1050,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -204,8 +204,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1050
+					number = 1050,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -215,8 +215,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1050
+					number = 1050,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -230,8 +230,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1160
+					number = 1160,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -241,8 +241,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1160
+					number = 1160,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -252,8 +252,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1160
+					number = 1160,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -267,8 +267,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1270
+					number = 1270,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -278,8 +278,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1270
+					number = 1270,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1270
+					number = 1270,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -304,8 +304,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1380
+					number = 1380,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -315,8 +315,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1380
+					number = 1380,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -326,8 +326,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1380
+					number = 1380,
+					attr = "antiSubPower"
 				}
 			}
 		}
@@ -341,8 +341,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1500
+					number = 1500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -352,8 +352,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1500
+					number = 1500,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -363,15 +363,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiSubPower",
-					number = 1500
+					number = 1500,
+					attr = "antiSubPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 3,
@@ -393,8 +393,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -404,8 +404,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 500
+				number = 500,
+				attr = "dodgeRate"
 			}
 		},
 		{
@@ -415,8 +415,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiSubPower",
-				number = 500
+				number = 500,
+				attr = "antiSubPower"
 			}
 		}
 	}

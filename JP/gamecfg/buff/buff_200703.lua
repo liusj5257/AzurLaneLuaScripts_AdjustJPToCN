@@ -14,9 +14,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "黑基洛夫BOSS战 闪流机械重组",
 	time = 0,
+	name = "黑基洛夫BOSS战 闪流机械重组",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -41,8 +41,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = 0.3
+				number = 0.3,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		},
 		{
@@ -52,8 +52,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200704,
-				minTargetNumber = 1,
 				target = "TargetShipTag",
+				minTargetNumber = 1,
 				ship_tag_list = {
 					"BOSS"
 				}

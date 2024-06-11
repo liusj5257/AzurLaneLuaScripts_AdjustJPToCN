@@ -2,16 +2,16 @@ return {
 	uiEffect = "",
 	name = "大黄蜂-轰炸",
 	cd = 0,
-	painting = 1,
-	id = 60010,
 	picture = "0",
 	aniEffect = "",
 	desc = "轰炸",
+	painting = 1,
+	id = 60010,
 	effect_list = {
 		{
+			targetAniEffect = "",
 			type = "BattleSkillFire",
 			target_choise = "TargetHarmRandom",
-			targetAniEffect = "",
 			arg_list = {
 				weapon_id = 61001,
 				delay = 4
@@ -25,10 +25,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetSameToLastEffect",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetSameToLastEffect",
 			arg_list = {
 				weapon_id = 61002,
 				delay = 4

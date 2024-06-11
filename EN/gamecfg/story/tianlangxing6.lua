@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Sirius' Improvement Plan\n\n<size=45>Chapter 6 - Banquet Panic</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "It was now the day of the banquet.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "It was now the day of the banquet.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "My word, I can't believe it!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "That! Isn't that Sirius, one of our Royal Maids...?",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "I can see why Her Majesty would be surprised. Sirius' banquet dress makes her look so refined that you might mistake her for someone else entirely.",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Of course, we also have the Royal Maids, Nelson, Rodney, and Aurora to thank for their guidance.",
 			typewriter = {
 				speed = 0.05,
@@ -146,9 +146,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "In the end, it's because of Sirius' hard work that we look perfectly presentable at the banquet... Actually, I'd go as far as saying we're the most presentable couple in attendance.",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "It is my hope that you will see the fruits of my endeavors.",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "Now then, my honourable Master, shall we dance?",
 			typewriter = {
@@ -216,17 +216,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Your Majesty! Siren planes have been sighted approaching from the shoreline!",
 			bgm = "story-6",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "Your Majesty! Siren planes have been sighted approaching from the shoreline!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Hah! They've got guts to dare disrupt a banquet with me in attendance! Mobilise the maids and eliminate the enemy at once!",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.2,
 					x = 0,
@@ -280,8 +280,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 202201,
 			dir = 1,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "...I believe the quickest route should be through here.",
 			typewriter = {
@@ -310,9 +310,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "In that moment, I remembered why I wanted Sirius to attend this banquet: to reward her for all her hard work, and to let her shine.",
 			typewriter = {
 				speed = 0.05,
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "And being a bodyguard and the most proficient fighter of all the maids, if there's one thing she shines at, it would have to be...",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 202201,
 			dir = 1,
 			blackBg = true,
+			actor = 202201,
 			nameColor = "#a9f548",
 			say = "...Then as you command, I shall shine as bright as my namesake star.",
 			typewriter = {

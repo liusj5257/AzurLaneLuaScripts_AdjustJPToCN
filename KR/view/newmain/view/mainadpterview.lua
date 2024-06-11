@@ -1,18 +1,18 @@
 slot0 = class("MainAdpterView")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.topBg = slot1
 	slot0.bottomBg = slot2
 	slot0.rightBg = slot3
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.topBgY = slot0.topBg.localPosition.y
 	slot0.bottomBgY = slot0.bottomBg.localPosition.y
 	slot0.rightBgX = slot0.rightBg.localPosition.x
 end
 
-function slot0.Fold(slot0, slot1, slot2)
+slot0.Fold = function(slot0, slot1, slot2)
 	slot3 = slot1 and slot0.topBgY + 200 or slot0.topBgY
 
 	if slot2 <= 0 then
@@ -38,7 +38,7 @@ function slot0.Fold(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

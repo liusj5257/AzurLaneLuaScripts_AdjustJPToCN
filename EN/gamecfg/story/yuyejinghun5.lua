@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_156",
 			bgm = "theme-highseasfleet-reborn",
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "What's the matter? You got a stomachache? Let me take you to the guest room.",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,13 +63,13 @@ return {
 			}
 		},
 		{
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "You sure you didn't catch a cold out in the rain? You really should go to the guest room and warm up by the fireplace!",
 			typewriter = {
@@ -91,13 +91,13 @@ return {
 			}
 		},
 		{
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
 			optionFlag = 2,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Just thought you might have a cold, since you look pale! Come on, let's get you to the guest room! There's a fireplace there to warm you up.",
 			typewriter = {
@@ -110,9 +110,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Plus, we can't have people thinking the lord of the castle doesn't take care of his guests.",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Walk? But...",
 			typewriter = {
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "I-if you don't wanna visit the guest room, you can just rest here! You can't go in there right now 'cause we're cleaning the halls!",
@@ -493,11 +493,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "Hai Tien",
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "Hai Tien",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "You step into the castle hall.",
 			typewriter = {
@@ -505,17 +505,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -569,9 +569,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#FF9B93",
-			soundeffect = "event:/ui/shuaimen",
 			actorName = "Hai Tien",
+			soundeffect = "event:/ui/shuaimen",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "Then, thud. The door closes behind you.",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -663,8 +663,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Well then...",
 			bgm = "theme-ijndailymeeting",
+			say = "Well then...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,9 +701,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Don't tell me I didn't try to warn you!",
 			typewriter = {

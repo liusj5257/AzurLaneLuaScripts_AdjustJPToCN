@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEIFA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEIFA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"The Miniature Head Maid\n\n<size=45>Chapter 1 - A Little Visitor</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Port - One Day",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "Port - One Day",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "???",
 			say = "So... this is the \"Port,\" is it?",
 			typewriter = {
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "???",
 			say = "It's much larger than I expected...",
 			typewriter = {
@@ -62,19 +62,19 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
 			actorName = "???",
 			say = "Right! I must report to this \"Commander\" Akashi spoke of~",
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			},
 			typewriter = {
@@ -87,15 +87,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "Are these documents ready for the Commander, Your Majesty?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "Naturally! You're not implying my royal self would make mistakes, hmm?",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Naturally! You're not implying my royal self would make mistakes, hmm?",
+			actor = 205010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "???",
 			say = "Ah...",
 			typewriter = {
@@ -173,10 +173,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "Warspite & Queen Elizabeth",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
+			hideOther = true,
 			dir = 1,
 			actor = 205020,
 			nameColor = "#a9f548",
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 202180,
 			actorName = "Belfast?",
 			say = "Good day, mesdames. I am Belfast. May I ask, do either of you know where the \"Commander\" might be?",
 			typewriter = {
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "B-B-Belfast! You've shrunk! Aiiieeee!",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "B-B-Belfast! You've shrunk! Aiiieeee!",
+			actor = 205010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "Nya! I finally found you, nya! Didn't I tell you not to go running off, nya?!",
 			typewriter = {
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
+			say = "Oh, Madam Akashi...",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, Madam Akashi...",
+			actor = 202180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 1,
+			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "Well, er, okay, so it's like this, nya...",
 			typewriter = {

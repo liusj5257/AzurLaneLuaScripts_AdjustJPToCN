@@ -15,13 +15,13 @@ return {
 		{
 			actor = 103090,
 			nameColor = "#92fc63",
+			say = "아스토리아 언니!",
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "아스토리아 언니!",
 			flash = {
+				wait = 0.2,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.2,
 				number = 1,
 				alpha = {
 					0,
@@ -40,8 +40,8 @@ return {
 		{
 			actor = 103080,
 			side = 1,
-			nameColor = "#92fc63",
 			say = "괜찮아, 아직 버틸 수 있어!",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

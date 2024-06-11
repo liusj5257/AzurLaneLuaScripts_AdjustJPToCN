@@ -1,13 +1,13 @@
 slot0 = class("SpecialWeaponActPage", import(".LevelOpenActPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	setText(slot0._tf:Find("AD/task_list/content/tpl/status/got/Text"), i18n("word_status_inEventFinished"))
 	setText(slot0._tf:Find("AD/tips/Text"), i18n("spweapon_activity_ui_text1"))
 	setText(slot0._tf:Find("AD/tips/Text (1)"), i18n("spweapon_activity_ui_text2"))
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	uv0.super.UpdateTask(slot0, slot1, slot2)
 	setCanvasGroupAlpha(slot1:Find("canvas"), 1)
 	setActive(slot1:Find("mask"), slot2:getTaskStatus() == 2)

@@ -1,6 +1,6 @@
 slot0 = class("LittleDaihoPage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.helpBtn = slot0.bg:Find("help_btn")
@@ -8,7 +8,7 @@ function slot0.OnInit(slot0)
 	slot0.itemList = UIItemList.New(slot1, slot1:Find("tpl"))
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.getBtn, function ()
 		if uv0.inLT then
@@ -66,7 +66,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	slot0.itemList:align(slot0.ptData:GetLevel())
 

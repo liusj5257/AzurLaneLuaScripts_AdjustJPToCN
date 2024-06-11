@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "詰所の外の空き地で、神風型駆逐艦・朝凪は珍しくホウキを手にしている。",
 			bgm = "story-afterrain-soft",
+			say = "詰所の外の空き地で、神風型駆逐艦・朝凪は珍しくホウキを手にしている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "見様見真似でも掃除している体を取り繕っている。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "こうしているのは他でもなく、建物の中で何が起きているか好奇心ゆえだ。",
@@ -45,10 +45,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……初月！",
 			painting = {
 				alpha = 0.3,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "声を潜め建物に近づき、渡り廊下にいる初月に近づく。",
@@ -74,10 +74,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "三人いたと言ってたじゃろ？なんで長門さまと武蔵しかわからんのじゃ",
 			painting = {
 				alpha = 0.3,
@@ -92,10 +92,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "三人いたように見えたけど……見間違えた可能性もあるかも？",
 			painting = {
 				alpha = 0.3,
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ良い。二人がここに来た理由は分かるか？",
 			painting = {
 				alpha = 0.3,
@@ -127,10 +127,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "朝凪さん、盗み聞きはダメよ！",
 			painting = {
 				alpha = 0.3,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "ホウキを置き廊下を通ろうとした朝凪を慌てて制止した初月だが、その時向こうの部屋から誰かが出てきた。",
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "トレーを持って出てきた瑞鳳が部屋の中に振り向き、軽くお辞儀した。",
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "そう言って引き戸を締めた。",
@@ -203,10 +203,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "瑞鳳、こっちじゃっ！",
 			painting = {
 				alpha = 0.3,
@@ -218,12 +218,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "中で一体何が起き…一体何を話していたか聞かせてもらえぬか？",
 			painting = {
 				alpha = 0.3,
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "朝凪さん！瑞鳳をまずは落ち着かせてからだよ！",
 			painting = {
 				alpha = 0.3,
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "小刻みにガクガク震えている瑞鳳は、別室の部屋に連れて行かれた。",
@@ -341,10 +341,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それより瑞鳳、二人は尾張の件についてなんと言ったのじゃ？",
 			painting = {
 				alpha = 0.3,
@@ -371,10 +371,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「大神木」？聖域の奥にある「大神木」で間違いないか？",
 			painting = {
 				alpha = 0.3,
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "朝凪は聖域の中心にある巨大な神木を指差した。",
@@ -410,12 +410,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "尾張はそこにいるのか…道理で初月が見つけられなかったわけじゃ",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -440,10 +440,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "尾張さん、なんで「大神木」のところに行ったのかしら…",
 			painting = {
 				alpha = 0.3,
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "呆れた初月と朝凪、そして焦っている瑞鳳の会話に誰かが急に入ってきた。",
@@ -491,12 +491,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "別に罰したりしないわ。それに尾張なら今しがた無事を確認した",
 			painting = {
 				alpha = 0.3,
@@ -511,10 +511,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そのうち連れがこの詰所に案内してくるわ",
 			painting = {
 				alpha = 0.3,
@@ -526,12 +526,12 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "武蔵さん？！え、ええと…",
 			painting = {
 				alpha = 0.3,
@@ -546,10 +546,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうかしこまらなくていいわ。それより長門さまから汝たちに別途任務がある",
 			painting = {
 				alpha = 0.3,
@@ -561,12 +561,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これから行使する術式のための材料を準備してもらうわ",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "初月？",
 			painting = {
 				alpha = 0.3,
@@ -622,12 +622,12 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "は、はい！？武蔵さん！",
 			painting = {
 				alpha = 0.3,
@@ -639,12 +639,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なるほど、さっき見えたのは汝だったのね",
 			painting = {
 				alpha = 0.3,
@@ -659,10 +659,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ご、ごめんなさい！武蔵さんたちがここに来るとは思わず挨拶し損ねちゃいました…",
 			painting = {
 				alpha = 0.3,
@@ -690,10 +690,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "名取？その声はヒラヌマか…",
 			painting = {
 				alpha = 0.3,
@@ -708,10 +708,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ぬかった！武蔵たちを出迎えることばかりに気を取られて起こすのを忘れてたのじゃ！",
 			painting = {
 				alpha = 0.3,
@@ -726,10 +726,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "武蔵、すまん！",
 			painting = {
 				alpha = 0.3,
@@ -741,12 +741,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "謝ることはないわ",
 			painting = {
 				alpha = 0.3,
@@ -758,12 +758,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "武蔵は後ろにいた名取を朝凪たちのところに向かわせた。",
 			typewriter = {
 				speed = 0.05,
@@ -771,8 +771,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -555
@@ -780,12 +780,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "瑞鳳、材料のほうは任せたわ",
 			painting = {
 				alpha = 0.3,
@@ -801,8 +801,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 555
@@ -813,10 +813,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さて、術式の準備にはまだ時間がいる。聖域の話でもしておこうかしらね",
 			painting = {
 				alpha = 0.3,

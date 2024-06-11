@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103160,
-			side = 0,
-			bgm = "battle-boss-4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "이 장갑…203MM포의 위력으로도 관통할 수 없는 건가",
 			soundeffect = "event:/battle/boom2",
+			side = 0,
+			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "이 장갑…203MM포의 위력으로도 관통할 수 없는 건가",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "이렇게 빨리 궁지에 몰린 건가? 방금까지의 기세는 어디 갔지？",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "하하하하! 세이렌, 큰 실수를 저질렀구나.",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,9 +135,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "간신히 널 목표 위치까지 끌어냈어！",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -171,10 +171,10 @@ return {
 			}
 		},
 		{
+			say = "쾅────",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "쾅────",
 			flashN = {
 				color = {
 					1,
@@ -222,10 +222,10 @@ return {
 			}
 		},
 		{
+			say = "쾅─────!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "쾅─────!",
 			flashN = {
 				color = {
 					1,
@@ -276,8 +276,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "406MM포탄의 원거리 공격이라니…",
 			typewriter = {
 				speed = 0.05,
@@ -289,10 +289,10 @@ return {
 			}
 		},
 		{
+			say = "쿵─────",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "쿵─────",
 			flashN = {
 				color = {
 					1,
@@ -355,10 +355,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "앨라배마",
+			side = 2,
 			dir = 1,
+			actorName = "앨라배마",
 			say = "…맞았나? …거리가 너무 멀어…관측이 되지 않아",
 			effects = {
 				{
@@ -378,9 +378,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아주 정확하게 맞았어, 훈련 때와 똑같아, 훌륭해!",
 			effects = {
 				{
@@ -398,10 +398,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "앨라배마",
+			side = 2,
 			dir = 1,
+			actorName = "앨라배마",
 			say = "네 유도도 아주…좋았어",
 			effects = {
 				{
@@ -419,11 +419,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "실험자",
+			actor = 900011,
 			dir = 1,
+			actorName = "실험자",
 			say = "…………",
 			effects = {
 				{
@@ -444,8 +444,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "고난과 희생은 진화와 변혁에 필연히 따르는 것이지. 결과가 가져올 구원에 비하면 그 정도 희생은 입에 올릴 가치도 없다.",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "무지한 모양새로 마음껏 증오를 토해내다니, 확실히 실험 재료가 가져야 할 반응이지.",
 			typewriter = {
 				speed = 0.05,
@@ -552,8 +552,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -565,8 +565,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -596,9 +596,9 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "지휘관, 새러가 지원을 왔어~!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,8 +642,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "후후후, 확실히 너무 떠들어댔군.",
 			typewriter = {
 				speed = 0.05,
@@ -658,8 +658,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "매우 유감이야, 시간이 됐거든.",
 			typewriter = {
 				speed = 0.05,
@@ -671,10 +671,10 @@ return {
 			}
 		},
 		{
+			say = "쾅─────!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "쾅─────!",
 			flashN = {
 				color = {
 					1,
@@ -722,10 +722,10 @@ return {
 			}
 		},
 		{
+			say = "쾅─────!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "쾅─────!!",
 			flashN = {
 				color = {
 					1,
@@ -788,8 +788,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -813,8 +813,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "치지직…",
@@ -883,12 +883,12 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "도망칠 생각 마!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "도망칠 생각 마!!",
 			flashN = {
 				color = {
 					1,
@@ -939,8 +939,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "천만에, 진정한 시험은 이제야 제대로 시작되었는 걸.",
 			typewriter = {
 				speed = 0.05,
@@ -955,8 +955,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "실험자",
 			dir = 1,
+			actorName = "실험자",
 			say = "막은 이미 올랐고 주인공들도 등장했지. \"역사\"라는 무대에서 마음껏 연기해주길 바라, \"배우들\"이여",
 			typewriter = {
 				speed = 0.05,
@@ -1058,8 +1058,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -1071,8 +1071,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "고요히 먼 곳에 머무르고 있는──",
 			typewriter = {
 				speed = 0.05,
@@ -1084,8 +1084,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "마치 총사령관 같은──",
 			typewriter = {
 				speed = 0.05,
@@ -1097,8 +1097,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그 모습, 마치…",
 			typewriter = {
 				speed = 0.05,
@@ -1110,17 +1110,17 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			actorName = "？？？",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900189,
 			nameColor = "#ff6100",
 			say = "새로운 \"특이점\"이 곧 완성될 거야, 바로 이 바다에.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1145,12 +1145,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？",
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -1162,12 +1162,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "그렇게까지 우리의 이번 목표를 확신하는가…?",
 			typewriter = {
 				speed = 0.05,
@@ -1179,12 +1179,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？",
 			say = "느껴져…그 사람을 느낄 수 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -1196,12 +1196,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "그 사람의 곁에, 분명 \"...\"가 있겠지. 때가 되면 어쩔 셈인가？",
 			typewriter = {
 				speed = 0.05,
@@ -1213,12 +1213,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -1230,12 +1230,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "됐네, 때가 되면 반드시 도울 테니.",
 			typewriter = {
 				speed = 0.05,
@@ -1247,12 +1247,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "그대는 그저, 결연히 나아가기만 하면 되네",
 			typewriter = {
 				speed = 0.05,
@@ -1264,12 +1264,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？",
 			say = "돌아보지 말고…",
 			typewriter = {
 				speed = 0.05,

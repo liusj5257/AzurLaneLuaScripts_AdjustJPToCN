@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "story-mmorpg",
 			side = 2,
 			bgName = "star_level_bg_518",
+			soundeffect = "event:/battle/boom2",
+			bgm = "story-mmorpg",
 			nameColor = "#A9F548FF",
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "We would have suffered major casualties were it not for you.",
 			painting = {
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Don't mention it! Helping those in need is just what heroes do!",
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "It's very alarming that the Demon King Army is now attacking settlements even this close to the Bastion...",
 			painting = {
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sure! What do you need?",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Our great wall is protected by many goddesses, including the goddess of light and justice. Even the Demon King cannot break through it so easily.",
 			painting = {
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "So, I want to travel to the Bastion and reinforce it, but I cannot just leave these poor villagers to fend for themselves.",
 			painting = {
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Which brings me to my request – would you please clear the village of monsters?",
 			painting = {
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Mayor of Friede",
 			dir = 1,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "Adventurers! Please save our village!",
 			painting = {
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Killing monsters and saving a village? Sounds exactly like a quest fit for a hero!",
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What do you say, Commander?",
@@ -502,12 +502,12 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Mayor of Friede",
 			dir = 1,
 			optionFlag = 2,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "Uh, of course... We'll give you a heap of rewards if you do it!",
 			painting = {
@@ -520,12 +520,12 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Mayor of Friede",
 			dir = 1,
 			optionFlag = 2,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "That is, if you survive...",
 			painting = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Alright, the hero's party is on the case!",
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Mayor of Friede",
 			dir = 1,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "Thank you! May the goddess of peace and protection be with you!",
 			painting = {

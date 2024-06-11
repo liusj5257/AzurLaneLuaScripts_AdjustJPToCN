@@ -9,14 +9,14 @@ slot4.__name = "CardPuzzleHandBoard"
 slot4.BASE_GAP = 166
 slot4.BASE_SIBLING = 4
 
-function slot4.Ctor(slot0, slot1, slot2)
+slot4.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._areaGO = slot2
 
 	slot0:init()
 end
 
-function slot4.SetCardPuzzleComponent(slot0, slot1)
+slot4.SetCardPuzzleComponent = function(slot0, slot1)
 	slot0._cardPuzzleInfo = slot1
 	slot0._hand = slot0._cardPuzzleInfo:GetHand()
 
@@ -25,7 +25,7 @@ function slot4.SetCardPuzzleComponent(slot0, slot1)
 	slot0:onUpdateCards()
 end
 
-function slot4.Update(slot0)
+slot4.Update = function(slot0)
 	for slot4, slot5 in ipairs(slot0._activeCardList) do
 		slot5:Update()
 	end
@@ -35,7 +35,7 @@ function slot4.Update(slot0)
 	end
 end
 
-function slot4.onUpdateCards(slot0, slot1)
+slot4.onUpdateCards = function(slot0, slot1)
 	slot2 = slot0._hand:GetCardList()
 	slot3 = #slot0._activeCardList
 
@@ -77,7 +77,7 @@ function slot4.onUpdateCards(slot0, slot1)
 	slot0:updateCardReferenceInHand()
 end
 
-function slot4.getCard(slot0)
+slot4.getCard = function(slot0)
 	slot1 = nil
 
 	if #slot0._idleCardList > 0 then
@@ -144,7 +144,7 @@ function slot4.getCard(slot0)
 	return slot1
 end
 
-function slot4.recyleCard(slot0, slot1)
+slot4.recyleCard = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._activeCardList) do
 		if slot6 == slot1 then
 			slot1:SetToObjPoolRecylePos()
@@ -157,7 +157,7 @@ function slot4.recyleCard(slot0, slot1)
 	table.insert(slot0._idleCardList, slot1)
 end
 
-function slot4.delayRecyleCard(slot0, slot1)
+slot4.delayRecyleCard = function(slot0, slot1)
 	slot1:ChangeState(slot1.STATE_LOCK)
 
 	for slot5, slot6 in ipairs(slot0._activeCardList) do
@@ -183,7 +183,7 @@ function slot4.delayRecyleCard(slot0, slot1)
 	end, slot0._drawPos)
 end
 
-function slot4.onUpdateFleetAttr(slot0, slot1)
+slot4.onUpdateFleetAttr = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._activeCardList) do
 		slot6:UpdateTotalCost()
 		slot6:UpdateBoostHint()
@@ -192,7 +192,7 @@ function slot4.onUpdateFleetAttr(slot0, slot1)
 	end
 end
 
-function slot4.init(slot0)
+slot4.init = function(slot0)
 	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0._cardContainer = slot0._go.transform
@@ -213,14 +213,14 @@ function slot4.init(slot0)
 	slot0._readyHint = slot0._area:Find("cast_hint")
 end
 
-function slot4.updateCardReferenceInHand(slot0)
+slot4.updateCardReferenceInHand = function(slot0)
 	for slot4, slot5 in ipairs(slot0._activeCardList) do
 		slot5:SetReferencePos(Vector3.New(slot0._startPos.x + (slot4 - 1) * slot0:getcardGap(), slot0._startPos.y, 0))
 		slot5:SetSibling(slot4 + uv0.BASE_SIBLING)
 	end
 end
 
-function slot4.getcardGap(slot0)
+slot4.getcardGap = function(slot0)
 	slot1 = #slot0._activeCardList
 
 	if #slot0._activeCardList <= uv0.BASE_MAX_HAND then
@@ -230,15 +230,15 @@ function slot4.getcardGap(slot0)
 	end
 end
 
-function slot4.setDragingCard(slot0, slot1)
+slot4.setDragingCard = function(slot0, slot1)
 	slot0._cardPuzzleInfo:SetDragingCard(slot1)
 	slot0._cardPuzzleInfo:SendUpdateAim()
 end
 
-function slot4.sort(slot0)
+slot4.sort = function(slot0)
 end
 
-function slot4.activeHighlight(slot0, slot1)
+slot4.activeHighlight = function(slot0, slot1)
 	if slot1 then
 		slot0._handDelegate:AddPointEnterFunc(function ()
 			uv0._cardEnterHand = true
@@ -283,19 +283,19 @@ function slot4.activeHighlight(slot0, slot1)
 	setActive(slot0._returnArea, slot1)
 end
 
-function slot4.LockCardInHand(slot0)
+slot4.LockCardInHand = function(slot0)
 	for slot4, slot5 in ipairs(slot0._activeCardList) do
 		slot5:ChangeState(slot5.STATE_LOCK)
 	end
 end
 
-function slot4.SetAllCardBlockRayCast(slot0, slot1)
+slot4.SetAllCardBlockRayCast = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._activeCardList) do
 		slot6:BlockRayCast(slot1)
 	end
 end
 
-function slot4.UnlockCardInHand(slot0, slot1)
+slot4.UnlockCardInHand = function(slot0, slot1)
 	if slot1 then
 		slot1:ChangeState(uv0.Battle.CardPuzzleCombatCard.STATE_FREE)
 	else
@@ -305,13 +305,13 @@ function slot4.UnlockCardInHand(slot0, slot1)
 	end
 end
 
-function slot4.TryPlayCard(slot0, slot1)
+slot4.TryPlayCard = function(slot0, slot1)
 	return slot0._cardPuzzleInfo:PlayCard(slot1:GetCardInfo())
 end
 
-function slot4.TryPlayReturnCard(slot0, slot1)
+slot4.TryPlayReturnCard = function(slot0, slot1)
 	return slot0._cardPuzzleInfo:ReturnCard(slot1:GetCardInfo())
 end
 
-function slot4.Dispose(slot0)
+slot4.Dispose = function(slot0)
 end

@@ -1,12 +1,12 @@
 return {
-	id = "W710005",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710005",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦隊受到黑色潮汐影響，回過神來竟然回到了出發點？",
 			typewriter = {
 				speed = 0.05,

@@ -15,9 +15,10 @@ slot0.SKIP_INS = "NewMainMediator:SKIP_INS"
 slot0.SKIP_LOTTERY = "NewMainMediator:SKIP_LOTTERY"
 slot0.GO_SINGLE_ACTIVITY = "NewMainMediator:GO_SINGLE_ACTIVITY"
 slot0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
+slot0.OPEN_DORM_SELECT_LAYER = "NewMainMediator.OPEN_DORM_SELECT_LAYER"
 slot0.SKIP_DELEGATION = "NewMainMediator:SKIP_DELEGATION"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.SKIP_DELEGATION, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.RYZA_TASK)
 	end)
@@ -86,7 +87,7 @@ function slot0.register(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, slot1, slot2)
 	end)
 	slot0:bind(uv0.GO_SNAPSHOT, function (slot0)
-		slot1 = uv0.viewComponent.iconView.ship
+		slot1 = uv0.viewComponent.bgView.ship
 		slot2 = slot1.skinId
 		slot3 = uv0.viewComponent.paintingView:IsLive2DState()
 		slot4 = nil
@@ -100,7 +101,7 @@ function slot0.register(slot0)
 			skinId = slot2,
 			live2d = slot3,
 			tbId = slot4,
-			propose = uv0.viewComponent.iconView.propose
+			propose = uv0.viewComponent.bgView.propose
 		})
 	end)
 	slot0:bind(uv0.OPEN_MAIL, function (slot0)
@@ -136,37 +137,39 @@ function slot0.register(slot0)
 			}
 		}))
 	end)
+	slot0:bind(uv0.OPEN_DORM_SELECT_LAYER, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3DSELECT)
+	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	slot1 = {
-		PERMISSION_GRANTED,
-		PERMISSION_REJECT,
-		PERMISSION_NEVER_REMIND,
 		GAME.REMOVE_LAYERS,
-		PlayerProxy.UPDATED,
+		GAME.GET_GUILD_INFO_DONE,
+		GAME.GET_GUILD_CHAT_LIST_DONE,
 		GAME.ON_OPEN_INS_LAYER,
+		GAME.BEGIN_STAGE_DONE,
+		GAME.SEND_MINI_GAME_OP_DONE,
+		GAME.FETCH_NPC_SHIP_DONE,
+		GAME.ZERO_HOUR_OP_DONE,
+		GAME.CONFIRM_GET_SHIP,
+		GAME.WILL_LOGOUT,
+		GAME.GET_FEAST_DATA_DONE,
+		GAME.FETCH_VOTE_INFO_DONE,
+		GAME.ROTATE_PAINTING_INDEX,
+		GAME.LOAD_LAYERS,
 		NotificationProxy.FRIEND_REQUEST_ADDED,
 		NotificationProxy.FRIEND_REQUEST_REMOVED,
 		FriendProxy.FRIEND_NEW_MSG,
 		FriendProxy.FRIEND_UPDATED,
+		PlayerProxy.UPDATED,
 		ChatProxy.NEW_MSG,
 		GuildProxy.NEW_MSG_ADDED,
-		GAME.GET_GUILD_INFO_DONE,
-		GAME.GET_GUILD_CHAT_LIST_DONE,
-		GAME.BEGIN_STAGE_DONE,
 		ChapterProxy.CHAPTER_TIMESUP,
 		TaskProxy.TASK_ADDED,
 		TechnologyConst.UPDATE_REDPOINT_ON_TOP,
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
-		GAME.SEND_MINI_GAME_OP_DONE,
-		GAME.FETCH_NPC_SHIP_DONE,
-		GAME.ZERO_HOUR_OP_DONE,
-		uv0.REFRESH_VIEW,
-		GAME.CONFIRM_GET_SHIP,
-		GAME.WILL_LOGOUT,
-		GAME.GET_FEAST_DATA_DONE,
-		GAME.FETCH_VOTE_INFO_DONE
+		uv0.REFRESH_VIEW
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do
@@ -180,54 +183,25 @@ function slot0.listNotificationInterests(slot0)
 	return slot1
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
 
 	pg.redDotHelper:Notify(slot2)
 
-	if PERMISSION_GRANTED == slot2 and slot3 == ANDROID_CAMERA_PERMISSION then
-		slot0.viewComponent:emit(uv0.GO_SNAPSHOT)
-	elseif PERMISSION_REJECT == slot2 and slot3 == ANDROID_CAMERA_PERMISSION then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("apply_permission_camera_tip3"),
-			onYes = function ()
-				ApplyPermission({
-					ANDROID_CAMERA_PERMISSION
-				})
-			end
-		})
-	elseif PERMISSION_NEVER_REMIND == slot2 and slot3 == ANDROID_CAMERA_PERMISSION then
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("apply_permission_camera_tip2"),
-			onYes = function ()
-				OpenDetailSetting()
-			end
-		})
-	elseif slot2 == GAME.REMOVE_LAYERS then
-		slot0.viewComponent:emit(NewMainScene.ON_REMOVE_LAYER, slot3.context)
-	elseif slot2 == PlayerProxy.UPDATED then
-		slot0.viewComponent:emit(NewMainScene.ON_PLAYER_UPDATE)
-	elseif slot2 == GAME.ON_OPEN_INS_LAYER then
+	if slot2 == GAME.ON_OPEN_INS_LAYER then
 		slot0.viewComponent:emit(uv0.SKIP_INS)
 	elseif slot2 == NotificationProxy.FRIEND_REQUEST_ADDED or slot2 == NotificationProxy.FRIEND_REQUEST_REMOVED or slot2 == FriendProxy.FRIEND_NEW_MSG or slot2 == FriendProxy.FRIEND_UPDATED or slot2 == ChatProxy.NEW_MSG or slot2 == GuildProxy.NEW_MSG_ADDED or slot2 == GAME.GET_GUILD_INFO_DONE or slot2 == GAME.GET_GUILD_CHAT_LIST_DONE then
-		slot0.viewComponent:emit(NewMainScene.ON_CHAT_MSG_UPDATE)
+		slot0.viewComponent:emit(GAME.ANY_CHAT_MSG_UPDATE)
 	elseif slot2 == GAME.BEGIN_STAGE_DONE then
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == ChapterProxy.CHAPTER_TIMESUP then
 		MainChapterTimeUpSequence.New():Execute()
-	elseif slot2 == TaskProxy.TASK_ADDED then
-		slot0.viewComponent:emit(NewMainScene.ON_STOP_PAITING_VOICE)
 	elseif slot2 == TechnologyConst.UPDATE_REDPOINT_ON_TOP then
 		slot4 = MainTechnologySequence.New()
 
 		slot4:Execute(function ()
 		end)
-	elseif slot2 == MiniGameProxy.ON_HUB_DATA_UPDATE or slot2 == GAME.SEND_MINI_GAME_OP_DONE then
-		slot0.viewComponent:emit(NewMainScene.ON_ACT_BTN_UPDATE)
-		slot0.viewComponent:emit(NewMainScene.ON_BUFF_UPDATE)
-	elseif slot2 == GAME.ZERO_HOUR_OP_DONE then
-		slot0.viewComponent:emit(NewMainScene.ON_ZERO_HOUR)
 	elseif slot2 == GAME.FETCH_NPC_SHIP_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == uv0.REFRESH_VIEW then
@@ -242,11 +216,9 @@ function slot0.handleNotification(slot0, slot1)
 			},
 			onRemoved = slot3.callback
 		}))
-	elseif slot2 == GAME.WILL_LOGOUT then
-		slot0.viewComponent:OnLogOut()
-	elseif slot2 == GAME.GET_FEAST_DATA_DONE or slot2 == GAME.FETCH_VOTE_INFO_DONE then
-		slot0.viewComponent:emit(NewMainScene.ON_ACT_BTN_UPDATE)
 	end
+
+	slot0.viewComponent:emit(slot2, slot3)
 end
 
 return slot0

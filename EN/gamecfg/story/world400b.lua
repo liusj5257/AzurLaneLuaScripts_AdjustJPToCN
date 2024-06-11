@@ -1,18 +1,18 @@
 return {
-	id = "WORLD400B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD400B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
+			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Welcome to the Méditerranée, my lovely ladies. I am Littorio, from the Sardegna Empire. You must all be weary from your long journey~",
-			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "Maybe they’re too busy enjoying the splendors of Sardegna?~",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "To be frank, because the negotiations are taking place at a Crimson Axis-controlled port, I believe the point was to bring as few ships as possible, as to not incense the various leaders.",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "We wish to reclaim our birthright, the Méditerranée, in its entirety. That’s the reason we’re still in the Crimson Axis.~",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "The Méditerranée is naturally well-protected, making a large-scale Siren invasion extremely difficult as long as the points of entry are guarded.",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "As for the ones responsible for this defense, from the perspective of the Royal Navy, they are in charge of defending the western entrance while Sardegna is in charge of the east.",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "Since the announcement of Operation Siren, the Royal Navy’s fleets have thinned out, allowing more stray Sirens through.",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "As a sign of goodwill, the Royal Navy lifted their blockade - but in that process, also let more Sirens through.",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "But let us tarry here no longer, my beautiful Signorinas. The fine wine and delicacies of Taranto await.",
 			typewriter = {
 				speed = 0.05,

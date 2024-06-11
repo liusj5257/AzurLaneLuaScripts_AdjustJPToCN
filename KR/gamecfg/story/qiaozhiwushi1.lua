@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"또 다른 지도자?\n\n<size=45>1. 뜻밖의 구원자</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "모항 - ???",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "story-2",
+			say = "모항 - ???",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "눈을 뜨자, 낯선 풍경이 펼쳐져 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "낯선 천장, 왠지 그리운 느낌의 기묘한 향기, 로열 네이비의 왕가를 연상케 하는 호화로운 실내 장식……",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "이 목소리는…… 듀크 오브 요크……?",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "그렇다면, 나는 그녀의 방으로 납치된(?) 것이 틀림없다.",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "아무래도 그녀는 진지한 모양이다. 하지만 '괘씸한 소행'이라고 해도 짚이는 곳은 없다만……",
 			typewriter = {
 				speed = 0.05,
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "웨일즈가 아닌 '그 여자'라면 설마……!",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
 			stopbgm = true,
 			dir = 1,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "목소리와 함께 나타난 것은…… 최근에 비서함으로 임명한 킹 조지 5세였다.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "목소리와 함께 나타난 것은…… 최근에 비서함으로 임명한 킹 조지 5세였다.",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "그리고, 요염한 향기와 함께 듀크 오브 요크에게 스며 나오던 거역할 수 없는 분위기도, 위풍당당한 그녀의 등장에 단번에 날아가버렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -284,9 +284,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "기백에 압도된 것인지, 듀크 오브 요크는 평소답지 않게 당황하였다.",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "흥, 당신이 꾸미는 일 따위, 내게는 손에 잡힐 듯이 뻔하다.",
 			typewriter = {
@@ -331,11 +331,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "킹 조지는 그대로 이쪽으로 다가와선……",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "지휘관, 꼭 잡고 있으라고?",
 			typewriter = {
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "그대로 킹 조지 5세에게 공주님 안기(!?)로 집무실까지 옮겨졌다.",
 			typewriter = {
 				speed = 0.05,

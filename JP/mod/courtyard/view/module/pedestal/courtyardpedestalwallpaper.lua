@@ -1,6 +1,6 @@
 slot0 = class("CourtYardPedestalWallPaper", import(".CourtYardPedestalStructure"))
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.paper = slot1
 
 	if not slot0.paper then
@@ -12,7 +12,7 @@ function slot0.Update(slot0, slot1, slot2)
 	uv0.super.Update(slot0, slot2)
 end
 
-function slot0.GetAssetPath(slot0)
+slot0.GetAssetPath = function(slot0)
 	if slot0.paper:GetObjType() == CourtYardConst.OBJ_TYPE_COMMOM then
 		return "furnitrues/" .. slot0.paper:GetPicture() .. slot0.level
 	elseif slot1 == CourtYardConst.OBJ_TYPE_SPINE then
@@ -22,7 +22,7 @@ function slot0.GetAssetPath(slot0)
 	end
 end
 
-function slot0.OnLoaded(slot0, slot1)
+slot0.OnLoaded = function(slot0, slot1)
 	rtf(slot1).anchorMin = Vector2(0.5, 1)
 	rtf(slot1).anchorMax = Vector2(0.5, 1)
 	rtf(slot1).pivot = Vector2(0.5, 1)
@@ -37,14 +37,14 @@ function slot0.OnLoaded(slot0, slot1)
 	tf(slot1):SetSiblingIndex(1)
 end
 
-function slot0.InitCommon(slot0, slot1)
+slot0.InitCommon = function(slot0, slot1)
 	setAnchoredPosition(slot1, {
 		x = 0,
 		y = -6
 	})
 end
 
-function slot0.InitSpine(slot0, slot1)
+slot0.InitSpine = function(slot0, slot1)
 	setAnchoredPosition(slot1, Vector3(0, -10, 0))
 
 	slot2, slot3 = slot0.paper:GetSpineNameAndAction()

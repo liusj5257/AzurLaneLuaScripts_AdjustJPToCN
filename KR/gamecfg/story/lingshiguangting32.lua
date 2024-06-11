@@ -1,17 +1,17 @@
 return {
-	id = "LINGSHIGUANGTING32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING32",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "모두가 카멜롯의 정원에 접근하려고 할 때, 눈부신 황금색 빛이 바다를 휩쓸었다.",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-camelot",
+			say = "모두가 카멜롯의 정원에 접근하려고 할 때, 눈부신 황금색 빛이 바다를 휩쓸었다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,8 +34,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "폐하, 카멜롯의 정원이 스스로 작동하는 것 같습니다만…?!",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 203049,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 203049,
 			actorName = "서포크·改",
 			say = "폐하, 폐하를 호위하러 서포크가 왔습니다.",
 			typewriter = {
@@ -113,11 +113,11 @@ return {
 			}
 		},
 		{
-			actor = 207029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 207029,
 			actorName = "아크로열·改",
 			say = "폐하께서 위험에 처하셨다는 말을 듣고 아크로열 어찌 가만히 있을 수 있겠습니까!",
 			typewriter = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 206039,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 206039,
 			actorName = "유니콘·改",
 			say = "유니콘도 도와드리려고 왔습니다!",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 202039,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 202039,
 			actorName = "에이잭스·改",
 			say = "먼 곳에 있는 저것들이 적인가요? 이제 저희도 전투에 참여하겠습니다~",
 			typewriter = {
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "카멜롯의 정원은 마치 각지를 연결하는 봉화처럼 여왕의 위험 소식을 전했고, 동시에 위기를 돌파할 희망을 한곳에 모았다.",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트·改",
 			say = "갑작스러운 일이 아니고, 또 비밀 임무만 아녔다면, 로열 전력의 절반을 이끌고 왔을 겁니다!",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "동감이에요, 안티엑스가 이곳에서 어떤 실험을 하고 있는 건지 모르겠네요….",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "맞습니다. 전 리나운, 여기는 제 동생 리펄스입니다.",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "한동안 잔불과 전투를 진행해오다가 평화로운 삶을 위해 은거 생활을 하던 중 맹세를 이행하기 위해 다시 이렇게 전장으로 돌아왔습니다.",
 			typewriter = {
@@ -363,8 +363,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "으음…",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900327,
 			dir = 1,
+			actor = 900327,
 			nameColor = "#ffa500",
 			say = "그럼 퀸 엘리자베스 폐하는 어떠신가요?",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "도시들의 느낌은 그렇습니다만 검은 폭풍은 확실하지 않습니다. 적어도 이런 장면에서 이런 상황을 겪은 적은 없습니다.",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "폐하, 퓨리파이어의 함대는 이미 전멸되었습니다. 폭풍이 저희 쪽을 향해 빠르게 접근하고 있습니다.",
 			typewriter = {
@@ -540,11 +540,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "제1 고리 작동, 공간 분할, 폭풍을 차단해라!",
 			effects = {
 				{
@@ -562,9 +562,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "바깥쪽에 있는 첫 번째 고리가 회전하면서, 투명한 '막'이 카멜롯의 정원을 감싸 검은 폭풍을 차단했다.",
 			typewriter = {
 				speed = 0.05,
@@ -643,8 +643,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "아마도… 하지만 그녀가 어떻게….",
 			typewriter = {
@@ -676,8 +676,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "잔불이 안티엑스와 협력해 실험을 진행할 때 제로가 저희에게 말한 적이 있습니다.",
 			typewriter = {
@@ -693,8 +693,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "몇 번을 시도해봐도 안티엑스는 완벽하게 본험 리차드의 데이터를 구현해낼 수 없다고 말이죠.",
 			typewriter = {
@@ -710,8 +710,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "각 실험장의 혁신적인 발전 속에서도 본험 리차드는 결코 구현할 수 없다구요. 마치 존재 자체가 말끔히 지워진 것처럼 말입니다.",
 			typewriter = {
@@ -727,8 +727,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "그래서 리차드 사건 이후에… 살아있는 그녀는 오늘이 처음입니다….",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "어디서 그녀를 찾으신 거죠...?",
 			typewriter = {
@@ -921,8 +921,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "응, 의심할 여지 없이 그년 우리의 기억 속 리차드 양이 아닌 것 같군요. 그리고 그녀에게 느껴지는… 형용할 수 없는 이질감까지요.",
 			typewriter = {
@@ -938,8 +938,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "META는 맞지만 뭔가 더 이질적인 다른 게 섞여 있는 것 같아요. 뭔지 확신할 순 없지만… 헬레나 혹은 멤피스가 이곳에 있었으면 더 좋았을 텐데.",
 			typewriter = {
@@ -971,8 +971,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "미안해요, 리차드  양. 저흰 이미 엘리자베스 여왕 폐하를 향해 충성을 맹세했습니다. 저흰 그녀를 무사 귀환시켜야 해요.",
 			typewriter = {
@@ -988,8 +988,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "여기서 그만하라고 부탁할 수 있을까요?",
 			typewriter = {
@@ -1034,9 +1034,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "폭풍이 다시 한번 포효했다.이번 폭풍 속에서는 무수히 많은 적들이 나타났다.",
 			typewriter = {
 				speed = 0.05,
@@ -1096,11 +1096,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트·改",
 			say = "폐하, 적은 저희가 책임지겠습니다. 로열의 개조 함대의 실력을 보여줄 때군!",
 			typewriter = {
@@ -1113,11 +1113,11 @@ return {
 			}
 		},
 		{
-			actor = 207029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 207029,
 			actorName = "아크로열·改",
 			say = "안심하세요, 폐하. 아무리 많은 적들이 온다고 해도, 반드시 처리할 수 있습니다!",
 			typewriter = {
@@ -1133,8 +1133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "저도 기사들을 데리고 전투에 임하도록 하겠습니다. 승리를 위한 방어전이니 무모하게 행동하진 않겠습니다.",
 			typewriter = {
@@ -1214,9 +1214,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
 			blackBg = true,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "명령에 따르겠습니다-로열의 기사와 전사들이여, 나를 따라 적에 맞서 싸우자!",
 			typewriter = {

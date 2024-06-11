@@ -1,31 +1,31 @@
 slot0 = class("TaskCommonPage", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TaskListPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0._scrllPanel = slot0:findTF("right_panel")
 	slot0._scrollView = slot0._scrllPanel:GetComponent("LScrollRect")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.taskCards = {}
 
-	function slot0._scrollView.onInitItem(slot0)
+	slot0._scrollView.onInitItem = function(slot0)
 		uv0:onInitTask(slot0)
 	end
 
-	function slot0._scrollView.onUpdateItem(slot0, slot1)
+	slot0._scrollView.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateTask(slot0, slot1)
 	end
 end
 
-function slot0.onInitTask(slot0, slot1)
+slot0.onInitTask = function(slot0, slot1)
 	slot0.taskCards[slot1] = TaskCard.New(slot1, slot0.contextData.viewComponent)
 end
 
-function slot0.onUpdateTask(slot0, slot1, slot2)
+slot0.onUpdateTask = function(slot0, slot1, slot2)
 	if not slot0.taskCards[slot2] then
 		slot0:onInitTask(slot2)
 
@@ -35,7 +35,7 @@ function slot0.onUpdateTask(slot0, slot1, slot2)
 	slot3:update(slot0.taskVOs[slot1 + 1])
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0:Show()
 
 	slot0.taskVOs = {}
@@ -79,7 +79,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetSliderValue(slot0)
+slot0.GetSliderValue = function(slot0)
 	slot1 = -1
 
 	if slot0.contextData.targetId then
@@ -101,9 +101,9 @@ function slot0.GetSliderValue(slot0)
 	return slot1
 end
 
-function slot0.Sort(slot0)
-	function slot1(slot0, slot1, slot2)
-		function slot3(slot0)
+slot0.Sort = function(slot0)
+	slot1 = function(slot0, slot1, slot2)
+		slot3 = function(slot0)
 			for slot4, slot5 in ipairs(uv0) do
 				if slot0 == slot5 then
 					return slot4
@@ -114,15 +114,15 @@ function slot0.Sort(slot0)
 		return slot3(slot0) < slot3(slot1)
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		return slot0:IsUrTask() and 1 or 0
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		return slot0.configId or 0
 	end
 
-	function slot4(slot0, slot1)
+	slot4 = function(slot0, slot1)
 		if slot0:GetRealType() == slot1:GetRealType() then
 			if slot0:isAvatarTask() and slot1:isAvatarTask() then
 				if uv0(slot0) == uv0(slot1) then
@@ -182,13 +182,13 @@ function slot0.Sort(slot0)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.taskCards) do
 		slot5:dispose()
 	end
 end
 
-function slot0.GetWaitToCheckList(slot0)
+slot0.GetWaitToCheckList = function(slot0)
 	slot1 = slot0.taskVOs or {}
 	slot2 = {}
 
@@ -201,7 +201,7 @@ function slot0.GetWaitToCheckList(slot0)
 	return slot2
 end
 
-function slot0.ExecuteOneStepSubmit(slot0)
+slot0.ExecuteOneStepSubmit = function(slot0)
 	slot1 = slot0:GetWaitToCheckList()
 	slot2 = nil
 	slot4 = nil
@@ -250,7 +250,7 @@ function slot0.ExecuteOneStepSubmit(slot0)
 	end
 end
 
-function slot0.filterOverflowTaskVOList(slot0, slot1)
+slot0.filterOverflowTaskVOList = function(slot0, slot1)
 	slot2 = {}
 	slot3 = getProxy(PlayerProxy):getData()
 	slot5 = slot3.gold
@@ -274,7 +274,7 @@ function slot0.filterOverflowTaskVOList(slot0, slot1)
 	return slot2, slot11
 end
 
-function slot0.filterSubmitTaskVOList(slot0, slot1, slot2)
+slot0.filterSubmitTaskVOList = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot8, slot9 in ipairs(slot1) do
@@ -312,7 +312,7 @@ function slot0.filterSubmitTaskVOList(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.filterChoiceTaskVOList(slot0, slot1, slot2)
+slot0.filterChoiceTaskVOList = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot8, slot9 in ipairs(slot1) do

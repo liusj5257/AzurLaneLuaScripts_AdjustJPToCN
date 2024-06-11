@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"토끼토끼성인의 수수께끼?\n\n<size=45>토끼토끼별에서 온 방문자</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 광장",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 광장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "관측부의 소식에 따르면, 오늘 밤엔 유성우가 쏟아진다는 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "……여자아이들은 아무래도 유성 소식에 모두 흥미있어하는 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "베일리도 여느 때보다 기분이 좋아 보인다.",
 			typewriter = {
 				speed = 0.05,
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "우주선……?",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "정말로 토끼토끼별에서 우주선이 와준다면, 그건 확실히 대사건이겠군……",
 			typewriter = {
 				speed = 0.05,
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 312010,
 			nameColor = "#92fc63",
 			say = "마침 근처에 있던 아카시가 과학적으로 반박을 하며 지나갔다.",
 			typewriter = {
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "……앗, 그, 그치만냥! 아카시도 그렇게 확실히 본 건 아니다냥! 실은 우주선이 그 유성우 속에 섞여 있을지도 모른다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -263,16 +263,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "토끼토끼별도 혹시 다른 은하에 있을지도 모르지냥!",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "주의를 받은 아카시는 갑자기 말을 바꿨지만 분위기는 순식간에 이상해졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,

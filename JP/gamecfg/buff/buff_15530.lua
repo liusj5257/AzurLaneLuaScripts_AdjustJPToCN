@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 15530,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15530,
+	color = "yellow",
 	icon = 15530,
 	last_effect = "",
 	effect_list = {
@@ -49,8 +49,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 15531,
+				target = "TargetSelf",
 				countType = 15530
 			}
 		},
@@ -60,9 +60,9 @@ return {
 				"onFoeAircraftDying"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				skill_id = 15532,
 				inside = 1,
-				skill_id = 15532
+				target = "TargetSelf"
 			}
 		}
 	}

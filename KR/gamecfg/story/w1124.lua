@@ -1,12 +1,12 @@
 return {
-	id = "W1124",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1124",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "세이렌 장기말의 침입은 일단락 된 듯하다......",
 			typewriter = {
 				speed = 0.05,

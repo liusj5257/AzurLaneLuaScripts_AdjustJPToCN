@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"또 다른 지도자?\n\n<size=45>5. 카리스마 강의</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204030,
-			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그렇다구요, 조지가 항상 제1선에 나서는 건, 결국 폐하가 나설 자리를 뺏어버리는 거라구요.",
 			bgm = "story-1",
+			actor = 204030,
+			nameColor = "#a9f548",
+			say = "그렇다구요, 조지가 항상 제1선에 나서는 건, 결국 폐하가 나설 자리를 뺏어버리는 거라구요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			say = "자기 주장이 강한 건 좋은 거다. 응.",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "자기 주장이 강한 건 좋은 거다. 응.",
+			actor = 205050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "그 말은 즉…………",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			say = "어째선지 방 안의 분위기가 한순간에 얼어붙었다(?).",
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "(그, 그렇게까지 심각한 얘기인가……)",
 			typewriter = {
 				speed = 0.05,
@@ -246,13 +246,13 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "후후후, 물론 농담이에요. 다만, 지휘관님의 의문을 해소하려면……",
 			bgm = "story-1",
+			actor = 204030,
+			nameColor = "#a9f548",
+			say = "후후후, 물론 농담이에요. 다만, 지휘관님의 의문을 해소하려면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,9 +263,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "후드가 자리에서 일어나, 킹 조지 5세…… 그리고 이쪽을 향해서도 한 번씩 우아하게 고개를 숙였다.",
 			typewriter = {
 				speed = 0.05,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "그리고 지금까지와는 다른 시각에서, 지휘관과 비서함이 아닌 좀 더 가까운 관계 속에서 관찰하는 것이 좋겠어요.",
 			typewriter = {
 				speed = 0.05,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "킹 조지 5세의 '약점', 그것은……",
 			typewriter = {
 				speed = 0.05,
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "지휘관님, 조지를 위해 요리를 하나 만들어주시지 않겠어요?",
 			typewriter = {
 				speed = 0.05,

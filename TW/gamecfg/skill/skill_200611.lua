@@ -1,8 +1,8 @@
 return {
-	id = 200611,
-	name = "2023云仙活动 EX 多次击破次数盾后直接胜利",
 	cd = 0,
+	name = "2023云仙活动 EX 多次击破次数盾后直接胜利",
 	painting = 0,
+	id = 200611,
 	effect_list = {
 		{
 			type = "BattleSkillEditCustomWarning",

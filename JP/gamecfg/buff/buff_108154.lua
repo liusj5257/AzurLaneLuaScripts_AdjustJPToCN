@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 10,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 108154,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 108154,
+	color = "blue",
 	icon = 108150,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "gulitejineng_dunpai",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

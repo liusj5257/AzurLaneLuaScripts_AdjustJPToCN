@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 404020,
 			side = 2,
-			nameColor = "#D6341D",
 			dir = 1,
 			blackBg = true,
+			actor = 404020,
+			nameColor = "#D6341D",
 			stopBGM = true,
 			say = "「ロイヤルの雑魚どもなんてこの私一人で十分よ！」と、出撃前に意気揚々と話したのはヒッパー、あなたですよね。",
 			typewriter = {
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 403010,
+			say = "むぐっ！……あんなに素直に逃げるなんて誰も予測できないっての！……でも撒かれたのも事実だし…説教でも処罰でも勝手にすればいいじゃない！",
 			side = 1,
-			nameColor = "#D6341D",
 			dir = 1,
 			blackBg = true,
-			say = "むぐっ！……あんなに素直に逃げるなんて誰も予測できないっての！……でも撒かれたのも事実だし…説教でも処罰でも勝手にすればいいじゃない！",
+			actor = 403010,
+			nameColor = "#D6341D",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
-			nameColor = "#D6341D",
 			dir = 1,
 			blackBg = true,
+			actor = 403010,
+			nameColor = "#D6341D",
 			say = "勝手に殺すな！って、人の話を聞きなさいっての！！",
 			shake = {
 				speed = 8,

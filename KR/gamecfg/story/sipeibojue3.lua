@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>“너와 함께 출항하고, 너와 함께 전투할거야.”</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"항만\n\n<size=45>3 전우</size>",
@@ -39,12 +39,12 @@ return {
 			}
 		},
 		{
-			say = "항구 · 연습 해역",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "항구 · 연습 해역",
 			effects = {
 				{
 					active = false,
@@ -52,8 +52,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "샤른 언니와 함께 훈련하는 것은 매주의 필수 과목이 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "훈련 뿐만이 아니라, 실전도——",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "함께 싸우는 동료라면 지휘관이 말했던 \"소망\" 의 진짜 의미가 뭔지 알지도 몰라.",
 			typewriter = {
 				speed = 0.05,
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "맞다, 이 기회를 빌어서 그녀들의 생각을 물어보면 되겠다. 참고로 삼는거야——",
 			typewriter = {
 				speed = 0.05,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#92fc63",
 			say = "내 “소망”?",
 			typewriter = {
 				speed = 0.05,
@@ -267,12 +267,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#92fc63",
 			say = "당연히 더 강해져서 더 많은 적을 처치하는 것이지!",
 			typewriter = {
 				speed = 0.05,
@@ -284,12 +284,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 404010,
+			nameColor = "#92fc63",
 			say = "어떤 적을 만나던지, 난 후퇴하지 않을거야!",
 			typewriter = {
 				speed = 0.05,
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
+			actor = 404020,
+			nameColor = "#92fc63",
 			say = "제 \"소망\"이라.... 괜찮은 질문이네요.",
 			typewriter = {
 				speed = 0.05,
@@ -333,12 +333,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
+			actor = 404020,
+			nameColor = "#92fc63",
 			say = "지금이라면 지휘관님을 더욱 잘 보좌하는 것, 그리고 중요한 순간에 폭주하는 언니를 잘 저지하는 것입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -413,9 +413,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "그래, 그냥 여기서. 모두와 함께. 더 이상 그 때처럼 혼자 외롭지 않게, 나는......",
 			typewriter = {
 				speed = 0.05,
@@ -427,9 +427,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,

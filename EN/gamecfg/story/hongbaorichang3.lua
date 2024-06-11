@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Spring Festival Party\n\n<size=45>Full Swing</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_127",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_127",
 			bgm = "story-china",
 			actor = 399013,
 			nameColor = "#a9f548",
 			say = "Everyone around the port must be busy making their preparations for the Spring Festival...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "ACHOO!",
 			dialogShake = {
@@ -94,8 +94,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 399013,
 			dir = 1,
+			actor = 399013,
 			nameColor = "#a9f548",
 			say = "Eep!",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,8 +121,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "Oh, Ibuki! I'm sorry if I spooked you there.",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "Me? I'm helping everyone decorate with these lanterns! Don't ask what they're for though, 'cause I have no idea!",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "Didn't they tell you what they're for when they gave you that costume? Or did you forget already?",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "Nuh-uh, I haven't forgotten! Give me a second to search my brain for it! Think, thonk, think, thonk...",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "You'll have to forgive her, she's got the memory of a goldfish. She claims to be a lucky star, but she's only lucky that she hasn't forgotten something really important.",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "Because people who spot me will get good luck!",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "All right, just don't be a shooting star and fall off that tree. Anyway, take the next lantern and hang it over there.",
 			typewriter = {
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 101431,
 			side = 2,
 			bgName = "star_level_bg_127",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101431,
+			nameColor = "#a9f548",
 			say = "You wanna help?! Thanks, we could use it!",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,14 +321,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			hideOther = true,
 			say = "Meanwhile, in the shopping district...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Hmm? Oh my...! That's the gold ball, nya! You won the 1st prize, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -443,11 +443,11 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502020,
+			nameColor = "#a9f548",
 			say = "Huh? What's the 1st prize?",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +459,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,14 +485,14 @@ return {
 			}
 		},
 		{
-			actor = 502030,
+			hideOther = true,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
 			actorName = "Ping Hai & Ning Hai",
+			actor = 502030,
+			nameColor = "#a9f548",
 			say = "WHAAAAAT?!",
 			dialogShake = {
 				speed = 0.09,

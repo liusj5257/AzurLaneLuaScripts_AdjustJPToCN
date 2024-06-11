@@ -4,18 +4,18 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "story-richang-2",
+			side = 2,
 			say = "Great Dungeon - Top Floor",
+			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "Javelin",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "Holy cow! We've found the Four Beasts' Dungeon!",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Javelin",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "All we have to do is make it to the exit and we'll have a straight path to the Demon King's lair!",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:408}",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "While that sounds great, this place is a maze... Finding the exit will take forever.",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Laffey",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "Ugh... I'm already tired as heck...",
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:408}",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "Don't get lazy so soon! We haven't even fought one battle yet!",
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ayanami",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "I've figured out the dungeon's layout.",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ayanami",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "This wall just ahead has a weak spot in its structure. Yes, I can do this.",
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Javelin",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "Wait, do what? What are you going to do?",
@@ -152,8 +152,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 331055,
 			dir = 1,
+			actor = 331055,
 			say = "I'm going to use my Ultimate Ability: Dynamic Entry Kick!",
 			painting = {
 				alpha = 0.3,
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "AYANAMI performed DYNAMIC KICK! SURPRISINGLY STURDY WALL took 999 DMG! SURPRISINGLY STURDY WALL was destroyed!",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "A path to the dungeon's center appeared!",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 331055,
 			dir = 1,
+			actor = 331055,
 			say = "Heheh... Yes, this is much faster. Now let's go!",
 			painting = {
 				alpha = 0.3,

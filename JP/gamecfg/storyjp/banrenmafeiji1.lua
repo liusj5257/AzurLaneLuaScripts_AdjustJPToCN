@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"盛夏の射手座\n\n<size=45>一　夏はいつもどおり？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・ビーチ",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・ビーチ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ここはこの艦隊専用のビーチですね……",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "水平線に続く碧き海、踏み心地のいい砂浜……本当にいい場所です。",
 			typewriter = {
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "あ、セントーさん！こっちこっち～",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -125,10 +125,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "ジャベリン先輩おはようございます！今日はよろしくお願いします！",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "……ってそんな堅苦しいのはいいから！指揮官はあとで休むために、今必死で仕事を頑張ってるから、私が案内してあげるっ！",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "はい！",
 			typewriter = {
@@ -218,12 +218,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "ええと、ビーチの東側にいるのが重桜のみんなで、去年の水着は数も可愛さも一番目立ってたんだ…今年はどうかな～？",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ええと、ビーチの東側にいるのが重桜のみんなで、去年の水着は数も可愛さも一番目立ってたんだ…今年はどうかな～？",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -238,13 +238,13 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "あ、そこにいるのは加賀さんと……あれ？赤城さんは？",
 			side = 0,
 			bgName = "star_level_bg_106",
-			hideOther = true,
+			actor = 201212,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
-			say = "あ、そこにいるのは加賀さんと……あれ？赤城さんは？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ええと、あの方ですか？",
 			typewriter = {
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -294,15 +294,15 @@ return {
 			}
 		},
 		{
-			actor = 307011,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307011,
+			nameColor = "#a9f548",
 			say = "今年も指揮官さまを狙う害虫が多いわね……ふふふ、この赤城、思い通りにはさせないわよ…",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,12 +327,12 @@ return {
 			}
 		},
 		{
-			actor = 303121,
+			say = "あら、赤城さん？何を言ってるのかしら、指揮官は癒やしを求めてお姉さんのところに来ただけよ？",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、赤城さん？何を言ってるのかしら、指揮官は癒やしを求めてお姉さんのところに来ただけよ？",
+			actor = 303121,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "じゅ、重桜のみんなは相変わらず仲が良いよね！",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -408,10 +408,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "本当に大丈夫ですか……？",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -445,8 +445,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "なるほど、せ、先輩たちは元気ですね！",
 			typewriter = {
@@ -459,15 +459,15 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "あそこにいるのは……高雄先輩？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -495,8 +495,8 @@ return {
 			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "高雄さんは……あれは修行中だよね。「目隠ししてスイカを叩き割る」らしいよ。スイカを割れたらみんなで食べられるし一石二鳥かも！",
 			subActors = {
@@ -520,8 +520,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "確かに妙案ですね……",
 			typewriter = {
@@ -537,8 +537,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "あ、スイカが割られた。",
 			typewriter = {
@@ -551,12 +551,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "さすが高雄さん！",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "さすが高雄さん！",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -571,11 +571,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "私、ちょっとスイカを持ってくるね。",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -616,9 +616,9 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "それは良かったですね、ジャベリン先輩！",
 			typewriter = {

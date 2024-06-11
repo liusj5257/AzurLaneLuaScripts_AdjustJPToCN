@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"御召艦の宴\n\n<size=45>七 余興は月華の夜にて</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "宴は大盛況に終わった。",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "宴は大盛況に終わった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,17 +130,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ふぅ…これで終わりっと。",
 			bgm = "story-2",
+			actor = 304020,
+			nameColor = "#a9f548",
+			say = "ふぅ…これで終わりっと。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "ふふ♪それでも私、みんながわいわい盛り上がる宴会が好きです。",
 			typewriter = {
 				speed = 0.05,
@@ -315,9 +315,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "澄んだ夜空から銀色の光が港に降り注ぐ。月が綺麗な夜だ。",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +325,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "さっきの宴会での比叡とのダンスを思い出す。",
 			typewriter = {
 				speed = 0.05,
@@ -335,15 +335,15 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "余興のダンス…ですか？宴会はもう終わりましたよ？それに音楽も……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "――大丈夫。宴のあとも楽しめるのが「余興」だから。",
 			typewriter = {
 				speed = 0.05,

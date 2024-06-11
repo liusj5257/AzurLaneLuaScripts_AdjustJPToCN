@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN25",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,10 +38,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "え！？もう中心部の近くまで行ったのですか？途中で新しい仕掛けを見ませんでしたか？",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "そういえばなかったですね…",
 			typewriter = {
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そんなー！こちらはもう3つ目の仕掛けですよ筑摩殿ぉー！",
 			typewriter = {
 				speed = 0.05,
@@ -118,10 +118,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うぅ…島風の得意の速力も、仕掛けの前では中々発揮できないのです…",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -146,8 +146,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "そう落ち込まないで、中心部に入る大手門の前で待っていますわ",
 			typewriter = {
@@ -163,10 +163,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "筑摩殿、なんてお優しい…（泣）",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,10 +191,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それにしても、この仕掛け本当に妙ですね…どうやって破壊するか見当もつきません…",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "邪魔してくる敵を倒しても倒してもまた蘇ってきて、仕掛けに攻撃できるタイミングが見つかりません！",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "これまでの情報を分析すると………",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "島風、ここは一度後退して、最初の仕掛けまで敵を誘導できます？",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "うまくいくかどうかわからないけど、そうするしかなさそうね…",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "ちょっと、その作戦の成功率も五分五分じゃない？",
 			typewriter = {
@@ -439,8 +439,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "私とオーディンがそちらに向かって、敵がうまく誘導されたかどうか確認してくるわ",
 			typewriter = {
@@ -456,8 +456,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "駿河たちはここで待機しててちょうだい。あのちびっこたちを出迎えてくるわね",
 			typewriter = {
@@ -489,8 +489,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

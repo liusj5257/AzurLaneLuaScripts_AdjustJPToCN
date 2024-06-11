@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
-			say = "울스프 마을… 기원을 의미하는 단어인 'Ursprung'에서 이름을 따왔다.",
 			bgm = "story-mmorpg",
+			say = "울스프 마을… 기원을 의미하는 단어인 'Ursprung'에서 이름을 따왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "이곳은 끝없는 수해를 빠져나온 모험자가 가장 먼저 맞닥뜨리는 마을이다.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "그야말로 첫 마을에 딱 맞는 이름이 아닐 수 없다.",
 			typewriter = {
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "울프스 마을 촌장",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "요즘은 마왕군의 공격이 날로 심해져서, 전선이 꽤 긴박해서 말이지…",
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "울프스 마을 촌장",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "물자뿐만 아니라 마을의 젊은이들도 거의 징병 당해서… 남아있는 건 나 같은 노인뿐이라네.",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――………………",
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "울프스 마을 촌장",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭘 멍하니 서있는 겐가? 퀘스트 전달은 이미 끝났을 터인데?",
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "서브 퀘스트는…?",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "설마 서브 퀘스트까지는 미처 준비하지 못한 건…?",
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "울프스 마을 촌장",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(작은 목소리로) 어휴, 좀… 이 마을에는 추가 임무나 숨겨진 아이템 같은 건 없으니까 어서 이동해!",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐라고?! 벌써 쫓아내는 거야?",
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이래 봬도 우리는 용사 파티라고! 조금은 공경하는 태도를 보이는 게 어때!",
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,11 +381,11 @@ return {
 			}
 		},
 		{
-			actor = 101491,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "울프스 마을 촌장",
 			dir = 1,
+			actor = 101491,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "자, 자네들 같은 용사 파티가 요즘은 너무 많아서 하루에 수십 팀은 이 마을을 찾아온다네.",
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흥! 이 전설적인 '용사의 검' 안 보여? 이건 푸슌이 왕국에서 유일무이한 최강의 용사라는 증명이라고!",
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "뭐, 뭐라고?! 겨우 NPC 주제에 감히! 혼내줄 테다!",
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…어? 공격할 수 없잖아!",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으으으… 브리스톨 이 녀석…",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_155",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "알았어, 갈게! 가면 되잖아!",
@@ -548,10 +548,10 @@ return {
 		{
 			portrait = 101491,
 			side = 2,
-			bgName = "star_level_bg_155",
 			factiontag = "울프스 마을 촌장",
 			dir = 1,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_155",
 			actorName = "브리스톨",
 			say = "행운을 빌겠네, 용감한 모험자들이여.",
 			painting = {
@@ -563,17 +563,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

@@ -17,7 +17,7 @@ slot0.START_TAKE_THEME_PHOTO = "BackYardDecorationMediator:START_TAKE_THEME_PHOT
 slot0.END_TAKE_THEME_PHOTO = "BackYardDecorationMediator:END_TAKE_THEME_PHOTO"
 slot0.ON_SET_UP = "BackYardDecorationMediator:ON_SET_UP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SELECTED_FURNITRUE, function (slot0, slot1)
 		_courtyard:GetController():SelectFurnitureByConfigId(slot1)
 	end)
@@ -127,7 +127,7 @@ function slot0.register(slot0)
 			onNextTick(slot0)
 		end)
 
-		function slot5(slot0)
+		slot5 = function(slot0)
 			_courtyard:GetController():AddFurniture({
 				id = slot0.id,
 				configId = slot0.configId,
@@ -175,7 +175,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.AnyFurnitureInFloor(slot0, slot1, slot2)
+slot0.AnyFurnitureInFloor = function(slot0, slot1, slot2)
 	if not slot1:GetThemeList()[slot2] then
 		return false
 	end
@@ -183,7 +183,7 @@ function slot0.AnyFurnitureInFloor(slot0, slot1, slot2)
 	return table.getCount(slot4:GetAllFurniture()) > 0
 end
 
-function slot0.GetCanPutFurnitureForTheme(slot0, slot1, slot2)
+slot0.GetCanPutFurnitureForTheme = function(slot0, slot1, slot2)
 	slot6 = {}
 	slot7 = false
 
@@ -205,7 +205,7 @@ function slot0.GetCanPutFurnitureForTheme(slot0, slot1, slot2)
 	return slot6, slot7
 end
 
-function slot0.FilterOwnCount(slot0, slot1)
+slot0.FilterOwnCount = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 	slot4 = {}
@@ -232,7 +232,7 @@ function slot0.FilterOwnCount(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetAllFloorFurnitures(slot0, slot1)
+slot0.GetAllFloorFurnitures = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot1:GetThemeList()) do
@@ -244,7 +244,7 @@ function slot0.GetAllFloorFurnitures(slot0, slot1)
 	return slot2
 end
 
-function slot0.GenUniqueID(slot0, slot1, slot2)
+slot0.GenUniqueID = function(slot0, slot1, slot2)
 	slot3 = slot0:GetAllFloorFurnitures(slot1)
 
 	for slot8 = 0, slot1:GetOwnFurnitureCount(slot2) - 1 do
@@ -256,7 +256,7 @@ function slot0.GenUniqueID(slot0, slot1, slot2)
 	return BackyardThemeFurniture.GetUniqueId(slot2, 0)
 end
 
-function slot0.SetUp(slot0)
+slot0.SetUp = function(slot0)
 	seriesAsync({
 		function (slot0)
 			slot1 = getProxy(DormProxy)
@@ -280,7 +280,7 @@ function slot0.SetUp(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		CourtYardEvent._SYN_FURNITURE,
 		CourtYardEvent._EXIT_MODE,
@@ -297,7 +297,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == CourtYardEvent._SYN_FURNITURE then

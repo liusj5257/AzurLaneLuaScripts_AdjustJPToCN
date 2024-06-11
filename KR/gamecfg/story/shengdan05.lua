@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN05",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN05",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "모항 - 이글 유니온 숙소",
 			typewriter = {
 				speed = 0.05,
@@ -108,14 +108,14 @@ return {
 			}
 		},
 		{
-			actor = 101070,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101070,
+			nameColor = "#92fc63",
 			say = "히익! 엔터프라이즈?! 아이스크림 떨어뜨릴 뻔했네……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,14 +174,14 @@ return {
 			}
 		},
 		{
-			actor = 101080,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101080,
+			nameColor = "#92fc63",
 			say = "에, 엔터프라이즈씨?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -240,14 +240,14 @@ return {
 			}
 		},
 		{
-			actor = 101060,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 101060,
+			nameColor = "#92fc63",
 			say = "엔터…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -336,14 +336,14 @@ return {
 			}
 		},
 		{
-			actor = 101240,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 101240,
+			nameColor = "#92fc63",
 			say = "으엑!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,14 +402,14 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "어, 언니…?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -532,14 +532,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#92fc63",
 			say = "그럼 이건 '루돌프 마스터' 로 할까나. 루돌프는 없지만 훌륭한 산타니까 말야!",
 			flashout = {
-				black = false,
 				dur = 0.35,
+				black = false,
 				alpha = {
 					0,
 					1

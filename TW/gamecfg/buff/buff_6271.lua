@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "机动回避",
 	time = 5,
+	name = "机动回避",
+	init_effect = "",
 	picture = "",
 	desc = "准备速度略微提高",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				rant = 3000,
-				skill_id = 6270,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 6270
 			}
 		}
 	}

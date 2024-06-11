@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN07",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN07",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "모항 - 집무실",
 			typewriter = {
 				speed = 0.05,
@@ -31,10 +31,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "……",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,12 +45,12 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 0,
 			say = "……？",
-			nameColor = "#92fc63",
 			dir = 1,
-			withoutPainting = true,
+			actor = 0,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -97,10 +97,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "……",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,10 +158,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "！！",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,10 +189,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "(끄덕)",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "엘드릿지와 느긋하게, 평온한 시간을 보냈다. 마음이 치유되는 듯한 기분이 들었다…",
 			typewriter = {
 				speed = 0.05,
@@ -231,14 +231,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#92fc63",
 			say = "크리스마스 기자 그리들리, 임무 완료 보고서를 제출하러 왔습니다! 지휘관, 여기에!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -265,10 +265,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "……！",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,14 +294,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#92fc63",
 			say = "후우… 좋은 사진이 찍혔다! 이름은 '성야의 포옹' 으로 짓자! 음음, 이건 퓰리쳐 상 감인데!",
 			flashout = {
-				black = false,
 				dur = 0.35,
+				black = false,
 				alpha = {
 					0,
 					1

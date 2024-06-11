@@ -62,12 +62,12 @@ return {
 	desc_get = "受到伤害时有15%的概率发动，在角色侧面生成2面护盾，护盾可阻挡6发子弹，持续5秒(满级15秒)",
 	name = "侧面装甲",
 	init_effect = "",
+	id = 4061,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "受到伤害时有15%的概率发动，在角色侧面生成2面护盾，护盾可阻挡6发子弹，持续$1秒",
 	stack = 1,
-	id = 4061,
+	color = "blue",
 	icon = 4060,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 1500,
-				target = "TargetSelf",
 				skill_id = 4061,
+				target = "TargetSelf",
 				time = 15
 			}
 		}

@@ -1,38 +1,38 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO29-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO29-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "跋扈する闇靄の獣に向き直し、己の両手の感触を確かめる。",
 			bgm = "theme-unzen",
+			say = "跋扈する闇靄の獣に向き直し、己の両手の感触を確かめる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "演算され「夢」の中で何度も敗れた自分の光景が思い浮かぶ。",
-			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "刀はまだ折れていない。今度は自分だけでなく、仲間たちもいる。",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "刀はまだ折れていない。今度は自分だけでなく、仲間たちもいる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,17 +42,17 @@ return {
 			bgName = "bg_yunxian_cg3_hx",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "力を表す光が雲仙の回りに集まり、「祓除」の概念のもとで何本もの刀の形となった。",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "迫ってくる闇靄を神気で蹴散らし、艦船たちを守る鉄壁の守り。",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "決意の言葉を心の中で何回も繰り返し、闇靄の猛攻を流し、避け、「核」に近づいていく。",
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "一時的とは言え、封印の力が回復しつつある。",
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "後ろに気を配ると、四万十と伊吹がまだ自分に着いてきていることが分かる。",
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "視界の外にいる闇靄を駆除してくれているのだろう。",
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "四万十",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……くっ！",
 			painting = {
 				alpha = 0.3,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "四万十",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雲仙、すまない。私たちはここまでみたいだ…！",
 			painting = {
 				alpha = 0.3,
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊吹",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…力不足ですみません…！",
 			painting = {
 				alpha = 0.3,
@@ -219,12 +219,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊吹",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここから先は雲仙さんに託します！",
 			painting = {
 				alpha = 0.3,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "すでに式紙が燃えているものの、四万十は依然として周りの闇靄からの攻撃を防いでくれている。",
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊吹",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もっと修行していれば…でも……！",
 			painting = {
 				alpha = 0.3,
@@ -264,8 +264,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
 			say = "欠けた刀に目を配りつつも、伊吹はそれでも敵の砲撃を捌いてくれている。",
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "ワタツミの心",
 			dir = 1,

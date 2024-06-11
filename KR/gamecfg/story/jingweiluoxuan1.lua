@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			stopbgm = true,
+			hidePaintObj = true,
 			say = "중심 지역의 공략을 성공한 것을 계기로 대형 작전도 일단락이 났다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
@@ -110,8 +110,8 @@ return {
 			hidePaintObj = true,
 			say = "지휘관, 함대가 PH항에 접근 중이야. 주변 상황은 이상 없어.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,10 +139,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "수면 아래도 문제없어~",
 			typewriter = {
 				speed = 0.05,
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "여기까지 오느라 완전 피곤해! 입항하면 잔뜩 먹고 며칠 푹 자야지.",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "돌아오는 길이 꽤 멀었어, 지휘관.",
 			typewriter = {
 				speed = 0.05,
@@ -217,10 +217,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그렇긴 뭐가 그래! 우리는 지금 전투 이후의 개선 행진을 하는 중이라고, 이렇게 급할 필요가 없단 말이야!",
 			typewriter = {
 				speed = 0.05,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "예를 들면 한동안 푹 쉬거나, 여행을 한다거나 해도 되는데...",
 			typewriter = {
 				speed = 0.05,
@@ -252,10 +252,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그런데 웬 워커 홀릭 때문에... 쉬지도 못하고 곧바로 PH항에 돌아오게 되다니! 정말 믿어지지가 않아...",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -467,13 +467,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그러니까—— 이렇게 멋진 사람이 자기가 한 말에 후회하지는 않겠지~?",
 			typewriter = {
 				speed = 0.05,
@@ -520,13 +520,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "응, 알고 있어!",
 			typewriter = {
 				speed = 0.05,
@@ -576,13 +576,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "진지하고 책임감 있는 멋진 지휘관을 우리 자매들은 모두 존중하고 있거든!",
 			typewriter = {
 				speed = 0.05,
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -712,13 +712,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "응! 맞아. 그러니까 사양하지 말고 자매들을 전부 다 불러서 같이 먹자!",
 			typewriter = {
 				speed = 0.05,
@@ -830,16 +830,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#a9f548",
 			actorName = "통신기",
+			hidePaintObj = true,
 			say = "코드 인식 완료, 전방 해역이 개방되었습니다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -864,12 +864,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "군사 요충지입니다. 지정 항로로 전진하십시오. 항로 이탈 및 체류는 금지됩니다.",
 			typewriter = {
 				speed = 0.05,
@@ -881,12 +881,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "귀환을 환영합니다, 지휘관님.",
 			typewriter = {
 				speed = 0.05,
@@ -898,8 +898,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「나선은 자연의 선택에서 탄생한 안정적인 구조.」</size>",
@@ -932,12 +932,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

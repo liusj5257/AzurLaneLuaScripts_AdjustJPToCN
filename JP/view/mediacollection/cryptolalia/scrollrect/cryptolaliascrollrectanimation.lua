@@ -1,11 +1,11 @@
 slot0 = class("CryptolaliaScrollRectAnimation")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.isInit = false
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0._tf
 	slot0.animation = slot1:GetComponent(typeof(Animation))
 	slot1 = slot0._tf
@@ -63,7 +63,7 @@ function slot0.Init(slot0)
 	slot0.isInit = true
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0.playing and slot0.onUpdate then
 		slot0.onUpdate(slot0:Evaluate())
 	elseif not slot0.playing and slot0.onUpdate then
@@ -71,7 +71,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.Play(slot0, slot1)
+slot0.Play = function(slot0, slot1)
 	if not slot0.isInit then
 		slot0:Init()
 	end
@@ -83,42 +83,42 @@ function slot0.Play(slot0, slot1)
 	return uv0
 end
 
-function slot0.OnUpdate(slot0, slot1)
+slot0.OnUpdate = function(slot0, slot1)
 	slot0.onUpdate = slot1
 
 	return uv0
 end
 
-function slot0.OnLastUpdate(slot0, slot1)
+slot0.OnLastUpdate = function(slot0, slot1)
 	slot0.onLastUpdate = slot1
 
 	return uv0
 end
 
-function slot0.OnTrigger(slot0, slot1)
+slot0.OnTrigger = function(slot0, slot1)
 	slot0.onTrigger = slot1
 
 	return uv0
 end
 
-function slot0.OnComplete(slot0, slot1)
+slot0.OnComplete = function(slot0, slot1)
 	slot0.callback = slot1
 
 	return uv0
 end
 
-function slot0.Evaluate(slot0)
+slot0.Evaluate = function(slot0)
 	return slot0.subAnim.localPosition
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	slot0.playing = false
 
 	slot0.animation:Stop()
 	slot0.subAnimation:Stop()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.dftAniEvent:SetTriggerEvent(nil)
 	slot0.dftAniEvent:SetEndEvent(nil)
 	slot0.subDftAniEvent:SetStartEvent(nil)

@@ -1,12 +1,12 @@
 return {
-	id = "W1004",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1004",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "投入特定材料使設施運作，可以探測到海域中更加隱蔽的調查點……",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("SettingsProxy", pm.Proxy)
 
-function slot0.onRegister(slot0)
+slot0.onRegister = function(slot0)
 	slot0._isBgmEnble = PlayerPrefs.GetInt("ShipSkinBGM", 1) > 0
 	slot0._ShowBg = PlayerPrefs.GetInt("disableBG", 1) > 0
 	slot0._ShowLive2d = PlayerPrefs.GetInt("disableLive2d", 1) > 0
@@ -29,7 +29,7 @@ function slot0.onRegister(slot0)
 	slot0.worldFlag = {}
 end
 
-function slot0.SetWorldBossFlag(slot0, slot1, slot2)
+slot0.SetWorldBossFlag = function(slot0, slot1, slot2)
 	if slot0.worldBossFlag[slot1] ~= slot2 then
 		slot0.worldBossFlag[slot1] = slot2
 
@@ -38,7 +38,7 @@ function slot0.SetWorldBossFlag(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetWorldBossFlag(slot0, slot1)
+slot0.GetWorldBossFlag = function(slot0, slot1)
 	if not slot0.worldBossFlag[slot1] then
 		slot0.worldBossFlag[slot1] = PlayerPrefs.GetInt("worldBossFlag" .. slot1, 1) > 0
 	end
@@ -46,7 +46,7 @@ function slot0.GetWorldBossFlag(slot0, slot1)
 	return slot0.worldBossFlag[slot1]
 end
 
-function slot0.SetWorldFlag(slot0, slot1, slot2)
+slot0.SetWorldFlag = function(slot0, slot1, slot2)
 	if slot0.worldFlag[slot1] ~= slot2 then
 		slot0.worldFlag[slot1] = slot2
 
@@ -55,7 +55,7 @@ function slot0.SetWorldFlag(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetWorldFlag(slot0, slot1)
+slot0.GetWorldFlag = function(slot0, slot1)
 	if not slot0.worldFlag[slot1] then
 		slot0.worldFlag[slot1] = PlayerPrefs.GetInt("world_flag_" .. slot1, 0) > 0
 	end
@@ -63,7 +63,7 @@ function slot0.GetWorldFlag(slot0, slot1)
 	return slot0.worldFlag[slot1]
 end
 
-function slot0.GetDockYardLockBtnFlag(slot0)
+slot0.GetDockYardLockBtnFlag = function(slot0)
 	if not slot0.dockYardLockFlag then
 		slot0.dockYardLockFlag = PlayerPrefs.GetInt("DockYardLockFlag" .. getProxy(PlayerProxy):getRawData().id, 0) > 0
 	end
@@ -71,7 +71,7 @@ function slot0.GetDockYardLockBtnFlag(slot0)
 	return slot0.dockYardLockFlag
 end
 
-function slot0.SetDockYardLockBtnFlag(slot0, slot1)
+slot0.SetDockYardLockBtnFlag = function(slot0, slot1)
 	if slot0.dockYardLockFlag ~= slot1 then
 		PlayerPrefs.SetInt("DockYardLockFlag" .. getProxy(PlayerProxy):getRawData().id, slot1 and 1 or 0)
 		PlayerPrefs.Save()
@@ -80,7 +80,7 @@ function slot0.SetDockYardLockBtnFlag(slot0, slot1)
 	end
 end
 
-function slot0.GetDockYardLevelBtnFlag(slot0)
+slot0.GetDockYardLevelBtnFlag = function(slot0)
 	if not slot0.dockYardLevelFlag then
 		slot0.dockYardLevelFlag = PlayerPrefs.GetInt("DockYardLevelFlag" .. getProxy(PlayerProxy):getRawData().id, 0) > 0
 	end
@@ -88,7 +88,7 @@ function slot0.GetDockYardLevelBtnFlag(slot0)
 	return slot0.dockYardLevelFlag
 end
 
-function slot0.SetDockYardLevelBtnFlag(slot0, slot1)
+slot0.SetDockYardLevelBtnFlag = function(slot0, slot1)
 	if slot0.dockYardLevelFlag ~= slot1 then
 		PlayerPrefs.SetInt("DockYardLevelFlag" .. getProxy(PlayerProxy):getRawData().id, slot1 and 1 or 0)
 		PlayerPrefs.Save()
@@ -97,11 +97,11 @@ function slot0.SetDockYardLevelBtnFlag(slot0, slot1)
 	end
 end
 
-function slot0.IsShowCollectionHelp(slot0)
+slot0.IsShowCollectionHelp = function(slot0)
 	return slot0._isShowCollectionHelp
 end
 
-function slot0.SetCollectionHelpFlag(slot0, slot1)
+slot0.SetCollectionHelpFlag = function(slot0, slot1)
 	if slot0._isShowCollectionHelp ~= slot1 then
 		slot0._isShowCollectionHelp = slot1
 
@@ -110,11 +110,11 @@ function slot0.SetCollectionHelpFlag(slot0, slot1)
 	end
 end
 
-function slot0.IsBGMEnable(slot0)
+slot0.IsBGMEnable = function(slot0)
 	return slot0._isBgmEnble
 end
 
-function slot0.SetBgmFlag(slot0, slot1)
+slot0.SetBgmFlag = function(slot0, slot1)
 	if slot0._isBgmEnble ~= slot1 then
 		slot0._isBgmEnble = slot1
 
@@ -123,24 +123,33 @@ function slot0.SetBgmFlag(slot0, slot1)
 	end
 end
 
-function slot0.getSkinPosSetting(slot0, slot1)
-	if PlayerPrefs.HasKey(tostring(slot1:GetRecordPosKey()) .. "_scale") then
-		return PlayerPrefs.GetFloat(tostring(slot2) .. "_x", 0), PlayerPrefs.GetFloat(tostring(slot2) .. "_y", 0), PlayerPrefs.GetFloat(tostring(slot2) .. "_scale", 1)
+slot0.getSkinPosSetting = function(slot0, slot1)
+	if PlayerPrefs.HasKey(slot0:GetCurrMainUIStyleKeyForSkinShop() .. tostring(slot1:GetRecordPosKey()) .. "_scale") then
+		return PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_x", 0), PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_y", 0), PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_scale", 1)
 	else
 		return nil
 	end
 end
 
-function slot0.setSkinPosSetting(slot0, slot1, slot2, slot3, slot4)
+slot0.setSkinPosSetting = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:GetRecordPosKey()
+	slot6 = slot0:GetCurrMainUIStyleKeyForSkinShop()
 
-	PlayerPrefs.SetFloat(tostring(slot5) .. "_x", slot2)
-	PlayerPrefs.SetFloat(tostring(slot5) .. "_y", slot3)
-	PlayerPrefs.SetFloat(tostring(slot5) .. "_scale", slot4)
+	PlayerPrefs.SetFloat(slot6 .. tostring(slot5) .. "_x", slot2)
+	PlayerPrefs.SetFloat(slot6 .. tostring(slot5) .. "_y", slot3)
+	PlayerPrefs.SetFloat(slot6 .. tostring(slot5) .. "_scale", slot4)
 	PlayerPrefs.Save()
 end
 
-function slot0.resetSkinPosSetting(slot0, slot1)
+slot0.GetCurrMainUIStyleKeyForSkinShop = function(slot0)
+	if slot0:GetMainSceneThemeStyle() == NewMainScene.THEME_CLASSIC then
+		return ""
+	else
+		return slot1
+	end
+end
+
+slot0.resetSkinPosSetting = function(slot0, slot1)
 	slot2 = slot1:GetRecordPosKey()
 
 	PlayerPrefs.DeleteKey(tostring(slot2) .. "_x")
@@ -149,16 +158,16 @@ function slot0.resetSkinPosSetting(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.getCharacterSetting(slot0, slot1, slot2)
+slot0.getCharacterSetting = function(slot0, slot1, slot2)
 	return PlayerPrefs.GetInt(tostring(slot1) .. "_" .. slot2, 1) > 0
 end
 
-function slot0.setCharacterSetting(slot0, slot1, slot2, slot3)
+slot0.setCharacterSetting = function(slot0, slot1, slot2, slot3)
 	PlayerPrefs.SetInt(tostring(slot1) .. "_" .. slot2, slot3 and 1 or 0)
 	PlayerPrefs.Save()
 end
 
-function slot0.getCurrentSecretaryIndex(slot0)
+slot0.getCurrentSecretaryIndex = function(slot0)
 	if PlayerVitaeShipsPage.GetAllUnlockSlotCnt() < PlayerPrefs.GetInt("currentSecretaryIndex", 1) then
 		slot0:setCurrentSecretaryIndex(1)
 
@@ -168,8 +177,8 @@ function slot0.getCurrentSecretaryIndex(slot0)
 	end
 end
 
-function slot0.rotateCurrentSecretaryIndex(slot0)
-	function slot1()
+slot0.rotateCurrentSecretaryIndex = function(slot0)
+	slot1 = function()
 		return getProxy(PlayerProxy):getRawData():ExistEducateChar() and getProxy(SettingsProxy):GetFlagShipDisplayMode() ~= FlAG_SHIP_DISPLAY_ONLY_SHIP
 	end
 
@@ -178,14 +187,15 @@ function slot0.rotateCurrentSecretaryIndex(slot0)
 	end
 
 	slot0:setCurrentSecretaryIndex(slot2)
+	pg.m02:sendNotification(GAME.ROTATE_PAINTING_INDEX)
 end
 
-function slot0.setCurrentSecretaryIndex(slot0, slot1)
+slot0.setCurrentSecretaryIndex = function(slot0, slot1)
 	PlayerPrefs.SetInt("currentSecretaryIndex", slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.SetFlagShip(slot0, slot1)
+slot0.SetFlagShip = function(slot0, slot1)
 	if slot0._setFlagShip ~= slot1 then
 		slot0._setFlagShip = slot1
 
@@ -194,11 +204,11 @@ function slot0.SetFlagShip(slot0, slot1)
 	end
 end
 
-function slot0.GetSetFlagShip(slot0)
+slot0.GetSetFlagShip = function(slot0)
 	return slot0._setFlagShip
 end
 
-function slot0.SetFlagShipForSkinAtlas(slot0, slot1)
+slot0.SetFlagShipForSkinAtlas = function(slot0, slot1)
 	if slot0._setFlagShipForSkinAtlas ~= slot1 then
 		slot0._setFlagShipForSkinAtlas = slot1
 
@@ -207,11 +217,11 @@ function slot0.SetFlagShipForSkinAtlas(slot0, slot1)
 	end
 end
 
-function slot0.GetSetFlagShipForSkinAtlas(slot0)
+slot0.GetSetFlagShipForSkinAtlas = function(slot0)
 	return slot0._setFlagShipForSkinAtlas
 end
 
-function slot0.CheckNeedUserAgreement(slot0)
+slot0.CheckNeedUserAgreement = function(slot0)
 	if PLATFORM_CODE == PLATFORM_KR then
 		return false
 	elseif PLATFORM_CODE == PLATFORM_CH then
@@ -221,7 +231,7 @@ function slot0.CheckNeedUserAgreement(slot0)
 	end
 end
 
-function slot0.GetUserAgreementFlag(slot0)
+slot0.GetUserAgreementFlag = function(slot0)
 	slot1 = USER_AGREEMENT_FLAG_DEFAULT
 
 	if PLATFORM_CODE == PLATFORM_CHT then
@@ -231,7 +241,7 @@ function slot0.GetUserAgreementFlag(slot0)
 	return slot1
 end
 
-function slot0.SetUserAgreement(slot0)
+slot0.SetUserAgreement = function(slot0)
 	if slot0:CheckNeedUserAgreement() then
 		slot1 = slot0:GetUserAgreementFlag()
 
@@ -242,15 +252,15 @@ function slot0.SetUserAgreement(slot0)
 	end
 end
 
-function slot0.IsLive2dEnable(slot0)
+slot0.IsLive2dEnable = function(slot0)
 	return slot0._ShowLive2d
 end
 
-function slot0.IsBGEnable(slot0)
+slot0.IsBGEnable = function(slot0)
 	return slot0._ShowBg
 end
 
-function slot0.SetSelectedShipId(slot0, slot1)
+slot0.SetSelectedShipId = function(slot0, slot1)
 	if slot0._selectedShipId ~= slot1 then
 		slot0._selectedShipId = slot1
 
@@ -259,35 +269,35 @@ function slot0.SetSelectedShipId(slot0, slot1)
 	end
 end
 
-function slot0.GetSelectedShipId(slot0)
+slot0.GetSelectedShipId = function(slot0)
 	return slot0._selectedShipId
 end
 
-function slot0.setEquipSceneIndex(slot0, slot1)
+slot0.setEquipSceneIndex = function(slot0, slot1)
 	slot0._equipSceneIndex = slot1
 end
 
-function slot0.getEquipSceneIndex(slot0)
+slot0.getEquipSceneIndex = function(slot0)
 	return slot0._equipSceneIndex
 end
 
-function slot0.resetEquipSceneIndex(slot0)
+slot0.resetEquipSceneIndex = function(slot0)
 	slot0._equipSceneIndex = StoreHouseConst.WARP_TO_MATERIAL
 end
 
-function slot0.setActivityLayerIndex(slot0, slot1)
+slot0.setActivityLayerIndex = function(slot0, slot1)
 	slot0._activityLayerIndex = slot1
 end
 
-function slot0.getActivityLayerIndex(slot0)
+slot0.getActivityLayerIndex = function(slot0)
 	return slot0._activityLayerIndex
 end
 
-function slot0.resetActivityLayerIndex(slot0)
+slot0.resetActivityLayerIndex = function(slot0)
 	slot0._activityLayerIndex = 1
 end
 
-function slot0.setBackyardRemind(slot0)
+slot0.setBackyardRemind = function(slot0)
 	if slot0._backyardFoodRemind ~= tostring(GetZeroTime()) then
 		PlayerPrefs.SetString("backyardRemind", slot1)
 		PlayerPrefs.Save()
@@ -296,7 +306,7 @@ function slot0.setBackyardRemind(slot0)
 	end
 end
 
-function slot0.getBackyardRemind(slot0)
+slot0.getBackyardRemind = function(slot0)
 	if not slot0._backyardFoodRemind or slot0._backyardFoodRemind == "" then
 		return 0
 	else
@@ -304,11 +314,11 @@ function slot0.getBackyardRemind(slot0)
 	end
 end
 
-function slot0.getMaxLevelHelp(slot0)
+slot0.getMaxLevelHelp = function(slot0)
 	return slot0._showMaxLevelHelp
 end
 
-function slot0.setMaxLevelHelp(slot0, slot1)
+slot0.setMaxLevelHelp = function(slot0, slot1)
 	if slot0._showMaxLevelHelp ~= slot1 then
 		slot0._showMaxLevelHelp = slot1
 
@@ -317,15 +327,15 @@ function slot0.setMaxLevelHelp(slot0, slot1)
 	end
 end
 
-function slot0.setStopBuildSpeedupRemind(slot0)
+slot0.setStopBuildSpeedupRemind = function(slot0)
 	slot0.isStopBuildSpeedupReamind = true
 end
 
-function slot0.getStopBuildSpeedupRemind(slot0)
+slot0.getStopBuildSpeedupRemind = function(slot0)
 	return slot0.isStopBuildSpeedupReamind
 end
 
-function slot0.checkReadHelp(slot0, slot1)
+slot0.checkReadHelp = function(slot0, slot1)
 	if not getProxy(PlayerProxy):getData() then
 		return true
 	end
@@ -341,12 +351,12 @@ function slot0.checkReadHelp(slot0, slot1)
 	return true
 end
 
-function slot0.recordReadHelp(slot0, slot1)
+slot0.recordReadHelp = function(slot0, slot1)
 	PlayerPrefs.SetInt(slot1, 1)
 	PlayerPrefs.Save()
 end
 
-function slot0.clearAllReadHelp(slot0)
+slot0.clearAllReadHelp = function(slot0)
 	PlayerPrefs.DeleteKey("tactics_lesson_system_introduce")
 	PlayerPrefs.DeleteKey("help_shipinfo_equip")
 	PlayerPrefs.DeleteKey("help_shipinfo_detail")
@@ -359,7 +369,7 @@ function slot0.clearAllReadHelp(slot0)
 	PlayerPrefs.DeleteKey("help_commander_ability")
 end
 
-function slot0.setAutoBattleTip(slot0)
+slot0.setAutoBattleTip = function(slot0)
 	slot1 = GetZeroTime()
 	slot0._nextTipAutoBattleTime = slot1
 
@@ -367,11 +377,11 @@ function slot0.setAutoBattleTip(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.isTipAutoBattle(slot0)
+slot0.isTipAutoBattle = function(slot0)
 	return slot0._nextTipAutoBattleTime < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.setActBossExchangeTicketTip(slot0, slot1)
+slot0.setActBossExchangeTicketTip = function(slot0, slot1)
 	if slot0.nextTipActBossExchangeTicket == slot1 then
 		return
 	end
@@ -388,7 +398,7 @@ function slot0.setActBossExchangeTicketTip(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.isTipActBossExchangeTicket(slot0)
+slot0.isTipActBossExchangeTicket = function(slot0)
 	if slot0._nextTipActBossTime < pg.TimeMgr.GetInstance():GetServerTime() then
 		return nil
 	end
@@ -396,7 +406,7 @@ function slot0.isTipActBossExchangeTicket(slot0)
 	return slot0.nextTipActBossExchangeTicket
 end
 
-function slot0.SetScreenRatio(slot0, slot1)
+slot0.SetScreenRatio = function(slot0, slot1)
 	if slot0._screenRatio ~= slot1 then
 		slot0._screenRatio = slot1
 
@@ -405,24 +415,24 @@ function slot0.SetScreenRatio(slot0, slot1)
 	end
 end
 
-function slot0.GetScreenRatio(slot0)
+slot0.GetScreenRatio = function(slot0)
 	return slot0._screenRatio
 end
 
-function slot0.CheckLargeScreen(slot0)
+slot0.CheckLargeScreen = function(slot0)
 	return Screen.width / Screen.height > 2
 end
 
-function slot0.IsShowBeatMonseterNianCurtain(slot0)
+slot0.IsShowBeatMonseterNianCurtain = function(slot0)
 	return tonumber(PlayerPrefs.GetString("HitMonsterNianLayer2020" .. getProxy(PlayerProxy):getRawData().id, "0")) < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.SetBeatMonseterNianFlag(slot0)
+slot0.SetBeatMonseterNianFlag = function(slot0)
 	PlayerPrefs.SetString("HitMonsterNianLayer2020" .. getProxy(PlayerProxy):getRawData().id, GetZeroTime())
 	PlayerPrefs.Save()
 end
 
-function slot0.ShouldShowEventActHelp(slot0)
+slot0.ShouldShowEventActHelp = function(slot0)
 	if not slot0.actEventFlag then
 		slot0.actEventFlag = PlayerPrefs.GetInt("event_act_help1" .. getProxy(PlayerProxy):getRawData().id, 0) > 0
 	end
@@ -430,7 +440,7 @@ function slot0.ShouldShowEventActHelp(slot0)
 	return not slot0.actEventFlag
 end
 
-function slot0.MarkEventActHelpFlag(slot0)
+slot0.MarkEventActHelpFlag = function(slot0)
 	if not slot0.actEventFlag then
 		slot0.actEventFlag = true
 
@@ -439,7 +449,7 @@ function slot0.MarkEventActHelpFlag(slot0)
 	end
 end
 
-function slot0.SetStorySpeed(slot0, slot1)
+slot0.SetStorySpeed = function(slot0, slot1)
 	slot0.storySpeed = slot1
 	slot2 = nil
 
@@ -447,7 +457,7 @@ function slot0.SetStorySpeed(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetStorySpeed(slot0)
+slot0.GetStorySpeed = function(slot0)
 	if not slot0.storySpeed then
 		slot1 = nil
 		slot0.storySpeed = PlayerPrefs.GetInt("story_speed_flag" .. ((not getProxy(PlayerProxy) or getProxy(PlayerProxy):getRawData().id) and 1), 0)
@@ -456,11 +466,11 @@ function slot0.GetStorySpeed(slot0)
 	return slot0.storySpeed
 end
 
-function slot0.GetStoryAutoPlayFlag(slot0)
+slot0.GetStoryAutoPlayFlag = function(slot0)
 	return slot0.storyAutoPlayCode > 0
 end
 
-function slot0.SetStoryAutoPlayFlag(slot0, slot1)
+slot0.SetStoryAutoPlayFlag = function(slot0, slot1)
 	if slot0.storyAutoPlayCode ~= slot1 then
 		PlayerPrefs.SetInt("story_autoplay_flag", slot1)
 		PlayerPrefs.Save()
@@ -469,19 +479,19 @@ function slot0.SetStoryAutoPlayFlag(slot0, slot1)
 	end
 end
 
-function slot0.GetPaintingDownloadPrefs(slot0)
+slot0.GetPaintingDownloadPrefs = function(slot0)
 	return PlayerPrefs.GetInt("Painting_Download_Prefs", 0)
 end
 
-function slot0.SetPaintingDownloadPrefs(slot0, slot1)
+slot0.SetPaintingDownloadPrefs = function(slot0, slot1)
 	PlayerPrefs.SetInt("Painting_Download_Prefs", slot1)
 end
 
-function slot0.ShouldShipMainSceneWord(slot0)
+slot0.ShouldShipMainSceneWord = function(slot0)
 	return slot0.showMainSceneWordTip
 end
 
-function slot0.SaveMainSceneWordFlag(slot0, slot1)
+slot0.SaveMainSceneWordFlag = function(slot0, slot1)
 	if slot0.showMainSceneWordTip ~= slot1 then
 		slot0.showMainSceneWordTip = slot1
 
@@ -490,20 +500,20 @@ function slot0.SaveMainSceneWordFlag(slot0, slot1)
 	end
 end
 
-function slot0.RecordFrameRate(slot0)
+slot0.RecordFrameRate = function(slot0)
 	if not slot0.originalFrameRate then
 		slot0.originalFrameRate = Application.targetFrameRate
 	end
 end
 
-function slot0.RestoreFrameRate(slot0)
+slot0.RestoreFrameRate = function(slot0)
 	if slot0.originalFrameRate then
 		Application.targetFrameRate = slot0.originalFrameRate
 		slot0.originalFrameRate = nil
 	end
 end
 
-function slot0.ResetTimeLimitSkinShopTip(slot0)
+slot0.ResetTimeLimitSkinShopTip = function(slot0)
 	slot0.isTipLimitSkinShop = PlayerPrefs.GetInt("tipLimitSkinShopTime_", 0) <= pg.TimeMgr.GetInstance():GetServerTime()
 
 	if slot0.isTipLimitSkinShop then
@@ -511,11 +521,11 @@ function slot0.ResetTimeLimitSkinShopTip(slot0)
 	end
 end
 
-function slot0.ShouldTipTimeLimitSkinShop(slot0)
+slot0.ShouldTipTimeLimitSkinShop = function(slot0)
 	return slot0.isTipLimitSkinShop
 end
 
-function slot0.SetNextTipTimeLimitSkinShop(slot0)
+slot0.SetNextTipTimeLimitSkinShop = function(slot0)
 	if slot0.isTipLimitSkinShop and slot0.nextTipLimitSkinShopTime then
 		PlayerPrefs.SetInt("tipLimitSkinShopTime_", slot0.nextTipLimitSkinShopTime)
 		PlayerPrefs.Save()
@@ -525,7 +535,7 @@ function slot0.SetNextTipTimeLimitSkinShop(slot0)
 	end
 end
 
-function slot0.WorldBossProgressTipFlag(slot0, slot1)
+slot0.WorldBossProgressTipFlag = function(slot0, slot1)
 	if slot0.WorldBossProgressTipValue ~= slot1 then
 		slot0.WorldBossProgressTipValue = slot1
 
@@ -534,7 +544,7 @@ function slot0.WorldBossProgressTipFlag(slot0, slot1)
 	end
 end
 
-function slot0.GetWorldBossProgressTipFlag(slot0)
+slot0.GetWorldBossProgressTipFlag = function(slot0)
 	if not slot0.WorldBossProgressTipValue then
 		slot1 = pg.gameset.joint_boss_ticket.description
 		slot4 = PlayerPrefs.GetString("_WorldBossProgressTipFlag_", slot1[1] .. "&" .. slot1[1] + slot1[2])
@@ -546,7 +556,7 @@ function slot0.GetWorldBossProgressTipFlag(slot0)
 	end
 end
 
-function slot0.GetWorldBossProgressTipTable(slot0)
+slot0.GetWorldBossProgressTipTable = function(slot0)
 	if not slot0:GetWorldBossProgressTipFlag() or slot1 == "" then
 		return {}
 	end
@@ -554,7 +564,7 @@ function slot0.GetWorldBossProgressTipTable(slot0)
 	return string.split(slot1, "&")
 end
 
-function slot0.GetChatFlag(slot0)
+slot0.GetChatFlag = function(slot0)
 	if not slot0.chatFlag then
 		slot1 = {
 			ChatConst.ChannelWorld,
@@ -572,7 +582,7 @@ function slot0.GetChatFlag(slot0)
 	return slot0.chatFlag
 end
 
-function slot0.SetChatFlag(slot0, slot1)
+slot0.SetChatFlag = function(slot0, slot1)
 	if slot0.chatFlag ~= slot1 then
 		slot0.chatFlag = slot1
 
@@ -581,16 +591,16 @@ function slot0.SetChatFlag(slot0, slot1)
 	end
 end
 
-function slot0.IsShowActivityMapSPTip()
+slot0.IsShowActivityMapSPTip = function()
 	return PlayerPrefs.GetInt("ActivityMapSPTip" .. getProxy(PlayerProxy):getRawData().id, 0) < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.SetActivityMapSPTip()
+slot0.SetActivityMapSPTip = function()
 	PlayerPrefs.SetInt("ActivityMapSPTip" .. getProxy(PlayerProxy):getRawData().id, GetZeroTime())
 	PlayerPrefs.Save()
 end
 
-function slot0.IsTipNewTheme(slot0)
+slot0.IsTipNewTheme = function(slot0)
 	slot1 = pg.backyard_theme_template
 	slot2 = slot1.all[#slot1.all]
 	slot4 = pg.furniture_shop_template[slot1[slot2].ids[1]]
@@ -604,14 +614,14 @@ function slot0.IsTipNewTheme(slot0)
 	return slot0.lastThemeId ~= nil
 end
 
-function slot0.UpdateNewThemeValue(slot0)
+slot0.UpdateNewThemeValue = function(slot0)
 	if slot0.lastThemeId then
 		PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "IsTipNewTheme" .. slot0.lastThemeId, 1)
 		PlayerPrefs.Save()
 	end
 end
 
-function slot0.GetNewGemFurnitureLocalCache(slot0)
+slot0.GetNewGemFurnitureLocalCache = function(slot0)
 	if not slot0.cacheGemFuruitures then
 		slot0.cacheGemFuruitures = {}
 
@@ -625,7 +635,7 @@ function slot0.GetNewGemFurnitureLocalCache(slot0)
 	return slot0.cacheGemFuruitures
 end
 
-function slot0.IsTipNewGemFurniture(slot0)
+slot0.IsTipNewGemFurniture = function(slot0)
 	slot1 = slot0:GetNewGemFurnitureLocalCache()
 	slot2 = getProxy(DormProxy)
 
@@ -640,7 +650,7 @@ function slot0.IsTipNewGemFurniture(slot0)
 	return slot0.newGemFurniture ~= nil
 end
 
-function slot0.UpdateNewGemFurnitureValue(slot0)
+slot0.UpdateNewGemFurnitureValue = function(slot0)
 	if slot0.newGemFurniture then
 		for slot4, slot5 in pairs(slot0.newGemFurniture) do
 			slot0.cacheGemFuruitures[slot5] = true
@@ -651,7 +661,7 @@ function slot0.UpdateNewGemFurnitureValue(slot0)
 	end
 end
 
-function slot0.GetRandomFlagShipList(slot0)
+slot0.GetRandomFlagShipList = function(slot0)
 	if slot0.randomFlagShipList then
 		return slot0.randomFlagShipList
 	end
@@ -664,7 +674,7 @@ function slot0.GetRandomFlagShipList(slot0)
 	return slot0.randomFlagShipList
 end
 
-function slot0.IsRandomFlagShip(slot0, slot1)
+slot0.IsRandomFlagShip = function(slot0, slot1)
 	if not slot0.randomFlagShipMap then
 		slot0.randomFlagShipMap = {}
 
@@ -676,7 +686,7 @@ function slot0.IsRandomFlagShip(slot0, slot1)
 	return slot0.randomFlagShipMap[slot1] == true
 end
 
-function slot0.IsOpenRandomFlagShip(slot0)
+slot0.IsOpenRandomFlagShip = function(slot0)
 	slot2 = getProxy(BayProxy)
 
 	return #slot0:GetRandomFlagShipList() > 0 and _.any(slot1, function (slot0)
@@ -684,7 +694,7 @@ function slot0.IsOpenRandomFlagShip(slot0)
 	end)
 end
 
-function slot0.UpdateRandomFlagShipList(slot0, slot1)
+slot0.UpdateRandomFlagShipList = function(slot0, slot1)
 	slot0.randomFlagShipMap = nil
 	slot0.randomFlagShipList = slot1
 
@@ -692,7 +702,7 @@ function slot0.UpdateRandomFlagShipList(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetPrevRandomFlagShipTime(slot0)
+slot0.GetPrevRandomFlagShipTime = function(slot0)
 	if slot0.prevRandomFlagShipTime then
 		return slot0.prevRandomFlagShipTime
 	end
@@ -702,7 +712,7 @@ function slot0.GetPrevRandomFlagShipTime(slot0)
 	return slot0.prevRandomFlagShipTime
 end
 
-function slot0.SetPrevRandomFlagShipTime(slot0, slot1)
+slot0.SetPrevRandomFlagShipTime = function(slot0, slot1)
 	if slot0.prevRandomFlagShipTime == slot1 then
 		return
 	end
@@ -713,7 +723,7 @@ function slot0.SetPrevRandomFlagShipTime(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetFlagShipDisplayMode(slot0)
+slot0.GetFlagShipDisplayMode = function(slot0)
 	if not slot0.flagShipDisplayMode then
 		slot0.flagShipDisplayMode = PlayerPrefs.GetInt("flag-ship-display-mode" .. getProxy(PlayerProxy):getRawData().id, FlAG_SHIP_DISPLAY_ALL)
 	end
@@ -721,7 +731,7 @@ function slot0.GetFlagShipDisplayMode(slot0)
 	return slot0.flagShipDisplayMode
 end
 
-function slot0.SetFlagShipDisplayMode(slot0, slot1)
+slot0.SetFlagShipDisplayMode = function(slot0, slot1)
 	if slot0.flagShipDisplayMode ~= slot1 then
 		slot0.flagShipDisplayMode = slot1
 
@@ -730,7 +740,7 @@ function slot0.SetFlagShipDisplayMode(slot0, slot1)
 	end
 end
 
-function slot0.RecordContinuousOperationAutoSubStatus(slot0, slot1)
+slot0.RecordContinuousOperationAutoSubStatus = function(slot0, slot1)
 	if slot1 then
 		return
 	end
@@ -739,7 +749,7 @@ function slot0.RecordContinuousOperationAutoSubStatus(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.ResetContinuousOperationAutoSub(slot0)
+slot0.ResetContinuousOperationAutoSub = function(slot0)
 	if PlayerPrefs.GetInt("AutoBotCOFlag" .. getProxy(PlayerProxy):getRawData().id, 0) == 0 then
 		return
 	end
@@ -752,16 +762,16 @@ function slot0.ResetContinuousOperationAutoSub(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.SetWorkbenchDailyTip(slot0)
+slot0.SetWorkbenchDailyTip = function(slot0)
 	PlayerPrefs.SetInt("WorkbenchDailyTip" .. getProxy(PlayerProxy):getRawData().id, GetZeroTime())
 	PlayerPrefs.Save()
 end
 
-function slot0.IsTipWorkbenchDaily(slot0)
+slot0.IsTipWorkbenchDaily = function(slot0)
 	return PlayerPrefs.GetInt("WorkbenchDailyTip" .. getProxy(PlayerProxy):getRawData().id, 0) < pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.IsDisplayResultPainting(slot0)
+slot0.IsDisplayResultPainting = function(slot0)
 	slot2 = false
 
 	if PlayerPrefs.HasKey(BATTLERESULT_SKIP_DISPAY_PAINTING) then
@@ -775,7 +785,7 @@ function slot0.IsDisplayResultPainting(slot0)
 	return slot2
 end
 
-function slot0.IsDisplayCommanderCatCustomName(slot0)
+slot0.IsDisplayCommanderCatCustomName = function(slot0)
 	if not slot0.customFlag then
 		slot0.customFlag = PlayerPrefs.GetInt("DisplayCommanderCatCustomName" .. getProxy(PlayerProxy):getRawData().id, 0) == 0
 	end
@@ -783,7 +793,7 @@ function slot0.IsDisplayCommanderCatCustomName(slot0)
 	return slot0.customFlag
 end
 
-function slot0.SetDisplayCommanderCatCustomName(slot0, slot1)
+slot0.SetDisplayCommanderCatCustomName = function(slot0, slot1)
 	if slot1 == slot0.customFlag then
 		return
 	end
@@ -794,7 +804,7 @@ function slot0.SetDisplayCommanderCatCustomName(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetCommanderQuicklyToolRarityConfig(slot0)
+slot0.GetCommanderQuicklyToolRarityConfig = function(slot0)
 	if not slot0.quicklyToolRarityConfig then
 		slot1 = getProxy(PlayerProxy)
 		slot0.quicklyToolRarityConfig = _.map(string.split(PlayerPrefs.GetString("CommanderQuicklyToolRarityConfig" .. slot1:getRawData().id, "1#1#1"), "#"), function (slot0)
@@ -805,7 +815,7 @@ function slot0.GetCommanderQuicklyToolRarityConfig(slot0)
 	return slot0.quicklyToolRarityConfig
 end
 
-function slot0.SaveCommanderQuicklyToolRarityConfig(slot0, slot1)
+slot0.SaveCommanderQuicklyToolRarityConfig = function(slot0, slot1)
 	slot2 = false
 
 	for slot6, slot7 in ipairs(slot0.quicklyToolRarityConfig) do
@@ -827,7 +837,7 @@ function slot0.SaveCommanderQuicklyToolRarityConfig(slot0, slot1)
 	end
 end
 
-function slot0.GetCommanderLockFlagRarityConfig(slot0)
+slot0.GetCommanderLockFlagRarityConfig = function(slot0)
 	if not slot0.lockFlagRarityConfig then
 		slot1 = getProxy(PlayerProxy)
 		slot0.lockFlagRarityConfig = _.map(string.split(PlayerPrefs.GetString("CommanderLockFlagRarityConfig_" .. slot1:getRawData().id, "1#0#0"), "#"), function (slot0)
@@ -838,7 +848,7 @@ function slot0.GetCommanderLockFlagRarityConfig(slot0)
 	return slot0.lockFlagRarityConfig
 end
 
-function slot0.SaveCommanderLockFlagRarityConfig(slot0, slot1)
+slot0.SaveCommanderLockFlagRarityConfig = function(slot0, slot1)
 	slot2 = false
 
 	for slot6, slot7 in ipairs(slot0.lockFlagRarityConfig) do
@@ -860,7 +870,7 @@ function slot0.SaveCommanderLockFlagRarityConfig(slot0, slot1)
 	end
 end
 
-function slot0.GetCommanderLockFlagTalentConfig(slot0)
+slot0.GetCommanderLockFlagTalentConfig = function(slot0)
 	if not slot0.lockFlagTalentConfig then
 		slot3 = {}
 
@@ -884,7 +894,7 @@ function slot0.GetCommanderLockFlagTalentConfig(slot0)
 	return slot0.lockFlagTalentConfig
 end
 
-function slot0.SaveCommanderLockFlagTalentConfig(slot0, slot1)
+slot0.SaveCommanderLockFlagTalentConfig = function(slot0, slot1)
 	slot0.lockFlagTalentConfig = slot1
 	slot2 = {}
 
@@ -896,7 +906,7 @@ function slot0.SaveCommanderLockFlagTalentConfig(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetMainPaintingVariantFlag(slot0, slot1)
+slot0.GetMainPaintingVariantFlag = function(slot0, slot1)
 	if not slot0.mainPaintingVariantFlag then
 		slot0.mainPaintingVariantFlag = {}
 	end
@@ -908,7 +918,7 @@ function slot0.GetMainPaintingVariantFlag(slot0, slot1)
 	return slot0.mainPaintingVariantFlag[slot1]
 end
 
-function slot0.SwitchMainPaintingVariantFlag(slot0, slot1)
+slot0.SwitchMainPaintingVariantFlag = function(slot0, slot1)
 	slot3 = 1 - slot0:GetMainPaintingVariantFlag(slot1)
 	slot0.mainPaintingVariantFlag[slot1] = slot3
 
@@ -916,16 +926,16 @@ function slot0.SwitchMainPaintingVariantFlag(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.IsTipDay(slot0, slot1, slot2, slot3)
+slot0.IsTipDay = function(slot0, slot1, slot2, slot3)
 	return PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "educate_char_" .. slot1 .. slot2 .. slot3, 0) == 1
 end
 
-function slot0.RecordTipDay(slot0, slot1, slot2, slot3)
+slot0.RecordTipDay = function(slot0, slot1, slot2, slot3)
 	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "educate_char_" .. slot1 .. slot2 .. slot3, 1)
 	PlayerPrefs.Save()
 end
 
-function slot0.UpdateEducateCharTip(slot0, slot1)
+slot0.UpdateEducateCharTip = function(slot0, slot1)
 	slot2 = getProxy(PlayerProxy):getRawData().id
 	slot3 = getProxy(EducateProxy):GetSecretaryIDs()
 	slot4 = {}
@@ -944,7 +954,7 @@ function slot0.UpdateEducateCharTip(slot0, slot1)
 	slot0:RefillEducateCharTipList()
 end
 
-function slot0.RefillEducateCharTipList(slot0)
+slot0.RefillEducateCharTipList = function(slot0)
 	slot1 = getProxy(PlayerProxy):getRawData().id
 	slot0.educateCharTipList = {}
 
@@ -962,7 +972,7 @@ function slot0.RefillEducateCharTipList(slot0)
 	end
 end
 
-function slot0.ShouldEducateCharTip(slot0)
+slot0.ShouldEducateCharTip = function(slot0)
 	if not slot0.educateCharTipList or #slot0.educateCharTipList == 0 then
 		slot0:RefillEducateCharTipList()
 	end
@@ -970,7 +980,7 @@ function slot0.ShouldEducateCharTip(slot0)
 	return #slot0.educateCharTipList > 0
 end
 
-function slot0._ShouldEducateCharTip(slot0, slot1)
+slot0._ShouldEducateCharTip = function(slot0, slot1)
 	if not slot0.educateCharTipList or #slot0.educateCharTipList == 0 then
 		slot0:RefillEducateCharTipList()
 	end
@@ -982,7 +992,7 @@ function slot0._ShouldEducateCharTip(slot0, slot1)
 	return false
 end
 
-function slot0.ClearEducateCharTip(slot0, slot1)
+slot0.ClearEducateCharTip = function(slot0, slot1)
 	if not slot0:_ShouldEducateCharTip(slot1) then
 		return false
 	end
@@ -1001,7 +1011,35 @@ function slot0.ClearEducateCharTip(slot0, slot1)
 	return true
 end
 
-function slot0.Reset(slot0)
+slot0.GetMainSceneThemeStyle = function(slot0)
+	if PlayerPrefs.GetInt(USAGE_NEW_MAINUI, 1) == 1 then
+		return NewMainScene.THEME_MELLOW
+	else
+		return NewMainScene.THEME_CLASSIC
+	end
+end
+
+slot0.IsMellowStyle = function(slot0)
+	return NewMainScene.THEME_MELLOW == slot0:GetMainSceneThemeStyle()
+end
+
+slot0.GetMainSceneScreenSleepTime = function(slot0)
+	if pg.NewGuideMgr.GetInstance():IsBusy() then
+		return SleepTimeout.SystemSetting
+	end
+
+	if PlayerPrefs.GetInt(pg.settings_other_template[20].name, 1) == 1 then
+		return SleepTimeout.NeverSleep
+	else
+		return SleepTimeout.SystemSetting
+	end
+end
+
+slot0.ShowL2dResetInMainScene = function(slot0)
+	return PlayerPrefs.GetInt(pg.settings_other_template[21].name, 0) == 1
+end
+
+slot0.Reset = function(slot0)
 	slot0:resetEquipSceneIndex()
 	slot0:resetActivityLayerIndex()
 

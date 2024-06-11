@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA25",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			say = "―――！",
 			side = 2,
 			bgName = "bg_xinnong_cg3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "―――！",
 			flashN = {
 				color = {
 					1,
@@ -97,17 +97,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
-			bgName = "bg_underwater",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "「わずか4発の被雷で、妾は…信濃は……」",
+			bgName = "bg_underwater",
 			bgm = "bsm-2",
+			nameColor = "#a9f548",
+			say = "「わずか4発の被雷で、妾は…信濃は……」",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			actorName = "信濃",
 			nameColor = "#a9f548",
+			actorName = "信濃",
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			actorName = "信濃",
 			nameColor = "#a9f548",
+			actorName = "信濃",
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			actorName = "信濃",
 			nameColor = "#a9f548",
+			actorName = "信濃",
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_xinnong2_6",
-			actorName = "信濃",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "信濃",
 			say = "（これで、「カケラ」がまた一つ……）",
 			flashout = {
 				dur = 1,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "（果たして…何を求めれば…）",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_white",
+			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {

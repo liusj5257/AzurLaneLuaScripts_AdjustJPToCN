@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU28",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900238,
 			nameColor = "#ffa500",
 			side = 2,
-			bgm = "story-french2",
 			dir = 1,
 			say = "謊言…背叛…事到如今依然是…謊言與背叛……",
+			bgm = "story-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "沃克蘭和拉.加利索尼埃，妳們兩個還愣著幹什麼，快點離開阿爾及利亞，想被她摧毀嗎！",
 			effects = {
 				{
@@ -107,9 +107,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			dir = 1,
 			say = "是、是！黎胥留大人！",
 			effects = {
 				{
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 3,
 			nameColor = "#ffff4d",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "多謝提醒。被摧毀本身沒什麼，但是這種莫名其妙的狀況下被阿爾及利亞摧毀可無法接受啊…",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "作為簽訂條約的條件，鳶尾教國從鐵血那裡得到了一塊“改良版心智魔方”。",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "最初我們想把它作為聖堂兵器的能量核心。但是在之後的實驗裡我們發現…",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "這塊所謂改良版心智魔方，一旦對外輸出功率達到一定程度之後，就會表現出強烈的不穩定性。",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "不受控的能量噴湧而出，不但損壞了實驗機器本身，甚至影響了周圍實驗人員的情感。",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "本來應該是這樣的。但鳶尾教國的淪陷改變了這一切……",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "我把這片區域作為最優先收復的地方，是因為這裡的聖堂是整個鳶尾僅存的一台著能夠使用這塊特殊魔方的機器。",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "就算是半成品，將這樣的兵器置於維希教廷的控制之下也太危險了。更沒想到她們會在不成熟的條件下肆無忌憚的使用它…",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "按照當初的設計，魔方應該作為整個極光之壁的核心供能裝置被放置在聖堂中心。阿爾及利亞手中的小盒子只是接受核心能量供應的控制器。",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "但是聖堂本身被修建十分堅固，現在又被光幕構成的穹頂所包圍。再加上這種狀態的阿爾及利亞擋在中間，這個計劃恐怕沒有辦法順利進行。",
 			typewriter = {
 				speed = 0.05,
@@ -442,10 +442,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "轟------！",
 			soundeffect = "event:/battle/boom2",
+			dir = 1,
+			say = "轟------！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "一連串的猛烈砲擊聲重新打破了戰場的平靜。皇家、自由鳶尾、甚至維希教廷的艦隊都被漆黑的炮火無差別的攻擊著。",
 			typewriter = {
 				speed = 0.05,
@@ -509,8 +509,8 @@ return {
 			expression = 3,
 			nameColor = "#ffff4d",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "糟了，阿爾及利亞開始攻擊了哦！這火力也太恐怖了吧……",
 			typewriter = {
 				speed = 0.05,
@@ -524,9 +524,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 902010,
 			nameColor = "#ffff4d",
-			dir = 1,
 			say = "黎胥留，現在我們暫時聽妳指揮，要怎麼做才能救阿爾及利亞妳給個準話！乾愣在這裡可是會被當成靶子打哦！",
 			typewriter = {
 				speed = 0.05,
@@ -538,8 +538,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -551,8 +551,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -567,8 +567,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "黎胥留，讓我去拖住阿爾及利亞吧。妳們集中全部火力攻陷聖堂，破壞阿爾及利亞的能量供應。",
 			typewriter = {
 				speed = 0.05,
@@ -583,8 +583,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "…只靠妳一個人？不行，太危險了，我讓航空艦隊一起掩護妳一同戰鬥。",
 			typewriter = {
 				speed = 0.05,
@@ -596,8 +596,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -628,8 +628,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -644,8 +644,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -660,8 +660,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -676,8 +676,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -692,8 +692,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -708,11 +708,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_qiongding_4",
-			actorName = "黎胥留",
 			dir = 1,
+			actorName = "黎胥留",
 			say = "可是………妳可能會被她徹底摧毀啊！",
 			dialogShake = {
 				speed = 0.09,
@@ -729,8 +729,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "聖女貞德",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,

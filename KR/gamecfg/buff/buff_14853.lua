@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 6,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "6s DOT",
 	stack = 1,
@@ -15,11 +15,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "airPower",
-				number = 179,
 				time = 3,
 				dotType = 2,
-				k = 0
+				number = 179
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

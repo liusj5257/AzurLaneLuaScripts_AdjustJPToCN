@@ -1,20 +1,20 @@
 slot0 = class("GuideDoFunctionStep", import(".GuideStep"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.func = slot1.doFunc
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return GuideStep.TYPE_DOFUNC
 end
 
-function slot0.GetFunction(slot0)
+slot0.GetFunction = function(slot0)
 	return slot0.func
 end
 
-function slot0.ExistTrigger(slot0)
+slot0.ExistTrigger = function(slot0)
 	return true
 end
 

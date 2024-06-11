@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX124A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX124A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "潜水艦配置のオーダーを発令できるようになりました。これで潜水艦たちのサポートを受けれるようになります",
 			typewriter = {
 				speed = 0.05,

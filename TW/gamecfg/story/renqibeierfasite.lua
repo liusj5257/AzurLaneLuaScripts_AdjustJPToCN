@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIBEIERFASITE",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIBEIERFASITE",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"榮耀殿堂\n\n<size=45>完美的女僕</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "……人，主人。",
 			typewriter = {
 				speed = 0.05,
@@ -43,18 +43,18 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			optionFlag = 1,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "午安，主人。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -79,18 +79,18 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			optionFlag = 2,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "到下午茶的時間了哦，主人。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "睜開眼，首先看到的，就是女僕長美麗的臉龐。",
 			typewriter = {
 				speed = 0.05,
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "不知貝爾法斯特的膝枕還讓您滿意嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……？！",
 			dialogShake = {
 				speed = 0.09,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "貝爾法斯特的嘴角勾起一個美妙的弧度，或許，這樣的對話本身令她感到滿足吧。",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "貝爾法斯特忽然問出了一個奇怪的問題，難道說，今天是什麼節日自己卻忘了？！",
 			typewriter = {
 				speed = 0.05,
@@ -296,9 +296,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "貝爾法斯特露出了微笑",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "以不知道是開玩笑還是一本正經的語調，貝爾法斯特訴說著。",
 			typewriter = {
 				speed = 0.05,
@@ -468,9 +468,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "貝爾法斯特歪著頭，陷入了思考",
 			typewriter = {
 				speed = 0.05,
@@ -482,9 +482,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "過了一會，又恢復到了她一如既往的表情——",
 			typewriter = {
 				speed = 0.05,
@@ -512,9 +512,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "貝爾法斯特起身整理了一下，開始做起了下午茶的準備",
 			typewriter = {
 				speed = 0.05,
@@ -542,9 +542,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "貝爾法斯特以優雅的動作擺好桌椅，撐起陽傘。",
 			typewriter = {
 				speed = 0.05,
@@ -572,9 +572,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "貝爾法斯特說著，像是變戲法一樣端出一盤精緻的蛋糕，一壺紅茶，以及一套茶具。",
 			typewriter = {
 				speed = 0.05,
@@ -586,9 +586,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "夏末秋初，令人感到些許涼意的午後，被微風撫起的銀色長髮令人不禁感到心頭一陣悸動。",
 			typewriter = {
 				speed = 0.05,
@@ -664,9 +664,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "順著她的視線望去，在碧海的水平線那頭，似乎隱約能看到同伴們的身姿",
 			typewriter = {
 				speed = 0.05,
@@ -710,9 +710,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "貝爾法斯特姿態優雅地靠了過來，微微行了個禮，拿起了茶杯。",
 			typewriter = {
 				speed = 0.05,
@@ -724,9 +724,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "以完美的女僕姿態，往杯子裡倒入了紅茶。",
 			typewriter = {
 				speed = 0.05,
@@ -754,12 +754,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "祈願與您在一起的如夢似幻的時間，能夠永遠持續下去——",
 			typewriter = {
 				speed = 0.05,

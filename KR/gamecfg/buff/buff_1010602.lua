@@ -1,12 +1,12 @@
 return {
-	time = 6,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "red",
+	id = 1010602,
+	time = 6,
 	picture = "",
 	desc = "炮击、雷击提高",
 	stack = 1,
-	id = 1010602,
+	color = "red",
 	icon = 1010600,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 1500
+				number = 1500,
+				attr = "dodgeRate"
 			}
 		}
 	}

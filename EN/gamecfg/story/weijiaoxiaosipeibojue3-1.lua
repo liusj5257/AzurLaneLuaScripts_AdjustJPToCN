@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 102200,
 			side = 2,
-			nameColor = "#A9F548FF",
-			say = "There you are, candy thief! We've got you now!",
 			dir = 1,
 			bgm = "login-2022401us",
+			actor = 102200,
+			nameColor = "#A9F548FF",
+			say = "There you are, candy thief! We've got you now!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -20,8 +20,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "Little Spee",
 			say = "You're never getting my candy.",
 			painting = {
@@ -80,8 +80,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "Little Spee",
 			say = "Beer and bratwurst aren't the only important things in life. Candy is, too. You all just don't understand that.",
 			painting = {
@@ -97,8 +97,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "Little Spee",
 			say = "That's why I came up with a plan... A plan to fill the ocean with candy and snacks!",
 			painting = {
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "Little Spee",
 			say = "And I'm so close to achieving it.",
 			painting = {

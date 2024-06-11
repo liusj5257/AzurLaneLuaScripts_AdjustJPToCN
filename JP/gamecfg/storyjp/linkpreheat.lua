@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅\n\n<size=45>序幕 騒がしい海域</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_chuansong",
+			side = 2,
+			dir = 1,
 			say = "……ピッ、ピッ、ピッ……ピッ……ピッ、ピッ、ピッ……ピッ……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "明石が先行して調査に向かったはずなのに……応答がないよ",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "明石が先行して調査に向かったはずなのに……応答がないよ",
+			actor = 201210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "霧も出てきた……前も後ろも右も左も真っ白……",
 			effects = {
 				{
@@ -198,13 +198,13 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……ッ！？　ニーミちゃん、１１時の方向に何かいるよ！",
 			bgm = "level-uta",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "……ッ！？　ニーミちゃん、１１時の方向に何かいるよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_chuansong",
 			side = 2,
+			bgName = "bg_story_chuansong",
 			dir = 1,
+			actor = 10300060,
 			actorName = "???",
 			say = "もしもし？すいません……そこにどなたかいらっしゃいますか？",
 			typewriter = {
@@ -316,14 +316,14 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "そんなわけで──なんとか海域を脱してお連れした次第です",
+			bgName = "bg_story_school",
 			bgm = "main-uta",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "そんなわけで──なんとか海域を脱してお連れした次第です",
 			effects = {
 				{
 					active = false,
@@ -331,8 +331,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -357,12 +357,12 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
+			say = "はじめまして。私、フミルィルと申します",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はじめまして。私、フミルィルと申します",
+			actor = 10300060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "フミルィルさん、あなたはどちらからいらっしゃったのですか？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "フミルィルさん、あなたはどちらからいらっしゃったのですか？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -512,8 +512,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "どちらから……と聞かれたら、トゥスクルより参りました",
 			typewriter = {
@@ -529,8 +529,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "クーちゃんや仲間の皆さんと、ヤマトへ向かう旅をしていたのですが……",
 			typewriter = {
@@ -674,8 +674,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "クーちゃんや仲間の皆さんも、ひょっとするとあの海で迷っているかも知れません……この艤装？というのがあればお役に立てそうですし",
 			typewriter = {
@@ -688,12 +688,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "そうですね……原因究明も兼ねて、もう一度出撃しましょう。指揮官の許可をいただいてきます",
 			typewriter = {
 				speed = 0.05,

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "底力爆发 +",
 	init_effect = "",
+	id = 18040,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 18040,
+	color = "blue",
 	icon = 18040,
 	last_effect = "",
 	effect_list = {
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.2,
-				skill_id = 18040,
 				target = "TargetSelf",
+				skill_id = 18040,
 				quota = 1
 			}
 		}

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "bg_map_doa",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "...Target spotted! So that's the island that was mentioned in Akashi's report!",
 			bgm = "doa_story1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "...Target spotted! So that's the island that was mentioned in Akashi's report!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,8 +42,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -132,13 +132,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_map_doa",
+			side = 2,
+			dir = 1,
 			say = "...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_doa",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "Yes, it's a bit hard to explain, but... when I woke up, I was here, along with everyone else...",
 			typewriter = {
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_map_doa",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Eh? Are you acquainted with Akashi?",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -356,9 +356,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_doa",
-			actor = 900302,
 			dir = 1,
 			blackBg = true,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "...It really is just as was written in the letter... Um, won't you come over to where we've set up camp for now? Once there, I can explain a bit more.",
 			typewriter = {

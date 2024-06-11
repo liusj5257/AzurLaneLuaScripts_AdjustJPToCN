@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Operation Area - Morning",
 			side = 2,
 			bgName = "bg_midgard_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-4",
+			say = "Operation Area - Morning",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "The sun rose over the horizon and cast its light on an enormous Iron Blood fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "Their numbers were truly staggering, as if every Iron Blood ship in existence was partaking in this massive operation.",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "Across the sea from them, situated in the middle of the ocean, a group of structures stood arranged into the shape of a ring.",
 			typewriter = {
 				speed = 0.05,
@@ -77,10 +77,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's the Tower of Midgard, huh? I'm frankly astonished they managed to complete it this fast.",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "And man, it's a marvel to behold! Now our job's to get in there and wreak some havoc.",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 408120,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 408120,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Resurfacing! Steer clear!",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,10 +140,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 408120,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "U-1206, having just finished a patrol of the area, emerged from the sea. She gazed on inquisitively at the structure in the distance.",
 			typewriter = {
 				speed = 0.05,
@@ -158,10 +158,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 408120,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "No enemies in the area! Let's keep our fingers crossed and hope it stays that way!",
 			typewriter = {
 				speed = 0.05,
@@ -173,12 +173,12 @@ return {
 			}
 		},
 		{
-			actor = 406020,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, if anyone foolish enough comes along to challenge us, they're in for the beating of a lifetime.",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Heh, yeah. It'd be suicide tryin' to stop us now.",
 			typewriter = {
 				speed = 0.05,
@@ -230,10 +230,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ah, Strasser! Always right on time!",
 			typewriter = {
 				speed = 0.05,
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 406020,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Your team never ceases to amaze. First you built the flying fortress, and now this!",
 			typewriter = {
 				speed = 0.05,
@@ -284,10 +284,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Now, you should know a few things before you enter the Singularity. I'll be brief.",
 			typewriter = {
 				speed = 0.05,
@@ -321,10 +321,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You sayin' these structures collectively make up the Tower of Midgard?",
 			typewriter = {
 				speed = 0.05,
@@ -339,10 +339,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Correct. They were first built inside the flying fortress, then assembled on-site here.",
 			typewriter = {
 				speed = 0.05,
@@ -376,10 +376,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But transporting them was not difficult. We have the Sirens' tech to thank for that.",
 			typewriter = {
 				speed = 0.05,
@@ -394,10 +394,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Now that you mention it, those structures do resemble the flying fortress a bit.",
 			typewriter = {
 				speed = 0.05,
@@ -412,10 +412,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Correct. They're essentially derived from the same technology.",
 			typewriter = {
 				speed = 0.05,
@@ -449,10 +449,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "This same system can also be used to create hologram fleets, like in our last Reenactment with the Royal Navy. Quite nifty, I'll say.",
 			typewriter = {
 				speed = 0.05,
@@ -486,10 +486,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...Ulrich, that's your cue.",
 			typewriter = {
 				speed = 0.05,
@@ -501,12 +501,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ugh...",
 			typewriter = {
 				speed = 0.05,
@@ -540,10 +540,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yeah, yeah. Sorry for not being very chatty.",
 			typewriter = {
 				speed = 0.05,
@@ -558,10 +558,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Let's just say the Tower has me speechless. Starstruck.",
 			typewriter = {
 				speed = 0.05,
@@ -573,12 +573,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Anyway... I'm Ulrich von Hutten. I'll serve as your field commander for this operation.",
 			typewriter = {
 				speed = 0.05,
@@ -612,10 +612,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Thanks. Just one question: after the Tower is activated, will we be able to create hologram fleets and the like?",
 			typewriter = {
 				speed = 0.05,
@@ -630,10 +630,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, there's no guaranteeing you'll be able.",
 			typewriter = {
 				speed = 0.05,
@@ -645,12 +645,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "So it's not a no. Good enough.",
 			typewriter = {
 				speed = 0.05,
@@ -684,10 +684,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Got it. We'll just have to see for ourselves what we can do once we're inside.",
 			typewriter = {
 				speed = 0.05,
@@ -699,12 +699,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That about does it for the briefing. See you on the other side.",
 			typewriter = {
 				speed = 0.05,

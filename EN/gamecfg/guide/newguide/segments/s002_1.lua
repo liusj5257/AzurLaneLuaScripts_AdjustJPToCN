@@ -11,15 +11,21 @@ return {
 			alpha = 0.422,
 			code = 2,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -132.4,
 				posX = 423.25,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/buildButton",
 				pathIndex = -1,
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/build"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/buildButton"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -30,19 +36,19 @@ return {
 			}
 		},
 		{
-			alpha = 0.316,
 			code = 2,
 			waitScene = "BuildShipScene",
+			alpha = 0.316,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[2]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/tagRoot/queue_btn",
 				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/tagRoot/queue_btn",
 				triggerType = {
 					2
 				},
@@ -56,16 +62,16 @@ return {
 			alpha = 0.316,
 			code = 2,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 95.46,
 				posX = 0,
 				text = slot0[3]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/BuildShipDetailUI1(Clone)/list_single_line/content/project_1/frame/finished/launched_btn",
-				scale = 1.25,
 				pathIndex = -1,
+				scale = 1.25,
+				path = "/UICamera/Canvas/UIMain/BuildShipDetailUI1(Clone)/list_single_line/content/project_1/frame/finished/launched_btn",
 				triggerType = {
 					1
 				},

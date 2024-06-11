@@ -17,8 +17,8 @@ return {
 				1
 			},
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[1]
@@ -40,8 +40,8 @@ return {
 				2
 			},
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[1]
@@ -66,8 +66,8 @@ return {
 				}
 			},
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 0,
 				posX = 41.84,
 				text = slot0[2]
@@ -76,8 +76,8 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				delay = 0.3,
 				keepScrollTxt = true,
+				delay = 0.3,
 				path = "OverlayCamera/Overlay/UIMain/CommanderHomeUI(Clone)/CatteryDescPage(Clone)/right/pages/CommanderHomeSelCommanderPage(Clone)/scrollrect/content/0",
 				triggerType = {
 					1
@@ -117,8 +117,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 245.9,
 				posX = -382.13,
 				text = slot0[3],
@@ -130,8 +130,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[4]
@@ -151,8 +151,8 @@ return {
 			alpha = 0.4,
 			delay = 1,
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[5]
@@ -178,8 +178,8 @@ return {
 				}
 			},
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 122.14,
 				posX = -340.6,
 				text = slot0[6]
@@ -210,8 +210,8 @@ return {
 				2
 			},
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = -200,
 				posX = -500,
 				text = slot0[7]
@@ -229,8 +229,8 @@ return {
 				1
 			},
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = -200,
 				posX = -500,
 				text = slot0[7]

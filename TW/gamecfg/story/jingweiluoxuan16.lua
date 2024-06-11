@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "通過和信濃的交談，可以認定她也是在毫不知情的情況下被捲入了這場塞壬的實驗。",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
+			hidePaintObj = true,
+			say = "通過和信濃的交談，可以認定她也是在毫不知情的情況下被捲入了這場塞壬的實驗。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -25,9 +25,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -73,10 +73,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎？！在重櫻那裡棒球也很流行嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -110,10 +110,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "太酷了…有機會的話去重櫻打一圈比賽也不錯啊~！",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那信濃妳也會去打棒球嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "身份…妳們重櫻竟在奇怪的地方糾結…運動可是能夠超越國界和身份的哦！",
 			typewriter = {
 				speed = 0.05,
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "回答正確~咦？我們在哪裡見過妳？",
 			typewriter = {
 				speed = 0.05,
@@ -256,10 +256,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "從剛才開始就感覺和妳這個人說話真是難受哎……",
 			typewriter = {
 				speed = 0.05,
@@ -293,10 +293,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……反而變本加厲了！？！",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -335,16 +335,16 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_1100",
 			dir = 1,
+			bgName = "star_level_bg_1100",
 			bgm = "xinnong-3",
 			actor = 307040,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
 			say = "…抱歉，聯絡遲了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -372,10 +372,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "換彈工作，沒有來得及完成……航空艦隊在更換工作進行中遭到了白鷹艦隊的俯衝轟炸。",
 			typewriter = {
 				speed = 0.05,
@@ -390,10 +390,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "赤城大人，加賀大人以及蒼龍均出現損傷，但是我依然可以全力戰鬥！",
 			typewriter = {
 				speed = 0.05,
@@ -408,10 +408,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "我在此申請攻擊命令，飛龍將會獨自對白鷹航空編隊發起反擊！",
 			typewriter = {
 				speed = 0.05,
@@ -426,10 +426,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不好…這樣發展下去的話約克鎮就會…！",
 			typewriter = {
 				speed = 0.05,
@@ -444,10 +444,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不要發動反擊，立刻撤退！",
 			typewriter = {
 				speed = 0.05,
@@ -462,10 +462,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "為什麼？！我不能理解，請解釋一下這條命令的合理性。",
 			typewriter = {
 				speed = 0.05,
@@ -480,10 +480,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "因、因為…呃……只有現在撤退才…能…（指揮官快救我>_<！）",
 			typewriter = {
 				speed = 0.05,
@@ -528,10 +528,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "…是要我們承認作戰失敗然後逃跑的意思嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -546,10 +546,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "白鷹的艦載機也在撕扯中損失慘重！只要趁現在發動襲擊，一定能取得有效戰果的！",
 			typewriter = {
 				speed = 0.05,
@@ -579,10 +579,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "如果保持現在的狀態撤退才是真正無可挽回的局面！",
 			typewriter = {
 				speed = 0.05,
@@ -597,10 +597,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 307040,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "這樣下去重櫻海軍只會淪為世間的笑柄！",
 			typewriter = {
 				speed = 0.05,
@@ -634,10 +634,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "為什麼？！這種時候果斷撤退保存實力才是最好的選擇吧，妳難道看不出來嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -649,8 +649,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -788,11 +788,11 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
 			bgmDelay = 0.5,
 			bgm = "Beverly_short_inst",
+			mode = 1,
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -846,9 +846,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
+			oldPhoto = true,
+			mode = 1,
 			fontsize = 34,
 			flashout = {
 				dur = 0.5,
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			oldPhoto = true,
 			bgName = "bg_luoxuan_5",
+			oldPhoto = true,
+			mode = 1,
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -933,15 +933,15 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			hidePaintObj = true,
 			say = "………………",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {

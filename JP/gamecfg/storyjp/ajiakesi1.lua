@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"私の素晴らしい記憶\n\n<size=45>その一 小さな昼食会</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgName = "bg_story_school",
 			say = "母港・学園の中庭",
+			bgName = "bg_story_school",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "相変わらずリアンダーの手料理が美味しいですわね。",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "相変わらずリアンダーの手料理が美味しいですわね。",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 202010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202010,
+			nameColor = "#a9f548",
 			say = "エイジャックスも料理を勉強すべきなのではなくて？毎回指揮官様に作らせるなんて…",
 			typewriter = {
 				speed = 0.05,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "まあ本人は喜んでいるし別にいいんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -105,12 +105,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "でしょ？こう見えてもうちの指揮官は働き者ですわ。",
 			typewriter = {
 				speed = 0.05,
@@ -122,12 +122,12 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "そ、そうなの…？",
 			typewriter = {
 				speed = 0.05,
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "うふふ♪さーて、何のことかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "エイジャックスはついさっきまで飲んでいた水のペットボトルを渡してきた。",
 			typewriter = {
 				speed = 0.05,
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "ほら、飲んでみて？それとも…私がこうして飲ませて上げたほうがいいのかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			hideOther = true,
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "楽しみにしてて頂戴。うふふ♪",
 			typewriter = {

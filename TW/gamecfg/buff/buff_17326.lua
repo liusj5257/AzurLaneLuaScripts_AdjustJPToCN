@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17326,
 	time = 0.1,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17326,
+	color = "red",
 	icon = 17320,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				group = 17320,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		}
 	}

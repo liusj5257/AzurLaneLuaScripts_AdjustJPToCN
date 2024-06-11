@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 EX 黑龙次数盾击破",
 	time = 0.1,
+	name = "2023云仙活动 EX 黑龙次数盾击破",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

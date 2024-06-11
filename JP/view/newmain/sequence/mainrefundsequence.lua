@@ -1,6 +1,6 @@
 slot0 = class("MainRefundSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	if getProxy(UserProxy).data.limitServerIds and #slot2.data.limitServerIds > 0 then
 		pg.m02:sendNotification(GAME.GET_REFUND_INFO, {
 			callback = function ()
@@ -12,7 +12,7 @@ function slot0.Execute(slot0, slot1)
 	end
 end
 
-function slot0.ShowTip(slot0, slot1)
+slot0.ShowTip = function(slot0, slot1)
 	if getProxy(PlayerProxy):getRefundInfo() then
 		slot3 = getProxy(ServerProxy)
 		slot4 = true

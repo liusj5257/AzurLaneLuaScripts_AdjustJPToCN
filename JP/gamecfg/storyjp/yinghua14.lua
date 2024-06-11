@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA14",
 	continueBgm = true,
 	fadein = 1.5,
 	scripts = {
@@ -11,9 +11,9 @@ return {
 			actor = 900021,
 			actorName = "ピュリファイアー",
 			side = 2,
-			bgm = "nagato-boss",
 			dir = 1,
 			say = "あああ！！なんでまた私が貧乏くじを引くことになるの！「重桜」を見てみたかっただけなのに――",
+			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,14 +24,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom1",
 			say = "（爆発）",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -231,15 +231,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			stopbgm = true,
 			say = "ようやく…ようやく完成しそうですわ…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -309,14 +309,14 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
 			say = "この想定外の事態…お前なら……どうする？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

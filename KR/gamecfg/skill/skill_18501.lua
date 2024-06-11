@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "马可波罗天运强化",
 	cd = 0,
+	picture = "0",
+	desc = "马可波罗天运强化",
 	painting = 1,
 	id = 18501,
-	picture = "0",
 	castCV = "skill",
-	desc = "马可波罗天运强化",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "MarcoPoloPowerUp",
 				operation = 1

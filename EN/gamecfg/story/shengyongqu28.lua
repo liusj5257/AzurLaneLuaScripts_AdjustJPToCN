@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU28",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900238,
 			nameColor = "#ffa500",
 			side = 2,
-			bgm = "story-french2",
 			dir = 1,
 			say = "\"Lies, betrayal, and hypocrisy... are all cut from the same cloth...\"",
+			bgm = "story-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Get away from her, you two!!",
 			effects = {
 				{
@@ -107,9 +107,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			dir = 1,
 			say = "G-Gyahhh?!",
 			effects = {
 				{
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 3,
 			nameColor = "#ffff4d",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "You don't have to tell me! Looks like things are gonna get... Actually, there's nothing fun about this situation...",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "(In the past, the Iron Blood promised to provide some technology in a three-way negotiation between the Iris Orthodoxy and the Sardegna Empire...)",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "(I heard that Sardegna was given Siren technology to mass-produce ships, but I couldn't ever figure out what they gave us. No matter how many times I pressed the headquarters for an answer, I couldn't get anything out of them...)",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "(We only discovered this recently after Le Fantasque confirmed that Jean Bart had been rescued...)",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "(The Basilica housed a special wisdom cube, a product of the Iron Blood's technology. We knew it was incredibly dangerous, but...)",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "The sacrament is not the Iron Blood wisdom cube itself, but rather what the cube is capable of manifesting.",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "If this is going to be another repeat of what happened with Bismarck... then we must stop Algérie at all costs.",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "If their goal was to recreate the legend of the Basilica, then we must avoid the third sacrament, or everything will be burned away!",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "...If we must, we will destroy the Basilica instead. If those black wisdom cubes are the source of these \"sacraments\"...",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Having that said, destroying the Basilica is no trivial task either. We'll still have to get through the Skybound Wall and Algérie herself...",
 			typewriter = {
 				speed = 0.05,
@@ -442,10 +442,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "BOOM!!",
 			soundeffect = "event:/battle/boom2",
+			dir = 1,
+			say = "BOOM!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Suddenly, the lull on the battlefield was broken by a violent and indiscriminate bombardment. Streaks of dark artillery rained down upon Iris, Vichya, and Royal alike.",
 			typewriter = {
 				speed = 0.05,
@@ -509,8 +509,8 @@ return {
 			expression = 3,
 			nameColor = "#ffff4d",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "Algérie, you're pushing it too far!",
 			typewriter = {
 				speed = 0.05,
@@ -524,9 +524,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 902010,
 			nameColor = "#ffff4d",
-			dir = 1,
 			say = "Richelieu, what are we going to do? If we can't get Algérie back, everything's going to be destroyed!",
 			typewriter = {
 				speed = 0.05,
@@ -538,8 +538,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -551,8 +551,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "I...",
 			typewriter = {
 				speed = 0.05,
@@ -567,8 +567,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "I'll draw Algérie's attention! Richelieu, take the others and destroy the Basilica!",
 			typewriter = {
 				speed = 0.05,
@@ -583,8 +583,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Jeanne?! That's way too risky! At least take Béarn with you...",
 			typewriter = {
 				speed = 0.05,
@@ -596,8 +596,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -628,8 +628,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -644,8 +644,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -660,8 +660,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -676,8 +676,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -692,8 +692,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -708,11 +708,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_qiongding_4",
-			actorName = "Richelieu",
 			dir = 1,
+			actorName = "Richelieu",
 			say = "Jeanne!",
 			dialogShake = {
 				speed = 0.09,
@@ -729,8 +729,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,

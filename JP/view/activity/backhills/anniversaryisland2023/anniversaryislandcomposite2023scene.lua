@@ -1,20 +1,20 @@
 slot0 = class("AnniversaryIslandComposite2023Scene", import("view.base.BaseUI"))
 slot0.FilterAll = bit.bor(1, 2)
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AnniversaryIslandComposite2023UI"
 end
 
 slot1 = "ui/AnniversaryIslandComposite2023UI_atlas"
 slot2 = "ui/AtelierCommonUI_atlas"
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	table.ParallelIpairsAsync({
 		uv0,
 		uv1
@@ -23,7 +23,7 @@ function slot0.preload(slot0, slot1)
 	end, slot1)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.layerFormulaList = slot0._tf:Find("Panel/FormulaList")
 	slot0.layerFormulaDetail = slot0._tf:Find("Panel/FormulaDetail")
 	slot0.top = slot0._tf:Find("Top")
@@ -31,7 +31,7 @@ function slot0.init(slot0)
 
 	setActive(slot0.layerFormulaList:Find("Item"), false)
 
-	function slot0.formulaRect.onUpdateItem(slot0, slot1)
+	slot0.formulaRect.onUpdateItem = function(slot0, slot1)
 		uv0:UpdateFormulaListItem(slot0 + 1, slot1)
 	end
 
@@ -55,7 +55,7 @@ function slot0.init(slot0)
 	setText(slot0.layerFormulaDetail:Find("MaterialsBG/MaterialsTitle"), i18n("workbench_tips9"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.contextData.filterType = slot0.contextData.filterType or uv0.FilterAll
 
 	table.Foreach(slot0.formulaFilterButtons, function (slot0, slot1)
@@ -141,9 +141,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.InitCounter(slot0, slot1, slot2, slot3, slot4)
-	slot0:DisposeCounter()
-
+slot0.InitCounter = function(slot0, slot1, slot2, slot3, slot4)
 	slot2[2] = math.max(slot2[1], slot2[2])
 	slot5 = slot1
 	slot6 = slot0.layerFormulaDetail
@@ -160,8 +158,7 @@ function slot0.InitCounter(slot0, slot1, slot2, slot3, slot4)
 		setText(uv1:Find("Number"), slot0)
 		uv2(uv0)
 	end)()
-
-	slot8, slot0._rightRemoveTimer = pressPersistTrigger(slot6:Find("Plus"), 0.5, function (slot0)
+	pressPersistTrigger(slot6:Find("Plus"), 0.5, function (slot0)
 		uv0 = uv0 + 1
 		uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -174,7 +171,7 @@ function slot0.InitCounter(slot0, slot1, slot2, slot3, slot4)
 
 		uv2()
 	end, nil, true, true, 0.1, SFX_PANEL)
-	slot10, slot0._leftRemoveTimer = pressPersistTrigger(slot6:Find("Minus"), 0.5, function (slot0)
+	pressPersistTrigger(slot6:Find("Minus"), 0.5, function (slot0)
 		uv0 = uv0 - 1
 		uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -186,7 +183,6 @@ function slot0.InitCounter(slot0, slot1, slot2, slot3, slot4)
 
 		uv2()
 	end, nil, true, true, 0.1, SFX_PANEL)
-
 	onButton(slot0, slot6:Find("Plus10"), function ()
 		uv0 = uv0 + 10
 		uv0 = math.clamp(uv0, uv1[1], uv1[2])
@@ -206,21 +202,11 @@ function slot0.InitCounter(slot0, slot1, slot2, slot3, slot4)
 		uv2()
 	end)
 
-	slot14 = slot0.layerFormulaDetail
+	slot10 = slot0.layerFormulaDetail
 
-	onButton(slot0, slot14:Find("Composite"), function ()
+	onButton(slot0, slot10:Find("Composite"), function ()
 		existCall(uv0, uv1)
 	end, SFX_PANEL)
-end
-
-function slot0.DisposeCounter(slot0)
-	if slot0._leftRemoveTimer then
-		slot0._leftRemoveTimer()
-		slot0._rightRemoveTimer()
-
-		slot0._leftRemoveTimer = nil
-		slot0._rightRemoveTimer = nil
-	end
 end
 
 slot3 = {
@@ -228,7 +214,7 @@ slot3 = {
 	[DROP_TYPE_WORKBENCH_DROP] = "workbench_tips7"
 }
 
-function slot0.UpdateFormulaListItem(slot0, slot1, slot2)
+slot0.UpdateFormulaListItem = function(slot0, slot1, slot2)
 	slot3 = tf(slot2)
 	slot4 = slot0.env.filterFormulas[slot1]
 	slot5 = slot4:GetProduction()
@@ -277,7 +263,7 @@ function slot0.UpdateFormulaListItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateFilterButtons(slot0)
+slot0.UpdateFilterButtons = function(slot0)
 	table.Foreach(slot0.formulaFilterButtons, function (slot0, slot1)
 		slot2 = uv0.contextData.filterType ~= uv1.FilterAll and bit.band(uv0.contextData.filterType, bit.lshift(1, slot0 - 1)) > 0
 
@@ -286,7 +272,7 @@ function slot0.UpdateFilterButtons(slot0)
 	end)
 end
 
-function slot0.BuildActivityEnv(slot0)
+slot0.BuildActivityEnv = function(slot0)
 	slot0.env.formulas = _.map(pg.activity_workbench_recipe.all, function (slot0)
 		slot1 = WorkBenchFormula.New({
 			configId = slot0
@@ -311,11 +297,11 @@ function slot0.BuildActivityEnv(slot0)
 	slot0:FilterFormulas()
 end
 
-function slot0.FilterFormulas(slot0)
+slot0.FilterFormulas = function(slot0)
 	slot1 = {}
 	slot2 = slot0.contextData.filterType
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		if uv0 == uv1.FilterAll then
 			return true
 		end
@@ -354,7 +340,7 @@ function slot0.FilterFormulas(slot0)
 	slot0.env.filterFormulas = slot1
 end
 
-function slot0.UpdateFormulaList(slot0)
+slot0.UpdateFormulaList = function(slot0)
 	slot1 = #slot0.env.filterFormulas == 0
 
 	setActive(slot0.layerFormulaList:Find("Empty"), slot1)
@@ -362,7 +348,7 @@ function slot0.UpdateFormulaList(slot0)
 	slot0.formulaRect:SetTotalCount(#slot0.env.filterFormulas)
 end
 
-function slot0.UpdateFormulaDetail(slot0, slot1)
+slot0.UpdateFormulaDetail = function(slot0, slot1)
 	slot0.contextData.formulaId = slot1
 
 	setActive(slot0.layerFormulaDetail, slot1)
@@ -443,7 +429,7 @@ function slot0.UpdateFormulaDetail(slot0, slot1)
 		end
 	end)
 
-	function slot9(slot0)
+	slot9 = function(slot0)
 		slot2 = uv0.layerFormulaDetail
 		slot3 = uv0.layerFormulaDetail
 
@@ -471,19 +457,19 @@ function slot0.UpdateFormulaDetail(slot0, slot1)
 	slot9(slot10)
 end
 
-function slot0.BindEnv(slot0, slot1, slot2)
+slot0.BindEnv = function(slot0, slot1, slot2)
 	table.insert(slot0.listeners, {
 		keys = slot1,
 		func = slot2
 	})
 end
 
-function slot0.RefreshData(slot0)
+slot0.RefreshData = function(slot0)
 	slot0.lastEnv = slot0.lastEnv or {}
 	slot1 = {}
 	slot2 = nil
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		if uv0[slot0] then
 			return
 		end
@@ -523,18 +509,18 @@ function slot0.RefreshData(slot0)
 	slot0.lastEnv = table.shallowCopy(slot0.env)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0:RefreshData()
 	AnniversaryIsland2023Scene.PlayStory()
 end
 
-function slot0.OnReceiveFormualRequest(slot0, slot1)
+slot0.OnReceiveFormualRequest = function(slot0, slot1)
 	slot0.env.formulaId = slot1
 
 	slot0:UpdateView()
 end
 
-function slot0.UpdateActivityDrop(slot0, slot1, slot2, slot3)
+slot0.UpdateActivityDrop = function(slot0, slot1, slot2, slot3)
 	updateDrop(slot1, slot2)
 	SetCompomentEnabled(slot1:Find("icon_bg"), typeof(Image), false)
 	setActive(slot1:Find("bg"), false)
@@ -556,8 +542,7 @@ function slot0.UpdateActivityDrop(slot0, slot1, slot2, slot3)
 	slot0.loader:GetSpriteQuiet(uv0, slot5, slot1)
 end
 
-function slot0.willExit(slot0)
-	slot0:DisposeCounter()
+slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 end
 

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_69 = {}
 slot1 = slot0.word_template_69
 
-function temp()
+temp = function()
 	uv0["雏"] = {
 		["形"] = {
 			["明"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["褚"] = {
 		["益"] = {
 			["民"] = {
@@ -61,7 +61,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["处"] = {
 		["处"] = {
 			["性"] = {
@@ -173,7 +173,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["處"] = {
 		["女"] = {
 			["開"] = {
@@ -190,7 +190,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["触"] = {
 		["电"] = {
 			["精"] = {
@@ -204,7 +204,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["搋"] = {
 		this = {
 			this = true
@@ -214,7 +214,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["川"] = {
 		["村"] = {
 			["千"] = {

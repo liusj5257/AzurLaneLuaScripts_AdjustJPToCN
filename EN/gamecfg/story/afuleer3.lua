@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 3: Welcoming Party</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One day, at port...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "One day, at port...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,15 +98,15 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "...It would seem like this is the place.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "???",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "???",
 			say = "Avrora is here!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Northern Parliament Crowd",
+			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Avrora!!",
 			typewriter = {
 				speed = 0.05,
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			say = "With two loud bangs, streams of confetti shot straight towards us.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "With two loud bangs, streams of confetti shot straight towards us.",
 			effects = {
 				{
 					active = true,
@@ -257,8 +257,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Aha~☆ Didn't think you had it in you to snag the commander. Good going, girl~♪",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Avrora, we decided to throw a simple welcoming party to celebrate your return to the naval base.",
 			effects = {
@@ -355,8 +355,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "Heheh, it's thanks to a flash of inspiration I had!",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "You see, normally, you're supposed to throw a welcoming party for the new arrivals. But in the Northern Parliament, the new arrivals throw a welcoming party for you!",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,8 +399,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "And, as Gangut said... we're welcoming the return of an old comrade, so... welcome back, Avrora!",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "Sure, sure... Tashkent is only doing this for a friend.",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Avrora wasn't the only one impressed by the warmth and hospitality of her friends from the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,
@@ -479,8 +479,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "Mhm. I brought lots of hot chocolate.",
 			typewriter = {
@@ -496,8 +496,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "...*glug* *glug*",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "Hehe~ Grozny, take your time with that, okay?",
 			typewriter = {
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "γpa！",
 			effects = {
 				{
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "Northern Parliament Crowd",
 			dir = 1,
 			blackBg = true,
+			actorName = "Northern Parliament Crowd",
 			say = "γpa！",
 			effects = {
 				{

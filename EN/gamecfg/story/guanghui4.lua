@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Lady's Modest Proposal\n\n<size=45>Chapter 4 - Heart-pounding Intimacy?!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "The parasol Unicorn had spotted was indeed a very fancy one. We should hurry up and put it to use.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "The parasol Unicorn had spotted was indeed a very fancy one. We should hurry up and put it to use.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It seemed safe enough, so I decided to let her help out.",
 			typewriter = {
 				speed = 0.05,
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "We did it!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "After successfully setting the parasol inside the table, Unicorn sat down on a chair next to her.",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She must be happy that she was able to help out. She's quite the reserved one, but I could tell that much.",
 			typewriter = {
 				speed = 0.05,
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Illustrious looked at Unicorn gleefully, then sat down next to me.",
 			typewriter = {
 				speed = 0.05,
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Even so, I'm sure that Unicorn trusts you and depends on you.",
 			typewriter = {
 				speed = 0.05,
@@ -243,9 +243,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Illustrious showed me a dazzling, pure smile. Staring at it made me a bit embarrassed, so I turned away from her.",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "When Illustrious saw me stretching my arms, she looked down at the ground with dejection.",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Acceding to my pounding heart, I accepted Illustrious's unexpected proposal.",
 			typewriter = {
 				speed = 0.05,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Though I was immensely nervous when I felt the sensation of Illustrious's fingers intertwined with mine, I let go of her hand slowly,",
 			typewriter = {
 				speed = 0.05,
@@ -379,9 +379,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I let go of her hand and sat down. Just then, I felt Illustrious place her hands on my shoulders.",
 			typewriter = {
 				speed = 0.05,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "As she doesn't have her rigging equipped, she may not be able to put as much strength into her massage as she hoped.",
 			typewriter = {
 				speed = 0.05,
@@ -439,9 +439,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Honestly, my brain didn't even register that as a massage.",
 			typewriter = {
 				speed = 0.05,
@@ -453,9 +453,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The only sensation I felt was that of something soft hitting my back, over and over again...",
 			typewriter = {
 				speed = 0.05,

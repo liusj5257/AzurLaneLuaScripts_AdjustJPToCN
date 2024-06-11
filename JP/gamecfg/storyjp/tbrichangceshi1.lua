@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TBRICHANGCESHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TBRICHANGCESHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "educate_tb_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "指挥官......",
 			bgm = "story-1",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "指挥官......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "指挥官",
+			side = 2,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "旁白",
+			side = 2,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "指挥官",
+			side = 1,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "指挥官",
+			side = 2,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "指挥官",
+			side = 2,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,

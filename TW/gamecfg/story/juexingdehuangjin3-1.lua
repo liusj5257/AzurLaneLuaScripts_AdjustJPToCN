@@ -6,12 +6,12 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "根據情報，大海中甜點突然冒出的地方，就是鐵爪惡魔的據點purin……",
 			bgm = "story-battle-16bit-sfc",
+			actor = 100011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "根據情報，大海中甜點突然冒出的地方，就是鐵爪惡魔的據點purin……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -30,10 +30,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這個香甜的味道……Purin！已經距離目標很近了！",
 			painting = {
 				alpha = 0.3,
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "轟——————！",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			soundeffect = "event:/battle/boom2",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,10 +97,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "敵襲？！看本大人輕鬆擋住purin！",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼哼哼，本大人乃是黃金（Golden）的化身，試作型布里MKII！",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "黃金（Golden），是光明、希望與正義的化身啊purin！",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "而且妳才是反派吧purin！",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼，這就是妳獲得的力量？",
 			painting = {
 				alpha = 0.3,
@@ -283,10 +283,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我的超級鑽頭MKII也不會輸的！",
 			painting = {
 				alpha = 0.3,
@@ -298,12 +298,12 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#A9F548FF",
 			side = 0,
-			hidePaintObj = true,
-			actorName = "試作型布里MKII&鐵爪惡魔",
+			hideOther = true,
 			actor = 403130,
+			actorName = "試作型布里MKII&鐵爪惡魔",
+			hidePaintObj = true,
 			say = "衝擊吧，試作型超級鑽頭MKII！\n咆哮吧，巨龍機甲·鐵爪！！",
 			subActors = {
 				{
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "巨龍機甲·鐵爪 ",
+			side = 2,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "▂▃▄▅▆▇███*猛烈的咆哮*██▌██▌██▌██▌",

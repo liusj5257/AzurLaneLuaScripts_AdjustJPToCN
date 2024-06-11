@@ -1,7 +1,7 @@
 slot0 = class("JiujiuYoyoPage", import("...base.BaseActivityPage"))
 slot1 = PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_CHT
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
 	slot0.taskBtn = slot0:findTF("task_btn", slot0.bg)
@@ -33,7 +33,7 @@ function slot0.OnInit(slot0)
 	slot0:register()
 end
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(ActivityMediator.ON_SHAKE_BEADS_RESULT, function (slot0, slot1)
 		uv0:displayResult(slot1.awards, slot1.number, function ()
 			uv0.callback()
@@ -41,7 +41,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskList = pg.activity_template[slot0.activity:getConfig("config_client").taskActID].config_data
 	slot0.startTime = slot0.activity:getStartTime()
@@ -60,7 +60,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -96,7 +96,7 @@ function slot0.OnFirstFlush(slot0)
 	blinkAni(slot0.rollingBlink, 0.5)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot4 = pg.TimeMgr.GetInstance()
 	slot5 = slot4
 	slot4 = slot4.GetServerTime
@@ -134,7 +134,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:CheckFinalAward()
 end
 
-function slot0.initAwardList(slot0)
+slot0.initAwardList = function(slot0)
 	slot0.awardUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot1 + 1
@@ -164,7 +164,7 @@ function slot0.initAwardList(slot0)
 	slot0.awardUIList:align(#slot0.awardList)
 end
 
-function slot0.initTaskWindow(slot0)
+slot0.initTaskWindow = function(slot0)
 	slot0.finishItemList = {}
 	slot0.finishTaskVOList = {}
 
@@ -215,11 +215,11 @@ function slot0.initTaskWindow(slot0)
 	slot0.taskUIList:align(#slot0.taskList)
 end
 
-function slot0.closeTask(slot0)
+slot0.closeTask = function(slot0)
 	setActive(slot0.taskWindow, false)
 end
 
-function slot0.openTask(slot0)
+slot0.openTask = function(slot0)
 	setActive(slot0.taskWindow, true)
 
 	if slot0.isFirst == 0 then
@@ -240,7 +240,7 @@ function slot0.openTask(slot0)
 	end
 end
 
-function slot0.autoFinishTask(slot0)
+slot0.autoFinishTask = function(slot0)
 	slot1 = 0.01
 	slot2 = 0.5
 
@@ -269,7 +269,7 @@ function slot0.autoFinishTask(slot0)
 	end, slot1, nil)
 end
 
-function slot0.CheckFinalAward(slot0)
+slot0.CheckFinalAward = function(slot0)
 	if uv0 and slot0.activity.data2 == 0 and slot0.remainTotalNum == 0 then
 		slot0:emit(ActivityMediator.EVENT_OPERATION, {
 			cmd = 2,
@@ -278,11 +278,11 @@ function slot0.CheckFinalAward(slot0)
 	end
 end
 
-function slot0.displayResult(slot0, slot1, slot2, slot3)
+slot0.displayResult = function(slot0, slot1, slot2, slot3)
 	slot0:setForbidMaskStatus(true)
 	setActive(slot0.rollingAni, true)
 
-	function slot0.aniCallback()
+	slot0.aniCallback = function()
 		uv0()
 	end
 
@@ -303,7 +303,7 @@ function slot0.displayResult(slot0, slot1, slot2, slot3)
 	end, 4, nil)
 end
 
-function slot0.setForbidMaskStatus(slot0, slot1)
+slot0.setForbidMaskStatus = function(slot0, slot1)
 	if slot1 then
 		setActive(slot0.forbidMask, true)
 		pg.UIMgr.GetInstance():OverlayPanel(slot0.forbidMask)
@@ -313,7 +313,7 @@ function slot0.setForbidMaskStatus(slot0, slot1)
 	end
 end
 
-function slot0.canFinishTask()
+slot0.canFinishTask = function()
 	slot0 = pg.activity_template[ActivityConst.JIUJIU_YOYO_ID]
 	slot4 = pg.TimeMgr.GetInstance():DiffDay(pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0.time[2]), pg.TimeMgr.GetInstance():GetServerTime()) + 1
 	slot5 = false
@@ -335,7 +335,7 @@ function slot0.canFinishTask()
 	return slot5
 end
 
-function slot0.IsShowRed()
+slot0.IsShowRed = function()
 	return getProxy(ActivityProxy):getActivityById(ActivityConst.JIUJIU_YOYO_ID).data1 > 0 or uv0.canFinishTask()
 end
 

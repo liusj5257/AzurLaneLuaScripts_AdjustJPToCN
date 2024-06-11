@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "bgm-cccp",
 			actor = 705050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "前進だ！火力を叩き込め！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "踏み潰すわよ！そら！",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "あはははは！これだ！もっと抵抗しろ！そしたらこっちも全力を出してやる！",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "あまり気が進まないけど……やってやるわ！Ура! ",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			say = "……っぷ。空っぽになった…早くやっつけて帰って飲もう",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "おお！また閃いたよ！これならどうだ！",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "北方連合の主力艦船たちの砲火の嵐が、あっという間にセイレーンを飲み込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -217,8 +217,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "と言っても急場しのぎ的な編成でな。階級・指揮系統を無視したものだとご理解いただきたい",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "…チャパエフだ。私達の中では一番うまく艤装を使いこなしている",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "手綱を預かってもらっているわ。お互いうまくやりましょう",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "ガングートだ。激情的な性格だが、面倒見のいい奴だ",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "はははは！同志よ！共にこの青き航路を守るために奮闘しようではないか！",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "ふーん、あんたね。実力を見させてもらうわよ、同志ちゃん",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "同志…ちゃん？",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "あははは…あまり深く考えなくていいわよ？",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "グロズヌイだ。Кроли（クロ―リク）には気をつけたほうがいい",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "くろーりく？",
 			typewriter = {
 				speed = 0.05,
@@ -416,8 +416,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			say = "うん。この子はкролик（クローリク）ちゃん。可愛い、убийца（ウビーイツァ）",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "ミンスクだ。この子のひらめきは奇想天外だが、時々役立ってくれる。活用してやってほしい",
 			typewriter = {
 				speed = 0.05,
@@ -448,8 +448,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "えへへ、同志指揮官、よろしくな！",
 			typewriter = {
 				speed = 0.05,
@@ -464,8 +464,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "アヴローラさんとパーミャチ・メルクーリヤさんは…紹介しなくてもいいだろう",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "これが……北方連合……",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "個性的な子が多いが、今の戦いぶりを見ても、彼女たちの戦力はどの陣営と比べても決して引けを取らない。",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……もしや北方連合の実力は今まで思っていたのと全然違うかもしれない。",
 			typewriter = {
 				speed = 0.05,
@@ -518,9 +518,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "共同作戦の規定により、我が北方連合艦隊はこれから同志指揮官の指揮下に入る。",
 			typewriter = {
 				speed = 0.05,
@@ -541,8 +541,8 @@ return {
 			expression = 5,
 			side = 2,
 			actor = 705050,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "そうだ。そのための共同作戦でもある。北方連合の力、効率的に使うがいい",
 			effects = {
 				{

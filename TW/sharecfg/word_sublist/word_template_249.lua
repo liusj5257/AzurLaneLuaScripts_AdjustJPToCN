@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_249 = {}
 slot1 = slot0.word_template_249
 
-function temp()
+temp = function()
 	uv0["發"] = {
 		["楞"] = {
 			this = true
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["方"] = {
 		["勵"] = {
 			["之"] = {
@@ -110,7 +110,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["防"] = {
 		["衛"] = {
 			["指"] = {
@@ -126,7 +126,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["飛"] = {
 		["揚"] = {
 			["論"] = {

@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,24 +42,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_542",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "予想通り、眠れない夜になった。",
-			bgm = "story-commander-up",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "勝利の喜びもつかの間、各地からのセイレーン艦隊襲撃の知らせが雪崩のように押し寄せてきた。",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "SA海域を初め、南大陸東部から大洋まで、セイレーンの大艦隊の出現が報告されている。",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "それも――みんな南大洋に向けて戦力を集中しているのとのこと。",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "どうやらこちらが「META」を撃退したことで、オブザーバーが盛り返したようだ。",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "もっとも、南極大陸にはドロイドがかなり残っていて、セイレーンはまずはそっちと相争うことになるだろう。",
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "だが、この状況下で仲間を南極大陸に残しては乱戦に巻き込まれてしまう。",
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "なので、ひとまず南極大陸にいる全艦隊に撤収を指示した。",
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "「アズールレーン連合艦隊は安全海域に到着後、解散し各陣営の勢力範囲内に帰投する――」",
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "それから、事の発端を教えてくれた「彼女」に礼を言わないと……",
@@ -170,28 +170,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "秘密回線を開き、精神干渉を受け入れると――目の前の風景が星々が輝く銀河に変わった。",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -202,10 +202,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "…………そろそろだと思ってたわ",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "うん。あれは最初からセイレーンのマヤカシよ",
 			painting = {
 				alpha = 0.3,
@@ -274,10 +274,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "おそらくはそれもオブザーバーの仕掛けの一つだと思う。効果を信じこませるには「制限」を解除するのが一番手っ取り早いわ",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "「再彫刻」はその…危険で不安定な「META」化の特殊段階。あまり詳しくなってもしょうがないわ",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "ヒントをあげるなら…指揮官は「META」化してヒトが変わった子を何人も知ってるよね？",
 			painting = {
 				alpha = 0.3,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "なぜヒトが変わったか、そもそも「META」として「ああなった」エネルギーと情報はどこから来ているのか――",
 			painting = {
 				alpha = 0.3,
@@ -429,10 +429,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "うん。答えようにも、指揮官が実際どんなものを見たかが分からないと…",
 			painting = {
 				alpha = 0.3,
@@ -444,12 +444,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "もし機会があれば今度一緒に行こう？",
 			painting = {
 				alpha = 0.3,
@@ -464,10 +464,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "「太陽」の活動が活発になってきているし、きっと今回のは最後じゃないはずよ",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "ご明察ね。概念的に「薄まり」、「混じり合い」を誘発しやすくなる",
 			painting = {
 				alpha = 0.3,
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "少し危険だけどチャンスでもあるわ",
 			painting = {
 				alpha = 0.3,
@@ -541,10 +541,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "ごめん、今はぼかしてしか言えないの。いつか全部教えるから",
 			painting = {
 				alpha = 0.3,
@@ -559,10 +559,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "……指揮官、それよりあの「META」のことは本当に大丈夫？",
 			painting = {
 				alpha = 0.3,
@@ -577,10 +577,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "あの子は言ったはずよ？隙あらば侵略してくるって",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "ならいいけど。この「枝」は今、絶えず脅威に晒されているわ",
 			painting = {
 				alpha = 0.3,
@@ -625,10 +625,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "あの子の最初の目的はくじいたけど、あと2つはあるの",
 			painting = {
 				alpha = 0.3,
@@ -643,10 +643,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "指揮官、気をつけて",
 			painting = {
 				alpha = 0.3,
@@ -661,10 +661,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "この戦いはまだ終わっていないわ――",
 			painting = {
 				alpha = 0.3,

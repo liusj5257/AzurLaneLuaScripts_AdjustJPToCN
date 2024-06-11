@@ -3,10 +3,10 @@ pg.GuideMgr = singletonClass("GuideMgr")
 slot0 = pg.GuideMgr
 slot0.ENABLE_GUIDE = true
 slot0.MANAGER_STATE = {
-	IDLE = 1,
-	BUSY = 2,
 	LOADING = 0,
 	BREAK = 4,
+	IDLE = 1,
+	BUSY = 2,
 	STOP = 3
 }
 slot1 = 1
@@ -15,11 +15,11 @@ slot3 = 3
 slot4 = 4
 slot5 = 5
 slot6 = {
-	MODE1 = 1,
-	MODE2 = 2
+	MODE2 = 2,
+	MODE1 = 1
 }
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	print("initializing guide manager...")
 
 	slot0.managerState = uv0.MANAGER_STATE.LOADING
@@ -77,15 +77,15 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.isRuning(slot0)
+slot0.isRuning = function(slot0)
 	return slot0.managerState == uv0.MANAGER_STATE.BUSY
 end
 
-function slot0.transformPos(slot0, slot1)
+slot0.transformPos = function(slot0, slot1)
 	return tf(slot0._go):InverseTransformPoint(slot1)
 end
 
-function slot0.canPlay(slot0)
+slot0.canPlay = function(slot0)
 	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
 		return false, 1
 	end
@@ -101,7 +101,7 @@ function slot0.canPlay(slot0)
 	return true
 end
 
-function slot0.onSceneAnimDone(slot0, slot1)
+slot0.onSceneAnimDone = function(slot0, slot1)
 	if not slot0.inited then
 		return
 	end
@@ -115,7 +115,7 @@ function slot0.onSceneAnimDone(slot0, slot1)
 	end
 end
 
-function slot0.onSceneExit(slot0, slot1)
+slot0.onSceneExit = function(slot0, slot1)
 	if not slot0.inited then
 		return
 	end
@@ -125,15 +125,15 @@ function slot0.onSceneExit(slot0, slot1)
 	end
 end
 
-function slot0.checkModuleOpen(slot0, slot1)
+slot0.checkModuleOpen = function(slot0, slot1)
 	return table.contains(slot0.sceneStore, slot1)
 end
 
-function slot0.isPlayed(slot0, slot1)
+slot0.isPlayed = function(slot0, slot1)
 	return pg.NewStoryMgr.GetInstance():IsPlayed(slot1)
 end
 
-function slot0.play(slot0, slot1, slot2, slot3, slot4)
+slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 	if not uv0.ENABLE_GUIDE then
 		return
 	end
@@ -199,7 +199,7 @@ function slot0.play(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.prepareGuider(slot0, slot1)
+slot0.prepareGuider = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.START_GUIDE)
 	slot0._go.transform:SetAsLastSibling()
 	slot0._go:SetActive(true)
@@ -212,10 +212,10 @@ function slot0.prepareGuider(slot0, slot1)
 	end)
 end
 
-function slot0.doCurrEvent(slot0, slot1, slot2)
-	function slot3(slot0)
+slot0.doCurrEvent = function(slot0, slot1, slot2)
+	slot3 = function(slot0)
 		if uv0.waitScene and uv0.waitScene ~= "" and not table.contains(uv1.scenes, uv0.waitScene) then
-			function uv1.sceneFunc(slot0)
+			uv1.sceneFunc = function(slot0)
 				if uv0.waitScene == slot0 or table.contains(uv1.sceneStore, uv0.waitScene) then
 					uv1.sceneFunc = nil
 
@@ -229,7 +229,7 @@ function slot0.doCurrEvent(slot0, slot1, slot2)
 		end
 	end
 
-	function slot4()
+	slot4 = function()
 		if uv0.hideui then
 			uv1:hideUI(uv0, uv2)
 		elseif uv0.stories then
@@ -259,7 +259,7 @@ function slot0.doCurrEvent(slot0, slot1, slot2)
 	end
 end
 
-function slot0.showSign(slot0, slot1, slot2)
+slot0.showSign = function(slot0, slot1, slot2)
 	slot3 = slot1.showSign
 
 	(function ()
@@ -294,7 +294,7 @@ function slot0.showSign(slot0, slot1, slot2)
 			slot7[#slot7 + 1] = slot17
 		end
 
-		function recycle_handler()
+		recycle_handler = function()
 			for slot3, slot4 in ipairs(uv0) do
 				slot5 = uv1.curSignList[slot4]
 
@@ -383,7 +383,7 @@ function slot0.showSign(slot0, slot1, slot2)
 	end)()
 end
 
-function slot0.getSign(slot0, slot1, slot2)
+slot0.getSign = function(slot0, slot1, slot2)
 	slot3, slot4 = nil
 	slot5 = slot2.atlasName
 	slot6 = slot2.fileName
@@ -419,7 +419,7 @@ function slot0.getSign(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.recycleSign(slot0, slot1, slot2)
+slot0.recycleSign = function(slot0, slot1, slot2)
 	if slot0.signPool[slot1] == nil then
 		slot0.signPool[slot1] = {}
 	end
@@ -433,7 +433,7 @@ function slot0.recycleSign(slot0, slot1, slot2)
 	end
 end
 
-function slot0.destroyAllSign(slot0)
+slot0.destroyAllSign = function(slot0)
 	for slot4, slot5 in ipairs(slot0.curSignList) do
 		if slot5.signTimer ~= nil then
 			slot5.signTimer:Stop()
@@ -447,7 +447,7 @@ function slot0.destroyAllSign(slot0)
 	end
 end
 
-function slot0.sendNotifies(slot0, slot1, slot2)
+slot0.sendNotifies = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1.notifies) do
@@ -462,7 +462,7 @@ function slot0.sendNotifies(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.playStories(slot0, slot1, slot2)
+slot0.playStories = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1.stories) do
@@ -477,7 +477,7 @@ function slot0.playStories(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.hideUI(slot0, slot1, slot2)
+slot0.hideUI = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1.hideui) do
@@ -502,7 +502,7 @@ function slot0.hideUI(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.findUI(slot0, slot1, slot2)
+slot0.findUI = function(slot0, slot1, slot2)
 	slot3 = true
 
 	seriesAsync({
@@ -570,12 +570,12 @@ function slot0.findUI(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.CheckSprite(slot0, slot1, slot2, slot3)
+slot0.CheckSprite = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = nil
 	slot6 = 0
 	slot7 = 10
 
-	function slot4()
+	slot4 = function()
 		uv0 = uv0 + 1
 
 		uv1:RemoveCheckSpriteTimer()
@@ -615,7 +615,7 @@ function slot0.CheckSprite(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.RemoveCheckSpriteTimer(slot0)
+slot0.RemoveCheckSpriteTimer = function(slot0)
 	if slot0.srpiteTimer then
 		slot0.srpiteTimer:Stop()
 
@@ -623,7 +623,7 @@ function slot0.RemoveCheckSpriteTimer(slot0)
 	end
 end
 
-function slot0.SetHighLightLine(slot0, slot1)
+slot0.SetHighLightLine = function(slot0, slot1)
 	slot2 = slot0._tf:InverseTransformPoint(slot1.position)
 	slot3 = cloneTplTo(findTF(slot0._signRes, "wShowArea"), slot0._tf)
 	slot4 = 15
@@ -634,14 +634,14 @@ function slot0.SetHighLightLine(slot0, slot1)
 	return slot3
 end
 
-function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
+slot0.updateUIStyle = function(slot0, slot1, slot2, slot3)
 	slot0.bgAlpha.alpha = slot1.alpha or 0.2
 
 	SetActive(slot0.guiderTF, slot1.style)
 
 	slot0.highLightLines = {}
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		if uv0.style.ui.lineMode then
 			table.insert(uv1.highLightLines, uv1:SetHighLightLine(slot0))
 		else
@@ -649,7 +649,7 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	function slot5()
+	slot5 = function()
 		onButton(uv0, uv0._go, function ()
 			if uv0.style and uv0.style.scene then
 				uv1:finishCurrEvent(uv0, uv2)
@@ -732,7 +732,7 @@ function slot0.updateUIStyle(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateContent(slot0, slot1)
+slot0.updateContent = function(slot0, slot1)
 	slot2 = slot1.style or {}
 	slot3 = slot2.dir or 1
 	slot4 = slot2.mode or 1
@@ -824,8 +824,8 @@ function slot0.updateContent(slot0, slot1)
 	setAnchoredPosition(slot0.guiderTF, Vector2(slot5, slot6))
 end
 
-function slot0.Finder(slot0)
-	function slot2(slot0, slot1)
+slot0.Finder = function(slot0)
+	slot2 = function(slot0, slot1)
 		slot2 = -1
 
 		for slot6 = 1, slot0.childCount do
@@ -837,7 +837,7 @@ function slot0.Finder(slot0)
 		return slot2
 	end
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		if not IsNil(GameObject.Find(slot0)) then
 			if slot1 and slot1 == -999 then
 				for slot7 = 0, tf(slot2).childCount do
@@ -855,7 +855,7 @@ function slot0.Finder(slot0)
 		end
 	end
 
-	function slot4(slot0, slot1)
+	slot4 = function(slot0, slot1)
 		if uv0(slot0, -1) ~= nil then
 			for slot6, slot7 in ipairs(slot1) do
 				if slot2:Find(slot7) then
@@ -928,7 +928,7 @@ function slot0.Finder(slot0)
 	}
 end
 
-function slot0.cloneGO(slot0, slot1, slot2, slot3)
+slot0.cloneGO = function(slot0, slot1, slot2, slot3)
 	slot4 = tf(Instantiate(slot1))
 	slot4.sizeDelta = tf(slot1).sizeDelta
 
@@ -1024,7 +1024,7 @@ function slot0.cloneGO(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.setFinger(slot0, slot1, slot2)
+slot0.setFinger = function(slot0, slot1, slot2)
 	SetActive(slot0.fingerTF, not slot2.fingerPos or not slot2.fingerPos.hideFinger)
 
 	slot5 = slot2.scale and 1 / slot2.scale or 1
@@ -1045,7 +1045,7 @@ function slot0.setFinger(slot0, slot1, slot2)
 	slot0.fingerTF.localEulerAngles = slot7
 end
 
-function slot0.addUIEventTrigger(slot0, slot1, slot2, slot3)
+slot0.addUIEventTrigger = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2.ui
 	slot5 = slot1
 
@@ -1137,7 +1137,7 @@ function slot0.addUIEventTrigger(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.finishCurrEvent(slot0, slot1, slot2)
+slot0.finishCurrEvent = function(slot0, slot1, slot2)
 	slot0.bgAlpha.alpha = 0.2
 
 	removeOnButton(slot0._go)
@@ -1190,7 +1190,7 @@ function slot0.finishCurrEvent(slot0, slot1, slot2)
 	end
 end
 
-function slot7(slot0)
+slot7 = function(slot0)
 	slot0:clearDelegateInfo()
 	slot0:RemoveCheckSpriteTimer()
 
@@ -1230,13 +1230,13 @@ function slot7(slot0)
 	slot0.uiLongPress.onLongPressed:RemoveAllListeners()
 end
 
-function slot0.addDelegateInfo(slot0)
+slot0.addDelegateInfo = function(slot0)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.isAddDelegateInfo = true
 end
 
-function slot0.clearDelegateInfo(slot0)
+slot0.clearDelegateInfo = function(slot0)
 	if slot0.isAddDelegateInfo then
 		pg.DelegateInfo.Dispose(slot0)
 
@@ -1244,15 +1244,15 @@ function slot0.clearDelegateInfo(slot0)
 	end
 end
 
-function slot0.mask(slot0)
+slot0.mask = function(slot0)
 	SetActive(slot0._go, true)
 end
 
-function slot0.unMask(slot0)
+slot0.unMask = function(slot0)
 	SetActive(slot0._go, false)
 end
 
-function slot0.endGuider(slot0, slot1)
+slot0.endGuider = function(slot0, slot1)
 	uv0(slot0)
 
 	slot0.managerState = uv1.MANAGER_STATE.IDLE
@@ -1264,7 +1264,7 @@ function slot0.endGuider(slot0, slot1)
 	end
 end
 
-function slot0.onDisconnected(slot0)
+slot0.onDisconnected = function(slot0)
 	if slot0._go.activeSelf then
 		slot0.prevState = slot0.managerState
 		slot0.managerState = uv0.MANAGER_STATE.BREAK
@@ -1277,7 +1277,7 @@ function slot0.onDisconnected(slot0)
 	end
 end
 
-function slot0.onReconneceted(slot0)
+slot0.onReconneceted = function(slot0)
 	if slot0.prevState then
 		slot0.managerState = slot0.prevState
 		slot0.prevState = nil

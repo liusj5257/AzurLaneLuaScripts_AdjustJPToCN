@@ -1,18 +1,18 @@
 return {
-	id = "MAOZIHUODONG7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 102100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…？那邊泛著紫色光的東西…是什麼？！",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "唔，曙光，難道說……",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "那些是妳們北方聯合在極北之地的特產嗎…？",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "啊哈哈…不對！那些怎麼看都是塞壬吧！不要把塞壬當成地區特產啊！！",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "真是的，八成又是塞壬折騰出的新型號啦！難道這就是白鷹笑話嗎，真難懂啊…",
 			typewriter = {
 				speed = 0.05,

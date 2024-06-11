@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行6次攻击，触发全弹发射-阿尔及利亚II"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 28212,
 	picture = "",
 	desc = "主炮每进行6次攻击，触发全弹发射-阿尔及利亚II",
 	stack = 1,
-	id = 28212,
+	color = "red",
 	icon = 20200,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 28212,
+				target = "TargetSelf",
 				countType = 28210
 			}
 		}

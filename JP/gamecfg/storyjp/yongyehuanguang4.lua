@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "彩りある光の帯は極夜のバレンツ海の空に煌めき、星々とともに海を明るく照らし出している。",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "これが極光（オーロラ）……美しいです……",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "どういう意味です…？",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "そういうワケのわからん話をしている場合じゃないぞ。オーロラがこれほど見えるくらいには雲がない、つまりその間は――",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "敵もハーマイオニーたちもお互い発見しやすくなる…ってことですね",
 			typewriter = {
 				speed = 0.05,
@@ -101,9 +101,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…！量産艦から、後方より鉄血の偵察機が接近中とのことです！",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "やっぱり来たか！",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "ジャマイカさん、私たちも早く行きましょう！",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "（ああ見えてもうまく連携取れているのか…）",
 			typewriter = {
 				speed = 0.05,
@@ -245,11 +245,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 207010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "もちろんだ。敵の航空戦力は私の航空隊で対処する！全艦、警戒陣形を維持し、輸送船団を守れ！",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

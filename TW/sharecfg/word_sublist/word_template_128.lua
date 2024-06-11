@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_128 = {}
 slot1 = slot0.word_template_128
 
-function temp()
+temp = function()
 	uv0["钻"] = {
 		["插"] = {
 			this = true
@@ -18,7 +18,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.H = {
 		["动"] = {
 			["漫"] = {
@@ -154,7 +154,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["交"] = {
 		["换"] = {
 			["夫"] = {
@@ -191,7 +191,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["火"] = {
 		["辣"] = {
 			["图"] = {

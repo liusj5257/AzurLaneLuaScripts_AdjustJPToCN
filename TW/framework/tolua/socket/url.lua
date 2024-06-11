@@ -6,7 +6,7 @@ slot3.url = {}
 slot4 = slot3.url
 slot4._VERSION = "URL 1.0.3"
 
-function slot4.escape(slot0)
+slot4.escape = function(slot0)
 	return uv0.gsub(slot0, "([^A-Za-z0-9_])", function (slot0)
 		return uv0.format("%%%02x", uv0.byte(slot0))
 	end)
@@ -39,7 +39,7 @@ end)({
 	","
 })
 
-function slot7(slot0)
+slot7 = function(slot0)
 	return uv0.gsub(slot0, "([^A-Za-z0-9_])", function (slot0)
 		if uv0[slot0] then
 			return slot0
@@ -49,13 +49,13 @@ function slot7(slot0)
 	end)
 end
 
-function slot4.unescape(slot0)
+slot4.unescape = function(slot0)
 	return uv0.gsub(slot0, "%%(%x%x)", function (slot0)
 		return uv0.char(uv1.tonumber(slot0, 16))
 	end)
 end
 
-function slot8(slot0, slot1)
+slot8 = function(slot0, slot1)
 	if uv0.sub(slot1, 1, 1) == "/" then
 		return slot1
 	end
@@ -88,7 +88,7 @@ function slot8(slot0, slot1)
 	end)
 end
 
-function slot4.parse(slot0, slot1)
+slot4.parse = function(slot0, slot1)
 	slot3 = uv0.pairs
 	slot4 = slot1 or {}
 
@@ -153,7 +153,7 @@ function slot4.parse(slot0, slot1)
 	return slot2
 end
 
-function slot4.build(slot0)
+slot4.build = function(slot0)
 	slot2 = uv0.build_path(uv0.parse_path(slot0.path or ""))
 
 	if slot0.params then
@@ -205,7 +205,7 @@ function slot4.build(slot0)
 	return slot2
 end
 
-function slot4.absolute(slot0, slot1)
+slot4.absolute = function(slot0, slot1)
 	slot2 = nil
 
 	if uv0.type(slot0) == "table" then
@@ -247,7 +247,7 @@ function slot4.absolute(slot0, slot1)
 	end
 end
 
-function slot4.parse_path(slot0)
+slot4.parse_path = function(slot0)
 	slot1 = {}
 
 	uv0.gsub(slot0 or "", "([^/]+)", function (slot0)
@@ -269,7 +269,7 @@ function slot4.parse_path(slot0)
 	return slot1
 end
 
-function slot4.build_path(slot0, slot1)
+slot4.build_path = function(slot0, slot1)
 	slot2 = ""
 	slot3 = #slot0
 

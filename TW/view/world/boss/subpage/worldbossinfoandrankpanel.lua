@@ -1,10 +1,10 @@
 slot0 = class("WorldBossInfoAndRankPanel", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldBossInfoAndRankUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.toggleRank = slot0:findTF("rank")
 	slot0.toggleInfo = slot0:findTF("info")
 	slot0.myRankTF = slot0:findTF("rank_panel/tpl")
@@ -18,12 +18,12 @@ function slot0.OnLoaded(slot0)
 	slot0.infoSkillList = UIItemList.New(slot0:findTF("info_panel/scrollrect/content"), slot0:findTF("info_panel/scrollrect/content/tpl"))
 end
 
-function slot0.SetCallback(slot0, slot1, slot2)
+slot0.SetCallback = function(slot0, slot1, slot2)
 	slot0.callback = slot1
 	slot0.flushRankCallback = slot2
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 
 	slot1:SetSiblingIndex(2)
@@ -34,7 +34,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	slot0.boss = slot1
 	slot0.proxy = slot2
 
@@ -49,7 +49,7 @@ function slot0.Flush(slot0, slot1, slot2)
 	end
 end
 
-function slot0.FlushInfo(slot0)
+slot0.FlushInfo = function(slot0)
 	slot0.infoTitle.text = slot0.boss.config.name
 
 	slot0.infoSkillList:make(function (slot0, slot1, slot2)
@@ -63,7 +63,7 @@ function slot0.FlushInfo(slot0)
 	slot0.infoSkillList:align(#slot0.boss.config.description)
 end
 
-function slot0.ResetInfoLayout(slot0)
+slot0.ResetInfoLayout = function(slot0)
 	slot1 = 28
 	slot2 = slot0.boss.config.description
 
@@ -93,7 +93,7 @@ function slot0.ResetInfoLayout(slot0)
 	end)
 end
 
-function slot0.FlushRank(slot0)
+slot0.FlushRank = function(slot0)
 	if not slot0.boss then
 		return
 	end
@@ -123,7 +123,7 @@ function slot0.FlushRank(slot0)
 	slot0:AddWaitResultTimer()
 end
 
-function slot0.AddWaitResultTimer(slot0)
+slot0.AddWaitResultTimer = function(slot0)
 	slot0:RemoveWaitTimer()
 
 	slot2 = slot0.boss:ShouldWaitForResult()
@@ -152,7 +152,7 @@ function slot0.AddWaitResultTimer(slot0)
 	end
 end
 
-function slot0.RemoveWaitTimer(slot0)
+slot0.RemoveWaitTimer = function(slot0)
 	if slot0.waitTimer then
 		slot0.waitTimer:Stop()
 
@@ -160,7 +160,7 @@ function slot0.RemoveWaitTimer(slot0)
 	end
 end
 
-function slot0.UpdateRankTF(slot0, slot1, slot2, slot3)
+slot0.UpdateRankTF = function(slot0, slot1, slot2, slot3)
 	setText(slot1:Find("name"), slot2.name)
 	setText(slot1:Find("value/Text"), slot2.damage)
 	setText(slot1:Find("number"), slot2.number or slot3)
@@ -170,7 +170,7 @@ function slot0.UpdateRankTF(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateSelfRank(slot0, slot1)
+slot0.UpdateSelfRank = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -186,7 +186,7 @@ function slot0.UpdateSelfRank(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveWaitTimer()
 end
 

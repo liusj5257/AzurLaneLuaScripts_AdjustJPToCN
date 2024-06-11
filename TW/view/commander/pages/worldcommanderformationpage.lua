@@ -1,10 +1,10 @@
 slot0 = class("WorldCommanderFormationPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldCommanderFormationUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.samllTF = slot0:findTF("small")
 
 	setActive(slot0.samllTF, true)
@@ -49,7 +49,7 @@ function slot0.OnInit(slot0)
 	setText(slot0:findTF("desc/frame/atttr_panel/talents/title/Text"), i18n("commander_subtile_talent"))
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.fleet = slot1
 	slot2 = slot0.fleet:getCommanders()
 
@@ -63,7 +63,7 @@ function slot0.Update(slot0, slot1)
 	setActive(slot0.descSalvageMask, slot0.fleet:IsCatSalvage())
 end
 
-function slot0.openDescPanel(slot0, slot1)
+slot0.openDescPanel = function(slot0, slot1)
 	slot2 = slot1 or 0.2
 
 	if LeanTween.isTweening(go(slot0.samllTF)) or LeanTween.isTweening(go(slot0.descFrameTF)) then
@@ -87,7 +87,7 @@ function slot0.openDescPanel(slot0, slot1)
 	slot0._tf:SetAsLastSibling()
 end
 
-function slot0.closeDescPanel(slot0, slot1)
+slot0.closeDescPanel = function(slot0, slot1)
 	slot2 = slot1 or 0.2
 
 	if LeanTween.isTweening(go(slot0.samllTF)) or LeanTween.isTweening(go(slot0.descFrameTF)) then
@@ -112,7 +112,7 @@ function slot0.closeDescPanel(slot0, slot1)
 	slot0.contextData.inDescPage = false
 end
 
-function slot0.updateDesc(slot0)
+slot0.updateDesc = function(slot0)
 	slot1 = slot0.fleet:getCommanders()
 
 	for slot5 = 1, CommanderConst.MAX_FORMATION_POS do
@@ -126,7 +126,7 @@ function slot0.updateDesc(slot0)
 	slot0:updateAdditions()
 end
 
-function slot0.updateAdditions(slot0)
+slot0.updateAdditions = function(slot0)
 	slot1 = slot0.fleet
 	slot2 = _.values(slot1:getCommandersTalentDesc())
 	slot3, slot4 = slot1:getCommandersAddition()
@@ -156,7 +156,7 @@ function slot0.updateAdditions(slot0)
 	setActive(slot0.talentsArr, #slot2 > 4)
 end
 
-function slot0.updateSkillTF(slot0, slot1, slot2)
+slot0.updateSkillTF = function(slot0, slot1, slot2)
 	setActive(slot2, slot1)
 
 	if slot1 then
@@ -174,7 +174,7 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	removeOnButton(slot2)
 end
 
-function slot0.updateCommander(slot0, slot1, slot2, slot3, slot4)
+slot0.updateCommander = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:Find("add")
 	slot6 = slot1:Find("info")
 
@@ -194,7 +194,7 @@ function slot0.updateCommander(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot6, slot3)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		LeanTween.cancel(go(slot0.samllTF))
 		LeanTween.cancel(go(slot0.descFrameTF))

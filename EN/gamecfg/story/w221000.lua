@@ -1,12 +1,12 @@
 return {
-	id = "W221000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W221000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "We need to break through the Sirens’ defenses and wipe them out.",
 			typewriter = {
 				speed = 0.05,

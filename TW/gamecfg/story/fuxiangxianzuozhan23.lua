@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鐵血浮島要塞群·D12防禦模組周邊",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
+			say = "鐵血浮島要塞群·D12防禦模組周邊",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "我這邊準備工作結束了，前線情況怎麼樣？",
 			typewriter = {
@@ -78,8 +78,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "不過艦隊在匯合之後行動發生了變化，現在正在D13防禦模組的火力網中調整航向，也許是要前往X區…",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "什麼……強行轉向前往X區？！",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "很好……對方的真實意圖終於暴露出來了啊。原來弄了這麼多障眼法，真實意圖是X區……",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "不知道，X區域一直不在我的負責範圍內。不過…塞壬就算是來觀光的，也不能讓它們目的得逞不是嗎？",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "航空浮島A1、A2、A3、B1、B2、B3打擊指令設定完畢。",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "倒計時，5……4……3……2……1…確認中——完成。",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "打擊行動開始，給這些不速之客一個印象深刻的教訓吧！",
 			typewriter = {

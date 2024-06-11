@@ -11,12 +11,13 @@ slot9 = 0
 slot10 = 1
 slot11 = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
 	slot0._tf = slot1.transform
+	slot0.animationPlayer = slot0._tf:GetComponent(typeof(Animation))
 	slot0.front = slot0:findTF("front")
 	slot0.actorTr = slot0._tf:Find("actor")
 	slot0.frontTr = slot0._tf:Find("front")
@@ -55,7 +56,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.pause = false
 end
 
-function slot0.StoryStart(slot0, slot1)
+slot0.StoryStart = function(slot0, slot1)
 	slot0.branchCodeList = {}
 
 	eachChild(slot0.dialoguePanel, function (slot0)
@@ -73,41 +74,50 @@ function slot0.StoryStart(slot0, slot1)
 	slot0:OnStart(slot1)
 end
 
-function slot0.GetOptionContainer(slot0, slot1)
-	if slot1:GetOptionCnt() <= 3 then
+slot0.GetOptionContainer = function(slot0, slot1)
+	slot2 = slot1:GetOptionCnt()
+
+	if slot0.script:IsDialogueStyle2() then
+		setActive(slot0.optionLUIlist.container, true)
+		setActive(slot0.optionCUIlist.container, false)
+
+		return slot0.optionLUIlist, true
+	end
+
+	if slot2 <= 3 then
 		setActive(slot0.optionLUIlist.container, false)
 		setActive(slot0.optionCUIlist.container, true)
 
-		return slot0.optionCUIlist
+		return slot0.optionCUIlist, false
 	else
 		setActive(slot0.optionLUIlist.container, true)
 		setActive(slot0.optionCUIlist.container, false)
 
-		return slot0.optionLUIlist
+		return slot0.optionLUIlist, true
 	end
 end
 
-function slot0.Pause(slot0)
+slot0.Pause = function(slot0)
 	slot0.pause = true
 
 	slot0:PauseAllAnimation()
 	pg.ViewUtils.SetLayer(slot0.effectPanel, Layer.UIHidden)
 end
 
-function slot0.Resume(slot0)
+slot0.Resume = function(slot0)
 	slot0.pause = false
 
 	slot0:ResumeAllAnimation()
 	pg.ViewUtils.SetLayer(slot0.effectPanel, Layer.UI)
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	slot0.stop = true
 
 	slot0:NextOneImmediately()
 end
 
-function slot0.Play(slot0, slot1, slot2, slot3)
+slot0.Play = function(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		slot3()
 
@@ -180,6 +190,9 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 					uv0:LoadEffects(uv1, slot0)
 				end,
 				function (slot0)
+					uv0:ApplyEffects(uv1, slot0)
+				end,
+				function (slot0)
 					uv0:flashin(uv1, slot0)
 				end
 			}, slot0)
@@ -217,10 +230,15 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 				end,
 				function (slot0)
 					uv0:SetLocation(uv1, slot0)
+				end,
+				function (slot0)
+					uv0:DispatcherEvent(uv1, slot0)
 				end
 			}, slot0)
 		end,
 		function (slot0)
+			uv0:ClearCheckDispatcher()
+
 			if not uv0:NextStage(uv1) then
 				return
 			end
@@ -235,6 +253,12 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 		end,
 		function (slot0)
 			if not uv0:NextStage(uv1) then
+				return
+			end
+
+			if uv0.skipOption then
+				slot0()
+
 				return
 			end
 
@@ -264,6 +288,14 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 				return
 			end
 
+			if uv0.skipOption then
+				uv0.skipOption = false
+
+				slot0()
+
+				return
+			end
+
 			slot1 = uv0
 
 			slot1:InitBranches(uv3, uv2, function (slot0)
@@ -284,6 +316,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 			seriesAsync({
 				function (slot0)
 					uv0:ClearAnimation()
+					uv0:ClearApplyEffect()
 					uv0:OnWillExit(uv1, uv2, slot0)
 				end,
 				function (slot0)
@@ -321,7 +354,7 @@ function slot0.Play(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.NextStage(slot0, slot1)
+slot0.NextStage = function(slot0, slot1)
 	if slot0.stage == slot1 - 1 then
 		slot0.stage = slot1
 
@@ -331,7 +364,101 @@ function slot0.NextStage(slot0, slot1)
 	return false
 end
 
-function slot0.TriggerEventIfAuto(slot0, slot1)
+slot0.ApplyEffects = function(slot0, slot1, slot2)
+	if slot1:ShouldShake() then
+		slot0:ApplyShakeEffect(slot1)
+	end
+
+	slot2()
+end
+
+slot0.ApplyShakeEffect = function(slot0, slot1)
+	if not slot1:ShouldShake() then
+		return
+	end
+
+	slot2 = slot0.animationPlayer
+
+	slot2:Play("anim_storyrecordUI_shake_loop")
+
+	slot0.playingShakeAnim = true
+
+	slot0:DelayCall(slot1:GetShakeTime(), function ()
+		uv0:ClearShakeEffect()
+	end)
+end
+
+slot0.ClearShakeEffect = function(slot0)
+	if slot0.playingShakeAnim then
+		slot0.animationPlayer:Play("anim_storyrecordUI_shake_reset")
+
+		slot0.playingShakeAnim = nil
+	end
+end
+
+slot0.ClearApplyEffect = function(slot0)
+	slot0:ClearShakeEffect()
+end
+
+slot0.DispatcherEvent = function(slot0, slot1, slot2)
+	if not slot1:ExistDispatcher() then
+		slot2()
+
+		return
+	end
+
+	slot3 = slot1:GetDispatcher()
+
+	pg.NewStoryMgr.GetInstance():ClearStoryEvent()
+	pg.m02:sendNotification(slot3.name, {
+		data = slot3.data,
+		callbackData = slot3.callbackData,
+		flags = slot0.branchCodeList[slot1:GetId()] or {}
+	})
+
+	if slot1:ShouldHideUI() then
+		setActive(slot0._tf, false)
+	end
+
+	if slot1:IsRecallDispatcher() then
+		slot0:CheckDispatcher(slot1, slot2)
+	else
+		slot2()
+	end
+end
+
+slot0.CheckDispatcher = function(slot0, slot1, slot2)
+	slot3 = slot1:GetDispatcherRecallName()
+	slot0.checkTimer = Timer.New(function ()
+		if pg.NewStoryMgr.GetInstance():CheckStoryEvent(uv0) then
+			if pg.NewStoryMgr.GetInstance():GetStoryEventArg(uv0) and slot0.optionIndex then
+				uv1:SetBranchCode(uv1.script, uv2, slot0.optionIndex)
+
+				uv1.skipOption = true
+			end
+
+			if uv2:ShouldHideUI() then
+				setActive(uv1._tf, true)
+			end
+
+			uv1:ClearCheckDispatcher()
+			uv3()
+		end
+	end, 1, -1)
+
+	slot0.checkTimer:Start()
+	slot0.checkTimer.func()
+end
+
+slot0.ClearCheckDispatcher = function(slot0)
+	if slot0.checkTimer then
+		slot0.checkTimer:Stop()
+
+		slot0.checkTimer = nil
+	end
+end
+
+slot0.TriggerEventIfAuto = function(slot0, slot1)
 	if not slot0:ShouldAutoTrigger() then
 		return
 	end
@@ -347,7 +474,7 @@ function slot0.TriggerEventIfAuto(slot0, slot1)
 	end)
 end
 
-function slot0.TriggerOptionIfAuto(slot0, slot1, slot2)
+slot0.TriggerOptionIfAuto = function(slot0, slot1, slot2)
 	if not slot0:ShouldAutoTrigger() then
 		return
 	end
@@ -362,12 +489,12 @@ function slot0.TriggerOptionIfAuto(slot0, slot1, slot2)
 		end
 
 		if uv1:GetOptionIndexByAutoSel() ~= nil then
-			triggerButton(uv0:GetOptionContainer(uv1).container:GetChild(slot0 - 1):Find("content"))
+			triggerButton(uv0:GetOptionContainer(uv1).container:GetChild(slot0 - 1))
 		end
 	end)
 end
 
-function slot0.ShouldAutoTrigger(slot0)
+slot0.ShouldAutoTrigger = function(slot0)
 	if slot0.pause or slot0.stop then
 		return false
 	end
@@ -375,15 +502,15 @@ function slot0.ShouldAutoTrigger(slot0)
 	return slot0.autoNext
 end
 
-function slot0.CanSkip(slot0)
+slot0.CanSkip = function(slot0)
 	return slot0.step and not slot0.step:IsImport()
 end
 
-function slot0.CancelAuto(slot0)
+slot0.CancelAuto = function(slot0)
 	slot0.autoNext = false
 end
 
-function slot0.NextOne(slot0)
+slot0.NextOne = function(slot0)
 	slot0.timeScale = 0.0001
 
 	if slot0.stage == uv0 then
@@ -397,7 +524,7 @@ function slot0.NextOne(slot0)
 	end
 end
 
-function slot0.NextOneImmediately(slot0)
+slot0.NextOneImmediately = function(slot0)
 	if slot0.callback then
 		slot0:ClearAnimation()
 		slot0:Clear()
@@ -405,7 +532,7 @@ function slot0.NextOneImmediately(slot0)
 	end
 end
 
-function slot0.SetLocation(slot0, slot1, slot2)
+slot0.SetLocation = function(slot0, slot1, slot2)
 	if not slot1:ExistLocation() then
 		slot0.locationAniEvent:SetEndEvent(nil)
 		slot2()
@@ -417,7 +544,7 @@ function slot0.SetLocation(slot0, slot1, slot2)
 
 	slot0.locationTxt.text = slot1:GetLocation().text
 
-	function slot5()
+	slot5 = function()
 		uv0:DelayCall(uv1.time, function ()
 			uv0.locationAnim:Play("anim_newstoryUI_iocation_out")
 
@@ -440,7 +567,7 @@ function slot0.SetLocation(slot0, slot1, slot2)
 	slot0.locationStatus = uv1
 end
 
-function slot0.UpdateIcon(slot0, slot1, slot2)
+slot0.UpdateIcon = function(slot0, slot1, slot2)
 	if not slot1:ExistIcon() then
 		setActive(slot0.iconImage.gameObject, false)
 		slot2()
@@ -467,15 +594,38 @@ function slot0.UpdateIcon(slot0, slot1, slot2)
 	slot2()
 end
 
-function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateOptionTxt = function(slot0, slot1, slot2, slot3)
+	slot4 = slot2:GetComponent(typeof(LayoutElement))
+	slot5 = slot2:Find("content")
+
+	if slot1 then
+		slot7 = slot2:Find("content_max")
+		slot8 = GetPerceptualSize(slot3) >= 17
+		slot9 = slot8 and slot7 or slot5
+
+		setActive(slot5, not slot8)
+		setActive(slot7, slot8)
+		setText(slot9:Find("Text"), slot3)
+
+		slot4.preferredHeight = slot9.rect.height
+	else
+		setText(slot5:Find("Text"), slot3)
+
+		slot4.preferredHeight = slot5.rect.height
+	end
+end
+
+slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = false
-	slot7 = slot0:GetOptionContainer(slot2)
-	slot9 = slot0.branchCodeList[slot2:GetId()] or {}
+	slot7, slot8 = slot0:GetOptionContainer(slot2)
+	slot10 = slot0.branchCodeList[slot2:GetId()] or {}
+	GetOrAddComponent(slot7.container, typeof(CanvasGroup)).blocksRaycasts = true
 	slot0.selectedBranchID = nil
 
 	slot7:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot3 = slot2:Find("content")
+			slot3 = slot2
+			slot6 = table.contains(uv1, uv0[slot1 + 1][2])
 
 			onButton(uv2, slot3, function ()
 				if uv0.pause or uv0.stop then
@@ -491,20 +641,28 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 				uv0:SetBranchCode(uv3, uv4, uv5)
 
 				if uv6:GetComponent(typeof(Animation)) then
+					uv7.blocksRaycasts = false
+
 					slot0:Play("anim_storydialogue_optiontpl_confirm")
 					uv6:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 						setActive(uv0.optionsCg.gameObject, false)
-						uv1(uv2)
+
+						uv1.blocksRaycasts = true
+
+						uv2(uv3)
 					end)
 				else
 					setActive(uv0.optionsCg.gameObject, false)
-					uv7(uv8)
+					uv8(uv9)
 				end
 
 				uv0:HideBranchesWithoutSelected(uv4)
 			end, SFX_PANEL)
-			setButtonEnabled(slot3, not table.contains(uv1, uv0[slot1 + 1][2]))
-			setText(slot3:Find("Text"), uv0[slot1 + 1][1])
+			setButtonEnabled(slot3, not slot6)
+
+			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = slot6 and 0.5 or 1
+
+			uv2:UpdateOptionTxt(uv8, slot3, uv0[slot1 + 1][1])
 		end
 	end)
 	slot7:align(#slot2:GetOptions())
@@ -517,7 +675,7 @@ function slot0.InitBranches(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.SetBranchCode(slot0, slot1, slot2, slot3)
+slot0.SetBranchCode = function(slot0, slot1, slot2, slot3)
 	slot2:SetBranchCode(slot3)
 	slot1:SetBranchCode(slot3)
 
@@ -528,7 +686,7 @@ function slot0.SetBranchCode(slot0, slot1, slot2, slot3)
 	table.insert(slot0.branchCodeList[slot4], slot3)
 end
 
-function slot0.ShowBranches(slot0, slot1, slot2)
+slot0.ShowBranches = function(slot0, slot1, slot2)
 	setActive(slot0.optionsCg.gameObject, true)
 
 	for slot7 = 0, slot0:GetOptionContainer(slot1).container.childCount - 1 do
@@ -540,7 +698,7 @@ function slot0.ShowBranches(slot0, slot1, slot2)
 	slot2()
 end
 
-function slot0.HideBranchesWithoutSelected(slot0, slot1)
+slot0.HideBranchesWithoutSelected = function(slot0, slot1)
 	for slot6 = 0, slot0:GetOptionContainer(slot1).container.childCount - 1 do
 		if slot6 ~= slot0.selectedBranchID and slot2.container:GetChild(slot6):GetComponent(typeof(Animation)) then
 			slot8:Play("anim_storydialogue_optiontpl_unselected")
@@ -548,7 +706,7 @@ function slot0.HideBranchesWithoutSelected(slot0, slot1)
 	end
 end
 
-function slot0.StartMoveNode(slot0, slot1, slot2)
+slot0.StartMoveNode = function(slot0, slot1, slot2)
 	if not slot1:ExistMovableNode() then
 		slot2()
 
@@ -576,7 +734,7 @@ function slot0.StartMoveNode(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.MoveAllNode(slot0, slot1, slot2, slot3)
+slot0.MoveAllNode = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	for slot8, slot9 in pairs(slot2) do
@@ -594,7 +752,7 @@ function slot0.MoveAllNode(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot12(slot0, slot1, slot2, slot3, slot4)
+slot12 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = PoolMgr.GetInstance()
 
 	slot5:GetSpineChar(slot1, true, function (slot0)
@@ -614,7 +772,7 @@ function slot12(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot13(slot0, slot1, slot2, slot3)
+slot13 = function(slot0, slot1, slot2, slot3)
 	slot4 = GameObject.New("movable")
 	slot5 = slot4.transform
 
@@ -636,7 +794,7 @@ function slot13(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.LoadMovableNode(slot0, slot1, slot2)
+slot0.LoadMovableNode = function(slot0, slot1, slot2)
 	slot3 = slot1.path[1] or Vector3.zero
 
 	if slot1.isSpine then
@@ -646,7 +804,7 @@ function slot0.LoadMovableNode(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClearMoveNodes(slot0, slot1)
+slot0.ClearMoveNodes = function(slot0, slot1)
 	if not slot1:ExistMovableNode() then
 		return
 	end
@@ -669,7 +827,7 @@ function slot0.ClearMoveNodes(slot0, slot1)
 	slot0.moveTargets = {}
 end
 
-function slot0.FadeOutStory(slot0, slot1, slot2)
+slot0.FadeOutStory = function(slot0, slot1, slot2)
 	if not slot1:ShouldFadeout() then
 		slot2()
 
@@ -686,7 +844,7 @@ function slot0.FadeOutStory(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetFadeColor(slot0, slot1)
+slot0.GetFadeColor = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 
@@ -720,7 +878,7 @@ function slot0.GetFadeColor(slot0, slot1)
 	return slot2, slot3
 end
 
-function slot0._SetFadeColor(slot0, slot1, slot2, slot3)
+slot0._SetFadeColor = function(slot0, slot1, slot2, slot3)
 	for slot7, slot8 in ipairs(slot1) do
 		if not IsNil(slot8) then
 			slot8:SetColor(slot2[slot7].name, slot2[slot7].color * Color.New(slot3, slot3, slot3))
@@ -728,23 +886,23 @@ function slot0._SetFadeColor(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.SetFadeColor(slot0, slot1, slot2)
+slot0.SetFadeColor = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0:GetFadeColor(slot1)
 
 	slot0:_SetFadeColor(slot3, slot4, slot2)
 end
 
-function slot0._RevertFadeColor(slot0, slot1, slot2)
+slot0._RevertFadeColor = function(slot0, slot1, slot2)
 	slot0:_SetFadeColor(slot1, slot2, 1)
 end
 
-function slot0.RevertFadeColor(slot0, slot1)
+slot0.RevertFadeColor = function(slot0, slot1)
 	slot2, slot3 = slot0:GetFadeColor(slot1)
 
 	slot0:_RevertFadeColor(slot2, slot3)
 end
 
-function slot0.fadeTransform(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.fadeTransform = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if slot4 <= 0 then
 		if slot6 then
 			slot6()
@@ -770,7 +928,7 @@ function slot0.fadeTransform(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end))
 end
 
-function slot0.setPaintingAlpha(slot0, slot1, slot2)
+slot0.setPaintingAlpha = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
@@ -808,7 +966,7 @@ function slot0.setPaintingAlpha(slot0, slot1, slot2)
 	end
 end
 
-function slot0.RegisetEvent(slot0, slot1)
+slot0.RegisetEvent = function(slot0, slot1)
 	setButtonEnabled(slot0._go, not slot0.autoNext)
 	onButton(slot0, slot0._go, function ()
 		if uv0.pause or uv0.stop then
@@ -820,7 +978,7 @@ function slot0.RegisetEvent(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.flashEffect(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.flashEffect = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0.flashImg.color = slot4 and Color(0, 0, 0) or Color(1, 1, 1)
 	slot0.flashCg.alpha = slot1
 
@@ -828,7 +986,7 @@ function slot0.flashEffect(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0:TweenValueForcanvasGroup(slot0.flashCg, slot1, slot2, slot3, slot5, slot6)
 end
 
-function slot0.Flashout(slot0, slot1, slot2)
+slot0.Flashout = function(slot0, slot1, slot2)
 	slot3, slot4, slot5, slot6 = slot1:GetFlashoutData()
 
 	if not slot3 then
@@ -840,7 +998,7 @@ function slot0.Flashout(slot0, slot1, slot2)
 	slot0:flashEffect(slot3, slot4, slot5, slot6, 0, slot2)
 end
 
-function slot0.flashin(slot0, slot1, slot2)
+slot0.flashin = function(slot0, slot1, slot2)
 	slot3, slot4, slot5, slot6, slot7 = slot1:GetFlashinData()
 
 	if not slot3 then
@@ -852,7 +1010,7 @@ function slot0.flashin(slot0, slot1, slot2)
 	slot0:flashEffect(slot3, slot4, slot5, slot6, slot7, slot2)
 end
 
-function slot0.UpdateBg(slot0, slot1)
+slot0.UpdateBg = function(slot0, slot1)
 	if slot1:ShouldBgGlitchArt() then
 		slot0:SetBgGlitchArt(slot1)
 	else
@@ -892,7 +1050,7 @@ function slot0.UpdateBg(slot0, slot1)
 	slot0.curtain:GetComponent(typeof(Image)).color = slot1:GetBgColor()
 end
 
-function slot0.ApplyOldPhotoEffect(slot0, slot1)
+slot0.ApplyOldPhotoEffect = function(slot0, slot1)
 	slot3 = slot1:OldPhotoEffect() ~= nil
 
 	setActive(slot0.oldPhoto.gameObject, slot3)
@@ -906,12 +1064,12 @@ function slot0.ApplyOldPhotoEffect(slot0, slot1)
 	end
 end
 
-function slot0.SetBgGlitchArt(slot0, slot1)
+slot0.SetBgGlitchArt = function(slot0, slot1)
 	setActive(slot0.bgPanel, false)
 	setActive(slot0.bgGlitch, true)
 end
 
-function slot0.GetBg(slot0, slot1)
+slot0.GetBg = function(slot0, slot1)
 	if not slot0.bgs[slot1] then
 		slot0.bgs[slot1] = LoadSprite("bg/" .. slot1)
 	end
@@ -919,7 +1077,7 @@ function slot0.GetBg(slot0, slot1)
 	return slot0.bgs[slot1]
 end
 
-function slot0.LoadEffects(slot0, slot1, slot2)
+slot0.LoadEffects = function(slot0, slot1, slot2)
 	if #slot1:GetEffects() <= 0 then
 		slot2()
 
@@ -952,9 +1110,9 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 		else
 			slot16 = ""
 
-			if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot10)) then
+			if checkABExist("ui/" .. slot10) then
 				slot16 = "ui"
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle("effect/" .. slot10)) then
+			elseif checkABExist("effect/" .. slot10) then
 				slot16 = "effect"
 			end
 
@@ -993,14 +1151,14 @@ function slot0.LoadEffects(slot0, slot1, slot2)
 	parallelAsync(slot4, slot2)
 end
 
-function slot0.AdaptEffect(slot0, slot1)
+slot0.AdaptEffect = function(slot0, slot1)
 	slot3 = pg.UIMgr.GetInstance().OverlayMain.parent.sizeDelta
 	slot5 = 1
 	slot5 = 1.7777777777777777 < slot3.x / slot3.y and slot4 / slot2 or slot2 / slot4
 	tf(slot1).localScale = Vector3(slot5, slot5, slot5)
 end
 
-function slot0.UpdateEffectInterLayer(slot0, slot1, slot2)
+slot0.UpdateEffectInterLayer = function(slot0, slot1, slot2)
 	slot3 = slot0._go:GetComponent(typeof(Canvas)).sortingOrder
 
 	for slot8 = 1, slot2:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length - 1 do
@@ -1021,7 +1179,7 @@ function slot0.UpdateEffectInterLayer(slot0, slot1, slot2)
 	GetOrAddComponent(slot0.frontTr, typeof(GraphicRaycaster))
 end
 
-function slot0.ClearEffectInterlayer(slot0, slot1)
+slot0.ClearEffectInterlayer = function(slot0, slot1)
 	if slot0.activeInterLayer == slot1 then
 		slot3 = slot0.frontTr:GetComponent(typeof(Canvas))
 		slot4 = slot0.frontTr:GetComponent(typeof(GraphicRaycaster))
@@ -1042,7 +1200,7 @@ function slot0.ClearEffectInterlayer(slot0, slot1)
 	end
 end
 
-function slot0.ClearEffects(slot0)
+slot0.ClearEffects = function(slot0)
 	removeAllChildren(slot0.effectPanel)
 	removeAllChildren(slot0.centerPanel)
 
@@ -1051,7 +1209,7 @@ function slot0.ClearEffects(slot0)
 	end
 end
 
-function slot0.PlaySoundEffect(slot0, slot1)
+slot0.PlaySoundEffect = function(slot0, slot1)
 	if slot1:ShouldPlaySoundEffect() then
 		slot2, slot3 = slot1:GetSoundeffect()
 
@@ -1067,7 +1225,7 @@ function slot0.PlaySoundEffect(slot0, slot1)
 	end
 end
 
-function slot0.StopVoice(slot0)
+slot0.StopVoice = function(slot0)
 	if slot0.currentVoice then
 		slot0.currentVoice:Stop(true)
 
@@ -1075,7 +1233,7 @@ function slot0.StopVoice(slot0)
 	end
 end
 
-function slot0.PlayVoice(slot0, slot1)
+slot0.PlayVoice = function(slot0, slot1)
 	if slot0.voiceDelayTimer then
 		slot0.voiceDelayTimer:Stop()
 
@@ -1105,7 +1263,7 @@ function slot0.PlayVoice(slot0, slot1)
 	end)
 end
 
-function slot0.Reset(slot0, slot1, slot2, slot3)
+slot0.Reset = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.castPanel, false)
 	setActive(slot0.bgPanel, false)
 	setActive(slot0.dialoguePanel, false)
@@ -1121,15 +1279,17 @@ function slot0.Reset(slot0, slot1, slot2, slot3)
 	slot0.flashCg.alpha = 1
 	slot0.goCG.alpha = 1
 
+	slot0.animationPlayer:Stop()
 	slot0:OnReset(slot1, slot2, slot3)
 end
 
-function slot0.Clear(slot0, slot1)
+slot0.Clear = function(slot0, slot1)
 	if slot0.step then
 		slot0:ClearMoveNodes(slot0.step)
 	end
 
 	slot0.bgs = {}
+	slot0.skipOption = nil
 	slot0.step = nil
 	slot0.goCG.alpha = 1
 	slot0.callback = nil
@@ -1146,7 +1306,7 @@ function slot0.Clear(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 end
 
-function slot0.StoryEnd(slot0)
+slot0.StoryEnd = function(slot0)
 	setActive(slot0.iconImage.gameObject, false)
 
 	slot0.iconImage.sprite = nil
@@ -1171,7 +1331,7 @@ function slot0.StoryEnd(slot0)
 	slot0:OnEnd()
 end
 
-function slot0.PlayBgm(slot0, slot1)
+slot0.PlayBgm = function(slot0, slot1)
 	if slot1:ShouldStopBgm() then
 		slot0:StopBgm()
 	end
@@ -1192,12 +1352,12 @@ function slot0.PlayBgm(slot0, slot1)
 	end
 end
 
-function slot0.StopBgm(slot0, slot1)
+slot0.StopBgm = function(slot0, slot1)
 	slot0:RevertBgmVolume()
 	pg.BgmMgr.GetInstance():StopPlay()
 end
 
-function slot0.RevertBgmVolume(slot0)
+slot0.RevertBgmVolume = function(slot0)
 	if slot0.defaultBgmVolume then
 		pg.CriMgr.GetInstance():setBGMVolume(slot0.defaultBgmVolume)
 
@@ -1205,7 +1365,7 @@ function slot0.RevertBgmVolume(slot0)
 	end
 end
 
-function slot0.StartUIAnimations(slot0, slot1, slot2)
+slot0.StartUIAnimations = function(slot0, slot1, slot2)
 	parallelAsync({
 		function (slot0)
 			uv0:StartBlinkAnimation(uv1, slot0)
@@ -1219,7 +1379,7 @@ function slot0.StartUIAnimations(slot0, slot1, slot2)
 	}, slot2)
 end
 
-function slot0.StartBlinkAnimation(slot0, slot1, slot2)
+slot0.StartBlinkAnimation = function(slot0, slot1, slot2)
 	if slot1:ShouldBlink() then
 		slot3 = slot1:GetBlinkData()
 		slot5 = slot3.number
@@ -1252,7 +1412,7 @@ function slot0.StartBlinkAnimation(slot0, slot1, slot2)
 	slot2()
 end
 
-function slot0.StartBlinkWithColorAnimation(slot0, slot1, slot2)
+slot0.StartBlinkWithColorAnimation = function(slot0, slot1, slot2)
 	if slot1:ShouldBlinkWithColor() then
 		slot3 = slot1:GetBlinkWithColorData()
 		slot4 = slot3.color
@@ -1287,51 +1447,51 @@ function slot0.StartBlinkWithColorAnimation(slot0, slot1, slot2)
 	slot2()
 end
 
-function slot0.findTF(slot0, slot1, slot2)
+slot0.findTF = function(slot0, slot1, slot2)
 	assert(slot0._tf, "transform should exist")
 
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-function slot0.OnStart(slot0, slot1)
+slot0.OnStart = function(slot0, slot1)
 end
 
-function slot0.OnReset(slot0, slot1, slot2, slot3)
+slot0.OnReset = function(slot0, slot1, slot2, slot3)
 	slot3()
 end
 
-function slot0.OnBgUpdate(slot0, slot1)
+slot0.OnBgUpdate = function(slot0, slot1)
 end
 
-function slot0.OnInit(slot0, slot1, slot2, slot3)
+slot0.OnInit = function(slot0, slot1, slot2, slot3)
 	if slot3 then
 		slot3()
 	end
 end
 
-function slot0.OnStartUIAnimations(slot0, slot1, slot2)
+slot0.OnStartUIAnimations = function(slot0, slot1, slot2)
 	if slot2 then
 		slot2()
 	end
 end
 
-function slot0.OnEnter(slot0, slot1, slot2, slot3)
+slot0.OnEnter = function(slot0, slot1, slot2, slot3)
 	if slot3 then
 		slot3()
 	end
 end
 
-function slot0.OnWillExit(slot0, slot1, slot2, slot3)
+slot0.OnWillExit = function(slot0, slot1, slot2, slot3)
 	slot3()
 end
 
-function slot0.OnWillClear(slot0, slot1)
+slot0.OnWillClear = function(slot0, slot1)
 end
 
-function slot0.OnClear(slot0)
+slot0.OnClear = function(slot0)
 end
 
-function slot0.OnEnd(slot0)
+slot0.OnEnd = function(slot0)
 end
 
 return slot0

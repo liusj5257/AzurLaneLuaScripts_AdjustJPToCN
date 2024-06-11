@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YIXIANGPIANZHEN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YIXIANGPIANZHEN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"分極する空想の因果\n\n<size=45>五 記録</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "「リアリティレンズ」仮想現実空間 構成要素：リュウコツ情報+？？？",
 			bgm = "story-2",
+			say = "「リアリティレンズ」仮想現実空間 構成要素：リュウコツ情報+？？？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "アンカレッジ？TB……？",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "…………反応がない。",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "まだ体を動かせる。「リアリティレンズ」がまだ正常に作動しているようだ。",
 			typewriter = {
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "周りが真っ白になったのは、さっきのオーバーフローのせいで模擬環境を構築できなくなったせいか。",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "とりあえず探索してみよう。",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "そう遠くない…ような距離に、「扉」が立っているのが見える。",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "真っ白な空間にあるせいで、地面に立っているのか、それとも浮いているのかすら判別はできないが…",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "ふと「扉」の隣にアンカレッジが立っているのに気づく。",
 			typewriter = {
@@ -149,10 +149,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "せんせー…きてくれた！",
 			painting = {
 				alpha = 0.3,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "ここは……？",
 			typewriter = {
@@ -187,10 +187,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アンカレッジの…うーん、「りありひれんず」の？ゆめ？…むこう…おもしろい、おはなし！",
 			painting = {
 				alpha = 0.3,
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			actor = 199030,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "せんせーに、おしえたい！",
 			painting = {
 				alpha = 0.3,
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "…夢？アンカレッジの夢？「リアリティレンズ」の夢…？",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "さっきの教室とは違うというのか…？",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "そして「リアリティレンズ」の夢とは一体……？",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "………",
 			typewriter = {
@@ -268,10 +268,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん！おもしろい、おはなし！せんせー！",
 			painting = {
 				alpha = 0.3,
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "アンカレッジは「扉」を指さして、中に入るように促してくる。",
 			typewriter = {
@@ -312,10 +312,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アンカレッジ、いかない…！",
 			painting = {
 				alpha = 0.3,
@@ -330,10 +330,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "せんせー、はじめてだから…せんせーに、あげる！",
 			painting = {
 				alpha = 0.3,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "どうやら行くしかないようだ。",
 			typewriter = {
@@ -355,13 +355,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_1104",
-			stopbgm = true,
-			say = "覚悟を決めて、「扉」をくぐる。",
+			nameColor = "#A9F548FF",
 			bgmDelay = 0.5,
 			bgm = "theme-arbitrator-tower",
+			stopbgm = true,
+			say = "覚悟を決めて、「扉」をくぐる。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,8 +374,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -383,8 +383,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "手が「扉」に触れた瞬間、脳の中に声が流れ込んできた。",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			say = "…………今の声は…？",
@@ -447,12 +447,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_aircraft_future",
 			nameColor = "#a020f0",
 			stopbgm = true,
-			oldPhoto = true,
+			actor = 900332,
 			actorName = "？？",
 			say = "…………反応がない。",
 			typewriter = {
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
-			bgm = "theme-dailyfuture",
 			say = "仄かな照明の光しかない部屋に、メガネをかけた女性らしき人影が見える。",
+			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "？？",
 			say = "そう焦るな。私は単なる「記録」だよ？まあ…正確には「記録」を再生できるAIかも？",
 			painting = {
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "？？",
 			say = "今からじっくり説明するからちょっと待ってて",
 			painting = {
@@ -523,12 +523,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "？？",
 			say = "まず私の正体だが、この外見のことを指しているなら「アンジュ（Anzeel）」という子ね",
 			painting = {
@@ -541,12 +541,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "？？",
 			say = "んで、私のことは「リプレイヤー」と呼んで",
 			painting = {
@@ -559,12 +559,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "そしてここはデータによって構築された擬似空間",
 			painting = {
@@ -577,12 +577,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "メンタルキューブが接続している、高次的なネットワークの隙間にある情報要素のみで構成された空間",
 			painting = {
@@ -595,12 +595,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "…って言っても分からないか。とにかくほかの誰にも探知されない場所だと思って",
 			painting = {
@@ -613,12 +613,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "んー。君にバレるのは予想より早かったけどね",
 			painting = {
@@ -631,11 +631,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aircraft_future",
+			side = 2,
 			oldPhoto = true,
 			dir = 1,
+			bgName = "bg_aircraft_future",
 			say = "……バレる？予想より早かった？",
 			painting = {
 				alpha = 0.3,
@@ -647,12 +647,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "あ。なんというか…「今の君」には早かった、かな？",
 			painting = {
@@ -665,12 +665,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "君がここを認識できたことは…RTA？スピードラン？バグを使用した不正行為？",
 			painting = {
@@ -683,12 +683,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "まあ、「ランダム性は必ずしも悪いことばかりとは限らない」ってアンジュは言ってたね",
 			painting = {
@@ -701,12 +701,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "そういえばアンカレッジって子を経由してここをたどり着いたのかな？あの子は無事よ。心配しないで",
 			painting = {
@@ -719,12 +719,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "あの子の…「離散データの不安定パターン」も、単にあの子がちょっと変わっているだけで別に何かが悪いってわけじゃないの",
 			painting = {
@@ -737,12 +737,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "ちなみに私が君に教えられるのは、「私」が何を残したかに依存するけど",
 			painting = {
@@ -755,12 +755,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "さて、その再生すべき記録とは……んんん……はっ！",
 			painting = {
@@ -773,12 +773,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "……まずった……………うわぁ、やったな…",
 			painting = {
@@ -791,12 +791,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "ここには断片的な感情ログが大量にあるだけで、再生するほどの「情報」は特に何もないや！てへ☆",
 			painting = {
@@ -819,12 +819,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "「リプレイヤー」を配置したのは、アンジュが君に会いたかっただけ……って感じかな？",
 			painting = {
@@ -837,12 +837,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "いや……ぼかしすぎているし、そう単純なことじゃないような気もするけどね…",
 			painting = {
@@ -855,12 +855,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "もしくは…君にアンジュともう一度会ってほしかった…か？",
 			painting = {
@@ -873,12 +873,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "この外見自体がアンジュが伝えたかった記録かもしれないわよ？",
 			painting = {
@@ -891,12 +891,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "彼女のことを覚えていて。例え君が君じゃなくても――と言いたかったのかも？",
 			painting = {
@@ -909,12 +909,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "詳しいことは私にわからないわよ。……だって私はただの記録再生用のAIだもん",
 			painting = {
@@ -927,11 +927,11 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_aircraft_future",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "…………反応がない。",
 			painting = {
 				alpha = 0.3,
@@ -949,12 +949,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "それは分からないわ。記録に残されていないもの",
 			painting = {
@@ -967,12 +967,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "こうして会話しているけど、私は所詮ちょっとできたAIにすぎないよ",
 			painting = {
@@ -985,12 +985,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "指示通りにしか動けないプログラムと変わらないわ",
 			painting = {
@@ -1003,15 +1003,15 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			nameColor = "#a020f0",
 			side = 2,
-			bgName = "bg_aircraft_future",
-			stopbgm = true,
+			oldPhoto = true,
 			dir = 1,
-			actorName = "リプレイヤー",
+			stopbgm = true,
+			bgName = "bg_aircraft_future",
 			bgm = "theme-threat-typeV",
 			actor = 900332,
-			nameColor = "#a020f0",
+			actorName = "リプレイヤー",
 			say = "……待って。何かがこっちに来ている",
 			painting = {
 				alpha = 0.3,
@@ -1023,8 +1023,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1033,12 +1033,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
-			bgName = "bg_aircraft_future",
+			side = 2,
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			bgName = "bg_aircraft_future",
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "つけられたわね君。何かが君の後ろについてきてたみたい！",
 			painting = {
@@ -1047,8 +1047,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1067,9 +1067,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
+			side = 2,
 			oldPhoto = true,
 			say = "……TB？",
 			typewriter = {
@@ -1084,8 +1084,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			say = "そういえば、最初に接続していたはずのTBはさっきからずっと反応がなかった。",
@@ -1095,8 +1095,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			say = "ここは「ほかの誰にも探知されない場所」だからか。",
@@ -1106,12 +1106,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "………………………………",
 			painting = {
@@ -1124,12 +1124,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#a020f0",
+			side = 2,
 			bgName = "bg_aircraft_future",
 			oldPhoto = true,
 			dir = 1,
-			side = 2,
+			actor = 900332,
 			actorName = "リプレイヤー",
 			say = "警告：Vクラス脅威の接近を確認しました。セキュリティプロトコルに従いAI及び記録の削除を開始する。",
 			painting = {
@@ -1144,11 +1144,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_1104",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "せんせー！",
 			painting = {
 				alpha = 0.3,
@@ -1160,8 +1160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1194,10 +1194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はやく…ここからにげよう…！",
 			painting = {
 				alpha = 0.3,
@@ -1209,8 +1209,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1219,9 +1219,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
+			side = 2,
 			say = "再び突如現れた光が全てかき消そうとし、いつの間にか近くにいたアンカレッジが自分に向けて手を伸ばしている。",
 			typewriter = {
 				speed = 0.05,
@@ -1235,8 +1235,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "慌てて彼女の手を掴もうとしたが、それよりも先に強烈なめまいに襲われた。",
 			typewriter = {
@@ -1245,8 +1245,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "全ての脳細胞が一斉に悲鳴を上げ、意識が急速に体から引きずり出されてしまうように感じる。",
 			typewriter = {
@@ -1257,11 +1257,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_1104",
 			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "せんせー…！あぶない…！だめ…！！",
 			painting = {
 				alpha = 0.3,
@@ -1273,8 +1273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1289,9 +1289,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
+			side = 2,
 			say = "…………反応がない。",
 			typewriter = {
 				speed = 0.05,
@@ -1305,8 +1305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "魂が再び何もない空間に投げ出された。",
 			typewriter = {

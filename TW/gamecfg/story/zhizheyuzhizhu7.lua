@@ -1,31 +1,31 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHIZHEYUZHIZHU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHIZHEYUZHIZHU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
-					"智者与蜘蛛\n\n<size=45>七　号响之音</size>",
+					"智者與蜘蛛\n\n<size=45>七 號響之音</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_italy",
-			say = "大洋中的某处，看起来是铁血风格的办公室中——",
+			side = 2,
 			bgmDelay = 1,
 			bgm = "bsm-7",
+			nameColor = "#A9F548FF",
+			say = "大洋中的某處，看起來是鐵血風格的辦公室中——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,13 +46,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_italy",
+			dir = 1,
 			actor = 405010,
-			side = 2,
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如何，帝国博物馆失窃事件有眉目了么？",
+			hidePaintObj = true,
+			say = "如何，帝國博物館失竊事件有眉目了麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,11 +66,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "除了确认现场有未知META来过，以及失窃的藏品是亚历山大图书馆的地砖之外，没什么新发现。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "除了確認現場有未知META來過，以及失竊的藏品是亞歷山大圖書館的地磚之外，沒什麼新發現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,11 +84,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "不过本王已经让驻扎在阿瓦隆之门内的那两位前余烬专家帮忙了，相信很快就能有结果。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "不過本王已經讓駐紮在阿瓦隆之門內的那兩位前餘燼專家幫忙了，相信很快就能有結果。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,11 +102,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "阿瓦隆之门的状态还好么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "阿瓦隆之門的狀態還好嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,11 +120,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "目前正处于最低功率下待机运行，看上去没什么问题。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "目前正處於最低功率下待機運行，看起來沒什麼問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,11 +138,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "你那边呢，有什么星海的消息么？",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "妳那邊呢，有什麼星海的消息嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,13 +153,13 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "有一些。根据之前你们提供的情报，我们进一步缩小了范围。",
+			hidePaintObj = true,
+			say = "有一些。根據之前妳們提供的情報，我們進一步縮小了範圍。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,11 +173,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "白鹰的星海基地，其真正坐标应该是位于落基山脉之中的某座山体内侧，而非之前所认为的某处近海或者近湖的位置。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "白鷹的星海基地，其真正座標應該是位於洛磯山脈之中的某座山體內側，而非先前所認為的某處近海或近湖的位置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,11 +191,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "……嗯？如此设置虽然极大增强了隐蔽性，但使用起来岂不是会非常不便。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "……嗯？如此設定雖然極大增強了隱蔽性，但使用起來豈不是會非常不便。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,11 +209,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "那里不是她们的计划舰研发基地么……？",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "那裡不是她們的計畫艦研發基地嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,10 +227,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "唔……真是令人在意。",
 			painting = {
 				alpha = 0.3,
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_italy",
+			dir = 1,
 			actor = 405010,
-			side = 2,
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还有一件事，白鹰似乎正在为自由鸢尾研发计划舰。",
+			hidePaintObj = true,
+			say = "還有一件事，白鷹似乎正在為自由鳶尾研發計畫艦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,11 +262,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "果然……之前双方在博览会上接触之后本王就怀疑了。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "果然……之前雙方在博覽會上接觸之後本王就懷疑了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,11 +280,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "怪不得她们在会谈里提到了协助测试之类的内容……",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "怪不得她們在會談中提到了協助測試之類的內容……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,11 +298,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "然后，白鹰似乎同时还在研发新型舰装。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "然後，白鷹似乎同時還在研發新型艦裝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,10 +316,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "………………………………",
 			painting = {
 				alpha = 0.3,
@@ -334,11 +334,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "咳、是类似于改造的那种么？",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "咳、是類似於改造的那種嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,11 +357,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "无法确定，我还没收到更进一步的情报。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "無法確定，我還沒收到更進一步的情報。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,11 +375,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "这倒是一个新消息……本王这边也会调查一下的。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "這倒是一個新消息……本王這邊也會調查一下的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,11 +393,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "北方联合那边呢，有什么我应该知道的情报么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "北方聯合那邊呢，有什麼我該知道的情報？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,11 +411,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "就在此刻，北方联合正在极地展开对抗极地塞壬的大规模军事行动。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "就在此刻，北方聯合正在極地展開對抗極地塞壬的大規模軍事行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,11 +429,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "而且行动进展很顺利——不过这件事本王觉得你应该是知道的。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "而且行動進展很順利——不過這件事本王覺得妳應該是知道的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,11 +447,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "是啊……北方联合的军事实力正在以远超我们预期的速度高速增长着。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "是啊……北方聯合的軍事實力正以遠超過我們預期的速度高速成長。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,11 +465,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "还有么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "還有嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,11 +483,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "在博览会会场，北方联合主动找维希教廷进行了数场密会。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "在博覽會會場，北方聯合主動找維希教廷進行了數場密會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,11 +501,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "而在会谈之中，其为维希教廷给出了某种承诺。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "而在會談之中，其為維希教廷給出了某種承諾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,10 +519,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯…………",
 			painting = {
 				alpha = 0.3,
@@ -537,11 +537,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "消息应该已经传回维希本土了，之后的事你那边调查起来更方便——应该没错吧？",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "消息應該已經傳回維希本土了，之後的事妳那邊調查起來更方便──應該沒錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,11 +555,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……你想说什么就直说。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……妳想說什麼就直說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,11 +573,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "在{namecode:441}的默许与纵容下，维希教廷现在实质上的一把手已经是克莱蒙梭了。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "在腓特烈的默許與縱容下，維希教廷現在實質上的一把手已經是克里蒙梭了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,11 +591,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "现在{namecode:441}不在了，你对于她还有多大程度的控制力？",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "現在腓特烈不在了，妳對於她還有多大程度的控制？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,13 +606,13 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "放心，在对待鸢尾教国的态度上我们依然是一致的。",
+			hidePaintObj = true,
+			say = "放心，在對待鳶尾教國的態度上我們依然是一致的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,11 +626,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "为了维护来之不易的和平，为了团结、稳定与平衡，没错吧？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "為了維護來之不易的和平，為了團結、穩定與平衡，沒錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,11 +644,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "没错。那本王就放心了————",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "沒錯。那本王就放心了————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,10 +662,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "…………………………嗯？",
 			painting = {
 				alpha = 0.3,
@@ -677,13 +677,13 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "怎么了，伊丽莎白？",
+			hidePaintObj = true,
+			say = "怎麼了，伊莉莎白？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,11 +697,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "斯卡帕湾发来急报，阿瓦隆之门……似乎出现了异常状况。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "斯卡帕灣發來急報，阿瓦隆之門……似乎出現了異常狀況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,11 +715,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……什么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,11 +738,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "本王要去处理一下这件事，会就先开到这里吧。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "本王要去處理一下這件事，會就先開到這裡吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,13 +753,13 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "好。如果是设备异常的话就联系我，我会派专家协助维修的。",
+			hidePaintObj = true,
+			say = "好。如果是設備異常的話就聯絡我，我會派專家去協助維修的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,11 +773,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "自然……对了。本王再提醒一下，为了我们所有人的安全，近期千万不要启动米德加尔特之塔。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "自然……對了。本王再提醒一下，為了我們所有人的安全，近期千萬不要啟動米德加爾特之塔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -791,10 +791,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "放心，我明白。",
 			painting = {
 				alpha = 0.3,
@@ -809,11 +809,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 205010,
-			say = "伊丽莎白通话结束。",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "伊麗莎白通話結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -826,12 +826,12 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_italy",
 			actor = 405010,
-			say = "……阿瓦隆之门出现异常，有种危险的味道啊……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……阿瓦隆之門出現異常，有種危險的味道啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,17 +841,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -859,8 +859,8 @@ return {
 			}
 		},
 		{
+			actorName = "通訊器",
 			side = 2,
-			actorName = "通讯器",
 			bgName = "bg_story_italy",
 			nameColor = "#A9F548FF",
 			say = "滴————————",
@@ -873,11 +873,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……嗯？紧急联络？刚刚开会的时候发来的么……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……嗯？緊急聯絡？剛剛開會的時候發來的嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,13 +888,13 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "这个是…………",
+			hidePaintObj = true,
+			say = "這個是…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,11 +908,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……与浮岛要塞群失去联络？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……與浮島要塞群失去聯絡？",
 			painting = {
 				alpha = 0.3,
 				time = 1

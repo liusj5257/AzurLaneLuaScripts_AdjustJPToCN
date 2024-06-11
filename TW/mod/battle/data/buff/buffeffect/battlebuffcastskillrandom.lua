@@ -5,13 +5,13 @@ slot0.Battle.BattleBuffCastSkillRandom = class("BattleBuffCastSkillRandom", slot
 slot0.Battle.BattleBuffCastSkillRandom.__name = "BattleBuffCastSkillRandom"
 slot2 = slot0.Battle.BattleBuffCastSkillRandom
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._skillList = {}
 end
 
-function slot2.spell(slot0, slot1, slot2)
+slot2.spell = function(slot0, slot1, slot2)
 	if slot0._tempData.arg_list.skill_id_list then
 		slot4 = {}
 		slot5 = slot3.range
@@ -65,7 +65,7 @@ function slot2.spell(slot0, slot1, slot2)
 	end
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	uv0.super.Clear(slot0)
 
 	for slot4, slot5 in pairs(slot0._skillList) do

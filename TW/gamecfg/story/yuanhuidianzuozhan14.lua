@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
+			nameColor = "#A9F548FF",
+			bgm = "story-6",
 			stopbgm = true,
 			say = "其實早在戰鬥開始前，雙方就已經都對戰鬥的結果心知肚明了。",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "但是，所有人都沒有絲毫懈怠。布呂歇爾與Z16集中手頭所有可調配的力量，進行了一場竭盡全力的正面較量。",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "在那之後，隨著象徵兩人基地的標靶被摧毀，漫長的實驗終於迎來了終止符。",
 			typewriter = {

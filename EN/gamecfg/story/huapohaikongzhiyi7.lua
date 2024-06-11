@@ -1,16 +1,16 @@
 return {
-	id = "HUAPOHAIKONGZHIYI7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "Zuikaku, Taihou seems to have been hit by a torpedo.",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,15 +92,15 @@ return {
 			}
 		},
 		{
-			say = "West of SP Island - Princeton's Fleet",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "West of SP Island - Princeton's Fleet",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "Birmingham, what were you saying earlier about me and Montpelier?",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "Oh... I was just making a little remark. Don't worry about it~",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "I really wanted to get to know all of you a bit better, like Biloxi and the others... but I never really had the opportunity to do so.",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "Sisters, huh. I don't know them as well as the Columbia-class girls, but if that's fine, then...",
 			typewriter = {
@@ -212,8 +212,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "First should be Cleveland. She's always confident and a moodmaker. She's everyone's cool big sis.",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "Next would be Columbia. She's really friendly with Cleve... Maybe it's just her teasing her, though.",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "And then would be Montpelier and Denver. They both admire Cleve and aim to be like her, but they're working towards that in different ways.",
 			typewriter = {
@@ -292,15 +292,15 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107230,
+			nameColor = "#a9f548",
 			say = "(Montpelier has Cleveland's back... It's like me with Saratoga...)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -328,9 +328,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
 			blackBg = true,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "(Hehe, I might get along with her.)",
 			typewriter = {

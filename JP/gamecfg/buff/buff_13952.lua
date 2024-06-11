@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.05
+					number = 0.05,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.062
+					number = 0.062,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.074
+					number = 0.074,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.09
+					number = 0.09,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.105
+					number = 0.105,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.12
+					number = 0.12,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.14
+					number = 0.14,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.158
+					number = 0.158,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.176
+					number = 0.176,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.2
+					number = 0.2,
+					attr = "criDamage"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.05
+				number = 0.05,
+				attr = "criDamage"
 			}
 		}
 	}

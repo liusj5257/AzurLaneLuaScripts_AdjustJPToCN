@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA18",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "holo-control-inst",
 			actor = 900214,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哇啊啊啊！祭，妳没事吗，太好了…..",
-			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -35,9 +35,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "呜呜呜呜，我好怕———",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -62,8 +62,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "不哭，不哭，没事啦～诗音了不起哦~",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "这样一来，我们之中走散的人就只剩下空前辈了",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "但愿如此……",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			say = "虽然现在安全了，不过余的百鬼城……",
 			typewriter = {
 				speed = 0.05,
@@ -200,9 +200,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "这次一定要加上地下暗道…！",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

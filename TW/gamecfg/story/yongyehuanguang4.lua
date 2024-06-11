@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "不斷變換著色彩的光帶將本應一片漆黑的海面點亮，如同一道帷幔，在璀璨的星空下舞動著奇妙的軌跡。",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "這就是只有在極地上空才能觀測到的特殊天文現象…極光嗎？真是…壓倒性的美麗啊…",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "呵呵，牙買加小姐…說話還是一如既往地有趣呢~要是我也能……",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "這可不是值得學習的對象哦，赫敏。唔，聽說極光一般會持續數分鐘或者數小時，看來一段時間內我們的索敵壓力可以減輕不少，不過…",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "這樣一來，敵人的視野也同樣變好了呢…——",
 			typewriter = {
 				speed = 0.05,
@@ -101,9 +101,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 202270,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "！？不好...護衛艦發來消息，在編隊側後方的天空上發現了鐵血偵察機！",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "嘁，到底還是被發現了…",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "牙買加小姐！現在正是妳發揮“眼中壓抑的力量”的時候了！",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "…有時候真搞不清妳是認真的還是開玩笑的啊…",
 			typewriter = {
 				speed = 0.05,
@@ -245,11 +245,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 207010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "說的沒錯！鐵血在空中的飛機交給我，各艦專注於反潛作戰，維持護航陣型前進，保護運輸船隊！",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

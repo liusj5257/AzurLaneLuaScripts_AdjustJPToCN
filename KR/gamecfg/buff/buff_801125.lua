@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 801125,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 801125,
+	color = "red",
 	icon = 801120,
 	last_effect = "",
 	effect_list = {
@@ -29,10 +29,10 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				skill_id = 801121,
 				target = "TargetSelf",
 				countType = 801120,
+				maxTargetNumber = 0,
+				skill_id = 801121,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -49,9 +49,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 801123,
 				target = "TargetSelf",
 				countType = 801120,
+				skill_id = 801123,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

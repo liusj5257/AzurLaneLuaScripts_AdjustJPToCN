@@ -1,6 +1,6 @@
 slot0 = class("BackYardGarnitureLayer", import("..base.BaseUI"))
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot2 = PoolMgr.GetInstance()
 
 	slot2:GetUI("BackYardIndexUI", true, function (slot0)
@@ -10,7 +10,7 @@ function slot0.preload(slot0, slot1)
 	end)
 end
 
-function slot0.SORT_FUNC(slot0, slot1, slot2, slot3)
+slot0.SORT_FUNC = function(slot0, slot1, slot2, slot3)
 	slot3 = slot3 or 1
 
 	if (slot2:getSameConfigIdCount(slot0.configId) == slot0.count and 1 or 0) == (slot2:getSameConfigIdCount(slot1.configId) == slot1.count and 1 or 0) then
@@ -24,30 +24,30 @@ function slot0.SORT_FUNC(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardGarnitureUI"
 end
 
-function slot0.setFurnitrues(slot0, slot1)
+slot0.setFurnitrues = function(slot0, slot1)
 	slot0.furnitureVOs = slot1
 end
 
-function slot0.setHouseVO(slot0, slot1, slot2)
+slot0.setHouseVO = function(slot0, slot1, slot2)
 	slot0.furnitruesPackage = slot1
 	slot0.curHouse = slot2
 end
 
-function slot0.setUserThemes(slot0, slot1)
+slot0.setUserThemes = function(slot0, slot1)
 	slot0.userThemes = slot1 or {}
 
 	slot0:initThemes()
 end
 
-function slot0.setdormProxy(slot0, slot1)
+slot0.setdormProxy = function(slot0, slot1)
 	slot0.dormProxy = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.decoratePanel = slot0:findTF("decoratePanel")
 	slot0.saveBtn = slot0:findTF("save", slot0.decoratePanel)
 	slot0.clearBtn = slot0:findTF("clear", slot0.decoratePanel)
@@ -75,7 +75,7 @@ function slot0.init(slot0)
 	slot0.searchBar = slot0:findTF("InputField", slot0.filterPanel)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.descrationItems = {}
 
 	slot0:initThemeBox()
@@ -137,14 +137,14 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.addTheme(slot0, slot1)
+slot0.addTheme = function(slot0, slot1)
 	slot0.userThemes[slot1.id] = slot1
 
 	table.insert(slot0.allThemeVOs, slot1)
 	slot0:filterTheme()
 end
 
-function slot0.deleteTheme(slot0, slot1)
+slot0.deleteTheme = function(slot0, slot1)
 	slot0.userThemes[slot1] = nil
 
 	for slot5, slot6 in pairs(slot0.allThemeVOs) do
@@ -158,7 +158,7 @@ function slot0.deleteTheme(slot0, slot1)
 	slot0:filterTheme()
 end
 
-function slot0.initThemes(slot0)
+slot0.initThemes = function(slot0)
 	if not slot0.themeInited then
 		slot0.allThemeVOs = {}
 
@@ -173,11 +173,11 @@ function slot0.initThemes(slot0)
 		slot2 = slot0.themesPanel
 		slot0.themeRect = slot2:GetComponent("LScrollRect")
 
-		function slot0.themeRect.onInitItem(slot0)
+		slot0.themeRect.onInitItem = function(slot0)
 			uv0:onInitTheme(slot0)
 		end
 
-		function slot0.themeRect.onUpdateItem(slot0, slot1)
+		slot0.themeRect.onUpdateItem = function(slot0, slot1)
 			uv0:onUpdateTheme(slot0, slot1)
 		end
 
@@ -194,7 +194,7 @@ function slot0.initThemes(slot0)
 	slot0:filterTheme()
 end
 
-function slot0.onInitTheme(slot0, slot1)
+slot0.onInitTheme = function(slot0, slot1)
 	slot2 = slot0:createDecoration(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -213,7 +213,7 @@ function slot0.onInitTheme(slot0, slot1)
 	slot0.themeTFs[slot1] = slot2
 end
 
-function slot0.onUpdateTheme(slot0, slot1, slot2)
+slot0.onUpdateTheme = function(slot0, slot1, slot2)
 	if not slot0.themeTFs[slot2] then
 		slot0:onInitTheme(slot2)
 
@@ -223,7 +223,7 @@ function slot0.onUpdateTheme(slot0, slot1, slot2)
 	slot3:updateTheme(slot0.themeVOs[slot1 + 1], slot0.curHouse)
 end
 
-function slot0.filterTheme(slot0)
+slot0.filterTheme = function(slot0)
 	slot0.themeVOs = {}
 	slot1 = ipairs
 	slot2 = slot0.allThemeVOs or {}
@@ -263,7 +263,7 @@ function slot0.filterTheme(slot0)
 	slot0.themeRect:SetTotalCount(#slot0.themeVOs, -1)
 end
 
-function slot0.applyTheme(slot0, slot1)
+slot0.applyTheme = function(slot0, slot1)
 	slot2 = {}
 	slot3 = pg.furniture_data_template
 	slot4 = pg.furniture_data_template
@@ -299,7 +299,7 @@ function slot0.applyTheme(slot0, slot1)
 	end)
 end
 
-function slot0.getCloneFurniture(slot0, slot1)
+slot0.getCloneFurniture = function(slot0, slot1)
 	slot3 = Clone(slot1)
 
 	if slot0.furnitruesPackage.furnitures[slot1.id] and not slot1:isPaper() then
@@ -315,7 +315,7 @@ function slot0.getCloneFurniture(slot0, slot1)
 	return slot3
 end
 
-function slot0.createDecoration(slot0, slot1)
+slot0.createDecoration = function(slot0, slot1)
 	slot3 = slot0:findTF("itemtpl/icon", slot1)
 
 	return {
@@ -359,17 +359,17 @@ function slot0.createDecoration(slot0, slot1)
 	}
 end
 
-function slot0.initDecorations(slot0)
+slot0.initDecorations = function(slot0)
 	slot0.itemsView = slot0:findTF("bg/frame/items", slot0.decoratePanel)
 	slot0.scrollRect = slot0.itemsView:GetComponent("LScrollRect")
 
 	slot0:filter(slot0.contextData.index or 0)
 
-	function slot0.scrollRect.onInitItem(slot0)
+	slot0.scrollRect.onInitItem = function(slot0)
 		uv0:initDecoration(slot0)
 	end
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:updateDecoration(slot0, slot1)
 	end
 
@@ -385,7 +385,7 @@ function slot0.initDecorations(slot0)
 	end, nil, , , , SFX_PANEL)
 end
 
-function slot0.initDecoration(slot0, slot1)
+slot0.initDecoration = function(slot0, slot1)
 	slot2 = slot0:createDecoration(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -411,7 +411,7 @@ function slot0.initDecoration(slot0, slot1)
 	slot0.descrationItems[slot1] = slot2
 end
 
-function slot0.updateDecoration(slot0, slot1, slot2)
+slot0.updateDecoration = function(slot0, slot1, slot2)
 	if not slot0.descrationItems then
 		return
 	end
@@ -425,7 +425,7 @@ function slot0.updateDecoration(slot0, slot1, slot2)
 	slot3:update(slot0.decorationVOs[slot1 + 1], slot0.furnitruesPackage)
 end
 
-function slot0.filter(slot0, slot1)
+slot0.filter = function(slot0, slot1)
 	slot0:filterAll(slot1)
 
 	if slot1 == BackYardConst.TAG_INDEX_THEME then
@@ -443,7 +443,7 @@ function slot0.filter(slot0, slot1)
 	slot0:SetTotalCount(slot1)
 end
 
-function slot0.SetTotalCount(slot0, slot1)
+slot0.SetTotalCount = function(slot0, slot1)
 	if slot0.scrollRect and slot0.scrollRect.value then
 		slot0.contextData.rectValue = slot0.scrollRect.value
 	end
@@ -453,7 +453,7 @@ function slot0.SetTotalCount(slot0, slot1)
 	slot0:updateTips(slot1)
 end
 
-function slot0.filterAll(slot0, slot1)
+slot0.filterAll = function(slot0, slot1)
 	slot0.decorationVOs = {}
 
 	setActive(slot0.themesPanel, slot1 == 0)
@@ -473,13 +473,13 @@ function slot0.filterAll(slot0, slot1)
 	end
 end
 
-function slot0.enableBothBtn(slot0, slot1)
+slot0.enableBothBtn = function(slot0, slot1)
 	slot2 = slot1 and 0.2 or 1
 	slot0.rightCG.alpha = slot2
 	slot0.leftCG.alpha = slot2
 end
 
-function slot0.updateTips(slot0, slot1)
+slot0.updateTips = function(slot0, slot1)
 	if slot1 == BackYardConst.TAG_INDEX_THEME then
 		setText(slot0.limitText, "")
 
@@ -489,7 +489,7 @@ function slot0.updateTips(slot0, slot1)
 	setText(slot0.limitText, slot0.curHouse:getCountByIndex(slot1) .. "/" .. pg.dorm_data_template[slot0.curHouse.level].limit[slot1])
 end
 
-function slot0.updateDecorationTF(slot0, slot1)
+slot0.updateDecorationTF = function(slot0, slot1)
 	if slot1:isCloneFurnitrue() then
 		slot0:filter(slot0.contextData.index or 0)
 
@@ -505,7 +505,7 @@ function slot0.updateDecorationTF(slot0, slot1)
 	slot0:filter(slot0.contextData.index or 0)
 end
 
-function slot0.initThemeBox(slot0)
+slot0.initThemeBox = function(slot0)
 	slot0.themeCancelBtn = slot0:findTF("frame/control/cancel_btn", slot0.themebox)
 	slot0.themeDeleteBtn = slot0:findTF("frame/control/delete_btn", slot0.themebox)
 	slot0.themeSaveBtn = slot0:findTF("frame/control/save_btn", slot0.themebox)
@@ -544,7 +544,7 @@ function slot0.initThemeBox(slot0)
 		uv0:closeThemeBox()
 	end)
 	onButton(slot0, slot0.themeSetBtn, function ()
-		function slot0(slot0)
+		slot0 = function(slot0)
 			if table.getCount(slot0) == 0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_error_noFurniture"))
 
@@ -581,7 +581,7 @@ function slot0.initThemeBox(slot0)
 	end)
 end
 
-function slot0.openThemeBox(slot0)
+slot0.openThemeBox = function(slot0)
 	if not slot0.selectThemeVO then
 		return
 	end
@@ -612,13 +612,13 @@ function slot0.openThemeBox(slot0)
 	setActive(slot0.themeSaveBtn, slot0.selectThemeVO.id <= 0)
 end
 
-function slot0.closeThemeBox(slot0)
+slot0.closeThemeBox = function(slot0)
 	slot0.isOpenThemeBox = nil
 
 	setActive(slot0.themebox, false)
 end
 
-function slot0.openMsgBox(slot0, slot1, slot2)
+slot0.openMsgBox = function(slot0, slot1, slot2)
 	slot0.isOpenMsgBox = true
 
 	setActive(slot0.msgbox, true)
@@ -632,20 +632,20 @@ function slot0.openMsgBox(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.closeMsgBox(slot0)
+slot0.closeMsgBox = function(slot0)
 	slot0.isOpenMsgBox = nil
 
 	setActive(slot0.msgbox, false)
 end
 
-function slot0.showFilterPanel(slot0)
+slot0.showFilterPanel = function(slot0)
 	if not slot0.indexPanel then
 		slot0.indexPanel = BackYardShopFilterPanel.New(slot0.filterTF, BackYardShopFilterPanel.TYPE_DECORATION)
 		slot1 = slot0.indexPanel
 
 		slot1:attach(slot0)
 
-		function slot0.indexPanel.confirmFunc()
+		slot0.indexPanel.confirmFunc = function()
 			setText(uv0.filterBtn:Find("Text"), uv0.indexPanel.sortTxt)
 			uv0:SetTotalCount(uv0.contextData.index or 0)
 		end
@@ -657,7 +657,7 @@ function slot0.showFilterPanel(slot0)
 	slot0.indexPanel:updateOrderMode(slot0.orderMode)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.isOpenMsgBox then
 		slot0:closeMsgBox()
 	elseif slot0.isOpenThemeBox then
@@ -669,7 +669,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.leftEventTrigger then
 		ClearEventTrigger(slot0.leftEventTrigger)
 	end

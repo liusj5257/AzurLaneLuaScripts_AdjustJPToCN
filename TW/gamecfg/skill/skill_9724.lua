@@ -11,8 +11,8 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillProjectArea",
 			arg_list = {
-				effect = "danchuan_miwu",
 				height = 1.7,
+				effect = "danchuan_miwu",
 				width_expend_speed = 0.15,
 				offset_x = 0,
 				cld_buff_id = 9726,

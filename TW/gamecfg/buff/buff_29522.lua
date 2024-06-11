@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29522,
 	picture = "",
 	desc = "主炮每进行15次攻击，触发专属弹幕-里诺I",
 	stack = 1,
-	id = 29522,
+	color = "red",
 	icon = 29520,
 	last_effect = "",
 	effect_list = {
@@ -30,8 +30,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29523,
+				target = "TargetSelf",
 				countType = 29520
 			}
 		}

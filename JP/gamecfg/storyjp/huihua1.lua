@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUIHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUIHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"特別パーティー、開幕！\n\n<size=45>一　エセックスの悩み</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母校・大講堂",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母校・大講堂",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,12 +94,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "エセックス様？はい、こちらで問題ございません。あとは私たちロイヤルメイド隊にお任せください",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "エセックス様？はい、こちらで問題ございません。あとは私たちロイヤルメイド隊にお任せください",
+			actor = 202120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ありがとう。ふぅ…大講堂がここまで様変わりするのを見ると、やはり感動しますね……",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "エセックス様にはここ数日色々とお手伝いをしていただいたこと、改めて感謝いたします",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "そうですか……と、急に言われても行く宛があまりないですし、やはり演習海域に――",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "この声は……！？",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -424,10 +424,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "エンタープライズ先輩、今何と……",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -477,8 +477,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "チラシ？これは……",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "「空母グループはスペシャルゲスト『エンタープライズ』が参加にゃ！決勝戦はVSエンタープライズだにゃ！」",
 			typewriter = {
@@ -556,12 +556,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "どうだ？参加する気になったか？",
 			typewriter = {
 				speed = 0.05,

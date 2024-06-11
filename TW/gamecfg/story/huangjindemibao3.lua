@@ -1,17 +1,17 @@
 return {
-	id = "HUANGJINDEMIBAO3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUANGJINDEMIBAO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 100000,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "哈啊啊啊啊啊啊buli！！！",
 			dir = 1,
 			bgm = "level03",
+			actor = 100000,
+			nameColor = "#a9f548",
+			say = "哈啊啊啊啊啊啊buli！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -42,8 +42,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -54,8 +54,8 @@ return {
 		{
 			actor = 100000,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "那就試試這個！接招吧！這是人家最後的buli了！",
 			dialogShake = {
 				speed = 0.09,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "泛用型布里",
+			side = 2,
 			bgName = "bg_bigbuli",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "buli？！！！？好、好大buli！",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "試作型布里MKII",
+			side = 2,
 			bgName = "bg_bigbuli",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "試作型布里MKII",
+			side = 2,
 			bgName = "bg_bigbuli",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "警告，系統異常喵，警告——",
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "自毀程式已啟動，倒計時開始，10、9、8——",
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "7、6、5——",
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "4、3、2——",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "1，0——",
@@ -330,14 +330,14 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
-			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "buli！！",
+			bgName = "bg_story_room",
 			bgm = "story-1",
+			actor = 100000,
+			nameColor = "#a9f548",
+			say = "buli！！",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -415,8 +415,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信件",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -463,15 +463,15 @@ return {
 			}
 		},
 		{
-			actor = 100001,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100001,
+			nameColor = "#a9f548",
 			say = "哦哦哦！真的和姐姐好像buli！好！去找姐姐吧！今天也要全力以赴地bulibuli~！",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -496,8 +496,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

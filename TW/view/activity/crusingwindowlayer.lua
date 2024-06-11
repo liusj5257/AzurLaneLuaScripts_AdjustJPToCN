@@ -1,10 +1,10 @@
 slot0 = class("CrusingWindowLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CrusingWindowUI"
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy)
 	slot2 = slot2:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
 
@@ -15,7 +15,7 @@ function slot0.preload(slot0, slot1)
 	end)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	setImageSprite(slot0._tf:Find("panel"), slot0.windowSprite, true)
 
 	slot0.rtBg = slot0._tf:Find("bg")
@@ -43,7 +43,7 @@ function slot0.init(slot0)
 	slot0.itemList:align(#(getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING):getConfig("config_client").equip_skin or {}))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:BlurPanel(slot0._tf, false, {
@@ -60,7 +60,7 @@ function slot0.didEnter(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

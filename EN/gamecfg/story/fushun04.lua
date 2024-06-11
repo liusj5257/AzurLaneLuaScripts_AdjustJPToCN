@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUSHUN04",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fu Shun's Great Adventure\n\n<size=45>Chapter 4 - Then the World was at Peace...</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Get that guy! Attack him!",
 			bgm = "story-china",
+			actor = 501030,
+			nameColor = "#a9f548",
+			say = "Get that guy! Attack him!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "I know! Here, have a taste of THIIIIIS!",
+			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "Fu Shun & Chang Chun",
-			side = 0,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Whoooa!",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "There you are, Fu Shun! You've been going around causing trouble again, haven't you?!",
 			shake = {
 				speed = 1,
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "Oh crap! An Shan?!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh crap! An Shan?!",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -236,17 +236,17 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Yikes, let's get outta-",
 			shake = {
 				speed = 8,
-				number = 3,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -274,17 +274,17 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 501030,
+			nameColor = "#a9f548",
 			say = "*Gulp*...",
 			shake = {
 				speed = 8,
-				number = 3,
+				y = 0,
 				x = 10,
-				y = 0
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "Fu Shun & Chang Chun",
-			side = 0,
+			actor = 501020,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Whaaaat?!",
@@ -482,15 +482,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "Ahh, so nostalgic... I'm amazed someone was able to find it...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -531,12 +531,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "I knew it, that console was yours all along.",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "I knew it, that console was yours all along.",
+			actor = 501030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "Waahh! Chang Chun?!",
 			shake = {
 				speed = 5,
@@ -700,11 +700,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "Hey! Don't try to wrap the story up like that!",
 			shake = {
 				speed = 8,
@@ -720,12 +720,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
 			actorShadow = true,
-			actorName = "Tai Yuan & Fu Shun & Chang Chun",
 			side = 0,
-			hideOther = true,
+			actorName = "Tai Yuan & Fu Shun & Chang Chun",
+			actor = 501040,
 			blackBg = true,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Hahahahaha...",
 			subActors = {

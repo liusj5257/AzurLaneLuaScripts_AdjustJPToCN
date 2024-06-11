@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 同盟",
 	time = 3,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 同盟",
+	init_effect = "",
+	id = 200866,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200866,
+	color = "yellow",
 	icon = 200866,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				skill_id = 200866
 			}
 		},
@@ -30,8 +30,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200867,
-				target = "TargetAllHelp",
 				nationality = 1,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -46,8 +46,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200867,
-				target = "TargetAllHelp",
 				nationality = 2,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -62,8 +62,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200867,
-				target = "TargetAllHelp",
 				nationality = 3,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -78,8 +78,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200867,
-				target = "TargetAllHelp",
 				nationality = 4,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -94,8 +94,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200867,
-				target = "TargetAllHelp",
 				nationality = 5,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -110,8 +110,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200867,
-				target = "TargetAllHelp",
 				nationality = 6,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"
@@ -126,8 +126,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200867,
-				target = "TargetAllHelp",
 				nationality = 7,
+				target = "TargetAllHelp",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"

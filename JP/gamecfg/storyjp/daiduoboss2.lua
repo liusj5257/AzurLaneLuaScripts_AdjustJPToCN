@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戦え！ロイヤルメイド2nd\n\n<size=45>二　元統括の秘策</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu2",
 			bgm = "battle-boss-5",
 			actor = 202040,
 			nameColor = "#a9f548",
 			say = "まずはこんな感じですか。さすがご主人様の艦隊、最初から攻撃が激しいです…！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "でも大丈夫なの？もう第一防衛線が突破されたんじゃない？",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "「あのメイド隊ってこんなに弱いんだ―」って、思われないかな…ほら、母港の他の陣営の艦船も多いし、やっぱり最初から全力で戦うべきかな…",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "今の様子を見るに、攻撃はまだ全力ではありません。そこをこちらが全力で迎え撃ってしまえば、ご主人様も全力を出さざるを得ず、そうなるといきなり乱戦です",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "何より、ご主人様もいきなり手加減なしで戦わされるより、少しずつ難易度を上げて焦らしたほうがやりやすいはずで…",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "粘りに粘れば、ダイドーは最後までご主人様に捨てられず、ずっとおそばに居続けられます…あぅ…",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "ご主人様、ダイドーのご主人様……",
 			typewriter = {
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "コホン。ここに長く居てもしょうがないですし、次の防衛線に行きましょう",
 			typewriter = {
 				speed = 0.05,

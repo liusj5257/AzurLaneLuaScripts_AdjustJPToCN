@@ -20,11 +20,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -51,11 +47,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -82,11 +74,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -113,11 +101,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -144,11 +128,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -175,11 +155,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -206,11 +182,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -237,11 +209,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -268,11 +236,7 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
@@ -299,19 +263,15 @@ return {
 					skill_id = 1010341,
 					target = "TargetSelf",
 					effectAttachData = {
-						{
-							value = 0,
-							type = "BattleBuffShield",
-							op = "lessequal"
-						}
+						"BattleBuffShield<=0"
 					}
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "装甲空母 +",
 	time = 8,
+	name = "装甲空母 +",
+	init_effect = "",
 	picture = "",
 	desc = "护盾",
 	stack = 1,
@@ -338,11 +298,7 @@ return {
 				skill_id = 1010341,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						type = "BattleBuffShield",
-						op = "lessequal"
-					}
+					"BattleBuffShield<=0"
 				}
 			}
 		}

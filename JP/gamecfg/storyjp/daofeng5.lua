@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAOFENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAOFENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"急がば回れ！\n\n<size=45>五　摩訶不思議ウサギ</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_108",
-			say = "遊園地",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "遊園地",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "街の施設も見回っておくことが今後のためにもなると判断し――",
@@ -69,10 +69,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うっさぁ！今日は遊園地に到着！まさに遊びに来たなって感じであります！",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "名目上は視察だが、飛び上がるほど喜んでくれたなら誘った甲斐があったというもの。",
@@ -112,10 +112,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ではさっそく、ざっくりと見て回ってきます！",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,10 +146,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "島風は、速いぞーー！",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 1,
 					x = 2500
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "止める間もなく、島風は走り去ってしまった。",
@@ -187,15 +187,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_108",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "るーるるー♪",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "おお、ここがミラーハウスというやつですな！変な島風がいっぱいいるー！",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_108",
 			side = 2,
+			bgName = "star_level_bg_108",
 			dir = 1,
+			actor = 101170,
 			actorName = "？？？",
 			say = "じぃっ……",
 			typewriter = {
@@ -267,10 +267,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "わぁー、島風がユニークな表情になってますぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -311,10 +311,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "えっ……うさぁ！？か、鏡が喋った……！ここはホラーハウスのほうだった……！？",
 			dialogShake = {
 				speed = 0.08,
@@ -347,12 +347,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………あ！！ユニオンのラフィーさん……！？",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -374,8 +374,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "係の饅頭の案内で、ようやく島風に追いつくことができた。",
@@ -408,10 +408,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ぎゃあ、島風は恐いのダメぇー！驚かさないでぇー！！",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			say = "……これはどういう状況だろう？",
@@ -448,15 +448,15 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_108",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "偶然会っただけなのに、ごはん奢ってもらえて嬉しい",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -484,10 +484,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "いやぁ、ユニオンでも著名な方と出会えてこちらこそ嬉しいですよ！ごはん代はどうか気にせず！",
 			typewriter = {
 				speed = 0.05,
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_108",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "うん、指揮官。よろしく",
 			typewriter = {
 				speed = 0.05,
@@ -521,8 +521,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_108",
 			dir = 1,
 			blackBg = true,

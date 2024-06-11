@@ -1,17 +1,17 @@
 return {
-	id = "WORLD507E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507E",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
 			say = "変…ですね…これらの残骸は壊された時間がバラバラの上に、出所が判明しないものも沢山あって……",
+			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "NA海域のセイレーンのものだけならまだしも、残骸の規模を見るとどう見ても辻褄が合いません",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "は、はい、エンタープライズ先輩",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "恐らく全ての原因はこれでしょう——NA海域のセイレーンは私たちが攻める前に既に「余燼」か、何者かの手によって叩きのめされたんだと思います",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "思い返せば、総力戦を決行するに至ったきっかけはNA海域の嵐と異常な軍備縮小だったな",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "しかし、仮に新しい残骸が余燼によるものだとして、古い残骸は説明がつかないままだぞ",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "だがそれほどの損害が出たという情報はどこにもなかった",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "もしかしたら……大昔の大戦で海底に沈んでしまった残骸が浮かび上がってきたのかもしれません",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "これらの残骸はあまりにも多すぎる。偵察機が遠くまで飛んで行ってるが途切れる気配がまるでない…",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "実は仮説によると、特異点の内部空間は外部と異なるんだって！",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "「例えば、特異点の内部空間は観察者効果の影響を強く受けていたり……」",
 			typewriter = {
 				speed = 0.05,
@@ -380,8 +380,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "ちょっと、サラトガちゃんが先に言ったんだからね！手柄を横取りしないでよ",
 			typewriter = {
 				speed = 0.05,
@@ -411,8 +411,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "そうなの？エリザベスさんのところの仮説は具体的にはどんなものなの？",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -473,8 +473,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "分かった分かった！「特異点の内部空間は観察する側、つまり観測者によって拡張されていく」",
 			typewriter = {
 				speed = 0.05,
@@ -504,8 +504,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "…あ！でも…確かセイレーンと「余燼」は「特異点」を出入りできるよね！きっとここから脱出できる方法だってあるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -519,9 +519,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "出口を探すにしてもこのままじゃキリがないわ…観測するのをやめて、艦載機もレーダーも使わず、目視のみで確認して進んでみたら、もしかしたら範囲を絞れるかも！",
 			typewriter = {
 				speed = 0.05,

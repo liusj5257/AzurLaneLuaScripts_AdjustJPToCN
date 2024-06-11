@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN21",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_1100",
-			nameColor = "#ffa500",
+			expression = 1,
 			dir = 1,
 			bgmDelay = 1,
-			expression = 1,
+			actorName = "？？？",
 			bgm = "deepblue-image",
 			actor = 900315,
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
+			bgName = "star_level_bg_1100",
 			say = "Archerfish, Shinano, Commander, and even \"me.\"",
 			flashin = {
 				delay = 1,
@@ -30,9 +30,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -56,9 +56,9 @@ return {
 			say = "Who are you, to also be able to sense this one's presence...?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -74,17 +74,17 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "The more you observe us, the more we also know about you.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -108,9 +108,9 @@ return {
 			say = "My physical form does not exist in this dream... Only those with a strong connection to me should be able to see me...",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -126,18 +126,18 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "I know nothing about your \"dreams.\" But due to the influence of this place, your existence is clear to me.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -161,9 +161,9 @@ return {
 			say = "…………",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -179,16 +179,16 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "What do you see? Why do all you people talk so funny?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -214,16 +214,16 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "And who the heck are you? Why do people keep popping up outta thin air?!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -239,18 +239,18 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "I am but another shadow—",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -266,16 +266,16 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "Okay, stop right there! I've had it with you all you people talking in riddles!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,17 +301,17 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "...Riddles?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -327,10 +327,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yeah, with all this mystical mumbo jumbo about \"existence\" and alternate realities! Can't we talk like normal people here?!",
 			dialogShake = {
 				speed = 0.09,
@@ -339,9 +339,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -357,18 +357,18 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "...Maybe that's due to your own ignorance...",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -384,16 +384,16 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "Look, I know I'm not the sharpest tool in the shed, but I'm not exactly in the best headspace right now!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,17 +419,17 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "...Commander... If that is really you... Do you still know my name...?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -445,16 +445,16 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "You don't have to answer her, Commander! I don't trust her one bit, and if she's up to no good, she'll have to answer to my trust ol' bat!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -469,14 +469,14 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintObj = true,
 			say = "Her appearance and her demeanor reminded me of——",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			options = {
@@ -506,18 +506,18 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "Not quite... Commander, it seems that you are not yet ready for the truth...",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -533,18 +533,18 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "But more importantly, back to the task at hand... You wish to know how to leave this place, yes?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -564,9 +564,9 @@ return {
 			say = "Of course. We still have an important mission to accomplish.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -582,16 +582,16 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "\"Oh, thank you so much for saving us\"~ Tch, like hell I'd believe something that convenient!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -607,15 +607,15 @@ return {
 			actor = 103140,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Before we go any further, answer me this: Are you friend or foe?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -631,18 +631,18 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "Consider me a friend.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -658,16 +658,16 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "(Huh... She actually answered that without hesitation... Maybe she really is here to help?)",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -683,17 +683,17 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "Helena... You understand, right?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -709,15 +709,15 @@ return {
 			actor = 102050,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Huh? Me...? Why, all of a sudden...",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -733,16 +733,16 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 108060,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 108060,
+			hidePaintObj = true,
 			say = "If you know how we can get out of here, let's hear it already.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -758,15 +758,15 @@ return {
 			actor = 103140,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You'd better not try anything funny, or the back of your head's gonna be saying hello to my bat~",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -782,18 +782,18 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "Mirror hacking protocol - spatial unlock.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -809,18 +809,18 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
 			actor = 900315,
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "You are now free to leave.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE8",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			bgmDelay = 1,
+			mode = 1,
 			bgm = "theme-clemenceau",
 			sequence = {
 				{
@@ -67,13 +67,13 @@ return {
 			}
 		},
 		{
-			bgm = "theme-threat-typeV",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			nameColor = "#A9F548FF",
-			bgmDelay = 2,
 			soundeffect = "event:/ui/alarm",
-			stopbgm = true,
+			bgmDelay = 2,
+			bgm = "theme-threat-typeV",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지켜야 할 것을 맡기자, 마르세예즈가 지각하는 세계는 붕괴하기 시작했다.",
 			typewriter = {
@@ -82,15 +82,15 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "시야는 온통 검게 물들었고, 귓가에서는 시끌시끌한 소리가 울려댔다. 흔들리는 의식은 점차 안개에 삼켜져 갔다.",
@@ -103,10 +103,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "……이 소리는……",
 			painting = {
 				alpha = 0.3,
@@ -121,10 +121,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "곧…… 이 소리도….. 들리지 않겠지……",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "이렇게…… 모든 것이…… 사라져……",
 			painting = {
 				alpha = 0.3,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "마르세예즈는 눈을 감고 멀어지는 의식만 간신히 붙잡고 있었다.",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "그 때, 귓가에서 그리운 동료의 목소리가 들려왔다.",
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "뚜렷하지 않은 목소리",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "뚜렷하지 않은 목소리",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "뚜렷하지 않은 목소리",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			stopbgm = true,
+			hidePaintObj = true,
 			say = "끝없는 어둠 속에 한 줄기 빛이 나타났다.",
 			typewriter = {
 				speed = 0.05,
@@ -229,9 +229,9 @@ return {
 			},
 			effects = {
 				{
-					active = false,
+					center = false,
 					name = "miwu_dark",
-					center = false
+					active = false
 				}
 			},
 			flashout = {
@@ -242,8 +242,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -254,10 +254,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "……빛?",
 			painting = {
 				alpha = 0.3,
@@ -269,13 +269,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			mode = 1,
 			side = 2,
-			bgName = "bg_masaiqu_cg2",
-			actorName = "리슐리외 ",
+			nameColor = "#92fc63",
 			bgmDelay = 2,
 			bgm = "theme-richelieu",
-			mode = 1,
+			bgName = "bg_masaiqu_cg2",
+			actorName = "리슐리외 ",
 			hidePaintObj = true,
 			say = "암흑에서 태어난 악, 비틀림에서 나타난 부정한 것이여…",
 			flashout = {
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -353,8 +353,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -382,10 +382,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_masaiqu_cg2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_masaiqu_cg2",
 			say = "마치 안개가 빛으로 흩어지는 것처럼, 꿈틀거리는 존재는 점점 희미해지면서 사라졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "안개가 걷히면서 함선들을 뒤덮은 흉흉한 기색도 희미해졌다.",
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "마르세예즈는 일어나 주변 상황을 살폈다.",
@@ -430,8 +430,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "마르세예즈",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "마르세예즈",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "마르세예즈",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "마르세예즈",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "마르세예즈",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "간신히 의식의 끈을 잡고 있던 마르세예즈는 리슐리외가 전한 충격적인 사실에 무너지고 말았다.",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "고독감, 패배감, 연이은 전투로 인한 피로가 한꺼번에 밀려든 그녀는 결국 의식을 잃었다…",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -553,27 +553,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_sainthelena2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_sainthelena2",
 			say = "곧 함선들은 전장에 남은 세이렌을 모조리 소탕했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "그렇지만 '왕관'을 찾지는 못했다.",
@@ -592,8 +592,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "그뿐만 아니라 검붉은 안개와 정체불명의 적 모두 어느샌가 소멸하고 말았고",
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "해안 주변에 남겨진 포격의 흔적만이 이 땅에서 벌어진 격전을 조용히 증명하고 있다.",

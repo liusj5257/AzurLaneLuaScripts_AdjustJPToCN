@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGRICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGRICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"어느 날의 폴라리스\n\n<size=45>어느 날의 퍼포먼스 평가</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날, 모항의 임시 스테이지.",
 			side = 2,
 			bgName = "star_level_bg_121",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날, 모항의 임시 스테이지.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "오오… 스테이지 위의 클리블랜드 언니, 기개가 있는데~",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -159,8 +159,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "하하… 이렇게 많은 관중이 몰릴 줄이야. 갑자기 긴장되는데.",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "벨파스트… 이런 곳에 얼굴을 내밀다니……",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "후…",
 			typewriter = {
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "레슨 때는 그렇다 치고, 왜 진짜 무대에 올라가야 할 때까지 이러는 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900203,
 			dir = 1,
+			actor = 900203,
 			nameColor = "#a9f548",
 			say = "첫 무대… 가스코뉴, 신체 패러미터에 이상 감지. 이것은… ‘흥분감’?",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "긴장감과 흥분감이 같이 있다니, 이게 바로 라이브의 즐거움인가~",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "클리블랜드, 굉장히 익숙한 느낌입니다.",
 			typewriter = {
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "아아아! 어쩔 수 없어! 올라간다!",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -342,9 +342,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
+			dir = 1,
 			say = "노래와 악기 소리, 그리고 환호성이 모항의 임시 스테이지를 가득 채웠다——",
 			typewriter = {
 				speed = 0.05,

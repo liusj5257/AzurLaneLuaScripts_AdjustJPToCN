@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "太平洋·？？？",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgm = "xinnong-3",
+			say = "太平洋·？？？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -31,9 +31,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -49,8 +49,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "提問，在海面上突然遭遇濃密的海霧之後，妳們想到的第一件事是什麼？",
 			typewriter = {
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "遮蔽環境的迷霧…視野受到極大限制…是迷航！",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "哎？！！會有塞壬冒出來嗎！",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -166,8 +166,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "至少要盡力避免迷航的情況……我們的航線怎麼樣，沒有發生偏離吧？",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "這是……………",
 			typewriter = {
@@ -341,11 +341,11 @@ return {
 			}
 		},
 		{
-			say = "轟————————！",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -396,8 +396,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "哼，以為遭遇突發情況就會讓我大意嗎！瑞鶴，附近有塞壬艦隊埋伏，看來是想趁我們還沒摸清情況的時候來次突然襲擊！",
 			typewriter = {

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU30",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_burningsea_1",
-			stopbgm = true,
-			say = "???·???",
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
+			stopbgm = true,
+			say = "???·???",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,11 +28,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#ffa500",
 			side = 2,
+			nameColor = "#ffa500",
 			bgName = "bg_burningsea_1",
-			say = "쾅──────────!",
 			soundeffect = "event:/battle/boom2",
+			say = "쾅──────────!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,9 +80,9 @@ return {
 		{
 			actor = 9702030,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "도우러 왔습니다. 상황은 어떻죠?",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "한 발 늦었어. 조무래기들만 남고 '고래'는 도망쳤어.",
 			painting = {
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "아쉽군요. 다른 수확은 있습니까?",
 			painting = {
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "여기, 회수한 잔류 정보야. 봐봐.",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "……역시, '고래'는 랜덤의 '유동'에 어떤 목적성이 존재하는 것 같군요.",
 			painting = {
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "그러니까 대체 놈들이 뭘 꾸미는지 감도 안 잡힌다고……. 심판자 계획이 이렇게 되어서야 계속 할 수 있긴 해?",
 			painting = {
@@ -181,9 +181,9 @@ return {
 		{
 			actor = 9701010,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "아니면 이 역시 심판자 계획이 일환인 건가?",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "그걸 왜 제게 묻습니까?",
 			painting = {
@@ -215,8 +215,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "그야 너한텐 멋진 경력이 있으니까~",
 			painting = {
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "부근에 저보다 더 멋진 분이 계십니다만. 그렇게 궁금하면 「D 아가씨」께 여쭤보는 건 어떻습니까?",
 			painting = {
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "그야 이미 물어봤지……. 하지만 먼저 '고래'를 붙잡지 못하면 아무것도 알려주지 않는다고 했는걸.",
 			painting = {
@@ -265,9 +265,9 @@ return {
 		{
 			actor = 9702030,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "그럼 계속 '고래'를 잡으세요.",
 			painting = {
 				alpha = 0.3,
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "알았어────────",
 			painting = {
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "하지만 지금은 아니에요. 폐하께서 저희를 부르십니다.",
 			painting = {
@@ -313,13 +313,13 @@ return {
 			}
 		},
 		{
-			bgName = "bg_burningsea_1",
-			mode = 1,
 			spacing = 30,
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			bgName = "bg_burningsea_1",
 			bgmDelay = 0.5,
 			bgm = "theme-shallowoftheworld",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				100,
 				100,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD200A",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WORLD200A",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Liverpool - Strategic Command Room",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
+			say = "Liverpool - Strategic Command Room",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,8 +35,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Now then, Commander, Enterprise, and my friends of the Royal Navy, let’s make Operation Siren a success!",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Indeed. The Royal Navy is ready to set sail.",
 			typewriter = {
@@ -66,15 +66,15 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "So... Operation Siren is finally commencing in earnest.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "An excellent speech, Hood. Well done.",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,10 +301,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_guild_blue",
 			side = 0,
+			bgName = "bg_guild_blue",
+			hideOther = true,
 			dir = 1,
 			actor = 205020,
 			actorName = "Hood & Warspite",
@@ -362,8 +362,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "Pardon me, Your Majesty, but I have a question. Do you know about the “thing” that was sent to the Commander from the Naval HQ?",
 			typewriter = {
@@ -456,12 +456,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "If not, then our meeting is adjourned! Do your utmost to display the glory of the Royal Navy to the world. Good luck in Operation Siren!",
 			typewriter = {
 				speed = 0.05,

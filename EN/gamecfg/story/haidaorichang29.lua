@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG29",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uncharted Summer\n\n<size=45>Marco Polo's Grand Ambition</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "A group of girls are industriously scaling the volcano. They are halfway to the summit.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "A group of girls are industriously scaling the volcano. They are halfway to the summit.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "Aside from the leader, Marco Polo, all the girls bear looks of reluctance.",
@@ -61,10 +61,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*pant*... Help... I can't keep climbing... I'm too tired...",
 			painting = {
 				alpha = 0.3,
@@ -79,10 +79,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We're almost at the summit... Hang in there... *pant*...",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "It seems they're a mountaineering team made up of both Sardegnian and Iron Blood girls.",
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "The team eventually reaches the mouth of the volcano. Marco Polo led them there under the pretense that the climb is \"a pleasurable hike through nature.\"",
@@ -119,10 +119,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I climbed all this way, and for what? There's nothing to report on up here...",
 			painting = {
 				alpha = 0.3,
@@ -134,12 +134,12 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is overcoming challenges and finding scoops in dangerous places not the job of a journalist?",
 			painting = {
 				alpha = 0.3,
@@ -154,10 +154,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Don't tell me you're giving up already.",
 			painting = {
 				alpha = 0.3,
@@ -172,10 +172,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You insisted that we tag along, that's the only reason we're here...",
 			painting = {
 				alpha = 0.3,
@@ -187,8 +187,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -200,10 +200,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But... Bismarck said this is an important mission...",
 			painting = {
 				alpha = 0.3,
@@ -218,10 +218,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Just... Just hang in there, ladies...",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, exactly. The summit isn't far now!",
 			painting = {
 				alpha = 0.3,
@@ -254,10 +254,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You must be present for this historic moment!",
 			painting = {
 				alpha = 0.3,
@@ -272,10 +272,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What \"historic moment\"?",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The moment that I, the great Marco Polo, conquer this island!",
 			painting = {
 				alpha = 0.3,
@@ -314,10 +314,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			actorName = "Jade",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 406030,
-			nameColor = "#A9F548FF",
+			actorName = "Jade",
 			hidePaintObj = true,
 			say = "I don't think merely reaching the island's highest point grants you ownership of it...",
 			painting = {
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course not. There's more to it than that. Da Vinci, is everything ready on your end?",
 			painting = {
 				alpha = 0.3,
@@ -375,10 +375,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Magnificent. I'm not afraid to splurge if it means achieving my goals.",
 			painting = {
 				alpha = 0.3,
@@ -393,10 +393,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now let's see... Yes, over there will do just fine.",
 			painting = {
 				alpha = 0.3,
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "Marco Polo scans her surroundings. After weighing her options for a second, she points to a flat stretch of land on the summit.",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "The sound of a colossal drone booms through the air, and a large shadow is cast upon the spot Marco Polo designated.",
@@ -452,10 +452,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh my god...",
 			painting = {
 				alpha = 0.3,
@@ -467,8 +467,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "A giant monument lands on the summit with a loud rumble.",
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "At the top of the monument is a statue of Marco Polo.",
@@ -499,12 +499,12 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes! THIS is a monument befitting the Sardegnian Conqueror of Islands!",
 			painting = {
 				alpha = 0.3,
@@ -519,10 +519,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whoooa! It's really well-made!",
 			painting = {
 				alpha = 0.3,
@@ -534,8 +534,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -547,10 +547,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*clap clap clap*... (I couldn't care less.)",
 			painting = {
 				alpha = 0.3,
@@ -581,8 +581,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -638,8 +638,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -679,10 +679,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I expect you to turn this into front-page news, with a long article to go with it.",
 			painting = {
 				alpha = 0.3,
@@ -713,8 +713,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -748,10 +748,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "None of which have any substance, I'm sure...",
 			painting = {
 				alpha = 0.3,
@@ -766,10 +766,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahem. Da Vinci, would you please use your drone to take us back down?",
 			painting = {
 				alpha = 0.3,

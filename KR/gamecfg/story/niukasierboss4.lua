@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"싸워라! 로열 메이드대\n\n<size=45>정면 방어선</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "연습 해역 - 정면 방어선",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "연습 해역 - 정면 방어선",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
+			say = "벨파, 이대로 가단 우리 지겠는데? 왜 반대로 기뻐하는 거야?",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "벨파, 이대로 가단 우리 지겠는데? 왜 반대로 기뻐하는 거야?",
+			actor = 202110,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 202110,
+			nameColor = "#92fc63",
 			say = "너무 피곤해… 나, 이제 더 이상은 못 버티겠다구…… ",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 202110,
+			nameColor = "#92fc63",
 			say = "그, 그래? 할 수 없지! 그럼 또 언니답게 발 벗고 나서 줘야겠네!",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			actorShadow = true,
+			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#92fc63",
 			dir = 1,
-			side = 2,
+			actor = 202190,
 			actorName = "？？？",
 			say = "그럼, 저도 선배로서 간만에 제대로 된 모습을 보여줘야겠군요.",
 			typewriter = {
@@ -354,12 +354,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "뉴캐슬씨, 잘 와주셨습니다. 다른 아이들은…?",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "뉴캐슬씨, 잘 와주셨습니다. 다른 아이들은…?",
+			actor = 202120,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -438,12 +438,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#92fc63",
 			say = "로열 메이드대의 리더 벨파스트, 여기서 마지막까지 저항하겠습니다!",
 			typewriter = {
 				speed = 0.05,

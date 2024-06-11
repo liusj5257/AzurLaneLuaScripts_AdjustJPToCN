@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第三話　『異文化のふれあい？』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "はい、それじゃあ皆さんご一緒に！ねっぷねぷにしてやんよ～♪",
 			bgm = "story-nepu1",
+			actor = 10100010,
+			nameColor = "#a9f548",
+			say = "はい、それじゃあ皆さんご一緒に！ねっぷねぷにしてやんよ～♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 201210,
-			dir = 1,
-			actorName = "ラフィー＆ジャベリン",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 201210,
+			actorName = "ラフィー＆ジャベリン",
 			say = "ねっぷねぷにしてやんよ～♪",
 			subActors = {
 				{
@@ -62,14 +62,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 301120,
-			dir = 1,
-			actorName = "{namecode:14}&{namecode:13}",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301120,
+			actorName = "{namecode:14}&{namecode:13}",
 			say = "ねっぷねぷにしてやんよ～♪",
 			subActors = {
 				{
@@ -90,14 +90,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 107030,
-			dir = -1,
-			actorName = "サラトガ＆サンディエゴ",
 			hideOther = true,
+			dir = -1,
 			nameColor = "#a9f548",
+			actor = 107030,
+			actorName = "サラトガ＆サンディエゴ",
 			say = "ねっぷねぷにしてやんよ～♪",
 			subActors = {
 				{
@@ -134,12 +134,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "ちょっと、ネプテューヌ！小っちゃい子たちに物騒なもの持たせて、なに教えてるのよ！？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ちょっと、ネプテューヌ！小っちゃい子たちに物騒なもの持たせて、なに教えてるのよ！？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "しれっと空母や軽巡も混じってるような……？",
 			typewriter = {
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			say = "なるほどね！ねぷねぷ優しいー！みんな、「えすけーぷ」するわよ！",
 			typewriter = {
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "……わたしも逃げます、『三十六計逃げるに如かず』です……",
 			typewriter = {
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "でも……みんな楽しそうだし、笑ってるです",
 			typewriter = {
@@ -526,15 +526,15 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100040,
+			nameColor = "#a9f548",
 			say = "ここは……ひょっとすると天国でしょうか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -559,13 +559,13 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "べーるおねえさん、アメさんもっとちょーだい！",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
-			say = "べーるおねえさん、アメさんもっとちょーだい！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "睦月ばっかりずるい…如月にもアメさん、ください…",
 			typewriter = {
@@ -597,11 +597,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "あたしもあたしもー！おねえちゃんたちよりおっきいの！",
 			typewriter = {
@@ -630,11 +630,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "わーい！たべたことのないアメさんがいっぱいだー！",
 			typewriter = {
@@ -647,11 +647,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "チョコレート、おいしい…",
 			typewriter = {
@@ -664,11 +664,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "うーん、マシュマロふかふか～♪",
 			typewriter = {
@@ -729,16 +729,16 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			actorName = "{namecode:6}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "……って感じで、小っちゃい子たちと遊んでたです",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -763,12 +763,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "なんか危ない人も混じってなかった？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "なんか危ない人も混じってなかった？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -847,11 +847,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "なら、綾波が案内してあげる、です",
 			typewriter = {

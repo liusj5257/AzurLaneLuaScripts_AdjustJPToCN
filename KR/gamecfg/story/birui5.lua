@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"의전함의 연회\n\n<size=45>즐기는 법은 각양각색</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 식당",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 식당",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "만쥬들로 구성된 군악대가 연주하는 화려한 음악과 함께, 히에이의 연회가 그 막을 올렸다. (저 노란 병아리들은 대체 어떻게 섭외한 거지…)",
 			typewriter = {
 				speed = 0.05,
@@ -108,15 +108,15 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#92fc63",
 			say = "고기다!! 헤헤헤, 유다치는 히에이의 연회가 제일 좋아!",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 301150,
+			say = "우왓! 유다치, 조심히 좀 먹어! 콘고 언니네가 계속 쳐다보고 있다고!",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우왓! 유다치, 조심히 좀 먹어! 콘고 언니네가 계속 쳐다보고 있다고!",
+			actor = 301150,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#92fc63",
 			say = "정말이지……",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -203,15 +203,15 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 304040,
+			nameColor = "#92fc63",
 			say = "댄스 파트너가 되어달라고? 후후, 레이디를 위해서라면 기꺼이~(찡긋)",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 304040,
+			nameColor = "#92fc63",
 			say = "하하하, 모두 다 같이~ 건배~!!",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -294,13 +294,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "한편 연회의 주관자는 연회장의 한쪽에서 조용히 홀로, 들떠있는 그 모습을 지켜보고 있었다.",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -337,9 +337,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "그녀는 흡족한 듯한 미소로 연회장을 바라보며 말했다.",
 			typewriter = {
 				speed = 0.05,

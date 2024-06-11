@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULISITUOERBOSS4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULISITUOERBOSS4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"연습 신비 사건 조사\n\n<size=45>4. 브리스톨에게 맡겨줘!</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			say = "알렌 M. 섬너의 보고로 훈련팀은 잠시 행동을 중단했고 브리스톨은 이 틈을 놓치지 않고 그녀의 '계획'을 시작했다.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_148",
 			bgm = "xinnong-3",
+			say = "알렌 M. 섬너의 보고로 훈련팀은 잠시 행동을 중단했고 브리스톨은 이 틈을 놓치지 않고 그녀의 '계획'을 시작했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
 			say = "버려진 시설 중엔 쓸모 있는 물건이 적지 않았다. 그녀는 영화에서 보던 것처럼 하나씩 \"기관\"을 설치했다.",
@@ -104,14 +104,14 @@ return {
 			}
 		},
 		{
-			say = "훈련 해역-버려진 기지",
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
 			bgm = "level",
+			say = "훈련 해역-버려진 기지",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,12 +136,12 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어라, 잉그레이엄? 휴가 중이었던 거 아니었어? 여긴 무슨 일이야?",
 			typewriter = {
 				speed = 0.05,
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "… 좀 신경이 쓰여서 한번 보러 왔어. 상황은 어때, 괜찮아?",
 			typewriter = {
 				speed = 0.05,
@@ -173,10 +173,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "별로 좋지 않아. 지휘관 말에 따르면 이상 징후가 밝혀질 때까지 훈련을 중단하는 게 좋을 것 같대.",
 			typewriter = {
 				speed = 0.05,
@@ -191,10 +191,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "거기다가 훈련을 잠시 멈춘 다음부턴 계속 이상한 일이 생기고 있달까.",
 			typewriter = {
 				speed = 0.05,
@@ -209,10 +209,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "브리스톨이 비가 오니까 우산을 갖다 달라고 한 건 아니겠지?",
 			typewriter = {
 				speed = 0.05,
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "… 그건 아니야. 더군다나 오늘은 종일 날씨가 맑은데?",
 			typewriter = {
 				speed = 0.05,
@@ -244,10 +244,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "사실 아까 돌아왔던 다른 동료가 말해준 건데 말이야. 버려진 기지를 지나가는데 이상한 일을 마주쳤대.",
 			typewriter = {
 				speed = 0.05,
@@ -262,10 +262,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어디서 날아온 지 모를 페인트 통, 밟으면 물이 뿜어져 나오는 바닥, 거기다가 이상한 소리까지...",
 			typewriter = {
 				speed = 0.05,
@@ -280,10 +280,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이 버려진 기지, 정말 문제없는 거 맞아? 아까 브리스톨을 만났는데 뭔가 이상했단 말이지.",
 			typewriter = {
 				speed = 0.05,
@@ -295,12 +295,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "글쎄... 지휘관이 고른 곳이니까, 아마 문제라면 다른 것 때문이 아닐까?",
 			typewriter = {
 				speed = 0.05,
@@ -315,10 +315,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그나저나 지휘관도 여기 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -333,10 +333,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아니. 다른 일로 바쁜 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "현재 훈련의 대리 지휘관은 나야, 혹시 필요한 게 있으면 내가 지휘관에게 전해 줄게.",
 			typewriter = {
 				speed = 0.05,
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아, 아니야...",
 			typewriter = {
 				speed = 0.05,
@@ -382,12 +382,12 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그럼 더 구경해. 난 바빠서 이만, 즐거운 휴가 보내~",
 			typewriter = {
 				speed = 0.05,
@@ -401,15 +401,15 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_148",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "… 훈련이 정말 중단될 줄이야, 거기다가 \"이상한 사건\"까지…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -434,12 +434,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "뭔가 큰일이 되어버린 것 같은데.",
 			typewriter = {
 				speed = 0.05,
@@ -454,10 +454,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "쿠퍼?! 뭐야? 언제 왔어?!",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -482,10 +482,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이번 훈련엔 내 역할도 포함되어 있다고…",
 			typewriter = {
 				speed = 0.05,
@@ -500,10 +500,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "앗, 브리스톨에게 주어진 임무, 혹시 잉그레이엄이 전해준 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -518,10 +518,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "맞아, 그리고 난 이미 충분히 완벽하게 설명했다고 생각했는데, 예상치 못하게…",
 			typewriter = {
 				speed = 0.05,
@@ -533,12 +533,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "... 대충 무슨 일인지 짐작이 가는걸...",
 			typewriter = {
 				speed = 0.05,
@@ -553,10 +553,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "버려진 시설이라는 거지...? 내가 지금 당장 가서 폭주하는 브리스톨을 \"잡아\"올게.",
 			typewriter = {
 				speed = 0.05,
@@ -568,12 +568,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "잉그레이엄 너 말이야, 내 생각엔 반성문을 미리 준비하는 게 좋을 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -588,10 +588,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "내 휴가… 우아아아아아아아악————",
 			typewriter = {
 				speed = 0.05,

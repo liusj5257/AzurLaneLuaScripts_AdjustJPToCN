@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "With the supply base conquered, there is nothing left that stands on our path to the Demon King's castle.",
 			bgm = "story-mmorpg",
+			say = "With the supply base conquered, there is nothing left that stands on our path to the Demon King's castle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "So close are we now that you can even clearly see the rising mana from the defensive magic being used within the castle.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "The time to finally confront the Demon King is here.",
 			typewriter = {
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Whoohh... The temperature is getting higher the closer we get.",
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Nubian, do have any potions that cool you down?",
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I said \"cool you down,\" not \"turn you into a human popsicle\"!",
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Unicorn! Let me borrow Yuni for a minute!",
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I just need to fly for a bit and feel the cool wind on my– Hey!",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Commander! Up in the sky! Something's coming toward us!",
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Potion Maker",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Isn't that... the Fighting Angel?",
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, I won't let 'em! She's a member of our party now and nobody's taking her on my watch!",
@@ -291,9 +291,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "Fighting Angel",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "May the goddess of light and justice be with you.",
@@ -306,17 +306,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Fighting Angel",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "Her Majesty and the holy church were concerned about you, so they sent me.",
 			painting = {
@@ -413,11 +413,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Fighting Angel",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "Consequently, she called upon her troops and ordered the 13th – and hopefully final – major campaign of this millennium.",
 			painting = {
@@ -520,11 +520,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Fighting Angel",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "If you do not confront the dragons, there's a risk they will come to attack you during your final battle.",
 			painting = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Fighting Angel",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "I take it you won't be coming with me, Your Holiness?",
 			painting = {

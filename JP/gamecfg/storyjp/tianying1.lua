@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANYING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANYING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お嬢様学習帳\n\n<size=45>一 助けて！アクィラの指揮官さま！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官さま、アクィラはこのままではダメだと思うんです！",
 			typewriter = {
 				speed = 0.05,
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "顔を膨らませて、サディアの空母――アクィラはこう主張した。",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "せっかく指揮官さまに秘書艦を任命していただきましたというのに、このままではアクィラ、職務をこなせる気がいたしません！",
 			typewriter = {
 				speed = 0.05,
@@ -103,10 +103,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうなりましたら、アクィラの指揮官さまにどれだけ迷惑をかけてしまうか…考えるだけでも悲しくなっちゃいます",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "話だけ聞いてしまうと、アクィラはどうやら自分の能力（？）に悩みを持っているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "どうして悩み始めたのだろうか――",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "アクィラ、この間ロイヤルのイラストリアスさまにお茶会に誘われまして……",
 			typewriter = {
 				speed = 0.05,
@@ -166,10 +166,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "優雅なるロイヤルレディのお茶会に相応しくあろうと、アクィラも頑張ってグラッツィに振る舞おうとしたものの",
 			typewriter = {
 				speed = 0.05,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "どうしても気になるんです――アクィラには「何か」が足りていないと",
 			typewriter = {
 				speed = 0.05,
@@ -208,10 +208,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "実はアクィラにもそれがよくわからなくて…ううん、むしろ心当たりが多すぎてどれがその「何か」かがわからなくて…",
 			typewriter = {
 				speed = 0.05,
@@ -226,10 +226,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "良かれと思って指揮官さまへの依頼を危うく断ってしまい迷惑をおかけしたことがありましたし、仕事の方にもミスしたりすることもありました",
 			typewriter = {
 				speed = 0.05,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まだ打ち解けていない仲間もいっぱいいますし、空母としての実力もまだ未熟なままです",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かにアクィラは時々発想が斜め上に行ってしまい失敗することもあるのだが、注意することで大抵の場合、失敗を未遂（？）に防げている。",
 			typewriter = {
 				speed = 0.05,
@@ -273,9 +273,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それに、仲間たちとの連携に関しては、母港に着任したばかりだから仕方のないことだと思う。",
 			typewriter = {
 				speed = 0.05,
@@ -290,10 +290,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官さま、どうかアクィラのことをお助けいただけますでしょうか…？",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "秘書艦、そして新しい仲間の彼女をこのまま心配させたままにはできない。",
 			typewriter = {
 				speed = 0.05,

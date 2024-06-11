@@ -142,11 +142,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "耐久回复",
 	painting = 1,
 	id = 14764,
-	picture = "0",
 	castCV = "skill",
-	desc = "耐久回复",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

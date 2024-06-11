@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "法系SP皇家方舟鱼雷减速",
 	time = 2,
+	name = "法系SP皇家方舟鱼雷减速",
+	init_effect = "",
 	picture = "",
 	desc = "2s减速",
 	stack = 1,

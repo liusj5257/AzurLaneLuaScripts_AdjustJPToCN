@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp3",
+			say = "「秘密領域」の研究施設の奥にある秘密を手にする――それがソユーズとアヴローラたちが自分を連れてきた目的だ。",
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
-			say = "「秘密領域」の研究施設の奥にある秘密を手にする――それがソユーズとアヴローラたちが自分を連れてきた目的だ。",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "…まあ、この施設を発見してから数十年、目の前の制御装置と「扉」がある施設以外は大体調べ尽くしている",
 			typewriter = {
@@ -58,8 +58,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "残りの手がかりがあるとすれば同志指揮官、あなたとメンタルキューブのことだ",
 			typewriter = {
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "キーロフが指している方向を見ると、そこには謎の台座があった。",
 			typewriter = {
 				speed = 0.05,
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "台座を軽く調べると、メンタルキューブをピッタリ入れられる凹み以外何もなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "しかし、この謎の装置をいきなり操作してと言われても躊躇うが…",
 			typewriter = {
 				speed = 0.05,
@@ -146,9 +146,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "手詰まり？",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "施設内部の走査、装置の破壊、氷山の解体、ありとあらゆる手を使ったわ",
 			typewriter = {
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "タリンはそう言いながら自分でメンタルキューブを凹みにはめ込んだが、何も起きなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "見ての通り、残りの道は「同志指揮官に操作してもらう」しかないのだ",
 			typewriter = {
@@ -224,9 +224,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "期待の視線を寄せられ、肩の荷が一気に重くなったように感じた。",
 			typewriter = {
 				speed = 0.05,
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "だが、メンタルキューブという未知の存在に自分がどれほどつながりを持っているかは……",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "そう難しいことはない。私達はメンタルキューブによって生み出された存在、そして私達は同志指揮官との絆で強くなる",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "そしてこの上昇幅はコンディションの影響をも越え、「理論上の最大値」を上回り、セイレーンたちが言ってた「覚醒」に近い………",
 			typewriter = {
@@ -296,9 +296,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "結論から言うと、自分がキューブ…そして彼女たちとの「絆」によって、何かしらの影響を与える能力があることが分かった。",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "それでもわからないというのなら、ここは北方連合という存在がこの扉の前で如何にか弱いか見せてやろうじゃない",
 			typewriter = {
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "グロームキィ、あの「扉」を主砲で撃って",
 			typewriter = {
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			say = "――――――！！！",
 			side = 2,
 			bgName = "bg_cccpv2_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -412,9 +412,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "至近距離の主砲射撃。いくら硬い扉だろうと無事であるはずは――",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "ほら見たでしょう。かすり傷一つもつかないわ",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "もちろん他の方法も試したわよ。爆薬を直接設置したり化学効果を用いたり高熱源を近づけてなんとか融かそうとしたけど",
 			typewriter = {
@@ -463,8 +463,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "結局無理。中に入る手段はこの装置を何とかするしかない",
 			typewriter = {
@@ -477,9 +477,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "やっぱりここは自分でなんとかしないと。",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "あれ？この台座にこんな変な模様なんてあったっけ…？",
 			typewriter = {
@@ -511,8 +511,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "模様？ちょっと見せて、前回ここに来たときはこんなものはなかったわ",
 			typewriter = {
@@ -525,8 +525,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -538,8 +538,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "つまり同志指揮官の存在がこの場所に何かしらの変化をもたらした",
 			typewriter = {
@@ -584,9 +584,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_3",
+			dir = 1,
 			say = "心を決め、ベラルーシアからメンタルキューブを受け取った。",
 			typewriter = {
 				speed = 0.05,
@@ -620,8 +620,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "！！！",
 			typewriter = {
@@ -634,8 +634,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -647,8 +647,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "台座が光りだした！",
 			typewriter = {
@@ -661,9 +661,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_4",
+			dir = 1,
 			say = "はめ込んだメンタルキューブは台座の上に浮かび上がり、微かに響いた機械の雑音とともに光の塊へと変化した。",
 			typewriter = {
 				speed = 0.05,
@@ -678,8 +678,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "メンタルキューブの実体がなくなって「光」に…？",
 			typewriter = {
@@ -708,12 +708,12 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "bg_cccpv2_4",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "ははは！同志指揮官、早く「扉」に何か変化がないか見に行こう！",
 			typewriter = {
 				speed = 0.05,

@@ -2,7 +2,7 @@ slot0 = class("WorldDetailMediator", import("..base.ContextMediator"))
 slot0.OnShipInfo = "WorldDetailMediator:OnShipInfo"
 slot0.OnCmdSkill = "WorldDetailMediator.OnCmdSkill"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OnShipInfo, function (slot0, slot1, slot2)
 		slot3 = WorldConst.FetchWorldShip(slot1)
 		uv0.contextData.fleetId = slot3.fleetId
@@ -27,13 +27,13 @@ function slot0.register(slot0)
 	slot0.viewComponent:setFleets(nowWorld():GetFleets())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then

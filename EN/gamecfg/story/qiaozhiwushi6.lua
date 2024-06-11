@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Another Leader?\n\n<size=45>Chapter 6 - Tonight's Supper</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "As a result of Hood's proposal, I suddenly found myself trying to cook for King George V.",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "As a result of Hood's proposal, I suddenly found myself trying to cook for King George V.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205050,
+			nameColor = "#a9f548",
 			say = "Commander, do you know how to cook?",
 			typewriter = {
 				speed = 0.05,
@@ -79,9 +79,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
 			optionFlag = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "Heh. Let's see what you're capable of then.",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "I see. Well, in any case, this is a good opportunity to learn a useful skill.",
 			typewriter = {
@@ -112,12 +112,12 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 205050,
+			nameColor = "#a9f548",
 			say = "You can always grab one of the Maids to help you.",
 			typewriter = {
 				speed = 0.05,
@@ -129,13 +129,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_107",
+			side = 2,
+			dir = 1,
 			say = "With that, the kitchen became a much livelier place.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "I started with the basics, such as learning how to handle vegetables and eggs.",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Then I prepared them on the skillet...",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "... and finally, plated my freshly-made omelet!",
 			dialogShake = {
 				speed = 0.09,
@@ -207,9 +207,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "I carried my creation over to King George V.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "This is... scrambled eggs?",
 			typewriter = {
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "She poked at the dish in front of her with curiosity before lifting some to her lips.",
 			typewriter = {
@@ -277,9 +277,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "(Well, that was to be expected. This person is capable of crafting dishes fit for a Queen, so of course she'd be on a completely different level from me...)",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "However...",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "The fact that you prepared this dish especially for me... is quite the delicious seasoning.",
 			typewriter = {
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "King George V smiled at me warmly, almost as if...",
 			typewriter = {
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "... the person in front of me was not my secretary ship, a Knight Commander, or one of the most charismatic leaders in the Royal Navy — but rather, just an ordinary girl who enjoyed cooking.",
 			typewriter = {
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "And with that, I caught a glimpse of her \"soft side.\"",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "I turned back towards the kitchen to continue my training.",
 			typewriter = {
 				speed = 0.05,

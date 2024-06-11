@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 2,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "特效触发器",
 	stack = 1,

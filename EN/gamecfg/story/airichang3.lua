@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 3 - Helloooo! San Diego Here♪!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Helloooo! San Diego here♪! *dingdingding*",
 			bgm = "story-1",
+			actor = 102080,
+			nameColor = "#a9f548",
+			say = "Helloooo! San Diego here♪! *dingdingding*",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,15 +68,15 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "...like this, right?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -405,12 +405,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "That's my line!",
 			typewriter = {
 				speed = 0.05,

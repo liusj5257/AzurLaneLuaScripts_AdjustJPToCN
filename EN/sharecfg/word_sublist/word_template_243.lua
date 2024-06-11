@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_243 = {}
 slot1 = slot0.word_template_243
 
-function temp()
+temp = function()
 	uv0["区"] = {
 		["乡"] = {
 			["干"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["诎"] = {
 		this = {
 			this = true
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["祛"] = {
 		["除"] = {
 			["黑"] = {
@@ -61,7 +61,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["詘"] = {
 		this = {
 			this = true
@@ -74,7 +74,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["麴"] = {
 		this = {
 			this = true
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["黢"] = {
 		this = {
 			this = true
@@ -94,7 +94,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["劬"] = {
 		this = {
 			this = true

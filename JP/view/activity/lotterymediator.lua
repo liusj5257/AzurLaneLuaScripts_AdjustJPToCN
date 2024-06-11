@@ -2,7 +2,7 @@ slot0 = class("LotteryMediator", import("..base.ContextMediator"))
 slot0.ON_LAUNCH = "LotteryMediator:ON_LAUNCH"
 slot0.ON_SWITCH = "LotteryMediator:ON_SWITCH"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_LAUNCH, function (slot0, slot1, slot2, slot3, slot4)
 		if not uv0:getActivityById(slot1) or slot5:isEnd() then
 			return
@@ -32,7 +32,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayerVO(getProxy(PlayerProxy):getData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		PlayerProxy.UPDATED,
@@ -40,7 +40,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"특별훈련·에식스급\n\n<size=45>1 에식스, 시련의 바다로</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "이번 특별 연습은 적 항공모함의 항공 공격에 대한 대응, 그리고 적 항공모함 자체에 대한 즉각 반격. 이 두 가지 상황을 가정한 거야.",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#92fc63",
+			say = "이번 특별 연습은 적 항공모함의 항공 공격에 대한 대응, 그리고 적 항공모함 자체에 대한 즉각 반격. 이 두 가지 상황을 가정한 거야.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "저기, 그러니까 우리 중에서 적 역할을 할 애도 필요하다는 거야?",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "저기, 그러니까 우리 중에서 적 역할을 할 애도 필요하다는 거야?",
+			actor = 107030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#92fc63",
 			say = "맞아.",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#92fc63",
 			say = "나? 이 함대에 부속된지 얼마 안 됐는데, 내가 해도 괜찮을까…?",
 			typewriter = {
@@ -229,10 +229,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 107220,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 107220,
+			nameColor = "#92fc63",
 			say = "(그리고 이 연습을 기회로, 나의 실력을 모두에게…!)",
 			typewriter = {
 				speed = 0.05,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			say = "네!!",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,
@@ -398,15 +398,15 @@ return {
 			}
 		},
 		{
-			say = "연습 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "연습 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -450,8 +450,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "이번 연습에서는 기록 담당이지만, 나도 엔터프라이즈 씨에게 '필요하다면 에식스를 도와줘'라고 부탁을 받았어요. 에식스, 정말 제 도움 필요없어요?",
 			typewriter = {
@@ -496,14 +496,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
-			say = "알려줘서 고마워. ……함재기, 전기 발진!",
 			soundeffect = "event:/battle/plane",
+			actor = 107090,
+			nameColor = "#ff5c5c",
+			say = "알려줘서 고마워. ……함재기, 전기 발진!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

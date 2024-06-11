@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "额外供氧",
 	init_effect = "",
+	id = 3511,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 3511,
+	color = "yellow",
 	icon = 3510,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 3511
+				skill_id = 3511,
+				target = "TargetSelf"
 			}
 		}
 	}

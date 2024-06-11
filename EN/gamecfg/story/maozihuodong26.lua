@@ -1,18 +1,18 @@
 return {
-	id = "MAOZIHUODONG26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "The enemies have come to challenge me... and these insects have embraced evil... How ignorant, how foolish!",
 			bgm = "xinnong-2",
+			nameColor = "#ff5c5c",
+			say = "The enemies have come to challenge me... and these insects have embraced evil... How ignorant, how foolish!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "...Is that so? The hell are you talking about? Are you trying to sound cool?",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "Come out already. That script you're reading from is lame.",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "Tashkent, do you know what she's talking about?",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Don't just skulk about in the shadows, Siren! Come out and give us a fair fight!",
 			typewriter = {
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_cccp_7",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Gahaha... You asked for it!",
 			dialogShake = {
 				speed = 0.09,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "(CREEAAAAAKKKK...!!)",
 			dialogShake = {
 				speed = 0.09,
@@ -203,8 +203,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "What the heck is that...",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "The ice walls cracked and split apart as a massive mechanical device began to stir, changing into a different form.",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "A giant dome rose over the icy waters and blocked out the light...",
 			typewriter = {
 				speed = 0.05,
@@ -255,9 +255,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "What in the world... is this...?!",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Omitter",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "The Siren who masterminds these Mirror Seas has appeared before us.",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Minsk",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Gangut",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grozny",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Avrora",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Omitter",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Omitter",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Omitter",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -446,8 +446,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "What a cheeky brat. Can I beat her up, dear comrade?",
 			typewriter = {
 				speed = 0.05,
@@ -489,10 +489,10 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "You assholes!! You won't even play along with me for a few minutes!! Unforgivable!!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -509,8 +509,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -537,8 +537,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "Everyone, be on your guard!",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("ThirdAnniversarySignPageKR", import(".TemplatePage.LoginTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.item = slot0:findTF("item", slot0.bg)
 	slot0.items = slot0:findTF("mask/items", slot0.bg)
@@ -8,7 +8,7 @@ function slot0.OnInit(slot0)
 	slot0.initItems = {}
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	slot1 = slot0.itemList
@@ -38,7 +38,7 @@ function slot0.OnFirstFlush(slot0)
 	print(slot0.nday)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot0.nday = slot0.activity.data1

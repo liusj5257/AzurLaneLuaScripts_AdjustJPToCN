@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE102",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE102",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ただいま……もうダメ、寝る……",
 			bgm = "story-nepu1",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "ただいま……もうダメ、寝る……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "ラフィーちゃん待って、お家に帰るまでが偵察任務だよ！",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ラフィーちゃん待って、お家に帰るまでが偵察任務だよ！",
+			actor = 201210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "別の偵察任務でばったり会ったので、お連れしたです",
 			typewriter = {
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "そういえば……ねぷねぷたちのことで、明石さんが呼んでいたのです",
 			typewriter = {
@@ -382,16 +382,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "話は聞いてるにゃ。女神の皆さんは、こっちじゃ力を出せないらしいにゃ？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "明石さん、解決策が見つかったんですか？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "明石さん、解決策が見つかったんですか？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "簡単にゃ、郷に入れば郷に従え──女神さんたち専用の艤装を作ればいいにゃ",
 			typewriter = {
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "これでみんなと一緒に出撃できるはずにゃ",
 			typewriter = {
@@ -502,11 +502,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "うーん…今日はもう遅いから、みんな休むといいにゃ",
 			typewriter = {
@@ -519,11 +519,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "明石が一晩でやってみせるにゃ。期待して待ってるにゃ！",
 			typewriter = {

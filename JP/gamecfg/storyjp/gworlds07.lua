@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDS07",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDS07",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海域の攻略進捗がリセットされた。どうやら探索実績以外の報酬をもう一回入手できるようだ。",
 			typewriter = {
 				speed = 0.05,

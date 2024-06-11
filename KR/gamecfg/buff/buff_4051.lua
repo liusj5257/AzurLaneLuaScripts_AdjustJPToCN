@@ -62,12 +62,12 @@ return {
 	desc_get = "受到伤害时有15%的概率发动，在角色正前方生成护盾，护盾可阻挡12发子弹，持续5秒(满级15秒)",
 	name = "正面装甲",
 	init_effect = "",
+	id = 4051,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "受到伤害时有15%的概率发动，在角色正前方生成护盾，护盾可阻挡12发子弹，持续$1秒",
 	stack = 1,
-	id = 4051,
+	color = "blue",
 	icon = 4050,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 1500,
-				target = "TargetSelf",
 				skill_id = 4051,
+				target = "TargetSelf",
 				time = 15
 			}
 		}

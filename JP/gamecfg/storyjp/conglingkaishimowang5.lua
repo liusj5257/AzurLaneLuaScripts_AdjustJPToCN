@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "ここは王都。人類の王国の心臓部である。",
 			bgm = "story-musicanniversary-gorgeous",
+			say = "ここは王都。人類の王国の心臓部である。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "外から見ると、高く聳える城壁は荘厳さがあり――",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "中に入ると、広い大通りとにぎやかな声が繁栄を見事に演出している。",
 			typewriter = {
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "出発前にチェックしたのに…まさかスマホがバーチャル空間に反映されないなんて！",
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大丈夫大丈夫！ほら、パネルを開いてよーく見て！スクリーンショット機能があるでしょ？",
@@ -166,9 +166,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_178",
 			factiontag = "プリースト",
 			dir = 1,
+			bgName = "star_level_bg_178",
 			soundeffect = "event:/ui/kuaimen",
 			actor = 202341,
 			nameColor = "#A9F548FF",
@@ -183,17 +183,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ！その前に商業エリアに寄ったほうがいいよ！",
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "新しい装備を手に入れたいでしょ？",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "とにかく今回は私の案で商業エリアに……あれ？",
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大通りから路地裏に曲がれないぞ！？",
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "商業エリアに行こうとする撫順は曲がり角の見えない壁に止められた。",
 			typewriter = {
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「進行中のメインクエストをクリアしてから開放されます」",
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "オープンワールドじゃなかったのか！？なんでここに移動制限があるの！？",
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -448,11 +448,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "セキュリティの関係で、神聖教会と鋼鉄教会は初見さんが立ち入れないように結界をいっぱい張っているわ～",
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "冒険者なら…最初は王宮か冒険者ギルドね。案内しようか？",
@@ -554,27 +554,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
-			say = "王宮・謁見の間",
 			bgm = "story-expo-lastday",
+			say = "王宮・謁見の間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -600,11 +600,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "王さま",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "なかなかおもしろい組み合わせじゃないか",
 			painting = {
@@ -671,11 +671,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "王さま",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "資金を提供して、あなたたちのクエストの完遂を助けよう――",
 			painting = {
@@ -688,11 +688,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "陛下、僭越ながら一つ質問が……",
@@ -724,11 +724,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これまで魔王を見たことがなくて…どうやって敵の魔王を判別するの？",
@@ -742,11 +742,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "画像とか写真とかないかな？",
@@ -796,11 +796,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "王さま",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "実は魔王はとある特殊な魔法に守られていて、通常の方法では顔が割れないようになっている",
 			painting = {
@@ -903,27 +903,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
-			say = "謁見の間の中に、紫黒色の魔法スフィアが浮かび上がった。",
 			bgm = "theme-vichy-church",
+			say = "謁見の間の中に、紫黒色の魔法スフィアが浮かび上がった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -931,8 +931,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "その中からうっすらと角と尻尾のある少女の姿が見える――",
 			typewriter = {
@@ -965,8 +965,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "そうと決まればスキル発動だ。",
 			typewriter = {
@@ -975,8 +975,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "……が、パネルには特に何も現れなかった。",
 			typewriter = {
@@ -985,8 +985,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "それどころか、紫黒色の魔法スフィアが猛烈に震え出し、今にも砕けそうだ。",
 			typewriter = {
@@ -1089,8 +1089,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "スフィアに映った魔王の姿が動き出し、言葉にできないプレッシャーが謁見の間に広がっていく。",
 			typewriter = {
@@ -1099,8 +1099,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "その重圧は、まるで魔王その人がこの場にいるかのように――",
 			typewriter = {
@@ -1203,8 +1203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1213,8 +1213,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "バリアに守られていても、灼熱の光に含まれる強大な力を肌で感じた。",
 			typewriter = {
@@ -1222,17 +1222,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1240,8 +1240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "しばらくすると光が消え去り、謁見の間にはスフィアも魔王の影もなかった。",
 			typewriter = {
@@ -1250,8 +1250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "……いや、「謁見の間」ごと消え去ったのだ。",
 			typewriter = {
@@ -1310,11 +1310,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "た、たしかに大変だ……！",
@@ -1328,11 +1328,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "クエストはクリアしたし、報酬も手に入れたし…",
@@ -1346,11 +1346,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官、リヴァプール、ユニコーン――逃げるんだよォォ！",
@@ -1366,9 +1366,9 @@ return {
 		{
 			portrait = 205050,
 			side = 2,
-			bgName = "star_level_bg_502",
 			factiontag = "王さま",
 			dir = 1,
+			bgName = "star_level_bg_502",
 			nameColor = "#FF9B93",
 			actorName = "キング·ジョージ5世",
 			say = "衛兵！この危険な冒険者たちを牢屋にぶち込め――！",
@@ -1381,17 +1381,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

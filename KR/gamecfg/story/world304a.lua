@@ -1,17 +1,17 @@
 return {
-	id = "WORLD304A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107110,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "xinnong-3",
 			dir = 1,
 			say = "...연구 함대?!",
+			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,9 +54,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...대형 작전 중이잖아. 세이렌의 위협이 아직 남아있는데, 이런 시기에 연구 함대를 보내는 건 너무 위험해!",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "나도 이번 조치가 옳지 않다고 생각해... 에식스, 넌 C구역의 지휘함이잖아? 명령에 이의를 제기할 권리가 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "파괴된 실험실이건, 의도가 분명한 전자 교란이건 우리는 이곳에 대해서 잘 알지 못해요. 정보를 얻게 된다면 앞으로의 전장에서 유용하게 쓸 수 있을지도 몰라요.",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "네비게이터, 어떻게 생각하나요?",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/44/tb-44",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "명령 확인. 본체와의 연결 복구 완료. 시스템 90% 복원, 현재 이상 현상은 발견되지 않았습니다.",
-			voice = "event:/tb/44/tb-44",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "복원이 빠르네... 좋아요. 그렇다면 힘내서 계속 가볼까요? 작전은 아직 끝나려면 멀었으니까요!",
 			typewriter = {
 				speed = 0.05,

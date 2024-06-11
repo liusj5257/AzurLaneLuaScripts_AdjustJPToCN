@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg6",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "장기판 경기장·미카사 통제 구역 제3 라운드",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,17 +36,17 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 302080,
+			nameColor = "#A9F548FF",
 			say = "하구로, 조금 전 아카기가 발동한 지휘 카드 눈치챘어?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "만약 비슷한 지휘 카드를 더 준비했다면, 다음 라운드에 아카기가 진영 거점을 점령하게 될 거야. 그 때, 7점으로 1등이 돼.",
 			painting = {
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "3라운드 연속 공격만 하다니, 공격적인 전략이네.",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "이제부터 분명 뭔가 큰 움직임이 있을 검다….",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "첫 번째 라운드에선 나가토님은 무사시님이 먼저 공격하길 기다리시는 것 같았는데, 이렇게 갑자기 공격을 개시하시다니.",
 			painting = {
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "바로 이런 이유 때문에 너와 내가 추측도 하고 더 즐거운 거 아닐까?",
 			painting = {
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg6",
 			say = "모두가 상황을 분석하고 있을 때, 경기장에 또다시 새로운 변화가 나타났다.",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "모두, 주목. 미카사 선배님의 명령이 떨어졌어요. 고개를 들어 하늘을 보세요.",
 			painting = {
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg6",
 			say = "모두가 고개를 들어 하늘을 올려다보니, 짙은 바다 안개 사이를 뚫고 거대한 깃발이 산처럼 하늘 높이 떠 있었다.",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "이건 대선배님의 Z깃발 슈퍼 버전...!? 굉장함다.",
 			painting = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "좋았어. 우리도 드디어 지휘 카드 발동이다!",
 			painting = {
@@ -426,8 +426,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "모든 팀원의 공격력 상승과 피해 대미지 감소 효과야. 그럼 이번 라운드엔 드디어 움직일 수 있게 되는 건가?",
 			painting = {
@@ -475,8 +475,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "그래 보이긴 하지만 대선배님은 아마도 '아카기의 의도가 보이지 않으니, 먼저 수를 따라가며 기회를 기다리자'라는 생각일 거야.",
 			painting = {
@@ -492,8 +492,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg6",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "그런 생각이라니, 역시 미카사 대선배님답슴다…!",
 			painting = {

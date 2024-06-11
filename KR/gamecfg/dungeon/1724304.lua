@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -62,10 +62,10 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16524204,
-							reinforceDelay = 6,
 							score = 0,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 6,
 							corrdinate = {
 								0,
 								0,
@@ -74,9 +74,9 @@ return {
 							buffList = {},
 							phase = {
 								{
-									index = 0,
 									switchType = 1,
 									switchTo = 1,
+									index = 0,
 									switchParam = 0.1,
 									addWeapon = {
 										3063511,
@@ -84,10 +84,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 6,
 									switchTo = 99,
 									index = 1,
-									switchParam = 6,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										3063513,
@@ -96,18 +96,18 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 3,
 									index = 99,
-									switchParam = 1,
+									switchType = 1,
 									setAI = 70077,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									index = 3,
 									switchParam = 4,
 									switchTo = 98,
+									index = 3,
 									switchType = 1,
 									addWeapon = {
 										3063515,
@@ -116,9 +116,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 98,
 									switchParam = 8,
 									switchTo = 5,
+									index = 98,
 									switchType = 1,
 									addWeapon = {
 										3063517
@@ -129,9 +129,9 @@ return {
 									}
 								},
 								{
-									index = 5,
 									switchParam = 1,
 									switchTo = 1,
+									index = 5,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -146,9 +146,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 16524002,
-							moveCast = true,
-							delay = 4,
 							score = 0,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								12,
 								0,
@@ -161,9 +161,9 @@ return {
 						},
 						{
 							monsterTemplateID = 16524002,
-							moveCast = true,
-							delay = 4,
 							score = 0,
+							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								12,
 								0,
@@ -188,8 +188,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 16524007,
-							moveCast = true,
 							delay = 4,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -200,11 +200,11 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 180,
 									setAI = 20009
 								}
 							}
@@ -220,8 +220,8 @@ return {
 						100
 					},
 					triggerParams = {
-						op = 0,
-						key = "warning"
+						key = "warning",
+						op = 0
 					}
 				},
 				{

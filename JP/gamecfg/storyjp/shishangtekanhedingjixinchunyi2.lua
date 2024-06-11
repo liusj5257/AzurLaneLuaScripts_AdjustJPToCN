@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"着せ替え特集　春節2023　①\n\n<size=45>昇り龍の新春晩餉</size>",
@@ -14,23 +14,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "年越しの宴――その会場で一人の少女がソワソワしている。",
 			bgm = "main-chunjie3",
+			say = "年越しの宴――その会場で一人の少女がソワソワしている。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mail",
 			say = "くよくよ…ひやひや……",
@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "うぅ…もう心配すぎるー！",
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			live2d = "touch",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
 			dir = 1,
 			optionFlag = 1,
 			actor = 501051,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "touch",
 			say = "大丈夫じゃないです！",
 			painting = {
 				alpha = 0.3,
@@ -103,14 +103,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
 			dir = 1,
 			optionFlag = 2,
 			actor = 501051,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "聞いてください！今日は台所に入れてもらえなかったんですよ！",
 			painting = {
 				alpha = 0.3,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "朝みんなに台所から追い出され、今日サプライズがあるから台所立ち入り禁止って言われました…",
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "でも…うぅ、ううう…あああーー！やっぱり心配――！！",
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "この前準備した材料で…平海と寧海がちゃんと料理できるの？？",
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "もしなんかの手違いで失敗しちゃったら…",
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それに、味付けの癖とか好みとかみんな違いますし…もし…",
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "起こりうるハプニングに悪い想像が止まらない龍武は、ますます顔が青くなった。",
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "やっぱり放っておけません！ちょっと様子を見てきます！",
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "え？何を言ってるんですか？意味がよくわかりませんけど…",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "まあ指揮官さんがそう言うなら…１個だけ……",
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "…もぐもぐ…んん！",
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "この生地の舌触り、餡の味付け！ちょっと悔しいですけど、平海たちの作ったバオズってこんなにおいしいんですね！",
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "…もぐもぐ…んん！",
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "甘くてジューシー…龍武が用意した蔵出しの花彫を使ったんですね？醬油の味付けもくどくなくちょうどいい具合――",
@@ -493,9 +493,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_165",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……絶品の蟹を味わうのに気を取られ、気がつくと龍武の姿はどこにもなかった！",
 			typewriter = {
@@ -503,17 +503,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -543,8 +543,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -555,8 +555,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -567,27 +567,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_165",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_165",
 			say = "間もなく、宴会の最後の一品――春巻が出てきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "これで龍武を引き留める作戦は晴れて成功ってわけか。",
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "指揮官さん、年越しには春巻を食べないと！はい、どうぞ",
@@ -624,8 +624,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "口に入れて春巻きの皮を噛んで舌で味わうと――言葉にできない辛さに脳天をぶち抜かれた！",
@@ -649,11 +649,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "くっくっくー、辛いでしょ。それがいいんです！",
@@ -667,11 +667,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "龍武がさっき台所に潜り込んで作った、出来立てほやほやの爆辛春巻です！",
@@ -688,10 +688,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "虎賁",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ば、爆辛？！",
 			painting = {
 				alpha = 0.3,
@@ -706,10 +706,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "虎賁",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…あ！龍武姉ちゃん、蟹の酒漬けをあんなに食べて…！",
 			painting = {
 				alpha = 0.3,
@@ -724,10 +724,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "虎賁",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もぉ指揮官！龍武姉ちゃんが酔っ払うと、激辛料理しか作らなくなっちゃうんだよ！",
 			painting = {
 				alpha = 0.3,

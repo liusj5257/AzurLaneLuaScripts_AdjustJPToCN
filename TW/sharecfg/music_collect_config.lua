@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.music_collect_config = {
 	{
-		cover = "MusicCover1",
+		music = "bgm-login",
 		name = "起航~Weigh Anchor~",
 		unlock_other = 0,
 		id = 1,
-		music = "bgm-login",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -14,11 +14,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-main",
 		name = "港區",
 		unlock_other = 0,
 		id = 2,
-		music = "bgm-main",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -27,11 +27,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-backyard",
 		name = "悠哉一刻",
 		unlock_other = 0,
 		id = 3,
-		music = "bgm-backyard",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -40,11 +40,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-story-1",
 		name = "日常",
 		unlock_other = 0,
 		id = 4,
-		music = "bgm-story-1",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -53,11 +53,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-story-2",
 		name = "思緒",
 		unlock_other = 0,
 		id = 5,
-		music = "bgm-story-2",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -66,11 +66,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-level",
 		name = "征程",
 		unlock_other = 0,
 		id = 6,
-		music = "bgm-level",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -79,11 +79,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-battle-1",
 		name = "蔚藍之風",
 		unlock_other = 0,
 		id = 7,
-		music = "bgm-battle-1",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -92,11 +92,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-battle-2",
 		name = "所羅門之夜",
 		unlock_other = 0,
 		id = 8,
-		music = "bgm-battle-2",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -105,11 +105,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-battle-boss-1",
 		name = "激戰",
 		unlock_other = 0,
 		id = 9,
-		music = "bgm-battle-boss-1",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -118,11 +118,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-battle-boss-2",
 		name = "決意",
 		unlock_other = 0,
 		id = 10,
-		music = "bgm-battle-boss-2",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -131,11 +131,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-level02",
 		name = "使命",
 		unlock_other = 0,
 		id = 11,
-		music = "bgm-level02",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -144,11 +144,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-battle-boss-4",
 		name = "DISPOSE THE PAWNS",
 		unlock_other = 0,
 		id = 12,
-		music = "bgm-battle-boss-4",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -157,11 +157,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-wedding",
 		name = "誓約之時",
 		unlock_other = 0,
 		id = 13,
-		music = "bgm-wedding",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -170,11 +170,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-story-4",
 		name = "櫻舞",
 		unlock_other = 0,
 		id = 14,
-		music = "bgm-story-4",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -183,11 +183,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-story-5",
 		name = "危機",
 		unlock_other = 0,
 		id = 15,
-		music = "bgm-story-5",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -196,11 +196,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-story-6",
 		name = "破曉",
 		unlock_other = 0,
 		id = 16,
-		music = "bgm-story-6",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,
@@ -209,11 +209,11 @@ pg.music_collect_config = {
 		unlock_cost = {}
 	},
 	{
-		cover = "MusicCover1",
+		music = "bgm-story-7",
 		name = "意志",
 		unlock_other = 0,
 		id = 17,
-		music = "bgm-story-7",
+		cover = "MusicCover1",
 		illustrate = "",
 		unlock_level = {
 			1,

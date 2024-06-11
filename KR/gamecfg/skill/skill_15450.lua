@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "副炮额外2轮攻击",
 	painting = 1,
 	id = 15450,
-	picture = "0",
 	castCV = "skill",
-	desc = "副炮额外2轮攻击",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,20 +17,20 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0.1,
 				weaponType = "OtherWeapon"
 			}
 		},
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0.2,
 				weaponType = "OtherWeapon"

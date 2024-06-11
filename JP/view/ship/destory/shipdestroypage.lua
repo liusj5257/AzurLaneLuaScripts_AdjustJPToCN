@@ -1,18 +1,18 @@
 slot0 = class("ShipDestroyPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "DestoryInfoUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("frame/sliders/content")
 	slot0.cardScrollRect = slot1:GetComponent("LScrollRect")
 
-	function slot0.cardScrollRect.onInitItem(slot0)
+	slot0.cardScrollRect.onInitItem = function(slot0)
 	end
 
-	function slot0.cardScrollRect.onUpdateItem(slot0, slot1)
+	slot0.cardScrollRect.onUpdateItem = function(slot0, slot1)
 		slot3 = DockyardShipItem.New(slot1, ShipStatus.TAG_HIDE_DESTROY)
 
 		slot3:update(uv0.shipVOs[uv0.shipIds[slot0 + 1]])
@@ -22,7 +22,7 @@ function slot0.OnLoaded(slot0)
 		end, SFX_PANEL)
 	end
 
-	function slot0.cardScrollRect.onReturnItem(slot0, slot1)
+	slot0.cardScrollRect.onReturnItem = function(slot0, slot1)
 		removeOnButton(slot1)
 	end
 
@@ -50,7 +50,7 @@ function slot0.OnLoaded(slot0)
 	end)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_CANCEL)
@@ -64,15 +64,15 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetConfirmCallBack(slot0, slot1)
+slot0.SetConfirmCallBack = function(slot0, slot1)
 	slot0.OnConfirm = slot1
 end
 
-function slot0.SetCardClickCallBack(slot0, slot1)
+slot0.SetCardClickCallBack = function(slot0, slot1)
 	slot0.OnCardClick = slot1
 end
 
-function slot0.Refresh(slot0, slot1, slot2)
+slot0.Refresh = function(slot0, slot1, slot2)
 	slot0.shipIds = slot1
 	slot0.shipVOs = slot2
 
@@ -81,7 +81,7 @@ function slot0.Refresh(slot0, slot1, slot2)
 	slot0:Show()
 end
 
-function slot0.DisplayShipList(slot0)
+slot0.DisplayShipList = function(slot0)
 	slot0.cardScrollRect:SetTotalCount(#slot0.shipIds)
 
 	if #slot0.shipIds == 0 then
@@ -89,13 +89,13 @@ function slot0.DisplayShipList(slot0)
 	end
 end
 
-function slot0.CalcShipsReturnRes(slot0, slot1)
+slot0.CalcShipsReturnRes = function(slot0, slot1)
 	return ShipCalcHelper.CalcDestoryRes(_.map(slot0, function (slot0)
 		return uv0[slot0]
 	end))
 end
 
-function slot0.RefreshRes(slot0)
+slot0.RefreshRes = function(slot0)
 	slot1, slot2, slot3 = uv0.CalcShipsReturnRes(slot0.shipIds, slot0.shipVOs)
 
 	table.insert(slot3, 1, Drop.New({
@@ -116,17 +116,17 @@ function slot0.RefreshRes(slot0)
 	slot0.resList:align(#slot0.showList)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr:GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.OnCardClick = nil
 
 	ClearLScrollrect(slot0.cardScrollRect)

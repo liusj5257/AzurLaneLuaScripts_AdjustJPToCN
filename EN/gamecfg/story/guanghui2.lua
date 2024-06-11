@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Lady's Modest Proposal\n\n<size=45>Chapter 2 - Consultation</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "When I exited the office after finishing up all of my work, Illustrious was waiting for me at the door.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "When I exited the office after finishing up all of my work, Illustrious was waiting for me at the door.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Gladly accepting her proposal, I asked if there was anything I could help out with.",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I told her it wouldn't be a problem. That settled, we started to look for things we'd need for the tea party.",
 			typewriter = {
 				speed = 0.05,
@@ -142,13 +142,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "Though we struggled for a bit, in the end, we were able to bring a white table and some chairs up the slope to the secret spot.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "This was more back-breaking work than I had thought. Exhausted, the two of us both leaned back into the chairs we had brought.",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "It seemed like Illustrious was deep in thought.",
 			typewriter = {
 				speed = 0.05,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "However, I was very busy at that time, so I forgot to send her a response. I'm worried about what I should do now...",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 		{
 			actor = 207050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "\"I appreciate the invitation, but on that day, I have plans to rock in my– Err, enjoy some music.\"",
 			effects = {
 				{
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "...Is the reason she said she couldn't be in attendance.",
 			effects = {
 				{
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "I told Illustrious that I'd help her write a response to Littorio and try to convince Formidable to attend.",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Illustrious seemed to feel more relaxed as she pulled her chair up next to mine. My heart started to pound as I noticed that Illustrious was so close that our shoulders were about to touch.",
 			typewriter = {
 				speed = 0.05,

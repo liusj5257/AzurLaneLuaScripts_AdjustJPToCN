@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023俾斯麦Z活动 女灶神meta 维修光环",
 	time = 0,
-	color = "yellow",
+	name = "2023俾斯麦Z活动 女灶神meta 维修光环",
+	init_effect = "",
+	id = 200429,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200429,
+	color = "yellow",
 	last_effect = "",
 	effect_list = {
 		{

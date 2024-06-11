@@ -159,14 +159,14 @@ return {
 			}
 		}
 	},
-	init_effect = "jinengchufared",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "jinengchufared",
+	id = 1010533,
 	picture = "",
 	desc = "装备效率提高",
 	stack = 1,
-	id = 1010533,
+	color = "red",
 	icon = 1010533,
 	last_effect = "",
 	effect_list = {

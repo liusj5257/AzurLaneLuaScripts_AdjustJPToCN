@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "そろそろ2Fも探索しよう！",
 				mode = 1,
-				posY = -80,
 				dir = -1,
+				posY = -80,
 				posX = -561.6
 			},
 			ui = {

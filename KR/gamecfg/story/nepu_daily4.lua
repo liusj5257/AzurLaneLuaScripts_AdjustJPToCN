@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>제4화 - 방과 게이머와 나</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "실례합니다~ 어머, 멋진 게이밍 PC네요!",
 			bgm = "story-nepu2",
+			actor = 10100040,
+			nameColor = "#92fc63",
+			say = "실례합니다~ 어머, 멋진 게이밍 PC네요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 106010,
+			say = "어서 오세요~ 게임 애호회에 잘 오셨습니다~",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어서 오세요~ 게임 애호회에 잘 오셨습니다~",
+			actor = 106010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "이곳은 게임을 사랑하고, 방탕을 사랑하고, 임무로부터 해방되는 순간 폐인으로서 살아가는 자들의 쉼터……환영한다!",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "음음음, 이 얼마나 깊이가 있는 말이란 말인가…… 너, 프로구나?",
 			typewriter = {
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "──타닥타닥타닥타닥타닥타닥……타앗!",
 			typewriter = {
 				speed = 0.05,
@@ -226,13 +226,13 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "몬스터 헌팅 게임인데 빤스 차림에 솔플… 으으음, 심지어 노 대미지 클리어?!",
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "몬스터 헌팅 게임인데 빤스 차림에 솔플… 으으음, 심지어 노 대미지 클리어?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "육, 해, 공…… 모든 군사 시뮬레이션을 제패했어!",
 			typewriter = {
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "전광석화의 속도로 감자칩까지…… 전율할만한 플레이 스킬!",
 			typewriter = {
@@ -313,9 +313,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "──타닥타닥타닥타닥타닥타닥……타탓!!",
 			typewriter = {
 				speed = 0.05,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 106010,
+			say = "언니…… 그야말로 신! 게이머의 신이야, 굉장해……",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "언니…… 그야말로 신! 게이머의 신이야, 굉장해……",
+			actor = 106010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "유바리도 감복하였다! 너야말로… 이 세계에 강림한, 게이머의 신……!",
 			typewriter = {
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "으으음, 그렇다면, 좀 더 참가자가 있었으면 좋겠는데……",
 			typewriter = {
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "실례하지. 폐하가 한 번 견학을 하고 싶다 하셔서……",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "실례하지. 폐하가 한 번 견학을 하고 싶다 하셔서……",
+			actor = 205020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -509,11 +509,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "……아, 참가자가 온 건가?",
 			typewriter = {
@@ -590,11 +590,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "서로 다른 이야길 하는 거 같은데… 괜찮은 건가?",
 			typewriter = {
@@ -655,11 +655,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "아, 저 사람…… 아크 로열과 같은 냄새가 나!",
 			typewriter = {

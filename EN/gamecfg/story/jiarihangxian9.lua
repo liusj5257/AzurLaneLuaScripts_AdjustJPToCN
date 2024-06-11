@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "Misaki, to your left!",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "Got it! Hiyah!",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Their cooperation is flawless. Just what you'd expect from sisters.",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "Whew... Well, that wasn't bad. Are you all right, Misaki?",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "Geez, you're such a worrywart... Look at me, I'm perfectly fine. There's not even a single scratch on me~",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,8 +211,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "Ahaha... she really is quite the formidable little sister, isn't she...",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "That makes two of us!",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "Two as in... you too?",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "As the two sides enjoy their postgame chitchat, a third party enters the picture.",
 			typewriter = {
 				speed = 0.05,
@@ -286,9 +286,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
 			actor = 103070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Portland, please, this is embarrassing... Sorry, everyone, my sister can be a serious annoyance sometimes...",
 			typewriter = {
 				speed = 0.05,
@@ -304,10 +304,10 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "W-wait a sec! I haven't even gotten to preach Indy's greatness yet! I just need one minuuuute!",
 			subActors = {
 				{
@@ -327,16 +327,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2500
@@ -347,8 +347,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "I-I guess... sisters really do come in all shapes and sizes...",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お嬢様とめぐるひとときを\n\n<size=45>三 好奇心と甘いケーキ</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "――チェイサーが他の陣営へと出向する初日。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "――チェイサーが他の陣営へと出向する初日。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "ここがヴィシア陣営の寮ね！さっそく中に入ってみましょうか",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "チェイサーはおもむろに玄関口の扉を押し開け、中へと入っていく。",
@@ -83,15 +83,15 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "ふぅん。やっぱり建物の中はロイヤルとは少し違うのね……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "好奇心溢れんばかりの様子で、チェイサーは目につくものを片っ端から指さしていく。",
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "あら？見慣れない顔の子と……そこにいるのは指揮官？",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "……ああ、ロイヤルから出向してきた子ね。私はダンケルクよ。よければお名前を聞かせてくれるかしら？",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "ええ、今日は我が陣営で行なわれている演習や座学をぜひ見学していくといいわ",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "それと……歓迎のためにとびきりのケーキを用意するので、楽しみに待っていて",
 			typewriter = {
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "ケーキ！とても嬉しいわ！わたくしもとびきりの茶葉を用意してきたから、最高の紅茶をふるまってさしあげるわ",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "少し疲れたような足取りでダンケルクが奥に向かっていくと、なぜかチェイサーも自然に後をついていく。",
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "エントランスで待っていたほうがいい気がしたが、どんどん先を行く二人を見て仕方なく後を追った――",
@@ -289,14 +289,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 206050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "あらあら、どうやらずいぶんとお疲れ気味のようね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "う、指揮官もチェイサーもついてきたの……そういえばエントランスで待っているよう伝え忘れていたわ",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "どうしたのかしら？もしかして指揮官とわたくしが迷惑をかけてしまって……",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#a9f548",
 			say = "そんなことないわ。昨晩は遅くまでいっぱい働いたから、せめて甘いお菓子でも食べて休憩少し休憩できたら……",
 			typewriter = {
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "なら丁度いいじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そう言いながらチェイサーはそっとこちらの耳元に口を寄せてきた。",
@@ -464,8 +464,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "（……ヴィシアの子ってしっかり者のイメージがあったけど、今日みたいにゆるいとこもあるのね！）",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "チェイサーはくすくすと笑ってそう言うと、くるりとダンケルクに振り返って元気よく尋ねる。",
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "知らない場所でもぐいぐい突っ込んでいける、そんな好奇心旺盛な部分はチェイサーの性格なのだろう。",
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

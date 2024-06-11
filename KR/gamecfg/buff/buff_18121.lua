@@ -139,13 +139,13 @@ return {
 			}
 		}
 	},
-	color = "blue",
+	id = 18121,
 	name = "Engine boost +",
 	time = 0,
 	picture = "",
 	desc = "机动提高",
 	stack = 1,
-	id = 18121,
+	color = "blue",
 	icon = 18120,
 	last_effect = "",
 	effect_list = {

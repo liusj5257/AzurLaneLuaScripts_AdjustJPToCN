@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN32",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "로열-여왕의 저택",
 			side = 2,
 			bgName = "star_level_bg_116",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-partydress",
+			say = "로열-여왕의 저택",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
+			dir = 1,
 			say = "서포크가 서류를 품에 안은 채 복도를 급히 뛰어가고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
+			dir = 1,
 			say = "벨파스트의 당부를 받긴 했지만, 서포크는 이번엔 시계를 잘 보라는 걸 기억했습니다. 하지만 문제는 시계의 배터리가 방전이었다는 것.",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
+			dir = 1,
 			say = "이걸 발견했을 때, 그녀는 이미 지각을 한 상태. 최대한 빠르게 가기 위해 그녀는 한 번도 가지 않은 가장 가까운 길을 선택했다.",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "흐아아... 늦겠어!",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -104,8 +104,8 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "꽤 오랫동안 달렸는데도 왜 아직 도착하지 못한 거지… 평소에 이렇게 멀다고 느끼지 않았는데…!",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "설마 길을 잃은 건 아니겠지?",
 			typewriter = {
@@ -135,9 +135,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
+			dir = 1,
 			say = "서포크는 걸음을 멈췄다. 그제야 그녀는 자신이 이미 궁궐의 지하에 들어선 걸 발견했다.",
 			typewriter = {
 				speed = 0.05,
@@ -149,9 +149,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
+			dir = 1,
 			say = "엘리자베스가 좋아하는 화려한 인테리어는 이미 사라지고, 차가운 하얀색 철벽만이 사방을 둘러싸고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "… 내가 감히 폐하의 궁궐에서 길을 잃었다고?!",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,8 +193,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "망했다, 망했어... 이번엔 벨파스트한테 정말 일 년은 혼날 거야.",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 299010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_116",
 			side = 2,
+			bgName = "star_level_bg_116",
 			dir = 1,
+			actor = 299010,
 			actorName = "？？？",
 			say = "어랏, 이곳에 외부인이 오는 건 드문 일인데, 메이드 대의 사람인가?",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "으아악!",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,8 +254,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "... 네, 맞습니다! 혹시 누구시죠? 절 놀라게 하지 마세요…",
 			typewriter = {
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 299010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_116",
 			side = 2,
+			bgName = "star_level_bg_116",
 			dir = 1,
+			actor = 299010,
 			actorName = "？？？",
 			say = "미안, 미안~ 실수로 길을 잃었나요?",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "맞아요, 이런 곳도 있을 줄은 몰랐네요.……",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "전 서포크입니다. 당신은…?",
 			typewriter = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 299010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_116",
 			side = 2,
+			bgName = "star_level_bg_116",
 			dir = 1,
+			actor = 299010,
 			actorName = "？？？",
 			say = "서포크~ 그렇구나~ 셰피한테 들은 적 있어요.",
 			typewriter = {
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 299010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_116",
 			side = 2,
+			bgName = "star_level_bg_116",
 			dir = 1,
+			actor = 299010,
 			actorName = "？？？",
 			say = "종잡을 수 없는 메이드라던데?",
 			typewriter = {
@@ -356,8 +356,8 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "그건 무슨 평가죠! 일이라면 최선을 다해서 하고 있습니다!",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -383,8 +383,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "에… 그 차림새를 보니, 메이드 대의 신입이잖아.",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "셰피?! 휴… 살았다.",
 			typewriter = {
@@ -433,8 +433,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "여기가 어딘지 아세요?",
 			typewriter = {
@@ -450,8 +450,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "폐하께 급히 가는 길이었는데, 길을 잃어버렸어요…",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "네...?",
 			typewriter = {
@@ -516,8 +516,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "정말 고마워요, 셰피!",
 			typewriter = {
@@ -565,9 +565,9 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "star_level_bg_116",
-			actor = 203040,
 			dir = 1,
 			blackBg = true,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "오케이, 알겠어요! 어서 빨리 빨리 가죠———이러다 정말 지각하겠어요, 어서요!",
 			typewriter = {
@@ -580,8 +580,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

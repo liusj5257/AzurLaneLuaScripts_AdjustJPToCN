@@ -16,40 +16,56 @@ require("Mgr/Perform/Include")
 
 slot11 = true
 
-function slot12(...)
+slot12 = function(...)
 	if uv0 and IsUnityEditor then
 		originalPrint(...)
 	end
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.status = uv0
 	slot0.playedList = {}
 	slot0.playQueue = {}
 
-	PoolMgr.GetInstance():GetUI("PerformUI", true, function (slot0)
-		uv0._go = slot0
-		uv0._tf = tf(uv0._go)
-		uv0.UIOverlay = GameObject.Find("Overlay/UIOverlay")
+	if slot1 then
+		slot1()
+	end
+end
 
-		uv0._go.transform:SetParent(uv0.UIOverlay.transform, false)
+slot0.CheckLoad = function(slot0, slot1)
+	seriesAsync({
+		function (slot0)
+			if not uv0._go then
+				PoolMgr.GetInstance():GetUI("PerformUI", true, function (slot0)
+					uv0._go = slot0
+					uv0._tf = tf(uv0._go)
+					uv0.UIOverlay = GameObject.Find("Overlay/UIOverlay")
 
-		uv0.cpkPlayer = CpkPerformPlayer.New(findTF(uv0._tf, "window_cpk"))
-		uv0.dialoguePlayer = DialoguePerformPlayer.New(findTF(uv0._tf, "window_dialogue"))
-		uv0.picturePlayer = PictruePerformPlayer.New(findTF(uv0._tf, "window_picture"))
-		uv0.storyPlayer = StoryPerformPlayer.New(findTF(uv0._tf, "window_story"))
+					uv0._go.transform:SetParent(uv0.UIOverlay.transform, false)
 
-		setActive(uv0._go, false)
+					uv0.cpkPlayer = CpkPerformPlayer.New(findTF(uv0._tf, "window_cpk"))
+					uv0.dialoguePlayer = DialoguePerformPlayer.New(findTF(uv0._tf, "window_dialogue"))
+					uv0.picturePlayer = PictruePerformPlayer.New(findTF(uv0._tf, "window_picture"))
+					uv0.storyPlayer = StoryPerformPlayer.New(findTF(uv0._tf, "window_story"))
 
-		uv0.status = uv1
+					setActive(uv0._go, false)
 
-		if uv2 then
-			uv2()
+					uv0.status = uv1
+
+					uv2()
+				end)
+			else
+				slot0()
+			end
+		end
+	}, function ()
+		if uv0 then
+			uv0()
 		end
 	end)
 end
 
-function slot0.PlayOne(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayOne = function(slot0, slot1, slot2, slot3, slot4)
 	assert(pg.child_performance[slot1], "child_performance not exist id: " .. slot1)
 
 	if not slot0:CheckState() then
@@ -69,7 +85,7 @@ function slot0.PlayOne(slot0, slot1, slot2, slot3, slot4)
 	end, slot3, slot4)
 end
 
-function slot0.PlayGroup(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayGroup = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot1) do
@@ -88,7 +104,7 @@ function slot0.PlayGroup(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.play(slot0, slot1, slot2, slot3, slot4)
+slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 	assert(pg.child_performance[slot1], "child_performance not exist id: " .. slot1)
 
 	if not slot0:CheckState() then
@@ -102,7 +118,7 @@ function slot0.play(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.status = uv1
 
-	function slot5()
+	slot5 = function()
 		uv0.status = uv1
 
 		if uv2 then
@@ -133,7 +149,7 @@ function slot0.play(slot0, slot1, slot2, slot3, slot4)
 	})
 end
 
-function slot0.addTaskProgress(slot0, slot1)
+slot0.addTaskProgress = function(slot0, slot1)
 	slot3 = {}
 	slot4 = {}
 	slot5 = {}
@@ -183,7 +199,7 @@ function slot0.addTaskProgress(slot0, slot1)
 	end
 end
 
-function slot0.PlayGroupNoHide(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayGroupNoHide = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot1) do
@@ -195,14 +211,14 @@ function slot0.PlayGroupNoHide(slot0, slot1, slot2, slot3, slot4)
 	seriesAsync(slot5, slot2)
 end
 
-function slot0.setWindowStatus(slot0, slot1)
+slot0.setWindowStatus = function(slot0, slot1)
 	setActive(slot0.cpkPlayer._tf, slot1.cpk_status == uv0)
 	setActive(slot0.dialoguePlayer._tf, slot1.dialogue_status == uv0)
 	setActive(slot0.picturePlayer._tf, slot1.picture_status == uv0)
 	setActive(slot0.storyPlayer._tf, slot1.story_status == uv0)
 end
 
-function slot0.CheckState(slot0)
+slot0.CheckState = function(slot0)
 	if slot0.status == uv0 then
 		return false
 	end
@@ -210,36 +226,54 @@ function slot0.CheckState(slot0)
 	return true
 end
 
-function slot0.IsRunning(slot0)
+slot0.IsRunning = function(slot0)
 	return slot0.status == uv0 or slot0.status == uv1 or slot0.status == uv2
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
+	slot0:CheckLoad(function ()
+		uv0:_Show()
+	end)
+end
+
+slot0._Show = function(slot0)
 	slot0.status = uv0
 
 	setActive(slot0._go, true)
 	slot0._tf:SetAsLastSibling()
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0.cpkPlayer:Clear()
 	slot0.dialoguePlayer:Clear()
 	slot0.picturePlayer:Clear()
 	slot0.storyPlayer:Clear()
 end
 
-function slot0.Hide(slot0)
+slot0.Show = function(slot0)
+	slot0:CheckLoad(function ()
+		uv0:_Show()
+	end)
+end
+
+slot0.Hide = function(slot0)
 	slot0:Clear()
 	setActive(slot0._go, false)
 
 	slot0.status = uv0
 end
 
-function slot0.Quit(slot0)
+slot0.Quit = function(slot0)
 	slot0.status = uv0
 end
 
-function slot0.SetParamForUI(slot0, slot1)
+slot0.SetParamForUI = function(slot0, slot1)
+	slot0:CheckLoad(function ()
+		uv0:_SetParamForUI(uv1)
+	end)
+end
+
+slot0._SetParamForUI = function(slot0, slot1)
 	slot0.cpkPlayer:SetUIParam(uv0.UI_PARAM[slot1] or uv0.UI_PARAM.Default)
 end
 

@@ -1,12 +1,12 @@
 return {
-	id = "W2031",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2031",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The Siren blockade is still there. Looks like it didn’t work.",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Scan complete. The device has been reset.",
 			typewriter = {
 				speed = 0.05,

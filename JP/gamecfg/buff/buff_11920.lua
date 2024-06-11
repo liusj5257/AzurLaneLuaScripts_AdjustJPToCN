@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "天之骑士·检测PUTAG",
 	init_effect = "",
+	id = 11920,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "检查TAG",
 	stack = 1,
-	id = 11920,
+	color = "red",
 	icon = 11920,
 	last_effect = "",
 	effect_list = {
@@ -64,8 +64,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 11922,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

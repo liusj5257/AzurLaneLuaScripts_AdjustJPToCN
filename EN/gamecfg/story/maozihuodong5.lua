@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102100,
 			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 102100,
 			nameColor = "#a9f548",
 			say = "The enemy's response has stopped for now, so we can catch our breath now~",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Ahaha... The closer you get, the stronger their defenses. Consider what we just saw the appetizers.",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Well, everything should be fine now that we're here. The commander's no slouch when it comes to mustering up the firepower we need.",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "Let's do this! No matter how strong their defenses are, all we have to do is keep beating them back!",
 			typewriter = {

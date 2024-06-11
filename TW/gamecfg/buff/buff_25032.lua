@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行10次攻击，触发全弹发射-西北风级"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 25032,
 	picture = "",
 	desc = "主炮每进行10次攻击，触发全弹发射-西北风级",
 	stack = 1,
-	id = 25032,
+	color = "red",
 	icon = 20000,
 	last_effect = "",
 	effect_list = {
@@ -19,9 +19,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 25032,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 25032,
 				index = {
 					1
 				}
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 25032,
+				target = "TargetSelf",
 				countType = 25032
 			}
 		}

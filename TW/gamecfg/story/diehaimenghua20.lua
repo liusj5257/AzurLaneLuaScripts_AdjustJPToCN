@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA20",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "nagato-boss",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			bgName = "bg_story_bsmlevel",
-			mode = 1,
 			dir = 1,
 			bgmDelay = 1,
+			bgm = "nagato-boss",
+			bgName = "bg_story_bsmlevel",
+			mode = 1,
 			say = "轰————————————————！",
-			soundeffect = "event:/battle/boom2",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -71,9 +71,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "炸彈在空氣的摩擦下發出死亡的轟鳴，由身形模糊的敵人構成的洪流被炸出一個個缺口。",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "…就算在以往的夢境之中也沒有感受過如此充盈的力量…如果是這樣的力量……能贏！",
 			typewriter = {
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "若是僅有一頭巨獸的話，確實如此。但是接二連三，更多身形模糊的威脅逼近了。",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "「——————此為徒勞。」",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "縱使夢境之中…只要界限未臨，只要敵息尚存，妾身就要繼續戰鬥下去！",
 			typewriter = {
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "周邊抵抗的聲音變得越來越微弱。不知從何時開始，立於海面之上的只有信濃一人了。",
 			typewriter = {
 				speed = 0.05,
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "「——————此為徒勞。」",
 			typewriter = {
 				speed = 0.05,
@@ -207,13 +207,13 @@ return {
 			}
 		},
 		{
-			actorName = "█ █ █ █",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █",
 			dir = 1,
-			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊ ▊▇ ▊▇ ▊▇",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#BDBDBD",
+			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊ ▊▇ ▊▇ ▊▇",
 			flashN = {
 				color = {
 					1,
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "bg_white",
-			actorName = "{namecode:182}",
+			side = 2,
 			dir = 1,
+			actorName = "{namecode:182}",
+			bgName = "bg_white",
 			nameColor = "#a9f548",
 			say = "遠方曾經身處火炬之中的妾身，也是以這樣的姿態迎來了最後一刻嗎…",
 			flashout = {
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 1,
 			bgName = "bg_white",
+			mode = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {
 				dur = 0.5,

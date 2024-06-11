@@ -9,13 +9,13 @@ return {
 			style = {
 				text = "대형 작전 해역에 도착했습니다. 출발 구역을 터치하세요.",
 				mode = 2,
-				posY = -260,
 				dir = -1,
+				posY = -260,
 				posX = 22
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/WorldUI(Clone)/scale/map/levels/11/bg/11(Clone)/mask/Image",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/WorldUI(Clone)/scale/map/levels/11/bg/11(Clone)/mask/Image",
 				triggerType = {
 					1
 				},
@@ -31,8 +31,8 @@ return {
 				"ClickEnter"
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/WorldUI(Clone)/scale/map/stage_info/panel_blue/enter",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/WorldUI(Clone)/scale/map/stage_info/panel_blue/enter",
 				triggerType = {
 					1
 				},

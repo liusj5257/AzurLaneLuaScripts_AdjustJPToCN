@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Thinking",
 			say = "港區·演出海域",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Thinking",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,9 +52,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "嗯哼嗯哼……原來如此……就是說，接下來只要一鼓作氣衝到舞台那裡就好了吧！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -91,8 +91,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,9 +118,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10700060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "向原來的世界凱旋！亞美們一定能大獲全勝♪",
 			effects = {
 				{
@@ -140,9 +140,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "亞美，現在下勝利宣言還太早了。目前先集中對付眼前的“冒牌貨”！",
 			effects = {
 				{
@@ -193,8 +193,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700040,
 			dir = 1,
+			actor = 10700040,
 			say = "謝謝～看來今天會是漫長的一天呢。",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			say = "今天的演唱會指揮官可是一直在看著的呢~從開場就全力以赴的話後面可是會撐不住的哦~",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10700030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "等等，什麼時候開始看著的？！我可沒聽說有這回事！",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			say = "（說不定指揮官看著，對艦船們來說是個不錯的刺激…）",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700020,
 			dir = 1,
+			actor = 10700020,
 			say = "……！",
 			typewriter = {
 				speed = 0.05,

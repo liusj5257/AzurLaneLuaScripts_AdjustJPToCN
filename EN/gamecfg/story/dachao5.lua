@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Gentle and Sweet Ooshio!\n\n<size=45>Time for Overtime!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Though it was now late into the night, I still had a big pile of work to do.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "There's just no end in sight...",
 			typewriter = {
 				speed = 0.05,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Ooshio brought me a glass of milk.",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "As I was sipping my hot milk, I looked at the mountainous pile of paperwork left. I let out a sigh and continued working.",
 			typewriter = {
 				speed = 0.05,
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Guess I won't be getting any sleep tonight...",
 			typewriter = {
 				speed = 0.05,
@@ -144,16 +144,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			actorName = "？？？",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			nameColor = "#a9f548",
 			say = "...Commander? Are ya awake?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
+			actor = 301640,
 			say = "Ooshio woke me up. I guess I ended up falling asleep in my office.",
 			flashN = {
 				color = {
@@ -215,13 +215,13 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "G'mornin', Commander. Guess ya ended up fallin' asleep in yer office...",
 			bgm = "story-1",
+			actor = 301640,
+			nameColor = "#a9f548",
+			say = "G'mornin', Commander. Guess ya ended up fallin' asleep in yer office...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "That's when I noticed that my coat was hanging on my shoulders, like a blanket. Ooshio must've covered me with it while I was sleeping.",
 			typewriter = {
 				speed = 0.05,
@@ -274,9 +274,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Ooshio placed her hand on a stack of papers. The mountain of paperwork from yesterday was now only a fraction as big.",
 			typewriter = {
 				speed = 0.05,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "Thanks to yer hard work, ya almost done achieved yer goal~ Reckon ya can manage the final stretch?",
 			typewriter = {
 				speed = 0.05,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "Haha♪ I knew I could count on ya~",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

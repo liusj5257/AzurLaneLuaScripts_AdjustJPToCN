@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU28",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			stopbgm = true,
 			bgmDelay = 1,
-			say = "█ █ █ █ █ █ █ █ █",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			say = "█ █ █ █ █ █ █ █ █",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,9 +29,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "Nobody answered Implacable's rhetorical question, only a black sun roiling silently above her.",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "Implacable turned her eyes towards the black sun, and made up her mind.",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "But just as she was about to step forward, she suddenly felt another presence behind her.",
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#BDBDBD",
+			side = 2,
 			bgName = "bg_firedust_5",
 			actorShadow = true,
 			dialogueBgAlpha = 0.6,
-			side = 2,
+			actor = 205010,
 			actorName = "█ █ █ █ █",
 			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
 			typewriter = {
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			actorName = "█ █ █ █ █",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			nameColor = "#BDBDBD",
+			dialogueBgAlpha = 0.6,
 			actor = 205010,
-			actorName = "█ █ █ █ █",
+			nameColor = "#BDBDBD",
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
 			painting = {
 				alpha = 0.3,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "KABOOM––!!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOM––!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "The whole area seemed to shudder violently with that explosion, and in the place of the enigmatic voice stood another person.",
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "Implacable opened her eyes, and came face-to-face with the figure across from her.",
@@ -323,13 +323,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "???",
+			dialogueBgAlpha = 0.6,
 			dir = 1,
 			actor = 900352,
-			nameColor = "#ffa500",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "What are you staring at us for?",
 			painting = {
@@ -364,11 +364,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "Queen Elizabeth META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "Queen Elizabeth META",
 			hidePaintObj = true,
 			say = "What's with that stunned look on your face? Did you not call out to us?",
 			painting = {
@@ -384,11 +384,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "Queen Elizabeth META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "Queen Elizabeth META",
 			hidePaintObj = true,
 			say = "Now that I take a closer look at you, you still haven't undergone METAmorphosis...",
 			painting = {
@@ -404,11 +404,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "Queen Elizabeth META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "Queen Elizabeth META",
 			hidePaintObj = true,
 			say = "How, then, did you invoke our name? And, how did you manage to get yourself involved with THOSE things?",
 			painting = {
@@ -424,11 +424,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "Queen Elizabeth META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "Queen Elizabeth META",
 			hidePaintObj = true,
 			say = "How interesting...",
 			painting = {
@@ -460,13 +460,13 @@ return {
 			}
 		},
 		{
-			actor = 207070,
-			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
+			dir = 1,
+			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Am I in a dream?",
 			painting = {
 				alpha = 0.3,
@@ -478,13 +478,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "Queen Elizabeth META",
+			dialogueBgAlpha = 0.6,
 			dir = 1,
 			actor = 900352,
-			nameColor = "#ffa500",
+			actorName = "Queen Elizabeth META",
 			hidePaintObj = true,
 			say = "For you, perhaps.",
 			painting = {
@@ -500,11 +500,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "Queen Elizabeth META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "Queen Elizabeth META",
 			hidePaintObj = true,
 			say = "Wake up. Go back. This place was never meant for you.",
 			painting = {
@@ -539,11 +539,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "Queen Elizabeth META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "Queen Elizabeth META",
 			hidePaintObj = true,
 			say = "That was an order, not a suggestion.",
 			painting = {
@@ -559,11 +559,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "Queen Elizabeth META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "Queen Elizabeth META",
 			hidePaintObj = true,
 			say = "\"Go back.\"",
 			painting = {

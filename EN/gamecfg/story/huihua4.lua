@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUIHUA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUIHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Ceremonial Gala\n\n<size=45>Chapter 4: The Festival</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 108020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "So this is for the big cooking competition. It's tomorrow, but they got it all set up already.",
 			bgm = "story-1",
+			actor = 108020,
+			nameColor = "#a9f548",
+			say = "So this is for the big cooking competition. It's tomorrow, but they got it all set up already.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,15 +52,15 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "And over here's... Some kinda... \"Swimsuit Competition\"? Reeaally?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "You sure seem to know a lot for someone who only just joined the fleet.",
 			typewriter = {
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 108020,
+			say = "Ehehee. I'm just making sure I'm gonna have a good time at this festival. Of course, I did my homework~",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ehehee. I'm just making sure I'm gonna have a good time at this festival. Of course, I did my homework~",
+			actor = 108020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -125,8 +125,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "You see how sad it is you've cooped yourself up in your room like that, Taihou?",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "I have only one goal for this festival: To wear a handmade dress to the party and share a beautiful evening with my Commander! Nothing else matters.",
 			typewriter = {
@@ -159,10 +159,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307070,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Oh, what's that sound?",
+			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -196,8 +196,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 301013,
 			dir = -1,
+			actor = 301013,
 			nameColor = "#a9f548",
 			say = "Achoo! ... Did somebody call me?",
 			typewriter = {
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Over heeeeere!",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 301013,
 			dir = -1,
+			actor = 301013,
 			nameColor = "#a9f548",
 			say = "Hey, wait up! I'm hauling this huge tuba, I can't run that fa–",
 			typewriter = {
@@ -269,15 +269,15 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "What the heck is that thing, Fubuki?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 301013,
+			say = "Oh, it's a tuba. Amazon's been putting together an orchestra to play at the party. It sounded fun, so here I am.",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Oh, it's a tuba. Amazon's been putting together an orchestra to play at the party. It sounded fun, so here I am.",
+			actor = 301013,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -324,10 +324,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "(Heh heh, an orchestra, huh? Perfect. A beautiful symphony will provide accompaniment to the union of Taihou and her Commander.)",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408011,
 			dir = 1,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "Huh? You know how to play the tuba?",
 			typewriter = {
@@ -359,8 +359,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 301013,
 			dir = -1,
+			actor = 301013,
 			nameColor = "#a9f548",
 			say = "Nope!",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 301013,
 			dir = -1,
+			actor = 301013,
 			nameColor = "#a9f548",
 			say = "... Errrm but I've been practicing a lot! Don't look at me like that!",
 			typewriter = {
@@ -390,8 +390,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -403,8 +403,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Um... Oh! There's some kind of Martial Arts Tournament thingy that's about to start! Let's go watch!",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Hrmph, you keep wasting the time I should be using to prepare my dress for my Commander. Not to mention... Hey! Wait for me!",
 			typewriter = {
@@ -434,8 +434,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -444,10 +444,10 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
+			actor = 301013,
 			dir = -1,
 			hideOther = true,
 			actorName = "Fubuki&U81",
@@ -467,15 +467,15 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303030,
+			nameColor = "#a9f548",
 			say = "And that's the end!! While Zuikaku made a good showing and looked like she was set to take the crown, the grand champ herself, Enterprise, came in and crushed her dreams!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -503,8 +503,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "The crowd's going wild... Looks like we're late.",
 			typewriter = {
@@ -520,8 +520,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "My Commander? Hmph... No. Not here. I know my Commander's scent (sniff) and it's not here.",
 			typewriter = {
@@ -553,8 +553,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 408011,
 			dir = 1,
+			actor = 408011,
 			nameColor = "#a9f548",
 			say = "Oww... Can you chill with the tuba, Fubuki? I couldn't even hear who won.",
 			typewriter = {
@@ -567,12 +567,12 @@ return {
 			}
 		},
 		{
-			actor = 408011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 408011,
+			nameColor = "#a9f548",
 			say = "Wait... is that... Essex?",
 			typewriter = {
 				speed = 0.05,

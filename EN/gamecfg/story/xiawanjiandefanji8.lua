@@ -1,16 +1,16 @@
 return {
-	id = "XIAWANJIANDEFANJI8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI8",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "BOOM!",
-			dir = 1,
 			bgm = "battle-boss-1",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "BOOM!",
 			flashN = {
 				color = {
 					1,
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "H- huh?!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "But the truth is: we have no way out of this fjord.",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "One, two, three... how's Eskimo gonna get out of this one...?",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I have to get word to Warspite!",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Are you done? I am Z2. Identify yourself, Royal Navy destroyer.",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "Royal Navy Tribal-class Destroyer Eskimo!",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "What a vigorous response. Are you not afraid?",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Of a f- few Iron Blood destroyers? Not even a little bit!",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -279,8 +279,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "(I have to stall them until Warspite gets here...!)",
 			typewriter = {
 				speed = 0.05,

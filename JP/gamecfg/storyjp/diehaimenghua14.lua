@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_4",
-			soundeffect = "event:/battle/boom2",
+			bgm = "xinnong-4",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
 			say = "（……赤城…………）",
-			bgm = "xinnong-4",
 			flashN = {
 				color = {
 					1,
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赤城",
+			side = 1,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_4",
-			actorName = "三笠",
 			dir = 1,
+			actorName = "三笠",
 			say = "信濃！？お主、眠っていたはずでは……",
 			dialogShake = {
 				speed = 0.09,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赤城",
+			side = 1,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "信濃",
+			side = 0,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "bg_white",
-			actorName = "信濃",
+			side = 2,
 			dir = 1,
+			actorName = "信濃",
+			bgName = "bg_white",
 			nameColor = "#a9f548",
 			say = "（すべてを虚無にする光…このカケラも、ここで終わり……）",
 			flashout = {
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_white",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_white",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "（妾が観た「破滅の夢」から――）",
 			typewriter = {
 				speed = 0.05,
@@ -327,9 +327,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 1,
 			bgName = "bg_white",
+			mode = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {
 				dur = 0.5,

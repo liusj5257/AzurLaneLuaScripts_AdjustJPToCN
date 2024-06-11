@@ -1,16 +1,16 @@
 slot0 = class("PileGameSignedLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PileSignedUI"
 end
 
-function slot0.SetData(slot0, slot1)
+slot0.SetData = function(slot0, slot1)
 	slot0.data = slot1
 	slot0.ultimate = slot1.ultimate
 	slot0.usedtime = slot1.usedtime
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.icons = {
 		slot0:findTF("bg/icon/npc1"),
 		slot0:findTF("bg/icon/npc2"),
@@ -28,7 +28,7 @@ function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
@@ -49,7 +49,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateSigned()
 end
 
-function slot0.UpdateIconDesc(slot0)
+slot0.UpdateIconDesc = function(slot0)
 	for slot4, slot5 in ipairs(slot0.icons) do
 		onButton(slot0, slot5, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -59,7 +59,7 @@ function slot0.UpdateIconDesc(slot0)
 	end
 end
 
-function slot0.UpdateSigned(slot0)
+slot0.UpdateSigned = function(slot0)
 	slot3 = slot0.ultimate == 0
 
 	setActive(slot0.getBtn, slot3)
@@ -71,7 +71,7 @@ function slot0.UpdateSigned(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.icons = nil
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parent)

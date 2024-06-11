@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"有關火奴魯魯的二三事\n\n<size=45>七　火奴魯魯的約會·下</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "火奴魯魯一臉狐疑地看著包裝好的禮物盒。",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "火奴魯魯一臉狐疑地看著包裝好的禮物盒。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "火奴魯魯將雷達抱枕放到一邊，接過禮物盒，有些難以置信地拆開——",
 			typewriter = {
 				speed = 0.05,
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "！這是…剛才的玩具熊布偶？！",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -152,14 +152,14 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			withoutActorName = true,
+			bgm = "story-2",
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "火奴魯魯將玩具熊抱在懷裡。",
-			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "然後，像是下定了什麼決心一樣，她深呼吸了一口氣。",
 			typewriter = {
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "說話間，火奴魯魯的臉紅的就像她那頭鮮豔的頭髮一樣。",
 			typewriter = {
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "說完這句話，似乎耗盡了所有的勇氣，她把臉藏到了布偶後面，不敢再看過來。",
 			typewriter = {
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "……！……笨蛋。",
 			typewriter = {
 				speed = 0.05,
@@ -307,16 +307,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -325,12 +325,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "……謝謝。",
 			typewriter = {
 				speed = 0.05,

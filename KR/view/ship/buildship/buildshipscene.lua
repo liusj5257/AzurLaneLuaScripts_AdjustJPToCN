@@ -12,15 +12,15 @@ slot0.PROJECTS = {
 	LIGHT = "light"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BuildShipUI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.setPools(slot0, slot1)
+slot0.setPools = function(slot0, slot1)
 	slot0.pools = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -28,11 +28,11 @@ function slot0.setPools(slot0, slot1)
 	end
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.contextData.player = slot1
 end
 
-function slot0.setUseItem(slot0, slot1)
+slot0.setUseItem = function(slot0, slot1)
 	slot0.contextData.itemVO = slot1 or Item.New({
 		count = 0,
 		id = pg.ship_data_create_material[1].use_item
@@ -43,28 +43,28 @@ function slot0.setUseItem(slot0, slot1)
 	end
 end
 
-function slot0.setStartCount(slot0, slot1)
+slot0.setStartCount = function(slot0, slot1)
 	slot0.contextData.startCount = slot1
 end
 
-function slot0.setFlagShip(slot0, slot1)
+slot0.setFlagShip = function(slot0, slot1)
 	slot0.contextData.falgShip = slot1
 end
 
-function slot0.RefreshActivityBuildPool(slot0, slot1)
+slot0.RefreshActivityBuildPool = function(slot0, slot1)
 	slot0.poolsPage:RefreshActivityBuildPool(slot1)
 end
 
-function slot0.RefreshFreeBuildActivity(slot0)
+slot0.RefreshFreeBuildActivity = function(slot0)
 	slot0.poolsPage:RefreshFreeBuildActivity()
 	slot0.poolsPage:UpdateTicket()
 end
 
-function slot0.RefreshRegularExchangeCount(slot0)
+slot0.RefreshRegularExchangeCount = function(slot0)
 	slot0.poolsPage:RefreshRegularExchangeCount()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	Input.multiTouchEnabled = false
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("adapt/top", slot0.blurPanel)
@@ -84,7 +84,7 @@ function slot0.init(slot0)
 	slot0.supportShipPoolPage = SupportShipPoolPage.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:OverlayPanel(slot0.blurPanel, {
@@ -99,7 +99,7 @@ function slot0.didEnter(slot0)
 
 	setActive(slot1, slot4:mingshiTouchFlagEnabled())
 
-	function slot5()
+	slot5 = function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(11)
 	end
 
@@ -150,7 +150,7 @@ function slot0.didEnter(slot0)
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, slot0.blurPanel)
 end
 
-function slot0.checkPage(slot0)
+slot0.checkPage = function(slot0)
 	if slot0.contextData.msgbox and slot0.contextData.msgbox:GetLoaded() and slot0.contextData.msgbox:isShowing() then
 		slot0.contextData.msgbox:Hide()
 	end
@@ -181,7 +181,7 @@ function slot0.checkPage(slot0)
 	end
 end
 
-function slot0.switchPage(slot0, slot1, slot2)
+slot0.switchPage = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0.contextData.page = slot1 == uv0.PAGE_UNSEAM and uv0.PAGE_BUILD or slot1
 	end
@@ -223,11 +223,11 @@ function slot0.switchPage(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateQueueTip(slot0, slot1)
+slot0.updateQueueTip = function(slot0, slot1)
 	setActive(slot0.tip, slot1 > 0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.contextData.helpWindow:GetLoaded() and slot0.contextData.helpWindow:isShowing() then
 		slot0.contextData.helpWindow:Hide()
 
@@ -243,7 +243,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	Input.multiTouchEnabled = true
 
 	slot0.contextData.msgbox:Destroy()

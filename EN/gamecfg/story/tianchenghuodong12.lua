@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG12",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			bgm = "battle-boss-tiancheng",
-			dir = 1,
 			say = "BOOOOOOM!",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-tiancheng",
 			flashN = {
 				color = {
 					1,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "... Agh!",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "Don't worry about me, it's just a scratch. I just... did not expect these things to self-destruct. How negligent of me...",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "Chess tactics are to be left on the chessboard. In live combat, how could a commander hide in the rear while her subordinates sacrifice themselves because of her decisions?",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
+			dir = -1,
 			say = "Even during the exercise, Amagi conducted herself in the same way, throwing herself into the thick of combat on the front line.",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "See? By moving forward like this, we have already been rewarded for our efforts. Wait, everyone, stop for a second.",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
+			dir = -1,
 			say = "Amagi bent down to pick up a piece of tattered cloth from the water's surface. Without a doubt, it was a piece of Kaga's outfit.",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "... What a fool...",
 			typewriter = {
 				speed = 0.05,

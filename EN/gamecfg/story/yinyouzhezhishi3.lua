@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
+			bgm = "ryza-az-theme",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The next day, under a tree by the river...",
-			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,9 +38,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ Come closer here my ladies, and listen to my song ♪",
 			painting = {
@@ -58,9 +58,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ I've an ancient tale to tell, a past that's so far gone ♪",
 			painting = {
@@ -78,9 +78,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ Of when this land was forged, and gods were only four ♪",
 			painting = {
@@ -98,9 +98,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ Four spires were there then, protecting people ever more ♪",
 			painting = {
@@ -118,9 +118,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ And the gods they were of wisdom, joy, and even war ♪",
 			painting = {
@@ -138,9 +138,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ Then there was the fourth god, its name is known no more ♪",
 			painting = {
@@ -158,9 +158,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ The lands were all in harmony, but meant to last 'twas not ♪",
 			painting = {
@@ -178,9 +178,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ In then came the new gods, when the old began to rot ♪",
 			painting = {
@@ -198,9 +198,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ Oh, betrayed felt the wisdom god, the heretics it cursed ♪",
 			painting = {
@@ -218,9 +218,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ The god of joy was furious, its bubble had been burst ♪",
 			painting = {
@@ -238,9 +238,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ The last two gods were out of words, for blood was all they cared ♪",
 			painting = {
@@ -258,9 +258,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ Together they all swore revenge, with demons did they pair ♪",
 			painting = {
@@ -278,9 +278,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ To those who had forsaken them swore to bring despair ♪",
 			painting = {
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			bgName = "star_level_bg_158",
+			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So when the new gods flourished, faith was lost in the old ones. Out of spite, they joined forces with the Demon King. Am I correct?",
@@ -310,17 +310,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -328,13 +328,13 @@ return {
 			}
 		},
 		{
-			actorName = "Bard",
+			nameColor = "#FEF15E",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
 			actor = 401466,
-			nameColor = "#FEF15E",
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "That you are.",
 			painting = {
@@ -347,11 +347,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I have a question...",
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What was the name of the last old god?",
@@ -388,9 +388,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Nobody knows. I am but a vessel for the muse, not an expert on the war between gods.",
 			painting = {
@@ -408,9 +408,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "I've told you all that I know. Now, shall we set off?",
 			painting = {
@@ -423,13 +423,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:6}",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
 			actor = 301059,
-			nameColor = "#A9F548FF",
+			actorName = "{namecode:6}",
 			hidePaintObj = true,
 			say = "First, I wanna know about those four spires.",
 			painting = {
@@ -447,9 +447,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Ah, the four spires. It's a long story to tell, though...",
 			painting = {
@@ -462,11 +462,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So just stay another night then.",
@@ -480,11 +480,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Just one more night! Please! We'll pack our stuff in the meantime!",
@@ -498,13 +498,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:6}",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
 			actor = 301059,
-			nameColor = "#A9F548FF",
+			actorName = "{namecode:6}",
 			hidePaintObj = true,
 			say = "Yes. We'll set off tomorrow, I promise.",
 			painting = {
@@ -517,13 +517,13 @@ return {
 			}
 		},
 		{
-			actorName = "Bard",
+			nameColor = "#FEF15E",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
 			actor = 401466,
-			nameColor = "#FEF15E",
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "So be it. One more night, then we shall be off.",
 			painting = {

@@ -1,13 +1,13 @@
 return {
-	id = "W744011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W744011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "选择扩散次数？",
 			typewriter = {
 				speed = 0.05,

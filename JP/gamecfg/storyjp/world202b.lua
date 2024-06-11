@@ -1,15 +1,15 @@
 return {
-	id = "WORLD202B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD202B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA海域北東・ロイヤル主力艦隊",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "――――",
@@ -113,8 +113,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "フッド様、先程王都の広域受信装置が救援信号をキャッチしました。信号タイプから察すると、味方の艦隊もしくは輸送船団の模様です",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "上層部より信号の調査と味方艦でしたら救援するよう要請が出されてはいますが、セイレーン作戦の要項に沿って現場指揮艦の判断にお任せします",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "取り急ぎ、座標だけ送らせていただきました。ご采配くださいませ",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "この座標は…ロイヤル艦船が展開されているエリアではありませんわね…",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "かしこまりました。すぐユニオンに連絡いたします",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205070,
 			dir = 1,
+			actor = 205070,
 			say = "ユニオンが迷い込むにも遠すぎるわ。そもそもなぜユニオンがこちらの作戦海域に？",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "フッド様、よければ私が何隻か主力艦を連れてグレンヴィルたちと合流しましょうか？現場に到着するのはちょっと遅いかもしれませんけど",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "私も行く。セイレーンの罠だとしたら、鏡面海域に閉じ込められてからじゃ遅いわ",
 			typewriter = {
 				speed = 0.05,

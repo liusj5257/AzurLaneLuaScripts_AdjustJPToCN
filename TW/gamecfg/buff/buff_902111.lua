@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "储备氧气",
 	init_effect = "jinengchufablue",
-	color = "yellow",
+	id = 902111,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902111,
+	color = "yellow",
 	icon = 902110,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "oxyMax",
-				number = 20
+				number = 20,
+				attr = "oxyMax"
 			}
 		}
 	}

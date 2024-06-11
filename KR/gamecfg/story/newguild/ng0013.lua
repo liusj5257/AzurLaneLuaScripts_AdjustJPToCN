@@ -6,10 +6,10 @@ return {
 				say = {
 					text = "「周回模式」启动！点击帮助按钮查看详细内容吧！",
 					style = {
-						alpha = 0.4,
-						mode = 1,
-						dir = 1,
 						posY = -110,
+						mode = 1,
+						alpha = 0.4,
+						dir = 1,
 						posX = -100
 					}
 				}

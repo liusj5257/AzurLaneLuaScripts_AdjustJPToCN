@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN26",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_515",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "決意をしたロイヤル・フォーチュンは身を翻し、書斎から出ていきました。扉の向こうからの音が一段と騒がしくなり、彼女は長くは持たないでしょう",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -67,9 +67,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "エセックス",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "時間がありません。すぐ脱出を決断をしたあなたがドアノブに手を掛けた時、脳からけたたましい警報音が鳴り響きました",
 			typewriter = {
@@ -82,9 +82,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "エセックス",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "言うまでもなく、扉からのうのうと出ていくのはあまり賢い選択肢とは言えません。ほかの脱出方法を探すべきでしょう",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "エセックス",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "書斎の出口は扉だけ…ですが、このまま扉から廊下に飛び出せば捕まってしまうでしょう",
 			typewriter = {
@@ -264,28 +264,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_521",
+			bgm = "theme-shallowoftheworld",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しばらくすると――",
-			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -675,11 +675,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_506",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "story-oldcastle-carnival",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたは名状しがたい邪神の化身を駆除し、すぐさまキャッスルを後にしました",
 			typewriter = {
@@ -687,17 +687,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -873,8 +873,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -884,8 +884,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			effects = {
 				{
 					active = true,

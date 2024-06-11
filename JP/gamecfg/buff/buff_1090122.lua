@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.01
+					number = 0.01,
+					attr = "cri"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_1",
 					number = 0.05,
+					attr = "damageAmmoToArmorRateEnhance_1",
 					index = {
 						1
 					}
@@ -30,8 +30,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_2",
 					number = 0.05,
+					attr = "damageAmmoToArmorRateEnhance_2",
 					index = {
 						1
 					}
@@ -43,8 +43,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.05,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -60,8 +60,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.02
+					number = 0.02,
+					attr = "cri"
 				}
 			},
 			{
@@ -70,8 +70,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_1",
 					number = 0.061,
+					attr = "damageAmmoToArmorRateEnhance_1",
 					index = {
 						1
 					}
@@ -83,8 +83,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_2",
 					number = 0.061,
+					attr = "damageAmmoToArmorRateEnhance_2",
 					index = {
 						1
 					}
@@ -96,8 +96,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.061,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -113,8 +113,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.03
+					number = 0.03,
+					attr = "cri"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_1",
 					number = 0.072,
+					attr = "damageAmmoToArmorRateEnhance_1",
 					index = {
 						1
 					}
@@ -136,8 +136,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_2",
 					number = 0.072,
+					attr = "damageAmmoToArmorRateEnhance_2",
 					index = {
 						1
 					}
@@ -149,8 +149,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.072,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -166,8 +166,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.04
+					number = 0.04,
+					attr = "cri"
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_1",
 					number = 0.083,
+					attr = "damageAmmoToArmorRateEnhance_1",
 					index = {
 						1
 					}
@@ -189,8 +189,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_2",
 					number = 0.083,
+					attr = "damageAmmoToArmorRateEnhance_2",
 					index = {
 						1
 					}
@@ -202,8 +202,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.083,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -219,8 +219,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.05
+					number = 0.05,
+					attr = "cri"
 				}
 			},
 			{
@@ -229,8 +229,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_1",
 					number = 0.094,
+					attr = "damageAmmoToArmorRateEnhance_1",
 					index = {
 						1
 					}
@@ -242,8 +242,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_2",
 					number = 0.094,
+					attr = "damageAmmoToArmorRateEnhance_2",
 					index = {
 						1
 					}
@@ -255,8 +255,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.094,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -272,8 +272,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.06
+					number = 0.06,
+					attr = "cri"
 				}
 			},
 			{
@@ -282,8 +282,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_1",
 					number = 0.105,
+					attr = "damageAmmoToArmorRateEnhance_1",
 					index = {
 						1
 					}
@@ -295,8 +295,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_2",
 					number = 0.105,
+					attr = "damageAmmoToArmorRateEnhance_2",
 					index = {
 						1
 					}
@@ -308,8 +308,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.105,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -325,8 +325,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.07
+					number = 0.07,
+					attr = "cri"
 				}
 			},
 			{
@@ -335,8 +335,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_1",
 					number = 0.116,
+					attr = "damageAmmoToArmorRateEnhance_1",
 					index = {
 						1
 					}
@@ -348,8 +348,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_2",
 					number = 0.116,
+					attr = "damageAmmoToArmorRateEnhance_2",
 					index = {
 						1
 					}
@@ -361,8 +361,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.116,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -378,8 +378,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.08
+					number = 0.08,
+					attr = "cri"
 				}
 			},
 			{
@@ -388,8 +388,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
+					number = 0.127,
 					attr = "damageAmmoToArmorRateEnhance_1",
-					number = 0.127,
 					index = {
 						1
 					}
@@ -401,8 +401,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
+					number = 0.127,
 					attr = "damageAmmoToArmorRateEnhance_2",
-					number = 0.127,
 					index = {
 						1
 					}
@@ -414,8 +414,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.127,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -431,8 +431,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.09
+					number = 0.09,
+					attr = "cri"
 				}
 			},
 			{
@@ -441,8 +441,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
+					number = 0.138,
 					attr = "damageAmmoToArmorRateEnhance_1",
-					number = 0.138,
 					index = {
 						1
 					}
@@ -454,8 +454,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
+					number = 0.138,
 					attr = "damageAmmoToArmorRateEnhance_2",
-					number = 0.138,
 					index = {
 						1
 					}
@@ -467,8 +467,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.138,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -484,8 +484,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -494,8 +494,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
+					number = 0.15,
 					attr = "damageAmmoToArmorRateEnhance_1",
-					number = 0.15,
 					index = {
 						1
 					}
@@ -507,8 +507,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
+					number = 0.15,
 					attr = "damageAmmoToArmorRateEnhance_2",
-					number = 0.15,
 					index = {
 						1
 					}
@@ -520,8 +520,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageAmmoToArmorRateEnhance_3",
 					number = 0.15,
+					attr = "damageAmmoToArmorRateEnhance_3",
 					index = {
 						1
 					}
@@ -529,14 +529,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 1090122,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1090122,
+	color = "red",
 	icon = 2080,
 	last_effect = "",
 	blink = {
@@ -553,8 +553,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.01
+				number = 0.01,
+				attr = "cri"
 			}
 		},
 		{
@@ -563,8 +563,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
+				number = 0.05,
 				attr = "damageAmmoToArmorRateEnhance_1",
-				number = 0.05,
 				index = {
 					1
 				}
@@ -576,8 +576,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
+				number = 0.05,
 				attr = "damageAmmoToArmorRateEnhance_2",
-				number = 0.05,
 				index = {
 					1
 				}
@@ -589,8 +589,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageAmmoToArmorRateEnhance_3",
 				number = 0.05,
+				attr = "damageAmmoToArmorRateEnhance_3",
 				index = {
 					1
 				}

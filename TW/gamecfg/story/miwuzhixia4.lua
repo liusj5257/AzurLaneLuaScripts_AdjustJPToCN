@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "要塞東側外海？·海霧中",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-6",
+			say = "要塞東側外海？·海霧中",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "雖然視野被霧氣所遮蔽，不過從四周的一片死寂來判斷，這一區域的塞壬艦隊恐怕遭受了毀滅性打擊",
 			typewriter = {
 				speed = 0.05,
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "喂~~周圍有人嗎~~~~！！",
 			dialogShake = {
 				speed = 0.09,
@@ -100,8 +100,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "沒人回應呢，通訊器裡也沒有收到任何消息…",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "不對…！大家注意…我們的通訊被干擾了",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,8 +160,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "…塞壬擁有干擾我們通訊的能力，只不過一直沒有使用…難道說！",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "淨化者",
 			say = "沒錯，比如會遇到恐怖的淨化者！好久不見啊，各位實驗數據們",
 			typewriter = {
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "淨化者",
 			say = "在這片異常的海霧裡通訊居然還能正常使用，妳們就沒想過為什麼嗎？",
 			typewriter = {
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "淨化者",
 			say = "利用了哦~雖然妳們估計還不知道是怎麼被利用的吧",
 			typewriter = {
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "淨化者突然裝模作樣的打了個響指，籠罩在眾人周邊的海霧應聲消失了一部分，露出了天空與水面",
 			effects = {
 				{
@@ -366,8 +366,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "…這裡居然是百慕達海域？我們完全偏離航線了啊！",
 			typewriter = {
@@ -380,8 +380,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -424,8 +424,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,8 +437,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "巴爾的摩，要塞那邊…",
 			typewriter = {
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "淨化者",
 			say = "啊，想逃跑也不可能哦！",
 			typewriter = {
@@ -468,15 +468,15 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "隨著淨化者的又一聲響指，濃密的海霧重新覆蓋了天空與海面",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -489,11 +489,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "淨化者",
 			say = "主角還沒到場，妳們現在哪兒都不能去哦！",
 			typewriter = {
@@ -522,11 +522,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "淨化者",
 			say = "就是這樣~！時間還有的是，就老老實實的待在這裡陪我好好玩玩吧~",
 			typewriter = {
@@ -539,14 +539,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
+			stopbgm = true,
 			say = "要塞東側外海·？？？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -574,8 +574,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "哈~呼~哈~呼~哈~呼……",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -601,8 +601,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "還、還在追著我嗎？",
 			typewriter = {
@@ -618,8 +618,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "游快一點，再加把勁……！",
 			typewriter = {
@@ -635,9 +635,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
 			blackBg = true,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "得、得快點把剛才看到的告訴大家才行！",
 			typewriter = {

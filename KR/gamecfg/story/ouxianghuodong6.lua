@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "2일째 모항·라이브 장소",
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
-			say = "2일째 모항·라이브 장소",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,11 +38,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "하지만 반드시 잘 먹고 쉬는 것도 잊으면 안된다냥! 이벤트는 이제 고작 2일째니까 말이다냥~",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 107039,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107039,
+			nameColor = "#a9f548",
 			say = "현장에 있는 친구들, 그리고 스크린 너머로 보고 있는 친구들, 모두 안녕! 마법소녀 새러토가야!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 107039,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107039,
+			nameColor = "#a9f548",
 			say = "바로 메탈 블러드의 Z23과 사쿠라 엠파이어의 아야나미가 등장!",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 107039,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107039,
+			nameColor = "#a9f548",
 			say = "아, 관중석의 렉싱턴도 잘 부탁해!",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -270,14 +270,14 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "새러토가의 발언 이후 적과 아군의 '열정' 차이 발생.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "그렇습니다. 하지만 전투와 스테이지 연출뿐만이 아닙니다.",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "셰필드?",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			say = "대체 무슨 방법을 써야 할까요?",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "상대의 기세에 눌렸을 때야 말로——",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "셰필드는 힘껏 마이크 선을 끌어당겼다.",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "억지로 이쪽의 기운을 북돋을 필요는 없습니다. 상대의 열을 식히기만 하면 되니까요.",
 			typewriter = {
 				speed = 0.05,

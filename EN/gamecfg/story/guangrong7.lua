@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"A Glorious Interlude\n\n<size=45>Chapter 7 - The Glory She's Named For Pt. 2</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "As she saw it, the most important thing was for her to be the bringer of victory, the \"Glorious\" that everyone could depend on. But—",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			bgm = "story-1",
+			say = "As she saw it, the most important thing was for her to be the bringer of victory, the \"Glorious\" that everyone could depend on. But—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "That's not what I said.",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "... Woah...",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "I took her hand and pulled her to the seat next to me.",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "The truth was, I had sent a message off to the others that they should come over to help out once they finished their meeting.",
 			typewriter = {
 				speed = 0.05,
@@ -211,9 +211,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "There was a trembling in Glorious's voice.",
 			typewriter = {
 				speed = 0.05,
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "She relaxed her grip on my hand and on my shoulder I felt the weight of a young girl.",
 			typewriter = {
 				speed = 0.05,

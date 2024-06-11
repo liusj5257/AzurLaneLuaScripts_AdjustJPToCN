@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_360 = {}
 slot1 = slot0.word_template_360
 
-function temp()
+temp = function()
 	uv0["諏"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鄹"] = {
 		this = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鲰"] = {
 		this = {
 			this = true
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鯫"] = {
 		this = {
 			this = true
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["足"] = {
 		["交"] = {
 			this = true,
@@ -90,7 +90,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["组"] = {
 		["鸡"] = {
 			["部"] = {
@@ -143,7 +143,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["祖"] = {
 		["国"] = {
 			["在"] = {

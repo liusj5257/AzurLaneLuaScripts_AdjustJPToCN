@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "Z字旗",
 	time = 0,
+	name = "Z字旗",
+	init_effect = "",
 	picture = "",
 	desc = "暴击率提高5%",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.05
+				number = 0.05,
+				attr = "cri"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"盛夏の射手座\n\n<size=45>五　鉄血戦線</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 206040,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ジャベリン先輩、鉄血の先輩のみなさんも来ていますよ。",
 			bgm = "story-1",
+			actor = 206040,
+			nameColor = "#a9f548",
+			say = "ジャベリン先輩、鉄血の先輩のみなさんも来ていますよ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "あ、本当だ！",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "鉄血のみんなも水着姿だね！",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,12 +92,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 0,
-			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "去年はオイゲンさんしかいなかったけど……",
+			side = 0,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -112,12 +112,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "はーい！こっちこっち～！",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はーい！こっちこっち～！",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.08,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Z25先輩、Z46先輩、こんにちは。",
 			typewriter = {
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 401251,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 401251,
+			nameColor = "#a9f548",
 			say = "えっ！？こ、こここんにちは……",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.08,
 					x = 0,
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "ニコちゃん、フィーゼちゃん、私のもよかったらどうぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -323,12 +323,12 @@ return {
 			}
 		},
 		{
-			actor = 407011,
+			say = "団体での行事などに興味は持っておらぬ。",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "団体での行事などに興味は持っておらぬ。",
+			actor = 407011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 407011,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 407011,
+			nameColor = "#a9f548",
 			say = "感謝する。……ッ！味蕾（みらい）を刺激するこの絶妙な甘さは……！",
 			typewriter = {
 				speed = 0.05,
@@ -391,8 +391,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -433,12 +433,12 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			say = "あなたが噂の「誰に対してもセンパイと呼ぶ空母」ね。",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あなたが噂の「誰に対してもセンパイと呼ぶ空母」ね。",
+			actor = 405021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -488,8 +488,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "（小声）ジャベリン先輩、鉄血の先輩たちはいい人ですね。",
 			typewriter = {
@@ -502,12 +502,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "（小声）そうだよ！最初はちょっと近寄りがたい感じがあるかもしれないけど、みんないい人だよ？",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（小声）そうだよ！最初はちょっと近寄りがたい感じがあるかもしれないけど、みんないい人だよ？",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -538,12 +538,12 @@ return {
 			}
 		},
 		{
-			actor = 405021,
+			say = "あの子はオイゲンに妙なことを吹き込まれて、「水着で指揮官を落とす方法」とやらを研究しているらしい。…現に今もビーチに着いた途端にオイゲンのところに行ってしまったわ。",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あの子はオイゲンに妙なことを吹き込まれて、「水着で指揮官を落とす方法」とやらを研究しているらしい。…現に今もビーチに着いた途端にオイゲンのところに行ってしまったわ。",
+			actor = 405021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -622,11 +622,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "ティルピッツさんってスポーツにも興味があるタイプだっけ…？",
 			typewriter = {
 				speed = 0.05,
@@ -638,8 +638,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -664,12 +664,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "いえいえ！ビーチバレーはいいアイデアだと思うし私もおかし食べちゃったからやりたいと思って！みんな、一緒にやりましょー！",
 			typewriter = {
 				speed = 0.05,
@@ -681,8 +681,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,

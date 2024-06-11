@@ -10,9 +10,9 @@ return {
 			style = {
 				text = "New function has been unlocked, return to Main Screen to check it out.",
 				mode = 2,
-				posY = -160,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -160,
 				posX = -460
 			},
 			showSign = {
@@ -49,9 +49,9 @@ return {
 			style = {
 				text = "You can now play META Showdown, a mode where you fight META ships together with other commanders!",
 				mode = 2,
-				posY = -279.2,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -279.2,
 				posX = 498.7
 			},
 			ui = {
@@ -60,11 +60,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 128.2,
+					rotateY = 0,
 					posY = -42,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 128.2
 				}
 			}
 		},
@@ -83,9 +83,9 @@ return {
 			style = {
 				text = "Choose current META Showdown",
 				mode = 2,
-				posY = -375.9,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -375.9,
 				posX = -776.6
 			},
 			ui = {
@@ -94,11 +94,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		},
@@ -107,9 +107,9 @@ return {
 			style = {
 				text = "META Showdown is not always open! This run of it will be available for a limited time, shown here!",
 				mode = 2,
-				posY = 294,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 294,
 				posX = -448.3,
 				ui = {
 					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossEmptyUI(Clone)/time"
@@ -120,9 +120,9 @@ return {
 			style = {
 				text = "Be aware that once this run of META Showdown ends, any META Coordinates you used will not be refunded, and you won’t be able to gain new Coordinates in Operation Siren either.",
 				mode = 2,
-				posY = 1.5,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 1.5,
 				posX = -402.4,
 				ui = {
 					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossEmptyUI(Clone)/time"
@@ -133,9 +133,9 @@ return {
 			style = {
 				text = "That aside, let’s get to it! Tap the button to locate the META ship!",
 				mode = 2,
-				posY = -284,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -284,
 				posX = -495
 			},
 			ui = {
@@ -144,11 +144,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		}

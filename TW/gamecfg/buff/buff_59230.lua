@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "航空支援（寰昌）",
 	time = 0,
-	color = "red",
+	name = "航空支援（寰昌）",
+	init_effect = "",
+	id = 59230,
 	picture = "",
 	desc = "战斗随机出现敌方的航空编队支援",
 	stack = 1,
-	id = 59230,
+	color = "red",
 	icon = 59230,
 	last_effect = "",
 	effect_list = {

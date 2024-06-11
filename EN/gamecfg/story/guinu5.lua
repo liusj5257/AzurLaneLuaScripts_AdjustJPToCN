@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"As Cool As A Demon\n\n<size=45>5 Ghosts & Demons</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Your swings are starting to shape up. Well done.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "However, your spirit is still a far cry from serene... On the other hand, that is one of your strong points as a commander.",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "At any rate, you've made significant progress since we started. Maybe it's time we put your courage to the test...",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Try me. Whatever has frightened you, I will take care of it.",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 302050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302050,
+			nameColor = "#a9f548",
 			say = "Well... The thing is, I DID see a ghost...",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "You did? Where?",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Which is to say, someone or something has infiltrated our dormitory? This warrants an investigation.",
 			typewriter = {
@@ -228,14 +228,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "Kinu and I went to the dressing room Isuzu spoke of. It was a large room filled with shelves and closets for storing outfits and garments fit for all occasions.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,9 +263,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Someone has turned off the lights... Be on your guard, Commander. The invader may still be around.",
 			typewriter = {
@@ -296,9 +296,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Invader! I know you're in here! Come out where I can see you!",
 			effects = {
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
+			nameColor = "#a9f548",
 			say = "...Hmm. Maybe they've already left.",
 			effects = {
 				{
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Kinu turned to me, and the very next moment, an inconspicious white sheet hanging opposite us began to move, as though it had waited for the chance.",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Commander? What are you–",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actor = 301720,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301720,
+			nameColor = "#a9f548",
 			say = "Whoopee!",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -442,9 +442,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "...What?",
 			typewriter = {
@@ -475,9 +475,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Uranami? What the hell are you doing here?",
 			typewriter = {
@@ -490,12 +490,12 @@ return {
 			}
 		},
 		{
-			actor = 301720,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301720,
+			nameColor = "#a9f548",
 			say = "Just looking for cuties to add to my collection. Hoping to find one to the tune of a wubby-dubby chonker.",
 			typewriter = {
 				speed = 0.05,
@@ -507,8 +507,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -520,9 +520,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "And all you found was this – admittedly, cool – cloak, huh? You should keep it and wear it regularly. I know I wo–",
 			typewriter = {
@@ -535,12 +535,12 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
+			nameColor = "#a9f548",
 			say = "Ahem! I'm getting sidetracked. Commander, you surprised me with your quick thinking. Let me just say...",
 			typewriter = {
 				speed = 0.05,
@@ -555,9 +555,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "...Actually, never mind. What matters is: you've definitely proven your courage today.",
 			typewriter = {

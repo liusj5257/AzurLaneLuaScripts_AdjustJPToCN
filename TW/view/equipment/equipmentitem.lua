@@ -1,7 +1,7 @@
 slot0 = class("EquipmentItem")
 slot1 = 0.5
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.bg = findTF(slot1, "frame/bg")
 	slot0.mask = findTF(slot1, "frame/bg/mask")
@@ -28,7 +28,7 @@ function slot0.Ctor(slot0, slot1)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	setActive(slot0.equiped, false)
 	setActive(slot0.unloadBtn, not slot1)
 	setActive(slot0.bg, slot1)
@@ -64,7 +64,7 @@ function slot0.update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateSkin(slot0)
+slot0.updateSkin = function(slot0)
 	slot1 = slot0.equipmentVO
 
 	setActive(slot0.equiped, slot1.shipId)
@@ -82,7 +82,7 @@ function slot0.updateSkin(slot0)
 	slot0.nameTF.text = shortenString(getText(slot0.nameTF), 5)
 end
 
-function slot0.updateSpWeapon(slot0)
+slot0.updateSpWeapon = function(slot0)
 	slot1 = slot0.equipmentVO
 
 	updateSpWeapon(slot0.bg, slot1)
@@ -99,14 +99,14 @@ function slot0.updateSpWeapon(slot0)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
-function slot0.updateSelected(slot0, slot1, slot2, slot3)
+slot0.updateSelected = function(slot0, slot1, slot2, slot3)
 	slot0.selected = slot1
 	slot4 = slot0.selected
 

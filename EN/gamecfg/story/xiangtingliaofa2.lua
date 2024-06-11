@@ -1,15 +1,15 @@
 return {
-	id = "XIANGTINGLIAOFA2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "XIANGTINGLIAOFA2",
+	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bsm-1",
+			say = "What... just happened...? Baltimore? Victorious?",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "What... just happened...? Baltimore? Victorious?",
+			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Apparently, Newport City was attacked by Sirens shortly after we arrived. I had lost consciousness during the turmoil...",
 			typewriter = {
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "Commander, we've been caught off guard... They somehow managed to get through without being detected by the radar screen...",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1

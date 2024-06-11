@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
-			say = "不夜城・ブロック13・廃業されたゲームセンター",
 			bgm = "story-antarctica-serious",
+			say = "不夜城・ブロック13・廃業されたゲームセンター",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "1時間近く隠れ家を変え続けて、セーフハウスなる場所にたどり着いた。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "とある廃業されたゲームセンター。ここのことは「アーティスト」ことスヴィレピイが詳しいようだ。",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "少し気分転換したかったか、彼女はまだかろうじて動いているクレーンゲームの前に立った。",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "………何回も挑戦していたが、何一つ手に入れられていなかった。",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "ゲームコインを入れたポケットが空っぽになったのに気づき、スヴィレピイがこちらに振り向いた。",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "肩をすくめて、スヴィレピイは近くにある落書きがたくさん書かれている棚に体を預けた。",
 			typewriter = {
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "「アーティスト」",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "こほん。それよりこの「通り名」のうほうで呼んでほしい",
 			painting = {
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "「アーティスト」",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "ははは、その通り！もっと分かりやすく言えば、わたしこそがここのルールだ",
 			painting = {
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "「アーティスト」",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "そうなったらこいつのルールを破ることになる。それは面白くないだろう？",
 			painting = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "「アーティスト」",
 			dir = 1,
 			optionFlag = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "だからわたしもそれに従おう！",
 			painting = {
@@ -308,12 +308,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "「アーティスト」",
 			dir = 1,
 			optionFlag = 2,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "あははは！別に全ての空白を埋め尽くす必要はないだろ？",
 			painting = {
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "「アーティスト」",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "なによりこのシティはわたしが生まれ育った場所だからな。自分を愛しているのと同じくらいここを愛している",
 			painting = {
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_145",
 			nameColor = "#FEF15E",
 			say = "あわわ、バレちゃいましたぁ…",
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "理想について語っていたスヴィレピイは突如警戒態勢になり、ゲームセンターの出口のほうに呼びかけた。",
 			typewriter = {
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "すると、塵が積もった出口のドアがギィーと音を出して開いた。",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "そこには探偵の格好で、パンを口にくわえている女性が現れた",
 			typewriter = {
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "私立探偵",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "緊張しないでくださぁい～。見ての通りヴォルガはただの私立探偵ですよぉ…？",
 			painting = {
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "私立探偵",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "このシティのルールはそろそろ変えるべきだと思います！",
 			painting = {
@@ -545,11 +545,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "私立探偵",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "意外ではありませんよ。この街であなたの名前はあなたが思っている以上にずっと知られていますもの",
 			painting = {
@@ -580,8 +580,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "妙に馴れ馴れしい探偵のヴォルガが口の中のパンを飲み込むと、一転して少し真面目になった。",
 			typewriter = {
@@ -590,11 +590,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "私立探偵",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "……実は招待しに来たんです",
 			painting = {
@@ -631,11 +631,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "私立探偵",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "ど、どうでしょう…？指揮官がそう思うのでしたらイエスとさせていただきますけど…？",
 			painting = {
@@ -666,11 +666,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "私立探偵",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "でもこれは賭けに負けちゃいましたね…「女王」の部下のあなたの勝ちです",
 			painting = {
@@ -696,8 +696,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "意志の感じる声と共に、出口の街角からもう一人の少女が現れた。",
 			typewriter = {
@@ -755,11 +755,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "私立探偵",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "あ、ここで会ったことの痕跡は消しておきます～",
 			painting = {

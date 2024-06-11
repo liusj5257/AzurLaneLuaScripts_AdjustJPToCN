@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "赤城1",
 	init_effect = "",
+	id = 12744,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12744,
+	color = "blue",
 	icon = 12740,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 10,
-				skill_id = 12744
+				skill_id = 12744,
+				time = 10
 			}
 		}
 	}

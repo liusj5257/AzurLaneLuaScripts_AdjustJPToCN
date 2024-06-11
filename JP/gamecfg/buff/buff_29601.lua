@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行15次攻击，触发专属弹幕-凉月I"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 29601,
 	picture = "",
 	desc = "主炮每进行24次攻击，触发专属弹幕-凉月I",
 	stack = 1,
-	id = 29601,
+	color = "red",
 	icon = 29600,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29601,
+				target = "TargetSelf",
 				countType = 29600
 			}
 		}

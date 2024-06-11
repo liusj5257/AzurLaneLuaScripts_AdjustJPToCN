@@ -3,14 +3,14 @@ slot1 = 1
 slot2 = 2
 slot3 = 3
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.shopBtn = slot0:findTF("AD/shop_btn")
 	slot0.uiList = UIItemList.New(slot0:findTF("AD/list"), slot0:findTF("AD/list/award"))
 	slot0.finishCntTxt = slot0:findTF("AD/Text"):GetComponent(typeof(Text))
 	slot0.helpBtn = slot0:findTF("AD/help")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if slot0.ptData then
 		slot0.ptData:Update(slot0.activity)
 	else
@@ -24,7 +24,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	if not IsNil(slot0.helpBtn) then
 		onButton(slot0, slot0.helpBtn, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -53,7 +53,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.GetState(slot0, slot1)
+slot0.GetState = function(slot0, slot1)
 	slot2 = slot1 <= slot0.finishCnt
 
 	if table.contains(slot0.finishList, slot0.ptData.targets[slot1]) then
@@ -65,7 +65,7 @@ function slot0.GetState(slot0, slot1)
 	end
 end
 
-function slot0.UpdateAward(slot0, slot1, slot2)
+slot0.UpdateAward = function(slot0, slot1, slot2)
 	slot3 = slot0.awards[slot1]
 	slot4 = {
 		type = slot3[1],
@@ -97,7 +97,7 @@ function slot0.UpdateAward(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.awards = slot0.ptData.dropList
 	slot0.finishCnt = slot0.ptData.count
 	slot0.finishList = slot0.ptData.activity.data1_list
@@ -106,7 +106,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.uiList:align(#slot0.awards)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

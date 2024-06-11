@@ -1,6 +1,6 @@
 slot0 = class("GuildReportCard")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.viewComponent = slot2
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
@@ -33,7 +33,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.report = slot1
 	slot2 = slot1:GetType()
 	slot0.bg.sprite = GetSpriteFromAtlas("ui/GuildEventReportUI_atlas", "bg_" .. slot2)
@@ -55,7 +55,7 @@ function slot0.Update(slot0, slot1)
 	setActive(slot0.rankBtn, slot1:IsBoss())
 end
 
-function slot0.UpdateAwards(slot0)
+slot0.UpdateAwards = function(slot0)
 	slot2, slot3 = slot0.report:GetDrop()
 
 	slot0.awardList:make(function (slot0, slot1, slot2)
@@ -76,7 +76,7 @@ function slot0.UpdateAwards(slot0)
 	slot0.awardList:align(#slot2)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

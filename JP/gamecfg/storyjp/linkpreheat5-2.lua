@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT5-2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT5-2",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "──むっ！見えました！敵の艦隊です！",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			actorName = "ウルゥル？",
 			say = "…………",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			actorName = "サラァナ？",
 			say = "…………",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "そっくりさん",
 			typewriter = {
 				speed = 0.05,
@@ -167,10 +167,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "やはり、私たちの姿と能力を模した幻影です。魂の色がついておりません",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "やはり、私たちの姿と能力を模した幻影です。魂の色がついておりません",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

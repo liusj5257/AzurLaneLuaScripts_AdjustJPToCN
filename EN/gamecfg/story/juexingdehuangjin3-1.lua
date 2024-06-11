@@ -6,12 +6,12 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "My intel says the Iron Claw Demon's base lies in a part of the sea where candy appears out of nowhere, purin...",
 			bgm = "story-battle-16bit-sfc",
+			actor = 100011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "My intel says the Iron Claw Demon's base lies in a part of the sea where candy appears out of nowhere, purin...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -30,10 +30,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This sweet scent in the air... I've found it, purin!",
 			painting = {
 				alpha = 0.3,
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "KABOOOM!",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,10 +97,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "An attack, purin?! Nice try, but I can block that easily, purin!",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh! I am Prototype Bulin MKII, the Avatar of Gold, purin!",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No! Gold is the embodiment of light, hope, and justice, purin!",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "YOU'RE obviously the bad guy here, purin!",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hah, \"Steel Fists,\" purin? Is that what gives you your power, purin?",
 			painting = {
 				alpha = 0.3,
@@ -283,10 +283,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My Super Drill will make quick work of it, purin!",
 			painting = {
 				alpha = 0.3,
@@ -298,12 +298,12 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#A9F548FF",
 			side = 0,
-			hidePaintObj = true,
-			actorName = "Prototype Bulin MKII & Iron Claw Demon",
+			hideOther = true,
 			actor = 403130,
+			actorName = "Prototype Bulin MKII & Iron Claw Demon",
+			hidePaintObj = true,
 			say = "- Get her, Prototype Super Drill MKII, purin! - Give me a war cry, Iron Claw Mechadrake!",
 			subActors = {
 				{
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Iron Claw Mechadrake",
+			side = 2,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "ROOOOOOAAAAARRRR!",

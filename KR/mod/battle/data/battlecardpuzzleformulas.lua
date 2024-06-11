@@ -12,7 +12,7 @@ slot0.CUSTOM_FORMULA = {
 	double_energy = "energy*5+combo+2"
 }
 
-function slot0.CreateContextCalculateDamage(slot0, slot1, slot2, slot3)
+slot0.CreateContextCalculateDamage = function(slot0, slot1, slot2, slot3)
 	slot4 = uv0.NUM1
 	slot6 = uv0.NUM10000
 	slot7 = uv0.DRATE
@@ -102,14 +102,14 @@ function slot0.CreateContextCalculateDamage(slot0, slot1, slot2, slot3)
 	return slot25, slot40, slot44
 end
 
-function slot0.parseCompare(slot0, slot1)
+slot0.parseCompare = function(slot0, slot1)
 	slot2, slot3 = string.find(slot0, "%p+")
 	slot6 = string.sub(slot0, slot3 + 1, #slot0)
 
 	return getCompareFuncByPunctuation(string.sub(slot0, slot2, slot3))(tonumber(string.sub(slot0, 1, slot2 - 1)) or slot1:GetCurrent(slot5), tonumber(slot6) or slot1:GetCurrent(slot6))
 end
 
-function slot0.parseFormula(slot0, slot1)
+slot0.parseFormula = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 

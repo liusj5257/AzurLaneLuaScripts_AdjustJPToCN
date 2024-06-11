@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"聽妳說喜歡\n\n<size=45>二　細心的秘書艦</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "傑維斯成為秘書艦已經過了好幾天，開始逐漸了解她的個性了。",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "傑維斯成為秘書艦已經過了好幾天，開始逐漸了解她的個性了。",
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,10 +48,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哈啊……不是說了要勤開窗通風嗎？請指揮官多為自己的健康著想一下。",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -73,9 +73,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "傑維斯打開了窗戶，房間內頓時湧入了新鮮的冷空氣。",
 			typewriter = {
 				speed = 0.05,
@@ -90,10 +90,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這個季節的話確實會有些冷，給你，把這件外套披上。",
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +108,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "然後我現在就去準備熱茶…",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "你要是病倒的話可就麻煩了。不只港區的工作會堆積起來，我也不得不一直照顧你。",
 			typewriter = {
 				speed = 0.05,
@@ -144,10 +144,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒辦法，誰讓我現在是秘書艦。不用客氣，這些都是分內的工作。",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "雖然傑維斯表面上是一副不情願的模樣，實際上責任感非常強。",
 			typewriter = {
 				speed = 0.05,
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "交給她的工作都能漂亮地完成，指揮室也被打理得井井有條。",
 			typewriter = {
 				speed = 0.05,
@@ -190,10 +190,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這是新的墨水，之前我看到桌子上的墨水瓶快用完了，所以去倉庫拿的。",
 			typewriter = {
 				speed = 0.05,
@@ -208,10 +208,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "可不要把墨水弄到桌子上了，清理起來很麻煩。",
 			typewriter = {
 				speed = 0.05,
@@ -305,14 +305,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "在傑維斯面面俱到的協助下，本日工作效率有了快速提升。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -374,9 +374,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			optionFlag = 1,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 1,
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,

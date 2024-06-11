@@ -6,7 +6,7 @@ slot4 = 3
 slot5 = 4
 slot6 = 0.3
 
-function slot0.Type2Tag(slot0)
+slot0.Type2Tag = function(slot0)
 	if not uv0.types then
 		uv0.types = {
 			"subtitle_main",
@@ -30,7 +30,7 @@ function slot0.Type2Tag(slot0)
 	return uv0.types[slot0]
 end
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._go = slot1
@@ -59,7 +59,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.sIconOldPosition = Vector2(0, 20)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	assert(isa(slot1, Task), "should be an instance of Task")
 
 	slot0.taskVO = slot1
@@ -114,7 +114,7 @@ function slot0.update(slot0, slot1)
 	setActive(slot0._go, true)
 end
 
-function slot0.UpdateStoryIconPosition(slot0, slot1)
+slot0.UpdateStoryIconPosition = function(slot0, slot1)
 	if type(slot1:getConfig("story_icon_shift")) == "table" and #slot2 >= 2 then
 		slot5 = slot0.sIconOldPosition
 
@@ -132,7 +132,7 @@ function slot0.UpdateStoryIconPosition(slot0, slot1)
 	end
 end
 
-function slot0.updateBtnState(slot0, slot1)
+slot0.updateBtnState = function(slot0, slot1)
 	slot2 = uv0
 
 	removeOnButton(slot0.GotoBtn)
@@ -144,7 +144,7 @@ function slot0.updateBtnState(slot0, slot1)
 		slot2 = slot1:isReceive() and uv2 or uv3
 
 		onButton(slot0, slot0.GetBtn, function ()
-			function slot0()
+			slot0 = function()
 				if not uv0.isClick then
 					uv0.isClick = true
 
@@ -221,7 +221,7 @@ function slot0.updateBtnState(slot0, slot1)
 	end
 end
 
-function slot0.Submit(slot0, slot1)
+slot0.Submit = function(slot0, slot1)
 	if slot1.isWeekTask then
 		slot0.viewComponent:onSubmitForWeek(slot1)
 	elseif slot1:isAvatarTask() then
@@ -231,11 +231,11 @@ function slot0.Submit(slot0, slot1)
 	end
 end
 
-function slot0.Skip(slot0, slot1)
+slot0.Skip = function(slot0, slot1)
 	slot0.viewComponent:onGo(slot1)
 end
 
-function slot0.updateAwards(slot0, slot1)
+slot0.updateAwards = function(slot0, slot1)
 	for slot7 = slot0.rewardPanel.childCount, #_.slice(slot1, 1, 3) - 1 do
 		cloneTplTo(slot0._rewardModel, slot0.rewardPanel)
 	end
@@ -260,7 +260,7 @@ function slot0.updateAwards(slot0, slot1)
 	end
 end
 
-function slot0.DoSubmitAnim(slot0, slot1)
+slot0.DoSubmitAnim = function(slot0, slot1)
 	slot2 = slot0.frame.localPosition
 	slot3 = LeanTween.alphaCanvas(slot0.cg, 0, uv0)
 
@@ -279,7 +279,7 @@ function slot0.DoSubmitAnim(slot0, slot1)
 	end))
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

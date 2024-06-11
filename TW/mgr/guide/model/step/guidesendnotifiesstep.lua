@@ -1,6 +1,6 @@
 slot0 = class("GuideSendNotifiesStep", import(".GuideStep"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.notifies = {}
@@ -13,15 +13,15 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return GuideStep.TYPE_SENDNOTIFIES
 end
 
-function slot0.GetNotifies(slot0)
+slot0.GetNotifies = function(slot0)
 	return slot0.notifies
 end
 
-function slot0.ExistTrigger(slot0)
+slot0.ExistTrigger = function(slot0)
 	return true
 end
 

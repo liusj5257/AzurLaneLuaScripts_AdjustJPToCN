@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"{namecode:82}前輩的收藏大公開\n\n<size=45>三　努力的後輩們</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "在眾人的努力下，收藏室開始逐步重建，船模也在逐步修復中。",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "story-1",
+			say = "在眾人的努力下，收藏室開始逐步重建，船模也在逐步修復中。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "同時，越來越多的重櫻成員加入了幫忙的行列",
 			typewriter = {
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "事情的經過已經很清楚了…就讓我們也來幫一點忙吧",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "事情的經過已經很清楚了…就讓我們也來幫一點忙吧",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "哦——接住！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦——接住！",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
 					x = 0,
@@ -186,15 +186,15 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301010,
+			nameColor = "#a9f548",
 			say = "我們也來幫忙吧~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.2,
 					dur = 0.2,
 					x = 0,
@@ -229,12 +229,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "從L.I.小姐那裡習得的模型組裝技巧…是時候實踐一下了…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "從L.I.小姐那裡習得的模型組裝技巧…是時候實踐一下了…",
+			actor = 301050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -265,15 +265,15 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "我們也來了~不算太晚吧？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -298,12 +298,12 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			say = "我們給大家準備了午餐哦~想吃什麼儘管來拿~",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我們給大家準備了午餐哦~想吃什麼儘管來拿~",
+			actor = 305020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "哦！來的真及時~正好肚子餓了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -344,12 +344,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "{namecode:96}，不要一看到吃的就兩眼放光呀",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:96}，不要一看到吃的就兩眼放光呀",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -396,12 +396,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "糖果不能當午餐的啦，{namecode:33}…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "糖果不能當午餐的啦，{namecode:33}…",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -416,13 +416,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "不遠處，{namecode:82}望著活躍在廢墟上的後輩們的身姿，露出了欣慰的笑容…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -459,12 +459,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "我在暗處的努力也算有了回報呢。謝謝啦，後輩們…",
 			typewriter = {
 				speed = 0.05,

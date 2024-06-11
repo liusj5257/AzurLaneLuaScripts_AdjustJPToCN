@@ -1,17 +1,17 @@
 slot0 = class("MapEventStoryTriggerCellView", import(".StaticCellView"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.chapter = nil
 	slot0.triggerUpper = nil
 end
 
-function slot0.GetOrder(slot0)
+slot0.GetOrder = function(slot0)
 	return ChapterConst.CellPriorityAttachment
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot2 = slot0.info.flag == ChapterConst.CellFlagTriggerActive and slot1.trait ~= ChapterConst.TraitLurk
 
 	if IsNil(slot0.go) then
@@ -19,7 +19,7 @@ function slot0.Update(slot0)
 
 		slot7 = pg.map_event_template[slot1.attachmentId].icon
 
-		if IsNil(slot0.triggerUpper) and slot7 and #slot7 > 0 and PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot7 .. "_1shangceng")) then
+		if IsNil(slot0.triggerUpper) and slot7 and #slot7 > 0 and checkABExist("ui/" .. slot7 .. "_1shangceng") then
 			slot0.triggerUpper = HaloAttachmentView.New(slot0.parent, slot3, slot4)
 
 			slot0.triggerUpper:SetLoader(slot0.loader)
@@ -52,7 +52,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.DestroyGO(slot0)
+slot0.DestroyGO = function(slot0)
 	if slot0.triggerUpper then
 		slot0.triggerUpper:Clear()
 	end

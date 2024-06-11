@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_ryza_2",
+			bgm = "ryza-az-pv",
 			stopbgm = true,
 			say = "鏡面海域・過去",
-			bgm = "ryza-az-pv",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "中枢エリアだからね、トラップや仕掛けはもちろん、スーパー強い守護者を置かないとな！",
 			painting = {
@@ -74,10 +74,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "結局のところ、危険極まりない遺跡になってきたのう",
 			painting = {
 				alpha = 0.3,
@@ -91,9 +91,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			actor = 900233,
 			actorName = "ピュリっち",
 			say = "ハードル上げとかないと、クリアした時の喜びを味わえないってことさ",
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "新しい力を駆使して、遺跡探索や戦闘を思う存分楽しめるってわけ",
 			painting = {
@@ -191,10 +191,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふむ…しかしその艤装とやらは、錬金術で作れるものとはかなり違うような気がするぞ？",
 			painting = {
 				alpha = 0.3,
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "錬金術に不可能はないっていうじゃない！",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "む？もう錬金術についての情報を得たのか？",
 			painting = {
 				alpha = 0.3,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "こいつを誰にも分からないように錬金釜の形にして……むふふふ……",
 			painting = {
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "――すべての冒険にある、「お宝」としてね♪",
 			painting = {

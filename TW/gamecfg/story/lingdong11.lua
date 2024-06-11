@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "第一特攻艦隊已經準時抵達目標海域，順利完成合流",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,15 +72,15 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
+			actor = 207040,
 			say = "哦哦，對了對了，這一次我還帶回了來自白鷹的特產哦！",
 			shake = {
 				speed = 5,
-				number = 3,
-				y = 20
+				y = 20,
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -257,16 +257,16 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "……————",
 			stopbgm = true,
-			soundeffect = "event:/battle/boom1",
-			dir = 1,
+			side = 2,
 			blackBg = true,
-			say = "……————",
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -280,15 +280,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "！！！受到不明攻擊，立刻報告損害情況！！！",
 			dir = 1,
 			bgm = "story-6",
+			actor = 205070,
+			nameColor = "#a9f548",
+			say = "！！！受到不明攻擊，立刻報告損害情況！！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -375,8 +375,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
+			actorName = "淨化者",
 			say = "啊呀呀，居然選在這個地方開啟了新的奇異點，真是出人意料啊——",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
+			actorName = "淨化者",
 			say = "不不不，我可沒這麼大的能耐開啟這麼大個的…",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "淨化者",
 			dir = 1,
+			actorName = "淨化者",
 			say = "喂！等人把話說完啊，真是一群鐵殼腦袋！",
 			typewriter = {
 				speed = 0.05,

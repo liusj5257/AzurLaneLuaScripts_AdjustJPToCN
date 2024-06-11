@@ -15,8 +15,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"「甦れ、わたしの半身——巨竜メカ・「鉄のおてて」！」",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"そのまま、時の果てまで続くかのように――",
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"戦いの結果は…？",
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"次回、『試作型ブリMKII、死す』",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"「注意」",

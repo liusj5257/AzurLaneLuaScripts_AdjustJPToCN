@@ -179,9 +179,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "命中特效",
 	stack = 1,

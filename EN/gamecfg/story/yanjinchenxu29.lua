@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU29",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			stopbgm = true,
 			bgmDelay = 1,
-			say = "█ █ █ █ █ █ █ █ █",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			say = "█ █ █ █ █ █ █ █ █",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,9 +29,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "Nobody confirmed Ulrich's statement to herself, only a black sun roiling silently above her.",
@@ -123,14 +123,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			actorName = "█ █ █ █ █",
+			dialogueBgAlpha = 0.6,
 			actor = 499020,
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
 			painting = {
@@ -162,14 +162,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			actorName = "█ █ █ █ █",
+			dialogueBgAlpha = 0.6,
 			actor = 499020,
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
 			painting = {
@@ -201,14 +201,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			actorName = "█ █ █ █ █",
+			dialogueBgAlpha = 0.6,
 			actor = 499020,
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "█▎■Be▋▂▁▅▎▌ware▇▊▇",
 			painting = {
@@ -240,14 +240,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			actorName = "█ █ █ █ █",
+			dialogueBgAlpha = 0.6,
 			actor = 499020,
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "█▆▎Come█▎█",
 			painting = {
@@ -260,14 +260,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			actorName = "█ █ █ █ █",
+			dialogueBgAlpha = 0.6,
 			actor = 499020,
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "█▎█▎to▅█▎█▎▌me▅▎▌█",
 			painting = {
@@ -299,14 +299,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			actorName = "█ █ █ █ █",
+			dialogueBgAlpha = 0.6,
 			actor = 499020,
-			nameColor = "#BDBDBD",
+			actorName = "█ █ █ █ █",
 			hidePaintObj = true,
 			say = "█▊▇▊▇▅▁▂▋▄▊▌█▌",
 			painting = {

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU15",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 0,
+			dir = -1,
+			bgm = "battle-boss-italy",
 			actor = 207050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "제국의 환영은 정말 떠들썩하네요.",
-			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 207050,
 			dir = -1,
+			actor = 207050,
 			say = "윽, 좋아하는 옷을 더럽히고 싶지는 않아요——",
 			typewriter = {
 				speed = 0.05,

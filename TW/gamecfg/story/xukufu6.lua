@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"速科夫的一天\n\n<size=45>六 午後的速科夫·下</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "有什麼東西打到了臉上，醒了過來。",
 			typewriter = {
 				speed = 0.05,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "讓·巴爾？手裡拿著的是…報告書？",
 			typewriter = {
 				speed = 0.05,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905010,
+			nameColor = "#a9f548",
 			say = "午休時間都結束半小時了，你這傢伙還真是悠哉啊。",
 			typewriter = {
 				speed = 0.05,
@@ -120,9 +120,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "順著讓·巴爾示意的方向看去，沙發上，速科夫正香甜地睡著。",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……不該相信她的話的。",
 			typewriter = {
 				speed = 0.05,
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905010,
+			nameColor = "#a9f548",
 			say = "哼，要我說就不該讓這種懶散的傢伙擔任秘書艦",
 			typewriter = {
 				speed = 0.05,
@@ -374,9 +374,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "讓·巴爾說完就離開了。",
 			typewriter = {
 				speed = 0.05,
@@ -384,9 +384,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "不過臉上有什麼嗎？",
 			typewriter = {
 				speed = 0.05,

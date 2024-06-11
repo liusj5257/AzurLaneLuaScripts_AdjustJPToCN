@@ -1,6 +1,6 @@
 slot0 = class("BossRushSettlementCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = pg.ConnectionMgr.GetInstance()
 
 	slot3:Send(11202, {
@@ -59,7 +59,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.ConcludeEXP(slot0, slot1, slot2)
+slot0.ConcludeEXP = function(slot0, slot1, slot2)
 	slot3 = slot0.system
 	slot4 = slot0.arg1
 	slot5 = BossRushSeriesData.New({
@@ -121,7 +121,7 @@ function slot0.ConcludeEXP(slot0, slot1, slot2)
 	return slot6
 end
 
-function slot0.addShipsExp(slot0, slot1)
+slot0.addShipsExp = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 	slot4 = getProxy(BayProxy)
@@ -157,7 +157,7 @@ function slot0.addShipsExp(slot0, slot1)
 	return slot2, slot3
 end
 
-function slot0.GenerateCommanderExp(slot0)
+slot0.GenerateCommanderExp = function(slot0)
 	slot1 = {}
 	slot2 = {}
 	slot3 = getProxy(CommanderProxy)
@@ -178,7 +178,7 @@ function slot0.GenerateCommanderExp(slot0)
 	return slot1, slot2
 end
 
-function slot0.GeneralLoot(slot0)
+slot0.GeneralLoot = function(slot0)
 	for slot5, slot6 in pairs({
 		drops = slot0.drop_info,
 		extraDrops = slot0.extra_drop_info
@@ -195,7 +195,7 @@ function slot0.GeneralLoot(slot0)
 	return slot1.drops, slot1.extraDrops
 end
 
-function slot0.GeneralPlayerCosume(slot0, slot1, slot2, slot3)
+slot0.GeneralPlayerCosume = function(slot0, slot1, slot2, slot3)
 	slot5 = getProxy(PlayerProxy):getData()
 	slot6 = {
 		oldPlayer = {

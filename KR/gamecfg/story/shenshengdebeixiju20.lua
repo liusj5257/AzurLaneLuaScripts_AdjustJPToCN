@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU20",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "이게 바로 ‘칼리브리아의 보석’인가요… 역시 명불허전이군요~",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(달빛 아래의 바다가 형광색으로 빛나며 해안가의 유적을 서로 비춘다.)",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(수천년의 고대 문명이 이 순간 깨어나는 것 같았다.)",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "신의 해안’——’칼리브리아의 보석’이라고도 불리지. 우리 제국의 보물이야.",
 			typewriter = {
 				speed = 0.05,
@@ -97,9 +97,9 @@ return {
 		{
 			actor = 900198,
 			nameColor = "#ff5c5c",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "(아아… 리토리오는 정말이지…)",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "그렇다면 제국은 로열과 함께 이 아름다운 보석을 지키길 원한다는 말인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "워스파이트",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -287,9 +287,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg5",
+			dir = 1,
 			say = "(워스파이트가 드디어 부대를 따라잡고 약속한 지점에 도착했다.)",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "워스파이트",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "워스파이트",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "워스파이트",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "워스파이트",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리토리오",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포미더블",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리토리오",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -477,12 +477,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베네토",
+			side = 2,
 			bgName = "bg_italy_cg5",
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#ff5c5c",
 			say = "Lunga vita all'Impero！",
 			typewriter = {
 				speed = 0.05,

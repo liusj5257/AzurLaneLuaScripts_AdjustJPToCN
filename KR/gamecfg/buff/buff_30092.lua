@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行8次攻击，触发专属弹幕-吉尚II",
 	name = "专属弹幕-吉尚II",
 	init_effect = "",
+	id = 30092,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行8次攻击，触发专属弹幕-吉尚II",
 	stack = 1,
-	id = 30092,
+	color = "red",
 	icon = 30090,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 30092,
+				target = "TargetSelf",
 				countType = 30090
 			}
 		}

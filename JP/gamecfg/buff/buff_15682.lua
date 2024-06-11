@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 6,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "标记-VGDE",
 	stack = 1,

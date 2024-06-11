@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023意大利共斗 EX难度 大型沙尘龙卷周围减速",
 	time = 0.5,
-	id = 200482,
+	name = "2023意大利共斗 EX难度 大型沙尘龙卷周围减速",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 10,
-	color = "red",
+	id = 200482,
 	last_effect = "",
 	effect_list = {
 		{

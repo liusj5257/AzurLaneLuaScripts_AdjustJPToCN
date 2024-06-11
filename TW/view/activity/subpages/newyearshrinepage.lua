@@ -3,7 +3,7 @@ slot0.MAX_COUNT = 7
 slot0.GO_MINI_GAME_ID = 34
 slot0.GO_BACKHILL_SCENE = SCENE.NEWYEAR_BACKHILL_2022
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.progressTpl = slot0:findTF("ProgressTpl")
 	slot0.progressTplContainer = slot0:findTF("ProgressList")
 	slot0.progressUIItemList = UIItemList.New(slot0.progressTplContainer, slot0.progressTpl)
@@ -15,7 +15,7 @@ function slot0.OnInit(slot0)
 	slot0.goBtn = slot0:findTF("GoBtn")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.isAchieved = slot0.activity.data1
 	slot0.playCount = slot0.activity.data2
 	slot0.startTimestamp = slot0.activity.data3
@@ -32,7 +32,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setText(slot0.countText, math.clamp(slot0.playCount, 0, uv0.MAX_COUNT))
 
 	slot2 = slot0.progressUIItemList
@@ -93,7 +93,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	setActive(slot0.gotTag, slot0.isAchieved > 0)
 
 	if uv0.MAX_COUNT <= slot0.curDay and uv0.MAX_COUNT <= slot0.playCount and slot0.isAchieved <= 0 then
@@ -109,10 +109,10 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.IsTip()
+slot0.IsTip = function()
 	if getProxy(ActivityProxy):getActivityById(pg.activity_const.NEWYEAR_SHRINE_PAGE_ID.act_id) and not slot0:isEnd() then
 		return math.clamp(slot0.data2, 0, uv0.MAX_COUNT) < math.clamp(pg.TimeMgr.GetInstance():DiffDay(slot0.data3, pg.TimeMgr.GetInstance():GetServerTime()) + 1, 1, uv0.MAX_COUNT)
 	end

@@ -1,6 +1,6 @@
 slot0 = class("Challenge2Fleet", import(".Fleet"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 
 	slot0:updateShips(slot1.ships)
@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:updateCommanderSkills()
 end
 
-function slot0.getShipsByTeam(slot0, slot1, slot2)
+slot0.getShipsByTeam = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0[slot1]) do
@@ -38,7 +38,7 @@ function slot0.getShipsByTeam(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.getTeamByName(slot0, slot1)
+slot0.getTeamByName = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0[slot1]) do
@@ -48,7 +48,7 @@ function slot0.getTeamByName(slot0, slot1)
 	return slot3
 end
 
-function slot0.getFleetType(slot0)
+slot0.getFleetType = function(slot0)
 	for slot4, slot5 in pairs(slot0.ships) do
 		if slot5:getTeamType() == TeamType.Submarine then
 			return FleetType.Submarine
@@ -58,7 +58,7 @@ function slot0.getFleetType(slot0)
 	return FleetType.Normal
 end
 
-function slot0.getShips(slot0, slot1)
+slot0.getShips = function(slot0, slot1)
 	slot2 = {}
 
 	if slot0:getFleetType() == FleetType.Normal then
@@ -77,7 +77,7 @@ function slot0.getShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.updateShips(slot0, slot1)
+slot0.updateShips = function(slot0, slot1)
 	slot0[TeamType.Vanguard] = {}
 	slot0[TeamType.Main] = {}
 	slot0[TeamType.Submarine] = {}
@@ -92,7 +92,7 @@ function slot0.updateShips(slot0, slot1)
 	end)
 end
 
-function slot0.updateShipsHP(slot0, slot1, slot2)
+slot0.updateShipsHP = function(slot0, slot1, slot2)
 	if slot0.ships[slot1] then
 		slot3.hpRant = slot2
 
@@ -102,11 +102,11 @@ function slot0.updateShipsHP(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getCommanders(slot0)
+slot0.getCommanders = function(slot0)
 	return slot0.commanderList
 end
 
-function slot0.switchShip(slot0, slot1, slot2, slot3)
+slot0.switchShip = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getShipsByTeam(slot1, false)
 	slot5 = slot4[slot2].id
 	slot6 = slot4[slot3].id
@@ -128,7 +128,7 @@ function slot0.switchShip(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.buildBattleBuffList(slot0)
+slot0.buildBattleBuffList = function(slot0)
 	slot1 = {}
 	slot2, slot3 = FleetSkill.triggerMirrorSkill(slot0, FleetSkill.TypeBattleBuff)
 

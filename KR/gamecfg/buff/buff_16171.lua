@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16170,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16170,
+	color = "blue",
 	icon = 16170,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cloakExposeExtra",
-				number = 10
+				number = 10,
+				attr = "cloakExposeExtra"
 			}
 		}
 	}

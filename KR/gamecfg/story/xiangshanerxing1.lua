@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -69,10 +69,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그야 자로 정확히 재서 놨으니까!",
 			painting = {
 				alpha = 0.3,
@@ -96,12 +96,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사르데냐 엠파이어식 환대를 보여줘야 하니까 이 정도는 당연하지!",
 			painting = {
 				alpha = 0.3,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "레코 선장! 아직 일이 덜 끝났어!",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "진영 대회 후에는 만찬회가 있잖아! 그것도 연회장에서 하는 거라고!",
 			painting = {
 				alpha = 0.3,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러니까 연회장 준비도 확실히 해야 해!",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네. 사실 연회장 쪽이 더 중요하니까 대충 할 수는 없어요.",
 			painting = {
 				alpha = 0.3,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "특히 식재료는…… 스케줄이 밀리는 바람에 트리에스테 씨가 직접 사러 나가 계세요.",
 			painting = {
 				alpha = 0.3,
@@ -204,10 +204,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "무사히 다 갖춰지면 좋으련만……",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "확실히 이상하긴 해! 박식한 마에스트라레 생각은 어때?",
 			painting = {
 				alpha = 0.3,
@@ -279,10 +279,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "음… 외교 때문에 그런 걸까요? 저도 잘 모르겠네요……",
 			painting = {
 				alpha = 0.3,
@@ -297,10 +297,10 @@ return {
 			portrait = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
+			actorName = "비토리오 베네토",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "비토리오 베네토",
+			hidePaintObj = true,
 			say = "후후후, 대회 개최지에 대해서는 확실히 여러모로 복잡한 이유가 있죠.",
 			painting = {
 				alpha = 0.3,
@@ -315,10 +315,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			portrait = 605010,
-			dir = 1,
-			actorName = "비토리오 베네토",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 605010,
+			actorName = "비토리오 베네토",
 			hidePaintObj = true,
 			say = "아이리스는 장소도 제공하고 비용도 절반을 부담하면서 주최권을 사르데냐 엠파이어에 넘겨준 거니까요.",
 			painting = {
@@ -334,10 +334,10 @@ return {
 			portrait = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
+			actorName = "비토리오 베네토",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "비토리오 베네토",
+			hidePaintObj = true,
 			say = "결과적으로 사르데냐 엠파이어가 손해 보는 건 없어요.",
 			painting = {
 				alpha = 0.3,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇군요……",
 			painting = {
 				alpha = 0.3,
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네, 대회 일정 조정이 끝나서 다들 잘하고 있는지 보러 왔어요.",
 			painting = {
 				alpha = 0.3,
@@ -396,12 +396,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후후, 깨끗이 정리 정돈도 되어 있고, 장식도 사르데냐 엠파이어의 위광을 잘 드러내고 있네요. 다들 정말 고생 많으셨어요.",
 			painting = {
 				alpha = 0.3,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -444,12 +444,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방금 트리에스테에게 연락을 받았어요. 아이리스 동료의 도움으로 쇼핑은 순조롭다고요.",
 			painting = {
 				alpha = 0.3,
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "내일 만찬은 걱정 안 해도 될 것 같네요.",
 			painting = {
 				alpha = 0.3,
@@ -481,10 +481,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 회장 준비도 슬슬 마무리될 것 같아요.",
 			painting = {
 				alpha = 0.3,
@@ -496,12 +496,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다른 진영 손님들에게 사르데냐 엠파이어의 위광을 널리 퍼뜨릴 수 있을 정도로 준비는 충분해요.",
 			painting = {
 				alpha = 0.3,
@@ -554,10 +554,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "주최자… 인사……",
 			painting = {
 				alpha = 0.3,
@@ -591,10 +591,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "음… 그건 아직 여러모로 퇴고 중이라… 하하……",
 			painting = {
 				alpha = 0.3,
@@ -609,10 +609,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하아… 걱정하게 만들지 마.",
 			painting = {
 				alpha = 0.3,

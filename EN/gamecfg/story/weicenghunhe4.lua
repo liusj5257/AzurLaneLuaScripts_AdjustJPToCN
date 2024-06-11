@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
-			bgm = "hunhe-story",
-			dir = 1,
 			say = "Canal Stronghold - Eastern region",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			say = "With the help of her allies, Enterprise launched a search in the waters to the east of the Canal Stronghold.",
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "...An entire fleet, vanished without a trace. And a mysterious SOS signal...",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "According to Baltimore's message, they did in fact encounter Sirens. We've found no signs of any sort of battle despite that.",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "So far, we've known that our communications equipment always breaks down when entering a Mirror Sea. However...",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "If you can't count on that assumption...",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Doesn't that only make this phenomenon even more suspicious?",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Think harder. It's normal for fog to roll in along the coast, but there's no way it should extend so far out to sea.",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "No... could something like that be possible...?!",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "The mist was originally created by the Sirens, but its purpose is not necessarily to jam our equipment...",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "But to dare us to use it, to lure me into a trap...!",
 			typewriter = {
@@ -206,17 +206,17 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_1",
-			say = "Before she could finish her thought, Enterprise's surroundings quickly became enveloped in a thick, white mist.",
 			dir = 1,
 			bgm = "xinnong-3",
+			nameColor = "#a9f548",
+			say = "Before she could finish her thought, Enterprise's surroundings quickly became enveloped in a thick, white mist.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "When did they find me?!",
 			dialogShake = {
@@ -254,8 +254,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "So, the Sirens were behind this after all...",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			say = "……………………",
@@ -283,9 +283,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_banama_1",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "………………………………",
 			effects = {

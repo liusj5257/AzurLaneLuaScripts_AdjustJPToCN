@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "이제 2F로 탐색을 하러 갑니다!",
 				mode = 1,
-				posY = -80,
 				dir = -1,
+				posY = -80,
 				posX = -561.6
 			},
 			ui = {

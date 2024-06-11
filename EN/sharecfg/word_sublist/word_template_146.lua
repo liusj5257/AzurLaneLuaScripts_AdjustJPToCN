@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_146 = {}
 slot1 = slot0.word_template_146
 
-function temp()
+temp = function()
 	uv0["监"] = {
 		["督"] = {
 			this = true
@@ -66,7 +66,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兼"] = {
 		["职"] = {
 			m = {
@@ -182,7 +182,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["菅"] = {
 		["野"] = {
 			["亚"] = {
@@ -213,7 +213,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["湔"] = {
 		this = {
 			this = true
@@ -223,7 +223,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["搛"] = {
 		this = {
 			this = true
@@ -233,7 +233,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蒹"] = {
 		["职"] = {
 			["美"] = {
@@ -247,7 +247,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["監"] = {
 		["督"] = {
 			this = true

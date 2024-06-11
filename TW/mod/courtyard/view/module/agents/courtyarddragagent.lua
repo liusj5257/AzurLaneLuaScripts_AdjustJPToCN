@@ -1,6 +1,6 @@
 slot0 = class("CourtYardDragAgent", import(".CourtYardAgent"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.rect = slot2
@@ -10,11 +10,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:RegisterEvent()
 end
 
-function slot0.Enable(slot0, slot1)
+slot0.Enable = function(slot0, slot1)
 	slot0.trigger.enabled = slot1
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot1 = slot0.trigger
 
 	slot1:AddBeginDragFunc(function (slot0, slot1)
@@ -46,17 +46,17 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.CanDrag(slot0, slot1)
+slot0.CanDrag = function(slot0, slot1)
 	return Input.touchCount <= 1 and slot0._go == slot1
 end
 
-function slot0.UnRegisterEvent(slot0)
+slot0.UnRegisterEvent = function(slot0)
 	slot0.dragging = false
 
 	ClearEventTrigger(slot0.trigger)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 	slot0:UnRegisterEvent()
 	Object.Destroy(slot0.trigger)

@@ -1,6 +1,6 @@
 slot0 = class("MetaCharacterTacticsUnlockCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.shipID
 	slot4 = slot2.skillID

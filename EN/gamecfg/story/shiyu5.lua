@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Heart in the Right Place\n\n<size=45>5 Inside Shigure's Mind</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301150,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Breaktime's over, Commander. We've still got to find that dumb dog!",
 			bgm = "story-1",
+			actor = 301150,
+			nameColor = "#a9f548",
+			say = "Breaktime's over, Commander. We've still got to find that dumb dog!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Shigure was right. The sun would set before long if we didn't find her. We gave our thanks to Yamashiro and Fusou, then resumed our search.",
 			typewriter = {
 				speed = 0.05,
@@ -76,15 +76,15 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "star_level_bg_129",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "Boy, I'm glad we stopped to have a break just for that tea! It was so good.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "\"You must really respect Yamashiro and Fusou, based on how you talk to them.\"",
 			typewriter = {
 				speed = 0.05,
@@ -171,9 +171,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "She sang her friends' praises before then tooting her own horn.",
 			typewriter = {
 				speed = 0.05,
@@ -217,9 +217,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "Even though she prompted me to do it, I did feel grateful towards her. I said my thanks, after which she turned around, satisfied, and started walking again.",
 			typewriter = {
 				speed = 0.05,
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "She showed a surprising amount of consideration for me. I looked at her and suddenly remembered what she said when I suggested splitting up into two groups.",
 			typewriter = {
 				speed = 0.05,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_129",
+			dir = 1,
 			say = "That's when I had a realization. Shigure simply didn't want to be alone.",
 			typewriter = {
 				speed = 0.05,

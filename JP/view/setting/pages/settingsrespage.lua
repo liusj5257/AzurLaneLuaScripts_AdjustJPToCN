@@ -1,10 +1,10 @@
 slot0 = class("SettingsResPage", import(".SettingsOptionPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SettingsCombinationWithBgPage"
 end
 
-function slot0.GetPanels(slot0)
+slot0.GetPanels = function(slot0)
 	return {
 		SettingsSoundPanle,
 		SettingsResUpdatePanel

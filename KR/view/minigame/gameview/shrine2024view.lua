@@ -1,6 +1,6 @@
 slot0 = class("Shrine2024View", import(".Shrine2022View"))
 
-function slot0.IsNeedShowTipWithoutActivityFinalReward()
+slot0.IsNeedShowTipWithoutActivityFinalReward = function()
 	return Shrine2022View.IsNeedShowTipWithoutActivityFinalReward()
 end
 

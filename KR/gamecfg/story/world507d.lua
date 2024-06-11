@@ -1,13 +1,13 @@
 return {
-	id = "WORLD507D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507D",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "세이렌 시설의 잔해라기보다는 오히려 우리의……",
 			typewriter = {
 				speed = 0.05,

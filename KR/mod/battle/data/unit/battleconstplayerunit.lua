@@ -3,7 +3,7 @@ ys.Battle.BattleConstPlayerUnit.__name = "BattleConstPlayerUnit"
 slot0 = ys.Battle.BattleConstPlayerUnit
 slot2 = ys.Battle.BattleConst.EquipmentType
 
-function slot0.setWeapon(slot0, slot1)
+slot0.setWeapon = function(slot0, slot1)
 	slot3 = slot0._tmpData.base_list
 	slot0._proficiencyList = {}
 
@@ -40,15 +40,15 @@ function slot0.setWeapon(slot0, slot1)
 	end
 end
 
-function slot0.IsAlive(slot0)
+slot0.IsAlive = function(slot0)
 	return true
 end
 
-function slot0.HideWaveFx(slot0)
+slot0.HideWaveFx = function(slot0)
 	slot0:DispatchEvent(ys.Event.New(ys.Battle.BattleUnitEvent.HIDE_WAVE_FX))
 end
 
-function slot0.UpdateHPAction(slot0, slot1, ...)
+slot0.UpdateHPAction = function(slot0, slot1, ...)
 	uv0.super.UpdateHPAction(slot0, slot1, ...)
 
 	if slot1.dHP <= 0 then

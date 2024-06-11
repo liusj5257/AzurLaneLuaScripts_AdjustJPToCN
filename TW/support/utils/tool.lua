@@ -2,7 +2,7 @@ pg = pg or {}
 slot0 = pg
 slot0.Tool = class("Tool")
 
-function slot0.Tool.Seq(slot0)
+slot0.Tool.Seq = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, slot0 do
@@ -12,12 +12,12 @@ function slot0.Tool.Seq(slot0)
 	return slot1
 end
 
-function slot0.Tool.Swap(slot0, slot1, slot2)
+slot0.Tool.Swap = function(slot0, slot1, slot2)
 	slot0[slot1] = slot0[slot2]
 	slot0[slot2] = slot0[slot1]
 end
 
-function slot0.Tool.RandomMN(slot0, slot1)
+slot0.Tool.RandomMN = function(slot0, slot1)
 	slot2 = {}
 	slot4 = #uv0.Tool.Seq(slot0)
 
@@ -33,15 +33,15 @@ function slot0.Tool.RandomMN(slot0, slot1)
 	return slot2
 end
 
-function slot0.Tool.FilterY(slot0)
+slot0.Tool.FilterY = function(slot0)
 	return Vector3(slot0.x, 0, slot0.z)
 end
 
-function slot0.Tool.FilterZ(slot0)
+slot0.Tool.FilterZ = function(slot0)
 	return Vector3(slot0.x, slot0.y, 0)
 end
 
-function slot0.Tool.GetShortName(slot0, slot1, slot2)
+slot0.Tool.GetShortName = function(slot0, slot1, slot2)
 	if slot0 == nil or slot1 == nil then
 		return
 	end
@@ -106,7 +106,7 @@ function slot0.Tool.GetShortName(slot0, slot1, slot2)
 	return slot0
 end
 
-function slot0.Tool.Distances(slot0, slot1, slot2, slot3)
+slot0.Tool.Distances = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0 / 180 * math.pi
 	slot5 = slot2 / 180 * math.pi
 

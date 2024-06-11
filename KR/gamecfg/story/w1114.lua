@@ -1,12 +1,12 @@
 return {
-	id = "W1114",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1114",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "해수면 상에서 세이렌이 숨긴 자원 발견!",
 			typewriter = {
 				speed = 0.05,

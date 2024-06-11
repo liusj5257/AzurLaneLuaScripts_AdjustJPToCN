@@ -1,15 +1,15 @@
 return {
-	id = "HOLOGUANQIA24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-fff-inst",
 			say = "다음 날",
+			side = 2,
+			dir = 1,
+			bgm = "holo-fff-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 10500050,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 10500050,
 			dir = 1,
+			hideOther = true,
 			actorName = "만조",
 			say = "네, Z23 선생님!",
 			subActors = {
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "네, Z23 선생님!",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리",
 			dir = 1,
+			actorName = "퓨리",
 			say = "응, 나도 확실하지는 않지만 이 해역의 핵심 통제 장치는 물리적인 해역의 중심이 아니라 가장 중요한 위치에 있을거야.",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리",
 			dir = 1,
+			actor = 900021,
+			actorName = "퓨리",
 			say = "거울 해역에 대한 지식만 비교적 완벽하게 남아있는 상태야. 왜 그럴까?",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "hololive 여러분의 의견과 쇼카쿠의 정찰 결과를 종합해서 이 해역에 대한 대략적인 이해도 마쳤고요.",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "앞으로 만나게될 해역은 거대한 미궁과도 같아요. 뭐가 숨어있을지 모르는 상태죠.",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Z23의 호의는 고맙지만, 나도 전선으로 가고 싶어.",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "나, 나도 후부키와 같이 가고싶어! 내가 만든 미궁이니 내부에 대해 잘 알아. 그러니 길 안내는 맡겨줘!",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "그럼——",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "우우, 레지스탕스의 명예를 걸고 제일 먼저 본사 건물을 찾고 싶었는데…",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "지금은 그런 건 신경쓰지 말자, 아쿠아.",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리",
 			dir = 1,
+			actorName = "퓨리",
 			say = "(기대의 눈빛)",
 			typewriter = {
 				speed = 0.05,
@@ -497,11 +497,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "퓨리",
 			dir = 1,
+			actor = 900021,
+			actorName = "퓨리",
 			say = "에에에?!",
 			typewriter = {
 				speed = 0.05,
@@ -513,8 +513,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -538,10 +538,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "모두",
+			side = 2,
 			dir = 1,
+			actorName = "모두",
 			say = "오!",
 			dialogShake = {
 				speed = 0.09,

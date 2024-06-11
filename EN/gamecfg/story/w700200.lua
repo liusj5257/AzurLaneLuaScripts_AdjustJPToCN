@@ -1,12 +1,12 @@
 return {
-	id = "W700200",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700200",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Elimination of Arbiter vessel confirmed. Rewards have been distributed.",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("BobingPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT or PLATFORM_CODE == PLATFORM_CH then
 		setActive(findTF(slot0._tf, "bobing"), true)
 		setActive(findTF(slot0._tf, "lottery"), false)
@@ -26,7 +26,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT or PLATFORM_CODE == PLATFORM_CH then
 		slot0:bobingUpdate()
 	else
@@ -34,7 +34,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.lotteryUpdate(slot0)
+slot0.lotteryUpdate = function(slot0)
 	slot1 = slot0.activity
 	slot2 = findTF(slot0._tf, "lottery/layer")
 
@@ -91,7 +91,7 @@ function slot0.lotteryUpdate(slot0)
 	setText(findTF(slot3.nums, "text"), string.format("<color=#%s>%s</color> / %s", slot1.data2 == 0 and "FFD43F" or "d2d4db", 1 - slot1.data2, 1))
 end
 
-function slot0.getIndexByNumbers(slot0, slot1)
+slot0.getIndexByNumbers = function(slot0, slot1)
 	slot3 = 3
 
 	if ActivityConst.BBRule(slot1) and slot2 >= 1 and slot2 <= 2 then
@@ -105,7 +105,7 @@ function slot0.getIndexByNumbers(slot0, slot1)
 	return slot3
 end
 
-function slot0.displayLotteryAni(slot0, slot1, slot2, slot3)
+slot0.displayLotteryAni = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getIndexByNumbers(slot2)
 	slot6 = slot0:findTF("omikuji_anim", findTF(slot0._tf, "lottery"))
 	slot6 = slot6:GetComponent(typeof(DftAniEvent))
@@ -155,7 +155,7 @@ function slot0.displayLotteryAni(slot0, slot1, slot2, slot3)
 	setActive(slot6.gameObject, true)
 end
 
-function slot0.bobingUpdate(slot0)
+slot0.bobingUpdate = function(slot0)
 	slot1 = slot0.activity
 	slot2 = findTF(slot0._tf, "bobing")
 
@@ -261,7 +261,7 @@ function slot0.bobingUpdate(slot0)
 	setText(slot3.nums, string.format("<color=#%s>%s</color>", slot1.data2 == 0 and "d2d4db" or "FFD43F", slot1.data2))
 end
 
-function slot0.displayBBAnim(slot0, slot1)
+slot0.displayBBAnim = function(slot0, slot1)
 	slot2 = slot0:findTF("bobing/bb_anim")
 	slot3 = slot0:findTF("ship", slot2)
 	slot4 = slot0:findTF("bowl", slot2)
@@ -283,7 +283,7 @@ function slot0.displayBBAnim(slot0, slot1)
 		end)
 	end
 
-	function slot5()
+	slot5 = function()
 		setActive(uv0, true)
 		setActive(uv1, true)
 		uv2.model:GetComponent(typeof(SpineAnimUI)):SetAction("victory", 0)
@@ -309,7 +309,7 @@ function slot0.displayBBAnim(slot0, slot1)
 	setActive(slot2, true)
 end
 
-function slot0.displayBBResult(slot0, slot1, slot2, slot3)
+slot0.displayBBResult = function(slot0, slot1, slot2, slot3)
 	slot0.animation = findTF(slot0._tf, "bobing")
 
 	setActive(slot0:findTF("bb_anim", slot0.animation), false)
@@ -402,7 +402,7 @@ function slot0.displayBBResult(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
+slot0.setSpriteTo = function(slot0, slot1, slot2, slot3)
 	slot2:GetComponent(typeof(Image)).sprite = slot0:findTF(slot1):GetComponent(typeof(Image)).sprite
 
 	if slot3 then
@@ -410,7 +410,7 @@ function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.bobingWrap then
 		clearImageSprite(slot0.bobingWrap.bg)
 		LeanTween.cancel(slot0.bobingWrap.bowlShine.gameObject)

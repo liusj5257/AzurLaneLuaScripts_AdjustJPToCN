@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_393 = {}
 slot1 = slot0.word_template_393
 
-function temp()
+temp = function()
 	uv0["購"] = {
 		["買"] = {
 			["釣"] = {
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["紮"] = {
 		["卡"] = {
 			["維"] = {
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["佔"] = {
 		["領"] = {
 			["中"] = {
@@ -74,7 +74,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["槍"] = {
 		["支"] = {
 			["彈"] = {

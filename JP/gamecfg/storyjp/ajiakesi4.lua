@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AJIAKESI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"私の素晴らしい記憶\n\n<size=45>その四 友？敵？</size>",
@@ -17,24 +17,24 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "母港・通路",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "母港・通路",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "いつも思いますけど、こういう巡回をしているときに、アクシデントが欲しいものですね。",
 			bgm = "story-1",
+			actor = 202030,
+			nameColor = "#a9f548",
+			say = "いつも思いますけど、こういう巡回をしているときに、アクシデントが欲しいものですね。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,9 +61,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "エイジャックスが腕を絡んでくる。",
 			flashN = {
 				color = {
@@ -101,9 +101,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "肌から柔らかくも少し硬い感触が伝わってくる。",
 			typewriter = {
 				speed = 0.05,
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -125,9 +125,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "？あそこにいるのは……",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#a9f548",
 			say = "エイジャックス……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "あら、シュペーちゃんじゃないですか。一人でお散歩？",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、シュペーちゃんじゃないですか。一人でお散歩？",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "二人の間からピリピリ？とした空気が伝わって…来なかった。",
 			typewriter = {
 				speed = 0.05,
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "いいですわよ？あの店は私も結構好きですの。まあ男子禁制ですから……子豚ちゃんは入れませんけど♪",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "いいですわよ？あの店は私も結構好きですの。まあ男子禁制ですから……子豚ちゃんは入れませんけど♪",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			blackBg = true,
 			say = "知らない間にエイジャックスに放置されていた。",
 			typewriter = {

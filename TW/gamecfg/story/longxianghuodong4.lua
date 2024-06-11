@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG4",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level",
 			dir = -1,
 			say = "機場方面已經傳來空襲警報，看起來{namecode:90}直接發動攻擊了。薩拉，怎麼說？",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

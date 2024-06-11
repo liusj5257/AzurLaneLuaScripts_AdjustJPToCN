@@ -5,15 +5,15 @@ slot0.Battle.BattleBuffAddAttr = slot1
 slot1.__name = "BattleBuffAddAttr"
 slot1.FX_TYPE = slot0.Battle.BattleBuffEffect.FX_TYPE_MOD_ATTR
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.Battle.BattleBuffAddAttr.super.Ctor(slot0, slot1)
 end
 
-function slot1.GetEffectType(slot0)
+slot1.GetEffectType = function(slot0)
 	return uv0.FX_TYPE
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._group = slot0._tempData.arg_list.group or slot2:GetID()
 
 	if slot0._tempData.arg_list.comboDamage then
@@ -27,27 +27,27 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._attrID = slot0._tempData.arg_list.attr_group_ID
 end
 
-function slot1.onAttach(slot0, slot1, slot2)
+slot1.onAttach = function(slot0, slot1, slot2)
 	slot0:UpdateAttr(slot1)
 end
 
-function slot1.onStack(slot0, slot1, slot2)
+slot1.onStack = function(slot0, slot1, slot2)
 	slot0._number = slot0._numberBase * slot2._stack
 
 	slot0:UpdateAttr(slot1)
 end
 
-function slot1.onRemove(slot0, slot1, slot2)
+slot1.onRemove = function(slot0, slot1, slot2)
 	slot0._number = 0
 
 	slot0:UpdateAttr(slot1)
 end
 
-function slot1.IsSameAttr(slot0, slot1)
+slot1.IsSameAttr = function(slot0, slot1)
 	return slot0._attr == slot1
 end
 
-function slot1.UpdateAttr(slot0, slot1)
+slot1.UpdateAttr = function(slot0, slot1)
 	assert(slot0._attr ~= "velocity", ">>BattleBuffAddAttr(Ratio)不可用于修改速度，使用BattleBuffFixVelocity!")
 
 	if slot0._attr == "injureRatio" then
@@ -65,7 +65,7 @@ function slot1.UpdateAttr(slot0, slot1)
 	end
 end
 
-function slot1.CheckWeapon(slot0)
+slot1.CheckWeapon = function(slot0)
 	if slot0._attr == "loadSpeed" then
 		return true
 	else
@@ -73,7 +73,7 @@ function slot1.CheckWeapon(slot0)
 	end
 end
 
-function slot1.UpdateAttrMul(slot0, slot1)
+slot1.UpdateAttrMul = function(slot0, slot1)
 	slot2 = 1
 	slot3 = 1
 	slot4 = {}
@@ -107,7 +107,7 @@ function slot1.UpdateAttrMul(slot0, slot1)
 	end
 end
 
-function slot1.UpdateAttrAdd(slot0, slot1)
+slot1.UpdateAttrAdd = function(slot0, slot1)
 	slot2, slot3 = slot1:GetHP()
 	slot5 = 0
 	slot6 = 0
@@ -149,7 +149,7 @@ function slot1.UpdateAttrAdd(slot0, slot1)
 	slot1._move:ImmuneMaxAreaLimit(uv1.Battle.BattleAttr.IsImmuneMaxAreaLimit(slot1))
 end
 
-function slot1.UpdateAttrHybrid(slot0, slot1)
+slot1.UpdateAttrHybrid = function(slot0, slot1)
 	slot3 = {}
 	slot4 = {}
 

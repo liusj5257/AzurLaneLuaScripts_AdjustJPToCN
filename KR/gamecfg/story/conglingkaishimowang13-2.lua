@@ -6,9 +6,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_545",
 			factiontag = "전투 천사",
 			dir = 1,
+			bgName = "star_level_bg_545",
 			bgm = "story-french",
 			actor = 907010,
 			nameColor = "#A9F548FF",
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
-			side = 2,
 			bgName = "star_level_bg_545",
-			nameColor = "#A9F548FF",
+			side = 2,
 			dir = 1,
+			actor = 205130,
+			nameColor = "#A9F548FF",
 			say = "저건… 신성 교회와 강철 교회의 원군?!",
 			painting = {
 				alpha = 0.3,
@@ -84,17 +84,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "여러분! 승리의 희망을 강하게 품으세요!",
 			painting = {
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "원군이 왔습니다! 함께 마물을 섬멸합시다!",
 			painting = {

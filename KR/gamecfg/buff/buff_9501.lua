@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "活性",
 	time = 0,
-	color = "red",
+	name = "活性",
+	init_effect = "",
+	id = 9501,
 	picture = "",
 	desc = "提高炮击属性",
 	stack = 1,
-	id = 9501,
+	color = "red",
 	icon = 9501,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.2
+				number = 0.2,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.2
+				number = 0.2,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023海盗活动T5 家里冒险号辅助发射器",
 	time = 3,
+	name = "2023海盗活动T5 家里冒险号辅助发射器",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

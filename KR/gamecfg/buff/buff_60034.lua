@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-声望-战神-被动触发",
 	time = 0,
+	name = "测试-声望-战神-被动触发",
+	init_effect = "",
 	picture = "",
 	desc = "触发:主炮额外一轮攻击1",
 	stack = 1,

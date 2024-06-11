@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "Before us lies a battleground like something from hell itself.",
 			bgm = "theme-shallowoftheworld",
+			say = "Before us lies a battleground like something from hell itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "Centuries or even millennia-old dragons circle the skies above the volcano.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "The most eye-catching of them all is a titan of a monster, its body reaching hundreds of meters in length and entirely bathed in hellfire.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "That is the Great Fire Dragon, the leader of the dragons and the Demon King's most trusted officer.",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "Each flap of its wings sends echoes across the mountains and churns the lava below.",
 			typewriter = {
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Monsters so massive they all but blot out the sky... That's what we're up against.",
 			painting = {
@@ -149,27 +149,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "The cool sound of the flute cuts like a knife through the sizzling hot air.",
 			bgm = "ryza-az-theme",
+			say = "The cool sound of the flute cuts like a knife through the sizzling hot air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "As the final note finishes, four magic portals suddenly appear from thin air.",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "From each portal emerges one of the legendary figures from long ago.",
 			typewriter = {
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 331055,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "Legendary Fighter",
 			dir = 1,
+			actor = 331055,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I've never fought anything like that Great Fire Dragon before... This will be a worthwhile battle.",
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 431232,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "Legendary Warrior",
 			dir = 1,
+			actor = 431232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I just got done upgrading my axe! Let's see how well it cuts!",
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "The heroes set foot on the battlefield. Wasting not a moment, they jump straight toward the dragons.",
 			typewriter = {
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh, right. We didn't tell you how we met them, did we?",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It was an adventure in and of itself! I'll show you a pic and tell you the story after this battle's over!",

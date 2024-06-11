@@ -8,10 +8,10 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -23,24 +23,24 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_RAID",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 75008
 						},
 						{
-							switchParam = 4,
+							switchType = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 2,
 							index = 1,
-							switchType = 1
+							switchParam = 4
 						},
 						{
-							index = 2,
 							switchParam = 8,
 							switchTo = 3,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								891671,
@@ -51,9 +51,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 3,
 							switchParam = 80,
 							switchTo = 0,
+							index = 3,
 							switchType = 1,
 							addWeapon = {
 								891671
@@ -65,10 +65,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -80,24 +80,24 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_RAID",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 75009
 						},
 						{
-							switchParam = 4,
+							switchType = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 2,
 							index = 1,
-							switchType = 1
+							switchParam = 4
 						},
 						{
-							index = 2,
 							switchParam = 8,
 							switchTo = 3,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								891671,
@@ -108,9 +108,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 3,
 							switchParam = 80,
 							switchTo = 0,
+							index = 3,
 							switchType = 1,
 							addWeapon = {
 								891671

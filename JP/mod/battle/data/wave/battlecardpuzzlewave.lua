@@ -6,11 +6,11 @@ slot0.Battle.BattleCardPuzzleWave = class("BattleCardPuzzleWave", slot0.Battle.B
 slot0.Battle.BattleCardPuzzleWave.__name = "BattleCardPuzzleWave"
 slot3 = slot0.Battle.BattleCardPuzzleWave
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.SetWaveData(slot0, slot1)
+slot3.SetWaveData = function(slot0, slot1)
 	uv0.super.SetWaveData(slot0, slot1)
 
 	slot0._cardID = slot0._param.card_id
@@ -19,7 +19,7 @@ function slot3.SetWaveData(slot0, slot1)
 	slot0._op = slot0._param.shuffle or 1
 end
 
-function slot3.DoWave(slot0)
+slot3.DoWave = function(slot0)
 	uv0.super.DoWave(slot0)
 
 	slot2 = uv1.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(uv2.FRIENDLY_CODE):GetCardPuzzleComponent()

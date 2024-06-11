@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"三笠大先輩のプラモ博物館\n\n<size=45>二　睦月、立つ</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305110,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "たまげたものだ……",
 			bgm = "story-1",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "たまげたものだ……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "三笠だいせんぱい、ごめんなさい……睦月わるいことしちゃったよぉ……",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "あ……睦月ちゃん泣かないで、大丈夫よ。ほら――はい、笑って～笑ったらアメさんやるぞ～（こちょこちょ",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あ……睦月ちゃん泣かないで、大丈夫よ。ほら――はい、笑って～笑ったらアメさんやるぞ～（こちょこちょ",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "くすぐったい……あははは",
 			typewriter = {
 				speed = 0.05,
@@ -162,16 +162,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					x = 0,
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "……睦月、睦月はわるいことしちゃったから……ぜったいになんとかする！",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -238,15 +238,15 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "よいっしょ、よいっしょ……睦月もはこぶのてつだう！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.2,
 					x = 0,
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "あら、睦月ちゃんは頑張ってるよね～",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あら、睦月ちゃんは頑張ってるよね～",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -333,13 +333,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "こうして睦月はみんなの手伝いをし続けた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "ほしゅうも睦月、てつだうよ！",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -386,12 +386,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
+			say = "睦月ちゃんはやる気ですね。どんどん上手くなっていますよ。",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "睦月ちゃんはやる気ですね。どんどん上手くなっていますよ。",
+			actor = 304020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -438,11 +438,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "かむかむ――みかんのアメさん、おいしい！",
 			typewriter = {
 				speed = 0.05,
@@ -454,8 +454,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -464,12 +464,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "……でも、おしごとはまだおわっていないよね……",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……でも、おしごとはまだおわっていないよね……",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -484,13 +484,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "翌日――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -527,12 +527,12 @@ return {
 			}
 		},
 		{
-			actor = 301370,
+			say = "お！睦月ちゃん、きょうはやるきもりもりだね！",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "お！睦月ちゃん、きょうはやるきもりもりだね！",
+			actor = 301370,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -547,11 +547,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#a9f548",
 			say = "は……はやいよぉ……つかれたぁ……",
 			typewriter = {
 				speed = 0.05,
@@ -563,8 +563,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0,
@@ -605,12 +605,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "睦月ちゃんがアメさんをわけてくれた……？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "睦月ちゃんがアメさんをわけてくれた……？",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -641,10 +641,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:133}&{namecode:137}&{namecode:34}",

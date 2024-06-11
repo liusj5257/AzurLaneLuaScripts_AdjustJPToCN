@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.commander_skill_template = {
 	[10011] = {
-		desc_world = "When assigned to a fleet with 3 DDs: increases your Vanguard's TRP by a moderate amount based on the Tactics stat.",
 		name = "31 Knots of Justice",
+		desc_world = "When assigned to a fleet with 3 DDs: increases your Vanguard's TRP by a moderate amount based on the Tactics stat.",
 		next_id = 10012,
 		exp = 1,
 		prev_id = 0,
@@ -18,8 +18,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[10012] = {
-		desc_world = "When assigned as the Command Cat, and when the 2nd ship in your Vanguard is a DD: fires a Lv. 1 special barrage.",
 		name = "31 Knots of Justice",
+		desc_world = "When assigned as the Command Cat, and when the 2nd ship in your Vanguard is a DD: fires a Lv. 1 special barrage.",
 		next_id = 10013,
 		exp = 3,
 		prev_id = 10011,
@@ -37,8 +37,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[10013] = {
-		desc_world = "Improves the special barrage to Lv. 2.",
 		name = "31 Knots of Justice",
+		desc_world = "Improves the special barrage to Lv. 2.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 10012,
@@ -57,8 +57,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[10021] = {
-		desc_world = "When engaging an enemy Vanguard or Main Fleet: increases the Accuracy of your BBs, BCs, and BBVs by a large amount based on the Tactics stat.",
 		name = "Snipurr",
+		desc_world = "When engaging an enemy Vanguard or Main Fleet: increases the Accuracy of your BBs, BCs, and BBVs by a large amount based on the Tactics stat.",
 		next_id = 10022,
 		exp = 1,
 		prev_id = 0,
@@ -74,8 +74,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[10022] = {
-		desc_world = "When assigned to a fleet with a BB, BC, or BBV as its Flagship: increases the DMG the Flagship deals based on the Directives stat.",
 		name = "Snipurr",
+		desc_world = "When assigned to a fleet with a BB, BC, or BBV as its Flagship: increases the DMG the Flagship deals based on the Directives stat.",
 		next_id = 10023,
 		exp = 3,
 		prev_id = 10021,
@@ -93,8 +93,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[10023] = {
-		desc_world = "Increases EVA and AA for your BBs, BCs, and BBVs by a moderate amount based on the Directives stat.",
 		name = "Snipurr",
+		desc_world = "Increases EVA and AA for your BBs, BCs, and BBVs by a moderate amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 10022,
@@ -114,8 +114,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[11011] = {
-		desc_world = "When assigned as the Command Cat: increases your DD's TRP by a small amount based on the Directives stat.",
 		name = "Bite Their Fingers",
+		desc_world = "When assigned as the Command Cat: increases your DD's TRP by a small amount based on the Directives stat.",
 		next_id = 11012,
 		exp = 1,
 		prev_id = 0,
@@ -131,8 +131,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[11012] = {
-		desc_world = "Once per battle, when a DD is the frontmost ship of your Vanguard: activates Meowfficer Barrage Ⅰ when in close proximity to an enemy.",
 		name = "Bite Their Fingers",
+		desc_world = "Once per battle, when a DD is the frontmost ship of your Vanguard: activates Meowfficer Barrage Ⅰ when in close proximity to an enemy.",
 		next_id = 11013,
 		exp = 3,
 		prev_id = 11011,
@@ -150,8 +150,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[11013] = {
-		desc_world = "Upgrades Meowfficer Barrage Ⅰ to Meowfficer Barrage Ⅱ.",
 		name = "Bite Their Fingers",
+		desc_world = "Upgrades Meowfficer Barrage Ⅰ to Meowfficer Barrage Ⅱ.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 11012,
@@ -169,8 +169,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[11021] = {
-		desc_world = "When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Tactics stat.",
 		name = "Nine Lives",
+		desc_world = "When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Tactics stat.",
 		next_id = 11022,
 		exp = 1,
 		prev_id = 0,
@@ -186,8 +186,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[11022] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA and AA of your CVs and CVLs by a small amount based on the Tactics stat.",
 		name = "Nine Lives",
+		desc_world = "When assigned as the Staff Cat: increases the EVA and AA of your CVs and CVLs by a small amount based on the Tactics stat.",
 		next_id = 11023,
 		exp = 3,
 		prev_id = 11021,
@@ -205,8 +205,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[11023] = {
-		desc_world = "When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat.",
 		name = "Nine Lives",
+		desc_world = "When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 11022,
@@ -226,8 +226,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[12011] = {
-		desc_world = "When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Logistics stat.",
 		name = "Carrier Boost",
+		desc_world = "When assigned as the Staff Cat: increases the RLD of your CVs and CVLs by a small amount based on the Logistics stat.",
 		next_id = 12012,
 		exp = 1,
 		prev_id = 0,
@@ -243,8 +243,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[12012] = {
-		desc_world = "When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a small amount based on the Directives stat.",
 		name = "Carrier Boost",
+		desc_world = "When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a small amount based on the Directives stat.",
 		next_id = 12013,
 		exp = 3,
 		prev_id = 12011,
@@ -262,8 +262,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[12013] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat.",
 		name = "Carrier Boost",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 12012,
@@ -283,8 +283,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[12021] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		name = "Recon Boost",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		next_id = 12022,
 		exp = 1,
 		prev_id = 0,
@@ -300,8 +300,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[12022] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat.",
 		name = "Recon Boost",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat.",
 		next_id = 12023,
 		exp = 3,
 		prev_id = 12021,
@@ -319,8 +319,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[12023] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP your CLs, CAs, and CBs by a small amount based on the Directives stat.",
 		name = "Recon Boost",
+		desc_world = "When assigned as the Staff Cat: increases the FP your CLs, CAs, and CBs by a small amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 12022,
@@ -340,8 +340,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[20011] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat.",
 		name = "Churchill's Blessing",
+		desc_world = "When assigned as the Staff Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat.",
 		next_id = 20012,
 		exp = 1,
 		prev_id = 0,
@@ -357,8 +357,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[20012] = {
-		desc_world = "When assigned as the Staff Cat: for 30s after the battle starts, increases your entire fleet's FP by a moderate amount based on the Tactics stat.",
 		name = "Churchill's Blessing",
+		desc_world = "When assigned as the Staff Cat: for 30s after the battle starts, increases your entire fleet's FP by a moderate amount based on the Tactics stat.",
 		next_id = 20013,
 		exp = 3,
 		prev_id = 20011,
@@ -376,8 +376,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[20013] = {
-		desc_world = "Increases the DMG your BBs, BCs, and BBVs deal based on the Tactics stat.",
 		name = "Churchill's Blessing",
+		desc_world = "Increases the DMG your BBs, BCs, and BBVs deal based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 20012,
@@ -397,8 +397,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[20021] = {
-		desc_world = "When assigned as the Command Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat.",
 		name = "Rule Britannya",
+		desc_world = "When assigned as the Command Cat: increases the FP and AA of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat.",
 		next_id = 20022,
 		exp = 1,
 		prev_id = 0,
@@ -414,8 +414,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[20022] = {
-		desc_world = "When assigned as the Command Cat to a fleet with at least 4 Royal Navy ships: decreases the DMG your Vanguard takes for 30s after the battle starts based on the Logistics stat.",
 		name = "Rule Britannya",
+		desc_world = "When assigned as the Command Cat to a fleet with at least 4 Royal Navy ships: decreases the DMG your Vanguard takes for 30s after the battle starts based on the Logistics stat.",
 		next_id = 20023,
 		exp = 3,
 		prev_id = 20021,
@@ -433,8 +433,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[20023] = {
-		desc_world = "When assigned as the Command Cat: increases the EVA of your Royal Navy ships by a large amount based on the Logistics stat.",
 		name = "Rule Britannya",
+		desc_world = "When assigned as the Command Cat: increases the EVA of your Royal Navy ships by a large amount based on the Logistics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 20022,
@@ -454,8 +454,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21011] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		name = "Commerce Purrsuiter",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		next_id = 21012,
 		exp = 1,
 		prev_id = 0,
@@ -471,8 +471,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21012] = {
-		desc_world = "When assigned as the Staff Cat and when engaging an enemy Cargo Fleet: increases the FP of your CLs, CAs, and CBs by a large amount based on the Tactics stat.",
 		name = "Commerce Purrsuiter",
+		desc_world = "When assigned as the Staff Cat and when engaging an enemy Cargo Fleet: increases the FP of your CLs, CAs, and CBs by a large amount based on the Tactics stat.",
 		next_id = 21013,
 		exp = 3,
 		prev_id = 21011,
@@ -490,8 +490,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21013] = {
-		desc_world = "When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a moderate amount based on the Directives stat.",
 		name = "Commerce Purrsuiter",
+		desc_world = "When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a moderate amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 21012,
@@ -511,8 +511,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21021] = {
-		desc_world = "When assigned as the Staff Cat and when engaging an enemy Vanguard Fleet: increases the Accuracy of your DDs by a moderate amount based on the Tactics stat.",
 		name = "Purrceptive",
+		desc_world = "When assigned as the Staff Cat and when engaging an enemy Vanguard Fleet: increases the Accuracy of your DDs by a moderate amount based on the Tactics stat.",
 		next_id = 21022,
 		exp = 1,
 		prev_id = 0,
@@ -528,8 +528,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21022] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Logistics stat.",
 		name = "Purrceptive",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Logistics stat.",
 		next_id = 21023,
 		exp = 3,
 		prev_id = 21021,
@@ -547,8 +547,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21023] = {
-		desc_world = "When an enemy Recon Fleet is within the surrounding 3 tiles of the fleet this Meowfficer is assigned to: increases the EVA of your DDs by a small amount based on the Directives stat.",
 		name = "Purrceptive",
+		desc_world = "When an enemy Recon Fleet is within the surrounding 3 tiles of the fleet this Meowfficer is assigned to: increases the EVA of your DDs by a small amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 21022,
@@ -568,8 +568,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21031] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat.",
 		name = "Tiddles' Legacy",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat.",
 		next_id = 21032,
 		exp = 1,
 		prev_id = 0,
@@ -585,8 +585,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21032] = {
-		desc_world = "When an enemy Recon Fleet is within the surrounding 2 tiles of the fleet this Meowfficer is assigned to: increases the EVA of your DDs by a small amount based on the Logistics stat.",
 		name = "Tiddles' Legacy",
+		desc_world = "When an enemy Recon Fleet is within the surrounding 2 tiles of the fleet this Meowfficer is assigned to: increases the EVA of your DDs by a small amount based on the Logistics stat.",
 		next_id = 21033,
 		exp = 3,
 		prev_id = 21031,
@@ -604,8 +604,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21033] = {
-		desc_world = "When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat.",
 		name = "Tiddles' Legacy",
+		desc_world = "When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 21032,
@@ -625,8 +625,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21041] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your BBs, BCs, and BBVs by a small amount based on the Logistics stat.",
 		name = "Sophissticated",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your BBs, BCs, and BBVs by a small amount based on the Logistics stat.",
 		next_id = 21042,
 		exp = 1,
 		prev_id = 0,
@@ -642,8 +642,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21042] = {
-		desc_world = "When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Directives stat.",
 		name = "Sophissticated",
+		desc_world = "When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Directives stat.",
 		next_id = 21043,
 		exp = 3,
 		prev_id = 21041,
@@ -661,8 +661,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[21043] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP of your Royal Navy ships by a small amount based on the Tactics stat.",
 		name = "Sophissticated",
+		desc_world = "When assigned as the Staff Cat: increases the FP of your Royal Navy ships by a small amount based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 21042,
@@ -682,8 +682,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[22011] = {
-		desc_world = "When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Logistics stat.",
 		name = "Battleship Boost",
+		desc_world = "When assigned as the Staff Cat: increases the RLD of your BBs, BCs, and BBVs by a small amount based on the Logistics stat.",
 		next_id = 22012,
 		exp = 1,
 		prev_id = 0,
@@ -699,8 +699,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[22012] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 2)",
 		name = "Battleship Boost",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 2)",
 		next_id = 22013,
 		exp = 3,
 		prev_id = 22011,
@@ -718,8 +718,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[22013] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 3)",
 		name = "Battleship Boost",
+		desc_world = "When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Logistics stat. (Unlocks at Skill Lvl 3)",
 		next_id = 0,
 		exp = 0,
 		prev_id = 22012,
@@ -739,8 +739,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[22021] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Tactics stat.",
 		name = "Cruiser Tactics",
+		desc_world = "When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Tactics stat.",
 		next_id = 22022,
 		exp = 1,
 		prev_id = 0,
@@ -756,8 +756,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[22022] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat.",
 		name = "Cruiser Tactics",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CLs, CAs, and CBs by a small amount based on the Tactics stat.",
 		next_id = 22023,
 		exp = 3,
 		prev_id = 22021,
@@ -775,8 +775,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[22023] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Tactics stat.",
 		name = "Cruiser Tactics",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 22022,
@@ -796,8 +796,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[30011] = {
-		desc_world = "When assigned as the Staff Cat: increases the AVI and RLD of your CVs and CVLs by a small amount based on the Directives stat.",
 		name = "Paws of Fury",
+		desc_world = "When assigned as the Staff Cat: increases the AVI and RLD of your CVs and CVLs by a small amount based on the Directives stat.",
 		next_id = 30012,
 		exp = 1,
 		prev_id = 0,
@@ -813,8 +813,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[30012] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your CVs and CVLs by a small amount based on the Logistics stat.",
 		name = "Paws of Fury",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your CVs and CVLs by a small amount based on the Logistics stat.",
 		next_id = 30013,
 		exp = 3,
 		prev_id = 30011,
@@ -832,8 +832,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[30013] = {
-		desc_world = "Once per battle, if your fleet consists of only 1 CV or CVL: quickens the load time of your CV's/CVL's first Airstrike by 8.0% and launches an additional Torpedo Bomber airstrike once.",
 		name = "Paws of Fury",
+		desc_world = "Once per battle, if your fleet consists of only 1 CV or CVL: quickens the load time of your CV's/CVL's first Airstrike by 8.0% and launches an additional Torpedo Bomber airstrike once.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 30012,
@@ -853,8 +853,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[30021] = {
-		desc_world = "When assigned as the Command Cat: increases the FP and TRP of your CLs, CAs, and CBs by a moderate amount based on the Tactics stat.",
 		name = "Ironbottom Tail Swipe",
+		desc_world = "When assigned as the Command Cat: increases the FP and TRP of your CLs, CAs, and CBs by a moderate amount based on the Tactics stat.",
 		next_id = 30022,
 		exp = 1,
 		prev_id = 0,
@@ -870,8 +870,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[30022] = {
-		desc_world = "When assigned as the Command Cat to a fleet that is within 2 tiles of an enemy Main Fleet: decreases the DMG your Flagship takes based on the Directives stat.",
 		name = "Ironbottom Tail Swipe",
+		desc_world = "When assigned as the Command Cat to a fleet that is within 2 tiles of an enemy Main Fleet: decreases the DMG your Flagship takes based on the Directives stat.",
 		next_id = 30023,
 		exp = 3,
 		prev_id = 30021,
@@ -889,8 +889,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[30023] = {
-		desc_world = "For 30s after the battle starts when assigned as the Command Cat and when engaging an enemy Main Fleet: increases the Accuracy and EVA of your CLs, CAs, and CBs by a large amount based on the Tactics stat.",
 		name = "Ironbottom Tail Swipe",
+		desc_world = "For 30s after the battle starts when assigned as the Command Cat and when engaging an enemy Main Fleet: increases the Accuracy and EVA of your CLs, CAs, and CBs by a large amount based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 30022,
@@ -910,8 +910,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[31011] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat.",
 		name = "Belly Flop Bombardment",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your CVs and CVLs by a small amount based on the Tactics stat.",
 		next_id = 31012,
 		exp = 1,
 		prev_id = 0,
@@ -927,8 +927,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[31012] = {
-		desc_world = "When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat.",
 		name = "Belly Flop Bombardment",
+		desc_world = "When assigned as the Staff Cat: increases the AVI of your CVs and CVLs by a moderate amount based on the Directives stat.",
 		next_id = 31013,
 		exp = 3,
 		prev_id = 31011,
@@ -946,8 +946,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[31013] = {
-		desc_world = "When assigned to a fleet with a Flagship that is a CV or CVL: launches an airstrike 15s after the battle starts.",
 		name = "Belly Flop Bombardment",
+		desc_world = "When assigned to a fleet with a Flagship that is a CV or CVL: launches an airstrike 15s after the battle starts.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 31012,
@@ -967,8 +967,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[31021] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat.",
 		name = "Feral Instincts",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat.",
 		next_id = 31022,
 		exp = 1,
 		prev_id = 0,
@@ -984,8 +984,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[31022] = {
-		desc_world = "When assigned as the Staff Cat: increases the TRP of your DDs by a moderate amount based on the Logistics stat.",
 		name = "Feral Instincts",
+		desc_world = "When assigned as the Staff Cat: increases the TRP of your DDs by a moderate amount based on the Logistics stat.",
 		next_id = 31023,
 		exp = 3,
 		prev_id = 31021,
@@ -1003,8 +1003,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[31023] = {
-		desc_world = "When assigned as the Staff Cat and when your Vanguard consists of only 1 DD: increases your DD's TRP by a large amount based on the Directives stat.",
 		name = "Feral Instincts",
+		desc_world = "When assigned as the Staff Cat and when your Vanguard consists of only 1 DD: increases your DD's TRP by a large amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 31022,
@@ -1024,8 +1024,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[32011] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat.",
 		name = "Cruiser Directives",
+		desc_world = "When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat.",
 		next_id = 32012,
 		exp = 1,
 		prev_id = 0,
@@ -1041,8 +1041,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[32012] = {
-		desc_world = "When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		name = "Cruiser Directives",
+		desc_world = "When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		next_id = 32013,
 		exp = 3,
 		prev_id = 32011,
@@ -1060,8 +1060,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[32013] = {
-		desc_world = "When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Directives stat.",
 		name = "Cruiser Directives",
+		desc_world = "When assigned as the Staff Cat: increases the TRP of your CLs, CAs, and CBs by a small amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 32012,
@@ -1081,8 +1081,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[32021] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat.",
 		name = "Battleship Support",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a small amount based on the Logistics stat.",
 		next_id = 32022,
 		exp = 1,
 		prev_id = 0,
@@ -1098,8 +1098,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[32022] = {
-		desc_world = "When assigned as the Staff Cat: increases the AA of your BBs, BCs, and BBVs by a small amount based on the Directives stat.",
 		name = "Battleship Support",
+		desc_world = "When assigned as the Staff Cat: increases the AA of your BBs, BCs, and BBVs by a small amount based on the Directives stat.",
 		next_id = 32023,
 		exp = 3,
 		prev_id = 32021,
@@ -1117,8 +1117,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[32023] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Tactics stat.",
 		name = "Battleship Support",
+		desc_world = "When assigned as the Staff Cat: increases the FP of your BBs, BCs, and BBVs by a small amount based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 32022,
@@ -1138,8 +1138,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[40011] = {
-		desc_world = "Increases the TRP of your SSs and SSVs by a small amount based on the Command and Logistics stats.",
 		name = "Silent Hunter",
+		desc_world = "Increases the TRP of your SSs and SSVs by a small amount based on the Command and Logistics stats.",
 		next_id = 40012,
 		exp = 1,
 		prev_id = 0,
@@ -1155,8 +1155,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[40012] = {
-		desc_world = "When assigned as the Command Cat to a fleet: increases the OXY of your SSs by 15.",
 		name = "Silent Hunter",
+		desc_world = "When assigned as the Command Cat to a fleet: increases the OXY of your SSs by 15.",
 		next_id = 40013,
 		exp = 3,
 		prev_id = 40011,
@@ -1174,8 +1174,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[40013] = {
-		desc_world = "When assigned as the Command Cat to a fleet: fires a special torpedo barrage after the Flagship of your Submarine Fleet enters battle.",
 		name = "Silent Hunter",
+		desc_world = "When assigned as the Command Cat to a fleet: fires a special torpedo barrage after the Flagship of your Submarine Fleet enters battle.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 40012,
@@ -1195,8 +1195,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[40021] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP and Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat.",
 		name = "Unsinkable Oscar",
+		desc_world = "When assigned as the Staff Cat: increases the FP and Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Directives stat.",
 		next_id = 40022,
 		exp = 1,
 		prev_id = 0,
@@ -1212,8 +1212,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[40022] = {
-		desc_world = "When assigned as the Staff Cat, and when the Flagship of your fleet is a BB, BC, or BBV: 50.0% chance to fire a special barrage 20s after the battle starts.",
 		name = "Unsinkable Oscar",
+		desc_world = "When assigned as the Staff Cat, and when the Flagship of your fleet is a BB, BC, or BBV: 50.0% chance to fire a special barrage 20s after the battle starts.",
 		next_id = 40023,
 		exp = 3,
 		prev_id = 40021,
@@ -1231,8 +1231,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[40023] = {
-		desc_world = "When assigned as the Staff Cat and when engaging an enemy Main Fleet: decreases the DMG your BBs, BCs, and BBVs take and increases their RLD based on the Logistics stat.",
 		name = "Unsinkable Oscar",
+		desc_world = "When assigned as the Staff Cat and when engaging an enemy Main Fleet: decreases the DMG your BBs, BCs, and BBVs take and increases their RLD based on the Logistics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 40022,
@@ -1252,8 +1252,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41011] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your BBs, BCs, and BBVs by a small amount based on the Directives stat.",
 		name = "Paladin of the Sea",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your BBs, BCs, and BBVs by a small amount based on the Directives stat.",
 		next_id = 41012,
 		exp = 1,
 		prev_id = 0,
@@ -1269,8 +1269,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41012] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Tactics stat.",
 		name = "Paladin of the Sea",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your BBs, BCs, and BBVs by a moderate amount based on the Tactics stat.",
 		next_id = 41013,
 		exp = 3,
 		prev_id = 41011,
@@ -1288,8 +1288,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41013] = {
-		desc_world = "When engaging an enemy Main Fleet: decreases the DMG your Flagship takes based on the Tactics stat.",
 		name = "Paladin of the Sea",
+		desc_world = "When engaging an enemy Main Fleet: decreases the DMG your Flagship takes based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 41012,
@@ -1309,8 +1309,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41021] = {
-		desc_world = "When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat.",
 		name = "Champion of the Sea",
+		desc_world = "When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat.",
 		next_id = 41022,
 		exp = 1,
 		prev_id = 0,
@@ -1326,8 +1326,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41022] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat.",
 		name = "Champion of the Sea",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat.",
 		next_id = 41023,
 		exp = 3,
 		prev_id = 41021,
@@ -1345,8 +1345,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41023] = {
-		desc_world = "When assigned as the Staff Cat: increases the OXY of your SSs by 5.",
 		name = "Champion of the Sea",
+		desc_world = "When assigned as the Staff Cat: increases the OXY of your SSs by 5.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 41022,
@@ -1366,8 +1366,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41031] = {
-		desc_world = "When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat.",
 		name = "Sentinel of the Sea",
+		desc_world = "When assigned as the Staff Cat: increases the TRP of your SSs and SSVs by a small amount based on the Directives stat.",
 		next_id = 41032,
 		exp = 1,
 		prev_id = 0,
@@ -1383,8 +1383,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41032] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your SSs and SSVs by a moderate amount based on the Directives stat.",
 		name = "Sentinel of the Sea",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your SSs and SSVs by a moderate amount based on the Directives stat.",
 		next_id = 41033,
 		exp = 3,
 		prev_id = 41031,
@@ -1402,8 +1402,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[41033] = {
-		desc_world = "When assigned as the Staff Cat of the Submarine Fleet and when a fleet with a BB, BC, or BBV as its Flagship calls in Submarine Support: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat.",
 		name = "Sentinel of the Sea",
+		desc_world = "When assigned as the Staff Cat of the Submarine Fleet and when a fleet with a BB, BC, or BBV as its Flagship calls in Submarine Support: increases the Accuracy of your SSs and SSVs by a moderate amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 41032,
@@ -1423,8 +1423,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[42011] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		name = "Cruiser Boost",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		next_id = 42012,
 		exp = 1,
 		prev_id = 0,
@@ -1440,8 +1440,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[42012] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		name = "Cruiser Boost",
+		desc_world = "When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Logistics stat.",
 		next_id = 42013,
 		exp = 3,
 		prev_id = 42011,
@@ -1459,8 +1459,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[42013] = {
-		desc_world = "When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat.",
 		name = "Cruiser Boost",
+		desc_world = "When assigned as the Staff Cat: increases the FP of your CLs, CAs, and CBs by a small amount based on the Directives stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 42012,
@@ -1480,8 +1480,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[42021] = {
-		desc_world = "When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat.",
 		name = "Destroyer Directives",
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your DDs by a small amount based on the Directives stat.",
 		next_id = 42022,
 		exp = 1,
 		prev_id = 0,
@@ -1497,8 +1497,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[42022] = {
-		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your DDs by a small amount based on the Tactics stat.",
 		name = "Destroyer Directives",
+		desc_world = "When assigned as the Staff Cat: increases the Accuracy of your DDs by a small amount based on the Tactics stat.",
 		next_id = 42023,
 		exp = 3,
 		prev_id = 42021,
@@ -1516,8 +1516,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[42023] = {
-		desc_world = "When assigned as the Staff Cat: increases the TRP of your DDs by a small amount based on the Logistics stat.",
 		name = "Destroyer Directives",
+		desc_world = "When assigned as the Staff Cat: increases the TRP of your DDs by a small amount based on the Logistics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 42022,
@@ -1537,8 +1537,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960011] = {
-		desc_world = "Increases the FP of your BBs, BCs, BBVs, and IXMs by a moderate amount based on the Directives stat.",
 		name = "Towards Land's End",
+		desc_world = "Increases the FP of your BBs, BCs, BBVs, and IXMs by a moderate amount based on the Directives stat.",
 		next_id = 960012,
 		exp = 0,
 		prev_id = 0,
@@ -1558,8 +1558,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960012] = {
-		desc_world = "When assigned to a fleet with at least 1 IX: decreases your Flagship's DMG taken by a moderate amount based on the Tactics stat.",
 		name = "Towards Land's End",
+		desc_world = "When assigned to a fleet with at least 1 IX: decreases your Flagship's DMG taken by a moderate amount based on the Tactics stat.",
 		next_id = 960013,
 		exp = 0,
 		prev_id = 960011,
@@ -1579,8 +1579,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960013] = {
-		desc_world = "Increases the EVA of your IXVs and IXMs by a large amount based on the Tactics stat.",
 		name = "Towards Land's End",
+		desc_world = "Increases the EVA of your IXVs and IXMs by a large amount based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 960012,
@@ -1600,8 +1600,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960021] = {
-		desc_world = "Increases the ACC of your CLs, CAs, CBs, and IXVs by a moderate amount based on the Directives stat.",
 		name = "Certified Privateer",
+		desc_world = "Increases the ACC of your CLs, CAs, CBs, and IXVs by a moderate amount based on the Directives stat.",
 		next_id = 960022,
 		exp = 0,
 		prev_id = 0,
@@ -1621,8 +1621,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960022] = {
-		desc_world = "When this Meowfficer's fleet is within 3 tiles of an enemy Vanguard fleet: increases the EVA of your IXVs by a small amount based on the Directives stat.",
 		name = "Certified Privateer",
+		desc_world = "When this Meowfficer's fleet is within 3 tiles of an enemy Vanguard fleet: increases the EVA of your IXVs by a small amount based on the Directives stat.",
 		next_id = 960023,
 		exp = 0,
 		prev_id = 960021,
@@ -1642,8 +1642,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960023] = {
-		desc_world = "When assigned to a fleet with at least 1 IX: decreases the DMG taken of your CLs, CAs, and IXVs based on the Tactics stat.",
 		name = "Certified Privateer",
+		desc_world = "When assigned to a fleet with at least 1 IX: decreases the DMG taken of your CLs, CAs, and IXVs based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 960022,
@@ -1663,8 +1663,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960031] = {
-		desc_world = "When assigned as the Command Cat of your Submarine Fleet: increases the fleet's OXY by 5.",
 		name = "Breakneck Sam",
+		desc_world = "When assigned as the Command Cat of your Submarine Fleet: increases the fleet's OXY by 5.",
 		next_id = 960032,
 		exp = 0,
 		prev_id = 0,
@@ -1684,8 +1684,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960032] = {
-		desc_world = "When assigned as the Command Cat of your Submarine Fleet: when the battle starts, restores 2.0% of your IXs' max HP.",
 		name = "Breakneck Sam",
+		desc_world = "When assigned as the Command Cat of your Submarine Fleet: when the battle starts, restores 2.0% of your IXs' max HP.",
 		next_id = 960033,
 		exp = 0,
 		prev_id = 960031,
@@ -1705,8 +1705,8 @@ pg.commander_skill_template = {
 		}
 	},
 	[960033] = {
-		desc_world = "When assigned as the Command Cat of your Submarine Fleet: increases the ACC of your SS, SSVs, and IXSs by a moderate amount based on the Tactics stat.",
 		name = "Breakneck Sam",
+		desc_world = "When assigned as the Command Cat of your Submarine Fleet: increases the ACC of your SS, SSVs, and IXSs by a moderate amount based on the Tactics stat.",
 		next_id = 0,
 		exp = 0,
 		prev_id = 960032,

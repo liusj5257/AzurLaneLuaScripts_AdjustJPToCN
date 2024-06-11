@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_1",
+			bgm = "battle-pacific",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "날이 밝아오고, 이는 희망의 여명과 잊을 수 없는 전투를 의미했다.",
-			bgm = "battle-pacific",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,11 +33,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(...산호해 해전의 기록은 이미 수없이 많이 읽었어.）",
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_1",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(오기 전부터 다음에 무슨 일이 일어날지 이미 알고 있지만...)",
@@ -107,28 +107,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_2",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시 후",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이래서 주의사항에 비정상적으로 튕겨나갈 것에 대비하라고 적혀 있었던 거구나.",
@@ -249,27 +249,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_zhuguang_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_zhuguang_2",
 			say = "또다시 시간이 흐른 뒤-",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -391,8 +391,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			actor = 108080,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "별의 바다에서의 인양이란 사실 기기를 통해 가상 세계의 가치 있는 물건을 표시한 뒤, 구성 데이터를 분석하고 기록하는 것을 의미해요….",
@@ -533,11 +533,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇지~? 게다가 엔지니어링 기관에서 때로는 회수한 물품을 실제로 만들어내기도 한다구~",
@@ -570,11 +570,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "정말 여기서 기다리기만 하면 되는 거야?",
@@ -645,8 +645,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -674,11 +674,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "내 걱정은 하지마! 이 언니는 옆에서 조용히 있을 테니 플래셔는 일에 집중하도록 해!",

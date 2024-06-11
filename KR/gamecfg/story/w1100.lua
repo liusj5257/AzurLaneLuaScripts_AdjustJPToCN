@@ -1,12 +1,12 @@
 return {
-	id = "W1100",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1100",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "세이렌의 위협이 잠시 해소되었다... 하지만 주변에 새로운 변화가 생긴 것 같다.",
 			typewriter = {
 				speed = 0.05,

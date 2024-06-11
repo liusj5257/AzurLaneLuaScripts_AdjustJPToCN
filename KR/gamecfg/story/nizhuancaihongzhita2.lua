@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "이름 모를 해역, 새벽",
 			side = 2,
 			bgName = "bg_midgard_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-4",
+			say = "이름 모를 해역, 새벽",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "동틀 무렵이 되자, 하루의 첫 햇살이 일렁이는 바다에 내리쬐었다.",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "거대한 강철 요새들이 빽빽이 들어섰고 무수히 많은 군함들이 그 사이를 일사불란하게 지나다녔다.",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "하지만 가장 눈에 띄는 것은 다름 아닌 멀리 떨어져 있던 거대한 고리 모양의 지역이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -77,10 +77,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "저게 바로 미드가르드 탑... 저렇게 빨리 완성될 줄은 몰랐어요.",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "대단하네... 저쪽에서 탑을 완성시켰으니 이제 우리가 한바탕 소란을 피울 차례야!",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 408120,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 408120,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(꼬르륵) 오! U-1206 상승 중!",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,10 +140,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 408120,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "수면 아래에는 물고기 떼 외에 별다른 이상 없음.",
 			typewriter = {
 				speed = 0.05,
@@ -158,10 +158,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 408120,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이번 작전... 아무 일 없이 지나갈 것 같지 않은데....",
 			typewriter = {
 				speed = 0.05,
@@ -173,12 +173,12 @@ return {
 			}
 		},
 		{
-			actor = 406020,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "후후, 방해하는 분들은 혼내 주면 되죠.",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "엘베, 속마음이 다 들려.",
 			typewriter = {
 				speed = 0.05,
@@ -230,10 +230,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "페터, 오랜만이네요~",
 			typewriter = {
 				speed = 0.05,
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 406020,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "당신이 이런 재미난 일을 할 줄은 꿈에도 몰랐어요! 처음 듣고 귀를 의심했다니깐요!",
 			typewriter = {
 				speed = 0.05,
@@ -284,10 +284,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그런데, 이곳은 재미보다는 예상할 수 없는 위험과 도전이 도사리고 있어. 각자 이곳으로 오는 동안, 내가 상황 설명을 해줄게.",
 			typewriter = {
 				speed = 0.05,
@@ -321,10 +321,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "와 정말 거대하고 기품 넘친다! 바다 위에 이런 걸 짓다니, 육지에서 운반해 오느라 꽤 고생했겠는데?",
 			typewriter = {
 				speed = 0.05,
@@ -339,10 +339,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "쉽지는 않았지만, 그렇게 큰 문제는 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -376,10 +376,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "각 빙산은 각각 정해진 위치까지 자가 운반이 가능했고, 이후 정해진 위치에서 조립을 했지.",
 			typewriter = {
 				speed = 0.05,
@@ -394,10 +394,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그렇다면, 저희의 대형 빙산 제조 기술과 큰 차이는 없겠군요.",
 			typewriter = {
 				speed = 0.05,
@@ -412,10 +412,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이전 기술의 업그레이드 버전이야. 물론 은폐 수단은 필수고.",
 			typewriter = {
 				speed = 0.05,
@@ -449,10 +449,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지금과 같이 모든 게 순조로워 보이는 것은 신호를 위장했기 때문이야. 그래서 이런 대규모 작전 역시 들키지 않았던 거고.",
 			typewriter = {
 				speed = 0.05,
@@ -486,10 +486,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "에이, 함대 기함은 울리히 폰 후텐 각하인걸요?",
 			typewriter = {
 				speed = 0.05,
@@ -501,12 +501,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -540,10 +540,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그럴 필요 없어, 슈트라서. 내가 손님으로서 먼저 인사를 했어야 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -558,10 +558,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "눈앞에 광경이 너무나 웅장해서 미처 예의를 차리지 못했군.",
 			typewriter = {
 				speed = 0.05,
@@ -573,12 +573,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "정식으로 소개하겠다. 나는 프리드리히 데어 그로세의 특사 자격으로 이곳에 온 울리히 폰 후텐이고 이번 작전에서 최고 지휘권을 갖게 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -612,10 +612,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "좋아. 슈트라서, 미드가르드 탑 작동 이후에도 환광 시스템의 위장 기능은 계속 유지되는 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -630,10 +630,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 407030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "시간적 여유가 없어 아직 확인하지 못했어......",
 			typewriter = {
 				speed = 0.05,
@@ -645,12 +645,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "시간이 없어. 실전으로 검증하는 수밖에 없겠군. 이론적 분석은 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -684,10 +684,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "역시.. 지금은 잠잠해 보이지만 결국 진짜 문제는 특이점이 발동된 다음에나 나타날 것 같군.",
 			typewriter = {
 				speed = 0.05,
@@ -699,12 +699,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_midgard_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "슈트라서, 이후의 문제는 회의실에서 자세히 이야기하도록 하자.",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE07",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE07",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"櫻花爛漫開學祭\n\n<size=45>七　新學年的開始</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			bgm = "story-1",
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "嗚嗚…沒想到姐姐的說教真的那麼久…",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			say = "以、以後再也不敢輕易招惹風紀委員了…",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "以、以後再也不敢輕易招惹風紀委員了…",
+			actor = 401011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -55,13 +55,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "哦！是指揮官呀！",
 			typewriter = {
@@ -89,12 +89,12 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			say = "哦？真難得，指揮官這是來學院巡視嗎~",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？真難得，指揮官這是來學院巡視嗎~",
+			actor = 401011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -109,13 +109,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,13 +142,13 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			say = "比起有趣不有趣，在學校學習提高自身能力，也是我們除了戰鬥之外的重要任務吧",
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "比起有趣不有趣，在學校學習提高自身能力，也是我們除了戰鬥之外的重要任務吧",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -179,11 +179,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "啊，一不小心…",
 			typewriter = {
@@ -196,13 +196,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "因為姐姐是風紀委員嘛…總覺得就這樣下去，姐姐就都忙著管別人了…",
 			typewriter = {
@@ -236,11 +236,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "而且妳看，既然有風紀委員，就應該有不良少女才對嘛？",
 			typewriter = {
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actor = 401011,
+			say = "啊哈哈哈哈，{namecode:94}真是可愛的姐控啊~",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈哈，{namecode:94}真是可愛的姐控啊~",
+			actor = 401011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "什、什麼啦！",
 			typewriter = {
@@ -306,16 +306,16 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			actorName = "{namecode:93}",
-			bgName = "star_level_bg_103",
 			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_103",
+			actor = 307032,
 			nameColor = "#a9f548",
 			say = "嗚哇…都這麼晚了…天都開始黑了——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "{namecode:2}，不好意思啊，還讓妳一起幫忙整理材料",
 			typewriter = {
@@ -357,13 +357,13 @@ return {
 			}
 		},
 		{
-			actor = 301011,
+			say = "一點小事~沒什麼的~",
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "一點小事~沒什麼的~",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "嗯？{namecode:94}{namecode:400}？",
 			typewriter = {
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = -1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "指揮官？",
 			typewriter = {
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "在聊什麼聊得那麼開心呢？",
 			typewriter = {
@@ -429,11 +429,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "沒、沒什麼啦…只是在說又是新學年的開始而已…",
 			typewriter = {
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "是呢…話說{namecode:94}啊…妳就不能聽姐姐一回，穿姐姐幫妳準備的制服嘛…",
 			typewriter = {
@@ -479,11 +479,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "我、我比較喜歡現在這樣啦！",
 			typewriter = {
@@ -512,13 +512,13 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			say = "哇！克、克雷文什麼時候在這裡的！",
 			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "哇！克、克雷文什麼時候在這裡的！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -533,11 +533,11 @@ return {
 			}
 		},
 		{
-			actor = 101061,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 101061,
+			nameColor = "#a9f548",
 			say = "神出鬼沒的啦啦隊少女就是我！",
 			typewriter = {
 				speed = 0.05,
@@ -549,10 +549,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -589,11 +589,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "嗯？",
 			typewriter = {
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "沒、沒什麼！",
 			typewriter = {
@@ -623,11 +623,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "嗚…作為風紀委員的姐姐我的立場——",
 			typewriter = {
@@ -640,13 +640,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,11 +663,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "是、是呢",
 			typewriter = {
@@ -696,11 +696,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "我、我會努力準時報到的…",
 			typewriter = {
@@ -713,11 +713,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "哦！",
 			typewriter = {
@@ -730,12 +730,12 @@ return {
 			}
 		},
 		{
-			actor = 101061,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 101061,
+			nameColor = "#a9f548",
 			say = "加油FIGHT~！",
 			typewriter = {
 				speed = 0.05,

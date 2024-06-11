@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023俾斯麦Z活动 女灶神meta 维修光环",
 	time = 0,
-	color = "blue",
+	name = "2023俾斯麦Z活动 女灶神meta 维修光环",
+	init_effect = "",
+	id = 200430,
 	picture = "",
 	desc = "定期回复周围友军血量",
 	stack = 1,
-	id = 200430,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200431,
-				target = "TargetSelf",
-				time = 3
+				time = 3,
+				target = "TargetSelf"
 			}
 		}
 	}

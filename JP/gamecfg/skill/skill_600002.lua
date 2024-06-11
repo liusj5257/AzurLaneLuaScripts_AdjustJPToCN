@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 600002,
 	picture = "0",
 	desc = "",
+	painting = 0,
+	id = 600002,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,19 +16,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 600007
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 600008
 			}
@@ -51,8 +51,8 @@ return {
 				delay = 5.7,
 				effect = "shanshuo",
 				casterRelativeCorrdinate = {
-					hrz = 0,
-					vrt = 0
+					vrt = 0,
+					hrz = 0
 				}
 			}
 		}

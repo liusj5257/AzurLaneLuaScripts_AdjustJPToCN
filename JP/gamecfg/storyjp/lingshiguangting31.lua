@@ -1,19 +1,19 @@
 return {
-	id = "LINGSHIGUANGTING31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING31",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 205010,
-			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "ピュリファイアーは本当にこちらを攻撃してこなかったわね",
 			bgm = "battle-boss-camelot",
+			actor = 205010,
+			nameColor = "#a9f548",
+			say = "ピュリファイアーは本当にこちらを攻撃してこなかったわね",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "はい。セイレーン艦隊は黒い竜巻に向かって突進している模様です",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "陛下と同じく「再現」に巻き込まれ、そして「目の前のバグ」とやらに…",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "あの黒い竜巻はここに現れるべきものではないということはわかりましたが…",
 			typewriter = {
@@ -164,15 +164,15 @@ return {
 			}
 		},
 		{
-			actor = 207120,
 			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207120,
+			nameColor = "#a9f548",
 			say = "あれは…小さい竜巻！？黒い竜巻が分裂したんですの！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -216,8 +216,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "敵も出てきている…！私が引きつけるので陛下は今のうちに皆と退避を！",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_9",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "あの量の敵をモナーク一人で止められると思う？一人だと無駄な犠牲になるだけよ",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -433,10 +433,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_9",
 			side = 0,
+			bgName = "bg_camelot_9",
+			hideOther = true,
 			dir = 1,
 			actor = 299010,
 			actorName = "三人",
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			actor = 299010,
 			side = 2,
 			bgName = "bg_camelot_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 299010,
+			nameColor = "#a9f548",
 			say = "一人だけ戦功を総ナメにはさせませんわ♪ふふふ♪",
 			typewriter = {
 				speed = 0.05,

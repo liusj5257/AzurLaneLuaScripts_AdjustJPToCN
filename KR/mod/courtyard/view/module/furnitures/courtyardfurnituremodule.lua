@@ -1,11 +1,11 @@
 slot0 = class("CourtYardFurnitureModule", import("..CourtYardPlaceableModule"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 	slot0:AddListener(CourtYardEvent.FURNITURE_POSITION_CHANGE, slot0.OnPositionUpdate)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	pg.ViewUtils.SetLayer(slot0._tf, Layer.UI)
 
@@ -53,12 +53,12 @@ function slot0.OnInit(slot0)
 	slot0.effectAgent = CourtYardEffectAgent.New(slot0)
 end
 
-function slot0.CreateWhenStoreyInit(slot0)
+slot0.CreateWhenStoreyInit = function(slot0)
 	uv0.super.CreateWhenStoreyInit(slot0)
 	slot0:BlocksRaycasts(false)
 end
 
-function slot0.BlocksRaycasts(slot0, slot1)
+slot0.BlocksRaycasts = function(slot0, slot1)
 	slot3 = #slot0.data:GetUsingSlots() > 0
 
 	if slot0.data:CanClickWhenExitEditMode() or slot3 and slot1 == false then
@@ -68,13 +68,13 @@ function slot0.BlocksRaycasts(slot0, slot1)
 	slot0.cg.blocksRaycasts = slot1
 end
 
-function slot0.GetSpine(slot0)
+slot0.GetSpine = function(slot0)
 	if slot0.animator then
 		return slot0.animator.spineAnimUI.gameObject.transform
 	end
 end
 
-function slot0.GetCenterPoint(slot0)
+slot0.GetCenterPoint = function(slot0)
 	slot2 = slot0:GetParentTF():InverseTransformPoint(slot0._tf.position)
 	slot4 = slot0._tf.sizeDelta
 	slot5 = Vector2(0.5, 0.5) - slot0._tf.pivot
@@ -83,21 +83,21 @@ function slot0.GetCenterPoint(slot0)
 	return Vector3(slot3.x, slot3.y, 0)
 end
 
-function slot0.GetSpinePoint(slot0)
+slot0.GetSpinePoint = function(slot0)
 	slot2 = slot0:GetParentTF():InverseTransformPoint(slot0._tf:Find("spine_icon/spine").position)
 
 	return Vector3(slot2.x, slot2.y, 0)
 end
 
-function slot0.GetBodyMask(slot0, slot1)
+slot0.GetBodyMask = function(slot0, slot1)
 	return slot0.bodyMasks[slot1]
 end
 
-function slot0.GetAnimator(slot0, slot1)
+slot0.GetAnimator = function(slot0, slot1)
 	return slot0.animators[slot1]
 end
 
-function slot0.AddListeners(slot0)
+slot0.AddListeners = function(slot0)
 	slot0:AddListener(CourtYardEvent.FURNITURE_OP_FLAG_CHANGE, slot0.EnableTrigger)
 	slot0:AddListener(CourtYardEvent.ROTATE_FURNITURE, slot0.OnDirChange)
 	slot0:AddListener(CourtYardEvent.FURNITURE_STATE_CHANGE, slot0.OnStateChange)
@@ -109,7 +109,7 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.FURNITURE_STOP_MOVE, slot0.OnStopMove)
 end
 
-function slot0.RemoveListeners(slot0)
+slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_OP_FLAG_CHANGE, slot0.EnableTrigger)
 	slot0:RemoveListener(CourtYardEvent.ROTATE_FURNITURE, slot0.OnDirChange)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_STATE_CHANGE, slot0.OnStateChange)
@@ -121,11 +121,11 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_STOP_MOVE, slot0.OnStopMove)
 end
 
-function slot0.EnableTrigger(slot0, slot1)
+slot0.EnableTrigger = function(slot0, slot1)
 	slot0.dragAgent:Enable(slot1)
 end
 
-function slot0.InitAttachment(slot0, slot1)
+slot0.InitAttachment = function(slot0, slot1)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Emit("SelectFurniture", uv0.data.id)
 	end, SFX_PANEL)
@@ -135,27 +135,27 @@ function slot0.InitAttachment(slot0, slot1)
 	end
 end
 
-function slot0.OnBeginDrag(slot0)
+slot0.OnBeginDrag = function(slot0)
 	slot0:Emit("BeginDragFurniture", slot0.data.id)
 end
 
-function slot0.OnDragging(slot0, slot1)
+slot0.OnDragging = function(slot0, slot1)
 	slot0:Emit("DragingFurniture", slot0.data.id, slot1)
 end
 
-function slot0.OnDragEnd(slot0, slot1)
+slot0.OnDragEnd = function(slot0, slot1)
 	slot0:Emit("DragFurnitureEnd", slot0.data.id, slot1)
 end
 
-function slot0.OnPositionUpdate(slot0, slot1, slot2)
+slot0.OnPositionUpdate = function(slot0, slot1, slot2)
 	slot0:UpdatePosition(slot1, slot2)
 end
 
-function slot0.OnDirChange(slot0, slot1)
+slot0.OnDirChange = function(slot0, slot1)
 	slot0._tf.localScale = Vector3(slot1 == 1 and 1 or -1, 1, 1)
 end
 
-function slot0.OnWillInterAction(slot0, slot1)
+slot0.OnWillInterAction = function(slot0, slot1)
 	if slot0.isMultiMask then
 		for slot5, slot6 in pairs(slot0.masks) do
 			slot6:SetAsLastSibling()
@@ -163,7 +163,7 @@ function slot0.OnWillInterAction(slot0, slot1)
 	end
 end
 
-function slot0.OnStartInterAction(slot0, slot1)
+slot0.OnStartInterAction = function(slot0, slot1)
 	if slot1:GetUsingAnimator() then
 		setActive(slot0:GetAnimator(slot2.key), true)
 	end
@@ -183,7 +183,7 @@ function slot0.OnStartInterAction(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateInteraction(slot0, slot1)
+slot0.OnUpdateInteraction = function(slot0, slot1)
 	if slot0.animator then
 		slot0.animator:PlayInteractioAnim(slot1.action)
 	end
@@ -202,7 +202,7 @@ function slot0.OnUpdateInteraction(slot0, slot1)
 	end
 end
 
-function slot0.OnStopInterAction(slot0, slot1)
+slot0.OnStopInterAction = function(slot0, slot1)
 	if slot1:GetUsingAnimator() then
 		slot3 = slot0:GetAnimator(slot2.key)
 		slot3.localScale = Vector3.one
@@ -223,11 +223,11 @@ function slot0.OnStopInterAction(slot0, slot1)
 	end
 end
 
-function slot0.OnAnimtionFinish(slot0, slot1)
+slot0.OnAnimtionFinish = function(slot0, slot1)
 	slot0:Emit("FurnitureAnimtionFinish", slot0.data.id, slot1)
 end
 
-function slot0.OnStateChange(slot0, slot1)
+slot0.OnStateChange = function(slot0, slot1)
 	if slot1 == CourtYardFurniture.STATE_PLAY_MUSIC then
 		slot0:AddMusicEffect()
 	elseif slot1 == CourtYardFurniture.STATE_IDLE then
@@ -239,31 +239,31 @@ function slot0.OnStateChange(slot0, slot1)
 	end
 end
 
-function slot0.AddMusicEffect(slot0)
+slot0.AddMusicEffect = function(slot0)
 	if slot0.data:GetMusicData() and slot1.effect then
 		slot0.effectAgent:EnableEffect(slot1.effect)
 	end
 end
 
-function slot0.StopMusicEffect(slot0)
+slot0.StopMusicEffect = function(slot0)
 	if slot0.data:GetMusicData() and slot1.effect then
 		slot0.effectAgent:DisableEffect(slot1.effect)
 	end
 end
 
-function slot0.OnMove(slot0, slot1)
+slot0.OnMove = function(slot0, slot1)
 	slot2 = CourtYardCalcUtil.Map2Local(slot1)
 
 	LeanTween.moveLocal(slot0._go, CourtYardCalcUtil.TrPosition2LocalPos(slot0:GetParentTF(), slot0._tf.parent, Vector3(slot2.x, slot2.y, 0)), slot0.data:GetMoveTime())
 end
 
-function slot0.OnStopMove(slot0)
+slot0.OnStopMove = function(slot0)
 	if LeanTween.isTweening(slot0._go) then
 		LeanTween.cancel(slot0._go)
 	end
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	uv0.super.OnDispose(slot0)
 
 	if not IsNil(slot0.model) then
@@ -309,7 +309,7 @@ function slot0.OnDispose(slot0)
 	Object.Destroy(slot0._tf:GetComponent(typeof(Button)))
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveListener(CourtYardEvent.FURNITURE_POSITION_CHANGE, slot0.OnPositionUpdate)
 	slot0:GetView().poolMgr:GetFurniturePool():Enqueue(slot0._go)
 end

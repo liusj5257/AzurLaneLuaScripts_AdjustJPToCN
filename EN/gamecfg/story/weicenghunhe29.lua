@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE29",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_6",
-			bgm = "hunhe-battle",
 			say = "Canal Stronghold? - Out at sea?",
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_6",
+			dir = 1,
 			say = "As the mist began to recede, Intrepid could be seen fiercely fighting back wave after wave of Siren forces.",
 			typewriter = {
 				speed = 0.05,
@@ -36,9 +36,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_6",
+			dir = 1,
 			say = "Although the enemies had increased their firepower, the carriers which had been suppressed by the heavy mist once again took control of the skies.",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bunker Hill",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Essex",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Essex",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Intrepid",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Essex",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Essex",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Intrepid",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Essex",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bunker Hill",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bunker Hill",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Intrepid",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bunker Hill",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -242,8 +242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Intrepid",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Intrepid",
+			side = 2,
 			bgName = "bg_banama_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -276,15 +276,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 107110,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "Oh, in case anyone hasn't noticed, the mist has gradually been thinning out.",
 			bgm = "hunhe-eagle",
+			actor = 107110,
+			nameColor = "#a9f548",
+			say = "Oh, in case anyone hasn't noticed, the mist has gradually been thinning out.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -301,9 +301,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Bunker Hill, were you able to get a good look at the mist density from the air? Pretty good view up there!",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "If the mist was generated from a single point, the density should not change significantly even if the mist is thinning out.",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "That's right! Basically, this will let us know where to search!",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "All right. Next up is figuring out how to approach the enemy flagship.",
 			typewriter = {
 				speed = 0.05,
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 107170,
 			dir = 1,
+			hideOther = true,
 			actorName = "Bunker Hill&Essex",
 			say = "We don't have time to worry about that, so let's get going!",
 			subActors = {
@@ -448,9 +448,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Ehhhhh?!",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -475,8 +475,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "...Haha, good grief, I guess that's just part of what makes us the Essex class.",
 			typewriter = {
 				speed = 0.05,
@@ -490,11 +490,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "All right, my recon planes! Take us to the enemy core flagship!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

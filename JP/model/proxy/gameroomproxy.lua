@@ -3,7 +3,7 @@ slot0.coin_res_id = 11
 slot0.ticket_res_id = 12
 slot0.ticket_remind = false
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.data = {}
 	slot0.rooms = {}
 
@@ -25,7 +25,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.getRoomScore(slot0, slot1)
+slot0.getRoomScore = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.rooms) do
 		if slot6.roomId == slot1 then
 			return slot6.maxScore
@@ -35,7 +35,7 @@ function slot0.getRoomScore(slot0, slot1)
 	return 0
 end
 
-function slot0.storeGameScore(slot0, slot1, slot2)
+slot0.storeGameScore = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.rooms) do
 		if slot7.roomId == slot1 and slot7.maxScore < slot2 then
 			slot7.maxScore = slot2
@@ -50,31 +50,31 @@ function slot0.storeGameScore(slot0, slot1, slot2)
 	})
 end
 
-function slot0.getCoin(slot0)
+slot0.getCoin = function(slot0)
 	return getProxy(PlayerProxy):getRawData():getResource(uv0.coin_res_id)
 end
 
-function slot0.getTicket(slot0)
+slot0.getTicket = function(slot0)
 	return getProxy(PlayerProxy):getRawData():getResource(uv0.ticket_res_id)
 end
 
-function slot0.getMonthlyTicket(slot0)
+slot0.getMonthlyTicket = function(slot0)
 	return slot0.monthlyTicket
 end
 
-function slot0.setMonthlyTicket(slot0, slot1)
+slot0.setMonthlyTicket = function(slot0, slot1)
 	slot0.monthlyTicket = slot0.monthlyTicket + slot1
 end
 
-function slot0.lastMonthlyTicket(slot0)
+slot0.lastMonthlyTicket = function(slot0)
 	return pg.gameset.game_ticket_month.key_value - slot0.monthlyTicket < 0 and 0 or slot1
 end
 
-function slot0.lastTicketMax(slot0)
+slot0.lastTicketMax = function(slot0)
 	return pg.gameset.game_room_remax.key_value - slot0:getTicket() < 0 and 0 or slot1
 end
 
-function slot0.ticketMaxTip(slot0)
+slot0.ticketMaxTip = function(slot0)
 	if slot0:lastMonthlyTicket() <= 200 then
 		return i18n("game_ticket_max_month")
 	elseif slot0:lastTicketMax() <= 200 then
@@ -84,31 +84,31 @@ function slot0.ticketMaxTip(slot0)
 	return nil
 end
 
-function slot0.getFirstEnter(slot0)
+slot0.getFirstEnter = function(slot0)
 	return slot0.firstEnter == 0
 end
 
-function slot0.getPayCoinCount(slot0)
+slot0.getPayCoinCount = function(slot0)
 	return slot0.payCoinCount
 end
 
-function slot0.setPayCoinCount(slot0, slot1)
+slot0.setPayCoinCount = function(slot0, slot1)
 	slot0.payCoinCount = slot0.payCoinCount + slot1
 end
 
-function slot0.setFirstEnter(slot0)
+slot0.setFirstEnter = function(slot0)
 	slot0.firstEnter = 1
 end
 
-function slot0.getWeekly(slot0)
+slot0.getWeekly = function(slot0)
 	return slot0.weekly == 0
 end
 
-function slot0.setWeekly(slot0)
+slot0.setWeekly = function(slot0)
 	slot0.weekly = 1
 end
 
-function slot0.getTip(slot0)
+slot0.getTip = function(slot0)
 	if slot0.firstEnter == 0 then
 		return true
 	end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uniquely \"Me\"\n\n<size=45>6 Partners Through Thick and Thin</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "At the social party between the Royal Navy and Iris Libre...",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "At the social party between the Royal Navy and Iris Libre...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "I am perfectly fine, but Edinburgh... seems to be as nervous as the day she first started her duties as the secretary ship.",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Edinburgh seems to have been bottling something inside...",
 			typewriter = {
 				speed = 0.05,
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "I urge her to speak her mind, trying to convince her by saying that she'll feel better afterwards.",
 			typewriter = {
 				speed = 0.05,
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "I nod without hesitation in response to each of her questions with a dead-serious expression on my face.",
 			typewriter = {
 				speed = 0.05,
@@ -266,9 +266,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Edinburgh still seems ridiculously nervous... but at least I see some hope of breaking through to her.",
 			typewriter = {
 				speed = 0.05,
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "As the music begins to flow, the two of us take our first steps together.",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_107",
+			side = 2,
+			dir = 1,
 			say = "The dance ends, and applause bursts from all over the venue.",
 			flashout = {
 				dur = 0.5,
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 201290,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201290,
+			nameColor = "#a9f548",
 			say = "I knew it! That was so amazing! The two of you were shining so brightly together on that stage!",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

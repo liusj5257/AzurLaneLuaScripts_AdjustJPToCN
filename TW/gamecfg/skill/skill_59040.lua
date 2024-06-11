@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 59040,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 59040,
 	effect_list = {
 		{
 			target_choise = "TargetSelf",

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "未能抵达的承诺",
 	cd = 0,
+	picture = "0",
+	desc = "未能抵达的承诺",
 	painting = 0,
 	id = 6410,
-	picture = "0",
 	castCV = "",
-	desc = "未能抵达的承诺",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 6412
 			}

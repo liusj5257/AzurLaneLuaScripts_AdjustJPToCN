@@ -2,16 +2,16 @@ return {
 	last_effect_bound_bone = "lamp",
 	name = "探照灯",
 	init_effect = "",
+	id = 9700,
+	last_effect_cld_scale = true,
+	picture = "",
+	last_effect_cld_angle = true,
 	desc = "",
 	time = 0,
-	picture = "",
-	color = "yellow",
-	last_effect_cld_angle = true,
-	last_effect = "suligao_tanzhaodeng_stg",
 	stack = 1,
-	id = 9700,
+	color = "yellow",
 	icon = 9700,
-	last_effect_cld_scale = true,
+	last_effect = "suligao_tanzhaodeng_stg",
 	effect_list = {
 		{
 			type = "BattleBuffAura",
@@ -34,8 +34,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "aimBiasDecaySpeedRatio",
-				number = 1
+				number = 1,
+				attr = "aimBiasDecaySpeedRatio"
 			}
 		},
 		{

@@ -1,28 +1,28 @@
 slot0 = class("LevelRepairView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelRepairView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:InitUI()
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.onConfirm = nil
 	slot0.onCancel = nil
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.setCBFunc(slot0, slot1, slot2)
+slot0.setCBFunc = function(slot0, slot1, slot2)
 	slot0.onConfirm = slot1
 	slot0.onCancel = slot2
 end
 
-function slot0.InitUI(slot0)
+slot0.InitUI = function(slot0)
 	slot0.desc = slot0:findTF("window/desc")
 	slot0.descFree = slot0:findTF("window/text_free")
 	slot0.descCharge = slot0:findTF("window/text_charge")
@@ -35,7 +35,7 @@ function slot0.InitUI(slot0)
 	slot0.back = slot0:findTF("top/btnBack")
 end
 
-function slot0.set(slot0, slot1, slot2, slot3, slot4)
+slot0.set = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.repairTimes = slot1
 	slot0.freeTimes = slot2
 	slot0.chargeTimes = slot3

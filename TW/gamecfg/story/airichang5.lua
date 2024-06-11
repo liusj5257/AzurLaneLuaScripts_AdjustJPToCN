@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」日常編\n\n<size=45>五 早安，午安，晚安</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "傍晚·演习海域",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "傍晚·演习海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_battle_night",
-			dir = 1,
 			say = "（咚！）",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 10400020,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 10400020,
 			actorName = "绊爱",
 			say = "这都多亏了的大家的热心指导！谢谢妳们！",
 			typewriter = {
@@ -196,15 +196,15 @@ return {
 			}
 		},
 		{
-			say = "港区·重樱宿舍",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港区·重樱宿舍",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -232,8 +232,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "呼～今天也好累呀～明天也要训练、任务、和动画投稿…好，明天也要加油！",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "说得也是，差不多该睡觉了。拜拜～！\nZzzzzzzzzzzz",
 			typewriter = {
@@ -313,15 +313,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_battle_night",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
+			bgName = "bg_battle_night",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "怎么办，从演习海域返航的路上迷路了…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -355,8 +355,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "！？那是塞壬的舰队！？而且不止什么时候包围上来了！？",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "这、这点小事就害怕可不行！让妳们见识一下和大家一起训练的成果吧！嘿呀啊啊啊————！！！",
 			typewriter = {
@@ -388,14 +388,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_battle_night",
 			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "哈啊……哈……总算…赢了……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -423,8 +423,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "！？糟了！后面还有——",
 			typewriter = {
@@ -437,9 +437,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "（咚！）",
 			flashN = {
 				color = {
@@ -483,11 +483,11 @@ return {
 			}
 		},
 		{
-			actor = 403038,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 403038,
 			actorName = "{namecode:428}酱",
 			say = "果然还是不能没有我们呢。爱，没事吧？",
 			typewriter = {
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 201120,
 			actorName = "运运",
 			say = "我们来了就可以放心了哟><><",
 			typewriter = {
@@ -520,8 +520,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "是绊爱舰队的各位！？谢谢～！不过，为什么妳们会在这里！？",
 			typewriter = {
@@ -534,11 +534,11 @@ return {
 			}
 		},
 		{
-			actor = 303118,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 303118,
 			actorName = "{namecode:66}酱",
 			say = "这个姑且不说，妳是不是也该来看看我们了呢？",
 			typewriter = {
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 403038,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 403038,
 			actorName = "{namecode:428}酱",
 			say = "已经等了妳好久了哦？",
 			typewriter = {
@@ -568,11 +568,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 201120,
 			actorName = "运运",
 			say = "命运应该还会让我们再相遇的对吧？",
 			typewriter = {
@@ -585,11 +585,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			nameColor = "#a9f548",
-			bgName = "bg_battle_night",
 			side = 2,
+			bgName = "bg_battle_night",
 			dir = 1,
+			actor = 307050,
 			actorName = "{namecode:95}酱",
 			say = "呵呵呵，让我们等太久的话，就要对妳做点恶作剧了哦？",
 			typewriter = {
@@ -623,8 +623,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "诶？诶诶诶诶诶！？",
 			typewriter = {
@@ -637,8 +637,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -647,13 +647,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "——起来",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -684,8 +684,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "——起来了",
 			typewriter = {
@@ -698,11 +698,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "该起来了——！",
 			effects = {
 				{
@@ -723,10 +723,10 @@ return {
 			actor = 301120,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "爱小姐从刚才就一直在喊着奇怪的名字哦？“{namecode:428}酱～！”“{namecode:95}酱～！”之类的",
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "爱小姐从刚才就一直在喊着奇怪的名字哦？“{namecode:428}酱～！”“{namecode:95}酱～！”之类的",
 			effects = {
 				{
 					active = false,
@@ -778,8 +778,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "诶，这么说来……",
 			typewriter = {

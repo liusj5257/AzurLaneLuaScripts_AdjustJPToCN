@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "最初の「事件」から数日経ち、饅頭温泉街がすっかりとバカンスモードに戻った。",
 			bgm = "map-longgong",
+			say = "最初の「事件」から数日経ち、饅頭温泉街がすっかりとバカンスモードに戻った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "夜に開催される「演劇」は、すでに毎日の一大好評イベントになっている。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "そして、バカンス中のある日――「神隠し事件」の調査報告が部屋の扉に差し込まれてきた。",
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "黒幕のねこ",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「饅頭温泉街」「妖怪一座」そして「神隠し」……ぐへへへ、今回も大儲け…にゃ♪",
 			painting = {
@@ -177,17 +177,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

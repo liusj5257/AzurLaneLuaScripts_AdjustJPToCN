@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA41",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DIEHAIMENGHUA41",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			say = "重桜本島・某所",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 1,
 			bgm = "bsm-2",
+			say = "重桜本島・某所",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,9 +51,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "テスター",
 			say = "うふふ、こんな場所に呼び出すとは、随分と用心深いようね。そんなにこちらと話しているのをバラされたくないの？",
 			typewriter = {
@@ -85,9 +85,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "テスター",
 			say = "あなたがそれについて何も聞いてくれなかったもの",
 			typewriter = {
@@ -103,9 +103,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "テスター",
 			say = "それになにが不満なの？鉄血と取引して無事欲しいものを手に入れたし、信濃も目覚めたし、いいこと尽くめじゃない",
 			typewriter = {
@@ -137,9 +137,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "テスター",
 			say = "悲しいわ。あなたのカミへの信心はその程度だなんて",
 			typewriter = {
@@ -203,9 +203,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "テスター",
 			say = "随分と酷なことを～私たちはただ、あの「楔」がどこまで利用できるか調べたかっただけなの。観測出来ない個体が、どこまで私たちの演算を上回れるか…ね",
 			typewriter = {
@@ -221,9 +221,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "テスター",
 			say = "まあいいわ。あの子のことは放っておいてあげる。テスターの一件は、機能プログラムの予期せぬエラーだと思ってちょうだい",
 			typewriter = {
@@ -239,9 +239,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "テスター",
 			say = "…あら、どうやらお客さんが来たようね。先に失礼するわ。元気でね、赤城",
 			typewriter = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff5c5c",
 			say = "……セイレーン、重桜の領域をまるで我が家のように土足で踏み込んで…",
 			dialogShake = {
 				speed = 0.09,

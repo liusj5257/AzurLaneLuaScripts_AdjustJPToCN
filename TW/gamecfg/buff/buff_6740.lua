@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "开拓者勋章",
 	time = 0,
-	color = "yellow",
+	name = "开拓者勋章",
+	init_effect = "",
+	id = 6740,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6740,
+	color = "yellow",
 	icon = 6740,
 	last_effect = "",
 	effect_list = {}

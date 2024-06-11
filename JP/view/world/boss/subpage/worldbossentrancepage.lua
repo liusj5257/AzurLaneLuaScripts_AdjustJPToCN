@@ -1,14 +1,14 @@
 slot0 = class("WorldBossEntrancePage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldBossEntranceUI"
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.proxy = slot1
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.currentTr = slot0:findTF("current")
 	slot0.pastTr = slot0:findTF("past")
 	slot0.currTimeTxt = slot0.currentTr:Find("time"):GetComponent(typeof(Text))
@@ -39,7 +39,7 @@ function slot0.OnLoaded(slot0)
 	}
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(BaseUI.ON_BACK)
 	end, SFX_CANCEL)
@@ -75,13 +75,13 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:UpdateCurrent()
 	slot0:UpdatePast()
 	slot0:Show()
 end
 
-function slot0.UpdateCurrent(slot0)
+slot0.UpdateCurrent = function(slot0)
 	slot0:ClearTimer()
 
 	slot1 = nil
@@ -104,7 +104,7 @@ function slot0.UpdateCurrent(slot0)
 	slot0.currProgressTxt.text = WorldBossConst.GetCurrBossItemProgress() .. "/" .. slot4
 end
 
-function slot0.UpdatePast(slot0)
+slot0.UpdatePast = function(slot0)
 	slot1, slot2, slot3 = WorldBossConst.GetAchieveBossConsume()
 	slot0.pastProgressTxt.text = WorldBossConst.GetAchieveBossItemProgress() .. "/" .. slot3
 	slot5 = WorldBossConst.GetSummonPtOldAcc()
@@ -138,7 +138,7 @@ function slot0.UpdatePast(slot0)
 	end
 end
 
-function slot0.ClearTimer(slot0)
+slot0.ClearTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -146,7 +146,7 @@ function slot0.ClearTimer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:ClearTimer()
 end
 

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "天运拟合BOSS单位减伤",
 	time = 0,
-	color = "yellow",
+	name = "天运拟合BOSS单位减伤",
+	init_effect = "",
+	id = 8532,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
-	id = 8532,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "Darkness",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.5
+				number = -0.5,
+				attr = "injureRatioByAir"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.5
+				number = -0.5,
+				attr = "injureRatioByCannon"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.5
+				number = -0.5,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

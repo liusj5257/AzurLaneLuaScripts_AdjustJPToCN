@@ -1,12 +1,12 @@
 return {
-	id = "W2026",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2026",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "區域被封鎖，艦隊無法繼續前進了……",
 			typewriter = {
 				speed = 0.05,

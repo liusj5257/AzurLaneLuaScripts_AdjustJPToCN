@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 50,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 800167,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800167,
+	color = "red",
 	icon = 800160,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		},
 		{

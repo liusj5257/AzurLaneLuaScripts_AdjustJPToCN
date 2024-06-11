@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "中飞联动一阶段小飞机死亡后赋予母舰武器",
 	cd = 0,
-	icon = 8752,
-	id = 8752,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	id = 8752,
+	icon = 8752,
 	effect_list = {
 		{
 			target_choise = "TargetShipTag",

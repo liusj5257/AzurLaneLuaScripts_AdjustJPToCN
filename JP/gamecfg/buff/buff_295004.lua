@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 克莱蒙梭",
 	time = 5,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 克莱蒙梭",
+	init_effect = "",
+	id = 295004,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 295004,
+	color = "yellow",
 	icon = 295004,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				skill_id = 295004
 			}
 		}

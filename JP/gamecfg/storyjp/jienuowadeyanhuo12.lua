@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO12",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "直接の対峙を避け、量産艦や魚雷を使った牽制に回ったアルジェリーとフォッシュは、リットリオの射程からどんどん遠ざかっていく。",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-italy",
+			say = "直接の対峙を避け、量産艦や魚雷を使った牽制に回ったアルジェリーとフォッシュは、リットリオの射程からどんどん遠ざかっていく。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -35,8 +35,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "ふふ、上手く見破ってくれたようだね",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "量産艦でもいいけど、このリットリオを説得するにはあとひと押し、と……っ！",
 			typewriter = {
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "水平線から高速で飛んできた「刃」を、リットリオは咄嗟に捕まえた。",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "それは、アイリスの装飾が精巧に施されたダガーだった。",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "これは……確かにフォッシュが持っていたものね",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "しかし、これはせめてこちらに一太刀でも浴びせようとする意志の現れか、",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "それとも旅立ちの餞別か…いや、サディアへのお土産か……",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -169,9 +169,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "ダガーを手にし、リットリオはフォッシュの行動の真意を自分の思考とシンクロさせる。",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "たかが「再現」の作戦で、命をかける必要はないと思うから、苦し紛れの反撃でもないな",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "……となると、これはもしかして…",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "そうか。プレゼントは量産艦だけではないといったところか",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "ふふ、全くヴィシアにも気の利くやつがいるとは",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "これを持ち帰って報告すれば、ヴィシアの艦船との交戦記録として絶好の物証になる",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "……さて、もうこんな時間だし、ヴェネトのやつに心配される前に帰るとするか",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "上層部の「配役」は今回の戦いでは終わらないだろうけど",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "……武運を祈るよ。ヴィシアの騎士たち",
 			typewriter = {
@@ -319,15 +319,15 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "bg_renaya",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 903010,
+			nameColor = "#a9f548",
 			say = "リットリオは…追ってきていないね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -355,8 +355,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "ふぅ…正直さっきは怖かった…まさかリットリオと戦うことになるなんて",
 			typewriter = {
@@ -401,9 +401,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "フォッシュは抜き身がなくなった鞘を取り出し、アルジェリーに見せた。",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "にしてもすごいわね。あんな距離からでも上手く投げれるなんて",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "外したらどうしようってヒヤヒヤしてたけどね",
 			typewriter = {
@@ -452,8 +452,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "今はリットリオの光栄なる戦利品になってるのかな？",
 			typewriter = {
@@ -469,8 +469,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "それに対してこっちの戦利品は新聞紙に載る記事一つさ。ははは",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -496,8 +496,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "ふふふ、そうね",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "ただあのダガー、本当は特注品でしょ？本当にそのままあげちゃってもよかったの？",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "ちょっともったいないけど、これで無事に帰してくれるなら安いものさ",
 			typewriter = {
@@ -547,8 +547,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "じゃあいつかは返してもらおうってことでいい？",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "もうそこまで考えてるの？アルジェリー",
 			typewriter = {
@@ -597,8 +597,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "どうかな…とにかく今は無事にヴィシアまで戻るのが先さ",
 			typewriter = {
@@ -611,8 +611,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -624,8 +624,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "リットリオからあのダガーを「奪い返す」のは、あとで考えるとしよう",
 			typewriter = {
@@ -641,8 +641,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "ええ、じゃあ約束よ。護教騎士アルジェリーの名誉に懸けて、フォッシュの持ち物を元の持ち主に返す、と",
 			typewriter = {
@@ -658,8 +658,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "そ、そこまで真剣に…？！",
 			typewriter = {
@@ -672,8 +672,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -701,8 +701,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "なんなら今度の猫カフェ巡りはアルジェリーが奢るってことでもいいよ？",
 			typewriter = {
@@ -718,8 +718,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "ふふふ、じゃあそうさせてもらうわ。猫カフェの会計一つでチャラ、ってね",
 			typewriter = {
@@ -735,8 +735,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "あーちょっと待って、それだけだとちょっとこっちが損な気がする…",
 			typewriter = {
@@ -749,8 +749,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -762,8 +762,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "じゃあやっぱり護教騎士として誓いを立てましょうか？",
 			typewriter = {
@@ -779,8 +779,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "それはやり過ぎだよ！",
 			typewriter = {
@@ -793,8 +793,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -803,11 +803,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_renaya",
-			actorName = "二人",
 			dir = 1,
+			actorName = "二人",
 			say = "ふふ、あはははははは",
 			dialogShake = {
 				speed = 0.08,
@@ -824,8 +824,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「我らが旗が掲げられる戦場は勝利なり」</size>",
@@ -846,8 +846,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

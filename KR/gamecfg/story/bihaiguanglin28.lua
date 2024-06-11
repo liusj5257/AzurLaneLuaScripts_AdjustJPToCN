@@ -1,17 +1,17 @@
 return {
-	id = "BIHAIGUANGLIN28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN28",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
+			bgm = "battle-longgong",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
 			say = "펑————————!",
-			dir = 1,
-			bgm = "battle-longgong",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "기관의 힘을 사용한다면 조금 더 수월할지도 몰라요.",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "최종 결전이니 네 개를 전부 다 쓰죠!",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 		{
 			actor = 301290,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "시간이 없어요. 시마카제의 속도라면 최단 시간에 기관 네 개를 전부 열 수 있을 거예요. 맡겨주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "하지만...",
 			typewriter = {
 				speed = 0.05,
@@ -187,10 +187,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 301290,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "고맙습니다, 프린츠 오이겐공! 완전 이해했어요. 안심하고 기관은 저에게 맡겨주세요!",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 301290,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네, 알겠어요!",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

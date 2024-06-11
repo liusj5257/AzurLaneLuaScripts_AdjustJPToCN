@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "메탈 블러드 부도 요새·E2 부도-휴식 구역",
 			side = 2,
 			bgName = "bg_guild_red_n",
 			dir = 1,
 			bgm = "bsm-5",
+			say = "메탈 블러드 부도 요새·E2 부도-휴식 구역",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(이번 일을 계기로 비행정 기지를 바꾸고 싶지만, 하지만 실용성을 생각하면 포기할 수밖에 없지 않을까...)",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(실용성 있는 비행정 계획... 실용성 있는 비행정 계획... 음? 시간이 거의 됐군.)",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_guild_red_n",
 			side = 0,
+			bgName = "bg_guild_red_n",
+			hideOther = true,
 			dir = 1,
 			actor = 406010,
 			actorName = "베저&Z46",
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "부도 공항 기능이 업그레이드됐어. 오늘부터 더 강도 높은 공중전 훈련을 하게 될 거야.",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "각자 장비 상황을 점검한 뒤, 3시간 후 B3 부도 P011 항구에 집합하도록.",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "생각났다. 자칭 「하인리히식 특훈」 말하는 거지? 사실 노는 시간과 별반 다를 게 없지만...",
 			typewriter = {
@@ -272,13 +272,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			side = 2,
+			dir = 1,
 			say = "메탈 블러드 부도 요새·F구역-훈련 해역",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "하, 합! 장갑함 돌격~!",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,9 +329,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "부도 사이 F구역이라 명명된 훈련 해역에서 한 소녀가 부표 사이를 빠르게 질주하고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			say = "펑————————!",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "함포가 큰 소리와 함께 완벽한 곡선을 그리며 연습용 부표에 명중했다.",
 			typewriter = {
 				speed = 0.05,
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "예~! 완벽히 명중! 잘 했어, 아이젠!",
 			typewriter = {
 				speed = 0.05,
@@ -441,8 +441,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -454,8 +454,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(비행시간을 제외하면... 음, 합격.)",
 			typewriter = {
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "오오~!! 왔다, 부표 완전 잔뜩 등장!",
 			typewriter = {
 				speed = 0.05,
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -561,8 +561,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "하지만! 볼 때마다 너무 멋진걸. 페터는 그렇게 생각 안 해?",
 			typewriter = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "멋있다는 얘기지~ 고마워, 페터. 다음은 저쪽 부표!",
 			typewriter = {
 				speed = 0.05,
@@ -607,8 +607,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -620,8 +620,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(이런, 또 저 페이스에 말려버렸어...)",
 			typewriter = {
@@ -637,8 +637,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "하인리히, 오늘 훈련에 대해서———",
 			typewriter = {
@@ -670,8 +670,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(......좀 더 강경책을 써야겠어——)",
 			typewriter = {
@@ -687,11 +687,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "P급 장갑함 하인리히, 전탄 발사——— 으악, 아파!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,8 +702,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -712,11 +712,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/plane",
+			say = "펑 하는 소리와 함께 함재기의 훈련용 포탄이 조준 중인 프린츠 하인리히의 머리에 명중했다.",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
-			say = "펑 하는 소리와 함께 함재기의 훈련용 포탄이 조준 중인 프린츠 하인리히의 머리에 명중했다.",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,8 +730,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "아, 페터! 왜 갑자기 공격하는 건데!",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -754,9 +754,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "페터 슈트라서는 말없이 시계를 가리켰다.",
 			typewriter = {
 				speed = 0.05,
@@ -803,8 +803,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "으악, 망했다. 얼른 준비해야 해! 고마워, 페터!",
 			typewriter = {
@@ -820,9 +820,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
 			blackBg = true,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "B3섬 P011 항구에서 113분 이후... 윽......",
 			typewriter = {

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.061
+					number = 0.061,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.072
+					number = 0.072,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.083
+					number = 0.083,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.094
+					number = 0.094,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.105
+					number = 0.105,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.116
+					number = 0.116,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.127
+					number = 0.127,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.138
+					number = 0.138,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_IMASE",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_IMASE"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 107123,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 107123,
+	color = "red",
 	icon = 107120,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_IMASE",
-				number = 0.05
+				number = 0.05,
+				attr = "DMG_TAG_EHC_IMASE"
 			}
 		}
 	}

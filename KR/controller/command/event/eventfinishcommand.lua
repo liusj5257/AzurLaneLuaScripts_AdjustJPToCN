@@ -1,6 +1,6 @@
 slot0 = class("EventFinishCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
 	slot5 = slot2.onConfirm
@@ -52,7 +52,7 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.OnFinish(slot0, slot1, slot2)
+slot0.OnFinish = function(slot0, slot1, slot2)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("event_finish_success"))
 
 	slot3 = getProxy(EventProxy)

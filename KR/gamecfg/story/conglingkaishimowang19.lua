@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "문서에 기록된 술식에 따라 일행은 '영야의 어둠'을 해제하고 동방 거점에 발을 들였다.",
 			bgm = "story-oldcastle-carnival",
+			say = "문서에 기록된 술식에 따라 일행은 '영야의 어둠'을 해제하고 동방 거점에 발을 들였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "이곳에 주둔하던 흡혈귀들은 거점 방어 술식이 해제될 것이라고는 전혀 생각하지 못한 듯, 별다른 저항도 없이 쉽게 제압당했다.",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 문지기",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "……그렇군.",
 			painting = {
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 문지기",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "……벌써 그렇게 세월이 흘렀다고?",
 			painting = {
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 문지기",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "우선은 서방 거점으로 가봐.",
 			painting = {
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 문지기",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "호기심이 생겨서 냉큼 만나 줄지도 몰라.",
 			painting = {

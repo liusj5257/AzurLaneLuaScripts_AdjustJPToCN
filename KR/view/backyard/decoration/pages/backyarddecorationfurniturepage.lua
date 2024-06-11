@@ -1,7 +1,7 @@
 slot0 = class("BackYardDecorationFurniturePage", import(".BackYardDecorationBasePage"))
 slot0.SELECTED_FURNITRUE = "BackYardDecorationFurniturePage:SELECTED_FURNITRUE"
 
-function slot1(slot0)
+slot1 = function(slot0)
 	if not uv0.PageTypeList then
 		uv0.PageTypeList = {
 			0,
@@ -19,11 +19,11 @@ function slot1(slot0)
 	return uv0.PageTypeList[slot0]
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardDecorationFurniturePage"
 end
 
-function slot0.OnFurnitureUpdated(slot0, slot1)
+slot0.OnFurnitureUpdated = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.furniture:getConfig("id") == slot1:getConfig("id") then
 			slot7, slot8 = slot0:GetPutCntByConfigId(slot0.dorm, slot1:getConfig("id"))
@@ -33,7 +33,7 @@ function slot0.OnFurnitureUpdated(slot0, slot1)
 	end
 end
 
-function slot0.GetPutCntByConfigId(slot0, slot1, slot2)
+slot0.GetPutCntByConfigId = function(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = {}
 
@@ -57,13 +57,13 @@ function slot0.GetPutCntByConfigId(slot0, slot1, slot2)
 	return slot3, slot5
 end
 
-function slot0.OnDisplayList(slot0)
+slot0.OnDisplayList = function(slot0)
 	slot0.displays = slot0:GetDisplays()
 
 	slot0:SortDisplays()
 end
 
-function slot0.SortDisplays(slot0)
+slot0.SortDisplays = function(slot0)
 	if not slot0.contextData.filterPanel:GetLoaded() then
 		slot1 = {}
 
@@ -98,15 +98,15 @@ function slot0.SortDisplays(slot0)
 	slot0:OnFilterDone(slot0.contextData.filterPanel:GetFilterData())
 end
 
-function slot0.OnOrderModeUpdated(slot0)
+slot0.OnOrderModeUpdated = function(slot0)
 	slot0:SortDisplays()
 end
 
-function slot0.change2ScrPos(slot0, slot1)
+slot0.change2ScrPos = function(slot0, slot1)
 	return LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, GameObject.Find("UICamera"):GetComponent("Camera"))
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0:bind(BackYardDecorationPutlistPage.SELECTED_FURNITRUE, function ()
 		uv0:ClearMark()
 	end)
@@ -117,7 +117,7 @@ function slot0.OnLoaded(slot0)
 	slot1 = slot0._tf
 	slot0.scrollRect = slot1:GetComponent("LScrollRect")
 
-	function slot1()
+	slot1 = function()
 		if uv0.timer then
 			uv0.timer:Stop()
 
@@ -125,13 +125,13 @@ function slot0.OnLoaded(slot0)
 		end
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		uv0.timer = Timer.New(slot0, 0.8, 1)
 
 		uv0.timer:Start()
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		slot1 = uv0.change2ScrPos(uv1._tf:Find("content"), slot0.position)
 		slot2 = nil
 
@@ -198,7 +198,7 @@ function slot0.OnLoaded(slot0)
 	end)
 end
 
-function slot0.ClearMark(slot0)
+slot0.ClearMark = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:UpdateMark(-1)
 	end
@@ -206,7 +206,7 @@ function slot0.ClearMark(slot0)
 	slot0.selectedId = nil
 end
 
-function slot0.Selected(slot0, slot1)
+slot0.Selected = function(slot0, slot1)
 	slot0:ClearMark()
 
 	for slot5, slot6 in pairs(slot0.cards) do
@@ -218,11 +218,11 @@ function slot0.Selected(slot0, slot1)
 	slot0.selectedId = slot1
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot0.cards[slot1] = BackYardDecorationCard.New(slot1)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -239,7 +239,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:PlayEnterAnimation()
 end
 
-function slot0.GetDisplays(slot0)
+slot0.GetDisplays = function(slot0)
 	slot1 = {}
 	slot2 = slot0.dorm:GetPurchasedFurnitures()
 	slot5 = ipairs
@@ -254,13 +254,13 @@ function slot0.GetDisplays(slot0)
 	return slot1
 end
 
-function slot0.OnFilterDone(slot0, slot1)
+slot0.OnFilterDone = function(slot0, slot1)
 	slot0.displays = slot1
 
 	slot0:SetTotalCount()
 end
 
-function slot0.SetTotalCount(slot0)
+slot0.SetTotalCount = function(slot0)
 	if not slot0.searchKey or slot0.searchKey == "" then
 		slot0.lastDiaplys = slot0.displays
 	else
@@ -276,11 +276,11 @@ function slot0.SetTotalCount(slot0)
 	slot0.scrollRect:SetTotalCount(#slot0.lastDiaplys)
 end
 
-function slot0.OnSearchKeyChanged(slot0)
+slot0.OnSearchKeyChanged = function(slot0)
 	slot0:SetTotalCount()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 

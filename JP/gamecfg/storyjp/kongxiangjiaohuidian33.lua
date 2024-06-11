@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN33",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			stopbgm = true,
-			say = "鉄血艦隊浮島要塞・AIエリア",
 			bgmDelay = 2,
 			bgm = "story-midgard",
+			stopbgm = true,
+			say = "鉄血艦隊浮島要塞・AIエリア",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,12 +28,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これで一段落ついたわね",
 			painting = {
 				alpha = 0.3,
@@ -48,10 +48,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ふぅ。女王陛下のほうは無事トラブルを解決したのかしら",
 			painting = {
 				alpha = 0.3,
@@ -66,10 +66,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "念のため連絡してみるか",
 			painting = {
 				alpha = 0.3,
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "通信チャンネルを開いた。",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "通話の要請を送信したものの、帰ってきたのはノイズだった。",
 			typewriter = {
@@ -104,10 +104,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………？",
 			painting = {
 				alpha = 0.3,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "不審に思い、ビスマルクはさらに鉄血本土と世界博覧会にいる仲間に連絡を試みた。",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "しかし、帰ってきたのはエリザベスへの連絡同様、ノイズでしかなかった。",
 			typewriter = {
@@ -142,10 +142,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "鏡面海域の通信ジャミングがまだ解除されていないだけ…？それにしてはおかしい……",
 			painting = {
 				alpha = 0.3,
@@ -160,10 +160,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ビスマルク、こっちの検査が終わったわ",
 			painting = {
 				alpha = 0.3,
@@ -178,10 +178,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……仲間たちの様子は？",
 			painting = {
 				alpha = 0.3,
@@ -215,10 +215,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………それ以外の異常は？",
 			painting = {
 				alpha = 0.3,
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "引き続きモニタリングを頼む",
 			painting = {
 				alpha = 0.3,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "執務室の窓から外を眺める。鏡面海域中心部にある「ミッドガルドの塔」が放つ光はだんだん暗くなってきた。",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "ここに戻ってすぐ「扉」を閉じ施設を閉鎖した。",
 			typewriter = {
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "異変の影響はこれで消えてなくなるはず。なのに…",
 			painting = {
 				alpha = 0.3,
@@ -344,10 +344,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やはり「ミッドガルドの塔」を破壊すべき、か",
 			painting = {
 				alpha = 0.3,
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "完全に沈黙した巨大施設群を見つめながら、利害思考を巡らす。",
 			typewriter = {
@@ -369,12 +369,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -389,10 +389,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ウルリッヒ、聞こえる？",
 			painting = {
 				alpha = 0.3,
@@ -423,12 +423,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「ミッドガルドの塔」の点検は終わった？",
 			painting = {
 				alpha = 0.3,
@@ -500,11 +500,11 @@ return {
 			paintingNoise = true,
 			side = 0,
 			bgName = "bg_fuxiangxian_3",
-			hideOther = true,
-			dir = 1,
-			actorName = "2人",
 			actor = 405030,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			hideOther = true,
+			actorName = "2人",
 			say = "ビスマルク―― ウルリッヒ――",
 			subActors = {
 				{
@@ -528,10 +528,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ。どうやら同じことを言いたいようね",
 			painting = {
 				alpha = 0.3,
@@ -565,10 +565,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……そうね",
 			painting = {
 				alpha = 0.3,
@@ -583,10 +583,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「ミッドガルドの塔」の役目はもう終わった。もし今フリードリヒがいれば、同じ決断を下すだろう",
 			painting = {
 				alpha = 0.3,
@@ -601,10 +601,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…最後に「ミッドガルドの塔」のログをダウンロードしよう。",
 			painting = {
 				alpha = 0.3,
@@ -619,10 +619,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そして中の全てのプロジェクトの資料をコピーして、オリジナルを「塔」ごと処分する",
 			painting = {
 				alpha = 0.3,

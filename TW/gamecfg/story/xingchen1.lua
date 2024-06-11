@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 2,
+			blackBg = true,
 			say = "某一天，港區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			nameColor = "#a9f548",
 			say = "不知道指揮官…哥哥找獨角獸有什麼事…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -92,13 +92,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 2,
-			withoutPainting = true,
 			say = "幾分鐘後，港區指揮室",
+			mode = 2,
+			blackBg = true,
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,8 +128,8 @@ return {
 			nameColor = "#a9f548",
 			say = "獨角獸…報到…找獨角獸有什麼事情嗎？哥哥？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -154,16 +154,16 @@ return {
 			}
 		},
 		{
-			actor = 105030,
 			side = 0,
 			bgName = "bg_story_star0",
-			mode = 3,
 			bgspeed = 2,
 			blackBg = true,
+			actor = 105030,
+			mode = 3,
 			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -189,8 +189,8 @@ return {
 			nameColor = "#a9f548",
 			say = "這個是……？票？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -231,9 +231,9 @@ return {
 		{
 			actor = 0,
 			nameColor = "#a9f548",
+			say = "（……）",
 			side = 2,
 			withoutPainting = true,
-			say = "（……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

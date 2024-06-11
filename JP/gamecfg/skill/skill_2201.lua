@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "比洛克西通用技能",
 	cd = 0,
+	picture = "0",
+	desc = "127",
 	painting = 1,
 	id = 2201,
-	picture = "0",
 	castCV = "skill",
-	desc = "127",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 2200
 			}

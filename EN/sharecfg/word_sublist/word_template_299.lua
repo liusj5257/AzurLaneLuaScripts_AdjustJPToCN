@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_299 = {}
 slot1 = slot0.word_template_299
 
-function temp()
+temp = function()
 	uv0["襲"] = {
 		["近"] = {
 			["平"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["洗"] = {
 		["不"] = {
 			["洗"] = {
@@ -160,7 +160,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["喜"] = {
 		["多"] = {
 			["村"] = {
@@ -355,7 +355,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["系"] = {
 		["统"] = {
 			this = true,
@@ -398,7 +398,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["细"] = {
 		["川"] = {
 			["百"] = {
@@ -439,7 +439,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["郤"] = {
 		this = {
 			this = true
@@ -449,7 +449,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["餼"] = {
 		this = {
 			this = true

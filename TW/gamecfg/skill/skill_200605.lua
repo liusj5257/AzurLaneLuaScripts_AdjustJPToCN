@@ -1,9 +1,9 @@
 return {
-	focus_duration = 1,
-	name = "2023云仙活动 剧情战 云仙蓄力斩",
 	cd = 0,
-	id = 200605,
+	name = "2023云仙活动 剧情战 云仙蓄力斩",
+	focus_duration = 1,
 	cutin_cover = "yunxian",
+	id = 200605,
 	painting = 0,
 	effect_list = {
 		{

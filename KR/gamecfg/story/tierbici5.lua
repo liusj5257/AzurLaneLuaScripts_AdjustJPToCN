@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"녹아내리는 얼음\n\n<size=45>제5장 - 모두의 비서함</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			bgName = "bg_story_task",
-			say = "모항 - 지휘실",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			say = "모항 - 지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,9 +47,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "티르피츠는 여느 때와 같이 효율적으로 비서함의 업무를 처리 중이다.",
 			typewriter = {
 				speed = 0.05,
@@ -73,9 +73,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "('똑똑똑', 노크 소리가 들렸다.)",
 			typewriter = {
 				speed = 0.05,
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			say = "고마워.",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "고마워.",
+			actor = 405020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#92fc63",
 			say = "이 분포도에 따라, 앞으로의 순찰 항로를 조정해야 겠……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,9 +168,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(똑똑똑)",
 			typewriter = {
 				speed = 0.05,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "어머, 잠깐 실례할게 티르피츠. 저번엔 도와줘서 고마웠어.",
 			typewriter = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "이건 최신형 공기 정화기야, 업무 효율 상승은 물론 건강까지 챙기라는 뜻에서…여기 두고 갈게.",
 			typewriter = {
@@ -212,12 +212,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			say = "응, 고마워.",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "응, 고마워.",
+			actor = 405020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "난 과학연구부에 일이 마저 남아서…그럼 먼저 갈게.",
 			typewriter = {
@@ -249,15 +249,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#92fc63",
 			say = "순찰 항로는 전부 정리되었고, 그다음은 인원 배치를……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(똑똑똑)",
 			typewriter = {
 				speed = 0.05,
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			say = "응, 괜찮아, 거기 두면 돼.",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "응, 괜찮아, 거기 두면 돼.",
+			actor = 405020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -360,15 +360,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#92fc63",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "티르피츠는 아마 아직 자신이 함대 내에서 얼마나 환영받고 있는 존재인지 잘 모르는 것 같다.",
 			typewriter = {
 				speed = 0.05,

@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "ユニオンの艦隊を率いて、北方連合の中継基地にたどり着いた。",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "まさかのアヴローラさん！北方連合は結構本気みたいだね…",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "で、あなたが指揮官ね～なるほど～うんうん",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "さてはNYシティでセイレーンに散々奇襲されてたちょっと可哀想な指揮官かな～",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "まあ今回は安心していいわよ。あのセイレーン要塞、近づかない限り何もしてこないから",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "大丈夫！だからこうして共同作戦を開始したんじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102100,
 			dir = 1,
+			actor = 102100,
 			say = "ポートランドたち先行調査隊の言う通りいい風景ね～ちょっと寒いけど",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "フェニックスとデンバーたち、もう撤収したの？",
 			typewriter = {
 				speed = 0.05,
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "先遣艦隊のことか。",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "北方連合の参加艦船はお二人だけ…？",
 			typewriter = {
 				speed = 0.05,

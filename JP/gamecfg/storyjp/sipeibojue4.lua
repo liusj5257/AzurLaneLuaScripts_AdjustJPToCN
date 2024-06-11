@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「なんでもわかってくれる人」</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"小さな出来事\n\n<size=45>四　仲間、そして……</size>",
@@ -39,15 +39,15 @@ return {
 			}
 		},
 		{
-			say = "母港",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			say = "オイゲンちゃ…こ、コホン。オイゲンはここで何をしてるの？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "オイゲンちゃ…こ、コホン。オイゲンはここで何をしてるの？",
+			actor = 403050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#a9f548",
 			say = "「やりたいこと」…指揮官の言ってたこと、オイゲンにも聞いたほうがいいかも…？",
 			typewriter = {
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 403030,
 			stopbgm = true,
 			say = "「特にやりたいことはない。みんなと一緒にいさせてくれれば十分」……ね？",
 			typewriter = {
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#a9f548",
 			say = "！！",
 			dialogShake = {
 				speed = 0.09,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#a9f548",
 			say = "まさに考えていることを、オイゲンが言葉に出してくれた。",
 			typewriter = {
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そんなの顔を見たらわかるわよ？",
 			bgm = "story-2",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "そんなの顔を見たらわかるわよ？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,11 +391,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403050,
 			nameColor = "#a9f548",
 			say = "やりたいことが…わからなくなる……",
 			typewriter = {
@@ -456,15 +456,15 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "ふふ、なんか初々しいわね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -505,12 +505,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "私の時と同じように……ね？",
 			typewriter = {
 				speed = 0.05,

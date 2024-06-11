@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2020偶像二期EX 对雷暴AT立场",
 	init_effect = "",
+	name = "2020偶像二期EX 对雷暴AT立场",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 8748,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -14,8 +14,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.8
+				number = -0.8,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		},
 		{
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 6,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -62,9 +62,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 6,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -98,9 +98,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 6,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -134,9 +134,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 6,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -170,9 +170,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 6,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{

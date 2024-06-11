@@ -2,16 +2,16 @@ return {
 	uiEffect = "",
 	name = "固定6点",
 	cd = 0,
+	picture = "0",
+	desc = "固定6点",
 	painting = 0,
 	id = 15990,
-	picture = "0",
 	castCV = "",
-	desc = "固定6点",
 	effect_list = {
 		{
-			type = "BattleSkillDamage",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillDamage",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipTag"
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipTag"

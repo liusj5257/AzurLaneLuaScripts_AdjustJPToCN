@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YONGYEHUANGUANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_guild_blue",
-			say = "ロイヤル本島・作戦開始より数日前",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			nameColor = "#a9f548",
+			say = "ロイヤル本島・作戦開始より数日前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "――北方連合の戦況は以上だ。概ね彼女たちからの報告通りだが、ロイヤルの意見を聞きたい",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "氷山要塞を攻略してセイレーンもおとなしくなると思ったら暴れだした……",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "むむ、今までは彼女たちのおかげでどうにかセイレーンを北極圏内に抑え込めてたわけだし…",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "はい、北方連合が敗北した場合、セイレーンが北極圏から流れ出し、ユニオン側の大洋北部だけでなく、ロイヤル本島も脅かしかねない",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "そうはさせないわよ！",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "こちらも同じだ。つまり今回の北方連合への支援はロイヤル側も異議なし、という認識でいいだろうか",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そこはサラトガちゃんが説明するね！…情報によれば、バレンツ海に戦力を移動させているらしいから、そこを通るときは気をつけてね！",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "やっぱり極地航路を…",
 			typewriter = {
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "望むところよ！もし鉄血が出てくるなら、これを機に盛大に「歓迎」してやるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,8 +246,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "エリザベスちゃん、もしかして…？！",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "…コホン。では支援物資の件はそちらの提案通りに進めよう。それともう一つ、指揮官の状況だが",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "ああ、北方連合からこんな連絡があったのだが",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "空気を読んでないわね",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "ユニオンとしてはもちろん反対よ！支援物資が届けば戦況も改善するし、指揮官をいつまでもあんなさむ～いところに留める必要なんてないじゃない！",
 			typewriter = {
@@ -363,8 +363,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "ってなわけで、ユニオンSDシティ側の戦力で指揮官救出艦隊を編成して北方連合から奪還！ってのはどう？",
 			typewriter = {
@@ -380,8 +380,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "SDシティってたしか重桜側への対応もしているから、さすがにちょっと荷が重すぎないかしら？",
 			typewriter = {
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "それについてはもっといい案があるわ，輸送船団を送り届けたら、そのまま指揮官をロイヤル経由でユニオンに届ける、ってのはどう？",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -455,8 +455,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "それならこちらも問題ない",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "（あとでフッド様たちとも編成を相談しないと…んー…）",
 			typewriter = {
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>【武器及び物資の貸与に関する法案】</size>",
@@ -548,8 +548,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

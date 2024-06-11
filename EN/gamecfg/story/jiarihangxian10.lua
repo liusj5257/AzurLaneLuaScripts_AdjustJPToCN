@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_daozhong",
 			dir = 1,
 			say = "Tired of waiting, nya? It's time to commence the third round, nya!",
+			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "Our tag team is the strongest under the sun!",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600020,
 			dir = 1,
+			actor = 10600020,
 			say = "S-surely you jest?!",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "Geez, stop bothering Honoka... But you know, I'm super excited to get this show on the road! Let's have some fun, Maid Lady!",
 			typewriter = {
 				speed = 0.05,

@@ -5,7 +5,7 @@ slot2 = class("BattleCardPuzzleSkillAddFleetAttr", slot0.Battle.BattleCardPuzzle
 slot0.Battle.BattleCardPuzzleSkillAddFleetAttr = slot2
 slot2.__name = "BattleCardPuzzleSkillAddFleetAttr"
 
-function slot2.Ctor(slot0, slot1, slot2)
+slot2.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._attr = slot0._tempData.arg_list.attr
@@ -13,7 +13,7 @@ function slot2.Ctor(slot0, slot1, slot2)
 	slot0._enhance = slot0._tempData.arg_list.enhance_formula
 end
 
-function slot2.SkillEffectHandler(slot0, slot1)
+slot2.SkillEffectHandler = function(slot0, slot1)
 	slot2 = slot0._number
 
 	if slot0._enhance then

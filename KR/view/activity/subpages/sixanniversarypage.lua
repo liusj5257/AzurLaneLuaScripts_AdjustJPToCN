@@ -8,7 +8,7 @@ slot6 = SCENE.NEWYEAR_BACKHILL_2023
 slot7 = false
 slot8 = "sixth"
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.hideIndex = {}
 	slot0.scrollAble = uv0
 	slot1 = findTF(slot0._tf, "BtnList")
@@ -57,7 +57,7 @@ function slot0.OnInit(slot0)
 	slot0:findUI()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.paintBackTF = slot0:findTF("Paints/PaintBack")
 	slot0.paintFrontTF = slot0:findTF("Paints/PaintFront")
 	slot0.skinShopBtn = slot0:findTF("BtnShop")
@@ -89,7 +89,7 @@ function slot0.findUI(slot0)
 	slot0.gridLayoutGroupCom = GetComponent(slot0.btnContainer, "GridLayoutGroup")
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.displayDatas = slot0.activity:getConfig("config_client").display_link
 	slot1 = {}
 
@@ -131,7 +131,7 @@ function slot0.initData(slot0)
 	slot0.startAnchoredPosX = slot0.btnContainer.anchoredPosition.x
 end
 
-function slot0.switchNextPaint(slot0)
+slot0.switchNextPaint = function(slot0)
 	slot0.frameTimer:Stop()
 	setImageSprite(slot0.paintBackTF, nil or LoadSprite(slot0.paintPathPrefix .. (slot0.paintNamePrefix .. uv0[slot0.curPaintIndex % slot0.paintCount + 1]), slot3))
 	LeanTween.value(go(slot0.paintFrontTF), 1, 0, slot0.paintSwitchTime):setOnUpdate(System.Action_float(function (slot0)
@@ -148,7 +148,7 @@ function slot0.switchNextPaint(slot0)
 	end))
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0:initData()
 	onButton(slot0, slot0.skinShopBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
@@ -160,7 +160,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:initTimer()
 end
 
-function slot0.initPaint(slot0)
+slot0.initPaint = function(slot0)
 	slot2 = (slot0.curPaintIndex - 1) % slot0.paintCount + 1
 	slot3 = slot0.paintNamePrefix .. uv0[slot2]
 
@@ -171,13 +171,13 @@ function slot0.initPaint(slot0)
 	setImageSprite(slot0.paintBackTF, LoadSprite(slot0.paintPathPrefix .. slot3, slot3))
 end
 
-function slot0.initBtnList(slot0, slot1)
+slot0.initBtnList = function(slot0, slot1)
 	for slot5 = 1, #slot1 do
 		slot0:initBtnEvent(slot1[slot5], slot5)
 	end
 end
 
-function slot0.initBtnEvent(slot0, slot1, slot2)
+slot0.initBtnEvent = function(slot0, slot1, slot2)
 	if slot2 == 1 then
 		onButton(slot0, slot1, function ()
 			uv0:emit(ActivityMediator.GO_PRAY_POOL)
@@ -203,7 +203,7 @@ function slot0.initBtnEvent(slot0, slot1, slot2)
 	end
 end
 
-function slot0.initTimer(slot0)
+slot0.initTimer = function(slot0)
 	slot0.paintStaticCountValue = 0
 	slot0.frameTimer = Timer.New(function ()
 		uv0.paintStaticCountValue = uv0.paintStaticCountValue + uv1
@@ -230,7 +230,7 @@ function slot0.initTimer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if LeanTween.isTweening(go(slot0.paintFrontTF)) then
 		LeanTween.cancel(go(slot0.paintFrontTF))
 	end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平穏を讃えて\n\n<size=45>三　昼休み</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "昼食を食べた後、ニューカッスルに1時間休憩するよう指示したが……いつの間にかどこかに消えてしまった。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "昼食を食べた後、ニューカッスルに1時間休憩するよう指示したが……いつの間にかどこかに消えてしまった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "別に休憩時間が終わったわけではないが、どんな感じで休んでいるのか気になるから、少し探してみるか。",
 			typewriter = {
 				speed = 0.05,
@@ -62,15 +62,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Question？ニューカッスルさんがどこだって？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,14 +113,14 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 203040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "あ、あれ？あの雲さんは……って、サボってません！サボってませんってば！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,15 +161,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "いいえ、見ておりません。…申し訳ございません",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,15 +194,15 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "ニューカッスルさん？シェフィと一緒じゃないとなると、多分一人で本を読んでいるんですよ！",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,13 +259,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "ロイヤル寮の裏にある空き地で、風になびいている真っ白なシーツに隠れた彼女の姿を発見した。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "物干しのとなりに置かれている椅子に座っている、いつもと変わらぬメイド服姿の彼女。太ももの上に半分開いた小さめの本。眠そうな表情。",
 			typewriter = {
 				speed = 0.05,

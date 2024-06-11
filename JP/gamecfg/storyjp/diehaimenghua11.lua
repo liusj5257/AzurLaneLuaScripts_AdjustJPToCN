@@ -1,15 +1,15 @@
 return {
-	id = "DIEHAIMENGHUA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "DIEHAIMENGHUA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "目覚めたばかりにも関わらず、砲撃の方角へと急行する。",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "（……「余燼」と名乗った、あの子……）",
 			typewriter = {
 				speed = 0.05,
@@ -53,13 +53,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 306090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……し、信濃さん！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "（樫野に、千歳、そして千代田…妾の観た祭儀には、この子たちの姿はなかった……）",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "（カケラが連なる、と申すか……？）",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 306090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "せっかく現れたセイレーンを全部倒したというのに、わけのわからないやつがいっぱい出てきた",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			say = "セイレーンの新兵器？みたいけど、いつものとちょっと違う雰囲気だし…",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			say = "ほかの仲間はその迎撃に集中しているけど、敵のほうが多勢で…",
 			typewriter = {
 				speed = 0.05,
@@ -232,8 +232,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "敵の狙いが『ワタツミ』かもしれないから、早く安全な場所まで運び出したほうがいいって三笠大先輩から指示されました",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "そこで私が運搬担当で、千歳と千代田が護衛担当、です",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "「…敵は妾が引きつける…【ワタツミ】をどうか…」",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "は、はい！がんばります！",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +310,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 306080,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "信濃さん、お一人では……",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "「……ええ」",
 			typewriter = {
 				speed = 0.05,

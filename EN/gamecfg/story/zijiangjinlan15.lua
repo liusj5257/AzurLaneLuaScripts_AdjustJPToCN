@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
+			bgm = "battle-againstfate",
 			stopbgm = true,
 			say = "Exercise Area - Turn 4 (Akagi's Action)",
-			bgm = "battle-againstfate",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "Ugh... I lost another mass-produced ship... At this rate, I'm going to be forced to retire from the game...",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg9",
 			say = "Before Yamashiro could make sense of what she was seeing, Akagi had already crushed the Siren vessel.",
 			typewriter = {
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
 			say = "Burning petals swirled around her body, the only remaining traces of the Siren that had once been there.",
 			effects = {
 				{
@@ -187,8 +187,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "I was going to fall asleep if I had to spend another minute in that cramped room. Just needed a little change in scenery.",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "Akagi, what did you just do to that Compiler...",
 			painting = {
@@ -237,8 +237,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "I changed the characteristics of my attack, as you can see from these lycoris flowers here, allowing my flames to penetrate the vessel's weak points.",
 			painting = {
@@ -302,8 +302,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "Understood. We trust your judgment, Akagi.",
 			painting = {
@@ -319,8 +319,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "That's fine, but your own safety comes first. The same goes for Jintsuu and the others.",
 			painting = {
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Yamashiro, you will be needed to secure a more important objective.",
 			painting = {
@@ -433,8 +433,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Hold on. I'm not done talking yet.",
 			painting = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Mikasa has already formed a perimeter through the southern side of the board. If we allow her forces to join up with Nagato's, we're as good as done.",
 			painting = {
@@ -480,13 +480,13 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			nameColor = "#A9F548FF",
+			side = 0,
 			bgName = "bg_wuzang_bg9",
-			hidePaintObj = true,
+			actor = 302130,
 			hideOther = true,
 			actorName = "{namecode:39}&{namecode:5}",
-			side = 0,
+			hidePaintObj = true,
 			say = "Understood!",
 			subActors = {
 				{
@@ -538,8 +538,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "That area is where most of the action is going to be, but with your durability, I'm sure you'll be fine. If anything, I'm sure Akagi chose to send you specifically because you're the best fit for the task.",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "Surprisingly, the two of you seem to work together pretty well.",
 			painting = {
@@ -588,8 +588,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "Akagi, let me go to the central tower as well. In case something happens there, it'll be safer to have two people instead of one.",
 			painting = {
@@ -621,8 +621,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "We should be able to work with that... I'll allow it. Make sure you cover Yamashiro.",
 			painting = {
@@ -638,8 +638,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "Understood, Akagi.",
 			painting = {

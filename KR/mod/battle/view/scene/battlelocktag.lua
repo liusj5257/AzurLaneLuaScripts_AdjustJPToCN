@@ -4,14 +4,14 @@ slot0.Battle.BattleLockTag = class("BattleLockTag")
 slot0.Battle.BattleLockTag.__name = "BattleLockTag"
 slot1 = slot0.Battle.BattleLockTag
 
-function slot1.Ctor(slot0, slot1, slot2)
+slot1.Ctor = function(slot0, slot1, slot2)
 	slot0._markGO = slot1
 	slot0._markTF = slot1.transform
 	slot0._controller = slot0._markTF:GetComponent("LockTag")
 	slot0._flag = true
 end
 
-function slot1.Mark(slot0, slot1)
+slot1.Mark = function(slot0, slot1)
 	slot0._markTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0._requiredTime = slot1
 
@@ -20,7 +20,7 @@ function slot1.Mark(slot0, slot1)
 	slot0._controller.enabled = true
 end
 
-function slot1.Update(slot0, slot1)
+slot1.Update = function(slot0, slot1)
 	if (slot1 - slot0._markTime) / slot0._requiredTime >= 1 and slot0._flag then
 		slot0._controller:SetRate(1)
 
@@ -32,14 +32,14 @@ function slot1.Update(slot0, slot1)
 	end
 end
 
-function slot1.SetPosition(slot0, slot1)
+slot1.SetPosition = function(slot0, slot1)
 	slot0._markTF.position = slot1
 end
 
-function slot1.SetTagCount(slot0, slot1)
+slot1.SetTagCount = function(slot0, slot1)
 	slot0._controller.count = slot1
 end
 
-function slot1.Dispose(slot0)
+slot1.Dispose = function(slot0)
 	Object.Destroy(slot0._markGO)
 end

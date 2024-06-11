@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 60101,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60101,
+	color = "red",
 	icon = 60100,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.05
+				number = 0.05,
+				attr = "dodgeRateExtra"
 			}
 		}
 	}

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG30",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 206060,
-			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "片付いたわね。戦いにくかった…",
 			bgm = "bgm-royalnavy",
+			actor = 206060,
+			nameColor = "#a9f548",
+			say = "片付いたわね。戦いにくかった…",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "北方連合がこんなセイレーンとばかり戦っているのならピンチも分かるわね…人形の指揮個体がいなくてもあんな戦闘力だし",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "そうね。もし敵が全部こんな感じだったら…うっ、考えないでおくわ",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "ヴァンパイアさん、シェフィ、ここは急いで護衛艦隊と合流しましょう",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "なら決まりね。ほら、シェフィも早く！",
 			typewriter = {
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "（「再現」を狙っているとしたら……）",
 			typewriter = {
 				speed = 0.05,

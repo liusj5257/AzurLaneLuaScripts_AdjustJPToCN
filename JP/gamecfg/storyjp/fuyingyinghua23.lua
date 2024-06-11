@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA23",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "あんたがセイレーンの言ってた「余燼」か！よくも仮式場を破壊してくれたわね！",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "謎の艦船は無言のまま、五航戦姉妹に振り向いた。",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "拙者が誰かは重要ではない。それと、目的は２つだ",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "ひとつはお前たちの見た通り、オブザーバーにあの石を奪わせないことだ。もう一つは……",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "そう…あの忌々しい…",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "――【ワタツミ】を破壊することだ",
 			typewriter = {
 				speed = 0.05,

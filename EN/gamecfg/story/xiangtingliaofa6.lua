@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "airRaidAlarm",
 			say = "Eagle Union - NY City Coastal Waters",
+			side = 2,
+			dir = 1,
+			bgm = "airRaidAlarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,12 +21,12 @@ return {
 			}
 		},
 		{
-			actor = 102070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "H-how is this happening... on our own soil...?",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 102070,
+			nameColor = "#a9f548",
+			say = "H-how is this happening... on our own soil...?",
 			flashN = {
 				color = {
 					1,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -102,8 +102,8 @@ return {
 			actor = 102230,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "So this is where you were.",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "Don't fret. Our defenses are still holding strong. The Sirens won't be able to break through so easily.",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "It happens to all of us. Nobody expected the Sirens to launch a full-scale assault here.",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "I also wish Cleveland was... No, I can't always stay in her shadows.",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -350,8 +350,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "How's that? Calmed down yet?",
 			typewriter = {
 				speed = 0.05,

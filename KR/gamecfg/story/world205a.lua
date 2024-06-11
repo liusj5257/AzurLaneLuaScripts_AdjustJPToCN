@@ -1,15 +1,15 @@
 return {
-	id = "WORLD205A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD205A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA 해역 핵심 구역 외곽·두 번째 전초 기지 작업 해역",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,12 +20,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "여러분, 여기예요! 조금 더 가까이 다가가면, 보세요————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202110,
+			nameColor = "#a9f548",
+			say = "여러분, 여기예요! 조금 더 가까이 다가가면, 보세요————",
 			flashN = {
 				color = {
 					1,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "에든버러가 아무런 이상이 없어 보이는 해수면을 향해 포격을 날렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -101,12 +101,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "이것뿐만이 아니에요. 같은 각도에서 다시 한번 똑같이 쏴볼게요. 보세요————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202110,
+			nameColor = "#a9f548",
+			say = "이것뿐만이 아니에요. 같은 각도에서 다시 한번 똑같이 쏴볼게요. 보세요————",
 			flashN = {
 				color = {
 					1,
@@ -216,9 +216,9 @@ return {
 		{
 			expression = 14,
 			side = 2,
+			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "그러니까 이번에는 정말 논 거 아니에요! 이런 이상 현상이 있다면 부유 도크의 많은 기능이 정상적으로 작동할 수 없어요. 건설 작업도 완료할 수 없고요.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			expression = 9,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			say = "그렇다면... 역시... 다시 들어가 봐야 하나요...?",
 			typewriter = {
 				speed = 0.05,

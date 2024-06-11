@@ -1,10 +1,10 @@
 slot0 = class("NewNavalTacticsSelLessonPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewNavalTacticsLessonPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.skillPanel = slot0:findTF("skill")
 	slot0.cancelBtn = slot0:findTF("cancel_btn")
 	slot0.confirmBtn = slot0:findTF("confirm_btn")
@@ -28,7 +28,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.cancelBtn:Find("Image"), i18n("tactics_class_cancel"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Cancel()
 		uv0:Hide()
@@ -51,11 +51,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetHideCallback(slot0, slot1)
+slot0.SetHideCallback = function(slot0, slot1)
 	slot0.hideCallback = slot1
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot0.canBack = defaultValue(slot2, true)
@@ -73,11 +73,11 @@ function slot0.Show(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Cancel(slot0)
+slot0.Cancel = function(slot0)
 	slot0:emit(NewNavalTacticsMediator.ON_CANCEL_ADD_STUDENT)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 
@@ -88,14 +88,14 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot1 = slot0.student
 	slot2 = getProxy(BayProxy):RawGetShipById(slot1.shipId)
 
 	slot0:UpdateLessons(slot1:getSkillId(slot2), slot2)
 end
 
-function slot0.GetLessons(slot0)
+slot0.GetLessons = function(slot0)
 	slot1 = getProxy(BagProxy)
 	slot1 = slot1:getItemsByType(Item.LESSON_TYPE)
 
@@ -110,7 +110,7 @@ function slot0.GetLessons(slot0)
 	return slot1
 end
 
-function slot0.UpdateLessons(slot0, slot1, slot2)
+slot0.UpdateLessons = function(slot0, slot1, slot2)
 	for slot7 = 1, #slot0:GetLessons() do
 		if not slot0.itemTpls[slot7] then
 			slot9 = slot0.itemTpls[1]
@@ -131,7 +131,7 @@ function slot0.UpdateLessons(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateLesson(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateLesson = function(slot0, slot1, slot2, slot3, slot4)
 	updateItem(slot1, Item.New({
 		id = slot2.id,
 		count = slot2.count
@@ -160,7 +160,7 @@ function slot0.UpdateLesson(slot0, slot1, slot2, slot3, slot4)
 	setText(slot1:Find("addition"), slot7 == 100 and "" or "EXP" .. slot7 .. "%")
 end
 
-function slot0.UpdatePosition(slot0, slot1, slot2)
+slot0.UpdatePosition = function(slot0, slot1, slot2)
 	slot3 = math.ceil(slot2 / slot0.cloumnCnt)
 
 	if slot2 % slot0.cloumnCnt == 0 then
@@ -170,7 +170,7 @@ function slot0.UpdatePosition(slot0, slot1, slot2)
 	slot1.anchoredPosition = Vector2(slot0.startPos.x + (slot4 - 1) * (slot1.sizeDelta.x + slot0.space.x), slot0.startPos.y - (slot3 - 1) * (slot1.sizeDelta.y + slot0.space.y))
 end
 
-function slot0.UpdateLessonDesc(slot0, slot1, slot2, slot3)
+slot0.UpdateLessonDesc = function(slot0, slot1, slot2, slot3)
 	slot4 = Item.getConfigData(slot1)
 	slot0.lessonNameTxt.text = slot4.name .. "   -"
 	slot0.lessonDescTxt.text = slot4.display
@@ -178,11 +178,11 @@ function slot0.UpdateLessonDesc(slot0, slot1, slot2, slot3)
 	slot0.lessonTimeTxt.text = pg.TimeMgr.GetInstance():DescCDTime(slot3)
 end
 
-function slot0.UpdateSkill(slot0, slot1, slot2, slot3)
+slot0.UpdateSkill = function(slot0, slot1, slot2, slot3)
 	slot0.skillCard:Update(ShipSkill.New(slot3.skills[slot1], slot3.id), slot2)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

@@ -1,6 +1,6 @@
 slot0 = class("GuildBossMissionFleet", import("...BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.fleet_id
 	slot0.userShips = {}
 	slot0.commanders = {}
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.userShips = {}
 	slot0.invaildShips = {}
 
@@ -41,7 +41,7 @@ function slot0.Flush(slot0, slot1)
 	slot0:UpdateCommander(slot3)
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	if slot0:IsMainFleet() then
 		return i18n("ship_formationUI_fleetName11")
 	else
@@ -49,11 +49,11 @@ function slot0.GetName(slot0)
 	end
 end
 
-function slot0.ExistMember(slot0, slot1)
+slot0.ExistMember = function(slot0, slot1)
 	return getProxy(GuildProxy):getRawData() and slot2:getMemberById(slot1)
 end
 
-function slot0.IsVaildShip(slot0, slot1)
+slot0.IsVaildShip = function(slot0, slot1)
 	return slot0:ExistMember(slot1.uid) and (function (slot0)
 		slot1 = getProxy(GuildProxy):getRawData()
 
@@ -67,7 +67,7 @@ function slot0.IsVaildShip(slot0, slot1)
 	end)(slot1)
 end
 
-function slot0.ExistInvailShips(slot0)
+slot0.ExistInvailShips = function(slot0)
 	if #slot0.invaildShips > 0 then
 		return true
 	end
@@ -81,7 +81,7 @@ function slot0.ExistInvailShips(slot0)
 	return false
 end
 
-function slot0.ClearInvaildShip(slot0)
+slot0.ClearInvaildShip = function(slot0)
 	slot0.invaildShips = {}
 
 	for slot4 = #slot0.userShips, 1, -1 do
@@ -91,7 +91,7 @@ function slot0.ClearInvaildShip(slot0)
 	end
 end
 
-function slot0.GetMyShipIds(slot0)
+slot0.GetMyShipIds = function(slot0)
 	slot1 = {}
 	slot2 = getProxy(PlayerProxy):getRawData().id
 
@@ -104,11 +104,11 @@ function slot0.GetMyShipIds(slot0)
 	return slot1
 end
 
-function slot0.GetShipIds(slot0)
+slot0.GetShipIds = function(slot0)
 	return slot0.userShips
 end
 
-function slot0.GetShips(slot0)
+slot0.GetShips = function(slot0)
 	slot1 = getProxy(PlayerProxy):getData()
 	slot2 = getProxy(GuildProxy):getData()
 	slot3 = getProxy(BayProxy)
@@ -139,7 +139,7 @@ function slot0.GetShips(slot0)
 	return slot4
 end
 
-function slot0.GetDownloadResShips(slot0)
+slot0.GetDownloadResShips = function(slot0)
 	slot1 = getProxy(PlayerProxy):getRawData()
 	slot3 = {}
 
@@ -152,7 +152,7 @@ function slot0.GetDownloadResShips(slot0)
 	return slot3
 end
 
-function slot0.GetTeamTypeShips(slot0, slot1)
+slot0.GetTeamTypeShips = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0:GetShips()) do
@@ -164,31 +164,31 @@ function slot0.GetTeamTypeShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.ExistSubShip(slot0)
+slot0.ExistSubShip = function(slot0)
 	return #slot0:GetTeamTypeShips(TeamType.Submarine) > 0
 end
 
-function slot0.RemoveAll(slot0)
+slot0.RemoveAll = function(slot0)
 	slot0.userShips = {}
 end
 
-function slot0.IsMainFleet(slot0)
+slot0.IsMainFleet = function(slot0)
 	return slot0.id == 1
 end
 
-function slot0.ExistUserShip(slot0, slot1)
+slot0.ExistUserShip = function(slot0, slot1)
 	return _.any(slot0.userShips, function (slot0)
 		return slot0.uid == uv0
 	end)
 end
 
-function slot0.ContainShip(slot0, slot1, slot2)
+slot0.ContainShip = function(slot0, slot1, slot2)
 	return _.any(slot0.userShips, function (slot0)
 		return slot0.uid == uv0 and slot0.id == uv1
 	end)
 end
 
-function slot0.RemoveUserShip(slot0, slot1, slot2)
+slot0.RemoveUserShip = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.userShips) do
 		if slot7.uid == slot1 and slot7.id == slot2 then
 			table.remove(slot0.userShips, slot6)
@@ -198,7 +198,7 @@ function slot0.RemoveUserShip(slot0, slot1, slot2)
 	end
 end
 
-function slot0.AddUserShip(slot0, slot1, slot2, slot3)
+slot0.AddUserShip = function(slot0, slot1, slot2, slot3)
 	if slot3 then
 		table.insert(slot0.userShips, slot3, {
 			uid = slot1,
@@ -212,7 +212,7 @@ function slot0.AddUserShip(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetOtherMemberShipCnt(slot0, slot1)
+slot0.GetOtherMemberShipCnt = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.userShips) do
@@ -224,7 +224,7 @@ function slot0.GetOtherMemberShipCnt(slot0, slot1)
 	return slot2
 end
 
-function slot0.ExistSameKindShip(slot0, slot1)
+slot0.ExistSameKindShip = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot0:GetShips()) do
 		if slot7.ship:isSameKind(slot1) then
 			return true
@@ -234,7 +234,7 @@ function slot0.ExistSameKindShip(slot0, slot1)
 	return false
 end
 
-function slot0.IsLegal(slot0)
+slot0.IsLegal = function(slot0)
 	slot2 = 0
 	slot3 = 0
 	slot4 = 0
@@ -283,8 +283,8 @@ function slot0.IsLegal(slot0)
 	end
 end
 
-function slot0.ResortShips(slot0, slot1)
-	function slot2(slot0)
+slot0.ResortShips = function(slot0, slot1)
+	slot2 = function(slot0)
 		slot1 = GuildAssaultFleet.GetVirtualId(slot0.uid, slot0.id)
 
 		for slot5, slot6 in ipairs(uv0) do
@@ -301,38 +301,38 @@ function slot0.ResortShips(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateCommander(slot0, slot1)
+slot0.UpdateCommander = function(slot0, slot1)
 	slot0.commanders = slot1
 	slot0.skills = {}
 
 	slot0:updateCommanderSkills()
 end
 
-function slot0.ClearCommanders(slot0)
+slot0.ClearCommanders = function(slot0)
 	for slot4, slot5 in pairs(slot0.commanders) do
 		slot0:RemoveCommander(slot4)
 	end
 end
 
-function slot0.getCommanders(slot0)
+slot0.getCommanders = function(slot0)
 	return slot0.commanders
 end
 
-function slot0.AddCommander(slot0, slot1, slot2)
+slot0.AddCommander = function(slot0, slot1, slot2)
 	slot0.commanders[slot1] = slot2
 	slot0.skills = {}
 
 	slot0:updateCommanderSkills()
 end
 
-function slot0.RemoveCommander(slot0, slot1)
+slot0.RemoveCommander = function(slot0, slot1)
 	slot0.commanders[slot1] = nil
 	slot0.skills = {}
 
 	slot0:updateCommanderSkills()
 end
 
-function slot0.GetCommanderPos(slot0, slot1)
+slot0.GetCommanderPos = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.commanders) do
 		if slot6.id == slot1 then
 			return slot5
@@ -342,7 +342,7 @@ function slot0.GetCommanderPos(slot0, slot1)
 	return false
 end
 
-function slot0.updateCommanderSkills(slot0)
+slot0.updateCommanderSkills = function(slot0)
 	slot1 = #slot0.skills
 
 	while slot1 > 0 do
@@ -362,13 +362,13 @@ function slot0.updateCommanderSkills(slot0)
 	end
 end
 
-function slot0.findSkills(slot0, slot1)
+slot0.findSkills = function(slot0, slot1)
 	return _.filter(slot0:getSkills(), function (slot0)
 		return slot0:GetType() == uv0
 	end)
 end
 
-function slot0.findCommanderBySkillId(slot0, slot1)
+slot0.findCommanderBySkillId = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
 		if _.any(slot7:getSkills(), function (slot0)
 			return _.any(slot0:getTacticSkill(), function (slot0)
@@ -380,11 +380,11 @@ function slot0.findCommanderBySkillId(slot0, slot1)
 	end
 end
 
-function slot0.getSkills(slot0)
+slot0.getSkills = function(slot0)
 	return slot0.skills or {}
 end
 
-function slot0.getFleetType(slot0)
+slot0.getFleetType = function(slot0)
 	if slot0.id == GuildBossMission.MAIN_FLEET_ID then
 		return FleetType.Normal
 	elseif slot0.id == GuildBossMission.SUB_FLEET_ID then
@@ -394,7 +394,7 @@ function slot0.getFleetType(slot0)
 	assert(false, slot0.id)
 end
 
-function slot0.BuildBattleBuffList(slot0)
+slot0.BuildBattleBuffList = function(slot0)
 	slot1 = {}
 	slot2, slot3 = FleetSkill.GuildBossTriggerSkill(slot0, FleetSkill.TypeBattleBuff)
 
@@ -445,7 +445,7 @@ function slot0.BuildBattleBuffList(slot0)
 	return slot1
 end
 
-function slot0.ExistCommander(slot0, slot1)
+slot0.ExistCommander = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
 		if slot7.id == slot1 then
 			return true
@@ -455,7 +455,7 @@ function slot0.ExistCommander(slot0, slot1)
 	return false
 end
 
-function slot0.ExistInvaildCommanders(slot0)
+slot0.ExistInvaildCommanders = function(slot0)
 	if #slot0.invaildCommanders > 0 then
 		return true
 	end
@@ -471,7 +471,7 @@ function slot0.ExistInvaildCommanders(slot0)
 	return false
 end
 
-function slot0.RemoveInvaildCommanders(slot0)
+slot0.RemoveInvaildCommanders = function(slot0)
 	slot2 = getProxy(CommanderProxy)
 
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
@@ -483,7 +483,7 @@ function slot0.RemoveInvaildCommanders(slot0)
 	slot0.invaildCommanders = {}
 end
 
-function slot0.getCommandersAddition(slot0)
+slot0.getCommandersAddition = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(CommanderConst.PROPERTIES) do
@@ -504,7 +504,7 @@ function slot0.getCommandersAddition(slot0)
 	return slot1
 end
 
-function slot0.getCommandersTalentDesc(slot0)
+slot0.getCommandersTalentDesc = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0:getCommanders()) do
@@ -524,7 +524,7 @@ function slot0.getCommandersTalentDesc(slot0)
 	return slot1
 end
 
-function slot0.ExistAnyCommander(slot0)
+slot0.ExistAnyCommander = function(slot0)
 	return table.getCount(slot0:getCommanders()) ~= 0
 end
 

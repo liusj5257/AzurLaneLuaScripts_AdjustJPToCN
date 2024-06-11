@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "이곳은 왕성, 인간들이 세운 왕국의 심장과도 같은 곳이다.",
 			bgm = "story-musicanniversary-gorgeous",
+			say = "이곳은 왕성, 인간들이 세운 왕국의 심장과도 같은 곳이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "밖에서 보면 높이 솟은 성벽에서는 장엄함이 느껴지고…",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "안으로 들어서면 넓은 대로와 사람들로 북적이는 분위기가 왕국의 번영을 보여주고 있다.",
 			typewriter = {
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "출발 전에 확인했는데… 설마 스마트폰을 가상 공간에서 이용 못할 줄은 몰랐어…!",
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "괜찮아, 걱정 마! 자, 패널을 열고 잘 봐! 스크린샷 기능이 있잖아?",
@@ -166,9 +166,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_178",
 			factiontag = "프리스트",
 			dir = 1,
+			bgName = "star_level_bg_178",
 			soundeffect = "event:/ui/kuaimen",
 			actor = 202341,
 			nameColor = "#A9F548FF",
@@ -183,17 +183,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아! 가기 전에 상업 지구에 먼저 들리자!",
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "다들 새로운 장비를 손에 넣고 싶지 않아?",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "일단 이번에는 내 제안대로 상업 지구부터… 어라?",
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "큰길에서 골목 쪽으로 진입이 안 되는데?!",
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "상업 지구로 이동하려던 푸슌은 보이지 않는 벽에 가로막혀 멈춰 섰다.",
 			typewriter = {
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"진행 중인 메인 퀘스트를 클리어한 후에 개방됩니다.\"",
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "오픈월드 아니었어?! 왜 여기 이동 제한이 있는 거야?!",
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -448,11 +448,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "강철 교회 정비사",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "보안 문제로 신성 교회와 강철 교회에는 낯선 사람들이 출입하지 못하도록 결계를 잔뜩 쳐둔 상태란다~",
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_178",
 			factiontag = "강철 교회 정비사",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "모험가라면… 역시 처음에는 왕궁이나 모험가 길드에 들르는 게 기본이겠지? 내 안내가 필요하니?",
@@ -554,27 +554,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
-			say = "왕궁, 알현실.",
 			bgm = "story-expo-lastday",
+			say = "왕궁, 알현실.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -600,11 +600,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "왕",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "꽤 재밌는 구성이로구나.",
 			painting = {
@@ -671,11 +671,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "왕",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "자금을 제공하여 무사히 퀘스트를 완수할 수 있도록 도와주마.",
 			painting = {
@@ -688,11 +688,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "폐하, 외람되지만 한 가지 질문이…",
@@ -724,11 +724,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아직 마왕을 본 적이 없는데… 어떻게 마왕을 판별하면 좋을까요?",
@@ -742,11 +742,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "혹시 그림이나 사진 같은 거 가지고 계세요?",
@@ -796,11 +796,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "왕",
 			dir = 1,
+			actor = 205050,
 			nameColor = "#A9F548FF",
 			say = "사실 마왕은 어떤 특수한 마법의 보호를 받고 있어, 평범한 방법으로는 얼굴을 인지할 수 없다.",
 			painting = {
@@ -903,27 +903,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
-			say = "알현실에 자흑색의 마법구가 솟아 올랐다.",
 			bgm = "theme-vichy-church",
+			say = "알현실에 자흑색의 마법구가 솟아 올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -931,8 +931,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "그리고 그 안에서는 희미하게 뿔과 꼬리를 가진 소녀의 모습이 보인다.",
 			typewriter = {
@@ -965,8 +965,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "바로 스킬을 발동했다.",
 			typewriter = {
@@ -975,8 +975,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "…하지만 패널에는 아무것도 나타나지 않았다.",
 			typewriter = {
@@ -985,8 +985,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "이상하게 생각하던 찰나, 갑자기 자흑색 마법구가 금방이라도 부서질 것처럼 맹렬하게 떨리기 시작했다.",
 			typewriter = {
@@ -1089,8 +1089,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "마법구에 비친 마왕의 모습이 움직임과 동시에, 형언할 수 없는 압박감이 알현실을 뒤덮었다.",
 			typewriter = {
@@ -1099,8 +1099,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "마치 마왕 본인이 이곳에 있기라도 한듯한 중압감이었다.",
 			typewriter = {
@@ -1203,8 +1203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1213,8 +1213,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "작열하는 빛에 포함된 막강한 힘이 방어막의 보호 속에서도 피부로 느껴졌다.",
 			typewriter = {
@@ -1222,17 +1222,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1240,8 +1240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "이윽고 빛은 사라졌고, 알현실에는 마법구도, 마왕의 그림자도 보이지 않았다.",
 			typewriter = {
@@ -1250,8 +1250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			say = "…아니, 알현실 자체가 통째로 사라졌다.",
 			typewriter = {
@@ -1310,11 +1310,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "크, 큰일이긴 해…!",
@@ -1328,11 +1328,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "퀘스트도 클리어했고, 보상도 받았으니…",
@@ -1346,11 +1346,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_502",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관! 리버풀! 유니콘! 어서 달려!",
@@ -1366,9 +1366,9 @@ return {
 		{
 			portrait = 205050,
 			side = 2,
-			bgName = "star_level_bg_502",
 			factiontag = "왕",
 			dir = 1,
+			bgName = "star_level_bg_502",
 			nameColor = "#FF9B93",
 			actorName = "킹 조지 5세",
 			say = "여봐라! 이 위험한 모험가 녀석들을 감옥에 처넣어라!",
@@ -1381,17 +1381,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

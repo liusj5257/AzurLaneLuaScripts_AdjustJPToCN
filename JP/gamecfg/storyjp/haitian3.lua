@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"いざ出発！閃きを求める旅へ\n\n<size=45>三 いざ、閃きを求める旅へ！</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "明石と尾張から買ったものを執務室に持ち帰り、一度床に広げて整理すると――",
 			bgm = "story-richang-6",
+			say = "明石と尾張から買ったものを執務室に持ち帰り、一度床に広げて整理すると――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えっと、切り株にしたり、獣に遭遇したりした時のことを考えるとやはり万全を期したほうが…",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そ、そうでした…！じゃあ斧は置いて…バールも…",
 			painting = {
 				alpha = 0.3,
@@ -95,27 +95,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "無線機、折りたたみ物干し、チェーンソーなど、当面使う予定のない商品を返品に出して…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "海天と閃きを求めるキャンプツアーに出た。",
@@ -134,28 +134,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_520",
+			bgm = "story-richang-5",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しばらくして、裏山の林間にて――",
-			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -166,10 +166,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふぅ…こういう森の澄んだ空気は、頭もすっきりしてきますね",
 			painting = {
 				alpha = 0.3,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "閃きはまだありませんが、体が軽くなった気がします",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "にこやかに話す海天。すると一匹のリスが木の幹から飛び降り、彼女の周りを一周してまた森の奥へ走り去っていった。",
@@ -224,10 +224,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いいんですか！ありがとうございます！",
 			painting = {
 				alpha = 0.3,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "海天と一緒にリスが消えた森の奥へ向かった。",
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "季節の花が咲く時期だからか、あちこちに草花が盛んに咲き誇っていて、目がそちらに行ってしまい足取りが遅くなった。",
@@ -264,10 +264,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さんはここの花に興味がありますか？これらの花については少々知っていますからよければ説明させてください",
 			painting = {
 				alpha = 0.3,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "尋ねてきた海天は期待に目を輝かせていて、明らかに聞かせたがっているようだ。",
@@ -361,10 +361,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "コ、コホン…もう指揮官さん、海天をからかって…",
 			painting = {
 				alpha = 0.3,
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "海天は頬を少し赤らめた。",
@@ -390,10 +390,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よくよく考えてみると、ただお花を紹介してもいささか趣が欠いてしまいます",
 			painting = {
 				alpha = 0.3,
@@ -408,10 +408,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうですね…指揮官さんは「飛花令」という遊びはご存知でしょうか？交互に詩を詠み、思いつかなくなったほうが負けで、罰ゲームを受けるルールです",
 			painting = {
 				alpha = 0.3,
@@ -450,10 +450,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふ。では海天から――「花萼（かがく）楼前、盛んなりし春」",
 			painting = {
 				alpha = 0.3,
@@ -506,13 +506,13 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "では続けますね",
 			painting = {
 				alpha = 0.3,
@@ -556,13 +556,13 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じー…はぁ…分かりました。今回は目を瞑って、続けますね",
 			painting = {
 				alpha = 0.3,
@@ -589,10 +589,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「月移りて、窓前翳りし花影（かえい）」",
 			painting = {
 				alpha = 0.3,
@@ -619,10 +619,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「雲のたなびきに衣を思ひ、花の盛りに容顔をしのぶ」",
 			painting = {
 				alpha = 0.3,
@@ -729,11 +729,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_520",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「舟に奏でらるる笙歌（しょうが）、岸辺を彩りし花々」",
 			painting = {
 				alpha = 0.3,
@@ -744,17 +744,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -777,10 +777,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ、どうやらこの勝負は海天の勝ちですね。なら…「花開き折るに堪えんとすれば直ちに折るべし、花無きを待ちて枝を空しく折るなかれ」",
 			painting = {
 				alpha = 0.3,
@@ -795,10 +795,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さん、花冠を一つ、作っていただけませんか？",
 			painting = {
 				alpha = 0.3,
@@ -822,8 +822,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "首を縦に振って、海天のリクエストに応えることにした。",
@@ -833,8 +833,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "枝や花を手に取り、頭に乗せられる大きさの円につなぎ合わせようと苦戦していると――",
@@ -844,8 +844,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "細く柔らかい手が自分の手を優しく取ると、精巧に作られた草の指輪をそっと手のひらに落とした。",
@@ -855,8 +855,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "その手の主はというと、頬が真っ赤に染まっているだけでなく、耳まで淡いピンク色に染まっていた。",
@@ -869,10 +869,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これはその…花冠のお返しです",
 			painting = {
 				alpha = 0.3,
@@ -884,8 +884,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			say = "少女の声はか細く、わずかに震えていた。",

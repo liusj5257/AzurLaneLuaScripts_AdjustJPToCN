@@ -1,6 +1,6 @@
 slot0 = class("PlayerAttire", import(".BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot2 = slot1.display or {}
 	slot0.icon = slot1.icon or slot2.icon
 	slot0.character = slot1.character or slot2.character

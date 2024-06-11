@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA46",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA46",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-fff",
 			dir = 1,
 			say = "Come to think of it, that \"Advisor\" person said something about being \"the ruler of time and space.\"",
+			bgm = "holo-fff",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,9 +39,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Shadow Eye Blizzard Fox... why does it feel like I've heard that before?",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "Surely you don't mean... No, there's no way...",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "I-I'm sure it's just the name of a card that the Master Detective person made up!",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "RUMBLE RUMBLE RUMBLE! MENACING NOISES!",
 			dialogShake = {
 				speed = 0.09,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "That's the Shadow Eye Blizzard Fox! ... It's the final boss!",
 			typewriter = {
 				speed = 0.05,
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actor = 900021,
+			actorName = "Purity",
 			say = "Is that thing Tester's trap card?!",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "Don't panic! We don't know if that thing's an enemy yet. And even if it is, we can't let it stop us!",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "Because I have to face myself, because it's my reflection in the mirror - I have to accept reality and move forward without running away from it!",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "That's why... Kawakaze, don't worry about me! I'll be okay!",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "Mhm! No matter how hard the battle gets, if you think about all your friends - not just the ones here, and gather their power...",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "As long as the bond between all of us remains unbroken, we'll definitely find a way to win!",
 			typewriter = {
 				speed = 0.05,

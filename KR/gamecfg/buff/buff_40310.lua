@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "林德喵 3",
 	time = 0,
-	color = "yellow",
+	name = "林德喵 3",
+	init_effect = "",
+	id = 40310,
 	picture = "",
 	desc = "战列受到炮击减伤,+装填",
 	stack = 1,
-	id = 40310,
+	color = "yellow",
 	icon = 40310,
 	last_effect = "",
 	effect_list = {

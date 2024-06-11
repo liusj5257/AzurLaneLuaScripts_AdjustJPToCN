@@ -1,6 +1,6 @@
 slot0 = class("BackYardFurnitureCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.group = slot0._tf:GetComponent(typeof(CanvasGroup))
@@ -27,7 +27,7 @@ function slot0.Ctor(slot0, slot1)
 	setActive(slot0.timerTr, false)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	if slot0.group then
 		slot0.group.alpha = 1
 	end
@@ -78,7 +78,7 @@ function slot0.Update(slot0, slot1)
 	slot0:UpdateSkinType()
 end
 
-function slot0.UpdateSkinType(slot0)
+slot0.UpdateSkinType = function(slot0)
 	if IsNil(slot0.skinMark) then
 		return
 	end
@@ -86,7 +86,7 @@ function slot0.UpdateSkinType(slot0)
 	setActive(slot0.skinMark, Goods.ExistFurniture(Goods.FurnitureId2Id(slot0.furniture.id)))
 end
 
-function slot0.UpdateCountdown(slot0, slot1)
+slot0.UpdateCountdown = function(slot0, slot1)
 	slot0:DestoryTimer()
 
 	slot3 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
@@ -117,7 +117,7 @@ function slot0.UpdateCountdown(slot0, slot1)
 	slot0.updateTimer.func()
 end
 
-function slot0.DestoryTimer(slot0)
+slot0.DestoryTimer = function(slot0)
 	if slot0.updateTimer then
 		slot0.updateTimer:Stop()
 
@@ -125,7 +125,7 @@ function slot0.DestoryTimer(slot0)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0:DestoryTimer()
 end
 

@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_daozhong",
 			dir = 1,
 			say = "벌써 기다리다 지친거냥? 그럼 세 번째 전투 시작하겠다냥!",
+			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "마리와 호노카 조합은 절대 지지 않을 거예요!",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600020,
 			dir = 1,
+			actor = 10600020,
 			say = "에, 에?!",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "무슨 말인지 잘은 모르겠지만, 마리도 불타오른 것 같아! 잘 부탁해요. 메이드 님!",
 			typewriter = {
 				speed = 0.05,

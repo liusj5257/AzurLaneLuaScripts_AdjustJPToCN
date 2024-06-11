@@ -1,6 +1,6 @@
 slot0 = class("NewBattleResultAnimation")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.bgImage = slot0._tf:GetComponent(typeof(Image))
 	slot0.paintingTr = slot0._tf:Find("painting/painting")
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:Start()
 end
 
-function slot0.CollectionItems(slot0, slot1)
+slot0.CollectionItems = function(slot0, slot1)
 	eachChild(slot0._tf, function (slot0)
 		if slot0 ~= uv0.mask then
 			table.insert(uv1, {
@@ -23,7 +23,7 @@ function slot0.CollectionItems(slot0, slot1)
 	end)
 end
 
-function slot0.Start(slot0)
+slot0.Start = function(slot0)
 	if not slot0.handle then
 		slot0.handle = UpdateBeat:CreateListener(slot0.Update, slot0)
 	end
@@ -31,7 +31,7 @@ function slot0.Start(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.Play(slot0, slot1, slot2)
+slot0.Play = function(slot0, slot1, slot2)
 	slot0.setUp = true
 
 	setActive(slot0.mask, true)
@@ -58,7 +58,7 @@ function slot0.Play(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.ZoomPainting(slot0, slot1, slot2)
+slot0.ZoomPainting = function(slot0, slot1, slot2)
 	onNextTick(function ()
 		if uv0.exited then
 			return
@@ -79,18 +79,18 @@ function slot0.ZoomPainting(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.SetPivot(slot0, slot1, slot2)
+slot0.SetPivot = function(slot0, slot1, slot2)
 	slot3 = slot1.rect.size
 	slot4 = slot1.pivot - slot2
 	slot1.pivot = slot2
 	slot1.localPosition = slot1.localPosition - Vector3(slot4.x * slot3.x, slot4.y * slot3.y)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	return slot0:InverseTransformPoint(slot1)
 end
 
-function slot0.RevertItems(slot0)
+slot0.RevertItems = function(slot0)
 	for slot4 = #slot0.items, 1, -1 do
 		slot5 = slot0.items[slot4]
 		slot6 = slot5.tr
@@ -101,31 +101,31 @@ function slot0.RevertItems(slot0)
 	end
 end
 
-function slot0.ZoomMask(slot0, slot1)
+slot0.ZoomMask = function(slot0, slot1)
 	LeanTween.value(slot0.mask.gameObject, Vector2(418, 936), Vector2(4180, 2000), 0.4):setOnUpdate(System.Action_UnityEngine_Vector2(function (slot0)
 		uv0.mask.sizeDelta = slot0
 	end)):setOnComplete(System.Action(slot1))
 end
 
-function slot0.MaskItems(slot0)
+slot0.MaskItems = function(slot0)
 	for slot4 = #slot0.items, 1, -1 do
 		setParent(slot0.items[slot4].tr, slot0.mask, true)
 	end
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0.setUp then
 		slot0:SynItemsPosition()
 	end
 end
 
-function slot0.SynItemsPosition(slot0)
+slot0.SynItemsPosition = function(slot0)
 	for slot4, slot5 in ipairs(slot0.items) do
 		slot5.tr.localPosition = uv0(slot0.mask, slot5.position)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 
@@ -141,7 +141,7 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.exited = true
 
 	slot0:Clear()

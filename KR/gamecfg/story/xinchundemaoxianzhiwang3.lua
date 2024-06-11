@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"새봄의 모험왕\n\n<size=45>3 재도전?</size>",
@@ -14,24 +14,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "이래저래 페이윈을 구출한 후, 집무실로 돌아가 남은 업무를 다시 시작했다.",
 			bgm = "main-chunjie3",
+			say = "이래저래 페이윈을 구출한 후, 집무실로 돌아가 남은 업무를 다시 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 새로 내린 차를 가지고 왔어. 이번에는 이상한 건 안 들어있어…",
 			painting = {
 				alpha = 0.3,
@@ -46,10 +46,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……그렇지? 페이윈?",
 			painting = {
 				alpha = 0.3,
@@ -64,10 +64,10 @@ return {
 			expression = 16,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "으아아아… 멤피스, 무서워…",
 			painting = {
 				alpha = 0.3,
@@ -79,8 +79,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -92,10 +92,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "자, 여기 말린 사과라도 먹고 마음을 가라앉혀! 받아!",
 			painting = {
 				alpha = 0.3,
@@ -110,10 +110,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……말린 사과?",
 			painting = {
 				alpha = 0.3,
@@ -128,10 +128,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응! 방금 주방 선반에서 몇 개 몰래 가지고 왔어! 그런 꼴을 당하고 빈손으로 나올 순 없잖아~",
 			painting = {
 				alpha = 0.3,
@@ -146,10 +146,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "물론 지휘관 몫도 여기~",
 			painting = {
 				alpha = 0.3,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "(똑똑)",
 			soundeffect = "event:ui/knockdoor1",
+			say = "(똑똑)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,10 +176,10 @@ return {
 			portrait = 506010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "젠하이",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 잠깐 괜찮을까요…?",
 			painting = {
 				alpha = 0.3,
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 506010,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 506010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "실례할게요, 지휘관.",
 			painting = {
 				alpha = 0.3,
@@ -219,17 +219,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -240,10 +240,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방금 찻주전자 장난의 진짜 범인을 잡았어요.",
 			painting = {
 				alpha = 0.3,
@@ -255,12 +255,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "정말 죄송해요! 동생이 큰 폐를 끼쳤습니다!",
 			painting = {
 				alpha = 0.3,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뭐해! 푸슌도 빨리 고개 숙여!",
 			painting = {
 				alpha = 0.3,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "죄송합니다아……",
 			painting = {
 				alpha = 0.3,
@@ -323,12 +323,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아! 그래도 다들 이상한 차를 마셨다는 건… 이번 장난은 대성공이라는 거지? 아하하핫!",
 			painting = {
 				alpha = 0.3,
@@ -340,12 +340,12 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "푸슌!!!",
 			painting = {
 				alpha = 0.3,
@@ -357,8 +357,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -367,12 +367,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "으아아악! 언니! 아파! 아프다고! 볼 잡아당기지 마~!",
 			painting = {
 				alpha = 0.3,
@@ -387,10 +387,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……그래서 페이윈에게 제대로 사과를 해야 할 것 같아서요.",
 			painting = {
 				alpha = 0.3,
@@ -405,10 +405,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "미안해, 페이윈… 호랑이가 착각했어…",
 			painting = {
 				alpha = 0.3,
@@ -435,10 +435,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러게… 나도 그렇고 다들 페이윈을 무턱대고 범인으로 의심하고 말았네.",
 			painting = {
 				alpha = 0.3,
@@ -453,10 +453,10 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흑… 그러니까 페이윈은 아무 잘못도 없다고 그렇게 말했는데!",
 			painting = {
 				alpha = 0.3,
@@ -471,10 +471,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뭐. 페이윈 님은 마음이 넓은 어른이니까, 사과는 이 말린 걸로 대신 받아줄게~",
 			painting = {
 				alpha = 0.3,
@@ -513,10 +513,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "물론 대환영이지만…",
 			painting = {
 				alpha = 0.3,
@@ -531,10 +531,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "괜찮아, 여기 차는 집무실에 있는 티백으로 내린 거야. 푸슌이 아까 장난친 건 찻주전자고 말이야.",
 			painting = {
 				alpha = 0.3,
@@ -546,8 +546,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -556,12 +556,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응! 안샨 언니한테 한참 혼났더니 목이 마르네…",
 			painting = {
 				alpha = 0.3,
@@ -573,8 +573,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "멤피스가 가지고 온 차를 각자의 컵에 따랐고, 그러자……",
@@ -584,29 +584,29 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모두",
+			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "쿨럭쿨럭쿨럭!!!",
 			bgm = "main-chunjie4-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "쿨럭쿨럭쿨럭!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -634,10 +634,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "분명 방금 막 내린 건데……?!",
 			painting = {
 				alpha = 0.3,
@@ -652,10 +652,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "으하하하! 다들 방심했네!",
 			painting = {
 				alpha = 0.3,
@@ -667,8 +667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -680,10 +680,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "푸슌은 실패했지만, 페이윈 님은 멋지게 대모험에 성공했지롱!",
 			painting = {
 				alpha = 0.3,
@@ -695,12 +695,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "서, 설마 푸슌을 미끼로 삼아서……!",
 			painting = {
 				alpha = 0.3,
@@ -712,12 +712,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "으아아! 이런 꼴을 당할 줄이야!",
 			painting = {
 				alpha = 0.3,
@@ -732,10 +732,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "헤헷, 라이벌인 푸슌조차 페이윈 님의 함정에 빠졌으니 이제 모험에 있어서는 페이윈 님이 최강이라는 거지!",
 			painting = {
 				alpha = 0.3,
@@ -747,12 +747,12 @@ return {
 			}
 		},
 		{
-			actor = 506010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 506010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "쿨럭쿨럭… 설마 처음부터 둘이 짜고……?!",
 			painting = {
 				alpha = 0.3,
@@ -764,8 +764,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -774,12 +774,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아니야! 푸슌은 아무것도 모른다구!",
 			painting = {
 				alpha = 0.3,
@@ -794,10 +794,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 어때? 역시 페이윈 님이 더 대단하지?",
 			painting = {
 				alpha = 0.3,
@@ -812,10 +812,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이게 바로 마지막 수단이야!",
 			painting = {
 				alpha = 0.3,
@@ -827,13 +827,13 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorScale = 0.5,
+			actor = 501010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "페이윈!!!",
 			painting = {
 				alpha = 0.3,
@@ -845,8 +845,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -862,8 +862,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -879,8 +879,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 3,
 					dur = 0.1,
 					number = 3
@@ -888,27 +888,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "다음 날, 집무실. 다행히 찻주전자에 이상한 건 들어 있지 않았고, 그 대신 책상 위에 반성문 두 장이 놓여 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -938,27 +938,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "\"새봄의 모험왕\"… 완결?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

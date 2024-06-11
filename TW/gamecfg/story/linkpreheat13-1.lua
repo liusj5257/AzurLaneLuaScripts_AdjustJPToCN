@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT13-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT13-1",
+	fadein = 1,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "——我来吧",
-			bgm = "level-uta",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "诶？妳们双胞胎一起去不就好了？",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "不行，一个人更好",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "这样啊……一个人放开来闹腾更容易吸引敌人的注意力的意思吧",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "这样啊……一个人放开来闹腾更容易吸引敌人的注意力的意思吧",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -164,10 +164,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "用远距离的大火力来吸引敌人的注意力，在那期间我们就安心实施作战……她是这个意思，{namecode:98}小姐",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "用远距离的大火力来吸引敌人的注意力，在那期间我们就安心实施作战……她是这个意思，{namecode:98}小姐",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

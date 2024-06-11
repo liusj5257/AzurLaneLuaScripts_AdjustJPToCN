@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "皇家群島有個神話，有一種叫做“達格達之鍋”的寶物，可以從中源源不斷的取出食物，永遠不空。",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "就現在的情況來說，用這件寶物來形容這座塞壬要塞簡直再恰當不過了。",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "所有人都在全神貫注的戰鬥著，就連薩拉托加也沒有了開玩笑的閒心。",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "戰局在不知不覺間已經陷入了膠著，並向著更加惡化的方向發展。",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "唔…沒想到發展成拉鋸戰了，之前是我太得意了。",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "這一點不用擔心！量產型可以依靠阿申留防線基地進行補充，增援也已經在路上了。",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "對面的塞壬現在幹勁滿滿，就算掉頭撤退，我覺得塞壬也不會輕易放我們走哦？",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "接下來怎麼辦，那邊的指揮官？",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "果然是這樣嗎…看來只好利用手頭資源打贏這場戰鬥了！",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "哦~這就是戰場指揮官的魄力嗎~！",
 			typewriter = {
 				speed = 0.05,

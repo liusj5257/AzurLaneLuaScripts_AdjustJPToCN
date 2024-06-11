@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE401",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE401",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>\"Odd-Colored Seas - PURPLE\"</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 10100010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-nep",
 			dir = -1,
 			say = "... In the last episode, Histy threw Blanc and the others for a loop yesterday.",
+			bgm = "level-nep",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "I can see a bleak future of overwork ahead of us... I'm asking to be paid for overtime...",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "Urk... so this is the strength... of a carrier's embrace...",
 			typewriter = {
 				speed = 0.05,

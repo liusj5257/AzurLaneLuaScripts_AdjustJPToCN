@@ -2,29 +2,29 @@ return {
 	uiEffect = "",
 	name = "传颂之物开场加血2%",
 	cd = 0,
-	painting = "maoyin",
-	id = 7521,
 	picture = "0",
 	aniEffect = "",
 	desc = "传颂之物开场加血2%",
+	painting = "maoyin",
+	id = 7521,
 	castCV = {
-		skinID = 10300020,
-		key = "skill"
+		key = "skill",
+		skinID = 10300020
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerVanguardFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetPlayerVanguardFleet",
 			arg_list = {
 				maxHPRatio = 0.02
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerVanguardFleet"
 			},

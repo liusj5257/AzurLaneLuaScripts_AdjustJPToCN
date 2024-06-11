@@ -1,6 +1,6 @@
 slot0 = class("LoadingPanel", import("..base.BaseUI"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0)
 	seriesAsync({
 		function (slot0)
@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	end)
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot0.isCri, slot0.bgPath = getLoginConfig()
 
 	if slot0.isCri then
@@ -40,17 +40,16 @@ function slot0.preload(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.infos = slot0:findTF("infos")
 	slot0.infoTpl = slot0:getTpl("infos/info_tpl")
 	slot0.indicator = slot0:findTF("load")
 	slot0.bg = slot0:findTF("BG")
-	slot0.logo = slot0:findTF("logo")
 
 	slot0:displayBG(true)
 end
 
-function slot0.appendInfo(slot0, slot1)
+slot0.appendInfo = function(slot0, slot1)
 	slot2 = cloneTplTo(slot0.infoTpl, slot0.infos)
 
 	setText(slot2, slot1)
@@ -63,29 +62,23 @@ function slot0.appendInfo(slot0, slot1)
 	end))
 end
 
-function slot0.onLoading(slot0)
+slot0.onLoading = function(slot0)
 	return slot0._go.activeInHierarchy
 end
 
 slot1 = 0
 
-function slot0.on(slot0, slot1)
+slot0.on = function(slot0, slot1)
 	setImageAlpha(slot0._tf, defaultValue(slot1, true) and 0.01 or 0)
 
-	if slot1 then
-		slot2 = pg.TimeMgr.GetInstance()
-
-		slot2:RemoveTimer(slot0.delayTimer)
-
+	if not slot1 then
+		setActive(slot0.indicator, slot1)
+	elseif not slot0.delayTimer then
 		slot2 = pg.TimeMgr.GetInstance()
 		slot0.delayTimer = slot2:AddTimer("loading", 1, 0, function ()
 			setImageAlpha(uv0._tf, 0.2)
 			setActive(uv0.indicator, true)
-
-			uv0.delayTimer = nil
 		end)
-	else
-		setActive(slot0.indicator, false)
 	end
 
 	uv0 = uv0 + 1
@@ -96,23 +89,25 @@ function slot0.on(slot0, slot1)
 	end
 end
 
-function slot0.off(slot0)
+slot0.off = function(slot0)
 	if uv0 > 0 then
 		uv0 = uv0 - 1
 
 		if uv0 == 0 then
 			setActive(slot0._go, false)
 			setActive(slot0.indicator, false)
-			pg.TimeMgr.GetInstance():RemoveTimer(slot0.delayTimer)
 
-			slot0.delayTimer = nil
+			if slot0.delayTimer then
+				pg.TimeMgr.GetInstance():RemoveTimer(slot0.delayTimer)
+
+				slot0.delayTimer = nil
+			end
 		end
 	end
 end
 
-function slot0.displayBG(slot0, slot1)
+slot0.displayBG = function(slot0, slot1)
 	setActive(slot0.bg, slot1)
-	setActive(slot0.logo, slot1)
 
 	slot2 = GetComponent(slot0.bg, "Image")
 
@@ -140,7 +135,7 @@ function slot0.displayBG(slot0, slot1)
 	end
 end
 
-function slot0.getRetainCount(slot0)
+slot0.getRetainCount = function(slot0)
 	return uv0
 end
 

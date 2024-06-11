@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG26",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-4",
 			say = "바렌츠해· 로열 네이비 주력 함대/조금 전",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = " 셰필드가 해수면 위에서 포화를 민첩하게 피하며, 메탈 블러드의 주력 함대의 쪽으로 달려가고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 2500
@@ -134,11 +134,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 206060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = " 드디어 따라잡았다..! 괜찮아, 셰필드?",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,10 +149,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/wave",
 			say = "퍼시어스가 딱 맞춰 지원을 와주었다. 그리고 함재기가 투하한 폭탄이 오히려 도이칠란트의 몸을 관통했다. 넓은 해수면 위에서만 공허한 물보라가 일었다.",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/wave",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 202080,
 			dir = 1,
+			hideOther = true,
 			actorName = "셰필드&퍼시어스",
 			say = "뭐야…?!",
 			subActors = {
@@ -190,8 +190,8 @@ return {
 		{
 			actor = 403040,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "깔깔깔깔깔….깔깔깔깔깔깔깔깔!",
 			dialogShake = {
 				speed = 0.09,
@@ -217,8 +217,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 403040,
 			dir = 1,
+			actor = 403040,
 			say = "놀랐지? 하등 생물들! 우리 메탈 블러드의 과학 기술은 세계 제일이야!",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "방자한 웃음소리와 함께 도이칠란트의 몸이 점점 투명해지다가 마지막에는 완전히 사라졌다.",
 			effects = {
 				{
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "거의 동시에 티르비츠, 샤른호르스트, 그나이제나우, 아드미랄 히퍼….나머지 메탈 블러드 주력들도 환영처럼 도이칠란트를 따라 함께 사라졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = " 원래 거대했던 메탈 블러드 주력 함대는 마지막에 보잘것 없는 순양함과 구축함만을 외롭게 남겨두고 넓은 바다 위로 이동했다.",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = " 메탈 블러드의 주력 함대가…사라졌어?",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = " 셰필드의 걱정이 사실이 되었네…",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 201230,
 			dir = 1,
+			hideOther = true,
 			actorName = "뱀파이어&셰필드",
 			say = "…에?",
 			subActors = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = " …즉시 사령부에 상황을 보고해. 그리고…우리 전투 시작하자.",
 			typewriter = {
 				speed = 0.05,

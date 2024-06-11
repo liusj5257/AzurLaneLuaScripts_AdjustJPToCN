@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Escape from the Port?\n\n<size=45>Chapter 1 - Where Are We?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Once upon a time, there were several brave little heroes of steel. This is their Epic...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Port - Warehouse",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "Port - Warehouse",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 407020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 407020,
 			actorName = "???",
 			say = "That's why I'm telling you, we were kidnapped for sure!",
 			typewriter = {
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 407020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 407020,
 			actorName = "???",
 			say = "You think so too, right? Hiei!",
 			typewriter = {
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			actor = 304060,
+			say = "R-really...? C-Commander kidnapped us...? But why...?",
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
 			actorName = "???",
-			say = "R-really...? C-Commander kidnapped us...? But why...?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "Uhh... I thought we were summoned to lend aid to Commander, so how did this end up happening...",
 			typewriter = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "Could it be that Commander kidnapped us to keep us on base?!",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "Hm, hmm... I didn't think of that possibility...! Excellent! You finally understand the situation that we're in!",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "... Formalities, formalities! The most important thing right now is to escape from port! Let's get moving!",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "Zeppy... don't leave me here!",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "Hmph! Now, you shall all bear witness to the might of the Iron Blood's first carrier, Graf Zepp... Owww!",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "What the heck! That wall just came out of nowhere and punched me! That stupid cat was trying to trick me all along...!!",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "... Looks like it will take a while to find our way...",
 			typewriter = {
 				speed = 0.05,

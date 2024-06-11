@@ -1,12 +1,12 @@
 return {
-	id = "W710019",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710019",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海域被點亮了！",
 			typewriter = {
 				speed = 0.05,

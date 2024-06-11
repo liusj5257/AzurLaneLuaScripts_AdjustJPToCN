@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WEICENGHUNHE28",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "???·???",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
+			say = "???·???",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -24,9 +24,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "거기 누구지? 당장 나와!",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "이 환영은, 대체 뭐지…?",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "언제, 어디서의 기록이지?",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -173,8 +173,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "……헛소리 들어줄 시간은 없다. 왜 나에게 이런 거짓된 연극을 보여주는 거지?",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "엔터프라이즈의 곁에 있던 환영이 전부 사라진 뒤, 새로운 그림자가 안개에서 나왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "거기에 서 있는 것은 푸른색 모자를 쓰고 손에는 거대한 장비를 든 소녀였다.",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "이건…?!",
 			dialogShake = {
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "펑----!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
+			say = "펑----!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "굉음과 함께 공간이 찢어지는 것처럼 해수면과 공기에 거대한 떨림이 일어났다.",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -320,9 +320,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "알 수 없는 목소리는 마음에 들지 않는다는 듯 혀를 차고 입을 닫아버렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -334,9 +334,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "바다 안개가 걷힌 자리에는 기습을 노리는 세이렌 함대로 가득했다.",
 			effects = {
 				{
@@ -357,11 +357,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			bgm = "hunhe-battle",
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "…역시 세이렌을 상대하려면 전투가 답인 건가.",
-			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_2",
-			say = "펑----!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑----!",
 			flashN = {
 				color = {
 					1,
@@ -425,9 +425,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "또 다른 굉음이 들려왔다. 이 소리는…",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "오, 엔터프라이즈잖아! 여기서 만날 줄은 몰랐네. 도움이 필요해?",
 			typewriter = {
@@ -459,8 +459,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "볼티모어?! 그리고……",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "아. 궁금한 게 많을 거라는 건 알아. 사실 우리도 무슨 상황인지 잘 모르거든. 하지만---",
 			typewriter = {
@@ -493,8 +493,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "일단 이 상황을 벗어나도록 하자, 엔터프라이즈.",
 			typewriter = {
@@ -507,9 +507,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "연락이 두절된 지 한참 된 함대가 나타났다!",
 			typewriter = {
 				speed = 0.05,
@@ -524,8 +524,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "음? 등 뒤에 누군가 지나간 것 같은데… 저건?!",
 			typewriter = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_banama_2",
 			side = 2,
+			bgName = "bg_banama_2",
 			dir = 1,
+			actor = 900227,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -555,12 +555,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_banama_2",
 			side = 2,
+			bgName = "bg_banama_2",
 			dir = 1,
 			blackBg = true,
+			actor = 900227,
 			actorName = "？？？",
 			say = "여기에 없나…",
 			typewriter = {

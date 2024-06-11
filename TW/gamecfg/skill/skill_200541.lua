@@ -2,27 +2,27 @@ return {
 	uiEffect = "",
 	name = "2023克莱蒙梭活动 审判庭支援 困难",
 	cd = 0,
-	painting = "kelaimengsuo",
-	id = 200541,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "kelaimengsuo",
+	id = 200541,
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 3075104,
 				emitter = "BattleBulletEmitter"
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -38,23 +38,23 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchParam = 4,
+							switchType = 1,
 							switchTo = 2,
 							index = 1,
-							switchType = 1,
+							switchParam = 4,
 							setAI = 70227
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 0,
+							index = 2,
 							switchParam = 300,
 							addWeapon = {
 								3076043,
@@ -68,10 +68,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -87,23 +87,23 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchParam = 4,
+							switchType = 1,
 							switchTo = 2,
 							index = 1,
-							switchType = 1,
+							switchParam = 4,
 							setAI = 70227
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 0,
+							index = 2,
 							switchParam = 300,
 							addWeapon = {
 								3076058,

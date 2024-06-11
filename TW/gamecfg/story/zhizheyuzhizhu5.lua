@@ -1,31 +1,31 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHIZHEYUZHIZHU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHIZHEYUZHIZHU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
-					"智者与蜘蛛\n\n<size=45>五　静思</size>",
+					"智者與蜘蛛\n\n<size=45>五 靜思</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "铁血浮岛要塞群·A1浮岛-重樱使馆区",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "bsm-2",
+			nameColor = "#A9F548FF",
+			say = "鐵血浮島要塞群·A1浮島-重櫻使館區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,23 +46,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "夜色渐深，不过{namecode:96}的房间内依旧灯火通明。",
+			say = "夜色漸深，不過瑞鶴的房間內依舊燈火通明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "唔……从铁血收集到的诸多证据来看。",
+			hidePaintObj = true,
+			say = "嗯……從鐵血收集到的諸多證據來看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,13 +73,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "过去发生在北方联合西伯利亚的那场大爆炸……也许真的与陨石坠落有关。",
+			hidePaintObj = true,
+			say = "過去發生在北方聯合西伯利亞的那場大爆炸……也許真的與隕石墜落有關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,13 +90,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "而坠落的陨石之所以消失，也许和塞壬的行动有关……",
+			hidePaintObj = true,
+			say = "而墜落的隕石之所以消失，也許和塞壬的行動有關……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,13 +107,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "或许有一部分陨石碎片散入了极地海域中……",
+			hidePaintObj = true,
+			say = "或許有一部分隕石碎片散入了極地海域……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,13 +124,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "然后在某一天，天岩岛的神石“海若”突然展现出了肉眼可见的神秘力量。",
+			hidePaintObj = true,
+			say = "然後在某一天，天岩島的神石「海若」突然展現了肉眼可見的神秘力量。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,13 +141,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "重樱的多个离岛被冠以“圣域”的概念，从此从记录中消失……",
+			hidePaintObj = true,
+			say = "重櫻的多個離島被冠以「聖域」的概念，從此從紀錄中消失……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,13 +158,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "本岛之上，结界技术突然开始高速发展……",
+			hidePaintObj = true,
+			say = "本島之上，結界技術突然開始高速發展……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,13 +175,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "铁血认为舰船与心智魔方也许是同一时期出现的，并没有明显的先后顺序……",
+			hidePaintObj = true,
+			say = "鐵血認為艦船與心智魔方也許是同一時期出現的，並沒有明顯的先後順序……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,13 +192,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "北方联合曾经在极地有过秘密行动……",
+			hidePaintObj = true,
+			say = "北方聯合曾經在極地有過秘密行動…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,13 +209,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "这项秘密行动的时间也许可以追溯到舰船诞生之前……",
+			hidePaintObj = true,
+			say = "這項秘密行動的時間也許可以追溯到艦船誕生之前……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,13 +226,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "最初的舰船，或许是北方联合的阿芙乐尔……",
+			hidePaintObj = true,
+			say = "最初的船，或許是北方聯合的曙光……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,13 +243,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "名为元魔方的META化心智魔方，是铁血与塞壬交易得到的……",
+			hidePaintObj = true,
+			say = "名為元魔方的META化心智魔方，是鐵血與塞壬交易得到的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,13 +260,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "陨石是突然出现的……塞壬是突然出现的……",
+			hidePaintObj = true,
+			say = "隕石是突然出現的……塞壬是突然出現的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,13 +277,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "神石是突然出现的……心智魔方技术也是突然出现的……",
+			hidePaintObj = true,
+			say = "神石是突然出現的……心智魔方技術也是突然出現的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,13 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "突然出现的东西太多了……",
+			hidePaintObj = true,
+			say = "突然出現的東西太多了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,13 +311,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "{namecode:435}阁下的治疗档案中显示……",
+			hidePaintObj = true,
+			say = "俾斯麥閣下的治療檔案中顯示……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,13 +328,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "遭受META化侵蚀的心智魔方在突破临界点后并不都会立即损坏，有些会在短暂的时间内表现出奇异的特性……",
+			hidePaintObj = true,
+			say = "遭受META化侵蝕的心智魔方在突破臨界點後並不都會立即損壞，有些會在短暫的時間內表現出奇異的特性……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,13 +345,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "这些奇异的特性，与海若之间存在某种相似性……",
+			hidePaintObj = true,
+			say = "這些奇異的特性，與海若有某種相似性……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,13 +362,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "难道说……陨石与神石，神石与元魔方之间，会存在某些关联么……",
+			hidePaintObj = true,
+			say = "難道說……隕石與神石，神石與元魔方之間，會存在某些關聯嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,69 +379,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "唔…………好像就快有什么想法了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dialogShake = {
-				speed = 0.08,
-				x = 15,
-				number = 2
-			}
-		},
-		{
 			actor = 307060,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是又好像感觉仍然缺少很多东西……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_story_task",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "呜呜呜……为什么{namecode:84}大人会选我来做这些研究啊……！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不行不行，{namecode:96}，打起精神来！",
+			say = "嗯…………好像就快有什麼想法了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,13 +401,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "这不是新生重樱联合的各位前辈们一直以来都想搞清楚的事么！",
+			hidePaintObj = true,
+			say = "但是又好像覺得還是缺少很多東西……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,13 +418,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "……在这里能得到最好的实验条件！不能浪费这个千载难逢的好机会！",
+			hidePaintObj = true,
+			say = "嗚嗚嗚……為什麼武藏大人會選我來做這些研究啊……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,24 +435,80 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚、咚、咚（敲门声）",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不行不行，瑞鶴，打起精神來！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dialogShake = {
+				speed = 0.08,
+				x = 15,
+				number = 2
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "這不是新生重櫻聯合的各位前輩們一直以來都想搞清楚的事！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 307060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……在這裡能得到最好的實驗環境！不能浪費這個千載難逢的好機會！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
 			soundeffect = "event:/ui/knockdoor1",
+			say = "咚、咚、咚（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "好，冷静下来重新整理思路……",
+			hidePaintObj = true,
+			say = "好，冷靜下來重新整理思路……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,13 +519,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "对于神石样本的研究需要更进一步才行。",
+			hidePaintObj = true,
+			say = "對於神石樣本的研究需要更進一步才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,13 +536,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "最好能通过其成分确定其产地，如果能跟极地扯上关系的话……",
+			hidePaintObj = true,
+			say = "最好能透過其成分來確定產地，如果能跟極地扯上關係的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,24 +553,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "咚、咚、咚、咚、咚（逐渐加重的敲门声）",
 			soundeffect = "event:/ui/knockdoor1",
+			say = "咚、咚、咚、咚、咚（逐漸加重的敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "哎，如果能在实验室中亲眼见到元魔方的诞生就好了。",
+			hidePaintObj = true,
+			say = "哎，如果能在實驗室中親眼見到元魔方的誕生就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,13 +581,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "但是就算有{namecode:434}·META的协助，实验也一次都没有成功过……",
+			hidePaintObj = true,
+			say = "但是就算有格奈森瑙·META的協助，實驗也一次都沒有成功過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,13 +598,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "就好像遭受到了某些来自心智魔方内部的阻碍一样……",
+			hidePaintObj = true,
+			say = "就好像遭受了某些來自心智魔方內部的阻礙一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,13 +615,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "这些阻碍究竟会是什么呢……唔…………",
+			hidePaintObj = true,
+			say = "這些阻礙究竟會是什麼呢……唔…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,24 +632,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "咚、咚、咚、咚、咚、咚、咚、咚、咚（急促的敲门声）",
 			soundeffect = "event:/ui/knockdoor2",
+			say = "咚、咚、咚、咚、咚、咚、咚、咚、咚（急促的敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "哇啊啊啊！什么，刚刚的是敲门声么？",
+			hidePaintObj = true,
+			say = "哇啊啊啊！什麼，剛剛的是敲門聲嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,13 +671,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "这么晚了会是谁在敲门啊……",
+			hidePaintObj = true,
+			say = "這麼晚了會是誰在敲門啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,11 +694,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "咚、咚、咚、咚、咚、咚、咚、咚、咚、咚、咚、咚、咚（强而有力的敲门声）",
 			soundeffect = "event:/ui/knockdoor2",
+			say = "咚、咚、咚、咚、咚、咚、咚、咚、咚、咚、咚、咚、咚（強而有力的敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,13 +710,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "呜啊……好像很紧急的样子。",
+			hidePaintObj = true,
+			say = "嗚啊……好像很緊急的樣子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,13 +732,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
-			say = "请稍等片刻，我这就开门————————",
+			hidePaintObj = true,
+			say = "請稍等片刻，我這就開門————————",
 			painting = {
 				alpha = 0.3,
 				time = 1

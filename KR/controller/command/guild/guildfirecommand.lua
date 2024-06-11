@@ -1,6 +1,6 @@
 slot0 = class("GuildFireCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot6 = getProxy(GuildProxy):getData()
 
 	if slot6:getDutyByMemberId(slot1:getBody()) <= slot6:getDutyByMemberId(getProxy(PlayerProxy):getData().id) then

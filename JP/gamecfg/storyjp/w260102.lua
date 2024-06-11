@@ -1,12 +1,12 @@
 return {
-	id = "W260102",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W260102",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "心智受到污染，回到原位",
 			typewriter = {
 				speed = 0.05,

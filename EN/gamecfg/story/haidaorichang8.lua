@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uncharted Summer\n\n<size=45>The Winds Bring Good Tidings</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_unnamearea_1",
-			hidePaintObj = true,
-			say = "As the morning light paints the beach a golden color, a battleship appears over the horizon.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "As the morning light paints the beach a golden color, a battleship appears over the horizon.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg1",
 			mode = 1,
+			bgName = "bg_summerisland_cg1",
 			sequence = {
 				{
 					"",
@@ -56,17 +56,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -86,16 +86,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "And boy, what a bloody brilliant sight it is!"
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Queen Elizabeth",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Queen Elizabeth",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Queen Elizabeth",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Queen Elizabeth",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Belfast",
+			side = 1,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Enterprise",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Enterprise",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Enterprise",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -467,8 +467,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Rossiya",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -479,8 +479,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Saratoga",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Nagato",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -515,12 +515,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yat Sen",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I have to agree. It would be much easier to load and offload cargo and people with a pier.",
 			painting = {
 				alpha = 0.3,
@@ -532,8 +532,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Vittorio Veneto",
+			side = 2,
 			bgName = "bg_summerisland_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -544,30 +544,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "To be frank, I'm all but floored by the girls' enthusiasm.",
 			bgm = "theme-SeaAndSun-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "To be frank, I'm all but floored by the girls' enthusiasm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -575,8 +575,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "They set out to explore the island almost as soon as they set foot on it.",
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "If we keep this pace up, I think we'll have the resort built in close to no time.",
@@ -597,8 +597,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "But before that, I need to deal with a certain someone who led me here in the first place.",
@@ -611,10 +611,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahoy, matey! How ya been, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -626,8 +626,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -636,12 +636,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Missed me? Wanted to thank me?",
 			painting = {
 				alpha = 0.3,
@@ -653,8 +653,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "\"Sure, but first, there's something I wanted to ask.\"",
@@ -664,12 +664,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I know what you're thinking. I promise I didn't mean for you to get hurt, on my honour!",
 			painting = {
 				alpha = 0.3,
@@ -684,10 +684,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "On one hand, my carelessness got you shipwrecked, but on the other, it led you to this pristine piece of resort real estate!",
 			painting = {
 				alpha = 0.3,
@@ -702,10 +702,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So, I'd say we're square, right? I mean, surely?",
 			painting = {
 				alpha = 0.3,
@@ -720,10 +720,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Oops, I just remembered I have a meeting with my Tempesta mates. I've got to scurry back home.",
 			painting = {
 				alpha = 0.3,
@@ -735,8 +735,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -745,12 +745,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Don't worry, I'll be back in a few days. Meanwhile, go on and explore the island!",
 			painting = {
 				alpha = 0.3,
@@ -765,10 +765,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Until then, keep me in your thoughts – and heart.",
 			painting = {
 				alpha = 0.3,
@@ -783,10 +783,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And remember, the treasure hunt has only begun. Toodles!",
 			painting = {
 				alpha = 0.3,
@@ -798,8 +798,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "In a reprise of our Halloween encounter, Royal Fortune disappeared just like that.",
@@ -809,8 +809,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "I'm not quite sure that she's telling the truth about there being treasure, but for now, I'll focus on looking around the island.",

@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "恶毒μ",
 	init_effect = "",
+	id = 13783,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 13783,
+	color = "red",
 	icon = 13780,
 	last_effect = "",
 	blink = {
@@ -25,8 +25,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 300
+				number = 300,
+				attr = "cannonPower"
 			}
 		}
 	}

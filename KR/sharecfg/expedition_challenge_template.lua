@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.expedition_challenge_template = {
 	[10001] = {
+		challenge = 10000,
+		index = 1,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10001,
 		name_p = "10001",
-		index = 1,
-		challenge = 10000,
+		id = 10001,
 		dungeon_id = 5009,
 		char_icon = {
 			"lafei_g"
@@ -19,12 +19,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10002] = {
+		challenge = 10000,
+		index = 2,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10002,
 		name_p = "10002",
-		index = 2,
-		challenge = 10000,
+		id = 10002,
 		dungeon_id = 5010,
 		char_icon = {
 			"biaoqiang_g"
@@ -37,12 +37,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10003] = {
+		challenge = 10000,
+		index = 3,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10003,
 		name_p = "10003",
-		index = 3,
-		challenge = 10000,
+		id = 10003,
 		dungeon_id = 5011,
 		char_icon = {
 			"birui"
@@ -55,12 +55,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10004] = {
+		challenge = 10000,
+		index = 4,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10004,
 		name_p = "10004",
-		index = 4,
-		challenge = 10000,
+		id = 10004,
 		dungeon_id = 5012,
 		char_icon = {
 			"z23_g"
@@ -73,12 +73,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10005] = {
+		challenge = 10000,
+		index = 5,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10005,
 		name_p = "10005",
-		index = 5,
-		challenge = 10000,
+		id = 10005,
 		dungeon_id = 5013,
 		char_icon = {
 			"lingbo_g"
@@ -91,12 +91,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10006] = {
+		challenge = 10000,
+		index = 6,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10006,
 		name_p = "10006",
-		index = 6,
-		challenge = 10000,
+		id = 10006,
 		dungeon_id = 5014,
 		char_icon = {
 			"tiancheng"
@@ -109,12 +109,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10007] = {
+		challenge = 10000,
+		index = 7,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10007,
 		name_p = "10007",
-		index = 7,
-		challenge = 10000,
+		id = 10007,
 		dungeon_id = 5015,
 		char_icon = {
 			"tierbici"
@@ -127,12 +127,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10008] = {
+		challenge = 10000,
+		index = 8,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10008,
 		name_p = "10008",
-		index = 8,
-		challenge = 10000,
+		id = 10008,
 		dungeon_id = 5016,
 		char_icon = {
 			"aisaikesi"
@@ -145,12 +145,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10009] = {
+		challenge = 10000,
+		index = 9,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10009,
 		name_p = "10009",
-		index = 9,
-		challenge = 10000,
+		id = 10009,
 		dungeon_id = 5017,
 		char_icon = {
 			"aidang"
@@ -163,12 +163,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10010] = {
+		challenge = 10000,
+		index = 10,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10010,
 		name_p = "10010",
-		index = 10,
-		challenge = 10000,
+		id = 10010,
 		dungeon_id = 5018,
 		char_icon = {
 			"kelifulan"
@@ -181,12 +181,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10011] = {
+		challenge = 10000,
+		index = 11,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10011,
 		name_p = "10011",
-		index = 11,
-		challenge = 10000,
+		id = 10011,
 		dungeon_id = 5019,
 		char_icon = {
 			"feinikesi"
@@ -199,12 +199,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10012] = {
+		challenge = 10000,
+		index = 12,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10012,
 		name_p = "10012",
-		index = 12,
-		challenge = 10000,
+		id = 10012,
 		dungeon_id = 5020,
 		char_icon = {
 			"chicheng"
@@ -217,12 +217,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10013] = {
+		challenge = 10000,
+		index = 13,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10013,
 		name_p = "10013",
-		index = 13,
-		challenge = 10000,
+		id = 10013,
 		dungeon_id = 5021,
 		char_icon = {
 			"hude"
@@ -235,12 +235,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10014] = {
+		challenge = 10000,
+		index = 14,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10014,
 		name_p = "10014",
-		index = 14,
-		challenge = 10000,
+		id = 10014,
 		dungeon_id = 5022,
 		char_icon = {
 			"ougen"
@@ -253,12 +253,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10015] = {
+		challenge = 10000,
+		index = 15,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10015,
 		name_p = "10015",
-		index = 15,
-		challenge = 10000,
+		id = 10015,
 		dungeon_id = 5023,
 		char_icon = {
 			"huangjiafangzhou"
@@ -271,12 +271,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10016] = {
+		challenge = 10000,
+		index = 16,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10016,
 		name_p = "10016",
-		index = 16,
-		challenge = 10000,
+		id = 10016,
 		dungeon_id = 5024,
 		char_icon = {
 			"jiahe"
@@ -289,12 +289,12 @@ pg.expedition_challenge_template = {
 		bufficon = {}
 	},
 	[10017] = {
+		challenge = 10000,
+		index = 17,
 		chapter_description = "지휘관님, 자신의 작전 능력에 자신 있나요? 그렇다면 어서 도전해 보세요! ",
 		type_name_p = "",
-		id = 10017,
 		name_p = "10017",
-		index = 17,
-		challenge = 10000,
+		id = 10017,
 		dungeon_id = 5025,
 		char_icon = {
 			"rangbaer"

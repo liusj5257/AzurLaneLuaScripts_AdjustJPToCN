@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023海盗活动 EX逃课机制",
 	cd = 0,
-	painting = 0,
-	id = 200642,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200642,
 	effect_list = {
 		{
 			type = "BattleSkillEditCustomWarning",

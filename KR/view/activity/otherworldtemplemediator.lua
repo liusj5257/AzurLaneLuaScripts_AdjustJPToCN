@@ -2,7 +2,7 @@ slot0 = class("OtherWorldTempleMediator", import("..base.ContextMediator"))
 slot0.OPEN_TERMINAL = "OPEN_TERMINAL"
 slot0.SHOW_CHAR_AWARDS = "SHOW_CHAR_AWARDS"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OPEN_TERMINAL, function ()
 		uv0:addSubLayers(Context.New({
 			mediator = OtherworldTerminalMediator,
@@ -14,10 +14,10 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.onUIAvalible(slot0)
+slot0.onUIAvalible = function(slot0)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_OPERATION_DONE,
 		ActivityProxy.ACTIVITY_LOTTERY_SHOW_AWARDS,
@@ -25,7 +25,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_OPERATION_DONE then

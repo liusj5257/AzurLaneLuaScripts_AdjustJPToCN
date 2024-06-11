@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.059
+					number = 0.059,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.059
+					number = 0.059,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.068
+					number = 0.068,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.068
+					number = 0.068,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.089
+					number = 0.089,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.089
+					number = 0.089,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.098
+					number = 0.098,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.098
+					number = 0.098,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.11
+					number = 0.11,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.11
+					number = 0.11,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.134
+					number = 0.134,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.134
+					number = 0.134,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_8",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_T_8"
 				}
 			},
 			{
@@ -253,15 +253,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_17",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_T_17"
 				}
 			}
 		}
 	},
-	time = 10,
 	name = "蜂鸟直升机-对潜伤害提高",
 	init_effect = "jinengchufared",
+	time = 10,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
@@ -283,8 +283,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_8",
-				number = 0.05
+				number = 0.05,
+				attr = "DMG_TAG_EHC_T_8"
 			}
 		},
 		{
@@ -294,8 +294,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_17",
-				number = 0.05
+				number = 0.05,
+				attr = "DMG_TAG_EHC_T_17"
 			}
 		}
 	}

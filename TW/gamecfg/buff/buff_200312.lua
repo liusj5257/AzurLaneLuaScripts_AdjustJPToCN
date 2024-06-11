@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动EX 记忆通道 长延时 随机",
 	time = 0.3,
-	color = "red",
+	name = "2022美系活动EX 记忆通道 长延时 随机",
+	init_effect = "",
+	id = 200312,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200312,
+	color = "red",
 	icon = 200312,
 	last_effect = "",
 	effect_list = {

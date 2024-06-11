@@ -1,6 +1,6 @@
 slot0 = class("AcceptActivityTaskCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	print("accpet activity task...................")
 
 	slot2 = getProxy(ActivityProxy)

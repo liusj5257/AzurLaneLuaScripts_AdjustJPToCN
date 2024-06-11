@@ -1,15 +1,15 @@
 slot0 = class("AtelierMaterialDetailLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AtelierMaterialDetailUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.layerItemDetail = slot0._tf
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.layerItemDetail:Find("BG"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -22,7 +22,7 @@ function slot0.didEnter(slot0)
 	})
 end
 
-function slot0.UpdateItemDetail(slot0)
+slot0.UpdateItemDetail = function(slot0)
 	slot1 = slot0.contextData.material
 	slot4 = slot0.layerItemDetail
 
@@ -99,7 +99,7 @@ end
 
 slot1 = "ui/AtelierCommonUI_atlas"
 
-function slot0.UpdateRyzaItem(slot0, slot1, slot2, slot3)
+slot0.UpdateRyzaItem = function(slot0, slot1, slot2, slot3)
 	slot4 = "icon_frame_" .. slot2:GetRarity()
 
 	if slot3 then
@@ -122,7 +122,7 @@ function slot0.UpdateRyzaItem(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.layerItemDetail, slot0._tf)
 	slot0.loader:Clear()
 end

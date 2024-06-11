@@ -1,16 +1,16 @@
 slot0 = class("MonthSignReSignUI", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MonthSignReSignUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:InitUI()
 	setActive(slot0._tf, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.InitUI(slot0)
+slot0.InitUI = function(slot0)
 	slot1 = slot0._tf
 	slot0.destroyBonusList = slot1:Find("frame/bg/scrollview/list")
 	slot1 = slot0.destroyBonusList
@@ -25,14 +25,14 @@ function slot0.InitUI(slot0)
 	end, SFX_UI_EQUIPMENT_RESOLVE)
 end
 
-function slot0.setAwardShow(slot0, slot1, slot2)
+slot0.setAwardShow = function(slot0, slot1, slot2)
 	slot0.awards = slot1
 	slot0.callback = slot2
 
 	slot0:displayAwards()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.selectedIds = nil
 
 	if slot0.callback then
@@ -46,7 +46,7 @@ function slot0.OnDestroy(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.displayAwards(slot0)
+slot0.displayAwards = function(slot0)
 	assert(#slot0.awards ~= 0, "items数量不能为0")
 	removeAllChildren(slot0.destroyBonusList)
 

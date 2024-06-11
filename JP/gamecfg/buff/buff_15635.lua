@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.061
+					number = -0.061,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.072
+					number = -0.072,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.083
+					number = -0.083,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.094
+					number = -0.094,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.105
+					number = -0.105,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.116
+					number = -0.116,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.127
+					number = -0.127,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.138
+					number = -0.138,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.15
+					number = -0.15,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
 	},
-	time = 10,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 10,
 	picture = "",
 	desc = "",
 	stack = 1,

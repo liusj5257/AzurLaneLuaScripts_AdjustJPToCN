@@ -5,27 +5,28 @@ slot0.Battle.BattleEnemyCharacter = class("BattleEnemyCharacter", slot0.Battle.B
 slot0.Battle.BattleEnemyCharacter.__name = "BattleEnemyCharacter"
 slot2 = slot0.Battle.BattleEnemyCharacter
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0._preCastBound = false
+	slot0._prefabPos = Vector3(0, 0, 0)
 end
 
-function slot2.RegisterWeaponListener(slot0, slot1)
+slot2.RegisterWeaponListener = function(slot0, slot1)
 	uv0.super.RegisterWeaponListener(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv1.WEAPON_PRE_CAST, slot0.onWeaponPreCast)
 	slot1:RegisterEventListener(slot0, uv1.WEAPON_PRE_CAST_FINISH, slot0.onWeaponPrecastFinish)
 	slot1:RegisterEventListener(slot0, uv1.WEAPON_INTERRUPT, slot0.onWeaponInterrupted)
 end
 
-function slot2.UnregisterWeaponListener(slot0, slot1)
+slot2.UnregisterWeaponListener = function(slot0, slot1)
 	uv0.super.UnregisterWeaponListener(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, uv1.WEAPON_PRE_CAST)
 	slot1:UnregisterEventListener(slot0, uv1.WEAPON_PRE_CAST_FINISH)
 	slot1:UnregisterEventListener(slot0, uv1.WEAPON_INTERRUPT)
 end
 
-function slot2.Update(slot0)
+slot2.Update = function(slot0)
 	uv0.super.Update(slot0)
 	slot0:UpdatePosition()
 	slot0:UpdateMatrix()
@@ -38,7 +39,7 @@ function slot2.Update(slot0)
 	end
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	if slot0._vigilantBar then
 		slot0._vigilantBar:Dispose()
 
@@ -50,11 +51,11 @@ function slot2.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 end
 
-function slot2.GetModleID(slot0)
+slot2.GetModleID = function(slot0)
 	return slot0._unitData:GetTemplate().prefab
 end
 
-function slot2.onWeaponPreCast(slot0, slot1)
+slot2.onWeaponPreCast = function(slot0, slot1)
 	slot2 = slot1.Data
 
 	slot0:AddFX(slot2.fx, true)
@@ -62,13 +63,13 @@ function slot2.onWeaponPreCast(slot0, slot1)
 	slot0._preCastBound = slot2.isBound
 end
 
-function slot2.onWeaponPrecastFinish(slot0, slot1)
+slot2.onWeaponPrecastFinish = function(slot0, slot1)
 	slot0:RemoveCacheFX(slot1.Data.fx)
 
 	slot0._preCastBound = false
 end
 
-function slot2.OnUpdateHP(slot0, slot1)
+slot2.OnUpdateHP = function(slot0, slot1)
 	uv0.super.OnUpdateHP(slot0, slot1)
 
 	if slot1.Data.dHP <= 0 then
@@ -76,33 +77,41 @@ function slot2.OnUpdateHP(slot0, slot1)
 	end
 end
 
-function slot2.AddModel(slot0, slot1)
+slot2.AddModel = function(slot0, slot1)
 	uv0.super.AddModel(slot0, slot1)
 
 	slot0._hpBarOffset = Vector3(0, slot0._unitData:GetTemplate().hp_bar[2], 0)
 end
 
-function slot2.GetSpecificFXScale(slot0)
+slot2.GetSpecificFXScale = function(slot0)
 	return slot0._unitData:GetTemplate().specific_fx_scale
 end
 
-function slot2.OnAnimatorTrigger(slot0)
+slot2.OnAnimatorTrigger = function(slot0)
 	slot0._unitData:CharacterActionTriggerCallback()
 end
 
-function slot2.OnAnimatorEnd(slot0)
+slot2.OnAnimatorEnd = function(slot0)
 	slot0._unitData:CharacterActionEndCallback()
 end
 
-function slot2.OnAnimatorStart(slot0)
+slot2.OnAnimatorStart = function(slot0)
 	slot0._unitData:CharacterActionStartCallback()
 end
 
-function slot2.UpdateAimBiasBar(slot0)
+slot2.UpdateAimBiasBar = function(slot0)
 	uv0.super.UpdateAimBiasBar(slot0)
 
 	if slot0._fogFx then
 		slot1 = slot0:GetUnitData():GetAimBias():GetCurrentRate()
 		slot0._fogFx.transform.localScale = Vector3(slot1, slot1, 1)
 	end
+end
+
+slot2.getCharacterPos = function(slot0)
+	slot1 = slot0:GetUnitData():GetTemplate().prefab_offset
+
+	slot0._prefabPos:Set(slot0._characterPos.x + slot1[1], slot0._characterPos.y + slot1[2], slot0._characterPos.z + slot1[3])
+
+	return slot0._prefabPos
 end

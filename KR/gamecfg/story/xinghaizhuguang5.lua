@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_2",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "별의 바다 기지 - 핵심 구역 - 별의 바다의 심장 - 통제실",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "이곳은 별의 바다에서 가장 신비로운 방.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "모든 기적이 실현된다는 평판을 가지고 있는 곳. 실제로 이곳의 접근 권할을 가진 사람은 손에 꼽힐 정도다.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "하지만 오늘은 쏟아지는 테스트 데이터를 지켜보는 네비게이터 외에도 다른 소녀가 한 명 더 있었다.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "앵커리지",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "첨단함선연구계획국",
 			dir = 1,
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "앵커리지",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "첨단함선연구계획국",
 			dir = 1,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "앵커리지",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "첨단함선연구계획국",
 			dir = 1,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "앵커리지",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "첨단함선연구계획국",
 			dir = 1,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -230,8 +230,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "장비설계국",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "라피II",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "적 함대는 모두 섬멸되었다.",
 			painting = {
@@ -249,9 +249,9 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "장비설계국",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 101510,
 			actorName = "라피II",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네비게이터, 이 새로운 장비, 라피 맘에 쏙 들어…",
 			painting = {
@@ -269,9 +269,9 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "장비설계국",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 101510,
 			actorName = "라피II",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런데 적이 너무 적은 거 아니야…? 아직 부족해, 더 많이 줘.",
 			painting = {
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -327,8 +327,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "세이렌대책국",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "랭글리II",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네비게이터 양, 들리시나요?",
 			painting = {
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -359,8 +359,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "세이렌대책국",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "랭글리II",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "여러분의 테스트를 방해하게 돼서 죄송해요.",
 			painting = {
@@ -378,8 +378,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "세이렌대책국",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "랭글리II",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "노샘프턴을 내보내줄 수 있나요? 요크타운 쪽의 임시 테스트에 노샘프턴의 도움이 필요하거든요.",
 			painting = {
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "네비게이터-TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "별의 바다 호스트",
 			hidePaintObj = true,
@@ -405,28 +405,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
+			bgm = "theme-aostelab",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "가상 세계 NY · 테스트 해역",
-			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네, 알겠습니다.",
@@ -612,11 +612,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "라피도… 받았어. 목표는… 데빌, 전투 준비!",
 			painting = {

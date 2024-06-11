@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2022武藏活动 EX 天碍震星释放",
 	cd = 0,
-	painting = 0,
-	id = 200089,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200089,
 	effect_list = {
 		{
 			target_choise = "TargetNil",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG33",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"바닷바람과 여름날의 무인도\n\n<size=45>33 황금빛 모래사장의 축하 파티</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
-			say = "화창한 하늘.황금빛 모래사장은 최근들어 가장 떠뜰썩한 하루를 맞이했다.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "화창한 하늘.황금빛 모래사장은 최근들어 가장 떠뜰썩한 하루를 맞이했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,17 +56,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "재블린",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "재블린",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "라피",
+			side = 1,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "재블린",
+			side = 1,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Z23",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Z23",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "아야나미",
+			side = 1,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "아야나미",
+			side = 1,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "재블린",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -204,11 +204,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_106",
 			actor = 301820,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "레몬차 한 잔 드릴까요? 설탕과 쟈스민을 넣어서 굉장히 맛있답니다.",
 			painting = {
 				alpha = 0.3,
@@ -219,17 +219,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "여기 갓 나온 피자도 있어~! 자, 나눠줄게~",
 			painting = {
 				alpha = 0.3,
@@ -257,10 +257,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우와, 맛있어 보이네! 고마워~",
 			painting = {
 				alpha = 0.3,
@@ -272,8 +272,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -285,10 +285,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나도 레몬차 한 잔 줘, 피자는…",
 			painting = {
 				alpha = 0.3,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actor = 408080,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 408080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "피자는 이따 먹고! 메탈 블러드 특제 족발과 소금에 절인 양배추부터 먹어봐!",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 408080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "물론 탄산 커피도 빠질 수야 없지!",
 			painting = {
 				alpha = 0.3,
@@ -338,10 +338,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 108020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...여름 파티에 아이스크림을 곁들이는 건 옳은 일이라구!",
 			painting = {
 				alpha = 0.3,
@@ -353,8 +353,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -365,11 +365,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_106",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "에!! 왜 내가 먼저 발견한 소재를 네가 보도한 거야!?",
 			painting = {
 				alpha = 0.3,
@@ -380,17 +380,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -411,10 +411,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 이런 제목으로 말이야! '충격! 지휘관의 온천 스캔들'…!",
 			painting = {
 				alpha = 0.3,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -442,12 +442,12 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이게 바로 기회를 포착하는 기술이라고도 할 수 있지.",
 			painting = {
 				alpha = 0.3,
@@ -465,12 +465,12 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "만약 받아들이기 어렵다면 더 좋은 기사 거리를 찾아보면 되겠네!? 그럼 난 먼저 간다~!",
 			painting = {
 				alpha = 0.3,
@@ -485,10 +485,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "야, 잠깐, 기다려!",
 			painting = {
 				alpha = 0.3,
@@ -500,8 +500,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그리고 나도 있거든! 기다려, 모항의 베테랑 기자도 같이 가자구!",
 			painting = {
 				alpha = 0.3,
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -537,27 +537,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_106",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_106",
 			say = "하얀 파도가 치는 해변. 시원한 바닷바람과 멋진 파티가 어우러져 꿈같은 그림을 연출한다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -565,12 +565,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"따뜻한 바람이 가져온 황금빛 이야기, 그것은 지나갔지만 태양 아래엔 여전히 그 흔적이 남아 있다.\"",
 			painting = {
 				alpha = 0.3,
@@ -582,8 +582,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "귀에 익숙한 목소리가 들렸다.",
@@ -602,10 +602,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흥흥, 왜? 나보고 놀란 거야?",
 			painting = {
 				alpha = 0.3,
@@ -620,10 +620,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이렇게 시끌벅적한 파티를 열었는데 내가 빠질 수야 없지~",
 			painting = {
 				alpha = 0.3,
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "오늘 축하 파티가 있다는 건 어떻게 알았지?",
@@ -646,12 +646,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "시끌벅쩍한 곳을 찾아 헤메는 건 해적의 본능 아닐까~?",
 			painting = {
 				alpha = 0.3,
@@ -663,8 +663,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "요 며칠 혼자서 또 무엇을 하고 있지?",
@@ -677,10 +677,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이번에도 비밀~ 해적으로서 신비함을 유지하는 것도 중요하거든.",
 			painting = {
 				alpha = 0.3,
@@ -695,10 +695,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "앗, 이따가 다시 얘기하자!",
 			painting = {
 				alpha = 0.3,
@@ -710,8 +710,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -723,10 +723,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "여기 꿀 바른 바비큐와 하와이안 피자 하나요——!",
 			painting = {
 				alpha = 0.3,
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "로열 포춘은 칼을 휘두르며 음식을 향해 돌진했다!",
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "…아무래도 웃음은 전염되는 것 같다.",
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "그렇지 않으면 지금 내가 미소 짓고 있지도 않겠지.",

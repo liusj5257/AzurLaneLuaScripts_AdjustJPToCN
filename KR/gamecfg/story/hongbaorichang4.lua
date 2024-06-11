@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"각자의 설날\n\n<size=45>4. 즐거운 새해</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_night",
 			bgm = "story-china",
 			actor = 399041,
 			nameColor = "#a9f548",
 			say = "음… 이 옷… 입기에는 불편하네요… 특히 등이…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 399041,
 			dir = 1,
+			actor = 399041,
 			nameColor = "#a9f548",
 			say = "우후후, 고마워요. 덕분에 살았네요, 나가라.",
 			typewriter = {
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "여러분, 그리고 지휘관님. 이스트 글림의 설날 연회에 와주셔서 감사합니다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,10 +151,10 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			actorName = "핑하이&닝하이",
-			bgName = "star_level_bg_128",
 			side = 0,
+			bgName = "star_level_bg_128",
+			actor = 502030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			actor = 501010,
+			say = "여러분께 새해 인사를 드립니다!",
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
+			actor = 501010,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "안샨급",
-			say = "여러분께 새해 인사를 드립니다!",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "특별히 도와주신 히에이께도 감사드립니다. 연회를 여는 데는 경험이 많으니까요.",
 			effects = {
 				{
@@ -250,8 +250,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_128",
-			actor = 304022,
 			dir = 1,
+			actor = 304022,
 			nameColor = "#a9f548",
 			say = "사소한 일일 뿐이랍니다. 모두가 즐거운 모습으로 저는 만족하니까요.",
 			typewriter = {
@@ -360,13 +360,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_128",
+			side = 2,
+			dir = 1,
 			say = "이스트 글림 외에도 모두가 화려하고 멋있는 공연을 준비해 왔다. 정말로 떠들썩하고 즐거운 설날 연회였다. 그리고 마지막은……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "정말 멋있는 공연이었습니다. 그렇다면 오늘의 클라이맥스——",
 			soundeffect = "event:/battle/firework",
+			actor = 502010,
+			nameColor = "#a9f548",
+			say = "정말 멋있는 공연이었습니다. 그렇다면 오늘의 클라이맥스——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "모두들",
-			bgName = "star_level_bg_128",
 			side = 2,
+			bgName = "star_level_bg_128",
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "(열렬한 박수)",
 			typewriter = {
@@ -491,15 +491,15 @@ return {
 			}
 		},
 		{
-			say = "며칠 뒤, 사쿠라 엠파이어 본섬",
 			side = 2,
 			bgName = "star_level_bg_129",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "newyear2",
+			say = "며칠 뒤, 사쿠라 엠파이어 본섬",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

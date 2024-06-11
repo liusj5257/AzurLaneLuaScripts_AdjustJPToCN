@@ -1,10 +1,10 @@
 slot0 = class("LevelStageDOAFeverPanel", import("view.base.BaseSubPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelStageDOAFeverPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.fillImg = slot0._tf:Find("Fill")
 	slot0.maxImg = slot0._tf:Find("Max")
 
@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 	cloneTplTo(slot1.prefabItem[1], slot0.maxImg)
 end
 
-function slot0.UpdateView(slot0, slot1, slot2)
+slot0.UpdateView = function(slot0, slot1, slot2)
 	slot3 = getProxy(ChapterProxy):GetLastDefeatedEnemy(slot1.id)
 	slot4 = slot1.defeatEnemies
 	slot5 = pg.gameset.doa_fever_count.key_value
@@ -83,7 +83,7 @@ function slot0.UpdateView(slot0, slot1, slot2)
 
 				slot1:GetComponent(typeof(Image)).enabled = true
 
-				function slot4()
+				slot4 = function()
 					uv0.enabled = false
 					uv0.sprite = nil
 

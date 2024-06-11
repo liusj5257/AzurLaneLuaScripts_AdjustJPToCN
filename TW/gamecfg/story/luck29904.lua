@@ -1,8 +1,8 @@
 return {
-	id = "LUCK29904",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK29904",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 299040,
@@ -23,8 +23,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 299040,
 			dir = 1,
+			actor = 299040,
 			say = "多虧了你，接下來可以進行更加驚險刺激的冒險了！",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 299040,
 			dir = 1,
+			actor = 299040,
 			say = "接下來的日子裡，就讓我們一同去探尋更多的寶藏，享受更多冒險的樂趣吧！",
 			typewriter = {
 				speed = 0.05,

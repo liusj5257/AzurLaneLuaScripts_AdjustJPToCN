@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 365,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 365,
+	color = "red",
 	icon = 365,
 	last_effect = "",
 	effect_list = {
@@ -27,11 +27,11 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 366,
 				maxWeaponNumber = 1,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
-				skill_id = 366,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"TRI"
@@ -44,11 +44,11 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 367,
 				maxWeaponNumber = 1,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
-				skill_id = 367,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"QUAD"
@@ -61,11 +61,11 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 368,
 				maxWeaponNumber = 1,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
-				skill_id = 368,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"QUINT"

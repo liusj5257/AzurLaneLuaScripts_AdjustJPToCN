@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Class Z II\n\n<size=45>Social Reject And Proud Of It</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "First you do the thingy here... Then the next thingy!",
 			bgm = "story-1",
+			actor = 106011,
+			nameColor = "#a9f548",
+			say = "First you do the thingy here... Then the next thingy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "Crap! I'm gonna die!",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,15 +67,15 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "Oh nooo! Game over... I guess I gotta practice more if I want to beat this on the hardest difficulty.",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,12 +100,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "Oh dear... How on earth can you live in a room as cluttered as this...",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh dear... How on earth can you live in a room as cluttered as this...",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

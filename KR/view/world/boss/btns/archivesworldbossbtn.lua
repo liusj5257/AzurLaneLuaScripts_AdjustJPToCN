@@ -1,6 +1,6 @@
 slot0 = class("ArchivesWorldbossBtn")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if WorldBossConst.GetAchieveState() == WorldBossConst.ACHIEVE_STATE_STARTING then
 		slot4 = WorldBossConst.BossId2MetaId(WorldBossConst.GetArchivesId())
 		slot5 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot4)
@@ -32,7 +32,7 @@ function slot0.Flush(slot0)
 	setActive(slot0.tip, WorldBossConst.AnyArchivesBossCanGetAward())
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Red Spider Lily's Love\n\n<size=45>Chapter 7 - My Soulmate</size>",
@@ -38,14 +38,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "I felt a kiss on my cheek, then woke up. Apparently, I had fallen asleep in Akagi's lap.",
+			bgm = "story-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -146,9 +146,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Then, I could hear people calling out for me.",
 			typewriter = {
 				speed = 0.05,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "I pray God may watch over you, Commander... the one... I was fated to be with...",
 			typewriter = {
 				speed = 0.05,

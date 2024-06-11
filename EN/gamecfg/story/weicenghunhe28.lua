@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WEICENGHUNHE28",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "??? ???",
 			side = 2,
 			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
+			say = "??? ???",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -24,9 +24,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Who's there?",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "\"Film?\" Are you talking about those shadows?",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "A log? Memories? Whose are you talking about? When was this?",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -173,8 +173,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I have no time for your sick games. Why are you trying to show me these lies?",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "A new shadow emerged from the mist.",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "An entity with an indescribable aura unlike any being that she had met...",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "You're...",
 			dialogShake = {
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_banama_2",
-			say = "BOOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
+			say = "BOOOOM!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "The very land roars. The ocean waters rage and space itself seems to unravel as if split by an earthquake.",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_banama_2",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -320,9 +320,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "Unlike the other shadows, this figure only gazed into Enterprise's eyes before fading back into the mist.",
 			typewriter = {
 				speed = 0.05,
@@ -334,9 +334,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "As if responding to her actions, the mist pulled back, revealing countless mass-produced Siren ships.",
 			effects = {
 				{
@@ -357,11 +357,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			bgm = "hunhe-battle",
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I guess I'm going to have to fight my way out after all...!",
-			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_2",
-			say = "BOOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "BOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -425,9 +425,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "However...",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "Enterprise! Need a hand?",
 			typewriter = {
@@ -459,8 +459,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Baltimore! Everyone!",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "It feels like we've been stranded in the mist forever, but there is a way out after all!",
 			typewriter = {
@@ -493,8 +493,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Now, let's push back the Sirens!",
 			typewriter = {
@@ -507,9 +507,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_banama_2",
+			dir = 1,
 			say = "With the arrival of unexpected reinforcements, Enterprise struck down enemy after enemy with no burdens in her heart knowing that her friends were safe.",
 			typewriter = {
 				speed = 0.05,
@@ -524,8 +524,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "I'm so glad everyone is safe! Right now...",
 			typewriter = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_banama_2",
 			side = 2,
+			bgName = "bg_banama_2",
 			dir = 1,
+			actor = 900227,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -555,12 +555,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_banama_2",
 			side = 2,
+			bgName = "bg_banama_2",
 			dir = 1,
 			blackBg = true,
+			actor = 900227,
 			actorName = "？？？",
 			say = "Not here... the Commander...",
 			typewriter = {

@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "鳥の巣に入れた荒削りの材木は輝かしい光を放ち、そして――",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "……荒削りの材木はどこかに消えた……",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "もう一回入れてみるか？ ",
 			typewriter = {
 				speed = 0.05,

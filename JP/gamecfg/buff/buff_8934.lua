@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑沙恩炮击lv4",
 	time = 3,
-	color = "yellow",
+	name = "黑沙恩炮击lv4",
+	init_effect = "",
+	id = 8934,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8934,
+	color = "yellow",
 	icon = 8934,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8934,
 				time = 1,
 				rant = 10000,
-				skill_id = 8934
+				target = "TargetSelf"
 			}
 		}
 	}

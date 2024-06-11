@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ポラリスのみなさん、サラトガちゃん、頑張ってっー！",
 			bgm = "azumaster-ins",
+			actor = 101020,
+			nameColor = "#a9f548",
+			say = "ポラリスのみなさん、サラトガちゃん、頑張ってっー！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101020,
+			nameColor = "#a9f548",
 			say = "ひゃぅ！？あっ、ご、ごめんなさい、ちょっとはしゃぎ過ぎちゃいましたっ",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101020,
+			nameColor = "#a9f548",
 			say = "うん…！レキシントンさんと一緒に応援していると思うと、どんどん頑張れる気がするんですっ！",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -126,13 +126,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そういえば、練習時から聞きたかったけど、なんで私達が「ポラリス」に選ばれたわけ？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,8 +190,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "そう言われると確かにそうだけど…でもランダムっていう話だし",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "ガスコーニュ、あらゆる状況に対応するようプロトコルの即応切替機能が兵装の実験テストに相応しいと認む",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "また、ボーカルについて、リュウコツの微調整により外見・音質の変更が可能という意味では、音楽と兵装の適性調査における有用性が認められたと判断",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "……よくわからないけど、それってガスコーニュだけの話じゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "ま、私もビスマルクみたいにプロじゃないから、あくまで憶測でしか言えないけど",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "要するにこのまま進めるしかないということですね",
 			typewriter = {
 				speed = 0.05,

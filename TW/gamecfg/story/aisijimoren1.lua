@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏日裡的“驚喜”\n\n<size=45>一 極地的愛斯基摩？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日的港區",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日的港區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "咦？班森姐姐也沒有見過愛斯基摩嗎！",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "這樣這話，很快就能在指揮室裡見到了，會是一個什麼樣的同伴呢...",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "咦...？樹的後面發出了一陣陣嚎叫聲？！",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_113",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "噔噔噔噔~！噔噔噔噔~！",
 			dialogShake = {
 				speed = 0.08,
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "又傳出來一陣鼓聲...！",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -342,8 +342,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_113",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,8 +361,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "（吞口水）",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			actor = 201320,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "鏘鏘鏘鏘~我就是皇家部族級驅逐艦，愛斯基摩，從今天開始擔任港區秘書艦的工作，請多指教啦~",
 			dialogShake = {
 				speed = 0.08,
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "自稱愛斯基摩的少女從樹後面出現了！",
 			effects = {
 				{
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101370,
 			dir = 1,
+			actor = 101370,
 			nameColor = "#a9f548",
 			say = "不過穿著極地風格的厚大衣還帶著全套的雪地裝備，好帥啊。",
 			typewriter = {
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 101270,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101270,
+			nameColor = "#a9f548",
 			say = "和名稱印象不同，是個十分精力旺盛的人啊。哼哼，感覺很快就會有有趣的事發生了~",
 			typewriter = {
 				speed = 0.05,

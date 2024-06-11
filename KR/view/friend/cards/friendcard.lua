@@ -1,6 +1,6 @@
 slot0 = class("FriendCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.go = slot1
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.resumeBtn = slot0.tf:Find("resume_btn")
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0:clear()
 
 	slot0.friendVO = slot1
@@ -45,7 +45,7 @@ function slot0.update(slot0, slot1)
 	slot0.starList:align(slot3:getStar())
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	if slot0.circle.childCount > 0 then
 		slot1 = slot0.circle:GetChild(0).gameObject
 
@@ -53,7 +53,7 @@ function slot0.clear(slot0)
 	end
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:clear()
 end

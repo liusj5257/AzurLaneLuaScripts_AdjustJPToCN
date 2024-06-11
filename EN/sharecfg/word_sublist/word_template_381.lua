@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_381 = {}
 slot1 = slot0.word_template_381
 
-function temp()
+temp = function()
 	uv0["Ｕ"] = {
 		["Ｒ"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["臨"] = {
 		["時"] = {
 			["學"] = {
@@ -27,7 +27,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["頤"] = {
 		["咊"] = {
 			["園"] = {
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["请"] = {
 		["出"] = {
 			["示"] = {
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["請"] = {
 		["齣"] = {
 			["示"] = {
@@ -96,7 +96,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["證"] = {
 		["件"] = {
 			["在"] = {
@@ -112,7 +112,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["沒"] = {
 		["有"] = {
 			["煙"] = {

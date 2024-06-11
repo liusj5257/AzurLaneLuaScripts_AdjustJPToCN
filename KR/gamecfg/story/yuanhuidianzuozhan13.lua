@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "이날의 전투는 블뤼허가 예상하지 못한 방식으로 끝이 났다.",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "이날의 전투는 블뤼허가 예상하지 못한 방식으로 끝이 났다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "천천히 큰 우세를 점할 것이라고 생각된 전함 편대가 갑자기 나타난 울리히 폰 후텐에 의해 진압되었다.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "이제 전선은 아슬아슬한 상황에 다다랐다. 블뤼허쪽 기지와 전선 해역 사이엔 좁은 공간밖에 남아있지 않았다.",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "만약 한 경기만 더 진다면 브륀힐드는 두 사람의 본거지를 점령할 수 있게 된다—— 그렇게 되면 모든 것은 완전히 끝이 날 것이다.",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "메탈 블러드 실험장·휴게실",
@@ -80,17 +80,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -346,8 +346,8 @@ return {
 			actor = 401160,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Z2! 너니까 특별히 말해주는 건데, 오늘 아침 완전 맛있었다?",
 			flashout = {
 				dur = 1,
@@ -357,8 +357,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -455,10 +455,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 403020,
+			bgName = "bg_yuanhuidian",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Z16, 너 바보야?!",
 			effects = {
 				{
@@ -474,8 +474,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0

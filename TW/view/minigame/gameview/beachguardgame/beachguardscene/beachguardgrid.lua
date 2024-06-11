@@ -1,6 +1,6 @@
 slot0 = class("BeachGuardGrid")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._gridTf = slot1
 	slot0._event = slot2
 	slot0.preIcon = findTF(slot0._gridTf, "charPos/preIcon")
@@ -32,31 +32,31 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.pos = findTF(slot0._gridTf, "charPos")
 end
 
-function slot0.setLineIndex(slot0, slot1)
+slot0.setLineIndex = function(slot0, slot1)
 	slot0._lineIndex = slot1
 end
 
-function slot0.getLineIndex(slot0)
+slot0.getLineIndex = function(slot0)
 	return slot0._lineIndex
 end
 
-function slot0.setIndex(slot0, slot1)
+slot0.setIndex = function(slot0, slot1)
 	slot0._index = slot1
 end
 
-function slot0.getIndex(slot0)
+slot0.getIndex = function(slot0)
 	return slot0._index
 end
 
-function slot0.getPos(slot0)
+slot0.getPos = function(slot0)
 	return slot0.pos
 end
 
-function slot0.active(slot0, slot1)
+slot0.active = function(slot0, slot1)
 	setActive(slot0._lineTf, slot1)
 end
 
-function slot0.prechar(slot0, slot1)
+slot0.prechar = function(slot0, slot1)
 	slot2 = GetComponent(slot0.preIcon, typeof(Image))
 	slot2.sprite = BeachGuardAsset.getCardIcon(BeachGuardConst.chars[slot1].name)
 
@@ -65,12 +65,12 @@ function slot0.prechar(slot0, slot1)
 	setActive(slot0.select, true)
 end
 
-function slot0.unPreChar(slot0)
+slot0.unPreChar = function(slot0)
 	setActive(slot0.preIcon, false)
 	setActive(slot0.select, false)
 end
 
-function slot0.inGridWorld(slot0, slot1)
+slot0.inGridWorld = function(slot0, slot1)
 	if slot0.minX < slot0._gridTf:InverseTransformPoint(slot1).x and slot2.x < slot0.maxX and slot0.minY < slot2.y and slot2.y < slot0.maxY then
 		return true
 	end
@@ -78,7 +78,7 @@ function slot0.inGridWorld(slot0, slot1)
 	return false
 end
 
-function slot0.setChar(slot0, slot1)
+slot0.setChar = function(slot0, slot1)
 	if slot0.char then
 		return
 	end
@@ -86,24 +86,24 @@ function slot0.setChar(slot0, slot1)
 	slot0.char = slot1
 end
 
-function slot0.getChar(slot0)
+slot0.getChar = function(slot0)
 	return slot0.char
 end
 
-function slot0.removeChar(slot0)
+slot0.removeChar = function(slot0)
 	slot0.char = nil
 
 	setActive(slot0.full, false)
 end
 
-function slot0.isEmpty(slot0)
+slot0.isEmpty = function(slot0)
 	return slot0.char == nil
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	if slot0.char and slot0.char:getRecycleFlag() then
 		setActive(slot0.recycle, true)
 	else
@@ -111,7 +111,7 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	setActive(slot0.select, false)
 	setActive(slot0.preIcon, false)
 	setActive(slot0.full, false)
@@ -119,11 +119,11 @@ function slot0.clear(slot0)
 	slot0.char = nil
 end
 
-function slot0.preDistance(slot0)
+slot0.preDistance = function(slot0)
 	setActive(slot0.range, true)
 end
 
-function slot0.unPreDistance(slot0)
+slot0.unPreDistance = function(slot0)
 	setActive(slot0.range, false)
 end
 

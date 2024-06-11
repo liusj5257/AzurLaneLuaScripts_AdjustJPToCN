@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 15610,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15610,
+	color = "yellow",
 	icon = 15610,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.2,
-				target = "TargetSelf",
 				skill_id = 15610,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

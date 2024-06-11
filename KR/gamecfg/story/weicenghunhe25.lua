@@ -1,22 +1,22 @@
 return {
-	id = "WEICENGHUNHE25",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE25",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 108040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "그래, 다들 들어봐! 방금 오던 길에 물밑에서 세이렌의 총 지휘함을 발견했어!",
 			dir = 1,
 			bgm = "hunhe-battle",
+			nameColor = "#a9f548",
+			say = "그래, 다들 들어봐! 방금 오던 길에 물밑에서 세이렌의 총 지휘함을 발견했어!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			say = "아주아주 큰…… 음…… 잠수함?!",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			say = "정신을 차리고 주변을 둘러보니까 인트레피드 씨가 있더라고.",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "음……",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "에에에?! 왜 다들 그렇게 보는 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "그렇다면 그 거대한 파도는 세이렌 지휘함이 위협을 받았을 때 사용하는 긴급 방어 수단이겠네요.",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "그렇다는 건 우리가 궁지에 몰아넣었다는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "방금 전에는 전혀 본 적 없었던 신형 세이렌이 잔뜩이었어. 어쨌든 적의 지휘함과 점점 가까워지고 있다는 뜻이겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "블루길이 준 정보 덕분이야. 적의 기습 계획에 대해서 대비할 수 있게 됐네.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "다들 대잠 진형을 갖추자고. 물 밑에서 오는 공격을 조심해!",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 0

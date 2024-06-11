@@ -2,15 +2,15 @@ slot0 = class("CommanderHomeLayer", import("...base.BaseUI"))
 slot0.DESC_PAGE_OPEN = "CommanderHomeLayer:DESC_PAGE_OPEN"
 slot0.DESC_PAGE_CLOSE = "CommanderHomeLayer:DESC_PAGE_CLOSE"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderHomeUI"
 end
 
-function slot0.SetHome(slot0, slot1)
+slot0.SetHome = function(slot0, slot1)
 	slot0.home = slot1
 end
 
-function slot0.OnCatteryUpdate(slot0, slot1)
+slot0.OnCatteryUpdate = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in pairs(slot0.cards) do
@@ -26,7 +26,7 @@ function slot0.OnCatteryUpdate(slot0, slot1)
 	slot0:UpdateMain()
 end
 
-function slot0.OnCatteryStyleUpdate(slot0, slot1)
+slot0.OnCatteryStyleUpdate = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in pairs(slot0.cards) do
@@ -40,7 +40,7 @@ function slot0.OnCatteryStyleUpdate(slot0, slot1)
 	end
 end
 
-function slot0.OnCommanderExpChange(slot0, slot1)
+slot0.OnCommanderExpChange = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.cattery:ExistCommander() then
 			slot6:Update(slot7)
@@ -58,15 +58,15 @@ function slot0.OnCommanderExpChange(slot0, slot1)
 	})
 end
 
-function slot0.OnCatteryOPDone(slot0)
+slot0.OnCatteryOPDone = function(slot0)
 	slot0:UpdateMain()
 end
 
-function slot0.OnZeroHour(slot0)
+slot0.OnZeroHour = function(slot0)
 	slot0:UpdateMain()
 end
 
-function slot0.OnOpAnimtion(slot0, slot1, slot2, slot3)
+slot0.OnOpAnimtion = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.opAnim.gameObject, true)
 
 	if not ({
@@ -102,7 +102,7 @@ function slot0.OnOpAnimtion(slot0, slot1, slot2, slot3)
 	slot0.callback = slot3
 end
 
-function slot0.CancelOpAnim(slot0)
+slot0.CancelOpAnim = function(slot0)
 	if slot0.callback then
 		slot0.timer:Stop()
 
@@ -117,11 +117,11 @@ function slot0.CancelOpAnim(slot0)
 	end
 end
 
-function slot0.OnDisplayAwardDone(slot0, slot1)
+slot0.OnDisplayAwardDone = function(slot0, slot1)
 	slot0.awardDisplayView:ExecuteAction("AddPlan", slot1)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.frame = slot0:findTF("bg")
 	slot0.closeBtn = slot0:findTF("bg/frame/close_btn")
 	slot0.levelInfoBtn = slot0:findTF("bg/frame/title/help")
@@ -145,7 +145,7 @@ function slot0.init(slot0)
 	slot0.bubblePlay = slot0.bubbleTF:Find("play")
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(uv0.DESC_PAGE_CLOSE, function ()
 		setActive(uv0.frame, true)
 	end)
@@ -154,7 +154,7 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:RegisterEvent()
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
@@ -202,7 +202,7 @@ function slot0.didEnter(slot0)
 	slot0.UIMgr:BlurPanel(slot0._tf)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot1] then
 		slot0.cards[slot1] = CatteryCard.New(slot1)
 	end
@@ -217,14 +217,14 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot2)
 end
 
-function slot0.UpdateMain(slot0)
+slot0.UpdateMain = function(slot0)
 	slot0.levelTxt.text = "LV." .. slot0.home:GetLevel()
 
 	slot0:InitCatteries()
 	slot0.flower:Update(slot0.home)
 end
 
-function slot0.InitCatteries(slot0)
+slot0.InitCatteries = function(slot0)
 	slot0.displays = {}
 	slot3 = 0
 	slot4 = 0
@@ -247,7 +247,7 @@ function slot0.InitCatteries(slot0)
 	slot0.cntTxt.text = slot4 .. "/" .. slot3
 end
 
-function slot0.UpdateBubble(slot0)
+slot0.UpdateBubble = function(slot0)
 	slot2 = false
 	slot3 = false
 	slot4 = false
@@ -280,7 +280,7 @@ function slot0.UpdateBubble(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMgr._normalUIMain)
 
 	if LeanTween.isTweening(slot0.bubbleTF.gameObject) then
@@ -314,7 +314,7 @@ function slot0.willExit(slot0)
 	slot0.awardDisplayView:Destroy()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.catteryDescPage:GetLoaded() and slot0.catteryDescPage:isShowing() then
 		slot0.catteryDescPage:Hide()
 

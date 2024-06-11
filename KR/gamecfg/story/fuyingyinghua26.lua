@@ -1,15 +1,15 @@
 return {
-	id = "FUYINGYINGHUA26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "main-newyear",
 			say = "의식의 장·한밤중",
+			side = 2,
+			dir = 1,
+			bgm = "main-newyear",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "우와… 이렇게 난리가 났는데 의식을 계속 해도 되려나?",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,9 +63,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "일단 이걸 옮기고 나면… 휴우!",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 50,
@@ -104,9 +104,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아하하. 평소에는 류호가 물건을 옮기니 별로 하지는 않지만, 이정도 쯤이야~ 휴우!",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -128,15 +128,15 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			withoutActorName = true,
 			side = 2,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#a9f548",
-			withoutActorName = true,
 			say = "이 와중에 미카사는 무언가 생각하는지 말이 없었다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 0,
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -330,8 +330,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -515,8 +515,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -527,9 +527,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "으아아!",
 			dialogShake = {
 				speed = 0.09,
@@ -546,8 +546,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -556,10 +556,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/ui/shuaidao",
 			say = "쾅!",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/shuaidao",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,8 +570,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "히비키가 정원에서 넘어지는 바람에 대화가 끊겼다.",
 			typewriter = {
 				speed = 0.05,
@@ -585,9 +585,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "미안, 또 넘어졌네.",
 			typewriter = {
 				speed = 0.05,
@@ -599,8 +599,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -624,15 +624,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			withoutActorName = true,
 			side = 2,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
-			withoutActorName = true,
 			say = "우아한 발걸음을 떼는 나가토의 뒤를 카와카제가 뒤따랐다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -702,11 +702,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			dir = 1,
 			side = 2,
 			withoutActorName = true,
+			actor = 305050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "의식대 앞에 선 나가토는 손을 모으고 기도문을 읊기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -718,8 +718,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 0,
@@ -773,8 +773,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "하지만 나가토가 기도문을 모두 읊어도 신석에는 반응이 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -803,15 +803,15 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 306070,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "미카사님! 큰일입니다. 또 다른 적에게 방어선이 뚫렸습니다. 주의를——",
 			bgm = "xinnong-4",
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "미카사님! 큰일입니다. 또 다른 적에게 방어선이 뚫렸습니다. 주의를——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -836,8 +836,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -861,10 +861,10 @@ return {
 			}
 		},
 		{
+			say = "——",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "——",
 			flashN = {
 				color = {
 					1,
@@ -900,8 +900,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "의식장 문이 부서지고, 불청객이 빠르게 모두의 앞에 모습을 드러냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -913,8 +913,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "아카기와 카가를 제외한 모두가 불청객의 얼굴을 보고 경악을 금치 못했다.",
 			typewriter = {
 				speed = 0.05,
@@ -944,8 +944,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "나가토님, 비켜서시길. 무고한 희생은 원치 않습니다…",
 			typewriter = {
 				speed = 0.05,
@@ -957,8 +957,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "나가토는 신석을 등지고 그것을 지키려는 듯 양 손을 펼쳤다. 카와카제도 검을 뽑아들고 나가토의 앞을 지켜섰다.",
 			typewriter = {
 				speed = 0.05,
@@ -985,8 +985,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -998,8 +998,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "이 돌은 신석 따위가 아닙니다… 그저 제물이 필요한 악마일 뿐.",
 			typewriter = {
 				speed = 0.05,
@@ -1014,8 +1014,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "제물이나 그에 준하는 물건이 없다면… 재앙이 닥칠 것입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -1042,8 +1042,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1055,8 +1055,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "기록은 가짜입니다. 이 돌은 이 시대에 속한 것이 아니니까!",
 			typewriter = {
 				speed = 0.05,
@@ -1083,11 +1083,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actor = 900192,
+			actorName = "？？？",
 			say = "나가토님, 죄송합니다!",
 			typewriter = {
 				speed = 0.05,
@@ -1099,8 +1099,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1109,11 +1109,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
-			side = 2,
-			dir = 1,
-			nameColor = "#FF5C5CFF",
 			withoutActorName = true,
+			side = 2,
+			nameColor = "#FF5C5CFF",
+			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "불청객은 검을 뽑아들고 나가토를 향해 휘둘렀다——하지만 나가토는 피하지 않았다.",
 			typewriter = {
@@ -1141,8 +1141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1153,8 +1153,8 @@ return {
 		{
 			actor = 301490,
 			side = 2,
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "카와카제의 검이 그 앞을 막아섰다——",
 			typewriter = {
 				speed = 0.05,
@@ -1166,10 +1166,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/ui/kuang",
 			say = "쾅——",
+			dir = 1,
+			soundeffect = "event:/ui/kuang",
 			flashN = {
 				color = {
 					1,
@@ -1200,8 +1200,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "주변이 한 순간에 고요해졌다. 미카사와 히비키도 그 앞으로 뛰어들었지만, 공격을 막을 수는 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -1213,8 +1213,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "카와카제의 검신이 두동강 났다. 부러진 검의 일부가 주변으로 튀어 곁에 있던 아카기의 얼굴에 긴 상처를 남겼다.",
 			typewriter = {
 				speed = 0.05,
@@ -1256,8 +1256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1281,8 +1281,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "쿠쿵—— 나가토의 뒤에 있던 신석이 두개로 쪼개졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -1312,8 +1312,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "오의에 달한 검술은 검날이 닿지 않아도… 다시 말해 접촉 없이도 그 혼을 벨 수 있어야 오의에 달했다 할 수 있지——",
 			typewriter = {
 				speed = 0.05,
@@ -1328,8 +1328,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "하지만… 아무래도 당한 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -1344,8 +1344,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "——이 돌, 바뀌었으니까.",
 			typewriter = {
 				speed = 0.05,

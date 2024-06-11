@@ -1,17 +1,17 @@
 return {
 	fadeOut = 3,
 	mode = 2,
-	id = "TACT40004",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TACT40004",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "舰长，对不起，现在的宁海还太弱小",
 			typewriter = {
@@ -24,11 +24,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "平海，对不起，现在的姐姐还没法保护你",
 			typewriter = {
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "但是，迟早有一天——",
 			typewriter = {
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "我们会变强——我们的民族会变强——",
 			typewriter = {
@@ -75,11 +75,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "到了那个时候，希望你们能够记得我们的名字",
 			typewriter = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "记得曾经在这片江涛之上，有这么一群舍身奋战的小不点",
 			typewriter = {
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "用她们娇小的身躯独自对抗着数十倍的敌人",
 			typewriter = {
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "无路可退，而她们的背后——",
 			typewriter = {
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 2,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "——是民族的脊梁",
 			typewriter = {
@@ -160,13 +160,13 @@ return {
 			}
 		},
 		{
-			bgSpeed = 0.5,
-			mode = 3,
 			bgName = "bg_story_12",
+			mode = 3,
+			bgSpeed = 0.5,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -183,9 +183,9 @@ return {
 			}
 		},
 		{
-			asideType = 2,
-			mode = 1,
 			bgName = "bg_story_12",
+			mode = 1,
+			asideType = 2,
 			bgShadow = {
 				1,
 				0.6,

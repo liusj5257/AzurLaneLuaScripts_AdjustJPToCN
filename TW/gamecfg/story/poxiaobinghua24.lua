@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ffff4d",
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			say = "大廳的門並沒有關閉，但是就彷佛存在一堵看不見的牆壁阻擋一般，雙腳無法邁出大廳一步。",
 			dir = 1,
 			bgm = "bsm-2",
+			nameColor = "#ffff4d",
+			say = "大廳的門並沒有關閉，但是就彷佛存在一堵看不見的牆壁阻擋一般，雙腳無法邁出大廳一步。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "在彷彿一切都陷入某種靜滯狀態的大廳中，突然出現了一個投影。",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "螢幕中那些正在戰鬥的艦隊是什嗎？",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "前進陣線是什麼……？",
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "那些艦隊正在同什麼戰鬥？",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "敵人是塞壬嗎？",
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "……塞壬是敵人嗎？",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "安蒂克絲是敵人嗎？",
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "指揮這支艦隊的人是誰？",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "這場戰鬥最後的結果怎麼樣？",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "當時也是為了保護什麼而戰鬥嗎？",
@@ -394,8 +394,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "與現在所發生的情況相似？",
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "從這裡撤離的路線在哪裡？",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "………………",
@@ -496,11 +496,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
+			actorName = "紀錄機構",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			actorName = "紀錄機構",
+			nameColor = "#ffff4d",
 			say = "戰鬥，直到光芒消散為止。",
 			typewriter = {
 				speed = 0.05,

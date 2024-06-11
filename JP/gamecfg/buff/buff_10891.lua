@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.04
+					number = 0.04,
+					attr = "cri"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.046
+					number = 0.046,
+					attr = "cri"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.052
+					number = 0.052,
+					attr = "cri"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.06
+					number = 0.06,
+					attr = "cri"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.066
+					number = 0.066,
+					attr = "cri"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.072
+					number = 0.072,
+					attr = "cri"
 				}
 			},
 			{
@@ -94,8 +94,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.05
+					number = 0.05,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -109,8 +109,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.08
+					number = 0.08,
+					attr = "cri"
 				}
 			},
 			{
@@ -120,8 +120,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.1
+					number = 0.1,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -135,8 +135,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.086
+					number = 0.086,
+					attr = "cri"
 				}
 			},
 			{
@@ -146,8 +146,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.15
+					number = 0.15,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -161,8 +161,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.092
+					number = 0.092,
+					attr = "cri"
 				}
 			},
 			{
@@ -172,8 +172,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.2
+					number = 0.2,
+					attr = "criDamage"
 				}
 			}
 		}
@@ -187,8 +187,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cri",
-					number = 0.1
+					number = 0.1,
+					attr = "cri"
 				}
 			},
 			{
@@ -198,20 +198,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "criDamage",
-					number = 0.3
+					number = 0.3,
+					attr = "criDamage"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "不屈之神通",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 10891,
+	time = 0,
 	picture = "",
 	desc = "提高鱼雷暴击和暴击伤害",
 	stack = 1,
-	id = 10891,
+	color = "yellow",
 	icon = 10891,
 	last_effect = "",
 	blink = {
@@ -229,8 +229,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.04
+				number = 0.04,
+				attr = "cri"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Paean for Peace\n\n<size=45>Sunset</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "After making our rounds, we managed to purchase everything we came out for.",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "After making our rounds, we managed to purchase everything we came out for.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "In accordance to Newcastle's suggestion, we sat down on a bench at the street corner.",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "She pulled a book out of hammerspace and placed it upon her thighs.",
 			typewriter = {
 				speed = 0.05,
@@ -222,12 +222,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "She did once tell me, verbatim, \"You should hold onto your dreams\".",
 			typewriter = {
 				speed = 0.05,

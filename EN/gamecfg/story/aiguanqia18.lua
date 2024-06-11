@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA18",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA18",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301120,
 			side = 0,
 			nameColor = "#a9f548",
-			hideOther = true,
+			actor = 301120,
 			dir = 1,
+			hideOther = true,
 			actorName = "Ikazuchi＆Inazuma",
 			say = "Eat this!",
 			effects = {
@@ -36,10 +36,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			say = "KABOOOOM!!",
+			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
 					active = false,
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "Takao-chan",
 			say = "For this to happen to me... how shameful...!",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Chune-Chune",
 			dir = -1,
+			actorName = "Chune-Chune",
 			say = "Uguuuu~ ><",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Shou-chan",
 			dir = 1,
+			actorName = "Shou-chan",
 			say = "Just when I managed to surpass Akagi...",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Prinz-chan",
 			dir = 1,
+			actorName = "Prinz-chan",
 			say = "It's fine. There's nothing you need to apologize for. However, I want to leave a message for Commander... for AI...",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Prinz-chan",
 			dir = 1,
+			actorName = "Prinz-chan",
 			say = "This shitty nickname that you gave me... I'm actually quite fond of it...",
 			typewriter = {
 				speed = 0.05,

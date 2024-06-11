@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YADE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YADE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Slacking Off with the \"Good\" Girl\n\n<size=45>3.Loafing Around with Friends!</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "Port - Commander's Office",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Port - Commander's Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,12 +47,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hello, hello! It's your scheduled slack-off time!",
 			painting = {
 				alpha = 0.3,
@@ -67,10 +67,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I brought Elbe with me this time. When she heard she'd get to hang out with you, she came running.",
 			painting = {
 				alpha = 0.3,
@@ -85,10 +85,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Naturally! This isn't just a chance to hang out; it's an opportunity to waste the Commander's time and make work even harder. I wouldn't miss this for the world!",
 			painting = {
 				alpha = 0.3,
@@ -108,10 +108,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's waste your valuable time together like the naughty people we are!",
 			painting = {
 				alpha = 0.3,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As you can see, our slacking will be a little livelier than usual today. In other words...",
 			painting = {
 				alpha = 0.3,
@@ -181,10 +181,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Today, we're playing Old Maid with a punishment game on top!",
 			painting = {
 				alpha = 0.3,
@@ -204,10 +204,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The rules are simple. The first winner gets to choose a punishment for the loser to undergo.",
 			painting = {
 				alpha = 0.3,
@@ -222,10 +222,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But keep it clean, okay? Nothing cruel or unusual!",
 			painting = {
 				alpha = 0.3,
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, let's get it started!",
 			painting = {
 				alpha = 0.3,
@@ -254,27 +254,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "Before long, our first round had reached the final battle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -285,10 +285,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "There are two routes at this point. If the Commander pulls something other than the Joker, then Elbe loses.",
 			painting = {
 				alpha = 0.3,
@@ -303,10 +303,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But if the Commander pulls a Joker, then it'll be Elbe's turn... Of course, that could be fun in its own right.",
 			painting = {
 				alpha = 0.3,
@@ -321,10 +321,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Bring it on, I say! I'll make sure you take the Joker!",
 			painting = {
 				alpha = 0.3,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "I tried reaching out for the card on the right to see what would happen.",
@@ -355,10 +355,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "!!!",
 			painting = {
 				alpha = 0.3,
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Elbe was clearly anxious. It'd be harder to not know which one was the Joker at this point.",
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -408,13 +408,13 @@ return {
 			}
 		},
 		{
-			actor = 406020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 406020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Woohoo! Now it's my turn!",
 			painting = {
 				alpha = 0.3,
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -543,8 +543,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -598,8 +598,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -703,13 +703,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, for your punishment...",
 			painting = {
 				alpha = 0.3,
@@ -893,10 +893,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, it's about time we get to round two.",
 			painting = {
 				alpha = 0.3,

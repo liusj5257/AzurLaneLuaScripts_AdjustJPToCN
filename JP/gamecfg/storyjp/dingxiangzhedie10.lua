@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE10",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhedie_3",
-			stopbgm = true,
-			say = "「リアリティレンズ」仮想現実空間 構成要素：？？？ 「Ⅱ」型艤装テスト演習海域",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
+			stopbgm = true,
+			say = "「リアリティレンズ」仮想現実空間 構成要素：？？？ 「Ⅱ」型艤装テスト演習海域",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "事前の打ち合わせ通り、こちらの艦隊は三手に分けて行動している。",
 			typewriter = {
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "ノーザンプトンとホーネット、ハムマンとヨークタウン、そして搭乗している指揮艦とラングレーの3グループだ。",
 			typewriter = {
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "分かっていますわ！あと2秒……",
 			painting = {
 				alpha = 0.3,
@@ -106,10 +106,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "送りました！敵空母艦隊の中に対空特化型のコルベットを多数確認！気をつけて！",
 			painting = {
 				alpha = 0.3,
@@ -121,12 +121,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "制御艦のマーキングまでもうちょっとかかりますけど、それが終わるまでは突っ走らないでくださいっ",
 			painting = {
 				alpha = 0.3,
@@ -157,12 +157,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、ホーネットたちのほうはなんとかなりそうです",
 			painting = {
 				alpha = 0.3,
@@ -177,10 +177,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でもあまり楽観的な状況じゃありませんね…やはり敵の戦力は圧倒的です",
 			painting = {
 				alpha = 0.3,
@@ -195,10 +195,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "艦載機やドローンだけじゃなく、水中ドローンや潜航機まで多く展開されています",
 			painting = {
 				alpha = 0.3,
@@ -210,12 +210,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "確かに個々の戦力はこちらが圧倒していますけど、安価な兵器であろうと、向こうが数にものを言わせて攻撃してきたら……",
 			painting = {
 				alpha = 0.3,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "（リュウコツ融装…艦船のリュウコツの情報を取り入れ、異なるフネの力を反映させる技術。）",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "（その成果が今ヨークタウンたちが身につけている新型の「Ⅱ（セカンド）」型艤装だ。）",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "（「Ⅱ」型艤装は出力を強化されただけでなく、ジャミング対策など電子戦への対策も施されている。）",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "（そして特筆すべきは、通信力や情報処理能力の強化により、戦場にいるほかの艦船とのデータリンクを可能としたことだ。）",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "（メンタルキューブを含むリソースを大量に使ったこの研究で、リュウコツやメンタルキューブに関する調整を自分が中心に行った。）",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "――と、アンジュ博士からもらった書類には書いてあったが……",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "シミュレーションだろうが演習だろうが、この新しい力を試すまでだ。",
 			typewriter = {
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "データリンク？そうですね…新艤装の最大の強みの一つで、向上した情報処理能力により――",
 			painting = {
 				alpha = 0.3,
@@ -317,10 +317,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "偵察で得られたデータを瞬時に処理し、戦場にいる全ての仲間にほぼリアルタイムで連絡できます、すなわち……",
 			painting = {
 				alpha = 0.3,
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "全員が同時に指揮官の指示をもとに状況に対処できるんですよ",
 			painting = {
 				alpha = 0.3,
@@ -352,10 +352,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官が持っている端末にも戦場の最新情報が反映されているんでしょ？通信機での会話に頼っていたときとは大違いですね",
 			painting = {
 				alpha = 0.3,
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "それぞれの艦載機が同じ情報に基づいて同時運用できるようになると、仲間の連携も向上するはず。",
 			typewriter = {
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうです！これこそが指揮官が開発してくれた「Ⅱ」型艤装ですから！",
 			painting = {
 				alpha = 0.3,
@@ -397,10 +397,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "実は演習開始時から仲間の偵察設備の制御を一部預かっていましたよ。こうしたほうが皆が安心して前線で戦えると思いまして",
 			painting = {
 				alpha = 0.3,
@@ -412,8 +412,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "偵察設備の制御ができるということは…もしかして艦載機の制御も他者に譲れるのだろうか。",
 			typewriter = {
@@ -422,12 +422,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
-			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええと……本当だ。できますね！私、なんで思いつかなかったのでしょう…",
 			painting = {
 				alpha = 0.3,
@@ -439,8 +439,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -452,10 +452,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やっぱり指揮官の見解は勉強になりますね。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -467,8 +467,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "自分が艤装の開発に参加した記憶はないが、ただひらめいただけだ。",
 			typewriter = {
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "デバイスを使って、ヨークタウンとの通信回線を開く。",
 			typewriter = {
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "彼女が担当している戦線には、空中よりも海中の脅威が大きいと聞いた。",
 			typewriter = {
@@ -519,10 +519,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今のところは海中の敵を全部倒しているけど…",
 			painting = {
 				alpha = 0.3,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "ヨークタウンに援護させるのではなく、ヨークタウンをこちらからサポートしよう。",
 			typewriter = {
@@ -582,8 +582,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "対空戦闘であまり役に立たない偵察機の一部の制御をラングレーに代わってもらって、こちらから敵制御艦の特定を行うのだ。",
 			typewriter = {
@@ -649,8 +649,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "あと少し持ちこたえてくれ。敵の弱点を見つけ出す。",
 			typewriter = {
@@ -678,8 +678,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "ラングレーに指示を飛ばし、制御下の偵察機を全て投入して制御艦を捜索させる。",
 			typewriter = {
@@ -688,8 +688,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "見つかり次第、全艦で攻撃をしかけ撃破する。そして…",
 			typewriter = {
@@ -698,8 +698,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "量産艦の連携が乱れている間に、主力艦隊を殲滅し、勝利を勝ち取る――",
 			typewriter = {
@@ -708,12 +708,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい！",
 			painting = {
 				alpha = 0.3,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG23",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG23",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "「μ兵裝」達到 功能極限……！歌唱行動，停止……",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "哈啊……這回是真的不行了呢……",
 			typewriter = {
 				speed = 0.05,
@@ -42,9 +42,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 301014,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "燃燒殆盡了……",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "呼…不過大家把整個Live的氣氛推到最高潮了呢！",
 			typewriter = {
 				speed = 0.05,
@@ -97,14 +97,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "喵！！整個會場的氣氛要爆炸了喵！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,10 +249,10 @@ return {
 			}
 		},
 		{
-			actorName = "大家",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "大家",
 			dir = 1,
+			side = 2,
 			say = "哦哦哦！",
 			dialogShake = {
 				speed = 0.09,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,14 +324,14 @@ return {
 			}
 		},
 		{
-			actor = 307100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307100,
+			nameColor = "#a9f548",
 			say = "「μ兵裝」的測試，貌似也要再進行一段時間呢",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

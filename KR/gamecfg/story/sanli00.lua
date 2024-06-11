@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLI00",
-	continueBgm = true,
 	fadeType = 1,
+	continueBgm = true,
+	id = "SANLI00",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-6",
 			mode = 1,
+			bgm = "story-6",
 			sequence = {
 				{
 					"",

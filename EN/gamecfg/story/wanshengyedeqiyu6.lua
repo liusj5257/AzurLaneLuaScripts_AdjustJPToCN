@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Halloween Hijinks\n\n<size=45>6 The Night of Tempesta's Coming</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "battle-highseasfleet-reborn",
 			bgName = "star_level_bg_162",
 			say = "Food Court",
-			bgm = "battle-highseasfleet-reborn",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"Whenever the port has an event, each shipgirl faction ends up setting up their own food stalls.\"",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"The Halloween party is no exception, but...due to time and space constraints, I hear they couldn't scrape together anything big.\"",
 			typewriter = {
@@ -151,14 +151,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 102091,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Got it! This is all you wanted, right? Also, here's a freebie for the Commander!",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,14 +169,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Wait, are you...",
 			hidePaintEquip = true,
+			actor = 102091,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Wait, are you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "It would be a pain to tell her everything about the costume and the real weapon, so I used my authority as Commander to get through the situation.",
 			typewriter = {
@@ -197,14 +197,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "A-Ah, I see! Well, I hope you two enjoy the party!",
 			hidePaintEquip = true,
+			actor = 102091,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "A-Ah, I see! Well, I hope you two enjoy the party!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "Royal Fortune took some gold coins from her pouch and slammed them onto the table.",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"Those are heavy... Could it be?!\"",
 			typewriter = {
@@ -254,14 +254,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Don't make light of us pirates! Even I obey the law, and I know the rules of society!",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Don't make light of us pirates! Even I obey the law, and I know the rules of society!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,8 +275,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "Hold it right there, pirate shipgirl~!",
 			painting = {
@@ -297,9 +297,9 @@ return {
 		{
 			actor = 105021,
 			side = 2,
-			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_162",
 			say = "Let the Commander go at once!",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "Huh? Umm... This is just a Halloween costume. Ack! I mean, release the Commander at once!",
 			painting = {
@@ -353,14 +353,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "How dare you?! The Commander is plundering with me, so he's mine! You can't have him!",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "How dare you?! The Commander is plundering with me, so he's mine! You can't have him!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,8 +393,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "That's my line! Why do you get to monopolize him outta nowhere?! If you're plannin' somethin' untoward—",
 			painting = {
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "Now Oklahoma's acting crazy too, all because of the real pirate, Royal Fortune!",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "I step forth to explain things before the situation can get worse.",
@@ -441,9 +441,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "Oooh... So she wasn't takin' you captive? You're just enjoyin' the Halloween party?",
 			painting = {
@@ -455,17 +455,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -476,9 +476,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "It looked real to me. And when I found out she was a real pirate, I couldn't help myself... Commander, I'm real sorry!",
 			painting = {
@@ -494,9 +494,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "And Royal Fortune, I'm sorry for what I did...",
 			painting = {
@@ -531,9 +531,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "Thanks, I think? It's not much of an apology, but how would you like some pumpkin pie? I just got someone to teach me how to make it!",
 			painting = {
@@ -566,8 +566,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -576,8 +576,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "With their quarrel resolved, I joined Oklahoma and Royal Fortune on a bench, and we ate pumpkin pie together.",
@@ -610,9 +610,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "How'd you like my homemade pumpkin pie? Pretty good, huh?",
 			painting = {
@@ -648,9 +648,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "Ahahaha... What does it mean for a shipgirl to be another shipgirl's first mate?",
 			painting = {
@@ -705,13 +705,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			soundeffect = "event:/battle/boom2",
 			say = "Haah, haah, you're not bad... I'm at a disadvantage in this fight. Time to scram!",
 			painting = {
 				alpha = 0.3,
@@ -762,12 +762,12 @@ return {
 			}
 		},
 		{
-			actor = 105021,
 			side = 2,
 			bgName = "star_level_bg_162",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 105021,
+			nameColor = "#A9F548FF",
 			say = "H-Huh? Why were we fighting?",
 			painting = {
 				alpha = 0.3,
@@ -808,9 +808,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 2,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "W-Waaait! Let the Commander gooo!",
 			painting = {
@@ -829,8 +829,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "Royal Fortune dragged me off to a place with nobody around.",
@@ -839,17 +839,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -877,8 +877,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -887,8 +887,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "\"Maybe, but after you showed off that real weapon, I'm sure the others will come running soon...\"",
@@ -937,8 +937,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "\"Come to think of it, Royal Fortune, weren't you searching for some treasure?\"",
@@ -968,8 +968,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"What do you mean by 'that time'?\"",
 			typewriter = {
@@ -978,14 +978,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hmm, it's a promise between pirates, so I have no other choice!",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hmm, it's a promise between pirates, so I have no other choice!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,8 +996,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"I think I've figured out what's going on. If you have plans with your friends, I won't stop you.\"",
 			typewriter = {
@@ -1006,14 +1006,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "But don't you worry! We'll have plenty of chances to see each other! Our date can wait until next time, Commander!",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "But don't you worry! We'll have plenty of chances to see each other! Our date can wait until next time, Commander!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,14 +1043,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Ah, forget it! I'm not gonna worry now! The great Tempesta rolls in, rampages, and scrams just like a tempest!",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Ah, forget it! I'm not gonna worry now! The great Tempesta rolls in, rampages, and scrams just like a tempest!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1080,8 +1080,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"Sounds chaotic, but a tempest sounds fun once in a while.\"",
 			typewriter = {
@@ -1109,8 +1109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1138,8 +1138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"I can't wait.\"",
 			typewriter = {
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "We said our goodbyes, and the shipgirl of Tempesta, Royal Fortune, disappeared again into the Halloween night.",
 			typewriter = {
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "Lighthearted and sincere, and despite her history as a pirate, she adheres to laws and promises made.",
 			typewriter = {
@@ -1213,8 +1213,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "She may be lacking in common sense, but she's another treasured friend.",
 			typewriter = {
@@ -1223,8 +1223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "Looking forward to our future banquet, I returned to the party to spend the rest of the night with the others.",
 			typewriter = {

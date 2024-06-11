@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE10",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "hunhe-battle",
-			dir = 1,
+			side = 2,
 			say = "파나마 요새 동쪽·외해",
+			dir = 1,
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "에? 나는 실전 경험이 많지 않은 편이라서, 설마 방금 전에 뭘 잘못했나…?",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "흐흥, 성능에는 자신 있지. 그리고 굉장히 엄격한 연습과 테스트를 거쳤다고!",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "사실은 드디어 볼티모어와 나란히 작전을 수행하겠구나 기대했었는데…",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "그럼. 어떻게 걱정을 안 하겠어…",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "브레머튼의 얼굴이 잠시 어두워졌다 이내 다시 환한 미소가 번졌다..",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "하지만 볼티모어는 나보다 강하니까 분명 지금쯤 세이렌의 본진을 뒤집어 놓고 있을 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -175,16 +175,16 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 107170,
 			say = "아? 바다 안개…?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…… [잡음] ……들리십니까… [잡음] …",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,11 +216,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "… [잡음] …세이렌은 바다 안개와 함께… [잡음] …다시 공격을…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,11 +233,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "… 바다 안개에서 떨어져서… [잡음] …근해로 돌아가…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,12 +248,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			soundeffect = "event:/ui/noice",
 			actorName = "통신기",
+			side = 2,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "……………………",
-			dir = 1,
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_3",
-			actorName = "브레머튼",
 			dir = 1,
+			actorName = "브레머튼",
 			say = "숨 돌릴 틈도 없이 몰아치네… 모두 각자의 싸움을 하고 있으니 걱정을 하는 거로는 문제를 해결할 수 없겠어.",
 			effects = {
 				{
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "브레머튼",
+			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "벙커힐",
+			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,

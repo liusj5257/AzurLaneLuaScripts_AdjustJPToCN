@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "可被维修目标·监控自身血量",
 	time = 0,
+	name = "可被维修目标·监控自身血量",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				skill_id = 50110,
 				minTargetNumber = 1,
 				hpUpperBound = 0.8,
-				skill_id = 50110,
 				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 6781,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6781,
+	color = "red",
 	icon = 6780,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				type = 23,
-				number = 0.35
+				number = 0.35,
+				type = 23
 			}
 		}
 	}

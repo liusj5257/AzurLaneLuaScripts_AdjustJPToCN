@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA14",
 	continueBgm = true,
 	fadein = 1.5,
 	scripts = {
@@ -11,9 +11,9 @@ return {
 			actor = 900021,
 			actorName = "퓨리파이어",
 			side = 2,
-			bgm = "nagato-boss",
 			dir = 1,
 			say = "아아아!! 왜 또 내가 손해 보는 역할인 거야! '중앵'을 한번 보고 싶었을 뿐인데에~!",
+			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,14 +24,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom1",
 			say = "(퍼어어어어어어엉!)",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -231,15 +231,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			stopbgm = true,
 			say = "드디어… 드디어 완성될 것 같군요…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -309,14 +309,14 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
 			say = "이 예상 외의 사태… 너라면…… 어떻게 할래?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

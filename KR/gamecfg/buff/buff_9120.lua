@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 9120,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "埃吉尔模拟战斗用全弹技能",
 	stack = 1,
-	id = 9120,
+	color = "red",
 	icon = 9120,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			arg_list = {
 				check_target = "TargetHarmNearest",
 				range = 35,
-				skill_id = 19430,
 				maxTargetNumber = 0,
+				skill_id = 19430,
 				index = {
 					1
 				}
@@ -44,8 +44,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				range = 35,
-				skill_id = 19431,
 				check_target = "TargetHarmNearest",
+				skill_id = 19431,
 				index = {
 					1
 				}

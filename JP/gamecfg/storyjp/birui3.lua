@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"御召艦の宴\n\n<size=45>三 きっかけは良しなに</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "思い出しました？この前お話したことを……",
 			bgm = "story-1",
+			actor = 304020,
+			nameColor = "#a9f548",
+			say = "思い出しました？この前お話したことを……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そういえば、宴会の話は確か……",
 			typewriter = {
 				speed = 0.05,
@@ -62,15 +62,15 @@ return {
 			}
 		},
 		{
-			say = "数日前、母港周辺海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "数日前、母港周辺海域",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 304030,
+			say = "別に戦いたいわけじゃないけど、この定期パトロールって平和すぎてなんだか面白くないよね……",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "別に戦いたいわけじゃないけど、この定期パトロールって平和すぎてなんだか面白くないよね……",
+			actor = 304030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 304030,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304030,
+			nameColor = "#a9f548",
 			say = "！ならかかってこい！絶対に負けないッ！",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -205,10 +205,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 304040,
 			actorName = "{namecode:73}&{namecode:72}",
@@ -231,9 +231,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "言葉こそ厳しくないが、気迫で二人を止めさせた比叡だった。",
 			typewriter = {
 				speed = 0.05,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "みんな、お疲れ様でした。",
 			typewriter = {
 				speed = 0.05,
@@ -311,10 +311,10 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			actorName = "{namecode:73}&{namecode:72}",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			actor = 304040,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			say = "そういえばそんなことがあったな……",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "そういえばそんなことがあったな……",
 			effects = {
 				{
 					active = false,
@@ -356,8 +356,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -426,8 +426,8 @@ return {
 		},
 		action = {
 			{
-				type = "move",
 				y = -75,
+				type = "move",
 				delay = 0,
 				dur = 0.3,
 				x = 0

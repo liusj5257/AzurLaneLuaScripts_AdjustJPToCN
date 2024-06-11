@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA49",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA49",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "holo-aqua",
+			say = "Finally, the last moments have arrived.",
 			side = 2,
 			bgName = "bg_story_holosaba2",
 			dir = 1,
-			say = "Finally, the last moments have arrived.",
+			bgm = "holo-aqua",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "On this day, at this time, feeling the advent of spring",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "Those who were always by me since arriving in the world of Azur Lane: Fubuki, Matsuri, Mio, Ayame, Shion, Sora",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "Along with Yamada Hermione, Miokawa Iiyo, Kakitsubata Nakiri, Ma Tsu Ri, Shi O N, Super Sadist Sora, Great Detective Fubuki, Dark Fox Blizzard",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "And, the one who didn't make a single appearance from start to finish, Tester",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "Friend or Foe, I truly thank you for everything.",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "If I think about it, just a little bit ago, my chest was full of unease and fear as I entered through the gate of the Mirror Sea.",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "Since that day, I was able to make countless memories with everyone.",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "In a group together with everyone, I was able to increase my skills in battle. From a battle between maids, to planning and clearing a huge labyrinth, to a Shadow Duel...",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "The fear of being thrust into crisis after crisis, the joy of collecting items",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "I was able to learn many things spending everyday life as a ship girl.",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "Everyone, I thank you for taking care of me up to now!",
 			typewriter = {
@@ -305,16 +305,16 @@ return {
 			}
 		},
 		{
-			actor = 10500030,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "...",
 			bgm = "holo-control",
+			actor = 10500030,
+			nameColor = "#a9f548",
+			say = "...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -343,8 +343,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "Well then, Hololive Resistance, we're good to go! Let's start this show!",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "Explosion!!!",
 			dialogShake = {
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_story_holosaba2",
+			mode = 1,
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 1,

@@ -6,7 +6,7 @@ slot3 = slot2.CldNode
 slot4 = table
 slot2.CldArea = class("CldArea")
 
-function slot2.CldArea.Ctor(slot0, slot1, slot2, slot3)
+slot2.CldArea.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.min = slot1
 	slot0.max = slot2
 	slot0.center = (slot1 + slot2):Mul(0.5)
@@ -23,13 +23,13 @@ function slot2.CldArea.Ctor(slot0, slot1, slot2, slot3)
 	slot0.nodes = {}
 end
 
-function slot2.CldArea.AddNode(slot0, slot1)
+slot2.CldArea.AddNode = function(slot0, slot1)
 	uv0.insert(slot0.nodes, slot1)
 
 	slot1.area = slot0
 end
 
-function slot2.CldArea.InArea(slot0, slot1, slot2)
+slot2.CldArea.InArea = function(slot0, slot1, slot2)
 	if slot1.x < slot0.min.x or slot1.y < slot0.min.y then
 		return false
 	end
@@ -41,7 +41,7 @@ function slot2.CldArea.InArea(slot0, slot1, slot2)
 	return true
 end
 
-function slot2.CldArea.GetAreaIndex(slot0, slot1, slot2)
+slot2.CldArea.GetAreaIndex = function(slot0, slot1, slot2)
 	if (slot0.center.x <= slot1.x and 0 or 2) ~= (slot3.x <= slot2.x and 0 or 2) then
 		return 0
 	end
@@ -56,14 +56,14 @@ slot2.ColliderTree = slot5
 slot5.MaxLayer = 3
 slot6 = 6
 
-function slot5.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot5.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.name = slot1
 	slot0.root = uv0.CldArea.New(slot2, slot3, nil)
 	slot0.MaxLayer = slot4
 	slot0.cldStack = {}
 end
 
-function slot5.Insert(slot0, slot1)
+slot5.Insert = function(slot0, slot1)
 	if slot1.area then
 		uv0.removebyvalue(slot2.nodes, slot1)
 	end
@@ -71,7 +71,7 @@ function slot5.Insert(slot0, slot1)
 	slot0:_insert(slot1, slot0:_findParent(slot1, slot0.root))
 end
 
-function slot5._findParent(slot0, slot1, slot2)
+slot5._findParent = function(slot0, slot1, slot2)
 	slot3 = slot1.min
 	slot4 = slot1.max
 	slot5 = nil
@@ -87,7 +87,7 @@ function slot5._findParent(slot0, slot1, slot2)
 	return slot2
 end
 
-function slot5._insert(slot0, slot1, slot2)
+slot5._insert = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if not slot2.isLeaf or #slot2.nodes < uv0 or slot0.MaxLayer <= slot2.level then
@@ -122,7 +122,7 @@ function slot5._insert(slot0, slot1, slot2)
 	end
 end
 
-function slot5.Update(slot0, slot1)
+slot5.Update = function(slot0, slot1)
 	if slot1.area == nil then
 		return
 	end
@@ -144,7 +144,7 @@ function slot5.Update(slot0, slot1)
 	end
 end
 
-function slot5.Remove(slot0, slot1)
+slot5.Remove = function(slot0, slot1)
 	if not slot1.area then
 		return
 	end
@@ -154,11 +154,11 @@ function slot5.Remove(slot0, slot1)
 	slot1.area = nil
 end
 
-function slot5.Intersect(slot0, slot1, slot2, slot3)
+slot5.Intersect = function(slot0, slot1, slot2, slot3)
 	return slot0.x <= slot3.x and slot2.x <= slot1.x and slot0.z <= slot3.z and slot2.z <= slot1.z
 end
 
-function slot5.CylinderCheck(slot0, slot1)
+slot5.CylinderCheck = function(slot0, slot1)
 	if not slot0.cylinder and not slot1.cylinder then
 		return true
 	end
@@ -188,7 +188,7 @@ function slot5.CylinderCheck(slot0, slot1)
 	end
 end
 
-function slot5.getTime(slot0, slot1, slot2)
+slot5.getTime = function(slot0, slot1, slot2)
 	slot3 = 0
 
 	if slot2.x ~= 0 then
@@ -202,7 +202,7 @@ function slot5.getTime(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot5.GetCldList(slot0, slot1, slot2)
+slot5.GetCldList = function(slot0, slot1, slot2)
 	slot3 = slot1.min
 	slot4 = slot1.max
 	slot5 = nil
@@ -242,7 +242,7 @@ function slot5.GetCldList(slot0, slot1, slot2)
 	return slot7
 end
 
-function slot5.GetCldListGradient(slot0, slot1, slot2, slot3, slot4)
+slot5.GetCldListGradient = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = Vector3(math.cos(slot1), 0, math.sin(slot1))
 	slot6 = Vector3.Cross(slot5, Vector3.up)
 	slot7 = {

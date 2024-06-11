@@ -1,12 +1,12 @@
 return {
-	id = "W400004",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W400004",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Seems like there’s nothing else to be done here.",
 			typewriter = {
 				speed = 0.05,
@@ -19,8 +19,8 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "Leave the zone.",
-					autochoice = 1
+					autochoice = 1,
+					content = "Leave the zone."
 				},
 				{
 					content = "Stay a bit longer.",

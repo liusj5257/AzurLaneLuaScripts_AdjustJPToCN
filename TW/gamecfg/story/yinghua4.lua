@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -130,32 +130,32 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "少女在迄今為止的人生中，見過許多充滿期待的眼神，或是希望從所謂神明的恩澤中獲取些什麼，或是對於未來生活的期待和嚮往",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			blackBg = true,
 			say = "但是，這次她所面對的，是更加令人難以忽視的眼神——眼前這批平時她最信任的重櫻的精銳航母們，正用熾熱的眼神看著她，期待著她從嘴裡說出的那幾個字…",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			blackBg = true,
 			say = "她猶豫，但是沒有後退的餘地，這一切，都是上層的大人物們早已安排好的劇本…",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "她握緊了自己的拳頭，深吸一口氣，以她最擅長的，充滿威嚴感的語氣說道",
 			blackBg = true,
+			say = "她握緊了自己的拳頭，深吸一口氣，以她最擅長的，充滿威嚴感的語氣說道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4,43 +4,43 @@ slot0.PAGE_OPTION = 2
 slot0.PAGE_BATTLE = 3
 slot0.PAGE_RES = 4
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewSettingsUI"
 end
 
-function slot0.OnShowDescWindow(slot0, slot1)
+slot0.OnShowDescWindow = function(slot0, slot1)
 	slot0.descWindow:ExecuteAction("Show", slot1.desc, slot1.alignment)
 end
 
-function slot0.OnClearExchangeCode(slot0)
+slot0.OnClearExchangeCode = function(slot0)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
 		slot0.pages[1]:OnClearExchangeCode()
 	end
 end
 
-function slot0.OnShowTranscode(slot0, slot1)
+slot0.OnShowTranscode = function(slot0, slot1)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
 		slot0.pages[1]:OnShowTranscode(slot1)
 	end
 end
 
-function slot0.OnCheckAllAccountState(slot0)
+slot0.OnCheckAllAccountState = function(slot0)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
 		slot0.pages[1]:OnCheckAllAccountState()
 	end
 end
 
-function slot0.OnSecondPwdStateChange(slot0)
+slot0.OnSecondPwdStateChange = function(slot0)
 	if slot0.pages and slot0.pages[1] and slot0.pages[1]:GetLoaded() then
 		slot0.pages[1]:OnSecondPwdStateChange()
 	end
 end
 
-function slot0.OnRandomFlagShipModeUpdate(slot0)
+slot0.OnRandomFlagShipModeUpdate = function(slot0)
 	slot0:emit(SettingsRandomFlagShipAndSkinPanel.EVT_UPDTAE)
 end
 
-function slot0.GetPage(slot0, slot1)
+slot0.GetPage = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.pages) do
 		if isa(slot6, slot1) then
 			return slot6
@@ -48,7 +48,7 @@ function slot0.GetPage(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back_btn")
 	slot1 = slot0:findTF("pages")
 	slot0.pages = {
@@ -69,7 +69,7 @@ function slot0.init(slot0)
 	slot0.descWindow = SettingsMsgBosPage.New(slot0._tf, slot0.event)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -107,7 +107,7 @@ function slot0.didEnter(slot0)
 	slot0:EnterDefaultPage()
 end
 
-function slot0.EnterDefaultPage(slot0)
+slot0.EnterDefaultPage = function(slot0)
 	slot1 = nil
 
 	if slot0.contextData.toggle and type(slot2) == "string" then
@@ -122,7 +122,7 @@ function slot0.EnterDefaultPage(slot0)
 	triggerToggle(slot0.toggles[slot0.contextData.page or slot1 or uv0.PAGE_RES], true)
 end
 
-function slot0.SwitchPage(slot0, slot1)
+slot0.SwitchPage = function(slot0, slot1)
 	slot2 = slot0.pages[slot1]
 
 	if slot0.page and slot0.page ~= slot2 and slot0.page:GetLoaded() then
@@ -138,23 +138,23 @@ function slot0.SwitchPage(slot0, slot1)
 	end
 end
 
-function slot0.OpenYostarAlertView(slot0)
+slot0.OpenYostarAlertView = function(slot0)
 	slot0.yostarAlertView = YostarAlertView.New(slot0._tf, slot0.event, {
-		isDestroyOnClose = true,
-		isLinkMode = true
+		isLinkMode = true,
+		isDestroyOnClose = true
 	})
 
 	slot0.yostarAlertView:Load()
 	slot0.yostarAlertView:ActionInvoke("Show")
 end
 
-function slot0.CloseYostarAlertView(slot0)
+slot0.CloseYostarAlertView = function(slot0)
 	if slot0.yostarAlertView and slot0.yostarAlertView:CheckState(BaseSubView.STATES.INITED) then
 		slot0.yostarAlertView:Destroy()
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(GameObject.Find("OverlayCamera/Overlay/UIMain/DialogPanel")) then
@@ -166,7 +166,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()
 	end

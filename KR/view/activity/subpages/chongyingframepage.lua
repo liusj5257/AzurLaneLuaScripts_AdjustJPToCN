@@ -1,6 +1,6 @@
 slot0 = class("ChongYingFramePage", import(".TemplatePage.NewFrameTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.bar = slot0:findTF("AD/switcher/phase2/barContent")
@@ -14,7 +14,7 @@ function slot0.OnInit(slot0)
 	}
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if slot0.avatarConfig.target < slot0.activity.data1 then
 		slot1 = slot2 or slot1
 	end
@@ -34,7 +34,7 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0:findTF("AD/switcher/phase2/progress"), not slot5)
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 
 	setToggleEnabled(slot0.switchBtn, false)

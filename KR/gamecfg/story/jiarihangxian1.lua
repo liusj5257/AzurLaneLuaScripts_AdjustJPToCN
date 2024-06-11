@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>새로운 만남이 눈앞에 있다.</size>",
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -51,8 +51,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			bgm = "doa_story1",
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "어느 날, 수상한 편지가 지휘관실의 테이블 위에 놓여있었다.",
+			dir = 1,
+			bgm = "doa_story1",
 			effects = {
 				{
 					active = false,
@@ -113,9 +113,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그렇다. 영문을 모르겠다,라는 표현이 정확하다.",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "어쩌면 단순한 장난 편지? 이런 쓸데없는 일에 과한 신경을 쓰는 것도 좀——",
 			typewriter = {
 				speed = 0.05,
@@ -189,11 +189,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "아앗! 수상한 편지에 집중하는 바람에 지휘관님이 하실 일을 잊을 뻔했어요!",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -267,9 +267,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "보아하니, 단순한 장난은 아닌 거 같은데, 그렇다고 단순한 우연도 아니고……",
 			typewriter = {
 				speed = 0.05,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "추측만 한다고 되는 것도 아니니까요… 지휘관님! 저희가 가서 확인해보겠어요!",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "재블린의 말처럼, 이렇게 추측만 하는 건 좋은 방법이 아니야. 파견을 보내서 정탐 활동을 해보는 것이 좋을지도……",
 			typewriter = {
 				speed = 0.05,
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "좋아요~ 그럼 바로 출발하겠습니다! Z23, 아야나미, 라피!",
 			typewriter = {
 				speed = 0.05,
@@ -359,8 +359,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -368,10 +368,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 101170,
 			dir = 1,
 			hideOther = true,
 			actorName = "라피&{namecode:6}",
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -403,11 +403,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "잠, 잠깐! 이건 엄연히 조사 임무라구! 놀러가는 게 아니야!",
 			typewriter = {
 				speed = 0.05,
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500

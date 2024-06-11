@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			bgm = "story-mmorpg",
 			side = 2,
 			bgName = "star_level_bg_545",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			say = "――――!!!",
-			bgm = "story-mmorpg",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,17 +54,17 @@ return {
 				number = 2
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,9 +165,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
+			side = 2,
 			say = "블뤼허는 드래곤에게 무참히 끌려가, 유성처럼 먼 구름 속으로 사라졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "쳇… 드래곤 비늘이 너무 두꺼워서 놓쳐버렸어…",
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "도발로 유인한 다음… 완벽한 연계로 격파한다…",
 			painting = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "여러분이라면… 언젠가 정말 마왕을 쓰러뜨리고, 이 세상에 평화를 가져 올지도 모르겠네요.",
 			painting = {
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "하루빨리 여러분이 마왕을 쓰러뜨리는 날이 오기를 고대하고 있겠습니다.",
 			painting = {
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
 			optionFlag = 2,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "그럼 승리의 축배를 들 때 다시 말씀드리도록 하지요, 지휘관.",
 			painting = {

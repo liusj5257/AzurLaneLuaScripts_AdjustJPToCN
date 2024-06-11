@@ -1,10 +1,10 @@
 slot0 = class("ActivityBossHuanChangScene", import(".ActivityBossSceneTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivityBossHuanChangUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.mainTF = slot0:findTF("adapt")
 	slot0.bg = slot0:findTF("bg")
 	slot0.bottom = slot0:findTF("bottom", slot0.mainTF)
@@ -70,7 +70,7 @@ function slot0.init(slot0)
 	slot0:buildCommanderPanel()
 end
 
-function slot0.UpdateDropItems(slot0)
+slot0.UpdateDropItems = function(slot0)
 	slot1 = ipairs
 	slot2 = slot0.contextData.DisplayItems or {}
 
@@ -88,7 +88,7 @@ function slot0.UpdateDropItems(slot0)
 	end
 end
 
-function slot0.UpdatePage(slot0)
+slot0.UpdatePage = function(slot0)
 	slot1 = slot0.contextData.bossHP
 
 	setText(slot0.digitbig, math.floor(slot1 / 100))
@@ -141,7 +141,7 @@ function slot0.UpdatePage(slot0)
 	setText(slot0.ticketNum, slot0:GetEXTicket())
 end
 
-function slot0.UpdateRank(slot0, slot1)
+slot0.UpdateRank = function(slot0, slot1)
 	slot1 = slot1 or {}
 
 	for slot5 = 1, #slot0.rankList do

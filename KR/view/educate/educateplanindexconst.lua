@@ -21,7 +21,7 @@ slot0.TypeNames = {
 	i18n("child_plan_type4")
 }
 
-function slot0.filterByType(slot0, slot1)
+slot0.filterByType = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.TypeAll then
 		return true
 	end
@@ -51,7 +51,7 @@ slot0.CostNames = {
 	pg.child_resource[EducateChar.RES_MOOD_ID].name
 }
 
-function slot0.filterByCost(slot0, slot1)
+slot0.filterByCost = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.CostAll then
 		return true
 	end
@@ -85,7 +85,7 @@ slot0.AwardResNames = {
 	pg.child_resource[EducateChar.RES_MOOD_ID].name
 }
 
-function slot0.filterByAwardRes(slot0, slot1)
+slot0.filterByAwardRes = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.AwardResAll then
 		return true
 	end
@@ -112,7 +112,7 @@ slot0.AwardNatureNames = {
 	pg.child_attr[203].name
 }
 
-function slot0.filterByAwardNature(slot0, slot1)
+slot0.filterByAwardNature = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.AwardNatureAll then
 		return true
 	end
@@ -142,7 +142,7 @@ slot0.AwardAttr1Names = {
 	pg.child_attr[104].name
 }
 
-function slot0.filterByAwardAttr1(slot0, slot1)
+slot0.filterByAwardAttr1 = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.AwardAttr1All then
 		return true
 	end
@@ -178,7 +178,7 @@ slot0.AwardAttr2Names = {
 	pg.child_attr[306].name
 }
 
-function slot0.filterByAwardAttr2(slot0, slot1)
+slot0.filterByAwardAttr2 = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.AwardAttr2All then
 		return true
 	end
@@ -186,7 +186,7 @@ function slot0.filterByAwardAttr2(slot0, slot1)
 	return uv0.filterByAward(slot0, slot1, "awardAttr2")
 end
 
-function slot0.filterByAward(slot0, slot1, slot2)
+slot0.filterByAward = function(slot0, slot1, slot2)
 	for slot6 = 2, #uv0.CONFIG[slot2] do
 		if bit.band(bit.lshift(1, slot6 - 2), slot1) > 0 then
 			for slot12, slot13 in ipairs(uv0.CONFIG[slot2][slot6].ids) do

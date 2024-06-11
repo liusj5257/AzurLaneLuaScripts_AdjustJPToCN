@@ -1,9 +1,9 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI04",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
@@ -279,14 +279,14 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
-			say = "――同胞たちよ、我が呼びかけを聞きたまえ！",
 			bgmDelay = 3,
 			bgm = "story-french",
+			mode = 2,
+			say = "――同胞たちよ、我が呼びかけを聞きたまえ！",
 			flashout = {
-				black = true,
 				dur = 1.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "我が国土が砕かれ、俗世にすがりし者たちは一夜にしてレッドアクシズに降り、支配されし傀儡（ニンギョウ）でいることに甘んじた。",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "上層部の指示は一言だけ――「武器を捨て、抵抗をやめよ」",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "神智の正統を継ぐ、アイリスの誇りし護教騎士が、自由に殉ずる機会すら与えられぬまま、敗北を宣言された！",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "数十年前の戦争で、先人の偉大なる犠牲によってようやく奪い返した私たちの故郷は、",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "聖教に背いた者たちによってこうも簡単に不信者に売り渡された！",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "そして忌むべき力を手にした者たちが今、聖教を守ると偽りながらこの蒼き海を蹂躙している！",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "アイリスにとって、これ以上の侮辱は存在するものか！否！断じて存在しない！",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "不朽なる魂は天の救いを座して待つことあれど、定命ある国を救うには今、すべての力を合わせるしかない！",
 			typewriter = {
 				speed = 0.05,
@@ -422,8 +422,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "アイリスの正統たる我が自由アイリス教国が、ここに成立を宣言する！",
 			typewriter = {
 				speed = 0.05,
@@ -435,14 +435,14 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
 			bgName = "bg_story_faxi1",
 			blackBg = true,
+			mode = 2,
 			say = "百年戦争の折、とある聖女の献身を象徴する旗印は今、この地に再び掲げられた！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bg_story_faxi1",
 			say = "同胞たちよ、我が呼びかけに応えたまえ！アイリスの未来のために、尊き犠牲のために、この旗の元に集まりたまえ！",
 			typewriter = {
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bg_story_faxi1",
 			say = "祖国は今危機に瀕しているが、逆転するための力も、助けも、勝機もある！",
 			typewriter = {
@@ -501,8 +501,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bgm_story_french",
 			say = "同胞たちよ、内なる力を覚醒せよ！そして奮い立て！",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
+			mode = 2,
 			bgName = "bg_story_faxi1",
 			blackBg = true,
 			say = "さすれば私たちはすべての敵を粉砕し、最後の勝者として再び栄光を取り戻せるだろう！",
@@ -530,13 +530,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
+			blackBg = true,
 			mode = 2,
 			say = "神の光に導かれるすべての者達よ！その希望を強く持ち続けよう！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -568,8 +568,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "そして信じるのだ！どんな苦難があろうと、自由の輝きは決して消えることはない！",
 			typewriter = {
 				speed = 0.05,
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "すべての同胞たちに、",
 			typewriter = {
 				speed = 0.05,
@@ -594,8 +594,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "大いなる父と聖霊の祝福があらんことを――",
 			typewriter = {
 				speed = 0.05,
@@ -618,8 +618,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -646,8 +646,8 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			dir = 1,
 			say = "あの娘は……枢機卿の座についたアイリスの最新鋭艦・リシュリュー……",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

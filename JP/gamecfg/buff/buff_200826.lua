@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 巨炎龙在屏幕外失去判定",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 巨炎龙在屏幕外失去判定",
+	init_effect = "",
+	id = 200826,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200826,
+	color = "yellow",
 	icon = 200826,
 	last_effect = "",
 	effect_list = {

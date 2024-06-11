@@ -21,7 +21,7 @@ slot20 = require("protobuf.text_format")
 
 module("protobuf.protobuf")
 
-function slot21(slot0, slot1, slot2)
+slot21 = function(slot0, slot1, slot2)
 	slot3 = {
 		__newindex = function (slot0, slot1, slot2)
 			if uv0[slot1] then
@@ -33,7 +33,7 @@ function slot21(slot0, slot1, slot2)
 		__index = slot3
 	}
 
-	function slot3.__call()
+	slot3.__call = function()
 		return uv0({}, uv1)
 	end
 
@@ -47,11 +47,11 @@ slot21("Descriptor", {}, {
 	is_extendable = true,
 	extensions = true,
 	fields = true,
-	filename = true,
+	extension_ranges = true,
 	nested_types = true,
 	options = true,
 	enum_types = true,
-	extension_ranges = true
+	filename = true
 })
 slot21("FieldDescriptor", slot19, {
 	full_name = true,
@@ -77,10 +77,10 @@ slot21("EnumDescriptor", {}, {
 	options = true
 })
 slot21("EnumValueDescriptor", {}, {
-	index = true,
+	options = true,
 	name = true,
 	type = true,
-	options = true,
+	index = true,
 	number = true
 })
 
@@ -238,11 +238,11 @@ slot29 = {
 	[slot19.TYPE_SINT64] = slot12.WIRETYPE_VARINT
 }
 
-function slot30(slot0)
+slot30 = function(slot0)
 	return uv0[slot0] == nil
 end
 
-function slot31(slot0, slot1)
+slot31 = function(slot0, slot1)
 	if slot0 == uv0.CPPTYPE_STRING and slot1 == uv0.TYPE_STRING then
 		return uv1.UnicodeValueChecker()
 	end
@@ -250,7 +250,7 @@ function slot31(slot0, slot1)
 	return uv2[slot0]
 end
 
-function slot32(slot0)
+slot32 = function(slot0)
 	if slot0.label == uv0.LABEL_REPEATED then
 		if uv1(slot0.default_value) ~= "table" or #slot0.default_value ~= 0 then
 			uv2("Repeated field default value not empty list:" .. uv3(slot0.default_value))
@@ -288,7 +288,7 @@ function slot32(slot0)
 	end
 end
 
-function slot33(slot0, slot1)
+slot33 = function(slot0, slot1)
 	slot2 = slot1.label == uv0.LABEL_REPEATED
 	slot3 = slot1.has_options and slot1.GetOptions().packed
 
@@ -304,7 +304,7 @@ function slot33(slot0, slot1)
 	end
 end
 
-function slot34(slot0, slot1)
+slot34 = function(slot0, slot1)
 	for slot5, slot6 in uv0(slot0.enum_types) do
 		for slot10, slot11 in uv0(slot6.values) do
 			slot1._member[slot11.name] = slot11.number
@@ -312,7 +312,7 @@ function slot34(slot0, slot1)
 	end
 end
 
-function slot35(slot0)
+slot35 = function(slot0)
 	return function ()
 		slot0 = {
 			_cached_byte_size = 0,
@@ -327,7 +327,7 @@ function slot35(slot0)
 	end
 end
 
-function slot36(slot0, slot1)
+slot36 = function(slot0, slot1)
 	slot2 = slot0.name
 
 	slot1._getter[slot2] = function (slot0)
@@ -347,7 +347,7 @@ function slot36(slot0, slot1)
 	end
 end
 
-function slot37(slot0, slot1)
+slot37 = function(slot0, slot1)
 	slot2 = slot0.name
 	slot3 = slot0.message_type
 
@@ -372,7 +372,7 @@ function slot37(slot0, slot1)
 	end
 end
 
-function slot38(slot0, slot1)
+slot38 = function(slot0, slot1)
 	slot2 = slot0.name
 	slot3 = uv0(slot0.cpp_type, slot0.type)
 	slot4 = slot0.default_value
@@ -396,7 +396,7 @@ function slot38(slot0, slot1)
 	end
 end
 
-function slot39(slot0, slot1)
+slot39 = function(slot0, slot1)
 	constant_name = slot0.name:upper() .. "_FIELD_NUMBER"
 	slot1._member[constant_name] = slot0.number
 
@@ -442,32 +442,32 @@ slot40 = {
 	end
 }
 
-function slot41(slot0)
+slot41 = function(slot0)
 	return uv0({
 		_extended_message = slot0
 	}, uv1)
 end
 
-function slot42(slot0, slot1)
+slot42 = function(slot0, slot1)
 	for slot5, slot6 in uv0(slot0.fields) do
 		uv1(slot6, slot1)
 	end
 
 	if slot0.is_extendable then
-		function slot1._getter.Extensions(slot0)
+		slot1._getter.Extensions = function(slot0)
 			return uv0(slot0)
 		end
 	end
 end
 
-function slot43(slot0, slot1)
+slot43 = function(slot0, slot1)
 	for slot6, slot7 in uv0(slot0._extensions_by_name) do
 		slot1._member[uv1.upper(slot6) .. "_FIELD_NUMBER"] = slot7.number
 	end
 end
 
-function slot44(slot0)
-	function slot0._member.RegisterExtension(slot0)
+slot44 = function(slot0)
+	slot0._member.RegisterExtension = function(slot0)
 		slot0.containing_type = uv0._descriptor
 
 		uv1(uv0, slot0)
@@ -481,7 +481,7 @@ function slot44(slot0)
 		uv0._extensions_by_name[slot0.full_name] = slot0
 	end
 
-	function slot0._member.FromString(slot0)
+	slot0._member.FromString = function(slot0)
 		slot1 = uv0._member.__call()
 
 		slot1.MergeFromString(slot0)
@@ -490,7 +490,7 @@ function slot44(slot0)
 	end
 end
 
-function slot45(slot0, slot1)
+slot45 = function(slot0, slot1)
 	if slot0.label == uv0.LABEL_REPEATED then
 		return slot1
 	elseif slot0.cpp_type == uv0.CPPTYPE_MESSAGE then
@@ -500,11 +500,11 @@ function slot45(slot0, slot1)
 	end
 end
 
-function sortFunc(slot0, slot1)
+sortFunc = function(slot0, slot1)
 	return slot0.index < slot1.index
 end
 
-function pairsByKeys(slot0, slot1)
+pairsByKeys = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 in uv0(slot0) do
@@ -526,8 +526,8 @@ function pairsByKeys(slot0, slot1)
 	end
 end
 
-function slot46(slot0, slot1)
-	function slot1._member.ListFields(slot0)
+slot46 = function(slot0, slot1)
+	slot1._member.ListFields = function(slot0)
 		return (function (slot0)
 			slot1, slot2, slot3 = pairsByKeys(uv0._fields, sortFunc)
 
@@ -546,7 +546,7 @@ function slot46(slot0, slot1)
 	end
 end
 
-function slot47(slot0, slot1)
+slot47 = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in uv0(slot0.fields) do
@@ -555,7 +555,7 @@ function slot47(slot0, slot1)
 		end
 	end
 
-	function slot1._member.HasField(slot0, slot1)
+	slot1._member.HasField = function(slot0, slot1)
 		field = uv0[slot1]
 
 		if field == nil then
@@ -572,7 +572,7 @@ function slot47(slot0, slot1)
 	end
 end
 
-function slot48(slot0, slot1)
+slot48 = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in uv0(slot0.fields) do
@@ -581,7 +581,7 @@ function slot48(slot0, slot1)
 		end
 	end
 
-	function slot1._member.ClearField(slot0, slot1)
+	slot1._member.ClearField = function(slot0, slot1)
 		field = uv0[slot1]
 
 		if field == nil then
@@ -596,8 +596,8 @@ function slot48(slot0, slot1)
 	end
 end
 
-function slot49(slot0)
-	function slot0._member.ClearExtension(slot0, slot1)
+slot49 = function(slot0)
+	slot0._member.ClearExtension = function(slot0, slot1)
 		if slot0._fields[slot1] == nil then
 			slot0._fields[slot1] = nil
 		end
@@ -606,24 +606,24 @@ function slot49(slot0)
 	end
 end
 
-function slot50(slot0, slot1)
-	function slot1._member.Clear(slot0)
+slot50 = function(slot0, slot1)
+	slot1._member.Clear = function(slot0)
 		slot0._fields = {}
 
 		uv0._member._Modified(slot0)
 	end
 end
 
-function slot51(slot0)
+slot51 = function(slot0)
 	slot1 = uv0.msg_format
 
-	function slot0.__tostring(slot0)
+	slot0.__tostring = function(slot0)
 		return uv0(slot0)
 	end
 end
 
-function slot52(slot0)
-	function slot0._member.HasExtension(slot0, slot1)
+slot52 = function(slot0)
+	slot0._member.HasExtension = function(slot0, slot1)
 		if slot1.label == uv0.LABEL_REPEATED then
 			uv1(slot1.full_name .. " is repeated.")
 		end
@@ -638,8 +638,8 @@ function slot52(slot0)
 	end
 end
 
-function slot53(slot0)
-	function slot0._member._SetListener(slot0, slot1)
+slot53 = function(slot0)
+	slot0._member._SetListener = function(slot0, slot1)
 		if slot1 ~= nil then
 			slot0._listener = uv0.NullMessageListener()
 		else
@@ -648,8 +648,8 @@ function slot53(slot0)
 	end
 end
 
-function slot54(slot0, slot1)
-	function slot1._member.ByteSize(slot0)
+slot54 = function(slot0, slot1)
+	slot1._member.ByteSize = function(slot0)
 		if not slot0._cached_byte_size_dirty and slot0._cached_byte_size > 0 then
 			return slot0._cached_byte_size
 		end
@@ -668,8 +668,8 @@ function slot54(slot0, slot1)
 	end
 end
 
-function slot55(slot0, slot1)
-	function slot1._member.SerializeToString(slot0)
+slot55 = function(slot0, slot1)
+	slot1._member.SerializeToString = function(slot0)
 		if not uv0._member.IsInitialized(slot0) then
 			uv1("Message is missing required fields: " .. uv2.concat(uv0._member.FindInitializationErrors(slot0), ","))
 		end
@@ -677,7 +677,7 @@ function slot55(slot0, slot1)
 		return uv0._member.SerializePartialToString(slot0)
 	end
 
-	function slot1._member.SerializeToIOString(slot0, slot1)
+	slot1._member.SerializeToIOString = function(slot0, slot1)
 		if not uv0._member.IsInitialized(slot0) then
 			uv1("Message is missing required fields: " .. uv2.concat(uv0._member.FindInitializationErrors(slot0), ","))
 		end
@@ -686,16 +686,16 @@ function slot55(slot0, slot1)
 	end
 end
 
-function slot56(slot0, slot1)
+slot56 = function(slot0, slot1)
 	slot2 = uv0.concat
 
-	function slot1._member._InternalSerialize(slot0, slot1)
+	slot1._member._InternalSerialize = function(slot0, slot1)
 		for slot5, slot6 in uv0._member.ListFields(slot0) do
 			slot5._encoder(slot1, slot6)
 		end
 	end
 
-	function slot1._member.SerializePartialToIOString(slot0, slot1)
+	slot1._member.SerializePartialToIOString = function(slot0, slot1)
 		slot2 = slot1.write
 
 		uv0(slot0, function (slot0)
@@ -703,7 +703,7 @@ function slot56(slot0, slot1)
 		end)
 	end
 
-	function slot1._member.SerializePartialToString(slot0)
+	slot1._member.SerializePartialToString = function(slot0)
 		uv0(slot0, function (slot0)
 			uv0[#uv0 + 1] = slot0
 		end)
@@ -712,12 +712,12 @@ function slot56(slot0, slot1)
 	end
 end
 
-function slot57(slot0, slot1)
+slot57 = function(slot0, slot1)
 	slot2 = uv0.ReadTag
 	slot3 = uv0.SkipField
 	slot4 = slot1._decoders_by_tag
 
-	function slot1._member._InternalParse(slot0, slot1, slot2, slot3)
+	slot1._member._InternalParse = function(slot0, slot1, slot2, slot3)
 		uv0._member._Modified(slot0)
 
 		slot4 = slot0._fields
@@ -742,7 +742,7 @@ function slot57(slot0, slot1)
 		return slot2
 	end
 
-	function slot1._member.MergeFromString(slot0, slot1)
+	slot1._member.MergeFromString = function(slot0, slot1)
 		slot2 = #slot1
 
 		if uv0(slot0, slot1, 0, slot2) ~= slot2 then
@@ -752,14 +752,14 @@ function slot57(slot0, slot1)
 		return slot2
 	end
 
-	function slot1._member.ParseFromString(slot0, slot1)
+	slot1._member.ParseFromString = function(slot0, slot1)
 		uv0._member.Clear(slot0)
 		uv1("------------------------------")
 		uv2(slot0, slot1)
 	end
 end
 
-function slot58(slot0, slot1)
+slot58 = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in uv0(slot0.fields) do
@@ -768,7 +768,7 @@ function slot58(slot0, slot1)
 		end
 	end
 
-	function slot1._member.IsInitialized(slot0, slot1)
+	slot1._member.IsInitialized = function(slot0, slot1)
 		for slot5, slot6 in uv0(uv1) do
 			if slot0._fields[slot6] == nil or slot6.cpp_type == uv2.CPPTYPE_MESSAGE and not slot0._fields[slot6]._is_present_in_parent then
 				if slot1 ~= nil then
@@ -804,7 +804,7 @@ function slot58(slot0, slot1)
 		return true
 	end
 
-	function slot1._member.FindInitializationErrors(slot0)
+	slot1._member.FindInitializationErrors = function(slot0)
 		slot1 = {}
 
 		for slot5, slot6 in uv0(uv1) do
@@ -846,11 +846,11 @@ function slot58(slot0, slot1)
 	end
 end
 
-function slot59(slot0)
+slot59 = function(slot0)
 	slot1 = uv0.LABEL_REPEATED
 	slot2 = uv0.CPPTYPE_MESSAGE
 
-	function slot0._member.MergeFrom(slot0, slot1)
+	slot0._member.MergeFrom = function(slot0, slot1)
 		assert(slot1 ~= slot0)
 		uv0._member._Modified(slot0)
 
@@ -873,7 +873,7 @@ function slot59(slot0)
 	end
 end
 
-function slot60(slot0, slot1)
+slot60 = function(slot0, slot1)
 	uv0(slot0, slot1)
 	uv1(slot0, slot1)
 	uv2(slot0, slot1)
@@ -894,8 +894,8 @@ function slot60(slot0, slot1)
 	uv13(slot1)
 end
 
-function slot61(slot0)
-	function slot1(slot0)
+slot61 = function(slot0)
+	slot1 = function(slot0)
 		if not slot0._cached_byte_size_dirty then
 			slot0._cached_byte_size_dirty = true
 			slot0._listener_for_children.dirty = true
@@ -909,7 +909,7 @@ function slot61(slot0)
 	slot0._member.SetInParent = slot1
 end
 
-function slot62(slot0)
+slot62 = function(slot0)
 	slot1 = slot0._getter
 	slot2 = slot0._member
 
@@ -922,7 +922,7 @@ function slot62(slot0)
 	end
 end
 
-function slot63(slot0)
+slot63 = function(slot0)
 	slot1 = slot0._setter
 
 	return function (slot0, slot1, slot2)
@@ -934,13 +934,13 @@ function slot63(slot0)
 	end
 end
 
-function _AddClassAttributesForNestedExtensions(slot0, slot1)
+_AddClassAttributesForNestedExtensions = function(slot0, slot1)
 	for slot6, slot7 in uv0(slot0._extensions_by_name) do
 		slot1._member[slot6] = slot7
 	end
 end
 
-function _M.Message(slot0)
+_M.Message = function(slot0)
 	slot1 = {
 		_decoders_by_tag = {}
 	}

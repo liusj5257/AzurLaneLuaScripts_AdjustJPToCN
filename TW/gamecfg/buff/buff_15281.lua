@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "灵敏标记",
 	time = 2,
-	color = "yellow",
+	name = "灵敏标记",
+	init_effect = "",
+	id = 15281,
 	picture = "",
 	desc = "灵敏标记",
 	stack = 1,
-	id = 15281,
+	color = "yellow",
 	icon = 15281,
 	last_effect = "",
 	effect_list = {

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG18",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG18",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
-			say = "はははははは！！久しぶりに遊んだわ！！やっぱりメンタルキューブのポテンシャルは最高だよね！！",
 			bgm = "battle-boss-6",
+			actor = 900021,
+			actorName = "ピュリファイアー",
+			say = "はははははは！！久しぶりに遊んだわ！！やっぱりメンタルキューブのポテンシャルは最高だよね！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "私たちセイレーンこそがお前たちの敵！！お前たちから海を奪って、お前たちの戦争を引き起こした大大大悪党よ！！！よーく覚えなさい！！！",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "今度会ったらもっと強い兵器をぶつけてやるんだから！それまでにせいぜい強くなって生き残ってみせなさい！ははははは！！",
 			typewriter = {
 				speed = 0.05,
@@ -56,16 +56,16 @@ return {
 			}
 		},
 		{
-			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "戯言を…王家の栄光とともに、汝に鮮血なる終焉を下す！海の底に帰るがいい！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom1",
+			actor = 205070,
+			nameColor = "#a9f548",
+			say = "戯言を…王家の栄光とともに、汝に鮮血なる終焉を下す！海の底に帰るがいい！！",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -236,17 +236,17 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "テスター",
-			stopbgm = true,
 			side = 2,
 			dir = -1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "ヴィクトリアスの直掩機を落としておびき寄せたのか――よく考えたものね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -271,13 +271,13 @@ return {
 			}
 		},
 		{
-			actor = 900012,
+			say = "「コードG」相手にはこうするしかないの。幸い大きな誤差は出なかったわ",
 			side = 1,
 			actorName = "オブサーバー",
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "「コードG」相手にはこうするしかないの。幸い大きな誤差は出なかったわ",
+			actor = 900012,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -292,12 +292,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "オブサーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "オブサーバー",
 			say = "しかもこちらの損失はピュリファイアー型一体だけ――最善の手だとは思わない？",
 			typewriter = {
 				speed = 0.05,
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 0,
-			actorName = "テスター",
 			dir = -1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター",
 			say = "ふん。…ピュリファイアー、新しいボディにはもう入ったのか？",
 			typewriter = {
 				speed = 0.05,
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "ピュリファイアー",
 			say = "ぷはーー！いやぁいっぱい遊んだぁ！戦闘経験もガッツリ積めたし！",
 			typewriter = {
 				speed = 0.05,
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "ピュリファイアー",
 			say = "ロイヤルの子たちってそろそろ覚醒しそうじゃない？北方海域はしばらくはいいかな？",
 			typewriter = {
 				speed = 0.05,
@@ -360,12 +360,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "ピュリファイアー",
 			say = "それより、早く次の任務地点に行かせてよ～",
 			typewriter = {
 				speed = 0.05,
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 900012,
+			say = "次の任務地点ね……",
 			side = 1,
 			actorName = "オブサーバー",
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
-			say = "次の任務地点ね……",
+			actor = 900012,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "オブサーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "オブサーバー",
 			say = "――サクラのお花見でもどう？",
 			typewriter = {
 				speed = 0.05,

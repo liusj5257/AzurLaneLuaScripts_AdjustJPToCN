@@ -1,22 +1,22 @@
 return {
-	id = "WORLD405C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD405C",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307050,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "攻撃の手応えがまったくないわね…瑞鶴、そっちは！？",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "攻撃の手応えがまったくないわね…瑞鶴、そっちは！？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,10 +144,10 @@ return {
 			}
 		},
 		{
+			say = "―――――！！！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "―――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -312,9 +312,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 304010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "夕張ちゃん曰く、霧が酸化していますわね",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			bgmDelay = 1,
 			bgm = "Beverly_short_jp",
 			effects = {
@@ -392,8 +392,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

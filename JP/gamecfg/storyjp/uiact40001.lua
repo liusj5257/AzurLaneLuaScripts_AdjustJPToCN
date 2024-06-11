@@ -8,11 +8,11 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 0,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "海圻、海容、海筹、海琛…你们这样也算是鞠躬尽瘁了…",
 			typewriter = {
@@ -25,11 +25,11 @@ return {
 			}
 		},
 		{
-			actor = 900023,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 1,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900023,
 			actorName = "？？？",
 			say = "呜……姐姐…我舍不得她们",
 			typewriter = {
@@ -42,11 +42,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 0,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "这一切都是迫不得已的…",
 			typewriter = {
@@ -59,11 +59,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 0,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "傻丫头，听着，现在是用上你毕生所学功夫的时刻了，还记得我曾经说的吗？",
 			typewriter = {
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 900023,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 1,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900023,
 			actorName = "？？？",
 			say = "竭尽全力守护自己想要守护的人",
 			typewriter = {
@@ -93,11 +93,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 0,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "是的，我们要让对手知道，东煌可不是他们想象的那么好欺负的！",
 			typewriter = {
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 900022,
 			nameColor = "#a9f548",
-			bgName = "bg_jiangyin_memory",
 			side = 0,
+			bgName = "bg_jiangyin_memory",
 			dir = -1,
+			actor = 900022,
 			actorName = "？？？",
 			say = "全员备战！",
 			typewriter = {
@@ -127,14 +127,14 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 502020,
+			nameColor = "#a9f548",
 			say = "（又来了……）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,11 +174,11 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = -1,
 			say = "♫小笼包，叉烧包~奶黄芝麻豆沙包~大肉包，菜包，还有灌汤包~♫",
+			dir = -1,
+			actor = 502030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

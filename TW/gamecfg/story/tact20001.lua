@@ -46,17 +46,17 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 2,
-			actorName = "???",
-			mode = 2,
 			dir = 0,
 			blackBg = true,
+			mode = 2,
+			actorName = "???",
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "棄兵開局…即便是在第255次失敗之後，自然演算系統所帶來的改變，也只有這種無聊的程度嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,13 +85,13 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			mode = 2,
 			actorName = "???",
-			nameColor = "#ff0000",
-			blackBg = true,
+			mode = 2,
 			say = "其實這速度已經遠遠的超出了我的預期啦~妳要對人類，不，對自然進化抱有耐心和信心~",
+			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "然而「審判者」對這樣的開局並不會感到滿意的，除非，妳能給她送去更多的——\n「棋子<Piece>」",
 			shake = {
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			actorName = "???",
 			mode = 2,
-			nameColor = "#ff0000",
+			actorName = "???",
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			say = "放心，所有的「棋子<Piece>」都在按部就班地執行「她」們…不，「它」們應有的使命",
 			shake = {
 				speed = 1,
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			actorName = "???",
 			mode = 2,
-			nameColor = "#ff0000",
+			actorName = "???",
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			say = "只要有「模具」在，我們的生產速度完全可以迎合所有需求~",
 			shake = {
 				speed = 1,
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "希望如此，然而…",
 			shake = {
@@ -196,12 +196,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "恩…希望只是錯覺吧",
 			shake = {

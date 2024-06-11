@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "bossshion",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 8654,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8654,
+	color = "yellow",
 	icon = 8654,
 	last_effect = "",
 	blink = {
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.1
+				number = 0.1,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

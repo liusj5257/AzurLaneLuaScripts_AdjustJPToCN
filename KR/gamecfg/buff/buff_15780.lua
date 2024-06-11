@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15780,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15780,
+	color = "yellow",
 	icon = 15780,
 	last_effect = "",
 	effect_list = {
@@ -47,8 +47,8 @@ return {
 				"onSubmarineRaid"
 			},
 			arg_list = {
-				skill_id = 15781,
 				minWeaponNumber = 1,
+				skill_id = 15781,
 				check_weapon = true,
 				label = {
 					"RN"

@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO19",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "暗く冷たい封印の中で、闇靄が形作った魔性たちが声ならぬ悲鳴と咆哮を上げ続けた。",
 			bgm = "battle-unknown-approaching",
+			say = "暗く冷たい封印の中で、闇靄が形作った魔性たちが声ならぬ悲鳴と咆哮を上げ続けた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "「大神木」の浮上により吹き飛ばされた岩盤と無形の海を渡り歩き、この場に属さない対象を見つけ出そうとする。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "さっきの信号弾で封印の力による神光を降らせ、三人の仲間を無事救出できた。",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "闇靄を退け、「安全の庭」なる場所に一旦待機してもらっている",
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "残った仲間の大まかな位置を掴んでいるが、あそこでは的確な援助を施せない。",
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "闇靄の領域で頼りなさそうな艦載機が一機飛んでいるが、すぐ制御が失われ墜落した。",
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "無形の水面に降り立ち、聖域の力で仲間たちのところへと急ぐ。",
@@ -151,28 +151,28 @@ return {
 			}
 		},
 		{
-			actor = 900402,
-			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900402,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "艦載機が…艦載機がまた落ちた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -196,10 +196,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やっぱムズいね…危なそうだけど、あたしが出るしかないか",
 			painting = {
 				alpha = 0.3,
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その前にーーまずは眼の前のやつを片付けないと！",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "かっこよく一発決めてやるかー！瑞鳳ちゃん、方向は？！",
 			painting = {
 				alpha = 0.3,
@@ -275,10 +275,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "後ろなの！？",
 			painting = {
 				alpha = 0.3,
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "予想外の方向に気配があることに気づき、慌てて艤装を動かして後ろに向く。",
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "ーーーーー！！！",
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "見えないバリアに砲弾が弾かれ、爆発の煙が辺りを覆う。",
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……艦船？！",
 			painting = {
 				alpha = 0.3,
@@ -415,8 +415,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -430,10 +430,10 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
-			side = 2,
-			withoutActorName = true,
-			say = "艤装もなく水面上を浮いているが、しかし紛れもなく尾張たちと同じ艦船のようだ。",
 			hidePaintEquip = true,
+			withoutActorName = true,
+			side = 2,
+			say = "艤装もなく水面上を浮いているが、しかし紛れもなく尾張たちと同じ艦船のようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,12 +452,12 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（この人たしか幻で見たような……「せんてつ」って名前だっけ？）",
 			painting = {
 				alpha = 0.3,
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "「大神木」に近づいた時になぜか見せられた幻像から該当する記憶を思い起こした。",
@@ -480,13 +480,13 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			actorName = "尾張",
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_3",
+			dir = 1,
+			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「仙哲」……？",
 			painting = {
 				alpha = 0.3,
@@ -501,10 +501,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 303190,
 			actorName = "仙哲",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。仲間たちは安全な場所に転移させました。お二人にも来ていただきます",
 			typewriter = {
 				speed = 0.05,
@@ -515,10 +515,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 303190,
 			actorName = "仙哲",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この封印の中では最後の浄土です。私の力でみんなを守りましょう",
 			typewriter = {
 				speed = 0.05,
@@ -526,8 +526,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "話し終えると、空から差し込んできた光が尾張と瑞鳳を包み込んだ。",
@@ -537,8 +537,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "…が、光の柱が何回か閃き、特に何事も起きずに消えてなくなった。",
@@ -563,10 +563,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 303190,
 			actorName = "仙哲",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（流石に離れると消耗が激しいですね…）",
 			typewriter = {
 				speed = 0.05,
@@ -590,10 +590,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 303190,
 			actorName = "仙哲",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ついてきてください",
 			typewriter = {
 				speed = 0.05,

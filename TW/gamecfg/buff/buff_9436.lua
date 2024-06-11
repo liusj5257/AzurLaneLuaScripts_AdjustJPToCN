@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "古立特联动 梦芽支援弹幕LV5",
 	time = 10,
-	color = "yellow",
+	name = "古立特联动 梦芽支援弹幕LV5",
+	init_effect = "",
+	id = 9436,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9436,
+	color = "yellow",
 	icon = 9436,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 9435,
 				time = 5,
 				rant = 10000,
-				skill_id = 9435
+				target = "TargetSelf"
 			}
 		}
 	}

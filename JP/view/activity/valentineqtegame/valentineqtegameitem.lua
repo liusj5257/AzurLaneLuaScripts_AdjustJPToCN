@@ -8,7 +8,7 @@ slot1 = {
 	"6"
 }
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.rect = slot0._tf.rect
@@ -23,16 +23,16 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.image:SetNativeSize()
 end
 
-function slot0.SetTime(slot0, slot1)
+slot0.SetTime = function(slot0, slot1)
 	slot0.genTime = slot1
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	slot0.genPos = slot1
 	slot0._tf.localPosition = slot1
 end
 
-function slot0.ShouldDisapper(slot0, slot1)
+slot0.ShouldDisapper = function(slot0, slot1)
 	if ValentineQteGameConst.ITEM_DISAPPEAR_TIME <= slot0.genTime - slot1 then
 		return true
 	end
@@ -40,15 +40,15 @@ function slot0.ShouldDisapper(slot0, slot1)
 	return false
 end
 
-function slot0.IsOverlap(slot0, slot1)
+slot0.IsOverlap = function(slot0, slot1)
 	return slot0.bound:Intersects(getBounds(slot1))
 end
 
-function slot0.IsSufficientLength(slot0, slot1, slot2)
+slot0.IsSufficientLength = function(slot0, slot1, slot2)
 	return slot2 < math.abs(slot0._tf.localPosition.x - slot1)
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	slot0.image.sprite = nil
 end
 

@@ -2,99 +2,99 @@ slot0 = class("BeachGuardMenuUI")
 slot26 = {
 	{
 		{
-			id = 900913,
-			icon = "char_1_icon",
 			img = "char_1",
 			img_desc = "char_1_desc",
+			id = 900913,
+			icon = "char_1_icon",
 			desc = "beach_guard_chaijun"
 		},
 		{
-			id = 319011,
-			icon = "char_2_icon",
 			img = "char_2",
 			img_desc = "char_2_desc",
+			id = 319011,
+			icon = "char_2_icon",
 			desc = "beach_guard_jianye"
 		},
 		{
-			id = 605021,
-			icon = "char_3_icon",
 			img = "char_3",
 			img_desc = "char_3_desc",
+			id = 605021,
+			icon = "char_3_icon",
 			desc = "beach_guard_lituoliao"
 		},
 		{
-			id = 102231,
-			icon = "char_4_icon",
 			img = "char_4",
 			img_desc = "char_4_desc",
+			id = 102231,
+			icon = "char_4_icon",
 			desc = "beach_guard_bominghan"
 		},
 		{
-			id = 302211,
-			icon = "char_5_icon",
 			img = "char_5",
 			img_desc = "char_5_desc",
+			id = 302211,
+			icon = "char_5_icon",
 			desc = "beach_guard_nengdai"
 		},
 		{
-			img = "m_craft",
 			icon = "m_craft_icon",
+			img = "m_craft",
 			name = "beach_guard_m_craft_name",
 			desc = "beach_guard_m_craft"
 		},
 		{
-			img = "m_atk",
 			icon = "m_atk_icon",
+			img = "m_atk",
 			name = "beach_guard_m_atk_name",
 			desc = "beach_guard_m_atk"
 		},
 		{
-			img = "m_guard",
 			icon = "m_guard_icon",
+			img = "m_guard",
 			name = "beach_guard_m_guard_name",
 			desc = "beach_guard_m_guard"
 		}
 	},
 	{
 		{
-			img = "e1",
 			icon = "e1_icon",
+			img = "e1",
 			name = "beach_guard_e1",
 			desc = "beach_guard_e1_desc"
 		},
 		{
-			img = "e2",
 			icon = "e2_icon",
+			img = "e2",
 			name = "beach_guard_e2",
 			desc = "beach_guard_e2_desc"
 		},
 		{
-			img = "e3",
 			icon = "e3_icon",
+			img = "e3",
 			name = "beach_guard_e3",
 			desc = "beach_guard_e3_desc"
 		},
 		{
-			img = "e4",
 			icon = "e4_icon",
+			img = "e4",
 			name = "beach_guard_e4",
 			desc = "beach_guard_e4_desc"
 		},
 		{
-			img = "e5",
 			icon = "e5_icon",
+			img = "e5",
 			name = "beach_guard_e5",
 			desc = "beach_guard_e5_desc"
 		},
 		{
-			img = "e6",
 			icon = "e6_icon",
+			img = "e6",
 			name = "beach_guard_e6",
 			desc = "beach_guard_e6_desc"
 		},
 		{
-			img = "e7",
 			icon = "e7_icon",
+			img = "e7",
 			name = "beach_guard_e7",
 			desc = "beach_guard_e7_desc"
 		}
@@ -102,7 +102,7 @@ slot26 = {
 	{}
 }
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 	slot0._event = slot3
 	slot0._gameData = slot2
@@ -230,7 +230,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:selectBookTag(1)
 end
 
-function slot0.selectBookTag(slot0, slot1)
+slot0.selectBookTag = function(slot0, slot1)
 	if slot0.selectTagIndex ~= slot1 then
 		slot0.selectTagIndex = slot1
 		slot0.bookDatas = uv0[slot1]
@@ -264,7 +264,7 @@ function slot0.selectBookTag(slot0, slot1)
 	end
 end
 
-function slot0.selectGrid(slot0, slot1)
+slot0.selectGrid = function(slot0, slot1)
 	if slot0.selectGridIndex ~= slot1 then
 		slot0.selectGridIndex = slot1
 		slot2 = slot0.bookDatas[slot1]
@@ -297,14 +297,14 @@ function slot0.selectGrid(slot0, slot1)
 	end
 end
 
-function slot0.updateBookUI(slot0)
+slot0.updateBookUI = function(slot0)
 end
 
-function slot0.show(slot0, slot1)
+slot0.show = function(slot0, slot1)
 	setActive(slot0.menuUI, slot1)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot2 = slot0:getGameUsedTimes(slot1)
 	slot3 = slot0:getGameTimes(slot1)
 
@@ -342,7 +342,7 @@ function slot0.update(slot0, slot1)
 	slot0:CheckGet(slot1)
 end
 
-function slot0.CheckGet(slot0, slot1)
+slot0.CheckGet = function(slot0, slot1)
 	setActive(findTF(slot0.menuUI, "got"), false)
 
 	if slot0:getUltimate(slot1) and slot2 ~= 0 then
@@ -363,15 +363,15 @@ function slot0.CheckGet(slot0, slot1)
 	end
 end
 
-function slot0.getGameTimes(slot0, slot1)
+slot0.getGameTimes = function(slot0, slot1)
 	return slot1.count
 end
 
-function slot0.getGameUsedTimes(slot0, slot1)
+slot0.getGameUsedTimes = function(slot0, slot1)
 	return slot1.usedtime
 end
 
-function slot0.getUltimate(slot0, slot1)
+slot0.getUltimate = function(slot0, slot1)
 	return slot1.ultimate
 end
 

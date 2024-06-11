@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "시든 숲, 서방 거점으로 향하는 길…",
 			bgm = "story-mmorpg",
+			say = "시든 숲, 서방 거점으로 향하는 길…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "평범한 디저트랑은 다른 맛이 나면 되는 거 아닐까?",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "색깔이랑 모양도 중요해!",
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아무래도 가장 처음 눈에 들어오는 게 겉모습이잖아!",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "색깔은… 일단은 컬러풀하게 가보는 게 어때? 무지개 같은 느낌도 괜찮고!",
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "모양도 파격적인 편이 좋겠지! 시선을 확 사로잡는 걸로!",
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이걸 다 합치면…… '컬러풀 시한폭탄 만쥬 슬라임 빅 케이크' 같은 건 어때?",
@@ -446,27 +446,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "용사 파티는 '컬러풀 시한폭탄 만쥬 슬라임 빅 케이크'를 내세우고 당당히 서방 거점으로 접근했다.",
 			bgm = "story-oldcastle-carnival",
+			say = "용사 파티는 '컬러풀 시한폭탄 만쥬 슬라임 빅 케이크'를 내세우고 당당히 서방 거점으로 접근했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "일행들의 앞길을 막는 마물은 단 한 마리도 없었다.",
 			typewriter = {
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "후훗! 계획대로 잘 됐네! 케이크에 정신이 팔려있어!",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "만드는 과정은 엉망진창이었지만, 그래도 케이크는 제 역할을 다 했다.",
 			typewriter = {
@@ -584,8 +584,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "엘빙은 무방비 상태로 용사 푸슌 앞으로 다가왔다. 그녀의 모든 관심이 케이크로 쏠린 그 순간…!",
 			typewriter = {
@@ -594,8 +594,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "그림자 속에 숨어 있던 뱀파이어 헌터가 그녀를 마왕으로부터 벗어나게 해줄 클린 히트를 휘둘렀다!",
 			typewriter = {
@@ -606,12 +606,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 차녀",
 			dir = 1,
-			actorName = "엘빙",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			bgName = "star_level_bg_156",
+			actor = 402080,
+			actorName = "엘빙",
 			say = "아아…… 엘빙의 생명의 힘이 빠져나가……",
 			painting = {
 				alpha = 0.3,
@@ -622,17 +622,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -640,12 +640,12 @@ return {
 			}
 		},
 		{
-			actor = 402080,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 차녀",
 			dir = 1,
-			side = 2,
+			actor = 402080,
 			actorName = "엘빙",
 			say = "저, 저주의 힘도 사라져 가……",
 			painting = {
@@ -663,9 +663,9 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 차녀",
 			dir = 1,
-			actorName = "엘빙",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			actor = 402080,
+			actorName = "엘빙",
 			say = "드디어 해방되는구나……",
 			painting = {
 				alpha = 0.3,
@@ -682,9 +682,9 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 차녀",
 			dir = 1,
-			actorName = "엘빙",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			actor = 402080,
+			actorName = "엘빙",
 			say = "차원이 다른… 유니크한 케이크를 볼 수 있어서…",
 			painting = {
 				alpha = 0.3,
@@ -701,9 +701,9 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 차녀",
 			dir = 1,
-			actorName = "엘빙",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			actor = 402080,
+			actorName = "엘빙",
 			say = "정말…… 기뻤어……",
 			painting = {
 				alpha = 0.3,
@@ -720,9 +720,9 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 차녀",
 			dir = 1,
-			actorName = "엘빙",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			actor = 402080,
+			actorName = "엘빙",
 			say = "부탁이야… 언니랑… 메이드장도 도와줘……",
 			painting = {
 				alpha = 0.3,
@@ -739,10 +739,10 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 차녀",
 			dir = 1,
-			paintingNoise = true,
-			actorName = "엘빙",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			paintingNoise = true,
+			actor = 402080,
+			actorName = "엘빙",
 			say = "행운을 빌게…… 정의로운 모험가들……",
 			painting = {
 				alpha = 0.3,

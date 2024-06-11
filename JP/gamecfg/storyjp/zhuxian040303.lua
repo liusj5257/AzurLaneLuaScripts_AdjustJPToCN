@@ -1,17 +1,17 @@
 return {
-	id = "ZHUXIAN040303",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "ZHUXIAN040303",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "はあああ！！",
 			dir = 1,
 			bgm = "battle-boss-1",
+			actor = 307060,
+			nameColor = "#ff5c5c",
+			say = "はあああ！！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -30,8 +30,8 @@ return {
 			actor = 306060,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "龍驤？",
 			dir = 1,
+			actorName = "龍驤？",
 			say = "…………！",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

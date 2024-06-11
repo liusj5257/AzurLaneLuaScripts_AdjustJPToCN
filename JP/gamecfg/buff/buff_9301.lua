@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "白龙剧情战 触发龙宫机关-烈焰技能 buff4：点燃效果",
 	time = 999,
-	color = "yellow",
+	name = "白龙剧情战 触发龙宫机关-烈焰技能 buff4：点燃效果",
+	init_effect = "",
+	id = 9301,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9301,
+	color = "yellow",
 	icon = 9301,
 	last_effect = "",
 	effect_list = {
@@ -16,13 +16,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.3,
 				attr = "cannonPower",
-				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
-				number = 5,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0.3
+				number = 5
 			}
 		},
 		{

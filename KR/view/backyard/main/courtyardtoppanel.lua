@@ -1,10 +1,10 @@
 slot0 = class("CourtYardTopPanel", import(".CourtYardBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "main/topPanel"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("btns/topleft/return")
 	slot0.nameTxt = slot0:findTF("btns/topleft/name/Text"):GetComponent(typeof(Text))
 	slot0.renameBtn = slot0:findTF("btns/topleft/name")
@@ -21,7 +21,7 @@ function slot0.init(slot0)
 	setText(slot0:findTF("btns/topright/switch/label"), i18n("courtyard_label_floor"))
 end
 
-function slot0.OnRegister(slot0)
+slot0.OnRegister = function(slot0)
 	onButton(slot0, slot0.renameBtn, function ()
 		if uv0.cg.blocksRaycasts then
 			uv0.renamePage:ExecuteAction("Flush")
@@ -42,7 +42,7 @@ function slot0.OnRegister(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UnLockTip(slot0)
+slot0.UnLockTip = function(slot0)
 	if not slot0.dorm:IsMaxLevel() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("sec_floor_limit_tip"))
 
@@ -57,21 +57,21 @@ function slot0.UnLockTip(slot0)
 	})
 end
 
-function slot0.UpdateFloor(slot0)
+slot0.UpdateFloor = function(slot0)
 	slot0.switchTxt.text = (slot0.contextData.floor or 1) .. "F"
 end
 
-function slot0.OnVisitRegister(slot0)
+slot0.OnVisitRegister = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		_courtyard:GetController():Quit()
 	end, SFX_PANEL)
 end
 
-function slot0.OnVisitFlush(slot0)
+slot0.OnVisitFlush = function(slot0)
 	slot0:OnFlush()
 end
 
-function slot0.OnFlush(slot0, slot1)
+slot0.OnFlush = function(slot0, slot1)
 	if bit.band(slot1 or bit.bor(BackYardConst.DORM_UPDATE_TYPE_NAME, BackYardConst.DORM_UPDATE_TYPE_LEVEL), BackYardConst.DORM_UPDATE_TYPE_NAME) > 0 then
 		slot0:FlushName()
 	end
@@ -82,7 +82,7 @@ function slot0.OnFlush(slot0, slot1)
 	end
 end
 
-function slot0.FlushName(slot0)
+slot0.FlushName = function(slot0)
 	if not slot0.dorm:GetName() or slot2 == "" then
 		slot0.nameTxt.text = getProxy(PlayerProxy):getRawData().name
 	else
@@ -90,7 +90,7 @@ function slot0.FlushName(slot0)
 	end
 end
 
-function slot0.FlushComfortable(slot0)
+slot0.FlushComfortable = function(slot0)
 	slot1 = slot0.dorm
 	slot2 = slot1:getComfortable()
 	slot0.comfortableTxt.text = slot2
@@ -106,7 +106,7 @@ function slot0.FlushComfortable(slot0)
 	end)
 end
 
-function slot0.GetMoveY(slot0)
+slot0.GetMoveY = function(slot0)
 	return {
 		{
 			slot0._tf,
@@ -115,15 +115,15 @@ function slot0.GetMoveY(slot0)
 	}
 end
 
-function slot0.OnEnterEditMode(slot0)
+slot0.OnEnterEditMode = function(slot0)
 	slot0.cg.blocksRaycasts = false
 end
 
-function slot0.OnExitEditMode(slot0)
+slot0.OnExitEditMode = function(slot0)
 	slot0.cg.blocksRaycasts = true
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.renamePage:GetLoaded() and slot0.renamePage:isShowing() then
 		slot0.renamePage:Hide()
 
@@ -133,7 +133,7 @@ function slot0.onBackPressed(slot0)
 	return false
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0.exited = true
 
 	if slot0.renamePage then

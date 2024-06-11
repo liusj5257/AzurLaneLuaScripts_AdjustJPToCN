@@ -1,12 +1,12 @@
 return {
-	id = "W710003",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710003",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "舰队进入了调查点，周围的黑色暗流退却了！",
 			typewriter = {
 				speed = 0.05,

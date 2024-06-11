@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 1090092,
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 3,
-	id = 1090092,
+	color = "red",
 	icon = 12650,
 	last_effect = "",
 	blink = {
@@ -34,8 +34,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 800
+				number = 800,
+				attr = "attackRating"
 			}
 		}
 	}

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "",
-	color = "red",
+	id = 6681,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6681,
+	color = "red",
 	icon = 6680,
 	blink = {
 		1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 800
+				number = 800,
+				attr = "torpedoPower"
 			}
 		}
 	}

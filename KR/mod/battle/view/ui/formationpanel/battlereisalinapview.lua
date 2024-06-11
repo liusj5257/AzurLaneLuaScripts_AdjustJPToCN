@@ -6,13 +6,13 @@ slot3 = class("BattleReisalinAPView")
 slot0.Battle.BattleReisalinAPView = slot3
 slot3.__name = "BattleReisalinAPView"
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 
 	slot0:init()
 end
 
-function slot3.init(slot0)
+slot3.init = function(slot0)
 	slot0._apCap = uv0.FLEET_ATTR_CAP[slot0:GetAttrName()]
 	slot0._count = findTF(slot0._tf, "count")
 	slot0._glow = findTF(slot0._tf, "glow_gizmos")
@@ -22,7 +22,7 @@ function slot3.init(slot0)
 	slot0:UpdateAP(0)
 end
 
-function slot3.UpdateAP(slot0, slot1)
+slot3.UpdateAP = function(slot0, slot1)
 	slot0._countText.text = slot1
 
 	if slot0._apCap <= slot1 then
@@ -36,11 +36,11 @@ function slot3.UpdateAP(slot0, slot1)
 	end
 end
 
-function slot3.GetAttrName(slot0)
+slot3.GetAttrName = function(slot0)
 	return uv0.ALCHEMIST_AP_NAME
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._count = nil
 	slot0._glow = nil
 	slot0._countText = nil

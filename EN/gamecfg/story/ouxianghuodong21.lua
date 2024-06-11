@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG21",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 502023,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "The Dragon Sisters are back! After studying everyone's battles, we're no longer amateurs to the scene!",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			say = "I'm supercharged with the food that our fans gave us! I feel like I can do anything!",
 			typewriter = {
 				speed = 0.05,
@@ -82,13 +82,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 101176,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Polaris... is crazy strong, but...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201216,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Yeah! If we all stick together, there's no way Polaris can beat all of us!",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,14 +194,14 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "I won't permit anyone to bully my precious Spee!!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,9 +253,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 301014,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I can relate with her though. I want all the other Special-Type destroyers to win as well!",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,14 +292,14 @@ return {
 			}
 		},
 		{
-			actor = 403070,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
 			say = "Hmph! We're not scared of you at all just because you have the numbers advantage!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -341,9 +341,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102240,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Wow, this is really shaping up to be a proper final battle! Gascogne, are you ready to go?",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -368,8 +368,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Directives confirmed! Optimizing singing output...!",
 			typewriter = {
 				speed = 0.05,

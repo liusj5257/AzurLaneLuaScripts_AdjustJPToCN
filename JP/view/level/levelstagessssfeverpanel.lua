@@ -1,6 +1,6 @@
 slot0 = class("LevelStageSSSSFeverPanel", import("view.base.BaseSubPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelStageSSSSFeverPanel"
 end
 
@@ -51,7 +51,7 @@ slot2 = {
 	}
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.barGroup1 = slot0:GetBarTFGroup(slot0._tf:Find("Bar1"))
 	slot3 = slot0._tf
 	slot4 = slot3
@@ -83,7 +83,7 @@ function slot0.OnInit(slot0)
 	slot0.cleanActions = {}
 end
 
-function slot0.GetIcon(slot0, slot1, slot2)
+slot0.GetIcon = function(slot0, slot1, slot2)
 	slot3 = slot1.buff_list
 	slot4 = slot2 and slot0.buff2Character or slot0.buff2Enemy
 
@@ -96,7 +96,7 @@ function slot0.GetIcon(slot0, slot1, slot2)
 	return ""
 end
 
-function slot0.GetBarTFGroup(slot0, slot1)
+slot0.GetBarTFGroup = function(slot0, slot1)
 	return {
 		main = slot1,
 		fillImg = slot1:Find("Fill"),
@@ -110,7 +110,7 @@ slot3 = {
 	1590051
 }
 
-function slot0.UpdateView(slot0, slot1, slot2)
+slot0.UpdateView = function(slot0, slot1, slot2)
 	if table.contains(uv0, slot1.id) then
 		slot0:Hide()
 		existCall(slot2)
@@ -128,7 +128,7 @@ function slot0.UpdateView(slot0, slot1, slot2)
 	slot0.PanelAnimations:Resume()
 end
 
-function slot0.UpdateKaijuBar(slot0, slot1)
+slot0.UpdateKaijuBar = function(slot0, slot1)
 	slot5 = math.min(slot1.moveStep / (slot1:isLoop() and 0 or uv0.stepCount), 1)
 	slot7 = slot0.barGroup1.fillImg:GetComponent(typeof(Image))
 	slot8 = slot0.barGroup1.ratioText
@@ -173,7 +173,7 @@ function slot0.UpdateKaijuBar(slot0, slot1)
 	end
 end
 
-function slot0.UpdateSyberSquadBar(slot0, slot1)
+slot0.UpdateSyberSquadBar = function(slot0, slot1)
 	slot5 = math.min(slot1.defeatEnemies / (slot1:isLoop() and 0 or uv0.enemyCount), 1)
 	slot7 = slot0.barGroup2.fillImg:GetComponent(typeof(Image))
 	slot8 = slot0.barGroup2.ratioText
@@ -217,7 +217,7 @@ function slot0.UpdateSyberSquadBar(slot0, slot1)
 	end
 end
 
-function slot0.ShowPanel(slot0, slot1, slot2, slot3, slot4)
+slot0.ShowPanel = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:emit(LevelUIConst.FROZEN)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.banner)
 
@@ -242,7 +242,7 @@ function slot0.ShowPanel(slot0, slot1, slot2, slot3, slot4)
 	slot8 = slot5:GetComponent(typeof(DftAniEvent))
 	slot9 = nil
 
-	function slot10()
+	slot10 = function()
 		uv0()
 		existCall(uv1)
 	end
@@ -263,7 +263,7 @@ function slot0.ShowPanel(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.CloseActions(slot0)
+slot0.CloseActions = function(slot0)
 	if slot0.animations and not slot0.animations.stopped then
 		slot0.animations:Stop()
 	end
@@ -287,7 +287,7 @@ function slot0.CloseActions(slot0)
 	slot0.loader:ClearRequests()
 end
 
-function slot0.OnHide(slot0)
+slot0.OnHide = function(slot0)
 	slot0:CloseActions()
 end
 

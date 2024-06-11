@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리조트 신비 사건 조사\n\n<size=45>토끼처럼 움직여라</size>",
@@ -17,47 +17,47 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			say = "요괴 극단'의 공연이 개장하기 전에 일어난 또 다른 이야기――",
-			hidePaintObj = true,
-			blackBg = true,
 			bgm = "stopbgm",
+			hidePaintObj = true,
+			side = 2,
+			blackBg = true,
+			say = "요괴 극단'의 공연이 개장하기 전에 일어난 또 다른 이야기――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_in",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "만쥬 온천 마을·???",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "깡총깡총!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "스루가 공! 여기 보세요!",
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_in",
 			hidePaintObj = true,
 			say = "시마카제는 주위를 둘러보았지만, 스루가의 모습은 어디에도 보이지 않았다.",
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "등불 귀신",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "온천에서 파티임다!",
 			nameColor = "#A9F548FF",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "등불 귀신",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "온천에서 파티임다!",
 			nameColor = "#A9F548FF",
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "깡총깡총!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응? 등불 귀신 씨, 지금 시마카제에게 말한 거예요?",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "등불 귀신",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "온천에서 파티임다!",
 			nameColor = "#A9F548FF",
@@ -232,8 +232,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "등불 귀신",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "온천에서 파티임다!",
 			nameColor = "#A9F548FF",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "등불 귀신",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "온천에서 파티임다!",
 			nameColor = "#A9F548FF",
@@ -278,8 +278,8 @@ return {
 			mode = 1,
 			movableNode = {
 				{
-					time = 2,
 					name = "story_denglonggui",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 8
@@ -361,8 +361,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 2500
@@ -370,10 +370,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "캇파",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "낯가림을 고치기 위한 노력",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…아, 알겠습니다…",
@@ -390,17 +390,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "캇파",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "낯가림을 고치기 위한 노력",
 			nameColor = "#A9F548FF",
@@ -467,8 +467,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,10 +477,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "설녀",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "이번에는 설녀 연극 작전 중",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "귀여운 кролик(토끼) 아가씨네. 알려줘서 고마워.",
@@ -497,17 +497,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "설녀",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -555,10 +555,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "노인을 공경하라",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "올드 레이디도 아니고, 사람 다루는 게 험하네. 그럼 다음으로는…",
@@ -575,17 +575,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -612,8 +612,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "노인을 공경하라",
 			nameColor = "#A9F548FF",
@@ -643,11 +643,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
-			bgName = "bg_village_in",
 			factiontag = "깡총깡총!",
 			dir = 1,
+			bgName = "bg_village_in",
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하아… 하아… 드디어 다 전달했네.",
@@ -660,17 +660,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -735,8 +735,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "자주 고장나는 통신기",
 			hidePaintObj = true,
@@ -796,8 +796,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1003,11 +1003,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "깡총깡총!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관 공이랑 동료들도 분명 좋아해 줄 거예요!",
@@ -1040,8 +1040,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 2500
@@ -1049,10 +1049,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			hidePaintObj = true,
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그때 그녀들은 전혀 예상하지 못했다.",
 			effects = {
 				{
@@ -1065,17 +1065,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1083,8 +1083,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "자신들이 준비한 서프라이즈 이벤트가 거리를 떠들썩하게 하는 '사건'으로 변모할 줄은……",

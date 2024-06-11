@@ -10,10 +10,10 @@ return {
 	castCV = "",
 	effect_list = {
 		{
-			type = "BattleSkillAddFleetBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddFleetBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				fleet_buff_id = 8966
 			}

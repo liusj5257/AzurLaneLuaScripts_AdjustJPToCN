@@ -1,12 +1,12 @@
 return {
-	time = 8,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 16272,
+	time = 8,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16272,
+	color = "yellow",
 	icon = 16270,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "immuneDirectHit",
-				number = 1
+				number = 1,
+				attr = "immuneDirectHit"
 			}
 		}
 	}

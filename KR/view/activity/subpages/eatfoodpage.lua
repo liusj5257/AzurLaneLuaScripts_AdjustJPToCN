@@ -2,7 +2,7 @@ slot0 = class("EatFoodPage", import("...base.BaseActivityPage"))
 slot1 = 35
 slot2 = 31
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.icons = {
 		slot0:findTF("AD/bg/npc1"),
 		slot0:findTF("AD/bg/npc2"),
@@ -30,7 +30,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetData(slot0)
+slot0.SetData = function(slot0)
 	slot2 = getProxy(MiniGameProxy):GetHubByHubId(uv0)
 	slot0.data = slot2
 	slot0.ultimate = slot2.ultimate
@@ -38,7 +38,7 @@ function slot0.SetData(slot0)
 	slot0.count = slot2.count
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0:SetData()
 	onButton(slot0, slot0.goBtn, function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, uv0)
@@ -53,7 +53,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:CheckGet()
 end
 
-function slot0.UpdateSigned(slot0)
+slot0.UpdateSigned = function(slot0)
 	slot1 = slot0.data:getConfig("reward_need")
 	slot3 = slot0.ultimate == 0
 	slot4 = slot0.usedtime + slot0.count
@@ -72,7 +72,7 @@ function slot0.UpdateSigned(slot0)
 	end
 end
 
-function slot0.CheckGet(slot0)
+slot0.CheckGet = function(slot0)
 	if slot0.ultimate == 0 then
 		if slot0.usedtime < slot0.data:getConfig("reward_need") then
 			return

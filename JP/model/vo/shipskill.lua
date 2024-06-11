@@ -1,6 +1,6 @@
 slot0 = class("ShipSkill", import(".BaseVO"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot1.skill_id or slot1.id
 	slot0.configId = slot0.id
 	slot0.level = slot1.skill_lv or slot1.lv or slot1.level
@@ -10,7 +10,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.shipId = slot2
 end
 
-function slot0.AddExp(slot0, slot1)
+slot0.AddExp = function(slot0, slot1)
 	if slot0:IsMaxLevel() then
 		return
 	end
@@ -33,47 +33,47 @@ function slot0.AddExp(slot0, slot1)
 	slot0.exp = slot3
 end
 
-function slot0.GetExp(slot0)
+slot0.GetExp = function(slot0)
 	return slot0.exp
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.skill_data_template
 end
 
-function slot0.GetMaxLevel(slot0)
+slot0.GetMaxLevel = function(slot0)
 	return slot0.maxLevel
 end
 
-function slot0.WillReachMaxLevel(slot0)
+slot0.WillReachMaxLevel = function(slot0)
 	return slot0.level == slot0.maxLevel - 1
 end
 
-function slot0.IsMaxLevel(slot0)
+slot0.IsMaxLevel = function(slot0)
 	return slot0.maxLevel <= slot0.level
 end
 
-function slot0.GetNextLevelExp(slot0)
+slot0.GetNextLevelExp = function(slot0)
 	return getConfigFromLevel1(pg.skill_need_exp, slot0.level).exp
 end
 
-function slot0.StaticGetNextLevelExp(slot0)
+slot0.StaticGetNextLevelExp = function(slot0)
 	return getConfigFromLevel1(pg.skill_need_exp, slot0).exp
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return getSkillName(slot0:GetDisplayId())
 end
 
-function slot0.GetDesc(slot0)
+slot0.GetDesc = function(slot0)
 	return getSkillDesc(slot0:GetDisplayId(), slot0.level)
 end
 
-function slot0.GetTacticsDesc(slot0)
+slot0.GetTacticsDesc = function(slot0)
 	return Student.getSkillDesc(slot0:GetDisplayId(), slot0.level)
 end
 
-function slot0.GetIcon(slot0)
+slot0.GetIcon = function(slot0)
 	if slot0:GetDisplayId() ~= slot0.id then
 		return require("GameCfg.buff.buff_" .. slot1).icon
 	else
@@ -81,7 +81,7 @@ function slot0.GetIcon(slot0)
 	end
 end
 
-function slot0.GetColorType(slot0)
+slot0.GetColorType = function(slot0)
 	if slot0:GetDisplayId() ~= slot0.id then
 		return uv0.bindConfigTable()[slot1].type
 	else
@@ -89,7 +89,7 @@ function slot0.GetColorType(slot0)
 	end
 end
 
-function slot0.GetDisplayId(slot0)
+slot0.GetDisplayId = function(slot0)
 	return getProxy(BayProxy):RawGetShipById(slot0.shipId) and slot1:RemapSkillId(slot0.id) or slot0.id
 end
 

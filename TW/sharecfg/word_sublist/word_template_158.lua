@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_158 = {}
 slot1 = slot0.word_template_158
 
-function temp()
+temp = function()
 	uv0["鋼"] = {
 		["珠"] = {
 			["槍"] = {
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["铅"] = {
 		["弹"] = {
 			["气"] = {
@@ -52,7 +52,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鉛"] = {
 		["彈"] = {
 			["氣"] = {
@@ -80,7 +80,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["七"] = {
 		["連"] = {
 			["發"] = {

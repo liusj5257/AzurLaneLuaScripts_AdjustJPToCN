@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANWEIFANGXINMIMANSHI8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANWEIFANGXINMIMANSHI8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"パーティー・ウィズ・アイリス\n\n<size=45>小さな陛下との一時</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "会場の廊下を歩いていると…思いがけず飾ってある花瓶を床に落としそうになった…！",
 			bgm = "story-musicanniversary-gorgeous",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "会場の廊下を歩いていると…思いがけず飾ってある花瓶を床に落としそうになった…！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,11 +49,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_502",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陛下、お気を付けくださいっ！",
 			painting = {
 				alpha = 0.3,
@@ -64,17 +64,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "とっさに廊下の向こうにいるシリアスが身を挺して、エリザベスに覆いかぶさった。",
@@ -101,10 +101,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202123,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "シリアス、会場内は安全ですので、そう緊張しなくても大丈夫ですよ",
 			painting = {
 				alpha = 0.3,
@@ -119,10 +119,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ん、んんぅー！",
 			painting = {
 				alpha = 0.3,
@@ -134,16 +134,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -155,10 +155,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっ、大変失礼いたしました！陛下、申し訳ございません！",
 			painting = {
 				alpha = 0.3,
@@ -178,10 +178,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "んはーー！！…危うく窒息しそうに…シリアス！なんでそんなに巨乳を押しつけてくるのよ！",
 			painting = {
 				alpha = 0.3,
@@ -193,16 +193,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -214,10 +214,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ぐぬぬぬ…ふん！",
 			painting = {
 				alpha = 0.3,
@@ -232,10 +232,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "緊張で力加減が分からなくなってしまい、申し訳ありません！どうかこの卑しいメイドに罰を――",
 			painting = {
 				alpha = 0.3,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "…とりあえず花瓶を台座に戻そう。",
@@ -261,10 +261,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なによ。下僕じゃない",
 			painting = {
 				alpha = 0.3,
@@ -279,10 +279,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ただシリアスが緊張で大げさなだけよ。別に心配はいらないわ",
 			painting = {
 				alpha = 0.3,
@@ -297,10 +297,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それよりちょうどいいわ！下僕、少し散策に付き合いなさい！",
 			painting = {
 				alpha = 0.3,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -375,10 +375,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202123,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "では散策後の疲れを癒すための飲み物を用意してまいります",
 			painting = {
 				alpha = 0.3,
@@ -393,10 +393,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ありがとうベル、頼むわ",
 			painting = {
 				alpha = 0.3,
@@ -411,10 +411,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ベルだけだと大変だから、シリアスも手伝ってあげて",
 			painting = {
 				alpha = 0.3,
@@ -429,10 +429,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "し、しかし陛下、護衛なしでは……",
 			painting = {
 				alpha = 0.3,
@@ -447,10 +447,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大丈夫よ。この会場から出ないし、シェフィも陰でついてきてもらっているわ",
 			painting = {
 				alpha = 0.3,
@@ -465,10 +465,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そういうことでしたら…かしこまりました",
 			painting = {
 				alpha = 0.3,
@@ -488,10 +488,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陛下、そして誇らしきご主人さま、よければシリアスが軽食をご用意させていただいてもよろしいでしょうか？",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202201,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ディナーの時間までまだ時間があります。お腹を空かせないように――",
 			painting = {
 				alpha = 0.3,
@@ -524,10 +524,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "け、結構よ！パーティー会場にはオードブルが置いてあるの。それに今日はアイリスの腕前を拝見する予定なんだから、メイド隊は何も作らなくていいわ！",
 			painting = {
 				alpha = 0.3,
@@ -539,27 +539,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_502",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_502",
 			say = "エリザベスと二人っきり、お城風のパーティー会場を散策する。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -570,10 +570,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふーん…アイリス主催のパーティーもなかなかサマになっているじゃない",
 			painting = {
 				alpha = 0.3,
@@ -588,10 +588,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "と言っても、せいぜいロイヤルの八割ってとこかしら",
 			painting = {
 				alpha = 0.3,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "今日のエリザベスも平常運転のようだ。",
@@ -617,10 +617,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね。もしロイヤル主催だったら…",
 			painting = {
 				alpha = 0.3,
@@ -635,10 +635,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そこの壁を絵画で飾るのではなく、インテリア全体のバランスを考えてこう…",
 			painting = {
 				alpha = 0.3,
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "一見あれこれと注文を付けているようだが、エリザベスはとてもノリノリで――いつもよりはしゃいでいるように感じてしまうほどだ。",
@@ -661,8 +661,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "かと思いきや、今度は何か考えこんだ様子で、口を噤んでしまった。",
@@ -678,8 +678,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -728,8 +728,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -892,8 +892,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -1009,16 +1009,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1108,8 +1108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -1120,8 +1120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			optionFlag = 2,

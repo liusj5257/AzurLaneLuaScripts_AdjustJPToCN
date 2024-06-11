@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108290,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 108290,
+	color = "red",
 	icon = 108320,
 	last_effect = "",
 	effect_list = {
@@ -26,13 +26,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				fleetPos = "Leader",
 				initialCD = true,
 				time = 20,
 				nationality = 108,
+				skill_id = 108290,
+				fleetPos = "Leader",
 				target = "TargetSelf",
 				minTargetNumber = 1,
-				skill_id = 108290,
 				check_target = {
 					"TargetFleetIndex",
 					"TargetNationalityFriendly"
@@ -45,13 +45,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				fleetPos = "Leader",
 				initialCD = true,
 				time = 20,
 				nationality = 108,
 				maxTargetNumber = 0,
-				skill_id = 108291,
+				fleetPos = "Leader",
 				target = "TargetSelf",
+				skill_id = 108291,
 				check_target = {
 					"TargetFleetIndex",
 					"TargetNationalityFriendly"
@@ -64,8 +64,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 108292,
 				minWeaponNumber = 1,
+				skill_id = 108292,
 				check_weapon = true,
 				label = {
 					"GDS"

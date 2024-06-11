@@ -3,11 +3,11 @@ slot1 = 1
 slot2 = 2
 slot3 = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderLockFlagSettingui"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close_btn")
 	slot0.cancelBtn = slot0:findTF("frame/cancel")
 	slot0.confirmBtn = slot0:findTF("frame/confirm")
@@ -24,7 +24,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/desc/Text"), i18n("commander_lock_setting_title"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -48,7 +48,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UnselAnyTalent(slot0)
+slot0.UnselAnyTalent = function(slot0)
 	for slot4, slot5 in pairs(slot0.talentList) do
 		if slot5 == true then
 			return false
@@ -58,7 +58,7 @@ function slot0.UnselAnyTalent(slot0)
 	return true
 end
 
-function slot0.UnselAnyRarity(slot0)
+slot0.UnselAnyRarity = function(slot0)
 	for slot4, slot5 in pairs(slot0.rarityList) do
 		if slot5 == true then
 			return false
@@ -68,19 +68,19 @@ function slot0.UnselAnyRarity(slot0)
 	return true
 end
 
-function slot0.Conform(slot0)
+slot0.Conform = function(slot0)
 	slot0:SaveRarityConfig(slot0.rarityList)
 	slot0:SaveTalentConfig(slot0.talentList)
 	slot0:Hide()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	slot0:InitRarity()
 	slot0:InitTalent()
 end
 
-function slot0.InitRarity(slot0)
+slot0.InitRarity = function(slot0)
 	slot1 = slot0:GetRarityConfig()
 	slot0.rarityList = {}
 
@@ -98,7 +98,7 @@ function slot0.InitRarity(slot0)
 	triggerToggle(slot0.rToggle, slot1[uv2])
 end
 
-function slot0.InitTalent(slot0)
+slot0.InitTalent = function(slot0)
 	slot0.talentList = {}
 	slot0.talentCards = {}
 
@@ -137,11 +137,11 @@ function slot0.InitTalent(slot0)
 	slot0:UpdateAllBtnStyle()
 end
 
-function slot0.UpdateAllBtnStyle(slot0)
+slot0.UpdateAllBtnStyle = function(slot0)
 	setActive(slot0.allSel, not slot0:AnyCardUnSelected())
 end
 
-function slot0.AnyCardUnSelected(slot0)
+slot0.AnyCardUnSelected = function(slot0)
 	for slot4, slot5 in pairs(slot0.talentCards) do
 		if not slot5:GetComponent(typeof(Toggle)).isOn then
 			return true
@@ -151,35 +151,35 @@ function slot0.AnyCardUnSelected(slot0)
 	return false
 end
 
-function slot0.TriggerAllCardTrue(slot0)
+slot0.TriggerAllCardTrue = function(slot0)
 	for slot4, slot5 in pairs(slot0.talentCards) do
 		triggerToggle(slot5, true)
 	end
 end
 
-function slot0.TriggerAllCardFalse(slot0)
+slot0.TriggerAllCardFalse = function(slot0)
 	for slot4, slot5 in pairs(slot0.talentCards) do
 		triggerToggle(slot5, false)
 	end
 end
 
-function slot0.GetRarityConfig(slot0)
+slot0.GetRarityConfig = function(slot0)
 	return getProxy(SettingsProxy):GetCommanderLockFlagRarityConfig()
 end
 
-function slot0.SaveRarityConfig(slot0, slot1)
+slot0.SaveRarityConfig = function(slot0, slot1)
 	getProxy(SettingsProxy):SaveCommanderLockFlagRarityConfig(slot1)
 end
 
-function slot0.GetTalentConfig(slot0)
+slot0.GetTalentConfig = function(slot0)
 	return getProxy(SettingsProxy):GetCommanderLockFlagTalentConfig()
 end
 
-function slot0.SaveTalentConfig(slot0, slot1)
+slot0.SaveTalentConfig = function(slot0, slot1)
 	getProxy(SettingsProxy):SaveCommanderLockFlagTalentConfig(slot1)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			sequence = {
 				{
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			sequence = {
 				{
@@ -75,10 +75,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここは…一体……",
 			painting = {
 				alpha = 0.3,
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……あなたは？",
 			painting = {
 				alpha = 0.3,
@@ -143,12 +143,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あいにく、自分の状態は把握できております。今知らなければならないのは、ここが何処なのかと……",
 			painting = {
 				alpha = 0.3,
@@ -163,10 +163,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あなたの正体でしょうか？",
 			painting = {
 				alpha = 0.3,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 11000050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -315,14 +315,14 @@ return {
 			}
 		},
 		{
-			actor = 11000050,
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "…………",
 			bgm = "sk-az-pv1",
+			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,17 +332,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -353,10 +353,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一体…何が起こっているのでしょう……",
 			painting = {
 				alpha = 0.3,
@@ -371,10 +371,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "飛鳥さんたちは…無事なのでしょうか……",
 			painting = {
 				alpha = 0.3,
@@ -386,28 +386,28 @@ return {
 			}
 		},
 		{
-			actor = 900232,
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			side = 2,
+			actor = 900232,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "フフフッ、想定していたよりも面白い変数ね。いいわ、楽しくなりそう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -415,22 +415,22 @@ return {
 			}
 		},
 		{
-			bgName = "bg_burningsea_1",
 			mode = 1,
 			asideType = 4,
+			bgName = "bg_burningsea_1",
 			spacing = 30,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Denver's Quest!\n\n<size=45>7.Chivalric Oath</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_112",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_112",
 			bgm = "story-1",
 			actor = 102090,
 			nameColor = "#a9f548",
 			say = "We're still alive, y'know! Don't look at the sky, look at us!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Cleveland brought Denver back to reality from her little melodramatic moment.",
 			typewriter = {
 				speed = 0.05,
@@ -67,11 +67,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "Huh?! When'd you show up to spectate, Cleve?!",
 			dialogShake = {
 				speed = 0.09,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Don't waste time thinking about that! Focus! It all comes down to whoever scores now!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Denver abandoned the strategy she'd used up to now, as it wasn't working anymore, and instead came charging at Sendai.",
 			typewriter = {
 				speed = 0.05,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "Watch this!",
 			effects = {
 				{
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 302120,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302120,
+			nameColor = "#a9f548",
 			say = "The hell?!",
 			effects = {
 				{
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Denver dribbled the ball in a manner just short of a foul, going on the hyper-offensive.",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "She completely broke through Sendai's defense, throwing the ball at the basket from the three-point line on Denver's own side.",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Sendai stared dumbfounded as the ball flew through the air and went cleanly through the hoop, scoring Denver the win.",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "The crowd burst into cheers. This triumph was significant for Denver in more ways than one.",
 			effects = {
 				{
@@ -292,9 +292,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Cleveland went and gave Denver her congratulations and a fist bump, then Denver jogged over to me.",
 			effects = {
 				{
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "When I heard Cleveland and saw you both spectating the game, I just felt this surge of energy and willpower!",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Denver expressed her gratitude with a dazzling smile.",
 			typewriter = {
 				speed = 0.05,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "She made a chivalric oath that actually brought a blush to my face. I responded the best way I could think of: by holding her hand firmly.",
 			typewriter = {
 				speed = 0.05,
@@ -462,9 +462,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "She declared her feelings candidly. At the end of the day, her quest to attaining knighthood – or Clevelandhood, as she'd put it – continues.",
 			typewriter = {
 				speed = 0.05,

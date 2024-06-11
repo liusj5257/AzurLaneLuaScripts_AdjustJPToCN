@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA10",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA10",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10400020,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "キズナアイ",
 			dir = 1,
+			actorName = "キズナアイ",
 			say = "ふぅ、なんとか無事に終わりましたね！",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "キズナアイ",
 			say = "もちろん！たくさん歌っちゃいますよ～♪",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "キズナアイ",
 			say = "おぉ、これぞ青春って感じ…いいですね……！",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "はーい",

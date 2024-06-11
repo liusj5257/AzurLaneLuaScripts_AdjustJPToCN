@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第六话　『游戏大会！』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在！第一届游戏大会正式开始！！",
 			bgm = "story-nepu2",
+			actor = 10100010,
+			nameColor = "#a9f548",
+			say = "现在！第一届游戏大会正式开始！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——哇～～～！咚咚！啪啪！",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——哇～～～！咚咚！啪啪！",
 			typewriter = {
 				speed = 0.05,
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "材料可不是免费赠送的喵。这回活动赚的利润要全部回收喵…",
 			typewriter = {
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "呒呒呒、异次元的游戏技术…都是从未接触过的资料，真是太新鲜了！以这些技术为参考不知道能不能开发出什么新装备？",
 			typewriter = {
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "作、作为游戏业界的女神，随身带着游戏光盘是当然的嘛…啊哈哈哈哈哈（只是偶然带着什么的…事到如今怎么说的出口嘛……）",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "作、作为游戏业界的女神，随身带着游戏光盘是当然的嘛…啊哈哈哈哈哈（只是偶然带着什么的…事到如今怎么说的出口嘛……）",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——哇～～～！咚咚！啪啪！",
 			typewriter = {
 				speed = 0.05,
@@ -198,13 +198,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
+			say = "竟然举办了这么大型的“ebent”…原来如此！不愧是诺瓦露！这就是所谓的“管理技巧”吧！",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
-			say = "竟然举办了这么大型的“ebent”…原来如此！不愧是诺瓦露！这就是所谓的“管理技巧”吧！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "我也很佩服…“企划力”和“策划力”完全不是一个档次的",
 			typewriter = {
@@ -396,13 +396,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "咚！咚！咚咚！——砰！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "请自己想办法…这里也快弹尽粮绝了！",
 			typewriter = {
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
+			say = "呵呵呵…还是太嫩了呢，看来都还是新兵啊？别以为在战略FPS上能胜过姐姐我哦？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "呵呵呵…还是太嫩了呢，看来都还是新兵啊？别以为在战略FPS上能胜过姐姐我哦？",
+			actor = 10100040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -492,11 +492,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "……贝露姐姐，果然很强……！",
 			typewriter = {
@@ -573,11 +573,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "太卑鄙了！贝露姐姐……！",
 			typewriter = {
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "原来如此……既然这样，这里也要请求救援了！",
 			typewriter = {
@@ -655,9 +655,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——咚咔——！",
 			typewriter = {
 				speed = 0.05,
@@ -729,16 +729,16 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			actorName = "{namecode:13}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 301110,
 			nameColor = "#a9f548",
 			say = "原来如此！这里的是“四轮驱动”呢！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -763,13 +763,13 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "{namecode:13}真熟练呢。选了转向灵活的车种呢",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "{namecode:13}真熟练呢。选了转向灵活的车种呢",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -800,12 +800,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "只是因为涅普顿用不惯这个车吧",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "只是因为涅普顿用不惯这个车吧",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -868,11 +868,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			say = "就在涅普涅普四处乱撞的时候到达“goal”！“winning”永远是{namecode:13}大人的囊中之物！",
 			typewriter = {
@@ -885,13 +885,13 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "{namecode:13}、干得好…我也“goal”了…姐妹“独占”第一第二。看来要开胜利的“xiangbin”了呢",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "{namecode:13}、干得好…我也“goal”了…姐妹“独占”第一第二。看来要开胜利的“xiangbin”了呢",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -922,12 +922,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "玩几次输的都是涅普顿啦。这两个孩子明显玩得比妳好",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "玩几次输的都是涅普顿啦。这两个孩子明显玩得比妳好",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -990,12 +990,12 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
+			say = "是是～快请快请伊丽莎白酱～！妳想玩什么样的游戏呢～？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是～快请快请伊丽莎白酱～！妳想玩什么样的游戏呢～？",
+			actor = 10100010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

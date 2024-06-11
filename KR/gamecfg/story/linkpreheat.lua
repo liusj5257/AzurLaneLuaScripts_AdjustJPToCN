@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꿈의 만남 \n\n<size=45>서장   뒤숭숭한 해역</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_chuansong",
+			side = 2,
+			dir = 1,
 			say = "……삑, 삑, 삐익……삑……삑, 삑, 삑……삑……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "아카시가 선행 조사를 하러 갔을 텐데……응답이 없어.",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아카시가 선행 조사를 하러 갔을 텐데……응답이 없어.",
+			actor = 201210,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#92fc63",
 			say = "안개도 끼기 시작했어……앞도 뒤도 왼쪽도 오른쪽도 전부 새하얗게……",
 			effects = {
 				{
@@ -198,13 +198,13 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "……어?! Z23, 11시 방향에 뭔가 있어!",
 			bgm = "level-uta",
+			actor = 201210,
+			nameColor = "#92fc63",
+			say = "……어?! Z23, 11시 방향에 뭔가 있어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
 			nameColor = "#92fc63",
-			bgName = "bg_story_chuansong",
 			side = 2,
+			bgName = "bg_story_chuansong",
 			dir = 1,
+			actor = 10300060,
 			actorName = "???",
 			say = "아무도 안 계세요? 죄송해요……거기 혹시 아무도 안 계시나요?",
 			typewriter = {
@@ -316,14 +316,14 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
-			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			bgmDelay = 2,
-			say = "그렇게 된 관계로……겨우 해역을 빠져나와 데려오게 된 겁니다.",
+			bgName = "bg_story_school",
 			bgm = "main-uta",
+			actor = 401230,
+			nameColor = "#92fc63",
+			say = "그렇게 된 관계로……겨우 해역을 빠져나와 데려오게 된 겁니다.",
 			effects = {
 				{
 					active = false,
@@ -331,8 +331,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -357,12 +357,12 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
+			say = "처음 뵙겠습니다~ 저는 후미뤼르라고 합니다.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "처음 뵙겠습니다~ 저는 후미뤼르라고 합니다.",
+			actor = 10300060,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "어머, 정말로 저희랑 비슷한 귀랑 꼬리네요. 역시 고향 분이신 건가요?",
 			typewriter = {
@@ -490,12 +490,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "후미뤼르씨, 당신은 어디서 오신 건가요?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "후미뤼르씨, 당신은 어디서 오신 건가요?",
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -513,8 +513,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "어디서 왔냐 물어보신다면……저는 투스쿨에서 왔답니다.",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "쿠온, 그리고 다른 동료들과 야마토를 향해 여정을 떠났습니다만……",
 			typewriter = {
@@ -675,8 +675,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "쿠온이나 다른 동료들도 혹시 그 바다에서 헤메고 있을 지도 모르니까요……이 장비? 라는 게 있으면 도움이 될 수 있을 것 같고요.",
 			typewriter = {
@@ -689,12 +689,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 401230,
+			nameColor = "#92fc63",
 			say = "그렇네요……원인 규명도 같이 할 겸, 한 번 더 출격하죠. 지휘관님의 허가를 받고 오겠습니다.",
 			typewriter = {
 				speed = 0.05,

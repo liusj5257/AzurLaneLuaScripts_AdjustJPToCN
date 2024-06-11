@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAOFENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAOFENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"急がば回れ！\n\n<size=45>三 「凧」から知れる繋がり</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "昼・母港",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "昼・母港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "本日のぶんの仕事を終わらせてしまった島風はあくびをしていた。",
@@ -66,16 +66,16 @@ return {
 			}
 		},
 		{
-			actor = 301290,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "いやー結局、始末書が個人的に一番の大仕事でしたね……あ、ちゃんと心を込めて書きましたよ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,14 +100,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "彼女を労って、今日からしばらくは好きに行動をさせてあげることにした。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "これには自分が島風のことを経過観察するという意味も多少はあるのだが。",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "さて島風はどこに居るのだろう？",
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "わぁ、もう完成したんですね",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -198,10 +198,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "えへへ！いいものでしょう！ビニール袋とストローだけでも凧は作れるんです！",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,10 +242,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "よく知ってますなぁ……どこかにそう書いた記憶は無いんだけど……まぁ集めるのが高じて自分で作るようにもなったって感じですな！",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "どうやら島風たちは凧作りで盛り上がっているようだ。遠くから見守ろう。",
@@ -304,15 +304,15 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "できた！きゅーとな島風のイラストを描いたよ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -340,10 +340,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "おー！これがわたしかぁ！なんだか生意気そうな顔してるんですなわたし……",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -400,10 +400,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あはは、あれは今でも気に入ってますからな！",
 			typewriter = {
 				speed = 0.05,
@@ -434,10 +434,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "いいですよ、でもここは凧揚げに適しませんし……ちょっと待ってて下さい",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "（うん……？通信機の着信……相手は、島風？）",
@@ -467,10 +467,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "えぇと指揮官殿、突然すみません。電と雷と一緒に居まして……凧揚げをしに海岸沿いまで移動します。遅くならないうちに帰りますね！",
 			typewriter = {
 				speed = 0.05,
@@ -482,8 +482,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -492,8 +492,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

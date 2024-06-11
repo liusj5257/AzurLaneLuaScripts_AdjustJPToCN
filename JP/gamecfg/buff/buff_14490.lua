@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "莫里森",
 	init_effect = "",
+	id = 14490,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14490,
+	color = "blue",
 	icon = 14490,
 	last_effect = "",
 	effect_list = {
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				quota = 5,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				skill_id = 14490
 			}
 		}

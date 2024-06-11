@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIBIANDEJIARI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIBIANDEJIARI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"水辺の休日\n\n<size=45>三 静謐なる花火の夜</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301862,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#A9F548FF",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "あっ、指揮官…ここをうまく見つけられたんだね",
 			bgm = "story-richang-8",
+			actor = 301862,
+			nameColor = "#A9F548FF",
+			say = "あっ、指揮官…ここをうまく見つけられたんだね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,9 +54,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "風雲が残したヒントで、泳いできたの？よかった…",
 			painting = {
 				alpha = 0.3,
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 301862,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 301862,
+			nameColor = "#A9F548FF",
 			say = "じゃあ…指揮官は泳ぎ疲れてない？ここならゆっくり休めるよ。…誰も来ないから",
 			painting = {
 				alpha = 0.3,
@@ -94,12 +94,12 @@ return {
 			}
 		},
 		{
-			actor = 301862,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301862,
+			nameColor = "#A9F548FF",
 			say = "うん。花火が見れて、少し離れた場所にいるのが好き",
 			painting = {
 				alpha = 0.3,
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 301862,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301862,
+			nameColor = "#A9F548FF",
 			say = "それに、ここでなら指揮官と…二人っきりに…なんでもないっ。指揮官には教えないから…",
 			painting = {
 				alpha = 0.3,
@@ -128,12 +128,12 @@ return {
 			}
 		},
 		{
-			actor = 301862,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301862,
+			nameColor = "#A9F548FF",
 			say = "うん…風雲しか知らない、いいところ",
 			painting = {
 				alpha = 0.3,
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 301862,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301862,
+			nameColor = "#A9F548FF",
 			say = "でも、指揮官も知ったから、今日から二人のヒミツだね",
 			painting = {
 				alpha = 0.3,
@@ -164,9 +164,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "とにかく、風雲は今日とても嬉しい",
 			painting = {
 				alpha = 0.3,
@@ -180,9 +180,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "指揮官は風雲の一番大事な人だから、ここを知ってほしくて…",
 			painting = {
 				alpha = 0.3,
@@ -196,9 +196,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "ここで休んで風雲と一緒に花火見ようよ",
 			painting = {
 				alpha = 0.3,
@@ -212,9 +212,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "少し離れているけど、遠くから見る花火もキレイだよ",
 			painting = {
 				alpha = 0.3,
@@ -228,9 +228,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "それも、大事な人と一緒ならもっと…",
 			painting = {
 				alpha = 0.3,
@@ -244,9 +244,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "あっ指揮官、これあげる。喉が渇いてたら飲むといいよ",
 			painting = {
 				alpha = 0.3,
@@ -272,9 +272,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "アイスは一つしかないからあげられないけど…飲み物なら、ね…",
 			painting = {
 				alpha = 0.3,
@@ -300,9 +300,9 @@ return {
 		{
 			actor = 301862,
 			side = 2,
-			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_night",
 			say = "…一緒に花火を楽しもう、ね？",
 			painting = {
 				alpha = 0.3,

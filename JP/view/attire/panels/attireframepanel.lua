@@ -1,6 +1,6 @@
 slot0 = class("AttireFramePanel", import("...base.BaseSubView"))
 
-function slot0.Card(slot0)
+slot0.Card = function(slot0)
 	slot1 = {
 		isEmpty = function (slot0)
 			return not slot0.attireFrame or slot0.attireFrame.id == -1
@@ -67,7 +67,7 @@ function slot0.Card(slot0)
 		end
 	}
 
-	function slot3(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1, slot2)
 		slot0.state = slot1:getState()
 
 		_.each(slot0.tags, function (slot0)
@@ -98,23 +98,23 @@ function slot0.Card(slot0)
 	return slot1
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	assert(false)
 end
 
-function slot0.GetData(slot0)
+slot0.GetData = function(slot0)
 	assert(false)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.listPanel = slot0:findTF("list_panel")
 	slot0.scolrect = slot0:findTF("scrollrect", slot0.listPanel):GetComponent("LScrollRect")
 
-	function slot0.scolrect.onInitItem(slot0)
+	slot0.scolrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scolrect.onUpdateItem(slot0, slot1)
+	slot0.scolrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -123,11 +123,11 @@ function slot0.OnInit(slot0)
 	slot0.totalCount = slot0:findTF("total_count/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	assert(false)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -137,7 +137,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot0.displayVOs[slot1 + 1], slot0.playerVO, slot1 < slot0.scolrect.content:GetComponent(typeof(GridLayoutGroup)).constraintCount)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.playerVO = slot2
 	slot0.rawAttireVOs = slot1
 	slot0.displayVOs, slot0.totalCount.text = slot0:GetDisplayVOs()
@@ -145,7 +145,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:Filter()
 end
 
-function slot0.GetDisplayVOs(slot0)
+slot0.GetDisplayVOs = function(slot0)
 	slot1 = {}
 	slot2 = 0
 
@@ -160,7 +160,7 @@ function slot0.GetDisplayVOs(slot0)
 	return slot1, slot2
 end
 
-function slot0.Filter(slot0)
+slot0.Filter = function(slot0)
 	if #slot0.displayVOs == 0 then
 		return
 	end
@@ -202,7 +202,7 @@ function slot0.Filter(slot0)
 	slot0.scolrect:SetTotalCount(#slot0.displayVOs, 0)
 end
 
-function slot0.UpdateDesc(slot0, slot1)
+slot0.UpdateDesc = function(slot0, slot1)
 	if slot1:isEmpty() then
 		return
 	end
@@ -219,7 +219,7 @@ function slot0.UpdateDesc(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.descPanel:Dispose()
 end
 

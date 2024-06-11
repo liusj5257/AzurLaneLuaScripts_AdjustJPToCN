@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "仲裁机关弹条干扰",
 	time = 0,
-	color = "yellow",
+	name = "仲裁机关弹条干扰",
+	init_effect = "",
+	id = 78180,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 78180,
+	color = "yellow",
 	icon = 9290,
 	last_effect = "",
 	effect_list = {

@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
 			bgm = "qe-ova-10",
+			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……{tb}, 이거 보세요.",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "TB가 전단지 뭉치를 눈앞 책상에 놓았다.",
@@ -66,10 +66,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……딱히 의견을 여쭈려고 온 건 아니에요. 그냥 고르다가 지쳤을 뿐…",
 			typewriter = {
@@ -102,14 +102,14 @@ return {
 			}
 		},
 		{
-			actor = 1200,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "……딱히 없어요.",
+			bgName = "bg_project_tb_room3",
 			tbActor = true,
+			actor = 1200,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "……딱히 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,10 +119,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……그래서 뭐든 상관없다는 생각이 들어서 결정하기가 어렵네요.",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "결국은 궁금한 부활동 모두 시험삼아 입부해 보는 건 어떻냐고 제안하는 수밖에 없었다.",

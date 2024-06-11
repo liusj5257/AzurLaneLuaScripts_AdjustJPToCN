@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "metaboss保底伤害",
 	time = 16,
+	name = "metaboss保底伤害",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				time = 3,
 				metaDot = true,
+				time = 3,
 				tagOnly = {
 					"BOSS"
 				}

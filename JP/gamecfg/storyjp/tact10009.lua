@@ -21,9 +21,9 @@ return {
 		{
 			actor = 303110,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = -1,
 			say = "認めたくないが……我々水上艦を上回る戦果だ。拙者は確かに基地航空隊の力を侮った。",
+			dir = -1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

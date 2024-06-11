@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong2_3",
-			actorName = "{namecode:182}",
 			dir = 1,
 			bgmDelay = 1,
-			say = "(Did I... fall asleep...?) \"Others... approach...\"",
 			bgm = "story-4",
+			actorName = "{namecode:182}",
+			say = "(Did I... fall asleep...?) \"Others... approach...\"",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:27}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:27}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:50}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:50}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:50}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Does such a weakly individual as myself truly deserve to be surrounded by so many retainers...?)",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"It would be best to not force the convergence of different commands.\"",
 			typewriter = {
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "Yeah, exactly! ...Hey, Suzutsuki, the heck is she talking about...?",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,8 +305,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "So, we're gonna pass each other by then?",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "This is Chitose. We are currently carrying out a transport mission to the main island. It's a pleasure to see you.",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "This is Kii, also currently on the back to the main island. We appreciate your hard work in escorting our transport ships.",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "There's an aircraft carrier among their formation... Eh?! Is that Lady Shinano?!",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "Woahh! How lucky, are we witnessing Lady Shinano's maiden voyage?!",
 			typewriter = {
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -450,8 +450,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "Since we last...? Have we met before, Lady Shinano?",
 			typewriter = {
@@ -464,8 +464,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,8 +477,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"Nay, those events... were not of this world... This would be our first meeting.\"",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "Hehe, this would be my first time seeing you awake! Pleased to meet you, Lady Shinano. I am Kashino, munition ship, currently carrying out a transport mission.",
 			typewriter = {
@@ -511,8 +511,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "By the way, I heard you just awakened not long ago? Do you feel alright? Is there anything you're having trouble with?",
 			typewriter = {
@@ -546,8 +546,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "Hehe~ It's all part of my job. No need to thank me.",
 			typewriter = {
@@ -563,8 +563,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "In any case, Lady Shinano, we won't delay you any further. It is an honor to meet you, and I hope that the rest of your journey is smooth.",
 			typewriter = {

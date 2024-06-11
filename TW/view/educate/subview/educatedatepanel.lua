@@ -1,10 +1,10 @@
 slot0 = class("EducateDatePanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateDatePanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.timeTF = slot0:findTF("content/top/time")
 	slot0.weekTF = slot0:findTF("week", slot0.timeTF)
 	slot0.dayTF = slot0:findTF("day", slot0.timeTF)
@@ -38,7 +38,7 @@ function slot0.OnInit(slot0)
 	slot0:Flush()
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -61,7 +61,7 @@ function slot0.Flush(slot0)
 	end
 end
 
-function slot0.UpdateWeekDay(slot0, slot1)
+slot0.UpdateWeekDay = function(slot0, slot1)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -72,19 +72,19 @@ function slot0.UpdateWeekDay(slot0, slot1)
 	setText(slot0.dayTF, EducateHelper.GetWeekStrByNumber(slot1))
 end
 
-function slot0.isHomeShow(slot0)
+slot0.isHomeShow = function(slot0)
 	return EducateHelper.IsSameDay(slot0.curTime, slot0.targetSetDays[1])
 end
 
-function slot0.isSchoolShow(slot0)
+slot0.isSchoolShow = function(slot0)
 	return EducateHelper.IsSameDay(slot0.curTime, slot0.targetSetDays[2])
 end
 
-function slot0.isUpgradeShow(slot0)
+slot0.isUpgradeShow = function(slot0)
 	return EducateHelper.IsSameDay(slot0.curTime, slot0.targetSetDays[3]) or EducateHelper.IsSameDay(slot0.curTime, slot0.targetSetDays[4])
 end
 
-function slot0.isTimeShow(slot0)
+slot0.isTimeShow = function(slot0)
 	return not isActive(slot0.homeTF) and not isActive(slot0.schoolTF) and not isActive(slot0.upgradeTF) and not isActive(slot0.dataTF)
 end
 

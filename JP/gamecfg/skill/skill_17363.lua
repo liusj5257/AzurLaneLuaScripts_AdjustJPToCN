@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "通过DELAY处理CD",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 0,
 	id = 17363,
-	picture = "0",
 	castCV = "",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},

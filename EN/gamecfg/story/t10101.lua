@@ -4,10 +4,10 @@ return {
 	once = true,
 	scripts = {
 		{
-			actorName = "Hornet",
 			side = 2,
-			nameColor = "#ff0000",
+			actorName = "Hornet",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "So you're the new Commander? I'm surprised that you were able to find my coordinates so fast!",
 			shake = {
 				speed = 1,
@@ -23,10 +23,10 @@ return {
 			}
 		},
 		{
-			actorName = "Hornet",
 			side = 2,
-			nameColor = "#ff0000",
+			actorName = "Hornet",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "But it would be a shame if this exercise had never started.",
 			shake = {
 				speed = 1,
@@ -42,10 +42,10 @@ return {
 			}
 		},
 		{
-			actorName = "Hornet",
 			side = 2,
-			nameColor = "#ff0000",
+			actorName = "Hornet",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "Let me, the great Hornet, test your strength. Don't worry, we'll both be firing blanks!",
 			shake = {
 				speed = 1,
@@ -61,10 +61,10 @@ return {
 			}
 		},
 		{
-			actorName = "Hornet",
 			side = 2,
-			nameColor = "#ff0000",
+			actorName = "Hornet",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "Don't worry, I won't hurt you too badly!",
 			shake = {
 				speed = 1,

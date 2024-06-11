@@ -2,7 +2,7 @@ slot0 = class("NewBackYardShopMediator", import("...base.ContextMediator"))
 slot0.ON_SHOPPING = "NewBackYardShopMediator:ON_SHOPPING"
 slot0.ON_CHARGE = "NewBackYardShopMediator:ON_CHARGE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SHOPPING, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.BUY_FURNITURE, {
 			furnitureIds = slot1,
@@ -30,13 +30,13 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getRawData())
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	if slot0.contextData.onRemove then
 		slot0.contextData.onRemove()
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.BUY_FURNITURE_DONE,
@@ -44,7 +44,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 

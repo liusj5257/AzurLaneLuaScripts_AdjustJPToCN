@@ -5,7 +5,7 @@ slot0.Fields = {
 	id = "number"
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1.item_id
 	slot0.row = slot1.pos.row
 	slot0.column = slot1.pos.column

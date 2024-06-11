@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_359 = {}
 slot1 = slot0.word_template_359
 
-function temp()
+temp = function()
 	uv0["综"] = {
 		["合"] = {
 			["执"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["总"] = {
 		["参"] = {
 			["谋"] = {
@@ -297,7 +297,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["偬"] = {
 		this = {
 			this = true
@@ -307,7 +307,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["總"] = {
 		["理"] = {
 			this = true
@@ -331,7 +331,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["纵"] = {
 		["情"] = {
 			["兵"] = {
@@ -357,7 +357,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["诹"] = {
 		this = {
 			this = true
@@ -367,7 +367,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["陬"] = {
 		this = {
 			this = true

@@ -1,18 +1,18 @@
 slot0 = class("GuildMainScene", import("..base.BaseUI"))
 
-function slot0.forceGC(slot0)
+slot0.forceGC = function(slot0)
 	return true
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildMainUI"
 end
 
-function slot0.getGroupName(slot0)
+slot0.getGroupName = function(slot0)
 	return "group_GuildMainUI"
 end
 
-function slot0.setGuildVO(slot0, slot1)
+slot0.setGuildVO = function(slot0, slot1)
 	slot0.guildVO = slot1
 
 	if slot0.guildRes and slot0.guildRes:GetLoaded() then
@@ -24,29 +24,29 @@ function slot0.setGuildVO(slot0, slot1)
 	end
 end
 
-function slot0.setPlayerVO(slot0, slot1)
+slot0.setPlayerVO = function(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-function slot0.setChatMsgs(slot0, slot1)
+slot0.setChatMsgs = function(slot0, slot1)
 	slot0.chatMsgs = slot1
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.setGuildEvent(slot0, slot1)
+slot0.setGuildEvent = function(slot0, slot1)
 	slot0.guildEvent = slot1
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	if slot0.guildRes and slot0.guildRes:GetLoaded() then
 		slot0.guildRes:Update(slot0.playerVO, slot0.guildVO)
 	end
 end
 
-function slot0.OnReportUpdated(slot0)
+slot0.OnReportUpdated = function(slot0)
 	if slot0.themePage and slot0.themePage:GetLoaded() then
 		slot0.themePage:RefreshReportBtn()
 	end
@@ -67,7 +67,7 @@ slot0.NOTIFY_TYPE_OFFICE = 3
 slot0.NOTIFY_TYPE_BATTLE = 4
 slot0.NOTIFY_TYPE_TECH = 5
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._bg = slot0:findTF("bg")
 
 	pg.GuildPaintingMgr:GetInstance():Enter(slot0._bg:Find("painting"))
@@ -95,7 +95,7 @@ function slot0.init(slot0)
 	Input.multiTouchEnabled = false
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			pg.m02:sendNotification(GAME.GET_GUILD_REPORT, {
@@ -120,7 +120,7 @@ function slot0.preload(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.back, function ()
 		uv0:emit(GuildMainMediator.ON_BACK)
 	end, SOUND_BACK)
@@ -145,18 +145,18 @@ function slot0.didEnter(slot0)
 	slot0:UpdateNotices(uv0.NOTIFY_TYPE_ALL)
 end
 
-function slot0.OnDeleteMember(slot0, slot1)
+slot0.OnDeleteMember = function(slot0, slot1)
 	slot0.dynamicBg:ExitShip(slot1:GetShip().name)
 end
 
-function slot0.OnAddMember(slot0, slot1)
+slot0.OnAddMember = function(slot0, slot1)
 	slot3 = slot0.dynamicBg
 
 	slot3:AddShip(slot1:GetShip(), function ()
 	end)
 end
 
-function slot0.EnterOrExitPreView(slot0)
+slot0.EnterOrExitPreView = function(slot0)
 	if LeanTween.isTweening(go(slot0._topPanel)) or LeanTween.isTweening(go(slot0._leftLength)) or LeanTween.isTweening(go(slot0.topBg)) then
 		return
 	end
@@ -208,7 +208,7 @@ function slot0.EnterOrExitPreView(slot0)
 	end))
 end
 
-function slot0.UpdateBg(slot0)
+slot0.UpdateBg = function(slot0)
 	if slot0.bgName ~= slot0.guildVO:getBgName() then
 		GetSpriteFromAtlasAsync(slot1, "", function (slot0)
 			if not IsNil(uv0._tf) then
@@ -220,7 +220,7 @@ function slot0.UpdateBg(slot0)
 	end
 end
 
-function slot0.UpdateNotices(slot0, slot1)
+slot0.UpdateNotices = function(slot0, slot1)
 	slot2 = getProxy(GuildProxy)
 	slot3 = slot0.guildVO
 
@@ -246,7 +246,7 @@ function slot0.UpdateNotices(slot0, slot1)
 	end
 end
 
-function slot0.initTheme(slot0)
+slot0.initTheme = function(slot0)
 	slot1 = slot0.guildVO:getFaction()
 
 	if not slot0.faction or slot0.faction ~= slot1 then
@@ -264,7 +264,7 @@ function slot0.initTheme(slot0)
 	end
 end
 
-function slot0.OpenMainPage(slot0)
+slot0.OpenMainPage = function(slot0)
 	if not slot0.themePage or not slot0.themePage:GetLoaded() then
 		slot0:initTheme()
 	else
@@ -272,7 +272,7 @@ function slot0.OpenMainPage(slot0)
 	end
 end
 
-function slot0.initToggles(slot0)
+slot0.initToggles = function(slot0)
 	slot0.contextData.toggles = {}
 
 	for slot4, slot5 in ipairs(uv0.TOGGLE_TAG) do
@@ -303,11 +303,11 @@ function slot0.initToggles(slot0)
 	triggerToggle(slot0.contextData.toggles[slot2], true)
 end
 
-function slot0.TriggerOfficePage(slot0)
+slot0.TriggerOfficePage = function(slot0)
 	triggerToggle(slot0.contextData.toggles[uv0], true)
 end
 
-function slot0.openPage(slot0, slot1)
+slot0.openPage = function(slot0, slot1)
 	setActive(slot0.eyeTF, slot1 == uv0)
 
 	if slot1 == uv1 or slot1 == uv2 then
@@ -346,7 +346,7 @@ function slot0.openPage(slot0, slot1)
 	slot0.contextData.page = slot1
 end
 
-function slot0.closePage(slot0, slot1)
+slot0.closePage = function(slot0, slot1)
 	if slot1 == uv0 then
 		if slot0.themePage then
 			slot0.themePage:ExecuteAction("Hide")
@@ -364,7 +364,7 @@ function slot0.closePage(slot0, slot1)
 	end
 end
 
-function slot0.BlurView(slot0, slot1)
+slot0.BlurView = function(slot0, slot1)
 	pg.UIMgr.GetInstance():OverlayPanelPB(slot1, {
 		pbList = {
 			slot1:Find("Image1/Image1")
@@ -372,39 +372,39 @@ function slot0.BlurView(slot0, slot1)
 	})
 end
 
-function slot0.UnBlurView(slot0, slot1, slot2)
+slot0.UnBlurView = function(slot0, slot1, slot2)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot1, slot2)
 end
 
-function slot0.Append(slot0, slot1, slot2)
+slot0.Append = function(slot0, slot1, slot2)
 	if slot0.themePage and slot0.themePage:GetLoaded() then
 		slot0.themePage:Append(slot1, slot2)
 	end
 end
 
-function slot0.UpdateAllChat(slot0, slot1)
+slot0.UpdateAllChat = function(slot0, slot1)
 	if slot0.themePage and slot0.themePage:GetLoaded() then
 		slot0.themePage:UpdateAllChat(slot1)
 	end
 end
 
-function slot0.UpdateAllLog(slot0, slot1)
+slot0.UpdateAllLog = function(slot0, slot1)
 	if slot0.themePage and slot0.themePage:GetLoaded() then
 		slot0.themePage:UpdateAllChat(slot1)
 	end
 end
 
-function slot0.AppendLog(slot0, slot1, slot2)
+slot0.AppendLog = function(slot0, slot1, slot2)
 	if slot0.themePage and slot0.themePage:GetLoaded() then
 		slot0.themePage:AppendLog(slot1, slot2)
 	end
 end
 
-function slot0.openResourceLog(slot0)
+slot0.openResourceLog = function(slot0)
 	slot0.logPage:ExecuteAction("Show", slot0.guildVO)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.dynamicBg:Dispose()
 	slot0.logPage:Destroy()
 	slot0.guildRes:Destroy()
@@ -423,7 +423,7 @@ function slot0.willExit(slot0)
 	Input.multiTouchEnabled = true
 end
 
-function slot0.insertEmojiToInputText(slot0, slot1)
+slot0.insertEmojiToInputText = function(slot0, slot1)
 	if slot0.themePage then
 		slot0.themePage:InsertEmojiToInputText(slot1)
 	end

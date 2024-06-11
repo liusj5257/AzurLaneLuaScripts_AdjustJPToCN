@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"천사와의 밀회\n\n<size=45>5 천사와 갈매기</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "손을 잡고 여기저기를 걷다 보니, 어느새 부두 근처까지 다다랐다.",
 			bgm = "story-richang-8",
+			say = "손을 잡고 여기저기를 걷다 보니, 어느새 부두 근처까지 다다랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,10 +29,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "밑으로 내려가서 바닷바람이라도 쐴까요?",
 			painting = {
 				alpha = 0.3,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "수면의 갈매기떼가 퍼덕이며 날아올라, 물보라가 사방으로 흩뿌려졌다.",
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "그것을 본 조프르는 바로 등의 날개를 펴, 날아오는 물보라를 막아주었다.",
@@ -90,8 +90,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "눈부신 햇살 속에서 날개를 편 소녀를 보고, 나도 모르게 입에서 감탄이 흘러나왔다.",
@@ -104,10 +104,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇게 불리고는 있지요.",
 			painting = {
 				alpha = 0.3,
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관은 '진짜' 천사는 어떤 모습일 것 같나요?",
 			painting = {
 				alpha = 0.3,
@@ -163,10 +163,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……? 그런 결론에 다다르신 연유를 여쭈어봐도 될까요?",
 			painting = {
 				alpha = 0.3,
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "저는…",
 			painting = {
 				alpha = 0.3,
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "끝까지 들어달라는 의미로 조프르의 입술에 살짝 내 손가락을 댔다.",
@@ -293,10 +293,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -311,10 +311,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관… 방금 발언은 마치… 무슨 사랑 고백 같군요.",
 			painting = {
 				alpha = 0.3,
@@ -329,10 +329,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_700",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래도… 그렇게 말씀해주셔서 무척이나 기쁩니다.",
 			painting = {
 				alpha = 0.3,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "살짝 미소를 보인 천사는 살며시 다가와 내 어깨에 머리를 기댔다.",
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "조금 전 날아간 갈매기떼들도 어느새 돌아와 짝을 지어 서로를 껴안고 있다.",
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			say = "마치 지금…… 우리 두 사람처럼……",

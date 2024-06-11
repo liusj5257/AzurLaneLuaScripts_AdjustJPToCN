@@ -46,17 +46,17 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 2,
-			actorName = "???",
-			mode = 2,
 			dir = 0,
 			blackBg = true,
+			mode = 2,
+			actorName = "???",
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "The Gambit... It's failed 255 times now. Is this really all the evolution the Natural Calculation System is capable of?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,13 +85,13 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			mode = 2,
 			actorName = "???",
-			nameColor = "#ff0000",
-			blackBg = true,
+			mode = 2,
 			say = "But it's much faster than I originally estimated! Humans... or rather, \"natural evolution\", takes a long time~",
+			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "However, this won't satisfy the Judge. We need more Pieces... \nJust as long as we don't dispatch the Mirror Images we created...",
 			shake = {
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			actorName = "???",
 			mode = 2,
-			nameColor = "#ff0000",
+			actorName = "???",
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			say = "It's fine. They will operate exactly as they were taught... no, made to do.",
 			shake = {
 				speed = 1,
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			actorName = "???",
 			mode = 2,
-			nameColor = "#ff0000",
+			actorName = "???",
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			say = "My production speed can meet all experiment demands as long as we have the backup of the Original.",
 			shake = {
 				speed = 1,
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "If that's the case then I guess I need not worry. However...",
 			shake = {
@@ -196,12 +196,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "I want White to be just an illusion this time...",
 			shake = {

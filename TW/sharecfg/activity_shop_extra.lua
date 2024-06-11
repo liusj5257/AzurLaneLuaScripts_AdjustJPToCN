@@ -1,25 +1,25 @@
 pg = pg or {}
 pg.activity_shop_extra = {
 	{
-		commodity_id = 106011,
+		num_limit = 1,
 		activity = 15,
 		time = "",
-		scene = "",
-		num = 1,
-		num_limit = 1,
-		end_by_maintenance = 0,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 106011,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 1,
 		order = 13
 	},
 	{
-		commodity_id = 305021,
-		activity = 40135,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40135,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 305021,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 2,
 		order = 800,
 		time = {
@@ -50,49 +50,49 @@ pg.activity_shop_extra = {
 		}
 	},
 	{
-		commodity_id = 306031,
+		num_limit = 1,
 		activity = 27,
 		time = "",
-		scene = "",
-		num = 1,
-		num_limit = 1,
-		end_by_maintenance = 0,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 306031,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 3,
 		order = 11
 	},
 	[5] = {
-		commodity_id = 201101,
+		num_limit = 1,
 		activity = 10005,
 		time = "",
-		scene = "",
-		num = 1,
-		num_limit = 1,
-		end_by_maintenance = 0,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201101,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 5,
 		order = 99
 	},
 	[6] = {
-		commodity_id = 206031,
+		num_limit = 1,
 		activity = 40041,
 		time = "",
-		scene = "",
-		num = 1,
-		num_limit = 1,
-		end_by_maintenance = 0,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 206031,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 6,
 		order = 1
 	},
 	[7] = {
-		commodity_id = 101051,
-		activity = 40031,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40031,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 101051,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 7,
 		order = 8,
 		time = {
@@ -123,25 +123,25 @@ pg.activity_shop_extra = {
 		}
 	},
 	[9] = {
-		commodity_id = 305021,
+		num_limit = 1,
 		activity = 10035,
 		time = "",
-		scene = "",
-		num = 1,
-		num_limit = 1,
-		end_by_maintenance = 0,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 305021,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 9,
 		order = 1
 	},
 	[11] = {
-		commodity_id = 201101,
-		activity = 40399,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40399,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201101,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 11,
 		order = 800,
 		time = {
@@ -172,13 +172,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[12] = {
-		commodity_id = 306031,
-		activity = 83,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 83,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 306031,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 12,
 		order = 1,
 		time = {
@@ -209,13 +209,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[13] = {
-		commodity_id = 101061,
-		activity = 40159,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40159,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 101061,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 13,
 		order = 800,
 		time = {
@@ -246,13 +246,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[14] = {
-		commodity_id = 401231,
-		activity = 101,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 101,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 401231,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 14,
 		order = 2,
 		time = {
@@ -283,13 +283,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[15] = {
-		commodity_id = 301331,
-		activity = 40039,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40039,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301331,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 15,
 		order = 8,
 		time = {
@@ -320,13 +320,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[16] = {
-		commodity_id = 306031,
-		activity = 141,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 141,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 306031,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 16,
 		order = 3,
 		time = {
@@ -357,13 +357,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[17] = {
-		commodity_id = 901011,
-		activity = 40454,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40454,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 901011,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 17,
 		order = 800,
 		time = {
@@ -394,13 +394,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[18] = {
-		commodity_id = 201232,
-		activity = 147,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 147,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201232,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 18,
 		order = 2,
 		time = {
@@ -431,13 +431,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[19] = {
-		commodity_id = 205042,
-		activity = 157,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 157,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 205042,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 19,
 		order = 5,
 		time = {
@@ -468,13 +468,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[20] = {
-		commodity_id = 305023,
-		activity = 45018,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 45018,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 305023,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 20,
 		order = 800,
 		time = {
@@ -505,13 +505,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[21] = {
-		commodity_id = 101271,
-		activity = 180,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 180,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 101271,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 21,
 		order = 3,
 		time = {
@@ -542,13 +542,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[22] = {
-		commodity_id = 301641,
-		activity = 40200,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40200,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301641,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 22,
 		order = 800,
 		time = {
@@ -579,13 +579,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[23] = {
-		commodity_id = 201103,
-		activity = 40209,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40209,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201103,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 23,
 		order = 800,
 		time = {
@@ -616,13 +616,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[24] = {
-		commodity_id = 301142,
-		activity = 218,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 218,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301142,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 24,
 		order = 4,
 		time = {
@@ -653,13 +653,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[25] = {
-		commodity_id = 101382,
-		activity = 40049,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40049,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 101382,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 25,
 		order = 1,
 		time = {
@@ -690,13 +690,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[26] = {
-		commodity_id = 306031,
-		activity = 240,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 240,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 306031,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 26,
 		order = 3,
 		time = {
@@ -727,13 +727,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[27] = {
-		commodity_id = 107034,
-		activity = 40157,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40157,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 107034,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 27,
 		order = 800,
 		time = {
@@ -764,13 +764,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[28] = {
-		commodity_id = 201232,
-		activity = 355,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 355,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201232,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 28,
 		order = 11,
 		time = {
@@ -801,13 +801,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[33] = {
-		commodity_id = 301642,
-		activity = 40641,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40641,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301642,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 33,
 		order = 800,
 		time = {
@@ -838,13 +838,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[34] = {
-		commodity_id = 201241,
-		activity = 387,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 387,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201241,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 34,
 		order = 800,
 		time = {
@@ -875,13 +875,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[35] = {
-		commodity_id = 202172,
-		activity = 4947,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 4947,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 202172,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 35,
 		order = 800,
 		time = {
@@ -912,13 +912,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[36] = {
-		commodity_id = 101271,
-		activity = 40167,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40167,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 101271,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 36,
 		order = 800,
 		time = {
@@ -949,13 +949,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[38] = {
-		commodity_id = 201216,
-		activity = 40272,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40272,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201216,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 38,
 		order = 800,
 		time = {
@@ -986,13 +986,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[39] = {
-		commodity_id = 301014,
-		activity = 40279,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40279,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301014,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 39,
 		order = 800,
 		time = {
@@ -1023,13 +1023,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[40] = {
-		commodity_id = 202124,
-		activity = 422,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 422,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 202124,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 40,
 		order = 2,
 		time = {
@@ -1060,13 +1060,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[41] = {
-		commodity_id = 301641,
-		activity = 40491,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40491,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301641,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 41,
 		order = 800,
 		time = {
@@ -1097,13 +1097,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[42] = {
-		commodity_id = 301231,
-		activity = 40996,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40996,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301231,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 42,
 		order = 800,
 		time = {
@@ -1134,13 +1134,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[43] = {
-		commodity_id = 302081,
-		activity = 40211,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40211,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 302081,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 43,
 		order = 800,
 		time = {
@@ -1171,13 +1171,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[46] = {
-		commodity_id = 301323,
-		activity = 40236,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40236,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301323,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 46,
 		order = 800,
 		time = {
@@ -1208,13 +1208,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[47] = {
-		commodity_id = 312014,
-		activity = 525,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 525,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 312014,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 47,
 		order = 3,
 		time = {
@@ -1245,13 +1245,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[48] = {
-		commodity_id = 401231,
-		activity = 40627,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40627,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 401231,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 48,
 		order = 800,
 		time = {
@@ -1282,13 +1282,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[49] = {
-		commodity_id = 107032,
-		activity = 40731,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40731,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 107032,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 49,
 		order = 800,
 		time = {
@@ -1319,13 +1319,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[50] = {
-		commodity_id = 100001,
-		activity = 549,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 549,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 100001,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 50,
 		order = 9,
 		time = {
@@ -1356,13 +1356,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[53] = {
-		commodity_id = 301015,
-		activity = 40267,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40267,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301015,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 53,
 		order = 800,
 		time = {
@@ -1393,13 +1393,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[54] = {
-		commodity_id = 108032,
-		activity = 606,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 606,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 108032,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 54,
 		order = 800,
 		time = {
@@ -1430,14 +1430,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[56] = {
-		commodity_type = 7,
-		activity = 40435,
-		commodity_id = 103072,
-		order = 800,
-		id = 56,
-		num = 1,
 		num_limit = 1,
+		activity = 40435,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 103072,
 		end_by_maintenance = 0,
+		id = 56,
+		order = 800,
 		scene = {
 			"scene shop",
 			{
@@ -1472,13 +1472,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[59] = {
-		commodity_id = 301181,
-		activity = 45028,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 45028,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301181,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 59,
 		order = 800,
 		time = {
@@ -1509,13 +1509,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[60] = {
-		commodity_id = 102162,
-		activity = 40458,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40458,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 102162,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 60,
 		order = 800,
 		time = {
@@ -1546,13 +1546,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[61] = {
-		commodity_id = 101291,
-		activity = 40459,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40459,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 101291,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 61,
 		order = 800,
 		time = {
@@ -1583,14 +1583,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[62] = {
-		commodity_type = 7,
-		activity = 40310,
-		commodity_id = 205013,
-		order = 800,
-		id = 62,
-		num = 1,
 		num_limit = 1,
+		activity = 40310,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 205013,
 		end_by_maintenance = 0,
+		id = 62,
+		order = 800,
 		scene = {
 			"scene coloring",
 			{}
@@ -1623,13 +1623,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[64] = {
-		commodity_id = 102272,
-		activity = 4185,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 4185,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 102272,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 64,
 		order = 800,
 		time = {
@@ -1660,13 +1660,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[67] = {
-		commodity_id = 502041,
-		activity = 41037,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 41037,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 502041,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 67,
 		order = 800,
 		time = {
@@ -1697,13 +1697,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[68] = {
-		commodity_id = 502036,
-		activity = 40291,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40291,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 502036,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 68,
 		order = 800,
 		time = {
@@ -1734,13 +1734,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[69] = {
-		commodity_id = 502026,
-		activity = 40290,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40290,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 502026,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 69,
 		order = 800,
 		time = {
@@ -1771,13 +1771,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[71] = {
-		commodity_id = 107037,
-		activity = 40327,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40327,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 107037,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 71,
 		order = 800,
 		time = {
@@ -1808,13 +1808,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[72] = {
-		commodity_id = 301212,
-		activity = 41040,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 41040,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301212,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 72,
 		order = 800,
 		time = {
@@ -1845,13 +1845,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[73] = {
-		commodity_id = 305025,
-		activity = 4013,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 4013,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 305025,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 73,
 		order = 800,
 		time = {
@@ -1882,13 +1882,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[74] = {
-		commodity_id = 201221,
-		activity = 4067,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 4067,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201221,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 74,
 		order = 800,
 		time = {
@@ -1919,13 +1919,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[75] = {
-		commodity_id = 301602,
-		activity = 4076,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 4076,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301602,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 75,
 		order = 800,
 		time = {
@@ -1956,13 +1956,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[76] = {
-		commodity_id = 301651,
-		activity = 41313,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 41313,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301651,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 76,
 		order = 800,
 		time = {
@@ -1993,14 +1993,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[80] = {
-		commodity_type = 7,
-		activity = 45901,
-		commodity_id = 105092,
-		order = 800,
-		id = 80,
-		num = 1,
 		num_limit = 1,
+		activity = 45901,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 105092,
 		end_by_maintenance = 0,
+		id = 80,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2033,13 +2033,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[81] = {
-		commodity_id = 202072,
-		activity = 40981,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40981,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 202072,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 81,
 		order = 800,
 		time = {
@@ -2070,13 +2070,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[82] = {
-		commodity_id = 408052,
-		activity = 41026,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 41026,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 408052,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 82,
 		order = 800,
 		time = {
@@ -2107,14 +2107,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[84] = {
-		commodity_type = 7,
-		activity = 45902,
-		commodity_id = 102102,
-		order = 800,
-		id = 84,
-		num = 1,
 		num_limit = 1,
+		activity = 45902,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 102102,
 		end_by_maintenance = 0,
+		id = 84,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2147,14 +2147,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[85] = {
-		commodity_type = 7,
-		activity = 45903,
-		commodity_id = 107067,
-		order = 800,
-		id = 85,
-		num = 1,
 		num_limit = 1,
+		activity = 45903,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 107067,
 		end_by_maintenance = 0,
+		id = 85,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2187,14 +2187,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[86] = {
-		commodity_type = 7,
-		activity = 45904,
-		commodity_id = 301094,
-		order = 800,
-		id = 86,
-		num = 1,
 		num_limit = 1,
+		activity = 45904,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301094,
 		end_by_maintenance = 0,
+		id = 86,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2227,14 +2227,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[88] = {
-		commodity_type = 7,
-		activity = 45905,
-		commodity_id = 399033,
-		order = 800,
-		id = 88,
-		num = 1,
 		num_limit = 1,
+		activity = 45905,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 399033,
 		end_by_maintenance = 0,
+		id = 88,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2267,13 +2267,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[89] = {
-		commodity_id = 302054,
-		activity = 40763,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 40763,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 302054,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 89,
 		order = 800,
 		time = {
@@ -2304,13 +2304,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[90] = {
-		commodity_id = 103072,
-		activity = 41007,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 41007,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 103072,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 90,
 		order = 800,
 		time = {
@@ -2341,13 +2341,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[91] = {
-		commodity_id = 105011,
-		activity = 41339,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 41339,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 105011,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 91,
 		order = 800,
 		time = {
@@ -2378,14 +2378,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[92] = {
-		commodity_type = 7,
-		activity = 45906,
-		commodity_id = 702023,
-		order = 800,
-		id = 92,
-		num = 1,
 		num_limit = 1,
+		activity = 45906,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 702023,
 		end_by_maintenance = 0,
+		id = 92,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2418,14 +2418,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[93] = {
-		commodity_type = 7,
-		activity = 45907,
-		commodity_id = 102095,
-		order = 800,
-		id = 93,
-		num = 1,
 		num_limit = 1,
+		activity = 45907,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 102095,
 		end_by_maintenance = 0,
+		id = 93,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2458,14 +2458,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[94] = {
-		commodity_type = 7,
-		activity = 4602,
-		commodity_id = 102233,
-		order = 800,
-		id = 94,
-		num = 1,
 		num_limit = 1,
+		activity = 4602,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 102233,
 		end_by_maintenance = 0,
+		id = 94,
+		order = 800,
 		scene = {
 			"NEWYEAR BACKHILL 2023"
 		},
@@ -2497,14 +2497,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[95] = {
-		commodity_type = 7,
-		activity = 4665,
-		commodity_id = 408052,
-		order = 800,
-		id = 95,
-		num = 1,
 		num_limit = 1,
+		activity = 4665,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 408052,
 		end_by_maintenance = 0,
+		id = 95,
+		order = 800,
 		scene = {
 			"SPRING_FESTIVAL_BACKHILL_2024",
 			{
@@ -2539,14 +2539,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[96] = {
-		commodity_type = 7,
-		activity = 4665,
-		commodity_id = 501021,
-		order = 800,
-		id = 96,
-		num = 1,
 		num_limit = 1,
+		activity = 4665,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 501021,
 		end_by_maintenance = 0,
+		id = 96,
+		order = 800,
 		scene = {
 			"SPRING_FESTIVAL_BACKHILL_2024",
 			{
@@ -2581,13 +2581,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[97] = {
-		commodity_id = 301323,
-		activity = 4636,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 4636,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301323,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 97,
 		order = 800,
 		time = {
@@ -2618,14 +2618,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[98] = {
-		commodity_type = 7,
-		activity = 45908,
-		commodity_id = 301265,
-		order = 800,
-		id = 98,
-		num = 1,
 		num_limit = 1,
+		activity = 45908,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301265,
 		end_by_maintenance = 0,
+		id = 98,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2658,13 +2658,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[99] = {
-		commodity_id = 302041,
-		activity = 4683,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 1,
+		activity = 4683,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 302041,
+		end_by_maintenance = 1,
+		scene = "",
 		id = 99,
 		order = 800,
 		time = {
@@ -2695,14 +2695,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[100] = {
-		commodity_type = 7,
-		activity = 45909,
-		commodity_id = 901033,
-		order = 800,
-		id = 100,
-		num = 1,
 		num_limit = 1,
+		activity = 45909,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 901033,
 		end_by_maintenance = 0,
+		id = 100,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2735,14 +2735,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[101] = {
-		commodity_type = 7,
-		activity = 45910,
-		commodity_id = 307026,
-		order = 800,
-		id = 101,
-		num = 1,
 		num_limit = 1,
+		activity = 45910,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 307026,
 		end_by_maintenance = 0,
+		id = 101,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2775,13 +2775,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[102] = {
-		commodity_id = 502012,
-		activity = 4871,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 1,
+		activity = 4871,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 502012,
+		end_by_maintenance = 1,
+		scene = "",
 		id = 102,
 		order = 800,
 		time = {
@@ -2811,14 +2811,51 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
-	[104] = {
-		commodity_id = 502072,
-		activity = 4888,
-		scene = "",
-		num = 1,
+	[103] = {
 		num_limit = 1,
-		end_by_maintenance = 1,
+		activity = 4883,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 102096,
+		end_by_maintenance = 1,
+		scene = "",
+		id = 103,
+		order = 90,
+		time = {
+			{
+				{
+					2024,
+					5,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[104] = {
+		num_limit = 1,
+		activity = 4888,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 502072,
+		end_by_maintenance = 1,
+		scene = "",
 		id = 104,
 		order = 800,
 		time = {
@@ -2849,14 +2886,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[105] = {
-		commodity_type = 7,
-		activity = 45911,
-		commodity_id = 903012,
-		order = 800,
-		id = 105,
-		num = 1,
 		num_limit = 1,
+		activity = 45911,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 903012,
 		end_by_maintenance = 0,
+		id = 105,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2889,13 +2926,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[106] = {
-		commodity_id = 701102,
-		activity = 4960,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 1,
+		activity = 4960,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 701102,
+		end_by_maintenance = 1,
+		scene = "",
 		id = 106,
 		order = 800,
 		time = {
@@ -2926,14 +2963,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[108] = {
-		commodity_type = 7,
-		activity = 45912,
-		commodity_id = 408112,
-		order = 800,
-		id = 108,
-		num = 1,
 		num_limit = 1,
+		activity = 45912,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 408112,
 		end_by_maintenance = 0,
+		id = 108,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -2966,14 +3003,14 @@ pg.activity_shop_extra = {
 		}
 	},
 	[110] = {
-		commodity_type = 7,
-		activity = 45913,
-		commodity_id = 301213,
-		order = 800,
-		id = 110,
-		num = 1,
 		num_limit = 1,
+		activity = 45913,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301213,
 		end_by_maintenance = 0,
+		id = 110,
+		order = 800,
 		scene = {
 			"crusing",
 			{}
@@ -3005,14 +3042,54 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
-	[117] = {
-		commodity_id = 100011,
-		activity = 5267,
-		scene = "",
-		num = 1,
+	[112] = {
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 45914,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 301042,
+		end_by_maintenance = 0,
+		id = 112,
+		order = 90,
+		scene = {
+			"crusing",
+			{}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[117] = {
+		num_limit = 1,
+		activity = 5267,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 100011,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 117,
 		order = 800,
 		time = {
@@ -3042,14 +3119,88 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
-	[5001] = {
-		commodity_id = 403041,
-		activity = 40146,
-		scene = "",
-		num = 1,
+	[118] = {
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 5324,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 106014,
+		end_by_maintenance = 1,
+		scene = "",
+		id = 118,
+		order = 90,
+		time = {
+			{
+				{
+					2024,
+					5,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[119] = {
+		num_limit = 1,
+		activity = 5360,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 506013,
+		end_by_maintenance = 0,
+		scene = "",
+		id = 119,
+		order = 90,
+		time = {
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5001] = {
+		num_limit = 1,
+		activity = 40146,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 403041,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 5001,
 		order = 800,
 		time = {
@@ -3080,13 +3231,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[5002] = {
-		commodity_id = 201214,
-		activity = 333,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 333,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 201214,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 5002,
 		order = 1,
 		time = {
@@ -3117,13 +3268,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[5003] = {
-		commodity_id = 312013,
-		activity = 299,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 299,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 312013,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 5003,
 		order = 800,
 		time = {
@@ -3154,13 +3305,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[5004] = {
-		commodity_id = 308051,
-		activity = 41239,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 0,
+		activity = 41239,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 308051,
+		end_by_maintenance = 0,
+		scene = "",
 		id = 5004,
 		order = 800,
 		time = {
@@ -3191,13 +3342,13 @@ pg.activity_shop_extra = {
 		}
 	},
 	[5005] = {
-		commodity_id = 206037,
-		activity = 4621,
-		scene = "",
-		num = 1,
 		num_limit = 1,
-		end_by_maintenance = 1,
+		activity = 4621,
 		commodity_type = 7,
+		num = 1,
+		commodity_id = 206037,
+		end_by_maintenance = 1,
+		scene = "",
 		id = 5005,
 		order = 800,
 		time = {
@@ -3307,12 +3458,16 @@ pg.activity_shop_extra = {
 			100,
 			101,
 			102,
+			103,
 			104,
 			105,
 			106,
 			108,
 			110,
+			112,
 			117,
+			118,
+			119,
 			5001,
 			5002,
 			5003,
@@ -3399,12 +3554,16 @@ pg.activity_shop_extra = {
 		100,
 		101,
 		102,
+		103,
 		104,
 		105,
 		106,
 		108,
 		110,
+		112,
 		117,
+		118,
+		119,
 		5001,
 		5002,
 		5003,

@@ -1,16 +1,16 @@
 return {
-	once = true,
-	mode = 2,
-	id = "FUYINGYINGHUA19",
 	continueBgm = true,
+	mode = 2,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "兩個嬌小的身影，伴隨著一連串爆炸聲，遊走在塞壬的大軍之中",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,12 +21,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "{namecode:158}！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 305050,
+			say = "{namecode:158}！！",
 			flashN = {
 				color = {
 					1,
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "——塞壬戰艦的一輪齊射再一次在{namecode:158}身邊形成了跨射",
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "爆風過後，露出的是{namecode:74}嬌小身軀和龐大艦裝的身影",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:74}召喚出的艦裝，將再次飛來的砲彈擋了下來",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			say = "笨蛋！木頭腦袋！！！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,8 +248,8 @@ return {
 			say = "欸…欸？",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -273,8 +273,8 @@ return {
 			say = "吾可是{namecode:74}！重櫻的戰艦·{namecode:74}！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:74}合上雙眼，抬起雙手，在胸口祈禱著",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			say = "————",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:74}的砲管發射出的砲彈在空中幻化成光玉，向四散飛去，照亮了夜晚的天空",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "轉瞬，光玉又在空中飛速向一處集中飛去，擊破了包圍網的一角",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:74}伸出手，牽引著{namecode:158}受傷的身軀向突破口駛去——",
 			typewriter = {
 				speed = 0.05,
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…然而，增援的塞壬艦船很快又將炮口對準了兩人",
 			typewriter = {
 				speed = 0.05,
@@ -474,23 +474,9 @@ return {
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			say = "不要管我了…{namecode:74}大人",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "{namecode:74}沒有理會{namecode:158}的話語，只是拼盡全力地，驅使著巨大的艦裝，一邊迴避著塞壬的砲擊，一邊反擊，在砲火中艱難地行進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +487,22 @@ return {
 			}
 		},
 		{
-			dir = 1,
+			say = "{namecode:74}沒有理會{namecode:158}的話語，只是拼盡全力地，驅使著巨大的艦裝，一邊迴避著塞壬的砲擊，一邊反擊，在砲火中艱難地行進。",
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			dir = 1,
 			say = "然而不斷逼近的塞壬艦隊，在{namecode:74}抵達突破口前的一刻便再次將突破口填滿",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "更大的危機，向二人逼近",
 			typewriter = {
 				speed = 0.05,
@@ -557,9 +557,9 @@ return {
 			}
 		},
 		{
+			say = "——",
 			soundeffect = "event:/battle/plane",
 			bgm = "story-7",
-			say = "——",
 			flashN = {
 				color = {
 					1,
@@ -598,10 +598,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "隨著一聲聲爆炸，突破口周圍的塞壬應聲化為了燃燒著的殘骸——",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -659,12 +659,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			say = "——如果失去了妳，{namecode:74}大人可是會很傷心哦~",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 307060,
+			say = "——如果失去了妳，{namecode:74}大人可是會很傷心哦~",
 			flashN = {
 				color = {
 					1,
@@ -707,8 +707,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:96}的轟炸機精準地在敵人頭頂投下爆彈，燃燒的火光再次映紅了夜空",
 			typewriter = {
 				speed = 0.05,
@@ -720,14 +720,14 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "得救了…謝謝妳，{namecode:96}大人——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -752,8 +752,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1250,
+					type = "move",
 					delay = 1.5,
 					dur = 0.25,
 					x = 0
@@ -761,8 +761,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:158}用盡力氣向{namecode:96}道了謝，便癱軟了下去",
 			typewriter = {
 				speed = 0.05,
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -986,8 +986,8 @@ return {
 			say = "放心交給我吧，{namecode:74}大人！{namecode:82}大人在島上等著您。",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

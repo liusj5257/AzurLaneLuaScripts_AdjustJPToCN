@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "The Dämonenhöhle – the Demon King's armory.",
 			bgm = "theme-shallowoftheworld",
+			say = "The Dämonenhöhle – the Demon King's armory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "Located at the heart of the lava lake, it is a key strategic point for the Demon King Army.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "The armory is surrounded by glowing hot lava that has been flowing for untold years. Attacking it is a nightmarish premise.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "It is also the base of the Dragonlord's airborne hunters division. They have been incessantly launching attacks on Sentinel Bastion from here.",
 			typewriter = {
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "Today we shall bring an end to it all.",
 			painting = {
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We meet again, Dragonlord! Remember when I kicked your butt?",
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "Potion Maker",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You ran with your tail between your legs last time, but that's not happening again!",
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_camelot_6",
 			factiontag = "Dragonlord",
 			dir = 1,
+			bgName = "bg_camelot_6",
 			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "Huh? Are you people serious?",
@@ -132,17 +132,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "Dragonlord",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "Fine, I admit I got very careless back at your precious wall!",
 			painting = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I don't just think – I KNOW we can!",
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "Cleric",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You scared? Then it's not too late to surrender!",
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dark Knight Slimejuus",
+			side = 2,
 			bgName = "bg_camelot_6",
 			nameColor = "#FF9B93",
 			say = "CHIIIRP! CHIIIRP!",
@@ -286,8 +286,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2,
 					name = "jiulaimu_zhanlie",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -304,9 +304,9 @@ return {
 					}
 				},
 				{
-					delay = 0.3,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 0.3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -323,9 +323,9 @@ return {
 					}
 				},
 				{
-					delay = 0.7,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 0.7,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -346,9 +346,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_camelot_6",
 			factiontag = "Cleric",
 			dir = 1,
+			bgName = "bg_camelot_6",
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -362,17 +362,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -398,27 +398,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			say = "The horn resounds with a serene note, and the counterattack on the army of monsters begins.",
 			bgm = "theme-tempest",
+			say = "The horn resounds with a serene note, and the counterattack on the army of monsters begins.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "Naturally, our party members aren't the only ones attacking.",
 			typewriter = {
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "With the billow of a saltwater wave, an armada of ghost pirates and their ships join the assault.",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "With each passing second, their fleet seems to grow larger and the splashing of the waves intensifies.",
 			typewriter = {
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
-			bgName = "star_level_bg_525",
 			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
+			bgName = "star_level_bg_525",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "You can say that again! I've never seen something THIS fun before!",
 			painting = {
@@ -544,17 +544,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.25,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = false,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "That's me! Good to see you all again!",
 			painting = {
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "Thought I'd check it out, and what do I find? You lot, starting the party without me!",
 			painting = {
@@ -650,11 +650,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Goddess of Pioneering and Adventure",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "Fine by me! Let's take her down!",
 			painting = {

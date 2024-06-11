@@ -9,9 +9,9 @@ return {
 			style = {
 				text = "AP can be obtained by using items or Oil.",
 				mode = 2,
-				posY = -234,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -234,
 				posX = 855
 			}
 		}

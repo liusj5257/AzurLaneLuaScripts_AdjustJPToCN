@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE402",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE402",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -71,13 +71,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "네, 여러분 수고하셨습니다.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "네, 여러분 수고하셨습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,13 +103,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "그렇게 되네요. 거울해역에서의 정보, 여러분의 가짜가 갖고 있던 데이터…… 전부 수집이 끝났습니다.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "그렇게 되네요. 거울해역에서의 정보, 여러분의 가짜가 갖고 있던 데이터…… 전부 수집이 끝났습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,13 +120,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "이제 게임업계와 그쪽의 차원을 잇는 웜홀을 만들 수 있습니다. 언제라도 돌아오실 수 있어요.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "이제 게임업계와 그쪽의 차원을 잇는 웜홀을 만들 수 있습니다. 언제라도 돌아오실 수 있어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,8 +219,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "그렇게 바로 돌아가지 않아도……조금만 더, 학원에 있어도 좋아, 에요.",
 			typewriter = {
 				speed = 0.05,
@@ -337,30 +337,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
-			nameColor = "#92fc63",
-			actorName = "이스투아르",
-			dir = 1,
-			withoutPainting = true,
 			say = "네, 되도록 빨리 돌아와 주세요.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 0,
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "하지만 이쪽 차원에서 다시 가려고 마음먹으면, 언제든 다시 갈 수 있다고요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,10 +354,27 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
-			actorShadow = true,
+			say = "하지만 이쪽 차원에서 다시 가려고 마음먹으면, 언제든 다시 갈 수 있다고요.",
+			side = 2,
 			nameColor = "#92fc63",
+			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorShadow = true,
 			side = 0,
+			nameColor = "#92fc63",
+			actor = 10100010,
 			dir = -1,
 			hideOther = true,
 			actorName = "넵튠 & 느와르",
@@ -398,10 +398,10 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
 			actorShadow = true,
-			nameColor = "#92fc63",
 			side = 0,
+			nameColor = "#92fc63",
+			actor = 10100030,
 			dir = 1,
 			hideOther = true,
 			actorName = "블랑 & 벨",
@@ -434,13 +434,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "이번 일로 게임업계와 그쪽 차원의 친화성이 발견되어서 말이죠. 차원을 잇는 웜홀은 언제든 열 수 있습니다.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "이번 일로 게임업계와 그쪽 차원의 친화성이 발견되어서 말이죠. 차원을 잇는 웜홀은 언제든 열 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,13 +451,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "그러므로, 이별은 아주 잠깐입니다. 만나려고 마음만 먹으면, 내일이라도 다시 올 수 있으니까, 이별을 슬퍼할 필요는 없어요.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "그러므로, 이별은 아주 잠깐입니다. 만나려고 마음만 먹으면, 내일이라도 다시 올 수 있으니까, 이별을 슬퍼할 필요는 없어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,8 +580,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "……응, 모두가 오는 걸 기다리는 거에요.",
 			typewriter = {
 				speed = 0.05,
@@ -623,16 +623,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "테스터 α",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "경과를 계속 관찰했더니…… 예기치 못한 상황이 되었군.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -657,12 +657,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "테스터 α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스터 α",
 			say = "다른 차원에서 온 방문자들이, 그대로 머물 가능성……? 생각해본 적도 없었어. 게다가 새로운 전력으로 가담한다니……",
 			typewriter = {
 				speed = 0.05,
@@ -674,12 +674,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "테스터 α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스터 α",
 			say = "이것도 우리가 추구하는, 다다라야 할 또 다른 미래의 가능성…… 그걸 시사하는 걸까……?",
 			typewriter = {
 				speed = 0.05,
@@ -691,12 +691,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "테스터 α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스터 α",
 			say = "……후후후, 이 또한 하나의 여흥…이란 거겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -708,12 +708,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "테스터 α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스터 α",
 			say = "……조금만 더, 이대로……그녀들을 관찰하도록 하자.",
 			typewriter = {
 				speed = 0.05,
@@ -725,12 +725,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "테스터 α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스터 α",
 			say = "느긋하게 말이지…………",
 			typewriter = {
 				speed = 0.05,

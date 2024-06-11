@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17412,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17412,
+	color = "red",
 	icon = 17410,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				quota = 1,
 				skill_id = 17412,
+				quota = 1,
 				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",

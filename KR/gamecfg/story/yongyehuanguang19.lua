@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG19",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "하지만 지원 함대는 여전히 유인 작전 중이에요. 만약 저희가 서둘러 가지 않는다면…그녀들이 위험해질 거에요!",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = " 즉시 사령부에 연락해서 현재 상황을 보고해! 만약 메탈 블러드 주력 함대 섬멸 작전을 포기한다면, 지원 함대는 본토로 철수할 수 있는 선택지가 생겨.",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = " 그때 되면 우리가 책임지고 그들을 전부 처리해버리지!",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "아, 안돼… 통신기가 반응이 없어!",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "통신기는 어떻게 항상 중요한 순간에 나가버리는 거야! 방금 세이렌이 한 짓인가…젠장!",
 			typewriter = {
@@ -212,8 +212,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "음… 모두와 연락이 안되면 그녀들을 철수시킬 수 없어요. 이제 어떡해야 하죠…",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = " …휴우…지금 상황을 다시 분석해보자.",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = " 원래 이번 임무는 노스 유니온을 지원하는 선단 호위 임무였고, 메탈 블러드 함대의 작전은 그저 부가 선택지였어…",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "만약 우리가 회항해서 가버리면 선단은 세이렌의 직접적인 공격을 받을 것이고, 그리고…",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "만약 지원 물자가 노스 유니온에 도착할 수 없다면, 극지 방어선은 금새 붕괴되 버릴 거야….",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = " 그러니…우리가 지금 돌아가면 선단과 노스 유니온에 대한 무책임이고, 또한 전체 정세에 대한 무책임이기도 해…",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "음…나 결정했어. 주력 함대는 회항하지 않기로!",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "우리 이곳에 남아서 계속 싸우자. 만약 세이렌이 접근하면 세이렌을 소멸시키고, 메탈 블러드가 다가오면 메탈 블러드를 처리하는 거야. 모든 적을 소멸시키면…대가를 바라지 않고, 극지 선단의 안전을 보호하는 거야!",
 			effects = {
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "그럼…지원 함대 그쪽은 어떡하죠?",
 			effects = {
@@ -441,8 +441,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "…계속 통신 설비를 점검해서 통신이 회복되면, 즉시 본토 방향으로 철수하게 해야지!",
 			typewriter = {
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			actor = 205100,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205100,
+			nameColor = "#a9f548",
 			say = "책임 같은 건, 내가 지면 돼! 세이렌 함대가 또 다가왔어. 온 힘을 다해 싸워야 해!",
 			typewriter = {
 				speed = 0.05,

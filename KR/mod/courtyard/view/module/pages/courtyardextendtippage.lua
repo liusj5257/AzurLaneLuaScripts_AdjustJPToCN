@@ -1,10 +1,10 @@
 slot0 = class("CourtYardExtendTipPage", import(".CourtYardBaseSubPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CourtYardExtendTipUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.valueTxt = findTF(slot0._tf, "frame/tip_2/value_bg/Text")
 	slot0.text1 = findTF(slot0._tf, "frame/tip_1/text_1")
 	slot0.text2 = findTF(slot0._tf, "frame/tip_1/value_bg/Text")
@@ -26,7 +26,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/title"), i18n("words_information"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.okBtn, function ()
 		uv0:Emit("Extend")
 		uv0:Hide()
@@ -42,7 +42,7 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	slot1 = getProxy(BagProxy):getItemById(ITEM_BACKYARD_AREA_EXTEND) or Item.New({
 		count = 0,
 		id = ITEM_BACKYARD_AREA_EXTEND
@@ -70,7 +70,7 @@ function slot0.Show(slot0)
 	slot0.showing = true
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0.showing == true then
 		slot0.showing = false
 
@@ -79,7 +79,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

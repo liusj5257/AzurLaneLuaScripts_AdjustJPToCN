@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "潜艇-指挥-命中II",
 	time = 0,
-	color = "yellow",
+	name = "潜艇-指挥-命中II",
+	init_effect = "",
+	id = 451820,
 	picture = "",
 	desc = "该入口提供战外挂载到战内",
 	stack = 1,
-	id = 451820,
+	color = "yellow",
 	icon = 451820,
 	last_effect = "",
 	effect_list = {

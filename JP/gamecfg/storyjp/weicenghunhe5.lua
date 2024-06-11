@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_guild_blue",
-			bgm = "hunhe-story",
-			dir = 1,
 			say = "運河要塞内",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "エンタープライズさん、戻ってきていないですね……",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "まあまあ、実際景色に見惚れてつい寄り道をした、ってオチかもしれないし",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "エンタープライズ、いつも張り切ってるじゃない？少しリラックスさせてあげても大丈夫っしょ",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "……よし。この度の任務編成についてだが",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
 			say = "どうする？一回連絡してみる？",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "ううん、ここはこのまま再出撃して先輩と合流しよう。探す海域が同じなら絶対どこかで会える",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "（エセックス、相変わらずエンタープライズさんのことになるとせっかちだね…）",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "あ、それなら私が先頭に出るね。エセックスがリーダーだし先行する必要はないわよ",
 			typewriter = {
@@ -222,14 +222,14 @@ return {
 			}
 		},
 		{
-			actor = 107110,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107110,
+			nameColor = "#a9f548",
 			say = "エンタープライズさん…どこだろ……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -267,8 +267,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "せっかくマーブルヘッドのやつから差し入れのコーヒーまで持ってきたのに…",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "あれ？",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "エンタープライズさんの…艤装のパーツ？",
 			typewriter = {
 				speed = 0.05,
@@ -312,10 +312,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			say = "エンタープライズの艤装と思われるパーツが海に浮かんでいた。",
 			soundeffect = "event:/ui/noice",
+			side = 2,
+			dir = 1,
+			say = "エンタープライズの艤装と思われるパーツが海に浮かんでいた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,8 +329,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "戦闘の痕跡がない…ということはうっかりパーツを落とした？",
 			typewriter = {
 				speed = 0.05,
@@ -344,9 +344,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "いやいや、イントレピッド、エンタープライズさんは私のようなうっかりさんじゃないって。……",
 			dialogShake = {
 				speed = 0.09,
@@ -363,10 +363,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgm = "airRaidAlarm",
 			say = "「要塞周辺海域にセイレーン艦隊の反応を探知！各員至急戦闘態勢を！」",
+			side = 2,
+			dir = 1,
+			bgm = "airRaidAlarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「繰り返す！要塞周辺に来襲するセイレーンを至急迎撃されたし！」",
 			typewriter = {
 				speed = 0.05,
@@ -392,9 +392,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "こんな時にセイレーンが！？やっぱり要塞を狙っているのね…！",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

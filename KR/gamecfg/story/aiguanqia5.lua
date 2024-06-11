@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA5",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA5",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "가짜 키즈나 아이",
 			say = "………",
 			typewriter = {
@@ -90,10 +90,10 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
+			actor = 401230,
 			say = "이건… 아이상!? 눈앞을 촐랑촐랑거려서 조준이 안 돼요!",
 			effects = {
 				{
@@ -128,9 +128,9 @@ return {
 		{
 			expression = 5,
 			side = 0,
+			dir = 1,
 			actor = 10400010,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "나 아냐!? 내가 아니라 저 가짜가 한 거 아닐까!?",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -200,8 +200,8 @@ return {
 			actor = 10400010,
 			side = 0,
 			expression = 6,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "저한테 해킹으로 덤비다니 좋은 배짱이네요! 슈퍼 AI인 제가 진짜 해킹이란 걸 가르쳐드리죠! 되갚아주자구요~! 게임으로 길러진 내 손놀림을 보여주지~~~!",
 			typewriter = {
 				speed = 0.05,

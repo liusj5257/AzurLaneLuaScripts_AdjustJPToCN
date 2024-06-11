@@ -1,7 +1,7 @@
 slot0 = class("LaunchBallTaskMediator", import("..base.ContextMediator"))
 slot0.SUBMIT_ALL = "SUBMIT_ALL"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(LaunchBallTaskMediator.SUBMIT_ALL, function (slot0, slot1)
 		uv0.submit = #slot1
 		uv0.awards = {}
@@ -12,16 +12,16 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.onUIAvalible(slot0)
+slot0.onUIAvalible = function(slot0)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SUBMIT_TASK_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SUBMIT_AVATAR_TASK_DONE then

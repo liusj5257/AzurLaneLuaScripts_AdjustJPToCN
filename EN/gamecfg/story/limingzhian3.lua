@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "The icebreaker, escorted by Pamiat' Merkuria and Avrora, was safely brought back to one of the Northern Parliament's ports.",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgm = "blueocean-image",
+			say = "The icebreaker, escorted by Pamiat' Merkuria and Avrora, was safely brought back to one of the Northern Parliament's ports.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Probably nothing that you don't already know. Even after all our hard work, we went home empty-handed.",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "If I remember, that was around the time the Crown first appeared. We were so confident that we'd be able to push deeper into the Polar region's unknown depths with our new powers.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Just like that, we lost everything. The fleet, the experimental submarine, even the massive base and outposts we had.",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "And that was the first time you ever saw Soyuz lose her cool, huh? It's crazy that something like that happened...",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "But, I think I can understand how she felt. She personally saw that fleet off too, didn't she?",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "So, in other words, our base might've been built on top of a Mirror Sea site from the very beginning?",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Yeah, that does make sense! Anomalies can occur inside a Mirror Sea even in the absence of Sirens, and...",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "The fact that we found the Mikoyan at a Siren facility supports that hypothesis!",
 			typewriter = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Fake?",
 			typewriter = {
@@ -531,8 +531,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Wait a minute, doesn't that mean that whatever device sending the junk signal is still in operation somewhere?",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Ugh... That seems way too convenient, almost like someone WANTED us to find it.",
 			typewriter = {
@@ -597,8 +597,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Whoever our \"trustworthy informant\" is must be really formidable.",
 			typewriter = {
@@ -659,12 +659,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "(And in all likelihood, what Soyuz truly wants to know––)",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「幻想と真実の二重奏」-日常編\n\n<size=45>一 雰囲気の類似について</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・臨時寮舎",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-shion",
+			say = "母港・臨時寮舎",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 900212,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900212,
+			nameColor = "#a9f548",
 			say = "聞いてよフブキ～……江風ちゃんが可愛すぎるんだが？ゲームより本物の方が百倍可愛い！！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "まーたまつりちゃんの浮気性が始まったんだなぁ……",
 			typewriter = {
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "不純な気持ちじゃないんだよ。フブキに似てるからとかじゃない。江風ちゃんは、江風ちゃんだから可愛い……ただ、それだけなんだ。",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "やだ、なんかイケメン……",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "騙されないであくあちゃん！イケボだけなら黒ちゃんだって出せるから！",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -157,8 +157,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "他人のイケボで対抗した！？",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "えへへ、黒ちゃんのものは、わたしのものですも～ん。",
 			typewriter = {
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 900211,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900211,
+			nameColor = "#a9f548",
 			say = "えっ、ほんとに！？",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "うむ。連れてくるからちょっと待っていてくれ。",
 			typewriter = {
@@ -257,17 +257,17 @@ return {
 			}
 		},
 		{
-			actor = 301140,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "あやめ、うまいもんくれるって言ったな！",
 			bgm = "holo-ayame",
+			actor = 301140,
+			nameColor = "#a9f548",
+			say = "あやめ、うまいもんくれるって言ったな！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -308,11 +308,11 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301140,
+			nameColor = "#a9f548",
 			say = "おおお！太っ腹！",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -385,8 +385,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "余もワンちゃんじゃないぞ！",
 			typewriter = {
@@ -399,8 +399,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -412,8 +412,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "あはは、だいじょうぶ。ふたりとも可愛い女の子だよ～",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "ふむ……犬っぽいかどうかはともかく、確かにこの子は、あやめちゃんと似ているところが多いね。",
 			typewriter = {
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -494,8 +494,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "……別に犬っぽいから餌付けしたわけじゃないからな！？",
 			typewriter = {
@@ -508,8 +508,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -537,8 +537,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "出雲さんは、あやめちゃんと同じ鬼ですからね！くう～！鬼娘同士の共演、鬼コラボも見たかったんですが、いやいや、出雲さんとの並びもいいですね～！",
 			typewriter = {
@@ -570,8 +570,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "うっ、まずい……いくら余とはいえ、地獄の特訓は勘弁だ！",
 			typewriter = {
@@ -584,8 +584,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -594,11 +594,11 @@ return {
 			}
 		},
 		{
-			actor = 900213,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900213,
+			nameColor = "#a9f548",
 			say = "ここはひとまず撤退する！おつ百鬼～！",
 			typewriter = {
 				speed = 0.05,
@@ -610,8 +610,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2500
@@ -619,11 +619,11 @@ return {
 			}
 		},
 		{
-			actor = 399020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 399020,
+			nameColor = "#a9f548",
 			say = "ええい待て！観念しろ！",
 			typewriter = {
 				speed = 0.05,
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.5,
 					x = -2500
@@ -695,8 +695,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "外見が似てるとかじゃなくて、魂のふかーいところがまつりと共鳴してる……そんな子なんだ！",
 			typewriter = {
@@ -728,8 +728,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "本当だよ！ちょっと待っててね、まつりが連れてくる～",
 			typewriter = {
@@ -745,9 +745,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "外見じゃなくて魂の深いところ……？　まっ、まさか、あの子……！？",
 			typewriter = {

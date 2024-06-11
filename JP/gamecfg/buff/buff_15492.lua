@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -41,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -51,8 +51,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -61,8 +61,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -75,8 +75,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -85,8 +85,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -95,8 +95,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -109,8 +109,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -129,8 +129,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -153,8 +153,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -177,8 +177,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -187,8 +187,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -197,8 +197,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -211,8 +211,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -221,8 +221,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -231,8 +231,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -245,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -255,8 +255,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -265,8 +265,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -279,8 +279,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -299,8 +299,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -313,8 +313,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -323,8 +323,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -333,15 +333,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "皇家传奇",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,

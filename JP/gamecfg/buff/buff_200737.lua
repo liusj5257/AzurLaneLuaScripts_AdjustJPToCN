@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023关岛活动 理事会舰队支援",
 	time = 0,
-	color = "yellow",
+	name = "2023关岛活动 理事会舰队支援",
+	init_effect = "",
+	id = 200737,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200737,
+	color = "yellow",
 	icon = 200737,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.05
+				number = 0.05,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -500
+				number = -500,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = -500
+				number = -500,
+				attr = "dodgeRate"
 			}
 		}
 	}

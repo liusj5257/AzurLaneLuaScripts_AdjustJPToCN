@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT25",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꿈의 만남\n\n<size=45>목욕이라는 문화</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10300010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "아, 안녕 지휘관. 오늘도 날씨가 좋네.",
 			bgm = "story-uta",
+			actor = 10300010,
+			nameColor = "#92fc63",
+			say = "아, 안녕 지휘관. 오늘도 날씨가 좋네.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "이렇게 방 안에만 있으면 모처럼만의 좋은 날씨가 아깝잖아.",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "야마토에 있었던 시절엔 은신……이 아니지, 별의별 걸 다 했었으니까, 마음 놓고 맡겨줘!",
 			typewriter = {
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "근면성실한 쿠온답네. 여기 생활엔 벌써 적응했나?",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "숙소에 방까지 마련해주다니, 역시 지휘관님이네.",
 			typewriter = {
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "다른 사람들도 그렇게 생각해주면 좋겠는데……쿠온에게 물어볼까.",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "응, 모두 여기 세계에서의 생활을 즐기고 있다고 생각해.",
 			typewriter = {
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 10300010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 10300010,
+			nameColor = "#92fc63",
 			say = "개인적으로 내가 가장 마음에 들었던 건……역시 그거려나?",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "맞아! 그거! 그 목욕탕!",
 			typewriter = {
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……그렇게 무려 1시간 동안, 쿠온의 목욕을 향한 뜨거운 마음에 대해 들어야만 했다.",
 			typewriter = {
 				speed = 0.05,

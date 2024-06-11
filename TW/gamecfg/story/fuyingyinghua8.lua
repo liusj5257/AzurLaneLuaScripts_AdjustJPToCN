@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "nagato-map",
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "居…居然還有這種操作…？！",
-			bgm = "nagato-map",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "也是啊…大前輩也能調用{namecode:95}和{namecode:96}的艦載機進行航空戰…果然還是比不過大前輩，是我輸了…",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 		{
 			actor = 305110,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "好險好險，剛剛好幾次都把我逼到危險的位置了。真是後生可畏啊~",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,8 +72,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "嘴上說著陷入危機，然後三兩下輕鬆脫困了…大前輩強到犯規了吧！",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（要是能成功預判那次迴避的話……不，不行，在那之前我就喪失優勢的炮擊位置了。）",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（可惡…到底是哪一步開始出了問題啊！）",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -144,9 +144,9 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "咳！我失態了。",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "{namecode:82}一邊說著，一邊握著手中的項珠",
 			typewriter = {
 				speed = 0.05,
@@ -348,9 +348,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…我為重櫻能有像您一樣的大前輩而驕傲!",
 			typewriter = {
 				speed = 0.05,
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

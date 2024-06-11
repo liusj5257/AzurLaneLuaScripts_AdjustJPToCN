@@ -1,14 +1,14 @@
 slot0 = class("AnniversaryIslandBuildingUpgrade2023Window", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AnniversaryIslandBuildingUpgrade2023Window"
 end
 
-function slot0.GetAtlasPath(slot0)
+slot0.GetAtlasPath = function(slot0)
 	return "ui/" .. slot0:getUIName() .. "_atlas"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.window = slot0._tf:Find("Window")
 	slot0.upgradeWindow = slot0.window:Find("Upgrade")
 	slot0.displayWindow = slot0.window:Find("Display")
@@ -19,7 +19,7 @@ function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = slot0.contextData.buildingID
 
 	onButton(slot0, slot0._tf:Find("BG"), function ()
@@ -49,7 +49,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1 = slot0.contextData.buildingID
 	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2)
 	slot0.activityId = slot2.id
@@ -149,7 +149,7 @@ end
 
 slot1 = "ui/AtelierCommonUI_atlas"
 
-function slot0.UpdateActivityDrop(slot0, slot1, slot2, slot3)
+slot0.UpdateActivityDrop = function(slot0, slot1, slot2, slot3)
 	updateDrop(slot1, slot2)
 	SetCompomentEnabled(slot1:Find("icon_bg"), typeof(Image), false)
 	setActive(slot1:Find("bg"), false)
@@ -171,7 +171,7 @@ function slot0.UpdateActivityDrop(slot0, slot1, slot2, slot3)
 	slot0.loader:GetSpriteQuiet(uv0, slot5, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 end
 

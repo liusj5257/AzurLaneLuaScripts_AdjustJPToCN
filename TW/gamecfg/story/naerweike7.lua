@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401210,
 			nameColor = "#ff5c5c",
 			side = 1,
-			bgm = "battle-boss-1",
 			dir = 1,
 			say = "為了保護補給船，不能隨便走掉，Z2她們出去巡邏又不知道什麼時候回來……",
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -95,9 +95,9 @@ return {
 		{
 			actor = 401210,
 			side = 1,
+			dir = 1,
 			hideOther = true,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "……倒不如說，不知什麼時候已經突破到我眼前了！",
 			subActors = {
 				{

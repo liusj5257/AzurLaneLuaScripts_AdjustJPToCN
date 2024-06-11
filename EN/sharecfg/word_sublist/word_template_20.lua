@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_20 = {}
 slot1 = slot0.word_template_20
 
-function temp()
+temp = function()
 	uv0["逆"] = {
 		["援"] = {
 			this = true
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["競"] = {
 		["馬"] = {
 			this = true
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["強"] = {
 		["姦"] = {
 			this = true,
@@ -81,7 +81,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["矯"] = {
 		["正"] = {
 			this = true
@@ -102,7 +102,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["驚"] = {
 		["異"] = {
 			this = true
@@ -115,7 +115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["九"] = {
 		["評"] = {
 			this = true,
@@ -463,7 +463,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["携"] = {
 		["帯"] = {
 			["サ"] = {

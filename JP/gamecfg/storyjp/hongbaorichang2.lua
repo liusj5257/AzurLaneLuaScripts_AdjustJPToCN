@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"新春パーティー\n\n<size=45>二 執務室、模様替えの巻</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307072,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "（ふふふ、競争激しいクリスマスとお正月をあえて見逃し、満を持して東煌の旧正月に新しい姿で指揮官様の視線をとことん奪う――）",
 			bgm = "story-china",
+			actor = 307072,
+			nameColor = "#a9f548",
+			say = "（ふふふ、競争激しいクリスマスとお正月をあえて見逃し、満を持して東煌の旧正月に新しい姿で指揮官様の視線をとことん奪う――）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 307072,
 			dir = 1,
+			actor = 307072,
 			nameColor = "#a9f548",
 			say = "（大鳳の秘策、今結実しますわ！指揮官様～大鳳の演目を御覧くださいませ♡）",
 			typewriter = {
@@ -85,17 +85,17 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			say = "……？！",
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "三人",
 			dir = 1,
+			actorName = "三人",
+			hideOther = true,
 			actor = 202232,
 			nameColor = "#a9f548",
-			say = "……？！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -141,8 +141,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307072,
 			dir = 1,
+			actor = 307072,
 			nameColor = "#a9f548",
 			say = "……え",
 			typewriter = {
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 202101,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202101,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "執務室の鍵、確かかけておいた気がしますが",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307072,
 			dir = 1,
+			actor = 307072,
 			nameColor = "#a9f548",
 			say = "ど、どういうことかしら？！指揮官様はどこ！？",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207035,
 			dir = 1,
+			actor = 207035,
 			nameColor = "#a9f548",
 			say = "あ、大鳳さん、ごきげんよう。指揮官様が執務室を空けている間に、みんなで春節の模様変えをしているところですわ",
 			typewriter = {
@@ -219,10 +219,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202101,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "イラストリアス様のおっしゃるとおりです。大鳳様も、よければご参加されてはいかがですか？",
 			typewriter = {
 				speed = 0.05,
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 307072,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307072,
+			nameColor = "#a9f548",
 			say = "そうですわね…（指揮官様のためというのなら）大鳳も参加しますわ！",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,14 +262,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 202232,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "この「福」の張り紙、逆になっているのでは…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 202101,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202101,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "逆さまに貼って問題ない…とお聞きしました。東煌では特別な意味があるようです",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202203,
 			dir = 1,
+			actor = 202203,
 			nameColor = "#a9f548",
 			say = "この飾り物はここ…ですね？",
 			typewriter = {
@@ -331,10 +331,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202101,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それは棚の中にしまいなさい。…そもそも灯籠を椅子の上に飾ろうとする発想など理解に苦しみますが",
 			typewriter = {
 				speed = 0.05,
@@ -349,10 +349,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202101,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それとブラック・プリンス、蓄音機といつまでにらめっこしているつもりですか？",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202242,
 			dir = 1,
+			actor = 202242,
 			nameColor = "#a9f548",
 			say = "ごめんなさい、つい………",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207035,
 			dir = 1,
+			actor = 207035,
 			nameColor = "#a9f548",
 			say = "グロスターがいて助かりますわ……",
 			typewriter = {
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 202101,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202101,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "当然のことをしたまでです",
 			typewriter = {
 				speed = 0.05,
@@ -434,10 +434,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202101,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "かしこまりました。…ではよろしくお願いいたします。大鳳様",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307072,
 			dir = 1,
+			actor = 307072,
 			nameColor = "#a9f548",
 			say = "（ふふ、これで指揮官が戻ってきたときに、最初に目にするのはこの大鳳ですわ…！）",
 			typewriter = {

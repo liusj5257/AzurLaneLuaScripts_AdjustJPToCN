@@ -1,12 +1,12 @@
 return {
-	id = "W826021",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W826021",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "腐食性の酸性海流が充満している。近づかないほうがいい。",
 			typewriter = {
 				speed = 0.05,

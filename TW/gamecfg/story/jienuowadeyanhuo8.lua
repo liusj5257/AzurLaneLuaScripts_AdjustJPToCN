@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "airRaidAlarm",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_renaya",
-			say = "伴隨著接連不斷的炮擊聲，薩丁港口各處都燃燒了起來。",
 			dir = 1,
 			bgmDelay = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "airRaidAlarm",
+			say = "伴隨著接連不斷的炮擊聲，薩丁港口各處都燃燒了起來。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_renaya",
+			dir = 1,
 			say = "直到此時，警報聲才響徹天空。",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "真厲害……",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "是啊，能疏忽到這種程度……反而讓人產生敬佩之情了。",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "雖然防禦艦隊的部署是顯而易見的問題，但是沒想到……岸防設施的疏忽才是更大問題。",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "看起來薩丁帝國也沒有完全做好與我們的戰爭準備呢。",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "即便如此……薩丁還是選擇站在了我們的對立面……",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "而這就是我們做出的回應，現在就是她們要付出的代價。",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "……就是火力太弱了些，剛才和扎拉的一戰裡我們量產型損失了不少啊。",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "畢竟她也是重巡洋艦，在判斷打不贏我們之後就一直對著量產型艦隊全力開火。",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "現在打擊艦隊被削弱了很多，恐怕很難達到十分理想的效果。",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "不過我們成功發動了襲擊——作為一個回應行動本身來說已經成功了。",
 			typewriter = {
@@ -269,9 +269,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
 			blackBg = true,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "在更多的薩丁帝國艦隊趕來之前，盡可能擴大戰果吧~",
 			typewriter = {

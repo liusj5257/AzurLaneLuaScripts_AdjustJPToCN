@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "爱碳光波-IV",
 	time = 10,
+	name = "爱碳光波-IV",
+	init_effect = "",
 	picture = "",
 	desc = "敌方属性下降-8%",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -800
+				number = -800,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -800
+				number = -800,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = -800
+				number = -800,
+				attr = "airPower"
 			}
 		}
 	}

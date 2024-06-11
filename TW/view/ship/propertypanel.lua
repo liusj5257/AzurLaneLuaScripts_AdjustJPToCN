@@ -50,7 +50,7 @@ slot9 = 5
 slot0.TypeRotation = 1
 slot0.TypeFlat = 2
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = slot2 or uv0
 	slot0.tf = slot1
 	slot0.propertyTFs = findTF(slot0.tf, "property")
@@ -63,13 +63,13 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.initProperty(slot0, slot1, slot2)
+slot0.initProperty = function(slot0, slot1, slot2)
 	slot0.type = slot2 or uv0.TypeRotation
 
 	slot0:initRadar(ShipGroup.GetGroupConfig(Ship.getGroupIdByConfigId(slot1)).property_hexagon)
 end
 
-function slot0.initRadar(slot0, slot1)
+slot0.initRadar = function(slot0, slot1)
 	slot3 = {}
 	slot7 = 0
 	slot8 = 0
@@ -106,11 +106,11 @@ function slot0.initRadar(slot0, slot1)
 	end
 end
 
-function slot0.getGradeCoordinate(slot0, slot1, slot2)
+slot0.getGradeCoordinate = function(slot0, slot1, slot2)
 	return Vector3(0.163 * uv0[slot1] * uv1[slot2][1], 0.163 * uv0[slot1] * uv1[slot2][2], 0)
 end
 
-function slot0.getGradeCoordinate1(slot0, slot1, slot2)
+slot0.getGradeCoordinate1 = function(slot0, slot1, slot2)
 	slot3 = 0.66 * uv0[slot1]
 
 	if slot2 == uv1 then
@@ -136,7 +136,7 @@ function slot0.getGradeCoordinate1(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
+slot0.setSpriteTo = function(slot0, slot1, slot2, slot3)
 	slot2:GetComponent(typeof(Image)).sprite = findTF(slot0.tf, slot1):GetComponent(typeof(Image)).sprite
 
 	if slot3 then

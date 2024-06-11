@@ -1,17 +1,17 @@
 return {
-	id = "MAOZIHUODONG10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107070,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-cccp2",
 			dir = 1,
 			say = "よし、ここまで来れば、あとはついてくる敵を倒すだけね！",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "（さすがはユニオン艦隊…セイレーン技術を使っているように見えなくてもこの実力…）",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "（もしかして、これって指揮官のカリスマのおかげ？これはちょっと調べとかないと）",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……カリスマ？",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "今なにか聞こえたような……",
 			typewriter = {
 				speed = 0.05,

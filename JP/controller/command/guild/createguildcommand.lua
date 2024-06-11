@@ -1,6 +1,6 @@
 slot0 = class("CreateGuildCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody():getName()
 
 	if getProxy(PlayerProxy):getData():getTotalGem() < pg.gameset.create_guild_cost.key_value then
@@ -25,8 +25,8 @@ function slot0.execute(slot0, slot1)
 			slot1:setId(slot0.id)
 
 			slot3 = GuildMember.New({
-				online = 1,
 				liveness = 0,
+				online = 1,
 				id = uv1.id,
 				name = uv1.name,
 				lv = uv1.level,

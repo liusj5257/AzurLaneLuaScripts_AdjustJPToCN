@@ -10,13 +10,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			}
 		}
@@ -79,8 +79,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 9,
 					x = -30
@@ -99,8 +99,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 9,
 					x = -30
@@ -126,8 +126,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 9,
 					x = -30
@@ -146,8 +146,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 9,
 					x = -30
@@ -165,13 +165,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 10,
+					stopCount = 90,
 					Z2 = -10,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 10,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 10
 				}
 			}
 		}
@@ -186,13 +186,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 37,
+					stopCount = 90,
 					Z2 = 77,
-					X2 = -22,
 					moveCount = 360,
+					Z1 = 37,
 					duration = -1,
 					X1 = -38,
-					stopCount = 90
+					X2 = -22
 				}
 			}
 		}
@@ -216,13 +216,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 10,
+					stopCount = 90,
 					Z2 = -10,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 10,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 10
 				}
 			}
 		}
@@ -246,13 +246,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 10,
+					stopCount = 90,
 					Z2 = -10,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 10,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 10
 				}
 			}
 		}
@@ -276,13 +276,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 15,
+					stopCount = 90,
 					Z2 = -15,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 15,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 10
 				}
 			}
 		}
@@ -306,13 +306,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 15,
+					stopCount = 90,
 					Z2 = -15,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 15,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 10
 				}
 			}
 		}
@@ -327,13 +327,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 20,
+					stopCount = 60,
 					Z2 = -10,
-					X2 = 25,
 					moveCount = 240,
+					Z1 = 20,
 					duration = -1,
 					X1 = 5,
-					stopCount = 60
+					X2 = 25
 				}
 			}
 		}
@@ -348,13 +348,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 10,
+					stopCount = 60,
 					Z2 = -20,
-					X2 = 25,
 					moveCount = 240,
+					Z1 = 10,
 					duration = -1,
 					X1 = 5,
-					stopCount = 60
+					X2 = 25
 				}
 			}
 		}
@@ -385,13 +385,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 20,
+					stopCount = 60,
 					Z2 = -10,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 20,
 					duration = -1,
 					X1 = -10,
-					stopCount = 60
+					X2 = 10
 				}
 			}
 		}
@@ -406,13 +406,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 10,
+					stopCount = 60,
 					Z2 = -20,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 10,
 					duration = -1,
 					X1 = -10,
-					stopCount = 60
+					X2 = 10
 				}
 			}
 		}
@@ -427,13 +427,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 10,
+					stopCount = 60,
 					Z2 = -20,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 10,
 					duration = -1,
 					X1 = 0,
-					stopCount = 60
+					X2 = 10
 				}
 			}
 		}
@@ -448,13 +448,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 10,
+					stopCount = 60,
 					Z2 = -20,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 10,
 					duration = -1,
 					X1 = 0,
-					stopCount = 60
+					X2 = 10
 				}
 			}
 		}
@@ -478,13 +478,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 5,
 				param = {
-					Z1 = 5,
+					stopCount = 60,
 					Z2 = -25,
-					X2 = 25,
 					moveCount = 240,
+					Z1 = 5,
 					duration = -1,
 					X1 = -5,
-					stopCount = 60
+					X2 = 25
 				}
 			}
 		}
@@ -508,13 +508,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 5,
 				param = {
-					Z1 = 25,
+					stopCount = 60,
 					Z2 = -5,
-					X2 = 25,
 					moveCount = 240,
+					Z1 = 25,
 					duration = -1,
 					X1 = -5,
-					stopCount = 60
+					X2 = 25
 				}
 			}
 		}
@@ -529,13 +529,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 30,
+					stopCount = 60,
 					Z2 = -5,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 30,
 					duration = -1,
 					X1 = -15,
-					stopCount = 60
+					X2 = 5
 				}
 			}
 		}
@@ -550,13 +550,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 5,
+					stopCount = 60,
 					Z2 = -30,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 5,
 					duration = -1,
 					X1 = -15,
-					stopCount = 60
+					X2 = 5
 				}
 			}
 		}
@@ -754,13 +754,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 55,
+					stopCount = 90,
 					Z2 = 80,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 55,
 					duration = -1,
 					X1 = -30,
-					stopCount = 90
+					X2 = 0
 				}
 			}
 		}
@@ -775,13 +775,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 30,
+					stopCount = 90,
 					Z2 = 55,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 30,
 					duration = -1,
 					X1 = -30,
-					stopCount = 90
+					X2 = 0
 				}
 			}
 		}
@@ -796,13 +796,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 30,
+					stopCount = 90,
 					Z2 = 80,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 30,
 					duration = -1,
 					X1 = -30,
-					stopCount = 90
+					X2 = 0
 				}
 			}
 		}
@@ -817,13 +817,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 55,
+					stopCount = 30,
 					Z2 = 80,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 55,
 					duration = -1,
 					X1 = -20,
-					stopCount = 30
+					X2 = 0
 				}
 			}
 		}
@@ -838,13 +838,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 30,
+					stopCount = 30,
 					Z2 = 55,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 30,
 					duration = -1,
 					X1 = -20,
-					stopCount = 30
+					X2 = 0
 				}
 			}
 		}
@@ -949,8 +949,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 1,
 				param = {
-					z = 55,
 					valve = 1,
+					z = 55,
 					x = -5
 				}
 			},
@@ -1096,8 +1096,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 13,
+					z = 55,
 					antiClockWise = true,
 					duration = -1,
 					x = -15
@@ -1115,8 +1115,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 13,
+					z = 55,
 					antiClockWise = false,
 					duration = -1,
 					x = -15
@@ -1134,8 +1134,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = -1,
 					x = -10
@@ -1153,8 +1153,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = -1,
 					x = -10
@@ -1172,13 +1172,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 43,
+					stopCount = 90,
 					Z2 = 73,
-					X2 = -1,
 					moveCount = 240,
+					Z1 = 43,
 					duration = -1,
 					X1 = -22,
-					stopCount = 90
+					X2 = -1
 				}
 			}
 		}
@@ -1193,8 +1193,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 1,
 				param = {
-					z = 55,
 					valve = 1,
+					z = 55,
 					x = -70
 				}
 			},
@@ -1203,8 +1203,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 1,
 				param = {
-					z = 65,
 					valve = 1,
+					z = 65,
 					x = -67.5
 				}
 			},
@@ -1213,8 +1213,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 1,
 				param = {
-					z = 75,
 					valve = 1,
+					z = 75,
 					x = -62.5
 				}
 			},
@@ -1223,8 +1223,8 @@ pg.auto_pilot_template = {
 				to = 5,
 				type = 1,
 				param = {
-					z = 80,
 					valve = 1,
+					z = 80,
 					x = -57.5
 				}
 			},
@@ -1233,8 +1233,8 @@ pg.auto_pilot_template = {
 				to = 6,
 				type = 1,
 				param = {
-					z = 75,
 					valve = 1,
+					z = 75,
 					x = -52.5
 				}
 			},
@@ -1243,8 +1243,8 @@ pg.auto_pilot_template = {
 				to = 7,
 				type = 1,
 				param = {
-					z = 65,
 					valve = 1,
+					z = 65,
 					x = -47.5
 				}
 			},
@@ -1253,8 +1253,8 @@ pg.auto_pilot_template = {
 				to = 8,
 				type = 1,
 				param = {
-					z = 55,
 					valve = 1,
+					z = 55,
 					x = -45
 				}
 			},
@@ -1263,8 +1263,8 @@ pg.auto_pilot_template = {
 				to = 9,
 				type = 1,
 				param = {
-					z = 45,
 					valve = 1,
+					z = 45,
 					x = -47.5
 				}
 			},
@@ -1273,8 +1273,8 @@ pg.auto_pilot_template = {
 				to = 10,
 				type = 1,
 				param = {
-					z = 35,
 					valve = 1,
+					z = 35,
 					x = -52.5
 				}
 			},
@@ -1283,8 +1283,8 @@ pg.auto_pilot_template = {
 				to = 11,
 				type = 1,
 				param = {
-					z = 30,
 					valve = 1,
+					z = 30,
 					x = -57.5
 				}
 			},
@@ -1293,8 +1293,8 @@ pg.auto_pilot_template = {
 				to = 12,
 				type = 1,
 				param = {
-					z = 35,
 					valve = 1,
+					z = 35,
 					x = -62.5
 				}
 			},
@@ -1303,8 +1303,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 1,
 				param = {
-					z = 45,
 					valve = 1,
+					z = 45,
 					x = -67.5
 				}
 			}
@@ -1879,8 +1879,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 3,
 					x = -15
@@ -1909,8 +1909,8 @@ pg.auto_pilot_template = {
 				to = 6,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 3,
 					x = -15
@@ -1946,8 +1946,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 75,
 					radius = 20,
+					z = 75,
 					antiClockWise = false,
 					duration = 6,
 					x = 0
@@ -1967,8 +1967,8 @@ pg.auto_pilot_template = {
 				to = 5,
 				type = 4,
 				param = {
-					z = 35,
 					radius = 20,
+					z = 35,
 					antiClockWise = true,
 					duration = 6,
 					x = 0
@@ -2004,8 +2004,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 35,
 					radius = 20,
+					z = 35,
 					antiClockWise = true,
 					duration = 6,
 					x = 0
@@ -2025,8 +2025,8 @@ pg.auto_pilot_template = {
 				to = 5,
 				type = 4,
 				param = {
-					z = 75,
 					radius = 20,
+					z = 75,
 					antiClockWise = false,
 					duration = 6,
 					x = 0
@@ -2062,8 +2062,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = true,
 					duration = 8,
 					x = -10
@@ -2126,8 +2126,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 30,
+					z = 55,
 					antiClockWise = false,
 					duration = 4.5,
 					x = 10
@@ -2154,8 +2154,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 5,
 					x = 0
@@ -2354,8 +2354,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 65,
 					radius = 10,
+					z = 65,
 					antiClockWise = true,
 					duration = 2,
 					x = -5
@@ -2366,8 +2366,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 45,
 					radius = 10,
+					z = 45,
 					antiClockWise = false,
 					duration = 4,
 					x = -5
@@ -2378,8 +2378,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 65,
 					radius = 10,
+					z = 65,
 					antiClockWise = true,
 					duration = 2,
 					x = -5
@@ -2397,8 +2397,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 45,
 					radius = 10,
+					z = 45,
 					antiClockWise = false,
 					duration = 2,
 					x = -5
@@ -2409,8 +2409,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 65,
 					radius = 10,
+					z = 65,
 					antiClockWise = true,
 					duration = 4,
 					x = -5
@@ -2421,8 +2421,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 45,
 					radius = 10,
+					z = 45,
 					antiClockWise = false,
 					duration = 2,
 					x = -5
@@ -2474,8 +2474,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = false,
 					duration = 2,
 					x = -5
@@ -2486,8 +2486,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = true,
 					duration = 2,
 					x = -5
@@ -2505,8 +2505,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = true,
 					duration = 2,
 					x = -5
@@ -2517,8 +2517,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = false,
 					duration = 2,
 					x = -5
@@ -2536,8 +2536,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 1.5,
 					x = 7
@@ -2548,8 +2548,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 1.5,
 					x = 7
@@ -2771,8 +2771,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 25,
+					z = 55,
 					antiClockWise = false,
 					duration = 2,
 					x = 15
@@ -2791,8 +2791,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 25,
+					z = 55,
 					antiClockWise = true,
 					duration = 2,
 					x = 15
@@ -2818,8 +2818,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 25,
+					z = 55,
 					antiClockWise = true,
 					duration = 2,
 					x = 15
@@ -2838,8 +2838,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 25,
+					z = 55,
 					antiClockWise = false,
 					duration = 2,
 					x = 15
@@ -3158,8 +3158,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 5,
 					x = 0
@@ -3179,8 +3179,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 5,
 					x = 0
@@ -3207,8 +3207,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 5,
 					x = 0
@@ -3228,8 +3228,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 5,
 					x = 0
@@ -3818,8 +3818,8 @@ pg.auto_pilot_template = {
 				to = 8,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 3,
 					x = -18
@@ -3934,8 +3934,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 30,
+					z = 55,
 					antiClockWise = true,
 					duration = 6,
 					x = -5
@@ -3955,8 +3955,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = false,
 					duration = 4,
 					x = -5
@@ -3983,8 +3983,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 3.8,
 					x = -15
@@ -4012,8 +4012,8 @@ pg.auto_pilot_template = {
 				to = 6,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 3.8,
 					x = -15
@@ -4168,8 +4168,8 @@ pg.auto_pilot_template = {
 				to = 6,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 2.6,
 					x = 0
@@ -4343,8 +4343,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 30,
+					z = 55,
 					antiClockWise = false,
 					duration = 4.5,
 					x = 10
@@ -4514,8 +4514,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 25,
+					z = 55,
 					antiClockWise = false,
 					duration = 2,
 					x = 15
@@ -4534,8 +4534,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 25,
+					z = 55,
 					antiClockWise = true,
 					duration = 2,
 					x = 15
@@ -4874,8 +4874,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 75,
 					radius = 20,
+					z = 75,
 					antiClockWise = false,
 					duration = 6,
 					x = 0
@@ -4895,8 +4895,8 @@ pg.auto_pilot_template = {
 				to = 5,
 				type = 4,
 				param = {
-					z = 35,
 					radius = 20,
+					z = 35,
 					antiClockWise = true,
 					duration = 6,
 					x = 0
@@ -4932,8 +4932,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 35,
 					radius = 20,
+					z = 35,
 					antiClockWise = true,
 					duration = 6,
 					x = 0
@@ -4953,8 +4953,8 @@ pg.auto_pilot_template = {
 				to = 5,
 				type = 4,
 				param = {
-					z = 75,
 					radius = 20,
+					z = 75,
 					antiClockWise = false,
 					duration = 6,
 					x = 0
@@ -5170,8 +5170,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 30,
+					z = 55,
 					antiClockWise = false,
 					duration = 30,
 					x = -10
@@ -5345,8 +5345,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 30,
+					z = 55,
 					antiClockWise = false,
 					duration = -1,
 					x = -15
@@ -5545,8 +5545,8 @@ pg.auto_pilot_template = {
 				to = 5,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = 5,
 					x = 0
@@ -5584,8 +5584,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = 5,
 					x = 0
@@ -5603,13 +5603,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -3,
-					stopCount = 90
+					X2 = 0
 				}
 			}
 		}
@@ -5648,8 +5648,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -50,
 					duration = 3,
+					z = -50,
 					x = 2
 				}
 			},
@@ -5682,8 +5682,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -30,
 					duration = 3,
+					z = -30,
 					x = 2
 				}
 			},
@@ -5716,8 +5716,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -10,
 					duration = 3,
+					z = -10,
 					x = 2
 				}
 			},
@@ -5750,8 +5750,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 10,
 					duration = 3,
+					z = 10,
 					x = 2
 				}
 			},
@@ -5784,8 +5784,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -30,
 					duration = 3,
+					z = -30,
 					x = -7
 				}
 			},
@@ -5855,8 +5855,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -10,
 					duration = 3,
+					z = -10,
 					x = -7
 				}
 			},
@@ -5926,8 +5926,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -50,
 					duration = 3,
+					z = -50,
 					x = -17
 				}
 			},
@@ -5988,8 +5988,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 10,
 					duration = 3,
+					z = 10,
 					x = -8
 				}
 			},
@@ -6066,8 +6066,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -5,
 					duration = 2,
+					z = -5,
 					x = 5
 				}
 			},
@@ -6076,8 +6076,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 35,
 					radius = 25,
+					z = 35,
 					antiClockWise = false,
 					duration = 9,
 					x = -10
@@ -6104,8 +6104,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -35,
 					duration = 2,
+					z = -35,
 					x = 5
 				}
 			},
@@ -6114,8 +6114,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 35,
 					radius = 25,
+					z = 35,
 					antiClockWise = false,
 					duration = 9,
 					x = -10
@@ -6288,13 +6288,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 0,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 5000,
+					Z1 = 35,
 					duration = 2.9,
 					X1 = -20,
-					stopCount = 0
+					X2 = -5
 				}
 			},
 			{
@@ -6310,13 +6310,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 0,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 5000,
+					Z1 = 35,
 					duration = 5.1,
 					X1 = -20,
-					stopCount = 0
+					X2 = -5
 				}
 			}
 		}
@@ -6355,13 +6355,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -15,
-					stopCount = 90
+					X2 = 0
 				}
 			}
 		}
@@ -6376,13 +6376,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 20,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 40,
+					Z1 = 35,
 					duration = -1,
 					X1 = -20,
-					stopCount = 20
+					X2 = -5
 				}
 			}
 		}
@@ -6397,8 +6397,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 0,
 					duration = 2,
+					z = 0,
 					x = 5
 				}
 			},
@@ -6407,8 +6407,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 40,
 					radius = 25,
+					z = 40,
 					antiClockWise = false,
 					duration = 5,
 					x = -2
@@ -6435,8 +6435,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -30,
 					duration = 2,
+					z = -30,
 					x = 5
 				}
 			},
@@ -6445,8 +6445,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 40,
 					radius = 25,
+					z = 40,
 					antiClockWise = false,
 					duration = 5,
 					x = -2
@@ -6473,9 +6473,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = 0,
+					offsetZ = -5,
 					duration = 300,
-					offsetZ = -5
+					X = 0
 				}
 			}
 		}
@@ -6514,8 +6514,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 5,
 					duration = 8,
+					z = 5,
 					x = 0
 				}
 			},
@@ -6540,8 +6540,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -35,
 					duration = 8,
+					z = -35,
 					x = 0
 				}
 			},
@@ -6689,8 +6689,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -10,
 					duration = 2,
+					z = -10,
 					x = 0
 				}
 			},
@@ -6715,8 +6715,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -20,
 					duration = 2,
+					z = -20,
 					x = 0
 				}
 			},
@@ -6741,13 +6741,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 20,
 					Z2 = 75,
-					X2 = 0,
 					moveCount = 40,
+					Z1 = 35,
 					duration = -1,
 					X1 = -15,
-					stopCount = 20
+					X2 = 0
 				}
 			}
 		}
@@ -6762,13 +6762,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -25,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -40,
-					stopCount = 90
+					X2 = -25
 				}
 			}
 		}
@@ -6824,13 +6824,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 1,
 					Z2 = 75,
-					X2 = 0,
 					moveCount = 500,
+					Z1 = 35,
 					duration = -1,
 					X1 = -15,
-					stopCount = 1
+					X2 = 0
 				}
 			}
 		}
@@ -6886,13 +6886,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 40,
+					stopCount = 90,
 					Z2 = 70,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 40,
 					duration = -1,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			}
 		}
@@ -6907,13 +6907,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 40,
+					stopCount = 90,
 					Z2 = 70,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 40,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 5
 				}
 			}
 		}
@@ -7048,13 +7048,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 0,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 5000,
+					Z1 = 35,
 					duration = 1.5,
 					X1 = -20,
-					stopCount = 0
+					X2 = -5
 				}
 			},
 			{
@@ -7070,13 +7070,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 0,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 5000,
+					Z1 = 35,
 					duration = 5.1,
 					X1 = -20,
-					stopCount = 0
+					X2 = -5
 				}
 			}
 		}
@@ -7244,8 +7244,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 15,
 					duration = 3,
+					z = 15,
 					x = 0
 				}
 			},
@@ -7278,8 +7278,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -25,
 					duration = 3,
+					z = -25,
 					x = 0
 				}
 			},
@@ -7312,8 +7312,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 15,
 					duration = 3,
+					z = 15,
 					x = 0
 				}
 			},
@@ -7346,8 +7346,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -25,
 					duration = 3,
+					z = -25,
 					x = 0
 				}
 			},
@@ -7380,8 +7380,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 25,
 					duration = 10,
+					z = 25,
 					x = 0
 				}
 			},
@@ -7414,8 +7414,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 11,
 					duration = 10,
+					z = 11,
 					x = 0
 				}
 			},
@@ -7448,8 +7448,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -3,
 					duration = 10,
+					z = -3,
 					x = 0
 				}
 			},
@@ -7482,8 +7482,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -17,
 					duration = 10,
+					z = -17,
 					x = 0
 				}
 			},
@@ -7516,8 +7516,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -31,
 					duration = 10,
+					z = -31,
 					x = 0
 				}
 			},
@@ -7550,8 +7550,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -45,
 					duration = 10,
+					z = -45,
 					x = 0
 				}
 			},
@@ -7584,8 +7584,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = 25,
 					valve = 1,
+					z = 25,
 					x = -5
 				}
 			},
@@ -7609,8 +7609,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = -25,
 					valve = 1,
+					z = -25,
 					x = -5
 				}
 			},
@@ -7634,9 +7634,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = -5,
+					offsetZ = 2,
 					duration = 300,
-					offsetZ = 2
+					X = -5
 				}
 			}
 		}
@@ -7651,8 +7651,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = 0,
 					duration = 5,
+					z = 0,
 					x = -30,
 					valve = 1
 				}
@@ -7662,8 +7662,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 2,
 				param = {
-					z = -15,
 					duration = 3,
+					z = -15,
 					x = -5,
 					valve = 1
 				}
@@ -7673,8 +7673,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 2,
 				param = {
-					z = 30,
 					duration = 3,
+					z = 30,
 					x = 0,
 					valve = 1
 				}
@@ -7684,8 +7684,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = -15,
 					duration = 5,
+					z = -15,
 					x = 5,
 					valve = 1
 				}
@@ -7702,8 +7702,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = 0,
 					duration = 6,
+					z = 0,
 					x = -30,
 					valve = 1
 				}
@@ -7713,8 +7713,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 2,
 				param = {
-					z = -50,
 					duration = 9,
+					z = -50,
 					x = 0,
 					valve = 1
 				}
@@ -7724,8 +7724,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = 50,
 					duration = 9,
+					z = 50,
 					x = 0,
 					valve = 1
 				}
@@ -7742,8 +7742,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = 0,
 					duration = 6,
+					z = 0,
 					x = -30,
 					valve = 1
 				}
@@ -7753,8 +7753,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 2,
 				param = {
-					z = 50,
 					duration = 9,
+					z = 50,
 					x = 0,
 					valve = 1
 				}
@@ -7764,8 +7764,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = -50,
 					duration = 9,
+					z = -50,
 					x = 0,
 					valve = 1
 				}
@@ -7782,8 +7782,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = 0,
 					duration = 5,
+					z = 0,
 					x = -30,
 					valve = 1
 				}
@@ -7793,8 +7793,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 2,
 				param = {
-					z = 15,
 					duration = 3,
+					z = 15,
 					x = -5,
 					valve = 1
 				}
@@ -7804,8 +7804,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 2,
 				param = {
-					z = -30,
 					duration = 3,
+					z = -30,
 					x = 0,
 					valve = 1
 				}
@@ -7815,8 +7815,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 2,
 				param = {
-					z = 15,
 					duration = 5,
+					z = 15,
 					x = 5,
 					valve = 1
 				}
@@ -7833,13 +7833,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 20,
+					stopCount = 0,
 					Z2 = 55,
-					X2 = -15,
 					moveCount = 5000,
+					Z1 = 20,
 					duration = 1,
 					X1 = -40,
-					stopCount = 0
+					X2 = -15
 				}
 			},
 			{
@@ -7862,13 +7862,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 55,
+					stopCount = 0,
 					Z2 = 90,
-					X2 = -15,
 					moveCount = 5000,
+					Z1 = 55,
 					duration = 1,
 					X1 = -40,
-					stopCount = 0
+					X2 = -15
 				}
 			},
 			{
@@ -7899,13 +7899,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 0,
 					Z2 = 75,
-					X2 = 10,
 					moveCount = 5000,
+					Z1 = 35,
 					duration = 0.7,
 					X1 = -10,
-					stopCount = 0
+					X2 = 10
 				}
 			}
 		}
@@ -7920,9 +7920,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = -5,
+					offsetZ = -3,
 					duration = 300,
-					offsetZ = -3
+					X = -5
 				}
 			}
 		}
@@ -7961,13 +7961,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 55,
+					stopCount = 90,
 					Z2 = 85,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 55,
 					duration = -1,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			}
 		}
@@ -7982,13 +7982,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 25,
+					stopCount = 90,
 					Z2 = 55,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 25,
 					duration = -1,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			}
 		}
@@ -8003,11 +8003,11 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 13,
-					duration = -1,
-					antiClockWise = false,
+					z = 55,
 					valve = 1,
+					antiClockWise = false,
+					duration = -1,
 					x = -35
 				}
 			}
@@ -8023,11 +8023,11 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 13,
-					duration = -1,
-					antiClockWise = true,
+					z = 55,
 					valve = 1,
+					antiClockWise = true,
+					duration = -1,
 					x = -15
 				}
 			}
@@ -8051,9 +8051,9 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 8,
 				param = {
-					X = -82,
-					duration = 1.5,
 					offsetZ = 4,
+					duration = 1.5,
+					X = -82,
 					valve = 2
 				}
 			},
@@ -8085,8 +8085,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 8,
 				param = {
-					Z = 25,
 					duration = 1.5,
+					Z = 25,
 					offsetX = 1,
 					valve = 2
 				}
@@ -8119,8 +8119,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 25,
+					z = 55,
 					antiClockWise = false,
 					duration = 119,
 					x = -50
@@ -8266,9 +8266,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = 0,
+					offsetZ = 1,
 					duration = 1.5,
-					offsetZ = 1
+					X = 0
 				}
 			},
 			{
@@ -8284,9 +8284,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = 0,
+					offsetZ = 1,
 					duration = 1,
-					offsetZ = 1
+					X = 0
 				}
 			}
 		}
@@ -8661,13 +8661,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 25,
+					stopCount = 20,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 40,
+					Z1 = 25,
 					duration = -1,
 					X1 = -35,
-					stopCount = 20
+					X2 = -5
 				}
 			}
 		}
@@ -8682,8 +8682,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 8,
+					z = 55,
 					antiClockWise = true,
 					duration = -1,
 					x = -2
@@ -8839,9 +8839,9 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 8,
 				param = {
-					X = -30,
+					offsetZ = 0,
 					duration = 1,
-					offsetZ = 0
+					X = -30
 				}
 			},
 			{
@@ -8849,9 +8849,9 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 8,
 				param = {
-					X = -30,
+					offsetZ = 0,
 					duration = 3.5,
-					offsetZ = 0
+					X = -30
 				}
 			},
 			{
@@ -9018,8 +9018,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 50,
 					radius = 10,
+					z = 50,
 					antiClockWise = false,
 					duration = 120,
 					x = -10
@@ -9037,8 +9037,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 50,
 					radius = 10,
+					z = 50,
 					antiClockWise = true,
 					duration = 120,
 					x = -10
@@ -9056,13 +9056,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 3.7,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -9078,13 +9078,13 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 1,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -9100,13 +9100,13 @@ pg.auto_pilot_template = {
 				to = 6,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 1.5,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -9417,9 +9417,9 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 8,
 				param = {
-					offsetZ = 0,
+					offsetX = 0,
 					duration = -1,
-					offsetX = 0
+					offsetZ = 0
 				}
 			},
 			{
@@ -9614,9 +9614,9 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 8,
 				param = {
-					offsetZ = 0,
+					offsetX = 10,
 					duration = -1,
-					offsetX = 10
+					offsetZ = 0
 				}
 			},
 			{
@@ -9656,13 +9656,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -10,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -60,
-					stopCount = 90
+					X2 = -10
 				}
 			}
 		}
@@ -9797,13 +9797,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 30,
+					stopCount = 90,
 					Z2 = 50,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 30,
 					duration = -1,
 					X1 = -20,
-					stopCount = 90
+					X2 = 0
 				}
 			}
 		}
@@ -9818,13 +9818,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 60,
+					stopCount = 90,
 					Z2 = 80,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 60,
 					duration = -1,
 					X1 = -20,
-					stopCount = 90
+					X2 = 0
 				}
 			}
 		}
@@ -9839,9 +9839,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = -8,
+					offsetZ = 1,
 					duration = 300,
-					offsetZ = 1
+					X = -8
 				}
 			}
 		}
@@ -9856,13 +9856,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 33,
+					stopCount = 0,
 					Z2 = 73,
-					X2 = -10,
 					moveCount = 300,
+					Z1 = 33,
 					duration = -1,
 					X1 = -25,
-					stopCount = 0
+					X2 = -10
 				}
 			}
 		}
@@ -9877,13 +9877,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 33,
+					stopCount = 0,
 					Z2 = 73,
-					X2 = 15,
 					moveCount = 300,
+					Z1 = 33,
 					duration = -1,
 					X1 = 0,
-					stopCount = 0
+					X2 = 15
 				}
 			}
 		}
@@ -10058,13 +10058,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			}
 		}
@@ -10079,14 +10079,14 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 24,
+					stopCount = 0,
 					Z2 = 80,
-					duration = -1,
-					X2 = 0,
 					moveCount = 300,
 					valve = 1,
+					Z1 = 24,
+					duration = -1,
 					X1 = -20,
-					stopCount = 0
+					X2 = 0
 				}
 			}
 		}
@@ -10109,13 +10109,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 0,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 300,
+					Z1 = 35,
 					duration = 3,
 					X1 = -20,
-					stopCount = 0
+					X2 = -5
 				}
 			}
 		}
@@ -10178,13 +10178,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 20,
+					stopCount = 60,
 					Z2 = -20,
-					X2 = 10,
 					moveCount = 240,
+					Z1 = 20,
 					duration = -1,
 					X1 = 0,
-					stopCount = 60
+					X2 = 10
 				}
 			}
 		}
@@ -10199,13 +10199,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 5,
 				param = {
-					Z1 = 20,
+					stopCount = 60,
 					Z2 = -20,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 20,
 					duration = -1,
 					X1 = -5,
-					stopCount = 60
+					X2 = 5
 				}
 			}
 		}
@@ -10220,13 +10220,82 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 32,
+					stopCount = 60,
 					Z2 = 72,
-					X2 = -55,
 					moveCount = 240,
+					Z1 = 32,
 					duration = -1,
 					X1 = -65,
-					stopCount = 60
+					X2 = -55
+				}
+			}
+		}
+	},
+	[70259] = {
+		id = 70259,
+		name = "2024阿尔萨斯活动 鲸鱼小范围随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 0,
+					Z2 = 60,
+					moveCount = 60,
+					Z1 = 40,
+					duration = -1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
+	[70260] = {
+		id = 70260,
+		name = "2024阿尔萨斯活动 鲸鱼去下方",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -45,
+					z = 22
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 0.5
+				}
+			}
+		}
+	},
+	[70261] = {
+		id = 70261,
+		name = "2024阿尔萨斯活动 鲸鱼去上方",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -45,
+					z = 78
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 0.5
 				}
 			}
 		}
@@ -10607,8 +10676,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 13,
+					z = 55,
 					antiClockWise = true,
 					duration = 5,
 					x = -10
@@ -10634,8 +10703,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 30,
+					z = 55,
 					antiClockWise = true,
 					duration = 9,
 					x = -10
@@ -10703,8 +10772,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 13,
+					z = 55,
 					antiClockWise = false,
 					duration = 5,
 					x = -10
@@ -10730,8 +10799,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 30,
+					z = 55,
 					antiClockWise = false,
 					duration = 9,
 					x = -10
@@ -10915,8 +10984,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 1,
 				param = {
-					z = 25,
 					duration = 1,
+					z = 25,
 					x = -13,
 					valve = 1
 				}
@@ -10934,8 +11003,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 1,
 				param = {
-					z = 55,
 					duration = 1,
+					z = 55,
 					x = -21,
 					valve = 1
 				}
@@ -10953,8 +11022,8 @@ pg.auto_pilot_template = {
 				to = 6,
 				type = 1,
 				param = {
-					z = 75,
 					duration = 1,
+					z = 75,
 					x = -13,
 					valve = 1
 				}
@@ -10972,8 +11041,8 @@ pg.auto_pilot_template = {
 				to = 8,
 				type = 1,
 				param = {
-					z = 55,
 					duration = 1,
+					z = 55,
 					x = -5,
 					valve = 1
 				}
@@ -11006,13 +11075,13 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 2,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -11044,13 +11113,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 20,
+					stopCount = 0,
 					Z2 = 55,
-					X2 = 0,
 					moveCount = 8000,
+					Z1 = 20,
 					duration = 3,
 					X1 = -25,
-					stopCount = 0
+					X2 = 0
 				}
 			},
 			{
@@ -11073,13 +11142,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 55,
+					stopCount = 0,
 					Z2 = 90,
-					X2 = 0,
 					moveCount = 8000,
+					Z1 = 55,
 					duration = 3,
 					X1 = -25,
-					stopCount = 0
+					X2 = 0
 				}
 			},
 			{
@@ -11102,13 +11171,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 0,
+					stopCount = 0,
 					Z2 = 35,
-					X2 = 0,
 					moveCount = 5000,
+					Z1 = 0,
 					duration = 2,
 					X1 = -25,
-					stopCount = 0
+					X2 = 0
 				}
 			},
 			{
@@ -11131,13 +11200,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 75,
+					stopCount = 0,
 					Z2 = 110,
-					X2 = 0,
 					moveCount = 5000,
+					Z1 = 75,
 					duration = 2,
 					X1 = -25,
-					stopCount = 0
+					X2 = 0
 				}
 			},
 			{
@@ -11160,9 +11229,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = -5,
+					offsetZ = 0,
 					duration = 4,
-					offsetZ = 0
+					X = -5
 				}
 			}
 		}
@@ -11201,13 +11270,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 25,
+					stopCount = 0,
 					Z2 = 85,
-					X2 = 5,
 					moveCount = 5000,
+					Z1 = 25,
 					duration = -1,
 					X1 = -40,
-					stopCount = 0
+					X2 = 5
 				}
 			}
 		}
@@ -11222,9 +11291,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = 0,
+					offsetZ = 5,
 					duration = 300,
-					offsetZ = 5
+					X = 0
 				}
 			}
 		}
@@ -11239,9 +11308,9 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 8,
 				param = {
-					X = 0,
+					offsetZ = -5,
 					duration = 300,
-					offsetZ = -5
+					X = 0
 				}
 			}
 		}
@@ -11376,8 +11445,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 10,
+					z = 55,
 					antiClockWise = true,
 					duration = -1,
 					x = -20
@@ -11684,8 +11753,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = true,
 					duration = -1,
 					x = -20
@@ -11703,8 +11772,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 70,
 					radius = 15,
+					z = 70,
 					antiClockWise = true,
 					duration = -1,
 					x = -20
@@ -11722,8 +11791,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = false,
 					duration = -1,
 					x = -20
@@ -11741,8 +11810,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 40,
 					radius = 15,
+					z = 40,
 					antiClockWise = false,
 					duration = -1,
 					x = -20
@@ -11760,8 +11829,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = true,
 					duration = -1,
 					x = -10
@@ -11779,8 +11848,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 20,
+					z = 55,
 					antiClockWise = false,
 					duration = -1,
 					x = -10
@@ -11798,13 +11867,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 30,
+					stopCount = 90,
 					Z2 = 80,
-					X2 = -10,
 					moveCount = 240,
+					Z1 = 30,
 					duration = -1,
 					X1 = -30,
-					stopCount = 90
+					X2 = -10
 				}
 			}
 		}
@@ -11919,13 +11988,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 30,
+					stopCount = 90,
 					Z2 = 80,
-					X2 = -10,
 					moveCount = 240,
+					Z1 = 30,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = -10
 				}
 			}
 		}
@@ -11988,13 +12057,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 30,
+					stopCount = 90,
 					Z2 = 80,
-					X2 = -10,
 					moveCount = 240,
+					Z1 = 30,
 					duration = -1,
 					X1 = 10,
-					stopCount = 90
+					X2 = -10
 				}
 			}
 		}
@@ -12009,13 +12078,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 80,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = 0,
-					stopCount = 90
+					X2 = 5
 				}
 			}
 		}
@@ -12030,13 +12099,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -5,
-					stopCount = 90
+					X2 = 5
 				}
 			}
 		}
@@ -12051,13 +12120,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -25,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 11,
 					X1 = -40,
-					stopCount = 90
+					X2 = -25
 				}
 			},
 			{
@@ -12065,13 +12134,13 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 19.5,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -12079,13 +12148,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -25,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 2,
 					X1 = -40,
-					stopCount = 90
+					X2 = -25
 				}
 			}
 		}
@@ -12108,13 +12177,13 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 7,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -12122,8 +12191,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 1,
 				param = {
-					z = 55,
 					duration = 1,
+					z = 55,
 					x = -15
 				}
 			},
@@ -12140,8 +12209,8 @@ pg.auto_pilot_template = {
 				to = 6,
 				type = 2,
 				param = {
-					z = 15,
 					duration = 1,
+					z = 15,
 					x = 0
 				}
 			},
@@ -12150,8 +12219,8 @@ pg.auto_pilot_template = {
 				to = 7,
 				type = 2,
 				param = {
-					z = -30,
 					duration = 1,
+					z = -30,
 					x = 0
 				}
 			},
@@ -12160,8 +12229,8 @@ pg.auto_pilot_template = {
 				to = 8,
 				type = 2,
 				param = {
-					z = 15,
 					duration = 1,
+					z = 15,
 					x = 0
 				}
 			},
@@ -12170,8 +12239,8 @@ pg.auto_pilot_template = {
 				to = 9,
 				type = 2,
 				param = {
-					z = 15,
 					duration = 1,
+					z = 15,
 					x = 0
 				}
 			},
@@ -12180,8 +12249,8 @@ pg.auto_pilot_template = {
 				to = 10,
 				type = 2,
 				param = {
-					z = -30,
 					duration = 1,
+					z = -30,
 					x = 0
 				}
 			},
@@ -12190,8 +12259,8 @@ pg.auto_pilot_template = {
 				to = 11,
 				type = 1,
 				param = {
-					z = 55,
 					duration = 2,
+					z = 55,
 					x = -15
 				}
 			},
@@ -12208,13 +12277,13 @@ pg.auto_pilot_template = {
 				to = 13,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 3,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -12222,8 +12291,8 @@ pg.auto_pilot_template = {
 				to = 14,
 				type = 1,
 				param = {
-					z = 55,
 					duration = 2,
+					z = 55,
 					x = -15
 				}
 			},
@@ -12255,13 +12324,13 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = 5,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -12269,8 +12338,8 @@ pg.auto_pilot_template = {
 				to = 4,
 				type = 1,
 				param = {
-					z = 55,
 					duration = 5,
+					z = 55,
 					x = -10
 				}
 			},
@@ -12279,8 +12348,8 @@ pg.auto_pilot_template = {
 				to = 5,
 				type = 1,
 				param = {
-					z = 70,
 					duration = 5,
+					z = 70,
 					x = -20
 				}
 			},
@@ -12289,8 +12358,8 @@ pg.auto_pilot_template = {
 				to = 6,
 				type = 1,
 				param = {
-					z = 40,
 					duration = 5,
+					z = 40,
 					x = -15
 				}
 			},
@@ -12299,8 +12368,8 @@ pg.auto_pilot_template = {
 				to = 7,
 				type = 1,
 				param = {
-					z = 55,
 					duration = 2,
+					z = 55,
 					x = -25
 				}
 			},
@@ -12317,8 +12386,8 @@ pg.auto_pilot_template = {
 				to = 9,
 				type = 1,
 				param = {
-					z = 45,
 					duration = 6,
+					z = 45,
 					x = -15
 				}
 			},
@@ -12327,8 +12396,8 @@ pg.auto_pilot_template = {
 				to = 10,
 				type = 1,
 				param = {
-					z = 65,
 					duration = 8,
+					z = 65,
 					x = -10
 				}
 			},
@@ -12337,13 +12406,13 @@ pg.auto_pilot_template = {
 				to = 11,
 				type = 3,
 				param = {
-					Z1 = 45,
+					stopCount = 90,
 					Z2 = 65,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 45,
 					duration = 4,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			},
 			{
@@ -12351,8 +12420,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 1,
 				param = {
-					z = 55,
 					duration = 2,
+					z = 55,
 					x = -15
 				}
 			}
@@ -12368,13 +12437,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -15,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = -15
 				}
 			}
 		}
@@ -12430,13 +12499,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 55,
+					stopCount = 80,
 					Z2 = 85,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 55,
 					duration = -1,
 					X1 = -30,
-					stopCount = 80
+					X2 = 0
 				}
 			}
 		}
@@ -12451,13 +12520,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 25,
+					stopCount = 100,
 					Z2 = 55,
-					X2 = 0,
 					moveCount = 240,
+					Z1 = 25,
 					duration = -1,
 					X1 = -30,
-					stopCount = 100
+					X2 = 0
 				}
 			}
 		}
@@ -12520,13 +12589,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 40,
+					stopCount = 160,
 					Z2 = 70,
-					X2 = -15,
 					moveCount = 200,
+					Z1 = 40,
 					duration = -1,
 					X1 = -20,
-					stopCount = 160
+					X2 = -15
 				}
 			}
 		}
@@ -12541,13 +12610,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 30,
+					stopCount = 1,
 					Z2 = 80,
-					X2 = 0,
 					moveCount = 500,
+					Z1 = 30,
 					duration = -1,
 					X1 = -10,
-					stopCount = 1
+					X2 = 0
 				}
 			}
 		}
@@ -12595,13 +12664,13 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -20,
-					stopCount = 90
+					X2 = -5
 				}
 			}
 		}
@@ -12616,13 +12685,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 80,
 					Z2 = 75,
-					X2 = -5,
 					moveCount = 320,
+					Z1 = 35,
 					duration = -1,
 					X1 = -20,
-					stopCount = 80
+					X2 = -5
 				}
 			}
 		}
@@ -12661,13 +12730,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 120,
 					Z2 = 75,
-					X2 = 0,
 					moveCount = 160,
+					Z1 = 35,
 					duration = -1,
 					X1 = -15,
-					stopCount = 120
+					X2 = 0
 				}
 			}
 		}
@@ -12682,13 +12751,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 5
 				}
 			}
 		}
@@ -12703,13 +12772,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = -10,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -35,
-					stopCount = 90
+					X2 = -10
 				}
 			}
 		}
@@ -12724,13 +12793,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 25,
+					stopCount = 90,
 					Z2 = 45,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 25,
 					duration = -1,
 					X1 = -15,
-					stopCount = 90
+					X2 = 5
 				}
 			}
 		}
@@ -12769,13 +12838,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 5
 				}
 			}
 		}
@@ -12790,13 +12859,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
+					stopCount = 90,
 					Z2 = 75,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 35,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 5
 				}
 			}
 		}
@@ -12845,8 +12914,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = -20,
 					duration = 180,
+					z = -20,
 					x = 2
 				}
 			},
@@ -12879,8 +12948,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 6,
 				param = {
-					z = 20,
 					duration = 180,
+					z = 20,
 					x = 2
 				}
 			},
@@ -12913,8 +12982,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = -13,
 					duration = 16,
+					z = -13,
 					x = 22
 				}
 			},
@@ -12949,8 +13018,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = 13,
 					duration = 16,
+					z = 13,
 					x = 22
 				}
 			},
@@ -12985,8 +13054,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = 25,
 					duration = 16,
+					z = 25,
 					x = 0
 				}
 			},
@@ -13021,8 +13090,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = 13,
 					duration = 16,
+					z = 13,
 					x = -22
 				}
 			},
@@ -13057,8 +13126,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = -13,
 					duration = 16,
+					z = -13,
 					x = -22
 				}
 			},
@@ -13093,8 +13162,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = -25,
 					duration = 16,
+					z = -25,
 					x = 0
 				}
 			},
@@ -13129,8 +13198,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = 12,
 					duration = 20,
+					z = 12,
 					x = -20
 				}
 			},
@@ -13165,8 +13234,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = 8,
 					duration = 20,
+					z = 8,
 					x = -14
 				}
 			},
@@ -13201,8 +13270,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = 16,
 					duration = 20,
+					z = 16,
 					x = -14
 				}
 			},
@@ -13237,8 +13306,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = -20,
 					duration = 20,
+					z = -20,
 					x = -20
 				}
 			},
@@ -13273,8 +13342,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = -16,
 					duration = 20,
+					z = -16,
 					x = -14
 				}
 			},
@@ -13309,8 +13378,8 @@ pg.auto_pilot_template = {
 				to = 3,
 				type = 6,
 				param = {
-					z = -24,
 					duration = 20,
+					z = -24,
 					x = -14
 				}
 			},
@@ -13345,13 +13414,13 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 45,
+					stopCount = 90,
 					Z2 = 65,
-					X2 = 5,
 					moveCount = 240,
+					Z1 = 45,
 					duration = -1,
 					X1 = -10,
-					stopCount = 90
+					X2 = 5
 				}
 			}
 		}
@@ -13391,8 +13460,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 15,
+					z = 55,
 					antiClockWise = false,
 					duration = -1,
 					x = -10
@@ -13419,8 +13488,8 @@ pg.auto_pilot_template = {
 				to = 2,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 12,
+					z = 55,
 					antiClockWise = false,
 					duration = -1,
 					x = -10
@@ -13438,8 +13507,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 12,
+					z = 55,
 					antiClockWise = false,
 					duration = -1,
 					x = -10
@@ -13473,8 +13542,8 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 4,
 				param = {
-					z = 55,
 					radius = 12,
+					z = 55,
 					antiClockWise = true,
 					duration = -1,
 					x = -10

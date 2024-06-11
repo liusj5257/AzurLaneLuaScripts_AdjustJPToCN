@@ -28,7 +28,7 @@ slot0.TIME_TYPE_YEAR = 3
 slot0.MAX_MAP_SIZE = Vector2(23, 23)
 slot0.MAX_FEAST_MAP_SIZE = Vector2(25, 25)
 
-function slot0.ThemeSortIndex2ServerIndex(slot0, slot1)
+slot0.ThemeSortIndex2ServerIndex = function(slot0, slot1)
 	slot1 = defaultValue(slot1, true)
 
 	if defaultValue(slot0, 1) == 1 then
@@ -44,7 +44,7 @@ function slot0.ThemeSortIndex2ServerIndex(slot0, slot1)
 	end
 end
 
-function slot0.ServerIndex2ThemeSortIndex(slot0)
+slot0.ServerIndex2ThemeSortIndex = function(slot0)
 	if slot0 == 5 then
 		return 1, true
 	elseif slot0 == 4 then

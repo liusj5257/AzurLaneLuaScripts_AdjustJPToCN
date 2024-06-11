@@ -21,8 +21,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -145,12 +145,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17164,
 	time = 1,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17164,
+	color = "red",
 	icon = 17160,
 	last_effect = "",
 	effect_list = {

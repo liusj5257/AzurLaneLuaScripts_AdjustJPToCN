@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "吾妻特殊弹幕II",
 	time = 0,
-	color = "red",
+	name = "吾妻特殊弹幕II",
+	init_effect = "",
+	id = 18212,
 	picture = "",
 	desc = "吾妻特殊弹幕II-4次-30距离净空跨射-不净空平射",
 	stack = 1,
-	id = 18212,
+	color = "red",
 	icon = 18210,
 	last_effect = "",
 	effect_list = {
@@ -43,8 +43,8 @@ return {
 				range = 30,
 				check_target = "TargetHarmNearest",
 				countType = 182122,
-				target = "TargetSelf",
-				skill_id = 18213
+				skill_id = 18213,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -55,10 +55,10 @@ return {
 			arg_list = {
 				check_target = "TargetHarmNearest",
 				range = 30,
-				target = "TargetSelf",
+				skill_id = 18214,
 				countType = 182122,
 				maxTargetNumber = 0,
-				skill_id = 18214
+				target = "TargetSelf"
 			}
 		}
 	}

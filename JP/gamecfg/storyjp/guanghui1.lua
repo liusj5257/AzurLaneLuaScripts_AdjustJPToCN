@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ご令嬢の小さな提案\n\n<size=45>一 とっておきの場所</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ぽかぽかとあたたかい日差しの中、母港内を散歩しているとイラストリアスの後ろ姿が目に入った。",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ぽかぽかとあたたかい日差しの中、母港内を散歩しているとイラストリアスの後ろ姿が目に入った。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "ロイヤル寮に行くかと思いきや、彼女は寮を通り過ぎて人気のない場所へと向かっていく。",
 			typewriter = {
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1.2,
 					x = -2500
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "どこへ行くのか様子が気になって、後をついていくことにした。",
 			typewriter = {
 				speed = 0.05,
@@ -90,13 +90,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "細い抜け道のような上り坂を歩いていくと、母港の全景が見渡せるステキな場所へとたどり着いた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "素直に謝るしかないようだ……",
 			typewriter = {
 				speed = 0.05,
@@ -215,9 +215,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "とてもいいアイデアだーーそう告げると、彼女はにっこりと微笑んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -245,11 +245,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
 			withoutActorName = true,
-			dir = 1,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "そう言って歩き出そうとした彼女の足に、地面から飛び出して生えていた木の根っこが引っかかった。",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 0.8,
 					dur = 1,
 					x = 0
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "――むにゅん",
 			typewriter = {
 				speed = 0.05,
@@ -311,9 +311,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "互いの体が密着したままの状態で、イラストリアスがそう答える",
 			typewriter = {
 				speed = 0.05,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "いつまでもこうしているわけにはいかないと思い、ドキドキしながらそっと彼女から離れた",
 			typewriter = {
 				speed = 0.05,

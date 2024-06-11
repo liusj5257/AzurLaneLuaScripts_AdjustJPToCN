@@ -2,14 +2,14 @@ slot0 = class("AvatarFrameProxy", import(".NetProxy"))
 slot0.FRAME_TASK_UPDATED = "frame task updated"
 slot0.FRAME_TASK_TIME_OUT = "frame task time out"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.avatarFrames = {}
 	slot0.actTasks = {}
 
 	slot0:on(20201, function (slot0)
 		uv0.avatarFrames = {}
 
-		function slot1(slot0, slot1)
+		slot1 = function(slot0, slot1)
 			slot2 = {}
 
 			for slot6, slot7 in ipairs(slot1) do
@@ -35,7 +35,7 @@ function slot0.register(slot0)
 		end
 	end)
 	slot0:on(20202, function (slot0)
-		function slot1(slot0, slot1)
+		slot1 = function(slot0, slot1)
 			for slot5, slot6 in ipairs(slot1) do
 				uv0:updateAvatarTask(slot0, slot6)
 			end
@@ -56,7 +56,7 @@ function slot0.register(slot0)
 		uv0.facade:sendNotification(uv1.FRAME_TASK_UPDATED)
 	end)
 	slot0:on(20203, function (slot0)
-		function slot1(slot0, slot1)
+		slot1 = function(slot0, slot1)
 			for slot5, slot6 in ipairs(slot1) do
 				uv0:addAvatarTask(slot0, uv0:createAvatarFrameTask(slot0, slot6))
 			end
@@ -77,7 +77,7 @@ function slot0.register(slot0)
 		uv0.facade:sendNotification(uv1.FRAME_TASK_UPDATED)
 	end)
 	slot0:on(20204, function (slot0)
-		function slot1(slot0, slot1)
+		slot1 = function(slot0, slot1)
 			for slot5, slot6 in ipairs(slot1) do
 				uv0:removeAvatarTask(slot0, slot6.id)
 			end
@@ -99,11 +99,11 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.createAvatarFrameTask(slot0, slot1, slot2)
+slot0.createAvatarFrameTask = function(slot0, slot1, slot2)
 	return AvatarFrameTask.New(slot1, pg.activity_template[slot1].config_id, slot2)
 end
 
-function slot0.updateAvatarTask(slot0, slot1, slot2)
+slot0.updateAvatarTask = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0.avatarFrames do
 		if slot0.avatarFrames[slot6].actId == slot1 then
 			for slot11 = #slot0.avatarFrames[slot6].tasks, 1, -1 do
@@ -115,7 +115,7 @@ function slot0.updateAvatarTask(slot0, slot1, slot2)
 	end
 end
 
-function slot0.addAvatarTask(slot0, slot1, slot2)
+slot0.addAvatarTask = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0.avatarFrames do
 		if slot0.avatarFrames[slot6].actId == slot1 then
 			for slot11 = #slot0.avatarFrames[slot6].tasks, 1, -1 do
@@ -129,7 +129,7 @@ function slot0.addAvatarTask(slot0, slot1, slot2)
 	end
 end
 
-function slot0.removeAvatarTask(slot0, slot1, slot2)
+slot0.removeAvatarTask = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0.avatarFrames do
 		if slot0.avatarFrames[slot6].actId == slot1 then
 			for slot11 = #slot0.avatarFrames[slot6].tasks, 1, -1 do
@@ -141,7 +141,7 @@ function slot0.removeAvatarTask(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getAvatarFrameById(slot0, slot1)
+slot0.getAvatarFrameById = function(slot0, slot1)
 	for slot5 = 1, #slot0.avatarFrames do
 		if slot0.avatarFrames[slot5].actId == slot1 then
 			return Clone(slot0.avatarFrames[slot5])
@@ -151,11 +151,11 @@ function slot0.getAvatarFrameById(slot0, slot1)
 	return nil
 end
 
-function slot0.getAllAvatarFrame(slot0)
+slot0.getAllAvatarFrame = function(slot0)
 	return Clone(slot0.avatarFrames)
 end
 
-function slot0.getCanReceiveCount(slot0)
+slot0.getCanReceiveCount = function(slot0)
 	slot1 = 0
 
 	for slot5 = 1, #slot0.avatarFrames do
@@ -169,7 +169,7 @@ function slot0.getCanReceiveCount(slot0)
 	return slot1
 end
 
-function slot0.clearTimeOut(slot0)
+slot0.clearTimeOut = function(slot0)
 	if not slot0.avatarFrames or #slot0.avatarFrames == 0 then
 		return
 	end

@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 60,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -58,9 +58,9 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
-							delay = 0,
 							monsterTemplateID = 16529401,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-5,
 								0,
@@ -72,19 +72,19 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 1.5,
 									switchTo = 1,
 									index = 0,
-									switchParam = 1.5,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 5,
 									switchTo = 2,
 									index = 1,
-									switchParam = 5,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										3065403,
@@ -93,9 +93,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 2,
 									switchParam = 12,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									addWeapon = {
 										3065404,
@@ -107,10 +107,10 @@ return {
 									}
 								},
 								{
-									index = 3,
 									switchType = 1,
-									switchTo = 4,
 									switchParam = 17,
+									index = 3,
+									switchTo = 4,
 									addBuff = {
 										200483
 									},
@@ -123,10 +123,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 0.5,
 									switchTo = 5,
 									index = 4,
-									switchParam = 0.5,
+									switchType = 1,
 									setAI = 70125,
 									addWeapon = {},
 									removeWeapon = {
@@ -134,10 +134,10 @@ return {
 									}
 								},
 								{
-									index = 5,
 									switchType = 1,
-									switchTo = 1,
 									switchParam = 24,
+									index = 5,
+									switchTo = 1,
 									addBuff = {
 										200484
 									},

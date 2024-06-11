@@ -1,21 +1,21 @@
 slot0 = class("EducateMindLayer", import(".base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateMindUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.taskProxy = getProxy(EducateProxy):GetTaskProxy()
 	slot0.taskVOs = slot0.taskProxy:GetTasksBySystem(EducateTask.SYSTEM_TYPE_MIND)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
@@ -43,13 +43,13 @@ function slot0.findUI(slot0)
 	setText(slot0:findTF("list/tpl/time_desc", slot0.unFinishListTF), i18n("child_mind_time_title"))
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData(),
 		weight = slot0:getWeightFromData() + 1
@@ -70,11 +70,11 @@ function slot0.didEnter(slot0)
 	EducateTipHelper.ClearNewTip(EducateTipHelper.NEW_MIND_TASK)
 end
 
-function slot0.sumbitTask(slot0, slot1)
+slot0.sumbitTask = function(slot0, slot1)
 	slot0:emit(EducateMindMediator.ON_TASK_SUBMIT, slot1)
 end
 
-function slot0.updateItems(slot0)
+slot0.updateItems = function(slot0)
 	slot1 = getProxy(EducateProxy):GetCurTime()
 	slot0.taskVOs = underscore.select(slot0.taskVOs, function (slot0)
 		return slot0:InTime(uv0)
@@ -108,7 +108,7 @@ function slot0.updateItems(slot0)
 	setActive(slot0.emptyTF, #slot0.finishTaskVOs <= 0 and #slot0.unFinishTaskVOs <= 0)
 end
 
-function slot0.updateFinishItem(slot0, slot1, slot2)
+slot0.updateFinishItem = function(slot0, slot1, slot2)
 	if LeanTween.isTweening(slot2.gameObject) then
 		LeanTween.cancel(slot2.gameObject)
 	end
@@ -136,14 +136,14 @@ function slot0.updateFinishItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.updateUnfinishItem(slot0, slot1, slot2)
+slot0.updateUnfinishItem = function(slot0, slot1, slot2)
 	slot3 = slot0.unFinishTaskVOs[slot1 + 1]
 
 	setText(slot0:findTF("desc", slot2), slot3:getConfig("name"))
 	setText(slot0:findTF("time_desc/time", slot2), (slot3:GetRemainTime() < 7 and 0 or math.floor(slot4 / 7)) .. i18n("word_week"))
 end
 
-function slot0.doAnim(slot0, slot1, slot2)
+slot0.doAnim = function(slot0, slot1, slot2)
 	slot4 = slot1.transform.localPosition
 	slot5 = LeanTween.alphaCanvas(GetOrAddComponent(slot1, "CanvasGroup"), 0, 0.198)
 
@@ -163,12 +163,12 @@ function slot0.doAnim(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.updateView(slot0)
+slot0.updateView = function(slot0)
 	slot0:initData()
 	slot0:updateItems()
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	if slot0.isClick then
 		return
 	end
@@ -176,11 +176,11 @@ function slot0._close(slot0)
 	slot0.anim:Play("anim_educate_mind_out")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 

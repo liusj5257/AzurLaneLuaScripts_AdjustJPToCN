@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "高爆穿甲弹",
 	cd = 0,
+	picture = "0",
+	desc = "高爆弹伤害提高，起火概率降低",
 	painting = 1,
 	id = 19110,
-	picture = "0",
 	castCV = "skill",
-	desc = "高爆弹伤害提高，起火概率降低",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 19111
 			}

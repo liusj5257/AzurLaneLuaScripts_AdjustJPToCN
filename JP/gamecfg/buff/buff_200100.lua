@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "勇者标枪永久盾牌",
 	time = 5,
-	color = "red",
+	name = "勇者标枪永久盾牌",
+	init_effect = "",
+	id = 200100,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200100,
+	color = "red",
 	icon = 200100,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200101,
-				target = "TargetSelf",
-				time = 2
+				time = 2,
+				target = "TargetSelf"
 			}
 		}
 	}

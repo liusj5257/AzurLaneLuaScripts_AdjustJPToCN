@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA11",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "holo-tokiwa",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あのピカピカしている黒曜石でできた建物を見て。あれがレジスタンス基地だよ",
-			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

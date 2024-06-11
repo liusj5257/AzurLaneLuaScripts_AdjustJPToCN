@@ -1,8 +1,8 @@
 return {
-	BLACK_HOLE_RANGE = 2,
 	DECOY_RANGE = 5,
-	TIME_INTERVAL = 0.016666666666666666,
+	BLACK_HOLE_RANGE = 2,
 	LANTERN_RANGE = 3,
+	TIME_INTERVAL = 0.016666666666666666,
 	STAGE_CONFIG = {
 		BASE_CONFIG = {
 			base_rate = 1,
@@ -35,8 +35,8 @@ return {
 			ability_rate = {
 				gravity = 0.5,
 				teleport = 0.5,
-				rush = 0.5,
 				doppelgangers = 0.5,
+				rush = 0.5,
 				delay = 0.5,
 				blackhole = 0.5,
 				stealth = 0.5,
@@ -45,8 +45,8 @@ return {
 			ability_config = {
 				gravity = true,
 				teleport = true,
-				rush = true,
 				doppelgangers = true,
+				rush = true,
 				delay = true,
 				blackhole = true,
 				stealth = true,
@@ -103,14 +103,14 @@ return {
 			ability_rate = {
 				blackhole = 0.5,
 				teleport = 0.5,
-				rush = 0.5,
-				breakpassable = 0.5
+				breakpassable = 0.5,
+				rush = 0.5
 			},
 			ability_config = {
 				blackhole = true,
 				teleport = true,
-				rush = true,
-				breakpassable = true
+				breakpassable = true,
+				rush = true
 			}
 		},
 		Spring23Level_3 = {
@@ -134,15 +134,15 @@ return {
 			ability_rate = {
 				blackhole = 0.5,
 				teleport = 0.5,
-				rush = 0.5,
 				doppelgangers = 0.5,
+				rush = 0.5,
 				breakpassable = 0.5
 			},
 			ability_config = {
 				blackhole = true,
 				teleport = true,
-				rush = true,
 				doppelgangers = true,
+				rush = true,
 				breakpassable = true
 			}
 		},
@@ -167,16 +167,16 @@ return {
 			ability_rate = {
 				blackhole = 0.5,
 				teleport = 0.5,
-				rush = 0.5,
 				doppelgangers = 0.5,
+				rush = 0.5,
 				delay = 0.5,
 				breakpassable = 0.5
 			},
 			ability_config = {
 				blackhole = true,
 				teleport = true,
-				rush = true,
 				doppelgangers = true,
+				rush = true,
 				delay = true,
 				breakpassable = true
 			}
@@ -202,8 +202,8 @@ return {
 			ability_rate = {
 				blackhole = 0.5,
 				teleport = 0.5,
-				rush = 0.5,
 				doppelgangers = 0.5,
+				rush = 0.5,
 				delay = 0.5,
 				stealth = 0.5,
 				breakpassable = 0.5
@@ -211,8 +211,8 @@ return {
 			ability_config = {
 				blackhole = true,
 				teleport = true,
-				rush = true,
 				doppelgangers = true,
+				rush = true,
 				delay = true,
 				stealth = true,
 				breakpassable = true
@@ -239,8 +239,8 @@ return {
 			ability_rate = {
 				blackhole = 0.5,
 				teleport = 0.5,
-				rush = 0.5,
 				doppelgangers = 0.5,
+				rush = 0.5,
 				delay = 0.5,
 				stealth = 0.5,
 				gravity = 0.5,
@@ -249,8 +249,8 @@ return {
 			ability_config = {
 				blackhole = true,
 				teleport = true,
-				rush = true,
 				doppelgangers = true,
+				rush = true,
 				delay = true,
 				stealth = true,
 				gravity = true,
@@ -298,8 +298,8 @@ return {
 			ability_rate = {
 				blackhole = 0.5,
 				teleport = 0.5,
-				rush = 0.5,
 				doppelgangers = 0.5,
+				rush = 0.5,
 				delay = 0.5,
 				stealth = 0.5,
 				gravity = 0.5,
@@ -308,8 +308,8 @@ return {
 			ability_config = {
 				blackhole = true,
 				teleport = true,
-				rush = true,
 				doppelgangers = true,
+				rush = true,
 				delay = true,
 				stealth = true,
 				gravity = true,

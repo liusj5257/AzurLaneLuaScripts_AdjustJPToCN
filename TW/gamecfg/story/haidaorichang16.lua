@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海風與夏日的無人島\n\n<size=45>麗日茶會</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "晴空之下，一場茶會正在熱烈地進行著——",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "晴空之下，一場茶會正在熱烈地進行著——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg3",
 			mode = 1,
+			bgName = "bg_summerisland_cg3",
 			sequence = {
 				{
 					"",
@@ -56,17 +56,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐澤西",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐澤西",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "逸仙",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "逸仙",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "貝爾法斯特",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "貝爾法斯特",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "貝爾法斯特",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "非常感謝~",
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊莉莎白女王",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊莉莎白女王",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊莉莎白女王",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊莉莎白女王",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊莉莎白女王",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊莉莎白女王",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "對吧對吧~重櫻正在修建度假溫泉，本王這裡也不能落後才對~",
 			typewriter = {
 				speed = 0.05,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊莉莎白女王",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那是自然！本王不會連這種道理都不懂的！",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "逸仙",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐澤西",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐澤西",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐澤西",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -352,8 +352,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "紐澤西",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "虧了各陣營的齊心協力，度假島的建設工作正在快速推進。",
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "除了這段時間沒有再見過皇家幸運之外，無人島上的方方面面都很正常。",
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "說起來…………似乎在這樣熱烈的氣氛中遺忘了一件事……",
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "不過遺忘的究竟是……",
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "俾斯麥",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "黎塞留",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "維托里奧·維內托",
+			side = 2,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐澤西",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紐澤西",
+			side = 1,
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "在被紐澤西拽離座位的一瞬間，遺忘的記憶復甦了。",
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg3",
 			hidePaintObj = true,
 			say = "這項行動的最初目的，好像是尋寶之旅……？",

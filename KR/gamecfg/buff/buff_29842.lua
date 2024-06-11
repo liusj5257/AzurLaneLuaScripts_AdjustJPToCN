@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行10次攻击，触发专属弹幕-埃姆登II",
 	name = "专属弹幕-埃姆登II",
 	init_effect = "",
+	id = 29842,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行10次攻击，触发专属弹幕-埃姆登II",
 	stack = 1,
-	id = 29842,
+	color = "red",
 	icon = 29840,
 	last_effect = "",
 	effect_list = {
@@ -20,9 +20,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 29840,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 29840,
 				index = {
 					1
 				}
@@ -34,8 +34,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29842,
+				target = "TargetSelf",
 				countType = 29840
 			}
 		}

@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-31-15",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg24",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "story-richang-relax",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-31-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "来てくださったんですね。よかったです。",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -64,14 +64,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg24",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "気を使ってくださって嬉しいです",
 			voice = "event:/educate/tb/educate-tb-story-31-16",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "気を使ってくださって嬉しいです",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg24",
 			hidePaintObj = true,
 			say = "そう言いながらTBは片手でドレスの裾をつまみあげ、片手を差し伸べてきた。",
@@ -93,14 +93,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg24",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "一緒に踊っていただけますか？",
 			voice = "event:/educate/tb/educate-tb-story-31-17",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "一緒に踊っていただけますか？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,32 +123,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg24",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ふふふ、たまには先回りしたくて♪",
 			voice = "event:/educate/tb/educate-tb-story-31-18",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "TB",
-			bgName = "bg_project_tb_cg24",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ダンスが始まる時間がもうすぐです…早く行かないと遅れてしまいますよ？",
-			voice = "event:/educate/tb/educate-tb-story-31-19",
+			say = "ふふふ、たまには先回りしたくて♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,8 +141,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			side = 2,
+			bgName = "bg_project_tb_cg24",
+			dir = 1,
+			voice = "event:/educate/tb/educate-tb-story-31-19",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ダンスが始まる時間がもうすぐです…早く行かないと遅れてしまいますよ？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg24",
 			hidePaintObj = true,
 			say = "少女の手を取り、手のひらから柔らかく温かい感触が伝わってくる。",

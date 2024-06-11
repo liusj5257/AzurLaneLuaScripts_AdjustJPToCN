@@ -1,18 +1,18 @@
 return {
-	id = "XIAWANJIANDEFANJI13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "level02",
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "唔…唔？",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "哎？厭戰？戰鬥結束了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "這樣啊…Z2和Z18她們…",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "複雜的事我不懂啦…不過，既然是正確的事，就算有些感傷，我還是會堅持下去的",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "啊，感覺又有些睏了…",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

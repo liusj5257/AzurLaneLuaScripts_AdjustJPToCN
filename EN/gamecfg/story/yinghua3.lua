@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -37,8 +37,8 @@ return {
 		{
 			actor = 307050,
 			side = 1,
-			dir = 1,
 			say = "For the Sacred Sakura. Measurements taken since the war began show that it has started to wither. We're here to investigate why, and also we must...",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -123,15 +123,15 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			stopbgm = true,
 			say = "They're making their way toward the Sacred Sakura. Shouldn't we stop them? Before long, they'll discover Nagato.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -158,9 +158,9 @@ return {
 		{
 			actor = 307010,
 			side = 0,
+			say = "Those vermin just won't die no matter how much pesticide you use on them... How utterly annoying.",
 			dir = 1,
 			blackBg = true,
-			say = "Those vermin just won't die no matter how much pesticide you use on them... How utterly annoying.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

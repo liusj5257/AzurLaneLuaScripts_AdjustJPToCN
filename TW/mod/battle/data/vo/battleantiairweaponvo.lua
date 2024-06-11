@@ -6,7 +6,7 @@ slot0.Battle.BattleAntiAirWeaponVO = class("BattleAntiAirWeaponVO", slot0.Battle
 slot0.Battle.BattleAntiAirWeaponVO.__name = "BattleAntiAirWeaponVO"
 slot4 = slot0.Battle.BattleAntiAirWeaponVO
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._restoreDenominator = uv1.const_A
@@ -16,23 +16,23 @@ function slot4.Ctor(slot0, slot1)
 	slot0._restoreInterval = uv1.Restore_Interval
 end
 
-function slot4.SetBattleFleetVO(slot0, slot1)
+slot4.SetBattleFleetVO = function(slot0, slot1)
 	slot0._battleFleetVO = slot1
 end
 
-function slot4.AppendWeapon(slot0, slot1)
+slot4.AppendWeapon = function(slot0, slot1)
 	uv0.super.AppendWeapon(slot0, slot1)
 	slot1:SetTotalDurabilityInfo(slot0)
 end
 
-function slot4.RemoveWeapon(slot0, slot1)
+slot4.RemoveWeapon = function(slot0, slot1)
 	slot0._total = slot0._total - 1
 	slot0._count = slot0._count - 1
 
 	return slot0.deleteElementFromArray(slot1, slot0._weaponList)
 end
 
-function slot4.SetMax(slot0, slot1)
+slot4.SetMax = function(slot0, slot1)
 	if slot0._max < slot1 then
 		slot0._current = slot0._current + slot1 - slot0._max
 	end
@@ -44,11 +44,11 @@ function slot4.SetMax(slot0, slot1)
 	end
 end
 
-function slot4.SetAverageReload(slot0, slot1)
+slot4.SetAverageReload = function(slot0, slot1)
 	slot0._fleetReload = slot1
 end
 
-function slot4.GetMaxRange(slot0)
+slot4.GetMaxRange = function(slot0)
 	slot2 = 0
 
 	if #slot0._battleFleetVO:GetScoutList() > 0 then
@@ -72,25 +72,25 @@ function slot4.GetMaxRange(slot0)
 	return slot2
 end
 
-function slot4.SetActive(slot0, slot1)
+slot4.SetActive = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._weaponList) do
 		slot6:SetActive(slot1)
 	end
 end
 
-function slot4.Restore(slot0)
+slot4.Restore = function(slot0)
 	slot0._current = slot0._current + slot0._fleetReload / slot0._restoreDenominator
 
 	slot0:checkRestorState()
 end
 
-function slot4.RestoreRate(slot0, slot1)
+slot4.RestoreRate = function(slot0, slot1)
 	slot0._current = slot0._current + slot0._max * slot1
 
 	slot0:checkRestorState()
 end
 
-function slot4.checkRestorState(slot0)
+slot4.checkRestorState = function(slot0)
 	if slot0._max <= slot0._current then
 		slot0._current = slot0._max
 		slot0._restoreDenominator = uv0.const_A
@@ -101,7 +101,7 @@ function slot4.checkRestorState(slot0)
 	end
 end
 
-function slot4.Consume(slot0)
+slot4.Consume = function(slot0)
 	slot0:RemoveRestoreTimer()
 
 	slot0._current = slot0._current - slot0._consumeNormal
@@ -115,11 +115,11 @@ function slot4.Consume(slot0)
 	end
 end
 
-function slot4.ResetCost(slot0, slot1)
+slot4.ResetCost = function(slot0, slot1)
 	slot0._consumeNormal = slot1 or uv0.const_N
 end
 
-function slot4.AddRestoreTimer(slot0)
+slot4.AddRestoreTimer = function(slot0)
 	if slot0._restoreTimer or slot0._max <= slot0._current then
 		return
 	end
@@ -129,13 +129,13 @@ function slot4.AddRestoreTimer(slot0)
 	end, true)
 end
 
-function slot4.RemoveRestoreTimer(slot0)
+slot4.RemoveRestoreTimer = function(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._restoreTimer)
 
 	slot0._restoreTimer = nil
 end
 
-function slot4.Dispose(slot0)
+slot4.Dispose = function(slot0)
 	slot0._battleFleetVO = nil
 
 	uv0.super.Dispose(slot0)

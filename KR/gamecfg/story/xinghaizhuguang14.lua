@@ -4,29 +4,29 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "theme-threat-typev",
 			side = 2,
 			bgName = "bg_zhuguang_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "콰앙———!",
 			soundeffect = "event:/battle/boom2",
+			bgm = "theme-threat-typev",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "콰앙———!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "프린스턴, 괜찮아?",
 			painting = {
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "적이 너무 많아... 게다가 갑자기 옆에서 생겨나는 바람에 도저히 거리를 벌릴 수 없어!",
 			painting = {
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "라피가... 보호해줄게.",
 			painting = {

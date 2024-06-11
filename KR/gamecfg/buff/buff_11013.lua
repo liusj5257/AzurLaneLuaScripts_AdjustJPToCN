@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "铁底湾之夜",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "承受目标受到的30%伤害",
 	stack = 1,

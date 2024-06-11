@@ -2,7 +2,7 @@ slot0 = import(".LevelGrid")
 slot1 = Vector2(-60, 84.8)
 slot2 = Vector2(-50, 20)
 
-function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
+slot0.PlaySubAnimation = function(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		slot3()
 
@@ -36,7 +36,7 @@ function slot0.PlaySubAnimation(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.TeleportCellByPortalWithCameraMove(slot0, slot1, slot2, slot3, slot4)
+slot0.TeleportCellByPortalWithCameraMove = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = nil
 
 	parallelAsync({
@@ -53,7 +53,7 @@ function slot0.TeleportCellByPortalWithCameraMove(slot0, slot1, slot2, slot3, sl
 	}, slot4)
 end
 
-function slot0.TeleportFleetByPortal(slot0, slot1, slot2, slot3, slot4)
+slot0.TeleportFleetByPortal = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.contextData.chapterVO
 	slot7 = slot2[2]
 
@@ -91,7 +91,7 @@ function slot0.TeleportFleetByPortal(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.adjustCameraFocus(slot0, slot1)
+slot0.adjustCameraFocus = function(slot0, slot1)
 	slot2 = slot0.contextData.chapterVO
 
 	if slot0.cellFleets[slot2.fleets[slot2.findex].id] then
@@ -101,11 +101,11 @@ function slot0.adjustCameraFocus(slot0, slot1)
 	end
 end
 
-function slot0.focusOnCell(slot0, slot1, slot2)
+slot0.focusOnCell = function(slot0, slot1, slot2)
 	slot0:cameraFocus(slot0.cellRoot:Find(ChapterCell.Line2Name(slot1.row, slot1.column)).position, slot2)
 end
 
-function slot0.cameraFocus(slot0, slot1, slot2)
+slot0.cameraFocus = function(slot0, slot1, slot2)
 	slot5 = slot0._tf
 	slot5 = slot5:Find(ChapterConst.PlaneName)
 
@@ -134,7 +134,7 @@ function slot0.cameraFocus(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.PlayChampionSubmarineAnimation(slot0, slot1, slot2, slot3)
+slot0.PlayChampionSubmarineAnimation = function(slot0, slot1, slot2, slot3)
 	if not slot0.contextData.chapterVO:getChampionIndex(slot1.row, slot1.column) or slot5 <= 0 then
 		if slot3 then
 			slot3()
@@ -154,7 +154,7 @@ function slot0.PlayChampionSubmarineAnimation(slot0, slot1, slot2, slot3)
 	slot0:PlaySubAnimation(slot6, slot2, slot3)
 end
 
-function slot0.shakeCell(slot0, slot1, slot2)
+slot0.shakeCell = function(slot0, slot1, slot2)
 	slot3 = slot0.contextData.chapterVO
 	slot4 = nil
 	slot6 = slot3:getChapterCell(slot1.row, slot1.column)
@@ -188,7 +188,7 @@ function slot0.shakeCell(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.PlayShellFx(slot0, slot1, slot2)
+slot0.PlayShellFx = function(slot0, slot1, slot2)
 	slot4 = slot0.cellRoot
 	slot4 = slot4:Find(ChapterCell.Line2Name(slot1.row, slot1.column))
 	slot5 = slot4:Find(ChapterConst.ChildAttachment)
@@ -222,7 +222,7 @@ function slot0.PlayShellFx(slot0, slot1, slot2)
 	})
 end
 
-function slot0.PlayMissileExplodAnim(slot0, slot1, slot2)
+slot0.PlayMissileExplodAnim = function(slot0, slot1, slot2)
 	slot4 = slot0.cellRoot
 	slot4 = slot4:Find(ChapterCell.Line2Name(slot1.row, slot1.column))
 	slot5 = slot4:Find(ChapterConst.ChildAttachment)
@@ -297,11 +297,11 @@ function slot0.PlayMissileExplodAnim(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.PlaySonarDetectAnim(slot0, slot1, slot2)
+slot0.PlaySonarDetectAnim = function(slot0, slot1, slot2)
 	existCall(slot2)
 end
 
-function slot0.PlayAttachmentEffect(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.PlayAttachmentEffect = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.cellRoot:Find(ChapterCell.Line2Name(slot1, slot2)) then
 		existCall(slot5)
 
@@ -311,7 +311,7 @@ function slot0.PlayAttachmentEffect(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:PlayParticleSystem(slot3, slot7:Find(ChapterConst.ChildAttachment), slot4, slot5)
 end
 
-function slot0.PlayParticleSystem(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayParticleSystem = function(slot0, slot1, slot2, slot3, slot4)
 	warning(slot1 or "NIL")
 	slot0.loader:GetPrefab("effect/" .. slot1, slot1, function (slot0)
 		setParent(slot0, uv0)

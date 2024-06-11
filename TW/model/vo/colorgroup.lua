@@ -4,7 +4,7 @@ slot0.StateColoring = 1
 slot0.StateFinish = 2
 slot0.StateAchieved = 3
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1
 	slot0.configId = slot0.id
 	slot0.drops = {}
@@ -20,39 +20,39 @@ function slot0.Ctor(slot0, slot1)
 	end)
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_coloring_template
 end
 
-function slot0.getState(slot0)
+slot0.getState = function(slot0)
 	return slot0.state
 end
 
-function slot0.setState(slot0, slot1)
+slot0.setState = function(slot0, slot1)
 	slot0.state = slot1
 end
 
-function slot0.getHasAward(slot0)
+slot0.getHasAward = function(slot0)
 	return slot0.hasAward
 end
 
-function slot0.setHasAward(slot0, slot1)
+slot0.setHasAward = function(slot0, slot1)
 	slot0.hasAward = slot1
 end
 
-function slot0.getDrops(slot0)
+slot0.getDrops = function(slot0)
 	return slot0.drops
 end
 
-function slot0.setDrops(slot0, slot1)
+slot0.setDrops = function(slot0, slot1)
 	slot0.drops = slot1
 end
 
-function slot0.getFill(slot0, slot1, slot2)
+slot0.getFill = function(slot0, slot1, slot2)
 	return slot0.fills[slot1 .. "_" .. slot2]
 end
 
-function slot0.setFill(slot0, slot1, slot2, slot3)
+slot0.setFill = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1 .. "_" .. slot2
 
 	if slot3 == 0 then
@@ -62,15 +62,15 @@ function slot0.setFill(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.hasFill(slot0, slot1, slot2)
+slot0.hasFill = function(slot0, slot1, slot2)
 	return slot0:getFill(slot1, slot2) ~= nil
 end
 
-function slot0.clearFill(slot0)
+slot0.clearFill = function(slot0)
 	slot0.fills = {}
 end
 
-function slot0.isAllFill(slot0, slot1)
+slot0.isAllFill = function(slot0, slot1)
 	if slot0:canBeCustomised() then
 		return false
 	end
@@ -84,23 +84,23 @@ function slot0.isAllFill(slot0, slot1)
 	return true
 end
 
-function slot0.getCell(slot0, slot1, slot2)
+slot0.getCell = function(slot0, slot1, slot2)
 	return slot0.cells[slot1 .. "_" .. slot2]
 end
 
-function slot0.setCell(slot0, slot1, slot2, slot3)
+slot0.setCell = function(slot0, slot1, slot2, slot3)
 	slot0.cells[slot1 .. "_" .. slot2] = ColorCell.New(slot1, slot2, slot3)
 end
 
-function slot0.hasCell(slot0, slot1, slot2)
+slot0.hasCell = function(slot0, slot1, slot2)
 	return slot0:getCell(slot1, slot2) ~= nil
 end
 
-function slot0.canBeCustomised(slot0)
+slot0.canBeCustomised = function(slot0)
 	return slot0:getConfig("blank") == 1
 end
 
-function slot0.GetAABB(slot0)
+slot0.GetAABB = function(slot0)
 	slot1 = 1000
 	slot2 = 1000
 	slot3 = 0
@@ -118,7 +118,7 @@ function slot0.GetAABB(slot0)
 	return Vector2(slot1, slot2), Vector2(slot3, slot4)
 end
 
-function slot0.HasItem2Fill(slot0, slot1)
+slot0.HasItem2Fill = function(slot0, slot1)
 	slot2 = _.map(slot0:getConfig("color_id_list"), function (slot0)
 		return uv0[slot0] or 0
 	end)
@@ -136,7 +136,7 @@ function slot0.HasItem2Fill(slot0, slot1)
 	return false
 end
 
-function slot0.HasEnoughItem2FillAll(slot0, slot1)
+slot0.HasEnoughItem2FillAll = function(slot0, slot1)
 	slot2 = _.map(slot0:getConfig("color_id_list"), function (slot0)
 		return uv0[slot0] or 0
 	end)

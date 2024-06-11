@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"닌자의 길\n\n<size=45>제6 구축함대의 일상 - 하</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "이카즈치의 초대를 받고, 이카즈치와 이나즈마, 그리고 아카츠키와 함께 롱 아일랜드에게 빌려 온 격투 게임을 플레이했다.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "이카즈치의 초대를 받고, 이카즈치와 이나즈마, 그리고 아카츠키와 함께 롱 아일랜드에게 빌려 온 격투 게임을 플레이했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "어라라?! 당했군!",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "좋아, 간다-!",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			say = "좋아, 간다-!",
 			flashN = {
 				color = {
 					1,
@@ -137,13 +137,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "→↘↓↙←→+BD・↓+C・C・↓↙←→+CD、↘←↙↓↘→←↓↙+BC、→↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P！",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			say = "→↘↓↙←→+BD・↓+C・C・↓↙←→+CD、↘←↙↓↘→←↓↙+BC、→↓←＋P＋G→←＋P＋G→←＋P＋G←↓→↑←＋P＋G↓→←＋P！",
 			flashN = {
 				color = {
 					1,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "KO패. 또 이카즈치와 이나즈마에게 져버렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "아카츠키와 함께 이나즈마에게 도전한 결과는 0:10, 완패였다.",
 			typewriter = {
 				speed = 0.05,
@@ -254,15 +254,15 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#92fc63",
 			say = "하아…… 그렇구나! 게임은 재밌구나!",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "너무 빠지면 좋지 않아요……아카츠키 언니도 이카즈치에게 말씀해주세요.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "너무 빠지면 좋지 않아요……아카츠키 언니도 이카즈치에게 말씀해주세요.",
+			actor = 301120,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#92fc63",
 			say = "괜찮아요. 모르는 편이 좋을 때도 있다고 이나즈마는 생각해요. 지휘관 씨도 그렇게 생각 안 하세요?",
 			typewriter = {
 				speed = 0.05,
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "그런가? ……좀 지쳤으니, 먼저 돌아갈게……",
 			typewriter = {
 				speed = 0.05,
@@ -425,10 +425,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 1,
 					x = 1500,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "이나즈마의 위로는 효과가 없는 것 같다.",
 			typewriter = {
 				speed = 0.05,

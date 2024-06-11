@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU28",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900238,
 			nameColor = "#ffa500",
 			side = 2,
-			bgm = "story-french2",
 			dir = 1,
 			say = "「嘘、裏切り、偽善、全て変わらない……」",
+			bgm = "story-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "二人共アルジェリーから離れて！！",
 			effects = {
 				{
@@ -107,9 +107,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 901030,
 			nameColor = "#ffff4d",
-			dir = 1,
 			say = "ひ、ひゃぁい！？",
 			effects = {
 				{
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 3,
 			nameColor = "#ffff4d",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "了解！これはちょっと楽しそう…じゃなくて、やばい状況だわね…",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "（昔、鉄血がアイリス・サディアとの三方交渉の中で、いくつかの技術供与を約束していました）",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "（サディアにはセイレーン技術の量産艦だったと聞きましたけど、ヴィシアのものはいくら本部と審判廷を使ってもその正体が掴めなかった）",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "（それが分かったのはつい最近、ジャン・バールの安否が確認できてから――あのル・ファンタスク級の子がもたらしてきた情報――）",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "（聖堂の「秘蹟」に、鉄血からの技術供与の成果物――「キューブ」が含まれている。そしてそれがとてつもなく危険であること）",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "イラストリアスさん、あの箱は「秘蹟」ではなく、「秘蹟」を実現できる、鉄血からもたらされた「メンタルキューブ」です",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "ビスマルクさん…詳細は存じませんが、もし同じくあのようなキューブが危害をもたらしたというのでしたら、アルジェリーを絶対に止めなければなりません",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "この聖堂の伝承の「秘蹟」が実現可能だというのなら、次はすべてを焼き尽くす「第三の秘蹟」が来るはず…！",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "――でしたら、代わりに聖堂を破壊してください。あの黒いキューブのすべてが「秘蹟」に基づいているというのでしたら",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "聖堂を破壊する事自体は力技でなんとかなりますが、あの「神穹の壁」があって、更にアルジェリーさんも邪魔してくるとなると――",
 			typewriter = {
 				speed = 0.05,
@@ -442,10 +442,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "――――！",
 			soundeffect = "event:/battle/boom2",
+			dir = 1,
+			say = "――――！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それは規格外の砲撃。黒い光に包まれ、アルジェリーとは思えない巨大な力を振るうモノが、アイリス・ロイヤル連合艦隊を襲う。",
 			typewriter = {
 				speed = 0.05,
@@ -509,8 +509,8 @@ return {
 			expression = 3,
 			nameColor = "#ffff4d",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "アルジェリー？！いくらなんでも反則すぎるよそれ！",
 			typewriter = {
 				speed = 0.05,
@@ -524,9 +524,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 902010,
 			nameColor = "#ffff4d",
-			dir = 1,
 			say = "リシュリュー、あたしたちは何をすればいい？アルジェリーを何とかしないと全員仲良くあの世行きよ！",
 			typewriter = {
 				speed = 0.05,
@@ -538,8 +538,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -551,8 +551,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "私が――",
 			typewriter = {
 				speed = 0.05,
@@ -567,8 +567,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "アルジェリーさんは私が引きつけます！リシュリューさんたちは火力を聖堂に集中してください！",
 			typewriter = {
 				speed = 0.05,
@@ -583,8 +583,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "ジャンヌ！？一人では危険です！せめてベアルンたちも一緒に…",
 			typewriter = {
 				speed = 0.05,
@@ -596,8 +596,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -628,8 +628,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -644,8 +644,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -660,8 +660,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -676,8 +676,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -692,8 +692,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -708,11 +708,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_qiongding_4",
-			actorName = "リシュリュー",
 			dir = 1,
+			actorName = "リシュリュー",
 			say = "ジャンヌ！",
 			dialogShake = {
 				speed = 0.09,
@@ -729,8 +729,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_4",
 			nameColor = "#a9f548",
 			dir = 1,

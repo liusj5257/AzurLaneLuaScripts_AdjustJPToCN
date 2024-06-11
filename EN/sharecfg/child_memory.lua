@@ -2,152 +2,152 @@ pg = pg or {}
 pg.child_memory = {
 	[101] = {
 		id = 101,
-		pic = "bg_project_tb_cg1",
 		performance = 183,
+		pic = "bg_project_tb_cg1",
 		desc = "First Meeting, Or Reunion"
 	},
 	[102] = {
 		id = 102,
-		pic = "bg_project_tb_cg2",
 		performance = 184,
+		pic = "bg_project_tb_cg2",
 		desc = "Who's Feeding Who?"
 	},
 	[103] = {
 		id = 103,
-		pic = "bg_project_tb_cg3",
 		performance = 185,
+		pic = "bg_project_tb_cg3",
 		desc = "Good Night, Sweet Dreams 1"
 	},
 	[104] = {
 		id = 104,
-		pic = "bg_project_tb_cg4",
 		performance = 186,
+		pic = "bg_project_tb_cg4",
 		desc = "Good Night, Sweet Dreams 2"
 	},
 	[105] = {
 		id = 105,
-		pic = "bg_project_tb_cg5",
 		performance = 187,
+		pic = "bg_project_tb_cg5",
 		desc = "I Can Do It Myself!"
 	},
 	[106] = {
 		id = 106,
-		pic = "bg_project_tb_cg6",
 		performance = 188,
+		pic = "bg_project_tb_cg6",
 		desc = "Aquarium Visit"
 	},
 	[107] = {
 		id = 107,
-		pic = "bg_project_tb_cg7",
 		performance = 189,
+		pic = "bg_project_tb_cg7",
 		desc = "Starting School"
 	},
 	[108] = {
 		id = 108,
-		pic = "bg_project_tb_cg8",
 		performance = 190,
+		pic = "bg_project_tb_cg8",
 		desc = "What It Means to Be Cute"
 	},
 	[109] = {
 		id = 109,
-		pic = "bg_project_tb_cg9",
 		performance = 191,
+		pic = "bg_project_tb_cg9",
 		desc = "Warmup Exercises"
 	},
 	[110] = {
 		id = 110,
-		pic = "bg_project_tb_cg10",
 		performance = 192,
+		pic = "bg_project_tb_cg10",
 		desc = "Allowance Tug of War"
 	},
 	[111] = {
 		id = 111,
-		pic = "bg_project_tb_cg11",
 		performance = 193,
+		pic = "bg_project_tb_cg11",
 		desc = "Summer Festival Fireworks"
 	},
 	[112] = {
 		id = 112,
-		pic = "bg_project_tb_cg12",
 		performance = 194,
+		pic = "bg_project_tb_cg12",
 		desc = "Who Let Her Cook?"
 	},
 	[113] = {
 		id = 113,
-		pic = "bg_project_tb_cg13",
 		performance = 195,
+		pic = "bg_project_tb_cg13",
 		desc = "Studying (is) Hard"
 	},
 	[114] = {
 		id = 114,
-		pic = "bg_project_tb_cg14",
 		performance = 196,
+		pic = "bg_project_tb_cg14",
 		desc = "A Beautiful Moment 1"
 	},
 	[115] = {
 		id = 115,
-		pic = "bg_project_tb_cg15",
 		performance = 197,
+		pic = "bg_project_tb_cg15",
 		desc = "A Beautiful Moment 2"
 	},
 	[116] = {
 		id = 116,
-		pic = "bg_project_tb_cg16",
 		performance = 198,
+		pic = "bg_project_tb_cg16",
 		desc = "A Beautiful Moment 3"
 	},
 	[117] = {
 		id = 117,
-		pic = "bg_project_tb_cg17",
 		performance = 199,
+		pic = "bg_project_tb_cg17",
 		desc = "Christmas with You 1"
 	},
 	[118] = {
 		id = 118,
-		pic = "bg_project_tb_cg18",
 		performance = 200,
+		pic = "bg_project_tb_cg18",
 		desc = "Christmas with You 2"
 	},
 	[119] = {
 		id = 119,
-		pic = "bg_project_tb_cg19",
 		performance = 201,
+		pic = "bg_project_tb_cg19",
 		desc = "Christmas with You 3"
 	},
 	[120] = {
 		id = 120,
-		pic = "bg_project_tb_cg20",
 		performance = 202,
+		pic = "bg_project_tb_cg20",
 		desc = "Hot Times in the Hot Springs 1"
 	},
 	[121] = {
 		id = 121,
-		pic = "bg_project_tb_cg21",
 		performance = 203,
+		pic = "bg_project_tb_cg21",
 		desc = "Hot Times in the Hot Springs 2"
 	},
 	[122] = {
 		id = 122,
-		pic = "bg_project_tb_cg22",
 		performance = 204,
+		pic = "bg_project_tb_cg22",
 		desc = "Hot Times in the Hot Springs 3"
 	},
 	[123] = {
 		id = 123,
-		pic = "bg_project_tb_cg23",
 		performance = 205,
+		pic = "bg_project_tb_cg23",
 		desc = "Let Us Dance 1"
 	},
 	[124] = {
 		id = 124,
-		pic = "bg_project_tb_cg24",
 		performance = 206,
+		pic = "bg_project_tb_cg24",
 		desc = "Let Us Dance 2"
 	},
 	[125] = {
 		id = 125,
-		pic = "bg_project_tb_cg25",
 		performance = 207,
+		pic = "bg_project_tb_cg25",
 		desc = "Let Us Dance 3"
 	},
 	all = {

@@ -1,10 +1,10 @@
 slot0 = class("GuildBossRankPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildBossRankPage"
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot2 = slot0.transform
 	slot2 = slot2:Find("numer")
 	slot2 = slot0.transform
@@ -24,7 +24,7 @@ function slot1(slot0)
 	}
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.scrollrect = slot0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
 	slot0.closeBtn = slot0:findTF("frame/close")
 
@@ -33,7 +33,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/titles/damage"), i18n("guild_total_damage"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -41,26 +41,26 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
 	slot0.cards = {}
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot0.cards[slot1] = uv0(slot1)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot0.cards[slot2]:Update(slot1 + 1, slot0.ranks[slot1 + 1])
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.ranks = slot1
@@ -68,7 +68,7 @@ function slot0.Show(slot0, slot1)
 	slot0.scrollrect:SetTotalCount(#slot1)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

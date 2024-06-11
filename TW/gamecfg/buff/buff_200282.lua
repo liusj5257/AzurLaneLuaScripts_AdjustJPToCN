@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 反噬结算",
 	time = 0,
-	color = "blue",
+	name = "2023英系活动 EX 反噬结算",
+	init_effect = "",
+	id = 200282,
 	picture = "",
 	desc = "",
 	stack = 99,
-	id = 200282,
+	color = "blue",
 	icon = 200282,
 	last_effect = "",
 	effect_list = {

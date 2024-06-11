@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」净化篇\n\n<size=45>一 随机单词生成器</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			stopbgm = true,
 			bgm = "story-1",
 			actor = 10400010,
-			stopbgm = true,
+			nameColor = "#a9f548",
+			bgName = "bg_story_outdoor",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,8 +73,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "啊，{namecode:6}酱！我刚在清除随机单词生成器的病毒呢",
 			typewriter = {
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "嗯～～果然清除病毒很困难呢",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "谢谢！总算把病毒消灭了！就以这个势头把病毒全部清除掉吧！",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "哦哦，得到“Pt-绊”了！这就是那个吧，惯例的那玩意儿，靠这个就可以换到各种活动限定道具了吧♪",
 			typewriter = {
 				speed = 0.05,
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "好～要换什么呢？个人觉得“晃悠悠”挺好的呢～",
 			typewriter = {
 				speed = 0.05,
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "{namecode:14}，想要“智慧模块”",
 			typewriter = {
 				speed = 0.05,
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "{namecode:13}想要更多的金色科技箱呢～当然不要涂色的那种！",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -346,12 +346,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "真不错呢！就这个势头努力消除病毒，赚取更多的“Pt-绊”吧！",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "当然知道啦！毕竟我在原来的世界也是指挥官嘛！可是经历过无数激烈的战斗的哦？",
 			typewriter = {
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "诶诶？爱酱也和“指挥官”一样吗！？",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "爱酱的真实身份竟然是“指挥官”…太惊人了",
 			typewriter = {
 				speed = 0.05,
@@ -428,9 +428,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "嘿～！总之Pt-绊是非常重要的东西就对啦，加油收集吧！",
 			typewriter = {
@@ -443,9 +443,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "（咔嚓）",
 			flashN = {
 				color = {
@@ -480,8 +480,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "啊，谁偷偷拍照了！？",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "天才！？没、没错！",
 			typewriter = {
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -540,8 +540,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "我就是坊间盛传的智能超级AI绊爱！请多指教咯！",
 			typewriter = {
@@ -589,8 +589,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "诶，拉菲酱…是这样吗！？",
 			typewriter = {
@@ -670,8 +670,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "真是的～拿妳没办法，要拍得可爱一点哦！",
 			typewriter = {
@@ -684,12 +684,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101050,
+			nameColor = "#a9f548",
 			say = "交给我吧～！",
 			typewriter = {
 				speed = 0.05,

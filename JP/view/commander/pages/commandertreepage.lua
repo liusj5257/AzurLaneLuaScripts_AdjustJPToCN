@@ -1,10 +1,10 @@
 slot0 = class("CommanderTreePage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderTreeUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.treePanel = slot0._tf
 	slot0.treeList = UIItemList.New(slot0:findTF("bg/frame/bg/talents", slot0.treePanel), slot0:findTF("bg/frame/bg/talents/telent", slot0.treePanel))
 	slot0.treeTalentDesTxt = slot0.treePanel:Find("bg/frame/bg/desc/Text"):GetComponent(typeof(Text))
@@ -20,11 +20,11 @@ function slot0.OnInit(slot0)
 	setText(slot0._tf:Find("Text"), i18n("commander_choice_talent_4"))
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	setActive(slot0.treePanel, true)
 	slot0.treePanel:SetAsLastSibling()
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		uv0.treeTalentDesTxt.text = slot0:getConfig("desc")
 	end
 
@@ -53,16 +53,16 @@ function slot0.Show(slot0, slot1, slot2)
 	})
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:closeTreePanel()
 end
 
-function slot0.closeTreePanel(slot0)
+slot0.closeTreePanel = function(slot0)
 	setActive(slot0.treePanel, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

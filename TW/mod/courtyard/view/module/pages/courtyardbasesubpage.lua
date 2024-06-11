@@ -1,13 +1,13 @@
 slot0 = class("CourtYardBaseSubPage")
 slot0.STATES = {
+	LOADED = 3,
 	DESTROY = 5,
-	NONE = 1,
 	LOADING = 2,
 	INITED = 4,
-	LOADED = 3
+	NONE = 1
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.contextData = slot2
 	slot0.parent = slot1
 	slot0._parentTf = slot1._tf
@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._funcQueue = {}
 end
 
-function slot0.Load(slot0)
+slot0.Load = function(slot0)
 	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
@@ -40,7 +40,7 @@ function slot0.Load(slot0)
 	end)
 end
 
-function slot0.Loaded(slot0, slot1)
+slot0.Loaded = function(slot0, slot1)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if slot0._state ~= uv0.STATES.LOADING then
@@ -56,7 +56,7 @@ function slot0.Loaded(slot0, slot1)
 	slot0:OnLoaded()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	if slot0._state ~= uv0.STATES.LOADED then
 		return
 	end
@@ -67,7 +67,7 @@ function slot0.Init(slot0)
 	slot0:HandleFuncQueue()
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	if slot0._state == uv0.STATES.DESTROY then
 		return
 	end
@@ -94,7 +94,7 @@ function slot0.Destroy(slot0)
 	end
 end
 
-function slot0.HandleFuncQueue(slot0)
+slot0.HandleFuncQueue = function(slot0)
 	if slot0._state == uv0.STATES.INITED then
 		while #slot0._funcQueue > 0 do
 			slot1 = table.remove(slot0._funcQueue, 1)
@@ -104,11 +104,11 @@ function slot0.HandleFuncQueue(slot0)
 	end
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0._state = uv0.STATES.NONE
 end
 
-function slot0.ActionInvoke(slot0, slot1, ...)
+slot0.ActionInvoke = function(slot0, slot1, ...)
 	assert(slot0[slot1], "func not exist >>>" .. slot1)
 
 	slot0._funcQueue[#slot0._funcQueue + 1] = {
@@ -124,7 +124,7 @@ function slot0.ActionInvoke(slot0, slot1, ...)
 	slot0:HandleFuncQueue()
 end
 
-function slot0.CallbackInvoke(slot0, slot1, ...)
+slot0.CallbackInvoke = function(slot0, slot1, ...)
 	slot0._funcQueue[#slot0._funcQueue + 1] = {
 		func = slot1,
 		params = packEx(...)
@@ -133,42 +133,42 @@ function slot0.CallbackInvoke(slot0, slot1, ...)
 	slot0:HandleFuncQueue()
 end
 
-function slot0.ExecuteAction(slot0, slot1, ...)
+slot0.ExecuteAction = function(slot0, slot1, ...)
 	slot0:Load()
 	slot0:ActionInvoke(slot1, ...)
 end
 
-function slot0.GetLoaded(slot0)
+slot0.GetLoaded = function(slot0)
 	return uv0.STATES.LOADED <= slot0._state
 end
 
-function slot0.CheckState(slot0, slot1)
+slot0.CheckState = function(slot0, slot1)
 	return slot0._state == slot1
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.isShowing(slot0)
+slot0.isShowing = function(slot0)
 	return slot0._tf and isActive(slot0._tf)
 end
 
-function slot0.Emit(slot0, slot1, ...)
+slot0.Emit = function(slot0, slot1, ...)
 	slot0.parent:Emit(slot1, ...)
 end
 
-function slot0.findTF(slot0, slot1, slot2)
+slot0.findTF = function(slot0, slot1, slot2)
 	assert(slot0._tf, "transform should exist")
 
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-function slot0.getTpl(slot0, slot1, slot2)
+slot0.getTpl = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF(slot1, slot2)
 
 	slot3:SetParent(slot0._tf, false)
@@ -177,17 +177,17 @@ function slot0.getTpl(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return nil
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

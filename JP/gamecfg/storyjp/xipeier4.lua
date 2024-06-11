@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIPEIER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIPEIER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"幸せテンプレート\n\n<size=45>四 潮風香るツーリング</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "今より少し前の事──",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "今より少し前の事──",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "公務のためヒッパーと二手に分かれて出先に急行したのだが、帰りにヒッパーの寄り道に付き合うことになった。",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "はあ～っ、たまには運転も楽しいわね！少し疲れたし、休憩にするわ。あそこに停めるわよ",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 40,
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "ふう～っ、いい眺めだわ。海が一望できるじゃない。戦いに出る海と違って……こうして見る海は綺麗よね～",
 			typewriter = {
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "海岸線を走るのって、ほんっと爽快！",
 			typewriter = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "ずっとかっ飛ばしていたからだろうか、ヒッパーはテンションが上がっているらしい。",
 			typewriter = {
 				speed = 0.05,
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "まったく、秘書艦って大変だわね。こういう堅苦しい行事ばっかりで、肩が凝ったっての",
 			typewriter = {
@@ -144,15 +144,15 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -30,
+					type = "move",
 					delay = 0,
 					dur = 0.2,
 					x = 0
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "母港に帰ったら、思いっきり気分転換したいわね。この間ヴィシアの子に楽器を教えてくれって言われたし",
 			typewriter = {
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "…なに？あんたも聴いてみたいって？別に聞かせてやってもいいわよ？",
 			typewriter = {
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "テンションが高いからか、いつもより柔らかい雰囲気だ",
 			typewriter = {
 				speed = 0.05,
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "それにしても、あんたって意外とやるときはやるのよね。私がいなきゃ一杯一杯に見える時もあるってのに……",
 			typewriter = {
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "普段からそうしてもらえると、秘書艦の私も助かるっての。でもまあ、今日の所は素直に褒めてあげてもいいわね！お疲れ様",
 			typewriter = {
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "……ねえあんた、聞いてるの？",
 			typewriter = {
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "へっ……バ、バカ！急になにを言い出すのよっ、もう！",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.1,
 					x = 0,
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "別に、照れてないっての！あんたが変な事言うから……！",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "普段より、何倍も顔の赤いヒッパーが印象的だった……",
 			typewriter = {
 				speed = 0.05,

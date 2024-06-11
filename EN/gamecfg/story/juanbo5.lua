@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUANBO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUANBO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Beaming Smile!\n\n<size=45>Third Time's The Charm!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "All right, it's time for a break.",
 			typewriter = {
 				speed = 0.05,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 301800,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301800,
+			nameColor = "#a9f548",
 			say = "This time, you see, I brought a secret weapon! Tadah!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -106,9 +106,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She produces a small wooden box out of nowhere, then places it next to my chair.",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "There, all set up!",
 			typewriter = {
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Makinami then hops onto the little box.",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "You just stay put like that, Commander!",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Heehee, I hope you're ready for this!",
 			typewriter = {
@@ -185,9 +185,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Then it begins. She starts... patting me on the head.",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "All this work must be hard on you, huh~? A little headpatting ought to relieve some stress~",
 			typewriter = {
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Huh...? You've built up resistance to *this* too?",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Kongou and Haruna say I look super happy and smile when they pat me like this... So why won't it work on you?",
 			typewriter = {
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 301800,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301800,
+			nameColor = "#a9f548",
 			say = "I don't get it... How about you pat *me* then, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Ahh, hehehe~ This feels so nice, hehehe~",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "I love this~ Hehehe~",
 			typewriter = {
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Looks like Kongou and Haruna were totally right.",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Hehehe... Huh? Why'd you stop? I haven't had enough headpatting!",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Wait, why were you even patting my head in the first place?",
 			typewriter = {
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -413,8 +413,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "...Oh, right! I was trying to get you to smile, but instead *you* made *me* smile...",
 			typewriter = {
@@ -430,8 +430,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Dang it, I failed again!",
 			typewriter = {
@@ -444,9 +444,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Despite her failure to achieve what she set out to do, her expression is still beaming with joy from being headpatted.",
 			typewriter = {
 				speed = 0.05,

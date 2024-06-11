@@ -4,15 +4,15 @@ slot0.Battle.BattleBuffAddAircraftTag = class("BattleBuffAddAircraftTag", slot0.
 slot0.Battle.BattleBuffAddAircraftTag.__name = "BattleBuffAddAircraftTag"
 slot1 = slot0.Battle.BattleBuffAddAircraftTag
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._labelTag = slot0._tempData.arg_list.tag_list
 end
 
-function slot1.onAircraftCreate(slot0, slot1, slot2, slot3)
+slot1.onAircraftCreate = function(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end

@@ -12,60 +12,60 @@ slot0.MODE_TYPE = {
 	BATTLE = 2
 }
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_single_event
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 end
 
-function slot0.IsMain(slot0)
+slot0.IsMain = function(slot0)
 	return slot0:getConfig("type") == uv0.EVENT_TYPE.MAIN
 end
 
-function slot0.IsDaily(slot0)
+slot0.IsDaily = function(slot0)
 	return slot0:getConfig("type") == uv0.EVENT_TYPE.DAILY
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.GetMode(slot0)
+slot0.GetMode = function(slot0)
 	return slot0:getConfig("mode")
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetPos(slot0)
+slot0.GetPos = function(slot0)
 	return slot0:getConfig("pos")
 end
 
-function slot0.GetIconName(slot0)
+slot0.GetIconName = function(slot0)
 	return slot0:getConfig("icon")
 end
 
-function slot0.GetStoryType(slot0)
+slot0.GetStoryType = function(slot0)
 	return slot0:getConfig("story_type")
 end
 
-function slot0.GetStory(slot0)
+slot0.GetStory = function(slot0)
 	return slot0:getConfig("story")
 end
 
-function slot0.GetPreEventId(slot0)
+slot0.GetPreEventId = function(slot0)
 	return slot0:getConfig("pre_event")
 end
 
-function slot0.GetOptions(slot0)
+slot0.GetOptions = function(slot0)
 	return slot0:getConfig("options")
 end
 
-function slot0.GetMapOptions(slot0)
+slot0.GetMapOptions = function(slot0)
 	return slot0:getConfig("map_options")
 end
 

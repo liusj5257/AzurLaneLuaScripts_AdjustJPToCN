@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_165 = {}
 slot1 = slot0.word_template_165
 
-function temp()
+temp = function()
 	uv0["各"] = {
 		["种"] = {
 			["枪"] = {
@@ -58,7 +58,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["德"] = {
 		["版"] = {
 			P = {
@@ -86,7 +86,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["散"] = {
 		["弹"] = {
 			["枪"] = {
@@ -111,7 +111,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["力"] = {
 		["斯"] = {
 			["曼"] = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"기사의 맹세!\n\n<size=45>약속했어!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "U-556이 비서함 담당이 된 후 시간이 조금 흐른 무렵.",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "놀기만 하려던 첫날의 모습은 완전히 사라지고, 일상의 잡무 정도는 안심하고 맡길 수 있을 정도로 성장했다.",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "자, 오늘은 무엇을 가르칠까……",
 			typewriter = {
 				speed = 0.05,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오늘 U-556은 왠지… 기운이 없네?",
 			typewriter = {
 				speed = 0.05,
@@ -121,8 +121,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "아! 미안! 조금 생각할 게 있어서…… 오늘은 뭐 해?",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "비스마르크 언니! 놀러 왔어!",
 			effects = {
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
+			say = "U-556인가?",
 			side = 1,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "U-556인가?",
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "미안해, 지금은 로열 네이비와 회의를 해야해. 다음에 보자.",
 			typewriter = {
@@ -217,15 +217,15 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "비스마르크 언니, 지금 시간 있어…?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,10 +253,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_guild_red",
-			actor = 405010,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "앗……",
+			dir = 1,
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -290,8 +290,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "비스마르크 언니, 요새 매일 바빠서…",
 			effects = {
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "과연, 그래서 그런 거군.",
 			typewriter = {
 				speed = 0.05,
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그렇다면 내가 해줄 수 있는 건……",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "응? 지휘관…… 다음 주 비번인 날에 놀아주는 거야?",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,11 +381,11 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "저, 정말?",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "그럼 약속이야! 배신하면 안 돼!",
 			typewriter = {

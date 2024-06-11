@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"太陽のギャル\n\n<size=45>四　あまーい関係</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "学園にて",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "学園にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "――あー！マーブルヘッド！！いいところにいたよ、ちょっとこれ！",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "へ？どうしました――って、なんですかこのチョコレートの山は！？",
 			typewriter = {
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "わたし、今からダイエットに挑戦する！それは長いこと大切にとっておいたチョコレート",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "無理しないでくださいよー。前も似たようなこと言って失敗してたじゃないですかー",
 			typewriter = {
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "今回は絶対に成功するの！とにかく、それあげるから",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -181,8 +181,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "ちょっと――ああ、行ってしまいました……うーん、あたしもこんなに食べきれないし、コンコードにでもあげちゃおうかねー",
 			typewriter = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "あ！指揮官！おーいおーい！こっちですこっちー！",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "こちらに気づいたマーブルヘッドが声をかけてきた。",
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "……はっ！しまった、このままでは両手が塞がっていて指揮官に『だーれだ？』ができませんね",
 			typewriter = {
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "ほほー。その口調だともう間違えなさそうですね――まぁそんなことよりも、このチョコの山ですよ",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "さすがに一人では食べきれないので、指揮官も手伝ってもらえませんか？",
 			typewriter = {
@@ -308,14 +308,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 102270,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "――はぁー。口の中があまーい。大満足ですねー！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "ただの気分転換、か…ふむふむ",
 			typewriter = {
@@ -424,8 +424,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "てことで、ウォーキングついでに良ければ、あたしとデートに付き合ってくださいな",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

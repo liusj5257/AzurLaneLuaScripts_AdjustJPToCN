@@ -1,6 +1,6 @@
 slot0 = class("AnswerProxy", import(".NetProxy"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.scores = {}
 
 	slot0:on(26011, function (slot0)
@@ -12,15 +12,15 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.getScore(slot0, slot1)
+slot0.getScore = function(slot0, slot1)
 	return slot0.scores[slot1]
 end
 
-function slot0.setScore(slot0, slot1, slot2)
+slot0.setScore = function(slot0, slot1, slot2)
 	slot0.scores[slot1] = slot2 and math.clamp(slot2, 0, 100) or nil
 end
 
-function slot0.getAverage(slot0)
+slot0.getAverage = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -32,7 +32,7 @@ function slot0.getAverage(slot0)
 	return slot1 > 0 and slot2 / slot1
 end
 
-function slot0.isSubjectOpen(slot0, slot1, slot2)
+slot0.isSubjectOpen = function(slot0, slot1, slot2)
 	return slot1:getDayIndex() >= slot2 + 1
 end
 

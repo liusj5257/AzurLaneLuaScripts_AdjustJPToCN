@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 500
+					number = 500,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -52,8 +52,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 610
+					number = 610,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -79,8 +79,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 610
+					number = 610,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -90,8 +90,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 610
+					number = 610,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -112,8 +112,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 720
+					number = 720,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -139,8 +139,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 720
+					number = 720,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -150,8 +150,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 720
+					number = 720,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -172,8 +172,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -188,8 +188,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 830
+					number = 830,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -199,8 +199,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 830
+					number = 830,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -210,8 +210,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 830
+					number = 830,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -232,8 +232,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -248,8 +248,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 940
+					number = 940,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -259,8 +259,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 940
+					number = 940,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -270,8 +270,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 940
+					number = 940,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -292,8 +292,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -308,8 +308,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1050
+					number = 1050,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -319,8 +319,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1050
+					number = 1050,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -330,8 +330,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1050
+					number = 1050,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -352,8 +352,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -368,8 +368,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1160
+					number = 1160,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -379,8 +379,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1050
+					number = 1050,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -390,8 +390,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1050
+					number = 1050,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -412,8 +412,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -428,8 +428,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1270
+					number = 1270,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -439,8 +439,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1270
+					number = 1270,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -450,8 +450,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1270
+					number = 1270,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -472,8 +472,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -488,8 +488,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1380
+					number = 1380,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -499,8 +499,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1380
+					number = 1380,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -510,8 +510,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1380
+					number = 1380,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -532,8 +532,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
@@ -548,8 +548,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1500
+					number = 1500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -559,8 +559,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1500
+					number = 1500,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -570,8 +570,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1500
+					number = 1500,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -592,16 +592,16 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					skill_id = 1012942,
 					target = "TargetSelf",
+					skill_id = 1012942,
 					countType = 1012941
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "皇家黛朵",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 2,
@@ -623,8 +623,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -634,8 +634,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 500
+				number = 500,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -645,8 +645,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 500
+				number = 500,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -667,8 +667,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 1012942,
 				target = "TargetSelf",
+				skill_id = 1012942,
 				countType = 1012941
 			}
 		}

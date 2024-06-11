@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024偶像活动三期 欧根盾",
 	time = 0,
-	color = "yellow",
+	name = "2024偶像活动三期 欧根盾",
+	init_effect = "",
+	id = 200911,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200911,
+	color = "yellow",
 	last_effect = "",
 	effect_list = {
 		{
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200912,
-				target = "TargetSelf",
-				time = 25
+				time = 25,
+				target = "TargetSelf"
 			}
 		}
 	}

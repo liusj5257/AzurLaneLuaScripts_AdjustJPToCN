@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAILUNNA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAILUNNA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"スイート・デイは二人の雨模様\n\n<size=45>四 揺らめく灯火・下</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "やっと手に入れた明りを頼りに、ヘレナと一緒に仕事を片付けた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "やっと手に入れた明りを頼りに、ヘレナと一緒に仕事を片付けた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "さて…嵐は依然として弱まる気配がない。とりあえずヘレナと雑談することにした。",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "…何から話しましょうか？",
 			typewriter = {
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――ヘレナは何か好きなものはあるか？",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "好きなもの…SG…とか？",
 			typewriter = {
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――やはりSGか…もっと一般的なものなら、何が好き？",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "そうね…かわいい服、かな",
 			typewriter = {
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（今日のお礼に今度プレゼントを贈ろうか）",
 			typewriter = {
 				speed = 0.05,
@@ -157,9 +157,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――じゃあ苦手に思うものは？",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "苦手なもの…",
 			typewriter = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ヘレナは俯き、しばらくの間何も言わなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "…実は、戦闘がちょっと苦手なの…",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "傷つく仲間を見るたび、胸が張り裂けそうになって…",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "私がもっと強くなれれば、仲間が傷つくのをただ見ているだけの、無力な自分からお別れできるのに…",
 			typewriter = {
@@ -253,9 +253,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そう言うと、ヘレナはまた無言になった。",
 			typewriter = {
 				speed = 0.05,
@@ -267,9 +267,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "どうやら、質問をミスったようだ…",
 			typewriter = {
 				speed = 0.05,
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "デスクライトの明りを借りて、カップに2人分のお茶を注いだ。",
 			typewriter = {
 				speed = 0.05,
@@ -308,9 +308,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
 			optionFlag = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "わ、私に…？あ、ありがとう、指揮官",
 			typewriter = {
@@ -326,9 +326,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
 			optionFlag = 2,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "…ありがとう、指揮官",
 			typewriter = {
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "カップを手に持ったまま、ヘレナは長い間、窓の外を見つめながら考え込んでいた。",
 			typewriter = {
 				speed = 0.05,
@@ -355,9 +355,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "それから、何か覚悟を決めたように、真剣な顔でこちらを見つめて、こう尋ねた――",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +372,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "指揮官も、きっと苦手なことはあるでしょう？",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "苦手なことに対して、指揮官ならどうしているか知りたいわ",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "そして指揮官のように、頑張って乗り越えたい…",
 			typewriter = {
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "…え、乗り越えることに拘らなくても大丈夫、なの？",
 			typewriter = {
@@ -437,9 +437,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そう。ヘレナは自分のペースでやっていけばいい。",
 			typewriter = {
 				speed = 0.05,
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――それに、今日はヘレナのおかげで色々と助かった。まだちゃんとお礼を言ってなかったな",
 			typewriter = {
 				speed = 0.05,
@@ -465,9 +465,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "――ありがとう、ヘレナ。もう十分立派だよ",
 			typewriter = {
 				speed = 0.05,
@@ -482,8 +482,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "そ、そうなの…？",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "指揮官に認めてもらって、とても嬉しいわ",
 			typewriter = {

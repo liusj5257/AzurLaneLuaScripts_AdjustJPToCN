@@ -2,10 +2,10 @@ pg = pg or {}
 pg.SceneAnimMgr = singletonClass("SceneAnimMgr")
 slot0 = pg.SceneAnimMgr
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	print("initializing sceneanim manager...")
 	PoolMgr.GetInstance():GetUI("SceneAnimUI", true, function (slot0)
 		uv0._go = slot0
@@ -24,7 +24,7 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.SixthAnniversaryJPCoverGoScene(slot0, slot1)
+slot0.SixthAnniversaryJPCoverGoScene = function(slot0, slot1)
 	slot0.playing = true
 
 	setActive(slot0._tf, true)
@@ -52,7 +52,7 @@ function slot0.SixthAnniversaryJPCoverGoScene(slot0, slot1)
 	end)
 end
 
-function slot0.OtherWorldCoverGoScene(slot0, slot1, slot2)
+slot0.OtherWorldCoverGoScene = function(slot0, slot1, slot2)
 	slot0.playing = true
 
 	setActive(slot0._tf, true)
@@ -80,11 +80,38 @@ function slot0.OtherWorldCoverGoScene(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.IsPlaying(slot0)
+slot0.Dorm3DSceneChange = function(slot0, slot1)
+	setActive(slot0._tf, true)
+	PoolMgr.GetInstance():GetUI("SixthAnniversaryJPCoverUI", true, function (slot0)
+		slot1 = slot0.transform
+
+		setParent(slot1, uv0.container, false)
+
+		slot2 = slot1:Find("houshanyunwu"):GetComponent(typeof(SpineAnimUI))
+
+		slot2:SetActionCallBack(function (slot0)
+			if slot0 == "action" then
+				uv0:Pause()
+				uv1(function ()
+					uv0:Resume()
+				end)
+			elseif slot0 == "finish" then
+				PoolMgr.GetInstance():ReturnUI(uv2, uv3)
+
+				uv4.playing = nil
+
+				setActive(uv4._tf, false)
+			end
+		end)
+		slot2:SetAction("action", 0)
+	end)
+end
+
+slot0.IsPlaying = function(slot0)
 	return slot0.playing
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	setActive(slot0._tf, false)
 
 	slot0.playing = nil

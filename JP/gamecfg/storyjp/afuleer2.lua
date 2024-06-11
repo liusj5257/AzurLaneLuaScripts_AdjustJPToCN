@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"アヴローラと愉快な仲間たち\n\n<size=45>二、ノスタルジック</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "アヴローラから艦種連携演習の話を聞いた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "アヴローラから艦種連携演習の話を聞いた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,13 +82,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "アヴローラは透明の液体が入った2つのステンレスカップを持ってきた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "本場の飲み物……もしかして「アレ」か……",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "さっきカップに中身を注いだガラス瓶の上のラベルは、確か――",
 			typewriter = {
 				speed = 0.05,
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "指揮官、どうぞ",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……もし本当に「アレ」だとしたら、ここは――",
 			typewriter = {
 				speed = 0.05,
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "指揮官、大丈夫ですか…？",
 			typewriter = {
 				speed = 0.05,
@@ -325,12 +325,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "指揮官、大丈夫ですか…？",
 			typewriter = {
 				speed = 0.05,
@@ -374,15 +374,15 @@ return {
 			}
 		},
 		{
-			say = "アヴローラは落ち着いた口調で、北方連合の数々のエピソードを語りだした。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "アヴローラは落ち着いた口調で、北方連合の数々のエピソードを語りだした。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "個性豊かな仲間たちとのドタバタな日常",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -431,9 +431,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "セイレーンとの戦いにおける数々の出来事",
 			typewriter = {
 				speed = 0.05,
@@ -445,9 +445,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "白一色の北の景色と多彩な文化、人々の生活や風習――",
 			typewriter = {
 				speed = 0.05,
@@ -459,9 +459,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "次々と話題が変わっていくうちに、ウォッカの瓶がいつの間にか空っぽになっていた。",
 			typewriter = {
 				speed = 0.05,

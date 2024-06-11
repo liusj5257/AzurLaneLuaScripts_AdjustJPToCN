@@ -13,7 +13,7 @@ slot10 = class("BattleFleetRangeAntiAirUnit", slot0.Battle.BattleWeaponUnit)
 slot0.Battle.BattleFleetRangeAntiAirUnit = slot10
 slot10.__name = "BattleFleetRangeAntiAirUnit"
 
-function slot10.Ctor(slot0)
+slot10.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0._currentState = uv0.STATE_DISABLE
@@ -21,7 +21,7 @@ function slot10.Ctor(slot0)
 	slot0:init()
 end
 
-function slot10.init(slot0)
+slot10.init = function(slot0)
 	slot0._crewUnitList = {}
 	slot0._hitFXResIDList = {}
 	slot0._range = 0
@@ -56,7 +56,7 @@ function slot10.init(slot0)
 	slot0:ShiftBarrage(slot0._tmpData.barrage_ID)
 end
 
-function slot10.AppendCrewUnit(slot0, slot1)
+slot10.AppendCrewUnit = function(slot0, slot1)
 	if #slot1:GetFleetRangeAntiAirList() > 0 then
 		slot0._currentState = uv0.STATE_READY
 		slot0._crewUnitList[slot1] = slot2
@@ -65,7 +65,7 @@ function slot10.AppendCrewUnit(slot0, slot1)
 	end
 end
 
-function slot10.RemoveCrewUnit(slot0, slot1)
+slot10.RemoveCrewUnit = function(slot0, slot1)
 	if slot0._crewUnitList[slot1] then
 		if slot1 == slot0._host then
 			slot0._host:DetachFleetRangeAAWeapon()
@@ -77,7 +77,7 @@ function slot10.RemoveCrewUnit(slot0, slot1)
 	end
 end
 
-function slot10.FlushCrewUnit(slot0, slot1)
+slot10.FlushCrewUnit = function(slot0, slot1)
 	if #slot1:GetFleetRangeAntiAirList() <= 0 then
 		slot0:RemoveCrewUnit(slot1)
 	elseif slot0._crewUnitList[slot1] == nil then
@@ -89,7 +89,7 @@ function slot10.FlushCrewUnit(slot0, slot1)
 	end
 end
 
-function slot10.Spawn(slot0, slot1, slot2)
+slot10.Spawn = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot5 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, slot0:getAimPoint(slot2))
 
@@ -99,7 +99,7 @@ function slot10.Spawn(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot10.getAimPoint(slot0, slot1)
+slot10.getAimPoint = function(slot0, slot1)
 	slot2 = nil
 
 	if target then
@@ -113,23 +113,23 @@ function slot10.getAimPoint(slot0, slot1)
 	return slot2
 end
 
-function slot10.GetCrewUnitList(slot0)
+slot10.GetCrewUnitList = function(slot0)
 	return slot0._crewUnitList
 end
 
-function slot10.GetRange(slot0)
+slot10.GetRange = function(slot0)
 	return slot0._range
 end
 
-function slot10.GetAttackAngle(slot0)
+slot10.GetAttackAngle = function(slot0)
 	return slot0._aimAngle
 end
 
-function slot10.GetReloadTime(slot0)
+slot10.GetReloadTime = function(slot0)
 	return slot0._interval
 end
 
-function slot10.flush(slot0)
+slot10.flush = function(slot0)
 	slot0._range = 0
 	slot0._interval = 0
 	slot0._aimAngle = 0
@@ -179,8 +179,8 @@ function slot10.flush(slot0)
 	end
 end
 
-function slot10.DoAreaSplit(slot0, slot1)
-	function slot2(slot0)
+slot10.DoAreaSplit = function(slot0, slot1)
+	slot2 = function(slot0)
 		slot1 = {}
 		slot2 = uv0._dataProxy:GetAircraftList()
 
@@ -199,7 +199,7 @@ function slot10.DoAreaSplit(slot0, slot1)
 	end
 
 	for slot6, slot7 in pairs(slot0._crewUnitList) do
-		slot6:TriggerBuff(uv1.BuffEffectType.ON_ANTIAIR_FIRE, {})
+		slot6:TriggerBuff(uv1.BuffEffectType.ON_ANTIAIR_FIRE_FAR, {})
 		slot6:PlayFX(slot7[1]:GetTemplateData().fire_fx, true)
 	end
 
@@ -219,7 +219,7 @@ function slot10.DoAreaSplit(slot0, slot1)
 	slot0._dataProxy:RemoveBulletUnit(slot1:GetUniqueID())
 end
 
-function slot10.SwitchHost(slot0)
+slot10.SwitchHost = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0._crewUnitList) do
@@ -238,11 +238,11 @@ function slot10.SwitchHost(slot0)
 	slot0._host:AttachFleetRangeAAWeapon(slot0)
 end
 
-function slot10.GetFilteredList(slot0)
+slot10.GetFilteredList = function(slot0)
 	return slot0:FilterAngle(slot0:FilterRange(slot0:FilterTarget()))
 end
 
-function slot10.FilterTarget(slot0)
+slot10.FilterTarget = function(slot0)
 	slot2 = {}
 	slot3 = slot0._host:GetIFF()
 	slot4 = 1
@@ -257,16 +257,16 @@ function slot10.FilterTarget(slot0)
 	return slot2
 end
 
-function slot10.Update(slot0)
+slot10.Update = function(slot0)
 	if slot0._currentState ~= uv0.STATE_DISABLE then
 		uv0.super.Update(slot0)
 	end
 end
 
-function slot10.RemovePrecastTimer(slot0)
+slot10.RemovePrecastTimer = function(slot0)
 end
 
-function slot10.Dispose(slot0)
+slot10.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
 	slot0._crewUnitList = nil

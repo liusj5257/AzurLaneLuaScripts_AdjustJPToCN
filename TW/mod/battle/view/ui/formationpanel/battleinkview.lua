@@ -8,13 +8,13 @@ slot2.ANIMATION_STATE_INITIAL = "intial"
 slot2.ANIMATION_STATE_IDLE = "idle"
 slot2.ANIMATION_STATE_FINALE = "int"
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 
 	slot0:init()
 end
 
-function slot2.init(slot0)
+slot2.init = function(slot0)
 	slot0._tf = slot0._go.transform
 	slot0._hollowTpl = slot0._tf:Find("ink_tpl")
 	slot0._hollowContainer = slot0._tf:Find("container")
@@ -22,11 +22,11 @@ function slot2.init(slot0)
 	slot0._state = uv0.ANIMATION_STATE_IDLE
 end
 
-function slot2.IsActive(slot0)
+slot2.IsActive = function(slot0)
 	return slot0._isActive
 end
 
-function slot2.Update(slot0)
+slot2.Update = function(slot0)
 	for slot4, slot5 in pairs(slot0._unitHollowList) do
 		if slot4:IsAlive() then
 			slot5.hollow.position = uv0.CameraPosToUICamera(slot5.pos:Copy(slot4:GetPosition()) + Vector3(0, 0, 0))
@@ -36,7 +36,7 @@ function slot2.Update(slot0)
 	end
 end
 
-function slot2.SetActive(slot0, slot1, slot2)
+slot2.SetActive = function(slot0, slot1, slot2)
 	slot0._isActive = slot1
 
 	if slot1 then
@@ -63,7 +63,7 @@ function slot2.SetActive(slot0, slot1, slot2)
 	end
 end
 
-function slot2.AddHollow(slot0, slot1)
+slot2.AddHollow = function(slot0, slot1)
 	slot2 = slot1:GetAttrByName("blindedHorizon")
 
 	if slot0._unitHollowList[slot1] then
@@ -94,7 +94,7 @@ function slot2.AddHollow(slot0, slot1)
 	}
 end
 
-function slot2.RemoveHollow(slot0, slot1, slot2)
+slot2.RemoveHollow = function(slot0, slot1, slot2)
 	slot4 = slot0._unitHollowList[slot1].hollow.gameObject
 
 	LeanTween.cancel(slot4)
@@ -103,13 +103,13 @@ function slot2.RemoveHollow(slot0, slot1, slot2)
 	slot0._unitHollowList[slot1] = nil
 end
 
-function slot2.UpdateHollow(slot0, slot1)
+slot2.UpdateHollow = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0:AddHollow(slot6)
 	end
 end
 
-function slot2.doHollowScaleAnima(slot0, slot1, slot2, slot3)
+slot2.doHollowScaleAnima = function(slot0, slot1, slot2, slot3)
 	LeanTween.cancel(go(slot0))
 
 	slot5 = LeanTween.scale(slot0, Vector3(slot1, slot1, 0), slot2 or 0.5)
@@ -121,7 +121,7 @@ function slot2.doHollowScaleAnima(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	slot0:SetActive(false)
 
 	for slot4, slot5 in pairs(slot0._unitHollowList) do

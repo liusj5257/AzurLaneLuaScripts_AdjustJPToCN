@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_newyork",
-			actorName = "Communication",
 			dir = 1,
 			bgmDelay = 1,
-			say = "This is NY City. Requesting status report, over.",
 			bgm = "level02",
+			actorName = "Communication",
+			say = "This is NY City. Requesting status report, over.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Communication",
+			side = 1,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communication",
+			side = 2,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,15 +66,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_newyork",
-			actorName = "Communication",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "Communication",
 			say = "This is NY City. Requesting status report, over.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Communication",
+			side = 1,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communication",
+			side = 2,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Communication",
+			side = 1,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_newyork",
-			actorName = "Communication",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "Communication",
 			say = "This is NY City. Requesting status report, over.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communication",
+			side = 2,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communication",
+			side = 2,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communication",
+			side = 2,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communication",
+			side = 2,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communication",
+			side = 2,
 			bgName = "bg_story_newyork",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -260,14 +260,14 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_story_newyork",
 			stopbgm = true,
 			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actorName = "Communication",
 			say = "Bzzzzzt... Bzzzt...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,9 +283,9 @@ return {
 			bgName = "bg_story_newyork",
 			actorName = "Communication",
 			dir = 1,
+			soundeffect = "event:/ui/noice",
 			nameColor = "#a9f548",
 			say = "This is... encountered Sirens... the Canal Stronghold... requesting immediate...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,9 +301,9 @@ return {
 			bgName = "bg_story_newyork",
 			actorName = "Communication",
 			dir = 1,
+			soundeffect = "event:/ui/noice",
 			nameColor = "#a9f548",
 			say = "Repeat... urgent... requesting immediate...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>A stronghold sits upon the canal that links two great oceans.</size>",
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

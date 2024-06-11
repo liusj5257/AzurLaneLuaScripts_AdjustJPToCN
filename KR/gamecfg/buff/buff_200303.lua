@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动EX 恶魔开幕弹形态2",
 	time = 3.2,
-	color = "red",
+	name = "2022美系活动EX 恶魔开幕弹形态2",
+	init_effect = "",
+	id = 200303,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200303,
+	color = "red",
 	icon = 200303,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				time = 3,
 				skill_id = 200304,
+				time = 3,
+				maxTargetNumber = 0,
 				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
@@ -45,9 +45,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				minTargetNumber = 1,
-				time = 3,
 				skill_id = 200305,
+				time = 3,
+				minTargetNumber = 1,
 				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",

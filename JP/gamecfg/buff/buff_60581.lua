@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "花青素CyanidinBUFF",
 	time = 15,
-	color = "yellow",
+	name = "花青素CyanidinBUFF",
+	init_effect = "",
+	id = 60581,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60581,
+	color = "yellow",
 	icon = 60580,
 	last_effect = "Shield_1",
 	effect_list = {

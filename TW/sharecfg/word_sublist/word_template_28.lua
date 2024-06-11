@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_28 = {}
 slot1 = slot0.word_template_28
 
-function temp()
+temp = function()
 	uv0["热"] = {
 		["那"] = {
 			["亚"] = {
@@ -20,7 +20,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["花"] = {
 		["革"] = {
 			["命"] = {
@@ -124,7 +124,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["茉"] = {
 		["莉"] = {
 			["花"] = {
@@ -141,7 +141,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["牡"] = {
 		["丹"] = {
 			["花"] = {

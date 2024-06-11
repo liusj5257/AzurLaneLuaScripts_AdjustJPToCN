@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 90,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -64,9 +64,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 294301,
+							moveCast = true,
 							score = 0,
 							delay = 0,
-							moveCast = true,
 							affix = true,
 							corrdinate = {
 								-5,
@@ -79,19 +79,19 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 10,
 									switchTo = 1,
 									index = 0,
-									switchParam = 10,
+									switchType = 1,
 									setAI = 100030,
 									addWeapon = {
 										2013300
 									}
 								},
 								{
-									index = 1,
 									switchParam = 2,
 									switchTo = 2,
+									index = 1,
 									switchType = 1,
 									removeWeapon = {
 										2013300
@@ -101,9 +101,9 @@ return {
 									}
 								},
 								{
-									index = 2,
 									switchParam = 11.5,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									removeWeapon = {
 										2013320
@@ -115,9 +115,9 @@ return {
 									}
 								},
 								{
-									index = 3,
 									switchParam = 12,
 									switchTo = 4,
+									index = 3,
 									switchType = 1,
 									removeWeapon = {
 										2013350,
@@ -131,9 +131,9 @@ return {
 									}
 								},
 								{
-									index = 4,
 									switchParam = 2,
 									switchTo = 5,
+									index = 4,
 									switchType = 1,
 									removeWeapon = {
 										2013340,
@@ -145,9 +145,9 @@ return {
 									}
 								},
 								{
-									index = 5,
 									switchParam = 12,
 									switchTo = 6,
+									index = 5,
 									switchType = 1,
 									removeWeapon = {
 										2013321
@@ -159,9 +159,9 @@ return {
 									}
 								},
 								{
-									index = 6,
 									switchType = 1,
 									switchTo = 7,
+									index = 6,
 									switchParam = 0.5,
 									removeWeapon = {
 										2013300,
@@ -179,9 +179,9 @@ return {
 									}
 								},
 								{
-									index = 7,
 									switchType = 1,
 									switchTo = 8,
+									index = 7,
 									switchParam = 2,
 									addBuff = {
 										79012,
@@ -189,9 +189,9 @@ return {
 									}
 								},
 								{
-									index = 8,
 									switchParam = 15,
 									switchTo = 9,
+									index = 8,
 									switchType = 1,
 									removeWeapon = {
 										2013360,
@@ -206,10 +206,10 @@ return {
 									}
 								},
 								{
-									index = 9,
 									switchType = 1,
-									switchTo = 10,
 									switchParam = 16,
+									index = 9,
+									switchTo = 10,
 									removeWeapon = {
 										2013330,
 										2013530,
@@ -225,9 +225,9 @@ return {
 									}
 								},
 								{
-									index = 10,
 									switchType = 1,
 									switchTo = 8,
+									index = 10,
 									switchParam = 15,
 									removeWeapon = {
 										2013370,
@@ -243,8 +243,8 @@ return {
 							interval = 15,
 							onceNumber = 9,
 							formation = 20003,
-							delay = 1,
 							templateID = 2201000,
+							delay = 1,
 							totalNumber = 45,
 							weaponID = {},
 							attr = {
@@ -265,8 +265,8 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							prefab = "shandian_wuyun",
 							life_time = 45,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-40,
@@ -278,8 +278,8 @@ return {
 							}
 						},
 						{
-							prefab = "shandian_wuyun",
 							life_time = 45,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-30,
@@ -291,8 +291,8 @@ return {
 							}
 						},
 						{
-							prefab = "shandian_wuyun",
 							life_time = 45,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-50,
@@ -304,8 +304,8 @@ return {
 							}
 						},
 						{
-							prefab = "shandian_wuyun",
 							life_time = 45,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-60,
@@ -317,8 +317,8 @@ return {
 							}
 						},
 						{
-							prefab = "shandian_wuyun",
 							life_time = 45,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-20,
@@ -330,8 +330,8 @@ return {
 							}
 						},
 						{
-							delay = 0.6,
 							life_time = 7,
+							delay = 0.6,
 							behaviours = 10100,
 							coordinate = {
 								-68,
@@ -343,8 +343,8 @@ return {
 							}
 						},
 						{
-							delay = 0.5,
 							life_time = 7,
+							delay = 0.5,
 							behaviours = 10100,
 							coordinate = {
 								-66,
@@ -356,8 +356,8 @@ return {
 							}
 						},
 						{
-							delay = 0.4,
 							life_time = 7,
+							delay = 0.4,
 							behaviours = 10100,
 							coordinate = {
 								-58,
@@ -369,8 +369,8 @@ return {
 							}
 						},
 						{
-							delay = 0.3,
 							life_time = 7,
+							delay = 0.3,
 							behaviours = 10100,
 							coordinate = {
 								-40,
@@ -382,8 +382,8 @@ return {
 							}
 						},
 						{
-							delay = 0.2,
 							life_time = 7,
+							delay = 0.2,
 							behaviours = 10100,
 							coordinate = {
 								-30,
@@ -395,8 +395,8 @@ return {
 							}
 						},
 						{
-							delay = 0.1,
 							life_time = 7,
+							delay = 0.1,
 							behaviours = 10100,
 							coordinate = {
 								-25,
@@ -408,8 +408,8 @@ return {
 							}
 						},
 						{
-							delay = 0,
 							life_time = 7,
+							delay = 0,
 							behaviours = 10100,
 							coordinate = {
 								-22,
@@ -421,8 +421,8 @@ return {
 							}
 						},
 						{
-							delay = 12,
 							life_time = 5,
+							delay = 12,
 							behaviours = 10101,
 							coordinate = {
 								-60,
@@ -434,8 +434,8 @@ return {
 							}
 						},
 						{
-							delay = 12.2,
 							life_time = 5,
+							delay = 12.2,
 							behaviours = 10101,
 							coordinate = {
 								-66,
@@ -447,8 +447,8 @@ return {
 							}
 						},
 						{
-							delay = 12.4,
 							life_time = 5,
+							delay = 12.4,
 							behaviours = 10101,
 							coordinate = {
 								-60,
@@ -460,8 +460,8 @@ return {
 							}
 						},
 						{
-							delay = 22.5,
 							life_time = 5,
+							delay = 22.5,
 							behaviours = 10102,
 							coordinate = {
 								-31,
@@ -473,8 +473,8 @@ return {
 							}
 						},
 						{
-							delay = 22.8,
 							life_time = 5,
+							delay = 22.8,
 							behaviours = 10102,
 							coordinate = {
 								-42,
@@ -486,8 +486,8 @@ return {
 							}
 						},
 						{
-							delay = 23.1,
 							life_time = 5,
+							delay = 23.1,
 							behaviours = 10102,
 							coordinate = {
 								-53,
@@ -499,8 +499,8 @@ return {
 							}
 						},
 						{
-							delay = 65,
 							life_time = 5,
+							delay = 65,
 							behaviours = 10102,
 							coordinate = {
 								-28,
@@ -512,8 +512,8 @@ return {
 							}
 						},
 						{
-							delay = 65.3,
 							life_time = 5,
+							delay = 65.3,
 							behaviours = 10102,
 							coordinate = {
 								-42,
@@ -525,8 +525,8 @@ return {
 							}
 						},
 						{
-							delay = 65.6,
 							life_time = 5,
+							delay = 65.6,
 							behaviours = 10102,
 							coordinate = {
 								-42,
@@ -538,8 +538,8 @@ return {
 							}
 						},
 						{
-							delay = 66.5,
 							life_time = 5,
+							delay = 66.5,
 							behaviours = 10102,
 							coordinate = {
 								-56,
@@ -551,8 +551,8 @@ return {
 							}
 						},
 						{
-							delay = 66.2,
 							life_time = 5,
+							delay = 66.2,
 							behaviours = 10102,
 							coordinate = {
 								-60,
@@ -564,8 +564,8 @@ return {
 							}
 						},
 						{
-							delay = 65.9,
 							life_time = 5,
+							delay = 65.9,
 							behaviours = 10102,
 							coordinate = {
 								-56,
@@ -589,9 +589,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
+							score = 0,
 							delay = 15,
-							score = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -604,9 +604,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
+							score = 0,
 							delay = 15.2,
-							score = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -619,9 +619,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 15.4,
 							score = 0,
+							delay = 15.4,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -634,9 +634,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 15.8,
 							score = 0,
+							delay = 15.8,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -649,9 +649,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 35,
 							score = 0,
+							delay = 35,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -664,9 +664,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 35.2,
 							score = 0,
+							delay = 35.2,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -679,9 +679,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 35.4,
 							score = 0,
+							delay = 35.4,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -694,9 +694,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 35.8,
 							score = 0,
+							delay = 35.8,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -709,9 +709,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 36,
 							score = 0,
+							delay = 36,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -724,9 +724,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 36.2,
 							score = 0,
+							delay = 36.2,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -739,9 +739,9 @@ return {
 						},
 						{
 							monsterTemplateID = 291010,
-							moveCast = true,
-							delay = 36.4,
 							score = 0,
+							delay = 36.4,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,

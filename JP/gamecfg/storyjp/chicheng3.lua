@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"ヒガンバナの恋\n\n<size=45>その三　恋敵と…例外？</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "昼・商店街",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "昼・商店街",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,9 +44,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "赤城は上機嫌で買い物袋を提げながら隣で一緒に歩いていた。",
 			typewriter = {
 				speed = 0.05,
@@ -70,9 +70,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "そう言って赤城はこっちの買い物袋を全部奪った。確かに、言われてみれば……",
 			typewriter = {
 				speed = 0.05,
@@ -86,15 +86,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "フフフ…惨めな虫けらごときが、この赤城から指揮官様を奪うつもり？……指揮官様？なんで赤城を止めるのですか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -119,15 +119,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "今あの子に目移りしましたよね？ねえなんで赤城を見ないの？赤城と一緒に買い出しに来ているというのに？あの子に誘惑されたの？あんな奴赤城が始末して……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -152,15 +152,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "たいほ…あの小娘、後ろから付けてるわね…！いつか絶対に排除してやりますわ…！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,15 +201,15 @@ return {
 			}
 		},
 		{
-			actor = 307020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "ねえさ…コホン、赤城、指揮官と買い物か。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
+			say = "そうよ。ねぇ、加賀も一緒にどう？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうよ。ねぇ、加賀も一緒にどう？",
+			actor = 307010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "赤城は半ば強引に加賀をこっちに引き寄せてきた。",
 			typewriter = {
 				speed = 0.05,

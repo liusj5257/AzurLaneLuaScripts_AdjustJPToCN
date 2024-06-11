@@ -1,14 +1,14 @@
 return {
-	init_effect = "",
-	name = "2023 关岛活动EX 次数盾",
 	time = 0,
-	last_effect = "ATdun_full",
+	name = "2023 关岛活动EX 次数盾",
+	init_effect = "",
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "",
 	stack = 1,
 	id = 200755,
 	icon = 200755,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun_full",
 	effect_list = {
 		{
 			type = "BattleBuffFixDamage",

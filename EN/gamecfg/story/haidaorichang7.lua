@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uncharted Summer\n\n<size=45>Welcome to Camp</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
-			say = "As the sun starts to set and I make it back to camp, I discover that the girls have already pitched up tents.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-soft",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "As the sun starts to set and I make it back to camp, I discover that the girls have already pitched up tents.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,15 +47,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "Moreover, everyone is working double-time to get all the essentials set up before nightfall."
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "After adding my gathered resources to our pile, I decide to give them a hand.",
@@ -65,27 +65,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_summerisland_map_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_summerisland_map_2",
 			say = "Deserted island - Provisional camp",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "With everyone working together, we finally manage to light a campfire on the coast.",
@@ -104,12 +104,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Bonfire lit. Camp level 1 achieved.",
 			painting = {
 				alpha = 0.3,
@@ -121,8 +121,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,12 +131,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And we all have proper places to sleep tonight, too!",
 			painting = {
 				alpha = 0.3,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -158,12 +158,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The fire is so cozy... I'm dying for some barbecue...",
 			painting = {
 				alpha = 0.3,
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Be patient. The mushrooms and fish need to roast a while longer.",
 			painting = {
 				alpha = 0.3,
@@ -192,12 +192,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, and Commander, I managed to reestablish contact with the port.",
 			painting = {
 				alpha = 0.3,
@@ -209,12 +209,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I already told them about our predicament, and they're going to send a rescue team that will arrive tomorrow.",
 			painting = {
 				alpha = 0.3,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "\"That's great news. Then we can enjoy this barbecue in peace, knowing help is on the way.\"",
@@ -237,27 +237,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_summerisland_map_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_summerisland_map_2",
 			say = "Now the sun has set, night has come, and it's time for bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "While my food digests, I consider what to do next...",
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "A calm breeze blows across the beach, marking the end of our little barbecue party.",
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "The fire crackles softly as all of us retire to our tents for the night.",

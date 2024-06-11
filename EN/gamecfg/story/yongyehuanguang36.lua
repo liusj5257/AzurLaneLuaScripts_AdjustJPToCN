@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG36",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -54,8 +54,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "Yes! I've confirmed that transmissions are coming in—",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "Phew... After all that, I'd like a device that can counteract Siren jamming, just like the Northern Parliament...",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "Called off...? But Warspite, weren't we going to get the commander...?",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "What the hell is going on now... Howe, pass me the communicator.",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "Warspite, this is Valiant. What happened at Scapa Flow?!",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,8 +219,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "Elizabeth...?! Why did they decide to go to Scapa Flow all of a sudden...?!",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -278,8 +278,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "...I've never heard Warspite this serious before...",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "The Iron Blood pinned us here while they ambushed Scapa Flow...",
 			typewriter = {
@@ -328,9 +328,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
 			blackBg = true,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "(Please, Your Majesty, may we make it in time...)",
 			typewriter = {

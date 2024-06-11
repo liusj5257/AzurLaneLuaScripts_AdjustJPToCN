@@ -1,14 +1,14 @@
 pg = pg or {}
 pg.activity_limit_item_guide = {
 	{
+		is_new = 1,
+		activity = 4937,
+		count = 1,
+		type = 3,
+		order = 0,
 		id = 1,
-		activity = 4937,
-		count = 1,
-		type = 3,
-		is_new = 1,
-		count_storage = 0,
 		drop_id = 89640,
-		order = 0,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -24,14 +24,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	{
-		id = 2,
-		activity = 4937,
-		count = 1,
-		type = 3,
 		is_new = 1,
-		count_storage = 0,
+		activity = 4937,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 2,
 		drop_id = 89660,
-		order = 0,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -47,14 +47,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	{
+		is_new = 0,
+		activity = 4937,
+		count = 1,
+		type = 3,
+		order = 0,
 		id = 3,
-		activity = 4937,
-		count = 1,
-		type = 3,
-		is_new = 0,
-		count_storage = 0,
 		drop_id = 89300,
-		order = 0,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -70,14 +70,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	{
+		is_new = 0,
+		activity = 4937,
+		count = 1,
+		type = 3,
+		order = 0,
 		id = 4,
-		activity = 4937,
-		count = 1,
-		type = 3,
-		is_new = 0,
-		count_storage = 0,
 		drop_id = 89320,
-		order = 0,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -93,14 +93,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	{
+		is_new = 0,
+		activity = 4937,
+		count = 1,
+		type = 3,
+		order = 0,
 		id = 5,
-		activity = 4937,
-		count = 1,
-		type = 3,
-		is_new = 0,
-		count_storage = 0,
 		drop_id = 89340,
-		order = 0,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -116,14 +116,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	{
+		is_new = 0,
+		activity = 4937,
+		count = 1,
+		type = 3,
+		order = 0,
 		id = 6,
-		activity = 4937,
-		count = 1,
-		type = 3,
-		is_new = 0,
-		count_storage = 0,
 		drop_id = 89360,
-		order = 0,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -139,14 +139,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	{
-		id = 7,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 3,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 89380,
 		order = 0,
+		id = 7,
+		drop_id = 89380,
+		count_storage = 0,
 		link_params = {
 			{
 				3,
@@ -156,14 +156,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	{
-		id = 8,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 3,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 89400,
 		order = 0,
+		id = 8,
+		drop_id = 89400,
+		count_storage = 0,
 		link_params = {
 			{
 				3,
@@ -173,14 +173,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[10] = {
-		id = 10,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 84188,
 		order = 0,
+		id = 10,
+		drop_id = 84188,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -193,14 +193,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[11] = {
-		id = 11,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 84189,
 		order = 0,
+		id = 11,
+		drop_id = 84189,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -213,14 +213,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[12] = {
-		id = 12,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 84187,
 		order = 0,
+		id = 12,
+		drop_id = 84187,
+		count_storage = 0,
 		link_params = {
 			{
 				3,
@@ -230,14 +230,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[13] = {
-		id = 13,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 1,
-		drop_id = 84184,
 		order = 0,
+		id = 13,
+		drop_id = 84184,
+		count_storage = 1,
 		link_params = {
 			{
 				2,
@@ -250,14 +250,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[14] = {
-		id = 14,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 1,
-		drop_id = 84185,
 		order = 0,
+		id = 14,
+		drop_id = 84185,
+		count_storage = 1,
 		link_params = {
 			{
 				2,
@@ -270,14 +270,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[15] = {
-		id = 15,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 84186,
 		order = 0,
+		id = 15,
+		drop_id = 84186,
+		count_storage = 0,
 		link_params = {
 			{
 				3,
@@ -287,14 +287,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[16] = {
-		id = 16,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 84179,
 		order = 0,
+		id = 16,
+		drop_id = 84179,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -306,14 +306,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[17] = {
-		id = 17,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 84180,
 		order = 0,
+		id = 17,
+		drop_id = 84180,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -325,14 +325,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[18] = {
-		id = 18,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 84181,
 		order = 0,
+		id = 18,
+		drop_id = 84181,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -344,14 +344,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[19] = {
-		id = 19,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 84182,
 		order = 0,
+		id = 19,
+		drop_id = 84182,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -363,14 +363,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[20] = {
-		id = 20,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 84183,
 		order = 0,
+		id = 20,
+		drop_id = 84183,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -382,14 +382,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[21] = {
-		id = 21,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 0,
-		drop_id = 84301,
 		order = 0,
+		id = 21,
+		drop_id = 84301,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -401,14 +401,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[22] = {
-		id = 22,
+		is_new = 0,
 		activity = 4937,
 		count = 1,
 		type = 5,
-		is_new = 0,
-		count_storage = 1,
-		drop_id = 84174,
 		order = 0,
+		id = 22,
+		drop_id = 84174,
+		count_storage = 1,
 		link_params = {
 			{
 				2,
@@ -421,14 +421,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[30] = {
-		id = 30,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 9,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 800,
 		order = 0,
+		id = 30,
+		drop_id = 800,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -440,14 +440,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[31] = {
-		id = 31,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 9,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 801,
 		order = 0,
+		id = 31,
+		drop_id = 801,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -459,14 +459,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[32] = {
-		id = 32,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 9,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 802,
 		order = 0,
+		id = 32,
+		drop_id = 802,
+		count_storage = 0,
 		link_params = {
 			{
 				3,
@@ -476,14 +476,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[33] = {
-		id = 33,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 9,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 803,
 		order = 0,
+		id = 33,
+		drop_id = 803,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -495,14 +495,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[34] = {
-		id = 34,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 9,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 804,
 		order = 0,
+		id = 34,
+		drop_id = 804,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -514,14 +514,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[35] = {
-		id = 35,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 9,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 805,
 		order = 0,
+		id = 35,
+		drop_id = 805,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -533,14 +533,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[36] = {
-		id = 36,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 9,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 806,
 		order = 0,
+		id = 36,
+		drop_id = 806,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -556,14 +556,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[40] = {
-		id = 40,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12220,
 		order = 0,
+		id = 40,
+		drop_id = 12220,
+		count_storage = 0,
 		link_params = {
 			{
 				3,
@@ -573,14 +573,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[41] = {
-		id = 41,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12120,
 		order = 0,
+		id = 41,
+		drop_id = 12120,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -596,14 +596,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[42] = {
-		id = 42,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12240,
 		order = 0,
+		id = 42,
+		drop_id = 12240,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -615,14 +615,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[43] = {
-		id = 43,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12140,
 		order = 0,
+		id = 43,
+		drop_id = 12140,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -638,14 +638,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[44] = {
-		id = 44,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12180,
 		order = 0,
+		id = 44,
+		drop_id = 12180,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -657,14 +657,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[45] = {
-		id = 45,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12200,
 		order = 0,
+		id = 45,
+		drop_id = 12200,
+		count_storage = 0,
 		link_params = {
 			{
 				2,
@@ -676,14 +676,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[46] = {
-		id = 46,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12160,
 		order = 0,
+		id = 46,
+		drop_id = 12160,
+		count_storage = 0,
 		link_params = {
 			{
 				3,
@@ -693,14 +693,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[47] = {
-		id = 47,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12080,
 		order = 0,
+		id = 47,
+		drop_id = 12080,
+		count_storage = 0,
 		link_params = {
 			{
 				3,
@@ -710,14 +710,14 @@ pg.activity_limit_item_guide = {
 		}
 	},
 	[48] = {
-		id = 48,
+		is_new = 1,
 		activity = 4937,
 		count = 1,
 		type = 21,
-		is_new = 1,
-		count_storage = 0,
-		drop_id = 12100,
 		order = 0,
+		id = 48,
+		drop_id = 12100,
+		count_storage = 0,
 		link_params = {
 			{
 				2,

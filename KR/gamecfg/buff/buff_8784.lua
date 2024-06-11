@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "中飞联动一我方移速 双发",
 	time = 0,
+	name = "中飞联动一我方移速 双发",
+	init_effect = "",
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 8784,
-	picture = "",
 	icon = 8780,
-	desc = "",
 	last_effect = {
 		"plane_shadow",
 		"plane_yinzhang_double"
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				group = 19000,
-				attr = "DMG_TAG_EHC_N_99",
-				number = 0.8
+				number = 0.8,
+				attr = "DMG_TAG_EHC_N_99"
 			}
 		}
 	}

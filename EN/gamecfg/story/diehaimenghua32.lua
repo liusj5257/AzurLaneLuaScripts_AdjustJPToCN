@@ -1,17 +1,17 @@
 return {
-	id = "DIEHAIMENGHUA32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "DIEHAIMENGHUA32",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "level02",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "(Yes, Isokaze, go...)",
 			dir = 1,
-			bgm = "level02",
+			soundeffect = "event:/battle/boom2",
+			say = "(Yes, Isokaze, go...)",
 			flashN = {
 				color = {
 					1,
@@ -62,8 +62,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Target eliminated... The next one is...",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "As a result, the commander's forces have no choice but to fully focus on Shinano's movements. Now's our time to shine!",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "That may be the case, but letting our general draw all the fire is a risky strategy!",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Sure thing. I can't let Suruga have a better record than me!",
 			typewriter = {

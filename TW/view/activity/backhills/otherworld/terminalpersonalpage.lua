@@ -7,7 +7,7 @@ slot0.LV_ID = 1002
 slot0.JOB_ID = 1003
 slot0.GUARDIAN_ID = 1004
 
-function slot2(slot0)
+slot2 = function(slot0)
 	slot1 = {}
 
 	for slot5 = slot0[1], slot0[2] do
@@ -29,11 +29,11 @@ slot0.ABILITY_IDS = slot2({
 })
 slot0.RANDOM_ABILITY_CNT = 8
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TerminalPersonalPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0._tf.name = tostring(OtherworldTerminalLayer.PAGE_PERSONAL)
 	slot0.infoTF = slot0:findTF("frame/info")
 
@@ -96,7 +96,7 @@ function slot0.OnLoaded(slot0)
 	slot0.showName = getProxy(PlayerProxy):getRawData().name
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0.BIND_EVENT_ACT_ID)
 
 	assert(slot0.activity, "not exist bind event act, id" .. uv0.BIND_EVENT_ACT_ID)
@@ -148,7 +148,7 @@ function slot0.OnInit(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0, slot1)
+slot0.UpdateView = function(slot0, slot1)
 	slot2 = slot0.contextData.upgrade and slot0.activity:GetLastShowConfig() or slot0.activity:GetShowConfig()
 	slot0.showCfg = {}
 
@@ -171,11 +171,11 @@ function slot0.UpdateView(slot0, slot1)
 	end
 end
 
-function slot0.SetDefaultName(slot0)
+slot0.SetDefaultName = function(slot0)
 	setInputText(slot0.nameInput, slot0.showName)
 end
 
-function slot0.UpdateInfo(slot0, slot1)
+slot0.UpdateInfo = function(slot0, slot1)
 	slot0:SetDefaultName()
 	setText(slot0.nameTitle, slot0:GetRollAttrInfoById(uv0.NAME_ID, slot1) .. "：")
 
@@ -202,7 +202,7 @@ function slot0.UpdateInfo(slot0, slot1)
 	end
 end
 
-function slot0.UpdateProperty(slot0, slot1)
+slot0.UpdateProperty = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(uv0.PROPERTY_IDS) do
@@ -225,7 +225,7 @@ function slot0.UpdateProperty(slot0, slot1)
 	end
 end
 
-function slot0.UpdateAbility(slot0, slot1)
+slot0.UpdateAbility = function(slot0, slot1)
 	slot2 = {}
 
 	if slot1 then
@@ -266,7 +266,7 @@ function slot0.UpdateAbility(slot0, slot1)
 	end
 end
 
-function slot0.GetRollAttrInfoById(slot0, slot1, slot2)
+slot0.GetRollAttrInfoById = function(slot0, slot1, slot2)
 	slot3 = ""
 
 	if slot2 then
@@ -288,7 +288,7 @@ function slot0.GetRollAttrInfoById(slot0, slot1, slot2)
 	return uv0.config[slot1].name, tostring(slot3)
 end
 
-function slot0.GetRandomAbilityIds(slot0)
+slot0.GetRandomAbilityIds = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, #uv0.ABILITY_IDS do
@@ -312,7 +312,7 @@ slot0.PROPERTY_TPL_ANIM_TIME = 0.5
 slot0.ABILITY_TPL_ANIM_TIME = 0.5
 slot0.RANDOM_CHANGE_TIME = 0.8
 
-function slot0.PlayUpgradeAnims(slot0)
+slot0.PlayUpgradeAnims = function(slot0)
 	seriesAsync({
 		function (slot0)
 			uv0:PlayLevelAnim(slot0)
@@ -328,14 +328,14 @@ function slot0.PlayUpgradeAnims(slot0)
 	end)
 end
 
-function slot0.GetStaticInfo(slot0, slot1)
+slot0.GetStaticInfo = function(slot0, slot1)
 	slot2 = tonumber(slot0.showCfg[slot1] or uv0.config[slot1].default_value)
 	slot3 = tonumber(slot0.upgradeCfg[slot1] or slot2)
 
 	return slot2, slot3, slot3 - slot2 ~= 0
 end
 
-function slot0.PlayLevelAnim(slot0, slot1)
+slot0.PlayLevelAnim = function(slot0, slot1)
 	slot2, slot3, slot4 = slot0:GetStaticInfo(uv0.LV_ID)
 
 	setActive(slot0.lvUpgradeTF, slot4)
@@ -365,7 +365,7 @@ function slot0.PlayLevelAnim(slot0, slot1)
 	end
 end
 
-function slot0.PlayPropertyAnim(slot0, slot1)
+slot0.PlayPropertyAnim = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = 1, #uv0.PROPERTY_IDS do
@@ -408,7 +408,7 @@ function slot0.PlayPropertyAnim(slot0, slot1)
 	end)
 end
 
-function slot0.GetDynamicInfo(slot0, slot1)
+slot0.GetDynamicInfo = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 
@@ -433,7 +433,7 @@ function slot0.GetDynamicInfo(slot0, slot1)
 	end)
 end
 
-function slot0.PlayAbilityAnim(slot0, slot1)
+slot0.PlayAbilityAnim = function(slot0, slot1)
 	slot2, slot3, slot4 = slot0:GetDynamicInfo()
 
 	if slot4 then
@@ -489,7 +489,7 @@ function slot0.PlayAbilityAnim(slot0, slot1)
 	end
 end
 
-function slot0.GetLocalName(slot0)
+slot0.GetLocalName = function(slot0)
 	if not slot0.unlockRandom then
 		return ""
 	end
@@ -497,7 +497,7 @@ function slot0.GetLocalName(slot0)
 	return PlayerPrefs.GetString(uv0 .. slot0.playerId)
 end
 
-function slot0.SetLocalName(slot0, slot1)
+slot0.SetLocalName = function(slot0, slot1)
 	if not slot0.unlockRandom then
 		return
 	end
@@ -506,7 +506,7 @@ function slot0.SetLocalName(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:cleanManagedTween()
 end
 

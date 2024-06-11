@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大青花魚的“陷阱”\n\n<size=45>五　兩人的海灘·上</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			say = "港區·海灘",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,16 +45,16 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			stopbgm = true,
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "我想到第二個條件是什麼了！",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
 					x = 0,
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			say = "於是今天下午和大青花魚來到了海邊。",
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
 			dir = 1,
 			bgmDelay = 0.6,
 			bgm = "story-1",
+			say = "於是今天下午和大青花魚來到了海邊。",
 			effects = {
 				{
 					active = false,
@@ -124,8 +124,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "今天的海灘被我們兩個人包場了呢！嘿嘿，要做些什麼事情好呢，指~揮~官~？",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "欸？只是游泳比賽嗎？也不是不可以啦。",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "我將賭上潛水艦全部的尊嚴！指揮官，來和我一決勝負吧！",
 			effects = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "這樣的開場白會不會比較有氣勢呢？但是——",
 			effects = {
 				{
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "撲通！",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "我先走一步啦！拜拜~",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -2250
@@ -288,9 +288,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "大青花魚先一步跳進了海中，游了起來。",
 			typewriter = {
 				speed = 0.05,
@@ -304,13 +304,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "到達了無人島，並沒有發現大青花魚的蹤跡。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -343,19 +343,19 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			say = "surprise！ ！ ！",
+			dir = 1,
 			bgName = "star_level_bg_106",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "surprise！ ！ ！",
 			actorPosition = {
 				x = 0,
 				y = -750
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.3,
 					x = 0
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "怎麼樣，指揮官，被嚇了一跳吧！",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -416,8 +416,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "那麼，round 2，start！",
 			typewriter = {
@@ -430,8 +430,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.6,
 					dur = 0.5,
 					x = -2250
@@ -439,9 +439,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "大青花魚又一頭紮進了水中。",
 			typewriter = {
 				speed = 0.05,

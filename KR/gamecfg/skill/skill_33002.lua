@@ -2,10 +2,10 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.01
 				}
@@ -15,17 +15,17 @@ return {
 	uiEffect = "",
 	name = "舰炮掩护",
 	cd = 0,
-	painting = 0,
-	id = 100231,
 	picture = "0",
 	aniEffect = "",
 	desc = "舰炮掩护",
+	painting = 0,
+	id = 100231,
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				maxHPRatio = 0.01
 			}

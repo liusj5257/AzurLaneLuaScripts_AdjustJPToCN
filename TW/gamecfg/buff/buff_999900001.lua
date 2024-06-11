@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "测试卡牌编队BUFF",
 	time = 30,
-	color = "yellow",
+	name = "测试卡牌编队BUFF",
+	init_effect = "",
+	id = 999900001,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 999900001,
+	color = "yellow",
 	icon = 8661,
 	last_effect = "",
 	effect_list = {

@@ -7,7 +7,7 @@ slot0.ON_JOIN_QUEUE = "TechnologyMediator:ON_JOIN_QUEUE"
 slot0.ON_FINISH_QUEUE = "TechnologyMediator:ON_FINISH_QUEUE"
 slot0.ON_CLICK_SETTINGS_BTN = "TechnologyMediator:ON_CLICK_SETTINGS_BTN"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_START, function (slot0, slot1)
 		uv0:sendNotification(GAME.START_TECHNOLOGY, {
 			id = slot1.id,
@@ -52,7 +52,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.FINISH_TECHNOLOGY_DONE,
 		GAME.REFRESH_TECHNOLOGYS_DONE,
@@ -65,7 +65,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if slot1:getName() == TechnologyProxy.TECHNOLOGY_UPDATED then
@@ -111,7 +111,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.onRefresh(slot0)
+slot0.onRefresh = function(slot0)
 	slot0.viewComponent:clearTimer()
 	slot0.viewComponent:cancelSelected()
 

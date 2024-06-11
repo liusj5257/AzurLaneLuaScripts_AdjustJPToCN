@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "nagato-map",
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "で、ですよね――！",
-			bgm = "nagato-map",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "「我ら」と言っていましたし瑞鶴さんと翔鶴さんのサポートももちろんありますね…はあ、さすがに大先輩には勝てませんね……こっちの負けです",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 		{
 			actor = 305110,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "まあ、我も何回も危ないところに追い詰められたがな",
 			paintingFadeOut = {
 				time = 0.5,
@@ -72,8 +72,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "その割にあっという間に状況を逆転させたじゃないですか…さ、さすが大先輩です……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（大先輩の兵装は把握済みで、こっちの攻撃位置と相対距離もほぼ完璧に保っていた…航空攻撃抜きにしても負けないはず）",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（どこで問題が起きたか全く見当つかないわね……おっそろしいわこの人！）",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -144,9 +144,9 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あ、いいえ！そんなつもりは…！",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "三笠は拳を胸の前で握りしめた。",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ええ、お気遣いありがとうございます。こちらこそご心配をおかけして申し訳ありません",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

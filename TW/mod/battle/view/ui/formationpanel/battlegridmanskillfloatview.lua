@@ -5,21 +5,21 @@ slot0.Battle.BattleGridmanSkillFloatView = class("BattleGridmanSkillFloatView")
 slot0.Battle.BattleGridmanSkillFloatView.__name = "BattleGridmanSkillFloatView"
 slot2 = slot0.Battle.BattleGridmanSkillFloatView
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
 	slot0:init()
 end
 
-function slot2.init(slot0)
+slot2.init = function(slot0)
 	slot0._fusion = {
 		[uv0.FRIENDLY_CODE] = slot0._tf:Find("fusion_1"),
 		[uv0.FOE_CODE] = slot0._tf:Find("fusion_-1")
 	}
 	slot0._skillList = {}
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		uv0._skillList[slot0] = {}
 
 		for slot4 = 1, 3 do
@@ -36,7 +36,7 @@ function slot2.init(slot0)
 	slot0._resource = slot0._tf:Find("res")
 end
 
-function slot2.DoSkillFloat(slot0, slot1, slot2)
+slot2.DoSkillFloat = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot4 = slot0._skillList[slot2]
 
@@ -65,7 +65,7 @@ function slot2.DoSkillFloat(slot0, slot1, slot2)
 	end)
 end
 
-function slot2.DoFusionFloat(slot0, slot1)
+slot2.DoFusionFloat = function(slot0, slot1)
 	slot2 = slot0._fusion[slot1]
 
 	setActive(slot2, true)
@@ -74,5 +74,5 @@ function slot2.DoFusionFloat(slot0, slot1)
 	end)
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 end

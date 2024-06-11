@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_278 = {}
 slot1 = slot0.word_template_278
 
-function temp()
+temp = function()
 	uv0["梯"] = {
 		["恩"] = {
 			["梯"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["踢"] = {
 		["掉"] = {
 			["你"] = {
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["题"] = {
 		["板"] = {
 			["是"] = {
@@ -71,7 +71,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["題"] = {
 		["板"] = {
 			["是"] = {
@@ -89,7 +89,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["体"] = {
 		["奸"] = {
 			this = true
@@ -153,7 +153,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["體"] = {
 		["奸"] = {
 			this = true
@@ -184,7 +184,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["剃"] = {
 		["刀"] = {
 			["淫"] = {

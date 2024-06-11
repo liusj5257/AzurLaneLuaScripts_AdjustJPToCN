@@ -5,7 +5,7 @@ slot0.Order = {
 	2
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.selectIndex = 0
 	slot0.stars = {}
@@ -18,7 +18,7 @@ function slot0.OnInit(slot0)
 	slot0.btnBattle = slot0.bg:Find("Battle_btn")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if type(slot0.activity:getConfig("config_client")) == "table" and slot1[2] and type(slot1[2]) == "string" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot1[2]) then
 		pg.NewStoryMgr.GetInstance():Play(slot1[2], nil, true, true)
 	end
@@ -45,7 +45,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.btnBattle, function ()
 		slot0 = uv0.activity
@@ -71,7 +71,7 @@ function slot0.OnFirstFlush(slot0)
 		end)
 	end, SFX_PANEL)
 
-	function slot1(slot0, slot1, slot2)
+	slot1 = function(slot0, slot1, slot2)
 		slot4 = GetOrAddComponent(slot1, "ButtonEventExtend").onPointerDown
 
 		pg.DelegateInfo.Add(slot0, slot4)
@@ -119,7 +119,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setActive(slot0.btnBattle, slot0.activity.data1 ~= 0)
 	SetCompomentEnabled(slot0.btnBattle, "Animator", slot0.activity.data2 == 0)

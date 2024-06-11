@@ -5,8 +5,8 @@ return {
 	fadein = 1,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "This does look like an animal's den, even if it's too dark to see inside.",
 			typewriter = {
 				speed = 0.05,
@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "It could be dangerous for all you know. Best to play it safe and turn back.",
 			typewriter = {
 				speed = 0.05,
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "An uneventful step on your journey – nothing happened, but that's fine. Every adventure needs a little downtime.",
 			typewriter = {
 				speed = 0.05,

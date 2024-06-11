@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"デンバーの母港クエスト！\n\n<size=45>二 初のクエスト、初のパーティ</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102150,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "姉貴と同じ高みを目指すために、指揮官も一緒に依頼を探してもらえるかな？",
 			bgm = "story-1",
+			actor = 102150,
+			nameColor = "#a9f548",
+			say = "姉貴と同じ高みを目指すために、指揮官も一緒に依頼を探してもらえるかな？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "クリーブランドと同じ高み、とはまた大きな目標である。",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "母港の様々なトラブルを解決していくのも仕事の一つ――彼女の頼みを引き受け、様々な依頼の中から面白そうなものを探してあげることにした。",
 			typewriter = {
 				speed = 0.05,
@@ -80,13 +80,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "十数分経過、デンバーが掲示板から依頼書のコピーの紙束を持ってきた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "デンバーに聞かれ、依頼内容に関してはなるべく限定しない方向で行ったほうがいいとアドバイスした。",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "確かにこれらの依頼は困っているといえば困っている人だが……",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "お眼鏡にかなうものがあるかどうか……そう思いながら見つけた依頼書をデンバーに手渡してあげた。",
 			typewriter = {
 				speed = 0.05,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "『倉庫内における害虫駆除』。おおっ！騎士としてこれ以上にふさわしいものはないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,9 +275,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "誰かの役に立ちたい――それも勇敢な依頼を率先して行おうとする姿勢は良いことである。",
 			typewriter = {
 				speed = 0.05,
@@ -337,9 +337,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "幸か不幸か、特に今日はこの後の予定があるわけではなかったので、素直に彼女の誘いに乗ることにした。",
 			typewriter = {
 				speed = 0.05,
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "そうこなくっちゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "そう言ってデンバーは拳を向けてきて、自分にも同じように拳を向けるポーズを促してきた。",
 			typewriter = {
 				speed = 0.05,
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "言われた通りに拳を向けてあげると、デンバーは拳に向かってこつんと軽くぶつけた。",
 			typewriter = {
 				speed = 0.05,
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "よし、じゃあ行こうか！",
 			typewriter = {
 				speed = 0.05,

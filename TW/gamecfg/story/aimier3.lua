@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"自由的天使\n\n<size=45>三 意外的特長</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = -1,
+			actor = 312010,
+			actorName = "{namecode:98}",
 			say = "指揮官，我又來借埃米爾了喵！",
 			typewriter = {
 				speed = 0.05,
@@ -62,17 +62,17 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 22.5,
 					dur = 0.1,
-					type = "shake",
-					y = 22.5
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……{namecode:98}這已經是本週的第三次了",
 			typewriter = {
 				speed = 0.05,
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = -1,
+			actor = 312010,
+			actorName = "{namecode:98}",
 			say = "自從埃米爾當了店員，這個月的營收終於…簡直是奇蹟喵",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.4,
 					x = 15,
 					number = 2
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
+			say = "欸？我有做什麼特別的事情嗎？",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？我有做什麼特別的事情嗎？",
+			actor = 802010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "{namecode:20}不知道什麼時候也出現了",
 			typewriter = {
 				speed = 0.05,
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "不用謙虛，畢竟我也是來請妳幫忙的",
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "{namecode:20}",
 			dir = -1,
-			say = "不用謙虛，畢竟我也是來請妳幫忙的",
+			actor = 301180,
+			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "啊哈哈…哪有{namecode:20}說的這麼誇張啦，不過既然如此，我就兩邊都幫幫忙好了，指揮官，可以嗎？",
 			typewriter = {
 				speed = 0.05,

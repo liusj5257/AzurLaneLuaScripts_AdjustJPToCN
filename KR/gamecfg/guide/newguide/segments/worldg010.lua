@@ -9,8 +9,8 @@ return {
 			style = {
 				text = "지도 외 해역을 터치하여 월드 맵을 열고 위치 확인 가능",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 100
 			},
 			showSign = {
@@ -65,8 +65,8 @@ return {
 			style = {
 				text = "지도 외 부분을 터치하여 지도 닫기",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 100
 			},
 			showSign = {

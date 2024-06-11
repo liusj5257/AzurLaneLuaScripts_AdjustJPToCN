@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ご令嬢の小さな提案\n\n<size=45>五 妹からの鶴の一声？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "イラストリアスがメイド隊のところにお茶会のためのカップの手配をしにいってから数十分――",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "イラストリアスがメイド隊のところにお茶会のためのカップの手配をしにいってから数十分――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "暇を持て余していると、ようやくこの場所の入り口である坂の方から声が聞こえてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "戻ってきたイラストリアスの隣には彼女の妹であるヴィクトリアスの姿があった。",
 			typewriter = {
 				speed = 0.05,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "それはずばり「美しい場所に通ずる道は、美しくなければならない」ってことよ！",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "さりげなく、たゆんとしすぎてるモノを自慢しない！",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "もちろん断るつもりなんて最初からない。そのつもりで彼女に向ってすっと手を差し伸べた――のだが。",
 			typewriter = {
 				speed = 0.05,
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "そろそろ日も暮れるので急ごうと思っての行動だったのだが、なぜか彼女は不思議そうに手を見つめる。",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "そんなに意外な行動だっただろうか――そう思っていると…",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "イラストリアスは少しだけ控えめな様子でそっと手を取った。柔らかく、細い指をきゅっと絡めて。",
 			typewriter = {
 				speed = 0.05,

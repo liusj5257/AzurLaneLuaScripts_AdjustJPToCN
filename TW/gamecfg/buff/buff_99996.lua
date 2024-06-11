@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "致命打击",
 	time = 0,
+	name = "致命打击",
+	init_effect = "",
 	picture = "",
 	desc = "60秒，序章俾斯麦使用大招",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 99997,
-				time = 60,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 60
 			}
 		}
 	}

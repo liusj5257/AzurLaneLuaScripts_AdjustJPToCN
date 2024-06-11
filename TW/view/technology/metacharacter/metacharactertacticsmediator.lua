@@ -5,12 +5,12 @@ slot0.ON_TRIGGER = "MetaCharacterTacticsMediator:ON_TRIGGER"
 slot0.ON_SKILL = "MetaCharacterTacticsMediator:ON_SKILL"
 slot0.ON_QUICK = "MetaCharacterTacticsMediator:ON_QUICK"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:requestTacticsData()
 	slot0:bindEvent()
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.TACTICS_META_INFO_REQUEST_DONE,
 		GAME.TACTICS_META_UNLOCK_SKILL_DONE,
@@ -20,7 +20,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.TACTICS_META_INFO_REQUEST_DONE then
@@ -70,7 +70,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.bindEvent(slot0)
+slot0.bindEvent = function(slot0)
 	slot0:bind(uv0.ON_QUICK, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
 			mediator = MetaQuickTacticsMediator,
@@ -83,7 +83,7 @@ function slot0.bindEvent(slot0)
 	end)
 end
 
-function slot0.requestTacticsData(slot0)
+slot0.requestTacticsData = function(slot0)
 	slot0:sendNotification(GAME.TACTICS_META_INFO_REQUEST, {
 		id = slot0.contextData.shipID
 	})

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG31",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG31",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "며칠 뒤·뉴욕 사령부",
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
 			bgmDelay = 2,
-			say = "며칠 뒤·뉴욕 사령부",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "이런 때에 지휘관을 노스 유니온으로 보내다니, 지휘부도 무슨 생각을 하는지 모르겠다니까.",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "어느 정도는. 됐어… 무슨 짓을 하는지는 잘 알고 있을거야.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "아무래도 노스 유니온은 멘탈 큐브에 대한 연구가 꽤 진행된 모양이야.",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "음~ 지금까지는 의심이었을 뿐이지만, 자료를 보고 나니 확실해졌어. 노스 유니온은 분명 극지에서 무언가 발견한 게 틀림 없어.",
 			typewriter = {
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
-			bgName = "bg_xiangting_3",
-			stopbgm = true,
-			dir = 1,
 			side = 2,
+			dir = 1,
+			stopbgm = true,
+			bgName = "bg_xiangting_3",
+			actor = 900227,
 			nameColor = "#a9f548",
 			say = "……지휘관이 노스…",
 			flashout = {
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 900227,
 			stopbgm = true,
 			say = "…유니온으로…",
 			typewriter = {
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 900227,
 			stopbgm = true,
 			say = "…종말의 서곡이 시작……",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_newyork",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "엔터프라이즈… 뭐라고 했어?",
 			flashout = {
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "…? 방금 그건, 뭐지?",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_151 = {}
 slot1 = slot0.word_template_151
 
-function temp()
+temp = function()
 	uv0["合"] = {
 		["成"] = {
 			["氯"] = {
@@ -56,7 +56,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.F = {
 		X = {
 			["气"] = {
@@ -292,7 +292,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["獵"] = {
 		["槍"] = {
 			["銷"] = {
@@ -398,7 +398,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["伯"] = {
 		["莱"] = {
 			["塔"] = {

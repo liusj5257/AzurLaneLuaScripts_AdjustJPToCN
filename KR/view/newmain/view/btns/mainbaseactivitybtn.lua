@@ -1,6 +1,6 @@
 slot0 = class("MainBaseActivityBtn")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.tpl = slot1
 
 	pg.DelegateInfo.New(slot0)
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._tf = nil
 end
 
-function slot0.GetLinkConfig(slot0)
+slot0.GetLinkConfig = function(slot0)
 	if #_.select(pg.activity_link_button.get_id_list_by_name[slot0:GetEventName()] or {}, function (slot0)
 		if type(uv0[slot0].time) == "table" and slot1[1] and slot1[1] == "default" then
 			return uv1:InActTime(slot1[2])
@@ -25,7 +25,7 @@ function slot0.GetLinkConfig(slot0)
 	end
 end
 
-function slot0.InActTime(slot0, slot1)
+slot0.InActTime = function(slot0, slot1)
 	if slot1 or slot0:GetActivityID() then
 		return getProxy(ActivityProxy):getActivityById(slot2) and not slot3:isEnd()
 	end
@@ -33,7 +33,7 @@ function slot0.InActTime(slot0, slot1)
 	return false
 end
 
-function slot0.InShowTime(slot0)
+slot0.InShowTime = function(slot0)
 	if slot0:GetLinkConfig() ~= nil then
 		slot0.config = slot1
 
@@ -43,11 +43,11 @@ function slot0.InShowTime(slot0)
 	end
 end
 
-function slot0.NewGameObject(slot0)
+slot0.NewGameObject = function(slot0)
 	return slot0._tf or Object.Instantiate(slot0.tpl, slot0.tpl.parent).transform
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0._tf = slot0:NewGameObject()
 	slot0._tf.gameObject.name = slot0.__cname
 	slot2 = slot0._tf
@@ -76,7 +76,7 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.Register(slot0)
+slot0.Register = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		if uv0.config.type <= 0 then
 			uv0:CustomOnClick()
@@ -86,11 +86,11 @@ function slot0.Register(slot0)
 	end, SFX_MAIN)
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	uv0.Skip(slot0, slot0.config)
 end
 
-function slot0.InitImage(slot0, slot1)
+slot0.InitImage = function(slot0, slot1)
 	if not slot0.config.pic or slot2 == slot0.imgName then
 		slot1()
 
@@ -106,7 +106,7 @@ function slot0.InitImage(slot0, slot1)
 	end)
 end
 
-function slot0.InitSubImage(slot0)
+slot0.InitSubImage = function(slot0)
 	setActive(slot0.subImage.gameObject, slot0.config.text_pic ~= nil and slot1 ~= "")
 
 	if not slot1 or slot1 == slot0.subImgName then
@@ -121,16 +121,16 @@ function slot0.InitSubImage(slot0)
 	end)
 end
 
-function slot0.GetTipImage(slot0)
+slot0.GetTipImage = function(slot0)
 	return "tip"
 end
 
-function slot0.InitTipImage(slot0)
+slot0.InitTipImage = function(slot0)
 	if not slot0:GetTipImage() or slot1 == slot0.tipImageName then
 		return
 	end
 
-	LoadSpriteAtlasAsync("ui/mainui_atlas", slot1, function (slot0)
+	LoadSpriteAtlasAsync("ui/mainui_atlas", string.format("Assets/ArtResource/UI/MainUI/%s.png", slot1), function (slot0)
 		uv0.tipImageName = uv1
 		uv0.tipTr.sprite = slot0
 
@@ -138,21 +138,21 @@ function slot0.InitTipImage(slot0)
 	end)
 end
 
-function slot0.UpdatePosition(slot0, slot1)
+slot0.UpdatePosition = function(slot0, slot1)
 	slot0._tf.anchoredPosition = Vector2(slot0._tf.anchoredPosition.x, -150 - (slot1 - 1) * (slot0._tf.sizeDelta.y + -20), 0)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0._tf then
 		setActive(slot0._tf, false)
 	end
 end
 
-function slot0.emit(slot0, ...)
+slot0.emit = function(slot0, ...)
 	slot0.event:emit(...)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0._tf then
@@ -162,7 +162,7 @@ function slot0.Dispose(slot0)
 	end
 end
 
-function slot0.Skip(slot0, slot1)
+slot0.Skip = function(slot0, slot1)
 	if slot1.type == GAMEUI_BANNER_1 then
 		Application.OpenURL(slot1.param)
 	elseif slot1.type == GAMEUI_BANNER_2 then
@@ -186,19 +186,19 @@ function slot0.Skip(slot0, slot1)
 	end
 end
 
-function slot0.GetActivityID(slot0)
+slot0.GetActivityID = function(slot0)
 	assert(false, "策划配置default类型 必须重写这个方法")
 end
 
-function slot0.CustomOnClick(slot0)
+slot0.CustomOnClick = function(slot0)
 	assert(false, "策划配置type = 0 这个按钮必须自己定义跳转行为")
 end
 
-function slot0.GetEventName(slot0)
+slot0.GetEventName = function(slot0)
 	assert(false, "overwrite me !!!")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
 return slot0

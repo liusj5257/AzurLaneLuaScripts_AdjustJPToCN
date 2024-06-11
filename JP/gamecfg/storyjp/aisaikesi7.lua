@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"先輩とわだかまり\n\n<size=45>七　あなたとの日常</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "艦隊を運営するため、今日もやるべきことが山盛りだ。しかしエセックスとの共同作業でいろんな仕事が簡単にこなせるようになっている。",
 			typewriter = {
 				speed = 0.05,
@@ -104,15 +104,15 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "……あ、どうぞ！そのままお入りください！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,12 +137,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "邪魔したな",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "邪魔したな",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -160,8 +160,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "エンタープライズ先輩！なにかご用ですか？",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "少々お待ちください。指揮官、委託リストは手元の山の中にあるはずです",
 			typewriter = {
 				speed = 0.05,
@@ -228,12 +228,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "…エセックスも変わったな。指揮官との共同作業も上手くなったようだ",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "…エセックスも変わったな。指揮官との共同作業も上手くなったようだ",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -266,14 +266,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107090,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "私が変わった…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "多分指揮官と長くいたおかげですね。秘書艦になってから、訓練もほかの子とのコミュニケーションも、指揮官には色々助けていただきました",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "そういう意味では、指揮官との仲も、ええと……",
 			typewriter = {
@@ -356,8 +356,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "指揮官、実は私……",
 			typewriter = {
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "すまない。一つ言い忘れたが――",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "すまない。一つ言い忘れたが――",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -393,8 +393,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "！！……/////////",
 			typewriter = {
@@ -410,8 +410,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
 			say = "エセックスの表情が不自然にちょっとだけ怖くなり、ドアを開けていたエンタープライズも気まずさで動きを止めた。",

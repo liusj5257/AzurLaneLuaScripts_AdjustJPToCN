@@ -16,8 +16,8 @@ return {
 		{
 			alpha = 0.3,
 			ui = {
-				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/PauseBtn",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/CombatUI(Clone)/PauseBtn",
 				triggerType = {
 					1
 				},
@@ -30,8 +30,8 @@ return {
 		{
 			alpha = 0.3,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/Msgbox/window/button_container/leave",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/Msgbox/window/button_container/leave",
 				triggerType = {
 					1
 				},
@@ -44,8 +44,8 @@ return {
 		{
 			alpha = 0,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_3(Clone)",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_3(Clone)",
 				triggerType = {
 					1
 				},
@@ -60,15 +60,15 @@ return {
 			style = {
 				text = "點擊撤退",
 				mode = 2,
-				posY = -239.55,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -239.55,
 				posX = 101.51
 			},
 			ui = {
-				path = "LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/top",
-				scale = 1.5,
 				pathIndex = -999,
+				scale = 1.5,
+				path = "LevelCamera/Canvas/UIMain/LevelGrid/DragLayer/plane/top",
 				pos = {
 					z = 0,
 					x = 132.58,

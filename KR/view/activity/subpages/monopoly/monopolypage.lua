@@ -4,7 +4,7 @@ slot0.ON_MOVE = "MonopolyGame:ON_MOVE"
 slot0.ON_TRIGGER = "MonopolyGame:ON_TRIGGER"
 slot0.ON_AWARD = "MonopolyGame:ON_AWARD"
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 
 	slot0:bind(uv0.ON_START, function (slot0, slot1, slot2)
@@ -36,10 +36,10 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if not slot0.game then
 		slot0.game = import("view.activity.subPages.Monopoly.game.MomopolyGame").New()
 
@@ -49,7 +49,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.game:Destroy()
 end
 

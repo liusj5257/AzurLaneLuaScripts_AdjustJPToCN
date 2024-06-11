@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 408080,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "So many depth charges... You island ape meanies...",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "... Ugh. Maybe U-556 isn't coming baaaack.",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 		{
 			actor = 201010,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "Huh?!",
 			dialogShake = {
 				speed = 0.09,
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "Hmm, hmm... Thanks for the infoooo.",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			say = "Oh yeah? But you're just as flat!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -291,8 +291,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Bulldog pointed her finger at U-110, who was trying to dive and get away again.",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "Then can I leave when you're done?",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			say = "Why do you think we would just let you get away?",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "Why not?",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			say = "Oh, for the love of... Do any of you have any sense of urgency?",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

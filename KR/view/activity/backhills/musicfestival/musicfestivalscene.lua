@@ -1,12 +1,12 @@
 slot0 = class("MusicFestivalScene", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MusicFestivalUI"
 end
 
 slot0.HUB_ID = 2
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.top = slot0:findTF("top")
 	slot0._closeBtn = slot0:findTF("top/back")
 	slot0._helpBtn = slot0:findTF("top/help")
@@ -45,7 +45,7 @@ function slot0.init(slot0)
 	end):Start())
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._closeBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
@@ -129,7 +129,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot3 = nil
 
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) and not slot2:isEnd() then
@@ -144,12 +144,12 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.stage:Find("tip"), getProxy(MiniGameProxy):GetHubByHubId(slot0.HUB_ID).count > 0)
 end
 
-function slot0.InitFacility(slot0, slot1, slot2)
+slot0.InitFacility = function(slot0, slot1, slot2)
 	onButton(slot0, slot1, slot2)
 	onButton(slot0, slot1:Find("button"), slot2)
 end
 
-function slot0.getStudents(slot0)
+slot0.getStudents = function(slot0)
 	slot1 = {}
 
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) then
@@ -174,7 +174,7 @@ function slot0.getStudents(slot0)
 	return slot1
 end
 
-function slot0.InitAreaTransFunc(slot0)
+slot0.InitAreaTransFunc = function(slot0)
 	slot0.edge2area = {
 		["1_2"] = slot0.bottom,
 		["2_3"] = slot0.bottom,
@@ -182,7 +182,7 @@ function slot0.InitAreaTransFunc(slot0)
 	}
 end
 
-function slot0.updateStudents(slot0)
+slot0.updateStudents = function(slot0)
 	for slot5, slot6 in pairs(slot0:getStudents()) do
 		if not slot0.academyStudents[slot5] then
 			slot7 = cloneTplTo(slot0._shipTpl, slot0._map)
@@ -210,7 +210,7 @@ function slot0.updateStudents(slot0)
 	end
 end
 
-function slot0.getStageShip(slot0)
+slot0.getStageShip = function(slot0)
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_ID) then
 		return
 	end
@@ -220,7 +220,7 @@ function slot0.getStageShip(slot0)
 	end
 end
 
-function slot0.updateStageShip(slot0)
+slot0.updateStageShip = function(slot0)
 	slot1, slot2 = slot0:getStageShip()
 
 	if slot1 then
@@ -239,7 +239,7 @@ function slot0.updateStageShip(slot0)
 	end
 end
 
-function slot0.sortStudents(slot0)
+slot0.sortStudents = function(slot0)
 	for slot5, slot6 in pairs({
 		slot0.front,
 		slot0.middle,
@@ -270,7 +270,7 @@ function slot0.sortStudents(slot0)
 	end
 end
 
-function slot0.clearStudents(slot0)
+slot0.clearStudents = function(slot0)
 	if slot0.sortTimer then
 		slot0.sortTimer:Stop()
 
@@ -285,17 +285,17 @@ function slot0.clearStudents(slot0)
 	slot0.academyStudents = {}
 end
 
-function slot0.TryPlayStory(slot0)
+slot0.TryPlayStory = function(slot0)
 	if "TIANHOUYUYI2" then
 		pg.NewStoryMgr.GetInstance():Play(slot1)
 	end
 end
 
-function slot0.MedalTip()
+slot0.MedalTip = function()
 	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PUZZLA))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearStudents()
 
 	for slot4, slot5 in pairs(slot0._loadingRequest) do

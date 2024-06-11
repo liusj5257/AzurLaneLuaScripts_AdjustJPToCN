@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			oldPhoto = true,
 			side = 2,
 			bgName = "bg_xiangting_2",
-			stopbgm = true,
+			oldPhoto = true,
 			dir = 1,
-			say = "鳴り響く耳障りな警報音。硝煙の匂い。熱を帯びた濁った空気。",
 			bgm = "airRaidAlarm",
+			stopbgm = true,
+			say = "鳴り響く耳障りな警報音。硝煙の匂い。熱を帯びた濁った空気。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "………NYシティのすぐそばまでやってきたのか。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "なぜ自分がここにいるのか、そもそも自分が何をしているのかが分からない。",
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			actorName = "？？",
 			dir = 1,
-			side = 2,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "なぜまだここにいるの？！",
 			dialogShake = {
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "彼女たちとサモスに行くんじゃなかったの？ひとりで残ってるなんて――",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "懐かしき「博士」の声がする。",
@@ -125,12 +125,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "反撃が失敗に終わったの。ここが落ちるのも時間の問題よ",
 			typewriter = {
@@ -143,12 +143,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "…わがまま言わないの。だからあんたをサモスに行かせるんじゃない…",
 			typewriter = {
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "…今のはただの一時しのぎね。でももう限界。ヤツらはすぐまた攻撃してくる。そうなったら一巻の終わり。計画通りだけど",
 			typewriter = {
@@ -179,12 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "計画のことはあんたも知ってるじゃない。確か賛成…いや反対？でしたっけ…うぅ、最近ちょっと忙しすぎて物忘れが激しいわ…",
 			typewriter = {
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "とにかく、ここにいるって言われても困るわ。あんたはあっちにいるべきよ",
 			typewriter = {
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "私なんかよりはあっちのほうが……もう、最終便が残っているか確認するわね",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			mode = 1,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			sequence = {
 				{
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			mode = 1,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			sequence = {
 				{
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "……………………？！",
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "もう、せっかく船まで案内したのに、ほらさっさと乗って！戦闘に巻き込まれちゃうでしょう！",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "…………………………………………",
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "そう？計画通りならあの子たちは敵と戦ってそのまま別の合流地点に行くんだよね…",
 			typewriter = {
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "彼女たちが戻れば、あなたは……",
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "嫌よ。もともと彼女たちに見せたくないからそうしたのに",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			blackBg = true,

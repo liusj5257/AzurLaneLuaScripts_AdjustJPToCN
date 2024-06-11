@@ -1,9 +1,9 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI04",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
@@ -279,14 +279,14 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
-			say = "... Brothers and sisters, awaken to my call!",
 			bgmDelay = 3,
 			bgm = "story-french",
+			mode = 2,
+			say = "... Brothers and sisters, awaken to my call!",
 			flashout = {
-				black = true,
 				dur = 1.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "Our country has been shattered. Overnight, we became a puppet of the Crimson Axis.",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "\"Put down your weapons, and do not resist.\" This was the order that we were given.",
 			typewriter = {
 				speed = 0.05,
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "Iris's proud Templar Knights, tasked with preserving the teachings of the Orthodoxy, were declared defeated without even having an opportunity to fight.",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "Just decades ago, our predecessors made countless sacrifices to reclaim the lands that were rightfully ours.",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "But now, our country has once again been betrayed, sold off by those who have turned against the Scriptures!",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "Due to their fear, they have thrown away their dignity and condemned us to slavery.",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "Is there any greater humiliation than watching the Iron Blood tread all over our beloved Arc de Triomphe and Champ de Mars? No, there is not!",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "Our immortal souls may patiently await salvation in Heaven, but our mortal country must be protected here and now, at all costs!",
 			typewriter = {
 				speed = 0.05,
@@ -422,8 +422,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "From this moment forth, I declare the formation of Iris Libre!",
 			typewriter = {
 				speed = 0.05,
@@ -435,14 +435,14 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
 			bgName = "bg_story_faxi1",
 			blackBg = true,
+			mode = 2,
 			say = "This standard was once flown by the Holy Virgin during the Hundred Years' War, and is a symbol for freedom and sacrifice. It shall once again fly in these lands.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bg_story_faxi1",
 			say = "Brothers and sisters, awaken to my call! For the sake of our country's future, gather underneath this banner!",
 			typewriter = {
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bg_story_faxi1",
 			say = "Our country faces a grave peril, but we are not alone, nor are we helpless!",
 			typewriter = {
@@ -501,8 +501,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			bgName = "bgm_story_french",
 			say = "Brothers and sisters, great power still dwells within you. It is time to awaken that power!",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
+			mode = 2,
 			bgName = "bg_story_faxi1",
 			blackBg = true,
 			say = "In doing so, we will push back our enemies and emerge victorious. When that comes, we shall regain our lost glory!",
@@ -530,13 +530,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
+			blackBg = true,
 			mode = 2,
 			say = "Remember, the light of God illuminates our path! Be steadfast in your convictions, and never lose hope!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -568,8 +568,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "No matter what happens, the flames of liberty will never be extinguished!",
 			typewriter = {
 				speed = 0.05,
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "To all my brothers and sisters...",
 			typewriter = {
 				speed = 0.05,
@@ -594,8 +594,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			mode = 2,
+			side = 2,
 			say = "May you all be blessed by Father, Son, and the Holy Spirit.",
 			typewriter = {
 				speed = 0.05,
@@ -618,8 +618,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -646,8 +646,8 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			dir = 1,
 			say = "Quite the stirring speech. So that's the girl who has become the new Cardinal...",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

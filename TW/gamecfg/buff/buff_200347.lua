@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 剧情战黎塞留",
 	time = 0,
-	color = "yellow",
+	name = "2023英系活动 剧情战黎塞留",
+	init_effect = "",
+	id = 200347,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200347,
+	color = "yellow",
 	icon = 200347,
 	last_effect = "",
 	effect_list = {
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200346,
 				time = 8,
-				target = "TargetSelf",
-				skill_id = 200346
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -38,9 +38,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200347,
 				time = 20,
-				target = "TargetSelf",
-				skill_id = 200347
+				target = "TargetSelf"
 			}
 		}
 	}

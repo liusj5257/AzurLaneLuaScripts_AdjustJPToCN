@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "荆棘",
 	time = 0,
-	color = "red",
+	name = "荆棘",
+	init_effect = "",
+	id = 74400,
 	picture = "",
 	desc = "战斗对象每次对我方舰队造成伤害时，额外增加100点伤害",
 	stack = 1,
-	id = 74400,
+	color = "red",
 	icon = 74400,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageEnhanceProjectile",
-				number = 10
+				number = 10,
+				attr = "damageEnhanceProjectile"
 			}
 		}
 	}

@@ -1,13 +1,13 @@
 return {
-	id = "WORLD507B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이 세이렌 잔해는 아직도 불타고 있어, 부서진 지 얼마 되지 않은 것으로 보인다.",
 			typewriter = {
 				speed = 0.05,

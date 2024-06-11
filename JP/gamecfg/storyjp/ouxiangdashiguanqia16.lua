@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
+			stopbgm = true,
 			say = "想いの力、歌の力を引き出せると言われている「μ兵装」",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,9 +39,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "そして「μ兵装」を使うこの母港での三度目の「ライブ大会」",
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "その前に行われた「765プロダクション」のアイドルたちと艦船たちの合同ライブは過去最高の盛り上がりを見せ、数え切れないファンの心を掴んだという。",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "そして…………",
 			typewriter = {
 				speed = 0.05,
@@ -83,17 +83,17 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
-			bgm = "idom-Appeal",
 			dir = 1,
 			bgmDelay = 2,
 			hidePaintEquip = true,
+			bgm = "idom-Appeal",
 			actor = 10700050,
 			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			say = "もう、今度こそ本当に大丈夫なんでしょうね？もう一度あんなことが起きたら心臓が持たないわよ…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -121,11 +121,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "あらあら～、律子さんは心配性ですね～",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,13 +136,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "まさかエネルギーがぶつかり合ってお互いかき消されてしまっただなんて",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "まさかエネルギーがぶつかり合ってお互いかき消されてしまっただなんて",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,13 +169,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "えっ！？　……ってことは、もう帰れなくなっちゃったの！？と見せかけて……",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "えっ！？　……ってことは、もう帰れなくなっちゃったの！？と見せかけて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,11 +189,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "実はトンネルの場所はライブステージじゃなくて、この事務所だった―だなんて",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "本当に心臓に悪かったわよ。まったく",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "ごめんなさいにゃ。明石が悪かったにゃ、もう許してにゃ＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,13 +264,13 @@ return {
 			}
 		},
 		{
-			actor = 10700040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "まあまあ、みんなのおかげでトンネルが見つかったんだから結果的によかったじゃない。私たちだけでトンネルを探すことになっていたら不安でしかたがなかったと思うわ～",
 			hidePaintEquip = true,
+			actor = 10700040,
+			nameColor = "#a9f548",
+			say = "まあまあ、みんなのおかげでトンネルが見つかったんだから結果的によかったじゃない。私たちだけでトンネルを探すことになっていたら不安でしかたがなかったと思うわ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,13 +297,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（あのライブのあと、「μ兵装」から発生したエネルギーと、艦船のみんなが言っていた異常エネルギーが一緒に消滅した……）",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "（あのライブのあと、「μ兵装」から発生したエネルギーと、艦船のみんなが言っていた異常エネルギーが一緒に消滅した……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,13 +314,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（その一部の余波がこの母港にやってきて、私たちがこの世界に来た時に使われたトンネルが使えるようになったみたいで……）",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "（その一部の余波がこの母港にやってきて、私たちがこの世界に来た時に使われたトンネルが使えるようになったみたいで……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,11 +334,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "（結局どうして急にこの世界に来たのか、わからないけど、元の世界に戻れそうで本当に良かった……）",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,13 +413,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "次は絶対負けないからね！ね、真美？",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "次は絶対負けないからね！ね、真美？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,8 +430,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -443,11 +443,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "もう、負けたのは亜美だけじゃん！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,13 +522,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…………この度は大変お世話になりました",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,13 +539,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700040,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "お世話になりました。みんなと過ごせてとても楽しかったわ～、ふふ",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,13 +556,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700070,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ライブだけじゃなくて色々楽しかったよ！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700060,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "亜美もメーッチャに楽しかった♪",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,13 +600,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700050,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "この世界で過ごした時間はとてもいい経験になったわ。みんな本当にありがとう！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,13 +617,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700030,
-			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "伊織ちゃんがいなくなっても寂しがるんじゃないわよ！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,13 +634,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "いつか、またみんなで一緒にライブしようね！",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "いつか、またみんなで一緒にライブしようね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,8 +651,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -661,13 +661,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "スタッフ",
-			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "はい、次の方お願いしまーす！",
+			bgName = "star_level_bg_1100",
 			bgm = "idom-MainBGM",
+			nameColor = "#a9f548",
+			say = "はい、次の方お願いしまーす！",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -704,9 +704,9 @@ return {
 			bgName = "star_level_bg_1100",
 			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
 			nameColor = "#a9f548",
 			say = "あら、私たち、戻って来たのね……",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = false,
@@ -726,11 +726,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "疲れたわね……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,13 +741,13 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "休憩休憩っと！ふぅ～……",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "休憩休憩っと！ふぅ～……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,8 +758,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -768,13 +768,13 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あっという間に帰って来ちゃった！ん－……でも向こうで過ごした時間はすごく長く感じたような……",
 			hidePaintEquip = true,
+			actor = 10700070,
+			nameColor = "#a9f548",
+			say = "あっという間に帰って来ちゃった！ん－……でも向こうで過ごした時間はすごく長く感じたような……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,13 +785,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "さあ、休んでる暇はないわよ、撮影を続けましょう！次は春香の番かしら？",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "さあ、休んでる暇はないわよ、撮影を続けましょう！次は春香の番かしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,11 +805,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "ええ、確かそうだったかと",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,8 +820,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "スタッフ",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -839,11 +839,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 10700010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "はーい！よろしくお願いします！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,9 +854,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "「彼方より現れ、青き星の航路を脅かす謎の侵略者」",
 			typewriter = {
 				speed = 0.05,
@@ -868,9 +868,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "「迎撃するは鋼鉄の海底から蘇る勇壮なる戦艦たち」",
 			typewriter = {
 				speed = 0.05,
@@ -882,9 +882,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "「アイドルたちが歌うメインテーマ曲は、勇者たちの戦いを支える……」",
 			typewriter = {
 				speed = 0.05,

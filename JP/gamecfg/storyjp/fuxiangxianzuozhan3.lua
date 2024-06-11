@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "浮島要塞B3",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
+			say = "浮島要塞B3",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,8 +59,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "今回の更新により、浮島飛行場の規模が強化されただけでなく、敵機のシミュレーションもより本物の「駒」に近くなった",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "ペーター、質問していい？",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "そうなの！？…コホン！そうなの、ね！私も知ってたよ！",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "でも本当にいいの？「駒」のことがあるとはいえ、仲間のデータを使って訓練の標的を作るなんて…",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "最新のデータを使った浮島飛行場のシミュレーション機能がどこまで強化されているか、実戦演習でテストするのがもっとも合理的よ",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "そ、そうだよね",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "ほかに質問は？ハインリヒはもう分かってくれたみたいね",
 			typewriter = {
@@ -265,10 +265,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_fuxiangxian_1",
 			side = 0,
+			bgName = "bg_fuxiangxian_1",
+			hideOther = true,
 			dir = 1,
 			actor = 406010,
 			actorName = "ヴェーザー&Z46",
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "訓練いえ、実戦演習といっても簡単よ。目標エリアに現れる演習標的――艦艇だろうと飛行機だろうと全部撃破すること",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "スパルタだ…",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "怪我をしないような訓練なら実戦で命を落とすわ",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "フィーゼちゃんもそう言うのなら…よし！それで訓練はいつ始まるの？早く今日の特訓の成果を新しい敵に試したくて――",
 			typewriter = {
@@ -391,8 +391,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -417,16 +417,16 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
+			actor = 403090,
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "アイゼンくん！早く行こう！Los！Los！",
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 0.5,
 					x = 2500
@@ -451,8 +451,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "………開始するわ",
 			effects = {
@@ -474,9 +474,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
 			blackBg = true,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "いつも通りね。ふふ",
 			typewriter = {

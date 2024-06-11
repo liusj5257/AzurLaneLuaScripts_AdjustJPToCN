@@ -29,14 +29,14 @@ return {
 	{
 		time = 15
 	},
-	init_effect = "",
-	name = "弱点侦测",
 	time = 5,
-	color = "yellow",
+	name = "弱点侦测",
+	init_effect = "",
+	id = 5010,
 	picture = "",
 	desc = "受到伤害提高20%",
 	stack = 1,
-	id = 5010,
+	color = "yellow",
 	icon = 5010,
 	last_effect = "Darkness",
 	effect_list = {
@@ -47,8 +47,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.2
+				number = 0.2,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z463",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z463",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"白き詩\n\n<size=45>三　幕間Ⅰ</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_room",
 			say = "母港・寮舎",
+			bgName = "bg_story_room",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_room",
+			blackBg = true,
 			say = "微妙に会話に入りづらかったのは何故だろうか。",
 			typewriter = {
 				speed = 0.05,

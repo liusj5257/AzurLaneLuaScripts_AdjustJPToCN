@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_242 = {}
 slot1 = slot0.word_template_242
 
-function temp()
+temp = function()
 	uv0["遲"] = {
 		["鈍"] = {
 			["的"] = {
@@ -24,7 +24,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["持"] = {
 		["不"] = {
 			["同"] = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["處"] = {
 		["女"] = {
 			this = true,
@@ -61,7 +61,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["傳"] = {
 		["染"] = {
 			["性"] = {

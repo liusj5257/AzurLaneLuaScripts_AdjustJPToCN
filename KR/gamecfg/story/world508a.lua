@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "main-arbitrationsystem-theme",
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "잠깐, 전방에서 함대가 대치 중이야… 한쪽은 세이렌으로 보이고 다른 한쪽은 레이더에 전혀 표시되지 않아, 아마 잔불인 것 같아.",
-			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,9 +205,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "저희의 연구 함대를 구해줬다고요...? 가만, 저게 바로 저희가 쫓고 있던 타깃 아닌가요?!",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "눈치채지 못했을 때 일단 숨어서 상황이나 보는 게 좋지 않을까...",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "좋은 생각이지만 아쉽게도 이미 너무 늦었습니다.",
 			typewriter = {
@@ -294,14 +294,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "마침 잘 왔어요. 저는 여러분이 반드시 딱 맞춰 올 줄 알았다구요.",
-			bgm = "battle-ashes-theme",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "도대체 어떻게 된 거야, 히류? 며칠 동안 혼자 신출귀몰하더니, 이런 일을 꾸미고 다닌 거야…?",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "갑자기 진지전을 치러야 하니 머리를 좀 쓰는 게 좋지 않겠어요~?",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "타카오가 최대한 부딪히지 말라고 하지 않았었나...",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "계획이 변화를 따라가지 못하잖아요.",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "네 맘대로 해………",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "함대가 출현한 것을 보고, 두 명의 잔불 멤버 사이에 약간의 다툼이 생긴 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "잠시 후 결론이 났는지 실랑이를 포기한 아크로열이 지휘함 쪽을 바라봤다.",
 			typewriter = {
 				speed = 0.05,
@@ -464,9 +464,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "………당신이 G가 엄청 신경 쓴다는 지휘관인가?",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 1,
 			say = "……………………",
 			typewriter = {
@@ -504,10 +504,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 9707020,
-			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 1,
+			actor = 9707020,
+			nameColor = "#ffa500",
 			say = "대답을 하지 않겠다? 칫.",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "처음 뵙겠습니다. 아크로열·META죠?",
 			typewriter = {
@@ -535,10 +535,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 9707020,
-			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 2,
+			actor = 9707020,
+			nameColor = "#ffa500",
 			say = "나쁘지 않네.",
 			typewriter = {
 				speed = 0.05,
@@ -553,8 +553,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "지휘관이란, 원래 이런 느낌의 존재였나.",
 			typewriter = {
 				speed = 0.05,
@@ -584,8 +584,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "폐————",
 			typewriter = {
 				speed = 0.05,
@@ -600,8 +600,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "………맞아. 착각하지 마! 나에겐 내가 아크로열이지만, 너에겐 그렇지 않을 수도 있으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -616,8 +616,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "………… 난 더 이상 이야기를 하고 싶지 않다.",
 			typewriter = {
 				speed = 0.05,
@@ -647,8 +647,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "신경 쓰지 마세요, 그녀는 항상 이런 스타일이니까요. 그녀처럼 이렇게 하는 것이 가장 옳은 선택이지만...",
 			typewriter = {
 				speed = 0.05,
@@ -663,8 +663,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "본론으로 돌아가서, 그동안 지켜본 결과 여러분은 안티엑스의 든든한 연맹도 아닌 것 같고,",
 			typewriter = {
 				speed = 0.05,
@@ -678,9 +678,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "이번에 이렇게 많은 사람이 왔으니 어떠신가요, 같이 한 번 싸워보는 건?",
 			typewriter = {
 				speed = 0.05,
@@ -776,8 +776,8 @@ return {
 			expression = 6,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "잠깐 잠깐, 저희 앞에서 이런 말을 한다고요?",
 			typewriter = {
 				speed = 0.05,
@@ -792,8 +792,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "숨길 계획도 없었어. 너희와 대화를 시도한 지도 오래잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -808,8 +808,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "허, 여러분은 스스로 아는 것만큼 그렇게 믿음직스럽지 않군요.",
 			typewriter = {
 				speed = 0.05,
@@ -824,8 +824,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "물론 가끔씩 함께 안티엑스를 공격하는 것도 좋을 것 같은데, 어떻게 생각하세요, 아비터?",
 			typewriter = {
 				speed = 0.05,
@@ -837,8 +837,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아비터·템퍼런스·XIV",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -853,8 +853,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아비터·허밋·IX",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -869,8 +869,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아비터·스트랭스·VIII",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -885,8 +885,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아비터·허밋·IX",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -901,9 +901,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
+			dir = 1,
 			say = "모두 주의. 지금부터 잔불과의 연합 작전을 시작하겠다————",
 			typewriter = {
 				speed = 0.05,
@@ -915,9 +915,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
+			dir = 1,
 			say = "타깃은, 세이렌 아비터. 자유 발포!",
 			typewriter = {
 				speed = 0.05,

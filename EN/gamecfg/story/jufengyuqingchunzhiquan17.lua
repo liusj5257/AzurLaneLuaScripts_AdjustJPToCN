@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN17",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "After ten minutes of keeping the colossal Echo Fleet ship at bay, Whydah suddenly returns.",
 			bgm = "story-temepest-2",
+			say = "After ten minutes of keeping the colossal Echo Fleet ship at bay, Whydah suddenly returns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "She hands me a board-like object made of black metal.",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "I thought it looked extremely familiar. Sure enough, it is a tablet.",
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Is that what you were keeping inside your snack box?",
@@ -133,10 +133,10 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "The Risen Tempesta",
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I told you! It's not a dang snack box!",
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grimoire Terminal",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grimoire Terminal",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "Ancient Artifact",
 			nameColor = "#A9F548FF",
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "The familiar voice makes my muscle memory kick in.",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grimoire Terminal",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
@@ -273,21 +273,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_jufengv1_cg4",
+			mode = 1,
 			bgm = "battle-temepest-2",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -305,20 +305,20 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "Sweet. Now it's showtime.",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Sweet. Now it's showtime.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg4",
 			hidePaintObj = true,
 			say = "Whydah spoke, and at the same time, a sound like distant rumbling came from the sky.",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg4",
 			hidePaintObj = true,
 			say = "The night sky is lit up by what looks like shimmering falling stars that converge upon a single point.",
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg4",
 			hidePaintObj = true,
 			say = "Traveling faster than the speed of sound, the objects strike the gigantic warship. A moment later follows an ear-shattering sonic boom and explosion.",
@@ -350,9 +350,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_jufengv1_cg4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "KABOOM!",
 			typewriter = {
@@ -360,17 +360,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -383,28 +383,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_jufengv1_cg4",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "KABOOOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -451,8 +451,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg4",
 			hidePaintObj = true,
 			say = "The massive vessel capsizes instantly, and the many steel cannons lining its broadside fall into the ocean one after the next.",
@@ -466,12 +466,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "The Invincible Crown",
-			nameColor = "#A9F548FF",
-			say = "The enemy has sunk.",
-			actor = 9600020,
-			actorName = "São Martinho",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "São Martinho",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "The enemy has sunk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,12 +483,12 @@ return {
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "The Rising Star",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "What was THAT? Shooting stars?",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "What was THAT? Shooting stars?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,12 +503,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "The Invincible Crown",
-			nameColor = "#A9F548FF",
-			say = "Unbelievable... She sunk that great beast in the twinkle of an eye. Such frightening power.",
-			actor = 9600020,
-			actorName = "São Martinho",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "São Martinho",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Unbelievable... She sunk that great beast in the twinkle of an eye. Such frightening power.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,12 +520,12 @@ return {
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "Investor",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "My, my. The power of that ancient artifact hasn't declined one bit~",
-			actor = 9600030,
-			actorName = "Golden Hind",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Golden Hind",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "My, my. The power of that ancient artifact hasn't declined one bit~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,12 +540,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "Riiight?",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Riiight?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,12 +557,12 @@ return {
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "A Ghost",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I'll be damned! You did it, li'l girl!",
-			actor = 9600040,
-			actorName = "Mary Celeste",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Mary Celeste",
+			actor = 9600040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I'll be damned! You did it, li'l girl!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,12 +577,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "Eep! L-let go of my hat!",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Eep! L-let go of my hat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,12 +593,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg4",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "I've got something important to say... Lemme goooo!",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I've got something important to say... Lemme goooo!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,9 +607,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_jufengv1_4",
 			factiontag = "A Ghost",
 			dir = 1,
+			bgName = "bg_jufengv1_4",
 			bgm = "story-temepest-1",
 			actor = 9600040,
 			nameColor = "#A9F548FF",
@@ -624,17 +624,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -642,8 +642,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "Mary puts Whydah back down after holding her high in the air like a baby.",
@@ -949,11 +949,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What do you think, my darling?",
@@ -987,11 +987,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "A Ghost",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Great. Yippieee.",

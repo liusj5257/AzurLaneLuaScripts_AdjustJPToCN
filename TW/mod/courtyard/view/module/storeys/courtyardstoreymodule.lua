@@ -1,7 +1,7 @@
 slot0 = class("CourtYardStoreyModule", import("..CourtYardBaseModule"))
 slot1 = false
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.modules = {}
@@ -21,11 +21,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.playTheLutePage = CourtyardPlayTheLutePage.New(slot0)
 end
 
-function slot0.GetDefaultBgm(slot0)
+slot0.GetDefaultBgm = function(slot0)
 	return pg.voice_bgm.CourtYardScene.default_bgm
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.zoomAgent = slot0._tf:Find("bg"):GetComponent("PinchZoom")
 	slot0.scrollrect = slot0._tf:Find("scroll_view")
 	slot0.bg = slot0._tf:Find("bg")
@@ -53,15 +53,15 @@ function slot0.OnInit(slot0)
 	slot0.bg.localScale = Vector3(1.438, 1.438, 1)
 end
 
-function slot0.GetFurnitureStateMgr(slot0, slot1)
+slot0.GetFurnitureStateMgr = function(slot0, slot1)
 	return slot1:IsSpine() and slot0.furnitureStateMgrs[2] or slot0.furnitureStateMgrs[1]
 end
 
-function slot0.InitPedestalModule(slot0)
+slot0.InitPedestalModule = function(slot0)
 	slot0.pedestalModule = CourtYardPedestalModule.New(slot0.data, slot0.bg)
 end
 
-function slot0.AddListeners(slot0)
+slot0.AddListeners = function(slot0)
 	slot0:AddListener(CourtYardEvent.INITED, slot0.OnInited)
 	slot0:AddListener(CourtYardEvent.CREATE_ITEM, slot0.OnCreateItem)
 	slot0:AddListener(CourtYardEvent.REMOVE_ITEM, slot0.OnRemoveItem)
@@ -104,7 +104,7 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.BACK_PRESSED, slot0.OnBackPressed)
 end
 
-function slot0.RemoveListeners(slot0)
+slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(CourtYardEvent.INITED, slot0.OnInited)
 	slot0:RemoveListener(CourtYardEvent.CREATE_ITEM, slot0.OnCreateItem)
 	slot0:RemoveListener(CourtYardEvent.REMOVE_ITEM, slot0.OnRemoveItem)
@@ -147,7 +147,7 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.BACK_PRESSED, slot0.OnBackPressed)
 end
 
-function slot0.OnInited(slot0)
+slot0.OnInited = function(slot0)
 	slot0.isInit = true
 
 	if uv0 then
@@ -158,7 +158,7 @@ function slot0.OnInited(slot0)
 	slot0:RefreshMatDepth()
 end
 
-function slot0.AllModulesAreCompletion(slot0)
+slot0.AllModulesAreCompletion = function(slot0)
 	for slot4, slot5 in pairs(slot0.modules) do
 		if not slot5:IsCompletion() then
 			return false
@@ -168,7 +168,7 @@ function slot0.AllModulesAreCompletion(slot0)
 	return true
 end
 
-function slot0.OnRemindSave(slot0)
+slot0.OnRemindSave = function(slot0)
 	_BackyardMsgBoxMgr:Show({
 		content = i18n("backyard_backyardScene_quest_saveFurniture"),
 		onYes = function ()
@@ -181,7 +181,7 @@ function slot0.OnRemindSave(slot0)
 	})
 end
 
-function slot0.OnEnterEidtMode(slot0)
+slot0.OnEnterEidtMode = function(slot0)
 	for slot4, slot5 in pairs(slot0.modules) do
 		if isa(slot5, CourtYardShipModule) then
 			slot5:SetActive(false)
@@ -193,7 +193,7 @@ function slot0.OnEnterEidtMode(slot0)
 	slot0.bg.localScale = Vector3(0.95, 0.95, 1)
 end
 
-function slot0.OnExitEidtMode(slot0)
+slot0.OnExitEidtMode = function(slot0)
 	for slot4, slot5 in pairs(slot0.modules) do
 		if isa(slot5, CourtYardShipModule) then
 			slot5:SetActive(true)
@@ -203,7 +203,7 @@ function slot0.OnExitEidtMode(slot0)
 	end
 end
 
-function slot0.OnCreateItem(slot0, slot1, slot2)
+slot0.OnCreateItem = function(slot0, slot1, slot2)
 	slot4 = slot0.factorys[slot1:GetObjType()]:Make(slot1)
 
 	if slot2 then
@@ -213,7 +213,7 @@ function slot0.OnCreateItem(slot0, slot1, slot2)
 	slot0.modules[slot1:GetDeathType() .. slot1.id] = slot4
 end
 
-function slot0.OnAddItem(slot0)
+slot0.OnAddItem = function(slot0)
 	if not slot0.isInit then
 		return
 	end
@@ -225,7 +225,7 @@ function slot0.OnAddItem(slot0)
 	end
 end
 
-function slot0.OnRemoveItem(slot0, slot1)
+slot0.OnRemoveItem = function(slot0, slot1)
 	slot0:Item2Module(slot1):SetAsLastSibling()
 
 	if uv0 then
@@ -233,7 +233,7 @@ function slot0.OnRemoveItem(slot0, slot1)
 	end
 end
 
-function slot0.OnSelectedItem(slot0, slot1, slot2)
+slot0.OnSelectedItem = function(slot0, slot1, slot2)
 	slot0.selectedModule = slot0:Item2Module(slot1)
 	slot0.gridAgent = slot0:GetGridAgent(slot1, slot2)
 
@@ -252,11 +252,11 @@ function slot0.OnSelectedItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InitFurnitureState(slot0, slot1, slot2)
+slot0.InitFurnitureState = function(slot0, slot1, slot2)
 	slot0:GetFurnitureStateMgr(slot2):OnInit(slot1, slot2)
 end
 
-function slot0.UpdateFurnitureState(slot0, slot1, slot2, slot3)
+slot0.UpdateFurnitureState = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:GetFurnitureStateMgr(slot3)
 
 	if _.any(slot2, function (slot0)
@@ -268,19 +268,19 @@ function slot0.UpdateFurnitureState(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.ResetFurnitureSelectedState(slot0, slot1)
+slot0.ResetFurnitureSelectedState = function(slot0, slot1)
 	slot0:GetFurnitureStateMgr(slot1):OnReset(slot0:Item2Module(slot1))
 end
 
-function slot0.ClearFurnitureSelectedState(slot0, slot1)
+slot0.ClearFurnitureSelectedState = function(slot0, slot1)
 	slot0:GetFurnitureStateMgr(slot1):OnClear()
 end
 
-function slot0.OnDragItem(slot0, slot1)
+slot0.OnDragItem = function(slot0, slot1)
 	slot0:EnableZoom(false)
 end
 
-function slot0.OnDragingItem(slot0, slot1, slot2, slot3, slot4)
+slot0.OnDragingItem = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:Item2Module(slot1):UpdatePosition(slot3, slot4)
 	slot0.gridAgent:Flush(slot2)
 
@@ -290,7 +290,7 @@ function slot0.OnDragingItem(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.OnDragItemEnd(slot0, slot1, slot2)
+slot0.OnDragItemEnd = function(slot0, slot1, slot2)
 	slot0:EnableZoom(true)
 
 	if isa(slot1, CourtYardFurniture) then
@@ -300,7 +300,7 @@ function slot0.OnDragItemEnd(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnUnSelectedItem(slot0, slot1)
+slot0.OnUnSelectedItem = function(slot0, slot1)
 	slot0.selectedModule = nil
 
 	slot0.gridAgent:Clear()
@@ -318,11 +318,11 @@ function slot0.OnUnSelectedItem(slot0, slot1)
 	end
 end
 
-function slot0.OnRemoveIllegalityItem(slot0)
+slot0.OnRemoveIllegalityItem = function(slot0)
 	pg.TipsMgr.GetInstance():ShowTips("Remove illegal Item")
 end
 
-function slot0.OnOpenLayer(slot0, slot1)
+slot0.OnOpenLayer = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.modules) do
 		if isa(slot6, CourtYardShipModule) then
 			slot6:HideAttachment(slot1)
@@ -330,11 +330,11 @@ function slot0.OnOpenLayer(slot0, slot1)
 	end
 end
 
-function slot0.EnableZoom(slot0, slot1)
+slot0.EnableZoom = function(slot0, slot1)
 	slot0.zoomAgent.enabled = slot1
 end
 
-function slot0.RegisterOp(slot0, slot1)
+slot0.RegisterOp = function(slot0, slot1)
 	setActive(slot0.rotationBtn, not slot1:DisableRotation())
 	onButton(slot0, slot0.rotationBtn, function ()
 		uv0:Emit("RotateFurniture", uv1.id)
@@ -360,7 +360,7 @@ function slot0.RegisterOp(slot0, slot1)
 	end)
 end
 
-function slot0.UnRegisterOp(slot0)
+slot0.UnRegisterOp = function(slot0)
 	removeOnButton(slot0.rotationBtn)
 	removeOnButton(slot0.confirmBtn)
 	removeOnButton(slot0.removeBtn)
@@ -368,7 +368,7 @@ function slot0.UnRegisterOp(slot0)
 	slot0.dragBtn:DeActive(false)
 end
 
-function slot0.OnItemDirChange(slot0, slot1, slot2)
+slot0.OnItemDirChange = function(slot0, slot1, slot2)
 	if isa(slot1, CourtYardFurniture) then
 		slot0:UpdateSelectedPosition(slot1)
 
@@ -382,25 +382,25 @@ function slot0.OnItemDirChange(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnRotateItemFailed(slot0)
+slot0.OnRotateItemFailed = function(slot0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_error_canNotRotate"))
 end
 
-function slot0.OnDisableRotation(slot0)
+slot0.OnDisableRotation = function(slot0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_Disable_Rotation"))
 end
 
-function slot0.OnAddItemFailed(slot0)
+slot0.OnAddItemFailed = function(slot0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardScene_error_noPosPutFurniture"))
 end
 
-function slot0.OnDestoryItem(slot0, slot1)
+slot0.OnDestoryItem = function(slot0, slot1)
 	slot0:Item2Module(slot1):Dispose()
 
 	slot0.modules[slot1:GetDeathType() .. slot1.id] = nil
 end
 
-function slot0.OnChildItem(slot0, slot1, slot2)
+slot0.OnChildItem = function(slot0, slot1, slot2)
 	slot0:Item2Module(slot2):AddChild(slot0:Item2Module(slot1))
 
 	if isa(slot1, CourtYardShip) then
@@ -408,7 +408,7 @@ function slot0.OnChildItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnUnChildItem(slot0, slot1, slot2)
+slot0.OnUnChildItem = function(slot0, slot1, slot2)
 	slot0:Item2Module(slot2):RemoveChild(slot0:Item2Module(slot1))
 
 	if isa(slot1, CourtYardShip) then
@@ -416,13 +416,13 @@ function slot0.OnUnChildItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnEnterArch(slot0, slot1, slot2)
+slot0.OnEnterArch = function(slot0, slot1, slot2)
 end
 
-function slot0.OnExitArch(slot0, slot1, slot2)
+slot0.OnExitArch = function(slot0, slot1, slot2)
 end
 
-function slot0.OnAddMatItem(slot0)
+slot0.OnAddMatItem = function(slot0)
 	if not slot0.isInit then
 		return
 	end
@@ -430,15 +430,15 @@ function slot0.OnAddMatItem(slot0)
 	slot0:RefreshMatDepth()
 end
 
-function slot0.OnRemoveMatItem(slot0, slot1)
+slot0.OnRemoveMatItem = function(slot0, slot1)
 	slot0:Item2Module(slot1):SetAsLastSibling()
 end
 
-function slot0.OnShowFurnitureDesc(slot0, slot1)
+slot0.OnShowFurnitureDesc = function(slot0, slot1)
 	slot0.descPage:ExecuteAction("Show", slot1)
 end
 
-function slot0.OnItemInterAction(slot0, slot1, slot2, slot3)
+slot0.OnItemInterAction = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:Item2Module(slot1)
 
 	slot0:Item2Module(slot2):BlocksRaycasts(true)
@@ -478,7 +478,7 @@ function slot0.OnItemInterAction(slot0, slot1, slot2, slot3)
 	slot0:AddInteractionFollower(slot3, slot8, slot5)
 end
 
-function slot0.OnClearItemInterAction(slot0, slot1, slot2, slot3)
+slot0.OnClearItemInterAction = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:Item2Module(slot1)
 
 	if isa(slot0:Item2Module(slot2), CourtYardFurnitureModule) and #slot2:GetUsingSlots() == 0 then
@@ -502,7 +502,7 @@ function slot0.OnClearItemInterAction(slot0, slot1, slot2, slot3)
 	slot0:ClearInteractionFollower(slot3, slot4, slot5)
 end
 
-function slot0.AddInteractionFollower(slot0, slot1, slot2, slot3)
+slot0.AddInteractionFollower = function(slot0, slot1, slot2, slot3)
 	if not slot1:GetFollower() or not slot2 then
 		return
 	end
@@ -518,7 +518,7 @@ function slot0.AddInteractionFollower(slot0, slot1, slot2, slot3)
 	slot2:SetParent(slot6, false)
 end
 
-function slot0.ClearInteractionFollower(slot0, slot1, slot2, slot3)
+slot0.ClearInteractionFollower = function(slot0, slot1, slot2, slot3)
 	if not slot1:GetFollower() then
 		return
 	end
@@ -528,7 +528,7 @@ function slot0.ClearInteractionFollower(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnTouchItem(slot0, slot1)
+slot0.OnTouchItem = function(slot0, slot1)
 	if isa(slot1, CourtYardFurniture) then
 		slot0.effectAgent:EnableEffect(slot1:GetTouchEffect())
 		slot0.soundAgent:Play(slot1:GetTouchSound())
@@ -536,14 +536,14 @@ function slot0.OnTouchItem(slot0, slot1)
 	end
 end
 
-function slot0.OnCancelTouchItem(slot0, slot1)
+slot0.OnCancelTouchItem = function(slot0, slot1)
 	if isa(slot1, CourtYardFurniture) then
 		slot0.effectAgent:DisableEffect(slot1:GetTouchEffect())
 		slot0.bgAgent:Switch(false, slot1:GetTouchBg())
 	end
 end
 
-function slot0.OnItemPlayMusic(slot0, slot1, slot2)
+slot0.OnItemPlayMusic = function(slot0, slot1, slot2)
 	if slot2 == 1 then
 		slot0.soundAgent:Play(slot1)
 	elseif slot2 == 2 then
@@ -551,7 +551,7 @@ function slot0.OnItemPlayMusic(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnItemStopMusic(slot0, slot1, slot2)
+slot0.OnItemStopMusic = function(slot0, slot1, slot2)
 	if slot2 == 2 then
 		slot0.bgmAgent:Reset()
 	elseif slot2 == 1 then
@@ -559,12 +559,12 @@ function slot0.OnItemStopMusic(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnMuteAll(slot0)
+slot0.OnMuteAll = function(slot0)
 	slot0.bgmAgent:Clear()
 	slot0.soundAgent:Clear()
 end
 
-function slot0.OnPlayMusicalInstruments(slot0, slot1)
+slot0.OnPlayMusicalInstruments = function(slot0, slot1)
 	if slot0.descPage and slot0.descPage:GetLoaded() and slot0.descPage:isShowing() then
 		slot0.descPage:Close()
 	end
@@ -574,7 +574,7 @@ function slot0.OnPlayMusicalInstruments(slot0, slot1)
 	end
 end
 
-function slot0.OnStopPlayMusicalInstruments(slot0, slot1)
+slot0.OnStopPlayMusicalInstruments = function(slot0, slot1)
 	slot0.bgmAgent:Reset()
 
 	if slot0.descPage and slot0.descPage:GetLoaded() then
@@ -582,15 +582,15 @@ function slot0.OnStopPlayMusicalInstruments(slot0, slot1)
 	end
 end
 
-function slot0.OnAddEffect(slot0, slot1)
+slot0.OnAddEffect = function(slot0, slot1)
 	slot0.effectAgent:EnableEffect(slot1)
 end
 
-function slot0.OnRemoveEffect(slot0, slot1)
+slot0.OnRemoveEffect = function(slot0, slot1)
 	slot0.effectAgent:DisableEffect(slot1)
 end
 
-function slot0.OnBackPressed(slot0)
+slot0.OnBackPressed = function(slot0)
 	if slot0.playTheLutePage and slot0.playTheLutePage:GetLoaded() and slot0.playTheLutePage:isShowing() then
 		slot0.playTheLutePage:Hide()
 
@@ -606,14 +606,14 @@ function slot0.OnBackPressed(slot0)
 	slot0:Emit("Quit")
 end
 
-function slot0.UpdateSelectedPosition(slot0, slot1)
+slot0.UpdateSelectedPosition = function(slot0, slot1)
 	slot2 = slot0:Item2Module(slot1)
 	slot0.selectedTF.localPosition = slot2:GetCenterPoint()
 
 	slot0:GetFurnitureStateMgr(slot1):OnUpdate(slot2)
 end
 
-function slot0.GetGridAgent(slot0, slot1, slot2)
+slot0.GetGridAgent = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot3 = (not isa(slot1, CourtYardWallFurniture) or slot0.gridAgents[2]) and slot0.gridAgents[1]
 
@@ -626,7 +626,7 @@ function slot0.GetGridAgent(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.ItemsIsLoaded(slot0)
+slot0.ItemsIsLoaded = function(slot0)
 	if table.getCount(slot0.modules) == 0 then
 		return false
 	end
@@ -640,23 +640,23 @@ function slot0.ItemsIsLoaded(slot0)
 	return true
 end
 
-function slot0.Item2Module(slot0, slot1)
+slot0.Item2Module = function(slot0, slot1)
 	return slot0.modules[slot1:GetDeathType() .. slot1.id]
 end
 
-function slot0.RefreshDepth(slot0)
+slot0.RefreshDepth = function(slot0)
 	for slot4, slot5 in ipairs(slot0.data:GetItems()) do
 		slot0:Item2Module(slot5):SetSiblingIndex(slot4 - 1)
 	end
 end
 
-function slot0.RefreshMatDepth(slot0)
+slot0.RefreshMatDepth = function(slot0)
 	for slot4, slot5 in ipairs(slot0.data:GetMatItems()) do
 		slot0:Item2Module(slot5):SetSiblingIndex(slot4 - 1)
 	end
 end
 
-function slot0.OnTakePhoto(slot0)
+slot0.OnTakePhoto = function(slot0)
 	GetOrAddComponent(slot0.selectedTF, typeof(CanvasGroup)).alpha = 0
 	slot0.bgScale = slot0.bg.localScale
 	slot0.bg.localScale = Vector3(0.6, 0.6, 1)
@@ -667,7 +667,7 @@ function slot0.OnTakePhoto(slot0)
 	end
 end
 
-function slot0.OnEndTakePhoto(slot0)
+slot0.OnEndTakePhoto = function(slot0)
 	GetOrAddComponent(slot0.selectedTF, typeof(CanvasGroup)).alpha = 1
 
 	if slot0.bgScale then
@@ -679,7 +679,7 @@ function slot0.OnEndTakePhoto(slot0)
 	end
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0.exited = true
 
 	slot0.dftAniEvent:SetEndEvent(nil)

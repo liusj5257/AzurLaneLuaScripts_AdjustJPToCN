@@ -62,12 +62,12 @@ return {
 	desc_get = "与印第安纳波利斯同时出击时，炮击、防空、装填提升5.0%(满级15.0%)",
 	name = "妹妹真是太棒了！",
 	init_effect = "",
+	id = 10110,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "与印第安纳波利斯同时出击时，炮击、防空、装填提升$1",
 	stack = 1,
-	id = 10110,
+	color = "red",
 	icon = 10110,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 10110,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

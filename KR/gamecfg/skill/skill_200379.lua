@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "2023伊丽莎白meta 亚空间召唤 lv15",
 	cd = 0,
-	painting = 0,
-	id = 200379,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200379,
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -28,10 +28,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1.2,
 				spawnData = {
@@ -44,43 +44,43 @@ return {
 					buffList = {},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 13,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 0.5,
 							removeWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 4,
+							index = 3,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 4,
 							switchType = 1,
 							switchTo = 0,
+							index = 4,
 							switchParam = 300,
 							removeWeapon = {
 								2972054
@@ -91,10 +91,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1,
 				spawnData = {
@@ -107,43 +107,43 @@ return {
 					buffList = {},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 13,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 0.5,
 							removeWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 4,
+							index = 3,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 4,
 							switchType = 1,
 							switchTo = 0,
+							index = 4,
 							switchParam = 300,
 							removeWeapon = {
 								2972054
@@ -154,10 +154,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1.2,
 				spawnData = {
@@ -170,43 +170,43 @@ return {
 					buffList = {},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 13,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 0.5,
 							removeWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 4,
+							index = 3,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 4,
 							switchType = 1,
 							switchTo = 0,
+							index = 4,
 							switchParam = 300,
 							removeWeapon = {
 								2972054
@@ -217,10 +217,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1.4,
 				spawnData = {
@@ -233,43 +233,43 @@ return {
 					buffList = {},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 13,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 0.5,
 							removeWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 4,
+							index = 3,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 4,
 							switchType = 1,
 							switchTo = 0,
+							index = 4,
 							switchParam = 300,
 							removeWeapon = {
 								2972054
@@ -280,10 +280,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1.4,
 				spawnData = {
@@ -296,43 +296,43 @@ return {
 					buffList = {},
 					phase = {
 						{
-							index = 0,
 							switchType = 1,
 							switchTo = 1,
+							index = 0,
 							switchParam = 13,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 0.5,
 							removeWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 4,
+							index = 3,
 							switchParam = 6,
 							addWeapon = {
 								2972054
 							}
 						},
 						{
-							index = 4,
 							switchType = 1,
 							switchTo = 0,
+							index = 4,
 							switchParam = 300,
 							removeWeapon = {
 								2972054

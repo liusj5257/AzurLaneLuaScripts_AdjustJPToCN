@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA8",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Port - Concert Sea Area",
 			side = 2,
 			bgName = "bg_map_idom",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "Port - Concert Sea Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "I'm on my way back! Is everyone okay?!",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -67,13 +67,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_map_idom",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
-			side = 2,
-			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Not a scratch on us. Thank you very much.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_map_idom",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700010,
-			side = 2,
-			bgName = "bg_map_idom",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "That was quite a shocking experience...",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700060,
+			nameColor = "#a9f548",
 			say = "Nihihi! We came in clutch, isn't that right?",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "Yeah, that was the perfect time to unveil our brand new Muse System rigging!",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 301057,
 			dir = 1,
+			actor = 301057,
 			nameColor = "#a9f548",
 			say = "Bringing new friends in and getting new powers— that's the perfect way to wrap up a training arc after a bitter defeat!",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			nameColor = "#a9f548",
 			say = "Jeez, I hope you two realize how much danger you put yourselves in...",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
 			say = "If there was any real threat of danger, I was ready to step in.",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "See, there's no problem! By the way, as you can see, this rigging is a submarine-type! That means...",
 			typewriter = {
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 10700070,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700070,
+			nameColor = "#a9f548",
 			say = "We've been trailing the mass-produced ships without you knowing it, Harurun!",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,13 +254,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait, so you two can dive now?! The level of technology here is pretty wild...",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "Wait, so you two can dive now?! The level of technology here is pretty wild...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,8 +306,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "Ritsuko has some big news for us, right~♪",
 			typewriter = {
@@ -323,11 +323,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "Um... What is this...?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,8 +357,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700030,
 			dir = 1,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "Apparently, \"those ships were equipped with rigging very similar to our Muse System.\"",
 			typewriter = {
@@ -387,13 +387,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I was just curious, but I had no idea she'd actually go and make it...",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "I was just curious, but I had no idea she'd actually go and make it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,8 +407,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "But it worked out, because now we're totally able to fight!",
 			typewriter = {
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700060,
+			nameColor = "#a9f548",
 			say = "Yup yup! We can't just be relying on others the whole time we're here!",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -450,11 +450,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "I see, that makes sense~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,8 +484,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
 			say = "To be honest, I was a bit surprised when Ayanami, Ami, and Mami popped up out of nowhere. Let's make sure we support each other properly.",
 			typewriter = {
@@ -501,14 +501,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 301057,
 			dir = 1,
+			actor = 301057,
 			nameColor = "#a9f548",
 			say = "My apologies...",
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -544,8 +544,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 108050,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
 			say = "And in case things go south, just remember that I've got your back!",
 			typewriter = {
@@ -558,12 +558,12 @@ return {
 			}
 		},
 		{
-			actor = 103250,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 103250,
+			nameColor = "#a9f548",
 			say = "All right then, let's finish scouting out the venue before we head back!",
 			typewriter = {
 				speed = 0.05,

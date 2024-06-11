@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ローザ・ストーリア\n\n<size=45>七 夜のデート</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 603020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "結構歩いたし、ここでちょっと休みましょう？",
 			bgm = "story-2",
+			actor = 603020,
+			nameColor = "#a9f548",
+			say = "結構歩いたし、ここでちょっと休みましょう？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "二人で公園のベンチに腰を下ろし、少し休憩することにした。",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "一日中荷物運びにしてごめんなさいね。これで少し許してもらえるのかしら？",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "……………",
 			typewriter = {
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "ザラがこちらの顔を覗き込んでくる。",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "毎回毎回、ザラのペースに乗せられっぱなしで、指揮官としての沽券に関わるもんね",
 			typewriter = {
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "確かにそんな気持ちがあるかもしれないが、彼女が喜んでいる姿を見たい、という思いもある。",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "ちょっとひどい話かもしれないけど、私、艦隊を率いる貴方より、易々と弄ばれそうな、普通のヒトである貴方のほうが好きよ",
 			typewriter = {
@@ -306,16 +306,16 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "もしそうでないというのなら……",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -332,9 +332,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "ザラがこちらの腕を抱きしめた。",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "疲れているからか、そのままこちらの胸に倒れ込んできたザラ。",
 			typewriter = {
 				speed = 0.05,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "ほんの少しだけ、ね？",
 			typewriter = {
 				speed = 0.05,

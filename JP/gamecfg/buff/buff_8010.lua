@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "碰撞减速50%",
 	time = 0,
+	name = "碰撞减速50%",
+	init_effect = "",
 	picture = "",
 	desc = "碰撞减速50%",
 	stack = 1,
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				group = 8003,
-				mul = -7300,
-				add = 0
+				add = 0,
+				mul = -7300
 			}
 		}
 	}

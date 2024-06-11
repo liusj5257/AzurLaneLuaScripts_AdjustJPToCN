@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "敵を港から引き離せる作戦ではあるものの、残響艦隊との戦闘は最初から激しいものとなった。",
 			bgm = "story-temepest-2",
+			say = "敵を港から引き離せる作戦ではあるものの、残響艦隊との戦闘は最初から激しいものとなった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "「行儀よく」戦う敵ではないことは十分なほど知っている。戦場で相まみえるとなれば、砲火を交えるほかない。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "嵐での戦いの時と同じように、サン・マルチーニョは前衛として奮戦している。",
@@ -57,8 +57,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "無敵の桂冠",
+			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -69,17 +69,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -128,8 +128,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "無敵の桂冠",
+			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -140,17 +140,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -197,28 +197,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "荒波のように次から次へと攻め寄せてくる敵から一歩も引かず、「無敵の桂冠」は闇夜でその武勇を輝かせている。",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "だめよ。今はいいタイミングじゃないもん",
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こういう時、敵に背中を見せたら自殺行為よ",
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官さま、時間よ～",
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドから預かった信号弾を打ち上げた。",
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "幽霊",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ははーん。これはまたすごいやつだな",
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もし私の友達が本当に言ってた通りにコネを持っているなら……",
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "―――！！",
@@ -536,9 +536,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "投資者",
 			dir = 1,
+			bgName = "star_level_bg_504",
 			bgm = "story-temepest-1",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
@@ -553,17 +553,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -571,8 +571,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "照明弾が打ち上げられ、いつの間にかやって来てた艦隊を照らし出した。",
@@ -641,11 +641,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "正確に言えば彼女一人よ～",
@@ -735,11 +735,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はい！この話は終了！友達の友達は友達だからわたしにとっても友達だからああすごいお金持ちって本当にかっこいいよね――",
@@ -772,11 +772,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ウィダー、こっちよぉ～",

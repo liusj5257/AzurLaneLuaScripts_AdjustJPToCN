@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 600
+					number = 600,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -28,8 +28,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.06
+					number = 0.06,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -43,8 +43,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.072
+					number = -0.072,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -53,8 +53,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 720
+					number = 720,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.072
+					number = 0.072,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -78,8 +78,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.084
+					number = -0.084,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -88,8 +88,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 840
+					number = 840,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -98,8 +98,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.084
+					number = 0.084,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1000
+					number = 1000,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.1
+					number = 0.1,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -148,8 +148,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.112
+					number = -0.112,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -158,8 +158,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1120
+					number = 1120,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.112
+					number = 0.112,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.124
+					number = -0.124,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1240
+					number = 1240,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -203,8 +203,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.124
+					number = 0.124,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -218,8 +218,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.14
+					number = -0.14,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -228,8 +228,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1400
+					number = 1400,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -238,8 +238,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.14
+					number = 0.14,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -253,8 +253,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.156
+					number = -0.156,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -263,8 +263,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1560
+					number = 1560,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -273,8 +273,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.156
+					number = 0.156,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -288,8 +288,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.172
+					number = -0.172,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -298,8 +298,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1720
+					number = 1720,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -308,8 +308,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.172
+					number = 0.172,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
@@ -323,8 +323,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.2
+					number = -0.2,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -333,8 +333,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 2000
+					number = 2000,
+					attr = "igniteReduce"
 				}
 			},
 			{
@@ -343,15 +343,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.2
+					number = 0.2,
+					attr = "hammerDamagePrevent"
 				}
 			}
 		}
 	},
-	time = 15,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 15,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
@@ -373,8 +373,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.06
+				number = -0.06,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -383,8 +383,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 600
+				number = 600,
+				attr = "igniteReduce"
 			}
 		},
 		{
@@ -393,8 +393,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "hammerDamagePrevent",
-				number = 0.06
+				number = 0.06,
+				attr = "hammerDamagePrevent"
 			}
 		}
 	}

@@ -10,12 +10,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-9",
-			actor = 1300,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			bgm = "qe-ova-9",
+			tbActor = true,
+			actor = 1300,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Hey, {tb}! I want your help with picking one of these!",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "TB thrusts a flyer before my face before I get the chance to say a word.",
@@ -55,10 +55,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "I've got no clue which one to go with and it's kinda making me wanna try 'em all!",
 			typewriter = {
@@ -82,10 +82,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Good idea! But there doesn't seem to be any comic book reading club. Maybe I should make one myself!",
 			typewriter = {
@@ -109,10 +109,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Really? Aww... Wait! There's no rule that says I can't pick EVERY club, is there?",
 			typewriter = {
@@ -124,10 +124,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Because if not, that's what I'm gonna do! Oh, I'm such a frickin' genius!",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "I want to say that she won't last long doing that, but seeing how excited the idea makes her, I hold my tongue. Don't want to rain on her parade.",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "Besides, it's good to try all kinds of things. I hope she'll come upon her true hobby.",

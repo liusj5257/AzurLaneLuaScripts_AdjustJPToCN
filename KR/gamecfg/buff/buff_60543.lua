@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "坚韧与团结之神...?",
 	time = 0,
-	color = "yellow",
+	name = "坚韧与团结之神...?",
+	init_effect = "",
+	id = 60543,
 	picture = "",
 	desc = "",
 	stack = 10,
-	id = 60543,
+	color = "yellow",
 	icon = 60543,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 100
+				number = 100,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 100
+				number = 100,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 100
+				number = 100,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 100
+				number = 100,
+				attr = "airPower"
 			}
 		},
 		{
@@ -61,8 +61,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 100
+				number = 100,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -72,8 +72,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 100
+				number = 100,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -83,8 +83,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 100
+				number = 100,
+				attr = "dodgeRate"
 			}
 		}
 	}

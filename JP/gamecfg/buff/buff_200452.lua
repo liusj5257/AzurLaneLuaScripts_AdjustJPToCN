@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023俾斯麦Z活动SP BOSS浮游炮召唤",
 	time = 3,
-	color = "red",
+	name = "2023俾斯麦Z活动SP BOSS浮游炮召唤",
+	init_effect = "",
+	id = 200452,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200452,
+	color = "red",
 	icon = 200452,
 	last_effect = "",
 	effect_list = {

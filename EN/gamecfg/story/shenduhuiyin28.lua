@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN28",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "main-ashes-theme",
 			side = 2,
 			bgName = "bg_deepecho_9",
-			say = "Kronshtadt pumped shell after shell into the black tornado, resuming the symphony of destruction with a new movement.",
 			dir = 1,
 			bgmDelay = 1,
-			bgm = "main-ashes-theme",
+			soundeffect = "event:/battle/boom2",
+			say = "Kronshtadt pumped shell after shell into the black tornado, resuming the symphony of destruction with a new movement.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -75,10 +75,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "\"Die! Die! DIE!\"",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "She had lost all control of her emotions, becoming a puppet to her pure lust for destruction, her existence reduced to unload her entire arsenal at her target.",
 			typewriter = {
 				speed = 0.05,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "The tornado, meanwhile, simply took it all. It did not retaliate or even defend itself.",
 			typewriter = {
 				speed = 0.05,
@@ -121,10 +121,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(How laughable... Am I really trying to kill a storm?)",
 			typewriter = {
 				speed = 0.05,
@@ -139,10 +139,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(It's a force of nature, not a living being. I'm making a fool of myself...)",
 			typewriter = {
 				speed = 0.05,
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(But... Pointless as it may be...)",
 			typewriter = {
 				speed = 0.05,
@@ -171,9 +171,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "Her assault did not let up.",
 			typewriter = {
 				speed = 0.05,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#BDBDBD",
+			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "???",
+			hidePaintObj = true,
 			say = "Is that the best you can do, lady? You've not left as much as a dent on me!",
 			typewriter = {
 				speed = 0.05,
@@ -260,9 +260,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "Her identity was being overwritten. Her consciousness began to wane.",
 			typewriter = {
 				speed = 0.05,
@@ -274,9 +274,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "Soon destruction would be the only thing she could think of. Soon she would be no more than a living weapon.",
 			typewriter = {
 				speed = 0.05,
@@ -288,9 +288,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "Her comrades, her allegiance, her duty, her mission – everything she held dear was being reduced to forgotten memories.",
 			typewriter = {
 				speed = 0.05,
@@ -302,9 +302,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "Never before had something felt so reprehensibly wrong. And yet she couldn't stop firing. Her power grew and grew without limit.",
 			typewriter = {
 				speed = 0.05,
@@ -377,10 +377,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "\"Prepare to meet your end! Drop dead already! DIEEEEE!\"",
 			typewriter = {
 				speed = 0.05,
@@ -392,9 +392,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "Richard was right there, standing right in front of her.",
 			typewriter = {
 				speed = 0.05,
@@ -406,9 +406,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "With a smile like a fallen angel, she pressed her little head against the barrel of Kronshtadt's cannon.",
 			typewriter = {
 				speed = 0.05,
@@ -420,12 +420,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#BDBDBD",
+			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "???",
+			hidePaintObj = true,
 			say = "You've almost got me, lady.",
 			typewriter = {
 				speed = 0.05,
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#BDBDBD",
+			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "???",
+			hidePaintObj = true,
 			say = "A little more should do it~♪",
 			typewriter = {
 				speed = 0.05,
@@ -457,10 +457,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "No... No! This isn't like me! I would never...!",
 			typewriter = {
 				speed = 0.05,
@@ -472,9 +472,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "Despite her rejection, she could not stop firing. The world turned pitch black, and she realized then that she was on the brink of METAmorphosis.",
 			typewriter = {
 				speed = 0.05,
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "But then... a ray of light shone through to Kronshtadt.",
 			typewriter = {
 				speed = 0.05,
@@ -500,8 +500,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgName = "star_level_bg_1104",
 			flashin = {
 				delay = 1,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Angel or Devil in White?\n\n<size=45>Chapter 3 - Vampire, New Nurse?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Hallway",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Hallway",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "What's their deal anyway! I just figured Commander might want some eye candy after working so hard all day...!",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "Big dumb bully Commander! I don't care anymore!",
 			typewriter = {
@@ -80,8 +80,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -93,8 +93,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "I even went through all the trouble of learning how to be a nurse... Hmph! I'll just have to make that big dummy speechless with how good I am at taking care of people!",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -119,14 +119,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 201232,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Javelin, is there anything bothering you?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "Ah, Vampire!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ah, Vampire!",
+			actor = 201210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
@@ -206,14 +206,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 201232,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Glowworm, surely your head hurts from headbutting things left and right! Here, come lie on this table and let Nurse Vampire take care of you!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 201140,
+			say = "Hey, don't pull on me...! I'm perfectly fine!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Hey, don't pull on me...! I'm perfectly fine!",
+			actor = 201140,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -261,8 +261,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
@@ -277,14 +277,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 201232,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Laffey, you'll catch a cold if you fall asleep here. Here, use this blanket.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "... Ugh... Hot... Heavy...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "... Ugh... Hot... Heavy...",
+			actor = 101170,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -332,8 +332,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
@@ -362,11 +362,11 @@ return {
 			}
 		},
 		{
-			actor = 201232,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201232,
+			nameColor = "#a9f548",
 			say = "Huh? London? Hmm, I bet you're here to apologize for earlier~",
 			typewriter = {
 				speed = 0.05,
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 201232,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201232,
+			nameColor = "#a9f548",
 			say = "Ah! So that big dummy is also having second thoughts about being so cold to poor little Vampire! Good thing I'm not the type to hold grudges~",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -430,12 +430,12 @@ return {
 			}
 		},
 		{
-			actor = 203010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203010,
+			nameColor = "#a9f548",
 			say = "*sigh*...",
 			typewriter = {
 				speed = 0.05,

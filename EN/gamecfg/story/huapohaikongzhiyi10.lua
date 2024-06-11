@@ -1,17 +1,17 @@
 return {
-	id = "HUAPOHAIKONGZHIYI10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "Damnit, Enterprise! ...Ugh, is it impossible to take down the Eagle Union's Task Force?",
 			dir = 1,
 			bgm = "battle-boss-2",
+			nameColor = "#ff5c5c",
+			say = "Damnit, Enterprise! ...Ugh, is it impossible to take down the Eagle Union's Task Force?",
 			effects = {
 				{
 					active = true,
@@ -28,8 +28,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -38,10 +38,10 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
+			actor = 307050,
 			say = "Zuikaku, calm down... *cough* *cough*... Let's withdraw for now and come up with a plan...",
 			effects = {
 				{
@@ -91,8 +91,8 @@ return {
 		{
 			actor = 307060,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "...All right, Shoukaku, let's go...!",
 			dialogShake = {
 				speed = 0.09,
@@ -109,14 +109,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "Princeton, have you wrapped things up on your end?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -144,8 +144,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "I appreciate the backup. Thanks to you, we were able to demolish the enemy's attack forces.",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Thank goodness. I'm glad things worked out this time.",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -231,8 +231,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "I wonder if we'll get an order to pursue the enemy fleet...",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "I wish Saratoga was here to see my performance today...",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "Not just about the battle, but how you were shining brilliantly on the battlefield as you took down dozens of enemy planes! Ehehe.",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "(Though I'm still inexperienced, if I keep striving to learn everything I can from the battlefield, then...)",
 			typewriter = {
 				speed = 0.05,
@@ -354,9 +354,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...Maybe someday, I can be just like her...",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "Enterprise... Yeah! Thanks, I'll do my best!",
 			typewriter = {
 				speed = 0.05,
@@ -411,9 +411,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Yeah, I'll be cheering you on too!",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -453,8 +453,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "Saratoga... I'll definitely catch up to you someday.",
 			typewriter = {
 				speed = 0.05,

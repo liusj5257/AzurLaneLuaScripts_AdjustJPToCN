@@ -1,6 +1,6 @@
 slot0 = class("UpdateTaskProgressCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().taskId
 	slot4 = pg.task_data_template[slot3]
 	slot5, slot6 = nil

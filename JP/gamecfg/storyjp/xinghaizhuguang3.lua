@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_503",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「星の海」連絡通路",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "今はまだ基地の中央部。一番深い「ギャラクシーコア」までまだ距離があるよ",
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "次はエレベーターで降りるから、2人ともこっちに",
@@ -107,27 +107,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_503",
 			say = "「星の海」コアブロック-サロン",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "発展型艦船研究企画部",
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ノーザンプトンじゃないすか！おはようっす！",
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "発展型艦船研究企画部",
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "新しい仲間とシミュレーションっすね！今空いているからすぐ行くといいっすよ",
@@ -249,9 +249,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -265,17 +265,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うん。外ではあまり見かけないと思うけど「星の海」の外ではそんなに知られていないよ",
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "みんなユニオンの特別計画艦だよ。所属はさんかく座――発展型艦船研究企画部",
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ええと、度々ごめん。もう一回レールシャトルに乗る必要があって、そしたら目的地のXエリアに到着するよ",
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……遠い……",
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "が、がんばってラフィーちゃん！あと少しなんだから！",
@@ -411,28 +411,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_2",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「星の海」コアブロック-Xエリア",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -535,11 +535,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ラフィー、「Ⅱ」型艤装は持ってない",
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "主端末",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "第1段階：敵艦隊と交戦し、戦力を基準値まで調整を行いつつ、環境適応をしてください",
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "主端末",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "目標：アビータボディの撃破",
@@ -797,11 +797,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "主端末",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "1、艦載機を含め、いかなる状況下でも実験エリアより離脱した場合、シミュレーションを中断します",
@@ -834,11 +834,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "主端末",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "3、実験エリア以外の目標に攻撃を仕掛けた場合、シミュレーションを中断します",

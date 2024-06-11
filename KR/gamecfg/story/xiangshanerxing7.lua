@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_red_n",
+			bgm = "bsm-4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "파커피크 해, 메탈 블러드 부유섬 요새",
-			bgm = "bsm-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,10 +143,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나도 '남극' 관련으로 묘한 정보를 잡아서 말이지.",
 			painting = {
 				alpha = 0.3,
@@ -161,10 +161,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "심판정으로부터 노스 유니온과 이글 유니온… 상층부가 남극에서 뭔가 하려 한다는 연락을 받았어.",
 			painting = {
 				alpha = 0.3,
@@ -210,10 +210,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "근처에 있는 동료에게 긴급 조사를 시켰는데, 남극에 있는 산맥의 얼음층에 비정상적인 융해 현상이 발생했고",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 안에서 '기묘한 광물'이 발견된 모양이야.",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "동료들이 회수한 샘플을 해석해 봤는데, 아무래도 그 광물은 우리의 의장과 공명하는 것 같아.",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그걸 이용하면 의장의 출력과 전투 효율을 현저하게 상승시킬 수 있다고 하더군.",
 			painting = {
 				alpha = 0.3,
@@ -403,10 +403,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "함대를 편성해서 바로 현지 연구 거점으로 가줬으면 해.",
 			painting = {
 				alpha = 0.3,
@@ -421,10 +421,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "현지 상황에 따라…… 임기응변으로 대처해 줘.",
 			painting = {
 				alpha = 0.3,

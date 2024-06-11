@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-31-10",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg21",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-12",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-31-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "허, 헉……?!",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,14 +40,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "수건이…… 벗겨진 것 같아요……",
 			voice = "event:/educate/tb/educate-tb-story-31-11",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "수건이…… 벗겨진 것 같아요……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "옆의 물구멍에서 흘러 들어오는 물 때문에 TB의 수건이 느슨해져서 그런지……",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "일부러 조금 단단히 묶어둔 수건이 갑자기 풀려서 벗겨져 버렸다.",
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			say = "바로 수건을 집어 몸을 가렸지만, 그래도……",
@@ -91,14 +91,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "보, 보시면 안 돼요……!",
 			voice = "event:/educate/tb/educate-tb-story-31-12",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "보, 보시면 안 돼요……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,14 +109,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "으으, 너무 부끄러워요……",
 			voice = "event:/educate/tb/educate-tb-story-31-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "으으, 너무 부끄러워요……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,14 +139,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg21",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "아, 네……",
 			voice = "event:/educate/tb/educate-tb-story-31-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "아, 네……",
 			painting = {
 				alpha = 0.3,
 				time = 1

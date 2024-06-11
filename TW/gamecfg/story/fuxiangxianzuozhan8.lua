@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN8",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鐵血浮島要塞群·D11防禦模組",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
+			say = "鐵血浮島要塞群·D11防禦模組",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "（奇怪，設備一切正常…………剛剛的通訊異常只是偶然故障？）",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "彼得，我們擊破了塞壬艦隊之後來和妳匯合了~",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "抱歉，沒能按時和妳們一同訓練。",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "不用在意，要塞的安全為最優先事項。通訊系統的問題查明了嗎？",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "現在通訊器的狀態一切正常，後面的事就交給專業工程師團隊吧。今天的訓練感覺怎麼樣？",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "空中戰鬥也感受到了遠超以往的壓迫感，剛才新增的皇家艦隊中使用了碧藍航線那邊最新的艦載機數據吧？",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "這是自然的，知彼知己才能萬無一失嘛。",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "呵，碧藍航線倒是至今還對我們的存在一無所知，一廂情願的認為航空戰是鐵血的致命軟肋。真想看看它們知道真相時的反應。",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "那就讓她們再自信一陣子吧，直到我們亮出獠牙的那一刻。",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "說起來，我們一直都悶在這裡依靠鏡面海域的設施進行訓練，不知道外面其他地方的訓練是什麼樣的啊……",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "對了！ Z46是最早來到這片海域訓練的吧，在來到之前妳有參與過其他地方的訓練嗎？",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -416,8 +416,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "哎哎哎？！在這種時候保持神秘感反而讓人更在意了啊！",
 			typewriter = {
@@ -430,8 +430,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -443,8 +443,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "……………………",
 			typewriter = {
@@ -476,9 +476,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
 			blackBg = true,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "是~~~~~！",
 			typewriter = {

@@ -3,8 +3,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "",
-		type = 2,
 		alignment = 0,
+		type = 2,
 		id = 1,
 		title = "顯示自定義角色名稱",
 		desc = "功能開啟後，艦船顯示自定義角色名稱"
@@ -12,8 +12,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "AUTO_BATTLE_LABEL",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 2,
 		title = "自律戰鬥結束時震動提醒",
 		desc = "功能開啟後，自律戰鬥結束時設備震動提示戰鬥結束"
@@ -21,8 +21,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "RARE_SHIP_VIBRATE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 3,
 		title = "獲得角色震動",
 		desc = "功能開啟後，獲得超稀有及以上稀有度的艦船時設備震動提示"
@@ -30,8 +30,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "DISPLAY_SHIP_GET_EFFECT",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 4,
 		title = "重複角色獲得提示",
 		desc = "功能關閉後，重複獲得已擁有的稀有及以下稀有度的艦船時（僅限海域掉落）取消彈出艦船獲得介面"
@@ -39,8 +39,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "SHOW_TOUCH_EFFECT",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 5,
 		title = "顯示觸控特效",
 		desc = "功能開啟後，點擊遊戲介面可顯示觸控特效"
@@ -48,8 +48,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "BG_FIT_MODE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 6,
 		title = "過場圖適應螢幕最小邊",
 		desc = "功能開啟後，過場圖片適應設備最小邊框，不顯示黑邊"
@@ -57,8 +57,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "BATTLE_HIDE_BG",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 7,
 		title = "戰鬥默認隱藏局部背景",
 		desc = "功能開啟後，戰鬥中會默認隱藏換裝的局部背景"
@@ -66,8 +66,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "BATTLE_EXPOSE_LINE",
-		type = 0,
 		alignment = 1,
+		type = 0,
 		id = 8,
 		title = "戰鬥內展示航母偵測線",
 		desc = [[
@@ -91,8 +91,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "AUTOFIGHT_BATTERY_SAVEMODE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 9,
 		title = "自律尋敵夜間模式",
 		desc = "開啟後，會在自律尋敵開始的20秒後調低螢幕亮度，節省能耗"
@@ -100,8 +100,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "AUTOFIGHT_DOWN_FRAME",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 10,
 		title = "夜間模式降幀",
 		desc = "開啟後，會在自律尋敵夜間模式中降低遊戲幀數，節省能耗"
@@ -109,8 +109,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "ALLOW_FIREND_VISIT_BACKYARD_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 11,
 		title = "允許好友拜訪後宅",
 		desc = "功能開啟後，允許我的好友來我的後宅拜訪"
@@ -118,8 +118,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "SHOW_FIREND_BACKYARD_SHIP_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 12,
 		title = "顯示他人拜訪痕跡",
 		desc = "功能開啟後，好友來拜訪我的後宅後，會在我的後宅顯示該好友的秘書艦"
@@ -127,8 +127,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "SHOW_MY_BACKYARD_SHIP_FLAG",
-		type = 1,
 		alignment = 0,
+		type = 1,
 		id = 13,
 		title = "顯示我的拜訪痕跡",
 		desc = "功能開啟後，我拜訪好友的後宅後，會在好友的後宅顯示我的秘書艦"
@@ -136,8 +136,8 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "QUICK_CHANGE_EQUIP",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 14,
 		title = "快速更換二次確認介面",
 		desc = "功能開啟後，使用快速更換功能更換角色裝備時，將跳出裝備詳細訊息確認介"
@@ -145,8 +145,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "GYRO_ENABLE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 15,
 		title = "L2D陀螺儀背景控制",
 		desc = "功能開啟後，部分L2D換裝背景將支援由陀螺儀控制"
@@ -154,8 +154,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "SHIP_NAME_COLOR",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 16,
 		title = "誓約角色名特殊顯示",
 		desc = "功能開啟後，在船塢等介面，已誓約的角色名將使用特殊顏色顯示"
@@ -163,8 +163,8 @@ pg.settings_other_template = {
 	{
 		default = 1,
 		name = "BATTLERESULT_DISPAY_PAINTING",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 17,
 		title = "展示結算角色",
 		desc = "功能開啟後，將展示戰鬥結算立繪過場"
@@ -172,11 +172,38 @@ pg.settings_other_template = {
 	{
 		default = 0,
 		name = "LIVE2D_STATUS_SAVE",
-		type = 0,
 		alignment = 0,
+		type = 0,
 		id = 18,
 		title = "秘書艦互動狀態固定",
 		desc = "功能開啟後，主介面L2D與特殊動態立繪換裝的互動狀態將固定為主介面待機動作；互動狀態固定後，L2D換裝的【登入】【回港】動畫將不會播放"
+	},
+	{
+		default = 1,
+		name = "USAGE_NEW_MAINUI",
+		alignment = 0,
+		type = 0,
+		id = 19,
+		title = "使用新版主介面 ",
+		desc = "功能開啟後，顯示新版主介面"
+	},
+	{
+		default = 1,
+		name = "MAINUI_NEVER_SLEEP",
+		alignment = 0,
+		type = 0,
+		id = 20,
+		title = "位於主介面時螢幕常亮 ",
+		desc = "功能開啟後，主介面不會隨時間自動鎖定螢幕"
+	},
+	{
+		default = 0,
+		name = "MAINUI_RESET_L2D",
+		alignment = 0,
+		type = 0,
+		id = 21,
+		title = "主介面顯示L2D重置按鈕 ",
+		desc = "功能開啟後，主介面出現L2D重置按鈕"
 	},
 	all = {
 		1,
@@ -196,6 +223,9 @@ pg.settings_other_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21
 	}
 }

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"裏表魅力MAXガール！\n\n<size=45>四　紀伊型ということ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			say = "演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "本日は遠いところ、よくぞお集まり頂きました。",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "少しだけ咳き込みながら、重桜の知恵袋の一人、天城が姿を現した。",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "指揮官様もようこそ。ご来訪、痛み入りますわ。",
 			typewriter = {
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "自分があえて招かれた意味合いは、分かっている。",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "重桜秘蔵っ子である、天城の弟子たち。ないしは、カンレキに縁がある者同士での演習の、重要な審判役だ。",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "ふふん！駿河、逃げずによく来たじゃない！まずはそれだけ褒めてあげる！",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "紀伊……",
 			typewriter = {
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "一対一の真剣勝負。スペックだけを見れば本来、紀伊と駿河はほとんど互角だろう。だが実際には紀伊のほうが勝ち越しているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -216,15 +216,15 @@ return {
 			}
 		},
 		{
-			actor = 304050,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "そろそろ頃合いですね。指揮官殿、お願いいたします。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "会場の観客と、駿河と紀伊からの気迫を受けながら、開始の合図を出した。",
 			typewriter = {
 				speed = 0.05,
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			say = "間髪入れずに、紀伊が飛び出した。近付きながらの連射で駿河を一気に仕留めようとする。",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "間髪入れずに、紀伊が飛び出した。近付きながらの連射で駿河を一気に仕留めようとする。",
 			effects = {
 				{
 					active = false,
@@ -367,9 +367,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "自分がかつて聞いたこともないほど、駿河も鋭い声を挙げ、紀伊の猛攻をかいくぐっていく。",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "うっそ！？駿河、どうしちゃったの！！らしくないじゃーん！！",
 			effects = {
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,9 +414,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "意表を突かれてもまだ余裕のある紀伊に対し、駿河は息を切らしながらも反撃を試みる。",
 			effects = {
 				{
@@ -450,9 +450,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "駿河の勝ちに拘る想いが、会場席にまで伝わって来るように感じた。すごい執念だ。",
 			typewriter = {
 				speed = 0.05,
@@ -464,9 +464,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "……紀伊の迫力も相当だが、駿河も負けじと、目立っているように思える。",
 			typewriter = {
 				speed = 0.05,
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "でやあああああ！！",
 			effects = {
 				{
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305120,
+			nameColor = "#a9f548",
 			say = "……ふふんッ！",
 			effects = {
 				{
@@ -522,12 +522,12 @@ return {
 			}
 		},
 		{
-			actor = 304050,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "――勝負、ありましたね",
 			typewriter = {
 				speed = 0.05,

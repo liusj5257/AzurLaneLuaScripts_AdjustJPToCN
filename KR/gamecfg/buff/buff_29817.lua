@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 3,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 29817,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 29817,
+	color = "red",
 	icon = 20000,
 	last_effect = "",
 	effect_list = {
@@ -19,8 +19,8 @@ return {
 				displayID = 29813
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 0
+				number = 0,
+				attr = "cannonPower"
 			}
 		}
 	}

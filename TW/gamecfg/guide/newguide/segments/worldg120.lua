@@ -9,8 +9,8 @@ return {
 			style = {
 				text = "點擊G.M系統左上角的按鈕可以進入艦隊指令面板。",
 				mode = 1,
-				posY = 192.3,
 				dir = 1,
+				posY = 192.3,
 				posX = 353.1
 			},
 			ui = {
@@ -19,11 +19,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 64.54,
+					rotateY = 0,
 					posY = -44.8,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 64.54
 				}
 			}
 		},
@@ -35,8 +35,8 @@ return {
 			style = {
 				text = "艦隊部署可以重新部署在大型作戰中使用的艦隊，並且每次使用後都可以為艦船恢復所有生命值。",
 				mode = 2,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {
@@ -59,8 +59,8 @@ return {
 			style = {
 				text = "艦隊休整可以提高艦隊因作戰失敗而下降的士氣。",
 				mode = 2,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {
@@ -83,8 +83,8 @@ return {
 			style = {
 				text = "空域偵查可以在有戰爭迷霧的海域中使用，以打開海域視野。",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {

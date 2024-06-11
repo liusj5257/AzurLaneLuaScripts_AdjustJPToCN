@@ -1,17 +1,17 @@
 return {
-	id = "WORLD506B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD506B",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
 			say = "指揮官…それにエンタープライズ先輩！",
+			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "はい、私達も特異点の異常気象に巻き込まれ、気づいたらここにいて、そして……",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "どうやら空母たちだけでなく、工作艦などの後方支援艦船も何人か巻き込まれたようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ヴェスタルも無茶をするな……",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "工作艦による緊急修理もこの状況ではありがたい。",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "中心部に消えたように見えたセイレーンの主力艦隊は、特異点に隠れているかもしれない…ここは慎重に進もう。",
 			typewriter = {
 				speed = 0.05,

@@ -1,13 +1,13 @@
 return {
-	time = 0,
 	name = "黑亚利桑那 扩散的哀伤",
 	init_effect = "",
-	icon = 200206,
+	last_effect_stack = true,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 20,
 	id = 200206,
-	last_effect_stack = true,
+	icon = 200206,
 	last_effect = "RedEyes",
 	blink = {
 		1,
@@ -37,8 +37,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.5
+				number = 0.5,
+				attr = "injureRatio"
 			}
 		}
 	}

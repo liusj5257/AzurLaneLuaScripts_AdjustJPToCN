@@ -1,12 +1,12 @@
 return {
-	id = "W202000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W202000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海域中的戰爭迷霧被消除，視野逐漸開闊。",
 			typewriter = {
 				speed = 0.05,

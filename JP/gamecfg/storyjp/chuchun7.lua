@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"人見知りの黒猫\n\n<size=45>七 黒猫の日常</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "その後――",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "その後――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "文化研究の名目で新作ゲームを買う幽霊さんの計画が失敗したのー！？",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.1,
 					x = 0,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "経費でゲームを購入しようとしたのか…でも……",
 			typewriter = {
 				speed = 0.05,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "少しずつだが、初春がほかの子と普通に会話できるようになってきている。",
 			typewriter = {
 				speed = 0.05,
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "初春姉！",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -3750
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "若葉ちゃん！？きゅ、急に抱きつかないでよ！",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,9 +263,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "姉妹艦は相変わらず仲がいいようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "あ、そういえば！初春姉はいつ指揮官に告白するの？",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301210,
 			stopbgm = true,
 			say = "は、はぃ！？！？？",
 			typewriter = {
@@ -320,9 +320,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "！？",
 			dialogShake = {
 				speed = 0.09,
@@ -339,21 +339,21 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "<size=67.5>ななななに言ってるの若葉ちゃん！？！？</size>",
 			bgm = "story-1",
+			actor = 301210,
+			nameColor = "#a9f548",
+			say = "<size=67.5>ななななに言ってるの若葉ちゃん！？！？</size>",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#a9f548",
 			say = "あぅ！？",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -750,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = 0
@@ -403,11 +403,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "な、なんで若葉ちゃんに聞こえたの！？",
 			typewriter = {
 				speed = 0.05,
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,12 +429,12 @@ return {
 			}
 		},
 		{
-			actor = 301230,
+			say = "えへへ、若葉ちゃんの耳を甘く見ないでね！",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "えへへ、若葉ちゃんの耳を甘く見ないでね！",
+			actor = 301230,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
 				y = -750
@@ -449,8 +449,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = 0
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#a9f548",
 			say = "<size=67.5>い、言わないで――！！！</size>",
 			effects = {
 				{
@@ -492,8 +492,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

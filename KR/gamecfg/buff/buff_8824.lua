@@ -1,12 +1,12 @@
 return {
-	init_effect = "Bossbomb",
-	name = "2020德系活动EX 构建者反击护盾 被打破触发弹幕",
 	time = 3,
-	color = "yellow",
+	name = "2020德系活动EX 构建者反击护盾 被打破触发弹幕",
+	init_effect = "Bossbomb",
+	id = 8824,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8824,
+	color = "yellow",
 	icon = 8824,
 	last_effect = "jinengchufablue",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8825,
 				time = 1,
 				rant = 10000,
-				skill_id = 8825
+				target = "TargetSelf"
 			}
 		}
 	}

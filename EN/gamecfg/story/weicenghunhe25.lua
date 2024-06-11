@@ -1,22 +1,22 @@
 return {
-	id = "WEICENGHUNHE25",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE25",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 108040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Oh, by the way, I found the enemy flagship!",
 			dir = 1,
 			bgm = "hunhe-battle",
+			nameColor = "#a9f548",
+			say = "Oh, by the way, I found the enemy flagship!",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			say = "I'm almost certain it's that really big ship that slipped into a swarm of submarines!",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108040,
 			dir = 1,
+			actor = 108040,
 			say = "Now that I think about it, at that time...",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Putting together all our information, that means all of our groups were swallowed up by the waves and transported to the same location.",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 108040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Why is everyone looking at me?!",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "From the looks of things, you might have activated the defense mechanism of the flagship by imperiling it.",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "And since most of the new Sirens we encountered after arriving here...",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "Since we know there are lots of enemy submarines out there, we should prepare a better anti-submarine system.",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Thanks to Bluegill's information, we're way better prepared than we were before...!",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Anyway, we've got to keep our eyes peeled from attacks from beneath!",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 0

@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 102200,
 			side = 2,
-			nameColor = "#A9F548FF",
-			say = "捕まえた！お菓子を奪った悪いやつ！",
 			dir = 1,
 			bgm = "login-2022401us",
+			actor = 102200,
+			nameColor = "#A9F548FF",
+			say = "捕まえた！お菓子を奪った悪いやつ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -20,8 +20,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "シュペーちゃん",
 			say = "お菓子は渡さないわ…",
 			painting = {
@@ -80,8 +80,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "シュペーちゃん",
 			say = "ビールとソーセージだけじゃなく、お菓子も大事……それをみんなが分かっていないんだもん",
 			painting = {
@@ -97,8 +97,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "シュペーちゃん",
 			say = "だから計画を立てたの。海をお菓子…スイーツでいっぱいにする計画を！",
 			painting = {
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "シュペーちゃん",
 			say = "もう最終段階になっているわ",
 			painting = {

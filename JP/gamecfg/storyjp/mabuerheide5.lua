@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MABUERHEIDE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MABUERHEIDE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"太陽のギャル\n\n<size=45>五　なんちゃって</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_106",
-			say = "波の音が聞きたくなったので、マーブルヘッドを海岸まで誘うことにした。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "波の音が聞きたくなったので、マーブルヘッドを海岸まで誘うことにした。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 102270,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102270,
+			nameColor = "#a9f548",
 			say = "見てください指揮官！ここにキレイな色の貝がらが落ちてますよ",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "実はこの海岸に流れ着く貝がらの中には、ピンク色のもあるんですよねー",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "きれいな形をしたピンク色の貝がらを受け取ると、そのまま耳に近づけてみた。",
@@ -128,8 +128,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "それは何をしてるんですかー？",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "マーブルヘッドは雑学めいた話をすらすらと説明しはじめる。まるで専門家のような知識であった。",
@@ -192,8 +192,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "――て感じなんですけど、ピンクノイズはそもそもフラクタル状の波形を持っていまして……はっ！",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,8 +219,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "…………な、なんちゃってー？",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "貝がらを手に持ちながら、マーブルヘッドは少し恥ずかしそうに舌をぺろりと出した。",
@@ -268,8 +268,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "そ、そういえば、この貝がらよく見てみるとあたしの髪のグラデーションの色にそっくりですねー",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "話を逸らしてなんかいないですよー！あたしと一緒の色を持った貝がらですよ？",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			nameColor = "#a9f548",
 			say = "つまり、これをプレゼントされた指揮官にはこの貝がらをあたしのように大事に愛でてくださいってことです",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			say = "両手で包み込むようにして、マーブルヘッドは貝がらをゆっくりこちらに手渡すと――",
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			blackBg = true,

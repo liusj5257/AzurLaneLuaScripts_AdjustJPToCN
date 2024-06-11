@@ -4,14 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 501020,
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "そういえば……指揮官",
 			bgm = "story-richang-12",
+			actor = 501020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "そういえば……指揮官",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,12 +39,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この母港には一つ足りないものがあるって気づいてる？",
 			painting = {
 				alpha = 0.3,
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そう！モダニティ、つまり現代化の波に乗り遅れてる！",
 			painting = {
 				alpha = 0.3,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,12 +94,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "VR、人工知能、ビッグデータ……",
 			painting = {
 				alpha = 0.3,
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "時代を先取りした最先端技術の一つすら、母港のどこにも見当たらないんだ！",
 			painting = {
 				alpha = 0.3,
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええと、「指揮官のいる執務室以外」にはどこにもないってこと！",
 			painting = {
 				alpha = 0.3,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -177,12 +177,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そ、そう！そのとおーり！",
 			painting = {
 				alpha = 0.3,
@@ -205,12 +205,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "というわけで、こういう状況を改善するために、先手を打って仲間を集めておいたよ！",
 			painting = {
 				alpha = 0.3,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "時間外まで使って準備した案をとくと見るがいい！",
 			painting = {
 				alpha = 0.3,
@@ -249,8 +249,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "ノリノリの撫順から分厚い企画書の書類を受け取った。",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "錚々たる面々だが、直感的にどこかに地雷が埋まっているような気がする。",
 			typewriter = {
@@ -345,12 +345,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官！明石から今回の費用は全て負担してもらえるって言質を取っているよ！",
 			painting = {
 				alpha = 0.3,
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官はここにぃ～ペタッとハンコを押せばよし！",
 			painting = {
 				alpha = 0.3,
@@ -389,12 +389,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どうせタダだし一度試してみてくださいよ～",
 			painting = {
 				alpha = 0.3,
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "あまりにも予想を越えた単語の組み合わせでニューロンがバグってしまった！",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "まあ、撫順がそこまで推すなら……",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "『母港バーチャルリアルプロジェクト』。通しておくかー",
 			typewriter = {
@@ -447,27 +447,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_school",
-			say = "2週間後",
 			bgm = "story-richang-11",
+			say = "2週間後",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_school",
 			say = "学園の広場に巨大なマシンが鎮座している。",
 			typewriter = {
@@ -485,8 +485,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_school",
 			say = "母港中に数百台も同じ機器が設置されており、巨大なネットワークを築き上げている。",
 			typewriter = {
@@ -497,9 +497,9 @@ return {
 		{
 			actor = 312012,
 			side = 2,
-			bgName = "bg_story_school",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_school",
 			say = "むふふふ……",
 			painting = {
 				alpha = 0.3,
@@ -514,8 +514,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 312012,
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "ついにこの日がやってきたにゃ……",
 			painting = {
@@ -530,9 +530,9 @@ return {
 		{
 			actor = 312012,
 			side = 2,
-			bgName = "bg_story_school",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_school",
 			say = "今回は明石、大盤振る舞いしたにゃ…",
 			painting = {
 				alpha = 0.3,
@@ -547,8 +547,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 312012,
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "普段セットでやる卓上ゲームを、バーチャル空間での冒険にレベルアップさせたにゃ！",
 			painting = {
@@ -563,9 +563,9 @@ return {
 		{
 			actor = 312012,
 			side = 2,
-			bgName = "bg_story_school",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_school",
 			say = "あとはこのプラットフォームを掌握できたら……お金がどんどん流れてくるに違いにゃいにゃ！",
 			painting = {
 				alpha = 0.3,
@@ -580,8 +580,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 312012,
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "むふふふふふ……！",
 			painting = {
@@ -594,8 +594,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -604,8 +604,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_school",
 			say = "と、喜びのあまり手足をバタつかせている成金ネコのことは一旦置いといて……",
 			typewriter = {
@@ -613,17 +613,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -631,8 +631,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_school",
 			say = "最初にバーチャル大冒険を体験する勇者パーティーが決まったようだ。",
 			typewriter = {
@@ -641,12 +641,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "説明しよう！この撫順のジョブは勇者で、リヴァプールとユニコーンはプリースト！",
 			painting = {
 				alpha = 0.3,
@@ -658,8 +658,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -668,12 +668,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "みんな覚えた？ぜっったいに間違えないでよね！",
 			painting = {
 				alpha = 0.3,
@@ -685,12 +685,12 @@ return {
 			}
 		},
 		{
-			actor = 202340,
 			side = 2,
 			bgName = "bg_story_school",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202340,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "バッチリ♪プリーストの衣装はかわいいし結構気に入ってるよ！",
 			painting = {
 				alpha = 0.3,
@@ -705,10 +705,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_school",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202340,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれ？よくよく考えるとなんでプリーストが二人もいるの？",
 			painting = {
 				alpha = 0.3,
@@ -720,12 +720,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "二人は回復に徹してもらって、攻撃は私に任せて！えへへ、開発スタッフ権限で強い装備も手配しておいたから！",
 			painting = {
 				alpha = 0.3,
@@ -737,8 +737,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -750,10 +750,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206039,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん……ユニコーン、治療魔法でみんなを守る！",
 			painting = {
 				alpha = 0.3,
@@ -765,12 +765,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっすがユニコーンちゃん！頼りになるぅ～",
 			painting = {
 				alpha = 0.3,
@@ -782,12 +782,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おーい！そこでニヤケ顔をしてるネコ！そろそろ出発してもいい？",
 			painting = {
 				alpha = 0.3,
@@ -826,17 +826,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -844,12 +844,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "撫順",
+			hidePaintObj = true,
 			say = "ではファイナルチェック～。異世界へと旅立つ準備はできたー？",
 			painting = {
 				alpha = 0.3,
@@ -861,12 +861,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "リヴァプール",
+			hidePaintObj = true,
 			say = "はわわ、ちょっと最後に…お化粧OK服もOK、スマホカメラもOK…はい、いつでも大丈夫よ！",
 			painting = {
 				alpha = 0.3,
@@ -878,12 +878,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "ユニコーン",
+			hidePaintObj = true,
 			say = "あの……お兄ちゃんに相談しておかなくてもいいの……？",
 			painting = {
 				alpha = 0.3,
@@ -895,12 +895,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "ユニコーン",
+			hidePaintObj = true,
 			say = "お兄ちゃん、本当に参加してくれるの……？",
 			painting = {
 				alpha = 0.3,
@@ -912,12 +912,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "撫順",
+			hidePaintObj = true,
 			say = "大丈夫大丈夫！事前に話してないからサプライズなんだよ！",
 			painting = {
 				alpha = 0.3,
@@ -929,12 +929,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "撫順",
+			hidePaintObj = true,
 			say = "ふふん、何を隠そう、すでに指揮官のスケジュールを確認して密かに「仕込んで」おいたからね！",
 			painting = {
 				alpha = 0.3,
@@ -946,12 +946,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "撫順",
+			hidePaintObj = true,
 			say = "飛雲と並ぶ「冒険王」の名にかけて、指揮官が絶対に参加してくれることを保証しよう！",
 			painting = {
 				alpha = 0.3,
@@ -963,12 +963,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "ユニコーン",
+			hidePaintObj = true,
 			say = "じゃあ…ユニコーンも…大丈夫！",
 			painting = {
 				alpha = 0.3,
@@ -980,12 +980,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "撫順",
+			hidePaintObj = true,
 			say = "ふふふ……ついにこの時がやってきた……",
 			painting = {
 				alpha = 0.3,
@@ -997,8 +997,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg1",
 			say = "誇らしげに空にビシッと指を差し、撫順は自らが考えたスローガンを高らかに宣言した。",
 			typewriter = {
@@ -1007,12 +1007,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "撫順",
+			hidePaintObj = true,
 			say = "いざ、異世界冒険の旅へ――！",
 			painting = {
 				alpha = 0.3,
@@ -1024,8 +1024,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1034,27 +1034,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
-			say = "撫順たちが異世界へと旅立った同時刻――",
 			bgm = "login",
+			say = "撫順たちが異世界へと旅立った同時刻――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1062,8 +1062,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			say = "自分は気がづくと石壁の質素なホールにいた。そして視界のその先で天球儀が奇妙な輝きを放っている――",
 			typewriter = {
@@ -1123,8 +1123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			say = "振り返ると、ホールの奥にある玉座に座っている明石の姿が見えた。",
 			typewriter = {
@@ -1144,11 +1144,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "明石？違うにゃ！幸運と富の神にゃ！",
 			painting = {
@@ -1161,11 +1161,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "むふふふ、どうやら状況をわかってないようだにゃ",
 			painting = {
@@ -1178,11 +1178,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "ここは饅頭神殿、無数の世界を繋ぐ神々の国にゃ",
 			painting = {
@@ -1195,11 +1195,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "そしてここの神々は死んだヒトをノリで異世界に送って、新しい生活を過ごさせるにゃ",
 			painting = {
@@ -1212,11 +1212,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "で、あなたは幸運と富の神に選ばれた……大体はそんな感じにゃ！",
 			painting = {
@@ -1229,11 +1229,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "全く残念にゃ～。若いのにここに来るとはー",
 			painting = {
@@ -1246,11 +1246,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "でも大丈夫にゃ！すぐに異世界に転生できるにゃ！",
 			painting = {
@@ -1349,12 +1349,12 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
 			optionFlag = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "にゃ！？にゃにゃにゃにゃ…！？",
 			painting = {
@@ -1367,8 +1367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1377,12 +1377,12 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
 			optionFlag = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "お労しや指揮官……本当に大変にゃ……",
 			painting = {
@@ -1395,12 +1395,12 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
 			optionFlag = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "きゃ、キャラに成り切れたのはいいことだにゃ……",
 			painting = {
@@ -1449,12 +1449,12 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "にゃ？グルとはなんのことかにゃ？",
 			painting = {
@@ -1467,12 +1467,12 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "プロジェクトが完了したから、指揮官に視察してもらうのは普通にゃ～",
 			painting = {
@@ -1509,12 +1509,12 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "そうにゃ。とにかく、一度体験してみてはいかがかにゃ？",
 			painting = {
@@ -1539,12 +1539,12 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312012,
+			nameColor = "#A9F548FF",
 			say = "むふふ。指揮官ならそう言ってくれると思ったにゃ",
 			painting = {
 				alpha = 0.3,
@@ -1556,11 +1556,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "指揮官のキャラビルドカードにゃ",
 			painting = {
@@ -1573,11 +1573,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "ここからの旅はバカンスだと思って楽しむにゃ～",
 			painting = {
@@ -1590,8 +1590,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1622,11 +1622,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "………今後実装するかもしれないにゃ！",
 			painting = {
@@ -1639,11 +1639,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "ダウンロードコンテンツ、お楽しみににゃ！",
 			painting = {
@@ -1656,11 +1656,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "幸運と富の神",
 			dir = 1,
+			actor = 312012,
 			nameColor = "#A9F548FF",
 			say = "こほん。旅立つ冒険者よ、異世界で楽しい旅が送れることを祈ろう",
 			painting = {
@@ -1673,8 +1673,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1683,21 +1683,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

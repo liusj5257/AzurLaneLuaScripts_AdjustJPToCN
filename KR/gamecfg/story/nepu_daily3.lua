@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>제3화 - 다른 문화와의 만남?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "자, 그럼 다 함께! 넵푸네푸하게 해줄게~♪",
 			bgm = "story-nepu1",
+			actor = 10100010,
+			nameColor = "#92fc63",
+			say = "자, 그럼 다 함께! 넵푸네푸하게 해줄게~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 201210,
-			dir = 1,
-			actorName = "라피 & 재블린",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#92fc63",
+			actor = 201210,
+			actorName = "라피 & 재블린",
 			say = "넵푸네푸하게 해줄게~♪",
 			subActors = {
 				{
@@ -62,14 +62,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 301120,
-			dir = 1,
-			actorName = "{namecode:14}&{namecode:13}",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#92fc63",
+			actor = 301120,
+			actorName = "{namecode:14}&{namecode:13}",
 			say = "넵푸네푸하게 해줄게~♪",
 			subActors = {
 				{
@@ -90,14 +90,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 107030,
-			dir = -1,
-			actorName = "새러토가 & 샌디에이고",
 			hideOther = true,
+			dir = -1,
 			nameColor = "#92fc63",
+			actor = 107030,
+			actorName = "새러토가 & 샌디에이고",
 			say = "넵푸네푸하게 해줄게~♪",
 			subActors = {
 				{
@@ -134,12 +134,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "잠깐, 넵튠! 어린애들한테 위험한 걸 들리고 뭘 가르치는 거야?!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "잠깐, 넵튠! 어린애들한테 위험한 걸 들리고 뭘 가르치는 거야?!",
+			actor = 10100020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "항모나 경순양함도 자연스럽게 껴 있는 것 같은데……?",
 			typewriter = {
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			say = "그렇구나! 네푸네푸 상냥해~! 모두, '이스케이프' 하는 거야!",
 			typewriter = {
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "……저도 도망칠게요, '삼십육계줄행랑' 입니다……",
 			typewriter = {
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "하지만…… 모두 즐거워 보이고, 웃고 있어요.",
 			typewriter = {
@@ -526,15 +526,15 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 10100040,
+			nameColor = "#92fc63",
 			say = "여기는…… 혹시 천국이 아닐까요?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -559,13 +559,13 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "벨 언니, 사탕 더 쥬세여!",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
-			say = "벨 언니, 사탕 더 쥬세여!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "무츠키 혼자만… 치사해, 키사라기도 사탕, 주세요…",
 			typewriter = {
@@ -597,11 +597,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "나도 나도! 언니들보다 커~다란 거!",
 			typewriter = {
@@ -630,11 +630,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "와~아! 먹어본 적 없는 사탕이 가득가득~!",
 			typewriter = {
@@ -647,11 +647,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "초콜렛, 맛있어…",
 			typewriter = {
@@ -664,11 +664,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "으~응, 마시멜로 폭신폭신~♪",
 			typewriter = {
@@ -729,16 +729,16 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			actorName = "{namecode:6}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 301050,
 			nameColor = "#92fc63",
 			say = "……라는 느낌으로, 어린아이들과 놀고 있는 거에요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -763,12 +763,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "뭔가 위험해 보이는 사람도 껴있지 않았어?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "뭔가 위험해 보이는 사람도 껴있지 않았어?",
+			actor = 10100020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -847,11 +847,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "그럼, 아야나미가 안내해줄게, 에요.",
 			typewriter = {

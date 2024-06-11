@@ -1,6 +1,6 @@
 slot0 = class("TaskGoCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = getProxy(ChapterProxy)
 
 	if slot1:getBody().taskVO:getConfig("scene") and #slot5 > 0 then

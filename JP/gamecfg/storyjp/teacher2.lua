@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"36年Z組 ニーミ先生\n\n<size=45>その二 プライドオブヒモノ</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うん…ここはこうして…こう！",
 			bgm = "story-1",
+			actor = 106011,
+			nameColor = "#a9f548",
+			say = "うん…ここはこうして…こう！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "ああ！危ない！",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,15 +67,15 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "ああ～またゲームオーバー…やっぱり最高難易度はまだ練習しないとダメなのね～",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,12 +100,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "こ、ここは……こんな環境でも生活できるなんて……",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "こ、ここは……こんな環境でも生活できるなんて……",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

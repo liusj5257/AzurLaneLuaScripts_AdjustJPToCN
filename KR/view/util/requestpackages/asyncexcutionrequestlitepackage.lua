@@ -1,11 +1,11 @@
 slot0 = class("AsyncExcutionRequestLitePackage", import(".RequestPackage"))
 slot0.STATUS = {
 	SUSPEND = 2,
-	READY = 1,
-	RUNNING = 3
+	RUNNING = 3,
+	READY = 1
 }
 
-function slot0.__call(slot0, ...)
+slot0.__call = function(slot0, ...)
 	if slot0.stopped then
 		return
 	end
@@ -17,7 +17,7 @@ function slot0.__call(slot0, ...)
 	slot0:Excute()
 end
 
-function slot0.Resume(slot0)
+slot0.Resume = function(slot0)
 	slot0.targetStatus = uv0.STATUS.READY
 
 	if slot0.status == uv0.STATUS.SUSPEND then
@@ -25,21 +25,21 @@ function slot0.Resume(slot0)
 	end
 end
 
-function slot0.Suspend(slot0)
+slot0.Suspend = function(slot0)
 	slot0.targetStatus = uv0.STATUS.SUSPEND
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.funcs = slot1 or {}
 	slot0.status = uv0.STATUS.READY
 	slot0.targetStatus = uv0.STATUS.READY
 end
 
-function slot0.Insert(slot0, slot1)
+slot0.Insert = function(slot0, slot1)
 	table.insert(slot0.funcs, slot1)
 end
 
-function slot0.Excute(slot0)
+slot0.Excute = function(slot0)
 	assert(slot0.ready)
 
 	if not slot0.ready then

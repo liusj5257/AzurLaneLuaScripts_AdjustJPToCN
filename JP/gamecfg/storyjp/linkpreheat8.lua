@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT8",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT8",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
-			say = "あら、無事に合流できたみたいじゃない……良かったわね、お嬢ちゃんたち",
 			bgm = "level-uta",
+			actor = 900011,
+			actorName = "テスター",
+			say = "あら、無事に合流できたみたいじゃない……良かったわね、お嬢ちゃんたち",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "おかげさまで……なんて言わないからね",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "今度も何も……私たちの行動は終始一貫したものよ",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "ただただ試行錯誤の繰り返し──今回もその一環に過ぎないわ",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "私たちのパクり",
 			typewriter = {
 				speed = 0.05,
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "私たちの世界に伝わる技術を流用して、こちらの世界への「道」を開いただけでは飽き足らず、このような異質極まりない空間を作ったのも……実験だというのですか？",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "私たちの世界に伝わる技術を流用して、こちらの世界への「道」を開いただけでは飽き足らず、このような異質極まりない空間を作ったのも……実験だというのですか？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -169,8 +169,8 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "フフフ、勘がいいわね……「猫神さま」？",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "知りたければ来ると良いわ──この海域の奥までね",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "なんなのですか、あの顔色の悪い不気味な女の人は？",
 			typewriter = {
 				speed = 0.05,
@@ -232,8 +232,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "とりあえず……私たちが倒すべき敵、かな？",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "うん、乗りかかった舟だもの。最期まで付き合うよ",
 			typewriter = {
 				speed = 0.05,
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 10300060,
 			dir = 1,
+			hideOther = true,
 			actorName = "うたわれるもの勢",
 			say = "おおおーっ！",
 			subActors = {
@@ -397,11 +397,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 201210,
 			dir = 1,
+			hideOther = true,
 			actorName = "アズールレーン勢",
 			say = "おおおーっ！",
 			subActors = {

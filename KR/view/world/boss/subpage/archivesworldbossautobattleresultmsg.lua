@@ -1,10 +1,10 @@
 slot0 = class("ArchivesWorldBossAutoBattleResultMsg", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ArchivesWorldBossAutoBattleResultUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("window/top/close")
 	slot0.confirmBtn = slot0:findTF("window/btns/start")
 
@@ -20,7 +20,7 @@ function slot0.OnLoaded(slot0)
 	slot0.oilTxt = slot0:findTF("window/msg_panel/oil/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -32,7 +32,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.battleCntTxt.text = slot1.battleCnt
 	slot0.damageTxt.text = slot1.damage
 	slot0.oilTxt.text = slot1.oil
@@ -40,7 +40,7 @@ function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

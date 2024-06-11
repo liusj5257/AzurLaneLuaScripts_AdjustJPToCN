@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 900335,
 			side = 2,
 			bgName = "bg_zhuguang_3",
+			bgm = "theme-thedevilxv",
+			actor = 900335,
 			nameColor = "#FEF15E",
 			say = "바쁜 와중에 미안한데 갑자기 많은 일들이 생각나서 말이야.",
-			bgm = "theme-thedevilxv",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "너... 넌 가상 데이터잖아!",
 			painting = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "죽어도... 나 혼자는 안 죽어... 널 데려갈 거야...",
 			painting = {
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "그건... 사실 오늘이 별의 바다에 온 첫날이라, 전문적인 지식은 하나도 몰라.",
 			painting = {
@@ -363,8 +363,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "좌표가... 하나 반짝이고 있긴 한데, 갈 거야?",
 			painting = {
@@ -587,11 +587,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "데빌... 이번엔 어쩔 수 없이 봐주는 거야. 프린스턴... 출발하자!",
 			painting = {

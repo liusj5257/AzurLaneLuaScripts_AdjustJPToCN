@@ -1,10 +1,10 @@
 slot0 = class("CourtyardPlayTheLutePage", import(".CourtYardBaseSubPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CourtyardPlayTheLuteui"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.backBtn = slot0:findTF("back")
 	slot0.tpl = slot0:findTF("keys/key")
 	slot0.noteTr = slot0:findTF("prints/tansou_yinfu")
@@ -14,7 +14,7 @@ function slot0.OnLoaded(slot0)
 	slot0.tpls = {}
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.furniture = slot1
 	Input.multiTouchEnabled = true
 
@@ -39,12 +39,12 @@ function slot0.Show(slot0, slot1)
 	end
 end
 
-function slot0.BlurPanel(slot0)
+slot0.BlurPanel = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	uv0.super.Show(slot0)
 end
 
-function slot0.GetKeys(slot0)
+slot0.GetKeys = function(slot0)
 	return {
 		{
 			"7D",
@@ -113,7 +113,7 @@ function slot0.GetKeys(slot0)
 	}
 end
 
-function slot0.GetTpl(slot0)
+slot0.GetTpl = function(slot0)
 	if #slot0.keyTplPool > 0 then
 		return table.remove(slot0.keyTplPool, 1)
 	else
@@ -123,7 +123,7 @@ function slot0.GetTpl(slot0)
 	end
 end
 
-function slot0.InitKeys(slot0, slot1)
+slot0.InitKeys = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0:GetKeys()) do
@@ -144,7 +144,7 @@ function slot0.InitKeys(slot0, slot1)
 	seriesAsync(slot3, slot1)
 end
 
-function slot0.InitKey(slot0, slot1, slot2, slot3)
+slot0.InitKey = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("Text")
 	slot4 = slot4:GetComponent(typeof(Image))
 	slot4.sprite = GetSpriteFromAtlas("ui/CourtyardLute_atlas", slot2)
@@ -169,31 +169,31 @@ function slot0.InitKey(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.OnStartPlay(slot0, slot1)
+slot0.OnStartPlay = function(slot0, slot1)
 end
 
-function slot0.OnEndPlay(slot0, slot1)
+slot0.OnEndPlay = function(slot0, slot1)
 end
 
-function slot0.AnimationForKey(slot0, slot1)
+slot0.AnimationForKey = function(slot0, slot1)
 	slot2 = slot1:Find("animation"):GetComponent(typeof(Animation))
 
 	slot2:Stop()
 	slot2:Play()
 end
 
-function slot0.ClearAnimationForKey(slot0, slot1)
+slot0.ClearAnimationForKey = function(slot0, slot1)
 	slot1:Find("animation"):GetComponent(typeof(Animation)):Stop()
 	slot1:Find("animation"):GetComponent(typeof(DftAniEvent)):SetEndEvent(nil)
 end
 
-function slot0.RegisetEvent(slot0)
+slot0.RegisetEvent = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 	end, SFX)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	Input.multiTouchEnabled = false
 
 	uv0.super.Hide(slot0)
@@ -201,13 +201,13 @@ function slot0.Hide(slot0)
 	slot0:Emit("StopPlayMusicalInstruments", slot0.furniture.id)
 end
 
-function slot0.ClearAllAnimation(slot0)
+slot0.ClearAllAnimation = function(slot0)
 	for slot4, slot5 in ipairs(slot0.tpls) do
 		slot0:ClearAnimationForKey(slot5)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:ClearAllAnimation()
 
 	if slot0:isShowing() then

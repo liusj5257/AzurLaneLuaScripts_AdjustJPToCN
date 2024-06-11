@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "萨奇剪",
 	cd = 0,
+	picture = "0",
+	desc = "萨奇剪",
 	painting = 0,
 	id = 6430,
-	picture = "0",
 	castCV = "",
-	desc = "萨奇剪",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerMainFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerMainFleet",
 			arg_list = {
 				buff_id = 6431
 			}

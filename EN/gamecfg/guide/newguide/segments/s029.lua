@@ -9,8 +9,8 @@ return {
 		{
 			alpha = 0.17,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[1]
@@ -19,8 +19,8 @@ return {
 		{
 			alpha = 0,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[2]

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "点燃",
 	time = 15.1,
+	name = "点燃",
+	init_effect = "",
 	picture = "",
 	desc = "大青花鱼技能鱼雷点燃",
 	stack = 1,
@@ -15,13 +15,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.4,
 				attr = "torpedoPower",
-				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
-				number = 5,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0.4
+				number = 5
 			}
 		},
 		{

@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ff5c5c",
 			side = 2,
 			bgName = "bg_hms_3",
-			say = "Unknown Location",
 			dir = 1,
 			bgm = "bsm-5",
+			nameColor = "#ff5c5c",
+			say = "Unknown Location",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Admiral Hipper",
+			side = 1,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Eugen",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
+			side = 1,
 			bgName = "bg_hms_3",
-			actorName = "Admiral Hipper",
 			dir = 1,
+			actorName = "Admiral Hipper",
 			say = "I can't calm down because you're the one in charge of the operation.",
 			dialogShake = {
 				speed = 0.09,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Eugen",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Eugen",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Deutschland",
+			side = 2,
 			bgName = "bg_hms_3",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "Do I get to sortie yet? You've got some nerve to keep me waiting like this!",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Gneisenau",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Scharnhorst",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Admiral Graf Spee",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tirpitz",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Eugen",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Eugen",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Eugen",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Eugen",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,

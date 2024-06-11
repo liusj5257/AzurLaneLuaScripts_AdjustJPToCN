@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "blue",
+	id = 106181,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 106181,
+	color = "blue",
 	icon = 106180,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.15
+				number = -0.15,
+				attr = "injureRatio"
 			}
 		}
 	}

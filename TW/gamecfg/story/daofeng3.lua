@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAOFENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAOFENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"欲速則不達\n\n<size=45>三  從「風箏」開始的聯繫</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "港區・指揮室",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "港區・指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "正午剛過。島風就已經把本日的工作都做完了。",
@@ -66,16 +66,16 @@ return {
 			}
 		},
 		{
-			actor = 301290,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎呀，到頭來檢討書才是最費事的工作……啊，當然我很用心地寫了哦！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,14 +100,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "為了犒勞她這段時間的努力，批准她今天剩下的時間可以自由行動。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "當然，這裡面也多少有點想藉機觀察下島風的想法。",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "那麼島風現在在哪呢——",
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "哇，做好了呢。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -198,10 +198,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "欸嘿嘿！挺不錯的吧！只用塑膠袋和吸管就能做一個風箏！",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,10 +242,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "妳很懂嘛~不過我自己沒什麼有在哪裡寫過這個的印象哎……總之就覺得光是收集還不夠，於是自己也學會製作了！",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "看來島風在和電、雷一起熱鬧地紮著風箏。繼續觀望吧————",
@@ -304,15 +304,15 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "做好了！畫了可愛的島風插圖貼上去了。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -340,10 +340,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哇——！這個是島風哎！嗚……我果然是一副不討喜的樣子嗎……",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -400,10 +400,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "啊哈哈，原來如此原來如此，那個我現在也很喜歡呢！",
 			typewriter = {
 				speed = 0.05,
@@ -434,10 +434,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "好啊，不過這裡不太適合放風箏……啊稍等一下。",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "（嗯……？手機響了……是島風？）",
@@ -467,10 +467,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，打擾了。我現在和雷、電在一起……接下來要去海岸邊放風箏。我會儘早回去的！",
 			typewriter = {
 				speed = 0.05,
@@ -482,8 +482,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -492,8 +492,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

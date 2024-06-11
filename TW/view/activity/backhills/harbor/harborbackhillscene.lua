@@ -1,6 +1,6 @@
 slot0 = class("HarborBackHillScene", import("..TemplateMV.BackHillTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "HarborBackHillUI"
 end
 
@@ -8,7 +8,7 @@ slot0.edge2area = {
 	default = "_SDPlace"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.top = slot0:findTF("top")
@@ -36,7 +36,7 @@ function slot0.init(slot0)
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.HarborBackHillGraph"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -66,15 +66,15 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.XuanShangBanFirstTip()
+slot0.XuanShangBanFirstTip = function()
 	return PlayerPrefs.GetInt("FIRST_INTO_ACT_" .. ActivityConst.PIRATE_MEDAL_ACT_ID .. "_" .. getProxy(PlayerProxy):getData().id) == 0
 end
 
-function slot0.XuanShangBanTip()
+slot0.XuanShangBanTip = function()
 	return uv0.XuanShangBanFirstTip() or Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.PIRATE_MEDAL_ACT_ID))
 end
 
-function slot0.IsFinishAllActTask()
+slot0.IsFinishAllActTask = function()
 	slot0 = getProxy(TaskProxy)
 	slot1 = pg.activity_template[ActivityConst.BOAT_QIAN_SHAO_ZHAN].config_data
 
@@ -83,7 +83,7 @@ function slot0.IsFinishAllActTask()
 	end)
 end
 
-function slot0.MiMiChuanChangTip()
+slot0.MiMiChuanChangTip = function()
 	if not uv0.IsFinishAllActTask() then
 		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.BOAT_QIAN_SHAO_ZHAN))
 	else
@@ -91,17 +91,17 @@ function slot0.MiMiChuanChangTip()
 	end
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	setActive(slot0.upper_mimichuanchang:Find("Tip"), uv0.MiMiChuanChangTip())
 	setActive(slot0.upper_xuanshangban:Find("Tip"), uv0.XuanShangBanTip())
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
 end
 
-function slot0.IsShowMainTip(slot0)
+slot0.IsShowMainTip = function(slot0)
 	if slot0 and not slot0:isEnd() then
 		return uv0.XuanShangBanTip() or uv0.MiMiChuanChangTip()
 	end

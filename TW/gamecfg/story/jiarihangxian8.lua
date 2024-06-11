@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "讓各位久等了喵！第二戰馬上開始喵！",
 			dir = 1,
 			bgm = "doa_boss",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "讓各位久等了喵！第二戰馬上開始喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -50,8 +50,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "以這樣的方式和姐姐“並肩作戰”啊，還真有點不知道怎麼辦呢…總之一起加油吧，姐姐！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "海咲你要小心點，別受傷了哦！",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "放心啦，姐姐~{namecode:98}小姐前面不是說過，彈藥都已經換成沒有殺傷力的特殊型了嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "話、話是這麼說，小心點總沒錯……",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -244,8 +244,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "欸~是嗎？我倒覺得好像有不少話題可以跟她聊呢~",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

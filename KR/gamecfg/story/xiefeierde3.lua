@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"탄환과, 사랑을 담아\n\n<size=45>3. 메이드의 취미</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 202080,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "주인님께서는 저희 메이드단의 평소 생활에 관심이 있으신 모양이군요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,15 +73,15 @@ return {
 			}
 		},
 		{
-			say = "이런 경위로 휴일에 셰필드의 기숙사 문을 두드리게 되었다.",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "이런 경위로 휴일에 셰필드의 기숙사 문을 두드리게 되었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,11 +128,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202080,
 			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
@@ -161,13 +161,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "역시 셰필드의 방이다. 너무 깨끗해서 먼지 한 톨도 보이지 않아.",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……역시 로열의 메이드답게 홍차 역시나 수준급이다.",
 			typewriter = {
 				speed = 0.05,
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "아무리 생각해도 전혀 주인 취급이 아닌 것 같은데?",
 			typewriter = {
 				speed = 0.05,
@@ -268,9 +268,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…라는 것은 다른 사람이라면 바로 배웅해버린다는 건가. 역시 셰필드다.",
 			typewriter = {
 				speed = 0.05,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "탁자에 무언가 놓여있는 것 같다. 이건… 절반 정도 분해된 권총?",
 			typewriter = {
 				speed = 0.05,
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…역시 가차 없네…… 하지만 이 권총, 셰필드와 닮은 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "셰필드의 수업인가… 꽤 흥미로운데…",
 			typewriter = {
 				speed = 0.05,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "셰필드의 등 뒤에서 조용히 타오르는 불길이 보이는 것 같다…",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023海盗活动 EX逃课机制",
 	time = 3,
+	name = "2023海盗活动 EX逃课机制",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

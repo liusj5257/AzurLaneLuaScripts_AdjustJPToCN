@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"先輩とわだかまり\n\n<size=45>五　わだかまり・上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "この前の演習以来、エセックスの様子がずっとどこか変だった。",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "一回エセックスと話してみるか。",
 			typewriter = {
 				speed = 0.05,
@@ -68,14 +68,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107090,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "え？日頃の感謝として、今度非番の日にどこかに出かける…ですか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "秘書艦のすべきことをやったまでで、特に感謝されるほどのことは…",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "し、指揮官がそこまで言うのなら……",
 			typewriter = {
@@ -139,14 +139,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
-			bgName = "star_level_bg_105",
+			stopbgm = true,
 			dir = 1,
+			bgName = "star_level_bg_105",
 			say = "そして、非番の日にエセックスと母港周辺の町に出かけた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -167,13 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "場所が違う以外、普段の母港での見回りとあまり変わらないのですね…",
 			bgm = "story-1",
+			actor = 107090,
+			nameColor = "#a9f548",
+			say = "場所が違う以外、普段の母港での見回りとあまり変わらないのですね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,8 +187,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "あ、指揮官からなにかご指示はありますか？",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "エンタープライズ先輩の事をどう思っているのか、ですか……",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 107060,
 			stopbgm = true,
 			say = "それは違う",
 			typewriter = {
@@ -372,9 +372,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
 			blackBg = true,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "え、エンタープライズ先輩！？",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,

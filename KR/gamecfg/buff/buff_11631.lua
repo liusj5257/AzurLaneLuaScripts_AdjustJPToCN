@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.05
+					number = 0.05,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -33,8 +33,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.066
+					number = 0.066,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.066
+					number = -0.066,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -58,8 +58,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.082
+					number = 0.082,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.082
+					number = -0.082,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.1
+					number = 0.1,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -108,8 +108,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.116
+					number = 0.116,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.116
+					number = -0.116,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.132
+					number = 0.132,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.132
+					number = -0.132,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -158,8 +158,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.15
+					number = 0.15,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.15
+					number = -0.15,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.166
+					number = 0.166,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.166
+					number = -0.166,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -208,8 +208,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.182
+					number = 0.182,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.182
+					number = -0.182,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -233,8 +233,8 @@ return {
 				},
 				arg_list = {
 					group = 11630,
-					attr = "damageReduceFromAmmoType_3",
-					number = 0.2
+					number = 0.2,
+					attr = "damageReduceFromAmmoType_3"
 				}
 			},
 			{
@@ -243,20 +243,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.2
+					number = -0.2,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "重樱装母",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 11631,
+	time = 0,
 	picture = "",
 	desc = "自身受到高爆伤害、航空伤害降低",
 	stack = 1,
-	id = 11631,
+	color = "blue",
 	icon = 11630,
 	last_effect = "",
 	blink = {
@@ -274,8 +274,8 @@ return {
 			},
 			arg_list = {
 				group = 11630,
-				attr = "damageReduceFromAmmoType_3",
-				number = 0.05
+				number = 0.05,
+				attr = "damageReduceFromAmmoType_3"
 			}
 		},
 		{
@@ -284,8 +284,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

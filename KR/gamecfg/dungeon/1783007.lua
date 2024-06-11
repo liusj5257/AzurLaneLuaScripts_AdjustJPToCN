@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -63,9 +63,9 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -80,9 +80,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583002,
-							sickness = 0.3,
 							corrdinate = {
 								10,
 								0,
@@ -97,9 +97,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -127,9 +127,9 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583002,
-							sickness = 0.3,
 							corrdinate = {
 								5,
 								0,
@@ -144,9 +144,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -161,9 +161,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583002,
-							sickness = 0.3,
 							corrdinate = {
 								5,
 								0,
@@ -182,8 +182,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 1007083,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								1007093,
@@ -210,9 +210,9 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								10,
 								0,
@@ -227,9 +227,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583003,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,
@@ -244,9 +244,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583003,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,
@@ -261,9 +261,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								10,
 								0,

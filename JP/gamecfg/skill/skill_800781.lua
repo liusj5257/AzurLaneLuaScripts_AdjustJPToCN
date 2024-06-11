@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "迷惘混乱的内心",
 	cd = 0,
+	picture = "0",
+	desc = "迷惘混乱的内心",
 	painting = 1,
 	id = 800781,
-	picture = "0",
 	castCV = "skill",
-	desc = "迷惘混乱的内心",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 800782
 			}

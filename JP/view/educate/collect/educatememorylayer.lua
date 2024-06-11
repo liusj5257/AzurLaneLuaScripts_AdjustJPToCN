@@ -1,14 +1,14 @@
 slot0 = class("EducateMemoryLayer", import(".EducateCollectLayerTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateMemoryUI"
 end
 
-function slot0.initConfig(slot0)
+slot0.initConfig = function(slot0)
 	slot0.config = pg.child_memory
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setText(slot0:findTF("review_btn/Text", slot0.performTF), i18n("child_btn_review"))
 
 	slot0.memories = getProxy(EducateProxy):GetMemories()
@@ -18,7 +18,7 @@ function slot0.didEnter(slot0)
 	slot0:updatePage()
 end
 
-function slot0.updateItem(slot0, slot1, slot2)
+slot0.updateItem = function(slot0, slot1, slot2)
 	slot3 = table.contains(slot0.memories, slot1.id)
 
 	setActive(slot0:findTF("lock", slot2), not slot3)
@@ -37,7 +37,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.showPerformWindow(slot0, slot1)
+slot0.showPerformWindow = function(slot0, slot1)
 	EducateTipHelper.ClearNewTip(EducateTipHelper.NEW_MEMORY, slot1.id)
 
 	slot2 = slot0:findTF("Image", slot0.performTF)
@@ -52,12 +52,12 @@ function slot0.showPerformWindow(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.playAnimChange(slot0)
+slot0.playAnimChange = function(slot0)
 	slot0.anim:Stop()
 	slot0.anim:Play("anim_educate_memory_change")
 end
 
-function slot0.playAnimClose(slot0)
+slot0.playAnimClose = function(slot0)
 	slot0.anim:Play("anim_educate_memory_out")
 end
 

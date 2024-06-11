@@ -1,17 +1,17 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI11",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "level-french2",
 			say = "卡薩布蘭卡和土倫的悲劇已經過去了，一批偉大的聖教騎士們為了貫徹自己的信仰和誓言，選擇了犧牲",
+			dir = 1,
+			bgm = "level-french2",
 			effects = {
 				{
 					active = true,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "她們是偉大的，她們是自由的",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "面對巨人的挑釁，大衛說：“妳來攻擊我，用的是刀槍和銅戟”",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "“而我的攻擊，靠著萬軍耶和華之名！ ”",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在嶄新的時代，自由的力量已經覺醒",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在嶄新的時代，她們的名字令我們團結",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在嶄新的時代，我們必將奪回我們的家園！",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "我願用我的紅袍覆蓋一切，願天下嚮往自由之士共駐於洛林十字旗下",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "因父及子及聖神之名",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "自由鳶尾第一旗艦——黎胥留",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -185,8 +185,8 @@ return {
 		{
 			actor = 801010,
 			side = 0,
-			dir = 1,
 			say = "攔截追擊這種工作對我們姐妹來說最擅長的啦，快下指示吧！",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

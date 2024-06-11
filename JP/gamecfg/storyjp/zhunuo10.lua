@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO10",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -67,14 +67,14 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
-			nameColor = "#D6341D",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#D6341D",
 			say = "おーい、大丈夫？って、なんでこんな損傷を受けてんの！",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1

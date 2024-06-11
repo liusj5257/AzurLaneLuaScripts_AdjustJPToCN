@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.2
+					number = 0.2,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.222
+					number = 0.222,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.244
+					number = 0.244,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.266
+					number = 0.266,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.288
+					number = 0.288,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.31
+					number = 0.31,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.332
+					number = 0.332,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.354
+					number = 0.354,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.376
+					number = 0.376,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = 0.4
+					number = 0.4,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "雷达支援",
 	time = 8,
+	name = "雷达支援",
+	init_effect = "",
 	picture = "",
 	desc = "受到伤害提高",
 	stack = 1,
@@ -166,8 +166,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = 0.2
+				number = 0.2,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

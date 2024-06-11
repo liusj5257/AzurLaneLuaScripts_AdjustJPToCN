@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "生命的鼓动",
 	init_effect = "",
+	id = 103050,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每10秒，有概率回血",
 	stack = 1,
-	id = 103050,
+	color = "blue",
 	icon = 103050,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 103051,
-				target = "TargetSelf",
-				time = 10
+				time = 10,
+				target = "TargetSelf"
 			}
 		}
 	}

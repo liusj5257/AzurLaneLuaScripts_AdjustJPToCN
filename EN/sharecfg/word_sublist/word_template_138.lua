@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_138 = {}
 slot1 = slot0.word_template_138
 
-function temp()
+temp = function()
 	uv0["矶"] = {
 		["山"] = {
 			["沙"] = {
@@ -24,7 +24,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鸡"] = {
 		["８"] = {
 			this = true
@@ -171,7 +171,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["姬"] = {
 		["勝"] = {
 			["德"] = {
@@ -191,7 +191,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["基"] = {
 		["地"] = {
 			["组"] = {
@@ -244,7 +244,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赍"] = {
 		this = {
 			this = true
@@ -254,7 +254,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["賫"] = {
 		this = {
 			this = true
@@ -264,7 +264,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["機"] = {
 		["8"] = {
 			this = true

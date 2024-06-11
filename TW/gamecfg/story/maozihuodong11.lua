@@ -1,17 +1,17 @@
 return {
-	id = "MAOZIHUODONG11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-cccp3",
 			dir = 1,
 			say = "前方發現一支塞壬精英艦隊，旗艦是…執行者II型嗎？",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "太好了，這支艦隊可以作為突破口，突破這處薄弱點繼續前進吧！",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "嗯？周圍突然變亮了，那個是……",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "不、不好！那是塞壬瞄準後方的攻擊！指揮官小心！！",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "超遠距離狙擊？！糟了！",
 			typewriter = {
 				speed = 0.05,
@@ -92,10 +92,10 @@ return {
 			}
 		},
 		{
-			actor = 105140,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105140,
+			nameColor = "#a9f548",
 			say = "啊啊啊啊啊啊啊啊啊啊啊啊啊！休想得逞！！！！！",
 			flashout = {
 				dur = 0.5,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			say = "南達科他徑直衝向高速襲來的光束，火花與雷鳴在她的盾牌上劇烈的滾動著",
 			side = 2,
 			bgName = "bg_cccp_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "南達科他徑直衝向高速襲來的光束，火花與雷鳴在她的盾牌上劇烈的滾動著",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "南達科他",
+			side = 1,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "水星紀念",
+			side = 0,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
+			dir = 1,
 			say = "因為水星紀念及時接管了控制權，指揮艦得以在千鈞一髮之際錯開了攻擊",
 			typewriter = {
 				speed = 0.05,
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_1",
+			dir = 1,
 			say = "可是，如果沒有南達科他的盾牌，光束接下來將會直接命中錯失了躲閃時機的水星紀念",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "水星紀念",
+			side = 0,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "南達科他",
+			side = 1,
 			bgName = "bg_cccp_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "剛剛到底發生了什麼事…？！南達科他，匯報損傷情況！",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,9 +324,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "僅僅吃了一下攻擊就導致了戰列艦的電力系統故障？！",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "竟然是偽裝成舊型的新型號？！",
 			typewriter = {
 				speed = 0.05,
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "竟然是偽裝成舊型的新型號？！",
 			painting = {
 				alpha = 0.3,

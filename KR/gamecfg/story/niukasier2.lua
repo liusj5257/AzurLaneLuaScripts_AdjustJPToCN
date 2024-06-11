@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평온한 일상을 바라며\n\n<size=45>완벽과 평온</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "(똑똑똑)",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "(똑똑똑)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "뉴캐슬과 한창 업무를 보고 있을 때, 누군가 집무실의 문을 두드렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
+			say = "전에 했던 창고 이야기 말인가요?",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "전에 했던 창고 이야기 말인가요?",
+			actor = 202190,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "두세 마디 정도 간단한 대화가 오간 뒤, 셰필드는 가볍게 인사를 하고 집무실을 나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -268,9 +268,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "하긴, 다른 사람도 아니고 벨파스트라면…분명 완벽히 일을 끝내려 할 테지.",
 			typewriter = {
 				speed = 0.05,
@@ -278,9 +278,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그래도, 가끔은 완벽함을 추구하지 않는 편이 일을 더 스무스하게 진행하는 경우도 있을지도 모르겠군.",
 			typewriter = {
 				speed = 0.05,
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#92fc63",
 			say = "저는 '완벽' 이 아니라, '평온' 함에 더 만족하는 성격이라서 말이죠.",
 			typewriter = {
 				speed = 0.05,

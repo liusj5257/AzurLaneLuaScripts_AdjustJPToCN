@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO06",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO06",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 0,
 			actorName = "華盛頓",
+			side = 0,
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -19,8 +19,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "北卡羅來納",
+			side = 0,
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "海倫娜",
+			side = 0,
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "華盛頓",
+			side = 0,
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "海倫娜",
+			side = 0,
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "華盛頓",
+			side = 0,
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "華盛頓",
+			side = 0,
 			bgName = "bg_story_wing0",
 			nameColor = "#a9f548",
 			dir = 1,

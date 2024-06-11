@@ -1,6 +1,6 @@
 slot0 = class("ArchivesWorldBossAwardCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.itemTF = slot0._tf:Find("item")
@@ -15,7 +15,7 @@ function slot0.Ctor(slot0, slot1)
 	setText(slot0._tf:Find("point/label"), i18n("meta_pt_point"))
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot3 = slot1.itemInfo
 	slot6 = slot1.count
 	slot7 = slot1.unlockPTNum
@@ -50,7 +50,7 @@ function slot0.Update(slot0, slot1, slot2)
 	setActive(slot0.itemMaskLockTF, slot8 == 2)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

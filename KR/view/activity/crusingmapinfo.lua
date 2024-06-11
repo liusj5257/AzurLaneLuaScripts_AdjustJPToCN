@@ -4,9 +4,9 @@ slot0.MapInfo = {
 		all = 1260,
 		frame = {
 			[0] = 0,
-			[90.0] = 1080,
+			[95.0] = 1185,
 			[100.0] = 1260,
-			[95.0] = 1185
+			[90.0] = 1080
 		}
 	},
 	CrusingMap_1 = {
@@ -15,59 +15,60 @@ slot0.MapInfo = {
 			[0] = 0,
 			nil,
 			5,
-			[40.0] = 155,
+			[60.0] = 240,
 			[63.0] = 267,
-			[62.0] = 261,
+			[40.0] = 155,
 			[70.0] = 311,
 			[74.0] = 340,
 			[50.0] = 200,
 			[54.0] = 214,
 			[90.0] = 391,
+			[80.0] = 362,
+			[62.0] = 261,
 			[82.0] = 369,
-			[60.0] = 240,
 			[10.0] = 40,
 			[100.0] = 410,
-			[30.0] = 120,
-			[80.0] = 362
+			[30.0] = 120
 		}
 	},
 	CrusingMap_2 = {
 		all = 900,
 		frame = {
 			[0] = 410,
-			[50.0] = 606,
+			[30.0] = 530,
 			[40.0] = 570,
-			[100.0] = 860,
-			[70.0] = 716,
-			[60.0] = 664,
 			[20.0] = 490,
-			[80.0] = 772,
-			[90.0] = 812,
+			[70.0] = 716,
 			[10.0] = 450,
-			[30.0] = 530
+			[50.0] = 606,
+			[100.0] = 860,
+			[90.0] = 812,
+			[60.0] = 664,
+			[80.0] = 772
 		}
 	}
 }
 slot0.VersionInfo = {
-	map_202210 = "CrusingMap_1",
-	map_202212 = "CrusingMap_1",
-	map_202202 = "CrusingMap_2",
-	map_202312 = "CrusingMap_1",
-	map_202302 = "CrusingMap_1",
-	map_202306 = "CrusingMap_2",
-	map_202208 = "CrusingMap_1",
 	map_202310 = "CrusingMap_2",
+	map_202308 = "CrusingMap_2",
+	map_202212 = "CrusingMap_1",
+	map_202312 = "CrusingMap_1",
+	map_202306 = "CrusingMap_2",
+	map_202406 = "CrusingMap_1",
+	map_202110 = "CrusingMap_0",
+	map_202204 = "CrusingMap_1",
+	map_202202 = "CrusingMap_2",
+	map_202302 = "CrusingMap_1",
+	map_202210 = "CrusingMap_1",
+	map_202208 = "CrusingMap_1",
 	map_202112 = "CrusingMap_1",
 	map_202304 = "CrusingMap_1",
-	map_202308 = "CrusingMap_2",
 	map_202206 = "CrusingMap_1",
-	map_202110 = "CrusingMap_0",
 	map_202404 = "CrusingMap_1",
-	map_202204 = "CrusingMap_1",
 	map_202402 = "CrusingMap_1"
 }
 
-function slot0.GetPhaseFrame(slot0)
+slot0.GetPhaseFrame = function(slot0)
 	slot1 = uv0.MapInfo[slot0]
 
 	return setmetatable(Clone(slot1.frame), {

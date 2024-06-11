@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA45",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA45",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgmDelay = 2,
-			actor = 900011,
+			side = 2,
 			actorName = "テスター？",
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
+			nameColor = "#ff5c5c",
 			say = "ふん、まさかあなたまで負けたとはね……やっぱり「駒」を使うにしても限界があるようね",
 			flashin = {
 				delay = 1,
@@ -37,9 +37,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "ゲホゲホ…申し訳ございません…",
 			typewriter = {
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "どうでもいい。お前たちは最初から時間稼ぎ、私がこの鏡面海域の権限を手に入れるための「駒」に過ぎない",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "周りを見よ。この鏡面海域はもはや完全に我が手中にある！そして世界を繋ぐ「疑似特異点」の「扉」も再び開かれようとしている",
 			typewriter = {
 				speed = 0.05,
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "この力をもってすれば「駒」の修理など容易いもの…お前もどう？最終決戦でレジスタンスの連中に一矢報いてやろうとは思わない？",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "名探偵フブキ？",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "名探偵フブキ？",
 			say = "ご心配ありがとうございます。なるほど…権限をようやく…全ては計画通り…",
 			typewriter = {
 				speed = 0.05,
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "そう。お前たちは私が鏡面海域の権限認証をクリアするまでの時間を稼いだ。さあ、早く―――",
 			typewriter = {
 				speed = 0.05,
@@ -137,12 +137,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "…………………………………………………",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.8,
 					dur = 0.7,
 					x = 0
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "電流の流れる音と濃い煙が立ち昇り、テスターは意識を失って倒れこんだ。",
 			typewriter = {
@@ -180,9 +180,9 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "全ては計画通り…そろそろ後の準備をしなくちゃね",
 			typewriter = {
@@ -195,14 +195,14 @@ return {
 			}
 		},
 		{
-			say = "ホロライブ本社ビル・周辺海域",
 			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "holo-fbk",
+			say = "ホロライブ本社ビル・周辺海域",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -242,10 +242,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "これ、ライブステージね……",
 			effects = {
 				{
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "色とりどりのカラーブロックによって建てられたその建造物は――ライブステージだった。",
 			effects = {
 				{
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ステージの最奥には大きなブロックで装飾された「ホロライブ」と書かれた文字がある。",
 			typewriter = {
 				speed = 0.05,
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "――外観はいたって普通だが、直感的にどことなく危険な雰囲気を漂わせている。",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "これはフブキちゃんが作った新ホロ島ステージだよ！ちょっとまあ、この世界の人々にとっては馴染みがないみたいだけど",
 			typewriter = {
 				speed = 0.05,
@@ -411,9 +411,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うわわわわわ！これはなんていうか…ただのパロディで別に……むぐぐぐ！",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -453,8 +453,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "でもこの前もみんなとここで踊ったりしたんだよ。カラフルなステージはすごく可愛かった～",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "（そら先輩はやっぱり何も分かってないんだねぇ…）",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "（瑞鶴も理解してない…）",
 			typewriter = {
 				speed = 0.05,
@@ -531,8 +531,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "（それでいいの！）",
 			typewriter = {
 				speed = 0.05,

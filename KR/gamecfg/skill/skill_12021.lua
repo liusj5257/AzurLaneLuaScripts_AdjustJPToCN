@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "1",
+	desc = "潜母·飞机起飞",
 	painting = 0,
 	id = 12021,
-	picture = "1",
 	castCV = "",
-	desc = "潜母·飞机起飞",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1,
 				weaponType = "Aircraft"

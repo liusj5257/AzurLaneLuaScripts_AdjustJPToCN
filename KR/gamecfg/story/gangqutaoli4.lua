@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"항구탈출 대작전!\n\n<size=45>4 드디어 종점!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202180,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "여기가 부두입니다. 출격이나 군사 의뢰 시에는 다들 여기서 바다로 나간답니다.",
 			bgm = "story-1",
+			actor = 202180,
+			nameColor = "#92fc63",
+			say = "여기가 부두입니다. 출격이나 군사 의뢰 시에는 다들 여기서 바다로 나간답니다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#92fc63",
 			say = "크, 크흠! 벨이라고 했나. 수고했다! 감사를 표하지.",
 			typewriter = {
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#92fc63",
 			say = "달리 분부하실 일이 있다면, 언제든지 말씀해 주십시오(꾸벅).",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -22.5,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#92fc63",
 			say = "저기, 그러니까, 벨?",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#92fc63",
 			say = "우리와 함께 녀석의 마수로부터, 푸른 바다로 탈출하지 않겠는가!",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#92fc63",
 			say = "그, 그런……………",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#92fc63",
 			say = "앗………",
 			typewriter = {
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "휘잉~…………",
 			typewriter = {
 				speed = 0.05,
@@ -401,14 +401,14 @@ return {
 			}
 		},
 		{
-			actor = 304060,
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actorName = "꼬마 그라프 체펠린＆꼬마 히에이",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			nameColor = "#92fc63",
+			actor = 304060,
+			actorName = "꼬마 그라프 체펠린＆꼬마 히에이",
 			say = "저 사람들은~~!?",
 			subActors = {
 				{
@@ -428,8 +428,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

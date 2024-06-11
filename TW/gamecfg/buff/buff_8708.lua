@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "英系V2 U81潜行猎杀",
 	time = 0,
-	color = "blue",
+	name = "英系V2 U81潜行猎杀",
+	init_effect = "",
+	id = 8708,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8708,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8709,
-				target = "TargetSelf",
-				time = 23
+				time = 23,
+				target = "TargetSelf"
 			}
 		}
 	}

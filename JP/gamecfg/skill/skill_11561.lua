@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2700磅的正义",
 	cd = 0,
+	picture = "0",
+	desc = "不更换主炮弹药种类",
 	painting = 1,
 	id = 11561,
-	picture = "0",
 	castCV = "skill",
-	desc = "不更换主炮弹药种类",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 11562
 			}

@@ -57,7 +57,7 @@ slot1.ANCHORS_TYPE = {
 	}
 }
 
-function slot1.Init(slot0)
+slot1.Init = function(slot0)
 	PoolMgr.GetInstance():GetUI("ShareUI", false, function (slot0)
 		uv0.go = slot0
 
@@ -82,7 +82,7 @@ function slot1.Init(slot0)
 	slot0.cacheMoveComps = {}
 end
 
-function slot1.Share(slot0, slot1, slot2, slot3)
+slot1.Share = function(slot0, slot1, slot2, slot3)
 	if PLATFORM_CODE == PLATFORM_CHT and not CheckPermissionGranted(ANDROID_WRITE_EXTERNAL_PERMISSION) then
 		uv0.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n1("指揮官，碧藍航線需要存儲權限才能分享是否打開？"),
@@ -219,7 +219,7 @@ function slot1.Share(slot0, slot1, slot2, slot3)
 	slot0.cacheMoveComps = {}
 end
 
-function slot1.TakeTexture(slot0, slot1, slot2, slot3)
+slot1.TakeTexture = function(slot0, slot1, slot2, slot3)
 	if slot1 == uv0.TypeValentineQte then
 		slot4 = System.Collections.Generic.List_UnityEngine_Camera()
 
@@ -232,7 +232,7 @@ function slot1.TakeTexture(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.TakePhoto(slot0, slot1, slot2, slot3)
+slot1.TakePhoto = function(slot0, slot1, slot2, slot3)
 	if slot1 == uv0.TypeValentineQte then
 		slot4 = System.Collections.Generic.List_UnityEngine_Camera()
 
@@ -245,7 +245,7 @@ function slot1.TakePhoto(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.Show(slot0, slot1, slot2)
+slot1.Show = function(slot0, slot1, slot2)
 	slot0.go:SetActive(true)
 	uv0.UIMgr.GetInstance():BlurPanel(slot0.panel, true, slot2)
 	uv0.DelegateInfo.New(slot0)

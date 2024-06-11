@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动剧情战 总控制BUFF",
 	time = 0,
+	name = "公海舰队活动剧情战 总控制BUFF",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8969,
-				target = "TargetSelf",
 				time = 15.5,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8969,
-				target = "TargetSelf",
 				time = 30.5,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -40,8 +40,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8969,
-				target = "TargetSelf",
 				time = 45.5,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -52,8 +52,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8970,
-				target = "TargetSelf",
 				time = 16,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -64,8 +64,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8971,
-				target = "TargetSelf",
 				time = 31,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -76,8 +76,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8972,
-				target = "TargetSelf",
 				time = 46,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -88,8 +88,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8973,
-				target = "TargetSelf",
 				time = 61,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

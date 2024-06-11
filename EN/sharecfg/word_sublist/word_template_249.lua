@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_249 = {}
 slot1 = slot0.word_template_249
 
-function temp()
+temp = function()
 	uv0["蠕"] = {
 		["动"] = {
 			this = true,
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["顬"] = {
 		this = {
 			this = true
@@ -26,7 +26,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["乳"] = {
 		f = {
 			a = {
@@ -239,7 +239,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["入"] = {
 		["穴"] = {
 			["一"] = {
@@ -253,7 +253,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["软"] = {
 		["妹"] = {
 			this = true
@@ -270,7 +270,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["軟"] = {
 		["妹"] = {
 			this = true
@@ -280,7 +280,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瑞"] = {
 		["典"] = {
 			["维"] = {

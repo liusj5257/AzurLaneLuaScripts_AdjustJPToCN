@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-tokiwa",
 			dir = 1,
 			say = "我回来了~队长，净化亲妳们还好么。",
+			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "祭！！一直没回来担心死我了。吹雪和澪，妳们也平安无事真是太好了！",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "啊，祭回来了啊~正好阿库娅的舰装也调试完毕，旁边的是妳失散的同伴么？",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "嗯！这位是白上吹雪，吹雪，这位是大神澪，澪。",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "旁边的两位是在战斗中帮助了我们的，{namecode:96}小姐和{namecode:158}小姐,都是新加入反抗军的宝贵力量！",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "欢迎欢迎~战斗力又加强了呢，那边的是……",
 			typewriter = {
 				speed = 0.05,
@@ -163,14 +163,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "净化者失忆了？！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -213,8 +213,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "之后我们救下了祭和阿库娅，就跟着她们来到了这个基地。",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "等一下！净化亲这么可爱，不是会做出那种事的人，那些事肯定是，相似的什么别的人做的啦！",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "那个，我真的对妳们做了很过分的事情吗？要是那样的话…我还是现在就出去和测试怪人拼了算了！",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "太好了，刚才{namecode:158}的样子把咱吓的都不敢动了……那现在大家是统一战线的夥伴了吧？",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "切…我知道啦！已经差不多熟悉感觉了，很快就能造出几套很厉害的舰装让妳们刮目相看的！",
 			typewriter = {
 				speed = 0.05,
@@ -458,8 +458,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "绫目有鬼神之力，诗音是魔法使，她们两个肯定没问题。空前辈的话…因为是空前辈所以肯定也没问题啦！祭的直觉是这么说的！",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "呼呼呼，收集反抗军用的物资可是我最擅长的，交给本阿库娅大人吧~",
 			typewriter = {
 				speed = 0.05,
@@ -550,8 +550,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "标枪，以后一定会成为好妻子的……",
 			typewriter = {
 				speed = 0.05,

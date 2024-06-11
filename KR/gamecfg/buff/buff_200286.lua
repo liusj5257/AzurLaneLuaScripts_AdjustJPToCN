@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 开头清除机制应对成功计数",
 	time = 1,
-	color = "blue",
+	name = "2023英系活动 EX 开头清除机制应对成功计数",
+	init_effect = "",
+	id = 200286,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200286,
+	color = "blue",
 	icon = 200286,
 	last_effect = "",
 	effect_list = {

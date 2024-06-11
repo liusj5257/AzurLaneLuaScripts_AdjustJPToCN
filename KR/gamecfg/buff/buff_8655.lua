@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "boss akua",
 	time = 0,
-	color = "yellow",
+	name = "boss akua",
+	init_effect = "",
+	id = 8655,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8655,
+	color = "yellow",
 	icon = 8655,
 	last_effect = "",
 	effect_list = {
@@ -59,8 +59,8 @@ return {
 			},
 			arg_list = {
 				group = 8655,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		}
 	}

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "Exercise Area - Turn 7 (Akagi's Action)",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "The most recent report from my recons looks good. We've managed to control this area for several turns now, and we have a clear picture as to how the other fleets are deployed.",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Yamashiro, Ryuuhou, I want the two of you to back off and give Mikasa a clear avenue to attack the central tower.",
 			painting = {
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "Phew... It was getting harder and harder to fight off the mass-produced Sirens...",
 			painting = {
 				alpha = 0.3,
@@ -126,8 +126,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "In spite of that, you still have most of your ammo and barely took any damage. Do a quick resupply, and I expect you to come back ready to go.",
 			painting = {
@@ -159,8 +159,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Miyuki, just stay where you are. Give us an update on Nagato and Mikasa's movements later.",
 			painting = {
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "We need to find out what Musashi is trying to hide from us within that tower.",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "Exercise Area - Turn 7 (Mikasa's Action)",
 			typewriter = {
@@ -233,17 +233,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -270,8 +270,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "Hmm... Have we finally broken through to Akagi? She seems to be leaving a path for us straight to the central tower.",
 			painting = {
@@ -287,8 +287,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "Does that mean... She's given up on trying to fight us, and is telling us to focus on the central base first?",
 			painting = {
@@ -368,8 +368,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "Kirishima, Kongou, can I trouble you two to get visuals on the tower itself? We need to know what we're up against.",
 			painting = {
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "So, how about you and Kinu? What are you two going to do?",
 			painting = {
@@ -418,8 +418,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "I'm going to meet up with Nagato. Even without the central tower, Nagato can still win if she captures all the bases along the perimeter.",
 			painting = {

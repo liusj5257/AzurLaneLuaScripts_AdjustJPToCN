@@ -11,7 +11,7 @@ slot0.STATE_STOP = 8
 slot0.STATE_INTERACT = 9
 slot0.STATE_CANCEL_INTERACT = 10
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot2.id
 	slot0.configId = slot2.configId
 	slot0.prefab = slot2:getPrefab()
@@ -29,23 +29,23 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.moveCnt = 0
 end
 
-function slot0.GetLevel(slot0)
+slot0.GetLevel = function(slot0)
 	return 2
 end
 
-function slot0.GetSkinID(slot0)
+slot0.GetSkinID = function(slot0)
 	return slot0.skinId
 end
 
-function slot0.GetGroupID(slot0)
+slot0.GetGroupID = function(slot0)
 	return slot0.groupId
 end
 
-function slot0.GetObjType(slot0)
+slot0.GetObjType = function(slot0)
 	return CourtYardConst.OBJ_TYPE_SHIP
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	uv0.super.SetPosition(slot0, slot1)
 
 	if slot0.state == CourtYardShip.STATE_MOVING_HALF then
@@ -55,25 +55,25 @@ function slot0.SetPosition(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_POSITION_CHANGE, slot1, slot0:GetOffset())
 end
 
-function slot0.InActivityRange(slot0, slot1)
+slot0.InActivityRange = function(slot0, slot1)
 	return slot1.x < slot0:GetHost():GetStorey():GetRange().x and slot1.y < slot2.y and slot1.x >= 0 and slot1.y >= 0
 end
 
-function slot0.GetDeathType(slot0)
+slot0.GetDeathType = function(slot0)
 	return CourtYardConst.DEPTH_TYPE_SHIP
 end
 
-function slot0.GetShipType(slot0)
+slot0.GetShipType = function(slot0)
 	return CourtYardConst.SHIP_TYPE_SELF
 end
 
-function slot0._ChangeState(slot0, slot1, slot2)
+slot0._ChangeState = function(slot0, slot1, slot2)
 	slot0.state = slot1
 
 	slot0:DispatchEvent(CourtYardEvent.SHIP_STATE_CHANGE, slot1, slot2)
 end
 
-function slot0.ChangeState(slot0, slot1, slot2)
+slot0.ChangeState = function(slot0, slot1, slot2)
 	slot0:Clear()
 
 	if slot1 == uv0.STATE_IDLE then
@@ -89,15 +89,15 @@ function slot0.ChangeState(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ShouldResetPosition(slot0)
+slot0.ShouldResetPosition = function(slot0)
 	return slot0.state == uv0.STATE_STOP or slot0.state == uv0.STATE_CANCEL_INTERACT
 end
 
-function slot0.WillInteraction(slot0)
+slot0.WillInteraction = function(slot0)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_WILL_INTERACTION, slot)
 end
 
-function slot0.StartInteraction(slot0, slot1, slot2)
+slot0.StartInteraction = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0.interactionSlot = slot1
 	else
@@ -105,11 +105,11 @@ function slot0.StartInteraction(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateInteraction(slot0, ...)
+slot0.UpdateInteraction = function(slot0, ...)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_UPDATE_INTERACTION, ...)
 end
 
-function slot0.ClearInteraction(slot0, slot1, slot2, slot3)
+slot0.ClearInteraction = function(slot0, slot1, slot2, slot3)
 	slot0.interactionSlot = nil
 
 	if not slot3 then
@@ -118,7 +118,7 @@ function slot0.ClearInteraction(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnStateIdle(slot0)
+slot0.OnStateIdle = function(slot0)
 	slot0:_ChangeState(uv0.STATE_IDLE)
 
 	slot0.timer = Timer.New(function ()
@@ -130,7 +130,7 @@ function slot0.OnStateIdle(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.OnStateMoveOne(slot0)
+slot0.OnStateMoveOne = function(slot0)
 	slot0:_ChangeState(uv0.STATE_MOVING_ONE)
 	slot0:ClearMarkPosition()
 
@@ -147,18 +147,18 @@ function slot0.OnStateMoveOne(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.OnInterAction(slot0, slot1)
+slot0.OnInterAction = function(slot0, slot1)
 	slot0.interactionSlot = slot1
 
 	slot0:_ChangeState(uv0.STATE_INTERACT)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_START_INTERACTION, slot1)
 end
 
-function slot0.GetInterActionData(slot0)
+slot0.GetInterActionData = function(slot0)
 	return slot0.interactionSlot
 end
 
-function slot0.Move(slot0, slot1)
+slot0.Move = function(slot0, slot1)
 	slot0:MarkPosition(slot1)
 	slot0:ChangeState(uv0.STATE_MOVING_ZERO)
 
@@ -170,27 +170,27 @@ function slot0.Move(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_MOVE, slot1, slot0:GetOffset())
 end
 
-function slot0.GetState(slot0)
+slot0.GetState = function(slot0)
 	return slot0.state
 end
 
-function slot0.GetPrefab(slot0)
+slot0.GetPrefab = function(slot0)
 	return slot0.prefab
 end
 
-function slot0.getPrefab(slot0)
+slot0.getPrefab = function(slot0)
 	return slot0:GetPrefab()
 end
 
-function slot0.getAttachmentPrefab(slot0)
+slot0.getAttachmentPrefab = function(slot0)
 	return slot0.attachments
 end
 
-function slot0.GetMoveTime(slot0)
+slot0.GetMoveTime = function(slot0)
 	return slot0.moveTime
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -198,19 +198,19 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.ChangeInimacy(slot0, slot1)
+slot0.ChangeInimacy = function(slot0, slot1)
 	slot0.inimacy = slot1
 
 	slot0:DispatchEvent(CourtYardEvent.SHIP_INIMACY_CHANGE, slot1)
 end
 
-function slot0.ChangeCoin(slot0, slot1)
+slot0.ChangeCoin = function(slot0, slot1)
 	slot0.coin = slot1
 
 	slot0:DispatchEvent(CourtYardEvent.SHIP_COIN_CHANGE, slot1)
 end
 
-function slot0.ClearInimacy(slot0)
+slot0.ClearInimacy = function(slot0)
 	if slot0.inimacy <= 0 then
 		return
 	end
@@ -220,7 +220,7 @@ function slot0.ClearInimacy(slot0)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, slot1, 2)
 end
 
-function slot0.ClearCoin(slot0)
+slot0.ClearCoin = function(slot0)
 	if slot0.coin <= 0 then
 		return
 	end
@@ -230,15 +230,15 @@ function slot0.ClearCoin(slot0)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, slot1, 1)
 end
 
-function slot0.AddExp(slot0, slot1)
+slot0.AddExp = function(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, slot1, 3)
 end
 
-function slot0.GetInterActionBgm(slot0)
+slot0.GetInterActionBgm = function(slot0)
 	return nil
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 	slot0:Clear()
 

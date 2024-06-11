@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YONGYEHUANGUANG29",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401020,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "發現塞壬艦隊出現在皇家艦隊的東北方，與我們一同對皇家艦隊構成了夾擊之勢。",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "那就是說，就算是我們的通訊系統也還是扛不住塞壬的干擾嗎......",
 			typewriter = {
 				speed = 0.05,
@@ -116,13 +116,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "希佩爾，天上有大量皇家的艦載機朝妳飛過來了哦。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			say = "因為妳是希佩爾級的首艦，對面把妳當成我們的艦隊旗艦了吧...",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -206,8 +206,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "不需要了哦。希佩爾、Z36，我們的作戰行動結束，準備撤退。",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "計劃之外的塞壬艦隊要過來攪局了，我們見好就收。",
 			typewriter = {
 				speed = 0.05,
@@ -265,14 +265,14 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "鐵血艦隊開始撤退了，果然是不想再承擔大型艦損傷的風險了嗎…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -315,8 +315,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "不管原因如何，總算是避免了被兩面夾擊的最壞情況…",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "塞壬艦隊已經很近了，大家小心——",
 			typewriter = {
 				speed = 0.05,

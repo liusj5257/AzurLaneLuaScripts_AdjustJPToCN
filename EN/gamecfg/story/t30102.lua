@@ -24,8 +24,8 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "...1st and 2nd Carrier Divisions, load your planes with torpedoes. Prepare for anti-ship combat!",
 			shake = {
 				speed = 1,
@@ -79,8 +79,8 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "We need to be ready for when the enemy fleet appears!",
 			shake = {
 				speed = 1,
@@ -98,8 +98,8 @@ return {
 		{
 			actor = 307030,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "Multiple enemy aircraft approaching at an altitude of 2000m, bearing 235°!",
 			shake = {
 				speed = 1,
@@ -117,8 +117,8 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "They're coming from behind?!",
 			shake = {
 				speed = 1,
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
-			nameColor = "#a9f548",
-			dir = -1,
 			say = "Too late! McClusky squadron, attaaack!!",
+			dir = -1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

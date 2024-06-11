@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ANSHAN02",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ANSHAN02",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"An Shan's Coloring Book\n\n<size=45>Chapter 2 - One of the Base's 7 Wonders</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Let's fill this in here...",
 			bgm = "story-china",
+			actor = 501010,
+			nameColor = "#a9f548",
+			say = "Let's fill this in here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "Whatever, it's good enough~ No big deal, right?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Whatever, it's good enough~ No big deal, right?",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 100010,
+			nameColor = "#a9f548",
 			say = "Buli! Dadadadadadah! I'm running in circles~ Just another normal day at the base!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "Buli! You look hyped, buli! But I'm gonna be even more hyped, buli!",
+			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "Aren't they one of those \"Seven Wonders of The Base,\" the Bulins?!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Aren't they one of those \"Seven Wonders of The Base,\" the Bulins?!",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -247,15 +247,15 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501030,
+			nameColor = "#a9f548",
 			say = "I think we're out of paint again...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -280,12 +280,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "Okay! I'll go look for some more!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Okay! I'll go look for some more!",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

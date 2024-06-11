@@ -11,15 +11,21 @@ return {
 		{
 			alpha = 0.271,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -102.56,
 				posX = 0,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/equipButton",
 				pathIndex = -1,
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/storage"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/equipButton"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -32,15 +38,15 @@ return {
 		{
 			alpha = 0.207,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/topItems/adapt/bottom_back/types/design",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/topItems/adapt/bottom_back/types/design",
 				triggerType = {
 					2
 				},
@@ -54,15 +60,15 @@ return {
 			alpha = 0,
 			waitScene = "EquipmentDesignLayer",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 210.07,
 				text = slot0[3]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/EquipmentDesignUI(Clone)/equipment_scrollview/equipment_grid/0/info/make_btn",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/EquipmentDesignUI(Clone)/equipment_scrollview/equipment_grid/0/info/make_btn",
 				triggerType = {
 					1
 				},
@@ -75,15 +81,15 @@ return {
 		{
 			alpha = 0.342,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -2.69,
 				posX = 202.1,
 				text = slot0[4]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/msg_panel/bg/confirm_btn",
 				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/msg_panel/bg/confirm_btn",
 				triggerType = {
 					1
 				},

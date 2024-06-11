@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA18",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA18",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301120,
 			side = 0,
 			nameColor = "#a9f548",
-			hideOther = true,
+			actor = 301120,
 			dir = 1,
+			hideOther = true,
 			actorName = "{namecode:13}＆{namecode:14}",
 			say = "嘿！",
 			effects = {
@@ -36,10 +36,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			say = "咚！",
+			soundeffect = "event:/battle/boom2",
 			effects = {
 				{
 					active = false,
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "{namecode:66}酱",
 			say = "鄙人居然会如此…输、输了…！",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "运运",
 			dir = -1,
+			actorName = "运运",
 			say = "啊呜～＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:95}酱",
 			dir = 1,
+			actorName = "{namecode:95}酱",
 			say = "好不容易达到比{namecode:91}前辈更高的等级……",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:428}酱",
 			dir = 1,
+			actorName = "{namecode:428}酱",
 			say = "没事，妳不需要道歉。不过，至少…想和那个废柴AI指挥官说句话呢……",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:428}酱",
 			dir = 1,
+			actorName = "{namecode:428}酱",
 			say = "这逊爆了的名字…其实我还挺喜欢的……",
 			typewriter = {
 				speed = 0.05,

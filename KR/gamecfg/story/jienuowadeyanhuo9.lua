@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO9",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "음…… 이미 곧 동이 틀 시간이야. 어둠이 사라질 거야.",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "제2함대에 연락할까?",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "좋아, 그럼 우리 스스로나 잘 챙기자고.",
 			typewriter = {
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "bg_renaya",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
+			nameColor = "#a9f548",
 			say = "작전 행동이 종료되었다. 각 함선들은 사격을 중지하고 항로를 전환하라, 회항한다——",
 			typewriter = {
 				speed = 0.05,

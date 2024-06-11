@@ -1,12 +1,12 @@
 return {
-	id = "W254104",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W254104",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "成功將能源矩陣歸位",
 			typewriter = {
 				speed = 0.05,
@@ -20,9 +20,9 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "唔，頭都要繞暈了啦！",
 			typewriter = {
 				speed = 0.05,
@@ -34,8 +34,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,

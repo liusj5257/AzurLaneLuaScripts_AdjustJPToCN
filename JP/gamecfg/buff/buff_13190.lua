@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13190,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13190,
+	color = "red",
 	icon = 13190,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 13190,
-				target = "TargetSelf",
 				maxWeaponNumber = 0,
+				skill_id = 13190,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"IJN",
 					"MG"
@@ -43,10 +43,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 13191,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"IJN",
 					"MG"

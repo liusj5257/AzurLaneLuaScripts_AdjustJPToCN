@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"战斗！皇家女仆队！\n\n<size=45>一　作战开始</size>",
@@ -17,10 +17,10 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "听好了，贝尔法斯特，这次任务只许成功，不许失败！",
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "是，如您所愿。",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是，如您所愿。",
+			actor = 202120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
 					x = 0,
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "…………多嘴！",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "那、那就，不许输，也不许赢！",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "如您所愿。",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -228,15 +228,15 @@ return {
 			}
 		},
 		{
-			say = "演习海域",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "演习海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -298,10 +298,10 @@ return {
 			expression = 14,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "肯特……呼，呼……妳跑的，太快了啦……",
+			dir = 1,
+			actor = 203040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			say = "我这边也准备就绪，所有弹药都替换成了训练用的，武装也没有问题。",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我这边也准备就绪，所有弹药都替换成了训练用的，武装也没有问题。",
+			actor = 202080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -458,10 +458,10 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			actorName = "女仆们",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			actor = 203030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -496,11 +496,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "那么，就让指挥官稍微尝些苦头吧~",
 			effects = {
 				{
@@ -518,19 +518,19 @@ return {
 			}
 		},
 		{
-			side = 2,
+			actorName = "？？？",
 			actorShadow = true,
-			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			side = 2,
 			stopbgm = true,
 			actor = 202190,
-			actorName = "？？？",
+			nameColor = "#a9f548",
+			bgName = "bg_story_nepu1",
 			say = "我离开之后的皇家女仆队……有些期待呢，呵呵~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

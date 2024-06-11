@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 16590,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16590,
+	color = "red",
 	icon = 16590,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 3,
+				target = "TargetSelf",
 				skill_id = 16590
 			}
 		},
@@ -38,9 +38,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 16590,
 				time = 15,
-				target = "TargetSelf",
-				skill_id = 16590
+				target = "TargetSelf"
 			}
 		},
 		{

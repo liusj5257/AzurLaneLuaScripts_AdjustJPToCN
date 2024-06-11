@@ -1,6 +1,6 @@
 slot0 = class("GuideFindUIPlayer", import(".GuidePlayer"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.topContainer = slot1:Find("top")
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.fingerAnim = slot0.fingerXyz:GetComponent(typeof(Animator))
 end
 
-function slot0.OnExecution(slot0, slot1, slot2)
+slot0.OnExecution = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			uv0:DuplicateNode(uv1, slot0)
@@ -17,7 +17,7 @@ function slot0.OnExecution(slot0, slot1, slot2)
 	}, slot2)
 end
 
-function slot0.DuplicateNode(slot0, slot1, slot2)
+slot0.DuplicateNode = function(slot0, slot1, slot2)
 	slot0:ClearFingerTimer()
 	slot0:SearchUI(slot1:GetEventUI(), function (slot0)
 		if not slot0 and uv0.notfoundSkip then
@@ -54,13 +54,13 @@ function slot0.DuplicateNode(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.NextOne(slot0)
+slot0.NextOne = function(slot0)
 	if slot0.eventTrigger then
 		slot0.eventTrigger:Trigger()
 	end
 end
 
-function slot0.UpdateFinger(slot0, slot1, slot2)
+slot0.UpdateFinger = function(slot0, slot1, slot2)
 	slot3 = slot1.pivot - Vector2(0.5, 0.5)
 
 	SetActive(slot0.fingerTF, not slot2.fingerPos or not slot2.fingerPos.hideFinger)
@@ -91,7 +91,7 @@ function slot0.UpdateFinger(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClearFingerTimer(slot0)
+slot0.ClearFingerTimer = function(slot0)
 	if slot0.fingerTimer then
 		slot0.fingerTimer:Stop()
 
@@ -99,7 +99,7 @@ function slot0.ClearFingerTimer(slot0)
 	end
 end
 
-function slot0.OnClear(slot0)
+slot0.OnClear = function(slot0)
 	if slot0.eventTrigger then
 		slot0.eventTrigger:Clear()
 

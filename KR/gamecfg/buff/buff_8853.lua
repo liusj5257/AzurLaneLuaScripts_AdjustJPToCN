@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "毛系V2 余辉支援弹幕LV4",
 	time = 10,
-	color = "yellow",
+	name = "毛系V2 余辉支援弹幕LV4",
+	init_effect = "",
+	id = 8853,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8853,
+	color = "yellow",
 	icon = 8853,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8852,
 				time = 5,
 				rant = 10000,
-				skill_id = 8852
+				target = "TargetSelf"
 			}
 		}
 	}

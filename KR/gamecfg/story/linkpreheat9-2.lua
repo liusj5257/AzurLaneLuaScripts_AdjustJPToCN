@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT9-2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINKPREHEAT9-2",
 	jumpto = "LINKPREHEAT10-1",
 	fadein = 1.5,
 	scripts = {
@@ -11,9 +11,9 @@ return {
 			actor = 312010,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level-uta",
 			dir = -1,
 			say = "혹시 아무나 저 녀석을 유인해 줄 수 있을까냥?",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,9 +195,9 @@ return {
 		{
 			compulsory = true,
 			side = 2,
+			dir = -1,
 			actor = 312010,
 			nameColor = "#92fc63",
-			dir = -1,
 			say = "어려운 부탁이란 건 물론 잘 알고 있지만냥……부탁해도 될까냥?",
 			typewriter = {
 				speed = 0.05,
@@ -235,14 +235,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT10-1",
 			side = 2,
+			jumpto = "LINKPREHEAT10-1",
 			dir = 1,
 			optionFlag = 1,
 			say = "쿠온에게 부탁한다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -254,14 +254,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT12-1",
 			side = 2,
+			jumpto = "LINKPREHEAT12-1",
 			dir = 1,
 			optionFlag = 2,
 			say = "네코네에게 부탁한다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -273,14 +273,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT11-1",
 			side = 2,
+			jumpto = "LINKPREHEAT11-1",
 			dir = 1,
 			optionFlag = 3,
 			say = "루루티에에게 부탁한다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -292,14 +292,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT13-1",
 			side = 2,
+			jumpto = "LINKPREHEAT13-1",
 			dir = 1,
 			optionFlag = 4,
 			say = "우루루에게 부탁한다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -311,14 +311,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT14-1",
 			side = 2,
+			jumpto = "LINKPREHEAT14-1",
 			dir = 1,
 			optionFlag = 5,
 			say = "사라나에게 부탁한다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -330,14 +330,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT15-1",
 			side = 2,
+			jumpto = "LINKPREHEAT15-1",
 			dir = 1,
 			optionFlag = 6,
 			say = "후미뤼르에게 부탁한다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

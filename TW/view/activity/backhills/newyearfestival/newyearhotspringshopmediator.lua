@@ -1,7 +1,7 @@
 slot0 = class("NewYearHotSpringShopMediator", import("view.base.ContextMediator"))
 slot0.ON_ACT_SHOPPING = "NewYearHotSpringShopMediator:ON_ACT_SHOPPING"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(ActivityProxy)
 
 	slot0:TransActivity2ShopData(slot1:getActivityById(ActivityConst.HOTSPRING_SHOP))
@@ -18,7 +18,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.TransActivity2ShopData(slot0, slot1)
+slot0.TransActivity2ShopData = function(slot0, slot1)
 	if slot1 and not slot1:isEnd() then
 		slot2 = ActivityShop.New(slot1)
 
@@ -28,14 +28,14 @@ function slot0.TransActivity2ShopData(slot0, slot1)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		ActivityShopWithProgressRewardCommand.SHOW_SHOP_REWARD
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == ActivityProxy.ACTIVITY_UPDATED then

@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			sequence = {
 				{
@@ -21,17 +21,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,11 +39,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "모험가 일행이 왕성으로 귀환하자, 그들의 영웅적인 공적에 걸맞는 열렬한 환호가 쏟아졌다.",
 			bgm = "story-mmorpg",
+			say = "모험가 일행이 왕성으로 귀환하자, 그들의 영웅적인 공적에 걸맞는 열렬한 환호가 쏟아졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "축제가 끝나자, 모험가 일행은 푸슌의 제안으로 울스프 마을을 방문했다.",
 			typewriter = {
@@ -85,17 +85,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -129,29 +129,29 @@ return {
 			}
 		},
 		{
-			actor = 201371,
-			side = 2,
 			bgName = "star_level_bg_158",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 201371,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그리고 약사 누비안은 테마르크 마을로 돌아와, 마을 사람들에게 무상 치료를 재개했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			say = "약사는 바쁜 날들을 보내느라 다시는 누군가를 은빛 여울 섬으로 데려가지 못했고…",
 			typewriter = {
@@ -194,17 +194,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -225,29 +225,29 @@ return {
 			}
 		},
 		{
-			actor = 202341,
-			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 202341,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "리버풀과 유니콘은 왕국의 신성 교회에 들어가, 자신의 힘을 갈고 닦기로 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "수백 년 동안 외딴 땅에 머물며 외로운 전투를 이어온 뱀파이어 헌터들은 왕국의 인정을 받고 받아들여졌다.",
 			typewriter = {
@@ -290,17 +290,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "황폐한 대지에 생기가 돌아왔다는 정보는 얼마 지나지 않아 왕국 곳곳에 퍼졌다.",
 			typewriter = {
@@ -330,17 +330,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "이로 인해, 온 왕국에는 개척 붐이 일어났다.",
 			typewriter = {
@@ -397,29 +397,29 @@ return {
 			}
 		},
 		{
-			actor = 205130,
-			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 205130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "마왕이 쓰러진 후, 왕국군은 이전보다 더 바빠졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -453,29 +453,29 @@ return {
 			}
 		},
 		{
-			actor = 907010,
-			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "천관 성벽 유적의 복원 작업은 강철 교회의 주도 아래 질서 있게 진행됐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "옛 왕성 유적은 너무도 황폐하고 위험하여 왕은 부흥안을 단념할 수밖에 없었다.",
 			typewriter = {
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "하지만 그 속에 묻혀 있는 대량의 골동품은 막대한 가치를 지니고 있다.",
 			typewriter = {
@@ -557,11 +557,11 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_105",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"전설 속 지휘관은 역사 속에서 그 자취를 감췄네♪\"",
 			typewriter = {
@@ -569,17 +569,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -591,9 +591,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"어떤 이는 변방 땅을 통치하는 영주가 되었다고도♪\"",
 			typewriter = {
@@ -606,9 +606,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"어떤 이는 북쪽 탑에서 백년간 수행 중이라고도 하지만♪\"",
 			typewriter = {
@@ -621,9 +621,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"어느 지역에서는 새로운 모험가들과 신대륙을 찾아 먼곳으로 떠났다고 한다네♪\"",
 			typewriter = {
@@ -636,9 +636,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"야사에는 지휘관이야말로 마왕이고, 왕국 전체를 이미 장악했다지♪\"",
 			typewriter = {
@@ -651,9 +651,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"모험길에서 지휘관과 함께 싸운 자들의 후일담을 보면♪\"",
 			typewriter = {
@@ -666,9 +666,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "???",
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"어디 평화로운 땅에서 조용히 행복하게 살지 않았을까♪\"",
 			typewriter = {
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 1,
 			blackBg = true,
 			sequence = {
@@ -693,8 +693,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			sequence = {
 				{
 					"\"제로부터 시작하는 마왕 토벌\", 끝.",
@@ -703,9 +703,9 @@ return {
 			}
 		},
 		{
+			spacing = 40,
 			time = 50,
 			mode = 6,
-			spacing = 40,
 			layout = {
 				{
 					4

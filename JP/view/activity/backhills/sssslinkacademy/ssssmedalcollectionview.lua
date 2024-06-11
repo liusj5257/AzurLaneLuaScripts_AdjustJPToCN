@@ -16,17 +16,17 @@ slot0.INDEX_CONVERT = {
 	2
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SSSSMedalCollectionUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:FindUI()
 
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.FindUI(slot0)
+slot0.FindUI = function(slot0)
 	slot1 = slot0:findTF("Top")
 	slot0.backBtn = slot0:findTF("BackBtn", slot1)
 	slot0.helpBtn = slot0:findTF("HelpBtn", slot1)
@@ -50,7 +50,7 @@ function slot0.FindUI(slot0)
 	slot0.infoIcon = slot0.infoArea1:Find("Unlock/Icon")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 	slot0:AddListener()
 
@@ -59,7 +59,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -78,7 +78,7 @@ function slot0.AddListener(slot0)
 		end
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		if not table.contains(uv1.activeIDList, uv1.allIDList[2 * uv0.INDEX_CONVERT[uv1.contextData.GKIndex]]) and table.contains(uv1.activatableIDList, slot1) then
 			uv1:emit(MedalCollectionTemplateMediator.MEMORYBOOK_UNLOCK, {
 				id = slot1,
@@ -100,7 +100,7 @@ function slot0.AddListener(slot0)
 	end
 end
 
-function slot0.UpdateAfterSubmit(slot0, slot1)
+slot0.UpdateAfterSubmit = function(slot0, slot1)
 	uv0.super.UpdateAfterSubmit(slot0, slot1)
 
 	slot2 = table.indexof(uv0.INDEX_CONVERT, math.floor((table.indexof(slot0.allIDList, slot1) + 1) / 2))
@@ -111,12 +111,12 @@ function slot0.UpdateAfterSubmit(slot0, slot1)
 	setActive(slot0.slots[slot2].saoguang, true)
 end
 
-function slot0.UpdateAfterFinalMedal(slot0)
+slot0.UpdateAfterFinalMedal = function(slot0)
 	uv0.super.UpdateAfterFinalMedal(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	for slot4 = 1, 6 do
 		slot6 = false
 		slot7 = uv0.INDEX_CONVERT[slot4]
@@ -158,7 +158,7 @@ function slot0.UpdateView(slot0)
 	setText(slot0.progressText, i18n("ssssmedal_tip", #slot0.activeIDList))
 end
 
-function slot0.UpdateInfo(slot0)
+slot0.UpdateInfo = function(slot0)
 	slot1 = uv0.INDEX_CONVERT[slot0.contextData.GKIndex]
 
 	(function ()
@@ -193,7 +193,7 @@ function slot0.UpdateInfo(slot0)
 	end)()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 end
 

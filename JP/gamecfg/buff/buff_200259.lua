@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动sp BOSS浮游炮召唤 一阶段",
 	time = 3,
-	color = "red",
+	name = "2022美系活动sp BOSS浮游炮召唤 一阶段",
+	init_effect = "",
+	id = 200259,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200259,
+	color = "red",
 	icon = 200259,
 	last_effect = "",
 	effect_list = {

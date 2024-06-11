@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "New Jersey Fleet - Hours Later",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "blueocean-image",
+			hidePaintObj = true,
+			say = "New Jersey Fleet - Hours Later",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,14 +33,14 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_luoxuan_3",
-			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:199}",
-			say = "Wait, what?!",
 			fontsize = 60,
+			actorName = "{namecode:199}",
+			hidePaintObj = true,
+			say = "Wait, what?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -56,14 +56,14 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_luoxuan_3",
-			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:199}",
-			say = "Now we've lost contact with the commander as well?",
 			fontsize = 60,
+			actorName = "{namecode:199}",
+			hidePaintObj = true,
+			say = "Now we've lost contact with the commander as well?",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -79,8 +79,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -89,12 +89,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:194}",
+			side = 2,
 			bgName = "bg_luoxuan_3",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It appears so. We lost contact shortly after the fleet left PH Harbor.",
 			typewriter = {
 				speed = 0.05,
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:194}",
+			side = 2,
 			bgName = "bg_luoxuan_3",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Speaking of which, we can't even contact the harbor either.",
 			typewriter = {
 				speed = 0.05,
@@ -123,12 +123,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:199}",
+			side = 1,
 			bgName = "bg_luoxuan_3",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Was it attacked? Or...",
 			typewriter = {
 				speed = 0.05,
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:194}",
+			side = 2,
 			bgName = "bg_luoxuan_3",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We have no way of knowing right now.",
 			typewriter = {
 				speed = 0.05,
@@ -157,12 +157,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:194}",
+			side = 2,
 			bgName = "bg_luoxuan_3",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "However, there are reports of sea fog occurring in the area where we lost contact with the commander. Aerial reconnaissance has not been possible there either.",
 			typewriter = {
 				speed = 0.05,
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:199}",
+			side = 1,
 			bgName = "bg_luoxuan_4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What about the other ships with the commander?",
 			typewriter = {
 				speed = 0.05,
@@ -191,12 +191,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:194}",
+			side = 2,
 			bgName = "bg_luoxuan_4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Helena, Archerfish, and San Francisco?",
 			typewriter = {
 				speed = 0.05,
@@ -208,12 +208,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:199}",
+			side = 1,
 			bgName = "bg_luoxuan_4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Even Helena, huh? ...Ty, if I'm not mistaken, there's been information about this sea fog in our records, right?",
 			typewriter = {
 				speed = 0.05,
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:199}",
+			side = 1,
 			bgName = "bg_luoxuan_4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Like when Baltimore went missing at the canal stronghold.",
 			typewriter = {
 				speed = 0.05,
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:194}",
+			side = 2,
 			bgName = "bg_luoxuan_4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yes, a similar sea fog appeared before the fleet disappeared into a Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
@@ -259,12 +259,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:194}",
+			side = 2,
 			bgName = "bg_luoxuan_4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Even someone like Enterprise got caught up in the Sirens' machinations...",
 			typewriter = {
 				speed = 0.05,
@@ -279,10 +279,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Right, right! Helena was there too.",
 			typewriter = {
 				speed = 0.05,
@@ -297,10 +297,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...Ty, I have an idea. Can you put me through with Baltimore to see if she knows anything about the current situation?",
 			typewriter = {
 				speed = 0.05,
@@ -315,10 +315,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I could try, at least...",
 			typewriter = {
 				speed = 0.05,
@@ -333,10 +333,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But what are we supposed to tell the others? The commander going missing isn't something we can take lightly.",
 			typewriter = {
 				speed = 0.05,
@@ -351,10 +351,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "As with the case with Baltimore's fleet, we should regroup first and figure out how to send reinforcements.",
 			typewriter = {
 				speed = 0.05,
@@ -369,10 +369,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hm, I guess that is an important consideration... Let's tell Saratoga at least, so we—",
 			typewriter = {
 				speed = 0.05,
@@ -441,8 +441,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -454,10 +454,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That makes things easier for us. Just leave it to Big J!",
 			typewriter = {
 				speed = 0.05,
@@ -472,10 +472,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...Wait, how long have you been listening in on us, Saratoga?",
 			typewriter = {
 				speed = 0.05,
@@ -506,8 +506,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -519,10 +519,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ahaha... I already reached out to Sara while we were talking.",
 			typewriter = {
 				speed = 0.05,
@@ -537,10 +537,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ah, no problem. It's better to do things efficiently.",
 			typewriter = {
 				speed = 0.05,
@@ -571,12 +571,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All of this... is making me think back to the previous Reenactment...",
 			typewriter = {
 				speed = 0.05,
@@ -607,8 +607,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,10 +639,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Sorry, but there's something I need to look into right now. I'll get back to you later, okay? Do your best~!",
 			typewriter = {
 				speed = 0.05,
@@ -657,10 +657,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "There she goes again...",
 			typewriter = {
 				speed = 0.05,
@@ -672,12 +672,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, I'm glad Saratoga is handling the complicated stuff. Let's just focus on doing whatever we can here.",
 			typewriter = {
 				speed = 0.05,
@@ -689,13 +689,13 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander's fleet should have no trouble fighting off some Sirens, but let's not waste any more time!",
 			typewriter = {
 				speed = 0.05,

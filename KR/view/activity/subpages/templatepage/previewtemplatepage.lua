@@ -1,19 +1,19 @@
 slot0 = class("PreviewTemplatePage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.btnList = slot0:findTF("btn_list", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0:initBtn()
 	eachChild(slot0.btnList, function (slot0)
 		uv0.btnFuncList[slot0.name](slot0)
 	end)
 end
 
-function slot0.initBtn(slot0)
-	function slot1(slot0)
+slot0.initBtn = function(slot0)
+	slot1 = function(slot0)
 		if not getProxy(ActivityProxy):getActivityById(slot0) or slot1 and slot1:isEnd() then
 			return true
 		else

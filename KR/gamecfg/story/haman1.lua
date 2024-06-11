@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"허먼 관찰일기\n\n<size=45>1. 화를 잘 내는 비서함</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "모항·지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "모항·지휘실",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,18 +47,18 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
 			actor = 0,
-			withoutPainting = true,
-			bgName = "bg_story_task",
 			say = "에…?",
+			bgName = "bg_story_task",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "허먼의 보고서, 아직 안 본거야?",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "한 시간 전에 뒀다고! 왜 아직도 보지 않은거야!",
 			dir = 1,
 			bgm = "story-1",
+			actor = 101250,
+			say = "한 시간 전에 뒀다고! 왜 아직도 보지 않은거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "변명하지마!",
 			dir = 1,
 			bgm = "story-1",
+			actor = 101250,
+			say = "변명하지마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,10 +127,10 @@ return {
 			},
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			}
 		},
@@ -138,9 +138,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "안 봤으면 안 봤다고 해! 힘들여서 작성했단 말이야! 어떻게 보상할 거야!",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,9 +154,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "(작은 소리) 잘, 잘 봤으니까 상을 준다고 하던가……",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,9 +170,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutPainting = true,
-			dir = 1,
 			say = "왜 갑자기 목소리가 작아진 거야…",
+			dir = 1,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,10 +250,10 @@ return {
 			say = "<size=60>바보! </size>",
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			},
 			painting = {
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(쿵!) ",
 			dialogShake = {
 				speed = 0.04,

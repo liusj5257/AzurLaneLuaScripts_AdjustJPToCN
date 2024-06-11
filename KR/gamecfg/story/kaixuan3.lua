@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "KAIXUAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"빛나는 아이리스\n\n<size=45>트리옹팡 출격</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "작전 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "작전 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -95,14 +95,14 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 801010,
 			say = "주력 함대의 동료에게 지원 요청을!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -142,14 +142,14 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 801010,
 			say = "르 팡타스크급의 속도는 그렇게 간단히 따라잡을 수 없어요!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "르 트리옹팡의 활약으로 작전이 훌륭히 성공했다.",
 			typewriter = {
 				speed = 0.05,
@@ -203,15 +203,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 부두",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 부두",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

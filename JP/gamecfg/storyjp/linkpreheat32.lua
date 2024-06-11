@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT32",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅\n\n<size=45>至高の１冊を求めて</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_school",
 			bgm = "story-uta",
 			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "……ねえ、ルルティエ。そろそろ諦めたらどうかな？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,10 +56,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_school",
-			actor = 10300030,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "いいえ、まだです……こんな大きな図書館なのですから、必ずあるはずです！",
+			dir = 1,
+			actor = 10300030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -77,8 +77,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "でも、ここは真面目な本ばかりだから、ああいう本があるとは思えないんだけど……？",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_school",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "必ずあるはずです！わたしの直感がそう叫んでいます！　",
 			typewriter = {
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "図書館に来てみると──ルルティエとクオンがいた",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "ルルティエが懸命に何かを探しており、それにクオンが付き合っているようだ",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "読みたい本でも探しているのだろうか？それにしては、ルルティエらしくもない必死の形相だが……？",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "あ、指揮官ちょうどいいところに……ルルティエを止めるの手伝ってくれない？",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "し、指揮官さま？あの、これはちょっと……わたし、本を探してて……",
 			typewriter = {
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "それなら手伝えそうだ。読みたい本の傾向がわかれば、図書館のどこにあるかぐらいはわかる",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "え、探してくれる……んですか？あの、それじゃあ……その、男の人同士の、熱い友情を描いた物語を……",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "ルルティエ、それ間違ってない。間違ってないけど……なんか違うかな",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.4,
 					x = 22.5,
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "男同士の熱い友情？……「走れメロス」みたいな小説をオススメすればいいんだろうか？",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "いえ、そういうのではなくて……えーっと……そう、キレイな絵が多めの絵物語で！指揮官さまみたいな普通の方にはちょっと……オススメ、しづらいというか……",
 			typewriter = {
@@ -253,9 +253,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "……あっ。なんとなく察してしまう",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "ロング・アイランドさま！？それっ！それですッ！？",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "うわぁ！なになに、どうしたのぉ！？",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -348,9 +348,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "ルルティエは野獣のような敏捷さでロング・アイランドに飛びつくと、彼女の持っていた本を数冊奪い取るように借りた",
 			typewriter = {
 				speed = 0.05,
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "その本を読むなり、見たこともない恍惚の表情を浮かべる",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "これが……この世界の……本！ああ、感動的な出来映えです……ッ！しかも、全てが美しい絵で描かれているなんて……最高です！",
 			typewriter = {
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "いったい、どんな男同士の友情が描かれた本なのだろうか？",
 			typewriter = {
 				speed = 0.05,
@@ -405,9 +405,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "想像できなくはないけど──あまり深入りしたくもない",
 			typewriter = {
 				speed = 0.05,
@@ -431,12 +431,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "「フジョシ」の世界……なのです",
 			typewriter = {
 				speed = 0.05,

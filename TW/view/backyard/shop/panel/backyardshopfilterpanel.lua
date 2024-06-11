@@ -1,11 +1,11 @@
 slot0 = class("BackYardShopFilterPanel", import("...Decoration.panles.BackYardDecorationFilterPanel"))
 
-function slot0.SortForDecorate(slot0, slot1, slot2)
+slot0.SortForDecorate = function(slot0, slot1, slot2)
 	slot3 = slot2[1]
 	slot4 = slot2[2]
 	slot5 = slot2[3]
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		if slot0:getConfig("new") == -1 then
 			return 0
 		elseif slot0:canPurchaseByGem() and not slot0:canPurchaseByDormMoeny() then
@@ -19,7 +19,7 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 		end
 	end
 
-	function slot7(slot0)
+	slot7 = function(slot0)
 		slot1 = pg.furniture_shop_template[slot0.configId].time
 
 		if slot0:getConfig("new") > 0 then
@@ -33,7 +33,7 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 		end
 	end
 
-	function uv0.SortByDefault1(slot0, slot1)
+	uv0.SortByDefault1 = function(slot0, slot1)
 		if uv0(slot0) == uv0(slot1) then
 			if uv1(slot0) == uv1(slot1) then
 				return slot0.id < slot1.id
@@ -45,7 +45,7 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 		end
 	end
 
-	function uv0.SortByDefault2(slot0, slot1)
+	uv0.SortByDefault2 = function(slot0, slot1)
 		if uv0(slot0) == uv0(slot1) then
 			if uv1(slot0) == uv1(slot1) then
 				return slot1.id < slot0.id
@@ -74,7 +74,7 @@ function slot0.SortForDecorate(slot0, slot1, slot2)
 	end
 end
 
-function slot0.sort(slot0, slot1)
+slot0.sort = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		return uv0.SortForDecorate(slot0, slot1, {
 			uv1.sortData[1],

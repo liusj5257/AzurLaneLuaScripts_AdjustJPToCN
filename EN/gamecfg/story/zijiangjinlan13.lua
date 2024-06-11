@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "Exercise Area - Turn 3 (Musashi's Action)",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,15 +36,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
 			say = "Taking advantage of the thick sea fog, Musashi's \"retainers,\" Sakawa and Wakatsuki, crossed over to launch a surprise attack on the area occupied by Nagato's fleet.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#A9F548FF",
 			say = "Harutsuki! Kawakaze! Musashi's forces are headed towards you!",
 			painting = {
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "As soon as Kawakaze drew her blade, Sakawa and Wakatsuki burst from the fog.",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Hello there, Nagato's retainers~!",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "I'm the Agano-class light cruiser, Sakawa. Let's have a fair fight, okay?",
 			painting = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Well, we don't necessarily have to fight, right? Musashi only ordered for us to move to this area.",
 			painting = {
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Plus, we just finished taking the Dragon Palace. I could use some extra time for rest and recovery~",
 			painting = {
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "Unlike Harutsuki, who sighed in relief and lowered her weapons, Kawakaze remained vigilant and poised to strike.",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "I see... So you've been ordered to hold us back. Hmm... I know you're strong, but are you strong enough to stop both of us?",
 			painting = {
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "Hiei, who was situated in a nearby grid, heard the impending clash through her communication device.",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "The white veil that blanketed the sea began to thin out and disperse, until finally––",
 			typewriter = {
@@ -454,8 +454,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Sorry, but we've got our orders. Um, Wakatsuki, you got Musashi's message as well, right?",
 			painting = {
@@ -467,17 +467,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -485,11 +485,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			say = "KABOOM––––!!",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "Before Sakawa and Wakatsuki finished preparing to attack, Musashi's mass-produced ships emerged from the fog and began to hammer Harutsuki and Kawakaze with a ferocious barrage.",
 			typewriter = {
@@ -548,8 +548,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Sorry, but that's life for ya. We're going to have to fight after all.",
 			painting = {
@@ -581,8 +581,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Hey, I would've preferred to walk away as well, but we can't disobey the boss lady.",
 			painting = {
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "Kawakaze drew her sword, her eyes narrowing as she maneuvered to place Sakawa and Wakatsuki between her and Musashi's mass-produced ships.",
 			typewriter = {
@@ -640,8 +640,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "You've got some keen moves there, as expected of Nagato's personal bodyguard... But I'm no slouch either!",
 			painting = {
@@ -657,8 +657,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "D-don't underestimate me either!",
 			painting = {
@@ -671,9 +671,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
 			say = "Just when cannons and swords were about to trade blows––",
 			effects = {
 				{
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_wuzang_cg2",
 			bgm = "nagato-map",
 			flashout = {
@@ -718,8 +718,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg2",
 			say = "A brilliant beam of light descended onto the battlefield, like a stream of cherry blossoms hitting the water's surface. The rest of the thinning sea fog was instantly pushed aside, and Nagato, flagship of the Reborn Combined Fleet, emerged.",
 			typewriter = {
@@ -728,8 +728,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg2",
 			say = "Nagato's barriers surrounded the attackers on both sides, pushing blades apart and rendering shells useless.",
 			typewriter = {
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:157}",
+			side = 2,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -754,8 +754,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -770,8 +770,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:158}",
+			side = 2,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -786,8 +786,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -802,8 +802,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -821,8 +821,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Woooah, busted... Uhh, it's not like we chose to fight because wanted to...",
 			painting = {
@@ -838,8 +838,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "M-Musashi told us to kick back and enjoy the game, so I might've gotten a bit carried away, haha... Just a little.",
 			painting = {
@@ -855,8 +855,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "Please forgive us, Lady Nagato!",
 			painting = {
@@ -872,8 +872,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "There's no need to apologize. This is just an exercise, and you were merely following orders.",
 			painting = {
@@ -937,8 +937,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "We didn't do anything wrong, did we?",
 			painting = {
@@ -954,8 +954,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "If there's no risk involved in us fighting, why did you stop us?",
 			painting = {
@@ -971,8 +971,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "This game of Go is a clash of wills among the players outside. As such, the combat power of the ships inside is limited, while the importance of one's convictions is amplified.",
 			painting = {
@@ -1004,8 +1004,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "And my conviction is this: there is no place for meaningless conflict. That is the path I shall demonstrate to the Sakura Empire, and the ideal I wish to demonstrate to Musashi and Akagi.",
 			painting = {
@@ -1021,8 +1021,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Well spoken! I must say, I am quite moved by your speech. The mighty shield you've produced must be a manifestation of your mental image, right?",
 			painting = {
@@ -1054,8 +1054,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "But now, I am no longer the same person I was before. This may be the last time we see a scenery like this here.",
 			painting = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"德意志的憂鬱\n\n<size=45>一　開端</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "限你馬上給我找些有趣的事情來，不然我就回去了！",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -123,8 +123,8 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "……雖然擔任了秘書艦，不過德意志還是一如既往的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "我才不要，下等生物的工作跟我有什麼關係。",
 			typewriter = {
 				speed = 0.05,
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "就算你用這種眼神看著我也是沒用的！",
 			typewriter = {
 				speed = 0.05,
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "……嘖，區區下等生物，居然要讓我這個主人來幫忙，真是個無可救藥的僕人！",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -208,12 +208,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "不過看在你這麼誠心的份上，我就大發慈悲地幫你做些什麼好了。",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "不過看在你這麼誠心的份上，我就大發慈悲地幫你做些什麼好了。",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 201220,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201220,
+			nameColor = "#a9f548",
 			say = "那、那個，指揮官。",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 201220,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201220,
+			nameColor = "#a9f548",
 			say = "我是來提交任務報告的……",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -280,12 +280,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "……",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 201220,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201220,
+			nameColor = "#a9f548",
 			say = "!…如、如果沒有什麼別的事的話，我就先走了。",
 			typewriter = {
 				speed = 0.05,
@@ -316,15 +316,15 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					dur = 0.1,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 1500
@@ -332,9 +332,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……天后飛也似地離開了指揮室。",
 			typewriter = {
 				speed = 0.05,
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "哈哈哈哈，僕人你看到了嗎，剛才那隻驅逐受驚的眼神！",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "德意志似乎找到了作為秘書艦的樂趣。",
 			typewriter = {
 				speed = 0.05,

@@ -4,29 +4,29 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-ucnf",
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "―――――！！！",
 			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-ucnf",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "―――――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_4",
 			hidePaintObj = true,
 			say = "無人兵器群に苦戦しながらも、艦船たちはかろうじて戦線を維持できている。",
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グアム",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "戦術特勤部",
 			dir = 1,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "コンステレーション",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "回収解析部",
 			dir = 1,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グアム",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "戦術特勤部",
 			dir = 1,
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "コンステレーション",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "回収解析部",
 			dir = 1,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グアム",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "戦術特勤部",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グアム",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "戦術特勤部",
 			dir = 1,
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グアム",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "戦術特勤部",
 			dir = 1,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "コンステレーション",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "回収解析部",
 			dir = 1,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "コンステレーション",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "回収解析部",
 			dir = 1,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グアム",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "戦術特勤部",
 			dir = 1,
@@ -264,8 +264,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "コンステレーション",
+			side = 2,
 			bgName = "bg_zhuguang_cg4",
 			factiontag = "回収解析部",
 			dir = 1,

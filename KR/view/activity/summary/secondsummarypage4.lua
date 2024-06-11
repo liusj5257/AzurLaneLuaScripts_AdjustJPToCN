@@ -3,7 +3,7 @@ slot0.PerPageCount = 6
 slot0.PageTypeFurniture = 1
 slot0.PageTypeIconFrame = 2
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setActive(slot0._tf:Find("tip"), slot0.summaryInfoVO.pageType == uv0.PageTypeFurniture)
 	setActive(slot0._tf:Find("tip_2"), slot1 == uv0.PageTypeIconFrame)
 

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.2
+					number = -0.2,
+					type = 23
 				}
 			},
 			{
@@ -32,8 +32,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.216
+					number = -0.216,
+					type = 23
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.232
+					number = -0.232,
+					type = 23
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.248
+					number = -0.248,
+					type = 23
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.264
+					number = -0.264,
+					type = 23
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.28
+					number = -0.28,
+					type = 23
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.296
+					number = -0.296,
+					type = 23
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.314
+					number = -0.314,
+					type = 23
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.332
+					number = -0.332,
+					type = 23
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 23,
-					number = -0.35
+					number = -0.35,
+					type = 23
 				}
 			},
 			{
@@ -239,9 +239,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "装填速度提升",
 	stack = 1,

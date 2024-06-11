@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 审判机甲-战争 战争突刺！",
 	time = 7,
-	color = "yellow",
+	name = "2023英系活动 审判机甲-战争 战争突刺！",
+	init_effect = "",
+	id = 200344,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200344,
+	color = "yellow",
 	icon = 200344,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "hammerDamageRatio",
-				number = 5
+				number = 5,
+				attr = "hammerDamageRatio"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "hammerDamagePrevent",
-				number = 1
+				number = 1,
+				attr = "hammerDamagePrevent"
 			}
 		},
 		{
@@ -60,8 +60,8 @@ return {
 			},
 			arg_list = {
 				group = 1,
-				attr = "immuneAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneAreaLimit"
 			}
 		},
 		{
@@ -71,8 +71,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		},
 		{
@@ -93,8 +93,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 6.5,
+				target = "TargetSelf",
 				skill_id = 200344
 			}
 		}

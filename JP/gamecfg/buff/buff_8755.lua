@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "中飞联动一阶段安装武器2",
 	time = 0,
+	name = "中飞联动一阶段安装武器2",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

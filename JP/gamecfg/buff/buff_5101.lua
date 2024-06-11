@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "应急战备",
 	init_effect = "",
+	id = 5101,
 	time = 36,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 5101,
+	color = "yellow",
 	icon = 5100,
 	last_effect = "",
 	effect_list = {
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				quota = 3,
-				target = "TargetSelf",
 				time = 12,
+				target = "TargetSelf",
 				skill_id = 5102
 			}
 		},

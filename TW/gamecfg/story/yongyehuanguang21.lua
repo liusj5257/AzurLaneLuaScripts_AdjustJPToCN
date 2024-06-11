@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-4",
 			say = "巴倫支海·皇家護航艦隊",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "唔…先是“所有軍艦立刻掉頭向西方前進”。",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "然後是——“鑑於鐵血主力艦隊的威脅，運輸船團應該分散前往北方聯合的港口”…",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "最後是…“解散船團”？",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "天上的極光已經開始變成更亮的紫色了…果然強烈的極光總是會伴隨著通訊干擾嗎…",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "不管周圍還有沒有鐵血的狼群在水下游弋，至少鐵血的飛機肯定不可能放船團平安通過。",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "最重要的，是這幾次命令…怎麼看都不太對勁呢。",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "不論如何，命令就是命令。遵從命令就要立刻返航，繼續護送運輸船就是違抗命令。",
 			typewriter = {
 				speed = 0.05,
@@ -225,8 +225,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "鑑於命令內容毫無邏輯，現在又無法與司令部取得通暢聯繫，為了避免出現不可挽回的後果，讓我們投票決定吧！",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "我相信不論出現什麼情況，陛下都是不可能下出這種命令來的。一定是哪個環節出現了差錯…",
 			typewriter = {
 				speed = 0.05,
@@ -272,8 +272,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "...我也是這麼打算的，看來大家的想法是一致的呢。不管之後會受到什麼處分，至少我們接下來要做的事已經很明顯了...",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "陣型不變，航線不變，繼續護送船團向北方聯合前進！對吧~？",
 			typewriter = {
 				speed = 0.05,
@@ -301,11 +301,11 @@ return {
 			}
 		},
 		{
-			actor = 202170,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 202170,
 			dir = 1,
+			hideOther = true,
 			actorName = "牙買加&鷹",
 			say = "嗯！",
 			subActors = {

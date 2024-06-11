@@ -1,18 +1,18 @@
 return {
-	id = "MAOZIHUODONG26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "仇敵にしてライバル、小人にして悪党……つまり、わからずや！",
 			bgm = "xinnong-2",
+			nameColor = "#ff5c5c",
+			say = "仇敵にしてライバル、小人にして悪党……つまり、わからずや！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "…あっそ。なにそれ？カッコつけてるつもり？",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "出てきなさい。台本を読んでるのはバレてるわよ",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "タシュケントちゃん、分かるの？",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "闇に隠れてないで正々堂々と戦え！セイレーン！",
 			typewriter = {
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_cccp_7",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "んぐぐぐ……なら見せてやる！",
 			dialogShake = {
 				speed = 0.09,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "――――――！",
 			dialogShake = {
 				speed = 0.09,
@@ -203,8 +203,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "随分と大掛かりな仕掛けね、これ…",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "氷の壁がまるで大きな機械仕掛けのように分解し、またたく間に別の形状へとその姿を変化させた。",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "氷の海を覆い隠す、光を遮断する巨大なドーム…………",
 			typewriter = {
 				speed = 0.05,
@@ -255,9 +255,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "これは…一体……",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オミッター",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "鏡面海域の支配者――セイレーンが姿を表した。",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ミンスク",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ガングート",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "グロズヌイ",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アヴローラ",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オミッター",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オミッター",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オミッター",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -446,8 +446,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "チビのくせに生意気ね。同志ちゃん、こいつ絶対ボコるわよ",
 			typewriter = {
 				speed = 0.05,
@@ -489,10 +489,10 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "てめぇら、下位プログラムと見てナメてんじゃねええええええ！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -509,8 +509,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -537,8 +537,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "全員、気を付けろ！！",
 			typewriter = {
 				speed = 0.05,

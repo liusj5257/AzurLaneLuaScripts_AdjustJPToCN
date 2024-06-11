@@ -1,12 +1,12 @@
 return {
-	id = "W710010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……這是……",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……這股熟悉的破壞感……這是黑方舟的內心世界？",
 			typewriter = {
 				speed = 0.05,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……看起來周圍環境雜亂無序，可能離開這個奇怪的地方和這裡有所關係……",
 			typewriter = {
 				speed = 0.05,

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023古立特联动复刻 变身瞬移回中场",
 	cd = 0,
-	painting = 0,
-	id = 200486,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200486,
 	effect_list = {
 		{
 			type = "BattleSkillPhaseJump",
@@ -36,8 +36,8 @@ return {
 				delay = 0.1,
 				effect = "shanshuo",
 				casterRelativeCorrdinate = {
-					hrz = 0,
-					vrt = 0
+					vrt = 0,
+					hrz = 0
 				}
 			}
 		}

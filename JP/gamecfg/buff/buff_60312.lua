@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 60312,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60312,
+	color = "blue",
 	icon = 60310,
 	last_effect = "",
 	blink = {

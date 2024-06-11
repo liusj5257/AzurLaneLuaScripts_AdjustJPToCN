@@ -5,7 +5,7 @@ slot0.Battle.BattleSkillView = class("BattleSkillView")
 slot2 = slot0.Battle.BattleSkillView
 slot2.__name = "BattleSkillView"
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0._mediator = slot1
@@ -15,25 +15,25 @@ function slot2.Ctor(slot0, slot1)
 	slot0:EnableWeaponButton(false)
 end
 
-function slot2.EnableWeaponButton(slot0, slot1)
+slot2.EnableWeaponButton = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._skillBtnList) do
 		slot6:Enabled(slot1)
 	end
 end
 
-function slot2.DisableWeapnButton(slot0)
+slot2.DisableWeapnButton = function(slot0)
 	for slot4, slot5 in ipairs(slot0._skillBtnList) do
 		slot5:Disable()
 	end
 end
 
-function slot2.JamSkillButton(slot0, slot1)
+slot2.JamSkillButton = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._skillBtnList) do
 		slot6:SetJam(slot1)
 	end
 end
 
-function slot2.ShiftSubmarineManualButton(slot0, slot1)
+slot2.ShiftSubmarineManualButton = function(slot0, slot1)
 	if slot1 == uv0.Battle.OxyState.STATE_FREE_FLOAT then
 		slot0._diveBtn:SetActive(true)
 		slot0._floatBtn:SetActive(false)
@@ -43,7 +43,7 @@ function slot2.ShiftSubmarineManualButton(slot0, slot1)
 	end
 end
 
-function slot2.InitBtns(slot0)
+slot2.InitBtns = function(slot0)
 	slot0._skillBtnList = {}
 	slot0._activeBtnList = {}
 	slot0._delayAnimaList = {}
@@ -51,11 +51,11 @@ function slot2.InitBtns(slot0)
 	slot0._buttonContainer = slot0._ui:findTF("Weapon_button_container")
 	slot0._buttonRes = slot0._ui:findTF("Weapon_button_Resource")
 
-	function slot1()
+	slot1 = function()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("battle_emptyBlock"))
 	end
 
-	function slot2()
+	slot2 = function()
 	end
 
 	slot0._chargeBtn = slot0:generateCommonButton(1)
@@ -163,7 +163,7 @@ function slot2.InitBtns(slot0)
 	slot0._shiftBtn:SetActive(false)
 end
 
-function slot2.generateCommonButton(slot0, slot1)
+slot2.generateCommonButton = function(slot0, slot1)
 	slot2 = uv0.Battle.BattleWeaponButton.New()
 	slot0._progressSkin = slot0._progressSkin or slot0._ui:findTF("Weapon_button_progress")
 	slot3 = cloneTplTo(slot0._progressSkin, slot0._buttonContainer)
@@ -179,7 +179,7 @@ function slot2.generateCommonButton(slot0, slot1)
 	return slot2
 end
 
-function slot2.generateSubmarineFuncButton(slot0, slot1)
+slot2.generateSubmarineFuncButton = function(slot0, slot1)
 	slot2 = uv0.Battle.BattleSubmarineFuncButton.New()
 	slot0._progressSkin = slot0._progressSkin or slot0._ui:findTF("Weapon_button_progress")
 
@@ -191,7 +191,7 @@ function slot2.generateSubmarineFuncButton(slot0, slot1)
 	return slot2
 end
 
-function slot2.generateSubmarineButton(slot0, slot1)
+slot2.generateSubmarineButton = function(slot0, slot1)
 	slot2 = uv0.Battle.BattleSubmarineButton.New()
 	slot0._disposableSkin = slot0._disposableSkin or slot0._ui:findTF("Weapon_button")
 
@@ -202,13 +202,13 @@ function slot2.generateSubmarineButton(slot0, slot1)
 	return slot2
 end
 
-function slot2.CustomButton(slot0, slot1)
+slot2.CustomButton = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0._skillBtnList[slot6]:SetActive(false)
 	end
 end
 
-function slot2.NormalButton(slot0)
+slot2.NormalButton = function(slot0)
 	slot0._chargeBtn:SetActive(true)
 	slot0._torpedoBtn:SetActive(true)
 	slot0._airStrikeBtn:SetActive(true)
@@ -229,7 +229,7 @@ function slot2.NormalButton(slot0)
 	end
 end
 
-function slot2.SubmarineButton(slot0)
+slot2.SubmarineButton = function(slot0)
 	slot0._chargeBtn:SetActive(false)
 	slot0._torpedoBtn:SetActive(true)
 	slot0._airStrikeBtn:SetActive(false)
@@ -250,7 +250,7 @@ function slot2.SubmarineButton(slot0)
 	slot2.anchorMax = Vector2(slot3.x, slot3.y)
 end
 
-function slot2.SubRoutineButton(slot0)
+slot2.SubRoutineButton = function(slot0)
 	slot0._chargeBtn:SetActive(false)
 	slot0._torpedoBtn:SetActive(true)
 	slot0._airStrikeBtn:SetActive(false)
@@ -275,7 +275,7 @@ function slot2.SubRoutineButton(slot0)
 	slot0:setSkillButtonPreferences(slot0._specialBtn:GetSkin(), 4)
 end
 
-function slot2.AirFightButton(slot0)
+slot2.AirFightButton = function(slot0)
 	slot1 = {
 		9
 	}
@@ -292,13 +292,13 @@ function slot2.AirFightButton(slot0)
 	end
 end
 
-function slot2.ButtonInitialAnima(slot0)
+slot2.ButtonInitialAnima = function(slot0)
 	for slot4, slot5 in ipairs(slot0._delayAnimaList) do
 		slot5:InitialAnima(slot4 * 0.2)
 	end
 end
 
-function slot2.CardPuzzleButton(slot0)
+slot2.CardPuzzleButton = function(slot0)
 	slot0._chargeBtn:SetActive(false)
 	slot0._torpedoBtn:SetActive(false)
 	slot0._airStrikeBtn:SetActive(false)
@@ -309,13 +309,13 @@ function slot2.CardPuzzleButton(slot0)
 	slot0._shiftBtn:SetActive(false)
 end
 
-function slot2.HideSkillButton(slot0, slot1)
+slot2.HideSkillButton = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._activeBtnList) do
 		slot6:SetActive(not slot1)
 	end
 end
 
-function slot2.OnSkillCd(slot0, slot1)
+slot2.OnSkillCd = function(slot0, slot1)
 	slot2 = slot1.Data.skillID
 
 	if slot1.Data.coolDownTime < pg.TimeMgr.GetInstance():GetCombatTime() then
@@ -325,7 +325,7 @@ function slot2.OnSkillCd(slot0, slot1)
 	slot0._skillCd[slot2] = slot3
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	slot0._delayAnimaList = nil
 	slot0._activeBtnList = nil
 
@@ -344,13 +344,13 @@ function slot2.Dispose(slot0)
 	uv0.EventListener.DetachEventListener(slot0)
 end
 
-function slot2.Update(slot0)
+slot2.Update = function(slot0)
 	for slot4, slot5 in ipairs(slot0._skillBtnList) do
 		slot5:Update()
 	end
 end
 
-function slot2.setSkillButtonPreferences(slot0, slot1, slot2)
+slot2.setSkillButtonPreferences = function(slot0, slot1, slot2)
 	slot3 = uv0.SKILL_BUTTON_DEFAULT_PREFERENCE[slot2]
 	slot4 = PlayerPrefs.GetFloat("skill_" .. slot2 .. "_scale", slot3.scale)
 	slot5 = PlayerPrefs.GetFloat("skill_" .. slot2 .. "_anchorX", slot3.x)

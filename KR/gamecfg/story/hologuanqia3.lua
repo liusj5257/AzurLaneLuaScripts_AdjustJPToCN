@@ -1,20 +1,20 @@
 return {
-	id = "HOLOGUANQIA3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "holo-tokiwa",
 			say = "산발적인 전투 후, 세이렌은 증원을 멈췄다. 해역이 다시 조용해졌다.",
+			dir = 1,
+			bgm = "holo-tokiwa",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -27,8 +27,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "즈이카쿠와 카와카제가 거울 해역에서 벗어날 방법을 찾는 도중, 안개가 사라졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "나타났을 때처럼 그렇게 갑자기, 두 사람의 시야가 탁 트였다.",
 			effects = {
 				{
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "안개가 끼기 전, 광활했던 해역과 다르게 크고 작은 섬들이 무수히 있었다. 먼 곳에는 거대한 건물도 보였다.",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "자세히 보니 섬 뿐만 아니라 섬 위에 있는 나무며 돌, 심지어 건물까지 무수한 블록으로 이루어져 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "마치 자연을 어설프게 따라한 모조품 처럼.",
 			typewriter = {
 				speed = 0.05,

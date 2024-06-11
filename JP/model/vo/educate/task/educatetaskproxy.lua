@@ -3,7 +3,7 @@ slot0.TASK_ADDED = "EducateTaskProxy.TASK_ADDED"
 slot0.TASK_REMOVED = "EducateTaskProxy.TASK_REMOVED"
 slot0.TASK_UPDATED = "EducateTaskProxy.TASK_UPDATED"
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.binder = slot1
 	slot0.data = {}
 	slot0.targetSetDays = {}
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0.data = {}
 	slot2 = ipairs
 	slot3 = slot1.tasks or {}
@@ -28,15 +28,15 @@ function slot0.SetUp(slot0, slot1)
 	slot0.isGotTargetAward = slot1.isGotTargetAward
 end
 
-function slot0.UpdateTargetAwardStatus(slot0, slot1)
+slot0.UpdateTargetAwardStatus = function(slot0, slot1)
 	slot0.isGotTargetAward = slot1
 end
 
-function slot0.CanGetTargetAward(slot0)
+slot0.CanGetTargetAward = function(slot0)
 	return not slot0.isGotTargetAward
 end
 
-function slot0.AddTask(slot0, slot1)
+slot0.AddTask = function(slot0, slot1)
 	slot2 = EducateTask.New(slot1)
 	slot0.data[slot2.id] = slot2
 
@@ -47,13 +47,13 @@ function slot0.AddTask(slot0, slot1)
 	slot0.binder:sendNotification(uv0.TASK_ADDED)
 end
 
-function slot0.RemoveTaskById(slot0, slot1)
+slot0.RemoveTaskById = function(slot0, slot1)
 	slot0.data[slot1] = nil
 
 	slot0.binder:sendNotification(uv0.TASK_REMOVED)
 end
 
-function slot0.UpdateTask(slot0, slot1)
+slot0.UpdateTask = function(slot0, slot1)
 	if slot0.data[slot1.id] == nil then
 		return
 	end
@@ -63,7 +63,7 @@ function slot0.UpdateTask(slot0, slot1)
 	slot0.binder:sendNotification(uv0.TASK_UPDATED)
 end
 
-function slot0.GetTasksBySystem(slot0, slot1)
+slot0.GetTasksBySystem = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data) do
@@ -75,11 +75,11 @@ function slot0.GetTasksBySystem(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetTaskById(slot0, slot1)
+slot0.GetTaskById = function(slot0, slot1)
 	return slot0.data[slot1] and slot0.data[slot1]:clone() or nil
 end
 
-function slot0.SetTarget(slot0, slot1)
+slot0.SetTarget = function(slot0, slot1)
 	slot0.targetId = slot1
 
 	if slot0.targetId == 0 then
@@ -89,15 +89,15 @@ function slot0.SetTarget(slot0, slot1)
 	end
 end
 
-function slot0.GetTargetId(slot0)
+slot0.GetTargetId = function(slot0)
 	return slot0.targetId
 end
 
-function slot0.GetTargetSetDays(slot0)
+slot0.GetTargetSetDays = function(slot0)
 	return slot0.targetSetDays
 end
 
-function slot0.CheckTargetSet(slot0)
+slot0.CheckTargetSet = function(slot0)
 	if slot0.targetId == 0 then
 		return true
 	end
@@ -113,7 +113,7 @@ function slot0.CheckTargetSet(slot0)
 	return false
 end
 
-function slot0.GetTargetTasksForShow(slot0)
+slot0.GetTargetTasksForShow = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.targetTaskIds) do
@@ -132,7 +132,7 @@ function slot0.GetTargetTasksForShow(slot0)
 	return slot1
 end
 
-function slot0.GetMainTasksForShow(slot0)
+slot0.GetMainTasksForShow = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.child_task.all) do
@@ -151,7 +151,7 @@ function slot0.GetMainTasksForShow(slot0)
 	return slot1
 end
 
-function slot0.FilterByGroup(slot0, slot1, slot2)
+slot0.FilterByGroup = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -206,7 +206,7 @@ function slot0.FilterByGroup(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.GetOtherTargetTaskProgress(slot0)
+slot0.GetOtherTargetTaskProgress = function(slot0)
 	if slot0.targetId == 0 then
 		return 0, 0
 	end
@@ -216,7 +216,7 @@ function slot0.GetOtherTargetTaskProgress(slot0)
 	end), pg.child_target_set[slot0.targetId].target_progress
 end
 
-function slot0.GetMainTargetTaskProgress(slot0)
+slot0.GetMainTargetTaskProgress = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -236,7 +236,7 @@ function slot0.GetMainTargetTaskProgress(slot0)
 	return slot2, slot1
 end
 
-function slot0.GetShowTargetTasks(slot0)
+slot0.GetShowTargetTasks = function(slot0)
 	slot1 = slot0:FilterByGroup(slot0:GetTargetTasksForShow())
 
 	table.sort(slot1, CompareFuncs({
@@ -254,7 +254,7 @@ function slot0.GetShowTargetTasks(slot0)
 	return slot1
 end
 
-function slot0.GetSiteEnterAddTasks(slot0, slot1)
+slot0.GetSiteEnterAddTasks = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data) do
@@ -266,7 +266,7 @@ function slot0.GetSiteEnterAddTasks(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetPerformAddTasks(slot0, slot1)
+slot0.GetPerformAddTasks = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data) do
@@ -278,10 +278,10 @@ function slot0.GetPerformAddTasks(slot0, slot1)
 	return slot2
 end
 
-function slot0.OnNewWeek(slot0)
+slot0.OnNewWeek = function(slot0)
 end
 
-function slot0.IsShowMindTasksTip(slot0)
+slot0.IsShowMindTasksTip = function(slot0)
 	for slot4, slot5 in pairs(slot0.data) do
 		if slot5:IsMind() and slot5:IsFinish() then
 			return true
@@ -291,11 +291,11 @@ function slot0.IsShowMindTasksTip(slot0)
 	return false
 end
 
-function slot0.IsShowMainTasksTip(slot0)
+slot0.IsShowMainTasksTip = function(slot0)
 	return slot0:FilterByGroup(slot0:GetMainTasksForShow())[1] and not slot1:IsReceive() and slot1:IsFinish()
 end
 
-function slot0.IsShowTargetTasksTip(slot0)
+slot0.IsShowTargetTasksTip = function(slot0)
 	for slot4, slot5 in pairs(slot0.data) do
 		if slot5:IsTarget() and slot5:IsFinish() then
 			return true
@@ -305,7 +305,7 @@ function slot0.IsShowTargetTasksTip(slot0)
 	return false
 end
 
-function slot0.IsShowOtherTasksTip(slot0)
+slot0.IsShowOtherTasksTip = function(slot0)
 	if slot0:IsShowMainTasksTip() then
 		return true
 	end

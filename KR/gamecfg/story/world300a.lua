@@ -1,16 +1,16 @@
 return {
-	id = "WORLD300A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD300A",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "NA 해역·이글 유니온 구역",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "NA 해역·이글 유니온 구역",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "우리의 임무는 NA 해역 북서쪽 C구역을 정리하고, 총공격을 위한 전초 기지를 건설하는 것입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -69,9 +69,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이글 유니온의 실력이 예전 같지 않다는 것을 세이렌에게 톡톡히 알려주자!",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "맞아! 로열 네이비의 봉쇄를 돌파한 메탈 블러드 함대의 행적이 묘연하기 때문에 큰 위협이 되고 있어...",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "이게 내가 계속 이상하다고 생각한 점이야! 어렵사리 봉쇄를 뚫고 나가서 공을 세우는 게 아니라 바다에 숨는 게 말이 돼?",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "지휘부에서 내부 조사를 진행 중이지만, 전장의 조사는 우리가 할 수밖에 없지.",
 			typewriter = {
 				speed = 0.05,

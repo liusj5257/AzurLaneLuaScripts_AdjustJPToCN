@@ -21,7 +21,7 @@ slot0.gameTime = 0
 slot0.gameStepTime = 0
 slot0.deltaTime = 0
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	uv0.game_id = slot0
 	uv0.hub_id = slot1
 	uv0.total_times = pg.mini_game_hub[uv0.hub_id]
@@ -29,15 +29,15 @@ function slot0.Init(slot0, slot1)
 	uv0.total_times = pg.mini_game_hub[uv0.hub_id].reward_need
 end
 
-function slot0.GetGameTimes()
+slot0.GetGameTimes = function()
 	return uv0.GetMiniGameHubData().count
 end
 
-function slot0.GetGameUseTimes()
+slot0.GetGameUseTimes = function()
 	return uv0.GetMiniGameHubData().usedtime or 0
 end
 
-function slot0.GetGameRound()
+slot0.GetGameRound = function()
 	if uv0.use_direct_round ~= nil then
 		return uv0.use_direct_round
 	end
@@ -59,15 +59,15 @@ function slot0.GetGameRound()
 	return 1
 end
 
-function slot0.GetMiniGameData()
+slot0.GetMiniGameData = function()
 	return getProxy(MiniGameProxy):GetMiniGameData(uv0.game_id)
 end
 
-function slot0.GetMiniGameHubData()
+slot0.GetMiniGameHubData = function()
 	return getProxy(MiniGameProxy):GetHubByHubId(uv0.hub_id)
 end
 
-function slot0.CheckRectCollider(slot0, slot1, slot2, slot3)
+slot0.CheckRectCollider = function(slot0, slot1, slot2, slot3)
 	slot5 = slot0.y
 	slot6 = slot2.width
 	slot7 = slot2.height
@@ -117,7 +117,7 @@ slot0.equips = {}
 slot0.skill = 0
 slot0.selectRound = nil
 
-function slot0.Prepare()
+slot0.Prepare = function()
 	uv0.gameTime = uv0.game_time
 	uv0.gameStepTime = 0
 	uv0.scoreNum = 0
@@ -127,91 +127,91 @@ function slot0.Prepare()
 	uv0.skill = 1
 end
 
-function slot0.SetGameTpl(slot0)
+slot0.SetGameTpl = function(slot0)
 	uv0.tpl = slot0
 end
 
-function slot0.SetGameBgs(slot0)
+slot0.SetGameBgs = function(slot0)
 	uv0.bg = slot0
 end
 
-function slot0.GetGameBg(slot0)
+slot0.GetGameBg = function(slot0)
 	return uv0.bg
 end
 
-function slot0.SetGameChar(slot0)
+slot0.SetGameChar = function(slot0)
 	uv0.char = slot0
 end
 
-function slot0.GetGameChar()
+slot0.GetGameChar = function()
 	return uv0.char
 end
 
-function slot0.SetGameItems(slot0)
+slot0.SetGameItems = function(slot0)
 	uv0.items = slot0
 end
 
-function slot0.GetBulletSprite(slot0)
+slot0.GetBulletSprite = function(slot0)
 	return GetSpriteFromAtlas(uv0.ui_atlas, slot0)
 end
 
-function slot0.GetEquipIcon(slot0)
+slot0.GetEquipIcon = function(slot0)
 	return GetSpriteFromAtlas(uv0.ui_atlas, slot0)
 end
 
-function slot0.GetBgIcon(slot0)
+slot0.GetBgIcon = function(slot0)
 	return GetSpriteFromAtlas(uv0.ui_atlas, slot0)
 end
 
-function slot0.GetGameBullet()
+slot0.GetGameBullet = function()
 	return tf(instantiate(findTF(uv0.tpl, "bulletTpl")))
 end
 
-function slot0.GetGameItems()
+slot0.GetGameItems = function()
 	return uv0.items
 end
 
-function slot0.SetGameEnemys(slot0)
+slot0.SetGameEnemys = function(slot0)
 	uv0.enemys = slot0
 end
 
-function slot0.GetGameEnemys()
+slot0.GetGameEnemys = function()
 	return uv0.enemys
 end
 
-function slot0.GetGameItemTf(slot0)
+slot0.GetGameItemTf = function(slot0)
 	return tf(instantiate(findTF(uv0.tpl, slot0)))
 end
 
-function slot0.GetGameEnemyTf(slot0)
+slot0.GetGameEnemyTf = function(slot0)
 	return tf(instantiate(findTF(uv0.tpl, slot0)))
 end
 
-function slot0.GetGameBgTf(slot0)
+slot0.GetGameBgTf = function(slot0)
 	return tf(instantiate(findTF(uv0.tpl, slot0)))
 end
 
-function slot0.GetGameCharTf(slot0)
+slot0.GetGameCharTf = function(slot0)
 	return tf(instantiate(findTF(uv0.tpl, slot0)))
 end
 
-function slot0.GetGameEffectTf(slot0)
+slot0.GetGameEffectTf = function(slot0)
 	return tf(instantiate(findTF(uv0.tpl, slot0)))
 end
 
-function slot0.SetSceneSpeed(slot0)
+slot0.SetSceneSpeed = function(slot0)
 	uv0.sceneSpeed = slot0
 end
 
-function slot0.GetSceneSpeed()
+slot0.GetSceneSpeed = function()
 	return uv0.sceneSpeed
 end
 
-function slot0.AddSkill()
+slot0.AddSkill = function()
 	uv0.skill = uv0.skill + 1
 end
 
-function slot0.UseSkill()
+slot0.UseSkill = function()
 	if uv0.skill > 0 then
 		uv0.skill = uv0.skill - 1
 
@@ -221,15 +221,15 @@ function slot0.UseSkill()
 	return false
 end
 
-function slot0.GetSkill()
+slot0.GetSkill = function()
 	return uv0.skill
 end
 
-function slot0.GetRoundData()
+slot0.GetRoundData = function()
 	return uv0.roundData
 end
 
-function slot0.GetRangePos(slot0, slot1)
+slot0.GetRangePos = function(slot0, slot1)
 	if uv0.CheckDoublicat(Vector2(math.random(slot0[1], slot0[2]), math.random(slot1[1], slot1[2]))) then
 		slot4 = slot2
 
@@ -257,7 +257,7 @@ function slot0.GetRangePos(slot0, slot1)
 	end
 end
 
-function slot0.CheckDoublicat(slot0)
+slot0.CheckDoublicat = function(slot0)
 	for slot5 = 1, #uv0.GetGameItems() do
 		if slot1[slot5]:checkPositionInRange(slot0) then
 			return true
@@ -273,7 +273,7 @@ function slot0.CheckDoublicat(slot0)
 	return false
 end
 
-function slot0.PointInRect1(slot0, slot1, slot2, slot3, slot4)
+slot0.PointInRect1 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot6, slot7, slot8, slot9, slot10 = nil
 	slot6 = uv0.Sign(slot0, slot2, slot3)
 	slot7 = uv0.Sign(slot0, slot3, slot4)
@@ -282,7 +282,7 @@ function slot0.PointInRect1(slot0, slot1, slot2, slot3, slot4)
 	return not (uv0.Sign(slot0, slot1, slot2) < 0 or slot6 < 0 or slot7 < 0 or slot8 < 0) or not (slot5 > 0 or slot6 > 0 or slot7 > 0 or slot8 > 0)
 end
 
-function slot0.PointInRect2(slot0, slot1, slot2)
+slot0.PointInRect2 = function(slot0, slot1, slot2)
 	if slot0.x < slot1.x or slot0.y < slot1.y then
 		return false
 	end
@@ -294,7 +294,7 @@ function slot0.PointInRect2(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.Clear()
+slot0.Clear = function()
 	uv0.tpl = nil
 	uv0.char = nil
 end

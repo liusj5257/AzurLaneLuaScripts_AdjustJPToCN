@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "小齐柏林1",
 	time = 0,
-	color = "red",
+	name = "小齐柏林1",
+	init_effect = "",
+	id = 12093,
 	picture = "",
 	desc = "副炮",
 	stack = 1,
-	id = 12093,
+	color = "red",
 	icon = 12090,
 	last_effect = "",
 	effect_list = {
@@ -37,9 +37,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 12092,
 				target = "TargetSelf",
-				time = 24,
-				skill_id = 12092
+				time = 24
 			}
 		},
 		{
@@ -49,8 +49,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 12091,
-				time = 8,
 				target = "TargetSelf",
+				time = 8,
 				quota = 1
 			}
 		}

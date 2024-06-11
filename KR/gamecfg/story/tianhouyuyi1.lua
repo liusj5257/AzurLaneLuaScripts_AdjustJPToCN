@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANHOUYUYI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANHOUYUYI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모두의 여름 축제\n\n<size=45>여름 축제를 준비하자!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301110,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "이나즈마! 올해에도 이 날이 찾아왔어!",
 			bgm = "story-1",
+			actor = 301110,
+			nameColor = "#a9f548",
+			say = "이나즈마! 올해에도 이 날이 찾아왔어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "축제말야! 축제! 신나게 먹고 노는 축제!",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "와...축제구나!",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900195,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900195,
+			nameColor = "#a9f548",
 			say = "없으면, 올해부터 그렇게 하면 되지!",
 			effects = {
 				{
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			actor = 301120,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "{namecode:13}&{namecode:14}",
 			say = "키타카제!",
@@ -219,8 +219,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "후훗, 좋은 소식을 들었는데...사쿠라 엠파이어의 여름이라면!",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "응! 역시 즈이카쿠다워! 나와 생각이 같아!",
 			typewriter = {
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "아하하, 그렇게 칭찬하면 부끄럽잖아~",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -324,10 +324,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307060,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:96}&{namecode:164}",
@@ -366,15 +366,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "...이러이러해서...우리 여름 축제 열자! 지휘관!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -399,9 +399,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -461,11 +461,11 @@ return {
 			}
 		},
 		{
-			actor = 308020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308020,
+			nameColor = "#a9f548",
 			say = "여름 축제는, 무조건 엄청나게 재밌을거야, 지휘관! 하자!",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -487,9 +487,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "...응, 여름도 왔고, 나쁘지도 않은 것 같으니...",
 			typewriter = {
 				speed = 0.05,
@@ -510,8 +510,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "역시 지휘관! 뭘 좀 알아!",
 			typewriter = {
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "모두",
 			dir = 1,
+			actorName = "모두",
 			say = "그래!",
 			dialogShake = {
 				speed = 0.09,

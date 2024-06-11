@@ -10,7 +10,7 @@ slot0.START_LEARN_TACTICS = "NavalAcademyProxy:START_LEARN_TACTICS"
 slot0.CANCEL_LEARN_TACTICS = "NavalAcademyProxy:CANCEL_LEARN_TACTICS"
 slot0.SKILL_CLASS_POS_UPDATED = "NavalAcademyProxy:SKILL_CLASS_POS_UPDATED"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.timers = {}
 	slot0.students = {}
 	slot0.course = AcademyCourse.New()
@@ -64,7 +64,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.GetRecentShips(slot0)
+slot0.GetRecentShips = function(slot0)
 	if #slot0.recentShips > 0 then
 		for slot4 = #slot0.recentShips, 1, -1 do
 			if not getProxy(BayProxy):RawGetShipById(slot0.recentShips[slot4]) or _.all(slot6:getSkillList(), function (slot0)
@@ -90,7 +90,7 @@ function slot0.GetRecentShips(slot0)
 	return slot0.recentShips
 end
 
-function slot0.SaveRecentShip(slot0, slot1)
+slot0.SaveRecentShip = function(slot0, slot1)
 	if not table.contains(slot0.recentShips, slot1) then
 		table.insert(slot0.recentShips, slot1)
 
@@ -103,19 +103,19 @@ function slot0.SaveRecentShip(slot0, slot1)
 	end
 end
 
-function slot0.getSkillClassNum(slot0)
+slot0.getSkillClassNum = function(slot0)
 	return slot0.skillClassNum
 end
 
 slot0.MAX_SKILL_CLASS_NUM = 4
 
-function slot0.inCreaseKillClassNum(slot0)
+slot0.inCreaseKillClassNum = function(slot0)
 	slot0.skillClassNum = math.min(slot0.skillClassNum + 1, uv0.MAX_SKILL_CLASS_NUM)
 
 	slot0:sendNotification(uv0.SKILL_CLASS_POS_UPDATED, slot0.skillClassNum)
 end
 
-function slot0.onRemove(slot0)
+slot0.onRemove = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end
@@ -125,17 +125,17 @@ function slot0.onRemove(slot0)
 	uv0.super.onRemove(slot0)
 end
 
-function slot0.ExistStudent(slot0, slot1)
+slot0.ExistStudent = function(slot0, slot1)
 	return slot0.students[slot1] ~= nil
 end
 
-function slot0.getStudentById(slot0, slot1)
+slot0.getStudentById = function(slot0, slot1)
 	if slot0.students[slot1] then
 		return slot0.students[slot1]:clone()
 	end
 end
 
-function slot0.getStudentIdByShipId(slot0, slot1)
+slot0.getStudentIdByShipId = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.students) do
 		if slot6.shipId == slot1 then
 			return slot6.id
@@ -143,7 +143,7 @@ function slot0.getStudentIdByShipId(slot0, slot1)
 	end
 end
 
-function slot0.getStudentByShipId(slot0, slot1)
+slot0.getStudentByShipId = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.students) do
 		if slot6.shipId == slot1 then
 			return slot6
@@ -151,67 +151,67 @@ function slot0.getStudentByShipId(slot0, slot1)
 	end
 end
 
-function slot0.setStudents(slot0, slot1)
+slot0.setStudents = function(slot0, slot1)
 	slot0.students = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inTactics")
 end
 
-function slot0.getStudents(slot0)
+slot0.getStudents = function(slot0)
 	return Clone(slot0.students)
 end
 
-function slot0.RawGetStudentList(slot0)
+slot0.RawGetStudentList = function(slot0)
 	return slot0.students
 end
 
-function slot0.addStudent(slot0, slot1)
+slot0.addStudent = function(slot0, slot1)
 	slot0.students[slot1.id] = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inTactics")
 	slot0:sendNotification(uv0.START_LEARN_TACTICS, Clone(slot1))
 end
 
-function slot0.updateStudent(slot0, slot1)
+slot0.updateStudent = function(slot0, slot1)
 	slot0.students[slot1.id] = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inTactics")
 end
 
-function slot0.deleteStudent(slot0, slot1)
+slot0.deleteStudent = function(slot0, slot1)
 	slot0.students[slot1] = nil
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inTactics")
 	slot0:sendNotification(uv0.CANCEL_LEARN_TACTICS, slot1)
 end
 
-function slot0.GetOilVO(slot0)
+slot0.GetOilVO = function(slot0)
 	return slot0._oilVO
 end
 
-function slot0.GetGoldVO(slot0)
+slot0.GetGoldVO = function(slot0)
 	return slot0._goldVO
 end
 
-function slot0.GetClassVO(slot0)
+slot0.GetClassVO = function(slot0)
 	return slot0._classVO
 end
 
-function slot0.getCourse(slot0)
+slot0.getCourse = function(slot0)
 	return Clone(slot0.course)
 end
 
-function slot0.setCourse(slot0, slot1)
+slot0.setCourse = function(slot0, slot1)
 	slot0.course = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inClass")
 end
 
-function slot0.GetShipIDs(slot0)
+slot0.GetShipIDs = function(slot0)
 	return {}
 end
 
-function slot0.CheckResFields(slot0)
+slot0.CheckResFields = function(slot0)
 	if slot0._oilVO:IsStarting() then
 		slot0:AddResFieldListener(slot0._oilVO)
 	end
@@ -225,7 +225,7 @@ function slot0.CheckResFields(slot0)
 	end
 end
 
-function slot0.StartUpGradeSuccess(slot0, slot1)
+slot0.StartUpGradeSuccess = function(slot0, slot1)
 	slot1:SetUpgradeTimeStamp(pg.TimeMgr.GetInstance():GetServerTime() + slot1:bindConfigTable()[slot1:GetLevel()].time)
 	slot0:AddResFieldListener(slot1)
 	slot0.facade:sendNotification(uv0.RESOURCE_UPGRADE, {
@@ -233,7 +233,7 @@ function slot0.StartUpGradeSuccess(slot0, slot1)
 	})
 end
 
-function slot0.AddResFieldListener(slot0, slot1)
+slot0.AddResFieldListener = function(slot0, slot1)
 	if slot1._upgradeTimeStamp - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
 		if slot0.timers[slot1:GetUpgradeType()] then
 			slot0.timers[slot3]:Stop()
@@ -252,7 +252,7 @@ function slot0.AddResFieldListener(slot0, slot1)
 	end
 end
 
-function slot0.UpgradeFinish(slot0)
+slot0.UpgradeFinish = function(slot0)
 	if slot0._goldVO:GetDuration() and slot0._goldVO:GetDuration() <= 0 then
 		slot0._goldVO:SetLevel(slot0._goldVO:GetLevel() + 1)
 		slot0._goldVO:SetUpgradeTimeStamp(0)
@@ -283,7 +283,7 @@ function slot0.UpgradeFinish(slot0)
 	end
 end
 
-function slot0.isResourceFieldUpgradeConditionSatisfy(slot0)
+slot0.isResourceFieldUpgradeConditionSatisfy = function(slot0)
 	slot2 = getProxy(PlayerProxy):getData()
 
 	if slot0:GetOilVO():CanUpgrade(slot2.level, slot2.gold) or slot0:GetGoldVO():CanUpgrade(slot2.level, slot2.gold) or slot0:GetClassVO():CanUpgrade(slot2.level, slot2.gold) then
@@ -293,7 +293,7 @@ function slot0.isResourceFieldUpgradeConditionSatisfy(slot0)
 	return false
 end
 
-function slot0.AddCourseProficiency(slot0, slot1)
+slot0.AddCourseProficiency = function(slot0, slot1)
 	slot2 = slot0:getCourse()
 	slot3 = slot0:GetClassVO()
 
@@ -301,7 +301,7 @@ function slot0.AddCourseProficiency(slot0, slot1)
 	slot0:setCourse(slot2)
 end
 
-function slot0.fillStudens(slot0, slot1)
+slot0.fillStudens = function(slot0, slot1)
 	slot2 = pg.gameset.academy_random_ship_count.key_value
 	slot3 = {}
 
@@ -368,7 +368,7 @@ function slot0.fillStudens(slot0, slot1)
 	return slot1
 end
 
-function slot0.IsShowTip(slot0)
+slot0.IsShowTip = function(slot0)
 	if getProxy(PlayerProxy) and slot1:getData() and slot0:isResourceFieldUpgradeConditionSatisfy() then
 		return true
 	end
@@ -404,17 +404,17 @@ function slot0.IsShowTip(slot0)
 	return false
 end
 
-function slot0.getDailyFinishCnt(slot0)
+slot0.getDailyFinishCnt = function(slot0)
 	return (_.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
 		return slot0:getConfig("benefit_type") == "skill_learn_time"
 	end) and tonumber(slot1:getConfig("benefit_effect")) or 0) - slot0.dailyFinsihCnt
 end
 
-function slot0.updateUsedDailyFinishCnt(slot0)
+slot0.updateUsedDailyFinishCnt = function(slot0)
 	slot0.dailyFinsihCnt = slot0.dailyFinsihCnt + 1
 end
 
-function slot0.resetUsedDailyFinishCnt(slot0)
+slot0.resetUsedDailyFinishCnt = function(slot0)
 	slot0.dailyFinsihCnt = 0
 end
 

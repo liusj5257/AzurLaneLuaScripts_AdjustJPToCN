@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"어느 날의 폴라리스\n\n<size=45>어느 날의 휴식 시간</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날, 레슨이 끝난 뒤.",
 			side = 2,
 			bgName = "star_level_bg_121",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날, 레슨이 끝난 뒤.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "후… 오늘은 그럼 여기까지 할까?",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "네. 체력도 여기까지가 한계인 것 같습니다…",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "모두가 그렇게 말하면 쉴 시간인 것 같네… 나, 나는 별로 힘들지 않다고?",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900203,
 			dir = 1,
+			actor = 900203,
 			nameColor = "#a9f548",
 			say = "아드미랄 히퍼의 비정상 상태 감지. 피곤 상태로 측정.",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "하아?! 피, 피곤한 거 아니거든! 그냥 땀이 난 것뿐이야!",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -173,8 +173,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "아카기가 말하는 보상이 궁금하긴 하지만… 역시 안 묻는 편이 좋겠지……",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900203,
 			dir = 1,
+			actor = 900203,
 			nameColor = "#a9f548",
 			say = "가스코뉴, 냉각수가 필요.",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "홍차… 셰필드가 같이 가겠습니다. 모두를 위해 음료를 준비하는 것도 메이드의 본분이니까요.",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "로열 메이드단인가… 메이드장이 여러모로 다루기 힘들던데… 됐어, 나는 커피. 고마워.",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "하아?! 커피야말로 품격있는 선택지란 말이야!",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "아하하… 히퍼와 아카기 사이가 점점 좋아지는걸.",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "하아?! 대체 어딜 봐서?!",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -390,8 +390,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "아, 나도, 나도! 역시 산소 콜라가 좋으려나~",
 			typewriter = {

@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,26 +42,26 @@ return {
 			}
 		},
 		{
-			actor = 702010,
-			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Thank you for coming all this way, Commander.",
 			bgm = "story-antarctica-serious",
+			actor = 702010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Thank you for coming all this way, Commander.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -89,12 +89,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That, I do. It's about the Ring of the Wise – our Antarctic bunker.",
 			painting = {
 				alpha = 0.3,
@@ -106,12 +106,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You were given information on it during the battle. We had, however, omitted a few details.",
 			painting = {
 				alpha = 0.3,
@@ -123,12 +123,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Soyuz asked me to provide you with the complete records.",
 			painting = {
 				alpha = 0.3,
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Indeed, it's not. Its true duty has to do with... geomagnetic fields.",
 			painting = {
 				alpha = 0.3,
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The details are all in here. I suggest you read it for yourself.",
 			painting = {
 				alpha = 0.3,
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You cannot bring these documents with you, however. Also, please don't speak a word of this to anyone but me or Soyuz.",
 			painting = {
 				alpha = 0.3,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It is.",
 			painting = {
 				alpha = 0.3,
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_603",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Please do. And thank you, Commander.",
 			painting = {
 				alpha = 0.3,

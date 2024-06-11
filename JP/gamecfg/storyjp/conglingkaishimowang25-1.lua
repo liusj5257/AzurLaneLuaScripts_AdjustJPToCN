@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "目の前に広がるのは、まるで煉獄のような戦場だ。",
 			bgm = "theme-shallowoftheworld",
+			say = "目の前に広がるのは、まるで煉獄のような戦場だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "数百、数千ものドラゴンが火山の上空を旋回している。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "その中で最も目を引くのは間違いなく、体長数百メートルに及び、全身が烈火に包まれた一体だ。",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "そいつこそがメガフレイムドラゴン、ドラゴン族の長にして、魔王が最も信頼する幹部なのだ。",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "羽ばたきの一つ一つがまるでこの炎獄山脈に共鳴しているように、溶岩を躍動させている。",
 			typewriter = {
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "空を覆うほどの数…これがドラゴンの大軍……",
 			painting = {
@@ -149,27 +149,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "悠揚たる笛の音は清流のように灼熱の大気を裂いた。",
 			bgm = "ryza-az-theme",
+			say = "悠揚たる笛の音は清流のように灼熱の大気を裂いた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "最後の小節が終わった時、4つの転送魔法陣が突如浮かび上がった。",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "続いて、4人の人影がその中から現れた。",
 			typewriter = {
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 331055,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "伝説の格闘家",
 			dir = 1,
+			actor = 331055,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "メガフレイムドラゴン、会ったことのない敵…挑む価値があるです",
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 431232,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "伝説の戦士",
 			dir = 1,
+			actor = 431232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ついさっき強化が完了した斧の試し切りと行きましょう！",
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			say = "戦場に降り立った伝説の英雄たちは躊躇いを見せることなく、すぐドラゴンに向けて飛び出した。",
 			typewriter = {
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ、そういえばジャンヌには言ってなかったね……",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_camelot_6",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あれもすごい冒険だったよ！戦闘が終わったら写真を見せながら聞かせてあげる！",

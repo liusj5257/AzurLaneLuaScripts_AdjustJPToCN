@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN10",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-6",
 			actor = 405030,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Take me with you.",
 			flashin = {
@@ -44,10 +44,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No, I need you to stay here.",
 			painting = {
 				alpha = 0.3,
@@ -62,10 +62,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But, I'm already familiar with what your plan is. I can–",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Enough. This symphony has no more room for revision.",
 			painting = {
 				alpha = 0.3,
@@ -95,12 +95,12 @@ return {
 			}
 		},
 		{
-			actor = 499020,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Focus, Ulrich. You still have your part to play.",
 			painting = {
 				alpha = 0.3,
@@ -115,10 +115,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -130,14 +130,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "Within a dream, Ulrich was reunited with a friend she had been separated from.",
 			bgm = "theme-bismark-reborn",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "Within a dream, Ulrich was reunited with a friend she had been separated from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,17 +149,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "She was once a conductor of the battlefield who played music as effortlessly as she played her foes. Now, she lay on the ground, powerless.",
@@ -181,10 +181,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "This can't be the ending you wanted, Friedrich.",
 			painting = {
 				alpha = 0.3,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "Alone, surrounded by fire and destruction, with neither friends nor foes for company.",
@@ -210,10 +210,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Hmph... So much for the High Seas Fleet you had such hopes for.",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "If only you had trusted me... This wouldn't have happened to you...",
 			painting = {
 				alpha = 0.3,
@@ -243,12 +243,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "...",
 			painting = {
 				alpha = 0.3,
@@ -263,10 +263,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Who did this to you?",
 			painting = {
 				alpha = 0.3,
@@ -281,10 +281,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "If you're still alive, answer me! Answer me!!",
 			painting = {
 				alpha = 0.3,
@@ -307,10 +307,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
+			side = 2,
 			say = "Only the strident death throes of metallic beasts answered her cries.",
 			typewriter = {
 				speed = 0.05,
@@ -327,10 +327,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "...",
 			painting = {
 				alpha = 0.3,
@@ -345,10 +345,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Even had you managed to get the Eagle Union and Sakura Empire on the same page, would they have listened to you?",
 			painting = {
 				alpha = 0.3,
@@ -363,10 +363,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "You can't change anything... Not Bismarck, not you.",
 			painting = {
 				alpha = 0.3,
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "Click, clack... Footsteps were drawing closer.",
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "In this place where she did battle against an Arbiter and lost, she was no longer alone.",
@@ -403,10 +403,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Is this the nightmare that haunts your heart, Ulrich?",
 			painting = {
 				alpha = 0.3,
@@ -421,10 +421,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "...Bismarck. You abandoned Iron Blood when it needed you most... Why are you showing your face again now?",
 			painting = {
 				alpha = 0.3,
@@ -439,10 +439,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "It's over, Bismarck. We've already lost the war.",
 			painting = {
 				alpha = 0.3,
@@ -457,10 +457,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Look around. Our counterattack was a failure. Everyone we know is dead, and for what? The Arbiter still lives.",
 			painting = {
 				alpha = 0.3,
@@ -475,10 +475,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "So why even come here? What the hell do you want?!",
 			painting = {
 				alpha = 0.3,
@@ -504,10 +504,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I know what happened.",
 			painting = {
 				alpha = 0.3,
@@ -528,10 +528,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Friedrich liberated us from forever being slaves to the Sirens' Reenactments.",
 			painting = {
 				alpha = 0.3,
@@ -557,10 +557,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "But, you. You sought the power of the Black Cube. You would've had us dancing in the palms of their hands.",
 			painting = {
 				alpha = 0.3,
@@ -572,12 +572,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "You charged ahead without saying anything to us. You left us behind to fend for ourselves!",
 			painting = {
 				alpha = 0.3,
@@ -594,12 +594,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I know what happened.",
 			painting = {
 				alpha = 0.3,
@@ -620,10 +620,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "What do you know?! You've done jack shit for us!",
 			painting = {
 				alpha = 0.3,
@@ -638,10 +638,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Friedrich and Eugen worked their asses off while you lay in a sickbed!",
 			painting = {
 				alpha = 0.3,
@@ -662,10 +662,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "And now, after it's all over, you finally decide to show your face?!",
 			painting = {
 				alpha = 0.3,
@@ -685,10 +685,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I know what happened.",
 			painting = {
 				alpha = 0.3,
@@ -709,10 +709,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -727,10 +727,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Why aren't you defending yourself? Why aren't you saying anything?",
 			painting = {
 				alpha = 0.3,
@@ -745,10 +745,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "How? Why? Are you a coward? Have we been led by a coward this whole damn time?!",
 			painting = {
 				alpha = 0.3,
@@ -769,10 +769,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I have nothing to say. What you said is true.",
 			painting = {
 				alpha = 0.3,
@@ -790,12 +790,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank you for being honest with me, Ulrich.",
 			painting = {
 				alpha = 0.3,
@@ -810,10 +810,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's true that I've made mistakes, and that I've let down my country and my friends. But, allow me to correct one thing–",
 			painting = {
 				alpha = 0.3,
@@ -828,10 +828,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Iron Blood has not fallen.",
 			painting = {
 				alpha = 0.3,
@@ -865,13 +865,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Geryon",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			nameColor = "#ffa500",
-			say = "ROOOAAAR!",
 			soundeffect = "event:/ui/glassbroken",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
 			bgName = "bg_bsmre_cg7",
+			mode = 1,
 			bgm = "story-bismark-determination",
 			flashout = {
 				dur = 1,
@@ -901,8 +901,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -922,8 +922,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -934,8 +934,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -958,8 +958,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -970,8 +970,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -982,8 +982,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -994,8 +994,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1006,8 +1006,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1018,8 +1018,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1030,8 +1030,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1042,8 +1042,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1054,8 +1054,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1066,8 +1066,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1078,8 +1078,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1090,8 +1090,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1102,8 +1102,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1114,8 +1114,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1126,8 +1126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1138,8 +1138,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1150,8 +1150,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1162,8 +1162,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1174,8 +1174,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1186,8 +1186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ulrich von Hutten",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1198,8 +1198,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1210,8 +1210,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1222,8 +1222,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Bismarck Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

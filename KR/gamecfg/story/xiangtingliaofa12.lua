@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGTINGLIAOFA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "airRaidAlarm",
 			side = 2,
 			bgName = "bg_xiangting_1",
-			dir = 1,
 			say = "유니온·뉴욕항 얼마 전",
+			dir = 1,
+			bgm = "airRaidAlarm",
 			effects = {
 				{
 					active = true,
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 106020,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106020,
+			nameColor = "#a9f548",
 			say = "크, 큰일이야, 뉴욕항이 불바다가 됐어!!",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "정의는 반드시 승리한다!",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -208,10 +208,10 @@ return {
 			}
 		},
 		{
-			actor = 101140,
 			nameColor = "#a9f548",
-			bgName = "bg_xiangting_1",
 			side = 0,
+			bgName = "bg_xiangting_1",
+			actor = 101140,
 			dir = 1,
 			hideOther = true,
 			actorName = "푸트&얼릭",
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "감히 이곳을 습격하다니, 유니온 함대의 위대함을 보여주겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_xiangting_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "(…모두, 별 일 없기를)",
 			typewriter = {
 				speed = 0.05,

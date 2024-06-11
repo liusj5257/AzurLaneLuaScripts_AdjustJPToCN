@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Émile, the Dancing Angel\n\n<size=45>Chapter 4 - Be Strong, Émile!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Commander's Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Dunkerque handed me the mission report along with a small box of her confections.",
 			typewriter = {
 				speed = 0.05,
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 904010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 904010,
+			nameColor = "#a9f548",
 			say = "By the way... I made a few sweets. Would you like some, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "... It seems Dunkerque does this every day. She makes mouth-watering sweets which she just gives to people...",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Dunkerque left her confections on the desk and then exited the office. Now, what to do with these...",
 			typewriter = {
 				speed = 0.05,
@@ -204,12 +204,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "Commander, no... I will NOT give in to temptation!",
 			typewriter = {
 				speed = 0.05,
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "Commander, don't mind me, I can manage...",
 			typewriter = {
 				speed = 0.05,
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Émile seemed pretty upset by her predicament.",
 			typewriter = {
 				speed = 0.05,

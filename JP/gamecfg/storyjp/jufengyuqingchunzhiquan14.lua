@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "幾度も災難に見舞われながら、「偉大なるロイヤル・フォーチュン号」は寂れた闇夜の海を往く。",
 			bgm = "story-temepest-1",
+			say = "幾度も災難に見舞われながら、「偉大なるロイヤル・フォーチュン号」は寂れた闇夜の海を往く。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "月でシガーマストのトップが銀色に染まり、フライングシブの輪郭も真っ白い光を放っているかのように見える。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "海の冒険者たちに似合わぬ、静謐に包まれた美しい光景。",
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "そんな静謐は見張り台にいる仲間の歓声で破られた。",
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "陸地ーーー！！",
@@ -90,8 +90,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "「偉大なるロイヤル・フォーチュン号」のクルー、と言っても自分と艦船たちだけだが――はすぐ甲板に集まった。",
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "ロイヤル・フォーチュンが指差した方角に視線が集中し、仲間たちは交代交代で望遠鏡を覗いていた。",
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "息を潜め、陸地が水平線より現れるその瞬間を待つ。",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "しかし出現したのは大地ではなく、意外な存在だった。",
@@ -136,8 +136,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_jufengv1_4",
 			factiontag = "無敵の桂冠",
+			bgName = "bg_jufengv1_4",
 			bgm = "story-temepest-2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -148,17 +148,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

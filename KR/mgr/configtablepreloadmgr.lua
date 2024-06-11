@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.ConfigTablePreloadMgr = singletonClass("ConfigTablePreloadMgr")
 
-function pg.ConfigTablePreloadMgr.Init(slot0, slot1)
+pg.ConfigTablePreloadMgr.Init = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs({

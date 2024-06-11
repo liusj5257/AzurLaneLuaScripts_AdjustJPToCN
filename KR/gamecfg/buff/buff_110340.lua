@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 110340,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110340,
+	color = "red",
 	icon = 110340,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "luck",
+				number = 7,
 				target = "TargetSelf",
-				number = 7
+				attr = "luck"
 			}
 		},
 		{
@@ -27,9 +27,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
+				number = 1500,
 				target = "TargetSelf",
-				number = 1500
+				attr = "attackRating"
 			}
 		},
 		{
@@ -38,9 +38,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "loadSpeed",
+				number = 1500,
 				target = "TargetSelf",
-				number = 1500
+				attr = "loadSpeed"
 			}
 		}
 	}

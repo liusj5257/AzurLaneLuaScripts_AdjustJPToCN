@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "室内系女仆",
 	time = 0,
-	color = "red",
+	name = "室内系女仆",
+	init_effect = "",
+	id = 105050,
 	picture = "",
 	desc = "氧气存量降低，造成伤害提高",
 	stack = 1,
-	id = 105050,
+	color = "red",
 	icon = 105050,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 105050
+				skill_id = 105050,
+				target = "TargetSelf"
 			}
 		},
 		{

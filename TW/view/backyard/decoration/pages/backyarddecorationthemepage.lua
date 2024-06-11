@@ -1,21 +1,21 @@
 slot0 = class("BackYardDecorationThemePage", import(".BackYardDecorationBasePage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardDecorationThemePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.msgbox = BackYardDecorationMsgBox.New(slot0._parentTf.parent.parent.parent.parent.parent, slot0.event, slot0.contextData)
 	slot0.refreshList = {}
 end
 
-function slot0.OnDisplayList(slot0)
+slot0.OnDisplayList = function(slot0)
 	slot0:InitList()
 end
 
-function slot0.InitList(slot0)
+slot0.InitList = function(slot0)
 	slot0.displays = {}
 	slot1 = slot0.dorm:GetPurchasedFurnitures()
 
@@ -45,7 +45,7 @@ function slot0.InitList(slot0)
 	slot0:SortDisplays()
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if (slot0.isEmpty and 1 or 0) == (slot1.isEmpty and 1 or 0) then
 		if (slot0:IsSystem() and 1 or 0) == (slot1:IsSystem() and 1 or 0) then
 			if slot0.order == slot1.order then
@@ -61,7 +61,7 @@ function slot1(slot0, slot1)
 	end
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	if (slot0.isEmpty and 1 or 0) == (slot1.isEmpty and 1 or 0) then
 		if (slot0:IsSystem() and 1 or 0) == (slot1:IsSystem() and 1 or 0) then
 			if slot0.order == slot1.order then
@@ -77,7 +77,7 @@ function slot2(slot0, slot1)
 	end
 end
 
-function slot0.SortDisplays(slot0)
+slot0.SortDisplays = function(slot0)
 	table.sort(slot0.displays, function (slot0, slot1)
 		if uv0.orderMode == BackYardDecorationFilterPanel.ORDER_MODE_ASC then
 			return uv1(slot0, slot1)
@@ -88,11 +88,11 @@ function slot0.SortDisplays(slot0)
 	slot0:SetTotalCount()
 end
 
-function slot0.OnOrderModeUpdated(slot0)
+slot0.OnOrderModeUpdated = function(slot0)
 	slot0:SortDisplays()
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = BackYardDecorationThemeCard.New(slot1)
 
 	onButton(slot0, slot2._tf, function ()
@@ -111,7 +111,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -121,13 +121,13 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot0.lastDiaplys[slot1 + 1], false)
 end
 
-function slot0.OnThemeUpdated(slot0)
+slot0.OnThemeUpdated = function(slot0)
 	slot0.currHouse = nil
 
 	slot0:InitList()
 end
 
-function slot0.OnApplyThemeBefore(slot0)
+slot0.OnApplyThemeBefore = function(slot0)
 	slot0.currHouse = nil
 
 	for slot4, slot5 in pairs(slot0.cards) do
@@ -137,7 +137,7 @@ function slot0.OnApplyThemeBefore(slot0)
 	slot0.temps = {}
 end
 
-function slot0.OnApplyThemeAfter(slot0, slot1)
+slot0.OnApplyThemeAfter = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.cards) do
 		if slot6.themeVO.id == slot1 then
 			slot6:Update(slot6.themeVO, false)
@@ -145,7 +145,7 @@ function slot0.OnApplyThemeAfter(slot0, slot1)
 	end
 end
 
-function slot0.SetTotalCount(slot0)
+slot0.SetTotalCount = function(slot0)
 	if not slot0.searchKey or slot0.searchKey == "" then
 		slot0.lastDiaplys = slot0.displays
 	else
@@ -161,11 +161,11 @@ function slot0.SetTotalCount(slot0)
 	slot0.scrollRect:SetTotalCount(#slot0.lastDiaplys)
 end
 
-function slot0.OnSearchKeyChanged(slot0)
+slot0.OnSearchKeyChanged = function(slot0)
 	slot0:SetTotalCount()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.msgbox:Destroy()
 
 	slot1 = pairs
@@ -178,7 +178,7 @@ function slot0.OnDestroy(slot0)
 	slot0.cards = nil
 end
 
-function slot0.OnBackPressed(slot0)
+slot0.OnBackPressed = function(slot0)
 	if slot0:GetLoaded() and slot0.msgbox:GetLoaded() and slot0.msgbox:isShowing() then
 		slot0.msgbox:Hide()
 

@@ -1,16 +1,16 @@
 return {
-	id = "AIGUANQIA23",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA23",
+	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港・ロイヤル寮近隣",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "母港・ロイヤル寮近隣",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "アイちゃーーーーーーーーーーん！！！？？？",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,17 +170,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "かくかくしかじかで、ランダムワード生成器が私の３Dモデルをもとにコピーを作ったみたいでさ、私も少し前に気が付いてびっくりしてたところだったんだよ～",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "かくかくしかじかで、ランダムワード生成器が私の３Dモデルをもとにコピーを作ったみたいでさ、私も少し前に気が付いてびっくりしてたところだったんだよ～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "うん！元の世界にいる私とも好きな時に記憶を共有できるから、だから同一人物！設定的に問題なし、うん！",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "バーチャルですからね！なんだってできちゃいますよ！",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "これからも、キズナアイをよろしくお願いしますね！",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "에식스",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……",
 			typewriter = {
@@ -155,11 +155,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_115",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시 후, 섬뜩한 신음은 사라졌습니다.",
 			typewriter = {
@@ -167,17 +167,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -375,9 +375,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "???",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "어머~ 놀라게 해서 미안해~ 꽤 오래된 성이라서 비만 오면 고장이 잘 나거든~",
 			typewriter = {
@@ -390,9 +390,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "???",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "오늘도 비가 계속 와서 그칠 기미도 없고… 그나저나 당신이 우리 아버지께서 부르신 그 탐정이야?",
 			typewriter = {
@@ -417,9 +417,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "그래, 내가 가장 장녀야. 후후, 보아하니 아버지께는 아무 말도 못 들은 모양이네. 하긴 우리 가족 상황이 상황이니만큼…",
 			typewriter = {
@@ -456,9 +456,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "그나저나 당신, 사람들에게 '오컬트 마스터'라고 불린다지? 경찰이 초자연적인 사건을 해결하는 데 몇 번이나 도움을 줬다고 들었어.",
 			typewriter = {
@@ -467,11 +467,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			side = 2,
+			actor = 9600031,
 			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "나도 최근에… 그런 종류의 책을 읽고 있어서 꽤 흥미가 있거든~",
@@ -485,9 +485,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "혹시 괜찮으면 당신의 모험담… 들려주지 않을래?♡",
 			typewriter = {
@@ -531,9 +531,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 기억을 잃어 아무 이야기도 할 수 없었습니다. 그래서 화제를 전환하려고 시도하는데…… D100 판정, 72… 네, 안타깝지만 당신의 시도는 실패로 끝났습니다.",
 			typewriter = {
@@ -546,9 +546,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "장녀는 여전히 미소를 유지하고 있었지만, 그 눈에는 조금 언짢은 듯한 감정이 엿보였습니다.",
 			typewriter = {
@@ -561,10 +561,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "어머나~ 최근 일어난 실종 사건이 궁금해?",
 			typewriter = {
@@ -573,13 +573,13 @@ return {
 			}
 		},
 		{
-			actorName = "골든 하인드",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "난 아무것도 몰라~ 하인이 얼마나 많은데 어떻게 다 기억하겠어~?",
 			typewriter = {
@@ -592,10 +592,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600031,
-			nameColor = "#A9F548FF",
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "후후후, 그것보다 당신에 대한 이야기가 더 듣고 싶은데~",
 			typewriter = {
@@ -714,9 +714,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "지금 이야기도 좋지만, 더 다양하고 자세한 이야기를 듣고 싶어~♡",
 			typewriter = {
@@ -725,11 +725,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			side = 2,
+			actor = 9600031,
 			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "…사건 현장에서 목격한 이야기나~ 알려지지 않은 속사정 같은 거~",
@@ -743,9 +743,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "아하, 알겠다~ 전문가들은 다들 자기 연구를 소중히 여기잖아~ 그에 비해 내 성의가 너무 부족했던 거지?",
 			typewriter = {
@@ -758,9 +758,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "하이티엔",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "장녀는 미안하다는 듯 웃으며 작은 조각상을 꺼냈습니다.",
 			typewriter = {
@@ -768,17 +768,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1024,11 +1024,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			side = 2,
+			actor = 9600031,
 			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "당신… 설마 내 조각상에 불만이라도 있는 거야?",

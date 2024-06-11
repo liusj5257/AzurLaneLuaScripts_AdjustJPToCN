@@ -1,8 +1,8 @@
 return {
-	id = "T10401",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "T10401",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = -1,
@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorShadow = true,
 			actorName = "？？？",
+			actorShadow = true,
 			dir = -1,
+			actor = 307010,
 			nameColor = "#ffffff",
 			say = "Hehehe, another group of bugs to squash. I'm surprised you managed to find your way here.",
 			shake = {
@@ -44,10 +44,10 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 1,
-			actorShadow = true,
 			actorName = "？？？",
+			actorShadow = true,
+			actor = 307020,
 			nameColor = "#ffffff",
 			say = "They managed to break through our outter defences... This is not going according to plan.",
 			shake = {
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorShadow = true,
 			actorName = "？？？",
+			actorShadow = true,
 			dir = -1,
+			actor = 307010,
 			nameColor = "#ffffff",
 			say = "Our main objective has already been completed. All that remains is for us to play with these bugs... hehehe...",
 			shake = {
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorShadow = true,
 			nameColor = "#ff0000",
+			actorShadow = true,
 			dir = -1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "Sakura First Carrier Division, Akagi!",
 			shake = {
@@ -106,10 +106,10 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 1,
-			actorShadow = true,
 			nameColor = "#ff0000",
+			actorShadow = true,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "Sakura First Carrier Division, Kaga!",
 			shake = {
@@ -126,10 +126,10 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			actorShadow = true,
-			actorName = "Akagi & Kaga",
 			side = 0,
+			actorName = "Akagi & Kaga",
+			actor = 307010,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "                                                                <size=45>Forward!</size>",

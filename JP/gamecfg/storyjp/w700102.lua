@@ -1,15 +1,15 @@
 return {
-	id = "W700102",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700102",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "オーダーを受領しました。「アビータ・HermitⅨ」との模擬戦を行います。",
 			typewriter = {
 				speed = 0.05,
@@ -24,8 +24,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "艦隊を移動させ、模擬戦相手に戦闘を挑んでください",
 			typewriter = {
 				speed = 0.05,

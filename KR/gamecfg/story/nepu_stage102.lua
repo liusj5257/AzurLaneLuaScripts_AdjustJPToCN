@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE102",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE102",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "다녀왔어…… 더는 무리, 잘래……",
 			bgm = "story-nepu1",
+			actor = 101170,
+			nameColor = "#92fc63",
+			say = "다녀왔어…… 더는 무리, 잘래……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "라피~ 기다려, 집에 돌아갈 때까지가 정찰임무야!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "라피~ 기다려, 집에 돌아갈 때까지가 정찰임무야!",
+			actor = 201210,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "마침 다른 정찰 임무 중 마주쳐서, 데려왔어요.",
 			typewriter = {
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "그러고 보니…… 네푸네푸 일행의 일로, 아카시 씨를 불렀었어요.",
 			typewriter = {
@@ -382,16 +382,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 312010,
 			nameColor = "#92fc63",
 			say = "이야기는 들었다냥. 여신 분들이 여기선 힘을 못 쓴다던데냥?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "아카시 씨, 해결책은 찾았나요?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아카시 씨, 해결책은 찾았나요?",
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "간단해냥, 로마에 가면 로마 법을 따르는 거다냥… 여신들의 전용 장비를 만들면 된다냥.",
 			typewriter = {
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "이걸로 모두와 함께 출격할 수 있을 거다냥.",
 			typewriter = {
@@ -502,11 +502,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "후냥… 오늘은 이미 늦었으니까, 다들 쉬는 게 좋겠다냥.",
 			typewriter = {
@@ -519,11 +519,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "아카시가 하룻밤 만에 만들어 보이겠다냥. 기대하고 있어라냥!",
 			typewriter = {

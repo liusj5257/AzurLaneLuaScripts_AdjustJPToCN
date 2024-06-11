@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Knights & Awards\n\n<size=45>Chapter 4 - Game Day</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Day of the basketball tournament - Assembly hall",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "Day of the basketball tournament - Assembly hall",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Finally, the day has come... We're all ready, Commander! We'll be counting on your instructions during the match!",
 			typewriter = {
 				speed = 0.05,
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
+			say = "H-hey! Don't make promises like that without my say!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "H-hey! Don't make promises like that without my say!",
+			actor = 102050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -106,13 +106,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "The first round was against the Justice Beavers.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,11 +133,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "Well met, friends! I'm afraid you stand no chance against our righteousness! Little Beavers, let's go! ... Wait, guys...?",
 			effects = {
 				{
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 101140,
+			say = "Ugh, too bothersome for me... I'm sitting this one out.",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			actor = 101140,
 			dir = 1,
-			say = "Ugh, too bothersome for me... I'm sitting this one out.",
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = false,
@@ -181,16 +181,16 @@ return {
 			}
 		},
 		{
-			actor = 101120,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101120,
+			nameColor = "#a9f548",
 			say = "Ahahaha! Spence looks like she's gonna trip again! ... Oh, shoot, we're gonna collide!",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 15,
@@ -239,9 +239,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Cleveland's team won easily, making all the efforts of the Justice Beavers' coach, Downes, in vain.",
 			typewriter = {
 				speed = 0.05,
@@ -249,15 +249,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Nice, we're off to a good start! If we keep this up, we'll win the finals! ... But the next one might not be so easy, heheh~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Thanks! Keep a watchful eye on us, Commander! We'll give it everything we have today!",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_37 = {}
 slot1 = slot0.word_template_37
 
-function temp()
+temp = function()
 	uv0["傴"] = {
 		["僂"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["咥"] = {
 		this = {
 			this = true
@@ -26,7 +26,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["喘"] = {
 		["ぎ"] = {
 			this = true
@@ -36,7 +36,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["專"] = {
 		["制"] = {
 			this = true
@@ -56,7 +56,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["癩"] = {
 		["病"] = {
 			this = true
@@ -66,7 +66,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["穢"] = {
 		["多"] = {
 			this = true
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["聊"] = {
 		this = {
 			this = true

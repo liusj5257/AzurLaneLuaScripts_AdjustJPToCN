@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "ガーン！！",
+			soundeffect = "event:/battle/boom1",
 			side = 2,
 			bgName = "bg_story_nagato3",
-			bgm = "nagato-map",
+			say = "ガーン！！",
 			dir = 1,
-			soundeffect = "event:/battle/boom1",
+			bgm = "nagato-map",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -30,15 +30,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
+			say = "ドカーン！！",
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "ドカーン！！",
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -82,15 +82,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
+			say = "ドーン！！",
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "ドーン！！",
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nagato3",
+			dir = 1,
 			say = "「重桜」の根元で繰り広げられた乱戦。数多くの砲弾が神木のいたるところで爆発し、硝煙の匂いとは違う木材が焦げた匂いを漂わせた。",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nagato3",
+			dir = 1,
 			say = "封印された少女の表情は心なしか苦しそうに見える。",
 			typewriter = {
 				speed = 0.05,
@@ -143,15 +143,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
+			say = "――！",
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "――！",
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nagato3",
+			dir = 1,
 			say = "光が、少女と余人の間に不可侵の壁を作り出した。",
 			typewriter = {
 				speed = 0.05,
@@ -180,14 +180,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_nagato3",
 			actorName = "？？？",
 			dir = 1,
+			actor = 0,
 			stopbgm = true,
 			say = "タマシイの安寧を乱す不届き者め……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nagato3",
+			dir = 1,
 			say = "声とともに、「壁」を形成する光の玉――その正体である無数の「重桜」の枝、葉、花びらがくっきりと姿を表し空に浮かんでいる。",
 			typewriter = {
 				speed = 0.05,
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nagato3",
+			dir = 1,
 			say = "――セイレーンも瑞鶴たちも一瞬で動きを止めた。",
 			typewriter = {
 				speed = 0.05,
@@ -218,13 +218,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_nagato3",
-			actorName = "？？？",
 			dir = 1,
+			actor = 0,
+			actorName = "？？？",
 			say = "時空の摂理を乱す化生どもよ！立ち去るがいい！",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,20 +235,20 @@ return {
 			}
 		},
 		{
-			bgm = "nagato-map",
+			say = "「重桜」から放たれた光の数々が奔流と化し、襲来したセイレーンの艦隊を飲み込んだ。",
 			side = 2,
 			bgName = "bg_story_nagato3",
 			dir = 1,
-			say = "「重桜」から放たれた光の数々が奔流と化し、襲来したセイレーンの艦隊を飲み込んだ。",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nagato3",
+			dir = 1,
 			say = "半刻も経たぬのち、水面には数々の残骸と――",
 			typewriter = {
 				speed = 0.05,
@@ -256,9 +256,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nagato3",
+			dir = 1,
 			say = "幼き身持ちながらも、威厳のある風貌を持つ少女が光の中心に静かに佇んでいた。",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

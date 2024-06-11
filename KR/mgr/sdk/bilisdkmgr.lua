@@ -6,13 +6,13 @@ PACKAGE_TYPE_SHAJOY = 2
 PACKAGE_TYPE_UNION = 3
 PACKAGE_TYPE_YYX = 4
 
-function StartSdkLogin()
+StartSdkLogin = function()
 	Timer.New(function ()
 		uv0:OnLoginTimeOut()
 	end, 30, 1):Start()
 end
 
-function GoLoginScene()
+GoLoginScene = function()
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -23,7 +23,7 @@ function GoLoginScene()
 	gcAll()
 end
 
-function SDKLogined(slot0, slot1, slot2, slot3)
+SDKLogined = function(slot0, slot1, slot2, slot3)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -49,7 +49,7 @@ function SDKLogined(slot0, slot1, slot2, slot3)
 	end
 end
 
-function SDKLogouted(slot0)
+SDKLogouted = function(slot0)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -61,7 +61,7 @@ function SDKLogouted(slot0)
 	})
 end
 
-function PaySuccess(slot0, slot1)
+PaySuccess = function(slot0, slot1)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -75,7 +75,7 @@ function PaySuccess(slot0, slot1)
 	})
 end
 
-function PayFailed(slot0, slot1)
+PayFailed = function(slot0, slot1)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -122,7 +122,7 @@ function PayFailed(slot0, slot1)
 	end
 end
 
-function OnSDKInitFailed(slot0)
+OnSDKInitFailed = function(slot0)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -136,7 +136,7 @@ function OnSDKInitFailed(slot0)
 	})
 end
 
-function ShowMsgBox(slot0)
+ShowMsgBox = function(slot0)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -149,32 +149,32 @@ function ShowMsgBox(slot0)
 	})
 end
 
-function OnShowLicenceFailed()
+OnShowLicenceFailed = function()
 end
 
-function OnShowPrivateFailed()
+OnShowPrivateFailed = function()
 end
 
-function OnShareSuccess()
+OnShareSuccess = function()
 end
 
-function OnShareFailed()
+OnShareFailed = function()
 end
 
-function CloseAgreementView()
+CloseAgreementView = function()
 end
 
-function OnDeleteAccountSuccess()
+OnDeleteAccountSuccess = function()
 	pg.m02:sendNotification(GAME.LOGOUT, {
 		code = 0
 	})
 end
 
-function OnDeleteAccountDisable()
+OnDeleteAccountDisable = function()
 	pg.TipsMgr.GetInstance():ShowTips("功能未开启")
 end
 
-function OnDeleteAccountFailed()
+OnDeleteAccountFailed = function()
 	pg.TipsMgr.GetInstance():ShowTips("注销失败")
 end
 
@@ -313,8 +313,9 @@ return {
 		end
 
 		slot1 = slot0:getRawData()
+		slot5 = ""
 
-		uv0:Service(slot1.id, slot1:GetName(), "{\"device_orientation\":\"portrait\"}")
+		uv0:Service(slot1.id, slot1:GetName(), "", PLATFORM == PLATFORM_IPHONEPLAYER and "portrai" or "portrait")
 	end,
 	Survey = function (slot0)
 		uv0:OpenWeb(slot0)

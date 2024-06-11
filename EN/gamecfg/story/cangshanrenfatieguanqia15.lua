@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
-			say = "Mirror Sea - The First Door",
 			bgm = "sk-az-story",
+			say = "Mirror Sea - The First Door",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			say = "CLAP CLAP CLAP!",
@@ -90,9 +90,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "Please, there is no need to be so humble!",
 			painting = {
 				alpha = 0.3,
@@ -106,9 +106,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "You stand shoulder to shoulder with us, as shown by the various ninjutsu, advanced skills, and combat proficiency you've demonstrated thus far.",
 			painting = {
 				alpha = 0.3,
@@ -122,9 +122,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "If battles are ahead, let us both take advantage of our respective strengths!",
 			painting = {
 				alpha = 0.3,
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "I got you! You've got first-row seats for the showcase of the skills we in the Homura's Crimson Squad pride ourselves on!",
 			painting = {
@@ -167,9 +167,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "(I hope they'll demonstrate as many of their skills as possible so I may copy them.)",
 			painting = {
 				alpha = 0.3,
@@ -194,9 +194,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "Oh! Nothing! I didn't say anything!",
 			painting = {
 				alpha = 0.3,
@@ -208,27 +208,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
-			say = "Sometime later...",
 			bgm = "sk-az-battle",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "...Are you saying you take advantage of natural elements like fire and water in those cases?",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "Yeah. Each of us has our own specialization which our ninjutsu's focused on. I use fire, Yumi uses ice, and so on.",
 			painting = {
@@ -272,9 +272,9 @@ return {
 		{
 			actor = 11000030,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "It's pretty adaptable to the situation. You can do stuff like wrap it around your weapon, or launch it with a snap of your finger.",
 			painting = {
 				alpha = 0.3,
@@ -289,8 +289,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "Damn. We shipgirls can also change our method of attack by swapping ammo types, but that's entirely different.",
 			painting = {
@@ -305,9 +305,9 @@ return {
 		{
 			actor = 102260,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "I'm kinda jealous! I wish I had that level of flexibility with my attacks!",
 			painting = {
 				alpha = 0.3,
@@ -322,8 +322,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "Power-wise, your guns pack the bigger punch, though.",
 			painting = {
@@ -339,8 +339,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "Then there's the rest of the rigging... I'd kill for a shinobi gadget that let me move like the wind over the sea.",
 			painting = {
@@ -355,9 +355,9 @@ return {
 		{
 			actor = 11000030,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "All the shinobi applications it could have... Bad time to daydream, I know, but it's exciting to think about.",
 			painting = {
 				alpha = 0.3,
@@ -372,8 +372,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "You should teach me your shinobi techniques! Please!",
 			painting = {
@@ -389,8 +389,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "I wanna learn how to vanish into a cloud of smoke and avoid an attack, or teleport behind an enemy like fwoosh... Think of the possibilities!",
 			painting = {
@@ -405,9 +405,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "Hey! That's not fair! I want... I want to be her disciple as well!",
 			painting = {
 				alpha = 0.3,
@@ -445,9 +445,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "Yes, of course! I shall see that it's done!",
 			painting = {
 				alpha = 0.3,
@@ -462,8 +462,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "Attagirl! Let's see who of us can knock out the most foes!",
 			painting = {

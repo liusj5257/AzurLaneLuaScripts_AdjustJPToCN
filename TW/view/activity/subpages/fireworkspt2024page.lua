@@ -22,7 +22,7 @@ slot0.ANIM_SHOW = {
 	}
 }
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.fireBtn, function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SPRING_FESTIVAL_BACKHILL_2024, {
@@ -31,7 +31,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateFrieworkPanel(slot0, slot1)
+slot0.UpdateFrieworkPanel = function(slot0, slot1)
 	slot0.fireworkAct = getProxy(ActivityProxy):getActivityById(slot0.fireworkActID)
 
 	assert(slot0.fireworkAct and not slot0.fireworkAct:isEnd(), "烟花活动(type92)已结束")
@@ -85,7 +85,7 @@ function slot0.UpdateFrieworkPanel(slot0, slot1)
 	end
 end
 
-function slot0.getAnimId(slot0)
+slot0.getAnimId = function(slot0)
 	for slot4, slot5 in ipairs(uv0.ANIM_SHOW[slot0.pageIndex]) do
 		if not table.contains(slot0.unlockIds, slot5) then
 			return slot5
@@ -95,11 +95,11 @@ function slot0.getAnimId(slot0)
 	return nil
 end
 
-function slot0.playSwingAnim(slot0, slot1)
+slot0.playSwingAnim = function(slot0, slot1)
 	slot0:findTF("pos/Image", slot1):GetComponent(typeof(Animation)):Play("swing")
 end
 
-function slot0.stopSwingAnim(slot0, slot1)
+slot0.stopSwingAnim = function(slot0, slot1)
 	slot0:findTF("pos/Image", slot1):GetComponent(typeof(Animation)):Stop()
 end
 

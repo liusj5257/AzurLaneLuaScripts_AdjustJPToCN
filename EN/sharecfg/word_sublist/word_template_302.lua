@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_302 = {}
 slot1 = slot0.word_template_302
 
-function temp()
+temp = function()
 	uv0["县"] = {
 		["里"] = {
 			["干"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["现"] = {
 		["代"] = {
 			["广"] = {
@@ -291,7 +291,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["限"] = {
 		["制"] = {
 			["级"] = {
@@ -315,7 +315,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["线"] = {
 		["上"] = {
 			["投"] = {
@@ -329,7 +329,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["峴"] = {
 		this = {
 			this = true
@@ -339,7 +339,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["献"] = {
 		["身"] = {
 			["一"] = {
@@ -373,7 +373,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["膁"] = {
 		this = {
 			this = true

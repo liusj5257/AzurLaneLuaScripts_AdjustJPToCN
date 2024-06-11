@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 侵蚀之手命中 毒奶效果",
 	time = 15,
-	color = "red",
+	name = "2022莱莎联动 侵蚀之手命中 毒奶效果",
+	init_effect = "",
+	id = 200126,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200126,
+	color = "red",
 	icon = 200126,
 	last_effect = "Tainted",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onTakeHealing"
 			},
 			arg_list = {
-				corruptRate = 1,
-				damageRate = 1
+				damageRate = 1,
+				corruptRate = 1
 			}
 		}
 	}

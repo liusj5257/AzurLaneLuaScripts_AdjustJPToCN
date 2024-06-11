@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sea of Stars - Testing Block",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "The shipgirls tripped a motion sensor as they entered a spacious room. It, often used as a conference room, lit up brightly.",
@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Go on. Have a seat.",
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "*sigh*... Now, I summoned you for one specific thing. A salvage mission.",
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Flasher can handle the data salvaging. She's done it multiple times before so she'll know how it's done.",
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "While she does that, you and Louisville just need to keep her safe.",
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So, where and when is the mission?",
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The Coral Sea, when the battle took place.",
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I want to investigate it one more time.",
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Constellation passed Guam the mission briefing. The more she read through it, the more grave her expression turned.",
@@ -362,11 +362,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hang on, this mission is in an area that's always been strictly forbidden for entry.",
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Don't worry about that. I already got Saratoga to approve everything.",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hmm...",
@@ -435,11 +435,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Do you have any other concerns?",
@@ -472,11 +472,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Thank you.",
@@ -509,11 +509,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You got it. Come with me, folks!",
@@ -527,28 +527,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_503",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sea of Stars Testing Block - Salvage Preparation Area",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			say = "The shipgirls entered an area devoid of actual salvaging equipment. This was no surprise, since their salvage target was not a physical object, but rather data.",
@@ -567,8 +567,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			say = "For that matter, there were no boats or transportation facilities either.",
@@ -578,8 +578,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			say = "At the room's center, encircled by experiment materials, was a massive gateway. The girls' gazes converged upon it.",
@@ -627,11 +627,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yep. They do make frequent visits to the simulated world.",
@@ -664,11 +664,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I've heard their functions are all different, too. Maybe it's some sort of technological parallel research.",
@@ -682,11 +682,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hello, Flasher! Everyone is here now.",
@@ -719,11 +719,11 @@ return {
 			}
 		},
 		{
-			actor = 108080,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "N-nice to meet you... I'm Flasher, the submarine. I'll take care of the data salvaging.",
@@ -737,11 +737,11 @@ return {
 			}
 		},
 		{
-			actor = 108080,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I've seen your shows, Guam. I-in fact, I'm a big fan...",
@@ -850,8 +850,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -860,11 +860,11 @@ return {
 			}
 		},
 		{
-			actor = 108080,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "*sniffle*... Yes, please... After the mission.",
@@ -916,11 +916,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Heehee, she and I should totally do a show together sometime!",
@@ -934,8 +934,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
 			say = "San Jacinto stood before the gate's control panel and entered a command.",
@@ -945,8 +945,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
 			say = "In response, the gate's frame began to rumble as if in an earthquake, buzzing ever so faintly.",
@@ -956,8 +956,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
 			say = "It calmed down only a few seconds later, leaving the room silent, save for the stable mechanical whirring of the control panel.",
@@ -967,8 +967,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
 			say = "Then, within the gate's ring, a gently glowing portal manifested.",
@@ -978,8 +978,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Louisville",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
@@ -996,8 +996,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Louisville",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
@@ -1019,8 +1019,8 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Special Operations Force",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Guam",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, yeah. They probably just made this gate thingy look cool for the sake of it.",
 			painting = {
@@ -1038,9 +1038,9 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "Guam",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Plus, that's how you know it's reliable. If it didn't look cool, how could you be sure it's going to work?",
 			painting = {
@@ -1053,8 +1053,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Louisville",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
@@ -1076,8 +1076,8 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Special Operations Force",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Guam",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Aha, now that's a technical question.",
 			painting = {
@@ -1095,9 +1095,9 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "Guam",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Which means I, of course, don't have any clue!",
 			painting = {
@@ -1110,8 +1110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Flasher",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
@@ -1128,8 +1128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Flasher",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
@@ -1146,8 +1146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Louisville",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
@@ -1164,8 +1164,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Flasher",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
@@ -1182,8 +1182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "San Jacinto",
+			side = 2,
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
@@ -1205,9 +1205,9 @@ return {
 			bgName = "bg_zhuguang_cg2",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "Guam",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "For sure! Let's go!",
 			painting = {

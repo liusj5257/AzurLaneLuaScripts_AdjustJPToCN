@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG24",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG24",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			bgm = "bgm-cccp3",
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "...Understood. Our rendezvous coordinates are...",
-			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,8 +28,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "There's a message from Kirov. She's successfully joined up with the Eagle Union fleet and is making her way here.",
 			typewriter = {
@@ -42,9 +42,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "Communication technology in the Mirror Seas? We're going to have look into this.",
 			typewriter = {
 				speed = 0.05,
@@ -65,8 +65,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Oh? Are you interested in that? Does the Eagle Union perchance not have that technology?",
 			typewriter = {
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Who's there?!",
 			dialogShake = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "An unfamiliar, alien voice rose from the transmission.",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -198,8 +198,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "The ice walls are closing in around us!",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Shoot...! I don't like the looks of this! Everyone, retreat, hurry!",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,9 +239,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "The stronghold stirred like a behemoth given life by the mysterious Siren voice, rough winds and waves forming as sheets of ice deformed and convulsed.",
 			typewriter = {
 				speed = 0.05,
@@ -253,9 +253,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "No, the very stronghold - and the entire Mirror Sea - was beginning to move.",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "We've lost contact with Kirov! These damn Sirens...!",
 			typewriter = {
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "All the Siren forces are congregating around us! Commander, at this rate...",
 			typewriter = {
 				speed = 0.05,
@@ -313,9 +313,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
 			optionFlag = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "A courageous choice. Heh, in that case, we'll have to muster up the courage to match you!",
 			typewriter = {
@@ -331,9 +331,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "A calculated decision, Commander. As expected, you've taken stock of the situation quickly.",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "...Comrades, we have no choice but to fight!",
 			typewriter = {
@@ -366,8 +366,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Our lives are in your hands, Commander!",
 			typewriter = {

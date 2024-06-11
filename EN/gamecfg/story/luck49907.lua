@@ -1,15 +1,15 @@
 return {
-	id = "LUCK49907",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK49907",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 499070,
 			dir = 1,
+			actor = 499070,
 			say = "Huh? What's your deal? Oh, did you finally realize how great I am? See, you can't do a thing without me after all~",
 			painting = {
 				alpha = 0.3,
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 499070,
 			dir = 1,
+			actor = 499070,
 			say = "What? It's because I begged you for this...? H-hmph! Not my problem! You were the one who signed off on it!",
 			painting = {
 				alpha = 0.3,
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 499070,
 			dir = 1,
+			actor = 499070,
 			say = "S-so hurry up and admit that you belong to me already! Otherwise I'm not gonna do everything you want me to!",
 			painting = {
 				alpha = 0.3,

@@ -15,29 +15,29 @@ slot0.INDEX_CONVERT = {
 	3
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IdolMasterMedalCollectionUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:checkAward()
 	setText(slot0.progressText, setColorStr(tostring(#slot0.activeIDList), "#8CD5FFFF") .. "/" .. #slot0.allIDList)
 	triggerToggle(slot0.switchBtnList[1], true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if LeanTween.isTweening(go(slot0.photo)) then
 		LeanTween.cancel(go(slot0.photo), false)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.IDOL_MASTER_MEDAL_ID)
 	slot0.allIDList = slot0.activityData:GetPicturePuzzleIds()
@@ -58,7 +58,7 @@ function slot0.initData(slot0)
 	slot0.newMedalID = nil
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot1 = slot0:findTF("NotchAdapt")
 	slot0.backBtn = slot0:findTF("BackBtn", slot1)
@@ -92,12 +92,12 @@ function slot0.findUI(slot0)
 	slot0.photo = slot0:findTF("got", slot0.photoNode)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	function slot4()
+	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.idolmaster_collection.tip
@@ -120,18 +120,18 @@ function slot0.addListener(slot0)
 	end
 end
 
-function slot0.UpdateActivity(slot0, slot1)
+slot0.UpdateActivity = function(slot0, slot1)
 	slot0:checkAward()
 end
 
-function slot0.updateMedalContainerView(slot0, slot1, slot2)
+slot0.updateMedalContainerView = function(slot0, slot1, slot2)
 	slot3 = slot0.pageIDList[slot1]
 
 	slot0:updatePhotoNode(slot3[1], slot2)
 	slot0:updateInfoNode(slot3[2])
 end
 
-function slot0.getMedalStatus(slot0, slot1)
+slot0.getMedalStatus = function(slot0, slot1)
 	slot2 = table.contains(slot0.activeIDList, slot1)
 	slot4 = not slot2 and not (table.contains(slot0.activatableIDList, slot1) and not slot2)
 
@@ -144,7 +144,7 @@ function slot0.getMedalStatus(slot0, slot1)
 	end
 end
 
-function slot0.updatePhotoNode(slot0, slot1, slot2)
+slot0.updatePhotoNode = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF("task", slot0.photoNode)
 	slot4 = slot0:findTF("get", slot0.photoNode)
 	slot5 = slot0:findTF("got", slot0.photoNode)
@@ -199,7 +199,7 @@ function slot0.updatePhotoNode(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateInfoNode(slot0, slot1)
+slot0.updateInfoNode = function(slot0, slot1)
 	slot2 = slot0:findTF("task", slot0.infoNode)
 	slot3 = slot0:findTF("get", slot0.infoNode)
 	slot4 = slot0:findTF("got", slot0.infoNode)
@@ -235,7 +235,7 @@ function slot0.updateInfoNode(slot0, slot1)
 	end
 end
 
-function slot0.updateSwitchBtnTF(slot0)
+slot0.updateSwitchBtnTF = function(slot0)
 	for slot4, slot5 in ipairs(slot0.switchBtnList) do
 		slot6 = slot0:findTF("tip", slot5)
 
@@ -254,7 +254,7 @@ function slot0.updateSwitchBtnTF(slot0)
 	end
 end
 
-function slot0.updateAfterSubmit(slot0, slot1)
+slot0.updateAfterSubmit = function(slot0, slot1)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.IDOL_MASTER_MEDAL_ID)
 	slot0.activatableIDList = slot0.activityData.data1_list
@@ -266,7 +266,7 @@ function slot0.updateAfterSubmit(slot0, slot1)
 	slot0:checkAward()
 end
 
-function slot0.caculateActivatable(slot0, slot1)
+slot0.caculateActivatable = function(slot0, slot1)
 	slot3 = 0
 
 	for slot7, slot8 in ipairs(slot0.pageIDList[slot1]) do
@@ -280,7 +280,7 @@ function slot0.caculateActivatable(slot0, slot1)
 	return slot3
 end
 
-function slot0.checkAward(slot0)
+slot0.checkAward = function(slot0)
 	setActive(slot0.imgGot, #slot0.activeIDList == #slot0.allIDList and slot0.activityData.data1 == 1)
 
 	if #slot0.activeIDList == #slot0.allIDList and slot0.activityData.data1 ~= 1 then

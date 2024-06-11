@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
-			say = "10分後――",
 			bgm = "story-antarctica-serious",
+			say = "10分後――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "正面突破するのは無謀です。ここはセキュリティの防衛ラインを回り込みましょう",
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "すでに馴染んだ無重力感覚に堪え、ソビエツキー・ソユーズとともに「饅頭タワー」最上階のオフィスに突入した――",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "ガシャーン！！！",
 			typewriter = {
@@ -229,17 +229,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "フフフ。アイデアだけは褒めておきましょう",
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "しかし…甘いですね",
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "「配達」してくれてありがとうございます。エージェント「ホッキョクウサギ」、いいえ、ソビエツキー・ソユーズ",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "オフィスの真ん中にある本革のチェアがぐるっと半回転し、そこに座っている人物の姿が見えた。",
 			typewriter = {
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "そ、そんな、もしかして……",
@@ -439,11 +439,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスリーダー",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "察しがいいですね",
 			painting = {
@@ -493,11 +493,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスリーダー",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "協力？……そんなものじゃないですよ",
 			painting = {
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスリーダー",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "「レジスタンス」がなければ、街の秩序はとっくに崩壊していましたよ？",
 			painting = {
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスリーダー",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "残念なことに、あの饅頭が私たちを捨て、今度はマフィアに手を伸ばしている……",
 			painting = {
@@ -604,11 +604,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスリーダー",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "フフフ、襲うなんて人聞きの悪い。私は銃を撃ったのではありませんよ？",
 			painting = {
@@ -639,11 +639,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスリーダー",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "「ナイトくん」がおままごとをする時間はとっくに過ぎていますし、いい加減「アセンション・ボックス」を渡してくれません？",
 			painting = {
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスリーダー",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "「ホッキョクウサギ」、やっておしまい！",
 			painting = {
@@ -716,11 +716,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "…………",
@@ -775,8 +775,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "アヴローラがソユーズに振り向いたその瞬間に、すでに閃光弾が彼女の手から投げられていた。",
 			typewriter = {
@@ -785,11 +785,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "――――！！！",
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,8 +872,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "「饅頭タワーエレベーターをご利用いただきありがとうございます。停止階を最上階に設定しました」",
 			typewriter = {
@@ -881,17 +881,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -899,8 +899,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "「アクセスキーを入力してください」",
 			typewriter = {
@@ -928,11 +928,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "レジスタンスエージェント",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もう時間が……っ！？",
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "風切音が耳元に響き、エレベータールームに追手の銃弾が撃ち込まれた。",
 			typewriter = {
@@ -999,8 +999,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "「アセンション・ボックス」を使った！",
 			typewriter = {
@@ -1017,8 +1017,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "おかえりなさい、管理者。本日も良い一日を",
 			typewriter = {
@@ -1045,8 +1045,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "アヴローラは銃を構えて何発か撃ってきたが、間一髪で起動したバリアに防がれた。",
 			typewriter = {
@@ -1055,8 +1055,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "エレベーターのドアはゆっくりと閉じていく――",
 			typewriter = {
@@ -1067,10 +1067,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9702070,
 			factiontag = "幻影",
 			dir = 1,
 			blackBg = true,
+			actor = 9702070,
 			nameColor = "#A9F548FF",
 			say = "全てを終わらせる時よ。「ナイトくん」",
 			painting = {
@@ -1082,17 +1082,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1100,8 +1100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -1110,8 +1110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "……",
 			typewriter = {

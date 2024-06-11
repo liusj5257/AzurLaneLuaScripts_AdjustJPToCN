@@ -1,6 +1,6 @@
 slot0 = class("CheaterMarkCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = pg.ConnectionMgr.GetInstance()
 
 	slot4:Send(10994, {

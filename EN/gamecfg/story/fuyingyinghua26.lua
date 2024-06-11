@@ -1,15 +1,15 @@
 return {
-	id = "FUYINGYINGHUA26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "main-newyear",
 			say = "Diadem of Light - Ceremonial Hall",
+			side = 2,
+			dir = 1,
+			bgm = "main-newyear",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Woah... this place is a dump... It's going to be hard to get Watatsumi out...",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,9 +63,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Lady Nagato, please hold on for a moment! I'll go dig up the ritual objects! Heave, ho...!",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 50,
@@ -104,9 +104,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Ehehe~ Ryuuhou often puts me through worse, so this is nothing for me!",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,9 +484,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Wooooaaaahhhh!",
 			dialogShake = {
 				speed = 0.09,
@@ -503,8 +503,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -513,10 +513,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/ui/shuaidao",
 			say = "！！",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/shuaidao",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,8 +527,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Hibiki, who was in the process of preparing for the ceremony's continuation, made her grand entrance... on the verge of tumbling over.",
 			typewriter = {
 				speed = 0.05,
@@ -542,9 +542,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Sorry about that! Lost my balance again for a moment! ",
 			typewriter = {
 				speed = 0.05,
@@ -556,8 +556,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -581,15 +581,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			withoutActorName = true,
 			side = 2,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
-			withoutActorName = true,
 			say = "Nagato - the head miko of the Sakura Empire - and Kawakaze, followed Hibiki to the center of the ceremony hall.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -659,11 +659,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			dir = 1,
 			side = 2,
 			withoutActorName = true,
+			actor = 305050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Nagato faced Watatsumi and offered a prayer for the Sakura Empire.",
 			typewriter = {
 				speed = 0.05,
@@ -675,8 +675,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 0,
@@ -730,8 +730,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...But nothing seemed to happen.",
 			typewriter = {
 				speed = 0.05,
@@ -760,15 +760,15 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 306070,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "Mikasa! The enemy known as \"Ember\" managed to escape from us... and she's headed towards --",
 			bgm = "xinnong-4",
+			actor = 306070,
+			nameColor = "#a9f548",
+			say = "Mikasa! The enemy known as \"Ember\" managed to escape from us... and she's headed towards --",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -793,8 +793,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -818,10 +818,10 @@ return {
 			}
 		},
 		{
+			say = "——",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "——",
 			flashN = {
 				color = {
 					1,
@@ -857,8 +857,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Ember\" suddenly appeared at the entrance to the ceremony hall, and everyone turned to face her in shock...",
 			typewriter = {
 				speed = 0.05,
@@ -870,8 +870,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...everyone, except for Akagi and Kaga.",
 			typewriter = {
 				speed = 0.05,
@@ -901,8 +901,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Lady Nagato, stand down. I do not wish to point my blade at my people.",
 			typewriter = {
 				speed = 0.05,
@@ -914,8 +914,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
+			dir = 1,
 			say = "Nagato fearlessly placed herself between \"Ember\" and Watatsumi, signaling her intent to protect it.",
 			typewriter = {
 				speed = 0.05,
@@ -942,8 +942,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -955,8 +955,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "...The thing known as \"Watatsumi\" is not a sacred artifact, but a manifestation of calamity.",
 			typewriter = {
 				speed = 0.05,
@@ -971,8 +971,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "By feeding upon the negative emotions throughout the land, it eventually ushers forth untold destruction.",
 			typewriter = {
 				speed = 0.05,
@@ -999,8 +999,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1012,8 +1012,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "That history is false. This stone does not exist in your world.",
 			typewriter = {
 				speed = 0.05,
@@ -1040,11 +1040,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actor = 900192,
+			actorName = "？？？",
 			say = "...Come forth!",
 			typewriter = {
 				speed = 0.05,
@@ -1056,8 +1056,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1066,11 +1066,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
-			side = 2,
-			dir = 1,
-			nameColor = "#FF5C5CFF",
 			withoutActorName = true,
+			side = 2,
+			nameColor = "#FF5C5CFF",
+			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "A blade extended towards Nagato at an inhuman speed.",
 			typewriter = {
@@ -1098,8 +1098,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1110,8 +1110,8 @@ return {
 		{
 			actor = 301490,
 			side = 2,
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "Kawakaze drew her sword, her reflexes surging as she tried to intercept the attack.",
 			typewriter = {
 				speed = 0.05,
@@ -1123,10 +1123,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/ui/kuang",
 			say = "！！",
+			dir = 1,
+			soundeffect = "event:/ui/kuang",
 			flashN = {
 				color = {
 					1,
@@ -1157,8 +1157,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "A silence soon fell across the room. Mikasa and Hibiki, who both began to run forward, came to a stop.",
 			typewriter = {
 				speed = 0.05,
@@ -1170,8 +1170,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "As if lightning had struck, the deed was done before anyone in the hall could react.",
 			typewriter = {
 				speed = 0.05,
@@ -1213,8 +1213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1238,8 +1238,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Watatsumi, still hidden behind Nagato's back, was cleanly split in half.",
 			typewriter = {
 				speed = 0.05,
@@ -1269,8 +1269,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "...This is a fake. Did you hide the real one away beforehand?",
 			typewriter = {
 				speed = 0.05,
@@ -1285,8 +1285,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "A regular stone coated luminescent paint, tinkered with some Siren technology, and imbued with a Sakura Empire defensive charm...",
 			typewriter = {
 				speed = 0.05,
@@ -1301,8 +1301,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Hmph... Looks like I've wasted my time here.",
 			typewriter = {
 				speed = 0.05,

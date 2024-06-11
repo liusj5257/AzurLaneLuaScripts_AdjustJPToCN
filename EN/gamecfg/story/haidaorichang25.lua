@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG25",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uncharted Summer\n\n<size=45>The Great Deserted Island Yacht Race</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "It's another pleasant day.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-SeaAndSun-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "It's another pleasant day.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "While making my way to the pier, I hear the voice of a certain self-styled journalist.",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "Alfredo's running as fast as she can, cradling something in her arms. She's looking straight down.",
@@ -84,10 +84,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ouch... Ack! My draft!",
 			painting = {
 				alpha = 0.3,
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 601080,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's okay, no worries! My bad for not watching where I was going!",
 			painting = {
 				alpha = 0.3,
@@ -135,10 +135,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whoa, I'm out of time! Commander, help me pick up my draft! If I don't hurry, I'll be late!",
 			painting = {
 				alpha = 0.3,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -163,10 +163,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I gotta report on the Great Deserted Island Yacht Race!",
 			painting = {
 				alpha = 0.3,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,10 +194,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
+			side = 2,
 			say = "\"...The Great Deserted Island Yacht Race? I think Regensburg mentioned that.\"",
 			typewriter = {
 				speed = 0.05,
@@ -214,10 +214,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hm? You don't know about it, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -232,10 +232,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Aw, man... If you wanna watch, go to the pier! I gotta go!",
 			painting = {
 				alpha = 0.3,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,10 +266,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nooo, it's already starting without me!",
 			painting = {
 				alpha = 0.3,
@@ -281,16 +281,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "After Alfredo Oriani snatches up her draft at lightning speed, she speeds off and disappears into the wharf.",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "(Now that I'm thinking about it, New Jersey did say something about a surprise...)",
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "(I guess I'll go check it out.)",
@@ -346,17 +346,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Alfredo Oriani",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -376,8 +376,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Alfredo Oriani",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -405,13 +405,13 @@ return {
 			}
 		},
 		{
-			actorName = "Alfredo Oriani",
 			side = 2,
 			bgName = "bg_summerisland_cg4",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "\"Who will be the ace of the yacht race? Our top picks!\" Yeah, that's a solid headline!",
+			actorName = "Alfredo Oriani",
 			soundeffect = "event:/ui/kuaimen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "\"Who will be the ace of the yacht race? Our top picks!\" Yeah, that's a solid headline!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			say = "I go to the pier where the others are watching. The air is full of excitement for this spectator sport.",
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Enterprise",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			say = "\"Are you competing in the next race, Enterprise? And the girls over there...\"",
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Enterprise",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -498,8 +498,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			say = "\"It looks like Hanazuki and Royal Fortune are joining in, huh?\"",
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Enterprise",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -521,8 +521,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			say = "\"Then the boats in the water over there...\"",
@@ -532,8 +532,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Enterprise",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Enterprise",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -573,8 +573,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -585,8 +585,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -597,8 +597,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Enterprise",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -609,8 +609,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hanazuki",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -626,8 +626,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hanazuki",
+			side = 1,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Fortune",
+			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -650,10 +650,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_summerisland_cg4",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actorName = "Royal Fortune",
 			say = "You've got guts! Bring it on!",
 			typewriter = {

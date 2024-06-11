@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 800
+					number = 800,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 800
+					number = 800,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 800
+					number = 800,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 800
+					number = 800,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 910
+					number = 910,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 910
+					number = 910,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -78,8 +78,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 910
+					number = 910,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 910
+					number = 910,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1020
+					number = 1020,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -115,8 +115,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1020
+					number = 1020,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -126,8 +126,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1020
+					number = 1020,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1020
+					number = 1020,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1130
+					number = 1130,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1130
+					number = 1130,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -174,8 +174,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1130
+					number = 1130,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1130
+					number = 1130,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1240
+					number = 1240,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -211,8 +211,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1240
+					number = 1240,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -222,8 +222,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1240
+					number = 1240,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1240
+					number = 1240,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -248,8 +248,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1350
+					number = 1350,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -259,8 +259,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1350
+					number = 1350,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -270,8 +270,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1350
+					number = 1350,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -281,8 +281,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1350
+					number = 1350,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -296,8 +296,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1460
+					number = 1460,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1460
+					number = 1460,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -318,8 +318,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1460
+					number = 1460,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -329,8 +329,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1460
+					number = 1460,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -344,8 +344,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1570
+					number = 1570,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -355,8 +355,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1570
+					number = 1570,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -366,8 +366,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1570
+					number = 1570,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -377,8 +377,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1570
+					number = 1570,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -392,8 +392,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1680
+					number = 1680,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -403,8 +403,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1680
+					number = 1680,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -414,8 +414,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1680
+					number = 1680,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -425,8 +425,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1680
+					number = 1680,
+					attr = "loadSpeed"
 				}
 			}
 		}
@@ -440,8 +440,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1800
+					number = 1800,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -451,8 +451,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1800
+					number = 1800,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -462,8 +462,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1800
+					number = 1800,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -473,15 +473,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1800
+					number = 1800,
+					attr = "loadSpeed"
 				}
 			}
 		}
 	},
-	time = 10,
 	name = "属性变更",
 	init_effect = "jinengchufared",
+	time = 10,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

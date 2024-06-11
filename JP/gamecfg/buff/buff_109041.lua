@@ -189,14 +189,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 6,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 109041,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 109041,
+	color = "red",
 	icon = 109040,
 	last_effect = "",
 	effect_list = {

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG12",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			bgm = "battle-boss-tiancheng",
-			dir = 1,
 			say = "쿠콰아앙!",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-tiancheng",
 			flashN = {
 				color = {
 					1,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "……큭!",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "괜찮아요, 긁힌 상처에요. 그래도…역시 이 자폭 능력은 예측할 수 없겠네요…제 불찰입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "병의 생사를 고려하지 않고 책략만 고집한다면, 제아무리 뛰어난 비책이라 해도 공론에 불과하죠.",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
+			dir = -1,
 			say = "아마기는 연습 훈련 때 처럼, 후방이 아닌 전방으로 나와있다.",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 302140,
 			dir = 1,
+			actor = 302140,
 			say = "아마기씨……",
 			typewriter = {
 				speed = 0.05,
@@ -207,8 +207,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "그리고, 제가 이렇게 앞으로 나와서 싸우면, 이런 성과도 있을 수 있잖아요?",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			dir = -1,
 			side = 2,
+			dir = -1,
 			say = "아마기는 바다에 떠 있는 카가의 것으로 판단되는 장비의 파편을 주워 동료들에게 보여주었다.",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "……하아……",
 			typewriter = {
 				speed = 0.05,

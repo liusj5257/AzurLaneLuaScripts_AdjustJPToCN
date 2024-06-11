@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"탤런트 캐스터 세크리터리!\n\n<size=45>7 엔딩은…?</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "공원 피크닉용 잔디에 시트를 깔고, 괌은 바로 앉아 단말기를 기동했다.",
 			bgm = "story-richang-11",
+			say = "공원 피크닉용 잔디에 시트를 깔고, 괌은 바로 앉아 단말기를 기동했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "모니터에서 웃음소리가 새어 나온다. 아무래도 괌이 말한 그 방송이 시작된 모양이다.",
@@ -37,28 +37,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "모항, 집무실.",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -123,11 +123,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "착한 지휘관",
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "음… 확실히 보급 물자가 도착할 시간이긴 하군.",
@@ -179,11 +179,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "성실한 마담",
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "대형 작전에 대비하기 위한 물자인 것 같다냥!",
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "성실한 마담",
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "코드 네임은… '청소'라고 한다냥…",
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "천재 비서함",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "에헷☆ 괌은 똑똑하다구~",
@@ -516,29 +516,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "——에식스의 표정이 너무 진지해서 연기로 느껴지지 않아…",
+			side = 2,
 			bgm = "story-richang-11",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "——에식스의 표정이 너무 진지해서 연기로 느껴지지 않아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -552,12 +552,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes! 지난번에 서류 업무 때문에 괌이 민폐를 끼쳤잖아.",
 			painting = {
 				alpha = 0.3,
@@ -572,10 +572,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래서 그걸로 코미디 프로그램을 만들어 보면 어떨까 했어★",
 			painting = {
 				alpha = 0.3,
@@ -590,10 +590,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이걸 만든 첫 번째 이유는 지휘관에 대한 사과, 그리고 두 번째는 나 자신에 대한 훈계… 그리고 세 번째는 더 많은 동료에게 비서함 업무의 중요성을 알리기 위해서야!",
 			painting = {
 				alpha = 0.3,
@@ -617,12 +617,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 그렇게 말할 수도 있겠네…! 뭐, 난 그렇게 깊이 생각하지는 않았지만…",
 			painting = {
 				alpha = 0.3,
@@ -637,10 +637,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그냥 나는 이번 일로 많은 걸 배웠으니까, 이걸 보고 다들 무언가 얻었으면 좋겠다… 싶어서?",
 			painting = {
 				alpha = 0.3,
@@ -655,10 +655,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "에헤헷… 좀 늦은 감이 있기는 하지만… 멋대로 이런 방송을 찍어서… 화난 건 아니지?",
 			painting = {
 				alpha = 0.3,
@@ -730,27 +730,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_149",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_149",
 			say = "어느새 방송은 막바지로 접어들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -758,8 +758,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "천재(초보) 비서함 괌은 몇 번의 실패를 거쳐 자신의 잘못을 깨닫고 노력을 거듭한 끝에 훌륭한 비서함이 되었다.",
@@ -769,8 +769,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "방송 밖에 있는 괌도 이와 마찬가지로 바쁜 일정 틈틈이 공부에 힘써서 지금은 비서함으로서 한 사람 몫을 하고 있다.",
@@ -792,12 +792,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그런 건 아니지~ 적당히 내키는 대로 열심히 한 것뿐인 걸 뭐.",
 			painting = {
 				alpha = 0.3,
@@ -812,10 +812,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방송 속에 있는 자신한테 지지 않을 우수한 비서함이 될 때까지 앞으로도 노력할게♪",
 			painting = {
 				alpha = 0.3,
@@ -827,8 +827,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -846,10 +846,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "에이, 그런 소리 마. 나는 아직 부족한걸.",
 			painting = {
 				alpha = 0.3,
@@ -861,12 +861,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러니까 당분간은 계속 나한테 비서함을 맡겨줬으면 해.",
 			painting = {
 				alpha = 0.3,
@@ -881,10 +881,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관의 No.1 비서함이 되려면 아직 더 많은 레슨이 필요하니까!",
 			painting = {
 				alpha = 0.3,
@@ -899,10 +899,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "내일도 잘 부탁해, 지휘관♪",
 			painting = {
 				alpha = 0.3,

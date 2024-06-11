@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			say = "Nya! It's Eugen! What's the matter? You look kind of down, nya.",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "Nya! It's Eugen! What's the matter? You look kind of down, nya.",
+			actor = 312010,
+			actorName = "{namecode:98}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "Everyone in the Sakura Fleet is getting ready for the New Year! It's actually an extremely busy time, nya! Business is suffering as a result, nya...",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "There's way too much to do, nya! For the Sakura Empire, the New Year is a very important holiday, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Present - Sakura Dormitory",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,8 +195,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "If you want to help out, then let's start by having you set the decorations. All these are for New Year's day, so we need to get it done today. It looks a bit sparse here...",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "These are called \"kadomatsu,\" or gate pines. They come in pairs and should be placed to the sides of the door. They represent prosperity and longevity and are said to welcome home ancestral spirits.",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "Ah, how should I say this... it is used to mark a sacred site so that the visiting spirits won't leave. They are placed in entrances, so you can hang it in the doorway or on windows. Oh, and in the kitchen too.",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "That is called \"kagami mochi,\" or mirror rice cake, nya! It is food, but you can't eat it just yet, nya... You'll have to make offerings first, and wait until after the New Year to eat it, nya.",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "Be patient, nya! After the New Year, you can eat and drink to your heart's content, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "Everyone in this base is a friend, so anyone is welcome, nya~",
 			typewriter = {
 				speed = 0.05,

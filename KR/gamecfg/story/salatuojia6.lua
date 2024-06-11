@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Best Pictures!\n\n<size=45>6. 비밀 취재 시리즈・하</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "36번째 사진은——저녁에 주방에서 무언가를 만들고 있는 새러토가였다.",
 			typewriter = {
 				speed = 0.05,
@@ -27,17 +27,17 @@ return {
 			}
 		},
 		{
-			actor = 107030,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그리들리, 그것 좀 가져와줘.——",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#92fc63",
+			say = "그리들리, 그것 좀 가져와줘.——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			say = "미안 새러토가, 저건 나도 안 닿아...... 함재기를 이용해!",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "미안 새러토가, 저건 나도 안 닿아...... 함재기를 이용해!",
+			actor = 101050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#92fc63",
 			say = "왓! 왜 그래?",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101050,
+			nameColor = "#92fc63",
 			say = "지휘관 도망쳐——!",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 2
@@ -276,13 +276,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "이제 남은 건, 마지막 한 장......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "고개를 들자 새러토가의 얼굴이 보였다, 아주 가깝게.",
 			typewriter = {
 				speed = 0.05,

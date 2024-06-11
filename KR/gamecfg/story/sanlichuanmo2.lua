@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"미카사 선배의 프라모델 박물관\n\n<size=45>울지마, 무츠키!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305110,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "하늘이 무너져내리는구나……",
 			bgm = "story-1",
+			actor = 305110,
+			nameColor = "#92fc63",
+			say = "하늘이 무너져내리는구나……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#92fc63",
 			say = "미카사 선배, 미안……무츠키가 잘못했어요오……",
 			typewriter = {
 				speed = 0.05,
@@ -100,16 +100,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "아……무츠키, 울지마. 괜찮으니까. 봐봐~자, 웃어봐~ 웃는 아이에겐 사탕을 줄 거에요~ (간질간질)",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아……무츠키, 울지마. 괜찮으니까. 봐봐~자, 웃어봐~ 웃는 아이에겐 사탕을 줄 거에요~ (간질간질)",
+			actor = 305110,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#92fc63",
 			say = "가…간지러워……에헤헤헤",
 			typewriter = {
 				speed = 0.05,
@@ -154,16 +154,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					x = 0,
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#92fc63",
 			say = "……무츠키, 무츠키가 잘못했으니까……꼭 뭔가 해줄게! 꼭꼭!",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -230,15 +230,15 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#92fc63",
 			say = "영차, 영차……무츠키도 옮기는 거 도와줄게!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.2,
 					x = 0,
@@ -273,12 +273,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "어머, 무츠키도 열심이네~",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어머, 무츠키도 열심이네~",
+			actor = 307050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -325,13 +325,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "무츠키는 묵묵히 계속 모두를 도와주었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#92fc63",
 			say = "고치는 거, 무츠키도 도와줄게!",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -378,12 +378,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
+			say = "의욕 넘치네 무츠키, 점점 능숙해지잖아.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "의욕 넘치네 무츠키, 점점 능숙해지잖아.",
+			actor = 304020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#92fc63",
 			say = "냠냠……오렌지맛 사탕, 맛있어!",
 			typewriter = {
 				speed = 0.05,
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -456,12 +456,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "……그치만, 아직 일이 많이 남았네……",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "……그치만, 아직 일이 많이 남았네……",
+			actor = 301320,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -476,13 +476,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "다음 날…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -519,12 +519,12 @@ return {
 			}
 		},
 		{
-			actor = 301370,
+			say = "오! 무츠키, 오늘은 기운이 넘치네!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "오! 무츠키, 오늘은 기운이 넘치네!",
+			actor = 301370,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -539,11 +539,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#92fc63",
 			say = "너……너무 빨라……지쳤어……",
 			typewriter = {
 				speed = 0.05,
@@ -555,8 +555,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0,
@@ -597,12 +597,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "무츠키가 사탕을…나눠줬어?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "무츠키가 사탕을…나눠줬어?",
+			actor = 301330,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -633,10 +633,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:133}&{namecode:137}&{namecode:34}",

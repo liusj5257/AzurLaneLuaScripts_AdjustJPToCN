@@ -1,12 +1,12 @@
 return {
-	id = "W221000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W221000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "敵を撃破し、セイレーン防衛戦を突破しよう。",
 			typewriter = {
 				speed = 0.05,

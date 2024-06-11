@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"渡假村神秘事件調查\n\n<size=45>番外篇：.曲曲妖怪而已</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "這是在正式演出開始前發生的，某一幕故事的後續——",
+			nameColor = "#A9F548FF",
+			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			bgm = "stopbgm",
+			say = "這是在正式演出開始前發生的，某一幕故事的後續——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "隨著清掃工作的收尾，由良一行人回到了房間中休息。",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "異變，也是在此時突然發生的。",
@@ -51,28 +51,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "xinnong-3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "溫泉渡假村·主宅？",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 302215,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "融化的冰美人",
 			dir = 1,
+			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "難道和剛才的震動有關？我去看一下信濃大人的情況！",
@@ -157,9 +157,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_517",
 			factiontag = "純樸的老闆娘",
 			dir = 1,
+			bgName = "star_level_bg_517",
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -173,17 +173,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 301041,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "請帶我回家",
 			dir = 1,
+			actor = 301041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗚……難道妖怪劇團的傳聞是真的，這裡真的有妖怪……",
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "由良伸手，似乎在半空中抓到了什麼。隨即，刺耳的聲音消失了。",
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 302231,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "溫泉度假中",
 			dir = 1,
+			actor = 302231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "咦？！在哪裡在哪裡，現在在妳手裡嗎，我怎麼完全看不到？！",
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 302070,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是由良哦",
 			dir = 1,
+			actor = 302070,
 			nameColor = "#A9F548FF",
 			say = "嗯，接下來要怎麼處理它呢……",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "經常壞的通訊器",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "經常壞的經常壞的通訊器",
 			hidePaintObj = true,

@@ -1,17 +1,17 @@
 return {
-	id = "WORLD404A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 302130,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "赤城，我們是不是衝的太深入了一些。",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

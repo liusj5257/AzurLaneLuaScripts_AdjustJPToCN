@@ -1,6 +1,6 @@
 slot0 = class("WorldProxy", import(".NetProxy"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	WPool = BaseEntityPool.New()
 	WBank = BaseEntityBank.New()
 
@@ -82,7 +82,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	if slot0.world then
 		slot0.world:GetBossProxy():Dispose()
 	end
@@ -97,10 +97,10 @@ function slot0.remove(slot0)
 	WBank = nil
 end
 
-function slot0.BuildTestFunc(slot0)
+slot0.BuildTestFunc = function(slot0)
 	world_skip_battle = PlayerPrefs.GetInt("world_skip_battle") or 0
 
-	function switch_world_skip_battle()
+	switch_world_skip_battle = function()
 		if getProxy(PlayerProxy):getRawData():CheckIdentityFlag() then
 			world_skip_battle = 1 - world_skip_battle
 
@@ -111,7 +111,7 @@ function slot0.BuildTestFunc(slot0)
 	end
 
 	if IsUnityEditor then
-		function display_world_debug_panel()
+		display_world_debug_panel = function()
 			if pg.m02:retrieveMediator(WorldMediator.__cname) then
 				slot0.viewComponent:ShowSubView("DebugPanel")
 			end
@@ -125,13 +125,13 @@ function slot0.BuildTestFunc(slot0)
 	end
 end
 
-function slot0.BuildWorld(slot0, slot1, slot2)
+slot0.BuildWorld = function(slot0, slot1, slot2)
 	slot0.world = World.New(slot1, slot0.world and slot0.world:Dispose(tobool(slot2)))
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
 end
 
-function slot0.NetFullUpdate(slot0, slot1)
+slot0.NetFullUpdate = function(slot0, slot1)
 	slot0.isProtoLock = slot1.is_world_open == 0
 
 	slot0:NetUpdateWorld(slot1.world, slot1.global_flag_list, slot1.camp)
@@ -144,7 +144,7 @@ function slot0.NetFullUpdate(slot0, slot1)
 	slot0:NetUpdateWorldPortShopMark(slot1.port_list, slot1.new_flag_port_list)
 end
 
-function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
+slot0.NetUpdateWorld = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.world
 
 	slot4:SetRealm(slot3)
@@ -221,7 +221,7 @@ function slot0.NetUpdateWorld(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.NetUpdateWorldDefaultFleets(slot0, slot1)
+slot0.NetUpdateWorldDefaultFleets = function(slot0, slot1)
 	slot2 = {}
 
 	_.each(slot1, function (slot0)
@@ -236,7 +236,7 @@ function slot0.NetUpdateWorldDefaultFleets(slot0, slot1)
 	slot0.world:SetDefaultFleets(slot2)
 end
 
-function slot0.NetUpdateWorldAchievements(slot0, slot1, slot2)
+slot0.NetUpdateWorldAchievements = function(slot0, slot1, slot2)
 	slot0.world.achievements = {}
 
 	slot0:NetUpdateAchievements(slot1)
@@ -250,7 +250,7 @@ function slot0.NetUpdateWorldAchievements(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.NetUpdateWorldCountInfo(slot0, slot1)
+slot0.NetUpdateWorldCountInfo = function(slot0, slot1)
 	slot0.world.stepCount = slot1.step_count
 	slot0.world.treasureCount = slot1.treasure_count
 	slot0.world.activateCount = slot1.activate_count
@@ -259,7 +259,7 @@ function slot0.NetUpdateWorldCountInfo(slot0, slot1)
 	slot0.world:UpdateProgress(slot1.task_progress)
 end
 
-function slot0.NetUpdateActiveMap(slot0, slot1, slot2, slot3)
+slot0.NetUpdateActiveMap = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.world:GetActiveEntrance()
 
 	if slot0.world:GetActiveMap():NeedClear() and slot4.becomeSairen and slot4:GetSairenMapId() == slot5.id then
@@ -295,7 +295,7 @@ function slot0.NetUpdateActiveMap(slot0, slot1, slot2, slot3)
 	slot0.world:OnSwitchMap()
 end
 
-function slot0.NetUpdateMap(slot0, slot1)
+slot0.NetUpdateMap = function(slot0, slot1)
 	slot2 = slot1.id.random_id
 	slot3 = slot1.id.template_id
 
@@ -327,7 +327,7 @@ function slot0.NetUpdateMap(slot0, slot1)
 	slot5:SetValid(true)
 end
 
-function slot0.NetUpdateMapDiscoveredCells(slot0, slot1, slot2, slot3)
+slot0.NetUpdateMapDiscoveredCells = function(slot0, slot1, slot2, slot3)
 	assert(slot0.world:GetMap(slot1), "map not exist: " .. slot1)
 
 	if slot2 then
@@ -344,7 +344,7 @@ function slot0.NetUpdateMapDiscoveredCells(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.NetUpdateMapPort(slot0, slot1, slot2)
+slot0.NetUpdateMapPort = function(slot0, slot1, slot2)
 	slot3 = slot0.world:GetMap(slot1)
 
 	assert(slot3, "map not exist: " .. slot1)
@@ -363,13 +363,13 @@ function slot0.NetUpdateMapPort(slot0, slot1, slot2)
 	slot4:UpdateExpiredTime(slot2.next_refresh_time)
 end
 
-function slot0.NetUpdateAchievements(slot0, slot1)
+slot0.NetUpdateAchievements = function(slot0, slot1)
 	_.each(slot1, function (slot0)
 		uv0.world:DispatchEvent(World.EventAchieved, uv0.world:GetAchievement(slot0.id):NetUpdate(slot0.process_list))
 	end)
 end
 
-function slot0.NetBuildMapFleetList(slot0, slot1)
+slot0.NetBuildMapFleetList = function(slot0, slot1)
 	slot2 = {}
 
 	if slot1 and #slot1 > 0 then
@@ -398,7 +398,7 @@ function slot0.NetBuildMapFleetList(slot0, slot1)
 	return slot2
 end
 
-function slot0.NetBuildPortShipList(slot0, slot1)
+slot0.NetBuildPortShipList = function(slot0, slot1)
 	return _.map(slot1, function (slot0)
 		slot1 = WPool:Get(WorldMapShip)
 
@@ -408,7 +408,7 @@ function slot0.NetBuildPortShipList(slot0, slot1)
 	end)
 end
 
-function slot0.NetResetWorld(slot0)
+slot0.NetResetWorld = function(slot0)
 	slot0:sendNotification(GAME.SEND_CMD, {
 		cmd = "world",
 		arg1 = "reset"
@@ -418,7 +418,7 @@ function slot0.NetResetWorld(slot0)
 	})
 end
 
-function slot0.NetBuildMapAttachmentCells(slot0, slot1)
+slot0.NetBuildMapAttachmentCells = function(slot0, slot1)
 	_.each(slot1, function (slot0)
 		uv0[WorldMapCell.GetName(slot0.pos.row, slot0.pos.column)] = {
 			pos = {
@@ -447,7 +447,7 @@ function slot0.NetBuildMapAttachmentCells(slot0, slot1)
 	return slot2
 end
 
-function slot0.UpdateMapAttachmentCells(slot0, slot1, slot2)
+slot0.UpdateMapAttachmentCells = function(slot0, slot1, slot2)
 	slot7 = slot1
 
 	assert(slot0.world:GetMap(slot1), "map not exist: " .. slot7)
@@ -479,7 +479,7 @@ function slot0.UpdateMapAttachmentCells(slot0, slot1, slot2)
 	end
 end
 
-function slot0.NetBuildFleetAttachUpdate(slot0, slot1)
+slot0.NetBuildFleetAttachUpdate = function(slot0, slot1)
 	_.each(slot1, function (slot0)
 		slot1 = {
 			row = slot0.pos.row,
@@ -503,7 +503,7 @@ function slot0.NetBuildFleetAttachUpdate(slot0, slot1)
 	return {}
 end
 
-function slot0.ApplyFleetAttachUpdate(slot0, slot1, slot2)
+slot0.ApplyFleetAttachUpdate = function(slot0, slot1, slot2)
 	slot3 = slot0.world
 
 	assert(slot3:GetMap(slot1), "map not exist: " .. slot1)
@@ -512,7 +512,7 @@ function slot0.ApplyFleetAttachUpdate(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.NetBulidTerrainUpdate(slot0, slot1)
+slot0.NetBulidTerrainUpdate = function(slot0, slot1)
 	return _.map(slot1, function (slot0)
 		slot1 = WPool:Get(NetTerrainUpdate)
 
@@ -522,7 +522,7 @@ function slot0.NetBulidTerrainUpdate(slot0, slot1)
 	end)
 end
 
-function slot0.ApplyTerrainUpdate(slot0, slot1, slot2)
+slot0.ApplyTerrainUpdate = function(slot0, slot1, slot2)
 	slot3 = slot0.world
 
 	assert(slot3:GetMap(slot1), "map not exist: " .. slot1)
@@ -541,7 +541,7 @@ function slot0.ApplyTerrainUpdate(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.NetBuildFleetUpdate(slot0, slot1)
+slot0.NetBuildFleetUpdate = function(slot0, slot1)
 	return _.map(slot1, function (slot0)
 		slot1 = WPool:Get(NetFleetUpdate)
 
@@ -551,7 +551,7 @@ function slot0.NetBuildFleetUpdate(slot0, slot1)
 	end)
 end
 
-function slot0.ApplyFleetUpdate(slot0, slot1, slot2)
+slot0.ApplyFleetUpdate = function(slot0, slot1, slot2)
 	slot3 = slot0.world
 
 	assert(slot3:GetMap(slot1), "map not exist: " .. slot1)
@@ -569,7 +569,7 @@ function slot0.ApplyFleetUpdate(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.NetBuildShipUpdate(slot0, slot1)
+slot0.NetBuildShipUpdate = function(slot0, slot1)
 	return _.map(slot1, function (slot0)
 		slot1 = WPool:Get(NetShipUpdate)
 
@@ -579,7 +579,7 @@ function slot0.NetBuildShipUpdate(slot0, slot1)
 	end)
 end
 
-function slot0.ApplyShipUpdate(slot0, slot1)
+slot0.ApplyShipUpdate = function(slot0, slot1)
 	_.each(slot1, function (slot0)
 		slot1 = uv0.world:GetShip(slot0.id)
 
@@ -588,21 +588,21 @@ function slot0.ApplyShipUpdate(slot0, slot1)
 	end)
 end
 
-function slot0.NetUpdateWorldSairenChapter(slot0, slot1)
+slot0.NetUpdateWorldSairenChapter = function(slot0, slot1)
 	slot0.world:GetAtlas():SetSairenEntranceList(_.rest(slot1, 1))
 end
 
-function slot0.NetUpdateWorldMapPressing(slot0, slot1)
+slot0.NetUpdateWorldMapPressing = function(slot0, slot1)
 	slot0.world:GetAtlas():SetPressingMarkList(_.rest(slot1, 1))
 	slot0.world:GetAtlas():InitPortMarkNShopList()
 end
 
-function slot0.NetUpdateWorldShopGoods(slot0, slot1)
+slot0.NetUpdateWorldShopGoods = function(slot0, slot1)
 	slot0.world:InitWorldShopGoods()
 	slot0.world:UpdateWorldShopGoods(slot1)
 end
 
-function slot0.NetUpdateWorldPressingAward(slot0, slot1)
+slot0.NetUpdateWorldPressingAward = function(slot0, slot1)
 	slot2 = slot0.world
 	slot2 = slot2:GetAtlas()
 
@@ -619,11 +619,11 @@ function slot0.NetUpdateWorldPressingAward(slot0, slot1)
 	end)
 end
 
-function slot0.NetUpdateWorldPortShopMark(slot0, slot1, slot2)
+slot0.NetUpdateWorldPortShopMark = function(slot0, slot1, slot2)
 	slot0.world:GetAtlas():SetPortMarkList(slot1, slot2)
 end
 
-function slot0.NetBuildSalvageUpdate(slot0, slot1)
+slot0.NetBuildSalvageUpdate = function(slot0, slot1)
 	return _.map(slot1, function (slot0)
 		slot1 = WPool:Get(NetSalvageUpdate)
 
@@ -633,7 +633,7 @@ function slot0.NetBuildSalvageUpdate(slot0, slot1)
 	end)
 end
 
-function slot0.ApplySalvageUpdate(slot0, slot1)
+slot0.ApplySalvageUpdate = function(slot0, slot1)
 	_.each(slot1, function (slot0)
 		slot1 = uv0.world:GetFleet(slot0.id)
 

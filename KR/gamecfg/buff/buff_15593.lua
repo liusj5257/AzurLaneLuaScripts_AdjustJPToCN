@@ -159,13 +159,13 @@ return {
 			}
 		}
 	},
-	color = "red",
+	id = 15593,
 	name = "",
 	time = 0,
 	picture = "",
 	desc = "装备效率提高",
 	stack = 1,
-	id = 15593,
+	color = "red",
 	icon = 15593,
 	last_effect = "",
 	effect_list = {

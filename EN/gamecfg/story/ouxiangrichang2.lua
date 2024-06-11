@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"One day, with Polaris...\n\n<size=45>One day, during a break...</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One day, after rehearsal...",
 			side = 2,
 			bgName = "star_level_bg_121",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "One day, after rehearsal...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "Phew... what do you say we call it a day?",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "Yes, there are limits to both time and stamina...",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "If that's how you feel, then I suppose we can take a break... But it's not like I'm tired or anything.",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900203,
 			dir = 1,
+			actor = 900203,
 			nameColor = "#a9f548",
 			say = "Observation: Hipper is in an abnormal state. Current Condition: Exhausted.",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "Haah?! Wh- who's exhausted?! I barely even broke a sweat!",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -173,8 +173,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "I'm a little curious what exactly you think that reward will be... Actually, I'd rather not hear the details...",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900203,
 			dir = 1,
+			actor = 900203,
 			nameColor = "#a9f548",
 			say = "Gascogne requires coolant.",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "Tea... Actually, let me accompany you. Serving drinks is in fact a maid's duty.",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "I've heard you Royal Maids struggle under the yoke of a very strict Head Maid, eh...? In any case, I'll have a coffee.",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "Haah?! Coffee is the choice of a refined lady!",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "Ahahaha... it's nice to see Hipper and Akagi getting along.",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "Haah?! Who the hell would get along with HER?",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -390,8 +390,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "Hey, I'm coming too! Gotta get me an Oxy-Cola on the way~",
 			typewriter = {

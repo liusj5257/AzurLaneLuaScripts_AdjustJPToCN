@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Air Raid Drills With Essex\n\n<size=45>3: The Listener's Interlude</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107070,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Heyyy, welcome back!",
 			bgm = "story-1",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "Heyyy, welcome back!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Ah, thank you very much!",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Much obliged.",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "S-sorry, I hadn't even thought about all that...",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Considering the importance of this exercise, I have to take advantage of this opportunity to push my limits and display my abilities... That's pretty much what I think about this.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Heheh, unlike you, Hornet, Essex is actually the diligent type~",
 			typewriter = {
@@ -313,15 +313,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "Umm, hold on... Hornet!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -365,8 +365,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "What you mentioned earlier about Enterprise's habits earlier... Could you tell us a bit more?",
 			typewriter = {
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Ack! Ahahaha... Sorry to hold you up! Anyway, gotta bounce!",
 			typewriter = {
 				speed = 0.05,
@@ -475,16 +475,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 3
 				},
 				{
-					type = "move",
 					y = 45,
+					type = "move",
 					delay = 0.6,
 					dur = 1,
 					x = 3750
@@ -495,8 +495,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Ahem! Thanks for your time, Hornet!",
 			typewriter = {
@@ -637,12 +637,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -655,8 +655,8 @@ return {
 		},
 		action = {
 			{
-				type = "shake",
 				y = 45,
+				type = "shake",
 				delay = 0,
 				dur = 0.15,
 				x = 0,

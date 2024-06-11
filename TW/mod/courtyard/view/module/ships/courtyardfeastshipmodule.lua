@@ -1,6 +1,6 @@
 slot0 = class("CourtYardFeastShipModule", import(".CourtYardShipModule"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot1 = slot0._tf
@@ -33,7 +33,7 @@ function slot0.OnInit(slot0)
 	slot0.timers = {}
 end
 
-function slot0.InitMark(slot0)
+slot0.InitMark = function(slot0)
 	slot3 = slot0.data
 
 	setActive(slot0.specialMark, slot3:IsSpecial())
@@ -47,7 +47,7 @@ function slot0.InitMark(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.AddListeners(slot0)
+slot0.AddListeners = function(slot0)
 	uv0.super.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.FEAST_SHIP_BUBBLE_CHANGE, slot0.OnFeastBubbleChange)
 	slot0:AddListener(CourtYardEvent.FEAST_SHIP_CHAT_CHANGE, slot0.OnFeastChatChange)
@@ -55,7 +55,7 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.FEAST_SHIP_SHOW_EXPRESS, slot0.OnFeastShipShowExpress)
 end
 
-function slot0.RemoveListeners(slot0)
+slot0.RemoveListeners = function(slot0)
 	uv0.super.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.FEAST_SHIP_BUBBLE_CHANGE, slot0.OnFeastBubbleChange)
 	slot0:RemoveListener(CourtYardEvent.FEAST_SHIP_CHAT_CHANGE, slot0.OnFeastChatChange)
@@ -63,14 +63,14 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.FEAST_SHIP_SHOW_EXPRESS, slot0.OnFeastShipShowExpress)
 end
 
-function slot0.OnFeastShipShowExpress(slot0, slot1)
+slot0.OnFeastShipShowExpress = function(slot0, slot1)
 	if slot0.expressList[slot1] then
 		slot0:ClearChatAnimation()
 		slot0:PlayExpressAnim(slot2)
 	end
 end
 
-function slot0.PlayExpressAnim(slot0, slot1, slot2, slot3)
+slot0.PlayExpressAnim = function(slot0, slot1, slot2, slot3)
 	slot4 = LeanTween.scale(go(slot1), defaultValue(slot2, Vector3(1, 1, 1)), 0.5)
 	slot4 = slot4:setEase(LeanTweenType.easeOutBack)
 	slot4 = slot4:setDelay(defaultValue(slot3, 0))
@@ -80,7 +80,7 @@ function slot0.PlayExpressAnim(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.ClearChatAnimation(slot0)
+slot0.ClearChatAnimation = function(slot0)
 	uv0.super.ClearChatAnimation(slot0)
 
 	slot1 = ipairs
@@ -95,13 +95,13 @@ function slot0.ClearChatAnimation(slot0)
 	end
 end
 
-function slot0.OnFeastBubbleChange(slot0, slot1)
+slot0.OnFeastBubbleChange = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.bubbles) do
 		setActive(slot6, slot5 == slot1)
 	end
 end
 
-function slot0.OnFeastChatChange(slot0, slot1)
+slot0.OnFeastChatChange = function(slot0, slot1)
 	slot2 = slot1 ~= ""
 
 	setActive(slot0.chatBubble, slot2)
@@ -123,7 +123,7 @@ slot1 = {
 	"Zzz"
 }
 
-function slot0.OnFeastShipBubbleInterAction(slot0, slot1)
+slot0.OnFeastShipBubbleInterAction = function(slot0, slot1)
 	slot2 = slot0:GetView().poolMgr
 	slot5 = slot2["Get" .. (uv0[slot1] or uv0[1]) .. "Pool"](slot2):Dequeue()
 
@@ -146,7 +146,7 @@ function slot0.OnFeastShipBubbleInterAction(slot0, slot1)
 	table.insert(slot0.timers, slot7)
 end
 
-function slot0.DisappearTimer(slot0)
+slot0.DisappearTimer = function(slot0)
 	slot0.disappearTimer = Timer.New(function ()
 		setActive(uv0.chatBubble, false)
 	end, CourtYardConst.FEAST_CHAT_TIME, 1)
@@ -154,7 +154,7 @@ function slot0.DisappearTimer(slot0)
 	slot0.disappearTimer:Start()
 end
 
-function slot0.RemoveDisappearTimer(slot0)
+slot0.RemoveDisappearTimer = function(slot0)
 	if slot0.disappearTimer then
 		slot0.disappearTimer:Stop()
 
@@ -162,7 +162,7 @@ function slot0.RemoveDisappearTimer(slot0)
 	end
 end
 
-function slot0.OnStateChange(slot0, slot1, slot2)
+slot0.OnStateChange = function(slot0, slot1, slot2)
 	uv0.super.OnStateChange(slot0, slot1, slot2)
 
 	slot3 = false
@@ -176,7 +176,7 @@ function slot0.OnStateChange(slot0, slot1, slot2)
 	slot0.feastAttachments.localPosition = slot1 == CourtYardShip.STATE_INTERACT and Vector3(0, -85, 0) or Vector3.zero
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.cg.blocksRaycasts = true
 	slot1 = ipairs
 	slot2 = slot0.timers or {}

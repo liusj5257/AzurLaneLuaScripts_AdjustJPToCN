@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_301 = {}
 slot1 = slot0.word_template_301
 
-function temp()
+temp = function()
 	uv0["鲜"] = {
 		["血"] = {
 			["洒"] = {
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["薟"] = {
 		this = {
 			this = true
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["躚"] = {
 		this = {
 			this = true
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["閑"] = {
 		["著"] = {
 			["沒"] = {
@@ -73,7 +73,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蜆"] = {
 		this = {
 			this = true
@@ -83,7 +83,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["獫"] = {
 		this = {
 			this = true
@@ -93,7 +93,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蘚"] = {
 		["鮑"] = {
 			this = true

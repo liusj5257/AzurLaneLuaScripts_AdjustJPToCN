@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Iron Blood domain - Floating Fortress E2",
 			side = 2,
 			bgName = "bg_guild_red_n",
 			dir = 1,
 			bgm = "bsm-5",
+			say = "Iron Blood domain - Floating Fortress E2",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(Right on time. Now we have an airfield platform. I wish we could've constructed an airship hangar too, but alas.)",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(I suppose combat-ready airships are still a ways off... Anyway, it's time to begin.)",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_guild_red_n",
 			side = 0,
+			bgName = "bg_guild_red_n",
+			hideOther = true,
 			dir = 1,
 			actor = 406010,
 			actorName = "Weser & Z46",
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "The Floating Fortress has gained a new facility. We have anti-air combat on our training agenda today.",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Along with our training, we will also test the new facility's functions. Assemble at Platform B3 in 3 hours after you've benchmarked your riggings.",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "\"Training,\" huh. I'd describe it more like \"playing around,\" honestly.",
 			typewriter = {
@@ -272,13 +272,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			side = 2,
+			dir = 1,
 			say = "Floating Fortress - Training Area F",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "Armored ship, coming throoough!",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,9 +329,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "Prinz Heinrich, the P-class armored ship, weaves between buoys while firing at training targets. She is having a whale of a time.",
 			typewriter = {
 				speed = 0.05,
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "Heinrich's rigging, a massive mechanical beast affectionately nicknamed \"Eisen,\" fires a volley with a thundering roar.",
 			typewriter = {
 				speed = 0.05,
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "We did it! High five, Eisen!",
 			typewriter = {
 				speed = 0.05,
@@ -441,8 +441,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -454,8 +454,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(Her aim time is on the slow side, but it's a passing grade. Anyway, I'm not here to appraise her performance...)",
 			typewriter = {
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "Oh boy, there they are again! I almost can't believe it!",
 			typewriter = {
 				speed = 0.05,
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -561,8 +561,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "I can't believe they just work, you know? Don't you think it's incredible stuff?",
 			typewriter = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "Then let me be amazed, dangit! Anyway, thanks a bunch! Time to give it another run!",
 			typewriter = {
 				speed = 0.05,
@@ -607,8 +607,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -620,8 +620,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(This isn't what I came here for! Heinrich distracted me. Again.)",
 			typewriter = {
@@ -637,8 +637,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Listen, before you do that, I must tell you about the test we have–",
 			typewriter = {
@@ -670,8 +670,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "(...It seems I must take a more blunt approach to get her attention.)",
 			typewriter = {
@@ -687,11 +687,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Prinz Heinrich, setting sail! First target to the– Oof! Owch!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,8 +702,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -712,11 +712,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/plane",
+			say = "Peter Strasser scrambles one of her aircraft and drops a miniature dummy round right onto Heinrich's head.",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
-			say = "Peter Strasser scrambles one of her aircraft and drops a miniature dummy round right onto Heinrich's head.",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,8 +730,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Hey! Oww! What the heck was that for?!",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -754,9 +754,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
+			dir = 1,
 			say = "Peter Strasser pulls out her pocket watch and looks at the hour hand before saying anything.",
 			typewriter = {
 				speed = 0.05,
@@ -803,8 +803,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Oh crap! THAT training! Come here, Eisen, we need to hurry to the maintenance area to get you in tip-top shape!",
 			typewriter = {
@@ -820,9 +820,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
 			blackBg = true,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Remember, Platform B3! And don't be late.",
 			typewriter = {

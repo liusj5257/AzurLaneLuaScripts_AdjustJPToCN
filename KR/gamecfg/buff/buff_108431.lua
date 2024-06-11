@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "巨坦强化组件",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 108431,
+	time = 0,
 	picture = "",
 	desc = "提高炮击属性",
 	stack = 1,
-	id = 108431,
+	color = "red",
 	icon = 108430,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 1000
+				number = 1000,
+				attr = "cannonPower"
 			}
 		}
 	}

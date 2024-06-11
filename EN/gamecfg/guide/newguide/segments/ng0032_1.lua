@@ -8,7 +8,13 @@ return {
 			},
 			ui = {
 				delay = 1,
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActAtelierBtn",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/activity/MainActAtelierBtn"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActAtelierBtn"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -18,13 +24,19 @@ return {
 				}
 			},
 			baseui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActAtelierBtn"
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/activity/MainActAtelierBtn"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActAtelierBtn"
+					end
+				end
 			},
 			style = {
 				text = "Time for a crash course on the Synthesis system, starting with recipes.",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = -277.2
 			}
 		},
@@ -54,8 +66,8 @@ return {
 			style = {
 				text = "To get materials from Gathering Sites, you first need a tool for the job.\nCraft all gathering tools and you'll even unlock new recipes!",
 				mode = 1,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = -122,
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/Top/FormulaList/Frame/ScrollView/Viewport/Content"

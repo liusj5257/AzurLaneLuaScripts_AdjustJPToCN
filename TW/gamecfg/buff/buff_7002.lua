@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "精英怪-强击",
 	time = 0,
+	name = "精英怪-强击",
+	init_effect = "",
 	picture = "",
 	desc = "精英怪-强击",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				group = 0,
-				attr = "cannonPower",
-				number = 200
+				number = 200,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				group = 0,
-				attr = "torpedoPower",
-				number = 200
+				number = 200,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				group = 0,
-				attr = "airPower",
-				number = 200
+				number = 200,
+				attr = "airPower"
 			}
 		},
 		{
@@ -49,8 +49,8 @@ return {
 			},
 			arg_list = {
 				group = 0,
-				attr = "antiAirPower",
-				number = 200
+				number = 200,
+				attr = "antiAirPower"
 			}
 		}
 	}

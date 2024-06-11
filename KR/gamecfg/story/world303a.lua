@@ -1,18 +1,18 @@
 return {
-	id = "WORLD303A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD303A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-3",
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "우와... 이거, 전부 세이렌의 잔불인가...",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "아무래도 늦은 것 같네. 좋은 구경을 놓쳤어.",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "에식스의 정찰 정보가 틀리지는 않았을 거야. 하지만 좀 이상하기는 하네.",
 			typewriter = {
 				speed = 0.05,

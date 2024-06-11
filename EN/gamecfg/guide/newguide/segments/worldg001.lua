@@ -18,8 +18,8 @@ return {
 			style = {
 				text = "Please select the faction you'd like to join.",
 				mode = 2,
-				posY = -189.51,
 				dir = -1,
+				posY = -189.51,
 				posX = 0
 			}
 		}

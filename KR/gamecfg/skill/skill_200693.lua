@@ -1,8 +1,8 @@
 return {
-	id = 200693,
-	name = "2023 闪乱联动 EX 终结技",
 	cd = 0,
+	name = "2023 闪乱联动 EX 终结技",
 	painting = 0,
+	id = 200693,
 	effect_list = {
 		{
 			target_choise = "TargetNil",

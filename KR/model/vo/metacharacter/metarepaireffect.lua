@@ -1,10 +1,10 @@
 slot0 = class("MetaRepairEffect", import("..BaseVO"))
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.ship_meta_repair_effect
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.progress = slot1.progress
@@ -20,19 +20,19 @@ function slot0.Ctor(slot0, slot1)
 	slot0.descs = ""
 end
 
-function slot0.getAttrAdditionList(slot0)
+slot0.getAttrAdditionList = function(slot0)
 	return slot0:getConfig("effect_attr")
 end
 
-function slot0.getAttrAddition(slot0, slot1)
+slot0.getAttrAddition = function(slot0, slot1)
 	return slot0.attrs[slot1] or 0
 end
 
-function slot0.getDescs(slot0)
+slot0.getDescs = function(slot0)
 	return slot0.descs
 end
 
-function slot0.getWords(slot0)
+slot0.getWords = function(slot0)
 	return slot0.words
 end
 

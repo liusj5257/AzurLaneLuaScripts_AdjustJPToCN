@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>제5화 - 도서관에선 조용히</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "……여기가, 학원의 도서관… 크네, 장서량도 기대해볼 만 하겠어.",
 			bgm = "story-nepu1",
+			actor = 10100030,
+			nameColor = "#92fc63",
+			say = "……여기가, 학원의 도서관… 크네, 장서량도 기대해볼 만 하겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "어떠신가요 블랑씨? 마음에 드시나요?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어떠신가요 블랑씨? 마음에 드시나요?",
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "레인져 선생님, 안녕하세요. 선생님은 어쩐 일이세요?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "레인져 선생님, 안녕하세요. 선생님은 어쩐 일이세요?",
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "──촤라라락!",
 			typewriter = {
 				speed = 0.05,
@@ -596,11 +596,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "어머, 도서관인데 좀 시끄럽네…… 다들, 무슨 일이야?",
 			typewriter = {
@@ -661,11 +661,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "으응, 좀 공부할 필요가 있지 않을까 해서.",
 			typewriter = {
@@ -710,11 +710,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307030,
 			actorName = "{namecode:93}",
 			say = "레인져 씨까지 다들 무슨 소릴 하는 거야… 하아, 나 정말 이대로 가다가 선생님 캐릭터가 굳어져 버리는 거 아닐까……?",
 			typewriter = {

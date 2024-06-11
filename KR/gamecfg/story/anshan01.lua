@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ANSHAN01",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ANSHAN01",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"안샨의 그림 교실\n\n<size=45>제1장 - 옛 창고의 유물</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "안샨급의~",
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#92fc63",
+			say = "안샨급의~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "글쎄, 뭐라고 할까~ 흐름에 맡기다 보니?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "글쎄, 뭐라고 할까~ 흐름에 맡기다 보니?",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "좋아, 그럼 물감을 모아보자~",
 			typewriter = {
 				speed = 0.05,

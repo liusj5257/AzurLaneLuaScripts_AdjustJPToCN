@@ -1,10 +1,10 @@
 slot0 = class("BuildShipPoolsPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BuildShipPoolsPageUI"
 end
 
-function slot0.RefreshActivityBuildPool(slot0, slot1)
+slot0.RefreshActivityBuildPool = function(slot0, slot1)
 	if underscore.detect(slot0.pools, function (slot0)
 		return slot0:IsActivity() and slot0.activityId == uv0.id
 	end) then
@@ -13,7 +13,7 @@ function slot0.RefreshActivityBuildPool(slot0, slot1)
 	end
 end
 
-function slot0.RefreshFreeBuildActivity(slot0)
+slot0.RefreshFreeBuildActivity = function(slot0)
 	for slot4, slot5 in pairs(slot0.freeActTimer) do
 		slot5:Stop()
 	end
@@ -32,11 +32,13 @@ function slot0.RefreshFreeBuildActivity(slot0)
 	end
 end
 
-function slot0.RefreshRegularExchangeCount(slot0)
-	slot0:UpdateRegularBuildPoolExchange(slot0.pool)
+slot0.RefreshRegularExchangeCount = function(slot0)
+	if slot0.pool then
+		slot0:UpdateRegularBuildPoolExchange(slot0.pool)
+	end
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.quickCount = slot0:findTF("gallery/res_items/item")
 	slot0.useItemTF = slot0:findTF("Text", slot0.quickCount)
 	slot0.freeCount = slot0:findTF("gallery/res_items/ticket")
@@ -109,7 +111,7 @@ function slot0.OnLoaded(slot0)
 	slot0.freeActTimer = {}
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.quickCount, function ()
 		shoppingBatch(61008, {
 			id = pg.shop_template[61008].effect_args[1]
@@ -122,7 +124,7 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	slot3 = getProxy(ActivityProxy)
 	slot0.pools = underscore.filter(slot1, function (slot0)
 		return tobool(uv1) == (uv0:getBuildPoolActivity(slot0) and slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD or false)
@@ -150,12 +152,13 @@ function slot0.Flush(slot0, slot1, slot2)
 
 		slot14 = slot13:Find("frame")
 
+		removeOnToggle(slot14)
+		triggerToggle(slot14, false)
 		onToggle(slot0, slot14, function (slot0)
 			if slot0 then
 				uv0:SwitchPool(uv1)
 			end
 		end, SFX_PANEL)
-		triggerToggle(slot14, false)
 
 		slot4[slot11:GetPoolId()] = slot13
 	end
@@ -188,7 +191,7 @@ function slot0.Flush(slot0, slot1, slot2)
 	end)
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot1 = _.select(slot0.pools, function (slot0)
 		return slot0:GetMark() == BuildShipPool.BUILD_POOL_MARK_NEW
 	end)
@@ -200,7 +203,7 @@ function slot1(slot0)
 	return slot1[1]
 end
 
-function slot0.GetActivePool(slot0, slot1, slot2)
+slot0.GetActivePool = function(slot0, slot1, slot2)
 	if not slot1 then
 		return nil
 	end
@@ -214,7 +217,7 @@ function slot0.GetActivePool(slot0, slot1, slot2)
 	end) or slot0.pools[1]
 end
 
-function slot0.AdjustToggleContainer(slot0)
+slot0.AdjustToggleContainer = function(slot0)
 	if not slot0.isInit then
 		slot1 = slot0.poolContainer.parent
 
@@ -231,7 +234,7 @@ function slot0.AdjustToggleContainer(slot0)
 	end
 end
 
-function slot0.UpdateArr(slot0, slot1)
+slot0.UpdateArr = function(slot0, slot1)
 	if slot1 <= 4 then
 		setActive(slot0.prevArr, false)
 		setActive(slot0.nextArr, false)
@@ -260,7 +263,7 @@ function slot0.UpdateArr(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.GetPoolTpl(slot0, slot1)
+slot0.GetPoolTpl = function(slot0, slot1)
 	assert(slot0[slot1 .. "PoolTpls"])
 
 	if #slot0[slot1 .. "PoolTpls"] <= 0 then
@@ -275,7 +278,7 @@ function slot0.GetPoolTpl(slot0, slot1)
 	end
 end
 
-function slot0.ActivePool(slot0)
+slot0.ActivePool = function(slot0)
 	slot1 = _.any(slot0.pools, function (slot0)
 		return slot0:IsActivity()
 	end)
@@ -303,12 +306,12 @@ function slot0.ActivePool(slot0)
 	end
 end
 
-function slot0.UpdateItem(slot0, slot1)
+slot0.UpdateItem = function(slot0, slot1)
 	setText(slot0.useItemTF, slot1)
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.UpdateTicket(slot0)
+slot0.UpdateTicket = function(slot0)
 	if getProxy(ActivityProxy):getBuildFreeActivityByBuildId(slot0.pool.id) and not slot2:isEnd() then
 		slot3 = Drop.New({
 			type = DROP_TYPE_VITEM,
@@ -348,7 +351,7 @@ function slot0.UpdateTicket(slot0)
 	setActive(slot0:findTF("gallery/item_bg/ticket"), slot0.useTicket)
 end
 
-function slot0.SwitchPool(slot0, slot1)
+slot0.SwitchPool = function(slot0, slot1)
 	slot0.pool = slot1
 	slot0.buildPainting = nil
 	slot3 = getProxy(ActivityProxy):getBuildPoolActivity(slot1)
@@ -391,7 +394,7 @@ function slot0.SwitchPool(slot0, slot1)
 			if getProxy(BuildShipProxy):getRegularExchangeCount() < pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_request or PlayerPrefs.GetString("REGULAR_BUILD_MAX_TIP", "") == pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") then
 				slot0()
 			else
-				function slot2(slot0)
+				slot2 = function(slot0)
 					PlayerPrefs.SetString("REGULAR_BUILD_MAX_TIP", slot0 and pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d") or "")
 				end
 
@@ -460,7 +463,7 @@ function slot0.SwitchPool(slot0, slot1)
 	end
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	if not slot0:IsActivity() then
 		return false
 	end
@@ -468,7 +471,7 @@ function slot2(slot0)
 	return pg.ship_data_create_exchange[slot0:GetActivityId()] and #slot1.exchange_ship_id > 0
 end
 
-function slot0.UpdateBuildPoolPaiting(slot0, slot1)
+slot0.UpdateBuildPoolPaiting = function(slot0, slot1)
 	slot2 = nil
 
 	if slot0.buildPainting then
@@ -484,7 +487,7 @@ function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 	end
 
 	if slot0.painting ~= slot2 then
-		function slot3()
+		slot3 = function()
 			uv0.painting = uv1
 		end
 
@@ -496,7 +499,7 @@ function slot0.UpdateBuildPoolPaiting(slot0, slot1)
 	end
 end
 
-function slot0.UpdateBuildPoolExchange(slot0, slot1)
+slot0.UpdateBuildPoolExchange = function(slot0, slot1)
 	slot2, slot3, slot4 = nil
 
 	if slot1:IsActivity() and pg.ship_data_create_exchange[slot1:GetActivityId()] then
@@ -534,7 +537,7 @@ function slot0.UpdateBuildPoolExchange(slot0, slot1)
 	setActive(slot0.buildPoolExchangeTF, slot5)
 end
 
-function slot0.UpdateRegularBuildPoolExchange(slot0, slot1)
+slot0.UpdateRegularBuildPoolExchange = function(slot0, slot1)
 	slot2 = slot1:getConfig("exchange_count") > 0
 
 	setActive(slot0.rtRegularExchange, slot2)
@@ -549,7 +552,7 @@ function slot0.UpdateRegularBuildPoolExchange(slot0, slot1)
 	end
 end
 
-function slot0.UpdateTestBtn(slot0, slot1)
+slot0.UpdateTestBtn = function(slot0, slot1)
 	slot2 = false
 
 	if PLATFORM_CODE ~= PLATFORM_JP and slot1:IsActivity() and not slot1:IsEnd() then
@@ -570,7 +573,7 @@ function slot0.UpdateTestBtn(slot0, slot1)
 	setActive(slot0.testBtn, slot2)
 end
 
-function slot0.AddActivityTimer(slot0, slot1)
+slot0.AddActivityTimer = function(slot0, slot1)
 	slot0:RemoveActivityTimer(slot1)
 
 	if slot1:IsActivity() then
@@ -587,7 +590,7 @@ function slot0.AddActivityTimer(slot0, slot1)
 	end
 end
 
-function slot0.RemoveActivityTimer(slot0, slot1)
+slot0.RemoveActivityTimer = function(slot0, slot1)
 	if slot0.activityTimer[slot1.id] then
 		slot0.activityTimer[slot1.id]:Stop()
 
@@ -595,7 +598,7 @@ function slot0.RemoveActivityTimer(slot0, slot1)
 	end
 end
 
-function slot0.RemoveAllTimer(slot0)
+slot0.RemoveAllTimer = function(slot0)
 	for slot4, slot5 in pairs(slot0.activityTimer) do
 		slot5:Stop()
 	end
@@ -609,7 +612,7 @@ function slot0.RemoveAllTimer(slot0)
 	slot0.freeActTimer = {}
 end
 
-function slot0.ShowOrHide(slot0, slot1)
+slot0.ShowOrHide = function(slot0, slot1)
 	if slot1 then
 		slot0:Show()
 	else
@@ -617,7 +620,7 @@ function slot0.ShowOrHide(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveAllTimer()
 
 	slot0.activityTimer = nil

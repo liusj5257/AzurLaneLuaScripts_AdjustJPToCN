@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>Chapter 2 - What You Need Is A CPU!</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "...I see. So in short, you came here from another dimension, correct?",
 			bgm = "story-nepu1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "...I see. So in short, you came here from another dimension, correct?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
+			say = "Yup, that's right! I'm Neptune, nice to meet you! Some people call me Nep-Nep, others call me Neppy, but you can call me whatever you want!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Yup, that's right! I'm Neptune, nice to meet you! Some people call me Nep-Nep, others call me Neppy, but you can call me whatever you want!",
+			actor = 10100010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "A CPU...? You don't look like a machine to me, though... Do you have any proof of that?",
 			typewriter = {
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100050,
+			nameColor = "#a9f548",
 			say = "...Phew. Having no shares makes it really difficult to remain in this form.",
 			flashout = {
 				dur = 0.5,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "Whoa! She actually transformed...!",
 			typewriter = {
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#a9f548",
 			say = "...No need to stay in CPU form now that I've proven myself! Anyway, we also fought those imposters earlier, but we don't have enough shares, so we couldn't use our powers like normal and we had to do the ole run for our lives act. Think you could help us out?",
 			flashout = {
 				dur = 0.5,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "I'm Ayanami... It's a pleasure.",
 			typewriter = {
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "So you came from another dimension, huh... I see that all the time in anime, so I think I understand.",
 			typewriter = {
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "...If possible, we'd like to find that out as well.",
 			typewriter = {
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "You can't fight on an empty stomach, as they say. We have some food if you'd like to eat.",
 			typewriter = {
@@ -570,11 +570,11 @@ return {
 			}
 		},
 		{
-			actor = 900077,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 900077,
 			actorName = "？？？",
 			say = "Oh my, aren't we all enjoying ourselves? Would you mind if I joined in on the fun?",
 			typewriter = {
@@ -587,13 +587,13 @@ return {
 			}
 		},
 		{
-			actor = 900076,
+			say = "Finally, there you are... If only you'd looked for us as much as we looked for you...",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900076,
 			actorName = "？？？",
-			say = "Finally, there you are... If only you'd looked for us as much as we looked for you...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -624,12 +624,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "Vert? And Blanc? How in this world did you end up here?!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Vert? And Blanc? How in this world did you end up here?!",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -660,12 +660,12 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
+			say = "I knew it, Vert and Blanc are here too! Let me guess: you guys had no idea where the academy was and you were floating around in the ocean up until now?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "I knew it, Vert and Blanc are here too! Let me guess: you guys had no idea where the academy was and you were floating around in the ocean up until now?",
+			actor = 10100010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -824,13 +824,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "Now there are 4 of them, and 4 of us...",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
-			say = "Now there are 4 of them, and 4 of us...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

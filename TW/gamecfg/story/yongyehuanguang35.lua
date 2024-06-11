@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG35",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG35",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "哈哈哈哈，剛才的囂張勢頭哪裡去了？怎麼現在就只有亂跑的份啊！",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "清除者的光束在海面上肆無忌憚的掃射著，英勇和豪則一面與之周旋，一面等待著必殺的時機。",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "原來如此，在主武器開火的短時間內沒辦法移動。勝機就在這裡了…英勇，你覺得呢？",
 			typewriter = {
 				speed = 0.05,
@@ -81,14 +81,14 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "哦？居然大剌剌地靠過來了…看來在認清楚實力差距以後，終於放棄無謂的掙扎了啊。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "......我承認，之前確實小看你了。就算看上去再不靠譜，到底是塞壬的高級型號…",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,9 +171,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哼…太天真了！",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 0.5,
 					x = -2500
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "清除者瞄準停留在不遠處的英勇啟動了主炮，可是光束卻在命中前的千鈞一髮之際被勉強躲開了。",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 2500
@@ -263,8 +263,8 @@ return {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "…糟了！",
 			dialogShake = {
 				speed = 0.09,
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_6",
+			dir = 1,
 			say = "由於清除者將全部注意力都放在了面前的英勇身上，當發現從側面高速襲來的豪時已經太遲了。",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "清除者",
+			side = 1,
 			bgName = "bg_hms_6",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "英勇",
+			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -327,9 +327,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_6",
+			dir = 1,
 			say = "清除者試圖通過強行終止主炮的發射程序來進行緊急迴避，但是在那之前豪的劍已經深深刺入了清除者的艦裝內。",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "豪",
+			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
+			side = 1,
 			bgName = "bg_hms_6",
-			actorName = "清除者",
 			dir = 1,
+			actorName = "清除者",
 			say = "…可惡！啊啊啊啊啊！！！I'll be bac...k......",
 			dialogShake = {
 				speed = 0.09,
@@ -378,10 +378,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "艦裝的破損引起了尚且停留在發射系統中的能量洩露。在一連串小爆炸之後，一聲巨大的爆炸響徹海面，硝煙過後清除者已經從海面上完全消失了.",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "艦裝的破損引起了尚且停留在發射系統中的能量洩露。在一連串小爆炸之後，一聲巨大的爆炸響徹海面，硝煙過後清除者已經從海面上完全消失了.",
 			effects = {
 				{
 					active = true,
@@ -438,8 +438,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "咳、咳咳...這威力真夠誇張的......果然這種戰術還是不能輕易使用啊…英勇？",
 			typewriter = {
 				speed = 0.05,
@@ -454,8 +454,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "又報廢了一座主炮而已，我沒事。反正回去之後肯定要大修了，怎麼修不一樣是修。",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "豪…視界內和雷達上都找不到清除者的蹤影了！",
 			typewriter = {
 				speed = 0.05,
@@ -485,9 +485,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "好，剩下的殘敵就交給我們，妳好好休息吧，英勇。",
 			effects = {
 				{

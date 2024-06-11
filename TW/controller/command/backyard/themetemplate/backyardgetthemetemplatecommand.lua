@@ -1,11 +1,11 @@
 slot0 = class("BackYardGetThemeTemplateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
 	slot5 = getProxy(DormProxy)
 
-	function slot6(slot0, slot1)
+	slot6 = function(slot0, slot1)
 		if uv0 == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
 			slot2 = {}
 			slot3 = ipairs
@@ -57,14 +57,14 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
-	function slot7(slot0)
+	slot7 = function(slot0)
 		uv0:sendNotification(GAME.BACKYARD_GET_IMG_MD5, {
 			type = uv1,
 			callback = slot0
 		})
 	end
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		seriesAsync({
 			function (slot0)
 				uv0(uv1, slot0)

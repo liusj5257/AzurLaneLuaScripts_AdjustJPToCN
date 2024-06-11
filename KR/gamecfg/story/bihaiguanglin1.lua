@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "다카르 항·사쿠라 엠파이어의 쉼터",
 			side = 2,
 			bgName = "bg_port_dakaer",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-IJNdailymeeting",
+			hidePaintObj = true,
+			say = "다카르 항·사쿠라 엠파이어의 쉼터",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "하늘 기원제의 답례라느니... 후후후.",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "예의를 갖추는 것은 문제가 되지 않지. 나 역시 메탈 블러드의 부유섬 요새에 관심이 많으니까. ",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "하지만 시간이 참 공교롭네.",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "괜찮아. 핵심 구역에 먼저 들어가지 못한 것은 아쉽지만, 그것조차 이번 원정에서는 사소한 문제일 뿐이니까.",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,8 +218,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "친구의 초대를 거절하는 것은 실례지. 알겠다고 해.",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "이번에는 다른 사람을 보내야겠지. 어쨌든 단순한 답례성 방문이니까. ",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "적당하다 못해 과한 느낌이지... 이런 작은 일에 야마토가 직접 나설 필요은 없어.",
 			typewriter = {
@@ -349,8 +349,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "이번 원정의 여러 일을 무사시가 후방에서 담당하고 있기 때문에 보낸다면 후속 작전에 영향이 생길 거야.",
 			typewriter = {
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "건, 건의드립니다! 미카사 대선배님은 어떤가요?!",
 			typewriter = {
 				speed = 0.05,
@@ -379,8 +379,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "... 제정신이니? 대선배를 보내서 뭘 어쩔려고?!",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "한직에 있는 지금도 골치가 아픈데, 정식 직위를 준다면...",
 			typewriter = {
@@ -442,8 +442,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "나가토 님도 안돼! 사쿠라 엠파이어 연합 함대에서 사람을 바꾸는 문제만이 아니야.",
 			typewriter = {
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "에?! 나가토 님을 추천하려고 한 걸 어떻게 아셨죠?!",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,8 +485,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "일단 그 입 좀 다물어줄래...",
 			typewriter = {
@@ -534,8 +534,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "시나노인가... 지금 본섬에서 쉬고 있는 데다 한가한 상태지요. 그리고... 좋아요, 시나노를 보내겠어요.",
 			typewriter = {
@@ -567,8 +567,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#a9f548",
 			say = "그리고 우리는... 후후, 다음 작전을 시작할 때군요.",
 			typewriter = {
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「산의 저편, 바다의 저편에 용궁이 있다.」</size>",
@@ -607,8 +607,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「……」</size>",
@@ -637,12 +637,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

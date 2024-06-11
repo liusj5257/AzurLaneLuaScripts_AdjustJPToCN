@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.guild_facility_template = {
 	{
-		id = 1,
 		name = "石油仓库",
-		icon = "eventtype/faxiankuangmai",
 		type = 1,
+		id = 1,
+		icon = "eventtype/faxiankuangmai",
 		buffs = {},
 		levels = {
 			{
@@ -26,10 +26,10 @@ pg.guild_facility_template = {
 		}
 	},
 	{
-		id = 2,
 		name = "金币仓库",
-		icon = "eventtype/guanjianyishi",
 		type = 2,
+		id = 2,
+		icon = "eventtype/guanjianyishi",
 		buffs = {},
 		levels = {
 			{
@@ -51,10 +51,10 @@ pg.guild_facility_template = {
 		}
 	},
 	{
-		id = 3,
 		name = "火力研究",
-		icon = "eventtype/guanjianyishi",
 		type = 3,
+		id = 3,
+		icon = "eventtype/guanjianyishi",
 		buffs = {
 			1012
 		},

@@ -12,12 +12,12 @@ return {
 	desc_get = "在队伍中(存活)时降低轻母、航母受到的伤害",
 	name = "远东的羁绊",
 	init_effect = "",
+	id = 12000,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "队伍中(存活)时降低轻母、航母受到的伤害$1",
 	stack = 1,
-	id = 12000,
+	color = "yellow",
 	icon = 12000,
 	last_effect = "",
 	effect_list = {
@@ -55,8 +55,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 12001,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

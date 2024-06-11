@@ -121,15 +121,15 @@ slot2 = {
 	"antiair"
 }
 
-function slot0.Type2Name(slot0)
+slot0.Type2Name = function(slot0)
 	return pg.equip_data_by_type[slot0].type_name
 end
 
-function slot0.Type2Name2(slot0)
+slot0.Type2Name2 = function(slot0)
 	return pg.equip_data_by_type[slot0].type_name2
 end
 
-function slot0.type2Tag(slot0)
+slot0.type2Tag = function(slot0)
 	if not uv0.tagPrints then
 		uv0.tagPrints = {
 			"4",
@@ -159,11 +159,11 @@ function slot0.type2Tag(slot0)
 	return uv0.tagPrints[slot0]
 end
 
-function slot0.getCompareGroup(slot0)
+slot0.getCompareGroup = function(slot0)
 	return pg.equip_data_by_type[Equipment.getConfigData(slot0).type].compare_group
 end
 
-function slot0.type2Title(slot0, slot1)
+slot0.type2Title = function(slot0, slot1)
 	if slot1 <= 4 then
 		return uv0[slot0]
 	elseif slot1 == uv1.Torpedo then
@@ -206,7 +206,7 @@ slot6 = {
 	18
 }
 
-function slot7(slot0)
+slot7 = function(slot0)
 	if _.all(slot0, function (slot0)
 		return table.contains(uv0, slot0)
 	end) then
@@ -230,7 +230,7 @@ function slot7(slot0)
 	return ""
 end
 
-function slot8(slot0, slot1)
+slot8 = function(slot0, slot1)
 	if _.all(slot1, function (slot0)
 		return table.contains(uv0, slot0)
 	end) and _.is_equal(slot0, slot1) then
@@ -258,7 +258,7 @@ function slot8(slot0, slot1)
 	return ""
 end
 
-function slot9(slot0)
+slot9 = function(slot0)
 	if _.all(slot0, function (slot0)
 		return table.contains(uv0, slot0)
 	end) then
@@ -284,7 +284,7 @@ function slot9(slot0)
 	return ""
 end
 
-function slot0.Types2Title(slot0, slot1)
+slot0.Types2Title = function(slot0, slot1)
 	slot3 = pg.ship_data_template[slot1]["equip_" .. slot0]
 
 	if slot0 == 1 then
@@ -298,7 +298,7 @@ function slot0.Types2Title(slot0, slot1)
 	end
 end
 
-function slot0.LabelToName(slot0)
+slot0.LabelToName = function(slot0)
 	if slot0 == "antiair" then
 		slot0 = "air_defense_artillery"
 	elseif slot0 == "equipment" then

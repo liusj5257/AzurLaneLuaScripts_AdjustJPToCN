@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10600030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_boss",
 			dir = 1,
 			say = "I wasn't expecting an easy fight against a renowned shipgirl... but I refuse to lose! Now's my chance to deliver the decisive strike!",
+			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The crowd breaks into a cheer at the display of perfect offense and defense.",
 			flashin = {
 				delay = 0.2,
@@ -81,8 +81,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600030,
 			dir = 1,
+			actor = 10600030,
 			say = "Heheh, you're pretty good too! Not only are you super cute, but you've also got some serious skill to boot~",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "Heheh~ How about participating in the Venus Festival along with us, Takao?",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600070,
 			dir = 1,
+			actor = 10600070,
 			say = "No, I mean it! Come on, how about playing us in a serious match of beach volleyball?",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

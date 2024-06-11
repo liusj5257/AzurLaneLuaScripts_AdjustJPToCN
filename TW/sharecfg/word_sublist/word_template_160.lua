@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_160 = {}
 slot1 = slot0.word_template_160
 
-function temp()
+temp = function()
 	uv0["菅"] = {
 		["野"] = {
 			["亚"] = {
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["办"] = {
 		["假"] = {
 			["证"] = {
@@ -80,7 +80,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雙"] = {
 		["管"] = {
 			["獵"] = {
@@ -178,7 +178,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["猎"] = {
 		["枪"] = {
 			q = {

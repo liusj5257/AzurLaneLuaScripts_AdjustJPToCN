@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "With that chance encounter came exciting new vibes to the port. Now that the Venus girls have time for a vacation, how will they spend it?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,15 +50,15 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			bgName = "star_level_bg_106",
+			bgm = "doa_story1",
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "Come one, come all to Akashi's Crepe Stand! We've got more flavors than you can shake a stick at! You name it, we have it!",
-			bgm = "doa_story1",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "Heck yeah we are! I didn't expect them to be such a smash hit.",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "Hey! What can I ge– Oh, hi, big sis! And the Commander, too! Fancy seeing you two together.",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "W-we just... ran into each other, that's all! Nothing more to it!",
 			effects = {
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Here I am, with Nagisa, at her sister's crepe stand. You're probably wondering how I ended up in this situation.",
 			effects = {
 				{
@@ -236,14 +236,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900304,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900304,
+			nameColor = "#a9f548",
 			say = "Hey, why don't we go for some crepes?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Why crepes, in particular?",
 			typewriter = {
@@ -306,10 +306,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900304,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900304,
+			nameColor = "#a9f548",
 			say = "A-anyway! I'm in the mood for one! So, do you want to go, or not? I don't have all day... silly dog.",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Ah, so she wants to check on Misaki. What a considerate big sister she has.",
 			typewriter = {
@@ -345,13 +345,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "...And the rest is history.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -401,8 +401,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "Whichever you order, I promise they're all delicious! My personal favorite might be the mango vanilla, though~",
 			typewriter = {
@@ -415,9 +415,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "That sounds pretty good, actually.",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "Well, if you think it's good, then I guess...",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "We pretty much have to go for it.",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "Coming right up! ...Hey, something you wanna say, big sis? Is there something on my face?",
 			typewriter = {
@@ -518,8 +518,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "I told you! We simply ran into each other... Come here now, silly dog. We're leaving.",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -558,9 +558,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Nagisa and I bid farewell to them and go for a brief walk.",
 			typewriter = {
 				speed = 0.05,
@@ -575,8 +575,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "Listen... I was so worried if Misaki would be okay when we first arrived here...",
 			typewriter = {
@@ -608,8 +608,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "...What? What are you grinning for, you silly dog?!",
 			typewriter = {

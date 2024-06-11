@@ -1,15 +1,15 @@
 return {
-	id = "HOLOGUANQIA16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-ayame",
 			say = "On the horizon – across the many islands scattered about the Mirror Sea – sits an isolated castle. Its structure wooden, its surroundings silent.",
+			side = 2,
+			dir = 1,
+			bgm = "holo-ayame",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Its purpose, unclear. Perhaps to defend a strategic position, or symbolize its owner's control over the area.",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Regardless, the Sirens have their destructive eyes fixated upon it.",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "And soon, it might fall to ruin by their hand.",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			say = "I thought we'd be safe in your castle, but it seems I've been proven wrong...",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			say = "Ay only come to this server to build things! Why must such wanton destruction befall my creations?!",
 			typewriter = {
 				speed = 0.05,
@@ -108,9 +108,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Sirens...? You mean the ones from that game Fubuki plays?",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,9 +134,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Are you saying that this is a video game world?!",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			say = "We need to get out of here! Ayame, why would you make a castle this big without constructing a secret escape route?!",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			say = "Twas designed with everyday activities in mind! 'Tis for raising animals, growing crops, and lounging around!",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Ay never suspected a siege to happen, much less there be a need for a hidden passage!",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,8 +219,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			say = "Welp... We're screwed, then.",
 			typewriter = {
 				speed = 0.05,
@@ -249,9 +249,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900214,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Excuse me?! You two against an army?",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,9 +275,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900213,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Well said! Ay shall join them! These \"Sirens\" shall learn the sharpness of my blades!",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -332,8 +332,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			say = "B-but...",
 			typewriter = {
 				speed = 0.05,

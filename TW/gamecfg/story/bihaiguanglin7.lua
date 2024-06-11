@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "在一陣持久而又劇烈的晃動結束後，龍宮城終於停止了下沉。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "在一陣持久而又劇烈的晃動結束後，龍宮城終於停止了下沉。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,8 +36,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "究竟下沉了多深呢……已經完全見不到透下來的陽光了。",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "還好結界堅固牢靠，內部完全沒有進水，暫時安全！",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（不幸中的萬幸！）",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "對外聯絡已經完全中斷了。由良，妳覺得這個結界是某種鏡面海域嗎？",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "唔……結界應該就是單純的結界，和我們在重櫻本島設置的那些沒什麼區別……",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "能夠在水下維持的結界我可來沒聽說過，難道是塞壬的改良版嗎……有趣。",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "這麼說來，聯絡中斷只是單純在海中下沉的太深了啊。",
 			typewriter = {
@@ -155,10 +155,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "築摩閣下，由良小姐，駿河閣下！有人能收到嗎！",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "首先先想辦法彙合吧。龍宮城已經被結界封閉，只能尋找到路從內部穿行了。",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "很好，這樣偵察力量就十分充足了。匯合點要不然就定在——",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -454,8 +454,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（不對，絕對很奇怪吧！剛才頻道裡可是出現了可疑的謎之音啊？！）",
 			typewriter = {
@@ -490,8 +490,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "絕對不要。",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "不用這麼嚴肅嘛，駿河，小小比賽一下不是挺有趣的嗎？航道看起來也很合適，如果能節約時間的話就能更早匯合了。",
 			typewriter = {
@@ -559,8 +559,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "沒問題~",
 			typewriter = {
@@ -576,10 +576,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "太好了~那我這邊就是島風隊！島風隊全員聽令！全軍出擊！",
 			typewriter = {
 				speed = 0.05,
@@ -594,11 +594,11 @@ return {
 			paintingNoise = true,
 			side = 0,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
-			dir = 1,
-			actorName = "{namecode:208}&{namecode:207}",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 307120,
+			actorName = "{namecode:208}&{namecode:207}",
 			say = "全軍出擊！",
 			subActors = {
 				{
@@ -641,9 +641,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
 			blackBg = true,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "築摩隊！全軍，出擊~！",
 			typewriter = {

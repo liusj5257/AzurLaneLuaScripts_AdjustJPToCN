@@ -1,19 +1,19 @@
 return {
-	id = "WORLD105C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105C",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/41/tb-41",
+			dir = 1,
 			bgm = "story-richang",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Scan complete. Attention: detecting distant Siren signal. Proceed with caution.",
-			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "Geesh. We only just got here, and they're already starting to swarm us.",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Something big...",
 			typewriter = {
 				speed = 0.05,
@@ -98,12 +98,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
 			actor = 107060,
 			nameColor = "#a9f548",
+			bgName = "bg_banama_2",
 			say = "What... is this? What are these dark shapes?",
 			effects = {
 				{
@@ -155,8 +155,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "Logged data? Memories? Whose? And from when?",
 			typewriter = {
@@ -217,13 +217,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Enterprise? Do you hear me? What’s wrong?",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "story-richang",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "Enterprise? Do you hear me? What’s wrong?",
 			effects = {
 				{
 					active = false,

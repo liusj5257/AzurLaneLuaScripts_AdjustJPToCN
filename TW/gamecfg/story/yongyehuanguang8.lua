@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ff5c5c",
 			side = 2,
 			bgName = "bg_hms_3",
-			say = "？？？·？？？",
 			dir = 1,
 			bgm = "bsm-5",
+			nameColor = "#ff5c5c",
+			say = "？？？·？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "希佩爾",
+			side = 1,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "歐根親王",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
+			side = 1,
 			bgName = "bg_hms_3",
-			actorName = "希佩爾",
 			dir = 1,
+			actorName = "希佩爾",
 			say = "哈？！「幻光」行動，這麼重要的作戰居然找妳當旗艦指揮，我怎麼可能不著急啊！",
 			dialogShake = {
 				speed = 0.09,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "歐根親王",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "歐根親王",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "德意志",
+			side = 2,
 			bgName = "bg_hms_3",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "終於可以起航了嗎...太慢了，歐根！我已經等的不耐煩啦！",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "格奈森瑙",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "沙恩霍斯特",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "斯佩伯爵",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "鐵必制",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "歐根親王",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "歐根親王",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "歐根親王",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "歐根親王",
+			side = 2,
 			bgName = "bg_hms_3",
 			nameColor = "#ff5c5c",
 			dir = 1,

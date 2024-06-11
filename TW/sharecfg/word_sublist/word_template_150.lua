@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_150 = {}
 slot1 = slot0.word_template_150
 
-function temp()
+temp = function()
 	uv0["瓦"] = {
 		["斯"] = {
 			["手"] = {
@@ -96,7 +96,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["负"] = {
 		["面"] = {
 			["信"] = {
@@ -154,7 +154,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["水"] = {
 		["军"] = {
 			["军"] = {
@@ -247,7 +247,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["氯"] = {
 		["胺"] = {
 			["酮"] = {

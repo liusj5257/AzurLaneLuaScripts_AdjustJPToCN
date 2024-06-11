@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG19",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "(똑똑)",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-kannjouLOYALTY-inst",
+			say = "(똑똑)",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,9 +39,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "2차 μ장비 테스트 전, 모항 지휘실",
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "손에는 실험 실습—— 아니, 현장 이벤트의 실시 개요와 μ장비 분석 보고서가 들려 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이벤트 시작 전, 같은 유형의 장비를 각 진영에 지급할 예정이다.",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "물론, 이 이벤트를 준비하기 위해서 각 유형별「μ장비」를 지급하자고 제안한 것은 나 자신이다.",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "목적은 간단하다. 「μ장비」 테스트를 핑계로 각 진영의 교류를 촉진하려는 것이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이상한 것은 각 장비마다 별도의 사이즈가 있다는 것이었다. 그렇기 때문에 그룹 멤버를 정하는 방법이 조금 골치 아팠다.",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이제, 설명을 할 시간이다——",
 			typewriter = {
 				speed = 0.05,
@@ -169,13 +169,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
+			dir = 1,
 			say = "모항・라이브 현장",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "뭐, 뭐라고냥? 「μ장비」 테스트 중에…… 제대로 한판 할 생각인 거다냥?!",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,13 +282,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 307110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "전투 여부를 떠나서, 무대는 「가장 빛나는 사람」을 정하기 위한 곳 아닌가요? 그러니, 우리도 이 무대에서 승부를 가리도록 하지요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -316,8 +316,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			say = "다른 사람도, 관중도 모두 사라진다면 누가 더 빛나는지 결정할 필요도 없겠지요?",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403080,
 			dir = 1,
+			actor = 403080,
 			say = "네, 맞아요~ 깜짝 놀랐죠?",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			say = "(론, 저도 깜짝 놀랐잖아요!)",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			say = "정말이지, 우리까지 놀랐잖아.",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "볼티모어(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "타슈켄트(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "다이도(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "알바코어(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "다이호(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "거절할게요! ……오시죠, 이게 마지막 무대니까요!",
 			typewriter = {
 				speed = 0.05,

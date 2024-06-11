@@ -1,6 +1,6 @@
 slot0 = class("ChangePlayerIconCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.characterId
 	slot5 = slot2.skinPage
@@ -65,7 +65,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.UpdayePlayerCharas(slot0, slot1)
+slot0.UpdayePlayerCharas = function(slot0, slot1)
 	slot3 = getProxy(BayProxy):getShipById(slot1[1])
 	slot0.character = slot1[1]
 	slot0.characters = slot1

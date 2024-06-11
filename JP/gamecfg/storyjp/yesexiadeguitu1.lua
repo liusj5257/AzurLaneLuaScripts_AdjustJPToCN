@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU1",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ダンケルクさん、そろそろ出発するよ",
-			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "私のことなら平気よ。修理は終わっているし、一人でも…",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "ダメダメ。あれはあくまでも緊急修理だから、しっかりおうちに戻って休まないと",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "ほら、ヴィシアと鉄血、ロイヤルのことがあるから、ダンケルクさんを送り届けるチャンスを何ヶ月も待ってたよ",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "ただの冗談だって！気にしないで！",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "改めて、護衛よろしくね。ヴォークラン",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "（ヴォークラン、みんなが待ってたというけど、ダンケルクさんはもっと待っていましたよ…それに…)",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "（んー…ダンケルクさんを説得するには…んーんー…）",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 		{
 			actor = 900236,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "タルテュ！",
 			dialogShake = {
 				speed = 0.09,
@@ -278,9 +278,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 901020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うーん？",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,8 +305,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "また急に何を考え込んでるの…全く",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "ケルサンとフグ―たちの準備も終わってるから、あとはタルテュの準備を待つだけなんだけど…",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "私も準備はできていますよ？",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			actor = 900236,
 			side = 2,
 			expression = 9,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "もうそれなら早く言ってよね…はい、というわけでもう一回任務内容を整理するね！",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			actor = 900236,
 			side = 2,
 			expression = 6,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "途中で隠れられる場所といえばバレアレス諸島しかないし、ロイヤル艦隊の巡回もある",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			actor = 900236,
 			side = 2,
 			expression = 5,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "アイリスとはあんまり戦う気にならないけど…もし出くわしたら…",
 			typewriter = {
 				speed = 0.05,
@@ -431,8 +431,8 @@ return {
 			expression = 9,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "出会ったらどうすべきか…タルテュ！",
 			typewriter = {
 				speed = 0.05,
@@ -461,9 +461,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "タルテュ…また一人で考え込んでる！",
 			typewriter = {
 				speed = 0.05,
@@ -475,8 +475,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -488,8 +488,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "あ…トゥーロンまでの航路をどうしたらいいかなって考えていました…",
 			typewriter = {
 				speed = 0.05,
@@ -504,8 +504,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "いやいや、それ今言ったじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -534,9 +534,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そ・う・で・す・よ！",
 			typewriter = {
 				speed = 0.05,
@@ -548,8 +548,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -561,8 +561,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "まあ、タルテュのペースに乗せられたわたしが悪かったわ",
 			typewriter = {
 				speed = 0.05,
@@ -592,8 +592,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "はい、わかりました",
 			typewriter = {
 				speed = 0.05,
@@ -623,8 +623,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "ええ、本当に戦う必要があったら私も協力するわ",
 			typewriter = {
 				speed = 0.05,

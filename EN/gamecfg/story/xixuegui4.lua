@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Angel or Devil in White?\n\n<size=45>Chapter 4 - Emergency?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "Huh...? I'm bothering others...?",
 			typewriter = {
@@ -63,20 +63,20 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 203010,
+			say = "Well, I wouldn't say bothering, but there are some who are concerned about you...",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Well, I wouldn't say bothering, but there are some who are concerned about you...",
+			actor = 203010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -94,8 +94,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "...",
 			typewriter = {
@@ -111,8 +111,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "I see... so I'm the bad guy here...",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "No, even I know that I'm the one at fault here...",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "I can't even do the basics properly, and who needs a nurse like that... I suppose I'll return this outfit to Akashi and apologize to everyone...",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#a9f548",
 			say = "Commander, there's trouble!!",
 			effects = {
 				{
@@ -221,8 +221,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#a9f548",
 			say = "Mutsuki got sick all of a sudden! Wh-what should we do?",
 			typewriter = {
 				speed = 0.05,
@@ -255,14 +255,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					number = 3
@@ -275,8 +275,8 @@ return {
 			bgName = "bg_story_task",
 			actor = 201232,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "What?!",
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = false,
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "... London, can I wait a little bit to return this outfit?",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "All right...! London, please call Akashi and Vestal. Commander and I will go see Mutsuki. Is that fine?",
 			typewriter = {
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			actor = 201232,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201232,
+			nameColor = "#a9f548",
 			say = "Let's go, Commander! We can't keep the patient waiting!",
 			typewriter = {
 				speed = 0.05,

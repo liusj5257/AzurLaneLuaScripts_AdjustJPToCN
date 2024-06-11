@@ -4,13 +4,13 @@ slot1 = class("BattleCardPuzzleFleetBuffAddBuff", slot0.Battle.BattleFleetBuffEf
 slot0.Battle.BattleCardPuzzleFleetBuffAddBuff = slot1
 slot1.__name = "BattleCardPuzzleFleetBuffAddBuff"
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	slot0._tempData = Clone(slot1)
 
 	slot0:SetActive()
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	uv0.super.SetArgs(slot0, slot1, slot2)
 
 	slot0._buffID = slot0._tempData.arg_list.buff_id
@@ -21,7 +21,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	})[1]
 end
 
-function slot1.onTrigger(slot0)
+slot1.onTrigger = function(slot0)
 	slot1 = {}
 	slot2 = slot0._targetParam
 

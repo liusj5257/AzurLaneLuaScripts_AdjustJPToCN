@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
-			say = "The deeper into the forest we go, the more winding the path becomes. The woods are like a maze.",
 			bgm = "theme-camelot",
+			say = "The deeper into the forest we go, the more winding the path becomes. The woods are like a maze.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "Fortunately, my skills save the day. They identify the correct path to take at every fork in the road.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "Cutting through a grove, we come upon a clearing amongst the trees.",
 			typewriter = {
@@ -54,10 +54,10 @@ return {
 		{
 			portrait = 131171,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "Legendary Mage",
 			dir = 1,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_518",
 			actorName = "Laffey",
 			say = "Zzzzz... Mmh...",
 			painting = {
@@ -69,17 +69,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Could be. What do you all think?",
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Interesting... Then we've found our mage.",
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But why is she sleeping on the ground, defenseless? I dunno if someone so careless is of any use to us.",
@@ -278,9 +278,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "Legendary Mage",
 			dir = 1,
+			bgName = "star_level_bg_518",
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -294,17 +294,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -407,11 +407,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "See? I told you she wouldn't be of any use.",
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "I activate my skill, and a flood of information about the mage fills my interface.",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"Laffey the Mage - Race: Planet Bunnyian\"",
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"A member of the legendary hero's party that is said to have slayed the Demon King a thousand years ago.\"",
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"Status: Cursed\"",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"Status Name: Curse of Sloth\"",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"A curse left by the Demon King. It locks the target in a cycle of endlessly repeating the past in their mind until their sanity is engulfed by negativity.\"",
@@ -560,8 +560,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
 			say = "\"Dispelling Method: Unknown.\"",
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "She's been cursed? All this time?",
@@ -609,11 +609,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "A thousand years ago she beat the Demon King, and that curse still haunts her...",
@@ -627,11 +627,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I can't imagine what it's like to suffer for a whole millennium.",
@@ -695,11 +695,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hang on a minute, there's a plate next to her! I think someone has been regularly coming by to leave food for her.",
@@ -732,8 +732,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "That's not all. In addition to the plate of food, there is also a handful of medicinal potions lying around.",
 			typewriter = {
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hey, aren't you that mechanic we met in the Royal Capital?",
@@ -778,11 +778,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What are you doing here? Are you stalking the Commander or something?!",
@@ -798,9 +798,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_518",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			bgName = "star_level_bg_518",
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -814,17 +814,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -851,11 +851,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I was worried you'd get hurt, so I followed you just in case.",
@@ -939,11 +939,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It seems she's been trying to lift the curse in the only way she knows how.",
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Church of Steel Mechanic",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Although, the other day, she did say her next potion was bound to finally work.",
@@ -1013,11 +1013,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You said she lives in a nearby village, right? Sounds like a lead worth pursuing.",
@@ -1031,11 +1031,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Commander, let's go find her!",
@@ -1049,8 +1049,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

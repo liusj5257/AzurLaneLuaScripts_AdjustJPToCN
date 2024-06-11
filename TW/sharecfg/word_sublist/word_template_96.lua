@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_96 = {}
 slot1 = slot0.word_template_96
 
-function temp()
+temp = function()
 	uv0["偷"] = {
 		["窥"] = {
 			this = true,
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["豪"] = {
 		["乳"] = {
 			this = true
@@ -60,7 +60,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["脱"] = {
 		["内"] = {
 			["裤"] = {
@@ -72,7 +72,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["浪"] = {
 		["叫"] = {
 			this = true

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"正月の祝福\n\n<size=45>一 キッチンのドタバタ騒ぎ</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "母港・重桜寮 ",
 			dir = 1,
 			bgmDelay = 2,
+			blackBg = true,
 			bgm = "main-newyear",
+			say = "母港・重桜寮 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -79,11 +79,11 @@ return {
 			}
 		},
 		{
-			actor = 301141,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301141,
+			nameColor = "#a9f548",
 			say = "わぅ！お餅だ！早く食べさせろ！……ってなんでかコタツから出られないぜ……うぅ……",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -201,15 +201,15 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "うわっ！なんか服についちゃった！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "力を入れすぎだってば！混ぜる必要はあるけど、そんなに力入れてこぼれてしまったらしょうがないじゃない！",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "力を入れすぎだってば！混ぜる必要はあるけど、そんなに力入れてこぼれてしまったらしょうがないじゃない！",
+			actor = 301590,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#a9f548",
 			say = "あれはまだ未完成よ！それに一着しか作ってないし……",
 			typewriter = {
 				speed = 0.05,
@@ -328,8 +328,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.4,
 					x = 22.5,
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#a9f548",
 			say = "はいはい、分かったわよ！もう、ドジしたのは磯風なのになんで私が言われなきゃならないのよ……",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -382,14 +382,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 301601,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ジャジャーン！浦風さまの作った服、可愛くてピッタリだぞ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -494,12 +494,12 @@ return {
 			}
 		},
 		{
-			actor = 301601,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301601,
+			nameColor = "#a9f548",
 			say = "じゃあ磯風たちは先に退散するぞ！お雑煮ができたらまた配るのを手伝うから！",
 			typewriter = {
 				speed = 0.05,

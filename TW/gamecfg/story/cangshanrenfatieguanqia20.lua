@@ -1,25 +1,25 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA20",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "風雲城天守閣內",
-			blackBg = true,
+			nameColor = "#A9F548FF",
 			bgm = "sk-az-battle-2",
+			blackBg = true,
+			say = "風雲城天守閣內",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "————砰！",
 			typewriter = {
@@ -46,10 +46,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 11000010,
-			nameColor = "#A9F548FF",
 			dir = 1,
 			blackBg = true,
+			actor = 11000010,
+			nameColor = "#A9F548FF",
 			say = "等等，曉醬！那裡……有人在！！",
 			painting = {
 				alpha = 0.3,
@@ -75,9 +75,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_111",
 			actor = 11000050,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "…………",
 			painting = {
@@ -89,17 +89,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -110,8 +110,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "雪不歸小姐！？",
 			painting = {
@@ -163,8 +163,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "混蛋！別動！我要劈了你！！",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "……有趣的環節！？",
 			painting = {
@@ -254,27 +254,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_111",
-			say = "（地動山搖的聲音－－）",
 			bgm = "sk-az-battle-boss",
+			nameColor = "#A9F548FF",
+			say = "（地動山搖的聲音－－）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -287,15 +287,15 @@ return {
 			}
 		},
 		{
-			actorName = "測試者",
 			nameColor = "#A9F548FF",
+			actorName = "測試者",
 			bgName = "star_level_bg_111",
 			side = 2,
 			say = "本次的「新作」——「實驗型戰忍機鎧武裝」，好好享受吧。",
 			movableNode = {
 				{
-					time = 2.6,
 					name = "shanluan_boss",
+					time = 2.6,
 					spine = {
 						action = "move",
 						scale = 1

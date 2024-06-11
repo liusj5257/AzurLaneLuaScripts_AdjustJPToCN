@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 霞飞祝福之光",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 霞飞祝福之光",
+	init_effect = "",
+	id = 200844,
 	picture = "",
 	desc = "",
 	stack = 99,
-	id = 200844,
+	color = "yellow",
 	icon = 200844,
 	last_effect = "gongjiBUFF",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 90000
+				number = 90000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -30,8 +30,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 90000
+				number = 90000,
+				attr = "airPower"
 			}
 		},
 		{
@@ -42,8 +42,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 90000
+				number = 90000,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -54,8 +54,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 40000
+				number = 40000,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -66,8 +66,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 40000
+				number = 40000,
+				attr = "dodgeRate"
 			}
 		}
 	}

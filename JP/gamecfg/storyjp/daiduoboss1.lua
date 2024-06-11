@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戦え！ロイヤルメイド2nd\n\n<size=45>一　作戦開始2nd</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 205010,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ベル、いい？今回の任務、失敗は許さないわ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -89,14 +89,14 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 0.5,
-			say = "と、陛下がおっしゃっていましたが…",
+			bgName = "bg_story_nepu2",
 			bgm = "level02",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "と、陛下がおっしゃっていましたが…",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202210,
 			dir = 1,
+			actor = 202210,
 			nameColor = "#a9f548",
 			say = "まあまあ、一度やったことですから、気楽にいきましょう",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "とはいえ、陛下のご命令ですから、手を抜くわけにはいきませんね",
 			typewriter = {
@@ -228,14 +228,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 202040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "グロスターの言う通り、実はこの母港に来てから、ご主人様のことが不安です……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "ダイドー、この子のように捨てられるのではと…………",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "安心なさい。実は陛下からメイド隊に命令がありました",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "つまりメイド隊のバックアップで、演習の相手役としてご主人様と戦うということ…ですか？",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "なによりダイドー自身が、「ご主人様がいつ、どのように仕掛けてきても応えられる最善の相手」であると証明するチャンス……",
 			typewriter = {
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 202040,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202040,
+			nameColor = "#a9f548",
 			say = "かしこまりました！陛下のため、そしてご主人様のためにダイドー、全力で頑張らせていただきます！",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -386,15 +386,15 @@ return {
 			}
 		},
 		{
-			actor = 202260,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202260,
+			nameColor = "#a9f548",
 			say = "姉さん、鬼……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-5",
 			mode = 1,
+			bgm = "battle-boss-5",
 			effects = {
 				{
 					active = true,
@@ -492,8 +492,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

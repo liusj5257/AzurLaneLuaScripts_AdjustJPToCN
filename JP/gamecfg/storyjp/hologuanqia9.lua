@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "ねえ、ジャベリン。この戦闘が終わったらデートに行こうよ！",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,9 +39,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "さらっと断られた…。でもそういうとこがまた魅力的!",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			say = "浮気性のJKだね……",
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "浮気性のJKだね……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -141,8 +141,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "うん。本当は知らないと言いたかったけどね。この様子じゃ…",
 			typewriter = {
 				speed = 0.05,
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あー…フブキの気持ちも分からなくはないかな。みんなの支援はよろしく頼む！",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

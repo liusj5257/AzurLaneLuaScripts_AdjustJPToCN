@@ -1,6 +1,6 @@
 slot0 = class("SkinAtlasCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.usingTr = findTF(slot0._tf, "using")
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	}
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.index = slot2
 	slot0.skin = slot1
 
@@ -37,7 +37,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:FlushTags(slot1:getConfig("tag"))
 end
 
-function slot0.FlushTags(slot0, slot1)
+slot0.FlushTags = function(slot0, slot1)
 	slot2 = -10
 	slot3 = slot0.tags[1]
 
@@ -65,7 +65,7 @@ function slot0.FlushTags(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.exited = true
 end
 

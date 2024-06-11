@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"호놀룰루의 사소한 일들\n\n<size=45>화를 잘 내는 그녀의 일상</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "비서함을 담당하고 있는 호놀루루가 책장 앞에서 서류를 정리하고 있다.",
 			typewriter = {
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………(말없이 시선을 돌린다.)",
 			typewriter = {
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………(말없이 고개를 끄덕인다.)",
 			typewriter = {
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………(말없이 자리에서 일어난다)",
 			typewriter = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "…………(말없이 확인한다.)",
 			typewriter = {
@@ -212,13 +212,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "호놀룰루가 비서함을 맡게 되고 어느 정도 시간이 지나자, 어느 정도 서로에 대해 파악하게 되었지만……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,9 +239,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "일은 열심히 잘 해주지만 왠지 늘 기분이 안 좋아 보여 말 걸기가 어렵단 말이지……",
 			typewriter = {
 				speed = 0.05,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "딱히 호놀룰루는 내게 화가 나 있는 건 아니라는 듯하다.",
 			typewriter = {
 				speed = 0.05,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그렇다면, 단지 커뮤니케이션이 잘 안 되는 타입인 것 뿐인 건가……?",
 			typewriter = {
 				speed = 0.05,

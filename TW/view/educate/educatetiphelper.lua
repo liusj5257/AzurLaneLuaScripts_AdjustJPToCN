@@ -13,7 +13,7 @@ slot0.system_tip_list = {
 	[EducateConst.SYSTEM_BAG] = i18n(slot4)
 }
 
-function slot0.GetSystemUnlockTips()
+slot0.GetSystemUnlockTips = function()
 	if not getProxy(EducateProxy):IsFirstGame() then
 		return {}
 	end
@@ -30,12 +30,12 @@ function slot0.GetSystemUnlockTips()
 	return slot1
 end
 
-function slot0.SaveSystemUnlockTip(slot0)
+slot0.SaveSystemUnlockTip = function(slot0)
 	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. uv0.system_save_key .. slot0, 1)
 	PlayerPrefs.Save()
 end
 
-function slot0.ClearSystemUnlockTips()
+slot0.ClearSystemUnlockTips = function()
 	slot0 = getProxy(PlayerProxy):getRawData().id
 
 	for slot4, slot5 in pairs(uv0.system_tip_list) do
@@ -55,7 +55,7 @@ for slot4, slot5 in ipairs(pg.child_site.all) do
 	end
 end
 
-function slot0.GetSiteUnlockTipIds()
+slot0.GetSiteUnlockTipIds = function()
 	if not getProxy(EducateProxy):IsFirstGame() then
 		return {}
 	end
@@ -73,12 +73,12 @@ function slot0.GetSiteUnlockTipIds()
 	return slot1
 end
 
-function slot0.SaveSiteUnlockTipId(slot0)
+slot0.SaveSiteUnlockTipId = function(slot0)
 	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. uv0.site_save_key .. slot0, 1)
 	PlayerPrefs.Save()
 end
 
-function slot0.ClearSiteUnlockTipIds()
+slot0.ClearSiteUnlockTipIds = function()
 	slot0 = getProxy(PlayerProxy):getRawData().id
 
 	for slot4, slot5 in ipairs(pg.child_site.all) do
@@ -98,7 +98,7 @@ for slot4, slot5 in ipairs(pg.child_plan.all) do
 	end
 end
 
-function slot0.GetPlanUnlockTipIds()
+slot0.GetPlanUnlockTipIds = function()
 	slot0 = getProxy(PlayerProxy):getRawData().id
 	slot1 = {}
 	slot2 = getProxy(EducateProxy):GetPlanProxy()
@@ -116,12 +116,12 @@ function slot0.GetPlanUnlockTipIds()
 	return slot1
 end
 
-function slot0.SavePlanUnlockTipId(slot0)
+slot0.SavePlanUnlockTipId = function(slot0)
 	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. uv0.plan_save_key .. slot0, 1)
 	PlayerPrefs.Save()
 end
 
-function slot0.ClearPlanUnlockTipIds()
+slot0.ClearPlanUnlockTipIds = function()
 	slot0 = getProxy(PlayerProxy):getRawData().id
 
 	for slot4, slot5 in ipairs(uv0.needTipPlanIds) do
@@ -132,7 +132,7 @@ function slot0.ClearPlanUnlockTipIds()
 	end
 end
 
-function slot0.ClearAllRecord()
+slot0.ClearAllRecord = function()
 	uv0.ClearSystemUnlockTips()
 	uv0.ClearSiteUnlockTipIds()
 	uv0.ClearPlanUnlockTipIds()
@@ -149,7 +149,7 @@ slot0.new_tip_keys = {
 	[slot0.NEW_SITE] = "educate_site_new_tip"
 }
 
-function slot0.SetNewTip(slot0, slot1)
+slot0.SetNewTip = function(slot0, slot1)
 	if PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. (uv0.new_tip_keys[slot0] .. (slot1 and tostring(slot1) or "")), 0) == 1 then
 		return
 	end
@@ -158,11 +158,11 @@ function slot0.SetNewTip(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.IsShowNewTip(slot0, slot1)
+slot0.IsShowNewTip = function(slot0, slot1)
 	return PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. (uv0.new_tip_keys[slot0] .. (slot1 and tostring(slot1) or "")), 0) == 1
 end
 
-function slot0.ClearNewTip(slot0, slot1)
+slot0.ClearNewTip = function(slot0, slot1)
 	if PlayerPrefs.HasKey(getProxy(PlayerProxy):getRawData().id .. (uv0.new_tip_keys[slot0] .. (slot1 and tostring(slot1) or ""))) then
 		PlayerPrefs.DeleteKey(slot5)
 		PlayerPrefs.Save()

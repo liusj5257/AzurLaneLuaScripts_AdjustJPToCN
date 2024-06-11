@@ -1,12 +1,12 @@
 return {
-	id = "W1011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エリアを離脱できません",
 			typewriter = {
 				speed = 0.05,

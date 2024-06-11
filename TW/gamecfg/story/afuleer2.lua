@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"曙光和愉快的夥伴們\n\n<size=45>二、思鄉</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "和曙光談到了上次演習的事情。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "和曙光談到了上次演習的事情。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,13 +82,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "曙光拿過來了兩個裝著透明液體的不鏽鋼杯",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "北方聯合的特產……應該指的就是那個了吧。",
 			typewriter = {
 				speed = 0.05,
@@ -159,9 +159,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "剛才曙光開的那個玻璃瓶，上面的標籤上沒記錯應該是……",
 			typewriter = {
 				speed = 0.05,
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "指揮官，請吧~",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "面對眼前的這小杯透明的，看起來和純淨水無異的液體——",
 			typewriter = {
 				speed = 0.05,
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "指揮官，你還好嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -325,12 +325,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "指揮官，你沒事吧？",
 			typewriter = {
 				speed = 0.05,
@@ -374,15 +374,15 @@ return {
 			}
 		},
 		{
-			say = "曙光講起了她的故事。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "曙光講起了她的故事。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在聊起北方聯合夥伴們的趣事時，她毫不掩飾自己的開心。",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -431,9 +431,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在說到北方聯合與塞壬的戰事時，她的目光顯得堅定無比。",
 			typewriter = {
 				speed = 0.05,
@@ -445,9 +445,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在提到北方聯合的景色時，她的眼神又充滿了思念。",
 			typewriter = {
 				speed = 0.05,
@@ -459,9 +459,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "直到故事的最後一個句點落下，那瓶伏特加已然是空空如也。",
 			typewriter = {
 				speed = 0.05,

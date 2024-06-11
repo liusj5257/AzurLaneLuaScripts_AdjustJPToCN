@@ -4,7 +4,7 @@ slot0.directDown = Vector3(0, -1, 0)
 slot0.directRight = Vector3(1, 0, 0)
 slot0.directLeft = Vector3(-1, 0, 0)
 
-function slot0.HorizontalCollisions(slot0, slot1, slot2)
+slot0.HorizontalCollisions = function(slot0, slot1, slot2)
 	slot3 = slot0.x ~= 0 and Mathf.Sign(slot0.x) or slot1.MoveDir
 	slot4 = slot3 == 1 and uv0.directRight or uv0.directLeft
 	slot5 = slot3 == -1 and slot2.bottomLeft or slot2.bottomRight
@@ -86,7 +86,7 @@ function slot0.HorizontalCollisions(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClimbSlope(slot0, slot1, slot2, slot3)
+slot0.ClimbSlope = function(slot0, slot1, slot2, slot3)
 	if slot0.y <= Mathf.Sin(slot2 * Mathf.Deg2Rad) * Mathf.Abs(slot0.x) then
 		slot0.y = slot5
 		slot0.x = Mathf.Cos(slot2 * Mathf.Deg2Rad) * slot4 * Mathf.Sign(slot0.x)

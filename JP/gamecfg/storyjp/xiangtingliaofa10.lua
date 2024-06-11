@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 102230,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "くっ…ここまでか…",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -90,8 +90,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "あー今回私の役目って多すぎない？聞いてるのか誰かさん？",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 102070,
 			side = 0,
-			nameColor = "#a9f548",
-			say = "こ、これ以上近づかないでください！",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
+			actor = 102070,
+			nameColor = "#a9f548",
+			say = "こ、これ以上近づかないでください！",
 			flashN = {
 				color = {
 					1,
@@ -163,8 +163,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "だーかーらー涙目のままいきなり砲を向けないでってば～",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "おとなしく命乞いすればもしかしたら見逃すかもしれないよ？",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "どうせメモリに残らないちっぽけな存在だしさァ！",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "ジュノー…私のことはいいから、早く逃げて…！",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -267,8 +267,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101020,
 			dir = 1,
+			actor = 101020,
 			say = "みんな……間に合いましたっ！",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
+			say = "あは☆ビンゴー！やっぱオブザーバーの言った通りお前が出てくるんだ～",
 			side = 1,
 			nameColor = "#ff5c5c",
-			actorName = "ピュリファイアー",
 			dir = 1,
-			say = "あは☆ビンゴー！やっぱオブザーバーの言った通りお前が出てくるんだ～",
+			actor = 900021,
+			actorName = "ピュリファイアー",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -373,8 +373,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "まだ主役が揃ってないけど……お前たち全員、前座に付き合ってくれやァア！！",
 			typewriter = {
 				speed = 0.05,

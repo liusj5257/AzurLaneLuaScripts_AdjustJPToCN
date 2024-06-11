@@ -1,16 +1,16 @@
 return {
-	id = "SHENSHENGDEBEIXIJU10",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU10",
+	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-italy",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_italy_cg1",
-			say = "轟----",
 			dir = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-italy",
+			say = "轟----",
 			flashN = {
 				color = {
 					1,
@@ -61,8 +61,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "加富爾！！",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605050,
 			dir = 1,
+			actor = 605050,
 			nameColor = "#ff5c5c",
 			say = "怎…怎麼會",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "不…這不可能",
 			typewriter = {
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			say = "燃燒、爆炸…硝煙將夜晚的塔蘭托港染成一片鮮紅",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "燃燒、爆炸…硝煙將夜晚的塔蘭托港染成一片鮮紅",
 			flashN = {
 				color = {
 					1,
@@ -174,8 +174,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "怎麼會這樣",
 			typewriter = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
+			dir = 1,
 			say = "防空炮仍在嘶吼著，卻無法完全阻止劍魚們的突襲",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "居然能在夜晚利用艦載機發動空襲…",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			say = "這彷彿地獄般的光景，不 ，這裡就是地獄吧",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "這彷彿地獄般的光景，不 ，這裡就是地獄吧",
 			flashN = {
 				color = {
 					1,
@@ -271,12 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "…行動完全暴露了呢",
 			typewriter = {
 				speed = 0.05,
@@ -291,8 +291,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "這不可能，我們趁著夜色行進，沿途也沒有被偵察機發現",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "況且，敵機居然是在夜晚進行偷襲，這可從來沒有聽說過啊！！",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -391,8 +391,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "不，我們還沒失敗，只要擊敗這個能夠在夜晚發動空襲的航母…我們還能夠在黎明前抵達馬爾他防線！",
 			typewriter = {
@@ -408,8 +408,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "全體戰列艦，回到塔蘭托港尋找掩護！偵察部隊，立刻沿著敵機方位尋找敵方航母！",
 			typewriter = {

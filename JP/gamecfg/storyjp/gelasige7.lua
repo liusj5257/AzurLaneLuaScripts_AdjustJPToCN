@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"それは恋を呼ぶ季節\n\n<size=45>七あぁ、びっくりした！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 202260,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202260,
+			nameColor = "#a9f548",
 			say = "（…………なんて夢のようなシチュエーション……）",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "――はっ！？あ、貴方様？！どうしたの？",
 			dialogShake = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "「何度も呼びかけたのにぼーっとしていたから」って……な、なんでもないから！！考えごとしてただけ…",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "ひ、秘書艦の仕事はこなすから心配しないでよ！",
 			typewriter = {
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ものすごい慌てようで逆に心配になる……だが仕事はしっかりとこなしているので口を挟むのも悪い。",
 			typewriter = {
 				speed = 0.05,
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ほどほどにね、とせめて労わる声だけをかけてまだ残っていた職務に再び取り掛かることにした……。",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "（あぁ、びっくりした！　仕事中は集中しないと……）",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "またもグラスゴーは作戦に関する資料を整理しながら、ぶつぶつと何か考えごとをしているようだ……。",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "仕事のしすぎかもしれない……次の休みに彼女を誘ってめいっぱい息抜きをさせてあげよう……",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "（次の休みの日がきたら、思い切ってデートにお誘いしてみよ……ううん、お誘いするの！）",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "（その時はもっと素直になって……うんと優しく労わってあげるの。あ、そしたら……『急に風が吹いて――）",
 			typewriter = {
@@ -297,9 +297,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "『――二人の心の距離が、妄想のようになる日も近い……のだろうか』",
 			typewriter = {
 				speed = 0.05,

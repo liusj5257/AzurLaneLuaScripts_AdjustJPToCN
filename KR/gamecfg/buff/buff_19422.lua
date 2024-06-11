@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.045,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -20,8 +20,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -37,8 +37,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.052,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -50,8 +50,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -67,8 +67,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.06,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -80,8 +80,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -97,8 +97,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.07,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -110,8 +110,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -127,8 +127,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.077,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -140,8 +140,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -157,8 +157,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.085,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -170,8 +170,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -187,8 +187,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.095,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -200,8 +200,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -217,8 +217,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.102,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -230,8 +230,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -247,8 +247,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.11,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -260,8 +260,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -277,8 +277,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
 					number = 0.12,
+					attr = "damageRatioByAmmoType_3",
 					index = {
 						1
 					}
@@ -290,8 +290,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "ignite_accuracy",
 					number = -1,
+					attr = "ignite_accuracy",
 					index = {
 						1
 					}
@@ -299,9 +299,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "不可点火、伤害提高",
 	stack = 1,
@@ -322,8 +322,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioByAmmoType_3",
 				number = 0.045,
+				attr = "damageRatioByAmmoType_3",
 				index = {
 					1
 				}
@@ -335,8 +335,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "ignite_accuracy",
 				number = -1,
+				attr = "ignite_accuracy",
 				index = {
 					1
 				}

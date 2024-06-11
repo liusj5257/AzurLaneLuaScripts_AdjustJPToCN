@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "毁灭模式盾牌",
 	time = 10,
+	name = "毁灭模式盾牌",
+	init_effect = "",
 	picture = "",
 	desc = "毁灭模式盾牌",
 	stack = 1,
@@ -17,9 +17,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 5,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -53,9 +53,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 5,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

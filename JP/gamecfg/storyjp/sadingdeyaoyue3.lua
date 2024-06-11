@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SADINGDEYAOYUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SADINGDEYAOYUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"開け！世界博覧会\n\n<size=45>三　指揮官の悩み</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某所",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-arbitrationsystem-theme",
+			say = "某所",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今は手元の「テスト」に集中して、話題が落ち着いたらまた一般参加で楽しむとしよう。",
 			typewriter = {
 				speed = 0.05,
@@ -464,10 +464,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101260,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官……次の研究……エルドリッジ、時間を知らせに来た……",
 			typewriter = {
 				speed = 0.05,
@@ -482,10 +482,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101260,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……？今、サラトガの声が聞こえたような……",
 			typewriter = {
 				speed = 0.05,
@@ -572,10 +572,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101260,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "疲れたら…休む？エルドリッジの…時間の変更…してくる？",
 			typewriter = {
 				speed = 0.05,

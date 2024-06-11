@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行6次攻击，触发全弹发射-宁海级II-强化版"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 24114,
 	picture = "",
 	desc = "主炮每进行4次攻击，触发全弹发射-宁海级II-强化版",
 	stack = 1,
-	id = 24114,
+	color = "red",
 	icon = 20100,
 	last_effect = "",
 	effect_list = {
@@ -32,10 +32,10 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				skill_id = 24113,
 				target = "TargetSelf",
 				countType = 24110,
+				maxTargetNumber = 0,
+				skill_id = 24113,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -52,9 +52,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 24114,
 				target = "TargetSelf",
 				countType = 24110,
+				skill_id = 24114,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Duelling Sunshine!\n\n<size=45>4 The Appearance of a Rival?!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port—Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port—Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Commander, it's terrible!",
 			dialogShake = {
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Huh...?!",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "A flustered Hornet came flying into the office.",
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Gasp... You see...",
 			typewriter = {
@@ -133,14 +133,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_103",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
+			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			say = "The Commander and I are both on extended vacation, and I'm not scheduled to participate in any practice exercises! Hehehe, that means it's time to play to my heart's content~!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Hey, the Union ship over there! If I remember correctly, you're Enterprise's sister... the Yorktown class's... Hornet! ",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Yes? You're... the Sakura Empire's Zuikaku?",
 			typewriter = {
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Perfect timing! Do you know where that \"Grey Ghost\"... basically, I was looking for your sister. Do you know where she is?",
 			effects = {
 				{
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Oh, Enterprise should be out on an emergency commission. She'll be back tomorrow night.",
 			effects = {
@@ -303,14 +303,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			say = "Is what I said in the heat of the moment... but I didn't think she would actually take me up on the offer.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "It seems that she's due for a 1-on-1 exercise... and she wants to know if there's a practice area that's free to use.",
@@ -369,8 +369,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "That's part of it, but, what's more important is that...",
 			typewriter = {
@@ -383,8 +383,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Are you worried... that you might lose?",
@@ -411,8 +411,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "No! There's nothing bad about losing during practice, and I'm usually not one who cares about winning or losing anyway...",
 			typewriter = {
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -438,8 +438,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "And I've always wanted to take on the Sakura Empire's Zuikaku as well...",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "But even so! I'm going in place of Enterprise.",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "If I were to lose... nothing good would come from that...",
 			typewriter = {
@@ -486,11 +486,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "So, Commander! Please give me some advice for how to win!",
 			typewriter = {
 				speed = 0.05,
@@ -502,8 +502,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -525,9 +525,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Ehehe, I knew you'd be up to help me!",
 			typewriter = {
@@ -540,12 +540,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
+			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			blackBg = true,
 			dir = 1,
-			optionFlag = 2,
+			blackBg = true,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "I'm closer to you since I'm currently the secretary ship, so I'm first in line! Please, Commander!",
 			typewriter = {

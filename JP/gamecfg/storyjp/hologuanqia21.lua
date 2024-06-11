@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA21",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500030,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-control",
 			dir = 1,
 			say = "この場所は、確かフブキちゃんの白上神社だよね？あっ、いたいた！あそこだ！",
+			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "そらちゃん！",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			say = "え？あくあちゃん？こっちにもあくあちゃん、そっちにもあくあちゃん…どういうこと？",
 			typewriter = {
 				speed = 0.05,
@@ -71,9 +71,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そっちのほうこそ偽物だよ！そらちゃん。私が本物！！！",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,9 +97,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "えええ？？",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "写し…？",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "湊あくあ？",
 			dir = 1,
+			actorName = "湊あくあ？",
 			say = "フフフ……私の名は「山田・ハーマイオニー」。ご主人さまたる時間と空間の支配者の命令で、ここでみなさまをお待ちしておりました",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			actorName = "山田・ハーマイオニー",
 			say = "さあ、誰でしょう……フフフ、あなた方がそれを知る必要はありませんわ",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			actorName = "山田・ハーマイオニー",
 			say = "私、「山田・ハーマイオニー」、ご主人さまの命により、ここであなた方を殺します",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900210,
 			dir = -1,
+			actor = 900210,
 			say = "あくあちゃん、ダメだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "山田・ハーマイオニー",
 			dir = 1,
+			actorName = "山田・ハーマイオニー",
 			say = "邪魔しないでください、そら先輩。この人たちを殺すのは私の役目です。",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = -1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "……あくあちゃんはこんなこと言わない！",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -353,8 +353,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "山田・ハーマイオニー",
 			dir = 1,
+			actorName = "山田・ハーマイオニー",
 			say = "「あくあちゃんはこんなこと言わない」……？違うわ",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			expression = 1,
 			side = 1,
 			actor = 10500030,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			actorName = "山田・ハーマイオニー",
 			say = "だって私「も」――湊あくあだから！！！",
 			effects = {
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,10 +399,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
+			actor = 307060,
 			say = "…これだからセイレーンの「駒」は厄介よ。あくあ、自分と同じ顔の相手を手にかけられないなら、私に任せていいわよ",
 			effects = {
 				{
@@ -423,8 +423,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "「山田・ハーマイオニー」だと…！？くそセイレーン！死にゲーを何本も乗り越えたこのバトルメイドあくあ様をなめるんじゃないわ！",
 			typewriter = {
 				speed = 0.05,
@@ -438,9 +438,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "遠慮はいらん！みんな、全力でこのパチモンをボッコボコにしてやるよっ！！！",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

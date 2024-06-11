@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUEYEWEIYANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUEYEWEIYANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
-			stopbgm = true,
 			oldPhoto = true,
-			say = "？？？・？？？",
 			bgm = "nagato-boss",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "？？？・？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -54,13 +54,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "照覧せよ！はあああ――！",
 			painting = {
 				alpha = 0.3,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -96,13 +96,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "そんな……！",
 			painting = {
 				alpha = 0.3,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -127,13 +127,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "こうなれば、残されている手は一つ",
 			painting = {
 				alpha = 0.3,
@@ -145,13 +145,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "武蔵、御狐の最後の力をお主の刀に預ければ、その一撃で最後の活路を開けられよう",
 			painting = {
 				alpha = 0.3,
@@ -163,13 +163,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "武蔵",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "……そんなことをしてはならないわ",
 			painting = {
 				alpha = 0.3,
@@ -181,13 +181,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "武蔵",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "妾がこの場を抜け出せても、長門さまが……",
 			painting = {
 				alpha = 0.3,
@@ -199,13 +199,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "重桜を守るのが神子としての余の務めだ",
 			painting = {
 				alpha = 0.3,
@@ -217,13 +217,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "そのために誓いを立てたし、お主にも対局で覚悟を見せた",
 			painting = {
 				alpha = 0.3,
@@ -235,13 +235,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "我が御狐の威光……照覧せよ！",
 			painting = {
 				alpha = 0.3,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -277,13 +277,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "武蔵",
+			side = 2,
 			bgName = "bg_yuese_cg1",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "長門さま……！",
 			painting = {
 				alpha = 0.3,
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -319,13 +319,13 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
-			side = 2,
-			bgName = "bg_story_nagato2",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			bgm = "battle-pacific",
 			actorName = "長門",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_nagato2",
+			oldPhoto = true,
+			bgm = "battle-pacific",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「重桜」が枯れ…民の信仰がなくなっていく……",
 			painting = {
@@ -337,17 +337,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -355,13 +355,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "数日前、余は連合艦隊の旗艦を解かれた",
 			painting = {
 				alpha = 0.3,
@@ -373,13 +373,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "上層部の「再現」はもちろん承知しておる。しかしそれにはもう一つ理由がある",
 			painting = {
 				alpha = 0.3,
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "武蔵",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "聖域で負った傷は重い。このままではリュウコツが……",
 			painting = {
 				alpha = 0.3,
@@ -409,13 +409,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "「タマシイ」は絶えず流転する。余がいなくとも、重桜の未来を託した者ならきっと上手くやってくれよう",
 			painting = {
 				alpha = 0.3,
@@ -427,13 +427,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "武蔵",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "そんなこと言わないで。神木「重桜」さえあれば、長門さまは沈まずに済むわ",
 			painting = {
 				alpha = 0.3,
@@ -445,13 +445,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "……神木の中に封ずる、か",
 			painting = {
 				alpha = 0.3,
@@ -463,13 +463,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "いい手ではあるが…その前にやることがある",
 			painting = {
 				alpha = 0.3,
@@ -481,13 +481,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "武蔵、お主の見立てを聞きたい。今の状況なら何日持つ？",
 			painting = {
 				alpha = 0.3,
@@ -499,13 +499,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -517,13 +517,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -535,13 +535,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "……十分だ。天城たちに特別演習の手配を",
 			painting = {
 				alpha = 0.3,
@@ -553,13 +553,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "長門",
+			side = 2,
 			bgName = "bg_story_nagato2",
-			hidePaintObj = true,
+			oldPhoto = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			oldPhoto = true,
+			hidePaintObj = true,
 			say = "特別演習の間に、余は連合艦隊旗艦を退くことを宣言しよう",
 			painting = {
 				alpha = 0.3,
@@ -571,29 +571,29 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/fengling",
-			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "―――",
+			side = 2,
 			bgm = "deepblue-image",
+			soundeffect = "event:/ui/fengling",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "―――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "風鈴の音が鳴り響く。",
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "布団から起き上がった武蔵は、露台の外にある明月を眺める。",
@@ -623,8 +623,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "思考を巡らし、身だしなみを整える。",
@@ -634,8 +634,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "時は深夜。物音を聞きつけた酒匂が急いで駆けつけてきた。",
@@ -645,12 +645,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "武蔵さん？ええと、お出かけですか！？",
 			painting = {
 				alpha = 0.3,
@@ -665,10 +665,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………あまり大きい声を出すんじゃないわ",
 			painting = {
 				alpha = 0.3,
@@ -683,10 +683,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "長門さまに急な用件ができた。すぐに向かう",
 			painting = {
 				alpha = 0.3,
@@ -701,10 +701,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうは言われましても…武蔵さん、顔色が悪いですよ？やっぱり朝にしたほうが――",
 			painting = {
 				alpha = 0.3,
@@ -719,10 +719,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "緊急の用件よ。時間を無駄にできないわ",
 			painting = {
 				alpha = 0.3,
@@ -737,10 +737,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "酒匂、居候している大事な客をしっかりもてなしなさい",
 			painting = {
 				alpha = 0.3,
@@ -755,10 +755,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もし彼女からなにか聞かれたら、知っていることをすべて話して",
 			painting = {
 				alpha = 0.3,
@@ -770,27 +770,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_mirror",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_mirror",
 			say = "満月の夜。武蔵は一人で重桜の地を歩む。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -798,8 +798,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			say = "振り返ると、天守の窓にはまだかすかに蝋燭の明かりが見えている。",
@@ -809,8 +809,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			say = "長い夜に眠らぬ者は、自分だけではないようだ――",

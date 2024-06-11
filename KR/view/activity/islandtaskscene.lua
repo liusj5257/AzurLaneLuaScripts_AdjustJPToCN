@@ -34,11 +34,11 @@ slot1 = 1
 slot2 = 2
 slot3 = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IslandTaskUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.activityId = ActivityConst.ISLAND_TASK_ID
 	slot1 = findTF(slot0._tf, "ad")
 	slot0.btnBack = findTF(slot1, "btnBack")
@@ -70,7 +70,7 @@ function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:closeView()
 	end, SOUND_BACK)
@@ -117,7 +117,7 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.btnTask, true)
 end
 
-function slot0.clearTagBtn(slot0)
+slot0.clearTagBtn = function(slot0)
 	setActive(findTF(slot0.btnBuild, "bg"), true)
 	setActive(findTF(slot0.btnBuild, "bg_selected"), false)
 	setActive(findTF(slot0.btnTask, "bg"), true)
@@ -126,13 +126,13 @@ function slot0.clearTagBtn(slot0)
 	setActive(findTF(slot0.btnHistory, "bg_selected"), false)
 end
 
-function slot0.showPage(slot0, slot1)
+slot0.showPage = function(slot0, slot1)
 	slot0.taskPage:setActive(slot1 == uv0)
 	slot0.buildPage:setActive(slot1 == uv1)
 	slot0.historyPage:setActive(slot1 == uv2)
 end
 
-function slot0.openSubmitPanel(slot0, slot1)
+slot0.openSubmitPanel = function(slot0, slot1)
 	setActive(slot0.submitPanel, true)
 
 	slot2 = tonumber(slot1:getConfig("target_id_2"))
@@ -145,11 +145,11 @@ function slot0.openSubmitPanel(slot0, slot1)
 	setText(slot0.submitItemDesc, pg.activity_ryza_item[slot2].name)
 end
 
-function slot0.updateTask(slot0, slot1)
+slot0.updateTask = function(slot0, slot1)
 	slot0.taskPage:updateTask(slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.taskPage:dispose()
 	slot0.historyPage:dispose()
 	slot0.buildPage:dispose()

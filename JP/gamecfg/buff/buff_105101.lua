@@ -269,9 +269,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "鬼神☆百鬼",
 	time = 3,
+	name = "鬼神☆百鬼",
+	init_effect = "",
 	picture = "",
 	desc = "概率触发",
 	stack = 1,

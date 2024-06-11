@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"悪戯ハロウィン\n\n<size=45>六 お化けさんバスターズ！</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 101271,
 			nameColor = "#a9f548",
 			say = "こっちだよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "ああ！あっちに行った！",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,15 +79,15 @@ return {
 			}
 		},
 		{
-			actor = 205031,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205031,
+			nameColor = "#a9f548",
 			say = "はあ…はあ……まさか屋上まで追いかけるとは思わなかったわ……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 302051,
 			dir = 1,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "も、もう走れないよぉ……",
 			typewriter = {
@@ -139,8 +139,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -152,8 +152,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "でもこれで追い詰めたわ。さあ、あんたは一体何者？目的は何？",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -197,8 +197,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "飛んだ！？",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "飛ぶ、フライ、魔女……そうだ！テラーからもらったホウキ！ええい！",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -75,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 302051,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302051,
+			nameColor = "#a9f548",
 			say = "ベイリーちゃんが…浮いている？本当に飛んでるの！？",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -306,11 +306,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "よぉし！絶対に追いつくよ！",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2250
@@ -334,8 +334,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "ありえない……このホウキ、一体……",
 			typewriter = {
@@ -348,11 +348,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "ははは！本物の魔女さんみたい！五十鈴さん、ネルソンさんもおいでよ！",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2250
@@ -408,8 +408,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 302051,
 			dir = 1,
+			actor = 302051,
 			nameColor = "#a9f548",
 			say = "ホウキさん、ベイリーちゃんたちを追いかけて……！",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2250
@@ -447,8 +447,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "???",
+			side = 0,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -462,8 +462,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 205031,
 			dir = 1,
+			actor = 205031,
 			nameColor = "#a9f548",
 			say = "ロドニー！？……きゃっ！？",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -3000,
+					type = "move",
 					delay = 0.6,
 					dur = 0.8,
 					x = 0
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			actor = 205040,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205040,
+			nameColor = "#a9f548",
 			say = "ホウキにちゃんと捕まって、空を飛ぶハロウィンを思いっきり楽しんでくださいね。ネルソン姉様♪",
 			typewriter = {
 				speed = 0.05,

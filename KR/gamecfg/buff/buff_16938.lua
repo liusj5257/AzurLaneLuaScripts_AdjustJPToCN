@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 16938,
+	time = 0,
 	picture = "",
 	desc = "提高命中属性",
 	stack = 3,
-	id = 16938,
+	color = "red",
 	icon = 16930,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		}
 	}

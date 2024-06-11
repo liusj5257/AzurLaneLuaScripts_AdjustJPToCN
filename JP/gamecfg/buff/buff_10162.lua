@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "最强之盾",
 	init_effect = "",
+	id = 10162,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 10162,
+	color = "blue",
 	icon = 10160,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 10160,
 				time = 25,
-				target = "TargetSelf",
-				skill_id = 10160
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.activity_event_building = {
 	[9] = {
-		id = 9,
 		name = "旋轉木啾",
+		id = 9,
 		desc = "當達到最高速時，或許真的能飛起來哦？",
 		buff = {
 			13,
@@ -27,8 +27,8 @@ pg.activity_event_building = {
 		}
 	},
 	[10] = {
-		id = 10,
 		name = "雲霄飛啾",
+		id = 10,
 		desc = "速度、激情與一飛沖天的感覺！",
 		buff = {
 			16,
@@ -53,8 +53,8 @@ pg.activity_event_building = {
 		}
 	},
 	[11] = {
-		id = 11,
 		name = "跳樓啾",
+		id = 11,
 		desc = "盡情享受下墜的快樂吧！",
 		buff = {
 			19,
@@ -79,8 +79,8 @@ pg.activity_event_building = {
 		}
 	},
 	[12] = {
-		id = 12,
 		name = "啾啾海盜船",
+		id = 12,
 		desc = "喜歡乘風破浪的感覺嗎？",
 		buff = {
 			22,
@@ -105,8 +105,8 @@ pg.activity_event_building = {
 		}
 	},
 	[13] = {
-		id = 13,
 		name = "啾啾衝浪",
+		id = 13,
 		desc = "與海浪一同起舞吧！",
 		buff = {
 			13,
@@ -131,8 +131,8 @@ pg.activity_event_building = {
 		}
 	},
 	[14] = {
-		id = 14,
 		name = "啾啾跳水",
+		id = 14,
 		desc = "水花越小，分數越高哦！",
 		buff = {
 			16,
@@ -157,8 +157,8 @@ pg.activity_event_building = {
 		}
 	},
 	[15] = {
-		id = 15,
 		name = "滑滑世界",
+		id = 15,
 		desc = "緊張刺激的水滑梯之旅！",
 		buff = {
 			19,
@@ -183,8 +183,8 @@ pg.activity_event_building = {
 		}
 	},
 	[16] = {
-		id = 16,
 		name = "啾啾瀑布",
+		id = 16,
 		desc = "盡情感受水流的衝擊！",
 		buff = {
 			22,
@@ -209,8 +209,8 @@ pg.activity_event_building = {
 		}
 	},
 	[17] = {
-		id = 17,
 		name = "皇家午茶",
+		id = 17,
 		desc = "茶AND咖啡店！，其名為皇家午茶<Queen's Tea>！就通過這個本王親自監督設計的皇家午茶企劃，來一轉頹勢吧！哼哼！",
 		buff = {
 			49,
@@ -251,8 +251,8 @@ pg.activity_event_building = {
 		}
 	},
 	[18] = {
-		id = 18,
 		name = "萊茵咖啡館",
+		id = 18,
 		desc = "在傳統咖啡的基礎上，開發新的飲品和食物，以創新性作為賣點…——嗯，不失為一個好主意…",
 		buff = {
 			54,
@@ -293,8 +293,8 @@ pg.activity_event_building = {
 		}
 	},
 	[19] = {
-		id = 19,
 		name = "教學大樓",
+		id = 19,
 		desc = "好好學習，天天向上。",
 		buff = {
 			13,
@@ -319,8 +319,8 @@ pg.activity_event_building = {
 		}
 	},
 	[20] = {
-		id = 20,
 		name = "占卜屋",
+		id = 20,
 		desc = "想要了解今日運勢嗎？",
 		buff = {
 			16,
@@ -345,8 +345,8 @@ pg.activity_event_building = {
 		}
 	},
 	[21] = {
-		id = 21,
 		name = "演唱台",
+		id = 21,
 		desc = "空閒時間任何人都能上台！",
 		buff = {
 			19,
@@ -371,8 +371,8 @@ pg.activity_event_building = {
 		}
 	},
 	[22] = {
-		id = 22,
 		name = "校園商街",
+		id = 22,
 		desc = "請盡情挑選——",
 		buff = {
 			22,
@@ -397,8 +397,8 @@ pg.activity_event_building = {
 		}
 	},
 	[23] = {
-		id = 23,
 		name = "生活區",
+		id = 23,
 		desc = "国服六周年后山建筑",
 		buff = {
 			126,
@@ -431,8 +431,8 @@ pg.activity_event_building = {
 		}
 	},
 	[24] = {
-		id = 24,
 		name = "海島製作台",
+		id = 24,
 		desc = "国服六周年后山建筑",
 		buff = {
 			130,
@@ -465,8 +465,8 @@ pg.activity_event_building = {
 		}
 	},
 	[25] = {
-		id = 25,
 		name = "啾啾探險隊",
+		id = 25,
 		desc = "国服六周年后山建筑",
 		buff = {
 			134,
@@ -499,8 +499,8 @@ pg.activity_event_building = {
 		}
 	},
 	[26] = {
-		id = 26,
 		name = "用餐區",
+		id = 26,
 		desc = "国服六周年后山建筑",
 		buff = {
 			138,
@@ -533,8 +533,8 @@ pg.activity_event_building = {
 		}
 	},
 	[27] = {
-		id = 27,
 		name = "海島據點",
+		id = 27,
 		desc = "国服六周年后山据点",
 		buff = {
 			110,

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA21",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500030,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-control",
 			dir = 1,
 			say = "Hmm, isn't this Shirakami Shrine, a.k.a. Fubuki's place? Ah, there she is! I see her!",
+			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "Sora, over here!",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			say = "Huh? Aqua? But you're over here, and over there... why are there multiple Aquas?",
 			typewriter = {
 				speed = 0.05,
@@ -71,9 +71,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Nuh-uh, she's the imposter! Look, Sora, I'm the real one!",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,9 +97,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Wh-whaaat?",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "A... copy?",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Yamada Hermione",
 			dir = 1,
+			actorName = "Yamada Hermione",
 			say = "Hahahah... My name is Yamada Hermione. I have awaited your arrival, as per orders of my master, the ruler of time and space.",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			actorName = "Yamada Hermione",
 			say = "Perhaps, perhaps not... Ahahah, you need not know who it is.",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			actorName = "Yamada Hermione",
 			say = "Now remain still as I do as my master instructed and end your lives.",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900210,
 			dir = -1,
+			actor = 900210,
 			say = "Stop it, Aqua!",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Yamada Hermione",
 			dir = 1,
+			actorName = "Yamada Hermione",
 			say = "Please do not interfere, Miss Sora. It is my duty to kill these people.",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = -1,
 			actor = 900210,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "Aqua would never say something crazy like that!",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -353,8 +353,8 @@ return {
 			actor = 10500030,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Yamada Hermione",
 			dir = 1,
+			actorName = "Yamada Hermione",
 			say = "Would she not...? You're mistaken, because...",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			expression = 1,
 			side = 1,
 			actor = 10500030,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			actorName = "Yamada Hermione",
 			say = "I'm Aqua, too!!!",
 			effects = {
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,10 +399,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
+			actor = 307060,
 			say = "... This is why the Sirens' pawns are such a pain. Aqua, if you can't fight someone who looks just like you, I can take care of her.",
 			effects = {
 				{
@@ -423,8 +423,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "\"Yamada Hermione\"?! You cheeky Siren bastard! I'm a battle-hardened combat maid who's played through more hardcore games than you can even imagine! Don't you dare make fun of me!",
 			typewriter = {
 				speed = 0.05,
@@ -438,9 +438,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "You're going DOWN! Let's beat the everliving crap out of this literal nobody!!!",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

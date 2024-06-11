@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -34,20 +34,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "넓은 공간에 호화로운 물건과 푹신한 카펫, 그리고 갓 만든 과자까지……",
 			bgm = "blueocean-image",
+			say = "넓은 공간에 호화로운 물건과 푹신한 카펫, 그리고 갓 만든 과자까지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "임시 지휘실이라고 하기에는 최고급 호텔의 살롱과도 같은 모습이다.",
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "아이리스의 '재현'이 끝남에 따라 벽람항로 복귀가 화두로 올라왔다.",
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "그래서 진영 간의 절충을 위해 지휘관으로서 리슐리외의 권유를 받아――",
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			say = "이렇게 벽람항로의 대표로서 계속 유로파에 머무르고 있는데……",
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "자~ 다들 교과서 7장 펴봐!",
 			painting = {
 				alpha = 0.3,
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "항공모함의 전투 지원 설비를 설명하기에 앞서서 우선 항공모함 편대가 어떻게 싸우는지부터 알려줄게♪",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오늘은 간단히 소개만 하고 넘어갈 거야~ 휴가 중에도 예습하는 거 잊지 마!",
 			painting = {
 				alpha = 0.3,
@@ -314,10 +314,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오호! 역시 지휘관! 아주 예리한데!",
 			painting = {
 				alpha = 0.3,
@@ -332,10 +332,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "항공모함이야말로 우리의 미래지♪",
 			painting = {
 				alpha = 0.3,
@@ -350,10 +350,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇지만 전함은 장갑도 두껍게 할 수 있고, 장착할 수 있는 주포도 점점 강해지잖아?",
 			painting = {
 				alpha = 0.3,
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그런데 항공모함의 갑판은 일단 한 방 먹으면 함재기를 회수조차 할 수 없게 되잖아.",
 			painting = {
 				alpha = 0.3,
@@ -385,10 +385,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 함재기는 보충도 어렵고, 중장갑 세이렌에게는 별 효과가 없을 것 같고… 역시 전함 쪽이 더 뛰어나다니까.",
 			painting = {
 				alpha = 0.3,
@@ -403,10 +403,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뉴저지… 수업 제대로 들은 거 맞아?",
 			painting = {
 				alpha = 0.3,
@@ -426,10 +426,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "교과서 머리말이랑 서장을 처음부터 찬찬히 다시 읽어봐!",
 			painting = {
 				alpha = 0.3,
@@ -449,10 +449,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흥! 뉴저지의 의장이 강화 중만 아니었어도 새러토가가 연습으로 몸소 깨우쳐줬을 텐데 말이야!",
 			painting = {
 				alpha = 0.3,
@@ -467,10 +467,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "공교롭게도 그 강화에 장갑이랑 대구경 화포 강화도 포함되어 있거든?",
 			painting = {
 				alpha = 0.3,
@@ -485,10 +485,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 전함이 항공모함에 대해 공부해봤자 뭐 얼마나 도움이 되겠어?",
 			painting = {
 				alpha = 0.3,
@@ -500,12 +500,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "분함대를 지휘할 때 필요하잖아!",
 			painting = {
 				alpha = 0.3,
@@ -520,10 +520,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "애초에 이건 전술 지휘를 가르치는 코스잖아. 여기 온 목적을 까먹으면 어떡해!",
 			painting = {
 				alpha = 0.3,
@@ -538,10 +538,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사실 나라고 내켜서 온 건 아니거든? 미주리가 하도……",
 			painting = {
 				alpha = 0.3,
@@ -556,10 +556,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼 이 문제는 미주리랑 말하면 되는 거지?",
 			painting = {
 				alpha = 0.3,
@@ -579,10 +579,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그, 그건… 안 돼! 미안! 성실하게 수업 들을게! 약속!",
 			painting = {
 				alpha = 0.3,
@@ -602,10 +602,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어휴…… 이러니까 맨날 시간이 부족한 거라구… 그럼 교과서――",
 			painting = {
 				alpha = 0.3,
@@ -617,8 +617,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			say = "수업 종료를 알리는 벨 소리가 울렸다.",
@@ -631,10 +631,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 105170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아싸! 수업 끝이다! 이제 가도 돼?",
 			painting = {
 				alpha = 0.3,
@@ -654,10 +654,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……휴, 그래. 이번 학기 수업은 이걸로 끝~",
 			painting = {
 				alpha = 0.3,
@@ -672,10 +672,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "정리 끝나면 다들 자유롭게 휴가를 만끽하도록 해♪",
 			painting = {
 				alpha = 0.3,
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			say = "(똑똑)",
@@ -698,12 +698,12 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "새러토가, 아직이야…?",
 			painting = {
 				alpha = 0.3,
@@ -718,10 +718,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "언니! 끝났어! 끝났어! 빨리 가자~!",
 			painting = {
 				alpha = 0.3,
@@ -736,10 +736,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후후후. 오늘 비행기로 이글 유니온에 돌아가니까, 아쉬워서 괜찮은 레스토랑을 예약해 뒀어.",
 			painting = {
 				alpha = 0.3,
@@ -754,10 +754,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "너무 좋아! 신난다! ……그런데 비행기 시간에 늦는 건 아니겠지?",
 			painting = {
 				alpha = 0.3,
@@ -772,10 +772,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "걱정 마. 지휘관이랑 다른 사람들이 다 모이면 출발할 거야. 이래서 전세기가 좋다는 거지.",
 			painting = {
 				alpha = 0.3,
@@ -790,10 +790,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "역시 언니야! 빨리 가자♪",
 			painting = {
 				alpha = 0.3,
@@ -805,29 +805,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――……새러토가가 더욱 새러토가 선생님다웠던… 시절인가?",
+			side = 2,
 			bgm = "blueocean-image",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――……새러토가가 더욱 새러토가 선생님다웠던… 시절인가?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

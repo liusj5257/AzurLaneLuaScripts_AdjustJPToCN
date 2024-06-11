@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIXINGJINIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIXINGJINIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Work Hard, Play Harder!\n\n<size=45>1 A Sunny Afternoon</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "One afternoon at the office...",
-			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, I've finished going through all the documents. There's just one problem...",
 			painting = {
 				alpha = 0.3,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Every Northern Parliament exercise participant was supposed to turn in a report, but we're still missing one.",
 			painting = {
 				alpha = 0.3,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Avrora looks a bit annoyed. I wonder if she knows whose report is missing.",
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Suddenly, I hear the sound of boots clopping down the hallway. Soon, a dark-haired girl wearing a Northern Parliament uniform throws the doors of the office open.",
@@ -105,10 +105,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*yaaawn*... Yoohoo, Commander!",
 			painting = {
 				alpha = 0.3,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "It's Pamiat' Merkuria... with dark circles under her eyes.",
@@ -141,8 +141,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -225,10 +225,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Anyway, uh, I've come to drop off some paperwork.",
 			painting = {
 				alpha = 0.3,
@@ -243,10 +243,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's see... Here are the records from the Northern Parliament's last battle, and here's the... Wait, where's the after-action report?",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh right, I left it right– Eek!",
 			painting = {
 				alpha = 0.3,
@@ -276,8 +276,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -286,12 +286,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh no!",
 			painting = {
 				alpha = 0.3,
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "After finding her paperwork, Pamiat' tries to do a triumphant twirl but immediately loses her balance. Fortunately, Avrora is there to catch her.",
@@ -327,10 +327,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Phew, that was close! Thanks for the hand, Avrora. Anyway, I'll leave the stuff on your desk, Commander, so don't forget to look it over. I'm gonna head back to the dorm now!",
 			painting = {
 				alpha = 0.3,
@@ -351,10 +351,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hehehe~ I'll be just fine! See ya later! ...Owww, my back...",
 			painting = {
 				alpha = 0.3,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "The way she was clutching her back as she tottered out the door makes me consider sending someone to accompany her anyway...",
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She has always been like that. I'm more concerned about her unhealthy lifestyle though.",
 			painting = {
 				alpha = 0.3,
@@ -394,12 +394,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She got hooked on a new video game she bought the other day, and has been so absorbed in it that she hasn't been keeping up with work...",
 			painting = {
 				alpha = 0.3,
@@ -411,12 +411,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I believe it's what they call \"going goblin mode.\"",
 			painting = {
 				alpha = 0.3,
@@ -428,12 +428,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you think it's warranted, should we go check on her?",
 			painting = {
 				alpha = 0.3,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "It definitely isn't a good idea to leave her to her own devices forever, but I also don't want to bother her if she went back to sleep.",
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Maybe I'll pay her a visit after dinner.",

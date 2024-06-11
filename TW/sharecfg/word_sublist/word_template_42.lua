@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_42 = {}
 slot1 = slot0.word_template_42
 
-function temp()
+temp = function()
 	uv0["转"] = {
 		["法"] = {
 			["轮"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["自"] = {
 		["焚"] = {
 			this = true,
@@ -220,7 +220,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苏"] = {
 		["家"] = {
 			["屯"] = {
@@ -232,7 +232,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["基"] = {
 		["地"] = {
 			["组"] = {

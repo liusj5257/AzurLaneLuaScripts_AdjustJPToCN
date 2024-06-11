@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "中飞联动一我方移速",
 	time = 0,
+	name = "中飞联动一我方移速",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8781,
-				target = "TargetSelf",
-				time = 0.2
+				time = 0.2,
+				target = "TargetSelf"
 			}
 		}
 	}

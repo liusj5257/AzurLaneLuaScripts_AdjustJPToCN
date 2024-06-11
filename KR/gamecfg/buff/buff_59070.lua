@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "增伤",
 	init_effect = "",
-	color = "red",
+	id = 59070,
+	time = 0,
 	picture = "",
 	desc = "伤害提高20%",
 	stack = 1,
-	id = 59070,
+	color = "red",
 	icon = 59070,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.2
+				number = 0.2,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

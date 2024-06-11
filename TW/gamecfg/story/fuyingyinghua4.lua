@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "nagato-boss",
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "不愧是身經百戰的一航戰前輩們…此戰是我輸了。",
-			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "{namecode:91}大人，{namecode:92}大人，以及各位遠道而來的客人，歡迎來到天岩島！",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "您過獎了，{namecode:91}大人。我在各方面都還有不足之處，剛剛的戰鬥使我更加深刻地認識到了這一點……",
 			typewriter = {
 				speed = 0.05,
@@ -151,9 +151,9 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "不勝惶恐…",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 20,
@@ -178,8 +178,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "果然{namecode:91}大人還是同記憶中的一樣，永遠充滿著智慧與力量，自信而又堅定…",
 			typewriter = {
 				speed = 0.05,
@@ -223,9 +223,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "是！{namecode:179}，今後也會繼續以{namecode:91}大人為目標刻苦修煉的！",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,14 +324,14 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "{namecode:179}必日益精進武藝，不負囑託！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

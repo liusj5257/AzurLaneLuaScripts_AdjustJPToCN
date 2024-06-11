@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戰鬥！皇家女僕隊2nd\n\n<size=45>二　紐卡斯爾的秘策</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu2",
 			bgm = "battle-boss-5",
 			actor = 202040,
 			nameColor = "#a9f548",
 			say = "按照這種感覺開始應該沒問題吧。不愧是主人的艦隊，攻勢好強…！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "沒問題吧？第一防線已經被突破了…",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "不會讓人覺得“原來女僕隊這麼弱”吧…畢竟港區各個陣營的艦船那麼多，果然還是應該一開始就全力作戰才好吧？",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "剛才的艦隊攻勢雖然強，不過可以感覺出還沒有發揮出全力。如果我們全力迎擊的話，主人也會立刻全力強攻吧…然後大概就會陷入混戰了",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "無論如何，比起突然放水或者突然強攻，還是一點點提升難度更合適一些……",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "死纏爛打，糾纏到底…直到最後只剩下黛朵和主人——",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "啊~主人…黛朵的主人……",
 			typewriter = {
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "咳咳，待在這邊也沒有意義了，讓我們轉移到下一個防線去吧",
 			typewriter = {
 				speed = 0.05,

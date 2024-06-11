@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"녹아내리는 얼음\n\n<size=45>제3장 - 연습전</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 연습전 해역",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "모항 - 연습전 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "오늘 연습전은 메탈 블러드로군.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			dir = 1,
 			say = "티르피츠가 정확히 만쥬가 모는 목표 함선을 명중시켰다. 물론, 표정 하나 변하지 않고.",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -121,12 +121,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
+			say = "여전히 대단하네, 티르피츠는.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "여전히 대단하네, 티르피츠는.",
+			actor = 403030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#92fc63",
 			say = "하? 내가 왜 티르피츠를 보고 배워야 한다는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#92fc63",
 			say = "하!? 내 성격이 이래서 정말 미안하네! 오이겐, 오늘 좀 맞고 싶어 온몸이 근질거리나 본데……",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 403030,
+			nameColor = "#92fc63",
 			say = "후후훗, 빨래판에 맞아봐야 얼마나 아프겠어?",
 			typewriter = {
 				speed = 0.05,
@@ -273,10 +273,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 1,
 					x = 1500,
-					y = 0
+					type = "move"
 				}
 			},
 			options = {
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#92fc63",
 			say = "지휘관은 신경 꺼! 쳇, 오이겐! 어딜 도망가, 거기서!! 오늘이야말로 언니는 괜히 언니가 아니란 걸 똑똑히 알려주겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -303,16 +303,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.2,
 					dur = 1,
 					x = 2250
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "티르피츠는 생각에 잠긴 듯한 표정을 지으며, 히퍼와 오이겐이 떠난 방향을 우두커니 바라보았다.",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEIFA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEIFA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"小さなめいどちょー\n\n<size=45>その二 意外の成果</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "数日前・母港",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "数日前・母港",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "用意はいいかにゃ？",
 			typewriter = {
@@ -45,13 +45,13 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "ばっちしオーケーだよ。",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "ばっちしオーケーだよ。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "ではスタートにゃ！『第256回メンタルキューブ構造解析実験』にゃ！",
 			typewriter = {
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "……むむっ、説明しよう、メンタルキューブは船にとってリュウコツみたいなものである",
 			typewriter = {
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "リュウコツが壊れたら大変な事になるにゃ。",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "みんなが知っての通り、私たちはメンタルキューブから建造された存在…だけど、メンタルキューブがそもそもどういう構造かは未だかつて誰も解明できていない……",
 			typewriter = {
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "メンタルキューブは採集でしか入手する事ができないにゃ…いわゆるブラックボックスにゃ……",
 			typewriter = {
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "しかし今回は違う！",
 			typewriter = {
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "セイレーンとの戦いでたまたま拾った「兵器」があるにゃ！",
 			typewriter = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "「集束怪光線照射装置（仮）」ね。",
 			typewriter = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "原理は分からないけど、電力を大量に流すと、先端から貫通力の高い熱光線が発射されるにゃ。",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "この前は危なかったにゃ…夕張が充電してみてって言うからやってみたけど、母港まるごと大停電して、明石の頭にも風穴を開けられるところだったにゃ……",
 			typewriter = {
@@ -236,11 +236,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "科学の発展には犠牲はつきもの（キリッ",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "安全第一にゃ！",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "というわけで、今回は特製の緊急時電流遮断ブレーカー付き超大型蓄電池を用意したぞ。",
 			typewriter = {
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "この前のようなことは起きない…はず。",
 			typewriter = {
@@ -304,11 +304,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "にゃ！今日の実験内容を最終確認するにゃ！",
 			typewriter = {
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "熱光線でメンタルキューブを照射し、分解・或いは切断して、構造の観察及び分析を行う――",
 			typewriter = {
@@ -338,11 +338,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "メンタルキューブと照射装置は準備完了したにゃ！一体どうなるのかにゃ……",
 			typewriter = {
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "スイッチ・オン！発射カウントダウン、３、２－－",
 			typewriter = {
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "べ、ベルファストにゃ！？夕張、ちょ、ちょっとタンマにゃ！",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 2
@@ -414,13 +414,13 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "、１……照射開始っ！",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "、１……照射開始っ！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -435,13 +435,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 3,
 			bgName = "bg_story_task",
+			mode = 3,
+			blackBg = true,
 			say = "......",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1

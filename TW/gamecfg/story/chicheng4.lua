@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"彼岸花之戀？\n\n<size=45>四 友軍與過去</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "重櫻·鐵血交流會上",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "重櫻·鐵血交流會上",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "哎呀？妳是鐵血的……",
 			typewriter = {
@@ -45,12 +45,12 @@ return {
 			}
 		},
 		{
-			actor = 407010,
+			say = "我是齊柏林。真難得啊，妳竟會來參加這種活動",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "我是齊柏林。真難得啊，妳竟會來參加這種活動",
+			actor = 407010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -65,11 +65,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "心血來潮而已…再說還得照顧年輕孩子們啊。妳不也一樣嗎？",
 			typewriter = {
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "下次就能一起並肩戰鬥了呢。想想身邊還有另一個自己就很安心啊。",
 			typewriter = {
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "確實，那時如果沒有遇到指揮官，我應該是會繼續追隨“神”的哦？",
 			typewriter = {
@@ -164,11 +164,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "不斷持續的戰爭，不惜傷害同伴，為了得到可憎敵人的力量，一味地尋求著擁有“覺醒”可能的存在……",
 			typewriter = {
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "不，那個跟隨了“神明”的我……不管是不是真的——都不過是一種可能而已。",
 			typewriter = {
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "同一面鏡子裡倒映出的不同姿態的我…基於同樣的信息而被雕刻出的，有著自我的存在都是“可能性”呦。",
 			typewriter = {
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "在某個時刻與妳們交戰的我，也不過是“可能性”的一種。在這裡和妳一起喝酒的我亦不過是…",
 			typewriter = {
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "因為遇到指揮官而從“塞壬”手中得到解救的一種“可能性”……",
 			typewriter = {
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "總有一天他會明白的。",
 			typewriter = {
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "我們的存在、“聖域”、“靈魂”，還有“模具”…",
 			typewriter = {
@@ -331,11 +331,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "呵呵…看來我也有點喝醉了呢…",
 			typewriter = {
@@ -348,9 +348,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "離開了喧鬧的會場，兩人的對話還在繼續。",
 			typewriter = {
 				speed = 0.05,
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:91}",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			actorName = "{namecode:91}",
 			say = "即使如此，我也相信指揮官會愛著我……呵呵呵……",
 			typewriter = {
 				speed = 0.05,

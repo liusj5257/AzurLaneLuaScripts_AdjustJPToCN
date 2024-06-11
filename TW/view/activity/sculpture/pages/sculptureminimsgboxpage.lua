@@ -1,17 +1,17 @@
 slot0 = class("SculptureMiniMsgBoxPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SculptureMiniMsgBoxUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.contentTxt = slot0:findTF("frame/Text"):GetComponent(typeof(Text))
 	slot0.confirmBtn = slot0:findTF("frame/btns/btn_confrim")
 	slot0.btnImg = slot0.confirmBtn:GetComponent(typeof(Image))
 	slot0.cancelBtn = slot0:findTF("frame/btns/btn_cancel")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:Hide()
 
@@ -35,7 +35,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.settings = slot1
@@ -52,7 +52,7 @@ function slot0.Show(slot0, slot1)
 	setActive(slot0.cancelBtn, slot1.showNo)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 
 	if slot0.effectGo then
@@ -62,7 +62,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.LoadEffect(slot0)
+slot0.LoadEffect = function(slot0)
 	slot1 = "liwucaijian_caidai"
 
 	if not slot0.effectGo then
@@ -82,7 +82,7 @@ function slot0.LoadEffect(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

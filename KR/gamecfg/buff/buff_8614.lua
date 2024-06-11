@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "2019年2月世界BOSS叠加buff",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 8614,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8614,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 13000
+				number = 13000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 16000
+				number = 16000,
+				attr = "airPower"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.4
+				number = 0.4,
+				attr = "injureRatio"
 			}
 		}
 	}

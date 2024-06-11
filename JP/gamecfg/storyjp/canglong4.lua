@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"蒼龍さんと一緒\n\n<size=45>四 いらないもの……？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・重桜寮",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・重桜寮",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "休日、少しフラフラしようと思っていたら、いつの間にか蒼龍の部屋に来てしまっていた――",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "指揮官、休日の過ごし方は人それぞれですが、もう少し有意義に過ごしていただきたいものですね",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官、休日の過ごし方は人それぞれですが、もう少し有意義に過ごしていただきたいものですね",
+			actor = 307030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "蒼龍は昨日持ち帰った書類の整理をやっていた。さすがは秘書艦の鑑である",
 			typewriter = {
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "あっ、そういうのじゃなくて、姉さまが仕事をしている時って、すごく輝いてるように見えるんです。指揮官もそう思いますよね？",
 			typewriter = {
 				speed = 0.05,
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "蒼龍って意外とドライだな……",
 			typewriter = {
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "えっ、本当ですか！？",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

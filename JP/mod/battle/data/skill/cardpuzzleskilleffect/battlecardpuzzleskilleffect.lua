@@ -6,7 +6,7 @@ slot0.Battle.BattleCardPuzzleSkillEffect = class("BattleCardPuzzleSkillEffect")
 slot0.Battle.BattleCardPuzzleSkillEffect.__name = "BattleCardPuzzleSkillEffect"
 slot3 = slot0.Battle.BattleCardPuzzleSkillEffect
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._tempData = slot1
 	slot0._type = slot0._tempData.type
 	slot0._targetChoise = slot0._tempData.target_choise
@@ -15,7 +15,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0._timerIndex = 0
 end
 
-function slot3.Execute(slot0, slot1)
+slot3.Execute = function(slot0, slot1)
 	slot0._caster = uv0.Battle.BattleTargetChoise.TargetFleetIndex(nil, {
 		fleetPos = slot0._tempData.caster
 	})[1]
@@ -40,10 +40,10 @@ function slot3.Execute(slot0, slot1)
 	slot0:SkillEffectHandler()
 end
 
-function slot3.SkillEffectHandler(slot0, slot1)
+slot3.SkillEffectHandler = function(slot0, slot1)
 end
 
-function slot3.AniEffect(slot0, slot1, slot2)
+slot3.AniEffect = function(slot0, slot1, slot2)
 	slot3 = slot2:GetPosition()
 	slot4 = slot1:GetPosition()
 
@@ -51,7 +51,7 @@ function slot3.AniEffect(slot0, slot1, slot2)
 		slot6 = nil
 
 		if slot0._casterAniEffect.posFun then
-			function slot6(slot0)
+			slot6 = function(slot0)
 				return uv0.posFun(uv1, uv2, slot0)
 			end
 		end
@@ -67,7 +67,7 @@ function slot3.AniEffect(slot0, slot1, slot2)
 		slot6 = nil
 
 		if slot0._targetAniEffect.posFun then
-			function slot6(slot0)
+			slot6 = function(slot0)
 				return uv0.posFun(uv1, uv2, slot0)
 			end
 		end
@@ -80,7 +80,7 @@ function slot3.AniEffect(slot0, slot1, slot2)
 	end
 end
 
-function slot3.GetTarget(slot0)
+slot3.GetTarget = function(slot0)
 	if not slot0._targetChoise then
 		return {}
 	end
@@ -94,38 +94,38 @@ function slot3.GetTarget(slot0)
 	return slot1
 end
 
-function slot3.GetCardPuzzleComponent(slot0)
+slot3.GetCardPuzzleComponent = function(slot0)
 	return slot0._card:GetClient()
 end
 
-function slot3.GetFleetVO(slot0)
+slot3.GetFleetVO = function(slot0)
 	return slot0:GetCardPuzzleComponent():GetFleetVO()
 end
 
-function slot3.ConfigCard(slot0, slot1)
+slot3.ConfigCard = function(slot0, slot1)
 	slot0._card = slot1
 end
 
-function slot3.SetQueue(slot0, slot1)
+slot3.SetQueue = function(slot0, slot1)
 	slot0._queue = slot1
 end
 
-function slot3.Finale(slot0)
+slot3.Finale = function(slot0)
 	slot0._queue:EffectFinale(slot0)
 end
 
-function slot3.HoldForInput(slot0)
+slot3.HoldForInput = function(slot0)
 	return false
 end
 
-function slot3.MoveCardAfterCast(slot0)
+slot3.MoveCardAfterCast = function(slot0)
 	return uv0.Battle.BattleFleetCardPuzzleComponent.CARD_PILE_INDEX_DISCARD
 end
 
-function slot3.Interrupt(slot0)
+slot3.Interrupt = function(slot0)
 end
 
-function slot3.Clear(slot0)
+slot3.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot5)
 

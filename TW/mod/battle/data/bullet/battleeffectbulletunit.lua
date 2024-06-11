@@ -4,11 +4,11 @@ slot1 = class("BattleEffectBulletUnit", slot0.Battle.BattleBulletUnit)
 slot0.Battle.BattleEffectBulletUnit = slot1
 slot1.__name = "BattleEffectBulletUnit"
 
-function slot1.Ctor(slot0, slot1, slot2)
+slot1.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 end
 
-function slot1.Update(slot0, slot1)
+slot1.Update = function(slot0, slot1)
 	uv0.super.Update(slot0, slot1)
 
 	if slot0._flare then
@@ -16,11 +16,11 @@ function slot1.Update(slot0, slot1)
 	end
 end
 
-function slot1.IsFlare(slot0)
+slot1.IsFlare = function(slot0)
 	return slot0:GetTemplate().attach_buff[1].flare
 end
 
-function slot1.OutRange(slot0)
+slot1.OutRange = function(slot0)
 	uv0.super.OutRange(slot0)
 
 	if slot0._flare then
@@ -30,7 +30,7 @@ function slot1.OutRange(slot0)
 	end
 end
 
-function slot1.spawnArea(slot0, slot1)
+slot1.spawnArea = function(slot0, slot1)
 	slot2 = slot0:GetTemplate()
 	slot3 = slot2.hit_type
 	slot4 = slot2.attach_buff[1]
@@ -56,10 +56,10 @@ function slot1.spawnArea(slot0, slot1)
 	return slot9
 end
 
-function slot1.GetExplodePostion(slot0)
+slot1.GetExplodePostion = function(slot0)
 	return slot0._explodePos
 end
 
-function slot1.SetExplodePosition(slot0, slot1)
+slot1.SetExplodePosition = function(slot0, slot1)
 	slot0._explodePos = slot1
 end

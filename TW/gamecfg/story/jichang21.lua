@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港區・學園",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-WISHNESS-inst",
+			say = "港區・學園",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -67,8 +67,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "啊，倒也不是什麼重要的事。就是有人問我是否願意像上次演出一樣繼續使用那些兵裝——也就是繼續偶像活動。",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "和上次一樣，似乎有不少人都想嘗試一下。",
 			typewriter = {
@@ -164,14 +164,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "欸欸！妳說「除非指揮官或凱旋要求我這樣做，否則我絕對不幹」？？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 901110,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#a9f548",
 			say = "是的。光是回憶起這些事情就已經夠累的了……",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "（惡毒的話，大概是真的不想再做了吧。）",
 			typewriter = {
@@ -246,13 +246,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "（咚咚）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

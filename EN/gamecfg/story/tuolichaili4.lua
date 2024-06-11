@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TUOLICHAILI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TUOLICHAILI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Where the Sun Doesn't Shine\n\n<size=45>Mushroom Banquet?</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_main_twilight",
 			bgm = "story-richang-7",
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "*wheeze*... I'm so tired...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,10 +57,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm already well past my recommended exercise limit... I'm gonna fall apart...",
 			painting = {
 				alpha = 0.3,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			say = "After I took her to the aquarium first, we then stargazed at the observatory.",
 			typewriter = {
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			say = "\"It really wasn't a long walk, yet you're THIS exhausted? Do you not get much exercise?\"",
 			typewriter = {
@@ -95,10 +95,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -113,10 +113,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I do research... I rarely need to go outside...",
 			painting = {
 				alpha = 0.3,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			say = "I thought as much.",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_twilight",
 			say = "\"Should I ask the Sardegnian dorm managers to make an exercise program for you?\"",
 			typewriter = {
@@ -151,10 +151,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...No thank you...",
 			painting = {
 				alpha = 0.3,
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			say = "Night rolls around. After all that walking, I decide to treat her to a restaurant dinner.",
 			typewriter = {
@@ -175,17 +175,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -196,10 +196,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_160",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whew... Finally, some rest... I can barely think from how hungry and tired I am...",
 			painting = {
 				alpha = 0.3,
@@ -214,10 +214,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_160",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I feel alive again...",
 			painting = {
 				alpha = 0.3,
@@ -232,10 +232,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey... Do you mind if I order for us both?",
 			painting = {
 				alpha = 0.3,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			say = "I have a bad feeling about this... Still, I tell her to go ahead.",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			say = "Hopefully, I won't have to eat any questionable food. Then again, this is a restaurant – their menu should be perfectly fine.",
 			typewriter = {
@@ -270,10 +270,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's have this... this... and this.",
 			painting = {
 				alpha = 0.3,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			say = "She selects a few curious menu items; salted mushroom skewers, creamy mushroom chowder, and mushroom cake...",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			say = "It can't be a coincidence that she picked three mushroom dishes.",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			say = "\"You really like mushrooms, huh?\"",
 			typewriter = {
@@ -318,10 +318,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_160",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah... Hehehe... They like the dark and hate the sun, just like me. Plus, they're tasty...",
 			painting = {
 				alpha = 0.3,
@@ -336,10 +336,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_160",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They're also perfect subjects for study, since they grow in clusters and never make a sound... There's a lot to learn about them.",
 			painting = {
 				alpha = 0.3,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			say = "\"Let's add one more thing to our order.\"",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			optionFlag = 1,
 			say = "\"That's a very ominous way to phrase it...\"",
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			optionFlag = 2,
 			say = "\"I'm not especially fond of them, I just want to keep the mushroom theme going, I suppose.\"",
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_160",
 			blackBg = true,
 			say = "...The dishes she recommended were good. Once our slightly unusual dinner is over, we retreat home for the night.",

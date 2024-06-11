@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900357,
 			nameColor = "#BDBDBD",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
 			side = 2,
-			say = "\"▅■정지▆▅\"",
+			bgName = "star_level_bg_504",
 			bgm = "story-thehierophantV",
+			actor = 900357,
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "\"▅■정지▆▅\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "갑자기 머릿속으로 아무 감정이 없는, 기계 음성 같은 여자의 목소리가 들렸다.",
@@ -35,10 +35,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방금 건…… 대체……?",
 			painting = {
 				alpha = 0.3,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나도…! 지휘관! 아무래도 다들 영향을 받는 것 같아…!",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "목소리가 들림과 동시에 해역에 있는 모든 동료가 일제히 무언가에게 영향을 받기 시작했다.",
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "마치 언령과도 같은…… 그대에게도 들렸는가……?",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "내 몸은 평소대로 움직인다. 아무래도 내게는 별 영향이 없는 것 같다.",
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "시나노의 모습을 보니, 그녀에게도 거의 영향이 없는 모양이다.",
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "이 지휘함에는 영향이 미치지 않는 건가…?",
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "이건 대체…… 함선에 따라서 영향받는 정도의 차이가…",
 			painting = {
@@ -272,10 +272,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나는 거의 아무렇지도 않아. 뭐, 손발이 좀 무거운 정도랄까.",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오딘, 전투에는 문제없다. 컨디션에 미치는 영향은 거의 없다.",
 			painting = {
 				alpha = 0.3,
@@ -308,10 +308,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "양산함대도… 윽… 영향이 적습니다! 전투… 가능합니다!",
 			painting = {
 				alpha = 0.3,
@@ -323,8 +323,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "특별 계획함과 양산함에는 별 영향이 없고, 'META'에는 영향이 크게 미치는 것 같군….",
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "이 지휘함에 있는 동료 중에는 시나노만 영향을 받지 않는 듯하다.",
@@ -424,10 +424,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "철수라니…… 히류, 이제 와서 도망치겠다는 거야…?!",
 			painting = {
 				alpha = 0.3,
@@ -515,8 +515,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "별 영향을 받지 않는 함선도 있는 건 그나마 다행이네……",
 			painting = {
@@ -532,8 +532,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "가스코뉴, 심상 공간에 강제 접속해 줘!",
 			painting = {
@@ -546,19 +546,19 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			stopbgm = true,
 			dialogueBgAlpha = 0.6,
-			say = "정신을 차려 보니, 검은 태양의 '공간'으로 사고가 옮겨진 것 같다.",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "정신을 차려 보니, 검은 태양의 '공간'으로 사고가 옮겨진 것 같다.",
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			typewriter = {
@@ -566,17 +566,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 905020,
-			side = 2,
 			dialogueBgAlpha = 0.6,
+			side = 2,
 			bgName = "bg_firedust_5",
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "응, 맞아. 사실 제어하기는 어렵지만 말이지.",
 			painting = {
@@ -770,13 +770,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "전투가 시작된 이후 처음으로 '하이로펀트'가 움직임을 보였다.",
 			bgm = "battle-thehierophantV",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "전투가 시작된 이후 처음으로 '하이로펀트'가 움직임을 보였다.",
 			effects = {
 				{
 					active = false,
@@ -788,17 +788,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -806,8 +806,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "그녀는 손에 든 홀장으로 보이는 지팡이를 높이 들고 흔들었다.",
@@ -817,8 +817,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "――――――――――",
@@ -828,8 +828,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "검은 태양의 광경이 유리처럼 부서졌고, 세상은 다시 '하이로펀트'의 지배하로 돌아왔다.",
@@ -842,8 +842,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "'심판'의 개념을 상징하는 불타는 태양이… 먹히지 않아?!",
 			painting = {
@@ -859,8 +859,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "출력을 올려서 접속이 불안정해진 건가? 아니면 아비터의 힘이 그 이상으로 강한 건가…?",
 			painting = {
@@ -895,10 +895,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "저 몸체는 예비용 몸체가 아니라, 틀림없는 '하이로펀트'의 본체야.",
 			painting = {
 				alpha = 0.3,
@@ -932,10 +932,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "산산조각이 나거나, 운이 나쁘면 '개념'조차 소멸될 수도 있어.",
 			painting = {
 				alpha = 0.3,
@@ -950,10 +950,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9707010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "그렇게 말해봤자…… 이 몸으로는… 제대로 피하기도…!",
 			painting = {
 				alpha = 0.3,
@@ -987,10 +987,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "아까 그 속박은 방금 걸로 느슨해졌을 거야! 다들 회복되기 전까지는 시간을 벌어야 해!",
 			painting = {
 				alpha = 0.3,

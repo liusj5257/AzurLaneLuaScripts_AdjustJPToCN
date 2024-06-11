@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023克莱蒙梭D1 BOSS浮游炮召唤",
 	cd = 0,
-	painting = 0,
-	id = 200551,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200551,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -22,18 +22,18 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 3.3,
 							switchTo = 1,
 							index = 0,
-							switchParam = 3.3,
+							switchType = 1,
 							setAI = 70137,
 							addWeapon = {},
 							removeWeapon = {}
 						},
 						{
-							index = 1,
 							switchParam = 10,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3073006
@@ -41,9 +41,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
 							switchParam = 7,
 							switchTo = 3,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3073007
@@ -53,10 +53,10 @@ return {
 							}
 						},
 						{
-							switchType = 1,
+							switchParam = 700,
 							switchTo = 4,
 							index = 3,
-							switchParam = 700,
+							switchType = 1,
 							setAI = 75028,
 							addWeapon = {
 								3073009
@@ -83,18 +83,18 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 3.3,
 							switchTo = 1,
 							index = 0,
-							switchParam = 3.3,
+							switchType = 1,
 							setAI = 70138,
 							addWeapon = {},
 							removeWeapon = {}
 						},
 						{
-							index = 1,
 							switchParam = 10,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								3073006
@@ -102,9 +102,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
 							switchParam = 7,
 							switchTo = 3,
+							index = 2,
 							switchType = 1,
 							addWeapon = {
 								3073008
@@ -114,10 +114,10 @@ return {
 							}
 						},
 						{
-							switchType = 1,
+							switchParam = 700,
 							switchTo = 4,
 							index = 3,
-							switchParam = 700,
+							switchType = 1,
 							setAI = 75029,
 							addWeapon = {
 								3073009

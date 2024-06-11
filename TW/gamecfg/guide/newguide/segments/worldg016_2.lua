@@ -34,8 +34,8 @@ return {
 			style = {
 				text = "長按對象可以切換分析模式",
 				mode = 2,
-				posY = -320,
 				dir = -1,
+				posY = -320,
 				posX = 9.1
 			},
 			showSign = {
@@ -89,8 +89,8 @@ return {
 			style = {
 				text = "玩家可以在分析儀模式下查看戰鬥對象的情報或者調查點的訊息.",
 				mode = 2,
-				posY = -200,
 				dir = 1,
+				posY = -200,
 				posX = 357
 			},
 			showSign = {

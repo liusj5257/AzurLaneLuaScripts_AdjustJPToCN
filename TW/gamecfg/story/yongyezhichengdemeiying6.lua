@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"永夜之城的魅影\n\n<size=45>六 猝不及防的攻勢</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "來到了一處寬闊的大廳。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "來到了一處寬闊的大廳。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 404041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "終於來到這裡了啊，人類~多虧你的所作所為，現在城堡變得一團亂了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不過放心吧，我暫時不打算對你做些什麼，畢竟我的目的和你一樣——要離開這座城堡。",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大小姐每天都嚷嚷著要出去看看，但從來沒有得到過許可。所以這次計劃瞞著所有人趁亂逃出去。",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 404041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "理由是什麼不重要吧？重要的是我們目的一致~",
 			typewriter = {
 				speed = 0.05,
@@ -123,10 +123,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "你不知道出口在哪裡，但是我知道，所以跟我走吧~",
 			typewriter = {
 				speed = 0.05,
@@ -138,13 +138,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
+			dir = 1,
 			say = "跟著呂措與圖林根二人一同寬敞的大廳中走著。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,9 +169,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "總感覺很安靜呢……",
 			typewriter = {
 				speed = 0.05,
@@ -183,9 +183,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "？！",
 			dialogShake = {
 				speed = 0.08,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "肩膀突然被呂措抱住了。",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎呀，帶人類你走了這麼久的路，突然有些餓了呢。不補充下體力的話，我可就沒法離開這裡了。",
 			typewriter = {
 				speed = 0.05,
@@ -237,10 +237,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "所以呀，人類，對不起啦~變成我的食糧吧！",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -334,14 +334,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "雖說剛才都是腦海中想像出的畫面，但實際上……好痛？！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -642,16 +642,16 @@ return {
 			}
 		},
 		{
-			actor = 404041,
-			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人類，只要穿過這個很——長的走廊，就可以離開這座城堡了哦~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -679,10 +679,10 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（不過——沒記錯的話，該到下一幕的角色登場的時候了呢~）",
 			typewriter = {
 				speed = 0.05,
@@ -694,11 +694,11 @@ return {
 			}
 		},
 		{
-			say = "砰————",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "砰————",
 			flashN = {
 				color = {
 					1,
@@ -748,9 +748,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "不知從何處而來的煙霧彈在狹窄的走廊中爆炸了。",
 			typewriter = {
 				speed = 0.05,
@@ -762,9 +762,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "煙霧之中隱約出現了兩個身影——是塞德利茨和謝菲爾德。",
 			typewriter = {
 				speed = 0.05,
@@ -776,12 +776,12 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "站住！妳們要去哪裡！",
 			dialogShake = {
 				speed = 0.08,
@@ -801,10 +801,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "居然是吸血鬼獵人……趁亂進入城堡中的嗎，這下可麻煩了。",
 			typewriter = {
 				speed = 0.05,
@@ -816,12 +816,12 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不論是吸血鬼還是其眷屬，所有的血族都應接受聖裁，做好覺悟吧！",
 			typewriter = {
 				speed = 0.05,
@@ -833,12 +833,12 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202084,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不會讓你們逃跑的。",
 			typewriter = {
 				speed = 0.05,
@@ -850,12 +850,12 @@ return {
 			}
 		},
 		{
-			actor = 405041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人類，看來與我們一同行動的你被吸血鬼獵人當成眷屬了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -870,10 +870,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "別擔心，跑就好了~我才不會乖乖被她們抓住呢！",
 			typewriter = {
 				speed = 0.05,

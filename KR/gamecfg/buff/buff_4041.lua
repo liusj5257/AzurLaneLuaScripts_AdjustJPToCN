@@ -62,12 +62,12 @@ return {
 	desc_get = "每20秒，有10.0%(满级40.0%)的概率发动，承受先锋队伍受到的50%伤害，持续8秒，同技能效果不叠加",
 	name = "吸引火力",
 	init_effect = "",
+	id = 4041,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每20秒，有$1的概率发动，承受先锋队伍受到的50%伤害，持续8秒，同技能效果不叠加",
 	stack = 1,
-	id = 4041,
+	color = "blue",
 	icon = 4040,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 4042,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

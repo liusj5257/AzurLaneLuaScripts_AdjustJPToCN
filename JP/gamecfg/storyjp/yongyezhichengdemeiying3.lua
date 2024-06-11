@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"永き城の麗しき影\n\n<size=45>三 勝てない呪い</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "対局の結果は……予想通り引き分けだった。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "対局の結果は……予想通り引き分けだった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "どうやら何も変わらないわね",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "残念です。このチェスに込められた永久の呪いはあなたにも破れません",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人間さんの鮮血を吸い尽くしたとしても、一瞬だけ渇きを忘れられるとはいえ、結局この永遠の悩みからは逃れられません",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「考えが変わったわ。エムデンに服従して、ペットとして喜ばせてくれたら、人間の夢見る永遠の命を与え無限の快楽をあげる」",
 			typewriter = {
 				speed = 0.05,
@@ -123,10 +123,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402071,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "もう一回だけ、可愛い人間さんに対局のチャンスをあげてもいいですけど、もし負けましたらエムデンの食料になっていただくしかありませんわ",
 			typewriter = {
 				speed = 0.05,
@@ -138,12 +138,12 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「どっちを選べばいいか、あなたにはわかってるでしょうね？」",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "もう一回チェスをやるか、エムデンに服従するか、どうやら選ばなければならないようだ…",
 			typewriter = {
 				speed = 0.05,
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "服従を選んだわね。ふふふ、やっぱり人間は軟弱ね",
 			typewriter = {
 				speed = 0.05,
@@ -216,13 +216,13 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「人間への血の抱擁はまた後で…今はエムデンの胸の中で眠りに付き、ゆっくり待ちなさい♥」",
 			typewriter = {
 				speed = 0.05,
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,14 +296,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "目が覚めると、エムデンもヨルクの姿もいなくなっており、代わりにチェス盤があった場所にルビーが飾られたネックレスが置かれていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -384,9 +384,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			blackBg = true,
-			dir = 1,
 			optionFlag = 1,
+			dir = 1,
+			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -505,16 +505,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
+			bgName = "star_level_bg_156",
 			actor = 403111,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "対局の結果は……エムデンが勝利した。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -539,13 +539,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "なるほど。勝つことを諦めて、相手を勝たせることに集中したというわけね",
 			typewriter = {
 				speed = 0.05,
@@ -576,13 +576,13 @@ return {
 			}
 		},
 		{
-			actor = 402071,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 402071,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ですから、エムデンは約束通りあなたをここから解放します。おめでとうございます、可愛い人間さん",
 			typewriter = {
 				speed = 0.05,
@@ -628,13 +628,13 @@ return {
 			}
 		},
 		{
-			actor = 403111,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 403111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "これは「血の呪いネックレス」というの。名前を覚えておいて。きっと役に立つわ",
 			typewriter = {
 				speed = 0.05,
@@ -646,11 +646,11 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
+			blackBg = true,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			blackBg = true,
+			optionFlag = 2,
 			say = "廊下に続く扉が開いた。どうやらこのステージを無事クリアできたようだ。",
 			typewriter = {
 				speed = 0.05,

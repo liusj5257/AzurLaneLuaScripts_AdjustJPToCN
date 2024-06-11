@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA9",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA9",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -22,11 +22,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			dir = 1,
-			actor = 10400010,
 			withoutActorName = true,
-			say = "（ドカーン！）",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 10400010,
+			say = "（ドカーン！）",
 			flashN = {
 				color = {
 					1,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -111,8 +111,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "ニセキズナアイ",
 			say = "………",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "キズナアイ",
 			say = "このままいけば楽勝かもしれませんね♪私一人でも十分かも？",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "キズナアイ",
 			say = "も、もうあんな無茶はしませんよ！さっきの二の舞にはなりません！",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "キズナアイ",
 			say = "…でもやはり万全を期して、みなさんで一緒に行きましょう！",
 			typewriter = {

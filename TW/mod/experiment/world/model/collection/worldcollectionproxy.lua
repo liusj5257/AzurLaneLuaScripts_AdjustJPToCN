@@ -56,49 +56,49 @@ for slot4, slot5 in ipairs(pg.world_collection_record_group.all) do
 	end
 end
 
-function slot0.GetCollectionTemplate(slot0)
+slot0.GetCollectionTemplate = function(slot0)
 	assert(uv0.WorldCollectionTemplate[slot0], "Missing WorldCollection Config ID: " .. (slot0 or "NIL"))
 
 	return slot1
 end
 
-function slot0.GetCollectionType(slot0)
+slot0.GetCollectionType = function(slot0)
 	assert(uv0.WorldCollectionTemplateExtend[slot0] and slot1.type, "Missing WorldCollection Type ID: " .. (slot0 or "NIL"))
 
 	return slot1.type
 end
 
-function slot0.GetCollectionGroup(slot0)
+slot0.GetCollectionGroup = function(slot0)
 	assert(uv0.WorldCollectionTemplateExtend[slot0] and slot1.group, "Missing WorldCollection Type ID: " .. (slot0 or "NIL"))
 
 	return slot1.group
 end
 
-function slot0.GetCollectionFileGroupTemplate(slot0)
+slot0.GetCollectionFileGroupTemplate = function(slot0)
 	assert(pg.world_collection_file_group[slot0], "Missing world_collection_file_group Config ID: " .. (slot0 or "NIL"))
 
 	return slot1
 end
 
-function slot0.GetCollectionFileTemplate(slot0)
+slot0.GetCollectionFileTemplate = function(slot0)
 	assert(pg.world_collection_file_template[slot0], "Missing world_collection_file_template Config ID: " .. (slot0 or "NIL"))
 
 	return slot1
 end
 
-function slot0.GetCollectionRecordGroupTemplate(slot0)
+slot0.GetCollectionRecordGroupTemplate = function(slot0)
 	assert(pg.world_collection_record_group[slot0], "Missing world_collection_record_group Config ID: " .. (slot0 or "NIL"))
 
 	return slot1
 end
 
-function slot0.GetCollectionRecordTemplate(slot0)
+slot0.GetCollectionRecordTemplate = function(slot0)
 	assert(pg.world_collection_record_template[slot0], "Missing world_collection_record_template Config ID: " .. (slot0 or "NIL"))
 
 	return slot1
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.data = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -106,13 +106,13 @@ function slot0.Setup(slot0, slot1)
 	end
 end
 
-function slot0.Unlock(slot0, slot1)
+slot0.Unlock = function(slot0, slot1)
 	if not slot0.data[slot1] then
 		slot0.data[slot1] = true
 	end
 end
 
-function slot0.IsUnlock(slot0, slot1)
+slot0.IsUnlock = function(slot0, slot1)
 	return tobool(slot0.data[slot1])
 end
 

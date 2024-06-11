@@ -1,12 +1,12 @@
 return {
-	id = "W890120",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W890120",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "세이렌 실험장 진입 후, 함대가 운송 중인 물품(예를 들어 에너지 매트릭스)은 사라집니다.",
 			typewriter = {
 				speed = 0.05,

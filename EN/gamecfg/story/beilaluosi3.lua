@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"White Gallantry\n\n<size=45>3 Luck of the Draw</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 705040,
-			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Za zdorov'ye! To the revolution!",
 			bgm = "story-1",
+			actor = 705040,
+			nameColor = "#a9f548",
+			say = "Za zdorov'ye! To the revolution!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "Everyone Else",
 			dir = 1,
+			actorName = "Everyone Else",
 			say = "To the revolution!",
 			effects = {
 				{
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "After the workday was over, I attended a welcoming party for the new Northern Parliament girls.",
 			effects = {
 				{
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "I thank you for your kindness, Comrade.",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Rather than profit from the prize, it instead incurred us further expenses. I feared you'd want to cut your losses.",
 			typewriter = {
@@ -165,9 +165,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Belorussiya went on to explain to me that the lottery prize was in fact a discount voucher for an all-inclusive party bundle.",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "As Gromky was left without a coin to her name, she obviously couldn't use the voucher herself. Thus, a bit of additional funding was needed.",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "We kind of didn't stop to check what the prize was. Mm, that's all.",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "You really bought thirty tickets, unaware of what you were hoping to win?",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "S-seeing the \"almost sold out\" on the store display gave us tunnel vision...",
 			typewriter = {
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "In the end, I was left feeling like we did a good deed today.",
 			typewriter = {
 				speed = 0.05,
@@ -261,15 +261,15 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "Now that we're alone, it's time I offer you an apology, Comrade. I did, in essence, coerce you into funding this lavish party.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "I blame it on my being insistent on having things my way. It's a bad habit of mine.",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "I can be a wildcard, I will admit that. It does inconvenience people at times, too...",
 			typewriter = {
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "That rang true. I looked back to the day that I appointed her as my secretary. It was astonishing, to say the least.",
 			typewriter = {
 				speed = 0.05,
@@ -342,9 +342,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Nevertheless, I figured there was no need to limit her authority as long as she uses it for good things, like on this day.",
 			typewriter = {
 				speed = 0.05,

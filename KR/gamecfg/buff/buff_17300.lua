@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17300,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17300,
+	color = "red",
 	icon = 17300,
 	last_effect = "",
 	effect_list = {
@@ -57,9 +57,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 17302,
 				time = 20,
-				target = "TargetSelf",
-				skill_id = 17302
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -68,9 +68,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 17303,
 				time = 20,
-				target = "TargetSelf",
-				skill_id = 17303
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -90,8 +90,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17435,
-				target = "TargetSelf",
-				time = 12
+				time = 12,
+				target = "TargetSelf"
 			}
 		}
 	}

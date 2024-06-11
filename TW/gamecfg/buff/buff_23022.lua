@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行10次攻击，触发全弹发射-1934A型II"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 23022,
 	picture = "",
 	desc = "主炮每进行10次攻击，触发全弹发射-1934A型II",
 	stack = 1,
-	id = 23022,
+	color = "red",
 	icon = 20000,
 	last_effect = "",
 	effect_list = {
@@ -19,9 +19,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 23020,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 23020,
 				index = {
 					1
 				}
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 23022,
+				target = "TargetSelf",
 				countType = 23020
 			}
 		}

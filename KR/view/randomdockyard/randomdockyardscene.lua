@@ -3,11 +3,11 @@ slot0.MODE_VIEW = 1
 slot0.MODE_ADD = 2
 slot0.MODE_REMOVE = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RandomDockYardUI"
 end
 
-function slot0.OnChangeRandomShips(slot0)
+slot0.OnChangeRandomShips = function(slot0)
 	slot0.randomFlagShips = nil
 	slot0.dockyardShips = nil
 
@@ -16,7 +16,7 @@ function slot0.OnChangeRandomShips(slot0)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.titleImg = slot0:findTF("blur_panel/adapt/top/title"):GetComponent(typeof(Image))
 	slot0.titleEnImg = slot0:findTF("blur_panel/adapt/top/title/title_en"):GetComponent(typeof(Image))
 	slot0.scrollrect = slot0:findTF("main/ship_container/ships"):GetComponent("LScrollRect")
@@ -55,7 +55,7 @@ function slot0.init(slot0)
 	slot0:InitDefault()
 end
 
-function slot0.InitDefault(slot0)
+slot0.InitDefault = function(slot0)
 	slot0.selected = {}
 	slot0.titles = {
 		[uv0.MODE_VIEW] = GetSpriteFromAtlas("ui/dockyardui_atlas", "title_random_ship"),
@@ -69,8 +69,8 @@ function slot0.InitDefault(slot0)
 	}
 	slot0.msgBoxTitle = {
 		[uv0.MODE_VIEW] = {
-			cn = "",
-			en = ""
+			en = "",
+			cn = ""
 		},
 		[uv0.MODE_ADD] = {
 			en = "ADD",
@@ -136,14 +136,14 @@ function slot0.InitDefault(slot0)
 	}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.cards = {}
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnItemUpdate(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -214,7 +214,7 @@ function slot0.didEnter(slot0)
 	slot0:Switch(uv0.MODE_VIEW)
 end
 
-function slot0.GetRandomFlagShips(slot0)
+slot0.GetRandomFlagShips = function(slot0)
 	if not slot0.randomFlagShips then
 		slot0.randomFlagShips = {}
 		slot2 = getProxy(BayProxy)
@@ -229,7 +229,7 @@ function slot0.GetRandomFlagShips(slot0)
 	return slot0.randomFlagShips
 end
 
-function slot0.GetDockYardShipAndNotInRandom(slot0)
+slot0.GetDockYardShipAndNotInRandom = function(slot0)
 	if not slot0.dockyardShips then
 		slot2 = {}
 
@@ -249,7 +249,7 @@ function slot0.GetDockYardShipAndNotInRandom(slot0)
 	return slot0.dockyardShips
 end
 
-function slot0.GetShipList(slot0, slot1)
+slot0.GetShipList = function(slot0, slot1)
 	slot2 = {}
 
 	if slot1 == uv0.MODE_VIEW then
@@ -263,7 +263,7 @@ function slot0.GetShipList(slot0, slot1)
 	return slot2
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0:Clear()
 
 	slot0.selected = {}
@@ -282,7 +282,7 @@ function slot0.Switch(slot0, slot1)
 	end
 end
 
-function slot0.UpdateModeStyle(slot0, slot1, slot2)
+slot0.UpdateModeStyle = function(slot0, slot1, slot2)
 	slot0.titleImg.sprite = slot0.titles[slot1]
 
 	slot0.titleImg:SetNativeSize()
@@ -305,7 +305,7 @@ function slot0.UpdateModeStyle(slot0, slot1, slot2)
 	})
 end
 
-function slot0.OnConfirm(slot0)
+slot0.OnConfirm = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.selected) do
@@ -323,7 +323,7 @@ function slot0.OnConfirm(slot0)
 	end)
 end
 
-function slot0.OnAll(slot0)
+slot0.OnAll = function(slot0)
 	for slot4, slot5 in ipairs(slot0.displays) do
 		slot0.selected[slot5.id] = true
 	end
@@ -332,7 +332,7 @@ function slot0.OnAll(slot0)
 	slot0:UpdateSelectedCnt(slot0.selected)
 end
 
-function slot0.UpdateSelectedCnt(slot0, slot1)
+slot0.UpdateSelectedCnt = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in pairs(slot1) do
@@ -345,11 +345,11 @@ function slot0.UpdateSelectedCnt(slot0, slot1)
 	setActive(slot0.confirmBtnMask, slot2 <= 0)
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	return slot0.sortIndex ~= ShipIndexConst.SortLevel or slot0.typeIndex ~= ShipIndexConst.TypeAll or slot0.campIndex ~= ShipIndexConst.CampAll or slot0.rarityIndex ~= ShipIndexConst.RarityAll or slot0.extraIndex ~= ShipIndexConst.ExtraALL
 end
 
-function slot0.OnFilter(slot0, slot1)
+slot0.OnFilter = function(slot0, slot1)
 	slot2 = slot0.indexDatas[slot0.mode]
 	slot2.sortIndex = slot1.sortIndex
 	slot2.typeIndex = slot1.typeIndex
@@ -361,7 +361,7 @@ function slot0.OnFilter(slot0, slot1)
 	slot0:FlushShipList(slot0:GetShipList(slot0.mode))
 end
 
-function slot0.OnItemUpdate(slot0, slot1)
+slot0.OnItemUpdate = function(slot0, slot1)
 	slot2 = RandomDockYardCard.New(slot1)
 
 	onButton(slot0, slot2._go, function ()
@@ -382,7 +382,7 @@ function slot0.OnItemUpdate(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnItemUpdate(slot2)
 
@@ -394,7 +394,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot4, slot0.selected[slot4.id])
 end
 
-function slot0.FlushShipList(slot0, slot1)
+slot0.FlushShipList = function(slot0, slot1)
 	slot0.displays = {}
 
 	slot0:FilterShips(slot1, slot0.displays)
@@ -406,12 +406,12 @@ function slot0.FlushShipList(slot0, slot1)
 	setActive(slot0.emptyTr, slot2 <= 0)
 end
 
-function slot0.FilterShips(slot0, slot1, slot2)
+slot0.FilterShips = function(slot0, slot1, slot2)
 	slot3 = slot0.lockFlags[slot0.mode]
 	slot4 = slot0.frequentlyUseFlags[slot0.mode]
 	slot5 = slot0.indexDatas[slot0.mode]
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		return (not uv0 or not not slot0:IsLocked()) and (not uv1 or not not slot0:IsPreferenceTag()) and ShipIndexConst.filterByType(slot0, uv2.typeIndex) and ShipIndexConst.filterByCamp(slot0, uv2.campIndex) and ShipIndexConst.filterByRarity(slot0, uv2.rarityIndex) and ShipIndexConst.filterByExtra(slot0, uv2.extraIndex)
 	end
 
@@ -422,7 +422,7 @@ function slot0.FilterShips(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SortShips(slot0, slot1)
+slot0.SortShips = function(slot0, slot1)
 	slot5, slot6 = ShipIndexConst.getSortFuncAndName(slot0.indexDatas[slot0.mode].sortIndex, slot0.sortFlags[slot0.mode])
 
 	table.insert(slot5, 1, function (slot0)
@@ -433,11 +433,11 @@ function slot0.SortShips(slot0, slot1)
 	slot0.sortTxt.text = i18n(slot6)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end
@@ -445,7 +445,7 @@ function slot0.Clear(slot0)
 	slot0.cards = {}
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.titles = nil
 
 	if slot0.msgbox then

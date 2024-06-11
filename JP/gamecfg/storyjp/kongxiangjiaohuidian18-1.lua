@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN18-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN18-1",
 	scripts = {
 		{
-			stopbgm = true,
 			nameColor = "#A9F548FF",
-			side = 2,
-			bgm = "theme-thehermitIX",
-			bgmDelay = 2,
+			stopbgm = true,
 			say = "鏡面海域・下部空間",
+			side = 2,
+			bgmDelay = 2,
+			bgm = "theme-thehermitIX",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -30,8 +30,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "すまない。遅くなったわ",
 			painting = {
 				alpha = 0.3,
@@ -61,8 +61,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405030,
 			dir = 1,
+			actor = 405030,
 			say = "さっきあの敵を「アビータIX」と瑞鶴が言っていたが、どうやら本体ではなくスペアボディらしい",
 			painting = {
 				alpha = 0.3,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405030,
 			dir = 1,
+			actor = 405030,
 			say = "スペアボディはつまり「駒」のようなもの。たしかに手強いがこの戦力でもなんとかなるはず",
 			painting = {
 				alpha = 0.3,
@@ -93,8 +93,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405030,
 			dir = 1,
+			actor = 405030,
 			say = "とにかく、お前が到着するまでの時間は稼いだぞ",
 			painting = {
 				alpha = 0.3,
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405030,
 			dir = 1,
+			actor = 405030,
 			say = "あとはこいつから距離を取って、もう一回やつにあの不気味な敵とぶつけさせれば",
 			painting = {
 				alpha = 0.3,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "……あいつが明確に我々を狙って向かってきている以上、逃げ回っては解決にならない",
 			painting = {
 				alpha = 0.3,
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "（赤城たちも？）",
 			painting = {
 				alpha = 0.3,
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "みんな、戦闘準備！",
 			painting = {
 				alpha = 0.3,

@@ -2,7 +2,7 @@ slot0 = class("EquipmentTransformTreeScene", import("view.base.BaseUI"))
 slot1 = require("Mgr/Pool/PoolPlural")
 slot2 = "ui/EquipmentTransformTreeUI_atlas"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EquipmentTransformTreeUI"
 end
 
@@ -12,7 +12,7 @@ slot0.optionsPath = {
 slot0.MODE_NORMAL = 1
 slot0.MODE_HIDESIDE = 2
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.leftPanel = slot0._tf:Find("Adapt/Left")
 	slot0.rightPanel = slot0._tf:Find("Adapt/Right")
 	slot0.nationToggleGroup = slot0.leftPanel:Find("Nations"):Find("ViewPort/Content")
@@ -42,17 +42,17 @@ function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.GetEnv(slot0)
+slot0.GetEnv = function(slot0)
 	slot0.env = slot0.env or {}
 
 	return slot0.env
 end
 
-function slot0.SetEnv(slot0, slot1)
+slot0.SetEnv = function(slot0, slot1)
 	slot0.env = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:OverlayPanel(slot0.top)
@@ -108,7 +108,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.GetSortKeys(slot0)
+slot0.GetSortKeys = function(slot0)
 	slot1 = _.keys(slot0)
 
 	table.sort(slot1, function (slot0, slot1)
@@ -118,7 +118,7 @@ function slot0.GetSortKeys(slot0)
 	return slot1
 end
 
-function slot0.GetSortTypes(slot0)
+slot0.GetSortTypes = function(slot0)
 	slot1 = _.values(slot0)
 
 	table.sort(slot1, function (slot0, slot1)
@@ -130,7 +130,7 @@ function slot0.GetSortTypes(slot0)
 	end)
 end
 
-function slot0.InitPage(slot0)
+slot0.InitPage = function(slot0)
 	slot0.firstInit = true
 	slot1.mode = slot0.contextData.mode or uv0.MODE_NORMAL
 	slot4 = uv0.GetSortKeys(slot0.env.nationsTree)
@@ -157,7 +157,7 @@ function slot0.InitPage(slot0)
 	slot0.firstInit = nil
 end
 
-function slot0.UpdateNations(slot0)
+slot0.UpdateNations = function(slot0)
 	slot0.nationToggles = CustomIndexLayer.Clone2Full(slot0.nationToggleGroup, #uv0.GetSortKeys(slot0.env.nationsTree))
 
 	for slot5 = 1, #slot0.nationToggles do
@@ -201,7 +201,7 @@ function slot0.UpdateNations(slot0)
 	end
 end
 
-function slot0.UpdateEquipmentTypes(slot0)
+slot0.UpdateEquipmentTypes = function(slot0)
 	slot0.equipmentTypeToggles = CustomIndexLayer.Clone2Full(slot0.equipmentTypeToggleGroup, #uv0.GetSortTypes(slot0.env.nationsTree[slot0.contextData.nation]))
 
 	for slot5 = 1, #slot0.equipmentTypeToggles do
@@ -233,7 +233,7 @@ slot3 = {
 	6
 }
 
-function slot0.ResetCanvas(slot0)
+slot0.ResetCanvas = function(slot0)
 	slot1 = EquipmentProxy.EquipmentTransformTreeTemplate[slot0.contextData.nation][slot0.contextData.equipmentTypeIndex]
 	slot6 = " Type: "
 	slot7 = slot0.contextData.equipmentTypeIndex
@@ -356,7 +356,7 @@ function slot0.ResetCanvas(slot0)
 	end
 end
 
-function slot0.UpdateItemNode(slot0, slot1, slot2)
+slot0.UpdateItemNode = function(slot0, slot1, slot2)
 	slot1 = tf(slot1)
 	slot1.anchoredPosition = Vector2(slot2[1], -slot2[2])
 
@@ -395,13 +395,13 @@ function slot0.UpdateItemNode(slot0, slot1, slot2)
 	setActive(slot1:Find("Item/new"), slot2[4] and PlayerPrefs.GetInt("ShowTransformTip_" .. slot2[3], 0) == 0)
 end
 
-function slot0.UpdateItemNodes(slot0)
+slot0.UpdateItemNodes = function(slot0)
 	for slot4, slot5 in ipairs(slot0.nodes) do
 		slot0:UpdateItemNode(slot5.go, slot5.cfg)
 	end
 end
 
-function slot0.UpdateItemNodeByID(slot0, slot1)
+slot0.UpdateItemNodeByID = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.nodes) do
 		if slot1 == slot6.id then
 			slot0:UpdateItemNode(slot6.go, slot6.cfg)
@@ -411,7 +411,7 @@ function slot0.UpdateItemNodeByID(slot0, slot1)
 	end
 end
 
-function slot0.ReturnCanvasItems(slot0, slot1)
+slot0.ReturnCanvasItems = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.nodes) do
 		if not slot0.plurals.EquipNode:Enqueue(slot6.go, slot1) then
 			setParent(slot6.go, slot0.pluralRoot)
@@ -429,7 +429,7 @@ function slot0.ReturnCanvasItems(slot0, slot1)
 	table.clean(slot0.links)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot4 = slot0._tf
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot4)

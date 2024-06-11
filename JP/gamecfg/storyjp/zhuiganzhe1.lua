@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お嬢様とめぐるひとときを\n\n<size=45>一 青空と始まりの音</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "仕事がひと段落ついて散歩をしていると、じわりと額に汗が滲んでいることに気が付いた。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "仕事がひと段落ついて散歩をしていると、じわりと額に汗が滲んでいることに気が付いた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "今朝はそれほど暑くなかったのに――と、快晴の青い空を見上げたその時。",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "カキィィィィィィィィィンッッッ！！",
@@ -81,11 +81,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "わぁーっ！？また打たれちゃったーーーーっ！！",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "そんな悔しそうなアキリーズの声が響くと同時に、小さな白球が雲一つない青空を真一文字に切っていく。",
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "どうやらリアンダー級の三人が野球をしているようだ。そう思い、目を向けると――",
@@ -188,8 +188,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "バッティングのカンがだいぶ戻ってきたようね。さぁ、もう一本投げてみなさい",
 			typewriter = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "えぇ～もう勘弁してよ～こっちが気持ちよく投げても、そんなに遠慮なく打たれたらそれはそれで凹むんだぞ＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "アキリーズはしゃがんだままぶんぶん首を振る。どうやら三人は今までチェイサーを相手にしていたらしい。",
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "さすがに元ボーグの姉妹艦でもある彼女を相手に野球をするのはあまりに分が悪い。",
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "こんなに強いって知ってたら、挑まなかったよ～！",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "ふふふ、まぁいいわ。今日はこの辺で終わりにしましょうか――って、そちらにいらっしゃるのは指揮官じゃない？",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "こちらの様子に気づいたチェイサーを見ながら、リアンダー級の三人にも一緒に手を振ってみせた。",
@@ -335,8 +335,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "もしかしてわたくしの打ったボールを見てここまでやって来たのかしら？",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "そうだ指揮官、この後少し時間借りてもいい？できれば相談したいことがあるのだけど",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "幸いなことに仕事は終わっているので、この後の予定は特にない。",
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "そのことを伝えると、チェイサーはくすりと笑って隣に並んだ。",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

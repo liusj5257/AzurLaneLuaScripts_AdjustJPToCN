@@ -1,12 +1,12 @@
 return {
-	time = 1,
-	name = "2023俾斯麦Z活动 侵蚀等级3 不良效果",
 	init_effect = "",
+	name = "2023俾斯麦Z活动 侵蚀等级3 不良效果",
+	time = 1,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200408,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 202270,
 			dir = 1,
+			bgm = "bgm-cccp2",
+			actor = 202270,
 			nameColor = "#a9f548",
 			say = "...司令部首先發來聯絡了，發信人是…伊莉莎白女王陛下？！",
-			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,8 +80,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			nameColor = "#a9f548",
 			say = "不對......哎？我是不是聽錯了，陛下剛剛說什麼...？",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			nameColor = "#a9f548",
 			say = "命令說...要我們立刻掉頭與支援艦隊匯合，準備迎擊鐵血主力艦隊......",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			nameColor = "#a9f548",
 			say = "按照皇家海軍的傳統，一旦發現敵方艦隊集結我方艦隊確實應該主動迎擊，不過...哎？現在我們可是在護航中啊！",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			nameColor = "#a9f548",
 			say = "現在離開將會是拋棄整個運輸船隊和北方聯合的背叛行為，陛下怎麼會下出這樣的命令來...！",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			nameColor = "#a9f548",
 			say = "也許真的發生了情報洩露，也許局勢發生了某些預料之外的變化…立刻向司令部回覆核實剛剛的命令！",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			nameColor = "#a9f548",
 			say = "是！",
 			typewriter = {
@@ -195,15 +195,15 @@ return {
 			}
 		},
 		{
-			actor = 408060,
 			side = 2,
 			bgName = "star_level_bg_134",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 408060,
+			nameColor = "#ff5c5c",
 			say = "U-73按照計劃撤退了，天上的飛機也返航了，這下皇家的運輸艦隊就暫時安全了哦~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -295,9 +295,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_134",
-			actor = 408070,
 			dir = 1,
 			blackBg = true,
+			actor = 408070,
 			nameColor = "#ff5c5c",
 			say = "好嘛好嘛~作為潛艇，最不缺的可就是耐心了哦，嘻嘻~",
 			typewriter = {

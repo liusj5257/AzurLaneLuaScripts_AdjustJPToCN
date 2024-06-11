@@ -1,19 +1,19 @@
 slot0 = class("WorldMapCell", import("...BaseEntity"))
 slot0.Fields = {
+	inLight = "number",
+	row = "number",
+	fogLight = "boolean",
+	terrain = "number",
+	dir = "number",
+	column = "number",
+	walkable = "boolean",
 	terrainDir = "number",
 	discovered = "boolean",
 	attachments = "table",
 	fogSairen = "boolean",
-	dir = "number",
-	column = "number",
-	walkable = "boolean",
 	fog = "boolean",
-	row = "number",
-	infov = "number",
-	terrain = "number",
-	inLight = "number",
 	terrainStrong = "number",
-	fogLight = "boolean"
+	infov = "number"
 }
 slot0.EventAddAttachment = "WorldMapCell.EventAddAttachment"
 slot0.EventRemoveAttachment = "WorldMapCell.EventRemoveAttachment"
@@ -23,7 +23,7 @@ slot0.EventUpdateFog = "WorldMapCell.EventUpdateFog"
 slot0.EventUpdateFogImage = "WorldMapCell.EventUpdateFogImage"
 slot0.EventUpdateTerrain = "WorldMapCell.EventUpdateTerrain"
 
-function slot0.GetName(slot0, slot1)
+slot0.GetName = function(slot0, slot1)
 	return "cell_" .. slot0 .. "_" .. slot1
 end
 
@@ -35,7 +35,7 @@ slot0.TerrainFog = 4
 slot0.TerrainFire = 5
 slot0.TerrainPoison = 6
 
-function slot0.Build(slot0)
+slot0.Build = function(slot0)
 	slot0.attachments = {}
 	slot0.dir = 0
 	slot0.infov = 0
@@ -45,18 +45,18 @@ function slot0.Build(slot0)
 	slot0.fogSairen = false
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.row = slot1[1]
 	slot0.column = slot1[2]
 	slot0.walkable = slot1[3]
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	WPool:ReturnArray(slot0.attachments)
 	slot0:Clear()
 end
 
-function slot0.AddAttachment(slot0, slot1)
+slot0.AddAttachment = function(slot0, slot1)
 	assert(not _.any(slot0.attachments, function (slot0)
 		return slot0.row == uv0.row and slot0.column == uv0.column and slot0.type == uv0.type and slot0.id == uv0.id
 	end))
@@ -82,7 +82,7 @@ function slot0.AddAttachment(slot0, slot1)
 	end
 end
 
-function slot0.RemoveAttachment(slot0, slot1)
+slot0.RemoveAttachment = function(slot0, slot1)
 	if slot1 == nil or type(slot1) == "number" then
 		slot1 = slot1 or #slot0.attachments
 
@@ -104,13 +104,13 @@ function slot0.RemoveAttachment(slot0, slot1)
 	end
 end
 
-function slot0.ContainsAttachment(slot0, slot1)
+slot0.ContainsAttachment = function(slot0, slot1)
 	return _.any(slot0.attachments, function (slot0)
 		return slot0 == uv0
 	end)
 end
 
-function slot0.GetInFOV(slot0)
+slot0.GetInFOV = function(slot0)
 	if slot0.fog then
 		return slot0.fogLight
 	else
@@ -120,7 +120,7 @@ function slot0.GetInFOV(slot0)
 	end
 end
 
-function slot0.UpdateInFov(slot0, slot1)
+slot0.UpdateInFov = function(slot0, slot1)
 	AfterCheck({
 		{
 			function ()
@@ -135,7 +135,7 @@ function slot0.UpdateInFov(slot0, slot1)
 	end)
 end
 
-function slot0.ChangeInLight(slot0, slot1)
+slot0.ChangeInLight = function(slot0, slot1)
 	AfterCheck({
 		{
 			function ()
@@ -150,7 +150,7 @@ function slot0.ChangeInLight(slot0, slot1)
 	end)
 end
 
-function slot0.InFog(slot0)
+slot0.InFog = function(slot0)
 	if slot0.fog then
 		return not slot0.fogLight
 	else
@@ -158,11 +158,11 @@ function slot0.InFog(slot0)
 	end
 end
 
-function slot0.LookSairenFog(slot0)
+slot0.LookSairenFog = function(slot0)
 	return slot0.fogSairen or slot0:IsTerrainSairenFog()
 end
 
-function slot0.UpdateFog(slot0, slot1, slot2, slot3)
+slot0.UpdateFog = function(slot0, slot1, slot2, slot3)
 	AfterCheck({
 		{
 			function ()
@@ -195,7 +195,7 @@ function slot0.UpdateFog(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.UpdateDiscovered(slot0, slot1)
+slot0.UpdateDiscovered = function(slot0, slot1)
 	if slot0.discovered ~= slot1 then
 		slot0.discovered = slot1
 
@@ -203,11 +203,11 @@ function slot0.UpdateDiscovered(slot0, slot1)
 	end
 end
 
-function slot0.GetTerrain(slot0)
+slot0.GetTerrain = function(slot0)
 	return slot0.terrain or uv0.TerrainNone
 end
 
-function slot0.UpdateTerrain(slot0, slot1, slot2, slot3)
+slot0.UpdateTerrain = function(slot0, slot1, slot2, slot3)
 	AfterCheck({
 		{
 			function ()
@@ -247,37 +247,37 @@ function slot0.UpdateTerrain(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.GetAliveAttachments(slot0)
+slot0.GetAliveAttachments = function(slot0)
 	return _.filter(slot0.attachments, function (slot0)
 		return slot0:IsAlive()
 	end)
 end
 
-function slot0.GetAliveAttachment(slot0)
+slot0.GetAliveAttachment = function(slot0)
 	return _.detect(slot0.attachments, function (slot0)
 		return slot0:IsAlive()
 	end)
 end
 
-function slot0.GetDisplayAttachment(slot0)
+slot0.GetDisplayAttachment = function(slot0)
 	return _.detect(slot0.attachments, function (slot0)
 		return slot0:IsAlive() and slot0:IsVisible()
 	end)
 end
 
-function slot0.GetInterativeAttachment(slot0)
+slot0.GetInterativeAttachment = function(slot0)
 	return _.detect(slot0.attachments, function (slot0)
 		return WorldMapAttachment.IsInteractiveType(slot0.type) and slot0:IsAlive() and slot0:IsVisible()
 	end)
 end
 
-function slot0.GetEventAttachment(slot0)
+slot0.GetEventAttachment = function(slot0)
 	return _.detect(slot0.attachments, function (slot0)
 		return slot0:IsAlive() and slot0.type == WorldMapAttachment.TypeEvent
 	end)
 end
 
-function slot0.GetCompassAttachment(slot0)
+slot0.GetCompassAttachment = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.attachments) do
@@ -297,7 +297,7 @@ function slot0.GetCompassAttachment(slot0)
 	end) and slot0.attachments[slot2]
 end
 
-function slot0.FindAliveAttachment(slot0, slot1)
+slot0.FindAliveAttachment = function(slot0, slot1)
 	assert(slot1 ~= nil)
 
 	return _.detect(slot0.attachments, function (slot0)
@@ -305,45 +305,45 @@ function slot0.FindAliveAttachment(slot0, slot1)
 	end)
 end
 
-function slot0.IsTerrainSairenFog(slot0)
+slot0.IsTerrainSairenFog = function(slot0)
 	return slot0.terrain == uv0.TerrainFog and slot0.terrainStrong == 0
 end
 
-function slot0.CanLeave(slot0)
+slot0.CanLeave = function(slot0)
 	return slot0.walkable and slot0:GetTerrainObstacleConfig("leave") and underscore.all(slot0.attachments, function (slot0)
 		return not slot0:IsAlive() or slot0:CanLeave()
 	end)
 end
 
-function slot0.CanArrive(slot0)
+slot0.CanArrive = function(slot0)
 	return slot0.walkable and slot0:GetTerrainObstacleConfig("arrive") and underscore.all(slot0.attachments, function (slot0)
 		return not slot0:IsAlive() or slot0:CanArrive()
 	end)
 end
 
-function slot0.CanPass(slot0)
+slot0.CanPass = function(slot0)
 	return slot0.walkable and slot0:GetTerrainObstacleConfig("pass") and underscore.all(slot0.attachments, function (slot0)
 		return not slot0:IsAlive() or slot0:CanPass()
 	end)
 end
 
-function slot0.IsSign(slot0)
+slot0.IsSign = function(slot0)
 	return _.any(slot0.attachments, function (slot0)
 		return slot0:IsAlive() and slot0:IsSign()
 	end)
 end
 
-function slot0.ExistEnemy(slot0)
+slot0.ExistEnemy = function(slot0)
 	return tobool(slot0:GetStageEnemy())
 end
 
-function slot0.GetStageEnemy(slot0)
+slot0.GetStageEnemy = function(slot0)
 	return _.detect(slot0.attachments, function (slot0)
 		return slot0:IsAlive() and WorldMapAttachment.IsEnemyType(slot0.type)
 	end)
 end
 
-function slot0.GetDisplayQuad(slot0)
+slot0.GetDisplayQuad = function(slot0)
 	slot1 = nil
 	slot2 = slot0:GetDisplayAttachment()
 
@@ -366,11 +366,11 @@ function slot0.GetDisplayQuad(slot0)
 	return slot1
 end
 
-function slot0.GetEmotion(slot0)
+slot0.GetEmotion = function(slot0)
 	return slot0.terrain == uv0.TerrainPoison and WorldConst.PoisonEffect or nil
 end
 
-function slot0.GetScannerAttachment(slot0)
+slot0.GetScannerAttachment = function(slot0)
 	slot2, slot3 = nil
 
 	for slot7, slot8 in ipairs(slot0:GetAliveAttachments()) do
@@ -394,11 +394,11 @@ slot0.TerrainObstacleConfig = {
 	[slot0.TerrainPoison] = 7
 }
 
-function slot0.GetTerrainObstacleConfig(slot0, slot1)
+slot0.GetTerrainObstacleConfig = function(slot0, slot1)
 	return bit.band(uv0.TerrainObstacleConfig[slot0:IsTerrainSairenFog() and "SairenFog" or slot0:GetTerrain()], WorldConst.GetObstacleKey(slot1)) > 0
 end
 
-function slot0.IsMovingTerrain(slot0)
+slot0.IsMovingTerrain = function(slot0)
 	return slot0 == uv0.TerrainStream or slot0 == uv0.TerrainIce or slot0 == uv0.TerrainWind
 end
 

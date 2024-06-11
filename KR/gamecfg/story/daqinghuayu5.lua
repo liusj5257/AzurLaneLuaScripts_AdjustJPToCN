@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"서브마린 트랩!\n\n<size=45>두 사람의 해변 (상)</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			say = "모항 - 해변",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,16 +45,16 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			stopbgm = true,
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "아! 두 번째 생각났다!",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
 					x = 0,
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			say = "그렇게된 연유로ㅡ 오후엔 알바코어와 함께 해변에 오게 되었다.",
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
 			dir = 1,
 			bgmDelay = 0.6,
 			bgm = "story-1",
+			say = "그렇게된 연유로ㅡ 오후엔 알바코어와 함께 해변에 오게 되었다.",
 			effects = {
 				{
 					active = false,
@@ -124,8 +124,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "오늘의 모래사장은 우리들 밖에 없는 것 같네! 헤헤헤~어떤 짓을 해볼까나~지·휘·관♡",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "어라? 헤엄만 치는 거야? 딱히 싫진 않지만.",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "잠수함의 자존심을 걸고! 지휘관, 승부다아아아!!",
 			effects = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "라고, 멋있는 대사를 날리고…",
 			effects = {
 				{
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "첨벙!",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "방심한 틈에 스위밍 스타트! 바이바이~!",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -2250
@@ -288,9 +288,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "알바코어는 내가 반응을 하기도 전에 먼저 바다에 뛰어들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -304,13 +304,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "무인도까지 진짜로 헤엄쳐 도착했지만, 알바코어가 도착한 흔적은 보이지 않는다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "나의 승리군.",
 			typewriter = {
 				speed = 0.05,
@@ -343,19 +343,19 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			say = "서프라이즈!!",
+			dir = 1,
 			bgName = "star_level_bg_106",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#92fc63",
-			say = "서프라이즈!!",
 			actorPosition = {
 				x = 0,
 				y = -750
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.3,
 					x = 0
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#92fc63",
 			say = "아하하하! 지휘관, 깜짝 놀랐어?",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -416,8 +416,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "그럼……제2 라운드, 스타트!",
 			typewriter = {
@@ -430,8 +430,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.6,
 					dur = 0.5,
 					x = -2250
@@ -439,9 +439,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "알바코어는 또 다시 바다로 뛰어들었다.",
 			typewriter = {
 				speed = 0.05,

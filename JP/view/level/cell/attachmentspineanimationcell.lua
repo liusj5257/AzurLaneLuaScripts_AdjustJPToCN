@@ -2,7 +2,7 @@ slot0 = class("AttachmentSpineAnimationCell", import(".StaticCellView"))
 slot0.SDPosition = Vector2(0, -15)
 slot0.SDScale = Vector3(0.4, 0.4, 0.4)
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.name = nil
@@ -13,11 +13,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.timer = nil
 end
 
-function slot0.GetOrder(slot0)
+slot0.GetOrder = function(slot0)
 	return ChapterConst.CellPriorityAttachment
 end
 
-function slot0.Set(slot0, slot1)
+slot0.Set = function(slot0, slot1)
 	if slot0.name == slot1 then
 		return
 	end
@@ -48,7 +48,7 @@ function slot0.Set(slot0, slot1)
 	end, "SD")
 end
 
-function slot0.SetRoutine(slot0, slot1)
+slot0.SetRoutine = function(slot0, slot1)
 	table.clear(slot0.group)
 
 	slot0.AnimIndex = nil
@@ -69,7 +69,7 @@ function slot0.SetRoutine(slot0, slot1)
 	slot0:PlayAction(math.min(#slot0.group, 1))
 end
 
-function slot0.PlayAction(slot0, slot1)
+slot0.PlayAction = function(slot0, slot1)
 	if not slot1 or slot1 <= 0 or slot1 > #slot0.group or slot0.AnimIndexPlaying == slot1 then
 		return
 	end
@@ -100,7 +100,7 @@ function slot0.PlayAction(slot0, slot1)
 	slot0.AnimIndexPlaying = slot1
 end
 
-function slot0.ClearTimer(slot0)
+slot0.ClearTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -108,7 +108,7 @@ function slot0.ClearTimer(slot0)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0:ClearTimer()
 
 	slot0.name = nil

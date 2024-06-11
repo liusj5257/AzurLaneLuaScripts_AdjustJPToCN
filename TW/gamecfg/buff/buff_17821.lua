@@ -7,8 +7,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 5000
 			}
 		},
@@ -19,8 +19,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 5000
 			}
 		}
@@ -33,8 +33,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 5330
 			}
 		},
@@ -45,8 +45,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 5330
 			}
 		}
@@ -59,8 +59,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 5660
 			}
 		},
@@ -71,8 +71,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 5660
 			}
 		}
@@ -85,8 +85,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 5990
 			}
 		},
@@ -97,8 +97,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 5990
 			}
 		}
@@ -111,8 +111,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 6320
 			}
 		},
@@ -123,8 +123,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 6320
 			}
 		}
@@ -137,8 +137,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 6650
 			}
 		},
@@ -149,8 +149,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 6650
 			}
 		}
@@ -163,8 +163,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 6980
 			}
 		},
@@ -175,8 +175,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 6980
 			}
 		}
@@ -189,8 +189,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 7310
 			}
 		},
@@ -201,8 +201,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 7310
 			}
 		}
@@ -215,8 +215,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 7640
 			}
 		},
@@ -227,8 +227,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 7640
 			}
 		}
@@ -241,8 +241,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 8000
 			}
 		},
@@ -253,20 +253,20 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 8000
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 17821,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17821,
+	color = "yellow",
 	icon = 17820,
 	last_effect = "",
 	effect_list = {
@@ -277,8 +277,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "self",
+				target = "TargetSelf",
 				rant = 5000
 			}
 		},
@@ -289,8 +289,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 17822,
-				target = "TargetSelf",
 				killer = "child",
+				target = "TargetSelf",
 				rant = 5000
 			}
 		}

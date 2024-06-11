@@ -4,10 +4,10 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
+			side = 2,
 			say = "\"슈퍼 레인보우 망치 1호\"의 공격 아페, 마왕은 물러설 마음이 생겼다——",
+			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,8 +17,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "공포의 대마왕?",
 			say = "이건 불공평해! 철수하겠다!",
 			painting = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -71,10 +71,10 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "레인보우의 힘을 보여주마 푸링!!!",
 			painting = {
 				alpha = 0.3,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_megaburin",
+			nameColor = "#A9F548FF",
 			actorName = "부린 삼자매",
 			say = "대지를 부숴버리는 일격을 받아라 푸링! 하늘을 뚫는 일격을 받아라 푸링! 별을 떨어뜨리는 일격을 받아라 푸링!",
 			typewriter = {
@@ -149,9 +149,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
+			side = 2,
 			say = "\"슈퍼 레인보우 망치 1호\"의 화려한 빛에 이끌려 부린 자매들의 힘이 함께 뭉쳤고, 별을 밝히는 흰색 빛이 되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "——쾅!!!",
 			soundeffect = "event:/battle/boom2",
+			say = "——쾅!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "………………",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "………………………………",
 			typewriter = {
@@ -250,14 +250,14 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			nameColor = "#A9F548FF",
-			bgName = "bg_unnamearea_1",
 			side = 2,
 			dir = 1,
+			bgName = "bg_unnamearea_1",
+			bgm = "story-richang-1",
+			actor = 100010,
 			stopbgm = true,
 			say = "마왕이 사라졌어, 우리가 이겼다 푸링!",
-			bgm = "story-richang-1",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,8 +274,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,8 +296,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "푸링? \"슈퍼 레인보우 망치 1호\"가 완전히 빛을 잃은 것 같아 푸링!",
 			painting = {
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,9 +322,9 @@ return {
 		{
 			actor = 100000,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "마, 망가졌나 푸링…………",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "음~ 상관없어. 기념품으로 삼지 뭐 푸링! 방금 느꼈는데, 우리의 힘을 함께 모으면 \"슈퍼 레인보우 망치 1호\"보다 더 강한 것 같아 푸링!",
 			painting = {
@@ -353,8 +353,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -365,9 +365,9 @@ return {
 		{
 			actor = 100020,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "승리를 축하하는 게 더 중요하니까, 고기 먹으러 가자 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#A9F548FF",
-			bgName = "bg_unnamearea_1",
 			side = 0,
 			dir = 1,
+			actor = 100000,
+			bgName = "bg_unnamearea_1",
 			hideOther = true,
 			actorName = "범용형 부린&시제형 부린 MKII",
 			say = "좋아 푸링! 좋아 푸링!",
@@ -405,8 +405,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,9 +421,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
+			side = 2,
 			say = "이렇게, 부린 자매들은 완벽한 고기 파티를 즐겼다.",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "그 전설에 관해서라면, 아마 앞으로도 계속 전설로 남지 않을까——",
 			typewriter = {

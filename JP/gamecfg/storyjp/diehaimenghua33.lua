@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA33",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "信濃、こっち……",
 			bgm = "battle-boss-tiancheng",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "信濃、こっち……",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 2,
 					dur = 0.6,
 					x = -2500
@@ -45,11 +45,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "ユニオンの駆逐艦・ラフィー……っ……",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,8 +79,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "…………天城…",
 			typewriter = {
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "弾薬について気になることはありませんわ。演習弾はタンコブができるかもしれませんが…",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "いいえ…妾は…演習とはいえ、このような平和な世界で本当に戦ってもよいのかと…",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "………あなたがそう望むのでしたら、戦うも戦わないもあなたの自由です",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "ええ……ただ、私の観た「夢」は、「世界」が異なっても同じく「事実」…なれど拾えるのは刹那のみであり、この「夢」の行き先など知り得ることは……",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "なるほど、あなたは私たちのことを案じて",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「アズールレーン」も元々一つの陣営、「レッドアクシズ」の出現により世界は引き裂かれ、お互いの思いこそあれど――",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "それも信濃、あなたの意思に関係なく、定めとして起きたこと…そう思うのでしょう",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……妾は「夢」を観ることのみで、ついぞ現実に干渉することが叶わず…",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "この夢を現へと変えたくとも、それを如何にして……",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "天城、妾に教えてくださいませんか……",
 			typewriter = {
@@ -298,9 +298,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "この母港には、いいえ、この世界には、とある存在がいますから――",
 			typewriter = {

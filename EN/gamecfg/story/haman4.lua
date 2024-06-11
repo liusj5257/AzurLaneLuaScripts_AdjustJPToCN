@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Hammann Observation Diary\n\n<size=45>Chapter 4: Unhappiness, Part 3</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "Someone saw me... Someone saw me......",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,8 +36,8 @@ return {
 			actor = 101240,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "It wasn't on purpose but... what the heck were you doing?",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -55,9 +55,9 @@ return {
 			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "Um, so it goes something like this...",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,15 +68,15 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "... But forget about all of that! Right this instant!",
 			dir = 1,
 			bgm = "story-1",
+			actor = 101250,
+			say = "... But forget about all of that! Right this instant!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.15,
 					x = 30,
 					number = 4
@@ -125,12 +125,12 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 1,
 			bgName = "bg_story_task",
-			say = "Of course it's a big deal! I don't know how Commander is handling all this...",
 			dir = 1,
 			bgm = "story-1",
+			actor = 101250,
+			say = "Of course it's a big deal! I don't know how Commander is handling all this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,10 +141,10 @@ return {
 			},
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			}
 		},
@@ -179,14 +179,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -30,
 					dur = 0.5,
-					type = "shake",
-					y = -30
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					number = 3
@@ -224,17 +224,17 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Hammann zoomed off in a puff of smoke.",
 			typewriter = {
 				speed = 0.05,
@@ -297,14 +297,14 @@ return {
 			}
 		},
 		{
-			actor = 101240,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101240,
 			say = "Eek! Commander, when'd you get here?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 2,
 					dur = 0.15,
 					number = 1

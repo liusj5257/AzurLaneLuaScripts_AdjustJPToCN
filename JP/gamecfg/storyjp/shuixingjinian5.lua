@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIXINGJINIAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIXINGJINIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"クーちゃんが秘書艦！\n\n<size=45>五 ごほうび、とは？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ある日の執務室",
-			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,10 +49,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "へへへ、クーちゃんの手伝いのおかげで、今日も早く上がれたわね！",
 			painting = {
 				alpha = 0.3,
@@ -67,10 +67,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はあ～～、なぜか急に肩が凝っちゃったわ…指揮官、ちょっとこっち来て♡",
 			painting = {
 				alpha = 0.3,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "仕事が終わったとたん、だらけモード（？）に戻ってしまったクーちゃん。",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "今日も彼女のおかげで助かったし、毎日この調子でも無いので、中々厳しく言えないのだが……",
@@ -107,10 +107,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、こっち～。そう～肩のここ、一番凝ってるの♪",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "今日も偉そうに「ご褒美」としてマッサージを要求してくるクーちゃんに対して、自分は――",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 3,
@@ -328,8 +328,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -398,10 +398,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こんなに肩が凝ってるのは頑張ってる証拠よ。指揮官、なんか「ご褒美」頂戴♪",
 			painting = {
 				alpha = 0.3,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "え？さっきの肩のマッサージは…",
@@ -427,10 +427,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれも「ご褒美」だけど、あくまで今日がんばった分ね！クーちゃんはこれまでずっと頑張ってたんだから、その分の「ご褒美」もほしい！",
 			painting = {
 				alpha = 0.3,
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "何を言い出すかと思ったら……とりあえずクーちゃんに具体的になにがいいかを聞いてみた。",
@@ -456,10 +456,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "んーまだ考え中！次の非番日までに考えるわ！",
 			painting = {
 				alpha = 0.3,
@@ -474,10 +474,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんじゃ、クーちゃんはもう上がるから！また明日ね！パカー！",
 			painting = {
 				alpha = 0.3,
@@ -492,10 +492,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふんふんふーん♪",
 			painting = {
 				alpha = 0.3,
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "鼻歌まじりに去っていった彼女が廊下の向こうに行くのを見届けると…なんだか次の非番日が妙に（？）楽しみになってきた。",

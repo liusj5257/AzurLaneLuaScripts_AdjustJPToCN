@@ -1,6 +1,6 @@
 slot0 = class("VisitBackYardCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(FriendProxy):getFriend(slot1:getBody()) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_not_add"))
 

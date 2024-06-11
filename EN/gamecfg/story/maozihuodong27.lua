@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG27",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG27",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 1,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "Futile, futile, futile! I built this stronghold, and I won't let you beat me in my own castle!",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900188,
 			dir = 1,
+			actor = 900188,
 			say = "That attack of hers... it's not just interfering with our fire control, but also obstructing our vision!",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "Our rigging isn't working! I can't land a hit at all!",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 7,
 			side = 0,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "If we can't aim, then we might as well stop trying!",
 			typewriter = {
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "...Huh?",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "We have an absolute advantage in terms of firepower! Keep focusing your fire at a general area, and we're bound to hit!",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "Haha! That's right! Get a load of how we fight here in the Northern Parliament!",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "Release suppressive fire!",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Rossiya",
+			side = 2,
 			bgName = "bg_cccp_4",
 			nameColor = "#a9f548",
 			dir = 1,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_350 = {}
 slot1 = slot0.word_template_350
 
-function temp()
+temp = function()
 	uv0["何"] = {
 		["候"] = {
 			["华"] = {
@@ -18,7 +18,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["黎"] = {
 		["阳"] = {
 			["评"] = {
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["联"] = {
 		["大"] = {
 			this = true
@@ -70,7 +70,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["粮"] = {
 		["食"] = {
 			["局"] = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 5 - Good Morning, Good Day, Good Night</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Evening - Training Sector",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "Evening - Training Sector",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 10400020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10400020,
 			actorName = "Kizuna AI",
 			say = "Heyyy!",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "*KA-BLAM!*",
 			typewriter = {
 				speed = 0.05,
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 10400020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10400020,
 			actorName = "Kizuna AI",
 			say = "It's all because everyone's taught me so much. Thanks, everybody!",
 			typewriter = {
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Sakura Dorm",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Sakura Dorm",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -275,16 +275,16 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			stopbgm = true,
-			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_room",
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Uh oh. I got lost on the way back from the training area....",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -347,15 +347,15 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "*pant* *pant* Somehow...... I beat them all......",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "*KA-BLAM!*",
 			typewriter = {
 				speed = 0.05,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 403038,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 403038,
 			actorName = "Prinzy",
 			say = "Seems we can't leave you alone for a minute, AI. Are you all right?",
 			typewriter = {
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 201120,
 			actorName = "Chunechune",
 			say = "She's all right now that we're here.><",
 			typewriter = {
@@ -460,11 +460,11 @@ return {
 			}
 		},
 		{
-			actor = 303118,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 303118,
 			actorName = "Takao",
 			say = "More importantly, are you not coming to me post haste?",
 			typewriter = {
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			actor = 403038,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 403038,
 			actorName = "Prinzy",
 			say = "Gotten tired of waiting already, have you?",
 			typewriter = {
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 201120,
 			actorName = "Chunechune",
 			say = "Our meeting is destiny, isn't it?",
 			typewriter = {
@@ -511,11 +511,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 307050,
 			actorName = "Shouhou",
 			say = "*Giggle* It's only natural to get a bit naughty when you're so frustrated, no?",
 			typewriter = {
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 303118,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 303118,
 			actorName = "Takao",
 			say = "Hmph. It seems our wedding meant nothing to you....",
 			typewriter = {
@@ -561,8 +561,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "------kup",
 			flashin = {
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "------ake up",
 			typewriter = {
@@ -620,13 +620,13 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "What were those strange names you kept calling out? There was a \"Prinzy\" and a \"Chunechune?\"",
 			bgm = "story-1",
+			actor = 301120,
+			nameColor = "#a9f548",
+			say = "What were those strange names you kept calling out? There was a \"Prinzy\" and a \"Chunechune?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,12 +685,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "....IT WAS ALL A DREAM!?",
 			typewriter = {
 				speed = 0.05,

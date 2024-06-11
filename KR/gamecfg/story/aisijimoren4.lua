@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISIJIMOREN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISIJIMOREN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"여름의 \"서프라이즈\"\n\n<size=45>4. 준비 작업 중 두 번째</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·지휘실 며칠 후",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "모항·지휘실 며칠 후",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "최근 에스키모는 몰래 무언가를 준비하는 것 같다. 전에 얘기한 \"비밀\"과 관련이 있는 건가.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "비서함의 업무도 제대로 끝냈다. 정말 에너지 넘치는 아이다......",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "에스키모는 콧노래를 흥얼거리며, 아무런 비밀도 없는 듯이 즐겁게 일하고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "아무래도 너무 궁금하다......",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "평소에는 털털해 보이지만 이런 일에는 입이 무겁다.",
 			typewriter = {
 				speed = 0.05,
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "도와줄 수 있어......? 부탁이야, 지휘관~!",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "실내 수영장이라..... 여름이라 대부분 바닷가에 나가 수영을 하고 실내 수영장은 비어있다.",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "단지 하루 빌리는 거라면......",
 			typewriter = {
 				speed = 0.05,
@@ -282,11 +282,11 @@ return {
 			}
 		},
 		{
-			actor = 201320,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201320,
+			nameColor = "#a9f548",
 			say = "예——! 좋아! 고마워 지휘관!",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "에스키모처럼 혈기왕성한 아이가 하루 종일 준비해야 하는 특별 서프라이즈란 건가. 기대해봐도 될 것 같다.",
 			typewriter = {
 				speed = 0.05,

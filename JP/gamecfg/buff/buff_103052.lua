@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "生命的鼓动",
 	time = 0,
+	name = "生命的鼓动",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 6,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				target = "TargetSelf",
-				skill_id = 103051
+				skill_id = 103051,
+				target = "TargetSelf"
 			}
 		}
 	}

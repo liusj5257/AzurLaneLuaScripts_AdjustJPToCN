@@ -49,11 +49,11 @@ slot31 = "event:/ui/kouqiu"
 slot32 = 0.8
 slot33 = -1000
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "VolleyballGameUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.countTimeUI = slot0:findTF("count_time_ui")
 	slot0.countTimeImage = slot0:findTF("time", slot0.countTimeUI)
 	slot0.countTimeNumImage = slot0:findTF("nums", slot0.countTimeUI)
@@ -130,7 +130,7 @@ function slot0.init(slot0)
 	slot0.helpUI = slot0:findTF("help_ui")
 end
 
-function slot0.initPos(slot0)
+slot0.initPos = function(slot0)
 	slot0.orgPos = {
 		our_serve = slot0:findTF("our_pos/serve_pos", slot0.pos).anchoredPosition,
 		our1 = slot0:findTF("our_pos/drop_pos1", slot0.pos).anchoredPosition,
@@ -143,7 +143,7 @@ function slot0.initPos(slot0)
 	slot0:resetPos()
 end
 
-function slot0.resetPos(slot0)
+slot0.resetPos = function(slot0)
 	slot0.anchoredPos = Clone(slot0.orgPos)
 	slot0.anchoredPos.our1 = slot0:getRandomPos("our1")
 	slot0.anchoredPos.our2 = slot0:getRandomPos("our2")
@@ -151,7 +151,7 @@ function slot0.resetPos(slot0)
 	slot0.anchoredPos.enemy2 = slot0:getRandomPos("enemy2")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.returnBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
@@ -265,7 +265,7 @@ function slot0.didEnter(slot0)
 	slot0:initMainUI()
 end
 
-function slot0.playEffect(slot0, slot1, slot2)
+slot0.playEffect = function(slot0, slot1, slot2)
 	if slot2 then
 		slot1.anchoredPosition = slot2
 	else
@@ -276,7 +276,7 @@ function slot0.playEffect(slot0, slot1, slot2)
 	setActive(slot1, true)
 end
 
-function slot0.getGameData(slot0)
+slot0.getGameData = function(slot0)
 	slot0.mgProxy = getProxy(MiniGameProxy)
 	slot0.hubData = slot0.mgProxy:GetHubByHubId(13)
 	slot0.curDay = slot0.hubData.ultimate == 0 and slot0.hubData.usedtime + 1 or 8
@@ -288,11 +288,11 @@ function slot0.getGameData(slot0)
 	slot0.isFirstgame = PlayerPrefs.GetInt("volleyballgame_first_" .. getProxy(PlayerProxy):getData().id)
 end
 
-function slot0.getEnemyCharsIndex(slot0)
+slot0.getEnemyCharsIndex = function(slot0)
 	return slot0.mgData:GetSimpleValue("mainChar")[slot0.curDay], slot0.mgData:GetSimpleValue("minorChar")[slot0.curDay]
 end
 
-function slot0.initMainUI(slot0)
+slot0.initMainUI = function(slot0)
 	slot0.isInGame = false
 
 	slot0:getGameData()
@@ -353,7 +353,7 @@ function slot0.initMainUI(slot0)
 	end)
 end
 
-function slot0.initSelectUI(slot0)
+slot0.initSelectUI = function(slot0)
 	setActive(slot0.freeTitle, slot0.isFree)
 	setActive(slot0.dayTitle, not slot0.isFree)
 	setText(slot0.titleDayNum, slot0.curDay)
@@ -385,7 +385,7 @@ function slot0.initSelectUI(slot0)
 	slot0:refreshSelectUI()
 end
 
-function slot0.getCharIndex(slot0, slot1)
+slot0.getCharIndex = function(slot0, slot1)
 	for slot5, slot6 in ipairs(uv0) do
 		if slot6 == slot1 then
 			return slot5
@@ -395,7 +395,7 @@ function slot0.getCharIndex(slot0, slot1)
 	return 1
 end
 
-function slot0.refreshSelectUI(slot0)
+slot0.refreshSelectUI = function(slot0)
 	eachChild(slot0.select4Chars, function (slot0)
 		if uv0.charNames[slot0.name] then
 			setActive(uv0:findTF("select_btn", slot0), false)
@@ -413,7 +413,7 @@ function slot0.refreshSelectUI(slot0)
 	setGray(slot0.selectStartBtn, not slot0.canStartGame, not slot0.canStartGame)
 end
 
-function slot0.isSelected(slot0, slot1, slot2)
+slot0.isSelected = function(slot0, slot1, slot2)
 	slot3 = false
 
 	for slot7, slot8 in pairs(slot0.charNames) do
@@ -425,7 +425,7 @@ function slot0.isSelected(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.openSelectWindow(slot0)
+slot0.openSelectWindow = function(slot0)
 	setActive(slot0.selectWindow, true)
 
 	slot0.hasSelectNum = 0
@@ -472,7 +472,7 @@ function slot0.openSelectWindow(slot0)
 	slot0:refreshSelectWindow()
 end
 
-function slot0.refreshSelectWindow(slot0)
+slot0.refreshSelectWindow = function(slot0)
 	eachChild(slot0.select9Chars, function (slot0)
 		setActive(uv0:findTF("char/mask", slot0), uv0:isSelected(uv1[tonumber(slot0.name)], uv0.selectCharCamp) and true or false)
 
@@ -489,7 +489,7 @@ function slot0.refreshSelectWindow(slot0)
 	setGray(slot0.selectSureBtn, not slot0.canSureChar, not slot0.canSureChar)
 end
 
-function slot0.firstShow(slot0, slot1)
+slot0.firstShow = function(slot0, slot1)
 	setActive(slot0.helpUI, true)
 
 	slot2 = pg.UIMgr.GetInstance()
@@ -506,7 +506,7 @@ function slot0.firstShow(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.startCountTimer(slot0)
+slot0.startCountTimer = function(slot0)
 	slot0:setBtnAvailable(false)
 	setActive(slot0.countTimeUI, true)
 
@@ -524,7 +524,7 @@ function slot0.startCountTimer(slot0)
 
 	setImageSprite(slot0.countTimeImage, slot3:GetComponent(typeof(Image)).sprite)
 
-	function slot1()
+	slot1 = function()
 		uv0.countTime = uv0.countTime - 1
 
 		if uv0.countTime <= 0 then
@@ -546,14 +546,14 @@ function slot0.startCountTimer(slot0)
 	slot0.countTimer:Start()
 end
 
-function slot0.setBtnAvailable(slot0, slot1)
+slot0.setBtnAvailable = function(slot0, slot1)
 	slot0.btnAvailable = slot1
 
 	setGray(slot0.backBtn, not slot1, not slot1)
 	setGray(slot0.pauseBtn, not slot1, not slot1)
 end
 
-function slot0.startGame(slot0)
+slot0.startGame = function(slot0)
 	slot0.isInGame = true
 
 	slot0:setBtnAvailable(true)
@@ -583,7 +583,7 @@ function slot0.startGame(slot0)
 	end
 end
 
-function slot0.enterLoop(slot0)
+slot0.enterLoop = function(slot0)
 	slot0:ourUp2Up(function ()
 		slot0 = uv0
 
@@ -609,7 +609,7 @@ function slot0.enterLoop(slot0)
 	end)
 end
 
-function slot0.ourServe(slot0, slot1)
+slot0.ourServe = function(slot0, slot1)
 	slot0.ballPosTag = "our_serve"
 
 	setActive(slot0.ball, true)
@@ -635,7 +635,7 @@ function slot0.ourServe(slot0, slot1)
 	end, uv2 + 0.5, nil)
 end
 
-function slot0.enemyServe(slot0, slot1)
+slot0.enemyServe = function(slot0, slot1)
 	slot0.ballPosTag = "enemy_serve"
 
 	setActive(slot0.ball, true)
@@ -661,7 +661,7 @@ function slot0.enemyServe(slot0, slot1)
 	end, uv2 + 0.5, nil)
 end
 
-function slot0.ourUp2Up(slot0, slot1)
+slot0.ourUp2Up = function(slot0, slot1)
 	if slot0.qteStatus == uv0 and slot0.qteType == uv1 then
 		slot0:ourFly()
 
@@ -680,7 +680,7 @@ function slot0.ourUp2Up(slot0, slot1)
 	end, 0.3, nil)
 end
 
-function slot0.ourUp2Hit(slot0, slot1)
+slot0.ourUp2Hit = function(slot0, slot1)
 	slot2 = {}
 	slot0.ballPosTag = slot0.ballPosTag == "our1" and "our2" or "our1"
 	slot0.anchoredPos[slot0.ballPosTag] = slot0:getRandomPos(slot0.ballPosTag)
@@ -690,7 +690,7 @@ function slot0.ourUp2Hit(slot0, slot1)
 
 	slot4 = false
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		if uv0 then
 			slot0()
 		else
@@ -699,7 +699,7 @@ function slot0.ourUp2Hit(slot0, slot1)
 	end
 
 	table.insert(slot2, function (slot0)
-		function slot1()
+		slot1 = function()
 			if uv0.isCutin then
 				uv0:showcutin(function ()
 					uv0.isCutin = false
@@ -730,7 +730,7 @@ function slot0.ourUp2Hit(slot0, slot1)
 	end)
 end
 
-function slot0.ourThrow(slot0, slot1)
+slot0.ourThrow = function(slot0, slot1)
 	slot2 = "enemy" .. math.random(2)
 	slot0.ballPosTag = slot2
 	slot0.anchoredPos[slot0.ballPosTag] = slot0:getRandomPos(slot0.ballPosTag)
@@ -743,7 +743,7 @@ function slot0.ourThrow(slot0, slot1)
 	slot0:charUpBall()
 end
 
-function slot0.enemyUp2Up(slot0, slot1)
+slot0.enemyUp2Up = function(slot0, slot1)
 	if slot0.qteStatus == uv0 and slot0.qteType == uv1 then
 		slot0:enemyFly()
 
@@ -762,7 +762,7 @@ function slot0.enemyUp2Up(slot0, slot1)
 	end, 0.3, nil)
 end
 
-function slot0.enemyUp2Hit(slot0, slot1)
+slot0.enemyUp2Hit = function(slot0, slot1)
 	slot0.ballPosTag = slot0.ballPosTag == "enemy1" and "enemy2" or "enemy1"
 	slot0.anchoredPos[slot0.ballPosTag] = slot0:getRandomPos(slot0.ballPosTag)
 	slot0.randomQtePos = "our" .. math.random(2)
@@ -780,7 +780,7 @@ function slot0.enemyUp2Hit(slot0, slot1)
 	slot0:charHitBall()
 end
 
-function slot0.enemyThrow(slot0, slot1)
+slot0.enemyThrow = function(slot0, slot1)
 	slot0.ballPosTag = slot0.randomQtePos
 
 	slot0:ballHit(slot0.ball, uv0, slot0.anchoredPos[slot0.ballPosTag], function ()
@@ -791,7 +791,7 @@ function slot0.enemyThrow(slot0, slot1)
 	slot0:charUpBall()
 end
 
-function slot0.ourFly(slot0)
+slot0.ourFly = function(slot0)
 	slot0.ballPosTag = "out"
 
 	slot0:hitFly(slot0.ball, uv0, {
@@ -808,7 +808,7 @@ function slot0.ourFly(slot0)
 	end)
 end
 
-function slot0.enemyFly(slot0)
+slot0.enemyFly = function(slot0)
 	slot0.ballPosTag = "out"
 
 	slot0:hitFly(slot0.ball, uv0, {
@@ -825,21 +825,21 @@ function slot0.enemyFly(slot0)
 	end)
 end
 
-function slot0.qteSuccess(slot0)
+slot0.qteSuccess = function(slot0)
 	slot0.qteStatus = uv0
 	slot0.beginTeam = uv1
 
 	slot0:changeQTEBtnStatus(uv2)
 end
 
-function slot0.qteFail(slot0)
+slot0.qteFail = function(slot0)
 	slot0.qteStatus = uv0
 	slot0.beginTeam = uv1
 
 	slot0:changeQTEBtnStatus(uv2)
 end
 
-function slot0.GetBeziersPoints(slot0, slot1, slot2, slot3, slot4)
+slot0.GetBeziersPoints = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = {}
 
 	table.insert(slot6, Vector3(0, 0, 0))
@@ -859,7 +859,7 @@ function slot0.GetBeziersPoints(slot0, slot1, slot2, slot3, slot4)
 	return slot6
 end
 
-function slot0.ballParabolaMove(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.ballParabolaMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = Vector2(slot1.anchoredPosition.x, slot1.anchoredPosition.y - slot5)
 	slot8 = Vector2(slot3.x, slot3.y)
 	slot9 = slot8.x - slot7.x
@@ -887,7 +887,7 @@ function slot0.ballParabolaMove(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end))
 end
 
-function slot0.ballServe(slot0, slot1, slot2, slot3, slot4)
+slot0.ballServe = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ballParabolaMove(slot1, slot2, slot3, function ()
 		if uv0 then
 			uv0()
@@ -896,7 +896,7 @@ function slot0.ballServe(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.move, nil, slot0.ballShadow, Vector3(slot3.x, slot3.y + uv2), slot2):setEase(LeanTweenType.linear)
 end
 
-function slot0.ballUp2Up(slot0, slot1, slot2, slot3, slot4)
+slot0.ballUp2Up = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ballParabolaMove(slot1, slot2, slot3, function ()
 		if uv0 then
 			uv0()
@@ -905,7 +905,7 @@ function slot0.ballUp2Up(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.move, nil, slot0.ballShadow, Vector3(slot3.x, slot3.y + uv1), slot2):setEase(LeanTweenType.linear)
 end
 
-function slot0.ballUp2Hit(slot0, slot1, slot2, slot3, slot4)
+slot0.ballUp2Hit = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ballParabolaMove(slot1, slot2, {
 		x = slot3.x,
 		y = slot3.y
@@ -917,7 +917,7 @@ function slot0.ballUp2Hit(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.move, nil, slot0.ballShadow, Vector3(slot3.x, slot3.y + uv2), slot2):setEase(LeanTweenType.linear)
 end
 
-function slot0.ballHit(slot0, slot1, slot2, slot3, slot4)
+slot0.ballHit = function(slot0, slot1, slot2, slot3, slot4)
 	slot3 = Vector2(slot3.x, slot3.y + uv0)
 
 	slot0:managedTween(LeanTween.moveX, function ()
@@ -929,7 +929,7 @@ function slot0.ballHit(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.move, nil, slot0.ballShadow, Vector3(slot3.x, slot3.y + uv1), slot2):setEase(LeanTweenType.linear)
 end
 
-function slot0.charMove(slot0, slot1, slot2, slot3, slot4)
+slot0.charMove = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.moveX, nil, slot1, slot3.x, slot2):setEase(LeanTweenType.easeOutQuad)
 	slot0:managedTween(LeanTween.moveY, function ()
 		if uv0 then
@@ -938,7 +938,7 @@ function slot0.charMove(slot0, slot1, slot2, slot3, slot4)
 	end, slot1, slot3.y, slot2):setEase(LeanTweenType.linear)
 end
 
-function slot0.hitFly(slot0, slot1, slot2, slot3, slot4)
+slot0.hitFly = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ballParabolaMove(slot1, slot2, slot3, function ()
 		if uv0 then
 			uv0()
@@ -947,7 +947,7 @@ function slot0.hitFly(slot0, slot1, slot2, slot3, slot4)
 	slot0:managedTween(LeanTween.move, nil, slot0.ballShadow, Vector3(slot3.x, slot3.y + uv2), slot2):setEase(LeanTweenType.linear)
 end
 
-function slot0.startQTE(slot0, slot1, slot2, slot3, slot4)
+slot0.startQTE = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:changeQTEBtnStatus(uv0)
 
 	slot0.qte.anchoredPosition = {
@@ -984,7 +984,7 @@ function slot0.startQTE(slot0, slot1, slot2, slot3, slot4)
 	end)).uniqueId
 end
 
-function slot0.qteResult(slot0)
+slot0.qteResult = function(slot0)
 	if LeanTween.isTweening(slot0.qteTween) then
 		LeanTween.cancel(slot0.qteTween, false)
 	end
@@ -1016,7 +1016,7 @@ function slot0.qteResult(slot0)
 	slot0.qteCallback = nil
 end
 
-function slot34(slot0, slot1, slot2, slot3, slot4)
+slot34 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {
 		_tf = slot1,
 		spineAnim = slot2,
@@ -1066,7 +1066,7 @@ function slot34(slot0, slot1, slot2, slot3, slot4)
 			uv0.spineAnim:SetAction(slot1, 0)
 		end,
 		move = function (slot0, slot1, slot2, slot3, slot4)
-			function slot5()
+			slot5 = function()
 				uv0.spineAnim:SetAction("run", 0)
 
 				uv0.posTag = uv1
@@ -1095,7 +1095,7 @@ function slot34(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.getRandomPos(slot0, slot1)
+slot0.getRandomPos = function(slot0, slot1)
 	slot2 = math.random(0, 300)
 	slot3 = math.random(0, 50)
 	slot5 = slot0.orgPos[slot1]
@@ -1109,7 +1109,7 @@ function slot0.getRandomPos(slot0, slot1)
 	}
 end
 
-function slot0.loadSpineChars(slot0)
+slot0.loadSpineChars = function(slot0)
 	slot0:clearSpineChars()
 
 	slot0.beginTeam = math.random(2)
@@ -1127,7 +1127,7 @@ function slot0.loadSpineChars(slot0)
 	end
 end
 
-function slot0.loadOneSpineChar(slot0, slot1, slot2)
+slot0.loadOneSpineChar = function(slot0, slot1, slot2)
 	if not slot0.charNames[slot1] then
 		slot0.charNames[slot1] = false
 
@@ -1183,7 +1183,7 @@ function slot0.loadOneSpineChar(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.clearSpineChars(slot0)
+slot0.clearSpineChars = function(slot0)
 	for slot4, slot5 in pairs(slot0.charModels) do
 		if slot0.charModels[slot4] and slot0.charNames[slot4] then
 			PoolMgr.GetInstance():ReturnSpineChar(slot0.charNames[slot4], slot0.charModels[slot4])
@@ -1193,7 +1193,7 @@ function slot0.clearSpineChars(slot0)
 	slot0.charModels = {}
 end
 
-function slot0.getCharWithTag(slot0, slot1)
+slot0.getCharWithTag = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.charactor) do
 		if slot6:getPosTag() == slot1 then
 			return slot5, slot6
@@ -1203,7 +1203,7 @@ function slot0.getCharWithTag(slot0, slot1)
 	return nil
 end
 
-function slot0.getAnotherChar(slot0, slot1)
+slot0.getAnotherChar = function(slot0, slot1)
 	slot2 = ""
 
 	if string.find(slot1, "our") then
@@ -1215,7 +1215,7 @@ function slot0.getAnotherChar(slot0, slot1)
 	return slot2, slot0.charactor[slot2]
 end
 
-function slot0.setBallPos(slot0)
+slot0.setBallPos = function(slot0)
 	setActive(slot0.ball, true)
 
 	slot1 = string.find(slot0.serveChar, "our") and "our_serve" or "enemy_serve"
@@ -1228,7 +1228,7 @@ function slot0.setBallPos(slot0)
 	slot0:managedTween(LeanTween.rotate, nil, slot0.ball, 360, 0.5):setLoopClamp()
 end
 
-function slot0.resetChar(slot0)
+slot0.resetChar = function(slot0)
 	slot0:resetPos()
 
 	for slot4, slot5 in pairs(slot0.charactor) do
@@ -1255,7 +1255,7 @@ function slot0.resetChar(slot0)
 	slot0:setBallPos()
 end
 
-function slot0.charServeBall(slot0)
+slot0.charServeBall = function(slot0)
 	slot0:managedTween(LeanTween.rotate, nil, slot0.ball, 360, 0.5):setLoopClamp()
 
 	slot1 = string.find(slot0.serveChar, "our") and "our_serve" or "enemy_serve"
@@ -1270,7 +1270,7 @@ function slot0.charServeBall(slot0)
 	end, 0.5, nil)
 end
 
-function slot0.charUpBall(slot0, slot1)
+slot0.charUpBall = function(slot0, slot1)
 	slot2, slot3 = slot0:getCharWithTag(slot0.ballPosTag)
 
 	if not slot3 then
@@ -1285,7 +1285,7 @@ function slot0.charUpBall(slot0, slot1)
 	end)
 end
 
-function slot0.charHitBall(slot0)
+slot0.charHitBall = function(slot0)
 	slot1 = slot0.charactor[slot0.hitChar]
 
 	slot1:move(0.5, slot0.ballPosTag, nil, function ()
@@ -1293,7 +1293,7 @@ function slot0.charHitBall(slot0)
 	end)
 end
 
-function slot0.showcutin(slot0, slot1)
+slot0.showcutin = function(slot0, slot1)
 	slot0:setBtnAvailable(false)
 	slot0:pauseGame()
 	setActive(slot0.cutin, true)
@@ -1342,7 +1342,7 @@ function slot0.showcutin(slot0, slot1)
 	end))
 end
 
-function slot0.showScoreCutin(slot0, slot1)
+slot0.showScoreCutin = function(slot0, slot1)
 	slot0:setBtnAvailable(false)
 	slot0:pauseGame()
 
@@ -1380,7 +1380,7 @@ function slot0.showScoreCutin(slot0, slot1)
 	end))
 end
 
-function slot0.updateScore(slot0)
+slot0.updateScore = function(slot0)
 	setText(slot0.ourScore, slot0.ourScoreNum)
 	setText(slot0.enemyScore, slot0.enemyScoreNum)
 	setActive(slot0.qte, false)
@@ -1394,7 +1394,7 @@ function slot0.updateScore(slot0)
 	end
 end
 
-function slot0.endGame(slot0)
+slot0.endGame = function(slot0)
 	setActive(slot0.winTag, slot0.ourScoreNum ~= slot0.enemyScoreNum)
 	setActive(slot0.loseTag, slot0.ourScoreNum ~= slot0.enemyScoreNum)
 	slot0:setBtnAvailable(false)
@@ -1439,7 +1439,7 @@ function slot0.endGame(slot0)
 	end))
 end
 
-function slot0.OnGetAwardDone(slot0, slot1)
+slot0.OnGetAwardDone = function(slot0, slot1)
 	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE then
 		slot2 = slot0:GetMGHubData()
 		slot3 = slot2.ultimate
@@ -1468,7 +1468,7 @@ function slot0.OnGetAwardDone(slot0, slot1)
 	end
 end
 
-function slot0.pauseGame(slot0)
+slot0.pauseGame = function(slot0)
 	slot0:pauseManagedTween()
 
 	if slot0.qteTimer then
@@ -1484,7 +1484,7 @@ function slot0.pauseGame(slot0)
 	end
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0:resumeManagedTween()
 
 	if slot0.qteTimer then
@@ -1500,7 +1500,7 @@ function slot0.resumeGame(slot0)
 	end
 end
 
-function slot0.clearTimer(slot0)
+slot0.clearTimer = function(slot0)
 	if slot0.qteTimer then
 		slot0.qteTimer:Stop()
 
@@ -1514,11 +1514,11 @@ function slot0.clearTimer(slot0)
 	end
 end
 
-function slot0.changeQTEBtnStatus(slot0, slot1)
+slot0.changeQTEBtnStatus = function(slot0, slot1)
 	slot0.qteBtnStatus = slot1
 end
 
-function slot0.resetGameData(slot0)
+slot0.resetGameData = function(slot0)
 	slot0.qteStatus = uv0
 	slot0.qteType = uv1
 
@@ -1543,14 +1543,14 @@ function slot0.resetGameData(slot0)
 	slot0:loadSpineChars()
 end
 
-function slot0.exitGame(slot0)
+slot0.exitGame = function(slot0)
 	slot0.isInGame = false
 
 	slot0:setBtnAvailable(true)
 	slot0:resetGameAni()
 end
 
-function slot0.resetGameAni(slot0)
+slot0.resetGameAni = function(slot0)
 	slot0:cleanManagedTween()
 
 	if slot0.qteTween and LeanTween.isTweening(slot0.qteTween) then
@@ -1560,14 +1560,14 @@ function slot0.resetGameAni(slot0)
 	slot0:clearTimer()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearSpineChars()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.selectUI, slot0._tf)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.endUI, slot0._tf)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.countTimeUI, slot0._tf)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.isInGame then
 		triggerButton(slot0.backBtn)
 	elseif isActive(slot0.selectUI) then

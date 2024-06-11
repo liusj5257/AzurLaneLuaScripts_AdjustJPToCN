@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 19652,
 	picture = "",
 	desc = "主炮每进行4次攻击，触发弹幕",
 	stack = 1,
-	id = 19652,
+	color = "red",
 	icon = 19650,
 	last_effect = "",
 	effect_list = {
@@ -43,8 +43,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 19653,
+				target = "TargetSelf",
 				countType = 19650
 			}
 		},
@@ -55,8 +55,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 19654,
+				target = "TargetSelf",
 				countType = 19652
 			}
 		},
@@ -66,8 +66,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 19655,
+				target = "TargetSelf",
 				countType = 19650
 			}
 		}

@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――ウィダー、コレクションルーム……？",
+			side = 2,
 			bgm = "qe-ova-15",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――ウィダー、コレクションルーム……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -75,9 +75,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたは銃を構えました。ですがよくよく考えたら、目的は彼女たちを消すことじゃなく、あくまで彼女たちの目を盗んで廊下を通ることです",
 			typewriter = {
@@ -90,9 +90,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なので、銃より注意力をそらせる何かが必要だと思います。ええ",
 			typewriter = {
@@ -192,10 +192,10 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "約束を大事にするカワイイ海賊…らしいです",
 			typewriter = {
 				speed = 0.05,
@@ -342,28 +342,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しばらくして――",
-			bgm = "theme-highseasfleet-reborn",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -683,9 +683,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			soundeffect = "event:/battle/boom2",
 			actorName = "海天",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ドカーン！！と大きな音が響き渡りました。大地も割れんばかりの爆発に、ちっぽけなキャッスルはまるで怯えているかのように震え続けました",
 			typewriter = {
@@ -777,11 +777,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
-			nameColor = "#FF9B93",
-			factiontag = "文学少女なKP",
-			blackBg = true,
-			bgm = "story-oldcastle-carnival",
 			actorName = "海天",
+			blackBg = true,
+			factiontag = "文学少女なKP",
+			bgm = "story-oldcastle-carnival",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "ニュースをお伝えします",
 			typewriter = {
@@ -789,17 +789,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -811,8 +811,8 @@ return {
 			side = 2,
 			actorName = "海天",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "本日午前1時頃、アー○ム周辺の古城にて爆発事故が起きました",
 			typewriter = {
@@ -825,8 +825,8 @@ return {
 			side = 2,
 			actorName = "海天",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "警察と消防が現場に急行し、現地にて複数の死者が確認されました",
 			typewriter = {
@@ -839,8 +839,8 @@ return {
 			side = 2,
 			actorName = "海天",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "現在までに6名が確認されており、連絡が取れなくなっている城主の娘たちの可能性が高いものと見られています",
 			typewriter = {
@@ -853,8 +853,8 @@ return {
 			side = 2,
 			actorName = "海天",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "また、現場からは爆発物の痕跡も確認されており――",
 			typewriter = {
@@ -867,8 +867,8 @@ return {
 			side = 2,
 			actorName = "海天",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
 			blackBg = true,
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "現場には身元不明の第三者の遺体があったことから、この者による犯行の容疑が高く、警察は事件として調査を進めています――",
 			typewriter = {
@@ -877,8 +877,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -893,8 +893,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――こんなバッドエンドに！？？",
 			bgm = "theme-ijndailymeeting",
+			say = "――こんなバッドエンドに！？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 8,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 8,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -42,9 +42,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				maxTargetNumber = 1,
 				skill_id = 600001,
-				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
 				},
@@ -71,8 +71,8 @@ return {
 			},
 			arg_list = {
 				group = 600000,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

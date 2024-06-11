@@ -129,9 +129,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "不安定的发明家",
 	time = 5,
+	name = "不安定的发明家",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

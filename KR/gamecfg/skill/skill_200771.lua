@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2024同盟活动A 极寒 冰风暴",
 	cd = 0,
-	painting = 0,
-	id = 200771,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200771,
 	effect_list = {
 		{
 			target_choise = "TargetNil",

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_161 = {}
 slot1 = slot0.word_template_161
 
-function temp()
+temp = function()
 	uv0["身"] = {
 		["份"] = {
 			["證"] = {
@@ -28,7 +28,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["簡"] = {
 		["易"] = {
 			["炸"] = {
@@ -55,7 +55,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["黃"] = {
 		["色"] = {
 			this = true,
@@ -207,7 +207,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["燃"] = {
 		["燒"] = {
 			["彈"] = {

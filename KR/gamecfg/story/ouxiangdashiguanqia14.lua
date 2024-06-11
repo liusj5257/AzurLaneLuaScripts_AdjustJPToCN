@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Thinking",
 			say = "다시금 \"투쟁\"을 맞이하는 일곱 빛깔의 바다,",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Thinking",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "평화로운 세계를 수호하는 빛나는 무대,",
 			typewriter = {
 				speed = 0.05,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "바다에 울려퍼지는 열정과 희망의 노래,",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그리고, 이 세계의 \"아이돌\"의 이야기.",
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "멀리서 가까운 홀로그램 영상 속 팬들의 모습을 보며 소녀들이 열창하고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -73,10 +73,10 @@ return {
 			}
 		},
 		{
-			actor = 102240,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 102240,
 			say = "다들, 열기로 가득한데——!",
 			effects = {
 				{
@@ -94,10 +94,10 @@ return {
 			}
 		},
 		{
-			actor = 201234,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201234,
 			say = "μ장비 말고도, 우리도 있다고!",
 			effects = {
 				{
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 901120,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "우아하게 반짝여라, 비시… 아니, 벽람항로의 아이돌이여!",
 			effects = {
 				{
@@ -137,10 +137,10 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 10700020,
 			say = "저희의 노래를 경청하시죠!",
 			effects = {
 				{
@@ -158,13 +158,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "모항·임시 사무실",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "정말이다냥… 이런 식으로 가면 같이 폭발할 수 밖에 없겠다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "계속 이렇다면, 확실히… 대체 어떡해야 좋을지……",
 			typewriter = {
 				speed = 0.05,

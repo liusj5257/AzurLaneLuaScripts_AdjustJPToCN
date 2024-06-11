@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Avrora and Her Jovial Friends\n\n<size=45>Chapter 7: The Light of Dawn</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu2",
 			bgm = "level02",
 			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Heheh, Saratoga's cannon bombardment is nothing to scoff at!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "I told you I needed an escort because I couldn't defend myself, but... woah!",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -115,8 +115,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Operation...?",
 			typewriter = {
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Through the smoke and flames where the Eagle Union was exchanging fire with the Northern Parliament, a figure clad in white came charging towards them at surprising speed.",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "That's... Sovetskaya Rossiya!!",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			say = "And thus, the Eagle Union flagship was \"sunk,\" resulting in a victory for the Northern Parliament.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "And thus, the Eagle Union flagship was \"sunk,\" resulting in a victory for the Northern Parliament.",
 			flashN = {
 				color = {
 					1,
@@ -256,16 +256,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu2",
 			bgm = "story-1",
 			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Waahh, I'm so sorry, we lost because of me...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -325,8 +325,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Yes, if Saratoga had another battleship protecting her, Avrora and I would not have been so lucky.",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Indeed. Results aside, the tactical advantages offered by a carrier task force are evident to me.",
 			typewriter = {
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "I hope that this exercise was a good way to deepen our trust, develop bonds, and help us both take the first step towards a brighter future together. I think that you'll agree~♪",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Crowd",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "All right!",
 			typewriter = {
 				speed = 0.05,
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 705010,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 705010,
+			nameColor = "#a9f548",
 			say = "Ahahaha! Bring out the good stuff for tonight!",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -528,8 +528,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "Mm... I'm looking forward to it.",
 			typewriter = {
@@ -542,11 +542,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Sister Sara will come too!",
 			typewriter = {
 				speed = 0.05,
@@ -558,8 +558,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -616,11 +616,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "All I do is just give them a little push on the back. You, on the other hand, are the \"light of dawn\" that illuminates their path.",
 			typewriter = {
 				speed = 0.05,
@@ -632,8 +632,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "괜찮은가?",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "에…에?!! 카와카제!! 카와카제잖아!! (찰싹)",
+			side = 0,
+			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -41,8 +41,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -53,9 +53,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "미오, 봐봐! 카와카제야. 진짜 카와카제라고!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "…아? 무슨 전개인 거야…… 어쨌든 살았나?!",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아아아! 카와카제! 이 매서운 눈빛, 길쭉한 바디! 부드러운 꼬리! (심호흡)",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "저기, 후부키. 곤란해 하는데.",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "즈이카쿠까지?!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -208,9 +208,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "고양이 귀?! 이 부드럽고 큰 꼬리, 어떻게 봐도 여우잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -250,8 +250,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "괜찮아…… 첫 만남이네. 나는 hololive의 버츄얼 백발 동물 귀 여고생, 시라카미 후부키야. 다들 오해하지만 고양이가 아니라 여우라고!",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "내가 왜 너희를 알고 있는지를 설명하려면 복잡해.",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "나도 hololive의 hologamers의 오오카미 미오야. 미오라고 불러줘, 잘 부탁해.",
 			typewriter = {
 				speed = 0.05,
@@ -327,9 +327,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "응응, 알고 있어! 너희랑 서약도 했는걸.",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,8 +399,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "윽… 엄밀히 말하면 길을 잃은 건 아니지만… 여기에 어떻게 오게 되었는지는 우리도 잘 몰라. 하지만 이쪽 사정은 어느정도 알고 있다고!",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "겉으로 보기에 여기는 hololive의 서버야. 어쩌면 hololive의 서버와 비슷한 곳이겠네.",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "오늘도 평소처럼 건물을 짓고 있었는데, 눈 앞이 갑자기 밝아지더니 엄청나게 많은 세이렌 함대가 공격을 해오기 시작했어. 동료들도 사라지고…",
 			typewriter = {
 				speed = 0.05,
@@ -521,9 +521,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이렇게 쉽게 받아들이다니?!",
 			typewriter = {
 				speed = 0.05,
@@ -535,8 +535,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -577,9 +577,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "하하하… 우리 세계에서도 나는 벽람항로에 대해서 아주 잘 알고 있다고!",
 			typewriter = {
 				speed = 0.05,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -634,8 +634,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "응… 그런 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -650,8 +650,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "후부키, 여기서 계속 얘기하기 보다는 안전한 곳으로 가자.",
 			typewriter = {
 				speed = 0.05,

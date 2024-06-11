@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.2,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -24,8 +24,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.233,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -41,8 +41,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.266,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -58,8 +58,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.299,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -75,8 +75,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.332,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -92,8 +92,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.365,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -109,8 +109,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.398,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -126,8 +126,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.431,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -143,8 +143,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.464,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -160,8 +160,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.5,
+					attr = "cri",
 					index = {
 						4
 					}
@@ -169,14 +169,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 19292,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19292,
+	color = "yellow",
 	icon = 19290,
 	last_effect = "",
 	blink = {

@@ -149,14 +149,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 1,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 15371,
 	picture = "",
 	desc = "概率发动",
 	stack = 1,
-	id = 15371,
+	color = "blue",
 	icon = 15371,
 	last_effect = "",
 	effect_list = {

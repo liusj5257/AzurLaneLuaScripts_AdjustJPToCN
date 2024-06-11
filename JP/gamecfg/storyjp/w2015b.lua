@@ -1,15 +1,15 @@
 return {
-	id = "W2015B",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2015B",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "スキャンが完了しました。特殊資源スポットのセイレーン装置が起動しました",
 			painting = {
 				alpha = 0.3,

@@ -1,19 +1,19 @@
 slot0 = class("NenjuuGameController")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.binder = slot1
 
 	slot0:InitTimer()
 	slot0:InitGameUI(slot2)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	for slot6 = 0, slot0:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
 		slot2[slot6].speed = slot1
 	end
 end
 
-function slot0.InitTimer(slot0)
+slot0.InitTimer = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:OnTimer(NenjuuGameConfig.TIME_INTERVAL)
 	end, NenjuuGameConfig.TIME_INTERVAL, -1)
@@ -25,7 +25,7 @@ function slot0.InitTimer(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.InitGameUI(slot0, slot1)
+slot0.InitGameUI = function(slot0, slot1)
 	slot0.rtViewport = slot1:Find("Viewport")
 	slot0.rtMainContent = slot0.rtViewport:Find("MainContent")
 	slot0.rtResource = slot1:Find("Resource")
@@ -83,11 +83,11 @@ function slot0.InitGameUI(slot0, slot1)
 	slot0.rtCollection = slot1:Find("Controller/top/target")
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:AddDebugInput()
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if IsUnityEditor then
 		slot1 = {
 			"E",
@@ -113,7 +113,7 @@ function slot0.AddDebugInput(slot0)
 	end
 end
 
-function slot0.InitMapConfig(slot0, slot1)
+slot0.InitMapConfig = function(slot0, slot1)
 	slot0.pointRate = slot1.rate
 	slot0.config = NenjuuGameConfig.GetStageConfig("Spring23Level_" .. slot1.index)
 	slot2 = {}
@@ -148,10 +148,10 @@ function slot0.InitMapConfig(slot0, slot1)
 	end
 
 	slot5 = {
-		["1_0"] = 0,
+		["0_-1"] = 3,
 		["1_1"] = 5,
 		["-1_0"] = 2,
-		["0_-1"] = 3,
+		["1_0"] = 0,
 		["0_1"] = 1,
 		["1_-1"] = 4,
 		["-1_-1"] = 7,
@@ -167,7 +167,7 @@ function slot0.InitMapConfig(slot0, slot1)
 			end
 
 			if slot15:Find("scale/Snow") then
-				function slot16(slot0, slot1)
+				slot16 = function(slot0, slot1)
 					return not uv0:InRange(NewPos(slot0, slot1)) or not uv0.plane[slot0 .. "_" .. slot1] or uv0.plane[slot0 .. "_" .. slot1] == "Snow"
 				end
 
@@ -210,7 +210,7 @@ function slot0.InitMapConfig(slot0, slot1)
 	slot0.itemCount = 0
 end
 
-function slot0.CheckWave(slot0)
+slot0.CheckWave = function(slot0)
 	if slot0.itemCount > 0 then
 		return
 	end
@@ -264,11 +264,11 @@ function slot0.CheckWave(slot0)
 	end
 end
 
-function slot0.InRange(slot0, slot1)
+slot0.InRange = function(slot0, slot1)
 	return slot1.x >= 0 and slot1.x < slot0.mapSize.x and slot1.y >= 0 and slot1.y < slot0.mapSize.y
 end
 
-function slot0.Moveable(slot0, slot1, slot2, slot3)
+slot0.Moveable = function(slot0, slot1, slot2, slot3)
 	if not slot0:InRange(slot1) then
 		return false
 	else
@@ -278,7 +278,7 @@ function slot0.Moveable(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.CreateTarget(slot0, slot1)
+slot0.CreateTarget = function(slot0, slot1)
 	slot2, slot3, slot4 = NenjuuGameConfig.GetCreateConfig(slot1)
 
 	if not slot2 then
@@ -294,7 +294,7 @@ function slot0.CreateTarget(slot0, slot1)
 	return slot6
 end
 
-function slot0.DestoryTarget(slot0, slot1)
+slot0.DestoryTarget = function(slot0, slot1)
 	slot0.dirtyMap = true
 
 	table.removebyvalue(slot0.map[tostring(slot1.pos)], slot1)
@@ -308,7 +308,7 @@ function slot0.DestoryTarget(slot0, slot1)
 	slot1 = nil
 end
 
-function slot0.ResetGame(slot0)
+slot0.ResetGame = function(slot0)
 	for slot4, slot5 in ipairs({
 		"plane",
 		"object",
@@ -340,41 +340,41 @@ function slot0.ResetGame(slot0)
 	slot0.wayfindCache = {}
 end
 
-function slot0.ReadyGame(slot0, slot1)
+slot0.ReadyGame = function(slot0, slot1)
 	slot0:InitMapConfig(slot1)
 	slot0:UpdateSkillButtons()
 	slot0:PauseGame()
 end
 
-function slot0.StartGame(slot0)
+slot0.StartGame = function(slot0)
 	slot0.isStart = true
 
 	slot0:CheckWave()
 	slot0:ResumeGame()
 end
 
-function slot0.EndGame(slot0, slot1)
+slot0.EndGame = function(slot0, slot1)
 	slot0.isStart = false
 
 	slot0:PauseGame()
 	slot0.binder:openUI("result")
 end
 
-function slot0.ResumeGame(slot0)
+slot0.ResumeGame = function(slot0)
 	slot0.isPause = false
 
 	slot0.timer:Start()
 	uv0(slot0.rtMainContent, 1)
 end
 
-function slot0.PauseGame(slot0)
+slot0.PauseGame = function(slot0)
 	slot0.isPause = true
 
 	slot0.timer:Stop()
 	uv0(slot0.rtMainContent, 0)
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	slot0.timeCount = slot0.timeCount - slot1
 
 	setText(slot0.textTime, string.format("%02d:%02ds", math.floor(slot0.timeCount / 60), math.floor(slot0.timeCount % 60)))
@@ -406,7 +406,7 @@ function slot0.OnTimer(slot0, slot1)
 	slot0:UpdateSkillButtons()
 end
 
-function slot0.UpdateSkillButtons(slot0)
+slot0.UpdateSkillButtons = function(slot0)
 	for slot4, slot5 in ipairs(slot0.moveFuShun:CalcSkillCDs()) do
 		slot6 = slot0.rtSkillButton
 		slot6 = slot6:Find("Skill_" .. slot4 - 1)
@@ -435,7 +435,7 @@ function slot0.UpdateSkillButtons(slot0)
 	end
 end
 
-function slot0.GetCacheInput(slot0, slot1)
+slot0.GetCacheInput = function(slot0, slot1)
 	if slot1 then
 		slot0.cacheInput = nil
 
@@ -445,11 +445,11 @@ function slot0.GetCacheInput(slot0, slot1)
 	end
 end
 
-function slot0.GetPressInput(slot0, slot1)
+slot0.GetPressInput = function(slot0, slot1)
 	return slot0.inPress[slot1]
 end
 
-function slot0.UpdateTargetPos(slot0, slot1, slot2, slot3)
+slot0.UpdateTargetPos = function(slot0, slot1, slot2, slot3)
 	slot0.dirtyMap = true
 
 	for slot8 = 0, slot1:GetSize().x - 1 do
@@ -473,14 +473,14 @@ function slot0.UpdateTargetPos(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.WindowFocrus(slot0, slot1)
+slot0.WindowFocrus = function(slot0, slot1)
 	setAnchoredPosition(slot0.rtMainContent, {
 		x = math.clamp(-slot1.x, -slot0.buffer.x, slot0.buffer.x),
 		y = math.clamp(-slot1.y, -slot0.buffer.y - 16, slot0.buffer.y - 16)
 	})
 end
 
-function slot0.CheckIce(slot0, slot1)
+slot0.CheckIce = function(slot0, slot1)
 	if not slot0:InRange(slot1) then
 		return false
 	else
@@ -490,7 +490,7 @@ function slot0.CheckIce(slot0, slot1)
 	end
 end
 
-function slot0.BuildIce(slot0, slot1)
+slot0.BuildIce = function(slot0, slot1)
 	slot2 = nil
 
 	table.insert(slot0.timeQueue, {
@@ -500,8 +500,8 @@ function slot0.BuildIce(slot0, slot1)
 
 			if uv1:Moveable(uv0.pos) then
 				uv1:CreateTarget({
-					name = "Ice",
 					create = true,
+					name = "Ice",
 					pos = uv0.pos
 				})
 
@@ -518,7 +518,7 @@ function slot0.BuildIce(slot0, slot1)
 	})
 end
 
-function slot0.BreakIce(slot0, slot1)
+slot0.BreakIce = function(slot0, slot1)
 	slot1.power = slot1.power or math.max(slot0.mapSize.x, slot0.mapSize.y)
 	slot2 = nil
 
@@ -546,7 +546,7 @@ function slot0.BreakIce(slot0, slot1)
 	})
 end
 
-function slot0.OnlyBreakIce(slot0, slot1)
+slot0.OnlyBreakIce = function(slot0, slot1)
 	if slot0:CheckIce(slot1) and not slot2.isLost then
 		slot2:Break()
 
@@ -581,7 +581,7 @@ slot3 = {
 	W = 4
 }
 
-function slot0.BuildBomb(slot0, slot1)
+slot0.BuildBomb = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = 1, 2 do
@@ -611,11 +611,11 @@ function slot0.BuildBomb(slot0, slot1)
 	end
 end
 
-function slot0.CheckMelt(slot0, slot1)
+slot0.CheckMelt = function(slot0, slot1)
 	return string.split(slot0.plane[tostring(slot1)], "_")[2] == "warm"
 end
 
-function slot0.ScareEnemy(slot0, slot1)
+slot0.ScareEnemy = function(slot0, slot1)
 	for slot5, slot6 in ipairs({
 		slot0.moveNenjuu,
 		slot0.moveDoppel
@@ -628,7 +628,7 @@ function slot0.ScareEnemy(slot0, slot1)
 	end
 end
 
-function slot0.AttackCheck(slot0, slot1)
+slot0.AttackCheck = function(slot0, slot1)
 	slot2 = NewPos(-0.5, -0.5)
 	slot3 = NewPos(0.5, 0.5)
 	slot4 = slot1.dirPos.x + slot1.dirPos.y
@@ -648,13 +648,13 @@ function slot0.AttackCheck(slot0, slot1)
 	return math.clamp(slot5.x, slot2.x, slot3.x) == slot5.x and math.clamp(slot5.y, slot2.y, slot3.y) == slot5.y
 end
 
-function slot0.EnemyAttack(slot0, slot1)
+slot0.EnemyAttack = function(slot0, slot1)
 	if slot0:AttackCheck(slot1) then
 		slot0.moveFuShun:EnemyHit(slot1.pos)
 	end
 end
 
-function slot0.GetDecoyPos(slot0, slot1, slot2)
+slot0.GetDecoyPos = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = NenjuuGameConfig.DECOY_RANGE
 
@@ -669,7 +669,7 @@ function slot0.GetDecoyPos(slot0, slot1, slot2)
 	return slot3[math.random(#slot3)]
 end
 
-function slot0.BuildDecoy(slot0, slot1)
+slot0.BuildDecoy = function(slot0, slot1)
 	slot0:CreateTarget({
 		name = "Decoy",
 		pos = slot1
@@ -695,7 +695,7 @@ slot4 = {
 	}
 }
 
-function slot0.GetWayfindingMap(slot0, slot1, slot2)
+slot0.GetWayfindingMap = function(slot0, slot1, slot2)
 	if not slot0.dirtyMap and slot0.wayfindCache[slot2] and (slot0.wayfindCache[slot2].inLantern and slot0.wayfindCache[slot2].inLantern > 0 or false) == (slot0.moveFuShun.inLantern and slot0.moveFuShun.inLantern > 0 or false) and slot0.wayfindCache[slot2].pos == slot0.moveFuShun.pos and slot0.wayfindCache[slot2].basePos == slot1 then
 		return slot0.wayfindCache[slot2].map
 	end
@@ -761,7 +761,7 @@ function slot0.GetWayfindingMap(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot0.GetTeleportTargetPos(slot0, slot1, slot2)
+slot0.GetTeleportTargetPos = function(slot0, slot1, slot2)
 	slot3 = slot0.moveFuShun.pos - slot2
 	slot4 = math.random(4)
 	slot5 = {}
@@ -788,13 +788,13 @@ function slot0.GetTeleportTargetPos(slot0, slot1, slot2)
 	return slot5[1].pos
 end
 
-function slot0.StealthCheck(slot0, slot1)
+slot0.StealthCheck = function(slot0, slot1)
 	slot2 = slot0.moveFuShun.pos - slot1
 
 	return math.abs(slot2.x) + math.abs(slot2.y) < 10
 end
 
-function slot0.BuildTeleportSign(slot0, slot1)
+slot0.BuildTeleportSign = function(slot0, slot1)
 	slot0:CreateTarget({
 		name = "SignWarp",
 		pos = slot1.pos,
@@ -802,11 +802,11 @@ function slot0.BuildTeleportSign(slot0, slot1)
 	})
 end
 
-function slot0.GetEnemyEffect(slot0, slot1)
+slot0.GetEnemyEffect = function(slot0, slot1)
 	return slot0.moveNenjuu:CheckAbility(slot1)
 end
 
-function slot0.BuildBlackHole(slot0)
+slot0.BuildBlackHole = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, slot0.mapSize.x do
@@ -824,7 +824,7 @@ function slot0.BuildBlackHole(slot0)
 	})
 end
 
-function slot0.InBlackHoleRange(slot0, slot1, slot2)
+slot0.InBlackHoleRange = function(slot0, slot1, slot2)
 	if slot2 then
 		if slot0:InRange(slot1) and underscore.detect(slot0.map[tostring(slot1)], function (slot0)
 			return slot0.class == NenjuuGameNameSpace.TargetBlackHole
@@ -850,13 +850,13 @@ function slot0.InBlackHoleRange(slot0, slot1, slot2)
 	end
 end
 
-function slot0.BuildDoppelgangers(slot0, slot1)
+slot0.BuildDoppelgangers = function(slot0, slot1)
 	for slot5 = -2, 2 do
 		for slot9 = -2, 2 do
 			if slot0:Moveable(slot1 + NewPos(slot5, slot9)) then
 				slot0.moveDoppel = slot0:CreateTarget({
-					isDoppel = true,
 					name = "Nenjuu_Doppelgangers",
+					isDoppel = true,
 					pos = slot10,
 					abilitys = {}
 				})
@@ -867,7 +867,7 @@ function slot0.BuildDoppelgangers(slot0, slot1)
 	end
 end
 
-function slot0.EatItem(slot0, slot1)
+slot0.EatItem = function(slot0, slot1)
 	slot5 = slot1
 
 	for slot5, slot6 in ipairs(slot0.map[tostring(slot5)]) do

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_157 = {}
 slot1 = slot0.word_template_157
 
-function temp()
+temp = function()
 	uv0["麻"] = {
 		["醉"] = {
 			["槍"] = {
@@ -131,7 +131,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["沙"] = {
 		["漠"] = {
 			["之"] = {
@@ -171,7 +171,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["仿"] = {
 		["真"] = {
 			["气"] = {
@@ -247,7 +247,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["钢"] = {
 		["珠"] = {
 			["枪"] = {

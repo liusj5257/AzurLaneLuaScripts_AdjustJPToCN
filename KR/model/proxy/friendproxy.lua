@@ -7,7 +7,7 @@ slot0.RELIEVE_BLACKLIST = "FriendProxy relieve blacklist"
 slot0.ADD_INTO_BLACKLIST = "FriendProxy add into blacklist"
 slot0.BLACK_LIST_UPDATED = "FriendProxy black list updated"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:on(50000, function (slot0)
 		uv0.data = {}
 
@@ -45,7 +45,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.removeFriend(slot0, slot1)
+slot0.removeFriend = function(slot0, slot1)
 	if slot0.data[slot1] then
 		slot0.data[slot1] = nil
 
@@ -55,7 +55,7 @@ function slot0.removeFriend(slot0, slot1)
 	end
 end
 
-function slot0.getAllFriends(slot0)
+slot0.getAllFriends = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
@@ -65,7 +65,7 @@ function slot0.getAllFriends(slot0)
 	return Clone(slot1)
 end
 
-function slot0.getAllCacheMsg(slot0)
+slot0.getAllCacheMsg = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
@@ -75,7 +75,7 @@ function slot0.getAllCacheMsg(slot0)
 	return Clone(slot1)
 end
 
-function slot0.getCacheMsgList(slot0)
+slot0.getCacheMsgList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.data) do
@@ -87,7 +87,7 @@ function slot0.getCacheMsgList(slot0)
 	return slot1
 end
 
-function slot0.getFriend(slot0, slot1)
+slot0.getFriend = function(slot0, slot1)
 	if slot0.data[slot1] then
 		slot2 = slot0.data[slot1]
 
@@ -95,7 +95,7 @@ function slot0.getFriend(slot0, slot1)
 	end
 end
 
-function slot0.addChatMsg(slot0, slot1, slot2)
+slot0.addChatMsg = function(slot0, slot1, slot2)
 	assert(isa(slot2, ChatMsg), "should be an instance of ChatMsg")
 
 	if slot0.data[slot1] then
@@ -124,7 +124,7 @@ function slot0.addChatMsg(slot0, slot1, slot2)
 	end
 end
 
-function slot0.addFriend(slot0, slot1)
+slot0.addFriend = function(slot0, slot1)
 	assert(not slot0.data[slot1.id], "friend already eixst" .. slot1.id)
 	slot1:display("added")
 
@@ -136,7 +136,7 @@ function slot0.addFriend(slot0, slot1)
 	slot0:sendNotification(uv0.FRIEND_ADDED, slot1:clone())
 end
 
-function slot0.updateFriend(slot0, slot1)
+slot0.updateFriend = function(slot0, slot1)
 	assert(slot0.data[slot1.id], "friend should eixst" .. slot1.id)
 
 	slot0.data[slot1.id].player = slot1
@@ -144,7 +144,7 @@ function slot0.updateFriend(slot0, slot1)
 	slot0:sendNotification(uv0.FRIEND_UPDATED, slot1:clone())
 end
 
-function slot0.isFriend(slot0, slot1)
+slot0.isFriend = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.data) do
 		if slot5 == slot1 then
 			return true
@@ -154,11 +154,11 @@ function slot0.isFriend(slot0, slot1)
 	return false
 end
 
-function slot0.getFriendCount(slot0)
+slot0.getFriendCount = function(slot0)
 	return table.getCount(slot0.data or {})
 end
 
-function slot0.getNewMsgCount(slot0)
+slot0.getNewMsgCount = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.data) do
@@ -170,17 +170,17 @@ function slot0.getNewMsgCount(slot0)
 	return slot1
 end
 
-function slot0.setBlackList(slot0, slot1)
+slot0.setBlackList = function(slot0, slot1)
 	slot0.blackList = slot1
 
 	slot0:sendNotification(uv0.BLACK_LIST_UPDATED, Clone(slot1))
 end
 
-function slot0.getBlackList(slot0)
+slot0.getBlackList = function(slot0)
 	return Clone(slot0.blackList)
 end
 
-function slot0.relieveBlackListById(slot0, slot1)
+slot0.relieveBlackListById = function(slot0, slot1)
 	assert(slot0.blackList[slot1], "friend should eixst>>" .. slot1)
 
 	slot0.blackList[slot1] = nil
@@ -188,11 +188,11 @@ function slot0.relieveBlackListById(slot0, slot1)
 	slot0:sendNotification(uv0.RELIEVE_BLACKLIST, slot1)
 end
 
-function slot0.getBlackPlayerById(slot0, slot1)
+slot0.getBlackPlayerById = function(slot0, slot1)
 	return slot0.blackList and Clone(slot0.blackList[slot1])
 end
 
-function slot0.addIntoBlackList(slot0, slot1)
+slot0.addIntoBlackList = function(slot0, slot1)
 	if slot0.blackList then
 		slot0.blackList[slot1.id] = slot1
 
@@ -200,7 +200,7 @@ function slot0.addIntoBlackList(slot0, slot1)
 	end
 end
 
-function slot0.isInBlackList(slot0, slot1)
+slot0.isInBlackList = function(slot0, slot1)
 	if slot0.blackList then
 		return slot0.blackList[slot1]
 	end

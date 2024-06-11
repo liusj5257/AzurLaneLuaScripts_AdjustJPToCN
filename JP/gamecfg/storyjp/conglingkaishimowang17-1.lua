@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			say = "「バラード城」――街中に絶えず音楽が鳴り響いていたことからその名が付けられた。",
 			bgm = "story-temepest-2",
+			say = "「バラード城」――街中に絶えず音楽が鳴り響いていたことからその名が付けられた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "在りし日に人間王国の心臓部でもあったこの地は、廃墟と化してもなお、当時の輝かしい栄光の面影を垣間見せている。",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "吸血鬼貴族たちはみな王宮に住んでいましたので、この大通りをまっすぐ進んでいけば…",
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			say = "ふぁあ…テンペスタ海賊団の縄張りに勝手に上がり込んできて、いったい何者…？",
 			painting = {
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…テンペスタ海賊団？",
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			say = "あらぁ、誰かと思えば命知らずの冒険者御一行じゃない～",
 			painting = {
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…なんだ。野盗だったか",
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "海賊の分際で、勇者パーティにカツアゲするとはいい度胸！",
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "この撫順が目にもの見せてやろう！",

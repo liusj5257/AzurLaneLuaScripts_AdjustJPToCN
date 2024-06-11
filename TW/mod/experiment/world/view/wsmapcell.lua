@@ -2,13 +2,13 @@ slot0 = class("WSMapCell", import("...BaseEntity"))
 slot0.Fields = {
 	cell = "table",
 	map = "table",
-	maskTimer = "table",
+	rtFog = "userdata",
 	transform = "userdata",
 	wsMapResource = "table",
 	rtAttachments = "userdata",
+	maskTimer = "table",
 	maskUid = "number",
 	wsTimer = "table",
-	rtFog = "userdata",
 	fogTimer = "table",
 	fogUid = "number",
 	rtMask = "userdata"
@@ -18,15 +18,15 @@ slot0.Listeners = {
 	onUpdateFogImage = "UpdateFogImage"
 }
 
-function slot0.GetResName()
+slot0.GetResName = function()
 	return "world_cell"
 end
 
-function slot0.GetName(slot0, slot1)
+slot0.GetName = function(slot0, slot1)
 	return "cell_" .. slot0 .. "_" .. slot1
 end
 
-function slot0.Setup(slot0, slot1, slot2)
+slot0.Setup = function(slot0, slot1, slot2)
 	assert(slot0.cell == nil)
 
 	slot0.map = slot1
@@ -39,7 +39,7 @@ function slot0.Setup(slot0, slot1, slot2)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.fogTimer then
 		slot0.wsTimer:RemoveInMapTimer(slot0.fogTimer)
 
@@ -74,14 +74,14 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot1(slot0, slot1, slot2, slot3)
+slot1 = function(slot0, slot1, slot2, slot3)
 	slot0.anchoredPosition = slot1.anchoredPosition + Vector2((slot2.column % 3 - 1) * -slot3.x, (slot2.row % 3 - 1) * slot3.y)
 	slot0.localScale = slot1.localScale
 
 	setImageSprite(slot0, getImageSprite(slot1), true)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.map.theme
 	slot2 = slot0.cell
 	slot3 = slot0.transform
@@ -102,7 +102,7 @@ function slot0.Init(slot0)
 	slot0:UpdateFogImage()
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot2 = slot0.cell
 	slot4 = 0
 	slot5 = 0
@@ -200,12 +200,12 @@ function slot0.Update(slot0, slot1)
 	end
 end
 
-function slot0.UpdateFogImage(slot0)
+slot0.UpdateFogImage = function(slot0)
 	setImageAlpha(slot0.rtFog:Find("dark_fog"), slot0.cell:LookSairenFog() and 0 or 1)
 	setImageAlpha(slot0.rtFog:Find("sairen_fog"), slot2 and 1 or 0)
 end
 
-function slot0.GetWorldPos(slot0)
+slot0.GetWorldPos = function(slot0)
 	return slot0.transform.parent:TransformPoint(Vector3.New(slot0.transform.localPosition.x, slot0.transform.localPosition.y, 0))
 end
 

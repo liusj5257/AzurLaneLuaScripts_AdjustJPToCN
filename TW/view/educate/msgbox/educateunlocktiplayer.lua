@@ -4,11 +4,11 @@ slot0.UNLOCK_TYPE_SITE = 2
 slot0.UNLOCK_TYPE_PLAN = 3
 slot0.UNLOCK_NEW_SECRETARY = 4
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateUnlockTip"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
@@ -25,11 +25,11 @@ function slot0.init(slot0)
 	setText(slot0._tipTF:Find("tip_bg/layout/title/unlock"), i18n("child_unlock_tip"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:setContent()
 end
 
-function slot0.setContent(slot0)
+slot0.setContent = function(slot0)
 	switch(slot0.contextData.type, {
 		[uv0.UNLOCK_TYPE_SYSTEM] = function ()
 			uv0 = EducateTipHelper.system_tip_list[uv1.contextData.single]
@@ -51,7 +51,7 @@ function slot0.setContent(slot0)
 	setText(slot0.contentTF, shortenString("", 15))
 end
 
-function slot0.saveTipRecord(slot0)
+slot0.saveTipRecord = function(slot0)
 	switch(slot0.contextData.type, {
 		[uv0.UNLOCK_TYPE_SYSTEM] = function ()
 			EducateTipHelper.SaveSystemUnlockTip(uv0.contextData.single)
@@ -69,10 +69,10 @@ function slot0.saveTipRecord(slot0)
 	})
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:saveTipRecord()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 

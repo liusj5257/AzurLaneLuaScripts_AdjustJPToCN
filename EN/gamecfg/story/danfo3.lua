@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Denver's Quest!\n\n<size=45>3.Knights Need Advice</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "We did as the quest said and headed to just outside the storehouse, where Spence and Charles Ausburne greeted us.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "We did as the quest said and headed to just outside the storehouse, where Spence and Charles Ausburne greeted us.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "Salutations, Commander! And Denver, too!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Charles produced a key and opened the door to the storehouse. The interior was lined with tons of rations and food.",
 			typewriter = {
 				speed = 0.05,
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I spotted a few bags which had holes chewed through the bottom. The infestation hadn't yet grown out of control, but it had to be dealt with posthaste.",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Denver interrupted herself. She armed herself with a machine gun barrel lying around in the storage and went on the offensive.",
 			typewriter = {
 				speed = 0.05,
@@ -246,9 +246,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Denver swung her improvised weapon with unbelievable speed and took out a lone cockroach.",
 			typewriter = {
 				speed = 0.05,
@@ -292,9 +292,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"We'll never get them all with this approach,\" I thought. A change of strategy was necessary.",
 			typewriter = {
 				speed = 0.05,
@@ -306,13 +306,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "I walked out of the storehouse and inspected the flower bed by the entrance.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "I called her attention to the white flowers growing on the ground.",
 			typewriter = {
 				speed = 0.05,
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "What about 'em? ...Wait, I see now! Columbia told me about these flowers, they work as a natural insecticide!",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -431,9 +431,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "She looked at me with gleaming eyes and thanked me, then promptly picked the flowers and got to work on concocting a simple pesticide.",
 			typewriter = {
 				speed = 0.05,

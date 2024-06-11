@@ -1,19 +1,19 @@
 return {
-	id = "SHENGYONGQU20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			actor = 901030,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "アルジェリーさん、その…さすがに私一人で前衛全員を相手するのは無理だよ…",
 			bgm = "bgm-cccp2",
+			nameColor = "#ff5c5c",
+			say = "アルジェリーさん、その…さすがに私一人で前衛全員を相手するのは無理だよ…",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,8 +39,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -67,10 +67,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 901030,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 901030,
+			nameColor = "#ff5c5c",
 			say = "それはそうするけど、向こうが撤退してくれないときはどうする…？",
 			typewriter = {
 				speed = 0.05,
@@ -84,10 +84,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 903020,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
+			nameColor = "#ff5c5c",
 			say = "そのときは私がフォローを入れるわ。あ、そうだ。潜水艦に気をつけてちょうだい",
 			typewriter = {
 				speed = 0.05,
@@ -101,10 +101,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 901030,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 901030,
+			nameColor = "#ff5c5c",
 			say = "潜水艦？このあたりにヴィシアか鉄血の潜水艦がいるの？",
 			typewriter = {
 				speed = 0.05,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "―――！",
-			dir = 1,
 			bgm = "level-french2",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "―――！",
 			effects = {
 				{
 					active = false,
@@ -208,9 +208,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "（回避に専念するって言っても、なんか向こうも急に本気になってない！？）",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -235,8 +235,8 @@ return {
 			actor = 901030,
 			side = 2,
 			expression = 5,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "（やっぱりロイヤル艦だけを攻撃してるのがバレたかな…向こうにとってはロイヤル艦は友軍だし、流石に放っておくわけにはいかないよね…）",
 			typewriter = {
 				speed = 0.05,
@@ -248,14 +248,14 @@ return {
 			}
 		},
 		{
-			actor = 901030,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 901030,
+			nameColor = "#ff5c5c",
 			say = "（ええと、そろそろアルジェリーさんの「フォロー」が来る時間だし、タイミングを見て後退しよう！）",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,13 +282,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "これが本当の「マホウ」…じゃなくて、攻撃よ！",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -316,8 +316,8 @@ return {
 			actor = 901030,
 			side = 2,
 			expression = 3,
-			nameColor = "#ff5c5c",
 			dir = -1,
+			nameColor = "#ff5c5c",
 			say = "（わわ！？しまった！アルジェリーさんの作戦を考えてたらピーちゃんが…！）",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "外れましたか…！ヴォークラン、どうしました？あなたまでタルテュみたいに考え込んで…",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			actor = 901030,
 			side = 2,
 			expression = 9,
-			nameColor = "#ff5c5c",
 			dir = -1,
+			nameColor = "#ff5c5c",
 			say = "なんでもないよ！そろそろ時間だから――えい！",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 10,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ヴォークラン！……これは…",
 			typewriter = {
 				speed = 0.05,
@@ -380,8 +380,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "煙幕散布！ヴォークラン、逃げるのですか？！",
 			typewriter = {
 				speed = 0.05,
@@ -395,9 +395,9 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = -1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = -1,
 			say = "だって勝てっこないんだもん！",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.7,
 					dur = 0.5,
 					x = -2500
@@ -421,8 +421,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ヴォークラン！待って！",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ルピニャート！リシュリューさんに深追いしないでって言われましたよね？陣形を立て直して！",
 			typewriter = {
 				speed = 0.05,
@@ -453,8 +453,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 8,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "結局ヴォークランちゃん、何しに来たのかな…",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "わかりません。リシュリューさんたちはもう聖堂に進んでいますし、こっちにもダメージが――いいえ、あります、ね…",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -510,8 +510,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 8,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "フォーチュンちゃん、損傷は大丈夫？？",
 			typewriter = {
 				speed = 0.05,
@@ -541,8 +541,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "どうしました…？急に",
 			typewriter = {
 				speed = 0.05,
@@ -629,8 +629,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -642,8 +642,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -658,8 +658,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ええ、分かっていますよ。リシュリューさんもきっとそれが分かってて、ロイヤルと協力したのです",
 			typewriter = {
 				speed = 0.05,
@@ -689,8 +689,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ダンケルクさんの件は、確かにロイヤルに非がありますし、リシュリューさんも申し訳なく考えています。ですが……",
 			typewriter = {
 				speed = 0.05,
@@ -720,8 +720,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "アイリスは一つであるべきです。そして、本国を鉄血に掌握されているような状態では、アイリスに未来はありません",
 			typewriter = {
 				speed = 0.05,
@@ -763,8 +763,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -776,8 +776,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "ヴィシアの艦隊は撤退しましたし、そろそろこちらもリシュリューさんたちのもとに戻りましょう……っ！？",
 			typewriter = {
 				speed = 0.05,

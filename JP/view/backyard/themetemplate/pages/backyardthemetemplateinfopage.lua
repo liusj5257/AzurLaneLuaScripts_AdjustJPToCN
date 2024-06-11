@@ -1,10 +1,10 @@
 slot0 = class("BackYardThemeTemplateInfoPage", import("...Shop.pages.BackYardThemeInfoPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardTemplateInfoPage"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	onButton(slot0, slot0.purchaseBtn, function ()
 		uv0.contextData.themeMsgBox:ExecuteAction("SetUp", uv0.template, uv0.dorm, uv0.player)
@@ -17,7 +17,7 @@ function slot0.OnInit(slot0)
 	setActive(slot0.rightArrBtn, false)
 end
 
-function slot0.OnInitCard(slot0, slot1)
+slot0.OnInitCard = function(slot0, slot1)
 	slot2 = BackYardThemTemplateFurnitureCard.New(slot1)
 
 	onButton(slot0, slot2._go, function ()
@@ -29,7 +29,7 @@ function slot0.OnInitCard(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.SetUp(slot0, slot1, slot2, slot3)
+slot0.SetUp = function(slot0, slot1, slot2, slot3)
 	slot0:Show()
 
 	slot0.template = slot1
@@ -42,7 +42,7 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0:UpdateRes()
 end
 
-function slot0.InitFurnitureList(slot0)
+slot0.InitFurnitureList = function(slot0)
 	slot0.displays = {}
 	slot2 = slot0.dorm:GetPurchasedFurnitures()
 
@@ -54,7 +54,7 @@ function slot0.InitFurnitureList(slot0)
 		end
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		if slot0:inTime() then
 			if slot0:canPurchaseByGem() and not slot0:canPurchaseByDormMoeny() then
 				return 1
@@ -78,7 +78,7 @@ function slot0.InitFurnitureList(slot0)
 	slot0.scrollRect:SetTotalCount(#slot0.displays)
 end
 
-function slot0.UpdateThemeInfo(slot0)
+slot0.UpdateThemeInfo = function(slot0)
 	slot1 = slot0.template
 	slot0.nameTxt.text = slot1:GetName()
 
@@ -96,7 +96,7 @@ function slot0.UpdateThemeInfo(slot0)
 	slot0:UpdatePurchaseBtn()
 end
 
-function slot0.UpdatePurchaseBtn(slot0)
+slot0.UpdatePurchaseBtn = function(slot0)
 	slot1 = slot0.template:OwnThemeTemplateFurniture()
 	slot3 = false
 
@@ -116,7 +116,7 @@ function slot0.UpdatePurchaseBtn(slot0)
 	setActive(slot0.purchaseAllBtn, false)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 
 	if not IsNil(slot0.iconRaw.texture) then

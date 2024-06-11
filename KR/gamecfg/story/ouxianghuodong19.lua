@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG19",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "모항을 떠들썩하게 한 이벤트도 이제 막바지——",
 			bgm = "azumaster-ins",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "모항을 떠들썩하게 한 이벤트도 이제 막바지——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,11 +24,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "다음 배틀은 바로 「μ장비」 성능 테스트, 그리고 오늘 라이브 이벤트의 클라이맥스다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "지금까지의 모든 도전자 VS 폴라리스 다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

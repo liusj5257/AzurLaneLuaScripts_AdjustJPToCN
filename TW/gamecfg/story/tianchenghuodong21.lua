@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANCHENGHUODONG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304050,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "{namecode:92}，這塊勾玉送給妳。把它戴在身上，必要的時候可是會救妳一命的哦~",
 			flashin = {
 				delay = 1,
@@ -42,10 +42,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "其實我給{namecode:91}也準備了一個，給妳的是一對...-不，是備用的~",
 			typewriter = {
 				speed = 0.05,
@@ -59,11 +59,11 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 305070,
-			nameColor = "#a9f548",
+			say = "怎麼突然送我這麼貴重的東西，妳是無事獻殷勤，還是有所圖謀？",
 			dir = -1,
 			blackBg = true,
-			say = "怎麼突然送我這麼貴重的東西，妳是無事獻殷勤，還是有所圖謀？",
+			actor = 305070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -80,10 +80,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "想什麼呢，不過是去祈願時順便買的便宜貨，妳也順便收下就是了，呵呵呵~",
 			typewriter = {
 				speed = 0.05,
@@ -113,10 +113,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "呵呵~這樣便好~記得一定要隨身帶著哦？",
 			typewriter = {
 				speed = 0.05,
@@ -146,13 +146,13 @@ return {
 		{
 			actor = 307020,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			nameColor = "#ff0000",
 			say = "（又被妳提前算到了一步…最後果然還是輸給了妳啊)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "呵呵呵，又有煩人的“老鼠”突破暴風圈闖進聖域了啊…測試者，檢測出單位了嗎",
 			typewriter = {
 				speed = 0.05,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
-			bgName = "bg_story_tiancheng7",
 			side = 2,
+			bgName = "bg_story_tiancheng7",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
 			actorName = "？？？",
 			say = "已經將監視投影下放權限了哦，盡情使用吧，呵呵呵",
 			typewriter = {
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "居然是五航戰的那幫孩子啊。真是一群礙事的傢伙～",
 			typewriter = {
 				speed = 0.05,
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "既然如此，不如將計就計…就讓我來看看妳們究竟有多大的本事吧～",
 			typewriter = {
 				speed = 0.05,

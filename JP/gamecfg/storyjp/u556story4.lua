@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"誓ってナイト！\n\n<size=45>四　約束したよ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "初日の遊び呆ける様子はすっかりなくなり、日常の雑務程度なら安心して任せられるほどに成長した。",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "さて、今日は何を教えるか……",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今日のU-556はなんか…元気がない？",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "あ！ごめん！少し考え事をしてて……今日は何をやるの？",
 			typewriter = {
@@ -146,8 +146,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "ビスマルクのアネキ！遊びに来たよ！",
 			effects = {
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
+			say = "U-556か？",
 			side = 1,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "U-556か？",
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "すまない、今からロイヤルとの打ち合わせがあるの。また今度ね",
 			typewriter = {
@@ -203,15 +203,15 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "ビスマルクのアネキ、今空いてる…？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,10 +239,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_guild_red",
-			actor = 405010,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "あっ……",
+			dir = 1,
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -276,8 +276,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "ビスマルクのアネキ、最近いつも忙しくて…",
 			effects = {
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "なるほど、そういうことだったのか。",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ならばこちらにできることは……",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "え？指揮官……来週の非番の日に遊んでくれるの？",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "ほ、本当に？",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "じゃあ約束したよ！裏切っちゃダメだからね！",
 			typewriter = {

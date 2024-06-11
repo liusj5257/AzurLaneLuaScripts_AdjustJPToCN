@@ -1,17 +1,17 @@
 return {
-	id = "WORLD506B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD506B",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "main-arbitrationsystem-theme",
 			dir = 1,
 			say = "指揮官……還有企業前輩！沒想到能在這樣的狀況下與你們匯合！",
+			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "大家都在努力戰鬥，我們艦隊也不能拖後腿嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "幫大忙了……不過，後勤艦隊為會在這裡？",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "就算如此……維修艦如此接近前線也太危險了。",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在這種不明情況下，身邊有後勤艦隊真是可靠。",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦隊謹慎前進，海域中心消失的塞壬主力也許就隱藏在奇異點之中……",
 			typewriter = {
 				speed = 0.05,

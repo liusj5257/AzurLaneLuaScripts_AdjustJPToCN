@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI0",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI0",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107010,
 			side = 0,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "맑은 하늘, 미세한 바람, 훌륭한 해상 가시 거리. 음, 출항하기 좋은 날씨야.",
 			bgm = "level02",
+			actor = 107010,
+			nameColor = "#a9f548",
+			say = "맑은 하늘, 미세한 바람, 훌륭한 해상 가시 거리. 음, 출항하기 좋은 날씨야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "웨일즈 각하, 함대는 준비 완료되었습니다. 언제든 출항할 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,

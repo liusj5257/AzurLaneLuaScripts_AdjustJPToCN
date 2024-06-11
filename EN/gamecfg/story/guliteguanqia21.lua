@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GULITEGUANQIA21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GULITEGUANQIA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			bgName = "bg_ssss_1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "ssss-az-battle-boss",
@@ -17,8 +17,8 @@ return {
 			hidePaintObj = true,
 			say = "The Sirens have started to move. Guess they weren't going to wait around forever for us to make our move.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,12 +43,12 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "They must be on full alert now that they know we're after the control devices.",
 			typewriter = {
 				speed = 0.05,
@@ -63,10 +63,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 306060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Quite likely, especially after seeing that oversized Purifier over there.",
 			typewriter = {
 				speed = 0.05,
@@ -78,38 +78,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
-			bgName = "bg_ssss_1",
-			dir = 1,
-			actorScale = 2,
-			actor = 900233,
-			actorName = "Giant Purity",
-			hidePaintObj = true,
 			say = "With only two control devices back under my control, I can already do thiiiiis! Muahahahahaha!!",
-			actorPosition = {
-				x = 150,
-				y = -400
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "Giant Purity",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "Giant Purity",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "Tremble, insects! Behold Purity's maaaaaaajesty!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -124,12 +101,35 @@ return {
 			}
 		},
 		{
-			actor = 10800010,
+			say = "Tremble, insects! Behold Purity's maaaaaaajesty!",
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
+			actorName = "Giant Purity",
 			dir = 1,
+			actorScale = 2,
+			actor = 900233,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
+			actorPosition = {
+				x = 150,
+				y = -400
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_ssss_1",
+			dir = 1,
+			actor = 10800010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I wonder if there's some unwritten law about getting bigger and becoming more of a megalomaniac...",
 			typewriter = {
 				speed = 0.05,
@@ -144,10 +144,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 10800020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You're too damn cool, Purity! Say another supervillain line!",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -169,15 +169,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "You. You're a woman of culture!",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "Giant Purity",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "Giant Purity",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "You. You're a woman of culture!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -192,15 +192,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "Heh. I'll crush these worms with a flick of my wrist! Hehe!",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "Giant Purity",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "Giant Purity",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "Heh. I'll crush these worms with a flick of my wrist! Hehe!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -218,10 +218,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 10800020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ahh, I'm going to fall in love~! More, give me more~!",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,15 +243,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "...Uh, gimme a moment to come up with something else.",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "Giant Purity",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "Giant Purity",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "...Uh, gimme a moment to come up with something else.",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -269,10 +269,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 10800010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ugh, Akane... We're in the middle of an important mission right now.",
 			typewriter = {
 				speed = 0.05,
@@ -287,10 +287,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 10800020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Sorry, sorry! Anyway, let's just follow the plan~ (Continues to ogle Purity)",
 			typewriter = {
 				speed = 0.05,
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 10800010,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10800010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...By the way, Akane... If we follow the plan, we're going to have to go recapture the other control devices.",
 			typewriter = {
 				speed = 0.05,
@@ -322,10 +322,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 10800020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Huuuh?! Does that mean I can't stay here?",
 			typewriter = {
 				speed = 0.05,
@@ -337,13 +337,13 @@ return {
 			}
 		},
 		{
-			actor = 10800040,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_ssss_1",
-			actorName = "Hass&Namiko",
-			dir = 1,
 			hideOther = true,
-			nameColor = "#a9f548",
+			dir = 1,
+			actor = 10800040,
+			actorName = "Hass&Namiko",
 			hidePaintObj = true,
 			say = "*Sigh*...",
 			subActors = {
@@ -368,10 +368,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 10800020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh well~ Let's go, Alexis! You'll get to rampage to your heart's content when we fight the boss!",
 			typewriter = {
 				speed = 0.05,
@@ -386,10 +386,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 10800020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Don't get yourself killed before we get all the control devices back, Purity!",
 			typewriter = {
 				speed = 0.05,
@@ -401,15 +401,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "As if! Even right now, I'm more than capable of going toe-to-toe with that fella...",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "Giant Purity",
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "Giant Purity",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "As if! Even right now, I'm more than capable of going toe-to-toe with that fella...",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -424,16 +424,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_ssss_1",
+			actorName = "Giant Purity",
 			dir = 1,
 			blackBg = true,
 			actorScale = 2,
-			actor = 900233,
-			actorName = "Giant Purity",
-			hidePaintObj = true,
 			say = "But that doesn't mean that you should just take your sweet time either!",
+			actor = 900233,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

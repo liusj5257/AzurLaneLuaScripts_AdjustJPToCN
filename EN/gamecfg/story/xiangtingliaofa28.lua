@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA28",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
-			say = "... ... ...",
 			bgm = "story-6",
+			actor = 900072,
+			actorName = "？？？",
+			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Why did you come here?",
 			typewriter = {
 				speed = 0.05,

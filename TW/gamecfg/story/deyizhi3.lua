@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"德意志的憂鬱\n\n<size=45>三　不協調音</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 203010,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "那麼現在公佈本次演習炮擊組的前二十名……",
 			bgm = "story-1",
+			actor = 203010,
+			nameColor = "#a9f548",
+			say = "那麼現在公佈本次演習炮擊組的前二十名……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "僕人，看著吧，我可是天下聞名的裝甲艦，一定會名列前茅的！",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "僕人，看著吧，我可是天下聞名的裝甲艦，一定會名列前茅的！",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "等等，我呢？！",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 203010,
+			say = "雖然速度上接近一線水平，不過妳的火力還有精準度都差了其他人不少呢。",
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "雖然速度上接近一線水平，不過妳的火力還有精準度都差了其他人不少呢。",
+			actor = 203010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -230,9 +230,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "倫敦說完就走開了。",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "我可是……",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "僕人，我其實很強對吧，我只是失手了對吧？！",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "德意志的眼中閃著淚花，但是，應該在這裡欺騙她嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -368,11 +368,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "呵呵……",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1.5,
 					x = -2250

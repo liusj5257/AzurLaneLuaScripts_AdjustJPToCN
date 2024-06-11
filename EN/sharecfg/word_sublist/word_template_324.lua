@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_324 = {}
 slot1 = slot0.word_template_324
 
-function temp()
+temp = function()
 	uv0["因"] = {
 		["为"] = {
 			["天"] = {
@@ -59,7 +59,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["阴"] = {
 		d = {
 			a = {
@@ -277,7 +277,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["殷"] = {
 		["彩"] = {
 			["霞"] = {
@@ -292,7 +292,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["陰"] = {
 		["屄"] = {
 			this = true
@@ -388,7 +388,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吟"] = {
 		["稻"] = {
 			["雁"] = {
@@ -407,7 +407,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["银"] = {
 		["行"] = {
 			["卡"] = {
@@ -555,7 +555,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["婬"] = {
 		["乱"] = {
 			["军"] = {

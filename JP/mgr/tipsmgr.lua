@@ -3,11 +3,11 @@ slot0 = pg
 slot0.TipsMgr = singletonClass("TipsMgr")
 slot1 = slot0.TipsMgr
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	slot0._go = nil
 end
 
-function slot1.Init(slot0, slot1)
+slot1.Init = function(slot0, slot1)
 	print("initializing tip manager...")
 
 	slot0._count = 0
@@ -27,7 +27,7 @@ function slot1.Init(slot0, slot1)
 	end)
 end
 
-function slot1.ShowTips(slot0, slot1, slot2, slot3)
+slot1.ShowTips = function(slot0, slot1, slot2, slot3)
 	slot4 = uv0.CriMgr.GetInstance()
 
 	slot4:PlaySoundEffect_V3(slot3 or SFX_UI_TIP)
@@ -44,7 +44,7 @@ function slot1.ShowTips(slot0, slot1, slot2, slot3)
 	LeanTween.scale(slot4, Vector3(1.8, 0.1, 1), 0.1):setUseEstimatedTime(true)
 	LeanTween.scale(slot4, Vector3(1.1, 1.1, 1), 0.1):setDelay(0.1):setUseEstimatedTime(true)
 
-	function slot6(slot0, slot1)
+	slot6 = function(slot0, slot1)
 		slot2 = GetOrAddComponent(slot0, "CanvasGroup")
 
 		Timer.New(function ()
@@ -87,7 +87,7 @@ function slot1.ShowTips(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.ShowPicTips(slot0, slot1, slot2, slot3, slot4)
+slot1.ShowPicTips = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.CriMgr.GetInstance()
 
 	slot5:PlaySoundEffect_V3(slot4 or SFX_UI_TIP)
@@ -98,7 +98,7 @@ function slot1.ShowPicTips(slot0, slot1, slot2, slot3, slot4)
 
 	setText(cloneTplTo(slot0._picTips, slot0._grid).transform:Find("Text"), "<color=" .. (slot3 or "white") .. ">\"" .. slot1 .. "\" x" .. slot2 .. "</color>")
 
-	function slot7(slot0)
+	slot7 = function(slot0)
 		slot1 = GetOrAddComponent(slot0, "CanvasGroup")
 		slot1.alpha = 1
 		slot2 = LeanTween.alphaCanvas(slot1, 0, 5):setUseEstimatedTime(true):setOnComplete(System.Action(function ()

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "照明弹",
 	cd = 0,
+	picture = "0",
+	desc = "照明弹",
 	painting = 1,
 	id = 5041,
-	picture = "0",
 	castCV = "skill",
-	desc = "照明弹",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,19 +17,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmNearest",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmNearest",
 			arg_list = {
 				weapon_id = 902
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 5042
 			}

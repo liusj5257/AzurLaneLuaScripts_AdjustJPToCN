@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.046
+					number = 0.046,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.052
+					number = 0.052,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.066
+					number = 0.066,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.072
+					number = 0.072,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.086
+					number = 0.086,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.092
+					number = 0.092,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_N_99",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_N_99"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "伤害提升",
 	stack = 1,

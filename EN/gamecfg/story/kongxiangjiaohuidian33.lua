@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN33",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			stopbgm = true,
-			say = "Floating Fortress - Area A1",
 			bgmDelay = 2,
 			bgm = "story-midgard",
+			stopbgm = true,
+			say = "Floating Fortress - Area A1",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,12 +28,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whew... It's good to be home again.",
 			painting = {
 				alpha = 0.3,
@@ -48,10 +48,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I wonder if Queen Elizabeth solved her Singularity issue.",
 			painting = {
 				alpha = 0.3,
@@ -66,10 +66,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Might as well call her and ask.",
 			painting = {
 				alpha = 0.3,
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "Bismarck opened up a communication channel.",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "She called up the queen, but the only thing on the other end was white noise.",
 			typewriter = {
@@ -104,10 +104,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? That's strange...",
 			painting = {
 				alpha = 0.3,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "Confused, she then attempted to get in touch with her comrades on the Iron Blood mainland, as well as those attending the World Expo.",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "But, again, the only thing she heard was white noise.",
 			typewriter = {
@@ -142,10 +142,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is the Mirror Sea's jamming field still active? That's really odd...",
 			painting = {
 				alpha = 0.3,
@@ -160,10 +160,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Bismarck, I've finished my inspection.",
 			painting = {
 				alpha = 0.3,
@@ -178,10 +178,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How are the others holding up?",
 			painting = {
 				alpha = 0.3,
@@ -215,10 +215,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Anything else that's wrong with them?",
 			painting = {
 				alpha = 0.3,
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Very well. Continue monitoring them.",
 			painting = {
 				alpha = 0.3,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "Bismarck gazed through the window in her office. The Tower of Midgard's light was fading.",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "They had promptly shut off the gate and deactivated the facility as soon as they got back.",
 			typewriter = {
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's supposed to be over. Everything should be back to normal, and yet...",
 			painting = {
 				alpha = 0.3,
@@ -344,10 +344,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Destroying the Tower of Midgard really is the only way, it seems.",
 			painting = {
 				alpha = 0.3,
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
 			say = "She observed the silent tower whilst weighing its pros and cons in her head.",
 			typewriter = {
@@ -369,12 +369,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -389,10 +389,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ulrich, do you hear me?",
 			painting = {
 				alpha = 0.3,
@@ -423,12 +423,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are you done inspecting the tower?",
 			painting = {
 				alpha = 0.3,
@@ -500,11 +500,11 @@ return {
 			paintingNoise = true,
 			side = 0,
 			bgName = "bg_fuxiangxian_3",
-			hideOther = true,
-			dir = 1,
-			actorName = "{namecode:464}&{namecode:435}",
 			actor = 405030,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			hideOther = true,
+			actorName = "{namecode:464}&{namecode:435}",
 			say = "– Bismarck... – Ulrich...",
 			subActors = {
 				{
@@ -528,10 +528,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahah. We both had the same thought, huh?",
 			painting = {
 				alpha = 0.3,
@@ -565,10 +565,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Yes.",
 			painting = {
 				alpha = 0.3,
@@ -583,10 +583,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It has served its purpose. If Friedrich were here, she would agree that destroying it is the correct move.",
 			painting = {
 				alpha = 0.3,
@@ -601,10 +601,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But before we do so, download the logs saved on it.",
 			painting = {
 				alpha = 0.3,
@@ -619,10 +619,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Make backups of all the project files on it as well. Once that's done, demolish it.",
 			painting = {
 				alpha = 0.3,

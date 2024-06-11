@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOLIFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOLIFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Swept Away in the Moment\n\n<size=45>Other Ways To Have Fun</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Of course, drinking wasn't the only way to enjoy oneself at the party...",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "Of course, drinking wasn't the only way to enjoy oneself at the party...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 301143,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301143,
+			nameColor = "#a9f548",
 			say = "Meat! Yummy yummy meat! Om nom nom nom! Ahhh, I'm in carnivore heaven!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 307051,
 			dir = 1,
+			actor = 307051,
 			nameColor = "#a9f548",
 			say = "... *Sigh*, when Yuudachi sees meat, not even her shadow can keep up with her...",
 			typewriter = {
@@ -111,14 +111,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_115",
 			actor = 408041,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I've spotted a lone U-47!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "Why are you sitting here alone, U-47? I know you didn't volunteer to help set up the party, but shouldn't you at least be celebrating together with everyone else?",
 			typewriter = {
@@ -163,10 +163,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 408022,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "... Don't wanna socialize, so I'll pass. You can have fun without me.",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 408041,
 			dir = 1,
+			actor = 408041,
 			nameColor = "#a9f548",
 			say = "What?! Haven't you heard the phrase \"the more, the merrier\"? C'mon, let's head to the buffet tables and get something good to eat!",
 			typewriter = {
@@ -214,10 +214,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 408022,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "*Sigh*... I was perfectly fine with just staying here...",
 			typewriter = {
 				speed = 0.05,
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 408041,
 			dir = 1,
+			actor = 408041,
 			nameColor = "#a9f548",
 			say = "Don't be like that! C'mon!",
 			typewriter = {
@@ -248,14 +248,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_115",
 			actor = 499011,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "It really is wonderful that we can have such a heartwarming party and have such fun together...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 499011,
 			dir = 1,
+			actor = 499011,
 			nameColor = "#a9f548",
 			say = "But... it doesn't feel quite thrilling enough...",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 199011,
 			dir = 1,
+			actor = 199011,
 			nameColor = "#a9f548",
 			say = "Ey, Roon, what's up? You look, like, soooo bored, like you haven't had any fun all day.",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 199011,
 			dir = 1,
+			actor = 199011,
 			nameColor = "#a9f548",
 			say = "I mean, your own peeps are hosting this time, so isn't it fine to just kick it?",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 499011,
 			dir = 1,
+			actor = 499011,
 			nameColor = "#a9f548",
 			say = "... Oh, hello, Seattle and Ibuki. How lovely to see you here~",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 399012,
 			dir = 1,
+			actor = 399012,
 			nameColor = "#a9f548",
 			say = "H-hello, Miss Roon... Forgive me, this is my first time attending one of these \"parties...\"",
 			typewriter = {
@@ -400,9 +400,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 499011,
 			dir = 1,
 			blackBg = true,
+			actor = 499011,
 			nameColor = "#a9f548",
 			say = "You're right, Seattle~ Everyone has their way of enjoying a party. Say, could I ask you to give me a tour around the venue to see what's here?",
 			typewriter = {

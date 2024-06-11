@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "探索一下投票會場吧！",
 				mode = 1,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 0
 			}
 		}

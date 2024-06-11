@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Barents Sea - Royal Navy Main Fleet",
 			side = 2,
 			bgName = "bg_hms_5",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-royalnavy",
+			say = "Barents Sea - Royal Navy Main Fleet",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Icarus",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Howe",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Icarus",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Howe",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Valiant",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Edinburgh",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Valiant",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Howe",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Valiant",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "Tirpitz, Graf Spee, and the Scharnhorst sisters all suffered various degrees of damage during prior confrontations, so even if their main fleet showed up, I don't think it'd be the kind of battle that Valiant is hoping for.",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "It's a pity we won't be getting any fireworks to go with this aurora...",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "Better yet, why don't we just send a message to the Iron Blood fleet and challenge them to a decisive battle? We're ready for them after all—",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "W-wait, didn't we just say to not underestimate the enemy? Something like that wouldn't be advisable!",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "The quickest path to victory seems to be duking it out with the enemy, face-to-face.",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "(We can always ask for permission after we get there... But I wonder why the Northern Parliament is still so reserved about asking for aid, even in their current situation...)",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "(I shouldn't overthink things though... We still have to get there safely after all.)",
 			typewriter = {

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG14",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#ff5c5c",
 			say = "아아아악! 이 함재기들 귀찮아 죽겠네!",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "후우…에너지에 손실을 입은 아드미랄 히퍼는 한동안 꼼짝 못 할 거야. 잠시 위험한 상황은 벗어났어.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = " 뭐!? 전열함 편대가 어떻게 이렇게 빠를 수가 있어?!",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = " 응, 절대 없어.",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = " …난 몇대의 정찰기로 주력 함선에 효과적인 손실을 입히긴 불가능하다고 생각해. 하지만 네가 그렇게 말한다면 잠깐만.",
 			typewriter = {
@@ -220,14 +220,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_hms_7",
 			actor = 206060,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "어…? 티르피츠는 정찰기의 공격에 아무런 반응이 없고, 양측의 샤른호르스트와 그나이제나우도 똑같아.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "공격에도 반응이 없고, 빠른 속도로 이동하는 주력 함대... 설마...!",
 			dialogShake = {
 				speed = 0.09,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_7",
+			dir = 1,
 			say = "말을 끝내자마자 셰필드는 서둘러 방향을 틀어 메탈 블러드 주력 함대의 방향으로 달려갔다.",
 			typewriter = {
 				speed = 0.05,

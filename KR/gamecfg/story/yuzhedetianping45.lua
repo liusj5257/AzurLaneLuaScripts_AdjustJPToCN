@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING45",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING45",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_chuansong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "???·???",
 			bgm = "theme-richard",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "???·???",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

@@ -1,6 +1,6 @@
 slot0 = class("EquipmentInfoLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EquipmentInfoUI"
 end
 
@@ -27,7 +27,7 @@ slot0.pos = {
 	}
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.toggles = {}
 
 	for slot5, slot6 in ipairs({
@@ -53,20 +53,20 @@ function slot0.init(slot0)
 	slot0.equipDestroyConfirmWindow = EquipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 end
 
-function slot0.setEquipment(slot0, slot1)
+slot0.setEquipment = function(slot0, slot1)
 	slot0.equipmentVO = slot1
 end
 
-function slot0.setShip(slot0, slot1, slot2)
+slot0.setShip = function(slot0, slot1, slot2)
 	slot0.shipVO = slot1
 	slot0.oldShipVO = slot2
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.checkOverGold(slot0, slot1)
+slot0.checkOverGold = function(slot0, slot1)
 	if slot0.player:GoldMax(_.detect(slot1, function (slot0)
 		return slot0.type == DROP_TYPE_RESOURCE and slot0.id == 1
 	end).count or 0) then
@@ -78,7 +78,7 @@ function slot0.checkOverGold(slot0, slot1)
 	return true
 end
 
-function slot0.setDestroyCount(slot0, slot1)
+slot0.setDestroyCount = function(slot0, slot1)
 	if slot0.destroyCount ~= math.clamp(slot1, 1, slot0.equipmentVO.count) then
 		slot0.destroyCount = slot1
 
@@ -86,7 +86,7 @@ function slot0.setDestroyCount(slot0, slot1)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setActive(slot0.txtQuickEnable, slot0.contextData.quickFlag or false)
 
 	slot1 = defaultValue(slot0.contextData.type, EquipmentInfoMediator.TYPE_DEFAULT)
@@ -118,7 +118,7 @@ function slot0.didEnter(slot0)
 	})
 end
 
-function slot0.initAndSetBtn(slot0, slot1)
+slot0.initAndSetBtn = function(slot0, slot1)
 	if slot1 == EquipmentInfoMediator.TYPE_DEFAULT or slot1 == EquipmentInfoMediator.TYPE_SHIP then
 		slot0.defaultEquipTF = slot0:findTF("equipment", slot0.defaultPanel) or slot0:cloneSampleTo(slot0.defaultPanel, uv0.Middle, "equipment")
 		slot0.defaultReplaceBtn = slot0:findTF("actions/action_button_3", slot0.defaultPanel)
@@ -321,7 +321,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateOperation1(slot0)
+slot0.updateOperation1 = function(slot0)
 	triggerToggle(slot0.toggles.defaultPanel, true)
 	slot0:updateEquipmentPanel(slot0.defaultEquipTF, slot0.equipmentVO)
 	setActive(slot0.defaultRevertBtn, not LOCK_EQUIP_REVERT and slot0.fromEquipmentView and slot0.equipmentVO:getConfig("level") > 1 and getProxy(BagProxy):getItemCountById(Item.REVERT_EQUIPMENT_ID) > 0)
@@ -331,7 +331,7 @@ function slot0.updateOperation1(slot0)
 	slot0:UpdateTransformTipBar(slot0.equipmentVO)
 end
 
-function slot0.updateOperation2(slot0)
+slot0.updateOperation2 = function(slot0)
 	triggerToggle(slot0.toggles.defaultPanel, true)
 	slot0:updateEquipmentPanel(slot0.defaultEquipTF, slot0.shipVO:getEquip(slot0.contextData.pos))
 	setActive(slot0.defaultDestroyBtn, false)
@@ -349,7 +349,7 @@ function slot0.updateOperation2(slot0)
 	end
 end
 
-function slot0.updateOperation3(slot0)
+slot0.updateOperation3 = function(slot0)
 	triggerToggle(slot0.toggles.replacePanel, true)
 
 	if slot0.shipVO:getEquip(slot0.contextData.pos) then
@@ -374,7 +374,7 @@ function slot0.updateOperation3(slot0)
 	end
 end
 
-function slot0.updateOperation4(slot0)
+slot0.updateOperation4 = function(slot0)
 	triggerToggle(slot0.toggles.displayPanel, true)
 	slot0:updateEquipmentPanel(slot0.displayEquipTF, slot0.equipmentVO)
 	setActive(slot0.displayMoveBtn, slot0.shipVO)
@@ -387,7 +387,7 @@ function slot0.updateOperation4(slot0)
 	slot0:UpdateTransformTipBar(slot0.equipmentVO)
 end
 
-function slot0.updateRevertPanel(slot0)
+slot0.updateRevertPanel = function(slot0)
 	slot1 = slot0.equipmentVO:GetRootEquipment()
 	slot3 = slot1:GetPropertiesInfo()
 
@@ -396,7 +396,7 @@ function slot0.updateRevertPanel(slot0)
 	slot0:updateOperationAward(slot0.revertAwardContainer, slot0.itemTpl, slot0.equipmentVO:getRevertAwards())
 end
 
-function slot0.updateDestroyCount(slot0)
+slot0.updateDestroyCount = function(slot0)
 	setText(slot0.destroyValue, slot0.destroyCount)
 
 	slot2 = {}
@@ -419,7 +419,7 @@ function slot0.updateDestroyCount(slot0)
 	slot0:updateOperationAward(slot0.destroyBonusList, slot0.destroyBonusItem, slot2)
 end
 
-function slot0.updateOperationAward(slot0, slot1, slot2, slot3)
+slot0.updateOperationAward = function(slot0, slot1, slot2, slot3)
 	slot0.awards = slot3
 
 	if slot1.childCount == 0 then
@@ -441,7 +441,7 @@ function slot0.updateOperationAward(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
+slot0.updateEquipmentPanel = function(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0:findTF("info", slot1), slot2)
 	setActive(slot0:findTF("empty", slot1), not slot2)
 
@@ -475,7 +475,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.UpdateTransformTipBar(slot0, slot1)
+slot0.UpdateTransformTipBar = function(slot0, slot1)
 	if not slot0.defaultTransformTipBar then
 		return
 	end
@@ -529,7 +529,7 @@ function slot0.UpdateTransformTipBar(slot0, slot1)
 	end
 end
 
-function slot0.cloneSampleTo(slot0, slot1, slot2, slot3, slot4)
+slot0.cloneSampleTo = function(slot0, slot1, slot2, slot3, slot4)
 	cloneTplTo(slot0.sample, slot1, slot3).localPosition = Vector3.New(uv0.pos[slot2][1], uv0.pos[slot2][2], uv0.pos[slot2][3])
 
 	if slot4 then
@@ -539,12 +539,12 @@ function slot0.cloneSampleTo(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.equipDestroyConfirmWindow:Destroy()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.equipDestroyConfirmWindow:isShowing() then
 		slot0.equipDestroyConfirmWindow:Hide()
 

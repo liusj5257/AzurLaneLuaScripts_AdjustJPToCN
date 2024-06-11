@@ -1,18 +1,18 @@
 return {
-	id = "WORLD304D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304D",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "セイレーンの新型……！",
-			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "これは…オブストラクターの改造型かもしれません…！",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "電子撹乱されている状態では航空攻撃の威力がかなり落ちるわね…エセックス、後退する？",
 			typewriter = {
 				speed = 0.05,
@@ -105,10 +105,10 @@ return {
 			}
 		},
 		{
+			say = "ーーーー！！！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "ーーーー！！！",
 			flashN = {
 				color = {
 					1,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "来た！味方の艦砲射撃だ！",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105190,
 			dir = 1,
+			actor = 105190,
 			say = "空母がセイレーンに近距離戦を挑む…いいね。目新しい",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "好きでこの距離で戦っているわけではないけど！",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "艦載機と火器は問題ないけど、電子機器は完全にやられて動けないよ。本当にいいタイミングで来てくれた",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105200,
 			dir = 1,
+			actor = 105200,
 			say = "安心して。電子戦型のセイレーンは空母より戦艦のほうが戦いやすいよ",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 105190,
 			dir = 1,
+			actor = 105190,
 			say = "ここはぼくたちが引きつけるから、空母は下がって艦載機による支援に集中して",
 			typewriter = {
 				speed = 0.05,

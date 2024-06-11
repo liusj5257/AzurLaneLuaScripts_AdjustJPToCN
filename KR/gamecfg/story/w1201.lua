@@ -1,12 +1,12 @@
 return {
-	id = "W1201",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1201",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "해역 확보 완료! 전장 조사 중, 세이렌의 숨겨진 자원 발견!",
 			typewriter = {
 				speed = 0.05,

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "里诺",
 	init_effect = "",
+	id = 13120,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13120,
+	color = "red",
 	icon = 13120,
 	last_effect = "",
 	effect_list = {
@@ -44,8 +44,8 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
-				minTargetNumber = 1,
 				skill_id = 13120,
+				minTargetNumber = 1,
 				ship_type_list = {
 					6,
 					7

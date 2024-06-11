@@ -4,15 +4,15 @@ slot0.Battle.BattleTorpedoBulletFactory = singletonClass("BattleTorpedoBulletFac
 slot0.Battle.BattleTorpedoBulletFactory.__name = "BattleTorpedoBulletFactory"
 slot1 = slot0.Battle.BattleTorpedoBulletFactory
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.MakeBullet(slot0)
+slot1.MakeBullet = function(slot0)
 	return uv0.Battle.BattleTorpedoBullet.New()
 end
 
-function slot1.onBulletHitFunc(slot0, slot1, slot2)
+slot1.onBulletHitFunc = function(slot0, slot1, slot2)
 	slot6 = uv0.GetDataProxy()
 	slot7 = slot0:GetBulletData()
 	slot8 = slot7:GetTemplate()
@@ -26,7 +26,7 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 
 	slot11 = nil
 
-	function slot12(slot0)
+	slot12 = function(slot0)
 		if uv0.decay then
 			uv1:UpdateDistanceInfo()
 		end
@@ -56,11 +56,11 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	end
 end
 
-function slot1.onBulletMissFunc(slot0)
+slot1.onBulletMissFunc = function(slot0)
 	uv0.onBulletHitFunc(slot0)
 end
 
-function slot1.MakeModel(slot0, slot1, slot2)
+slot1.MakeModel = function(slot0, slot1, slot2)
 	slot3 = slot1:GetBulletData()
 	slot4 = slot3:GetTemplate()
 	slot5 = slot0:GetDataProxy()

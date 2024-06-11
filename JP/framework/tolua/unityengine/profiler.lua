@@ -2,8 +2,8 @@ slot0 = LuaProfiler
 slot1 = jit and require("jit.vmdef")
 slot2 = {
 	event = {
-		[20.0] = "_xpcall.__call",
-		[142.0] = "event.__call"
+		[142.0] = "event.__call",
+		[20.0] = "_xpcall.__call"
 	},
 	slot = {
 		[11.0] = "slot.__call"
@@ -13,13 +13,13 @@ slot2 = {
 	}
 }
 slot3 = {
-	ipairs_aux = 1,
 	["_xpcall.__call"] = 1,
+	ipairs_aux = 1,
 	unknow = 1
 }
 slot5 = {}
 
-function slot6(slot0)
+slot6 = function(slot0)
 	slot1 = #uv0 + 1
 
 	for slot5, slot6 in ipairs(uv0) do
@@ -31,7 +31,7 @@ function slot6(slot0)
 	return slot1
 end
 
-function slot7(slot0)
+slot7 = function(slot0)
 	if #uv0 > 0 and debug.getinfo(5, "f") then
 		if slot1 < uv1(slot2.func) and debug.getinfo(6, "f") then
 			slot4 = uv1(slot2.func) or slot4
@@ -44,7 +44,7 @@ function slot7(slot0)
 	end
 end
 
-function slot8(slot0, slot1, slot2)
+slot8 = function(slot0, slot1, slot2)
 	uv0()
 	table.insert(uv1, slot1)
 
@@ -56,7 +56,7 @@ function slot8(slot0, slot1, slot2)
 	uv2.BeginSample(slot2.id)
 end
 
-function slot9(slot0, slot1, slot2)
+slot9 = function(slot0, slot1, slot2)
 	uv0()
 	table.insert(uv1, slot1)
 
@@ -73,7 +73,7 @@ function slot9(slot0, slot1, slot2)
 	uv2.BeginSample(slot3)
 end
 
-function profiler_hook(slot0, slot1)
+profiler_hook = function(slot0, slot1)
 	if slot0 == "call" then
 		slot2 = nil
 

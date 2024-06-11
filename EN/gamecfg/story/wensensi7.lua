@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Sister's Growth Spurt?!\n\n<size=45>Chapter 7: My Sister's Smile</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "With the combined advice from her sisters, Vincennes had a better understanding of her secretary duties.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "With the combined advice from her sisters, Vincennes had a better understanding of her secretary duties.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Although she was still a bit clumsy, her progress was undeniable.",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I couldn't help but to feel a little proud of how much she had grown in such a short time.",
 			typewriter = {
 				speed = 0.05,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "Vincennes handed over a small pouch of elegantly-wrapped cookies.",
 			typewriter = {
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "They were clearly handmade. Their shapes were a bit rough, but one could immediately see the sincere feelings of the person who made them.",
 			typewriter = {
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Ah... I definitely could see that happening...",
 			typewriter = {
 				speed = 0.05,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "So, from now on, I'll do my best!",
 			typewriter = {
 				speed = 0.05,
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "Okay! Oh, but um... Commander, you'll still take naps with me, right?",
 			typewriter = {
 				speed = 0.05,

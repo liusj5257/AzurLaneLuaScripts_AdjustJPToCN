@@ -1,6 +1,6 @@
 slot0 = class("GuildEvent", import("...BaseVO"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.active = false
@@ -11,15 +11,15 @@ function slot0.Ctor(slot0, slot1)
 	slot0.durTime = pg.guildset.operation_duration_time.key_value
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.guild_operation_template
 end
 
-function slot0.GetConsume(slot0)
+slot0.GetConsume = function(slot0)
 	return slot0:getConfig("consume")
 end
 
-function slot0.Active(slot0, slot1)
+slot0.Active = function(slot0, slot1)
 	slot0:Deactivate()
 
 	slot0.startTime = slot1.start_time
@@ -41,7 +41,7 @@ function slot0.Active(slot0, slot1)
 
 	slot4 = 0
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		if uv0 < GuildMission.New(slot0):GetPosition() then
 			uv0 = slot2
 		end
@@ -78,15 +78,15 @@ function slot0.Active(slot0, slot1)
 	slot0.active = true
 end
 
-function slot0.IsParticipant(slot0)
+slot0.IsParticipant = function(slot0)
 	return slot0.isParticipant > 0
 end
 
-function slot0.GetJoinCnt(slot0)
+slot0.GetJoinCnt = function(slot0)
 	return slot0.joinCnt
 end
 
-function slot0.IncreaseJoinCnt(slot0)
+slot0.IncreaseJoinCnt = function(slot0)
 	slot0.isParticipant = 1
 
 	if slot0.joinCnt < slot0:GetMaxJoinCnt() then
@@ -96,27 +96,27 @@ function slot0.IncreaseJoinCnt(slot0)
 	end
 end
 
-function slot0.GetExtraJoinCnt(slot0)
+slot0.GetExtraJoinCnt = function(slot0)
 	return getProxy(GuildProxy):getRawData():GetExtraBattleCnt()
 end
 
-function slot0.IsLimitedJoin(slot0)
+slot0.IsLimitedJoin = function(slot0)
 	return not (slot0:GetJoinCnt() < slot0:GetMaxJoinCnt() or slot0:GetExtraJoinCnt() > 0)
 end
 
-function slot0.GetMaxJoinCnt(slot0)
+slot0.GetMaxJoinCnt = function(slot0)
 	return pg.guildset.efficiency_param_times.key_value
 end
 
-function slot0.GetBossMission(slot0)
+slot0.GetBossMission = function(slot0)
 	return slot0.boss
 end
 
-function slot0.GetMissions(slot0)
+slot0.GetMissions = function(slot0)
 	return slot0.missions
 end
 
-function slot0.Deactivate(slot0)
+slot0.Deactivate = function(slot0)
 	slot0.startTime = 0
 	slot0.clueCount = 0
 	slot0.missions = {}
@@ -125,43 +125,43 @@ function slot0.Deactivate(slot0)
 	slot0.isParticipant = 0
 end
 
-function slot0.IsExpired(slot0)
+slot0.IsExpired = function(slot0)
 	return slot0.endTime <= pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.IsActive(slot0)
+slot0.IsActive = function(slot0)
 	return slot0.active == true
 end
 
-function slot0.GetDesc(slot0)
+slot0.GetDesc = function(slot0)
 	return slot0:getConfig("profile")
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetScaleDesc(slot0)
+slot0.GetScaleDesc = function(slot0)
 	return slot0:getConfig("scale")
 end
 
-function slot0.GetDisplayMission(slot0)
+slot0.GetDisplayMission = function(slot0)
 	return slot0:getConfig("event_type_list")
 end
 
-function slot0.GetDisplayAward(slot0)
+slot0.GetDisplayAward = function(slot0)
 	return slot0:getConfig("award_display")
 end
 
-function slot0.IsUnlock(slot0, slot1)
+slot0.IsUnlock = function(slot0, slot1)
 	return slot0:getConfig("unlock_guild_level") <= slot1
 end
 
-function slot0.GetTheme(slot0)
+slot0.GetTheme = function(slot0)
 	return slot0:getConfig("theme")
 end
 
-function slot0.GetJoinShips(slot0)
+slot0.GetJoinShips = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.missions) do
@@ -177,7 +177,7 @@ function slot0.GetJoinShips(slot0)
 	return slot1
 end
 
-function slot0.GetMissionById(slot0, slot1)
+slot0.GetMissionById = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.missions) do
 		for slot10, slot11 in ipairs(slot6) do
 			if slot11.id == slot1 then
@@ -189,7 +189,7 @@ function slot0.GetMissionById(slot0, slot1)
 	assert(false)
 end
 
-function slot0.GetJoinShipCnt(slot0)
+slot0.GetJoinShipCnt = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.missions) do
@@ -201,7 +201,7 @@ function slot0.GetJoinShipCnt(slot0)
 	return slot1
 end
 
-function slot0.GetBossShipIds(slot0)
+slot0.GetBossShipIds = function(slot0)
 	slot1 = {}
 
 	if slot0.boss and slot0.boss:IsActive() then
@@ -213,7 +213,7 @@ function slot0.GetBossShipIds(slot0)
 	return slot1
 end
 
-function slot0.GetMissionCnt(slot0)
+slot0.GetMissionCnt = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.missions) do
@@ -225,7 +225,7 @@ function slot0.GetMissionCnt(slot0)
 	return slot1
 end
 
-function slot0.GetMainMissionCntAndFinishCnt(slot0)
+slot0.GetMainMissionCntAndFinishCnt = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -244,7 +244,7 @@ function slot0.GetMainMissionCntAndFinishCnt(slot0)
 	return slot1, slot2
 end
 
-function slot0.GetMissionFinishCnt(slot0)
+slot0.GetMissionFinishCnt = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.missions) do
@@ -258,8 +258,8 @@ function slot0.GetMissionFinishCnt(slot0)
 	return slot1
 end
 
-function slot0.GetCanFormationMisstions(slot0)
-	function slot1(slot0)
+slot0.GetCanFormationMisstions = function(slot0)
+	slot1 = function(slot0)
 		if slot0:IsFinish() then
 			return false
 		end
@@ -290,17 +290,17 @@ function slot0.GetCanFormationMisstions(slot0)
 	return slot2
 end
 
-function slot0.AnyMissionCanFormation(slot0)
+slot0.AnyMissionCanFormation = function(slot0)
 	return #slot0:GetCanFormationMisstions() > 0
 end
 
-function slot0.AnyMissionFirstFleetCanFroamtion(slot0)
+slot0.AnyMissionFirstFleetCanFroamtion = function(slot0)
 	return _.detect(slot0:GetCanFormationMisstions(), function (slot0)
 		return slot0:FirstFleetCanFormation() or slot0:IsFinish() and not slot0:IsFinishedByServer()
 	end) ~= nil, slot2
 end
 
-function slot0.GetUnlockMission(slot0)
+slot0.GetUnlockMission = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.missions) do
@@ -323,7 +323,7 @@ function slot0.GetUnlockMission(slot0)
 	return nil
 end
 
-function slot0.GetLeftTime(slot0)
+slot0.GetLeftTime = function(slot0)
 	return slot0.endTime - pg.TimeMgr.GetInstance():GetServerTime()
 end
 

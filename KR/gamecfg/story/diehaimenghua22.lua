@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301610,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "시나노님, 드디어 일어났구나. 좋은 저녁이야.",
 			bgm = "xinnong-3",
+			actor = 301610,
+			nameColor = "#a9f548",
+			say = "시나노님, 드디어 일어났구나. 좋은 저녁이야.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "내가, 잠이 든건가…?",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(무력감, 온 몸이 나른하다.)",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "쿠레 전투 부대에 편입되면 이글 유니온 녀석들에게 본때를 보여줄 수 있을 거라고~!",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -176,8 +176,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "이글 유니온과 전쟁을 벌이는 중이구나… 여기도 마찬가지인가……",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(분명 얼마 전까지 함께 어깨를 나란히 했는데, 꿈에선 이런 일이 일어나다니…)",
 			typewriter = {
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
+			nameColor = "#a9f548",
 			say = "(정보는 아직 새어나가지 않았어. 과거의 꿈 속에서는 이런 일은 일어나지 않았는데…… 됐다, 일단 지켜보자.)",
 			typewriter = {
 				speed = 0.05,

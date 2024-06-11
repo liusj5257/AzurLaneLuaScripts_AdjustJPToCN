@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103160,
-			side = 2,
-			bgm = "story-6",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "이제 전부 끝났다!",
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "story-6",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "이제 전부 끝났다!",
 			flashN = {
 				color = {
 					1,
@@ -76,16 +76,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
 					number = 3
 				},
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.7,
 					x = 0
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "구축함에게 명령을 내려 부상을 입은 호넷을 떠나보냈다",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "지휘 시스템을 잃은 세이렌 함대는 궤멸하기 시작했다. 전투는 계속되고 있었지만 적이 철저히 무너지는 것은 고작 시간 문제였다.",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이번 습격으로 뉴포트 항구와 주변 지역은 심각한 피해를 입었다.",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_xiangting_1",
 			mode = 1,
+			bgName = "bg_xiangting_1",
 			sequence = {
 				{
 					"",

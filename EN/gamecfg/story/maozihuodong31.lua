@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG31",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG31",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "Days later, NY City",
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Days later, NY City",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "You're going to stay with the Northern Parliament? What's the meaning of this?",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "I guess so. Well, it's not like the commander is beholden to the Eagle Union, and I'm sure all the other factions feel the same way.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "They seem to be making more progress on their wisdom cube research.",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "I suspect that rigging is a product of some breakthrough they made.",
 			typewriter = {
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
-			bgName = "bg_xiangting_3",
-			stopbgm = true,
-			dir = 1,
 			side = 2,
+			dir = 1,
+			stopbgm = true,
+			bgName = "bg_xiangting_3",
+			actor = 900227,
 			nameColor = "#a9f548",
 			say = "...the commander has headed north...",
 			flashout = {
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 900227,
 			stopbgm = true,
 			say = "...the final overture...",
 			typewriter = {
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 900227,
 			stopbgm = true,
 			say = "...has begun to play...",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_newyork",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Enterprise, did you say something?",
 			flashout = {
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "No... (What was that... just now?)",
 			typewriter = {
 				speed = 0.05,

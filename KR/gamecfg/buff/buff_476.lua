@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 30,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "降智",
 	stack = 1,
@@ -25,8 +25,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -300
+				number = -300,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -35,8 +35,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -300
+				number = -300,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -45,8 +45,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = -300
+				number = -300,
+				attr = "airPower"
 			}
 		}
 	}

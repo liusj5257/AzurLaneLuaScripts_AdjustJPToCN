@@ -6,8 +6,8 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			bgName = "star_level_bg_600",
 			dir = 1,
+			bgName = "star_level_bg_600",
 			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#A9F548FF",
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,10 +43,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A toast! To our glorious diplomatic achievement!",
 			painting = {
 				alpha = 0.3,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sardegnians",
+			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			say = "With the Arbiter's plans in the Antarctic foiled, today's meeting had greater zeal than usual.",
@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No matter how the situation changes, Sardegna can respond flexibly and smoothly.",
 			painting = {
 				alpha = 0.3,
@@ -193,10 +193,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Obviously they see the potential of the Sardegna Empire. I mean, look at us.",
 			painting = {
 				alpha = 0.3,
@@ -211,10 +211,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ever since the World Expo, our shipgirls have been center stage in world events. Sardegna's influence is rising like never before.",
 			painting = {
 				alpha = 0.3,
@@ -229,10 +229,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good things are gonna happen.",
 			painting = {
 				alpha = 0.3,
@@ -247,10 +247,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We might just end up with a major voice in the new Azur Lane.",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But of course. Ahahahaha!",
 			painting = {
 				alpha = 0.3,
@@ -332,10 +332,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_600",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Salute!",
 			painting = {
 				alpha = 0.3,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sardegnians",
+			side = 2,
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

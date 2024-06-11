@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "毛系V2 余辉支援弹幕LV3",
 	time = 5,
-	color = "yellow",
+	name = "毛系V2 余辉支援弹幕LV3",
+	init_effect = "",
+	id = 8849,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8849,
+	color = "yellow",
 	icon = 8849,
 	last_effect = "",
 	effect_list = {

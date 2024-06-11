@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 400
+					number = 400,
+					attr = "airPower"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 460
+					number = 460,
+					attr = "airPower"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 520
+					number = 520,
+					attr = "airPower"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 600
+					number = 600,
+					attr = "airPower"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 660
+					number = 660,
+					attr = "airPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 720
+					number = 720,
+					attr = "airPower"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 800
+					number = 800,
+					attr = "airPower"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 860
+					number = 860,
+					attr = "airPower"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 920
+					number = 920,
+					attr = "airPower"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1000
+					number = 1000,
+					attr = "airPower"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "自身增益",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 14561,
+	time = 0,
 	picture = "",
 	desc = "提高自身航空值",
 	stack = 1,
-	id = 14561,
+	color = "yellow",
 	icon = 14560,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 400
+				number = 400,
+				attr = "airPower"
 			}
 		}
 	}

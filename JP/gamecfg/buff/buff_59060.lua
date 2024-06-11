@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "航空减伤",
 	init_effect = "",
-	color = "blue",
+	id = 59060,
+	time = 0,
 	picture = "",
 	desc = "减伤类型用例,受到航空伤害降低%",
 	stack = 1,
-	id = 59060,
+	color = "blue",
 	icon = 59060,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.3
+				number = -0.3,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

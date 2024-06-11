@@ -1,6 +1,6 @@
 slot0 = class("CommissionInfoTechnologyItem", import(".CommissionInfoItem"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.commingTF = slot0._tf:Find("comming")
@@ -8,13 +8,14 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.lockTF = slot0._tf:Find("lock")
 
 	setActive(slot0.lockTF, false)
+	setText(slot0.lockTF:Find("Text"), i18n("commission_label_unlock_tech_tip"))
 end
 
-function slot0.CanOpen(slot0)
+slot0.CanOpen = function(slot0)
 	return getProxy(PlayerProxy):getData().level >= 30 and not LOCK_TECHNOLOGY
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	if LOCK_TECHNOLOGY then
 		setActive(slot0._tf:Find("frame"), false)
 		setActive(slot0.lockTF, false)
@@ -34,7 +35,7 @@ function slot0.Init(slot0)
 	end
 end
 
-function slot0.OnFlush(slot0)
+slot0.OnFlush = function(slot0)
 	slot0.list = {}
 	slot2 = {
 		ongoing = 0,
@@ -60,7 +61,7 @@ function slot0.OnFlush(slot0)
 	setActive(slot0.finishedBtn, slot2.finished > 0)
 end
 
-function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
+slot0.UpdateListItem = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2
 	slot5 = pg.TimeMgr.GetInstance():GetServerTime()
 	slot6 = slot4:getConfig("time")
@@ -105,7 +106,7 @@ function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
 	setActive(slot3:Find("unlock/desc/task_bg"), slot4:isActivate() and slot4:getConfig("condition") > 0)
 end
 
-function slot0.AddTimer(slot0, slot1, slot2)
+slot0.AddTimer = function(slot0, slot1, slot2)
 	slot3 = slot2:Find("unlock/ongoging/time"):GetComponent(typeof(Text))
 	slot0.timers[slot1.id] = Timer.New(function ()
 		if uv0:getFinishTime() - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
@@ -121,7 +122,7 @@ function slot0.AddTimer(slot0, slot1, slot2)
 	slot0.timers[slot1.id].func()
 end
 
-function slot0.RemoveTimer(slot0, slot1)
+slot0.RemoveTimer = function(slot0, slot1)
 	if slot0.timers[slot1.id] then
 		slot0.timers[slot1.id]:Stop()
 
@@ -129,7 +130,7 @@ function slot0.RemoveTimer(slot0, slot1)
 	end
 end
 
-function slot0.UpdateTechnology(slot0, slot1, slot2)
+slot0.UpdateTechnology = function(slot0, slot1, slot2)
 	setText(slot1:Find("unlock/desc/name_bg/Text"), slot2:getConfig("name"))
 
 	if slot2:getConfig("condition") > 0 then
@@ -139,15 +140,15 @@ function slot0.UpdateTechnology(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetList(slot0)
+slot0.GetList = function(slot0)
 	return slot0.list, pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "TechnologyMediator") and TechnologyConst.QUEUE_TOTAL_COUNT + 1 or 0
 end
 
-function slot0.OnSkip(slot0)
+slot0.OnSkip = function(slot0)
 	slot0:emit(CommissionInfoMediator.ON_ACTIVE_TECH)
 end
 
-function slot0.OnFinishAll(slot0)
+slot0.OnFinishAll = function(slot0)
 	if getProxy(TechnologyProxy).queue[1] and slot1.queue[1]:isCompleted() then
 		slot0:emit(CommissionInfoMediator.ON_TECH_QUEUE_FINISH)
 	else

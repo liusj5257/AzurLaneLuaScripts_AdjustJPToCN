@@ -22,7 +22,7 @@ slot0.SUB_LAYER_PAGE = {
 	slot0.PAGE.CORE
 }
 
-function slot0.IsSubLayerPage(slot0)
+slot0.IsSubLayerPage = function(slot0)
 	return table.contains(uv0.SUB_LAYER_PAGE, slot0)
 end
 

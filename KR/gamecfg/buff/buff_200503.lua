@@ -1,13 +1,13 @@
 return {
-	time = 0,
-	name = "2023古立特联动复刻 TSS4 公主 一阶段",
 	init_effect = "",
-	last_effect = "ATdun",
+	name = "2023古立特联动复刻 TSS4 公主 一阶段",
+	time = 0,
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "",
 	stack = 1,
 	id = 200503,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun",
 	effect_list = {
 		{
 			type = "BattleBuffAura",
@@ -31,8 +31,8 @@ return {
 			},
 			arg_list = {
 				group = 200503,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{
@@ -72,8 +72,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200507,
-				target = "TargetSelf",
-				time = 55
+				time = 55,
+				target = "TargetSelf"
 			}
 		}
 	}

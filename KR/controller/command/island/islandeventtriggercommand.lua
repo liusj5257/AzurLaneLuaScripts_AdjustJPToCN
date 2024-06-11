@@ -1,6 +1,6 @@
 slot0 = class("IslandEventTriggerCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5, slot6 = IslandEvent.New({
 		id = getProxy(IslandProxy):GetNode(slot2.node_id).eventId

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"할로윈 밤의 '기묘한 만남'\n\n<size=45>2.밤의 악마의 안식처</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "한밤중, 멀지 않은 곳에 우뚝 솟은 고성이 유난히 눈에 띄었다.",
 			bgm = "battle-highseasfleet-reborn",
+			say = "한밤중, 멀지 않은 곳에 우뚝 솟은 고성이 유난히 눈에 띄었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "탑 꼭대기의 십자가가 밤하늘에 반짝이고 있다…. 대체 누가 이런 고성에서 살고 있을까?",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "그런 생각을 하면서 성문을 밀었다——",
 			typewriter = {
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 206071,
 			side = 2,
 			bgName = "star_level_bg_162",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "누가 감히 허락도 없이 밤의 악마의 안식처에 들어온 거지——",
 			hidePaintEquip = true,
+			actor = 206071,
+			nameColor = "#A9F548FF",
+			say = "누가 감히 허락도 없이 밤의 악마의 안식처에 들어온 거지——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,11 +85,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "낯선 사람이여, 내 꿈을 방해하는 이유라도 있나?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "밤의 악마처럼 분장한 알비온이 핏빛 왕좌에 앉은 채 대문 쪽을 조용히 응시하고 있다.",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "평소 알비온과는 전혀 다른 느낌인데… 이왕 이렇게 된 거 나도 같이 어울려줄까——",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "영광입니다.",
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "알비온이 붉은 액체가 가득 담긴 술잔을 건네주었고, 그 안에 담긴 액체는 밝은 달빛에 비쳐 붉은 보석처럼 맑았다.",
 			typewriter = {
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "와인이야?",
 			typewriter = {
@@ -307,11 +307,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "아, 아니요. 그냥 와인처럼 보이는 포도 주스에요….",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,11 +325,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "감미롭고 상큼해서 오늘 같은 밤에 잘 어울리네요.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,11 +343,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "지휘… 그대가 오늘 나와 이 감미로운 밤을 함께 하러 왔으니, 그….",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,11 +371,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "어차피 연기니까… 좀 오바해도 될까요?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,11 +389,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "예, 예를 들면 지휘관님이 제 옆으로 와서 맹세하고… 아, 아니다….",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,11 +407,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 206071,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 206071,
 			nameColor = "#A9F548FF",
 			say = "신경 쓰지 마세요…. 이 일은 그냥 잊어주세요…!",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1

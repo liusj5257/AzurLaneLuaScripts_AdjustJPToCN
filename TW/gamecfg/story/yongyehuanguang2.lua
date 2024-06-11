@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "在白鷹和皇家的全力動員下，前往北方聯合的特別船團很快就組建完成了。",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "雖然籠罩在巴倫支海上空的極夜顯示現在並不是進行運輸任務的理想時期，但是緊急任務從來就沒有選擇的權力。",
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "至少，今天的皇家本島是個適合出航的好天氣。",
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "貝爾法斯特",
+			side = 0,
 			bgName = "bg_hms_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "差不多要到啟航的時間了，準備工作如何了，赫敏？",
 			bgm = "story-richang",
+			nameColor = "#a9f548",
+			say = "差不多要到啟航的時間了，準備工作如何了，赫敏？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赫敏",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "貝爾法斯特",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_hms_1",
-			actorName = "愛丁堡&謝菲爾德",
 			dir = 1,
+			actorName = "愛丁堡&謝菲爾德",
 			say = "是！",
 			dialogShake = {
 				speed = 0.09,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赫敏",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "貝爾法斯特",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赫敏",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "貝爾法斯特",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_hms_1",
-			actorName = "愛丁堡",
 			dir = 1,
+			actorName = "愛丁堡",
 			say = "什麼意思嘛貝法…就算是我，想做的時候還是能做好的好吧！",
 			dialogShake = {
 				speed = 0.09,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "貝爾法斯特",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赫敏",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赫敏",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "謝菲爾德",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "愛丁堡",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赫敏",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "愛丁堡",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "貝爾法斯特",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "赫敏",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "愛丁堡",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "謝菲爾德",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "謝菲爾德",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "貝爾法斯特",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "謝菲爾德",
+			side = 1,
 			bgName = "bg_hms_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "天佑女王。",
 			typewriter = {
 				speed = 0.05,

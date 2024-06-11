@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "holo-tokiwa",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Wow, this rigging is amazing! I never expected weapons this powerful to be so easy to control!",
-			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "With OP gear like this, even a pure and delicate girl like me can become a ganking queen at the drop of a hat!",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 0,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Anyway, now I have the power to protect my friends! Hooray!",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Oh yeah, why can't we just get riggings for everyone then face the Sirens head-on?",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "They might have numbers, but we're way stronger. We'd beat them in the blink of an eye.",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Wowie! Kawakaze: cute on the outside, cool on the inside! There's an audience for characters like that, you know!",
 			typewriter = {
 				speed = 0.05,
@@ -169,9 +169,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I can't pull that off, though. I don't know much about your world, and I'm not much of a fighter either, so sorry if I say anything that sounds weird!",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,9 +210,9 @@ return {
 		{
 			expression = 3,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I've fought a few times before! Just not, you know, like this. Ahahaha~",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

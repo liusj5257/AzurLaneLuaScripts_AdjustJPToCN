@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13900,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13900,
+	color = "yellow",
 	icon = 13900,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 13901,
-				isBuffStackByCheckTarget = true,
 				nationality = 4,
+				isBuffStackByCheckTarget = true,
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"

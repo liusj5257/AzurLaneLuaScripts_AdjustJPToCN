@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN20",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？？·？？？",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
+			hidePaintObj = true,
+			say = "？？？·？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -25,9 +25,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -43,10 +43,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "전선 상황을 보고드립니다. 히류의 반격이 성공해 이글 유니온의 요크타운이 대파되어 물러났습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -80,10 +80,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "낙관할 수는 없지만 동력을 유지할 수는 있습니다. 갑자기 나타난 세이렌 함대가 이글 유니온의 추격을 막은 틈을 노려 구조에 나섰습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +117,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "아니요... 세이렌이기 때문에 특별히 목표를 구분하지는 않았습니다. 세이렌의 선봉 함대가 때마침 이글 유니온과 가까워서 우리에게 시간을 벌어주었지요.",
 			typewriter = {
 				speed = 0.05,
@@ -135,10 +135,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "더 많은 세이렌 함대가 우리를 포위하고 있습니다. 퇴각 계획의 승인을 요청합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -172,10 +172,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "라져. 진츠, 통신 종료.",
 			typewriter = {
 				speed = 0.05,
@@ -190,10 +190,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "......정해진 내용이라고 했으면서 너야말로 왜 그렇게 진지하게 답해주는 거야...",
 			typewriter = {
 				speed = 0.05,
@@ -246,10 +246,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "......윽, 그래서 뭔가 얻은 게 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -336,10 +336,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "도망이라니, 말 참 예쁘게 하네...! 탈출이야, 탈출!",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,10 +364,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "정말이지, 그걸 못해서 우리가 이렇게 난처한 거라고!",
 			typewriter = {
 				speed = 0.05,
@@ -420,12 +420,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			actor = 900315,
-			stopbgm = true,
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "맞아. 여기에는 엄청난 것이 숨겨져 있어.",
 			typewriter = {

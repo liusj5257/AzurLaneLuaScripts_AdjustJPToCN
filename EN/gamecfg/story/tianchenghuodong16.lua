@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG16",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG16",
 	continueBgm = true,
 	fadein = 1.5,
 	scripts = {
@@ -11,8 +11,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			stopbgm = true,
 			say = "How's the situation looking?",
 			typewriter = {
@@ -46,9 +46,9 @@ return {
 		{
 			actor = 301790,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 0,
-			dir = 1,
 			say = "Hatakaze shook her head as she explained the situation to Kaga, her voice on the verge of cracking.",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "During her examination, we found out that Amagi's wisdom cube had been severely damaged. Nobody knows exactly what caused it though...",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "The problem must have flared up when she overexerted herself earlier on the Mirror Sea...",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "However, I'm worried that...",
 			typewriter = {
 				speed = 0.05,
@@ -125,9 +125,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "That what?",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,8 +152,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "... that in this state, she won't even be able to have a normal civilian life, let alone receive her carrier remodel.",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "... ...",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "... even to the one who is currently undergoing her remodel.",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "... ...",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "Kaga staggered off in a stupor, as if unable to accept what she just heard.",
 			typewriter = {
 				speed = 0.05,
@@ -243,14 +243,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "Hatakaze...?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,10 +293,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "There's... just one more thing left to do... please...",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 301790,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 301790,
+			nameColor = "#a9f548",
 			say = "Of course. I will make sure it is done.",
 			typewriter = {
 				speed = 0.05,
@@ -325,12 +325,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "And with that, the day of destiny arrived.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -358,9 +358,9 @@ return {
 			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "I am Nagato, flagship of the Combined Fleet. Subjects of the Sakura Empire, lend me your ear!",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

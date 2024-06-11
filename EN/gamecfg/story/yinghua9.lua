@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINGHUA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Thou shalt not touch a human, for they would tarnish thy divinity.",
@@ -25,16 +25,16 @@ return {
 			}
 		},
 		{
-			say = "......",
 			blackBg = true,
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"... I want to help them! It isn't fair for our brethren fighting tooth and nail for our sake while we remain behind...!\"",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"Mutsu and I are supposed to be the biggest, most powerful battleships! ... Please, you must let us go! I swear we shall not get in anyone's way!\"",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"Thou shalt stay!\"",
 			typewriter = {
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"How wouldst thou explain thyself to thy people if thou, their Protector, the strongest battleship in the world, were ever injured in battle?!\"",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"But...\"",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"Excessive sympathy leadeth to one's own destruction.\"",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"Thine duty to the Sakura Empire is to follow my orders. Is that clear?\"",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"It is clear. Thus far, following your orders has been for the best.\"",
 			typewriter = {
@@ -113,15 +113,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_story_room",
-			say = "Mutsu...",
 			dir = 1,
 			bgm = "newyear",
+			actor = 305050,
+			say = "Mutsu...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

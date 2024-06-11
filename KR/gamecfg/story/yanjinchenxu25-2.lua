@@ -7,11 +7,11 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
-			actor = 805010,
 			dir = 1,
+			bgm = "battle-whaling-normal",
+			actor = 805010,
 			stopbgm = true,
 			say = "임플래커블, 전쟁의 기사가 우리의 방향으로 습격해오고 있어요.",
-			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,8 +40,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "거기다…… 외면상으로 보면 전혀 이상이 없어요. 확실히 고전하게 되겠군요…….",
 			painting = {
 				alpha = 0.3,
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "당신이 계속 이런 식으로 빠지면 우리 중대한 손실을 입고 말지도 모른다고!",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "몸으로 부닥치는 건 내 스타일이 아냐. 먼저 정면에서 버티고들 있어.",
 			painting = {
 				alpha = 0.3,
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "난 어디 좋은 공략 방법이 있나 측면으로 가서 약점을 찾아볼게.",
 			painting = {
 				alpha = 0.3,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.4,
 					dur = 1,
 					x = -2500
@@ -177,9 +177,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 207070,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "당신…...!",
 			painting = {
 				alpha = 0.3,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "…....임플래커블, 화를 가라앉히세요.",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "……로열 네이비, 적을 피하지 마라!",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "여왕 폐하의 영광이 우릴 비추고 계신다. 전투에 임하여 폐하께 수치를 안기지 마라!",
 			painting = {
 				alpha = 0.3,

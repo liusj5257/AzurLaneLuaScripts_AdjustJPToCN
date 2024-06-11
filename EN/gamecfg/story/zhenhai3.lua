@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Go Master and Her Disciple\n\n<size=45>3 Intensive Training</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "Five hours later, in the office...",
 			bgm = "story-richang-5",
+			say = "Five hours later, in the office...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,10 +29,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Your weakness is that you play too passively. Hedging your bets is perhaps not the best strategy in Go.",
 			painting = {
 				alpha = 0.3,
@@ -71,10 +71,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You needn't put yourself down. If anything, I'm amazed at how quickly you've improved. Keep at it, and I'm certain victory will be yours one day.",
 			painting = {
 				alpha = 0.3,
@@ -89,10 +89,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Having said that, I noticed some flaws in these new moves you've learned.",
 			painting = {
 				alpha = 0.3,
@@ -104,12 +104,12 @@ return {
 			}
 		},
 		{
-			actor = 506010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 506010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You'll want to patch those up, and I could show you how to...",
 			painting = {
 				alpha = 0.3,
@@ -124,10 +124,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, apologies, that's presumptuous of me to say. I haven't even asked if you want more guidance in the first place.",
 			painting = {
 				alpha = 0.3,
@@ -152,10 +152,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee. A firm answer is what I like to hear.",
 			painting = {
 				alpha = 0.3,
@@ -170,10 +170,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "However, please bear in mind that you'll have to set your mind to this and follow my instructions to a T.",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 506010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is that determination in your voice? Then get ready for your intensive training.",
 			painting = {
 				alpha = 0.3,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU20",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 1,
-			say = "上層構造の「Blanc（白）」の区画の聖堂施設を模した、鏡面海域内部の建物にて――",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "上層構造の「Blanc（白）」の区画の聖堂施設を模した、鏡面海域内部の建物にて――",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			say = "敵の姿は見当たらず、施設の入口の扉は大きく開いており、中枢部への通路を無防備に晒しているが……",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			say = "インプラカブルとヒーローはその先に進むことができなかった。",
@@ -54,17 +54,17 @@ return {
 			bgName = "bg_firedust_8",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			say = "ヒーローの拳が「光の壁」にぶつかるも、ホログラムの模様が一瞬歪んだ以外何も起きなかった。",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -130,12 +130,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_8",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "——————————！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			say = "艤装による砲撃が失敗した程度では諦めず、ヒーローは再び「光の壁」に張り付いた。",
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -334,21 +334,21 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
+			fontsize = 60,
 			nameColor = "#A9F548FF",
 			say = "開けゴマ！",
-			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			say = "何も起こらなかった。",
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			say = "手を合わせ、アイリスの経典を思い浮かべて祈りを捧げてみる。",
@@ -410,8 +410,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -422,8 +422,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			say = "光の壁に変化はなかった。",
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヒーロー",
+			side = 1,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "インプラカブル",
+			side = 2,
 			bgName = "bg_firedust_8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -493,12 +493,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "インプラカブルさん…？どうかしましたか？",
 			painting = {
 				alpha = 0.3,
@@ -513,10 +513,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…見ての通りこの壁の前で足止めを食らっているわ。どうやったら先に進めるのか悩んでいるところよ",
 			painting = {
 				alpha = 0.3,
@@ -531,10 +531,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 201360,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "砲撃でも呪文でも破壊できない壁でねー！さすがに主役のぼくもお手上げだよ",
 			painting = {
 				alpha = 0.3,
@@ -546,8 +546,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,10 +559,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……じゅ、呪文？",
 			painting = {
 				alpha = 0.3,
@@ -577,10 +577,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…ヒーローちゃんの言うことはあまり気にしないでいいわ",
 			painting = {
 				alpha = 0.3,
@@ -592,12 +592,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とにかく、どうやってこの施設の奥に進もうか考えているところよ",
 			painting = {
 				alpha = 0.3,
@@ -609,12 +609,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一つよろしいでしょうか？「光の壁」ではなく、普通の壁は破壊できるのでしょうか…？",
 			painting = {
 				alpha = 0.3,
@@ -629,10 +629,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ちょっと強引かもしれませんけど、「光の壁」を通過するよりは簡単じゃないかな…と",
 			painting = {
 				alpha = 0.3,
@@ -647,10 +647,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どなたかが先に試してくれてるわ。…あそこを見て",
 			painting = {
 				alpha = 0.3,
@@ -662,8 +662,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			say = "インプラカブルの指差す方向を眺めると、施設の内壁には巨大な裂け目が開けられていた。",
@@ -673,8 +673,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			say = "…が、中からは「光の壁」と思われる光が外の通路へと漏れ出しているように見える。",
@@ -684,8 +684,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			hidePaintObj = true,
 			say = "近寄って確認すると、裂け目の向こうにも「光の壁」が存在することが分かった。",
@@ -698,10 +698,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この裂け目は……ほかの「騎士」の兵装によるものでしょうか？",
 			painting = {
 				alpha = 0.3,
@@ -716,10 +716,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さあ？私たちと同じくこの壁を突破する方法を探していたのかもね",
 			painting = {
 				alpha = 0.3,
@@ -734,10 +734,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "支配の騎士が健在しているのは、この壁のおかげでもあるわ",
 			painting = {
 				alpha = 0.3,
@@ -752,10 +752,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう壁ではなくバリアね……セイレーン兵器ですら損傷を与えられないならきっと私の砲撃も…あ！",
 			painting = {
 				alpha = 0.3,
@@ -767,8 +767,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -777,12 +777,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "空中から艦載機で破壊しようとでも言いたそうな顔ね。もう試したわ",
 			painting = {
 				alpha = 0.3,
@@ -797,10 +797,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "上から施設の中を覗けないけど、直上を艦載機が通ろうとすると何故か制御不能になるわ",
 			painting = {
 				alpha = 0.3,
@@ -815,10 +815,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そのせいで何機か喪失したわ",
 			painting = {
 				alpha = 0.3,
@@ -833,10 +833,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "壁を設置したのは白の騎士か、他の誰かは知らないけど、侵入させない強い意志を感じるわ",
 			painting = {
 				alpha = 0.3,
@@ -851,10 +851,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃあエネルギー供給装置を破壊するしかないようですね…",
 			painting = {
 				alpha = 0.3,
@@ -869,10 +869,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "普通はそうすべきね。まずは手がかりが欲しいわ",
 			painting = {
 				alpha = 0.3,
@@ -887,10 +887,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それにエネルギー供給装置が壁の中にある可能性だってあるわ",
 			painting = {
 				alpha = 0.3,
@@ -905,10 +905,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんな……それじゃあ誰も白の騎士を倒せないじゃない…",
 			painting = {
 				alpha = 0.3,
@@ -923,10 +923,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "最後の騎士を倒せず、ずっとこの鏡面海域に閉じ込められたまま…あまり考えたくない状況ね",
 			painting = {
 				alpha = 0.3,
@@ -938,12 +938,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここはアイリスの施設だからリシュリュー枢機卿の意見を聞きましょう",
 			painting = {
 				alpha = 0.3,
@@ -958,10 +958,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "シラ、軽食でも用意してもらえない？2人が来るまでちょっと休憩したいわ",
 			painting = {
 				alpha = 0.3,

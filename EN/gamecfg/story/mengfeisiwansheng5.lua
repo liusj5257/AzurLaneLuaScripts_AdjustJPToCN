@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Halloween Chaos!\n\n<size=45>Chapter 5: Party Chaos</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_119",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_119",
 			bgm = "story-1",
 			actor = 102162,
 			nameColor = "#a9f548",
 			say = "I want to thank everyone for your help in making this Halloween party run smoothly. You all did great!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 102162,
 			dir = 1,
+			actor = 102162,
 			nameColor = "#a9f548",
 			say = "That's all I have to say. Please enjoy yourselves. Help yourself to some pumpkin pie. And don't go too wild with the pranks!",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 102162,
 			dir = 1,
+			actor = 102162,
 			nameColor = "#a9f548",
 			say = "Those of you who want candy, or want to help hand it out, please see Edinburgh.",
 			typewriter = {
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "That's right! I'm tonight's master of candy. Step right up!",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Yeaaah!",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 101421,
 			dir = 1,
+			actor = 101421,
 			nameColor = "#a9f548",
 			say = "Trick or treat.",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "Here you are! And thanks so much for your help, Smalley.",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301411,
+			nameColor = "#a9f548",
 			say = "Hip~ Hop~ Trick or treat. Mikazuki craves taiyaki.",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "Ahaha! I'm afraid I've only candy, dear.",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "Hm... Judging by your reaction, I think I chose my costume well.",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "Well... I'm afraid I don't know how to respond to that...",
 			typewriter = {
@@ -332,13 +332,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_119",
+			side = 2,
+			dir = 1,
 			say = "While the two of them enjoyed a friendly chat, something awful was brewing elsewhere...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "Uuaaaaggghhh...",
 			dialogShake = {
 				speed = 0.09,
@@ -432,8 +432,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_119",
+			dir = 1,
 			say = "Her anguished cries echoed back and forth across the party.",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +459,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "Wh- what happened? Did the candy go bad? I prepared it myself, it couldn't have...",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -486,8 +486,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_119",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "I suspect the candy has been adulterated with some foreign substance.",
 			typewriter = {
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "Ahahahaaa! AHAHAHAHA! My ultimate Halloween prank is a roaring success! Is everyone enjoying Abercrombie's Apocalyptic Wasabi Candy?!",
 			typewriter = {
 				speed = 0.05,
@@ -516,8 +516,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_119",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "Oh no... It can't be...",
 			typewriter = {
 				speed = 0.05,
@@ -622,8 +622,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "star_level_bg_119",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "Nooo! I swear I won't do it again, Aunt- err, Sister Hood! Please let go of my ear! It's gonna fall off! You're tearing it!!",
 			typewriter = {
 				speed = 0.05,
@@ -696,8 +696,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

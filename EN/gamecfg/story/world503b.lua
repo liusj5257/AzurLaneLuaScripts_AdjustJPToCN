@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD503B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD503B",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "*knock knock*",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
+			say = "*knock knock*",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "Oh right, Elizabeth invited me to a tea party earlier.",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "\"...That eye for details is certainly just like her.\"",
 			typewriter = {
 				speed = 0.05,
@@ -140,14 +140,14 @@ return {
 			}
 		},
 		{
-			say = "Royal Navy Outpost - Banquet Hall",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgm = "theme-partydress",
+			say = "Royal Navy Outpost - Banquet Hall",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -207,8 +207,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Elizabeth is abusing her position again! Look at all of the unnecessary stuff she had shipped over!",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Hmph! You're taking advantage of the fact that I'm holding back!",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Well, whether it's a tea party or banquet, as long as it helps boost our morale~♪",
 			typewriter = {
@@ -361,9 +361,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "It looks like Saratoga ordered a black tea for me... Well, I suppose why not.",
 			typewriter = {
 				speed = 0.05,
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "It's pretty good... Aren't you going to try anything, Enterprise? Come on, loosen up! The Royal Navy's snacks are delicious.",
 			typewriter = {
@@ -424,13 +424,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "The tea party surpassed everyone's expectations. Later, just as it was drawing to a close...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -455,9 +455,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "\"I've heard Memphis and Saratoga are here to support the operation. They'll be a great help.\"",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Some reinforcements arrived on our side, so we came here to help you guys out~♪",
 			typewriter = {
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "\"As we had planned, we'll be joining forces with the Royal Navy, and the offensive will start once reinforcements have arrived.\"",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Geez, Commander! You always go straight into work mode! I was planning on explaining everything to you after the tea party ended...",
 			typewriter = {
@@ -549,9 +549,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "\"Well, I had given some orders regarding that, but there was no way to know who would be coming over here...\"",
 			typewriter = {
 				speed = 0.05,
@@ -627,9 +627,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "\"You deserve credit too, you know. Naval HQ definitely wouldn't have responded so quickly if it wasn't for you.\"",
 			typewriter = {
 				speed = 0.05,
@@ -660,8 +660,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "With that taken care of, we'll be leaving the rest in our capable Commander's hands. Please behave and go back to your castle, Miss Elizabeth~",
 			typewriter = {
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102160,
+			nameColor = "#a9f548",
 			say = "Huh? You're going to head into the center of the NA Ocean... personally?",
 			typewriter = {
 				speed = 0.05,
@@ -706,8 +706,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -751,8 +751,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Hm~ But Elizabeth, there's no need for you to fight on the front lines, is there...",
 			typewriter = {
@@ -768,8 +768,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Just stay where it's safe, and leave the fighting to the Royal Maids. This mission is especially dangerous, and we don't wanna risk you or the Commander getting hurt.",
 			typewriter = {
@@ -817,8 +817,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "And now you're pulling the queen card on me?",
 			typewriter = {
@@ -831,11 +831,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "This is not up for debate! It would besmirch my reputation to send my servant into danger without incurring any risk myself!",
 			typewriter = {
 				speed = 0.05,
@@ -847,8 +847,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "Well... It seems Her Majesty will be coming along with us.",
 			typewriter = {
 				speed = 0.05,
@@ -903,13 +903,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "After the tea party, I was heading for the break room when I ran into Sheffield.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -950,9 +950,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "\"I couldn't find you at the tea party, but I guess you're here as well.\"",
 			typewriter = {
 				speed = 0.05,
@@ -1012,9 +1012,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -1042,12 +1042,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "Thank you for your time. Please enjoy your evening.",
 			typewriter = {
 				speed = 0.05,

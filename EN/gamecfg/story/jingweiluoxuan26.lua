@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN26",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -36,8 +36,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -49,10 +49,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Naw, nobody knows earthquakes like me! Um, rather, it's more like a massive shockwave, like if a shell landed right next to you!",
 			dialogShake = {
 				speed = 0.09,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "My radar is picking something up! The signal's from... the Eagle Union fleet!",
 			typewriter = {
 				speed = 0.05,
@@ -86,14 +86,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			hidePaintObj = true,
 			say = "When the mysterious girl's countdown reached zero, a huge shockwave ripped through the Reenactment site.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,10 +136,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Fear not! The indomitable Black Dragon is here!",
 			effects = {
 				{
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Don'tcha just love flashy entrances, Commander? Ahaha~♪",
 			typewriter = {
 				speed = 0.05,
@@ -198,10 +198,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I can't have you disappearing on me within a day of me leaving port!",
 			typewriter = {
 				speed = 0.05,
@@ -216,10 +216,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, not like this is your fault though. The Sirens must be truly foolish if they think they can get away with kidnapping you!",
 			typewriter = {
 				speed = 0.05,
@@ -249,10 +249,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "As you can see, I'm not the only one here. The whole fleet's here to back you up!",
 			typewriter = {
 				speed = 0.05,
@@ -294,13 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "...Sorry to interrupt your reunion, but the battle isn't over yet.",
 			typewriter = {
 				speed = 0.05,
@@ -315,10 +315,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "You won't be able to destroy this Mirror Sea without finding the control device first.",
 			typewriter = {
@@ -334,10 +334,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "I won't be able to keep the defense system disabled forever...",
 			typewriter = {
@@ -365,13 +365,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "Yes... The Pawns in this experimental site will continue to reenact the events of that war, perhaps forever.",
 			typewriter = {
 				speed = 0.05,
@@ -401,10 +401,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "But, should the safety of the experimental site be threatened, these weapons will be integrated into the defense system.",
 			typewriter = {
@@ -432,13 +432,13 @@ return {
 			}
 		},
 		{
-			actor = 900315,
 			nameColor = "#ffa500",
-			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_luoxuan_5",
+			dir = 1,
+			actor = 900315,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "Yes... This will stop being a Reenactment site... and turn into a machine of war—",
 			typewriter = {
 				speed = 0.05,
@@ -468,10 +468,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "Allow me to fight with you...",
 			typewriter = {
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_5",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "From now on, Commander, the four ships of the New Jersey fleet are yours to lead!",
 			typewriter = {
 				speed = 0.05,

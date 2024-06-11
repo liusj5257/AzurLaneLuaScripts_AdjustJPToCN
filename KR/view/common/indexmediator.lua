@@ -1,6 +1,6 @@
 slot0 = class("IndexMediator", import("..base.ContextMediator"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	assert(slot0.contextData.display)
 
 	if slot0.contextData.display.sort then
@@ -20,11 +20,11 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 end
 
 return slot0

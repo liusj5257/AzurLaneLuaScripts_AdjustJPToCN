@@ -1,12 +1,12 @@
 return {
-	id = "W803000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W803000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「アザラシちゃんがあんなに…！どの子が本物でしょう…」――とりあえずスキャンさせてみるか。",
 			typewriter = {
 				speed = 0.05,

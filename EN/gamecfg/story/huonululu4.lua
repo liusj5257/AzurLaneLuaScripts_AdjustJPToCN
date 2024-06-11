@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"An Easily Flustered Girl's Story\n\n<size=45>Chapter 4 - Honolulu's Concerned?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Courtyard",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Courtyard",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I came across Honolulu and Helena as they were hanging out.",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			say = "What's the matter, Helena?",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "What's the matter, Helena?",
+			actor = 102120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "I'm such a big and total moron...",
 			typewriter = {
 				speed = 0.05,
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "... Huh?!",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -332,11 +332,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu drew a heavy sigh.",
 			typewriter = {
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "... I'm worried about Helena. And yet... I can't even properly ask her if she's okay. I'm such a helpless, stupid idiot...",
 			typewriter = {
 				speed = 0.05,
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
 			say = "Honolulu averted her gaze from me yet again. This time, however, while she seemed embarrassed, she didn't seem displeased.",
 			typewriter = {
@@ -420,12 +420,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102120,
+			nameColor = "#a9f548",
 			say = "So... could you share some of your advice... with me?",
 			typewriter = {
 				speed = 0.05,

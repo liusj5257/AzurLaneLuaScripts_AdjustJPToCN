@@ -1,14 +1,14 @@
 slot0 = class("WorldMediaCollectionFileLayer", import(".WorldMediaCollectionTemplateLayer"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionFileUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0._top = slot0:findTF("Top")
 end
 
-function slot0.GetDetailLayer(slot0)
+slot0.GetDetailLayer = function(slot0)
 	if not slot0.detailLayer then
 		slot0.detailLayer = WorldMediaCollectionFileDetailLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
@@ -18,7 +18,7 @@ function slot0.GetDetailLayer(slot0)
 	return slot0.detailLayer
 end
 
-function slot0.OpenDetailLayer(slot0, slot1, slot2)
+slot0.OpenDetailLayer = function(slot0, slot1, slot2)
 	slot0.contextData.FileGroupIndex = slot1
 
 	slot0:GetDetailLayer().buffer:Show()
@@ -32,7 +32,7 @@ function slot0.OpenDetailLayer(slot0, slot1, slot2)
 	slot0:HideGroupLayer()
 end
 
-function slot0.HideDetailLayer(slot0)
+slot0.HideDetailLayer = function(slot0)
 	if not slot0.detailLayer then
 		return
 	end
@@ -40,7 +40,7 @@ function slot0.HideDetailLayer(slot0)
 	slot0.detailLayer.buffer:Hide()
 end
 
-function slot0.CloseDetailLayer(slot0)
+slot0.CloseDetailLayer = function(slot0)
 	if slot0.detailLayer then
 		slot0.detailLayer:Destroy()
 
@@ -48,7 +48,7 @@ function slot0.CloseDetailLayer(slot0)
 	end
 end
 
-function slot0.GetGroupLayer(slot0)
+slot0.GetGroupLayer = function(slot0)
 	if not slot0.groupLayer then
 		slot0.groupLayer = WorldMediaCollectionFileGroupLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
@@ -58,7 +58,7 @@ function slot0.GetGroupLayer(slot0)
 	return slot0.groupLayer
 end
 
-function slot0.OpenGroupLayer(slot0)
+slot0.OpenGroupLayer = function(slot0)
 	slot1 = slot0:GetGroupLayer()
 
 	slot1.buffer:Show()
@@ -66,7 +66,7 @@ function slot0.OpenGroupLayer(slot0)
 	slot0:HideDetailLayer()
 end
 
-function slot0.HideGroupLayer(slot0)
+slot0.HideGroupLayer = function(slot0)
 	if not slot0.groupLayer then
 		return
 	end
@@ -74,7 +74,7 @@ function slot0.HideGroupLayer(slot0)
 	slot0.groupLayer.buffer:Hide()
 end
 
-function slot0.CloseGroupLayer(slot0)
+slot0.CloseGroupLayer = function(slot0)
 	if slot0.groupLayer then
 		slot0.groupLayer:Destroy()
 
@@ -82,7 +82,7 @@ function slot0.CloseGroupLayer(slot0)
 	end
 end
 
-function slot0.OnSelected(slot0)
+slot0.OnSelected = function(slot0)
 	uv0.super.OnSelected(slot0)
 
 	if slot0.contextData.FileGroupIndex then
@@ -92,25 +92,25 @@ function slot0.OnSelected(slot0)
 	end
 end
 
-function slot0.OnReselected(slot0)
+slot0.OnReselected = function(slot0)
 	uv0.super.OnReselected(slot0)
 	slot0:Backward()
 end
 
-function slot0.OnDeselected(slot0)
+slot0.OnDeselected = function(slot0)
 	slot0.contextData.FileGroupIndex = nil
 	slot0.contextData.SelectedFile = nil
 
 	uv0.super.OnDeselected(slot0)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:HideDetailLayer()
 	slot0:HideGroupLayer()
 	uv0.super.Hide(slot0)
 end
 
-function slot0.Backward(slot0)
+slot0.Backward = function(slot0)
 	if not slot0.contextData.FileGroupIndex then
 		return
 	end
@@ -123,11 +123,11 @@ function slot0.Backward(slot0)
 	return true
 end
 
-function slot0.OnBackward(slot0)
+slot0.OnBackward = function(slot0)
 	return slot0:Backward()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:CloseDetailLayer()
 	slot0:CloseGroupLayer()
 	uv0.super.OnDestroy(slot0)

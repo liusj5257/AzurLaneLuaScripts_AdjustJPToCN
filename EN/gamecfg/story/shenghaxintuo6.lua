@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Secret to Curing Exhaustion?!\n\n<size=45>6 Is the Secret Dates?</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "The next morning, I get to our arranged meeting spot before San Jacinto.",
 			bgm = "story-richang-5",
+			say = "The next morning, I get to our arranged meeting spot before San Jacinto.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "A pleasant voice reaches my ears. I rush to turn around, but a slender finger touches my cheek.",
@@ -64,10 +64,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I can't believe you got here before me for once, Commander♪",
 			painting = {
 				alpha = 0.3,
@@ -82,10 +82,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Should I assume you were even more excited for the date than I was?",
 			painting = {
 				alpha = 0.3,
@@ -100,10 +100,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee~ I finally get to have you all to myself for a day♪",
 			painting = {
 				alpha = 0.3,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Where do you plan to take me first, hmm?",
 			painting = {
 				alpha = 0.3,
@@ -147,10 +147,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not yet. After all, I left my entire schedule for the day in your hands~",
 			painting = {
 				alpha = 0.3,
@@ -201,10 +201,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wow, you remember that...",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Do you actually care a lot about the things I say, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -237,10 +237,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, let's go to the dessert shop~ Just leave ordering to me!",
 			painting = {
 				alpha = 0.3,
@@ -252,27 +252,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_166",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_166",
 			say = "On San Jacinto's recommendation, I order us a strawberry parfait.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -283,10 +283,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_166",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Eat up! This strawberry parfait is the best~",
 			painting = {
 				alpha = 0.3,
@@ -301,10 +301,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_166",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Come on. Open up!",
 			painting = {
 				alpha = 0.3,
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			say = "She feeds me a spoonful of parfait. The sweetness of it fills my mouth while her own sweet scent reaches my nose.",
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			say = "Sweet food, sweet smells – it becomes hard to tell which is hers and which isn't.",
@@ -341,10 +341,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_166",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Just one bite, and you feel all relaxed already... Isn't that right?",
 			painting = {
 				alpha = 0.3,
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			say = "She's right. The sugar soothes my tired nerves, making me feel a lot better all at once.",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_166",
 			hidePaintObj = true,
 			say = "We finish the strawberry parfait together.",
@@ -381,10 +381,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_166",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That was delicious~ Even more so because I got to enjoy it with you, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -399,10 +399,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_166",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's a little late to mention it now, but you and I were using the same spoon. That's like an indirect kiss, isn't it?",
 			painting = {
 				alpha = 0.3,
@@ -417,10 +417,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_166",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee~ Embarrassed yet?",
 			painting = {
 				alpha = 0.3,
@@ -435,10 +435,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_166",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you don't answer, I'm going to assume that's a yes~ Heheheh♪",
 			painting = {
 				alpha = 0.3,
@@ -450,27 +450,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_522",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_522",
 			say = "Next, we go to a movie theater together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
 			say = "Like our last destination, I pick the spot and have her choose what we do.",
@@ -501,12 +501,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah~ Do you struggle with horror movies, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -527,10 +527,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then I can't wait to see how you react to this one~",
 			painting = {
 				alpha = 0.3,
@@ -551,10 +551,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Don't you worry. I'll be right by your side~",
 			painting = {
 				alpha = 0.3,
@@ -566,27 +566,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_522",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_522",
 			say = "As the movie goes on, the eerie background audio suddenly rises to a crescendo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -594,8 +594,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
 			say = "The horrifying scenes gradually suck me into the story.",
@@ -608,10 +608,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ah...",
 			painting = {
 				alpha = 0.3,
@@ -635,12 +635,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, did that scare you?",
 			painting = {
 				alpha = 0.3,
@@ -655,10 +655,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Look how hard you're holding on to my arm~",
 			painting = {
 				alpha = 0.3,
@@ -697,10 +697,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's okay~ In fact... I might be happier that you did it♪",
 			painting = {
 				alpha = 0.3,
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
 			say = "She leans over and rests her head on my chest.",
@@ -723,12 +723,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Your heartbeat is so fast~",
 			painting = {
 				alpha = 0.3,
@@ -743,10 +743,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is it because of the scary movie? Ooor...",
 			painting = {
 				alpha = 0.3,
@@ -758,8 +758,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
 			say = "In the darkness, she whispers in my ear before gently kissing my neck.",
@@ -772,10 +772,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_522",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Am I just imagining it?",
 			painting = {
 				alpha = 0.3,
@@ -787,8 +787,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_522",
 			hidePaintObj = true,
 			say = "My heartbeat gets even more intense.",
@@ -798,27 +798,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_108",
 			say = "After that, we go to an amusement park together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -826,8 +826,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "Naturally, I once again decide the destination and let her lead the way while we're there.",
@@ -837,27 +837,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_108",
 			say = "We decide to ride the Ferris wheel together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -865,8 +865,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "The cabin gradually rises, and the scenery before us widens.",
@@ -876,12 +876,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You don't get to see sights like this every day...",
 			painting = {
 				alpha = 0.3,
@@ -908,10 +908,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course~",
 			painting = {
 				alpha = 0.3,
@@ -926,10 +926,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Especially because you're by my side. It makes everything look even prettier than usual...",
 			painting = {
 				alpha = 0.3,
@@ -956,10 +956,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh? Let me say it again~",
 			painting = {
 				alpha = 0.3,
@@ -974,10 +974,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Because you're here with me, I get to see things in an even more beautiful light than when you're not.",
 			painting = {
 				alpha = 0.3,
@@ -1004,10 +1004,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh...?",
 			painting = {
 				alpha = 0.3,
@@ -1022,10 +1022,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Geez. That made my heart beat even faster than when we were watching the horror movie.",
 			painting = {
 				alpha = 0.3,
@@ -1040,10 +1040,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee... Would you like to hear it?",
 			painting = {
 				alpha = 0.3,
@@ -1055,8 +1055,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "Before I can answer, San Jacinto reaches an arm around my head and pulls me close to her heart.",
@@ -1066,8 +1066,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "My ear touches her soft chest, and I hear her heart pounding within.",
@@ -1080,10 +1080,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander...",
 			painting = {
 				alpha = 0.3,
@@ -1110,10 +1110,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I love...",
 			painting = {
 				alpha = 0.3,
@@ -1125,20 +1125,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "BOOM!",
 			soundeffect = "event:/battle/firework",
+			say = "BOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "The sound of a firework, vibrant and beautiful, cuts off San Jacinto's words.",
@@ -1148,27 +1148,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_108",
 			say = "Eventually, our ride ends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1191,10 +1191,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Aww~ You couldn't? That's a shame...",
 			painting = {
 				alpha = 0.3,
@@ -1209,10 +1209,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you didn't hear me...",
 			painting = {
 				alpha = 0.3,
@@ -1224,8 +1224,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "She suddenly stops in front of me, turns around, and winks.",
@@ -1238,10 +1238,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then I guess it remains a secret♡",
 			painting = {
 				alpha = 0.3,

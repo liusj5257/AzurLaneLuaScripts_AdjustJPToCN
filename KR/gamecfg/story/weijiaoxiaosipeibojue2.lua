@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "며칠 후——————",
 			bgm = "login-2022401us",
+			say = "며칠 후——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,8 +18,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 107990,
 			dir = 1,
+			actor = 107990,
 			nameColor = "#A9F548FF",
 			say = "헬레나, 이글 유니온에서 지원왔어.",
 			painting = {
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 203100,
 			dir = 1,
+			actor = 203100,
 			nameColor = "#A9F548FF",
 			say = "얼른 이거 봐봐. 로열의 지원도 도착했다구————",
 			painting = {
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 204040,
 			dir = 1,
+			actor = 204040,
 			nameColor = "#A9F548FF",
 			say = "안녕하세요, 헬레나 씨. 폐하의 안부와 함께 로열의 지원군을 이끌고 왔습니다.",
 			painting = {
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 207090,
 			dir = 1,
+			actor = 207090,
 			nameColor = "#A9F548FF",
 			say = "사랑과 평화를 위해, 가능한 한 빨리 이번 디저트 위기를 진정시켜야 합니다!",
 			painting = {
@@ -85,9 +85,9 @@ return {
 		{
 			actor = 307090,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "사쿠라 엠파이어 함대도 왔습니다. 이런 일이 발생할 줄은 정말 생각 못했네요.",
 			painting = {
 				alpha = 0.3,
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 304060,
 			dir = 1,
+			actor = 304060,
 			nameColor = "#A9F548FF",
 			say = "디저트 보급이 줄어들면 연회조차 열 수 없어요……",
 			painting = {
@@ -119,8 +119,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 304070,
 			dir = 1,
+			actor = 304070,
 			nameColor = "#A9F548FF",
 			say = "맛있는 경단도 사라졌군요…… 반드시 서둘러야겠어요, 사태가 더 악화되기 전에!",
 			painting = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			nameColor = "#A9F548FF",
 			say = "역시 새러토가, 정말 의미 있는 정보야……",
 			painting = {
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			nameColor = "#A9F548FF",
 			say = "습격한 무리 중에 오이겐이 있다는 건 알았고, 또 다른 사람은 과연 누굴까……",
 			painting = {
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -286,7 +286,6 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			expression = 0,
 			dir = 1,
 			actor = 102200,
 			nameColor = "#A9F548FF",

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑声望蓄力主炮lv1",
 	time = 10,
-	color = "yellow",
+	name = "黑声望蓄力主炮lv1",
+	init_effect = "",
+	id = 200032,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200032,
+	color = "yellow",
 	icon = 200032,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 200032,
 				time = 5.5,
 				rant = 10000,
-				skill_id = 200032
+				target = "TargetSelf"
 			}
 		}
 	}

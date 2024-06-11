@@ -1,7 +1,7 @@
 slot0 = class("PageUtil")
 PageUtil = slot0
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._leftBtn = slot1
@@ -39,23 +39,23 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0:setMaxNum(-1)
 end
 
-function slot0.setAddNum(slot0, slot1)
+slot0.setAddNum = function(slot0, slot1)
 	slot0._addNum = slot1
 end
 
-function slot0.setDefaultNum(slot0, slot1)
+slot0.setDefaultNum = function(slot0, slot1)
 	slot0._defaultNum = slot1
 
 	slot0:setCurNum(slot0._defaultNum)
 end
 
-function slot0.setMaxNum(slot0, slot1)
+slot0.setMaxNum = function(slot0, slot1)
 	slot0._maxNum = slot1
 
 	setActive(slot0._maxBtn, slot0._maxNum > 0)
 end
 
-function slot0.setCurNum(slot0, slot1)
+slot0.setCurNum = function(slot0, slot1)
 	slot0._curNum = slot1
 
 	setText(slot0._numTxt, slot0._curNum)
@@ -65,15 +65,15 @@ function slot0.setCurNum(slot0, slot1)
 	end
 end
 
-function slot0.setNumUpdate(slot0, slot1)
+slot0.setNumUpdate = function(slot0, slot1)
 	slot0._numUpdate = slot1
 end
 
-function slot0.getCurNum(slot0)
+slot0.getCurNum = function(slot0)
 	return slot0._curNum
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	existCall(slot0._leftRemoveTimer)
 	existCall(slot0._rightRemoveTimer)
 	pg.DelegateInfo.Dispose(slot0)

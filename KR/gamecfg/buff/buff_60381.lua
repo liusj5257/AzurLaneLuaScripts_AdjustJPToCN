@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 60381,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60381,
+	color = "yellow",
 	icon = 60380,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				type = "airAssist",
-				number = 0.04
+				number = 0.04,
+				type = "airAssist"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.04
+				number = 0.04,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

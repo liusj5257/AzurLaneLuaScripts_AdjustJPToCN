@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN1-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN1-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			factiontag = "海の新星",
 			dir = 1,
 			bgm = "story-temepest-1",
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			hidePaintObj = true,
 			say = "撃て撃てー！",
 			painting = {
@@ -28,9 +28,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 9600010,
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "新世界のお宝って早い者勝ちじゃないんだからー！",
@@ -44,20 +44,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "――――！！！",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "――――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "大砲の轟音の中で、相手が反転して遠くへと逃げ去っていく。",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "大砲の轟音の中で、相手が反転して遠くへと逃げ去っていく。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 9600010,
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ははは！わたしの勝ちぃ！",
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "偉大なるロイヤル・フォーチュン、また一つ輝かしい勝利を………",
 			painting = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "パッシーーーーーーン！！！",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/dalei",
+			hidePaintObj = true,
+			say = "パッシーーーーーーン！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,9 +112,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9600010,
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はぁい！？",
@@ -127,17 +127,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -147,9 +147,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 9600010,
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "わわわ！すごい嵐！？一体どういうこと？！",
@@ -165,9 +165,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 9600010,
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "早く帆を畳まないと！",
@@ -183,9 +183,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9600010,
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "って、はわわ間に合わない！？",
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -211,9 +211,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 9600010,
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "冒険にしては刺激的すぎるんだけど！わああああああああ―――",
@@ -227,18 +227,18 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "さっきまで総帆展帆していた戦艦が、そのまま嵐に突っ込んでいってしまった。",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			say = "さっきまで総帆展帆していた戦艦が、そのまま嵐に突っ込んでいってしまった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "……",
@@ -247,17 +247,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "…………",
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

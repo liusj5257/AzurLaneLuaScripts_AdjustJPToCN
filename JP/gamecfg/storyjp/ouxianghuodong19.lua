@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG19",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "母港をまるごと巻き込んだ一大イベントもこれで最後――",
 			bgm = "azumaster-ins",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "母港をまるごと巻き込んだ一大イベントもこれで最後――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,11 +24,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "つまり、次の戦いこそ「μ兵装」の性能限界への挑戦、そして今日のライブイベントの大詰めになるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "今までの挑戦者たち全員でポラリスに挑むにゃ！！",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

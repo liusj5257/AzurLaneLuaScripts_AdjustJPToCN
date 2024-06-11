@@ -27,11 +27,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
-			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			say = "쇼카쿠 언니!! 무사해서 다행......",
+			actorName = "{namecode:96}",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "더 많은 신의 은총을 받기 위해서 우수한 제물을 바치는 것은 당연한 일이거든.",
 			shake = {
 				speed = 1,
@@ -241,11 +241,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "우후후후, 그 전에 눈앞에 있는 \"적\"을 어떻게 할지 생각해 보렴?",
 			shake = {
 				speed = 1,
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "영혼이 없는 껍데기라도 너를 멈추기에는 충분하겠지.",
 			shake = {
 				speed = 1,

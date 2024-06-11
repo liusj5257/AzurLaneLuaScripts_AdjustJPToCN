@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307050,
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "즈이카쿠, 이 함재기들이 꽤 성가시네요...! 강력하고 촘촘한 것이... 어쨌든 계속 싸워야 해요!",
 			bgm = "xinnong-2",
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "즈이카쿠, 이 함재기들이 꽤 성가시네요...! 강력하고 촘촘한 것이... 어쨌든 계속 싸워야 해요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "언니, 무리하지 마! 함재기는 우리가 더 많아. 나눠서 처치하자!",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "쇼카쿠, 즈이카쿠. 어쩌면 세이렌을 만났다는 간단한 문제가 아닐지도 몰라요. 우리가 정말 제대로 가고 있는 것은 맞겠죠?",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "음... 주변 해역이 굉장히 낯설어요. 거울 해역이기 때문일 수도 있지만, 주변에 있는 작은 섬들은... 절대로 유럽에서 사쿠라 엠파이어로 가는 길에 있는 것들이 아니에요.",
 			typewriter = {
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "윽... 설마 길을 잃고 세이렌을 만난 것은 아닌지...!",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -226,8 +226,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "종합해보면 항로에서 멀리 벗어나 세이렌이 지키고 있는 실험 구역에 들어왔다는 얘기네요. 보급이 제한돼있는 상황이니 싸움을 피하고 어서 철수하는 편이 좋다고 생각해요.",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "섬의 방향과 주변의 환경을 보고 어서 올바른 방향을 찾는 것이 중요해요.",
 			typewriter = {
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "선봉 함대는 정찰을 취소하고 당장 돌아와. 정비하고 난 뒤에 어서 철수하자!",
 			typewriter = {
 				speed = 0.05,

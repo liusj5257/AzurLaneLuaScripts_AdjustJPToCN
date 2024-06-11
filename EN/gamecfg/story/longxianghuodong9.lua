@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANGHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 306060,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "So, you've finally come.",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "If my sacrifice can bring victory to all my comrades, I will gladly go through hell for their sake!",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "But!",
 			typewriter = {
 				speed = 0.05,
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_story_rj",
-			actorName = "Ryuujou",
+			side = 2,
 			dir = 1,
+			actorName = "Ryuujou",
 			say = "Even if I am abandoned, you will find that I am not so easily beaten!",
 			effects = {
 				{
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ryuujou",
+			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ryuujou",
+			side = 2,
 			bgName = "bg_story_rj",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "Ryuujou",
+			nameColor = "#a9f548",
 			bgName = "bg_story_rj",
 			side = 2,
 			dir = 1,

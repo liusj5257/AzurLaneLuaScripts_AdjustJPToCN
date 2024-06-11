@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "满弹增伤",
 	cd = 0,
+	picture = "0",
+	desc = "满弹增伤",
 	painting = 1,
 	id = 17791,
-	picture = "0",
 	castCV = "skill",
-	desc = "满弹增伤",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},

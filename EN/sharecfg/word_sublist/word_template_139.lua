@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_139 = {}
 slot1 = slot0.word_template_139
 
-function temp()
+temp = function()
 	uv0["積"] = {
 		["克"] = {
 			["館"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["擊"] = {
 		["倒"] = {
 			["圖"] = {
@@ -38,7 +38,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雞"] = {
 		["８"] = {
 			this = true
@@ -83,7 +83,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鶏"] = {
 		["8"] = {
 			this = true
@@ -123,7 +123,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鷄"] = {
 		["巴"] = {
 			this = true
@@ -133,7 +133,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["及"] = {
 		["川"] = {
 			["奈"] = {
@@ -147,7 +147,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吉"] = {
 		["跋"] = {
 			["猫"] = {

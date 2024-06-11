@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ベストピクチャーズ！\n\n<size=45>その六　取材はつらいよ・下</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "三十六枚目の写真は――夜のキッチンでなにかを作っているサラトガちゃんだった。",
 			typewriter = {
 				speed = 0.05,
@@ -27,17 +27,17 @@ return {
 			}
 		},
 		{
-			actor = 107030,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "グリッドレイちゃん、それ取ってー",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "グリッドレイちゃん、それ取ってー",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
+			say = "サラトガちゃんごめん、それ私も取れないの……艦載機でお願い！",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "サラトガちゃんごめん、それ私も取れないの……艦載機でお願い！",
+			actor = 101050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "うわっ！どうしたの？",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101050,
+			nameColor = "#a9f548",
 			say = "指揮官逃げて――！",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 2
@@ -276,13 +276,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "さて、次は最後の一枚か……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "顔を上げると、そこには至近距離でこちらを覗き込んでいるサラトガちゃんの顔があった。",
 			typewriter = {
 				speed = 0.05,

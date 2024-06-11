@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.025
+					number = 0.025,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.03
+					number = 0.03,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.035
+					number = 0.035,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.04
+					number = 0.04,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.045
+					number = 0.045,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.05
+					number = 0.05,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.055
+					number = 0.055,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.065
+					number = 0.065,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageRatioByAmmoType_3",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioByAmmoType_3"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByAmmoType_3",
-				number = 0.025
+				number = 0.025,
+				attr = "damageRatioByAmmoType_3"
 			}
 		}
 	}

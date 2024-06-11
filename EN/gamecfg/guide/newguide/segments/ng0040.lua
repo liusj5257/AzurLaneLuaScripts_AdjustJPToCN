@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "Tap on the counter or the Prize Shop icon to head over and exchange your Game Tickets!",
 				mode = 1,
-				posY = -80,
 				dir = -1,
+				posY = -80,
 				posX = -561.6,
 				ui = {
 					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnShop"

@@ -14,9 +14,9 @@ return {
 			style = {
 				text = "여기서 전역 정보 기록기 구매 가능",
 				mode = 2,
-				posY = 84.9,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 84.9,
 				posX = -662.56
 			},
 			showSign = {

@@ -18,13 +18,13 @@ return {
 			style = {
 				text = "터치하여 창고 열기",
 				mode = 2,
-				posY = -229.8,
 				dir = 1,
+				posY = -229.8,
 				posX = 491.03
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/right_stage/dock/inventory_button",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/right_stage/dock/inventory_button",
 				triggerType = {
 					1
 				},
@@ -42,14 +42,14 @@ return {
 			style = {
 				text = "장비 화면 소개",
 				mode = 2,
-				posY = -162.96,
 				dir = 1,
+				posY = -162.96,
 				posX = 194.15
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/topItems/bottom_back/types/siren_weapon",
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/topItems/bottom_back/types/siren_weapon",
 				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/topItems/bottom_back/types/siren_weapon",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/topItems/bottom_back/types/siren_weapon",
 				triggerType = {
 					2
 				},

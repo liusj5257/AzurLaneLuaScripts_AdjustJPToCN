@@ -1,35 +1,35 @@
 slot0 = class("ChargeItemPanelLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChargeItemPanelUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 	slot0:initUIText()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updatePanel()
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.panelConfig = slot0.contextData.panelConfig
 end
 
-function slot0.initUIText(slot0)
+slot0.initUIText = function(slot0)
 	setText(slot0:findTF("window/button_container/button_cancel/Image"), i18n("text_cancel"))
 	setText(slot0:findTF("window/button_container/button_ok/Image"), i18n("text_buy"))
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("back_sign")
 	slot0.detailWindow = slot0:findTF("window")
 	slot0.cancelBtn = slot0:findTF("button_container/button_cancel", slot0.detailWindow)
@@ -67,7 +67,7 @@ function slot0.findUI(slot0)
 	slot0.detailNormalTip = slot0:findTF("NormalTips", slot0.detailWindow)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
@@ -75,7 +75,7 @@ function slot0.addListener(slot0)
 		uv0:closeView()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtn, function ()
-		function slot0()
+		slot0 = function()
 			if uv0.panelConfig.onYes then
 				uv0.panelConfig.onYes()
 				uv0:closeView()
@@ -102,7 +102,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updatePanel(slot0)
+slot0.updatePanel = function(slot0)
 	slot1 = slot0.panelConfig.icon
 	slot2 = slot0.panelConfig.name and slot0.panelConfig.name or ""
 	slot3 = slot0.panelConfig.tipBonus or ""

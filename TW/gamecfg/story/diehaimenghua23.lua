@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA23",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			bgm = "xinnong-3",
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "如果腦海中情報是真實的話，這個世界不存在塞壬，也不存在餘燼。存在的只是各陣營之間的戰火。",
-			bgm = "xinnong-3",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "誕生即是誕生，沉沒即為沉沒。不過……",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "吾等本是隨著與塞壬戰鬥中發現的心智魔方而誕生出的存在。",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "妾身曾不止一次懷疑過心智魔方與塞壬的關係，現在看來心智魔方也許與其無關…",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "即便是塞壬完全不存在的世界，吾等也可以誕生出來嗎…",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "當然，也不能排除這也是塞壬的某種模擬實驗的可能性…它們的各種實驗，在其他夢境中妾身已經見識了足夠多了。",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "這樣的話，它們這次究竟在模擬什麼…隱藏了自己的存在，又預製好了大量情報，它們究竟想要還原什麼…？",
 			typewriter = {
@@ -152,15 +152,15 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "注意注意，雪風大人回來囉~！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -185,8 +185,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "HO,HO,HO，雪風大人已經是成熟大人了，成熟大人才不會像孩子一樣這麼早就犯睏呢~！",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "哎，怎麼可能？！！！明明雪風大人剛剛找了一大圈都沒有遇到…！",
 			typewriter = {
 				speed = 0.05,
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -423,12 +423,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_xinnong2_2",
-			soundeffect = "event:/ui/fengling",
-			dir = 1,
 			say = "「——————可能是誘餌哦。」",
+			dir = 1,
+			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,9 +455,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
+			dir = 1,
 			say = "「——————航行計劃已經暴露，這一艘引誘汝等走向包圍網的誘餌。」",
 			typewriter = {
 				speed = 0.05,
@@ -469,14 +469,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
+			bgm = "xinnong-3",
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			soundeffect = "event:/ui/fengling",
 			dir = 1,
+			soundeffect = "event:/ui/fengling",
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "………磯風，停止追擊。",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,11 +487,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "信濃大人…？！！",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -513,12 +513,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
+			nameColor = "#a9f548",
 			say = "依然不能排除白鷹潛艇群設置伏擊的可能性，不要糾纏，全速脫離接觸……",
 			typewriter = {
 				speed = 0.05,

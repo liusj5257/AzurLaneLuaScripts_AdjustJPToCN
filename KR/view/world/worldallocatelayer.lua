@@ -8,11 +8,11 @@ slot0.TeamNum = {
 	"SIXTH"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldAllocateUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._selectedShipList = {}
 	slot0._shipTFList = {}
 	slot0._shipVOList = {}
@@ -51,7 +51,7 @@ function slot0.init(slot0)
 			return
 		end
 
-		function slot0()
+		slot0 = function()
 			slot0 = {}
 			uv0._preSelectedList = {}
 
@@ -107,38 +107,25 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
-	slot1 = slot0.contextData.fleetIndex or 1
-
-	setActive(slot0.fleetToggleMask, true)
-
-	for slot5, slot6 in ipairs(slot0.fleetList) do
-		if slot6.id == slot1 then
-			triggerToggle(slot0.fleetToggleList:GetChild(slot0.fleetToggleList.childCount - slot5), true)
-
-			break
-		end
-	end
-
+slot0.didEnter = function(slot0)
+	slot0:updateToggleList(slot0.fleetList, slot0.contextData.fleetIndex or 1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 end
 
-function slot0.showOrHideToggleMask(slot0, slot1)
+slot0.showOrHideToggleMask = function(slot0, slot1)
 	setActive(slot0.fleetToggleMask, slot1)
 	slot0:tweenTabArrow(not slot1)
 end
 
-function slot0.setFleets(slot0, slot1, slot2)
+slot0.setFleets = function(slot0, slot1, slot2)
 	slot0.fleetList = slot1
-
-	slot0:updateToggleList(slot1)
 end
 
-function slot0.setConfirmCallback(slot0, slot1)
+slot0.setConfirmCallback = function(slot0, slot1)
 	slot0.confirmCallback = slot1
 end
 
-function slot0.setItem(slot0, slot1)
+slot0.setItem = function(slot0, slot1)
 	slot0.itemVO = slot1
 
 	updateDrop(slot0.itemTF, Drop.New({
@@ -154,12 +141,12 @@ function slot0.setItem(slot0, slot1)
 	slot0:updateQuota()
 end
 
-function slot0.updateQuota(slot0)
+slot0.updateQuota = function(slot0)
 	setText(slot0.quotaTxt, #slot0._selectedShipList .. "/" .. slot0.quota)
 	setActive(slot0.countLabel, true)
 end
 
-function slot0.flush(slot0, slot1)
+slot0.flush = function(slot0, slot1)
 	if slot1.id ~= slot0.itemVO.id then
 		return
 	end
@@ -173,36 +160,48 @@ function slot0.flush(slot0, slot1)
 	end
 end
 
-function slot0.updateToggleList(slot0, slot1)
-	for slot5 = 1, slot0.fleetToggleList.childCount do
-		setActive(slot0.fleetToggleList:GetChild(slot0.fleetToggleList.childCount - slot5), slot1[slot5])
+slot0.updateToggleList = function(slot0, slot1, slot2)
+	setActive(slot0.fleetToggleList, true)
 
-		if slot1[slot5] then
-			setActive(slot6:Find("lock"), false)
-			setText(slot6:Find("on/mask/text"), i18n("world_fleetName" .. slot5))
-			setText(slot6:Find("on/mask/en"), uv0.TeamNum[slot5] .. " FLEET")
-			setText(slot6:Find("on/mask/number"), slot5)
-			setText(slot6:Find("off/mask/text"), i18n("world_fleetName" .. slot5))
-			setText(slot6:Find("off/mask/en"), uv0.TeamNum[slot5] .. " FLEET")
-			setText(slot6:Find("off/mask/number"), slot5)
-			onToggle(slot0, slot6, function (slot0)
+	slot3 = nil
+
+	for slot7 = 1, slot0.fleetToggleList.childCount do
+		setActive(slot0.fleetToggleList:GetChild(slot0.fleetToggleList.childCount - slot7), slot1[slot7])
+
+		if slot1[slot7] then
+			setActive(slot8:Find("lock"), false)
+			setText(slot8:Find("on/mask/text"), i18n("world_fleetName" .. slot7))
+			setText(slot8:Find("on/mask/en"), uv0.TeamNum[slot7] .. " FLEET")
+			setText(slot8:Find("on/mask/number"), slot7)
+			setText(slot8:Find("off/mask/text"), i18n("world_fleetName" .. slot7))
+			setText(slot8:Find("off/mask/en"), uv0.TeamNum[slot7] .. " FLEET")
+			setText(slot8:Find("off/mask/number"), slot7)
+			onToggle(slot0, slot8, function (slot0)
 				if slot0 then
 					uv0:showOrHideToggleMask(false)
 					uv0:setFleet(uv1[uv2].id)
 					uv0:updateQuota()
 				end
 			end, SFX_UI_TAG)
+
+			if slot1[slot7].id == slot2 then
+				slot3 = slot8
+			end
 		end
+	end
+
+	if slot3 then
+		triggerToggle(slot3, true)
 	end
 end
 
-function slot0.updateFleetButton(slot0, slot1)
+slot0.updateFleetButton = function(slot0, slot1)
 	setText(slot0.btnFleet:Find("fleet/CnFleet"), i18n("world_fleetName" .. slot1))
 	setText(slot0.btnFleet:Find("fleet/enFleet"), uv0.TeamNum[slot1] .. " FLEET")
 	setText(slot0.btnFleet:Find("fleet/num"), slot1)
 end
 
-function slot0.tweenTabArrow(slot0, slot1)
+slot0.tweenTabArrow = function(slot0, slot1)
 	setActive(slot0.btnFleet:Find("arr"), slot1)
 
 	if slot1 then
@@ -216,7 +215,7 @@ function slot0.tweenTabArrow(slot0, slot1)
 	end
 end
 
-function slot0.setFleet(slot0, slot1)
+slot0.setFleet = function(slot0, slot1)
 	slot0:updateFleetButton(slot1)
 
 	slot2 = slot0.itemVO:getWorldItemType()
@@ -276,7 +275,7 @@ function slot0.setFleet(slot0, slot1)
 	end))
 end
 
-function slot0.OnUpdateShipHP(slot0)
+slot0.OnUpdateShipHP = function(slot0)
 	slot1 = slot0.fleetList[slot0.currentFleetIndex]
 	slot2 = slot0.itemVO:getItemBuffID()
 
@@ -305,7 +304,7 @@ function slot0.OnUpdateShipHP(slot0)
 	slot0._preSelectedList = nil
 end
 
-function slot0.OnUpdateShipBuff(slot0)
+slot0.OnUpdateShipBuff = function(slot0)
 	slot1 = slot0.fleetList[slot0.currentFleetIndex]
 	slot2 = slot0.itemVO:getItemBuffID()
 
@@ -343,7 +342,7 @@ function slot0.OnUpdateShipBuff(slot0)
 	slot0._preSelectedList = nil
 end
 
-function slot0.updateSelectShipHP(slot0, slot1, slot2, slot3)
+slot0.updateSelectShipHP = function(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("selected"), slot2)
 	setActive(slot1:Find("hp/progress_bg/bar_preview"), slot2)
 	setActive(slot1:Find("hp/hp_text"), slot2)
@@ -371,11 +370,11 @@ function slot0.updateSelectShipHP(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateSelectShipBuff(slot0, slot1, slot2)
+slot0.updateSelectShipBuff = function(slot0, slot1, slot2)
 	setActive(slot1:Find("selected"), slot2)
 end
 
-function slot0.initHP(slot0, slot1, slot2)
+slot0.initHP = function(slot0, slot1, slot2)
 	slot4 = slot1:Find("hp")
 
 	setActive(slot4, true)
@@ -419,7 +418,7 @@ function slot0.initHP(slot0, slot1, slot2)
 	return not slot2:IsHpFull()
 end
 
-function slot0.initBuff(slot0, slot1, slot2)
+slot0.initBuff = function(slot0, slot1, slot2)
 	slot4 = slot1:Find("buff")
 
 	setActive(slot1:Find("hp"), false)
@@ -465,7 +464,7 @@ function slot0.initBuff(slot0, slot1, slot2)
 	return slot12 and not slot11
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	setParent(slot0.shipTpl, slot0.fleetInfo, false)
 	setParent(slot0.emptyTpl, slot0.fleetInfo, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)

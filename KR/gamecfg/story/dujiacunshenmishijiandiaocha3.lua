@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리조트 신비 사건 조사\n\n<size=45>행방불명 사건!</size>",
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
-			say = "이틀 후, 만쥬 온천 마을.",
 			bgm = "theme-warmwinter-daily",
+			say = "이틀 후, 만쥬 온천 마을.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "선생님 역할이 많음",
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관, 곧 도착이야!",
@@ -47,8 +47,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관, 곧 도착이야!",
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아니, 너무 신나서 다른 말이 생각이 안 나서 그래!",
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…그나저나 여관 로비에 왜 아무도 없는 거지?",
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "분명 선발대 사람들이 맞아줄 줄 알았는데……",
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "둥실이와 함께",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "설마…",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "후후후… 사건의 냄새가 나는걸?",
@@ -244,28 +244,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_516",
+			bgm = "cw-story",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "만쥬 온천 마을, 여관 본관",
-			bgm = "cw-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "웰컴 드링크는 차인 것 같네. 아, 주전자 안에 담긴 것도 아직 따뜻해.",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관! 이거 봐!!",
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "푸슌이 손가락으로 가리킨 식탁 위에는 이상한 존재감을 뿜어내는 카드 한 장이 놓여져 있었다.",
@@ -406,8 +406,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "검붉은 색의 카드 위에는 잡지 등에서 오려낸 글자로 얼기설기 만들어진 문장이 실려 있어 더욱 섬뜩함을 자아냈다.",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "내가 읽어볼게!",
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"여러분을 접대하기 위해 이 세상에서 가장 훌륭한 공연을 준비했습니다.\"",
@@ -491,11 +491,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"여러분을 진심으로 환영합니다.\"",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "진짜 '요괴 극단'이라고 적혀있네! 우와!",
@@ -675,11 +675,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응! 푸슌이랑 카스미, 하츠즈키 그리고 나! 이렇게 네 명이서 조사팀을 꾸리는 거야!",
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "의외로 변장이 특기",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이대로면 마음이 안 놓이는군. 지휘관 동지, 모항에 지원을 요청해도 될까?",
